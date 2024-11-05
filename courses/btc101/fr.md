@@ -136,7 +136,7 @@ Bitcoin est donc un protocole qui s'inscrit sur des temps longs, et qui nous inc
 
 Si vous souhaitez explorer plus en détail l'histoire de Bitcoin, je vous recommande vivement notre formation HIS 201. Vous y découvrirez les origines et la lente émergence de Bitcoin, ainsi que les débuts de son histoire et de sa communauté. Cette formation est entièrement documentée et sourcée, avec bien sûr de nombreuses anecdotes :
 
-[HIS 201 - L'histoire de la création de Bitcoin](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 # La monnaie
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -264,7 +264,7 @@ Néanmoins, nous ne pouvons pas leurs arracher violemment, tout ce que l’on pe
 
 Pour en savoir plus sur les sophismes économiques et la liberté, je vous invite à découvrir notre formation ECO 102. Celle-ci retrace la vie et les idées de Frédéric Bastiat, un penseur français du XIXe siècle qui, sans doute, aurait apprécié voir l'émergence de Bitcoin :
 
-[ECO 102 - Frédéric Bastiat, Vie, Influences et Pensée Économique](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Les hyperinflations
@@ -355,7 +355,7 @@ Une monnaie qui repose sur un tiers de confiance comme une institution financiè
 
 Pour approfondir le sujet des hyperinflations, je vous recommande la formation ECO 204 de David St-Onge. Vous y apprendrez ce que sont les cycles hyperinflationnistes et quels sont leurs impacts réels sur nos vies. Vous découvrirez également les similitudes entre ces cycles et, surtout, comment vous en protéger :
 
-[ECO 204 - Les Hyperinflations](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 millions de bitcoins
@@ -528,7 +528,7 @@ Choisissez un portefeuille qui correspond à vos besoins et à votre utilisation
 
 Si durant votre parcours dans le terrier du lapin, vous souhaitez en savoir plus sur la construction d'un portefeuille Bitcoin, de l'entropie jusqu'aux adresses de réception, je vous recommande la formation CYP 201 consacrée à ce sujet :
 
-[CYP 201 : le fonctionnement des portefeuilles Bitcoin](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Sécurité et Portefeuilles Bitcoin

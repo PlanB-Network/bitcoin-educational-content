@@ -130,7 +130,7 @@ Bitcoin je tedy protokol, který překlenuje dlouhá období a vyzývá nás, ab
 
 Pokud byste chtěli podrobněji prozkoumat historii Bitcoinu, důrazně doporučuji náš kurz HIS 201. Objevíte zde původ a pomalý vznik Bitcoinu, stejně jako začátky jeho historie a komunity. Tento kurz je plně dokumentovaný a podložený zdroji a samozřejmě obsahuje mnoho anekdot:
 
-[HIS 201 - Historie vzniku Bitcoinu](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # Peníze
@@ -250,7 +250,7 @@ Tuto kapitolu můžeme uzavřít citátem nositele Nobelovy ceny F.A. Hayeka z r
 
 Pokud se chcete dozvědět více o ekonomických klamech a svobodě, zvu vás k objevování našeho kurzu ECO 102. Tento kurz mapuje život a myšlenky Frédérica Bastiata, francouzského myslitele 19. století, který by bezpochyby ocenil vznik Bitcoinu :
 
-[ECO 102 - Frédéric Bastiat, Život, Vlivy a Ekonomické Myšlení](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Hyperinflace
@@ -335,7 +335,7 @@ Závěrem, hyperinflace má za následek rychlé snižování hodnoty měny, co�
 
 Pro hlubší porozumění tématu hyperinflací doporučuji kurz ECO 204 od Davida St-Onge. Zde se dozvíte, co jsou hyperinflační cykly a jaké jsou jejich skutečné dopady na naše životy. Objevíte také podobnosti mezi těmito cykly a hlavně to, jak se před nimi chránit:
 
-[ECO 204 - Hyperinflace](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 milionů bitcoinů
@@ -494,7 +494,7 @@ Vyberte si peněženku, která vyhovuje vašim potřebám a způsobu použití. 
 
 Pokud během vaší cesty králičí norou budete chtít vědět více o tvorbě Bitcoin peněženky, od entropie až po přijímací adresy, doporučuji kurz CYP 201 věnovaný tomuto tématu:
 
-[CYP 201 : Jak fungují Bitcoin peněženky](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Bezpečnost a Bitcoinové peněženky

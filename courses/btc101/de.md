@@ -132,7 +132,7 @@ Bitcoin ist also ein Protokoll, das sich über lange Zeiträume erstreckt und un
 
 Wenn Sie die Geschichte von Bitcoin detaillierter erkunden möchten, empfehle ich Ihnen unseren Kurs HIS 201. Dort entdecken Sie die Ursprünge und die langsame Entstehung von Bitcoin sowie die Anfänge seiner Geschichte und seiner Community. Dieser Kurs ist vollständig dokumentiert und mit zahlreichen Anekdoten unterlegt:
 
-[HIS 201 - Die Geschichte der Entstehung von Bitcoin](https://planb.network/courses/his201)
+https://planb.network/courses/his201
 
 
 # Die Währung
@@ -248,7 +248,7 @@ Gleichzeitig scheint die Einführung von digitalen Zentralbankwährungen, oder C
 
 Um mehr über wirtschaftliche Trugschlüsse und Freiheit zu erfahren, lade ich Sie ein, unseren Kurs ECO 102 zu entdecken. Dieser Kurs zeichnet das Leben und die Ideen von Frédéric Bastiat nach, einem französischen Denker des 19. Jahrhunderts, der zweifellos die Entstehung von Bitcoin geschätzt hätte:
 
-[ECO 102 - Frédéric Bastiat, Leben, Einflüsse und Wirtschaftliches Denken](https://planb.network/courses/eco102)
+https://planb.network/courses/eco102
 
 
 ## Die Hyperinflationen
@@ -332,7 +332,7 @@ Eine Währung, die auf einem Vertrauensdritten wie einer Finanzinstitution beruh
 
 Um das Thema Hyperinflation zu vertiefen, empfehle ich den Kurs ECO 204 von David St-Onge. Dort lernen Sie, was hyperinflationäre Zyklen sind und welche tatsächlichen Auswirkungen sie auf unser Leben haben. Sie werden auch die Ähnlichkeiten zwischen diesen Zyklen entdecken und vor allem, wie Sie sich davor schützen können:
 
-[ECO 204 - Die Hyperinflationen](https://planb.network/courses/eco204)
+https://planb.network/courses/eco204
 
 
 ## 21 Millionen Bitcoins
@@ -492,7 +492,7 @@ Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entsp
 
 Wenn Sie während Ihrer Reise durch den Kaninchenbau mehr über den Aufbau einer Bitcoin-Wallet erfahren möchten, von der Entropie bis hin zu Empfangsadressen, empfehle ich den Kurs CYP 201, der diesem Thema gewidmet ist:
 
-[CYP 201 : Das Funktionieren von Bitcoin-Wallets](https://planb.network/courses/cyp201)
+https://planb.network/courses/cyp201
 
 
 ## Sicherheit und Bitcoin-Brieftaschen

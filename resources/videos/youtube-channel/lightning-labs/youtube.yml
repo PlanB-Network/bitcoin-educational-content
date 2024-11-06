@@ -1,5 +1,4 @@
 title: Lightning Labs
-cover: cover.webp
 builder: Lightning labs
 level: advanced
 link: https://www.youtube.com/@LightningLabs
@@ -12,3 +11,9 @@ tags:
 # Proofreading metadata
 original_language: en
 proofreading:
+  - language: en
+    last_contribution_date: 2024-11-05
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 0

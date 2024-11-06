@@ -1,9 +1,0 @@
-question: Ovatko Lightning-maksukanavat kaksisuuntaisia?
-answer: "Kyllä"
-wrong_answers:
-  - "Ei"
-  - Vain joissakin tapauksissa
-  - Se riippuu Bitcoin-verkosta
-explanation: |
-  Maksukanavat ovat kaksisuuntaisia, mikä tarkoittaa, että niillä on kaksi "puolta". Esimerkiksi, jos Alice ja Bob avaavat maksukanavan, Alice voi lähettää Bitcoinia Bobille, ja Bob voi lähettää Bitcoinia Alicelle.
-reviewed: false

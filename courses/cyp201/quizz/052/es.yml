@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel de BIP38 en el ecosistema de Bitcoin?
-answer: Propuso agregar una frase de contraseña adicional para reforzar la seguridad de las claves individuales.
-wrong_answers:
-  - Introdujo la frase mnemotécnica de 24 palabras.
-  - Revolucionó la forma en que se generan y almacenan las claves.
-  - Estandarizó la estructura y jerarquía de las carteras HD.
-explanation: |
-  BIP38 propuso agregar una frase de contraseña adicional para reforzar la seguridad de las claves individuales. Esta es una de las muchas mejoras realizadas para mejorar la seguridad y funcionalidad de las carteras HD.
-reviewed: false

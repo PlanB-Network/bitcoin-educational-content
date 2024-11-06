@@ -1,9 +1,0 @@
-question: Mikä on nopein ja vähiten kallis kanavan sulkemistyyppi?
-answer: Yhteistyöllinen sulkeminen.
-wrong_answers:
-  - Pakotettu sulkeminen.
-  - Huijarin tekemä sulkeminen.
-  - Ei ole eroa nopeudessa ja kustannuksissa eri sulkemistyyppejen välillä.
-explanation: |
-  Yhteistyöllisessä sulkemisessa molemmat osapuolet kommunikoivat ja sopivat kanavan lopullisesta tilasta. Tämä on nopein ja vähiten kallis vaihtoehto.
-reviewed: false

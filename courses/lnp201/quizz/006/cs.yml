@@ -1,9 +1,0 @@
-question: Jsou platební kanály Lightning obousměrné?
-answer: "Ano"
-wrong_answers:
-  - "Ne"
-  - Pouze v některých případech
-  - Záleží na síti Bitcoin
-explanation: |
-  Platební kanály jsou obousměrné, což znamená, že mají dvě "strany". Například, pokud Alice a Bob otevřou platební kanál, Alice může poslat Bitcoin Bobovi a Bob může poslat Bitcoin Alici.
-reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito principal de las firmas digitales en el protocolo de Bitcoin?
-answer: Para demostrar la posesión de una clave privada asociada a una clave pública específica.
-wrong_answers:
-  - Para encriptar los datos de la transacción
-  - Para generar nuevos bitcoins
-  - Para verificar la identidad del remitente
-explanation: |
-  En el núcleo del protocolo de Bitcoin, las firmas digitales se utilizan como pruebas matemáticas que demuestran la posesión de una clave privada asociada a una clave pública específica.
-reviewed: false

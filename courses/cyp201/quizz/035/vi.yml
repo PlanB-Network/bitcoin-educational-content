@@ -1,9 +1,0 @@
-question: Kích thước của khóa công khai Bitcoin là bao nhiêu?
-answer: Số 512-bit
-wrong_answers:
-  - Số 256-bit
-  - Số 128-bit
-  - Số 1024-bit
-explanation: |
-  Khóa riêng biệt độc nhất được sử dụng để tạo ra một khóa công khai 512-bit trong hệ thống Bitcoin.
-reviewed: false

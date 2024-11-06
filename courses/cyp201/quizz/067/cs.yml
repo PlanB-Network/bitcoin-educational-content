@@ -1,9 +1,0 @@
-question: Jak se určuje velikost kontrolního součtu při generování mnemonické fráze pro Bitcoinovou peněženku?
-answer: Dělením velikosti entropie číslem 32.
-wrong_answers:
-  - Násobením velikosti entropie číslem 32.
-  - Přičtením 32 k velikosti entropie.
-  - Odečtením 32 od velikosti entropie.
-explanation: |
-  Velikost kontrolního součtu se určuje dělením velikosti entropie číslem 32. Například 256bitová entropie generuje 8bitový kontrolní součet.
-reviewed: false

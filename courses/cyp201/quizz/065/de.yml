@@ -1,9 +1,0 @@
-question: Was ist der Hauptvorteil der Verwendung eines neuen Schlüsselpaars für jede Bitcoin-Transaktion?
-answer: Es verbessert die Sicherheit.
-wrong_answers:
-  - Es verbessert die Geschwindigkeit.
-  - Es verbessert die Anonymität.
-  - Es verbessert die Rechtmäßigkeit.
-explanation: |
-  Die Verwendung eines neuen Schlüsselpaars für jede Transaktion verbessert die Sicherheit von Bitcoin-Transaktionen. Es erschwert jedoch deren Sicherung und bewahrt die Vertraulichkeit nur teilweise.
-reviewed: false

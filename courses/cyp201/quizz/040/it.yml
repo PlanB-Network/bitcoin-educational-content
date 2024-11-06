@@ -1,9 +1,0 @@
-question: Qual è l'importanza dell'utilizzo di un nonce univoco nell'algoritmo ECDSA?
-answer: Aiuta a evitare attacchi di sicurezza.
-wrong_answers:
-  - Aumenta la velocità dell'algoritmo.
-  - Riduce la complessità computazionale.
-  - È necessario per il corretto funzionamento dell'algoritmo.
-explanation: |
-  L'utilizzo di un nonce univoco nell'algoritmo ECDSA è fondamentale per mantenere la sicurezza. Riutilizzare un nonce può portare a vulnerabilità, come dimostrato dall'hack della PlayStation 3, che è stato compromesso a causa del riutilizzo del nonce.
-reviewed: false

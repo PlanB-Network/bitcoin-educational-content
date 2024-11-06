@@ -1,9 +1,0 @@
-question: Jaká je role BIP38 v ekosystému Bitcoinu?
-answer: Navrhl přidání dalšího hesla pro posílení bezpečnosti jednotlivých klíčů.
-wrong_answers:
-  - Zavedl 24-slovnou mnemonickou frázi.
-  - Revolucionizoval způsob generování a ukládání klíčů.
-  - Standardizoval strukturu a hierarchii HD peněženek.
-explanation: |
-  BIP38 navrhl přidání dalšího hesla pro posílení bezpečnosti jednotlivých klíčů. To je jedno z mnoha vylepšení učiněných pro zvýšení bezpečnosti a funkčnosti HD peněženek.
-reviewed: false

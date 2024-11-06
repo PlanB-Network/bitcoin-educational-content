@@ -1,9 +1,9 @@
-question: Qu'est-ce que la multiplication scalaire d'un point par n sur une courbe elliptique ?
-answer: Cela équivaut à ajouter ce point à lui-même n fois.
+question: Dans quel BIP est proposée l'idée de la phrase de récupération, ou phrase mnémonique (12/24 mots) ?
+answer: BIP39.
 wrong_answers:
-  - Cela équivaut à soustraire ce point à lui-même n fois.
-  - Cela équivaut à multiplier ce point par lui-même n fois.
-  - Cela équivaut à diviser ce point par lui-même n fois.
+  - BIP16.
+  - BIP32.
+  - BIP44.
 explanation: |
-  La multiplication scalaire d'un point par n sur une courbe elliptique équivaut à ajouter ce point à lui-même n fois. Cette opération est la base du calcul des clés publiques dans le système Bitcoin.
+  Le BIP39 a introduit la phrase de récupération mnémonique de 24 mots, afin de faciliter la sauvegarde des clés pour les utilisateurs de portefeuilles HD.
 reviewed: false

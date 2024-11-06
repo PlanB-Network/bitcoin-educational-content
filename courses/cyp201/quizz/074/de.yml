@@ -1,9 +1,0 @@
-question: Warum ist es wichtig, die 24-Wort-Wiederherstellungsphrase einer Bitcoin-Wallet zu sichern?
-answer: Um jeglichen Verlust von Geldern zu verhindern.
-wrong_answers:
-  - Um die Genauigkeit der Wiederherstellungsphrase zu überprüfen.
-  - Um die Entropie für die Wallet zu generieren.
-  - Um die Wiederherstellungsphrase zur zusätzlichen Sicherheit zu verschlüsseln.
-explanation: |
-  Das Sichern der 24-Wort-Wiederherstellungsphrase ist entscheidend, um jeglichen Verlust von Geldern zu verhindern.
-reviewed: false

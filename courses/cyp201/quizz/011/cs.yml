@@ -1,9 +1,0 @@
-question: Co představují konstanty K v procesu funkce SHA-256?
-answer: Prvních 32 bitů desetinných částí kubických kořenů prvních 64 prvočísel
-wrong_answers:
-  - Prvních 32 bitů desetinných částí druhých mocnin prvních 64 prvočísel
-  - Prvních 32 bitů desetinných částí kubických kořenů prvních 8 prvočísel
-  - Prvních 32 bitů desetinných částí druhých mocnin prvních 8 prvočísel
-explanation: |
-  V procesu funkce SHA-256 konstanty K, od 0 do 63, představují prvních 32 bitů desetinných částí kubických kořenů prvních 64 prvočísel. Tyto jsou používány jako základní ingredience v kryptografickém receptu.
-reviewed: false

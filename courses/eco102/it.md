@@ -257,7 +257,6 @@ La questione del libero scambio continua ad essere rilevante oggi. I libri di te
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
 Frédéric Bastiat, che si esprimeva negli anni 1840, è l'erede di una generazione di filosofi dell'Illuminismo che hanno combattuto contro la censura e per la libertà di dibattito. Pensate a Montesquieu, Diderot, Voltaire, Condorcet, ma anche Rousseau.
 
@@ -301,7 +300,6 @@ Secondo Bastiat, la società, le persone e le proprietà esistono prima delle le
 ## Educazione Classica
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
 Il 24 febbraio 1848, dopo tre giorni di sommosse a Parigi, il re Luigi Filippo I abdicò al suo potere. Questo segnò la nascita della Seconda Repubblica.
 ![image](assets/image/06/IMG20.webp)
 
@@ -341,7 +339,6 @@ Tuttavia, come ci ricorda Bastiat, il monopolio esclude il progresso.
 ## Protezionismo e Socialismo
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![immagine](assets/image/07/IMG11.webp)
 
@@ -380,6 +377,8 @@ E avrebbe continuato ad analizzarne gli effetti perversi in seguito. Ecco un ese
 - 3° Bastiat aggiunge che, a suo avviso, il protezionismo fu la prima manifestazione di questo disordine. I capitalisti iniziarono chiedendo l'intervento della legge per aumentare la loro quota di ricchezza. Inevitabilmente, i lavoratori vollero fare lo stesso.
 
 Per concludere, protezionisti e socialisti condividono un punto comune, secondo Bastiat: ciò che cercano dalla legge non è assicurare a tutti il libero esercizio delle proprie facoltà e la giusta ricompensa per i loro sforzi, ma piuttosto favorire lo sfruttamento più o meno completo di una classe di cittadini da parte di un'altra. Con il protezionismo, è la minoranza che sfrutta la maggioranza. Con il socialismo, è la maggioranza che sfrutta la minoranza. In entrambi i casi, la giustizia è violata e l'interesse generale è compromesso. Bastiat li contrappone l'uno all'altro.
+
+> Lo Stato è la grande finzione attraverso la quale ognuno si sforza di vivere a spese degli altri.
 
 ## Proudhon
 
@@ -422,7 +421,6 @@ In conclusione, sia Proudhon che Bastiat riconobbero l'importanza dell'accumulaz
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
 In questo capitolo, svelerò una tecnologia completamente nuova, una tecnologia rivoluzionaria. Un ricercatore ha sviluppato un paio di occhiali bionici con una mini-telecamera ultra-potente incorporata nella parte frontale. Questa tecnologia permette di vedere dettagli impossibili da vedere ad occhio nudo. Nelle aste, c'è un chip elettronico che trasmette le immagini direttamente al cloud tramite il mio smartphone.
 
@@ -435,7 +433,7 @@ Così, in Opere Pubbliche, Bastiat scrive:
 
 > Lo Stato apre una strada, costruisce un palazzo, rettifica una strada, scava un canale; con ciò, dà lavoro a certi lavoratori, questo è ciò che si vede; ma priva di lavoro certi altri, questo è ciò che non si vede.
 
-![image](assets/image/09/IMG20.webp)
+
 Uno dei sofismi più noti è la fallacia della finestra rotta. Alcuni sostengono che la rottura di una finestra in una casa non danneggi l'economia poiché beneficia il vetraio. Ma Bastiat dimostrerà che la distruzione non è nel nostro interesse perché non crea ricchezza. Costa più di quanto renda. Il ragazzo che rompe la finestra di un vicino dà lavoro al vetraio. Ma ecco come i suoi amici lo consolano:
 
 > "Non c'è male senza bene. Tali incidenti mantengono in moto l'industria. Tutti hanno bisogno di vivere. Che ne sarebbe dei vetrai se le finestre non si rompessero mai?"
@@ -462,7 +460,6 @@ La grande lezione da questa serie di testi è che l'intervento dello stato ha ef
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
 Nel 1840, la Camera dei Deputati votò per una legge che aumentava le tasse di importazione per proteggere l'industria francese. Questo è il famoso patriottismo economico, che incontriamo ancora oggi.
 
 ![image](assets/image/10/IMG13.webp)
@@ -535,7 +532,12 @@ Il problema è che le tasse, così concepite, sono soggette all'arbitrarietà di
 
 Ecco perché Bastiat aveva già compreso la curva di Laffer. Arthur Laffer è un economista americano noto per la sua famosa "curva" (un'ellisse), pubblicata nel 1974, che mostra come il rendimento dalle tasse aumenti con l'abbassamento del tasso di tassazione. Questa è la teoria del rendimento decrescente della tassazione eccessiva.
 
+> Troppe tasse uccidono la tassa.
+
 I politici presumono ingenuamente che esista una relazione automatica e fissa tra aliquote fiscali e entrate fiscali. Pensano di poter raddoppiare le entrate fiscali raddoppiando l'aliquota fiscale. Secondo Laffer, un tale approccio trascura il fatto che i contribuenti possono cambiare il loro comportamento in risposta a nuovi incentivi.
+
+![image](assets/image/11/IMG7.webp)
+
 La curva di Laffer mostra che il governo non raccoglie entrate quando le aliquote fiscali sono al 100%. Al contrario, ogni riduzione delle tasse serve a stimolare l'attività economica e quindi le entrate statali. Infatti, ridurre le aliquote marginali stimola gli investimenti, il lavoro, la creatività e quindi promuove la crescita economica. Una riduzione sufficiente potrebbe produrre abbastanza stimolo economico da aumentare le entrate pubbliche ampliando significativamente la base imponibile.
 
 Bastiat potrebbe aggiungere che tanta importanza dovrebbe essere data alla riduzione delle spese statali quanto alla riduzione delle tasse. Tuttavia, come Margaret Thatcher, discepola di Frédéric Bastiat, ha così bene affermato:
@@ -592,7 +594,6 @@ Una cosa è certa, non è il politico che può cambiare il corso delle cose e pe
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
 Una società armoniosa può fare a meno di leggi scritte, regole, misure repressive? Se gli uomini sono lasciati liberi, non assisteremo a disordine, anarchia, disorganizzazione? Come evitare di creare una mera giustapposizione di individui che agiscono al di fuori di qualsiasi concerto, se non attraverso leggi e un'organizzazione politica centralizzata?
 
@@ -637,7 +638,6 @@ La pianificazione economica, che pretende di fare meglio del mercato, porta non 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-![video](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
 
 In una lettera ad Alphonse de Lamartine nel 1845, Bastiat scrisse che la sua intera filosofia è contenuta in un unico principio:
 
@@ -700,7 +700,6 @@ In altre parole, le scelte collettive non sono scelte responsabili poiché, da u
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
 Nel corso precedente, abbiamo visto perché la libertà e la responsabilità sono chiavi per il problema sociale. Ora approfondiremo questo punto mostrando come Frédéric Bastiat veda i mali che affliggono le società e la loro soluzione.
 
@@ -747,7 +746,6 @@ Deve essere chiarito che questo sviluppo del progresso attraverso la responsabil
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -882,7 +880,6 @@ Bastiat scrisse ne "La Legge", poco tempo prima di morire. Un secolo dopo la mor
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
 Nel 1848, Bastiat era un deputato. Fu nominato vicepresidente della commissione finanziaria. Era, quindi, particolarmente ben posizionato per rispondere a questa domanda: cos'è lo Stato? Ci rivolgiamo allo Stato per garantire il nostro benessere. Ma Bastiat ci ricorda che lo Stato non può dare nulla ai cittadini che non abbia prima preso da loro.
 
@@ -960,4 +957,5 @@ Ma come Bastiat ha abilmente dimostrato, l'intervento dello Stato ha effetti per
 Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della GE, i cosiddetti miracoli della spesa pubblica appaiono sotto una luce completamente diversa. Poiché le tasse scoraggiano la produzione, e la ricchezza creata dalla spesa pubblica non può compensare pienamente quelle che sono state impediti di nascere dalle tasse imposte per pagare queste spese.
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
+
 

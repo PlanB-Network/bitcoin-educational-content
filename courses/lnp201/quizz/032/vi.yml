@@ -1,9 +1,0 @@
-question: Điều gì xảy ra khi một giao dịch cam kết mới được tạo ra?
-answer: Một bí mật mới được quyết định và một chìa khóa thu hồi mới được tạo ra, và giao dịch cam kết trước đó phải được hủy bỏ bằng cách cung cấp bí mật thu hồi.
-wrong_answers:
-  - Giao dịch cam kết trước đó được giữ lại như một bản sao lưu.
-  - Một Timelock mới được tạo ra và giao dịch cam kết trước đó được cập nhật.
-  - Giao dịch cam kết trước đó được cập nhật với bí mật mới và chìa khóa thu hồi.
-explanation: |
-  Khi một giao dịch cam kết mới được tạo ra, một bí mật mới và một chìa khóa thu hồi mới được quyết định. Giao dịch cam kết trước đó phải được hủy bỏ bằng cách cung cấp bí mật thu hồi để ngăn chặn bất kỳ bên nào gian lận bằng cách công bố một trạng thái cũ.
-reviewed: false

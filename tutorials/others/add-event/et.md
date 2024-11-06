@@ -13,7 +13,7 @@ Kui soovite PlanB võrgustiku saidile lisada Bitcoin'i konverentsi, et suurendad
 https://planb.network/tutorials/others/create-github-account
 
 
-- Minge [PlanB-le pühendatud GitHubi andmerepositooriumisse](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) jaotisesse `resources/conference/`:
+- Minge [PlanB-le pühendatud GitHubi andmerepositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) jaotisesse `resources/conference/`:
 ![event](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
 ![event](assets/03.webp)

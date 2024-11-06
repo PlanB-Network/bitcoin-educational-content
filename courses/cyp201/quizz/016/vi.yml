@@ -1,9 +1,0 @@
-question: Mục đích của giai đoạn thứ hai trong quá trình tiền xử lý của SHA256 là gì?
-answer: Để thêm biểu diễn nhị phân của kích thước thông điệp ban đầu, tính bằng bit
-wrong_answers:
-  - Để thêm các bit đệm vào đầu vào
-  - Để phân chia đầu vào thành các khối thông điệp 512-bit khác nhau
-  - Để thực hiện 64 vòng tính toán trong hàm nén
-explanation: |
-  Giai đoạn thứ hai của quá trình tiền xử lý trong SHA256 bao gồm việc thêm biểu diễn nhị phân của kích thước thông điệp ban đầu, tính bằng bit. Điều này được thực hiện bằng cách sử dụng 64 bit dành riêng từ bước trước.
-reviewed: false

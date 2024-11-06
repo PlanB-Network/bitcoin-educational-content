@@ -1,9 +1,0 @@
-question: Was ist die Rolle des Generatorpunkts in der elliptischen Kurve?
-answer: Er wird verwendet, um den Punkt auf der elliptischen Kurve zu berechnen.
-wrong_answers:
-  - Er wird verwendet, um die Nonce zu generieren.
-  - Er wird verwendet, um die Schlüssel zu verschlüsseln.
-  - Er wird verwendet, um die Schlüssel zu speichern.
-explanation: |
-  Der Generatorpunkt ist ein spezifischer Punkt auf der elliptischen Kurve, der bei der Berechnung anderer Punkte auf der Kurve verwendet wird. Er wird bei der Generierung von öffentlichen und privaten Schlüsseln sowie bei der Erstellung und Überprüfung digitaler Signaturen verwendet.
-reviewed: false

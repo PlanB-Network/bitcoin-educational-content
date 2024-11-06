@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de un checksum en la generación de una frase mnemotécnica para una billetera de Bitcoin?
-answer: Su propósito es asegurar la verificación de la precisión de la frase de recuperación.
-wrong_answers:
-  - Genera la entropía para la billetera.
-  - Determina el número de palabras en la frase de recuperación.
-  - Encripta la frase de recuperación para mayor seguridad.
-explanation: |
-  El checksum se obtiene al pasar la entropía a través de la función SHA256 y recuperar los primeros 8 bits del hash. Sin este checksum, un error en la frase podría resultar en la creación de una billetera diferente y, por lo tanto, la pérdida de fondos.
-reviewed: false

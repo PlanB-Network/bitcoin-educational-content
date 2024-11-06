@@ -1,9 +1,0 @@
-question: Mikä on merkitys käyttää ainutlaatuista nonce-arvoa ECDSA-algoritmissa?
-answer: Se auttaa välttämään turvallisuushyökkäyksiä.
-wrong_answers:
-  - Se lisää algoritmin nopeutta.
-  - Se vähentää laskennallista monimutkaisuutta.
-  - Se on vaadittu, jotta algoritmi toimisi.
-explanation: |
-  Ainutlaatuisen nonce-arvon käyttö ECDSA-algoritmissa on ratkaisevan tärkeää turvallisuuden ylläpitämiseksi. Nonce-arvon uudelleenkäyttö voi johtaa haavoittuvuuksiin, kuten PlayStation 3 -hakkerointi osoitti, joka kompromisoitiin nonce-arvon uudelleenkäytön vuoksi.
-reviewed: false

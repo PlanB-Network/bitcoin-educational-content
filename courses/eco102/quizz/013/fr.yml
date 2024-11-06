@@ -1,0 +1,9 @@
+question: Quel est le fondement de la valeur selon Frédéric Bastiat ?
+answer: L'utilité
+wrong_answers:
+  - Le travail
+  - La rareté
+  - La demande
+explanation: |
+  Bastiat adopte l'idée de Say que l'utilité est le fondement de la valeur, contrairement aux théories basées sur le travail ou la rareté.
+reviewed: false

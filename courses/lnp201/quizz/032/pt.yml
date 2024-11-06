@@ -1,9 +1,0 @@
-question: O que acontece quando uma nova transação de compromisso é criada?
-answer: Um novo segredo é decidido e uma nova chave de revogação é criada, e a transação de compromisso anterior deve ser destruída ao fornecer o segredo de revogação.
-wrong_answers:
-  - A transação de compromisso anterior é mantida como backup.
-  - Um novo Timelock é criado e a transação de compromisso anterior é atualizada.
-  - A transação de compromisso anterior é atualizada com o novo segredo e a chave de revogação.
-explanation: |
-  Quando uma nova transação de compromisso é criada, um novo segredo e uma nova chave de revogação são decididos. A transação de compromisso anterior deve ser destruída ao fornecer o segredo de revogação para evitar que qualquer parte trapaceie publicando um estado antigo.
-reviewed: false

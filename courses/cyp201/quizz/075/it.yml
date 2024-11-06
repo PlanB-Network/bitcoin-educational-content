@@ -1,9 +1,0 @@
-question: Quale funzione viene utilizzata per generare il seed dalla passphrase in un portafoglio Bitcoin?
-answer: pbkdf2
-wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
-explanation: |
-  La funzione pbkdf2 viene utilizzata per generare il seed dalla passphrase in un portafoglio Bitcoin. Questo seed consente la derivazione di tutte le coppie di chiavi figlie del portafoglio.
-reviewed: false

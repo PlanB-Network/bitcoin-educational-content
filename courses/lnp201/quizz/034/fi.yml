@@ -1,9 +1,0 @@
-question: Mikä on Timelockin tarkoitus sitoumustapahtumassa?
-answer: Se lukitsee varat tiettyyn lohkoon asti.
-wrong_answers:
-  - Se lukitsee tapahtuman tiettyyn lohkoon asti.
-  - Se lukitsee kanavan tiettyyn lohkoon asti.
-  - Se lukitsee peruutusavaimen tiettyyn lohkoon asti.
-explanation: |
-  Timelock sitoumustapahtumassa lukitsee varat tiettyyn lohkoon asti. Tämä estää tapahtuman luoneen osapuolen pääsemästä välittömästi käsiksi rahoihinsa.
-reviewed: false

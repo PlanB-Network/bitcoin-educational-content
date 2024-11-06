@@ -1,9 +1,0 @@
-question: Est-il recommandé de mémoriser une phrase secrète ou une phrase mnémonique pour un portefeuille Bitcoin ?
-answer: Non
-wrong_answers:
-  - Oui
-  - Cela dépend de la longueur de la phrase secrète ou de la phrase mnémonique
-  - Cela dépend de la complexité de la phrase secrète ou de la phrase mnémonique
-explanation: |
-  Il n'est pas recommandé de mémoriser une phrase secrète ou une phrase mnémonique. Il est crucial de prendre soin des sauvegardes de la phrase secrète pour éviter de perdre l'accès au portefeuille.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è il ruolo di PBKDF2 nel protocollo Bitcoin?
-answer: Viene utilizzato per convertire una frase mnemonica in un seed.
-wrong_answers:
-  - Viene utilizzato per contrastare gli attacchi di estensione della lunghezza durante la derivazione di portafogli deterministici in modo gerarchico (HD).
-  - Viene utilizzato per generare un output di dimensioni fisse.
-  - Viene utilizzato per aggiungere una fonte aggiuntiva di entropia nella derivazione delle chiavi.
-explanation: |
-  PBKDF2 viene utilizzato per convertire una frase mnemonica in un seed. Questo algoritmo esegue 2048 round utilizzando HMAC SHA512.
-reviewed: false

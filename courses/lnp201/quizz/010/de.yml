@@ -1,9 +1,0 @@
-question: Was passiert mit allen Bitcoins in einer Bitcoin-Transaktion?
-answer: Sie müssen alle bewegt werden.
-wrong_answers:
-  - Sie werden alle in Fiat-Währung umgewandelt.
-  - Sie werden alle in einer neuen Adresse gespeichert.
-  - Sie werden alle gleichmäßig unter den Teilnehmern aufgeteilt.
-explanation: |
-  In einer Bitcoin-Transaktion müssen alle Bitcoins bewegt werden. Dies wird als UTXO (Unspent Transaction Output) bezeichnet, bei dem die Bitcoin-Beträge vorübergehend den Besitzer verlassen, um anschließend zurückzukehren.
-reviewed: false

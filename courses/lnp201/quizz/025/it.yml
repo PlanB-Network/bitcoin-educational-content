@@ -1,9 +1,0 @@
-question: Qual è il ruolo della transazione di impegno nella Lightning Network?
-answer: Aggiorna il saldo del canale dopo ogni trasferimento.
-wrong_answers:
-  - Apre il canale.
-  - Chiude il canale.
-  - Trasferisce i fondi.
-explanation: |
-  La transazione di impegno è una transazione più recente che aggiorna il saldo del canale dopo ogni trasferimento. Non viene eseguita a meno che il canale non venga chiuso.
-reviewed: false

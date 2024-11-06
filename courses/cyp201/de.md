@@ -104,7 +104,7 @@ Am Ende dieser Erkundung haben wir kryptografische Hashfunktionen entmystifizier
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
 Willkommen zur Fortsetzung unserer faszinierenden Reise durch die kryptografischen Irrgärten der Hashfunktion. Heute enthüllen wir die Geheimnisse von SHA256, einem komplexen, aber genialen Prozess, den wir zuvor vorgestellt haben.
--> 940 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
+-> 950 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
 -> P = 9
 
 Daher müssen 9 Auffüllbits hinzugefügt werden, um eine Nachricht auf ein Vielfaches von 512 zu bringen.

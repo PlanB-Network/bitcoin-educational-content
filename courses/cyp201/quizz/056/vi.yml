@@ -1,9 +1,0 @@
-question: Hạt giống trong ví Bitcoin đại diện cho cái gì?
-answer: Đó là một số ngẫu nhiên hoặc giả ngẫu nhiên từ đó nhiều khóa được tạo ra.
-wrong_answers:
-  - Đó là mật khẩu để truy cập vào ví.
-  - Đó là giao dịch Bitcoin đầu tiên được ghi lại trong ví.
-  - Đó là chữ ký số của chủ sở hữu ví.
-explanation: |
-  Hạt giống trong ví Bitcoin được cho là một số ngẫu nhiên hoặc giả ngẫu nhiên. Hạt giống này cho phép tạo ra nhiều khóa, là yếu tố thiết yếu cho việc sở hữu tiền mã hóa.
-reviewed: false

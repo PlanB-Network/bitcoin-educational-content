@@ -1,9 +1,0 @@
-question: Co určuje, zda je transakce možná v platebním kanálu Lightning?
-answer: Uživatel, který posílá prostředky, musí mít dostatek Bitcoinů na své straně kanálu
-wrong_answers:
-  - Celková kapacita kanálu musí být dostatečná na pokrytí transakce
-  - Uživatel přijímající prostředky musí mít dostatek Bitcoinů na své straně kanálu
-  - Transakce musí být schválena Bitcoinovou sítí
-explanation: |
-  Pro možnost transakce v platebním kanálu Lightning musí mít uživatel posílající prostředky dostatek Bitcoinů na své straně kanálu.
-reviewed: false

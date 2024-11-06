@@ -298,7 +298,6 @@ Vapaakaupan kysymys on edelleen ajankohtainen tänään. Kouluissa käytettävä
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
 Frédéric Bastiat, joka ilmaisi itseään 1840-luvulla, on valistusfilosofien sukupolven perillinen, joka taisteli sensuuria vastaan ja keskustelunvapauden puolesta. Ajattele Montesquieuta, Diderot'ta, Voltairea, Condorcet'ta, mutta myös Rousseauta.
 
@@ -341,7 +340,6 @@ Bastiat'n mukaan yhteiskunta, ihmiset ja omaisuudet ovat olemassa ennen lakeja, 
 ## Klassinen koulutus
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
 24. helmikuuta 1848, kolmen päivän mellakoiden jälkeen Pariisissa, kuningas Louis-Philippe I luopui vallastaan. Tämä merkitsi Toisen tasavallan syntymää.
 ![image](assets/image/06/IMG20.webp)
 
@@ -380,7 +378,6 @@ Kuitenkin, kuten Bastiat muistuttaa, monopoli sulkee pois edistyksen.
 
 ## Protektionismi ja sosialismi
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![kuva](assets/image/07/IMG11.webp)
 
@@ -423,13 +420,13 @@ Ja hän jatkaisi sen jälkeen sen perverssien vaikutusten analysointia. Tässä 
 ![kuva](assets/image/07/IMG08.webp)
 Yhteenvetona, protektionistit ja sosialistit jakavat yhteisen näkökohdan Bastiatin mukaan: mitä he hakevat laista, ei ole varmistaa jokaiselle vapaan toiminnan mahdollisuus ja oikeudenmukainen palkkio heidän ponnisteluistaan, vaan pikemminkin suosia toisen kansalaisluokan enemmän tai vähemmän täydellistä hyväksikäyttöä toisen toimesta. Protektionismissa on vähemmistö, joka hyväksikäyttää enemmistöä. Sosialismissa on enemmistö, joka hyväksikäyttää vähemmistöä. Molemmissa tapauksissa oikeudenmukaisuus loukataan ja yleinen etu vaarantuu. Bastiat asettaa ne vastakkain.
 
-![kuva](assets/image/07/IMG15.webp)
+> Valtio on suuri fiktio, jonka kautta kaikki pyrkivät elämään toistensa kustannuksella.
+
 
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-![video](https://youtu.be/nBY6VUhtUis?si=EpWFShKZEQOyqRjg)
 
 Pierre-Joseph Proudhon on yksi 1800-luvun puolivälin ranskalaisen sosialismin merkittävimmistä edustajista. Hän on erityisen kuuluisa lausunnostaan: "Omaisuus on varkautta" teoksessa "Mikä on omaisuus?" vuonna 1840.
 
@@ -482,7 +479,6 @@ Yhteenvetona sekä Proudhon että Bastiat tunnistivat pääoman kertymisen tärk
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
 Tässä luvussa paljastan upouuden teknologian, vallankumouksellisen teknologian. Tutkija on kehittänyt parin bionisia laseja, joihin on upotettu erittäin tehokas mini-kamera etuosaan. Tämä teknologia mahdollistaa yksityiskohtien näkemisen, joita ei paljaalla silmällä voi nähdä. Sangan sisällä on elektroninen piiri, joka lähettää kuvat suoraan pilveen älypuhelimeni kautta.
 
@@ -495,7 +491,7 @@ Näin ollen Julkisissa Töissä Bastiat kirjoittaa:
 
 > Valtio avaa tien, rakentaa palatsin, suoristaa kadun, kaivaa kanavan; tämän myötä se antaa työtä tietyille työntekijöille, se on mitä nähdään; mutta se riistää työn tietyiltä toisilta, se on mitä ei nähdä.
 
-![image](assets/image/09/IMG20.webp)
+
 Yksi tunnetuimmista sofismeista on rikkinäisen ikkunan harhaluulo. Jotkut väittävät, että talon ikkunan rikkominen ei vahingoita taloutta, koska se hyödyttää lasimestaria. Mutta Bastiat osoittaa, että tuhoaminen ei ole meidän etujemme mukaista, koska se ei luo vaurautta. Se maksaa enemmän kuin tuottaa. Nuori poika, joka rikkoo naapurin ikkunan, antaa työtä lasimestarille. Mutta tässä on, miten hänen ystävänsä lohduttavat häntä:
 > "Jokaisella pilvellä on hopeareunus. Tällaiset onnettomuudet pitävät teollisuuden käynnissä. Kaikkien täytyy elää. Mitä lasimestareista tulisi, jos ikkunoita ei koskaan rikottaisi?"
 
@@ -522,7 +518,6 @@ Tämän tekstisarjan suuri opetus on, että valtion interventiolla on perverssej
 ## Kynttiläntekijöiden vetoomus
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
 Vuonna 1840 edustajainhuone äänesti lain puolesta, joka kasvatti tuontiveroja ranskalaisen teollisuuden suojelemiseksi. Tämä on kuuluisa taloudellinen patriotismi, jota kohtaamme vielä tänäkin päivänä.
 
 ![image](assets/image/10/IMG13.webp)
@@ -599,9 +594,13 @@ Ongelmana on, että verot, sellaisina kuin ne on käsitetty, ovat vallanpitäjie
 
 Siksi Bastiat oli jo ymmärtänyt Lafferin käyrän. Arthur Laffer on amerikkalainen taloustieteilijä, joka on tunnettu kuuluisasta "käyrästään" (ellipsi), julkaistu vuonna 1974, joka osoittaa, että verojen tuotto kasvaa verokannan alentuessa. Tämä on liiallisen verotuksen vähenevän tuoton teoria.
 
-![kuva](assets/image/11/IMG6.webp)
+> Liian paljon veroa tappaa veron.
+
 
 Poliitikot olettavat naiivisti, että verokantojen ja verotulojen välillä on automaattinen ja kiinteä suhde. He ajattelevat voivansa kaksinkertaistaa verotulot kaksinkertaistamalla verokannan. Lafferin mukaan tällainen lähestymistapa ei ota huomioon sitä tosiasiaa, että veronmaksajat saattavat muuttaa käyttäytymistään vastauksena uusiin kannustimiin.
+
+![image](assets/image/11/IMG7.webp)
+
 Lafferin käyrä osoittaa, että hallitus ei kerää tuloja, kun verokannat ovat 100 %. Päinvastoin, veronalennukset palvelevat taloudellisen toiminnan stimulointia ja siten valtion tuloja. Todellakin, marginaalisten verokantojen alentaminen stimuloi investointeja, työtä, luovuutta ja siten edistää talouskasvua. Riittävän suuri alennus voisi tuottaa tarpeeksi taloudellista stimulaatiota laajentamaan veropohjaa merkittävästi ja lisäämään julkisia tuloja.
 
 Bastiat saattaisi lisätä, että valtion menojen vähentämiseen tulisi kiinnittää yhtä paljon huomiota kuin verojen alentamiseen. Siitä huolimatta, kuten Margaret Thatcher, Frédéric Bastiat'n oppilas, niin osuvasti totesi:
@@ -658,7 +657,6 @@ Yksi asia on varma, poliitikko ei voi muuttaa asioiden kulkua ja täydellistää
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
 Voiko harmoninen yhteiskunta toimia ilman kirjoitettuja lakeja, sääntöjä, rangaistustoimenpiteitä? Jos ihmiset jätetään vapaiksi, emmekö todista kaaosta, anarkiaa, järjestäytymättömyyttä? Kuinka välttää pelkkä yksilöiden rinnakkaiselo, jotka toimivat ilman minkäänlaista yhteistyötä, ellei lakien ja keskitetyn poliittisen organisaation kautta?
 
@@ -702,7 +700,6 @@ Taloudellinen suunnittelu, joka väittää pärjäävänsä markkinoita paremmin
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-![video](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
 
 Kirjeessään Alphonse de Lamartinelle vuonna 1845 Bastiat kirjoitti, että hänen koko filosofiansa sisältyy yhteen periaatteeseen:
 
@@ -765,7 +762,6 @@ Toisin sanoen, kollektiiviset valinnat eivät ole vastuullisia valintoja, koska 
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
 Edellisellä kurssilla näimme, miksi vapaus ja vastuu ovat avainasemassa sosiaalisessa ongelmassa. Nyt syvennymme tähän kohtaan näyttämällä, miten Frédéric Bastiat näkee yhteiskuntia vaivaavat pahat ja niiden ratkaisun.
 
@@ -812,7 +808,6 @@ On tärkeää selventää, että tämä edistyksen kehitys vastuun kautta ei ole
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -866,7 +861,6 @@ Laki voi pakottaa ihmisen olemaan oikeudenmukainen, mutta se ei voi pakottaa hä
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-![video](https://youtu.be/M7g5ZhX7uwM?si=Hu3kTmj9pE-eRZmw)
 
 Omaisuudella ei tässä yhteydessä tule ymmärtää maata. Se tarkoittaa "työntekijän oikeutta arvoon, jonka hän on luonut työllään." Bastiat täsmentää:
 
@@ -959,7 +953,6 @@ Bastiat kirjoitti Teoksessaan Laki hieman ennen kuolemaansa. Vuosisata Frédéri
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
 Vuonna 1848 Bastiat oli kansanedustaja. Hänet nimitettiin valtiovarainvaliokunnan varapuheenjohtajaksi. Hän oli siis erityisen hyvin sijoittunut vastaamaan tähän kysymykseen: mikä on valtio? Käännymme valtion puoleen varmistaaksemme hyvinvointimme. Mutta Bastiat muistuttaa meitä siitä, että valtio ei voi antaa kansalaisille mitään, mitä se ei ole ensin ottanut heiltä.
 
@@ -1019,7 +1012,6 @@ Kirjoitti Frédéric Bastiat lyhyessä pamfletissa nimeltä Valtio.
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-![video](https://youtu.be/bzaIT_G-d4E?si=lzcCHS4FAneNmVSS)
 
 Bastiatin vaikutus alkoi hiipua 1800-luvun lopulla, kun sosialismi ja erityisesti marxilaisuus nousivat yliopistoissa ja tutkimuslaitoksissa, joita rahoitettiin julkisilla varoilla.
 
@@ -1046,3 +1038,4 @@ Mutta kuten Bastiat osuvasti osoitti, valtion interventiolla on perverssejä vai
 Jos tarkastelemme asioita tästä näkökulmasta, Reagan selitti GE:n työntekijöille, niin kutsutut valtion menojen ihmeet näyttäytyvät täysin eri valossa. Koska verotus vähentää tuotantoa, ja julkisen menon luoma vauraus ei voi täysin korvata niitä, jotka estettiin syntymästä veroilla, jotka kerättiin näiden kulujen kattamiseksi.
 ![kuva](assets/image/20/IMG10.webp)
 Ytimessään Reagan otti Bastiatilta useita avainelementtejä liberaalin yhteiskunta- ja ihmiskuvan osalta: siviiliyhteiskunnan ensisijaisuus valtioon nähden, valinnan ja yksilöllisen vastuun arvo, yrittäjän merkitys vaurauden luomisessa, joustavan ja minimaalisen lainsäädännön tärkeys, mikä mahdollistaa luottamuksen ja sopimusten kunnioittamisen, peruslaki, jonka mukaan vauraus on luotava ennen kuin sitä voidaan jakaa, halu antaa jokaiselle mahdollisuus kilpailullisilla markkinoilla…
+

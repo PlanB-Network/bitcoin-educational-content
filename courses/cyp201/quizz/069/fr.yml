@@ -1,9 +1,9 @@
-question: Quelle est la norme la plus couramment utilisée pour une phrase de récupération de 24 mots dans un portefeuille Bitcoin ?
-answer: Une entropie de 256 bits.
+question: Qu'est-ce qu'indique le chemin de dérivation suivant ? m/44'/0'/0'/0/0
+answer: Une adresse externe Legacy sur le mainnet.
 wrong_answers:
-  - Une entropie de 128 bits.
-  - Une entropie de 160 bits.
-  - Une entropie de 512 bits.
+  - Une adresse externe SegwitV1 sur le mainnet.
+  - Une adresse interne Legacy sur le testnet.
+  - Une adresse externe SegwitV0 sur le mainnet.
 explanation: |
-  La norme la plus couramment utilisée pour une phrase de récupération de 24 mots est une entropie de 256 bits.
+  Le chemin de dérivation m/44'/0'/0'/0/0 indique une adresse externe Legacy sur le réseau principal (mainnet). 44' = Legacy, 0' = mainnet, 0 = externe
 reviewed: false

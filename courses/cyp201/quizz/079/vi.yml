@@ -1,9 +1,0 @@
-question: Sự khác biệt giữa cụm từ mật khẩu và cụm từ ghi nhớ trong ví Bitcoin là gì?
-answer: Cụm từ mật khẩu là tự do và có thể đạt đến kích thước gần như vô hạn, trong khi cụm từ ghi nhớ được chuẩn hóa và phải tuân theo một số ràng buộc về kích thước, checksum, và mã hóa.
-wrong_answers:
-  - Cụm từ mật khẩu được chuẩn hóa, trong khi cụm từ ghi nhớ là tự do và có thể đạt đến kích thước gần như vô hạn
-  - Cụm từ mật khẩu và cụm từ ghi nhớ là như nhau
-  - Cụm từ mật khẩu là tùy chọn, trong khi cụm từ ghi nhớ là bắt buộc
-explanation: |
-  Để suy ra các khóa của một ví HD, cả cụm từ ghi nhớ và cụm từ mật khẩu đều cần thiết. Cụm từ mật khẩu là tự do và có thể đạt đến kích thước gần như vô hạn. Nó không được bao gồm trong cụm từ ghi nhớ, mà được chuẩn hóa và phải tuân theo một số ràng buộc về kích thước, checksum, và mã hóa.
-reviewed: false

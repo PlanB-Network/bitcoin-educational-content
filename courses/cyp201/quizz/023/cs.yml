@@ -1,9 +1,0 @@
-question: Co znamená HMAC?
-answer: Hash-based Message Authentication Code
-wrong_answers:
-  - Hierarchical Master Authentication Code
-  - Hashed Master Authentication Code
-  - Hierarchical Message Authentication Code
-explanation: |
-  HMAC znamená Hash-based Message Authentication Code (Hashovací zpráva autentizačního kódu). Jedná se o typ autentizačního kódu zpráv (MAC), který využívá kryptografickou hašovací funkci a tajný kryptografický klíč.
-reviewed: false

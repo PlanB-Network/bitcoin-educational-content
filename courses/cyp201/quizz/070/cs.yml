@@ -1,9 +1,0 @@
-question: Jaký je účel entropie při generování mnemonické fráze pro Bitcoinovou peněženku?
-answer: Je základním kamenem bezpečnosti HD peněženky.
-wrong_answers:
-  - Určuje počet slov ve frázi pro obnovu.
-  - Šifruje frázi pro obnovu pro zvýšení bezpečnosti.
-  - Ověřuje přesnost fráze pro obnovu.
-explanation: |
-  Entropie je základním kamenem bezpečnosti HD peněženky. Je zásadní, aby tato entropie byla náhodná nebo pseudonáhodná, aby byla zaručena bezpečnost peněženky.
-reviewed: false

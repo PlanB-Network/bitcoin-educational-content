@@ -95,7 +95,7 @@ Ao final desta exploração, desmistificamos as funções de hash criptográfica
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
 Bem-vindo à continuação de nossa fascinante jornada pelos labirintos criptográficos da função de hash. Hoje, revelamos os mistérios do SHA256, um processo complexo, porém engenhoso, que introduzimos anteriormente.
--> 940 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
+-> 950 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
 -> P = 9
 
 Portanto, 9 bits de preenchimento precisam ser adicionados para ter uma mensagem igualada a um múltiplo de 512.

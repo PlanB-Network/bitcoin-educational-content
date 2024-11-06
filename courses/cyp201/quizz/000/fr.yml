@@ -1,9 +1,9 @@
-question: Quel est le principe des tiroirs dans le contexte des fonctions de hachage cryptographiques ?
-answer: Il explique pourquoi, malgré nos meilleurs efforts, l'évitement des collisions est impossible en raison de la limitation de la taille de sortie.
+question: Quel est l'objectif du procédé de hachage cryptographique ?
+answer: Mapper une chaîne de bits de longueur arbitraire à une chaîne de bits de longueur fixe.
 wrong_answers:
-  - Il explique le mécanisme de stockage des fonctions de hachage.
-  - Il décrit le processus de création d'un hachage.
-  - C'est un principe qui explique l'irréversibilité des fonctions de hachage.
+  - Chiffrer un message.
+  - Assurer que l'émetteur du message ne pourra pas nier avoir émis le message dans le futur.
+  - Garantir la confidentialité des données.
 explanation: |
-  Le principe des tiroirs dans le contexte des fonctions de hachage cryptographiques explique que, en raison de la limitation de la taille de sortie, il est impossible d'éviter les collisions. Cela est dû au fait qu'il y a plus d'entrées possibles que de sorties, de sorte que certaines entrées doivent inévitablement partager la même sortie.
+  Le hachage transforme une donnée de n'importe quelle taille en une sortie de taille fixe, utile pour vérifier l'intégrité sans nécessairement chiffrer ou authentifier les données.
 reviewed: false

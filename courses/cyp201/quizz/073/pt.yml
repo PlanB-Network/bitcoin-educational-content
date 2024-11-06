@@ -1,9 +1,0 @@
-question: O que é uma opção adicional para aumentar a segurança de uma carteira de Bitcoin?
-answer: Adicionar uma frase de senha.
-wrong_answers:
-  - Adicionar uma segunda frase mnemônica.
-  - Adicionar uma assinatura digital.
-  - Adicionar um histórico de transações.
-explanation: |
-  Adicionar uma frase de senha é uma opção adicional para aumentar a segurança da carteira de Bitcoin.
-reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est le but de la clé de révocation dans le Lightning Network?
-answer: Pour punir un participant qui tente de tricher en publiant une ancienne transaction d'engagement.
+question: Dans une invoice Lightning, que signifie le préfixe "lnbc" dans la partie lisible par l'Homme ?
+answer: Qu'il s'agit d'une transaction Lightning sur la blockchain Bitcoin
 wrong_answers:
-  - Pour récompenser un participant qui réussit à tricher.
-  - Pour ouvrir un nouveau canal.
-  - Pour valider une transaction.
+  - Que l'invoice est valide uniquement sur le testnet de Bitcoin
+  - Que l'invoice est encodée en bech32
+  - Qu'il s'agit d'une transaction on-chain
 explanation: |
-  La clé de révocation est un mécanisme dans le Lightning Network pour prévenir la tricherie. Si un participant tente de tricher en publiant une ancienne transaction d'engagement, l'autre participant peut utiliser la clé de révocation pour punir le tricheur et prendre tous les SAT du canal.
+  Le préfixe 'lnbc' indique que l'invoice est pour une transaction Lightning sur le réseau Bitcoin, et non sur un autre réseau.
 reviewed: false

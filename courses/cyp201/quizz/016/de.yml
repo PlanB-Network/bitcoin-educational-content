@@ -1,9 +1,0 @@
-question: Was ist der Zweck der zweiten Phase der Vorverarbeitung in SHA256?
-answer: Um die binäre Darstellung der ursprünglichen Nachrichtengröße in Bits hinzuzufügen.
-wrong_answers:
-  - Um Padding-Bits zur Eingabe hinzuzufügen
-  - Um die Eingabe in verschiedene Blöcke von 512-Bit-Nachrichten aufzuteilen
-  - Um 64 Runden Berechnungen in der Kompressionsfunktion durchzuführen
-explanation: |
-  Die zweite Phase der Vorverarbeitung in SHA256 besteht darin, die binäre Darstellung der ursprünglichen Nachrichtengröße in Bits hinzuzufügen. Dies wird mithilfe der 64 reservierten Bits aus dem vorherigen Schritt durchgeführt.
-reviewed: false

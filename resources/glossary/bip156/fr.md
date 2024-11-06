@@ -8,6 +8,6 @@ L'objectif du BIP156 est de traiter ce problème. Pour ce faire, il introduit un
 
 Cette méthode de routage brouille la piste menant au nœud source, rendant difficile de retracer une transaction via le réseau jusqu'à son origine. Dandelion améliore donc la confidentialité en limitant la capacité des adversaires à désanonymiser le réseau. Cette méthode est d'autant plus efficace lorsque la transaction croise durant la phase de « tige » un nœud qui chiffre ses communications réseau, comme avec Tor ou *P2P Transport V2*. Le BIP156 n'a pour le moment pas été ajouté à Bitcoin Core.
 
-![](../../dictionnaire/assets/36.png)
+![](../../dictionnaire/assets/36.webp)
 
 

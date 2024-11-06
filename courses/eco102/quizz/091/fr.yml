@@ -1,0 +1,8 @@
+question: Pour Bastiat, le droit de propriété est-il créé par la législation ou antérieur à celle-ci ?
+answer: antérieur à la législation
+wrong_answers:
+  - créé par la législation
+  - créé par le contrat social
+  - dépendant de la volonté générale
+explanation: |
+  Bastiat considère le droit de propriété comme un droit naturel qui précède la loi, celle-ci devant uniquement en assurer la défense.

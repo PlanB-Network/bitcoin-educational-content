@@ -1,9 +1,0 @@
-question: ¿Quién puede usar la clave de revocación antes de que termine el Timelock?
-answer: La persona que recibe el dinero.
-wrong_answers:
-  - La persona que crea la transacción con el Timelock.
-  - Ambas partes pueden usar la clave de revocación antes de que termine el Timelock.
-  - Ninguna de las partes puede usar la clave de revocación antes de que termine el Timelock.
-explanation: |
-  La persona que recibe el dinero puede usar la clave de revocación antes de que termine el Timelock en caso de que haya engaño por parte de una de las partes en un canal de la Red Lightning.
-reviewed: false

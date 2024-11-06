@@ -1,9 +1,0 @@
-question: Chi può utilizzare la chiave di revoca prima della fine del Timelock?
-answer: La persona che riceve i soldi.
-wrong_answers:
-  - La persona che crea la transazione con il Timelock.
-  - Entrambe le parti possono utilizzare la chiave di revoca prima della fine del Timelock.
-  - Nessuna delle due parti può utilizzare la chiave di revoca prima della fine del Timelock.
-explanation: |
-  La persona che riceve i soldi può utilizzare la chiave di revoca prima della fine del Timelock in caso di frode da una delle parti dell'intermediario su Lightning Network.
-reviewed: false

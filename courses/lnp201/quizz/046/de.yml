@@ -1,9 +1,0 @@
-question: Was ist der Zweck des Widerrufsschlüssels im Lightning-Netzwerk?
-answer: Um einen Teilnehmer zu bestrafen, der versucht zu betrügen, indem er eine alte Verpflichtungstransaktion veröffentlicht.
-wrong_answers:
-  - Um einen Teilnehmer zu belohnen, der erfolgreich betrügt.
-  - Um einen neuen Kanal zu eröffnen.
-  - Um eine Transaktion zu validieren.
-explanation: |
-  Der Widerrufsschlüssel ist ein Mechanismus im Lightning-Netzwerk, um Betrug zu verhindern. Wenn ein Teilnehmer versucht, durch Veröffentlichung einer alten Verpflichtungstransaktion zu betrügen, kann der andere Teilnehmer den Widerrufsschlüssel verwenden, um den Betrüger zu bestrafen und alle SAT aus dem Kanal zu nehmen.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Wie lang sind die privaten Schlüssel in einer Bitcoin-Wallet?
-answer: 256 Bits
-wrong_answers:
-  - 128 Bits
-  - 512 Bits
-  - 1024 Bits
-explanation: |
-  Die privaten Schlüssel in einer Bitcoin-Wallet, die für den Besitz von Kryptowährungen unerlässlich sind, haben eine feste Länge von 256 Bits.
-reviewed: false

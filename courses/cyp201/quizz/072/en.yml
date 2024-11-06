@@ -1,9 +1,0 @@
-question: What is a mnemonic phrase in the context of a Bitcoin wallet?
-answer: It is a backup of the wallet.
-wrong_answers:
-  - It is a password for the wallet.
-  - It is a transaction history of the wallet.
-  - It is a digital signature of the wallet.
-explanation: |
-  A mnemonic phrase is generated to ensure the backup of the Bitcoin wallet.
-reviewed: false

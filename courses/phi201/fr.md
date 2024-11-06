@@ -507,7 +507,7 @@ Quand Antigone désobéit à Créon, elle s’oppose au droit positif pour obéi
 
 ### Cicéron et le droit naturel
 
-Cicéron a vécu au 1<sup>er</sup> siècle avant Jésus-Christ et il est considéré comme le plus grand orateur de langue latine sous l’empire romain. C’est aussi un philosophe moral et politique proche des stoïciens. Ses essais ont été lus par les européens instruits durant de nombreux siècles.
+Cicéron a vécu au 1er siècle avant Jésus-Christ et il est considéré comme le plus grand orateur de langue latine sous l’empire romain. C’est aussi un philosophe moral et politique proche des stoïciens. Ses essais ont été lus par les européens instruits durant de nombreux siècles.
 
 ![image](assets/2/img-004.webp)
 
@@ -1211,7 +1211,9 @@ En effet, dans ses _Principes de politique_, Benjamin Constant affirme :
 
 > La souveraineté du peuple n’est pas illimitée, elle est circonscrite dans les bornes que lui tracent la justice et les droits des individus. La volonté de tout un peuple ne peut rendre juste ce qui est injuste.
 
-![image](assets/5/img-094.webp)
+> "L'Homme est naturellement bon, c'est la société qui le corrompt."
+
+— Jean-Jacques Rousseau
 
 C’est une nouvelle critique de Rousseau et du _Contrat Social_ : même une volonté générale est soumise à des limites et elle ne peut changer ce qui relève du droit naturel. Il existe un droit antérieur et supérieur à l’autorité politique : c’est le droit naturel. Ce droit fixe les bornes du pouvoir politique et limite les libertés individuelles.
 
@@ -1493,7 +1495,7 @@ A partir de 1958, une politique de redressement de l’économie française, ins
 
 Dans _Le péché monétaire de l’Occident_, en 1971, Rueff écrit :
 
-> C’est par le déficit budgétaire que les hommes perdent leur liberté ». 
+> C’est par le déficit budgétaire que les hommes perdent leur liberté. 
 
 Il ajoute: "L'inflation, c'est de subventionner des dépenses qui ne rapportent rien avec de l'argent qui n'existe pas ». Selon lui : «  On croirait, en observant l'évolution du système monétaire international, que l'Occident s'applique à mettre en œuvre le conseil de Lénine, suivant lequel : Pour détruire le régime bourgeois, il suffit de corrompre sa monnaie.
 

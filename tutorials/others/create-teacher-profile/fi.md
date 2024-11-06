@@ -30,7 +30,7 @@ Tutustutaan yhdessä, miten lisätä uusi professori tässä opetusohjelmassa!
 
 ## Kuinka luoda uusi professoriprofiili?
 
-- Avaa selain ja siirry forkisi sivulle PlanB-repositoriossa. Forkkisi URL näyttää tältä: `https://github.com/[käyttäjänimi]/sovereign-university-data`
+- Avaa selain ja siirry forkisi sivulle PlanB-repositoriossa. Forkkisi URL näyttää tältä: `https://github.com/[käyttäjänimi]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Varmista, että olet päähaarassa `dev` ja klikkaa `Sync fork` -painiketta. Jos forkisi ei ole ajan tasalla, GitHub tarjoaa haarasi päivittämistä. Suorita tämä synkronointi.
 
@@ -45,14 +45,14 @@ Tutustutaan yhdessä, miten lisätä uusi professori tässä opetusohjelmassa!
 ![tutorial](assets/8.webp)
 - Klikkaa tätä haaraa, sitten klikkaa `New Branch` -painiketta:
 ![tutorial](assets/9.webp)
-- Varmista, että uusi haara perustuu lähtökohtaiseen varastoon, nimittäin `DecouvreBitcoin/sovereign-university-data`.
+- Varmista, että uusi haara perustuu lähtökohtaiseen varastoon, nimittäin `PlanB-Network/bitcoin-educational-content`.
 - Nimeä haara tavalla, joka tekee sen tarkoituksesta selvän, käyttäen väliviivoja erottamaan sanat. Koska tämä haara on tarkoitettu professorin profiilin lisäämiseen, esimerkkinimi voisi olla: `add-professor-[sinun-nimesi]`. Nimen syöttämisen jälkeen klikkaa `Create branch` vahvistaaksesi haaran luomisen:
 ![opas](assets/10.webp)
 - Nyt klikkaa `Publish branch` -painiketta tallentaaksesi uuden työhaaran online-forkiisi GitHubissa:
 ![opas](assets/11.webp)
 - Tässä vaiheessa GitHub Desktopissa sinun tulisi olla uudella haarallasi. Tämä tarkoittaa, että kaikki tietokoneellasi paikallisesti tehdyt muutokset tallennetaan yksinomaan tälle tietylle haaralle. Niin kauan kuin tämä haara pysyy valittuna GitHub Desktopissa, koneellasi paikallisesti näkyvät tiedostot vastaavat tämän haaran tiedostoja (`add-professor-sinun-nimesi`), eivätkä päähaaran (`dev`) tiedostoja:
 ![opas](assets/12.webp)
-- Professorin profiilisi lisäämiseksi avaa tiedostonhallintasi ja navigoi paikalliseen varastoosi, `professors`-kansioon. Löydät sen polusta: `\GitHub\sovereign-university-data\professors`.
+- Professorin profiilisi lisäämiseksi avaa tiedostonhallintasi ja navigoi paikalliseen varastoosi, `professors`-kansioon. Löydät sen polusta: `\GitHub\bitcoin-educational-content\professors`.
 
 - Tässä kansiossa, luo uusi kansio nimelläsi tai nimimerkilläsi. Varmista, että kansion nimessä ei ole välilyöntejä. Jos siis nimesi on "Loic Pandul" eikä yksikään toinen professori käytä tätä nimeä, luotava kansio nimetään `loic-pandul`:
 ![opas](assets/13.webp)

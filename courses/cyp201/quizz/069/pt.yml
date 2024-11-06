@@ -1,9 +1,0 @@
-question: Qual é o padrão mais comumente usado para uma frase de recuperação de 24 palavras em uma carteira de Bitcoin?
-answer: Uma entropia de 256 bits.
-wrong_answers:
-  - Uma entropia de 128 bits.
-  - Uma entropia de 160 bits.
-  - Uma entropia de 512 bits.
-explanation: |
-  O padrão mais comumente usado para uma frase de recuperação de 24 palavras é uma entropia de 256 bits.
-reviewed: false

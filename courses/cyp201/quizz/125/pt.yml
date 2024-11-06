@@ -1,9 +1,0 @@
-question: Qual é o tamanho de uma chave pública comprimida no Bitcoin?
-answer: 264 bits
-wrong_answers:
-  - 520 bits
-  - 128 bits
-  - 256 bits
-explanation: |
-  No Bitcoin, uma chave pública bruta ocupa 520 bits. No entanto, graças à simetria da curva elíptica utilizada, podemos comprimir a chave pública para reduzir seu tamanho de 520 para 264 bits.
-reviewed: false

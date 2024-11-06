@@ -1,9 +1,0 @@
-question: Lợi ích của các kênh thanh toán Lightning là gì?
-answer: Chúng cho phép người dùng gửi và nhận Bitcoin mà không cần phải trả phí giao dịch cao hoặc chờ đợi thời gian xác nhận lâu trên mạng lưới Bitcoin
-wrong_answers:
-  - Chúng cho phép người dùng đào Bitcoin hiệu quả hơn
-  - Chúng cho phép người dùng lưu trữ Bitcoin an toàn hơn
-  - Chúng cho phép người dùng đổi Bitcoin lấy các loại tiền mã hóa khác
-explanation: |
-  Các kênh thanh toán Lightning là một cách hiệu quả để thực hiện các giao dịch Bitcoin nhanh chóng và tiết kiệm chi phí. Chúng cho phép người dùng gửi và nhận Bitcoin mà không cần phải trả phí giao dịch cao hoặc chờ đợi thời gian xác nhận lâu trên mạng lưới Bitcoin.
-reviewed: false

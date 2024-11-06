@@ -1,9 +1,9 @@
-question: Comment le nombre de mots dans la phrase de récupération est-il déterminé lors de la génération d'une phrase mnémonique pour un portefeuille Bitcoin ?
-answer: Cela dépend de la taille de l'entropie.
+question: À quoi sert une chaîne externe dans le processus de dérivation ?
+answer: Isoler les adresses destinées à être publiques.
 wrong_answers:
-  - Cela dépend de la taille de la somme de contrôle.
-  - C'est toujours 24 mots.
-  - C'est généré de manière aléatoire.
+  - Isoler les adresses de change.
+  - Gérer les transactions entrantes.
+  - Séparer les clés privées des clés publiques.
 explanation: |
-  En fonction de la taille de l'entropie, la phrase de récupération sera composée de 12 mots pour 128 bits, 15 mots pour 160 bits et 24 mots pour 256 bits.
+  La chaîne externe est utilisée pour dériver des adresses destinées à être publiques, telles que celles pour recevoir des paiements.
 reviewed: false

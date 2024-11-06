@@ -1,9 +1,0 @@
-question: O que acontece durante uma transação
-answer: O segredo da transação
-wrong_answers:
-  - O segredo da transação
-  - Um novo segredo é decidido e uma nova chave de revogação é criada.
-  - A transação de compromisso anterior é atualizada com o novo segredo e chave de revogação.
-explanation: |
-  Durante a transação
-reviewed: false

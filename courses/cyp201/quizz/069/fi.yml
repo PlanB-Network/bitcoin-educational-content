@@ -1,8 +1,0 @@
-question: Mikä on yleisimmin käytetty standardi 24 sanan palautuslauseelle Bitcoin-lompakossa?
-answer: 256 bitin entropia.
-wrong_answers:
-  - 128 bitin entropia.
-  - 160 bitin entropia.
-  - 512 bitin entropia.
-explanation: |
-  Yleisimmin käytetty standardi 24 sanan palautuslauseelle on 256 bitin entropia.

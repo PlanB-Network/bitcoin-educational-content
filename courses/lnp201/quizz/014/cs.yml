@@ -1,9 +1,0 @@
-question: Jaký je účel transakce pro výběr peněz při procesu otevírání kanálu v Lightning Network?
-answer: Umožňuje Alici získat zpět své prostředky, pokud se něco pokazí.
-wrong_answers:
-  - Umožňuje Bobovi nárokovat jeho podíl na prostředcích.
-  - Je použita k finalizaci procesu otevření kanálu.
-  - Je použita k převodu prostředků od Alice k Bobovi.
-explanation: |
-  Transakce pro výběr peněz je vytvořena Alicí před publikováním vkladu prostředků do multi-sig. Tato transakce umožňuje Alici utratit prostředky z multi-sig adresy na její vlastní adresu. To je uděláno proto, aby si mohla získat zpět své prostředky, pokud se něco pokazí.
-reviewed: false

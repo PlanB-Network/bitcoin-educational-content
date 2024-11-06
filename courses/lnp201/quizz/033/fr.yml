@@ -1,9 +1,9 @@
-question: Qui peut utiliser la clé de révocation avant la fin du délai de verrouillage temporel ?
-answer: La personne qui reçoit l'argent.
+question: En quoi consiste le routage en oignon dans le Lightning Network ?
+answer: À ce que chaque nœud intermédiaire ne connaisse que ses voisins immédiats sur le chemin
 wrong_answers:
-  - La personne qui crée la transaction avec le délai de verrouillage temporel.
-  - Les deux parties peuvent utiliser la clé de révocation avant la fin du délai de verrouillage temporel.
-  - Aucune des parties ne peut utiliser la clé de révocation avant la fin du délai de verrouillage temporel.
+  - À transmettre directement les fonds de nœud en nœud en connaissant le destinataire final
+  - À calculer les frais pour chaque nœud intermédiaire de façon indépendante
+  - À envoyer les fonds à tous les nœuds du chemin simultanément
 explanation: |
-  La personne qui reçoit l'argent peut utiliser la clé de révocation avant la fin du délai de verrouillage temporel en cas de tricherie de l'une ou l'autre partie d'un canal sur le réseau Lightning.
+  Le routage en oignon signifie que chaque nœud intermédiaire ne connaît que le nœud précédent et le suivant, préservant ainsi la confidentialité du destinataire final.
 reviewed: false

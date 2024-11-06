@@ -1,9 +1,0 @@
-question: Qual é o objetivo do BIP43 e BIP44 no ecossistema do Bitcoin?
-answer: Eles padronizaram a estrutura e hierarquia das carteiras HD.
-wrong_answers:
-  - Eles introduziram a frase mnemônica de 24 palavras.
-  - Eles revolucionaram a forma como as chaves são geradas e armazenadas.
-  - Eles propuseram adicionar uma senha adicional para reforçar a segurança das chaves individuais.
-explanation: |
-  O BIP43 e BIP44 padronizaram a estrutura e hierarquia das carteiras HD, tornando-as mais acessíveis e fáceis de usar para o público em geral.
-reviewed: false

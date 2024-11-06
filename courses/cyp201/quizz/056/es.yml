@@ -1,9 +1,0 @@
-question: ¿Qué representa la semilla en una billetera de Bitcoin?
-answer: Es un número aleatorio o pseudoaleatorio a partir del cual se generan múltiples claves.
-wrong_answers:
-  - Es la contraseña para acceder a la billetera.
-  - Es la primera transacción de Bitcoin registrada en la billetera.
-  - Es la firma digital del propietario de la billetera.
-explanation: |
-  La semilla en una billetera de Bitcoin se supone que es un número aleatorio o pseudoaleatorio. Esta semilla permite la generación de múltiples claves, que son esenciales para la propiedad de criptomonedas.
-reviewed: false

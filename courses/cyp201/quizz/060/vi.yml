@@ -1,9 +1,0 @@
-question: Lợi ích chính của Ví Phân Cấp Xác Định (HD wallets) là gì?
-answer: Chúng cho phép việc tạo ra các cặp khóa con một cách xác định và phân cấp từ một mẩu thông tin duy nhất.
-wrong_answers:
-  - Chúng cho phép tạo ra nhiều khóa riêng từ một khóa công khai duy nhất.
-  - Chúng cho phép tạo ra nhiều khóa công khai từ một khóa riêng duy nhất.
-  - Chúng cho phép tạo ra nhiều ví từ một cặp khóa duy nhất.
-explanation: |
-  Ví HD cho phép việc tạo ra các cặp khóa con một cách xác định và phân cấp từ một mẩu thông tin duy nhất. Điều này làm cho việc tạo và quản lý các khóa trở nên dễ dàng hơn trong khi vẫn duy trì mức độ an ninh cao.
-reviewed: false

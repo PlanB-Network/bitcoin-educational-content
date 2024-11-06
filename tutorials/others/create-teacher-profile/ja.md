@@ -30,7 +30,7 @@ PlanB ネットワークに新しい完全なチュートリアルやコース�
 
 ## 新しい教授プロファイルを作成する方法は？
 
-- ブラウザを開き、PlanB リポジトリのフォークのページに移動します。フォークの URL は次のようになります：`https://github.com/[username]/sovereign-university-data`
+- ブラウザを開き、PlanB リポジトリのフォークのページに移動します。フォークの URL は次のようになります：`https://github.com/[username]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - メインブランチ `dev` にいることを確認し、`Sync fork` ボタンをクリックします。フォークが最新でない場合、GitHub はブランチの更新を提案します。この同期を進めてください。
 
@@ -45,14 +45,14 @@ PlanB ネットワークに新しい完全なチュートリアルやコース�
 ![tutorial](assets/8.webp)
 - このブランチをクリックし、次に `New Branch` ボタンをクリックします：
 ![tutorial](assets/9.webp)
-- 新しいブランチがソースリポジトリ、すなわち `DecouvreBitcoin/sovereign-university-data` を基にしていることを確認してください。
+- 新しいブランチがソースリポジトリ、すなわち `PlanB-Network/bitcoin-educational-content` を基にしていることを確認してください。
 - ブランチの名前はその目的が明確になるようにし、各単語をダッシュで区切ってください。このブランチが教授のプロファイルを追加することを目的としている場合、例えば `add-professor-[あなたの名前]` のように名付けることができます。名前を入力した後、`Create branch` をクリックしてその作成を確認してください：
 ![チュートリアル](assets/10.webp)
 - 今度は `Publish branch` ボタンをクリックして、新しい作業ブランチをGitHub上のオンラインフォークに保存してください：
 ![チュートリアル](assets/11.webp)
 - この時点で、GitHub Desktop上では新しいブランチになっているはずです。これは、コンピュータ上でローカルに行われたすべての変更がこの特定のブランチにのみ記録されることを意味します。また、このブランチがGitHub Desktop上で選択されている限り、マシン上でローカルに表示されるファイルはこのブランチ（`add-professor-your-name`）のものであり、メインブランチ（`dev`）のものではありません：
 ![チュートリアル](assets/12.webp)
-- 教授のプロファイルを追加するには、ファイルエクスプローラーを開いてローカルリポジトリの `professors` フォルダに移動します。パスは `\GitHub\sovereign-university-data\professors` の下にあります。
+- 教授のプロファイルを追加するには、ファイルエクスプローラーを開いてローカルリポジトリの `professors` フォルダに移動します。パスは `\GitHub\bitcoin-educational-content\professors` の下にあります。
 
 - このフォルダ内で、あなたの名前または偽名で新しいフォルダを作成してください。フォルダ名にスペースがないことを確認してください。したがって、あなたの名前が "Loic Pandul" で他の教授にこの名前がない場合、作成するフォルダは `loic-pandul` と名付けられます：
 ![チュートリアル](assets/13.webp)

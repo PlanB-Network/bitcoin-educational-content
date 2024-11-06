@@ -1,9 +1,0 @@
-question: Qual é a quantidade máxima de Bitcoin que pode ser transmitida em um canal de pagamento Lightning em um determinado momento?
-answer: A capacidade fixa definida antecipadamente pelos usuários
-wrong_answers:
-  - A quantidade total de Bitcoin possuída pelos dois usuários
-  - A quantidade total de Bitcoin em toda a Rede Lightning
-  - A quantidade total de Bitcoin que foi transacionada no canal até o momento
-explanation: |
-  Quando um canal de pagamento Lightning é aberto, ele recebe uma capacidade fixa, que é definida antecipadamente pelos usuários. Essa capacidade representa a quantidade máxima de Bitcoin que pode ser transmitida no canal em um determinado momento.
-reviewed: false

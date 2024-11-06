@@ -1,9 +1,0 @@
-question: Bitcoinで使用されるsecp256k1曲線の方程式は何ですか？
-answer: "y² = x³ + 7 modulo n"
-wrong_answers:
-  - "y² = x³ + ax + b"
-  - "y² = x³ + 7 modulo p"
-  - "y² = x³ + ax + b modulo n"
-explanation: |
-  "Bitcoinで使用されるsecp256k1曲線は、パラメータa=0およびb=7によって定義され、その方程式はy² = x³ + 7 modulo nです。ここで、nは曲線の位数を決定する素数を表します。"
-reviewed: false

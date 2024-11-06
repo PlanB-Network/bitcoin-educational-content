@@ -1,9 +1,0 @@
-question: Chi sono i due partecipanti coinvolti nel trasferimento della Lightning Network nell'esempio?
-answer: Alice e Bob.
-wrong_answers:
-  - Alice e Charlie.
-  - Bob e Charlie.
-  - Alice e la rete Bitcoin.
-explanation: |
-  Nell'esempio, Alice e Bob sono i due partecipanti coinvolti nel trasferimento della Lightning Network.
-reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est le nombre total de possibilités pour une clé privée Bitcoin ?
-answer: Presque égal à 1,158 x 10^77
+question: De quelle façon détermine-t-on les paires de clés d'un portefeuille déterministe hiérarchique (HD) ?
+answer: Toutes les paires de clés du portefeuille sont déterminées de façon déterministe et hiérarchique depuis une information unique à la base du portefeuille.
 wrong_answers:
-  - Exactement 2^256
-  - Entre 1 et n-1
-  - Environ le même nombre d'atomes présents dans l'univers observable
+  - Toutes les paires de clés du portefeuille sont déterminées indépendamment des autres, de façon aléatoire, par un générateur de nombre aléatoire.
+  - Chaque paire de clés du portefeuille est déterminée de façon déterministe depuis la paire de clés précédente.
+  - Les paires de clés sont toutes aléatoires et sans lien hiérarchique.
 explanation: |
-  Le nombre total de possibilités pour une clé privée Bitcoin est presque égal à 1,158 x 10^77, ce qui correspond approximativement au même nombre d'atomes présents dans l'univers observable. Cela est dû au fait qu'une clé privée doit être comprise entre 1 et n-1, où n représente l'ordre de la courbe elliptique.
+  Dans les portefeuilles HD, toutes les clés sont dérivées d'une information unique appelée "graine", ce qui permet une gestion hiérarchique et déterministe des clés.
 reviewed: false

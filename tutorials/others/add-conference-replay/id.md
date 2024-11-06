@@ -11,7 +11,7 @@ Apakah Anda ingin menambahkan rekaman konferensi Bitcoin Anda di situs Jaringan 
 Namun, jika Anda ingin menambahkan konferensi yang akan berlangsung di masa depan, saya menyarankan Anda untuk [membaca tutorial lain ini](https://planb.network/tutorials/others/add-event) di mana kami menjelaskan cara menambahkan acara baru ke situs.
 ![conference](assets/01.webp)
 - Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/create-github-account).
-- Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) di bagian `resources/conference/`:
+- Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) di bagian `resources/conference/`:
 ![conference](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, lalu pada `Create new file`:
 ![conference](assets/03.webp)

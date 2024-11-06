@@ -17,7 +17,7 @@ Haluatko osallistua tämän tietokannan rikastuttamiseen, mutta et tiedä miten?
 https://planb.network/tutorials/others/create-github-account
 
 
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) `resources/bet/` -osiossa:
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` -osiossa:
 ![tapahtuma](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -painiketta, sitten `Create new file`:
 ![tapahtuma](assets/03.webp)
@@ -74,7 +74,7 @@ https://planb.network/tutorials/others/add-builder
 Esimerkiksi YAML-tiedostosi voisi näyttää tältä:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -159,7 +159,7 @@ description: |
 - Hae tiedostosi väliaikainen URL. Esimerkiksi minun tapauksessani URL on:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Säilytä URL:sta vain viimeinen osa alkaen `/resources`:
@@ -171,7 +171,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Lisää URL:n perään seuraavat tiedot saadaksesi oikean linkin:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Mitä tässä teemme, on tulevan tiedostosi linkin ennakoiminen, kun ehdotuksesi on yhdistetty PlanB Networkin lähdevarastoon.

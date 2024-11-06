@@ -1,9 +1,0 @@
-question: Wie lautet die Gleichung, die eine elliptische Kurve definiert?
-answer: "y\xB2 = x\xB3 + ax + b"
-wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
-explanation: |
-  "Eine elliptische Kurve wird durch die Gleichung y\xB2 = x\xB3 + ax + b definiert. Jeder Punkt auf dieser Kurve hat eine charakteristische Symmetrie, die für ihre Verwendbarkeit in der Kryptographie entscheidend ist."
-reviewed: false

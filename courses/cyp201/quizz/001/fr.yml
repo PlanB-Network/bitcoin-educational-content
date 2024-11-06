@@ -1,9 +1,9 @@
-question: Quel est l'avantage d'utiliser HASH160 dans le protocole Bitcoin ?
-answer: Cela permet d'assurer la sécurité de SHA-256 tout en réduisant la taille de l'empreinte.
+question: Quelle est la taille de la sortie de la fonction de hachage SHA256 ?
+answer: 256 bits.
 wrong_answers:
-  - Cela augmente la taille de l'empreinte pour une sécurité accrue.
-  - Il est plus résistant aux collisions que SHA-256.
-  - Il est plus rapide à calculer que SHA-256.
+  - 256 octets.
+  - 512 bits.
+  - 512 octets.
 explanation: |
-  HASH160 dans le protocole Bitcoin est avantageux car il maintient la sécurité de SHA-256 tout en réduisant la taille de l'empreinte. Cela le rend plus efficace sans compromettre la sécurité.
+  SHA-256 produit une sortie fixe de 256 bits, indépendamment de la taille des données d'entrée.
 reviewed: false

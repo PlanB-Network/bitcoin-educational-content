@@ -1,9 +1,0 @@
-question: Mikä on kryptografisten hajautusfunktioiden rooli ladatun ohjelmiston eheyden varmistamisessa?
-answer: Ne toimivat digitaalisina vartijoina, varmistaen ladatun ohjelmiston eheyden.
-wrong_answers:
-  - Ne salakirjoittavat ohjelmiston suojatakseen sitä hakkeroinnilta.
-  - Ne pakkaavat ohjelmiston vähentääkseen latausaikaa.
-  - Ne tuottavat uniikin avaimen jokaiselle lataukselle.
-explanation: |
-  Kryptografiset hajautusfunktiot ovat keskeisessä roolissa ladatun ohjelmiston eheyden varmistamisessa. Vertaamalla ladatun tiedoston hajautusarvoa odotettuun hajautusarvoon, voidaan varmistaa, että tiedostoa ei ole manipuloitu.
-reviewed: false

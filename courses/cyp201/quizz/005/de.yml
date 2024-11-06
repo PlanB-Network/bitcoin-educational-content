@@ -1,9 +1,0 @@
-question: Was ist das ultimative Ziel einer kryptografischen Hash-Funktion?
-answer: Arbiträre Informationen in einen Fingerabdruck fester Größe umwandeln.
-wrong_answers:
-  - Daten zur sicheren Übertragung verschlüsseln.
-  - Einen eindeutigen Schlüssel für jeden Benutzer generieren.
-  - Daten zur effizienten Speicherung komprimieren.
-explanation: |
-  Das ultimative Ziel einer kryptografischen Hash-Funktion besteht darin, arbiträre Informationen in einen Fingerabdruck fester Größe umzuwandeln. Dieser Fingerabdruck ist eindeutig für die Eingabedaten, und selbst eine kleine Änderung in der Eingabe führt zu einem drastisch unterschiedlichen Fingerabdruck.
-reviewed: false

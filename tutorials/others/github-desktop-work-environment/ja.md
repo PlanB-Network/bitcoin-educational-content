@@ -59,13 +59,13 @@ Markdownファイルを編集するために特化したソフトウェアは多
 
 - GitHub Desktopソフトウェアに戻ります。今のところ、あなたのフォークは`Your repositories`セクションに表示されるはずです。すぐに表示されない場合は、二重矢印ボタンを使用してリストを更新してください。フォークが表示されたら、それをクリックして選択します:
 ![github-desktop](assets/15.webp)
-- 次に、青いボタン`Clone [username]/sovereign-university-data`をクリックします:
+- 次に、青いボタン`Clone [username]/bitcoin-educational-content`をクリックします:
 ![github-desktop](assets/16.webp)
 - デフォルトパスを保持します。確認するために、青い`Clone`ボタンをクリックしてください:
 ![github-desktop](assets/17.webp)
 - GitHub Desktopがローカルにフォークをクローンするのを待ちます:
 ![github-desktop](assets/18.webp)
-リポジトリをクローンした後、ソフトウェアは2つのオプションを提供します。最初のオプション「To contribute to the parent project」を選択する必要があります。この選択により、将来の作業を親プロジェクト（`DecouvreBitcoin/sovereign-university-data`）への貢献として、個人のフォーク（`[username]/sovereign-university-data`）の修正としてではなく、提示することができます。オプションを選択したら、`Continue`をクリックしてください：![github-desktop](assets/19.webp)
+リポジトリをクローンした後、ソフトウェアは2つのオプションを提供します。最初のオプション「To contribute to the parent project」を選択する必要があります。この選択により、将来の作業を親プロジェクト（`PlanB-Network/bitcoin-educational-content`）への貢献として、個人のフォーク（`[username]/bitcoin-educational-content`）の修正としてではなく、提示することができます。オプションを選択したら、`Continue`をクリックしてください：![github-desktop](assets/19.webp)
 - これで、GitHub Desktopは正しく設定されました。これからは、ソフトウェアをバックグラウンドで開いたままにして、私たちが行う変更を追跡できます。
 ![github-desktop](assets/20.webp)
 この段階で達成したことは、GitHub上にホストされているリポジトリのローカルコピーの作成です。念のために言いますが、このリポジトリはPlanB Networkのソースリポジトリのフォークです。このローカルコピーに対して、チュートリアルの追加、翻訳、修正などの変更を加えることができます。これらの変更が行われたら、**Push origin** コマンドを使用して、ローカルの変更をGitHubにホストされているフォークに送信します。
@@ -81,7 +81,7 @@ Markdownファイルを編集するために特化したソフトウェアは多
 - ファイルエクスプローラーが開きます。「Documents」ディレクトリの中にある「GitHub」というタイトルのフォルダを探して選択する必要があります。このパスはステップ4で設定したものに対応しています。フォルダを選択した後、その選択を確認します。ソフトウェアの新しいページでObsidian上の保管庫の作成が開始されます：
 
 ![github-desktop](assets/24.webp)
--> **注意**、Obsidianで新しい保管庫を作成する際には、`sovereign-university-data` フォルダを選択しないでください。代わりに、親フォルダである `GitHub` を選択してください。`sovereign-university-data` フォルダを選択すると、ローカルのObsidian設定を含む設定フォルダ `.obsidian` がリポジトリに自動的に統合されます。これは、Obsidianの設定をPlanB Networkリポジトリに転送する必要がないため、避けたいことです。代替案として `.obsidian` フォルダを `.gitignore` ファイルに追加する方法もありますが、これもソースリポジトリの `.gitignore` ファイルを変更することになり、望ましくありません。
+-> **注意**、Obsidianで新しい保管庫を作成する際には、`bitcoin-educational-content` フォルダを選択しないでください。代わりに、親フォルダである `GitHub` を選択してください。`bitcoin-educational-content` フォルダを選択すると、ローカルのObsidian設定を含む設定フォルダ `.obsidian` がリポジトリに自動的に統合されます。これは、Obsidianの設定をPlanB Networkリポジトリに転送する必要がないため、避けたいことです。代替案として `.obsidian` フォルダを `.gitignore` ファイルに追加する方法もありますが、これもソースリポジトリの `.gitignore` ファイルを変更することになり、望ましくありません。
 
 - ウィンドウの左側には、ローカルにクローンされた異なるGitHubリポジトリのファイルツリーが表示されます。
 - フォルダ名の隣にある矢印をクリックすると、リポジトリのサブフォルダとそのドキュメントにアクセスするためにそれらを展開できます：
@@ -97,4 +97,5 @@ Markdownファイルを編集するために特化したソフトウェアは多
 おめでとうございます！あなたの作業環境は、PlanB Networkへの貢献のために設定されました。これで、各種の貢献（翻訳、校正、執筆など）に対する私たちの他の特定のチュートリアルを探索することができます。
 
 https://planb.network/tutorials/others
+
 

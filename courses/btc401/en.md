@@ -168,7 +168,6 @@ In the first lecture of the 'How Bitcoin' course, we began exploring the technol
 ![video](https://youtu.be/UkwbPVhLeIk)
 During the second lecture of 'How Bitcoin', we conducted a more in-depth examination of Bitcoin's technology stack.
 
-
 ### Bitcoin Structure
 
 The origins of Bitcoin are based on several key innovations, starting with **Adam Back's Hashcash**, a proof-of-work (PoW) system designed to prevent email spam and denial-of-service attacks by requiring senders to complete computational tasks. This PoW concept became a cornerstone of Bitcoin's security.
@@ -291,7 +290,6 @@ Welcome back! In the previous session, we covered the fundamental concepts behin
 
 **2. Practical Session Overview**
 In this session, Alekos will walk us through the process of setting up a Bitcoin node using a virtual machine. This hands-on tutorial is designed to familiarize you with the steps involved in configuring your node to participate in the Bitcoin network.
-
 
 Running a Bitcoin node involves validating transactions and blocks, enforcing consensus rules, and supporting the network’s decentralization. Setting up a node ensures you have a direct connection to the Bitcoin network, allowing you to contribute to its security and integrity.
 
@@ -689,11 +687,9 @@ This concludes our lecture on security and device setup for Bitcoin using Specte
 
 ![video](https://youtu.be/Vlm2ZdxcidA)
 
-
 Over more than a decade, Bitcoin has proven to be a transformative innovation in the financial world, successfully operating on a global scale and opening new possibilities in the digital economy. However, it still faces challenges that require creative and collaborative solutions. The ongoing evolution of Bitcoin presents a unique opportunity for those interested in shaping the future of decentralized finance.
 
 ![Image](assets/en/1/8.webp)
-
 
 #### Open Problems in the Bitcoin Usability
 
@@ -835,7 +831,6 @@ Strategies for securing Bitcoin wallets include multi-signature setups and diver
 Finally, user validation is critical in maintaining a secure network. Each user’s role in validating transactions and verifying software and hardware components helps preserve the network’s integrity and thwart potential threats.
 
 In conclusion, comprehending and integrating security and reliability principles are essential in designing robust systems. By learning from historical examples, applying real-world strategies, and continuously validating trust, we can build systems that are both secure and reliable.
-
 
 ## Free and Open Source Software (FLOSS) in Bitcoin
 
@@ -1126,8 +1121,6 @@ The primary goal of this lecture is to guide you through the process of parsing 
 
 ### Parsing Bitcoin Blocks and Transactions in Rust
 
-
-
 #### Components to Parse
 
 To parse a Bitcoin block, you'll need to focus on the following components:
@@ -1411,7 +1404,6 @@ In conclusion, parsing Bitcoin blocks and transactions in Rust involves understa
 
 ![Video](https://youtu.be/xOdz9GEiShM)
 
-
 Daniela Brozzoni offers a comprehensive overview of the Bitcoin Layer 1 software stack, explaining the layers that comprise the foundation of Bitcoin's protocol (ie. Bitcoin nodes and Bitcoin wallets) and how to build Bitcoin software with an introduction to Bitcoin libraries and a deep dive into Bitcoin Development Kit (BDK).
 
 ### Bitcoin Software Overview
@@ -1670,7 +1662,6 @@ BDK relies on several key dependencies, including Rust-Bitcoin and Rust-Miniscip
 
 By understanding these components, from Bitcoin nodes and wallets to the Bitcoin Development Kit (BDK), you can navigate the Bitcoin ecosystem with greater confidence and competence. This knowledge empowers you to develop robust and secure Bitcoin applications, contributing to the ongoing evolution of this revolutionary technology.
 
-
 # Lightning Network
 
 <partId>d7ac2ad7-a4b3-564f-8a8d-cfec5297b3a5</partId>
@@ -1684,15 +1675,15 @@ By understanding these components, from Bitcoin nodes and wallets to the Bitcoin
 
 ### History of Payment Channels
 
-Welcome to our lecture on modern payment solutions within blockchain technology. Today, we will explore the historical context and key developments of multi-hop locks (MHLs) and the Lytle Network.
+Welcome to our lecture on modern payment solutions within blockchain technology. Today, we will explore the historical context and key developments of multi-hop locks (MHLs) and the Lightning Network.
 
 #### Overview and Historical Context
 
-Multi-hop locks (MHLs) and the Lytle Network are advanced concepts in blockchain technology that facilitate efficient and secure micropayments across the network. Historically, the need for these innovations arose from the inefficiencies and limitations observed in the initial deployment of blockchain technologies, particularly Bitcoin. As we delve deeper, you will understand how topic-based structures and layered approaches have revolutionized blockchain transactions.
+Multi-hop locks (MHLs) and the Lightning Network are advanced concepts in blockchain technology that facilitate efficient and secure micropayments across the network. Historically, the need for these innovations arose from the inefficiencies and limitations observed in the initial deployment of blockchain technologies, particularly Bitcoin. As we delve deeper, you will understand how topic-based structures and layered approaches have revolutionized blockchain transactions.
 
 ### Topic-Based Structure
 
-The introduction of MHLs and the Lytle Network signifies a paradigm shift from traditional, linear blockchain transactions to more sophisticated, multi-layered systems. By compartmentalizing transactions into specific topics or segments, these innovations enable a more scalable and secure payment infrastructure that addresses many of the inherent issues in early blockchain implementations.
+The introduction of MHLs and the Lightning Network signifies a paradigm shift from traditional, linear blockchain transactions to more sophisticated, multi-layered systems. By compartmentalizing transactions into specific topics or segments, these innovations enable a more scalable and secure payment infrastructure that addresses many of the inherent issues in early blockchain implementations.
 
 ### Problems with Bitcoin
 
@@ -1714,7 +1705,7 @@ Despite the off-chain nature of payment channels, there remains the option to en
 
 Payment channels represent a significant leap forward in blockchain technology, providing a scalable and secure method for conducting transactions while addressing many of the fundamental issues associated with Bitcoin. As we continue to innovate and build upon these foundations, the future of blockchain looks increasingly promising.
 
-In conclusion, understanding the historical context and challenges of Bitcoin, and the innovative solutions proposed through MHLs, Lytle Network, and payment channels, provides a comprehensive view of the current landscape and future potential of blockchain technology.
+In conclusion, understanding the historical context and challenges of Bitcoin, and the innovative solutions proposed through MHLs, Lightning Network, and payment channels, provides a comprehensive view of the current landscape and future potential of blockchain technology.
 
 ## History of Atomic Routing
 
@@ -2252,7 +2243,7 @@ Another protocol, **RGB**, further extends Lightning's functionality by enabling
 > - **LNURL**: A protocol that allows for dynamic invoice creation, making payments easier and more flexible.
 > - **BOLT 12**: An extension of Lightning that leverages Onion messaging for privacy while automating invoice fetching.
 > - **Nostr**: A decentralized platform that integrates LProtocols and Use Cases
-ightning payments for micro-transactions.
+>   ightning payments for micro-transactions.
 > - **RGB Protocol**: A protocol enabling the transfer of assets, like tokens, over the Lightning Network.
 > - **LSP (Lightning Service Provider)**: An entity that provides liquidity and opens channels for Lightning transactions, making the network more accessible to users.
 
@@ -2460,3 +2451,4 @@ We'd like to acknowledge the contributions of our educators:
 Their expertise has been invaluable to the success of this course. This has been the first course based on the 1st edition of the Cubo+ initiative, conducted in July 2023. Thank you to all participants and educators for being a part of this pioneering educational journey. It marks the beginning of what we hope will be a long and fruitful journey into the world of Bitcoin development. As the first cohort, your participation has set the standard for future classes.
 
 Continue to explore, learn, and contribute to the Bitcoin ecosystem. The knowledge gained here is just a starting point. Keep digging the rabbit hole, and you'll discover an ever-expanding world of opportunities.
+

@@ -1,9 +1,0 @@
-question: Mitä tapahtuu yhteistyöllisessä sulkemisessa?
-answer: Kaksi vertaista kommunikoi ja sopii kanavan sulkemisesta, vahvistaa kanavan lopullisen tilan ja luo sulkemistransaktion.
-wrong_answers:
-  - Yksi vertainen pakottaa kanavan sulkemisen.
-  - Yksi vertainen yrittää huijata julkaisemalla vanhan sitoumustapahtuman.
-  - Kaksi vertaista riitelee jäljellä olevasta SAT:sta kanavassa.
-explanation: |
-  Yhteistyöllisessä sulkemisessa kaksi vertaista kommunikoi ja sopii kanavan sulkemisesta. He pysäyttävät kaikki transaktiot ja vahvistavat kanavan lopullisen tilan. Sen jälkeen he luovat sulkemistransaktion.
-reviewed: false

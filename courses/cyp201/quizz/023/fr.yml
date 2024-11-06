@@ -1,9 +1,9 @@
-question: Que signifie HMAC ?
-answer: Code d'authentification de message basé sur le hachage
+question: Quelle est la taille d'une clé publique Bitcoin avec son préfixe (non-compressée) ?
+answer: 520 bits.
 wrong_answers:
-  - Code d'authentification de maître hiérarchique
-  - Code d'authentification de maître haché
-  - Code d'authentification de message hiérarchique
+  - 512 octets.
+  - 256 bits.
+  - 512 bits.
 explanation: |
-  HMAC signifie Hash-based Message Authentication Code. Il s'agit d'un type de code d'authentification de message (MAC) impliquant une fonction de hachage cryptographique et une clé cryptographique secrète.
+  Une clé publique Bitcoin non compressée avec son préfixe fait 520 bits, comprenant les coordonnées x et y du point sur la courbe elliptique.
 reviewed: false

@@ -1,9 +1,0 @@
-question: Qual é o objetivo dos nós de roteamento em termos de liquidez na Lightning Network?
-answer: Manter um equilíbrio de liquidez em ambos os lados
-wrong_answers:
-  - Abrir canais
-  - Conectar-se a outros nós
-  - Comprar canais
-explanation: |
-  Para os nós de roteamento na Lightning Network, o objetivo em termos de liquidez é manter um equilíbrio de liquidez em ambos os lados. Eles também visam ter uma boa conexão com muitos nós para serem utilizados o máximo possível.
-reviewed: false

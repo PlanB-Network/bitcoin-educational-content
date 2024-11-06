@@ -1,9 +1,0 @@
-question: Tại sao việc đóng cưỡng chế lại rủi ro hơn về mặt phí và khả năng được các thợ đào xác nhận?
-answer: Bởi vì các phí đã được quyết định khi giao dịch được tạo ra trong quá khứ và mạng lưới đã thay đổi kể từ đó.
-wrong_answers:
-  - Bởi vì phí luôn cao hơn trong một việc đóng cưỡng chế.
-  - Bởi vì các thợ đào ít có khả năng xác nhận một việc đóng cưỡng chế.
-  - Bởi vì các phí không thể dự đoán trong một việc đóng cưỡng chế.
-explanation: |
-  Trong một việc đóng cưỡng chế, các phí đã được quyết định khi giao dịch được tạo ra trong quá khứ. Mạng lưới đã thay đổi kể từ đó, vì vậy giao thức mặc định áp dụng phí cao hơn 5 lần so với phí hiện tại khi giao dịch được tạo ra. Điều này làm cho việc đóng cưỡng chế trở nên rủi ro hơn về mặt phí và khả năng được các thợ đào xác nhận.
-reviewed: false

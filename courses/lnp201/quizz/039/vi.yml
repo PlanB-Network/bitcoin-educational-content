@@ -1,9 +1,0 @@
-question: Điều gì xảy ra trong quá trình giao dịch?
-answer: Bí mật của giao dịch
-wrong_answers:
-  - Bí mật của giao dịch
-  - Một bí mật mới được quyết định và một chìa khóa thu hồi mới được tạo ra.
-  - Giao dịch cam kết trước đó được cập nhật với bí mật mới và chìa khóa thu hồi.
-explanation: |
-  Trong quá trình giao dịch
-reviewed: false

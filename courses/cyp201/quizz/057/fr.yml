@@ -1,9 +1,9 @@
-question: Quel est le principal défi dans la génération de nombres aléatoires sur les ordinateurs pour les transactions Bitcoin?
-answer: Les résultats obtenus ne sont pas vraiment aléatoires.
+question: Avec une clé publique étendue, je peux dériver...
+answer: ...des clés publiques enfants normales.
 wrong_answers:
-  - Le processus est trop complexe pour la plupart des utilisateurs.
-  - Il nécessite beaucoup de puissance de calcul.
-  - Il n'est pas compatible avec tous les types d'ordinateurs.
+  - ...des clés publiques enfants renforcées.
+  - ...des clés privées enfants normales.
+  - ...des clés privées enfants renforcées.
 explanation: |
-  Les ordinateurs suivent des algorithmes prédéfinis, ce qui rend difficile la génération de nombres vraiment aléatoires. C'est un défi important en cryptographie, où l'aléatoire est crucial pour la sécurité des clés privées et des transactions Bitcoin.
+  Une clé publique étendue permet de dériver uniquement des clés publiques enfants normales, mais pas des clés privées.
 reviewed: false

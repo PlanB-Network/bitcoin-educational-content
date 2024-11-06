@@ -278,7 +278,6 @@ Otázka volného obchodu zůstává relevantní i dnes. Učebnice zeměpisu ve �
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
 Frédéric Bastiat, který se vyjadřoval ve 40. letech 19. století, je dědicem generace filozofů osvícenství, kteří bojovali proti cenzuře a za svobodu debaty. Pomyslete na Montesquieua, Diderota, Voltaira, Condorceta, ale také Rousseaua.
 
@@ -321,7 +320,6 @@ Podle Bastiata společnost, lidé a majetky existují před zákony, a má tuto 
 ## Klasické vzdělávání
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
 Dne 24. února 1848, po třech dnech nepokojů v Paříži, král Ludvík Filip I. abdikoval. Tím byl položen základ Druhé republiky.
 ![image](assets/image/06/IMG20.webp)
 
@@ -360,7 +358,6 @@ Nicméně, jak nás Bastiat připomíná, monopol vylučuje pokrok.
 
 ## Protekcionismus a socialismus
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![obrázek](assets/image/07/IMG11.webp)
 
@@ -403,13 +400,14 @@ A nadále by analyzoval jeho zvrácené účinky. Zde je jeden příklad, citova
 ![image](assets/image/07/IMG08.webp)
 Závěrem, protekcionisté a socialisté mají podle Bastiata společný bod: to, co hledají od zákona, není zajistit každému svobodné uplatnění jeho schopností a spravedlivou odměnu za jeho úsilí, ale spíše upřednostnit více či méně úplné využívání jedné třídy občanů druhou. S protekcionismem je to menšina, která využívá většinu. Se socialismem je to většina, která využívá menšinu. V obou případech je porušena spravedlnost a ohrožen veřejný zájem. Bastiat je staví proti sobě.
 
-![image](assets/image/07/IMG15.webp)
+> Stát je velká fikce, díky které se každý snaží žít na úkor všech ostatních.
+
+
 
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-![video](https://youtu.be/nBY6VUhtUis?si=EpWFShKZEQOyqRjg)
 
 Pierre-Joseph Proudhon je jedním z hlavních představitelů francouzského socialismu v polovině 19. století. Je zejména proslulý svým tvrzením: "Majetek je krádež" v "Co je majetek?" v roce 1840.
 
@@ -462,7 +460,6 @@ Závěrem, jak Proudhon, tak Bastiat uznali význam akumulace kapitálu a tenden
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
 V této kapitole odhalím zcela novou technologii, revoluční technologii. Výzkumník vyvinul pár bionických brýlí s ultra-výkonnou mini-kamerou zabudovanou v přední části. Tato technologie umožňuje vidět detaily, které jsou nemožné vidět pouhým okem. V ramenech je elektronický čip, který přenáší obrazy přímo do cloudu prostřednictvím mého smartphonu.
 
@@ -475,7 +472,7 @@ Takže v Dílech veřejných, Bastiat píše:
 
 > Stát otevře cestu, postaví palác, narovná ulici, vykope kanál; tím dá práci určitým pracovníkům, to je viděno; ale připraví o práci určité jiné, to je neviděno.
 
-![image](assets/image/09/IMG20.webp)
+
 Jedním z nejznámějších sofismů je omyl o rozbitém okně. Někteří tvrdí, že rozbití okna v domě neškodí ekonomice, protože to prospívá sklenáři. Ale Bastiat ukáže, že destrukce není v našem zájmu, protože nevytváří bohatství. Stojí více, než přináší. Mladý chlapec, který rozbije okno souseda, dá práci sklenáři. Ale tady je, jak ho jeho přátelé utěšují:
 > "Každý mrak má stříbrný okraj. Takové nehody udržují průmysl v chodu. Každý potřebuje žít. Co by se stalo se sklenáři, kdyby se okna nikdy nerozbíjela?"
 
@@ -502,7 +499,6 @@ Velké ponaučení z této série textů je, že státní zásah má perverzní 
 ## Petice svíčkářů
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
 V roce 1840 hlasovala Sněmovna poslanců pro zákon zvyšující dovozní cla za účelem ochrany francouzského průmyslu. Jedná se o slavný ekonomický patriotismus, se kterým se setkáváme i dnes.
 
 ![image](assets/image/10/IMG13.webp)
@@ -545,7 +541,6 @@ Pravé bohatství, podle Bastiata, je tedy soubor užitečných věcí, které v
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
-![video](https://youtu.be/VAewCBZGmaY?si=DRRU4eTbiB5iNU3J)
 
 > Když bohatí hubnou, chudí umírají.
 
@@ -584,9 +579,12 @@ Problém je, že daně, jak jsou pojaty, podléhají libovůli těch u moci. Pod
 
 To je důvod, proč Bastiat již pochopil Lafferovu křivku. Arthur Laffer je americký ekonom známý svou slavnou "křivkou" (elipsou), publikovanou v roce 1974, která ukazuje, že výnos z daní se zvyšuje se snižováním daňové sazby. Jedná se o teorii o klesajícím výnosu z nadměrného zdanění.
 
-![image](assets/image/11/IMG6.webp)
+> Příliš mnoho daní zabíjí daně.
 
 Politici naivně předpokládají, že mezi daňovými sazbami a daňovými příjmy existuje automatický a pevný vztah. Myslí si, že mohou zdvojnásobit daňové příjmy zdvojnásobením daňové sazby. Podle Laffera takový přístup přehlíží skutečnost, že daňoví poplatníci mohou změnit své chování v reakci na nové pobídky.
+
+![image](assets/image/11/IMG7.webp)
+
 Lafferova křivka ukazuje, že vláda nevybírá žádné příjmy, když jsou daňové sazby na 100%. Naopak, jakékoli snížení daní slouží k stimulaci ekonomické aktivity a tím i státních příjmů. Skutečně, snížení okrajových daňových sazeb stimuluje investice, práci, kreativitu a tím podporuje ekonomický růst. Dostatečné snížení by mohlo vyvolat dostatečný ekonomický stimul k výraznému rozšíření daňové základny a zvýšení veřejných příjmů.
 
 Bastiat by mohl dodat, že stejný důraz by měl být kladen na snižování státních výdajů jako na snižování daní. Nicméně, jak tak trefně řekla Margaret Thatcherová, žákyně Frédérica Bastiata:
@@ -642,7 +640,6 @@ Jedna věc je jistá, není to politik, kdo může změnit běh věcí a zdokona
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
 Může harmonická společnost fungovat bez psaných zákonů, pravidel, represivních opatření? Pokud jsou lidé ponecháni svobodní, nebudeme svědky chaosu, anarchie, dezorganizace? Jak zabránit vytvoření pouhého souboru jednotlivců jednajících mimo jakoukoliv spolupráci, pokud ne prostřednictvím zákonů a centralizované politické organizace?
 
@@ -679,7 +676,6 @@ Navazuje na Bastiatovu myšlenku neviditelné spolupráce mezi miliony jednotliv
 
 Nobelova cena za ekonomii za rok 1976, Milton Friedman, také znovu navštívil tento příběh tužky, aby vysvětlil široké veřejnosti, jak funguje tržní ekonomika.
 
-![video](https://youtu.be/67tHtpac5ws?si=Ck9jVkdpYHbUJ5we)
 
 V epizodě svého televizního seriálu Free to Choose analyzuje různé komponenty něčeho tak obyčejného a jednoduchého jako tužka a zdůrazňuje zázrak spontánního řádu, generovaného tisíci ekonomických interakcí po celém světě. Lidé, kteří se navzájem neznají, kteří nesdílejí stejné náboženství ani zvyky, přesto dokážou koordinovat výrobu tohoto objektu. Dospívá k závěru, že volný trh je nezbytný nejen pro zajištění prosperity, ale také pro harmonii a mír.
 
@@ -692,7 +688,6 @@ Ekonomické plánování, které tvrdí, že dokáže fungovat lépe než trh, v
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-![video](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
 
 V dopise Alphonse de Lamartine v roce 1845 Bastiat napsal, že jeho celá filozofie je obsažena v jediném principu:
 
@@ -755,7 +750,6 @@ Jinými slovy, kolektivní volby nejsou zodpovědné volby, protože na jedné s
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
 V předchozím kurzu jsme viděli, proč jsou svoboda a odpovědnost klíčové pro sociální problém. Nyní se do tohoto bodu ponoříme hlouběji tím, že ukážeme, jak Frédéric Bastiat vidí zla, která sužují společnosti, a jejich řešení.
 
@@ -801,7 +795,6 @@ Je nutné objasnit, že tento vývoj pokroku skrze odpovědnost není nijak auto
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -855,7 +848,6 @@ Zákon může člověka přimět být spravedlivý, ale nemůže ho donutit být
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-![video](https://youtu.be/M7g5ZhX7uwM?si=Hu3kTmj9pE-eRZmw)
 
 Majetkem zde nemáme na mysli půdu. Znamená to "právo pracovníka nad hodnotou, kterou vytvořil svou prací." Bastiat upřesňuje:
 
@@ -909,7 +901,6 @@ _(Cicero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-![video](https://youtu.be/DJgC0W8ViHs?si=xmSWGDYcbb_2tpPt)
 
 Hlavní myšlenkou Bastiata v "Zákonu", jeho slavném pamfletu z roku 1850, je ukázat proč a jak se zákon stal loupeží, tedy zdrojem privilegií, situativních rent a fiskální svévolnosti.
 
@@ -959,7 +950,6 @@ Bastiat napsal v díle "Zákon" krátce před svou smrtí. Sto let po smrti Fré
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
 V roce 1848 byl Bastiat poslancem. Byl jmenován viceprezidentem finanční komise. Byl tedy zvláště vhodný k zodpovězení této otázky: Co je stát? Obracíme se na stát, aby zajistil naše blaho. Ale Bastiat nás připomíná, že stát nemůže dát občanům nic, co si nejprve sám nevzal.
 
@@ -1019,7 +1009,6 @@ Napsal Frédéric Bastiat v krátké brožuře nazvané Stát.
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-![video](https://youtu.be/bzaIT_G-d4E?si=lzcCHS4FAneNmVSS)
 
 Vliv Bastiata začal klesat ke konci 19. století s nástupem socialismu a zejména marxismu na univerzitách a výzkumných institutech, financovaných veřejnými penězi.
 
@@ -1046,3 +1035,4 @@ Ale jak Bastiat trefně ukázal, státní zásah má perversní účinky, které
 Pokud se na věci podíváme z tohoto úhlu, vysvětloval Reagan zaměstnancům GE, takzvané zázraky státních výdajů se jeví v úplně jiném světle. Protože daně odradí od produkce a bohatství vytvořené veřejnými výdaji nemůže plně kompenzovat ty, které byly zabráněny vzniknout daněmi vybíranými na pokrytí těchto výdajů.
 ![obrázek](assets/image/20/IMG10.webp)
 Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liberální vize společnosti a člověka: primát občanské společnosti nad státem, hodnotu volby a individuální odpovědnosti, důležitost podnikatele ve tvorbě bohatství, význam flexibilního a minimálního právního rámce, který umožňuje důvěru a respektování smluv, základní zákon, že bohatství musí být vytvořeno, než může být rozděleno, touhu dát každému šanci na konkurenčních trzích…
+

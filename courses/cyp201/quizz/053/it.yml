@@ -1,9 +1,0 @@
-question: Qual è la lunghezza delle chiavi private in un portafoglio Bitcoin?
-answer: 256 bit
-wrong_answers:
-  - 128 bit
-  - 512 bit
-  - 1024 bit
-explanation: |
-  Le chiavi private in un portafoglio Bitcoin, che sono essenziali per il possesso di criptovalute, hanno una lunghezza fissa di 256 bit.
-reviewed: false

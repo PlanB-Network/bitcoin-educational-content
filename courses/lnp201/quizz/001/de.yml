@@ -1,9 +1,0 @@
-question: Was bestimmt, ob eine Transaktion in einem Lightning-Zahlungskanal möglich ist?
-answer: Der Benutzer, der die Mittel sendet, muss genügend Bitcoin auf seiner Seite des Kanals haben.
-wrong_answers:
-  - Die Gesamtkapazität des Kanals muss ausreichen, um die Transaktion abzudecken.
-  - Der Benutzer, der die Mittel empfängt, muss genügend Bitcoin auf seiner Seite des Kanals haben.
-  - Die Transaktion muss von dem Bitcoin-Netzwerk genehmigt werden.
-explanation: |
-  Damit eine Transaktion in einem Lightning-Zahlungskanal möglich ist, muss der Benutzer, der die Mittel sendet, genügend Bitcoin auf seiner Seite des Kanals haben.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Mikä on ero sulkeutumistransaktion ja sitoutumistransaktion välillä yhteistyöllisessä sulkemisessa?
-answer: Sulkeutumistransaktiolla ei ole aikalukkoa eikä kumoamisavainta.
-wrong_answers:
-  - Sulkeutumistransaktiolla on aikalukko ja kumoamisavain.
-  - Sulkeutumistransaktio on hitaampi kuin sitoutumistransaktio.
-  - Sulkeutumistransaktio on kalliimpi kuin sitoutumistransaktio.
-explanation: |
-  Yhteistyöllisessä sulkemisessa kaksi osapuolta sopivat kanavan lopullisesta tilasta ja luovat sulkeutumistransaktion. Tämä transaktio eroaa sitoutumistransaktioista, koska sillä ei ole aikalukkoa eikä kumoamisavainta.
-reviewed: false

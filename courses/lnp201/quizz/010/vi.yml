@@ -1,9 +1,0 @@
-question: Điều gì xảy ra với tất cả bitcoin trong một giao dịch Bitcoin?
-answer: Tất cả chúng đều phải di chuyển.
-wrong_answers:
-  - Tất cả chúng đều được chuyển đổi thành tiền tệ fiat.
-  - Tất cả chúng đều được lưu trữ trong một địa chỉ mới.
-  - Tất cả chúng đều được chia đều cho các bên tham gia.
-explanation: |
-  Trong một giao dịch Bitcoin, tất cả bitcoin đều phải di chuyển. Điều này được gọi là UTXO (Unspent Transaction Output), nơi mà các bit của bitcoin sẽ rời đi chỉ để quay trở lại với chủ sở hữu sau đó.
-reviewed: false

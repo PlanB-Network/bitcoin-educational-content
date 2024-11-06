@@ -1,9 +1,0 @@
-question: Mitä tapahtuu, jos Alice yrittää huijata julkaisemalla vanhan tilan?
-answer: Bob voi käyttää peruutusavainta siirtääkseen varat odottamatta Timelockin päättymistä, tehden täten Alicen rangaistukseksi.
-wrong_answers:
-  - Alice voi käyttää peruutusavainta siirtääkseen varat odottamatta Timelockin päättymistä.
-  - Bob voi pidentää Timelockia estääkseen Alicen rahojensa takaisin saamisen.
-  - Alice voi välittömästi saada rahansa takaisin.
-explanation: |
-  Jos Alice yrittää huijata julkaisemalla vanhan tilan, Bob voi käyttää peruutusavainta siirtääkseen varat odottamatta Timelockin päättymistä. Tämä rankaisee tehokkaasti Alicea yrittämisestä huijata.
-reviewed: false

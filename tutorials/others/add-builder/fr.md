@@ -13,7 +13,7 @@ Vous souhaitez ajouter un nouveau "builder" Bitcoin sur le site de PlanB Network
 https://planb.network/tutorials/others/create-github-account
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) dans la section `resources/builder/` :
+- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) dans la section `resources/builder/` :
 ![builder](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![builder](assets/03.webp)
@@ -193,3 +193,4 @@ Félicitations ! Votre PR a bien été créée. Un administrateur va maintenant 
 Pensez bien à suivre le progrès de votre PR. Il est possible qu'un administrateur y laisse un commentaire pour demander des informations supplémentaires. Tant que votre PR n'est pas validée, vous pouvez la consulter dans l'onglet `Pull requests` sur le dépôt GitHub de PlanB Network :
 ![builder](assets/45.webp)
 Merci beaucoup pour votre précieuse contribution ! :)
+

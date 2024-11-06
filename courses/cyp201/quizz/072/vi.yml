@@ -1,9 +1,0 @@
-question: Cụm từ gợi nhớ (mnemonic phrase) trong bối cảnh của ví Bitcoin là gì?
-answer: Đó là bản sao lưu của ví.
-wrong_answers:
-  - Đó là mật khẩu của ví.
-  - Đó là lịch sử giao dịch của ví.
-  - Đó là chữ ký số của ví.
-explanation: |
-  Cụm từ gợi nhớ được tạo ra để đảm bảo việc sao lưu ví Bitcoin.
-reviewed: false

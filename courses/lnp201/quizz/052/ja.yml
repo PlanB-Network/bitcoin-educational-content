@@ -1,8 +1,0 @@
-question: Lightning Networkで支払いを送る前にルートを決定するのは誰ですか？
-answer: 送信者のノード。
-wrong_answers:
-  - 受信者のノード。
-  - 仲介者のノード。
-  - ネットワーク自体。
-explanation: |
-  Lightning Networkでは、送信者のノードが支払いを送る前にルートを決定します。したがって、最適なルートを探し、送信者だけがルートと価格を知っています。

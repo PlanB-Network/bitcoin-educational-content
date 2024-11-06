@@ -1,8 +1,0 @@
-question: 例で挙げられたLightning Network転送に関わる2人のピアは誰ですか？
-answer: アリスとボブ。
-wrong_answers:
-  - アリスとチャーリー。
-  - ボブとチャーリー。
-  - アリスとビットコインネットワーク。
-explanation: |
-  例で、アリスとボブはLightning Network転送に関わる2人のピアです。

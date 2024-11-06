@@ -1,9 +1,0 @@
-question: Welche Rolle spielt der Seed bei der hierarchischen Organisation und Ableitung der HD-Wallet?
-answer: Der Seed spielt eine deterministische Rolle bei der Ableitung aller anderen Schlüssel.
-wrong_answers:
-  - Der Seed wird zur Verschlüsselung der Wallet verwendet.
-  - Der Seed wird zur Generierung des Master-Chain-Codes verwendet.
-  - Der Seed wird zur Wiederherstellung des Portfolios verwendet.
-explanation: |
-  Der Seed, mit einer Länge von 128 bis 256 Bits, wird zufällig oder aus einer geheimen Phrase generiert. Er spielt eine deterministische Rolle bei der Ableitung aller anderen Schlüssel in der HD-Wallet.
-reviewed: false

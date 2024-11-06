@@ -1,9 +1,0 @@
-question: Điều gì xảy ra trong một trường hợp đóng cưỡng chế nếu phí mạng là 1 SAT vào thời điểm đóng?
-answer: Giao dịch bị trả quá 50 lần.
-wrong_answers:
-  - Giao dịch bị trả thiếu 50 lần.
-  - Giao dịch bị trả quá 2 lần.
-  - Giao dịch bị trả thiếu 2 lần.
-explanation: |
-  Trong một trường hợp đóng cưỡng chế, giao thức mặc định áp dụng mức phí cao hơn 5 lần so với mức phí hiện tại khi giao dịch được tạo ra. Nếu phí mạng là 1 SAT vào thời điểm đóng, giao dịch bị trả quá 50 lần.
-reviewed: false

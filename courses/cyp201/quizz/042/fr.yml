@@ -1,9 +1,9 @@
-question: Quel est le but d'une signature numérique dans le contexte des transactions Bitcoin?
-answer: Prouver que vous êtes le détenteur d'une clé privée sans la révéler.
+question: Si je génère un nombre aléatoire de 256 bits, quelle sera la taille de ma phrase de récupération en mots ?
+answer: 24 mots.
 wrong_answers:
-  - Chiffrer les données de transaction.
-  - Stocker les données de transaction.
-  - Transmettre les données de transaction.
+  - 6 mots.
+  - 8 mots.
+  - 12 mots.
 explanation: |
-  Dans le contexte des transactions Bitcoin, une signature numérique est utilisée pour prouver que vous êtes le détenteur d'une clé privée sans la révéler. Cela est réalisé en utilisant l'algorithme ECDSA.
+  Un nombre aléatoire de 256 bits correspond à une phrase mnémonique de 24 mots selon le standard BIP39.
 reviewed: false

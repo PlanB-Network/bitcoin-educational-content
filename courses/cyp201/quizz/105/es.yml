@@ -1,9 +1,0 @@
-question: ¿Qué función se utiliza en la derivación de claves secundarias?
-answer: Se utiliza la función HMAC-SHA512 en la derivación de claves secundarias.
-wrong_answers:
-  - Se utiliza la función SHA256 en la derivación de claves secundarias.
-  - Se utiliza la función MD5 en la derivación de claves secundarias.
-  - Se utiliza la función SHA1 en la derivación de claves secundarias.
-explanation: |
-  Se utiliza la función HMAC-SHA512 en la derivación de claves secundarias. Esta función utiliza la clave principal concatenada con el índice y el código de cadena asociado con el par de claves.
-reviewed: false

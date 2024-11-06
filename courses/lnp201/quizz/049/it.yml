@@ -1,9 +1,0 @@
-question: Qual è il ruolo dei nodi della rete Lightning in una transazione?
-answer: Essi addebitano una commissione per accettare di essere utilizzati per instradare la transazione.
-wrong_answers:
-  - Essi facilitano la transazione senza alcun addebito.
-  - Essi iniziano la transazione.
-  - Essi sono i destinatari finali della transazione.
-explanation: |
-  Nella rete Lightning, i nodi addebitano una commissione per accettare di essere utilizzati per instradare la transazione. Questa commissione varia a seconda di dove si trova la liquidità.
-reviewed: false

@@ -8,4 +8,4 @@ The platform reflected Ross Ulbricht's agorist convictions, promoting a free and
 
 Silk Road was shut down in 2013. Ross Ulbricht was arrested the same year and sentenced to two life sentences plus 40 years, without the possibility of parole, along with a fine of 183 million dollars. This sentencing raises questions about the proportionality of penalties for non-violent online crimes. Ross is still imprisoned today.
 
-![](../../dictionnaire/assets/24.png)
+![](../../dictionnaire/assets/24.webp)

@@ -1,8 +1,0 @@
-question: Jaký je účel Timelocku v transakci závazku?
-answer: Zamkne prostředky do určitého bloku.
-wrong_answers:
-  - Zamkne transakci do určitého bloku.
-  - Zamkne kanál do určitého bloku.
-  - Zamkne revokační klíč do určitého bloku.
-explanation: |
-  Timelock v transakci závazku zamkne prostředky do určitého bloku. To brání straně, která transakci vytvořila, v okamžitém získání jejich peněz zpět.

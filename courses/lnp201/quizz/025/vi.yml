@@ -1,9 +1,0 @@
-question: Vai trò của giao dịch cam kết trong Mạng Lưới Lightning là gì?
-answer: Nó cập nhật số dư của kênh sau mỗi lần chuyển tiền.
-wrong_answers:
-  - Nó mở kênh.
-  - Nó đóng kênh.
-  - Nó chuyển tiền.
-explanation: |
-  Giao dịch cam kết là một giao dịch mới hơn cập nhật số dư của kênh sau mỗi lần chuyển tiền. Nó không được thực hiện trừ khi kênh được đóng.
-reviewed: false

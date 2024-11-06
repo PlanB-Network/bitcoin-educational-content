@@ -1,9 +1,0 @@
-question: Mục đích của nonce trong bối cảnh giao dịch Bitcoin là gì?
-answer: Nó được sử dụng trong việc tạo ra chữ ký số.
-wrong_answers:
-  - Nó được sử dụng để mã hóa dữ liệu giao dịch.
-  - Nó được sử dụng để lưu trữ dữ liệu giao dịch.
-  - Nó được sử dụng để truyền dữ liệu giao dịch.
-explanation: |
-  Trong bối cảnh giao dịch Bitcoin, nonce được sử dụng trong việc tạo ra chữ ký số. Cụ thể, nó được sử dụng trong việc tính toán một số cụ thể V và chữ ký số được tạo thành từ hai phần, S1 và S2.
-reviewed: false

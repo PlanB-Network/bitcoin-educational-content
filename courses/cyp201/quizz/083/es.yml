@@ -1,9 +1,0 @@
-question: ¿Se recomienda memorizar una frase de contraseña o frase mnemotécnica para una billetera de Bitcoin?
-answer: "No"
-wrong_answers:
-  - Sí
-  - Depende de la longitud de la frase de contraseña o frase mnemotécnica
-  - Depende de la complejidad de la frase de contraseña o frase mnemotécnica
-explanation: |
-  No se recomienda memorizar una frase de contraseña o frase mnemotécnica. Es crucial cuidar las copias de seguridad de la frase de contraseña para evitar perder el acceso a la billetera.
-reviewed: false

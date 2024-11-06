@@ -1,9 +1,0 @@
-question: Qu'est-ce qu'une clé étendue dans un portefeuille HD ?
-answer: Elle est obtenue en concaténant une clé parent avec son code de chaîne.
-wrong_answers:
-  - C'est l'élément le plus élevé dans la hiérarchie du portefeuille HD.
-  - Elle est utilisée pour générer la graine du portefeuille.
-  - Elle est utilisée pour calculer la somme de contrôle.
-explanation: |
-  La dérivation d'une clé enfant dépend de plusieurs facteurs, notamment de la clé parent et du code de chaîne correspondant. Une clé étendue est obtenue en concaténant une clé parent avec son code de chaîne.
-reviewed: false

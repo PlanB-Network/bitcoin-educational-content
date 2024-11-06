@@ -1,9 +1,0 @@
-question: Was ist die Funktion der pbkdf2-Funktion bei der Erstellung des Seeds?
-answer: Sie wird zusammen mit der mnemonischen Phrase und dem Passwort verwendet, um den Seed zu erhalten.
-wrong_answers:
-  - Sie wird verwendet, um den Master-Privatschlüssel zu generieren.
-  - Sie wird verwendet, um die Kind-Schlüsselpaare abzuleiten.
-  - Sie wird verwendet, um den Master-Chain-Code zu erstellen.
-explanation: |
-  Die pbkdf2-Funktion (Password-Based Key Derivation Function 2) wird zusammen mit der mnemonischen Phrase und dem Passwort verwendet, um den Seed zu erhalten, eine 512-Bit alphanumerische Sequenz, die als Grundlage für die Ableitung der Schlüssel des Wallets dient.
-reviewed: false

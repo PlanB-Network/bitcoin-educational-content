@@ -1,9 +1,0 @@
-question: Loại đóng kênh nào nhanh nhất và ít tốn kém nhất?
-answer: Đóng kênh hợp tác.
-wrong_answers:
-  - Đóng kênh bắt buộc.
-  - Đóng kênh bởi kẻ gian lận.
-  - Không có sự khác biệt về tốc độ và chi phí giữa các loại đóng kênh.
-explanation: |
-  Trong việc đóng kênh hợp tác, cả hai bên giao tiếp và đồng ý về trạng thái cuối cùng của kênh. Đây là lựa chọn nhanh nhất và ít tốn kém nhất.
-reviewed: false

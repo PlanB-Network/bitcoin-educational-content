@@ -1,9 +1,0 @@
-question: Mikä on äärettömyydessä olevan pisteen merkitys ECDSA-algoritmissa?
-answer: Jos laskettu piste P on äärettömyydessä oleva piste, allekirjoitus on mitätön.
-wrong_answers:
-  - Jos laskettu piste P on äärettömyydessä oleva piste, allekirjoitus on pätevä.
-  - Äärettömyydessä olevaa pistettä käytetään laskennallisen arvon (nonce) laskemiseen.
-  - Äärettömyydessä olevaa pistettä käytetään avainten salaamiseen.
-explanation: |
-  ECDSA-algoritmissa, jos elliptisellä käyrällä laskettu piste P on äärettömyydessä oleva piste, allekirjoitusta pidetään mitättömänä. Tämä on yksi tarkistuksista, jotka suoritetaan digitaalisen allekirjoituksen validoinnin aikana.
-reviewed: false

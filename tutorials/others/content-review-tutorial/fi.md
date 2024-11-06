@@ -103,7 +103,7 @@ HUOM. Arvostelu kannattaa tehdä koodi-ikkunassa alkuperäisen sisällön olless
 * Onnittelut ensimmäisestä PR:stäsi!
 
 ## **7. Jatka arvostelua myöhemmin**
-* Jos et ole saanut arvostelua valmiiksi ja haluat jatkaa työtäsi, mene GitHub-profiilisi kautta sovereign-university sisältörepositoryyn.
+* Jos et ole saanut arvostelua valmiiksi ja haluat jatkaa työtäsi, mene GitHub-profiilisi kautta PlanB-Network sisältörepositoryyn.
 * Valitse vastaava haara.
 * Nimeä haara tarvittaessa uudelleen.
 * Etsi sisältötiedostosi ja klikkaa kynäpainiketta jatkaaksesi arvostelua.

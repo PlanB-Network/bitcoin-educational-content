@@ -1,8 +1,0 @@
-question: Mikä määrittää, onko transaktio mahdollinen Lightning-maksukanavassa?
-answer: Lähettävällä käyttäjällä täytyy olla tarpeeksi Bitcoinia kanavan omalla puolellaan
-wrong_answers:
-  - Kanavan kokonaiskapasiteetin täytyy olla tarpeeksi suuri kattamaan transaktio
-  - Vastaanottavalla käyttäjällä täytyy olla tarpeeksi Bitcoinia kanavan omalla puolellaan
-  - Transaktion täytyy saada hyväksyntä Bitcoin-verkolta
-explanation: |
-  Jotta transaktio olisi mahdollinen Lightning-maksukanavassa, lähettävällä käyttäjällä täytyy olla tarpeeksi Bitcoinia kanavan omalla puolellaan.

@@ -1,9 +1,0 @@
-question: Cos'è un indirizzo di ricezione in Bitcoin?
-answer: Una rappresentazione alfanumerica di una chiave pubblica compressa.
-wrong_answers:
-  - Un identificatore unico per ogni transazione Bitcoin.
-  - Una password per accedere a un portafoglio Bitcoin.
-  - Una firma digitale per le transazioni Bitcoin.
-explanation: |
-  Un indirizzo di ricezione in Bitcoin è una rappresentazione alfanumerica di una chiave pubblica compressa. Viene utilizzato per ricevere transazioni Bitcoin.
-reviewed: false

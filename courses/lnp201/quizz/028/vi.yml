@@ -1,8 +1,0 @@
-question: Hai bên tham gia trong giao dịch Lightning Network trong ví dụ là ai?
-answer: Alice và Bob.
-wrong_answers:
-  - Alice và Charlie.
-  - Bob và Charlie.
-  - Alice và mạng Bitcoin.
-explanation: |
-  Trong ví dụ, Alice và Bob là hai bên tham gia trong giao dịch Lightning Network.

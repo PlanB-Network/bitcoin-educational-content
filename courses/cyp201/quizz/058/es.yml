@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel de la entropía en la billetera HD de Bitcoin?
-answer: Es la base de cualquier billetera HD y es esencial para su seguridad.
-wrong_answers:
-  - Ayuda en la verificación de transacciones.
-  - Aumenta la velocidad de las transacciones.
-  - Reduce el tamaño de la cadena de bloques.
-explanation: |
-  La entropía, o aleatoriedad, es la base de cualquier billetera HD. Es esencial para la seguridad de la billetera, ya que garantiza la imprevisibilidad de las claves privadas generadas.
-reviewed: false

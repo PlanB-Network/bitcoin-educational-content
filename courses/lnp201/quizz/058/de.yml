@@ -1,9 +1,0 @@
-question: Was passiert mit dem HTLC, wenn Bob das Geheimnis nie abruft?
-answer: Der HTLC wird nach einer bestimmten Anzahl von Blöcken ablaufen.
-wrong_answers:
-  - Der HTLC wird sofort storniert.
-  - Der HTLC wird an Alice übertragen.
-  - Der HTLC wird an Susie übertragen.
-explanation: |
-  Wenn Bob das Geheimnis nie abruft, wird der HTLC nach einer bestimmten Anzahl von Blöcken ablaufen. Dies ist ein integrierter Mechanismus, um sicherzustellen, dass der Vertrag nicht auf unbestimmte Zeit in der Schwebe bleibt.
-reviewed: false

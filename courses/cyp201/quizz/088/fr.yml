@@ -1,9 +1,0 @@
-question: Quels sont les deux éléments essentiels sur lesquels repose la fondation du portefeuille HD ?
-answer: La phrase mnémonique et la phrase secrète.
-wrong_answers:
-  - La graine et la clé privée principale.
-  - Le code de chaîne principal et la graine.
-  - La phrase mnémonique et la clé privée principale.
-explanation: |
-  La fondation du portefeuille HD repose sur deux éléments essentiels : la phrase mnémonique et la phrase secrète (mot de passe supplémentaire facultatif). Ensemble, ils constituent la graine, une séquence alphanumérique de 512 bits qui sert de base pour dériver les clés du portefeuille.
-reviewed: false

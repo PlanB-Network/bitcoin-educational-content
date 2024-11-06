@@ -1,9 +1,0 @@
-question: Jaká funkce se používá k vygenerování seedu z heslové fráze v Bitcoinové peněžence?
-answer: pbkdf2
-wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
-explanation: |
-  Funkce pbkdf2 se používá k vygenerování seedu z heslové fráze v Bitcoinové peněžence. Tento seed umožňuje odvození všech dceřiných párů klíčů peněženky.
-reviewed: false

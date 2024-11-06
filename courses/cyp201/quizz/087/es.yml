@@ -1,9 +1,0 @@
-question: ¿Cuál es la relación entre la clave privada maestra y las claves extendidas de la billetera?
-answer: La clave privada maestra es la primera clave privada derivada de la semilla y no tiene ninguna conexión con las claves extendidas de la billetera.
-wrong_answers:
-  - La clave privada maestra se deriva de las claves extendidas de la billetera.
-  - La clave privada maestra es igual a las claves extendidas de la billetera.
-  - La clave privada maestra se utiliza para generar las claves extendidas de la billetera.
-explanation: |
-  La clave privada maestra es la primera clave privada derivada de la semilla y no tiene ninguna conexión con las claves extendidas de la billetera.
-reviewed: false

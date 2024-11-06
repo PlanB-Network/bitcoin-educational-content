@@ -1,9 +1,0 @@
-question: Qual é a importância da segurança da chave privada no ecossistema do Bitcoin?
-answer: Isso garante a segurança das transações de Bitcoin.
-wrong_answers:
-  - Isso garante a velocidade das transações de Bitcoin.
-  - Isso garante o anonimato das transações de Bitcoin.
-  - Isso garante a legalidade das transações de Bitcoin.
-explanation: |
-  As chaves privadas são o alicerce que garante a segurança das transações de Bitcoin. Elas devem ser geradas de forma verdadeiramente aleatória para evitar qualquer vulnerabilidade associada à previsibilidade.
-reviewed: false

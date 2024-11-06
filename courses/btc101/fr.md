@@ -351,13 +351,13 @@ Une monnaie qui repose sur un tiers de confiance comme une institution financiè
 
 ### La politique monetaire du Bitcoin
 
-Bitcoin est une monnaie numérique décentralisée avec une quantité maximale pré-définie de **21 millions d'unités**. Cette caractéristique intrinsèque de rareté est déterminée par son code informatique et renforcer par le consensus de tous les utilisateurs participant au protocole.
+Bitcoin est une monnaie numérique décentralisée avec une quantité maximale pré-définie de **21 millions d'unités**. Cette caractéristique intrinsèque de rareté est déterminée par son code informatique et renforcée par le consensus de tous les utilisateurs participant au protocole.
 
 ![image](assets/fr/chapter4/0.webp)
 
 En ce qui concerne son émission monétaire, elle peut être illustrée par une courbe en S qui représente la quantité de bitcoins créés au cours du temps. Par exemple, en 2022, environ 18,5 millions de bitcoins étaient en circulation. Les prévisions indiquent qu'en 2025, il y aura environ 19,5 millions de bitcoins soit ~93% de l'offre totale, et en 2037, ce chiffre atteindra 20,4 millions.
 
-### Comment creer de nouveau Bitcoin ?
+### Comment créer de nouveaux bitcoins ?
 
 La création de nouveaux bitcoins est le résultat du processus de minage, une procédure d'attestation des transactions sur le réseau Bitcoin.
 
@@ -392,13 +392,13 @@ Nous reviendrons en détail sur les mineurs dans le chapitre minage.
 
 ### Garantir la rareté numérique
 
-La rareté du Bitcoin est garantie par deux mécanismes clés; l'ajustement de la difficulté du minage et la théorie du jeu:
+La rareté du Bitcoin est garantie par deux mécanismes clés; l'ajustement de la difficulté du minage et la théorie des jeux:
 
 - L'ajustement de la difficulté du minage est un mécanisme qui s'effectue tous les 2016 blocs, soit environ deux semaines, pour garantir que, en moyenne, un nouveau bloc est ajouté à la blockchain toutes les dix minutes. Cette fréquence de création de blocs et la quantité totale de bitcoins sont des aspects figés du protocole Bitcoin et ne peuvent être modifiés sans un consensus général, contrairement aux décisions arbitraires prises dans les systèmes monétaires traditionnels.
 
 ![image](assets/fr/chapter4/2.webp)
 
-> Le saviez vous ? Les mineurs sont incités miner un bloc pour gagner les nouveaux bitcoins et les frais de transaction associés aux transactions qu'il inclue dans son bloc. À mesure que le nombre de bitcoins émis se rapproche de la limite de 21 millions, les mineurs seront davantage rémunérer par ses frais de transactions plutôt que par la récompense du bloc.
+> Le saviez vous ? Les mineurs sont incités à miner un bloc pour gagner les nouveaux bitcoins et les frais de transaction associés aux transactions qu'ils incluent dans leurs blocs. À mesure que le nombre de bitcoins émis se rapproche de la limite de 21 millions, les mineurs seront davantage rémunérés par les frais de transactions plutôt que par la récompense du bloc.
 
 - La théorie des jeux est un concept mathématique qui repose sur la rationalité humaine. Ici, dans Bitcoin, ce sont les utilisateurs qui votent pour les changements du protocole. Oui, vous avez bien lu : toute modification du protocole Bitcoin nécessiterait l'accord de l'ensemble de la communauté des utilisateurs, ce qui est hautement complexe. Si quelqu'un voulait donc créer un 22ème million de bitcoin, il devrait convaincre l'ensemble des utilisateurs de volontairement dévaluer leur propre épargne, ce qui ne risque pas d'arriver car Bitcoin est mondial et non gouverné par un groupe central.
 
@@ -437,13 +437,13 @@ En somme, le Bitcoin, par sa nature décentralisée, sa rareté programmée et s
 
 ![conclusion sur la monnaie](https://youtu.be/xJsT7Jk5xWE)
 
-La monnaie est un outil social qui doit s'adapter aux besoins et à la technologie. Au fil du temps, l'or a été utilisé comme réserve de valeur car il était rare et ne pouvait pas être dévalué. Cependant, plus tard, l'or a été remplacé par de la dette et de la monnaie fiduciaire, qui est facile à transporter, mais aussi à manipuler sa politique monétaire.
+La monnaie est un outil social qui doit s'adapter aux besoins et à la technologie. Au fil du temps, l'or a été utilisé comme réserve de valeur car il était rare et ne pouvait pas être dévalué. Cependant, plus tard, l'or a été remplacé par de la dette et de la monnaie fiduciaire, qui est facile à transporter, mais aussi à manipuler via sa politique monétaire.
 
-Bitcoin est une alternative monétaire réaliste car il est rare et limité à 21 millions de bitcoins qui ne peuvent pas être modifiés. La création monétaire est maintenue grâce à l'ajustement de la difficulté toutes les 2 semaines, et grâce aux halving garantissant une preuve mathématique vérifiable de sa rareté. Contrairement aux euros ou aux dollars dont le volume en circulation est non-vérifiable et changent fréquemment suite aux mandants d'institution financière, Bitcoin est une monnaie cryptographique avec une politique monétaire neutre et fixe. Elle est donc une excellente réserve de valeur mondiale car elle ne peut pas être dévaluer par l'impression monétaire.
+Bitcoin est une alternative monétaire réaliste car il est rare et limité à 21 millions de bitcoins qui ne peuvent pas être modifiés. La création monétaire est maintenue grâce à l'ajustement de la difficulté toutes les 2 semaines, et grâce aux halving garantissant une preuve mathématique vérifiable de sa rareté. Contrairement aux euros ou aux dollars dont le volume en circulation est non-vérifiable et change fréquemment suite aux mandants d'institution financière, Bitcoin est une monnaie cryptographique avec une politique monétaire neutre et fixe. Elle est donc une excellente réserve de valeur mondiale car elle ne peut pas être dévaluée par l'impression monétaire.
 
 Bitcoin est avant tout une forme de monnaie qui incite à remettre en question le pouvoir des institutions financières sur la monnaie. C'est un combat philosophique et économique qui est en jeu. Pour comprendre Bitcoin, il est important de comprendre ses bases fondamentales et de démystifier les idées fausses qui l'entourent. Cela permettra d'engager un débat intellectuel constructif sur l'avenir de la monnaie.
 
-Maintenant que nous avons établi les différences entre Bitcoin et les monnaies fiduciaires, nous allons dans les prochains chapitres étudier ce que sont les portefeuilles Bitcoin car il est de votre responsabilité de sécuriser vos fonds. En effet la sovereineté financière qu'offre Bitcoin va nécessairement de pair avec la responsabilité individuelle.
+Maintenant que nous avons établi les différences entre Bitcoin et les monnaies fiduciaires, nous allons dans les prochains chapitres étudier ce que sont les portefeuilles Bitcoin car il est de votre responsabilité de sécuriser vos fonds. En effet la souveraineté financière qu'offre Bitcoin va nécessairement de pair avec la responsabilité individuelle.
 
 # Les portefeuilles Bitcoin
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>

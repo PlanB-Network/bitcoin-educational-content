@@ -1,9 +1,0 @@
-question: Welche Merkmale hat eine effektive Passphrase für eine Bitcoin-Wallet?
-answer: Lang (20 bis 40 Zeichen) und vielfältig (Verwendung von Großbuchstaben, Kleinbuchstaben, Zahlen und Symbolen)
-wrong_answers:
-  - Kurz und einfach
-  - Lang und einfach
-  - Kurz und vielfältig
-explanation: |
-  Eine effektive Passphrase sollte lang (20 bis 40 Zeichen) und vielfältig sein (Verwendung von Großbuchstaben, Kleinbuchstaben, Zahlen und Symbolen). Sie sollte nicht direkt mit dem Benutzer oder seiner Umgebung in Verbindung stehen.
-reviewed: false

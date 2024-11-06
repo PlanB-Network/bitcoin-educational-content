@@ -1,9 +1,0 @@
-question: ¿Qué función hash es un elemento clave en el protocolo Bitcoin?
-answer: SHA-256
-wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
-explanation: |
-  SHA-256 es un elemento clave en el protocolo Bitcoin. Se utiliza para crear una huella digital única e irreversible de los datos de transacción, lo cual es crucial para la seguridad e integridad de la red Bitcoin.
-reviewed: false

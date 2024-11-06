@@ -1,9 +1,0 @@
-question: ¿Quién inicia el proceso de abrir un canal en la Red Lightning?
-answer: Alice
-wrong_answers:
-  - Bob
-  - Tanto Alice como Bob
-  - Ni Alice ni Bob
-explanation: |
-  En el proceso de abrir un canal en la Red Lightning, Alice es quien inicia el proceso. Ella comunica su intención de abrir un canal a Bob, quien responde proporcionando su dirección pública.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Vai trò của hàm băm mật mã trong việc xác minh tính toàn vẹn của phần mềm đã tải về là gì?
-answer: Chúng đóng vai trò như những lính gác số, xác minh tính toàn vẹn của phần mềm đã tải về.
-wrong_answers:
-  - Chúng mã hóa phần mềm để bảo vệ nó khỏi hacker.
-  - Chúng nén phần mềm để giảm thời gian tải về.
-  - Chúng tạo ra một khóa duy nhất cho mỗi lần tải về.
-explanation: |
-  Hàm băm mật mã đóng vai trò quan trọng trong việc xác minh tính toàn vẹn của phần mềm đã tải về. Bằng cách so sánh giá trị băm của tệp đã tải với giá trị băm mong đợi, người ta có thể xác minh rằng tệp không bị can thiệp.
-reviewed: false

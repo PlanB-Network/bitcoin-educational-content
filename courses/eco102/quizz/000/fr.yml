@@ -1,0 +1,9 @@
+question: Quel livre de Frédéric Bastiat a été le livre de chevet de Ronald Reagan ?
+answer: La Loi
+wrong_answers:
+  - Les Sophismes économiques
+  - Ce qu'on voit et ce qu'on ne voit pas
+  - Les Harmonies économiques
+explanation: |
+  "La Loi" est l'ouvrage de Bastiat qui a influencé profondément Ronald Reagan, symbolisant la lutte contre la spoliation légale.
+reviewed: false

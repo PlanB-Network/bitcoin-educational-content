@@ -125,7 +125,7 @@ So n = 2.
 Step 2: Determine P, the number of padding bits needed to reach the final desired number of bits.
 -> M + 1 + P + 64 = n * 512
 -> M + 1 + P + 64 = 2 * 512
--> 940 + 1 + P + 64 = 1024
+-> 950 + 1 + P + 64 = 1024
 -> P = 1024 - 1 - 64 - 950
 -> P = 9
 

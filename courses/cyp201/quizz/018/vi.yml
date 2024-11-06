@@ -1,9 +1,0 @@
-question: Mục đích của HMAC trong giao thức Bitcoin là gì?
-answer: Nó được sử dụng để chống lại các cuộc tấn công mở rộng độ dài khi tạo ví xác định phân cấp (HD).
-wrong_answers:
-  - Nó được sử dụng để chuyển đổi cụm từ ghi nhớ thành một hạt giống.
-  - Nó được sử dụng để tạo ra một đầu ra cố định kích thước.
-  - Nó được sử dụng để thêm một nguồn entropy bổ sung trong việc suy ra khóa.
-explanation: |
-  HMAC chủ yếu được sử dụng để chống lại các cuộc tấn công mở rộng độ dài khi tạo ví xác định phân cấp (HD). Nó nhận một thông điệp và một khóa làm đầu vào và tạo ra một đầu ra cố định kích thước.
-reviewed: false

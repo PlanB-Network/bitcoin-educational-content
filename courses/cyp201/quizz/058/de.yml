@@ -1,9 +1,0 @@
-question: Welche Rolle spielt die Entropie in der Bitcoin HD Wallet?
-answer: Sie ist die Grundlage jeder HD Wallet und für deren Sicherheit unerlässlich.
-wrong_answers:
-  - Sie hilft bei der Überprüfung von Transaktionen.
-  - Sie erhöht die Geschwindigkeit von Transaktionen.
-  - Sie reduziert die Größe der Blockchain.
-explanation: |
-  Entropie oder Zufälligkeit ist die Grundlage jeder HD Wallet. Sie ist für die Sicherheit der Wallet unerlässlich, da sie die Unvorhersehbarkeit der generierten privaten Schlüssel gewährleistet.
-reviewed: false

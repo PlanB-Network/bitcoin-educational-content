@@ -1,9 +1,0 @@
-question: Điều gì xảy ra trong một quá trình đóng cửa hợp tác?
-answer: Hai bên liên lạc và đồng ý đóng kênh, xác nhận trạng thái cuối cùng của kênh và tạo ra một giao dịch đóng cửa.
-wrong_answers:
-  - Một bên ép buộc đóng cửa kênh.
-  - Một bên cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ.
-  - Hai bên tranh giành SAT còn lại trong kênh.
-explanation: |
-  Trong một quá trình đóng cửa hợp tác, hai bên liên lạc và đồng ý đóng kênh. Họ dừng tất cả các giao dịch và xác nhận trạng thái cuối cùng của kênh. Sau đó, họ tạo ra giao dịch đóng cửa.
-reviewed: false

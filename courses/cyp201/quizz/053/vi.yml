@@ -1,9 +1,0 @@
-question: Độ dài của khóa riêng trong ví Bitcoin là bao nhiêu?
-answer: 256 bit
-wrong_answers:
-  - 128 bit
-  - 512 bit
-  - 1024 bit
-explanation: |
-  Khóa riêng trong ví Bitcoin, là yếu tố thiết yếu cho việc sở hữu tiền mã hóa, có độ dài cố định là 256 bit.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Mục đích của khóa thu hồi trong Lightning Network là gì?
-answer: Để trừng phạt một người tham gia cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ.
-wrong_answers:
-  - Để thưởng cho một người tham gia gian lận thành công.
-  - Để mở một kênh mới.
-  - Để xác thực một giao dịch.
-explanation: |
-  Khóa thu hồi là một cơ chế trong Lightning Network để ngăn chặn gian lận. Nếu một người tham gia cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ, người tham gia khác có thể sử dụng khóa thu hồi để trừng phạt kẻ gian lận và lấy tất cả SAT từ kênh.
-reviewed: false

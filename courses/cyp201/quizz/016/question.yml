@@ -1,64 +1,18 @@
-id: 3ccc67fb-ec15-4873-966d-5a473ee9d465
-chapterId: 905eb320-f15b-5fb6-8d2d-5bb447337deb
-difficulty: easy
+id: 98a90015-2ba9-42a9-bb11-400ffc6f22d7
+chapterId: c9dd9672-6da1-57f8-9871-8b28994d4c1a
+difficulty: hard
 duration: 15
-author: DecouvreBitcoin
+author: pretty-private
 tags:
-  - SHA256
-  - Cryptography
-  - Bitcoin
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2684
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2592
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1296
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2638
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2684
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-21
     urgency: 1
     contributors_id:
-    reward: 2592
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2638
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2776
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2592
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2776
+      - LoicPandul
+    reward:

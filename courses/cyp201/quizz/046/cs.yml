@@ -1,9 +1,0 @@
-question: Jaký význam má bod v nekonečnu v algoritmu ECDSA?
-answer: Pokud je vypočítaný bod P bodem v nekonečnu, podpis je neplatný.
-wrong_answers:
-  - Pokud je vypočítaný bod P bodem v nekonečnu, podpis je platný.
-  - Bod v nekonečnu se používá k výpočtu nonce.
-  - Bod v nekonečnu se používá k šifrování klíčů.
-explanation: |
-  V algoritmu ECDSA, pokud je vypočítaný bod P na eliptické křivce bodem v nekonečnu, je podpis považován za neplatný. To je jedna z kontrol prováděných při ověřování digitálního podpisu.
-reviewed: false

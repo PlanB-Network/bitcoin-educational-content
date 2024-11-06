@@ -1,9 +1,0 @@
-question: Quelle est la taille d'une clé publique compressée dans Bitcoin?
-answer: 264 bits
-wrong_answers:
-  - 520 bits
-  - 128 bits
-  - 256 bits
-explanation: |
-  Dans Bitcoin, une clé publique brute occupe 520 bits. Cependant, grâce à la symétrie de la courbe elliptique utilisée, nous pouvons compresser la clé publique pour réduire sa taille de 520 à 264 bits.
-reviewed: false

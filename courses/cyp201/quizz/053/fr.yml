@@ -1,9 +1,9 @@
-question: Quelle est la longueur des clés privées dans un portefeuille Bitcoin ?
-answer: 256 bits
+question: Quelles sont les informations calculées à partir de la graine en appliquant HMAC-SHA512 ?
+answer: La clé maîtresse et le code de chaîne maître du portefeuille.
 wrong_answers:
-  - 128 bits
-  - 512 bits
-  - 1024 bits
+  - La clé étendue du portefeuille.
+  - La xpub et la xprv du portefeuille.
+  - Le code de signature de la clé privée.
 explanation: |
-  Les clés privées dans un portefeuille Bitcoin, qui sont essentielles pour la propriété de la cryptomonnaie, ont une longueur fixe de 256 bits.
+  À partir de la graine, HMAC-SHA512 dérive la clé maîtresse et le code de chaîne maître, qui sont la base pour la génération des clés.
 reviewed: false

@@ -1,9 +1,0 @@
-question: O que é um hash no contexto das funções de hash criptográficas?
-answer: Uma impressão digital digital única e de tamanho fixo produzida por uma função de hash.
-wrong_answers:
-  - Um tipo de algoritmo de criptografia.
-  - Uma chave usada para descriptografar dados.
-  - Um método de compressão de dados.
-explanation: |
-  No contexto das funções de hash criptográficas, um hash é uma impressão digital digital única e de tamanho fixo produzida pela função de hash. Ele representa os dados de entrada de uma maneira única e irreversível.
-reviewed: false

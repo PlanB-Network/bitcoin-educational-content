@@ -1,9 +1,0 @@
-question: ¿Por qué Alice necesita la firma de Bob antes de publicar las transacciones para abrir un canal?
-answer: Para asegurarse de que pueda recuperar sus fondos por sí sola si algo sale mal.
-wrong_answers:
-  - Para confirmar el acuerdo de Bob para abrir el canal.
-  - Para verificar la identidad de Bob.
-  - Para encriptar las transacciones por seguridad.
-explanation: |
-  Alice le pide a Bob una firma con su clave pública antes de publicar las transacciones. Esto es para asegurarse de que pueda recuperar sus fondos por sí sola si algo sale mal, ya que ya tiene la firma de Bob.
-reviewed: false

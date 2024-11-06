@@ -1,9 +1,0 @@
-question: Lightning Networkでの2種類の手数料は何ですか？
-answer: 金額に関係ない固定手数料と変動手数料です。
-wrong_answers:
-  - 取引手数料とルーティング手数料。
-  - 送金者手数料と受取人手数料。
-  - ネットワーク手数料とチャネル手数料。
-explanation: |
-  Lightning Networkでは、金額に関係ない固定手数料（デフォルトは1 SATだが変更可能）と変動手数料（デフォルトで0.01%）の2種類の手数料があります。
-reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est l'ordre de la courbe (n) pour la courbe secp256k1 en décimal ?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: Qu'est-ce qu'un “Nonce” en cryptographie ?
+answer: Un nombre destiné à être utilisé une seule fois.
 wrong_answers:
-  - 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 -1
-  - 2^256 - 432420386565659656852420866394968145598
-  - 2^256 - 432420386565659656852420866394968145600
+  - Un nombre pair.
+  - Une signature numérique.
+  - Un nombre qui peut être réutilisé.
 explanation: |
-  L'ordre de la courbe (n) pour la courbe secp256k1 est le nombre de points sur la courbe, y compris le point à l'infini. Pour secp256k1, n est égal à 2^256 - 432420386565659656852420866394968145599 en décimal.
+  Un nonce est un nombre utilisé une seule fois pour des opérations cryptographiques, garantissant l'unicité de certaines valeurs dans les algorithmes.
 reviewed: false

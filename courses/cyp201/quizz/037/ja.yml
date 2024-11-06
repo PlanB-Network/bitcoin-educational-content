@@ -1,9 +1,0 @@
-question: Bitcoinがプライベートキーとパブリックキーをリンクするために使用するアルゴリズムは何ですか？
-answer: 楕円曲線デジタル署名アルゴリズム (ECDSA)
-wrong_answers:
-  - 高度暗号標準 (AES)
-  - リベスト・シャミア・アドルマン (RSA)
-  - セキュアハッシュアルゴリズム2 (SHA-2)
-explanation: |
-  Bitcoinは、プライベートキーとパブリックキーをリンクするために楕円曲線デジタル署名アルゴリズム(ECDSA)を利用しています。
-reviewed: false

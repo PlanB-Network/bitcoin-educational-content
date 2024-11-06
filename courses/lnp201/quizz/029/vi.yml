@@ -1,8 +1,0 @@
-question: Alice bắt đầu với bao nhiêu SAT trong ví dụ?
-answer: 130,000 SAT.
-wrong_answers:
-  - 100,000 SAT.
-  - 90,000 SAT.
-  - 0 SAT.
-explanation: |
-  Trong ví dụ, Alice mở một kênh với Bob với 130,000 SAT ở phía cô ấy.

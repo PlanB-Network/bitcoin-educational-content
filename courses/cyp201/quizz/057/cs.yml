@@ -1,9 +1,0 @@
-question: Jaká je hlavní výzva při generování náhodných čísel na počítačích pro Bitcoinové transakce?
-answer: Získané výsledky nejsou skutečně náhodné.
-wrong_answers:
-  - Proces je příliš složitý pro většinu uživatelů.
-  - Vyžaduje to hodně výpočetního výkonu.
-  - Není kompatibilní se všemi typy počítačů.
-explanation: |
-  Počítače následují předem nastavené algoritmy, což ztěžuje generování skutečně náhodných čísel. To je významná výzva v kryptografii, kde je náhodnost klíčová pro zabezpečení soukromých klíčů a Bitcoinových transakcí.
-reviewed: false

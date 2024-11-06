@@ -1,9 +1,0 @@
-question: Mikä on Bitcoin-lompakon pääasiallinen toiminto?
-answer: Se viittaa yksityisten kryptografisten avainten kokoelmaan, jotka on johdettu yhdestä pääavaimesta.
-wrong_answers:
-  - Se on fyysinen laite, joka säilyttää kryptovaluuttoja.
-  - Se on digitaalinen alusta kryptovaluuttojen ostamiseen ja myymiseen.
-  - Se on ohjelmisto, joka louhii uusia bitcoineja.
-explanation: |
-  Bitcoin-lompakko, erityisesti Hierarkkinen Deterministinen Lompakko (HD-lompakko), on yksityisten kryptografisten avainten kokoelma, jotka on johdettu yhdestä pääavaimesta. Nämä avaimet ovat olennaisia kryptovaluutan omistajuuden kannalta.
-reviewed: false

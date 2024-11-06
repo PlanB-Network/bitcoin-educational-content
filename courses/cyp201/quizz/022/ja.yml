@@ -1,9 +1,0 @@
-question: Bitcoinプロトコルのセキュリティメカニズムにおける2つの主要なコンポーネントは何ですか？
-answer: HMACとPBKDF2導出アルゴリズム
-wrong_answers:
-  - SHA-256とRIPEMD-160ハッシュ関数
-  - 楕円曲線デジタル署名アルゴリズム（ECDSA）とSHA-256ハッシュ関数
-  - RSAとディフィー・ヘルマン鍵交換
-explanation: |
-  HMACとPBKDF2導出アルゴリズムは、Bitcoinプロトコルのセキュリティメカニズムにおける主要なコンポーネントです。これらは様々な潜在的な攻撃を防ぎ、Bitcoinウォレットの完全性を保証します。
-reviewed: false

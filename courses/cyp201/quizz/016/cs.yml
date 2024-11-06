@@ -1,9 +1,0 @@
-question: Jaký je účel druhé fáze předzpracování v SHA256?
-answer: Přidat binární reprezentaci velikosti původní zprávy, v bitech
-wrong_answers:
-  - Přidat bitové vyplnění do vstupu
-  - Rozdělit vstup na různé bloky 512-bitových zpráv
-  - Provést 64 kol výpočtů v kompresní funkci
-explanation: |
-  Druhá fáze předzpracování v SHA256 zahrnuje přidání binární reprezentace velikosti původní zprávy, v bitech. To se provádí pomocí 64 rezervovaných bitů z předchozího kroku.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Mikä on vetäytymistransaktion tarkoitus Lightning Networkin kanavan avaamisprosessissa?
-answer: Sen avulla Alice voi palauttaa varansa, jos jotain menee pieleen.
-wrong_answers:
-  - Sen avulla Bob voi vaatia osuutensa varoista.
-  - Sitä käytetään kanavan avaamisprosessin finalisoimiseen.
-  - Sitä käytetään varojen siirtämiseen Alicelta Bobille.
-explanation: |
-  Vetäytymistransaktio luodaan Alicen toimesta ennen varojen talletuksen julkaisemista moniallekirjoitusosoitteeseen. Tämä transaktio mahdollistaa Alicen käyttää varoja moniallekirjoitusosoitteesta hänen omaan osoitteeseensa. Tämä tehdään varmistamaan, että hän voi palauttaa varansa, jos jotain menee pieleen.
-reviewed: false

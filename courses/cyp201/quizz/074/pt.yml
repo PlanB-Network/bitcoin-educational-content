@@ -1,9 +1,0 @@
-question: Por que é essencial fazer backup da frase de recuperação de 24 palavras de uma carteira de Bitcoin?
-answer: Para evitar qualquer perda de fundos.
-wrong_answers:
-  - Para verificar a precisão da frase de recuperação.
-  - Para gerar a entropia para a carteira.
-  - Para criptografar a frase de recuperação para maior segurança.
-explanation: |
-  Fazer backup da frase de recuperação de 24 palavras é essencial para evitar qualquer perda de fundos.
-reviewed: false

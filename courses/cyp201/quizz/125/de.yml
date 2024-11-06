@@ -1,9 +1,0 @@
-question: Wie groß ist ein komprimierter öffentlicher Schlüssel in Bitcoin?
-answer: 264 Bits
-wrong_answers:
-  - 520 Bits
-  - 128 Bits
-  - 256 Bits
-explanation: |
-  In Bitcoin nimmt ein roher öffentlicher Schlüssel 520 Bits ein. Dank der Symmetrie der verwendeten elliptischen Kurve können wir jedoch den öffentlichen Schlüssel komprimieren und seine Größe von 520 auf 264 Bits reduzieren.
-reviewed: false

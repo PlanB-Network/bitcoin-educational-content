@@ -1,9 +1,0 @@
-question: Bitcoinシステム内のユーザーの全ての公開鍵を計算する際の出発点は何ですか？
-answer: ポイントG
-wrong_answers:
-  - ポイントK
-  - ポイントU
-  - ポイントO
-explanation: |
-  ポイントGは、Bitcoinシステム内のユーザーの全ての公開鍵を計算する際の出発点です。
-reviewed: false

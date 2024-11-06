@@ -1,9 +1,0 @@
-question: ¿Cuáles son las cuatro fortalezas que una función hash criptográfica debe tener para ser reconocida como segura?
-answer: Irreversibilidad, resistencia a la falsificación, resistencia a colisiones y resistencia a la segunda preimagen.
-wrong_answers:
-  - Velocidad, eficiencia, resistencia a colisiones e irreversibilidad.
-  - Resistencia a colisiones, resistencia a la falsificación, escalabilidad e irreversibilidad.
-  - Irreversibilidad, resistencia a colisiones, resistencia a la falsificación y velocidad.
-explanation: |
-  Una función hash criptográfica segura debe tener cuatro fortalezas clave: irreversibilidad (lo que significa que es imposible derivar la entrada original a partir de la salida), resistencia a la falsificación (lo que significa que es difícil crear una entrada diferente que produzca la misma salida), resistencia a colisiones (lo que significa que es difícil encontrar dos entradas diferentes que produzcan la misma salida) y resistencia a la segunda preimagen (lo que significa que es difícil encontrar una entrada diferente que produzca la misma salida que una entrada dada).
-reviewed: false

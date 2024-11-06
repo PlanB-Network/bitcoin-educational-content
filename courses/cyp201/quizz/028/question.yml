@@ -1,64 +1,18 @@
-id: 7f9d9e35-df89-485e-9884-29725a44ad46
-chapterId: c9dd9672-6da1-57f8-9871-8b28994d4c1a
-difficulty: intermediate
-duration: 30
-author: DecouvreBitcoin
+id: eca126da-9b44-4e0b-b47a-7013d2ca6095
+chapterId: bb07826f-826e-5905-b307-3d82001fb778
+difficulty: hard
+duration: 15
+author: pretty-private
 tags:
-  - Bitcoin
-  - UTXO
-  - Transaction
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2630
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2565
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1282
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2597
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2630
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-22
     urgency: 1
     contributors_id:
-    reward: 2565
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2597
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2695
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2565
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2695
+      - LoicPandul
+    reward:

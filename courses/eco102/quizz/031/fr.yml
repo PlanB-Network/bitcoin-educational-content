@@ -1,0 +1,9 @@
+question: Que dit Rousseau sur la transformation de l'individu en citoyen ?
+answer: Nous commençons à devenir hommes qu'après avoir été citoyens
+wrong_answers:
+  - Nous ne commençons à devenir citoyens qu'avec le contrat
+  - Nous ne devenons citoyens qu'après avoir été égaux
+  - Devenir citoyen précède la citoyenneté
+explanation: |
+  Rousseau affirme que l'individu devient pleinement "homme" en passant par l'étape de citoyen, reliant ainsi l'accomplissement personnel à l'intégration sociale.
+reviewed: false

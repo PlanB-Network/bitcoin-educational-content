@@ -1,9 +1,0 @@
-question: O que é um endereço de múltiplas assinaturas no contexto da Lightning Network?
-answer: Um endereço que requer duas assinaturas para desbloquear os fundos.
-wrong_answers:
-  - Um endereço que pode ser usado por vários usuários.
-  - Um endereço que pode armazenar vários tipos de criptomoedas.
-  - Um endereço que pode ser acessado a partir de vários dispositivos.
-explanation: |
-  Na Lightning Network, são utilizados endereços de múltiplas assinaturas. Esses endereços requerem duas assinaturas, ou seja, duas chaves privadas, para desbloquear os fundos. Isso significa que duas partes devem concordar em desbloquear o dinheiro.
-reviewed: false

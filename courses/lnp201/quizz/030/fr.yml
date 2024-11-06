@@ -1,9 +1,9 @@
-question: Combien de SAT Bob se retrouve-t-il avec après le deuxième transfert dans l'exemple ?
-answer: 40 000 SAT.
+question: Comment le Lightning Network permet-il d'envoyer des fonds à un nœud non connecté directement ?
+answer: En routant le paiement via des nœuds intermédiaires
 wrong_answers:
-  - 30 000 SAT.
-  - 10 000 SAT.
-  - 0 SAT.
+  - En utilisant des transactions on-chain entre chaque nœud
+  - En établissant automatiquement un canal temporaire
+  - En envoyant les fonds directement avec des adresses multisignatures
 explanation: |
-  Dans l'exemple, après le deuxième transfert, Bob se retrouve avec 40 000 SAT.
+  Le Lightning Network permet de router un paiement via plusieurs nœuds intermédiaires, sans nécessiter un canal direct entre l'émetteur et le destinataire.
 reviewed: false

@@ -1,9 +1,0 @@
-question: Mikä on entropian tarkoitus luotaessa mnemonista fraasia Bitcoin-lompakolle?
-answer: Se on HD-lompakon turvallisuuden peruskivi.
-wrong_answers:
-  - Se määrittää sanojen määrän palautusfraasissa.
-  - Se salaa palautusfraasin lisäturvallisuuden vuoksi.
-  - Se varmistaa palautusfraasin tarkkuuden.
-explanation: |
-  Entropia on HD-lompakon turvallisuuden peruskivi. On ratkaisevan tärkeää, että tämä entropia on satunnaista tai pseudosatunnaista lompakon turvallisuuden takaamiseksi.
-reviewed: false

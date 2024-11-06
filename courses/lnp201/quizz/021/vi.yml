@@ -1,9 +1,0 @@
-question: Ai khởi xướng quá trình mở một kênh trong Mạng Lưới Lightning?
-answer: Alice
-wrong_answers:
-  - Bob
-  - Cả Alice và Bob
-  - Không phải Alice cũng không phải Bob
-explanation: |
-  Trong quá trình mở một kênh trong Mạng Lưới Lightning, Alice là người khởi xướng quá trình. Cô ấy thông báo ý định mở một kênh cho Bob, người sau đó cung cấp địa chỉ công khai của mình như một phản hồi.
-reviewed: false

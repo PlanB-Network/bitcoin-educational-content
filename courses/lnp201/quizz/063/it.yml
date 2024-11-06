@@ -1,9 +1,0 @@
-question: Cos'è un HTLC?
-answer: Un contratto di pagamento che può essere sbloccato solo con un segreto.
-wrong_answers:
-  - Un tipo di criptovaluta.
-  - Un metodo di crittografia dei dati.
-  - Un tipo di blockchain.
-explanation: |
-  Un HTLC, o Hash Time-Locked Contract, è un tipo di contratto di pagamento che può essere sbloccato solo con un segreto. Viene utilizzato nella Lightning Network per garantire un pagamento sicuro e verificabile.
-reviewed: false

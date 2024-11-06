@@ -120,7 +120,7 @@ Seega n = 2.
 2. samm: Määrake P, vajalike täitmise bittide arv, et jõuda soovitud lõpliku bittide arvuni.
 -> M + 1 + P + 64 = n * 512
 -> M + 1 + P + 64 = 2 * 512
--> 940 + 1 + P + 64 = 1024
+-> 950 + 1 + P + 64 = 1024
 -> P = 1024 - 1 - 64 - 950
 -> P = 9
 

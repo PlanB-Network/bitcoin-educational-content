@@ -1,9 +1,0 @@
-question: Jaká je nejmenší jednotka Bitcoinu?
-answer: Satoshi
-wrong_answers:
-  - Bit
-  - Byte
-  - Coin
-explanation: |
-  V systému Bitcoinu je jednotkou účtu bitcoin (všimněte si malého "b"). Je dělitelný až na osm desetinných míst, přičemž nejmenší jednotkou je satoshi.
-reviewed: false

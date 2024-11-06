@@ -6,7 +6,7 @@ Refers to a phenomenon in which the blockchain undergoes a modification of its s
 
 These resynchronizations are part of the natural functioning of Bitcoin, where different miners may find new blocks almost simultaneously, thus splitting the Bitcoin network into two. In such cases, the network can temporarily divide into competing chains. Eventually, when one of these chains accumulates more work, the other chains are abandoned by the nodes, and their blocks become what are called "obsolete blocks" or "orphan blocks." This process of replacing one chain with another is resynchronization.
 
-![](../../dictionnaire/assets/9.png)
+![](../../dictionnaire/assets/9.webp)
 
 Resynchronizations can have various consequences. First, if a user had a transaction confirmed in a block that turns out to be abandoned, but this transaction is not found in the ultimately valid chain, then their transaction becomes unconfirmed again. This is why it is advised to always wait for at least 6 confirmations to consider a transaction as truly immutable. After 6 blocks deep, resynchronizations are so unlikely that the chance of one occurring can be considered virtually nil.
 

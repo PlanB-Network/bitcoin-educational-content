@@ -1,9 +1,9 @@
-question: Qu'est-ce que les UTXOs dans le contexte de Bitcoin?
-answer: Sorties de transactions non dépensées
+question: Pourquoi est-il impossible de retrouver la clé privée à partir d'une signature numérique valide ?
+answer: La signature est basée sur des opérations mathématiques irréversibles sur une courbe elliptique.
 wrong_answers:
-  - Sorties de transactions non traçables
-  - Sorties de transactions non vérifiées
-  - Sorties de transactions non confirmées
+  - La clé privée est chiffrée avant utilisation.
+  - La graine protège la clé privée.
+  - Le hachage des messages empêche de retrouver la clé privée.
 explanation: |
-  Les UTXOs, ou "Unspent Transaction Outputs" en anglais, représentent les sorties de transactions non dépensées appartenant à un utilisateur. Pour dépenser ces bitcoins, il faut démontrer la propriété de la clé privée correspondant à la clé publique liée à chaque UTXO.
+  Les opérations sur courbes elliptiques sont irréversibles, ce qui garantie que la clé privée ne peut pas être déduite de la signature.
 reviewed: false

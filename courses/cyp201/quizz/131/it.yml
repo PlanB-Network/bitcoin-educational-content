@@ -1,9 +1,0 @@
-question: Qual è lo scopo di espandere l'HRP in un indirizzo Bitcoin?
-answer: Ciò consente di isolare gli ultimi cinque bit di ogni carattere, rafforzando così il checksum.
-wrong_answers:
-  - Aumenta la dimensione dell'indirizzo.
-  - Crittografa l'indirizzo per motivi di sicurezza.
-  - Consente la correzione degli errori nell'indirizzo.
-explanation: |
-  Espandere l'HRP comporta la codifica di ogni lettera in base 2, prendendo i primi tre bit di ogni carattere inserendo un separatore 0, e quindi concatenando gli ultimi cinque bit di ogni carattere. Questo processo rafforza il checksum.
-reviewed: false

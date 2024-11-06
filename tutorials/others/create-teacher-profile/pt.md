@@ -30,7 +30,7 @@ Vamos descobrir juntos como adicionar um novo professor neste tutorial!
 
 ## Como criar um novo perfil de professor?
 
-- Abra seu navegador e navegue até a página do seu fork do repositório PlanB. A URL do seu fork deve parecer com: `https://github.com/[username]/sovereign-university-data`
+- Abra seu navegador e navegue até a página do seu fork do repositório PlanB. A URL do seu fork deve parecer com: `https://github.com/[username]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Certifique-se de que você está na branch principal `dev` e clique no botão `Sync fork`. Se o seu fork não estiver atualizado, o GitHub oferecerá atualizar sua branch. Prossiga com esta sincronização.
 
@@ -45,14 +45,14 @@ Vamos descobrir juntos como adicionar um novo professor neste tutorial!
 ![tutorial](assets/8.webp)
 - Clique nesta branch, depois clique no botão `New Branch`:
 ![tutorial](assets/9.webp)
-- Certifique-se de que a nova branch esteja baseada no repositório fonte, nomeadamente `DecouvreBitcoin/sovereign-university-data`.
+- Certifique-se de que a nova branch esteja baseada no repositório fonte, nomeadamente `PlanB-Network/bitcoin-educational-content`.
 - Nomeie sua branch de uma forma que o título seja claro sobre seu propósito, usando hífens para separar cada palavra. Uma vez que esta branch é destinada para adicionar um perfil de professor, um exemplo de nome poderia ser: `add-professor-[seu-nome]`. Após inserir o nome, clique em `Create branch` para confirmar sua criação:
 ![tutorial](assets/10.webp)
 - Agora clique no botão `Publish branch` para salvar sua nova branch de trabalho no seu fork online no GitHub:
 ![tutorial](assets/11.webp)
 - Neste ponto, no GitHub Desktop, você deve estar na sua nova branch. Isso significa que todas as modificações feitas localmente no seu computador serão exclusivamente registradas nesta branch específica. Além disso, enquanto esta branch permanecer selecionada no GitHub Desktop, os arquivos visíveis localmente na sua máquina correspondem aos desta branch (`add-professor-seu-nome`), e não aos da branch principal (`dev`):
 ![tutorial](assets/12.webp)
-- Para adicionar seu perfil de professor, abra seu explorador de arquivos e navegue até o seu repositório local, na pasta `professors`. Você a encontrará sob o caminho: `\GitHub\sovereign-university-data\professors`.
+- Para adicionar seu perfil de professor, abra seu explorador de arquivos e navegue até o seu repositório local, na pasta `professors`. Você a encontrará sob o caminho: `\GitHub\bitcoin-educational-content\professors`.
 
 - Dentro desta pasta, crie uma nova pasta nomeada com seu nome ou pseudônimo. Certifique-se de que não haja espaços no nome da pasta. Assim, se seu nome é "Loic Pandul" e nenhum outro professor tem esse nome, a pasta a ser criada será nomeada `loic-pandul`:
 ![tutorial](assets/13.webp)

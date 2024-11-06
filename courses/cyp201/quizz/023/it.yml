@@ -1,9 +1,0 @@
-question: Cosa significa HMAC?
-answer: Codice di Autenticazione dei Messaggi basato su Hash
-wrong_answers:
-  - Codice di Autenticazione Principale Gerarchico
-  - Codice di Autenticazione Principale Hashato
-  - Codice di Autenticazione dei Messaggi Gerarchico
-explanation: |
-  HMAC sta per Codice di Autenticazione dei Messaggi basato su Hash. È un tipo di codice di autenticazione dei messaggi (MAC) che coinvolge una funzione hash crittografica e una chiave crittografica segreta.
-reviewed: false

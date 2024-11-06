@@ -1,9 +1,0 @@
-question: Cosa succede se Alice cerca di imbrogliare pubblicando uno stato vecchio?
-answer: Bob può utilizzare la chiave di revoca per spostare i fondi senza dover aspettare la fine del Timelock, punendo efficacemente Alice.
-wrong_answers:
-  - Alice può utilizzare la chiave di revoca per spostare i fondi senza dover aspettare la fine del Timelock.
-  - Bob può estendere il Timelock per impedire ad Alice di recuperare i suoi soldi.
-  - Alice può recuperare immediatamente i suoi soldi.
-explanation: |
-  Se Alice cerca di imbrogliare pubblicando uno stato vecchio, Bob può utilizzare la chiave di revoca per spostare i fondi senza dover aspettare la fine del Timelock. Questo punisce efficacemente Alice per aver cercato di imbrogliare.
-reviewed: false

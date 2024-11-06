@@ -1,9 +1,0 @@
-question: Lightning Networkにおける通信の異なるレベルは何ですか？
-answer: P2P通信、ペイメントチャネル、ビットコイントランザクション
-wrong_answers:
-  - P2P通信、ビットコイントランザクション、イーサリアムトランザクション
-  - ペイメントチャネル、ビットコイントランザクション、ライトコイントランザクション
-  - P2P通信、ペイメントチャネル、リップルトランザクション
-explanation: |
-  Lightning Networkには3つの異なる通信レベルがあります。P2P通信（Lightning Networkプロトコル）、ペイメントチャネル（Lightning Networkプロトコル）、そしてビットコイントランザクション（ビットコインプロトコル）です。
-reviewed: false

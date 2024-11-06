@@ -1,8 +1,0 @@
-question: Bitcoinウォレットでパスフレーズからシードを生成するために使用される関数は何ですか？
-answer: pbkdf2
-wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
-explanation: |
-  pbkdf2関数は、Bitcoinウォレットでパスフレーズからシードを生成するために使用されます。このシードにより、ウォレットのすべての子キーペアの導出が可能になります。

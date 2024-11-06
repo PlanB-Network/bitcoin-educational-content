@@ -1,9 +1,0 @@
-question: Welche Funktion wird verwendet, um den Seed aus der Passphrase in einer Bitcoin-Wallet zu generieren?
-answer: pbkdf2
-wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
-explanation: |
-  Die Funktion pbkdf2 wird verwendet, um den Seed aus der Passphrase in einer Bitcoin-Wallet zu generieren. Dieser Seed ermöglicht die Ableitung aller Kind-Schlüsselpaare der Wallet.
-reviewed: false

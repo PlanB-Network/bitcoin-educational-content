@@ -1,9 +1,0 @@
-question: Lightning Networkの請求書での'lnbc1m'の'ln'は何を意味していますか？
-answer: Lightning
-wrong_answers:
-  - Litecoin
-  - Ledger Nano
-  - Long number
-explanation: |
-  Lightning Networkの請求書における'ln'はLightningを意味しており、これはBitcoinのためのレイヤー2ソリューションであり、迅速かつ低コストの取引を可能にします。
-reviewed: false

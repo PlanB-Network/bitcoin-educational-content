@@ -1,9 +1,0 @@
-question: Jaký je rozdíl mezi heslem a mnemonickou frází v Bitcoin peněžence?
-answer: Heslo je volné a může dosáhnout téměř nekonečné velikosti, zatímco mnemonická fráze je standardizovaná a musí dodržovat určitá omezení velikosti, kontrolního součtu a kódování.
-wrong_answers:
-  - Heslo je standardizované, zatímco mnemonická fráze je volná a může dosáhnout téměř nekonečné velikosti
-  - Heslo a mnemonická fráze jsou to samé
-  - Heslo je volitelné, zatímco mnemonická fráze je povinná
-explanation: |
-  Pro odvození klíčů HD peněženky jsou nutné jak mnemonická fráze, tak heslo. Heslo je volné a může dosáhnout téměř nekonečné velikosti. Není součástí mnemonické fráze, která je standardizovaná a musí dodržovat určitá omezení velikosti, kontrolního součtu a kódování.
-reviewed: false

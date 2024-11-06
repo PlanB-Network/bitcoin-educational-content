@@ -1,9 +1,0 @@
-question: Qual é o ponto de partida para calcular todas as chaves públicas dos usuários no sistema Bitcoin?
-answer: Ponto G
-wrong_answers:
-  - Ponto K
-  - Ponto U
-  - Ponto O
-explanation: |
-  O ponto G é o ponto de partida para calcular todas as chaves públicas dos usuários no sistema Bitcoin.
-reviewed: false

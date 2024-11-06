@@ -1,9 +1,0 @@
-question: Welche Vorteile bieten Lightning-Zahlungskanäle?
-answer: Sie ermöglichen es Benutzern, Bitcoin zu senden und zu empfangen, ohne hohe Transaktionsgebühren zu zahlen oder lange Bestätigungszeiten im Bitcoin-Netzwerk abzuwarten.
-wrong_answers:
-  - Sie ermöglichen es Benutzern, Bitcoin effizienter abzubauen.
-  - Sie ermöglichen es Benutzern, Bitcoin sicherer zu speichern.
-  - Sie ermöglichen es Benutzern, Bitcoin gegen andere Kryptowährungen zu tauschen.
-explanation: |
-  Lightning-Zahlungskanäle sind eine effiziente Möglichkeit, schnelle und kostengünstige Bitcoin-Transaktionen durchzuführen. Sie ermöglichen es Benutzern, Bitcoin zu senden und zu empfangen, ohne hohe Transaktionsgebühren zu zahlen oder lange Bestätigungszeiten im Bitcoin-Netzwerk abzuwarten.
-reviewed: false

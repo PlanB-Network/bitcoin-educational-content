@@ -17,7 +17,7 @@ Más allá de tutoriales y formación, PlanB Network también ofrece una vasta b
 https://planb.network/tutorials/others/create-github-account
 
 
-- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) en la sección `resources/bet/`:
+- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) en la sección `resources/bet/`:
 ![event](assets/02.webp)
 - Haz clic en la parte superior derecha en el botón `Add file`, luego en `Create new file`:
 ![event](assets/03.webp)
@@ -72,7 +72,7 @@ https://planb.network/tutorials/others/add-builder
 Por ejemplo, tu archivo YAML podría verse así:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -157,7 +157,7 @@ description: |
 - Recupera la URL intermedia de tu archivo. Por ejemplo, en mi caso, la URL es:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Conserva solo la última parte de la URL desde `/resources` en adelante:
@@ -169,7 +169,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Añade a la base de la URL la siguiente información para tener el enlace correcto:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Lo que estamos haciendo aquí es anticipar el enlace futuro a tu archivo, una vez que tu propuesta haya sido fusionada en el repositorio fuente de la Red PlanB.

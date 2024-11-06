@@ -1,9 +1,0 @@
-question: O que é a Lightning Network?
-answer: Uma infraestrutura de pagamento de segunda camada construída na rede Bitcoin que permite transações rápidas e de baixo custo.
-wrong_answers:
-  - Um tipo de carteira Bitcoin
-  - Um método de mineração de Bitcoin
-  - Um tipo de exchange Bitcoin
-explanation: |
-  A Lightning Network é uma infraestrutura de pagamento de segunda camada construída na rede Bitcoin que permite transações rápidas e de baixo custo.
-reviewed: false

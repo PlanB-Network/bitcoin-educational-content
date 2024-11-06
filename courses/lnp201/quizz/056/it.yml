@@ -1,9 +1,0 @@
-question: Chi paga le commissioni di transazione nella Lightning Network?
-answer: Il mittente del pagamento.
-wrong_answers:
-  - Il destinatario del pagamento.
-  - Gli intermediari.
-  - La rete stessa.
-explanation: |
-  Nella Lightning Network, il mittente del pagamento paga le commissioni di transazione. Queste commissioni vengono addebitate dai nodi utilizzati per instradare la transazione.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Người dùng Bitcoin cung cấp gì cho người gửi khi họ muốn nhận bitcoin?
-answer: Một địa chỉ nhận
-wrong_answers:
-  - Khóa công khai của họ
-  - Khóa riêng tư của họ
-  - Mật khẩu ví Bitcoin của họ
-explanation: |
-  Khi một người dùng Bitcoin muốn nhận bitcoin, họ cung cấp một địa chỉ nhận cho người gửi. Địa chỉ này là một bản hash của khóa công khai của họ, với một định dạng cụ thể.
-reviewed: false

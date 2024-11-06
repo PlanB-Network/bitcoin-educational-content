@@ -1,9 +1,0 @@
-question: Cosa succede durante una transazione
-answer: Il segreto della transazione
-wrong_answers:
-  - Il segreto della transazione
-  - Viene deciso un nuovo segreto e viene creato una nuova chiave di revoca.
-  - La transazione di impegno precedente viene aggiornata con il nuovo segreto e la chiave di revoca.
-explanation: |
-  Durante la transazione
-reviewed: false

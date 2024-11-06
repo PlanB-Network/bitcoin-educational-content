@@ -1,9 +1,0 @@
-question: 例で2回目の転送後、ボブは何SATを持っていますか？
-answer: 40,000 SAT。
-wrong_answers:
-  - 30,000 SAT。
-  - 10,000 SAT。
-  - 0 SAT。
-explanation: |
-  例で、2回目の転送後、ボブは40,000 SATを持っています。
-reviewed: false

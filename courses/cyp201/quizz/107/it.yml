@@ -1,9 +1,0 @@
-question: Qual è la lunghezza del seed in un HD wallet?
-answer: Il seed ha una lunghezza di 128 a 256 bit.
-wrong_answers:
-  - Il seed ha una lunghezza di 64 a 128 bit.
-  - Il seed ha una lunghezza di 256 a 512 bit.
-  - Il seed ha una lunghezza di 32 a 64 bit.
-explanation: |
-  Il seed in un HD wallet ha una lunghezza di 128 a 256 bit. Viene generato casualmente o da una frase segreta.
-reviewed: false

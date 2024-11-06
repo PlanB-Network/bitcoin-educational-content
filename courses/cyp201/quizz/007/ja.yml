@@ -1,9 +1,0 @@
-question: Bitcoinプロトコルにおいて、重要な要素となるハッシュ関数は何ですか？
-answer: SHA-256
-wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
-explanation: |
-  SHA-256はBitcoinプロトコルにおいて重要な要素です。これは、取引データのユニークで不可逆な指紋を作成するために使用され、Bitcoinネットワークのセキュリティと完全性にとって不可欠です。
-reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Cuál es la función principal de una billetera de Bitcoin?
-answer: Se refiere a una colección de claves criptográficas privadas derivadas de una única clave maestra.
-wrong_answers:
-  - Es un dispositivo físico que almacena criptomonedas.
-  - Es una plataforma digital para comprar y vender criptomonedas.
-  - Es un software que mina nuevos bitcoins.
-explanation: |
-  Una billetera de Bitcoin, específicamente una Billetera Determinística Jerárquica (HD wallet), es una colección de claves criptográficas privadas derivadas de una única clave maestra. Estas claves son esenciales para la propiedad de criptomonedas.
-reviewed: false

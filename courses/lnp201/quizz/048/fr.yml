@@ -1,11 +1,9 @@
-question: Qu'est-ce qu'une fermeture forcée ?
-answer: Un pair souhaite fermer le canal, mais l'autre pair ne répond pas, donc le premier pair publie la transaction d'engagement la plus récente.
+question: Comment la technologie "Keysend" permet-elle de réaliser un transfert de fonds sans invoice ?
+answer: L'émetteur génère un secret dans les HTLC pour débloquer les fonds
 wrong_answers:
-  - Les deux pairs acceptent de fermer le canal et créent une transaction de fermeture.
-  - Un pair essaie de tricher en publiant une ancienne transaction d'engagement.
-  - Les deux pairs se disputent les SAT restants dans le canal.
+  - Le destinataire génère un hash pour valider le transfert
+  - Le paiement est validé par un canal direct entre émetteur et destinataire
+  - Les fonds sont directement crédités sans sécurité supplémentaire
 explanation: |
-  Une fermeture forcée se produit lorsqu'un pair souhaite fermer le canal, mais
-  l'autre pair ne répond pas car il est hors ligne. Le premier pair publie alors
-  la transaction d'engagement la plus récente.
+  Keysend permet à l'émetteur de générer un secret intégré aux HTLC, permettant au destinataire de débloquer les fonds sans avoir émis d'invoice.
 reviewed: false

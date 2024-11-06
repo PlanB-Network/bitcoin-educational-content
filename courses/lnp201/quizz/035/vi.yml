@@ -1,9 +1,0 @@
-question: Điều gì xảy ra nếu Alice cố gắng gian lận bằng cách công bố một trạng thái cũ?
-answer: Bob có thể sử dụng khóa thu hồi để di chuyển quỹ mà không cần chờ đợi đến cuối của Timelock, từ đó hiệu quả trong việc phạt Alice.
-wrong_answers:
-  - Alice có thể sử dụng khóa thu hồi để di chuyển quỹ mà không cần chờ đợi đến cuối của Timelock.
-  - Bob có thể kéo dài Timelock để ngăn Alice lấy lại tiền của mình.
-  - Alice có thể lấy lại tiền ngay lập tức.
-explanation: |
-  Nếu Alice cố gắng gian lận bằng cách công bố một trạng thái cũ, Bob có thể sử dụng khóa thu hồi để di chuyển quỹ mà không cần chờ đợi đến cuối của Timelock. Điều này hiệu quả trong việc phạt Alice vì đã cố gắng gian lận.
-reviewed: false

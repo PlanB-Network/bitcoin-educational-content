@@ -1,9 +1,0 @@
-question: Co se stane, pokud je kryptografické hašovací funkci zadán i mírně odlišný vstup?
-answer: Výrazně se změní konečný hash.
-wrong_answers:
-  - Produkuje stejný hash.
-  - Způsobí selhání hašovací funkce.
-  - Zpomalí výpočet hash.
-explanation: |
-  Kryptografické hašovací funkce jsou navrženy tak, že i mírná odchylka ve vstupu výrazně změní konečný hash. Tato vlastnost je klíčová pro bezpečnost hašovací funkce, protože činí extrémně obtížným najít jiný vstup, který by produkoval stejný hash.
-reviewed: false

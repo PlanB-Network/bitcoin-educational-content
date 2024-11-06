@@ -59,7 +59,7 @@ Sobald alles eingerichtet ist und Ihre lokale Umgebung mit Ihrem eigenen Fork de
 
 ### Erstellen Sie einen neuen Branch
 
-- Öffnen Sie Ihren Browser und gehen Sie zur Seite Ihres Forks des PlanB-Repositorys. Dies ist der Fork, den Sie auf GitHub eingerichtet haben. Die URL Ihres Forks sollte so aussehen: `https://github.com/[Ihr-Benutzername]/sovereign-university-data`:
+- Öffnen Sie Ihren Browser und gehen Sie zur Seite Ihres Forks des PlanB-Repositorys. Dies ist der Fork, den Sie auf GitHub eingerichtet haben. Die URL Ihres Forks sollte so aussehen: `https://github.com/[Ihr-Benutzername]/bitcoin-educational-content`:
 ![tutorial](assets/3.webp)
 - Stellen Sie sicher, dass Sie sich im Hauptbranch `dev` befinden, dann klicken Sie auf den `Sync fork`-Button. Wenn Ihr Fork nicht auf dem neuesten Stand ist, wird GitHub anbieten, Ihren Branch zu aktualisieren. Führen Sie dieses Update durch. Ist Ihr Branch hingegen bereits auf dem neuesten Stand, wird GitHub Sie informieren:
 ![tutorial](assets/4.webp)
@@ -70,7 +70,7 @@ Sobald alles eingerichtet ist und Ihre lokale Umgebung mit Ihrem eigenen Fork de
 ![tutorial](assets/7.webp)
 - Klicken Sie auf diesen Branch, dann klicken Sie auf den `New Branch`-Button:
 ![tutorial](assets/8.webp)
-- Stellen Sie sicher, dass der neue Branch auf dem Quellrepository basiert, nämlich `DecouvreBitcoin/sovereign-university-data`.
+- Stellen Sie sicher, dass der neue Branch auf dem Quellrepository basiert, nämlich `PlanB-Network/bitcoin-educational-content`.
 - Benennen Sie Ihren Branch so, dass der Titel klar seinen Zweck angibt, indem Sie Bindestriche verwenden, um jedes Wort zu trennen. Angenommen, unser Ziel ist es, ein Tutorial über die Verwendung der Sparrow Wallet-Software zu schreiben. In diesem Fall könnte der Arbeitsbranch, der diesem Tutorial gewidmet ist, benannt werden als: `tuto-sparrow-wallet-loic`. Sobald der passende Name eingegeben ist, klicken Sie auf `Create branch`, um die Erstellung des Branchs zu bestätigen:
 ![tutorial](assets/9.webp)
 - Klicken Sie nun auf den `Publish branch`-Button, um Ihren neuen Arbeitsbranch auf Ihrem Online-Fork auf GitHub zu speichern:
@@ -81,7 +81,7 @@ Für jeden neuen Artikel, den Sie veröffentlichen möchten, müssen Sie einen n
 ### Hinzufügen des Tutorials
 
 Jetzt, da der Arbeitsbranch erstellt ist, ist es an der Zeit, Ihr neues Tutorial zu integrieren.
-- Öffnen Sie Ihren Dateimanager und navigieren Sie zum Ordner `sovereign-university-data`, der den lokalen Klon Ihres Repositories darstellt. Normalerweise sollten Sie ihn unter `Documents\GitHub\sovereign-university-data` finden. Innerhalb dieses Verzeichnisses ist es notwendig, den entsprechenden Unterordner für die Platzierung Ihres Tutorials zu lokalisieren. Die Organisation der Ordner spiegelt die verschiedenen Abschnitte der PlanB Network-Website wider. In unserem Beispiel, da wir ein Tutorial über Sparrow Wallet hinzufügen möchten, ist es angebracht, zum folgenden Pfad zu gehen: `sovereign-university-data\tutorials\wallet`, der der `WALLET`-Sektion auf der Website entspricht: ![tutorial](assets/12.webp)
+- Öffnen Sie Ihren Dateimanager und navigieren Sie zum Ordner `bitcoin-educational-content`, der den lokalen Klon Ihres Repositories darstellt. Normalerweise sollten Sie ihn unter `Documents\GitHub\bitcoin-educational-content` finden. Innerhalb dieses Verzeichnisses ist es notwendig, den entsprechenden Unterordner für die Platzierung Ihres Tutorials zu lokalisieren. Die Organisation der Ordner spiegelt die verschiedenen Abschnitte der PlanB Network-Website wider. In unserem Beispiel, da wir ein Tutorial über Sparrow Wallet hinzufügen möchten, ist es angebracht, zum folgenden Pfad zu gehen: `bitcoin-educational-content\tutorials\wallet`, der der `WALLET`-Sektion auf der Website entspricht: ![tutorial](assets/12.webp)
 - Innerhalb des `wallet`-Ordners müssen Sie ein neues Verzeichnis speziell für Ihr Tutorial erstellen. Der Name dieses Ordners muss die in dem Tutorial behandelte Software evozieren, wobei Wörter mit Bindestrichen verbunden werden sollen. Für mein Beispiel wird der Ordner `sparrow-wallet` betitelt sein:
 ![tutorial](assets/13.webp)
 - In diesem neuen Unterordner, der Ihrem Tutorial gewidmet ist, müssen mehrere Elemente hinzugefügt werden:
@@ -92,7 +92,7 @@ Jetzt, da der Arbeitsbranch erstellt ist, ist es an der Zeit, Ihr neues Tutorial
 ![tutorial](assets/14.webp)
 - Zusammengefasst sieht hier die Hierarchie der zu erstellenden Dateien aus:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (zu modifizieren mit der richtigen Kategorie)
         └── sparrow-wallet/ (zu modifizieren mit dem Namen des Tutorials)

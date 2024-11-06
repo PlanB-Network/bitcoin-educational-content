@@ -1,8 +1,0 @@
-question: Chuẩn phổ biến nhất được sử dụng cho cụm từ khôi phục 24 từ trong ví Bitcoin là gì?
-answer: Một entropy 256 bit.
-wrong_answers:
-  - Một entropy 128 bit.
-  - Một entropy 160 bit.
-  - Một entropy 512 bit.
-explanation: |
-  Chuẩn phổ biến nhất được sử dụng cho cụm từ khôi phục 24 từ là một entropy 256 bit.

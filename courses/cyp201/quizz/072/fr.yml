@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'une phrase mnémonique dans le contexte d'un portefeuille Bitcoin ?
-answer: C'est une sauvegarde du portefeuille.
+question: Quelle est la fonction utilisée pour générer une adresse ?
+answer: HASH160.
 wrong_answers:
-  - C'est un mot de passe pour le portefeuille.
-  - C'est l'historique des transactions du portefeuille.
-  - C'est une signature numérique du portefeuille.
+  - HASH256.
+  - HASH512.
+  - SHA256.
 explanation: |
-  Une phrase mnémonique est générée pour assurer la sauvegarde du portefeuille Bitcoin.
+  La fonction HASH160, qui combine SHA256 et RIPEMD-160, est utilisée pour générer des adresses Bitcoin à partir des clés publiques.
 reviewed: false

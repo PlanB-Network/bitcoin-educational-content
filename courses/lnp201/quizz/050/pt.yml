@@ -1,9 +1,0 @@
-question: Quais são os dois tipos de taxas na Lightning Network?
-answer: Uma taxa fixa independentemente do valor e uma taxa variável.
-wrong_answers:
-  - Uma taxa de transação e uma taxa de roteamento.
-  - Uma taxa do remetente e uma taxa do destinatário.
-  - Uma taxa de rede e uma taxa de canal.
-explanation: |
-  Na Lightning Network, existem dois tipos de taxas; uma taxa fixa independentemente do valor (padrão é 1 SAT, mas pode ser modificada) e uma taxa variável (0,01% por padrão).
-reviewed: false

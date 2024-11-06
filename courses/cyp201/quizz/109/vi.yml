@@ -1,9 +1,0 @@
-question: Chỉ số trong đường dẫn phái sinh chỉ ra điều gì trong bối cảnh của một Ví HD?
-answer: Giá trị được sử dụng trong hàm HMAC
-wrong_answers:
-  - Giá trị được sử dụng trong hàm SHA-256
-  - Giá trị được sử dụng trong hàm RSA
-  - Giá trị được sử dụng trong hàm AES
-explanation: |
-  Trong bối cảnh của một Ví HD, chỉ số trong đường dẫn phái sinh chỉ ra giá trị được sử dụng trong hàm HMAC. Điều này được sử dụng để phân biệt giữa các cặp khóa con khác nhau ở cùng một độ sâu.
-reviewed: false

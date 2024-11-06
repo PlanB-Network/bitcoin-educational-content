@@ -1,9 +1,0 @@
-question: Qué sucede durante una transacción
-answer: El secreto de la transacción
-wrong_answers:
-  - El secreto de la transacción
-  - Se decide un nuevo secreto y se crea una nueva clave de revocación.
-  - La transacción de compromiso anterior se actualiza con el nuevo secreto y la clave de revocación.
-explanation: |
-  Durante la transacción
-reviewed: false

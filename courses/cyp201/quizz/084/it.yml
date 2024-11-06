@@ -1,9 +1,0 @@
-question: Qual è la funzione della funzione pbkdf2 nella creazione del seed?
-answer: Viene utilizzata insieme alla frase mnemonica e alla passphrase per ottenere il seed.
-wrong_answers:
-  - Viene utilizzata per generare la chiave privata principale.
-  - Viene utilizzata per derivare le coppie di chiavi figlie.
-  - Viene utilizzata per creare il codice di catena principale.
-explanation: |
-  La funzione pbkdf2 (Password-Based Key Derivation Function 2) viene utilizzata insieme alla frase mnemonica e alla passphrase per ottenere il seed, una sequenza alfanumerica di 512 bit che serve come base per derivare le chiavi del portafoglio.
-reviewed: false

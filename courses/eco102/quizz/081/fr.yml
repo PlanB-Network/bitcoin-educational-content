@@ -1,0 +1,9 @@
+question: Selon Bastiat, la responsabilité est-elle un principe de... ?
+answer: perfectibilité
+wrong_answers:
+  - perfection
+  - constance
+  - accomplissement parfait
+explanation: |
+  Bastiat voit la responsabilité comme un principe de perfectibilité, ce qui signifie qu'elle est une source d'amélioration et de progrès personnels par les leçons de l'expérience.
+reviewed: false

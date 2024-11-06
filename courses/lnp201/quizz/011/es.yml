@@ -1,9 +1,0 @@
-question: ¿Qué es una dirección multi-firma en el contexto de la Lightning Network?
-answer: Una dirección que requiere dos firmas para desbloquear los fondos.
-wrong_answers:
-  - Una dirección que puede ser utilizada por múltiples usuarios.
-  - Una dirección que puede contener múltiples tipos de criptomonedas.
-  - Una dirección a la que se puede acceder desde múltiples dispositivos.
-explanation: |
-  En la Lightning Network, se utilizan direcciones multi-firma. Estas direcciones requieren dos firmas, o dos claves privadas, para desbloquear los fondos. Esto significa que dos partes deben estar de acuerdo para desbloquear el dinero.
-reviewed: false

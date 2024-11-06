@@ -1,9 +1,0 @@
-question: Kolik je celkový počet možností pro soukromý klíč Bitcoinu?
-answer: Téměř rovno 1.158 x 10^77
-wrong_answers:
-  - Přesně 2^256
-  - Mezi 1 a n-1
-  - Přibližně stejný počet atomů, které jsou přítomné ve viditelném vesmíru
-explanation: |
-  Celkový počet možností pro soukromý klíč Bitcoinu je téměř roven 1.158 x 10^77, což je přibližně stejný počet atomů, které jsou přítomné ve viditelném vesmíru. To je proto, že soukromý klíč musí být mezi 1 a n-1, kde n reprezentuje řád eliptické křivky.
-reviewed: false

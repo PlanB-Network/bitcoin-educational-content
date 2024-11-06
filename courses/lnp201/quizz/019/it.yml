@@ -1,9 +1,0 @@
-question: Come finanzia Alice il canale che sta aprendo con Bob?
-answer: Lei crea una transazione con 2 UTXO come output.
-wrong_answers:
-  - Lei invia denaro direttamente all'indirizzo pubblico di Bob.
-  - Lei crea una transazione con 1 UTXO come output.
-  - Lei chiede a Bob di finanziare il canale.
-explanation: |
-  Per finanziare il canale che sta aprendo con Bob, Alice crea una transazione con 2 UTXO come output; uno all'indirizzo multi-sig 2/2 e uno a uno dei suoi indirizzi di resto.
-reviewed: false

@@ -121,7 +121,7 @@ Joten n = 2.
 Vaihe 2: Määritä P, tarvittavien täyttöbittien määrä, jotta saavutetaan haluttu lopullinen bittien määrä.
 -> M + 1 + P + 64 = n * 512
 -> M + 1 + P + 64 = 2 * 512
--> 940 + 1 + P + 64 = 1024
+-> 950 + 1 + P + 64 = 1024
 -> P = 1024 - 1 - 64 - 950
 -> P = 9
 

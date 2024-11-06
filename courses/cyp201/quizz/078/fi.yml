@@ -1,9 +1,0 @@
-question: Mikä on salalauseen rooli Bitcoin-lompakossa?
-answer: Se parantaa lompakon turvallisuutta
-wrong_answers:
-  - Se heikentää lompakon turvallisuutta
-  - Sillä ei ole vaikutusta lompakon turvallisuuteen
-  - Se tekee lompakosta käyttäjäystävällisemmän
-explanation: |
-  Salalause on lisäsalasana, joka voidaan integroida Bitcoin-lompakkoon sen turvallisuuden lisäämiseksi. Lisäämällä mielivaltaista tietoa, joka yhdessä muistilauseen kanssa mahdollistaa lompakon siemenen laskennan, salalause parantaa sen turvallisuutta.
-reviewed: false

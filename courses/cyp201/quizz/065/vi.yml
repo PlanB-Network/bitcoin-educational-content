@@ -1,9 +1,0 @@
-question: Lợi ích chính khi sử dụng một cặp khóa mới cho mỗi giao dịch Bitcoin là gì?
-answer: Nó tăng cường an ninh.
-wrong_answers:
-  - Nó tăng cường tốc độ.
-  - Nó tăng cường ẩn danh.
-  - Nó tăng cường tính hợp pháp.
-explanation: |
-  Việc sử dụng một cặp khóa mới cho mỗi giao dịch tăng cường an ninh cho các giao dịch Bitcoin. Tuy nhiên, điều này làm tăng độ phức tạp trong việc sao lưu và chỉ bảo toàn một phần tính bảo mật thông tin.
-reviewed: false

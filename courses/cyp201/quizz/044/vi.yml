@@ -1,8 +1,0 @@
-question: Vai trò của điểm sinh trong đường cong elliptic là gì?
-answer: Nó được sử dụng để tính toán điểm trên đường cong elliptic.
-wrong_answers:
-  - Nó được sử dụng để tạo nonce.
-  - Nó được sử dụng để mã hóa các khóa.
-  - Nó được sử dụng để lưu trữ các khóa.
-explanation:
-  Điểm sinh là một điểm cụ thể trên đường cong elliptic được sử dụng trong việc tính toán các điểm khác trên đường cong. Nó được sử dụng trong việc tạo ra các khóa công khai và khóa riêng, cũng như trong việc tạo và xác minh chữ ký số.

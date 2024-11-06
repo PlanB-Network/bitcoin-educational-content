@@ -1,9 +1,0 @@
-question: ¿Qué hace Alice después de recibir la dirección pública de Bob?
-answer: Ella crea una dirección multi-sig 2/2.
-wrong_answers:
-  - Ella envía dinero a la dirección pública de Bob.
-  - Publica una transacción en la red de Bitcoin.
-  - Le pide a Bob su firma.
-explanation: |
-  Después de recibir la dirección pública de Bob, Alice la utiliza junto con su propia dirección pública para crear una dirección multi-sig 2/2. Esta es la dirección a la cual enviará dinero para abrir el canal.
-reviewed: false

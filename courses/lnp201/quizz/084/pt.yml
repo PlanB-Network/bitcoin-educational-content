@@ -1,9 +1,0 @@
-question: Qual é o objetivo de uma Troca Atômica entre LN e BTC na Rede Lightning?
-answer: Para reequilibrar a liquidez
-wrong_answers:
-  - Para abrir canais
-  - Para se conectar a outros nós
-  - Para comprar canais
-explanation: |
-  Uma Troca Atômica entre LN e BTC na Rede Lightning é usada para reequilibrar a liquidez. Isso é feito enviando liquidez para um Loop através de outro nó, que então envia o saldo on-chain de volta para o nó original.
-reviewed: false

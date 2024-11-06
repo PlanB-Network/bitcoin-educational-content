@@ -1,8 +1,0 @@
-question: Hàm nào được sử dụng để tạo ra seed từ cụm từ ghi nhớ và mật khẩu trong một ví HD?
-answer: Hàm pbkdf2
-wrong_answers:
-  - Hàm hmacha512
-  - Hàm SHA256
-  - Hàm RIPMD160
-explanation: |
-  Hàm pbkdf2 được sử dụng để tạo ra seed từ cụm từ ghi nhớ và mật khẩu, sử dụng hmacha512 và 2048 lần lặp. Seed này sau đó được sử dụng để sinh ra khóa chính và mã chuỗi chính.

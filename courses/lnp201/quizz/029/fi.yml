@@ -1,8 +1,0 @@
-question: Kuinka monta SAT:ta Alicella on alussa esimerkissä?
-answer: 130 000 SAT.
-wrong_answers:
-  - 100 000 SAT.
-  - 90 000 SAT.
-  - 0 SAT.
-explanation: |
-  Esimerkissä Alice avaa kanavan Bobin kanssa, ja hänen puolellaan on 130 000 SAT.

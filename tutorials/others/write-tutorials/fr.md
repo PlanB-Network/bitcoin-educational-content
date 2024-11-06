@@ -63,7 +63,7 @@ Une fois que tout est en place, que votre environnement local est bien paramétr
 
 ### Créer une nouvelle branche
 
-- Ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de PlanB. Il s'agit du fork que vous avez établi sur GitHub. L'URL de votre fork devrait ressembler à : `https://github.com/[votre-nom-d'utilisateur]/sovereign-university-data` :
+- Ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de PlanB. Il s'agit du fork que vous avez établi sur GitHub. L'URL de votre fork devrait ressembler à : `https://github.com/[votre-nom-d'utilisateur]/bitcoin-educational-content` :
 ![tutorial](assets/3.webp)
 - Assurez-vous d'être sur la branche principale `dev` puis cliquez sur le bouton `Sync fork`. Si votre fork n'est pas à jour, GitHub vous proposera de mettre à jour votre branche. Procédez à cette mise à jour. Si, au contraire, votre branche est déjà à jour, GitHub vous en informera :
 ![tutorial](assets/4.webp)
@@ -75,7 +75,7 @@ Une fois que tout est en place, que votre environnement local est bien paramétr
 ![tutorial](assets/7.webp)
 - Cliquez sur cette branche, puis cliquez sur le bouton `New Branch` :
 ![tutorial](assets/8.webp)
-- Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `DecouvreBitcoin/sovereign-university-data`.
+- Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `PlanB-Network/bitcoin-educational-content`.
 - Nommez votre branche de manière à ce que le titre soit clair quant à son objectif, en utilisant des tirets pour séparer chaque mot. À titre d'exemple, admettons que notre objectif soit de rédiger un tutoriel sur l'utilisation du logiciel Sparrow Wallet. Dans ce cas, la branche de travail dédiée à la rédaction de ce tutoriel pourrait être nommée : `tuto-sparrow-wallet-loic`. Une fois le nom approprié saisi, cliquez sur `Create branch` pour confirmer la création de la branche :
 ![tutorial](assets/9.webp)
 - Cliquez maintenant sur le bouton `Publish branch` afin d'enregistrer votre nouvelle branche de travail sur votre fork en ligne sur GitHub :
@@ -88,7 +88,7 @@ Pour chaque nouvel article que vous souhaitez publier, il vous faudra créer une
 
 Maintenant que la branche de travail est créée, il est temps de faire l'intégration de votre nouveau tutoriel.
 
-- Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `sovereign-university-data`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\sovereign-university-data`. Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web PlanB Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `sovereign-university-data\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+- Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`. Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web PlanB Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
 ![tutorial](assets/12.webp)
 - Au sein du dossier `wallet`, il faut créer un nouveau répertoire spécifiquement dédié à votre tutoriel. Le nom de ce dossier doit évoquer le logiciel traité dans le tutoriel, en veillant à relier les mots par des tirets. Pour mon exemple, le dossier sera intitulé `sparrow-wallet` :
 ![tutorial](assets/13.webp)
@@ -100,7 +100,7 @@ Maintenant que la branche de travail est créée, il est temps de faire l'intég
 ![tutorial](assets/14.webp)
 - Pour résumer, voici la hiérarchie des fichiers à créer :
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (à modifier avec la bonne catégorie)
         └── sparrow-wallet/ (à modifier avec le nom du tuto)

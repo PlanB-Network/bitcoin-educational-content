@@ -1,9 +1,0 @@
-question: Welche Blockgröße wird bei HMAC-SHA-512 verwendet?
-answer: 1024-Bit (128-Byte) Blöcke
-wrong_answers:
-  - 512-Bit (64-Byte) Blöcke
-  - 256-Bit (32-Byte) Blöcke
-  - 2048-Bit (256-Byte) Blöcke
-explanation: |
-  Im Zusammenhang mit der Ableitung von HD-Wallets wird HMAC-SHA-512 verwendet. Letzteres arbeitet mit 1024-Bit (128-Byte) Blöcken und passt den Schlüssel entsprechend an.
-reviewed: false

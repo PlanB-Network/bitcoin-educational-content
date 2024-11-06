@@ -1,9 +1,0 @@
-question: Tổng số khả năng cho một khóa riêng của Bitcoin là bao nhiêu?
-answer: Gần bằng 1.158 x 10^77
-wrong_answers:
-  - Chính xác là 2^256
-  - Nằm giữa 1 và n-1
-  - Gần bằng số lượng nguyên tử có trong vũ trụ quan sát được
-explanation: |
-  Tổng số khả năng cho một khóa riêng của Bitcoin gần bằng 1.158 x 10^77, tương đương với số lượng nguyên tử có trong vũ trụ quan sát được. Điều này là bởi vì một khóa riêng phải nằm giữa 1 và n-1, nơi n đại diện cho thứ tự của đường cong elliptic.
-reviewed: false

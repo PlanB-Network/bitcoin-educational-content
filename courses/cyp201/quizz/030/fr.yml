@@ -1,11 +1,9 @@
-question: Quelle est l'équation qui définit une courbe elliptique ?
-answer: "y\xB2 = x\xB3 + ax + b"
+question: Quel est le rôle technique principal d'un portefeuille Bitcoin ?
+answer: Conserver des paires de clés cryptographiques.
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
+  - Conserver des bitcoins.
+  - Conserver des UTXOs.
+  - Conserver des transactions.
 explanation: |
-  "Une courbe elliptique est définie par l'équation y\xB2 = x\xB3 + ax + b.\
-  \ Chaque point sur cette courbe possède une symétrie distinctive qui est essentielle à sa pertinence\
-  \ en cryptographie."
+  Un portefeuille Bitcoin ne conserve pas directement des bitcoins, mais des paires de clés cryptographiques qui permettent de gérer et de dépenser des UTXOs.
 reviewed: false

@@ -132,7 +132,7 @@ Donc n = 2.
 Etape 2 : Déterminer P, le nombre de bits de rembourrage necessaires pour atteindre le nombre final de bits idéal.
 -> M + 1 + P + 64 = n * 512
 -> M + 1 + P + 64 = 2 * 512
--> 940 + 1 + P + 64 = 1024
+-> 950 + 1 + P + 64 = 1024
 -> P = 1024 - 1 - 64 - 950
 -> P = 9
 

@@ -1,9 +1,0 @@
-question: Was ist die Rolle eines privaten Schlüssels bei einer Bitcoin-Transaktion?
-answer: Er wird verwendet, um die Transaktion zu signieren und die Bitcoins von der Adresse freizugeben.
-wrong_answers:
-  - Er wird verwendet, um den öffentlichen Schlüssel zu generieren.
-  - Er wird verwendet, um eine Bitcoin-Adresse zu erstellen.
-  - Er wird verwendet, um die Transaktionsdaten zu verschlüsseln.
-explanation: |
-  Bei einer Bitcoin-Transaktion verwendet der Absender seinen privaten Schlüssel, um die Transaktion zu signieren, was effektiv die Bitcoins von der Adresse freigibt, in der sie gespeichert sind. Dies ist ein entscheidender Teil des Transaktionsprozesses, da es sicherstellt, dass nur der Besitzer der Bitcoins sie ausgeben kann.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Begrenzt die Kapazität eines Lightning-Zahlungskanals die Gesamtanzahl der Transaktionen oder das Gesamtvolumen an Bitcoin, das durch den Kanal übertragen werden kann?
-answer: Nein
-wrong_answers:
-  - Ja
-  - Nur in einigen Fällen
-  - Es hängt vom Bitcoin-Netzwerk ab
-explanation: |
-  Obwohl die Kapazität eines Lightning-Zahlungskanals festgelegt ist, begrenzt dies nicht die Gesamtanzahl der Transaktionen oder das Gesamtvolumen an Bitcoin, das durch den Kanal übertragen werden kann.
-reviewed: false

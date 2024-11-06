@@ -1,9 +1,0 @@
-question: Mikä on digitaalisen allekirjoituksen tarkoitus Bitcoin-siirtojen yhteydessä?
-answer: Todistaa, että olet yksityisen avaimen haltija paljastamatta sitä.
-wrong_answers:
-  - Salata siirtotiedot.
-  - Tallentaa siirtotiedot.
-  - Lähettää siirtotiedot.
-explanation: |
-  Bitcoin-siirtojen yhteydessä digitaalista allekirjoitusta käytetään todistamaan, että olet yksityisen avaimen haltija paljastamatta sitä. Tämä saavutetaan käyttämällä ECDSA-algoritmia.
-reviewed: false

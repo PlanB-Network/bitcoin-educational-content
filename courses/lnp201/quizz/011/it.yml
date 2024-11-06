@@ -1,9 +1,0 @@
-question: Cosa è un indirizzo multi-firma nel contesto della Lightning Network?
-answer: Un indirizzo che richiede due firme per sbloccare i fondi.
-wrong_answers:
-  - Un indirizzo che può essere utilizzato da più utenti.
-  - Un indirizzo che può contenere diversi tipi di criptovalute.
-  - Un indirizzo che può essere accessibile da più dispositivi.
-explanation: |
-  Nella Lightning Network, vengono utilizzati gli indirizzi multi-firma. Questi indirizzi richiedono due firme, o due chiavi private, per sbloccare i fondi. Ciò significa che due parti devono essere d'accordo per sbloccare i soldi.
-reviewed: false

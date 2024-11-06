@@ -1,9 +1,9 @@
-question: Quel est le rôle de l'opérateur AND dans la fonction de compression de SHA256?
-answer: Pour retourner 1 uniquement si les deux opérandes sont égaux à 1
+question: Que signifie le préfixe “0x” ?
+answer: Le nombre suivant ce préfixe est exprimé en base 16 (hexadécimale).
 wrong_answers:
-  - Pour traiter les bits un par un selon leur rang
-  - Pour retourner la valeur opposée d'un opérande
-  - Pour décaler les bits vers la droite d'un nombre choisi
+  - Le nombre suivant ce préfixe est exprimé en base 2 (binaire).
+  - Le nombre suivant ce préfixe est exprimé en base 10 (décimale).
+  - Le nombre suivant ce préfixe est exprimé en base 8 (octale).
 explanation: |
-  Dans la fonction de compression de SHA256, l'opérateur AND est utilisé pour retourner 1 uniquement si les deux opérandes sont égaux à 1. Cela est fait en utilisant une table de vérité.
+  Le préfixe "0x" indique que le nombre qui suit est exprimé en base 16 (hexadécimale).
 reviewed: false

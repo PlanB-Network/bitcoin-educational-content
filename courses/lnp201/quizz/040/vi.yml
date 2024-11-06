@@ -1,9 +1,0 @@
-question: Điều gì xảy ra khi Alice cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ?
-answer: Bob sử dụng khóa thu hồi để trừng phạt Alice và lấy tất cả SAT từ kênh.
-wrong_answers:
-  - Alice được thưởng cho sự khéo léo của mình.
-  - Alice và Bob chia sẻ SAT từ kênh.
-  - Giao dịch bị từ chối và không có gì xảy ra.
-explanation: |
-  Mạng Lưới Lightning có một cơ chế để ngăn chặn gian lận. Nếu Alice cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ, Bob có thể sử dụng khóa thu hồi để trừng phạt Alice và lấy tất cả SAT từ kênh.
-reviewed: false

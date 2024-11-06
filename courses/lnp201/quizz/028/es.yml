@@ -1,9 +1,0 @@
-question: ¿Quiénes son los dos pares involucrados en la transferencia de la Red Lightning en el ejemplo?
-answer: Alice y Bob.
-wrong_answers:
-  - Alice y Charlie.
-  - Bob y Charlie.
-  - Alice y la red de Bitcoin.
-explanation: |
-  En el ejemplo, Alice y Bob son los dos pares involucrados en la transferencia de la Red Lightning.
-reviewed: false

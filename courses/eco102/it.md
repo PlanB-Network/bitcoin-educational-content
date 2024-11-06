@@ -378,6 +378,8 @@ E avrebbe continuato ad analizzarne gli effetti perversi in seguito. Ecco un ese
 
 Per concludere, protezionisti e socialisti condividono un punto comune, secondo Bastiat: ciò che cercano dalla legge non è assicurare a tutti il libero esercizio delle proprie facoltà e la giusta ricompensa per i loro sforzi, ma piuttosto favorire lo sfruttamento più o meno completo di una classe di cittadini da parte di un'altra. Con il protezionismo, è la minoranza che sfrutta la maggioranza. Con il socialismo, è la maggioranza che sfrutta la minoranza. In entrambi i casi, la giustizia è violata e l'interesse generale è compromesso. Bastiat li contrappone l'uno all'altro.
 
+> Lo Stato è la grande finzione attraverso la quale ognuno si sforza di vivere a spese degli altri.
+
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
@@ -431,7 +433,7 @@ Così, in Opere Pubbliche, Bastiat scrive:
 
 > Lo Stato apre una strada, costruisce un palazzo, rettifica una strada, scava un canale; con ciò, dà lavoro a certi lavoratori, questo è ciò che si vede; ma priva di lavoro certi altri, questo è ciò che non si vede.
 
-![image](assets/image/09/IMG20.webp)
+
 Uno dei sofismi più noti è la fallacia della finestra rotta. Alcuni sostengono che la rottura di una finestra in una casa non danneggi l'economia poiché beneficia il vetraio. Ma Bastiat dimostrerà che la distruzione non è nel nostro interesse perché non crea ricchezza. Costa più di quanto renda. Il ragazzo che rompe la finestra di un vicino dà lavoro al vetraio. Ma ecco come i suoi amici lo consolano:
 
 > "Non c'è male senza bene. Tali incidenti mantengono in moto l'industria. Tutti hanno bisogno di vivere. Che ne sarebbe dei vetrai se le finestre non si rompessero mai?"
@@ -530,7 +532,12 @@ Il problema è che le tasse, così concepite, sono soggette all'arbitrarietà di
 
 Ecco perché Bastiat aveva già compreso la curva di Laffer. Arthur Laffer è un economista americano noto per la sua famosa "curva" (un'ellisse), pubblicata nel 1974, che mostra come il rendimento dalle tasse aumenti con l'abbassamento del tasso di tassazione. Questa è la teoria del rendimento decrescente della tassazione eccessiva.
 
+> Troppe tasse uccidono la tassa.
+
 I politici presumono ingenuamente che esista una relazione automatica e fissa tra aliquote fiscali e entrate fiscali. Pensano di poter raddoppiare le entrate fiscali raddoppiando l'aliquota fiscale. Secondo Laffer, un tale approccio trascura il fatto che i contribuenti possono cambiare il loro comportamento in risposta a nuovi incentivi.
+
+![image](assets/image/11/IMG7.webp)
+
 La curva di Laffer mostra che il governo non raccoglie entrate quando le aliquote fiscali sono al 100%. Al contrario, ogni riduzione delle tasse serve a stimolare l'attività economica e quindi le entrate statali. Infatti, ridurre le aliquote marginali stimola gli investimenti, il lavoro, la creatività e quindi promuove la crescita economica. Una riduzione sufficiente potrebbe produrre abbastanza stimolo economico da aumentare le entrate pubbliche ampliando significativamente la base imponibile.
 
 Bastiat potrebbe aggiungere che tanta importanza dovrebbe essere data alla riduzione delle spese statali quanto alla riduzione delle tasse. Tuttavia, come Margaret Thatcher, discepola di Frédéric Bastiat, ha così bene affermato:
@@ -950,4 +957,5 @@ Ma come Bastiat ha abilmente dimostrato, l'intervento dello Stato ha effetti per
 Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della GE, i cosiddetti miracoli della spesa pubblica appaiono sotto una luce completamente diversa. Poiché le tasse scoraggiano la produzione, e la ricchezza creata dalla spesa pubblica non può compensare pienamente quelle che sono state impediti di nascere dalle tasse imposte per pagare queste spese.
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
+
 

@@ -413,7 +413,8 @@ Và ông sẽ tiếp tục phân tích những tác động xấu xa của nó s
 ![image](assets/image/07/IMG08.webp)
 Kết luận, theo Bastiat: chủ nghĩa bảo hộ và chủ nghĩa xã hội có một điểm chung, đó là những gì họ tìm kiếm từ luật pháp không phải để đảm bảo cho mọi người được tự do thực hiện năng lực của mình và hưởng phần thưởng công bằng cho nỗ lực của họ, mà thay vào đó là để ưu ái việc bóc lột ít hay nhiều một tầng lớp công dân bởi một tầng lớp khác. Với chủ nghĩa bảo hộ, đó là thiểu số bóc lột đa số. Với chủ nghĩa xã hội, đó là đa số bóc lột thiểu số. Trong cả hai trường hợp, công lý bị vi phạm và lợi ích chung bị tổn hại. Bastiat đặt họ vào vị trí đối lập với nhau.
 
-![image](assets/image/07/IMG15.webp)
+> Nhà nước là hư cấu lớn, qua đó mọi người cố gắng sống bằng chi phí của người khác.
+
 
 ## Proudhon
 
@@ -485,7 +486,7 @@ Vì thế, trong Public Works, Bastiat viết:
 
 > Nhà nước mở một con đường, xây một cung điện, chỉnh trang một con phố, đào một kênh; qua đó, nó tạo ra công ăn việc làm cho một số công nhân, đó là điều được nhìn thấy; nhưng nó cũng tước đi công việc từ một số người khác, đó là điều không được nhìn thấy.
 
-![image](assets/image/09/IMG20.webp)
+
 Một trong những sophism nổi tiếng nhất là nguỵ biện về chiếc cửa sổ vỡ. Một số người cho rằng việc vỡ một cái cửa sổ ở nhà không gây hại cho nền kinh tế vì nó mang lại lợi ích cho người thợ làm kính. Nhưng Bastiat sẽ chứng minh rằng sự phá hủy không phải là lợi ích của chúng ta bởi vì nó không tạo ra của cải. Nó gây tốn kém hơn là lợi ích nó mang lại. Cậu bé phá vỡ cửa sổ nhà hàng xóm đã tạo công việc cho người thợ làm kính. Nhưng đây là cách bạn bè của cậu ta an ủi:
 
 > "Trong cái rủi có cái may. Những tai nạn như vậy giữ cho ngành công nghiệp làm kính tiếp tục hoạt động. Mọi người đều cần phải sống. Nếu cửa sổ không bao giờ bị vỡ thì người thợ làm kính sẽ ra sao?"
@@ -552,7 +553,7 @@ Theo logic tạo ra việc làm bằng mọi giá này, tại sao không thay th
 Sự nhầm lẫn giữa phương tiện và mục đích này được tìm thấy trong khẩu hiệu "tiền là sự giàu có."
 Đây là nguyên tắc điều khiển chính sách tiền tệ của hầu hết các quốc gia. Thực vậy, việc tăng số lượng tiền một cách nhân tạo cho phép các ngân hàng cho các cá nhân vay tiền và cho phép các quốc gia dễ dàng trả nợ, đây là "những gì chúng ta nhìn thấy được". Nhưng "những gì chúng ta không nhìn thấy được" là việc tạo ra tiền, không dựa trên bất kỳ sự tạo ra giá trị thực sự nào, sẽ dẫn đến lạm phát và sự tàn phá đối với những người tiết kiệm.
 
-![image](assets/image/10/IMG24.webp)
+
 
 Sự giàu có thực sự, theo Bastiat, do đó là tập hợp các vật dụng hữu ích mà chúng ta sản xuất thông qua lao động để thỏa mãn nhu cầu của mình. Tiền chỉ là phương tiện trao đổi được sử dụng phổ biến, nó chỉ đóng vai trò là một trung gian.
 
@@ -597,9 +598,13 @@ Vấn đề là thuế, như được hình dung, chịu sự tùy tiện của 
 
 Đó là lý do tại sao Bastiat đã hiểu về đường cong Laffer. Arthur Laffer là một nhà kinh tế học người Mỹ nổi tiếng với "đường cong" của mình (một hình elip), được công bố vào năm 1974, cho thấy rằng thu nhập từ thuế tăng lên khi giảm mức thuế suất. Đây là lý thuyết về sự giảm sút lợi nhuận của việc đánh thuế quá mức.
 
-![image](assets/image/11/IMG6.webp)
+> Thuế quá nhiều sẽ giết chết thuế.
+
 
 Các chính trị gia một cách ngây thơ giả định rằng có một mối quan hệ tự động và cố định giữa mức thuế suất và thu nhập thuế. Họ nghĩ rằng họ có thể tăng gấp đôi thu nhập thuế bằng cách tăng gấp đôi mức thuế suất. Theo Laffer, cách tiếp cận như vậy không tính đến việc người nộp thuế có thể thay đổi hành vi của họ để phản ứng với các động lực mới.
+
+![image](assets/image/11/IMG7.webp)
+
 Đường cong Laffer cho thấy chính phủ không thu được đồng thu nhập nào khi mức thuế suất ở mức 100%. Ngược lại, bất kỳ sự giảm thuế nào đều kích thích hoạt động kinh tế và do đó là thu nhập của nhà nước. Thực vậy, giảm mức thuế suất biên sẽ kích thích đầu tư, lao động, sáng tạo, và do đó thúc đẩy tăng trưởng kinh tế. Một sự giảm đủ lớn có thể tạo ra đủ kích thích kinh tế để tăng thu nhập công nhờ mở rộng cơ sở đánh thuế.
 
 Bastiat có thể thêm rằng cần phải đặt trọng tâm vào việc giảm chi tiêu của nhà nước cũng như giảm thuế. Tuy nhiên, như Margaret Thatcher, một học trò của Frédéric Bastiat, đã nói một cách đúng đắn:
@@ -1042,4 +1047,6 @@ Nếu nhìn nhận vấn đề từ góc độ này, Reagan giải thích với 
 ![image](assets/image/20/IMG10.webp)
 
 Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố then chốt của một tầm nhìn tự do về xã hội và con người: ưu tiên hơn vai trò của xã hội dân sự so với Nhà nước, giá trị của sự lựa chọn và trách nhiệm cá nhân, tầm quan trọng của doanh nhân trong việc tạo ra của cải, vật chất, tầm quan trọng của một khung pháp lý linh hoạt và tối thiểu, để tạo niềm tin và sự tôn trọng đối với các hợp đồng, quy luật cơ bản rằng của cải phải được tạo ra trước khi nó có thể được phân phối, mong muốn mang lại cho mọi người một cơ hội trong thị trường cạnh tranh...
+
+
 

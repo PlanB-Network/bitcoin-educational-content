@@ -420,7 +420,8 @@ Und er würde danach weiterhin dessen perverse Effekte analysieren. Hier ist ein
 ![image](assets/image/07/IMG08.webp)
 Zum Abschluss, Protektionisten und Sozialisten teilen einen gemeinsamen Punkt, laut Bastiat: Was sie vom Gesetz suchen, ist nicht, jedem die freie Ausübung seiner Fähigkeiten und die gerechte Belohnung für seine Anstrengungen zu sichern, sondern eher die mehr oder weniger vollständige Ausbeutung einer Klasse von Bürgern durch eine andere zu begünstigen. Mit dem Protektionismus ist es die Minderheit, die die Mehrheit ausbeutet. Mit dem Sozialismus ist es die Mehrheit, die die Minderheit ausbeutet. In beiden Fällen wird die Gerechtigkeit verletzt und das allgemeine Interesse kompromittiert. Bastiat stellt sie gegeneinander.
 
-![image](assets/image/07/IMG15.webp)
+> Der Staat ist die große Fiktion, durch die jeder versucht, auf Kosten aller anderen zu leben.
+
 
 ## Proudhon
 
@@ -478,7 +479,7 @@ So schreibt Bastiat in Öffentliche Arbeiten:
 
 > Der Staat eröffnet eine Straße, baut einen Palast, begradigt eine Straße, gräbt einen Kanal; dadurch gibt er bestimmten Arbeitern Arbeit, das ist das, was gesehen wird; aber er entzieht bestimmten anderen Arbeit, das ist das, was nicht gesehen wird.
 
-![image](assets/image/09/IMG20.webp)
+
 Eines der bekanntesten Sophismen ist die Parabel vom zerbrochenen Fenster. Einige behaupten, dass das Zerbrechen eines Fensters in einem Haus der Wirtschaft nicht schadet, da es dem Glaser zugutekommt. Aber Bastiat wird zeigen, dass Zerstörung nicht in unserem Interesse liegt, weil sie keinen Reichtum schafft. Sie kostet mehr, als sie einbringt. Der junge Junge, der das Fenster eines Nachbarn zerbricht, gibt dem Glaser Arbeit. Aber so trösten ihn seine Freunde:
 > "Jedes Unglück hat sein Gutes. Solche Unfälle halten die Industrie am Laufen. Jeder muss leben. Was würde aus Glasern werden, wenn niemals Fenster zerbrochen würden?"
 
@@ -542,7 +543,7 @@ Folgt man dieser Logik, Arbeitsplätze um jeden Preis zu schaffen, warum dann ni
 Diese Verwechslung von Mittel und Zweck findet sich im Slogan "Geld ist Reichtum."
 Dies ist das Axiom, das die Geldpolitik der meisten Staaten regiert. Tatsächlich ermöglicht die künstliche Erhöhung der Geldmenge den Banken, Geld an Einzelpersonen und Staaten zu verleihen, um ihre Schulden leicht zurückzuzahlen, das ist "was wir sehen". Aber "was wir nicht sehen" ist, dass diese Schaffung von Geld, die nicht auf einer echten Wertschöpfung basiert, zu Inflation und dem Ruin der Sparer führen wird.
 
-![image](assets/image/10/IMG24.webp)
+
 
 Wahrer Reichtum ist nach Bastiat also die Gesamtheit der nützlichen Dinge, die wir durch Arbeit produzieren, um unsere Bedürfnisse zu befriedigen. Geld ist somit nur ein allgemein verwendetes Tauschmittel, es spielt nur die Rolle eines Vermittlers.
 
@@ -586,9 +587,13 @@ Das Problem ist, dass Steuern, wie sie konzipiert sind, der Willkür der Mächti
 
 Deswegen hatte Bastiat bereits die Laffer-Kurve verstanden. Arthur Laffer ist ein amerikanischer Ökonom, bekannt für seine berühmte "Kurve" (eine Ellipse), die 1974 veröffentlicht wurde und zeigt, dass die Steuereinnahmen mit der Senkung des Steuersatzes steigen. Dies ist die Theorie des abnehmenden Ertrags von übermäßiger Besteuerung.
 
-![image](assets/image/11/IMG6.webp)
+> Zu viel Steuer tötet die Steuer.
+
 
 Politiker nehmen naiverweise an, es gäbe eine automatische und feste Beziehung zwischen Steuersätzen und Steuereinnahmen. Sie denken, sie könnten die Steuereinnahmen verdoppeln, indem sie den Steuersatz verdoppeln. Laut Laffer übersieht ein solcher Ansatz die Tatsache, dass Steuerzahler ihr Verhalten als Reaktion auf neue Anreize ändern könnten.
+
+![image](assets/image/11/IMG7.webp)
+
 Die Laffer-Kurve zeigt, dass die Regierung keine Einnahmen erzielt, wenn die Steuersätze bei 100% liegen. Im Gegenteil, jede Steuersenkung dient dazu, die wirtschaftliche Aktivität zu stimulieren und somit die Staatseinnahmen. Tatsächlich stimuliert die Reduzierung der Grenzsteuersätze Investitionen, Arbeit, Kreativität und fördert somit das Wirtschaftswachstum. Eine ausreichende Senkung könnte genug wirtschaftlichen Anreiz bieten, um die öffentlichen Einnahmen durch eine erhebliche Erweiterung der Steuerbasis zu erhöhen.
 
 Bastiat könnte hinzufügen, dass der Reduzierung der Staatsausgaben genauso viel Bedeutung beigemessen werden sollte wie der Senkung der Steuern. Dennoch, wie Margaret Thatcher, eine Schülerin von Frédéric Bastiat, so treffend sagte:
@@ -1025,3 +1030,5 @@ Aber wie Bastiat treffend demonstrierte, hat staatliches Eingreifen perverse Eff
 Wenn wir die Dinge aus diesem Blickwinkel betrachten, erklärte Reagan den GE-Mitarbeitern, erscheinen die sogenannten Wunder der Staatsausgaben in einem völlig anderen Licht. Denn Steuern entmutigen die Produktion, und der durch öffentliche Ausgaben geschaffene Reichtum kann diejenigen, die durch die zur Finanzierung dieser Ausgaben erhobenen Steuern an der Entstehung gehindert wurden, nicht vollständig kompensieren.
 ![Bild](assets/image/20/IMG10.webp)
 Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüsselelemente einer liberalen Vision von Gesellschaft und Mensch: die Vorrangstellung der Zivilgesellschaft vor dem Staat, den Wert der Wahl und der individuellen Verantwortung, die Bedeutung des Unternehmers bei der Schaffung von Wohlstand, die Wichtigkeit eines flexiblen und minimalen rechtlichen Rahmens, der Vertrauen und Respekt für Verträge ermöglicht, das grundlegende Gesetz, dass Wohlstand geschaffen werden muss, bevor er verteilt werden kann, den Wunsch, jedem eine Chance auf wettbewerbsorientierten Märkten zu geben…
+
+

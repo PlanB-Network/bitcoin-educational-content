@@ -3707,6 +3707,8 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 
 *Для создания этой главы о Silent Payments я использовал [сайт с объяснением Silent Payments](https://silentpayments.xyz/) и [документ с объяснением BIP352](https://github.com/Биткойн/bips/blob/master/bip-0352.mediawiki).*
 
+# Заключение
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
 
 ## Оставьте отзыв о данном курсе
@@ -3717,7 +3719,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Заключение
+## Заключительное слово
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
 Поздравляю с завершением нашего курса по конфиденциальности в Биткойн!

@@ -441,7 +441,8 @@ And he would continue to analyze its perverse effects thereafter. Here is one ex
 ![image](assets/image/07/IMG08.webp)
 To conclude, protectionists and socialists share a common point, according to Bastiat: what they seek from the law is not to ensure everyone the free exercise of their faculties and the fair reward for their efforts, but rather to favor the more or less complete exploitation of one class of citizens by another. With protectionism, it is the minority that exploits the majority. With socialism, it is the majority that exploits the minority. In both cases, justice is violated and the general interest is compromised. Bastiat sets them against each other.
 
-![image](assets/image/07/IMG15.webp)
+> The state is the great fiction through which everyone endeavors to live at the expense of everyone else.
+
 
 ## Proudhon
 
@@ -515,7 +516,7 @@ Thus, in Public Works, Bastiat writes:
 
 > The State opens a road, builds a palace, straightens a street, digs a canal; by this, it gives work to certain workers, that's what is seen; but it deprives work from certain others, that's what is not seen.
 
-![image](assets/image/09/IMG20.webp)
+
 
 One of the most well-known sophisms is the broken window fallacy. Some claim that the breaking of a window in a house does not harm the economy since it benefits the glazier. But Bastiat will show that destruction is not in our interest because it does not create wealth. It costs more than it yields. The young boy who breaks a neighbor's window gives work to the glazier. But here is how his friends console him:
 
@@ -584,7 +585,7 @@ Following this logic of creating jobs at all costs, why not also replace trucks 
 This confusion of means and end is found in the slogan "money is wealth."
 This is the axiom that governs the monetary policy of most states. Indeed, the artificial increase in the quantity of money allows banks to lend money to individuals and states to easily repay their debt, this is "what we see". But "what we do not see" is that this creation of money, not based on any real wealth creation, will lead to inflation and the ruin of savers.
 
-![image](assets/image/10/IMG24.webp)
+
 
 True wealth, according to Bastiat, is therefore the set of useful things that we produce through work to satisfy our needs. Money is thus only a commonly used means of exchange, it only plays the role of an intermediary.
 
@@ -632,9 +633,12 @@ The problem is that taxes, as conceived, are subject to the arbitrariness of tho
 
 That's why Bastiat had already understood the Laffer curve. Arthur Laffer is an American economist known for his famous "curve" (an ellipse), published in 1974, which shows that the yield from taxes increases with the lowering of the tax rate. This is the theory of the diminishing return of excessive taxation.
 
-![image](assets/image/11/IMG6.webp)
+> Too much tax kills the tax.
 
 Politicians naively assume there is an automatic and fixed relationship between tax rates and tax revenues. They think they can double tax revenues by doubling the tax rate. According to Laffer, such an approach overlooks the fact that taxpayers may change their behavior in response to new incentives.
+
+![image](assets/image/11/IMG7.webp)
+
 The Laffer curve shows that the government collects no revenue when tax rates are at 100%. Conversely, any reduction in taxes serves to stimulate economic activity and thus state revenues. Indeed, reducing marginal tax rates stimulates investment, work, creativity, and thus promotes economic growth. A sufficient reduction could produce enough economic stimulus to increase public revenues by significantly broadening the tax base.
 
 Bastiat might add that as much importance should be placed on reducing state expenditures as on reducing taxes. Nonetheless, as Margaret Thatcher, a disciple of Frédéric Bastiat, so aptly put it:
@@ -1110,3 +1114,5 @@ If we look at things from this angle, Reagan explained to GE employees, the so-c
 
 ![image](assets/image/20/IMG10.webp)
 In essence, Reagan took from Bastiat several key elements of a liberal vision of society and man: the primacy of civil society over the State, the value of choice and individual responsibility, the importance of the entrepreneur in wealth creation, the importance of a flexible and minimal legal framework, which allows for trust and respect for contracts, the fundamental law that wealth must be created before it can be distributed, the desire to give everyone a chance in competitive markets…
+
+

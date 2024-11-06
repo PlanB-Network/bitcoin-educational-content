@@ -3441,6 +3441,8 @@ Silent Paymentsの提案は比較的最近のもので、これまでに実装�
 
 *このSilent Paymentsの章を作成するために、[Silent Paymentsの説明サイト](https://silentpayments.xyz/)と[BIP352の説明文書](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)を使用しました。*
 
+# 結論
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
 
 ## このコースについてのフィードバックをお寄せください
@@ -3451,7 +3453,7 @@ Silent Paymentsの提案は比較的最近のもので、これまでに実装�
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## 結論
+## 最後の言葉
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
 Bitcoinにおけるプライバシーに関するこのトレーニングを完了したことをお祝いします！

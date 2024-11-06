@@ -503,7 +503,8 @@ Et il ne cessera par la suite d’en analyser les effets pervers. En voici un pa
 
 Pour conclure, protectionnistes et socialistes ont un point commun, selon Bastiat : ce qu'ils demandent à la loi, ce n’est pas d'assurer à chacun le libre exercice de ses facultés et la juste rétribution de ses efforts, mais de favoriser, au contraire, l'exploitation plus ou moins complète d'une classe de citoyens par une autre. Avec le protectionnisme, c’est la minorité qui exploite la majorité. Avec le socialisme, c'est la majorité qui exploite la minorité. Dans les deux cas, la justice est violée et l'intérêt général compromis. Bastiat les renvoie dos-à-dos.
 
-![image](assets/image/07/IMG15.webp)
+> L'État, c'est la grande fiction à travers laquelle tout le monde s'efforce de vivre aux dépens de tout le monde.
+
 
 ## Proudhon
 
@@ -581,9 +582,7 @@ Le bon économiste, selon Bastiat, doit décrire les effets des décisions polit
 
 Ainsi dans Travaux publics, Bastiat écrit :
 
-> L'État ouvre un chemin, bâtit un palais, redresse une rue, perce un canal; par-là, il donne du travail à certains ouvriers, c'est qu'on voit; mais il prive de travail certains autres, c'est ce qu'on ne voit pas.
-
-![image](assets/image/09/IMG20.webp)
+> L'État ouvre un chemin, bâtit un palais, redresse une rue, perce un canal; par-là, il donne du travail à certains ouvriers, c'est ce qu'on voit; mais il prive de travail certains autres, c'est ce qu'on ne voit pas.
 
 L’un des sophismes les plus connus est le sophisme de la vitre cassée. Certains prétendent que le bris d’une vitre dans une maison ne nuit pas à l’économie puisqu’il profite au vitrier. Mais Bastiat va montrer que la destruction n’est pas conforme à notre intérêt car elle ne créé pas de richesse. Elle coûte plus qu’elle ne rapporte. Le jeune garçon qui brise la fenêtre d'un voisin donne du travail au verrier. Mais voici que ses amis le consolent : 
 
@@ -914,7 +913,7 @@ Autrement dit, les choix collectifs ne sont pas des choix responsables puisque d
 
 ![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
-Dans le cours précédent, nous avons vu pourquoi la IMAGE liberté et la responsabilité sont la clé du problème social. Nous allons maintenant approfondir ce point en montrant comment Frédéric Bastiat envisage les maux dont souffrent les sociétés et leur solution.
+Dans le cours précédent, nous avons vu pourquoi la liberté et la responsabilité sont la clé du problème social. Nous allons maintenant approfondir ce point en montrant comment Frédéric Bastiat envisage les maux dont souffrent les sociétés et leur solution.
 
 On a parfois reproché aux libéraux d’ignorer le mal et de construire l’utopie d’une liberté pure et parfaite dans un monde idéal. Ce reproche n’est absolument pas fondé en ce qui concerne notre auteur.
 

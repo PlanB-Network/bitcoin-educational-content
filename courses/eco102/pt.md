@@ -420,7 +420,8 @@ E ele continuaria a analisar seus efeitos perversos a partir de então. Aqui est
 ![image](assets/image/07/IMG08.webp)
 Para concluir, protecionistas e socialistas compartilham um ponto comum, segundo Bastiat: o que eles buscam na lei não é garantir a todos o livre exercício de suas faculdades e a justa recompensa por seus esforços, mas sim favorecer a exploração mais ou menos completa de uma classe de cidadãos por outra. Com o protecionismo, é a minoria que explora a maioria. Com o socialismo, é a maioria que explora a minoria. Em ambos os casos, a justiça é violada e o interesse geral é comprometido. Bastiat os coloca um contra o outro.
 
-![image](assets/image/07/IMG15.webp)
+> O Estado é a grande ficção através da qual todos se esforçam para viver às custas de todos os outros.
+
 
 ## Proudhon
 
@@ -490,7 +491,7 @@ Assim, em Obras Públicas, Bastiat escreve:
 
 > O Estado abre uma estrada, constrói um palácio, retifica uma rua, escava um canal; com isso, dá trabalho a certos trabalhadores, isso é o que é visto; mas priva trabalho de certos outros, isso é o que não é visto.
 
-![image](assets/image/09/IMG20.webp)
+
 Um dos sofismas mais conhecidos é a falácia da janela quebrada. Alguns afirmam que o quebrar de uma janela em uma casa não prejudica a economia, pois beneficia o vidraceiro. Mas Bastiat mostrará que a destruição não é do nosso interesse porque não cria riqueza. Custa mais do que rende. O jovem que quebra a janela do vizinho dá trabalho ao vidraceiro. Mas eis como seus amigos o consolam:
 > "Toda nuvem tem um lado bom. Tais acidentes mantêm a indústria em movimento. Todos precisam viver. O que seria dos vidraceiros se as janelas nunca fossem quebradas?"
 
@@ -553,7 +554,7 @@ Seguindo essa lógica de criar empregos a todo custo, por que não também subst
 Essa confusão de meios e fim é encontrada no slogan "dinheiro é riqueza."
 Esse é o axioma que governa a política monetária da maioria dos estados. De fato, o aumento artificial na quantidade de dinheiro permite que bancos emprestem dinheiro a indivíduos e estados para facilmente repagar suas dívidas, isso é "o que vemos". Mas "o que não vemos" é que essa criação de dinheiro, não baseada em nenhuma criação real de riqueza, levará à inflação e à ruína dos poupadores.
 
-![image](assets/image/10/IMG24.webp)
+
 
 A verdadeira riqueza, segundo Bastiat, é portanto o conjunto de coisas úteis que produzimos através do trabalho para satisfazer nossas necessidades. O dinheiro é assim apenas um meio de troca comumente usado, ele apenas desempenha o papel de um intermediário.
 
@@ -599,9 +600,13 @@ O problema é que os impostos, como concebidos, estão sujeitos à arbitrariedad
 
 É por isso que Bastiat já havia entendido a curva de Laffer. Arthur Laffer é um economista americano conhecido por sua famosa "curva" (uma elipse), publicada em 1974, que mostra que o rendimento dos impostos aumenta com a redução da taxa de imposto. Esta é a teoria do retorno decrescente da tributação excessiva.
 
-![image](assets/image/11/IMG6.webp)
+> Imposto demais mata o imposto.
+
 
 Os políticos assumem ingenuamente que existe uma relação automática e fixa entre as taxas de imposto e as receitas fiscais. Eles pensam que podem dobrar as receitas fiscais dobrando a taxa de imposto. Segundo Laffer, tal abordagem ignora o fato de que os contribuintes podem mudar seu comportamento em resposta a novos incentivos.
+
+![image](assets/image/11/IMG7.webp)
+
 A curva de Laffer mostra que o governo não arrecada receita quando as taxas de imposto estão em 100%. Ao contrário, qualquer redução nos impostos serve para estimular a atividade econômica e, assim, as receitas do estado. De fato, reduzir as taxas marginais de imposto estimula o investimento, o trabalho, a criatividade e, assim, promove o crescimento econômico. Uma redução suficiente poderia produzir estímulo econômico suficiente para aumentar as receitas públicas ampliando significativamente a base tributária.
 
 Bastiat poderia acrescentar que tanta importância deveria ser dada à redução dos gastos do estado quanto à redução dos impostos. No entanto, como Margaret Thatcher, discípula de Frédéric Bastiat, colocou tão adequadamente:
@@ -1055,3 +1060,5 @@ Mas, como Bastiat demonstrou de forma apta, a intervenção estatal tem efeitos 
 Se olharmos as coisas sob este ângulo, Reagan explicou aos funcionários da GE, os chamados milagres dos gastos estatais aparecem sob uma luz completamente diferente. Porque os impostos desencorajam a produção, e a riqueza criada pelo gasto público não pode compensar totalmente aquelas que foram impedidas de nascer pelos impostos arrecadados para pagar por essas despesas.
 ![image](assets/image/20/IMG10.webp)
 Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empreendedor na criação de riqueza, a importância de um quadro legal flexível e mínimo, que permite confiança e respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes que possa ser distribuída, o desejo de dar a todos uma chance nos mercados competitivos…
+
+

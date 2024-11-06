@@ -400,7 +400,9 @@ A nadále by analyzoval jeho zvrácené účinky. Zde je jeden příklad, citova
 ![image](assets/image/07/IMG08.webp)
 Závěrem, protekcionisté a socialisté mají podle Bastiata společný bod: to, co hledají od zákona, není zajistit každému svobodné uplatnění jeho schopností a spravedlivou odměnu za jeho úsilí, ale spíše upřednostnit více či méně úplné využívání jedné třídy občanů druhou. S protekcionismem je to menšina, která využívá většinu. Se socialismem je to většina, která využívá menšinu. V obou případech je porušena spravedlnost a ohrožen veřejný zájem. Bastiat je staví proti sobě.
 
-![image](assets/image/07/IMG15.webp)
+> Stát je velká fikce, díky které se každý snaží žít na úkor všech ostatních.
+
+
 
 ## Proudhon
 
@@ -470,7 +472,7 @@ Takže v Dílech veřejných, Bastiat píše:
 
 > Stát otevře cestu, postaví palác, narovná ulici, vykope kanál; tím dá práci určitým pracovníkům, to je viděno; ale připraví o práci určité jiné, to je neviděno.
 
-![image](assets/image/09/IMG20.webp)
+
 Jedním z nejznámějších sofismů je omyl o rozbitém okně. Někteří tvrdí, že rozbití okna v domě neškodí ekonomice, protože to prospívá sklenáři. Ale Bastiat ukáže, že destrukce není v našem zájmu, protože nevytváří bohatství. Stojí více, než přináší. Mladý chlapec, který rozbije okno souseda, dá práci sklenáři. Ale tady je, jak ho jeho přátelé utěšují:
 > "Každý mrak má stříbrný okraj. Takové nehody udržují průmysl v chodu. Každý potřebuje žít. Co by se stalo se sklenáři, kdyby se okna nikdy nerozbíjela?"
 
@@ -577,9 +579,12 @@ Problém je, že daně, jak jsou pojaty, podléhají libovůli těch u moci. Pod
 
 To je důvod, proč Bastiat již pochopil Lafferovu křivku. Arthur Laffer je americký ekonom známý svou slavnou "křivkou" (elipsou), publikovanou v roce 1974, která ukazuje, že výnos z daní se zvyšuje se snižováním daňové sazby. Jedná se o teorii o klesajícím výnosu z nadměrného zdanění.
 
-![image](assets/image/11/IMG6.webp)
+> Příliš mnoho daní zabíjí daně.
 
 Politici naivně předpokládají, že mezi daňovými sazbami a daňovými příjmy existuje automatický a pevný vztah. Myslí si, že mohou zdvojnásobit daňové příjmy zdvojnásobením daňové sazby. Podle Laffera takový přístup přehlíží skutečnost, že daňoví poplatníci mohou změnit své chování v reakci na nové pobídky.
+
+![image](assets/image/11/IMG7.webp)
+
 Lafferova křivka ukazuje, že vláda nevybírá žádné příjmy, když jsou daňové sazby na 100%. Naopak, jakékoli snížení daní slouží k stimulaci ekonomické aktivity a tím i státních příjmů. Skutečně, snížení okrajových daňových sazeb stimuluje investice, práci, kreativitu a tím podporuje ekonomický růst. Dostatečné snížení by mohlo vyvolat dostatečný ekonomický stimul k výraznému rozšíření daňové základny a zvýšení veřejných příjmů.
 
 Bastiat by mohl dodat, že stejný důraz by měl být kladen na snižování státních výdajů jako na snižování daní. Nicméně, jak tak trefně řekla Margaret Thatcherová, žákyně Frédérica Bastiata:
@@ -1030,3 +1035,4 @@ Ale jak Bastiat trefně ukázal, státní zásah má perversní účinky, které
 Pokud se na věci podíváme z tohoto úhlu, vysvětloval Reagan zaměstnancům GE, takzvané zázraky státních výdajů se jeví v úplně jiném světle. Protože daně odradí od produkce a bohatství vytvořené veřejnými výdaji nemůže plně kompenzovat ty, které byly zabráněny vzniknout daněmi vybíranými na pokrytí těchto výdajů.
 ![obrázek](assets/image/20/IMG10.webp)
 Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liberální vize společnosti a člověka: primát občanské společnosti nad státem, hodnotu volby a individuální odpovědnosti, důležitost podnikatele ve tvorbě bohatství, význam flexibilního a minimálního právního rámce, který umožňuje důvěru a respektování smluv, základní zákon, že bohatství musí být vytvořeno, než může být rozděleno, touhu dát každému šanci na konkurenčních trzích…
+

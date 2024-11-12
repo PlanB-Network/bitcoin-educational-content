@@ -584,16 +584,16 @@ Pro tento typ profilu je doporučeno začít s cold peněženkou, jako je Bitbox
 
 Relevantní tutoriály k peněženkám:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Možnosti burzy:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/bitstamp
+https://planb.network/tutorials/exchange/bitfinex
+https://planb.network/tutorials/exchange/kraken
 
 Pokud hodler chce jít dále: implementovat plán DCA jako stacker a použít hot LN peněženku pro utrácení některých bitcoinů.
 
@@ -638,21 +638,21 @@ Další řešení mohou zahrnovat začátek prodeje zboží nebo služeb za Bitc
 
 Hot wallet pro rychlé nahromadění
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/blue-wallet
+https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/phoenix
 
 Cold wallet pro dlouhodobou bezpečnost
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Platforma DCA pro nahromadění Bitcoinu.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/relai
+https://planb.network/tutorials/exchange/bull-bitcoin
 
 Tento typ profilu může samozřejmě také použít brokera k provedení jednorázového velkého nákupu jako hodler, ale obecně je koncept stackingu pravidelné přidávání sats do jejich peněženky. Běžnějším přístupem by bylo naučit se, jak používat Bitcoin v peer-to-peer způsobem a tím kupovat Bitcoin přímo v hotovosti od přátel nebo členů komunity Bitcoinu.
 
@@ -698,21 +698,21 @@ Pro vystavení se Bitcoinu bude mít tento typ profilu několik možností:
 
 Teplá Peněženka LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/wallet-of-satoshi
+https://planb.network/tutorials/wallet/breez
 
 Studená Peněženka
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Platforma pro Nákup
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/kraken
 
 ### Je to pro vás?
 
@@ -746,17 +746,17 @@ Poté se budou muset naučit, jak míchat své mince, spravovat své UTXO (Unspe
 ### Tutoriál:
 
 Hotovostní peněženka:
-- [Samourai peněženka](https://planb.network/tutorials/wallet/samourai)
+https://planb.network/tutorials/wallet/samourai
 
 Studená peněženka:
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard)
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (DIY peněženka)
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/seed-signer
 
 Nákup bez KYC mezi jednotlivci:
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peach-wallet
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/bisq
+https://planb.network/tutorials/exchange/hodlhodl
 
 ### Je to pro vás?
 
@@ -988,3 +988,5 @@ V každém případě jsou všechny naše kurzy zdarma a na naší platformě je
 ## Follow up
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 Tento kurz, stejně jako veškerý obsah dostupný na této univerzitě, vám byl poskytnut zdarma naší komunitou. Abyste nás podpořili, můžete ho sdílet s ostatními, stát se členem univerzity a dokonce přispět k jejímu rozvoji prostřednictvím GitHubu. Jménem celého týmu vám děkujeme!
+
+

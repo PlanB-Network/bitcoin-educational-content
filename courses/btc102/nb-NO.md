@@ -586,16 +586,16 @@ For denne typen profil er det tilrådelig å bruke en cold wallet for å starte,
 
 Relevante Wallet Veiledninger:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Børsalternativer:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/bitstamp
+https://planb.network/tutorials/exchange/bitfinex
+https://planb.network/tutorials/exchange/kraken
 
 Hvis hodleren ønsker å gå videre: implementer en DCA-plan som stackeren og bruk en hot LN wallet for å bruke noen bitcoin.
 
@@ -640,21 +640,21 @@ Andre løsninger kan inkludere å begynne å selge varer eller tjenester i Bitco
 
 En hot wallet for rask akkumulering
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/blue-wallet
+https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/phoenix
 
 En cold wallet for langsiktig sikkerhet
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 En DCA-plattform for å akkumulere Bitcoin.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/relai
+https://planb.network/tutorials/exchange/bull-bitcoin
 
 Denne typen profil kan også, selvfølgelig, bruke en megler for å gjøre et stort kjøp på en gang som en hodler, men generelt er stacking konseptet med regelmessig å legge til sats i lommeboken deres. En mer vanlig tilnærming ville være å lære hvordan man bruker Bitcoin på en peer-to-peer måte og dermed kjøpe Bitcoin direkte i kontanter med venner eller medlemmer av Bitcoin-samfunnet.
 
@@ -700,21 +700,21 @@ For å eksponere seg for Bitcoin, vil denne typen profil ha flere alternativer:
 
 Varm Lommebok LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/wallet-of-satoshi
+https://planb.network/tutorials/wallet/breez
 
 Kald Lommebok
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Kjøpsplattform
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/kraken
 
 ### Er dette for deg?
 
@@ -748,17 +748,17 @@ De må deretter lære hvordan de kan blande sine mynter, håndtere sine UTXOs (U
 ### Veiledning:
 
 Hot wallet: 
-- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+https://planb.network/tutorials/wallet/samourai
 
 Cold wallet:
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard) 
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (DIY-lommebok)
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/seed-signer
 
 Ikke-KYC-kjøp mellom individer: 
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peach-wallet
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/bisq
+https://planb.network/tutorials/exchange/hodlhodl
 
 
 ### Er det for deg?
@@ -985,3 +985,4 @@ Uansett er alle våre kurs gratis, og mange ressurser eller opplæringer er tilg
 ## Oppfølging
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 Dette kurset, samt alt innholdet tilgjengelig på dette universitetet, har blitt gitt til deg gratis av vårt fellesskap. For å støtte oss, kan du dele det med andre, bli medlem av universitetet, og til og med bidra til utviklingen via GitHub. På vegne av hele teamet, takk!
+

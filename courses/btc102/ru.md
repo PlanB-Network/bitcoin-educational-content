@@ -589,16 +589,16 @@ BTC можно рассматривать как дорогу, по которо
 
 Актуальные учебные пособия по кошелькам:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Варианты обмена:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/bitstamp
+https://planb.network/tutorials/exchange/bitfinex
+https://planb.network/tutorials/exchange/kraken
 
 Если ходлер хочет пойти дальше: реализовать план DCA, как стекер, и использовать горячий LN кошелек для траты некоторых биткоинов.
 
@@ -643,21 +643,21 @@ BTC можно рассматривать как дорогу, по которо
 
 Горячий кошелек для быстрого накопления
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/blue-wallet
+https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/phoenix
 
 Холодный кошелек для долгосрочной безопасности
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Платформа DCA для накопления Биткоина.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/relai
+https://planb.network/tutorials/exchange/bull-bitcoin
 
 Этот тип профиля также, конечно, может использовать брокера для совершения крупной покупки за один раз, как ходлер, но в целом, стакинг - это концепция регулярного добавления сатов в их кошелек. Более распространенным подходом было бы научиться использовать Биткоин в равноправном порядке и таким образом покупать Биткоин напрямую за наличные у друзей или членов сообщества Биткоина.
 
@@ -703,21 +703,21 @@ BTC можно рассматривать как дорогу, по которо
 
 Горячий кошелек LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/wallet-of-satoshi
+https://planb.network/tutorials/wallet/breez
 
 Холодный кошелек
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Платформа для покупки
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/kraken
 
 ### Это для вас?
 
@@ -751,17 +751,17 @@ BTC можно рассматривать как дорогу, по которо
 ### Учебник:
 
 Горячий кошелек: 
-- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+https://planb.network/tutorials/wallet/samourai
 
 Холодный кошелек:
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard) 
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (сделай сам кошелек)
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/seed-signer
 
 Покупка без KYC между частными лицами: 
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peach-wallet
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/bisq
+https://planb.network/tutorials/exchange/hodlhodl
 
 
 ### Это для вас?
@@ -993,3 +993,5 @@ _Планирование наследования криптоактивов, �
 ## Последующие действия
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 Этот курс, как и весь доступный контент на этом университете, был предоставлен вам бесплатно нашим сообществом. Чтобы поддержать нас, вы можете поделиться им с другими, стать членом университета и даже внести свой вклад в его развитие через GitHub. От имени всей команды, спасибо!
+
+

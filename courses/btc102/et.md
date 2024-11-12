@@ -586,16 +586,16 @@ Selle tüüpi profiili jaoks on soovitatav alustada külma rahakotiga, nagu Bitb
 
 Oluline Rahakoti Õpetus:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Vahetusvõimalused:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/bitstamp
+https://planb.network/tutorials/exchange/bitfinex
+https://planb.network/tutorials/exchange/kraken
 
 Kui hodler soovib minna kaugemale: rakendada DCA plaani nagu stacker ja kasutada kuuma LN rahakotti mõne bitcoini kulutamiseks.
 
@@ -640,21 +640,21 @@ Teised lahendused võivad hõlmata kaupade või teenuste müümist Bitcoinis, et
 
 Kiireks kogumiseks mõeldud hot wallet
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/blue-wallet
+https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/phoenix
 
 Pikaajalise turvalisuse jaoks mõeldud cold wallet
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 DCA platvorm Bitcoini kogumiseks.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/relai
+https://planb.network/tutorials/exchange/bull-bitcoin
 
 See profiilitüüp võib muidugi kasutada ka maaklerit, et teha korraga suur ost nagu hodler, kuid üldiselt on stacking kontseptsioon, mis seisneb regulaarselt satside lisamises oma rahakotti. Levinum lähenemine oleks õppida, kuidas kasutada Bitcoini peer-to-peer viisil ja seega osta Bitcoin otse sularahas sõpradelt või Bitcoin kogukonna liikmetelt.
 
@@ -700,21 +700,21 @@ Bitcoinidega kokkupuutumiseks on sellel profiilil mitmeid võimalusi:
 
 Kuum Rahakott LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/wallet-of-satoshi
+https://planb.network/tutorials/wallet/breez
 
 Külm Rahakott
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Ostuplatvorm
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/kraken
 
 ### Kas see on teie jaoks?
 
@@ -748,17 +748,17 @@ Seejärel on vaja õppida, kuidas oma münte segada, hallata oma UTXO-sid (kasut
 ### Õpetus:
 
 Kuum rahakott:
-- [Samourai rahakott](https://planb.network/tutorials/wallet/samourai)
+https://planb.network/tutorials/wallet/samourai
 
 Külm rahakott:
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard)
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (tee-ise rahakott)
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/seed-signer
 
 Mitte-KYC ostud eraisikute vahel:
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peach-wallet
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/bisq
+https://planb.network/tutorials/exchange/hodlhodl
 
 ### Kas see on teie jaoks?
 
@@ -986,3 +986,5 @@ Igal juhul on kõik meie kursused tasuta ja meie platvormil on saadaval palju re
 ## Järeltegevus
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 See kursus, nagu kogu selle ülikooli sisu, on teile tasuta pakutud meie kogukonna poolt. Meid toetamiseks võite seda jagada teistega, saada ülikooli liikmeks ja isegi aidata selle arendamisele kaasa GitHubis. Kogu meeskonna nimel, aitäh!
+
+

@@ -598,16 +598,16 @@ Für diesen Anlegertyp wird empfohlen, zu Beginn eine Cold Wallet wie den Bitbox
 
 Relevante Wallet-Tutorials:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Handelsplattformen:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/bitstamp
+https://planb.network/tutorials/exchange/bitfinex
+https://planb.network/tutorials/exchange/kraken
 
 Wenn der Hodler weiter gehen möchte: Einrichtung eines DCA-Plans wie Stacker und eines Hot Wallets LN für den Gebrauch, um etwas Bitcoin auszugeben.
 
@@ -653,21 +653,21 @@ Andere Lösungen könnten darin bestehen, damit zu beginnen, Waren oder Dienstle
 
 Eine Hot Wallet, um schnell anzusammeln.
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/blue-wallet
+https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/phoenix
 
 Eine Cold Wallet für langfristige Sicherheit.
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Eine DCA-Plattform zum Anhäufen von Bitcoin.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/relai
+https://planb.network/tutorials/exchange/bull-bitcoin
 
 Ein solches Profil kann natürlich auch einen Broker nutzen, um einen großen Kauf auf einmal zu tätigen, wie ein Hodler, aber im Allgemeinen besteht das Stacking-Konzept darin, regelmäßig Satoshis zu seinem Portfolio hinzuzufügen. Ein häufigerer Ansatz wäre also, Bitcoin peer-to-peer zu nutzen und Bitcoin direkt mit Bargeld von Freunden oder Mitgliedern der Bitcoin-Community zu kaufen.
 
@@ -714,21 +714,21 @@ Um sich Bitcoin auszusetzen, hat dieser Profiltyp mehrere Optionen:
 
 Hot Wallet LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/wallet-of-satoshi
+https://planb.network/tutorials/wallet/breez
 
 Cold Wallet
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Kaufplattform
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/kraken
 
 
 ### Ist dies für Sie?
@@ -764,18 +764,18 @@ Anschließend muss er lernen, seine Coins zu mischen, seine UTXOs (Unspent Trans
 ### Tutorial:
 
 Hot Wallet: 
-- [Samourai Wallet](https://planb.network/tutorials/wallet/samourai)
+https://planb.network/tutorials/wallet/samourai
 
 Cold Wallet: 
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard)  
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (DIY-Wallet)
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/seed-signer
 
 Nicht-KYC-Kauf zwischen Privatpersonen:
 
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peach-wallet
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/bisq
+https://planb.network/tutorials/exchange/hodlhodl
 
 ### Ist es für Sie?
 
@@ -995,3 +995,5 @@ In jedem Fall bleiben alle unsere Schulungen kostenlos, und es stehen viele Ress
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
 Dieser Kurs sowie der gesamte Inhalt dieser Universität werden Ihnen kostenlos von unserer Community zur Verfügung gestellt. Um uns zu unterstützen, können Sie ihn mit anderen teilen, Mitglied der Universität werden und sogar über GitHub zu ihrer Entwicklung beitragen. Im Namen des gesamten Teams, vielen Dank!
+
+

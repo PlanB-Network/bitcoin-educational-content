@@ -585,16 +585,16 @@ Tällaiselle profiilille on suositeltavaa aloittaa kylmällä lompakolla, kuten 
 
 Aiheeseen liittyvä lompakko-opas:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Vaihtoehdot vaihtoon:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/bitstamp
+https://planb.network/tutorials/exchange/bitfinex
+https://planb.network/tutorials/exchange/kraken
 
 Jos hodler haluaa mennä pidemmälle: toteuttaa DCA-suunnitelman kuten stacker ja käyttää hot LN-lompakkoa joidenkin bitcoinien käyttämiseen.
 
@@ -639,21 +639,21 @@ Muita ratkaisuja voivat olla esimerkiksi tavaroiden tai palveluiden myyminen Bit
 
 Hot wallet nopeaa kerryttämistä varten
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/blue-wallet
+https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/phoenix
 
 Cold wallet pitkäaikaiseen turvallisuuteen
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 DCA-alusta Bitcoinin kerryttämiseen.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/relai
+https://planb.network/tutorials/exchange/bull-bitcoin
 
 Tämäntyyppinen profiili voi tietenkin myös käyttää välittäjää tekemään suuren ostoksen kerralla kuten hodler, mutta yleensä stacking on säännöllisesti satsien lisäämisen konsepti lompakkoon. Yleisempi lähestymistapa olisi oppia käyttämään Bitcoinia vertaisverkkotavalla ja siten ostaa Bitcoinia suoraan käteisellä ystäviltä tai Bitcoin-yhteisön jäseniltä.
 
@@ -700,21 +700,21 @@ Bitcoinille altistumisen saavuttamiseksi tällaisella profiililla on useita vaih
 
 Kuuma Lompakko LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/wallet-of-satoshi
+https://planb.network/tutorials/wallet/breez
 
 Kylmä Lompakko
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Ostopalvelu
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/kraken
 
 ### Onko tämä sinulle?
 
@@ -748,17 +748,17 @@ Sen jälkeen heidän on opittava sekoittamaan kolikoitaan, hallitsemaan UTXO:ita
 ### Opas:
 
 Hot wallet: 
-- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+https://planb.network/tutorials/wallet/samourai
 
 Cold wallet:
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard) 
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (DIY-lompakko)
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/seed-signer
 
 KYC-vapaa ostaminen yksityishenkilöiden välillä: 
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peach-wallet
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/bisq
+https://planb.network/tutorials/exchange/hodlhodl
 
 
 ### Onko tämä sinua varten?
@@ -991,3 +991,5 @@ Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetuso
 ## Seuranta
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 Tämä kurssi, kuten kaikki tämän yliopiston tarjoama sisältö, on tarjottu sinulle maksutta yhteisömme toimesta. Tukemaan meitä, voit jakaa sen muiden kanssa, liittyä yliopiston jäseneksi ja jopa osallistua sen kehittämiseen GitHubin kautta. Koko tiimin puolesta, kiitos!
+
+

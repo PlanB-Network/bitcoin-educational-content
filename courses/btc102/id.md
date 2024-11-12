@@ -588,16 +588,16 @@ Untuk tipe profil ini, disarankan untuk menggunakan cold wallet untuk memulai, s
 
 Tutorial Wallet yang Relevan:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Opsi Pertukaran:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/bitstamp
+https://planb.network/tutorials/exchange/bitfinex
+https://planb.network/tutorials/exchange/kraken
 
 Jika hodler ingin melangkah lebih jauh: menerapkan rencana DCA seperti stacker dan menggunakan hot LN wallet untuk menghabiskan beberapa bitcoin.
 
@@ -642,21 +642,21 @@ Solusi lain mungkin termasuk mulai menjual barang atau jasa dalam Bitcoin untuk 
 
 Hot wallet untuk akumulasi cepat
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/blue-wallet
+https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/phoenix
 
 Cold wallet untuk keamanan jangka panjang
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Platform DCA untuk mengumpulkan Bitcoin.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/relai
+https://planb.network/tutorials/exchange/bull-bitcoin
 
 Tipe profil ini juga, tentu saja, dapat menggunakan broker untuk melakukan pembelian besar sekaligus seperti hodler, tetapi umumnya, stacking adalah konsep menambahkan sats secara reguler ke dompet mereka. Pendekatan yang lebih umum adalah belajar cara menggunakan Bitcoin secara peer-to-peer dan dengan demikian membeli Bitcoin langsung dengan tunai dari teman atau anggota komunitas Bitcoin.
 
@@ -702,21 +702,21 @@ Untuk memperkenalkan diri mereka ke Bitcoin, tipe profil ini akan memiliki beber
 
 Dompet Panas LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/wallet-of-satoshi
+https://planb.network/tutorials/wallet/breez
 
 Dompet Dingin
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/bitbox02
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/trezor
 
 Platform Pembelian
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/kraken
 
 ### Apakah ini untuk Anda?
 
@@ -750,17 +750,17 @@ Mereka kemudian perlu belajar cara mencampur koin mereka, mengelola UTXO (Unspen
 ### Tutorial:
 
 Dompet panas:
-- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+https://planb.network/tutorials/wallet/samourai
 
 Dompet dingin:
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard)
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (Dompet DIY)
+https://planb.network/tutorials/wallet/coldcard
+https://planb.network/tutorials/wallet/seed-signer
 
 Pembelian non-KYC antar individu:
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peach-wallet
+https://planb.network/tutorials/exchange/robosats
+https://planb.network/tutorials/exchange/bisq
+https://planb.network/tutorials/exchange/hodlhodl
 
 ### Apakah ini untuk Anda?
 
@@ -989,3 +989,5 @@ Dalam hal apapun, semua kursus kami gratis, dan banyak sumber daya atau tutorial
 ## Tindak Lanjut
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 Kursus ini, serta seluruh konten yang tersedia di universitas ini, telah disediakan kepada Anda secara gratis oleh komunitas kami. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui GitHub. Atas nama seluruh tim, terima kasih!
+
+

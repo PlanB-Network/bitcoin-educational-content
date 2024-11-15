@@ -1,10 +1,8 @@
-question: Qual é o principal risco associado à geração de uma frase mnemônica própria usando dados para transações de Bitcoin?
-answer: Isso pode apresentar certos riscos.
-wrong_answers:
-  - Pode levar à geração de números previsíveis.
-  - Pode levar à geração de números duplicados.
-  - Pode levar à geração de números inválidos.
-explanation: |
-  Gerar uma frase mnemônica própria usando dados pode apresentar certos riscos.
-  Portanto, é recomendado usar uma frase de acesso gerada aleatoriamente para mitigar esses riscos.
-reviewed: false
+pergunta: Para realizar a derivação de um par de chaves filho normal, devo inserir na função HMAC-SHA512...
+resposta: chave pública do pai || índice, código da cadeia do pai.
+respostas_erradas:
+  - chave privada do pai || índice, código da cadeia do pai.
+  - chave privada do pai, código da cadeia do pai.
+  - chave privada do pai || índice.
+explicação: |
+  Para derivar uma chave filho normal, a chave pública do pai é usada com o índice e o código da cadeia na função HMAC-SHA512.

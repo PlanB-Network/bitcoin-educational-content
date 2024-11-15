@@ -1,0 +1,9 @@
+question: Quando foi o lançamento real da rede protótipo do Bitcoin em 2009?
+answer: 9 de janeiro de 2009, às 02:54:25 UTC
+wrong_answers:
+  - 3 de janeiro de 2009, às 18:15:05 UTC
+  - 8 de janeiro de 2009, às 19:27:40 UTC
+  - 12 de janeiro de 2009, às 03:30:25 UTC
+explanation: |
+  Esta é a marcação de tempo do bloco 1 da blockchain, minerado por Satoshi Nakamoto após ter publicado o código do software na lista de e-mails algumas horas antes. O bloco gênese (0) foi criado entre 3 e 8 de janeiro, mas não havia, de fato, uma rede propriamente dita.
+reviewed: false

@@ -1,0 +1,9 @@
+küsimus: Mis on "ühendamine" tehingus?
+vastus: See on mitme UTXO kasutamine sisenditena.
+valevastused:
+  - See on mitme UTXO loomine väljunditena.
+  - See on mitme aadressi ühendamine üheks.
+  - See on mitme ploki ühendamine plokiahelas.
+selgitus: |
+  Kui kasutajal ei ole ühtegi UTXO-d, mis oleks suurem või võrdne summaga, mida ta soovib saata, peab ta kasutama mitut oma UTXO-d, et rahuldada väljundeid. Seda praktikat nimetatakse "ühendamiseks".
+üle vaadatud: false

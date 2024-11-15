@@ -1406,7 +1406,7 @@ Hayek uskoi, että yksityisten valuuttojen vapaa markkinatalous johtaisi suuremp
 
 
 
-## Anna meille palautetta tästä kurssista
+## Arvioi kurssi
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 

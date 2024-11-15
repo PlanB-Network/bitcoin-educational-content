@@ -1,0 +1,9 @@
+kysymys: Tekstin mukaan, mikä on perustavanlaatuinen ero "sopimusteorioiden" ja "markkinateorioiden" välillä?
+vastaus: Sopimusteorioiden tavoitteena on sosiaalinen harmonia valtion pakottamisen kautta, kun taas markkinateoriat sallivat yksilöllisten etujen harmonisoitua omatoimisesti.
+väärät_vastaukset:
+  - Sopimusteorioiden soveltuvat primitiivisiin yhteiskuntiin, kun taas markkinateoriat soveltuvat moderneihin yhteiskuntiin.
+  - Sopimusteorioiden huolenaiheena on varallisuuden jakautuminen, kun taas markkinateorioiden huolenaiheena on tavaroiden ja palveluiden tuotanto.
+  - Sopimusteorioita puolustavat fysiokraatit, kun taas markkinateorioita puolustavat merkantilistit.
+selitys: |
+  Sopimusteorioiden näkökulmasta sosiaalinen harmonia on valtion asettamaa, kun taas markkinateoriat katsovat, että yksilölliset edut, vapaasti vuorovaikuttaessaan, luovat spontaanisti sosiaalisen tasapainon.
+arvioitu: false

@@ -1,0 +1,13 @@
+pertanyaan: Apa itu ricochet dalam konteks Bitcoin?
+
+jawaban: Sebuah teknik yang melibatkan pembuatan beberapa transaksi kepada diri sendiri
+
+jawaban_salah:
+  - Sebuah transaksi kolaboratif yang melibatkan beberapa peserta
+  - Sebuah metode mencampur bitcoin untuk meningkatkan anonimitas potensial
+  - Sebuah jenis coinjoin khusus untuk platform pertukaran tertentu
+
+penjelasan: |
+  Ricochet adalah sebuah teknik yang melibatkan pembuatan beberapa transaksi fiktif kepada diri sendiri (sweeping).
+
+ditinjau: false

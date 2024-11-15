@@ -1,9 +1,9 @@
-question: ¿Cuáles son las cuatro fortalezas que una función hash criptográfica debe tener para ser reconocida como segura?
-answer: Irreversibilidad, resistencia a la falsificación, resistencia a colisiones y resistencia a la segunda preimagen.
-wrong_answers:
-  - Velocidad, eficiencia, resistencia a colisiones e irreversibilidad.
-  - Resistencia a colisiones, resistencia a la falsificación, escalabilidad e irreversibilidad.
-  - Irreversibilidad, resistencia a colisiones, resistencia a la falsificación y velocidad.
-explanation: |
-  Una función hash criptográfica segura debe tener cuatro fortalezas clave: irreversibilidad (lo que significa que es imposible derivar la entrada original a partir de la salida), resistencia a la falsificación (lo que significa que es difícil crear una entrada diferente que produzca la misma salida), resistencia a colisiones (lo que significa que es difícil encontrar dos entradas diferentes que produzcan la misma salida) y resistencia a la segunda preimagen (lo que significa que es difícil encontrar una entrada diferente que produzca la misma salida que una entrada dada).
-reviewed: false
+pregunta: ¿Cuáles son las funciones hash utilizadas en el protocolo Bitcoin?
+respuesta: SHA-256, RIPEMD-160
+respuestas_incorrectas:
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
+explicación: |
+  En Bitcoin, se utilizan SHA-256 y RIPEMD-160.
+revisado: false

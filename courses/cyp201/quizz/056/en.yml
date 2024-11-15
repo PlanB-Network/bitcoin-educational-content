@@ -1,11 +1,9 @@
-question: What does the seed in a Bitcoin wallet represent?
-answer: It is a random or pseudo-random number from which multiple keys are generated.
+question: What is the purpose of the extended key?
+answer: To gather all the necessary information for deriving child keys into a single string.
 wrong_answers:
-  - It is the password to access the wallet.
-  - It is the first Bitcoin transaction recorded in the wallet.
-  - It is the digital signature of the wallet owner.
+  - To gather all the necessary information for reconstructing an entire HD wallet into a single string.
+  - To gather information about the UTXOs in the wallet.
+  - To gather the mnemonic phrase and passphrase into a single format.
 explanation: |
-  The seed in a Bitcoin wallet is supposed to be a random or pseudo-random
-  number. This seed allows for the generation of multiple keys, which are essential
-  for cryptocurrency ownership.
+  An extended key allows for all the necessary information to derive child keys to be contained, thus simplifying the management of accounts in an HD wallet.
 reviewed: false

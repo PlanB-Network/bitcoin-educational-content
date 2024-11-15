@@ -1,9 +1,9 @@
-question: Qual é a importância do ponto no infinito no algoritmo ECDSA?
-answer: Se o ponto calculado P for o ponto no infinito, a assinatura é inválida.
-wrong_answers:
-  - Se o ponto calculado P for o ponto no infinito, a assinatura é válida.
-  - O ponto no infinito é usado para calcular o nonce.
-  - O ponto no infinito é usado para criptografar as chaves.
-explanation: |
-  No algoritmo ECDSA, se o ponto calculado P na curva elíptica for o ponto no infinito, a assinatura é considerada inválida. Esta é uma das verificações realizadas durante a validação de uma assinatura digital.
-reviewed: false
+pergunta: O que acontece se eu usar uma carteira HD com uma frase-senha e eu perder essa frase-senha?
+resposta: Meus bitcoins são perdidos para sempre.
+respostas_erradas:
+  - Não é um problema, ainda posso acessar meus bitcoins apenas com minha frase mnemônica.
+  - Posso redefinir a frase-senha com minha chave privada.
+  - Posso recuperar meus bitcoins usando uma carteira sem frase-senha.
+explicação: |
+  Se a frase-senha for perdida, o acesso aos bitcoins é permanentemente perdido, pois ela é necessária para derivar as chaves privadas.
+revisado: false

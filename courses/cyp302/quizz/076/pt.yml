@@ -1,0 +1,9 @@
+pergunta: Qual tamanho de chave é considerado seguro contra ataques de força bruta para criptografia moderna?
+resposta: 128 bits
+respostas_erradas:
+  - 16 bits
+  - 64 bits
+  - 100 bits
+explicação: |
+  Com uma chave de pelo menos 128 bits, a criptografia moderna é atualmente considerada segura contra ataques de força bruta, pois o número de tentativas seria irrealista.
+revisado: false

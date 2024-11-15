@@ -1,0 +1,10 @@
+question: Hva er en lommebok i konteksten av Bitcoin?
+answer: En digital safe for dine bitcoins
+wrong_answers:
+  - En fysisk enhet for å lagre bitcoins
+  - En programvare for å utvinne bitcoins
+  - En plattform for å kjøpe og selge bitcoins
+explanation: |
+  Kapittelinnholdet forklarer at bitcoins lagres i det som kalles
+  en "lommebok," som er en digital safe for pengene dine. Bare nøkkelholderen kan få
+  tilgang til den.

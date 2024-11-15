@@ -59,13 +59,13 @@ Para mantener la consistencia entre estos dos repositorios, será necesario sinc
 
 - Regresa al software GitHub Desktop. Para este momento, tu fork debería aparecer en la sección `Your repositories`. Si no lo ves inmediatamente, usa el botón de doble flecha para actualizar la lista. Cuando tu fork aparezca, haz clic en él para seleccionarlo:
 ![github-desktop](assets/15.webp)
-- Luego haz clic en el botón azul: `Clone [username]/sovereign-university-data`:
+- Luego haz clic en el botón azul: `Clone [username]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Mantén la ruta predeterminada. Para confirmar, haz clic en el botón azul `Clone`:
 ![github-desktop](assets/17.webp)
 - Espera mientras GitHub Desktop clona tu fork localmente:
 ![github-desktop](assets/18.webp)
-- Después de clonar el repositorio, el software te ofrece dos opciones. Debes seleccionar la primera: `To contribute to the parent project`. Esta elección te permitirá presentar tu trabajo futuro como una contribución al proyecto padre (`DecouvreBitcoin/sovereign-university-data`), y no exclusivamente como una modificación de tu bifurcación personal (`[username]/sovereign-university-data`). Una vez elegida la opción, haz clic en `Continue`: ![github-desktop](assets/19.webp)
+- Después de clonar el repositorio, el software te ofrece dos opciones. Debes seleccionar la primera: `To contribute to the parent project`. Esta elección te permitirá presentar tu trabajo futuro como una contribución al proyecto padre (`PlanB-Network/bitcoin-educational-content`), y no exclusivamente como una modificación de tu bifurcación personal (`[username]/bitcoin-educational-content`). Una vez elegida la opción, haz clic en `Continue`: ![github-desktop](assets/19.webp)
 - Tu GitHub Desktop ahora está correctamente configurado. Ahora, puedes dejar el software abierto en segundo plano para seguir las modificaciones que haremos.
 ![github-desktop](assets/20.webp)
 Lo que hemos logrado en esta etapa es la creación de una copia local de tu repositorio, que está alojado en GitHub. Como recordatorio, este repositorio es una bifurcación del repositorio fuente de PlanB Network. Podrás hacer modificaciones a esta copia local, como agregar tutoriales, traducciones o correcciones. Una vez hechas estas modificaciones, utilizarás el comando **Push origin** para enviar tus modificaciones locales a tu bifurcación alojada en GitHub.
@@ -81,7 +81,7 @@ También puedes recuperar modificaciones de la bifurcación, por ejemplo, durant
 - Tu explorador de archivos se abrirá. Necesitas localizar y seleccionar la carpeta titulada `GitHub`, que debería estar en tu directorio `Documents` entre tus archivos. Esta ruta corresponde a la que estableciste durante el paso 4. Después de elegir la carpeta, confirma su selección. La creación de tu bóveda en Obsidian se lanzará entonces en una nueva página del software:
 
 ![github-desktop](assets/24.webp)
--> **Atención**, es importante no elegir la carpeta `sovereign-university-data` al crear una nueva bóveda en Obsidian. En su lugar, selecciona la carpeta padre, `GitHub`. Si seleccionas la carpeta `sovereign-university-data`, la carpeta de configuración `.obsidian`, que contiene tus configuraciones locales de Obsidian, se integrará automáticamente en el repositorio. Queremos evitar esto, ya que no es necesario transferir tus configuraciones de Obsidian al repositorio de PlanB Network. Una alternativa es agregar la carpeta `.obsidian` al archivo `.gitignore`, pero este método también modificaría el archivo `.gitignore` del repositorio fuente, lo cual no es deseable.
+-> **Atención**, es importante no elegir la carpeta `bitcoin-educational-content` al crear una nueva bóveda en Obsidian. En su lugar, selecciona la carpeta padre, `GitHub`. Si seleccionas la carpeta `bitcoin-educational-content`, la carpeta de configuración `.obsidian`, que contiene tus configuraciones locales de Obsidian, se integrará automáticamente en el repositorio. Queremos evitar esto, ya que no es necesario transferir tus configuraciones de Obsidian al repositorio de PlanB Network. Una alternativa es agregar la carpeta `.obsidian` al archivo `.gitignore`, pero este método también modificaría el archivo `.gitignore` del repositorio fuente, lo cual no es deseable.
 
 - En el lado izquierdo de la ventana, puedes ver el árbol de archivos con tus diferentes repositorios de GitHub que han sido clonados localmente.
 - Al hacer clic en las flechas junto a los nombres de las carpetas, puedes expandirlas para acceder a las subcarpetas de los repositorios y sus documentos:

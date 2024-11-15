@@ -1,9 +1,9 @@
-question: Qual é o papel da entropia na carteira HD do Bitcoin?
-answer: É a base de qualquer carteira HD e essencial para sua segurança.
-wrong_answers:
-  - Ajuda na verificação das transações.
-  - Aumenta a velocidade das transações.
-  - Reduz o tamanho do blockchain.
-explanation: |
-  A entropia, ou aleatoriedade, é a base de qualquer carteira HD. É essencial para a segurança da carteira, pois garante a imprevisibilidade das chaves privadas geradas.
-reviewed: false
+pergunta: Quais metadados são adicionados à chave estendida além do seu payload?
+resposta: Versão / profundidade / impressão digital do pai / índice / checksum.
+respostas_erradas:
+  - Versão / índice.
+  - Versão / profundidade / separador / checksum.
+  - Nenhum metadado é adicionado.
+explicação: |
+  A chave estendida inclui várias peças de metadados. Há a versão, profundidade, impressão digital do pai, índice e checksum para facilitar a derivação de chaves.
+revisado: false

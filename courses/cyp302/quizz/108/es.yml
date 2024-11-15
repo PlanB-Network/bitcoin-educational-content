@@ -1,0 +1,9 @@
+pregunta: ¿Por qué un esquema de cifrado autenticado por sí solo es insuficiente en una sesión de comunicación?
+respuesta: No garantiza que el mensaje haya sido enviado por el remitente en el momento de la sesión.
+respuestas_incorrectas:
+  - Utiliza claves que son demasiado cortas.
+  - No cifra mensajes enviados en el momento de la sesión.
+  - No permite la autenticación del remitente en el momento de la sesión.
+explicación: |
+  Un esquema de cifrado autenticado no protege contra ataques como la repetición, reordenamiento y reflexión sin la adición de indicadores como identificadores y números de secuencia.
+revisado: false

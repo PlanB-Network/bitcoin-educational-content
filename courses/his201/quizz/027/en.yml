@@ -1,0 +1,9 @@
+question: Which British newspaper's headline was included in the Bitcoin genesis block in January 2009?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  The exact inscription was "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks".
+reviewed: false

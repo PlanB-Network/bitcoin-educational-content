@@ -1,0 +1,9 @@
+question: In the RSA cryptosystem, why is it difficult to find the value of "d"?
+answer: Because it requires knowledge of φ(N), which depends on the prime factors of N
+wrong_answers:
+  - Because "d" is a random number
+  - Because "d" is larger than N
+  - Because "d" is calculated independently of φ(N)
+explanation: |
+  Finding "d" is difficult because it relies on the knowledge of φ(N), which in turn depends on the values of p and q, the prime factors of N.
+reviewed: false

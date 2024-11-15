@@ -1,0 +1,8 @@
+pertanyaan: Bagaimana kunci privat Bitcoin ditentukan?
+jawaban: Ditentukan dari angka acak atau pseudo-acak.
+jawaban_salah:
+  - Ditentukan dengan penambahan dan penggandaan titik pada kurva eliptik dari kunci publiknya.
+  - Ditentukan dengan meng-hash kunci publiknya.
+  - Ditentukan oleh algoritma SHA-256.
+penjelasan: |
+  Kunci privat Bitcoin dihasilkan secara acak atau pseudo-acak, yang menjamin keunikan dan keamanannya.

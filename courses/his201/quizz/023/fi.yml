@@ -1,0 +1,9 @@
+kysymys: Missä Satoshi Nakamoto julkaisi Bitcoinin white paperin 31. lokakuuta 2008?
+vastaus: Kryptografian postituslistalla
+väärät_vastaukset:
+  - Reddit
+  - Twitter
+  - Hackernews
+selitys: |
+  Kyseessä oli kypherpunkkien postituslistan seuraaja, ja tämän sähköpostilistan hallinnoijana toimi kehittäjä Perry Metzger vuodesta 1996 lähtien.
+arvioitu: false

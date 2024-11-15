@@ -1,0 +1,9 @@
+Frage: Was ist die Entsprechung von XOR mit der Modulo-Operation?
+Antwort: XOR entspricht einer Modulo-2-Operation auf Bits
+falsche_Antworten:
+  - XOR entspricht einer klassischen Subtraktion modulo 3
+  - XOR entspricht einer Modulo-7-Operation auf Bits
+  - XOR ist das Inverse der Addition
+Erklärung: |
+  Die XOR-Operation kann als eine Addition von Bits mit einem Modulo 2 angesehen werden, was die Ergebnisse identisch macht.
+überprüft: false

@@ -1,0 +1,9 @@
+pregunta: ¿Qué función se utiliza para calcular el número de enteros menores que N que son coprimos con N?
+respuesta: Función Phi de Euler
+respuestas_incorrectas:
+  - Función Gamma de Euler
+  - Función Sigma de Euler
+  - Función Beta de Dirichlet
+explicación: |
+  La función Phi de Euler determina el número de enteros menores que N que son coprimos con N, un concepto central en teoremas de criptografía basados en números primos.
+revisado: false

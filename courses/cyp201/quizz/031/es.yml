@@ -1,9 +1,8 @@
-question: ¿Cuál es el número total de posibilidades para una clave privada de Bitcoin?
-answer: Casi igual a 1.158 x 10^77
-wrong_answers:
-  - Exactamente 2^256
-  - Entre 1 y n-1
-  - Aproximadamente el mismo número de átomos presentes en el universo observable
-explanation: |
-  El número total de posibilidades para una clave privada de Bitcoin es casi igual a 1.158 x 10^77, que es aproximadamente el mismo número de átomos presentes en el universo observable. Esto se debe a que una clave privada debe estar entre 1 y n-1, donde n representa el orden de la curva elíptica.
-reviewed: false
+pregunta: ¿Cómo se determinan los pares de claves en una cartera Determinista Jerárquica (HD)?
+respuesta: Todos los pares de claves en la cartera se determinan de manera determinista y jerárquica a partir de una pieza única de información en la base de la cartera.
+respuestas_incorrectas:
+  - Todos los pares de claves en la cartera se determinan independientemente de otros, aleatoriamente, por un generador de números aleatorios.
+  - Cada par de claves en la cartera se determina de manera determinista a partir del par de claves anterior.
+  - Los pares de claves son todos aleatorios y sin vinculación jerárquica.
+explicación: |
+  En las carteras HD, todas las claves se derivan de una pieza única de información llamada "semilla", lo que permite una gestión jerárquica y determinista de las claves.

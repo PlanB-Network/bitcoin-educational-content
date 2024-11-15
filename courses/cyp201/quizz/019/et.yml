@@ -1,0 +1,8 @@
+question: Mis on krüptograafilistes süsteemides kõige tuntum elliptiline kõver?
+answer: secp256r1.
+wrong_answers:
+  - secp256k1.
+  - secp160r1.
+  - ed25519.
+explanation: |
+  Elliptiline kõver secp256r1 on laialdaselt kasutusel paljudes krüptograafilistes süsteemides, kuid Bitcoin kasutab kõverat secp256k1.

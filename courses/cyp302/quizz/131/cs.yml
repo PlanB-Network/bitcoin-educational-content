@@ -1,0 +1,9 @@
+otázka: Proč se asymetrická kryptografie používá méně než symetrická kryptografie při výměně velkých objemů dat?
+odpověď: Je méně efektivní pro ekvivalentní úroveň zabezpečení
+špatné_odpovědi:
+  - Nezajišťuje autentičnost zpráv
+  - Vyžaduje více veřejných klíčů pro každou výměnu
+  - Není kompatibilní s moderními komunikačními protokoly
+vysvětlení: |
+  Asymetrická kryptografie, ačkoli je výkonná pro autentizaci a počáteční šifrování, vyžaduje více zdrojů, což činí její použití neefektivním pro přenosy významných objemů dat.
+recenzováno: false

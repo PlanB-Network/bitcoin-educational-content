@@ -1,0 +1,8 @@
+question: Hva er "den usynlige hånd" ifølge Adam Smith?
+answer: En mekanisme der individuelle interesser tjener det generelle beste
+wrong_answers:
+  - En overnaturlig kraft som styrer økonomien
+  - En sammensvergelse av de rike for å utnytte de fattige
+  - En metafor for å beskrive statens rolle i økonomien
+explanation: |
+  "Den usynlige hånd" beskriver hvordan jakten på personlige interesser i et fritt marked utilsiktet bidrar til det generelle beste.

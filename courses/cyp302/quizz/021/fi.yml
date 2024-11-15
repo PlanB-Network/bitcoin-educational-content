@@ -1,0 +1,9 @@
+kysymys: Mikä on matemaattinen termi laskutoimituksille, jotka sisältävät modulo-operaatioita?
+vastaus: Modulaariaritmetiikka
+vaarat_vastaukset:
+  - Lineaarialgebra
+  - Trigonometria
+  - Diskreetti geometria
+selitys: |
+  Modulaariaritmetiikka on matematiikan haara, joka käsittelee laskutoimituksia numeroilla äärellisessä kehyksessä käyttäen modulo-operaatiota.
+arvioitu: false

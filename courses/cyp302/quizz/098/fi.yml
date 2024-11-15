@@ -1,0 +1,9 @@
+kysymys: Kuinka MAC auttaa estämään viestien muuntelun hyökkääjän toimesta?
+vastaus: Sallimalla varmistaa, että vastaanotettua viestiä ei ole muutettu
+vaarat_vastaukset:
+  - Estämällä voimakkaan yrityksen tyypin hyökkäykset
+  - Peittämällä viestin sisällön
+  - Estämällä automaattisesti epäilyttävät viestit
+selitys: |
+  MAC mahdollistaa vastaanottajan varmistaa, että viestiä ei ole muokattu luomalla tagin jaettua salaisuutta käyttäen, mikä rajoittaa manipuloinnin mahdollisuuksia.
+arvioitu: false

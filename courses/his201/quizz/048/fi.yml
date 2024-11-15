@@ -1,0 +1,9 @@
+kysymys: Mikä palvelu, joka hyväksyi Bitcoinin, oli Teppyn hallinnoima, henkilön, joka esitteli Bitcoinin Slashdotissa 11. heinäkuuta 2010?
+vastaus: MMORPG "A Tale in the Desert"
+väärät_vastaukset:
+  - VPN Mullvad
+  - VoIP-palvelu Link2VoIP
+  - Webhotellipalvelu Vekja.net
+selitys: |
+  Tämä [alkoi](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) hyväksyä Bitcoinia 19. toukokuuta.
+arvioitu: false

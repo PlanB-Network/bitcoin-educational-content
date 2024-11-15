@@ -1,0 +1,9 @@
+otázka: Jaká je role Kerckhoffova principu v kryptografii?
+odpověď: Zajistit, že bezpečnost závisí na tajném klíči, nikoli na tajnosti schématu
+špatné_odpovědi:
+  - Zajistit, že bezpečnost závisí na tajnosti schématu, nikoli na tajném klíči
+  - Vyžadovat velmi dlouhý šifrovací klíč
+  - Zaručit, že každá zpráva má unikátní klíč
+vysvětlení: |
+  Podle Kerckhoffova principu by bezpečnost kryptografického systému měla spoléhat výhradně na tajný klíč, a nikoli na tajnost samotného algoritmu.
+recenzováno: false

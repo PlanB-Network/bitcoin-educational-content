@@ -1,0 +1,9 @@
+question: Hvilke algoritmer brukes for derivasjon i Bitcoin HD-lommebøker?
+answer: HMAC/PBKDF2
+wrong_answers:
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
+explanation: |
+  Bitcoin HD-lommebøker bruker HMAC (Hash-basert meldingsautentiseringskode) for nøkkelderivasjon og PBKDF2 (Password-Based Key Derivation Function 2) for seed-derivasjon.
+reviewed: false

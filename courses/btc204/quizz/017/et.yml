@@ -1,0 +1,9 @@
+question: Mis terminit kasutatakse informatsiooni kohta, mis seob hulga ahelas toimuvaid tegevusi tegeliku identiteediga?
+answer: Sisenemispunkt.
+wrong_answers:
+  - Sidumisvõti.
+  - Sõrmejälje link.
+  - Analüüsimarker.
+explanation: |
+  Käitumised ja informatsioon, mis võivad seostada tegeliku identiteedi ahelas toimuva tegevusega, nimetatakse "sisenemispunktideks".
+reviewed: false

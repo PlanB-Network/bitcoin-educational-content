@@ -1,0 +1,8 @@
+pertanyaan: Pada tanggal berapa mailing list pengembangan bitcoin dibuat?
+jawaban: 12 Juni 2011
+jawaban_salah:
+  - 13 Januari 2011
+  - 7 Maret 2011
+  - 19 September 2011
+penjelasan: |
+  Mailing list ini dibuat oleh pengembang Jeff Garzik, dan memungkinkan untuk diskusi formal mengenai perubahan yang akan dilakukan pada Bitcoin.

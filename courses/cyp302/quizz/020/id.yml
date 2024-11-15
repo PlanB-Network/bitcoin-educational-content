@@ -1,0 +1,9 @@
+pertanyaan: Apa yang dimaksud dengan operasi "modulo" dalam matematika?
+jawaban: Sisa dari sebuah pembagian
+jawaban_salah:
+  - Hasil bagi dari sebuah pembagian
+  - Dua kali angka awal
+  - Angka yang membagi tanpa sisa
+penjelasan: |
+  Operasi modulo melibatkan penentuan sisa dari sebuah pembagian, contohnya, 25 mod 4 sama dengan 1 karena sisa dari pembagian tersebut adalah 1.
+ditinjau: false

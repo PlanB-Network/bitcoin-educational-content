@@ -1,0 +1,9 @@
+question: RSA krüptosüsteemi kontekstis, millele vastab kahe algarvu p ja q korrutis?
+answer: See moodustab täisarvu N, mida kasutatakse modulooperatsioonide jaoks
+wrong_answers:
+  - See moodustab avaliku võtme
+  - See toimib dekrüpteerimisvõtmena
+  - Seda kasutatakse ainult eksponendi e genereerimiseks
+explanation: |
+  RSA-s on täisarv N kahe suure algarvu p ja q korrutis ning seda kasutatakse modulooperatsioonide jaoks krüpteerimisel ja dekrüpteerimisel.
+reviewed: false

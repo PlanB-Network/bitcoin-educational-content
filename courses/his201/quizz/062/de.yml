@@ -1,0 +1,13 @@
+Frage: Was beinhaltet die Schätzung der Hashrate eines Kooperationsmitglieds durch teilweisen Proof of Work?
+
+Antwort: Das Abrufen von Arbeitsnachweisen mit einem geringeren Grad als die Netzwerkschwierigkeit, die vom Hasher produziert wurden.
+
+Falsche Antworten:
+  - Das Abrufen des Abdrucks eines Stempels, einschließlich des ersten Bytes jedes Blockhashs, der vom Hasher produziert wurde
+  - Das Abrufen der Stromrechnung des Hashers jeden Monat
+  - Das Abrufen von Arbeitsnachweisen, die in einem Netzwerk mit geringerer Schwierigkeit produziert wurden, wie BitDNS
+
+Erklärung:
+Diese einfache Methode wurde von ribuck, Nils Schneider und Gavin Andresen [im Forum](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951) am 14. Oktober 2010 vorgeschlagen. 
+
+Überprüft: false

@@ -1,0 +1,9 @@
+question: Who did Satoshi hand over the software development responsibilities to when he left?
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation: |
+  Gavin had previously [stated](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651) that he would "manage the Bitcoin project more actively" and had opened the GitHub repository in December 2010.
+reviewed: false

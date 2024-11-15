@@ -1,9 +1,7 @@
-question: Qual è un'opzione aggiuntiva per migliorare la sicurezza di un portafoglio Bitcoin?
-answer: Aggiungere una passphrase.
-wrong_answers:
-  - Aggiungere una seconda frase mnemonica.
-  - Aggiungere una firma digitale.
-  - Aggiungere una cronologia delle transazioni.
-explanation: |
-  Aggiungere una passphrase è un'opzione aggiuntiva per migliorare la sicurezza del portafoglio Bitcoin.
-reviewed: false
+domanda: Vero o Falso? "Se si desidera ottimizzare la propria privacy, non si dovrebbe riutilizzare lo stesso indirizzo più volte."
+risposta: Vero.
+risposte_errate:
+  - Falso.
+spiegazione: |
+  Riutilizzare lo stesso indirizzo indebolisce la privacy esponendo i collegamenti tra diverse transazioni sulla blockchain.
+revisionato: false

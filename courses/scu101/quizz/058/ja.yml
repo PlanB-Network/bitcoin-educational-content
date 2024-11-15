@@ -1,8 +1,0 @@
-question: サイバーセキュリティで使用されるツールにはどのようなものがありますか？
-answer: Wireshark, Metasploit, Nmap
-wrong_answers:
-  - Photoshop, Illustrator, InDesign
-  - Excel, PowerPoint, Word
-  - AutoCAD, SolidWorks, Revit
-explanation: |
-  この章では、サイバーセキュリティで使用されるツールとしてWireshark、Metasploit、Nmapを挙げています。

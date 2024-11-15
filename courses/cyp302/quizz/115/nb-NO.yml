@@ -1,0 +1,8 @@
+question: Hva betyr begrepet "diffusjon" i sammenheng med AES-kryptering?
+answer: En endring i klarteksten resulterer i en betydelig endring i kryptert tekst
+wrong_answers:
+  - Kryptert tekst er alltid samme lengde
+  - Nøkkelbytene er jevnt fordelt
+  - Sensitiv informasjon er omkodet i hver blokk av kryptert tekst
+explanation: |
+  Diffusjon betyr at en liten endring i klarteksten resulterer i en betydelig endring i kryptert tekst, noe som gjør det vanskelig for en angriper å utlede klarteksten.

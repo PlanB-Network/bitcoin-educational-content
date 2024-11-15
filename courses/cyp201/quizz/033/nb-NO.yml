@@ -1,0 +1,8 @@
+question: I hvilken BIP foreslås ideen om gjenopprettingsfrase, eller mnemonic frase (12/24 ord)?
+answer: BIP39.
+wrong_answers:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+explanation: |
+  BIP39 introduserte den 24-ords mnemonic gjenopprettingsfrasen, for å lette sikkerhetskopieringen av nøkler for brukere av HD-lommebøker.

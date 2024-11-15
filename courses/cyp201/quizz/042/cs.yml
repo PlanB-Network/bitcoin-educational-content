@@ -1,9 +1,9 @@
-question: Jaký je účel digitálního podpisu v kontextu Bitcoin transakcí?
-answer: Prokázat, že jste držitelem soukromého klíče, aniž byste jej odhalili.
-wrong_answers:
-  - Zašifrovat data transakce.
-  - Uložit data transakce.
-  - Přenést data transakce.
-explanation: |
-  V kontextu Bitcoin transakcí se digitální podpis používá k prokázání, že jste držitelem soukromého klíče, aniž byste jej odhalili. Toho je dosaženo použitím algoritmu ECDSA.
-reviewed: false
+otázka: Pokud vygeneruji 256bitové náhodné číslo, jaká bude velikost mé obnovovací fráze ve slovech?
+odpověď: 24 slov.
+nesprávné_odpovědi:
+  - 6 slov.
+  - 8 slov.
+  - 12 slov.
+vysvětlení: |
+  256bitové náhodné číslo odpovídá 24slovní mnemonické frázi podle standardu BIP39.
+recenzováno: false

@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito del factor de aleatoriedad en el proceso de enrutamiento de la Red Lightning?
-answer: Para evitar utilizar siempre las mismas rutas.
-wrong_answers:
-  - Para aumentar la complejidad de la red.
-  - Para disminuir la velocidad de las transacciones.
-  - Para comprometer la privacidad del usuario.
-explanation: |
-  El factor de aleatoriedad en el proceso de enrutamiento de la Red Lightning se utiliza para evitar utilizar siempre las mismas rutas. Esto ayuda a distribuir la carga en toda la red y aumentar las posibilidades de encontrar una ruta exitosa para una transacción.
-reviewed: false

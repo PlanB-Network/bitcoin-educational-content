@@ -1,0 +1,8 @@
+pertanyaan: Apa yang dibuktikan oleh tanda tangan digital dalam sistem Bitcoin melalui scriptSig?
+jawaban: Kepemilikan kunci privat yang terkait dengan kunci publik tertentu.
+jawaban_salah:
+  - Kepemilikan sebuah alamat Bitcoin.
+  - Kemampuan untuk menambang blok Bitcoin.
+  - Keabsahan sebuah transaksi Bitcoin.
+penjelasan: |
+  Tanda tangan digital membuktikan bahwa pengguna memiliki kunci privat tanpa harus mengungkapkannya, memastikan keaslian transaksi.

@@ -1,0 +1,15 @@
+pertanyaan: Apa risiko potensial dari sentralisasi produksi perangkat keras penambangan di China?
+jawaban: Penolakan untuk mengekspor mesin penambangan atau akumulasi hashrate untuk serangan 51% potensial.
+jawaban_salah:
+  - China dapat memonopoli jaringan Bitcoin.
+  - China dapat mengontrol harga Bitcoin.
+  - China dapat melarang penambangan Bitcoin.
+penjelasan: |
+  Sentralisasi produksi perangkat keras penambangan di China menimbulkan risiko
+
+  bagi jaringan Bitcoin. Jika China menolak untuk mengekspor mesin penambangan atau mengakumulasi
+
+  hashrate untuk serangan 51% potensial, hal itu dapat mengancam keamanan dan desentralisasi
+
+  dari jaringan tersebut.
+ditinjau: false

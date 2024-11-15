@@ -1,0 +1,8 @@
+pregunta: ¿Qué tipo de grupo es particularmente importante para la criptografía de clave pública debido a su capacidad para generar todos los elementos mediante la exponenciación?
+respuesta: Grupos cíclicos
+respuestas_incorrectas:
+  - Grupos no abelianos
+  - Grupos infinitos
+  - Grupos de números complejos
+explicación: |
+  En criptografía, los grupos cíclicos son esenciales porque permiten la generación de todos los elementos del grupo mediante la exponenciación de un solo elemento, llamado generador.

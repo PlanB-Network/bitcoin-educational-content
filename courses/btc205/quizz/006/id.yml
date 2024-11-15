@@ -1,0 +1,14 @@
+pertanyaan: Berapa jumlah maksimum pembelian harian untuk KYC ringan di Swiss?
+jawaban: 1000 euro
+jawaban_salah:
+  - 500 euro
+  - 1500 euro
+  - 2000 euro
+penjelasan: |
+  KYC ringan di Swiss memungkinkan pembelian dan penjualan bitcoin
+
+
+  tanpa menyediakan identifikasi, selama jumlah pembelian tidak melebihi
+
+
+  1000 euro per hari.

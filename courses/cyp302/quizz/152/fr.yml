@@ -1,0 +1,9 @@
+question: Quelle est la fonction de la clé privée "d" dans le cryptosystème RSA ?
+answer: Elle permet de déchiffrer les messages en utilisant le module N
+wrong_answers:
+  - Elle est utilisée uniquement pour chiffrer les messages
+  - Elle permet de débloquer des bitcoins
+  - Elle est utilisée pour calculer φ(N)
+explanation: |
+  La clé privée "d" est utilisée pour déchiffrer les messages chiffrés, en complétant le calcul par le module N.
+reviewed: false

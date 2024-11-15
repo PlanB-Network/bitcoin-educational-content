@@ -1,0 +1,10 @@
+pertanyaan: Apa dompet yang direkomendasikan untuk seorang Hodler untuk memulai?
+jawaban: Sebuah cold wallet seperti Bitbox02, Trezor, atau Ledger.
+jawaban_salah:
+  - Sebuah aplikasi dompet hot wallet.
+  - Sebuah dompet fisik.
+  - Sebuah dompet kertas.
+penjelasan: |
+  Untuk seorang Hodler, disarankan untuk memulai dengan cold wallet seperti Bitbox02,
+  Trezor, atau Ledger. Perangkat-perangkat ini menawarkan keamanan untuk bitcoin dalam jangka panjang.
+ditinjau: false

@@ -1,0 +1,9 @@
+question: What is the title of Thomas Paine's book?
+answer: Common Sense.
+wrong_answers:
+  - The unique sense.
+  - The common good.
+  - None of the above answers is correct.
+explanation: |
+  Thomas Paine's book, titled "Common Sense" ("Le sens commun" in French), is an influential pamphlet that argued for American independence and denounced British tyranny, playing a key role in mobilizing the colonists.
+reviewed: false

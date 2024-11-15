@@ -1,0 +1,9 @@
+kysymys: Mikä on ero diskreetin satunnaismuuttujan ja jatkuvan satunnaismuuttujan välillä?
+vastaus: Diskreetillä muuttujalla on rajallinen määrä mahdollisia tuloksia, kun taas jatkuva muuttuja voi saada äärettömän määrän arvoja tietyllä välillä.
+väärät_vastaukset:
+  - Diskreetti muuttuja muuttaa arvoaan jatkuvasti, kun taas jatkuva muuttuja pysyy vakiona.
+  - Diskreetti muuttuja on spesifinen fyysisille kokeille, jatkuva muuttuja on abstrakti välillään.
+  - Diskreettejä muuttujia ei ole olemassa nykyaikaisessa kryptografiassa, käytössä ovat vain jatkuvat muuttujat.
+selitys: |
+  Diskreeteillä muuttujilla on rajallinen joukko tuloksia, kun taas jatkuvat muuttujat voivat saada minkä tahansa arvon tietyllä välillä, kuten reaaliluvut 0:n ja 1:n välillä.
+arvioitu: false

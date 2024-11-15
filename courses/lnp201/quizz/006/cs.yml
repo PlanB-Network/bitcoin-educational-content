@@ -1,9 +1,8 @@
-question: Jsou platební kanály Lightning obousměrné?
-answer: "Ano"
-wrong_answers:
-  - "Ne"
-  - Pouze v některých případech
-  - Záleží na síti Bitcoin
-explanation: |
-  Platební kanály jsou obousměrné, což znamená, že mají dvě "strany". Například, pokud Alice a Bob otevřou platební kanál, Alice může poslat Bitcoin Bobovi a Bob může poslat Bitcoin Alici.
-reviewed: false
+otázka: Co je UTXO v kontextu Bitcoinu?
+odpověď: Kus nevyužitých bitcoinů spojených se skriptem
+nesprávné_odpovědi:
+  - Plně potvrzená transakce na blockchainu
+  - Veřejný klíč, který generuje adresy Bitcoinu
+  - Částka bitcoinu rozdělená do několika částí
+vysvětlení: |
+  UTXO, neboli "Unspent Transaction Output" (nevyužitý výstup transakce), představuje určitou částku bitcoinů, kterou držitel může použít.

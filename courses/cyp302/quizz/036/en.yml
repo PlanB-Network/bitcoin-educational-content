@@ -1,0 +1,9 @@
+question: What does it mean for two numbers to be "coprime"?
+answer: Their greatest common divisor is equal to 1
+wrong_answers:
+  - Their sum is an even number
+  - They are both even
+  - They have no common divisors other than 1 and themselves
+explanation: |
+  Two numbers are coprime if their greatest common divisor is 1, meaning they do not share any prime factors, an important property in cryptography.
+reviewed: false

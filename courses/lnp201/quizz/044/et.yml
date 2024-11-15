@@ -1,0 +1,8 @@
+question: Mida teeb saatja sõlm, kui maksetee ebaõnnestub likviidsuse puudumise tõttu?
+answer: See proovib teist teed, kuni leiab toimiva
+wrong_answers:
+  - See saadab automaatselt tagasimakse taotluse saajale
+  - See sulgeb kanali ja loob uue otsese kanali
+  - See palub vahendajatel suurendada oma likviidsust
+explanation: |
+  Kui tee ebaõnnestub, proovib saatja sõlm teisi alternatiivseid teid, kuni leitakse toimiv rada või kõik võimalused on ammendatud.

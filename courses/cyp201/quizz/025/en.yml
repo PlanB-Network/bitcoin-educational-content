@@ -1,11 +1,9 @@
-question: What is the curve order (n) for the secp256k1 curve in decimal?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: What is a "Nonce" in cryptography?
+answer: A number intended to be used once.
 wrong_answers:
-  - 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 -1
-  - 2^256 - 432420386565659656852420866394968145598
-  - 2^256 - 432420386565659656852420866394968145600
+  - An even number.
+  - A digital signature.
+  - A number that can be reused.
 explanation: |
-  The curve order (n) for the secp256k1 curve is the number of points on
-  the curve, including the point at infinity. For secp256k1, n is equal to 2^256 -
-  432420386565659656852420866394968145599 in decimal.
+  A nonce is a number used once for cryptographic operations, ensuring the uniqueness of certain values in algorithms.
 reviewed: false

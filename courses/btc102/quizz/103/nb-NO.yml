@@ -1,0 +1,13 @@
+question: Hva er de vanlige misforståelsene om å lage en arveplan ifølge Pamela Morgan i "Cryptoasset Inheritance Planning"?
+answer: Jeg trenger å ansette en advokat; Jeg trenger å stole på en tredjepart; Planlegging vil gjøre mine eiendeler enkle å stjele; Verdien av min kryptovaluta er for lav til å planlegges; Mine arvinger vil finne ut av alt på egen hånd; Alt dette kan gjøres med en enkel smartkontrakt.
+wrong_answers:
+  - Jeg trenger ikke å ansette en advokat; Jeg trenger ikke å stole på en tredjepart; Planlegging vil gjøre mine eiendeler vanskelige å stjele; Verdien av min kryptovaluta er for høy til å planlegges; Mine arvinger vil ikke finne ut av alt på egen hånd; Alt dette kan ikke gjøres med en enkel smartkontrakt.
+  - Jeg trenger å ansette en advokat; Jeg trenger å stole på en tredjepart; Planlegging vil gjøre mine eiendeler vanskelige å stjele; Verdien av min kryptovaluta er for høy til å planlegges; Mine arvinger vil finne ut av alt på egen hånd; Alt dette kan ikke gjøres med en enkel smartkontrakt.
+  - Jeg trenger ikke å ansette en advokat; Jeg trenger ikke å stole på en tredjepart; Planlegging vil gjøre mine eiendeler enkle å stjele; Verdien av min kryptovaluta er for lav til å planlegges; Mine arvinger vil ikke finne ut av alt på egen hånd; Alt dette kan gjøres med en enkel smartkontrakt.
+explanation: |
+  De vanlige misforståelsene om å lage en arveplan, som uttalt
+  av Pamela Morgan i "Cryptoasset Inheritance Planning", er at du trenger å ansette
+  en advokat; du trenger å stole på en tredjepart; planlegging vil gjøre dine eiendeler enkle å
+  stjele; verdien av din kryptovaluta er for lav til å planlegges; dine arvinger vil
+  finne ut av alt på egen hånd; og alt dette kan gjøres med en enkel smartkontrakt.
+reviewed: false

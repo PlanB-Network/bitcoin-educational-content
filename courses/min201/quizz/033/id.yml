@@ -1,0 +1,13 @@
+pertanyaan: Apa risiko potensial dari penurunan jumlah pengguna, node, atau penambang dalam jaringan Bitcoin?
+jawaban: Hal tersebut dapat melemahkan jaringan, meningkatkan risiko sentralisasi dan kerentanan terhadap serangan.
+jawaban_salah:
+  - Hal tersebut dapat meningkatkan harga Bitcoin.
+  - Hal tersebut dapat menurunkan kecepatan transaksi.
+  - Hal tersebut dapat meningkatkan kesulitan penambangan.
+penjelasan: |
+  Penurunan jumlah pengguna, node, atau penambang dapat melemahkan
+  
+  jaringan Bitcoin. Hal ini dapat meningkatkan risiko sentralisasi dan membuat jaringan
+  
+  lebih rentan terhadap serangan.
+ditinjau: false

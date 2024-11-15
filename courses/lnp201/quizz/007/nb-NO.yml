@@ -1,0 +1,8 @@
+question: Hvorfor sammenlignes UTXOer ofte med sedler?
+answer: De må brukes opp i sin helhet
+wrong_answers:
+  - De kan brukes flere ganger til de er oppbrukt
+  - De kan kun brukes i visse spesifikke transaksjoner
+  - De representerer små faste mengder bitcoins
+explanation: |
+  Lik en seddel, må en UTXO brukes helt opp i en transaksjon, og eventuelt overskudd returneres til avsenderen som "veksel".

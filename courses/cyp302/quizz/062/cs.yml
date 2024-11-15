@@ -1,0 +1,9 @@
+otázka: Jaký typ symetrické šifrování se primárně používá pro nepřetržité komunikace, jako jsou audio nebo video streamy?
+odpověď: Streamové šifrování
+nesprávné_odpovědi:
+  - Blokové šifrování
+  - Ověřovací kód
+  - Hašování zpráv
+vysvětlení: |
+  Streamové šifrování je zvláště vhodné pro nepřetržité komunikace, protože šifruje data nepřetržitě, na rozdíl od blokového šifrování, které je dělí do bloků.
+recenzováno: false

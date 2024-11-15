@@ -1,0 +1,9 @@
+question: What happens if a key of 7 is used to encrypt the word "CAT"?
+answer: The word becomes "JHA"
+wrong_answers:
+  - The word becomes "JBA"
+  - The word becomes "JHB"
+  - The word becomes "ZHA"
+explanation: |
+  With a key of 7, each letter of the word "CAT" is shifted by 7 positions in the alphabet, which produces the encrypted word "JHA".
+reviewed: false

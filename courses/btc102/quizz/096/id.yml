@@ -1,0 +1,9 @@
+pertanyaan: Apa itu UTXO dalam konteks Bitcoin?
+jawaban: Output Transaksi yang Belum Dihabiskan
+jawaban_salah:
+  - Output Transaksi yang Tidak Teridentifikasi
+  - Output Transaksi yang Tidak Dapat Dilacak
+  - Output Transaksi yang Tidak Terverifikasi
+penjelasan: |
+  Dalam konteks Bitcoin, UTXO merupakan singkatan dari Output Transaksi yang Belum Dihabiskan.
+  Ini adalah istilah yang digunakan untuk menggambarkan output dari sebuah transaksi yang dapat dihabiskan oleh pengguna.

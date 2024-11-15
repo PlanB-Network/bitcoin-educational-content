@@ -1,0 +1,8 @@
+pertanyaan: Apa jenis struktur aljabar utama yang digunakan dalam bidang terbatas untuk kriptografi?
+jawaban: Polinomial tak tereduksi
+jawaban_salah:
+  - Matriks persegi
+  - Vektor acak
+  - Akar kubik
+penjelasan: |
+  Dalam kriptografi, bidang terbatas dengan orde 2^m sering menggunakan polinomial tak tereduksi untuk memastikan bahwa bidang tersebut terdefinisi dengan baik dan semua operasi dapat dilakukan.

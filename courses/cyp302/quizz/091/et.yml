@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus "primitiivse voošifri" ja "plokkšifri voošifri" vahel?
+answer: "Primitiivne voošifer" ei ole ehitatud plokkšifri baasil.
+wrong_answers:
+  - "Primitiivne voošifer" nõuab sõnumite täitmist.
+  - "Plokkšifri voošifer" kasutab muutuva suurusega plokke.
+  - "Plokkšifri voošifer" ei sobi suurte andmete jaoks.
+explanation: |
+  "Primitiivne voošifer", nagu Salsa20, on kavandatud sõltumatult "plokkšifrist", samas kui "plokkšifri voošifer" kasutab alusena "plokkšifrit", mis on muudetud krüpteerimisvoo tootmiseks.
+reviewed: false

@@ -1,0 +1,9 @@
+pregunta: ¿En qué proceso se basa el modelo de dinero electrónico eCash?
+respuesta: Firmas ciegas
+respuestas_incorrectas:
+  - Firmas de grupo
+  - Firmas de anillo
+  - Firmas umbral
+explicación: |
+  eCash se basa en el proceso de firmas ciegas, lo que permite a un firmante firmar algo sin ver lo que está firmando.
+revisado: false

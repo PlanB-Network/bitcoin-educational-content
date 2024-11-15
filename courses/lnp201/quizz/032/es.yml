@@ -1,9 +1,9 @@
-question: ¿Qué sucede cuando se crea una nueva transacción de compromiso?
-answer: Se decide un nuevo secreto y se crea una nueva clave de revocación, y la transacción de compromiso anterior debe ser destruida al proporcionar el secreto de revocación.
-wrong_answers:
-  - La transacción de compromiso anterior se guarda como respaldo.
-  - Se crea un nuevo bloqueo temporal y se actualiza la transacción de compromiso anterior.
-  - Se actualiza la transacción de compromiso anterior con el nuevo secreto y la clave de revocación.
-explanation: |
-  Cuando se crea una nueva transacción de compromiso, se decide un nuevo secreto y una nueva clave de revocación. La transacción de compromiso anterior debe ser destruida al proporcionar el secreto de revocación para evitar que alguna de las partes haga trampa publicando un estado antiguo.
-reviewed: false
+pregunta: ¿Cuál es el papel de las tarifas de enrutamiento en la Red Lightning?
+respuesta: Incentivar a los nodos intermediarios a proporcionar su liquidez para la transferencia de pagos
+respuestas_incorrectas:
+  - Limitar el número de transacciones en la red
+  - Asegurar que cada canal tenga fondos suficientes
+  - Calcular automáticamente el camino más corto
+explicación: |
+  Las tarifas de enrutamiento se utilizan para compensar a los nodos intermediarios que retransmiten pagos ofreciendo su liquidez para habilitar la transferencia de fondos a través de la red.
+revisado: false

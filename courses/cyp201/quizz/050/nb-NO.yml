@@ -1,0 +1,8 @@
+question: Hvis BIP39 følges, hva er størrelsen på en HD-lommeboks sitt frø?
+answer: 512 bits.
+wrong_answers:
+  - 32 bytes.
+  - 1024 bits.
+  - 512 bytes.
+explanation: |
+  Ifølge BIP39 er frøet til en HD-lommebok 512 bits, avledet fra den mnemoniske frasen og passfrasen.

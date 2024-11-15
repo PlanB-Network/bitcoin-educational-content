@@ -1,9 +1,9 @@
-question: Quelle est la différence entre une phrase de passe et une phrase mnémonique dans un portefeuille Bitcoin ?
-answer: La phrase de passe est libre et peut atteindre une taille presque infinie, tandis que la phrase mnémonique est standardisée et doit respecter certaines contraintes de taille, de somme de contrôle et de codage.
+question: Quelle est l'étape finale pour créer une adresse Bitcoin en Bech32 ?
+answer: Ajouter le HRP "bc" et un séparateur "1".
 wrong_answers:
-  - La phrase de passe est standardisée, tandis que la phrase mnémonique est libre et peut atteindre une taille presque infinie.
-  - La phrase de passe et la phrase mnémonique sont identiques.
-  - La phrase de passe est facultative, tandis que la phrase mnémonique est obligatoire.
+  - Ajouter la version de SegWit au début.
+  - Ajouter la checksum au début de l'adresse.
+  - Ajouter un préfixe "1".
 explanation: |
-  Pour dériver les clés d'un portefeuille HD, la phrase mnémonique et la phrase de passe sont nécessaires. La phrase de passe est libre et peut atteindre une taille presque infinie. Elle n'est pas incluse dans la phrase mnémonique, qui est standardisée et doit respecter certaines contraintes de taille, de somme de contrôle et de codage.
+  L'étape finale de la construction d'une adresse Bech32 consiste à ajouter le HRP (Human Readable Part), "bc" pour Bitcoin, suivi d'un séparateur "1".
 reviewed: false

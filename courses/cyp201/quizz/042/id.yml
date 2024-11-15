@@ -1,0 +1,9 @@
+pertanyaan: Jika saya menghasilkan angka acak 256-bit, berapa ukuran frasa pemulihan saya dalam kata-kata?
+jawaban: 24 kata.
+jawaban_salah:
+  - 6 kata.
+  - 8 kata.
+  - 12 kata.
+penjelasan: |
+  Angka acak 256-bit sesuai dengan frasa mnemonik 24 kata menurut standar BIP39.
+ditinjau: false

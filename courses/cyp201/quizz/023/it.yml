@@ -1,9 +1,9 @@
-question: Cosa significa HMAC?
-answer: Codice di Autenticazione dei Messaggi basato su Hash
-wrong_answers:
-  - Codice di Autenticazione Principale Gerarchico
-  - Codice di Autenticazione Principale Hashato
-  - Codice di Autenticazione dei Messaggi Gerarchico
-explanation: |
-  HMAC sta per Codice di Autenticazione dei Messaggi basato su Hash. È un tipo di codice di autenticazione dei messaggi (MAC) che coinvolge una funzione hash crittografica e una chiave crittografica segreta.
-reviewed: false
+domanda: Qual è la dimensione di una chiave pubblica Bitcoin non compressa, inclusa la sua prefisso?
+risposta: 520 bit.
+risposte_errate:
+  - 512 byte.
+  - 256 bit.
+  - 512 bit.
+spiegazione: |
+  Una chiave pubblica Bitcoin non compressa con il suo prefisso è di 520 bit, comprendendo le coordinate x e y del punto sulla curva ellittica.
+revisionato: false

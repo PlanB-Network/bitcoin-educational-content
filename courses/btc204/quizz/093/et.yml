@@ -1,0 +1,11 @@
+question: Mis on tehingu "Tx0" peamine roll Whirlpoolis?
+
+answer: UTXO-de võrdsustamine.
+
+wrong_answers:
+  - Esimese segamise teostamine.
+  - UTXO-de eemaldamine basseinist.
+  - Segatud UTXO-de kulutamine.
+
+explanation: |
+  Tx0 eesmärk on ette valmistada ja võrdsustada UTXO-d coinjoini jaoks, jagades need üksusteks, mis vastavad valitud basseini summale, et tagada segamise homogeensus.

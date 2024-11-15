@@ -1,0 +1,9 @@
+otázka: Jaký typ skupiny je zvláště důležitý pro veřejný klíčovou kryptografii díky své schopnosti generovat všechny prvky exponentiací?
+odpověď: Cyklické skupiny
+špatné_odpovědi:
+  - Neabelovské skupiny
+  - Neomezené skupiny
+  - Skupiny komplexních čísel
+vysvětlení: |
+  V kryptografii jsou cyklické skupiny nezbytné, protože umožňují generování všech prvků skupiny použitím exponentiace jediného prvku, nazývaného generátor.
+recenzováno: false

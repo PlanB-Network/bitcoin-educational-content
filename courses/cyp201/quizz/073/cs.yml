@@ -1,9 +1,7 @@
-question: Jakou další možností je zvýšení bezpečnosti Bitcoin peněženky?
-answer: Přidání heslové fráze.
-wrong_answers:
-  - Přidání druhé mnemonické fráze.
-  - Přidání digitálního podpisu.
-  - Přidání historie transakcí.
-explanation: |
-  Přidání heslové fráze je další možností, jak zvýšit bezpečnost Bitcoin peněženky.
-reviewed: false
+otázka: Pravda nebo nepravda? "Pokud si někdo přeje optimalizovat své soukromí, neměl by vícekrát používat stejnou adresu."
+odpověď: Pravda.
+nesprávné_odpovědi:
+  - Nepravda.
+vysvětlení: |
+  Opakované používání stejné adresy oslabuje soukromí tím, že odhaluje vazby mezi různými transakcemi na blockchainu.
+recenzováno: false

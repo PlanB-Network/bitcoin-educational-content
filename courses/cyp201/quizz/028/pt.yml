@@ -1,9 +1,9 @@
-question: O que são UTXOs no contexto do Bitcoin?
-answer: Unspent Transaction Outputs (Saídas de Transações Não Gastas)
-wrong_answers:
-  - Saídas de Transações Não Rastreáveis
-  - Saídas de Transações Não Verificadas
-  - Saídas de Transações Não Confirmadas
-explanation: |
-  UTXOs, ou "Unspent Transaction Outputs" (Saídas de Transações Não Gastas), representam as saídas de transações não gastas pertencentes a um usuário. Para gastar esses bitcoins, é necessário demonstrar a propriedade da chave privada correspondente à chave pública vinculada a cada UTXO.
-reviewed: false
+pergunta: Por que é impossível recuperar a chave privada a partir de uma assinatura digital válida?
+resposta: A assinatura é baseada em operações matemáticas irreversíveis em uma curva elíptica.
+respostas_erradas:
+  - A chave privada é criptografada antes de ser usada.
+  - A semente protege a chave privada.
+  - A hashagem de mensagens impede que a chave privada seja recuperada.
+explicação: |
+  Operações em curvas elípticas são irreversíveis, garantindo que a chave privada não possa ser deduzida a partir da assinatura.
+revisado: false

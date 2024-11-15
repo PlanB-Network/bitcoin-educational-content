@@ -1,0 +1,10 @@
+spørsmål: Hvilket av følgende er IKKE en av de tre essensielle funksjonene til penger?
+svar: Kilde til Energi
+feil_svar:
+  - Verdioppbevaring
+  - Byttemiddel
+  - Regnskapsenhet
+forklaring: |
+  De tre essensielle funksjonene til penger er verdioppbevaring, byttemiddel, 
+  og regnskapsenhet. En kilde til energi er ikke en funksjon av penger.
+gjennomgått: true

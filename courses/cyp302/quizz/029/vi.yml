@@ -1,0 +1,9 @@
+câu hỏi: Phép toán XOR có ý nghĩa gì khi được áp dụng giữa hai bit?
+câu trả lời: Nó trả về 1 nếu hai bit khác nhau, ngược lại nó trả về 0
+câu trả lời sai:
+  - Nó chỉ trả về 1 nếu cả hai bit đều là 1
+  - Nó cộng hai bit và trả về tổng
+  - Nó luôn trả về 0 bất kể kết quả
+giải thích: |
+  Phép toán XOR (hoặc "hoặc độc quyền") tạo ra 1 nếu hai bit khác nhau (0 và 1 hoặc 1 và 0) và 0 nếu chúng giống nhau.
+đã xem xét: false

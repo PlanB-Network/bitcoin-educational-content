@@ -1,0 +1,8 @@
+kysymys: Miten purkaminen toimii siirtosalauksessa?
+vastaus: Vähentämällä avain jokaisesta salatusta kirjaimesta ja soveltamalla modulo 26
+vaarat_vastaukset:
+  - Vähentämällä avain jokaisesta salatusta kirjaimesta ja soveltamalla modulo 20
+  - Kertomalla avain jokaisen salatun kirjaimen kanssa
+  - Jakamalla avain jokaisesta salatusta kirjaimesta ja soveltamalla modulo 27
+selitys: |
+  Siirtosalauksessa purkaminen suoritetaan vähentämällä avain jokaisesta salatusta kirjaimesta, sitten soveltamalla modulo 26 palataksesi alkuperäiseen tekstiin. Modulo 26 mahdollistaa paluun aakkosten alkuun kirjaimen "Z" jälkeen.

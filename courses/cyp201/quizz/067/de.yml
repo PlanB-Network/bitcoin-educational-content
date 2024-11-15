@@ -1,9 +1,9 @@
-question: Wie wird die Größe der Prüfsumme bei der Erzeugung einer mnemonischen Phrase für eine Bitcoin-Wallet bestimmt?
-answer: Indem die Größe der Entropie durch 32 geteilt wird.
-wrong_answers:
-  - Indem die Größe der Entropie mit 32 multipliziert wird.
-  - Indem 32 zur Größe der Entropie hinzugefügt wird.
-  - Indem 32 von der Größe der Entropie abgezogen wird.
-explanation: |
-  Die Größe der Prüfsumme wird bestimmt, indem die Größe der Entropie durch 32 geteilt wird. Zum Beispiel erzeugt eine 256-Bit-Entropie eine 8-Bit-Prüfsumme.
-reviewed: false
+Frage: Was zeigt der folgende Ableitungspfad an? m/84'/0'/1'/0/7
+Antwort: Eine externe SegwitV0-Adresse im Hauptnetz.
+falsche_Antworten:
+  - Eine externe SegwitV1-Adresse im Hauptnetz.
+  - Eine interne Legacy-Adresse im Testnetz.
+  - Eine externe Legacy-Adresse im Hauptnetz.
+Erklärung: |
+  Der Ableitungspfad m/84'/0'/1'/0/7 zeigt eine externe SegwitV0-Adresse im Hauptnetzwerk (mainnet) an. 84' = SegWit v0, 0' = Hauptnetz, 1 = extern
+überprüft: false

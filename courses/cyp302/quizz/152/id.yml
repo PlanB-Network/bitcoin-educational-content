@@ -1,0 +1,8 @@
+pertanyaan: Apa fungsi dari kunci privat "d" dalam sistem kriptografi RSA?
+jawaban: Digunakan untuk mendekripsi pesan menggunakan modulus N
+jawaban_salah:
+  - Hanya digunakan untuk mengenkripsi pesan
+  - Digunakan untuk membuka bitcoin
+  - Digunakan untuk menghitung φ(N)
+penjelasan: |
+  Kunci privat "d" digunakan untuk mendekripsi pesan yang telah dienkripsi, dengan menyelesaikan perhitungan menggunakan modulus N.

@@ -1,9 +1,0 @@
-question: Lợi ích của việc sử dụng VPN khi duyệt internet tại nhà là gì?
-answer: Nó tăng cường bảo mật cho dữ liệu trao đổi trực tuyến.
-wrong_answers:
-  - Nó tăng tốc độ internet.
-  - Nó cho phép truy cập vào nhiều website hơn.
-  - Nó tiết kiệm dữ liệu di động.
-explanation: |
-  Sử dụng VPN tại nhà có thể tăng cường bảo mật cho dữ liệu bạn trao đổi trực tuyến. Điều này là do VPN mã hóa dữ liệu, làm cho việc bên thứ ba can thiệp trở nên khó khăn hơn.
-reviewed: false

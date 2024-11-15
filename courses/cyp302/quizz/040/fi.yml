@@ -1,0 +1,9 @@
+kysymys: Mikä perusehto joukon "S" on täytettävä binäärioperaation kanssa, jotta se muodostaisi ryhmän?
+vastaus: Sulkeutumisehto
+väärät_vastaukset:
+  - Vaihdannaisuusehto
+  - Symmetriaehto
+  - Jakautuvuusehto
+selitys: |
+  Joukon "S" binäärioperaation on täytettävä useita ehtoja muodostaakseen ryhmän, ja ensimmäinen niistä on sulkeutumisehto: kahden "S"-joukon elementin välisen operaation on tuotettava "S"-joukon elementti.
+arvioitu: false

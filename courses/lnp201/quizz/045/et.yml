@@ -1,0 +1,9 @@
+question: Mida võimaldab kasutajatel teha "LNURL-withdraw" funktsioon?
+answer: Vahendite väljavõtmine teenusest QR-koodi skaneerides
+wrong_answers:
+  - Teha otsemakseid ilma suunamistasudeta
+  - Ühendada oma Lightning rahakott ilma paroolita
+  - Saata vahendeid ilma saaja kinnitamata
+explanation: |
+  LNURL-withdraw võimaldab kasutajatel vahendeid teenusest välja võtta QR-koodi skaneerides, lihtsustades seeläbi väljavõtmise protsessi.
+reviewed: false

@@ -1,0 +1,9 @@
+otázka: Který krok není zahrnut v důkazu bezpečnosti moderního kryptografického schématu?
+odpověď: Nastavení uživatelského rozhraní
+špatné_odpovědi:
+  - Formulace bezpečnostních definic
+  - Matematické předpoklady složitosti
+  - Matematické dokázání bezpečnosti
+vysvětlení: |
+  Důkaz bezpečnosti v moderní kryptografii se zaměřuje na cíle a matematické předpoklady, vylučuje aspekty jako je uživatelské rozhraní, které není relevantní pro kryptografickou bezpečnost.
+recenzováno: false

@@ -1,0 +1,9 @@
+question: Mis on Frédéric Bastiati kriitika sotsialistliku demokraatia suhtes?
+answer: Bastiat kritiseerib sotsialistlikku demokraatiat, kuna see viib suurenenud maksude, riigivõla ja röövimiseni.
+wrong_answers:
+  - Bastiat kritiseerib sotsialistlikku demokraatiat, kuna see ei austata vabaduse ja võrdsuse põhimõtteid.
+  - Bastiat kritiseerib sotsialistlikku demokraatiat, kuna see viib stagnatsioonini.
+  - Bastiat kritiseerib sotsialistlikku demokraatiat, kuna see ohustab perekonna ja religiooni traditsioonilisi väärtusi.
+explanation: |
+  Frédéric Bastiat näeb sotsialistlikus demokraatias kalduvust kasutada riiki vara ümberjaotamiseks maksude ja võla kaudu, mida ta peab individuaalse omandi "seaduslikuks röövimiseks".
+reviewed: false

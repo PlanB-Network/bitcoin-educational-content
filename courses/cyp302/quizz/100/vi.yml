@@ -1,0 +1,9 @@
+Câu hỏi: Vai trò của "nonce" trong một hệ thống mã hóa có xác thực là gì?
+Câu trả lời: Đảm bảo mỗi tin nhắn có một thẻ duy nhất để ngăn chặn sự lặp lại
+Câu trả lời sai:
+  - Xác định người gửi tin nhắn
+  - Tạo một khóa giải mã tạm thời
+  - Thêm một lớp mã hóa bổ sung
+Giải thích: |
+  Trong một hệ thống mã hóa có xác thực, "nonce" được sử dụng để đảm bảo rằng mỗi tin nhắn có một thẻ duy nhất, từ đó tăng cường bảo mật bằng cách ngăn chặn sự lặp lại.
+Đã xem xét: false

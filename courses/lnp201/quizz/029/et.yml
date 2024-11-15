@@ -1,0 +1,9 @@
+question: Millises olukorras kasutatakse kanali sundsulgemist?
+answer: Kui üks osapooltest enam ei vasta
+wrong_answers:
+  - Kui kanali mahtu on vaja suurendada
+  - Kui ajalukk on ebapiisav
+  - Kui tehingutasud on liiga kõrged
+explanation: |
+  Sundsulgemist kasutatakse viimase abinõuna, kui üks osapooltest, näiteks tehnilise probleemi tõttu, enam teise sõnumitele ei vasta.
+reviewed: false

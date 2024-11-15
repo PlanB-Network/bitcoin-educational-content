@@ -1,0 +1,8 @@
+pertanyaan: Apa tujuan utama dari skema enkripsi terotentikasi?
+jawaban: Menjamin kerahasiaan dan keaslian komunikasi
+jawaban_salah:
+  - Menghasilkan kunci dengan cara yang aman
+  - Menggantikan MAC dalam pertukaran kriptografi
+  - Mendekripsi pesan yang disadap secara otomatis
+penjelasan: |
+  Skema enkripsi terotentikasi menggabungkan enkripsi dan kode otentikasi (MAC) untuk menjamin baik kerahasiaan pesan dan keasliannya.

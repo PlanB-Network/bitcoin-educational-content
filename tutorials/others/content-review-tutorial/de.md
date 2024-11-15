@@ -89,7 +89,7 @@ NB. Die Überprüfung wird am besten im Codefenster durchgeführt, mit dem Origi
 * Glückwunsch zu Ihrem ersten PR!
 
 ## **7. Die Überprüfung später fortsetzen**
-* Wenn Sie Ihre Überprüfung nicht abgeschlossen haben und Ihre Arbeit fortsetzen möchten, gehen Sie zu Ihrem Fork des sovereign-university Inhaltsrepositorys über Ihr GitHub-Profil.
+* Wenn Sie Ihre Überprüfung nicht abgeschlossen haben und Ihre Arbeit fortsetzen möchten, gehen Sie zu Ihrem Fork des PlanB-Network Inhaltsrepositorys über Ihr GitHub-Profil.
 * Wählen Sie den entsprechenden Branch.
 * Benennen Sie den Branch bei Bedarf um.
 * Finden Sie Ihre Inhaltsdatei und klicken Sie auf das Stift-Symbol, um die Überprüfung fortzusetzen.

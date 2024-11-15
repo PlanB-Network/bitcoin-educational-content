@@ -1,0 +1,9 @@
+question: Når fant den første utvekslingen mellom bitcoin og dollar sted?
+answer: 12. oktober 2009
+wrong_answers:
+  - 8. mai 2009
+  - 30. desember 2009
+  - 11. mars 2010
+explanation: |
+  Martti overførte 5,050 bitcoins til NLS, som deretter overførte $5.02 til hans PayPal-konto. Dette tilsvarer en enhetspris på omtrent $0.001.
+reviewed: false

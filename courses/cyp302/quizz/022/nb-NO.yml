@@ -1,0 +1,9 @@
+question: I shift-kryptering, hva blir resultatet for ordet "DOG" med en nøkkel på 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Med en forskyvning på 17 i alfabetet, blir "D" til "U", "O" blir til "F", og "G" blir til "X". Derfor er det krypterte ordet "UFX".
+reviewed: false

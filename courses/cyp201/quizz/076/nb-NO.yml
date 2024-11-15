@@ -1,0 +1,9 @@
+question: Hvordan beregnes sjekksummen til en SegWit-adresse?
+answer: Med en BCH-kode.
+wrong_answers:
+  - Med HASH160.
+  - Med HASH256.
+  - Med SHA512.
+explanation: |
+  For SegWit-adresser beregnes sjekksummen ved hjelp av BCH-koden, som muliggjør deteksjon av mulige feil i adressen.
+reviewed: false

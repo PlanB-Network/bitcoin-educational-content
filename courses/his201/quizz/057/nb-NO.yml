@@ -1,0 +1,9 @@
+question: Hvilken tysk miner hadde 20% av Bitcoin-nettverkets hash rate i flere måneder i 2010?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  Han satte opp en mining-farm bestående av grafikkort (kalt "ArtFarm") i løpet av sommeren 2010, og fikk dermed et betydelig forsprang på konkurrentene sine innen høsten.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Cos'è il ransomware?
-answer: Un tipo di software dannoso che crittografa i dati dell'utente e richiede un riscatto per decifrarli.
-wrong_answers:
-  - Un tipo di software antivirus.
-  - Un tipo di software utilizzato per il recupero dei dati.
-  - Un tipo di software utilizzato per il backup dei dati.
-explanation: |
-  Il ransomware è un tipo di software dannoso che crittografa i dati dell'utente e richiede un riscatto per decifrarli. Sta diventando sempre più comune e può essere molto problematico per un'azienda o un individuo.
-reviewed: false

@@ -1,0 +1,9 @@
+otázka: Kdo vytvořil první prohlížeč bloků v listopadu 2010?
+odpověď: Michael Marquardt (Theymos)
+nesprávné_odpovědi:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+vysvětlení: |
+  Tento "Bitcoin Block Explorer" umožňoval uživatelům prohlížet detailní informace o blocích, adresách a transakcích prostřednictvím webového prohlížeče.
+recenzováno: false

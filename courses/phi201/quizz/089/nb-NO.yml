@@ -1,0 +1,9 @@
+question: Hva innebærer "det strenge skillet mellom offentlig sfære og privat sfære" som Constant forfektet?
+answer: Dette skillet innebærer at Staten ikke skal blande seg inn i individenes private liv.
+wrong_answers:
+  - Dette skillet innebærer at individer ikke skal engasjere seg i offentlige saker.
+  - Dette skillet innebærer en total separasjon mellom Kirken og Staten.
+  - Dette skillet innebærer at individer må ha de samme frihetene i både den offentlige og private sfæren.
+explanation: |
+  For Benjamin Constant betyr et strengt skille mellom den offentlige og private sfæren at Staten må respektere individets privatliv og unngå enhver intervensjon i personlige valg som ikke angår det offentlige domenet.
+reviewed: false

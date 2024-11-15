@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es la principal diferencia entre un "cifrado de flujo primitivo" y un "cifrado de flujo de cifrado de bloque"?
+respuesta: Un "cifrado de flujo primitivo" no está construido a partir de un cifrado de bloque.
+respuestas_incorrectas:
+  - Un "cifrado de flujo primitivo" requiere el relleno de mensajes.
+  - Un "cifrado de flujo de cifrado de bloque" utiliza bloques de tamaño variable.
+  - Un "cifrado de flujo de cifrado de bloque" no puede ser utilizado para datos grandes.
+explicación: |
+  Un "cifrado de flujo primitivo", como Salsa20, está diseñado independientemente de un "cifrado de bloque", mientras que un "cifrado de flujo de cifrado de bloque" utiliza un "cifrado de bloque" como su base, modificado para producir un flujo de cifrado.
+revisado: false

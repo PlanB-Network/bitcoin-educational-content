@@ -1,0 +1,13 @@
+pergunta: Como o transporte P2P V2 melhora a privacidade e a segurança das comunicações entre nós?
+
+resposta: Integrando criptografia oportunista
+
+respostas_incorretas:
+  - Integrando autenticação
+  - Usando relays adicionais
+  - Usando Tor
+
+explicação: |
+  O transporte P2P V2 incorpora uma camada de criptografia oportunista para aprimorar a privacidade e a segurança das comunicações entre nós.
+
+revisado: false

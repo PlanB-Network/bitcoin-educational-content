@@ -1,0 +1,9 @@
+otázka: Jaký typ útoku může sekvenční číslo zabránit v bezpečné komunikační relaci?
+odpověď: Útoky opakování a přeuspořádání
+nesprávné_odpovědi:
+  - Pasivní útoky zachycení
+  - Útoky odmítnutí služby
+  - Útoky falšování klíčů
+vysvětlení: |
+  Sekvenční číslo v každé zprávě zabrání útokům opakování a přeuspořádání, protože umožňuje ověření pořadí a jedinečnosti zpráv.
+recenzováno: false

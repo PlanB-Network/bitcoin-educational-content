@@ -1,0 +1,11 @@
+question: 为什么分析师不会在Stonewall类型交易上应用COINJOIN？
+
+answer: 因为有两个相同金额的输出
+
+wrong_answers:
+  - 因为只有两个输入
+  - 因为他们不熟悉这种模式
+  - 因为输出多于输入
+
+explanation: |
+  从外部分析Stonewall交易并不会导致应用COINJOIN，因为两个相同金额的输出表明了一个coinjoin模式。因此，从外部视角看，COINJOIN在这个特定情况下不适用。

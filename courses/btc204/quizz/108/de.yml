@@ -1,0 +1,11 @@
+Frage: Welche heuristische Analyse der Kette wird von der Payjoin-Transaktion verwendet, um als Täuschung für die Analyse zu fungieren?
+
+Antwort: Die CIOH
+
+Falsche Antworten:
+  - Adressenwiederverwendung
+  - Wallet-Fingerprinting
+  - Versionierungswiederverwendung
+
+Erklärung: |
+  Wenn ein Analyst eine Payjoin-Transaktion untersucht, wird er dazu verleitet zu glauben, dass alle Eingaben von derselben Person stammen, aufgrund der CIOH. Diese Wahrnehmung ist jedoch falsch, da der Zahlungsempfänger ebenfalls zu den Eingaben beiträgt, neben dem eigentlichen Zahler. Daher wird die Kettenanalyse in Richtung einer Interpretation abgelenkt, die sich als falsch herausstellt.

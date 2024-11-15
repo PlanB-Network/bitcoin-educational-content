@@ -1,0 +1,8 @@
+pertanyaan: Apa langkah terakhir untuk membuat alamat Bitcoin Bech32?
+jawaban: Tambahkan HRP "bc" dan pemisah "1".
+jawaban_salah:
+  - Tambahkan versi SegWit di awal.
+  - Tambahkan checksum di awal alamat.
+  - Tambahkan awalan "1".
+penjelasan: |
+  Langkah terakhir dalam membuat alamat Bech32 adalah menambahkan HRP (Human Readable Part), "bc" untuk Bitcoin, diikuti oleh pemisah "1".

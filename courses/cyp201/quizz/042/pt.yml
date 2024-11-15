@@ -1,9 +1,8 @@
-question: Qual é o objetivo de uma assinatura digital no contexto das transações de Bitcoin?
-answer: Provar que você é o detentor de uma chave privada sem revelá-la.
-wrong_answers:
-  - Criptografar os dados da transação.
-  - Armazenar os dados da transação.
-  - Transmitir os dados da transação.
-explanation: |
-  No contexto das transações de Bitcoin, uma assinatura digital é usada para provar que você é o detentor de uma chave privada sem revelá-la. Isso é alcançado usando o algoritmo ECDSA.
-reviewed: false
+pergunta: Se eu gerar um número aleatório de 256 bits, qual será o tamanho da minha frase de recuperação em palavras?
+resposta: 24 palavras.
+respostas_incorretas:
+  - 6 palavras.
+  - 8 palavras.
+  - 12 palavras.
+explicação: |
+  Um número aleatório de 256 bits corresponde a uma frase mnemônica de 24 palavras de acordo com o padrão BIP39.

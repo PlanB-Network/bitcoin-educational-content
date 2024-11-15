@@ -1,0 +1,10 @@
+question: Mis on HodlHodl P2P lahenduse puuduseks?
+answer: Kasutaja e-posti aadress ja digitaalne identiteet salvestatakse HodlHodli poolt.
+wrong_answers:
+  - See ei hõlbusta Bitcoini ostmist ja müümist.
+  - Selle kasutamiseks on vajalik konto loomine.
+  - See ei paku laia valikut vahetamisvõimalusi.
+explanation: |
+  Peatüki kohaselt on üheks HodlHodli puuduseks see,
+  et kasutaja e-posti aadress ja digitaalne identiteet salvestatakse HodlHodli poolt.
+reviewed: false

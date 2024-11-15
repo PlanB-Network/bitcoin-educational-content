@@ -1,0 +1,9 @@
+question: What is the vision of history proposed by Marx?
+answer: History is the result of the struggle between social classes
+wrong_answers:
+  - History is a linear progress towards a bourgeois society
+  - History is a cycle of repetition with periods of freedom followed by periods of tyranny
+  - History is determined by climatic factors
+explanation: |
+  Marx views history as the product of conflicts between social classes, asserting that the tensions between the oppressing and oppressed classes are the driving force of social and economic change throughout the ages.
+reviewed: false

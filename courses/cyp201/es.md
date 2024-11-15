@@ -95,7 +95,7 @@ Al final de esta exploración, hemos desmitificado las funciones hash criptográ
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
 Bienvenidos a la continuación de nuestro fascinante viaje a través de los laberintos criptográficos de la función hash. Hoy, revelamos los misterios de SHA256, un proceso complejo pero ingenioso que presentamos anteriormente.
--> 940 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
+-> 950 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
 -> P = 9
 
 Por lo tanto, se deben agregar 9 bits de relleno para que el mensaje sea igual a un múltiplo de 512.
@@ -795,6 +795,7 @@ Otro método criptográfico ampliamente utilizado en el protocolo Bitcoin es el 
 ## Examen Final
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
+
 
 ## Conclusión y final
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>

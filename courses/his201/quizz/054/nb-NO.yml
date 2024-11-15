@@ -1,0 +1,9 @@
+question: Hvilken amerikansk utvikler oppdaget en "merkelig blokk" under hendelsen med verdi-overflow den 15. august 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Denne blokken, som utnyttet en feil, skapte over 184 milliarder bitcoins.
+reviewed: false

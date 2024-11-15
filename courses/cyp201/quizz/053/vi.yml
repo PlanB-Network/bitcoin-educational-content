@@ -1,9 +1,8 @@
-question: Độ dài của khóa riêng trong ví Bitcoin là bao nhiêu?
-answer: 256 bit
-wrong_answers:
-  - 128 bit
-  - 512 bit
-  - 1024 bit
-explanation: |
-  Khóa riêng trong ví Bitcoin, là yếu tố thiết yếu cho việc sở hữu tiền mã hóa, có độ dài cố định là 256 bit.
-reviewed: false
+câu hỏi: Thông tin nào được tính toán từ seed bằng cách áp dụng HMAC-SHA512?
+câu trả lời: Khóa chính và mã chuỗi chính của ví.
+câu trả lời sai:
+  - Khóa mở rộng của ví.
+  - Xpub và xprv của ví.
+  - Mã chữ ký khóa riêng.
+giải thích: |
+  Từ seed, HMAC-SHA512 tạo ra khóa chính và mã chuỗi chính, đây là cơ sở cho việc tạo khóa.

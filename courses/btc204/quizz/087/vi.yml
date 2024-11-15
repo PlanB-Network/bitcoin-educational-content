@@ -1,0 +1,13 @@
+câu hỏi: Wabisabi quản lý sự thay đổi so với Wasabi 1.0 như thế nào?
+
+câu trả lời: Nó chia nhỏ chúng thành nhiều số lượng nhỏ được phân phối theo các mệnh giá bằng nhau.
+
+câu trả lời sai:
+  - Nó kết hợp chúng lại để ngăn chúng trở thành "bụi".
+  - Nó loại bỏ chúng trước giao dịch coinjoin bằng cách làm cho các đầu vào bằng nhau.
+  - Nó tự động chuyển chúng vào một ví dự trữ.
+
+giải thích: |
+  Khác với Wasabi 1.0, nơi mà sự thay đổi được liên kết trực tiếp với đầu vào của người dùng, Wabisabi nhằm mục đích chia nhỏ sự thay đổi thành nhiều số lượng nhỏ, được phân phối theo các mệnh giá bằng nhau cho tất cả các thành viên tham gia.
+
+đã xem xét: false

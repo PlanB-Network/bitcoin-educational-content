@@ -1,9 +1,8 @@
-question: Mikä on pisteen skalaarikertolasku n:llä elliptisellä käyrällä?
-answer: Vastaa pisteen lisäämistä itseensä n kertaa
-wrong_answers:
-  - Vastaa pisteen vähentämistä itsestään n kertaa
-  - Vastaa pisteen kertomista itsellään n kertaa
-  - Vastaa pisteen jakamista itsellään n kertaa
-explanation: |
-  Pisteen skalaarikertolasku n:llä elliptisellä käyrällä vastaa pisteen lisäämistä itseensä n kertaa. Tämä toimenpide on perustana julkisten avainten laskemiselle Bitcoin-järjestelmässä.
-reviewed: false
+kysymys: Missä BIP:ssä ehdotetaan palautuslauseen tai muistilauseen (12/24 sanaa) ideaa?
+vastaus: BIP39.
+väärät_vastaukset:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+selitys: |
+  BIP39 esitteli 24 sanan muistilauseen palautuslauseen, jotta HD-lompakoiden käyttäjien avainten varmuuskopiointi helpottuisi.

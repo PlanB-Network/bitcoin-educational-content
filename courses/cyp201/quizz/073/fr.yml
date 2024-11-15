@@ -1,9 +1,7 @@
-question: Quelle est une option supplémentaire pour renforcer la sécurité d'un portefeuille Bitcoin?
-answer: Ajouter une phrase secrète.
+question: Vrai ou Faux ? “Si l'on souhaite optimiser sa confidentialité, on ne doit pas réutiliser plusieurs fois une même adresse.”
+answer: Vrai.
 wrong_answers:
-  - Ajouter une deuxième phrase mnémonique.
-  - Ajouter une signature numérique.
-  - Ajouter un historique des transactions.
+  - Faux.
 explanation: |
-  Ajouter une phrase secrète est une option supplémentaire pour renforcer la sécurité du portefeuille Bitcoin.
+  Réutiliser la même adresse affaiblit la confidentialité en exposant les liens entre différentes transactions sur la blockchain.
 reviewed: false

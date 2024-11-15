@@ -1,0 +1,9 @@
+question: Hva er målet med den kryptografiske hasjeprosessen?
+answer: Å kartlegge en bitstreng av vilkårlig lengde til en bitstreng av fast lengde.
+wrong_answers:
+  - Kryptere en melding.
+  - Sikre at avsenderen av meldingen ikke kan nekte for å ha sendt meldingen i fremtiden.
+  - Garantere konfidensialiteten til data.
+explanation: |
+  Hasjing transformerer data av hvilken som helst størrelse til et output av fast størrelse, nyttig for å verifisere integritet uten nødvendigvis å kryptere eller autentisere dataene.
+reviewed: false

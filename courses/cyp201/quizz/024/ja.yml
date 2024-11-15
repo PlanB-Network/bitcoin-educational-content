@@ -1,9 +1,9 @@
-question: Bitcoinで使用されるsecp256k1曲線の方程式は何ですか？
-answer: "y² = x³ + 7 modulo n"
-wrong_answers:
-  - "y² = x³ + ax + b"
-  - "y² = x³ + 7 modulo p"
-  - "y² = x³ + ax + b modulo n"
-explanation: |
-  "Bitcoinで使用されるsecp256k1曲線は、パラメータa=0およびb=7によって定義され、その方程式はy² = x³ + 7 modulo nです。ここで、nは曲線の位数を決定する素数を表します。"
-reviewed: false
+質問: 楕円曲線secp256k1で使用される生成点Gの座標は何ですか？
+回答: Gx = 79BE667E... Gy = 483ADA77...
+誤った回答:
+  - Gx = FFF213AE... Gy = 1234ABC1...
+  - Gx = 5A67E812... Gy = 1B234678...
+  - Gx = A12345F9... Gy = 3B76EBC1...
+説明: |
+  生成点Gは、楕円曲線secp256k1上の事前に定義された点で、Bitcoinにおいて秘密鍵から公開鍵を生成するために使用されます。
+レビュー済み: false

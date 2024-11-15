@@ -1,0 +1,9 @@
+question: Hvilken grunnleggende betingelse må et sett "S" med en binær operasjon oppfylle for å være en gruppe?
+answer: Lukkethetsbetingelsen
+wrong_answers:
+  - Kommutativitetsbetingelsen
+  - Symmetribetingelsen
+  - Distributivitetsbetingelsen
+explanation: |
+  Et sett "S" med en binær operasjon må oppfylle flere betingelser for å danne en gruppe, og den første er lukkethetsbetingelsen: operasjonen mellom to elementer i "S" må resultere i et element av "S".
+reviewed: false

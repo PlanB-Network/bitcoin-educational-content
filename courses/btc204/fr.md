@@ -3888,6 +3888,9 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 *Pour créer ce chapitre sur les Silent Payments, j'ai utilisé [le site d'explication des Silent Payments](https://silentpayments.xyz/) et [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 
+# Conclusion
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
+
 
 ## Donnez-nous votre avis sur ce cours
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
@@ -3897,7 +3900,7 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Conclusion
+## Le mot de la fin
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
 Félicitations pour avoir terminé cette formation sur la confidentialité sur Bitcoin !

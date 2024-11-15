@@ -1,0 +1,10 @@
+pertanyaan: Apa yang diukur oleh hashrate dalam jaringan Bitcoin?
+jawaban: Perhitungan per detik
+jawaban_salah:
+  - Jumlah transaksi per detik
+  - Jumlah node aktif
+  - Jumlah listrik yang dikonsumsi oleh jaringan
+penjelasan: |
+  Hashrate dalam jaringan Bitcoin mengukur jumlah perhitungan
+  yang dapat dilakukan per detik. Ini adalah indikator kunci dari kesehatan dan keamanan
+  jaringan.

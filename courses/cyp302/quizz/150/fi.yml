@@ -1,0 +1,8 @@
+kysymys: RSA-salakirjoitusjärjestelmän kontekstissa, mihin kahden alkuluvun p ja q tulo vastaa?
+vastaus: Se muodostaa kokonaisluvun N, jota käytetään operaatioiden moduloimiseen
+väärät_vastaukset:
+  - Se muodostaa julkisen avaimen
+  - Sitä käytetään salauksen purkuavaimena
+  - Sitä käytetään vain eksponentin e generoimiseen
+selitys: |
+  RSA:ssa kokonaisluku N on kahden suuren alkuluvun p ja q tulo, ja sitä käytetään moduloimiseen salaus- ja purkuoperaatioissa.

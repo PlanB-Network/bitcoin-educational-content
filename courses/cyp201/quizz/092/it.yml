@@ -1,9 +1,0 @@
-question: Qual è la dimensione di una chiave pubblica compressa?
-answer: 33 byte
-wrong_answers:
-  - 32 byte
-  - 82 byte
-  - 512 bit
-explanation: |
-  Le chiavi pubbliche compressa hanno una dimensione di 33 byte. Mantengono le stesse informazioni delle chiavi non compresse, ma con una dimensione ridotta.
-reviewed: false

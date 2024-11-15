@@ -1,9 +1,9 @@
-question: Qual è lo scopo della seconda fase di preprocessing in SHA256?
-answer: Aggiungere la rappresentazione binaria della dimensione iniziale del messaggio, in bit
-wrong_answers:
-  - Aggiungere bit di padding all'input
-  - Separare l'input in diversi blocchi di messaggi di 512 bit
-  - Eseguire 64 round di calcolo nella funzione di compressione
-explanation: |
-  La seconda fase di preprocessing in SHA256 prevede l'aggiunta della rappresentazione binaria della dimensione iniziale del messaggio, in bit. Ciò viene fatto utilizzando i 64 bit riservati dal passaggio precedente.
-reviewed: false
+domanda: Per applicare questa curva ellittica a usi crittografici, su quale campo deve essere definita?
+risposta: Un campo finito di numeri interi positivi.
+risposte_errate:
+  - Il campo dei numeri reali.
+  - Un campo finito di numeri reali.
+  - Un campo complesso.
+spiegazione: |
+  In Bitcoin, la curva ellittica secp256k1 è definita su un campo finito di numeri interi positivi modulo un numero primo per evitare approssimazioni e garantire la sicurezza.
+recensito: false

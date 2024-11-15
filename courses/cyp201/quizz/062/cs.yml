@@ -1,11 +1,9 @@
-question: Jaké je hlavní riziko spojené s generováním vlastní mnemonické fráze pomocí kostek pro transakce s Bitcoinem?
-answer: Může představovat určitá rizika.
-wrong_answers:
-  - Může vést k generování předvídatelných čísel.
-  - Může vést k generování duplicitních čísel.
-  - Může vést k generování neplatných čísel.
-explanation: |
-  Generování vlastní mnemonické fráze pomocí kostek může představovat určitá rizika.
-  Doporučuje se proto použít náhodně generovanou heslovou frázi k minimalizaci těchto
-  rizik.
-reviewed: false
+otázka: Pro odvození normálního páru dětských klíčů musím zadat do funkce HMAC-SHA512...
+odpověď: rodičovský veřejný klíč || index, rodičovský řetězový kód.
+špatné_odpovědi:
+  - rodičovský soukromý klíč || index, rodičovský řetězový kód.
+  - rodičovský soukromý klíč, rodičovský řetězový kód.
+  - rodičovský soukromý klíč || index.
+vysvětlení: |
+  Pro odvození normálního dětského klíče se používá rodičovský veřejný klíč spolu s indexem a řetězovým kódem ve funkci HMAC-SHA512.
+recenzováno: false

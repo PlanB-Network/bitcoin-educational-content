@@ -1,9 +1,9 @@
-question: Qual è il nome volgare talvolta usato per riferirsi alla raccolta di chiavi private in un portafoglio Bitcoin?
-answer: Just a Bunch Of Keys (JBOC)
-wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
-explanation: |
-  La raccolta di chiavi crittografiche private derivate da una singola chiave maestra in un portafoglio Bitcoin viene talvolta indicata con il nome leggermente volgare di "Just a Bunch Of Keys" (JBOC).
-reviewed: false
+domanda: Di cosa è composto il payload di una chiave estesa?
+risposta: Una chiave pubblica o privata e il codice catena associato.
+risposte_errate:
+  - Una chiave privata e la relativa chiave pubblica.
+  - Un codice catena, una chiave pubblica e una chiave privata.
+  - Una chiave privata e un indice di derivazione.
+spiegazione: |
+  Il payload di una chiave estesa include una chiave pubblica o privata, insieme a un codice catena utilizzato per derivare chiavi figlie.
+recensito: false

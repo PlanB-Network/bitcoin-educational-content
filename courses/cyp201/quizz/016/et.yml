@@ -1,0 +1,9 @@
+question: Selleks, et rakendada seda elliptilist kõverat krüptograafilistel eesmärkidel, millisele väljale peame selle defineerima?
+answer: Lõplik väli positiivsetest täisarvudest.
+wrong_answers:
+  - Reaalarvude väli.
+  - Lõplik väli reaalarvudest.
+  - Kompleksarvude väli.
+explanation: |
+  Bitcoinis on elliptiline kõver secp256k1 defineeritud lõplikul väljal positiivsetest täisarvudest modulo algarv, et vältida ligikaudseid väärtusi ja tagada turvalisus.
+reviewed: false

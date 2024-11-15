@@ -1,0 +1,9 @@
+pertanyaan: Apa nama kurva elips yang digunakan untuk algoritma tanda tangan digital dalam Bitcoin?
+jawaban: secp256k1.
+jawaban_salah:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+penjelasan: |
+  Kurva secp256k1 digunakan dalam protokol Bitcoin untuk tanda tangan digital.
+ditinjau: false

@@ -1,0 +1,9 @@
+question: Millised on krüptograafiliselt turvalise PRNG omadused?
+answer: See peab olema ettearvamatu, statistiliselt juhuslik ja rünnakutele vastupidav.
+wrong_answers:
+  - See peab olema kiire, pilves kasutatav ja avatud lähtekoodiga.
+  - See peab olema mitteterministlik, põhinema füüsikalisel nähtusel ja olema skaleeritav.
+  - See peab olema riistvarapõhine, genereeritud protsessori poolt ja pööratav.
+explanation: |
+  Krüptograafiliselt turvaline PRNG peab olema ettearvamatu, vastupidav isegi kui mõned tulemused on avalikustatud, ja omama piisavalt pikka perioodi, et vältida jadade kordumist.
+reviewed: false

@@ -1,0 +1,9 @@
+câu hỏi: Vấn đề bảo mật nào phát sinh nếu cùng một thông điệp được mã hóa nhiều lần trong hệ thống mã hóa RSA đơn giản?
+câu trả lời: Thông điệp sẽ luôn tạo ra cùng một kết quả mã hóa
+câu trả lời sai:
+  - Thông điệp sẽ dễ bị tấn công bằng phương pháp brute force
+  - Thông điệp sẽ được đảo ngược
+  - Thông điệp sẽ trở nên không thể giải mã
+giải thích: |
+  Trong RSA đơn giản, mã hóa một thông điệp nhiều lần sẽ luôn tạo ra cùng một kết quả, làm cho việc mã hóa dễ bị tấn công.
+đã xem xét: false

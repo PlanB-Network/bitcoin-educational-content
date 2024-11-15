@@ -1,0 +1,9 @@
+question: Hva er betegnelsen for nødpengene som ble brukt i Tyskland under den økonomiske krisen?
+answer: Notgeld
+wrong_answers:
+  - Reichsmark
+  - Euro
+  - Deutsche Mark
+explanation: |
+  Under den økonomiske krisen i Tyskland ble "Notgeld" (nødpenger) brukt for å adressere en mangel på vanlig valuta.
+reviewed: false

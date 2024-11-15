@@ -1,0 +1,9 @@
+question: Mis on füsiokraatide moto?
+answer: Laissez-faire, laissez passer.
+wrong_answers:
+  - "Riik on korraga pankur, kaupmees ja tarnija."
+  - "Prantsusmaa võib rikkaks saada ainult Inglismaa ja Hollandi hävingu kaudu."
+  - "Poliiitiline ökonoomia, nagu Dupont de Nemours kokku võtab, on tsiviliseeritud ühiskondadele rakendatud loodusseaduste teadus."
+explanation: |
+  Füsiokraatide moto "Laissez-faire, laissez passer" väljendab nende uskumust, et majandus õitseb siis, kui see on vaba riigi sekkumistest, lubades turu loodusjõududel vabalt tasakaalustuda.
+reviewed: false

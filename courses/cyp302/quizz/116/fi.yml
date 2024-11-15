@@ -1,0 +1,9 @@
+kysymys: Mikä on "shift rows" -toiminnon tarkoitus AES:ssä?
+vastaus: Lisätä diffuusiota järjestelemällä tavut uudelleen tilataulukossa
+vaarat_vastaukset:
+  - Varmistaa, että jokainen lohko on saman pituinen
+  - Soveltaa salaisen avaimen jokaiseen tilataulukon riviin
+  - Lisätä lisää sekaannusta korvaamalla tavuja
+selitys: |
+  "Shift rows" -toiminto AES:ssä järjestelee tavut uudelleen tilataulukossa levittääkseen tiedon, mikä lisää diffuusiota.
+arvioitu: false

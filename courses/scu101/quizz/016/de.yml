@@ -1,9 +1,0 @@
-question: Was ist ein Vorteil der Verwendung eines VPNs zum Surfen im Internet zu Hause?
-answer: Es erhöht die Sicherheit für den Austausch von Daten online.
-wrong_answers:
-  - Es erhöht die Internetgeschwindigkeit.
-  - Es ermöglicht den Zugriff auf mehr Websites.
-  - Es spart mobile Daten.
-explanation: |
-  Die Verwendung eines VPNs zu Hause kann die Sicherheit der Daten, die Sie online austauschen, erhöhen. Dies liegt daran, dass VPNs Daten verschlüsseln und es für Dritte schwieriger machen, diese abzufangen.
-reviewed: false

@@ -1,0 +1,8 @@
+question: Hva er en vanlig ulempe med LNP2PBot og RoboSat P2P løsningene?
+answer: De krever teknisk kunnskap og en forståelse av personvern.
+wrong_answers:
+  - De legger ikke til rette for kjøp og salg av Bitcoin.
+  - De bruker ikke Lightning Network.
+  - De er ikke åpen kildekode.
+explanation: |
+  Ifølge kapittelet krever både LNP2PBot og RoboSat teknisk kunnskap og en forståelse av personvern.

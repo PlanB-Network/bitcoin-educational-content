@@ -1,0 +1,9 @@
+question: Why are "pseudorandom stream ciphers" more commonly used in practice than one-time pads?
+answer: They allow the use of a shorter key while generating a longer key stream
+wrong_answers:
+  - They do not require a secret key
+  - They use a combination of symmetric and asymmetric encryption
+  - They do not need key updates
+explanation: |
+  Pseudorandom stream ciphers are more practical because they allow a short key to be extended into a longer key stream, avoiding the need to store a key as long as the message itself.
+reviewed: false

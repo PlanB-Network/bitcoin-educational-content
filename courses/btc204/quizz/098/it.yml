@@ -1,0 +1,13 @@
+domanda: Cosa misura l'anonimato in avanti?
+
+risposta: La resistenza della privacy contro un'analisi da passato a presente.
+
+risposte_errate:
+  - La resistenza della privacy contro un'analisi da presente a passato.
+  - La resistenza della privacy contro un'analisi da futuro a presente.
+  - La resistenza della privacy contro un'analisi da futuro a passato.
+
+spiegazione: |
+  L'anonimato in avanti misura la resistenza della privacy di una moneta contro un'analisi da passato a presente (input a output).
+
+revisionato: false

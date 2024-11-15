@@ -1,11 +1,9 @@
-question: Kdo může použít klíč pro zrušení před koncem Timelocku?
-answer: Osoba, která dostane peníze.
-wrong_answers:
-  - Osoba, která vytvoří transakci s Timelockem.
-  - Obě strany mohou použít klíč pro zrušení před koncem Timelocku.
-  - Žádná ze stran nemůže použít klíč pro zrušení před koncem Timelocku.
-explanation: |
-  Osoba, která dostane peníze, může použít klíč pro zrušení před
-  koncem Timelocku v případě podvodu ze strany jedné na druhou stranu kanálu
-  na Lightning Network.
-reviewed: false
+otázka: Co znamená onion routing v Lightning Network?
+odpověď: Znamená to, že každý mezilehlý uzel zná pouze své bezprostřední sousedy na cestě.
+špatné_odpovědi:
+  - Přímý přenos prostředků z uzlu na uzel s vědomím konečného příjemce
+  - Vypočítat poplatky pro každý mezilehlý uzel nezávisle
+  - Poslat prostředky všem uzlům na cestě současně
+vysvětlení: |
+  Onion routing znamená, že každý mezilehlý uzel zná pouze předchozí a následující uzel, čímž se zachovává důvěrnost konečného příjemce.
+recenzováno: false

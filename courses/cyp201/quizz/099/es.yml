@@ -1,9 +1,0 @@
-question: ¿Cuáles son los prefijos más comúnmente utilizados para las claves extendidas?
-answer: xpub y zpub
-wrong_answers:
-  - xprv y zprv
-  - ypub y zpub
-  - xpub y ypub
-explanation: |
-  Los prefijos más comúnmente utilizados son xpub y zpub, que corresponden a los estándares legacy y segwit v1 y segwit v0, respectivamente.
-reviewed: false

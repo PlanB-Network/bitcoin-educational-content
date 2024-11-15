@@ -1,10 +1,8 @@
-question: Why is it essential to backup the 24-word recovery phrase of a Bitcoin wallet?
-answer: To prevent any loss of funds.
+question: What prefix or HRP corresponds to a SegWit standard address?
+answer: "bc"
 wrong_answers:
-  - To verify the accuracy of the recovery phrase.
-  - To generate the entropy for the wallet.
-  - To encrypt the recovery phrase for added security.
+  - "1"
+  - "0x"
+  - "btc"
 explanation: |
-  Backing up the 24-word recovery phrase is essential to prevent any loss
-  of funds.
-reviewed: false
+  The prefix "bc" is used for SegWit addresses on the Bitcoin mainnet.

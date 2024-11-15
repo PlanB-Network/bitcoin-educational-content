@@ -1,0 +1,8 @@
+question: Какой BIP (Bitcoin Improvement Proposal) предложил первую версию иерархического детерминированного (HD) кошелька для Bitcoin?
+answer: BIP32.
+wrong_answers:
+  - BIP16.
+  - BIP39.
+  - BIP44.
+explanation: |
+  BIP32, предложенный в 2012 году, впервые ввел концепцию иерархических детерминированных (HD) кошельков в Bitcoin.

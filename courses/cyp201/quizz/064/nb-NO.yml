@@ -1,0 +1,8 @@
+question: Hva er indeksområdet som brukes for normale barnenøkler i en HD-lommebok?
+answer: Mellom 0 og 2^31 - 1.
+wrong_answers:
+  - Mellom 0 og 2^32 - 1.
+  - Mellom 0 og 2^31.
+  - Mellom 2^31 og 2^32 - 1.
+explanation: |
+  Normale barnenøkler bruker et indeksområde mellom 0 og 2^31 - 1, mens herdede nøkler har et indeks som starter fra 2^31.

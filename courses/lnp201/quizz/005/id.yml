@@ -1,0 +1,9 @@
+pertanyaan: Apa peran utama dari kunci privat dalam sistem Bitcoin?
+jawaban: Menandatangani transaksi untuk memenuhi sebuah skrip
+jawaban_salah:
+  - Berfungsi sebagai pengenal untuk menerima bitcoin
+  - Menyimpan dana dengan aman di blockchain
+  - Membuat skrip pengunci untuk melindungi bitcoin
+penjelasan: |
+  Kunci privat digunakan untuk menandatangani transaksi guna memenuhi skrip dan membuka kunci bitcoin.
+ditinjau: false

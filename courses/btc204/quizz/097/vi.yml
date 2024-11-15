@@ -1,0 +1,13 @@
+câu hỏi: Một anonset lớn cho biết điều gì về quyền riêng tư của một UTXO?
+
+câu trả lời: Quyền riêng tư được cải thiện.
+
+câu trả lời sai:
+  - Quyền riêng tư giảm sút.
+  - Khả năng truy vết được cải thiện.
+  - Tốc độ giao dịch coinjoin nhanh hơn.
+
+giải thích: |
+  Một anonset lớn cho thấy mức độ ẩn danh cao, khiến việc phân biệt một UTXO cụ thể trong tập hợp đồng nhất trở nên khó khăn.
+
+đã xem xét: false

@@ -1,0 +1,9 @@
+question: Hva er forholdet mellom tidspreferanse og rentenivå i en økonomi med umanipulerte kapitalmarkeder?
+answer: En økning i rentenivået resulterer fra en relativ økning i etterspørselen etter kapital sammenlignet med tilbudet, noe som indikerer høyere tidspreferanser. På den annen side skjer en reduksjon i rentenivået på grunn av en økning i sparing, som er en økning i tilbudet av kapital, noe som indikerer en reduksjon i tidspreferanser.
+wrong_answers:
+  - En økning i rentenivået indikerer en reduksjon i tidspreferanser, mens en reduksjon i rentenivået indikerer en økning i tidspreferanser.
+  - Tidspreferanse og rentenivå er omvendt relatert.
+  - Tidspreferanse og rentenivå har ingen direkte forbindelse.
+explanation: |
+  I en økonomi med umanipulerte kapitalmarkeder, bestemmes referanserenten ved skjæringspunktet mellom tilbud og etterspørsel av kapital. Derfor representerer disse rentene tilstanden til tidspreferanser for hele økonomien. En økning i renten resulterer fra en relativ økning i etterspørselen etter kapital sammenlignet med tilbudet, noe som indikerer høyere tidspreferanser. På den annen side skjer en reduksjon i rentenivået på grunn av en økning i sparing, som er en økning i tilbudet av kapital, noe som indikerer en reduksjon i tidspreferanser.
+reviewed: false

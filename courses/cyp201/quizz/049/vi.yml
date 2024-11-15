@@ -1,11 +1,11 @@
-question: Mục đích của Đề xuất Cải tiến Bitcoin (BIPs) là gì?
-answer: Chúng là các đề xuất nâng cấp nhằm tăng cường chức năng và an ninh của ví HD.
-wrong_answers:
-  - Đề xuất nhằm tăng giá trị của Bitcoin.
-  - Đề xuất nhằm thay đổi quy trình khai thác Bitcoin.
-  - Đề xuất nhằm quản lý việc sử dụng Bitcoin.
-explanation: |
-  Đề xuất Cải tiến Bitcoin (BIPs) là các giao thức nhằm mục đích cải thiện
-  chức năng và an ninh của ví HD. Ví dụ, BIP32 đã giới thiệu
-  khái niệm về các khóa được tạo ra một cách có hệ thống và phân cấp.
-reviewed: false
+Câu hỏi: Làm thế nào để chọn một cụm mật khẩu hiệu quả?
+
+Câu trả lời: Nó nên dài, đa dạng và ngẫu nhiên, không liên quan đến người dùng.
+
+Câu trả lời sai:
+  - Nó nên dễ nhớ và liên quan đến môi trường của người dùng.
+  - Nó nên ngắn nhưng bao gồm số.
+  - Nó nên chứa ít nhất 10 chữ số.
+
+Giải thích:
+  Một cụm mật khẩu hiệu quả nên dài (20 đến 40 ký tự), đa dạng và ngẫu nhiên để cung cấp mức độ bảo mật cao nhất, tương tự như một mật khẩu tốt.

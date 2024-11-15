@@ -1,10 +1,9 @@
-question: Mikä on JA-operaattorin rooli SHA256:n tiivistysfunktiossa?
-answer: Palauttaa 1 vain, jos molemmat operandit ovat yhtä suuret kuin 1
-wrong_answers:
-  - Käsitellä bittejä yksi kerrallaan niiden arvon mukaan
-  - Palauttaa operandin vastakkaisen arvon
-  - Siirtää bitit oikealle valitun numeron verran
-explanation: |
-  SHA256:n tiivistysfunktiossa JA-operaattoria käytetään palauttamaan
-  1 vain, jos molemmat operandit ovat yhtä suuret kuin 1. Tämä tehdään käyttäen totuustaulua.
-reviewed: false
+kysymys: Mitä etuliite "0x" tarkoittaa?
+vastaus: Tätä etuliitettä seuraava numero ilmaistaan 16-järjestelmässä (heksadesimaali).
+vaarat_vastaukset:
+  - Tätä etuliitettä seuraava numero ilmaistaan 2-järjestelmässä (binääri).
+  - Tätä etuliitettä seuraava numero ilmaistaan 10-järjestelmässä (desimaali).
+  - Tätä etuliitettä seuraava numero ilmaistaan 8-järjestelmässä (oktaali).
+selitys: |
+  Etuliite "0x" osoittaa, että sitä seuraava numero ilmaistaan 16-järjestelmässä (heksadesimaali).
+arvioitu: false

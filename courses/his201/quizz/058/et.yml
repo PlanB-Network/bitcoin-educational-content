@@ -1,0 +1,9 @@
+küsimus: Millises ühikus mõõdeti võrgu hashimiskiirust 2010. aasta teisel poolel?
+vastus: GH/s
+valed_vastused:
+  - MH/s
+  - TH/s
+  - PH/s
+selgitus: |
+  Hashimiskiirus tõusis 1,35 GH/s pealt 13. juulil kuni 120 GH/s-ni 31. detsembril 2010.
+üle vaadatud: false

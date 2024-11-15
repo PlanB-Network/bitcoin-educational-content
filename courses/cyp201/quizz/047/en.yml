@@ -1,11 +1,9 @@
-question: What is the purpose of the nonce in the context of Bitcoin transactions?
-answer: It is used in the creation of a digital signature.
+question: Why does using a passphrase strengthen the security of an HD wallet?
+answer: It adds an extra layer of protection to the mnemonic phrase.
 wrong_answers:
-  - It is used to encrypt the transaction data.
-  - It is used to store the transaction data.
-  - It is used to transmit the transaction data.
+  - It allows for the generation of stronger public keys.
+  - It cryptographically protects transactions.
+  - It doubles the number of bitcoins in the wallet.
 explanation: |
-  In the context of Bitcoin transactions, a nonce is used in the creation
-  of a digital signature. Specifically, it is used in the calculation of a specific
-  number V and the digital signature composed of two parts, S1 and S2.
+  The passphrase enhances security by adding an additional piece of data to the mnemonic phrase, acting somewhat like a 2FA.
 reviewed: false

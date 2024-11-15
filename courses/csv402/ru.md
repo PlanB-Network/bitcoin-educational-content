@@ -111,7 +111,7 @@ objectives:
 
 
 
-## Оставьте отзыв о данном курсе
+## Оцените курс
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 

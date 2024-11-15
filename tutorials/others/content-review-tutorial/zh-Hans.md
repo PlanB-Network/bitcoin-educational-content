@@ -5,7 +5,7 @@ description: 如何参与对PlanB网络上教育内容的审核？
 ![github](assets/cover.webp)
 
 ## 简而言之
-如果你想为PlanB网络审核内容，请前往你所使用语言的[相关项目页面](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen)。选择你希望审核的内容，评论告知我们你将承担这项任务，并在完成后向与该语言相关的分支提交PR。
+如果你想为PlanB网络审核内容，请前往你所使用语言的[相关项目页面](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen)。选择你希望审核的内容，评论告知我们你将承担这项任务，并在完成后向与该语言相关的分支提交PR。
 
 如果你没有理解上面的部分，不用担心，这个教程是为你准备的！
 
@@ -37,14 +37,14 @@ PlanB.network从根本上是多语言的，因为我们的目标是使全世界�
 ## 1. 创建账户
 * 在GitHub上创建一个账户开始贡献。如果你需要指导如何在GitHub上创建你的账户，我们也有[一个详细的教程](https://planb.network/tutorials/others/create-github-account)。
 ## **2. 前往你所使用语言的项目页面**
-* [项目页面](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen)展示了你所使用语言的内容，这些内容在看板板上显示。
+* [项目页面](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen)展示了你所使用语言的内容，这些内容在看板板上显示。
 * 寻找“需要审核”的列中的卡片（见**A**）。这些是你可以审核的问题。
 * 每张卡片详细说明（见**B**）：
 	- **内容类型**：课程、教程或网站
 	- **内容难度**
 	- **紧急程度**
 	- **字数**
-	- **相关奖励**：基于内容属性和翻译的准确性（见[奖励部分](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward)）
+	- **相关奖励**：基于内容属性和翻译的准确性（见[奖励部分](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward)）
 ## **3. 查找需要审查的内容**
 * 在“需要审查”列中，点击一张卡片。
 * 卡片包含了一个描述，其中包含指向原始内容和要审查文件的链接（见 **A**）。

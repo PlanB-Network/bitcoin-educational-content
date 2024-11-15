@@ -1,0 +1,9 @@
+küsimus: Milline funktsioon, mille disainis kaevur m0mchil 2010. aasta oktoobris, võimaldas klient-sõlmedel hankida kandidaatplokki ja tagastada töötõend, kui lahendus leiti?
+vastus: getwork
+valed_vastused:
+  - stratum
+  - gethash
+  - getcredit
+selgitus: |
+  See avaldati 1. oktoobril. Satoshi lisas selle funktsiooni muudetud versiooni peamisse tarkvarasse 23. novembril.
+üle vaadatud: false

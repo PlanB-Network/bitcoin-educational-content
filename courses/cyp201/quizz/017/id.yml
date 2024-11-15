@@ -1,0 +1,9 @@
+pertanyaan: Apa tujuan penggunaan tanda tangan digital dalam Bitcoin?
+jawaban: Untuk menghasilkan bukti matematis yang membenarkan bahwa pengguna memang memiliki kunci privat, tanpa mengungkapkan kunci privat tersebut.
+jawaban_salah:
+  - Untuk menghasilkan bukti matematis yang membenarkan bahwa pengguna memang memiliki kunci publik, tanpa mengungkapkan kunci publik tersebut.
+  - Untuk menghasilkan bukti matematis yang membenarkan bahwa pengguna memang memiliki alamat penerima, tanpa mengungkapkan alamat penerima tersebut.
+  - Untuk menghasilkan bukti matematis yang membenarkan bahwa pengguna memang memiliki dompet.
+penjelasan: |
+  Tanda tangan digital dalam Bitcoin memungkinkan pembuktian bahwa pengguna memiliki kunci privat yang terkait dengan kunci publik tanpa mengungkapkan kunci privat tersebut.
+ditinjau: false

@@ -1,0 +1,13 @@
+question: Hvilken kryptografisk nøkkelutvekslingsalgoritme er kjernen i BIP47s funksjon?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+explanation: |
+  Algoritmen som brukes er ECDH (Elliptic Curve Diffie-Hellman). Det er en variant av den klassiske Diffie-Hellman-algoritmen som bruker elliptiske kurver.
+
+reviewed: false

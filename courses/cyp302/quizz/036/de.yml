@@ -1,0 +1,9 @@
+Frage: Was bedeutet es, wenn zwei Zahlen "teilerfremd" sind?
+Antwort: Ihr größter gemeinsamer Teiler ist gleich 1
+falsche_Antworten:
+  - Ihre Summe ist eine gerade Zahl
+  - Beide sind gerade
+  - Sie haben keine gemeinsamen Teiler außer 1 und sich selbst
+Erklärung: |
+  Zwei Zahlen sind teilerfremd, wenn ihr größter gemeinsamer Teiler 1 ist, was bedeutet, dass sie keine gemeinsamen Primfaktoren teilen, eine wichtige Eigenschaft in der Kryptographie.
+überprüft: false

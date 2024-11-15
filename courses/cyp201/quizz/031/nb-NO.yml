@@ -1,0 +1,8 @@
+question: Hvordan bestemmes nøkkelparene i en hierarkisk deterministisk (HD) lommebok?
+answer: Alle nøkkelparene i lommeboken bestemmes på en deterministisk og hierarkisk måte fra et unikt stykke informasjon ved basen av lommeboken.
+wrong_answers:
+  - Alle nøkkelparene i lommeboken bestemmes uavhengig av andre, tilfeldig, av en tilfeldig tallgenerator.
+  - Hvert nøkkelpar i lommeboken bestemmes deterministisk fra det forrige nøkkelparet.
+  - Nøkkelparene er alle tilfeldige og uten hierarkisk sammenkobling.
+explanation: |
+  I HD-lommebøker er alle nøkler avledet fra et unikt stykke informasjon kalt en "seed", som muliggjør hierarkisk og deterministisk håndtering av nøkler.

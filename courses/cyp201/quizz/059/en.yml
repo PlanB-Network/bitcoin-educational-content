@@ -1,12 +1,9 @@
-question: What is the purpose of the SHA-256 hash function in generating a good random
-  number?
-answer: It reduces a very large initial piece of information to 256 bits.
+question: In which numeral system is the extended key usually encoded to be presented to the user?
+answer: In Base 58.
 wrong_answers:
-  - It increases the size of the initial information.
-  - It encrypts the initial information.
-  - It verifies the authenticity of the initial information.
+  - In bech32.
+  - In Base 16.
+  - In bech32m.
 explanation: |
-  The SHA-256 hash function is used to reduce a very large initial piece
-  of information to 256 bits. This process helps in generating a good random number,
-  which is crucial for the security of private keys and Bitcoin transactions.
+  The extended key is generally encoded in Base 58 to be more readable for the user and to avoid ambiguous characters.
 reviewed: false

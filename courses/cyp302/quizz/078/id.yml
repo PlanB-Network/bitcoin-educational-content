@@ -1,0 +1,8 @@
+pertanyaan: Apa yang dimaksud dengan serangan brute force?
+jawaban: Mencoba semua kunci yang mungkin sampai kunci yang tepat ditemukan
+jawaban_salah:
+  - Mengubah teks agar menjadi tidak dapat dipahami
+  - Menggunakan kunci publik untuk mendekripsi pesan
+  - Memukul komputer dengan keras untuk memaksanya memberikan kunci rahasia
+penjelasan: |
+  Serangan brute force melibatkan pengujian sistematis terhadap semua kunci yang mungkin untuk mendekripsi pesan yang terenkripsi.

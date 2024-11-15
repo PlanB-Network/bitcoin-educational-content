@@ -1,0 +1,13 @@
+otázka: Jaká je role peněženky "post-mix" v protokolu Zerolink?
+
+odpověď: Uložit UTXO po smíchání.
+
+špatné odpovědi:
+  - Uložit UTXO před smícháním.
+  - Uložit UTXO jako drobné.
+  - Uložit konsolidační UTXO.
+
+vysvětlení: |
+  Peněženka "post-mix" je vyhrazena pro mince, které byly smíchány.
+
+recenzováno: false

@@ -1,0 +1,9 @@
+Frage: Was ist die Hauptanfälligkeit von schwachen Passwörtern, wenn sie gehasht werden?
+Antwort: Sie sind anfällig für Wörterbuchangriffe
+falsche_Antworten:
+  - Sie können durch Hashing nicht verifiziert werden
+  - Sie erzeugen immer Kollisionen
+  - Sie benötigen längeres Hashing für mehr Sicherheit
+Erklärung: |
+  Schwache Passwörter können leicht aus ihrem Hash mittels Wörterbuchangriffen wiederhergestellt werden, was ihre Auswahl zur Gewährleistung der Sicherheit wichtig macht.
+überprüft: false

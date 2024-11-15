@@ -1,9 +1,9 @@
-question: Qual è lo scopo di un checksum nella generazione di una frase mnemonica per un portafoglio Bitcoin?
-answer: Serve a garantire la verifica dell'accuratezza della frase di recupero.
-wrong_answers:
-  - Genera l'entropia per il portafoglio.
-  - Determina il numero di parole nella frase di recupero.
-  - Crittografa la frase di recupero per una maggiore sicurezza.
-explanation: |
-  Il checksum viene ottenuto passando l'entropia attraverso la funzione SHA256 e recuperando i primi 8 bit dell'hash. Senza questo checksum, un errore nella frase potrebbe comportare la creazione di un portafoglio diverso e quindi la perdita di fondi.
-reviewed: false
+domanda: Riguardo la notazione di un percorso di derivazione, cosa significa l'apostrofo o la "H" annotata a destra del numero? Esempio m/84'/0'.
+risposta: Indica una derivazione rinforzata.
+risposte_errate:
+  - Indica una derivazione normale.
+  - È lì per decorazione.
+  - Indica una chiave di cambio.
+spiegazione: |
+  L'apostrofo o la "H" in un percorso di derivazione indica una derivazione rinforzata, che utilizza la chiave privata genitore e l'intervallo di indice corrispondente.
+revisionato: false

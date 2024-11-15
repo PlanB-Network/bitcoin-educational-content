@@ -1,0 +1,9 @@
+question: I RSA-kryptosystemet, hvorfor er det vanskelig å finne verdien av "d"?
+answer: Fordi det krever kunnskap om φ(N), som avhenger av primtallsfaktorene til N
+wrong_answers:
+  - Fordi "d" er et tilfeldig tall
+  - Fordi "d" er større enn N
+  - Fordi "d" beregnes uavhengig av φ(N)
+explanation: |
+  Å finne "d" er vanskelig fordi det er avhengig av kunnskap om φ(N), som igjen avhenger av verdiene til p og q, primtallsfaktorene til N.
+reviewed: false

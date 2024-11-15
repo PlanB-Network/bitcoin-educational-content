@@ -1,9 +1,9 @@
-question: Proč je vynucené uzavření rizikovější z hlediska poplatků a možné validace těžaři?
-answer: Protože poplatky byly stanoveny v době vytvoření transakce v minulosti a od té doby se síť změnila.
-wrong_answers:
-  - Protože poplatky jsou vždy vyšší při vynuceném uzavření.
-  - Protože těžaři mají menší pravděpodobnost, že validují vynucené uzavření.
-  - Protože poplatky jsou při vynuceném uzavření nepředvídatelné.
-explanation: |
-  Při vynuceném uzavření byly poplatky stanoveny v době vytvoření transakce v minulosti. Od té doby se síť změnila, takže protokol výchozí nastavení poplatků je 5krát vyšší než byly v době vytvoření transakce. To činí vynucené uzavření rizikovějším z hlediska poplatků a možné validace těžaři.
-reviewed: false
+otázka: Jaké kritérium může uzlu pomoci vybrat efektivní platební trasu?
+odpověď: Pravděpodobnost úspěchu na základě celkové kapacity kanálů
+špatné_odpovědi:
+  - Geografická vzdálenost mezi uzly
+  - Přítomnost uzlů s nízkou úrovní poplatků
+  - Počet plateb provedených cílovým uzlem
+vysvětlení: |
+  Celková kapacita kanálů může naznačovat vyšší pravděpodobnost úspěchu, protože naznačuje větší dostupnost likvidity pro transakce.
+recenzováno: false

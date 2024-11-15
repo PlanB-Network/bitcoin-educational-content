@@ -1,0 +1,8 @@
+question: Tavalise alamvõtme paari tuletamiseks pean sisestama HMAC-SHA512 funktsiooni...
+answer: vanema avalik võti || indeks, vanema ahelakood.
+wrong_answers:
+  - vanema privaatvõti || indeks, vanema ahelakood.
+  - vanema privaatvõti, vanema ahelakood.
+  - vanema privaatvõti || indeks.
+explanation: |
+  Tavalise alamvõtme tuletamiseks kasutatakse vanema avalikku võtit koos indeksi ja ahelakoodiga HMAC-SHA512 funktsioonis.

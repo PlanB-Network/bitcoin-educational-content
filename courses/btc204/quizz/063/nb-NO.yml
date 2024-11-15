@@ -1,0 +1,13 @@
+question: Hva er de 2 personvernsrisikoene forbundet med å velge mynter?
+
+answer: CIOH og koblingen mellom inndata / identitet av mottakeren.
+
+wrong_answers:
+  - IP-adresse sporing og aktivitetskobling.
+  - Tidsmessig sporing og gjenbruk av adresse.
+  - Gjenbruk av adresse og koblingen mellom inndata / identitet av en ekstern observatør.
+
+explanation: |
+  To risikoer må vurderes når man velger mynter: muligheten for at betalingsmottakeren kan koble en del av din identitet til UTXOene som brukes som inndata, og evnen til en ekstern observatør til å etablere koblinger mellom alle UTXOene som forbrukes som inndata (CIOH).
+
+reviewed: false

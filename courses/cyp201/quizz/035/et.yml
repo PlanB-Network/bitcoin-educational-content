@@ -1,0 +1,9 @@
+question: Mis on primitiivne informatsioon, mis võimaldab määrata hea mnemoonilise fraasi HD rahakotile?
+answer: Väline entroopia, mis võimaldab määrata juhusliku või pseudojuhusliku numbri.
+wrong_answers:
+  - Rahakoti omaniku eesnimi.
+  - Informatsiooni pole, valime otse sõnad, mis meile meeldivad.
+  - Rahakoti loomise kuupäev.
+explanation: |
+  Mnemooniline fraas on tuletatud entroopia allikast, mis tähendab juhuslikku või pseudojuhuslikku informatsiooni, et tagada privaatvõtmete turvalisus.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Was ist die Rolle des AND-Operators in der Kompressionsfunktion von SHA256?
-answer: Um nur dann 1 zurückzugeben, wenn beide Operanden gleich 1 sind.
-wrong_answers:
-  - Um die Bits nacheinander gemäß ihrer Rangfolge zu verarbeiten.
-  - Um den entgegengesetzten Wert eines Operanden zurückzugeben.
-  - Um die Bits um eine bestimmte Anzahl nach rechts zu verschieben.
-explanation: |
-  In der Kompressionsfunktion von SHA256 wird der AND-Operator verwendet, um nur dann 1 zurückzugeben, wenn beide Operanden gleich 1 sind. Dies geschieht mithilfe einer Wahrheitstabelle.
-reviewed: false
+Frage: Was bedeutet das Präfix "0x"?
+Antwort: Die Zahl nach diesem Präfix wird im 16er-System (hexadezimal) ausgedrückt.
+falsche_Antworten:
+  - Die Zahl nach diesem Präfix wird im 2er-System (binär) ausgedrückt.
+  - Die Zahl nach diesem Präfix wird im 10er-System (dezimal) ausgedrückt.
+  - Die Zahl nach diesem Präfix wird im 8er-System (oktal) ausgedrückt.
+Erklärung: |
+  Das Präfix "0x" zeigt an, dass die nachfolgende Zahl im 16er-System (hexadezimal) ausgedrückt wird.
+überprüft: false

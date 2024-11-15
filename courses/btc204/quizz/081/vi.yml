@@ -1,0 +1,11 @@
+câu hỏi: Phương pháp mã hóa nào được sử dụng để ngăn chặn người điều phối liên kết các đầu vào và đầu ra trong một coinjoin?
+
+câu trả lời: Chữ ký mù Chaum.
+
+câu trả lời sai:
+  - Chữ ký Schnorr.
+  - Địa chỉ P2SH.
+  - Địa chỉ P2TR.
+
+giải thích: |
+  Trong những coinjoin kiểu "Chaumian", việc sử dụng Tor và chữ ký mù của David Chaum được kết hợp để đảm bảo rằng người điều phối không thể biết đầu ra nào thuộc về người dùng nào.

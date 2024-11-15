@@ -1,12 +1,9 @@
-question: What is the role of cryptographic hash functions in verifying the integrity
-  of downloaded software?
-answer: They act as digital sentinels, verifying the integrity of downloaded software.
+question: Within the Bitcoin protocol, what is a HASH256?
+answer: A double SHA256 hash.
 wrong_answers:
-  - They encrypt the software to protect it from hackers.
-  - They compress the software to reduce download time.
-  - They generate a unique key for each download.
+  - A double Keccak-256 hash.
+  - A SHA256 hash followed by a RIPEMD160 hash.
+  - A single SHA256 hash.
 explanation: |
-  Cryptographic hash functions play a crucial role in verifying the integrity
-  of downloaded software. By comparing the hash of the downloaded file with the expected
-  hash, one can verify that the file has not been tampered with.
+  A HASH256 is a double SHA256 hash, meaning that the SHA256 function is applied once to a piece of data, then a second time to the result of the first.
 reviewed: false

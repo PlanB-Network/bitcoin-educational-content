@@ -1,0 +1,9 @@
+question: Mis on Thomas Paine'i raamatu pealkiri?
+answer: Teraskohtlane mõistus.
+wrong_answers:
+  - Ainulaadne mõistus.
+  - Ühine heaolu.
+  - Ükski ülaltoodud vastustest ei ole õige.
+explanation: |
+  Thomas Paine'i raamat, mille pealkiri on "Teraskohtlane mõistus" ("Le sens commun" prantsuse keeles), on mõjukas pamflett, mis argumenteeris Ameerika iseseisvuse poolt ja taunis Briti türanniat, mängides võtmerolli kolonistide mobiliseerimisel.
+reviewed: false

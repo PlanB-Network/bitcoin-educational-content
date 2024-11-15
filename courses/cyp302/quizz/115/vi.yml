@@ -1,0 +1,9 @@
+câu hỏi: Thuật ngữ "diffusion" có ý nghĩa gì trong bối cảnh của mã hóa AES?
+câu trả lời: Một thay đổi nhỏ trong bản rõ dẫn đến sự thay đổi lớn trong bản mã
+câu trả lời sai:
+  - Bản mã luôn có độ dài như nhau
+  - Các byte khóa được phân bổ đều
+  - Thông tin nhạy cảm được làm rối trong mỗi khối của bản mã
+giải thích: |
+  "Diffusion" có nghĩa là một thay đổi nhỏ trong bản rõ dẫn đến sự thay đổi lớn trong bản mã, làm cho việc suy luận bản rõ trở nên khó khăn cho kẻ tấn công.
+đã xem xét: false

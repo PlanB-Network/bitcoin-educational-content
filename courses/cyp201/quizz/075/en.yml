@@ -1,12 +1,9 @@
-question: What function is used to generate the seed from the passphrase in a Bitcoin
-  wallet?
-answer: pbkdf2
+question: How to compress a public key?
+answer: We keep the value of its x-coordinate and add a prefix indicating which y-coordinate to choose.
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - We keep the value of its y-coordinate and add a prefix indicating which x-coordinate to choose.
+  - We hash the public key to compress it.
+  - We use a double SHA256 hash to compress the public key.
 explanation: |
-  The pbkdf2 function is used to generate the seed from the passphrase
-  in a Bitcoin wallet. This seed allows the derivation of all the child key pairs
-  of the wallet.
+  The compression of a public key is done by keeping the x-coordinate and adding a prefix 0x02 or 0x03 to indicate whether y is even or odd.
 reviewed: false

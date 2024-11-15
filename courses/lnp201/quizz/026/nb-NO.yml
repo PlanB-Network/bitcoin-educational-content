@@ -1,0 +1,9 @@
+question: Hvilken kanallukkingsmetode er den mest økonomiske og raske?
+answer: Samarbeidslukking
+wrong_answers:
+  - Tvungen lukking
+  - Lukking med juks
+  - Ingen er mer økonomiske og raske
+explanation: |
+  Samarbeidslukking er den raskeste og mest økonomiske metoden fordi begge parter er enige om å lukke kanalen, og justerer gebyrene i henhold til markedsforholdene.
+reviewed: false

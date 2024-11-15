@@ -1,0 +1,9 @@
+kysymys: Miksi avainten vaihtaminen henkilökohtaisesti ei ole käytännöllistä turvallisen verkkoviestinnän kannalta?
+vastaus: Se johtaa korkeisiin organisatorisiin kustannuksiin samalla kun se on tehotonta
+väärät_vastaukset:
+  - Se tekee salatusta viestinnästä käyttökelvotonta
+  - Se vaatii useiden avainten käyttöä per asiakas
+  - Se estää avainten uudelleenkäytön toistuvissa transaktioissa
+selitys: |
+  Avainten vaihtaminen henkilökohtaisesti on kallista ja tehotonta, erityisesti suuressa mittakaavassa, koska se hidastaa transaktioita ja aiheuttaa merkittäviä logistisia kustannuksia jokaista uutta asiakasta kohden.
+arvioitu: false

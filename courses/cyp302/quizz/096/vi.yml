@@ -1,0 +1,9 @@
+câu hỏi: Ba bước cơ bản trong một lược đồ MAC là gì?
+câu trả lời: Tạo khóa, tạo thẻ, xác minh
+câu trả lời sai:
+  - Mã hóa, giải mã, truyền dẫn
+  - Tạo khóa công khai, mã hóa khóa riêng, xác thực
+  - Băm tin nhắn, mã hóa thẻ, phân phối thẻ
+giải thích: |
+  Một lược đồ MAC bao gồm ba bước chính: tạo một khóa bí mật, sản xuất một thẻ cho tin nhắn, và xác minh rằng tin nhắn nhận được và thẻ của nó khớp nhau.
+đã xem xét: false

@@ -1,0 +1,9 @@
+pregunta: ¿Por qué se dice que una cadena pseudorandom es "indistinguible" de una cadena verdaderamente aleatoria?
+respuesta: Porque es casi imposible determinar su origen sin información adicional
+respuestas_incorrectas:
+  - Porque contiene segmentos deterministas idénticos a una cadena verdaderamente aleatoria
+  - Porque utiliza números flotantes en su construcción
+  - Porque se genera únicamente a partir de eventos naturales
+explicación: |
+  Una cadena pseudorandom está diseñada para parecerse estrechamente a una cadena verdaderamente aleatoria, haciendo la distinción imposible sin acceso a la semilla o al algoritmo utilizado.
+revisado: false

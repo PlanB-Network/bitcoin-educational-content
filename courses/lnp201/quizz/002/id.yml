@@ -1,0 +1,9 @@
+pertanyaan: Jika Alice mengirimkan 40.000 satoshi kepada Bob dari sebuah saluran pembayaran di mana dia awalnya memiliki 100.000 satoshi, berapa banyak dana yang tersisa untuknya setelah transaksi?
+jawaban: 60.000 satoshi
+jawaban_salah:
+  - 30.000 satoshi
+  - 40.000 satoshi
+  - 140.000 satoshi
+penjelasan: |
+  Setelah mengirimkan 40.000 satoshi, saldo Alice di saluran tersebut adalah 60.000 satoshi.
+ditinjau: false

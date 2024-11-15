@@ -1,0 +1,13 @@
+質問: Whirlpoolのコインジョインプールに参加できないUTXOsに使用されるアカウントの名前は何ですか？
+
+回答: Doxxic change account.
+
+誤った回答:
+  - Postmix account.
+  - Premix account.
+  - Deposit account.
+
+説明: |
+  プールに参加できなかったチェンジは、「doxxic change」アカウントに隔離され、ウォレット内の他のUTXOsから厳格に分離されます。
+
+確認済み: false

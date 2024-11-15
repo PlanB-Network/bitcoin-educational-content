@@ -1,0 +1,9 @@
+question: Mis on "nonce" roll autentimisega krüpteerimisskeemis?
+answer: Tagada, et igal sõnumil oleks unikaalne märgis korduste vältimiseks
+wrong_answers:
+  - Tuvastada sõnumi saatja
+  - Luua ajutine dekrüpteerimisvõti
+  - Lisada täiendav krüpteerimiskiht
+explanation: |
+  Autentimisega krüpteerimisskeemis kasutatakse "nonce'i", et tagada igale sõnumile unikaalse märgise olemasolu, suurendades sellega turvalisust korduste vältimise teel.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Why is it difficult to construct a "block mode" encryption from a stream cipher?
+answer: Because stream ciphers process data continuously
+wrong_answers:
+  - Because stream ciphers do not use private keys
+  - Because block modes require longer keys
+  - Because stream ciphers are always slower
+explanation: |
+  Stream ciphers are designed to encrypt data continuously (bit by bit or byte by byte), which complicates their use in block mode that requires processing in fixed-size blocks.
+reviewed: false

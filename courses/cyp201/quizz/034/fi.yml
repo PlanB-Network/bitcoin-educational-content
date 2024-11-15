@@ -1,10 +1,8 @@
-question: Mikä on Bitcoinin yksityisavaimen koko?
-answer: 256-bittinen numero
-wrong_answers:
-  - 512-bittinen numero
-  - 128-bittinen numero
-  - 1024-bittinen numero
-explanation: |
-  Bitcoin-järjestelmässä yksityisavain on satunnainen tai pseudo-satunnainen 256-bittinen
-  numero.
-reviewed: false
+kysymys: Mikä on JBOK-lompakko Bitcoinin kontekstissa?
+vastaus: Lompakko, joka ryhmittää yhteen satunnaisesti määritetyt yksityiset avaimet, ilman linkkiä niiden välillä.
+vaarat_vastaukset:
+  - Lompakko, joka johtaa avaimet hierarkkisesti yhdestä siemenestä.
+  - Lompakko, joka johtaa avaimet edellisistä avaimista.
+  - Lompakko, joka käyttää vain muistisanaista fraasia avainten johtamiseen.
+selitys: |
+  JBOK (Just a Bunch Of Keys) -lompakko sisältää yksityisiä avaimia, jotka on generoitu satunnaisesti ja toisistaan riippumattomasti, toisin kuin HD-lompakot.

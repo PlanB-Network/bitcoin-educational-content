@@ -1,9 +1,9 @@
-question: Qual é o padrão mais comumente usado para uma frase de recuperação de 24 palavras em uma carteira de Bitcoin?
-answer: Uma entropia de 256 bits.
-wrong_answers:
-  - Uma entropia de 128 bits.
-  - Uma entropia de 160 bits.
-  - Uma entropia de 512 bits.
-explanation: |
-  O padrão mais comumente usado para uma frase de recuperação de 24 palavras é uma entropia de 256 bits.
-reviewed: false
+pergunta: O que o seguinte caminho de derivação indica? m/44'/0'/0'/0/0
+resposta: Um endereço Legacy externo na rede principal.
+respostas_incorretas:
+  - Um endereço SegwitV1 externo na rede principal.
+  - Um endereço Legacy interno na rede de teste.
+  - Um endereço SegwitV0 externo na rede principal.
+explicação: |
+  O caminho de derivação m/44'/0'/0'/0/0 indica um endereço Legacy externo na rede principal (mainnet). 44' = Legacy, 0' = rede principal, 0 = externo
+revisado: false

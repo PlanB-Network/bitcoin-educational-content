@@ -1,9 +1,0 @@
-question: Quais são as vantagens de usar DOH (DNS sobre HTTPS) e DOT (DNS sobre TLS)?
-answer: Eles criptografam a conexão DNS, fornecendo maior privacidade e segurança, e evitam ataques de "homem no meio".
-wrong_answers:
-  - Eles aceleram a conexão com a internet.
-  - Eles bloqueiam todos os anúncios.
-  - Eles permitem o acesso a sites bloqueados.
-explanation: |
-  DOH (DNS sobre HTTPS) e DOT (DNS sobre TLS) criptografam a conexão DNS, fornecendo maior privacidade e segurança. Esses protocolos são amplamente utilizados em empresas devido à sua segurança aprimorada e são suportados nativamente pelo Windows, Android e iPhone. Eles melhoram a privacidade e a segurança ao evitar ataques de "homem no meio".
-reviewed: false

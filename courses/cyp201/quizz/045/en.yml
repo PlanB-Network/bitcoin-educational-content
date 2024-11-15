@@ -1,12 +1,9 @@
-question: What is the purpose of the ECDSA algorithm in the context of Bitcoin transactions?
-answer: To validate digital signatures.
+question: What does the passphrase represent within an HD wallet?
+answer: An optional cryptographic salt of arbitrary size.
 wrong_answers:
-  - To encrypt transaction data.
-  - To generate Bitcoin addresses.
-  - To mine new Bitcoins.
+  - A 25th word on the mnemonic phrase.
+  - A mandatory cryptographic salt of fixed size.
+  - A second seed.
 explanation: |
-  The ECDSA (Elliptic Curve Digital Signature Algorithm) is used in the
-  context of Bitcoin transactions to validate digital signatures. This allows the
-  receiver of a transaction to confirm the authenticity of the signed message without
-  needing the sender's private key.
+  The passphrase is an optional cryptographic salt, which enhances the security of the wallet by adding additional information to the mnemonic phrase to determine the seed.
 reviewed: false

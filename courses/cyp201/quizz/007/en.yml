@@ -1,11 +1,9 @@
-question: What hash function is a key element in the Bitcoin protocol?
-answer: SHA-256
+question: What do the values of the 8 initialization vectors of the SHA256 function correspond to?
+answer: The first 64 bits of the decimal parts of the cube roots of the first 8 prime numbers.
 wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
+  - The decimals of Pi.
+  - The first 32 bits of the decimal parts of the square roots of the first 8 prime numbers.
+  - The first 64 bits of the decimal parts of the square roots of the first 8 prime numbers.
 explanation: |
-  SHA-256 is a key element in the Bitcoin protocol. It is used to create
-  a unique and irreversible fingerprint of transaction data, which is crucial for
-  the security and integrity of the Bitcoin network.
+  The initialization vectors of SHA256 are based on the first 64 bits of the decimal parts of the cube roots of the first 8 prime numbers.
 reviewed: false

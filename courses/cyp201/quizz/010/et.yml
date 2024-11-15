@@ -1,0 +1,9 @@
+question: Milliseid algoritme kasutatakse tuletamiseks Bitcoin HD rahakottides?
+answer: HMAC/PBKDF2
+wrong_answers:
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
+explanation: |
+  Bitcoin HD rahakotid kasutavad võtmete tuletamiseks HMAC-i (Hash-põhine sõnumi autentimiskood) ja seemne tuletamiseks PBKDF2 (Password-Based Key Derivation Function 2). 
+reviewed: false

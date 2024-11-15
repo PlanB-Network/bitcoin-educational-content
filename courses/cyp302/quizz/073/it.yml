@@ -1,0 +1,9 @@
+domanda: Come può essere definita una chiave nella cifratura a scorrimento?
+risposta: Un numero da 0 a 25
+risposte_errate:
+  - Una parola casuale
+  - Un numero casuale senza restrizioni
+  - Un numero da 1 a 26
+spiegazione: |
+  Nella cifratura a scorrimento, la chiave è un numero compreso tra 0 e 25, che corrisponde al numero di posizioni di scorrimento applicate a ogni lettera del messaggio in un alfabeto di 26 lettere.
+recensito: false

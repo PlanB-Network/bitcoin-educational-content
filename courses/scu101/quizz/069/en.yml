@@ -5,8 +5,10 @@ wrong_answers:
   - They block all advertisements.
   - They allow access to blocked websites.
 explanation: |
-  DOH (DNS over HTTPS) and DOT (DNS over TLS) encrypt the DNS connection,
-  providing greater privacy and security. These protocols are widely used in enterprises
-  due to their enhanced security and are natively supported by Windows, Android, and
-  iPhone. They improve privacy and security by avoiding "man in the middle" attacks.
-reviewed: false
+  DOH (DNS over HTTPS) and DOT (DNS over TLS) encrypt the DNS
+  connection, providing greater privacy and security. These
+  protocols are widely used in enterprises due to their
+  enhanced security and are natively supported by Windows,
+  Android, and iPhone. They improve privacy and security by
+  avoiding "man in the middle" attacks.
+reviewed: true

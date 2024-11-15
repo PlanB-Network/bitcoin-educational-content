@@ -1,0 +1,13 @@
+kysymys: Mikä on yhteistyökumppanin rooli Stonewall x2 -transaktiossa?
+
+vastaus: Tarjota bitcoineja lisätäkseen epävarmuutta
+
+väärät_vastaukset:
+  - Toimia transaktion koordinaattorina
+  - Vastaanottaa maksusumma
+  - Lähettää maksusumma
+
+selitys: |
+  Stonewall x2 -transaktiossa yhteistyökumppani tarjoaa bitcoineja lisätäkseen epävarmuutta transaktion analyysiin, samalla täysin palauttaen varansa lopussa (neutraali toiminto heille, miinus louhintamaksut).
+
+arvioitu: false

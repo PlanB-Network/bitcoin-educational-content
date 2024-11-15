@@ -1,0 +1,9 @@
+question: Mikä on tekijöihin jakamisen ongelman luonne, joka on asymmetristen kryptosysteemien kuten RSA:n turvallisuuden perustana?
+answer: Luvun jakaminen kahteen hyvin suureen alkulukuun
+wrong_answers:
+  - Luvun jakaminen peräkkäisiin kahden tekijöihin
+  - Luvun pienimpiin jakajiin pienentäminen
+  - Kahden suuren alkuluvun kertominen saadakseen tulon
+explanation: |
+  RSA:n turvallisuus perustuu suuren luvun (kahden suuren alkuluvun tuloksen) tekijöihin jakamisen vaikeuteen, tehtävään, joka on lähes mahdoton ilman yksityistä avainta.
+reviewed: false

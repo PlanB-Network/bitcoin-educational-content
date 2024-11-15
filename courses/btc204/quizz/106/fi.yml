@@ -1,0 +1,13 @@
+kysymys: Kuinka monta osallistujaa on syötteissä payjoin-siirrossa?
+
+vastaus: 2
+
+vaarat_vastaukset:
+  - 1
+  - 3
+  - 0
+
+selitys: |
+  Osallistujia on 2: maksaja ja maksun vastaanottaja.
+
+tarkistettu: false

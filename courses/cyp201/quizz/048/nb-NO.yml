@@ -1,0 +1,8 @@
+question: Hva er funksjonen som brukes til å generere frøet fra den mnemoniske frasen og passordfrasen?
+answer: PBKDF2.
+wrong_answers:
+  - SHA256.
+  - HMAC.
+  - Argon2.
+explanation: |
+  PBKDF2 (Password-Based Key Derivation Function 2) brukes til å utlede frøet fra den mnemoniske frasen og passordfrasen i HD-lommebøker.

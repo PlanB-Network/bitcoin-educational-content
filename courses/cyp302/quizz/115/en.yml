@@ -1,0 +1,9 @@
+question: What does the term "diffusion" mean in the context of AES encryption?
+answer: A change in the plaintext results in a significant change in the ciphertext
+wrong_answers:
+  - The ciphertext is always the same length
+  - The key bytes are distributed evenly
+  - Sensitive information is scrambled in each block of ciphertext
+explanation: |
+  Diffusion means that a small change in the plaintext results in a significant change in the ciphertext, making it difficult for an attacker to deduce the plaintext.
+reviewed: false

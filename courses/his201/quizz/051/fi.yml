@@ -1,0 +1,9 @@
+kysymys: Mikä haavoittuvuus, jonka ArtForz raportoi 28. heinäkuuta 2010, mahdollisti bitcoinien käyttämisen mistä tahansa osoitteesta käyttäen tiettyä skriptiä?
+vastaus: 1 RETURN -bugi
+väärät_vastaukset:
+  - Arvon ylivuotobugi
+  - OP_NOP -bugi
+  - LSHIFT -bugi
+selitys: |
+  Haavoittuvuutta ei käytetty hyväksi. Satoshi sisällytti korjauksen nopeasti ohjelmistoon ja suositteli kaikkia käyttäjiä päivittämään sen.
+arvioitu: false

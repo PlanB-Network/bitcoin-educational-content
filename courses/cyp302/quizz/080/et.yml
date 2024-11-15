@@ -1,0 +1,9 @@
+question: Mis on "stream cipher" krüptograafias?
+answer: Sümmeetriline krüpteering, mis genereerib võtmete jada, mis on sama pikk kui sõnum
+wrong_answers:
+  - Asümmeetriline krüpteering, mis põhineb algarvudel
+  - Krüpteering, mis kasutab mitut erinevat dekrüpteerimisvõtit
+  - Krüpteering, mis jaotab sõnumi andmeblokkideks
+explanation: |
+  "Stream cipher" on sümmeetriline krüpteering, milles võtmete jada, mis on sama pikk kui sõnum, ühendatakse viimasega, et toota krüpteeritud tekst.
+reviewed: false

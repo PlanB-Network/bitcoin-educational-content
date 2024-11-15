@@ -1,0 +1,11 @@
+câu hỏi: Nguồn gốc chính của sự nhầm lẫn giữa các thuật ngữ "mã hóa khối" và "mã hóa luồng" là gì?
+
+câu trả lời: Mã hóa khối đôi khi chỉ được hiểu là các thuật toán sử dụng các chế độ khối như ECB hoặc CBC.
+
+câu trả lời sai:
+  - Mã hóa luồng luôn kém an toàn hơn mã hóa khối.
+  - Mã hóa khối hoạt động trên từng bit một lúc.
+  - Mã hóa luồng luôn yêu cầu padding.
+
+giải thích: |
+  Sự nhầm lẫn phát sinh từ việc một số người chỉ coi mã hóa khối là các thuật toán sử dụng các chế độ khối cụ thể, trong khi thực tế, chúng có thể bao gồm các phương thức mã hóa như chế độ OFB.

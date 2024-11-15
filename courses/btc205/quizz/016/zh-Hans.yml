@@ -1,0 +1,8 @@
+question: LNP2PBot和RoboSat P2P解决方案的一个常见缺点是什么？
+answer: 它们需要技术知识和对隐私的理解。
+wrong_answers:
+  - 它们不促进比特币的买卖。
+  - 它们不使用闪电网络。
+  - 它们不是开源的。
+explanation: |
+  根据章节内容，LNP2PBot和RoboSat都需要技术知识和对隐私的理解。

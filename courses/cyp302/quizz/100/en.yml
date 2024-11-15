@@ -1,0 +1,9 @@
+question: What is the role of a "nonce" in an authenticated encryption scheme?
+answer: Ensure that each message has a unique tag to prevent repetitions
+wrong_answers:
+  - Identify the sender of the message
+  - Create a temporary decryption key
+  - Add an additional layer of encryption
+explanation: |
+  In an authenticated encryption scheme, a "nonce" is used to ensure that each message has a unique tag, thereby enhancing security by preventing repetitions.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on hüperinflatsiooni mõju säästudele?
+answer: See kahandab kapitali ja tulu väärtust, muutes pikaajalise planeerimise keeruliseks.
+wrong_answers:
+  - See suurendab säästude väärtust.
+  - Sellel pole mõju säästudele.
+  - See julgustab inimesi rohkem säästma.
+explanation: |
+  Hüperinflatsiooni perioodil muutub säästmine väljakutseks. Raha kaotab kiiresti oma väärtuse, muutes pikaajalise planeerimise keeruliseks. See finantsiline ebastabiilsus võib põhjustada stressi ja ärevust.
+reviewed: false

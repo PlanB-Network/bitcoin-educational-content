@@ -1,0 +1,9 @@
+kysymys: Mikä on pääasiallinen ero satunnaisen merkkijonon ja pseudosatunnaisen merkkijonon välillä?
+vastaus: Satunnainen merkkijono syntyy puhtaasta satunnaisprosessista, kun taas pseudosatunnainen merkkijono luodaan algoritmilla siemenestä.
+väärät_vastaukset:
+  - Pseudosatunnainen merkkijono käyttää vain 1 bittejä.
+  - Satunnainen merkkijono on aina pidempi kuin pseudosatunnainen merkkijono, koska siihen kohdistuu luonnollinen toiminta.
+  - Pseudosatunnainen merkkijono määritellään tiukasti binäärimallin mukaan, kun taas satunnainen merkkijono määritellään tiukasti heksadesimaalimallin mukaan.
+selitys: |
+  Satunnainen merkkijono syntyy suorasta satunnaisprosessista, kun taas pseudosatunnainen merkkijono tuotetaan käyttäen laajennusalgoritmia ja alkusiementä.
+arvioitu: false

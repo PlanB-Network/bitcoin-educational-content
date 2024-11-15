@@ -1,9 +1,9 @@
-question: Perché SHA0, SHA1 e MD5 sono considerate funzioni di hash obsolete?
-answer: Hanno perso la loro resistenza alle collisioni.
-wrong_answers:
-  - Sono troppo lenti da calcolare.
-  - Producono impronte digitali troppo grandi.
-  - Non sono irreversibili.
-explanation: |
-  SHA0, SHA1 e MD5 sono considerate funzioni di hash obsolete perché hanno perso la loro resistenza alle collisioni. Ciò significa che è relativamente facile trovare due input diversi che producono lo stesso output, il che rappresenta una grave falla di sicurezza.
-reviewed: false
+domanda: All'interno del protocollo Bitcoin, cos'è un HASH160?
+risposta: Un hash SHA256 seguito da un hash RIPEMD160.
+risposte_errate:
+  - Un doppio hash RIPEMD160.
+  - Un doppio hash SHA256.
+  - Un hash MD5 seguito da un hash SHA256.
+spiegazione: |
+  HASH160 combina un hash SHA256 seguito da RIPEMD160, utilizzato specialmente per generare indirizzi Bitcoin.
+revisionato: false

@@ -1,0 +1,8 @@
+question: 创建Bech32比特币地址的最后一步是什么？
+answer: 添加HRP（人类可读部分）"bc"和分隔符"1"。
+wrong_answers:
+  - 在开头添加SegWit版本。
+  - 在地址的开头添加校验和。
+  - 添加一个"1"前缀。
+explanation: |
+  构建Bech32地址的最后一步是添加HRP（人类可读部分），对于比特币是"bc"，然后是分隔符"1"。

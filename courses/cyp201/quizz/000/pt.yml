@@ -1,12 +1,9 @@
-question: Qual é o princípio das gavetas no contexto das funções de hash criptográficas?
-answer: Ele explica por que, apesar de nossos melhores esforços, a prevenção de colisões é impossível devido à limitação do tamanho de saída.
-wrong_answers:
-  - Ele explica o mecanismo de armazenamento das funções de hash.
-  - Ele descreve o processo de criação de um hash.
-  - É um princípio que explica a irreversibilidade das funções de hash.
-explanation: |
-  O princípio das gavetas no contexto das funções de hash criptográficas
-  explica que, devido à limitação do tamanho de saída, a prevenção de colisões é impossível.
-  Isso ocorre porque há mais possíveis entradas do que saídas, então algumas entradas devem
-  inevitavelmente compartilhar a mesma saída.
-reviewed: false
+pergunta: Qual é o objetivo do processo de hashing criptográfico?
+resposta: Mapear uma sequência de bits de comprimento arbitrário para uma sequência de bits de comprimento fixo.
+respostas_erradas:
+  - Criptografar uma mensagem.
+  - Garantir que o remetente da mensagem não possa negar ter enviado a mensagem no futuro.
+  - Garantir a confidencialidade dos dados.
+explicação: |
+  O hashing transforma dados de qualquer tamanho em uma saída de tamanho fixo, útil para verificar a integridade sem necessariamente criptografar ou autenticar os dados.
+revisado: false

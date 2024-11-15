@@ -1,10 +1,9 @@
-question: Quel est le rôle de BIP39 dans l'écosystème Bitcoin?
-answer: Il a introduit la phrase mnémonique de 24 mots pour transformer des séquences complexes de chiffres en mots ordinaires.
+question: Si l'on respecte le BIP39, quelle est la taille de la graine d'un portefeuille HD ?
+answer: 512 bits.
 wrong_answers:
-  - Il a introduit le concept de clés dérivées de manière déterministe et hiérarchique.
-  - Il a proposé d'ajouter une phrase secrète supplémentaire pour renforcer la sécurité des clés individuelles.
-  - Il a standardisé la structure et la hiérarchie des portefeuilles HD.
+  - 32 octets.
+  - 1024 bits.
+  - 512 octets.
 explanation: |
-  BIP39 a introduit une innovation majeure ; la phrase mnémonique de 24 mots.
-  Ce système a rendu possible la transformation d'une séquence complexe et difficile à retenir de chiffres en une série de mots ordinaires, beaucoup plus faciles à mémoriser et à stocker.
+  Selon le BIP39, la graine d'un portefeuille HD fait 512 bits, dérivée à partir de la phrase mnémonique et de la passphrase.
 reviewed: false

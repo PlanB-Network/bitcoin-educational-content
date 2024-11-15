@@ -1,9 +1,9 @@
-question: ¿Qué representa la semilla en una billetera de Bitcoin?
-answer: Es un número aleatorio o pseudoaleatorio a partir del cual se generan múltiples claves.
-wrong_answers:
-  - Es la contraseña para acceder a la billetera.
-  - Es la primera transacción de Bitcoin registrada en la billetera.
-  - Es la firma digital del propietario de la billetera.
-explanation: |
-  La semilla en una billetera de Bitcoin se supone que es un número aleatorio o pseudoaleatorio. Esta semilla permite la generación de múltiples claves, que son esenciales para la propiedad de criptomonedas.
-reviewed: false
+pregunta: ¿Cuál es el propósito de la clave extendida?
+respuesta: Reunir toda la información necesaria para derivar claves secundarias en una sola cadena.
+respuestas_incorrectas:
+  - Reunir toda la información necesaria para reconstruir una billetera HD completa en una sola cadena.
+  - Reunir información sobre los UTXOs en la billetera.
+  - Reunir la frase mnemotécnica y la contraseña en un solo formato.
+explicación: |
+  Una clave extendida permite contener toda la información necesaria para derivar claves secundarias, simplificando así la gestión de cuentas en una billetera HD.
+revisado: false

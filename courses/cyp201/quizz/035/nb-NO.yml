@@ -1,0 +1,8 @@
+question: Hva er den grunnleggende informasjonen som gjør det mulig å bestemme en god mnemonic frase for en HD-lommebok?
+answer: En ekstern entropi som gjør det mulig å bestemme et tilfeldig eller pseudo-tilfeldig tall.
+wrong_answers:
+  - Fornavnet til lommebokens eier.
+  - Ingen informasjon, vi velger direkte ordene vi liker.
+  - Opprettelsesdatoen for lommeboken.
+explanation: |
+  Den mnemonic frasen er avledet fra en kilde til entropi, som betyr tilfeldig eller pseudo-tilfeldig informasjon, for å sikre sikkerheten til de private nøklene.

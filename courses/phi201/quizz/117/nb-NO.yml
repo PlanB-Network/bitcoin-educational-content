@@ -1,0 +1,8 @@
+question: Ifølge Keynes, hva er hovedproblemet med gullstandarden?
+answer: Den begrenser regjeringens evne til å finansiere sine utgifter
+wrong_answers:
+  - Den fremmer inflasjon
+  - Den hindrer internasjonal handel
+  - Alle de andre svarene er riktige.
+explanation: |
+  Keynes mente at gullstandarden begrenset regjeringens evne til å justere pengemengden, noe som hindret dem i å enkelt finansiere sine utgifter, spesielt under økonomiske kriser.

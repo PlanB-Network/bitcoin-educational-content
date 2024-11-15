@@ -1,0 +1,9 @@
+question: Quelle est la faille principale des mots de passe faibles lorsqu'ils sont hachés ?
+answer: Ils sont vulnérables aux attaques par dictionnaire
+wrong_answers:
+  - Ils ne peuvent pas être vérifiés par hachage
+  - Ils génèrent toujours des collisions
+  - Ils nécessitent un hachage plus long pour plus de sécurité
+explanation: |
+  Les mots de passe faibles sont facilement retrouvés à partir de leur hachage grâce aux attaques par dictionnaire, ce qui rend leur choix important pour garantir la sécurité.
+reviewed: false

@@ -1,0 +1,8 @@
+pertanyaan: Apa algoritma yang digunakan untuk derivasi di dompet HD Bitcoin?
+jawaban: HMAC/PBKDF2
+jawaban_salah:
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
+penjelasan: |
+  Dompet HD Bitcoin menggunakan HMAC (Hash-based Message Authentication Code) untuk derivasi kunci dan PBKDF2 (Password-Based Key Derivation Function 2) untuk derivasi seed.

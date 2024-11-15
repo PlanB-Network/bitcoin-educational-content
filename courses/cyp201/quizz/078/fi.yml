@@ -1,9 +1,9 @@
-question: Mikä on salalauseen rooli Bitcoin-lompakossa?
-answer: Se parantaa lompakon turvallisuutta
-wrong_answers:
-  - Se heikentää lompakon turvallisuutta
-  - Sillä ei ole vaikutusta lompakon turvallisuuteen
-  - Se tekee lompakosta käyttäjäystävällisemmän
-explanation: |
-  Salalause on lisäsalasana, joka voidaan integroida Bitcoin-lompakkoon sen turvallisuuden lisäämiseksi. Lisäämällä mielivaltaista tietoa, joka yhdessä muistilauseen kanssa mahdollistaa lompakon siemenen laskennan, salalause parantaa sen turvallisuutta.
-reviewed: false
+kysymys: Tässä on jono desimaalinumeroita (10 25 13 18 02 31). Mikä on oikea muunnos Bech32-muotoon?
+vastaus: 2edjzl
+väärät_vastaukset:
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
+selitys: |
+  Desimaalinumeroiden muunnos Bech32-muotoon tehdään tietyn vastaavuustaulukon kautta, ja jono 10 25 13 18 02 31 vastaa 2edjzl.
+arvioitu: false

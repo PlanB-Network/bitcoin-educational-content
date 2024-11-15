@@ -1,0 +1,9 @@
+kysymys: Mitä termi "champ premier" tai "corps premier" tarkoittaa?
+vastaus: Kenttä, jossa on alkuluvun verran alkiota
+vaarat_vastaukset:
+  - Kenttä, joka sisältää vain alkulukuja
+  - Kenttä, joka määritellään pelkästään alkulukujen summalla
+  - Kenttä, joka käyttää satunnaisvektoreita
+selitys: |
+  Alkulukukenttä sisältää alkioiden määrän, joka on yhtä suuri kuin jokin alkuluku, tehden siitä perustavanlaatuisen kentän kryptografisissa toiminnoissa.
+arvioitu: false

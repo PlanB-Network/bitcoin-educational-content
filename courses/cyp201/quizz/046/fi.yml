@@ -1,9 +1,8 @@
-question: Mikä on äärettömyydessä olevan pisteen merkitys ECDSA-algoritmissa?
-answer: Jos laskettu piste P on äärettömyydessä oleva piste, allekirjoitus on mitätön.
-wrong_answers:
-  - Jos laskettu piste P on äärettömyydessä oleva piste, allekirjoitus on pätevä.
-  - Äärettömyydessä olevaa pistettä käytetään laskennallisen arvon (nonce) laskemiseen.
-  - Äärettömyydessä olevaa pistettä käytetään avainten salaamiseen.
-explanation: |
-  ECDSA-algoritmissa, jos elliptisellä käyrällä laskettu piste P on äärettömyydessä oleva piste, allekirjoitusta pidetään mitättömänä. Tämä on yksi tarkistuksista, jotka suoritetaan digitaalisen allekirjoituksen validoinnin aikana.
-reviewed: false
+kysymys: Mitä tapahtuu, jos käytän HD-lompakkoa salasanan kanssa ja kadotan kyseisen salasanan?
+vastaus: Bitcoinini ovat menetettyjä ikuisesti.
+väärät_vastaukset:
+  - Ei ole ongelma, voin silti päästä käsiksi bitcoineihini pelkällä mnemonisella fraasillani.
+  - Voin nollata salasanan yksityisavaimellani.
+  - Voin palauttaa bitcoinini käyttämällä lompakkoa ilman salasanaa.
+selitys: |
+  Jos salasana katoaa, pääsy bitcoineihin menetetään pysyvästi, koska se on välttämätön yksityisten avainten johdannaisuuden kannalta.

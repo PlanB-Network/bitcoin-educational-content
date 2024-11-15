@@ -1,0 +1,11 @@
+question: Hva er betydningen av sitatet "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" i den første Bitcoin-blokken?
+answer: Det understreker vårt finansielle systems evne til å sosialisere tap
+wrong_answers:
+  - Det signaliserer Satoshis påskjønnelse for The Times-avisen
+  - Det gir et flott eksempel på hvordan bailouts har gagnet vårt samfunn
+  - Det viser oss Bitcoins evne til å lagre meldinger i blokkjeden
+explanation: |
+  Dette er en referanse til en Times-avis [artikkel](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) som reflekterer Satoshis 
+  bekymringer over at banker drev med risikofylt oppførsel, med lite 
+  konsekvenser for dem, og at tapene ville bli delt blant valutaholdere.
+reviewed: true

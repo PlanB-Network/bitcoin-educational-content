@@ -1,9 +1,7 @@
-question: Como os bits são transformados em frases na geração de uma frase mnemônica para uma carteira de Bitcoin?
-answer: Cada segmento está associado a uma palavra de uma lista de 2048 palavras.
-wrong_answers:
-  - Cada bit está associado a uma palavra de uma lista de 2048 palavras.
-  - Cada segmento está associado a uma palavra de uma lista de 1024 palavras.
-  - Cada bit está associado a uma palavra de uma lista de 1024 palavras.
-explanation: |
-  Para transformar os bits em frases, cada segmento é associado a uma palavra de uma lista de 2048 palavras.
-reviewed: false
+pergunta: Verdadeiro ou Falso? "Pode-se determinar uma chave pública apenas conhecendo seu endereço SegWitv0."
+resposta: Falso.
+respostas_erradas:
+  - Verdadeiro.
+explicação: |
+  Um endereço SegWit v0 é um hash da chave pública, tornando impossível recuperar diretamente a chave pública a partir do endereço sem conhecer a chave privada correspondente.
+revisado: false

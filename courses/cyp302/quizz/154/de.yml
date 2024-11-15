@@ -1,0 +1,9 @@
+Frage: Warum ist es im RSA-Kryptosystem schwierig, den Wert von "d" zu finden?
+Antwort: Weil es die Kenntnis von φ(N) erfordert, die von den Primfaktoren von N abhängt
+falsche_Antworten:
+  - Weil "d" eine Zufallszahl ist
+  - Weil "d" größer als N ist
+  - Weil "d" unabhängig von φ(N) berechnet wird
+Erklärung: |
+  Das Finden von "d" ist schwierig, weil es auf der Kenntnis von φ(N) beruht, die wiederum von den Werten von p und q, den Primfaktoren von N, abhängt.
+überprüft: false

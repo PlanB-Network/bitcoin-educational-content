@@ -1,9 +1,0 @@
-question: Qual é a diferença entre VPNs empresariais e VPNs para consumidores?
-answer: As VPNs empresariais são mais caras e complexas, enquanto as VPNs para consumidores são mais acessíveis e fáceis de usar.
-wrong_answers:
-  - As VPNs empresariais são menos seguras do que as VPNs para consumidores.
-  - As VPNs para consumidores são mais caras do que as VPNs empresariais.
-  - As VPNs empresariais não criptografam dados, enquanto as VPNs para consumidores o fazem.
-explanation: |
-  As VPNs empresariais são projetadas para empresas e geralmente são mais caras e complexas de configurar e gerenciar. Por outro lado, as VPNs para consumidores são projetadas para usuários individuais e geralmente são mais acessíveis e fáceis de usar.
-reviewed: false

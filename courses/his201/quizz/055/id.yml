@@ -1,0 +1,9 @@
+pertanyaan: Setelah insiden kelebihan nilai, mekanisme apa yang ditambahkan oleh Satoshi ke dalam perangkat lunak untuk membatasi dampak dari potensi kerentanan pada sistem?
+jawaban: Sistem peringatan
+jawaban_salah:
+  - Sifat standar dari transaksi
+  - Batas ukuran blok
+  - Kode OP_NOP
+penjelasan: |
+  Sistem peringatan yang efektif ini memungkinkan dia, dengan menggunakan kunci privat, untuk memperingatkan node jaringan dalam kasus masalah teknis dan untuk menangguhkan beberapa perintah API.
+ditinjau: false

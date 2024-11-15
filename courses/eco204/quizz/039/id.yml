@@ -1,0 +1,10 @@
+pertanyaan: Apa dampak hiperinflasi terhadap nilai uang?
+jawaban: Ini menyebabkan uang cepat kehilangan nilainya.
+jawaban_salah:
+  - Ini menyebabkan uang meningkat nilainya.
+  - Ini tidak memiliki dampak terhadap nilai uang.
+  - Ini menyebabkan nilai uang berfluktuasi secara tidak terduga.
+penjelasan: |
+  Dalam periode hiperinflasi, uang cepat kehilangan nilainya, membuat
+  perencanaan jangka panjang menjadi sulit.
+ditinjau: false

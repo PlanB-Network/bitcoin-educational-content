@@ -1,11 +1,9 @@
-question: Jaký je význam zabezpečení soukromého klíče v ekosystému Bitcoinu?
-answer: Zajišťuje bezpečnost transakcí s Bitcoinem.
-wrong_answers:
-  - Zajišťuje rychlost transakcí s Bitcoinem.
-  - Zajišťuje anonymitu transakcí s Bitcoinem.
-  - Zajišťuje legalitu transakcí s Bitcoinem.
-explanation: |
-  Soukromé klíče jsou základním kamenem, který zajišťuje bezpečnost transakcí s Bitcoinem.
-  Musí být generovány zcela náhodným způsobem, aby se předešlo jakékoli zranitelnosti
-  spojené s předvídatelností.
-reviewed: false
+otázka: Jaké jsou dva typy odvození dětských klíčů v HD peněžence?
+odpověď: Normální odvození a zpevněné odvození.
+špatné_odpovědi:
+  - Jednoduché odvození a složité odvození.
+  - Eliptické odvození a křivkové odvození.
+  - Statické odvození a dynamické odvození.
+vysvětlení: |
+  Dva typy odvození jsou normální odvození, které používá veřejný klíč rodiče, a zpevněné odvození, které používá soukromý klíč rodiče.
+recenzováno: false

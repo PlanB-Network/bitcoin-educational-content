@@ -1,0 +1,12 @@
+question: Hva er den nåværende mining-belønningen i Bitcoin-nettverket?
+answer: Opprettelsen av nye bitcoins og transaksjonsgebyrer
+wrong_answers:
+  - Opprettelsen av nye bitcoins kun
+  - Kun transaksjonsgebyrer
+  - Opprettelsen av nye bitcoins, transaksjonsgebyrer, og en bonus for den raskeste miner
+explanation: |
+  Den nåværende mining-belønningen i Bitcoin-nettverket er todelt. Den inkluderer
+  opprettelsen av nye bitcoins, som har redusert fra 50 bitcoins hvert tiende minutt
+  opprinnelig til 6.25 bitcoins i dag (2023). Den inkluderer også transaksjonsgebyrer, eller mining
+  gebyrer, fra transaksjonene som miner velger å inkludere i sin blokk.
+reviewed: false

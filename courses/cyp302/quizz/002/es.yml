@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es la especificidad de los tres textos cifrados contenidos en la caja?
+respuesta: Contienen números separados por comas
+respuestas_incorrectas:
+  - Están todos escritos en letras ordinarias
+  - Usan símbolos desconocidos
+  - Están escritos en múltiples idiomas
+explicación: |
+  Los tres textos cifrados consisten en series de números separados por comas, requiriendo una clave para ser descifrados.
+revisado: false

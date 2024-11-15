@@ -1,0 +1,9 @@
+otázka: Co bylo unikátní na RPOW ve srovnání s jinými koncepty digitální měny, jako jsou eCash, b-money a bit gold?
+odpověď: Bylo založeno na transparentním serveru
+špatné_odpovědi:
+  - Používalo důkaz práce
+  - Jeho účetní jednotka nebyla ničím kryta
+  - Uživatelé drželi digitální poznámky konkrétních nominálních hodnot namísto účtů
+vysvětlení: |
+  Využívalo důkaz práce podobně jako b-money a bit gold. Nebylo kryto jako bit gold. Podobně jako eCash (a později Bitcoin), RPOW umožňovalo držení individuálních digitálních poznámek, namísto účtu, a v tomto ohledu bylo relativně důvěrné.
+recenzováno: false

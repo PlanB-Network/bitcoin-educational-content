@@ -1,0 +1,11 @@
+pregunta: ¿Cómo se compensa a los "makers" en JoinMarket?
+
+respuesta: A través de las comisiones pagadas por los "takers".
+
+respuestas_incorrectas:
+  - A través de las comisiones de minería.
+  - A través de donaciones voluntarias de los "takers".
+  - A través de subvenciones de la comunidad Bitcoin.
+
+explicación: |
+  Los "makers" dejan sus bitcoins disponibles para los "takers" y reciben comisiones a cambio de su servicio. Los "takers", a su vez, pagan para usar los bitcoins de los "makers" con el fin de llevar a cabo sus propias transacciones coinjoin.

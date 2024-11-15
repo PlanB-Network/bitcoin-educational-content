@@ -1,12 +1,8 @@
-question: Mikä on ero salalauseen ja mnemonisen lauseen välillä Bitcoin-lompakossa?
-answer: Salalause on vapaa ja voi saavuttaa lähes rajattoman koon, kun taas mnemoninen lause on standardoitu ja sen on noudatettava tiettyjä koko-, tarkistussumma- ja koodausrajoituksia.
-wrong_answers:
-  - Salalause on standardoitu, kun taas mnemoninen lause on vapaa ja voi saavuttaa lähes rajattoman koon.
-  - Salalause ja mnemoninen lause ovat sama asia.
-  - Salalause on valinnainen, kun taas mnemoninen lause on pakollinen.
-explanation: |
-  Jotta HD-lompakon avaimet voidaan johtaa, sekä mnemoninen lause että
-  salalause ovat tarpeellisia. Salalause on vapaa ja voi saavuttaa lähes rajattoman
-  koon. Sitä ei sisällytetä mnemoniseen lauseeseen, joka on standardoitu ja sen on
-  noudatettava tiettyjä koko-, tarkistussumma- ja koodausrajoituksia.
-reviewed: false
+kysymys: Mikä on viimeinen vaihe Bech32 Bitcoin-osoitteen luomisessa?
+vastaus: Lisää HRP "bc" ja erotin "1".
+vaarat_vastaukset:
+  - Lisää SegWit-versio osoitteen alkuun.
+  - Lisää tarkistussumma osoitteen alkuun.
+  - Lisää etuliite "1".
+selitys: |
+  Viimeinen vaihe Bech32-osoitteen rakentamisessa on lisätä HRP (Human Readable Part), "bc" Bitcoinille, jonka jälkeen seuraa erotin "1".

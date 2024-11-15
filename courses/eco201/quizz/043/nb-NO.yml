@@ -1,0 +1,13 @@
+question: Hva er hovedargumentet til Ludwig von Mises i hans artikkel "Economic Calculation in a Socialist Commonwealth"?
+answer: Rasjonell økonomisk organisering er umulig uten priser for de mellomliggende produksjonsfaktorene.
+wrong_answers:
+  - Sosialisme er moralsk overlegen kapitalisme.
+  - Kapitalisme er det eneste levedyktige økonomiske systemet.
+  - Sosialisme kan produsere individer uten kapitalistiske instinkter.
+explanation: |
+  Mises argumenterte for at uten et marked for å bestemme priser for mellomliggende
+  produksjonsfaktorer, blir det umulig å rasjonalisere bruken av ressurser
+  på tvers av industrier. Dette betyr at selv om det er perfekt organisering innen
+  hver bedrift eller del av økonomien, kan ikke hele økonomien effektivt justere seg
+  etter endringer i ressurstilgjengelighet, produksjonsforhold og forbrukerpreferanser.
+reviewed: false

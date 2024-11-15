@@ -1,0 +1,9 @@
+domanda: Qual è la condizione affinché un intero a abbia un inverso modulo N?
+risposta: a e N devono essere coprimi
+risposte_errate:
+  - N deve essere pari
+  - a deve essere dispari
+  - a deve essere un numero primo
+spiegazione: |
+  Un intero a ha un inverso modulo N se e solo se sono coprimi, il che significa che il loro massimo comune divisore è 1.
+revisionato: false

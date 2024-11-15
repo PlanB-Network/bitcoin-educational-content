@@ -1,0 +1,8 @@
+pertanyaan: Apa informasi primitif yang memungkinkan penentuan frasa mnemonik yang baik untuk dompet HD?
+jawaban: Entropi eksternal yang memungkinkan penentuan angka acak atau pseudo-acak.
+jawaban_salah:
+  - Nama depan pemilik dompet.
+  - Tidak ada informasi, kita langsung memilih kata-kata yang kita suka.
+  - Tanggal pembuatan dompet.
+penjelasan: |
+  Frasa mnemonik berasal dari sumber entropi, yang berarti informasi acak atau pseudo-acak, untuk memastikan keamanan kunci privat.

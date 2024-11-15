@@ -1,9 +1,0 @@
-question: Mitä tapahtuu kanavan likviditeetille, kun Lightning Networkissa tehdään transaktio?
-answer: Likviditeetti jaetaan uudelleen reitin varrella kahden osapuolen välillä.
-wrong_answers:
-  - Likviditeetti pysyy samana.
-  - Likviditeetti siirretään toiseen kanavaan.
-  - Likviditeetti kasvaa.
-explanation: |
-  Lightning Networkissa, kun transaktio tehdään, likviditeetti jaetaan uudelleen reitin varrella kahden osapuolen välillä.
-reviewed: false

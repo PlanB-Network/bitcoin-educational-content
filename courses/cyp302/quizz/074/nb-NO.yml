@@ -1,0 +1,8 @@
+question: Hva skjer hvis en nøkkel på 7 brukes til å kryptere ordet "CAT"?
+answer: Ordet blir "JHA"
+wrong_answers:
+  - Ordet blir "JBA"
+  - Ordet blir "JHB"
+  - Ordet blir "ZHA"
+explanation: |
+  Med en nøkkel på 7, blir hver bokstav i ordet "CAT" forskjøvet med 7 posisjoner i alfabetet, noe som produserer det krypterte ordet "JHA".

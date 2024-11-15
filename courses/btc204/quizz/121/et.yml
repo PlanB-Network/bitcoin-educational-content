@@ -1,0 +1,13 @@
+question: Kuidas toimib "vart" faas Karikakra protokollis?
+
+answer: Tehing saadetakse läbi juhusliku sõlmede tee
+
+wrong_answers:
+  - Tehing edastatakse kohe kõigile lähtesõlme eakaaslastele
+  - Tehing salvestatakse ajutiselt kesksõlmes enne edastamist
+  - Tehing krüpteeritakse järk-järgult iga edastusetapi juures
+
+explanation: |
+  Karikakra kasutab esmalt "vart" faasi, kus tehing saadetakse läbi juhusliku sõlmede tee. Seejärel edastatakse tehing kogu võrgustikule "udusule" faasis.
+
+reviewed: false

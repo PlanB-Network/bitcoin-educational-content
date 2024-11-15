@@ -1,9 +1,12 @@
-question: Bất kỳ ai cũng có thể sao chép mã nguồn của Bitcoin, làm cho nó trở nên vô giá trị, đúng hay sai?
-answer: Đúng
+question: Bất kỳ ai cũng có thể sao chép mã nguồn Bitcoin?
+answer: có, nhưng không thể sao chép giá trị của mạng lưới Bitcoin
 wrong_answers:
-  - Sai
+  - có và bạn cũng có thể sao chép giá trị của mạng lưới Bitcoin
+  - không và bạn có thể sao chép giá trị của mạng lưới Bitcoin
+  - không, vì mã nguồn Bitcoin là closed-source
 explanation: |
   Mặc dù mã nguồn của Bitcoin là mã nguồn mở và có thể được sao chép,
   nhưng giá trị của bitcoin không phải đến từ mã nguồn của nó. Giá trị của nó đến từ
   mạng lưới người dùng và sự tin tưởng cũng như sự chấp nhận mà nó đã xây dựng được theo thời gian.
 reviewed: true
+

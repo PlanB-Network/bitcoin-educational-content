@@ -1,0 +1,9 @@
+question: Kes lõi Mt. Gox vahetusplatvormi 18. juulil 2010, nädal pärast Bitcoin'i "suurt slashdottingut"?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+  Ta lõi selle tõhusa turuplatsi "hetke ajel", mõistes, kui keeruline oli saada bitcoine vahetades dollareid (eriti Bitcoin Market'is).
+reviewed: false

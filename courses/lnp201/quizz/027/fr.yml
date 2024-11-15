@@ -1,10 +1,9 @@
-question: Quand la transaction de retrait est-elle exécutée lors d'un transfert sur le réseau Lightning ?
-answer: Lorsque le canal est fermé.
+question: Pourquoi la fermeture forcée est-elle moins souhaitable ?
+answer: Elle est plus lente et les frais peuvent être inadaptés
 wrong_answers:
-  - Lorsque le transfert est effectué.
-  - Lorsque le canal est ouvert.
-  - Elle n'est jamais exécutée.
+  - Elle nécessite une autorisation de Satoshi Nakamoto
+  - Elle oblige à recréer un canal plus tard
+  - Elle empêche d'utiliser la clé de révocation
 explanation: |
-  La transaction de retrait, qui représente l'état du canal,
-  n'est pas exécutée à moins que le canal ne soit fermé.
+  La fermeture forcée est moins souhaitable car elle inclut un timelock, ce qui ralentit le processus, et les frais peuvent être inadaptés puisqu'ils ont été définis au moment de la création du canal.
 reviewed: false

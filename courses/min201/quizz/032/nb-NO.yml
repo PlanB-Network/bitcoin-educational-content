@@ -1,0 +1,8 @@
+question: Hva er belønningen for gruvearbeidere i Bitcoin-nettverket?
+answer: Nye bitcoins og transaksjonsgebyrer.
+wrong_answers:
+  - Bare nye bitcoins.
+  - Bare transaksjonsgebyrer.
+  - Det er ingen belønning for gruvearbeidere.
+explanation: |
+  Gruvearbeidere i Bitcoin-nettverket blir belønnet med nye bitcoins og transaksjonsgebyrer for deres arbeid med å validere og opprette blokker.

@@ -1,0 +1,9 @@
+domanda: Cosa distingue uno schema di crittografia moderno da un semplice schema di cifratura?
+risposta: La garanzia dell'integrità e dell'autenticità del messaggio
+risposte_errate:
+  - L'uso di una singola chiave segreta
+  - La decentralizzazione della chiave
+  - L'anonimizzazione dei messaggi
+spiegazione: |
+  La crittografia moderna include schemi che vanno oltre la confidenzialità per garantire l'integrità e l'autenticità, così come la non ripudiabilità, a differenza dei semplici schemi di cifratura.
+recensito: false

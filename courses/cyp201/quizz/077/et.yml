@@ -1,0 +1,9 @@
+question: Kuidas arvutatakse Legacy aadressi kontrollsummat?
+answer: HASH256 abil.
+wrong_answers:
+  - HASH160 abil.
+  - BCH koodi abil.
+  - RIPEMD160 abil.
+explanation: |
+  Legacy aadresside puhul saadakse kontrollsumma teostades topelt hashimise SHA256 funktsiooniga (HASH256).
+reviewed: false

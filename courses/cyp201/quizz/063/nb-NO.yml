@@ -1,0 +1,8 @@
+question: Hva er de to typene av nøkkelavledning i en HD-lommebok?
+answer: Normal avledning og forsterket avledning.
+wrong_answers:
+  - Enkel avledning og kompleks avledning.
+  - Elliptisk avledning og kurveavledning.
+  - Statisk avledning og dynamisk avledning.
+explanation: |
+  De to typene av avledning er normal avledning, som bruker den overordnede offentlige nøkkelen, og forsterket avledning, som bruker den overordnede private nøkkelen.

@@ -1,0 +1,9 @@
+domanda: Cosa succede se si usa una chiave di 7 per cifrare la parola "CAT"?
+risposta: La parola diventa "JHA"
+risposte_errate:
+  - La parola diventa "JBA"
+  - La parola diventa "JHB"
+  - La parola diventa "ZHA"
+spiegazione: |
+  Utilizzando una chiave di 7, ogni lettera della parola "CAT" viene spostata di 7 posizioni nell'alfabeto, il che produce la parola cifrata "JHA".
+recensito: false

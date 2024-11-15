@@ -1,0 +1,12 @@
+pertanyaan: Apa tugas utama penambang dalam jaringan Bitcoin?
+jawaban: Untuk memecahkan teka-teki digital dan memvalidasi blok baru
+jawaban_salah:
+  - Untuk menciptakan bitcoin baru
+  - Untuk mengontrol harga Bitcoin
+  - Untuk memverifikasi identitas pengguna Bitcoin
+penjelasan: |
+  Dalam konteks penambangan Bitcoin, penambang berusaha untuk cepat memecahkan
+  teka-teki digital. Penambang pertama yang memecahkan teka-teki tersebut menyajikan solusinya ke seluruh
+  jaringan, yang kemudian dapat dengan mudah memverifikasi keabsahannya. Verifikasi yang berhasil
+  ini memungkinkan penambang untuk memvalidasi blok baru dan menambahkannya ke Timechain Bitcoin.
+ditinjau: false

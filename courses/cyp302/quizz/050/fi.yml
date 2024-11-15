@@ -1,0 +1,9 @@
+kysymys: Miksi kaksikantaiset laajennuskentät ovat hyödyllisiä kryptografiassa?
+vastaus: Ne mahdollistavat binäärijonojen turvallisen käsittelyn.
+väärät_vastaukset:
+  - Ne yksinkertaistavat laskutoimituksia vähentämällä operaatioiden määrää.
+  - Ne estävät laskuvirheitä lisäämällä redundanssia.
+  - Ne rajoittavat mahdollisuuksien määrää vähentämällä elementtien lukumäärää.
+selitys: |
+  Kaksikantaiset laajennuskentät ovat käteviä, koska niiden elementit voidaan nähdä binäärijonoina, mikä tekee digitaalisen datan operaatioiden suorittamisesta binääritasolla järjestelmissä helpompaa.
+arvioitu: false

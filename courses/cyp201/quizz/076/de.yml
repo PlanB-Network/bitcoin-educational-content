@@ -1,9 +1,9 @@
-question: Was passiert, wenn die Passphrase einer Bitcoin-Wallet geändert wird?
-answer: Die Bitcoin-Wallet wird komplett anders.
-wrong_answers:
-  - Die Bitcoin-Wallet wird unzugänglich.
-  - Die Bitcoin-Wallet bleibt gleich.
-  - Die Bitcoin-Wallet verliert alle ihre Bitcoins.
-explanation: |
-  Wenn die Passphrase geändert wird, wird die Bitcoin-Wallet komplett anders, da die Passphrase eine Rolle bei der Konstruktion und Berechnung aller Schlüssel der Wallet spielt.
-reviewed: false
+Frage: Wie wird die Prüfsumme einer SegWit-Adresse berechnet?
+Antwort: Mit einem BCH-Code.
+falsche_Antworten:
+  - Mit HASH160.
+  - Mit HASH256.
+  - Mit SHA512.
+Erklärung: |
+  Für SegWit-Adressen wird die Prüfsumme mit dem BCH-Code berechnet, was die Erkennung möglicher Fehler in der Adresse ermöglicht.
+überprüft: false

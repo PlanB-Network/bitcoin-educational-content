@@ -1,0 +1,9 @@
+question: Miks on oluline mitte kunagi korduvkasutada nonce'i ECDSA algoritmis?
+answer: Nonce'i korduvkasutamine seab ohtu turvalisuse ja võib paljastada privaatvõtme.
+wrong_answers:
+  - Nonce'i korduvkasutamine aeglustab jõudlust.
+  - Nonce'i korduvkasutamine muudab allkirjad pikemaks.
+  - Nonce'i korduvkasutamine suurendab avaliku võtme suurust.
+explanation: |
+  Nonce'i korduvkasutamine ECDSA-s võib võimaldada ründajal avastada privaatvõtme, seades ohtu turvalisuse.
+reviewed: false

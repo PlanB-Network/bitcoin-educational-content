@@ -1,0 +1,10 @@
+question: Hva er en felles funksjon for alle P2P-løsningene diskutert i kapittelet?
+answer: De legger alle til rette for kjøp og salg av Bitcoin.
+wrong_answers:
+  - De bruker alle Lightning Network.
+  - De krever alle en konto for å operere.
+  - De har alle et DAO-system.
+explanation: |
+  Kapittelet diskuterer ulike P2P-løsninger for å kjøpe Bitcoin, men ikke
+  alle av dem deler de samme funksjonene. Den felles funksjonen blant alle er at
+  de legger til rette for kjøp og salg av Bitcoin.

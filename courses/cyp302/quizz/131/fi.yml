@@ -1,0 +1,9 @@
+kysymys: Miksi asymmetristä kryptografiaa käytetään vähemmän kuin symmetristä kryptografiaa suurissa datansiirroissa?
+vastaus: Se on vähemmän tehokasta vastaavalla turvallisuustasolla
+vaarat_vastaukset:
+  - Se ei varmista viestien aitoutta
+  - Se vaatii useita julkisia avaimia jokaista vaihtoa varten
+  - Se ei ole yhteensopiva modernien viestintäprotokollien kanssa
+selitys: |
+  Asymmetrinen kryptografia, vaikka se onkin tehokas autentikoinnissa ja alkuperäisessä salauksessa, vaatii enemmän resursseja, mikä tekee sen käytöstä tehottoman merkittävissä datansiirroissa.
+arvioitu: false

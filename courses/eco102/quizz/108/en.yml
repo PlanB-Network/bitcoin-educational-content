@@ -1,0 +1,9 @@
+question: What economic illusion did Bastiat criticize, which would reappear in the 20th century?
+answer: That the State can "create jobs"
+wrong_answers:
+  - That the market needs the State
+  - That the market can self-regulate
+  - That companies can create wealth without regulation
+explanation: |
+  Bastiat criticized the idea that the State could create jobs without harming other jobs due to the impact of the taxes needed to fund these creations.
+reviewed: false

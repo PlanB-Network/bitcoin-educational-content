@@ -1,0 +1,9 @@
+question: Mis on peamine segaduse allikas terminite "blokšiffer" ja "voogšiffer" vahel?
+answer: Blokšiffreid mõistetakse mõnikord ainult algoritmidena, mis kasutavad blokeerimisrežiime nagu ECB või CBC.
+wrong_answers:
+  - Voogšiffreid peetakse alati vähem turvaliseks kui blokšiffreid.
+  - Blokšiffrid töötavad korraga ühe binaarbiti peal.
+  - Voogšiffreid on alati vaja täita.
+explanation: |
+  Segadus tekib asjaolust, et mõned peavad blokšiffreid ainult teatud blokeerimisrežiime kasutavateks algoritmideks, samas kui tegelikkuses võivad need hõlmata krüpteerimisskeeme nagu OFB režiim.
+reviewed: false

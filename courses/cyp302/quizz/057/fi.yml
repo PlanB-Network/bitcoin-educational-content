@@ -1,0 +1,8 @@
+kysymys: Mikä on abelin ryhmä?
+vastaus: Ryhmä, jossa operaatio on vaihdannainen
+vaarat_vastaukset:
+  - Ryhmä, jolla on yksilöllinen generaattori
+  - Ryhmä, joka rajoittuu kokonaislukuihin
+  - Ryhmä ilman neutraalia alkiota
+selitys: |
+  Abelin ryhmä on ryhmä, jossa alkioiden järjestyksellä operaation suorittamisessa ei ole vaikutusta lopputulokseen, mikä tarkoittaa, että se noudattaa vaihdannaisuutta.

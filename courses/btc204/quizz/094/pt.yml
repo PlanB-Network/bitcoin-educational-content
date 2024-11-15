@@ -1,0 +1,11 @@
+pergunta: Entre as seguintes respostas, qual não é uma prática recomendada para gerenciar a mudança doxxic de alguém?
+
+resposta: Mesclar UTXOs doxxic juntos.
+
+respostas_erradas:
+  - Misturar UTXOs doxxic em um pool menor.
+  - Doar os UTXOs doxxic de alguém.
+  - Marcar os UTXOs doxxic de alguém como não gastáveis.
+
+explicação: |
+  É aconselhado contra a mesclagem de UTXOs doxxic juntos porque permite que uma conexão seja feita entre as diferentes entradas do usuário no Whirlpool.

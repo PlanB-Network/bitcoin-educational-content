@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es el algoritmo de cifrado de bloques adoptado como el estándar AES?
+respuesta: El Cifrado Rijndael
+respuestas_incorrectas:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explicación: |
+  El Cifrado Rijndael fue adoptado como el estándar de cifrado simétrico (AES) por NIST, debido a su alto rendimiento y seguridad.
+revisado: false

@@ -1,0 +1,13 @@
+question: How does Wabisabi manage change compared to Wasabi 1.0?
+
+answer: It splits it into several small amounts distributed in equal denominations.
+
+wrong_answers:
+  - It consolidates them to prevent them from becoming "dust".
+  - It excludes them before the coinjoin transaction by equalizing the inputs.
+  - It automatically transfers it to a reserve wallet.
+
+explanation: |
+  Unlike Wasabi 1.0, where the change was directly linked to the users' inputs, Wabisabi aims to subdivide the change into several small amounts, distributed in equal denominations to all participants.
+
+reviewed: false

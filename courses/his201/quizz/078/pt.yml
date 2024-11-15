@@ -1,0 +1,9 @@
+pergunta: Para quem Satoshi Nakamoto transferiu o controle do site (que também inclui o fórum e a wiki) ao se retirar?
+resposta: Martti Malmi
+respostas_erradas:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explicação: |
+  Ele não tinha tempo para gerenciá-lo e rapidamente delegou a tarefa. O site e o fórum foram assumidos por Theymos e Cøbra.
+revisado: false

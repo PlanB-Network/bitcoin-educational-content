@@ -1,0 +1,11 @@
+question: Hva er den primære årsaken til kortsiktig prisvolatilitet i stablecoins?
+answer: Lave likviditetsnivåer på børser
+wrong_answers:
+  - Mangel på reserver for å møte uttakskrav
+  - Hacks som kompromitterer stablecoinen
+  - Depegging av stablecoins
+explanation: |
+  Kortsiktig prisvolatilitet i stablecoins skyldes ofte 
+  likviditetsproblemer, der mindre børser kanskje ikke har kapasitet 
+  til å møte kundenes etterspørsel, noe som forårsaker midlertidige prisfluktuasjoner.
+reviewed: true

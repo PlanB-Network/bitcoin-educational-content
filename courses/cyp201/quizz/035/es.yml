@@ -1,9 +1,8 @@
-question: ¿Cuál es el tamaño de una clave pública de Bitcoin?
-answer: Número de 512 bits
-wrong_answers:
-  - Número de 256 bits
-  - Número de 128 bits
-  - Número de 1024 bits
-explanation: |
-  En el sistema de Bitcoin, se utiliza una clave privada única para derivar una clave pública de 512 bits.
-reviewed: false
+pregunta: ¿Cuál es la información primitiva que permite determinar una buena frase mnemotécnica para una cartera HD?
+respuesta: Una entropía externa que permite determinar un número aleatorio o pseudoaleatorio.
+respuestas_incorrectas:
+  - El primer nombre del propietario de la cartera.
+  - Ninguna información, elegimos directamente las palabras que nos gustan.
+  - La fecha de creación de la cartera.
+explicación: |
+  La frase mnemotécnica se deriva de una fuente de entropía, lo que significa información aleatoria o pseudoaleatoria, para asegurar la seguridad de las claves privadas.

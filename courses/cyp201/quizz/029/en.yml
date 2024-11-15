@@ -1,12 +1,9 @@
-question: What is the main purpose of digital signatures in the Bitcoin protocol?
-answer: To demonstrate the possession of a private key associated with a specific public key
+question: What does a digital signature prove in the Bitcoin system via the scriptSig?
+answer: The possession of the private key associated with a specific public key.
 wrong_answers:
-  - To encrypt the transaction data
-  - To generate new bitcoins
-  - To verify the identity of the sender
+  - The possession of a Bitcoin address.
+  - The ability to mine a Bitcoin block.
+  - The validity of a Bitcoin transaction.
 explanation: |
-  At the core of the Bitcoin protocol, digital signatures are used as
-  mathematical
-  proofs demonstrating the possession of a private key associated with a specific
-  public key.
+  A digital signature proves that the user has the private key without having to reveal it, ensuring the authenticity of the transaction.
 reviewed: false

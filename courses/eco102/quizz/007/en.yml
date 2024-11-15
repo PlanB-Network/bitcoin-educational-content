@@ -1,0 +1,9 @@
+question: Which revolution did Frédéric Bastiat experience closely as a deputy?
+answer: The revolution of 1848
+wrong_answers:
+  - The revolution of 1830
+  - The revolution of 1871
+  - The revolution of 1789
+explanation: |
+  Bastiat witnessed the revolution of 1848, which established the Second Republic and led to his election as a deputy.
+reviewed: false

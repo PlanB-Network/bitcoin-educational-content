@@ -1,0 +1,9 @@
+question: Que représente l'opération "modulo" en mathématiques ?
+answer: Le reste d'une division
+wrong_answers:
+  - Le quotient d'une division
+  - Le double du nombre de départ
+  - Le nombre qui divise sans reste
+explanation: |
+  L'opération modulo consiste à déterminer le reste d'une division, par exemple 25 mod 4 donne 1 car le reste de la division est 1.
+reviewed: false

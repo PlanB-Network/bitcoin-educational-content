@@ -1,0 +1,9 @@
+otázka: Jaká je podmínka pro to, aby celé číslo a mělo inverzi modulo N?
+odpověď: a a N musí být nesoudělná
+špatné_odpovědi:
+  - N musí být sudé
+  - a musí být liché
+  - a musí být prvočíslo
+vysvětlení: |
+  Celé číslo a má inverzi modulo N právě tehdy, pokud jsou nesoudělná, což znamená, že jejich největší společný dělitel je 1.
+recenzováno: false

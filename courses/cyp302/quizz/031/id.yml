@@ -1,0 +1,9 @@
+pertanyaan: Bagaimana sebuah string acak didefinisikan dalam bab ini?
+jawaban: Sebagai string yang dipilih secara seragam dari semua string dengan panjang yang sama
+jawaban_salah:
+  - Sebagai string yang dibuat hanya dengan bit 0 dan 1
+  - Sebagai string yang diperoleh dari seleksi manual
+  - Sebagai string dengan panjang variabel yang merupakan hasil dari proses enkripsi
+penjelasan: |
+  Sebuah string acak didefinisikan sebagai pilihan seragam di antara semua string yang mungkin dengan panjang yang sama.
+ditinjau: false

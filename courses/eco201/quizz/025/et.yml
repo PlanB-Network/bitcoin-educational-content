@@ -1,0 +1,11 @@
+question: Mis on "kahekordse soovide kokkulangemise" probleemi kolm mõõdet?
+answer: Ruumiline, ajaline ja isikutevaheline.
+wrong_answers:
+  - Ruumiline, ajaline ja isikusisene.
+  - Ruumiline, ajavaheline ja isikutevaheline.
+  - Ruumidevaheline, ajaline ja isikutevaheline.
+explanation: |
+  "Kahekordse soovide kokkulangemise" probleem viitab raskusele
+  vahetustehingutes, kus mõlemal poolel peab olema midagi, mida teine soovib samal
+  ajal ja kohas. Sellel probleemil on kolm mõõdet; ruumiline (sama koht), ajaline
+  (sama aeg) ja isikutevaheline (vastastikune soov teineteise kaupade järele).

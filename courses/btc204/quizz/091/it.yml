@@ -1,0 +1,13 @@
+domanda: Perché si sconsiglia di unire diversi UTXO dopo cicli di coinjoin?
+
+risposta: Questo potrebbe compromettere la privacy a causa della CIOH.
+
+risposte_errate:
+  - Diminuisce la velocità delle transazioni.
+  - Rivela attività sospette al coordinatore.
+  - Questo potrebbe compromettere la privacy a causa dell'euristica del pagamento circolare.
+
+spiegazione: |
+  È importante evitare di combinare UTXO mescolati con UTXO non mescolati nella stessa transazione, ma anche di mescolare tra loro gli UTXO, al fine di evitare l'euristica della proprietà comune dell'input (CIOH).
+
+revisionato: false

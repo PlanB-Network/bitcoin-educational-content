@@ -1,0 +1,9 @@
+question: Mis nime on antud konsensuse probleemile hajutatud võrgustikus?
+answer: Bütsantsi Kindralite Probleem
+wrong_answers:
+  - Rooma Kentuurionide Probleem
+  - Albaania Kolonelite Probleem
+  - Jaapani Taišode Probleem
+explanation: |
+  Selle probleemi nimi (mille formaliseerisid Lamport, Shostak ja Pease 1982. aastal) valiti selleks, et vältida lugeja solvamist, kuna keegi pole kunagi end Bütsantsina identifitseerinud.
+reviewed: false

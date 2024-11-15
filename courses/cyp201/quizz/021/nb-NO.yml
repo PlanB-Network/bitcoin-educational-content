@@ -1,0 +1,9 @@
+question: Hva er størrelsen på en Bitcoin privatnøkkel?
+answer: 256 bits.
+wrong_answers:
+  - 512 bytes.
+  - 520 bits.
+  - 512 bits.
+explanation: |
+  Bitcoin privatnøkkelen har en standard størrelse på 256 bits, som tilsvarer den elliptiske kurvealgoritmen brukt i Bitcoin.
+reviewed: false

@@ -1,0 +1,9 @@
+pertanyaan: Apa definisi dari variabel acak dalam konteks kriptografi?
+jawaban: Sebuah variabel yang dapat mengambil beberapa nilai yang mungkin dengan probabilitas positif
+jawaban_salah:
+  - Sebuah variabel yang mengubah nilai setiap saat
+  - Sebuah variabel yang nilainya tetap dan telah ditentukan sebelumnya
+  - Sebuah variabel yang selalu didefinisikan dalam konteks eksperimen fisik tertentu
+penjelasan: |
+  Sebuah variabel acak dapat mengambil dua atau lebih nilai, masing-masing dengan probabilitas positif, dan seringkali didefinisikan secara abstrak dalam konteks kriptografi.
+ditinjau: false

@@ -1,9 +1,9 @@
-question: Quem são os dois pares envolvidos na transferência da Lightning Network no exemplo?
-answer: Alice e Bob.
-wrong_answers:
-  - Alice e Charlie.
-  - Bob e Charlie.
-  - Alice e a rede Bitcoin.
-explanation: |
-  No exemplo, Alice e Bob são os dois pares envolvidos na transferência da Lightning Network.
-reviewed: false
+pergunta: O que Bob pode fazer se detectar uma tentativa de Alice de trapacear durante o fechamento do canal?
+resposta: Usar a chave de revogação para recuperar todos os fundos
+respostas_erradas:
+  - Cancelar a transação de compromisso de Alice
+  - Fechar permanentemente o canal sem opção de reabertura
+  - Reivindicar apenas metade dos fundos disponíveis
+explicação: |
+  No caso de trapaça, Bob pode usar a chave de revogação para recuperar todos os fundos do canal, assim punindo Alice por sua tentativa.
+revisado: false

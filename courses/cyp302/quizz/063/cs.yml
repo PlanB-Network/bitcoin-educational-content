@@ -1,0 +1,9 @@
+otázka: Proč se v příkladech kryptografie často používají postavy Alice a Bob?
+odpověď: Aby se zjednodušeně ilustrovaly kryptografické principy
+špatné_odpovědi:
+  - Protože Alice a Bob jsou technické termíny v kryptografii
+  - Protože jsou to nejběžnější jména na světě
+  - Protože reprezentují počítačové systémy
+vysvětlení: |
+  Alice a Bob se v kryptografii běžně používají jako fiktivní postavy k ilustraci výměny zpráv a kryptografických principů zjednodušeným a schématickým způsobem.
+recenzováno: false

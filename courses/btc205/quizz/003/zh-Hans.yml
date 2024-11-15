@@ -1,0 +1,8 @@
+question: 法国AMF的角色是什么？
+answer: 它负责监管金融市场。
+wrong_answers:
+  - 它负责监管教育系统。
+  - 它负责监管医疗保健系统。
+  - 它负责监管交通系统。
+explanation: |
+  “AMF（Autorité des marchés financiers，金融市场管理局）是法国的市场监管机构。”

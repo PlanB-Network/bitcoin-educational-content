@@ -1,9 +1,9 @@
-question: Qual è il significato del punto all'infinito nell'algoritmo ECDSA?
-answer: Se il punto calcolato P è il punto all'infinito, la firma è invalida.
-wrong_answers:
-  - Se il punto calcolato P è il punto all'infinito, la firma è valida.
-  - Il punto all'infinito viene utilizzato per calcolare il nonce.
-  - Il punto all'infinito viene utilizzato per crittografare le chiavi.
-explanation: |
-  Nell'algoritmo ECDSA, se il punto calcolato P sulla curva ellittica è il punto all'infinito, la firma viene considerata invalida. Questo è uno dei controlli eseguiti durante la validazione di una firma digitale.
-reviewed: false
+domanda: Cosa succede se utilizzo un portafoglio HD con una passphrase e perdo quella passphrase?
+risposta: I miei bitcoin sono persi per sempre.
+risposte_errate:
+  - Non è un problema, posso ancora accedere ai miei bitcoin solo con la mia frase mnemonica.
+  - Posso reimpostare la passphrase con la mia chiave privata.
+  - Posso recuperare i miei bitcoin utilizzando un portafoglio senza passphrase.
+spiegazione: |
+  Se la passphrase viene persa, l'accesso ai bitcoin è permanentemente perso, poiché è necessaria per derivare le chiavi private.
+recensito: false

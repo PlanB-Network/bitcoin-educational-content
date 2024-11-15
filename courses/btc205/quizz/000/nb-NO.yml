@@ -1,0 +1,10 @@
+question: Hva er det primære målet med KYC?
+answer: Å bekjempe hvitvasking av penger, finansiering av terrorisme og skatteunndragelse.
+wrong_answers:
+  - Å øke kostnadene for etterlevelse for bedrifter
+  - Å sentralisere sensitive databaser som inneholder personlig brukerinformasjon
+  - Å avskrekke franske bedrifter og skade deres konkurranseevne
+explanation: |
+  KYC, eller "Know Your Customer," er en regulatorisk standard som har som mål å bekjempe
+  hvitvasking av penger, finansiering av terrorisme og skatteunndragelse ved å kreve innsamling
+  av privat kundeinformasjon.

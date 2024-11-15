@@ -1,9 +1,8 @@
-question: ¿Cuál es la longitud de las claves privadas en una billetera de Bitcoin?
-answer: 256 bits
-wrong_answers:
-  - 128 bits
-  - 512 bits
-  - 1024 bits
-explanation: |
-  Las claves privadas en una billetera de Bitcoin, que son esenciales para la propiedad de criptomonedas, tienen una longitud fija de 256 bits.
-reviewed: false
+pregunta: ¿Qué información se calcula a partir de la semilla aplicando HMAC-SHA512?
+respuesta: La clave maestra y el código de cadena maestro de la billetera.
+respuestas_incorrectas:
+  - La clave extendida de la billetera.
+  - El xpub y xprv de la billetera.
+  - El código de firma de la clave privada.
+explicación: |
+  A partir de la semilla, HMAC-SHA512 deriva la clave maestra y el código de cadena maestro, que son la base para la generación de claves.

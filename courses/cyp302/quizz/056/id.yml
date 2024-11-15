@@ -1,0 +1,8 @@
+pertanyaan: Jenis struktur aljabar apa yang menjadi dasar dari aljabar abstrak?
+jawaban: Grup
+jawaban_salah:
+  - Lapangan
+  - Cincin
+  - Matriks
+penjelasan: |
+  Grup adalah struktur aljabar fundamental yang menjadi dasar aljabar abstrak, didefinisikan oleh sebuah himpunan elemen dan sebuah operasi biner yang menghormati beberapa sifat tertentu.

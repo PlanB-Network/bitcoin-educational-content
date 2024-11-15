@@ -1,0 +1,9 @@
+câu hỏi: Điều gì xảy ra nếu một kẻ tấn công chặn được một tin nhắn được mã hóa trong một hệ thống mã hóa đối xứng tốt?
+câu trả lời: Họ không nên học được bất cứ điều gì đáng kể về tin nhắn gốc
+câu trả lời sai:
+  - Họ luôn có thể giải mã tin nhắn mà không cần khóa
+  - Họ nên có thể giải mã nó bằng một khóa công khai
+  - Họ nên có thể đoán nội dung của tin nhắn
+giải thích: |
+  Trong một hệ thống mã hóa đối xứng được thiết kế tốt, một kẻ tấn công chặn được tin nhắn mã hóa không nên có khả năng suy luận thông tin liên quan về nội dung của tin nhắn mà không có khóa giải mã.
+đã xem xét: false

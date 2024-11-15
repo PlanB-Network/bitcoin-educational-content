@@ -1,0 +1,9 @@
+question: Que signifie l'expression "marché politique" pour Frédéric Bastiat ?
+answer: Disposer du bien d'autrui par la loi
+wrong_answers:
+  - Faire des courses
+  - Gagner des primaires
+  - Acheter des services publics
+explanation: |
+  Le "marché politique" chez Bastiat réfère à la tendance de l'État à disposer des biens d'autrui par voie législative, phénomène qu'il critique comme étant de la "spoliation légale".
+reviewed: false

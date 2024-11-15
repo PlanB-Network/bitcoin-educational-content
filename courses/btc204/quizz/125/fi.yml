@@ -1,0 +1,11 @@
+kysymys: Mikä on päämääränä kolikkovaihdossa?
+
+vastaus: Siirtää bitcoineja omistusoikeus salassa
+
+väärät_vastaukset:
+  - Nopeuttaa transaktioiden nopeutta
+  - Sekoittaa bitcoineja
+  - Vaihtaa salassa altcoinin bitcoiniin
+
+selitys: |
+  Kolikkovaihto käyttää älykkäitä sopimuksia mahdollistaakseen bitcoinien omistusoikeuden siirron kahden käyttäjän välillä ilman luottamuksen tarvetta ja ilman, että tämä siirto näkyy eksplisiittisesti lohkoketjussa.

@@ -1,0 +1,9 @@
+kysymys: Miksi siirtoenkoodausta pidetään symmetrisenä salauksena?
+vastaus: Koska sama avain käytetään sekä salaukseen että purkamiseen
+vaarat_vastaukset:
+  - Koska se käyttää kahta avainta, julkista ja yksityistä
+  - Koska se purkaa salauksen käyttämättä avainta
+  - Koska avain vaihtelee jokaisen salauksen yhteydessä
+selitys: |
+  Siirtoenkoodausta pidetään symmetrisenä salauksena, koska se käyttää samaa avainta viestin salaamiseen ja purkamiseen, näin varmistaen luottamuksellisuuden avainta jakavien osapuolten välillä.
+arvioitu: false

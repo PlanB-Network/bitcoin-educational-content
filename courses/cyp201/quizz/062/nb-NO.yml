@@ -1,0 +1,8 @@
+question: For å utføre en derivasjon av et normalt barnenøkkelpar, må jeg legge inn i HMAC-SHA512-funksjonen...
+answer: forelder offentlig nøkkel || indeks, forelder kjedekode.
+wrong_answers:
+  - forelder privat nøkkel || indeks, forelder kjedekode.
+  - forelder privat nøkkel, forelder kjedekode.
+  - forelder privat nøkkel || indeks.
+explanation: |
+  For å derivere en normal barnenøkkel, brukes den foreldres offentlige nøkkel med indeksen og kjedekoden i HMAC-SHA512-funksjonen.

@@ -1,0 +1,9 @@
+question: Hva består nyttelasten til en utvidet nøkkel av?
+answer: En offentlig eller privat nøkkel, og den tilknyttede kjedekoden.
+wrong_answers:
+  - En privat nøkkel og den tilknyttede offentlige nøkkelen.
+  - En kjedekode, en offentlig nøkkel, og en privat nøkkel.
+  - En privat nøkkel og et avledningsindeks.
+explanation: |
+  Nyttelasten til en utvidet nøkkel inkluderer enten en offentlig eller privat nøkkel, sammen med en kjedekode brukt til å avlede barne nøkler.
+reviewed: false

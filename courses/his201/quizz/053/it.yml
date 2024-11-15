@@ -1,0 +1,9 @@
+domanda: Quale aggiunta nell'estate del 2010 ha permesso successivamente i soft fork in Bitcoin?
+risposta: I codici operativi OP_NOP
+risposte_errate:
+  - Il sistema di allerta
+  - Il limite di dimensione del blocco
+  - Il formato standard della transazione
+spiegazione: |
+  Questi erano istruzioni no-op che non invalidavano lo script se eseguite. Hanno permesso l'aggiunta di OP_CHECKLOCKTIMEVERIFY e OP_CHECKSEQUENCEVERIFY al protocollo nel 2015/2016.
+recensito: false

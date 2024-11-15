@@ -1,10 +1,8 @@
-question: Mikä on XOR-operaattorin rooli SHA256:n tiivistysfunktiossa?
-answer: Käsittelemään bittejä yksi kerrallaan niiden järjestyksen mukaan
-wrong_answers:
-  - Palauttaa 1 vain, jos molemmat operandit ovat yhtä suuri kuin 1
-  - Palauttaa operandin vastakkaisen arvon
-  - Siirtää bitit oikealle valitun numeron verran
-explanation: |
-  SHA256:n tiivistysfunktiossa XOR-operaattoria käytetään käsittelemään
-  bitit yksi kerrallaan niiden järjestyksen mukaan. Tämä tehdään käyttäen totuustaulua.
-reviewed: false
+kysymys: Kuinka monta iteraatiota käytetään PBKDF2-funktiossa Bitcoinissa?
+vastaus: 2048.
+väärät_vastaukset:
+  - 512.
+  - 1000.
+  - 21000.
+selitys: |
+  Bitcoin käyttää 2048 iteraatiota PBKDF2-funktiossa siemenen turvallisuuden parantamiseksi.

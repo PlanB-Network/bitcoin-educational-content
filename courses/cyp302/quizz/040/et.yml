@@ -1,0 +1,8 @@
+question: Millist põhilist tingimust peab rühm "S" koos binaarse tehtega rahuldama, et olla grupp?
+answer: Sulgemise tingimus
+wrong_answers:
+  - Kommutatiivsuse tingimus
+  - Sümmeetria tingimus
+  - Distributiivsuse tingimus
+explanation: |
+  Hulgal "S" koos binaarse tehtega peab olema mitu tingimust, et moodustada grupp, ja esimene neist on sulgemise tingimus: kahe "S" elemendi vaheline tehe peab andma tulemuseks "S" elemendi.

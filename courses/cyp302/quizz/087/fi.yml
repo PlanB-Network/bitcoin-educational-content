@@ -1,0 +1,9 @@
+kysymys: Mikä lohkosalausmenetelmä käyttää alustusvektoria ja luo todennäköisyyspohjaista salausta?
+vastaus: CBC ("Cipher Block Chaining")
+vaarat_vastaukset:
+  - ECB ("Electronic Code Book")
+  - AES-128
+  - SHA-256
+selitys: |
+  CBC-menetelmä käyttää alustusvektoria ja soveltaa XOR-operaatiota jokaisen tekstialkion ja edellisen salatun lohkon välillä, mikä tekee salauksesta todennäköisyyspohjaista ja turvallisempaa kuin ECB.
+arvioitu: false

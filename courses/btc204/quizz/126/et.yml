@@ -1,0 +1,13 @@
+question: Millist krüptograafilist meetodit saab kasutada mündivahetustes, et tagada vahetuse turvalisus ilma usaldusvajaduseta?
+
+answer: Adapteerivad Allkirjad
+
+wrong_answers:
+  - Sümmeetriline krüpteerimine
+  - ECDH
+  - Asümmeetriline krüpteerimine
+
+explanation: |
+  Mündivahetuse sooritamiseks võib kasutada HTLC-sid või PTLC-sid. Need kaks protokolli töötavad sarnasel viisil, kasutades ajalukusüsteemi, mis tagab, et vahetus kas lõppeb edukalt või tühistatakse täielikult, mis kaitseb mõlema poole vahendite terviklikkust. Peamine erinevus HTLC-de ja PTLC-de vahel seisneb selles, et HTLC-d kasutavad tehingu turvamiseks hashe ja eelkujusid, samas kui PTLC-d kasutavad adapteerivaid allkirju.
+
+reviewed: false

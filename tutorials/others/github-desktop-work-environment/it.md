@@ -59,13 +59,13 @@ Per mantenere la consistenza tra questi due repository, sarà necessario sincron
 
 - Ritorna al software GitHub Desktop. Ormai, il tuo fork dovrebbe apparire nella sezione `Your repositories`. Se non lo vedi immediatamente, usa il pulsante a doppia freccia per aggiornare l'elenco. Quando il tuo fork appare, cliccaci sopra per selezionarlo:
 ![github-desktop](assets/15.webp)
-- Poi clicca sul pulsante blu: `Clone [username]/sovereign-university-data`:
+- Poi clicca sul pulsante blu: `Clone [username]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Mantieni il percorso predefinito. Per confermare, clicca sul pulsante blu `Clone`:
 ![github-desktop](assets/17.webp)
 - Attendi mentre GitHub Desktop clona localmente il tuo fork:
 ![github-desktop](assets/18.webp)
-- Dopo aver clonato il repository, il software ti offre due opzioni. Devi selezionare la prima: `To contribute to the parent project`. Questa scelta ti permetterà di presentare il tuo futuro lavoro come un contributo al progetto principale (`DecouvreBitcoin/sovereign-university-data`), e non esclusivamente come una modifica del tuo fork personale (`[username]/sovereign-university-data`). Una volta scelta l'opzione, clicca su `Continue`:
+- Dopo aver clonato il repository, il software ti offre due opzioni. Devi selezionare la prima: `To contribute to the parent project`. Questa scelta ti permetterà di presentare il tuo futuro lavoro come un contributo al progetto principale (`PlanB-Network/bitcoin-educational-content`), e non esclusivamente come una modifica del tuo fork personale (`[username]/bitcoin-educational-content`). Una volta scelta l'opzione, clicca su `Continue`:
 ![github-desktop](assets/19.webp)
 - Il tuo GitHub Desktop è ora correttamente configurato. Ora, puoi lasciare il software aperto in background per seguire le modifiche che apporteremo.
 ![github-desktop](assets/20.webp)
@@ -82,7 +82,7 @@ Puoi anche recuperare le modifiche dal fork, ad esempio, durante una sincronizza
 - Si aprirà il tuo esplora file. Devi localizzare e selezionare la cartella intitolata `GitHub`, che dovrebbe trovarsi nella tua directory `Documenti` tra i tuoi file. Questo percorso corrisponde a quello stabilito durante il passo 4. Dopo aver scelto la cartella, conferma la sua selezione. La creazione del tuo caveau su Obsidian verrà quindi avviata su una nuova pagina del software:
 
 ![github-desktop](assets/24.webp)
--> **Attenzione**, è importante non scegliere la cartella `sovereign-university-data` quando si crea un nuovo caveau in Obsidian. Invece, seleziona la cartella principale, `GitHub`. Se selezioni la cartella `sovereign-university-data`, la cartella di configurazione `.obsidian`, contenente le tue impostazioni locali di Obsidian, verrà automaticamente integrata nel repository. Vogliamo evitare questo, poiché non è necessario trasferire le tue configurazioni di Obsidian al repository di PlanB Network. Un'alternativa è aggiungere la cartella `.obsidian` al file `.gitignore`, ma questo metodo modificherebbe anche il file `.gitignore` del repository sorgente, il che non è desiderabile.
+-> **Attenzione**, è importante non scegliere la cartella `bitcoin-educational-content` quando si crea un nuovo caveau in Obsidian. Invece, seleziona la cartella principale, `GitHub`. Se selezioni la cartella `bitcoin-educational-content`, la cartella di configurazione `.obsidian`, contenente le tue impostazioni locali di Obsidian, verrà automaticamente integrata nel repository. Vogliamo evitare questo, poiché non è necessario trasferire le tue configurazioni di Obsidian al repository di PlanB Network. Un'alternativa è aggiungere la cartella `.obsidian` al file `.gitignore`, ma questo metodo modificherebbe anche il file `.gitignore` del repository sorgente, il che non è desiderabile.
 
 - Sul lato sinistro della finestra, puoi vedere l'albero dei file con i tuoi diversi repository GitHub che sono stati clonati localmente.
 - Cliccando sulle frecce accanto ai nomi delle cartelle, puoi espanderle per accedere alle sottocartelle dei repository e ai loro documenti:

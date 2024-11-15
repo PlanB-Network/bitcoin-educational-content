@@ -1,0 +1,9 @@
+pertanyaan: Mengapa penting untuk tidak pernah menggunakan nonce yang sama lebih dari sekali dalam algoritma ECDSA?
+jawaban: Menggunakan nonce yang sama lebih dari sekali dapat mengompromikan keamanan dan dapat mengekspos kunci privat.
+jawaban_salah:
+  - Menggunakan nonce yang sama lebih dari sekali memperlambat kinerja.
+  - Menggunakan nonce yang sama membuat tanda tangan menjadi lebih panjang.
+  - Menggunakan nonce yang sama meningkatkan ukuran kunci publik.
+penjelasan: |
+  Menggunakan nonce yang sama dalam ECDSA dapat memungkinkan penyerang untuk menemukan kunci privat, mengompromikan keamanan.
+ditinjau: false

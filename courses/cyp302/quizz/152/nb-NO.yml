@@ -1,0 +1,8 @@
+question: Hva er funksjonen til den private nøkkelen "d" i RSA-kryptosystemet?
+answer: Den brukes til å dekryptere meldinger ved hjelp av modulus N
+wrong_answers:
+  - Den brukes kun til å kryptere meldinger
+  - Den brukes til å låse opp bitcoins
+  - Den brukes til å beregne φ(N)
+explanation: |
+  Den private nøkkelen "d" brukes til å dekryptere krypterte meldinger, ved å fullføre beregningen med modulus N.

@@ -1,0 +1,9 @@
+pertanyaan: Apa definisi bilangan bulat yang koprima terhadap bilangan bulat lainnya?
+jawaban: Sebuah bilangan bulat yang memiliki faktor persekutuan terbesar 1 dengan bilangan bulat tersebut
+jawaban_salah:
+  - Sebuah bilangan bulat yang dapat dibagi oleh bilangan bulat lainnya tanpa sisa
+  - Sebuah bilangan bulat yang merupakan bilangan prima
+  - Sebuah bilangan bulat yang lebih besar dari bilangan lainnya
+penjelasan: |
+  Sebuah bilangan bulat dikatakan koprima dengan bilangan lain jika faktor persekutuan terbesarnya adalah 1, yang berarti mereka tidak memiliki faktor bersama lainnya.
+ditinjau: false

@@ -1,0 +1,9 @@
+Frage: Welche Rolle spielen Zertifizierungsstellen im Prozess der Verteilung öffentlicher Schlüssel?
+Antwort: Sie stellen Zertifikate aus, die die Echtheit von öffentlichen Schlüsseln garantieren.
+falsche_Antworten:
+  - Sie generieren private Schlüssel für Benutzer.
+  - Sie speichern öffentliche Schlüssel für alle Benutzer.
+  - Sie gewährleisten die Verschlüsselung von Nachrichten zwischen Benutzern.
+Erklärung: |
+  Zertifizierungsstellen geben Zertifikate aus, die einen öffentlichen Schlüssel mit seinem Besitzer verknüpfen, wodurch Benutzer die Echtheit der öffentlichen Schlüssel, die sie verwenden, überprüfen können.
+überprüft: false

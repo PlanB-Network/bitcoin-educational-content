@@ -1,0 +1,8 @@
+question: Millises numbrisüsteemis on laiendatud võti tavaliselt kodeeritud, et seda kasutajale esitada?
+answer: Baasis 58.
+wrong_answers:
+  - bech32-s.
+  - Baasis 16.
+  - bech32m-s.
+explanation: |
+  Laiendatud võti on üldiselt kodeeritud baasis 58, et see oleks kasutajale loetavam ja vältida segadust tekitavaid tähemärke.

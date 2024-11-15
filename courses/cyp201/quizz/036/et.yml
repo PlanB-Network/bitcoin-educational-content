@@ -1,0 +1,9 @@
+question: Mis on PRNG?
+answer: Algoritm, mis genereerib juhuslikke numbreid seemnest ja transformatsioonifunktsioonist.
+wrong_answers:
+  - Riistvaraseade, mis genereerib tõeliselt juhuslikke numbreid.
+  - Generaator, mis toodab juhuslikke numbreid ilma seemneta.
+  - Algoritm, mis genereerib etteaimatavaid numbreid.
+explanation: |
+  PRNG genereerib pseudojuhuslikke numbreid seemnest, kuid erinevalt TRNG-st, ei ole see tõeliselt juhuslik.
+reviewed: false

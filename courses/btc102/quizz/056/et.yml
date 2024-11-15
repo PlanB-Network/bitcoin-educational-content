@@ -1,0 +1,8 @@
+question: Mis on Bitcoin'i lõplik visioon vastavalt "Bitcoin'i maantee" metafoorile?
+answer: See saab olema maantee internetiliiklusele ja 90% maailma elanikkonnast.
+wrong_answers:
+  - See saab olema luksuskaup, mis on kättesaadav ainult jõukatele.
+  - See saab olema vahend ebaseaduslikeks tegevusteks.
+  - See muutub iganenuks ja asendatakse teiste krüptovaluutadega.
+explanation: |
+  "Bitcoin'i maantee" metafoor kujutab Bitcoin'i kui maanteed internetiliiklusele ja 90% maailma elanikkonnale, kus kaubad ja teenused on otseselt sellel maanteel kättesaadavad.

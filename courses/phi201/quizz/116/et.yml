@@ -1,0 +1,9 @@
+question: Milline suursündmus tähistas dollari konverteeritavuse lõppu kullaks?
+answer: Nixoni šokk
+wrong_answers:
+  - Suur depressioon
+  - Naftašokk
+  - Teine maailmasõda
+explanation: |
+  Nixoni šokk, 1971. aastal, lõpetas dollari konverteeritavuse kullaks, tähistades Bretton Woodsi süsteemi lõppu ja ujuvate valuutade algust, kuna Ameerika Ühendriigid ei suutnud enam toetada dollari vahetamist kullaks.
+reviewed: false

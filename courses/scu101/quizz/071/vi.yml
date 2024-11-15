@@ -1,9 +1,0 @@
-question: Phương pháp được khuyến nghị để quản lý mật khẩu chính của một trình quản lý mật khẩu là gì?
-answer: Ghi nó ra giấy và giữ nó ở một nơi kín đáo và an toàn.
-wrong_answers:
-  - Lưu trữ nó trong email của bạn.
-  - Sử dụng cùng một mật khẩu cho tất cả các tài khoản.
-  - Ghi nhớ nó.
-explanation: |
-  Việc ghi mật khẩu chính của trình quản lý mật khẩu ra giấy và giữ nó ở một nơi kín đáo và an toàn được khuyến nghị. Điều này là bởi vì nếu ổ cứng được mã hóa và máy tính được khóa, mật khẩu sẽ không thể truy cập được, ngay cả trong trường hợp bị đột nhập.
-reviewed: false

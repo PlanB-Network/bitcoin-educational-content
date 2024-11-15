@@ -1,0 +1,9 @@
+câu hỏi: Nếu một số nguyên N là tích của hai số nguyên tố p và q, thì cách tính bậc của N như thế nào?
+câu trả lời: (p - 1) * (q - 1)
+câu trả lời sai:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+giải thích: |
+  Đối với N bằng tích của hai số nguyên tố p và q, bậc của N được tính là (p - 1) * (q - 1).
+đã xem xét: false

@@ -1,9 +1,9 @@
-question: Welcher Standard wird am häufigsten für eine 24-Wort-Wiederherstellungsphrase in einer Bitcoin-Wallet verwendet?
-answer: Eine Entropie von 256 Bits.
-wrong_answers:
-  - Eine Entropie von 128 Bits.
-  - Eine Entropie von 160 Bits.
-  - Eine Entropie von 512 Bits.
-explanation: |
-  Der am häufigsten verwendete Standard für eine 24-Wort-Wiederherstellungsphrase ist eine Entropie von 256 Bits.
-reviewed: false
+Frage: Was zeigt der folgende Ableitungspfad an? m/44'/0'/0'/0/0
+Antwort: Eine externe Legacy-Adresse im Hauptnetz.
+falsche_Antworten:
+  - Eine externe SegwitV1-Adresse im Hauptnetz.
+  - Eine interne Legacy-Adresse im Testnetz.
+  - Eine externe SegwitV0-Adresse im Hauptnetz.
+Erklärung: |
+  Der Ableitungspfad m/44'/0'/0'/0/0 zeigt eine externe Legacy-Adresse im Hauptnetzwerk (mainnet) an. 44' = Legacy, 0' = Hauptnetz, 0 = extern
+überprüft: false

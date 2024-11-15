@@ -1,10 +1,9 @@
-question: What is the role of PBKDF2 in the Bitcoin protocol?
-answer: It is used to convert a mnemonic phrase into a seed.
+question: What is the most well-known elliptical curve used in cryptographic systems?
+answer: secp256r1.
 wrong_answers:
-  - It is used to counter length extension attacks when deriving hierarchically deterministic (HD) wallets.
-  - It is used to generate a fixed-size output.
-  - It is used to add an additional source of entropy in key derivation.
+  - secp256k1.
+  - secp160r1.
+  - ed25519.
 explanation: |
-  PBKDF2 is used to convert a mnemonic phrase into a seed. This algorithm
-  performs 2048 rounds using HMAC SHA512.
+  The elliptical curve secp256r1 is widely used in many cryptographic systems, but Bitcoin uses the curve secp256k1.
 reviewed: false

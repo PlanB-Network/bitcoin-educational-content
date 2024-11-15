@@ -1,0 +1,8 @@
+pertanyaan: Proses apa yang menjadi dasar model uang elektronik eCash?
+jawaban: Tanda tangan buta
+jawaban_salah:
+  - Tanda tangan grup
+  - Tanda tangan cincin
+  - Tanda tangan ambang
+penjelasan: |
+  eCash didasarkan pada proses tanda tangan buta, yang memungkinkan seorang penandatangan untuk menandatangani sesuatu tanpa melihat apa yang mereka tandatangani.

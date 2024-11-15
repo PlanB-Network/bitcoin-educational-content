@@ -1,0 +1,13 @@
+otázka: Co měří dopředná anonymita?
+
+odpověď: Odolnost soukromí proti analýze z minulosti do současnosti.
+
+špatné_odpovědi:
+  - Odolnost soukromí proti analýze z současnosti do minulosti.
+  - Odolnost soukromí proti analýze z budoucnosti do současnosti.
+  - Odolnost soukromí proti analýze z budoucnosti do minulosti.
+
+vysvětlení: |
+  Dopředná anonymita měří odolnost soukromí mince proti analýze z minulosti do současnosti (vstup do výstupu).
+
+recenzováno: false

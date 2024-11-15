@@ -1,0 +1,8 @@
+问题: 采用作为AES标准的块加密算法是什么？
+答案: Rijndael Cipher
+错误答案:
+  - DES
+  - RSA
+  - Diffie-Hellman
+解释: |
+  由于其高性能和安全性，Rijndael Cipher 被NIST采用作为对称加密标准(AES)。

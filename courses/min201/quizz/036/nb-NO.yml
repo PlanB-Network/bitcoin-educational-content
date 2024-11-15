@@ -1,0 +1,11 @@
+question: Hva er forholdet mellom kostnaden for Bitcoin og prisen på den?
+answer: Kostnaden for Bitcoin er generelt proporsjonal med prisen på den
+wrong_answers:
+  - Kostnaden for Bitcoin er omvendt proporsjonal med prisen på den
+  - Kostnaden for Bitcoin er urelatert til prisen på den
+  - Kostnaden for Bitcoin er alltid høyere enn prisen på den
+explanation: |
+  Kostnaden for Bitcoin, som er relatert til elektrisiteten som trengs for å drive
+  mining-maskiner, er generelt proporsjonal med prisen på den. Dette forholdet gir
+  en bedre forståelse av prisfluktuasjoner og fremtidige utsikter.
+reviewed: false

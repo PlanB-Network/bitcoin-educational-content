@@ -122,7 +122,7 @@ Pをパディングのために使用されるビット数、64を第二前処�
 ステップ2: 最終的に必要なビット数に達するために必要なP、パディングビット数を決定します。
 -> M + 1 + P + 64 = n * 512
 -> M + 1 + P + 64 = 2 * 512
--> 940 + 1 + P + 64 = 1024
+-> 950 + 1 + P + 64 = 1024
 -> P = 1024 - 1 - 64 - 950
 -> P = 9
 
@@ -791,13 +791,14 @@ Bitcoinプロトコルで広く使用されている暗号技術の方法の一�
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 最終試験
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
+
 
 ## 結論と終わり
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>

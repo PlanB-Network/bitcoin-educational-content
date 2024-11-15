@@ -1,10 +1,9 @@
-question: Vai trò của PBKDF2 trong giao thức Bitcoin là gì?
-answer: Nó được sử dụng để chuyển đổi cụm từ ghi nhớ thành hạt giống.
-wrong_answers:
-  - Nó được sử dụng để chống lại các cuộc tấn công mở rộng độ dài khi tạo ví xác định phân cấp (HD).
-  - Nó được sử dụng để tạo ra đầu ra cố định kích thước.
-  - Nó được sử dụng để thêm một nguồn entropy bổ sung trong việc tạo khóa.
-explanation: |
-  PBKDF2 được sử dụng để chuyển đổi cụm từ ghi nhớ thành hạt giống. Thuật toán này
-  thực hiện 2048 vòng sử dụng HMAC SHA512.
-reviewed: false
+câu hỏi: Đường cong elliptic nào là nổi tiếng nhất được sử dụng trong các hệ thống mật mã?
+câu trả lời: secp256r1.
+câu trả lời sai:
+  - secp256k1.
+  - secp160r1.
+  - ed25519.
+giải thích: |
+  Đường cong elliptic secp256r1 được sử dụng rộng rãi trong nhiều hệ thống mật mã, nhưng Bitcoin sử dụng đường cong secp256k1.
+đã xem xét: false

@@ -1,0 +1,9 @@
+question: Hvem hadde ideen om å sette opp et testnettverk for å unngå å skade det primære Bitcoin-nettverket?
+answer: Gavin Andresen
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Laszlo Hanyecz
+explanation: |
+  Han [nevnte](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) denne ideen på forumet 9. juni, og Satoshi godkjente. Han [opprettet](https://bitcointalk.org/index.php?topic=363.msg3018#msg3018) testnettet 15. juli.
+reviewed: false

@@ -269,7 +269,7 @@ O grupo Lighting Walker apresenta sua solução para Serviço de Remessas usando
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 

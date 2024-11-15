@@ -1,9 +1,0 @@
-question: Que se passe-t-il avec le HTLC si Bob ne récupère jamais le secret ?
-answer: Le HTLC expirera après un certain nombre de blocs.
-wrong_answers:
-  - Le HTLC sera immédiatement annulé.
-  - Le HTLC sera transféré à Alice.
-  - Le HTLC sera transféré à Susie.
-explanation: |
-  Si Bob ne récupère jamais le secret, le HTLC expirera après un certain nombre de blocs. Il s'agit d'un mécanisme intégré pour garantir que le contrat ne reste pas indéfiniment en suspens.
-reviewed: false

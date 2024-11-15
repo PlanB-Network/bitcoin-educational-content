@@ -1,0 +1,9 @@
+pregunta: ¿Cuándo tuvo lugar el primer intercambio entre bitcoin y el dólar?
+respuesta: 12 de octubre de 2009
+respuestas_erróneas:
+  - 8 de mayo de 2009
+  - 30 de diciembre de 2009
+  - 11 de marzo de 2010
+explicación: |
+  Martti transfirió 5,050 bitcoins a NLS, quien luego transfirió $5.02 a su cuenta de PayPal. Esto correspondió a un precio unitario de aproximadamente $0.001.
+revisado: false

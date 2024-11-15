@@ -1,0 +1,9 @@
+otázka: V kterém roce byla oficiálně objevena asymetrická kryptografie?
+odpověď: 1976
+špatné_odpovědi:
+  - 1676
+  - 1776
+  - 1876
+vysvětlení: |
+  Byla představena Whitfieldem Diffiem a Martinem Hellmanem, dvěma kryptografy ze Stanfordovy univerzity, v článku publikovaném v listopadu 1976.
+recenzováno: false

@@ -1,11 +1,9 @@
-question: What is the purpose of the second phase of preprocessing in SHA256?
-answer: To add the binary representation of the initial message size, in bits
+question: In order to apply this elliptical curve to cryptographic uses, on what field must we define it?
+answer: A finite field of positive integers.
 wrong_answers:
-  - To add padding bits to the input
-  - To separate the input into different blocks of 512-bit messages
-  - To perform 64 rounds of calculation in the compression function
+  - The field of real numbers.
+  - A finite field of real numbers.
+  - A complex field.
 explanation: |
-  The second phase of preprocessing in SHA256 involves adding the binary
-  representation of the initial message size, in bits. This is done using the 64 reserved
-  bits from the previous step.
+  In Bitcoin, the elliptical curve secp256k1 is defined over a finite field of positive integers modulo a prime number to avoid approximations and ensure security.
 reviewed: false

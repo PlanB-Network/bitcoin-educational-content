@@ -1,0 +1,13 @@
+Frage: Wie wird die Entropie im Kontext der Kettenanalyse bei Bitcoin berechnet?
+
+Antwort: Indem man den binären Logarithmus der Anzahl der Interpretationen nimmt.
+
+Falsche Antworten:
+  - Indem man die Anzahl der Eingaben mit der Anzahl der Ausgaben multipliziert.
+  - Indem man die Anzahl der Eingaben und Ausgaben addiert.
+  - Indem man den binären Logarithmus der Anzahl der Eingaben und Ausgaben nimmt.
+
+Erklärung: |
+  Entropie wird als der binäre Logarithmus der Anzahl möglicher Kombinationen definiert.
+
+Überprüft: false

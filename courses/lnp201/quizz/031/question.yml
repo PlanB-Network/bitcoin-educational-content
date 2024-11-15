@@ -1,64 +1,18 @@
-id: 06cbfc5d-5256-4c34-af2b-bc1f003c0bb3
-chapterId: f2f61e5b-badb-5947-9a81-7aa530b44e59
-difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+id: e2fdcea9-61d0-470d-bdc9-4f875d2850f3
+chapterId: 45a7252c-fa4f-554b-b8bb-47449532918e
+difficulty: easy
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Commitment Transaction
-  - Revocation Key
+  - offchain
+  - lightning
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2740
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2620
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1310
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2680
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2740
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-11-01
     urgency: 1
     contributors_id:
-    reward: 2620
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2680
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2860
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2620
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2860
+      - LoicPandul
+    reward:

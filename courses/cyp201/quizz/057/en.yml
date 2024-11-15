@@ -1,12 +1,9 @@
-question: What is the main challenge in generating random numbers on computers for
-  Bitcoin transactions?
-answer: The results obtained are not truly random.
+question: With an extended public key, I can derive...
+answer: ...normal child public keys.
 wrong_answers:
-  - The process is too complex for most users.
-  - It requires a lot of computational power.
-  - It is not compatible with all types of computers.
+  - ...hardened child public keys.
+  - ...normal child private keys.
+  - ...hardened child private keys.
 explanation: |
-  Computers follow set algorithms, which makes it difficult to generate
-  truly random numbers. This is a significant challenge in cryptography, where randomness
-  is crucial for the security of private keys and Bitcoin transactions.
+  An extended public key allows for the derivation of only normal child public keys, but not private keys.
 reviewed: false

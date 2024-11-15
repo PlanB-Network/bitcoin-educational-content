@@ -1,0 +1,8 @@
+pertanyaan: Apa tiga komponen esensial dari skema enkripsi simetris?
+jawaban: Algoritma pembangkit kunci, algoritma enkripsi, dan algoritma dekripsi
+jawaban_salah:
+  - Algoritma hashing, kunci publik, dan algoritma verifikasi
+  - Kunci publik, kunci privat, dan algoritma dekripsi
+  - Algoritma enkripsi, kunci publik, dan kunci privat
+penjelasan: |
+  Skema enkripsi simetris terdiri dari tiga elemen: algoritma pembangkit kunci, algoritma enkripsi, dan algoritma dekripsi. Ketiganya menggunakan kunci yang sama.

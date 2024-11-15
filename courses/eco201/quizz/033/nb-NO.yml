@@ -1,0 +1,14 @@
+question: Hva er forholdet mellom sparing og levestandard ifølge østerrikske økonomer?
+answer: Jo mer vi sparer, desto mer kapital vil vi kunne akkumulere, noe som igjen vil føre til produktivitetsgevinster som gir flere varer. Dermed oppnås en høyere levestandard.
+wrong_answers:
+  - Jo mer vi sparer, desto lavere blir vår levestandard.
+  - Det er ingen sammenheng mellom sparing og levestandard.
+  - Jo mindre vi sparer, desto høyere blir vår levestandard.
+explanation: |
+  "Østerrikske økonomer anser at senking av tidspreferanser er\
+  \ utgangspunktet for en dydig syklus av sparing \u2013> mer kapitalvarer\
+  \ \uF0E0 mer produktivitet \uF0E0 flere varer = høyere levestandard \u2013\
+  > lavere tidspreferanse. Således, jo mer vi sparer, desto mer kapital vil vi være i stand\
+  \ til å akkumulere, noe som igjen vil føre til produktivitetsgevinster som gir flere\
+  \ varer. Dette fører til en høyere levestandard."
+reviewed: false

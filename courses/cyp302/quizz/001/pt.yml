@@ -1,0 +1,9 @@
+pergunta: O que continha na caixa de ferro entregue a Robert Morriss?
+resposta: Três textos criptografados e uma nota
+respostas_erradas:
+  - Um mapa e pistas
+  - Uma chave de criptografia única
+  - Uma lista única de nomes
+explicação: |
+  A caixa continha três textos criptografados e uma nota explicando a descoberta de um tesouro e fornecendo instruções sobre como recuperar seu conteúdo.
+revisado: false

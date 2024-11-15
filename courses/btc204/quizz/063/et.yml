@@ -1,0 +1,13 @@
+question: Millised on 2 privaatsusriski, mis on seotud müntide valimisega?
+
+answer: CIOH ja seos sisendite / identiteedi vahel, mida saaja näeb.
+
+wrong_answers:
+  - IP-aadressi jälgimine ja tegevuste korrelatsioon.
+  - Ajaline jälgimine ja aadressi taaskasutus.
+  - Aadressi taaskasutus ja seos sisendite / identiteedi vahel välise vaatleja poolt.
+
+explanation: |
+  Müntide valimisel tuleb arvestada kahe riskiga: maksesaaja võime seostada osa teie identiteedist kasutatud UTXO-dega kui sisenditega ja välise vaatleja võime luua seoseid kõigi tarbitud UTXO-de vahel kui sisenditega (CIOH).
+
+reviewed: false

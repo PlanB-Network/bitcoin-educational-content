@@ -1,11 +1,9 @@
-question: Who initiates the process of opening a channel in the Lightning Network?
-answer: Alice
+question: How does the timelock protect against cheating in commitment transactions?
+answer: It prevents the offending party from immediately retrieving their funds
 wrong_answers:
-  - Bob
-  - Both Alice and Bob
-  - Neither Alice nor Bob
+  - It automatically refunds the funds to the cheater
+  - It cancels the transaction in case of an attempted cheat
+  - It blocks the use of the revocation key
 explanation: |
-  In the process of opening a channel in the Lightning Network, Alice is
-  the one who initiates the process. She communicates her intention to open a channel
-  to Bob, who provides his public address in response.
+  The timelock imposes a delay during which the cheater cannot retrieve their funds, thus giving the other party the opportunity to respond.
 reviewed: false

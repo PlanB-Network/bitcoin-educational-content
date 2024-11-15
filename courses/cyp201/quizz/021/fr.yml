@@ -1,9 +1,9 @@
-question: Combien de tours PBKDF2 effectue-t-il en utilisant HMAC SHA512?
-answer: 2048 tours
+question: Quelle est la taille d'une clé privée Bitcoin ?
+answer: 256 bits.
 wrong_answers:
-  - 1024 tours
-  - 512 tours
-  - 4096 tours
+  - 512 octets.
+  - 520 bits.
+  - 512 bits.
 explanation: |
-  PBKDF2 est utilisé pour convertir une phrase mnémonique en une graine. Cet algorithme effectue 2048 tours en utilisant HMAC SHA512.
+  La clé privée Bitcoin a une taille standard de 256 bits, correspondant à l'algorithme de courbe elliptique utilisé dans Bitcoin.
 reviewed: false

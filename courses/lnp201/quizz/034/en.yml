@@ -1,11 +1,9 @@
-question: What is the purpose of the Timelock in a commitment transaction?
-answer: It locks the funds until a certain block.
+question: What information must the sending node know to perform an onion routing payment?
+answer: The network topology and the complete route to the recipient
 wrong_answers:
-  - It locks the transaction until a certain block.
-  - It locks the channel until a certain block.
-  - It locks the revocation key until a certain block.
+  - Only the next intermediate node
+  - The capacity of each channel
+  - The cryptographic signature of each node on the path
 explanation: |
-  The Timelock in a commitment transaction locks the funds until a certain
-  block. This prevents the party who created the transaction from immediately recovering
-  their money.
+  The sending node must know the network topology to calculate the route to the recipient, allowing it to choose the best path.
 reviewed: false

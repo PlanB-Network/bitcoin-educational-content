@@ -1,0 +1,9 @@
+domanda: Che tipo di cifratura è la cifratura a scorrimento?
+risposta: Una cifratura sostitutiva monoalfabetica
+risposte_errate:
+  - Una cifratura di permutazione di parole
+  - Una cifratura sostitutiva polialfabetica
+  - Una cifratura asimmetrica
+spiegazione: |
+  La cifratura a scorrimento è un esempio di cifratura sostitutiva monoalfabetica, dove ogni lettera nel messaggio viene spostata di un numero fisso di posizioni nell'alfabeto.
+recensito: false

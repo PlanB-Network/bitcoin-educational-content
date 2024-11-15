@@ -96,7 +96,7 @@ Alla fine di questa esplorazione, abbiamo svelato i misteri delle funzioni di ha
 
 
 Benvenuti al proseguimento del nostro affascinante viaggio attraverso i labirinti crittografici della funzione di hash. Oggi sveliamo i misteri di SHA256, un processo complesso ma ingegnoso che abbiamo introdotto in precedenza.
--> 940 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
+-> 950 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
 -> P = 9
 
 Pertanto, sono necessari 9 bit di padding per ottenere un messaggio che sia un multiplo di 512.
@@ -792,13 +792,14 @@ Un altro metodo crittografico ampiamente utilizzato nel protocollo Bitcoin è il
 
 
 
-## Dacci un feedback su questo corso
+## Valuta il corso
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Esame Finale
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
+
 
 ## Conclusioni e fine
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>

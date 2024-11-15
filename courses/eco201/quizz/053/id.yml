@@ -1,0 +1,10 @@
+pertanyaan: Apa itu cherry-picking dalam konteks ekonomi?
+jawaban: Cherry-picking melibatkan pemilihan data secara selektif untuk menetapkan hubungan antar variabel.
+jawaban_salah:
+  - Cherry-picking melibatkan pengabaian semua data dan hanya mengandalkan hipotesis.
+  - Cherry-picking melibatkan penggunaan semua data yang tersedia tanpa seleksi apapun.
+  - Cherry-picking melibatkan penggunaan hanya data yang mendukung kebijakan pemerintah.
+penjelasan: |
+  Dalam ekonomi, cherry-picking melibatkan pemilihan data secara selektif untuk menetapkan
+  hubungan antar variabel. Ini dianggap sebagai metode yang tidak ilmiah dan tidak ketat.
+diulas: false

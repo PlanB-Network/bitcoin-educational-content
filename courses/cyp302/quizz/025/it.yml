@@ -1,0 +1,9 @@
+domanda: Qual è il risultato dell'operazione 0110 XOR 1101?
+risposta: 1011
+risposte_errate:
+  - 0111
+  - 0000
+  - 1101
+spiegazione: |
+  Applicando XOR bit per bit: 0 XOR 1 = 1, 1 XOR 1 = 0, 1 XOR 0 = 1, 0 XOR 1 = 1, quindi il risultato è 1011.
+revisionato: false

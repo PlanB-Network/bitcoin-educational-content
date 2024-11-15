@@ -1,9 +1,9 @@
-question: Hạt giống trong ví Bitcoin đại diện cho cái gì?
-answer: Đó là một số ngẫu nhiên hoặc giả ngẫu nhiên từ đó nhiều khóa được tạo ra.
-wrong_answers:
-  - Đó là mật khẩu để truy cập vào ví.
-  - Đó là giao dịch Bitcoin đầu tiên được ghi lại trong ví.
-  - Đó là chữ ký số của chủ sở hữu ví.
-explanation: |
-  Hạt giống trong ví Bitcoin được cho là một số ngẫu nhiên hoặc giả ngẫu nhiên. Hạt giống này cho phép tạo ra nhiều khóa, là yếu tố thiết yếu cho việc sở hữu tiền mã hóa.
-reviewed: false
+câu hỏi: Mục đích của khóa mở rộng là gì?
+câu trả lời: Để thu thập tất cả thông tin cần thiết để tạo ra các khóa con vào một chuỗi đơn.
+câu trả lời sai:
+  - Để thu thập tất cả thông tin cần thiết để tái tạo một ví HD hoàn chỉnh vào một chuỗi đơn.
+  - Để thu thập thông tin về các UTXO trong ví.
+  - Để thu thập cụm từ ghi nhớ và cụm từ mật khẩu vào một định dạng đơn.
+giải thích: |
+  Một khóa mở rộng cho phép tất cả thông tin cần thiết để tạo ra các khóa con được chứa đựng, do đó đơn giản hóa việc quản lý các tài khoản trong một ví HD.
+đã xem xét: false

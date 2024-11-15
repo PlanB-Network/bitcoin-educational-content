@@ -1,9 +1,9 @@
-question: ¿Cuál es el propósito de las Propuestas de Mejora de Bitcoin (BIPs)?
-answer: Son propuestas de actualización que mejoran la funcionalidad y seguridad de las billeteras HD.
-wrong_answers:
-  - Son propuestas para aumentar el valor de Bitcoin.
-  - Son propuestas para cambiar el proceso de minería de Bitcoin.
-  - Son propuestas para regular el uso de Bitcoin.
-explanation: |
-  Las Propuestas de Mejora de Bitcoin (BIPs) son protocolos que tienen como objetivo mejorar la funcionalidad y seguridad de las billeteras HD. Por ejemplo, BIP32 introdujo el concepto de claves derivadas de manera determinista y jerárquica.
-reviewed: false
+pregunta: ¿Cómo se debe elegir una frase de paso efectiva?
+respuesta: Debe ser larga, diversa y aleatoria, sin ninguna conexión con el usuario.
+respuestas_incorrectas:
+  - Debe ser fácil de recordar y relacionada con el entorno del usuario.
+  - Debe ser corta pero incluir números.
+  - Debe contener al menos 10 dígitos.
+explicación: |
+  Una frase de paso efectiva debe ser larga (de 20 a 40 caracteres), diversa y aleatoria para proporcionar la máxima seguridad, similar a una buena contraseña.
+revisado: false

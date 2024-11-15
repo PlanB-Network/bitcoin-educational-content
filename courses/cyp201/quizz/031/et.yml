@@ -1,0 +1,8 @@
+question: Kuidas määratakse võtmepaarid hierarhilises deterministlikus (HD) rahakotis?
+answer: Kõik rahakoti võtmepaarid määratakse deterministlikul ja hierarhilisel viisil unikaalsest informatsioonist, mis asub rahakoti alusel.
+wrong_answers:
+  - Kõik rahakoti võtmepaarid määratakse sõltumatult teistest, juhuslikult, kasutades juhuarvugeneraatorit.
+  - Iga võtmepaar rahakotis määratakse deterministlikult eelmisest võtmepaarist.
+  - Kõik võtmepaarid on juhuslikud ja ilma hierarhilise seoseta.
+explanation: |
+  HD rahakottides tuletatakse kõik võtmed unikaalsest informatsioonist, mida nimetatakse "seemneks", mis võimaldab võtmete hierarhilist ja deterministlikku haldamist.

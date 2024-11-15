@@ -1,0 +1,9 @@
+question: Mis on "polylogism" Ludwig von Mises'i järgi?
+answer: Polylogism seab kahtluse alla mõistuse ainulaadsuse ja universaalsuse.
+wrong_answers:
+  - Polylogism on teooria, mis selgitab keelte ja kultuuride mitmekesisust.
+  - Austria kasutab seda näitamaks, et marksistlik loogika on vastuoluline.
+  - Polylogism on tekstianalüüsi meetod, mis võimaldab tuvastada sofisme.
+explanation: |
+  Ludwig von Mises'i jaoks on polylogism mõtte, et mõttestruktuurid varieeruvad klasside või gruppide vahel, seades kahtluse alla arusaama, et mõistus on universaalne ja kohaldatav kõigile samal viisil.
+reviewed: false

@@ -1,0 +1,9 @@
+otázka: S jakým obtížným výpočetním problémem je spojen asymetrický systém jako RSA?
+odpověď: Faktorizace prvočísel
+špatné_odpovědi:
+  - Exponenciální násobení celých čísel
+  - Tvorba dlouhých náhodných čísel
+  - Bezpečná výměna klíčů
+vysvětlení: |
+  RSA je založeno na obtížnosti faktorizace prvočísel, výpočetně náročném úkolu, který zabezpečuje kryptosystém proti útokům.
+recenzováno: false

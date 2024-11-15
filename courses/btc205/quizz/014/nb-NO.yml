@@ -1,0 +1,10 @@
+question: Hva er en ulempe med HodlHodl P2P-løsningen?
+answer: Brukerens e-postadresse og digitale identitet lagres av HodlHodl.
+wrong_answers:
+  - Den letter ikke kjøp og salg av Bitcoin.
+  - Den krever opprettelse av en konto for å fungere.
+  - Den tilbyr ikke et bredt spekter av byttemuligheter.
+explanation: |
+  Ifølge kapittelet er en av ulempene med HodlHodl at
+  brukerens e-postadresse og digitale identitet lagres av HodlHodl.
+reviewed: false

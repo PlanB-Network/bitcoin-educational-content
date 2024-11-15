@@ -1,0 +1,11 @@
+question: Mis on sisemine seos rahapakkumise laienemise ja inflatsiooni vahel, nagu väitis Milton Friedman?
+answer: Inflatsioon on alati ja igal pool rahaline nähtus.
+wrong_answers:
+  - Inflatsioon on alati ja igal pool fiskaalne nähtus.
+  - Inflatsioon on alati ja igal pool poliitiline nähtus.
+  - Inflatsioon on alati ja igal pool sotsiaalne nähtus.
+explanation: |
+  Milton Friedman, tuntud majandusteadlane, väitis kuulsalt, et "Inflatsioon
+  on alati ja igal pool rahaline nähtus." See väide toob esile sisemise
+  seose rahapakkumise laienemise ja inflatsiooni vahel.
+reviewed: false

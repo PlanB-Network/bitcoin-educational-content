@@ -1,9 +1,8 @@
-question: ¿Cuál es el propósito de la función hash SHA-256 en la generación de un buen número aleatorio?
-answer: Reduce una pieza inicial de información muy grande a 256 bits.
-wrong_answers:
-  - Aumenta el tamaño de la información inicial.
-  - Encripta la información inicial.
-  - Verifica la autenticidad de la información inicial.
-explanation: |
-  La función hash SHA-256 se utiliza para reducir una pieza inicial de información muy grande a 256 bits. Este proceso ayuda a generar un buen número aleatorio, lo cual es crucial para la seguridad de las claves privadas y las transacciones de Bitcoin.
-reviewed: false
+pregunta: ¿En qué sistema numérico suele codificarse la clave extendida para presentarla al usuario?
+respuesta: En Base 58.
+respuestas_incorrectas:
+  - En bech32.
+  - En Base 16.
+  - En bech32m.
+explicación: |
+  La clave extendida generalmente se codifica en Base 58 para ser más legible para el usuario y evitar caracteres ambiguos.

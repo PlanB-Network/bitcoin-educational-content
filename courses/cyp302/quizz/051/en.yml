@@ -1,0 +1,9 @@
+question: What does the term "champ premier" or "corps premier" mean?
+answer: A field with a prime number of elements
+wrong_answers:
+  - A field containing only prime numbers
+  - A field defined solely by the addition of prime numbers
+  - A field that uses random vectors
+explanation: |
+  A prime field contains a number of elements equal to a prime number, making it a fundamental field for cryptographic operations.
+reviewed: false

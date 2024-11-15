@@ -1,0 +1,8 @@
+question: Miks tugevdab paroolilausendi kasutamine HD rahakoti turvalisust?
+answer: See lisab mnemoonilisele fraasile täiendava kaitsekihi.
+wrong_answers:
+  - See võimaldab genereerida tugevamaid avalikke võtmeid.
+  - See krüpteerib tehinguid krüptograafiliselt.
+  - See kahekordistab rahakotis olevate bitcoinide arvu.
+explanation: |
+  Paroolilausend tugevdab turvalisust, lisades mnemoonilisele fraasile täiendava andmeelemendi, toimides omamoodi nagu 2FA.

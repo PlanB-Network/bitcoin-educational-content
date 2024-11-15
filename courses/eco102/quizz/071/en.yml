@@ -1,0 +1,9 @@
+question: What is the "invisible hand" according to Adam Smith?
+answer: A mechanism by which individual interests serve the general interest
+wrong_answers:
+  - A supernatural force that guides the economy
+  - A conspiracy of the rich to exploit the poor
+  - A metaphor to describe the role of the state in the economy
+explanation: |
+  The "invisible hand" describes how the pursuit of personal interests in a free market unintentionally contributes to the general interest.
+reviewed: false

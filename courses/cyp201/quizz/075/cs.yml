@@ -1,9 +1,9 @@
-question: Jaká funkce se používá k vygenerování seedu z heslové fráze v Bitcoinové peněžence?
-answer: pbkdf2
-wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
-explanation: |
-  Funkce pbkdf2 se používá k vygenerování seedu z heslové fráze v Bitcoinové peněžence. Tento seed umožňuje odvození všech dceřiných párů klíčů peněženky.
-reviewed: false
+otázka: Jak komprimovat veřejný klíč?
+odpověď: Zachováme hodnotu jeho x-ové souřadnice a přidáme prefix, který určuje, kterou y-ovou souřadnici vybrat.
+špatné_odpovědi:
+  - Zachováme hodnotu jeho y-ové souřadnice a přidáme prefix, který určuje, kterou x-ovou souřadnici vybrat.
+  - Hashujeme veřejný klíč pro jeho kompresi.
+  - Použijeme dvojitý SHA256 hash pro kompresi veřejného klíče.
+vysvětlení: |
+  Kompresi veřejného klíče provádíme tak, že zachováme x-ovou souřadnici a přidáme prefix 0x02 nebo 0x03, aby bylo indikováno, zda je y sudé nebo liché.
+recenzováno: false

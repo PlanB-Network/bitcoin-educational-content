@@ -1,0 +1,8 @@
+question: Hvilket elektronisk pengekonsept ble eksplisitt nevnt av Satoshi Nakamoto i Bitcoin-hviteboken?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Dette var den første referansen. Den ble lagt til av Satoshi i august 2008 etter hans utvekslinger med Wei Dai.

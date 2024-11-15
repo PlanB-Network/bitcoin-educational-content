@@ -1,10 +1,9 @@
-question: How many rounds does PBKDF2 perform using HMAC SHA512?
-answer: 2048 rounds
+question: What is the size of a Bitcoin private key?
+answer: 256 bits.
 wrong_answers:
-  - 1024 rounds
-  - 512 rounds
-  - 4096 rounds
+  - 512 bytes.
+  - 520 bits.
+  - 512 bits.
 explanation: |
-  PBKDF2 is used to convert a mnemonic phrase into a seed. This algorithm
-  performs 2048 rounds using HMAC SHA512.
+  The Bitcoin private key has a standard size of 256 bits, corresponding to the elliptic curve algorithm used in Bitcoin.
 reviewed: false

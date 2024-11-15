@@ -1,0 +1,9 @@
+domanda: Qual è la funzione dell'algoritmo di generazione della chiave in uno schema di crittografia simmetrica?
+risposta: Genera una chiave privata
+risposte_errate:
+  - Genera una chiave pubblica
+  - Effettua l'hash del messaggio
+  - Cripta il messaggio
+spiegazione: |
+  In uno schema di crittografia simmetrica, l'algoritmo di generazione della chiave produce una chiave privata, che verrà poi utilizzata per criptare e decriptare i messaggi.
+recensito: false

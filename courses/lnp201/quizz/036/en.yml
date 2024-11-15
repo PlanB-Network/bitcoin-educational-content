@@ -1,11 +1,9 @@
-question: Who has the revocation key in Alice's commitment transaction?
-answer: Only Alice.
+question: What condition must be met for the recipient of an HTLC to receive the funds?
+answer: They must provide a secret (preimage) to unlock the payment.
 wrong_answers:
-  - Only Bob.
-  - Both Alice and Bob.
-  - Neither Alice nor Bob.
+  - They must accept the routing fees of each intermediary node.
+  - They must sign a new commitment transaction.
+  - They must wait for the timelock to expire before retrieving the funds.
 explanation: |
-  In Alice's commitment transaction, only Alice has the revocation key.
-  This allows her to move the funds without waiting for the end of the Timelock if
-  Bob tries to cheat.
+  To receive the funds in an HTLC, the recipient must provide a specific secret that allows unlocking the payment secured by the hash.
 reviewed: false

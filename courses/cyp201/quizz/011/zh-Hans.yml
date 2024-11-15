@@ -1,0 +1,9 @@
+question: 连接操作包括什么？
+answer: 将两个操作数首尾相连。
+wrong_answers:
+  - 加上两个操作数。
+  - 除以两个操作数。
+  - 减去两个操作数。
+explanation: |
+  连接操作涉及将两个操作数一个接一个地放置，而不修改它们，这在密码学中广泛使用。
+reviewed: false

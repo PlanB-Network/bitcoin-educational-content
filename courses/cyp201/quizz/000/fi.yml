@@ -1,10 +1,9 @@
-question: Mikä on laatikoiden periaate kryptografisten hajautusfunktioiden yhteydessä?
-answer: Se selittää, miksi törmäysten välttäminen on mahdotonta lähtökokojen rajoituksen vuoksi, huolimatta parhaista yrityksistämme.
-wrong_answers:
-  - Se selittää hajautusfunktioiden tallennusmekanismin.
-  - Se kuvailee hajautuksen luomisprosessia.
-  - Se on periaate, joka selittää hajautusfunktioiden peruuttamattomuuden.
-explanation: |
-  Laatikoiden periaate kryptografisten hajautusfunktioiden yhteydessä selittää, että lähtökokojen rajoituksen vuoksi törmäysten välttäminen on mahdotonta.
-  Tämä johtuu siitä, että mahdollisia syötteitä on enemmän kuin lähtöjä, joten jotkin syötteet väistämättä jakavat saman lähdön.
-reviewed: false
+kysymys: Mikä on kryptografisen hajautusprosessin tavoite?
+vastaus: Muuntaa mielivaltaisen pituinen bittijono kiinteän pituiseksi bittijonoksi.
+väärät_vastaukset:
+  - Viestin salaaminen.
+  - Varmistaa, että viestin lähettäjä ei voi kieltää lähettäneensä viestiä tulevaisuudessa.
+  - Tietojen luottamuksellisuuden takaaminen.
+selitys: |
+  Hajautus muuntaa minkä tahansa kokoiset tiedot kiinteän kokoiseksi tulosteeksi, mikä on hyödyllistä integriteetin varmistamiseksi ilman, että tietoja välttämättä salataan tai todennetaan.
+arvioitu: false

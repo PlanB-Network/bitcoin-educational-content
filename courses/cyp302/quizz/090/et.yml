@@ -1,0 +1,9 @@
+question: Miks on keeruline luua "plokkrežiimi" krüpteeringut voogšifri abil?
+answer: Kuna voogšifrid töötlevad andmeid pidevalt
+wrong_answers:
+  - Kuna voogšifrid ei kasuta privaatvõtmeid
+  - Kuna plokkrežiimid nõuavad pikemaid võtmeid
+  - Kuna voogšifrid on alati aeglasemad
+explanation: |
+  Voogšifrid on kavandatud andmete pidevaks krüpteerimiseks (biti või baidi kaupa), mis muudab nende kasutamise plokkrežiimis keeruliseks, kuna see nõuab töötlemist fikseeritud suurusega plokkides.
+reviewed: false

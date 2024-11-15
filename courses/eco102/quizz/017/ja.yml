@@ -1,0 +1,9 @@
+question: バスティアにとって、政治経済学とは何ですか？
+answer: 交換の理論
+wrong_answers:
+  - 価値の理論
+  - 富の理論
+  - 購買力の理論
+explanation: |
+  バスティアは、政治経済学を交換の理論と定義しています。
+reviewed: false

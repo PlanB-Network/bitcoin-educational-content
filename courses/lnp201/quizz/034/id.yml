@@ -1,0 +1,8 @@
+pertanyaan: Informasi apa yang harus diketahui oleh node pengirim untuk melakukan pembayaran dengan metode onion routing?
+jawaban: Topologi jaringan dan rute lengkap ke penerima
+jawaban_salah:
+  - Hanya node perantara selanjutnya
+  - Kapasitas dari setiap saluran
+  - Tanda tangan kriptografis dari setiap node di jalur
+penjelasan: |
+  Node pengirim harus mengetahui topologi jaringan untuk menghitung rute ke penerima, memungkinkannya memilih jalur terbaik.

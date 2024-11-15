@@ -1,0 +1,9 @@
+question: Mis põhjustas Satoshi Nakamoto järsku lahkumise detsembris 2010?
+answer: Artikli avaldamine, mis seostas Bitcoini ja WikiLeaks'i
+wrong_answers:
+  - Bitcoin'i vastuvõtmine WikiLeaks'i poolt
+  - Gavin Andreseni võtmine koodi kontrolli alla
+  - Bitcoini ühiku hinna tõus
+explanation: |
+  Pealkirjaga "Kas Wikileaks'i skandaal võib viia uue virtuaalvaluuta loomiseni?", avaldati see [artikkel](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) PC World'is, ühes suurimas Ameerika veebilehel, mis on pühendatud arvutustehnikale.
+reviewed: false

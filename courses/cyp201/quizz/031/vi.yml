@@ -1,9 +1,11 @@
-question: Tổng số khả năng cho một khóa riêng của Bitcoin là bao nhiêu?
-answer: Gần bằng 1.158 x 10^77
-wrong_answers:
-  - Chính xác là 2^256
-  - Nằm giữa 1 và n-1
-  - Gần bằng số lượng nguyên tử có trong vũ trụ quan sát được
-explanation: |
-  Tổng số khả năng cho một khóa riêng của Bitcoin gần bằng 1.158 x 10^77, tương đương với số lượng nguyên tử có trong vũ trụ quan sát được. Điều này là bởi vì một khóa riêng phải nằm giữa 1 và n-1, nơi n đại diện cho thứ tự của đường cong elliptic.
-reviewed: false
+Câu hỏi: Các cặp khóa trong ví Hierarchical Deterministic (HD) được xác định như thế nào?
+
+Câu trả lời: Tất cả các cặp khóa trong ví được xác định một cách có hệ thống và phân cấp từ một thông tin duy nhất ở cơ sở của ví.
+
+Câu trả lời sai:
+  - Tất cả các cặp khóa trong ví được xác định độc lập với nhau, một cách ngẫu nhiên, bởi một bộ sinh số ngẫu nhiên.
+  - Mỗi cặp khóa trong ví được xác định một cách có hệ thống từ cặp khóa trước đó.
+  - Các cặp khóa đều ngẫu nhiên và không có liên kết phân cấp.
+
+Giải thích:
+  Trong ví HD, tất cả các khóa đều được phái sinh từ một thông tin duy nhất gọi là "seed," cho phép quản lý các khóa một cách có hệ thống và phân cấp.

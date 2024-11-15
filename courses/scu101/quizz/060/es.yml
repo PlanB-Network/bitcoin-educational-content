@@ -1,9 +1,0 @@
-question: ¿Cuál es uno de los aspectos de la ciberseguridad que requiere monitoreo regular?
-answer: La constante evolución de las amenazas
-wrong_answers:
-  - El mercado de valores
-  - El clima
-  - Las noticias
-explanation: |
-  El capítulo menciona que la constante evolución de las amenazas en la ciberseguridad requiere monitoreo regular.
-reviewed: false

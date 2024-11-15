@@ -1,0 +1,9 @@
+spørsmål: Hvilket programvareversjonsnummer ble omtalt på Slashdot i juli 2010?
+svar: v0.3
+feil_svar:
+  - v0.1
+  - v0.2
+  - v0.4
+forklaring: |
+  Lanseringen av denne versjonen, som lenge var forberedt av Satoshi og Martti, markerte en ny innsats i kommunikasjon.
+gjennomgått: false

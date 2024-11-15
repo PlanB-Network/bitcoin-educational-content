@@ -1,9 +1,8 @@
-question: Qual é o objetivo final de uma função de hash criptográfica?
-answer: Transformar informações de tamanho arbitrário em uma impressão digital de tamanho fixo.
-wrong_answers:
-  - Criptografar dados para transmissão segura.
-  - Gerar uma chave única para cada usuário.
-  - Comprimir dados para armazenamento eficiente.
-explanation: |
-  O objetivo final de uma função de hash criptográfica é transformar informações de tamanho arbitrário em uma impressão digital de tamanho fixo. Essa impressão digital é única para os dados de entrada e até mesmo uma pequena alteração na entrada resultará em uma impressão digital drasticamente diferente.
-reviewed: false
+pergunta: Qual deve ser o tamanho da entrada da função SHA256 uma vez que seja feito o padding?
+resposta: Um múltiplo de 512 bits.
+respostas_erradas:
+  - De 256 bits.
+  - De 256 bytes.
+  - Um múltiplo de 256 bits.
+explicação: |
+  A função SHA256 requer que a entrada seja um múltiplo de 512 bits após o padding para funcionar corretamente.

@@ -1,9 +1,0 @@
-question: Nhược điểm tiềm ẩn khi tạo bản sao lưu "đám mây" sử dụng các dịch vụ như ProtonMail Drive, Sync, hoặc Google Drive là gì?
-answer: Dữ liệu của bạn có khả năng được lưu trữ trên internet và được giữ bởi một bên thứ ba đáng tin cậy.
-wrong_answers:
-  - Các dịch vụ này không đáng tin cậy cho việc sao lưu dữ liệu.
-  - Các dịch vụ này thường xuyên mất dữ liệu của người dùng.
-  - Các dịch vụ này không cung cấp đủ không gian lưu trữ.
-explanation: |
-  Mặc dù các dịch vụ sao lưu đám mây cung cấp một cách thuận tiện để sao lưu dữ liệu của bạn, chúng cũng có nghĩa là dữ liệu của bạn có khả năng được lưu trữ trên internet và được giữ bởi một bên thứ ba đáng tin cậy. Điều này có thể tiềm ẩn làm lộ dữ liệu của bạn cho các rủi ro bổ sung.
-reviewed: false

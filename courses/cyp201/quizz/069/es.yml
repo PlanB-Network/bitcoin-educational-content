@@ -1,9 +1,9 @@
-question: ¿Cuál es el estándar más comúnmente utilizado para una frase de recuperación de 24 palabras en una billetera de Bitcoin?
-answer: Una entropía de 256 bits.
-wrong_answers:
-  - Una entropía de 128 bits.
-  - Una entropía de 160 bits.
-  - Una entropía de 512 bits.
-explanation: |
-  El estándar más comúnmente utilizado para una frase de recuperación de 24 palabras es una entropía de 256 bits.
-reviewed: false
+pregunta: ¿Qué indica el siguiente camino de derivación? m/44'/0'/0'/0/0
+respuesta: Una dirección Legacy externa en la red principal.
+respuestas_incorrectas:
+  - Una dirección SegwitV1 externa en la red principal.
+  - Una dirección Legacy interna en la red de pruebas.
+  - Una dirección SegwitV0 externa en la red principal.
+explicación: |
+  El camino de derivación m/44'/0'/0'/0/0 indica una dirección Legacy externa en la red principal (mainnet). 44' = Legacy, 0' = mainnet, 0 = externo
+revisado: false

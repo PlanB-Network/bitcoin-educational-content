@@ -1,0 +1,8 @@
+question: Hva er den største svakheten med ECB-metoden med en blokk-kryptering?
+answer: Den er deterministisk og kan avsløre mønstre i dataene
+wrong_answers:
+  - Den krever nøkler med variabel lengde
+  - Den fungerer ikke med meldinger over 128 bits
+  - Den fungerer ikke med meldinger over 256 bits
+explanation: |
+  ECB-metoden ("Electronic Code Book") er deterministisk: identiske datablokker krypteres på samme måte, noe som gjør at mønstre kan oppdages i den krypterte teksten.

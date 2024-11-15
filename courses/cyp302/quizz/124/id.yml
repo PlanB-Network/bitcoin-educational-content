@@ -1,0 +1,8 @@
+pertanyaan: Mengapa pertukaran kunci secara langsung tidak praktis untuk komunikasi online yang aman?
+jawaban: Ini menyebabkan biaya organisasi yang tinggi sambil tidak efisien
+jawaban_salah:
+  - Ini membuat komunikasi terenkripsi tidak dapat digunakan
+  - Ini memerlukan penggunaan beberapa kunci per klien
+  - Ini mencegah penggunaan kembali kunci untuk transaksi berulang
+penjelasan: |
+  Pertukaran kunci secara langsung mahal dan tidak efisien, terutama dalam skala besar, karena memperlambat transaksi dan memberlakukan biaya logistik yang signifikan untuk setiap klien baru.

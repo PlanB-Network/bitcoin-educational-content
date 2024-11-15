@@ -1,11 +1,8 @@
-question: Kdo rozhoduje o trase před odesláním platby v Lightning Network?
-answer: Uzlu odesílatele.
-wrong_answers:
-  - Uzlu příjemce.
-  - Uzlu prostředníka.
-  - Síť samotná.
-explanation: |
-  V Lightning Network je to uzlu odesílatele, který rozhoduje o trase
-  před odesláním platby. Proto dochází k hledání nejlepší trasy a
-  odesílatel je jediný, kdo zná trasu a cenu.
-reviewed: false
+otázka: Která služba umožňuje přesunout likviditu na opačnou stranu kanálu při získávání prostředků na-chain?
+odpověď: Loop Out
+špatné_odpovědi:
+  - Keysend
+  - LNURL
+  - CoinSwap
+vysvětlení: |
+  Služba Loop Out od Lightning Labs umožňuje převod prostředků z Lightning kanálu na on-chain blockchain, čímž optimalizuje kapacitu pro příjem při získávání bitcoinů na hlavním řetězci.

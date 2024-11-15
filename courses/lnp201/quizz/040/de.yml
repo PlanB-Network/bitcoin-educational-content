@@ -1,9 +1,9 @@
-question: Was passiert, wenn Alice versucht zu betrügen, indem sie eine alte Verpflichtungstransaktion veröffentlicht?
-answer: Bob verwendet den Widerrufsschlüssel, um Alice zu bestrafen und alle SAT aus dem Kanal zu nehmen.
-wrong_answers:
-  - Alice wird für ihre Cleverness belohnt.
-  - Alice und Bob teilen sich die SAT aus dem Kanal.
-  - Die Transaktion wird abgelehnt und es passiert nichts.
-explanation: |
-  Das Lightning-Netzwerk hat einen Mechanismus, um Betrug zu verhindern. Wenn Alice versucht, durch Veröffentlichung einer alten Verpflichtungstransaktion zu betrügen, kann Bob den Widerrufsschlüssel verwenden, um Alice zu bestrafen und alle SAT aus dem Kanal zu nehmen.
-reviewed: false
+Frage: Was ist die Hauptaufgabe des sendenden Knotens beim Routing im Lightning-Netzwerk?
+Antwort: Berechnung der kompletten Route zum Empfänger
+falsche_Antworten:
+  - Speicherung der Liquiditätsinformationen aller Kanäle des Netzwerks
+  - Festlegung der Transaktionsgebühren für jeden Zwischenknoten
+  - Direkte Kommunikation mit allen Zwischenknoten
+Erklärung: |
+  Der sendende Knoten ist dafür verantwortlich, die gesamte Route zum Empfänger zu berechnen, da Zwischenknoten nur ihren unmittelbaren Nachbarn kennen.
+überprüft: false

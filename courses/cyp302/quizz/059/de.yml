@@ -1,0 +1,9 @@
+Frage: Welcher französische Mathematiker führte im 19. Jahrhundert das Konzept der Gruppen ein?
+Antwort: Évariste Galois
+falsche_Antworten:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+Erklärung: |
+  Évariste Galois entwickelte die Gruppentheorie, um die Lösungen von Polynomgleichungen höheren Grades als fünf zu studieren.
+überprüft: false

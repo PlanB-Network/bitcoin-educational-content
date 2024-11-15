@@ -1,0 +1,11 @@
+pregunta: ¿Qué método criptográfico se utiliza para evitar que el coordinador vincule las entradas y salidas en un coinjoin?
+
+respuesta: Firmas ciegas de Chaum.
+
+respuestas_incorrectas:
+  - Firmas de Schnorr.
+  - Direcciones P2SH.
+  - Direcciones P2TR.
+
+explicación: |
+  En los coinjoins "Chaumianos", el uso de Tor y las firmas ciegas de David Chaum se combinan para asegurar que el coordinador no pueda saber qué salida pertenece a qué usuario.

@@ -1,0 +1,8 @@
+question: Millist majanduslikku illusiooni kritiseeris Bastiat, mis ilmus uuesti 20. sajandil?
+answer: Et riik suudab "luua töökohti"
+wrong_answers:
+  - Et turg vajab riiki
+  - Et turg suudab ise reguleerida
+  - Et ettevõtted suudavad luua rikkust ilma regulatsioonita
+explanation: |
+  Bastiat kritiseeris ideed, et riik suudab luua töökohti ilma teisi töökohti kahjustamata, arvestades maksude mõju, mis on vajalikud nende loomiste rahastamiseks.

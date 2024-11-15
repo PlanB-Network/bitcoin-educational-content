@@ -1,0 +1,9 @@
+otázka: Který matematický obor poskytuje moderní nástroje pro teorii čísel?
+odpověď: Abstraktní algebra
+špatné_odpovědi:
+  - Geometrie
+  - Statistika
+  - Komplexní analýza
+vysvětlení: |
+  Abstraktní algebra, jako sub-disciplína matematiky, poskytuje matematické struktury, které umožňují analýzu a pochopení vlastností čísel používaných v teorii čísel.
+recenzováno: false

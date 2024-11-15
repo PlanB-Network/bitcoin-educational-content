@@ -1,0 +1,9 @@
+question: Milline Ameerika arendaja märkas "kummalist plokki" väärtuse ületäitumise intsidenti ajal 15. augustil 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  See plokk, kasutades ära viga, lõi üle 184 miljardi bitcoini.
+reviewed: false

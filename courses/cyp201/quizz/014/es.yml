@@ -1,10 +1,9 @@
-question: ¿Cuántas rondas de cálculo se realizan en la función de compresión de SHA256?
-answer: 64
-wrong_answers:
-  - 32
-  - 128
-  - 256
-explanation: |
-  En la función de compresión de SHA256, se realizan 64 rondas de cálculo.
-  Al igual que en una carrera de ciclismo, cada vuelta mejora la posición de la función.
-reviewed: false
+pregunta: ¿Qué función se utiliza para derivar una clave hija de una clave padre en Bitcoin?
+respuesta: HMAC-SHA512.
+respuestas_incorrectas:
+  - SHA256.
+  - MD5.
+  - BLAKE2.
+explicación: |
+  La función HMAC-SHA512 se utiliza para derivar claves hijas de claves padres en las carteras HD de Bitcoin.
+revisado: false

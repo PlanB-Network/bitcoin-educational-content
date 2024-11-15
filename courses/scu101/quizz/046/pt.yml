@@ -1,9 +1,0 @@
-question: Qual é a principal desvantagem de usar um gerenciador de senhas auto-hospedado?
-answer: Requer mais conhecimento técnico para usar.
-wrong_answers:
-  - É mais caro do que serviços de terceiros.
-  - Não oferece tantos recursos quanto serviços de terceiros.
-  - Não é tão seguro quanto serviços de terceiros.
-explanation: |
-  Um gerenciador de senhas auto-hospedado requer mais conhecimento técnico para usar, pois você precisa configurar e gerenciar seu próprio servidor. No entanto, ele pode oferecer mais controle e segurança.
-reviewed: false

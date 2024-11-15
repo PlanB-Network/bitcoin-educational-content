@@ -1,0 +1,9 @@
+kysymys: Miksi siirtoenkoodaus on altis murtamisyrityksille?
+vastaus: Koska sillä on vain 26 mahdollista avainta
+vaarat_vastaukset:
+  - Koska se käyttää julkista avainta
+  - Koska se perustuu symmetriseen salaukseen
+  - Koska se käyttää satunnaislukuja
+selitys: |
+  Siirtoenkoodaus on helposti altis murtamisyrityksille, koska sillä on vain 26 mahdollista avainta, 0:sta 25:een, modulo 26 käytön vuoksi, joka puolestaan riippuu aakkoston koosta. Et voi käyttää suurempia kelvollisia avaimia, koska ne olisivat joka tapauksessa vastaavia avaimen kanssa välillä 0 ja 25. Siksi riittää testata jokainen niistä viestin löytämiseksi.
+arvioitu: false

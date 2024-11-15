@@ -1,0 +1,9 @@
+otázka: Proč je kryptografie klíčová v otevřeném komunikačním prostředí?
+odpověď: Zajišťuje data, i když je komunikační kanál zachycen.
+špatné_odpovědi:
+  - Dělá komunikaci neviditelnou pro všechny sítě.
+  - Zabraňuje útokům na lokální sítě.
+  - Nahrazuje fyzické kabely bezpečnou komunikací.
+vysvětlení: |
+  V otevřeném komunikačním prostředí, kde mohou být kanály monitorovány, kryptografie zajišťuje bezpečnost ochranou vyměňovaných dat, i v přítomnosti potenciálních útoků.
+recenzováno: false

@@ -1,0 +1,9 @@
+question: Hvem oppfant konseptet med proof of work?
+answer: Cynthia Dwork og Moni Naor
+wrong_answers:
+  - Markus Jakobsson og Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  De beskrev konseptet i 1992. Markus Jakobsson og Ari Juels myntet begrepet "proof of work". Adam Back adopterte senere konseptet for Hashcash.
+reviewed: false

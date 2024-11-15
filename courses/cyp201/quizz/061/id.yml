@@ -1,0 +1,8 @@
+pertanyaan: Apa variabel yang memungkinkan membedakan pasangan kunci saudara satu sama lain (yang memiliki pasangan induk yang sama)?
+jawaban: Indeks.
+jawaban_salah:
+  - Garam kriptografi.
+  - Nama depan.
+  - Kode rantai induk.
+penjelasan: |
+  Indeks digunakan untuk membedakan pasangan kunci saudara yang berasal dari pasangan induk yang sama dalam dompet HD.

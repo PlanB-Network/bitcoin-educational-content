@@ -5,7 +5,7 @@ description: Bagaimana cara berpartisipasi dalam review konten edukatif di Jarin
 ![github](assets/cover.webp)
 
 ## TL;DR
-Jika Anda ingin mereview konten untuk Jaringan PlanB, kunjungi [halaman proyek terkait](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) untuk bahasa Anda. Pilih konten yang ingin Anda review, komentar untuk memberi tahu kami bahwa Anda mengambil tugas tersebut, dan kirimkan PR setelah selesai pada cabang yang terkait dengan bahasa tersebut.
+Jika Anda ingin mereview konten untuk Jaringan PlanB, kunjungi [halaman proyek terkait](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) untuk bahasa Anda. Pilih konten yang ingin Anda review, komentar untuk memberi tahu kami bahwa Anda mengambil tugas tersebut, dan kirimkan PR setelah selesai pada cabang yang terkait dengan bahasa tersebut.
 
 Jika Anda tidak mengerti bagian di atas, jangan khawatir, tutorial ini untuk Anda!
 
@@ -37,14 +37,14 @@ Namun, jika Anda sama sekali tidak familiar dengan cara kerja Git dan GitHub dan
 ## 1. Buat akun
 * Buat akun di GitHub untuk mulai berkontribusi. Jika Anda membutuhkan panduan tentang cara membuat akun Anda di GitHub, kami juga memiliki [tutorial terperinci](https://planb.network/tutorials/others/create-github-account).
 ## **2. Kunjungi halaman proyek untuk bahasa Anda**
-* [Halaman proyek](https://github.com/DecouvreBitcoin/sovereign-university-data/projects?query=is%3Aopen) berisi konten dalam bahasa Anda yang ditampilkan pada papan Kanban.
+* [Halaman proyek](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) berisi konten dalam bahasa Anda yang ditampilkan pada papan Kanban.
 * Cari kartu di kolom "Review Needed" (lihat **A**). Ini adalah isu yang dapat Anda review.
 * Setiap kartu menjelaskan (lihat **B**):
 	- **Jenis Konten**: Kursus, tutorial, atau situs web
 	- **Kesulitan Konten**
 	- **Urgensi**
 	- **Jumlah Kata**
-	- **Hadiah Terkait**: Berdasarkan properti konten dan akurasi terjemahan (lihat [bagian Hadiah](https://github.com/DecouvreBitcoin/sovereign-university-data?tab=readme-ov-file#sat-reward))
+	- **Hadiah Terkait**: Berdasarkan properti konten dan akurasi terjemahan (lihat [bagian Hadiah](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
 ![review](assets/1.webp)
 ## **3. Temukan Konten untuk Ditinjau**
 * Di kolom "Review Needed", klik pada sebuah kartu.
@@ -95,7 +95,7 @@ NB. Peninjauan terbaik dilakukan di jendela kode dengan konten asli di jendela t
 * Selamat atas PR pertama Anda!
 
 ## **7. Lanjutkan Peninjauan Nanti**
-* Jika Anda belum menyelesaikan peninjauan dan ingin melanjutkan pekerjaan Anda, pergi ke fork Anda dari repositori konten sovereign-university melalui profil GitHub Anda.
+* Jika Anda belum menyelesaikan peninjauan dan ingin melanjutkan pekerjaan Anda, pergi ke fork Anda dari repositori konten PlanB-Network melalui profil GitHub Anda.
 * Pilih cabang yang sesuai.
 * Ganti nama cabang jika perlu.
 * Temukan file konten Anda dan klik pada tombol pena untuk melanjutkan peninjauan.

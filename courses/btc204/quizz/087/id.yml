@@ -1,0 +1,13 @@
+pertanyaan: Bagaimana Wabisabi mengelola perubahan dibandingkan dengan Wasabi 1.0?
+
+jawaban: Ia membaginya menjadi beberapa jumlah kecil yang didistribusikan dalam denominasi yang sama.
+
+jawaban_salah:
+  - Ia mengkonsolidasikannya untuk mencegahnya menjadi "debu".
+  - Ia mengecualikannya sebelum transaksi coinjoin dengan menyamakan input.
+  - Ia secara otomatis mentransfernya ke dompet cadangan.
+
+penjelasan: |
+  Tidak seperti Wasabi 1.0, di mana perubahan langsung dikaitkan dengan input pengguna, Wabisabi bertujuan untuk membagi perubahan menjadi beberapa jumlah kecil, didistribusikan dalam denominasi yang sama ke semua peserta.
+
+ditinjau: false

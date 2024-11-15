@@ -1,0 +1,8 @@
+question: Mis on muutuja, mis võimaldab eristada üksteisest samast vanempaarist tuletatud võtmepaare?
+answer: Indeks.
+wrong_answers:
+  - Krüptograafiline sool.
+  - Eesnimi.
+  - Vanemahela kood.
+explanation: |
+  Indeksit kasutatakse HD rahakotis samast vanempaarist tuletatud võtmepaaride eristamiseks.

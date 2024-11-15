@@ -1,0 +1,9 @@
+pregunta: ¿En qué año se descubrió oficialmente la criptografía asimétrica?
+respuesta: 1976
+respuestas_incorrectas:
+  - 1676
+  - 1776
+  - 1876
+explicación: |
+  Fue introducida por Whitfield Diffie y Martin Hellman, dos criptógrafos de la Universidad de Stanford, en un artículo publicado en noviembre de 1976.
+revisado: false

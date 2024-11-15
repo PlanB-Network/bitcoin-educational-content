@@ -1,9 +1,9 @@
-question: Mục đích của giai đoạn thứ hai trong quá trình tiền xử lý của SHA256 là gì?
-answer: Để thêm biểu diễn nhị phân của kích thước thông điệp ban đầu, tính bằng bit
-wrong_answers:
-  - Để thêm các bit đệm vào đầu vào
-  - Để phân chia đầu vào thành các khối thông điệp 512-bit khác nhau
-  - Để thực hiện 64 vòng tính toán trong hàm nén
-explanation: |
-  Giai đoạn thứ hai của quá trình tiền xử lý trong SHA256 bao gồm việc thêm biểu diễn nhị phân của kích thước thông điệp ban đầu, tính bằng bit. Điều này được thực hiện bằng cách sử dụng 64 bit dành riêng từ bước trước.
-reviewed: false
+câu hỏi: Để áp dụng đường cong elliptic này vào các ứng dụng mật mã, chúng ta phải định nghĩa nó trên trường nào?
+câu trả lời: Một trường hữu hạn của các số nguyên dương.
+câu trả lời sai:
+  - Trường của các số thực.
+  - Một trường hữu hạn của các số thực.
+  - Một trường phức.
+giải thích: |
+  Trong Bitcoin, đường cong elliptic secp256k1 được định nghĩa trên một trường hữu hạn của các số nguyên dương modulo một số nguyên tố để tránh các phép tính xấp xỉ và đảm bảo an ninh.
+đã xem xét: false

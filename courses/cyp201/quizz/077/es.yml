@@ -1,9 +1,8 @@
-question: ¿Cuáles son las características de una frase de contraseña efectiva para una billetera de Bitcoin?
-answer: Larga (de 20 a 40 caracteres) y diversificada (usando letras mayúsculas, letras minúsculas, números y símbolos)
-wrong_answers:
-  - Corta y simple
-  - Larga y simple
-  - Corta y diversificada
-explanation: |
-  Una frase de contraseña efectiva debe ser larga (de 20 a 40 caracteres) y diversificada (usando letras mayúsculas, letras minúsculas, números y símbolos). No debe estar directamente relacionada con el usuario o su entorno.
-reviewed: false
+pregunta: ¿Cómo se calcula el checksum de una dirección Legacy?
+respuesta: Con HASH256.
+respuestas_incorrectas:
+  - Con HASH160.
+  - Con un código BCH.
+  - Con RIPEMD160.
+explicación: |
+  Para las direcciones Legacy, el checksum se obtiene realizando un doble hash con la función SHA256 (HASH256).

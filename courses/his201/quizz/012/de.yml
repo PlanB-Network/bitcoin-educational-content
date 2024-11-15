@@ -1,0 +1,9 @@
+Frage: Wie wird das Konsensproblem innerhalb eines verteilten Netzwerks genannt?
+Antwort: Das Byzantinische Generäle Problem
+falsche_Antworten:
+  - Das Römische Zenturionen Problem
+  - Das Albanische Obersten Problem
+  - Das Japanische Taishos Problem
+Erklärung: |
+  Der Name dieses Problems (formalisiert von Lamport, Shostak und Pease im Jahr 1982) wurde gewählt, um den Leser nicht zu beleidigen, da sich niemand jemals als Byzantiner identifiziert hat.
+überprüft: false

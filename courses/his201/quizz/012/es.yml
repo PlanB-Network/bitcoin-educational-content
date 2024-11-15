@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es el nombre dado al problema de consenso dentro de una red distribuida?
+respuesta: El Problema de los Generales Bizantinos
+respuestas_incorrectas:
+  - El Problema de los Centuriones Romanos
+  - El Problema de los Coroneles Albaneses
+  - El Problema de los Taishos Japoneses
+explicación: |
+  El nombre de este problema (formalizado por Lamport, Shostak y Pease en 1982) fue elegido para evitar ofender al lector, ya que nadie se ha identificado nunca como bizantino.
+revisado: false

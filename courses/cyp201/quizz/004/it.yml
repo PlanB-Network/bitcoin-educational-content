@@ -1,9 +1,9 @@
-question: Qual è il ruolo delle funzioni di hash crittografiche nella verifica dell'integrità del software scaricato?
-answer: Agiscono come sentinelle digitali, verificando l'integrità del software scaricato.
-wrong_answers:
-  - Crittografano il software per proteggerlo dagli hacker.
-  - Comprimono il software per ridurre il tempo di download.
-  - Generano una chiave unica per ogni download.
-explanation: |
-  Le funzioni di hash crittografiche svolgono un ruolo cruciale nella verifica dell'integrità del software scaricato. Confrontando l'hash del file scaricato con l'hash atteso, è possibile verificare che il file non sia stato manomesso.
-reviewed: false
+domanda: All'interno del protocollo Bitcoin, cos'è un HASH256?
+risposta: Un doppio hash SHA256.
+risposte_errate:
+  - Un doppio hash Keccak-256.
+  - Un hash SHA256 seguito da un hash RIPEMD160.
+  - Un singolo hash SHA256.
+spiegazione: |
+  Un HASH256 è un doppio hash SHA256, il che significa che la funzione SHA256 viene applicata una volta a un pezzo di dati, poi una seconda volta al risultato della prima.
+revisionato: false

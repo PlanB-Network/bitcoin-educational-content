@@ -1,0 +1,9 @@
+pregunta: ¿Qué desarrollador estadounidense detectó un "bloque extraño" durante el incidente de desbordamiento de valor el 15 de agosto de 2010?
+respuesta: Jeff Garzik
+respuestas_incorrectas:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explicación: |
+  Este bloque, explotando un fallo, creó más de 184 mil millones de bitcoins.
+revisado: false

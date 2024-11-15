@@ -1,0 +1,12 @@
+question: Hva er de tre dimensjonene av "dobbelt sammentreff av ønsker"-problemet?
+answer: Romlig, tidsmessig og mellommenneskelig.
+wrong_answers:
+  - Romlig, tidsmessig og intrapersonlig.
+  - Romlig, intertemporal og mellommenneskelig.
+  - Interspatial, tidsmessig og mellommenneskelig.
+explanation: |
+  "Dobbelt sammentreff av ønsker"-problemet refererer til vanskeligheten i
+  byttehandel der begge parter må besitte noe den andre ønsker på samme
+  tid og sted. Dette problemet har tre dimensjoner; romlig (samme sted), tidsmessig
+  (samme tid) og mellommenneskelig (gjensidig ønske om hverandres varer).
+reviewed: false

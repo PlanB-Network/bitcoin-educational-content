@@ -1,0 +1,13 @@
+kysymys: Mikä on Stonewall-siirto?
+
+vastaus: Siirto, joka jäljittelee mini-coinjoinia olematta sellainen
+
+vaarat_vastaukset:
+  - Maksusiirto mini-coinjoinin muodossa
+  - Kolmen osallistujan yhteistyössä toteutettu siirto
+  - Siirto, joka sisältää vastaanottajan syötteissä
+
+selitys: |
+  Stonewall on tietty Bitcoin-siirron muoto, jonka tavoitteena on lisätä käyttäjän yksityisyyttä kulutuksen aikana jäljittelemällä mini-coinjoinia kahden ihmisen välillä, olematta kuitenkaan sellainen.
+
+arvioitu: false

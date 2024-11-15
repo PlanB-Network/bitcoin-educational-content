@@ -1,0 +1,13 @@
+pertanyaan: Apa manfaat utama menggunakan VPN?
+jawaban: Ini melindungi privasi Anda dengan menyembunyikan alamat IP Anda
+jawaban_salah:
+  - Ini mempercepat koneksi internet Anda
+  - Ini memberikan akses gratis ke layanan berbayar
+  - Ini melindungi komputer Anda dari virus
+penjelasan: |
+  VPN, atau Jaringan Pribadi Virtual, melindungi privasi Anda dengan menyembunyikan
+  
+  alamat IP Anda. Meskipun ini tidak membuat Anda sepenuhnya anonim, ini masih merupakan langkah sederhana
+  
+  dan efektif untuk meningkatkan privasi online Anda.
+ditinjau: false

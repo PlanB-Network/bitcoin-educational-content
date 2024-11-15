@@ -1,0 +1,9 @@
+otázka: Kdo založil první směnárenskou službu mezi bitcoinem a dolarem v říjnu 2009?
+odpověď: NewLibertyStandard
+špatné_odpovědi:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+vysvětlení: |
+  Tato služba byla základní: výměny byly dojednávány prostřednictvím emailu a platby byly prováděny přes PayPal. Směnný kurz byl založen na nákladech na těžbu samotného NewLibertyStandard.
+recenzováno: false

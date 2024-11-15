@@ -1,0 +1,9 @@
+question: Hvilken nøkkelstørrelse anses som sikker mot brute force-angrep for moderne kryptering?
+answer: 128 bits
+wrong_answers:
+  - 16 bits
+  - 64 bits
+  - 100 bits
+explanation: |
+  Med en nøkkel på minst 128 bits anses moderne kryptering for øyeblikket som sikker mot brute force-angrep, ettersom antallet forsøk ville være urealistisk.
+reviewed: false

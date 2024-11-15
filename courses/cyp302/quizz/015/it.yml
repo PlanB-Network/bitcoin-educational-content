@@ -1,0 +1,9 @@
+domanda: Qual è la definizione di una variabile casuale nel contesto della crittografia?
+risposta: Una variabile che può assumere diversi valori possibili con una probabilità positiva
+risposte_errate:
+  - Una variabile che cambia valore in ogni momento
+  - Una variabile i cui valori sono fissi e predefiniti
+  - Una variabile sempre definita nel contesto di un esperimento fisico specifico
+spiegazione: |
+  Una variabile casuale può assumere due o più valori, ognuno con una probabilità positiva, ed è spesso definita in modo astratto nel contesto della crittografia.
+recensito: false

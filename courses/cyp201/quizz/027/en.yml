@@ -1,11 +1,9 @@
-question: What does a Bitcoin wallet store?
-answer: The private keys necessary to prove ownership of the bitcoins
+question: What does the point V represent in the digital signature process with ECDSA as an example in this chapter?
+answer: The point calculated from the nonce v and the generator point G (V = v.G).
 wrong_answers:
-  - The bitcoins themselves
-  - The public keys necessary to prove ownership of the bitcoins
-  - The transaction history of the bitcoins
+  - The point derived directly from the public key.
+  - The hash of the signed message.
+  - The result of adding two points on the elliptic curve.
 explanation: |
-  In reality, a Bitcoin wallet stores the private keys necessary to prove
-  ownership of the bitcoins. The bitcoins themselves are recorded on the blockchain,
-  a decentralized database that archives all transactions.
+  V is the result of the calculation of the nonce multiplied by the generator point on the elliptic curve.
 reviewed: false

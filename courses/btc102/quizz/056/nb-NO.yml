@@ -1,0 +1,10 @@
+question: Hva er den ultimate visjonen for Bitcoin i henhold til "Bitcoin highway"-metaforen?
+answer: Den vil bli en motorvei for internett-trafikk og for 90% av verdens befolkning.
+wrong_answers:
+  - Den vil bli et luksusgode kun tilgjengelig for de rike.
+  - Den vil bli et verktøy for ulovlige aktiviteter.
+  - Den vil bli foreldet og erstattet av andre kryptovalutaer.
+explanation: |
+  "Bitcoin highway"-metaforen ser for seg at Bitcoin blir en motorvei for
+  internett-trafikk og for 90% av verdens befolkning, med varer og tjenester
+  direkte tilgjengelig på denne motorveien.

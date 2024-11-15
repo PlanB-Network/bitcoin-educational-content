@@ -1,0 +1,9 @@
+kysymys: Mitä tarkoittaa, että kaksi lukua ovat "keskenään jaottomia"?
+vastaus: Niiden suurin yhteinen tekijä on yhtä suuri kuin 1
+vaarat_vastaukset:
+  - Niiden summa on parillinen luku
+  - Molemmat luvut ovat parillisia
+  - Niillä ei ole muita yhteisiä tekijöitä kuin 1 ja ne itse
+selitys: |
+  Kaksi lukua ovat keskenään jaottomia, jos niiden suurin yhteinen tekijä on 1, mikä tarkoittaa, etteivät ne jaa mitään alkutekijöitä keskenään, mikä on tärkeä ominaisuus kryptografiassa.
+arvioitu: false

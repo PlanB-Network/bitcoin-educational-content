@@ -1,9 +1,9 @@
-question: Co je mnemonická fráze v kontextu Bitcoin peněženky?
-answer: Je to záloha peněženky.
-wrong_answers:
-  - Je to heslo k peněžence.
-  - Je to historie transakcí peněženky.
-  - Je to digitální podpis peněženky.
-explanation: |
-  Mnemonická fráze je generována za účelem zajištění zálohy Bitcoin peněženky.
-reviewed: false
+otázka: Jaká funkce se používá pro generování adresy?
+odpověď: HASH160.
+nesprávné_odpovědi:
+  - HASH256.
+  - HASH512.
+  - SHA256.
+vysvětlení: |
+  Funkce HASH160, která kombinuje SHA256 a RIPEMD-160, se používá pro generování Bitcoin adres z veřejných klíčů.
+recenzováno: false

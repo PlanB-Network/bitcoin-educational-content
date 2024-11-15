@@ -1,0 +1,9 @@
+question: Kuidas arvutatakse SegWit aadressi kontrollsummat?
+answer: BCH koodi abil.
+wrong_answers:
+  - HASH160 abil.
+  - HASH256 abil.
+  - SHA512 abil.
+explanation: |
+  SegWit aadresside puhul arvutatakse kontrollsumma kasutades BCH koodi, mis võimaldab tuvastada võimalikke vigu aadressis.
+reviewed: false

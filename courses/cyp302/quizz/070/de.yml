@@ -1,0 +1,9 @@
+Frage: Welche Art der Verschlüsselung ist die Verschiebeverschlüsselung?
+Antwort: Ein monoalphabetischer Substitutionschiffre
+falsche_Antworten:
+  - Ein Wortpermutationschiffre
+  - Ein polyalphabetischer Substitutionschiffre
+  - Ein asymmetrischer Chiffre
+Erklärung: |
+  Die Verschiebeverschlüsselung ist ein Beispiel für einen monoalphabetischen Substitutionschiffre, bei dem jeder Buchstabe in der Nachricht um eine feste Anzahl von Positionen im Alphabet verschoben wird.
+überprüft: false

@@ -1,0 +1,9 @@
+question: Comment peut-on définir une clé dans le chiffrement par décalage ?
+answer: Un nombre de 0 à 25
+wrong_answers:
+  - Un mot aléatoire
+  - Un nombre aléatoire quelconque sans restriction
+  - Un nombre de 1 à 26
+explanation: |
+  Dans le chiffrement par décalage, la clé est un nombre compris entre 0 et 25, ce qui correspond au nombre de positions de décalage appliqué à chaque lettre du message dans un alphabet de 26 lettres.
+reviewed: false

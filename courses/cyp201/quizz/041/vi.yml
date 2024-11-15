@@ -1,9 +1,8 @@
-question: Vai trò của đường cong elliptic trong việc tạo ra khóa công khai và khóa riêng tư là gì?
-answer: Nó được sử dụng để tạo ra khóa công khai và khóa riêng tư an toàn.
-wrong_answers:
-  - Nó được sử dụng để mã hóa các khóa.
-  - Nó được sử dụng để lưu trữ các khóa.
-  - Nó được sử dụng để truyền các khóa.
-explanation: |
-  Đường cong elliptic là một cấu trúc toán học được sử dụng trong việc tạo ra khóa công khai và khóa riêng tư an toàn. Một số ngẫu nhiên, thường được gọi là nonce, được chọn làm khóa riêng tư và sử dụng trong phương trình của đường cong elliptic để tạo ra khóa công khai tương ứng.
-reviewed: false
+câu hỏi: Nếu tôi tạo ra một số ngẫu nhiên 128-bit, kích thước của cụm từ khôi phục của tôi sẽ là bao nhiêu từ?
+câu trả lời: 12 từ.
+câu trả lời sai:
+  - 6 từ.
+  - 8 từ.
+  - 24 từ.
+giải thích: |
+  Một số ngẫu nhiên 128-bit tương ứng với một cụm từ ghi nhớ 12 từ, theo tiêu chuẩn BIP39.

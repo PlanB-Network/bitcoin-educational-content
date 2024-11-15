@@ -1,0 +1,8 @@
+câu hỏi: Lỗi chính của phương pháp ECB với mã hóa khối là gì?
+câu trả lời: Nó là xác định và có thể tiết lộ các mẫu trong dữ liệu
+câu trả lời sai:
+  - Nó yêu cầu các khóa có độ dài biến thiên
+  - Nó không hoạt động với các tin nhắn trên 128 bit
+  - Nó không hoạt động với các tin nhắn trên 256 bit
+giải thích: |
+  Phương pháp ECB ("Electronic Code Book") là xác định: các khối dữ liệu giống nhau được mã hóa theo cùng một cách, điều này cho phép các mẫu được phát hiện trong văn bản đã mã hóa.

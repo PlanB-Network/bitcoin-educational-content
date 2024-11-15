@@ -1,0 +1,13 @@
+kysymys: Miksi analyytikko ei sovella COINJOINia Stonewall-tyyppiseen transaktioon?
+
+vastaus: Koska siinä on 2 samansuuruista lähtöä
+
+väärät_vastaukset:
+  - Koska siinä on vain 2 sisääntuloa
+  - Koska he eivät ole tuttuja tämän mallin kanssa
+  - Koska lähtöjä on enemmän kuin sisääntuloja
+
+selitys: |
+  Stonewall-transaktion analysointi ulkopuolelta ei johda COINJOINin soveltamiseen, koska kahden samansuuruisen lähdön esiintyminen viittaa coinjoin-malliin. Ulkoisesta näkökulmasta katsottuna COINJOIN ei siis ole sovellettavissa tässä erityistapauksessa.
+
+arvioitu: false

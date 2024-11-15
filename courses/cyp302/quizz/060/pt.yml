@@ -1,0 +1,9 @@
+pergunta: Qual resposta representa um dos dois principais ramos da criptografia?
+resposta: Criptografia simétrica
+respostas_erradas:
+  - Criptologia
+  - Criptografia homomórfica
+  - Criptoanálise
+explicação: |
+  A criptografia simétrica é um dos principais ramos da criptografia, envolvendo esquemas de criptografia onde uma única chave é usada para criptografar e descriptografar mensagens.
+revisado: false

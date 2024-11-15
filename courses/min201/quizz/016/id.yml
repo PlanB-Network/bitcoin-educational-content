@@ -1,0 +1,12 @@
+pertanyaan: Apa peran penambang Bitcoin dalam dunia energi?
+jawaban: Penambang Bitcoin terus-menerus mencari sumber listrik murah, seringkali yang terbuang atau belum dimanfaatkan. Mereka dapat bertindak sebagai sumber permintaan yang fleksibel, siap untuk mengonsumsi listrik "terlantar" ini, sehingga membantu mengimbangi biaya infrastruktur.
+jawaban_salah:
+  - Penambang Bitcoin terus-menerus mencari sumber energi terbarukan untuk mengurangi jejak karbon mereka.
+  - Penambang Bitcoin terus-menerus mencari sumber energi nuklir untuk mendukung operasi penambangan mereka.
+  - Penambang Bitcoin terus-menerus mencari sumber energi surya untuk mendukung operasi penambangan mereka.
+penjelasan: |
+  Bab ini menjelaskan bahwa penambang Bitcoin terus-menerus mencari sumber
+  listrik murah, seringkali yang terbuang atau belum dimanfaatkan. Mereka dapat bertindak sebagai
+  sumber permintaan yang fleksibel, siap untuk mengonsumsi listrik "terlantar" ini, sehingga membantu
+  mengimbangi biaya infrastruktur.
+ditinjau: false

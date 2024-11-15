@@ -1,0 +1,11 @@
+question: Mis on kaevandamise potentsiaalne miinuspool kasumi eesmärgil?
+answer: See võib viia räsivõimsuse tsentraliseerumiseni ja avaldada olulist keskkonnamõju.
+wrong_answers:
+  - See võib viia Bitcoini hinna languseni
+  - See võib viia võrgu hashrate'i languseni
+  - See võib viia võrgu aktiivsete sõlmede arvu vähenemiseni
+explanation: |
+  Kasumi eesmärgil kaevandamine võib viia räsivõimsuse tsentraliseerumiseni, kui
+  ainult mõned suured ettevõtted saavad endale lubada investeerimist kõrgtasemel kaevandamisseadmetesse. Lisaks,
+  kasumi eesmärgil kaevandamise energiatarbimisel võib olla oluline keskkonnamõju.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Hva er rollen til kapitalvarer i økonomien?
+answer: Kapitalvarer brukes i produksjonen av andre varer. De muliggjør at individer kan skaffe seg forbruksvarer.
+wrong_answers:
+  - Kapitalvarer brukes til konsum.
+  - Kapitalvarer har ingen rolle i økonomien.
+  - Kapitalvarer brukes til å produsere andre kapitalvarer.
+explanation: |
+  For å produsere forbruksvarer kombinerer entreprenører ulike mellomprodukter
+  med originale produksjonsfaktorer (arbeidskraft, land, og kapital) i henhold til
+  et mønster som maksimerer den resulterende produksjonen. Alle andre varer i økonomien,
+  som vi kan kalle "mellomprodukter," har kun verdi fordi de muliggjør at individer
+  kan skaffe seg disse forbruksvarene; de er varer som brukes i produksjonen av andre varer.
+reviewed: false

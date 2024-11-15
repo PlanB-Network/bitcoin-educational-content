@@ -1,0 +1,9 @@
+domanda: Qual è il ruolo di un "nonce" in uno schema di crittografia autenticata?
+risposta: Garantire che ogni messaggio abbia un tag unico per prevenire ripetizioni
+risposte_errate:
+  - Identificare il mittente del messaggio
+  - Creare una chiave di decrittazione temporanea
+  - Aggiungere un ulteriore strato di crittografia
+spiegazione: |
+  In uno schema di crittografia autenticata, un "nonce" è utilizzato per garantire che ogni messaggio abbia un tag unico, aumentando così la sicurezza prevenendo ripetizioni.
+recensito: false

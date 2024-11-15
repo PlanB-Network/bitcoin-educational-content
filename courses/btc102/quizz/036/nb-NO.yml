@@ -1,0 +1,11 @@
+question: Hva legger uttrykket "Ikke dine nøkler, ikke dine Bitcoins" vekt på?
+answer: Viktigheten av å eie den private nøkkelen til en Bitcoin-lommebok
+wrong_answers:
+  - Viktigheten av å ha en fysisk nøkkel for å få tilgang til dine Bitcoins
+  - Viktigheten av å oppbevare dine Bitcoins på et sikkert sted
+  - Viktigheten av å ikke dele detaljene for din Bitcoin-konto
+explanation: |
+  Kapittelet forklarer at uttrykket "Ikke dine nøkler, ikke dine Bitcoins"
+  legger vekt på viktigheten av å eie den private nøkkelen til en Bitcoin-lommebok. Ved å eie
+  den private nøkkelen, har du full kontroll over Bitcoinsene den inneholder.
+reviewed: false

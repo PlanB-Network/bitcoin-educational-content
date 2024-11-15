@@ -1,0 +1,9 @@
+domanda: Perché la crittografia autenticata è resistente agli attacchi di tipo chosen-ciphertext?
+risposta: Perché qualsiasi modifica del ciphertext da parte di un attaccante rende il tag non valido
+risposte_errate:
+  - Perché utilizza un singolo algoritmo di crittografia
+  - Perché qualsiasi modifica del ciphertext da parte di un attaccante rende la chiave non valida
+  - Perché crittografa solo il messaggio senza un tag
+spiegazione: |
+  Uno schema di crittografia autenticata è progettato per rilevare modifiche del ciphertext, il che rende il tag non valido in caso di tentativi di manomissione e garantisce resistenza agli attacchi di tipo chosen-ciphertext.
+recensito: false

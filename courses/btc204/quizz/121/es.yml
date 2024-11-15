@@ -1,0 +1,13 @@
+pregunta: ¿Cómo funciona la fase de "stem" en el protocolo Dandelion?
+
+respuesta: La transacción se envía a través de una ruta aleatoria de nodos
+
+respuestas_incorrectas:
+  - La transacción se transmite inmediatamente a todos los pares del nodo fuente
+  - La transacción se almacena temporalmente en un nodo central antes de ser transmitida
+  - La transacción se encripta incrementalmente en cada paso de la transmisión
+
+explicación: |
+  Dandelion primero utiliza una fase de "stem" donde la transacción se envía a través de una ruta aleatoria de nodos. Luego, la transacción se transmite a toda la red en la fase de "fluff".
+
+revisado: false

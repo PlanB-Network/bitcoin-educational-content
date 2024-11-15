@@ -1,0 +1,9 @@
+question: According to the text, what is the fundamental difference between "contract theories" and "market theories"?
+answer: Contract theories seek social harmony through state coercion, while market theories allow individual interests to harmonize on their own.
+wrong_answers:
+  - Contract theories apply to primitive societies while market theories apply to modern societies.
+  - Contract theories concern the distribution of wealth while market theories concern the production of goods and services.
+  - Contract theories are defended by the physiocrats while market theories are defended by the mercantilists.
+explanation: |
+  Contract theories see social harmony as imposed by the state, whereas market theories consider that individual interests, by interacting freely, spontaneously create a social equilibrium.
+reviewed: false

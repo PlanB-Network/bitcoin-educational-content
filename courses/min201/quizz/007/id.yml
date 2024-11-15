@@ -1,0 +1,11 @@
+pertanyaan: Apa yang terjadi pada hadiah penambangan dalam jaringan Bitcoin kira-kira setiap empat tahun?
+jawaban: Terjadi pemotongan menjadi setengah
+jawaban_salah:
+  - Berlipat ganda
+  - Bertiga lipat
+  - Tetap sama
+penjelasan: |
+  Hadiah penambangan dalam jaringan Bitcoin mengalami pemotongan menjadi setengah setiap 210.000
+  blok, kira-kira setiap empat tahun. Remunerasi ini berfungsi sebagai insentif yang kuat
+  untuk mendorong penambang berpartisipasi dalam proses penambangan meskipun biaya energinya.
+ditinjau: false

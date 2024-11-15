@@ -1,0 +1,11 @@
+pergunta: Quantos participantes existem nas entradas em uma transação payjoin?
+
+resposta: 2
+
+respostas_erradas:
+  - 1
+  - 3
+  - 0
+
+explicação: |
+  Existem 2 participantes: o pagador e o destinatário do pagamento.

@@ -1,0 +1,9 @@
+pertanyaan: Apa yang terjadi jika saya menggunakan dompet HD dengan kata sandi dan saya kehilangan kata sandi tersebut?
+jawaban: Bitcoin saya hilang selamanya.
+jawaban_salah:
+  - Ini bukan masalah, saya masih bisa mengakses bitcoin saya hanya dengan frasa mnemonik saya.
+  - Saya dapat mereset kata sandi dengan kunci privat saya.
+  - Saya dapat memulihkan bitcoin saya dengan menggunakan dompet tanpa kata sandi.
+penjelasan: |
+  Jika kata sandi hilang, akses ke bitcoin secara permanen hilang, karena kata sandi tersebut diperlukan untuk menghasilkan kunci privat.
+ditinjau: false

@@ -1,0 +1,11 @@
+question: Hvordan håndterer Wabisabi endringer sammenlignet med Wasabi 1.0?
+
+answer: Den deler den opp i flere små beløp fordelt i like denominasjoner.
+
+wrong_answers:
+  - Den konsoliderer dem for å forhindre at de blir til "støv".
+  - Den ekskluderer dem før coinjoin-transaksjonen ved å likestille innsatsene.
+  - Den overfører den automatisk til en reserve lommebok.
+
+explanation: |
+  I motsetning til Wasabi 1.0, hvor endringen var direkte knyttet til brukernes innsatser, sikter Wabisabi til å dele opp endringen i flere små beløp, distribuert i like denominasjoner til alle deltakere.

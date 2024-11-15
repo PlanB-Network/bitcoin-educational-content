@@ -1,0 +1,9 @@
+question: Hva er en "merge" i en transaksjon?
+answer: Det er handlingen av å bruke flere UTXOer som inndata.
+wrong_answers:
+  - Det er handlingen av å skape flere UTXOer som utdata.
+  - Det er handlingen av å kombinere flere adresser til én.
+  - Det er handlingen av å kombinere flere blokker i blokkjeden.
+explanation: |
+  Når brukeren ikke har noen UTXO som er større enn eller lik summen de ønsker å sende, må de bruke flere av sine UTXOer for å tilfredsstille utdataene. Denne praksisen kalles "merging".
+reviewed: false

@@ -1,0 +1,8 @@
+pergunta: Qual é o papel de um "nonce" em um esquema de criptografia autenticada?
+resposta: Garantir que cada mensagem tenha uma etiqueta única para prevenir repetições
+respostas_erradas:
+  - Identificar o remetente da mensagem
+  - Criar uma chave de descriptografia temporária
+  - Adicionar uma camada adicional de criptografia
+explicação: |
+  Em um esquema de criptografia autenticada, um "nonce" é usado para garantir que cada mensagem tenha uma etiqueta única, aumentando assim a segurança ao prevenir repetições.

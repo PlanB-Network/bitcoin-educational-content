@@ -1,0 +1,8 @@
+question: Какая псевдослучайная функция используется в PBKDF2 для вычисления сида Bitcoin HD кошелька?
+answer: HMAC-SHA512.
+wrong_answers:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+explanation: |
+  HMAC-SHA512 является псевдослучайной функцией, используемой в PBKDF2 для генерации сида Bitcoin HD кошелька.

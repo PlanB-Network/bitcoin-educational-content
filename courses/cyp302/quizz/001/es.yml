@@ -1,0 +1,9 @@
+pregunta: ¿Qué contenía la caja de hierro entregada a Robert Morriss?
+respuesta: Tres textos cifrados y una nota
+respuestas_incorrectas:
+  - Un mapa y pistas
+  - Una clave de cifrado única
+  - Una lista única de nombres
+explicación: |
+  La caja contenía tres textos cifrados y una nota explicando el descubrimiento de un tesoro y proporcionando instrucciones sobre cómo recuperar su contenido.
+revisado: false

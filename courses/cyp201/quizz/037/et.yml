@@ -1,0 +1,9 @@
+küsimus: Miks on oluline kasutada hea entroopia allikat privaatvõtmete genereerimiseks?
+vastus: Kehv entroopia võib muuta privaatvõtmed ettearvatavaks ja rünnakutele haavatavaks.
+valed_vastused:
+  - Hea entroopia aitab optimeerida rahakoti jõudlust.
+  - Entroopial ei ole rolli privaatvõtmete turvalisuses.
+  - Kehv entroopia aeglustab tehinguid.
+selgitus: |
+  Kui privaatvõtmete genereerimiseks kasutatav entroopia on madal, võib see võimaldada ründajal neid võtmeid ära arvata või välja arvutada, ohustades rahakoti turvalisust.
+üle vaadatud: false

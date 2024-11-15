@@ -1,0 +1,8 @@
+pertanyaan: Apa itu serangan refleksi dalam sesi komunikasi?
+jawaban: Penyerang mengirim kembali ke Alice sebuah pesan yang mereka intercept antara Alice dan Bob
+jawaban_salah:
+  - Penyerang membalik urutan pesan dalam komunikasi
+  - Penyerang mengirim pesan yang dimodifikasi tanpa tag
+  - Penyerang menggunakan pesan lama untuk membuat yang baru
+penjelasan: |
+  Dalam serangan refleksi, penyerang mengintersep sebuah pesan dari Alice ke Bob dan mengirim pesan yang sama kembali ke Alice, menyebabkan kebingungan dalam sesi tersebut.

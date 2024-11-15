@@ -1,0 +1,9 @@
+otázka: Co je algebraická struktura v abstraktní algebře?
+odpověď: Množina prvků s jednou nebo více operacemi, které dodržují určité axiomy
+špatné_odpovědi:
+  - Množina prvočísel uspořádaná do řad, které dodržují určité axiomy
+  - Řada algoritmů pro řešení lineárních rovnic
+  - Skupina náhodných geometrických transformací uspořádaných v souladu s určitými axiomy
+vysvětlení: |
+  Algebraická struktura je definovaná množina prvků s jednou nebo více operacemi, jako je sčítání nebo násobení, které dodržují určité axiomy, a je zásadní pro strukturování konceptů v teorii čísel.
+recenzováno: false

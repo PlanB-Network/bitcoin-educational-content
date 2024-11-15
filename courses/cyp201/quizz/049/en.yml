@@ -1,11 +1,9 @@
-question: What is the purpose of Bitcoin Improvement Proposals (BIPs)?
-answer: They are upgrade proposals that enhance the functionality and security of HD wallets.
+question: How should an effective passphrase be chosen?
+answer: It should be long, diverse, and random, with no connection to the user.
 wrong_answers:
-  - They are proposals to increase the value of Bitcoin.
-  - They are proposals to change the Bitcoin mining process.
-  - They are proposals to regulate the use of Bitcoin.
+  - It should be easy to remember and related to the user's environment.
+  - It should be short but include numbers.
+  - It should contain at least 10 digits.
 explanation: |
-  Bitcoin Improvement Proposals (BIPs) are protocols that aim to improve
-  the functionality and security of HD wallets. For example, BIP32 introduced the
-  concept of deterministically and hierarchically derived keys.
+  An effective passphrase should be long (20 to 40 characters), diverse, and random to provide maximum security, similar to a good password.
 reviewed: false

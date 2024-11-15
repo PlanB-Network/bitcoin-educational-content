@@ -1,9 +1,9 @@
-question: Quelle est la taille de sortie de la fonction de hachage SHA256 ?
-answer: 256 bits
+question: Quel est le nom de la courbe elliptique utilisée pour les algorithmes de signatures numériques dans Bitcoin ?
+answer: secp256k1.
 wrong_answers:
-  - 512 bits
-  - 128 bits
-  - 1024 bits
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
 explanation: |
-  La fonction de hachage SHA256 génère un hachage de 256 bits à partir d'une entrée de taille variable. C'est pourquoi elle est appelée SHA256.
+  La courbe secp256k1 est utilisée dans le protocole Bitcoin pour les signatures numériques.
 reviewed: false

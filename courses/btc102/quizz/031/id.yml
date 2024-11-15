@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari dompet Bitcoin?
+jawaban: Untuk mengirim dan menerima bitcoin
+jawaban_salah:
+  - Untuk menambang bitcoin
+  - Untuk menyimpan bitcoin fisik
+  - Untuk mengonversi bitcoin ke mata uang lain
+penjelasan: |
+  Dompet Bitcoin digunakan untuk mengirim dan menerima bitcoin. Mereka adalah
+  dompet digital yang menyimpan kredensial digital yang diperlukan untuk mengakses alamat bitcoin
+  dan menghabiskan bitcoin.

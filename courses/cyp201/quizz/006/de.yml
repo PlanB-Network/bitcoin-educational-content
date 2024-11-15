@@ -1,9 +1,9 @@
-question: Was ist ein Hash im Zusammenhang mit kryptografischen Hash-Funktionen?
-answer: Ein eindeutiger und fester digitaler Fingerabdruck, der von einer Hash-Funktion erzeugt wird.
-wrong_answers:
-  - Eine Art von Verschlüsselungsalgorithmus.
-  - Ein Schlüssel, der zur Entschlüsselung von Daten verwendet wird.
-  - Eine Methode zur Komprimierung von Daten.
-explanation: |
-  Im Zusammenhang mit kryptografischen Hash-Funktionen ist ein Hash ein eindeutiger und fester digitaler Fingerabdruck, der von der Hash-Funktion erzeugt wird. Er repräsentiert die Eingabedaten auf eine einzigartige und irreversible Weise.
-reviewed: false
+Frage: Wie viele Bits sind bei der SHA256-Funktion für das Padding nach Größe reserviert?
+Antwort: 64 Bits.
+Falsche Antworten:
+  - 128 Bits.
+  - 256 Bits.
+  - 512 Bits.
+Erklärung: |
+  SHA256 reserviert 64 Bits für das Padding, was die ursprüngliche Größe der Nachricht vor dem Padding darstellt.
+Überprüft: false

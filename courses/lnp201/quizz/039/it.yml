@@ -1,9 +1,8 @@
-question: Cosa succede durante una transazione
-answer: Il segreto della transazione
-wrong_answers:
-  - Il segreto della transazione
-  - Viene deciso un nuovo segreto e viene creato una nuova chiave di revoca.
-  - La transazione di impegno precedente viene aggiornata con il nuovo segreto e la chiave di revoca.
-explanation: |
-  Durante la transazione
-reviewed: false
+domanda: Cosa succede se un canale con un HTLC attivo viene chiuso forzatamente?
+risposta: L'HTLC è incluso nelle transazioni di impegno come un output.
+risposte_errate:
+  - L'HTLC viene automaticamente cancellato.
+  - I fondi vengono ridistribuiti ai nodi precedenti.
+  - Il canale non può essere chiuso fino alla scadenza dell'HTLC.
+spiegazione: |
+  Durante una chiusura forzata, gli HTLC in sospeso sono rappresentati come output nelle transazioni di impegno, garantendo così la loro esecuzione o restituzione secondo le condizioni definite.

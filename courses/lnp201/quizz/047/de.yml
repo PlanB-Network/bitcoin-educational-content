@@ -1,9 +1,9 @@
-question: Was passiert bei einer kooperativen Schließung?
-answer: Die beiden Teilnehmer kommunizieren miteinander und stimmen der Schließung des Kanals zu, validieren einen endgültigen Zustand des Kanals und erstellen eine Abschlusstransaktion.
-wrong_answers:
-  - Ein Teilnehmer erzwingt die Schließung des Kanals.
-  - Ein Teilnehmer versucht zu betrügen, indem er eine alte Commitment-Transaktion veröffentlicht.
-  - Die beiden Teilnehmer streiten sich um die verbleibenden SAT im Kanal.
-explanation: |
-  Bei einer kooperativen Schließung kommunizieren die beiden Teilnehmer miteinander und stimmen der Schließung des Kanals zu. Sie stoppen alle Transaktionen und validieren einen endgültigen Zustand des Kanals. Anschließend erstellen sie die Abschlusstransaktion.
-reviewed: false
+Frage: Was ist die Rolle von LNURL bei Lightning-Transaktionen?
+Antwort: Die Interaktion zwischen Knoten und Lightning-Anwendungen vereinfachen
+falsche_Antworten:
+  - Die Erstellung von Kanälen für jede Zahlung erleichtern
+  - Die Vertraulichkeit von Zahlungsinformationen sicherstellen
+  - Transaktionsgebühren automatisch berechnen
+Erklärung: |
+  LNURL ist ein Kommunikationsprotokoll, das darauf ausgelegt ist, Interaktionen, wie Abhebungen und Zahlungen, zwischen Knoten und Lightning-Anwendungen zu vereinfachen.
+überprüft: false

@@ -1,0 +1,9 @@
+kysymys: Mikä amerikkalainen kehittäjä havaitsi "oudon lohkon" arvon ylivuototapauksessa 15. elokuuta 2010?
+vastaus: Jeff Garzik
+vaarat_vastaukset:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+selitys: |
+  Tämä lohko, hyödyntäen vikaa, loi yli 184 miljardia bitcoinia.
+arvioitu: false

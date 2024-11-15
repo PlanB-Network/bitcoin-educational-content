@@ -1,8 +1,9 @@
-question: Ketkä ovat kaksi vertaista Lightning Network -siirrossa esimerkissä?
-answer: Alice ja Bob.
-wrong_answers:
-  - Alice ja Charlie.
-  - Bob ja Charlie.
-  - Alice ja Bitcoin-verkko.
-explanation: |
-  Esimerkissä Alice ja Bob ovat kaksi vertaista, jotka ovat mukana Lightning Network -siirrossa.
+kysymys: Mitä Bob voi tehdä, jos hän havaitsee Alicen yrittävän huijata kanavan sulkemisen aikana?
+vastaus: Käyttää peruutusavainta palauttaakseen kaikki varat
+väärät_vastaukset:
+  - Peruuttaa Alicen sitoumustapahtuman
+  - Sulkea kanavan pysyvästi ilman mahdollisuutta avata uudelleen
+  - Vaatia vain puolet saatavilla olevista varoista
+selitys: |
+  Huijausyrityksen tapahtuessa Bob voi käyttää peruutusavainta palauttaakseen kaikki kanavan varat, näin rankaisten Alicea hänen yrityksestään.
+arvioitu: false

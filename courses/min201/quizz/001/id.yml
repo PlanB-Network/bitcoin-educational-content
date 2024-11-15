@@ -1,0 +1,13 @@
+pertanyaan: Apa tujuan dari mekanisme penyesuaian kesulitan dalam jaringan Bitcoin?
+jawaban: Untuk memastikan bahwa blok ditambang rata-rata setiap 10 menit
+jawaban_salah:
+  - Untuk meningkatkan kesulitan penambangan seiring waktu
+  - Untuk menurunkan kesulitan penambangan seiring waktu
+  - Untuk memastikan bahwa penambang yang sama tidak menambang blok berturut-turut
+penjelasan: |
+  Penyesuaian kesulitan adalah mekanisme penting dalam operasi jaringan
+  Bitcoin, memastikan bahwa blok ditambang rata-rata setiap 10 menit. Mekanisme
+  penyesuaian ini memastikan bahwa waktu penambangan untuk blok baru tetap konstan
+  seiring waktu, terlepas dari jumlah penambang atau kekuatan komputasi keseluruhan
+  dari jaringan.
+ditinjau: false

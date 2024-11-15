@@ -1,0 +1,9 @@
+domanda: In un gruppo ciclico, come si chiama un elemento che può generare tutti gli altri elementi tramite esponenziazione?
+risposta: Un generatore
+risposte_errate:
+  - Un moltiplicatore
+  - Un coprimo
+  - Un inverso
+spiegazione: |
+  Un generatore è un elemento in un gruppo ciclico che, tramite esponenziazione, può produrre tutti gli altri elementi del gruppo.
+revisionato: false

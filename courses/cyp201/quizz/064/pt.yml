@@ -1,11 +1,9 @@
-question: Qual é o principal objetivo de um Gerador de Números Aleatórios (RNG) em transações de Bitcoin?
-answer: Garantir a integridade das chaves privadas.
-wrong_answers:
-  - Garantir a velocidade das transações.
-  - Garantir o anonimato das transações.
-  - Garantir a legalidade das transações.
-explanation: |
-  O RNG é usado para gerar números aleatórios, que são cruciais para a integridade
-  das chaves privadas em transações de Bitcoin. Isso ajuda a prevenir qualquer vulnerabilidade
-  relacionada à previsibilidade.
-reviewed: false
+pergunta: Qual é o intervalo de índice usado para chaves de criança normais em uma carteira HD?
+resposta: Entre 0 e 2^31 - 1.
+respostas_erradas:
+  - Entre 0 e 2^32 - 1.
+  - Entre 0 e 2^31.
+  - Entre 2^31 e 2^32 - 1.
+explicação: |
+  Chaves de criança normais usam um intervalo de índice entre 0 e 2^31 - 1, enquanto chaves endurecidas têm um índice começando de 2^31.
+revisado: false

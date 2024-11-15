@@ -1,0 +1,9 @@
+question: What is a "block cipher" in cryptography?
+answer: An algorithm that transforms a fixed-length string into another string of the same length
+wrong_answers:
+  - An asymmetric encryption based on public and private secret keys
+  - A system that encrypts variable-length data by stream
+  - An encryption that does not require a secret key
+explanation: |
+  A block cipher is an algorithm that applies a transformation on a fixed-length bit string with a key to produce another string of the same length.
+reviewed: false

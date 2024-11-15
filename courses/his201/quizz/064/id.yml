@@ -1,0 +1,9 @@
+pertanyaan: Siapa penulis artikel pertama yang memperkenalkan Bitcoin yang diterbitkan dalam bahasa Prancis?
+jawaban: Lucien Grondin (grondilu)
+jawaban_salah:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+penjelasan: |
+  Itu adalah [teks](https://linuxfr.org/news/connaissez-vous-les-bitcoins) yang diterbitkan pada 30 September 2010, di LinuxFr.org dengan judul "Do you know about bitcoins?".
+ditinjau: false

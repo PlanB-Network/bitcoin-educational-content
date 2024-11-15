@@ -1,0 +1,9 @@
+question: Kui ma genereerin 128-bitise juhusliku numbri, kui suur on minu taastefraas sõnades?
+answer: 12 sõna.
+wrong_answers:
+  - 6 sõna.
+  - 8 sõna.
+  - 24 sõna.
+explanation: |
+  128-bitine juhuslik number vastab 12-sõnalisele mnemoonilisele fraasile, järgides BIP39 standardit.
+reviewed: false

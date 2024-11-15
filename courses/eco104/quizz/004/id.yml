@@ -1,0 +1,11 @@
+pertanyaan: Apa salah satu alasan mata uang fiat menyebabkan kontrol terpusat?
+jawaban: Ini memungkinkan pemerintah untuk mengontrol pasokan uang dan suku bunga.
+jawaban_salah:
+  - Ini didukung oleh komoditas fisik seperti emas dan perak.
+  - Ini tahan terhadap inflasi.
+  - Ini mendorong sistem keuangan yang terdesentralisasi.
+penjelasan: |
+  Mata uang fiat memberikan kekuasaan kepada pemerintah untuk mengontrol pasokan uang dan
+  suku bunga, memungkinkan mereka untuk mempengaruhi aktivitas ekonomi dan mengakibatkan
+  kontrol yang terpusat.
+ditinjau: true

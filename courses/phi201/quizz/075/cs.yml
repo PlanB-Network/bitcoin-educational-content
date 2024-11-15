@@ -1,0 +1,9 @@
+otázka: Jaký je název knihy Adama Smithe?
+odpověď: "Pojednání o povaze a příčinách bohatství národů."
+wrong_answers:
+  - "Pojednání o povaze a duchu bohatství národů."
+  - "Pojednání o povaze a původu bohatství národů."
+  - "Pojednání o příčině a původu bohatství národů."
+vysvětlení: |
+  Plný název knihy Adama Smithe, "Pojednání o povaze a příčinách bohatství národů," zdůrazňuje jeho analýzu faktorů přispívajících k ekonomické prosperitě, zkoumá mechanismy produkce a distribuce bohatství.
+reviewed: false

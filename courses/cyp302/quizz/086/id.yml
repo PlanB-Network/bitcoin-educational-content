@@ -1,0 +1,8 @@
+pertanyaan: Apa kelemahan utama dari metode ECB dengan cipher blok?
+jawaban: Ini deterministik dan dapat mengungkap pola dalam data
+jawaban_salah:
+  - Ini memerlukan kunci dengan panjang variabel
+  - Ini tidak berfungsi dengan pesan lebih dari 128 bit
+  - Ini tidak berfungsi dengan pesan lebih dari 256 bit
+penjelasan: |
+  Metode ECB ("Electronic Code Book") bersifat deterministik: blok data yang identik dienkripsi dengan cara yang sama, yang memungkinkan pola dapat terdeteksi dalam teks terenkripsi.

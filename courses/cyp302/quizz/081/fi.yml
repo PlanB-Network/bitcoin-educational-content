@@ -1,0 +1,8 @@
+kysymys: Mikä operaatio on tyypillisesti käytössä yhdistämään avainvirran ja viestin virtasalauksessa?
+vastaus: XOR
+vaarat_vastaukset:
+  - Kertolasku
+  - Modulaarinen siirto
+  - Kirjaimen korvaaminen
+selitys: |
+  Virtasalauksessa XOR-operaatiota käytetään yleisesti yhdistämään avainvirta viestiin, koska se on yksinkertainen ja kääntyvä.

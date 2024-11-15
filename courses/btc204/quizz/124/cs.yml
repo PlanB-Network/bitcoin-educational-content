@@ -1,0 +1,13 @@
+otázka: Která možnost umožňuje zapnout nebo vypnout P2P transport V2 v konfiguračním souboru Bitcoin Core?
+
+odpověď: v2transport=
+
+špatné_odpovědi:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+
+vysvětlení: |
+  P2P V2 transport lze upravit s možností v2transport= v konfiguračním souboru Core uzlu.
+
+recenzováno: false

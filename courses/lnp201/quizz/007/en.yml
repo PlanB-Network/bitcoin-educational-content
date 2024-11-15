@@ -1,10 +1,9 @@
-question: Is the capacity of a Lightning payment channel fixed?
-answer: "Yes"
+question: Why are UTXOs often compared to banknotes?
+answer: They must be spent in their entirety
 wrong_answers:
-  - "No"
-  - Only in some cases
-  - It depends on the Bitcoin network
+  - They can be used multiple times until depleted
+  - They are only usable in certain specific transactions
+  - They represent small fixed amounts of bitcoins
 explanation: |
-  When a channel is opened, it is given a fixed capacity, which is defined
-  in advance by the users.
+  Like a banknote, a UTXO must be spent entirely in a transaction, and any excess is returned to the sender as "change".
 reviewed: false

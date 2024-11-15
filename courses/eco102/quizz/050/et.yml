@@ -1,0 +1,8 @@
+question: Mis on peamine väärarusaam, mida Bastiat taunib teoses "Mis on nähtav ja mis mitte"?
+answer: Hävitamine stimuleerib majandust
+wrong_answers:
+  - Hävitamine on õnnetus
+  - Ainult klaasimeistrid saavad kasu katkistest akendest
+  - Õnnetusi tuleks vältida
+explanation: |
+  Bastiat kritiseerib väärarusaama, et hävitamisel oleks majandust stimuleeriv kasulik mõju, näidates selle asemel, et see toob kaasa netokahju rikkusele.

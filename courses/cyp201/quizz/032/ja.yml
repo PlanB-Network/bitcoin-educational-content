@@ -1,9 +1,9 @@
-question: Bitcoinウォレットのセキュリティにおける、ECDSA関数の不可逆性の意義は何ですか？
-answer: 公開鍵から秘密鍵を取り出すことは不可能です
+question: Bitcoinで最初のバージョンのHDウォレットを提案したBIP（Bitcoin Improvement Proposal）は何ですか？
+answer: BIP32。
 wrong_answers:
-  - 公開鍵から秘密鍵を取り出すことが可能です
-  - 秘密鍵から公開鍵を取り出すことが可能です
-  - 公開鍵から秘密鍵を取り出すことは不可能です
+  - BIP16。
+  - BIP39。
+  - BIP44。
 explanation: |
-  ECDSA関数は不可逆であり、公開鍵から秘密鍵を取り出すことは不可能です。この不可逆性はBitcoinウォレットのセキュリティの基盤です。
+  BIP32は、2012年に提案され、Bitcoinにおける階層的決定性（HD）ウォレットの概念を初めて導入したものです。
 reviewed: false

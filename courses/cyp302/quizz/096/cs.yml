@@ -1,0 +1,9 @@
+otázka: Jaké jsou tři základní kroky v MAC schématu?
+odpověď: Generování klíče, generování tagu, ověření
+špatné_odpovědi:
+  - Šifrování, dešifrování, přenos
+  - Generování veřejného klíče, šifrování soukromým klíčem, validace
+  - Hašování zpráv, šifrování tagu, distribuce tagu
+vysvětlení: |
+  MAC schéma se skládá ze tří hlavních kroků: generování tajného klíče, vytváření tagu pro zprávu a ověřování, že přijatá zpráva a její tag odpovídají.
+recenzováno: false

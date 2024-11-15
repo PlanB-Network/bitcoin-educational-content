@@ -1,0 +1,13 @@
+question: What is the main role of the transaction "Tx0" in Whirlpool?
+
+answer: To equalize the UTXOs.
+
+wrong_answers:
+  - To perform the first mix.
+  - To remove the UTXOs from the pool.
+  - To spend the mixed UTXOs.
+
+explanation: |
+  The Tx0 aims to prepare and equalize the UTXOs for the coinjoin, by splitting them into units corresponding to the amount of the selected pool, in order to ensure the homogeneity of the mixing.
+
+reviewed: false

@@ -1,11 +1,8 @@
-question: Tại sao việc bảo mật khóa riêng lại quan trọng trong hệ thống Bitcoin?
-answer: Nó đảm bảo an ninh cho các giao dịch Bitcoin.
-wrong_answers:
-  - Nó đảm bảo tốc độ của các giao dịch Bitcoin.
-  - Nó đảm bảo sự ẩn danh của các giao dịch Bitcoin.
-  - Nó đảm bảo tính hợp pháp của các giao dịch Bitcoin.
-explanation: |
-  Khóa riêng là nền tảng đảm bảo an ninh cho các giao dịch Bitcoin.
-  Chúng phải được tạo ra một cách hoàn toàn ngẫu nhiên để tránh bất kỳ lỗ hổng
-  nào liên quan đến khả năng dự đoán.
-reviewed: false
+Câu hỏi: Hai loại phái sinh khóa con trong ví HD là gì?
+Câu trả lời: Phái sinh bình thường và phái sinh cứng.
+Câu trả lời sai:
+  - Phái sinh đơn giản và phái sinh phức tạp.
+  - Phái sinh elliptic và phái sinh đường cong.
+  - Phái sinh tĩnh và phái sinh động.
+Giải thích: |
+  Hai loại phái sinh là phái sinh bình thường, sử dụng khóa công khai của cha mẹ, và phái sinh cứng, sử dụng khóa riêng tư của cha mẹ.

@@ -125,7 +125,7 @@ So n = 2.
 Step 2: Determine P, the number of padding bits needed to reach the final desired number of bits.
 -> M + 1 + P + 64 = n * 512
 -> M + 1 + P + 64 = 2 * 512
--> 940 + 1 + P + 64 = 1024
+-> 950 + 1 + P + 64 = 1024
 -> P = 1024 - 1 - 64 - 950
 -> P = 9
 
@@ -847,13 +847,14 @@ Another widely used cryptographic method on the Bitcoin protocol is the method o
 
 
 
-## Give us some feedback about this course
+## Evaluate the course
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Final Exam
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
+
 
 ## Conclusion and End
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>

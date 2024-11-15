@@ -1,0 +1,11 @@
+küsimus: Mis on peamine erinevus täiustatud rikošeti ja klassikalise rikošeti vahel?
+
+vastus: Tehingute jaotumine ajas
+
+valed_vastused:
+  - Kasutatud tehingute arv
+  - Kasutatud aadressi tüüp
+  - Tehingutes olevate väljundite arv
+
+selgitus: |
+  Täiustatud rikošett tagab, et iga tehing edastatakse erineval ajal ja registreeritakse erinevas plokis, samas kui klassikaline rikošett edastab kõik tehingud lühikese aja jooksul.

@@ -1,0 +1,9 @@
+domanda: Qual è la funzione principale di un Codice di Autenticazione del Messaggio (MAC)?
+risposta: Garantire l'autenticità e l'integrità del messaggio
+risposte_errate:
+  - Criptare i messaggi per garantire la riservatezza
+  - Prevenire l'intercettazione dei messaggi
+  - Generare chiavi private per ogni comunicazione
+spiegazione: |
+  Un MAC è uno schema crittografico che consente di verificare che un messaggio provenga realmente dal mittente legittimo e non sia stato alterato, garantendo così l'autenticità e l'integrità.
+recensito: false

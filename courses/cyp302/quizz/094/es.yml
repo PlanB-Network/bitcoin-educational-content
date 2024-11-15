@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es la principal fuente de confusión entre los términos "cifrado de bloque" y "cifrado de flujo"?
+respuesta: Los cifrados de bloque son a veces entendidos únicamente como algoritmos que utilizan modos de bloque como ECB o CBC.
+respuestas_incorrectas:
+  - Los cifrados de flujo siempre son menos seguros que los cifrados de bloque.
+  - Los cifrados de bloque operan un bit a la vez.
+  - Los cifrados de flujo siempre requieren relleno.
+explicación: |
+  La confusión surge del hecho de que algunos consideran a los cifrados de bloque solo como algoritmos que utilizan modos de bloqueo específicos, cuando en realidad, pueden incluir esquemas de cifrado como el modo OFB.
+revisado: false

@@ -1,9 +1,0 @@
-question: Quels sont certains des outils utilisés en cybersécurité?
-answer: Wireshark, Metasploit, Nmap
-wrong_answers:
-  - Photoshop, Illustrator, InDesign
-  - Excel, PowerPoint, Word
-  - AutoCAD, SolidWorks, Revit
-explanation: |
-  Le chapitre liste Wireshark, Metasploit et Nmap comme certains des outils utilisés en cybersécurité.
-reviewed: false

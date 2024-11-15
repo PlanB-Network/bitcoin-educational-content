@@ -1,0 +1,9 @@
+question: Hva er de tre metodene for å kjøpe bitcoin nevnt i kapittelet?
+answer: Bruk av minibanker (ATMs), veksling mellom venner, og kjøp på nett.
+wrong_answers:
+  - Bruk av kredittkort, veksling mellom venner, og kjøp på nett.
+  - Bruk av minibanker (ATMs), veksling mellom familiemedlemmer, og kjøp på nett.
+  - Bruk av minibanker (ATMs), veksling mellom kollegaer, og kjøp på nett.
+explanation: |
+  Kapittelet nevner tre metoder for å kjøpe bitcoin; bruk av minibanker (ATMs), veksling mellom venner, og kjøp på nett.
+reviewed: false

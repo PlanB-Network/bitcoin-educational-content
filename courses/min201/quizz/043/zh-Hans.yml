@@ -1,0 +1,9 @@
+question: “Not your hashrate, not your reward”这句格言在比特币挖矿中的意义是什么？
+answer: 如果你不控制哈希率，你就无法控制挖矿奖励。
+wrong_answers:
+  - 如果你的哈希率不高，你将得不到任何奖励。
+  - 如果你不拥有比特币，你将得不到任何奖励。
+  - 如果你没有挖矿机，你将得不到任何奖励。
+explanation: |
+  “Not your hashrate, not your reward”这句格言与加密货币世界中的著名格言“Not your keys, not your Bitcoins”相似。它的意思是如果你不控制哈希率，你就无法控制挖矿奖励。这是因为挖矿的奖励与哈希率直接成正比。
+reviewed: false

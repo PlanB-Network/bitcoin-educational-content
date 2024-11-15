@@ -1,9 +1,8 @@
-question: Mục đích của nonce trong bối cảnh giao dịch Bitcoin là gì?
-answer: Nó được sử dụng trong việc tạo ra chữ ký số.
-wrong_answers:
-  - Nó được sử dụng để mã hóa dữ liệu giao dịch.
-  - Nó được sử dụng để lưu trữ dữ liệu giao dịch.
-  - Nó được sử dụng để truyền dữ liệu giao dịch.
-explanation: |
-  Trong bối cảnh giao dịch Bitcoin, nonce được sử dụng trong việc tạo ra chữ ký số. Cụ thể, nó được sử dụng trong việc tính toán một số cụ thể V và chữ ký số được tạo thành từ hai phần, S1 và S2.
-reviewed: false
+câu hỏi: Tại sao việc sử dụng một cụm mật khẩu lại tăng cường bảo mật cho ví HD?
+câu trả lời: Nó thêm một lớp bảo vệ bổ sung cho cụm từ ghi nhớ.
+câu trả lời sai:
+  - Nó cho phép tạo ra các khóa công khai mạnh mẽ hơn.
+  - Nó bảo vệ các giao dịch bằng cách mã hóa.
+  - Nó nhân đôi số lượng bitcoin trong ví.
+giải thích: |
+  Cụm mật khẩu tăng cường bảo mật bằng cách thêm một phần dữ liệu bổ sung vào cụm từ ghi nhớ, hoạt động tương tự như một hình thức xác thực hai yếu tố (2FA).

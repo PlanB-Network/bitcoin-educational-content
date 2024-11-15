@@ -1,0 +1,8 @@
+question: Hva representerer "modulo"-operasjonen i matematikk?
+answer: Resten av en divisjon
+wrong_answers:
+  - Kvotienten av en divisjon
+  - To ganger startnummeret
+  - Tallet som deler uten rest
+explanation: |
+  Modulo-operasjonen innebærer å bestemme resten av en divisjon, for eksempel er 25 mod 4 lik 1 fordi resten av divisjonen er 1.

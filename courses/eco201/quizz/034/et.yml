@@ -1,0 +1,11 @@
+question: Mis on Austria äritsükli teooria?
+answer: Austria äritsükli teooria on teooria, mis selgitab majandustsükleid kui fraktsionaalreservpangandussüsteemi endogeenseid dünaamikaid, rõhutades inimtegevuse järjestikust olemust ja intressimäärade kõikumiste mõju majandusagentide ajalisele koordineerimisele.
+wrong_answers:
+  - Austria äritsükli teooria on teooria, mis selgitab majandustsükleid kui välisündmuste ja "loomade vaimude" tulemust.
+  - Austria äritsükli teooria on teooria, mis selgitab majandustsükleid kui muutuste tulemust agregaatnõudluses ja -pakkumises.
+  - Austria äritsükli teooria on teooria, mis selgitab majandustsükleid kui muutuste tulemust tööhõives, SKPs või tarbijahinnaindeksis.
+explanation: |
+  Austria äritsükli teooria, mille arendasid välja Ludwig Von Mises
+  ja Friedrich Hayek, selgitab majandustsükleid kui fraktsionaalreservpangandussüsteemi endogeenseid dünaamikaid. See rõhutab inimtegevuse järjestikust olemust ja
+  intressimäärade kõikumiste mõju majandusagentide ajalisele koordineerimisele.
+reviewed: false

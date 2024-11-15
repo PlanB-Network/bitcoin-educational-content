@@ -1,11 +1,9 @@
-question: What are the initialization vectors in the SHA-256 function processing?
-answer: The first 32 bits of the decimal parts of the square roots of the first 8 prime numbers
+question: What are the algorithms used for derivation in Bitcoin HD wallets?
+answer: HMAC/PBKDF2
 wrong_answers:
-  - The first 32 bits of the decimal parts of the cubic roots of the first 8 prime numbers
-  - The first 32 bits of the decimal parts of the square roots of the first 64 prime numbers
-  - The first 32 bits of the decimal parts of the cubic roots of the first 64 prime numbers
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
 explanation: |
-  In the SHA-256 function processing, the initialization vectors, from
-  A to H, are the first 32 bits of the decimal parts of the square roots of the first
-  8 prime numbers. These are used as basic ingredients in the cryptographic recipe.
+  Bitcoin HD wallets use HMAC (Hash-based Message Authentication Code) for key derivation and PBKDF2 (Password-Based Key Derivation Function 2) for seed derivation.
 reviewed: false

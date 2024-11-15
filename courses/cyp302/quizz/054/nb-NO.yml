@@ -1,0 +1,9 @@
+question: Hva er den primære typen av algebraisk struktur som brukes i endelige felt for kryptografi?
+answer: Irreduserbare polynomer
+wrong_answers:
+  - Kvadratiske matriser
+  - Tilfeldige vektorer
+  - Kubikkrøtter
+explanation: |
+  I kryptografi bruker ofte endelige felt av orden 2^m irreduserbare polynomer for å sikre at feltet er godt definert og at alle operasjoner er mulige.
+reviewed: false

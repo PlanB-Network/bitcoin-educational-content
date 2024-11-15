@@ -1,8 +1,9 @@
-question: Mikä on yleisimmin käytetty standardi 24 sanan palautuslauseelle Bitcoin-lompakossa?
-answer: 256 bitin entropia.
-wrong_answers:
-  - 128 bitin entropia.
-  - 160 bitin entropia.
-  - 512 bitin entropia.
-explanation: |
-  Yleisimmin käytetty standardi 24 sanan palautuslauseelle on 256 bitin entropia.
+kysymys: Mitä seuraava johdannaispolku tarkoittaa? m/44'/0'/0'/0/0
+vastaus: Ulkoinen Legacy-osoite pääverkossa.
+väärät_vastaukset:
+  - Ulkoinen SegwitV1-osoite pääverkossa.
+  - Sisäinen Legacy-osoite testiverkossa.
+  - Ulkoinen SegwitV0-osoite pääverkossa.
+selitys: |
+  Johdannaispolku m/44'/0'/0'/0/0 viittaa ulkoiseen Legacy-osoitteeseen pääverkossa (mainnet). 44' = Legacy, 0' = pääverkko, 0 = ulkoinen
+arvioitu: false

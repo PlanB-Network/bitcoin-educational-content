@@ -1,9 +1,9 @@
-question: Cosa succede se la passphrase di un portafoglio Bitcoin viene cambiata?
-answer: Il portafoglio Bitcoin diventa completamente diverso
-wrong_answers:
-  - Il portafoglio Bitcoin diventa inaccessibile
-  - Il portafoglio Bitcoin rimane lo stesso
-  - Il portafoglio Bitcoin perde tutti i suoi bitcoin
-explanation: |
-  Se la passphrase viene cambiata, il portafoglio Bitcoin diventa completamente diverso perché la passphrase gioca un ruolo nella costruzione e nel calcolo di tutte le chiavi del portafoglio.
-reviewed: false
+domanda: Come viene calcolato il checksum di un indirizzo SegWit?
+risposta: Con un codice BCH.
+risposte_errate:
+  - Con HASH160.
+  - Con HASH256.
+  - Con SHA512.
+spiegazione: |
+  Per gli indirizzi SegWit, il checksum viene calcolato utilizzando il codice BCH, che consente di rilevare possibili errori nell'indirizzo.
+recensito: false

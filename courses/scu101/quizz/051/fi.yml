@@ -1,8 +1,0 @@
-question: Mikä on kyberturvallisuuden kultainen sääntö?
-answer: Kyberturvallisuus on liikkuva maali, joka mukautuu oppimismatkasi mukaan.
-wrong_answers:
-  - Kyberturvallisuus on kertaluonteinen asennus
-  - Kyberturvallisuus ei ole tarpeellinen henkilökohtaisille tileille
-  - Kyberturvallisuus on vain teknisesti taitaville ihmisille
-explanation: |
-  Kyberturvallisuus on liikkuva maali, koska uhkat ja turvatoimet kehittyvät jatkuvasti. On tärkeää jatkaa oppimista ja mukauttaa käytäntöjäsi.

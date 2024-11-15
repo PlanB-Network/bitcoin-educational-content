@@ -1,0 +1,9 @@
+pregunta: ¿Qué permite el protocolo de intercambio de claves Diffie-Hellman?
+respuesta: Permite que dos partes creen una clave secreta común compartiendo información pública.
+respuestas_incorrectas:
+  - Permite un intercambio de clave secreta en persona para cada sesión.
+  - Permite el uso de una clave pública para cifrado y una clave privada para descifrado.
+  - Permite el intercambio de moneda electrónica.
+explicación: |
+  El protocolo Diffie-Hellman permite que dos partes compartan información públicamente asegurando que solo ellas puedan generar una clave común para asegurar sus futuros intercambios.
+revisado: false

@@ -1,0 +1,8 @@
+question: 在HD钱包中，用于从父密钥对派生子密钥对的函数是什么？
+answer: HMAC-SHA512。
+wrong_answers:
+  - SHA256。
+  - Argon2d。
+  - PBKDF2。
+explanation: |
+  在HD钱包中，使用HMAC-SHA512从父密钥对派生子密钥对。

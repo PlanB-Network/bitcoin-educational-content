@@ -1,11 +1,9 @@
-question: Mikä on yksityisen avaimen turvallisuuden merkitys Bitcoin-ekosysteemissä?
-answer: Se varmistaa Bitcoin-siirtojen turvallisuuden.
-wrong_answers:
-  - Se varmistaa Bitcoin-siirtojen nopeuden.
-  - Se varmistaa Bitcoin-siirtojen nimettömyyden.
-  - Se varmistaa Bitcoin-siirtojen laillisuuden.
-explanation: |
-  Yksityiset avaimet ovat kulmakivi, joka varmistaa Bitcoin-siirtojen turvallisuuden.
-  Ne on luotava todella satunnaisesti välttääkseen minkä tahansa haavoittuvuuden,
-  joka liittyy ennustettavuuteen.
-reviewed: false
+kysymys: Mitkä ovat kahdenlaiset lapsiavaimen johdannaiset HD-lompakossa?
+vastaus: Normaali johdannainen ja vahvistettu johdannainen.
+väärät_vastaukset:
+  - Yksinkertainen johdannainen ja monimutkainen johdannainen.
+  - Elliptinen johdannainen ja käyrä johdannainen.
+  - Staattinen johdannainen ja dynaaminen johdannainen.
+selitys: |
+  Kahdenlaiset johdannaiset ovat normaali johdannainen, joka käyttää vanhemman julkista avainta, ja vahvistettu johdannainen, joka käyttää vanhemman yksityistä avainta.
+arvioitu: false

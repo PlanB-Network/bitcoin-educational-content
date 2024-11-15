@@ -1,0 +1,9 @@
+kysymys: Minkä tyyppinen ryhmä käyttää pääasiassa kryptografiaa?
+vastaus: Kokonaislukuja tai kokonaisluvuilla kuvattuja elementtejä sisältävät ryhmät
+vaarat_vastaukset:
+  - Kompleksilukuja tai kompleksiluvuilla kuvattuja elementtejä sisältävät ryhmät
+  - Geometrisia muunnoksia tai geometrisilla muunnoksilla kuvattuja elementtejä sisältävät ryhmät
+  - Rationaalilukuja tai rationaaliluvuilla kuvattuja elementtejä sisältävät ryhmät
+selitys: |
+  Kryptografia käyttää kokonaislukuihin tai kokonaisluvuilla kuvattuihin elementteihin, kuten elliptisen käyrän pisteisiin, perustuvia ryhmiä salaus- ja allekirjoitusoperaatioissa.
+arvioitu: false

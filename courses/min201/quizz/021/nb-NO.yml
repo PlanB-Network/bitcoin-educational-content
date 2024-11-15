@@ -1,0 +1,12 @@
+question: Hva er den økonomiske fordelen med å bruke en Bitcoin miner i stedet for en enkel elektrisk ovn?
+answer: Mineren gir ikke bare varme, men også en Bitcoin-belønning.
+wrong_answers:
+  - Mineren bruker mindre elektrisitet enn en enkel elektrisk ovn.
+  - Mineren produserer mer varme enn en enkel elektrisk ovn.
+  - Mineren er billigere enn en enkel elektrisk ovn.
+explanation: |
+  Forskjellen mellom å bruke en miner og en enkel elektrisk ovn ligger
+  i det faktum at mineren ikke bare gir varme, men også en Bitcoin-belønning. Denne
+  tilleggsbelønningen kunne bidra til å lindre bekymringer om det høye energiforbruket
+  til minerne.
+reviewed: false

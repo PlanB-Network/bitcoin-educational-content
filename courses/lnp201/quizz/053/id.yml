@@ -1,0 +1,9 @@
+pertanyaan: Mengapa sebuah router harus mempertahankan distribusi likuiditas yang baik di dalam salurannya?
+jawaban: Untuk memaksimalkan jumlah pembayaran yang dapat diarahkan
+jawaban_salah:
+  - Untuk mengurangi biaya transaksi
+  - Untuk menghindari pembukaan saluran baru
+  - Untuk membatasi penggunaan blockchain Bitcoin
+penjelasan: |
+  Sebuah router bertujuan untuk mengarahkan sebanyak mungkin pembayaran untuk mengumpulkan biaya, yang memerlukan distribusi likuiditas yang baik di kedua sisi saluran untuk memastikan kapasitas pengarahan.
+ditinjau: false

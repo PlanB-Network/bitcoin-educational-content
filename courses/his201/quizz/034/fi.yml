@@ -1,0 +1,9 @@
+kysymys: Kuka perusti ensimmäisen vaihtopalvelun bitcoinin ja dollarin välille lokakuussa 2009?
+vastaus: NewLibertyStandard
+väärät_vastaukset:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+selitys: |
+  Tämä palvelu oli alkeellinen: vaihdot neuvoteltiin sähköpostitse, ja maksut suoritettiin PayPalin kautta. Vaihtokurssi perustui NewLibertyStandardin itsensä kaivostoiminnan kustannuksiin.
+arvioitu: false

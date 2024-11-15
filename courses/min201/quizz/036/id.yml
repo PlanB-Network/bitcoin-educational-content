@@ -1,0 +1,11 @@
+pertanyaan: Apa hubungan antara biaya Bitcoin dan harganya?
+jawaban: Biaya Bitcoin umumnya berbanding lurus dengan harganya
+jawaban_salah:
+  - Biaya Bitcoin berbanding terbalik dengan harganya
+  - Biaya Bitcoin tidak terkait dengan harganya
+  - Biaya Bitcoin selalu lebih tinggi dari harganya
+penjelasan: |
+  Biaya Bitcoin, yang berkaitan dengan listrik yang diperlukan untuk mengoperasikan
+  mesin penambangan, umumnya berbanding lurus dengan harganya. Hubungan ini memberikan
+  pemahaman yang lebih baik tentang fluktuasi harga dan prospek masa depan.
+ditinjau: false

@@ -9,7 +9,7 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 **Apakah Anda ingin menambahkan buku terkait Bitcoin di situs Jaringan PlanB dan meningkatkan visibilitas karya Anda, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!**
 ![book](assets/01.webp)
 - Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/create-github-account).
-- Kunjungi [repositori GitHub dari PlanB yang didedikasikan untuk data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books) di bagian `resources/books/`:
+- Kunjungi [repositori GitHub dari PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) di bagian `resources/books/`:
 ![book](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, lalu klik `Create new file`:
 ![book](assets/03.webp)

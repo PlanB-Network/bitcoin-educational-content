@@ -1,0 +1,8 @@
+question: Mis moodustab enamiku arenenud maailma suhtluse füüsilise aluse?
+answer: Kiudoptilised kaabelvõrgud
+wrong_answers:
+  - Satelliidid iga ühenduse jaoks
+  - Ainult koaksiaalkaablid
+  - Ainult vaskjuhtmed
+explanation: |
+  Enamik kaasaegsest suhtlusest toetub kiudoptilistele kaabelvõrkudele, mis tagavad kiire andmevahetuse, kuigi mõningane kasutus satelliitidele ja koaksiaalkaablitel püsib.

@@ -1,0 +1,11 @@
+Frage: Was sagt ein großer Anonset über die Privatsphäre eines UTXO aus?
+
+Antwort: Verbesserte Privatsphäre.
+
+Falsche Antworten:
+  - Verringerte Privatsphäre.
+  - Verbesserte Nachverfolgbarkeit.
+  - Schnellere Coinjoin-Transaktionsgeschwindigkeiten.
+
+Erklärung: |
+  Ein großer Anonset deutet auf ein hohes Maß an Anonymität hin, da es schwierig wird, ein spezifisches UTXO innerhalb der homogenen Menge zu unterscheiden.

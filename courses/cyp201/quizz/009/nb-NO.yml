@@ -1,0 +1,9 @@
+question: Hva kalles konstruksjonen av SHA256 hash-funksjonen?
+answer: Merkle-Damgård-konstruksjonen.
+wrong_answers:
+  - Svampkonstruksjonen.
+  - Iterativ Hash Funksjoner Konstruksjon (HAIFA).
+  - Feistel-konstruksjonen.
+explanation: |
+  SHA256 bruker Merkle-Damgård-konstruksjonen, en struktur som ofte brukes til å lage sikre hash-funksjoner.
+reviewed: false

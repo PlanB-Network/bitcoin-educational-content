@@ -1,0 +1,8 @@
+question: Hva er en "block cipher" i kryptografi?
+answer: En algoritme som transformerer en fastlengde-streng til en annen streng av samme lengde
+wrong_answers:
+  - En asymmetrisk kryptering basert på offentlige og private hemmelige nøkler
+  - Et system som krypterer data med variabel lengde ved hjelp av strøm
+  - En kryptering som ikke krever en hemmelig nøkkel
+explanation: |
+  En block cipher er en algoritme som anvender en transformasjon på en bitstreng med fast lengde med en nøkkel for å produsere en annen streng av samme lengde.

@@ -1,0 +1,13 @@
+Frage: Unter diesen 3 Protokollen, welches ist keine Implementierung von Coinjoin?
+
+Antwort: Chainalysis.
+
+Falsche Antworten:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+
+Erklärung: |
+  Chainalysis ist überhaupt keine Implementierung von Coinjoin, da es sich um ein Unternehmen für Blockchain-Analyse handelt.
+
+Überprüft: false

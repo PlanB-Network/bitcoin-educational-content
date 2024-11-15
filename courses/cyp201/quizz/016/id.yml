@@ -1,0 +1,8 @@
+pertanyaan: Untuk menerapkan kurva elips ini ke penggunaan kriptografi, di lapangan apa kita harus mendefinisikannya?
+jawaban: Sebuah lapangan hingga dari bilangan bulat positif.
+jawaban_salah:
+  - Lapangan bilangan riil.
+  - Sebuah lapangan hingga dari bilangan riil.
+  - Sebuah lapangan kompleks.
+penjelasan: |
+  Dalam Bitcoin, kurva elips secp256k1 didefinisikan di atas lapangan hingga dari bilangan bulat positif modulo sebuah bilangan prima untuk menghindari pendekatan dan memastikan keamanan.

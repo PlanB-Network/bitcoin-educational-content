@@ -1,0 +1,11 @@
+pregunta: ¿Cuál es el objetivo principal de un coinswap?
+
+respuesta: Transferir secretamente la propiedad de bitcoins
+
+respuestas_incorrectas:
+  - Aumentar la velocidad de las transacciones
+  - Mezclar bitcoins
+  - Intercambiar secretamente un altcoin por bitcoin
+
+explicación: |
+  Coinswap utiliza contratos inteligentes para permitir una transferencia de la propiedad de bitcoin entre dos usuarios, sin la necesidad de confianza y sin que esta transferencia sea explícitamente visible en la blockchain.

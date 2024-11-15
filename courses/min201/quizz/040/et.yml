@@ -1,0 +1,9 @@
+question: Mida kaevandamine seab Bitcoinile?
+answer: Alumise hinna
+wrong_answers:
+  - Ülemise hinna
+  - Fikseeritud hinna
+  - Muutuva hinna
+explanation: |
+  Kaevandamine seab Bitcoinile alumise hinna, millest madalamal müüksid kaevurid kahjumiga. Kaevandamise kulud mõjutavad oluliselt Bitcoini hinda.
+reviewed: false

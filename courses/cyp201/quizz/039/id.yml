@@ -1,0 +1,8 @@
+pertanyaan: Apa karakteristik dari PRNG yang aman secara kriptografi?
+jawaban: Harus tidak terduga, secara statistik acak, dan tahan terhadap serangan.
+jawaban_salah:
+  - Harus cepat, dapat digunakan di cloud, dan open source.
+  - Harus non-deterministik, berbasis pada fenomena fisik, dan dapat diskalakan.
+  - Harus berbasis hardware, dihasilkan oleh sebuah prosesor, dan dapat dibalik.
+penjelasan: |
+  PRNG yang aman secara kriptografi harus tidak terduga, tahan bahkan jika beberapa hasil diungkapkan, dan memiliki periode yang cukup panjang untuk menghindari pengulangan urutan.

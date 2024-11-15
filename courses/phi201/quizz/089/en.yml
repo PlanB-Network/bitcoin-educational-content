@@ -1,0 +1,9 @@
+question: What does the "strict boundary between public sphere and private sphere" advocated by Constant entail?
+answer: This boundary implies that the State should not interfere in the private lives of individuals.
+wrong_answers:
+  - This boundary implies that individuals should not get involved in public affairs.
+  - This boundary implies a total separation between the Church and the State.
+  - This boundary implies that individuals must have the same freedoms in both the public and private spheres.
+explanation: |
+  For Benjamin Constant, a strict boundary between the public and private spheres means that the State must respect the privacy of individuals and avoid any intervention in personal choices that do not concern the public domain.
+reviewed: false

@@ -1,12 +1,9 @@
-question: Jaký je hlavní účel digitálních podpisů v protokolu Bitcoin?
-answer: Prokázat držení soukromého klíče spojeného s konkrétním veřejným klíčem
-wrong_answers:
-  - Zašifrovat data transakce
-  - Generovat nové bitcoiny
-  - Ověřit identitu odesílatele
-explanation: |
-  V jádru protokolu Bitcoin jsou digitální podpisy používány jako
-  matematické
-  důkazy prokazující držení soukromého klíče spojeného s konkrétním
-  veřejným klíčem.
-reviewed: false
+otázka: Co v systému Bitcoin dokazuje digitální podpis prostřednictvím scriptSig?
+odpověď: Vlastnictví soukromého klíče spojeného s konkrétním veřejným klíčem.
+špatné_odpovědi:
+  - Vlastnictví Bitcoinové adresy.
+  - Schopnost těžit Bitcoinový blok.
+  - Platnost Bitcoinové transakce.
+vysvětlení: |
+  Digitální podpis dokazuje, že uživatel má soukromý klíč, aniž by ho musel odhalit, čímž zajišťuje autentičnost transakce.
+recenzováno: false

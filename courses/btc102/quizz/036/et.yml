@@ -1,0 +1,11 @@
+question: Mida rõhutab fraas "Kui pole sinu võtmeid, pole sinu Bitcoine"?
+answer: Privaatvõtme omamise tähtsus Bitcoin'i rahakotis
+wrong_answers:
+  - Füüsilise võtme omamise tähtsus, et pääseda ligi oma Bitcoinidele
+  - Oma Bitcoinide turvalises kohas hoidmise tähtsus
+  - Oma Bitcoin'i konto andmete mittejagamise tähtsus
+explanation: |
+  Peatükk selgitab, et fraas "Kui pole sinu võtmeid, pole sinu Bitcoine"
+  rõhutab privaatvõtme omamise tähtsust Bitcoin'i rahakotis. Privaatvõtme
+  omamisega on sul täielik kontroll rahakotis olevate Bitcoinide üle.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er den pseudotilfeldige funksjonen som brukes i PBKDF2 for å beregne frøet til en Bitcoin HD-lommebok?
+answer: HMAC-SHA512.
+wrong_answers:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+explanation: |
+  HMAC-SHA512 er den pseudotilfeldige funksjonen som brukes i PBKDF2 for å generere frøet til en Bitcoin HD-lommebok.
+reviewed: false

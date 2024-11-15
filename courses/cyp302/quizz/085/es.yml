@@ -1,0 +1,9 @@
+pregunta: ¿Qué es un "block cipher" en criptografía?
+respuesta: Un algoritmo que transforma una cadena de longitud fija en otra cadena de la misma longitud
+respuestas_incorrectas:
+  - Una encriptación asimétrica basada en claves secretas públicas y privadas
+  - Un sistema que encripta datos de longitud variable por flujo
+  - Una encriptación que no requiere una clave secreta
+explicación: |
+  Un block cipher es un algoritmo que aplica una transformación sobre una cadena de bits de longitud fija con una clave para producir otra cadena de la misma longitud.
+revisado: false

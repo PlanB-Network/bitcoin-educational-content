@@ -1,10 +1,9 @@
-question: Kdo vytváří transakci s Timelockem?
-answer: Osoba, která posílá peníze.
-wrong_answers:
-  - Osoba, která přijímá peníze.
-  - Obě strany vytvářejí transakci s Timelockem.
-  - Žádná ze stran nevytváří transakci s Timelockem.
-explanation: |
-  Osoba, která posílá peníze, vytváří transakci s Timelockem.
-  To jim brání v okamžitém získání jejich peněz zpět.
-reviewed: false
+otázka: Jakou roli hraje časový zámek v provozu HTLC?
+odpověď: Poskytuje časový rámec pro dokončení platby před zrušením
+špatné_odpovědi:
+  - Zvyšuje kapacitu použitého kanálu
+  - Přidává vrstvu soukromí k transakci
+  - Ukládá dodatečné poplatky za každý prostřednický uzel
+vysvětlení: |
+  Časový zámek stanovuje časový rámec pro dokončení HTLC, což umožňuje obnovu finančních prostředků, pokud transakce neuspěje, zrušením platby po tomto období.
+recenzováno: false

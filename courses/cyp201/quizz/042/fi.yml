@@ -1,9 +1,9 @@
-question: Mikä on digitaalisen allekirjoituksen tarkoitus Bitcoin-siirtojen yhteydessä?
-answer: Todistaa, että olet yksityisen avaimen haltija paljastamatta sitä.
-wrong_answers:
-  - Salata siirtotiedot.
-  - Tallentaa siirtotiedot.
-  - Lähettää siirtotiedot.
-explanation: |
-  Bitcoin-siirtojen yhteydessä digitaalista allekirjoitusta käytetään todistamaan, että olet yksityisen avaimen haltija paljastamatta sitä. Tämä saavutetaan käyttämällä ECDSA-algoritmia.
-reviewed: false
+kysymys: Jos generoin 256-bittisen satunnaisluvun, kuinka monta sanaa palautusfraasini tulee olemaan?
+vastaus: 24 sanaa.
+vaarat_vastaukset:
+  - 6 sanaa.
+  - 8 sanaa.
+  - 12 sanaa.
+selitys: |
+  256-bittinen satunnaisluku vastaa 24 sanan muistisanaista fraasia BIP39-standardin mukaisesti.
+arvioitu: false

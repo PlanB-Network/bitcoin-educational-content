@@ -1,0 +1,9 @@
+question: Mis on koomiksiraamatu nimi, mida soovitatakse neile, kes on uudishimulikud Saksamaa kogemuse kohta pärast Esimest maailmasõda?
+answer: Riigipanga Pankur
+wrong_answers:
+  - Riigipanga Dollar
+  - Riigipanga Inflatsioon
+  - Riigipanga Majandus
+explanation: |
+  Neile, kes on uudishimulikud Saksamaa kogemuse kohta pärast Esimest maailmasõda, soovitab loeng koomiksiraamatut "Riigipanga Pankur." See jutustab, kuidas Saksamaa suutis üle saada hüperinflatsioonist, eriti tänu Rentenmarki loomisele.
+reviewed: false

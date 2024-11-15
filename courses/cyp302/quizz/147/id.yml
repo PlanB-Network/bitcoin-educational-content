@@ -1,0 +1,9 @@
+pertanyaan: Jika sebuah bilangan bulat N adalah hasil kali dari dua bilangan prima p dan q, bagaimana cara menghitung urutan dari N?
+jawaban: (p - 1) * (q - 1)
+jawaban_salah:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+penjelasan: |
+  Untuk N yang sama dengan hasil kali dari dua bilangan prima p dan q, urutan dari N dihitung sebagai (p - 1) * (q - 1).
+ditinjau: false

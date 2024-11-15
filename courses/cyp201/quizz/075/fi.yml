@@ -1,8 +1,9 @@
-question: Mikä funktio käytetään generoimaan siemenlauseke salasanasta Bitcoin-lompakossa?
-answer: pbkdf2
-wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
-explanation: |
-  pbkdf2-funktio käytetään generoimaan siemenlauseke salasanasta Bitcoin-lompakossa. Tämä siemen mahdollistaa kaikkien lompakon lasten avainparien johdannan.
+kysymys: Kuinka tiivistää julkinen avain?
+vastaus: Säilytämme sen x-koordinaatin arvon ja lisäämme etuliitteen, joka osoittaa, kumman y-koordinaatin valitsemme.
+väärät_vastaukset:
+  - Säilytämme sen y-koordinaatin arvon ja lisäämme etuliitteen, joka osoittaa, kumman x-koordinaatin valitsemme.
+  - Tiivistämme julkisen avaimen hash-funktiolla.
+  - Käytämme kaksinkertaista SHA256-hashia julkisen avaimen tiivistämiseen.
+selitys: |
+  Julkisen avaimen tiivistäminen tehdään säilyttämällä x-koordinaatti ja lisäämällä etuliite 0x02 tai 0x03 osoittamaan, onko y parillinen vai pariton.
+arvioitu: false

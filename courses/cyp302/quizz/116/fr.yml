@@ -1,0 +1,9 @@
+question: Quel est le but de l'opération "shift rows" dans AES ?
+answer: Augmenter la diffusion en réarrangeant les octets dans le tableau d'état
+wrong_answers:
+  - Garantir que chaque bloc a la même longueur
+  - Appliquer une clé secrète à chaque ligne du tableau d'état
+  - Introduire une confusion supplémentaire en substituant les octets
+explanation: |
+  L'opération "shift rows" dans AES réarrange les octets dans le tableau d'état pour disperser les informations, ce qui augmente ainsi la diffusion.
+reviewed: false

@@ -1,0 +1,8 @@
+question: For å beregne verdiene av hovednøkkelen og hovedkjedekoden, er det første inndata til HMAC-SHA512-funksjonen frøet. Hva er den andre inndataverdien til denne funksjonen, som fungerer som en nøkkel?
+answer: "Bitcoin seed".
+wrong_answers:
+  - Den mnemoniske frasen.
+  - Passfrasen.
+  - "Seed".
+explanation: |
+  Strengen "Bitcoin seed" brukes som en nøkkel i HMAC-SHA512 for å utlede hovednøkkelen og hovedkjedekoden fra frøet.

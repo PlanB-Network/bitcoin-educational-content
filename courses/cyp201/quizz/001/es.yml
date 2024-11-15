@@ -1,9 +1,9 @@
-question: ¿Cuál es la ventaja de usar HASH160 en el protocolo de Bitcoin?
-answer: Permite mantener la seguridad de SHA-256 al reducir el tamaño de la huella digital.
-wrong_answers:
-  - Aumenta el tamaño de la huella digital para mayor seguridad.
-  - Es más resistente a colisiones que SHA-256.
-  - Es más rápido de calcular que SHA-256.
-explanation: |
-  HASH160 en el protocolo de Bitcoin es ventajoso porque mantiene la seguridad de SHA-256 al reducir el tamaño de la huella digital. Esto lo hace más eficiente sin comprometer la seguridad.
-reviewed: false
+pregunta: ¿Cuál es el tamaño de salida de la función hash SHA256?
+respuesta: 256 bits.
+respuestas_incorrectas:
+  - 256 bytes.
+  - 512 bits.
+  - 512 bytes.
+explicación: |
+  SHA-256 produce una salida fija de 256 bits, independientemente del tamaño de los datos de entrada.
+revisado: false

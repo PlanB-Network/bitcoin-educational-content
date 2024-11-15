@@ -1,0 +1,8 @@
+kysymys: Miksi on vaikeaa rakentaa "lohkomoodin" salausta virtasalauksesta?
+vastaus: Koska virtasalaukset käsittelevät dataa jatkuvasti
+vaarat_vastaukset:
+  - Koska virtasalaukset eivät käytä yksityisiä avaimia
+  - Koska lohkomoodit vaativat pidempiä avaimia
+  - Koska virtasalaukset ovat aina hitaampia
+selitys: |
+  Virtasalaukset on suunniteltu salaamaan dataa jatkuvasti (bitti bitiltä tai tavu tavulta), mikä vaikeuttaa niiden käyttöä lohkomoodissa, joka vaatii käsittelyn kiinteänkokoisissa lohkoissa.

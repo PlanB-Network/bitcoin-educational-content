@@ -1,9 +1,9 @@
-question: Wie groß ist die Ausgabegröße der SHA256-Hashfunktion?
-answer: 256 Bits
-wrong_answers:
-  - 512 Bits
-  - 128 Bits
-  - 1024 Bits
-explanation: |
-  Die SHA256-Hashfunktion erzeugt einen 256-Bit-Hash aus einer variablen Eingabegröße. Deshalb wird sie SHA256 genannt.
-reviewed: false
+Frage: Wie lautet der Name der elliptischen Kurve, die für digitale Signaturalgorithmen in Bitcoin verwendet wird?
+Antwort: secp256k1.
+Falsche Antworten:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+Erklärung: |
+  Die secp256k1 Kurve wird im Bitcoin-Protokoll für digitale Signaturen verwendet.
+Überprüft: false

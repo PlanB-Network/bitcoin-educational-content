@@ -1,9 +1,9 @@
-question: Mikä on BIP38:n rooli Bitcoin-ekosysteemissä?
-answer: Se ehdotti lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta.
-wrong_answers:
-  - Se esitteli 24-sanan muistilauseen.
-  - Se mullisti avainten luonti- ja säilytystavan.
-  - Se standardisoi HD-lompakoiden rakenteen ja hierarkian.
-explanation: |
-  BIP38 ehdotti lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta. Tämä on yksi monista parannuksista, jotka on tehty HD-lompakoiden turvallisuuden ja toiminnallisuuden parantamiseksi.
-reviewed: false
+kysymys: Mikä on pseudo-satunnaisfunktio, jota käytetään PBKDF2:ssa laskemaan Bitcoin HD -lompakon siemen?
+vastaus: HMAC-SHA512.
+vaarat_vastaukset:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+selitys: |
+  HMAC-SHA512 on pseudo-satunnaisfunktio, jota käytetään PBKDF2:ssa generoimaan Bitcoin HD -lompakon siemen.
+arvioitu: false

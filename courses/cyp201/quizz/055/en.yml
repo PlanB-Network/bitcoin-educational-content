@@ -1,12 +1,9 @@
-question: What is the crude name sometimes used to refer to the collection of private
-  keys in a Bitcoin wallet?
-answer: Just a Bunch Of Keys (JBOC)
+question: What does the payload of an extended key consist of?
+answer: A public or private key, and the associated chain code.
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - A private key and the associated public key.
+  - A chain code, a public key, and a private key.
+  - A private key and a derivation index.
 explanation: |
-  The collection of private cryptographic keys derived from a single master
-  key in a Bitcoin wallet is sometimes referred to by the slightly cruder name of
-  "Just a Bunch Of Keys" (JBOC).
+  The payload of an extended key includes either a public or private key, along with a chain code used to derive child keys.
 reviewed: false

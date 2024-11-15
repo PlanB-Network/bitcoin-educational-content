@@ -1,0 +1,9 @@
+kysymys: Milloin Bitcoin-prototyypin verkko todellisuudessa käynnistettiin vuonna 2009?
+vastaus: 9. tammikuuta 2009 klo 02:54:25 UTC
+väärät_vastaukset:
+  - 3. tammikuuta 2009 klo 18:15:05 UTC
+  - 8. tammikuuta 2009 klo 19:27:40 UTC
+  - 12. tammikuuta 2009 klo 03:30:25 UTC
+selitys: |
+  Tämä on lohkon 1 aikaleima lohkoketjussa, jonka Satoshi Nakamoto louhi julkaistuaan ohjelmistokoodin sähköpostilistalla muutamaa tuntia aiemmin. Genesis-lohko (0) luotiin 3. ja 8. tammikuuta välisenä aikana, mutta varsinaista verkkoa sinänsä ei ollut olemassa.
+arvioitu: false

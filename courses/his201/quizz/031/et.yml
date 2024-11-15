@@ -1,0 +1,9 @@
+question: Millises digitaalses valuutasüsteemis oli Google'i insener Mike Hearn huvitatud enne Bitcoiniga tutvumist?
+answer: Ripple
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  Ta kuulis esimest korda Bitcoinist Ryan Fuggeri projekti Google'i grupis aprillis 2009. Ta võttis kohe ühendust Satoshiga, et küsida küsimusi.
+reviewed: false

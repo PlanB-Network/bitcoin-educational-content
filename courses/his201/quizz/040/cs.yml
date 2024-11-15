@@ -1,0 +1,9 @@
+otázka: Kolik bitcoinů (přibližně) celkem vytěžil Satoshi Nakamoto?
+odpověď: 1,100,000
+špatné_odpovědi:
+  - 11,000,000
+  - 110,000
+  - 11,000
+vysvětlení: |
+ Podle studie společnosti Whale Alert zveřejněné v roce 2020 to bylo 1,122,693 bitcoinů. Satoshi ukončil svou těžařskou činnost v květnu 2010.
+recenzováno: false

@@ -1,10 +1,7 @@
-question: What is an additional option to enhance the security of a Bitcoin wallet?
-answer: Adding a passphrase.
+question: True or False? "If one wishes to optimize their privacy, they should not reuse the same address multiple times."
+answer: True.
 wrong_answers:
-  - Adding a second mnemonic phrase.
-  - Adding a digital signature.
-  - Adding a transaction history.
+  - False.
 explanation: |
-  Adding a passphrase is an additional option to enhance the security of
-  the Bitcoin wallet.
+  Reusing the same address weakens privacy by exposing the links between different transactions on the blockchain.
 reviewed: false

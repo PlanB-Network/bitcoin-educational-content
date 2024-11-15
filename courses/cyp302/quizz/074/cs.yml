@@ -1,0 +1,9 @@
+otázka: Co se stane, pokud se k zašifrování slova "CAT" použije klíč 7?
+odpověď: Slovo se změní na "JHA"
+špatné_odpovědi:
+  - Slovo se změní na "JBA"
+  - Slovo se změní na "JHB"
+  - Slovo se změní na "ZHA"
+vysvětlení: |
+  S klíčem 7 se každé písmeno slova "CAT" posune o 7 pozic v abecedě, což produkuje zašifrované slovo "JHA".
+recenzováno: false

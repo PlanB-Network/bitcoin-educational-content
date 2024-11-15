@@ -1,0 +1,9 @@
+câu hỏi: Đặc điểm của một biến số đồng nhất là gì?
+câu trả lời: Tất cả các giá trị có thể xảy ra đều có xác suất xảy ra bằng nhau
+câu trả lời sai:
+  - Các giá trị tuân theo một phân phối không đối xứng
+  - Xác suất của mỗi giá trị phụ thuộc vào thí nghiệm
+  - Chỉ có hai giá trị có thể xảy ra với xác suất bằng nhau
+giải thích: |
+  Một biến số đồng nhất là một biến số ngẫu nhiên mà tất cả các giá trị có thể xảy ra đều có xác suất xảy ra bằng nhau.
+đã xem xét: false

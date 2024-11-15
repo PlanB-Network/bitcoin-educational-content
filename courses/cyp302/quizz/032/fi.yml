@@ -1,0 +1,9 @@
+kysymys: Miksi pseudosatunnainen merkkijono sanotaan "erottamattomaksi" todellisesta satunnaisesta merkkijonosta?
+vastaus: Koska sen alkuperän määrittäminen ilman lisätietoja on lähes mahdotonta
+väärät_vastaukset:
+  - Koska se sisältää deterministisiä segmenttejä, jotka ovat identtisiä todellisen satunnaisen merkkijonon kanssa
+  - Koska sen rakentamisessa käytetään liukulukuja
+  - Koska se on tuotettu pelkästään luonnollisten tapahtumien perusteella
+selitys: |
+  Pseudosatunnainen merkkijono on suunniteltu muistuttamaan läheisesti todellista satunnaista merkkijonoa, mikä tekee erottamisen mahdottomaksi ilman pääsyä siemenarvoon tai käytettyyn algoritmiin.
+arvioitu: false

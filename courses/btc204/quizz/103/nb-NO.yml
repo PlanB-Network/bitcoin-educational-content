@@ -1,0 +1,13 @@
+question: Hvordan beregnes effektiviteten av en Bitcoin-transaksjon med tanke på personvern?
+
+answer: Ved å sammenligne den faktiske entropien til transaksjonen med den maksimale mulige entropien.
+
+wrong_answers:
+  - Ved å multiplisere antall innganger med antall utganger.
+  - Ved å multiplisere den faktiske entropien til transaksjonen med antall innganger og utganger.
+  - Ved å sammenligne antall innganger med antall utganger.
+
+explanation: |
+  Effektiviteten til transaksjonen beregnes ved å trekke den maksimale entropien fra den faktiske entropien til den analyserte transaksjonen.
+
+reviewed: false

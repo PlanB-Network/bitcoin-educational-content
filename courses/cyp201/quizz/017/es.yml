@@ -1,9 +1,9 @@
-question: ¿Cuál es la principal ventaja de la función hash SHA256?
-answer: Su robustez para encontrar la entrada a partir del hash, mientras se verifica el hash para una entrada dada es una acción mecánicamente simple.
+question: ¿Cuál es el objetivo de usar firmas digitales en Bitcoin?
+answer: Producir una prueba matemática que justifique que un usuario está realmente en posesión de una clave privada, sin revelar esa clave privada.
 wrong_answers:
-  - Su capacidad para generar un hash de 512 bits a partir de una entrada de tamaño variable.
-  - Su uso de bits de relleno para aumentar el tamaño de la entrada.
-  - Su uso de los operadores XOR, AND y NOT para procesar los bits.
+  - Producir una prueba matemática que justifique que un usuario está realmente en posesión de una clave pública, sin revelar esa clave pública.
+  - Producir una prueba matemática que justifique que un usuario está realmente en posesión de una dirección de recepción, sin revelar esa dirección de recepción.
+  - Producir una prueba matemática que justifique que un usuario está realmente en posesión de una cartera.
 explanation: |
-  La principal ventaja de la función hash SHA256 es su robustez para encontrar la entrada a partir del hash, mientras se verifica el hash para una entrada dada es una acción mecánicamente simple. Esto lo convierte en la opción preferida para asegurar numerosos sistemas digitales, especialmente dentro del protocolo Bitcoin.
+  Las firmas digitales en Bitcoin permiten probar que un usuario posee la clave privada asociada a una clave pública sin revelar esa clave privada.
 reviewed: false

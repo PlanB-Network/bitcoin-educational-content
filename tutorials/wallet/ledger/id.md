@@ -208,3 +208,8 @@ Artikel ini menunjukkan kepada Anda cara menggunakan Ledger HWW dengan cara yang
 
 Alamat Lightning Statis: dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/
+
+Untuk mendalami topik ini lebih lanjut dan memperkuat keamanan dompet Anda di Ledger Nano dengan passphrase BIP39, saya mengundang Anda untuk memeriksa tutorial lengkap ini:
+
+https://planb.network/tutorials/wallet/passphrase-ledger
+

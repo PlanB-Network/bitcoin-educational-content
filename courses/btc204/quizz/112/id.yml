@@ -1,0 +1,11 @@
+pertanyaan: Apa peran kolaborator dalam transaksi Stonewall x2?
+
+jawaban: Menyediakan bitcoin untuk menambah keraguan
+
+jawaban_salah:
+  - Bertindak sebagai koordinator transaksi
+  - Menerima jumlah pembayaran
+  - Mengirim jumlah pembayaran
+
+penjelasan: |
+  Kolaborator dalam transaksi Stonewall x2 menyediakan bitcoin untuk menambah keraguan terhadap analisis transaksi, sambil sepenuhnya memulihkan dana mereka di akhir (sebuah tindakan netral bagi mereka, minus biaya penambangan).

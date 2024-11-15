@@ -1,9 +1,9 @@
-question: Quali sono i due componenti chiave nel meccanismo di sicurezza del protocollo Bitcoin?
-answer: Gli algoritmi di derivazione HMAC e PBKDF2
-wrong_answers:
-  - Le funzioni di hash SHA-256 e RIPEMD-160
-  - L'algoritmo di firma digitale a curva ellittica (ECDSA) e la funzione di hash SHA-256
-  - RSA e lo scambio di chiavi Diffie-Hellman
-explanation: |
-  Gli algoritmi di derivazione HMAC e PBKDF2 sono componenti chiave nel meccanismo di sicurezza del protocollo Bitcoin. Essi impediscono una varietà di potenziali attacchi e garantiscono l'integrità dei portafogli Bitcoin.
-reviewed: false
+domanda: Come viene determinata una chiave pubblica Bitcoin?
+risposta: Viene determinata aggiungendo e raddoppiando i punti sulla curva ellittica a partire dal punto generatore utilizzando la chiave privata.
+risposte_errate:
+  - Viene determinata da un numero casuale o pseudo-casuale.
+  - Viene determinata facendo l'hashing della sua chiave privata.
+  - Viene determinata facendo l'hashing del suo seme.
+spiegazione: |
+  La chiave pubblica è generata dalla chiave privata attraverso operazioni sulla curva ellittica, partendo dal punto generatore.
+recensito: false

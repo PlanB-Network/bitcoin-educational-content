@@ -1,0 +1,13 @@
+domanda: Cos'è una transazione coinjoin?
+
+risposta: Una transazione collaborativa in cui più utenti uniscono i loro UTXO.
+
+risposte_errate:
+  - Una transazione collaborativa tra solo due utenti.
+  - Una transazione in cui un singolo utente invia fondi a più indirizzi.
+  - Una transazione in cui un attore centrale mescola i bitcoin dei propri clienti.
+
+spiegazione: |
+  La transazione coinjoin è una transazione collaborativa in cui più utenti mescolano le proprie monete.
+
+revisionato: false

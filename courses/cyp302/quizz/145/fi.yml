@@ -1,0 +1,9 @@
+kysymys: Mitkä ovat Eulerin lauseen vaikutukset asymmetrisen kryptografian kontekstissa?
+vastaus: Se yksinkertaistaa potenssien laskemista
+väärät_vastaukset:
+  - Se mahdollistaa viestien suoran salaamisen
+  - Sitä käytetään alkulukujen löytämiseen
+  - Sitä käytetään numeron parillisuuden tarkistamiseen
+selitys: |
+  Asymmetrisessa kryptografiassa Eulerin lause yksinkertaistaa potenssien laskemista järjestelmissä kuten RSA, sillä se tarjoaa menetelmän modulaaristen eksponentiaatioiden käsittelyyn.
+arvioitu: false

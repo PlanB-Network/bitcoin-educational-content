@@ -1,10 +1,8 @@
-question: Kuinka monta kierrosta PBKDF2 suorittaa käyttäen HMAC SHA512?
-answer: 2048 kierrosta
-wrong_answers:
-  - 1024 kierrosta
-  - 512 kierrosta
-  - 4096 kierrosta
-explanation: |
-  PBKDF2:tä käytetään muuntamaan mnemoninen lause siemeneksi. Tämä algoritmi
-  suorittaa 2048 kierrosta käyttäen HMAC SHA512.
-reviewed: false
+kysymys: Mikä on Bitcoinin yksityisavaimen koko?
+vastaus: 256 bittiä.
+väärät_vastaukset:
+  - 512 tavua.
+  - 520 bittiä.
+  - 512 bittiä.
+selitys: |
+  Bitcoinin yksityisavaimella on standardikoko, joka on 256 bittiä. Tämä vastaa Bitcoinissa käytettyä elliptisen käyrän algoritmia.

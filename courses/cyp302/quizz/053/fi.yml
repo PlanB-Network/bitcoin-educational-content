@@ -1,0 +1,9 @@
+kysymys: Mikä on kenttä, jolla on rajallinen määrä alkiota?
+vastaus: Galois'n kenttä
+vaarat_vastaukset:
+  - Kertolaskullinen kenttä
+  - Symmetrinen kenttä
+  - Vektorikenttä
+selitys: |
+  Rajallinen kenttä tunnetaan myös Galois'n kenttänä, joka on nimetty matemaatikko Évariste Galois'n mukaan, ja se on olennainen nykyaikaisessa kryptografiassa.
+arvioitu: false

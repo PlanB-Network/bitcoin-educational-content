@@ -1,0 +1,9 @@
+pergunta: Na criptografia por deslocamento, qual é o resultado para a palavra "DOG" com uma chave de 17?
+resposta: UFX
+respostas_erradas:
+  - ZKH
+  - TPG
+  - UVW
+explicação: |
+  Com um deslocamento de 17 no alfabeto, "D" se torna "U", "O" se torna "F" e "G" se torna "X". Portanto, a palavra criptografada é "UFX".
+revisado: false

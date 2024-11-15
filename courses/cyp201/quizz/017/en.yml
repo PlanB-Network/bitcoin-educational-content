@@ -1,12 +1,9 @@
-question: What is the main advantage of the SHA256 hash function?
-answer: Its robustness to find the input from the hash, while verifying the hash for a given input is a mechanically simple action
+question: What is the goal of using digital signatures in Bitcoin?
+answer: To produce a mathematical proof that justifies a user is indeed in possession of a private key, without revealing that private key.
 wrong_answers:
-  - Its ability to generate a 512-bit hash from a variable-sized input
-  - Its use of padding bits to increase the size of the input
-  - Its use of the XOR, AND, and NOT operators to process the bits
+  - To produce a mathematical proof that justifies a user is indeed in possession of a public key, without revealing that public key.
+  - To produce a mathematical proof that justifies a user is indeed in possession of a receiving address, without revealing that receiving address.
+  - To produce a mathematical proof that justifies a user is indeed in possession of a wallet.
 explanation: |
-  The main advantage of the SHA256 hash function is its robustness to find
-  the input from the hash, while verifying the hash for a given input is a mechanically
-  simple action. This makes it a preferred choice for securing numerous digital systems,
-  especially within the Bitcoin protocol.
+  Digital signatures in Bitcoin allow proving that a user owns the private key associated with a public key without revealing that private key.
 reviewed: false

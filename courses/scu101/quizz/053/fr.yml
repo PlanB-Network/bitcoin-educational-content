@@ -1,9 +1,0 @@
-question: Pourquoi les données biométriques sont-elles considérées comme moins sécurisées que la combinaison de la connaissance et de la possession pour l'authentification à deux facteurs (2FA) ?
-answer: Les données biométriques doivent rester sur le dispositif d'authentification et ne pas être divulguées en ligne.
-wrong_answers:
-  - Les données biométriques sont plus faciles à falsifier.
-  - Les données biométriques sont plus difficiles à mémoriser.
-  - Les données biométriques sont plus coûteuses à mettre en œuvre.
-explanation: |
-  Les données biométriques sont moins sécurisées car elles doivent rester sur le dispositif d'authentification et ne pas être divulguées en ligne. Si elles sont divulguées en ligne, elles peuvent être volées et utilisées pour un accès non autorisé.
-reviewed: false

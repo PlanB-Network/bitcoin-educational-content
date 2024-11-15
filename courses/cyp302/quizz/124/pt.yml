@@ -1,0 +1,9 @@
+pergunta: Por que a troca de chaves pessoalmente é impraticável para comunicações online seguras?
+resposta: Leva a altos custos organizacionais enquanto é ineficiente
+respostas_erradas:
+  - Torna a comunicação criptografada inutilizável
+  - Requer o uso de múltiplas chaves por cliente
+  - Impede a reutilização de chaves para transações repetidas
+explicação: |
+  Trocar chaves pessoalmente é custoso e ineficiente, especialmente em larga escala, pois desacelera as transações e impõe significativos custos logísticos para cada novo cliente.
+revisado: false

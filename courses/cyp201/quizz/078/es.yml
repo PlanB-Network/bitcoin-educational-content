@@ -1,9 +1,9 @@
-question: ¿Cuál es el papel de una frase de contraseña en una billetera de Bitcoin?
-answer: Mejora la seguridad de la billetera
-wrong_answers:
-  - Disminuye la seguridad de la billetera
-  - No tiene efecto en la seguridad de la billetera
-  - Hace que la billetera sea más fácil de usar
-explanation: |
-  La frase de contraseña es una contraseña adicional que se puede integrar en una billetera de Bitcoin para aumentar su seguridad. Al agregar información arbitraria que, junto con la frase mnemotécnica, permite el cálculo de la semilla de la billetera, la frase de contraseña mejora su seguridad.
-reviewed: false
+pregunta: Aquí hay una secuencia de números decimales (10 25 13 18 02 31). ¿Cuál es la conversión correcta a Bech32?
+respuesta: 2edjzl
+respuestas_incorrectas:
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
+explicación: |
+  La conversión de números decimales a Bech32 se realiza a través de una tabla de correspondencia específica, y la secuencia 10 25 13 18 02 31 corresponde a 2edjzl.
+revisado: false

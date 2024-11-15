@@ -1,9 +1,9 @@
-question: Qual è l'importanza dell'utilizzo di un nonce univoco nell'algoritmo ECDSA?
-answer: Aiuta a evitare attacchi di sicurezza.
-wrong_answers:
-  - Aumenta la velocità dell'algoritmo.
-  - Riduce la complessità computazionale.
-  - È necessario per il corretto funzionamento dell'algoritmo.
-explanation: |
-  L'utilizzo di un nonce univoco nell'algoritmo ECDSA è fondamentale per mantenere la sicurezza. Riutilizzare un nonce può portare a vulnerabilità, come dimostrato dall'hack della PlayStation 3, che è stato compromesso a causa del riutilizzo del nonce.
-reviewed: false
+domanda: Qual è la caratteristica unica della lista di 2048 parole che consente la codifica mnemonica?
+risposta: Nessuna parola ha le stesse prime quattro lettere nello stesso ordine.
+risposte_errate:
+  - Nessuna parola ha le stesse ultime tre lettere.
+  - Nessuna parola inizia con la lettera "J".
+  - Nessuna parola è più lunga di sei lettere.
+spiegazione: |
+  Questa caratteristica aiuta a evitare qualsiasi ambiguità durante l'inserimento delle parole, garantendo così l'unicità di ogni parola nella lista, riducendo al contempo lo spazio di archiviazione necessario.
+recensito: false

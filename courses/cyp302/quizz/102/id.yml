@@ -1,0 +1,8 @@
+pertanyaan: Apa urutan operasi yang benar dalam enkripsi terotentikasi?
+jawaban: Pertama enkripsi, kemudian buat tag pada teks yang telah dienkripsi
+jawaban_salah:
+  - Pertama buat tag, kemudian enkripsi pesan dan tag tersebut
+  - Gabungkan teks asli dengan tag, kemudian enkripsi
+  - Buat tag, kemudian gunakan kunci publik untuk mengenkripsinya
+penjelasan: |
+  Untuk menjamin keamanan, enkripsi terotentikasi harus pertama-tama mengenkripsi pesan, kemudian menghasilkan tag pada teks yang telah dienkripsi. Urutan lain berpotensi rentan.

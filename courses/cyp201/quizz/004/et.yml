@@ -1,0 +1,9 @@
+question: Bitcoin'i protokolli raames, mis on HASH256?
+answer: Kahekordne SHA256 räsi.
+wrong_answers:
+  - Kahekordne Keccak-256 räsi.
+  - SHA256 räsi, millele järgneb RIPEMD160 räsi.
+  - Üksik SHA256 räsi.
+explanation: |
+  HASH256 on kahekordne SHA256 räsi, mis tähendab, et SHA256 funktsiooni rakendatakse üks kord andmetükile, seejärel teist korda esimese tulemusele.
+reviewed: false

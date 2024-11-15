@@ -1,0 +1,8 @@
+question: Mis on riigi põhimõtteline illusioon Marx'i järgi?
+answer: See esindab üldist huvi, mitte konkreetse klassi spetsiifilisi huve.
+wrong_answers:
+  - See on võimeline tagama erapooletuse.
+  - See teenib kodanikuühiskonda.
+  - See edendab klassivõitlust.
+explanation: |
+  Marx'i jaoks väidab riik, et esindab üldist huvi, kuid tegelikkuses on see vahend, mis on domineeriva klassi huvide teenistuses, jätkates seeläbi alamate klasside allasurumist.

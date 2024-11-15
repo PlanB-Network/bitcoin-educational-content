@@ -9,7 +9,7 @@ PlanB的使命是以尽可能多的语言提供关于比特币的顶级教育资
 您是否正在寻找将比特币播客添加到PlanB网络站点并为您的节目增加曝光度，但不知道如何操作？这个教程是为您准备的！
 ![podcast](assets/01.webp)
 - 首先，您需要拥有一个GitHub账户。如果您不知道如何创建一个，我们制作了[一个详细的教程来指导您](https://planb.network/tutorials/others/create-github-account)。
-- 转到[PlanB专用于数据的GitHub仓库](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/podcasts)的`resources/podcasts/`部分：
+- 转到[PlanB专用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts)的`resources/podcasts/`部分：
 ![podcast](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：
 ![podcast](assets/03.webp)

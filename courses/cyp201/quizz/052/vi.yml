@@ -1,8 +1,9 @@
-question: Vai trò của BIP38 trong hệ thống Bitcoin là gì?
-answer: Nó đề xuất thêm một cụm mật khẩu bổ sung để tăng cường bảo mật cho các khóa cá nhân.
-wrong_answers:
-  - Nó giới thiệu cụm từ ghi nhớ 24 từ.
-  - Nó đã làm thay đổi cách tạo và lưu trữ khóa.
-  - Nó chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD.
-explanation: |
-  BIP38 đề xuất thêm một cụm mật khẩu bổ sung để tăng cường bảo mật cho các khóa cá nhân. Đây là một trong nhiều cải tiến được thực hiện nhằm nâng cao bảo mật và chức năng của ví HD.
+câu hỏi: Hàm giả ngẫu nhiên nào được sử dụng trong PBKDF2 để tính toán hạt giống của một ví Bitcoin HD?
+câu trả lời: HMAC-SHA512.
+câu trả lời sai:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+giải thích: |
+  HMAC-SHA512 là hàm giả ngẫu nhiên được sử dụng trong PBKDF2 để tạo ra hạt giống của một ví Bitcoin HD.
+đã xem xét: false

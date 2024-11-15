@@ -1,0 +1,8 @@
+pertanyaan: Bagaimana eksponen "e" dipilih dalam sistem kriptografi RSA?
+jawaban: Harus berupa bilangan bulat lebih besar dari 2, koprima dengan φ(N)
+jawaban_salah:
+  - Harus berupa bilangan prima lebih kecil dari N
+  - Dipilih secara acak tanpa batasan
+  - Harus sama dengan φ(N)
+penjelasan: |
+  Dalam RSA, eksponen "e" dipilih sedemikian rupa sehingga lebih besar dari 2 dan koprima dengan φ(N), yang menjamin keamanan operasi.

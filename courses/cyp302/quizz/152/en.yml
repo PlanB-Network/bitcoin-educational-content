@@ -1,0 +1,9 @@
+question: What is the function of the private key "d" in the RSA cryptosystem?
+answer: It is used to decrypt messages using the modulus N
+wrong_answers:
+  - It is used only to encrypt messages
+  - It is used to unlock bitcoins
+  - It is used to calculate φ(N)
+explanation: |
+  The private key "d" is used to decrypt encrypted messages, by completing the calculation with the modulus N.
+reviewed: false

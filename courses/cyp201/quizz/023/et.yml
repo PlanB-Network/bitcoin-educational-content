@@ -1,0 +1,9 @@
+question: Mis on lahtipakitud Bitcoin avaliku võtme suurus koos selle prefiksiga?
+answer: 520 bitti.
+wrong_answers:
+  - 512 baiti.
+  - 256 bitti.
+  - 512 bitti.
+explanation: |
+  Lahtipakitud Bitcoin avalik võti koos selle prefiksiga on 520 bitti, hõlmates punkti x ja y koordinaate elliptilisel kõveral.
+reviewed: false

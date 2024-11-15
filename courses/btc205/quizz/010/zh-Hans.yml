@@ -1,0 +1,8 @@
+question: 本章讨论的哪种P2P解决方案使用了DAO系统和多重签名来进行争议管理？
+answer: Bisq
+wrong_answers:
+  - RoboSat
+  - LNP2PBot
+  - Peach
+explanation: |
+  根据本章内容，Bisq是一种非托管的P2P解决方案，它采用了DAO（去中心化自治组织）系统并使用多重签名进行争议管理。

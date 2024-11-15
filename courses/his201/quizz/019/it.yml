@@ -1,0 +1,9 @@
+domanda: Qual era il nome del protocollo di credito distribuito progettato da Ryan Fugger nel 2004 e menzionato diverse volte da Satoshi Nakamoto nei suoi scritti?
+risposta: Ripple
+risposte_errate:
+  - Waves
+  - Tsunami
+  - Swell
+spiegazione: |
+  Nel 2009, Satoshi [ha scritto](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) che "Ripple \[era\] unico nel suo genere perché diffondeva la fiducia invece di concentrarla".
+revisionato: false

@@ -1,0 +1,13 @@
+question: Kuidas saavad "makers" tasu JoinMarketis?
+
+answer: "Takers" poolt makstud tasude kaudu.
+
+wrong_answers:
+  - Kaevandamistasude kaudu.
+  - "Takers" poolt tehtud vabatahtlike annetuste kaudu.
+  - Bitcoin'i kogukonnalt saadud toetuste kaudu.
+
+explanation: |
+  "Makers" jätavad oma bitcoini "takers" käsutusse ja saavad vastutasuks teenuse eest tasusid. "Takers" omakorda maksavad, et kasutada "makers" bitcoine, et teostada oma coinjoin tehinguid.
+
+reviewed: false

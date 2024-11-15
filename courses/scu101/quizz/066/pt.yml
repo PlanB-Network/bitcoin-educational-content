@@ -1,9 +1,0 @@
-question: Quais são as vantagens de usar Passkeys como uma alternativa às senhas tradicionais?
-answer: Eles oferecem chaves aleatórias criptografadas combinadas com um fator local, que são hospedadas por um provedor, mas permanecem fora de seu alcance.
-wrong_answers:
-  - Eles são mais fáceis de lembrar do que senhas tradicionais.
-  - Eles não exigem nenhum fator adicional de autenticação.
-  - Eles podem ser usados em todos os sites sem atualizações.
-explanation: |
-  Passkeys oferecem chaves aleatórias criptografadas, combinadas com um fator local (biometria ou PIN), que são hospedadas por um provedor, mas permanecem fora de seu alcance. Essa abordagem elimina a necessidade de senhas, fornecendo assim um alto nível de segurança sem as restrições associadas às senhas tradicionais.
-reviewed: false

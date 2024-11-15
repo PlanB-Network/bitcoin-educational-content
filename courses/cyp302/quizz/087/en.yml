@@ -1,0 +1,9 @@
+question: Which block cipher method uses an initialization vector and creates probabilistic encryption?
+answer: CBC ("Cipher Block Chaining")
+wrong_answers:
+  - ECB ("Electronic Code Book")
+  - AES-128
+  - SHA-256
+explanation: |
+  The CBC method uses an initialization vector and applies an XOR between each block of plaintext and the previous encrypted block, making the encryption probabilistic and safer than ECB.
+reviewed: false

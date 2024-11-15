@@ -1,0 +1,9 @@
+Frage: Was ist die typische Blockgröße für Blockverschlüsselung?
+Antwort: 64, 128, 192 oder 256 Bits
+falsche_Antworten:
+  - 8, 16, 32 oder 64 Bits
+  - 4, 8, 16 oder 32 Bits
+  - 256, 512, 1024 oder 2048 Bits
+Erklärung: |
+  Blockchiffren verarbeiten Daten in festen Blockgrößen, typischerweise 64, 128, 192 oder 256 Bits, um optimale Sicherheit und Integrität der Verschlüsselung zu gewährleisten.
+überprüft: false

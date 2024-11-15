@@ -1,13 +1,9 @@
-question: What is the role of the elliptic curve in generating public and private
-  keys?
-answer: It is used to generate secure public and private keys.
+question: If I generate a 128-bit random number, what will be the size of my recovery phrase in words?
+answer: 12 words.
 wrong_answers:
-  - It is used to encrypt the keys.
-  - It is used to store the keys.
-  - It is used to transmit the keys.
+  - 6 words.
+  - 8 words.
+  - 24 words.
 explanation: |
-  The elliptic curve is a mathematical construct used in the generation
-  of secure public and private keys. A random number, often called a nonce, is chosen
-  as the private key and used in the equation of the elliptic curve to generate the
-  corresponding public key.
+  A 128-bit random number corresponds to a 12-word mnemonic phrase, following the BIP39 standard.
 reviewed: false

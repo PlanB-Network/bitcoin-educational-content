@@ -1,0 +1,13 @@
+otázka: Jak jsou "makers" odměňováni v JoinMarket?
+
+odpověď: Prostřednictvím poplatků placených "takers".
+
+špatné_odpovědi:
+  - Prostřednictvím poplatků za těžbu.
+  - Prostřednictvím dobrovolných darů od "takers".
+  - Prostřednictvím grantů od komunity Bitcoin.
+
+vysvětlení: |
+  "Makers" nechávají své bitcoiny k dispozici "takers" a za svou službu dostávají poplatky. "Takers" na oplátku platí za použití bitcoinů "makers" za účelem provedení vlastních coinjoin transakcí.
+
+recenzováno: false

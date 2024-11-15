@@ -1,9 +1,8 @@
-question: Por que SHA0, SHA1 e MD5 são consideradas funções de hash desatualizadas?
-answer: Elas perderam sua resistência a colisões.
+pergunta: Dentro do protocolo Bitcoin, o que é um HASH160?
+resposta: Um hash SHA256 seguido por um hash RIPEMD160.
 wrong_answers:
-  - Elas são muito lentas para calcular.
-  - Elas produzem impressões digitais muito grandes.
-  - Elas não são irreversíveis.
-explanation: |
-  SHA0, SHA1 e MD5 são consideradas funções de hash desatualizadas porque perderam sua resistência a colisões. Isso significa que é relativamente fácil encontrar duas entradas diferentes que produzem a mesma saída, o que é uma grande falha de segurança.
-reviewed: false
+  - Um duplo hash RIPEMD160.
+  - Um duplo hash SHA256.
+  - Um hash MD5 seguido por um hash SHA256.
+explicação: |
+  HASH160 combina um hash SHA256 seguido por RIPEMD160, usado especialmente para gerar endereços Bitcoin.

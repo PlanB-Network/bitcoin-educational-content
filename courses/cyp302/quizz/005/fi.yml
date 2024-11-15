@@ -1,0 +1,9 @@
+kysymys: Mikä on klassisen kryptografian päämäärä, joka on edelleen läsnä nykyaikaisessa kryptografiassa?
+vastaus: Viestien luottamuksellisuus
+vaarat_vastaukset:
+  - Viestien yksinkertaistaminen
+  - Viestien toistaminen
+  - Viestien automaattinen lähettäminen
+selitys: |
+  Klassinen kryptografia keskittyi ensisijaisesti luottamuksellisuuteen, ja tämä tavoite on edelleen olennainen nykyaikaisessa kryptografiassa, vaikka muita teemoja, kuten eheys ja aitouden varmistaminen, on lisätty.
+arvioitu: false

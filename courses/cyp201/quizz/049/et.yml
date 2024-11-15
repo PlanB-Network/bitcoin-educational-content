@@ -1,0 +1,9 @@
+question: Kuidas valida tõhusat paroolilauset?
+answer: See peaks olema pikk, mitmekesine ja juhuslik, ilma seoseta kasutajaga.
+wrong_answers:
+  - See peaks olema kergesti meeldejääv ja seotud kasutaja keskkonnaga.
+  - See peaks olema lühike, kuid sisaldama numbreid.
+  - See peaks sisaldama vähemalt 10 numbrit.
+explanation: |
+  Tõhus paroolilause peaks olema pikk (20 kuni 40 tähemärki), mitmekesine ja juhuslik, et tagada maksimaalne turvalisus, sarnaselt heale salasõnale.
+reviewed: false

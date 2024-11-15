@@ -1,0 +1,13 @@
+spørsmål: Hvilken strategi bruker Wabisabi for å øke anonsettene til deltakerne?
+
+svar: Med noen få veldig store transaksjoner.
+
+feil_svar:
+  - Med mange veldig små transaksjoner.
+  - Med en enkelt liten transaksjon.
+  - Uten transaksjoner.
+
+forklaring: |
+  For å øke anonsettene til deltakerne, bruker Wabisabi veldig store coinjoin-transaksjoner som grupperer sammen dusinvis av deltakere.
+
+reviewed: false

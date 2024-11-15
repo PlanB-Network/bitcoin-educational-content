@@ -1,9 +1,9 @@
-question: Wie lautet die Gleichung der secp256k1-Kurve, die in Bitcoin verwendet wird?
-answer: "y\xB2 = x\xB3 + 7 modulo n"
-wrong_answers:
-  - "y\xB2 = x\xB3 + ax + b"
-  - "y\xB2 = x\xB3 + 7 modulo p"
-  - "y\xB2 = x\xB3 + ax + b modulo n"
-explanation: |
-  "Die in Bitcoin verwendete secp256k1-Kurve wird durch die Parameter a=0 und b=7 definiert und ihre Gleichung lautet y\xB2 = x\xB3 + 7 modulo n, wobei n die Primzahl ist, die die Ordnung der Kurve bestimmt."
-reviewed: false
+Frage: Was sind die Koordinaten des Generatorpunkts G, der auf der elliptischen Kurve secp256k1 verwendet wird?
+Antwort: Gx = 79BE667E... Gy = 483ADA77...
+Falsche Antworten:
+  - Gx = FFF213AE... Gy = 1234ABC1...
+  - Gx = 5A67E812... Gy = 1B234678...
+  - Gx = A12345F9... Gy = 3B76EBC1...
+Erklärung: |
+  Der Generatorpunkt G ist ein vordefinierter Punkt auf der elliptischen Kurve secp256k1, der zur Generierung von öffentlichen Schlüsseln aus privaten Schlüsseln in Bitcoin verwendet wird.
+Überprüft: false

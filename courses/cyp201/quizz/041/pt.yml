@@ -1,9 +1,8 @@
-question: Qual é o papel da curva elíptica na geração de chaves públicas e privadas?
-answer: Ela é usada para gerar chaves públicas e privadas seguras.
-wrong_answers:
-  - Ela é usada para criptografar as chaves.
-  - Ela é usada para armazenar as chaves.
-  - Ela é usada para transmitir as chaves.
-explanation: |
-  A curva elíptica é uma construção matemática usada na geração de chaves públicas e privadas seguras. Um número aleatório, frequentemente chamado de nonce, é escolhido como chave privada e usado na equação da curva elíptica para gerar a chave pública correspondente.
-reviewed: false
+pergunta: Se eu gerar um número aleatório de 128 bits, qual será o tamanho da minha frase de recuperação em palavras?
+resposta: 12 palavras.
+respostas_erradas:
+  - 6 palavras.
+  - 8 palavras.
+  - 24 palavras.
+explicação: |
+  Um número aleatório de 128 bits corresponde a uma frase mnemônica de 12 palavras, seguindo o padrão BIP39.

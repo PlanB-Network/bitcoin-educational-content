@@ -1,0 +1,9 @@
+domanda: Qual è stato l'impatto dei problemi di distribuzione e gestione delle chiavi prima degli anni '70?
+risposta: Hanno limitato la sicurezza e l'efficienza delle comunicazioni su larga scala
+risposte_errate:
+  - Hanno impedito la trasmissione di messaggi criptati su reti pubbliche
+  - Richiedevano chiavi pubbliche per ogni messaggio
+  - Imponevano l'uso della crittografia omomorfica
+spiegazione: |
+  Prima degli anni '70, i problemi con la distribuzione e la gestione delle chiavi rendevano difficile proteggere le comunicazioni su larga scala, ostacolando così lo sviluppo di applicazioni moderne come lo shopping online.
+recensito: false

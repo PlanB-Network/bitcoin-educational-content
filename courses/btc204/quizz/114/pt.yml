@@ -1,0 +1,11 @@
+pergunta: Por que o analista não aplicará COINJOIN em uma transação do tipo Stonewall?
+
+resposta: Porque existem 2 saídas de mesmos valores
+
+respostas_erradas:
+  - Porque existem apenas 2 entradas
+  - Porque eles não estão familiarizados com esse padrão
+  - Porque existem mais saídas do que entradas
+
+explicação: |
+  Analisar uma transação Stonewall de fora não leva à aplicação de COINJOIN, porque a presença de duas saídas de mesmo valor sugere um padrão de coinjoin. De um ponto de vista externo, COINJOIN, portanto, não é aplicável neste caso específico.

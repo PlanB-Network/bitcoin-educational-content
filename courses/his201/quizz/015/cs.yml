@@ -1,0 +1,9 @@
+otázka: Jaký byl původní cíl algoritmu důkazu práce Hashcash, který navrhl Adam Back?
+odpověď: Bojovat proti spamovým emailům
+špatné_odpovědi:
+  - Zaručit hodnotu účetní jednotky
+  - Dosáhnout konsenzu v peer-to-peer síti
+  - Vařit oceány
+vysvětlení: |
+  Hashcash vyžadoval důkaz práce pro každý přijatý email, což mělo omezit spam.
+recenzováno: false

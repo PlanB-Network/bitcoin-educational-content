@@ -1,0 +1,9 @@
+question: Mis on Hayeki peamine tees teoses "Orjuse tee"?
+answer: Riiklik sekkumine viib paratamatult orjuseni.
+wrong_answers:
+  - Sotsialism ja natsism on põhimõtteliselt erinevad ideoloogiad.
+  - Eraomand on õiglane, kui see on piiratud.
+  - Orjuse teel on kiiruspiirang 80 km/h.
+explanation: |
+  Teoses "Orjuse tee" väidab Hayek, et riiklik sekkumine majandusse viib järk-järgult vabaduse kaotamiseni, kuna keskne planeerimine toob paratamatult kaasa piirangud individuaalsele vabadusele.
+reviewed: false

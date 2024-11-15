@@ -1,12 +1,9 @@
-question: What is the role of a passphrase in a Bitcoin wallet?
-answer: It enhances the security of the wallet
+question: Here is a sequence of decimal numbers (10 25 13 18 02 31). What is the correct conversion to Bech32?
+answer: 2edjzl
 wrong_answers:
-  - It decreases the security of the wallet
-  - It has no effect on the security of the wallet
-  - It makes the wallet more user-friendly
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
 explanation: |
-  The passphrase is an additional password that can be integrated into
-  a Bitcoin wallet to increase its security. By adding arbitrary information that,
-  together with the mnemonic phrase, allows the calculation of the wallet's seed,
-  the passphrase enhances its security.
+  The conversion of decimal numbers to Bech32 is done through a specific correspondence table, and the sequence 10 25 13 18 02 31 corresponds to 2edjzl.
 reviewed: false

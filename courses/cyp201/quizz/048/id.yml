@@ -1,0 +1,8 @@
+pertanyaan: Apa fungsi yang digunakan untuk menghasilkan seed dari frasa mnemonik dan passphrase?
+jawaban: PBKDF2.
+jawaban_salah:
+  - SHA256.
+  - HMAC.
+  - Argon2.
+penjelasan: |
+  PBKDF2 (Password-Based Key Derivation Function 2) digunakan untuk menurunkan seed dari frasa mnemonik dan passphrase dalam dompet HD.

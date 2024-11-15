@@ -1,0 +1,9 @@
+câu hỏi: Sự khác biệt chính giữa "mã hóa luồng nguyên thủy" và "mã hóa luồng bằng mã khối" là gì?
+câu trả lời: "Mã hóa luồng nguyên thủy" không được xây dựng từ một mã khối.
+câu trả lời sai:
+  - "Mã hóa luồng nguyên thủy" yêu cầu phải thêm padding vào tin nhắn.
+  - "Mã hóa luồng bằng mã khối" sử dụng các khối có kích thước biến đổi.
+  - "Mã hóa luồng bằng mã khối" không thể sử dụng cho dữ liệu lớn.
+giải thích: |
+  "Mã hóa luồng nguyên thủy", như Salsa20, được thiết kế độc lập với "mã khối", trong khi "mã hóa luồng bằng mã khối" sử dụng "mã khối" làm cơ sở, được chỉnh sửa để tạo ra một dòng mã hóa.
+đã xem xét: false

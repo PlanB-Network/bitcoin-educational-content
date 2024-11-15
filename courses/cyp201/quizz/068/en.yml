@@ -1,11 +1,9 @@
-question: How is the number of words in the recovery phrase determined in the generation
-  of a mnemonic phrase for a Bitcoin wallet?
-answer: It depends on the size of the entropy.
+question: What is the purpose of an external chain in the derivation process?
+answer: To isolate addresses intended to be public.
 wrong_answers:
-  - It depends on the size of the checksum.
-  - It is always 24 words.
-  - It is randomly generated.
+  - To isolate change addresses.
+  - To manage incoming transactions.
+  - To separate private keys from public keys.
 explanation: |
-  Depending on the size of the entropy, the recovery phrase will consist
-  of 12 words for 128 bits, 15 words for 160 bits, and 24 words for 256 bits.
+  The external chain is used to derive addresses intended to be public, such as those for receiving payments.
 reviewed: false

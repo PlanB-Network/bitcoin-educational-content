@@ -1,0 +1,8 @@
+Frage: In einer endlichen Gruppe, welcher Begriff bezieht sich auf die Anzahl der Elemente in der Gruppe?
+Antwort: Die Ordnung der Gruppe
+falsche_Antworten:
+  - Die Kapazität der Gruppe
+  - Die Länge der Gruppe
+  - Der Grad der Gruppe
+Erklärung: |
+  Die Ordnung einer Gruppe ist die Gesamtanzahl der Elemente, die sie enthält.

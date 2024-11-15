@@ -1,0 +1,9 @@
+pertanyaan: Bagaimana cara menentukan ukuran bit dari checksum untuk frase pemulihan?
+jawaban: Bagi ukuran dari angka acak (entropi) dengan 32.
+jawaban_salah:
+  - Bagi ukuran dari angka acak (entropi) dengan 8.
+  - Bagi ukuran dari angka acak (entropi) dengan 16.
+  - Kalikan ukuran dari angka acak (entropi) dengan 2.
+penjelasan: |
+  Ukuran dari checksum diperoleh dengan membagi ukuran entropi dengan 32, sesuai dengan BIP39.
+ditinjau: false

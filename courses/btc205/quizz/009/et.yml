@@ -1,0 +1,11 @@
+question: Mis on kõigi peatükis arutatud P2P lahenduste ühine omadus?
+answer: Kõik need hõlbustavad Bitcoini ostmist ja müümist.
+wrong_answers:
+  - Kõik kasutavad Lightning Networki.
+  - Kõik nõuavad konto olemasolu toimimiseks.
+  - Kõigil on DAO süsteem.
+explanation: |
+  Peatükis arutatakse erinevaid P2P lahendusi Bitcoini ostmiseks, kuid mitte
+  kõigil neil on samad omadused. Ühine omadus nende vahel on see,
+  et need hõlbustavad Bitcoini ostmist ja müümist.
+reviewed: false

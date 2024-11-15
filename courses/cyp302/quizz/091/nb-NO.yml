@@ -1,0 +1,9 @@
+question: Hva er hovedforskjellen mellom en "primitiv strømkryptering" og en "blokk-krypteringsstrømkryptering"?
+answer: En "primitiv strømkryptering" er ikke bygget fra en blokk-kryptering.
+wrong_answers:
+  - En "primitiv strømkryptering" krever utfylling av meldinger.
+  - En "blokk-krypteringsstrømkryptering" bruker blokker av variabel størrelse.
+  - En "blokk-krypteringsstrømkryptering" kan ikke brukes for store data.
+explanation: |
+  En "primitiv strømkryptering", som Salsa20, er designet uavhengig av en "blokk-kryptering", mens en "blokk-krypteringsstrømkryptering" bruker en "blokk-kryptering" som sitt grunnlag, modifisert for å produsere en strøm av kryptering.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er BIP (Bitcoin Improvement Proposal) som foreslo den første versjonen av en HD-lommebok på Bitcoin?
+answer: BIP32.
+wrong_answers:
+  - BIP16.
+  - BIP39.
+  - BIP44.
+explanation: |
+  BIP32, foreslått i 2012, er den første til å introdusere konseptet med hierarkiske deterministiske (HD) lommebøker i Bitcoin.
+reviewed: false

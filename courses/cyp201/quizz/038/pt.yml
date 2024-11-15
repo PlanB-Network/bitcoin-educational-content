@@ -1,10 +1,8 @@
-question: Qual é o número total de possibilidades para uma chave privada na teoria?
-answer: 2^256
+question: Qual é a principal diferença entre um PRNG e um TRNG?
+answer: Um PRNG é determinístico, enquanto um TRNG produz números verdadeiramente aleatórios.
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - Um TRNG é mais rápido do que um PRNG.
+  - Um TRNG usa uma semente, enquanto um PRNG não usa nenhuma semente.
+  - Um PRNG é hardware, enquanto um TRNG é software.
 explanation: |
-  O número total de possibilidades para uma chave privada é teoricamente
-  2^256, mas na realidade, é ligeiramente menor que isso.
-reviewed: false
+  Um TRNG (True Random Number Generator) gera números aleatórios a partir de um fenômeno físico aleatório, ao contrário de um PRNG que é determinístico.

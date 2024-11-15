@@ -1,0 +1,9 @@
+question: Kuidas näeb Proudhon omandit ja selle jaotumist ühiskonnas?
+answer: Ta näeb omandi ebavõrdset jaotumist kui varguse vormi
+wrong_answers:
+  - Ta peab kõiki omandi vorme legitiimseks ja vajalikuks
+  - Ta soovib kaotada kõik individuaalsed omandid kollektiivse omandi kasuks
+  - Ta arvab, et omand on muutumatu ja seda ei tohiks kahtluse alla seada
+explanation: |
+  Proudhon on kuulus fraasi "Omand on vargus" poolest, millega ta taunib omandi ebavõrdset jaotumist kui sotsiaalse ebaõigluse vormi, mitte omandit ennast.
+reviewed: false

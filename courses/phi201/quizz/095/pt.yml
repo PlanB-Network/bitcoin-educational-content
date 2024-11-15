@@ -1,0 +1,9 @@
+pergunta: Segundo Marx, qual é a principal limitação dos direitos humanos?
+resposta: Eles protegem apenas uma liberdade formal e abstrata.
+wrong_answers:
+  - São direitos naturais.
+  - São direitos opcionais.
+  - Eles impedem a revolução.
+explicação: |
+  Marx critica os direitos humanos chamando-os de "formais" porque garantem uma liberdade individual abstrata, sem realmente transformar as condições materiais de exploração na sociedade capitalista.
+reviewed: false

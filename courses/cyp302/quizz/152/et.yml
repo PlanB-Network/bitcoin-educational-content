@@ -1,0 +1,9 @@
+question: Mis on privaatvõtme "d" funktsioon RSA krüptosüsteemis?
+answer: Seda kasutatakse sõnumite dekrüpteerimiseks kasutades modulo N
+wrong_answers:
+  - Seda kasutatakse ainult sõnumite krüpteerimiseks
+  - Seda kasutatakse bitcoinide avamiseks
+  - Seda kasutatakse φ(N) arvutamiseks
+explanation: |
+  Privaatvõtit "d" kasutatakse krüpteeritud sõnumite dekrüpteerimiseks, viies lõpule arvutuse modulo N abil.
+reviewed: false

@@ -1,0 +1,8 @@
+问题：2008年10月31日，比特币设计中缺少了哪个元素？
+答案：单位的有限数量
+错误答案：
+  - 工作量证明
+  - 简化支付验证
+  - 区块链
+解释：
+  最初的货币政策对应于一个恒定的发行量（X BTC/区块），如白皮书的第一版和中本聪与Ray Dillinger的[交流](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)所示。

@@ -1,0 +1,9 @@
+pergunta: De acordo com Bastiat, quem sustenta a subsistência do estado?
+resposta: São os cidadãos que sustentam o estado
+respostas_erradas:
+  - São os cidadãos que vivem às custas do estado
+  - É o estado que sustenta a nação
+  - São os grupos de interesse que sustentam o estado
+explicação: |
+  Bastiat afirma que são os cidadãos que apoiam o estado através da criação de riqueza e não o contrário.
+revisado: false

@@ -1,9 +1,0 @@
-question: Welche Aspekte des Netzwerk-Wissens werden in der Cybersicherheit benötigt?
-answer: TCP/IP, VPN, Firewall
-wrong_answers:
-  - HTTP, FTP, SMTP
-  - POP3, IMAP, SSH
-  - DHCP, DNS, ARP
-explanation: |
-  Das Kapitel erwähnt TCP/IP, VPN und Firewall als einige der Aspekte des Netzwerk-Wissens, die in der Cybersicherheit benötigt werden.
-reviewed: false

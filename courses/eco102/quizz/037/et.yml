@@ -1,0 +1,9 @@
+question: Mis oli omandi definitsioon ladina keeles Roomlaste järgi?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  Rooma õiguses määratleb "jus utendi et abutendi" omandit kui õigust kasutada ja kuritarvitada, rõhutades kasutust ilma selle põhjustesse süüvimata.
+reviewed: false

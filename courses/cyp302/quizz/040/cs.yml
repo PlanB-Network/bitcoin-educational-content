@@ -1,0 +1,9 @@
+otázka: Jakou základní podmínku musí množina "S" s binární operací splňovat, aby tvořila grupu?
+odpověď: Podmínku uzavřenosti
+špatné_odpovědi:
+  - Podmínku komutativity
+  - Podmínku symetrie
+  - Podmínku distributivity
+vysvětlení: |
+  Množina "S" s binární operací musí splňovat několik podmínek, aby tvořila grupu, a první z nich je podmínka uzavřenosti: operace mezi dvěma prvky "S" musí výsledkem dát prvek "S".
+recenzováno: false

@@ -1,0 +1,9 @@
+domanda: Cosa consente il protocollo di scambio chiavi Diffie-Hellman?
+risposta: Consente a due parti di creare una chiave segreta comune condividendo informazioni pubbliche.
+risposte_errate:
+  - Consente uno scambio di chiavi segrete di persona per ogni sessione.
+  - Consente l'uso di una chiave pubblica per la cifratura e di una chiave privata per la decifrazione.
+  - Consente lo scambio di valuta elettronica.
+spiegazione: |
+  Il protocollo Diffie-Hellman permette a due parti di condividere pubblicamente informazioni assicurando che solo loro possano generare una chiave comune per proteggere i loro futuri scambi.
+recensito: false

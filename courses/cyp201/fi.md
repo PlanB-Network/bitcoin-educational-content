@@ -121,7 +121,7 @@ Joten n = 2.
 Vaihe 2: Määritä P, tarvittavien täyttöbittien määrä, jotta saavutetaan haluttu lopullinen bittien määrä.
 -> M + 1 + P + 64 = n * 512
 -> M + 1 + P + 64 = 2 * 512
--> 940 + 1 + P + 64 = 1024
+-> 950 + 1 + P + 64 = 1024
 -> P = 1024 - 1 - 64 - 950
 -> P = 9
 
@@ -801,13 +801,14 @@ Toinen laajalti käytetty kryptografinen menetelmä Bitcoin-protokollassa on dig
 
 
 
-## Anna meille palautetta tästä kurssista
+## Arvioi kurssi
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Loppukoe
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
+
 
 ## Yhteenveto ja loppu
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>

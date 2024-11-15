@@ -1,16 +1,9 @@
-question: What are the four strengths a cryptographic hash function must have to be recognized as secure?
-answer: Irreversibility, resistance to forgery, resistance to collisions, and resistance to second preimage.
+question: What are the hash functions used in the Bitcoin protocol?
+answer: SHA-256, RIPEMD-160
 wrong_answers:
-  - Speed, efficiency, resistance to collisions, and irreversibility.
-  - Resistance to collisions, resistance to forgery, scalability, and irreversibility.
-  - Irreversibility, resistance to collisions, resistance to forgery, and speed.
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
 explanation: |
-  A secure cryptographic hash function must have four key strengths;
-  irreversibility
-  (meaning it's impossible to derive the original input from the output), resistance
-  to forgery (meaning it's difficult to create a different input that produces the
-  same output), resistance to collisions (meaning it's difficult to find two different
-  inputs that produce the same output), and resistance to second preimage (meaning
-  it's difficult to find a different input that produces the same output as a given
-  input).
+  In Bitcoin, SHA-256 and RIPEMD-160 are used.
 reviewed: false

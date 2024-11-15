@@ -1,0 +1,9 @@
+domanda: Chi ha inaugurato il sistema di Proposte di Miglioramento di Bitcoin, un processo volto a coordinare il miglioramento di Bitcoin, nel settembre 2011?
+risposta: Amir Taaki
+risposte_errate:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+spiegazione: |
+  Questo sistema è stato modellato sulle Proposte di Miglioramento di Python (PEP), specifiche per il linguaggio di programmazione Python.
+revisionato: false

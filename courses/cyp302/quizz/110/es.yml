@@ -1,0 +1,8 @@
+pregunta: ¿Qué hace vulnerable al RC4 hoy en día a pesar de su popularidad pasada?
+respuesta: Debilidades bien documentadas en la generación de la secuencia de claves
+respuestas_incorrectas:
+  - Una clave demasiado corta para garantizar la seguridad
+  - Su incapacidad para trabajar con textos largos
+  - La necesidad de usar una clave pública además de una clave privada
+explicación: |
+  RC4 tiene debilidades significativas en la generación de la secuencia de claves, lo que expone la encriptación a ataques, de ahí su abandono gradual en los protocolos de seguridad modernos.

@@ -1,11 +1,9 @@
-question: Mục đích chính của chữ ký số trong giao thức Bitcoin là gì?
-answer: Để chứng minh việc sở hữu một khóa riêng liên kết với một khóa công khai cụ thể
-wrong_answers:
-  - Để mã hóa dữ liệu giao dịch
-  - Để tạo ra bitcoin mới
-  - Để xác minh danh tính của người gửi
-explanation: |
-  Tại cốt lõi của giao thức Bitcoin, chữ ký số được sử dụng như là
-  bằng chứng toán học
-  chứng minh việc sở hữu một khóa riêng liên kết với một khóa công khai cụ thể.
-reviewed: false
+Câu hỏi: Chữ ký số chứng minh điều gì trong hệ thống Bitcoin thông qua scriptSig?
+Câu trả lời: Sự sở hữu của khóa riêng liên kết với một khóa công khai cụ thể.
+Câu trả lời sai:
+  - Sự sở hữu của một địa chỉ Bitcoin.
+  - Khả năng khai thác một khối Bitcoin.
+  - Tính hợp lệ của một giao dịch Bitcoin.
+Giải thích: |
+  Chữ ký số chứng minh rằng người dùng có khóa riêng mà không cần phải tiết lộ nó, đảm bảo tính xác thực của giao dịch.
+Đã xem xét: false

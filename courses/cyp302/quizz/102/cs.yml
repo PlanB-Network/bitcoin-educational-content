@@ -1,0 +1,9 @@
+otázka: Jaké je správné pořadí operací u autentizovaného šifrování?
+odpověď: Nejprve zašifrovat, poté vytvořit značku (tag) na zašifrovaném textu
+špatné_odpovědi:
+  - Nejprve vytvořit značku, poté zašifrovat zprávu a značku
+  - Kombinovat nezašifrovaný text se značkou, poté zašifrovat
+  - Vytvořit značku, poté ji zašifrovat veřejným klíčem
+vysvětlení: |
+  Pro zajištění bezpečnosti musí autentizované šifrování nejprve zašifrovat zprávu a poté na zašifrovaném textu vygenerovat značku. Jiná pořadí operací jsou potenciálně zranitelná.
+recenzováno: false

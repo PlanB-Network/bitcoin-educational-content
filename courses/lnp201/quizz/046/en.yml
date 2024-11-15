@@ -1,12 +1,9 @@
-question: What is the purpose of the revocation key in the Lightning Network?
-answer: To punish a participant who tries to cheat by publishing an old commitment transaction.
+question: In a Lightning invoice, what does the prefix "lnbc" in the human-readable part mean?
+answer: It indicates a Lightning transaction on the Bitcoin blockchain
 wrong_answers:
-  - To reward a participant who successfully cheats.
-  - To open a new channel.
-  - To validate a transaction.
+  - That the invoice is valid only on the Bitcoin testnet
+  - That the invoice is encoded in bech32
+  - That it is an on-chain transaction
 explanation: |
-  The revocation key is a mechanism in the Lightning Network to prevent
-  cheating. If a participant tries to cheat by publishing an old commitment transaction,
-  the other participant can use the revocation key to punish the cheater and take
-  all the SAT from the channel.
+  The prefix 'lnbc' signifies that the invoice is for a Lightning transaction on the Bitcoin network, and not on another network.
 reviewed: false

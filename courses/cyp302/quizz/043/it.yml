@@ -1,0 +1,9 @@
+domanda: Qual è il tipo di gruppo che utilizza principalmente la crittografia?
+risposta: Gruppi definiti su interi o elementi descritti da interi
+risposte_errate:
+  - Gruppi di numeri complessi o elementi descritti da numeri complessi
+  - Gruppi di trasformazioni geometriche o elementi descritti da trasformazioni geometriche
+  - Gruppi di numeri razionali o elementi descritti da numeri razionali
+spiegazione: |
+  La crittografia utilizza gruppi basati su interi, o elementi descritti da interi come i punti su una curva ellittica, per operazioni di cifratura e firma.
+recensito: false

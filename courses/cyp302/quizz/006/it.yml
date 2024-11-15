@@ -1,0 +1,9 @@
+domanda: Quale concetto non è esclusivamente legato agli schemi di crittografia simmetrica o asimmetrica?
+risposta: Funzioni hash
+risposte_errate:
+  - Coppie di chiavi pubbliche e private
+  - Crittografia asimmetrica
+  - Crittografia simmetrica
+spiegazione: |
+  Le funzioni hash sono un componente chiave della crittografia moderna, ma non sono specificamente associate né agli schemi simmetrici né a quelli asimmetrici, a differenza delle chiavi pubbliche e private.
+recensito: false

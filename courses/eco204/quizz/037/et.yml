@@ -1,0 +1,10 @@
+question: Mis on termin Saksamaal majanduskriisi ajal kasutatud hädaabi raha jaoks?
+answer: Notgeld
+wrong_answers:
+  - Reichsmark
+  - Euro
+  - Deutsche Mark
+explanation: |
+  Majanduskriisi ajal Saksamaal kasutati "Notgeldi" (hädaabi raha), et
+  lahendada tavalise valuuta nappust.
+reviewed: false

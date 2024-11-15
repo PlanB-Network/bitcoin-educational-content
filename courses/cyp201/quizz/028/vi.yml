@@ -1,9 +1,9 @@
-question: UTXOs trong bối cảnh của Bitcoin là gì?
-answer: Đầu Ra Giao Dịch Chưa Tiêu
-wrong_answers:
-  - Đầu Ra Giao Dịch Không Thể Truy Vết
-  - Đầu Ra Giao Dịch Chưa Xác Minh
-  - Đầu Ra Giao Dịch Chưa Xác Nhận
-explanation: |
-  UTXOs, hay "Đầu Ra Giao Dịch Chưa Tiêu," đại diện cho các đầu ra giao dịch chưa được tiêu của một người dùng. Để tiêu những bitcoin này, người ta phải chứng minh quyền sở hữu của khóa riêng tương ứng với khóa công khai liên kết với mỗi UTXO.
-reviewed: false
+Câu hỏi: Tại sao không thể lấy lại khóa riêng từ một chữ ký số hợp lệ?
+Câu trả lời: Chữ ký dựa trên các phép toán không thể đảo ngược trên đường cong elliptic.
+Câu trả lời sai:
+  - Khóa riêng được mã hóa trước khi sử dụng.
+  - Hạt giống bảo vệ khóa riêng.
+  - Việc băm tin nhắn ngăn chặn việc lấy lại khóa riêng.
+Giải thích: |
+  Các phép toán trên đường cong elliptic là không thể đảo ngược, đảm bảo rằng không thể suy luận khóa riêng từ chữ ký.
+Đã xem xét: false

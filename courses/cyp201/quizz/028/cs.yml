@@ -1,11 +1,9 @@
-question: Co jsou UTXO v kontextu Bitcoinu?
-answer: Nevyužité transakční výstupy
-wrong_answers:
-  - Nezjistitelné transakční výstupy
-  - Neověřené transakční výstupy
-  - Nepotvrzené transakční výstupy
-explanation: |
-  UTXO, neboli "Nevyužité transakční výstupy," představují nevyužité transakční
-  výstupy patřící uživateli. Aby bylo možné tyto bitcoiny utratit, musí uživatel prokázat vlastnictví
-  soukromého klíče, který odpovídá veřejnému klíči spojenému s každým UTXO.
-reviewed: false
+otázka: Proč je nemožné získat soukromý klíč z platného digitálního podpisu?
+odpověď: Podpis je založen na nevratných matematických operacích na eliptické křivce.
+špatné_odpovědi:
+  - Soukromý klíč je před použitím zašifrován.
+  - Semínko chrání soukromý klíč.
+  - Hašování zpráv brání získání soukromého klíče.
+vysvětlení: |
+  Operace na eliptických křivkách jsou nevratné, což zajišťuje, že soukromý klíč nemůže být odvozen z podpisu.
+recenzováno: false

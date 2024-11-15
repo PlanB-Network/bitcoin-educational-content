@@ -1,0 +1,9 @@
+domanda: Qual è la dimensione tipica di un blocco per la cifratura a blocchi?
+risposta: 64, 128, 192 o 256 bit
+risposte_errate:
+  - 8, 16, 32 o 64 bit
+  - 4, 8, 16 o 32 bit
+  - 256, 512, 1024 o 2048 bit
+spiegazione: |
+  I cifrari a blocchi elaborano i dati in blocchi di dimensione fissa, tipicamente di 64, 128, 192 o 256 bit, per garantire una sicurezza e integrità ottimali della cifratura.
+recensito: false

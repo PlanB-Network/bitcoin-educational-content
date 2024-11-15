@@ -1,9 +1,8 @@
-question: Jaká je role kryptografických hašovacích funkcí při ověřování integrity staženého softwaru?
-answer: Působí jako digitální strážci, ověřující integritu staženého softwaru.
-wrong_answers:
-  - Šifrují software, aby ho chránily před hackery.
-  - Komprimují software, aby zkrátily dobu stahování.
-  - Generují unikátní klíč pro každé stažení.
-explanation: |
-  Kryptografické hašovací funkce hrají klíčovou roli při ověřování integrity staženého softwaru. Porovnáním haše staženého souboru s očekávaným hašem lze ověřit, že s souborem nebylo manipulováno.
-reviewed: false
+otázka: Co je v protokolu Bitcoinu HASH256?
+odpověď: Dvojitý SHA256 hash.
+špatné_odpovědi:
+  - Dvojitý Keccak-256 hash.
+  - SHA256 hash následovaný hashem RIPEMD160.
+  - Jednoduchý SHA256 hash.
+vysvětlení: |
+  HASH256 je dvojitý SHA256 hash, což znamená, že funkce SHA256 je použita jednou na kus dat, a poté podruhé na výsledek prvního použití.

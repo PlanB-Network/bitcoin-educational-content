@@ -1,0 +1,9 @@
+question: Hva består konkateneringsoperasjonen av?
+answer: Å sette to operander etter hverandre.
+wrong_answers:
+  - Å legge sammen to operander.
+  - Å dele to operander.
+  - Å trekke fra to operander.
+explanation: |
+  Konkatenering innebærer å plassere to operander etter hverandre uten å modifisere dem, mye brukt i kryptografi.
+reviewed: false

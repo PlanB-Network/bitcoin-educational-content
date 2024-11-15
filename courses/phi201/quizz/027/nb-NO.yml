@@ -1,0 +1,9 @@
+question: Hva er forskjellen mellom "phusis" og "nomos"?
+answer: Phusis er naturens lov, nomos er menneskets lov.
+wrong_answers:
+  - Phusis er gudenes lov, nomos er menneskenes lov.
+  - Phusis er de svakes lov, nomos er de sterkes lov.
+  - Phusis er antikkens lov, nomos er moderne tids lov.
+explanation: |
+  I gresk filosofi refererer "phusis" til naturlige lover eller de som er iboende i naturen, uavhengig av menneskelige handlinger, mens "nomos" refererer til menneskelige lover, skapt av samfunn for å regulere livet i fellesskap.
+reviewed: false

@@ -1,0 +1,13 @@
+pertanyaan: Langkah mana dalam proses Chaumian CoinJoin yang melibatkan perubahan identitas di Tor untuk memastikan anonimitas?
+
+jawaban: Pendaftaran output.
+
+jawaban_salah:
+  - Pendaftaran input.
+  - Penandatanganan transaksi.
+  - Penyiaran transaksi.
+
+penjelasan: |
+  Untuk mencegah koordinator dapat menghubungkan output spesifik dengan input, pengguna mengubah identitas Tor mereka sebelum mengirimkan alamat penerimaan teks jelas mereka ke koordinator.
+
+ditinjau: false

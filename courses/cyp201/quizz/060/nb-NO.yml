@@ -1,0 +1,9 @@
+spørsmål: Hva er funksjonen som brukes til å utlede et barnenøkkelpar fra et foreldrenøkkelpar innenfor en HD-lommebok?
+svar: HMAC-SHA512.
+feil_svar:
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
+forklaring: |
+  HMAC-SHA512 brukes til å utlede et barnenøkkelpar fra et foreldrenøkkelpar i en HD-lommebok.
+gjennomgått: false

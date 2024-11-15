@@ -1,0 +1,13 @@
+Frage: Wie funktioniert die "Stem"-Phase im Löwenzahn-Protokoll?
+
+Antwort: Die Transaktion wird über einen zufälligen Pfad von Knoten gesendet.
+
+Falsche Antworten:
+  - Die Transaktion wird sofort an alle Peers des Quellknotens übertragen.
+  - Die Transaktion wird vorübergehend in einem zentralen Knoten gespeichert, bevor sie übertragen wird.
+  - Die Transaktion wird bei jedem Schritt der Übertragung schrittweise verschlüsselt.
+
+Erklärung: |
+  Löwenzahn verwendet zunächst eine "Stem"-Phase, in der die Transaktion über einen zufälligen Pfad von Knoten gesendet wird. Anschließend wird die Transaktion in der "Fluff"-Phase an das gesamte Netzwerk übertragen.
+
+Überprüft: false

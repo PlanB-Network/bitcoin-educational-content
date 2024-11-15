@@ -1,0 +1,9 @@
+question: Millises BIP-is pakutakse taastefraasi või mnemoonilise fraasi (12/24 sõna) ideed?
+answer: BIP39.
+wrong_answers:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+explanation: |
+  BIP39 tutvustas 24-sõnalist mnemoonilist taastefraasi, et hõlbustada võtmete varundamist HD rahakottide kasutajatele.
+reviewed: false

@@ -1,0 +1,9 @@
+pregunta: ¿Cómo se elige el exponente "e" en el criptosistema RSA?
+respuesta: Debe ser un entero mayor que 2, coprimo con φ(N)
+respuestas_incorrectas:
+  - Debe ser un número primo menor que N
+  - Se elige aleatoriamente sin restricción
+  - Debe ser igual a φ(N)
+explicación: |
+  En RSA, el exponente "e" se elige de tal manera que sea mayor que 2 y coprimo con φ(N), lo que asegura la seguridad de las operaciones.
+revisado: false

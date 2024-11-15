@@ -1,0 +1,11 @@
+Câu hỏi: Tại sao RC4 được phân loại là một loại mã hóa luồng đồng bộ?
+
+Câu trả lời: Dòng khóa độc lập với bản rõ và bản mã
+
+Câu trả lời sai:
+  - Dòng khóa phụ thuộc vào giá trị của bản mã trước đó
+  - Bản rõ phải được tích hợp vào dòng khóa
+  - Nó sử dụng một dòng khóa dựa hoàn toàn vào bản rõ
+
+Giải thích:
+  RC4 là một loại mã hóa luồng đồng bộ vì dòng khóa của nó chỉ phụ thuộc vào khóa ban đầu và không phụ thuộc vào bản rõ hay bản mã, đảm bảo sự độc lập của dòng này với các thông điệp.

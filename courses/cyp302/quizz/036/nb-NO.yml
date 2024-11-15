@@ -1,0 +1,8 @@
+question: Hva betyr det at to tall er "innbyrdes primiske"?
+answer: Deres største felles divisor er lik 1
+wrong_answers:
+  - Summen av dem er et partall
+  - De er begge partall
+  - De har ingen felles divisorer annet enn 1 og seg selv
+explanation: |
+  To tall er innbyrdes primiske hvis deres største felles divisor er 1, noe som betyr at de ikke deler noen primtallfaktorer, en viktig egenskap i kryptografi.

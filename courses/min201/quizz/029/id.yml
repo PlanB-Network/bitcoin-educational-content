@@ -1,0 +1,13 @@
+pertanyaan: Apa peran penambang dalam jaringan Bitcoin?
+jawaban: Penambang memainkan peran penting dalam memvalidasi dan menciptakan blok.
+jawaban_salah:
+  - Penambang hanya memvalidasi transaksi.
+  - Penambang mengontrol harga Bitcoin.
+  - Penambang tidak memiliki peran dalam jaringan Bitcoin.
+penjelasan: |
+  Penambang memainkan peran penting dalam jaringan Bitcoin dengan memvalidasi dan
+
+  menciptakan blok. Mereka memperkuat jaringan terhadap sensor dengan menggunakan listrik
+
+  untuk menghitung bukti kerja untuk Bitcoin.
+ditinjau: false

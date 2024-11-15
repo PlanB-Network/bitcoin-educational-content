@@ -1,0 +1,9 @@
+Frage: Was ist die Bedingung dafür, dass eine ganze Zahl a ein Inverses modulo N hat?
+Antwort: a und N müssen teilerfremd sein
+falsche_Antworten:
+  - N muss gerade sein
+  - a muss ungerade sein
+  - a muss eine Primzahl sein
+Erklärung: |
+  Eine ganze Zahl a hat ein Inverses modulo N genau dann, wenn sie teilerfremd sind, was bedeutet, dass ihr größter gemeinsamer Teiler 1 ist.
+überprüft: false

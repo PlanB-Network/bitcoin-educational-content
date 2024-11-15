@@ -1,0 +1,11 @@
+pertanyaan: Apa artinya jika sebuah barang memiliki tingkat keterjualbelian yang tinggi?
+jawaban: Harus diinginkan oleh sebanyak mungkin orang, sebagian besar waktu.
+jawaban_salah:
+  - Harus diinginkan oleh beberapa orang, sebagian besar waktu.
+  - Harus diinginkan oleh sebanyak mungkin orang, beberapa waktu saja.
+  - Harus diinginkan oleh beberapa orang, beberapa waktu saja.
+penjelasan: |
+  Barang dengan tingkat keterjualbelian yang tinggi adalah barang yang sangat diinginkan dan dapat
+  dengan mudah ditukar dengan barang atau jasa lain. Hal ini membuatnya cocok untuk digunakan sebagai
+  uang.
+ditinjau: false

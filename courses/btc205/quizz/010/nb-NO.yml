@@ -1,0 +1,10 @@
+question: Hvilken P2P-løsning diskutert i kapittelet bruker et DAO-system og multisign for konflikthåndtering?
+answer: Bisq
+wrong_answers:
+  - RoboSat
+  - LNP2PBot
+  - Peach
+explanation: |
+  Ifølge kapittelet er Bisq en ikke-forvaringsbasert P2P-løsning som har
+  et DAO (Desentralisert Autonom Organisasjon)-system og bruker multisign for konflikthåndtering.
+reviewed: false

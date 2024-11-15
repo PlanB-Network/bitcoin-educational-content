@@ -1,0 +1,9 @@
+pertanyaan: Pada tahun berapa kriptografi asimetris resmi ditemukan?
+jawaban: 1976
+jawaban_salah:
+  - 1676
+  - 1776
+  - 1876
+penjelasan: |
+  Kriptografi asimetris diperkenalkan oleh Whitfield Diffie dan Martin Hellman, dua kriptografer dari Universitas Stanford, dalam sebuah makalah yang diterbitkan pada November 1976.
+ditinjau: false

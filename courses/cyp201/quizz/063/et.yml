@@ -1,0 +1,8 @@
+question: Mis on kaks lastevõtme tuletamise tüüpi HD rahakotis?
+answer: Tavaline tuletamine ja turvaline tuletamine.
+wrong_answers:
+  - Lihtne tuletamine ja keeruline tuletamine.
+  - Elliptiline tuletamine ja kõvera tuletamine.
+  - Staatiline tuletamine ja dünaamiline tuletamine.
+explanation: |
+  Kaks tuletamise tüüpi on tavaline tuletamine, mis kasutab vanema avalikku võtit, ja turvaline tuletamine, mis kasutab vanema privaatvõtit.

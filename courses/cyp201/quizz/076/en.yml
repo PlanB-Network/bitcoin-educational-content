@@ -1,12 +1,9 @@
-question: What happens if the passphrase of a Bitcoin wallet is changed?
-answer: The Bitcoin wallet becomes completely different
+question: How is the checksum of a SegWit address calculated?
+answer: With a BCH code.
 wrong_answers:
-  - The Bitcoin wallet becomes inaccessible
-  - The Bitcoin wallet remains the same
-  - The Bitcoin wallet loses all its bitcoins
+  - With HASH160.
+  - With HASH256.
+  - With SHA512.
 explanation: |
-  If the passphrase is changed, the Bitcoin wallet becomes completely
-  different
-  because the passphrase plays a role in the construction and calculation of all the
-  wallet's keys.
+  For SegWit addresses, the checksum is calculated using the BCH code, which allows for the detection of possible errors in the address.
 reviewed: false

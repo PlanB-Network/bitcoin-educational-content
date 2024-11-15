@@ -1,0 +1,9 @@
+Frage: Welche Schlüsselgröße gilt als sicher gegen Brute-Force-Angriffe bei moderner Verschlüsselung?
+Antwort: 128 Bit
+falsche_Antworten:
+  - 16 Bit
+  - 64 Bit
+  - 100 Bit
+Erklärung: |
+  Mit einem Schlüssel von mindestens 128 Bit gilt die moderne Verschlüsselung derzeit als sicher gegen Brute-Force-Angriffe, da die Anzahl der Versuche unrealistisch wäre.
+überprüft: false

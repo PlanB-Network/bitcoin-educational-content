@@ -1,10 +1,9 @@
-question: Kích thước khối được sử dụng trong HMAC-SHA-512 là bao nhiêu?
-answer: Khối 1024-bit (128-byte)
-wrong_answers:
-  - Khối 512-bit (64-byte)
-  - Khối 256-bit (32-byte)
-  - Khối 2048-bit (256-byte)
-explanation: |
-  Trong bối cảnh của việc phát sinh ví HD, HMAC-SHA-512 được sử dụng. Phương pháp này
-  hoạt động với khối 1024-bit (128-byte) và điều chỉnh khóa một cách phù hợp.
-reviewed: false
+câu hỏi: Khóa riêng của Bitcoin được xác định như thế nào?
+câu trả lời: Nó được xác định từ một số ngẫu nhiên hoặc giả ngẫu nhiên.
+câu trả lời sai:
+  - Nó được xác định bằng cách cộng và nhân đôi các điểm trên đường cong elliptic từ khóa công khai của nó.
+  - Nó được xác định bằng cách băm khóa công khai của nó.
+  - Nó được xác định bởi thuật toán SHA-256.
+giải thích: |
+  Một khóa riêng Bitcoin được tạo ra một cách ngẫu nhiên hoặc giả ngẫu nhiên, điều này đảm bảo tính duy nhất và an toàn của nó.
+đã xem xét: false

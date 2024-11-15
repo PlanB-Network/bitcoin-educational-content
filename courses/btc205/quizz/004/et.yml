@@ -1,0 +1,11 @@
+question: Mis on tehingute limiit ilma identifitseerimiseta Prantsusmaal pangaautomaatides?
+answer: 500 eurot
+wrong_answers:
+  - 1000 eurot
+  - 2000 eurot
+  - 3000 eurot
+explanation: |
+  Prantsusmaal on pangaautomaadid reguleeritud ja nõuavad tehingute puhul
+
+
+  üle 500 euro identifitseerimist.

@@ -1,0 +1,8 @@
+pertanyaan: Apa kekhususan dari tiga teks terenkripsi yang terdapat dalam kotak?
+jawaban: Mereka berisi angka yang dipisahkan oleh koma
+jawaban_salah:
+  - Semuanya ditulis dalam huruf biasa
+  - Mereka menggunakan simbol yang tidak dikenal
+  - Mereka ditulis dalam beberapa bahasa
+penjelasan: |
+  Ketiga teks terenkripsi tersebut terdiri dari serangkaian angka yang dipisahkan oleh koma, memerlukan kunci untuk didekripsi.

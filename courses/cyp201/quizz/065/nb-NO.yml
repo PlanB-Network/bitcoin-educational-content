@@ -1,0 +1,8 @@
+question: I HD-lommebokderivatstier, hva tilsvarer dybde 0?
+answer: Hovednøkkelen.
+wrong_answers:
+  - Den utvidede nøkkelen.
+  - Mottaksadressene.
+  - Typen valuta.
+explanation: |
+  Dybde 0 i derivatstier tilsvarer hovednøkkelen, som er utgangspunktet for alle derivasjoner i en HD-lommebok.

@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus PRNG ja TRNG vahel?
+answer: PRNG on deterministlik, samas kui TRNG toodab tõeliselt juhuslikke numbreid.
+wrong_answers:
+  - TRNG on kiirem kui PRNG.
+  - TRNG kasutab seemet, samas kui PRNG ei kasuta ühtegi seemet.
+  - PRNG on riistvara, samas kui TRNG on tarkvara.
+explanation: |
+  TRNG (True Random Number Generator) genereerib juhuslikke numbreid füüsilisest juhuslikust nähtusest, erinevalt PRNG-st, mis on deterministlik.
+reviewed: false

@@ -1,0 +1,9 @@
+domanda: Cosa rappresenta l'operazione di "modulo" in matematica?
+risposta: Il resto di una divisione
+risposte_errate:
+  - Il quoziente di una divisione
+  - Il doppio del numero di partenza
+  - Il numero che divide senza resto
+spiegazione: |
+  L'operazione di modulo consiste nel determinare il resto di una divisione, per esempio, 25 mod 4 è uguale a 1 perché il resto della divisione è 1.
+revisionato: false

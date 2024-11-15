@@ -1,0 +1,8 @@
+question: Milline eesliide või HRP vastab SegWit standard aadressile?
+answer: "bc"
+wrong_answers:
+  - "1"
+  - "0x"
+  - "btc"
+explanation: |
+  Eesliidet "bc" kasutatakse SegWit aadresside jaoks Bitcoin'i põhivõrgus.

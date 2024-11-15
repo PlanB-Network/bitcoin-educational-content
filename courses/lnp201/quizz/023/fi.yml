@@ -1,11 +1,9 @@
-question: Mikä on vetäytymistransaktion tarkoitus Lightning Network -siirrossa?
-answer: Se edustaa kanavan tilaa, taaten kuka omistaa varat jokaisen siirron jälkeen.
-wrong_answers:
-  - Se on transaktio, joka siirtää varat toiselta puolelta toiselle.
-  - Se on transaktio, joka avaa kanavan.
-  - Se on transaktio, joka sulkee kanavan.
-explanation: |
-  Vetäytymistransaktio päivitetään jokaisen Lightning Network -siirron jälkeen
-  heijastamaan kanavan nykyistä tilaa. Se takaa, kuka omistaa varat
-  jokaisen siirron jälkeen, mutta sitä ei suoriteta, ellei kanavaa suljeta.
-reviewed: false
+kysymys: Miksi Alice ja Bob vaihtavat salaisuuksiaan aiempien sitoumustapahtumien osalta?
+vastaus: Jotta kumpikin voi suojautua, jos toinen julkaisee vanhan tapahtuman
+väärät_vastaukset:
+  - Lisätäkseen kanavan kapasiteettia
+  - Estääkseen toistensa pääsyn varoihin
+  - Jakamaan varat tasan
+selitys: |
+  Salaisuuksien vaihtaminen aiempien tapahtumien osalta mahdollistaa kummankin osapuolen rankaisemisen toista, jos yritetään huijata julkaisemalla vanha tapahtuma.
+arvioitu: false

@@ -1,0 +1,8 @@
+question: Hvilken informasjon beregnes fra frøet ved å anvende HMAC-SHA512?
+answer: Hovednøkkelen og hovedkjedekoden til lommeboken.
+wrong_answers:
+  - Den utvidede nøkkelen til lommeboken.
+  - xpub og xprv til lommeboken.
+  - Den private nøkkels signaturkode.
+explanation: |
+  Fra frøet utleder HMAC-SHA512 hovednøkkelen og hovedkjedekoden, som er grunnlaget for nøkkelgenerering.

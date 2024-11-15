@@ -1,0 +1,8 @@
+kysymys: Mikä on oikea toimintajärjestys todennetussa salauksessa?
+vastaus: Ensin salaa, sitten luo tunniste salattuun tekstiin
+väärät_vastaukset:
+  - Luo ensin tunniste, sitten salaa viesti ja tunniste
+  - Yhdistä avoin teksti tunnisteeseen, sitten salaa
+  - Luo tunniste, sitten käytä julkista avainta sen salaamiseen
+selitys: |
+  Turvallisuuden varmistamiseksi todennetussa salauksessa on ensin salattava viesti ja sen jälkeen luotava tunniste salattuun tekstiin. Muut järjestykset ovat potentiaalisesti haavoittuvia.

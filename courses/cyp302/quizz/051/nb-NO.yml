@@ -1,0 +1,9 @@
+question: Hva betyr uttrykket "champ premier" eller "corps premier"?
+answer: Et felt med et primtall antall elementer
+wrong_answers:
+  - Et felt som inneholder kun primtall
+  - Et felt definert utelukkende ved addisjon av primtall
+  - Et felt som bruker tilfeldige vektorer
+explanation: |
+  Et primfelt inneholder et antall elementer lik et primtall, noe som gjør det til et grunnleggende felt for kryptografiske operasjoner.
+reviewed: false

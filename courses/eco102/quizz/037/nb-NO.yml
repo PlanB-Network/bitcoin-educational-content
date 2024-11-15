@@ -1,0 +1,8 @@
+question: Hva var definisjonen av eiendom på latin ifølge romerne?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  I romersk lov definerer "jus utendi et abutendi" eiendom som retten til å bruke og misbruke, med vekt på bruken uten å gå inn på årsakene.

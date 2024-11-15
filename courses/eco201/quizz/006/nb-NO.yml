@@ -1,0 +1,10 @@
+question: Hva er det primære målet med kurset?
+answer: Kurset har som mål å utforske de grunnleggende konseptene innen østerriksk økonomi.
+wrong_answers:
+  - Kurset har som mål å fremme Keynesiansk doktrine.
+  - Kurset har som mål å forklare hvordan sentralbanker fungerer.
+  - Kurset har som mål å fremme sentraliseringen av monetær makt.
+explanation: |
+  Kapittelet nevner at kurset har som mål å utforske de grunnleggende
+  konseptene innen østerriksk økonomi.
+reviewed: false

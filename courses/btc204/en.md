@@ -3648,6 +3648,8 @@ Since this feature is recent, it is advisable to exercise caution and avoid usin
 
 *To create this chapter on Silent Payments, I used [the Silent Payments explanation site](https://silentpayments.xyz/) and [the BIP352 explanation document](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
+# Conclusion
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
 
 ## Give us some feedback about this course
@@ -3658,7 +3660,7 @@ Since this feature is recent, it is advisable to exercise caution and avoid usin
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Conclusion
+## The Final Word
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
 Congratulations on completing this training on privacy in Bitcoin!

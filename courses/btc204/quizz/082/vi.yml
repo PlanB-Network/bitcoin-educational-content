@@ -1,0 +1,13 @@
+Câu hỏi: Bước nào trong quy trình Chaumian CoinJoin liên quan đến việc thay đổi danh tính trên Tor để đảm bảo ẩn danh?
+
+Câu trả lời: Đăng ký các đầu ra.
+
+Câu trả lời sai:
+  - Đăng ký các đầu vào.
+  - Ký giao dịch.
+  - Phát sóng giao dịch.
+
+Giải thích: |
+  Để ngăn chặn người điều phối có khả năng liên kết một đầu ra cụ thể với một đầu vào, người dùng thay đổi danh tính Tor của họ trước khi gửi địa chỉ nhận văn bản rõ ràng của họ cho người điều phối.
+
+Đã xem xét: false

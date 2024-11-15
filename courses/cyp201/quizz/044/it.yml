@@ -1,9 +1,9 @@
-question: Qual è il ruolo del punto generatore nella curva ellittica?
-answer: Viene utilizzato per calcolare il punto sulla curva ellittica.
-wrong_answers:
-  - Viene utilizzato per generare il nonce.
-  - Viene utilizzato per criptare le chiavi.
-  - Viene utilizzato per memorizzare le chiavi.
-explanation: |
-  Il punto generatore è un punto specifico sulla curva ellittica che viene utilizzato nel calcolo di altri punti sulla curva. Viene utilizzato nella generazione di chiavi pubbliche e private, così come nella creazione e verifica di firme digitali.
-reviewed: false
+domanda: Come costruire la frase di recupero (mnemonica) in binario?
+risposta: Concatena il numero casuale con il suo checksum alla fine.
+risposte_errate:
+  - Concatena il numero casuale con il suo checksum all'inizio.
+  - Concatena il numero casuale con un seed.
+  - Dividi il numero casuale in due parti e inserisci il checksum nel mezzo.
+spiegazione: |
+  Per generare una frase mnemonica binaria, concatena il checksum alla fine del numero casuale prima di convertirlo in parole.
+revisionato: false

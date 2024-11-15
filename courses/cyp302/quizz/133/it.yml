@@ -1,0 +1,9 @@
+domanda: Cos'è una firma digitale nel contesto della crittografia asimmetrica?
+risposta: Un meccanismo per verificare l'autenticità di un messaggio utilizzando la chiave privata
+risposte_errate:
+  - Un processo per cifrare il messaggio più fortemente
+  - Una chiave pubblica aggiuntiva per validare un messaggio cifrato
+  - Una copia digitale di una firma manoscritta
+spiegazione: |
+  Una firma digitale è una tecnica crittografica che dimostra che un messaggio è stato effettivamente creato dal proprietario della corrispondente chiave privata, garantendo così la sua autenticità.
+revisionato: false

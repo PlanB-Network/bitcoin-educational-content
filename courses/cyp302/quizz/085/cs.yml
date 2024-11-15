@@ -1,0 +1,9 @@
+otázka: Co je "bloková šifra" v kryptografii?
+odpověď: Algoritmus, který transformuje řetězec pevné délky na jiný řetězec stejné délky
+špatné_odpovědi:
+  - Asymetrické šifrování založené na veřejných a soukromých tajných klíčích
+  - Systém, který šifruje data proměnné délky proudem
+  - Šifrování, které nevyžaduje tajný klíč
+vysvětlení: |
+  Bloková šifra je algoritmus, který aplikuje transformaci na bitový řetězec pevné délky s klíčem, aby vyprodukoval jiný řetězec stejné délky.
+recenzováno: false

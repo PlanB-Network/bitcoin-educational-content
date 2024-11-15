@@ -1,9 +1,9 @@
-question: Jaké jsou různé úrovně komunikace v síti Lightning Network?
-answer: P2P komunikace, Platební kanál, Bitcoinová transakce
-wrong_answers:
-  - P2P komunikace, Bitcoinová transakce, Ethereum transakce
-  - Platební kanál, Bitcoinová transakce, Litecoin transakce
-  - P2P komunikace, Platební kanál, Ripple transakce
-explanation: |
-  Síť Lightning Network má tři různé úrovně komunikace; P2P komunikace (protokol Lightning Network), Platební kanál (protokol Lightning Network) a Bitcoinová transakce (protokol Bitcoinu).
-reviewed: false
+otázka: Jaké je hlavní riziko u transakcí závazku na Lightning Network?
+odpověď: Publikování staré transakce za účelem získání více prostředků
+špatné_odpovědi:
+  - Zapomenutí podepsat transakci závazku
+  - Omylem poslání prostředků do jiného kanálu
+  - Blokování transakce nevhodným časovým zámkem
+vysvětlení: |
+  Hlavním rizikem je, že strana může pokusit podvádět publikováním staré transakce závazku, což by jim mohlo umožnit získat zpět prostředky, které již nemají.
+recenzováno: false

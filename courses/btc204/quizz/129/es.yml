@@ -1,0 +1,11 @@
+pregunta: ¿Cuáles son las dos principales variantes de contratos inteligentes utilizados en los intercambios de monedas?
+
+respuesta: HTLC y PTLC
+
+respuestas_incorrectas:
+  - Multifirma y Firma única
+  - Contratos Inteligentes y DApps
+  - SegWit y Taproot
+
+explicación: |
+  Para ejecutar un intercambio de monedas, se pueden utilizar HTLCs (Contratos Bloqueados por Tiempo y Hash) o PTLCs (Contratos Bloqueados por Tiempo y Punto).

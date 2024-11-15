@@ -1,0 +1,10 @@
+question: Mis oli "maailmapankade" roll Zimbabwe ja Weimari Vabariigi hüperinflatsiooni perioodidel?
+answer: Nad pakkusid varjupaika neile, kes soovisid oma varasid väärtuse languse eest kaitsta.
+wrong_answers:
+  - Nad trükkisid uusi pangatähti, et turgu üle ujutada.
+  - Nad reguleerisid rahvusvaluuta vahetuskurssi.
+  - Nad andsid valitsusele laene.
+explanation: |
+  Hüperinflatsiooni või rahanduskriisi olukordades kipuvad tekkima paralleelsed ja reguleerimata
+  välisvaluutaturud. Need informaalsed "pangad", mida tihti humoorikalt nimetatakse "maailmapankadeks" või muude kohalike nimedega, pakuvad varjupaika neile, kes soovivad oma varasid väärtuse languse eest kaitsta.
+reviewed: false

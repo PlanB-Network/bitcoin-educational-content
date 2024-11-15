@@ -1,0 +1,8 @@
+pregunta: ¿Cuál es el término matemático para los cálculos que involucran operaciones de módulo?
+respuesta: Aritmética modular
+respuestas_incorrectas:
+  - Álgebra lineal
+  - Trigonometría
+  - Geometría discreta
+explicación: |
+  La aritmética modular es la rama de las matemáticas que se ocupa de las operaciones sobre números dentro de un marco finito, utilizando la operación de módulo.

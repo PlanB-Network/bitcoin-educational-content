@@ -1,0 +1,13 @@
+domanda: Quale opzione permette di abilitare o disabilitare il trasporto P2P V2 nel file di configurazione di Bitcoin Core?
+
+risposta: v2transport=
+
+risposte_errate:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+
+spiegazione: |
+  Il trasporto P2P V2 può essere modificato con l'opzione v2transport= nel file di configurazione di un nodo Core.
+
+revisionato: false

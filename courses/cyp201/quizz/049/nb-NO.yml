@@ -1,0 +1,8 @@
+question: Hvordan bør et effektivt passordfrase velges?
+answer: Det bør være langt, variert og tilfeldig, uten tilknytning til brukeren.
+wrong_answers:
+  - Det bør være lett å huske og relatert til brukerens miljø.
+  - Det bør være kort, men inkludere tall.
+  - Det bør inneholde minst 10 sifre.
+explanation: |
+  Et effektivt passordfrase bør være langt (20 til 40 tegn), variert og tilfeldig for å gi maksimal sikkerhet, likt et godt passord.

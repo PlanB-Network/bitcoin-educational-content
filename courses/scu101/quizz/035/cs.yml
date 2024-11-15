@@ -1,9 +1,0 @@
-question: Jaký je účel pokusů o phishing?
-answer: Získat citlivé informace, jako jsou vaše přihlašovací údaje a hesla.
-wrong_answers:
-  - Poslat vám spamové e-maily.
-  - Prodat vám produkty nebo služby.
-  - Pozvat vás na akce nebo webináře.
-explanation: |
-  Pokusy o phishing mají za cíl získat citlivé informace, jako jsou vaše přihlašovací údaje a hesla. Hackeři používají různé taktiky, jako jsou podvodné e-maily, aby vás přiměli k odhalení vašich informací.
-reviewed: false

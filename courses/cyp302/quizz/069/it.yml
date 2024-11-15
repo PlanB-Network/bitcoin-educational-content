@@ -1,0 +1,9 @@
+domanda: Qual è la differenza tra l'utilizzo dell'algoritmo Salsa20 con una chiave di 128 bit e una chiave di 256 bit?
+risposta: La lunghezza della chiave influenza il numero di cicli nell'algoritmo.
+risposte_errate:
+  - La lunghezza della chiave cambia il tipo di crittografia.
+  - Una chiave di 128 bit è usata per la crittografia di flusso e una chiave di 256 bit per la crittografia a blocchi.
+  - La lunghezza della chiave non ha impatto in Salsa20.
+spiegazione: |
+  Nel schema di crittografia simmetrica Salsa20, la lunghezza della chiave (128 o 256 bit) influisce sul numero di cicli nell'algoritmo, senza alterare il nucleo dell'algoritmo stesso.
+recensito: false

@@ -1,0 +1,8 @@
+pertanyaan: Apa peran operasi modulo dalam enkripsi sandi pergeseran?
+jawaban: Ini memastikan bahwa huruf-huruf kembali ke awal alfabet ketika melebihi 26
+jawaban_salah:
+  - Ini mengalikan nilai huruf dengan kunci
+  - Ini membalikkan huruf-huruf dalam alfabet
+  - Ini menghapus huruf-huruf setelah huruf "Z"
+penjelasan: |
+  Operasi modulo 26 memungkinkan huruf-huruf untuk berputar kembali setelah "Z" untuk memastikan bahwa setiap huruf yang dienkripsi tetap berada dalam 26 huruf dari alfabet.

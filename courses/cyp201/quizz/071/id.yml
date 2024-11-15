@@ -1,0 +1,6 @@
+pertanyaan: Benar atau Salah? "Seseorang dapat menentukan kunci publik hanya dengan mengetahui alamat SegWitv0-nya."
+jawaban: Salah.
+jawaban_salah:
+  - Benar.
+penjelasan: |
+  Alamat SegWit v0 adalah hash dari kunci publik, membuatnya tidak mungkin untuk langsung mengambil kunci publik dari alamat tersebut tanpa mengetahui kunci privat yang bersesuaian.

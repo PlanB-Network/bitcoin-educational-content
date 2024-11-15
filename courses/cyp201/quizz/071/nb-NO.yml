@@ -1,0 +1,7 @@
+question: Sant eller Usant? "Man kan bestemme en offentlig nøkkel ved kun å kjenne til dens SegWitv0-adresse."
+answer: Usant.
+wrong_answers:
+  - Sant.
+explanation: |
+  En SegWit v0-adresse er en hash av den offentlige nøkkelen, noe som gjør det umulig å direkte hente den offentlige nøkkelen fra adressen uten å kjenne til den tilsvarende private nøkkelen.
+reviewed: false

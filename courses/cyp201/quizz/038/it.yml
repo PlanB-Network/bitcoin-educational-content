@@ -1,10 +1,9 @@
-question: Qual è il numero totale di possibilità per una chiave privata in teoria?
-answer: 2^256
-wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
-explanation: |
-  Il numero totale di possibilità per una chiave privata è teoricamente
-  2^256, ma in realtà è leggermente inferiore a quello.
-reviewed: false
+domanda: Qual è la principale differenza tra un PRNG e un TRNG?
+risposta: Un PRNG è deterministico, mentre un TRNG produce numeri veramente casuali.
+risposte_errate:
+  - Un TRNG è più veloce di un PRNG.
+  - Un TRNG utilizza un seme, mentre un PRNG non utilizza alcun seme.
+  - Un PRNG è hardware, mentre un TRNG è software.
+spiegazione: |
+  Un TRNG (True Random Number Generator) genera numeri casuali a partire da un fenomeno fisico casuale, a differenza di un PRNG che è deterministico.
+recensito: false

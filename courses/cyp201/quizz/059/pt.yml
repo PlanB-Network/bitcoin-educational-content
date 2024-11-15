@@ -1,9 +1,8 @@
-question: Qual é o objetivo da função de hash SHA-256 na geração de um bom número aleatório?
-answer: Ela reduz uma peça inicial de informação muito grande para 256 bits.
-wrong_answers:
-  - Ela aumenta o tamanho da informação inicial.
-  - Ela criptografa a informação inicial.
-  - Ela verifica a autenticidade da informação inicial.
-explanation: |
-  A função de hash SHA-256 é usada para reduzir uma peça inicial de informação muito grande para 256 bits. Esse processo ajuda na geração de um bom número aleatório, o que é crucial para a segurança das chaves privadas e das transações de Bitcoin.
-reviewed: false
+pergunta: Em qual sistema numérico a chave estendida é geralmente codificada para ser apresentada ao usuário?
+resposta: Em Base 58.
+respostas_erradas:
+  - Em bech32.
+  - Em Base 16.
+  - Em bech32m.
+explicação: |
+  A chave estendida é geralmente codificada em Base 58 para ser mais legível para o usuário e evitar caracteres ambíguos.

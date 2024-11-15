@@ -1,9 +1,9 @@
-question: Cosa sono gli UTXO nel contesto di Bitcoin?
-answer: Unspent Transaction Outputs
-wrong_answers:
-  - Untraceable Transaction Outputs (Output di transazione non tracciabili)
-  - Unverified Transaction Outputs (Output di transazione non verificati)
-  - Unconfirmed Transaction Outputs (Output di transazione non confermati)
-explanation: |
-  Gli UTXO, o "Unspent Transaction Outputs" (Output di transazione non spesi), rappresentano gli output di transazione non spesi appartenenti a un utente. Per spendere questi bitcoin, è necessario dimostrare di essere il proprietario della chiave privata corrispondente alla chiave pubblica associata a ciascun UTXO.
-reviewed: false
+domanda: Perché è impossibile recuperare la chiave privata da una firma digitale valida?
+risposta: La firma si basa su operazioni matematiche irreversibili su una curva ellittica.
+risposte_errate:
+  - La chiave privata viene criptata prima dell'uso.
+  - Il seed protegge la chiave privata.
+  - L'hashing dei messaggi impedisce il recupero della chiave privata.
+spiegazione: |
+  Le operazioni sulle curve ellittiche sono irreversibili, garantendo che la chiave privata non possa essere dedotta dalla firma.
+recensito: false

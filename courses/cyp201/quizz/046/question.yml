@@ -1,64 +1,18 @@
-id: 528d2dbf-c8e6-426c-8d92-6f988549018c
-chapterId: bb07826f-826e-5905-b307-3d82001fb778
+id: 3167a3b4-071f-491c-8a30-9a23f552c278
+chapterId: 6a51b397-f3b5-5084-b151-cef94bc9b93f
 difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+duration: 15
+author: pretty-private
 tags:
-  - Bitcoin
-  - ECDSA
-  - Digital Signature
+  - crtyptography
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2716
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2608
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1304
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2662
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2716
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-10-22
     urgency: 1
     contributors_id:
-    reward: 2608
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2662
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2824
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2608
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2824
+      - LoicPandul
+    reward:

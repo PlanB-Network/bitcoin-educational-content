@@ -1,9 +1,0 @@
-question: Các phép toán toán học nào được sử dụng để suy ra khóa công khai từ khóa riêng của con trong Bitcoin?
-answer: Phép cộng và nhân đôi trên đường cong elliptic.
-wrong_answers:
-  - Phép nhân và chia trên đường cong parabolic.
-  - Phép trừ và nhân trên đường cong hyperbolic.
-  - Phép cộng và trừ trên đường cong tuyến tính.
-explanation: |
-  Trong Bitcoin, khóa công khai được suy ra từ khóa riêng của con thông qua các phép toán toán học như phép cộng và nhân đôi trên đường cong elliptic. Đây là một khía cạnh cơ bản của bảo mật mật mã học của Bitcoin.
-reviewed: false

@@ -1,12 +1,8 @@
-question: What is the difference between a passphrase and a mnemonic phrase in a Bitcoin wallet?
-answer: The passphrase is free and can reach an almost infinite size, while the mnemonic phrase is standardized and must follow certain constraints of size, checksum, and encoding
+question: What is the final step to create a Bech32 Bitcoin address?
+answer: Add the HRP "bc" and a separator "1".
 wrong_answers:
-  - The passphrase is standardized, while the mnemonic phrase is free and can reach an almost infinite size
-  - The passphrase and the mnemonic phrase are the same
-  - The passphrase is optional, while the mnemonic phrase is mandatory
+  - Add the SegWit version at the beginning.
+  - Add the checksum at the beginning of the address.
+  - Add a "1" prefix.
 explanation: |
-  To derive the keys of an HD wallet, both the mnemonic phrase and the
-  passphrase are necessary. The passphrase is free and can reach an almost infinite
-  size. It is not included in the mnemonic phrase, which is standardized and must
-  follow certain constraints of size, checksum, and encoding.
-reviewed: false
+  The final step in constructing a Bech32 address is to add the HRP (Human Readable Part), "bc" for Bitcoin, followed by a separator "1".

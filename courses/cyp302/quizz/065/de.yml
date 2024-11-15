@@ -1,0 +1,9 @@
+Frage: Was sind die drei wesentlichen Komponenten eines symmetrischen Verschlüsselungsschemas?
+Antwort: Ein Schlüsselgenerierungsalgorithmus, ein Verschlüsselungsalgorithmus und ein Entschlüsselungsalgorithmus
+falsche_Antworten:
+  - Ein Hashing-Algorithmus, ein öffentlicher Schlüssel und ein Verifizierungsalgorithmus
+  - Ein öffentlicher Schlüssel, ein privater Schlüssel und ein Entschlüsselungsalgorithmus
+  - Ein Verschlüsselungsalgorithmus, ein öffentlicher Schlüssel und ein privater Schlüssel
+Erklärung: |
+  Ein symmetrisches Verschlüsselungsschema besteht aus drei Elementen: einem Schlüsselgenerierungsalgorithmus, einem Verschlüsselungsalgorithmus und einem Entschlüsselungsalgorithmus. Sie alle verwenden denselben Schlüssel.
+überprüft: false

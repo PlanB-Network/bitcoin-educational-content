@@ -1,0 +1,9 @@
+question: Milline Saksa kaevur omas mitme kuu jooksul 2010. aastal 20% Bitcoin võrgu hash määrast?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  Ta lõi suvel 2010 kaevandusfarmi, mis koosnes graafikakaartidest (nimetatud "ArtFarm"), saavutades seeläbi sügiseks olulise eelise oma konkurentide ees.
+reviewed: false

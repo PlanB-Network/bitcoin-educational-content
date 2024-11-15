@@ -1,0 +1,9 @@
+pertanyaan: Apa kekhawatiran masa depan mengenai penggunaan ruang blok Bitcoin?
+jawaban: Kekhawatiran masa depan adalah bahwa dengan pertumbuhan yang diharapkan dari Lightning Network dan peningkatan konsekuensial dalam pembukaan dan penutupan saluran, ruang dalam blok Bitcoin akan menjadi semakin berharga.
+jawaban_salah:
+  - Kekhawatiran masa depan adalah bahwa ukuran blok Bitcoin akan menjadi terlalu besar untuk dikelola.
+  - Kekhawatiran masa depan adalah bahwa jumlah blok Bitcoin akan melebihi kapasitas jaringan.
+  - Kekhawatiran masa depan adalah bahwa kompleksitas blok Bitcoin akan meningkat, membuatnya sulit untuk diproses.
+penjelasan: |
+  Dengan pertumbuhan yang diharapkan dari Lightning Network dan peningkatan konsekuensial dalam pembukaan dan penutupan saluran, ruang dalam blok Bitcoin akan menjadi semakin berharga. Hal ini telah memicu diskusi tentang penggunaan ruang blok yang sah, dengan kekhawatiran tentang "spam" di blockchain dari transaksi yang dianggap tidak esensial.
+ditinjau: false

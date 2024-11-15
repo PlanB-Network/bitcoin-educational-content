@@ -1,9 +1,0 @@
-question: 2要素認証(2FA)において、SMSよりもワンタイムパスワード(HOTPおよびTOTP)の利点は何ですか？
-answer: 暗号計算が必要であり、メモリではなくローカルに保存されます。
-wrong_answers:
-  - 速い
-  - 安い
-  - 覚えやすい
-explanation: |
-  ワンタイムパスワード(HOTPおよびTOTP)は、暗号計算が必要であり、メモリではなくローカルに保存されるため、SMSよりも安全です。
-reviewed: false

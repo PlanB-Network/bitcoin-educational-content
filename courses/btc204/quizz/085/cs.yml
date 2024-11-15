@@ -1,0 +1,13 @@
+otázka: Jaký konkrétní model párování uživatelů používá JoinMarket?
+
+odpověď: P2P trh mezi poskytovateli a přijímateli.
+
+nesprávné odpovědi:
+  - Server, který náhodně přiřazuje účastníky.
+  - Výměny založené na holandských aukcích.
+  - Zprostředkovatelská služba, která ručně vybírá účastníky.
+
+vysvětlení: |
+  JoinMarket funguje na principu P2P výměnného trhu, kde někteří uživatelé, tzv. "poskytovatelé", nabízejí své bitcoiny k mixování, zatímco ostatní, tzv. "přijímatelé", tyto prostředky využívají k provádění coinjoinů výměnou za poplatek.
+
+recenzováno: false

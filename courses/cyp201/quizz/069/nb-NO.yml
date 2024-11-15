@@ -1,0 +1,8 @@
+question: Hva indikerer følgende avledningssti? m/44'/0'/0'/0/0
+answer: En ekstern Legacy-adresse på hovednettverket.
+wrong_answers:
+  - En ekstern SegwitV1-adresse på hovednettverket.
+  - En intern Legacy-adresse på testnettverket.
+  - En ekstern SegwitV0-adresse på hovednettverket.
+explanation: |
+  Avledningsstien m/44'/0'/0'/0/0 indikerer en ekstern Legacy-adresse på hovednettverket (mainnet). 44' = Legacy, 0' = hovednett, 0 = ekstern

@@ -1,0 +1,9 @@
+question: Mida tähendab termin "champ premier" või "corps premier"?
+answer: Korpus, mille elementide arv on algarv
+wrong_answers:
+  - Korpus, mis sisaldab ainult algarve
+  - Korpus, mis on määratletud ainult algarvude liitmisega
+  - Korpus, mis kasutab juhuslikke vektoreid
+explanation: |
+  Algarvkorpus sisaldab elementide arvu, mis on võrdne algarvuga, muutes selle krüptograafilistes toimingutes fundamentaalseks korpuseks.
+reviewed: false

@@ -1,0 +1,8 @@
+pertanyaan: Mengapa tidak mungkin untuk mengambil kembali kunci privat dari tanda tangan digital yang valid?
+jawaban: Tanda tangan tersebut didasarkan pada operasi matematika yang tidak dapat dibalik pada kurva eliptik.
+jawaban_salah:
+  - Kunci privat dienkripsi sebelum digunakan.
+  - Seed melindungi kunci privat.
+  - Hashing pesan mencegah kunci privat dapat diambil kembali.
+penjelasan: |
+  Operasi pada kurva eliptik tidak dapat dibalik, memastikan bahwa kunci privat tidak dapat disimpulkan dari tanda tangan.

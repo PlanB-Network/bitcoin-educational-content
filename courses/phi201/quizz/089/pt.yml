@@ -1,0 +1,9 @@
+question: O que a "fronteira rígida entre a esfera pública e a esfera privada" defendida por Constant implica?
+answer: Essa fronteira implica que o Estado não deve interferir na vida privada dos indivíduos.
+wrong_answers:
+  - Essa fronteira implica que os indivíduos não devem se envolver em assuntos públicos.
+  - Essa fronteira implica uma separação total entre a Igreja e o Estado.
+  - Essa fronteira implica que os indivíduos devem ter as mesmas liberdades tanto na esfera pública quanto na privada.
+explanation: |
+  Para Benjamin Constant, uma fronteira rígida entre as esferas pública e privada significa que o Estado deve respeitar a privacidade dos indivíduos e evitar qualquer intervenção em escolhas pessoais que não dizem respeito ao domínio público.
+reviewed: false

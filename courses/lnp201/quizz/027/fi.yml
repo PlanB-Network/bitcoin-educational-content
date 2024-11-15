@@ -1,10 +1,9 @@
-question: Milloin nostotapahtuma suoritetaan Lightning Network -siirrossa?
-answer: Kun kanava suljetaan.
-wrong_answers:
-  - Kun siirto tehdään.
-  - Kun kanava avataan.
-  - Sitä ei suoriteta koskaan.
-explanation: |
-  Nostotapahtuma, joka edustaa kanavan tilaa,
-  ei suoriteta, ellei kanavaa suljeta.
-reviewed: false
+kysymys: Miksi pakotettu sulkeminen on vähemmän toivottavaa?
+vastaus: Se on hitaampaa ja maksut voivat olla sopimattomia
+vaarat_vastaukset:
+  - Se vaatii luvan Satoshi Nakamotolta
+  - Se pakottaa kanavan uudelleenluomiseen myöhemmin
+  - Se estää peruutusavaimen käytön
+selitys: |
+  Pakotettu sulkeminen on vähemmän toivottavaa, koska siihen sisältyy aikalukko, joka hidastaa prosessia, ja maksut voivat olla sopimattomia, koska ne asetettiin kanavan luomisen aikaan.
+arvioitu: false

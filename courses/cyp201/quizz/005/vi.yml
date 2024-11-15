@@ -1,9 +1,9 @@
-question: Mục tiêu cuối cùng của một hàm băm mật mã là gì?
-answer: Biến đổi thông tin kích thước tùy ý thành một dấu vân tay cố định.
-wrong_answers:
-  - Mã hóa dữ liệu để truyền tải an toàn.
-  - Tạo một khóa duy nhất cho mỗi người dùng.
-  - Nén dữ liệu để lưu trữ hiệu quả.
-explanation: |
-  Mục tiêu cuối cùng của một hàm băm mật mã là biến đổi thông tin kích thước tùy ý thành một dấu vân tay cố định. Dấu vân tay này là duy nhất đối với dữ liệu đầu vào, và ngay cả một thay đổi nhỏ trong dữ liệu đầu vào cũng sẽ dẫn đến một dấu vân tay hoàn toàn khác biệt.
-reviewed: false
+câu hỏi: Kích thước đầu vào của hàm SHA256 phải là bao nhiêu sau khi đã được thêm padding?
+câu trả lời: Một bội số của 512 bit.
+câu trả lời sai:
+  - Của 256 bit.
+  - Của 256 byte.
+  - Một bội số của 256 bit.
+giải thích: |
+  Hàm SHA256 yêu cầu đầu vào phải là một bội số của 512 bit sau khi đã thêm padding để hoạt động chính xác.
+đã xem xét: false

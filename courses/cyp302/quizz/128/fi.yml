@@ -1,0 +1,9 @@
+kysymys: Mikä vaikea laskennallinen ongelma liittyy epäsymmetrisiin järjestelmiin kuten RSA?
+vastaus: Alkulukujen tekijöihin jakaminen
+vaarat_vastaukset:
+  - Kokonaislukujen eksponentiaalinen kertolasku
+  - Pitkien satunnaislukujen luominen
+  - Turvallinen avaintenvaihto
+selitys: |
+  RSA perustuu alkulukujen tekijöihin jakamisen vaikeuteen, laskennallisesti vaikeaan tehtävään, joka tekee salausjärjestelmästä turvallisen hyökkäyksiä vastaan.
+arvioitu: false

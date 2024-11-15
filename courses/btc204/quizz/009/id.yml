@@ -1,0 +1,8 @@
+pertanyaan: Apa dua elemen yang membentuk hadiah blok dalam transaksi coinbase?
+jawaban: Subsidi blok dan biaya transaksi.
+jawaban_salah:
+  - Subsidi blok dan bonus kecepatan.
+  - Hak emisi dan premi keamanan.
+  - Dividen penambangan dan pajak jaringan.
+penjelasan: |
+  Ketika seorang penambang menemukan blok yang valid, mereka berhak mendapatkan hadiah yang terdiri dari, di satu sisi, subsidi blok, dan di sisi lain, biaya dari transaksi yang mereka masukkan ke dalam blok mereka.

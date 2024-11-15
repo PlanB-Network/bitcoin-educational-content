@@ -6,4 +6,4 @@ An internal heuristic for chain analysis on Bitcoin that allows for a hypothesis
 
 It should be noted that this heuristic is not always applicable, since the majority of payments are still made in fiat currency units. Indeed, when a merchant in France accepts bitcoin, generally, they do not display stable prices in sats. They would rather opt for a conversion between the price in euros and the amount in bitcoins to be paid through their POS (like BTCPay Server, for example). Therefore, there should not be a round number in the transaction output. Nevertheless, an analyst could attempt to make this conversion by taking into account the exchange rate in effect when the transaction was broadcast on the network. If one day, bitcoin becomes the preferred unit of account in our exchanges, this heuristic could become even more useful for analyses.
 
-![](../../dictionnaire/assets/11.png)
+![](../../dictionnaire/assets/11.webp)

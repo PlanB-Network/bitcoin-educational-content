@@ -1,0 +1,9 @@
+kysymys: Kuinka verkkopalvelu varmentaa salasanan tallentamatta sitä suoraan?
+vastaus: Vertaamalla syötetyn salasanan tiivistettä tietokannassa olevaan
+vaarat_vastaukset:
+  - Salatun salasanan purkamalla sen varmentamiseksi
+  - Käyttämällä julkista avainta henkilöllisyyden varmentamiseen
+  - Vertaamalla salasanaa suoraan muiden käyttäjien salasanoihin
+selitys: |
+  Palvelu luo syötetystä salasanasta tiivisteen ja vertaa sitä tallennettuun, tallentamatta salasanaa suoraan, näin varmistaen lisääntyneen turvallisuuden.
+arvioitu: false

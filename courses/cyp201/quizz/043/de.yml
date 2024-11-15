@@ -1,11 +1,9 @@
-question: Was ist die Ordnung der secp256k1-Kurve, die in Bitcoin verwendet wird?
-answer: 2^256 - 432420386565659656852420866394968145599
-wrong_answers:
-  - 2^256
-  - 2^256 - 1
-  - 2^256 - 432420386565659656852420866394968145598
-explanation: |
-  Die Ordnung der secp256k1-Kurve, die in Bitcoin verwendet wird, beträgt 2^256 -
-  432420386565659656852420866394968145599.
-  Dies ist die Anzahl der Punkte auf der Kurve.
-reviewed: false
+Frage: Wie bestimmt man die Bitgröße der Prüfsumme für eine Wiederherstellungsphrase?
+Antwort: Teile die Größe der Zufallszahl (Entropie) durch 32.
+falsche_Antworten:
+  - Teile die Größe der Zufallszahl (Entropie) durch 8.
+  - Teile die Größe der Zufallszahl (Entropie) durch 16.
+  - Multipliziere die Größe der Zufallszahl (Entropie) mit 2.
+Erklärung: |
+  Die Größe der Prüfsumme wird ermittelt, indem die Größe der Entropie durch 32 geteilt wird, in Übereinstimmung mit BIP39.
+überprüft: false

@@ -981,13 +981,14 @@ _Планирование наследования криптоактивов, �
 
 
 
-## Оставьте отзыв о данном курсе
+## Оцените курс
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Выпускной экзамен
 <chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
 <isCourseExam>true</isCourseExam>
+
 
 ## Последующие действия
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>

@@ -1,0 +1,9 @@
+otázka: V cyklické skupině, jak se nazývá prvek, který může generovat všechny ostatní prvky prostřednictvím umocňování?
+odpověď: Generátor
+nesprávné_odpovědi:
+  - Násobič
+  - Vzájemně prvočíslo
+  - Inverzní prvek
+vysvětlení: |
+  Generátor je prvek v cyklické skupině, který prostřednictvím umocňování může produkovat všechny ostatní prvky skupiny.
+recenzováno: false

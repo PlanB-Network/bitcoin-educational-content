@@ -1,0 +1,9 @@
+Frage: Welches mathematische Gebiet stellt die modernen Werkzeuge für die Zahlentheorie bereit?
+Antwort: Abstrakte Algebra
+falsche_Antworten:
+  - Geometrie
+  - Statistik
+  - Komplexe Analyse
+Erklärung: |
+  Die abstrakte Algebra, als Teilgebiet der Mathematik, bietet mathematische Strukturen, die die Analyse und das Verständnis der Eigenschaften von Zahlen, die in der Zahlentheorie verwendet werden, ermöglichen.
+überprüft: false

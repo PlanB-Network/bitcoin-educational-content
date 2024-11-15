@@ -1,12 +1,9 @@
-question: Vai trò của cụm từ bí mật trong ví Bitcoin là gì?
-answer: Nó tăng cường bảo mật cho ví
-wrong_answers:
-  - Nó giảm bảo mật của ví
-  - Nó không ảnh hưởng đến bảo mật của ví
-  - Nó làm cho ví thân thiện với người dùng hơn
-explanation: |
-  Cụm từ bí mật là một mật khẩu bổ sung có thể được tích hợp vào
-  ví Bitcoin để tăng cường bảo mật của nó. Bằng cách thêm thông tin tùy ý mà,
-  cùng với cụm từ ghi nhớ, cho phép tính toán hạt giống của ví,
-  cụm từ bí mật tăng cường bảo mật của nó.
-reviewed: false
+câu hỏi: Dưới đây là một chuỗi các số thập phân (10 25 13 18 02 31). Đâu là sự chuyển đổi chính xác sang Bech32?
+câu trả lời: 2edjzl
+câu trả lời sai:
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
+giải thích: |
+  Việc chuyển đổi các số thập phân sang Bech32 được thực hiện thông qua một bảng tương ứng cụ thể, và chuỗi 10 25 13 18 02 31 tương ứng với 2edjzl.
+đã xem xét: false

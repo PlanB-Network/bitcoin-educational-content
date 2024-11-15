@@ -1,0 +1,9 @@
+otázka: Kdy byl skutečně spuštěn prototyp sítě Bitcoin v roce 2009?
+odpověď: 9. ledna 2009 v 02:54:25 UTC
+špatné_odpovědi:
+  - 3. ledna 2009 v 18:15:05 UTC
+  - 8. ledna 2009 v 19:27:40 UTC
+  - 12. ledna 2009 v 03:30:25 UTC
+vysvětlení: |
+  Toto je časové razítko bloku 1 blockchainu, který vytěžil Satoshi Nakamoto po zveřejnění softwarového kódu na mailing listu několik hodin dříve. Genesis blok (0) byl vytvořen mezi 3. a 8. lednem, ale skutečná síť jako taková tehdy ještě neexistovala.
+recenzováno: false

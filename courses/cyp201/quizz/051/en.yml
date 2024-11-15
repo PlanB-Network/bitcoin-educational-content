@@ -1,12 +1,9 @@
-question: What is the significance of BIP32 in the Bitcoin ecosystem?
-answer: It revolutionized the way keys are generated and stored, introducing the concept of deterministically and hierarchically derived keys.
+question: What is the key derivation function used to derive a seed from a mnemonic phrase and an optional passphrase?
+answer: PBKDF2.
 wrong_answers:
-  - It introduced the 24-word mnemonic phrase.
-  - It proposed adding an additional passphrase to reinforce the security of individual keys.
-  - It standardized the structure and hierarchy of HD wallets.
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
 explanation: |
-  BIP32, launched in 2012, revolutionized the way these keys are generated
-  and stored, introducing the concept of deterministically and hierarchically derived
-  keys. This greatly simplifies the process of saving these keys, while maintaining
-  their level of security.
+  The PBKDF2 function is used to derive the seed of an HD wallet from the mnemonic phrase and an optional passphrase.
 reviewed: false

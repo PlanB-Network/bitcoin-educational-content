@@ -1,0 +1,9 @@
+pertanyaan: Apa peran dari biaya routing di Jaringan Lightning?
+jawaban: Untuk memberi insentif kepada node perantara agar menyediakan likuiditas mereka untuk transfer pembayaran
+jawaban_salah:
+  - Untuk membatasi jumlah transaksi di jaringan
+  - Untuk memastikan bahwa setiap saluran memiliki dana yang cukup
+  - Untuk secara otomatis menghitung jalur terpendek
+penjelasan: |
+  Biaya routing digunakan untuk memberi kompensasi kepada node perantara yang meneruskan pembayaran dengan menawarkan likuiditas mereka untuk memungkinkan transfer dana melintasi jaringan.
+ditinjau: false

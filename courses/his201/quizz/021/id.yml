@@ -1,0 +1,9 @@
+pertanyaan: Pada tahun berapa Satoshi Nakamoto mulai mengerjakan Bitcoin?
+jawaban: 2007
+jawaban_salah:
+  - 2008
+  - 2009
+  - 2010
+penjelasan: |
+  Dia menyebutkannya beberapa kali dalam tulisannya. (https://bitcointalk.org/index.php?topic=13.msg46#msg46)
+ditinjau: false

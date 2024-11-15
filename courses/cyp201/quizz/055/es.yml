@@ -1,9 +1,9 @@
-question: ¿Cuál es el nombre vulgar a veces utilizado para referirse a la colección de claves privadas en una billetera de Bitcoin?
-answer: Just a Bunch Of Keys (JBOC)
-wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
-explanation: |
-  La colección de claves criptográficas privadas derivadas de una única clave maestra en una billetera de Bitcoin a veces se denomina con el nombre ligeramente vulgar de "Just a Bunch Of Keys" (JBOC).
-reviewed: false
+pregunta: ¿De qué consta la carga útil de una clave extendida?
+respuesta: Una clave pública o privada, y el código de cadena asociado.
+respuestas_incorrectas:
+  - Una clave privada y la clave pública asociada.
+  - Un código de cadena, una clave pública y una clave privada.
+  - Una clave privada y un índice de derivación.
+explicación: |
+  La carga útil de una clave extendida incluye ya sea una clave pública o privada, junto con un código de cadena utilizado para derivar claves secundarias.
+revisado: false

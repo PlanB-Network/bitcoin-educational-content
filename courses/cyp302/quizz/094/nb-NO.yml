@@ -1,0 +1,9 @@
+question: Hva er hovedkilden til forvirring mellom begrepene "blokkchiffer" og "strømchiffer"?
+answer: Blokkchiffere blir noen ganger forstått utelukkende som algoritmer som bruker blokkmoduser som ECB eller CBC.
+wrong_answers:
+  - Strømchiffere er alltid mindre sikre enn blokkchiffere.
+  - Blokkchiffere opererer én bit om gangen.
+  - Strømchiffere krever alltid utfylling.
+explanation: |
+  Forvirringen oppstår fra det faktum at noen anser blokkchiffere kun som algoritmer som bruker spesifikke blokkeringsmoduser, mens de i virkeligheten kan inkludere krypteringsskjemaer som OFB-modusen.
+reviewed: false

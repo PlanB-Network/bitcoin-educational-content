@@ -1,0 +1,9 @@
+kysymys: Mikä on XOR-operaation vaihdannaisominaisuus?
+vastaus: Operandien järjestys ei vaikuta operaation tulokseen
+vaarat_vastaukset:
+  - XOR toimii vain parillisten lukujen kanssa
+  - XOR vaatii samanpituiset operandit
+  - Operandien bittien sijainti ei vaikuta operaation tulokseen
+selitys: |
+  XOR on vaihdannainen, mikä tarkoittaa, että a XOR b on yhtä suuri kuin b XOR a.
+arvioitu: false

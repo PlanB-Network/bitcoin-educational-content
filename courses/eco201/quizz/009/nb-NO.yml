@@ -1,0 +1,12 @@
+question: Hva er rollen til en sentralbank som "långiver i siste instans"?
+answer: Sentralbanken låner midler til banker i nød under kriser for å forhindre en dominoeffekt som kunne lamme hele det finansielle systemet.
+wrong_answers:
+  - Sentralbanken låner midler til banker i nød under kriser for å øke sine egne profitter.
+  - Sentralbanken låner midler til banker i nød under kriser for å ta over deres operasjoner.
+  - Sentralbanken låner midler til banker i nød under kriser for å øke den nasjonale gjelden.
+explanation: |
+  Konseptet med en sentralbank som "långiver i siste instans" dukket opp i
+  det 19. århundret i England som respons på gjentatte bankkriser som truet den finansielle
+  stabiliteten. Ved å låne til banker i nød, kan sentralbanken forhindre en dominoeffekt
+  av bankkollapser som kunne føre til en resesjon eller depresjon.
+reviewed: false

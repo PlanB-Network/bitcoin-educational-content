@@ -1,0 +1,9 @@
+question: Millist funktsiooni kasutatakse Bitcoinis lapsevõtme tuletamiseks vanemvõtmest?
+answer: HMAC-SHA512.
+wrong_answers:
+  - SHA256.
+  - MD5.
+  - BLAKE2.
+explanation: |
+  HMAC-SHA512 funktsiooni kasutatakse Bitcoin HD rahakottides lapsevõtmete tuletamiseks vanemvõtmetest.
+reviewed: false

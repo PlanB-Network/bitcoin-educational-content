@@ -1,12 +1,9 @@
-question: What happens in a forced closure if the network fee is 1 SAT at the time
-  of closure?
-answer: The transaction is overpaid by 50 times.
+question: What does the "LNURL-withdraw" feature allow users to do?
+answer: Withdraw funds from a service by scanning a QR code
 wrong_answers:
-  - The transaction is underpaid by 50 times.
-  - The transaction is overpaid by 2 times.
-  - The transaction is underpaid by 2 times.
+  - Make a direct payment without routing fees
+  - Connect their Lightning wallet without a password
+  - Send funds without recipient confirmation
 explanation: |
-  In a forced closure, the protocol defaults to fees 5 times higher than
-  the current ones when the transaction was created. If the network fee is 1 SAT at
-  the time of closure, the transaction is overpaid by 50 times.
+  LNURL-withdraw allows users to withdraw funds from a service by scanning a QR code, thus simplifying the withdrawal process.
 reviewed: false

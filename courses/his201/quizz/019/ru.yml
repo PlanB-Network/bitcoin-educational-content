@@ -1,0 +1,9 @@
+question: Как назывался распределенный кредитный протокол, разработанный Райаном Фаггером в 2004 году и несколько раз упомянутый Сатоши Накамото в своих письмах?
+answer: Ripple
+wrong_answers:
+  - Waves
+  - Tsunami
+  - Swell
+explanation: |
+  В 2009 году Сатоши [написал](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html), что "Ripple \[был\] уникален тем, что распространял доверие, а не концентрировал его".
+reviewed: false

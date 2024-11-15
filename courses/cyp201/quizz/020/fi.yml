@@ -1,10 +1,9 @@
-question: Mikä on lohkon koko, jota käytetään HMAC-SHA-512:ssa?
-answer: 1024-bittiset (128-tavuiset) lohkot
-wrong_answers:
-  - 512-bittiset (64-tavuiset) lohkot
-  - 256-bittiset (32-tavuiset) lohkot
-  - 2048-bittiset (256-tavuiset) lohkot
-explanation: |
-  HD-lompakon johdannan yhteydessä käytetään HMAC-SHA-512:tä. Jälkimmäinen
-  toimii 1024-bittisten (128-tavuisten) lohkojen kanssa ja mukauttaa avaimen sen mukaisesti.
-reviewed: false
+kysymys: Miten Bitcoinin yksityisavain määritetään?
+vastaus: Se määritetään satunnaisesta tai pseudosatunnaisesta numerosta.
+vaarat_vastaukset:
+  - Se määritetään lisäämällä ja kaksinkertaistamalla pisteitä elliptisellä käyrällä sen julkisesta avaimesta.
+  - Se määritetään hashaamalla sen julkinen avain.
+  - Se määritetään SHA-256 algoritmilla.
+selitys: |
+  Bitcoinin yksityisavain luodaan satunnaisesti tai pseudosatunnaisesti, mikä varmistaa sen yksilöllisyyden ja turvallisuuden.
+arvioitu: false

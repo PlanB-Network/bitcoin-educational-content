@@ -1,0 +1,13 @@
+pertanyaan: Apa risiko yang terkait dengan penggunaan node pihak ketiga?
+
+jawaban: Sensor dan pemantauan aktivitas.
+
+jawaban_salah:
+  - Kehilangan bitcoin.
+  - Peningkatan biaya transaksi.
+  - Pencurian bitcoin dan pelacakan.
+
+penjelasan: |
+  Jika Anda menggunakan node yang bukan milik Anda, Anda berisiko memiliki siaran transaksi Anda diblokir dan dipantau oleh operator.
+
+ditinjau: false

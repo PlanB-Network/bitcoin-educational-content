@@ -1,0 +1,9 @@
+question: AES標準として採用されたブロック暗号化アルゴリズムは何ですか？
+answer: ラインダール暗号
+wrong_answers:
+  - DES
+  - RSA
+  - ディフィー・ヘルマン
+explanation: |
+  ラインダール暗号は、その高いパフォーマンスとセキュリティのために、NISTによって対称暗号化標準（AES）として採用されました。
+reviewed: false

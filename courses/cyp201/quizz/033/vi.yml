@@ -1,11 +1,8 @@
-question: Phép nhân vô hướng của một điểm với n trên một đường cong elliptic là gì?
-answer: Tương đương với việc cộng điểm đó với chính nó n lần
-wrong_answers:
-  - Tương đương với việc trừ điểm đó khỏi chính nó n lần
-  - Tương đương với việc nhân điểm đó với chính nó n lần
-  - Tương đương với việc chia điểm đó cho chính nó n lần
-explanation: |
-  Phép nhân vô hướng của một điểm với n trên một đường cong elliptic tương đương
-  với việc cộng điểm đó với chính nó n lần. Thao tác này là cơ sở để tính toán
-  khóa công khai trong hệ thống Bitcoin.
-reviewed: false
+câu hỏi: Ý tưởng về cụm từ khôi phục, hay cụm từ ghi nhớ (12/24 từ), được đề xuất trong BIP nào?
+câu trả lời: BIP39.
+câu trả lời sai:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+giải thích: |
+  BIP39 đã giới thiệu cụm từ ghi nhớ 24 từ để hỗ trợ việc sao lưu khóa cho người dùng của ví HD.

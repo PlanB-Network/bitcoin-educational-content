@@ -1,0 +1,11 @@
+kysymys: Mikä on JoinMarketin käyttämä tietty käyttäjien yhdistämismalli?
+
+vastaus: P2P-markkina makersien ja takersien välillä.
+
+väärät_vastaukset:
+  - Palvelin, joka arpoo osallistujat satunnaisesti.
+  - Vaihdot, jotka perustuvat hollantilaisiin huutokauppoihin.
+  - Välityspalvelu, joka valitsee osallistujat manuaalisesti.
+
+selitys: |
+  JoinMarket toimii P2P-vaihtomarkkinana, jossa jotkut käyttäjät, "makers", tarjoavat bitcoinejaan sekoitettavaksi, kun taas toiset, "takers", käyttävät näitä varoja suorittaakseen coinjoineja vastineeksi maksusta.

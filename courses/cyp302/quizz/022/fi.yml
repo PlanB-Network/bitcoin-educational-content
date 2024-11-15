@@ -1,0 +1,8 @@
+kysymys: Mikä on tuloksena sanalle "DOG", kun käytetään siirtoavainta 17?
+vastaus: UFX
+vaarat_vastaukset:
+  - ZKH
+  - TPG
+  - UVW
+selitys: |
+  Kun aakkosia siirretään 17 kirjaimen verran, "D" muuttuu "U":ksi, "O" muuttuu "F":ksi ja "G" muuttuu "X":ksi. Näin ollen salattu sana on "UFX".

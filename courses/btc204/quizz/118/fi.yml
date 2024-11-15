@@ -1,0 +1,13 @@
+kysymys: Seuraavista vastauksista, mikä ei edusta riskiä lähettäessä bitcoineja, jotka ovat käyneet läpi coinjoinin, säänneltyyn alustaan?
+
+vastaus: Alusta saattaa nostaa siirtomaksuja
+
+väärät_vastaukset:
+  - Alusta saattaa jäädyttää varat
+  - Alusta saattaa estää käyttäjän tilin
+  - Alusta saattaa ilmoittaa epäilyttävästä käytöksestä viranomaisille
+
+selitys: |
+  Jos lähetät kolikkosi säännellylle vaihtoalustalle, mutta se on äskettäin käynyt läpi coinjoinin, alustan ketjuanalyysityökalu havaitsee tämän seikan. Alusta saattaa sitten kieltäytyä hyväksymästä UTXO:tasi, joka on käynyt läpi coinjoinin, tai jopa vaatia sinulta selityksiä, riskinä nähdä tilisi keskeytetty tai varasi jäädytetty. Joissakin tapauksissa alusta saattaa myös ilmoittaa käytöksestäsi valtion viranomaisille.
+
+arvioitu: false

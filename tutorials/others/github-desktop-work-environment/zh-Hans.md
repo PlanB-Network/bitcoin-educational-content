@@ -37,7 +37,7 @@ PlanB 的使命是以尽可能多的语言提供关于比特币的顶级教育�
 
 ## 第3步：Fork PlanB Network仓库
 
-- 访问以下地址的PlanB Network数据仓库：[https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data)：![github-desktop](assets/10.webp)
+- 访问以下地址的PlanB Network数据仓库：[https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content)：![github-desktop](assets/10.webp)
 - 在此页面，点击窗口右上角的`Fork`按钮：![github-desktop](assets/11.webp)
 - 在创建菜单中，你可以保留默认设置。确保勾选了`Copy the dev branch only`框，然后点击`Create fork`按钮：![github-desktop](assets/12.webp)
 - 然后你将进入你自己的PlanB Network仓库的fork版本：![github-desktop](assets/13.webp)
@@ -51,13 +51,13 @@ PlanB 的使命是以尽可能多的语言提供关于比特币的顶级教育�
 
 - 返回到GitHub Desktop软件。到目前为止，你的fork应该出现在`Your repositories`部分。如果你立即看不到它，使用双箭头按钮刷新列表。当你的fork出现时，点击它进行选择：
 ![github-desktop](assets/15.webp)
-- 然后点击蓝色按钮：`Clone [username]/sovereign-university-data`：
+- 然后点击蓝色按钮：`Clone [username]/bitcoin-educational-content`：
 ![github-desktop](assets/16.webp)
 - 保持默认路径。确认后，点击蓝色`Clone`按钮：
 ![github-desktop](assets/17.webp)
 - 等待GitHub Desktop将你的fork克隆到本地：
 ![github-desktop](assets/18.webp)
-- 克隆仓库后，软件为您提供两个选项。您必须选择第一个：`为父项目做贡献`。这个选择将允许您将未来的工作作为对父项目（`DecouvreBitcoin/sovereign-university-data`）的贡献展示，而不仅仅是您个人分支（`[username]/sovereign-university-data`）的修改。选择该选项后，点击`继续`：![github-desktop](assets/19.webp)
+- 克隆仓库后，软件为您提供两个选项。您必须选择第一个：`为父项目做贡献`。这个选择将允许您将未来的工作作为对父项目（`PlanB-Network/bitcoin-educational-content`）的贡献展示，而不仅仅是您个人分支（`[username]/bitcoin-educational-content`）的修改。选择该选项后，点击`继续`：![github-desktop](assets/19.webp)
 - 您的GitHub桌面现在已正确配置。现在，您可以在后台保持软件开启，以跟踪我们将进行的修改。
 ![github-desktop](assets/20.webp)
 我们在这个阶段实现的是创建您的仓库的本地副本，该仓库托管在GitHub上。提醒一下，这个仓库是PlanB网络源仓库的一个分支。您将能够对这个本地副本进行修改，例如添加教程、翻译或更正。一旦这些修改完成，您将使用**推送源**命令将您的本地修改发送到托管在GitHub上的您的分支。
@@ -73,7 +73,7 @@ PlanB 的使命是以尽可能多的语言提供关于比特币的顶级教育�
 - 您的文件资源管理器将打开。您需要定位并选择标题为`GitHub`的文件夹，该文件夹应该在您的`文档`目录中。这个路径对应于您在第4步中建立的路径。选择文件夹后，确认其选择。然后，您的保险库在Obsidian软件的新页面上创建：
 
 ![github-desktop](assets/24.webp)
--> **注意**，在Obsidian中创建新保险库时，重要的是不要选择`sovereign-university-data`文件夹。相反，选择父文件夹`GitHub`。如果您选择了`sovereign-university-data`文件夹，配置文件夹`.obsidian`，包含您的本地Obsidian设置，将自动集成到仓库中。我们希望避免这种情况，因为不需要将您的Obsidian配置转移到PlanB网络仓库。另一种方法是将`.obsidian`文件夹添加到`.gitignore`文件中，但这种方法也会修改源仓库的`.gitignore`文件，这是不可取的。
+-> **注意**，在Obsidian中创建新保险库时，重要的是不要选择`bitcoin-educational-content`文件夹。相反，选择父文件夹`GitHub`。如果您选择了`bitcoin-educational-content`文件夹，配置文件夹`.obsidian`，包含您的本地Obsidian设置，将自动集成到仓库中。我们希望避免这种情况，因为不需要将您的Obsidian配置转移到PlanB网络仓库。另一种方法是将`.obsidian`文件夹添加到`.gitignore`文件中，但这种方法也会修改源仓库的`.gitignore`文件，这是不可取的。
 
 - 在窗口的左侧，您可以看到已经在本地克隆的不同GitHub仓库的文件树。
 - 通过点击文件夹名称旁边的箭头，您可以展开它们以访问仓库的子文件夹及其文档：

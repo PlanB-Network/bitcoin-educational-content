@@ -1,11 +1,9 @@
-question: Thứ tự của đường cong secp256k1 được sử dụng trong Bitcoin là gì?
-answer: 2^256 - 432420386565659656852420866394968145599
-wrong_answers:
-  - 2^256
-  - 2^256 - 1
-  - 2^256 - 432420386565659656852420866394968145598
-explanation: |
-  Thứ tự của đường cong secp256k1 được sử dụng trong Bitcoin là 2^256 -
-  432420386565659656852420866394968145599.
-  Đây là số điểm trên đường cong.
-reviewed: false
+câu hỏi: Làm thế nào để xác định kích thước bit của checksum cho một cụm từ khôi phục?
+câu trả lời: Chia kích thước của số ngẫu nhiên (entropy) cho 32.
+câu trả lời sai:
+  - Chia kích thước của số ngẫu nhiên (entropy) cho 8.
+  - Chia kích thước của số ngẫu nhiên (entropy) cho 16.
+  - Nhân kích thước của số ngẫu nhiên (entropy) với 2.
+giải thích: |
+  Kích thước của checksum được thu được bằng cách chia kích thước của entropy cho 32, theo BIP39.
+đã xem xét: false

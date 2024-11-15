@@ -5,7 +5,9 @@ wrong_answers:
   - Programs that track your online activity.
   - Viruses that can harm your device.
 explanation: |
-  In the context of online browsing, cookies are files created by websites
-  to store information on your device. They are used to remember your preferences,
-  login information, and other data to improve your browsing experience.
-reviewed: false
+  In the context of online browsing, cookies are files
+  created by websites to store information on your device.
+  They are used to remember your preferences, login
+  information, and other data to improve your browsing
+  experience.
+reviewed: true

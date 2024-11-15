@@ -1,0 +1,9 @@
+otázka: V konečné grupě, který termín odkazuje na počet prvků v grupě?
+odpověď: Řád grupy
+špatné_odpovědi:
+  - Kapacita grupy
+  - Délka grupy
+  - Stupeň grupy
+vysvětlení: |
+  Řád grupy je celkový počet prvků, které obsahuje.
+recenzováno: false

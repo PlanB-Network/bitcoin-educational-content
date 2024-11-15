@@ -1,0 +1,8 @@
+question: 初期化ベクトルを使用し、確率的な暗号化を生成するブロック暗号方式はどれですか？
+answer: CBC（"Cipher Block Chaining"）
+wrong_answers:
+  - ECB（"Electronic Code Book"）
+  - AES-128
+  - SHA-256
+explanation: |
+  CBC方式は初期化ベクトルを使用し、プレーンテキストの各ブロックと前の暗号化されたブロックとの間でXORを適用することで、暗号化を確率的にし、ECBよりも安全にします。

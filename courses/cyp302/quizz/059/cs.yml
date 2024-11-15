@@ -1,0 +1,9 @@
+otázka: Který francouzský matematik představil v 19. století koncept grup?
+odpověď: Évariste Galois
+špatné_odpovědi:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+vysvětlení: |
+  Évariste Galois vyvinul teorii grup pro studium řešení polynomiálních rovnic stupně vyššího než pět.
+recenzováno: false

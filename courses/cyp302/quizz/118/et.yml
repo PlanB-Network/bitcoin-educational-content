@@ -1,0 +1,9 @@
+question: Mis rolli mängib baitide asendamise operatsioon ("S-Box") AES krüpteerimises?
+answer: See toob sisse segadust, asendades iga baiti teisega
+wrong_answers:
+  - See tagab terviklikkuse, kontrollides sõnumi baite
+  - See segab veerge, et suurendada difusiooni
+  - See jagab lihtteksti 128-bitisteks plokkideks
+explanation: |
+  Baitide asendamise operatsioon (S-Box) AES-is toob sisse segadust, asendades iga baiti erineva väärtusega vastavalt tabelile, muutes krüpteeritud teksti analüüsimise keerulisemaks.
+reviewed: false

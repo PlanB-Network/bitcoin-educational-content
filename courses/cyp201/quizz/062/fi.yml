@@ -1,11 +1,8 @@
-question: Mikä on pääasiallinen riski, joka liittyy oman muistisanoituksen luomiseen noppaa käyttäen Bitcoin-siirtoihin?
-answer: Se voi sisältää tiettyjä riskejä.
-wrong_answers:
-  - Se voi johtaa ennustettavien numeroiden tuottamiseen.
-  - Se voi johtaa duplikaattinumeroiden tuottamiseen.
-  - Se voi johtaa kelvottomien numeroiden tuottamiseen.
-explanation: |
-  Oman muistisanoituksen luominen noppaa käyttäen voi sisältää tiettyjä riskejä.
-  Siksi suositellaan satunnaisesti generoidun salasanan käyttöä näiden riskien
-  minimoimiseksi.
-reviewed: false
+kysymys: Normaalin lapsiavainparin johdannaisen suorittamiseksi, minun täytyy syöttää HMAC-SHA512 funktioon...
+vastaus: vanhemman julkinen avain || indeksi, vanhemman ketjukoodi.
+väärät_vastaukset:
+  - vanhemman yksityinen avain || indeksi, vanhemman ketjukoodi.
+  - vanhemman yksityinen avain, vanhemman ketjukoodi.
+  - vanhemman yksityinen avain || indeksi.
+selitys: |
+  Normaalin lapsiavaimen johdannaisen luomiseksi käytetään vanhemman julkista avainta yhdessä indeksin ja ketjukoodin kanssa HMAC-SHA512 funktiossa.

@@ -1,9 +1,0 @@
-question: Qu'est-ce que la graine dans le contexte du portefeuille HD ?
-answer: Une séquence alphanumérique de 512 bits qui sert de base pour dériver les clés du portefeuille.
-wrong_answers:
-  - Un mot de passe utilisé pour sécuriser le portefeuille.
-  - Un identifiant unique pour le portefeuille.
-  - Un code utilisé pour générer la phrase mnémonique.
-explanation: |
-  La graine est une séquence alphanumérique de 512 bits qui sert de base pour dériver les clés du portefeuille. Elle est obtenue en utilisant la fonction pbkdf2 avec la phrase mnémonique et la phrase secrète.
-reviewed: false

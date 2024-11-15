@@ -1,11 +1,9 @@
-question: What determines whether a transaction is possible in a Lightning payment
-  channel?
-answer: The user sending the funds must have enough Bitcoin on their side of the channel
+question: In a payment channel, what is the "capacity" of the channel?
+answer: The total amount of funds that the two participants can exchange
 wrong_answers:
-  - The total capacity of the channel must be enough to cover the transaction
-  - The user receiving the funds must have enough Bitcoin on their side of the channel
-  - The transaction must be approved by the Bitcoin network
+  - The time limit for which the channel can remain open
+  - The maximum amount one participant can send in a single transaction
+  - The number of transactions a channel can support per day
 explanation: |
-  For a transaction to be possible in a Lightning payment channel, the
-  user sending the funds must have enough Bitcoin on their side of the channel.
+  The capacity of the channel corresponds to the total funds of the two participants and remains fixed to determine the possible exchanges.
 reviewed: false

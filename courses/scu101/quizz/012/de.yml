@@ -1,9 +1,0 @@
-question: Warum ist es wichtig, den öffentlichen Schlüssel der Website mithilfe eines Zertifikatsystems zu überprüfen?
-answer: Um die Echtheit der Website zu bestätigen.
-wrong_answers:
-  - Um geografische Beschränkungen zu umgehen.
-  - Um Online-Werbung zu blockieren.
-  - Um auf die Website zuzugreifen, ohne Daten zu verwenden.
-explanation: |
-  Die Überprüfung des öffentlichen Schlüssels der Website mithilfe eines Zertifikatsystems ist wichtig, um die Echtheit der Website zu bestätigen. Dies hilft, sich gegen bösartige Personen zu schützen, die sich als die Website ausgeben und Daten im Klartext übertragen.
-reviewed: false

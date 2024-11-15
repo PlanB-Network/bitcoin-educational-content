@@ -1,0 +1,11 @@
+question: Hva er market makers og takers i konteksten av ordrebøker?
+answer: Market makers er ordreleverandører og takers er ordremottakere.
+wrong_answers:
+  - Market makers er ordremottakere og takers er ordreleverandører.
+  - Market makers er ordrelagere og takers er ordremottakere.
+  - Market makers er ordremottakere og takers er ordrelagere.
+explanation: |
+  I konteksten av ordrebøker, er market makers de som leverer ordre og
+
+
+  takers er de som mottar ordre.

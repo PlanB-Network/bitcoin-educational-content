@@ -1,0 +1,9 @@
+pregunta: ¿Cómo se llama la rama de la criptografía que utiliza un par de claves pública y privada?
+respuesta: Criptografía asimétrica
+respuestas_incorrectas:
+  - Criptografía simétrica
+  - Criptografía mono-algorítmica
+  - Criptografía integrativa
+explicación: |
+  La criptografía asimétrica se basa en el uso de un par de claves, pública y privada, permitiendo la encriptación sin compartir una clave secreta.
+revisado: false

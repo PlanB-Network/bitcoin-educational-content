@@ -1,0 +1,9 @@
+kysymys: Mikä on pääsyy siihen, että muut Bealen koodit ovat edelleen ratkaisematta?
+vastaus: Näiden koodien avain on edelleen tuntematon
+väärät_vastaukset:
+  - Salatut tekstit ovat liian vanhoja
+  - Laatikko katosi ennen kuin sitä ehdittiin ratkaista
+  - Tutkijoilta puuttuu luotettavia historiallisia dokumentteja
+selitys: |
+  Muut Bealen koodit eivät ole koskaan ratkenneet, koska tarvittava avain niiden lukemiseen on edelleen tuntematon, lukuisista yrityksistä huolimatta.
+arvioitu: false

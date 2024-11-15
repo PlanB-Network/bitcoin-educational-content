@@ -1,11 +1,9 @@
-question: Co se stane, pokud se změní heslo Bitcoin peněženky?
-answer: Bitcoin peněženka se stane zcela odlišnou
-wrong_answers:
-  - Bitcoin peněženka se stane nedostupnou
-  - Bitcoin peněženka zůstane stejná
-  - Bitcoin peněženka přijde o všechny své bitcoiny
-explanation: |
-  Pokud dojde ke změně hesla, Bitcoin peněženka se stane zcela odlišnou,
-  protože heslo hraje roli při konstrukci a výpočtu všech klíčů
-  peněženky.
-reviewed: false
+otázka: Jak se počítá kontrolní součet adresy SegWit?
+odpověď: Pomocí BCH kódu.
+špatné_odpovědi:
+  - Pomocí HASH160.
+  - Pomocí HASH256.
+  - Pomocí SHA512.
+vysvětlení: |
+  Pro adresy SegWit se kontrolní součet počítá pomocí BCH kódu, což umožňuje detekci možných chyb v adrese.
+recenzováno: false

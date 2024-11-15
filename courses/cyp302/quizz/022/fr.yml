@@ -1,0 +1,9 @@
+question: Dans le chiffrement par décalage, quel est le résultat pour le mot "DOG" avec une clé de 17 ?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Avec un décalage de 17 dans l'alphabet, "D" devient "U", "O" devient "F" et "G" devient "X". Le mot chiffré est donc "UFX".
+reviewed: false

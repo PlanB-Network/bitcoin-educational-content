@@ -1,9 +1,9 @@
-question: Quel est le rôle des fonctions de hachage cryptographiques dans la vérification de l'intégrité des logiciels téléchargés ?
-answer: Elles agissent comme des sentinelles numériques, vérifiant l'intégrité des logiciels téléchargés.
+question: Au sein du protocole Bitcoin, qu'est-ce qu'un HASH256 ?
+answer: Un double hachage SHA256.
 wrong_answers:
-  - Elles chiffrent le logiciel pour le protéger des pirates informatiques.
-  - Elles compressent le logiciel pour réduire le temps de téléchargement.
-  - Elles génèrent une clé unique pour chaque téléchargement.
+  - Un double hachage Keccak-256.
+  - Un hachage SHA256 suivi d'un hachage RIPEMD160.
+  - Un simple hachage SHA256.
 explanation: |
-  Les fonctions de hachage cryptographiques jouent un rôle crucial dans la vérification de l'intégrité des logiciels téléchargés. En comparant le hachage du fichier téléchargé avec le hachage attendu, on peut vérifier que le fichier n'a pas été altéré.
+  Un HASH256 est un double hachage SHA256, ce qui signifie que la fonction SHA256 est appliquée une première fois à une donnée, puis une seconde fois sur le résultat de la première.
 reviewed: false

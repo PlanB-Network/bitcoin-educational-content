@@ -1,12 +1,8 @@
-question: What is the total number of possibilities for a Bitcoin private key?
-answer: Almost equal to 1.158 x 10^77
+question: How are key pairs determined in a Hierarchical Deterministic (HD) wallet?
+answer: All key pairs in the wallet are determined in a deterministic and hierarchical manner from a unique piece of information at the base of the wallet.
 wrong_answers:
-  - Exactly 2^256
-  - Between 1 and n-1
-  - Roughly the same number of atoms present in the observable universe
+  - All key pairs in the wallet are determined independently of others, randomly, by a random number generator.
+  - Each key pair in the wallet is determined deterministically from the previous key pair.
+  - The key pairs are all random and without hierarchical linkage.
 explanation: |
-  The total number of possibilities for a Bitcoin private key is almost
-  equal to 1.158 x 10^77, which is roughly the same number of atoms present in the
-  observable universe. This is because a private key must be between 1 and n-1, where
-  n represents the order of the elliptic curve.
-reviewed: false
+  In HD wallets, all keys are derived from a unique piece of information called a "seed," which allows for hierarchical and deterministic management of keys.

@@ -1,0 +1,9 @@
+domanda: In quale unità viene misurata la hash rate della rete durante il secondo semestre dell'anno 2010?
+risposta: In GH/s
+risposte_errate:
+  - In MH/s
+  - In TH/s
+  - In PH/s
+spiegazione: |
+  La hash rate è aumentata da 1,35 GH/s il 13 luglio a 120 GH/s il 31 dicembre 2010.
+revisionato: false

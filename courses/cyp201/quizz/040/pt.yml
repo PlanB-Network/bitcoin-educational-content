@@ -1,9 +1,8 @@
-question: Qual é a importância de usar um nonce único no algoritmo ECDSA?
-answer: Isso ajuda a evitar ataques de segurança.
-wrong_answers:
-  - Isso aumenta a velocidade do algoritmo.
-  - Isso reduz a complexidade computacional.
-  - É necessário para o funcionamento do algoritmo.
-explanation: |
-  O uso de um nonce único no algoritmo ECDSA é crucial para manter a segurança. Reutilizar um nonce pode levar a vulnerabilidades, como demonstrado pelo hack do PlayStation 3, que foi comprometido devido à reutilização de nonce.
-reviewed: false
+pergunta: Qual é a característica única da lista de 2048 palavras que permite a codificação mnemônica?
+resposta: Nenhuma palavra tem as mesmas primeiras quatro letras na mesma ordem.
+respostas_erradas:
+  - Nenhuma palavra tem as mesmas últimas três letras.
+  - Nenhuma palavra começa com a letra “J”.
+  - Nenhuma palavra tem mais de seis letras.
+explicação: |
+  Esta característica ajuda a evitar qualquer ambiguidade ao inserir as palavras, garantindo assim a unicidade de cada palavra na lista, ao mesmo tempo que reduz o espaço de armazenamento necessário.

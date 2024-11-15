@@ -1,0 +1,9 @@
+câu hỏi: Hàm nào được sử dụng để tính số lượng số nguyên tố cùng nhau với một số nguyên N?
+câu trả lời: Hàm Phi của Euler
+câu trả lời sai:
+  - Hàm lôgarit
+  - Hàm Gamma của Euler
+  - Hàm Gauss
+giải thích: |
+  Hàm Phi của Euler (hoặc hàm totient) được sử dụng để tính số lượng số nguyên tố cùng nhau của một số nguyên N, đặc biệt là đối với các số nguyên không phải là số nguyên tố.
+đã xem xét: false

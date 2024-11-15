@@ -1,0 +1,8 @@
+pertanyaan: Mekanisme apa yang digunakan oleh platform pencocokan peer-to-peer (P2P) online untuk mengurangi risiko pencurian?
+jawaban: Mekanisme escrow.
+jawaban_salah:
+  - Algoritma pencocokan yang aman.
+  - Mekanisme verifikasi email.
+  - Mekanisme verifikasi identitas.
+penjelasan: |
+  Platform ini biasanya menggunakan mekanisme perlindungan di mana bitcoin ditahan sampai penjual mengonfirmasi pembayaran dalam mata uang fiat. Mekanisme penahanan oleh pihak ketiga ini mewakili apa yang dikenal sebagai escrow.

@@ -1,0 +1,9 @@
+câu hỏi: Tính chất giao hoán của phép toán XOR là gì?
+câu trả lời: Thứ tự của các toán hạng không ảnh hưởng đến kết quả của phép toán
+câu trả lời sai:
+  - XOR chỉ hoạt động với các số chẵn
+  - XOR yêu cầu các toán hạng có độ dài giống nhau
+  - Vị trí của các bit trong các toán hạng không ảnh hưởng đến kết quả của phép toán
+giải thích: |
+  XOR có tính chất giao hoán, nghĩa là a XOR b bằng với b XOR a.
+đã xem xét: false

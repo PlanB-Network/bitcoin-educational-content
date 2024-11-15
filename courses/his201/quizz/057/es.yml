@@ -1,0 +1,9 @@
+pregunta: ¿Qué minero alemán poseyó el 20% de la tasa de hash de la red Bitcoin durante varios meses en 2010?
+respuesta: ArtForz
+respuestas_incorrectas:
+  - tcatm
+  - m0mchil
+  - knightmb
+explicación: |
+  Configuró una granja de minería compuesta por tarjetas gráficas (llamada "ArtFarm") durante el verano de 2010, obteniendo así una ventaja significativa sobre sus competidores para el otoño.
+revisado: false

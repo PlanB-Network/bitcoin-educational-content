@@ -1,0 +1,8 @@
+pertanyaan: Apa peran dari "nonce" dalam skema enkripsi terautentikasi?
+jawaban: Memastikan setiap pesan memiliki tag unik untuk mencegah pengulangan
+jawaban_salah:
+  - Mengidentifikasi pengirim pesan
+  - Membuat kunci dekripsi sementara
+  - Menambahkan lapisan enkripsi tambahan
+penjelasan: |
+  Dalam skema enkripsi terautentikasi, "nonce" digunakan untuk memastikan bahwa setiap pesan memiliki tag unik, dengan demikian meningkatkan keamanan dengan mencegah pengulangan.

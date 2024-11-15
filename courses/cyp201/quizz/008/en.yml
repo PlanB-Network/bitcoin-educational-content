@@ -1,13 +1,9 @@
-question: What happens if even a slightly deviating input is given to a cryptographic
-  hash function?
-answer: It significantly alters the final hash.
+question: How many rounds does the SHA256 compression function consist of?
+answer: 64 rounds.
 wrong_answers:
-  - It produces the same hash.
-  - It causes the hash function to fail.
-  - It slows down the computation of the hash.
+  - 10 rounds.
+  - 128 rounds.
+  - 150 rounds.
 explanation: |
-  Cryptographic hash functions are designed in such a way that even a slight
-  deviation in the input significantly alters the final hash. This property is crucial
-  for the security of the hash function, as it makes it extremely difficult to find
-  a different input that produces the same hash.
+  The SHA256 compression function performs 64 rounds for each block of data processed.
 reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è la relazione tra la chiave privata principale e le chiavi estese del portafoglio?
-answer: La chiave privata principale è la prima chiave privata derivata dal seed e non ha alcuna connessione con le chiavi estese del portafoglio.
-wrong_answers:
-  - La chiave privata principale è derivata dalle chiavi estese del portafoglio.
-  - La chiave privata principale è la stessa delle chiavi estese del portafoglio.
-  - La chiave privata principale viene utilizzata per generare le chiavi estese del portafoglio.
-explanation: |
-  La chiave privata principale è la prima chiave privata derivata dal seed e non ha alcuna connessione con le chiavi estese del portafoglio.
-reviewed: false

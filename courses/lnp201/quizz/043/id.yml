@@ -1,0 +1,9 @@
+pertanyaan: Informasi apa yang dapat Bob sertakan dalam faktur untuk memfasilitasi perutean?
+jawaban: Saluran terdekat dengan likuiditas yang cukup atau keberadaan saluran pribadi
+jawaban_salah:
+  - Kunci pribadi dari node-node perantara
+  - Peta lengkap dari semua saluran jaringan
+  - Jumlah eksak likuiditas yang tersedia untuk setiap saluran
+penjelasan: |
+  Dengan menunjukkan saluran terdekat dengan likuiditas atau mengungkapkan saluran pribadi, Bob membantu Alice untuk memilih rute dengan probabilitas keberhasilan yang lebih baik.
+ditinjau: false

@@ -1,9 +1,0 @@
-question: Mikä on suositeltu käytäntö salasananhallintaohjelman pääsalasanan hallinnoimiseksi?
-answer: Kirjoita se paperille ja säilytä piilotettuna ja turvallisessa paikassa.
-wrong_answers:
-  - Säilytä sitä sähköpostissasi.
-  - Käytä samaa salasanaa kaikille tileille.
-  - Opettele se ulkoa.
-explanation: |
-  On suositeltavaa kirjoittaa salasananhallintaohjelman pääsalasana paperille, mutta se tulisi säilyttää piilotettuna ja turvallisessa paikassa. Tämä johtuu siitä, että jos kiintolevy on salattu ja tietokone lukittu, salasana ei ole saavutettavissa, edes murron yhteydessä.
-reviewed: false

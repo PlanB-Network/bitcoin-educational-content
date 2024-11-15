@@ -1,9 +1,9 @@
-question: ¿Quiénes son los dos pares involucrados en la transferencia de la Red Lightning en el ejemplo?
-answer: Alice y Bob.
-wrong_answers:
-  - Alice y Charlie.
-  - Bob y Charlie.
-  - Alice y la red de Bitcoin.
-explanation: |
-  En el ejemplo, Alice y Bob son los dos pares involucrados en la transferencia de la Red Lightning.
-reviewed: false
+pregunta: ¿Qué puede hacer Bob si detecta un intento de Alice de hacer trampa durante el cierre del canal?
+respuesta: Usar la llave de revocación para recuperar todos los fondos
+respuestas_incorrectas:
+  - Cancelar la transacción de compromiso de Alice
+  - Cerrar permanentemente el canal sin opción de reabrirlo
+  - Reclamar solo la mitad de los fondos disponibles
+explicación: |
+  En el evento de hacer trampa, Bob puede usar la llave de revocación para recuperar todos los fondos del canal, castigando así a Alice por su intento.
+revisado: false

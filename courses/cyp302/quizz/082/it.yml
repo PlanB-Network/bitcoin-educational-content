@@ -1,0 +1,9 @@
+domanda: Perché il cifrario a pad monouso è considerato un metodo di crittografia sicuro?
+risposta: Perché ogni bit della chiave è casuale e nessuna parte viene riutilizzata
+risposte_errate:
+  - Perché utilizza una chiave pubblica e privata casuale
+  - Perché si basa sui numeri primi
+  - Perché cripta solo messaggi piccoli
+spiegazione: |
+  Il cifrario a pad monouso è sicuro perché ogni bit della chiave è casuale e non viene mai riutilizzato, assicurando che non lasci tracce sfruttabili da un attaccante.
+recensito: false

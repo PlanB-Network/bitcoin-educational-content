@@ -1,9 +1,9 @@
-question: Jak se určuje velikost kontrolního součtu při generování mnemonické fráze pro Bitcoinovou peněženku?
-answer: Dělením velikosti entropie číslem 32.
-wrong_answers:
-  - Násobením velikosti entropie číslem 32.
-  - Přičtením 32 k velikosti entropie.
-  - Odečtením 32 od velikosti entropie.
-explanation: |
-  Velikost kontrolního součtu se určuje dělením velikosti entropie číslem 32. Například 256bitová entropie generuje 8bitový kontrolní součet.
-reviewed: false
+otázka: Co znamená následující odvozovací cesta? m/84'/0'/1'/0/7
+odpověď: Externí adresa SegwitV0 na hlavní síti.
+špatné_odpovědi:
+  - Externí adresa SegwitV1 na hlavní síti.
+  - Interní Legacy adresa na testovací síti.
+  - Externí Legacy adresa na hlavní síti.
+vysvětlení: |
+  Odvozovací cesta m/84'/0'/1'/0/7 označuje externí adresu SegwitV0 na hlavní síti (mainnet). 84' = SegWit v0, 0' = hlavní síť, 1 = externí
+recenzováno: false

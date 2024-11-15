@@ -1,0 +1,8 @@
+otázka: Jak funguje dešifrování v Caesarově šifře?
+odpověď: Odečtením klíče od každého zašifrovaného písmene a aplikací modulo 26
+špatné_odpovědi:
+  - Odečtením klíče od každého zašifrovaného písmene a aplikací modulo 20
+  - Vynásobením klíče s každým zašifrovaným písmenem
+  - Dělením klíče od každého zašifrovaného písmene a aplikací modulo 27
+vysvětlení: |
+  V Caesarově šifře se dešifrování provádí odečtením klíče od každého zašifrovaného písmene, poté se aplikuje modulo 26 pro návrat k původnímu textu. Modulo 26 umožňuje vrátit se na začátek abecedy po písmenu "Z".

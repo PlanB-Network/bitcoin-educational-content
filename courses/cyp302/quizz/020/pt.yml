@@ -1,0 +1,8 @@
+question: O que a operação "módulo" representa em matemática?
+answer: O resto de uma divisão
+wrong_answers:
+  - O quociente de uma divisão
+  - Duas vezes o número inicial
+  - O número que divide sem resto
+explanation: |
+  A operação de módulo envolve determinar o resto de uma divisão, por exemplo, 25 mod 4 é igual a 1 porque o resto da divisão é 1.

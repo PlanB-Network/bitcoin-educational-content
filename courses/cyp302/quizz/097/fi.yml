@@ -1,0 +1,8 @@
+kysymys: Miksi pelkkä luottamuksellisuus ei riitä varmistamaan turvallista viestintää?
+vastaus: Koska hyökkääjä voi silti välittää ja muuttaa viestiä ymmärtämättä sen sisältöä.
+väärät_vastaukset:
+  - Koska luottamuksellisuuden saavuttaminen on liian vaikeaa.
+  - Koska yksityiset avaimet voi arvata helposti.
+  - Koska viestejä ei voida todentaa ilman digitaalista allekirjoitusta.
+selitys: |
+  Luottamuksellisuus suojaa viestien sisältöä, mutta ilman MAC:ia hyökkääjä voisi silti välittää ja muuttaa viestiä ymmärtämättä sitä, mikä vaarantaa viestinnän eheyden.

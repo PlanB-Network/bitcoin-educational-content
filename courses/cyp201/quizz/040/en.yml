@@ -1,11 +1,9 @@
-question: What is the significance of using a unique nonce in the ECDSA algorithm?
-answer: It helps to avoid security attacks.
+question: What is the unique feature of the list of 2048 words allowing for mnemonic encoding?
+answer: No word has the same first four letters in the same order.
 wrong_answers:
-  - It increases the speed of the algorithm.
-  - It reduces the computational complexity.
-  - It is required for the algorithm to function.
+  - No word has the same last three letters.
+  - No word starts with the letter “J”.
+  - No word is more than six letters long.
 explanation: |
-  The use of a unique nonce in the ECDSA algorithm is crucial for maintaining
-  security. Reusing a nonce can lead to vulnerabilities, as demonstrated by the PlayStation
-  3 hack, which was compromised due to nonce reuse.
+  This feature helps to avoid any ambiguity when entering the words, thus ensuring the uniqueness of each word in the list, while also reducing the necessary storage space.
 reviewed: false

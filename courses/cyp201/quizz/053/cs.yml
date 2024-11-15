@@ -1,9 +1,9 @@
-question: Jaká je délka soukromých klíčů v Bitcoinové peněžence?
-answer: 256 bitů
-wrong_answers:
-  - 128 bitů
-  - 512 bitů
-  - 1024 bitů
-explanation: |
-  Soukromé klíče v Bitcoinové peněžence, které jsou nezbytné pro vlastnictví kryptoměny, mají pevnou délku 256 bitů.
-reviewed: false
+otázka: Jaké informace jsou vypočítány z seedu aplikací HMAC-SHA512?
+odpověď: Hlavní klíč a hlavní řetězový kód peněženky.
+špatné_odpovědi:
+  - Rozšířený klíč peněženky.
+  - Xpub a xprv peněženky.
+  - Podpisový kód soukromého klíče.
+vysvětlení: |
+  Z seedu je pomocí HMAC-SHA512 odvozen hlavní klíč a hlavní řetězový kód, které jsou základem pro generování klíčů.
+recenzováno: false

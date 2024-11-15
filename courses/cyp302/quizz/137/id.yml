@@ -1,0 +1,9 @@
+pertanyaan: Mengapa kata sandi sering disimpan sebagai hash di server yang aman?
+jawaban: Untuk mencegah kata sandi dapat dengan mudah diambil jika terjadi kebocoran
+jawaban_salah:
+  - Untuk meningkatkan ukuran penyimpanan data pengguna
+  - Untuk mengenkripsi kata sandi secara real-time dengan cara simetris
+  - Untuk memungkinkan pengguna masuk tanpa kata sandi
+penjelasan: |
+  Dengan menyimpan hash kata sandi, bahkan dalam kejadian kebocoran data, kata sandi aktual tidak dapat dibaca secara langsung, sehingga meningkatkan keamanan.
+ditinjau: false

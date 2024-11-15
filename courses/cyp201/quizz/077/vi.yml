@@ -1,11 +1,8 @@
-question: Đặc điểm của một cụm mật khẩu hiệu quả cho ví Bitcoin là gì?
-answer: Dài (20 đến 40 ký tự) và đa dạng (sử dụng chữ cái in hoa, chữ cái thường, số và ký tự)
-wrong_answers:
-  - Ngắn và đơn giản
-  - Dài và đơn giản
-  - Ngắn và đa dạng
-explanation: |
-  Một cụm mật khẩu hiệu quả nên dài (20 đến 40 ký tự) và đa dạng
-  (sử dụng chữ cái in hoa, chữ cái thường, số và ký tự). Nó không nên
-  liên quan trực tiếp đến người dùng hoặc môi trường xung quanh của họ.
-reviewed: false
+câu hỏi: Checksum của một địa chỉ Legacy được tính toán như thế nào?
+câu trả lời: Với HASH256.
+câu trả lời sai:
+  - Với HASH160.
+  - Với một mã BCH.
+  - Với RIPEMD160.
+giải thích: |
+  Đối với các địa chỉ Legacy, checksum được thu được bằng cách thực hiện một phép băm kép với hàm SHA256 (HASH256).

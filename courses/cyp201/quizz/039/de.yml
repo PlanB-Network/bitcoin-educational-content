@@ -1,9 +1,9 @@
-question: Worauf basiert die Sicherheit von öffentlichen und privaten Schlüsseln?
-answer: Das diskrete Logarithmusproblem
-wrong_answers:
-  - Das Primfaktorisierungsproblem
-  - Das Rucksackproblem
-  - Das Problem des Handlungsreisenden
-explanation: |
-  Die Sicherheit von öffentlichen und privaten Schlüsseln beruht auf dem diskreten Logarithmusproblem, einer komplexen mathematischen Fragestellung.
-reviewed: false
+Frage: Was sind die Merkmale eines kryptographisch sicheren PRNGs?
+Antwort: Er muss unvorhersehbar, statistisch zufällig und widerstandsfähig gegen Angriffe sein.
+falsche_Antworten:
+  - Er muss schnell sein, in der Cloud nutzbar und Open Source.
+  - Er muss nicht-deterministisch sein, auf einem physischen Phänomen basieren und skalierbar sein.
+  - Er muss hardwarebasiert sein, von einem Prozessor erzeugt und umkehrbar sein.
+Erklärung: |
+  Ein kryptographisch sicherer PRNG muss unvorhersehbar sein, widerstandsfähig, selbst wenn einige Ergebnisse enthüllt werden, und eine ausreichend lange Periode haben, um die Wiederholung von Sequenzen zu vermeiden.
+überprüft: false

@@ -1,9 +1,9 @@
-question: Was während einer Transaktion passiert
-answer: Das Geheimnis der Transaktion
-wrong_answers:
-  - Das Geheimnis der Transaktion
-  - Ein neues Geheimnis wird festgelegt und ein neuer Widerrufsschlüssel wird erstellt.
-  - Die vorherige Verpflichtungstransaktion wird mit dem neuen Geheimnis und Widerrufsschlüssel aktualisiert.
-explanation: |
-  Während der Transaktion
-reviewed: false
+Frage: Was passiert, wenn ein Kanal mit einem aktiven HTLC gewaltsam geschlossen wird?
+Antwort: Das HTLC wird in den Commitment-Transaktionen als Ausgabe aufgenommen.
+falsche_Antworten:
+  - Das HTLC wird automatisch abgebrochen.
+  - Die Mittel werden an die vorherigen Knoten neu verteilt.
+  - Der Kanal kann nicht geschlossen werden, bis das HTLC abgelaufen ist.
+Erklärung: |
+  Bei einem erzwungenen Schließen werden ausstehende HTLCs als Ausgaben in den Commitment-Transaktionen dargestellt, wodurch ihre Ausführung oder Rückgabe gemäß den definierten Bedingungen sichergestellt wird.
+überprüft: false

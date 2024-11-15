@@ -1,0 +1,9 @@
+kysymys: Kuka henkilö reagoi positiivisesti valkoisen kirjan julkaisuun marraskuussa 2008?
+vastaus: Hal Finney
+vaarat_vastaukset:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+selitys: |
+  Marraskuun 7. päivänä hän kirjoitti listalle, että "Bitcoin [vaikutti] olevan erittäin lupaava idea". Muut olivat skeptisempiä. (https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+arvioitu: false

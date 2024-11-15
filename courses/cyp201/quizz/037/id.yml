@@ -1,0 +1,8 @@
+pertanyaan: Mengapa penting untuk menggunakan sumber entropi yang baik untuk menghasilkan kunci privat?
+jawaban: Entropi yang buruk dapat membuat kunci privat menjadi dapat diprediksi dan rentan terhadap serangan.
+jawaban_salah:
+  - Entropi yang baik membantu mengoptimalkan kinerja dompet.
+  - Entropi tidak berperan dalam keamanan kunci privat.
+  - Entropi yang buruk memperlambat transaksi.
+penjelasan: |
+  Jika entropi yang digunakan untuk menghasilkan kunci privat rendah, hal itu dapat memungkinkan penyerang untuk menebak atau menghitung kunci-kunci tersebut, sehingga mengompromikan keamanan dompet.

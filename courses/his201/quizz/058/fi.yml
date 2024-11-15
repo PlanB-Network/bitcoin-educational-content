@@ -1,0 +1,9 @@
+kysymys: Missä yksikössä verkon hashrate mitattiin vuoden 2010 toisella puoliskolla?
+vastaus: GH/s:ssä
+väärät_vastaukset:
+  - MH/s:ssä
+  - TH/s:ssä
+  - PH/s:ssä
+selitys: |
+  Hashrate kasvoi 1,35 GH/s:stä 13. heinäkuuta 120 GH/s:ään 31. joulukuuta 2010 mennessä.
+arvioitu: false

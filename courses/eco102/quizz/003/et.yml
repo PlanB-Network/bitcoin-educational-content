@@ -1,0 +1,9 @@
+question: Millist keskset teemat arendab Bastiat oma raamatus "Seadus"?
+answer: Võitlus seadusliku röövimise vastu ja omandi kaitse
+wrong_answers:
+  - Sotsiaalsete õiguste ja avalike teenuste kaitsmine
+  - Klassikalise hariduse eeliste uurimine
+  - Tööstusrevolutsiooni kriitika
+explanation: |
+  Raamatus "Seadus" võrdleb Bastiat seaduslikku röövimist omandiga ja pooldab vabadust kui lahendust sotsiaalsetele probleemidele.
+reviewed: false

@@ -1,0 +1,9 @@
+pregunta: Según el teorema de Euler, ¿cuál es el resultado de la exponenciación a^ϕ(N) mod N para dos enteros a y N que son coprimos?
+respuesta: 1 mod N
+respuestas_incorrectas:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explicación: |
+  El teorema de Euler establece que para dos enteros a y N que son coprimos, la exponenciación a^ϕ(N) mod N siempre es igual a 1 mod N, una propiedad utilizada en criptografía.
+revisado: false

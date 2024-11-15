@@ -1,0 +1,13 @@
+Frage: Was zeigt die Entropie im Kontext der Kettenanalyse bei Bitcoin an?
+
+Antwort: Das Fehlen von Wissen der Analysten über die genaue Konfiguration der Transaktion.
+
+Falsche Antworten:
+  - Die Geschwindigkeit, mit der Informationen über eine Transaktion im Netzwerk verbreitet werden.
+  - Das Niveau der kryptografischen Sicherheit der in der Transaktion verwendeten digitalen Signaturen.
+  - Die Größe der Gruppe identischer UTXOs, in denen eine Münze versteckt ist.
+
+Erklärung: |
+  Entropie wird verwendet, um das Fehlen von Wissen der Analysten über die genaue Konfiguration der Transaktion zu messen. Mit anderen Worten, je höher die Entropie, desto schwieriger wird es für Analysten, die Flüsse von Bitcoins zwischen Eingängen und Ausgängen zu identifizieren.
+
+Überprüft: false

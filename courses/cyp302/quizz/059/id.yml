@@ -1,0 +1,8 @@
+pertanyaan: Matematikawan Prancis mana yang memperkenalkan konsep grup pada abad ke-19?
+jawaban: Évariste Galois
+jawaban_salah:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+penjelasan: |
+  Évariste Galois mengembangkan teori grup untuk mempelajari solusi dari persamaan polinomial derajat lebih dari lima.

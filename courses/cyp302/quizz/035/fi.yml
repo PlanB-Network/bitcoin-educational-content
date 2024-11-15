@@ -1,0 +1,9 @@
+kysymys: Mikä on lukuteorian päätavoite?
+vastaus: Tutkia kokonaislukujen ominaisuuksia ja niiden kanssa toimivia funktioita
+vaarat_vastaukset:
+  - Geometristen muunnosten analysointi
+  - Satunnaisten geometristen kuvioiden rakenteen tutkiminen äärellisessä ryhmässä
+  - Symmetristen salausalgoritmien kehittäminen
+selitys: |
+  Lukuteoria keskittyy kokonaislukujen ominaisuuksien ja kokonaislukuihin sovellettavien funktioiden tutkimiseen, usein sovelluksina kryptografiassa, erityisesti julkisen avaimen kryptografian yhteydessä.
+arvioitu: false

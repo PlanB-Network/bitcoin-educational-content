@@ -1,0 +1,9 @@
+question: Hva er en mottaksadresse (generelt)?
+answer: En hash av en offentlig nøkkel med metadata satt inn i et spesifikt format.
+wrong_answers:
+  - En hash av en privat nøkkel med metadata satt inn i et spesifikt format.
+  - En hash av en utvidet nøkkel med metadata satt inn i et spesifikt format.
+  - En hash av en kjedekode med metadata.
+explanation: |
+  En mottaksadresse er generelt en hash av en offentlig nøkkel assosiert med metadata, brukt i en scriptPubKey for å etablere betingelser.
+reviewed: false

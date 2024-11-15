@@ -1,0 +1,9 @@
+küsimus: Mis on "HMAC"?
+vastus: Sõnumi autentimiskood, mis põhineb räsifunktsioonil
+valed_vastused:
+  - Asümmeetriline krüpteerimisalgoritm, mis põhineb räsifunktsioonil
+  - Asümmeetriline krüpteerimisalgoritm, mis põhineb Diffie-Hellmanil
+  - Sõnumi autentimiskood, mis põhineb Diffie-Hellmanil
+selgitus: |
+  HMAC on sõnumi autentimiskood, mis kasutab räsifunktsiooni, nagu näiteks SHA-256, et luua märgis, mis kinnitab sõnumi terviklikkust ja autentsust.
+üle vaadatud: false

@@ -1,0 +1,9 @@
+pertanyaan: Apa yang memungkinkan pengguna melakukan dengan fitur "LNURL-withdraw"?
+jawaban: Menarik dana dari sebuah layanan dengan memindai kode QR
+jawaban_salah:
+  - Melakukan pembayaran langsung tanpa biaya perutean
+  - Menghubungkan dompet Lightning mereka tanpa kata sandi
+  - Mengirim dana tanpa konfirmasi penerima
+penjelasan: |
+  LNURL-withdraw memungkinkan pengguna untuk menarik dana dari sebuah layanan dengan memindai kode QR, sehingga mempermudah proses penarikan.
+ditinjau: false

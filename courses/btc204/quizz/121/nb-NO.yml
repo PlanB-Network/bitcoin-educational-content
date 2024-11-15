@@ -1,0 +1,13 @@
+question: Hvordan fungerer "stem"-fasen i Dandelion-protokollen?
+
+answer: Transaksjonen sendes gjennom en tilfeldig sti av noder
+
+wrong_answers:
+  - Transaksjonen blir umiddelbart kringkastet til alle naboene til kildenoden
+  - Transaksjonen blir midlertidig lagret i en sentral node før den blir kringkastet
+  - Transaksjonen blir kryptert inkrementelt ved hvert trinn av kringkastingen
+
+explanation: |
+  Dandelion bruker først en "stem"-fase hvor transaksjonen sendes gjennom en tilfeldig sti av noder. Transaksjonen blir deretter kringkastet til hele nettverket i "fluff"-fasen.
+
+reviewed: false

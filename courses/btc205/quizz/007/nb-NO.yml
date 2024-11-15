@@ -1,0 +1,8 @@
+question: Hva er risikoen forbundet med anvendelsen av KYC?
+answer: Sentralisering av sensitive databaser som inneholder personlig brukerinformasjon.
+wrong_answers:
+  - Desentralisering av sensitive databaser som inneholder personlig brukerinformasjon.
+  - Sentralisering av ikke-sensitive databaser som inneholder personlig brukerinformasjon.
+  - Desentralisering av ikke-sensitive databaser som inneholder personlig brukerinformasjon.
+explanation: |
+  Anvendelsen av KYC fører til sentralisering av svært sensitive databaser som inneholder personlig brukerinformasjon. Denne informasjonen, som har en viss verdi, kan selges til ondsinnede enheter.

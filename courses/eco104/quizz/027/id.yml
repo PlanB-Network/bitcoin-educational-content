@@ -1,0 +1,10 @@
+pertanyaan: Berapa persentase dari total volume transaksi Bitcoin yang digunakan untuk aktivitas ilegal?
+jawaban: Kurang dari 1%
+jawaban_salah:
+  - 2-4%
+  - Lebih dari 5%
+  - Tidak diketahui
+penjelasan: |
+  Menurut laporan oleh Chainalysis pada tahun 2020, aktivitas ilegal hanya 
+  mencakup sekitar 0,34% dari semua transaksi Bitcoin.
+ditinjau: true

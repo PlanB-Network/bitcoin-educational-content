@@ -1,0 +1,9 @@
+question: Mikä on Adam Smithin kirjan nimi?
+answer: "Tutkimus kansojen varallisuuden luonteesta ja syistä."
+wrong_answers:
+  - "Tutkimus kansojen varallisuuden luonteesta ja hengestä."
+  - "Tutkimus kansojen varallisuuden luonteesta ja alkuperästä."
+  - "Tutkimus kansojen varallisuuden syystä ja alkuperästä."
+explanation: |
+  Adam Smithin kirjan täysi nimi, "Tutkimus kansojen varallisuuden luonteesta ja syistä," korostaa hänen analyysiaan taloudellisen vaurauden edistäviin tekijöihin, tutkien varallisuuden tuotannon ja jakelun mekanismeja.
+reviewed: false

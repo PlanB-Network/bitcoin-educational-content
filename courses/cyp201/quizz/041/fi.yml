@@ -1,9 +1,9 @@
-question: Mikä on elliptisen käyrän rooli julkisten ja yksityisten avainten luomisessa?
-answer: Sitä käytetään turvallisten julkisten ja yksityisten avainten luomiseen.
-wrong_answers:
-  - Sitä käytetään avainten salaamiseen.
-  - Sitä käytetään avainten tallentamiseen.
-  - Sitä käytetään avainten lähettämiseen.
-explanation: |
-  Elliptinen käyrä on matemaattinen rakennelma, jota käytetään turvallisten julkisten ja yksityisten avainten luomisessa. Satunnainen numero, jota usein kutsutaan nonceksi, valitaan yksityiseksi avaimiksi ja sitä käytetään elliptisen käyrän yhtälössä vastaavan julkisen avaimen luomiseen.
-reviewed: false
+kysymys: Jos generoin 128-bittisen satunnaisluvun, kuinka monta sanaa palautusfraasini tulee olemaan?
+vastaus: 12 sanaa.
+väärät_vastaukset:
+  - 6 sanaa.
+  - 8 sanaa.
+  - 24 sanaa.
+selitys: |
+  128-bittinen satunnaisluku vastaa 12 sanan muistisanaista fraasia, noudattaen BIP39-standardia.
+arvioitu: false

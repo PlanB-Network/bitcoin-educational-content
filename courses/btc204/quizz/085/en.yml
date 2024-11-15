@@ -1,0 +1,13 @@
+question: What is the specific user matching model used by JoinMarket?
+
+answer: P2P market between makers and takers.
+
+wrong_answers:
+  - Server that randomly assigns participants.
+  - Exchanges based on Dutch auctions.
+  - Mediation service that manually selects participants.
+
+explanation: |
+  JoinMarket operates on a P2P exchange market where some users, the "makers", offer their bitcoins for mixing, while others, the "takers", use these funds to perform coinjoins in exchange for a fee.
+
+reviewed: false

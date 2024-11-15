@@ -13,7 +13,7 @@ Do you want to add a new Bitcoin "builder" to the PlanB Network site and give vi
 https://planb.network/tutorials/others/create-github-account
 
 
-- Go to [the GitHub repository of PlanB dedicated to data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) in the `resources/builder/` section:
+- Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) in the `resources/builder/` section:
 ![builder](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:
 ![builder](assets/03.webp)

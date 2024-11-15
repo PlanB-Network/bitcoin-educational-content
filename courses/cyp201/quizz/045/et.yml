@@ -1,0 +1,8 @@
+question: Mida esindab parool HD rahakotis?
+answer: Valikuline krüptograafiline sool suvalise suurusega.
+wrong_answers:
+  - 25. sõna mnemoonilises fraasis.
+  - Kohustuslik krüptograafiline sool fikseeritud suurusega.
+  - Teine seeme.
+explanation: |
+  Parool on valikuline krüptograafiline sool, mis suurendab rahakoti turvalisust, lisades mnemoonilisele fraasile täiendavat teavet, et määrata seeme.

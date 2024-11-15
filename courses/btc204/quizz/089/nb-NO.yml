@@ -1,0 +1,11 @@
+question: Hvordan kompenseres "makers" i JoinMarket?
+
+answer: Gjennom gebyrer betalt av "takers".
+
+wrong_answers:
+  - Gjennom mininggebyrer.
+  - Gjennom frivillige donasjoner fra "takers".
+  - Gjennom stipender fra Bitcoin-samfunnet.
+
+explanation: |
+  "Makers" lar sine bitcoins være tilgjengelige for "takers" og mottar gebyrer som betaling for tjenesten sin. "Takers", på sin side, betaler for å bruke bitcoinsene til "makers" for å gjennomføre sine egne coinjoin-transaksjoner.

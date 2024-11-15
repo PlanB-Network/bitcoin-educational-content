@@ -1,0 +1,11 @@
+question: Hva var formålet med "Notgeld" under den økonomiske krisen i Tyskland?
+answer: Det var designet for å adressere en mangel på vanlig valuta.
+wrong_answers:
+  - Det ble brukt til å betale krigserstatninger.
+  - Det var en form for protest mot regjeringen.
+  - Det var en måte å stimulere økonomien på.
+explanation: |
+  I møte med den monetære og økonomiske krisen, tydde Tyskland til "Notgeld"
+  (nødvaluta). Disse sedlene, trykket av byer eller visse selskaper, var designet
+  for å adressere en mangel på vanlig valuta.
+reviewed: false

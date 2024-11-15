@@ -1,9 +1,0 @@
-question: ¿Por qué no se recomienda utilizar variaciones o adiciones a las contraseñas?
-answer: No son seguras y pueden ser fácilmente adivinadas.
-wrong_answers:
-  - Son demasiado largas y complejas.
-  - Son difíciles de recordar.
-  - No son permitidas por la mayoría de los servicios en línea.
-explanation: |
-  Las variaciones o adiciones a las contraseñas no son seguras porque pueden ser fácilmente adivinadas. Es mejor utilizar contraseñas completamente aleatorias que no sigan patrones predecibles.
-reviewed: false

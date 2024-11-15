@@ -1,0 +1,9 @@
+question: When was the actual launch of the Bitcoin prototype network in 2009?
+answer: January 9, 2009, at 02:54:25 UTC
+wrong_answers:
+  - January 3, 2009, at 18:15:05 UTC
+  - January 8, 2009, at 19:27:40 UTC
+  - January 12, 2009, at 03:30:25 UTC
+explanation: |
+  This is the timestamp of block 1 of the blockchain, mined by Satoshi Nakamoto after having published the software code on the mailing list a few hours earlier. The genesis block (0) was created between January 3 and 8, but there was no actual network per se.
+reviewed: false

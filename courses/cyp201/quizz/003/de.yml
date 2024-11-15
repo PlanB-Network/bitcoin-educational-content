@@ -1,9 +1,9 @@
-question: Warum gelten SHA0, SHA1 und MD5 als veraltete Hash-Funktionen?
-answer: Sie haben ihre Kollisionsresistenz verloren.
-wrong_answers:
-  - Sie sind zu langsam in der Berechnung.
-  - Sie erzeugen zu große Fingerabdrücke.
-  - Sie sind nicht umkehrbar.
-explanation: |
-  SHA0, SHA1 und MD5 gelten als veraltete Hash-Funktionen, weil sie ihre Kollisionsresistenz verloren haben. Das bedeutet, dass es relativ einfach ist, zwei verschiedene Eingaben zu finden, die den gleichen Ausgabewert erzeugen, was ein erheblicher Sicherheitsmangel ist.
-reviewed: false
+Frage: Innerhalb des Bitcoin-Protokolls, was ist ein HASH160?
+Antwort: Ein SHA256-Hash gefolgt von einem RIPEMD160-Hash.
+falsche_Antworten:
+  - Ein doppelter RIPEMD160-Hash.
+  - Ein doppelter SHA256-Hash.
+  - Ein MD5-Hash gefolgt von einem SHA256-Hash.
+Erklärung: |
+  HASH160 kombiniert einen SHA256-Hash gefolgt von RIPEMD160, insbesondere verwendet für die Generierung von Bitcoin-Adressen.
+überprüft: false

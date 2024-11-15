@@ -1,0 +1,14 @@
+küsimus: Mis on maksimaalne päevane ostusumma KYC light'i puhul Šveitsis?
+vastus: 1000 eurot
+valed_vastused:
+  - 500 eurot
+  - 1500 eurot
+  - 2000 eurot
+selgitus: |
+  KYC light Šveitsis võimaldab bitcoine osta ja müüa
+
+
+  ilma identifitseerimist esitamata, kuni ostusumma ei ületa
+
+
+  1000 eurot päevas.

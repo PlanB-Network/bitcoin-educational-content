@@ -1,0 +1,8 @@
+Frage: Was ist die Funktion des Schlüsselgenerierungsalgorithmus in einem symmetrischen Verschlüsselungsschema?
+Antwort: Er generiert einen privaten Schlüssel
+falsche_Antworten:
+  - Er generiert einen öffentlichen Schlüssel
+  - Er hasht die Nachricht
+  - Er verschlüsselt die Nachricht
+Erklärung: |
+  In einem symmetrischen Verschlüsselungsschema erzeugt der Schlüsselgenerierungsalgorithmus einen privaten Schlüssel, der dann verwendet wird, um Nachrichten zu verschlüsseln und zu entschlüsseln.

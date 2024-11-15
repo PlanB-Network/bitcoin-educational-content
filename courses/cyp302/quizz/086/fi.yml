@@ -1,0 +1,9 @@
+kysymys: Mikä on ECB-menetelmän pääasiallinen puute lohkosalausmenetelmässä?
+vastaus: Se on deterministinen ja voi paljastaa kuvioita tiedoissa
+vaarat_vastaukset:
+  - Se vaatii muuttuvan pituisia avaimia
+  - Se ei toimi yli 128 bitin viestien kanssa
+  - Se ei toimi yli 256 bitin viestien kanssa
+selitys: |
+  ECB-menetelmä ("Electronic Code Book") on deterministinen: identtiset datalohkot salataan samalla tavalla, mikä mahdollistaa kuvioden havaitsemisen salatussa tekstissä.
+arvioitu: false

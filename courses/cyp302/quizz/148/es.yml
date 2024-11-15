@@ -1,0 +1,9 @@
+pregunta: ¿Qué función se utiliza para calcular el número de enteros coprimos con un entero N?
+respuesta: La función Phi de Euler
+respuestas_incorrectas:
+  - La función logarítmica
+  - La función Gamma de Euler
+  - La función de Gauss
+explicación: |
+  La función Phi de Euler (o función totiente) se utiliza para calcular el número de coprimos de un entero N, especialmente para enteros no primos.
+revisado: false

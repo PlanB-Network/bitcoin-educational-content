@@ -1,0 +1,9 @@
+Frage: Warum wird asymmetrische Kryptografie weniger als symmetrische Kryptografie bei großen Datenaustauschen verwendet?
+Antwort: Sie ist weniger effizient bei einem äquivalenten Sicherheitsniveau
+falsche_Antworten:
+  - Sie stellt nicht die Authentizität von Nachrichten sicher
+  - Sie erfordert mehrere öffentliche Schlüssel für jeden Austausch
+  - Sie ist nicht kompatibel mit modernen Kommunikationsprotokollen
+Erklärung: |
+  Asymmetrische Kryptografie, obwohl leistungsfähig für Authentifizierung und initiale Verschlüsselung, benötigt mehr Ressourcen, was ihren Einsatz bei umfangreichen Datentransfers ineffizient macht.
+überprüft: false

@@ -1,0 +1,9 @@
+question: Mis on ühekordse padja peamine praktiline piirang?
+answer: Võti peab olema sama pikk kui sõnum ja seda ei tohi kunagi uuesti kasutada
+wrong_answers:
+  - Võtit tuleb muuta iga päev
+  - Võti peab olema kolm korda pikem kui sõnum
+  - Võti peab tingimata olema salvestatud Prantsuse Minitelile
+explanation: |
+  Ühekordse padja võti peab olema sama pikk kui sõnum ja seda ei tohi kunagi uuesti kasutada, mis oluliselt komplitseerib selle kasutamist praktilistes kontekstides. See on seetõttu, et kui on võimalik turvaliselt edastada andmeid, mis on sama pikad kui sõnum, oleks mõistlikum otse edastada sõnumit, mitte võtit.
+reviewed: false

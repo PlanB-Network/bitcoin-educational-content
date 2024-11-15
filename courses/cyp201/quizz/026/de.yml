@@ -1,9 +1,9 @@
-question: Was ist die kleinste Einheit von Bitcoin?
-answer: Satoshi
-wrong_answers:
-  - Bit
-  - Byte
-  - Münze
-explanation: |
-  Im Bitcoin-System ist die Recheneinheit der Bitcoin (beachten Sie das kleine "b"). Sie ist bis zu acht Dezimalstellen teilbar, wobei die kleinste Einheit der Satoshi ist.
-reviewed: false
+Frage: Warum ist es wichtig, niemals einen Nonce im ECDSA-Algorithmus wiederzuverwenden?
+Antwort: Die Wiederverwendung eines Nonce gefährdet die Sicherheit und kann den privaten Schlüssel preisgeben.
+falsche_Antworten:
+  - Die Wiederverwendung eines Nonce verlangsamt die Leistung.
+  - Die Wiederverwendung eines Nonce macht die Signaturen länger.
+  - Die Wiederverwendung eines Nonce erhöht die Größe des öffentlichen Schlüssels.
+Erklärung: |
+  Die Wiederverwendung eines Nonce in ECDSA kann es einem Angreifer ermöglichen, den privaten Schlüssel zu entdecken, was die Sicherheit gefährdet.
+überprüft: false

@@ -1,0 +1,9 @@
+otázka: Co je "stream cipher" v kryptografii?
+odpověď: Symetrické šifrování, které generuje proud klíčů stejné délky jako zpráva
+špatné_odpovědi:
+  - Asymetrické šifrování založené na prvočíslech
+  - Šifrování, které používá více různých dešifrovacích klíčů
+  - Šifrování, které segmentuje zprávu do datových bloků
+vysvětlení: |
+  "Stream cipher" je symetrické šifrování, ve kterém je proud klíčů stejné délky jako zpráva kombinován s posledně jmenovanou, aby se vytvořil zašifrovaný text.
+recenzováno: false

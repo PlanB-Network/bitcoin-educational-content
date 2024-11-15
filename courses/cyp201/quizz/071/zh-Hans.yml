@@ -1,0 +1,6 @@
+question: 真或假？"仅凭其SegWitv0地址，就可以确定一个公钥。"
+answer: 假。
+wrong_answers:
+  - 真。
+explanation: |
+  SegWit v0地址是公钥的哈希值，这使得不可能直接从地址中检索公钥，除非知道相应的私钥。

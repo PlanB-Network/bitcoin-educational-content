@@ -1,11 +1,7 @@
-question: How are the bits transformed into phrases in the generation of a mnemonic
-  phrase for a Bitcoin wallet?
-answer: Each segment is associated with a word from a list of 2048 words.
+question: True or False? "One can determine a public key by only knowing its SegWitv0 address."
+answer: False.
 wrong_answers:
-  - Each bit is associated with a word from a list of 2048 words.
-  - Each segment is associated with a word from a list of 1024 words.
-  - Each bit is associated with a word from a list of 1024 words.
+  - True.
 explanation: |
-  To transform the bits into phrases, each segment is associated with a
-  word from a list of 2048 words.
+  A SegWit v0 address is a hash of the public key, making it impossible to directly retrieve the public key from the address without knowing the corresponding private key.
 reviewed: false

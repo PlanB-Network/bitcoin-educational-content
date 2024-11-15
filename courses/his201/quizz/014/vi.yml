@@ -1,0 +1,9 @@
+câu hỏi: Ai đã phát minh ra khái niệm chứng minh công việc (proof of work)?
+câu trả lời: Cynthia Dwork và Moni Naor
+câu trả lời sai:
+  - Markus Jakobsson và Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+giải thích: |
+  Họ đã mô tả khái niệm này vào năm 1992. Markus Jakobsson và Ari Juels đã đặt ra thuật ngữ "proof of work". Sau đó, Adam Back đã áp dụng khái niệm này cho Hashcash.
+đã xem xét: false

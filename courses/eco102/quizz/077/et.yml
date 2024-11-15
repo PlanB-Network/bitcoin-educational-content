@@ -1,0 +1,9 @@
+question: Mis on Bastiati sõnul riigisekkumise peamine piirang?
+answer: Need, kes teevad "avalikke" otsuseid, ei ole need, kes kannatavad tagajärgede all
+wrong_answers:
+  - Need, kes teevad "avalikke" otsuseid, armastavad liiga palju raha
+  - Need, kes teevad "avalikke" otsuseid, ei ole piisavalt targad
+  - Need, kes teevad "avalikke" otsuseid, puudub julgus
+explanation: |
+  Bastiat kritiseerib riigisekkumist, tuues esile, et avalikke otsuseid tegevad isikud ei kannata oma otsuste tagajärgi, mis viib vastutustundetute valikuteni.
+reviewed: false

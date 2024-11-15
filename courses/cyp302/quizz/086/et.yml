@@ -1,0 +1,9 @@
+question: Mis on ECB meetodi peamine puudus plokkšifri kasutamisel?
+answer: See on deterministlik ja võib paljastada andmetes mustreid
+wrong_answers:
+  - See nõuab muutuva pikkusega võtmeid
+  - See ei tööta sõnumitega, mis on üle 128 biti
+  - See ei tööta sõnumitega, mis on üle 256 biti
+explanation: |
+  ECB meetod ("Electronic Code Book") on deterministlik: identsed andmeblokid krüpteeritakse samal viisil, mis võimaldab krüpteeritud tekstis tuvastada mustreid.
+reviewed: false

@@ -1,0 +1,9 @@
+Frage: Warum ist es schwierig, eine "Blockmodus"-Verschlüsselung aus einem Stromchiffre zu konstruieren?
+Antwort: Weil Stromchiffren Daten kontinuierlich verarbeiten
+falsche_Antworten:
+  - Weil Stromchiffren keine privaten Schlüssel verwenden
+  - Weil Blockmodi längere Schlüssel benötigen
+  - Weil Stromchiffren immer langsamer sind
+Erklärung: |
+  Stromchiffren sind darauf ausgelegt, Daten kontinuierlich zu verschlüsseln (bitweise oder byteweise), was ihren Einsatz im Blockmodus, der die Verarbeitung in festen Blockgrößen erfordert, erschwert.
+überprüft: false

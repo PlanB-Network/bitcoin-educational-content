@@ -1,0 +1,9 @@
+question: Quel est le principal type de structure algébrique utilisé dans les champs finis pour la cryptographie ?
+answer: Les polynômes irréductibles
+wrong_answers:
+  - Les matrices carrées
+  - Les vecteurs aléatoires
+  - Les racines cubiques
+explanation: |
+  En cryptographie, les champs finis d'ordre 2^m utilisent souvent des polynômes irréductibles pour garantir que le champ est bien défini et que toutes les opérations sont possibles.
+reviewed: false

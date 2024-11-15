@@ -1,0 +1,10 @@
+question: Mis on põhjus seada sisse korduv ostuplaan Hodleri jaoks?
+answer: Jätkata automaatselt aeg-ajalt Bitcoini ostu.
+wrong_answers:
+  - Müüa Bitcoin, kui hind on kõrge.
+  - Kaubelda Bitcoiniga tihti.
+  - Konverteerida Bitcoin teisteks krüptovaluutadeks.
+explanation: |
+  Hodler seab sisse korduva ostuplaani, et jätkata automaatselt aeg-ajalt Bitcoini ostmist, panustades selle kasutuse suurenemisele ja haruldusele
+  tulevikus.
+reviewed: false

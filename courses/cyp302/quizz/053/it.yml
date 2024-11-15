@@ -1,0 +1,9 @@
+domanda: Come si chiama un campo con un numero finito di elementi?
+risposta: Un campo di Galois
+risposte_errate:
+  - Un campo moltiplicativo
+  - Un campo simmetrico
+  - Un campo vettoriale
+spiegazione: |
+  Un campo finito è noto anche come campo di Galois, dal nome del matematico Évariste Galois, ed è essenziale nella crittografia moderna.
+revisionato: false

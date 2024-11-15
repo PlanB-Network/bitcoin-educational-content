@@ -1,0 +1,9 @@
+kysymys: Miksi lukuteoria on erityisen tärkeää julkisen avaimen kryptografiassa?
+vastaus: Se tarjoaa tarvittavat matemaattiset perusteet salaus- ja purkuoperaatioille.
+väärät_vastaukset:
+  - Se tarjoaa tarvittavat matemaattiset perusteet hajautusoperaatioille.
+  - Se on tarpeellinen neuroverkkojen luomiseen.
+  - Se mahdollistaa operaatioiden laskemisen vain binäärinä.
+selitys: |
+  Lukuteoria on ratkaisevan tärkeää julkisen avaimen kryptografiassa, koska se auttaa rakentamaan algoritmeja kokonaislukujen ominaisuuksien perusteella, mikä helpottaa salaus- ja purkuoperaatioita.
+arvioitu: false

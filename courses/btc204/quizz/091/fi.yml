@@ -1,0 +1,13 @@
+kysymys: Miksi useiden UTXO:iden yhdistämistä coinjoin-sykleiden jälkeen ei suositella?
+
+vastaus: Tämä voi vaarantaa yksityisyyden CIOH:n vuoksi.
+
+väärät_vastaukset:
+  - Se vähentää transaktioiden nopeutta.
+  - Se paljastaa epäilyttävää toimintaa koordinaattorille.
+  - Tämä voi vaarantaa yksityisyyden kierrosmaksuheuristiikan vuoksi.
+
+selitys: |
+  On tärkeää välttää sekoitettujen UTXO:iden yhdistämistä sekoittamattomien UTXO:iden kanssa samassa transaktiossa, mutta myös UTXO:iden sekoittamista keskenään, välttääkseen Common-Input-Ownership-Heuristic (CIOH) -heuristiikan.
+
+arvioitu: false

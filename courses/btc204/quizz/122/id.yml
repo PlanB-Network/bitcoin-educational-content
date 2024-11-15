@@ -1,0 +1,13 @@
+pertanyaan: Bagaimana P2P transport V2 meningkatkan privasi dan keamanan komunikasi antar node?
+
+jawaban: Dengan mengintegrasikan enkripsi oportunis
+
+jawaban_salah:
+  - Dengan mengintegrasikan otentikasi
+  - Dengan menggunakan relay tambahan
+  - Dengan menggunakan Tor
+
+penjelasan: |
+  P2P transport V2 menggabungkan lapisan enkripsi oportunis untuk meningkatkan privasi dan keamanan komunikasi antar node.
+
+ditinjau: false

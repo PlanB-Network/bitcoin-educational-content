@@ -1,0 +1,8 @@
+pertanyaan: Apa itu tanda tangan digital dalam konteks kriptografi asimetris?
+jawaban: Mekanisme untuk memverifikasi keaslian pesan menggunakan kunci privat
+jawaban_salah:
+  - Proses untuk mengenkripsi pesan dengan lebih kuat
+  - Kunci publik tambahan untuk memvalidasi pesan yang terenkripsi
+  - Salinan digital dari tanda tangan tulisan tangan
+penjelasan: |
+  Tanda tangan digital adalah teknik kriptografi yang membuktikan bahwa sebuah pesan memang dibuat oleh pemilik kunci privat yang bersangkutan, sehingga menjamin keasliannya.

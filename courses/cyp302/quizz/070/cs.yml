@@ -1,0 +1,9 @@
+otázka: Jaký typ šifrování představuje posunové šifrování?
+odpověď: Monoalfabetická substituční šifra
+nesprávné_odpovědi:
+  - Šifra permutace slov
+  - Polyalfabetická substituční šifra
+  - Asymetrická šifra
+vysvětlení: |
+  Posunové šifrování je příkladem monoalfabetické substituční šifry, kde je každé písmeno ve zprávě posunuto o pevně daný počet pozic v abecedě.
+recenzováno: false

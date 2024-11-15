@@ -1,0 +1,9 @@
+domanda: Qual è l'importanza dell'uso di un nonce casuale nei metodi CBC e OFB?
+risposta: Garantisce che ogni sessione di crittografia sia unica, anche per dati identici.
+risposte_errate:
+  - Riduce la lunghezza della chiave durante il processo di crittografia.
+  - Rende la crittografia più veloce.
+  - Rende il codice dell'algoritmo più bello per gli umani.
+spiegazione: |
+  Utilizzando un nonce casuale per ogni sessione, i metodi CBC e OFB garantiscono che ogni crittografia sia unica, il che previene attacchi che sfruttano dati identici.
+recensito: false

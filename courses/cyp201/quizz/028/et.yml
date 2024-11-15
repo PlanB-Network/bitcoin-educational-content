@@ -1,0 +1,9 @@
+küsimus: Miks on võimatu taastada privaatvõtit kehtivast digitaalallkirjast?
+vastus: Allkiri põhineb pöördumatutel matemaatilistel toimingutel elliptilisel kõveral.
+valed_vastused:
+  - Privaatvõti krüpteeritakse enne kasutamist.
+  - Seeme kaitseb privaatvõtit.
+  - Sõnumite räsistamine takistab privaatvõtme taastamist.
+selgitus: |
+  Toimingud elliptilistel kõveratel on pöördumatud, tagades, et privaatvõtit ei saa allkirjast tuletada.
+üle vaadatud: false

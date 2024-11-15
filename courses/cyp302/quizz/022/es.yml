@@ -1,0 +1,9 @@
+pregunta: En la cifrado por desplazamiento, ¿cuál es el resultado para la palabra "DOG" con una clave de 17?
+respuesta: UFX
+respuestas_incorrectas:
+  - ZKH
+  - TPG
+  - UVW
+explicación: |
+  Con un desplazamiento de 17 en el alfabeto, "D" se convierte en "U", "O" se convierte en "F" y "G" se convierte en "X". Por lo tanto, la palabra cifrada es "UFX".
+revisado: false

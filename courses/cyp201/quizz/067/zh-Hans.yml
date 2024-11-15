@@ -1,0 +1,9 @@
+question: 下列派生路径表示什么？m/84'/0'/1'/0/7
+answer: 主网上的一个外部SegwitV0地址。
+wrong_answers:
+  - 主网上的一个外部SegwitV1地址。
+  - 测试网上的一个内部传统地址。
+  - 主网上的一个外部传统地址。
+explanation: |
+  派生路径m/84'/0'/1'/0/7表示主网络（mainnet）上的一个外部SegwitV0地址。84' = SegWit v0，0' = 主网，1 = 外部
+reviewed: false

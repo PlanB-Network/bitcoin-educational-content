@@ -1,0 +1,8 @@
+question: Hvem var forfatteren av den første artikkelen som introduserte Bitcoin, publisert på fransk?
+answer: Lucien Grondin (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+explanation: |
+  Det var en [tekst](https://linuxfr.org/news/connaissez-vous-les-bitcoins) publisert den 30. september 2010, på LinuxFr.org med tittelen "Kjenner du til bitcoins?".

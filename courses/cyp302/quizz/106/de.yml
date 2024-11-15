@@ -1,0 +1,9 @@
+Frage: Welcher Mechanismus verhindert Reflection-Angriffe in sicherer Kommunikation?
+Antwort: Hinzufügen einer einzigartigen Kennung für jeden Teilnehmer
+falsche_Antworten:
+  - Erhöhung der Schlüssellänge
+  - Verwendung mehrerer Schlüssel für jede Nachricht
+  - Hinzufügen eines zusätzlichen Schlüssels in jeder Nachricht
+Erklärung: |
+  Das Hinzufügen einer einzigartigen Kennung für jeden Teilnehmer in der verschlüsselten Nachricht verhindert Reflection-Angriffe, da es ermöglicht, den Ursprung der Nachrichten zu unterscheiden.
+überprüft: false

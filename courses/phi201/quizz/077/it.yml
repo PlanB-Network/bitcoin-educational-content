@@ -1,0 +1,9 @@
+domanda: Qual è il titolo del libro di Thomas Paine?
+risposta: Senso Comune.
+risposte_errate:
+  - Il senso unico.
+  - Il bene comune.
+  - Nessuna delle risposte sopra indicate è corretta.
+spiegazione: |
+  Il libro di Thomas Paine, intitolato "Senso Comune" ("Le sens commun" in francese), è un opuscolo influente che sosteneva l'indipendenza americana e denunciava la tirannia britannica, giocando un ruolo chiave nella mobilitazione dei coloni.
+revisionato: false

@@ -1,0 +1,9 @@
+câu hỏi: Vai trò của phép toán modulo trong mã hóa dịch chuyển là gì?
+câu trả lời: Nó đảm bảo rằng các chữ cái quay trở lại vị trí đầu của bảng chữ cái khi vượt quá 26
+câu trả lời sai:
+  - Nó nhân giá trị của các chữ cái với khóa
+  - Nó đảo ngược các chữ cái của bảng chữ cái
+  - Nó xóa các chữ cái sau chữ "Z"
+giải thích: |
+  Phép toán modulo 26 cho phép các chữ cái lặp lại sau "Z" để đảm bảo rằng mỗi chữ cái được mã hóa vẫn nằm trong phạm vi 26 chữ cái của bảng chữ cái.
+đã xem xét: false

@@ -1,0 +1,9 @@
+pergunta: O que significa o termo "champ premier" ou "corps premier"?
+resposta: Um campo com um número primo de elementos
+respostas_erradas:
+  - Um campo que contém apenas números primos
+  - Um campo definido unicamente pela adição de números primos
+  - Um campo que utiliza vetores aleatórios
+explicação: |
+  Um campo primo contém um número de elementos igual a um número primo, tornando-o um campo fundamental para operações criptográficas.
+revisado: false

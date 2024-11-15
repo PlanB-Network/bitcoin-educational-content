@@ -1,0 +1,9 @@
+domanda: Come si chiama un gruppo che soddisfa la condizione di commutatività?
+risposta: Un gruppo abeliano
+risposte_errate:
+  - Un gruppo chiuso
+  - Un gruppo associativo
+  - Un gruppo inverso
+spiegazione: |
+  Un gruppo abeliano, o commutativo, è un gruppo in cui l'ordine degli elementi nell'operazione binaria non influisce sul risultato. Questo significa che per qualsiasi a e b, a ∘ b = b ∘ a.
+revisionato: false

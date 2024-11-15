@@ -1,11 +1,9 @@
-question: What are UTXOs in the context of Bitcoin?
-answer: Unspent Transaction Outputs
+question: Why is it impossible to retrieve the private key from a valid digital signature?
+answer: The signature is based on irreversible mathematical operations on an elliptic curve.
 wrong_answers:
-  - Untraceable Transaction Outputs
-  - Unverified Transaction Outputs
-  - Unconfirmed Transaction Outputs
+  - The private key is encrypted before use.
+  - The seed protects the private key.
+  - Hashing messages prevents the private key from being retrieved.
 explanation: |
-  UTXOs, or "Unspent Transaction Outputs," represent the unspent transaction
-  outputs belonging to a user. To spend these bitcoins, one must demonstrate ownership
-  of the private key corresponding to the public key linked to each UTXO.
+  Operations on elliptic curves are irreversible, ensuring that the private key cannot be deduced from the signature.
 reviewed: false

@@ -1,0 +1,8 @@
+pertanyaan: Jika mengikuti BIP39, berapa ukuran seed dari dompet HD?
+jawaban: 512 bit.
+jawaban_salah:
+  - 32 byte.
+  - 1024 bit.
+  - 512 byte.
+penjelasan: |
+  Menurut BIP39, seed dari dompet HD adalah 512 bit, yang berasal dari frasa mnemonik dan passphrase.

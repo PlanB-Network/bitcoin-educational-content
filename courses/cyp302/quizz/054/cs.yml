@@ -1,0 +1,9 @@
+otázka: Jaký je hlavní typ algebraické struktury používané v konečných tělesech pro kryptografii?
+odpověď: Nerozložitelné polynomy
+špatné_odpovědi:
+  - Čtvercové matice
+  - Náhodné vektory
+  - Kubické kořeny
+vysvětlení: |
+  V kryptografii se pro konečná tělesa řádu 2^m často používají nerozložitelné polynomy, aby se zajistilo, že těleso je dobře definované a že jsou možné všechny operace.
+recenzováno: false

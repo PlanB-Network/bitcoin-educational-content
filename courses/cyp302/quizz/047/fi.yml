@@ -1,0 +1,9 @@
+kysymys: Eulerin lauseen mukaan, mikä on kahden keskenään jaottoman kokonaisluvun a ja N eksponentiaation a^ϕ(N) mod N tulos?
+vastaus: 1 mod N
+vaarat_vastaukset:
+  - 0 mod N
+  - N mod a
+  - a mod N
+selitys: |
+  Eulerin lause toteaa, että kahden keskenään jaottoman kokonaisluvun a ja N kohdalla eksponentiaatio a^ϕ(N) mod N on aina yhtä suuri kuin 1 mod N, ominaisuus, jota käytetään kryptografiassa.
+arvioitu: false

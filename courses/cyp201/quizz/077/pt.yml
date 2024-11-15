@@ -1,9 +1,8 @@
-question: Quais são as características de uma frase secreta eficaz para uma carteira de Bitcoin?
-answer: Longa (20 a 40 caracteres) e diversificada (usando letras maiúsculas, letras minúsculas, números e símbolos)
+question: Como é calculado o checksum de um endereço Legacy?
+answer: Com HASH256.
 wrong_answers:
-  - Curta e simples
-  - Longa e simples
-  - Curta e diversificada
+  - Com HASH160.
+  - Com um código BCH.
+  - Com RIPEMD160.
 explanation: |
-  Uma frase secreta eficaz deve ser longa (20 a 40 caracteres) e diversificada (usando letras maiúsculas, letras minúsculas, números e símbolos). Ela não deve estar diretamente relacionada ao usuário ou ao seu ambiente.
-reviewed: false
+  Para endereços Legacy, o checksum é obtido realizando uma dupla hash com a função SHA256 (HASH256).

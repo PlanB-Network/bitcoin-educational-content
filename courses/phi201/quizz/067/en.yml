@@ -1,0 +1,9 @@
+question: What is the central idea of Voltaire's passage on the London Stock Exchange?
+answer: Businessmen of all religions set aside their differences to focus on mutual profit.
+wrong_answers:
+  - The different religions of the world gather at the Stock Exchange to practice their faith in peace.
+  - The London Stock Exchange is a place of speculation and corruption where moral values are disregarded.
+  - Religion has no place in the business world dominated by a spirit of competition and individualism.
+explanation: |
+  Voltaire highlights that, at the London Stock Exchange, businessmen transcend their religious differences to collaborate towards a common economic goal, illustrating the primacy of material interest over religious divisions.
+reviewed: false

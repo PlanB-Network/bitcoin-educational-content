@@ -1,9 +1,0 @@
-question: Qual è lo scopo degli indici induriti nella struttura dell'HD Wallet?
-answer: Vengono utilizzati con un apostrofo per determinate derivazioni.
-wrong_answers:
-  - Vengono utilizzati per derivare chiavi figlie per uno scopo specifico.
-  - Consentono la differenziazione di account per diverse criptovalute o reti.
-  - Corrispondono alle catene esterne e interne.
-explanation: |
-  Nella struttura dell'HD Wallet, gli indici induriti vengono utilizzati con un apostrofo per determinate derivazioni.
-reviewed: false

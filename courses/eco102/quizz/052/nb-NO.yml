@@ -1,0 +1,8 @@
+question: Hvilken konklusjon trekker Bastiat fra ødeleggelsens innvirkning på økonomien?
+answer: Det er skadelig for økonomien
+wrong_answers:
+  - Det er gunstig for økonomien
+  - Det er nøytralt for økonomien
+  - Det avhenger av den økonomiske situasjonen
+explanation: |
+  Bastiat demonstrerer at ødeleggelse er en økonomisk byrde fordi det omdirigerer verdifulle ressurser og skaper ingen merverdi.

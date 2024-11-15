@@ -1,0 +1,11 @@
+kysymys: Mitkä ovat kaksi päävarianttia älykkäissä sopimuksissa, joita käytetään kolikkovaihdoissa?
+
+vastaus: HTLC ja PTLC
+
+väärät_vastaukset:
+  - Moniallekirjoitus ja Yksiallekirjoitus
+  - Älykkäät sopimukset ja DAppsit
+  - SegWit ja Taproot
+
+selitys: |
+  Kolikkovaihdon suorittamiseen voidaan käyttää HTLC:itä (Hash Time-Locked Contracts) tai PTLC:itä (Point Time-Locked Contracts).

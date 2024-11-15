@@ -1,0 +1,13 @@
+domanda: Qual è il modello specifico di abbinamento degli utenti utilizzato da JoinMarket?
+
+risposta: Mercato P2P tra maker e taker.
+
+risposte_errate:
+  - Server che assegna casualmente i partecipanti.
+  - Scambi basati su aste olandesi.
+  - Servizio di mediazione che seleziona manualmente i partecipanti.
+
+spiegazione: |
+  JoinMarket opera su un mercato di scambio P2P dove alcuni utenti, i "maker", offrono i loro bitcoin per il mixing, mentre altri, i "taker", utilizzano questi fondi per eseguire coinjoin in cambio di una commissione.
+
+recensito: false

@@ -1,9 +1,8 @@
-question: ¿Qué significa HMAC?
-answer: Código de Autenticación de Mensaje Basado en Hash
-wrong_answers:
-  - Código de Autenticación Maestro Jerárquico
-  - Código de Autenticación Maestro Hashed
-  - Código de Autenticación de Mensaje Jerárquico
-explanation: |
-  HMAC significa Código de Autenticación de Mensaje Basado en Hash. Es un tipo de código de autenticación de mensaje (MAC) que involucra una función hash criptográfica y una clave criptográfica secreta.
-reviewed: false
+pregunta: ¿Cuál es el tamaño de una clave pública de Bitcoin sin comprimir incluyendo su prefijo?
+respuesta: 520 bits.
+respuestas_incorrectas:
+  - 512 bytes.
+  - 256 bits.
+  - 512 bits.
+explicación: |
+  Una clave pública de Bitcoin sin comprimir con su prefijo es de 520 bits, comprendiendo las coordenadas x e y del punto en la curva elíptica.

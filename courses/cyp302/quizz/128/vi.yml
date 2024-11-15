@@ -1,0 +1,9 @@
+câu hỏi: Vấn đề tính toán khó khăn nào được liên kết với các hệ thống bất đối xứng như RSA?
+câu trả lời: Phân tích số nguyên tố
+câu trả lời sai:
+  - Nhân mũ số nguyên lớn
+  - Tạo ra các số ngẫu nhiên dài
+  - Trao đổi khóa an toàn
+giải thích: |
+  RSA dựa trên sự khó khăn của việc phân tích số nguyên tố, một nhiệm vụ tính toán khó khăn làm cho hệ thống mã hóa an toàn chống lại các cuộc tấn công.
+đã xem xét: false

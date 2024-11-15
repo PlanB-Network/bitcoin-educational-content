@@ -1,10 +1,9 @@
-question: Quando viene eseguita la transazione di prelievo in un trasferimento della rete Lightning?
-answer: Quando il canale viene chiuso.
-wrong_answers:
-  - Quando viene effettuato il trasferimento.
-  - Quando il canale viene aperto.
-  - Non viene mai eseguita.
-explanation: |
-  La transazione di prelievo, che rappresenta lo stato del canale,
-  non viene eseguita a meno che il canale non venga chiuso.
-reviewed: false
+domanda: Perché la chiusura forzata è meno desiderabile?
+risposta: È più lenta e le commissioni possono essere inappropriate
+risposte_errate:
+  - Richiede l'autorizzazione da parte di Satoshi Nakamoto
+  - Costringe alla ricreazione di un canale in seguito
+  - Impedisce l'uso della chiave di revoca
+spiegazione: |
+  La chiusura forzata è meno desiderabile perché include un blocco temporale, che rallenta il processo, e le commissioni possono essere inappropriate poiché sono state stabilite al momento della creazione del canale.
+recensito: false

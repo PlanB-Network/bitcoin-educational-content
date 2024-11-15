@@ -1,0 +1,9 @@
+question: Hvilken blokkchiffermetode bruker en initialiseringsvektor og skaper probabilistisk kryptering?
+answer: CBC ("Cipher Block Chaining")
+wrong_answers:
+  - ECB ("Electronic Code Book")
+  - AES-128
+  - SHA-256
+explanation: |
+  CBC-metoden bruker en initialiseringsvektor og anvender en XOR mellom hver blokk av klartekst og den forrige krypterte blokken, noe som gjør krypteringen probabilistisk og sikrere enn ECB.
+reviewed: false

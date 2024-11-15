@@ -1,0 +1,13 @@
+domanda: Qual è la principale differenza tra un coinjoin e un mixer custodiale?
+
+risposta: Coinjoin ti permette di mantenere il pieno controllo sui tuoi fondi.
+
+risposte_errate:
+  - Coinjoin richiede la rinuncia temporanea alla custodia dei fondi.
+  - I mixer sono più sicuri dei coinjoin.
+  - I mixer offrono una qualità di mixing migliore.
+
+spiegazione: |
+  Il principale svantaggio dei mixer rispetto ai coinjoin è che richiedono all'utente di rinunciare alla custodia dei propri fondi durante il processo di mixing, esponendoli a rischi di furto.
+
+recensito: false

@@ -1,9 +1,9 @@
-question: O que representam as constantes K no processamento da função SHA-256?
-answer: Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 64 números primos.
+question: Em que consiste a operação de concatenação?
+answer: Colocar dois operandos lado a lado.
 wrong_answers:
-  - Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 64 números primos.
-  - Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 8 números primos.
-  - Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 números primos.
+  - Somar dois operandos.
+  - Dividir dois operandos.
+  - Subtrair dois operandos.
 explanation: |
-  No processamento da função SHA-256, as constantes K, de 0 a 63, representam os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 64 números primos. Essas são usadas como ingredientes básicos na receita criptográfica.
+  A concatenação envolve colocar dois operandos um após o outro sem modificá-los, sendo amplamente utilizada em criptografia.
 reviewed: false

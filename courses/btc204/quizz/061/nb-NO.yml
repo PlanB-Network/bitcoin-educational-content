@@ -1,0 +1,13 @@
+question: Hva er formålet med "coin control"-alternativet i Bitcoin-lommebokprogramvare?
+
+answer: Å velge hvilke UTXOer som skal brukes som inndata for transaksjoner.
+
+wrong_answers:
+  - Å kryptere UTXOer for å forbedre sikkerheten til lommeboken.
+  - Å oppdage og blokkere UTXOer fra mistenkelige kilder.
+  - Å merke hver UTXO i lommeboken.
+
+explanation: |
+  Coin control er en funksjon som finnes i god Bitcoin-lommebokprogramvare, som gir deg muligheten til manuelt å velge spesifikke UTXOer å bruke som inndata når du utfører en transaksjon.
+
+reviewed: false

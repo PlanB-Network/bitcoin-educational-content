@@ -1,0 +1,8 @@
+question: Hva er rollen til en "nonce" i et autentisert krypteringsskjema?
+answer: Sørge for at hver melding har en unik tag for å forhindre gjentakelser
+wrong_answers:
+  - Identifisere avsenderen av meldingen
+  - Opprette en midlertidig dekrypteringsnøkkel
+  - Legge til et ekstra lag med kryptering
+explanation: |
+  I et autentisert krypteringsskjema brukes en "nonce" for å sikre at hver melding har en unik tag, noe som øker sikkerheten ved å forhindre gjentakelser.

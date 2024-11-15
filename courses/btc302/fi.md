@@ -1564,7 +1564,7 @@ Tietenkin **muissa maissa lainsäädäntö ja yhdistysten toiminta ovat erilaisi
 
 
 
-## Anna meille palautetta tästä kurssista
+## Arvioi kurssi
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 

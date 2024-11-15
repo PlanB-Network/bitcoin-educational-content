@@ -1,0 +1,9 @@
+küsimus: Milline tingimus peab olema täidetud, et HTLC saaja saaks vahendid kätte?
+vastus: Nad peavad esitama saladuse (eelkujutise), et makse vabastada.
+valed_vastused:
+  - Nad peavad nõustuma iga vahendaja sõlme marsruudi tasudega.
+  - Nad peavad allkirjastama uue kohustuse tehingu.
+  - Nad peavad ootama ajaluku aegumist enne vahendite kättesaamist.
+selgitus: |
+  Selleks, et HTLC-s vahendid kätte saada, peab saaja esitama kindla saladuse, mis võimaldab makse vabastada, mida kaitseb räsi.
+üle vaadatud: false

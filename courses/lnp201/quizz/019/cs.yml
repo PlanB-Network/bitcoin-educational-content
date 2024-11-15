@@ -1,10 +1,9 @@
-question: Jak Alice financuje kanál, který otevírá s Bobem?
-answer: Vytvoří transakci se 2 UTXO jako výstup.
-wrong_answers:
-  - Přímo pošle peníze na veřejnou adresu Boba.
-  - Vytvoří transakci s 1 UTXO jako výstup.
-  - Požádá Boba, aby kanál financoval.
-explanation: |
-  Aby Alice financovala kanál, který otevírá s Bobem, vytvoří transakci
-  se 2 UTXO jako výstup; jeden na 2/2 multi-sig adresu a jeden na jednu z jejích adres pro vrácení peněz.
-reviewed: false
+otázka: Co systém transakcí s pevným závazkem zaručuje účastníkům Lightning kanálu?
+odpověď: Že každý může obnovit své prostředky zveřejněním poslední podepsané transakce
+špatné_odpovědi:
+  - Že transakce jsou viditelné na Bitcoin blockchainu
+  - Že kapacita kanálu se zvyšuje s každou transakcí
+  - Že poplatky jsou sdíleny mezi oběma účastníky
+vysvětlení: |
+  Podepsané transakce s pevným závazkem zajišťují, že každý účastník může obnovit své prostředky zveřejněním nejnovější verze v případě, že se kanál uzavře.
+recenzováno: false

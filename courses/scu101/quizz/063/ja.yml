@@ -1,9 +1,0 @@
-question: サイバーセキュリティで使用される暗号技術の側面にはどのようなものがありますか？
-answer: SSL/TLS、対称/非対称暗号化
-wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
-explanation: |
-  この章では、サイバーセキュリティで使用される暗号技術の側面としてSSL/TLSと対称/非対称暗号化が挙げられています。
-reviewed: false

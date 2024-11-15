@@ -1,0 +1,9 @@
+question: Mis sündmust nimetatakse, kui Bitcoini tehingute kaevandamise tasu poole võrra vähendatakse?
+answer: Poolitamine
+wrong_answers:
+  - Kahekordistamine
+  - Neljandiku võrra vähendamine
+  - Kolmekordistamine
+explanation: |
+  Programmeeritud kaevandamistasude vähendamine, mis toimub iga nelja aasta tagant ja mida nimetatakse "poolitamiseks". 
+reviewed: false

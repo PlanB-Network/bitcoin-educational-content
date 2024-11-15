@@ -1,0 +1,9 @@
+question: Kuidas määrata taastefraasi kontrollsumma biti suurust?
+answer: Jagage juhusliku numbri (entroopia) suurus 32-ga.
+wrong_answers:
+  - Jagage juhusliku numbri (entroopia) suurus 8-ga.
+  - Jagage juhusliku numbri (entroopia) suurus 16-ga.
+  - Korrutage juhusliku numbri (entroopia) suurus 2-ga.
+explanation: |
+  Kontrollsumma suurus saadakse jagades entroopia suuruse 32-ga, vastavalt BIP39-le.
+reviewed: false

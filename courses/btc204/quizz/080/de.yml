@@ -1,0 +1,11 @@
+Frage: Was ist die Rolle eines Coinjoin-Koordinators?
+
+Antwort: Teilnehmer verbinden und die Transaktion konstruieren.
+
+Falsche Antworten:
+  - Teilnehmerdaten für die Vertraulichkeit der Transaktion verschlüsseln.
+  - Eine Aufzeichnung früherer Coinjoins für Sicherheitsaudits führen.
+  - Bitcoins von Teilnehmern erhalten, um sie zu mischen.
+
+Erklärung: |
+  Die Rolle der Koordinatoren besteht darin, die verschiedenen Benutzer zu verbinden und dann die kollaborative Transaktion zu konstruieren und zu übertragen.

@@ -1,0 +1,9 @@
+otázka: Jaká je hlavní charakteristika kryptografické hašovací funkce?
+odpověď: Produkuje výstup pevné délky pro jakýkoli vstup, bez ohledu na jeho velikost.
+špatné_odpovědi:
+  - Šifruje data pomocí symetrického klíče.
+  - Produkuje proměnlivý výstup v závislosti na délce vstupu.
+  - Dešifruje zprávy pomocí veřejného klíče.
+vysvětlení: |
+  Hašovací funkce generuje haš pevné délky, bez ohledu na velikost vstupu.
+recenzováno: false

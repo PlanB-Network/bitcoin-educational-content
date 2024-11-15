@@ -1,0 +1,9 @@
+question: HD rahakoti tuletusteedel, millele vastab sügavus 0?
+answer: Peamine võti.
+wrong_answers:
+  - Laiendatud võti.
+  - Vastuvõtvad aadressid.
+  - Valuuta tüüp.
+explanation: |
+  Sügavus 0 tuletusteedel vastab peamisele võtmele, mis on kõikide tuletuste lähtepunkt HD rahakotis.
+reviewed: false

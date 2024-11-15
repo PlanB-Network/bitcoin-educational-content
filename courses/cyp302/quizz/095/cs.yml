@@ -1,0 +1,9 @@
+otázka: Jak MAC umožňuje Alici ověřit, že zpráva je skutečně od Boba?
+odpověď: Kontrolou, zda se generovaný tag shoduje s tím, který poslal Bob
+špatné_odpovědi:
+  - Dekryptováním zprávy, aby zjistila, zda je čitelná
+  - Porovnáním velikosti zprávy a tagu
+  - Ověřením IP adresy odesílatele
+vysvětlení: |
+  Alice používá sdílený tajný klíč k vygenerování tagu z přijaté zprávy. Pokud se tento tag shoduje s tím, který poslal Bob, ví, že zpráva je autentická a nezměněná.
+recenzováno: false

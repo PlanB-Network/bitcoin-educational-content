@@ -1,0 +1,8 @@
+question: Hva er formålet med "shift rows"-operasjonen i AES?
+answer: Å øke diffusjonen ved å omorganisere bytene i tilstandstabellen
+wrong_answers:
+  - Sørge for at hver blokk er av samme lengde
+  - Påføre en hemmelig nøkkel på hver rad i tilstandstabellen
+  - Innføre ekstra forvirring ved å erstatte byter
+explanation: |
+  "Shift rows"-operasjonen i AES omorganiserer bytene i tilstandstabellen for å spre ut informasjonen, og dermed øke diffusjonen.

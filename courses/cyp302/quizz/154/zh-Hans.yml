@@ -1,0 +1,9 @@
+question: 在RSA加密系统中，为什么找到"d"的值很困难？
+answer: 因为它需要知道φ(N)，而φ(N)取决于N的质因数
+wrong_answers:
+  - 因为"d"是一个随机数
+  - 因为"d"比N大
+  - 因为"d"的计算与φ(N)无关
+explanation: |
+  找到"d"很困难，因为它依赖于φ(N)的知识，而φ(N)又依赖于p和q的值，即N的质因数。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er formålet med en ekstern kjede i avledningsprosessen?
+answer: Å isolere adresser som er ment å være offentlige.
+wrong_answers:
+  - Å isolere vekseladresser.
+  - Å håndtere innkommende transaksjoner.
+  - Å skille private nøkler fra offentlige nøkler.
+explanation: |
+  Den eksterne kjeden brukes til å avlede adresser som er ment å være offentlige, slik som de for å motta betalinger.
+reviewed: false

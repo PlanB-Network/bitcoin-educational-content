@@ -1,0 +1,8 @@
+question: Hva beviser en digital signatur i Bitcoin-systemet via scriptSig?
+answer: Besittelsen av den private nøkkelen som er assosiert med en spesifikk offentlig nøkkel.
+wrong_answers:
+  - Besittelsen av en Bitcoin-adresse.
+  - Evnen til å mine en Bitcoin-blokk.
+  - Gyldigheten av en Bitcoin-transaksjon.
+explanation: |
+  En digital signatur beviser at brukeren har den private nøkkelen uten å måtte avsløre den, noe som sikrer transaksjonens autentisitet.

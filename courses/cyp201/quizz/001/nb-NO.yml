@@ -1,0 +1,9 @@
+question: Hva er utgangsstørrelsen til SHA256 hash-funksjonen?
+answer: 256 bits.
+wrong_answers:
+  - 256 bytes.
+  - 512 bits.
+  - 512 bytes.
+explanation: |
+  SHA-256 produserer en fast utgang på 256 bits, uavhengig av størrelsen på inndataene.
+reviewed: false

@@ -1,0 +1,9 @@
+otázka: Co odlišuje standardní délku klíčového proudu RC4 od zjednodušené verze prezentované v příkladu?
+odpověď: Délka pole S ve standardním RC4 je 256 bajtů
+špatné_odpovědi:
+  - Pole S je omezeno na 128 bajtů
+  - Použitý klíč musí být delší než 8 bajtů
+  - Ve standardním RC4 není pro S stanovena pevná délka
+vysvětlení: |
+  Ve standardním RC4 obsahuje pole S 256 bajtů, což výrazně zvyšuje složitost výpočtů a zlepšuje bezpečnost ve srovnání se zjednodušenou verzí, která má pouze 8 bajtů.
+recenzováno: false

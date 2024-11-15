@@ -1,0 +1,11 @@
+pergunta: Qual é o principal papel da transação "Tx0" no Whirlpool?
+
+resposta: Igualar os UTXOs.
+
+respostas_erradas:
+  - Realizar a primeira mistura.
+  - Remover os UTXOs do pool.
+  - Gastar os UTXOs misturados.
+
+explicação: |
+  O objetivo da Tx0 é preparar e igualar os UTXOs para o coinjoin, dividindo-os em unidades correspondentes ao valor do pool selecionado, a fim de garantir a homogeneidade da mistura.

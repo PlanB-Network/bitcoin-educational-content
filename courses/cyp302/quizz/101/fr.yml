@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'un "HMAC" ?
+answer: Un code d'authentification de message basé sur une fonction de hachage
+wrong_answers:
+  - Un algorithme de chiffrement asymétrique basé sur une fonction de hachage
+  - Un algorithme de chiffrement asymétrique basé sur Diffie-Hellman
+  - Un code d'authentification de message basé sur Diffie-Hellman
+explanation: |
+  Un HMAC est un code d'authentification de message utilisant une fonction de hachage, comme SHA-256, pour créer un tag permettant de vérifier l'intégrité et l'authenticité d'un message.
+reviewed: false

@@ -1,0 +1,13 @@
+otázka: Mezi následujícími odpověďmi, která není doporučenou praxí pro správu změny doxxic?
+
+odpověď: Slučování doxxic UTXO dohromady.
+
+špatné_odpovědi:
+  - Míchání doxxic UTXO v menším poolu.
+  - Darování svých doxxic UTXO.
+  - Označení svých doxxic UTXO jako nespotřebitelné.
+
+vysvětlení: |
+  Je doporučeno se vyhnout slučování doxxic UTXO dohromady, protože to umožňuje vytvoření spojení mezi různými záznamy uživatele ve Whirlpoolu.
+
+recenzováno: false

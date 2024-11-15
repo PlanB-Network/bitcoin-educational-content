@@ -1,0 +1,9 @@
+domanda: Quale campo matematico fornisce gli strumenti moderni per la teoria dei numeri?
+risposta: Algebra astratta
+risposte_errate:
+  - Geometria
+  - Statistica
+  - Analisi complessa
+spiegazione: |
+  L'algebra astratta, come sottodisciplina della matematica, fornisce strutture matematiche che consentono l'analisi e la comprensione delle proprietà dei numeri utilizzati nella teoria dei numeri.
+revisionato: false

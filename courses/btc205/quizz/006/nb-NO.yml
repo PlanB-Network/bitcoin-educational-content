@@ -1,0 +1,14 @@
+question: Hva er det maksimale daglige kjøpsbeløpet for KYC light i Sveits?
+answer: 1000 euro
+wrong_answers:
+  - 500 euro
+  - 1500 euro
+  - 2000 euro
+explanation: |
+  KYC light i Sveits tillater kjøp og salg av bitcoins
+
+
+  uten å måtte oppgi identifikasjon, så lenge kjøpsbeløpet ikke overstiger
+
+
+  1000 euro per dag.

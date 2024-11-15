@@ -1,10 +1,9 @@
-question: Qual é a ordem da curva secp256k1 usada no Bitcoin?
-answer: 2^256 - 432420386565659656852420866394968145599
-wrong_answers:
-  - 2^256
-  - 2^256 - 1
-  - 2^256 - 432420386565659656852420866394968145598
-explanation: |
-  A ordem da curva secp256k1 usada no Bitcoin é 2^256 - 432420386565659656852420866394968145599.
-  Este é o número de pontos na curva.
-reviewed: false
+pergunta: Como determinar o tamanho do bit da soma de verificação para uma frase de recuperação?
+resposta: Divida o tamanho do número aleatório (entropia) por 32.
+respostas_incorretas:
+  - Divida o tamanho do número aleatório (entropia) por 8.
+  - Divida o tamanho do número aleatório (entropia) por 16.
+  - Multiplique o tamanho do número aleatório (entropia) por 2.
+explicação: |
+  O tamanho da soma de verificação é obtido dividindo-se o tamanho da entropia por 32, de acordo com o BIP39.
+revisado: false

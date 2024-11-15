@@ -1,9 +1,9 @@
-question: Jaká je role BIP38 v ekosystému Bitcoinu?
-answer: Navrhl přidání dalšího hesla pro posílení bezpečnosti jednotlivých klíčů.
-wrong_answers:
-  - Zavedl 24-slovnou mnemonickou frázi.
-  - Revolucionizoval způsob generování a ukládání klíčů.
-  - Standardizoval strukturu a hierarchii HD peněženek.
-explanation: |
-  BIP38 navrhl přidání dalšího hesla pro posílení bezpečnosti jednotlivých klíčů. To je jedno z mnoha vylepšení učiněných pro zvýšení bezpečnosti a funkčnosti HD peněženek.
-reviewed: false
+otázka: Jaká pseudonáhodná funkce se používá v PBKDF2 pro výpočet seedu Bitcoin HD peněženky?
+odpověď: HMAC-SHA512.
+nesprávné_odpovědi:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+vysvětlení: |
+  HMAC-SHA512 je pseudonáhodná funkce používaná v PBKDF2 pro generování seedu Bitcoin HD peněženky.
+recenzováno: false

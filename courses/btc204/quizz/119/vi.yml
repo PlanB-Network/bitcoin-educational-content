@@ -1,0 +1,13 @@
+câu hỏi: Sự khác biệt chính giữa ricochet nâng cao và ricochet cổ điển là gì?
+
+câu trả lời: Sự phân bổ các giao dịch theo thời gian
+
+câu trả lời sai:
+  - Số lượng giao dịch được sử dụng
+  - Loại địa chỉ được sử dụng
+  - Số lượng outputs trong các giao dịch
+
+giải thích: |
+  Ricochet nâng cao đảm bảo rằng mỗi giao dịch được phát sóng vào một thời điểm riêng biệt và được ghi lại trong một khối khác nhau, trong khi đó ricochet cổ điển phát sóng tất cả các giao dịch trong một khung thời gian ngắn.
+
+đã xem xét: false

@@ -1,0 +1,9 @@
+spørsmål: Hvis jeg genererer et 256-bit tilfeldig tall, hva vil størrelsen på gjenopprettingsfrasen min være i ord?
+svar: 24 ord.
+feil_svar:
+  - 6 ord.
+  - 8 ord.
+  - 12 ord.
+forklaring: |
+  Et 256-bit tilfeldig tall tilsvarer en 24-ords mnemonic frase i henhold til BIP39-standarden.
+gjennomgått: false

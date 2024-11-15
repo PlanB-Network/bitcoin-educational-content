@@ -1,0 +1,9 @@
+otázka: Co znamená, když jsou dvě čísla "nesoudělná"?
+odpověď: Jejich největší společný dělitel je roven 1
+špatné_odpovědi:
+  - Jejich součet je sudé číslo
+  - Obě jsou sudá
+  - Nemají žádné společné dělitele kromě 1 a sami sebe
+vysvětlení: |
+  Dvě čísla jsou nesoudělná, pokud je jejich největší společný dělitel 1, což znamená, že nemají žádné společné prvočinitele, což je důležitá vlastnost v kryptografii.
+recenzováno: false

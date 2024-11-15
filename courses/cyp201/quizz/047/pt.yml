@@ -1,9 +1,9 @@
-question: Qual é o propósito do nonce no contexto das transações de Bitcoin?
-answer: Ele é usado na criação de uma assinatura digital.
-wrong_answers:
-  - Ele é usado para criptografar os dados da transação.
-  - Ele é usado para armazenar os dados da transação.
-  - Ele é usado para transmitir os dados da transação.
-explanation: |
-  No contexto das transações de Bitcoin, um nonce é usado na criação de uma assinatura digital. Especificamente, ele é usado no cálculo de um número específico V e na assinatura digital composta por duas partes, S1 e S2.
-reviewed: false
+pergunta: Por que usar uma frase-senha fortalece a segurança de uma carteira HD?
+resposta: Ela adiciona uma camada extra de proteção à frase mnemônica.
+respostas_erradas:
+  - Permite a geração de chaves públicas mais fortes.
+  - Protege criptograficamente as transações.
+  - Dobra o número de bitcoins na carteira.
+explicação: |
+  A frase-senha aumenta a segurança ao adicionar um dado adicional à frase mnemônica, atuando de forma semelhante a um 2FA.
+revisado: false

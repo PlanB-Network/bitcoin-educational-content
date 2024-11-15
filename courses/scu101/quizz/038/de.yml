@@ -1,9 +1,0 @@
-question: Was ist ein Passwort-Manager?
-answer: Ein Tool, das es Ihnen ermöglicht, Ihre Passwörter für verschiedene Online-Konten zu speichern, zu generieren und zu verwalten.
-wrong_answers:
-  - Ein Tool, das Ihnen hilft, sich an all Ihre Passwörter zu erinnern.
-  - Ein Tool, das Sie automatisch in Ihre Online-Konten einloggt.
-  - Ein Tool, das Ihren Computer vor Viren schützt.
-explanation: |
-  Ein Passwort-Manager ist ein Tool, das es Ihnen ermöglicht, Ihre Passwörter für verschiedene Online-Konten zu speichern, zu generieren und zu verwalten. Es hilft Ihnen dabei, starke Passwörter zu erstellen und sich an sie zu erinnern, sodass Sie es nicht müssen.
-reviewed: false

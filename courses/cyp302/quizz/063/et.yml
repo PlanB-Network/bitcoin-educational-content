@@ -1,0 +1,9 @@
+question: Miks kasutatakse krüptograafia näidetes tihti tegelasi Alice ja Bob?
+answer: Et illustreerida krüptograafilisi põhimõtteid lihtsustatud viisil
+wrong_answers:
+  - Kuna Alice ja Bob on krüptograafias tehnilised terminid
+  - Kuna need on maailmas kõige levinumad nimed
+  - Kuna need esindavad arvutisüsteeme
+explanation: |
+  Alice ja Bob on krüptograafias tavaliselt kasutatavad väljamõeldud tegelased, et illustreerida sõnumivahetusi ja krüptograafilisi põhimõtteid lihtsustatud ja skeemilises kontekstis.
+reviewed: false

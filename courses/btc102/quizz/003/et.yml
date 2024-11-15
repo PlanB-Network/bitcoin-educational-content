@@ -1,0 +1,11 @@
+question: Mis on krüptoinfluencerite või -gurude levinud taktika?
+answer: Ebakindlate krüptovaluutade reklaamimine.
+wrong_answers:
+  - Füüsiliste varade reklaamimine.
+  - Fiat-valuutade reklaamimine.
+  - Tarkvaratoodete reklaamimine.
+explanation: |
+  Krüptoinfluencerid või -gurud võivad tihti omada isiklikke eesmärke ja võivad olla seotud
+  arvukate projektidega, mida nad soovivad reklaamida, isegi kui need ei pruugi alati olla
+  investorite huvides. Need influencerid võivad üritada reklaamida ebakindlaid krüptovaluutasid ehk "shitcoine".
+reviewed: false

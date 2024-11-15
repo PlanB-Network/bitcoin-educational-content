@@ -1,0 +1,9 @@
+question: What is the role of the modulo operation in shift cipher encryption?
+answer: It ensures that the letters return to the beginning of the alphabet when exceeding 26
+wrong_answers:
+  - It multiplies the letter values by the key
+  - It reverses the letters of the alphabet
+  - It deletes the letters after the letter "Z"
+explanation: |
+  The modulo 26 operation allows the letters to loop back after "Z" to ensure that each encrypted letter remains within the 26 letters of the alphabet.
+reviewed: false

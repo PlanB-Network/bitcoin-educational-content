@@ -1,0 +1,9 @@
+Frage: Warum reicht Vertraulichkeit allein nicht aus, um sichere Kommunikation zu gewährleisten?
+Antwort: Weil ein Angreifer die Nachricht immer noch abfangen und verändern kann, ohne ihren Inhalt zu verstehen.
+falsche_Antworten:
+  - Weil es zu schwierig ist, Vertraulichkeit zu erreichen.
+  - Weil private Schlüssel leicht erraten werden können.
+  - Weil Nachrichten ohne eine digitale Signatur nicht authentifiziert werden können.
+Erklärung: |
+  Vertraulichkeit schützt den Inhalt von Nachrichten, aber ohne einen MAC könnte ein Angreifer immer noch eine Nachricht abfangen und verändern, ohne sie zu verstehen, und somit die Integrität der Kommunikation gefährden.
+überprüft: false

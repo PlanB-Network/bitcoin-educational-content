@@ -1,0 +1,9 @@
+domanda: Qual è il ruolo dell'array K nella cifratura RC4?
+risposta: Inizializza e trasforma l'array S per generare il flusso di chiavi
+risposte_errate:
+  - Cripta direttamente il testo in chiaro
+  - Memorizza il testo cifrato
+  - Serve solo come memoria temporanea per i dati fino alla fine del processo
+spiegazione: |
+  L'array K è utilizzato per trasformare l'array S nel processo di pianificazione della chiave, il che permette la generazione di un flusso di chiavi pseudocasuale per cifrare il testo in chiaro.
+recensito: false

@@ -1,0 +1,9 @@
+pergunta: Em um grupo cíclico, qual é o termo para um elemento que pode gerar todos os outros elementos por meio de exponenciação?
+resposta: Um gerador
+respostas_erradas:
+  - Um multiplicador
+  - Um coprimo
+  - Um inverso
+explicação: |
+  Um gerador é um elemento em um grupo cíclico que, por meio de exponenciação, pode produzir todos os outros elementos do grupo.
+revisado: false

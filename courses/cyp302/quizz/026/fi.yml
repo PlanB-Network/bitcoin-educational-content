@@ -1,0 +1,9 @@
+kysymys: Mikä on XOR:n vastine modulo-operaatiolle?
+vastaus: XOR vastaa modulo 2 -operaatiota bitteihin
+vaarat_vastaukset:
+  - XOR vastaa klassista vähennys modulo 3 -operaatiota
+  - XOR vastaa modulo 7 -operaatiota bitteihin
+  - XOR on lisäyksen käänteisoperaatio
+selitys: |
+  XOR-operaatio voidaan nähdä bittien lisäyksenä modulo 2 kanssa, mikä tekee tuloksista identtiset.
+arvioitu: false

@@ -1,0 +1,9 @@
+domanda: Cos'è la cifratura asincrona di flusso?
+risposta: Una cifratura il cui flusso di chiavi dipende sia dalla chiave che dagli elementi del testo precedentemente cifrato
+risposte_errate:
+  - Una cifratura che genera un flusso di chiavi casuale ad ogni utilizzo
+  - Una cifratura dove la chiave deve essere cambiata per ogni messaggio
+  - Una cifratura il cui flusso di chiavi dipende solo dalla chiave iniziale
+spiegazione: |
+  La cifratura asincrona di flusso è un tipo di cifratura in cui il flusso di chiavi è influenzato sia dalla chiave che dagli elementi del testo cifrato.
+revisionato: false

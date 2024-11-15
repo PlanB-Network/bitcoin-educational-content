@@ -1,0 +1,9 @@
+question: Mis on Adam Smithi raamatu pealkiri?
+answer: "Riikide rikkuse olemuse ja põhjuste uurimine."
+wrong_answers:
+  - "Riikide rikkuse olemuse ja vaimu uurimine."
+  - "Riikide rikkuse olemuse ja päritolu uurimine."
+  - "Riikide rikkuse põhjuse ja päritolu uurimine."
+explanation: |
+  Adam Smithi raamatu täielik pealkiri, "Riikide rikkuse olemuse ja põhjuste uurimine," toob esile tema analüüsi teguritest, mis aitavad kaasa majanduslikule heaolule, uurides rikkuse tootmise ja jaotamise mehhanisme.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Milline järgmistest vastustest ei esinda oma sõlme kasutamise eelist?
+
+answer: Tehingutasude vähendamine.
+
+wrong_answers:
+  - Konsensuses osalemine.
+  - Sõltumatus kolmandatest osapooltest.
+  - Võime vastu seista tehingute tsenseerimisele.
+
+explanation: |
+  Siin on põhjused, miks oma sõlme omamine on hädavajalik Bitcoin'i täielikult suveräänseks kasutamiseks: Tsenseerimisvastasus: Teie tehinguid ei saa keegi blokeerida; Sõltumatus kolmandatest osapooltest: Te ei sõltu enam ühestki välisest teenusest, et kontrollida plokiahela andmeid; Aktiivne osalemine: Teil on võimalus seada oma valideerimisreeglid ja osaleda otseselt konsensuses; Panus võrku: Sõlme käitades aitate tugevdada ja levitada Bitcoin'i võrku; Tehniline haridus: Täissõlme haldamine on suurepärane viis süvendada oma tehnilisi teadmisi Bitcoin'ist.

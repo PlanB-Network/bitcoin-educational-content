@@ -1,0 +1,9 @@
+question: Hva er en PRNG?
+answer: En algoritme som genererer tilfeldige tall fra et frø og en transformasjonsfunksjon.
+wrong_answers:
+  - En maskinvareenhet som genererer virkelig tilfeldige tall.
+  - En generator som produserer tilfeldige tall uten noe frø.
+  - En algoritme som genererer forutsigbare tall.
+explanation: |
+  En PRNG genererer pseudo-tilfeldige tall fra et frø, men i motsetning til en TRNG, er den ikke virkelig tilfeldig.
+reviewed: false

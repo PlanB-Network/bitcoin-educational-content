@@ -1,11 +1,9 @@
-question: Miksi SHA0, SHA1 ja MD5 katsotaan vanhentuneiksi hajautusfunktioiksi?
-answer: Ne ovat menettäneet vastustuskykynsä törmäyksille.
-wrong_answers:
-  - Ne ovat liian hitaita laskettaviksi.
-  - Ne tuottavat liian suuria sormenjälkiä.
-  - Ne eivät ole peruuttamattomia.
-explanation: |
-  SHA0, SHA1 ja MD5 katsotaan vanhentuneiksi hajautusfunktioiksi, koska ne
-  ovat menettäneet vastustuskykynsä törmäyksille. Tämä tarkoittaa, että on suhteellisen helppoa
-  löytää kaksi erilaista syötettä, jotka tuottavat saman tuloksen, mikä on merkittävä turvallisuuspuute.
-reviewed: false
+kysymys: Mikä on HASH160 Bitcoin-protokollassa?
+vastaus: SHA256-tiivisteen jälkeen seuraa RIPEMD160-tiiviste.
+vaarat_vastaukset:
+  - Kahden RIPEMD160-tiivisteen yhdistelmä.
+  - Kahden SHA256-tiivisteen yhdistelmä.
+  - MD5-tiivisteen jälkeen seuraa SHA256-tiiviste.
+selitys: |
+  HASH160 yhdistää SHA256-tiivisteen, jonka jälkeen tulee RIPEMD160. Sitä käytetään erityisesti Bitcoin-osoitteiden generoimiseen.
+arvioitu: false

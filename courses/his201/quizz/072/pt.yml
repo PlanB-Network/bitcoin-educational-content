@@ -1,0 +1,9 @@
+pergunta: Para quem Satoshi passou as responsabilidades de desenvolvimento do software quando ele saiu?
+resposta: Gavin Andresen
+respostas_erradas:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explicação: |
+  Gavin havia [declarado](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651) anteriormente que ele "gerenciaria o projeto Bitcoin de forma mais ativa" e havia aberto o repositório no GitHub em dezembro de 2010.
+revisado: false

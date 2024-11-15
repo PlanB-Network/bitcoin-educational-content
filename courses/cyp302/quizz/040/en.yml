@@ -1,0 +1,9 @@
+question: What basic condition must a set "S" with a binary operation satisfy to be a group?
+answer: The closure condition
+wrong_answers:
+  - The commutativity condition
+  - The symmetry condition
+  - The distributivity condition
+explanation: |
+  A set "S" with a binary operation must satisfy several conditions to form a group, and the first is the closure condition: the operation between two elements of "S" must yield an element of "S".
+reviewed: false

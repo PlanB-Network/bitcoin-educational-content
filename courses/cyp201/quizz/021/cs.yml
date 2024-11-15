@@ -1,10 +1,9 @@
-question: Kolik kol provádí PBKDF2 s použitím HMAC SHA512?
-answer: 2048 kol
-wrong_answers:
-  - 1024 kol
-  - 512 kol
-  - 4096 kol
-explanation: |
-  PBKDF2 se používá k převodu mnemonické fráze na seed. Tento algoritmus
-  provádí 2048 kol s použitím HMAC SHA512.
-posouzeno: false
+otázka: Jaká je velikost soukromého klíče Bitcoinu?
+odpověď: 256 bitů.
+nesprávné_odpovědi:
+  - 512 bajtů.
+  - 520 bitů.
+  - 512 bitů.
+vysvětlení: |
+  Soukromý klíč Bitcoinu má standardní velikost 256 bitů, což odpovídá algoritmu eliptické křivky používanému v Bitcoinu.
+recenzováno: false

@@ -1,11 +1,9 @@
-question: What is the purpose of HMAC in the Bitcoin protocol?
-answer: It is used to counter length extension attacks when deriving hierarchically deterministic (HD) wallets.
+question: Where are private keys stored?
+answer: In Bitcoin wallets
 wrong_answers:
-  - It is used to convert a mnemonic phrase into a seed.
-  - It is used to generate a fixed-size output.
-  - It is used to add an additional source of entropy in key derivation.
+  - On the blockchain
+  - On Bitcoin community servers.
+  - On the peer-to-peer network.
 explanation: |
-  HMAC is primarily used to counter length extension attacks when deriving
-  hierarchically deterministic (HD) wallets. It takes a message and a key as inputs
-  and generates a fixed-size output.
+  The wallet contains the private keys necessary to access bitcoins.
 reviewed: false

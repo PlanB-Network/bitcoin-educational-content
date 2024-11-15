@@ -1,0 +1,9 @@
+question: Bitcoin'i protokolli raames, mis on HASH160?
+answer: SHA256 räsi järgneb RIPEMD160 räsi.
+wrong_answers:
+  - Kahekordne RIPEMD160 räsi.
+  - Kahekordne SHA256 räsi.
+  - MD5 räsi järgneb SHA256 räsile.
+explanation: |
+  HASH160 ühendab SHA256 räsi, millele järgneb RIPEMD160, mida kasutatakse eriti Bitcoin'i aadresside genereerimiseks.
+reviewed: false

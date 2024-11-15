@@ -1,9 +1,9 @@
-question: Qual é o algoritmo que o Bitcoin usa para vincular chaves privadas e públicas?
-answer: Algoritmo de Assinatura Digital de Curva Elíptica (ECDSA)
-wrong_answers:
-  - Padrão de Criptografia Avançada (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Algoritmo de Hash Seguro 2 (SHA-2)
-explanation: |
-  O Bitcoin utiliza o Algoritmo de Assinatura Digital de Curva Elíptica (ECDSA) para vincular chaves privadas e públicas.
-reviewed: false
+pergunta: Por que é importante usar uma boa fonte de entropia para gerar chaves privadas?
+resposta: Uma entropia fraca pode tornar as chaves privadas previsíveis e vulneráveis a ataques.
+respostas_erradas:
+  - Uma boa entropia ajuda a otimizar o desempenho da carteira.
+  - A entropia não desempenha nenhum papel na segurança das chaves privadas.
+  - Entropia fraca desacelera as transações.
+explicação: |
+  Se a entropia usada para gerar chaves privadas for baixa, isso poderia permitir que um atacante adivinhasse ou calculasse essas chaves, comprometendo a segurança da carteira.
+revisado: false

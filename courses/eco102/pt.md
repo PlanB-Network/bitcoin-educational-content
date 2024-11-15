@@ -30,7 +30,6 @@ Junte-se a Damien Theillier nesta enriquecedora exploração do pensamento de Fr
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
 Este curso é uma introdução a Frédéric Bastiat, um gênio não reconhecido e um farol para os nossos tempos. Nesta breve introdução, tentarei ajudá-lo a descobrir quem foi Frédéric Bastiat e quais são os principais temas que abordaremos durante esta série.
 ![image](assets/image/00/IMG01.webp)
 
@@ -57,7 +56,6 @@ Neste curso, viajaremos juntos pelo pensamento de Frédéric Bastiat, começando
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
 Em 1844, Frédéric Bastiat fez uma viagem de negócios à Espanha. Após estadias em Madrid, Sevilha, Cádiz e Lisboa, decidiu embarcar para Southampton e visitar a Inglaterra. Em Londres, teve a oportunidade de participar de reuniões da Liga Anti-Corn Law, cujo trabalho ele havia acompanhado de longe. Ele conheceu os principais líderes desta Associação, incluindo Richard Cobden, que se tornaria seu amigo.
 ![image](assets/image/00/IMG03.webp)
 
@@ -107,8 +105,6 @@ Ele morreu em Roma em 1850, de tuberculose. Ele está enterrado na Igreja de Sã
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
-![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
-
 Em economia, Bastiat sempre reconheceu sua dívida para com Adam Smith e Jean-Baptiste Say. Aos 26 anos, ele escreveu para um de seus amigos: "Eu nunca li sobre esses assuntos, mas essas quatro obras, Smith, Say, Destutt e o Censor."
 
 ![image](assets/image/01/IMG02.webp)
@@ -157,7 +153,6 @@ Os produtores recorrem à persuasão, negociação e contrato, enquanto os saque
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
 É pouco conhecido, mas Destutt de Tracy teve uma influência decisiva sobre o futuro Presidente dos Estados Unidos, Thomas Jefferson, enquanto este era embaixador em Paris na década de 1780.
 > "Para todo homem, seu primeiro país é sua pátria, e o segundo é a França" & "Tirania é quando o povo teme seu governo; liberdade é quando o governo teme o povo."
 >
@@ -189,8 +184,6 @@ Nosso autor não chega a definir a economia política como a ciência das trocas
 
 De acordo com Destutt de Tracy, a propriedade necessariamente decorre de nossa natureza, de nossa faculdade de desejo. Se o homem não desejasse nada, ele não teria nem direitos nem deveres. Para atender às suas necessidades e cumprir seus deveres, o homem deve empregar meios que adquire através de seu trabalho. E a forma de organização social que se conforma a este fim é a propriedade privada. É por isso que o único objeto do governo é proteger a propriedade e permitir a troca pacífica.
 
-![image](assets/image/02/IMG05.webp)
-
 Para ele, os melhores impostos são os mais moderados, e ele deseja que os gastos do estado sejam o mais restritos possível. Ele condena o saque da riqueza da sociedade pelo governo na forma de dívida pública, impostos, monopólios bancários e gastos. Mais uma vez, a lei deve servir apenas para proteger a liberdade; ela nunca deve saquear.
 
 Finalmente, ele adiciona esta recomendação, que não perdeu sua relevância:
@@ -202,7 +195,7 @@ Em conclusão, os Ideólogos tiveram uma intuição profunda, a saber, que a pro
 ## Charles Comte e Charles Dunoyer
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+
 A história de todas as civilizações é a história da luta entre as classes saqueadoras e as classes produtivas. Este é o credo dos dois autores que vamos discutir. Eles são os originadores de uma teoria liberal de luta de classes que inspirou tanto Frédéric Bastiat quanto Karl Marx, embora este último a tenha distorcido.
 
 ![image](assets/image/03/IMG01.webp)
@@ -249,8 +242,6 @@ Suas ideias, profundamente inovadoras, marcariam para sempre Frédéric Bastiat,
 ## Cobden e a Liga
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
-
-![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
 
 É 1838, em Manchester, um pequeno número de homens, até então pouco conhecidos, se reúnem para encontrar uma maneira de derrubar o monopólio dos proprietários de terras de trigo por meios legais e realizar, como Bastiat mais tarde relataria,
 
@@ -307,7 +298,6 @@ A questão do livre comércio continua sendo relevante hoje. Livros didáticos d
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![vídeo](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
 
 Frédéric Bastiat, que se expressou na década de 1840, é herdeiro de uma geração de filósofos do Iluminismo que lutaram contra a censura e pela liberdade de debate. Pense em Montesquieu, Diderot, Voltaire, Condorcet, mas também Rousseau.
 
@@ -350,7 +340,6 @@ Segundo Bastiat, a sociedade, as pessoas e as propriedades existem antes das lei
 ## Educação Clássica
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
 Em 24 de fevereiro de 1848, após três dias de tumultos em Paris, o Rei Louis-Philippe I abdicou de seu poder. Isso marcou o nascimento da Segunda República.
 ![image](assets/image/06/IMG20.webp)
 
@@ -389,7 +378,6 @@ No entanto, como Bastiat nos lembra, o monopólio exclui o progresso.
 
 ## Protecionismo e Socialismo
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
 
 ![image](assets/image/07/IMG11.webp)
 
@@ -432,13 +420,13 @@ E ele continuaria a analisar seus efeitos perversos a partir de então. Aqui est
 ![image](assets/image/07/IMG08.webp)
 Para concluir, protecionistas e socialistas compartilham um ponto comum, segundo Bastiat: o que eles buscam na lei não é garantir a todos o livre exercício de suas faculdades e a justa recompensa por seus esforços, mas sim favorecer a exploração mais ou menos completa de uma classe de cidadãos por outra. Com o protecionismo, é a minoria que explora a maioria. Com o socialismo, é a maioria que explora a minoria. Em ambos os casos, a justiça é violada e o interesse geral é comprometido. Bastiat os coloca um contra o outro.
 
-![image](assets/image/07/IMG15.webp)
+> O Estado é a grande ficção através da qual todos se esforçam para viver às custas de todos os outros.
+
 
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-![video](https://youtu.be/nBY6VUhtUis?si=EpWFShKZEQOyqRjg)
 
 Pierre-Joseph Proudhon é um dos principais representantes do socialismo francês em meados do século XIX. Ele é especialmente famoso por esta declaração: "A propriedade é um roubo" em "O que é Propriedade?" em 1840.
 
@@ -491,7 +479,6 @@ Em conclusão, tanto Proudhon quanto Bastiat reconheceram a importância do acú
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
 
 Neste capítulo, vou revelar uma tecnologia completamente nova, uma tecnologia revolucionária. Um pesquisador desenvolveu um par de óculos biônicos com uma mini-câmera ultra-poderosa embutida na frente. Esta tecnologia permite ver detalhes impossíveis de serem vistos a olho nu. Nos braços, há um chip eletrônico que transmite imagens diretamente para a nuvem via meu smartphone.
 
@@ -504,7 +491,7 @@ Assim, em Obras Públicas, Bastiat escreve:
 
 > O Estado abre uma estrada, constrói um palácio, retifica uma rua, escava um canal; com isso, dá trabalho a certos trabalhadores, isso é o que é visto; mas priva trabalho de certos outros, isso é o que não é visto.
 
-![image](assets/image/09/IMG20.webp)
+
 Um dos sofismas mais conhecidos é a falácia da janela quebrada. Alguns afirmam que o quebrar de uma janela em uma casa não prejudica a economia, pois beneficia o vidraceiro. Mas Bastiat mostrará que a destruição não é do nosso interesse porque não cria riqueza. Custa mais do que rende. O jovem que quebra a janela do vizinho dá trabalho ao vidraceiro. Mas eis como seus amigos o consolam:
 > "Toda nuvem tem um lado bom. Tais acidentes mantêm a indústria em movimento. Todos precisam viver. O que seria dos vidraceiros se as janelas nunca fossem quebradas?"
 
@@ -531,7 +518,6 @@ A grande lição desta série de textos é que a intervenção estatal tem efeit
 ## A petição dos fabricantes de velas
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
 Em 1840, a Câmara dos Deputados votou por uma lei que aumentava os impostos de importação para proteger a indústria francesa. Esse é o famoso patriotismo econômico, que ainda encontramos hoje.
 
 ![image](assets/image/10/IMG13.webp)
@@ -568,7 +554,7 @@ Seguindo essa lógica de criar empregos a todo custo, por que não também subst
 Essa confusão de meios e fim é encontrada no slogan "dinheiro é riqueza."
 Esse é o axioma que governa a política monetária da maioria dos estados. De fato, o aumento artificial na quantidade de dinheiro permite que bancos emprestem dinheiro a indivíduos e estados para facilmente repagar suas dívidas, isso é "o que vemos". Mas "o que não vemos" é que essa criação de dinheiro, não baseada em nenhuma criação real de riqueza, levará à inflação e à ruína dos poupadores.
 
-![image](assets/image/10/IMG24.webp)
+
 
 A verdadeira riqueza, segundo Bastiat, é portanto o conjunto de coisas úteis que produzimos através do trabalho para satisfazer nossas necessidades. O dinheiro é assim apenas um meio de troca comumente usado, ele apenas desempenha o papel de um intermediário.
 
@@ -576,7 +562,6 @@ A verdadeira riqueza, segundo Bastiat, é portanto o conjunto de coisas úteis q
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
-![video](https://youtu.be/VAewCBZGmaY?si=DRRU4eTbiB5iNU3J)
 
 > Quando os ricos perdem peso, os pobres morrem.
 
@@ -615,9 +600,13 @@ O problema é que os impostos, como concebidos, estão sujeitos à arbitrariedad
 
 É por isso que Bastiat já havia entendido a curva de Laffer. Arthur Laffer é um economista americano conhecido por sua famosa "curva" (uma elipse), publicada em 1974, que mostra que o rendimento dos impostos aumenta com a redução da taxa de imposto. Esta é a teoria do retorno decrescente da tributação excessiva.
 
-![image](assets/image/11/IMG6.webp)
+> Imposto demais mata o imposto.
+
 
 Os políticos assumem ingenuamente que existe uma relação automática e fixa entre as taxas de imposto e as receitas fiscais. Eles pensam que podem dobrar as receitas fiscais dobrando a taxa de imposto. Segundo Laffer, tal abordagem ignora o fato de que os contribuintes podem mudar seu comportamento em resposta a novos incentivos.
+
+![image](assets/image/11/IMG7.webp)
+
 A curva de Laffer mostra que o governo não arrecada receita quando as taxas de imposto estão em 100%. Ao contrário, qualquer redução nos impostos serve para estimular a atividade econômica e, assim, as receitas do estado. De fato, reduzir as taxas marginais de imposto estimula o investimento, o trabalho, a criatividade e, assim, promove o crescimento econômico. Uma redução suficiente poderia produzir estímulo econômico suficiente para aumentar as receitas públicas ampliando significativamente a base tributária.
 
 Bastiat poderia acrescentar que tanta importância deveria ser dada à redução dos gastos do estado quanto à redução dos impostos. No entanto, como Margaret Thatcher, discípula de Frédéric Bastiat, colocou tão adequadamente:
@@ -674,7 +663,6 @@ Uma coisa é certa, não é o político quem pode mudar o curso das coisas e ape
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
 
 Uma sociedade harmoniosa pode prescindir de leis escritas, regras, medidas repressivas? Se os homens forem deixados livres, não testemunharemos desordem, anarquia, desorganização? Como evitar criar uma mera justaposição de indivíduos agindo fora de qualquer concerto, senão através de leis e uma organização política centralizada?
 
@@ -711,7 +699,6 @@ Ele revisita a ideia de Bastiat de uma cooperação invisível entre milhões de
 
 O Prêmio Nobel de Economia de 1976, Milton Friedman, também revisitou esta história do lápis para explicar ao grande público como funciona a economia de mercado.
 
-![video](https://youtu.be/67tHtpac5ws?si=Ck9jVkdpYHbUJ5we)
 
 Em um episódio de sua série de televisão Free to Choose, ele analisa os vários componentes de algo tão comum e simples quanto um lápis e destaca o milagre da ordem espontânea, gerada por milhares de interações econômicas em todo o mundo. Pessoas que não se conhecem, que não compartilham a mesma religião ou costumes, ainda conseguem se coordenar para produzir este objeto. Ele conclui que o mercado livre é essencial para garantir não apenas a prosperidade, mas também a harmonia e a paz.
 
@@ -725,7 +712,6 @@ O planejamento econômico, que alega fazer melhor que o mercado, leva não apena
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-![vídeo](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
 
 Em uma carta para Alphonse de Lamartine em 1845, Bastiat escreveu que sua filosofia inteira está contida em um único princípio:
 
@@ -788,7 +774,6 @@ Em outras palavras, escolhas coletivas não são escolhas responsáveis já que,
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
 
 No curso anterior, vimos por que liberdade e responsabilidade são chaves para o problema social. Agora, vamos aprofundar neste ponto mostrando como Frédéric Bastiat vê os males que afligem as sociedades e sua solução.
 
@@ -835,7 +820,6 @@ Deve ser esclarecido que este desenvolvimento do progresso através da responsab
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -890,7 +874,6 @@ A lei pode compelir um homem a ser justo, mas não pode forçá-lo a ser devotad
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-![video](https://youtu.be/M7g5ZhX7uwM?si=Hu3kTmj9pE-eRZmw)
 
 Por propriedade, não devemos entender terra aqui. Significa "o direito de um trabalhador sobre o valor que ele criou através de seu trabalho." Bastiat especifica:
 
@@ -944,7 +927,6 @@ _(Cícero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-![video](https://youtu.be/DJgC0W8ViHs?si=xmSWGDYcbb_2tpPt)
 
 A ideia principal de Bastiat em "A Lei", seu famoso panfleto datado de 1850, é mostrar por que e como a lei se tornou saqueadora, ou seja, uma fonte de privilégios, rendas situacionais e arbitrariedade fiscal.
 
@@ -993,7 +975,6 @@ Bastiat escreveu em A Lei, algum tempo antes de morrer. Um século após a morte
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![vídeo](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
 
 Em 1848, Bastiat era um deputado. Ele foi nomeado vice-presidente da comissão de finanças. Ele estava, portanto, particularmente bem posicionado para responder a esta pergunta: o que é o Estado? Recorremos ao Estado para garantir nosso bem-estar. Mas Bastiat nos lembra que o Estado não pode dar nada aos cidadãos que primeiro não tenha tirado deles.
 
@@ -1045,7 +1026,7 @@ Escreveu Frédéric Bastiat em um pequeno panfleto intitulado O Estado.
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1053,7 +1034,6 @@ Escreveu Frédéric Bastiat em um pequeno panfleto intitulado O Estado.
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-![video](https://youtu.be/bzaIT_G-d4E?si=lzcCHS4FAneNmVSS)
 
 A influência de Bastiat começou a declinar em direção ao final do século 19, com a ascensão do socialismo e particularmente do marxismo dentro das universidades e institutos de pesquisa, financiados por dinheiro público.
 
@@ -1080,3 +1060,5 @@ Mas, como Bastiat demonstrou de forma apta, a intervenção estatal tem efeitos 
 Se olharmos as coisas sob este ângulo, Reagan explicou aos funcionários da GE, os chamados milagres dos gastos estatais aparecem sob uma luz completamente diferente. Porque os impostos desencorajam a produção, e a riqueza criada pelo gasto público não pode compensar totalmente aquelas que foram impedidas de nascer pelos impostos arrecadados para pagar por essas despesas.
 ![image](assets/image/20/IMG10.webp)
 Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empreendedor na criação de riqueza, a importância de um quadro legal flexível e mínimo, que permite confiança e respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes que possa ser distribuída, o desejo de dar a todos uma chance nos mercados competitivos…
+
+

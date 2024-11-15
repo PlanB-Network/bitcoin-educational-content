@@ -1,0 +1,9 @@
+otázka: Jaký je účel operace "shift rows" v AES?
+odpověď: Zvýšit difuzi přeuspořádáním bajtů v tabulce stavu
+špatné_odpovědi:
+  - Zajistit, aby každý blok měl stejnou délku
+  - Aplikovat tajný klíč na každý řádek tabulky stavu
+  - Zavést dodatečnou záměnu substitucí bajtů
+vysvětlení: |
+  Operace "shift rows" v AES přeuspořádá bajty v tabulce stavu, aby rozšířila informace, čímž zvyšuje difuzi.
+recenzováno: false

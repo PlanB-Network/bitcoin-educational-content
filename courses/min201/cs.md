@@ -21,9 +21,11 @@ Pokud potřebujete pomoc se svým nastavením, pro studenty byla vytvořena skup
 +++
 
 # Úvod
+
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
 ## Vítejte!
+
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 Vítejte na MINING 201: úvod do těžby. Ajelex, Jim & Rogzy se těší, že vás budou doprovázet ve vašich prvních konkrétních krocích v tomto novém průmyslu. Doufáme, že si kurz užijete a připojíte se k dobrodružství domácí těžby!
@@ -39,28 +41,33 @@ Tato vzdělávací cesta vám ukáže, že těžební průmysl je složitější
 ### Učební plán:
 
 Teoretická část:
-* Vysvětlení těžby.
-* Těžební průmysl.
-* Nuance těžebního průmyslu.
-* Těžba v protokolu Bitcoinu.
-* Cena Bitcoinu a Hashrate, korelace? Suverenita a regulace
-* Rozhovor s profesionálem z těžebního průmyslu
+
+- Vysvětlení těžby.
+- Těžební průmysl.
+- Nuance těžebního průmyslu.
+- Těžba v protokolu Bitcoinu.
+- Cena Bitcoinu a Hashrate, korelace? Suverenita a regulace
+- Rozhovor s profesionálem z těžebního průmyslu
 
 Praktická část: Attakai
-* Úvod do Attakai.
-* Nákupní průvodce.
-* Úprava softwaru Antmineru S9.
-* Výměna ventilátorů pro snížení hluku.
-* Konfigurace poolu.
-* Konfigurace Antmineru S9 s Braiins OS+.
+
+- Úvod do Attakai.
+- Nákupní průvodce.
+- Úprava softwaru Antmineru S9.
+- Výměna ventilátorů pro snížení hluku.
+- Konfigurace poolu.
+- Konfigurace Antmineru S9 s Braiins OS+.
 
 Jste připraveni vstoupit do této poutavé dobrodružství? Pojďme se společně ponořit do fascinujícího světa domácí těžby!
 
 # Vše, co potřebujete vědět o těžbě
+
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
 ## Vysvětlení těžby
+
 <chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+
 ### Vysvětlení těžby: Analogie s puzzle
 
 Pro zjednodušené vysvětlení konceptu těžby lze použít příhodnou analogii: puzzle. Stejně jako puzzle, těžba je složitý úkol, který je ovšem snadno ověřitelný po jeho dokončení. V kontextu těžby Bitcoinu se těžaři snaží rychle vyřešit digitální puzzle. První těžař, který puzzle vyřeší, prezentuje své řešení celé síti, která poté snadno ověří jeho platnost. Toto úspěšné ověření umožňuje těžaři validovat nový blok a přidat ho do Bitcoinového časového řetězce. Jako uznání za jejich práci, která zahrnuje významné náklady, je těžař odměněn určitým počtem bitcoinů. Tato odměna slouží jako finanční pobídka pro těžaře, aby pokračovali ve své práci validace transakcí a zabezpečení Bitcoinové sítě.
@@ -77,6 +84,7 @@ Proces těžby zahrnuje nalezení platného hash, který je přijatelný pro Bit
 Na začátku dominovala éra CPU, kdy těžaři používali své osobní počítače pro těžbu Bitcoinu. Objev výhod GPU (grafických karet) pro tuto úlohu znamenal zlom, výrazně zvýšil hashrate a snížil spotřebu energie. Pokrok zde ale neskončil, následovalo zavedení FPGA (programovatelných hradlových polí). FPGA sloužily jako platforma pro vývoj ASIC (aplikačně specifických integrovaných obvodů).
 
 ![image](assets/overview/chip.webp)
+
 ASIC jsou čipy, srovnatelné s čipem CPU, nicméně jsou vyvinuty k provádění pouze jednoho konkrétního typu výpočtu co nejefektivnějším způsobem. Jinými slovy, CPU je schopno provádět mnoho různých typů výpočtů, aniž by bylo zvláště optimalizováno pro jeden konkrétní typ výpočtu, zatímco ASIC bude schopno provádět pouze jeden typ výpočtu, ale velmi efektivně. V případě Bitcoin ASIC jsou tyto čipy navrženy pro výpočet algoritmu SHA256. Dnes již těžaři výhradně používají ASIC určené pro tuto operaci, optimalizované tak, aby testovaly maximální počet kombinací s co nejmenší spotřebou energie a co nejrychleji. Tyto počítače, neschopné provádět jiné úkoly než těžbu Bitcoinu, jsou hmatatelným svědectvím neustálého vývoje a rostoucí specializace průmyslu těžby Bitcoinu. Tento neustálý vývoj odráží vnitřní dynamiku Bitcoinu, kde úprava obtížnosti zajišťuje produkci bloku každých deset minut navzdory exponenciálnímu nárůstu těžební kapacity.
 
 Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopného dosáhnout 14 TeraHash za sekundu, neboli 14 bilionů pokusů každou sekundu najít správný hash. Na úrovni sítě Bitcoinu dosahujeme nyní přibližně 300 HexaHash za sekundu, což zdůrazňuje kolektivní sílu mobilizovanou v těžbě Bitcoinu.
@@ -87,18 +95,20 @@ Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopné
 
 ![obrázek](assets/overview/chinaban.webp)
 
-* Příklad z Číny:
-Případ Číny dokonale ilustruje tento mechanismus úpravy obtížnosti. S hojnou a levnou energií byla Čína hlavním globálním centrem pro těžbu Bitcoinu. V roce 2021 země náhle zakázala těžbu Bitcoinu na svém území, což vedlo k masivnímu poklesu celosvětového hashrate sítě Bitcoin, asi o 50%. Tento rychlý pokles těžební síly mohl vážně narušit síť Bitcoin tím, že by zvýšil průměrný čas těžby bloků. Avšak mechanismus úpravy obtížnosti zasáhl, snížil obtížnost těžby, aby zajistil, že frekvence těžby bloků zůstane v průměru 10 minut. Tento případ demonstruje efektivitu a odolnost mechanismu úpravy obtížnosti Bitcoinu, který zajišťuje stabilitu a předvídatelnost sítě, i v případě náhlých a významných změn v globální krajině těžby.
+- Příklad z Číny:
+  Případ Číny dokonale ilustruje tento mechanismus úpravy obtížnosti. S hojnou a levnou energií byla Čína hlavním globálním centrem pro těžbu Bitcoinu. V roce 2021 země náhle zakázala těžbu Bitcoinu na svém území, což vedlo k masivnímu poklesu celosvětového hashrate sítě Bitcoin, asi o 50%. Tento rychlý pokles těžební síly mohl vážně narušit síť Bitcoin tím, že by zvýšil průměrný čas těžby bloků. Avšak mechanismus úpravy obtížnosti zasáhl, snížil obtížnost těžby, aby zajistil, že frekvence těžby bloků zůstane v průměru 10 minut. Tento případ demonstruje efektivitu a odolnost mechanismu úpravy obtížnosti Bitcoinu, který zajišťuje stabilitu a předvídatelnost sítě, i v případě náhlých a významných změn v globální krajině těžby.
 
 ### Vývoj strojů pro těžbu Bitcoinu
 
 Pokud jde o vývoj strojů pro těžbu Bitcoinu, je důležité poznamenat, že kontext je více orientován směrem k tradičnímu obchodnímu modelu. Těžaři vydělávají svůj příjem z validace bloků, úkolu s relativně nízkou pravděpodobností úspěchu. Současný model v použití, Antminer S9, ačkoli je starší model spuštěný kolem roku 2016, je stále v oběhu na trhu s použitými, obchoduje se za přibližně 100 až 200 €. Cena těžebních strojů se nicméně liší na základě hodnoty Bitcoinu, a novější model, Antminer S19, je v současné době odhadován na přibližně 3000 €.
 V oblasti těžby se odborníci musí strategicky pozicovat vzhledem k neustálému technologickému pokroku. Těžební průmysl je předmětem neustálých inovací, jak dokládá nedávné uvedení verze J modelu S19 a očekávané uvedení modelu S19 XP, které nabízí výrazně vyšší těžební schopnosti. Navíc se zlepšení netýkají pouze surového výkonu strojů. Například nový model S19 XP používá systém kapalinového chlazení, technickou úpravu, která umožňuje významné zlepšení energetické účinnosti. Ačkoli inovace zůstávají konstantní, budoucí zisky v účinnosti budou pravděpodobně menší ve srovnání s dosud pozorovanými, kvůli dosažení určitého prahu technologické inovace.
+
 ![image](assets/overview/chipevolution.webp)
 
 Závěrem, průmysl těžby Bitcoinu pokračuje v adaptaci a rozvoji, a hráči v průmyslu musí očekávat snižující se zisky v účinnosti do budoucna a přizpůsobit své strategie podle toho. Budoucí technologické pokroky, ačkoli stále přítomné, pravděpodobně nastanou na menší škále, což odráží rostoucí zralost sektoru.
 
 ## Těžební průmysl
+
 <chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
 ### Těžební pooly
@@ -115,7 +125,9 @@ Například, pokud pool najde blok a vyhraje 6.25 bitcoinů, těžař přispíva
 
 V kontextu těžby Bitcoinu je role softwaru stejně důležitá jako hardware. Příkladem toho je role společnosti Bitmain, významného výrobce, který vyvinul Antminer S9. Kromě těžebního hardwaru se průmysl silně spoléhá na kolaborativní těžební pooly, jako je Brainspool, který kontroluje přibližně 5% celosvětového hashrate Bitcoinové sítě.
 Akteři v tomto průmyslu neustále usilují o zvýšení účinnosti prostřednictvím hardwaru a softwaru. Například populární software používaný v tomto kontextu je BrainsOS Plus. Tento software nahrazuje původní operační systém těžebního stroje, což umožňuje provádět stejné operace efektivněji. S takovým softwarem může těžař zvýšit účinnost svého stroje o 25%. To znamená, že za stejné množství elektřiny může stroj produkovat dalších 25% hashrate, čímž zvyšuje odměny přijímané těžařem. Tato optimalizace softwaru je zásadním prvkem konkurenceschopnosti v těžbě Bitcoinu, což ukazuje důležitost integrovaného přístupu, který kombinuje zlepšení hardwaru i softwaru, aby maximalizoval účinnost a výnosy.
+
 ### Regulace a Elektrické Tarify
+
 Jak bylo pozorováno v Číně a jinde, regulace má významný vliv na těžbu. Ačkoliv ve Francii nejsou žádní významní těžaři, regulace a vysoké elektrické tarify v Evropě představují hlavní překážky. Těžaři neustále hledají elektrickou energii za nízké ceny, aby maximalizovali své zisky. Proto vysoké náklady na elektrickou energii v Evropě a ve Francii nepřitahují těžaře do těchto regionů.
 
 Těžaři mají tendenci gravitovat k regionům s nízkými elektrickými tarify, často v rozvíjejících se zemích nebo zemích s energetickými přebytky. Například velká část globálního hashrate se nachází v Texasu, ve Spojených státech. Texas má nezávislou energetickou síť, která nesdílí své energetické zdroje s ostatními státy. Tato jedinečnost často vede Texas k tomu, že produkuje více elektrické energie, než je nutné, aby se vyhnul nedostatkům, čímž vytváří přebytek. Bitcoinoví těžaři využívají této nadprodukce tím, že zřizují operace v Texasu, kde mohou těžit bitcoiny za velmi nízké elektrické sazby během období energetického přebytku. Tato situace ukazuje významný vliv regulací a elektrických tarifů na těžbu Bitcoinu, zdůrazňující důležitost těchto faktorů v rozhodování těžařů o umístění jejich těžebních operací.
@@ -137,20 +149,30 @@ Riziko Regulace Je zdůrazněno, že pokud by země jako Spojené státy rozhodl
 ![obrázek](assets/overview/foundry.webp)
 
 Pro boj s touto centralizací jsou diskutovány různé strategie:
-* Domácí těžba: Myšlenka domácí těžby je založena na decentralizaci těžební činnosti. Podporuje jednotlivce, aby se zapojili do těžby ze svých domovů, čímž se distribuce hashrate rozšiřuje.
-* Stratum V2: Protokol Stratum V2 nabízí jiný přístup. Na rozdíl od svého předchůdce umožňuje Stratum V2 těžařům vybírat, které transakce zahrnou do bloků, které těží. Tato schopnost posiluje odolnost vůči cenzuře a snižuje schopnost velkých těžebních poolů dominovat v síti. Dáváním větší moci jednotlivým těžařům může protokol Stratum V2 hrát rozhodující roli v boji proti centralizaci hashrate.
-Otevření zdrojového kódu těžebního softwaru
-* Otevření zdrojového kódu těžebního softwaru: Toto je další potenciálně účinná strategie. Tím, že se těžební software stane přístupným pro všechny, měli by malí těžaři stejné příležitosti jako velké těžební společnosti účastnit se a přispívat do blockchainové sítě. Tento přístup by podpořil širší distribuci hashrate, čímž by přispěl k decentralizaci sítě.
-* Diverzifikace aktérů a geografie: Podpora účasti rozmanitých aktérů z různých geografických regionů v těžbě kryptoměn může být také účinná. Diverzifikací hashrate geograficky se stává obtížnější, aby jeden aktér nebo země vyvíjel nepřiměřenou kontrolu nebo vliv nad sítí. Tento přístup může pomoci chránit síť proti potenciálním útokům a posílit její decentralizaci.
+
+- Domácí těžba: Myšlenka domácí těžby je založena na decentralizaci těžební činnosti. Podporuje jednotlivce, aby se zapojili do těžby ze svých domovů, čímž se distribuce hashrate rozšiřuje.
+- Stratum V2: Protokol Stratum V2 nabízí jiný přístup. Na rozdíl od svého předchůdce umožňuje Stratum V2 těžařům vybírat, které transakce zahrnou do bloků, které těží. Tato schopnost posiluje odolnost vůči cenzuře a snižuje schopnost velkých těžebních poolů dominovat v síti. Dáváním větší moci jednotlivým těžařům může protokol Stratum V2 hrát rozhodující roli v boji proti centralizaci hashrate.
+  Otevření zdrojového kódu těžebního softwaru
+- Otevření zdrojového kódu těžebního softwaru: Toto je další potenciálně účinná strategie. Tím, že se těžební software stane přístupným pro všechny, měli by malí těžaři stejné příležitosti jako velké těžební společnosti účastnit se a přispívat do blockchainové sítě. Tento přístup by podpořil širší distribuci hashrate, čímž by přispěl k decentralizaci sítě.
+- Diverzifikace aktérů a geografie: Podpora účasti rozmanitých aktérů z různých geografických regionů v těžbě kryptoměn může být také účinná. Diverzifikací hashrate geograficky se stává obtížnější, aby jeden aktér nebo země vyvíjel nepřiměřenou kontrolu nebo vliv nad sítí. Tento přístup může pomoci chránit síť proti potenciálním útokům a posílit její decentralizaci.
 
 Obecný závěr je, že decentralizace je klíčová pro bezpečnost a odolnost Bitcoinové sítě. Ačkoliv centralizace může nabídnout výhody v efektivitě, vystavuje síť významným rizikům, včetně cenzury a 51% útoků. Iniciativy jako Takai a přijetí nových protokolů jako Stratum V2 jsou důležitými kroky směrem k decentralizaci a ochraně Bitcoinové sítě proti těmto hrozbám.
 
 ## Nuance těžebního průmyslu
+
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
 ### Princip Attakai
 
-Limit této decentralizace?
+V současném kontextu může těžba Bitcoinu pomocí modelu S9 působit složitě, ale hlubší analýza otevírá dveře k inovativním alternativám. Princip Attakai je založen na úvaze o využití těžebních zařízení v různých typech budov, jako jsou školy nebo nemocnice. Hlavní myšlenkou je rozmístit několik těžebních strojů na různá místa, což umožní znovu využít teplo vyzařované těmito stroji k vytápění budov. Pokud by se zvolily výkonnější modely, jako je S19, bylo by možné rozložit těžební činnost, čímž by se zlepšil celkový výkon a zároveň přispělo k užitečné činnosti pro společnost. Tato iniciativa si klade za cíl konkurovat velkým centralizovaným těžebním instalacím tím, že produktivně a efektivně využije teplo generované těžebními stroji.
+
+Iniciativa Attakai vychází z osobního experimentu s domácí těžbou, který provedli dva přátelé toužící aktivně se zapojit do Bitcoinové sítě. Čelili velkým překážkám, jako je vysoká hladina hluku těžebního vybavení, které bylo navrženo pro průmyslové použití, nikoli pro domácí. Aby tento problém vyřešili, provedli na těžebních strojích hardwarové úpravy. Původní vybavení bylo nahrazeno účinnějšími a tiššími ventilátory, což učinilo domácí těžbu přístupnější a méně rušivou. Dále přidali Wi-Fi adaptér, což odstranilo potřebu kabelového připojení přes Ethernet a ještě více zjednodušilo proces domácí těžby. V zimě byly tyto upravené těžební stroje využívány jako zdroj tepla, což proměnilo nepříjemnost ve výhodu.
+
+Po představení svého projektu Bitcoinové komunitě a vzhledem k zájmu, který vzbudil, se vynálezci Attakai rozhodli zveřejnit podrobné návody na platformě Découvre Bitcoin, aby kdokoliv mohl replikovat jejich zkušenost s domácí těžbou. Nyní plánují rozšířit tento koncept i mimo domácí prostředí. Cílem je ukázat, jak může být upravený těžební stroj přeměněn na tiché pomocné topidlo použitelné v zimě, a tím nabídnout plynulý přechod k druhé části školení zaměřené na praktickou realizaci těchto úprav, ilustrované vysvětlujícími videi. Otázkou však zůstává, zda lze tuto iniciativu rozšířit do většího měřítka, a tak nabídnout realistickou a udržitelnou alternativu k současným centralizovaným těžebním strukturám.
+
+![image](assets/overview/attakai.webp)
+
+### Limit této decentralizace?
 
 Ačkoliv myšlenka decentralizace těžby prostřednictvím produktivního využití generovaného tepla vypadá slibně, má určitá omezení a zůstávají otázky. Energeticky náročná zařízení jako sauny a bazény by mohla těžit z tohoto konceptu využitím tepla produkovaného těžaři k ohřevu vody ve svých zařízeních. Tuto praxi již implementují někteří členové Bitcoinové komunity, kteří prozkoumávají různé metody efektivního využití tepla generovaného těžebním zařízením. Například, banketní sál by teoreticky mohl být vytápěn třemi nebo čtyřmi těžaři S19, každý spotřebovávající 3000 wattů a produkující ekvivalentní množství tepla.
 
@@ -159,6 +181,7 @@ Je však třeba poznamenat, že spotřeba energie a produkce tepla jsou ekvivale
 Otázka dlouhodobé efektivity a proveditelnosti využívání bitcoinových těžařů pro vytápění zůstává otevřená. Pokračující inovace v hardwaru pro těžbu a technologiích vytápění mohou potenciálně otevřít nové cesty pro efektivnější využití tepla generovaného těžbou, čímž by přispěly k životaschopnosti tohoto přístupu v budoucnosti.
 
 ### Proč mít BTC odměny?
+
 Otázka odměňování v bitcoinech namísto jiné měny je zásadní v systému, který představil Satoshi Nakamoto. Vytvoření Bitcoinu je charakterizováno pevným limitem 21 milionů jednotek. Cílem bylo najít spravedlivý způsob, jak distribuovat tyto nově vytvořené jednotky. Těžaři, poskytováním svého výpočetního výkonu k zabezpečení sítě a zvyšováním nákladů na jakýkoliv útok, efektivně chrání síť Bitcoinu. Jako odměnu za tento klíčový příspěvek jsou odměňováni nově vytvořenými bitcoiny, což usnadňuje distribuci mincí v rámci ekosystému.
 Je to systém, ve kterém vyhrávají obě strany. Těžaři jsou odměňováni jak za zabezpečení sítě, tak za schvalování transakcí. Nově vytvořené bitcoiny jsou dávány jako pobídka k posílení bezpečnosti, a transakční poplatky jsou dalším příjmem za schválení transakcí. Tyto dva prvky dohromady tvoří celkovou odměnu za těžbu. Otázka budoucnosti těžby vzniká kvůli programovanému snižování odměn za těžbu, které se snižuje každé čtyři roky, událost známá jako "halving". Do roku 2032 bude odměna za blok menší než jeden bitcoin a do roku 2140 nebudou vytvořeny žádné nové bitcoiny. V tomto bodě se těžaři budou spoléhat výhradně na transakční poplatky jako na kompenzaci. Síť Bitcoinu bude muset podporovat velký počet transakcí s dostatečně vysokými poplatky, aby zajistila ziskovost těžby.
 
@@ -175,6 +198,7 @@ S očekávaným růstem Lightning Network a následným zvýšením počtu otev�
 Spekulace obklopují budoucí využití prostoru v blocích, ale obecně je přijímáno, že je to vzácný zdroj, který by měl být moudře využíván. I když existuje touha jej naplnit, je zásadní jej zachovat, aby byla zajištěna dlouhodobá životaschopnost sítě Bitcoinu, s předvídáním budoucího nárůstu poptávky po prostoru v blocích. Jako na jakémkoliv volném trhu, nabídka a poptávka budou regulovat využití prostoru v blocích. S omezenou nabídkou budou muset zúčastněné strany činit informovaná rozhodnutí o využití tohoto cenného prostoru, aby zajistily dlouhodobou efektivitu a bezpečnost sítě Bitcoinu.
 
 ## Těžba Bitcoinu v protokolu Bitcoinu
+
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
 ![Kdo má moc? Bitcoin, energie a výrobci](https://www.youtube.com/watch?v=4wywK6BfDw8)
@@ -193,12 +217,18 @@ Války o velikost bloku odhalily nejistotu a napětí, které jsou vlastní spr�
 Nakonec je odpovědnost sdílena mezi všechny aktéry v síti Bitcoin. Pokles počtu uživatelů, uzlů nebo těžařů by mohl síť oslabit, zvýšit riziko centralizace a zranitelnosti vůči útokům. Každý aktér přispívá k robustnosti a bezpečnosti sítě, což zdůrazňuje důležitost udržení rovnováhy moci a odpovědnosti.
 
 ### Moc těžařů
+
 Elegantní teorie her od Satoshiho Nakamota vytvořila situaci, kde každý aktér v síti Bitcoin je motivován jednat správně, aby chránil jak své vlastní zájmy, tak zájmy ostatních účastníků. To vytváří rovnováhu, kde špatné chování může být potrestáno, čímž se zvyšuje bezpečnost a stabilita celého systému. Přesto zůstávají státy potenciální hrozbou. Jak bylo naznačeno na prezentaci na Surfing Bitcoin 2022, státy mohou pokusit o útok na těžební průmysl, čímž vystavují síť Bitcoin rizikům centralizace a útoku. Hypotetické scénáře, jako je vojenský útok zaměřený na výrobní zařízení těžebního hardwaru, zdůrazňují důležitost geografické a průmyslové diverzifikace pro odolnost sítě Bitcoin.
+
+![image](assets/overview/miner.webp)
 
 Centralizace výroby těžebního hardwaru v Číně představuje další riziko. Odmítnutí exportu těžebních strojů nebo akumulace hashovací síly pro potenciální útok 51% Čínou zdůrazňuje potřebu diverzifikované výroby těžebního hardwaru. Jako reakce na tyto rizika aktivně komunita Bitcoin hledá řešení. Společnosti jako Intel zvažují výrobu těžebního zařízení ve Spojených státech, což přispívá k distribuci výroby. Další iniciativy, jako je open-source Mining Development Kit (MDK) od společnosti Block, mají za cíl snížit monopol na design a výrobu těžebního hardwaru, což umožňuje širší distribuci hashovací síly. V jádru těchto diskusí leží základní poslání Bitcoinu: být sítí pro výměnu hodnot odolnou vůči cenzuře. Komunita Bitcoin neustále usiluje o posílení distribuce, odolnosti vůči cenzuře a anti-křehkosti sítě, odmítajíc předložené návrhy, jako je přechod na proof of stake, které nejsou v souladu s těmito základními principy.
 
 ### Fyzická spojitost Proof of Work vs Proof of Stake
+
 Důkaz práce (Proof of Work - PoW) je zásadní, protože představuje fyzickou spojnici mezi skutečným světem a Bitcoinem. Ačkoliv jsou bitcoiny nehmotné, jejich produkce vyžaduje hmatatelnou energii, čímž se navazuje přímé spojení s fyzickým a skutečným světem. Toto spojení zajišťuje, že produkce a validace bitcoinů a bloků mají skutečnou energetickou cenu, čímž je síť Bitcoin ukotvena ve fyzické realitě a brání její úplné dominanci mocnými subjekty. PoW působí jako obrana proti centralizaci, zajišťující, že účast v síti a validace transakcí vyžadují investici do hmatatelných zdrojů. To brání monopolizaci sítě subjekty, které by jinak mohly získat kontrolu bez jakékoliv významné vstupní bariéry, čímž zajišťuje spravedlivější rozdělení moci a vlivu v rámci sítě Bitcoin.
+
+![image](assets/overview/POWPOS.webp)
 
 ### Omezení Důkazu vkladu
 
@@ -209,13 +239,16 @@ Na druhou stranu, Důkaz vkladu (Proof of Stake - PoS), ačkoliv umožňuje úč
 Shrnutí, těžaři posilují síť Bitcoin proti cenzuře používáním elektrické energie k výpočtu důkazu práce Bitcoinu a jsou odměňováni novými bitcoiny a transakčními poplatky. S profesionalizací průmyslu se objevují různí hráči, kteří plní různé role, od tvorby čipů po správu těžebních farem. Kromě toho finance také hrají roli, když rozhodují, kdo přežije během různých tržních fází. Problém centralizace přetrvává, s nejbohatšími subjekty, které by mohly trh ovládnout. Avšak na hardwarové i softwarové úrovni se vyvíjejí alternativy. Je na každém jednotlivci, aby jednal a přispěl k distribuci sítě. Bitcoin představuje mimořádnou příležitost nejen z hlediska svobody, ale také energetické nezávislosti. Navzdory kontroverzím ohledně jeho spotřeby elektrické energie, Bitcoin nabízí ekonomický stimul pro přechod k rozumnějšímu a hojnějšímu využívání energie, realizující to, co bylo dříve ekologickým ideálem.
 
 ## Cena Bitcoinu a Hashrate, korelace?
+
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
 ![Jak získat čistý a nedotčený bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
 ### Hashrate, cena a ziskovost
+
 Aktuální hash rate, přestože cena Bitcoinu je na 30 000 dolarů ve srovnání s předchozím maximem 69 000 dolarů, zdůrazňuje hmatatelné spojení mezi těžbou a skutečným světem. Období býčího trhu vedou k vysoké poptávce po těžbě Bitcoinu a k nárůstu objednávek strojů od výrobců jako jsou Avalon a Bitmain. Výroba a dodání však nejsou okamžité, což vytváří nesoulad mezi zvýšenou poptávkou a pozdější dostupností. To může vést k tomu, že stroje objednané během býčího trhu jsou dodány v medvědím trhu, což zdůrazňuje významnou asymetrii mezi nízkou cenou a vysokým hash rate.
 Tato situace také ilustruje odolnost Bitcoinu, která je často hodnocena na základě jeho ceny. Avšak pro hlubší analýzu zdraví Bitcoinu je nutné zkoumat jeho hash rate, což měří počet výpočtů za sekundu v síti Bitcoinu. Zatímco cena Bitcoinu kolísá, jeho náklady, spojené s elektřinou potřebnou k provozu těžebních strojů, zůstávají zásadní pro pochopení tržních dynamik. Zaměřením na náklady místo ceny získáme konzistentnější perspektivu na stabilitu a dlouhodobou životaschopnost Bitcoinu. Obecně platí, že náklady na Bitcoin jsou proporcionální jeho ceně, což poskytuje lepší pochopení kolísání cen a budoucích výhledů.
+
 ![obrázek](assets/overview/pricevshashrate.webp)
 
 ### Hash Rate a Odmena
@@ -226,18 +259,23 @@ Těžba stanovuje minimální cenu pro Bitcoin, pod kterou by těžaři prodáva
 
 Otázka je hluboká a zahrnuje několik dimenzí těžby Bitcoinu. Rovnováha mezi hledáním zisku a přispíváním k bezpečnosti a distribuci sítě Bitcoinu je pro těžaře stálým dilematem. Debata v komunitě Bitcoinu pokračuje, s silnými argumenty na obou stranách.
 
-* Těžba pro zisk:
-- Pro: Těžaři jsou přirozeně přitahováni potenciálními výdělky z těžby Bitcoinu. Investice do drahého těžebního zařízení mohou být vyváženy těžebními odměnami a transakčními poplatky, zejména když je cena Bitcoinu vysoká.
-- Proti: Snaha o zisk může vést k centralizaci výpočetního výkonu, pokud si pouze několik velkých společností může dovolit investovat do špičkového těžebního zařízení. Navíc těžba za účelem zisku může mít významný dopad na životní prostředí.
+- Těžba pro zisk:
 
-* Těžba pro síť:
- - Pro: Těžba s cílem přispět k bezpečnosti a decentralizaci sítě Bitcoinu je ušlechtilá iniciativa. Pomáhá posílit odolnost sítě a odolávat cenzuře a útokům.
- - Proti: Bez dostatečného finančního podnětu může být pro těžaře obtížné pokračovat v podpoře sítě, zejména pokud provozují se ztrátou.
-Iniciativa Attakai zdůrazňuje důležitost přispívání do sítě a zároveň nabízí řešení, jak těžbu udělat dostupnější a méně škodlivou. Možnost těžit doma s cenově dostupnějším vybavením a řešeními na snížení hlukového znečištění může pomoci demokratizovat těžbu Bitcoinu. Podporuje ty, kteří mají zájem o Bitcoin, aby nejen investovali a drželi bitcoiny, ale také aktivně participovali na zabezpečení sítě. Poskytováním otestovaného vybavení a průvodců pro montáž a instalaci usnadňuje Attakai vstup do světa těžby Bitcoinu. Také podporuje inovace a nepřetržité zlepšování, zve komunitu, aby přispívala a sdílela své nápady a zkušenosti, čímž vylepšuje domácí těžbu. Model Attakai je odpovědí na otázku těžby pro zisk nebo pro síť. Nejde jen o zisk, ale také o posílení distribuce a bezpečnosti sítě Bitcoinu, zatímco umožňuje více lidem účastnit se těžby, učit se a rozumět tomuto klíčovému průmyslu. Výzva potenciálního zákazu těžby v Evropě zůstává otevřenou otázkou. To vyvolává obavy o budoucnost těžby Bitcoinu v regionu a potřebu vyvážené regulace, která uznává význam těžby pro bezpečnost a životaschopnost sítě Bitcoinu, zatímco řeší environmentální problémy. Attakai a další podobné iniciativy mohou hrát klíčovou roli v této debatě, ukazujíce, že je možné těžit udržitelnějším a odpovědnějším způsobem, zatímco pozitivně přispívat do sítě Bitcoinu.
+* Pro: Těžaři jsou přirozeně přitahováni potenciálními výdělky z těžby Bitcoinu. Investice do drahého těžebního zařízení mohou být vyváženy těžebními odměnami a transakčními poplatky, zejména když je cena Bitcoinu vysoká.
+* Proti: Snaha o zisk může vést k centralizaci výpočetního výkonu, pokud si pouze několik velkých společností může dovolit investovat do špičkového těžebního zařízení. Navíc těžba za účelem zisku může mít významný dopad na životní prostředí.
+
+- Těžba pro síť:
+
+* Pro: Těžba s cílem přispět k bezpečnosti a decentralizaci sítě Bitcoinu je ušlechtilá iniciativa. Pomáhá posílit odolnost sítě a odolávat cenzuře a útokům.
+* Proti: Bez dostatečného finančního podnětu může být pro těžaře obtížné pokračovat v podpoře sítě, zejména pokud provozují se ztrátou.
+  Iniciativa Attakai zdůrazňuje důležitost přispívání do sítě a zároveň nabízí řešení, jak těžbu udělat dostupnější a méně škodlivou. Možnost těžit doma s cenově dostupnějším vybavením a řešeními na snížení hlukového znečištění může pomoci demokratizovat těžbu Bitcoinu. Podporuje ty, kteří mají zájem o Bitcoin, aby nejen investovali a drželi bitcoiny, ale také aktivně participovali na zabezpečení sítě. Poskytováním otestovaného vybavení a průvodců pro montáž a instalaci usnadňuje Attakai vstup do světa těžby Bitcoinu. Také podporuje inovace a nepřetržité zlepšování, zve komunitu, aby přispívala a sdílela své nápady a zkušenosti, čímž vylepšuje domácí těžbu. Model Attakai je odpovědí na otázku těžby pro zisk nebo pro síť. Nejde jen o zisk, ale také o posílení distribuce a bezpečnosti sítě Bitcoinu, zatímco umožňuje více lidem účastnit se těžby, učit se a rozumět tomuto klíčovému průmyslu. Výzva potenciálního zákazu těžby v Evropě zůstává otevřenou otázkou. To vyvolává obavy o budoucnost těžby Bitcoinu v regionu a potřebu vyvážené regulace, která uznává význam těžby pro bezpečnost a životaschopnost sítě Bitcoinu, zatímco řeší environmentální problémy. Attakai a další podobné iniciativy mohou hrát klíčovou roli v této debatě, ukazujíce, že je možné těžit udržitelnějším a odpovědnějším způsobem, zatímco pozitivně přispívat do sítě Bitcoinu.
+
 ## Suverenita a regulace
+
 <chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
 
 ### Suverenita před ziskem?
+
 Abychom řešili zásadní otázku bohatství prostřednictvím těžby, je důležité zvážit různé perspektivy a přístupy. Otázky týkající se ziskovosti těžby jsou běžné, s dotazy ohledně nákupu akcií společností jako Riot nebo leasingu těžebních strojů v zemích s nízkými energetickými náklady, jako je Island nebo Rusko. Před vstupem do těžby by klíčovou úvahou mělo být porovnání ziskovosti těžby s přímým nákupem Bitcoinu. Pokud náklady na těžbu Bitcoinu převyšují náklady na jeho přímý nákup, je obvykle rozumnější koupit Bitcoin přímo. To umožňuje vyhnout se mnoha výzvám a nákladům spojeným s procesem těžby.
 
 Nicméně, těžba nabízí jedinečné cesty, jak se zapojit do ekosystému Bitcoinu. Například těžba Bitcoinu v zimě může být chytrým způsobem, jak vytápět váš domov, zatímco generujete příjem v Bitcoinech. Další možností je investovat do společností, které prodávají těžební vybavení a skladují a spravují stroje na místech s nízkými energetickými náklady, čímž poskytují přístup k výhodným elektřinovým sazbám bez nutnosti řízení vybavení.
@@ -247,12 +285,14 @@ Přesto těžba představuje významné výzvy. Dobře známé přísloví ve sv
 ![image](assets/overview/self.webp)
 
 ### Původní Bitcoiny
+
 Touha vlastnit vlastní hashrate se jeví jako slibná cesta ve světě těžby. Avšak navigace v tomto složitém ekosystému vyžaduje opatrný přístup. Oblast cloudové těžby je poznamenána velkým počtem podvodů, které jsou poháněny nedostatkem porozumění těžbě ze strany mnoha investorů. Atraktivní nabídky, balené různými způsoby, mohou snadno zmást ty, kteří nejsou dostatečně informováni. Na druhou stranu, vlastnictví vlastního těžebního zařízení nabízí značné výhody. Kromě osobní spokojenosti z aktivního přispívání k zabezpečení sítě Bitcoin a sledování odměn padajících do vaší peněženky, je tu lákavý aspekt "panenských bitcoinů". To jsou čerstvě vytěžené bitcoiny, které nikdy nebyly utraceny a nemají žádnou historii. Tyto bitcoiny jsou často považovány za cennější, protože nikdy nebyly "znečištěny", což nabízí určitou záruku proti odmítnutí regulátory nebo hlavními obchodními platformami.
 Možnost těžit panenské bitcoiny při vyhýbání se procedurám Know Your Customer (KYC) představuje další přidanou hodnotu. Mnoho těžebních poolů nevyžaduje identitu těžařů, což umožňuje získání bitcoinů bez nutnosti procházet zdlouhavými kontrolami identity. Panenské bitcoiny jsou vnímány jako "čisté", bez jakékoli minulosti nebo asociace. Jsou obzvláště vyhledávány velkými institucionálními hráči, kteří mohou zaručit legitimitu svých digitálních aktiv před regulačními orgány. Avšak, navzdory těmto výhodám, je zásadní uznat, že těžební průmysl zůstává extrémně konkurenční a nestabilní, a nepředvídané události mohou narušit těžební operace.
 
 V tomto kontextu se jeví jako moudré zvolit autonomní a vzdělaný přístup k těžbě. Získání vlastního hashrate a investice do osobního těžebního zařízení, při zůstávání vědom si rizik a výzev, může potenciálně nabídnout bezpečnější a uspokojivější cestu k získání panenských bitcoinů, čímž zvyšuje finanční suverenitu jednotlivce a současně podporuje ekosystém Bitcoinu jako celku.
 
 ### Je těžba zakázána v Evropě?
+
 S otázkou potenciálního zákazu těžby v Evropě se diskuse o regulaci stávají stále relevantnější. Kolísavá regulační krajina skutečně může významně ovlivnit průmysl těžby Bitcoinu. Zákaz těžby v Evropě je představitelný scénář, zejména s ohledem na precedenty v Číně. Ačkoliv těžební operace v Číně pokračují navzdory zákazu, Evropa by mohla jít podobnou cestou. Širší distribuce hashrate mezi různé regiony by mohla pomoci posílit těžební komunitu v Evropě, umožňující jim účinně čelit nedorozuměním a nesprávným představám o těžbě, jejím dopadu na životní prostředí a jejím otisku na elektrické síti.
 ![obrázek](assets/overview/regulation.webp)
 
@@ -261,14 +301,19 @@ V čele s kampaněmi jako ty od Greenpeace a často zavádějícími čísly z n
 Závěrem, navzdory regulačnímu riziku a možnosti zákazu těžby v Evropě, zůstává nejsilnější zbraní vzdělání a informace. Jasné a přesné porozumění těžbě, jak funguje a jaký má dopad, může pomoci demystifikovat průmysl a bojovat proti dezinformacím, čímž nabízí lepší odolnost proti potenciálně škodlivým regulacím. Iniciativa školit a informovat lidi o těžbě, jak toto diskuse činí, je krokem správným směrem k zajištění udržitelnosti a růstu těžby v Evropě a po celém světě. Nepřetržité úsilí o vzdělávání a informování je zásadní pro zajištění bezpečné a prosperující budoucnosti pro průmysl těžby Bitcoinu.
 
 ## Rozhovor s profesionálem z průmyslu těžby
+
 <chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
 
 ### Za scénou průmyslové těžby - Sebastien Gouspillou
+
 ![Za kulisami průmyslového těžení - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+
 # Domácí těžba a opětovné využití tepla
+
 <partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
 
 ## Attakai - umožňuje domácí těžbu a dělá ji přístupnou!
+
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 Attakai, což v japonštině znamená "ideální teplota", je název iniciativy zaměřené na objevování těžby bitcoinů prostřednictvím opětovného využití tepla, kterou spustili @ajelexBTC a @jimzap21 s Découvre Bitcoin.
@@ -285,8 +330,10 @@ Pro investici 1 kW elektrické energie vyrábí elektrický radiátor 1 kW tepla
 Počítač, nebo obecněji elektronická deska, nekonzumuje energii k provádění výpočtů, jednoduše potřebuje, aby energie protékala jejími komponentami, aby fungovala. Spotřeba energie je způsobena elektrickým odporem komponent, který produkuje ztráty a generuje teplo, známé jako Jouleův jev.
 
 Některé společnosti přišly s nápadem kombinovat potřeby výpočetního výkonu s potřebami vytápění prostřednictvím radiátorů/serverů. Nápad spočívá v distribuci serverů společnosti do malých jednotek, které by mohly být umístěny v domácnostech nebo kancelářích. Tento nápad však čelí několika problémům. Potřeba serverů není spojena s potřebou vytápění a společnosti nemohou flexibilně využívat výpočetní schopnosti svých serverů. Existují také limity pro šířku pásma, kterou mohou jednotlivci mít. Všechna tato omezení brání společnosti v tom, aby tyto nákladné instalace ziskově využívala nebo poskytovala stabilní online serverovou nabídku bez datových center, která mohou převzít, když není potřeba vytápění.
-"Teplo generované vaším počítačem není ztraceno, pokud potřebujete vytápět svůj domov. Pokud používáte elektrické vytápění tam, kde žijete, pak teplo z vašeho počítače není ztraceno. Generování tohoto tepla vaším počítačem stojí stejně. Pokud máte levnější systém vytápění než elektrické vytápění, pak ztráta spočívá pouze ve rozdílu nákladů. Pokud je léto a používáte klimatizaci, pak je to dvojnásobná ztráta. Těžba bitcoinů by měla probíhat tam, kde je to levnější. Možná to bude tam, kde je klima chladné a kde je vytápění elektrické, kde se těžba stane zdarma."
+
+> Teplo generované vaším počítačem není ztraceno, pokud potřebujete vytápět svůj domov. Pokud používáte elektrické vytápění tam, kde žijete, pak teplo z vašeho počítače není ztraceno. Generování tohoto tepla vaším počítačem stojí stejně. Pokud máte levnější systém vytápění než elektrické vytápění, pak ztráta spočívá pouze ve rozdílu nákladů. Pokud je léto a používáte klimatizaci, pak je to dvojnásobná ztráta. Těžba bitcoinů by měla probíhat tam, kde je to levnější. Možná to bude tam, kde je klima chladné a kde je vytápění elektrické, kde se těžba stane zdarma.
 > Satoshi Nakamoto - 8. srpna 2010
+
 Bitcoin a jeho proof of work se vyznačují tím, že automaticky upravují obtížnost těžby na základě množství výpočetního výkonu vykonaného celou sítí. Toto množství se nazývá hashrate a vyjadřuje se v hashech za sekundu. Dnes se odhaduje na 380 exahashů za sekundu, což je 380 miliard miliard hashů za sekundu. Tento hashrate představuje práci a tedy i množství spotřebované energie. Čím vyšší je hashrate, tím vyšší je obtížnost a naopak. Těžař Bitcoinu tak může být aktivován nebo deaktivován kdykoliv bez toho, aby to ovlivnilo síť, na rozdíl od radiátorů/serverů, které musí zůstat stabilní, aby poskytovaly svou službu. Těžař je odměněn za svou účast vzhledem k ostatním, bez ohledu na to, jak malá může být.
 
 Shrnutí, elektrický radiátor a těžař Bitcoinu oba produkují 1 kW tepla za 1 kW spotřebované elektřiny. Těžař však také obdrží bitcoiny jako odměnu. Bez ohledu na cenu elektřiny, cenu bitcoinu nebo konkurenci v činnosti těžby Bitcoinu na síti, je ekonomicky výhodnější topit těžařem než elektrickým radiátorem.
@@ -297,9 +344,8 @@ Je důležité pochopit, jak těžba přispívá k decentralizaci Bitcoinu.
 Několik stávajících technologií bylo geniálně kombinováno, aby oživilo konsensus Nakamota. Tento konsensus ekonomicky odměňuje poctivé účastníky za jejich příspěvek k provozu sítě Bitcoin, zatímco odrazuje nečestné účastníky. To je jeden z klíčových bodů, který umožňuje síti existovat udržitelně.
 Poctiví aktéři, ti, kteří těží podle pravidel, soutěží mezi sebou o získání co největšího podílu na odměně za produkci nových bloků. Tento ekonomický stimul přirozeně vede k určité formě centralizace, protože společnosti se rozhodují specializovat na tuto lukrativní činnost snižováním svých nákladů prostřednictvím ekonomií rozsahu. Tyto průmyslové subjekty mají výhodnou pozici pro nákup a údržbu strojů, stejně jako vyjednávání velkoobchodních cen elektřiny.
 
-> "Na začátku by většina uživatelů provozovala uzly sítě, ale jak síť roste za určitý bod, byla by čím dál více ponechána specialistům se serverovými farmami specializovaného hardware. Serverová farma by potřebovala mít na síti pouze jeden uzel a zbytek LAN by se k tomuto uzlu připojoval."
->
-> - Satoshi Nakamoto - 2. listopadu 2008
+> Na začátku by většina uživatelů provozovala uzly sítě, ale jak síť roste za určitý bod, byla by čím dál více ponechána specialistům se serverovými farmami specializovaného hardware. Serverová farma by potřebovala mít na síti pouze jeden uzel a zbytek LAN by se k tomuto uzlu připojoval.
+> Satoshi Nakamoto - 2. listopadu 2008
 
 Některé entity drží značný procentuální podíl celkového hashrate ve velkých těžebních farmách. Můžeme pozorovat nedávnou studenou vlnu ve Spojených státech, kde byla významná část hashrate odpojena, aby se energie přesměrovala do domácností s výjimečnou potřebou elektřiny. Po několik dní byli těžaři ekonomicky motivováni k vypnutí svých farem, a tato výjimečná povětrnostní situace je vidět na křivce hashrate Bitcoinu.
 
@@ -313,6 +359,7 @@ Když vyjde z továrny, těžař není vhodný k použití jako topení v domác
 Toto je vynikající příležitost naučit se praxí, zatímco za vaši účast budete odměněni KYC-free satoshi.
 
 ## Nákupní průvodce pro použitý ASIC
+
 <chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
 V této části probereme nejlepší postupy pro nákup použitého Bitmain Antminer S9, stroje, na kterém bude založen tento návod na retrofitování radiátoru. Tento průvodce se vztahuje i na další modely ASIC, jelikož jde o obecný nákupní průvodce pro použité těžební hardware.
@@ -367,6 +414,7 @@ Shrnutí tohoto průvodce jednou větou: **"Nevěř, ověř."**
 [Obrátit se můžete také na profesionály v oblasti rekonfigurace těžebních strojů, jako je náš partner 21energy. Nabízejí testované stroje S9, vyčištěné a s již nainstalovaným softwarem BraiiinOS+. S partnerským kódem "decouvre" obdržíte 10% slevu na nákup S9 a zároveň podpoříte projekt Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
 
 ## Průvodce nákupem hardwarových úprav pro S9
+
 <chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
 Jako majitel Antmineru S9 pravděpodobně víte, jak hlučné a objemné toto zařízení může být. Je však možné jej přeměnit na tichý a připojený ohřívač, pokud budete postupovat podle několika jednoduchých kroků. V této části představíme potřebné vybavení pro provedení úprav.
@@ -392,27 +440,28 @@ Místo použití Ethernetového kabelu můžete svůj Antminer připojit přes W
 ![image](assets/piece/7.webp)
 
 3. Volitelně: přidání chytré zásuvky
-Pokud chcete zapínat/vypínat svůj Antminer ze svého smartphonu a sledovat jeho spotřebu energie, můžete přidat chytrou zásuvku. Testovali jsme zásuvku ANTELA ve verzi 16A, kompatibilní s aplikací smartlife. Tato chytrá zásuvka umožňuje zobrazit denní a měsíční spotřebu energie a připojuje se přímo k vašemu internetovému routeru přes WiFi.
+   Pokud chcete zapínat/vypínat svůj Antminer ze svého smartphonu a sledovat jeho spotřebu energie, můžete přidat chytrou zásuvku. Testovali jsme zásuvku ANTELA ve verzi 16A, kompatibilní s aplikací smartlife. Tato chytrá zásuvka umožňuje zobrazit denní a měsíční spotřebu energie a připojuje se přímo k vašemu internetovému routeru přes WiFi.
 
 ![image](assets/piece/8.webp)
 
 Seznam vybavení a odkazů
 
-* 2X 3D adaptér 140mm na 120mm
+- 2X 3D adaptér 140mm na 120mm
 
-* [2X NF-A14 iPPC-2000 PWM](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&crid=JCNLC31F3ECM&keywords=NF-A14+iPPC-2000+PWM&qid=1676819936&sprefix=nf-a14+ippc-2000+pwm%2Caps%2C114&sr=8-2)
+- [2X NF-A14 iPPC-2000 PWM](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&crid=JCNLC31F3ECM&keywords=NF-A14+iPPC-2000+PWM&qid=1676819936&sprefix=nf-a14+ippc-2000+pwm%2Caps%2C114&sr=8-2)
 
-* [2X 140mm ventilátorové mřížky](https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)
-  
-* [Noctua NF-A6x25 PWM](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4/ref=sr_1_1_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=3T313ABZA5EDE&keywords=Noctua+NF-A6x25+PWM&qid=1676819329&sprefix=noctua+nf-a6x25+pwm%2Caps%2C71&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A38F5RZ72I2JQ)
-* [Elektrikářský cukr 2.5mm2](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
-* [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
-* [Volitelná chytrá zásuvka ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
+- [2X 140mm ventilátorové mřížky](https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- [Noctua NF-A6x25 PWM](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4/ref=sr_1_1_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=3T313ABZA5EDE&keywords=Noctua+NF-A6x25+PWM&qid=1676819329&sprefix=noctua+nf-a6x25+pwm%2Caps%2C71&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A38F5RZ72I2JQ)
+- [Elektrikářský cukr 2.5mm2](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
+- [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+- [Volitelná chytrá zásuvka ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
 # Attakai - Úprava softwaru Antmineru S9
+
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
 ## Nastavení mostu WIFI/Ethernet od Vonet
+
 <chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
 
 Pro připojení vašeho ASIC přes WIFI budete potřebovat zařízení nazývané most. Toto zařízení umožňuje přijímat WIFI signál z vašeho routeru a přenášet ho na jiné zařízení prostřednictvím Ethernetu.
@@ -421,7 +470,7 @@ Mnoho zařízení může tuto funkci plnit, ale doporučujeme WiFi Bridge/Repeat
 
 Most napájejte připojením přes USB.
 
-Z vašeho počítače se připojte k WIFI síti VONETS_****** s heslem 12345678.
+Z vašeho počítače se připojte k WIFI síti VONETS\_**\*\*** s heslem 12345678.
 
 ![obrázek](assets/software/vonet1.webp)
 
@@ -447,7 +496,9 @@ Nakonec klikněte na restart, aby se most restartoval. Reboot trvá několik min
 
 Most by se měl připojit k vašemu routeru a objevit se pod názvem "[VONETS.COM](http://vonets.com/)". Pokud se stále nepřipojí po několika minutách, možná bude potřeba most odpojit a znovu připojit.
 Jakmile je most připojen, připojte Ethernetový kabel z mostu do vašeho ASIC a poté zapojte ASIC do elektrické zásuvky. Poté můžete přistupovat k rozhraní ASIC stejným způsobem, jako by bylo přímo připojeno k vašemu routeru přes Ethernet.
+
 ## Resetování Antmineru S9
+
 <chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
 
 Před instalací BraiinOS+ může být nutné resetovat váš S9 na tovární nastavení.
@@ -457,6 +508,7 @@ Tato metoda může být použita mezi 2 a 10 minutami po spuštění mineru.
 ![image](assets/software/1.webp)
 
 ## Instalace BraiinsOS+ na Antminer S9
+
 <chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
 
 Původní software instalovaný společností Antminer na jejich těžebních strojích je omezen ve funkcionalitě. Proto v tomto průvodci nainstalujeme jiný software nazvaný BraiinsOS+. Jedná se o software třetí strany vyvinutý prvním Bitcoin mining poolem, který má více funkcí a umožňuje například modifikaci výkonu stroje.
@@ -486,9 +538,13 @@ Zde uvidíme, jak snadno nainstalovat Braiins OS+ přímo na paměť vašeho Ant
 8. Klikněte na "Back" a poté na záložku "Install", zadejte dříve nalezenou IP adresu a klikněte na "Start".
 
 > Pokud instalace nefunguje, může být nutné provést reset a zkuste to znovu (viz předchozí sekce).
+
 ![image](assets/software/8.webp)
+
 9. Po několika okamžicích se váš Antminer restartuje a vy budete moci přistupovat k rozhraní Braiins OS+ na zadané IP adrese, zde 192.168.1.37, přímo v adresním řádku vašeho prohlížeče. Výchozí uživatelské jméno je "root" a výchozí heslo není nastaveno.
+
 ## Konfigurace BraiinsOS+
+
 <chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
 
 Budete potřebovat připojit se k vašemu ASIC pomocí lokální IP adresy vašeho zařízení ve vaší síti prostřednictvím prohlížeče.
@@ -532,9 +588,11 @@ Na této první stránce můžete sledovat skutečný výkon vašeho stroje.
 ![obrázek](assets/software/18.webp)
 
 # Attakai - Úprava ventilátoru
+
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
 ## Výměna ventilátoru zdroje
+
 <chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
 > VAROVÁNÍ: Je nezbytné mít předtím nainstalovaný Braiins OS+ na vašem těžaři, nebo jakýkoliv jiný software, který může snížit výkon vašeho stroje. Toto opatření je klíčové, protože za účelem snížení hluku nainstalujeme méně výkonné ventilátory, které mohou rozptýlit méně tepla.
@@ -604,8 +662,11 @@ Jakmile jsou připojení provedena, umístěte plastový kryt nad plast skřín�
 Nakonec vraťte na místo kryt skříně a přišroubujte 6 šroubů na stranách, aby vše drželo pohromadě. A máte to, vaše skříň zdroje je nyní vybavena novým ventilátorem.
 
 ## Výměna hlavních ventilátorů
+
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+
 > VAROVÁNÍ: Je nezbytné mít předem nainstalovaný Braiins OS+ na vašem těžebním zařízení, nebo jakýkoliv jiný software schopný snížit výkon vašeho stroje. Toto opatření je klíčové, protože za účelem snížení hluku nainstalujeme méně výkonné ventilátory, které budou rozptylovat méně tepla.
+
 ![obrázek](assets/hardware/cover.webp)
 
 ### Požadovaný materiál
@@ -623,8 +684,7 @@ Nakonec vraťte na místo kryt skříně a přišroubujte 6 šroubů na stranác
 2. Konektory nových ventilátorů Noctua se neshodují s původními, ale nebojte se! Vezměte si nůž a opatrně odřízněte malé plastové záložky, aby konektory perfektně pasovaly na vaše těžební zařízení.
 
 ![obrázek](assets/hardware/20.webp)
-![obrázek](assets/hardware/21.webp)
-3. Je čas nainstalovat 3D díly!
+![obrázek](assets/hardware/21.webp) 3. Je čas nainstalovat 3D díly!
 Připevněte je na obě strany těžebního zařízení pomocí šroubů, které jste odstranili z ventilátorů. Zašroubujte je, dokud hlava šroubu není zarovnána s 3D dílem a je pevně na místě. Dávejte pozor, abyste příliš neutahovali, protože byste mohli díl deformovat a jeden ze šroubů by mohl dotknout kondenzátoru!
 
 ![obrázek](assets/hardware/22.webp)
@@ -653,9 +713,11 @@ A jako poslední úprava připojte Vonet most k Ethernet portu a jeho napájení
 A máte to, gratulujeme! Právě jste vyměnili celou mechanickou část vašeho těžebního zařízení. Nyní byste měli slyšet mnohem méně hluku.
 
 # Attakai - Konfigurace
+
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 
 ## Připojení k těžebnímu poolu
+
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 Můžete si představit těžební pool jako družstvo farmářů. Farmáři spojují svou produkci dohromady, aby snížili variabilitu nabídky a poptávky a tím získali stabilnější příjem pro svůj provoz. Těžební pool funguje stejným způsobem, přičemž sdíleným zdrojem jsou hashe. Skutečně, objevení jediného platného hashe umožňuje vytvoření bloku a získání coinbase odměny, aktuálně 6.25 BTC plus transakční poplatky zahrnuté v bloku.
 Pokud těžíte sami, budete odměněni pouze tehdy, když najdete blok. V konkurenci proti všem ostatním těžařům na planetě byste měli velmi malou šanci vyhrát tuto loterii a stále byste museli platit poplatky spojené s používáním vašeho těžaře bez jakékoli záruky úspěchu. Těžební pooly řeší tento problém spojením výpočetního výkonu několika (tisíců) těžařů a sdílením jejich odměn na základě procentuální účasti na hashrate poolu, když je blok nalezen. Pro vizualizaci vašich šancí na samostatné těžení bloku můžete použít tento nástroj. Zadáním informací pro Antminer S9 vidíme, že šance na nalezení hashe, který umožňuje vytvoření bloku, jsou 1 z 24,777,849 pro každý blok nebo 1 z 172,068 za den. V průměru (s konstantním hashrate a obtížností) by to trvalo 471 let, než byste našli blok.
@@ -670,7 +732,7 @@ Odměnný model, který nás zajímá, je PPS, což znamená "pay-per-share". To
 
 - Nicehash: Výhodou Nicehash je, že výběr může být proveden pomocí Lightning s minimálními poplatky. Navíc minimální částka pro výběr je 2000 sats. Nevýhodou je, že Nicehash používá svůj hashrate pro nejvýnosnější blockchain, aniž by skutečně dával uživateli kontrolu, takže nemusí nutně přispívat k hashrate Bitcoinu.
 - Linecoin: Výhodou Linecoinu je počet nabízených funkcí, jako je podrobný dashboard, možnost provádět výběry pomocí Paynym (BIP 47) pro lepší ochranu soukromí a integrace Telegram botu, stejně jako přímo konfigurovatelné automatizace v mobilní aplikaci. Tento pool těží pouze bloky Bitcoinu, ale minimální částka pro výběr zůstává vysoká na 100 000 sats. Rozhraní jednoho z těchto poolů si podrobněji prozkoumáme v budoucím článku.
-Pro konfiguraci poolu v Braiins OS+ budete potřebovat vytvořit účet v jednom z poolů dle vašeho výběru. Zde si vezmeme jako příklad Linecoin:
+  Pro konfiguraci poolu v Braiins OS+ budete potřebovat vytvořit účet v jednom z poolů dle vašeho výběru. Zde si vezmeme jako příklad Linecoin:
 
 ![obrázek](assets/software/19.webp)
 
@@ -685,6 +747,7 @@ Nyní se můžete vrátit do rozhraní Braiins OS+ a zadat tyto přihlašovací 
 ![obrázek](assets/software/21.webp)
 
 ## Optimalizace výkonu vašeho Antmineru S9
+
 <chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
 
 Jak overclocking, tak autotuning zahrnují úpravu frekvencí na hashovacích deskách za účelem zlepšení výkonu ASIC. Rozdíl mezi nimi spočívá ve složitosti nastavení těchto frekvencí.
@@ -701,17 +764,13 @@ Dnes existuje nový pokrok v softwaru a firmwaru pro těžbu nazvaný autotuning
 Toto stanovuje horní limit pro hash rate, kterého může stroj dosáhnout. Autotuning je proces, při kterém algoritmy vyhodnocují optimální frekvence pro hashování jednotlivých čipů, místo aby byl celý stroj považován za jednotnou jednotku. To znamená, že čip vyšší kvality, který dokáže provést více hashů za sekundu, dostane vyšší frekvenci, a čip nižší kvality, který dokáže provést relativně méně hashů, dostane nižší frekvenci. Autotuning na úrovni čipů je v podstatě způsob, jak optimalizovat výkon ASIC prostřednictvím softwaru a firmware, který na něm běží.
 Výsledkem je vyšší hash rate na watt elektrické energie, což znamená větší ziskové marže pro těžaře. Důvodem, proč stroje nejsou distribuovány s tímto typem softwaru, je to, že variabilita strojů je nežádoucí, protože zákazníci chtějí přesně vědět, co kupují, takže je špatný nápad, aby výrobci prodávali produkt, který nemá konzistentní a předvídatelný výkon z jednoho stroje na druhý. Kromě toho vyžaduje autotuning na úrovni čipů značné vývojové zdroje, jelikož je složité jej implementovat. Výrobci již vynakládají mnoho zdrojů na vývoj vlastních firmware. Existují softwarová řešení, která umožňují autotuning, jako například Braiins OS+. Kromě toho zlepšují výkon ASIC až o 20 %.
 
+## Ohodnoťte kurz
 
-
-## Dejte nám zpětnou vazbu k tomuto kurzu
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Závěrečná zkouška
-<chapterId>306a1230-050f-5739-b965-6692542ff6bc</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Ovládání Antmineru S9 z vašeho smartphonu
+
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 
 ### Vytváření zástupců na iOS

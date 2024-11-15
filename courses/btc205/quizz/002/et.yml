@@ -1,0 +1,10 @@
+question: Millised on kolm bitcoini ostumeetodit, mida peatükis mainitakse?
+answer: Kasutades automaatseid sularahaautomaate (ATMsid), vahetusi sõprade vahel ja internetiostu.
+wrong_answers:
+  - Kasutades krediitkaarte, vahetusi sõprade vahel ja internetiostu.
+  - Kasutades automaatseid sularahaautomaate (ATMsid), vahetusi pereliikmete vahel ja internetiostu.
+  - Kasutades automaatseid sularahaautomaate (ATMsid), vahetusi kolleegide vahel ja internetiostu.
+explanation: |
+  Peatükis mainitakse kolme bitcoini ostumeetodit; kasutades automaatseid
+  sularahaautomaate (ATMsid), vahetusi sõprade vahel ja internetiostu.
+reviewed: false

@@ -1,0 +1,9 @@
+pregunta: Según Keynes, ¿cuál es el principal problema con el patrón oro?
+respuesta: Limita la capacidad del gobierno para financiar sus gastos
+respuestas_incorrectas:
+  - Promueve la inflación
+  - Obstaculiza el comercio internacional
+  - Todas las demás respuestas son correctas.
+explicación: |
+  Keynes creía que el patrón oro restringía la capacidad del gobierno para ajustar la oferta monetaria, impidiéndoles financiar fácilmente sus gastos, especialmente durante crisis económicas.
+revisado: false

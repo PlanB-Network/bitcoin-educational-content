@@ -1,0 +1,13 @@
+pertanyaan: Jenis skrip apa yang digunakan secara eksklusif oleh Silent Payments?
+
+jawaban: P2TR
+
+jawaban_salah:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+
+penjelasan: |
+  Untuk memfasilitasi implementasi protokol ini dan meningkatkan set anonimitas penggunanya, Silent Payments mengandalkan skrip P2TR (Pay to Taproot) secara eksklusif.
+
+ditinjau: false

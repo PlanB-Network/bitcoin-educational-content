@@ -269,7 +269,7 @@ Die Gruppe Lightning Walker präsentiert ihre Lösung für den Remittenzdienst u
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 

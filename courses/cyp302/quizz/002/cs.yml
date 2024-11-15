@@ -1,0 +1,9 @@
+otázka: Jaká je specifičnost tří zašifrovaných textů obsažených v krabici?
+odpověď: Obsahují čísla oddělená čárkami
+špatné_odpovědi:
+  - Jsou všechny napsány obyčejnými písmeny
+  - Používají neznámé symboly
+  - Jsou napsány v několika jazycích
+vysvětlení: |
+  Tři zašifrované texty se skládají ze série čísel oddělených čárkami, která k dešifrování vyžadují klíč.
+recenzováno: false

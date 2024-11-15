@@ -1,0 +1,8 @@
+pertanyaan: Fungsi apa yang digunakan untuk menghitung jumlah bilangan bulat kurang dari N yang koprima dengan N?
+jawaban: Fungsi Phi Euler
+jawaban_salah:
+  - Fungsi Gamma Euler
+  - Fungsi Sigma Euler
+  - Fungsi Beta Dirichlet
+penjelasan: |
+  Fungsi Phi Euler menentukan jumlah bilangan bulat kurang dari N yang koprima dengan N, sebuah konsep sentral dalam teorema kriptografi yang berbasis pada bilangan prima.

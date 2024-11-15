@@ -1,0 +1,9 @@
+question: Tsüklilises grupis, mis terminit kasutatakse elemendi kohta, mis suudab eksponenteerimise teel genereerida kõik teised elemendid?
+answer: Generaator
+wrong_answers:
+  - Korrutaja
+  - Võõrastaja
+  - Pöördväärtus
+explanation: |
+  Generaator on element tsüklilises grupis, mis eksponenteerimise teel suudab toota kõik teised grupi elemendid.
+reviewed: false

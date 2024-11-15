@@ -1,10 +1,9 @@
-question: Quante iterazioni di calcolo vengono eseguite nella funzione di compressione di SHA256?
-answer: 64
-wrong_answers:
-  - 32
-  - 128
-  - 256
-explanation: |
-  Nella funzione di compressione di SHA256 vengono eseguite 64 iterazioni di calcolo.
-  Come in una gara ciclistica, ogni giro migliora la posizione della funzione.
-reviewed: false
+domanda: Quale funzione viene utilizzata per derivare una chiave figlia da una chiave genitore in Bitcoin?
+risposta: HMAC-SHA512.
+risposte_errate:
+  - SHA256.
+  - MD5.
+  - BLAKE2.
+spiegazione: |
+  La funzione HMAC-SHA512 viene utilizzata per derivare chiavi figlie da chiavi genitore nei portafogli HD di Bitcoin.
+revisionato: false

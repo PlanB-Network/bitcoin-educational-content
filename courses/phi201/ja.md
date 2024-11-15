@@ -1327,7 +1327,7 @@ _自由の倫理_ および _国家の解剖学_ において、マレー・ロ�
 
 
 
-## このコースについてのフィードバックをお寄せください
+## コースを評価してください
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 

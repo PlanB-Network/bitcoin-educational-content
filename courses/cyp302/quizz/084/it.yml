@@ -1,0 +1,9 @@
+domanda: Qual è la principale limitazione pratica del cifrario a pad monouso?
+risposta: La chiave deve essere lunga quanto il messaggio e non deve mai essere riutilizzata
+risposte_errate:
+  - La chiave deve essere cambiata ogni giorno
+  - La chiave deve essere tre volte più lunga del messaggio
+  - La chiave deve necessariamente essere memorizzata su un Minitel francese
+spiegazione: |
+  La chiave in un cifrario a pad monouso deve essere lunga quanto il messaggio e non deve mai essere riutilizzata, il che complica significativamente il suo uso in contesti pratici. Questo perché, se si è in grado di trasmettere dati lunghi quanto il messaggio in modo sicuro, sarebbe più logico trasmettere direttamente il messaggio piuttosto che la chiave.
+recensito: false

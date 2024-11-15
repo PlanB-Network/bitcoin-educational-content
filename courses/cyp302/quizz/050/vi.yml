@@ -1,0 +1,9 @@
+câu hỏi: Tại sao các trường mở rộng với cơ số 2 lại hữu ích trong mật mã học?
+câu trả lời: Chúng cho phép thao tác an toàn với chuỗi nhị phân.
+câu trả lời sai:
+  - Chúng đơn giản hóa các phép tính bằng cách giảm số lượng các phép toán.
+  - Chúng ngăn chặn lỗi tính toán bằng cách thêm dư thừa.
+  - Chúng giới hạn phạm vi của các khả năng bằng cách giảm số lượng các phần tử.
+giải thích: |
+  Các trường mở rộng với cơ số 2 thuận tiện vì các phần tử của chúng có thể được xem như là chuỗi nhị phân, làm cho việc thực hiện các thao tác trên dữ liệu số ở cấp độ nhị phân trong các hệ thống trở nên dễ dàng hơn.
+đã xem xét: false

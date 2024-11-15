@@ -1,0 +1,9 @@
+question: Mis oli ajakirja Le Censeur moto, mille asutasid Comte ja Dunoyer?
+answer: Rahu ja vabadus
+wrong_answers:
+  - Omand ja vabadus
+  - Kord ja progress
+  - Vabadus ja võrdsus
+explanation: |
+  Ajakiri Le Censeur, mille asutasid Comte ja Dunoyer, kandis motot "Rahu ja vabadus", sümboliseerides nende vastuseisu võimu meelevaldsusele.
+reviewed: false

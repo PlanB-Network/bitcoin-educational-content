@@ -1,0 +1,9 @@
+question: Hva er blokk-krypteringsalgoritmen som ble vedtatt som AES-standarden?
+answer: Rijndael Cipher
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Rijndael Cipher ble vedtatt som standarden for symmetrisk kryptering (AES) av NIST, på grunn av dens høye ytelse og sikkerhet.
+reviewed: false

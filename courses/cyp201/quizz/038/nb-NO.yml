@@ -1,0 +1,8 @@
+question: Hva er den viktigste forskjellen mellom en PRNG og en TRNG?
+answer: En PRNG er deterministisk, mens en TRNG produserer virkelig tilfeldige tall.
+wrong_answers:
+  - En TRNG er raskere enn en PRNG.
+  - En TRNG bruker et frø, mens en PRNG ikke bruker noe frø.
+  - En PRNG er maskinvare, mens en TRNG er programvare.
+explanation: |
+  En TRNG (True Random Number Generator) genererer tilfeldige tall fra et fysisk tilfeldig fenomen, i motsetning til en PRNG som er deterministisk.

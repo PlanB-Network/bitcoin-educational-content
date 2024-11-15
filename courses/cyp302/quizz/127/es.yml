@@ -1,0 +1,8 @@
+pregunta: ¿Qué concepto matemático subyace en el intercambio de claves Diffie-Hellman?
+respuesta: Una función unidireccional con una puerta trasera
+respuestas_incorrectas:
+  - Una función exponencial inversa
+  - Un algoritmo de hash criptográfico
+  - Una división modular simplificada
+explicación: |
+  Diffie-Hellman se basa en una función unidireccional que es fácil de calcular en una dirección pero prácticamente imposible de invertir sin una pieza secreta de información, llamada puerta trasera.

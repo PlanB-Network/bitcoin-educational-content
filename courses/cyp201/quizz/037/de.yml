@@ -1,9 +1,9 @@
-question: Welchen Algorithmus verwendet Bitcoin, um private und öffentliche Schlüssel zu verknüpfen?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
-wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
-explanation: |
-  Bitcoin verwendet den Elliptic Curve Digital Signature Algorithm (ECDSA), um private und öffentliche Schlüssel zu verknüpfen.
-reviewed: false
+Frage: Warum ist es wichtig, eine gute Entropiequelle zur Generierung von privaten Schlüsseln zu verwenden?
+Antwort: Schlechte Entropie kann private Schlüssel vorhersehbar und anfällig für Angriffe machen.
+falsche_Antworten:
+  - Gute Entropie hilft, die Leistung des Wallets zu optimieren.
+  - Entropie spielt keine Rolle bei der Sicherheit von privaten Schlüsseln.
+  - Schlechte Entropie verlangsamt Transaktionen.
+Erklärung: |
+  Wenn die zur Generierung von privaten Schlüsseln verwendete Entropie niedrig ist, könnte dies einem Angreifer ermöglichen, diese Schlüssel zu erraten oder zu berechnen, was die Sicherheit des Wallets gefährdet.
+überprüft: false

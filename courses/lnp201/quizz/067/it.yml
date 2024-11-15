@@ -1,9 +1,0 @@
-question: Quali fattori vengono considerati quando si stima le rotte di successo più probabili nella Lightning Network?
-answer: Commissioni, tempo di scadenza HTLC, il numero di nodi intermedi e un fattore di casualità.
-wrong_answers:
-  - Dimensione della transazione, altezza del blocco e commissioni di transazione.
-  - Commissioni di transazione, dimensione del blocco e tempo di conferma della transazione.
-  - Tempo di conferma della transazione, altezza del blocco e dimensione della transazione.
-explanation: |
-  Quando si stimano le rotte di successo più probabili nella Lightning Network, i nodi considerano diversi fattori. Questi includono le commissioni associate a ciascuna rotta, il tempo di scadenza degli HTLC, il numero di nodi intermedi e un fattore di casualità per evitare di utilizzare sempre le stesse rotte.
-reviewed: false

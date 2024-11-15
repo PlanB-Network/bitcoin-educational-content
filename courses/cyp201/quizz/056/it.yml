@@ -1,9 +1,9 @@
-question: Cosa rappresenta il seed in un portafoglio Bitcoin?
-answer: È un numero casuale o pseudo-casuale da cui vengono generati più chiavi.
-wrong_answers:
-  - È la password per accedere al portafoglio.
-  - È la prima transazione Bitcoin registrata nel portafoglio.
-  - È la firma digitale del proprietario del portafoglio.
-explanation: |
-  Il seed in un portafoglio Bitcoin dovrebbe essere un numero casuale o pseudo-casuale. Questo seed consente la generazione di più chiavi, che sono essenziali per il possesso di criptovalute.
-reviewed: false
+domanda: Qual è lo scopo della chiave estesa?
+risposta: Raccogliere tutte le informazioni necessarie per derivare le chiavi figlie in un'unica stringa.
+risposte_errate:
+  - Raccogliere tutte le informazioni necessarie per ricostruire un intero portafoglio HD in un'unica stringa.
+  - Raccogliere informazioni sui UTXO presenti nel portafoglio.
+  - Raccogliere la frase mnemonica e la passphrase in un unico formato.
+spiegazione: |
+  Una chiave estesa permette di contenere tutte le informazioni necessarie per derivare le chiavi figlie, semplificando così la gestione degli account in un portafoglio HD.
+recensito: false

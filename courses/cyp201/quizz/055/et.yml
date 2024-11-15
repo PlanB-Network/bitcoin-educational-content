@@ -1,0 +1,8 @@
+question: Millest koosneb laiendatud võtme sisu?
+answer: Avalik või privaatvõti ja sellega seotud ahelakood.
+wrong_answers:
+  - Privaatvõti ja sellega seotud avalik võti.
+  - Ahelakood, avalik võti ja privaatvõti.
+  - Privaatvõti ja tuletusindeks.
+explanation: |
+  Laiendatud võtme sisu hõlmab kas avalikku või privaatvõtit koos ahelakoodiga, mida kasutatakse alamvõtmete tuletamiseks.

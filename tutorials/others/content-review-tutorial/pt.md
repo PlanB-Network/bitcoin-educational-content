@@ -103,7 +103,7 @@ NB. A revisão é melhor feita na janela de código com o conteúdo original em 
 * Parabéns pelo seu primeiro PR!
 
 ## **7. Continue a revisão mais tarde**
-* Se você não terminou sua revisão e deseja continuar seu trabalho, vá para o seu fork do repositório de conteúdo da sovereign-university via seu perfil no GitHub.
+* Se você não terminou sua revisão e deseja continuar seu trabalho, vá para o seu fork do repositório de conteúdo da PlanB-Network via seu perfil no GitHub.
 * Selecione a branch correspondente.
 * Renomeie a branch, se necessário.
 * Encontre seu arquivo de conteúdo e clique no botão de caneta para retomar a revisão.

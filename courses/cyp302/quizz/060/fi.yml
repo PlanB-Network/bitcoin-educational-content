@@ -1,0 +1,9 @@
+kysymys: Mikä vastaus edustaa yhtä kahdesta päähaaraa kryptografiassa?
+vastaus: Symmetrinen kryptografia
+vaarat_vastaukset:
+  - Kryptologia
+  - Homomorfinen salaus
+  - Kryptoanalyysi
+selitys: |
+  Symmetrinen kryptografia on merkittävä kryptografian haara, joka käsittää salausjärjestelmiä, joissa yhtä ja samaa avainta käytetään viestien salaamiseen ja purkamiseen.
+arvioitu: false

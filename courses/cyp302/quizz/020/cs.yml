@@ -1,0 +1,9 @@
+otázka: Co v matematice znamená operace "modulo"?
+odpověď: Zbytek po dělení
+špatné_odpovědi:
+  - Podíl dělení
+  - Dvojnásobek počátečního čísla
+  - Číslo, které dělí beze zbytku
+vysvětlení: |
+  Operace modulo zahrnuje určení zbytku po dělení, například 25 mod 4 se rovná 1, protože zbytek po dělení je 1.
+recenzováno: false

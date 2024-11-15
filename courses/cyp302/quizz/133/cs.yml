@@ -1,0 +1,9 @@
+otázka: Co je digitální podpis v kontextu asymetrické kryptografie?
+odpověď: Mechanismus pro ověření pravosti zprávy pomocí soukromého klíče
+špatné_odpovědi:
+  - Proces pro silnější šifrování zprávy
+  - Dodatečný veřejný klíč pro ověření šifrované zprávy
+  - Digitální kopie ručně psaného podpisu
+vysvětlení: |
+  Digitální podpis je kryptografická technika, která dokazuje, že zpráva byla skutečně vytvořena vlastníkem odpovídajícího soukromého klíče, čímž zajišťuje její pravost.
+recenzováno: false

@@ -1,0 +1,10 @@
+pertanyaan: Apa definisi inflasi menurut Larousse?
+jawaban: Inflasi adalah fenomena yang ditandai dengan kenaikan tingkat harga yang umum dan berkelanjutan.
+wrong_answers:
+  - Inflasi adalah fenomena yang ditandai dengan penurunan tingkat harga yang umum dan berkelanjutan.
+  - Inflasi adalah fenomena yang ditandai dengan kenaikan tingkat harga yang spesifik dan berkelanjutan.
+  - Inflasi adalah fenomena yang ditandai dengan kenaikan tingkat harga yang umum dan tidak berkelanjutan.
+penjelasan: |
+  Menurut Larousse, inflasi didefinisikan sebagai fenomena yang ditandai
+  oleh kenaikan tingkat harga yang umum dan berkelanjutan.
+reviewed: false

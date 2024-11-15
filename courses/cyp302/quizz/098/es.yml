@@ -1,0 +1,8 @@
+pregunta: ¿Cómo ayuda un MAC a prevenir la manipulación de mensajes por parte de un atacante?
+respuesta: Permitiendo verificar que el mensaje recibido no ha sido alterado
+respuestas_incorrectas:
+  - Previniendo ataques de tipo fuerza bruta
+  - Ocultando el contenido del mensaje
+  - Bloqueando automáticamente mensajes sospechosos
+explicación: |
+  Un MAC permite al destinatario verificar que un mensaje no ha sido modificado a través de una etiqueta generada con una clave secreta compartida, lo que limita las posibilidades de manipulación.

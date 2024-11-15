@@ -1,11 +1,9 @@
-question: What is the main advantage of Hierarchical Deterministic Wallets (HD wallets)?
-answer: They allow for the deterministic and hierarchical generation of child key pairs from a single piece of information.
+question: What is the function used to derive a child key pair from a parent key pair within an HD wallet?
+answer: HMAC-SHA512.
 wrong_answers:
-  - They allow for the generation of multiple private keys from a single public key.
-  - They allow for the generation of multiple public keys from a single private key.
-  - They allow for the generation of multiple wallets from a single key pair.
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
 explanation: |
-  HD wallets allow for the deterministic and hierarchical generation of
-  child key pairs from a single piece of information. This makes the generation and
-  management of keys easier while maintaining a high level of security.
+  HMAC-SHA512 is used to derive a child key pair from a parent key pair in an HD wallet.
 reviewed: false

@@ -1,0 +1,13 @@
+Frage: Welcher Schritt des Chaumian CoinJoin-Verfahrens beinhaltet das Ändern der Identität auf Tor, um Anonymität zu gewährleisten?
+
+Antwort: Die Registrierung der Ausgänge.
+
+Falsche Antworten:
+  - Die Registrierung der Eingänge.
+  - Die Signierung der Transaktion.
+  - Die Übertragung der Transaktion.
+
+Erklärung: |
+  Um zu verhindern, dass der Koordinator einen spezifischen Ausgang mit einem Eingang verknüpfen kann, ändern die Benutzer ihre Tor-Identität, bevor sie ihre Klartext-Empfangsadressen an den Koordinator senden.
+
+Überprüft: false

@@ -1,0 +1,9 @@
+otázka: Co je "HMAC"?
+odpověď: Autentizační kód zprávy založený na hašovací funkci
+špatné_odpovědi:
+  - Asymetrický šifrovací algoritmus založený na hašovací funkci
+  - Asymetrický šifrovací algoritmus založený na Diffie-Hellman
+  - Autentizační kód zprávy založený na Diffie-Hellman
+vysvětlení: |
+  HMAC je autentizační kód zprávy, který používá hašovací funkci, jako je SHA-256, k vytvoření značky, která ověřuje integritu a autentičnost zprávy.
+recenzováno: false

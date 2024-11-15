@@ -1,9 +1,0 @@
-question: ¿Por qué no se considera el SMS como la mejor opción para la autenticación de dos factores (2FA)?
-answer: Solo proporciona prueba de posesión de un número de teléfono.
-wrong_answers:
-  - Es demasiado costoso
-  - Es demasiado lento
-  - Es demasiado complicado de configurar
-explanation: |
-  El SMS no se considera la mejor opción para la autenticación de dos factores (2FA) porque solo proporciona prueba de posesión de un número de teléfono, no prueba de identidad.
-reviewed: false

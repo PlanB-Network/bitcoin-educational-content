@@ -1,12 +1,9 @@
-question: What is the significance of the irreversibility of the ECDSA function in
-  Bitcoin wallet security?
-answer: It is impossible to retrieve the private key from the public key
+question: What is the BIP (Bitcoin Improvement Proposal) that proposed the first version of an HD wallet on Bitcoin?
+answer: BIP32.
 wrong_answers:
-  - It is possible to retrieve the private key from the public key
-  - It is possible to retrieve the public key from the private key
-  - It is impossible to retrieve the public key from the private key
+  - BIP16.
+  - BIP39.
+  - BIP44.
 explanation: |
-  The ECDSA function is irreversible, meaning it is impossible to retrieve
-  the private key from the public key. This irreversibility is the cornerstone of
-  Bitcoin wallet security.
+  BIP32, proposed in 2012, is the first to introduce the concept of hierarchical deterministic (HD) wallets in Bitcoin.
 reviewed: false

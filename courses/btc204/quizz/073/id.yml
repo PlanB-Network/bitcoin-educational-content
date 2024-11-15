@@ -1,0 +1,11 @@
+pertanyaan: Di antara jawaban berikut, mana yang tidak memungkinkan untuk menipu heuristik analisis rantai?
+
+jawaban: Selalu menggunakan alamat penerima yang sama.
+
+jawaban_salah:
+  - Membuat kembalian yang nilainya dekat dengan pembayaran.
+  - Membuat output dengan jumlah yang tidak teratur, tidak bulat.
+  - Mendistribusikan penyebaran transaksi sepanjang hari.
+
+penjelasan: |
+  Seseorang seharusnya tidak menggunakan alamat penerima berulang kali. Semua jawaban lainnya memungkinkan untuk menghindari heuristik analisis rantai.

@@ -1,0 +1,10 @@
+question: Hva er Lightning Network i konteksten av Bitcoin?
+answer: En teknologi på andre nivå som bringer en helt ny visjon av hva Bitcoin er.
+wrong_answers:
+  - Et nettverk av Bitcoin-minere.
+  - En ny type Bitcoin.
+  - En handelsplattform for Bitcoin.
+explanation: |
+  Lightning Network er et "lag 2" betalingsprotokoll som opererer på
+  toppen av en blockchain-basert kryptovaluta (som Bitcoin). Det er designet for å muliggjøre
+  raske transaksjoner mellom deltakende noder.

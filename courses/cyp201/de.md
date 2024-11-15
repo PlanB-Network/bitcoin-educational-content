@@ -104,7 +104,7 @@ Am Ende dieser Erkundung haben wir kryptografische Hashfunktionen entmystifizier
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
 Willkommen zur Fortsetzung unserer faszinierenden Reise durch die kryptografischen Irrgärten der Hashfunktion. Heute enthüllen wir die Geheimnisse von SHA256, einem komplexen, aber genialen Prozess, den wir zuvor vorgestellt haben.
--> 940 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
+-> 950 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
 -> P = 9
 
 Daher müssen 9 Auffüllbits hinzugefügt werden, um eine Nachricht auf ein Vielfaches von 512 zu bringen.
@@ -796,13 +796,14 @@ Eine weitere weit verbreitete kryptografische Methode im Bitcoin-Protokoll ist d
 
 
 
-## Geben Sie uns Ihr Feedback zu diesem Kurs
+## Bewerten Sie den Kurs
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
+
 
 ## Fazit und Abschluss
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>

@@ -1,0 +1,9 @@
+Küsimus: Millega vastavad SHA256 funktsiooni 8 algväärtuse vektori väärtused?
+Vastus: Esimese 8 algarvu kuupjuurte kümnendkohtade esimesed 64 bitti.
+Valed vastused:
+  - Pi kümnendkohad.
+  - Esimese 8 algarvu ruutjuurte kümnendkohtade esimesed 32 bitti.
+  - Esimese 8 algarvu ruutjuurte kümnendkohtade esimesed 64 bitti.
+Selgitus: |
+  SHA256 algväärtuste vektorid põhinevad esimese 8 algarvu kuupjuurte kümnendkohtade esimestel 64 bitil.
+Üle vaadatud: false

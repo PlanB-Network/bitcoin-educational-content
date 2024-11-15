@@ -1,0 +1,11 @@
+question: "coin control"选项在比特币钱包软件中的目的是什么？
+
+answer: 选择哪些UTXOs作为交易的输入。
+
+wrong_answers:
+  - 为了加密UTXOs以增强钱包的安全性。
+  - 检测并阻止来自可疑来源的UTXOs。
+  - 为钱包中的每个UTXO贴上标签。
+
+explanation: |
+  Coin control是优秀的比特币钱包软件中的一个功能，它允许你手动选择特定的UTXOs作为进行交易时的输入。

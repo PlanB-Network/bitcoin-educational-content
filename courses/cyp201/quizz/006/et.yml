@@ -1,0 +1,9 @@
+question: Mitu bitti on SHA256 funktsioonis suuruse järgi polsterdamiseks reserveeritud?
+answer: 64 bitti.
+wrong_answers:
+  - 128 bitti.
+  - 256 bitti.
+  - 512 bitti.
+explanation: |
+  SHA256 reserveerib polsterdamiseks 64 bitti, mis esindab sõnumi algset suurust enne polsterdamist.
+reviewed: false

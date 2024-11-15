@@ -1,0 +1,13 @@
+kysymys: Kuinka P2P-siirto V2 parantaa yksityisyyttä ja turvallisuutta solmujen välisessä viestinnässä?
+
+vastaus: Integroimalla tilaisuuskohtaisen salauksen
+
+vaarat_vastaukset:
+  - Integroimalla autentikoinnin
+  - Käyttämällä lisäviestejä
+  - Käyttämällä Toria
+
+selitys: |
+  P2P-siirto V2 sisältää tilaisuuskohtaisen salauksen kerroksen parantaakseen yksityisyyttä ja turvallisuutta solmujen välisessä viestinnässä.
+
+arvioitu: false

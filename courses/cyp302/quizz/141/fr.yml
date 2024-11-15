@@ -1,0 +1,9 @@
+question: Pourquoi la factorisation d'un produit de deux nombres premiers très grands est-elle considérée comme un problème difficile ?
+answer: Parce qu'il nécessite un temps de calcul prohibitif même pour les superordinateurs
+wrong_answers:
+  - Parce qu'il requiert une clé publique pour chaque facteur
+  - Parce qu'il implique uniquement des opérations de base en calcul
+  - Parce qu'il dépend de la multiplication et non de la division
+explanation: |
+  La factorisation d'un nombre immense, produit de deux grands nombres premiers, exige des puissances de calcul qui dépassent la capacité des ordinateurs actuels, ce qui rend cette tâche irréalisable en pratique.
+reviewed: false

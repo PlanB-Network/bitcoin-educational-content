@@ -1,0 +1,8 @@
+question: Milline plokkšifri meetod kasutab initsialiseerimisvektorit ja loob tõenäosusliku krüpteeringu?
+answer: CBC ("Cipher Block Chaining")
+wrong_answers:
+  - ECB ("Electronic Code Book")
+  - AES-128
+  - SHA-256
+explanation: |
+  CBC meetod kasutab initsialiseerimisvektorit ja rakendab XOR-i iga tekstiploki ja eelmise krüpteeritud ploki vahel, muutes krüpteeringu tõenäosuslikuks ja turvalisemaks kui ECB.

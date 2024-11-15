@@ -1,0 +1,8 @@
+question: Kes oli esimese prantsuskeelse artikli autor, mis tutvustas Bitcoini?
+answer: Lucien Grondin (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+explanation: |
+  See oli [tekst](https://linuxfr.org/news/connaissez-vous-les-bitcoins), mis avaldati 30. septembril 2010 LinuxFr.org lehel pealkirjaga "Kas te teate, mis on bitcoini?".

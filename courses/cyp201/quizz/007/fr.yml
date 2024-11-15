@@ -1,11 +1,9 @@
-question: Quelle fonction de hachage est un élément clé du protocole Bitcoin?
-answer: SHA-256
+question: À quoi correspondent les valeurs des 8 vecteurs d'initialisation de la fonction SHA256 ?
+answer: Les 64 premiers bits des parties décimales des racines cubiques des 8 premiers nombres premiers.
 wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
+  - Les décimales de Pi.
+  - Les 32 premiers bits des parties décimales des racines carrées des 8 premiers nombres premiers.
+  - Les 64 premiers bits des parties décimales des racines carrées des 8 premiers nombres premiers.
 explanation: |
-  SHA-256 est un élément clé du protocole Bitcoin. Il est utilisé pour créer
-  une empreinte unique et irréversible des données de transaction, ce qui est crucial pour
-  la sécurité et l'intégrité du réseau Bitcoin.
+  Les vecteurs d'initialisation de SHA256 sont basés sur les 64 premiers bits des parties décimales des racines cubiques des 8 premiers nombres premiers.
 reviewed: false

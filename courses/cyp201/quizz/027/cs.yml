@@ -1,11 +1,9 @@
-question: Co uchovává Bitcoinová peněženka?
-answer: Soukromé klíče nezbytné pro prokázání vlastnictví bitcoinů
-wrong_answers:
-  - Samotné bitcoiny
-  - Veřejné klíče nezbytné pro prokázání vlastnictví bitcoinů
-  - Historii transakcí bitcoinů
-explanation: |
-  Ve skutečnosti Bitcoinová peněženka uchovává soukromé klíče nezbytné pro prokázání
-  vlastnictví bitcoinů. Samotné bitcoiny jsou zaznamenány na blockchainu,
-  decentralizované databázi, která archivuje všechny transakce.
-reviewed: false
+otázka: Co v procesu digitálního podepisování s příkladem ECDSA v této kapitole představuje bod V?
+odpověď: Bod vypočítaný z nonce v a generátorového bodu G (V = v.G).
+špatné_odpovědi:
+  - Bod odvozený přímo z veřejného klíče.
+  - Hash podepsané zprávy.
+  - Výsledek sčítání dvou bodů na eliptické křivce.
+vysvětlení: |
+  V je výsledek výpočtu nonce vynásobeného generátorovým bodem na eliptické křivce.
+recenzováno: false

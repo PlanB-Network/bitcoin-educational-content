@@ -1,0 +1,11 @@
+question: Hva er rollen til AMF i Frankrike?
+answer: Den regulerer finansmarkedene.
+wrong_answers:
+  - Den regulerer utdanningssystemet.
+  - Den regulerer helsesystemet.
+  - Den regulerer transportsystemet.
+explanation: |
+  "AMF (Autorité des marchés financiers) er det franske tilsynsorganet for
+
+
+  \ finansmarkedene."

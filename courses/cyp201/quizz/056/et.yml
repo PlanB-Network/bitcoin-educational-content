@@ -1,0 +1,9 @@
+question: Mis on laiendatud võtme eesmärk?
+answer: Koguda kõik vajalikud andmed tuletatavate alamvõtmete jaoks ühte stringi.
+wrong_answers:
+  - Koguda kõik vajalikud andmed terve HD rahakoti taastamiseks ühte stringi.
+  - Koguda teavet rahakoti UTXO-de kohta.
+  - Koguda mnemooniline fraas ja parool ühte formaati.
+explanation: |
+  Laiendatud võti võimaldab kõik vajalikud andmed alamvõtmete tuletamiseks koondada, lihtsustades seeläbi kontode haldamist HD rahakotis.
+reviewed: false

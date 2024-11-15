@@ -1,10 +1,8 @@
-question: Je kapacita platebního kanálu Lightning pevně stanovena?
-answer: "Ano"
-wrong_answers:
-  - "Ne"
-  - Pouze v některých případech
-  - Závisí na síti Bitcoin
-explanation: |
-  Když je kanál otevřen, je mu přidělena pevná kapacita, která je definována
-  předem uživateli.
-reviewed: false
+otázka: Proč se UTXO často srovnávají s bankovkami?
+odpověď: Musí být utraceny v celku
+špatné_odpovědi:
+  - Mohou být použity vícekrát až do vyčerpání
+  - Jsou použitelné pouze v určitých specifických transakcích
+  - Představují malé pevné částky bitcoinů
+vysvětlení: |
+  Podobně jako bankovka musí být UTXO utraceno celé v jedné transakci a jakýkoli přebytek je vrácen odesílateli jako "drobné".

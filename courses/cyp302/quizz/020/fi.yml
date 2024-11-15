@@ -1,0 +1,9 @@
+kysymys: Mitä "modulo"-operaatio edustaa matematiikassa?
+vastaus: Jaon jäännös
+vaarat_vastaukset:
+  - Jaon osamäärä
+  - Kahdesti alkuluku
+  - Luku, joka jakaa ilman jäännöstä
+selitys: |
+  Modulo-operaatio sisältää jaon jäännöksen määrittämisen, esimerkiksi 25 mod 4 on 1, koska jaon jäännös on 1.
+arvioitu: false

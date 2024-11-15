@@ -1,9 +1,9 @@
-question: Was ist die Bedeutung der Verwendung eines eindeutigen Nonce im ECDSA-Algorithmus?
-answer: Es hilft, Sicherheitsangriffe zu vermeiden.
-wrong_answers:
-  - Es erhöht die Geschwindigkeit des Algorithmus.
-  - Es reduziert die Rechenkomplexität.
-  - Es ist für das Funktionieren des Algorithmus erforderlich.
-explanation: |
-  Die Verwendung eines eindeutigen Nonce im ECDSA-Algorithmus ist entscheidend für die Aufrechterhaltung der Sicherheit. Das Wiederverwenden eines Nonce kann zu Sicherheitslücken führen, wie beim PlayStation 3 Hack, bei dem aufgrund der Wiederverwendung eines Nonce Kompromittierungen auftraten.
-reviewed: false
+Frage: Was ist das einzigartige Merkmal der Liste von 2048 Wörtern, das die mnemonische Kodierung ermöglicht?
+Antwort: Kein Wort hat die gleichen ersten vier Buchstaben in derselben Reihenfolge.
+falsche_Antworten:
+  - Kein Wort hat die gleichen letzten drei Buchstaben.
+  - Kein Wort beginnt mit dem Buchstaben „J“.
+  - Kein Wort ist länger als sechs Buchstaben.
+Erklärung: |
+  Dieses Merkmal hilft, jegliche Mehrdeutigkeit bei der Eingabe der Wörter zu vermeiden, und gewährleistet so die Einzigartigkeit jedes Wortes in der Liste, während es gleichzeitig den notwendigen Speicherplatz reduziert.
+überprüft: false

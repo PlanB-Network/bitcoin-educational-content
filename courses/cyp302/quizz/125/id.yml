@@ -1,0 +1,9 @@
+pertanyaan: Masalah besar apa yang dicoba dipecahkan oleh para kriptografer Diffie, Hellman, dan Merkle pada tahun 1970-an?
+jawaban: Masalah distribusi dan manajemen kunci
+jawaban_salah:
+  - Pengembangan kriptografi pasca-kuantum
+  - Mengamankan komunikasi militer
+  - Meningkatkan teknik enkripsi simetris
+penjelasan: |
+  Diffie, Hellman, dan Merkle termotivasi oleh kesulitan praktis distribusi dan manajemen kunci untuk mengamankan komunikasi, tantangan krusial di dunia yang beralih ke komunikasi digital.
+direview: false

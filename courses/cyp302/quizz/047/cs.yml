@@ -1,0 +1,9 @@
+otázka: Podle Eulerovy věty, jaký je výsledek umocňování a^ϕ(N) mod N pro dvě celá čísla a a N, která jsou nesoudělná?
+odpověď: 1 mod N
+špatné_odpovědi:
+  - 0 mod N
+  - N mod a
+  - a mod N
+vysvětlení: |
+  Eulerova věta uvádí, že pro dvě celá čísla a a N, která jsou nesoudělná, je výsledek umocňování a^ϕ(N) mod N vždy roven 1 mod N, což je vlastnost využívaná v kryptografii.
+recenzováno: false

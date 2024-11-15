@@ -1,11 +1,9 @@
-question: What are the characteristics of an effective passphrase for a Bitcoin wallet?
-answer: Long (20 to 40 characters) and diversified (using uppercase letters, lowercase letters, numbers, and symbols)
+question: How is the checksum of a Legacy address calculated?
+answer: With HASH256.
 wrong_answers:
-  - Short and simple
-  - Long and simple
-  - Short and diversified
+  - With HASH160.
+  - With a BCH code.
+  - With RIPEMD160.
 explanation: |
-  An effective passphrase should be long (20 to 40 characters) and diversified
-  (using uppercase letters, lowercase letters, numbers, and symbols). It should not
-  be directly related to the user or their environment.
+  For Legacy addresses, the checksum is obtained by performing a double hash with the SHA256 function (HASH256).
 reviewed: false

@@ -1,0 +1,9 @@
+pregunta: ¿Qué es un "stream cipher" en criptografía?
+respuesta: Una encriptación simétrica que genera un flujo de claves de la misma longitud que el mensaje
+respuestas_incorrectas:
+  - Una encriptación asimétrica basada en números primos
+  - Una encriptación que utiliza múltiples claves de descifrado diferentes
+  - Una encriptación que segmenta el mensaje en bloques de datos
+explicación: |
+  Un "stream cipher" es una encriptación simétrica en la cual un flujo de claves de la misma longitud que el mensaje se combina con este último para producir el texto cifrado.
+revisado: false

@@ -1,0 +1,9 @@
+question: Hva er målet med å bruke digitale signaturer i Bitcoin?
+answer: Å produsere et matematisk bevis som rettferdiggjør at en bruker faktisk er i besittelse av en privat nøkkel, uten å avsløre den private nøkkelen.
+wrong_answers:
+  - Å produsere et matematisk bevis som rettferdiggjør at en bruker faktisk er i besittelse av en offentlig nøkkel, uten å avsløre den offentlige nøkkelen.
+  - Å produsere et matematisk bevis som rettferdiggjør at en bruker faktisk er i besittelse av en mottaksadresse, uten å avsløre den mottaksadressen.
+  - Å produsere et matematisk bevis som rettferdiggjør at en bruker faktisk er i besittelse av en lommebok.
+explanation: |
+  Digitale signaturer i Bitcoin gjør det mulig å bevise at en bruker eier den private nøkkelen som er assosiert med en offentlig nøkkel, uten å avsløre den private nøkkelen.
+reviewed: false

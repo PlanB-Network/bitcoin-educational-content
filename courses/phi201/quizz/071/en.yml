@@ -1,0 +1,9 @@
+question: What is the motto of the Physiocrats?
+answer: Laissez-faire, laissez passer.
+wrong_answers:
+  - "The State is at once banker, merchant, and provider."
+  - "France can only become wealthy through the ruin of England and Holland."
+  - "Political economy as summarized by Dupont de Nemours is the science of natural law applied to civilized societies."
+explanation: |
+  The motto "Laissez-faire, laissez passer" of the Physiocrats expresses their belief that the economy thrives when it is free from state interventions, allowing the natural forces of the market to balance freely.
+reviewed: false

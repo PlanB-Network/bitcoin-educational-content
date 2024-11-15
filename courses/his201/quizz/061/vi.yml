@@ -1,0 +1,9 @@
+câu hỏi: Hàm nào, được thiết kế vào tháng 10 năm 2010 bởi người đào m0mchil, cho phép các nút khách hàng lấy một khối ứng viên và trả lại bằng chứng công việc nếu tìm thấy một giải pháp?
+câu trả lời: getwork
+câu trả lời sai:
+  - stratum
+  - gethash
+  - getcredit
+giải thích: |
+  Nó được công bố vào ngày 1 tháng 10. Satoshi đã bao gồm một phiên bản chỉnh sửa của hàm này trong phần mềm chính vào ngày 23 tháng 11.
+đã xem xét: false

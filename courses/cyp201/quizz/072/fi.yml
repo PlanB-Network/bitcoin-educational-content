@@ -1,9 +1,9 @@
-question: Mikä on mnemonic-lause Bitcoin-lompakon kontekstissa?
-answer: Se on lompakon varmuuskopio.
-wrong_answers:
-  - Se on lompakon salasana.
-  - Se on lompakon tapahtumahistoria.
-  - Se on lompakon digitaalinen allekirjoitus.
-explanation: |
-  Mnemonic-lause luodaan varmistamaan Bitcoin-lompakon varmuuskopioinnin.
-reviewed: false
+kysymys: Mikä funktio on käytössä osoitteen generoimiseen?
+vastaus: HASH160.
+väärät_vastaukset:
+  - HASH256.
+  - HASH512.
+  - SHA256.
+selitys: |
+  HASH160-funktio, joka yhdistää SHA256:n ja RIPEMD-160:n, on käytössä Bitcoin-osoitteiden generoimiseen julkisista avaimista.
+arvioitu: false

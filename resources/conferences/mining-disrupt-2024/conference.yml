@@ -1,6 +1,6 @@
 year: 2024-06
 name: Mining Disrupt Conference 2024
-builder: 
+builder:
 location: Miami, USA
 language:
   - en
@@ -19,4 +19,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - jramos0
-    reward: 
+    reward: 1512

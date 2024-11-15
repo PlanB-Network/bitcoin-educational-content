@@ -1,0 +1,14 @@
+pertanyaan: Apa hubungan antara tabungan dan standar hidup menurut ekonom Austria?
+jawaban: Semakin banyak kita menabung, semakin banyak modal yang dapat kita kumpulkan, yang pada gilirannya akan meningkatkan produktivitas sehingga menghasilkan lebih banyak barang. Dengan demikian, standar hidup yang lebih tinggi dapat dicapai.
+jawaban_salah:
+  - Semakin banyak kita menabung, semakin rendah standar hidup kita.
+  - Tidak ada hubungan antara tabungan dan standar hidup.
+  - Semakin sedikit kita menabung, semakin tinggi standar hidup kita.
+penjelasan: |
+  "Ekonom Austria menganggap bahwa penurunan preferensi waktu adalah\
+  \ titik awal untuk siklus kebajikan dari tabungan \u2013> lebih banyak barang modal\
+  \ \uF0E0 lebih banyak produktivitas \uF0E0 lebih banyak barang = standar hidup yang lebih tinggi \u2013\
+  > preferensi waktu yang lebih rendah. Dengan demikian, semakin banyak kita menabung, semakin banyak modal yang dapat kita\
+  \ kumpulkan, yang pada gilirannya akan meningkatkan produktivitas sehingga menghasilkan lebih\
+  \ banyak barang. Ini mengarah pada standar hidup yang lebih tinggi."
+ditinjau: false

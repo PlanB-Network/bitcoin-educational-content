@@ -1,0 +1,9 @@
+question: Which German miner held 20% of the Bitcoin network's hash rate for several months in 2010?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  He set up a mining farm composed of graphics cards (called "ArtFarm") during the summer of 2010, thereby gaining a significant lead over his competitors by fall.
+reviewed: false

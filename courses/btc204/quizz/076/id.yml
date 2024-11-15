@@ -1,0 +1,13 @@
+pertanyaan: Apa itu transaksi coinjoin?
+
+jawaban: Transaksi kolaboratif di mana beberapa pengguna menggabungkan UTXO mereka.
+
+jawaban_salah:
+  - Transaksi kolaboratif antara hanya dua pengguna.
+  - Transaksi di mana satu pengguna mengirim dana ke beberapa alamat.
+  - Transaksi di mana aktor pusat mencampur bitcoin klien mereka.
+
+penjelasan: |
+  Transaksi coinjoin adalah transaksi kolaboratif di mana beberapa pengguna mencampur koin mereka.
+
+ditinjau: false

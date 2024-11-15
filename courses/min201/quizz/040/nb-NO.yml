@@ -1,0 +1,10 @@
+question: Hva etablerer mining for Bitcoin?
+answer: En minimumspris
+wrong_answers:
+  - En makspris
+  - En fast pris
+  - En variabel pris
+explanation: |
+  Mining etablerer en minimumspris for Bitcoin, under hvilken gruvearbeidere ville
+  selge med tap. Kostnaden ved mining påvirker betydelig prisen på Bitcoin.
+reviewed: false

@@ -1,0 +1,8 @@
+pertanyaan: Metadata apa saja yang ditambahkan ke kunci ekstensi selain dari muatannya?
+jawaban: Versi / kedalaman / sidik jari induk / indeks / checksum.
+jawaban_salah:
+  - Versi / indeks.
+  - Versi / kedalaman / pemisah / checksum.
+  - Tidak ada metadata yang ditambahkan.
+penjelasan: |
+  Kunci ekstensi mencakup beberapa bagian metadata. Ada versi, kedalaman, sidik jari induk, indeks, dan checksum untuk memfasilitasi derivasi kunci.

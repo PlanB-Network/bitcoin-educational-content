@@ -1,9 +1,9 @@
-question: Was sind UTXOs im Zusammenhang mit Bitcoin?
-answer: Unausgegebene Transaktionsausgaben
-wrong_answers:
-  - Nicht nachverfolgbare Transaktionsausgaben
-  - Nicht verifizierte Transaktionsausgaben
-  - Nicht bestätigte Transaktionsausgaben
-explanation: |
-  UTXOs oder "Unausgegebene Transaktionsausgaben" repräsentieren die unausgegebenen Transaktionsausgaben, die einem Benutzer gehören. Um diese Bitcoins auszugeben, muss man den Besitz des privaten Schlüssels nachweisen, der mit dem öffentlichen Schlüssel verknüpft ist, der jedem UTXO zugeordnet ist.
-reviewed: false
+Frage: Warum ist es unmöglich, den privaten Schlüssel aus einer gültigen digitalen Signatur abzurufen?
+Antwort: Die Signatur basiert auf irreversiblen mathematischen Operationen auf einer elliptischen Kurve.
+falsche_Antworten:
+  - Der private Schlüssel wird vor der Verwendung verschlüsselt.
+  - Der Seed schützt den privaten Schlüssel.
+  - Das Hashen von Nachrichten verhindert, dass der private Schlüssel abgerufen werden kann.
+Erklärung: |
+  Operationen auf elliptischen Kurven sind irreversibel, was sicherstellt, dass der private Schlüssel nicht aus der Signatur abgeleitet werden kann.
+überprüft: false

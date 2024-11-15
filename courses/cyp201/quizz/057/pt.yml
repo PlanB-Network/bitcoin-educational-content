@@ -1,9 +1,8 @@
-question: Qual é o principal desafio na geração de números aleatórios em computadores para transações de Bitcoin?
-answer: Os resultados obtidos não são verdadeiramente aleatórios.
-wrong_answers:
-  - O processo é muito complexo para a maioria dos usuários.
-  - Requer muita potência computacional.
-  - Não é compatível com todos os tipos de computadores.
-explanation: |
-  Os computadores seguem algoritmos definidos, o que torna difícil gerar números verdadeiramente aleatórios. Isso é um desafio significativo na criptografia, onde a aleatoriedade é crucial para a segurança das chaves privadas e das transações de Bitcoin.
-reviewed: false
+pergunta: Com uma chave pública estendida, eu posso derivar...
+resposta: ...chaves públicas filhas normais.
+respostas_erradas:
+  - ...chaves públicas filhas endurecidas.
+  - ...chaves privadas filhas normais.
+  - ...chaves privadas filhas endurecidas.
+explicação: |
+  Uma chave pública estendida permite a derivação apenas de chaves públicas filhas normais, mas não de chaves privadas.

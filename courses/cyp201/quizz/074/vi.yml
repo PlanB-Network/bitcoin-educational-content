@@ -1,9 +1,8 @@
-question: Tại sao việc sao lưu cụm từ khôi phục 24 từ của ví Bitcoin lại quan trọng?
-answer: Để ngăn chặn mất mát tiền.
-wrong_answers:
-  - Để xác minh độ chính xác của cụm từ khôi phục.
-  - Để tạo entropy cho ví.
-  - Để mã hóa cụm từ khôi phục cho thêm bảo mật.
-explanation: |
-  Việc sao lưu cụm từ khôi phục 24 từ là quan trọng để ngăn chặn mất mát tiền.
-reviewed: false
+câu hỏi: Tiền tố hoặc HRP nào tương ứng với địa chỉ chuẩn SegWit?
+câu trả lời: "bc"
+câu trả lời sai:
+  - "1"
+  - "0x"
+  - "btc"
+giải thích: |
+  Tiền tố "bc" được sử dụng cho các địa chỉ SegWit trên mạng chính của Bitcoin.

@@ -1,9 +1,8 @@
-question: ¿Qué es un hash en el contexto de las funciones hash criptográficas?
-answer: Una huella digital única y de tamaño fijo producida por una función hash.
-wrong_answers:
-  - Un tipo de algoritmo de cifrado.
-  - Una clave utilizada para descifrar datos.
-  - Un método de compresión de datos.
-explanation: |
-  En el contexto de las funciones hash criptográficas, un hash es una huella digital única y de tamaño fijo producida por la función hash. Representa los datos de entrada de una manera única e irreversible.
-reviewed: false
+pregunta: ¿Cuántos bits se reservan para el relleno por tamaño en la función SHA256?
+respuesta: 64 bits.
+respuestas_incorrectas:
+  - 128 bits.
+  - 256 bits.
+  - 512 bits.
+explicación: |
+  SHA256 reserva 64 bits para el relleno, lo que representa el tamaño inicial del mensaje antes del relleno.

@@ -1,0 +1,8 @@
+问题：比特币HD钱包中用于派生的算法是什么？
+答案：HMAC/PBKDF2
+错误答案：
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
+解释：
+  比特币HD钱包使用HMAC（基于哈希的消息认证码）进行密钥派生，以及PBKDF2（基于密码的密钥派生函数2）进行种子派生。

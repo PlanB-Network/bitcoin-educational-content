@@ -1,12 +1,9 @@
-question: What are the two key components in the security mechanism of the Bitcoin
-  protocol?
-answer: HMAC and PBKDF2 derivation algorithms
+question: How is a Bitcoin public key determined?
+answer: It is determined by adding and doubling points on the elliptic curve from the generator point using the private key.
 wrong_answers:
-  - SHA-256 and RIPEMD-160 hash functions
-  - Elliptic Curve Digital Signature Algorithm (ECDSA) and SHA-256 hash function
-  - RSA and Diffie-Hellman key exchange
+  - It is determined from a random or pseudo-random number.
+  - It is determined by hashing its private key.
+  - It is determined by hashing its seed.
 explanation: |
-  The HMAC and PBKDF2 derivation algorithms are key components in the security
-  mechanism of the Bitcoin protocol. They prevent a variety of potential attacks and
-  ensure the integrity of Bitcoin wallets.
+  The public key is generated from the private key through operations on the elliptic curve, starting from the generator point.
 reviewed: false

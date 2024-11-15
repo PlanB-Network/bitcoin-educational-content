@@ -1,9 +1,8 @@
-question: ¿Cuál es el propósito de un checksum en la generación de una frase mnemotécnica para una billetera de Bitcoin?
-answer: Su propósito es asegurar la verificación de la precisión de la frase de recuperación.
-wrong_answers:
-  - Genera la entropía para la billetera.
-  - Determina el número de palabras en la frase de recuperación.
-  - Encripta la frase de recuperación para mayor seguridad.
-explanation: |
-  El checksum se obtiene al pasar la entropía a través de la función SHA256 y recuperar los primeros 8 bits del hash. Sin este checksum, un error en la frase podría resultar en la creación de una billetera diferente y, por lo tanto, la pérdida de fondos.
-reviewed: false
+pregunta: En cuanto a la notación de una ruta de derivación, ¿qué significa el apóstrofo o la "H" que se nota a la derecha del número? Ejemplo m/84'/0'.
+respuesta: Indica una derivación endurecida.
+respuestas_incorrectas:
+  - Indica una derivación normal.
+  - Está ahí como decoración.
+  - Indica una clave de cambio.
+explicación: |
+  El apóstrofo o "H" en una ruta de derivación indica una derivación endurecida, que utiliza la clave privada padre y el rango de índice correspondiente.

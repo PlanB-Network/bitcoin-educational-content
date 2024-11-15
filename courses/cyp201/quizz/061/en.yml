@@ -1,11 +1,9 @@
-question: Why is it recommended to use open-source wallets for Bitcoin transactions?
-answer: They enable the verification of the random number generation.
+question: What is the variable that allows differentiating sibling key pairs from each other (which have the same parent pair)?
+answer: The index.
 wrong_answers:
-  - They are cheaper than closed-source wallets.
-  - They are faster than closed-source wallets.
-  - They are more secure than closed-source wallets.
+  - The cryptographic salt.
+  - The first name.
+  - The parent chain code.
 explanation: |
-  Open-source wallets allow users to verify the generation of the random
-  number, which is a crucial step in ensuring the security of private keys and Bitcoin
-  transactions.
+  The index is used to differentiate sibling key pairs derived from the same parent pair in an HD wallet.
 reviewed: false

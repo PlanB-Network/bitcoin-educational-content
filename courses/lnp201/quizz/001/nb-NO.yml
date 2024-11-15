@@ -1,0 +1,8 @@
+question: I en betalingskanal, hva er "kapasiteten" til kanalen?
+answer: Det totale beløpet av midler som de to deltakerne kan utveksle
+wrong_answers:
+  - Tidsbegrensningen for hvor lenge kanalen kan forbli åpen
+  - Det maksimale beløpet en deltaker kan sende i en enkelt transaksjon
+  - Antall transaksjoner en kanal kan støtte per dag
+explanation: |
+  Kapasiteten til kanalen tilsvarer de totale midlene til de to deltakerne og forblir fast for å bestemme de mulige utvekslingene.

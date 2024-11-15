@@ -1,0 +1,11 @@
+question: Blant de følgende svarene, hvilket representerer ikke en fordel ved å bruke din egen node?
+
+answer: Redusere transaksjonsgebyrer.
+
+wrong_answers:
+  - Deltakelse i konsensus.
+  - Å være uavhengig av tredjeparter.
+  - Å kunne motstå sensur av transaksjoner.
+
+explanation: |
+  Her er grunnen til at det å ha din egen node er avgjørende for fullstendig suveren bruk av Bitcoin: Motstandsdyktighet mot sensur: Dine transaksjoner kan ikke blokkeres av noen; Uavhengighet fra tredjeparter: Du er ikke lenger avhengig av noen ekstern tjeneste for å verifisere blockchain-data; Aktiv deltakelse: Du har muligheten til å sette dine egne valideringsregler og direkte delta i konsensus; Bidrag til nettverket: Ved å kjøre en node, hjelper du til med å styrke og distribuere Bitcoin-nettverket; Teknisk utdanning: Å administrere en full node er en utmerket måte å fordype din tekniske kunnskap om Bitcoin.

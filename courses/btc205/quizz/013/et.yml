@@ -1,0 +1,9 @@
+question: Mis on Peach P2P lahenduse ainulaadne omadus?
+answer: Selle kasutamiseks ei ole vaja kontot luua.
+wrong_answers:
+  - See kasutab DAO süsteemi.
+  - See toimib TOR-i alusel.
+  - See kasutab vaidluste haldamiseks multisigni.
+explanation: |
+  Peatükis mainitakse, et Peach eristub oma lihtsuse poolest, kuna selle kasutamiseks ei ole vaja kontot luua.
+reviewed: false

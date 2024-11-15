@@ -1,0 +1,9 @@
+câu hỏi: Trong một giao dịch Bitcoin, công nghệ nào thường được sử dụng để chứng minh quyền sở hữu tiền bằng cách mở khóa script?
+câu trả lời: Chữ ký số
+câu trả lời sai:
+  - Chứng chỉ số
+  - Mã hóa đối xứng
+  - Mã xác thực tin nhắn (MAC)
+giải thích: |
+  Chữ ký số trong Bitcoin chứng minh quyền sở hữu tiền bằng cách ký giao dịch với khóa riêng để mở khóa script bảo vệ UTXO.
+đã xem xét: false

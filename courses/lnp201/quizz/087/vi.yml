@@ -1,9 +1,0 @@
-question: Mục tiêu của việc định tuyến các nút trong việc cung cấp thanh khoản trên Mạng Lưới Lightning là gì?
-answer: Để cân bằng thanh khoản ở cả hai bên
-wrong_answers:
-  - Để mở kênh
-  - Để kết nối với các nút khác
-  - Để mua kênh
-explanation: |
-  Đối với các nút định tuyến trên Mạng Lưới Lightning, mục tiêu về thanh khoản là để cân bằng thanh khoản ở cả hai bên. Họ cũng nhằm mục đích có kết nối tốt với nhiều nút để được sử dụng càng nhiều càng tốt.
-reviewed: false

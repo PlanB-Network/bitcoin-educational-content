@@ -1,9 +1,0 @@
-question: Was sind die Merkmale eines guten Passworts?
-answer: Lang, komplex, einzigartig und nicht auf persönlichen Informationen basierend.
-wrong_answers:
-  - Kurz, einfach und leicht zu merken.
-  - Basierend auf persönlichen Informationen wie Geburtsdaten und Namen.
-  - Das gleiche Passwort für alle Konten.
-explanation: |
-  Ein gutes Passwort ist lang (mindestens 12 Zeichen), komplex (eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen), einzigartig (wird nicht für verschiedene Konten wiederverwendet) und nicht auf persönlichen Informationen basierend.
-reviewed: false

@@ -1,0 +1,11 @@
+question: Hvilken kryptografisk metode brukes for å hindre koordinatoren fra å koble inndata og utdata i en coinjoin?
+
+answer: Chaum blinde signaturer.
+
+wrong_answers:
+  - Schnorr-signaturer.
+  - P2SH-adresser.
+  - P2TR-adresser.
+
+explanation: |
+  I såkalte "Chaumian" coinjoins kombineres bruken av Tor og David Chaums blinde signaturer for å sikre at koordinatoren ikke kan vite hvilken utgang som tilhører hvilken bruker.

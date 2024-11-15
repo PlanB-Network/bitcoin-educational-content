@@ -1,0 +1,9 @@
+pergunta: Qual é o tamanho de bloco típico para a criptografia de cifra de bloco?
+resposta: 64, 128, 192 ou 256 bits
+respostas_erradas:
+  - 8, 16, 32 ou 64 bits
+  - 4, 8, 16 ou 32 bits
+  - 256, 512, 1024 ou 2048 bits
+explicação: |
+  As cifras de bloco processam dados em blocos de tamanho fixo, tipicamente 64, 128, 192 ou 256 bits, para garantir a segurança ótima e a integridade da criptografia.
+revisado: false

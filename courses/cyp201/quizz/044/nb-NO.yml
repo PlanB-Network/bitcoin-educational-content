@@ -1,0 +1,8 @@
+question: Hvordan konstruere gjenopprettingsfrasen (mnemonisk) i binær?
+answer: Konkatenér det tilfeldige tallet med dets kontrollsum på slutten.
+wrong_answers:
+  - Konkatenér det tilfeldige tallet med dets kontrollsum i begynnelsen.
+  - Konkatenér det tilfeldige tallet med en seed.
+  - Del det tilfeldige tallet i to deler og sett inn kontrollsummen i midten.
+explanation: |
+  For å generere en binær mnemonisk frase, konkatenér kontrollsummen til slutten av det tilfeldige tallet før du konverterer til ord.

@@ -1,9 +1,0 @@
-question: Qual è l'importanza di utilizzare una password forte per la sicurezza del computer?
-answer: Per prevenire l'accesso non autorizzato al sistema.
-wrong_answers:
-  - Per far funzionare il sistema più velocemente.
-  - Per aumentare la capacità di archiviazione.
-  - Per migliorare l'interfaccia utente.
-explanation: |
-  Una password forte è fondamentale per la sicurezza del computer al fine di prevenire l'accesso non autorizzato al sistema.
-reviewed: false

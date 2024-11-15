@@ -1,0 +1,11 @@
+pregunta: ¿Cuál es la principal ventaja de una transacción payjoin en comparación con una transacción de pago clásica?
+
+respuesta: Mejora la privacidad
+
+respuestas_incorrectas:
+  - Aumenta la velocidad de confirmación
+  - Reduce las tarifas de transacción
+  - Engaña al destinatario
+
+explicación: |
+  La transacción payjoin mejora la privacidad de los participantes al confundir el análisis de la cadena.

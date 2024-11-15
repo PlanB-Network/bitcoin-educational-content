@@ -1,0 +1,11 @@
+question: Hva er formålet med en "cold" wallet i Bitcoin?
+answer: Å lagre Bitcoins på en sikker måte.
+wrong_answers:
+  - Å utvinne nye Bitcoins.
+  - Å handle med Bitcoins.
+  - Å konvertere Bitcoins til andre kryptovalutaer.
+explanation: |
+  En "cold" wallet, også kjent som en hardware wallet, er en enhet designet
+  for å lagre Bitcoins på en sikker måte. Den brukes ikke til å utvinne nye Bitcoins, handle med Bitcoins,
+  eller konvertere Bitcoins til andre kryptovalutaer.
+reviewed: false

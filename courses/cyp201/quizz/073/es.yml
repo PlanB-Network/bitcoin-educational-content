@@ -1,9 +1,6 @@
-question: ¿Cuál es una opción adicional para mejorar la seguridad de una billetera de Bitcoin?
-answer: Agregar una frase de contraseña.
-wrong_answers:
-  - Agregar una segunda frase mnemotécnica.
-  - Agregar una firma digital.
-  - Agregar un historial de transacciones.
-explanation: |
-  Agregar una frase de contraseña es una opción adicional para mejorar la seguridad de la billetera de Bitcoin.
-reviewed: false
+pregunta: ¿Verdadero o Falso? "Si uno desea optimizar su privacidad, no debería reutilizar la misma dirección múltiples veces."
+respuesta: Verdadero.
+respuestas_incorrectas:
+  - Falso.
+explicación: |
+  Reutilizar la misma dirección debilita la privacidad al exponer los vínculos entre diferentes transacciones en la blockchain.

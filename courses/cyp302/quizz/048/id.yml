@@ -1,0 +1,9 @@
+pertanyaan: Dalam sebuah grup siklik, apa istilah untuk elemen yang dapat menghasilkan semua elemen lain melalui eksponensiasi?
+jawaban: Sebuah generator
+jawaban_salah:
+  - Sebuah pengali
+  - Sebuah koprima
+  - Sebuah invers
+penjelasan: |
+  Sebuah generator adalah elemen dalam grup siklik yang, melalui eksponensiasi, dapat menghasilkan semua elemen lain dari grup tersebut.
+ditinjau: false

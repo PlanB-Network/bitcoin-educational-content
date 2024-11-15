@@ -1,0 +1,9 @@
+domanda: Quale funzione viene utilizzata per calcolare il numero di interi minori di N che sono coprimi con N?
+risposta: Funzione Phi di Eulero
+risposte_errate:
+  - Funzione Gamma di Eulero
+  - Funzione Sigma di Eulero
+  - Funzione Beta di Dirichlet
+spiegazione: |
+  La funzione Phi di Eulero determina il numero di interi minori di N che sono coprimi con N, un concetto centrale nei teoremi di crittografia basati sui numeri primi.
+recensito: false

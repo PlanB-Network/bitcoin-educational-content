@@ -1,0 +1,9 @@
+pertanyaan: Jenis enkripsi simetris apa yang terutama digunakan untuk komunikasi berkelanjutan, seperti aliran audio atau video?
+jawaban: Enkripsi aliran
+jawaban_salah:
+  - Enkripsi blok
+  - Kode verifikasi
+  - Hashing pesan
+penjelasan: |
+  Enkripsi aliran sangat cocok untuk komunikasi berkelanjutan karena ia mengenkripsi data secara berkelanjutan, tidak seperti enkripsi blok, yang membagi data menjadi blok-blok.
+direview: false

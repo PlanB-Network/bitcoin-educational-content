@@ -1,0 +1,10 @@
+pertanyaan: Apa tujuan dari node dalam jaringan Bitcoin?
+jawaban: Untuk memelihara dan mengamankan blockchain
+jawaban_salah:
+  - Untuk memproses transaksi
+  - Untuk mengusulkan dan menerapkan perubahan pada basis kode Bitcoin
+  - Untuk bersaing dengan penambang lain
+penjelasan: |
+  Node sangat penting untuk integritas dan keamanan jaringan Bitcoin.
+  Mereka berfungsi sebagai penjaga sistem, memastikan bahwa transaksi
+  diproses dengan akurat dan sesuai dengan aturan.

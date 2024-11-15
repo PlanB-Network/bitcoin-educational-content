@@ -1,0 +1,10 @@
+pertanyaan: Apa tiga metode pembelian bitcoin yang disebutkan dalam bab tersebut?
+jawaban: Menggunakan mesin teller otomatis (ATM), pertukaran antar teman, dan pembelian online.
+jawaban_salah:
+  - Menggunakan kartu kredit, pertukaran antar teman, dan pembelian online.
+  - Menggunakan mesin teller otomatis (ATM), pertukaran antar anggota keluarga, dan pembelian online.
+  - Menggunakan mesin teller otomatis (ATM), pertukaran antar rekan kerja, dan pembelian online.
+penjelasan: |
+  Bab tersebut menyebutkan tiga metode pembelian bitcoin; menggunakan mesin
+  teller otomatis (ATM), pertukaran antar teman, dan pembelian online.
+ditinjau: false

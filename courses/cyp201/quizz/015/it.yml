@@ -1,9 +1,9 @@
-question: Qual è la dimensione dell'output della funzione di hash SHA256?
-answer: 256 bit
-wrong_answers:
-  - 512 bit
-  - 128 bit
-  - 1024 bit
-explanation: |
-  La funzione di hash SHA256 genera un hash di 256 bit da un input di dimensione variabile. Questo è il motivo per cui viene chiamata SHA256.
-reviewed: false
+domanda: Qual è il nome della curva ellittica utilizzata per gli algoritmi di firma digitale in Bitcoin?
+risposta: secp256k1.
+risposte_errate:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+spiegazione: |
+  La curva secp256k1 è utilizzata nel protocollo Bitcoin per le firme digitali.
+revisionato: false

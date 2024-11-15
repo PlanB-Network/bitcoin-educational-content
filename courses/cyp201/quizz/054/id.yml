@@ -1,0 +1,8 @@
+pertanyaan: Untuk menghitung nilai dari kunci utama dan kode rantai utama, input pertama ke fungsi HMAC-SHA512 adalah seed. Apa nilai input kedua dari fungsi ini, yang berfungsi sebagai kunci?
+jawaban: "Bitcoin seed".
+jawaban_salah:
+  - Frase mnemonik.
+  - Frase sandi.
+  - "Seed".
+penjelasan: |
+  String "Bitcoin seed" digunakan sebagai kunci dalam HMAC-SHA512 untuk menurunkan kunci utama dan kode rantai utama dari seed.

@@ -1,0 +1,10 @@
+question: Hva er løsningen på problemet med direkte bytte i arbeidsdeling?
+answer: Indirekte bytte tilrettelagt av penger.
+wrong_answers:
+  - Direkte bytte tilrettelagt av byttehandel.
+  - Indirekte bytte tilrettelagt av byttehandel.
+  - Direkte bytte tilrettelagt av penger.
+explanation: |
+  Penger muliggjør indirekte bytte, hvor en person kan kjøpe fra
+  en annen, og selgeren kan bruke den monetære enheten et annet sted, på et annet tidspunkt, og
+  med noen andre.

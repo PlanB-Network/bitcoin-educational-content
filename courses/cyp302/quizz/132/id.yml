@@ -1,0 +1,8 @@
+pertanyaan: Dalam transaksi Bitcoin, teknologi apa yang umumnya digunakan untuk membuktikan kepemilikan dana dengan membuka skrip?
+jawaban: Tanda tangan digital
+jawaban_salah:
+  - Sertifikat digital
+  - Enkripsi simetris
+  - Kode Otentikasi Pesan (MAC)
+penjelasan: |
+  Tanda tangan digital dalam Bitcoin membuktikan kepemilikan dana dengan menandatangani transaksi menggunakan kunci privat untuk membuka skrip yang mengamankan sebuah UTXO.

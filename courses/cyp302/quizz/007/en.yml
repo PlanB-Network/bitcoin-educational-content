@@ -1,0 +1,9 @@
+question: What distinguishes a modern cryptography scheme from a simple encryption scheme?
+answer: The assurance of message integrity and authenticity
+wrong_answers:
+  - The use of a single secret key
+  - The decentralization of the key
+  - The anonymization of messages
+explanation: |
+  Modern cryptography includes schemes that go beyond confidentiality to ensure integrity and authenticity, as well as non-repudiation, unlike simple encryption schemes.
+reviewed: false

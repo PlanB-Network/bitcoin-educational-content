@@ -1,0 +1,9 @@
+pertanyaan: Apa tujuan awal dari algoritma bukti kerja Hashcash yang dirancang oleh Adam Back?
+jawaban: Untuk memerangi email spam
+jawaban_salah:
+  - Untuk menjamin nilai dari sebuah unit akun
+  - Untuk mencapai konsensus pada jaringan peer-to-peer
+  - Untuk mendidihkan lautan
+penjelasan: |
+  Hashcash membutuhkan bukti kerja untuk setiap email yang diterima, yang seharusnya dapat membatasi spam.
+ditinjau: false

@@ -1,0 +1,11 @@
+Câu hỏi: Có bao nhiêu người tham gia trong các đầu vào của một giao dịch payjoin?
+
+Câu trả lời: 2
+
+Câu trả lời sai:
+  - 1
+  - 3
+  - 0
+
+Giải thích: |
+  Có 2 người tham gia: người thanh toán và người nhận thanh toán.

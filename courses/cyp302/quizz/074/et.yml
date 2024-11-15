@@ -1,0 +1,9 @@
+question: Mis juhtub, kui kasutada võtit 7, et krüpteerida sõna "CAT"?
+answer: Sõna muutub "JHA"-ks
+wrong_answers:
+  - Sõna muutub "JBA"-ks
+  - Sõna muutub "JHB"-ks
+  - Sõna muutub "ZHA"-ks
+explanation: |
+  Kasutades võtit 7, nihutatakse iga sõna "CAT" tähte tähestikus 7 positsiooni võrra, mis toodab krüpteeritud sõna "JHA".
+reviewed: false

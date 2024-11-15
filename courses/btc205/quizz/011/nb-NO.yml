@@ -1,0 +1,9 @@
+question: Hva er en ulempe med RoboSat P2P-løsningen?
+answer: Protokollen er skjør med en enkelt koordinator.
+wrong_answers:
+  - Den krever en konto for å fungere.
+  - Den bruker ikke Lightning Network.
+  - Den er ikke åpen kildekode.
+explanation: |
+  Kapittelet nevner at en av ulempene med RoboSat er at
+  protokollen er skjør med en enkelt koordinator.

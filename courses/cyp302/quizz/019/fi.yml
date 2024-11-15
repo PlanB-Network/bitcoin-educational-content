@@ -1,0 +1,9 @@
+kysymys: Mikä on Bayesin teoreeman rooli todennäköisyydessä?
+vastaus: Se mahdollistaa ehdollisen todennäköisyyden laskemisen kääntämällä tapahtumat.
+väärät_vastaukset:
+  - Se tarjoaa todennäköisyyden yksittäisen tapahtuman esiintymiselle.
+  - Se määrittelee kaikkien mahdollisten tapahtumien kokonaistodennäköisyyden.
+  - Se soveltuu vain jatkuviin muuttujiin.
+selitys: |
+  Bayesin teoreema mahdollistaa tapahtuman A todennäköisyyden laskemisen annettuna B kääntämällä todennäköisyydet ja on olennainen osa todennäköisyysteoriaa.
+arvioitu: false

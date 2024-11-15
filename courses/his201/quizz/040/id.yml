@@ -1,0 +1,9 @@
+pertanyaan: Berapa banyak bitcoin (sekitar) yang ditambang oleh Satoshi Nakamoto secara total?
+jawaban: 1,100,000
+jawaban_salah:
+  - 11,000,000
+  - 110,000
+  - 11,000
+penjelasan: |
+ 1,122,693 bitcoin menurut sebuah studi oleh Whale Alert yang diterbitkan pada tahun 2020. Satoshi menghentikan aktivitas penambangannya pada Mei 2010.
+ditinjau: false

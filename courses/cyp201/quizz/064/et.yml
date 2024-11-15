@@ -1,0 +1,9 @@
+question: Mis on tavaliste lastevõtmete indeksivahemik HD rahakotis?
+answer: Vahemikus 0 kuni 2^31 - 1.
+wrong_answers:
+  - Vahemikus 0 kuni 2^32 - 1.
+  - Vahemikus 0 kuni 2^31.
+  - Vahemikus 2^31 kuni 2^32 - 1.
+explanation: |
+  Tavalised lastevõtmed kasutavad indeksivahemikku 0 kuni 2^31 - 1, samal ajal kui kõvastunud võtmed alustavad indeksit alates 2^31.
+reviewed: false

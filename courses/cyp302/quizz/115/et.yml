@@ -1,0 +1,9 @@
+question: Mida tähendab termin "difusioon" AES krüpteerimise kontekstis?
+answer: Muutus lähtetekstis põhjustab olulise muutuse šifreeritud tekstis
+wrong_answers:
+  - Šifreeritud tekst on alati sama pikk
+  - Võtme baidid on jaotatud ühtlaselt
+  - Tundlik info on segatud igas šifreeritud teksti plokis
+explanation: |
+  Difusioon tähendab, et väike muutus lähtetekstis põhjustab olulise muutuse šifreeritud tekstis, muutes ründajale lähteteksti järeldamise keeruliseks.
+reviewed: false

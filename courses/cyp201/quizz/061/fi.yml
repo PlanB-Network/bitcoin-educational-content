@@ -1,11 +1,9 @@
-question: Miksi suositellaan avoimen lähdekoodin lompakoiden käyttöä Bitcoin-siirtoihin?
-answer: Ne mahdollistavat satunnaislukujen tuottamisen tarkistamisen.
-wrong_answers:
-  - Ne ovat halvempia kuin suljetun lähdekoodin lompakot.
-  - Ne ovat nopeampia kuin suljetun lähdekoodin lompakot.
-  - Ne ovat turvallisempia kuin suljetun lähdekoodin lompakot.
-explanation: |
-  Avoimen lähdekoodin lompakot mahdollistavat käyttäjien tarkistaa satunnaislukujen
-  tuottamisen, mikä on ratkaisevan tärkeää yksityisavainten ja Bitcoin-siirtojen
-  turvallisuuden varmistamisessa.
-reviewed: false
+kysymys: Mikä muuttuja mahdollistaa sisaravainparien erottamisen toisistaan (kun ne ovat peräisin samasta vanhempainparista)?
+vastaus: Indeksi.
+vaarat_vastaukset:
+  - Kryptografinen suola.
+  - Etunimi.
+  - Vanhempainketjun koodi.
+selitys: |
+  Indeksiä käytetään erottamaan sisaravainparit, jotka on johdettu samasta vanhempainparista HD-lompakossa.
+arvioitu: false

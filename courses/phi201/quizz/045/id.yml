@@ -1,0 +1,9 @@
+pertanyaan: Apa tesis utama Thomas Aquinas mengenai hubungan antara akal dan iman?
+jawaban: Akal dan iman saling melengkapi dan dapat mendukung satu sama lain.
+jawaban_salah:
+  - Akal dan iman adalah dua sumber pengetahuan yang independen dan kontradiktif.
+  - Semua jawaban lainnya benar.
+  - Iman lebih unggul dari akal dan dapat berfungsi tanpa argumen dari akal.
+penjelasan: |
+  Thomas Aquinas berargumen bahwa akal dan iman saling melengkapi: akal dapat membantu memahami dan menjelaskan kebenaran-kebenaran iman, sementara iman mengarahkan akal menuju kebenaran-kebenaran yang sebaliknya akan tidak dapat diakses olehnya.
+ditinjau: false

@@ -1,0 +1,8 @@
+pertanyaan: Apa yang terkandung dalam muatan kunci yang diperluas?
+jawaban: Kunci publik atau kunci privat, dan kode rantai yang terkait.
+jawaban_salah:
+  - Kunci privat dan kunci publik yang terkait.
+  - Kode rantai, kunci publik, dan kunci privat.
+  - Kunci privat dan indeks derivasi.
+penjelasan: |
+  Muatan dari kunci yang diperluas mencakup baik kunci publik atau kunci privat, bersama dengan kode rantai yang digunakan untuk menurunkan kunci anak.

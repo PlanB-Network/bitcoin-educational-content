@@ -1,9 +1,9 @@
-question: Qui paie les frais de clôture dans une fermeture coopérative ?
-answer: La personne qui a ouvert le canal.
+question: Quelles informations Bob peut-il inclure dans une invoice pour faciliter le routage ?
+answer: Les canaux proches avec des liquidités suffisantes ou l'existence de canaux privés
 wrong_answers:
-  - La personne qui a fermé le canal.
-  - Les deux parties également.
-  - La personne ayant le plus de SAT dans le canal.
+  - La clé privée des nœuds intermédiaires
+  - La carte complète de tous les canaux du réseau
+  - Le montant exact des liquidités disponibles pour chaque canal
 explanation: |
-  Dans une fermeture coopérative, les deux pairs conviennent d'un état final du canal. La personne qui a ouvert le canal paie les frais de clôture.
+  En indiquant les canaux proches avec des liquidités ou en révélant des canaux privés, Bob aide Alice à choisir des routes avec une meilleure probabilité de succès.
 reviewed: false

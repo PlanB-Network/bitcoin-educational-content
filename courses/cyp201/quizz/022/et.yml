@@ -1,0 +1,9 @@
+question: Kuidas määratakse Bitcoin'i avalik võti?
+answer: See määratakse, lisades ja kahekordistades punkte elliptilisel kõveral alates generaatori punktist, kasutades privaatvõtit.
+wrong_answers:
+  - See määratakse juhuslikust või pseudojuhuslikust numbrist.
+  - See määratakse selle privaatvõtme räsimisel.
+  - See määratakse selle seemne räsimisel.
+explanation: |
+  Avalik võti genereeritakse privaatvõtmest läbi operatsioonide elliptilisel kõveral, alustades generaatori punktist.
+reviewed: false

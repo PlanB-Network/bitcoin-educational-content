@@ -1,9 +1,9 @@
-question: Was ist der Zweck der Entropie bei der Generierung einer mnemonischen Phrase für eine Bitcoin-Wallet?
-answer: Sie ist der Grundpfeiler der Sicherheit einer HD-Wallet.
-wrong_answers:
-  - Sie bestimmt die Anzahl der Wörter in der Wiederherstellungsphrase.
-  - Sie verschlüsselt die Wiederherstellungsphrase für zusätzliche Sicherheit.
-  - Sie überprüft die Genauigkeit der Wiederherstellungsphrase.
-explanation: |
-  Die Entropie ist der Grundpfeiler der Sicherheit einer HD-Wallet. Es ist entscheidend, dass diese Entropie zufällig oder pseudo-zufällig ist, um die Sicherheit der Wallet zu gewährleisten.
-reviewed: false
+Frage: Was ist eine Empfangsadresse (allgemein)?
+Antwort: Ein Hash eines öffentlichen Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
+falsche_Antworten:
+  - Ein Hash eines privaten Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
+  - Ein Hash eines erweiterten Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
+  - Ein Hash eines Ketten-Codes mit Metadaten.
+Erklärung: |
+  Eine Empfangsadresse ist im Allgemeinen ein Hash eines öffentlichen Schlüssels, der mit Metadaten verbunden ist und in einem scriptPubKey verwendet wird, um Bedingungen festzulegen.
+überprüft: false

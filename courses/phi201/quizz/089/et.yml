@@ -1,0 +1,9 @@
+question: Mida tähendab Constanti poolt propageeritud "range piir avaliku sfääri ja eraelu vahel"?
+answer: See piir tähendab, et riik ei tohiks sekkuda üksikisikute eraellu.
+wrong_answers:
+  - See piir tähendab, et üksikisikud ei tohiks sekkuda avalikesse asjadesse.
+  - See piir tähendab täielikku eraldatust Kiriku ja Riigi vahel.
+  - See piir tähendab, et üksikisikutel peab olema samad vabadused nii avalikus kui ka eraelus.
+explanation: |
+  Benjamin Constanti jaoks tähendab range piir avaliku ja eraelu sfääri vahel seda, et riik peab austama üksikisikute privaatsust ja vältima igasugust sekkumist isiklikesse valikutesse, mis ei puuduta avalikku domeeni.
+reviewed: false

@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es el propósito de la operación "shift rows" en AES?
+respuesta: Aumentar la difusión reorganizando los bytes en la tabla de estado
+respuestas_incorrectas:
+  - Asegurar que cada bloque tenga la misma longitud
+  - Aplicar una clave secreta a cada fila de la tabla de estado
+  - Introducir confusión adicional mediante la sustitución de bytes
+explicación: |
+  La operación "shift rows" en AES reorganiza los bytes en la tabla de estado para dispersar la información, aumentando así la difusión.
+revisado: false

@@ -1,0 +1,8 @@
+question: Innenfor Bitcoin-protokollen, hva er en HASH160?
+answer: En SHA256-hash etterfulgt av en RIPEMD160-hash.
+wrong_answers:
+  - En dobbel RIPEMD160-hash.
+  - En dobbel SHA256-hash.
+  - En MD5-hash etterfulgt av en SHA256-hash.
+explanation: |
+  HASH160 kombinerer en SHA256-hash etterfulgt av RIPEMD160, brukt spesielt for å generere Bitcoin-adresser.

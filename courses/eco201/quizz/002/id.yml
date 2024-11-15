@@ -1,0 +1,10 @@
+pertanyaan: Siapa pengajar kursus tersebut?
+jawaban: "Théo Mogenet"
+jawaban_salah:
+  - "Théo Boloré"
+  - Descoupes Bitcoin
+  - Tidak ada di atas
+penjelasan: |
+  "Bab tersebut menyebutkan bahwa pengajar kursus tersebut adalah Théo
+  Mogenet, seorang profesor ekonomi Austria yang bersemangat dan kompeten."
+ditinjau: false

@@ -1,0 +1,9 @@
+question: RSA krüptosüsteemis, miks on raske leida väärtust "d"?
+answer: Kuna see nõuab teadmisi φ(N) kohta, mis sõltub N-i algarvudest
+wrong_answers:
+  - Kuna "d" on juhuslik arv
+  - Kuna "d" on suurem kui N
+  - Kuna "d" arvutatakse sõltumatult φ(N)-st
+explanation: |
+  "d" leidmine on keeruline, kuna see tugineb teadmistele φ(N) kohta, mis omakorda sõltub p ja q väärtustest, N-i algarvudest.
+reviewed: false

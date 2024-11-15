@@ -1,0 +1,13 @@
+domanda: Qual è l'obiettivo principale di uno scambio di monete?
+
+risposta: Trasferire segretamente la proprietà dei bitcoin
+
+risposte_errate:
+  - Aumentare la velocità delle transazioni
+  - Mescolare i bitcoin
+  - Scambiare segretamente un altcoin per bitcoin
+
+spiegazione: |
+  Lo scambio di monete utilizza contratti intelligenti per consentire un trasferimento della proprietà di bitcoin tra due utenti, senza la necessità di fiducia e senza che questo trasferimento sia esplicitamente visibile sulla blockchain.
+
+revisionato: false

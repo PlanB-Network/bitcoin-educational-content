@@ -1,9 +1,7 @@
-question: Miten bitit muunnetaan lauseiksi Bitcoin-lompakon muistisanojen luomisessa?
-answer: Jokainen segmentti yhdistetään sanaan 2048 sanan listalta.
-wrong_answers:
-  - Jokainen bitti yhdistetään sanaan 2048 sanan listalta.
-  - Jokainen segmentti yhdistetään sanaan 1024 sanan listalta.
-  - Jokainen bitti yhdistetään sanaan 1024 sanan listalta.
-explanation: |
-  Muuntaakseen bitit lauseiksi, jokainen segmentti yhdistetään sanaan 2048 sanan listalta.
-reviewed: false
+kysymys: Totta vai tarua? "Julkisen avaimen voi määrittää tietämällä vain sen SegWitv0-osoitteen."
+vastaus: Tarua.
+vaarat_vastaukset:
+  - Totta.
+selitys: |
+  SegWit v0 -osoite on julkisen avaimen tiiviste, mikä tekee mahdottomaksi suoraan hakea julkista avainta osoitteesta tietämättä vastaavaa yksityistä avainta.
+arvioitu: false

@@ -1,0 +1,9 @@
+kysymys: Kuka tuotti ensimmäisen korkealaatuisen videon Bitcoinista maaliskuussa 2011?
+vastaus: Stefan Thomas
+väärät_vastaukset:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+selitys: |
+  Video, joka oli yksinkertaisesti nimeltään "Mikä on Bitcoin?", tuotettiin yhteisön rahoittamana joukkorahoituksen kautta.
+arvioitu: false

@@ -1,0 +1,9 @@
+pertanyaan: Apa itu "block cipher" dalam kriptografi?
+jawaban: Sebuah algoritma yang mengubah string berukuran tetap menjadi string lain dengan ukuran yang sama
+jawaban_salah:
+  - Enkripsi asimetris yang berbasis pada kunci rahasia publik dan privat
+  - Sistem yang mengenkripsi data dengan panjang variabel secara stream
+  - Enkripsi yang tidak memerlukan kunci rahasia
+penjelasan: |
+  Block cipher adalah algoritma yang menerapkan transformasi pada string bit berukuran tetap dengan sebuah kunci untuk menghasilkan string lain dengan ukuran yang sama.
+reviewed: false

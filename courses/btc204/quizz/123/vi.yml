@@ -1,0 +1,13 @@
+câu hỏi: Nhược điểm chính khi sử dụng Tor cho một nút Bitcoin là gì?
+
+câu trả lời: Giảm tốc độ giao tiếp
+
+câu trả lời sai:
+  - Tăng phí giao dịch
+  - Rủi ro kiểm duyệt giao dịch
+  - Rủi ro bị tấn công Eclipse đối với nút
+
+giải thích: |
+  Giao tiếp qua Tor diễn ra chậm hơn. Độ trễ này đặc biệt gây rắc rối trong quá trình khởi động ban đầu của một nút, vì IBD (Initial Block Download - Tải về Khối Ban Đầu) yêu cầu rất nhiều giao tiếp.
+
+đã xem xét: false

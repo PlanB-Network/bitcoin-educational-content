@@ -1,0 +1,9 @@
+pertanyaan: Apa yang dimaksud dengan nilai dari 8 vektor inisialisasi fungsi SHA256?
+jawaban: 64 bit pertama dari bagian desimal akar kubik dari 8 bilangan prima pertama.
+jawaban_salah:
+  - Desimal dari Pi.
+  - 32 bit pertama dari bagian desimal akar kuadrat dari 8 bilangan prima pertama.
+  - 64 bit pertama dari bagian desimal akar kuadrat dari 8 bilangan prima pertama.
+penjelasan: |
+  Vektor inisialisasi SHA256 didasarkan pada 64 bit pertama dari bagian desimal akar kubik dari 8 bilangan prima pertama.
+ditinjau: false

@@ -1,0 +1,9 @@
+otázka: Proč se říká, že pseudonáhodný řetězec je "nerozlišitelný" od opravdu náhodného řetězce?
+odpověď: Protože je téměř nemožné určit jeho původ bez dalších informací
+špatné_odpovědi:
+  - Protože obsahuje deterministické segmenty identické s opravdu náhodným řetězcem
+  - Protože ve své konstrukci využívá plovoucí čísla
+  - Protože je generován výhradně z přírodních událostí
+vysvětlení: |
+  Pseudonáhodný řetězec je navržen tak, aby co nejvíce připomínal opravdu náhodný řetězec, což činí rozlišení nemožným bez přístupu k seedu nebo použitému algoritmu.
+recenzováno: false

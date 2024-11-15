@@ -1,0 +1,7 @@
+question: Sant eller Usant? "Hvis man ønsker å optimalisere sitt personvern, bør man ikke gjenbruke samme adresse flere ganger."
+answer: Sant.
+wrong_answers:
+  - Usant.
+explanation: |
+  Å gjenbruke samme adresse svekker personvernet ved å eksponere koblingene mellom ulike transaksjoner på blokkjeden.
+reviewed: false

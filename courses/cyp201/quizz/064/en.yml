@@ -1,11 +1,9 @@
-question: What is the main purpose of a Random Number Generator (RNG) in Bitcoin transactions?
-answer: To ensure the integrity of private keys.
+question: What is the index range used for normal child keys in an HD wallet?
+answer: Between 0 and 2^31 - 1.
 wrong_answers:
-  - To ensure the speed of transactions.
-  - To ensure the anonymity of transactions.
-  - To ensure the legality of transactions.
+  - Between 0 and 2^32 - 1.
+  - Between 0 and 2^31.
+  - Between 2^31 and 2^32 - 1.
 explanation: |
-  RNG is used to generate random numbers, which are crucial for the integrity
-  of private keys in Bitcoin transactions. This helps to prevent any vulnerability
-  related to predictability.
+  Normal child keys use an index range between 0 and 2^31 - 1, while hardened keys have an index starting from 2^31.
 reviewed: false

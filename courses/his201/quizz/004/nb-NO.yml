@@ -1,0 +1,9 @@
+question: I hvilket år ble David Chaums eCash-konsept implementert?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Det ble først implementert av cypherpunks i februar, før det ble prøvd ut av DigiCash gjennom utstedelsen av "CyberBucks" i oktober.
+reviewed: false

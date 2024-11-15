@@ -1,0 +1,9 @@
+Frage: Was ist das Hauptziel der Zahlentheorie?
+Antwort: Die Eigenschaften von ganzen Zahlen und die Funktionen, die mit ihnen arbeiten, zu untersuchen
+falsche_Antworten:
+  - Geometrische Transformationen analysieren
+  - Die Struktur von zufälligen geometrischen Figuren in einer endlichen Gruppe studieren
+  - Symmetrische Verschlüsselungsalgorithmen entwickeln
+Erklärung: |
+  Die Zahlentheorie konzentriert sich auf die Eigenschaften von ganzen Zahlen und die Funktionen, die auf ganze Zahlen angewendet werden, oft für Anwendungen in der Kryptographie, insbesondere im Kontext der Public-Key-Kryptographie.
+überprüft: false

@@ -1,0 +1,10 @@
+question: Hvilke lommebøker kan en paranoid Bitcoin-bruker benytte seg av?
+answer: Samourai-lommebok for varm lommebok, Coldcard og/eller Seed Signer for kald lommebok
+wrong_answers:
+  - Coinbase-lommebok for varm lommebok, Ledger for kald lommebok
+  - Binance-lommebok for varm lommebok, Trezor for kald lommebok
+  - PayPal for varm lommebok, Bankkonto for kald lommebok
+explanation: |
+  Kapittelet nevner Samourai-lommebok for varm lommebok og Coldcard og/eller
+  Seed Signer for kald lommebok som lommebøker en paranoid Bitcoin-bruker kan benytte seg av.
+reviewed: false

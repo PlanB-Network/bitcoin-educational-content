@@ -1,12 +1,9 @@
-question: What is the main risk associated with generating one's own mnemonic phrase
-  using dice for Bitcoin transactions?
-answer: It may present certain risks.
+question: To perform a derivation of a normal child key pair, I must input into the HMAC-SHA512 function...
+answer: parent public key || index, parent chain code.
 wrong_answers:
-  - It may lead to the generation of predictable numbers.
-  - It may lead to the generation of duplicate numbers.
-  - It may lead to the generation of invalid numbers.
+  - parent private key || index, parent chain code.
+  - parent private key, parent chain code.
+  - parent private key || index.
 explanation: |
-  Generating one's own mnemonic phrase using dice may present certain risks.
-  It is therefore recommended to use a randomly generated passphrase to mitigate these
-  risks.
+  To derive a normal child key, the parent public key is used with the index and the chain code in the HMAC-SHA512 function.
 reviewed: false

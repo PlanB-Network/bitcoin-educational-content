@@ -1,0 +1,9 @@
+otázka: Jaká je role "nonce" v autentizačním šifrovacím schématu?
+odpověď: Zajistit, že každá zpráva má unikátní značku a zabránit opakování
+špatné_odpovědi:
+  - Identifikovat odesílatele zprávy
+  - Vytvořit dočasný dešifrovací klíč
+  - Přidat další vrstvu šifrování
+vysvětlení: |
+  V autentizačním šifrovacím schématu se "nonce" používá k zajištění, že každá zpráva má unikátní značku, čímž se zvyšuje bezpečnost tím, že se zabrání opakování.
+recenzováno: false

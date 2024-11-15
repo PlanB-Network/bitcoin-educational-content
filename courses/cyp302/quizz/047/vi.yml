@@ -1,0 +1,9 @@
+câu hỏi: Theo định lý Euler, kết quả của phép lũy thừa a^ϕ(N) mod N cho hai số nguyên a và N nguyên tố cùng nhau là gì?
+câu trả lời: 1 mod N
+câu trả lời sai:
+  - 0 mod N
+  - N mod a
+  - a mod N
+giải thích: |
+  Định lý Euler khẳng định rằng cho hai số nguyên a và N nguyên tố cùng nhau, phép lũy thừa a^ϕ(N) mod N luôn bằng 1 mod N, một tính chất được sử dụng trong mật mã học.
+đã xem xét: false

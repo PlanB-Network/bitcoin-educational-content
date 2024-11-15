@@ -1,0 +1,13 @@
+pertanyaan: Apa salah satu langkah dasar untuk meningkatkan kebiasaan keamanan online?
+jawaban: Mengaktifkan otentikasi dua faktor (2FA)
+jawaban_salah:
+  - Menggunakan kata sandi yang sama untuk semua akun
+  - Mengabaikan untuk secara rutin membackup data
+  - Membagi kata sandi Anda
+penjelasan: |
+  Mengaktifkan otentikasi dua faktor (2FA) adalah salah satu langkah dasar
+
+  untuk meningkatkan kebiasaan keamanan online. Ini memberikan lapisan keamanan tambahan untuk
+
+  akun-akun yang paling sensitif.
+diulas: false

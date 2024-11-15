@@ -1,9 +1,0 @@
-question: Cosa sono i cookie nel contesto della navigazione online?
-answer: File creati dai siti web per memorizzare informazioni sul tuo dispositivo.
-wrong_answers:
-  - Piccoli pezzi di dati inviati da un sito web e memorizzati sul computer dell'utente dal browser web dell'utente.
-  - Programmi che tracciano la tua attività online.
-  - Virus che possono danneggiare il tuo dispositivo.
-explanation: |
-  Nel contesto della navigazione online, i cookie sono file creati dai siti web per memorizzare informazioni sul tuo dispositivo. Vengono utilizzati per ricordare le tue preferenze, le informazioni di accesso e altri dati al fine di migliorare la tua esperienza di navigazione.
-reviewed: false

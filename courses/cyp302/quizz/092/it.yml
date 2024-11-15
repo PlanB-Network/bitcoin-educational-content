@@ -1,0 +1,9 @@
+domanda: Come può un cifrario a blocchi essere trasformato in un cifrario a flusso?
+risposta: Utilizzando modalità come OFB che generano un flusso di chiavi dal cifrario a blocchi
+risposte_errate:
+  - Dividendo il testo in chiaro in byte e cifrandoli uno per uno
+  - Applicando il padding ai messaggi prima della cifratura
+  - Aumentando la lunghezza della chiave per ogni blocco cifrato
+spiegazione: |
+  Modalità come OFB permettono a un cifrario a blocchi di agire come un cifrario a flusso generando un flusso di chiavi, che viene poi utilizzato per ogni porzione del testo in chiaro.
+revisionato: false

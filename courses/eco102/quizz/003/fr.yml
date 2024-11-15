@@ -1,0 +1,9 @@
+question: Quel thème central Bastiat développe-t-il dans son livre "La Loi" ?
+answer: La lutte contre la spoliation légale et la défense de la propriété
+wrong_answers:
+  - La défense des droits sociaux et des services publics
+  - L'étude des bienfaits de l'éducation classique
+  - La critique de la révolution industrielle
+explanation: |
+  Dans "La Loi", Bastiat oppose la spoliation légale à la propriété et prône la liberté comme solution aux problèmes sociaux.
+reviewed: false

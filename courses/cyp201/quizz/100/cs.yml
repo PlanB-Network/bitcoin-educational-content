@@ -1,9 +1,0 @@
-question: Jaká je role hlavního řetězového kódu v hierarchické organizaci a odvození HD peněženky?
-answer: Hraje důležitou roli při obnově portfolia ze seedu.
-wrong_answers:
-  - Používá se k generování seedu.
-  - Používá se k odvození dětských klíčů.
-  - Používá se k šifrování peněženky.
-explanation: |
-  Hlavní řetězový kód je nezbytný pro obnovu portfolia ze seedu. Všechny klíče odvozené ze stejného seedu budou mít stejný hlavní řetězový kód.
-reviewed: false

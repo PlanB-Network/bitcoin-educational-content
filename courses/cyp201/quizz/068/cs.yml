@@ -1,10 +1,9 @@
-question: Jak se určuje počet slov ve frázi pro obnovu při generování mnemonické fráze pro Bitcoin peněženku?
-answer: Závisí to na velikosti entropie.
-wrong_answers:
-  - Závisí to na velikosti kontrolního součtu.
-  - Je to vždy 24 slov.
-  - Je generováno náhodně.
-explanation: |
-  V závislosti na velikosti entropie bude fráze pro obnovu obsahovat
-  12 slov pro 128 bitů, 15 slov pro 160 bitů a 24 slov pro 256 bitů.
-reviewed: false
+otázka: Jaký je účel externího řetězce v procesu derivace?
+odpověď: Izolovat adresy určené k veřejnému použití.
+špatné_odpovědi:
+  - Izolovat adresy pro vrácení peněz.
+  - Spravovat příchozí transakce.
+  - Oddělit soukromé klíče od veřejných klíčů.
+vysvětlení: |
+  Externí řetězec se používá k derivaci adres určených k veřejnému použití, jako jsou ty pro přijímání plateb.
+recenzováno: false

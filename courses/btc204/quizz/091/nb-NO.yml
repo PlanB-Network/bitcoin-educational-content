@@ -1,0 +1,13 @@
+question: Hvorfor frarådes det å slå sammen flere UTXOer etter coinjoin-sykluser?
+
+answer: Dette kan kompromittere personvernet på grunn av CIOH.
+
+wrong_answers:
+  - Det reduserer transaksjonshastigheten.
+  - Det avslører mistenkelig aktivitet til koordinatoren.
+  - Dette kan kompromittere personvernet på grunn av rundebetalingsheuristikken.
+
+explanation: |
+  Det er viktig å unngå å kombinere blandete UTXOer med ublandede UTXOer i samme transaksjon, men også å blande UTXOer seg imellom, for å unngå Common-Input-Ownership-Heuristic (CIOH).
+
+reviewed: false

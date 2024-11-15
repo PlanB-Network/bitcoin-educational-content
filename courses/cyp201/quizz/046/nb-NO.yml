@@ -1,0 +1,8 @@
+question: Hva skjer hvis jeg bruker en HD-lommebok med en passfrase og jeg mister den passfrasen?
+answer: Mine bitcoins er tapt for alltid.
+wrong_answers:
+  - Det er ikke et problem, jeg kan fortsatt få tilgang til mine bitcoins bare med min mnemoniske frase.
+  - Jeg kan tilbakestille passfrasen med min private nøkkel.
+  - Jeg kan gjenopprette mine bitcoins ved å bruke en lommebok uten en passfrase.
+explanation: |
+  Hvis passfrasen er tapt, er tilgangen til bitcoins permanent tapt, ettersom den er nødvendig for å utlede de private nøklene.

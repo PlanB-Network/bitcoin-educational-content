@@ -1,0 +1,13 @@
+Frage: Welche kryptografische Methode wird verwendet, um zu verhindern, dass der Koordinator die Eingaben und Ausgaben bei einem Coinjoin verknüpft?
+
+Antwort: Chaum-Blindsignaturen.
+
+Falsche Antworten:
+  - Schnorr-Signaturen.
+  - P2SH-Adressen.
+  - P2TR-Adressen.
+
+Erklärung: |
+  Bei sogenannten "Chaumian" Coinjoins wird die Nutzung von Tor und David Chaums Blindsignaturen kombiniert, um sicherzustellen, dass der Koordinator nicht wissen kann, welcher Ausgang zu welchem Benutzer gehört.
+
+Überprüft: false

@@ -1,0 +1,9 @@
+question: Mis on kahaneva piirikasulikkuse kontseptsioon?
+answer: Iga järgnev ühik kaupu on vähem ihaldatud kui eelnev.
+wrong_answers:
+  - Iga järgnev ühik kaupu on rohkem ihaldatud kui eelnev.
+  - Iga järgnev ühik kaupu on sama ihaldatud kui eelnev.
+  - Iga järgneva kaubaühiku ihaldus kõigub ettearvamatult.
+explanation: |
+  Kahaneva piirikasulikkuse kontseptsioon väidab, et iga järgnev ühik kaupu on vähem ihaldatud kui eelnev. See on seetõttu, et kui inimene omandab rohkem mingit kaupa, siis iga järgnev ühik sellest kaubast pakub vähem kasulikkust.
+reviewed: false

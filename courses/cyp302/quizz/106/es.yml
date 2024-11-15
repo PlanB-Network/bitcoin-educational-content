@@ -1,0 +1,9 @@
+pregunta: ¿Qué mecanismo previene los ataques de reflexión en la comunicación segura?
+respuesta: Agregar un identificador único para cada participante
+respuestas_incorrectas:
+  - Aumentar la longitud de la clave
+  - Usar múltiples claves para cada mensaje
+  - Agregar una clave extra en cada mensaje
+explicación: |
+  Agregar un identificador único para cada participante en el mensaje cifrado previene los ataques de reflexión, ya que permite distinguir el origen de los mensajes.
+revisado: false

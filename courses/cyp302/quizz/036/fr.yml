@@ -1,0 +1,9 @@
+question: Que signifie pour deux nombres d'être "copremiers" ?
+answer: Leur plus grand diviseur commun est égal à 1
+wrong_answers:
+  - Leur somme est un nombre pair
+  - Ils sont tous les deux pairs
+  - Ils n'ont pas de diviseur commun autre que 1 et eux-mêmes
+explanation: |
+  Deux nombres sont copremiers si leur plus grand diviseur commun est 1, ce qui signifie qu'ils n'ont pas de facteur premier en commun, une propriété importante en cryptographie.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Kdo jsou dva účastníci zapojení do převodu v Lightning Network v příkladu?
-answer: Alice a Bob.
-wrong_answers:
-  - Alice a Charlie.
-  - Bob a Charlie.
-  - Alice a Bitcoinová síť.
-explanation: |
-  V příkladu jsou Alice a Bob dva účastníci zapojení do převodu v Lightning Network.
-reviewed: false
+otázka: Co může Bob udělat, pokud zjistí pokus Alice podvádět při uzavírání kanálu?
+odpověď: Použít revokační klíč k získání všech prostředků
+špatné_odpovědi:
+  - Zrušit transakci závazku Alice
+  - Trvale uzavřít kanál bez možnosti znovuotevření
+  - Nárokovat pouze polovinu dostupných prostředků
+vysvětlení: |
+  V případě podvodu může Bob použít revokační klíč k získání všech prostředků z kanálu, čímž potrestá Alice za její pokus.
+recenzováno: false

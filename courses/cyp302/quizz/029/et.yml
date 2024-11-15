@@ -1,0 +1,8 @@
+question: Mida tähendab XOR operatsioon, kui seda rakendatakse kahe biti vahel?
+answer: See tagastab 1, kui bitid on erinevad, vastasel juhul tagastab see 0
+wrong_answers:
+  - See tagastab 1 ainult siis, kui mõlemad bitid on 1
+  - See liidab bitid ja tagastab summa
+  - See tagastab alati 0 sõltumata tulemusest
+explanation: |
+  XOR operatsioon (või "eksklusiivne või") toodab 1, kui kaks bitti on erinevad (0 ja 1 või 1 ja 0) ning 0, kui need on samad.

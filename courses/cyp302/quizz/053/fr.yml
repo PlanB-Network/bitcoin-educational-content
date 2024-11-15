@@ -1,0 +1,9 @@
+question: Comment appelle-t-on un champ avec un nombre fini d'éléments ?
+answer: Un champ de Galois
+wrong_answers:
+  - Un champ multiplicatif
+  - Un champ symétrique
+  - Un champ vectoriel
+explanation: |
+  Un champ fini est également connu sous le nom de champ de Galois, en référence aux travaux du mathématicien Évariste Galois, et il est essentiel dans la cryptographie moderne.
+reviewed: false

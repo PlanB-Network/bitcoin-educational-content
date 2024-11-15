@@ -1,9 +1,9 @@
-question: Sur quoi repose la sécurité des clés publiques et privées ?
-answer: Le problème du logarithme discret
+question: Quelles sont les caractéristiques d'un PRNG cryptographiquement sûr ?
+answer: Il doit être imprédictible, statistiquement aléatoire, et résistant aux attaques.
 wrong_answers:
-  - Le problème de factorisation des nombres premiers
-  - Le problème du sac à dos
-  - Le problème du voyageur de commerce
+  - Il doit être rapide, utilisable dans le cloud, et open source.
+  - Il doit être non déterministe, basé sur un phénomène physique, et évolutif.
+  - Il doit être matériel, généré par un processeur, et réversible.
 explanation: |
-  La sécurité des clés publiques et privées repose sur le problème du logarithme discret, une question mathématique complexe.
+  Un PRNG cryptographiquement sûr doit être imprédictible, résistant même si certains résultats sont révélés, et avoir une période suffisamment longue pour éviter la répétition de séquences.
 reviewed: false

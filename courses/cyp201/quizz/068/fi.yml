@@ -1,9 +1,8 @@
-question: Miten sanojen määrä palautuslausekkeessa määräytyy luotaessa mnemonista lausetta Bitcoin-lompakkoa varten?
-answer: Se riippuu entropian koosta.
-wrong_answers:
-  - Se riippuu tarkistussumman koosta.
-  - Se on aina 24 sanaa.
-  - Se generoidaan satunnaisesti.
-explanation: |
-  Entropian koosta riippuen palautuslause koostuu 12 sanasta 128 bitin kohdalla, 15 sanasta 160 bitin kohdalla ja 24 sanasta 256 bitin kohdalla.
-reviewed: false
+kysymys: Mikä on ulkoisen ketjun tarkoitus johdannaisprosessissa?
+vastaus: Eristää julkiseen käyttöön tarkoitetut osoitteet.
+väärät_vastaukset:
+  - Eristää vaihto-osoitteet.
+  - Hallita saapuvia transaktioita.
+  - Eristää yksityiset avaimet julkisista avaimista.
+selitys: |
+  Ulkoista ketjua käytetään johdettavien osoitteiden eristämiseen julkiseen käyttöön, kuten maksujen vastaanottamiseen tarkoitetut osoitteet.

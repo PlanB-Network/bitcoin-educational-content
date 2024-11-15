@@ -1,8 +1,0 @@
-question: LinuxとMacは頻繁にアンチウイルスが必要ですか？
-answer: これは誤りです
-wrong_answers:
-  - これは正しいです
-  - Linuxだけがアンチウイルスが必要です。
-  - Macだけがアンチウイルスが必要です。
-explanation: |
-  LinuxとMacは、ユーザー権限の分離システムのおかげで、しばしばアンチウイルスは必要ありません。

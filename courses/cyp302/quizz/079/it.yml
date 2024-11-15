@@ -1,0 +1,9 @@
+domanda: Perché la cifratura a scorrimento è vulnerabile agli attacchi di forza bruta?
+risposta: Perché ha solo 26 chiavi possibili
+risposte_errate:
+  - Perché utilizza una chiave pubblica
+  - Perché si basa sulla cifratura simmetrica
+  - Perché utilizza numeri casuali
+spiegazione: |
+  La cifratura a scorrimento è facilmente suscettibile agli attacchi di forza bruta perché ha solo 26 chiavi possibili, da 0 a 25, a causa dell'uso del modulo 26 che dipende dalla dimensione dell'alfabeto. Non è possibile utilizzare chiavi valide più grandi, in quanto sarebbero comunque equivalenti a una chiave tra 0 e 25. Pertanto, è sufficiente testarle tutte per trovare il messaggio.
+recensito: false

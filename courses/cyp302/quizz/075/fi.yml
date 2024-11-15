@@ -1,0 +1,9 @@
+kysymys: Kuinka Kerckhoffin periaate edistää avoimien järjestelmien, kuten Linuxin, turvallisuutta?
+vastaus: Se mahdollistaa potentiaalisten haavoittuvuuksien julkisen tarkastelun
+vaarat_vastaukset:
+  - Se tekee salausalgoritmeista näkymättömiä
+  - Se rajoittaa potentiaalisten käyttäjien määrää
+  - Se varmistaa yksilöllisten avainten käytön
+selitys: |
+  Kerckhoffin periaate mahdollistaa turvallisuuspuutteiden julkisen tarkastelun, kuten avoimen lähdekoodin järjestelmissä, mikä tekee järjestelmistä luotettavampia läpinäkyvyyden kautta. Turvallisuus varmistetaan yksinomaan avaimella, ei salausprosessilla itsellään.
+arvioitu: false

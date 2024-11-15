@@ -1,0 +1,9 @@
+pergunta: Em qual unidade a taxa de hash da rede foi medida durante o segundo semestre do ano de 2010?
+resposta: Em GH/s
+respostas_erradas:
+  - Em MH/s
+  - Em TH/s
+  - Em PH/s
+explicação: |
+  A taxa de hash aumentou de 1,35 GH/s em 13 de julho para 120 GH/s em 31 de dezembro de 2010.
+revisado: false

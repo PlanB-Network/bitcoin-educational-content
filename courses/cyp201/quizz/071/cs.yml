@@ -1,9 +1,7 @@
-question: Jak jsou bity převedeny na fráze při generování mnemonické fráze pro Bitcoin peněženku?
-answer: Každý segment je spojen se slovem ze seznamu 2048 slov.
-wrong_answers:
-  - Každý bit je spojen se slovem ze seznamu 2048 slov.
-  - Každý segment je spojen se slovem ze seznamu 1024 slov.
-  - Každý bit je spojen se slovem ze seznamu 1024 slov.
-explanation: |
-  Pro převod bitů na fráze je každý segment spojen se slovem ze seznamu 2048 slov.
-reviewed: false
+otázka: Pravda nebo lež? "Lze určit veřejný klíč pouze znalostí jeho SegWitv0 adresy."
+odpověď: Lež.
+nesprávné_odpovědi:
+  - Pravda.
+vysvětlení: |
+  SegWit v0 adresa je hash veřejného klíče, což znemožňuje přímé získání veřejného klíče z adresy bez znalosti odpovídajícího soukromého klíče.
+recenzováno: false

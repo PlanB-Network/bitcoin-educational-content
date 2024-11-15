@@ -1,0 +1,9 @@
+question: Millist pseudo-juhuslikku funktsiooni kasutatakse PBKDF2-s, et arvutada Bitcoin HD rahakoti seemet?
+answer: HMAC-SHA512.
+wrong_answers:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+explanation: |
+  HMAC-SHA512 on pseudo-juhuslik funktsioon, mida kasutatakse PBKDF2-s, et genereerida Bitcoin HD rahakoti seemet.
+reviewed: false

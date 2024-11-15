@@ -1,9 +1,8 @@
-question: Mikä on merkitys käyttää ainutlaatuista nonce-arvoa ECDSA-algoritmissa?
-answer: Se auttaa välttämään turvallisuushyökkäyksiä.
-wrong_answers:
-  - Se lisää algoritmin nopeutta.
-  - Se vähentää laskennallista monimutkaisuutta.
-  - Se on vaadittu, jotta algoritmi toimisi.
-explanation: |
-  Ainutlaatuisen nonce-arvon käyttö ECDSA-algoritmissa on ratkaisevan tärkeää turvallisuuden ylläpitämiseksi. Nonce-arvon uudelleenkäyttö voi johtaa haavoittuvuuksiin, kuten PlayStation 3 -hakkerointi osoitti, joka kompromisoitiin nonce-arvon uudelleenkäytön vuoksi.
-reviewed: false
+kysymys: Mikä on ainutlaatuinen piirre 2048 sanan listassa, joka mahdollistaa mnemonisen koodauksen?
+vastaus: Yksikään sana ei ala samoilla neljällä kirjaimella samassa järjestyksessä.
+vaarat_vastaukset:
+  - Yksikään sana ei pääty samoihin kolmeen kirjaimeen.
+  - Yksikään sana ei ala kirjaimella “J”.
+  - Yksikään sana ei ole yli kuusi kirjainta pitkä.
+selitys: |
+  Tämä piirre auttaa välttämään mahdollisen epäselvyyden sanoja syötettäessä, varmistaen näin jokaisen sanan ainutlaatuisuuden listalla, samalla vähentäen tarvittavaa tallennustilaa.

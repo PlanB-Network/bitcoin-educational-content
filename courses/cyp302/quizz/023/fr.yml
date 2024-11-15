@@ -1,0 +1,9 @@
+question: Quel est le rôle de l'opération modulo dans le chiffrement par décalage (shift cipher) ?
+answer: Elle assure que les lettres reviennent au début de l'alphabet lorsqu'on dépasse 26
+wrong_answers:
+  - Elle multiplie les valeurs des lettres par la clé
+  - Elle inverse les lettres de l'alphabet
+  - Elle supprime les lettres après la lettre "Z"
+explanation: |
+  L'opération modulo 26 permet de boucler les lettres après "Z" pour garantir que chaque lettre chiffrée reste dans les 26 lettres de l'alphabet.
+reviewed: false

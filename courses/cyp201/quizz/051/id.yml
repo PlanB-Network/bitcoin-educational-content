@@ -1,0 +1,8 @@
+pertanyaan: Apa fungsi derivasi kunci yang digunakan untuk menurunkan seed dari frasa mnemonik dan passphrase opsional?
+jawaban: PBKDF2.
+jawaban_salah:
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
+penjelasan: |
+  Fungsi PBKDF2 digunakan untuk menurunkan seed dari dompet HD dari frasa mnemonik dan passphrase opsional.

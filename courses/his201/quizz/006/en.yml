@@ -1,0 +1,9 @@
+question: Which decree signed by Franklin D. Roosevelt prohibited the possession of gold for individuals in the United States between 1933 and 1975?
+answer: The Executive Order 6102
+wrong_answers:
+  - The Federal Reserve Act
+  - The Glass-Steagall Act
+  - The Executive Order 9066
+explanation: |
+  This executive order, signed on April 5, 1933, was enacted by Roosevelt as part of the New Deal. It was reinforced by the Gold Reserve Act in 1934.
+reviewed: false

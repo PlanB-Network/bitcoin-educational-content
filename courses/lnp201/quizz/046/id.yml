@@ -1,0 +1,8 @@
+pertanyaan: Dalam faktur Lightning, apa arti dari awalan "lnbc" pada bagian yang dapat dibaca manusia?
+jawaban: Ini menunjukkan transaksi Lightning pada blockchain Bitcoin
+jawaban_salah:
+  - Bahwa faktur tersebut hanya valid pada testnet Bitcoin
+  - Bahwa faktur tersebut dikodekan dalam bech32
+  - Bahwa itu adalah transaksi on-chain
+penjelasan: |
+  Awalan 'lnbc' menandakan bahwa faktur tersebut untuk transaksi Lightning pada jaringan Bitcoin, dan bukan pada jaringan lain.

@@ -1,0 +1,8 @@
+câu hỏi: Thuật toán mã hóa khối nào đã được chấp nhận là tiêu chuẩn AES?
+câu trả lời: Mật mã Rijndael
+câu trả lời sai:
+  - DES
+  - RSA
+  - Diffie-Hellman
+giải thích: |
+  Mật mã Rijndael đã được chấp nhận là tiêu chuẩn mã hóa đối xứng (AES) bởi NIST, do hiệu suất cao và độ an toàn của nó.

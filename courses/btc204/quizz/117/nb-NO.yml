@@ -1,0 +1,11 @@
+spørsmål: Hvor mange etterfølgende transaksjoner utfører en klassisk ricochet vanligvis?
+
+svar: 5
+
+feil_svar:
+  - 2
+  - 8
+  - 14
+
+forklaring: |
+  Ricochet-metoden innebærer typisk å gjøre 4 transaksjoner til seg selv, og en siste for å sende midlene til den endelige mottakeren.

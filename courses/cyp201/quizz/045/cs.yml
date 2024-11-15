@@ -1,10 +1,9 @@
-question: Jaký je účel algoritmu ECDSA v kontextu Bitcoinových transakcí?
-answer: Ověřit digitální podpisy.
-wrong_answers:
-  - Šifrovat data transakce.
-  - Generovat Bitcoinové adresy.
-  - Těžit nové Bitcoiny.
-explanation: |
-  Algoritmus ECDSA (Elliptic Curve Digital Signature Algorithm) je používán
-  v kontextu Bitcoinových transakcí k ověření digitálních podpisů. To umožňuje
-  příjemci transakce potvrdit pravost podepsané zprávy bez potřeby soukromého klíče odesílatele.
+otázka: Co představuje heslová fráze v HD peněžence?
+odpověď: Volitelný kryptografický sůl libovolné velikosti.
+špatné_odpovědi:
+  - 25. slovo ve mnemotechnické frázi.
+  - Povinný kryptografický sůl pevné velikosti.
+  - Druhé semínko.
+vysvětlení: |
+  Heslová fráze je volitelný kryptografický sůl, který zvyšuje bezpečnost peněženky přidáním dodatečných informací k mnemotechnické frázi pro určení semínka.
+recenzováno: false

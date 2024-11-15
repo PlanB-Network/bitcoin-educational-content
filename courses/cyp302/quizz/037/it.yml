@@ -1,0 +1,9 @@
+domanda: Cos'è una struttura algebrica in algebra astratta?
+risposta: Un insieme di elementi con una o più operazioni che aderiscono a certi assiomi
+risposte_errate:
+  - Un insieme di numeri primi organizzati in righe che aderiscono a certi assiomi
+  - Una serie di algoritmi per risolvere equazioni lineari
+  - Un gruppo di trasformazioni geometriche casuali disposte in aderenza a certi assiomi
+spiegazione: |
+  Una struttura algebrica è un insieme di elementi definiti con una o più operazioni, come l'addizione o la moltiplicazione, che aderiscono a certi assiomi, ed è essenziale per strutturare concetti nella teoria dei numeri.
+recensito: false

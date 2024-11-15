@@ -1,9 +1,9 @@
-question: Quantas rodadas o PBKDF2 realiza usando o HMAC SHA512?
-answer: 2048 rodadas
-wrong_answers:
-  - 1024 rodadas
-  - 512 rodadas
-  - 4096 rodadas
-explanation: |
-  O PBKDF2 é usado para converter uma frase mnemônica em uma semente. Este algoritmo realiza 2048 rodadas usando o HMAC SHA512.
-reviewed: false
+pergunta: Qual é o tamanho de uma chave privada Bitcoin?
+resposta: 256 bits.
+respostas_erradas:
+  - 512 bytes.
+  - 520 bits.
+  - 512 bits.
+explicação: |
+  A chave privada Bitcoin possui um tamanho padrão de 256 bits, correspondendo ao algoritmo de curva elíptica usado no Bitcoin.
+revisado: false

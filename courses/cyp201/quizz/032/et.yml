@@ -1,0 +1,9 @@
+question: Mis on BIP (Bitcoin Improvement Proposal), mis pakkus välja esimese versiooni HD rahakotist Bitcoinis?
+answer: BIP32.
+wrong_answers:
+  - BIP16.
+  - BIP39.
+  - BIP44.
+explanation: |
+  BIP32, mis esitati 2012. aastal, on esimene, mis tutvustas hierarhiliselt deterministlike (HD) rahakottide kontseptsiooni Bitcoinis.
+reviewed: false

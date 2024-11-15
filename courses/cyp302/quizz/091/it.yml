@@ -1,0 +1,9 @@
+domanda: Qual è la principale differenza tra un "cifrario a flusso primitivo" e un "cifrario a flusso basato su blocchi"?
+risposta: Un "cifrario a flusso primitivo" non è costruito a partire da un cifrario a blocchi.
+risposte_errate:
+  - Un "cifrario a flusso primitivo" richiede il padding dei messaggi.
+  - Un "cifrario a flusso basato su blocchi" utilizza blocchi di dimensione variabile.
+  - Un "cifrario a flusso basato su blocchi" non può essere utilizzato per dati di grandi dimensioni.
+spiegazione: |
+  Un "cifrario a flusso primitivo", come Salsa20, è progettato indipendentemente da un "cifrario a blocchi", mentre un "cifrario a flusso basato su blocchi" utilizza un "cifrario a blocchi" come base, modificato per produrre un flusso di cifratura.
+revisionato: false

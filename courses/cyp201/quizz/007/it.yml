@@ -1,11 +1,9 @@
-question: Quale funzione hash è un elemento chiave nel protocollo Bitcoin?
-answer: SHA-256
-wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
-explanation: |
-  SHA-256 è un elemento chiave nel protocollo Bitcoin. Viene utilizzato per creare
-  un'impronta digitale unica e irreversibile dei dati di transazione, che è fondamentale per
-  la sicurezza e l'integrità della rete Bitcoin.
-reviewed: false
+domanda: A cosa corrispondono i valori degli 8 vettori di inizializzazione della funzione SHA256?
+risposta: Ai primi 64 bit delle parti decimali delle radici cubiche dei primi 8 numeri primi.
+risposte_errate:
+  - Alle decimali di Pi.
+  - Ai primi 32 bit delle parti decimali delle radici quadrate dei primi 8 numeri primi.
+  - Ai primi 64 bit delle parti decimali delle radici quadrate dei primi 8 numeri primi.
+spiegazione: |
+  I vettori di inizializzazione di SHA256 si basano sui primi 64 bit delle parti decimali delle radici cubiche dei primi 8 numeri primi.
+recensito: false

@@ -1,9 +1,8 @@
-question: Qual é o número total de possibilidades para uma chave privada do Bitcoin?
-answer: Quase igual a 1,158 x 10^77
-wrong_answers:
-  - Exatamente 2^256
-  - Entre 1 e n-1
-  - Aproximadamente o mesmo número de átomos presentes no universo observável
-explanation: |
-  O número total de possibilidades para uma chave privada do Bitcoin é quase igual a 1,158 x 10^77, o que é aproximadamente o mesmo número de átomos presentes no universo observável. Isso ocorre porque uma chave privada deve estar entre 1 e n-1, onde n representa a ordem da curva elíptica.
-reviewed: false
+pergunta: Como são determinados os pares de chaves em uma carteira Hierárquica Determinística (HD)?
+resposta: Todos os pares de chaves na carteira são determinados de maneira determinística e hierárquica a partir de uma peça única de informação na base da carteira.
+respostas_erradas:
+  - Todos os pares de chaves na carteira são determinados independentemente dos outros, aleatoriamente, por um gerador de números aleatórios.
+  - Cada par de chaves na carteira é determinado deterministicamente a partir do par de chaves anterior.
+  - Os pares de chaves são todos aleatórios e sem ligação hierárquica.
+explicação: |
+  Em carteiras HD, todas as chaves são derivadas de uma peça única de informação chamada "semente", que permite o gerenciamento hierárquico e determinístico das chaves.

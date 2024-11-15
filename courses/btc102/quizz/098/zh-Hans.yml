@@ -1,0 +1,9 @@
+问题：哪些钱包是偏执比特币用户可能使用的？
+答案：热钱包使用Samourai钱包，冷钱包使用Coldcard和/或Seed Signer
+错误答案：
+  - 热钱包使用Coinbase钱包，冷钱包使用Ledger
+  - 热钱包使用Binance钱包，冷钱包使用Trezor
+  - 热钱包使用PayPal，冷钱包使用银行账户
+解释：
+  本章提到，偏执比特币用户可能使用的钱包包括热钱包的Samourai钱包以及冷钱包的Coldcard和/或Seed Signer。
+审核：false

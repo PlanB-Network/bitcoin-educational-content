@@ -1,0 +1,13 @@
+otázka: Jaká kryptografická metoda se používá k zamezení propojení vstupů a výstupů koordinátorem v coinjoin?
+
+odpověď: Chaumovy slepé podpisy.
+
+nesprávné_odpovědi:
+  - Schnorr podpisy.
+  - P2SH adresy.
+  - P2TR adresy.
+
+vysvětlení: |
+  V takzvaných "Chaumian" coinjoinech je kombinováno použití Tor a Davidovy Chaumovy slepé podpisy, aby se zajistilo, že koordinátor nemůže vědět, který výstup patří kterému uživateli.
+
+recenzováno: false

@@ -1,0 +1,9 @@
+kysymys: Mikä oli keskiaikaisen kirkon asenne korkoa tuottaviin lainoihin?
+vastaus: Se kielsi ne.
+väärät_vastaukset:
+  - Se kannusti niihin.
+  - Se salli ne tietyissä tapauksissa.
+  - Sillä ei ollut mielipidettä asiasta.
+selitys: |
+  Keskiaikainen kirkko kielsi korkoa tuottavat lainat, pitäen tätä käytäntöä korkonkiskonnan syntinä, koska se piti moraalittomana hyötyä lainasta vaatimalla enemmän kuin alkuperäisen summan.
+arvioitu: false

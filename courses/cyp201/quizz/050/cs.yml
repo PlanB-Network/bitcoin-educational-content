@@ -1,11 +1,8 @@
-question: Jaká je role BIP39 v ekosystému Bitcoinu?
-answer: Zavedla 24-slovní mnemonickou frázi pro převod složitých sekvencí číslic na obyčejná slova.
-wrong_answers:
-  - Zavedla koncept deterministicky a hierarchicky odvozených klíčů.
-  - Navrhla přidání dodatečné heslové fráze pro posílení bezpečnosti jednotlivých klíčů.
-  - Standardizovala strukturu a hierarchii HD peněženek.
-explanation: |
-  BIP39 představila zásadní inovaci; 24-slovní mnemonickou frázi.
-  Tento systém umožnil převést složitou, těžko zapamatovatelnou sekvenci číslic
-  na sérii obyčejných slov, která je mnohem snazší si zapamatovat a uložit.
-reviewed: false
+otázka: Jaká je velikost seedu HD peněženky, pokud je dodržen BIP39?
+odpověď: 512 bitů.
+nesprávné_odpovědi:
+  - 32 bajtů.
+  - 1024 bitů.
+  - 512 bajtů.
+vysvětlení: |
+  Podle BIP39 je seed HD peněženky 512 bitů, odvozený z mnemonické fráze a hesla.

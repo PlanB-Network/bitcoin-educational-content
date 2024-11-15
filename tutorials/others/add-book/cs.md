@@ -13,7 +13,7 @@ Mise PlanB je poskytovat špičkové vzdělávací zdroje o Bitcoinu v co nejví
 https://planb.network/tutorials/others/create-github-account
 
 
-- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books) v sekci `resources/books/`:
+- Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) v sekci `resources/books/`:
 ![book](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file`, poté na `Create new file`:
 ![book](assets/03.webp)

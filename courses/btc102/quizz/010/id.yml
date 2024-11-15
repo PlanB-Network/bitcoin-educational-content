@@ -1,0 +1,10 @@
+pertanyaan: Apa yang dimaksud dengan 2FA?
+jawaban: Otentikasi Dua-Faktor
+jawaban_salah:
+  - Otorisasi Dua-Faktor
+  - Otentikasi Dua-Fitur
+  - Otentikasi Dua-Fungsi
+penjelasan: |
+  2FA adalah singkatan dari Otentikasi Dua-Faktor. Ini memberikan lapisan
+
+  keamanan tambahan untuk akun-akun yang paling sensitif.

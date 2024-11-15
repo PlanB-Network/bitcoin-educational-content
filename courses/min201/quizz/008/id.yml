@@ -1,0 +1,11 @@
+pertanyaan: Apa keuntungan utama dari ASIC dalam konteks penambangan Bitcoin?
+jawaban: Mereka dapat melakukan satu jenis perhitungan tertentu dengan sangat efisien
+jawaban_salah:
+  - Mereka dapat melakukan berbagai jenis perhitungan yang berbeda
+  - Mereka mengonsumsi listrik lebih sedikit daripada CPU
+  - Mereka lebih murah daripada CPU
+penjelasan: |
+  ASIC adalah chip, sebanding dengan chip CPU, namun, mereka dikembangkan
+  untuk melakukan hanya satu jenis perhitungan tertentu dengan cara yang paling efisien.
+  Dalam kasus ASIC Bitcoin, mereka dirancang untuk perhitungan algoritma SHA256.
+ditinjau: false

@@ -1,9 +1,9 @@
-question: Cosa memorizza un portafoglio Bitcoin?
-answer: Le chiavi private necessarie per dimostrare la proprietà dei bitcoin
-wrong_answers:
-  - I bitcoin stessi
-  - Le chiavi pubbliche necessarie per dimostrare la proprietà dei bitcoin
-  - La cronologia delle transazioni dei bitcoin
-explanation: |
-  In realtà, un portafoglio Bitcoin memorizza le chiavi private necessarie per dimostrare la proprietà dei bitcoin. I bitcoin stessi sono registrati sulla blockchain, un database decentralizzato che archivia tutte le transazioni.
-reviewed: false
+domanda: Cosa rappresenta il punto V nel processo di firma digitale con ECDSA come esempio in questo capitolo?
+risposta: Il punto calcolato dal nonce v e dal punto generatore G (V = v.G).
+risposte_errate:
+  - Il punto derivato direttamente dalla chiave pubblica.
+  - L'hash del messaggio firmato.
+  - Il risultato dell'aggiunta di due punti sulla curva ellittica.
+spiegazione: |
+  V è il risultato del calcolo del nonce moltiplicato per il punto generatore sulla curva ellittica.
+revisionato: false

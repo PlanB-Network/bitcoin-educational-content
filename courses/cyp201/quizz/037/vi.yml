@@ -1,10 +1,9 @@
-question: Thuật toán nào được Bitcoin sử dụng để liên kết khóa riêng và khóa công khai?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
-wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
-explanation: |
-  Bitcoin sử dụng Elliptic Curve Digital Signature Algorithm (ECDSA)
-  để liên kết khóa riêng và khóa công khai.
-reviewed: false
+câu hỏi: Tại sao việc sử dụng một nguồn entropy tốt để tạo khóa riêng là quan trọng?
+câu trả lời: Entropy kém có thể khiến khóa riêng trở nên dễ đoán và dễ bị tấn công.
+câu trả lời sai:
+  - Entropy tốt giúp tối ưu hóa hiệu suất của ví.
+  - Entropy không đóng vai trò gì trong việc bảo mật khóa riêng.
+  - Entropy kém làm chậm giao dịch.
+giải thích: |
+  Nếu entropy được sử dụng để tạo khóa riêng thấp, nó có thể cho phép kẻ tấn công đoán hoặc tính toán được những khóa này, làm ảnh hưởng đến an ninh của ví.
+đã xem xét: false

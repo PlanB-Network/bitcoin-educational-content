@@ -1,0 +1,9 @@
+pertanyaan: Bagaimana checksum dari alamat SegWit dihitung?
+jawaban: Dengan kode BCH.
+jawaban_salah:
+  - Dengan HASH160.
+  - Dengan HASH256.
+  - Dengan SHA512.
+penjelasan: |
+  Untuk alamat SegWit, checksum dihitung menggunakan kode BCH, yang memungkinkan untuk mendeteksi kemungkinan kesalahan dalam alamat tersebut.
+ditinjau: false

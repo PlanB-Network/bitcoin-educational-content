@@ -1,9 +1,9 @@
-question: Kdo zahajuje proces otevření kanálu v Lightning Network?
-answer: Alice
-wrong_answers:
-  - Bob
-  - Oba, Alice i Bob
-  - Ani Alice ani Bob
-explanation: |
-  V procesu otevření kanálu v Lightning Network je Alice ta, která proces zahajuje. Komunikuje svůj záměr otevřít kanál Bobovi, který jako odpověď poskytne svou veřejnou adresu.
-reviewed: false
+otázka: Jak timelock chrání před podváděním v transakcích s předchozím závazkem?
+odpověď: Zabraňuje straně, která se dopustila podvodu, v okamžitém získání jejích prostředků
+špatné_odpovědi:
+  - Automaticky vrací prostředky podvodníkovi
+  - V případě pokusu o podvod zruší transakci
+  - Blokuje použití klíče pro zrušení
+vysvětlení: |
+  Timelock ukládá zpoždění, během kterého nemůže podvodník získat své prostředky, čímž dává druhé straně příležitost reagovat.
+recenzováno: false

@@ -1,0 +1,9 @@
+question: Mida tähendab, kui kaks arvu on "teineteisega võõrad"?
+answer: Nende suurim ühistegur on võrdne 1-ga
+wrong_answers:
+  - Nende summa on paarisarv
+  - Mõlemad on paarisarvud
+  - Neil pole ühiseid jagajaid peale 1 ja iseenda
+explanation: |
+  Kaks arvu on teineteisega võõrad, kui nende suurim ühistegur on 1, mis tähendab, et neil pole ühiseid algarve, olles oluline omadus krüptograafias.
+reviewed: false

@@ -1,0 +1,8 @@
+pertanyaan: Apa fungsi yang digunakan untuk menghasilkan sebuah alamat?
+jawaban: HASH160.
+jawaban_salah:
+  - HASH256.
+  - HASH512.
+  - SHA256.
+penjelasan: |
+  Fungsi HASH160, yang menggabungkan SHA256 dan RIPEMD-160, digunakan untuk menghasilkan alamat Bitcoin dari kunci publik.

@@ -1,0 +1,9 @@
+câu hỏi: Kết quả của 0 XOR 1 là gì?
+câu trả lời: 1
+câu trả lời sai:
+  - 0
+  - 2
+  - -1
+giải thích: |
+  Với XOR, 0 XOR 1 cho kết quả là 1 vì các bit khác nhau.
+đã xem xét: false

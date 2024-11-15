@@ -1,9 +1,11 @@
-question: Tại sao lại khuyến khích sử dụng ví mã nguồn mở cho giao dịch Bitcoin?
-answer: Chúng cho phép xác minh việc tạo số ngẫu nhiên.
-wrong_answers:
-  - Chúng rẻ hơn ví mã nguồn đóng.
-  - Chúng nhanh hơn ví mã nguồn đóng.
-  - Chúng an toàn hơn ví mã nguồn đóng.
-explanation: |
-  Ví mã nguồn mở cho phép người dùng xác minh quá trình tạo số ngẫu nhiên, đây là bước quan trọng trong việc đảm bảo an toàn cho khóa riêng và giao dịch Bitcoin.
-reviewed: false
+Câu hỏi: Biến nào cho phép phân biệt các cặp khóa anh em với nhau (có cùng một cặp khóa cha mẹ)?
+
+Câu trả lời: Chỉ số.
+
+Câu trả lời sai:
+  - Muối mật mã.
+  - Tên đầu tiên.
+  - Mã chuỗi cha mẹ.
+
+Giải thích: |
+  Chỉ số được sử dụng để phân biệt các cặp khóa anh em được tạo ra từ cùng một cặp cha mẹ trong ví HD.

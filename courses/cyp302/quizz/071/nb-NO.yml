@@ -1,0 +1,8 @@
+question: Hvordan fungerer dekryptering i en shift cipher?
+answer: Ved å trekke fra nøkkelen fra hver krypterte bokstav og anvende modulo 26
+wrong_answers:
+  - Ved å trekke fra nøkkelen fra hver krypterte bokstav og anvende modulo 20
+  - Ved å multiplisere nøkkelen med hver krypterte bokstav
+  - Ved å dele nøkkelen fra hver krypterte bokstav og anvende modulo 27
+explanation: |
+  I en shift cipher utføres dekryptering ved å trekke fra nøkkelen fra hver krypterte bokstav, deretter anvende modulo 26 for å returnere til den opprinnelige teksten. Modulo 26 tillater retur til begynnelsen av alfabetet etter bokstaven "Z".

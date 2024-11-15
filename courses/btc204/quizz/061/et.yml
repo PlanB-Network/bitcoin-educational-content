@@ -1,0 +1,13 @@
+question: Mis on "coin control" valiku eesmärk Bitcoin'i rahakott tarkvaras?
+
+answer: Valida, milliseid UTXOsid kasutada tehingute sisenditena.
+
+wrong_answers:
+  - UTXOde krüpteerimine, et tõsta rahakoti turvalisust.
+  - Kahtlaste allikate UTXOde tuvastamine ja blokeerimine.
+  - Iga UTXO märgistamine rahakotis.
+
+explanation: |
+  Coin control on funktsioon, mida leidub heas Bitcoin'i rahakott tarkvaras, mis annab sulle võimaluse käsitsi valida kindlad UTXOsid, mida kasutada sisenditena tehingute tegemisel.
+
+reviewed: false

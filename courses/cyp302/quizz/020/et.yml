@@ -1,0 +1,9 @@
+question: Mida tähendab matemaatikas "modulo" tehe?
+answer: Jagamise jääk
+wrong_answers:
+  - Jagamise jagatis
+  - Kahekordne algusnumber
+  - Number, mis jagub ilma jäägita
+explanation: |
+  Modulo tehe hõlmab jagamise jäägi määramist, näiteks 25 mod 4 võrdub 1, kuna jagamise jääk on 1.
+reviewed: false

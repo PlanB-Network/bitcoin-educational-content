@@ -1,0 +1,9 @@
+question: Hva er navnet på den elliptiske kurven som brukes for digitale signaturalgoritmer i Bitcoin?
+answer: secp256k1.
+wrong_answers:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+explanation: |
+  Kurven secp256k1 brukes i Bitcoin-protokollen for digitale signaturer.
+reviewed: false

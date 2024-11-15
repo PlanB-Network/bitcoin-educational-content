@@ -1,9 +1,9 @@
-question: Mục đích của entropy trong việc tạo ra cụm từ ghi nhớ cho ví Bitcoin là gì?
-answer: Nó là nền tảng của bảo mật ví HD.
-wrong_answers:
-  - Nó quyết định số lượng từ trong cụm từ khôi phục.
-  - Nó mã hóa cụm từ khôi phục để tăng cường bảo mật.
-  - Nó xác minh độ chính xác của cụm từ khôi phục.
-explanation: |
-  Entropy là nền tảng của bảo mật ví HD. Việc entropy này phải ngẫu nhiên hoặc giả ngẫu nhiên là cực kỳ quan trọng để đảm bảo an toàn cho ví.
-reviewed: false
+câu hỏi: Địa chỉ nhận (nói chung) là gì?
+câu trả lời: Một băm của khóa công khai kèm theo metadata được đặt vào một định dạng cụ thể.
+câu trả lời sai:
+  - Một băm của khóa riêng kèm theo metadata được đặt vào một định dạng cụ thể.
+  - Một băm của khóa mở rộng kèm theo metadata được đặt vào một định dạng cụ thể.
+  - Một băm của mã chuỗi kèm theo metadata.
+giải thích: |
+  Một địa chỉ nhận nói chung là một băm của khóa công khai kèm theo metadata, được sử dụng trong scriptPubKey để thiết lập các điều kiện.
+đã xem xét: false

@@ -1,0 +1,7 @@
+question: Tõene või väär? "Avalikku võtit on võimalik kindlaks teha, teades ainult selle SegWitv0 aadressi."
+answer: Väär.
+wrong_answers:
+  - Tõene.
+explanation: |
+  SegWit v0 aadress on avaliku võtme räsi, mistõttu on võimatu avalikku võtit otse aadressilt taastada, ilma vastavat privaatvõtit teadmata.
+reviewed: false

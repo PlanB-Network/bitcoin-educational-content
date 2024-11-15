@@ -1,10 +1,9 @@
-question: Rủi ro chính khi tự tạo cụm từ ghi nhớ của mình bằng cách sử dụng xúc xắc cho các giao dịch Bitcoin là gì?
-answer: Có thể xuất hiện một số rủi ro nhất định.
-wrong_answers:
-  - Có thể dẫn đến việc tạo ra các số dễ đoán.
-  - Có thể dẫn đến việc tạo ra các số trùng lặp.
-  - Có thể dẫn đến việc tạo ra các số không hợp lệ.
-explanation: |
-  Việc tự tạo cụm từ ghi nhớ của mình bằng cách sử dụng xúc xắc có thể mang lại một số rủi ro nhất định.
-  Do đó, việc sử dụng một cụm từ mật khẩu được tạo ngẫu nhiên để giảm thiểu những rủi ro này được khuyến nghị.
-reviewed: false
+câu hỏi: Để thực hiện việc dẫn xuất một cặp khóa con bình thường, tôi phải nhập vào hàm HMAC-SHA512...
+câu trả lời: khóa công khai của cha mẹ || chỉ số, mã chuỗi của cha mẹ.
+câu trả lời sai:
+  - khóa riêng của cha mẹ || chỉ số, mã chuỗi của cha mẹ.
+  - khóa riêng của cha mẹ, mã chuỗi của cha mẹ.
+  - khóa riêng của cha mẹ || chỉ số.
+giải thích: |
+  Để dẫn xuất một khóa con bình thường, khóa công khai của cha mẹ được sử dụng với chỉ số và mã chuỗi trong hàm HMAC-SHA512.
+đã xem xét: false

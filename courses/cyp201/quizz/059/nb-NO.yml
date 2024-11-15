@@ -1,0 +1,8 @@
+question: I hvilket tallsystem er den utvidede nøkkelen vanligvis kodet for å presenteres for brukeren?
+answer: I Base 58.
+wrong_answers:
+  - I bech32.
+  - I Base 16.
+  - I bech32m.
+explanation: |
+  Den utvidede nøkkelen er generelt kodet i Base 58 for å være mer lesbar for brukeren og for å unngå tvetydige tegn.

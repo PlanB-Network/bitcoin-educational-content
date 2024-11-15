@@ -1,0 +1,9 @@
+pregunta: ¿Qué significa el término "difusión" en el contexto de la encriptación AES?
+respuesta: Un cambio en el texto plano resulta en un cambio significativo en el texto cifrado
+respuestas_incorrectas:
+  - El texto cifrado siempre tiene la misma longitud
+  - Los bytes de la clave se distribuyen de manera uniforme
+  - La información sensible se mezcla en cada bloque del texto cifrado
+explicación: |
+  Difusión significa que un pequeño cambio en el texto plano resulta en un cambio significativo en el texto cifrado, dificultando que un atacante pueda deducir el texto plano.
+revisado: false

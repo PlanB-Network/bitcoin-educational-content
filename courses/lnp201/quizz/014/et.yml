@@ -1,0 +1,9 @@
+küsimus: Mis on viimane samm Lightning Network'il kanali avamiseks?
+vastus: Avaldada deposiidi tehing Bitcoin'i plokiahelas
+valed_vastused:
+  - Allkirjastada väljavõtte tehing vahendite taastamiseks
+  - Saata teisele osapoolele avamise kinnitussõnum
+  - Kontrollida iga osaleja vahendite saldo
+selgitus: |
+  Kanali avamise viimane samm on deposiidi tehingu avaldamine plokiahelas, mis ametlikult avab kanali.
+üle vaadatud: false

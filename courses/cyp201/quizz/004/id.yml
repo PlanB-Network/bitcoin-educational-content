@@ -1,0 +1,9 @@
+pertanyaan: Dalam protokol Bitcoin, apa itu HASH256?
+jawaban: Sebuah hash SHA256 ganda.
+jawaban_salah:
+  - Sebuah hash Keccak-256 ganda.
+  - Sebuah hash SHA256 diikuti oleh hash RIPEMD160.
+  - Sebuah hash SHA256 tunggal.
+penjelasan: |
+  Sebuah HASH256 adalah hash SHA256 ganda, yang berarti fungsi SHA256 diterapkan sekali pada sepotong data, kemudian untuk kedua kalinya pada hasil dari yang pertama.
+ditinjau: false

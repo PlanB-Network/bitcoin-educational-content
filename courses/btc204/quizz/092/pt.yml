@@ -1,0 +1,13 @@
+pergunta: Qual é o nome da conta usada para UTXOs que não podem entrar em um pool de coinjoin Whirlpool?
+
+resposta: Conta de troco doxxic.
+
+respostas_erradas:
+  - Conta pós-mixagem.
+  - Conta pré-mixagem.
+  - Conta de depósito.
+
+explicação: |
+  O troco que não pôde entrar no pool é isolado na conta de "troco doxxic", para garantir uma separação estrita dos outros UTXOs na carteira.
+
+revisado: false

@@ -1,9 +1,9 @@
-question: Qual è il ruolo di BIP38 nell'ecosistema Bitcoin?
-answer: Propone di aggiungere una passphrase aggiuntiva per rafforzare la sicurezza delle chiavi individuali.
-wrong_answers:
-  - Ha introdotto la frase mnemonica di 24 parole.
-  - Ha rivoluzionato il modo in cui vengono generate e memorizzate le chiavi.
-  - Ha standardizzato la struttura e la gerarchia degli HD wallet.
-explanation: |
-  BIP38 propone di aggiungere una passphrase aggiuntiva per rafforzare la sicurezza delle chiavi individuali. Questo è uno dei molti miglioramenti apportati per migliorare la sicurezza e la funzionalità degli HD wallet.
-reviewed: false
+domanda: Qual è la funzione pseudo-casuale utilizzata in PBKDF2 per calcolare il seme di un portafoglio HD Bitcoin?
+risposta: HMAC-SHA512.
+risposte_errate:
+  - HMAC-SHA256.
+  - HMAC-SHA1.
+  - SHA3-512.
+spiegazione: |
+  HMAC-SHA512 è la funzione pseudo-casuale utilizzata in PBKDF2 per generare il seme di un portafoglio HD Bitcoin.
+revisionato: false

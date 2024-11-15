@@ -1,0 +1,9 @@
+kysymys: Mikä on satunnaisen nonce-arvon käytön merkitys CBC- ja OFB-menetelmissä?
+vastaus: Se varmistaa, että jokainen salausistunto on ainutlaatuinen, vaikka data olisi identtistä.
+vaarat_vastaukset:
+  - Se vähentää avaimen pituutta salausprosessin aikana.
+  - Se nopeuttaa salausta.
+  - Se tekee algoritmin koodista kauniimman ihmisten silmissä.
+selitys: |
+  Käyttämällä satunnaista nonce-arvoa kussakin istunnossa, CBC- ja OFB-menetelmät varmistavat, että jokainen salaus on ainutlaatuinen, mikä estää hyökkäykset, jotka hyödyntävät identtistä dataa.
+arvioitu: false

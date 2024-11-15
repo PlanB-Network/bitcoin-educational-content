@@ -1,0 +1,9 @@
+question: Mis on "Nonce" krüptograafias?
+answer: Number, mis on mõeldud ühekordseks kasutamiseks.
+wrong_answers:
+  - Paarisarv.
+  - Digitaalne allkiri.
+  - Number, mida saab uuesti kasutada.
+explanation: |
+  Nonce on number, mida kasutatakse ühekordselt krüptograafilistes operatsioonides, tagamaks teatud väärtuste unikaalsust algoritmides.
+reviewed: false

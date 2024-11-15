@@ -1,0 +1,8 @@
+question: Hvorfor er det vanskelig å konstruere en "blokkmodus"-kryptering fra en strømkrypter?
+answer: Fordi strømkrypterer behandler data kontinuerlig
+wrong_answers:
+  - Fordi strømkrypterer ikke bruker private nøkler
+  - Fordi blokkmoduser krever lengre nøkler
+  - Fordi strømkrypterer alltid er tregere
+explanation: |
+  Strømkrypterer er designet for å kryptere data kontinuerlig (bit for bit eller byte for byte), noe som kompliserer bruken av dem i blokkmodus som krever behandling i faste størrelsesblokker.

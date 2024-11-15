@@ -1,0 +1,9 @@
+kysymys: Miksi kertakäyttöavainta pidetään turvallisena salausmenetelmänä?
+vastaus: Koska jokainen avaimen bitti on satunnainen eikä mitään osaa käytetä uudelleen
+vaarat_vastaukset:
+  - Koska se käyttää satunnaista julkista ja yksityistä avainta
+  - Koska se perustuu alkulukuihin
+  - Koska se salaa vain pieniä viestejä
+selitys: |
+  Kertakäyttöavain on turvallinen, koska jokainen avaimen bitti on satunnainen eikä sitä koskaan käytetä uudelleen, varmistaen, että se ei jätä hyökkääjälle hyödynnettävissä olevia jälkiä.
+arvioitu: false

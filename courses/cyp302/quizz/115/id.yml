@@ -1,0 +1,9 @@
+pertanyaan: Apa yang dimaksud dengan istilah "difusi" dalam konteks enkripsi AES?
+jawaban: Perubahan dalam teks asli menghasilkan perubahan yang signifikan dalam teks terenkripsi
+jawaban_salah:
+  - Teks terenkripsi selalu memiliki panjang yang sama
+  - Byte kunci didistribusikan secara merata
+  - Informasi sensitif diacak dalam setiap blok teks terenkripsi
+penjelasan: |
+  Difusi berarti bahwa perubahan kecil dalam teks asli menghasilkan perubahan yang signifikan dalam teks terenkripsi, membuatnya sulit bagi penyerang untuk menemukan teks asli.
+ditinjau: false

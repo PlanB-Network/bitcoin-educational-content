@@ -1,0 +1,11 @@
+otázka: Jakou strategii používá Wabisabi pro zvýšení anonsetů účastníků?
+
+odpověď: S několika velmi velkými transakcemi.
+
+nesprávné_odpovědi:
+  - S mnoha velmi malými transakcemi.
+  - S jednou malou transakcí.
+  - Bez transakcí.
+
+vysvětlení: |
+  Pro zvýšení anonsetů účastníků používá Wabisabi velmi velké coinjoin transakce, které sdružují desítky účastníků.

@@ -1,0 +1,9 @@
+küsimus: Mis on tüüpiline ploki suurus plokšifri krüpteerimisel?
+vastus: 64, 128, 192 või 256 bitti
+valed_vastused:
+  - 8, 16, 32 või 64 bitti
+  - 4, 8, 16 või 32 bitti
+  - 256, 512, 1024 või 2048 bitti
+selgitus: |
+  Plokšifrid töötlevad andmeid fikseeritud suurusega plokkides, tüüpiliselt 64, 128, 192 või 256 bitti, et tagada krüpteeringu optimaalne turvalisus ja terviklikkus.
+üle vaadatud: false

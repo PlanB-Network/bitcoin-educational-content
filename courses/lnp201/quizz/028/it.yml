@@ -1,9 +1,9 @@
-question: Chi sono i due partecipanti coinvolti nel trasferimento della Lightning Network nell'esempio?
-answer: Alice e Bob.
-wrong_answers:
-  - Alice e Charlie.
-  - Bob e Charlie.
-  - Alice e la rete Bitcoin.
-explanation: |
-  Nell'esempio, Alice e Bob sono i due partecipanti coinvolti nel trasferimento della Lightning Network.
-reviewed: false
+domanda: Cosa può fare Bob se rileva un tentativo di Alice di barare durante la chiusura del canale?
+risposta: Utilizzare la chiave di revoca per recuperare tutti i fondi
+risposte_errate:
+  - Annullare la transazione di impegno di Alice
+  - Chiudere permanentemente il canale senza possibilità di riaprirlo
+  - Richiedere solo metà dei fondi disponibili
+spiegazione: |
+  In caso di baro, Bob può utilizzare la chiave di revoca per recuperare tutti i fondi dal canale, punendo così Alice per il suo tentativo.
+recensito: false

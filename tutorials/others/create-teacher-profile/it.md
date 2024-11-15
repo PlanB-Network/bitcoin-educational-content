@@ -30,7 +30,7 @@ Scopriamo insieme come aggiungere un nuovo professore in questo tutorial!
 
 ## Come creare un nuovo profilo professore?
 
-- Apri il tuo browser e naviga alla pagina del tuo fork del repository PlanB. L'URL del tuo fork dovrebbe apparire così: `https://github.com/[username]/sovereign-university-data`
+- Apri il tuo browser e naviga alla pagina del tuo fork del repository PlanB. L'URL del tuo fork dovrebbe apparire così: `https://github.com/[username]/bitcoin-educational-content`
 ![tutorial](assets/4.webp)
 - Assicurati di essere sul ramo principale `dev` poi clicca sul pulsante `Sync fork`. Se il tuo fork non è aggiornato, GitHub offrirà di aggiornare il tuo ramo. Procedi con questa sincronizzazione.
 
@@ -45,14 +45,14 @@ Scopriamo insieme come aggiungere un nuovo professore in questo tutorial!
 ![tutorial](assets/8.webp)
 - Clicca su questo ramo, poi clicca sul pulsante `New Branch`:
 ![tutorial](assets/9.webp)
-- Assicurati che il nuovo ramo sia basato sul repository sorgente, ovvero `DecouvreBitcoin/sovereign-university-data`.
+- Assicurati che il nuovo ramo sia basato sul repository sorgente, ovvero `PlanB-Network/bitcoin-educational-content`.
 - Nominare il tuo ramo in modo che il titolo sia chiaro riguardo al suo scopo, utilizzando trattini per separare ogni parola. Poiché questo ramo è destinato all'aggiunta di un profilo professore, un esempio di nome potrebbe essere: `add-professor-[tuo-nome]`. Dopo aver inserito il nome, clicca su `Create branch` per confermare la sua creazione:
 ![tutorial](assets/10.webp)
 - Ora clicca sul pulsante `Publish branch` per salvare il tuo nuovo ramo di lavoro sul tuo fork online su GitHub:
 ![tutorial](assets/11.webp)
 - A questo punto, su GitHub Desktop, dovresti essere sul tuo nuovo ramo. Questo significa che tutte le modifiche fatte localmente sul tuo computer verranno registrate esclusivamente su questo ramo specifico. Inoltre, finché questo ramo rimane selezionato su GitHub Desktop, i file visibili localmente sulla tua macchina corrispondono a quelli di questo ramo (`add-professor-tuo-nome`), e non a quelli del ramo principale (`dev`):
 ![tutorial](assets/12.webp)
-- Per aggiungere il tuo profilo professore, apri l'esplora file e naviga verso il tuo repository locale, nella cartella `professors`. La troverai sotto il percorso: `\GitHub\sovereign-university-data\professors`.
+- Per aggiungere il tuo profilo professore, apri l'esplora file e naviga verso il tuo repository locale, nella cartella `professors`. La troverai sotto il percorso: `\GitHub\bitcoin-educational-content\professors`.
 
 - All'interno di questa cartella, crea una nuova cartella nominata con il tuo nome o pseudonimo. Assicurati che non ci siano spazi nel nome della cartella. Quindi, se il tuo nome è "Loic Pandul" e nessun altro professore ha questo nome, la cartella da creare sarà nominata `loic-pandul`:
 ![tutorial](assets/13.webp)

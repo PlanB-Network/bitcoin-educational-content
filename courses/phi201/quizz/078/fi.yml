@@ -1,0 +1,9 @@
+kysymys: Mikä on Adam Smithin tunnetuin panos taloustieteeseen?
+vastaus: Hän kehitti näkymättömän käden teorian.
+väärät_vastaukset:
+  - Hän kehitti näkyvän sormen teorian.
+  - Hän kehitti näkymättömän sormen teorian.
+  - Hän kehitti näkyvän käden teorian.
+selitys: |
+  Adam Smith tunnetaan näkymättömän käden teoriastaan, jonka mukaan yksilöiden itsekkäistä motiiveista kumpuavat toimet edistävät tahattomasti yhteiskunnan taloudellista hyvinvointia kokonaisuutena.
+arvioitu: false

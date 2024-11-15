@@ -1,11 +1,9 @@
-question: Jaká je role eliptické křivky při generování veřejných a soukromých klíčů?
-answer: Používá se k generování bezpečných veřejných a soukromých klíčů.
-wrong_answers:
-  - Používá se k šifrování klíčů.
-  - Používá se k ukládání klíčů.
-  - Používá se k přenosu klíčů.
-explanation: |
-  Eliptická křivka je matematická konstrukce používaná při generování
-  bezpečných veřejných a soukromých klíčů. Jako soukromý klíč je vybráno náhodné číslo, často nazývané nonce, které je použito v rovnici eliptické křivky k vygenerování
-  odpovídajícího veřejného klíče.
-reviewed: false
+otázka: Pokud vygeneruji 128bitové náhodné číslo, jaká bude velikost mé obnovovací fráze ve slovech?
+odpověď: 12 slov.
+špatné_odpovědi:
+  - 6 slov.
+  - 8 slov.
+  - 24 slov.
+vysvětlení: |
+  128bitové náhodné číslo odpovídá 12slovní mnemonické frázi, podle standardu BIP39.
+recenzováno: false

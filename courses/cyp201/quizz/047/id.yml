@@ -1,0 +1,8 @@
+pertanyaan: Mengapa menggunakan passphrase meningkatkan keamanan dari sebuah dompet HD?
+jawaban: Ini menambahkan lapisan perlindungan ekstra pada frasa mnemonik.
+jawaban_salah:
+  - Ini memungkinkan untuk generasi kunci publik yang lebih kuat.
+  - Ini melindungi transaksi secara kriptografis.
+  - Ini menggandakan jumlah bitcoin dalam dompet.
+penjelasan: |
+  Passphrase meningkatkan keamanan dengan menambahkan potongan data tambahan pada frasa mnemonik, bertindak agak seperti 2FA.

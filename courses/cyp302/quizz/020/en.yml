@@ -1,0 +1,9 @@
+question: What does the "modulo" operation represent in mathematics?
+answer: The remainder of a division
+wrong_answers:
+  - The quotient of a division
+  - Twice the starting number
+  - The number that divides without remainder
+explanation: |
+  The modulo operation involves determining the remainder of a division, for example, 25 mod 4 equals 1 because the remainder of the division is 1.
+reviewed: false

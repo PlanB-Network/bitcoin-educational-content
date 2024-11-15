@@ -1,9 +1,9 @@
-question: Qual é o nome grosseiro às vezes usado para se referir à coleção de chaves privadas em uma carteira de Bitcoin?
-answer: Apenas um monte de chaves (JBOC)
-wrong_answers:
-  - Apenas um monte de moedas (JBOC)
-  - Apenas um monte de criptos (JBOC)
-  - Apenas um monte de códigos (JBOC)
-explanation: |
-  A coleção de chaves criptográficas privadas derivadas de uma única chave mestra em uma carteira de Bitcoin é às vezes referida pelo nome um pouco mais grosseiro de "Apenas um monte de chaves" (JBOC).
-reviewed: false
+pergunta: Do que consiste o payload de uma chave estendida?
+resposta: Uma chave pública ou privada, e o código de cadeia associado.
+respostas_erradas:
+  - Uma chave privada e a chave pública associada.
+  - Um código de cadeia, uma chave pública e uma chave privada.
+  - Uma chave privada e um índice de derivação.
+explicação: |
+  O payload de uma chave estendida inclui ou uma chave pública ou privada, junto com um código de cadeia usado para derivar chaves filhas.
+revisado: false

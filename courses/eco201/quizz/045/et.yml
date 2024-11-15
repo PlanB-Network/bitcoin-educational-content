@@ -1,0 +1,12 @@
+question: Mis on peamine põhjus, miks keskselt planeeritud majanduses paratamatult
+  tekib kapitali vale jaotamine?
+answer: Turuhindu ega pankrotte pole, et paljastada ja parandada valejaotusi.
+wrong_answers:
+  - Keskplaneerijad ei ole efektiivsed.
+  - Keskplaneerijatel pole piisavalt informatsiooni.
+  - Keskplaneerijatel puudub motivatsioon ressursse tõhusalt jaotada.
+explanation: |
+  Keskselt planeeritud majanduses puuduvad turuhinnad või pankrotid,
+  mis paljastaksid ja parandaksid valejaotusi. Selle tulemusena kuhjuvad vead, kuni
+  raiskamine muutub ilmseks olulise elutingimuste languse kaudu.
+reviewed: false

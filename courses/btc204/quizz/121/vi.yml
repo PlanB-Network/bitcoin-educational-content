@@ -1,0 +1,11 @@
+câu hỏi: Giai đoạn "stem" trong giao thức Dandelion hoạt động như thế nào?
+
+câu trả lời: Giao dịch được gửi qua một đường dẫn ngẫu nhiên của các nút
+
+câu trả lời sai:
+  - Giao dịch ngay lập tức được phát sóng tới tất cả các nút đồng nghiệp của nút nguồn
+  - Giao dịch được lưu trữ tạm thời trong một nút trung tâm trước khi được phát sóng
+  - Giao dịch được mã hóa tăng dần tại mỗi bước của việc phát sóng
+
+giải thích: |
+  Dandelion đầu tiên sử dụng giai đoạn "stem" nơi giao dịch được gửi qua một đường dẫn ngẫu nhiên của các nút. Sau đó, giao dịch được phát sóng tới toàn bộ mạng trong giai đoạn "fluff".

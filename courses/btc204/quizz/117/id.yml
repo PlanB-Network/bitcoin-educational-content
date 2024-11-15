@@ -1,0 +1,11 @@
+pertanyaan: Berapa banyak transaksi berturut-turut yang biasanya dilakukan oleh ricochet klasik?
+
+jawaban: 5
+
+jawaban_salah:
+  - 2
+  - 8
+  - 14
+
+penjelasan: |
+  Metode ricochet biasanya melibatkan pembuatan 4 transaksi kepada diri sendiri, dan satu transaksi terakhir untuk mengirimkan dana kepada penerima akhir.

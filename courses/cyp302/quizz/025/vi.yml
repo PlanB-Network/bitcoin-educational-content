@@ -1,0 +1,9 @@
+câu hỏi: Kết quả của phép toán 0110 XOR 1101 là gì?
+câu trả lời: 1011
+câu trả lời sai:
+  - 0111
+  - 0000
+  - 1101
+giải thích: |
+  Bằng cách áp dụng XOR từng bit một: 0 XOR 1 = 1, 1 XOR 1 = 0, 1 XOR 0 = 1, 0 XOR 1 = 1, do đó kết quả là 1011.
+đã xem xét: false

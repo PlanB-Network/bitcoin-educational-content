@@ -1,0 +1,8 @@
+question: 什么是"HMAC"？
+answer: 基于哈希函数的消息认证码
+wrong_answers:
+  - 一种基于哈希函数的非对称加密算法
+  - 一种基于Diffie-Hellman的非对称加密算法
+  - 一种基于Diffie-Hellman的消息认证码
+explanation: |
+  HMAC是一种使用哈希函数（例如SHA-256）来创建标签的消息认证码，该标签验证消息的完整性和真实性。

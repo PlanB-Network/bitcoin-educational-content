@@ -1,0 +1,9 @@
+pergunta: Qual é a principal diferença entre uma "cifra de fluxo primitiva" e uma "cifra de fluxo de cifra de bloco"?
+resposta: Uma "cifra de fluxo primitiva" não é construída a partir de uma cifra de bloco.
+respostas_erradas:
+  - Uma "cifra de fluxo primitiva" requer o preenchimento das mensagens.
+  - Uma "cifra de fluxo de cifra de bloco" usa blocos de tamanho variável.
+  - Uma "cifra de fluxo de cifra de bloco" não pode ser usada para dados grandes.
+explicação: |
+  Uma "cifra de fluxo primitiva", como Salsa20, é projetada independentemente de uma "cifra de bloco", enquanto uma "cifra de fluxo de cifra de bloco" usa uma "cifra de bloco" como sua base, modificada para produzir um fluxo de criptografia.
+revisado: false

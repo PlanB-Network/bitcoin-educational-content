@@ -1,0 +1,9 @@
+question: Hvor mange biter er reservert for padding etter størrelse i SHA256-funksjonen?
+answer: 64 biter.
+wrong_answers:
+  - 128 biter.
+  - 256 biter.
+  - 512 biter.
+explanation: |
+  SHA256 reserverer 64 biter for padding, som representerer den opprinnelige størrelsen på meldingen før padding.
+reviewed: false

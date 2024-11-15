@@ -1,0 +1,8 @@
+question: Mis on välisharu eesmärk tuletusprotsessis?
+answer: Eraldada avalikkusele mõeldud aadresse.
+wrong_answers:
+  - Eraldada vahetus aadresse.
+  - Hallata sissetulevaid tehinguid.
+  - Eraldada privaatvõtmed avalikest võtmetest.
+explanation: |
+  Välisharu kasutatakse avalikkusele mõeldud aadresside tuletamiseks, nagu näiteks need, mis on mõeldud maksete vastuvõtmiseks.

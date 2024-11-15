@@ -1,0 +1,8 @@
+pergunta: O que significa a operação XOR quando aplicada entre dois bits?
+resposta: Retorna 1 se os bits forem diferentes, caso contrário, retorna 0
+respostas_erradas:
+  - Retorna 1 apenas se ambos os bits forem 1
+  - Adiciona os bits e retorna a soma
+  - Sempre retorna 0, independentemente do resultado
+explicação: |
+  A operação XOR (ou "ou exclusivo") produz 1 se os dois bits forem diferentes (0 e 1 ou 1 e 0) e 0 se forem iguais.

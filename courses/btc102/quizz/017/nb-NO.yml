@@ -1,0 +1,10 @@
+question: Hva er den gyldne regelen for Bitcoin-investering?
+answer: Ikke din nøkkel, ikke dine Bitcoins.
+wrong_answers:
+  - Invester aldri mer enn du har råd til å tape.
+  - Unngå det som er trendy.
+  - Planlegging og å ha en langsiktig visjon er essensielt for suksess i finans.
+explanation: |
+  Den gyldne regelen for Bitcoin-investering er "Ikke din nøkkel, ikke dine Bitcoins."
+  Dette betyr at hvis du ikke har kontroll over din private nøkkel, eier du ikke virkelig
+  dine Bitcoins.

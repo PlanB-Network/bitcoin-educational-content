@@ -1,11 +1,9 @@
-question: What is a hash in the context of cryptographic hash functions?
-answer: A unique and fixed-size digital fingerprint produced by a hash function.
+question: How many bits are reserved for padding by size in the SHA256 function?
+answer: 64 bits.
 wrong_answers:
-  - A type of encryption algorithm.
-  - A key used to decrypt data.
-  - A method of compressing data.
+  - 128 bits.
+  - 256 bits.
+  - 512 bits.
 explanation: |
-  In the context of cryptographic hash functions, a hash is a unique and
-  fixed-size digital fingerprint produced by the hash function. It represents the
-  input data in a way that is unique and irreversible.
+  SHA256 reserves 64 bits for padding, which represents the initial size of the message before padding.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Milline kasutaja vajab tõenäoliselt nii kuuma kui ka külma Bitcoin rahakotti?
+answer: Kasutaja, kes vajab Bitcoini regulaarselt kasutada.
+wrong_answers:
+  - Kasutaja, kes kasutab Bitcoini ainult aeg-ajalt.
+  - Kasutaja, kes kaevandab Bitcoini.
+  - Kasutaja, kes investeerib Bitcoini ainult pikas perspektiivis.
+explanation: |
+  Regulaarsed Bitcoini kasutajad vajavad igapäevasteks tehinguteks kuuma rahakotti ja turvaliseks pikaajaliseks hoiustamiseks külma rahakotti.

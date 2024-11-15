@@ -1,9 +1,0 @@
-question: Lightning Networkの請求書での「lnbc1m」における「1m」は何を表していますか？
-answer: ミリビットコイン（0.0001 BTC）の量を表しています
-wrong_answers:
-  - Lightning Networkのバージョンを表しています
-  - 取引手数料を表しています
-  - ブロック高を表しています
-explanation: |
-  Lightning Networkの請求書において、「1m」はミリビットコイン（0.0001 BTC）の量を表します。「M」はミリを意味し、10^-3の因数を示すメトリック接頭辞です。従って、「1m」は0.0001 BTCまたは100,000サトシに等しいです。
-reviewed: false

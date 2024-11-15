@@ -1,0 +1,9 @@
+question: 在比特币协议中，什么是HASH256？
+answer: 一个双重SHA256哈希。
+wrong_answers:
+  - 一个双重Keccak-256哈希。
+  - 一个SHA256哈希后跟一个RIPEMD160哈希。
+  - 一个单一的SHA256哈希。
+explanation: |
+  HASH256是一个双重SHA256哈希，意味着对一段数据应用SHA256函数一次，然后对第一次的结果再次应用。
+reviewed: false

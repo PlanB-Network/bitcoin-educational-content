@@ -1,0 +1,13 @@
+otázka: Proč se nedoporučuje slučování několika UTXO po cyklech coinjoin?
+
+odpověď: To by mohlo ohrozit soukromí kvůli CIOH.
+
+nesprávné_odpovědi:
+  - Sníží se tím rychlost transakcí.
+  - Odhalí to podezřelou aktivitu koordinátorovi.
+  - To by mohlo ohrozit soukromí kvůli heuristice kruhových plateb.
+
+vysvětlení: |
+  Je důležité vyhnout se kombinování smíšených UTXO s nesmíšenými UTXO ve stejné transakci, ale také míchání UTXO mezi sebou, aby se předešlo heuristice společného vlastnictví vstupů (Common-Input-Ownership-Heuristic, CIOH).
+
+kontrolováno: false

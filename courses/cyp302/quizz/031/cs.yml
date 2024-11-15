@@ -1,0 +1,9 @@
+otázka: Jak je v této kapitole definován náhodný řetězec?
+odpověď: Jako řetězec vybraný rovnoměrně ze všech řetězců stejné délky
+špatné_odpovědi:
+  - Jako řetězec vytvořený pouze z bitů 0 a 1
+  - Jako řetězec získaný z manuálního výběru
+  - Jako řetězec proměnné délky vzniklý šifrovacím procesem
+vysvětlení: |
+  Náhodný řetězec je definován jako výběr z rovnoměrné distribuce mezi všemi možnými řetězci stejné délky.
+recenzováno: false

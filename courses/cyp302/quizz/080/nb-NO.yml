@@ -1,0 +1,8 @@
+question: Hva er en "stream cipher" i kryptografi?
+answer: En symmetrisk kryptering som genererer en strøm av nøkler med samme lengde som meldingen
+wrong_answers:
+  - En asymmetrisk kryptering basert på primtall
+  - En kryptering som bruker flere forskjellige dekrypteringsnøkler
+  - En kryptering som segmenterer meldingen i datablokker
+explanation: |
+  En "stream cipher" er en symmetrisk kryptering der en strøm av nøkler med samme lengde som meldingen kombineres med sistnevnte for å produsere den krypterte teksten.

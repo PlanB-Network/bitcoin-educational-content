@@ -1,0 +1,9 @@
+pregunta: ¿Cómo verifica un servicio en línea una contraseña sin almacenarla directamente?
+respuesta: Comparando el hash de la contraseña ingresada con el que se encuentra en la base de datos
+respuestas_incorrectas:
+  - Descifrando la contraseña almacenada para verificarla
+  - Usando una clave pública para verificar la identidad
+  - Comparando la contraseña directamente con la de otros usuarios
+explicación: |
+  El servicio genera un hash de la contraseña ingresada y lo compara con el almacenado, sin almacenar directamente la contraseña, asegurando así una mayor seguridad.
+revisado: false

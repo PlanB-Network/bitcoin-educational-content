@@ -1,0 +1,13 @@
+domanda: Qual è il ruolo del collaboratore in una transazione Stonewall x2?
+
+risposta: Fornire bitcoin per aggiungere dubbio
+
+risposte_errate:
+  - Agire come coordinatore della transazione
+  - Ricevere l'importo del pagamento
+  - Inviare l'importo del pagamento
+
+spiegazione: |
+  Il collaboratore in una transazione Stonewall x2 fornisce bitcoin per aggiungere dubbio all'analisi della transazione, recuperando completamente i propri fondi alla fine (un'azione neutra per loro, al netto delle commissioni di mining).
+
+revisionato: false

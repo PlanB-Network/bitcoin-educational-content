@@ -1,10 +1,9 @@
-question: Mitä tapahtuu kaikille bitcoineille Bitcoin-siirrossa?
-answer: Ne kaikki täytyy siirtyä.
-wrong_answers:
-  - Ne kaikki muunnetaan fiat-valuutaksi.
-  - Ne kaikki tallennetaan uuteen osoitteeseen.
-  - Ne jaetaan kaikki tasan osallistujien kesken.
-explanation: |
-  Bitcoin-siirrossa kaikkien bitcoinien täytyy siirtyä. Tätä kutsutaan
-  UTXO:ksi (Unspent Transaction Output), jossa bitcoinien bitit lähtevät liikkeelle vain
-  palatakseen omistajalleen myöhemmin.
+kysymys: Mikä on ensimmäinen askel Lightning-kanavan avaamisessa kahden osapuolen välillä?
+vastaus: Viestien vaihto, jotka sisältävät summat ja julkiset avaimet
+väärät_vastaukset:
+  - Talletustransaktion välitön julkaiseminen lohkoketjussa
+  - 2/2 moniallekirjoitusosoitteen luominen ilman aiempaa vaihtoa
+  - Nostotransaktion allekirjoittaminen ennen julkisten avainten vaihtoa
+selitys: |
+  Kanavan avaaminen alkaa viestien vaihdolla kahden osapuolen välillä, joissa he jakavat sitoumukseensa kuuluvat summat ja julkiset avaimensa.
+arvioitu: false

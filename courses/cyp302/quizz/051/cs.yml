@@ -1,0 +1,9 @@
+otázka: Co znamená termín "champ premier" nebo "corps premier"?
+odpověď: Pole s prvočíselným počtem prvků
+špatné_odpovědi:
+  - Pole obsahující pouze prvočísla
+  - Pole definované pouze sčítáním prvočísel
+  - Pole využívající náhodné vektory
+vysvětlení: |
+  Prvočíselné pole obsahuje počet prvků rovný prvočíslu, což jej činí základním polem pro kryptografické operace.
+recenzováno: false

@@ -1,0 +1,8 @@
+question: Kui järgitakse BIP39 standardit, mis on HD rahakoti seemne suurus?
+answer: 512 bitti.
+wrong_answers:
+  - 32 baiti.
+  - 1024 bitti.
+  - 512 baiti.
+explanation: |
+  BIP39 standardi kohaselt on HD rahakoti seemne suurus 512 bitti, mis on tuletatud mnemoonilisest fraasist ja paroolist.

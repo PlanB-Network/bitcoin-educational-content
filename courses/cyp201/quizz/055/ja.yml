@@ -1,9 +1,9 @@
-question: ビットコインウォレット内のプライベートキーの集まりを指す際に時々使われる俗称は何ですか？
-answer: Just a Bunch Of Keys (JBOC)
+question: 拡張キーのペイロードには何が含まれていますか？
+answer: 公開キーまたは秘密キー、および関連するチェーンコード。
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - 秘密キーと関連する公開キー。
+  - チェーンコード、公開キー、および秘密キー。
+  - 秘密キーと導出インデックス。
 explanation: |
-  ビットコインウォレット内の単一のマスターキーから派生したプライベートな暗号キーの集まりは、少し俗っぽい名前である"Just a Bunch Of Keys" (JBOC)と呼ばれることがあります。
+  拡張キーのペイロードには、公開キーまたは秘密キーのいずれかと、子キーを導出するために使用されるチェーンコードが含まれます。
 reviewed: false

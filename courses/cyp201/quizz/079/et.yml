@@ -1,0 +1,8 @@
+question: Mis on viimane samm Bech32 Bitcoin aadressi loomisel?
+answer: Lisa HRP "bc" ja eraldaja "1".
+wrong_answers:
+  - Lisa SegWiti versioon aadressi algusesse.
+  - Lisa kontrollsumma aadressi algusesse.
+  - Lisa eesliide "1".
+explanation: |
+  Bech32 aadressi konstrueerimise viimane samm on lisada HRP (Human Readable Part), "bc" Bitcoin'i jaoks, millele järgneb eraldaja "1".

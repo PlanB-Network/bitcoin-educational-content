@@ -1,0 +1,11 @@
+question: Hva er rollen til "post-mix" lommeboken i Zerolink-protokollen?
+
+answer: Å lagre UTXOene etter miksing.
+
+wrong_answers:
+  - Å lagre UTXOene før miksing.
+  - Å lagre veksel-UTXOene.
+  - Å lagre konsoliderings-UTXOene.
+
+explanation: |
+  "Post-mix" lommeboken er reservert for mynter som har blitt mikset.

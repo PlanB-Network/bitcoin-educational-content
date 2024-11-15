@@ -1,0 +1,9 @@
+pertanyaan: Mengapa sulit untuk membuat enkripsi "mode blok" dari cipher aliran?
+jawaban: Karena cipher aliran memproses data secara berkelanjutan
+jawaban_salah:
+  - Karena cipher aliran tidak menggunakan kunci privat
+  - Karena mode blok memerlukan kunci yang lebih panjang
+  - Karena cipher aliran selalu lebih lambat
+penjelasan: |
+  Cipher aliran dirancang untuk mengenkripsi data secara berkelanjutan (bit demi bit atau byte demi byte), yang mempersulit penggunaannya dalam mode blok yang memerlukan pemrosesan dalam blok-blok berukuran tetap.
+ditinjau: false

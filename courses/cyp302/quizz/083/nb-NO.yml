@@ -1,0 +1,8 @@
+question: Hvorfor brukes "pseudorandom stream ciphers" oftere i praksis enn engangsnøkler?
+answer: De tillater bruk av en kortere nøkkel mens de genererer en lengre nøkkelstrøm
+wrong_answers:
+  - De krever ikke en hemmelig nøkkel
+  - De bruker en kombinasjon av symmetrisk og asymmetrisk kryptering
+  - De trenger ikke nøkkeloppdateringer
+explanation: |
+  Pseudorandom stream ciphers er mer praktiske fordi de tillater at en kort nøkkel kan utvides til en lengre nøkkelstrøm, og unngår behovet for å lagre en nøkkel som er like lang som meldingen selv.

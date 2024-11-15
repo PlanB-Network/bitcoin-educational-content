@@ -1,0 +1,9 @@
+question: Mis juhtub, kui kasutan HD rahakotti koos paroolilausega ja kaotan selle paroolilause?
+answer: Minu bitcoiinid on igaveseks kadunud.
+wrong_answers:
+  - Pole probleemi, ma saan endiselt oma bitcoine ligi ainult oma mnemoonilise fraasiga.
+  - Ma saan paroolilause oma privaatvõtmega lähtestada.
+  - Ma saan oma bitcoine taastada, kasutades rahakotti ilma paroolilausega.
+explanation: |
+  Kui paroolilause on kadunud, on juurdepääs bitcoinidele jäädavalt kadunud, kuna see on vajalik privaatvõtmete tuletamiseks.
+reviewed: false

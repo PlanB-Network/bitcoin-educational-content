@@ -1,0 +1,8 @@
+question: Hvorfor sies en pseudotilfeldig streng å være "umulig å skille" fra en virkelig tilfeldig streng?
+answer: Fordi det er nesten umulig å bestemme dens opprinnelse uten tilleggsinformasjon
+wrong_answers:
+  - Fordi den inneholder deterministiske segmenter identiske med en virkelig tilfeldig streng
+  - Fordi den bruker flyttall i sin konstruksjon
+  - Fordi den er generert utelukkende fra naturlige hendelser
+explanation: |
+  En pseudotilfeldig streng er designet for å nøye ligne en ekte tilfeldig streng, noe som gjør skillet umulig uten tilgang til frøet eller algoritmen som ble brukt.

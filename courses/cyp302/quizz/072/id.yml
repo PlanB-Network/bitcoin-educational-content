@@ -1,0 +1,9 @@
+pertanyaan: Mengapa enkripsi geser dianggap sebagai enkripsi simetris?
+jawaban: Karena kunci yang sama digunakan untuk enkripsi dan dekripsi
+jawaban_salah:
+  - Karena menggunakan dua kunci, publik dan privat
+  - Karena dapat mendekripsi tanpa menggunakan kunci
+  - Karena kunci berubah-ubah setiap kali enkripsi
+penjelasan: |
+  Enkripsi geser dianggap sebagai enkripsi simetris karena menggunakan kunci yang sama untuk mengenkripsi dan mendekripsi sebuah pesan, sehingga memastikan kerahasiaan antara pihak-pihak yang berbagi kunci ini.
+ditinjau: false

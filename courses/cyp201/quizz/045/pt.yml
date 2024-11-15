@@ -1,9 +1,9 @@
-question: Qual é o objetivo do algoritmo ECDSA no contexto das transações de Bitcoin?
-answer: Para validar assinaturas digitais.
-wrong_answers:
-  - Para criptografar dados de transação.
-  - Para gerar endereços de Bitcoin.
-  - Para minerar novos Bitcoins.
-explanation: |
-  O ECDSA (Elliptic Curve Digital Signature Algorithm) é usado no contexto das transações de Bitcoin para validar assinaturas digitais. Isso permite que o receptor de uma transação confirme a autenticidade da mensagem assinada sem precisar da chave privada do remetente.
-reviewed: false
+pergunta: O que a frase-senha representa dentro de uma carteira HD?
+resposta: Um sal criptográfico opcional de tamanho arbitrário.
+respostas_incorretas:
+  - Uma 25ª palavra na frase mnemônica.
+  - Um sal criptográfico obrigatório de tamanho fixo.
+  - Uma segunda semente.
+explicação: |
+  A frase-senha é um sal criptográfico opcional, que aumenta a segurança da carteira ao adicionar informações adicionais à frase mnemônica para determinar a semente.
+revisado: false

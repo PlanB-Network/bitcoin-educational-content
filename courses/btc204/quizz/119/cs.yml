@@ -1,0 +1,13 @@
+otázka: Jaký je hlavní rozdíl mezi vylepšeným ricochetem a klasickým ricochetem?
+
+odpověď: Rozložení transakcí v čase
+
+špatné_odpovědi:
+  - Počet použitých transakcí
+  - Typ použité adresy
+  - Počet výstupů v transakcích
+
+vysvětlení: |
+  Vylepšený ricochet zajišťuje, že každá transakce je vysílána v odlišném čase a zaznamenána v jiném bloku, zatímco klasický ricochet vysílá všechny transakce v krátkém časovém rámci.
+
+recenzováno: false

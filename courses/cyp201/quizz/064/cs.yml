@@ -1,11 +1,9 @@
-question: Jaký je hlavní účel Generátoru Náhodných Čísel (RNG) v Bitcoinových transakcích?
-answer: Zajistit integritu soukromých klíčů.
-wrong_answers:
-  - Zajistit rychlost transakcí.
-  - Zajistit anonymitu transakcí.
-  - Zajistit legalitu transakcí.
-explanation: |
-  RNG se používá k generování náhodných čísel, která jsou klíčová pro integritu
-  soukromých klíčů v Bitcoinových transakcích. To pomáhá předcházet jakékoliv zranitelnosti
-  související s předvídatelností.
-reviewed: false
+otázka: Jaký je rozsah indexů používaný pro normální dětské klíče v HD peněžence?
+odpověď: Mezi 0 a 2^31 - 1.
+špatné_odpovědi:
+  - Mezi 0 a 2^32 - 1.
+  - Mezi 0 a 2^31.
+  - Mezi 2^31 a 2^32 - 1.
+vysvětlení: |
+  Normální dětské klíče používají rozsah indexů mezi 0 a 2^31 - 1, zatímco zpevněné klíče mají index začínající od 2^31.
+recenzováno: false

@@ -1,0 +1,9 @@
+domanda: Perché i campi di estensione con base 2 sono utili nella crittografia?
+risposta: Consentono la manipolazione sicura di stringhe binarie.
+risposte_errate:
+  - Semplificano i calcoli riducendo il numero di operazioni.
+  - Prevengono errori di calcolo aggiungendo ridondanza.
+  - Limitano la gamma di possibilità diminuendo il numero di elementi.
+spiegazione: |
+  I campi di estensione con base 2 sono convenienti perché i loro elementi possono essere considerati come stringhe binarie, rendendo più facile eseguire operazioni sui dati digitali a livello binario nei sistemi.
+recensito: false

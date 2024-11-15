@@ -1,12 +1,9 @@
-question: Why are SHA0, SHA1, and MD5 considered outdated hash functions?
-answer: They have lost their resistance to collisions.
+question: Within the Bitcoin protocol, what is a HASH160?
+answer: A SHA256 hash followed by a RIPEMD160 hash.
 wrong_answers:
-  - They are too slow to compute.
-  - They produce too large fingerprints.
-  - They are not irreversible.
+  - A double RIPEMD160 hash.
+  - A double SHA256 hash.
+  - An MD5 hash followed by a SHA256 hash.
 explanation: |
-  SHA0, SHA1, and MD5 are considered outdated hash functions because they
-  have lost their resistance to collisions. This means that it's relatively easy to
-  find two different inputs that produce the same output, which is a major security
-  flaw.
+  HASH160 combines a SHA256 hash followed by RIPEMD160, used especially for generating Bitcoin addresses.
 reviewed: false

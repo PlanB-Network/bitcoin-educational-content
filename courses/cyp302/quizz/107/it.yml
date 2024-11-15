@@ -1,0 +1,9 @@
+domanda: Cos'è un attacco di riflessione in una sessione di comunicazione?
+risposta: L'attaccante invia indietro ad Alice un messaggio che ha intercettato tra Alice e Bob
+risposte_errate:
+  - L'attaccante inverte l'ordine dei messaggi nella comunicazione
+  - L'attaccante invia un messaggio modificato senza il tag
+  - L'attaccante usa un vecchio messaggio per crearne uno nuovo
+spiegazione: |
+  In un attacco di riflessione, l'attaccante intercetta un messaggio da Alice a Bob e invia lo stesso messaggio indietro ad Alice, causando confusione nella sessione.
+recensito: false

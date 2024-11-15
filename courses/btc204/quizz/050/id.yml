@@ -1,0 +1,13 @@
+pertanyaan: Apa keuntungan utama dari Pembayaran Diam dibandingkan dengan BIP47?
+
+jawaban: Mereka tidak memerlukan transaksi notifikasi.
+
+jawaban_salah:
+  - Mereka menawarkan privasi transaksi yang lengkap.
+  - Mereka memungkinkan pengembalian dana dari penerima.
+  - Mereka memastikan kompatibilitas dengan semua dompet.
+
+penjelasan: |
+  Pembayaran Diam beroperasi tanpa transaksi notifikasi, yang menghemat biaya transaksi dan menghindari kelebihan beban pada blockchain.
+
+ditinjau: false

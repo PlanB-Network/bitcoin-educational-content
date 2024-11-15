@@ -1,12 +1,9 @@
-question: What are the two types of fees in the Lightning Network?
-answer: A fixed fee regardless of the amount and a variable fee.
+question: Why might a seller make a fictitious payment in a channel?
+answer: To move liquidity to the opposite side
 wrong_answers:
-  - A transaction fee and a routing fee.
-  - A sender's fee and a receiver's fee.
-  - A network fee and a channel fee.
+  - To decrease routing fees
+  - To increase the total capacity of their channels
+  - To lock funds in the long term
 explanation: |
-  In the Lightning Network, there are two types of fees; a fixed fee
-  regardless
-  of the amount (default is 1 SAT but can be modified) and a variable fee (0.01% by
-  default).
+  By making a fictitious payment, a seller moves liquidity from their side to the opposite side of the channel, thereby freeing up incoming capacity to receive payments.
 reviewed: false

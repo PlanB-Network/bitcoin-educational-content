@@ -1,0 +1,8 @@
+question: Milliseid räsifunktsioone kasutatakse Bitcoin protokollis?
+answer: SHA-256, RIPEMD-160
+wrong_answers:
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
+explanation: |
+  Bitcoinis kasutatakse SHA-256 ja RIPEMD-160.

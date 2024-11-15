@@ -1,0 +1,7 @@
+question: Tõene või väär? "Kui keegi soovib oma privaatsust optimeerida, ei tohiks ta sama aadressi mitu korda kasutada."
+answer: Tõene.
+wrong_answers:
+  - Väär.
+explanation: |
+  Sama aadressi korduv kasutamine nõrgestab privaatsust, paljastades erinevate tehingute vahelised seosed plokiahelas.
+reviewed: false

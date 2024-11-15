@@ -1,0 +1,9 @@
+pertanyaan: Bidang matematika apa yang menyediakan alat modern untuk teori bilangan?
+jawaban: Aljabar abstrak
+jawaban_salah:
+  - Geometri
+  - Statistika
+  - Analisis kompleks
+penjelasan: |
+  Aljabar abstrak, sebagai sub-disiplin matematika, menyediakan struktur matematika yang memungkinkan analisis dan pemahaman tentang sifat-sifat bilangan yang digunakan dalam teori bilangan.
+ditinjau: false

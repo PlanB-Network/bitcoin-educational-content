@@ -1,0 +1,9 @@
+pergunta: Por que apenas a confidencialidade não é suficiente para garantir uma comunicação segura?
+resposta: Porque um atacante ainda pode interceptar e modificar a mensagem sem entender seu conteúdo.
+respostas_erradas:
+  - Porque a confidencialidade é muito difícil de obter.
+  - Porque chaves privadas podem ser facilmente adivinhadas.
+  - Porque as mensagens não podem ser autenticadas sem uma assinatura digital.
+explicação: |
+  A confidencialidade protege o conteúdo das mensagens, mas sem um MAC, um atacante ainda poderia interceptar e modificar uma mensagem sem entendê-la, comprometendo assim a integridade da comunicação.
+revisado: false

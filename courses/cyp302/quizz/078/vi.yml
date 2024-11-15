@@ -1,0 +1,9 @@
+câu hỏi: Tấn công bằng phương pháp brute force có nghĩa là gì?
+câu trả lời: Thử tất cả các khóa có thể cho đến khi tìm ra khóa đúng
+câu trả lời sai:
+  - Thay đổi văn bản để làm cho nó không thể hiểu được
+  - Sử dụng khóa công khai để giải mã tin nhắn
+  - Đánh mạnh vào máy tính để buộc nó phải từ bỏ khóa bí mật
+giải thích: |
+  Một cuộc tấn công brute force bao gồm việc kiểm tra hệ thống tất cả các khóa có thể để giải mã một tin nhắn đã được mã hóa.
+đã xem xét: false

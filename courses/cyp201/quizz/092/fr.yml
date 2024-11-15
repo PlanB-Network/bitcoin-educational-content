@@ -1,9 +1,0 @@
-question: Quelle est la taille d'une clé publique compressée ?
-answer: 33 octets
-wrong_answers:
-  - 32 octets
-  - 82 octets
-  - 512 bits
-explanation: |
-  Les clés publiques compressées ont une taille de 33 octets. Elles conservent les mêmes informations que les clés non compressées, mais avec une taille réduite.
-reviewed: false

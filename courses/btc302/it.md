@@ -1309,7 +1309,7 @@ Naturalmente, **in altri paesi, la legislazione e il funzionamento delle associa
 
 
 
-## Dacci un feedback su questo corso
+## Valuta il corso
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 

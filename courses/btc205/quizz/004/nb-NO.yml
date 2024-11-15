@@ -1,0 +1,11 @@
+question: Hva er grensen for transaksjoner uten identifikasjon ved minibanker i Frankrike?
+answer: 500 euro
+wrong_answers:
+  - 1000 euro
+  - 2000 euro
+  - 3000 euro
+explanation: |
+  Minibanker i Frankrike er regulert og krever identifikasjon for transaksjoner
+
+
+  over 500 euro.

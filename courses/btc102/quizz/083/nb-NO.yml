@@ -1,0 +1,11 @@
+question: Hva er hovedgrunnen til at en hyppig Bitcoin-bruker ville velge en lommebok basert på Lightning Network for daglige transaksjoner?
+answer: Det forbedrer effektiviteten av Bitcoin-transaksjoner.
+wrong_answers:
+  - Det øker verdien av Bitcoin.
+  - Det tillater anonyme transaksjoner.
+  - Det gir en plattform for handel med Bitcoin.
+explanation: |
+  Lightning Network er et "lag 2" betalingsprotokoll som opererer på
+  toppen av en blockchain-basert kryptovaluta som Bitcoin. Det er designet for å muliggjøre
+  raske, kostnadseffektive transaksjoner.
+reviewed: false

@@ -1,0 +1,9 @@
+Frage: Was unterscheidet ein modernes Kryptografieverfahren von einem einfachen Verschlüsselungsverfahren?
+Antwort: Die Gewährleistung der Nachrichtenintegrität und -authentizität
+falsche_Antworten:
+  - Die Verwendung eines einzigen geheimen Schlüssels
+  - Die Dezentralisierung des Schlüssels
+  - Die Anonymisierung von Nachrichten
+Erklärung: |
+  Moderne Kryptografie umfasst Verfahren, die über die Vertraulichkeit hinausgehen, um Integrität und Authentizität sowie Nichtabstreitbarkeit zu gewährleisten, im Gegensatz zu einfachen Verschlüsselungsverfahren.
+überprüft: false

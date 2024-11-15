@@ -1,9 +1,0 @@
-question: Phương pháp được khuyến nghị khi sử dụng tài khoản quản trị viên trên Windows là gì?
-answer: Tạo hai tài khoản riêng biệt; một tài khoản quản trị viên và một tài khoản cho việc sử dụng hàng ngày.
-wrong_answers:
-  - Sử dụng tài khoản quản trị viên cho việc sử dụng hàng ngày.
-  - Tạo nhiều tài khoản quản trị viên.
-  - Không tạo tài khoản quản trị viên.
-explanation: |
-  Sử dụng tài khoản quản trị viên cho việc sử dụng hàng ngày trên Windows có thể làm tăng nguy cơ an ninh cho hệ thống. Được khuyến nghị tạo hai tài khoản riêng biệt; một cho các nhiệm vụ quản trị và một cho việc sử dụng hàng ngày.
-reviewed: false

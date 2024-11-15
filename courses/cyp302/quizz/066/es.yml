@@ -1,0 +1,8 @@
+pregunta: ¿Cuál es la función del algoritmo de generación de claves en un esquema de cifrado simétrico?
+respuesta: Genera una clave privada
+respuestas_incorrectas:
+  - Genera una clave pública
+  - Hace un hash del mensaje
+  - Cifra el mensaje
+explicación: |
+  En un esquema de cifrado simétrico, el algoritmo de generación de claves produce una clave privada, que luego se utilizará para cifrar y descifrar mensajes.

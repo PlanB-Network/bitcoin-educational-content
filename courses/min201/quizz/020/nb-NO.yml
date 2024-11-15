@@ -1,0 +1,12 @@
+question: Hva er den fremtidige bekymringen angående bruken av Bitcoin blokkplass?
+answer: Den fremtidige bekymringen er at med den forventede veksten av Lightning Network og den påfølgende økningen i åpninger og lukkinger av kanaler, vil plassen i Bitcoin-blokker bli stadig mer verdifull.
+wrong_answers:
+  - Den fremtidige bekymringen er at størrelsen på Bitcoin-blokker vil bli for stor til å håndtere.
+  - Den fremtidige bekymringen er at antallet Bitcoin-blokker vil overstige nettverkets kapasitet.
+  - Den fremtidige bekymringen er at kompleksiteten til Bitcoin-blokker vil øke, noe som gjør dem vanskelige å behandle.
+explanation: |
+  Med den forventede veksten av Lightning Network og den påfølgende
+  økningen i åpninger og lukkinger av kanaler, vil plassen i Bitcoin-blokker bli stadig mer
+  verdifull. Dette har ført til diskusjoner om legitim bruk av blokkplass, med
+  bekymringer om "spam" på blockchain fra transaksjoner ansett som ikke-essensielle.
+reviewed: false

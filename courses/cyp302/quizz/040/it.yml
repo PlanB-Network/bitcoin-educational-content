@@ -1,0 +1,9 @@
+domanda: Qual è la condizione di base che un insieme "S" con un'operazione binaria deve soddisfare per essere un gruppo?
+risposta: La condizione di chiusura
+risposte_errate:
+  - La condizione di commutatività
+  - La condizione di simmetria
+  - La condizione di distributività
+spiegazione: |
+  Un insieme "S" con un'operazione binaria deve soddisfare diverse condizioni per formare un gruppo, e la prima è la condizione di chiusura: l'operazione tra due elementi di "S" deve produrre un elemento di "S".
+recensito: false

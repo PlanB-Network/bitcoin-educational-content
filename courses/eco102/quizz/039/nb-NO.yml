@@ -1,0 +1,8 @@
+question: Hva er juristenes prinsipp ifølge Bastiat?
+answer: Det er prinsippet om lovens forrang over eiendom
+wrong_answers:
+  - Det er prinsippet om eiendommens forrang over loven
+  - Det er prinsippet om likhet for loven
+  - Det er retten til eiendom uten statlig intervensjon
+explanation: |
+  For Bastiat, plasserer juristenes prinsipp, i motsetning til økonomers, loven som foregående eiendom, en posisjon han kritiserer for sitt potensial til å etablere urettferdigheter.

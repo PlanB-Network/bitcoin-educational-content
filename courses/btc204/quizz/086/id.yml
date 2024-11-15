@@ -1,0 +1,13 @@
+pertanyaan: Di antara ketiga protokol ini, manakah yang bukan merupakan implementasi dari coinjoin?
+
+jawaban: Chainalysis.
+
+jawaban_salah:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+
+penjelasan: |
+  Chainalysis sama sekali bukan implementasi dari coinjoin, karena itu adalah sebuah perusahaan analisis blockchain.
+
+ditinjau: false

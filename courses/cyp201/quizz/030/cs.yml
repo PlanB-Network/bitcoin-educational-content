@@ -1,11 +1,8 @@
-question: Jaká rovnice definuje eliptickou křivku?
-answer: "y² = x³ + ax + b"
-wrong_answers:
-  - "y² = x³ + ax"
-  - "y² = x³ + b"
-  - "y² = x³ + ax - b"
-explanation: |
-  "Eliptická křivka je definována rovnicí y² = x³ + ax + b.\
-  \ Každý bod na této křivce má charakteristickou symetrii, která je klíčová pro její\
-  \ využití v kryptografii."
-reviewed: false
+otázka: Jaká je hlavní technická role Bitcoinové peněženky?
+odpověď: Uchovávat kryptografické klíčové páry.
+špatné_odpovědi:
+  - Uchovávat bitcoiny.
+  - Uchovávat UTXO.
+  - Uchovávat transakce.
+vysvětlení: |
+  Bitcoinová peněženka přímo neuchoává bitcoiny, ale kryptografické klíčové páry, které se používají k správě a utrácení UTXO.

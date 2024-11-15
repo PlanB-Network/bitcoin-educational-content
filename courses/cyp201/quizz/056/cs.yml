@@ -1,9 +1,9 @@
-question: Co představuje seed v Bitcoinové peněžence?
-answer: Jedná se o náhodné nebo pseudonáhodné číslo, z kterého jsou generovány více klíčů.
-wrong_answers:
-  - Je to heslo pro přístup k peněžence.
-  - Je to první zaznamenaná Bitcoinová transakce v peněžence.
-  - Je to digitální podpis majitele peněženky.
-explanation: |
-  Seed v Bitcoinové peněžence má být náhodné nebo pseudonáhodné číslo. Tento seed umožňuje generování více klíčů, které jsou nezbytné pro vlastnictví kryptoměny.
-reviewed: false
+otázka: Jaký je účel rozšířeného klíče?
+odpověď: Shromáždit všechny nezbytné informace pro odvození dětských klíčů do jediného řetězce.
+špatné_odpovědi:
+  - Shromáždit všechny nezbytné informace pro rekonstrukci celé HD peněženky do jediného řetězce.
+  - Shromáždit informace o UTXO v peněžence.
+  - Shromáždit mnemonickou frázi a heslo do jediného formátu.
+vysvětlení: |
+  Rozšířený klíč umožňuje obsahovat všechny nezbytné informace pro odvození dětských klíčů, čímž zjednodušuje správu účtů v HD peněžence.
+recenzováno: false

@@ -1,0 +1,9 @@
+question: What is the definition of a random variable in the context of cryptography?
+answer: A variable that can take several possible values with a positive probability
+wrong_answers:
+  - A variable that changes value at every moment
+  - A variable whose values are fixed and predefined
+  - A variable always defined in the context of a specific physical experiment
+explanation: |
+  A random variable can take two or more values, each with a positive probability, and it is often defined abstractly in the context of cryptography.
+reviewed: false

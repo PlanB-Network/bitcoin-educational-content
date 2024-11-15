@@ -1,9 +1,9 @@
-question: ¿Cuál es la unidad más pequeña de Bitcoin?
-answer: Satoshi
-wrong_answers:
-  - Bit
-  - Byte
-  - Moneda
-explanation: |
-  En el sistema de Bitcoin, la unidad de cuenta es el bitcoin (nota la "b" en minúscula). Es divisible hasta ocho lugares decimales, siendo la unidad más pequeña el satoshi.
-reviewed: false
+pregunta: ¿Por qué es importante nunca reutilizar un nonce en el algoritmo ECDSA?
+respuesta: Reutilizar un nonce compromete la seguridad y puede exponer la clave privada.
+respuestas_incorrectas:
+  - Reutilizar un nonce ralentiza el rendimiento.
+  - Reutilizar un nonce hace que las firmas sean más largas.
+  - Reutilizar un nonce aumenta el tamaño de la clave pública.
+explicación: |
+  Reutilizar un nonce en ECDSA puede permitir que un atacante descubra la clave privada, comprometiendo la seguridad.
+revisado: false

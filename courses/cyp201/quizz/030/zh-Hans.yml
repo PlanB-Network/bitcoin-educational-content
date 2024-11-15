@@ -1,0 +1,8 @@
+question: 比特币钱包的主要技术作用是什么？
+answer: 存储加密密钥对。
+wrong_answers:
+  - 存储比特币。
+  - 存储UTXOs。
+  - 存储交易。
+explanation: |
+  比特币钱包并不直接存储比特币，而是存储用于管理和支出UTXOs的加密密钥对。

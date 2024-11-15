@@ -1,0 +1,12 @@
+question: Hva er den største fordelen med å utvinne nye bitcoins?
+answer: De har aldri blitt brukt og har ingen historikk knyttet til seg.
+wrong_answers:
+  - De kan selges til en høyere pris.
+  - De kan brukes til ulovlige aktiviteter.
+  - De kan lagres over lang tid uten å miste verdi.
+explanation: |
+  Den største fordelen med å utvinne nye bitcoins er at de aldri
+  har blitt brukt og har ingen historikk knyttet til seg. Disse bitcoinene anses ofte
+  som mer verdifulle fordi de aldri har blitt "tattet", noe som gir en viss garanti mot
+  avvisning av regulatorer eller store handelsplattformer.
+reviewed: false

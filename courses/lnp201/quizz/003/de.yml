@@ -1,9 +1,9 @@
-question: Was ist ein Lightning-Zahlungskanal?
-answer: Eine Art "private Spur" zwischen zwei Benutzern, die schnelle und wiederholte Bitcoin-Transaktionen ermöglicht.
-wrong_answers:
-  - Eine Art Bitcoin-Wallet
-  - Eine Methode zum Mining von Bitcoin
-  - Eine Art Bitcoin-Börse
-explanation: |
-  Ein Lightning-Zahlungskanal ist eine Art "private Spur" zwischen zwei Benutzern, die schnelle und wiederholte Bitcoin-Transaktionen ermöglicht.
-reviewed: false
+Frage: Was ist die Hauptregel bezüglich der Mittel, die ein Teilnehmer in einem Zahlungskanal senden kann?
+Antwort: Sie können nur die Mittel von ihrer eigenen Seite des Kanals senden.
+falsche_Antworten:
+  - Sie können bis zur Hälfte der Gesamtkapazität des Kanals senden.
+  - Sie können jeden Betrag senden, solange es eine vorherige Vereinbarung gibt.
+  - Sie können bei Bedarf Mittel von der Seite des anderen Teilnehmers leihen.
+Erklärung: |
+  Jeder Teilnehmer ist durch die Anzahl der Satoshis, die er im Kanal für seine Transaktionen hält, begrenzt, um sicherzustellen, dass die Mittel immer gedeckt sind.
+überprüft: false

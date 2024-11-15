@@ -1,8 +1,11 @@
-question: An ninh của khóa công khai và khóa riêng dựa trên cái gì?
-answer: Vấn đề logarit rời rạc
-wrong_answers:
-  - Vấn đề phân tích thừa số nguyên tố
-  - Vấn đề ba lô
-  - Vấn đề người du lịch
-explanation: |
-  An ninh của khóa công khai và khóa riêng dựa vào vấn đề logarit rời rạc, một câu hỏi toán học phức tạp.
+Câu hỏi: Đặc điểm của một PRNG (Pseudo Random Number Generator - Bộ sinh số ngẫu nhiên giả mạo) bảo mật mật mã là gì?
+
+Câu trả lời: Nó phải không thể dự đoán trước, ngẫu nhiên về mặt thống kê, và kháng lại các cuộc tấn công.
+
+Câu trả lời sai:
+  - Nó phải nhanh, có thể sử dụng trong cloud, và mã nguồn mở.
+  - Nó phải không xác định, dựa trên hiện tượng vật lý, và có khả năng mở rộng.
+  - Nó phải dựa trên phần cứng, được tạo ra bởi một bộ xử lý, và có thể đảo ngược.
+
+Giải thích:
+  Một PRNG bảo mật mật mã phải không thể dự đoán trước, kháng lại được ngay cả khi một số kết quả được tiết lộ, và có một chu kỳ đủ dài để tránh lặp lại các chuỗi.

@@ -1,0 +1,13 @@
+question: Kuidas Wabisabi haldab muutust võrreldes Wasabi 1.0-ga?
+
+answer: See jagab selle mitmeks väikeseks summaks, mis jaotatakse võrdsetes denominatsioonides.
+
+wrong_answers:
+  - See konsolideerib need, et vältida nende muutumist "tolmuks".
+  - See jätab need enne coinjoin tehingut välja, võrdsustades sisendid.
+  - See kannab selle automaatselt reservi rahakotti.
+
+explanation: |
+  Erinevalt Wasabi 1.0-st, kus muutus oli otseselt seotud kasutajate sisenditega, eesmärk on Wabisabil jagada muutus mitmeks väikeseks summaks, mis jaotatakse võrdsetes denominatsioonides kõikidele osalejatele.
+
+reviewed: false

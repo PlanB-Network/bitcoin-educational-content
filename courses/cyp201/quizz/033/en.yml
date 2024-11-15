@@ -1,11 +1,9 @@
-question: What is the scalar multiplication of a point by n on an elliptic curve?
-answer: Equivalent to adding that point to itself n times
+question: In which BIP is the idea of the recovery phrase, or mnemonic phrase (12/24 words), proposed?
+answer: BIP39.
 wrong_answers:
-  - Equivalent to subtracting that point from itself n times
-  - Equivalent to multiplying that point by itself n times
-  - Equivalent to dividing that point by itself n times
+  - BIP16.
+  - BIP32.
+  - BIP44.
 explanation: |
-  The scalar multiplication of a point by n on an elliptic curve is equivalent
-  to adding that point to itself n times. This operation is the basis for calculating
-  public keys in the Bitcoin system.
+  BIP39 introduced the 24-word mnemonic recovery phrase, to facilitate the backup of keys for users of HD wallets.
 reviewed: false

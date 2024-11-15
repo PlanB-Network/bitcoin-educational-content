@@ -1,0 +1,9 @@
+question: Quelle critique Bastiat fait-il de l'intervention de l'État au-delà de la sécurité et de la justice ?
+answer: Elle favorise les privilèges et nuit à la société civile
+wrong_answers:
+  - Elle permet de mieux répartir les ressources économiques
+  - Elle instaure la paix sociale et limite les conflits
+  - Elle garantit une répartition équitable de la richesse
+explanation: |
+  Bastiat pense qu'une intervention excessive de l'État crée des privilèges et nuit à la société civile en limitant les initiatives privées.
+reviewed: false

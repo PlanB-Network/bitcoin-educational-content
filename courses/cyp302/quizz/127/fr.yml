@@ -1,0 +1,9 @@
+question: Quel concept mathématique sous-tend l'échange de clés Diffie-Hellman ?
+answer: Une fonction à sens unique avec une porte dérobée
+wrong_answers:
+  - Une fonction exponentielle inversée
+  - Un algorithme de hachage cryptographique
+  - Une division modulaire simplifiée
+explanation: |
+  Diffie-Hellman repose sur une fonction à sens unique qui est simple à calculer dans un sens mais pratiquement impossible à inverser sans une information secrète, appelée porte dérobée.
+reviewed: false

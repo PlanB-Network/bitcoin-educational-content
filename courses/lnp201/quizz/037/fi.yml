@@ -1,12 +1,9 @@
-question: Voiko sitoutumistransaktiossa huijata julkaisemalla vanhan tilan?
-answer: "Kyllä"
-wrong_answers:
-  - "Ei"
-  - Vain, jos heillä on peruutusavain.
-  - Vain, jos he loivat transaktion aikalukituksella.
-explanation: |
-  Huijaaminen on mahdollista julkaisemalla vanha tila sitoutumistransaktiossa,
-  koska molemmilla osapuolilla on ennakkoon allekirjoitettu versio julkaisemattomasta transaktiosta.
-  Kuitenkin toimenpiteet, kuten aikalukitus ja peruutusavain, ovat olemassa
-  tämän estämiseksi.
-reviewed: false
+kysymys: Mitä tapahtuu, jos maksu HTLC:n kautta ei valmistu määräajassa?
+vastaus: Maksu peruutetaan ja varat palautuvat lähettäjälle.
+väärät_vastaukset:
+  - Maksu jää viimeisen välittäjäsolmun haltuun
+  - Varat jaetaan kaikkien reitin solmujen kesken
+  - Varat jäävät pysyvästi jumiin
+selitys: |
+  Jos HTLC vanhenee ilman, että salaisuus paljastetaan, maksu peruutetaan ja varat palautuvat lähettäjälle, estäen näin minkä tahansa välittäjäsolmun mahdollisuuden pitää varat itsellään.
+arvioitu: false

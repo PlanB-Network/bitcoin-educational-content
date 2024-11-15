@@ -1,9 +1,9 @@
-question: Quel est le principal avantage d'utiliser une nouvelle paire de clés pour chaque transaction Bitcoin?
-answer: Cela améliore la sécurité.
+question: Dans les chemins de dérivation du portefeuille HD, à quoi correspond la profondeur 0 ?
+answer: La clé maîtresse.
 wrong_answers:
-  - Cela améliore la vitesse.
-  - Cela améliore l'anonymat.
-  - Cela améliore la légalité.
+  - La clé étendue.
+  - Les adresses de réception.
+  - Le type de devise.
 explanation: |
-  L'utilisation d'une nouvelle paire de clés pour chaque transaction améliore la sécurité des transactions Bitcoin. Cependant, cela complique leur sauvegarde et ne préserve que partiellement la confidentialité.
+  La profondeur 0 dans les chemins de dérivation correspond à la clé maîtresse, qui est le point de départ de toutes les dérivations dans un portefeuille HD.
 reviewed: false

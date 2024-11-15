@@ -1,0 +1,8 @@
+domanda: Chi è stato l'autore del primo articolo che introduceva Bitcoin pubblicato in francese?
+risposta: Lucien Grondin (grondilu)
+risposte_errate:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+spiegazione: |
+  Si trattava di un [testo](https://linuxfr.org/news/connaissez-vous-les-bitcoins) pubblicato il 30 settembre 2010 su LinuxFr.org intitolato "Conosci i bitcoins?".

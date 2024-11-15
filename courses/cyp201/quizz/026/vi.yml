@@ -1,8 +1,9 @@
-question: Đơn vị nhỏ nhất của Bitcoin là gì?
-answer: Satoshi
-wrong_answers:
-  - Bit
-  - Byte
-  - Coin
-explanation: |
-  Trong hệ thống Bitcoin, đơn vị tính là bitcoin (chú ý là "b" viết thường). Nó có thể chia nhỏ đến tám chữ số thập phân, với đơn vị nhỏ nhất là satoshi.
+câu hỏi: Tại sao việc không bao giờ tái sử dụng một nonce trong thuật toán ECDSA lại quan trọng?
+câu trả lời: Tái sử dụng nonce làm lộ lộ thông tin khóa riêng và gây nguy hại cho bảo mật.
+câu trả lời sai:
+  - Tái sử dụng nonce làm giảm hiệu suất.
+  - Tái sử dụng nonce làm cho chữ ký dài hơn.
+  - Tái sử dụng nonce tăng kích thước của khóa công khai.
+giải thích: |
+  Tái sử dụng nonce trong ECDSA có thể cho phép kẻ tấn công khám phá khóa riêng, làm tổn hại đến bảo mật.
+đã xem xét: false

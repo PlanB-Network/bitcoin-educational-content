@@ -1,9 +1,9 @@
-question: Jaký je konečný cíl kryptografické hašovací funkce?
-answer: Přeměnit informace libovolné velikosti na otisk pevné velikosti.
-wrong_answers:
-  - Zašifrovat data pro bezpečný přenos.
-  - Generovat unikátní klíč pro každého uživatele.
-  - Kompresovat data pro efektivní uložení.
-explanation: |
-  Konečným cílem kryptografické hašovací funkce je přeměnit informace libovolné velikosti na otisk pevné velikosti. Tento otisk je jedinečný pro vstupní data a dokonce malá změna ve vstupu povede k drasticky odlišnému otisku.
-posouzeno: false
+otázka: Jakou velikost musí mít vstup funkce SHA256 po doplnění?
+odpověď: Násobek 512 bitů.
+nesprávné_odpovědi:
+  - 256 bitů.
+  - 256 bajtů.
+  - Násobek 256 bitů.
+vysvětlení: |
+  Funkce SHA256 vyžaduje, aby vstup byl po doplnění násobkem 512 bitů, aby správně fungovala.
+recenzováno: false

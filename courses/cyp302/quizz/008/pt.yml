@@ -1,0 +1,9 @@
+pergunta: Qual é o ramo da criptografia que utiliza um par de chaves pública e privada?
+resposta: Criptografia assimétrica
+respostas_erradas:
+  - Criptografia simétrica
+  - Criptografia mono-algorítmica
+  - Criptografia integrativa
+explicação: |
+  A criptografia assimétrica é baseada no uso de um par de chaves, pública e privada, permitindo a criptografia sem compartilhar uma chave secreta.
+revisado: false

@@ -1,0 +1,9 @@
+Frage: Wie kann ein Blockchiffre in einen Stromchiffre umgewandelt werden?
+Antwort: Durch Verwendung von Modi wie OFB, die aus dem Blockchiffre einen Schlüsselstrom erzeugen
+falsche_Antworten:
+  - Indem der Klartext in Bytes aufgeteilt und diese einzeln verschlüsselt werden
+  - Durch Anwenden von Padding auf Nachrichten vor der Verschlüsselung
+  - Durch Erhöhung der Schlüssellänge für jeden verschlüsselten Block
+Erklärung: |
+  Modi wie OFB ermöglichen es einem Blockchiffre, als Stromchiffre zu fungieren, indem sie einen Schlüsselstrom erzeugen, der dann für jeden Teil des Klartextes verwendet wird.
+überprüft: false

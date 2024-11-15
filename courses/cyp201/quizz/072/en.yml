@@ -1,9 +1,9 @@
-question: What is a mnemonic phrase in the context of a Bitcoin wallet?
-answer: It is a backup of the wallet.
+question: What is the function used to generate an address?
+answer: HASH160.
 wrong_answers:
-  - It is a password for the wallet.
-  - It is a transaction history of the wallet.
-  - It is a digital signature of the wallet.
+  - HASH256.
+  - HASH512.
+  - SHA256.
 explanation: |
-  A mnemonic phrase is generated to ensure the backup of the Bitcoin wallet.
+  The HASH160 function, which combines SHA256 and RIPEMD-160, is used to generate Bitcoin addresses from public keys.
 reviewed: false

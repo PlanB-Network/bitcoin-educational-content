@@ -1,0 +1,8 @@
+kysymys: Kuka oli ensimmäisen Bitcoinia esittelevän artikkelin kirjoittaja, joka julkaistiin ranskaksi?
+vastaus: Lucien Grondin (grondilu)
+väärät_vastaukset:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+selitys: |
+  Kyseessä oli [teksti](https://linuxfr.org/news/connaissez-vous-les-bitcoins) julkaistu 30. syyskuuta 2010 LinuxFr.org-sivustolla otsikolla "Tunnetko bitcoinit?".

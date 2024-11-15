@@ -1,0 +1,9 @@
+domanda: Qual è l'illusione riguardante la sicurezza dei canali di comunicazione nel mondo moderno?
+risposta: Credere che proteggere fisicamente il canale impedisca l'intercettazione
+risposte_errate:
+  - Pensare che le reti wireless siano inefficaci
+  - Credere che la crittografia non sia necessaria per le comunicazioni locali
+  - Considerare che solo le agenzie nazionali possano intercettare i dati
+spiegazione: |
+  È un'illusione pensare che semplicemente proteggere fisicamente il canale sia sufficiente a garantire la confidenzialità, poiché molti punti di intercettazione rimangono accessibili, specialmente per le comunicazioni wireless.
+recensito: false

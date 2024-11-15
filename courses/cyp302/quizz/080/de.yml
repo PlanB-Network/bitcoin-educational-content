@@ -1,0 +1,9 @@
+Frage: Was ist ein "Stream Cipher" in der Kryptographie?
+Antwort: Eine symmetrische Verschlüsselung, die einen Schlüsselstrom erzeugt, der dieselbe Länge wie die Nachricht hat
+falsche_Antworten:
+  - Eine asymmetrische Verschlüsselung basierend auf Primzahlen
+  - Eine Verschlüsselung, die mehrere verschiedene Entschlüsselungsschlüssel verwendet
+  - Eine Verschlüsselung, die die Nachricht in Datenblöcke segmentiert
+Erklärung: |
+  Ein "Stream Cipher" ist eine symmetrische Verschlüsselung, bei der ein Schlüsselstrom, der dieselbe Länge wie die Nachricht hat, mit dieser kombiniert wird, um den verschlüsselten Text zu erzeugen.
+überprüft: false

@@ -1,0 +1,8 @@
+question: Miks on "pseudorandom stream ciphers" praktikas sagedamini kasutusel kui ühekordsed padjad?
+answer: Need võimaldavad kasutada lühemat võtit pikema võtmehulga genereerimiseks
+wrong_answers:
+  - Need ei nõua salajast võtit
+  - Need kasutavad sümmeetrilise ja asümmeetrilise krüpteerimise kombinatsiooni
+  - Need ei vaja võtme uuendusi
+explanation: |
+  Pseudorandom stream ciphers on praktilisemad, kuna need võimaldavad lühikest võtit pikendada pikemaks võtmehulgaks, vältides vajadust säilitada võtit, mis on sama pikk kui sõnum ise.

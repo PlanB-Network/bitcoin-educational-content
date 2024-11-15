@@ -1,0 +1,9 @@
+otázka: Kdo zahájil systém Bitcoin Improvement Proposals, proces zaměřený na koordinaci vylepšení Bitcoinu, v září 2011?
+odpověď: Amir Taaki
+špatné_odpovědi:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+vysvětlení: |
+  Tento systém byl modelován podle Python Enhancement Proposals (PEP) specifických pro programovací jazyk Python.
+recenzováno: false

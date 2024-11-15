@@ -1,11 +1,9 @@
-question: Co je hash v kontextu kryptografických hashovacích funkcí?
-answer: Unikátní a pevně velká digitální otisk vytvořený hashovací funkcí.
-wrong_answers:
-  - Typ šifrovacího algoritmu.
-  - Klíč použitý k dešifrování dat.
-  - Metoda komprese dat.
-explanation: |
-  V kontextu kryptografických hashovacích funkcí je hash unikátní a
-  pevně velký digitální otisk vytvořený hashovací funkcí. Reprezentuje
-  vstupní data způsobem, který je unikátní a nevratný.
-reviewed: false
+otázka: Kolik bitů je vyhrazeno pro doplnění podle velikosti ve funkci SHA256?
+odpověď: 64 bitů.
+nesprávné_odpovědi:
+  - 128 bitů.
+  - 256 bitů.
+  - 512 bitů.
+vysvětlení: |
+  SHA256 vyhradí 64 bitů pro doplnění, což představuje počáteční velikost zprávy před doplněním.
+recenzováno: false

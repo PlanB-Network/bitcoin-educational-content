@@ -1,0 +1,8 @@
+question: Hva er det viktigste forvaltningsproblemet?
+answer: Kompleksiteten ved å sikre og lagre et par nøkler for hver klient
+wrong_answers:
+  - Umuligheten av å fornye nøkler som er mistet av klienter
+  - Behovet for å dekryptere hver nøkkel før bruk av klienten
+  - Nødvendigheten av å overføre nøkler for hver kommunikasjon
+explanation: |
+  Forvaltningsproblemet ligger i vanskeligheten med å lagre og sikre et par nøkler for hver bruker, spesielt når antallet klienter når millioner.

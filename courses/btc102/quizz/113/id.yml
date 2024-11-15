@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari otentikasi dua faktor (2FA) dalam Bitcoin?
+jawaban: Untuk meningkatkan keamanan transaksi Bitcoin.
+jawaban_salah:
+  - Untuk menambang Bitcoin baru.
+  - Untuk berdagang Bitcoin.
+  - Untuk mengonversi Bitcoin ke dalam kriptokurensi lain.
+penjelasan: |
+  Otentikasi dua faktor (2FA) adalah metode untuk mengonfirmasi identitas pengguna yang diklaim
+  dengan menggunakan sesuatu yang mereka ketahui (kata sandi) dan faktor kedua selain
+  sesuatu yang mereka miliki atau sesuatu yang mereka adalah. Ini digunakan untuk meningkatkan keamanan
+  transaksi Bitcoin.

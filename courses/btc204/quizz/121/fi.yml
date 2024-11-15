@@ -1,0 +1,13 @@
+kysymys: Miten "varsi" vaihe toimii Voikukka-protokollassa?
+
+vastaus: Transaktio lähetetään satunnaisen solmujen polun kautta
+
+vaarat_vastaukset:
+  - Transaktio lähetetään välittömästi kaikille lähdesolmun vertaisille
+  - Transaktio tallennetaan väliaikaisesti keskussolmuun ennen lähetystä
+  - Transaktio salataan asteittain jokaisessa lähetysvaiheessa
+
+selitys: |
+  Voikukka käyttää ensin "varsi" vaihetta, jossa transaktio lähetetään satunnaisen solmujen polun kautta. Tämän jälkeen transaktio lähetetään koko verkolle "pörrö" vaiheessa.
+
+arvioitu: false

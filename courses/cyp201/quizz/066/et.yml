@@ -1,0 +1,8 @@
+question: Mis tähendab tuletustee notatsioonis numbri paremal pool olev apostroof või "H"? Näide m/84'/0'.
+answer: See tähistab turvalist tuletust.
+wrong_answers:
+  - See tähistab tavalist tuletust.
+  - See on seal dekoratsiooni eesmärgil.
+  - See tähistab muutmisvõtit.
+explanation: |
+  Apostroof või "H" tuletustees tähistab turvalist tuletust, mis kasutab vanema privaatvõtit ja vastavat indeksivahemikku.

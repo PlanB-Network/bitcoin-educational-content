@@ -113,7 +113,7 @@ Bonne chance dans vos études, et si vous avez besoin de contacter notre équipe
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 

@@ -1,11 +1,9 @@
-question: What is the advantage of using HASH160 in the Bitcoin protocol?
-answer: It allows for the security of SHA-256 while reducing the size of the fingerprint.
+question: What is the output size of the SHA256 hash function?
+answer: 256 bits.
 wrong_answers:
-  - It increases the size of the fingerprint for added security.
-  - It is more resistant to collisions than SHA-256.
-  - It is faster to compute than SHA-256.
+  - 256 bytes.
+  - 512 bits.
+  - 512 bytes.
 explanation: |
-  HASH160 in the Bitcoin protocol is advantageous because it maintains
-  the security of SHA-256 while reducing the size of the fingerprint. This makes it
-  more efficient without compromising security.
+  SHA-256 produces a fixed output of 256 bits, regardless of the input data size.
 reviewed: false

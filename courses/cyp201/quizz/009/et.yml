@@ -1,0 +1,9 @@
+question: Mis on SHA256 räsifunktsiooni konstruktsiooni nimetus?
+answer: Merkle-Damgårdi konstruktsioon.
+wrong_answers:
+  - Käsnkonstruktsioon.
+  - Iteratiivsete räsifunktsioonide konstruktsioon (HAIFA).
+  - Feisteli konstruktsioon.
+explanation: |
+  SHA256 kasutab Merkle-Damgårdi konstruktsiooni, struktuuri, mida kasutatakse laialdaselt turvaliste räsifunktsioonide loomiseks.
+reviewed: false

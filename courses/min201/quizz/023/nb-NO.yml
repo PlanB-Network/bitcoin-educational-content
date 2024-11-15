@@ -1,0 +1,9 @@
+question: Hva er det maksimale antallet bitcoins som noensinne kan opprettes?
+answer: 21 millioner
+wrong_answers:
+  - 18 millioner
+  - 25 millioner
+  - 30 millioner
+explanation: |
+  Opprettelsen av Bitcoin er kjennetegnet ved en fast grense på 21 millioner enheter.
+reviewed: false

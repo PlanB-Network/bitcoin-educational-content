@@ -1,0 +1,8 @@
+question: Hva er grensen for statens suverenitet ifølge John Stuart Mill?
+answer: Staten kan kun gripe inn når en persons handlinger skader andre.
+wrong_answers:
+  - Staten er suveren under alle omstendigheter og kan ikke begrenses av noen enkeltperson eller gruppe av personer.
+  - Statens suverenitet er begrenset av økonomiske midler.
+  - Statens suverenitet er begrenset av naturens lover.
+explanation: |
+  John Stuart Mill argumenterer for at statlig intervensjon kun er legitim når en persons handlinger forårsaker skade på andre, for å beskytte personlig frihet på områder som ikke skader andre.

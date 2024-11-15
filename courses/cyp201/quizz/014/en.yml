@@ -1,12 +1,9 @@
-question: How many rounds of calculation are performed in the compression function
-  of SHA256?
-answer: 64
+question: Which function is used to derive a child key from a parent key in Bitcoin?
+answer: HMAC-SHA512.
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - SHA256.
+  - MD5.
+  - BLAKE2.
 explanation: |
-  In the compression function of SHA256, 64 rounds of calculation are
-  performed.
-  Like in a cycling race, each lap improves the position of the function.
+  The HMAC-SHA512 function is used in deriving child keys from parent keys in Bitcoin HD wallets.
 reviewed: false

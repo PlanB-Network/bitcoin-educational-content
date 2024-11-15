@@ -1,0 +1,9 @@
+pertanyaan: Apa itu masalah distribusi kunci?
+jawaban: Tantangan dalam mengirimkan kunci secara aman tanpa pertukaran fisik
+jawaban_salah:
+  - Kebutuhan untuk menghasilkan beberapa pasang kunci per klien
+  - Kesulitan dalam mengamankan penyimpanan fisik kunci
+  - Kewajiban untuk mengganti kunci pada setiap komunikasi
+penjelasan: |
+  Masalah distribusi kunci berkaitan dengan tantangan dalam mengirimkan kunci secara aman, sebuah kebutuhan yang telah menjadi sangat penting dalam komunikasi digital di mana pertukaran fisik tidak praktis.
+ditinjau: false

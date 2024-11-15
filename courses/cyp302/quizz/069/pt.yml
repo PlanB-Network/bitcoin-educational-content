@@ -1,0 +1,9 @@
+pergunta: Qual é a diferença entre usar o algoritmo Salsa20 com uma chave de 128 bits e uma chave de 256 bits?
+resposta: O comprimento da chave influencia o número de rodadas no algoritmo.
+respostas_erradas:
+  - O comprimento da chave muda o tipo de criptografia.
+  - Uma chave de 128 bits é usada para criptografia de fluxo e uma chave de 256 bits para criptografia de bloco.
+  - O comprimento da chave não tem impacto no Salsa20.
+explicação: |
+  No esquema de criptografia simétrica Salsa20, o comprimento da chave (128 ou 256 bits) afeta o número de rodadas no algoritmo, sem alterar o núcleo do próprio algoritmo.
+revisado: false

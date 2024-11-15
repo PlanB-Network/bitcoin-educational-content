@@ -1,0 +1,9 @@
+question: What was the definition of property in Latin according to the Romans?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  In Roman law, "jus utendi et abutendi" defines property as the right to use and abuse, emphasizing the use without delving into its causes.
+reviewed: false

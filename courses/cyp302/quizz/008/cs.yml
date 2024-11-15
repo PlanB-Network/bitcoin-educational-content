@@ -1,0 +1,9 @@
+otázka: Jak se nazývá odvětví kryptografie, které využívá pár veřejného a soukromého klíče?
+odpověď: Asymetrická kryptografie
+špatné_odpovědi:
+  - Symetrická kryptografie
+  - Mono-algoritmická kryptografie
+  - Integrativní kryptografie
+vysvětlení: |
+  Asymetrická kryptografie je založena na použití páru klíčů, veřejného a soukromého, což umožňuje šifrování bez sdílení tajného klíče.
+recenzováno: false

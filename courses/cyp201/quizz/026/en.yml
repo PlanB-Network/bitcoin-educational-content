@@ -1,12 +1,9 @@
-question: What is the smallest unit of Bitcoin?
-answer: Satoshi
+question: Why is it important to never reuse a nonce in the ECDSA algorithm?
+answer: Reusing a nonce compromises security and can expose the private key.
 wrong_answers:
-  - Bit
-  - Byte
-  - Coin
+  - Reusing a nonce slows down performance.
+  - Reusing a nonce makes the signatures longer.
+  - Reusing a nonce increases the size of the public key.
 explanation: |
-  In the Bitcoin system, the unit of account is the bitcoin (note the
-  lowercase
-  "b"). It is divisible up to eight decimal places, with the smallest unit being the
-  satoshi.
+  Reusing a nonce in ECDSA can allow an attacker to discover the private key, compromising security.
 reviewed: false

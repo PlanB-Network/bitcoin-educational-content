@@ -1,0 +1,9 @@
+domanda: Cos'è una "cifratura a flusso" in crittografia?
+risposta: Una cifratura simmetrica che genera un flusso di chiavi della stessa lunghezza del messaggio
+risposte_errate:
+  - Una cifratura asimmetrica basata sui numeri primi
+  - Una cifratura che utilizza molteplici chiavi di decifrazione diverse
+  - Una cifratura che segmenta il messaggio in blocchi di dati
+spiegazione: |
+  Una "cifratura a flusso" è una cifratura simmetrica in cui un flusso di chiavi della stessa lunghezza del messaggio viene combinato con quest'ultimo per produrre il testo cifrato.
+revisionato: false

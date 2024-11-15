@@ -1,0 +1,9 @@
+kysymys: Miksi "pseudosatunnaisvirtasalaukset" ovat käytännössä yleisempiä kuin kertakäyttösalaukset?
+vastaus: Ne mahdollistavat lyhyemmän avaimen käytön pidemmän avainvirran luomiseen
+vaarat_vastaukset:
+  - Ne eivät vaadi salaisen avaimen käyttöä
+  - Ne käyttävät symmetrisen ja asymmetrisen salauksen yhdistelmää
+  - Ne eivät tarvitse avainpäivityksiä
+selitys: |
+  Pseudosatunnaisvirtasalaukset ovat käytännöllisempiä, koska ne mahdollistavat lyhyen avaimen laajentamisen pidemmäksi avainvirraksi, välttäen tarpeen säilyttää avainta yhtä pitkänä kuin viesti itse.
+arvioitu: false

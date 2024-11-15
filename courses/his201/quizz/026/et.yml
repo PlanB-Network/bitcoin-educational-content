@@ -1,0 +1,9 @@
+küsimus: Milline element puudus Bitcoin'i disainist 31. oktoobril 2008?
+vastus: Piiratud hulk ühikuid
+valed_vastused:
+  - Töötõend
+  - Lihtsustatud maksete kinnitamine
+  - Plokiahel
+selgitus: |
+  Algse rahapoliitika kohaselt oli väljastamine püsiv (X BTC/plokk), nagu näitas esimene valge raamatu versioon ja Satoshi [vahetused](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) Ray Dillingeriga.
+üle vaadatud: false

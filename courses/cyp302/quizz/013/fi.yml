@@ -1,0 +1,9 @@
+kysymys: Mikä muodostaa suurimman osan kehittyneen maailman viestinnän fyysisen perustan?
+vastaus: Kuituoptiset kaapeliverkot
+vaarat_vastaukset:
+  - Satelliitit jokaiseen yhteyteen
+  - Vain koaksiaalikaapelit
+  - Vain kuparikaapelit
+selitys: |
+  Suurin osa nykyaikaisesta viestinnästä nojaa kuituoptisiin kaapeliverkkoihin, jotka takaavat nopeat datansiirrot, vaikka joitakin satelliittien ja koaksiaalikaapelien käyttötapauksia yhä esiintyy.
+arvioitu: false

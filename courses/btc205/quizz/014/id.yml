@@ -1,0 +1,10 @@
+pertanyaan: Apa kekurangan dari solusi P2P HodlHodl?
+jawaban: Alamat email pengguna dan identitas digital disimpan oleh HodlHodl.
+jawaban_salah:
+  - Tidak memfasilitasi pembelian dan penjualan Bitcoin.
+  - Membutuhkan pembuatan akun untuk beroperasi.
+  - Tidak menawarkan berbagai kemungkinan pertukaran yang luas.
+penjelasan: |
+  Menurut bab tersebut, salah satu kekurangan dari HodlHodl adalah
+  alamat email pengguna dan identitas digital disimpan oleh HodlHodl.
+ditinjau: false

@@ -1,0 +1,8 @@
+question: Når det gjelder notasjonen av en avledningssti, hva betyr apostrofen eller "H" som er notert til høyre for tallet? Eksempel m/84'/0'.
+answer: Det indikerer en herdet avledning.
+wrong_answers:
+  - Det indikerer en normal avledning.
+  - Den er der for dekorasjon.
+  - Det indikerer en endringsnøkkel.
+explanation: |
+  Apostrofen eller "H" i en avledningssti indikerer en herdet avledning, som bruker den overordnede private nøkkelen og det tilsvarende indeksområdet.

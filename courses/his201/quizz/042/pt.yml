@@ -1,0 +1,9 @@
+pergunta: De qual país é Gavin Andresen, que criou a primeira Torneira de Bitcoin em junho de 2010 e auxiliou Satoshi no desenvolvimento do software, originalmente?
+resposta: Austrália
+respostas_erradas:
+  - Estados Unidos
+  - França
+  - Holanda
+explicação: |
+  Ele [nasceu](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) na Austrália, mas adquiriu a cidadania americana em 2004.
+revisado: false

@@ -1,0 +1,9 @@
+Frage: Was ist das Hauptmerkmal einer kryptographischen Hashfunktion?
+Antwort: Sie erzeugt einen Ausgabewert fester Länge für jeden Eingabewert, unabhängig von dessen Größe.
+falsche_Antworten:
+  - Sie verschlüsselt Daten mit einem symmetrischen Schlüssel.
+  - Sie erzeugt eine variable Ausgabe abhängig von der Länge der Eingabe.
+  - Sie entschlüsselt Nachrichten mit einem öffentlichen Schlüssel.
+Erklärung: |
+  Eine Hashfunktion generiert einen Hashwert fester Länge, unabhängig von der Größe der Eingabe.
+überprüft: false

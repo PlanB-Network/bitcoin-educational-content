@@ -1,12 +1,9 @@
-question: Nguyên tắc của ngăn kéo trong bối cảnh của các hàm băm mật mã là gì?
-answer: Nó giải thích tại sao, mặc dù chúng ta đã cố gắng hết sức, việc tránh va chạm là không thể do giới hạn về kích thước đầu ra.
-wrong_answers:
-  - Nó giải thích cơ chế lưu trữ của các hàm băm.
-  - Nó mô tả quá trình tạo ra một băm.
-  - Đó là một nguyên tắc giải thích tính không thể đảo ngược của các hàm băm.
-explanation: |
-  Nguyên tắc của ngăn kéo trong bối cảnh của các hàm băm mật mã
-  giải thích rằng do giới hạn về kích thước đầu ra, việc tránh va chạm là không thể.
-  Điều này là bởi vì có nhiều đầu vào có thể hơn số lượng đầu ra, vì vậy một số đầu vào
-  không thể tránh khỏi việc chia sẻ cùng một đầu ra.
-reviewed: false
+câu hỏi: Mục tiêu của quá trình băm mật mã là gì?
+câu trả lời: Ánh xạ một chuỗi bit có độ dài tùy ý thành một chuỗi bit có độ dài cố định.
+câu trả lời sai:
+  - Mã hóa một thông điệp.
+  - Đảm bảo rằng người gửi thông điệp không thể phủ nhận việc đã gửi thông điệp trong tương lai.
+  - Bảo đảm tính bảo mật của dữ liệu.
+giải thích: |
+  Băm biến đổi dữ liệu có kích thước bất kỳ thành đầu ra có kích thước cố định, hữu ích cho việc xác minh tính toàn vẹn mà không nhất thiết phải mã hóa hoặc xác thực dữ liệu.
+đã xem xét: false

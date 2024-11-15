@@ -1,0 +1,9 @@
+question: Why is a pseudorandom string said to be "indistinguishable" from a truly random string?
+answer: Because it is almost impossible to determine its origin without additional information
+wrong_answers:
+  - Because it contains deterministic segments identical to a truly random string
+  - Because it uses floating numbers in its construction
+  - Because it is generated solely from natural events
+explanation: |
+  A pseudorandom string is designed to closely resemble a true random string, making the distinction impossible without access to the seed or the algorithm used.
+reviewed: false

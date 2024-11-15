@@ -1,0 +1,9 @@
+pertanyaan: Apa itu struktur aljabar dalam aljabar abstrak?
+jawaban: Sebuah himpunan elemen dengan satu atau lebih operasi yang mengikuti beberapa aksioma
+jawaban_salah:
+  - Sebuah himpunan bilangan prima yang disusun dalam baris sesuai dengan beberapa aksioma
+  - Serangkaian algoritma untuk menyelesaikan persamaan linear
+  - Sebuah kelompok transformasi geometri acak yang disusun sesuai dengan beberapa aksioma
+penjelasan: |
+  Struktur aljabar adalah sebuah himpunan elemen yang didefinisikan dengan satu atau lebih operasi, seperti penjumlahan atau perkalian, yang mengikuti beberapa aksioma, dan ini sangat penting untuk strukturisasi konsep dalam teori bilangan.
+ditinjau: false

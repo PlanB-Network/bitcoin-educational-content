@@ -1,0 +1,9 @@
+question: Hva er en unik egenskap ved HodlHodl P2P-løsningen?
+answer: Den tilbyr et henvisningssystem.
+wrong_answers:
+  - Den opererer under TOR.
+  - Den bruker multisign for konflikthåndtering.
+  - Den krever opprettelse av en konto for å fungere.
+explanation: |
+  Kapittelet nevner at HodlHodl tilbyr et henvisningssystem, som er
+  en unik egenskap blant P2P-løsningene som er diskutert.

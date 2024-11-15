@@ -1,0 +1,9 @@
+question: Kus Satoshi Nakamoto avaldas Bitcoin'i valge raamatu 31. oktoobril 2008?
+answer: Krüptograafia meililist
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Selle e-posti listi, mis oli krüptopunkide meililisti järeltulija, haldas alates 1996. aastast arendaja Perry Metzger. 
+reviewed: false

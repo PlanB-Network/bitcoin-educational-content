@@ -1,0 +1,9 @@
+questão: Qual conceito matemático está por trás da troca de chaves Diffie-Hellman?
+resposta: Uma função unidirecional com uma porta dos fundos
+respostas_erradas:
+  - Uma função exponencial inversa
+  - Um algoritmo de hash criptográfico
+  - Uma divisão modular simplificada
+explicação: |
+  Diffie-Hellman depende de uma função unidirecional que é fácil de calcular em uma direção, mas praticamente impossível de reverter sem uma peça secreta de informação, chamada de porta dos fundos.
+revisado: false

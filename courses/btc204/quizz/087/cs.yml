@@ -1,0 +1,13 @@
+otázka: Jak Wabisabi zpracovává změnu ve srovnání s Wasabi 1.0?
+
+odpověď: Rozdělí ji na několik malých částek distribuovaných v rovných nominálních hodnotách.
+
+špatné_odpovědi:
+  - Konsoliduje je, aby je zabránilo stát se "prachem".
+  - Vylučuje je před transakcí coinjoin tím, že vyrovná vstupy.
+  - Automaticky je převádí do rezervní peněženky.
+
+vysvětlení: |
+  Na rozdíl od Wasabi 1.0, kde byla změna přímo spojena s vstupy uživatelů, Wabisabi si klade za cíl rozdělit změnu na několik malých částek, distribuovaných v rovných nominálních hodnotách mezi všechny účastníky.
+
+recenzováno: false

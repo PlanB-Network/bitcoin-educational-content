@@ -1,9 +1,9 @@
-question: Jaký význam má bod v nekonečnu v algoritmu ECDSA?
-answer: Pokud je vypočítaný bod P bodem v nekonečnu, podpis je neplatný.
-wrong_answers:
-  - Pokud je vypočítaný bod P bodem v nekonečnu, podpis je platný.
-  - Bod v nekonečnu se používá k výpočtu nonce.
-  - Bod v nekonečnu se používá k šifrování klíčů.
-explanation: |
-  V algoritmu ECDSA, pokud je vypočítaný bod P na eliptické křivce bodem v nekonečnu, je podpis považován za neplatný. To je jedna z kontrol prováděných při ověřování digitálního podpisu.
-reviewed: false
+otázka: Co se stane, pokud použiji HD peněženku s heslem a toto heslo ztratím?
+odpověď: Moje bitcoiny jsou navždy ztraceny.
+špatné_odpovědi:
+  - Není to problém, stále mohu přistupovat k mým bitcoinům jen s mou mnemonickou frází.
+  - Heslo mohu resetovat s mým soukromým klíčem.
+  - Mohu získat zpět své bitcoiny použitím peněženky bez hesla.
+vysvětlení: |
+  Pokud je heslo ztraceno, přístup k bitcoinům je trvale ztracen, jelikož je nezbytné pro odvození soukromých klíčů.
+recenzováno: false

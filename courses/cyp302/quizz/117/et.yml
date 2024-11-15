@@ -1,0 +1,9 @@
+question: Millises AES krüpteerimise etapis kasutatakse Galois' välju?
+answer: Baidi asendamisel ja MixColumns operatsioonis
+wrong_answers:
+  - Privaatvõtme genereerimisel
+  - Teksti jagamisel 128-bitisteks plokkideks
+  - Igal XOR operatsiooni etapil
+explanation: |
+  Galois' välju kasutatakse baidi asendamisel, et arvutada korrutise pöördväärtus, ja MixColumns operatsioonis, et teostada korrutamist modulo redutseerimatu polünoomi järgi.
+reviewed: false

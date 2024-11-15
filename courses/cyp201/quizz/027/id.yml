@@ -1,0 +1,9 @@
+pertanyaan: Apa yang diwakili oleh titik V dalam proses tanda tangan digital dengan ECDSA sebagai contoh dalam bab ini?
+jawaban: Titik yang dihitung dari nonce v dan titik generator G (V = v.G).
+jawaban_salah:
+  - Titik yang diturunkan langsung dari kunci publik.
+  - Hash dari pesan yang ditandatangani.
+  - Hasil dari penjumlahan dua titik pada kurva eliptik.
+penjelasan: |
+  V adalah hasil dari perhitungan nonce yang dikalikan dengan titik generator pada kurva eliptik.
+ditinjau: false

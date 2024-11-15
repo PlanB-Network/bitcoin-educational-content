@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan utama dari KYC?
+jawaban: Untuk memerangi pencucian uang, pendanaan terorisme, dan penghindaran pajak.
+jawaban_salah:
+  - Untuk meningkatkan biaya kepatuhan bagi bisnis
+  - Untuk memusatkan basis data sensitif yang mengandung informasi pribadi pengguna
+  - Untuk mengecilkan bisnis Prancis dan merugikan daya saing mereka
+penjelasan: |
+  KYC, atau "Know Your Customer," adalah standar regulasi yang bertujuan untuk memerangi
+  pencucian uang, pendanaan terorisme, dan penghindaran pajak dengan mewajibkan pengumpulan
+  informasi pribadi pelanggan.
+ditinjau: false

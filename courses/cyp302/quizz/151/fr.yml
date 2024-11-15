@@ -1,0 +1,9 @@
+question: Comment est choisi l'exposant "e" dans le cryptosystème RSA ?
+answer: Il doit être un entier plus grand que 2, copremier avec φ(N)
+wrong_answers:
+  - Il doit être un nombre premier inférieur à N
+  - Il est choisi de manière aléatoire sans restriction
+  - Il doit être égal à φ(N)
+explanation: |
+  Dans RSA, l'exposant "e" est choisi tel qu'il soit supérieur à 2 et copremier avec φ(N), ce qui garantie la sécurité des opérations.
+reviewed: false

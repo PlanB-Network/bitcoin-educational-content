@@ -1,0 +1,13 @@
+Frage: Was misst die Vorwärtsanonymität?
+
+Antwort: Der Widerstand der Privatsphäre gegen eine Analyse von der Vergangenheit zur Gegenwart.
+
+falsche_Antworten:
+  - Der Widerstand der Privatsphäre gegen eine Analyse von der Gegenwart zur Vergangenheit.
+  - Der Widerstand der Privatsphäre gegen eine Analyse von der Zukunft zur Gegenwart.
+  - Der Widerstand der Privatsphäre gegen eine Analyse von der Zukunft zur Vergangenheit.
+
+Erklärung: |
+  Die Vorwärtsanonymität misst den Widerstand der Privatsphäre einer Münze gegen eine Analyse von der Vergangenheit zur Gegenwart (Eingabe zu Ausgabe).
+
+überprüft: false

@@ -13,7 +13,7 @@ PlanBのミッションは、可能な限り多くの言語でビットコイン
 https://planb.network/tutorials/others/create-github-account
 
 
-- `resources/podcasts/`セクションにある[PlanB専用のデータのGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/podcasts)にアクセスしてください：
+- `resources/podcasts/`セクションにある[PlanB専用のデータのGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts)にアクセスしてください：
 ![podcast](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![podcast](assets/03.webp)

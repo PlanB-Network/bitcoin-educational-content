@@ -1,0 +1,9 @@
+question: Mis on Automaatsete Sularahaautomaatide (ATM) peamine puudus?
+answer: Tihti väga kõrged tasud.
+wrong_answers:
+  - Vajadus kiire internetiühenduse järele.
+  - Kohalike valuutade toetuse puudumine.
+  - Tehingu turvalisuse mittegaranteerimine.
+explanation: |
+  Bitcoine ostmine ATMide kaudu on huvitav lahendus kasutaja privaatsuse jaoks, kuid nende peamine puudus on see, et nad küsivad tihti liiga kõrgeid tasusid.
+reviewed: false

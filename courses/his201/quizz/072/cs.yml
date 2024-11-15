@@ -1,0 +1,9 @@
+otázka: Komu Satoshi předal odpovědnost za vývoj softwaru, když odešel?
+odpověď: Gavin Andresen
+špatné_odpovědi:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+vysvětlení: |
+  Gavin dříve [uvedl](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651), že bude "aktivněji spravovat projekt Bitcoin" a v prosinci 2010 otevřel repozitář na GitHubu.
+recenzováno: false

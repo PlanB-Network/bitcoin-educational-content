@@ -1,0 +1,9 @@
+otázka: Jak se jmenuje problém, kdy je snadné vypočítat výsledek v jednom směru, ale téměř nemožné ho obrátit?
+odpověď: Jednosměrná funkce
+špatné_odpovědi:
+  - Lineární funkce
+  - Exponenciální funkce
+  - Reverzibilní funkce
+vysvětlení: |
+  Jednosměrné funkce umožňují rychlý výpočet v jednom směru, ale činí obrácené řešení prakticky nemožným, což vysvětluje jejich užitečnost v kryptografii.
+recenzováno: false

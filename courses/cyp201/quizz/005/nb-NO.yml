@@ -1,0 +1,8 @@
+question: Hvilken størrelse må inndataen til SHA256-funksjonen være etter at den er fylt ut?
+answer: Et multiplum av 512 bits.
+wrong_answers:
+  - Av 256 bits.
+  - Av 256 bytes.
+  - Et multiplum av 256 bits.
+explanation: |
+  SHA256-funksjonen krever at inndataen er et multiplum av 512 bits etter utfylling for å fungere korrekt.

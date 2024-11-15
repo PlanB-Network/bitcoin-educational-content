@@ -1,0 +1,9 @@
+otázka: Jaká je charakteristika rovnoměrné proměnné?
+odpověď: Všechny možné hodnoty mají stejnou pravděpodobnost výskytu
+špatné_odpovědi:
+  - Hodnoty následují asymetrické rozdělení
+  - Pravděpodobnost každé hodnoty závisí na experimentu
+  - Pouze dvě hodnoty mohou nastat se stejnými pravděpodobnostmi
+vysvětlení: |
+  Rovnoměrná proměnná je náhodná proměnná, kde všechny možné hodnoty mají stejnou pravděpodobnost výskytu.
+recenzováno: false

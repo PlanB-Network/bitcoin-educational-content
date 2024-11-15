@@ -1,0 +1,11 @@
+Câu hỏi: Cách thức "người tạo lập" được thù lao trong JoinMarket như thế nào?
+
+Câu trả lời: Thông qua phí do "người nhận" trả.
+
+Câu trả lời sai:
+  - Thông qua phí khai thác.
+  - Thông qua sự đóng góp tự nguyện từ "người nhận".
+  - Thông qua tài trợ từ cộng đồng Bitcoin.
+
+Giải thích:
+  "Người tạo lập" để bitcoin của họ sẵn sàng cho "người nhận" và nhận phí đổi lại cho dịch vụ của họ. "Người nhận", ngược lại, trả tiền để sử dụng bitcoin của "người tạo lập" nhằm thực hiện giao dịch coinjoin của riêng họ.

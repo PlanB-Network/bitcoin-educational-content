@@ -1,0 +1,10 @@
+question: Kuidas mõjutab inflatsioon palgasaajate ostujõudu aja jooksul?
+answer: Inflatsioon õõnestab ostujõudu, kuna palgad jäävad sageli tõelisest inflatsioonimäärast maha.
+wrong_answers:
+  - Inflatsioon suurendab ostujõudu, kuna palgad tõusevad kiiremini kui hinnad.
+  - Inflatsioonil ei ole ostujõule mingit mõju.
+  - Inflatsioon mõjutab ainult nende ostujõudu, kes investeerivad finantsturgudele.
+explanation: |
+  Inflatsioon viib tarbijahindade püsivale tõusule, õõnestades palgasaajate ostujõudu, kuna nende palgad jäävad tavaliselt tõelisest inflatsioonimäärast maha.
+  See muudab palgasaajate jaoks raskemaks nende pikaajaliste säästueesmärkide saavutamise ja elustandardi säilitamise.
+reviewed: true

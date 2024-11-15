@@ -1,11 +1,9 @@
-question: How is the size of the checksum determined in the generation of a mnemonic
-  phrase for a Bitcoin wallet?
-answer: By dividing the size of the entropy by 32.
+question: What does the following derivation path indicate? m/84'/0'/1'/0/7
+answer: An external SegwitV0 address on the mainnet.
 wrong_answers:
-  - By multiplying the size of the entropy by 32.
-  - By adding 32 to the size of the entropy.
-  - By subtracting 32 from the size of the entropy.
+  - An external SegwitV1 address on the mainnet.
+  - An internal Legacy address on the testnet.
+  - An external Legacy address on the mainnet.
 explanation: |
-  The size of the checksum is determined by dividing the size of the entropy
-  by 32. For example, a 256-bit entropy generates an 8-bit checksum.
+  The derivation path m/84'/0'/1'/0/7 indicates an external SegwitV0 address on the main network (mainnet). 84' = SegWit v0, 0' = mainnet, 1 = external
 reviewed: false

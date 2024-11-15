@@ -1,0 +1,8 @@
+question: ¿Cómo funciona el descifrado en el cifrado César?
+answer: Restando la clave a cada letra cifrada y aplicando módulo 26
+wrong_answers:
+  - Restando la clave a cada letra cifrada y aplicando módulo 20
+  - Multiplicando la clave con cada letra cifrada
+  - Dividiendo la clave entre cada letra cifrada y aplicando módulo 27
+explanation: |
+  En el cifrado César, el descifrado se realiza restando la clave de cada letra cifrada, luego aplicando módulo 26 para volver al texto original. El módulo 26 permite volver al inicio del alfabeto después de la letra "Z".

@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i privaatvõtme suurus?
+answer: 256 bitti.
+wrong_answers:
+  - 512 baiti.
+  - 520 bitti.
+  - 512 bitti.
+explanation: |
+  Bitcoin'i privaatvõtmel on standardne suurus 256 bitti, mis vastab Bitcoin'is kasutatavale elliptilise kõvera algoritmile.
+reviewed: false

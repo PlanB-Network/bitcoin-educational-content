@@ -1,0 +1,9 @@
+domanda: Perché un sistema di crittografia autenticata da solo non è sufficiente in una sessione di comunicazione?
+risposta: Non garantisce che il messaggio sia stato inviato dal mittente al momento della sessione.
+risposte_errate:
+  - Utilizza chiavi troppo corte.
+  - Non cripta i messaggi inviati al momento della sessione.
+  - Non consente l'autenticazione del mittente al momento della sessione.
+spiegazione: |
+  Un sistema di crittografia autenticata non protegge da attacchi come il replay, il riordinamento e la riflessione senza l'aggiunta di indicatori come identificatori e numeri di sequenza.
+recensito: false

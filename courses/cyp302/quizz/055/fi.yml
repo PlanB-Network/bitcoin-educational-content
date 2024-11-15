@@ -1,0 +1,9 @@
+kysymys: Mikä on syklisien ryhmien merkitys kryptografiassa?
+vastaus: Ne mahdollistavat kryptografisten järjestelmien luomisen generaattoreiden pohjalta
+vaarat_vastaukset:
+  - Ne yksinkertaistavat salausavainten kertolaskua
+  - Ne lisäävät julkisten viestintäkanavien turvallisuutta
+  - Niitä käytetään viestien suoraan hajauttamiseen niiden eheyden säilyttämiseksi
+selitys: |
+  Kryptografiassa sykliset ryhmät, joilla on generaattoreita, ovat olennaisia salausavainten perustojen luomisessa, erityisesti julkisen avaimen järjestelmissä.
+arvioitu: false

@@ -1,9 +1,0 @@
-question: Làm thế nào để tránh bị lừa đảo trực tuyến?
-answer: Xác minh danh tính của trang web bạn đang truy cập, đặc biệt là kiểm tra phần mở rộng và tên miền.
-wrong_answers:
-  - Sử dụng mạng Wi-Fi công cộng.
-  - Sử dụng các trang web không sử dụng giao thức HTTPS.
-  - Sử dụng các trang web không hiển thị ổ khóa.
-explanation: |
-  Để tránh bị lừa đảo trực tuyến, việc xác minh danh tính của trang web bạn đang truy cập là rất quan trọng. Điều này có thể được thực hiện bằng cách kiểm tra phần mở rộng và tên miền của trang web.
-reviewed: false

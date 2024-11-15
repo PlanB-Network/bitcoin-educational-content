@@ -13,7 +13,7 @@ Haluatko lisätä Bitcoin-podcastisi PlanB-verkon sivustolle ja lisätä ohjelma
 https://planb.network/tutorials/others/create-github-account
 
 
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu dataan](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/podcasts) osiossa `resources/podcasts/`:
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu dataan](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) osiossa `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -painiketta, sitten `Create new file`:
 ![podcast](assets/03.webp)

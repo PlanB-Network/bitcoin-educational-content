@@ -1,11 +1,9 @@
-question: What is the main function of a Bitcoin wallet?
-answer: It refers to a collection of private cryptographic keys derived from a single master key.
+question: What is the function used to generate the seed from the mnemonic phrase and the passphrase?
+answer: PBKDF2.
 wrong_answers:
-  - It is a physical device that stores cryptocurrencies.
-  - It is a digital platform for buying and selling cryptocurrencies.
-  - It is a software that mines new bitcoins.
+  - SHA256.
+  - HMAC.
+  - Argon2.
 explanation: |
-  A Bitcoin wallet, specifically a Hierarchical Deterministic Wallet (HD
-  wallet), is a collection of private cryptographic keys derived from a single master
-  key. These keys are essential for cryptocurrency ownership.
+  PBKDF2 (Password-Based Key Derivation Function 2) is used to derive the seed from the mnemonic phrase and the passphrase in HD wallets.
 reviewed: false

@@ -1,9 +1,7 @@
-question: Wie werden die Bits bei der Generierung einer mnemonischen Phrase für eine Bitcoin-Wallet in Phrasen umgewandelt?
-answer: Jedes Segment ist mit einem Wort aus einer Liste von 2048 Wörtern verbunden.
-wrong_answers:
-  - Jedes Bit ist mit einem Wort aus einer Liste von 2048 Wörtern verbunden.
-  - Jedes Segment ist mit einem Wort aus einer Liste von 1024 Wörtern verbunden.
-  - Jedes Bit ist mit einem Wort aus einer Liste von 1024 Wörtern verbunden.
-explanation: |
-  Um die Bits in Phrasen umzuwandeln, wird jedem Segment ein Wort aus einer Liste von 2048 Wörtern zugeordnet.
-reviewed: false
+Frage: Wahr oder Falsch? "Man kann einen öffentlichen Schlüssel bestimmen, indem man nur seine SegWitv0-Adresse kennt."
+Antwort: Falsch.
+falsche_Antworten:
+  - Wahr.
+Erklärung: |
+  Eine SegWit v0-Adresse ist ein Hash des öffentlichen Schlüssels, was es unmöglich macht, den öffentlichen Schlüssel direkt aus der Adresse abzuleiten, ohne den entsprechenden privaten Schlüssel zu kennen.
+überprüft: false

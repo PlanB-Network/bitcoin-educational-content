@@ -1,0 +1,10 @@
+question: Hva er en unik egenskap ved Peach P2P-løsningen?
+answer: Den krever ikke opprettelse av en konto for å fungere.
+wrong_answers:
+  - Den bruker et DAO-system.
+  - Den opererer under TOR.
+  - Den bruker multisign for konflikthåndtering.
+explanation: |
+  Kapittelet nevner at Peach skiller seg ut med sin enkelhet, ved ikke å kreve
+  opprettelse av en konto for å fungere.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which American developer spotted a "strange block" during the value overflow incident on August 15, 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  This block, exploiting a flaw, created over 184 billion bitcoins.
+reviewed: false

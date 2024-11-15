@@ -1,9 +1,9 @@
-question: Was ist der Zweck von BIP43 und BIP44 im Bitcoin-Ökosystem?
-answer: Sie haben die Struktur und Hierarchie von HD-Wallets standardisiert.
-wrong_answers:
-  - Sie haben die 24-Wort-Mnemonic-Phrase eingeführt.
-  - Sie haben die Art und Weise, wie Schlüssel generiert und gespeichert werden, revolutioniert.
-  - Sie haben vorgeschlagen, eine zusätzliche Passphrase hinzuzufügen, um die Sicherheit einzelner Schlüssel zu verstärken.
-explanation: |
-  BIP43 und BIP44 haben die Struktur und Hierarchie von HD-Wallets standardisiert und sie damit für die breite Öffentlichkeit zugänglicher und einfacher in der Anwendung gemacht.
-reviewed: false
+Frage: Um die Werte des Master-Schlüssels und des Master-Chain-Codes zu berechnen, ist die erste Eingabe für die HMAC-SHA512-Funktion der Seed. Was ist der zweite Eingabewert dieser Funktion, der als Schlüssel dient?
+Antwort: „Bitcoin seed“.
+falsche_Antworten:
+  - Die mnemonische Phrase.
+  - Das Passwort.
+  - „Seed“.
+Erklärung: |
+  Der String „Bitcoin seed“ wird als Schlüssel in HMAC-SHA512 verwendet, um den Master-Schlüssel und den Master-Chain-Code aus dem Seed abzuleiten.
+überprüft: false

@@ -1,0 +1,9 @@
+pertanyaan: Berikut ini adalah urutan angka desimal (10 25 13 18 02 31). Apa konversi yang benar ke Bech32?
+jawaban: 2edjzl
+jawaban_salah:
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
+penjelasan: |
+  Konversi angka desimal ke Bech32 dilakukan melalui tabel korespondensi spesifik, dan urutan 10 25 13 18 02 31 sesuai dengan 2edjzl.
+ditinjau: false

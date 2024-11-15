@@ -1,0 +1,13 @@
+pergunta: O que indica o anonset prospectivo?
+
+resposta: O tamanho do grupo de UTXOs indistinguíveis na saída de ciclos.
+
+respostas_erradas:
+  - O tamanho do grupo de UTXOs indistinguíveis na entrada de ciclos.
+  - O tamanho do grupo de UTXOs indistinguíveis em um pool.
+  - O número de transações necessário para alcançar anonimato.
+
+explicação: |
+  O anonset prospectivo indica o tamanho do grupo entre o qual o UTXO estudado se esconde na saída de um ciclo, conhecendo o UTXO na entrada, ou seja, o número de moedas indistinguíveis presentes dentro deste grupo.
+
+revisado: false

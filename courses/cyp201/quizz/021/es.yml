@@ -1,9 +1,9 @@
-question: ¿Cuántas rondas realiza PBKDF2 utilizando HMAC SHA512?
-answer: 2048 rondas
-wrong_answers:
-  - 1024 rondas
-  - 512 rondas
-  - 4096 rondas
-explanation: |
-  PBKDF2 se utiliza para convertir una frase mnemotécnica en una semilla. Este algoritmo realiza 2048 rondas utilizando HMAC SHA512.
-reviewed: false
+pregunta: ¿Cuál es el tamaño de una clave privada de Bitcoin?
+respuesta: 256 bits.
+respuestas_incorrectas:
+  - 512 bytes.
+  - 520 bits.
+  - 512 bits.
+explicación: |
+  La clave privada de Bitcoin tiene un tamaño estándar de 256 bits, correspondiente al algoritmo de curva elíptica utilizado en Bitcoin.
+revisado: false

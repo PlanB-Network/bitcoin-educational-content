@@ -1,10 +1,9 @@
-question: ¿Cuál es el papel de BIP39 en el ecosistema de Bitcoin?
-answer: Introdujo la frase mnemotécnica de 24 palabras para transformar secuencias complejas de dígitos en palabras comunes.
-wrong_answers:
-  - Introdujo el concepto de claves derivadas de manera determinista y jerárquica.
-  - Propuso agregar una frase de contraseña adicional para reforzar la seguridad de las claves individuales.
-  - Estandarizó la estructura y jerarquía de las billeteras HD.
-explanation: |
-  BIP39 introdujo una innovación importante; la frase mnemotécnica de 24 palabras.
-  Este sistema permitió transformar una secuencia compleja y difícil de recordar de dígitos en una serie de palabras comunes, mucho más fáciles de memorizar y almacenar.
-reviewed: false
+pregunta: Si se sigue BIP39, ¿cuál es el tamaño de la semilla de un monedero HD?
+respuesta: 512 bits.
+respuestas_incorrectas:
+  - 32 bytes.
+  - 1024 bits.
+  - 512 bytes.
+explicación: |
+  De acuerdo con BIP39, la semilla de un monedero HD es de 512 bits, derivada de la frase mnemotécnica y la contraseña.
+revisado: false

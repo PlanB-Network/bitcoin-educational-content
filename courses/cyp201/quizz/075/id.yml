@@ -1,0 +1,9 @@
+pertanyaan: Bagaimana cara mengompres kunci publik?
+jawaban: Kita menyimpan nilai koordinat x-nya dan menambahkan prefiks untuk menunjukkan koordinat y mana yang harus dipilih.
+jawaban_salah:
+  - Kita menyimpan nilai koordinat y-nya dan menambahkan prefiks untuk menunjukkan koordinat x mana yang harus dipilih.
+  - Kita meng-hash kunci publik untuk mengompresnya.
+  - Kita menggunakan hash SHA256 ganda untuk mengompres kunci publik.
+penjelasan: |
+  Pengompresan kunci publik dilakukan dengan menyimpan koordinat x dan menambahkan prefiks 0x02 atau 0x03 untuk menunjukkan apakah y genap atau ganjil.
+ditinjau: false

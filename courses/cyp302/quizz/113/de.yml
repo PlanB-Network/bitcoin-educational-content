@@ -1,0 +1,8 @@
+Frage: Was ist die Rolle des K-Arrays bei der RC4-Verschlüsselung?
+Antwort: Es initialisiert und transformiert das S-Array, um den Schlüsselstrom zu generieren.
+falsche_Antworten:
+  - Es verschlüsselt den Klartext direkt.
+  - Es speichert den verschlüsselten Text.
+  - Es dient nur als temporärer Speicher für Daten bis zum Ende des Prozesses.
+Erklärung: |
+  Das K-Array wird verwendet, um das S-Array im Schlüsselplanungsprozess zu transformieren, was die Erzeugung eines pseudorandomisierten Schlüsselstroms ermöglicht, um den Klartext zu verschlüsseln.

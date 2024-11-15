@@ -132,7 +132,7 @@ Donc n = 2.
 Etape 2 : Déterminer P, le nombre de bits de rembourrage necessaires pour atteindre le nombre final de bits idéal.
 -> M + 1 + P + 64 = n * 512
 -> M + 1 + P + 64 = 2 * 512
--> 940 + 1 + P + 64 = 1024
+-> 950 + 1 + P + 64 = 1024
 -> P = 1024 - 1 - 64 - 950
 -> P = 9
 
@@ -917,13 +917,14 @@ Une autre méthode cryptographique grandement utilisée sur le protocole Bitcoin
 
 
 
-## Donnez-nous votre avis sur ce cours
+## Évaluez ce cours
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
 <chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
 <isCourseExam>true</isCourseExam>
+
 
 ## Conclusion et fin
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>

@@ -1,0 +1,8 @@
+question: Hva er en "Nonce" i kryptografi?
+answer: Et tall ment for å bli brukt én gang.
+wrong_answers:
+  - Et partall.
+  - En digital signatur.
+  - Et tall som kan gjenbrukes.
+explanation: |
+  En nonce er et tall som brukes én gang for kryptografiske operasjoner, noe som sikrer unikheten til visse verdier i algoritmer.

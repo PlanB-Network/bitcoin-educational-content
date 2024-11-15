@@ -1,0 +1,9 @@
+otázka: Jak se nazývá pole s konečným počtem prvků?
+odpověď: Galoisovo pole
+špatné_odpovědi:
+  - Multiplikativní pole
+  - Symetrické pole
+  - Vektorové pole
+vysvětlení: |
+  Konečné pole je také známé jako Galoisovo pole, pojmenované po matematikovi Évaristu Galoisovi, a je zásadní v moderní kryptografii.
+recenzováno: false

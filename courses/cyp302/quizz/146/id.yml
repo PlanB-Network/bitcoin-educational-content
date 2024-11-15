@@ -1,0 +1,8 @@
+pertanyaan: Apa syarat agar sebuah bilangan bulat a memiliki invers modulo N?
+jawaban: a dan N harus saling prima
+jawaban_salah:
+  - N harus genap
+  - a harus ganjil
+  - a harus merupakan bilangan prima
+penjelasan: |
+  Sebuah bilangan bulat a memiliki invers modulo N jika dan hanya jika mereka saling prima, yang berarti pembagi terbesar bersama mereka adalah 1.

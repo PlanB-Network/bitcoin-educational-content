@@ -1,0 +1,9 @@
+domanda: Quale metallo è stato storicamente considerato il riferimento standard per la valuta?
+risposta: Oro
+risposte_errate:
+  - Argento
+  - Rame
+  - Bronzo
+spiegazione: |
+  L'oro è stato storicamente considerato lo standard a causa della sua scarsità, durabilità e valore universalmente riconosciuto, rendendolo una base stabile per i sistemi monetari.
+revisionato: false

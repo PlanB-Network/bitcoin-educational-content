@@ -1,0 +1,9 @@
+Frage: Nach dem Vorfall mit dem Wertüberlauf, welcher Mechanismus wurde von Satoshi zur Software hinzugefügt, um die Auswirkungen potenzieller Schwachstellen auf das System zu begrenzen?
+Antwort: Das Warnsystem
+falsche_Antworten:
+  - Die Standardnatur von Transaktionen
+  - Das Blockgrößenlimit
+  - Die OP_NOP Op-Codes
+Erklärung: |
+  Dieses effektive Warnsystem ermöglichte es ihm, mit der Verwendung eines privaten Schlüssels, die Netzwerkknoten im Falle eines technischen Problems zu warnen und einige API-Befehle auszusetzen.
+überprüft: false

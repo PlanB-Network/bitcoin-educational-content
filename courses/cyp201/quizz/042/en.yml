@@ -1,11 +1,9 @@
-question: What is the purpose of a digital signature in the context of Bitcoin transactions?
-answer: To prove that you are the holder of a private key without revealing it.
+question: If I generate a 256-bit random number, what will be the size of my recovery phrase in words?
+answer: 24 words.
 wrong_answers:
-  - To encrypt the transaction data.
-  - To store the transaction data.
-  - To transmit the transaction data.
+  - 6 words.
+  - 8 words.
+  - 12 words.
 explanation: |
-  In the context of Bitcoin transactions, a digital signature is used to
-  prove that you are the holder of a private key without revealing it. This is achieved
-  using the ECDSA algorithm.
+  A 256-bit random number corresponds to a 24-word mnemonic phrase according to the BIP39 standard.
 reviewed: false

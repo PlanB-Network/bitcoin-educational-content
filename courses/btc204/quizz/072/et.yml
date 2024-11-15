@@ -1,0 +1,13 @@
+küsimus: Millist skriptimudelit soovitatakse 2024. aastal Bitcoinis parema privaatsuse tagamiseks kõige rohkem?
+
+vastus: P2TR
+
+valed_vastused:
+  - P2PK
+  - P2PKH
+  - P2SH
+
+selgitus: |
+  Et sulanduda võimalikult suurde hulka, on soovitatav kasutada kõige laialdasemalt kasutatavat skriptimudelit. P2TR skriptid on praegu Bitcoin tehingutes kõige enam kasutusel.
+
+üle vaadatud: false

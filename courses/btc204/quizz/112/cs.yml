@@ -1,0 +1,13 @@
+otázka: Jaká je role spolupracovníka při transakci Stonewall x2?
+
+odpověď: Poskytnout bitcoiny k zvýšení pochybností
+
+špatné_odpovědi:
+  - Působit jako koordinátor transakce
+  - Přijmout částku platby
+  - Odeslat částku platby
+
+vysvětlení: |
+  Spolupracovník při transakci Stonewall x2 poskytuje bitcoiny, aby zvýšil pochybnosti při analýze transakce, přičemž na konci plně získá zpět své prostředky (pro něj neutrální akce, kromě poplatků za těžbu).
+
+kontrolováno: false

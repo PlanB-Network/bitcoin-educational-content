@@ -1,0 +1,9 @@
+domanda: Quali sono le due forme di saccheggio descritte da Bastiat?
+risposta: Saccheggio legale e saccheggio illegale
+risposte_errate:
+  - Saccheggio morale e saccheggio immorale
+  - Saccheggio interno e saccheggio esterno
+  - Saccheggio di beni e saccheggio di servizi
+spiegazione: |
+  Bastiat distingue tra saccheggio legale, che è definito dalla legge e spesso esercitato dallo stato (come le tasse), e saccheggio illegale, che si verifica al di fuori del quadro legale, come il furto o l'aggressione.
+recensito: false

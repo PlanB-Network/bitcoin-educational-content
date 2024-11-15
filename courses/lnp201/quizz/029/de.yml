@@ -1,9 +1,9 @@
-question: Wie viel SAT hat Alice in dem Beispiel zu Beginn?
-answer: 130.000 SAT.
-wrong_answers:
-  - 100.000 SAT.
-  - 90.000 SAT.
-  - 0 SAT.
-explanation: |
-  In dem Beispiel eröffnet Alice einen Kanal mit Bob und hat dabei 130.000 SAT auf ihrer Seite.
-reviewed: false
+Frage: In welcher Situation wird eine erzwungene Schließung eines Kanals verwendet?
+Antwort: Wenn eine der Parteien nicht mehr antwortet
+falsche_Antworten:
+  - Wenn die Kapazität des Kanals erhöht werden muss
+  - Wenn der Zeitraum der Zeitverriegelung unzureichend ist
+  - Wenn die Transaktionsgebühren zu hoch sind
+Erklärung: |
+  Die erzwungene Schließung wird als letztes Mittel verwendet, wenn eine der Parteien, beispielsweise aufgrund eines technischen Problems, nicht mehr auf die Nachrichten der anderen Partei reagiert.
+überprüft: false

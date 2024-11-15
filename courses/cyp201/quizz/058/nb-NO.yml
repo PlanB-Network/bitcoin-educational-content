@@ -1,0 +1,8 @@
+question: Hvilken metadata legges til den utvidede nøkkelen i tillegg til dens nyttelast?
+answer: Versjon / dybde / foreldres fingeravtrykk / indeks / sjekksum.
+wrong_answers:
+  - Versjon / indeks.
+  - Versjon / dybde / separator / sjekksum.
+  - Ingen metadata legges til.
+explanation: |
+  Den utvidede nøkkelen inkluderer flere stykker metadata. Det er versjonen, dybden, foreldres fingeravtrykk, indeksen og sjekksummen for å lette nøkkelavledning.

@@ -1,0 +1,9 @@
+pertanyaan: Siapa yang mendirikan layanan pertukaran pertama antara bitcoin dan dolar pada Oktober 2009?
+jawaban: NewLibertyStandard
+jawaban_salah:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+penjelasan: |
+  Layanan ini bersifat dasar: pertukaran dinegosiasikan melalui email, dan pembayaran dilakukan melalui PayPal. Tingkat pertukaran didasarkan pada biaya penambangan dari NewLibertyStandard sendiri.
+ditinjau: false

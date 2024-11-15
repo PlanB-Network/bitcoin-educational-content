@@ -1,13 +1,9 @@
-question: What is the purpose of a checksum in the generation of a mnemonic phrase
-  for a Bitcoin wallet?
-answer: It ensures the verification of the accuracy of the recovery phrase.
+question: Regarding the notation of a derivation path, what does the apostrophe or the "H" noted to the right of the number mean? Example m/84'/0'.
+answer: It indicates a hardened derivation.
 wrong_answers:
-  - It generates the entropy for the wallet.
-  - It determines the number of words in the recovery phrase.
-  - It encrypts the recovery phrase for added security.
+  - It indicates a normal derivation.
+  - It's there for decoration.
+  - It indicates a change key.
 explanation: |
-  The checksum is obtained by passing the entropy through the SHA256 function
-  and retrieving the first 8 bits of the hash. Without this checksum, an error in
-  the phrase could result in the creation of a different wallet and therefore the
-  loss of funds.
+  The apostrophe or "H" in a derivation path indicates a hardened derivation, which uses the parent private key and the corresponding index range.
 reviewed: false

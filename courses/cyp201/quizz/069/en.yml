@@ -1,11 +1,9 @@
-question: What is the most commonly used standard for a 24-word recovery phrase in
-  a Bitcoin wallet?
-answer: An entropy of 256 bits.
+question: What does the following derivation path indicate? m/44'/0'/0'/0/0
+answer: An external Legacy address on the mainnet.
 wrong_answers:
-  - An entropy of 128 bits.
-  - An entropy of 160 bits.
-  - An entropy of 512 bits.
+  - An external SegwitV1 address on the mainnet.
+  - An internal Legacy address on the testnet.
+  - An external SegwitV0 address on the mainnet.
 explanation: |
-  The most commonly used standard for a 24-word recovery phrase is an entropy
-  of 256 bits.
+  The derivation path m/44'/0'/0'/0/0 indicates an external Legacy address on the main network (mainnet). 44' = Legacy, 0' = mainnet, 0 = external
 reviewed: false

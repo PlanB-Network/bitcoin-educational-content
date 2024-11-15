@@ -1,0 +1,12 @@
+question: "Mis on põhimõtteline erinevus Carl Mengeri piirväärtuse teooria ja Leon Walrase ning William Stanley Jevonsi omavahel?"
+answer: Mengeri teooria on peamiselt subjektiivne, samas kui Walras ja Jevons peavad väärtust objektiivseks ja mõõdetavaks nähtuseks.
+wrong_answers:
+  - Mengeri teooria on peamiselt objektiivne, samas kui Walras ja Jevons peavad väärtust subjektiivseks ja mõõdetamatuks nähtuseks.
+  - Mengeri teooria põhineb tööjõu väärtuse teoorial, samas kui Walras ja Jevons peavad väärtust tootmises kasutatud maa hulga põhjal.
+  - Mengeri teooria põhineb füsiokraatide maa väärtuse teoorial, samas kui Walras ja Jevons peavad väärtust tootmises kasutatud tööjõu põhjal.
+explanation: |
+  Peatüki kohaselt on Mengeri piirväärtuse teooria subjektiivne,
+  tähendades, et see põhineb üksikisiku tajul kasu kohta, mida nad saavad
+  kaubast või teenusest saada. Teisest küljest peavad Walras ja Jevons väärtust
+  objektiivseks ja mõõdetavaks nähtuseks.
+reviewed: false

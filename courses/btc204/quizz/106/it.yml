@@ -1,0 +1,13 @@
+domanda: Quanti partecipanti ci sono negli input in una transazione payjoin?
+
+risposta: 2
+
+risposte_errate:
+  - 1
+  - 3
+  - 0
+
+spiegazione: |
+  Ci sono 2 partecipanti: il pagatore e il destinatario del pagamento.
+
+revisionato: false

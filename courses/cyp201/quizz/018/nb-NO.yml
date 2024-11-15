@@ -1,0 +1,8 @@
+question: Hvor lagres private nøkler?
+answer: I Bitcoin-lommebøker
+wrong_answers:
+  - På blokkjeden
+  - På Bitcoin-samfunnets servere.
+  - På det jevnaldrende nettverket.
+explanation: |
+  Lommeboken inneholder de private nøklene som er nødvendige for å få tilgang til bitcoins.

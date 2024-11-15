@@ -1,0 +1,9 @@
+question: Hvordan velges eksponenten "e" i RSA-kryptosystemet?
+answer: Den må være et heltall større enn 2, relativt primtall med φ(N)
+wrong_answers:
+  - Den må være et primtall mindre enn N
+  - Den velges tilfeldig uten restriksjoner
+  - Den må være lik φ(N)
+explanation: |
+  I RSA velges eksponenten "e" slik at den er større enn 2 og relativt primtall med φ(N), noe som sikrer sikkerheten til operasjonene.
+reviewed: false

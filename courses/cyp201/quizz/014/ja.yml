@@ -1,9 +1,9 @@
-question: SHA256の圧縮関数では、何ラウンドの計算が行われますか？
-answer: 64
+question: Bitcoinで親キーから子キーを導出するために使用される関数は何ですか？
+answer: HMAC-SHA512。
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - SHA256。
+  - MD5。
+  - BLAKE2。
 explanation: |
-  SHA256の圧縮関数では、64ラウンドの計算が行われます。
-  自転車レースの各ラップのように、各ラウンドは関数の位置を改善します。
+  HMAC-SHA512関数は、BitcoinのHDウォレットで親キーから子キーを導出するために使用されます。
+reviewed: false

@@ -1,0 +1,9 @@
+Frage: Wie wird der Exponent "e" im RSA-Kryptosystem gewählt?
+Antwort: Er muss eine ganze Zahl größer als 2 sein, teilerfremd zu φ(N)
+falsche_Antworten:
+  - Er muss eine Primzahl kleiner als N sein
+  - Er wird zufällig ohne Einschränkungen gewählt
+  - Er muss gleich φ(N) sein
+Erklärung: |
+  Im RSA wird der Exponent "e" so gewählt, dass er größer als 2 und teilerfremd zu φ(N) ist, was die Sicherheit der Operationen gewährleistet.
+überprüft: false

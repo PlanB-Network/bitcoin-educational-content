@@ -1,0 +1,10 @@
+question: Mis on RoboSat P2P lahenduse puuduseks?
+answer: Protokoll on habras ühe koordinaatori tõttu.
+wrong_answers:
+  - Selle kasutamiseks on vajalik konto.
+  - See ei kasuta Lightning Networki.
+  - See ei ole avatud lähtekoodiga.
+explanation: |
+  Peatükk mainib, et üks RoboSati puudustest on see,
+  et selle protokoll on habras ühe koordinaatori tõttu.
+reviewed: false

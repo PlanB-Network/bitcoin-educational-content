@@ -1,0 +1,9 @@
+kysymys: Ketkä kryptografian asiantuntijat loivat RSA-salakirjoitusjärjestelmän vuonna 1978?
+vastaus: Ronald Rivest, Adi Shamir ja Leonard Adleman
+väärät_vastaukset:
+  - Whitfield Diffie, Martin Hellman ja Ralph Merkle
+  - Marc Girault, Guillaume Poupard ja Jacques Stern
+  - Alfred Menezes, Minghua Qu ja Scott Vanstone
+selitys: |
+  Rivest, Shamir ja Adleman nimesivät RSA-algoritmin käyttäen heidän kolmea alkukirjaintaan.
+arvioitu: false

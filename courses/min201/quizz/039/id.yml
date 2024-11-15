@@ -1,0 +1,12 @@
+pertanyaan: Apa potensi kerugian dari penambangan untuk jaringan?
+jawaban: Tanpa insentif finansial yang cukup, bisa sulit bagi penambang untuk terus mendukung jaringan
+jawaban_salah:
+  - Ini dapat menyebabkan penurunan harga Bitcoin
+  - Ini dapat menyebabkan peningkatan hashrate jaringan
+  - Ini dapat menyebabkan penurunan jumlah node aktif dalam jaringan
+penjelasan: |
+  Penambangan untuk jaringan adalah inisiatif mulia yang berkontribusi pada
+  keamanan dan desentralisasi jaringan Bitcoin. Namun, tanpa insentif finansial yang cukup,
+  bisa sulit bagi penambang untuk terus mendukung jaringan,
+  terutama jika mereka beroperasi dengan kerugian.
+ditinjau: false

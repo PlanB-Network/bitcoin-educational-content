@@ -1,0 +1,11 @@
+question: Hvorfor anses Bitcoin som et ineffektivt verktøy for hvitvasking av penger?
+answer: Fordi det er en fullstendig sporbar database.
+wrong_answers:
+  - Fordi det ikke er bredt akseptert.
+  - Fordi det er svært volatilt.
+  - Fordi det ikke er regulert.
+explanation: |
+  Bitcoin, som en fullstendig sporbar database, gjør hvitvasking av penger spesielt
+
+
+  vanskelig. Bruken av Bitcoin av kriminelle kan spores.

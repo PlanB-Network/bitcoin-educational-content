@@ -1,0 +1,8 @@
+question: Pikendatud avaliku võtmega saan tuletada...
+answer: ...tavalisi laste avalikke võtmeid.
+wrong_answers:
+  - ...tugevdatud laste avalikke võtmeid.
+  - ...tavalisi laste privaatvõtmeid.
+  - ...tugevdatud laste privaatvõtmeid.
+explanation: |
+  Pikendatud avalik võti võimaldab tuletada ainult tavalisi laste avalikke võtmeid, kuid mitte privaatvõtmeid.

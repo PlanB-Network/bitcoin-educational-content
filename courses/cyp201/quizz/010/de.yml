@@ -1,9 +1,9 @@
-question: Was sind die Initialisierungsvektoren in der Verarbeitung der SHA-256 Funktion?
-answer: Die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 8 Primzahlen
-wrong_answers:
-  - Die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 8 Primzahlen
-  - Die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 64 Primzahlen
-  - Die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 64 Primzahlen
-explanation: |
-  In der Verarbeitung der SHA-256 Funktion sind die Initialisierungsvektoren von A bis H die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 8 Primzahlen. Diese werden als grundlegende Zutaten im kryptografischen Rezept verwendet.
-reviewed: false
+Frage: Welche Algorithmen werden für die Ableitung in Bitcoin HD-Wallets verwendet?
+Antwort: HMAC/PBKDF2
+Falsche Antworten:
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
+Erklärung: |
+  Bitcoin HD-Wallets verwenden HMAC (Hash-basierter Nachrichtenauthentifizierungscode) für die Schlüsselableitung und PBKDF2 (Password-Based Key Derivation Function 2) für die Seed-Ableitung.
+Überprüft: false

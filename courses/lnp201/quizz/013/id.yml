@@ -1,0 +1,8 @@
+pertanyaan: Apa yang terjadi jika Alice tidak mendapatkan tanda tangan Bob untuk transaksi penarikan?
+jawaban: Dia berisiko kehilangan akses ke dana yang disimpannya di alamat multisignature
+jawaban_salah:
+  - Dia tidak bisa lagi berkomunikasi dengan Bob di Lightning Network
+  - Saluran dibuka dengan kapasitas terbatas
+  - Bob secara otomatis menerima dana dalam saluran
+penjelasan: |
+  Tanpa tanda tangan Bob pada transaksi penarikan, Alice tidak dapat memastikan pemulihan dana miliknya dalam kasus terjadi masalah, menimbulkan risiko kehilangan.

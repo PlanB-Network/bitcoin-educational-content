@@ -1,12 +1,9 @@
-question: Jaký význam má BIP32 v ekosystému Bitcoinu?
-answer: Změnilo způsob generování a ukládání klíčů, když představilo koncept deterministicky a hierarchicky odvozených klíčů.
+question: Jaká klíčová odvozovací funkce se používá k odvození seedu z mnemonické fráze a volitelného hesla?
+answer: PBKDF2.
 wrong_answers:
-  - Představilo 24slovnou mnemonickou frázi.
-  - Navrhlo přidání dodatečné heslové fráze pro posílení bezpečnosti jednotlivých klíčů.
-  - Standardizovalo strukturu a hierarchii HD peněženek.
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
 explanation: |
-  BIP32, spuštěný v roce 2012, změnil způsob, jakým jsou tyto klíče generovány
-  a ukládány, když představilo koncept deterministicky a hierarchicky odvozených
-  klíčů. To výrazně zjednodušuje proces ukládání těchto klíčů, přičemž zachovává
-  jejich úroveň bezpečnosti.
+  Funkce PBKDF2 se používá k odvození seedu HD peněženky z mnemonické fráze a volitelného hesla.
 reviewed: false

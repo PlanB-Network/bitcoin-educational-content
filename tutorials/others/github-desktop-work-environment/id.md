@@ -37,7 +37,7 @@ Ada banyak perangkat lunak yang khusus dirancang untuk mengedit file Markdown, s
 
 ## Langkah 3: Fork repositori PlanB Network
 
-- Kunjungi repositori data PlanB Network di alamat berikut: [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data): ![github-desktop](assets/10.webp)
+- Kunjungi repositori data PlanB Network di alamat berikut: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Dari halaman ini, klik tombol `Fork` di pojok kanan atas jendela: ![github-desktop](assets/11.webp)
 - Di menu pembuatan, Anda dapat membiarkan pengaturan default. Pastikan kotak `Copy the dev branch only` dicentang, kemudian klik tombol `Create fork`: ![github-desktop](assets/12.webp)
 - Anda kemudian akan sampai pada fork Anda sendiri dari repositori PlanB Network: ![github-desktop](assets/13.webp)
@@ -51,13 +51,13 @@ Untuk menjaga konsistensi antara kedua repositori ini, akan diperlukan untuk men
 
 - Kembali ke perangkat lunak GitHub Desktop. Pada saat ini, fork Anda seharusnya muncul di bagian `Your repositories`. Jika Anda tidak segera melihatnya, gunakan tombol panah ganda untuk menyegarkan daftar. Ketika fork Anda muncul, klik padanya untuk memilihnya:
 ![github-desktop](assets/15.webp)
-- Kemudian klik pada tombol biru: `Clone [username]/sovereign-university-data`:
+- Kemudian klik pada tombol biru: `Clone [username]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Pertahankan jalur default. Untuk mengonfirmasi, klik pada tombol biru `Clone`:
 ![github-desktop](assets/17.webp)
 - Tunggu sementara GitHub Desktop mengkloning fork Anda secara lokal:
 ![github-desktop](assets/18.webp)
-- Setelah mengkloning repositori, perangkat lunak menawarkan Anda dua pilihan. Anda harus memilih yang pertama: `To contribute to the parent project`. Pilihan ini akan memungkinkan Anda untuk menyajikan pekerjaan Anda di masa depan sebagai kontribusi untuk proyek induk (`DecouvreBitcoin/sovereign-university-data`), dan bukan hanya sebagai modifikasi dari fork pribadi Anda (`[username]/sovereign-university-data`). Setelah opsi dipilih, klik pada `Continue`: ![github-desktop](assets/19.webp)
+- Setelah mengkloning repositori, perangkat lunak menawarkan Anda dua pilihan. Anda harus memilih yang pertama: `To contribute to the parent project`. Pilihan ini akan memungkinkan Anda untuk menyajikan pekerjaan Anda di masa depan sebagai kontribusi untuk proyek induk (`PlanB-Network/bitcoin-educational-content`), dan bukan hanya sebagai modifikasi dari fork pribadi Anda (`[username]/bitcoin-educational-content`). Setelah opsi dipilih, klik pada `Continue`: ![github-desktop](assets/19.webp)
 - GitHub Desktop Anda sekarang telah dikonfigurasi dengan benar. Sekarang, Anda dapat meninggalkan perangkat lunak terbuka di latar belakang untuk mengikuti modifikasi yang akan kami lakukan.
 ![github-desktop](assets/20.webp)
 Apa yang telah kita capai pada tahap ini adalah pembuatan salinan lokal dari repositori Anda, yang dihosting di GitHub. Sebagai pengingat, repositori ini adalah fork dari repositori sumber dari PlanB Network. Anda akan dapat membuat modifikasi pada salinan lokal ini, seperti menambahkan tutorial, terjemahan, atau koreksi. Setelah modifikasi ini dibuat, Anda akan menggunakan perintah **Push origin** untuk mengirim modifikasi lokal Anda ke fork yang dihosting di GitHub.
@@ -73,7 +73,7 @@ Anda juga dapat mengambil modifikasi dari fork, misalnya, selama sinkronisasi de
 - Penjelajah file Anda akan terbuka. Anda perlu menemukan dan memilih folder yang berjudul `GitHub`, yang seharusnya berada di direktori `Documents` di antara file Anda. Jalur ini sesuai dengan yang Anda tetapkan selama langkah 4. Setelah memilih folder, konfirmasikan seleksinya. Pembuatan vault Anda di Obsidian kemudian akan diluncurkan pada halaman baru dari perangkat lunak:
 
 ![github-desktop](assets/24.webp)
--> **Perhatian**, penting untuk tidak memilih folder `sovereign-university-data` saat membuat vault baru di Obsidian. Sebagai gantinya, pilih folder induk, `GitHub`. Jika Anda memilih folder `sovereign-university-data`, folder konfigurasi `.obsidian`, yang berisi pengaturan Obsidian lokal Anda, akan secara otomatis terintegrasi ke dalam repositori. Kita ingin menghindari ini, karena tidak perlu untuk mentransfer konfigurasi Obsidian Anda ke repositori PlanB Network. Alternatifnya adalah menambahkan folder `.obsidian` ke file `.gitignore`, tetapi metode ini juga akan memodifikasi file `.gitignore` dari repositori sumber, yang tidak diinginkan.
+-> **Perhatian**, penting untuk tidak memilih folder `bitcoin-educational-content` saat membuat vault baru di Obsidian. Sebagai gantinya, pilih folder induk, `GitHub`. Jika Anda memilih folder `bitcoin-educational-content`, folder konfigurasi `.obsidian`, yang berisi pengaturan Obsidian lokal Anda, akan secara otomatis terintegrasi ke dalam repositori. Kita ingin menghindari ini, karena tidak perlu untuk mentransfer konfigurasi Obsidian Anda ke repositori PlanB Network. Alternatifnya adalah menambahkan folder `.obsidian` ke file `.gitignore`, tetapi metode ini juga akan memodifikasi file `.gitignore` dari repositori sumber, yang tidak diinginkan.
 
 - Di sisi kiri jendela, Anda dapat melihat pohon file dengan repositori GitHub Anda yang telah dikloning secara lokal.
 - Dengan mengklik pada panah di samping nama folder, Anda dapat memperluasnya untuk mengakses subfolder dari repositori dan dokumen-dokumen mereka:

@@ -1,0 +1,9 @@
+question: Hvordan bestemmes en Bitcoin offentlig nøkkel?
+answer: Den bestemmes ved å legge til og doble punkter på den elliptiske kurven fra generatorens punkt ved bruk av den private nøkkelen.
+wrong_answers:
+  - Den bestemmes fra et tilfeldig eller pseudo-tilfeldig tall.
+  - Den bestemmes ved å hashe dens private nøkkel.
+  - Den bestemmes ved å hashe dens frø.
+explanation: |
+  Den offentlige nøkkelen genereres fra den private nøkkelen gjennom operasjoner på den elliptiske kurven, startende fra generatorens punkt.
+reviewed: false

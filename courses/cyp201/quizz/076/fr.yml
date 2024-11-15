@@ -1,9 +1,9 @@
-question: Que se passe-t-il si la phrase secrète d'un portefeuille Bitcoin est modifiée?
-answer: Le portefeuille Bitcoin devient complètement différent.
+question: Comment calcule-t-on la checksum d'une adresse SegWit ?
+answer: Avec un code BCH.
 wrong_answers:
-  - Le portefeuille Bitcoin devient inaccessible.
-  - Le portefeuille Bitcoin reste le même.
-  - Le portefeuille Bitcoin perd tous ses bitcoins.
+  - Avec HASH160.
+  - Avec HASH256.
+  - Avec SHA512.
 explanation: |
-  Si la phrase secrète est modifiée, le portefeuille Bitcoin devient complètement différent car la phrase secrète joue un rôle dans la construction et le calcul de toutes les clés du portefeuille.
+  Pour les adresses SegWit, la checksum est calculée à l'aide du code BCH, qui permet de détecter d'éventuelles erreurs dans l'adresse.
 reviewed: false

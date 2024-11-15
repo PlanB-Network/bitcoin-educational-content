@@ -1,0 +1,9 @@
+question: Que signifie le terme "champ premier" ou "corps premier" ?
+answer: Un champ avec un nombre premier d'éléments
+wrong_answers:
+  - Un champ contenant des nombres premiers uniquement
+  - Un champ défini uniquement par addition de nombres premiers
+  - Un champ qui utilise des vecteurs aléatoires
+explanation: |
+  Un champ premier contient un nombre d'éléments égal à un nombre premier, ce qui en fait un champ de base pour les opérations cryptographiques.
+reviewed: false

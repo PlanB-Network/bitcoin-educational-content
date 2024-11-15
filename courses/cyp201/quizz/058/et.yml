@@ -1,0 +1,9 @@
+question: Millist metadata't lisatakse laiendatud võtmele lisaks selle sisule?
+answer: Versioon / sügavus / vanema sõrmejälg / indeks / kontrollsumma.
+wrong_answers:
+  - Versioon / indeks.
+  - Versioon / sügavus / eraldaja / kontrollsumma.
+  - Metadata't ei lisata.
+explanation: |
+  Laiendatud võti sisaldab mitmeid metadata tükke. On olemas versioon, sügavus, vanema sõrmejälg, indeks ja kontrollsumma, et hõlbustada võtme tuletamist.
+reviewed: false

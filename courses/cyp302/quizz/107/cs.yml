@@ -1,0 +1,9 @@
+otázka: Co je to reflexní útok v komunikační seanci?
+odpověď: Útočník pošle Alici zpět zprávu, kterou zachytil mezi Alicí a Bobem
+špatné_odpovědi:
+  - Útočník obrátí pořadí zpráv v komunikaci
+  - Útočník pošle upravenou zprávu bez značky
+  - Útočník použije starou zprávu k vytvoření nové
+vysvětlení: |
+  V případě reflexního útoku útočník zachytí zprávu od Alice k Bobovi a pošle stejnou zprávu zpět Alici, což způsobí zmatek v seanci.
+recenzováno: false

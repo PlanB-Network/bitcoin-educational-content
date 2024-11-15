@@ -1,0 +1,9 @@
+question: Hva er tittelen på Adam Smiths bok?
+answer: "En undersøkelse av nasjonalrikdommens natur og årsaker."
+wrong_answers:
+  - "En undersøkelse av nasjonalrikdommens natur og ånd."
+  - "En undersøkelse av nasjonalrikdommens natur og opprinnelse."
+  - "En undersøkelse av årsaken og opprinnelsen til nasjonalrikdommen."
+explanation: |
+  Den fulle tittelen på Adam Smiths bok, "En undersøkelse av nasjonalrikdommens natur og årsaker," fremhever hans analyse av faktorene som bidrar til økonomisk velstand, og utforsker mekanismene for produksjon og distribusjon av rikdom.
+reviewed: false

@@ -1,0 +1,9 @@
+otázka: Jaký je hlavní rozdíl mezi "primitivním proudovým šifrováním" a "proudovým šifrováním blokové šifry"?
+odpověď: "Primitivní proudové šifrování" není postaveno na blokové šifře.
+špatné_odpovědi:
+  - "Primitivní proudové šifrování" vyžaduje doplnění zpráv.
+  - "Proudové šifrování blokové šifry" používá bloky proměnné velikosti.
+  - "Proudové šifrování blokové šifry" nelze použít pro velká data.
+vysvětlení: |
+  "Primitivní proudové šifrování", jako je Salsa20, je navrženo nezávisle na "blokové šifře", zatímco "proudové šifrování blokové šifry" používá "blokovou šifru" jako svůj základ, upravenou tak, aby produkovala proud šifrování.
+recenzováno: false

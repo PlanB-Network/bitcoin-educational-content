@@ -1,0 +1,9 @@
+pertanyaan: Apa cabang kriptografi yang menggunakan sepasang kunci publik dan privat disebut?
+jawaban: Kriptografi Asimetris
+jawaban_salah:
+  - Kriptografi Simetris
+  - Kriptografi Mono-algoritma
+  - Kriptografi Integratif
+penjelasan: |
+  Kriptografi Asimetris didasarkan pada penggunaan sepasang kunci, publik dan privat, yang memungkinkan enkripsi tanpa berbagi kunci rahasia.
+ditinjau: false

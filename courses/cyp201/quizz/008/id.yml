@@ -1,0 +1,9 @@
+pertanyaan: Berapa banyak putaran yang dilakukan oleh fungsi kompresi SHA256?
+jawaban: 64 putaran.
+jawaban_salah:
+  - 10 putaran.
+  - 128 putaran.
+  - 150 putaran.
+penjelasan: |
+  Fungsi kompresi SHA256 melakukan 64 putaran untuk setiap blok data yang diproses.
+ditinjau: false

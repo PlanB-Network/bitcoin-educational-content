@@ -1,0 +1,9 @@
+kysymys: Mikä matemaattinen konsepti on Diffie-Hellman avainvaihdon taustalla?
+vastaus: Yksisuuntainen funktio takaportilla
+väärät_vastaukset:
+  - Käänteinen eksponenttifunktio
+  - Kryptografinen hajautusalgoritmi
+  - Yksinkertaistettu modulaarinen jako
+selitys: |
+  Diffie-Hellman perustuu yksisuuntaiseen funktioon, joka on helppo laskea yhteen suuntaan mutta käytännössä mahdoton kääntää ilman salaisuutta, jota kutsutaan takaportiksi.
+arvioitu: false

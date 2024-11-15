@@ -1,0 +1,9 @@
+pregunta: ¿Qué significa que dos números sean "coprimos"?
+respuesta: Su máximo común divisor es igual a 1
+respuestas_incorrectas:
+  - Su suma es un número par
+  - Ambos son pares
+  - No tienen divisores comunes aparte de 1 y ellos mismos
+explicación: |
+  Dos números son coprimos si su máximo común divisor es 1, lo que significa que no comparten ningún factor primo, una propiedad importante en criptografía.
+revisado: false

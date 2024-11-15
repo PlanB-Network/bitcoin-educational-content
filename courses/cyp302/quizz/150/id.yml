@@ -1,0 +1,9 @@
+pertanyaan: Dalam konteks sistem kriptografi RSA, apa yang dimaksud dengan hasil kali dua bilangan prima p dan q?
+jawaban: Ini merupakan bilangan bulat N yang digunakan sebagai modulus untuk operasi
+jawaban_salah:
+  - Ini merupakan kunci publik
+  - Ini berfungsi sebagai kunci dekripsi
+  - Ini digunakan hanya untuk menghasilkan eksponen e
+penjelasan: |
+  Dalam RSA, bilangan bulat N adalah hasil kali dari dua bilangan prima besar p dan q, dan digunakan sebagai modulus untuk operasi enkripsi dan dekripsi.
+direview: false

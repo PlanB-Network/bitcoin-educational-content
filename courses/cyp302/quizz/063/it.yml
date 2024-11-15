@@ -1,0 +1,9 @@
+domanda: Perché negli esempi di crittografia si usano spesso i personaggi Alice e Bob?
+risposta: Per illustrare i principi crittografici in modo semplificato
+risposte_errate:
+  - Perché Alice e Bob sono termini tecnici in crittografia
+  - Perché sono i nomi più comuni al mondo
+  - Perché rappresentano sistemi informatici
+spiegazione: |
+  Alice e Bob sono comunemente utilizzati in crittografia come personaggi fittizi per illustrare scambi di messaggi e principi crittografici in un contesto semplificato e schematico.
+revisionato: false

@@ -1,0 +1,11 @@
+question: Hva betyr det å si at Bitcoin er som et sort hull?
+answer: Det vil ikke forsvinne og vil absorbere alt på sin vei over tid.
+wrong_answers:
+  - Det vil til slutt kollapse under sin egen vekt.
+  - Det er en trussel mot det globale finanssystemet.
+  - Det er et mysterium som vitenskapsmenn fortsatt prøver å forstå.
+explanation: |
+  Uttalelsen om at Bitcoin er som et sort hull refererer til dets motstandsdyktighet
+  og dets potensial til å bli det dominerende finanssystemet, ved å absorbere alle andre systemer
+  på sin vei.
+reviewed: false

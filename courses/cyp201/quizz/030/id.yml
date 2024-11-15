@@ -1,0 +1,8 @@
+pertanyaan: Apa peran teknis utama dari dompet Bitcoin?
+jawaban: Untuk menyimpan pasangan kunci kriptografi.
+jawaban_salah:
+  - Untuk menyimpan bitcoin.
+  - Untuk menyimpan UTXO.
+  - Untuk menyimpan transaksi.
+penjelasan: |
+  Dompet Bitcoin tidak secara langsung menyimpan bitcoin, tetapi pasangan kunci kriptografi yang digunakan untuk mengelola dan menghabiskan UTXO.

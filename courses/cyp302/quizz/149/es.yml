@@ -1,0 +1,8 @@
+pregunta: ¿Cuál es la definición de un entero siendo coprimo con respecto a otro entero?
+respuesta: Un entero que tiene un máximo común divisor de 1 con ese otro entero
+respuestas_incorrectas:
+  - Un entero que es divisible por el otro entero sin resto
+  - Un entero que es primo
+  - Un entero que es mayor que el otro
+explicación: |
+  Un entero es coprimo con otro si su máximo común divisor es 1, lo que significa que no comparten ningún otro factor común.

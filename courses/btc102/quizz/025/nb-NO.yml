@@ -1,0 +1,10 @@
+question: Hva er rollen til gruvearbeidere i Bitcoin-nettverket?
+answer: Å registrere de spredte transaksjonene i Bitcoin-blockchainen
+wrong_answers:
+  - Å skape nye bitcoins
+  - Å regulere verdien av bitcoins
+  - Å verifisere identiteten til Bitcoin-brukere
+explanation: |
+  Gruvearbeidere i Bitcoin-nettverket er ansvarlige for å registrere transaksjonene
+  som har blitt spredt over nettverket i Bitcoin-blockchainen. Dette sikrer
+  endeligheten av transaksjoner.

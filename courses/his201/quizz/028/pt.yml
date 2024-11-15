@@ -1,0 +1,9 @@
+pergunta: Qual foi o preço em dólares da previsão de Hal Finney em janeiro de 2009?
+resposta: 10,000,000
+respostas_erradas:
+  - 1,000,000
+  - 100,000
+  - 10,000
+explicação: |
+  Ele [escreveu](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) que "a possibilidade de gerar unidades hoje com alguns centavos de tempo de computação" poderia ser "uma aposta muito boa".
+revisado: false

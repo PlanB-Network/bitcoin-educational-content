@@ -1,0 +1,9 @@
+pertanyaan: Jawaban mana yang mewakili salah satu dari dua cabang utama kriptografi?
+jawaban: Kriptografi simetris
+jawaban_salah:
+  - Kriptologi
+  - Enkripsi homomorfik
+  - Kriptanalisis
+penjelasan: |
+  Kriptografi simetris adalah cabang utama dari kriptografi, yang melibatkan skema enkripsi di mana satu kunci digunakan untuk mengenkripsi dan mendekripsi pesan.
+ditinjau: false

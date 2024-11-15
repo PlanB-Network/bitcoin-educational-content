@@ -1,0 +1,9 @@
+question: Kuidas määratakse Bitcoin'i privaatvõti?
+answer: See määratakse juhusliku või pseudojuhusliku numbri põhjal.
+wrong_answers:
+  - See määratakse elliptilisel kõveral punktide liitmisel ja kahekordistamisel selle avalikust võtmest lähtuvalt.
+  - See määratakse selle avaliku võtme räsimisel.
+  - See määratakse SHA-256 algoritmi abil.
+explanation: |
+  Bitcoin'i privaatvõti genereeritakse juhuslikul või pseudojuhuslikul viisil, mis tagab selle unikaalsuse ja turvalisuse.
+reviewed: false

@@ -1,0 +1,9 @@
+kysymys: Mikä on ongelman nimi, jossa tuloksen laskeminen yhteen suuntaan on helppoa, mutta lähes mahdotonta kääntää?
+vastaus: Yksisuuntainen funktio
+vaarat_vastaukset:
+  - Lineaarinen funktio
+  - Eksponentiaalifunktio
+  - Käänteinen funktio
+selitys: |
+  Yksisuuntaiset funktiot mahdollistavat nopean laskennan yhteen suuntaan, mutta tekevät käänteisen ratkaisun käytännössä mahdottomaksi, minkä vuoksi ne ovat hyödyllisiä kryptografiassa.
+arvioitu: false

@@ -1,9 +1,8 @@
-question: Mitä tapahtuu transaktion aikana
-answer: Transaktion salaisuus
-wrong_answers:
-  - Transaktion salaisuus
-  - Uusi salaisuus päätetään ja uusi kumoamisavain luodaan.
-  - Edellinen sitoumustapahtuma päivitetään uudella salaisuudella ja kumoamisavaimella.
-explanation: |
-  Transaktion aikana
-reviewed: false
+kysymys: Mitä tapahtuu, jos kanava, jossa on aktiivinen HTLC, suljetaan väkisin?
+vastaus: HTLC sisällytetään sitoumustapahtumiin tuloksena.
+väärät_vastaukset:
+  - HTLC peruutetaan automaattisesti.
+  - Varat jaetaan uudelleen edellisille solmuille.
+  - Kanavaa ei voida sulkea ennen kuin HTLC on vanhentunut.
+selitys: |
+  Pakotetun sulkemisen aikana vireillä olevat HTLC:t esitetään tuloksina sitoumustapahtumissa, varmistaen näin niiden suorittamisen tai palautuksen määriteltyjen ehtojen mukaisesti.

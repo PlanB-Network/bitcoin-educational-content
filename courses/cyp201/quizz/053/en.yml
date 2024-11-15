@@ -1,10 +1,9 @@
-question: What is the length of the private keys in a Bitcoin wallet?
-answer: 256 bits
+question: What information is calculated from the seed by applying HMAC-SHA512?
+answer: The master key and the master chain code of the wallet.
 wrong_answers:
-  - 128 bits
-  - 512 bits
-  - 1024 bits
+  - The extended key of the wallet.
+  - The xpub and xprv of the wallet.
+  - The private key signature code.
 explanation: |
-  The private keys in a Bitcoin wallet, which are essential for cryptocurrency
-  ownership, are a fixed length of 256 bits.
+  From the seed, HMAC-SHA512 derives the master key and the master chain code, which are the basis for key generation.
 reviewed: false

@@ -1,9 +1,8 @@
-question: Qual é a principal vantagem de usar um novo par de chaves para cada transação de Bitcoin?
-answer: Isso melhora a segurança.
-wrong_answers:
-  - Isso melhora a velocidade.
-  - Isso melhora a anonimidade.
-  - Isso melhora a legalidade.
-explanation: |
-  Usar um novo par de chaves para cada transação melhora a segurança das transações de Bitcoin. No entanto, isso complica o backup e preserva apenas parcialmente a confidencialidade.
-reviewed: false
+pergunta: Nos caminhos de derivação de carteiras HD, a que corresponde a profundidade 0?
+resposta: A chave mestra.
+respostas_erradas:
+  - A chave estendida.
+  - Os endereços de recebimento.
+  - O tipo de moeda.
+explicação: |
+  A profundidade 0 nos caminhos de derivação corresponde à chave mestra, que é o ponto de partida para todas as derivações em uma carteira HD.

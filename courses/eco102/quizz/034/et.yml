@@ -1,0 +1,8 @@
+question: Mis on Bastiati vaade inimese olemusele sünnihetkel?
+answer: Omanik
+wrong_answers:
+  - Ori
+  - Hea
+  - Alluv
+explanation: |
+  Bastiat väidab, et inimene sünnib "omanikuna", kuna tal on endas õigus kasutada oma võimeid oma vajaduste rahuldamiseks.

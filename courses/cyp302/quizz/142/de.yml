@@ -1,0 +1,9 @@
+Frage: Wie heißt ein Problem, bei dem es einfach ist, ein Ergebnis in eine Richtung zu berechnen, aber fast unmöglich, den Vorgang umzukehren?
+Antwort: Eine Einwegfunktion
+falsche_Antworten:
+  - Eine lineare Funktion
+  - Eine exponentielle Funktion
+  - Eine umkehrbare Funktion
+Erklärung: |
+  Einwegfunktionen ermöglichen eine schnelle Berechnung in eine Richtung, machen aber das inverse Lösen praktisch unmöglich, daher ihre Nützlichkeit in der Kryptographie.
+überprüft: false

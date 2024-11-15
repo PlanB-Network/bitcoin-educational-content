@@ -1,9 +1,9 @@
-question: Quante iterazioni esegue PBKDF2 utilizzando HMAC SHA512?
-answer: 2048 iterazioni
-wrong_answers:
-  - 1024 iterazioni
-  - 512 iterazioni
-  - 4096 iterazioni
-explanation: |
-  PBKDF2 viene utilizzato per convertire una frase mnemonica in un seed. Questo algoritmo esegue 2048 iterazioni utilizzando HMAC SHA512.
-reviewed: false
+domanda: Qual è la dimensione di una chiave privata Bitcoin?
+risposta: 256 bit.
+risposte_errate:
+  - 512 byte.
+  - 520 bit.
+  - 512 bit.
+spiegazione: |
+  La chiave privata Bitcoin ha una dimensione standard di 256 bit, corrispondente all'algoritmo della curva ellittica utilizzato in Bitcoin.
+revisionato: false

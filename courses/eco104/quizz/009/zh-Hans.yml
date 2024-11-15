@@ -1,0 +1,9 @@
+question: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" 这句引用在比特币的第一个区块中有何重要意义？
+answer: 它突显了我们的金融系统将损失社会化的能力
+wrong_answers:
+  - 它标志着中本聪对《泰晤士报》的欣赏
+  - 它提供了一个关于救助措施如何惠及我们社会的绝佳例子
+  - 它向我们展示了比特币能够在区块链中存储信息的能力
+explanation: |
+  这是对《泰晤士报》一篇[文章](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h)的引用，反映了中本聪对银行从事高风险行为却几乎不承担后果的担忧，以及损失将由货币持有者共同承担。
+reviewed: true

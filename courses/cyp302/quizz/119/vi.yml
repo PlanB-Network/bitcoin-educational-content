@@ -1,0 +1,8 @@
+câu hỏi: Tại sao mã hóa AES ở chế độ ECB không được khuyến nghị sử dụng để bảo mật?
+câu trả lời: Nó dẫn đến mã hóa xác định
+câu trả lời sai:
+  - Nó yêu cầu một khóa dài hơn 128 bit
+  - Nó quá chậm cho hầu hết các ứng dụng hiện đại
+  - Nó không cho phép chia văn bản thành các khối 128-bit
+giải thích: |
+  Chế độ ECB không được khuyến nghị vì nó tạo ra mã hóa xác định, nghĩa là các khối bản rõ giống hệt nhau sẽ tạo ra các khối bản mã giống hệt nhau, có thể bị khai thác để đoán thông tin về bản rõ.

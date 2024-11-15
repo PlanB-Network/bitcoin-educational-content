@@ -137,7 +137,7 @@ Boa sorte com seus estudos.
 
 
 
-## Dê-nos seu feedback sobre este curso
+## Avalie o curso
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 

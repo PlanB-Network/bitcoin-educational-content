@@ -1,9 +1,0 @@
-question: Jaká je běžná příčina bezpečnostních zranitelností?
-answer: Lidská nedbalost.
-wrong_answers:
-  - Výpadky proudu.
-  - Pomalá rychlost internetu.
-  - Zastaralý hardware.
-explanation: |
-  Bezpečnostní zranitelnosti jsou často výsledkem lidské nedbalosti, jako je používání výchozích hesel nebo zapisování hesel na nezabezpečená místa. Pro ohrožení počítačové bezpečnosti nejsou vždy nutné sofistikované útoky.
-reviewed: false

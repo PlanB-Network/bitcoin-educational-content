@@ -1,0 +1,9 @@
+kysymys: Kuka loi ensimmäisen lohkojen tutkijan (block explorer) marraskuussa 2010?
+vastaus: Michael Marquardt (Theymos)
+vaarat_vastaukset:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+selitys: |
+  Tämä "Bitcoin Block Explorer" mahdollisti käyttäjille yksityiskohtaisten tietojen tarkastelun lohkoista, osoitteista ja siirroista verkkoselaimen kautta.
+arvioitu: false

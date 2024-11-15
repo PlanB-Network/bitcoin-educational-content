@@ -1,0 +1,8 @@
+pertanyaan: Di mana kunci privat disimpan?
+jawaban: Di dompet Bitcoin
+jawaban_salah:
+  - Di blockchain
+  - Di server komunitas Bitcoin.
+  - Di jaringan peer-to-peer.
+penjelasan: |
+  Dompet tersebut berisi kunci privat yang diperlukan untuk mengakses bitcoin.

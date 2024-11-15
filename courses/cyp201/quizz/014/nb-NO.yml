@@ -1,0 +1,9 @@
+question: Hvilken funksjon brukes til å utlede en barne-nøkkel fra en foreldre-nøkkel i Bitcoin?
+answer: HMAC-SHA512.
+wrong_answers:
+  - SHA256.
+  - MD5.
+  - BLAKE2.
+explanation: |
+  HMAC-SHA512-funksjonen brukes til å utlede barne-nøkler fra foreldre-nøkler i Bitcoin HD-lommebøker.
+reviewed: false

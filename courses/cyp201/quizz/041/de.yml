@@ -1,9 +1,9 @@
-question: Welche Rolle spielt die elliptische Kurve bei der Erzeugung von öffentlichen und privaten Schlüsseln?
-answer: Sie wird verwendet, um sichere öffentliche und private Schlüssel zu erzeugen.
-wrong_answers:
-  - Sie wird verwendet, um die Schlüssel zu verschlüsseln.
-  - Sie wird verwendet, um die Schlüssel zu speichern.
-  - Sie wird verwendet, um die Schlüssel zu übertragen.
-explanation: |
-  Die elliptische Kurve ist eine mathematische Konstruktion, die bei der Erzeugung sicherer öffentlicher und privater Schlüssel verwendet wird. Eine zufällige Zahl, oft als Nonce bezeichnet, wird als privater Schlüssel gewählt und in der Gleichung der elliptischen Kurve verwendet, um den entsprechenden öffentlichen Schlüssel zu erzeugen.
-reviewed: false
+Frage: Wenn ich eine 128-Bit-Zufallszahl generiere, wie groß wird meine Wiederherstellungsphrase in Wörtern sein?
+Antwort: 12 Wörter.
+falsche_Antworten:
+  - 6 Wörter.
+  - 8 Wörter.
+  - 24 Wörter.
+Erklärung: |
+  Eine 128-Bit-Zufallszahl entspricht einer 12-Wort-Mnemonik-Phrase, gemäß dem BIP39-Standard.
+überprüft: false

@@ -1,0 +1,8 @@
+kysymys: Mikä brittiläisen sanomalehden otsikko sisällytettiin Bitcoinin alkulohkoon tammikuussa 2009?
+vastaus: The Times
+väärät_vastaukset:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+selitys: |
+  Tarkka kaiverrus oli "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks".

@@ -1,0 +1,9 @@
+domanda: Cosa conteneva la scatola di ferro consegnata a Robert Morriss?
+risposta: Tre testi cifrati e una nota
+risposte_errate:
+  - Una mappa e degli indizi
+  - Una chiave di cifratura unica
+  - Un elenco unico di nomi
+spiegazione: |
+  La scatola conteneva tre testi cifrati e una nota che spiegava la scoperta di un tesoro e forniva istruzioni su come recuperarne il contenuto.
+revisionato: false

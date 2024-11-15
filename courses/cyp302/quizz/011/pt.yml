@@ -1,0 +1,9 @@
+pergunta: O que facilita a interceptação de comunicações locais por atacantes mal equipados?
+resposta: O uso de ondas de rádio para conexões sem fio
+respostas_erradas:
+  - Roteando todos os dados através de satélites
+  - Usando apenas cabos coaxiais para transmissão de dados
+  - Enviando dados apenas via fibras ópticas
+explicação: |
+  Conexões sem fio, que transmitem dados via ondas de rádio, tornam a interceptação mais fácil para os atacantes, pois não requerem acesso físico à rede.
+revisado: false

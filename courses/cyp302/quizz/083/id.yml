@@ -1,0 +1,9 @@
+pertanyaan: Mengapa "pseudorandom stream ciphers" lebih sering digunakan dalam praktik dibandingkan dengan one-time pads?
+jawaban: Mereka memungkinkan penggunaan kunci yang lebih pendek sambil menghasilkan aliran kunci yang lebih panjang
+jawaban_salah:
+  - Mereka tidak memerlukan kunci rahasia
+  - Mereka menggunakan kombinasi enkripsi simetris dan asimetris
+  - Mereka tidak memerlukan pembaruan kunci
+penjelasan: |
+  Pseudorandom stream ciphers lebih praktis karena mereka memungkinkan kunci pendek untuk diperluas menjadi aliran kunci yang lebih panjang, menghindari kebutuhan untuk menyimpan kunci sepanjang pesan itu sendiri.
+ditinjau: false

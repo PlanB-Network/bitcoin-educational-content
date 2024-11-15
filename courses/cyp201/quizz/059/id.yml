@@ -1,0 +1,8 @@
+pertanyaan: Dalam sistem numeral apa kunci ekstensi biasanya dikodekan untuk disajikan kepada pengguna?
+jawaban: Dalam Base 58.
+jawaban_salah:
+  - Dalam bech32.
+  - Dalam Base 16.
+  - Dalam bech32m.
+penjelasan: |
+  Kunci ekstensi umumnya dikodekan dalam Base 58 agar lebih mudah dibaca oleh pengguna dan untuk menghindari karakter yang ambigu.

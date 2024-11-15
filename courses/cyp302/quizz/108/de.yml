@@ -1,0 +1,9 @@
+Frage: Warum ist ein Authentifizierungsverschlüsselungsschema allein in einer Kommunikationssitzung unzureichend?
+Antwort: Es garantiert nicht, dass die Nachricht zum Zeitpunkt der Sitzung vom Sender gesendet wurde.
+falsche_Antworten:
+  - Es verwendet zu kurze Schlüssel.
+  - Es verschlüsselt keine Nachrichten, die zum Zeitpunkt der Sitzung gesendet werden.
+  - Es erlaubt nicht die Authentifizierung des Senders zum Zeitpunkt der Sitzung.
+Erklärung: |
+  Ein Authentifizierungsverschlüsselungsschema schützt nicht vor Angriffen wie Wiederholung, Neuordnung und Reflexion ohne die Hinzufügung von Indikatoren wie Identifikatoren und Sequenznummern.
+überprüft: false

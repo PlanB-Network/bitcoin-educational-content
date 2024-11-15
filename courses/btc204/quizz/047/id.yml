@@ -1,0 +1,13 @@
+pertanyaan: Apa peran dari transaksi notifikasi dalam BIP47?
+
+jawaban: Untuk mentransmisikan kode pembayaran kepada penerima dan memberi sinyal bahwa pembayaran akan datang.
+
+jawaban_salah:
+  - Memvalidasi alamat penerima Bitcoin untuk transaksi masa depan melalui kode pembayaran.
+  - Mengonfirmasi penerimaan bitcoin oleh penerima dengan BIP47.
+  - Mengirimkan kunci privat efemeral pengirim kepada penerima agar mereka dapat menghabiskan bitcoin.
+
+penjelasan: |
+  Transaksi notifikasi memungkinkan transmisi kode pembayaran dari pengirim ke penerima, sehingga yang terakhir dapat mengetahuinya dan menemukannya nanti hanya dari seed mereka dalam kasus pemulihan dompet. Seperti namanya, ini juga berperan sebagai notifikasi.
+
+ditinjau: false

@@ -1,0 +1,9 @@
+Frage: Welche Rolle spielt die Byte-Substitutionsoperation ("S-Box") bei der AES-Verschlüsselung?
+Antwort: Sie führt Verwirrung ein, indem sie jedes Byte durch ein anderes ersetzt.
+falsche_Antworten:
+  - Sie gewährleistet Integrität, indem sie die Nachrichtenbytes überprüft.
+  - Sie mischt die Spalten, um die Diffusion zu erhöhen.
+  - Sie teilt den Klartext in 128-Bit-Blöcke.
+Erklärung: |
+  Die Byte-Substitutionsoperation (S-Box) bei AES führt Verwirrung ein, indem sie jedes Byte gemäß einer Tabelle durch einen anderen Wert ersetzt, was den verschlüsselten Text schwieriger zu analysieren macht.
+überprüft: false

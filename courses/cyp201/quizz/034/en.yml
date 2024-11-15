@@ -1,10 +1,9 @@
-question: What is the size of a Bitcoin private key?
-answer: 256-bit number
+question: What is a JBOK wallet in the context of Bitcoin?
+answer: A wallet that groups together private keys determined randomly, with no link between them.
 wrong_answers:
-  - 512-bit number
-  - 128-bit number
-  - 1024-bit number
+  - A wallet that derives keys in a hierarchical manner from a single seed.
+  - A wallet that derives keys from previous keys.
+  - A wallet that uses only a mnemonic phrase to derive keys.
 explanation: |
-  In the Bitcoin system, the private key is a random or pseudo-random 256-bit
-  number.
+  A JBOK (Just a Bunch Of Keys) wallet contains private keys that are generated randomly and independently from one another, unlike HD wallets.
 reviewed: false

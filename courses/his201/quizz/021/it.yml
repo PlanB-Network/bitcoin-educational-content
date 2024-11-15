@@ -1,0 +1,9 @@
+domanda: In quale anno Satoshi Nakamoto ha iniziato a lavorare su Bitcoin?
+risposta: 2007
+risposte_errate:
+  - 2008
+  - 2009
+  - 2010
+spiegazione: |
+  Lo ha menzionato diverse volte nei suoi scritti. (https://bitcointalk.org/index.php?topic=13.msg46#msg46)
+revisionato: false

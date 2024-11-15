@@ -1,0 +1,8 @@
+question: Hva er den unike egenskapen til listen over 2048 ord som tillater mnemonisk koding?
+answer: Ingen ord har de samme første fire bokstavene i samme rekkefølge.
+wrong_answers:
+  - Ingen ord har de samme siste tre bokstavene.
+  - Ingen ord starter med bokstaven "J".
+  - Ingen ord er mer enn seks bokstaver lange.
+explanation: |
+  Denne egenskapen hjelper til med å unngå enhver tvetydighet når ordene tastes inn, og sikrer dermed unikheten til hvert ord i listen, samtidig som det reduserer det nødvendige lagringsområdet.

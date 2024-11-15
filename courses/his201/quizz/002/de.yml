@@ -1,0 +1,9 @@
+Frage: Auf welchem Prozess basiert das eCash-Elektronikgeldmodell?
+Antwort: Blindunterschriften
+falsche_Antworten:
+  - Gruppenunterschriften
+  - Ringunterschriften
+  - Schwellenwertunterschriften
+Erklärung: |
+  eCash basiert auf dem Prozess der Blindunterschriften, der es einem Unterzeichner ermöglicht, etwas zu unterschreiben, ohne zu sehen, was er unterschreibt.
+überprüft: false

@@ -1,9 +1,9 @@
-question: Quanti SAT Alice inizia con nell'esempio?
-answer: 130.000 SAT.
-wrong_answers:
-  - 100.000 SAT.
-  - 90.000 SAT.
-  - 0 SAT.
-explanation: |
-  Nell'esempio, Alice apre un canale con Bob con 130.000 SAT dal suo lato.
-reviewed: false
+domanda: In quale situazione si utilizza la chiusura forzata di un canale?
+risposta: Quando una delle parti non risponde più
+risposte_errate:
+  - Quando è necessario aumentare la capacità del canale
+  - Quando il timelock è insufficiente
+  - Quando le commissioni sulle transazioni sono troppo alte
+spiegazione: |
+  La chiusura forzata viene utilizzata come ultima risorsa se una delle parti, ad esempio a causa di un problema tecnico, non risponde più ai messaggi dell'altra.
+recensito: false

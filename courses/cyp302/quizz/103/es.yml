@@ -1,0 +1,9 @@
+pregunta: ¿Por qué la encriptación autenticada es resistente a ataques de texto cifrado elegido?
+respuesta: Porque cualquier modificación del texto cifrado por un atacante invalida la etiqueta
+respuestas_incorrectas:
+  - Porque utiliza un único algoritmo de encriptación
+  - Porque cualquier modificación del texto cifrado por un atacante invalida la clave
+  - Porque solo encripta el mensaje sin una etiqueta
+explicación: |
+  Un esquema de encriptación autenticada está diseñado para detectar modificaciones del texto cifrado, lo que invalida la etiqueta en caso de intentos de manipulación y asegura resistencia contra ataques de texto cifrado elegido.
+revisado: false

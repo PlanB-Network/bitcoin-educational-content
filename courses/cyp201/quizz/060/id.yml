@@ -1,0 +1,9 @@
+pertanyaan: Apa fungsi yang digunakan untuk menurunkan pasangan kunci anak dari pasangan kunci induk dalam dompet HD?
+jawaban: HMAC-SHA512.
+jawaban_salah:
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
+penjelasan: |
+  HMAC-SHA512 digunakan untuk menurunkan pasangan kunci anak dari pasangan kunci induk dalam dompet HD.
+ditinjau: false

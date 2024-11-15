@@ -1,0 +1,9 @@
+question: Hva var strategien som ble brukt av USA i 1933-1934 for å devaluere dollaren?
+answer: Regjeringen beslagla borgernes gull, for deretter å endre spillereglene ved å revaluere verdien av gull for å tjene statskassen og sette de som opprinnelig hadde vekslet gullet sitt mot sedler i en ufordelaktig posisjon.
+wrong_answers:
+  - Regjeringen økte tilbudet av gull, for deretter å endre spillereglene ved å devaluere verdien av gull for å tjene statskassen og sette de som opprinnelig hadde vekslet gullet sitt mot sedler i en ufordelaktig posisjon.
+  - Regjeringen beslagla borgernes gull, for deretter å endre spillereglene ved å devaluere verdien av gull for å tjene statskassen og sette de som opprinnelig hadde vekslet gullet sitt mot sedler i en ufordelaktig posisjon.
+  - Regjeringen økte tilbudet av gull, for deretter å endre spillereglene ved å revaluere verdien av gull for å tjene statskassen og sette de som opprinnelig hadde vekslet gullet sitt mot sedler i en ufordelaktig posisjon.
+explanation: |
+  I 1933 beslagla den amerikanske regjeringen borgernes gull. Deretter, i 1934, revaluerte de prisen på gull til $35 per unse, i stedet for $20,67. I praksis devaluerte regjeringen dollaren folk eide. Ved å kjøpe gull fra befolkningen til $20,67 per unse i 1933, og deretter revaluere prisen på gull i 1934, gjorde regjeringen et betydelig overskudd samtidig som den devaluerte sine borgeres sparepenger.
+reviewed: false

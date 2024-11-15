@@ -1,9 +1,9 @@
-question: Welche Rolle spielen kryptografische Hash-Funktionen bei der Überprüfung der Integrität von heruntergeladener Software?
-answer: Sie fungieren als digitale Wächter und überprüfen die Integrität von heruntergeladener Software.
-wrong_answers:
-  - Sie verschlüsseln die Software, um sie vor Hackern zu schützen.
-  - Sie komprimieren die Software, um die Download-Zeit zu verkürzen.
-  - Sie generieren einen eindeutigen Schlüssel für jeden Download.
-explanation: |
-  Kryptografische Hash-Funktionen spielen eine entscheidende Rolle bei der Überprüfung der Integrität von heruntergeladener Software. Durch den Vergleich des Hash-Werts der heruntergeladenen Datei mit dem erwarteten Hash-Wert kann man überprüfen, ob die Datei nicht manipuliert wurde.
-reviewed: false
+Frage: Innerhalb des Bitcoin-Protokolls, was ist ein HASH256?
+Antwort: Ein doppelter SHA256-Hash.
+falsche_Antworten:
+  - Ein doppelter Keccak-256-Hash.
+  - Ein SHA256-Hash gefolgt von einem RIPEMD160-Hash.
+  - Ein einzelner SHA256-Hash.
+Erklärung: |
+  Ein HASH256 ist ein doppelter SHA256-Hash, was bedeutet, dass die SHA256-Funktion einmal auf ein Stück Daten angewendet wird, dann ein zweites Mal auf das Ergebnis des ersten Durchlaufs.
+überprüft: false

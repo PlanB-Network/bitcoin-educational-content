@@ -1,0 +1,9 @@
+domanda: In quale caso possiamo dire che due eventi sono indipendenti?
+risposta: La probabilità dell'uno non influisce sulla probabilità dell'altro
+risposte_errate:
+  - I due eventi si verificano sempre simultaneamente
+  - Sono mutuamente esclusivi
+  - La loro probabilità combinata è uguale alla probabilità più alta dei due
+spiegazione: |
+  Due eventi sono indipendenti se la probabilità dell'uno non cambia la probabilità dell'altro, come il sorteggio di una lotteria che non ha influenza sul tempo del giorno successivo.
+recensito: false

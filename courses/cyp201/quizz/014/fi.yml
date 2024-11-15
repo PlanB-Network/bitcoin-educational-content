@@ -1,10 +1,8 @@
-question: Kuinka monta laskentakierrosta suoritetaan SHA256:n tiivistysfunktiossa?
-answer: 64
-wrong_answers:
-  - 32
-  - 128
-  - 256
-explanation: |
-  SHA256:n tiivistysfunktiossa suoritetaan 64 laskentakierrosta.
-  Kuin pyöräilykilpailussa, jokainen kierros parantaa funktion asemaa.
-reviewed: false
+kysymys: Mikä funktio käytetään johdettavan lapsiavaimen luomiseen vanhemmasta avaimesta Bitcoinissa?
+vastaus: HMAC-SHA512.
+väärät_vastaukset:
+  - SHA256.
+  - MD5.
+  - BLAKE2.
+selitys: |
+  HMAC-SHA512-funktiota käytetään johdettavien lapsiavainten luomiseen vanhemmista avaimista Bitcoinin HD-lompakoissa.

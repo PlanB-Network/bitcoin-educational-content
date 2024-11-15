@@ -1,0 +1,9 @@
+otázka: Jaký je výsledek 0 XOR 1?
+odpověď: 1
+špatné_odpovědi:
+  - 0
+  - 2
+  - -1
+vysvětlení: |
+  S operací XOR, 0 XOR 1 dává výsledek 1, protože bity jsou různé.
+recenzováno: false

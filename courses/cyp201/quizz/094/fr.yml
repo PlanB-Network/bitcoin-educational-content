@@ -1,9 +1,0 @@
-question: Quel est le but du code de chaîne dans une clé étendue ?
-answer: Il permet des dérivations spécifiques de clés enfants.
-wrong_answers:
-  - Il est utilisé pour générer la clé maître.
-  - Il est utilisé pour chiffrer la clé étendue.
-  - Il est utilisé pour vérifier l'authenticité de la clé étendue.
-explanation: |
-  Le code de chaîne, ainsi que la clé parent, est essentiel pour dériver des clés enfants. En concaténant la clé parent avec le code de chaîne, une clé privée ou publique étendue est obtenue.
-reviewed: false

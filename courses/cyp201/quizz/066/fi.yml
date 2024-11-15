@@ -1,9 +1,9 @@
-question: Mikä on tarkistussumman tarkoitus luotaessa mnemonista fraasia Bitcoin-lompakkoa varten?
-answer: Se varmistaa palautusfraasin tarkkuuden tarkistamisen.
-wrong_answers:
-  - Se luo lompakon entropian.
-  - Se määrittää sanojen määrän palautusfraasissa.
-  - Se salaa palautusfraasin lisäturvallisuuden vuoksi.
-explanation: |
-  Tarkistussumma saadaan kuljettamalla entropia SHA256-funktion läpi ja noutamalla hashin ensimmäiset 8 bittiä. Ilman tätä tarkistussummaa fraasissa oleva virhe voisi johtaa eri lompakon luomiseen ja siten varojen menetykseen.
-reviewed: false
+kysymys: Mitä tarkoittaa heittomerkki tai "H" numeron oikealla puolella johdannaispolun merkinnässä? Esimerkki m/84'/0'.
+vastaus: Se osoittaa kovetetun johdannaisen.
+väärät_vastaukset:
+  - Se osoittaa normaalin johdannaisen.
+  - Se on siinä koristeena.
+  - Se osoittaa muutosavaimen.
+selitys: |
+  Heittomerkki tai "H" johdannaispolussa osoittaa kovetetun johdannaisen, joka käyttää vanhemman yksityisavainta ja vastaavaa indeksialuetta.
+arvioitu: false

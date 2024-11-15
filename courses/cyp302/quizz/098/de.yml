@@ -1,0 +1,8 @@
+Frage: Wie hilft ein MAC dabei, die Manipulation von Nachrichten durch einen Angreifer zu verhindern?
+Antwort: Indem überprüft wird, dass die empfangene Nachricht nicht verändert wurde
+falsche_Antworten:
+  - Indem Brute-Force-Angriffe verhindert werden
+  - Indem der Nachrichteninhalt verborgen wird
+  - Indem verdächtige Nachrichten automatisch blockiert werden
+Erklärung: |
+  Ein MAC ermöglicht es dem Empfänger zu überprüfen, dass eine Nachricht durch ein mit einem gemeinsamen Geheimschlüssel generiertes Tag nicht modifiziert wurde, was die Möglichkeiten der Manipulation einschränkt.

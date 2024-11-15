@@ -1,9 +1,9 @@
-question: Welche sind die beiden Schlüsselkomponenten im Sicherheitsmechanismus des Bitcoin-Protokolls?
-answer: HMAC- und PBKDF2-Ableitungsalgorithmen
-wrong_answers:
-  - SHA-256- und RIPEMD-160-Hashfunktionen
-  - Elliptic Curve Digital Signature Algorithm (ECDSA) und SHA-256-Hashfunktion
-  - RSA und Diffie-Hellman-Schlüsselaustausch
-explanation: |
-  Die HMAC- und PBKDF2-Ableitungsalgorithmen sind Schlüsselkomponenten im Sicherheitsmechanismus des Bitcoin-Protokolls. Sie verhindern verschiedene potenzielle Angriffe und gewährleisten die Integrität von Bitcoin-Wallets.
-reviewed: false
+Frage: Wie wird ein Bitcoin-Öffentlicher-Schlüssel bestimmt?
+Antwort: Er wird bestimmt, indem Punkte auf der elliptischen Kurve vom Generatorpunkt aus durch Addition und Verdopplung unter Verwendung des privaten Schlüssels addiert werden.
+falsche_Antworten:
+  - Er wird aus einer zufälligen oder pseudo-zufälligen Zahl bestimmt.
+  - Er wird durch Hashing seines privaten Schlüssels bestimmt.
+  - Er wird durch Hashing seines Seeds bestimmt.
+Erklärung: |
+  Der öffentliche Schlüssel wird aus dem privaten Schlüssel durch Operationen auf der elliptischen Kurve generiert, beginnend beim Generatorpunkt.
+überprüft: false

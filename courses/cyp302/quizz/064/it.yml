@@ -1,0 +1,8 @@
+domanda: Cosa garantisce un Codice di Autenticazione del Messaggio (MAC) in uno schema crittografico?
+risposta: L'integrità e l'autenticità del messaggio
+risposte_errate:
+  - La riservatezza del messaggio
+  - La compressione del messaggio
+  - La conversione del messaggio in binario
+spiegazione: |
+  Un Codice di Autenticazione del Messaggio (MAC) è utilizzato per assicurare che il messaggio non sia stato alterato e che provenga effettivamente dal mittente presunto.

@@ -1,0 +1,9 @@
+kysymys: Mikä on epäsymmetrisen kryptografian päätavoite viestinnässä Alicen ja Bobin välillä?
+vastaus: Mahdollistaa Bobin lähettää salaisen viestin Alicelle käyttäen hänen julkista avaintaan
+väärät_vastaukset:
+  - Mahdollistaa Bobin salata ja purkaa viestejä ilman julkista avainta
+  - Estää Alicen purkamasta Bobin viestejä
+  - Mahdollistaa Alicen salata viestin varmistaakseen sen eheyden
+selitys: |
+  Epäsymmetrisessä kryptografiassa Alicen julkinen avain mahdollistaa Bobin lähettää salatun viestin, jonka vain hän voi purkaa, näin varmistaen viestin luottamuksellisuuden.
+arvioitu: false

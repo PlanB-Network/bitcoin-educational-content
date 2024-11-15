@@ -1,0 +1,8 @@
+question: Mis on AMF-i roll Prantsusmaal?
+answer: See reguleerib finantsturge.
+wrong_answers:
+  - See reguleerib haridussüsteemi.
+  - See reguleerib tervishoiusüsteemi.
+  - See reguleerib transpordisüsteemi.
+explanation: |
+  "AMF (Autorité des marchés financiers) on Prantsusmaa turu reguleeriv organ."

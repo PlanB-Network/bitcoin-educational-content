@@ -1,0 +1,9 @@
+question: What is the title of Adam Smith's book?
+answer: "An Inquiry into the Nature and Causes of the Wealth of Nations."
+wrong_answers:
+  - "An Inquiry into the Nature and Spirit of the Wealth of Nations."
+  - "An Inquiry into the Nature and Origins of the Wealth of Nations."
+  - "An Inquiry into the Cause and Origins of the Wealth of Nations."
+explanation: |
+  The full title of Adam Smith's book, "An Inquiry into the Nature and Causes of the Wealth of Nations," highlights his analysis of the factors contributing to economic prosperity, exploring the mechanisms of wealth production and distribution.
+reviewed: false

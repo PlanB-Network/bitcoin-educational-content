@@ -1,0 +1,9 @@
+pregunta: ¿Cuáles son las dos formas de saqueo descritas por Bastiat?
+respuesta: Saqueo legal y saqueo ilegal
+respuestas_incorrectas:
+  - Saqueo moral y saqueo inmoral
+  - Saqueo interno y saqueo externo
+  - Saqueo de bienes y saqueo de servicios
+explicación: |
+  Bastiat distingue entre el saqueo legal, que está definido por la ley y a menudo ejercido por el estado (como los impuestos), y el saqueo ilegal, que ocurre fuera del marco legal, como el robo o la agresión.
+revisado: false

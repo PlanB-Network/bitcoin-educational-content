@@ -1,0 +1,9 @@
+question: Où Frédéric Bastiat siégeait-il à l'Assemblée nationale ?
+answer: Au centre-gauche avec Alexis de Tocqueville
+wrong_answers:
+  - À gauche avec les socialistes
+  - À droite avec les monarchistes
+  - Au centre-droit avec les libéraux conservateurs
+explanation: |
+  Bastiat siégeait au centre-gauche avec Tocqueville, où il défendait les libertés individuelles.
+reviewed: false

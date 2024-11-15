@@ -1,11 +1,9 @@
-question: What is the role of BIP39 in the Bitcoin ecosystem?
-answer: It introduced the 24-word mnemonic phrase to transform complex sequences of digits into ordinary words.
+question: If BIP39 is followed, what is the size of an HD wallet's seed?
+answer: 512 bits.
 wrong_answers:
-  - It introduced the concept of deterministically and hierarchically derived keys.
-  - It proposed adding an additional passphrase to reinforce the security of individual keys.
-  - It standardized the structure and hierarchy of HD wallets.
+  - 32 bytes.
+  - 1024 bits.
+  - 512 bytes.
 explanation: |
-  BIP39 introduced a landmark innovation; the 24-word mnemonic phrase.
-  This system made it possible to transform a complex, hard-to-remember sequence of
-  digits into a series of ordinary words, much easier to memorize and store.
+  According to BIP39, the seed of an HD wallet is 512 bits, derived from the mnemonic phrase and the passphrase.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Ifølge Marx, hva er den største begrensningen med menneskerettigheter?
+answer: De beskytter kun en formell og abstrakt frihet.
+wrong_answers:
+  - De er naturlige rettigheter.
+  - De er valgfrie rettigheter.
+  - De forhindrer revolusjon.
+explanation: |
+  Marx kritiserer menneskerettigheter ved å kalle dem "formelle" fordi de garanterer en abstrakt individuell frihet, uten å faktisk transformere de materielle forholdene til utbytting i det kapitalistiske samfunnet.
+reviewed: false

@@ -1,0 +1,9 @@
+domanda: Qual è il principale difetto del metodo ECB con un cifrario a blocchi?
+risposta: È deterministico e può rivelare schemi nei dati
+risposte_errate:
+  - Richiede chiavi di lunghezza variabile
+  - Non funziona con messaggi superiori a 128 bit
+  - Non funziona con messaggi superiori a 256 bit
+spiegazione: |
+  Il metodo ECB ("Electronic Code Book") è deterministico: blocchi identici di dati vengono cifrati nello stesso modo, il che permette di rilevare schemi nel testo cifrato.
+recensito: false

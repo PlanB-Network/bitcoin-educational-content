@@ -1,9 +1,9 @@
-question: Welche Blockgröße wird bei HMAC-SHA-512 verwendet?
-answer: 1024-Bit (128-Byte) Blöcke
-wrong_answers:
-  - 512-Bit (64-Byte) Blöcke
-  - 256-Bit (32-Byte) Blöcke
-  - 2048-Bit (256-Byte) Blöcke
-explanation: |
-  Im Zusammenhang mit der Ableitung von HD-Wallets wird HMAC-SHA-512 verwendet. Letzteres arbeitet mit 1024-Bit (128-Byte) Blöcken und passt den Schlüssel entsprechend an.
-reviewed: false
+Frage: Wie wird ein Bitcoin-Privatschlüssel bestimmt?
+Antwort: Er wird aus einer zufälligen oder pseudozufälligen Zahl abgeleitet.
+falsche_Antworten:
+  - Er wird durch Addition und Verdopplung von Punkten auf der elliptischen Kurve aus seinem öffentlichen Schlüssel bestimmt.
+  - Er wird durch Hashing seines öffentlichen Schlüssels bestimmt.
+  - Er wird durch den SHA-256-Algorithmus bestimmt.
+Erklärung: |
+  Ein Bitcoin-Privatschlüssel wird auf eine zufällige oder pseudozufällige Weise generiert, was seine Einzigartigkeit und Sicherheit gewährleistet.
+überprüft: false

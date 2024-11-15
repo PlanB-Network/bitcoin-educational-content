@@ -1,0 +1,9 @@
+question: Mis on keskpanga roll kui "viimase instantsi laenuandja"?
+answer: Keskpanga roll on laenata rahalisi vahendeid kriisi ajal raskustes olevatele pankadele, et vältida doominoefekti, mis võiks halvata terve finantssüsteemi.
+wrong_answers:
+  - Keskpanga roll on laenata rahalisi vahendeid kriisi ajal raskustes olevatele pankadele, et suurendada oma kasumeid.
+  - Keskpanga roll on laenata rahalisi vahendeid kriisi ajal raskustes olevatele pankadele, et võtta üle nende tegevus.
+  - Keskpanga roll on laenata rahalisi vahendeid kriisi ajal raskustes olevatele pankadele, et suurendada riigivõlga.
+explanation: |
+  Keskpanga kontseptsioon kui "viimase instantsi laenuandja" tekkis 19. sajandil Inglismaal vastusena korduvatele pangajooksudele, mis ohustasid finantsstabiilsust. Laenates raskustes olevatele pankadele, suudab keskpank ära hoida pangakrahhide doominoefekti, mis võiks viia majanduslanguse või depressioonini.
+reviewed: false

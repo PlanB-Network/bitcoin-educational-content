@@ -1,0 +1,9 @@
+câu hỏi: Khái niệm nào không chỉ riêng liên quan đến các phương pháp mã hóa đối xứng hoặc không đối xứng?
+câu trả lời: Hàm băm
+câu trả lời sai:
+  - Cặp khóa công khai và khóa riêng
+  - Mã hóa không đối xứng
+  - Mã hóa đối xứng
+giải thích: |
+  Hàm băm là một thành phần chính của mã hóa hiện đại, nhưng chúng không cụ thể liên kết với bất kỳ phương pháp mã hóa đối xứng hoặc không đối xứng nào, không giống như khóa công khai và khóa riêng.
+đã xem xét: false

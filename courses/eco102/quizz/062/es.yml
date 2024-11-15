@@ -1,0 +1,9 @@
+pregunta: Según Laffer, ¿qué sucede con los ingresos fiscales cuando las tasas impositivas se incrementan excesivamente?
+respuesta: Disminuyen
+respuestas_incorrectas:
+  - Aumentan
+  - Permanecen estables
+  - Fluctúan de manera impredecible
+explicación: |
+  De acuerdo con la curva de Laffer, un incremento excesivo en las tasas impositivas lleva a una disminución en los ingresos fiscales porque desalienta el trabajo, la inversión y la producción.
+revisado: false

@@ -1,0 +1,9 @@
+Frage: Was ist die kommutative Eigenschaft der XOR-Operation?
+Antwort: Die Reihenfolge der Operanden hat keinen Einfluss auf das Ergebnis der Operation
+falsche_Antworten:
+  - XOR funktioniert nur mit geraden Zahlen
+  - XOR erfordert Operanden gleicher Länge
+  - Die Position der Bits in den Operanden hat keinen Einfluss auf das Ergebnis der Operation
+Erklärung: |
+  XOR ist kommutativ, was bedeutet, dass a XOR b gleich b XOR a ist.
+überprüft: false

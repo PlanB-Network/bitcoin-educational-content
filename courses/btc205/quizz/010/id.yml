@@ -1,0 +1,8 @@
+pertanyaan: Solusi P2P mana yang dibahas dalam bab ini menggunakan sistem DAO dan multisign untuk manajemen sengketa?
+jawaban: Bisq
+jawaban_salah:
+  - RoboSat
+  - LNP2PBot
+  - Peach
+penjelasan: |
+  Menurut bab tersebut, Bisq adalah solusi P2P non-custodial yang memiliki sistem DAO (Decentralized Autonomous Organization) dan menggunakan multisign untuk manajemen sengketa.

@@ -1,0 +1,9 @@
+pertanyaan: Apa masalah utama dalam pengelolaan kunci?
+jawaban: Kompleksitas dalam mengamankan dan menyimpan sepasang kunci untuk setiap klien
+jawaban_salah:
+  - Ketidakmungkinan untuk memperbarui kunci yang hilang oleh klien
+  - Kebutuhan untuk mendekripsi setiap kunci sebelum digunakan oleh klien
+  - Kebutuhan untuk mentransmisikan kunci untuk setiap komunikasi
+penjelasan: |
+  Masalah pengelolaan kunci terletak pada kesulitan dalam menyimpan dan mengamankan sepasang kunci untuk setiap pengguna, terutama ketika jumlah klien mencapai jutaan.
+ditinjau: false

@@ -1,0 +1,9 @@
+question: Pourquoi est-il difficile de construire un mode de chiffrement de type "block mode" à partir d'un stream cipher ?
+answer: Parce que les stream ciphers traitent les données en continu
+wrong_answers:
+  - Parce que les stream ciphers n'utilisent pas de clés privées
+  - Parce que les block modes exigent des clés plus longues
+  - Parce que les stream ciphers sont toujours plus lents
+explanation: |
+  Les stream ciphers sont conçus pour chiffrer les données de manière continue (bit par bit ou octet par octet), ce qui complique leur utilisation en mode bloc qui exige un traitement en blocs de taille fixe.
+reviewed: false

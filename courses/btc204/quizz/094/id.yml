@@ -1,0 +1,13 @@
+pertanyaan: Dari jawaban berikut, mana yang bukan praktik yang disarankan untuk mengelola perubahan doxxic seseorang?
+
+jawaban: Menggabungkan UTXO doxxic bersama-sama.
+
+jawaban_salah:
+  - Mencampur UTXO doxxic dalam kolam yang lebih kecil.
+  - Mendonasikan UTXO doxxic seseorang.
+  - Menandai UTXO doxxic seseorang sebagai tidak dapat dibelanjakan.
+
+penjelasan: |
+  Disarankan untuk tidak menggabungkan UTXO doxxic bersama-sama karena hal ini memungkinkan pembuatan koneksi antara berbagai entri pengguna di Whirlpool.
+
+ditinjau: false

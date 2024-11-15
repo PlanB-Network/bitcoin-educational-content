@@ -1,0 +1,9 @@
+question: Kes lõi esimese plokiuurija novembris 2010?
+answer: Michael Marquardt (Theymos)
+wrong_answers:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+explanation: |
+  See "Bitcoin Block Explorer" võimaldas kasutajatel vaadata üksikasjalikku teavet plokkide, aadresside ja tehingute kohta veebibrauseri kaudu.
+reviewed: false

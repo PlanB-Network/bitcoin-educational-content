@@ -1,9 +1,9 @@
-question: Điểm khởi đầu để tính toán tất cả các khóa công khai của người dùng trong hệ thống Bitcoin là gì?
-answer: Điểm G
-wrong_answers:
-  - Điểm K
-  - Điểm U
-  - Điểm O
-explanation: |
-  Điểm G là điểm khởi đầu để tính toán tất cả các khóa công khai của người dùng trong hệ thống Bitcoin.
-reviewed: false
+câu hỏi: PRNG là gì?
+câu trả lời: Một thuật toán tạo ra các số ngẫu nhiên từ một hạt giống và một hàm biến đổi.
+câu trả lời sai:
+  - Một thiết bị phần cứng tạo ra các số ngẫu nhiên thực sự.
+  - Một bộ phát sinh số ngẫu nhiên mà không cần hạt giống.
+  - Một thuật toán tạo ra các số dự đoán được.
+giải thích: |
+  Một PRNG tạo ra các số ngẫu nhiên giả từ một hạt giống, nhưng không giống như một TRNG, nó không thực sự ngẫu nhiên.
+đã xem xét: false

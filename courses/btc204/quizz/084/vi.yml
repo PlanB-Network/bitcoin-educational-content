@@ -1,0 +1,11 @@
+câu hỏi: Vai trò của ví "post-mix" trong giao thức Zerolink là gì?
+
+câu trả lời: Để lưu trữ các UTXO sau khi được trộn.
+
+câu trả lời sai:
+  - Để lưu trữ các UTXO trước khi trộn.
+  - Để lưu trữ các UTXO thay đổi.
+  - Để lưu trữ các UTXO hợp nhất.
+
+giải thích: |
+  Ví "post-mix" được dành riêng cho các đồng tiền đã được trộn.

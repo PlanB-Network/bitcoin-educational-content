@@ -1,0 +1,11 @@
+pertanyaan: Mengapa Bitcoin dianggap sebagai alat yang tidak efektif untuk pencucian uang?
+jawaban: Karena ini adalah basis data yang sepenuhnya dapat dilacak.
+jawaban_salah:
+  - Karena tidak diterima secara luas.
+  - Karena sangat fluktuatif.
+  - Karena tidak diatur.
+penjelasan: |
+  Bitcoin, sebagai basis data yang sepenuhnya dapat dilacak, membuat pencucian uang menjadi
+
+
+  sangat sulit. Penggunaan Bitcoin oleh para kriminal dapat dilacak.

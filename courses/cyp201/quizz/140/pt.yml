@@ -1,9 +1,0 @@
-question: O que é usado para calcular o checksum no caso de um padrão segwit?
-answer: O programa BCH (Bose-Chaudhuri-Hocquenghem)
-wrong_answers:
-  - Hashing Double SHA256
-  - A função pbkdf2
-  - A função hmacha512
-explanation: |
-  O programa BCH (Bose-Chaudhuri-Hocquenghem) é usado para calcular o checksum no caso de um padrão segwit.
-reviewed: false

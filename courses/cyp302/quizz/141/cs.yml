@@ -1,0 +1,9 @@
+otázka: Proč je faktorizace součinu dvou velmi velkých prvočísel považována za obtížný problém?
+odpověď: Protože vyžaduje nepřiměřené množství výpočetního času, dokonce i pro superpočítače.
+špatné_odpovědi:
+  - Protože vyžaduje veřejný klíč pro každý faktor.
+  - Protože zahrnuje pouze základní operace ve výpočtu.
+  - Protože závisí na násobení a ne na dělení.
+vysvětlení: |
+  Faktorizace obrovského čísla, součinu dvou velkých prvočísel, vyžaduje výpočetní výkony, které přesahují kapacitu současných počítačů, což tento úkol činí prakticky neuskutečnitelným.
+recenzováno: false

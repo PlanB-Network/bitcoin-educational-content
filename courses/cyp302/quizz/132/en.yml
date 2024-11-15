@@ -1,0 +1,9 @@
+question: In a Bitcoin transaction, which technology is generally used to prove ownership of funds by unlocking the script?
+answer: Digital signatures
+wrong_answers:
+  - Digital certificates
+  - Symmetric encryption
+  - Message Authentication Codes (MAC)
+explanation: |
+  Digital signatures in Bitcoin prove possession of funds by signing transactions with a private key in order to unlock the script that secures a UTXO.
+reviewed: false

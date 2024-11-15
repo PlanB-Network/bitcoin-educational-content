@@ -3629,6 +3629,8 @@ Koska tämä ominaisuus on uusi, on suositeltavaa olla varovainen ja välttää 
 
 _Tämän Silent Payments -luvun luomiseen käytin [Silent Payments -selityssivustoa](https://silentpayments.xyz/) ja [BIP352-selitysdokumenttia](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
+# Johtopäätös
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
 
 ## Anna meille palautetta tästä kurssista
@@ -3639,8 +3641,7 @@ _Tämän Silent Payments -luvun luomiseen käytin [Silent Payments -selityssivus
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Yhteenveto
-
+## Viimeinen sana
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
 Onnittelut Bitcoinin yksityisyyden suojan koulutuksen suorittamisesta!

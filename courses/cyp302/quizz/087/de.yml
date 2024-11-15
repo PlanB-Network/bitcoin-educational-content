@@ -1,0 +1,8 @@
+Frage: Welche Blockchiffrierungsmethode verwendet einen Initialisierungsvektor und erzeugt probabilistische Verschlüsselung?
+Antwort: CBC ("Cipher Block Chaining")
+Falsche Antworten:
+  - ECB ("Electronic Code Book")
+  - AES-128
+  - SHA-256
+Erklärung: |
+  Die CBC-Methode verwendet einen Initialisierungsvektor und wendet ein XOR zwischen jedem Block des Klartextes und dem vorherigen verschlüsselten Block an, was die Verschlüsselung probabilistisch und sicherer als ECB macht.

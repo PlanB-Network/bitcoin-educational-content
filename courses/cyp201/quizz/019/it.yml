@@ -1,9 +1,9 @@
-question: Qual è il ruolo di PBKDF2 nel protocollo Bitcoin?
-answer: Viene utilizzato per convertire una frase mnemonica in un seed.
-wrong_answers:
-  - Viene utilizzato per contrastare gli attacchi di estensione della lunghezza durante la derivazione di portafogli deterministici in modo gerarchico (HD).
-  - Viene utilizzato per generare un output di dimensioni fisse.
-  - Viene utilizzato per aggiungere una fonte aggiuntiva di entropia nella derivazione delle chiavi.
-explanation: |
-  PBKDF2 viene utilizzato per convertire una frase mnemonica in un seed. Questo algoritmo esegue 2048 round utilizzando HMAC SHA512.
-reviewed: false
+domanda: Qual è la curva ellittica più nota utilizzata nei sistemi crittografici?
+risposta: secp256r1.
+risposte_errate:
+  - secp256k1.
+  - secp160r1.
+  - ed25519.
+spiegazione: |
+  La curva ellittica secp256r1 è ampiamente utilizzata in molti sistemi crittografici, ma Bitcoin utilizza la curva secp256k1.
+revisionato: false

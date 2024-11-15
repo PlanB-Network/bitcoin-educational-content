@@ -1,9 +1,0 @@
-question: Was ist das Ergebnis des HMAC SHA-512 Algorithmus?
-answer: Eine 512-Bit-Nummer, aufgeteilt in zwei Teile; die linken 256 Bits repräsentieren den Haupt-Privatschlüssel, während die rechten 256 Bits den Haupt-Kettencode repräsentieren.
-wrong_answers:
-  - Eine 256-Bit-Nummer, die den Haupt-Privatschlüssel repräsentiert.
-  - Eine 256-Bit-Nummer, die den Haupt-Kettencode repräsentiert.
-  - Eine 512-Bit-Nummer, die den Seed repräsentiert.
-explanation: |
-  Das Ergebnis von HMAC SHA-512 ist eine 512-Bit-Nummer, aufgeteilt in zwei Teile; die linken 256 Bits repräsentieren den Haupt-Privatschlüssel, während die rechten 256 Bits den Haupt-Kettencode repräsentieren.
-reviewed: false

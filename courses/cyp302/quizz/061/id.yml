@@ -1,0 +1,9 @@
+pertanyaan: Jenis enkripsi apa yang menggunakan blok data tetap?
+jawaban: Enkripsi blok
+jawaban_salah:
+  - Enkripsi aliran
+  - Kode otentikasi pesan
+  - Kunci publik
+penjelasan: |
+  Enkripsi blok membagi data menjadi blok-blok berukuran tetap dan mengenkripsinya secara independen.
+ditinjau: false

@@ -1,0 +1,9 @@
+Câu hỏi: Mục đích của thao tác "dịch hàng" trong AES là gì?
+Câu trả lời: Tăng cường sự lan truyền bằng cách sắp xếp lại các byte trong bảng trạng thái
+Câu trả lời sai:
+  - Đảm bảo mỗi khối có cùng chiều dài
+  - Áp dụng khóa bí mật cho mỗi hàng của bảng trạng thái
+  - Giới thiệu sự nhầm lẫn bổ sung bằng cách thay thế các byte
+Giải thích: |
+  Thao tác "dịch hàng" trong AES sắp xếp lại các byte trong bảng trạng thái để lan truyền thông tin, do đó tăng cường sự lan truyền.
+Đã xem xét: false

@@ -1,0 +1,8 @@
+pertanyaan: Jika saya menghasilkan sebuah angka acak 128-bit, berapa ukuran frasa pemulihan saya dalam kata-kata?
+jawaban: 12 kata.
+jawaban_salah:
+  - 6 kata.
+  - 8 kata.
+  - 24 kata.
+penjelasan: |
+  Sebuah angka acak 128-bit sesuai dengan frasa mnemonik 12 kata, mengikuti standar BIP39.

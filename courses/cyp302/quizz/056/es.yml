@@ -1,0 +1,9 @@
+pregunta: ¿Qué tipo de estructura algebraica es la base del álgebra abstracta?
+respuesta: Grupo
+respuestas_incorrectas:
+  - Campo
+  - Anillo
+  - Matriz
+explicación: |
+  El grupo es la estructura algebraica fundamental sobre la cual se basa el álgebra abstracta, definida por un conjunto de elementos y una operación binaria que respeta ciertas propiedades.
+revisado: false

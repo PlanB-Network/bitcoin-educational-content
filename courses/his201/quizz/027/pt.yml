@@ -1,0 +1,8 @@
+pergunta: Qual manchete de jornal britânico foi incluída no bloco gênese do Bitcoin em janeiro de 2009?
+resposta: The Times
+respostas_erradas:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explicação: |
+  A inscrição exata foi "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks".

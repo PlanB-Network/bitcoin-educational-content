@@ -1,0 +1,9 @@
+pertanyaan: Apa dua jenis turunan kunci anak dalam dompet HD?
+jawaban: Turunan normal dan turunan keras.
+jawaban_salah:
+  - Turunan sederhana dan turunan kompleks.
+  - Turunan eliptik dan turunan kurva.
+  - Turunan statis dan turunan dinamis.
+penjelasan: |
+  Dua jenis turunan tersebut adalah turunan normal, yang menggunakan kunci publik induk, dan turunan keras, yang menggunakan kunci privat induk.
+ditinjau: false

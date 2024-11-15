@@ -1,11 +1,9 @@
-question: What is a forced closure?
-answer: One peer wants to close the channel, but the other peer does not respond, so the first peer publishes the most recent commitment transaction.
+question: How does the "Keysend" technology enable a fund transfer without an invoice?
+answer: The sender generates a secret in the HTLCs to unlock the funds
 wrong_answers:
-  - Both peers agree to close the channel and create a closing transaction.
-  - One peer tries to cheat by publishing an old commitment transaction.
-  - Both peers fight over the remaining SAT in the channel.
+  - The recipient generates a hash to validate the transfer
+  - The payment is validated through a direct channel between sender and recipient
+  - The funds are directly credited without additional security
 explanation: |
-  A forced closure occurs when one peer wants to close the channel, but
-  the other peer does not respond because they are offline. The first peer then publishes
-  the most recent commitment transaction.
+  Keysend allows the sender to generate a secret embedded in the HTLCs, enabling the recipient to unlock the funds without having issued an invoice.
 reviewed: false

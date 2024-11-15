@@ -1,0 +1,9 @@
+pertanyaan: Apa itu PRNG?
+jawaban: Sebuah algoritma yang menghasilkan angka acak dari sebuah seed dan fungsi transformasi.
+jawaban_salah:
+  - Sebuah perangkat keras yang menghasilkan angka acak sejati.
+  - Sebuah generator yang menghasilkan angka acak tanpa seed apapun.
+  - Sebuah algoritma yang menghasilkan angka yang dapat diprediksi.
+penjelasan: |
+  Sebuah PRNG menghasilkan angka pseudo-acak dari sebuah seed, namun tidak seperti TRNG, angka yang dihasilkan tidak benar-benar acak.
+ditinjau: false

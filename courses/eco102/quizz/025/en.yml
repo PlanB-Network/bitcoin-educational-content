@@ -1,0 +1,9 @@
+question: What was the main goal of the English League in 1838?
+answer: Against the corn laws
+wrong_answers:
+  - Against the large landowners
+  - For the promotion of agricultural workers
+  - Against foreign merchants
+explanation: |
+  The English League, inspired by Richard Cobden, aimed to abolish the protectionist corn laws to promote free trade and reduce poverty.
+reviewed: false

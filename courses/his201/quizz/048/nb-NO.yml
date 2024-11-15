@@ -1,0 +1,9 @@
+question: Hvilken tjeneste som aksepterte Bitcoin ble administrert av Teppy, personen som introduserte Bitcoin på Slashdot 11. juli 2010?
+answer: MMORPG-spillet "A Tale in the Desert"
+wrong_answers:
+  - VPN-tjenesten Mullvad
+  - VoIP-tjenesten Link2VoIP
+  - Webhotelltjenesten Vekja.net
+explanation: |
+  Denne [startet](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) å akseptere Bitcoin 19. mai.
+reviewed: false

@@ -1,0 +1,9 @@
+Frage: Was ist die Definition dafür, dass eine ganze Zahl zu einer anderen ganzen Zahl teilerfremd ist?
+Antwort: Eine ganze Zahl, die mit dieser anderen ganzen Zahl den größten gemeinsamen Teiler 1 hat
+falsche_Antworten:
+  - Eine ganze Zahl, die durch die andere ganze Zahl ohne Rest teilbar ist
+  - Eine ganze Zahl, die prim ist
+  - Eine ganze Zahl, die größer als die andere ist
+Erklärung: |
+  Eine ganze Zahl ist zu einer anderen teilerfremd, wenn ihr größter gemeinsamer Teiler 1 ist, was bedeutet, dass sie keinen anderen gemeinsamen Faktor teilen.
+überprüft: false

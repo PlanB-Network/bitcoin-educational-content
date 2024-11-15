@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es el principal defecto del método ECB con un cifrado de bloque?
+respuesta: Es determinista y puede revelar patrones en los datos
+respuestas_incorrectas:
+  - Requiere claves de longitud variable
+  - No funciona con mensajes de más de 128 bits
+  - No funciona con mensajes de más de 256 bits
+explicación: |
+  El método ECB ("Electronic Code Book") es determinista: bloques idénticos de datos se cifran de la misma manera, lo que permite que se detecten patrones en el texto cifrado.
+revisado: false

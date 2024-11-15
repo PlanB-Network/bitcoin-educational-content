@@ -1,0 +1,9 @@
+pertanyaan: Berapa harga dalam dolar dari prediksi Hal Finney pada Januari 2009?
+jawaban: 10,000,000
+jawaban_salah:
+  - 1,000,000
+  - 100,000
+  - 10,000
+penjelasan: |
+  Dia [menulis](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) bahwa "kemungkinan menghasilkan unit hari ini dengan beberapa sen waktu komputasi" bisa menjadi "taruhan yang sangat baik".
+ditinjau: false

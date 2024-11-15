@@ -1,0 +1,9 @@
+question: Hva er uttrykket for informasjon som knytter en bunt med on-chain aktiviteter til en form for reell identitet?
+answer: Et inngangspunkt.
+wrong_answers:
+  - En koblingsnøkkel.
+  - Et fingeravtrykkslenke.
+  - En analysemarkør.
+explanation: |
+  Atferd og informasjon som kan knytte en reell identitet til on-chain aktivitet kalles "inngangspunkter".
+reviewed: false

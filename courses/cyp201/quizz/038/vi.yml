@@ -1,9 +1,8 @@
-question: Tổng số khả năng cho một khóa riêng tư theo lý thuyết là bao nhiêu?
-answer: 2^256
-wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
-explanation: |
-  Tổng số khả năng cho một khóa riêng tư theo lý thuyết là 2^256, nhưng thực tế, nó ít hơn một chút so với con số đó.
-reviewed: false
+câu hỏi: Sự khác biệt chính giữa PRNG và TRNG là gì?
+câu trả lời: PRNG là xác định, trong khi TRNG tạo ra các số ngẫu nhiên thực sự.
+câu trả lời sai:
+  - TRNG nhanh hơn PRNG.
+  - TRNG sử dụng một hạt giống, trong khi PRNG không sử dụng hạt giống nào.
+  - PRNG là phần cứng, trong khi TRNG là phần mềm.
+giải thích: |
+  TRNG (True Random Number Generator) tạo ra các số ngẫu nhiên từ một hiện tượng ngẫu nhiên vật lý, không giống như PRNG là xác định.

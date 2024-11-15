@@ -1,0 +1,11 @@
+pertanyaan: Apa tujuan dari pengelola kata sandi dalam Bitcoin?
+jawaban: Untuk menyimpan dan mengelola kata sandi transaksi Bitcoin secara aman.
+jawaban_salah:
+  - Untuk menambang Bitcoin baru.
+  - Untuk berdagang Bitcoin.
+  - Untuk mengonversi Bitcoin ke mata uang kripto lain.
+penjelasan: |
+  Pengelola kata sandi adalah aplikasi perangkat lunak yang digunakan untuk menyimpan dan
+  mengelola kata sandi seseorang untuk berbagai akun online. Dalam konteks Bitcoin,
+  ini digunakan untuk menyimpan dan mengelola kata sandi transaksi Bitcoin secara aman.
+ditinjau: false

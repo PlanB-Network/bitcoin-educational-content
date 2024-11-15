@@ -1,0 +1,12 @@
+question: Mis on tarkvara roll Bitcoin'i kaevandamisel ja kuidas see aitab kaasa efektiivsusele?
+answer: Bitcoin'i kaevandamisel kasutatav tarkvara, nagu BrainsOS Plus, asendab kaevandusmasina algse operatsioonisüsteemi, võimaldades samu toiminguid sooritada efektiivsemalt. See võib suurendada masina efektiivsust 25% võrra, tähendades, et võrdse elektrikoguse korral suudab masin toota lisaks 25% hashrate'i, suurendades seeläbi kaevurite saadavaid tasusid.
+wrong_answers:
+  - Bitcoin'i kaevandamisel kasutatav tarkvara on mõeldud kaevandatud Bitcoin'i koguse jälgimiseks ja see ei aita kaasa efektiivsusele.
+  - Bitcoin'i kaevandamisel kasutatav tarkvara on mõeldud kaevandusmasina internetiga ühendamiseks ja see ei aita kaasa efektiivsusele.
+  - Bitcoin'i kaevandamisel kasutatav tarkvara on mõeldud kaevandusmasina jahutamiseks ja see ei aita kaasa efektiivsusele.
+explanation: |
+  Peatükk selgitab, et tarkvara nagu BrainsOS Plus võib asendada
+  kaevandusmasina algse operatsioonisüsteemi, võimaldades samu toiminguid sooritada
+  efektiivsemalt. See tarkvara optimeerimine on oluline element
+  konkurentsivõimele Bitcoin'i kaevandamises.
+reviewed: false

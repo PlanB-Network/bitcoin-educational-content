@@ -1,0 +1,8 @@
+pertanyaan: Apa perbedaan utama antara PRNG dan TRNG?
+jawaban: PRNG bersifat deterministik, sementara TRNG menghasilkan angka acak yang sebenarnya.
+jawaban_salah:
+  - TRNG lebih cepat daripada PRNG.
+  - TRNG menggunakan seed, sementara PRNG tidak menggunakan seed apa pun.
+  - PRNG adalah perangkat keras, sementara TRNG adalah perangkat lunak.
+penjelasan: |
+  TRNG (True Random Number Generator) menghasilkan angka acak dari fenomena acak fisik, tidak seperti PRNG yang bersifat deterministik.

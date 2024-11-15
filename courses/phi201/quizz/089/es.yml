@@ -1,0 +1,8 @@
+question: ¿Qué implica el "estricto límite entre la esfera pública y la esfera privada" que abogaba Constant?
+answer: Este límite implica que el Estado no debe interferir en la vida privada de los individuos.
+wrong_answers:
+  - Este límite implica que los individuos no deben involucrarse en asuntos públicos.
+  - Este límite implica una separación total entre la Iglesia y el Estado.
+  - Este límite implica que los individuos deben tener las mismas libertades en ambas esferas, la pública y la privada.
+explanation: |
+  Para Benjamin Constant, un estricto límite entre las esferas pública y privada significa que el Estado debe respetar la privacidad de los individuos y evitar cualquier intervención en elecciones personales que no conciernen al dominio público.

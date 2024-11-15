@@ -1,0 +1,9 @@
+kysymys: Miksi RC4 luokitellaan synkroniseksi virtasalaukseksi?
+vastaus: Avainvirta on riippumaton selkotekstistä ja salatusta tekstistä
+väärät_vastaukset:
+  - Avainvirta riippuu aiempien salattujen tekstien arvoista
+  - Selkotekstin on oltava integroitu avainvirtaan
+  - Se käyttää avainvirtaa, joka perustuu yksinomaan selkotekstiin
+selitys: |
+  RC4 on synkroninen virtasalaus, koska sen avainvirta riippuu vain alkuperäisestä avaimesta eikä selkotekstistä tai salatusta tekstistä, varmistaen näin tämän virran riippumattomuuden viesteistä.
+arvioitu: false

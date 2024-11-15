@@ -1,0 +1,9 @@
+pertanyaan: Apa tujuan dari operasi "shift rows" dalam AES?
+jawaban: Untuk meningkatkan difusi dengan mengatur ulang byte dalam tabel state
+jawaban_salah:
+  - Memastikan setiap blok memiliki panjang yang sama
+  - Menerapkan kunci rahasia ke setiap baris dari tabel state
+  - Memperkenalkan kebingungan tambahan dengan menggantikan byte
+penjelasan: |
+  Operasi "shift rows" dalam AES mengatur ulang byte dalam tabel state untuk menyebarkan informasi, dengan demikian meningkatkan difusi.
+ditinjau: false

@@ -1,11 +1,9 @@
-question: What is the importance of private key security in the Bitcoin ecosystem?
-answer: It ensures the security of Bitcoin transactions.
+question: What are the two types of child key derivation in an HD wallet?
+answer: Normal derivation and hardened derivation.
 wrong_answers:
-  - It ensures the speed of Bitcoin transactions.
-  - It ensures the anonymity of Bitcoin transactions.
-  - It ensures the legality of Bitcoin transactions.
+  - Simple derivation and complex derivation.
+  - Elliptic derivation and curve derivation.
+  - Static derivation and dynamic derivation.
 explanation: |
-  Private keys are the cornerstone that ensures the security of Bitcoin
-  transactions. They must be generated in a truly random manner to avoid any vulnerability
-  associated with predictability.
+  The two types of derivation are normal derivation, which uses the parent public key, and hardened derivation, which uses the parent private key.
 reviewed: false

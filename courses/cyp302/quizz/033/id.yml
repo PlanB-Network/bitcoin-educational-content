@@ -1,0 +1,8 @@
+pertanyaan: Apa fungsi utama dari sebuah seed dalam konteks rantai pseudorandom?
+jawaban: Untuk berfungsi sebagai titik awal dalam menghasilkan rantai yang lebih panjang
+jawaban_salah:
+  - Untuk menentukan panjang tetap dari sebuah rantai pseudorandom
+  - Untuk memverifikasi integritas dari sebuah rantai pseudorandom
+  - Untuk menambahkan distribusi seragam ke nilai-nilai dari sebuah rantai
+penjelasan: |
+  Seed adalah string pendek yang digunakan sebagai titik awal oleh algoritma ekspansi untuk menghasilkan rantai pseudorandom yang lebih panjang.

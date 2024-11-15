@@ -1,0 +1,9 @@
+kysymys: Mitä XOR-operaatio tarkoittaa, kun sitä sovelletaan kahden bitin välillä?
+vastaus: Se palauttaa 1, jos bitit ovat erilaiset, muussa tapauksessa se palauttaa 0
+vaarat_vastaukset:
+  - Se palauttaa 1 vain, jos molemmat bitit ovat 1
+  - Se lisää bitit ja palauttaa summan
+  - Se palauttaa aina 0 riippumatta tuloksesta
+selitys: |
+  XOR-operaatio (tai "poissulkeva tai") tuottaa 1, jos kaksi bittiä ovat erilaiset (0 ja 1 tai 1 ja 0) ja 0, jos ne ovat samat.
+arvioitu: false

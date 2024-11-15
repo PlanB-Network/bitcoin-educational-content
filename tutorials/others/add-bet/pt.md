@@ -17,7 +17,7 @@ Você quer participar do enriquecimento desta base de dados, mas não sabe como?
 https://planb.network/tutorials/others/create-github-account
 
 
-- Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) na seção `resources/bet/`:
+- Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) na seção `resources/bet/`:
 ![event](assets/02.webp)
 - Clique no topo direito no botão `Add file`, depois em `Create new file`:
 ![event](assets/03.webp)
@@ -73,7 +73,7 @@ contributors: Mencione seu identificador de contribuidor se você tiver um.
 Por exemplo, seu arquivo YAML poderia parecer assim:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -159,7 +159,7 @@ description: |
 - Recupere a URL intermediária do seu arquivo. Por exemplo, no meu caso, a URL é:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Mantenha apenas a última parte da URL a partir de `/resources` em diante:
@@ -171,7 +171,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Adicione à base da URL as seguintes informações para ter o link correto:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 O que estamos fazendo aqui é antecipar o futuro link para o seu arquivo, uma vez que sua proposta tenha sido mesclada ao repositório fonte da Rede PlanB.

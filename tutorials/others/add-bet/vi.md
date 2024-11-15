@@ -17,7 +17,7 @@ Bạn muốn tham gia làm phong phú cơ sở dữ liệu này, nhưng không b
 https://planb.network/tutorials/others/create-github-account
 
 
-- Truy cập [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) trong phần `resources/bet/`:
+- Truy cập [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) trong phần `resources/bet/`:
 ![event](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![event](assets/03.webp)
@@ -72,7 +72,7 @@ https://planb.network/tutorials/others/add-builder
 Ví dụ, tệp YAML của bạn có thể trông như thế này:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -157,7 +157,7 @@ description: |
 - Lấy URL trung gian của tệp của bạn. Ví dụ, trong trường hợp của tôi, URL là:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Chỉ giữ lại phần cuối của URL từ `/resources` trở đi:
@@ -169,7 +169,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Thêm vào cơ sở của URL thông tin sau để có liên kết chính xác:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Những gì chúng ta đang làm ở đây là dự đoán liên kết tương lai đến tệp của bạn, một khi đề xuất của bạn đã được hợp nhất vào kho lưu trữ nguồn của Mạng PlanB.

@@ -1,0 +1,11 @@
+question: Hva er hovedrollen til transaksjonen "Tx0" i Whirlpool?
+
+answer: Å jevne ut UTXOene.
+
+wrong_answers:
+  - Å utføre den første miksen.
+  - Å fjerne UTXOene fra bassenget.
+  - Å bruke de miksete UTXOene.
+
+explanation: |
+  Tx0 har som mål å forberede og jevne ut UTXOene for coinjoin, ved å dele dem inn i enheter som tilsvarer mengden av det valgte bassenget, for å sikre homogeniteten av miksen.

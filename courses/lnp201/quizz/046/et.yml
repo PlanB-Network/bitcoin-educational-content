@@ -1,0 +1,8 @@
+question: Mida tähendab Lightning arve inimloetavas osas eesliide "lnbc"?
+answer: See näitab Lightning tehingut Bitcoin'i plokiahelas
+wrong_answers:
+  - Et arve kehtib ainult Bitcoin'i testvõrgus
+  - Et arve on kodeeritud bech32-s
+  - Et tegemist on on-chain tehinguga
+explanation: |
+  Eesliide 'lnbc' tähistab, et arve on mõeldud Lightning tehinguks Bitcoin'i võrgus, mitte mõnel teisel võrgul.

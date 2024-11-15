@@ -1,9 +1,9 @@
-question: O que uma carteira de Bitcoin armazena?
-answer: As chaves privadas necessárias para comprovar a propriedade dos bitcoins
-wrong_answers:
-  - Os próprios bitcoins
-  - As chaves públicas necessárias para comprovar a propriedade dos bitcoins
-  - O histórico de transações dos bitcoins
-explanation: |
-  Na realidade, uma carteira de Bitcoin armazena as chaves privadas necessárias para comprovar a propriedade dos bitcoins. Os próprios bitcoins são registrados no blockchain, um banco de dados descentralizado que arquiva todas as transações.
-reviewed: false
+pergunta: O que o ponto V representa no processo de assinatura digital com ECDSA como exemplo neste capítulo?
+resposta: O ponto calculado a partir do nonce v e o ponto gerador G (V = v.G).
+respostas_incorretas:
+  - O ponto derivado diretamente da chave pública.
+  - O hash da mensagem assinada.
+  - O resultado da adição de dois pontos na curva elíptica.
+explicação: |
+  V é o resultado do cálculo do nonce multiplicado pelo ponto gerador na curva elíptica.
+revisado: false

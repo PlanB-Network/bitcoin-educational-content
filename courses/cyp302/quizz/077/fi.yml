@@ -1,0 +1,9 @@
+kysymys: Mikä on Kerckhoffin periaatteen rooli kryptografiassa?
+vastaus: Varmistaa, että turvallisuus perustuu salaiseen avaimen, ei järjestelmän salaisuuden varaan
+vaarat_vastaukset:
+  - Varmistaa, että turvallisuus perustuu järjestelmän salaisuuden varaan, ei salaiseen avaimen
+  - Vaatia erittäin pitkää salausavainta
+  - Taata, että jokaisella viestillä on ainutlaatuinen avain
+selitys: |
+  Kerckhoffin periaatteen mukaan kryptografisen järjestelmän turvallisuuden tulisi perustua ainoastaan salaiseen avaimen, eikä itse algoritmin salaisuuden varaan.
+arvioitu: false

@@ -1,0 +1,9 @@
+kysymys: Mikä funktio käytetään laskemaan kokonaislukujen määrän, jotka ovat pienempiä kuin N ja ovat keskenään suhteettomia N:n kanssa?
+vastaus: Eulerin Phi-funktio
+väärät_vastaukset:
+  - Eulerin Gamma-funktio
+  - Eulerin Sigma-funktio
+  - Dirichletin Beta-funktio
+selitys: |
+  Eulerin Phi-funktio määrittää kokonaislukujen määrän, jotka ovat pienempiä kuin N ja ovat keskenään suhteettomia N:n kanssa, mikä on keskeinen käsite kryptografian teoreemoissa, jotka perustuvat alkulukuihin.
+arvioitu: false

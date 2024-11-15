@@ -1,0 +1,12 @@
+question: Hva var strategien som Spania brukte for å devaluere sin valuta uten å påvirke sin posisjon i internasjonal handel?
+answer: Spania devaluerte selektivt Maravedi, en lokal valuta, mens de bevarte verdien av den spanske dollaren på den globale scenen.
+wrong_answers:
+  - Spania devaluerte selektivt den spanske dollaren, en lokal valuta, mens de bevarte verdien av Maravedi på den globale scenen.
+  - Spania økte selektivt verdien av Maravedi, en lokal valuta, mens de bevarte verdien av den spanske dollaren på den globale scenen.
+  - Spania økte selektivt verdien av den spanske dollaren, en lokal valuta, mens de bevarte verdien av Maravedi på den globale scenen.
+explanation: |
+  Spania befant seg i en delikat situasjon. Å fortynne den spanske dollaren
+  ville ha kompromittert sin posisjon i internasjonal handel. For å overkomme dette dilemmaet,
+  vendte Spania seg til Maravedi, en kobbermynt som hovedsakelig ble brukt blant den lokale befolkningen.
+  Denne valutaen ble målrettet for devaluering.
+reviewed: false

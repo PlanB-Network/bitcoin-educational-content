@@ -59,7 +59,7 @@ PlanB Networkに貢献するためには、GitHubに関する経験レベルに�
 
 ### 新しいブランチを作成する
 
-- ブラウザを開き、GitHub上で確立したあなたのPlanBリポジトリのフォークのページに移動します。あなたのフォークのURLは次のようになります：`https://github.com/[your-username]/sovereign-university-data`:
+- ブラウザを開き、GitHub上で確立したあなたのPlanBリポジトリのフォークのページに移動します。あなたのフォークのURLは次のようになります：`https://github.com/[your-username]/bitcoin-educational-content`:
 ![tutorial](assets/3.webp)
 - メインブランチ`dev`にいることを確認し、`Sync fork`ボタンをクリックします。フォークが最新でない場合、GitHubはブランチの更新を提案します。この更新を進めてください。逆に、ブランチが既に最新の場合、GitHubはその旨を通知します：
 ![tutorial](assets/4.webp)
@@ -70,7 +70,7 @@ PlanB Networkに貢献するためには、GitHubに関する経験レベルに�
 ![tutorial](assets/7.webp)
 - このブランチをクリックし、次に`New Branch`ボタンをクリックします：
 ![tutorial](assets/8.webp)
-- 新しいブランチがソースリポジトリ、つまり`DecouvreBitcoin/sovereign-university-data`に基づいていることを確認します。
+- 新しいブランチがソースリポジトリ、つまり`PlanB-Network/bitcoin-educational-content`に基づいていることを確認します。
 - その目的が明確になるように、各単語をダッシュで区切ってブランチに名前を付けます。例えば、Sparrow Walletソフトウェアの使用に関するチュートリアルを書くことが目標だとしましょう。この場合、このチュートリアルの作成に専念する作業ブランチは、`tuto-sparrow-wallet-loic`と名付けることができます。適切な名前を入力したら、`Create branch`をクリックしてブランチの作成を確認します：
 ![tutorial](assets/9.webp)
 - 今度は`Publish branch`ボタンをクリックして、新しい作業ブランチをGitHub上のオンラインフォークに保存します：
@@ -82,7 +82,7 @@ PlanB Networkに貢献するためには、GitHubに関する経験レベルに�
 ### チュートリアルの追加
 
 作業ブランチが作成されたので、新しいチュートリアルを統合する時が来ました。
-- ファイルマネージャーを開き、リポジトリのローカルクローンを表す`sovereign-university-data`フォルダに移動します。通常、`Documents\GitHub\sovereign-university-data`の下に見つかるはずです。このディレクトリ内で、チュートリアルを配置する適切なサブフォルダを見つける必要があります。フォルダの構成はPlanB Networkウェブサイトの異なるセクションを反映しています。私たちの例では、Sparrow Walletに関するチュートリアルを追加したいので、次のパスに進むのが適切です：`sovereign-university-data\tutorials\wallet` これはウェブサイトの`WALLET`セクションに対応しています： ![チュートリアル](assets/12.webp)
+- ファイルマネージャーを開き、リポジトリのローカルクローンを表す`bitcoin-educational-content`フォルダに移動します。通常、`Documents\GitHub\bitcoin-educational-content`の下に見つかるはずです。このディレクトリ内で、チュートリアルを配置する適切なサブフォルダを見つける必要があります。フォルダの構成はPlanB Networkウェブサイトの異なるセクションを反映しています。私たちの例では、Sparrow Walletに関するチュートリアルを追加したいので、次のパスに進むのが適切です：`bitcoin-educational-content\tutorials\wallet` これはウェブサイトの`WALLET`セクションに対応しています： ![チュートリアル](assets/12.webp)
 - `wallet`フォルダ内で、チュートリアルに特化した新しいディレクトリを作成する必要があります。このフォルダの名前は、チュートリアルで取り上げられるソフトウェアを連想させ、単語をダッシュで繋ぐことで、明確にする必要があります。私の例では、フォルダは`sparrow-wallet`というタイトルになります：
 ![チュートリアル](assets/13.webp)
 - この新しいチュートリアル専用のサブフォルダ内には、いくつかの要素を追加する必要があります：
@@ -93,7 +93,7 @@ PlanB Networkに貢献するためには、GitHubに関する経験レベルに�
 ![チュートリアル](assets/14.webp)
 - 作成するファイルの階層をまとめると、以下のようになります：
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (適切なカテゴリに修正する)
         └── sparrow-wallet/ (チュートリアルの名前に修正する)

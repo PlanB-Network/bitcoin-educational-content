@@ -1,0 +1,9 @@
+question: Mis on üldiselt vastuvõtu aadress?
+answer: Avaliku võtme räsi koos metaandmetega, mis on paigutatud kindlasse formaati.
+wrong_answers:
+  - Privaatvõtme räsi koos metaandmetega, mis on paigutatud kindlasse formaati.
+  - Laiendatud võtme räsi koos metaandmetega, mis on paigutatud kindlasse formaati.
+  - Ahelakoodi räsi koos metaandmetega.
+explanation: |
+  Üldiselt on vastuvõtu aadress avaliku võtme räsi, mis on seotud metaandmetega ja mida kasutatakse scriptPubKey's tingimuste kehtestamiseks.
+reviewed: false

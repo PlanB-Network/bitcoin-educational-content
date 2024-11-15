@@ -1,0 +1,9 @@
+question: "HMAC"とは何ですか？
+answer: ハッシュ関数に基づくメッセージ認証コード
+wrong_answers:
+  - ハッシュ関数に基づく非対称暗号アルゴリズム
+  - Diffie-Hellmanに基づく非対称暗号アルゴリズム
+  - Diffie-Hellmanに基づくメッセージ認証コード
+explanation: |
+  HMACは、SHA-256のようなハッシュ関数を使用して、メッセージの完全性と認証性を検証するタグを作成するメッセージ認証コードです。
+reviewed: false

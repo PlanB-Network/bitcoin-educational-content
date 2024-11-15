@@ -212,3 +212,9 @@ Suggerimenti:
 
 Indirizzo Lightning statico: dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/
+
+
+Per approfondire questo argomento e rafforzare la sicurezza del tuo portafoglio su un Ledger Nano con una passphrase BIP39, ti invito a consultare questo tutorial completo:
+
+https://planb.network/tutorials/wallet/passphrase-ledger
+

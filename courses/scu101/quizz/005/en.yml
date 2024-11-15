@@ -5,6 +5,7 @@ wrong_answers:
   - Because it is not user-friendly.
   - Because it does not support extensions.
 explanation: |
-  Google Chrome browser is known for its trackers, which can collect data
-  about your online activity. This can be a privacy concern for some users.
-reviewed: false
+  Google Chrome browser is known for its trackers, which can
+  collect data about your online activity. This can be a
+  privacy concern for some users.
+reviewed: true

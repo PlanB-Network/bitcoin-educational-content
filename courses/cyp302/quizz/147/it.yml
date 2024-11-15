@@ -1,0 +1,9 @@
+domanda: Se un intero N è il prodotto di due numeri primi p e q, come si calcola l'ordine di N?
+risposta: (p - 1) * (q - 1)
+risposte_errate:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+spiegazione: |
+  Per N uguale al prodotto di due numeri primi p e q, l'ordine di N si calcola come (p - 1) * (q - 1).
+recensito: false

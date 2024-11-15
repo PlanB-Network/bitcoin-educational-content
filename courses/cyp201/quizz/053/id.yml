@@ -1,0 +1,8 @@
+pertanyaan: Informasi apa yang dihitung dari seed dengan menerapkan HMAC-SHA512?
+jawaban: Kunci utama dan kode rantai utama dari dompet.
+jawaban_salah:
+  - Kunci perluasan dari dompet.
+  - xpub dan xprv dari dompet.
+  - Kode tanda tangan kunci pribadi.
+penjelasan: |
+  Dari seed, HMAC-SHA512 menghasilkan kunci utama dan kode rantai utama, yang merupakan dasar untuk generasi kunci.

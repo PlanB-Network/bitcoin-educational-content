@@ -1,0 +1,8 @@
+küsimus: Milline vahetusplatvorm, mis loodi märtsis 2010, oli kõige populaarsem enne Mt. Goxi tekkimist juulis?
+vastus: Bitcoin Market
+valed_vastused:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+selgitus: |
+  See oli peer-to-peer turg, mis kasutas PayPal'i ja mille lõi 16. märtsil 2010 isik nimega dwdollar. See oli peamine platvorm enne Mt. Goxi.

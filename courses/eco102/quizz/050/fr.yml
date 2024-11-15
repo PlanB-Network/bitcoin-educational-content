@@ -1,0 +1,9 @@
+question: Quel est le sophisme principal dénoncé par Bastiat dans "Ce qu'on voit et ce qu'on ne voit pas" ?
+answer: La destruction stimule l'économie
+wrong_answers:
+  - La destruction est un malheur
+  - Les vitriers sont les seuls à bénéficier des vitres cassées
+  - Les accidents sont à éviter
+explanation: |
+  Bastiat critique le sophisme selon lequel la destruction aurait des effets économiques bénéfiques en stimulant l'économie, montrant au contraire qu'elle entraîne une perte nette de richesse.
+reviewed: false

@@ -1,0 +1,9 @@
+otázka: Které číslo verze softwaru bylo prezentováno na Slashdot v červenci 2010?
+odpověď: v0.3
+nesprávné_odpovědi:
+  - v0.1
+  - v0.2
+  - v0.4
+vysvětlení: |
+  Vydání této verze, na kterém dlouho pracovali Satoshi a Martti, znamenalo nový pokus o komunikaci.
+recenzováno: false

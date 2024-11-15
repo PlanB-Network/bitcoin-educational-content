@@ -1,11 +1,9 @@
-question: Was ist die Bedeutung des Punkts im Unendlichen im ECDSA-Algorithmus?
-answer: Wenn der berechnete Punkt P der Punkt im Unendlichen ist, ist die Signatur ungültig.
-wrong_answers:
-  - Wenn der berechnete Punkt P der Punkt im Unendlichen ist, ist die Signatur gültig.
-  - Der Punkt im Unendlichen wird verwendet, um den Nonce zu berechnen.
-  - Der Punkt im Unendlichen wird verwendet, um die Schlüssel zu verschlüsseln.
-explanation: |
-  Im ECDSA-Algorithmus wird, wenn der berechnete Punkt P auf der elliptischen Kurve
-  der Punkt im Unendlichen ist, die Signatur als ungültig betrachtet. Dies ist eine der
-  Überprüfungen, die während der Validierung einer digitalen Signatur durchgeführt werden.
-reviewed: false
+Frage: Was passiert, wenn ich ein HD-Wallet mit einem Passwort verwende und dieses Passwort verliere?
+Antwort: Meine Bitcoins sind für immer verloren.
+falsche_Antworten:
+  - Es ist kein Problem, ich kann immer noch auf meine Bitcoins zugreifen, nur mit meiner mnemonischen Phrase.
+  - Ich kann das Passwort mit meinem privaten Schlüssel zurücksetzen.
+  - Ich kann meine Bitcoins wiederherstellen, indem ich ein Wallet ohne Passwort verwende.
+Erklärung: |
+  Wenn das Passwort verloren geht, ist der Zugang zu den Bitcoins dauerhaft verloren, da es notwendig ist, um die privaten Schlüssel abzuleiten.
+überprüft: false

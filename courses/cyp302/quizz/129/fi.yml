@@ -1,0 +1,9 @@
+kysymys: Mikä muu brittiläinen löytö GCHQ:n tutkijoiden toimesta edelsi Diffien ja Hellmanin löytöä, mutta pysyi salaisena?
+vastaus: Asymmetrisen kryptografian ja avainvaihdon konseptit
+vaarat_vastaukset:
+  - Symmetrinen salausprotokolla kehitetty ilman avaimen tarvetta
+  - Uusi menetelmä asymmetriseen kryptografiseen hajautukseen
+  - Menetelmä sähköisen rahan luomiseen
+selitys: |
+  Brittiläiset kryptografian asiantuntijat, jotka työskentelivät GCHQ:lle, kehittivät itsenäisesti ideoita, jotka olivat samankaltaisia kuin Diffien ja Hellmanin, mutta nämä edistysaskeleet pysyivät luottamuksellisina, kunnes ne paljastettiin vuonna 1997.
+arvioitu: false

@@ -1,9 +1,0 @@
-question: ビットコインを公開鍵にロックすることを可能にするスクリプトタイプは何ですか？
-answer: Pay2PublicKey
-wrong_answers:
-  - Pay2Address
-  - Pay2PrivateKey
-  - Pay2Hash
-explanation: |
-  ビットコインを公開鍵にロックすることを可能にするスクリプトタイプは、Pay2PublicKeyと呼ばれます。しかし、ユーザーは一般的にこのスクリプトの代わりに受信アドレスを使用することを好みます。
-reviewed: false

@@ -1,0 +1,12 @@
+question: "Hva er den grunnleggende forskjellen mellom Carl Mengers marginalteori om verdi og den til Leon Walras og William Stanley Jevons?"
+answer: Mengers teori er primært subjektiv, mens Walras og Jevons anser verdi for å være et objektivt og målbart fenomen.
+wrong_answers:
+  - Mengers teori er primært objektiv, mens Walras og Jevons anser verdi for å være et subjektivt og umålbart fenomen.
+  - Mengers teori er basert på arbeidsteorien om verdi, mens Walras og Jevons anser verdi for å være basert på mengden land brukt i produksjon.
+  - Mengers teori er basert på fysiokratenes teori om landverdi, mens Walras og Jevons anser verdi for å være basert på arbeidet brukt i produksjon.
+explanation: |
+  Ifølge kapittelet er Mengers marginalteori om verdi subjektiv,
+  noe som betyr at den er basert på individets oppfatning av nytten de kan få
+  fra en vare eller tjeneste. På den andre siden anser Walras og Jevons verdi for å være
+  et objektivt og målbart fenomen.
+reviewed: false

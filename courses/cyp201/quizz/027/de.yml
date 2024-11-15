@@ -1,9 +1,9 @@
-question: Was speichert eine Bitcoin-Wallet?
-answer: Die privaten Schlüssel, die zum Nachweis des Besitzes der Bitcoins erforderlich sind.
-wrong_answers:
-  - Die Bitcoins selbst
-  - Die öffentlichen Schlüssel, die zum Nachweis des Besitzes der Bitcoins erforderlich sind
-  - Die Transaktionshistorie der Bitcoins
-explanation: |
-  In Wirklichkeit speichert eine Bitcoin-Wallet die privaten Schlüssel, die zum Nachweis des Besitzes der Bitcoins erforderlich sind. Die Bitcoins selbst werden auf der Blockchain, einer dezentralen Datenbank, die alle Transaktionen archiviert, aufgezeichnet.
-reviewed: false
+Frage: Was repräsentiert der Punkt V im Prozess der digitalen Signatur mit ECDSA als Beispiel in diesem Kapitel?
+Antwort: Der Punkt, der aus dem Nonce v und dem Generatorpunkt G berechnet wird (V = v.G).
+Falsche Antworten:
+  - Der Punkt, der direkt vom öffentlichen Schlüssel abgeleitet wird.
+  - Der Hash der signierten Nachricht.
+  - Das Ergebnis der Addition zweier Punkte auf der elliptischen Kurve.
+Erklärung: |
+  V ist das Ergebnis der Berechnung des Nonce multipliziert mit dem Generatorpunkt auf der elliptischen Kurve.
+Überprüft: false

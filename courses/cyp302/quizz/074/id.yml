@@ -1,0 +1,9 @@
+pertanyaan: Apa yang terjadi jika kunci 7 digunakan untuk mengenkripsi kata "CAT"?
+jawaban: Kata tersebut menjadi "JHA"
+jawaban_salah:
+  - Kata tersebut menjadi "JBA"
+  - Kata tersebut menjadi "JHB"
+  - Kata tersebut menjadi "ZHA"
+penjelasan: |
+  Dengan kunci 7, setiap huruf dari kata "CAT" digeser sebanyak 7 posisi dalam abjad, yang menghasilkan kata terenkripsi "JHA".
+ditinjau: false

@@ -1,0 +1,9 @@
+Frage: Warum werden "Pseudorandom Stream Ciphers" in der Praxis häufiger verwendet als One-Time Pads?
+Antwort: Sie ermöglichen die Verwendung eines kürzeren Schlüssels, während ein längerer Schlüsselstrom generiert wird
+falsche_Antworten:
+  - Sie erfordern keinen geheimen Schlüssel
+  - Sie verwenden eine Kombination aus symmetrischer und asymmetrischer Verschlüsselung
+  - Sie benötigen keine Schlüsselaktualisierungen
+Erklärung: |
+  Pseudorandom Stream Ciphers sind praktischer, weil sie es ermöglichen, einen kurzen Schlüssel in einen längeren Schlüsselstrom zu erweitern, wodurch die Notwendigkeit entfällt, einen Schlüssel zu speichern, der so lang wie die Nachricht selbst ist.
+überprüft: false

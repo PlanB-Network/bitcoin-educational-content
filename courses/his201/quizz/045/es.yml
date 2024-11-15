@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es el nombre del sitio web que contribuyó significativamente a dar a conocer Bitcoin en julio de 2010?
+respuesta: Slashdot
+respuestas_incorrectas:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explicación: |
+  El 11 de julio de 2010, una presentación de Bitcoin escrita por Teppy fue publicada en este popular sitio, lo que llevó a un masivo flujo de nuevos usuarios.
+revisado: false

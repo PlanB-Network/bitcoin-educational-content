@@ -1,0 +1,9 @@
+question: Millist funktsiooni kasutatakse seemne genereerimiseks mnemoonilisest fraasist ja paroolilausest?
+answer: PBKDF2.
+wrong_answers:
+  - SHA256.
+  - HMAC.
+  - Argon2.
+explanation: |
+  PBKDF2 (Password-Based Key Derivation Function 2) on kasutusel HD rahakottides seemne tuletamiseks mnemoonilisest fraasist ja paroolilausest.
+reviewed: false

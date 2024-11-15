@@ -1,0 +1,9 @@
+question: Mis on JBOK rahakott Bitcoin'i kontekstis?
+answer: Rahakott, mis grupeerib juhuslikult määratud privaatvõtmed, ilma nende vahelise seoseta.
+wrong_answers:
+  - Rahakott, mis tuletatud võtmed hierarhilisel viisil ühest seemnest.
+  - Rahakott, mis tuletatud võtmed eelnevatest võtmetest.
+  - Rahakott, mis kasutab võtmete tuletamiseks ainult mnemoonilist fraasi.
+explanation: |
+  JBOK (Just a Bunch Of Keys) rahakott sisaldab privaatvõtmeid, mis on genereeritud juhuslikult ja sõltumatult üksteisest, erinevalt HD rahakottidest.
+reviewed: false

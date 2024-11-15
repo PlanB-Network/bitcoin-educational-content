@@ -1,0 +1,10 @@
+pertanyaan: Apa peran node dalam jaringan Bitcoin?
+jawaban: Node menjaga integritas dengan memverifikasi dan memvalidasi transaksi serta blok.
+jawaban_salah:
+  - Node menciptakan dan memvalidasi blok.
+  - Node hanya memverifikasi transaksi.
+  - Node tidak memiliki peran dalam jaringan Bitcoin.
+penjelasan: |
+  Dalam jaringan Bitcoin, node menjaga integritas jaringan dengan
+  memverifikasi dan memvalidasi transaksi serta blok. Blok yang salah atau
+  penipuan akan ditolak oleh node, menjaga keamanan jaringan.

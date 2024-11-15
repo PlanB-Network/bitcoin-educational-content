@@ -1,0 +1,9 @@
+question: Millist võtmest tuletamise funktsiooni kasutatakse seemne tuletamiseks mnemoonilisest fraasist ja valikulisest paroolist?
+answer: PBKDF2.
+wrong_answers:
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
+explanation: |
+  PBKDF2 funktsiooni kasutatakse HD rahakoti seemne tuletamiseks mnemoonilisest fraasist ja valikulisest paroolist.
+reviewed: false

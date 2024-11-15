@@ -1,0 +1,9 @@
+Frage: Wann war der tatsächliche Start des Bitcoin-Prototyp-Netzwerks im Jahr 2009?
+Antwort: 9. Januar 2009, um 02:54:25 UTC
+falsche_Antworten:
+  - 3. Januar 2009, um 18:15:05 UTC
+  - 8. Januar 2009, um 19:27:40 UTC
+  - 12. Januar 2009, um 03:30:25 UTC
+Erklärung: |
+  Dies ist der Zeitstempel von Block 1 der Blockchain, der von Satoshi Nakamoto abgebaut wurde, nachdem er einige Stunden zuvor den Softwarecode in der Mailingliste veröffentlicht hatte. Der Genesis-Block (0) wurde zwischen dem 3. und 8. Januar erstellt, aber es gab noch kein eigentliches Netzwerk per se.
+überprüft: false

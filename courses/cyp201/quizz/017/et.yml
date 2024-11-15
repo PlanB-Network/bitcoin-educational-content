@@ -1,0 +1,9 @@
+question: Mis on digitaalallkirjade kasutamise eesmärk Bitcoinis?
+answer: Luua matemaatiline tõestus, mis õigustab, et kasutaja on tõepoolest privaatvõtme omanik, ilma seda privaatvõtit avalikustamata.
+wrong_answers:
+  - Luua matemaatiline tõestus, mis õigustab, et kasutaja on tõepoolest avaliku võtme omanik, ilma seda avalikku võtit avalikustamata.
+  - Luua matemaatiline tõestus, mis õigustab, et kasutaja on tõepoolest vastuvõtva aadressi omanik, ilma seda vastuvõtva aadressi avalikustamata.
+  - Luua matemaatiline tõestus, mis õigustab, et kasutaja on tõepoolest rahakoti omanik.
+explanation: |
+  Digitaalallkirjad Bitcoinis võimaldavad tõestada, et kasutaja omab privaatvõtit, mis on seotud avaliku võtmega, ilma seda privaatvõtit avalikustamata.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hva er funksjonen som brukes til å generere en adresse?
+answer: HASH160.
+wrong_answers:
+  - HASH256.
+  - HASH512.
+  - SHA256.
+explanation: |
+  HASH160-funksjonen, som kombinerer SHA256 og RIPEMD-160, brukes til å generere Bitcoin-adresser fra offentlige nøkler.

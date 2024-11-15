@@ -1,0 +1,12 @@
+question: Mis on Bitcoin'i kogukonna eesmärk võrgu haldamise osas?
+answer: Tugevdada võrgu jaotust, tsensuurikindlust ja võrgu vastupidavust.
+wrong_answers:
+  - Suurendada Bitcoin'i hinda.
+  - Teha tehingud kiiremaks.
+  - Suurendada kaevandamise raskust.
+explanation: |
+  Bitcoin'i kogukond püüdleb pidevalt võrgu jaotuse,
+
+  tsensuurikindluse ja võrgu vastupidavuse tugevdamise poole. See on kooskõlas
+
+  Bitcoin'i põhimissiooniga olla tsensuurikindel väärtuse vahetamise võrk.

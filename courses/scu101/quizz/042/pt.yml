@@ -1,9 +1,0 @@
-question: Por que é importante usar senhas geradas aleatoriamente?
-answer: Elas oferecem um nível mais alto de segurança e são mais resistentes a ataques de força bruta.
-wrong_answers:
-  - Elas são mais fáceis de lembrar.
-  - Elas são mais curtas e simples.
-  - Elas são exigidas pela maioria dos serviços online.
-explanation: |
-  Senhas geradas aleatoriamente oferecem um nível mais alto de segurança porque são mais resistentes a ataques de força bruta, que tentam adivinhar senhas tentando todas as combinações possíveis de caracteres.
-reviewed: false

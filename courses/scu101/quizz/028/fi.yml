@@ -1,9 +1,0 @@
-question: Mikä on hakkerien ensisijainen hyökkäysvektori?
-answer: Sähköpostit
-wrong_answers:
-  - Sosiaalinen media
-  - Verkkokauppasivustot
-  - Pankkisivustot
-explanation: |
-  Sähköpostit ovat hakkerien ensisijainen hyökkäysvektori. He käyttävät phishing-yrityksiä saadakseen arkaluonteisia tietoja, kuten käyttäjätunnuksesi ja salasanasi.
-reviewed: false

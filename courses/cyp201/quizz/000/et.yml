@@ -1,0 +1,8 @@
+question: Mis on krüptograafilise räsiprotsessi eesmärk?
+answer: Kaardistada suvalise pikkusega bitijada fikseeritud pikkusega bitijadaks.
+wrong_answers:
+  - Sõnumi krüpteerimine.
+  - Tagada, et sõnumi saatja ei saa tulevikus eitada sõnumi saatmist.
+  - Andmete konfidentsiaalsuse garantii.
+explanation: |
+  Räsimine muundab mis tahes suurusega andmed fikseeritud suurusega väljundiks, mis on kasulik terviklikkuse kontrollimiseks ilma andmeid tingimata krüpteerimata või autentimata.

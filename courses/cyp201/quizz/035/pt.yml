@@ -1,9 +1,8 @@
-question: Qual é o tamanho de uma chave pública do Bitcoin?
-answer: Número de 512 bits
-wrong_answers:
-  - Número de 256 bits
-  - Número de 128 bits
-  - Número de 1024 bits
-explanation: |
-  A chave privada única é usada para derivar uma chave pública de 512 bits no sistema Bitcoin.
-reviewed: false
+pergunta: Qual é a informação primitiva que permite determinar uma boa frase mnemônica para uma carteira HD?
+resposta: Uma entropia externa que permite determinar um número aleatório ou pseudoaleatório.
+respostas_erradas:
+  - O primeiro nome do proprietário da carteira.
+  - Nenhuma informação, escolhemos diretamente as palavras de que gostamos.
+  - A data de criação da carteira.
+explicação: |
+  A frase mnemônica é derivada de uma fonte de entropia, significando informação aleatória ou pseudoaleatória, para garantir a segurança das chaves privadas.

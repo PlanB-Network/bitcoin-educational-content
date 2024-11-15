@@ -1,0 +1,11 @@
+pertanyaan: Apa peran bank sentral sebagai "pemberi pinjaman terakhir"?
+jawaban: Bank sentral meminjamkan dana kepada bank-bank yang mengalami kesulitan selama krisis untuk mencegah efek domino yang dapat melumpuhkan seluruh sistem keuangan.
+jawaban_salah:
+  - Bank sentral meminjamkan dana kepada bank-bank yang mengalami kesulitan selama krisis untuk meningkatkan keuntungan sendiri.
+  - Bank sentral meminjamkan dana kepada bank-bank yang mengalami kesulitan selama krisis untuk mengambil alih operasi mereka.
+  - Bank sentral meminjamkan dana kepada bank-bank yang mengalami kesulitan selama krisis untuk meningkatkan utang nasional.
+penjelasan: |
+  Konsep bank sentral sebagai "pemberi pinjaman terakhir" muncul pada
+  abad ke-19 di Inggris sebagai respons terhadap berulangnya penarikan dana secara besar-besaran dari bank yang mengancam stabilitas
+  keuangan. Dengan meminjamkan kepada bank-bank yang dalam kesulitan, bank sentral dapat mencegah efek domino dari kegagalan bank yang dapat menyebabkan resesi atau depresi.
+ditinjau: false

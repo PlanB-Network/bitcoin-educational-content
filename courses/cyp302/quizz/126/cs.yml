@@ -1,0 +1,9 @@
+otázka: Co umožňuje protokol výměny klíčů Diffie-Hellman?
+odpověď: Umožňuje dvěma stranám vytvořit společný tajný klíč sdílením veřejných informací.
+špatné_odpovědi:
+  - Umožňuje osobní výměnu tajného klíče pro každou relaci.
+  - Umožňuje použití veřejného klíče pro šifrování a soukromého klíče pro dešifrování.
+  - Umožňuje výměnu elektronické měny.
+vysvětlení: |
+  Protokol Diffie-Hellman umožňuje dvěma stranám veřejně sdílet informace a zároveň zajistit, že pouze ony mohou generovat společný klíč pro zabezpečení jejich budoucích výměn.
+recenzováno: false

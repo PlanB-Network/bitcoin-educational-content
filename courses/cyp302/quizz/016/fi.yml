@@ -1,0 +1,9 @@
+kysymys: Mikä on tasajakauman muuttujan ominaisuus?
+vastaus: Kaikilla mahdollisilla arvoilla on yhtä suuri todennäköisyys esiintyä
+vaarat_vastaukset:
+  - Arvot noudattavat epäsymmetristä jakaumaa
+  - Kunkin arvon todennäköisyys riippuu kokeesta
+  - Vain kaksi arvoa voi esiintyä yhtä suurella todennäköisyydellä
+selitys: |
+  Tasajakauman muuttuja on satunnaismuuttuja, jossa kaikilla mahdollisilla arvoilla on yhtä suuri todennäköisyys esiintyä.
+arvioitu: false

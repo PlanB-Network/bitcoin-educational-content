@@ -1,0 +1,8 @@
+question: Mis on "shift rows" operatsiooni eesmärk AES-is?
+answer: Suurendada difusiooni, paigutades ümber baitid olekutabelis
+wrong_answers:
+  - Tagada, et iga plokk oleks sama pikk
+  - Rakendada salajast võtit iga olekutabeli rea kohta
+  - Tutvustada lisasegadust, asendades baite
+explanation: |
+  "Shift rows" operatsioon AES-is paigutab ümber baitid olekutabelis, et hajutada informatsiooni, suurendades seeläbi difusiooni.

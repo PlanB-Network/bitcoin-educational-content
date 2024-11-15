@@ -1,0 +1,11 @@
+question: Hva er hovedkarakteristikken til en "blockchain" uten proof of work?
+answer: Den har ingen reell verdi
+wrong_answers:
+  - Den er sikrere
+  - Den er raskere
+  - Den er mer desentralisert
+explanation: |
+  Kapittelinnholdet sier at uten proof of work, har en "blockchain"
+  ingen reell verdi. Dette er en nøkkelkarakteristikk som skiller Bitcoin fra andre
+  kryptovalutaer.
+reviewed: false

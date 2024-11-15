@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es la principal vulnerabilidad de las contraseñas débiles cuando son hasheadas?
+respuesta: Son vulnerables a ataques de diccionario
+respuestas_incorrectas:
+  - No pueden ser verificadas mediante hashing
+  - Siempre generan colisiones
+  - Requieren un hashing más largo para mayor seguridad
+explicación: |
+  Las contraseñas débiles pueden ser fácilmente recuperadas de su hash utilizando ataques de diccionario, lo que hace que su selección sea importante para asegurar la seguridad.
+revisado: false

@@ -1,0 +1,13 @@
+pertanyaan: Apa yang dimaksud dengan konsolidasi?
+
+jawaban: Menggabungkan beberapa masukan untuk menciptakan satu yang lebih besar.
+
+jawaban_salah:
+  - Memecah satu masukan besar menjadi beberapa yang lebih kecil.
+  - Memindahkan masukan dari beberapa dompet ke satu dompet.
+  - Menugaskan kembali masukan yang tidak digunakan ke alamat baru.
+
+penjelasan: |
+  Prinsip dari konsolidasi adalah memanfaatkan periode ketika biaya rendah pada Bitcoin untuk menggabungkan UTXO yang lebih kecil menjadi satu yang lebih besar.
+
+ditinjau: false

@@ -1,0 +1,9 @@
+kysymys: Minkä tyyppinen salaus käyttää kiinteän kokoisia datalohkoja?
+vastaus: Lohkosalaus
+vaarat_vastaukset:
+  - Virtasalaus
+  - Viestin autentikointikoodi
+  - Julkinen avain
+selitys: |
+  Lohkosalaus jakaa datan kiinteän kokoisiin lohkoihin ja salaa ne itsenäisesti.
+arvioitu: false

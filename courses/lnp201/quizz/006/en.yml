@@ -1,11 +1,9 @@
-question: Are Lightning payment channels bidirectional?
-answer: "Yes"
+question: What is a UTXO in the context of Bitcoin?
+answer: A piece of unspent bitcoins associated with a script
 wrong_answers:
-  - "No"
-  - Only in some cases
-  - It depends on the Bitcoin network
+  - A fully confirmed transaction on the blockchain
+  - A public key that generates Bitcoin addresses
+  - An amount of bitcoin divided into multiple parts
 explanation: |
-  Payment channels are bidirectional, meaning they have two "sides." For
-  example, if Alice and Bob open a payment channel, Alice can send Bitcoin to Bob,
-  and Bob can send Bitcoin to Alice.
+  A UTXO, or "Unspent Transaction Output," is an unspent transaction output, representing a certain amount of bitcoins that the holder can use.
 reviewed: false

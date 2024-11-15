@@ -1,0 +1,9 @@
+question: Mida tähendab eesliide "0x"?
+answer: Sellele eesliitele järgnev number on esitatud 16ndik süsteemis (heksadesimaal).
+wrong_answers:
+  - Sellele eesliitele järgnev number on esitatud 2ndik süsteemis (binaarne).
+  - Sellele eesliitele järgnev number on esitatud 10ndik süsteemis (detsimaal).
+  - Sellele eesliitele järgnev number on esitatud 8ndik süsteemis (oktaal).
+explanation: |
+  Eesliide "0x" näitab, et sellele järgnev number on esitatud 16ndik süsteemis (heksadesimaal).
+reviewed: false

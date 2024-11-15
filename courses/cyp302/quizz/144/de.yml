@@ -1,0 +1,9 @@
+Frage: Wie groß sind die typischerweise in der Faktorisierung für moderne Kryptosysteme wie RSA verwendeten Primzahlen?
+Antwort: 1024 Bits für jeden Faktor
+Falsche Antworten:
+  - Insgesamt 1024 Bits
+  - 256 Bits für jeden Faktor
+  - Insgesamt 256 Bits
+Erklärung: |
+  In modernen Kryptosystemen wie RSA sind die gewählten Primzahlen typischerweise jeweils 1024 Bits groß, was die Faktorisierung extrem schwierig macht und die Sicherheit erhöht.
+Überprüft: false

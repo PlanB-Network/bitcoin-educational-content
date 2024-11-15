@@ -1,0 +1,9 @@
+question: In shift encryption, what is the result for the word "DOG" with a key of 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  With a shift of 17 in the alphabet, "D" becomes "U", "O" becomes "F", and "G" becomes "X". Therefore, the encrypted word is "UFX".
+reviewed: false

@@ -1,0 +1,9 @@
+question: According to Marx, what is the main limitation of human rights?
+answer: They only protect a formal and abstract freedom.
+wrong_answers:
+  - They are natural rights.
+  - They are optional rights.
+  - They prevent revolution.
+explanation: |
+  Marx criticizes human rights by calling them "formal" because they guarantee an abstract individual freedom, without actually transforming the material conditions of exploitation in capitalist society.
+reviewed: false

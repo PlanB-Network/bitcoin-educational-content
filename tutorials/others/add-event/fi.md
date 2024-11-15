@@ -13,7 +13,7 @@ Jos haluat lisätä Bitcoin-konferenssin PlanB-verkon sivustolle ja lisätä nä
 https://planb.network/tutorials/others/create-github-account
 
 
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) osiossa `resources/conference/`:
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) osiossa `resources/conference/`:
 ![event](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -painiketta, sitten `Create new file`:
 ![event](assets/03.webp)

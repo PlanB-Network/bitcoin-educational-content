@@ -1,0 +1,10 @@
+pertanyaan: Apa fitur umum dari semua solusi P2P yang dibahas dalam bab tersebut?
+jawaban: Semuanya memfasilitasi pembelian dan penjualan Bitcoin.
+jawaban_salah:
+  - Semuanya menggunakan Lightning Network.
+  - Semuanya memerlukan akun untuk beroperasi.
+  - Semuanya memiliki sistem DAO.
+penjelasan: |
+  Bab tersebut membahas berbagai solusi P2P untuk membeli Bitcoin, tetapi tidak
+  semua dari mereka memiliki fitur yang sama. Fitur umum di antara semuanya adalah bahwa
+  mereka memfasilitasi pembelian dan penjualan Bitcoin.

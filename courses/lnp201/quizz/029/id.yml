@@ -1,0 +1,8 @@
+pertanyaan: Dalam situasi apa penutupan paksa sebuah saluran digunakan?
+jawaban: Ketika salah satu pihak tidak lagi merespon
+jawaban_salah:
+  - Ketika kapasitas saluran perlu ditingkatkan
+  - Ketika timelock tidak cukup
+  - Ketika biaya transaksi terlalu tinggi
+penjelasan: |
+  Penutupan paksa digunakan sebagai langkah terakhir jika salah satu pihak, misalnya karena masalah teknis, tidak lagi merespon pesan dari pihak lain.

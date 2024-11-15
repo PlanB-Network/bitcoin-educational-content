@@ -1,0 +1,9 @@
+otázka: Pokud je celé číslo N součinem dvou prvočísel p a q, jak se vypočítá řád N?
+odpověď: (p - 1) * (q - 1)
+špatné_odpovědi:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+vysvětlení: |
+  Pro N rovné součinu dvou prvočísel p a q se řád N vypočítá jako (p - 1) * (q - 1).
+recenzováno: false

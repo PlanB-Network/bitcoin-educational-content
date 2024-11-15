@@ -1,0 +1,9 @@
+kysymys: Mikä on arvo 42 mod 2?
+vastaus: 0
+väärät_vastaukset:
+  - 1
+  - 2
+  - 42
+selitys: |
+  Jakamalla 42 kahdella, jakojäännös on nolla, joten 42 mod 2 on 0.
+arvioitu: false

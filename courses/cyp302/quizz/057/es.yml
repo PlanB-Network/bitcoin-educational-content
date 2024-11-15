@@ -1,0 +1,9 @@
+pregunta: ¿Qué es un grupo abeliano?
+respuesta: Un grupo en el cual la operación es conmutativa
+respuestas_incorrectas:
+  - Un grupo que tiene un generador único
+  - Un grupo limitado a números enteros
+  - Un grupo sin elemento neutro
+explicación: |
+  Un grupo abeliano es un grupo en el cual el orden de los elementos en la operación no afecta el resultado, lo que significa que se adhiere a la conmutatividad.
+revisado: false

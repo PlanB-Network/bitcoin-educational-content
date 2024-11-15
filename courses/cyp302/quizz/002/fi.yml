@@ -1,0 +1,9 @@
+kysymys: Mikä on kolmen laatikossa olevan salatun tekstin erityispiirre?
+vastaus: Ne sisältävät pilkuilla erotettuja numeroita
+vaarat_vastaukset:
+  - Ne on kaikki kirjoitettu tavallisilla kirjaimilla
+  - Ne käyttävät tuntemattomia symboleja
+  - Ne on kirjoitettu useilla kielillä
+selitys: |
+  Kolme salattua tekstiä koostuvat pilkuilla erotetuista numerosarjoista, joiden purkamiseen tarvitaan avain.
+arvioitu: false

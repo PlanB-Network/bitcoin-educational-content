@@ -1,8 +1,8 @@
-question: Kuinka monta SAT:ta Alicella on alussa esimerkissä?
-answer: 130 000 SAT.
-wrong_answers:
-  - 100 000 SAT.
-  - 90 000 SAT.
-  - 0 SAT.
-explanation: |
-  Esimerkissä Alice avaa kanavan Bobin kanssa, ja hänen puolellaan on 130 000 SAT.
+kysymys: Missä tilanteessa kanavan pakotettu sulkeminen käytetään?
+vastaus: Kun toinen osapuolista ei enää vastaa
+väärät_vastaukset:
+  - Kun kanavan kapasiteettia tarvitsee kasvattaa
+  - Kun aikalukko on riittämätön
+  - Kun siirtomaksut ovat liian korkeat
+selitys: |
+  Pakotettu sulkeminen käytetään viimeisenä keinona, jos toinen osapuolista esimerkiksi teknisen ongelman vuoksi ei enää vastaa toisen viesteihin.

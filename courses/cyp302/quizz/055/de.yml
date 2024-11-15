@@ -1,0 +1,9 @@
+Frage: Was ist die Bedeutung von zyklischen Gruppen in der Kryptographie?
+Antwort: Sie ermöglichen die Erstellung von kryptographischen Systemen basierend auf Generatoren
+falsche_Antworten:
+  - Sie vereinfachen die Multiplikation von Verschlüsselungsschlüsseln
+  - Sie erhöhen die Sicherheit von öffentlichen Kommunikationskanälen
+  - Sie werden verwendet, um Nachrichten direkt zu hashen, um deren Integrität zu bewahren
+Erklärung: |
+  In der Kryptographie sind zyklische Gruppen, die Generatoren haben, wesentlich für die Etablierung von Grundlagen für Verschlüsselungsschlüssel, insbesondere in Systemen mit öffentlichen Schlüsseln.
+überprüft: false

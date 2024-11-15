@@ -1,9 +1,9 @@
-question: Mikä on karkea nimitys, jota joskus käytetään viittaamaan yksityisten avainten kokoelmaan Bitcoin-lompakossa?
-answer: Vain Joukko Avaimia (VJA)
-wrong_answers:
-  - Vain Joukko Kolikoita (VJK)
-  - Vain Joukko Kryptoja (VJK)
-  - Vain Joukko Koodeja (VJK)
-explanation: |
-  Yksityisten kryptografisten avainten kokoelmaa, jotka on johdettu yhdestä pääavaimesta Bitcoin-lompakossa, kutsutaan joskus hieman karkeammalla nimellä "Vain Joukko Avaimia" (VJA).
-reviewed: false
+kysymys: Mistä laajennetun avaimen kuorma koostuu?
+vastaus: Julkisesta tai yksityisestä avaimesta ja siihen liittyvästä ketjukoodista.
+väärät_vastaukset:
+  - Yksityisestä avaimesta ja siihen liittyvästä julkisesta avaimesta.
+  - Ketjukoodista, julkisesta avaimesta ja yksityisestä avaimesta.
+  - Yksityisestä avaimesta ja johdannaisindeksistä.
+selitys: |
+  Laajennetun avaimen kuorma sisältää joko julkisen tai yksityisen avaimen yhdessä ketjukoodin kanssa, jota käytetään ala-avainten johtamiseen.
+arvioitu: false

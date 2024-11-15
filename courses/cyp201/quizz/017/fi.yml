@@ -1,9 +1,9 @@
-question: Mikä on SHA256-tiivistefunktion pääetu?
-answer: Sen vahvuus löytää syöte tiivisteestä, kun taas tiivisteen varmentaminen annetulle syötteelle on mekaanisesti yksinkertainen toimenpide
-wrong_answers:
-  - Sen kyky tuottaa 512-bittinen tiiviste muuttuvakokoisesta syötteestä
-  - Sen käyttö täytebittien lisäämiseen syötteen kokoon
-  - Sen käyttö XOR, AND ja NOT operaattoreiden prosessoida bittejä
-explanation: |
-  SHA256-tiivistefunktion pääetu on sen vahvuus löytää syöte tiivisteestä, kun taas tiivisteen varmentaminen annetulle syötteelle on mekaanisesti yksinkertainen toimenpide. Tämä tekee siitä suositun valinnan lukuisien digitaalisten järjestelmien turvaamisessa, erityisesti Bitcoin-protokollan sisällä.
-reviewed: false
+kysymys: Mikä on digitaalisten allekirjoitusten käytön tavoite Bitcoinissa?
+vastaus: Tuottaa matemaattinen todiste, joka oikeuttaa käyttäjän todellakin omistavan yksityisen avaimen, paljastamatta kyseistä yksityistä avainta.
+väärät_vastaukset:
+  - Tuottaa matemaattinen todiste, joka oikeuttaa käyttäjän todellakin omistavan julkisen avaimen, paljastamatta kyseistä julkista avainta.
+  - Tuottaa matemaattinen todiste, joka oikeuttaa käyttäjän todellakin omistavan vastaanotto-osoitteen, paljastamatta kyseistä vastaanotto-osoitetta.
+  - Tuottaa matemaattinen todiste, joka oikeuttaa käyttäjän todellakin omistavan lompakon.
+selitys: |
+  Digitaaliset allekirjoitukset Bitcoinissa mahdollistavat sen todistamisen, että käyttäjä omistaa yksityisen avaimen, joka on yhdistetty julkiseen avaimen, paljastamatta kyseistä yksityistä avainta.
+arvioitu: false

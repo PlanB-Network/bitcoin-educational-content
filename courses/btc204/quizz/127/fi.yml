@@ -1,0 +1,11 @@
+kysymys: Mikä on suurin haittapuoli kolikoidenvaihdoissa ja atomiswapeissa yksityisyyden kannalta?
+
+vastaus: Ne eivät katkaise vaihdettujen kolikoiden historiaa
+
+vaarat_vastaukset:
+  - Ne ovat erittäin kalliita siirtomaksujen suhteen
+  - Ne vaativat henkilökohtaisten tietojen vaihtoa osapuolten välillä
+  - Ne voivat olla vaihtoalustojen analysoinnin kohteena
+
+selitys: |
+  Näiden menetelmien päähaitta on, että ne ovat erittäin riskialttiita ilman lisätekniikan käyttöä kolikon historian katkaisemiseksi.

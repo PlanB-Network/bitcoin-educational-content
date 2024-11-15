@@ -1,0 +1,8 @@
+question: Selleks, et arvutada põhi võtme ja põhi ahelakoodi väärtused, on HMAC-SHA512 funktsiooni esimene sisend seeme. Mis on selle funktsiooni teine sisendväärtus, mis toimib võtmena?
+answer: "Bitcoin seed".
+wrong_answers:
+  - Mnemooniline fraas.
+  - Paroolilause.
+  - "Seeme".
+explanation: |
+  Sõne "Bitcoin seed" kasutatakse võtmena HMAC-SHA512-s, et tuletada seemnest põhi võti ja põhi ahelakood.

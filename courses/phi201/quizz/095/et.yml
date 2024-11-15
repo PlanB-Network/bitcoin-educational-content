@@ -1,0 +1,9 @@
+question: Marx'i järgi, mis on inimõiguste peamine piirang?
+answer: Need kaitsevad ainult formaalset ja abstraktset vabadust.
+wrong_answers:
+  - Need on loomulikud õigused.
+  - Need on valikulised õigused.
+  - Need takistavad revolutsiooni.
+explanation: |
+  Marx kritiseerib inimõigusi, nimetades neid "formaalseks", kuna need tagavad abstraktse individuaalse vabaduse, ilma tegelikult muutmata kapitalistlikus ühiskonnas ekspluateerimise materiaalseid tingimusi.
+reviewed: false

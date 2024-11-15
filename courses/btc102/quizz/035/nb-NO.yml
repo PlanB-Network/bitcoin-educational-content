@@ -1,0 +1,9 @@
+question: Hvem beskrev Bitcoin som "en sveitsisk bank i lommen din"?
+answer: Barack Obama
+wrong_answers:
+  - Donald Trump
+  - Bill Gates
+  - Elon Musk
+explanation: |
+  Kapittelet nevner at Barack Obama en gang beskrev Bitcoin som "en sveitsisk bank i lommen din".
+reviewed: false

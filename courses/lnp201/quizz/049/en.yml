@@ -1,11 +1,9 @@
-question: What is the role of Lightning Network nodes in a transaction?
-answer: They charge a fee for agreeing to be used to route the transaction.
+question: What is the primary function of a Lightning invoice?
+answer: Request a payment from the sending node
 wrong_answers:
-  - They facilitate the transaction without any charges.
-  - They initiate the transaction.
-  - They are the final recipients of the transaction.
+  - Send funds without an on-chain transaction
+  - Activate HTLCs on a channel
+  - Open a new Lightning channel
 explanation: |
-  In the Lightning Network, nodes charge a fee for agreeing to be used
-  to route the transaction. This fee is different depending on where the liquidity
-  is located.
+  A Lightning invoice is a payment request, transmitted by the receiving node to the sending node to initiate a payment on the Lightning Network.
 reviewed: false

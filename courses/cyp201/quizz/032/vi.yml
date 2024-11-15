@@ -1,9 +1,8 @@
-question: Ý nghĩa của tính không thể đảo ngược của hàm ECDSA trong an ninh ví Bitcoin là gì?
-answer: Không thể lấy lại khóa riêng từ khóa công khai
-wrong_answers:
-  - Có thể lấy lại khóa riêng từ khóa công khai
-  - Có thể lấy lại khóa công khai từ khóa riêng
-  - Không thể lấy lại khóa công khai từ khóa riêng
-explanation: |
-  Hàm ECDSA là không thể đảo ngược, nghĩa là không thể lấy lại khóa riêng từ khóa công khai. Tính không thể đảo ngược này là nền tảng của an ninh ví Bitcoin.
-reviewed: false
+câu hỏi: BIP (Đề xuất Cải tiến Bitcoin) nào đã đề xuất phiên bản đầu tiên của một ví HD trên Bitcoin?
+câu trả lời: BIP32.
+câu trả lời sai:
+  - BIP16.
+  - BIP39.
+  - BIP44.
+giải thích: |
+  BIP32, được đề xuất vào năm 2012, là đề xuất đầu tiên giới thiệu khái niệm về ví xác định phân cấp (HD) trong Bitcoin.

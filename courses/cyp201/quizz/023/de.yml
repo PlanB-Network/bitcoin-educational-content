@@ -1,9 +1,9 @@
-question: Wofür steht HMAC?
-answer: Hash-basierter Message Authentication Code
-wrong_answers:
-  - Hierarchischer Master-Authentifizierungscode
-  - Gehashter Master-Authentifizierungscode
-  - Hierarchischer Message Authentication Code
-explanation: |
-  HMAC steht für Hash-basierter Message Authentication Code. Es handelt sich um einen Typ von Message Authentication Code (MAC), der eine kryptografische Hash-Funktion und einen geheimen kryptografischen Schlüssel verwendet.
-reviewed: false
+Frage: Wie groß ist ein unkomprimierter Bitcoin-Öffentlicher-Schlüssel einschließlich seines Präfixes?
+Antwort: 520 Bits.
+falsche_Antworten:
+  - 512 Bytes.
+  - 256 Bits.
+  - 512 Bits.
+Erklärung: |
+  Ein unkomprimierter Bitcoin-Öffentlicher-Schlüssel mit seinem Präfix ist 520 Bits groß und umfasst die x- und y-Koordinaten des Punktes auf der elliptischen Kurve.
+überprüft: false

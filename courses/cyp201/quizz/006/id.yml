@@ -1,0 +1,9 @@
+pertanyaan: Berapa banyak bit yang dialokasikan untuk padding berdasarkan ukuran dalam fungsi SHA256?
+jawaban: 64 bit.
+jawaban_salah:
+  - 128 bit.
+  - 256 bit.
+  - 512 bit.
+penjelasan: |
+  SHA256 mengalokasikan 64 bit untuk padding, yang mewakili ukuran awal pesan sebelum padding.
+ditinjau: false

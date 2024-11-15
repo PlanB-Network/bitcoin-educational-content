@@ -1,0 +1,9 @@
+Câu hỏi: Tại sao mã hóa bất đối xứng ít được sử dụng hơn mã hóa đối xứng trong việc trao đổi dữ liệu lớn?
+Câu trả lời: Nó kém hiệu quả hơn cho một mức độ bảo mật tương đương
+Câu trả lời sai:
+  - Nó không đảm bảo tính xác thực của tin nhắn
+  - Nó yêu cầu nhiều khóa công khai cho mỗi lần trao đổi
+  - Nó không tương thích với các giao thức truyền thông hiện đại
+Giải thích: |
+  Mã hóa bất đối xứng, mặc dù mạnh mẽ cho việc xác thực và mã hóa ban đầu, nhưng yêu cầu nhiều tài nguyên hơn, làm cho việc sử dụng nó không hiệu quả cho việc chuyển giao dữ liệu lớn.
+Đã xem xét: false

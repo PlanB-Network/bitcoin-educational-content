@@ -203,3 +203,7 @@ Tento článek vám ukázal, jak používat Ledger HWW bezpečněji a soukroměj
 
 Statická Lightning adresa: dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/
+
+Pro hlubší pochopení tohoto tématu a posílení bezpečnosti vaší peněženky na Ledger Nano s BIP39 passphrase vás zvu k přečtení tohoto kompletního tutoriálu:
+
+https://planb.network/tutorials/wallet/passphrase-ledger

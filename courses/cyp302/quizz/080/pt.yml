@@ -1,0 +1,8 @@
+pergunta: O que é uma "cifra de fluxo" em criptografia?
+resposta: Uma criptografia simétrica que gera um fluxo de chaves do mesmo comprimento que a mensagem
+respostas_erradas:
+  - Uma criptografia assimétrica baseada em números primos
+  - Uma criptografia que usa múltiplas chaves de decifração diferentes
+  - Uma criptografia que segmenta a mensagem em blocos de dados
+explicação: |
+  Uma "cifra de fluxo" é uma criptografia simétrica na qual um fluxo de chaves do mesmo comprimento que a mensagem é combinado com esta última para produzir o texto criptografado.

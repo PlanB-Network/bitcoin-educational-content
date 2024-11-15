@@ -1,0 +1,8 @@
+question: Hvordan komprimere en offentlig nøkkel?
+answer: Vi beholder verdien av dens x-koordinat og legger til et prefiks som indikerer hvilken y-koordinat som skal velges.
+wrong_answers:
+  - Vi beholder verdien av dens y-koordinat og legger til et prefiks som indikerer hvilken x-koordinat som skal velges.
+  - Vi hasher den offentlige nøkkelen for å komprimere den.
+  - Vi bruker en dobbel SHA256-hash for å komprimere den offentlige nøkkelen.
+explanation: |
+  Komprimeringen av en offentlig nøkkel gjøres ved å beholde x-koordinaten og legge til et prefiks 0x02 eller 0x03 for å indikere om y er partall eller oddetall.

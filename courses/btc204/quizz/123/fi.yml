@@ -1,0 +1,13 @@
+kysymys: Mikä on pääasiallinen haittapuoli käytettäessä Toria Bitcoin-solmun kanssa?
+
+vastaus: Viestinnän nopeuden väheneminen
+
+väärät_vastaukset:
+  - Lisääntyneet transaktiomaksut
+  - Transaktiosensuurin riski
+  - Eclipsen hyökkäyksen riski solmulle
+
+selitys: |
+  Viestintä Torin kautta on hitaampaa. Tämä viive on erityisen ongelmallinen solmun ensimmäisen käynnistyksen aikana, koska IBD (Initial Block Download) vaatii paljon viestintää.
+
+arvioitu: false

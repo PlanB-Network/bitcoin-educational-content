@@ -1,0 +1,9 @@
+domanda: Qual è la funzione principale di un seme nel contesto delle catene pseudocasuali?
+risposta: Fungere da punto di partenza per generare una catena più lunga
+risposte_errate:
+  - Definire la lunghezza fissa di una catena pseudocasuale
+  - Verificare l'integrità di una catena pseudocasuale
+  - Aggiungere una distribuzione uniforme ai valori di una catena
+spiegazione: |
+  Il seme è una stringa più corta utilizzata come punto di partenza da un algoritmo di espansione per generare una catena pseudocasuale più lunga.
+recensito: false

@@ -1,0 +1,8 @@
+pertanyaan: Mengapa Alice dan Bob bertukar rahasia untuk transaksi komitmen sebelumnya?
+jawaban: Untuk memungkinkan masing-masing melindungi diri mereka sendiri jika yang lain menerbitkan transaksi lama
+jawaban_salah:
+  - Untuk meningkatkan kapasitas saluran
+  - Untuk memblokir akses satu sama lain ke dana
+  - Untuk membagi dana secara merata
+penjelasan: |
+  Bertukar rahasia untuk transaksi sebelumnya memungkinkan setiap peserta untuk menghukum yang lain dalam kasus upaya untuk menipu dengan menerbitkan transaksi lama.

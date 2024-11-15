@@ -1,10 +1,9 @@
-question: What is the algorithm that Bitcoin uses to link private and public keys?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
+question: Why is it important to use a good source of entropy to generate private keys?
+answer: Poor entropy can make private keys predictable and vulnerable to attacks.
 wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
+  - Good entropy helps optimize wallet performance.
+  - Entropy plays no role in the security of private keys.
+  - Poor entropy slows down transactions.
 explanation: |
-  Bitcoin utilizes the Elliptic Curve Digital Signature Algorithm (ECDSA)
-  to link private and public keys.
+  If the entropy used to generate private keys is low, it could allow an attacker to guess or compute these keys, compromising the security of the wallet.
 reviewed: false

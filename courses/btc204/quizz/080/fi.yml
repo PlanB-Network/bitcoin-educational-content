@@ -1,0 +1,13 @@
+kysymys: Mikä on coinjoin-koordinaattorin rooli?
+
+vastaus: Yhdistää osallistujat ja rakentaa siirron.
+
+väärät_vastaukset:
+  - Salata osallistujien tiedot siirron luottamuksellisuuden varmistamiseksi.
+  - Pitää kirjaa aiemmista coinjoineista turvatarkastuksia varten.
+  - Vastaanottaa bitcoineja osallistujilta niiden sekoittamiseksi.
+
+selitys: |
+  Koordinaattorien rooli on yhdistää eri käyttäjät ja rakentaa sekä sen jälkeen lähettää yhteistyössä tehty siirto.
+
+arvioitu: false

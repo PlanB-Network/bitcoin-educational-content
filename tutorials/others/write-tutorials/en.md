@@ -61,7 +61,7 @@ Once everything is in place, and your local environment is well set up with your
 
 ### Create a new branch
 
-- Open your browser and head to the page of your fork of the PlanB repository. This is the fork you have established on GitHub. The URL of your fork should look like: `https://github.com/[your-username]/sovereign-university-data`:
+- Open your browser and head to the page of your fork of the PlanB repository. This is the fork you have established on GitHub. The URL of your fork should look like: `https://github.com/[your-username]/bitcoin-educational-content`:
 ![tutorial](assets/3.webp)
 - Make sure you are on the main branch `dev` then click on the `Sync fork` button. If your fork is not up to date, GitHub will offer to update your branch. Proceed with this update. If, on the contrary, your branch is already up to date, GitHub will inform you:
 ![tutorial](assets/4.webp)
@@ -72,7 +72,7 @@ Once everything is in place, and your local environment is well set up with your
 ![tutorial](assets/7.webp)
 - Click on this branch, then click on the `New Branch` button:
 ![tutorial](assets/8.webp)
-- Make sure the new branch is based on the source repository, namely `DecouvreBitcoin/sovereign-university-data`.
+- Make sure the new branch is based on the source repository, namely `PlanB-Network/bitcoin-educational-content`.
 - Name your branch in a way that the title is clear about its purpose, using dashes to separate each word. For example, let's say our goal is to write a tutorial on using Sparrow Wallet software. In this case, the working branch dedicated to writing this tutorial could be named: `tuto-sparrow-wallet-loic`. Once the appropriate name is entered, click on `Create branch` to confirm the creation of the branch:
 ![tutorial](assets/9.webp)
 - Now click on the `Publish branch` button to save your new working branch on your online fork on GitHub:
@@ -84,7 +84,7 @@ For each new article you wish to publish, you will need to create a new branch f
 ### Adding the tutorial
 
 Now that the working branch is created, it's time to integrate your new tutorial.
-- Open your file manager and navigate to the `sovereign-university-data` folder, which represents the local clone of your repository. You should normally find it under `Documents\GitHub\sovereign-university-data`. Within this directory, it will be necessary to locate the appropriate sub-folder for placing your tutorial. The organization of the folders reflects the different sections of the PlanB Network website. In our example, since we wish to add a tutorial on Sparrow Wallet, it is appropriate to go to the following path: `sovereign-university-data\tutorials\wallet` which corresponds to the `WALLET` section on the website: ![tutorial](assets/12.webp)
+- Open your file manager and navigate to the `bitcoin-educational-content` folder, which represents the local clone of your repository. You should normally find it under `Documents\GitHub\bitcoin-educational-content`. Within this directory, it will be necessary to locate the appropriate sub-folder for placing your tutorial. The organization of the folders reflects the different sections of the PlanB Network website. In our example, since we wish to add a tutorial on Sparrow Wallet, it is appropriate to go to the following path: `bitcoin-educational-content\tutorials\wallet` which corresponds to the `WALLET` section on the website: ![tutorial](assets/12.webp)
 - Within the `wallet` folder, you need to create a new directory specifically dedicated to your tutorial. The name of this folder must evoke the software covered in the tutorial, ensuring to connect words with dashes. For my example, the folder will be titled `sparrow-wallet`:
 ![tutorial](assets/13.webp)
 - In this new sub-folder dedicated to your tutorial, several elements need to be added:
@@ -95,7 +95,7 @@ Now that the working branch is created, it's time to integrate your new tutorial
 ![tutorial](assets/14.webp)
 - To summarize, here is the hierarchy of files to create:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (to be modified with the right category)
         └── sparrow-wallet/ (to be modified with the name of the tutorial)

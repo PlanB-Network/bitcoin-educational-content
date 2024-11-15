@@ -1,0 +1,9 @@
+question: Bastiatによると、責任は何の原理ですか？
+answer: 完成可能性
+wrong_answers:
+  - 完璧
+  - 一貫性
+  - 完成の達成
+explanation: |
+  Bastiatは、責任を完成可能性の原理と見なしています。これは、経験の教訓を通じて改善と個人的な進歩の源であることを意味します。
+reviewed: false

@@ -1,0 +1,12 @@
+pertanyaan: Apa itu trilema blockchain dalam dunia cryptocurrency?
+jawaban: Pertukaran antara skalabilitas, keamanan, dan desentralisasi dalam cryptocurrency
+jawaban_salah:
+  - Sebuah karakteristik dari Bitcoin yang mengutamakan desentralisasi dan keamanan daripada skalabilitas
+  - Kesulitan dalam menentukan arah dan nilai-nilai dari cryptocurrency
+  - Keterbatasan teknologi Bitcoin dibandingkan dengan cryptocurrency lain
+penjelasan: |
+  Konsep trilema blockchain adalah ide bahwa cryptocurrency
+  harus memprioritaskan dua dari tiga karakteristik penting; skalabilitas,
+  keamanan, dan desentralisasi. Bitcoin memprioritaskan desentralisasi dan keamanan,
+  yang mempengaruhi skalabilitasnya, namun masih mencapainya melalui cara alternatif.
+ditinjau: true

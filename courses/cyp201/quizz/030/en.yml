@@ -1,11 +1,8 @@
-question: What is the equation that defines an elliptic curve?
-answer: "y\xB2 = x\xB3 + ax + b"
+question: What is the main technical role of a Bitcoin wallet?
+answer: To store cryptographic key pairs.
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
+  - To store bitcoins.
+  - To store UTXOs.
+  - To store transactions.
 explanation: |
-  "An elliptic curve is defined by the equation y\xB2 = x\xB3 + ax + b.\
-  \ Every point on this curve has a distinctive symmetry that is key to its usefulness\
-  \ in cryptography."
-reviewed: false
+  A Bitcoin wallet does not directly store bitcoins, but cryptographic key pairs that are used to manage and spend UTXOs.

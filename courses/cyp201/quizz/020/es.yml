@@ -1,10 +1,9 @@
-question: ¿Cuál es el tamaño de bloque utilizado en HMAC-SHA-512?
-answer: Bloques de 1024 bits (128 bytes)
-wrong_answers:
-  - Bloques de 512 bits (64 bytes)
-  - Bloques de 256 bits (32 bytes)
-  - Bloques de 2048 bits (256 bytes)
-explanation: |
-  En el contexto de la derivación de billetera HD, se utiliza HMAC-SHA-512. Este último
-  opera con bloques de 1024 bits (128 bytes) y ajusta la clave en consecuencia.
-reviewed: false
+pregunta: ¿Cómo se determina una clave privada de Bitcoin?
+respuesta: Se determina a partir de un número aleatorio o pseudoaleatorio.
+respuestas_incorrectas:
+  - Se determina mediante la adición y duplicación de puntos en la curva elíptica a partir de su clave pública.
+  - Se determina mediante el hash de su clave pública.
+  - Se determina por el algoritmo SHA-256.
+explicación: |
+  Una clave privada de Bitcoin se genera de manera aleatoria o pseudoaleatoria, lo que asegura su unicidad y seguridad.
+revisado: false

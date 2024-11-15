@@ -1,9 +1,9 @@
-question: Qual é o tamanho de uma chave privada do Bitcoin?
-answer: Número de 256 bits
-wrong_answers:
-  - Número de 512 bits
-  - Número de 128 bits
-  - Número de 1024 bits
-explanation: |
-  No sistema Bitcoin, a chave privada é um número aleatório ou pseudo-aleatório de 256 bits.
-reviewed: false
+pergunta: O que é uma carteira JBOK no contexto do Bitcoin?
+resposta: Uma carteira que agrupa chaves privadas determinadas de maneira aleatória, sem nenhum vínculo entre elas.
+respostas_erradas:
+  - Uma carteira que deriva chaves de maneira hierárquica a partir de uma única semente.
+  - Uma carteira que deriva chaves a partir de chaves anteriores.
+  - Uma carteira que usa apenas uma frase mnemônica para derivar chaves.
+explicação: |
+  Uma carteira JBOK (Just a Bunch Of Keys) contém chaves privadas que são geradas de forma aleatória e independente uma da outra, ao contrário das carteiras HD.
+revisado: false

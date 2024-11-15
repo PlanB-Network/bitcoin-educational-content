@@ -1,0 +1,9 @@
+pergunta: Qual é a especificidade dos três textos criptografados contidos na caixa?
+resposta: Eles contêm números separados por vírgulas
+respostas_erradas:
+  - Eles são todos escritos em letras comuns
+  - Eles usam símbolos desconhecidos
+  - Eles são escritos em múltiplas línguas
+explicação: |
+  Os três textos criptografados consistem em séries de números separados por vírgulas, necessitando de uma chave para serem decifrados.
+revisado: false

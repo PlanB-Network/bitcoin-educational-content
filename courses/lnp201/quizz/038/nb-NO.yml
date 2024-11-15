@@ -1,0 +1,8 @@
+question: Hvilken rolle spiller tidsbegrensningen i driften av HTLC-er?
+answer: Den gir en tidsramme for å fullføre betalingen før kansellering
+wrong_answers:
+  - Den øker kapasiteten til kanalen som brukes
+  - Den legger til et lag med personvern til transaksjonen
+  - Den pålegger ekstra gebyrer for hver mellomliggende node
+explanation: |
+  Tidsbegrensningen pålegger en tidsramme for å fullføre en HTLC, som tillater gjenoppretting av midler hvis transaksjonen ikke lykkes, ved å kansellere betalingen etter denne perioden.

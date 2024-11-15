@@ -1,0 +1,8 @@
+pertanyaan: Dalam enkripsi geser, apa hasil dari kata "DOG" dengan kunci 17?
+jawaban: UFX
+jawaban_salah:
+  - ZKH
+  - TPG
+  - UVW
+penjelasan: |
+  Dengan pergeseran sebanyak 17 dalam abjad, "D" menjadi "U", "O" menjadi "F", dan "G" menjadi "X". Oleh karena itu, kata yang terenkripsi adalah "UFX".

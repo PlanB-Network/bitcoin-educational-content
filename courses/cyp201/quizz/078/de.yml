@@ -1,9 +1,9 @@
-question: Welche Rolle spielt eine Passphrase in einer Bitcoin-Wallet?
-answer: Sie erhöht die Sicherheit der Wallet.
-wrong_answers:
-  - Sie verringert die Sicherheit der Wallet.
-  - Sie hat keine Auswirkungen auf die Sicherheit der Wallet.
-  - Sie macht die Wallet benutzerfreundlicher.
-explanation: |
-  Die Passphrase ist ein zusätzliches Passwort, das in eine Bitcoin-Wallet integriert werden kann, um ihre Sicherheit zu erhöhen. Durch Hinzufügen beliebiger Informationen, die zusammen mit der mnemonischen Phrase die Berechnung des Wallet-Schlüssels ermöglichen, erhöht die Passphrase die Sicherheit.
-reviewed: false
+Frage: Hier ist eine Sequenz von Dezimalzahlen (10 25 13 18 02 31). Was ist die korrekte Umwandlung in Bech32?
+Antwort: 2edjzl
+Falsche Antworten:
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
+Erklärung: |
+  Die Umwandlung von Dezimalzahlen in Bech32 erfolgt über eine spezifische Korrespondenztabelle, und die Sequenz 10 25 13 18 02 31 entspricht 2edjzl.
+Überprüft: false

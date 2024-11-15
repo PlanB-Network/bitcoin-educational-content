@@ -1,9 +1,8 @@
-question: Quais são os vetores de inicialização no processamento da função SHA-256?
-answer: Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 números primos
-wrong_answers:
-  - Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 8 números primos
-  - Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 64 números primos
-  - Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 64 números primos
-explanation: |
-  No processamento da função SHA-256, os vetores de inicialização, de A a H, são os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 números primos. Estes são usados como ingredientes básicos na receita criptográfica.
-reviewed: false
+pergunta: Quais são os algoritmos usados para derivação em carteiras HD Bitcoin?
+resposta: HMAC/PBKDF2
+respostas_erradas:
+  - NMAC/PBKDF1
+  - KMAC/Scrypt
+  - CMAC/Argon2
+explicação: |
+  As carteiras HD Bitcoin utilizam HMAC (Código de Autenticação de Mensagem Baseado em Hash) para a derivação de chaves e PBKDF2 (Função de Derivação de Chave Baseada em Senha 2) para a derivação de semente.

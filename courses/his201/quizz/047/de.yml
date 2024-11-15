@@ -1,0 +1,9 @@
+Frage: Welchen Aspekt von Bitcoin wollte Satoshi in seiner Kommunikation im Juli 2010 herunterspielen?
+Antwort: Die Anonymität von Transaktionen
+falsche_Antworten:
+  - Geldpolitik
+  - E-Commerce
+  - Programmierbarkeit
+Erklärung: |
+  Bezüglich des Entwurfs der Präsentation für Slashdot erklärte er, er wolle "den 'anonymen' Aspekt nicht in den Vordergrund stellen." Er erläuterte seine Gründe Martti Malmi [im Privaten](https://mmalmi.github.io/satoshi/#email-197).
+überprüft: false

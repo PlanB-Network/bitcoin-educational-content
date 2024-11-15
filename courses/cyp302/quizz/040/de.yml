@@ -1,0 +1,9 @@
+Frage: Welche grundlegende Bedingung muss eine Menge "S" mit einer binären Operation erfüllen, um eine Gruppe zu sein?
+Antwort: Die Abgeschlossenheitsbedingung
+falsche_Antworten:
+  - Die Kommutativitätsbedingung
+  - Die Symmetriebedingung
+  - Die Distributivitätsbedingung
+Erklärung: |
+  Eine Menge "S" mit einer binären Operation muss mehrere Bedingungen erfüllen, um eine Gruppe zu bilden, und die erste ist die Abgeschlossenheitsbedingung: Die Operation zwischen zwei Elementen von "S" muss ein Element von "S" ergeben.
+überprüft: false

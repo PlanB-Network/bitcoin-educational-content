@@ -1,0 +1,9 @@
+question: Millest koosneb konkatenatsiooni operatsioon?
+answer: Kahe operandi üksteise otsa asetamine.
+wrong_answers:
+  - Kahe operandi liitmine.
+  - Kahe operandi jagamine.
+  - Kahe operandi lahutamine.
+explanation: |
+  Konkatenatsioon hõlmab kahe operandi üksteise järel asetamist ilma neid muutmata, mida kasutatakse laialdaselt krüptograafias.
+reviewed: false

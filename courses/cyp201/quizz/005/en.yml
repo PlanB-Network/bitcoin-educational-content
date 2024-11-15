@@ -1,13 +1,9 @@
-question: What is the ultimate goal of a cryptographic hash function?
-answer: To transform arbitrary-sized information into a fixed-size fingerprint.
+question: What size must the input of the SHA256 function be once padded?
+answer: A multiple of 512 bits.
 wrong_answers:
-  - To encrypt data for secure transmission.
-  - To generate a unique key for each user.
-  - To compress data for efficient storage.
+  - Of 256 bits.
+  - Of 256 bytes.
+  - A multiple of 256 bits.
 explanation: |
-  The ultimate goal of a cryptographic hash function is to transform
-  arbitrary-sized
-  information into a fixed-size fingerprint. This fingerprint is unique to the input
-  data, and even a small change in the input will result in a drastically different
-  fingerprint.
+  The SHA256 function requires that the input be a multiple of 512 bits after padding to function correctly.
 reviewed: false

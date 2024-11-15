@@ -1,11 +1,9 @@
-question: What is the role of entropy in the Bitcoin HD wallet?
-answer: It is the foundation of any HD wallet and essential for its security.
+question: What metadata is added to the extended key in addition to its payload?
+answer: Version / depth / parent fingerprint / index / checksum.
 wrong_answers:
-  - It helps in the verification of transactions.
-  - It increases the speed of transactions.
-  - It reduces the size of the blockchain.
+  - Version / index.
+  - Version / depth / separator / checksum.
+  - No metadata is added.
 explanation: |
-  Entropy, or randomness, is the foundation of any HD wallet. It is essential
-  for the security of the wallet as it ensures the unpredictability of the private
-  keys generated.
+  The extended key includes several pieces of metadata. There is the version, depth, parent fingerprint, index, and checksum to facilitate key derivation.
 reviewed: false

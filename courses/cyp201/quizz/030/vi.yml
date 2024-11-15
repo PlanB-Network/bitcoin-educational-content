@@ -1,11 +1,8 @@
-question: Phương trình nào định nghĩa một đường cong elliptic?
-answer: "y² = x³ + ax + b"
-wrong_answers:
-  - "y² = x³ + ax"
-  - "y² = x³ + b"
-  - "y² = x³ + ax - b"
-explanation: |
-  "Một đường cong elliptic được định nghĩa bởi phương trình y² = x³ + ax + b.\
-  \ Mọi điểm trên đường cong này đều có một tính đối xứng đặc trưng, là chìa khóa cho\
-  \ sự hữu ích của nó trong mật mã học."
-reviewed: false
+câu hỏi: Vai trò kỹ thuật chính của một ví Bitcoin là gì?
+câu trả lời: Để lưu trữ các cặp khóa mật mã.
+câu trả lời sai:
+  - Để lưu trữ bitcoin.
+  - Để lưu trữ UTXOs.
+  - Để lưu trữ giao dịch.
+giải thích: |
+  Một ví Bitcoin không trực tiếp lưu trữ bitcoin, mà là lưu trữ các cặp khóa mật mã được sử dụng để quản lý và chi tiêu UTXOs.

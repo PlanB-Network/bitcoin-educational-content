@@ -1,0 +1,8 @@
+pertanyaan: Apa yang memungkinkan dilakukan kunci pembatalan dalam kasus kecurangan?
+jawaban: Mengambil kembali semua dana dengan menghukum penipu
+jawaban_salah:
+  - Membatalkan transaksi komitmen
+  - Menggandakan kapasitas saluran
+  - Mencegah transaksi lebih lanjut dalam saluran
+penjelasan: |
+  Kunci pembatalan memungkinkan pihak yang dirugikan untuk mengambil kembali semua dana dalam kejadian percobaan kecurangan oleh pihak lain.

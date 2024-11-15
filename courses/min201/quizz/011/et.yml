@@ -1,0 +1,11 @@
+question: Millised on mõned strateegiad, mida arutatakse Bitcoin'i kaevandamise tsentraliseerituse vastu võitlemiseks?
+answer: Strateegiad, mida arutatakse Bitcoin'i kaevandamise tsentraliseerituse vastu võitlemiseks, hõlmavad kodukaevandamist, Stratum V2 protokolli, kaevandamistarkvara avatud lähtekoodiga jagamist ning osalejate ja geograafia mitmekesistamist.
+wrong_answers:
+  - Strateegiad, mida arutatakse Bitcoin'i kaevandamise tsentraliseerituse vastu võitlemiseks, hõlmavad ploki suuruse suurendamist, proof of stake'i rakendamist ja keskse autoriteedi loomist kaevandamise järelevalveks.
+  - Strateegiad, mida arutatakse Bitcoin'i kaevandamise tsentraliseerituse vastu võitlemiseks, hõlmavad ploki preemia vähendamist, tehingutasu rakendamist ja kaevandamismaksu loomist.
+  - Strateegiad, mida arutatakse Bitcoin'i kaevandamise tsentraliseerituse vastu võitlemiseks, hõlmavad kaevandamise raskusastme suurendamist, kaevandamise limiidi rakendamist ja kaevandamisloterii loomist.
+explanation: |
+  Peatükk arutab mitmeid strateegiaid Bitcoin'i kaevandamise tsentraliseerituse vastu võitlemiseks,
+  sealhulgas kodukaevandamine, Stratum V2 protokoll, kaevandamistarkvara avatud lähtekoodiga
+  jagamine ning osalejate ja geograafia mitmekesistamine.
+reviewed: false

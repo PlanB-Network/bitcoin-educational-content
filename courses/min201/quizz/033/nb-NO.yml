@@ -1,0 +1,13 @@
+question: Hva er den potensielle risikoen ved en nedgang i antall brukere, noder eller gruvearbeidere i Bitcoin-nettverket?
+answer: Det kan svekke nettverket, øke risikoen for sentralisering og sårbarhet for angrep.
+wrong_answers:
+  - Det kan øke prisen på Bitcoin.
+  - Det kan redusere transaksjonshastigheten.
+  - Det kan øke vanskelighetsgraden for gruvedrift.
+explanation: |
+  En nedgang i antall brukere, noder eller gruvearbeidere kan svekke
+
+  Bitcoin-nettverket. Dette kan øke risikoen for sentralisering og gjøre nettverket
+
+  mer sårbart for angrep.
+reviewed: false

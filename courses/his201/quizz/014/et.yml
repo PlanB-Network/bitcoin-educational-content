@@ -1,0 +1,9 @@
+question: Kes leiutas töötõenduse kontseptsiooni?
+answer: Cynthia Dwork ja Moni Naor
+wrong_answers:
+  - Markus Jakobsson ja Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  Nad kirjeldasid kontseptsiooni 1992. aastal. Markus Jakobsson ja Ari Juels panid terminile "proof of work" aluse. Adam Back võttis hiljem kontseptsiooni kasutusele Hashcash'i jaoks.
+reviewed: false

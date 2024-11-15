@@ -1,0 +1,13 @@
+pergunta: Qual é a principal diferença entre um ricochete aprimorado e um ricochete clássico?
+
+resposta: A distribuição das transações ao longo do tempo
+
+respostas_erradas:
+  - O número de transações utilizadas
+  - O tipo de endereço utilizado
+  - O número de saídas nas transações
+
+explicação: |
+  O ricochete aprimorado garante que cada transação seja transmitida em um momento distinto e registrada em um bloco diferente, enquanto o ricochete clássico transmite todas as transações dentro de um curto período de tempo.
+
+revisado: false

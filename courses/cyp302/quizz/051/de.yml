@@ -1,0 +1,9 @@
+Frage: Was bedeutet der Begriff "champ premier" oder "corps premier"?
+Antwort: Ein Körper mit einer Primzahl an Elementen
+falsche_Antworten:
+  - Ein Körper, der nur Primzahlen enthält
+  - Ein Körper, der ausschließlich durch die Addition von Primzahlen definiert ist
+  - Ein Körper, der Zufallsvektoren verwendet
+Erklärung: |
+  Ein Primkörper enthält eine Anzahl von Elementen, die einer Primzahl entspricht, was ihn zu einem grundlegenden Feld für kryptografische Operationen macht.
+überprüft: false

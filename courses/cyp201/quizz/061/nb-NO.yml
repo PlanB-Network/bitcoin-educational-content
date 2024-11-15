@@ -1,0 +1,9 @@
+question: Hva er variabelen som tillater differensiering av søsken nøkkelpar fra hverandre (som har samme foreldrepar)?
+answer: Indeksen.
+wrong_answers:
+  - Den kryptografiske salt.
+  - Fornavnet.
+  - Foreldrenes kjedekode.
+explanation: |
+  Indeksen brukes til å differensiere søsken nøkkelpar som er avledet fra samme foreldrepar i en HD-lommebok.
+reviewed: false

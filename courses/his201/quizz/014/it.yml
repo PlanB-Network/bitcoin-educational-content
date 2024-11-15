@@ -1,0 +1,9 @@
+domanda: Chi ha inventato il concetto di proof of work?
+risposta: Cynthia Dwork e Moni Naor
+risposte_errate:
+  - Markus Jakobsson e Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+spiegazione: |
+  Hanno descritto il concetto nel 1992. Markus Jakobsson e Ari Juels hanno coniato il termine "proof of work". Adam Back ha successivamente adottato il concetto per Hashcash.
+revisionato: false

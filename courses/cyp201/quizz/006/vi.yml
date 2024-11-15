@@ -1,9 +1,9 @@
-question: Hash trong ngữ cảnh của hàm băm mật mã là gì?
-answer: Một dấu vân tay số độc nhất và cố định được tạo ra bởi hàm băm.
-wrong_answers:
-  - Một loại thuật toán mã hóa.
-  - Một khóa được sử dụng để giải mã dữ liệu.
-  - Một phương pháp nén dữ liệu.
-explanation: |
-  Trong ngữ cảnh của hàm băm mật mã, hash là một dấu vân tay số độc nhất và cố định được tạo ra bởi hàm băm. Nó đại diện cho dữ liệu đầu vào một cách độc nhất và không thể đảo ngược.
-reviewed: false
+câu hỏi: Bao nhiêu bit được dành riêng cho việc đệm theo kích thước trong hàm SHA256?
+câu trả lời: 64 bit.
+câu trả lời sai:
+  - 128 bit.
+  - 256 bit.
+  - 512 bit.
+giải thích: |
+  SHA256 dành riêng 64 bit cho việc đệm, đại diện cho kích thước ban đầu của thông điệp trước khi được đệm.
+đã xem xét: false

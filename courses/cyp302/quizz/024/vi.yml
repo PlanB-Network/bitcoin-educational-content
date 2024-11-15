@@ -1,0 +1,9 @@
+câu hỏi: Giá trị của 42 mod 2 là bao nhiêu?
+câu trả lời: 0
+câu trả lời sai:
+  - 1
+  - 2
+  - 42
+giải thích: |
+  Khi chia 42 cho 2, phần dư là không, do đó 42 mod 2 bằng 0.
+đã xem xét: false

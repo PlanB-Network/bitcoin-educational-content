@@ -1,0 +1,9 @@
+Frage: Was ist ein "Block Cipher" in der Kryptographie?
+Antwort: Ein Algorithmus, der eine Zeichenkette fester Länge in eine andere Zeichenkette derselben Länge umwandelt
+falsche_Antworten:
+  - Eine asymmetrische Verschlüsselung basierend auf öffentlichen und privaten Geheimschlüsseln
+  - Ein System, das Daten variabler Länge durch einen Stream verschlüsselt
+  - Eine Verschlüsselung, die keinen Geheimschlüssel benötigt
+Erklärung: |
+  Ein Block Cipher ist ein Algorithmus, der eine Transformation auf eine Bitfolge fester Länge mit einem Schlüssel anwendet, um eine andere Zeichenkette derselben Länge zu erzeugen.
+überprüft: false

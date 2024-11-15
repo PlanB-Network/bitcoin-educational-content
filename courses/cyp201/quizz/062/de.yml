@@ -1,10 +1,11 @@
-question: Was ist das Hauptrisiko, das mit der Generierung einer eigenen mnemonischen Phrase unter Verwendung von Würfeln für Bitcoin-Transaktionen verbunden ist?
-answer: Es kann bestimmte Risiken mit sich bringen.
-wrong_answers:
-  - Es kann zur Generierung vorhersehbarer Zahlen führen.
-  - Es kann zur Generierung von doppelten Zahlen führen.
-  - Es kann zur Generierung ungültiger Zahlen führen.
-explanation: |
-  Die Generierung einer eigenen mnemonischen Phrase unter Verwendung von Würfeln kann bestimmte Risiken mit sich bringen.
-  Es wird daher empfohlen, zur Minderung dieser Risiken eine zufällig generierte Passphrase zu verwenden.
-reviewed: false
+Frage: Um eine Ableitung eines normalen Kind-Schlüsselpaares durchzuführen, muss ich in die HMAC-SHA512-Funktion eingeben...
+
+Antwort: Elterlicher öffentlicher Schlüssel || Index, Elterlicher Ketten-Code.
+
+Falsche Antworten:
+  - Elterlicher privater Schlüssel || Index, Elterlicher Ketten-Code.
+  - Elterlicher privater Schlüssel, Elterlicher Ketten-Code.
+  - Elterlicher privater Schlüssel || Index.
+
+Erklärung: |
+  Um einen normalen Kind-Schlüssel abzuleiten, wird der elterliche öffentliche Schlüssel zusammen mit dem Index und dem Ketten-Code in der HMAC-SHA512-Funktion verwendet.

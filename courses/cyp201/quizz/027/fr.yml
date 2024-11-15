@@ -1,9 +1,9 @@
-question: Que stocke un portefeuille Bitcoin ?
-answer: Les clés privées nécessaires pour prouver la propriété des bitcoins
+question: Que représente le point V dans le processus de signature numérique avec ECDSA en exemple dans ce chapitre ?
+answer: Le point calculé à partir du nonce v et du point générateur G (V = v.G).
 wrong_answers:
-  - Les bitcoins eux-mêmes
-  - Les clés publiques nécessaires pour prouver la propriété des bitcoins
-  - L'historique des transactions des bitcoins
+  - Le point dérivé directement de la clé publique.
+  - Le hachage du message signé.
+  - Le résultat de l'addition de deux points sur la courbe elliptique.
 explanation: |
-  En réalité, un portefeuille Bitcoin stocke les clés privées nécessaires pour prouver la propriété des bitcoins. Les bitcoins eux-mêmes sont enregistrés sur la blockchain, une base de données décentralisée qui archive toutes les transactions.
+  V est le résultat du calcul du nonce multiplié par le point générateur sur la courbe elliptique.
 reviewed: false

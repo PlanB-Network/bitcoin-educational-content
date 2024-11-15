@@ -1,0 +1,11 @@
+pertanyaan: Apa fungsi dompet panas dalam konteks Bitcoin?
+jawaban: Untuk mengirim dan menerima bitcoin secara rutin untuk penggunaan sehari-hari.
+jawaban_salah:
+  - Untuk menyimpan bitcoin secara aman untuk jangka panjang.
+  - Untuk menambang bitcoin baru.
+  - Untuk berdagang bitcoin di platform pertukaran.
+penjelasan: |
+  Dompet panas adalah jenis dompet Bitcoin yang terhubung ke internet,
+  membuatnya cocok untuk transaksi sehari-hari. Namun, dompet ini lebih rentan terhadap peretasan
+  dan pencurian dibandingkan dengan dompet dingin.
+ditinjau: false

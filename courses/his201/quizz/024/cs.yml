@@ -1,0 +1,9 @@
+otázka: Kdo je osoba, která pozitivně reagovala na publikaci bílé knihy v listopadu 2008?
+odpověď: Hal Finney
+špatné_odpovědi:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+vysvětlení: |
+  Sedmého listopadu napsal do seznamu, že "Bitcoin [se zdá být] velmi slibný nápad". Ostatní byli skeptičtější. (https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+recenzováno: false

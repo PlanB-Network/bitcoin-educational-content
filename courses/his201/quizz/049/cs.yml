@@ -1,0 +1,9 @@
+otázka: Jaká byla variace v ceně Bitcoinu během týdne po jeho představení na Slashdot?
+odpověď: Z $0.008 na $0.08
+špatné_odpovědi:
+  - Z $0.001 na $0.008
+  - Z $0.08 na $0.50
+  - Z $0.50 na $1
+vysvětlení: |
+  Tato variace odpovídala desetinásobnému nárůstu! Hash rate zažil podobný skok.
+recenzováno: false

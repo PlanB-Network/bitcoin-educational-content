@@ -1,0 +1,9 @@
+question: What is a "stream cipher" in cryptography?
+answer: A symmetric encryption that generates a stream of keys the same length as the message
+wrong_answers:
+  - An asymmetric encryption based on prime numbers
+  - An encryption that uses multiple different decryption keys
+  - An encryption that segments the message into data blocks
+explanation: |
+  A "stream cipher" is a symmetric encryption in which a stream of keys the same length as the message is combined with the latter to produce the encrypted text.
+reviewed: false

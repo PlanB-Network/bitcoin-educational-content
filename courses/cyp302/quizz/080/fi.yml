@@ -1,0 +1,9 @@
+kysymys: Mikä on "stream cipher" kryptografiassa?
+vastaus: Symmetrinen salaus, joka luo avainten virran viestin pituuden mukaisesti
+vaarat_vastaukset:
+  - Asymmetrinen salaus, joka perustuu alkulukuihin
+  - Salaus, joka käyttää useita erilaisia purkuavaimia
+  - Salaus, joka jakaa viestin datalohkoihin
+selitys: |
+  "Stream cipher" on symmetrinen salaus, jossa avainten virta, joka on yhtä pitkä kuin viesti, yhdistetään jälkimmäiseen tuottaakseen salatun tekstin.
+arvioitu: false

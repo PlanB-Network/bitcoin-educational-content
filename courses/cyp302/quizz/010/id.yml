@@ -1,0 +1,8 @@
+pertanyaan: Mengapa kriptografi sangat penting dalam lingkungan komunikasi terbuka?
+jawaban: Ini mengamankan data, meskipun saluran komunikasi disadap.
+jawaban_salah:
+  - Ini membuat komunikasi tidak terlihat oleh semua jaringan.
+  - Ini mencegah serangan pada jaringan lokal.
+  - Ini menggantikan kabel fisik dengan komunikasi yang aman.
+penjelasan: |
+  Dalam lingkungan komunikasi terbuka, di mana saluran dapat dipantau, kriptografi menjamin keamanan dengan melindungi data yang ditukarkan, bahkan dalam kehadiran serangan potensial.

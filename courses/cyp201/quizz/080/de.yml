@@ -1,9 +1,0 @@
-question: Was ist der Vorteil der Verwendung einer Passphrase in einer Bitcoin-Wallet?
-answer: Es ermöglicht die Anwendung verschiedener Sicherheitsstrategien.
-wrong_answers:
-  - Es macht die Wallet benutzerfreundlicher.
-  - Es erhöht die Geschwindigkeit von Transaktionen.
-  - Es reduziert die mit Transaktionen verbundenen Gebühren.
-explanation: |
-  Die Passphrase ist ein wesentliches Werkzeug zur Verbesserung der Sicherheit von Bitcoin-Wallets. Sie ermöglicht die Anwendung verschiedener Sicherheitsstrategien. Zum Beispiel kann sie verwendet werden, um Duplikate zu erstellen und Backups der mnemonischen Phrase zu erleichtern. Sie kann auch die Sicherheit der Wallet verbessern, indem sie die Risiken der zufälligen Generierung der mnemonischen Phrase verringert.
-reviewed: false

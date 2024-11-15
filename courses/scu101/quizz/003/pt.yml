@@ -1,9 +1,0 @@
-question: Qual é a principal vantagem de usar software de código aberto?
-answer: Ele permite verificar que não há acesso oculto para roubar seus dados pessoais.
-wrong_answers:
-  - É sempre gratuito.
-  - É sempre mais seguro do que o software de código fechado.
-  - É sempre mais fácil de usar do que o software de código fechado.
-explanation: |
-  O software de código aberto é um software cujo código é conhecido e acessível a todos. Isso permite verificar, entre outras coisas, que não há acesso oculto para roubar seus dados pessoais. No entanto, nem sempre é gratuito, mais seguro ou mais fácil de usar do que o software de código fechado.
-reviewed: false

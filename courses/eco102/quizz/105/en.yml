@@ -1,0 +1,9 @@
+question: Who is the author of "I, Pencil" and who also translated Bastiat's "The Law" into English?
+answer: Leonard Read
+wrong_answers:
+  - Leonard Nimoy
+  - Leonard Cohen
+  - Milton Friedman
+explanation: |
+  Leonard Read is known for translating Bastiat's "The Law" into English and for popularizing his work through the Foundation for Economic Education.
+reviewed: false

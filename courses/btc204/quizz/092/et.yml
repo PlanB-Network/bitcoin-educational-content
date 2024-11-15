@@ -1,0 +1,11 @@
+küsimus: Mis on konto nimi, mida kasutatakse UTXO-de jaoks, mis ei saa siseneda Whirlpooli coinjoin basseini?
+
+vastus: Doxxic change konto.
+
+valed_vastused:
+  - Postmix konto.
+  - Premix konto.
+  - Hoiukonto.
+
+selgitus: |
+  Muudatus, mis ei saanud basseini liituda, eraldatakse "doxxic change" kontosse, et tagada range eraldatus teistest rahakoti UTXO-dest.

@@ -1,0 +1,8 @@
+pertanyaan: Bagaimana cara dekripsi bekerja dalam sandi geser?
+jawaban: Dengan mengurangkan kunci dari setiap huruf terenkripsi dan menerapkan modulo 26
+jawaban_salah:
+  - Dengan mengurangkan kunci dari setiap huruf terenkripsi dan menerapkan modulo 20
+  - Dengan mengalikan kunci dengan setiap huruf terenkripsi
+  - Dengan membagi kunci dari setiap huruf terenkripsi dan menerapkan modulo 27
+penjelasan: |
+  Dalam sandi geser, dekripsi dilakukan dengan mengurangkan kunci dari setiap huruf terenkripsi, kemudian menerapkan modulo 26 untuk kembali ke teks asli. Modulo 26 memungkinkan untuk kembali ke awal abjad setelah huruf "Z".

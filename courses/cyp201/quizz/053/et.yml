@@ -1,0 +1,8 @@
+question: Millist informatsiooni arvutatakse seemnest, rakendades HMAC-SHA512?
+answer: Rahakoti peamine võti ja peamine ahelakood.
+wrong_answers:
+  - Rahakoti laiendatud võti.
+  - Rahakoti xpub ja xprv.
+  - Privaatvõtme allkirjakood.
+explanation: |
+  Seemnest, kasutades HMAC-SHA512, tuletatakse peamine võti ja peamine ahelakood, mis on võtmegeneratsiooni aluseks.

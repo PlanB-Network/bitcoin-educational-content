@@ -1,10 +1,9 @@
-question: What is the block size used in HMAC-SHA-512?
-answer: 1024-bit (128-byte) blocks
+question: How is a Bitcoin private key determined?
+answer: It is determined from a random or pseudo-random number.
 wrong_answers:
-  - 512-bit (64-byte) blocks
-  - 256-bit (32-byte) blocks
-  - 2048-bit (256-byte) blocks
+  - It is determined by addition and doubling points on the elliptic curve from its public key.
+  - It is determined by hashing its public key.
+  - It is determined by the SHA-256 algorithm.
 explanation: |
-  In the context of HD wallet derivation, HMAC-SHA-512 is used. The latter
-  operates with 1024-bit (128-byte) blocks and adjusts the key accordingly.
+  A Bitcoin private key is generated in a random or pseudo-random manner, which ensures its uniqueness and security.
 reviewed: false

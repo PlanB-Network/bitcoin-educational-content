@@ -1,0 +1,13 @@
+otázka: Co je Stonewall transakce?
+
+odpověď: Transakce, která napodobuje mini-coinjoin, aniž by jím skutečně byla
+
+špatné_odpovědi:
+  - Platební transakce ve formě mini-coinjoin
+  - Společná transakce zahrnující tři účastníky
+  - Transakce, která zahrnuje příjemce mezi vstupy
+
+vysvětlení: |
+  Stonewall je specifický druh Bitcoinové transakce, která má za cíl zvýšit soukromí uživatele při platbě tím, že napodobuje mini-coinjoin mezi dvěma lidmi, aniž by to ve skutečnosti byl.
+
+recenzováno: false

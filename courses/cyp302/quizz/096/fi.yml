@@ -1,0 +1,8 @@
+kysymys: Mitkä ovat kolme perusaskelta MAC-järjestelmässä?
+vastaus: Avaimen luonti, tagin luonti, varmennus
+väärät_vastaukset:
+  - Salaus, purku, siirto
+  - Julkisen avaimen luonti, yksityisen avaimen salaaminen, validointi
+  - Viestin hajautus, tagin salaaminen, tagin jakelu
+selitys: |
+  MAC-järjestelmä koostuu kolmesta päävaiheesta: salaisen avaimen luominen, viestille tagin tuottaminen ja vastaanotetun viestin sekä sen tagin vastaavuuden varmistaminen.

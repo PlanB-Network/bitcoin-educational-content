@@ -1,0 +1,9 @@
+question: Quel objectif principal de la cryptographie classique est encore présent dans la cryptographie moderne ?
+answer: La confidentialité des messages
+wrong_answers:
+  - La simplification des messages
+  - La répétition des messages
+  - L'automatisation de l'envoi de messages
+explanation: |
+  La cryptographie classique se concentrait principalement sur la confidentialité, et cet objectif est encore essentiel dans la cryptographie moderne, bien que d'autres thèmes, comme l'intégrité et l'authenticité, y aient été ajoutés.
+reviewed: false

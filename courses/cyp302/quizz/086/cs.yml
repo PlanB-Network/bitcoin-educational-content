@@ -1,0 +1,9 @@
+otázka: Jaká je hlavní chyba metody ECB u blokové šifry?
+odpověď: Je deterministická a může odhalit vzory v datech
+špatné_odpovědi:
+  - Vyžaduje klíče proměnné délky
+  - Nepracuje se zprávami přes 128 bitů
+  - Nepracuje se zprávami přes 256 bitů
+vysvětlení: |
+  Metoda ECB ("Electronic Code Book") je deterministická: identické bloky dat jsou šifrovány stejným způsobem, což umožňuje detekovat vzory v zašifrovaném textu.
+recenzováno: false

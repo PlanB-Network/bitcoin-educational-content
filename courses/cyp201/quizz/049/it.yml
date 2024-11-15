@@ -1,9 +1,9 @@
-question: Qual è lo scopo delle Proposte di Miglioramento di Bitcoin (BIP)?
-answer: Sono proposte di aggiornamento che migliorano la funzionalità e la sicurezza degli HD wallet.
-wrong_answers:
-  - Sono proposte per aumentare il valore di Bitcoin.
-  - Sono proposte per cambiare il processo di mining di Bitcoin.
-  - Sono proposte per regolare l'uso di Bitcoin.
-explanation: |
-  Le Proposte di Miglioramento di Bitcoin (BIP) sono protocolli che mirano a migliorare la funzionalità e la sicurezza degli HD wallet. Ad esempio, BIP32 ha introdotto il concetto di chiavi derivate in modo deterministico e gerarchico.
-reviewed: false
+domanda: Come si dovrebbe scegliere una passphrase efficace?
+risposta: Dovrebbe essere lunga, diversificata e casuale, senza nessuna connessione con l'utente.
+risposte_errate:
+  - Dovrebbe essere facile da ricordare e correlata all'ambiente dell'utente.
+  - Dovrebbe essere breve ma includere numeri.
+  - Dovrebbe contenere almeno 10 cifre.
+spiegazione: |
+  Una passphrase efficace dovrebbe essere lunga (da 20 a 40 caratteri), diversificata e casuale per fornire la massima sicurezza, similmente a una buona password.
+recensito: false

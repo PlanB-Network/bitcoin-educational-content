@@ -1,0 +1,9 @@
+otázka: Co zajišťuje Kód pro ověření zprávy (MAC) v kryptografickém schématu?
+odpověď: Integritu a autentičnost zprávy
+špatné_odpovědi:
+  - Důvěrnost zprávy
+  - Kompresi zprávy
+  - Převod zprávy do binární podoby
+vysvětlení: |
+  Kód pro ověření zprávy (MAC) se používá k zajištění, že zpráva nebyla změněna a že skutečně pochází od předpokládaného odesílatele.
+recenzováno: false

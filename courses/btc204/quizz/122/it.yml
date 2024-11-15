@@ -1,0 +1,13 @@
+domanda: Come migliora la privacy e la sicurezza delle comunicazioni tra nodi il trasporto P2P V2?
+
+risposta: Integrando la crittografia opportunistica
+
+risposte_errate:
+  - Integrando l'autenticazione
+  - Utilizzando relay aggiuntivi
+  - Utilizzando Tor
+
+spiegazione: |
+  Il trasporto P2P V2 incorpora un livello di crittografia opportunistica per migliorare la privacy e la sicurezza delle comunicazioni tra nodi.
+
+revisionato: false

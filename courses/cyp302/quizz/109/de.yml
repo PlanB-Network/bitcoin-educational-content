@@ -1,0 +1,9 @@
+Frage: Welche Art von Angriff kann durch eine Sequenznummer in einer sicheren Kommunikationssitzung verhindert werden?
+Antwort: Replay- und Reordering-Angriffe
+falsche_Antworten:
+  - Passive Abhörangriffe
+  - Denial-of-Service-Angriffe
+  - Schlüssel-Spoofing-Angriffe
+Erklärung: |
+  Eine Sequenznummer in jeder Nachricht verhindert Replay- und Reordering-Angriffe, da sie die Überprüfung der Reihenfolge und Einzigartigkeit der Nachrichten ermöglicht.
+überprüft: false

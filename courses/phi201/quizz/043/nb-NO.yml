@@ -1,0 +1,9 @@
+question: Hva er forholdet mellom naturlig lov og menneskelig lov ifølge Thomas Aquinas?
+answer: Menneskelig lov må være i samsvar med naturlig lov for å være rettferdig og legitim.
+wrong_answers:
+  - Menneskelig lov er overlegen naturlig lov fordi den er vedtatt av legitime myndigheter.
+  - Naturlig lov er lik menneskelig lov.
+  - Menneskelig lov gjelder bare delvis.
+explanation: |
+  For Thomas Aquinas, får menneskelig lov sin legitimitet fra sitt samsvar med naturlig lov, som uttrykker universelle moralske prinsipper. Hvis menneskelig lov motsier naturlig lov, mister den sin rettferdighet og legitimitet.
+reviewed: false

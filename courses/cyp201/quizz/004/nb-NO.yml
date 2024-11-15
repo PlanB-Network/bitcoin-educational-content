@@ -1,0 +1,9 @@
+question: Innenfor Bitcoin-protokollen, hva er en HASH256?
+answer: En dobbel SHA256-hash.
+wrong_answers:
+  - En dobbel Keccak-256-hash.
+  - En SHA256-hash etterfulgt av en RIPEMD160-hash.
+  - En enkel SHA256-hash.
+explanation: |
+  En HASH256 er en dobbel SHA256-hash, noe som betyr at SHA256-funksjonen blir anvendt én gang på et stykke data, deretter en andre gang på resultatet av den første.
+reviewed: false

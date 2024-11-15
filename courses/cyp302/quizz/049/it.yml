@@ -1,0 +1,9 @@
+domanda: Quale tipo di gruppo è particolarmente importante per la crittografia a chiave pubblica a causa della sua capacità di generare tutti gli elementi attraverso l'esponenziazione?
+risposta: Gruppi ciclici
+risposte_errate:
+  - Gruppi non abeliani
+  - Gruppi infiniti
+  - Gruppi di numeri complessi
+spiegazione: |
+  In crittografia, i gruppi ciclici sono essenziali perché consentono la generazione di tutti gli elementi del gruppo utilizzando l'esponenziazione di un singolo elemento, chiamato generatore.
+recensito: false

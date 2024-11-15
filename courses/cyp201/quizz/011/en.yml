@@ -1,11 +1,9 @@
-question: What do the constants K represent in the SHA-256 function processing?
-answer: The first 32 bits of the decimal parts of the cubic roots of the first 64 prime numbers
+question: What does the concatenation operation consist of?
+answer: Putting two operands end to end.
 wrong_answers:
-  - The first 32 bits of the decimal parts of the square roots of the first 64 prime numbers
-  - The first 32 bits of the decimal parts of the cubic roots of the first 8 prime numbers
-  - The first 32 bits of the decimal parts of the square roots of the first 8 prime numbers
+  - Adding two operands.
+  - Dividing two operands.
+  - Subtracting two operands.
 explanation: |
-  In the SHA-256 function processing, the constants K, from 0 to 63, represent
-  the first 32 bits of the decimal parts of the cubic roots of the first 64 prime
-  numbers. These are used as basic ingredients in the cryptographic recipe.
+  Concatenation involves placing two operands one after the other without modifying them, widely used in cryptography.
 reviewed: false

@@ -1,0 +1,13 @@
+question: What cryptographic method is used to prevent the coordinator from linking the inputs and outputs in a coinjoin?
+
+answer: Chaum blind signatures.
+
+wrong_answers:
+  - Schnorr signatures.
+  - P2SH addresses.
+  - P2TR addresses.
+
+explanation: |
+  In so-called "Chaumian" coinjoins, the use of Tor and David Chaum's blind signatures are combined to ensure that the coordinator cannot know which output belongs to which user.
+
+reviewed: false

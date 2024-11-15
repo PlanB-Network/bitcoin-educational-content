@@ -1,0 +1,11 @@
+question: Hva er navnet på kontoen som brukes for UTXO-er som ikke kan delta i en Whirlpool coinjoin-pool?
+
+answer: Doxxic change-konto.
+
+wrong_answers:
+  - Postmix-konto.
+  - Premix-konto.
+  - Innskuddskonto.
+
+explanation: |
+  Endringen som ikke kunne bli med i poolen, isoleres i "doxxic change"-kontoen, for å sikre en streng separasjon fra de andre UTXO-ene i lommeboken.

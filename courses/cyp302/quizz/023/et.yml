@@ -1,0 +1,8 @@
+question: Mis on modulo operatsiooni roll nihkešifri krüpteerimisel?
+answer: See tagab, et tähed naasevad tähestiku algusesse, ületades 26
+wrong_answers:
+  - See korrutab tähtede väärtused võtmega
+  - See pöörab tähestiku tähed tagurpidi
+  - See kustutab tähed pärast tähte "Z"
+explanation: |
+  Modulo 26 operatsioon võimaldab tähtedel pärast "Z" tagasi loopida, et tagada iga krüpteeritud tähe jäämine 26 tähestiku tähe piiresse.

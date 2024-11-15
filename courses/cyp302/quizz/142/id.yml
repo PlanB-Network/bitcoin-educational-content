@@ -1,0 +1,9 @@
+pertanyaan: Apa nama masalah di mana menghitung hasil ke satu arah itu mudah tetapi hampir mustahil untuk dibalik?
+jawaban: Fungsi satu arah
+jawaban_salah:
+  - Fungsi linear
+  - Fungsi eksponensial
+  - Fungsi reversibel
+penjelasan: |
+  Fungsi satu arah memungkinkan perhitungan cepat ke satu arah, tetapi membuat penyelesaian invers hampir mustahil, oleh karena itu kegunaannya dalam kriptografi.
+ditinjau: false

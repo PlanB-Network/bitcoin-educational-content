@@ -1,0 +1,11 @@
+question: Mis on ajalooline seos raha ja kaupade, nagu kuld, vahel?
+answer: Kuld on haruldane ja laialdaselt aktsepteeritud väärtuse hoidjana
+wrong_answers:
+  - Kuld muudab raha atraktiivsemaks
+  - Kulda on lihtne jagada
+  - Kuld on ainulaadne
+explanation: |
+  Arvestades kulla ülemaailmset haruldust looduses ja olulist investeeringut, 
+  mis on vajalik kaevandamiseks, puhastamiseks ja hoidmiseks, on kuld järjepidevalt 
+  kaubelnud preemiaga võrreldes teiste rahavormidega.
+reviewed: true

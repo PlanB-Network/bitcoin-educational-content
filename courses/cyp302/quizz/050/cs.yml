@@ -1,0 +1,9 @@
+otázka: Proč jsou rozšiřující pole s bází 2 užitečná v kryptografii?
+odpověď: Umožňují bezpečnou manipulaci s binárními řetězci.
+špatné_odpovědi:
+  - Zjednodušují výpočty snížením počtu operací.
+  - Zabraňují chybám ve výpočtech přidáním redundance.
+  - Omezují rozsah možností snížením počtu prvků.
+vysvětlení: |
+  Rozšiřující pole s bází 2 jsou výhodná, protože jejich prvky lze chápat jako binární řetězce, což usnadňuje provádění operací s digitálními daty na binární úrovni v systémech.
+recenzováno: false

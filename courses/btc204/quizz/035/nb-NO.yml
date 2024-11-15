@@ -1,0 +1,8 @@
+question: Hvem oppdaget heuristikken for gjenbruk av adresser?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Den første personen som diskuterte dette konseptet var Satoshi Nakamoto i del 10 av Bitcoin-hvitboken.

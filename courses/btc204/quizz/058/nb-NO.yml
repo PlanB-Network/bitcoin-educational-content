@@ -1,0 +1,13 @@
+question: Hva er forskjellen mellom ekstern og intern adressegjenbruk i en transaksjon?
+
+answer: Ekstern gjenbruk observeres på tvers av flere transaksjoner, mens intern gjenbruk observeres innenfor samme transaksjon.
+
+wrong_answers:
+  - Ekstern gjenbruk angår offentlige adresser, mens intern gjenbruk angår private adresser brukt i transaksjonsskript.
+  - Intern gjenbruk observeres på tvers av flere transaksjoner, mens ekstern gjenbruk observeres innenfor samme transaksjon.
+  - Intern gjenbruk angår offentlige adresser, mens ekstern gjenbruk angår private adresser brukt i transaksjonsskript.
+
+explanation: |
+  Ekstern adressegjenbruk observeres når en adresse gjenbrukes på tvers av flere forskjellige transaksjoner, mens intern gjenbruk angår en adresse som brukes både i inngangene og i utgangene av samme transaksjon.
+
+reviewed: false

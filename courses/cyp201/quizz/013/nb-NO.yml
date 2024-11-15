@@ -1,0 +1,8 @@
+question: Hva betyr prefikset "0x"?
+answer: Tallet etter dette prefikset er uttrykt i base 16 (heksadesimal).
+wrong_answers:
+  - Tallet etter dette prefikset er uttrykt i base 2 (binær).
+  - Tallet etter dette prefikset er uttrykt i base 10 (desimal).
+  - Tallet etter dette prefikset er uttrykt i base 8 (oktal).
+explanation: |
+  Prefikset "0x" indikerer at tallet etter det er uttrykt i base 16 (heksadesimal).

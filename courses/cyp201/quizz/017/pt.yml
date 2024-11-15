@@ -1,9 +1,9 @@
-question: Qual é a principal vantagem da função de hash SHA256?
-answer: Sua robustez em encontrar a entrada a partir do hash, enquanto verifica o hash para uma entrada específica é uma ação mecanicamente simples.
+question: Qual é o objetivo de usar assinaturas digitais no Bitcoin?
+answer: Produzir uma prova matemática que justifica que um usuário está de fato na posse de uma chave privada, sem revelar essa chave privada.
 wrong_answers:
-  - Sua capacidade de gerar um hash de 512 bits a partir de uma entrada de tamanho variável
-  - Seu uso de bits de preenchimento para aumentar o tamanho da entrada
-  - Seu uso dos operadores XOR, AND e NOT para processar os bits
+  - Produzir uma prova matemática que justifica que um usuário está de fato na posse de uma chave pública, sem revelar essa chave pública.
+  - Produzir uma prova matemática que justifica que um usuário está de fato na posse de um endereço de recebimento, sem revelar esse endereço de recebimento.
+  - Produzir uma prova matemática que justifica que um usuário está de fato na posse de uma carteira.
 explanation: |
-  A principal vantagem da função de hash SHA256 é sua robustez em encontrar a entrada a partir do hash, enquanto verifica o hash para uma entrada específica é uma ação mecanicamente simples. Isso a torna uma escolha preferida para garantir numerosos sistemas digitais, especialmente dentro do protocolo Bitcoin.
+  As assinaturas digitais no Bitcoin permitem provar que um usuário possui a chave privada associada a uma chave pública sem revelar essa chave privada.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Mis oli Inglise Panga loomise peamine põhjus?
+answer: Sõja rahastamine 17. sajandi lõpus
+wrong_answers:
+  - Oma valuuta emiteerimine
+  - Amsterdami Pangaga konkureerimine
+  - Aktsiaturu reguleerimine
+explanation: |
+  Inglise Pank loodi 17. sajandi lõpus peamise eesmärgiga rahastada sõda. See kehtestas hoiused dekreediga ja relegueeris era pangad rahandussüsteemis teisejärgulisele positsioonile.
+reviewed: false

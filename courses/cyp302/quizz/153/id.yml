@@ -1,0 +1,8 @@
+pertanyaan: Masalah keamanan apa yang muncul jika pesan yang sama dienkripsi berulang kali dalam sistem kriptografi RSA yang disederhanakan?
+jawaban: Pesan akan selalu menghasilkan enkripsi yang sama
+jawaban_salah:
+  - Pesan akan rentan terhadap serangan brute force
+  - Pesan akan dibalik
+  - Pesan akan menjadi mustahil untuk didekripsi
+penjelasan: |
+  Dalam RSA yang disederhanakan, mengenkripsi pesan berulang kali akan selalu menghasilkan hasil yang sama, membuat enkripsi tersebut rentan terhadap serangan.

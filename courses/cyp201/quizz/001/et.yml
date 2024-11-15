@@ -1,0 +1,9 @@
+question: Mis on SHA256 räsifunktsiooni väljundsuurus?
+answer: 256 bitti.
+wrong_answers:
+  - 256 baiti.
+  - 512 bitti.
+  - 512 baiti.
+explanation: |
+  SHA-256 toodab fikseeritud väljundi 256 bitti, olenemata sisendi andmete suurusest.
+reviewed: false

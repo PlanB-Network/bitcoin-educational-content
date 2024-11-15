@@ -1,0 +1,8 @@
+question: Mis on Bitcoin'i rahakoti peamine tehniline ülesanne?
+answer: Krüptograafiliste võtmepaaride hoidmine.
+wrong_answers:
+  - Bitcoinide hoidmine.
+  - UTXO-de hoidmine.
+  - Tehingute hoidmine.
+explanation: |
+  Bitcoin'i rahakott ei hoia otseselt bitcoine, vaid krüptograafilisi võtmepaare, mida kasutatakse UTXO-de haldamiseks ja kulutamiseks.

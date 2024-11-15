@@ -2409,7 +2409,7 @@ Jak se nastavení na Umbrelu liší od předchozích dvou hostovaných možnost�
 
 
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Ohodnoťte kurz
 <chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
 <isCourseReview>true</isCourseReview>
 

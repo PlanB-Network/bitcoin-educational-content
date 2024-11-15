@@ -1,0 +1,11 @@
+pertanyaan: Bagaimana cara "maker" mendapatkan kompensasi di JoinMarket?
+
+jawaban: Melalui biaya yang dibayar oleh "taker".
+
+jawaban_salah:
+  - Melalui biaya penambangan.
+  - Melalui donasi sukarela dari "taker".
+  - Melalui hibah dari komunitas Bitcoin.
+
+penjelasan: |
+  "Maker" meninggalkan bitcoin mereka tersedia untuk "taker" dan menerima biaya sebagai imbalan atas layanan mereka. "Taker", sebaliknya, membayar untuk menggunakan bitcoin dari "maker" agar dapat melaksanakan transaksi coinjoin mereka sendiri.

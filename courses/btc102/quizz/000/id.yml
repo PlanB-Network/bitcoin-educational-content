@@ -1,0 +1,10 @@
+pertanyaan: Apa ciri umum dari skema Ponzi di domain cryptocurrency?
+jawaban: Mereka menggunakan uang investor baru untuk membayar peserta lama.
+jawaban_salah:
+  - Mereka selalu melibatkan Bitcoin.
+  - Mereka selalu legal dan diatur.
+  - Mereka selalu melibatkan aset fisik.
+penjelasan: |
+  Skema Ponzi di domain cryptocurrency seringkali beroperasi dengan menggunakan uang
+  investor baru untuk membayar peserta lama. Sifat tidak berkelanjutan dan ketergantungan
+  pada kedatangan baru membuat mereka kemungkinan besar akan runtuh.

@@ -1,0 +1,8 @@
+pertanyaan: Logam apa yang secara historis dianggap sebagai standar referensi untuk mata uang?
+jawaban: Emas
+jawaban_salah:
+  - Perak
+  - Tembaga
+  - Perunggu
+penjelasan: |
+  Emas secara historis dijadikan standar karena kelangkaannya, ketahanannya, dan nilai yang diakui secara universal, menjadikannya dasar yang stabil untuk sistem moneter.

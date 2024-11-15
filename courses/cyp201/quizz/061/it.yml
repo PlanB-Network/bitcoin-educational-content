@@ -1,9 +1,8 @@
-question: Perché è consigliato utilizzare portafogli open-source per le transazioni Bitcoin?
-answer: Essi consentono la verifica della generazione di numeri casuali.
-wrong_answers:
-  - Sono più economici rispetto ai portafogli closed-source.
-  - Sono più veloci rispetto ai portafogli closed-source.
-  - Sono più sicuri rispetto ai portafogli closed-source.
-explanation: |
-  I portafogli open-source consentono agli utenti di verificare la generazione del numero casuale, che è un passaggio cruciale per garantire la sicurezza delle chiavi private e delle transazioni Bitcoin.
-reviewed: false
+domanda: Qual è la variabile che permette di differenziare le coppie di chiavi fratelli l'una dall'altra (che hanno la stessa coppia genitore)?
+risposta: L'indice.
+risposte_errate:
+  - Il sale crittografico.
+  - Il primo nome.
+  - Il codice catena genitore.
+spiegazione: |
+  L'indice viene utilizzato per differenziare le coppie di chiavi fratelli derivate dalla stessa coppia genitore in un portafoglio HD.

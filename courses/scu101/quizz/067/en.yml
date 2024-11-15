@@ -6,8 +6,9 @@ wrong_answers:
   - It requires a lot of storage space.
   - It is not compatible with all websites.
 explanation: |
-  The Single Sign-On (SSO) offered by internet giants poses problems in
-  terms of availability and risks of censorship. This is because if the SSO provider
-  experiences an outage or decides to block a user, the user could lose access to
+  The Single Sign-On (SSO) offered by internet giants poses
+  problems in terms of availability and risks of censorship.
+  This is because if the SSO provider experiences an outage
+  or decides to block a user, the user could lose access to
   all services that use that SSO for authentication.
-reviewed: false
+reviewed: true

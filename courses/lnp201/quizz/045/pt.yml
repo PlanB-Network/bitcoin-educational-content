@@ -1,9 +1,8 @@
-question: O que acontece em um fechamento forçado se a taxa de rede for de 1 SAT no momento do fechamento?
-answer: A transação é paga em excesso em 50 vezes.
-wrong_answers:
-  - A transação é paga em falta em 50 vezes.
-  - A transação é paga em excesso em 2 vezes.
-  - A transação é paga em falta em 2 vezes.
-explanation: |
-  Em um fechamento forçado, o protocolo assume taxas 5 vezes mais altas do que as atuais quando a transação foi criada. Se a taxa de rede for de 1 SAT no momento do fechamento, a transação é paga em excesso em 50 vezes.
-reviewed: false
+pergunta: O que a funcionalidade "LNURL-withdraw" permite que os usuários façam?
+resposta: Retirar fundos de um serviço escaneando um código QR
+respostas_erradas:
+  - Fazer um pagamento direto sem taxas de roteamento
+  - Conectar sua carteira Lightning sem uma senha
+  - Enviar fundos sem a confirmação do destinatário
+explicação: |
+  LNURL-withdraw permite que os usuários retirem fundos de um serviço escaneando um código QR, simplificando assim o processo de retirada.

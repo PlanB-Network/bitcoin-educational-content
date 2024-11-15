@@ -1,0 +1,9 @@
+câu hỏi: Số mũ "e" trong hệ thống mã hóa RSA được chọn như thế nào?
+câu trả lời: Nó phải là một số nguyên lớn hơn 2, nguyên tố cùng nhau với φ(N)
+câu trả lời sai:
+  - Nó phải là một số nguyên tố nhỏ hơn N
+  - Nó được chọn một cách ngẫu nhiên mà không có hạn chế
+  - Nó phải bằng với φ(N)
+giải thích: |
+  Trong RSA, số mũ "e" được chọn sao cho nó lớn hơn 2 và nguyên tố cùng nhau với φ(N), điều này đảm bảo an ninh cho các phép toán.
+đã xem xét: false

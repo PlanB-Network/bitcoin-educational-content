@@ -1,0 +1,9 @@
+question: ¿Cuál es el título del libro de Adam Smith?
+answer: "Una investigación sobre la naturaleza y causas de la riqueza de las naciones."
+wrong_answers:
+  - "Una investigación sobre la naturaleza y espíritu de la riqueza de las naciones."
+  - "Una investigación sobre la naturaleza y orígenes de la riqueza de las naciones."
+  - "Una investigación sobre la causa y orígenes de la riqueza de las naciones."
+explanation: |
+  El título completo del libro de Adam Smith, "Una investigación sobre la naturaleza y causas de la riqueza de las naciones," destaca su análisis de los factores que contribuyen a la prosperidad económica, explorando los mecanismos de producción y distribución de la riqueza.
+reviewed: false

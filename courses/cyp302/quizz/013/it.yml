@@ -1,0 +1,9 @@
+domanda: Qual è la base fisica della maggior parte delle comunicazioni nel mondo sviluppato?
+risposta: Reti di cavi in fibra ottica
+risposte_errate:
+  - Satelliti per ogni connessione
+  - Solo cavi coassiali
+  - Solo fili di rame
+spiegazione: |
+  La maggior parte delle comunicazioni moderne si basa su reti di cavi in fibra ottica, che garantiscono scambi di dati ad alta velocità, sebbene rimangano alcuni utilizzi di satelliti e cavi coassiali.
+recensito: false

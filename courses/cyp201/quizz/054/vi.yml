@@ -1,10 +1,8 @@
-question: Mục đích của BIP43 và BIP44 trong hệ sinh thái Bitcoin là gì?
-answer: Chúng đã chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD.
-wrong_answers:
-  - Chúng đã giới thiệu cụm từ ghi nhớ 24 từ.
-  - Chúng đã cách mạng hóa cách tạo và lưu trữ khóa.
-  - Chúng đề xuất thêm một cụm từ bí mật để tăng cường bảo mật cho từng khóa riêng lẻ.
-explanation: |
-  BIP43 và BIP44 đã chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD,
-  làm cho chúng dễ tiếp cận và dễ sử dụng hơn cho công chúng.
-reviewed: false
+câu hỏi: Để tính toán giá trị của khóa chính và mã chuỗi chính, đầu vào đầu tiên cho hàm HMAC-SHA512 là hạt giống. Giá trị đầu vào thứ hai của hàm này, đóng vai trò như một khóa, là gì?
+câu trả lời: “Bitcoin seed”.
+câu trả lời sai:
+  - Cụm từ ghi nhớ.
+  - Cụm từ bí mật.
+  - “Seed”.
+giải thích: |
+  Chuỗi "Bitcoin seed" được sử dụng như một khóa trong HMAC-SHA512 để suy ra khóa chính và mã chuỗi chính từ hạt giống.

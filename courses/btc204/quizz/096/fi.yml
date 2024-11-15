@@ -1,0 +1,11 @@
+kysymys: Mitä retrospektiivinen anonsetti ilmaisee?
+
+vastaus: Todennäköisten lähteiden määrän UTXO:lle syklien lopussa.
+
+väärät_vastaukset:
+  - Ryhmän koon erottamattomista UTXO:ista syklien lopussa.
+  - Todennäköisten lähteiden määrän UTXO:lle syklien alussa.
+  - Ajan, joka vaaditaan coinjoinin suorittamiseen.
+
+selitys: |
+  Retrospektiivinen anonsetti ilmaisee mahdollisten lähteiden määrän tietylle kolikolle, ottaen huomioon UTXO:n syklin lopussa.

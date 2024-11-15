@@ -1,0 +1,9 @@
+pregunta: ¿Cuál es la característica principal de una función hash criptográfica?
+respuesta: Produce una salida de longitud fija para cualquier entrada, independientemente de su tamaño.
+respuestas_incorrectas:
+  - Encripta datos usando una clave simétrica.
+  - Produce una salida variable dependiendo de la longitud de la entrada.
+  - Desencripta mensajes usando una clave pública.
+explicación: |
+  Una función hash genera un hash de longitud fija, sin importar el tamaño de la entrada.
+revisado: false

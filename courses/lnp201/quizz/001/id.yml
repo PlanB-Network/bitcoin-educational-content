@@ -1,0 +1,8 @@
+pertanyaan: Dalam saluran pembayaran, apa itu "kapasitas" dari saluran tersebut?
+jawaban: Jumlah total dana yang dapat ditukar oleh dua peserta
+jawaban_salah:
+  - Batas waktu untuk saluran tersebut dapat tetap terbuka
+  - Jumlah maksimum yang dapat dikirim oleh satu peserta dalam satu transaksi
+  - Jumlah transaksi yang dapat didukung oleh saluran per hari
+penjelasan: |
+  Kapasitas saluran tersebut sesuai dengan total dana dari kedua peserta dan tetap tetap untuk menentukan pertukaran yang mungkin.

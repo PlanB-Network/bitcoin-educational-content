@@ -1,0 +1,9 @@
+otázka: Jak Kerckhoffův princip napomáhá zabezpečení otevřených systémů jako je Linux?
+odpověď: Umožňuje veřejnou verifikaci potenciálních zranitelností
+špatné_odpovědi:
+  - Dělá šifrovací algoritmy neviditelnými
+  - Omezuje počet potenciálních uživatelů
+  - Zajišťuje použití unikátních klíčů
+vysvětlení: |
+  Kerckhoffův princip umožňuje veřejnou verifikaci bezpečnostních nedostatků, jak je tomu u otevřených systémů, což systémy činí spolehlivějšími prostřednictvím transparentnosti. Zabezpečení je zajištěno výhradně klíčem, nikoli samotným šifrovacím procesem.
+recenzováno: false

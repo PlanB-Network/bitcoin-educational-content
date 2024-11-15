@@ -1,0 +1,9 @@
+domanda: Perché l'insieme degli interi con l'addizione è un gruppo, mentre non lo è con la moltiplicazione?
+risposta: L'insieme non soddisfa la condizione di inversione sotto moltiplicazione
+risposte_errate:
+  - L'insieme non è chiuso sotto moltiplicazione
+  - La moltiplicazione non è associativa sugli interi
+  - Non esiste un elemento neutro per la moltiplicazione
+spiegazione: |
+  L'insieme degli interi non soddisfa la condizione di inversione sotto moltiplicazione perché non esiste un inverso per ogni intero che moltiplicato dia 1. Solo gli elementi 1 e -1 soddisfano questa condizione.
+recensito: false

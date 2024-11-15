@@ -1,0 +1,12 @@
+pertanyaan: Apa peran perangkat lunak dalam penambangan Bitcoin dan bagaimana itu berkontribusi terhadap efisiensi?
+jawaban: Perangkat lunak dalam penambangan Bitcoin, seperti BrainsOS Plus, menggantikan sistem operasi asli dari mesin penambang, memungkinkan operasi yang sama dilakukan dengan lebih efisien. Ini dapat meningkatkan efisiensi mesin sebesar 25%, berarti bahwa untuk jumlah listrik yang sama, mesin dapat menghasilkan tambahan 25% dari hashrate, sehingga meningkatkan hadiah yang diterima oleh penambang.
+jawaban_salah:
+  - Perangkat lunak dalam penambangan Bitcoin digunakan untuk melacak jumlah Bitcoin yang ditambang dan tidak berkontribusi terhadap efisiensi.
+  - Perangkat lunak dalam penambangan Bitcoin digunakan untuk menghubungkan mesin penambang ke internet dan tidak berkontribusi terhadap efisiensi.
+  - Perangkat lunak dalam penambangan Bitcoin digunakan untuk mendinginkan mesin penambang dan tidak berkontribusi terhadap efisiensi.
+penjelasan: |
+  Bab ini menjelaskan bahwa perangkat lunak seperti BrainsOS Plus dapat menggantikan
+  sistem operasi asli dari mesin penambang, memungkinkan operasi yang sama dilakukan dengan lebih
+  efisien. Optimasi perangkat lunak ini merupakan elemen penting dari
+  daya saing dalam penambangan Bitcoin.
+ditinjau: false

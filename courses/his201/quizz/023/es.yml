@@ -1,0 +1,9 @@
+pregunta: ¿Dónde publicó Satoshi Nakamoto el white paper de Bitcoin el 31 de octubre de 2008?
+respuesta: La lista de correo de Criptografía
+respuestas_incorrectas:
+  - Reddit
+  - Twitter
+  - Hackernews
+explicación: |
+  Como sucesor de la lista de correo de los cypherpunks, esta lista de correo electrónico fue gestionada por el desarrollador Perry Metzger desde 1996.
+revisado: false

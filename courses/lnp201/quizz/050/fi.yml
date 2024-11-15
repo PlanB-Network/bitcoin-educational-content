@@ -1,10 +1,8 @@
-question: Mitkä ovat kaksi tyyppiä maksuja Lightning-verkossa?
-answer: Kiinteä maksu riippumatta määrästä ja muuttuva maksu.
-wrong_answers:
-  - Siirtomaksu ja reititysmaksu.
-  - Lähettäjän maksu ja vastaanottajan maksu.
-  - Verkkomaksu ja kanavamaksu.
-explanation: |
-  Lightning-verkossa on kaksi tyyppiä maksuja; kiinteä maksu riippumatta
-  määrästä (oletusarvo on 1 SAT mutta sitä voidaan muuttaa) ja muuttuva maksu (oletusarvoisesti 0,01%).
-reviewed: false
+kysymys: Miksi myyjä saattaisi tehdä kuvitteellisen maksun kanavassa?
+vastaus: Siirtääkseen likviditeetin vastakkaiselle puolelle
+väärät_vastaukset:
+  - Vähentääkseen reititysmaksuja
+  - Lisätäkseen kanaviensa kokonaiskapasiteettia
+  - Lukitakseen varoja pitkäaikaisesti
+selitys: |
+  Tekemällä kuvitteellisen maksun, myyjä siirtää likviditeetin omalta puoleltaan kanavan vastakkaiselle puolelle, vapauttaen näin tulopuolen kapasiteettia vastaanottamaan maksuja.

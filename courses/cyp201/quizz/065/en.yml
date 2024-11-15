@@ -1,11 +1,9 @@
-question: What is the main advantage of using a new key pair for each Bitcoin transaction?
-answer: It enhances security.
+question: In HD wallet derivation paths, what does depth 0 correspond to?
+answer: The master key.
 wrong_answers:
-  - It enhances speed.
-  - It enhances anonymity.
-  - It enhances legality.
+  - The extended key.
+  - The receiving addresses.
+  - The type of currency.
 explanation: |
-  Using a new key pair for each transaction enhances the security of Bitcoin
-  transactions. However, it complicates their backup and only partially preserves
-  confidentiality.
+  Depth 0 in derivation paths corresponds to the master key, which is the starting point for all derivations in an HD wallet.
 reviewed: false

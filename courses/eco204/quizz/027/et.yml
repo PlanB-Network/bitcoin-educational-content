@@ -1,0 +1,9 @@
+question: Mis oli levinud meetod, mida valitsused kasutasid majanduskollapsi ajal normaalsuse mulje säilitamiseks?
+answer: Kaupmeeste sundimine oma poode avatuna hoidma.
+wrong_answers:
+  - Välisinvesteeringute julgustamine.
+  - Maksude vähendamine.
+  - Avaliku sektori kulutuste suurendamine.
+explanation: |
+  Kui majandus kokku variseb ja valuuta kaotab oma väärtuse, võivad valitsused kasutada drastilisi meetmeid normaalsuse mulje säilitamiseks. Üks selline meede on kaupmeeste sundimine oma poode avatuna hoidma.
+reviewed: false

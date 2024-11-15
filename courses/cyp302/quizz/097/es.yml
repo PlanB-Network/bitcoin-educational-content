@@ -1,0 +1,9 @@
+pregunta: ¿Por qué la confidencialidad por sí sola no es suficiente para asegurar una comunicación segura?
+respuesta: Porque un atacante todavía puede interceptar y modificar el mensaje sin entender su contenido.
+respuestas_incorrectas:
+  - Porque la confidencialidad es demasiado difícil de obtener.
+  - Porque las claves privadas pueden ser adivinadas fácilmente.
+  - Porque los mensajes no pueden ser autenticados sin una firma digital.
+explicación: |
+  La confidencialidad protege el contenido de los mensajes, pero sin un MAC, un atacante podría aún interceptar y modificar un mensaje sin entenderlo, comprometiendo así la integridad de la comunicación.
+revisado: false

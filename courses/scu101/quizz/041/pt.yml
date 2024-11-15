@@ -1,9 +1,0 @@
-question: Qual é a vantagem de usar um gerenciador de senhas auto-hospedado como o Bitwarden ou o KeePass?
-answer: Você pode controlar onde suas senhas são armazenadas, oferecendo mais segurança e controle.
-wrong_answers:
-  - Eles são mais fáceis de usar do que serviços de terceiros.
-  - Eles oferecem mais recursos do que serviços de terceiros.
-  - Eles são mais baratos do que serviços de terceiros.
-explanation: |
-  Gerenciadores de senhas auto-hospedados como o Bitwarden ou o KeePass permitem que você controle onde suas senhas são armazenadas, potencialmente oferecendo mais segurança e controle. No entanto, eles podem exigir mais conhecimento técnico para serem utilizados.
-reviewed: false

@@ -1,0 +1,8 @@
+pertanyaan: Untuk melakukan derivasi pasangan kunci anak normal, saya harus memasukkan ke dalam fungsi HMAC-SHA512...
+jawaban: kunci publik induk || indeks, kode rantai induk.
+jawaban_salah:
+  - kunci pribadi induk || indeks, kode rantai induk.
+  - kunci pribadi induk, kode rantai induk.
+  - kunci pribadi induk || indeks.
+penjelasan: |
+  Untuk mendapatkan kunci anak normal, kunci publik induk digunakan bersama dengan indeks dan kode rantai dalam fungsi HMAC-SHA512.

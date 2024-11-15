@@ -1,0 +1,9 @@
+pergunta: Qual etapa não está incluída na prova de segurança de um esquema criptográfico moderno?
+resposta: Configurar uma interface de usuário
+respostas_erradas:
+  - Declarar definições de segurança
+  - As suposições de complexidade matemática
+  - A demonstração matemática de segurança
+explicação: |
+  A prova de segurança na criptografia moderna foca em objetivos e suposições matemáticas, excluindo aspectos como a interface do usuário, que não é relevante para a segurança criptográfica.
+revisado: false

@@ -1,0 +1,13 @@
+question: Millist konkreetset kasutajate sobitamise mudelit kasutab JoinMarket?
+
+answer: P2P turg pakkujate ja võtjate vahel.
+
+wrong_answers:
+  - Server, mis määrab osalejad juhuslikult.
+  - Vahetused, mis põhinevad Hollandi oksjonitel.
+  - Vahendusteenus, mis valib osalejad käsitsi.
+
+explanation: |
+  JoinMarket toimib P2P vahetusturuna, kus mõned kasutajad, "pakkujad", pakuvad oma bitcoine segamiseks, samal ajal kui teised, "võtjad", kasutavad neid vahendeid coinjoinide sooritamiseks tasu eest.
+
+reviewed: false

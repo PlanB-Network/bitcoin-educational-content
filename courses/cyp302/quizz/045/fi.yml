@@ -1,0 +1,8 @@
+kysymys: Mikä termi viittaa elementtien määrään äärellisessä ryhmässä?
+vastaus: Ryhmän järjestys
+väärät_vastaukset:
+  - Ryhmän kapasiteetti
+  - Ryhmän pituus
+  - Ryhmän aste
+selitys: |
+  Ryhmän järjestys on sen sisältämien elementtien kokonaismäärä.

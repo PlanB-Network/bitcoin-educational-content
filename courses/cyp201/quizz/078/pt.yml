@@ -1,9 +1,9 @@
-question: Qual é o papel de uma frase de acesso em uma carteira de Bitcoin?
-answer: Ela aumenta a segurança da carteira.
-wrong_answers:
-  - Ela diminui a segurança da carteira.
-  - Ela não tem efeito na segurança da carteira.
-  - Ela torna a carteira mais amigável ao usuário.
-explanation: |
-  A frase de acesso é uma senha adicional que pode ser integrada a uma carteira de Bitcoin para aumentar sua segurança. Ao adicionar informações arbitrárias que, juntamente com a frase mnemônica, permitem o cálculo da semente da carteira, a frase de acesso melhora sua segurança.
-reviewed: false
+pergunta: Aqui está uma sequência de números decimais (10 25 13 18 02 31). Qual é a conversão correta para Bech32?
+resposta: 2edjzl
+respostas_erradas:
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
+explicação: |
+  A conversão de números decimais para Bech32 é feita através de uma tabela de correspondência específica, e a sequência 10 25 13 18 02 31 corresponde a 2edjzl.
+revisado: false

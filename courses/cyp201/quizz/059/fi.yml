@@ -1,10 +1,8 @@
-question: Mikä on SHA-256 -tiivistefunktion tarkoitus hyvän satunnaisluvun tuottamisessa?
-answer: Se pienentää erittäin suuren alkuperäisen tietomäärän 256 bittiin.
-wrong_answers:
-  - Se kasvattaa alkuperäisen tiedon kokoa.
-  - Se salaa alkuperäisen tiedon.
-  - Se varmentaa alkuperäisen tiedon aitouden.
-explanation: |
-  SHA-256 -tiivistefunktiota käytetään pienentämään erittäin suuri alkuperäinen tietomäärä 256 bittiin. Tämä prosessi auttaa tuottamaan hyvän satunnaisluvun,
-  mikä on ratkaisevan tärkeää yksityisavainten turvallisuuden ja Bitcoin-siirtojen kannalta.
-reviewed: false
+kysymys: Missä numerojärjestelmässä laajennettu avain yleensä koodataan esitettäväksi käyttäjälle?
+vastaus: Base 58:ssa.
+väärät_vastaukset:
+  - bech32:ssa.
+  - Base 16:ssa.
+  - bech32m:ssä.
+selitys: |
+  Laajennettu avain koodataan yleensä Base 58:aan, jotta se olisi käyttäjälle luettavampi ja vältettäisiin epäselvät merkit.

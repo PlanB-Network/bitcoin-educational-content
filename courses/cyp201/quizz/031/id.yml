@@ -1,0 +1,8 @@
+pertanyaan: Bagaimana pasangan kunci ditentukan dalam dompet Hierarchical Deterministic (HD)?
+jawaban: Semua pasangan kunci dalam dompet ditentukan secara deterministik dan hierarkis dari sebuah informasi unik di dasar dompet.
+jawaban_salah:
+  - Semua pasangan kunci dalam dompet ditentukan secara independen dari yang lain, secara acak, oleh generator angka acak.
+  - Setiap pasangan kunci dalam dompet ditentukan secara deterministik dari pasangan kunci sebelumnya.
+  - Pasangan kunci semuanya acak dan tanpa keterkaitan hierarkis.
+penjelasan: |
+  Dalam dompet HD, semua kunci berasal dari sebuah informasi unik yang disebut "seed," yang memungkinkan pengelolaan kunci secara hierarkis dan deterministik.

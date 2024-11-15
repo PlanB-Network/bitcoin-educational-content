@@ -1,9 +1,9 @@
-question: Mitä ovat UTXOt Bitcoinin kontekstissa?
-answer: Käyttämättömät transaktiotulosteet
-wrong_answers:
-  - Jäljittämättömät transaktiotulosteet
-  - Vahvistamattomat transaktiotulosteet
-  - Vahvistamattomat transaktiotulosteet
-explanation: |
-  UTXOt eli "Käyttämättömät transaktiotulosteet" edustavat käyttäjälle kuuluvia käyttämättömiä transaktiotulosteita. Näiden bitcoinien käyttämiseksi on osoitettava omistajuus yksityisavaimella, joka vastaa kutakin UTXOon liitettyä julkista avainta.
-reviewed: false
+kysymys: Miksi yksityistä avainta ei voi palauttaa kelvollisesta digitaalisesta allekirjoituksesta?
+vastaus: Allekirjoitus perustuu kääntämättömiin matemaattisiin toimenpiteisiin elliptisellä käyrällä.
+väärät_vastaukset:
+  - Yksityinen avain salataan ennen käyttöä.
+  - Siemen suojaa yksityistä avainta.
+  - Viestien hajauttaminen estää yksityisen avaimen palauttamisen.
+selitys: |
+  Toimenpiteet elliptisillä käyrillä ovat kääntämättömiä, varmistaen, että yksityistä avainta ei voida päätellä allekirjoituksesta.
+arvioitu: false

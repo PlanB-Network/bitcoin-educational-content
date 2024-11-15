@@ -1,9 +1,9 @@
-question: 私的鍵の理論上の可能性の総数は何ですか？
-answer: 2^256
+question: PRNGとTRNGの主な違いは何ですか？
+answer: PRNGは決定論的であるのに対し、TRNGは真にランダムな数を生成します。
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - TRNGはPRNGよりも速い。
+  - TRNGはシードを使用するが、PRNGはシードを使用しない。
+  - PRNGはハードウェアであり、TRNGはソフトウェアである。
 explanation: |
-  私的鍵の理論上の可能性の総数は2^256ですが、実際にはそれよりわずかに少ないです。
+  TRNG（True Random Number Generator）は、決定論的なPRNGとは異なり、物理的なランダム現象からランダムな数を生成します。
 reviewed: false

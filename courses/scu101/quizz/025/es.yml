@@ -1,9 +1,0 @@
-question: ¿Cuál es la práctica recomendada para almacenar la contraseña para la encriptación de datos?
-answer: Escribe la contraseña en un papel y guárdala en un lugar seguro.
-wrong_answers:
-  - Almacena la contraseña en un archivo de texto en la computadora.
-  - Comparte la contraseña con amigos de confianza.
-  - Utiliza una contraseña común que sea fácil de recordar.
-explanation: |
-  Se recomienda escribir la contraseña para la encriptación de datos en un papel y guardarla en un lugar seguro. Esto es para evitar la pérdida de acceso a los datos encriptados.
-reviewed: false

@@ -1,0 +1,9 @@
+kysymys: Kuka aloitti Bitcoin Improvement Proposals -järjestelmän, prosessin, jonka tavoitteena on koordinoida Bitcoinin parantamista, syyskuussa 2011?
+vastaus: Amir Taaki
+vaarat_vastaukset:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+selitys: |
+  Tämä järjestelmä mallinnettiin Python Enhancement Proposals (PEP) -järjestelmän mukaan, joka on erityinen Python-ohjelmointikielelle.
+arvioitu: false

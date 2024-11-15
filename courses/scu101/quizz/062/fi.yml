@@ -1,8 +1,0 @@
-question: Mitkä ovat joitakin kyberturvallisuudessa tarvittavan verkkotiedon näkökohtia?
-answer: TCP/IP, VPN, palomuuri
-wrong_answers:
-  - HTTP, FTP, SMTP
-  - POP3, IMAP, SSH
-  - DHCP, DNS, ARP
-explanation: |
-  Luvussa mainitaan TCP/IP, VPN ja palomuuri esimerkkeinä verkkotiedon näkökohdista, jotka ovat tarpeellisia kyberturvallisuudessa.

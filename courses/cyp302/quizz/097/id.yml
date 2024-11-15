@@ -1,0 +1,9 @@
+pertanyaan: Mengapa kerahasiaan saja tidak cukup untuk menjamin komunikasi yang aman?
+jawaban: Karena penyerang masih bisa meny intercept dan memodifikasi pesan tanpa memahami isinya.
+jawaban_salah:
+  - Karena kerahasiaan terlalu sulit untuk diperoleh.
+  - Karena kunci privat bisa dengan mudah ditebak.
+  - Karena pesan tidak bisa diautentikasi tanpa tanda tangan digital.
+penjelasan: |
+  Kerahasiaan melindungi isi pesan, tetapi tanpa MAC, seorang penyerang masih bisa meny intercept dan memodifikasi pesan tanpa memahaminya, sehingga mengompromikan integritas komunikasi.
+ditinjau: false

@@ -1,0 +1,11 @@
+pregunta: ¿Cuántas transacciones sucesivas realiza usualmente un ricochet clásico?
+
+respuesta: 5
+
+respuestas_incorrectas:
+  - 2
+  - 8
+  - 14
+
+explicación: |
+  El método ricochet típicamente involucra realizar 4 transacciones a uno mismo, y una final para enviar los fondos al destinatario final.

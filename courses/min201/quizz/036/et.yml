@@ -1,0 +1,11 @@
+question: Mis on Bitcoini maksumuse ja selle hinna vaheline seos?
+answer: Bitcoini maksumus on üldiselt proportsionaalne selle hinnaga
+wrong_answers:
+  - Bitcoini maksumus on pöördvõrdeline selle hinnaga
+  - Bitcoini maksumus ei ole seotud selle hinnaga
+  - Bitcoini maksumus on alati kõrgem kui selle hind
+explanation: |
+  Bitcoini maksumus, mis on seotud elektrienergiaga, mida on vaja kaevandusmasinate töötamiseks,
+  on üldiselt proportsionaalne selle hinnaga. See seos aitab paremini mõista hinnakõikumisi
+  ja tulevikuväljavaateid.
+reviewed: false

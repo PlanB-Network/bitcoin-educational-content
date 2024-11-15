@@ -1,0 +1,9 @@
+pertanyaan: Berapa ukuran kunci publik Bitcoin yang tidak dikompresi termasuk prefiksnya?
+jawaban: 520 bit.
+jawaban_salah:
+  - 512 byte.
+  - 256 bit.
+  - 512 bit.
+penjelasan: |
+  Kunci publik Bitcoin yang tidak dikompresi dengan prefiksnya adalah 520 bit, yang terdiri dari koordinat x dan y dari titik pada kurva eliptik.
+ditinjau: false

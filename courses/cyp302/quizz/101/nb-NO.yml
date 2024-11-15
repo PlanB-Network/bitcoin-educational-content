@@ -1,0 +1,9 @@
+question: Hva er en "HMAC"?
+answer: En meldingsautentiseringskode basert på en hash-funksjon
+wrong_answers:
+  - En asymmetrisk krypteringsalgoritme basert på en hash-funksjon
+  - En asymmetrisk krypteringsalgoritme basert på Diffie-Hellman
+  - En meldingsautentiseringskode basert på Diffie-Hellman
+explanation: |
+  En HMAC er en meldingsautentiseringskode som bruker en hash-funksjon, som for eksempel SHA-256, for å lage en tagg som verifiserer integriteten og autentisiteten til en melding.
+reviewed: false

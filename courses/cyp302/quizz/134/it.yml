@@ -1,0 +1,9 @@
+domanda: Qual è l'obiettivo principale della crittografia asimmetrica nel contesto della comunicazione tra Alice e Bob?
+risposta: Consentire a Bob di trasmettere un messaggio segreto ad Alice utilizzando la sua chiave pubblica
+risposte_errate:
+  - Consentire a Bob di criptare e decriptare messaggi senza una chiave pubblica
+  - Impedire ad Alice di decriptare i messaggi di Bob
+  - Consentire ad Alice di criptare il messaggio per verificarne l'integrità
+spiegazione: |
+  Nella crittografia asimmetrica, la chiave pubblica di Alice consente a Bob di inviare un messaggio criptato che solo lei può decriptare, garantendo così la confidenzialità del messaggio.
+recensito: false

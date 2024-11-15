@@ -1,0 +1,9 @@
+küsimus: Millist tüüpi rünnakut saab järjekorranumber turvalises suhtlussessioonis ära hoida?
+vastus: Kordus- ja ümberjärjestamisrünnakud
+valed_vastused:
+  - Passiivsed pealtkuulamisrünnakud
+  - Teenuse keeldumise rünnakud
+  - Võtme võltsimise rünnakud
+selgitus: |
+  Järjekorranumber igas sõnumis hoiab ära kordus- ja ümberjärjestamisrünnakud, kuna see võimaldab kontrollida sõnumite järjekorda ja ainulaadsust.
+üle vaadatud: false

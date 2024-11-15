@@ -1,0 +1,11 @@
+question: Mis on "külma" rahakoti eesmärk Bitcoinis?
+answer: Bitcoine turvaliselt hoida.
+wrong_answers:
+  - Uute Bitcoinide kaevandamine.
+  - Bitcoinidega kauplemine.
+  - Bitcoinide teisteks krüptorahadeks konverteerimine.
+explanation: |
+  "Külm" rahakott, tuntud ka kui riistvaraline rahakott, on seade, mis on mõeldud
+  Bitcoinide turvaliseks hoidmiseks. Seda ei kasutata uute Bitcoinide kaevandamiseks, Bitcoinidega kauplemiseks
+  ega Bitcoinide teisteks krüptorahadeks konverteerimiseks.
+reviewed: false

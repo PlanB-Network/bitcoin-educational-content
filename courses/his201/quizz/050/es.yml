@@ -1,0 +1,9 @@
+pregunta: ¿Quién creó la plataforma de intercambio Mt. Gox el 18 de julio de 2010, una semana después del "gran slashdotting" de Bitcoin?
+respuesta: Jed McCaleb
+respuestas_erróneas:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explicación: |
+  Creó este mercado eficiente "por capricho", dándose cuenta de lo difícil que era obtener bitcoin a cambio de dólares (especialmente en Bitcoin Market).
+revisado: false

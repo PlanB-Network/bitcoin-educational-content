@@ -1,0 +1,9 @@
+otázka: Jaký je hlavní problém správy klíčů?
+odpověď: Složitost zabezpečení a ukládání páru klíčů pro každého klienta
+špatné_odpovědi:
+  - Nemožnost obnovit klíče ztracené klienty
+  - Nutnost dešifrovat každý klíč před použitím klientem
+  - Nutnost přenášet klíče pro každou komunikaci
+vysvětlení: |
+  Problém správy klíčů spočívá v obtížnosti ukládání a zabezpečení páru klíčů pro každého uživatele, zejména když počet klientů dosahuje milionů.
+recenzováno: false

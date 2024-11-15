@@ -1,0 +1,9 @@
+küsimus: Kui Alice saadab Bobile maksekanalist, kus tal algselt on 100,000 satoshit, 40,000 satoshit, kui palju vahendeid jääb tal pärast tehingut alles?
+vastus: 60,000 satoshit
+valed_vastused:
+  - 30,000 satoshit
+  - 40,000 satoshit
+  - 140,000 satoshit
+selgitus: |
+  Pärast 40,000 satoshi saatmist on Alice'i jääk kanalis 60,000 satoshit.
+üle vaadatud: false

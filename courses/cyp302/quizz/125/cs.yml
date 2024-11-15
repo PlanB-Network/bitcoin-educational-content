@@ -1,0 +1,9 @@
+otázka: Jaký hlavní problém se snažili v 70. letech vyřešit kryptografové Diffie, Hellman a Merkle?
+odpověď: Problémy s distribucí a správou klíčů
+špatné_odpovědi:
+  - Vývoj postkvantové kryptografie
+  - Zabezpečení vojenských komunikací
+  - Zlepšení technik symetrického šifrování
+vysvětlení: |
+  Diffie, Hellman a Merkle byli motivováni praktickými obtížemi distribuce a správy klíčů pro zabezpečení komunikace, což jsou klíčové výzvy ve světě přecházejícím k digitální komunikaci.
+recenzováno: false

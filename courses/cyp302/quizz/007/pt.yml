@@ -1,0 +1,9 @@
+pergunta: O que distingue um esquema de criptografia moderno de um simples esquema de criptografia?
+resposta: A garantia da integridade e autenticidade da mensagem
+respostas_erradas:
+  - O uso de uma única chave secreta
+  - A descentralização da chave
+  - A anonimização das mensagens
+explicação: |
+  A criptografia moderna inclui esquemas que vão além da confidencialidade para garantir integridade e autenticidade, bem como não-repúdio, ao contrário dos simples esquemas de criptografia.
+revisado: false

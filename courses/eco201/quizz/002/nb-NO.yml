@@ -1,0 +1,9 @@
+question: Hvem er instruktøren for kurset?
+answer: "Théo Mogenet"
+wrong_answers:
+  - "Théo Boloré"
+  - Descoupes Bitcoin
+  - Ingen av de ovennevnte
+explanation: |
+  "Kapittelet nevner at instruktøren for kurset er Théo Mogenet, en lidenskapelig og kompetent professor i østerriksk økonomi."
+reviewed: false

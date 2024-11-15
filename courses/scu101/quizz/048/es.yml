@@ -1,9 +1,0 @@
-question: ¿Cuál es el segundo paso común en la autenticación de dos factores (2FA)?
-answer: Un código generado por una aplicación como Google Authenticator o Authy.
-wrong_answers:
-  - Una llamada telefónica al titular de la cuenta
-  - Un correo electrónico al titular de la cuenta
-  - Una carta enviada a la dirección de casa del titular de la cuenta
-explanation: |
-  El segundo paso en la autenticación de dos factores (2FA) puede ser un código temporal enviado por SMS, un código generado por una aplicación o una llave de seguridad física.
-reviewed: false

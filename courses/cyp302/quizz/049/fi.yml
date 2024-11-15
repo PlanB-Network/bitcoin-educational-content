@@ -1,0 +1,8 @@
+kysymys: Mikä ryhmätyyppi on erityisen tärkeä julkisen avaimen kryptografiassa sen kyvyn vuoksi tuottaa kaikki alkiot eksponentiaation kautta?
+vastaus: Sykliset ryhmät
+väärät_vastaukset:
+  - Ei-abelilaiset ryhmät
+  - Äärettömät ryhmät
+  - Kompleksilukuryhmät
+selitys: |
+  Kryptografiassa sykliset ryhmät ovat olennaisia, koska ne mahdollistavat kaikkien ryhmän alkioiden tuottamisen käyttämällä yhden elementin, kutsuttu generaattori, eksponentiaatiota.

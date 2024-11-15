@@ -1,0 +1,9 @@
+question: What is the purpose of the "shift rows" operation in AES?
+answer: To increase diffusion by rearranging the bytes in the state table
+wrong_answers:
+  - Ensure that each block is the same length
+  - Apply a secret key to each row of the state table
+  - Introduce additional confusion by substituting bytes
+explanation: |
+  The "shift rows" operation in AES rearranges the bytes in the state table to spread out the information, thereby increasing diffusion.
+reviewed: false

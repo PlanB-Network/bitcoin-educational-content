@@ -1,9 +1,0 @@
-question: Mikä on etu käyttää salasanaa Bitcoin-lompakossa?
-answer: Se mahdollistaa erilaisten turvallisuusstrategioiden käyttöönoton
-wrong_answers:
-  - Se tekee lompakosta käyttäjäystävällisemmän
-  - Se nopeuttaa transaktioiden käsittelyä
-  - Se vähentää transaktioihin liittyviä maksuja
-explanation: |
-  Salasana on olennainen työkalu Bitcoin-lompakoiden turvallisuuden parantamiseksi. Se mahdollistaa erilaisten turvallisuusstrategioiden käyttöönoton. Esimerkiksi sitä voidaan käyttää luomaan duplikaatteja ja helpottamaan mnemonic-lauseen varmuuskopioita. Se voi myös parantaa lompakon turvallisuutta lieventämällä riskejä, jotka liittyvät mnemonic-lauseen satunnaiseen generointiin.
-reviewed: false

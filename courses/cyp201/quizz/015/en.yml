@@ -1,10 +1,9 @@
-question: What is the output size of the SHA256 hash function?
-answer: 256 bits
+question: What is the name of the elliptical curve used for digital signature algorithms in Bitcoin?
+answer: secp256k1.
 wrong_answers:
-  - 512 bits
-  - 128 bits
-  - 1024 bits
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
 explanation: |
-  The SHA256 hash function generates a 256-bit hash from a variable-sized
-  input. This is why it is called SHA256.
+  The secp256k1 curve is used in the Bitcoin protocol for digital signatures.
 reviewed: false

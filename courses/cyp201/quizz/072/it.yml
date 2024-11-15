@@ -1,9 +1,9 @@
-question: Cosa è una frase mnemonica nel contesto di un portafoglio Bitcoin?
-answer: È un backup del portafoglio.
-wrong_answers:
-  - È una password per il portafoglio.
-  - È una cronologia delle transazioni del portafoglio.
-  - È una firma digitale del portafoglio.
-explanation: |
-  Una frase mnemonica viene generata per garantire il backup del portafoglio Bitcoin.
-reviewed: false
+domanda: Qual è la funzione utilizzata per generare un indirizzo?
+risposta: HASH160.
+risposte_errate:
+  - HASH256.
+  - HASH512.
+  - SHA256.
+spiegazione: |
+  La funzione HASH160, che combina SHA256 e RIPEMD-160, è utilizzata per generare indirizzi Bitcoin a partire dalle chiavi pubbliche.
+revisionato: false

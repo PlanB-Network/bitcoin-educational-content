@@ -1,0 +1,8 @@
+pertanyaan: Apa fitur unik dari daftar 2048 kata yang memungkinkan untuk pengkodean mnemonik?
+jawaban: Tidak ada kata yang memiliki empat huruf pertama yang sama dalam urutan yang sama.
+jawaban_salah:
+  - Tidak ada kata yang memiliki tiga huruf terakhir yang sama.
+  - Tidak ada kata yang dimulai dengan huruf "J".
+  - Tidak ada kata yang lebih dari enam huruf panjangnya.
+penjelasan: |
+  Fitur ini membantu menghindari ambiguitas saat memasukkan kata-kata, sehingga memastikan keunikan setiap kata dalam daftar, sekaligus mengurangi ruang penyimpanan yang diperlukan.

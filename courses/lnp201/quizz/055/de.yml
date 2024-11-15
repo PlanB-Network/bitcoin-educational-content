@@ -1,9 +1,0 @@
-question: Was passiert mit der Liquidität eines Kanals, wenn eine Transaktion im Lightning Network durchgeführt wird?
-answer: Die Liquidität wird entlang der Route zwischen den beiden Parteien umverteilt.
-wrong_answers:
-  - Die Liquidität bleibt gleich.
-  - Die Liquidität wird auf einen anderen Kanal übertragen.
-  - Die Liquidität wird erhöht.
-explanation: |
-  Im Lightning Network wird bei einer Transaktion die Liquidität entlang der Route zwischen den beiden Parteien umverteilt.
-reviewed: false

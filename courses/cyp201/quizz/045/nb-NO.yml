@@ -1,0 +1,8 @@
+question: Hva representerer passfrasen i en HD-lommebok?
+answer: En valgfri kryptografisk salt av vilkårlig størrelse.
+wrong_answers:
+  - Et 25. ord i den mnemoniske frasen.
+  - En obligatorisk kryptografisk salt av fast størrelse.
+  - Et sekundært frø.
+explanation: |
+  Passfrasen er en valgfri kryptografisk salt, som forbedrer sikkerheten til lommeboken ved å legge til ekstra informasjon til den mnemoniske frasen for å bestemme frøet.

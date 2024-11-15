@@ -1,0 +1,9 @@
+kysymys: Mikä oli Hal Finneyn ennustuksen hinta dollareissa tammikuussa 2009?
+vastaus: 10,000,000
+vaarat_vastaukset:
+  - 1,000,000
+  - 100,000
+  - 10,000
+selitys: |
+  Hän [kirjoitti](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html), että "mahdollisuus luoda yksiköitä tänään muutamalla sentillä laskenta-aikaa" voisi olla "erittäin hyvä veto".
+arvioitu: false

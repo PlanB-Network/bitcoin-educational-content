@@ -1,0 +1,91 @@
+id: 21d0420a-be02-4663-94a3-8d487f23becc
+
+builder: GnuPG
+
+tags:
+  - guides
+  - risks
+  - good-practice
+
+category: general
+
+level: intermediate
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-10-11
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 2292
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6668
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4584
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8752
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6668
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7710
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6668
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6668
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4584
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4584
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5626
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7710
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5626
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8752

@@ -1,9 +1,9 @@
-question: Quel est le but du nonce dans le contexte des transactions Bitcoin ?
-answer: Il est utilisé dans la création d'une signature numérique.
+question: Pourquoi l'utilisation d'une passphrase renforce-t-elle la sécurité d'un portefeuille HD ?
+answer: Elle ajoute une couche de protection supplémentaire à la phrase mnémonique.
 wrong_answers:
-  - Il est utilisé pour chiffrer les données de la transaction.
-  - Il est utilisé pour stocker les données de la transaction.
-  - Il est utilisé pour transmettre les données de la transaction.
+  - Elle permet de générer des clés publiques plus fortes.
+  - Elle permet de protéger les transactions de façon cryptographique.
+  - Elle double le nombre de bitcoins dans le portefeuille.
 explanation: |
-  Dans le contexte des transactions Bitcoin, un nonce est utilisé dans la création d'une signature numérique. Plus précisément, il est utilisé dans le calcul d'un nombre spécifique V et de la signature numérique composée de deux parties, S1 et S2.
+  La passphrase renforce la sécurité en ajoutant une donnée supplémentaire à la phrase mnémonique, c'est un peu un 2FA.
 reviewed: false

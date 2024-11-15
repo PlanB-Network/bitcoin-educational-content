@@ -1,0 +1,9 @@
+question: Mis aastal rakendati David Chaumi eCash kontseptsiooni?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Selle rakendasid esmakordselt krüptopunkid veebruaris, enne kui DigiCash katsetas seda "CyberBucks" väljaandmisega oktoobris.
+reviewed: false

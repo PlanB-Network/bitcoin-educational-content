@@ -6,7 +6,9 @@ wrong_answers:
   - To prevent the browser from crashing.
   - To avoid being tracked by third-party sites.
 explanation: |
-  While browser extensions can provide useful functionalities, they can
-  also pose security risks as they can access your data and browsing activity. Additionally,
-  having too many extensions can slow down your browser and affect its performance.
-reviewed: false
+  While browser extensions can provide useful
+  functionalities, they can also pose security risks as they
+  can access your data and browsing activity. Additionally,
+  having too many extensions can slow down your browser and
+  affect its performance.
+reviewed: true

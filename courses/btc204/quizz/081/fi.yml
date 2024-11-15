@@ -1,0 +1,11 @@
+kysymys: Mikä salausmenetelmä estää koordinaattoria yhdistämästä syötteitä ja tulosteita coinjoinissa?
+
+vastaus: Chaumin sokeat allekirjoitukset.
+
+väärät_vastaukset:
+  - Schnorrin allekirjoitukset.
+  - P2SH-osoitteet.
+  - P2TR-osoitteet.
+
+selitys: |
+  Niin kutsutuissa "Chaumilaisissa" coinjoineissa Torin käyttö ja David Chaumin sokeat allekirjoitukset yhdistetään varmistamaan, että koordinaattori ei voi tietää, mikä tuloste kuuluu millekin käyttäjälle.

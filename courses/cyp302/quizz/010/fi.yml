@@ -1,0 +1,8 @@
+kysymys: Miksi kryptografia on ratkaisevan tärkeää avoimessa viestintäympäristössä?
+vastaus: Se turvaa tiedot, vaikka viestintäkanava olisi salakuunneltu.
+väärät_vastaukset:
+  - Se tekee viestinnästä näkymätöntä kaikille verkoille.
+  - Se estää hyökkäykset paikallisverkoissa.
+  - Se korvaa fyysiset kaapelit turvallisella viestinnällä.
+selitys: |
+  Avoimessa viestintäympäristössä, jossa kanavia voidaan tarkkailla, kryptografia varmistaa turvallisuuden suojaamalla vaihdetut tiedot, jopa potentiaalisten hyökkäysten läsnäollessa.

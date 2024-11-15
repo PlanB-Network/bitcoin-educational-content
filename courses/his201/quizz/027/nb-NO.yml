@@ -1,0 +1,8 @@
+question: Hvilken britisk avis sin overskrift ble inkludert i Bitcoin sin genesis-blokk i januar 2009?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  Den nøyaktige inskripsjonen var "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks".

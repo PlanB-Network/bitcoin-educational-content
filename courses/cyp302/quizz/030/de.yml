@@ -1,0 +1,9 @@
+Frage: Was ist der Hauptunterschied zwischen einer zufälligen Zeichenfolge und einer Pseudozufallszeichenfolge?
+Antwort: Eine zufällige Zeichenfolge stammt aus einem rein zufälligen Prozess, während eine Pseudozufallszeichenfolge durch einen Algorithmus aus einem Startwert generiert wird.
+falsche_Antworten:
+  - Eine Pseudozufallszeichenfolge verwendet nur 1 Bits.
+  - Eine zufällige Zeichenfolge ist immer länger als eine Pseudozufallszeichenfolge, da darauf eine natürliche Aktion ausgeübt wird.
+  - Eine Pseudozufallszeichenfolge wird durch ein streng binäres Modell definiert, während eine zufällige Zeichenfolge durch ein streng hexadezimales Modell definiert wird.
+Erklärung: |
+  Eine zufällige Zeichenfolge stammt aus einem direkten Zufallsprozess, während eine Pseudozufallszeichenfolge unter Verwendung eines Expansion Algorithmus und eines anfänglichen Startwerts produziert wird.
+überprüft: false

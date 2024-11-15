@@ -1,0 +1,9 @@
+pertanyaan: Dalam protokol Bitcoin, apa itu HASH160?
+jawaban: Sebuah hash SHA256 diikuti oleh hash RIPEMD160.
+jawaban_salah:
+  - Sebuah hash RIPEMD160 ganda.
+  - Sebuah hash SHA256 ganda.
+  - Sebuah hash MD5 diikuti oleh hash SHA256.
+penjelasan: |
+  HASH160 menggabungkan hash SHA256 diikuti oleh RIPEMD160, digunakan khusus untuk menghasilkan alamat Bitcoin.
+ditinjau: false

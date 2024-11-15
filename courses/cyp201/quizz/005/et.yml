@@ -1,0 +1,9 @@
+question: Milline peab olema SHA256 funktsiooni sisendi suurus pärast täitmist?
+answer: 512 biti kordne.
+wrong_answers:
+  - 256 biti suurune.
+  - 256 baiti suurune.
+  - 256 biti kordne.
+explanation: |
+  SHA256 funktsioon nõuab, et sisend oleks pärast täitmist 512 biti kordne, et see korrektselt toimiks.
+reviewed: false

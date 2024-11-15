@@ -1,0 +1,13 @@
+pergunta: Qual é o principal objetivo da técnica de ricochete?
+
+resposta: Borrar os rastros do passado de uma moeda
+
+respostas_erradas:
+  - Aumentar o anonset prospectivo das transações
+  - Aumentar a entropia de uma transação
+  - Pagar menos em taxas de transação no futuro
+
+explicação: |
+  O objetivo de um ricochete é simular uma mudança de propriedade de uma moeda Bitcoin a fim de restaurar sua fungibilidade ao borrar suas marcas passadas.
+
+revisado: false

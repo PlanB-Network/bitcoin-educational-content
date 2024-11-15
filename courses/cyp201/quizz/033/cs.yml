@@ -1,11 +1,9 @@
-question: Co je skalární násobení bodu číslem n na eliptické křivce?
-answer: Ekvivalentní k přičtení tohoto bodu k sobě samému n-krát
-wrong_answers:
-  - Ekvivalentní k odečtení tohoto bodu od sebe samého n-krát
-  - Ekvivalentní k násobení tohoto bodu sebou samým n-krát
-  - Ekvivalentní k dělení tohoto bodu sebou samým n-krát
-explanation: |
-  Skalární násobení bodu číslem n na eliptické křivce je ekvivalentní
-  k přičtení tohoto bodu k sobě samému n-krát. Tato operace je základem pro výpočet
-  veřejných klíčů v systému Bitcoin.
-reviewed: false
+otázka: V kterém BIP je navržena myšlenka obnovovací fráze nebo mnemonické fráze (12/24 slov)?
+odpověď: BIP39.
+špatné_odpovědi:
+  - BIP16.
+  - BIP32.
+  - BIP44.
+vysvětlení: |
+  BIP39 zavedl 24-slovnou mnemonickou obnovovací frázi, aby usnadnil zálohování klíčů pro uživatele HD peněženek.
+recenzováno: false

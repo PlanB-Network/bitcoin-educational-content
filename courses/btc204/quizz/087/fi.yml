@@ -1,0 +1,11 @@
+kysymys: Miten Wabisabi hallitsee muutosta verrattuna Wasabi 1.0:aan?
+
+vastaus: Se jakaa sen useisiin pieniin määriin, jotka jaetaan tasasuuruisina erinä.
+
+väärät_vastaukset:
+  - Se yhdistää ne estääkseen niitä muuttumasta "pölyksi".
+  - Se jättää ne pois ennen coinjoin-tapahtumaa tasoittamalla sisääntulot.
+  - Se siirtää sen automaattisesti varasäilölompakkoon.
+
+selitys: |
+  Toisin kuin Wasabi 1.0:ssa, jossa vaihtoraha oli suoraan yhdistetty käyttäjien sisääntuloihin, Wabisabi pyrkii jakamaan vaihtorahan useisiin pieniin määriin, jotka jaetaan tasasuuruisina erinä kaikille osallistujille.

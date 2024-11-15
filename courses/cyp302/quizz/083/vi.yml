@@ -1,0 +1,8 @@
+question: Tại sao "mã hóa luồng giả ngẫu nhiên" thường được sử dụng nhiều hơn trong thực tế so với mã một lần?
+answer: Chúng cho phép sử dụng một khóa ngắn hơn để tạo ra một dòng khóa dài hơn
+wrong_answers:
+  - Chúng không yêu cầu một khóa bí mật
+  - Chúng sử dụng sự kết hợp của mã hóa đối xứng và mã hóa bất đối xứng
+  - Chúng không cần cập nhật khóa
+explanation: |
+  Mã hóa luồng giả ngẫu nhiên thực tế hơn vì chúng cho phép một khóa ngắn được mở rộng thành một dòng khóa dài hơn, tránh được nhu cầu phải lưu trữ một khóa dài bằng chính thông điệp.

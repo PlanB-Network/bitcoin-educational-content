@@ -1,11 +1,9 @@
-question: Who are the two peers involved in the Lightning Network transfer in the
-  example?
-answer: Alice and Bob.
+question: What can Bob do if he detects an attempt by Alice to cheat during the channel closure?
+answer: Use the revocation key to recover all the funds
 wrong_answers:
-  - Alice and Charlie.
-  - Bob and Charlie.
-  - Alice and the Bitcoin network.
+  - Cancel Alice's commitment transaction
+  - Permanently close the channel with no option to reopen
+  - Claim only half of the available funds
 explanation: |
-  In the example, Alice and Bob are the two peers involved in the Lightning
-  Network transfer.
+  In the event of cheating, Bob can use the revocation key to recover all the funds from the channel, thus punishing Alice for her attempt.
 reviewed: false

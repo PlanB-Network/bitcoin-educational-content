@@ -1,0 +1,9 @@
+domanda: Quale problema computazionale difficile è associato a sistemi asimmetrici come RSA?
+risposta: Fattorizzazione di numeri primi
+risposte_errate:
+  - Moltiplicazione esponenziale di interi
+  - La creazione di lunghi numeri casuali
+  - Scambio sicuro di chiavi
+spiegazione: |
+  RSA si basa sulla difficoltà della fattorizzazione di numeri primi, un compito computazionalmente difficile che rende il crittosistema sicuro contro gli attacchi.
+revisionato: false

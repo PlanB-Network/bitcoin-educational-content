@@ -1,0 +1,9 @@
+otázka: Jaká je typická velikost bloku pro šifrování blokovými šiframi?
+odpověď: 64, 128, 192 nebo 256 bitů
+špatné_odpovědi:
+  - 8, 16, 32 nebo 64 bitů
+  - 4, 8, 16 nebo 32 bitů
+  - 256, 512, 1024 nebo 2048 bitů
+vysvětlení: |
+  Blokové šifry zpracovávají data ve fixně velkých blocích, typicky 64, 128, 192 nebo 256 bitů, aby zajistily optimální bezpečnost a integritu šifrování.
+recenzováno: false

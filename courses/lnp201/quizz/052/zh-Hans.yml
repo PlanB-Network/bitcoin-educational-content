@@ -1,0 +1,8 @@
+问题：哪项服务允许将流动性移动到通道的另一侧，同时在链上检索资金？
+答案：Loop Out
+错误答案：
+  - Keysend
+  - LNURL
+  - CoinSwap
+解释：
+  来自Lightning Labs的Loop Out服务使资金能够从Lightning通道转移到链上区块链，从而在主链上检索比特币的同时优化接收容量。

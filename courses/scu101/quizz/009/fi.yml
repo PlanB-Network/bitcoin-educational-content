@@ -1,9 +1,0 @@
-question: Mikä on VPN:n ensisijainen tehtävä ammattikontekstissa?
-answer: Sen avulla työntekijät voivat turvallisesti käyttää yrityksen sisäistä verkkoa etäyhteyden kautta.
-wrong_answers:
-  - Sen avulla työntekijät voivat kiertää maantieteellisiä rajoituksia.
-  - Sen avulla työntekijät voivat estää verkossa olevia mainoksia.
-  - Sen avulla työntekijät voivat käyttää julkista Wi-Fiä turvallisesti.
-explanation: |
-  Ammattikontekstissa VPN:iä käytetään ensisijaisesti turvallisen etäyhteyden tarjoamiseen yrityksen sisäiseen verkkoon. Tämä saavutetaan salaamalla työntekijän ja yrityksen verkon välillä vaihdettavat tiedot, mikä tekee kolmansien osapuolien väliintulon vaikeaksi.
-reviewed: false

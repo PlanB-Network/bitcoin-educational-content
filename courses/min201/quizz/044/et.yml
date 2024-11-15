@@ -1,0 +1,12 @@
+question: Mis on "neitsi bitcoineid"?
+answer: Värskelt kaevandatud bitcoineid, mida ei ole kunagi kulutatud ja millel puudub ajalugu.
+wrong_answers:
+  - Bitcoinid, mida on kasutatud ebaseaduslikes tegevustes.
+  - Bitcoinid, mis on kaotatud või unustatud.
+  - Bitcoinid, mis on pikka aega rahakotis hoitud.
+explanation: |
+  Neitsi bitcoineid on värskelt kaevandatud bitcoineid, mida ei ole kunagi kulutatud
+  ja millel puudub ajalugu. Neid bitcoineid peetakse sageli väärtuslikumaks,
+  kuna neid ei ole rikutud, pakkudes teatud garantiid tagasilükkamise vastu
+  regulaatorite või suurte vahetusplatvormide poolt.
+reviewed: false

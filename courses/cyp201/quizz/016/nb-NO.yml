@@ -1,0 +1,8 @@
+question: For å anvende denne elliptiske kurven til kryptografisk bruk, på hvilket felt må vi definere den?
+answer: Et endelig felt av positive heltall.
+wrong_answers:
+  - Feltet av reelle tall.
+  - Et endelig felt av reelle tall.
+  - Et komplekst felt.
+explanation: |
+  I Bitcoin er den elliptiske kurven secp256k1 definert over et endelig felt av positive heltall modulo et primtall for å unngå tilnærminger og sikre sikkerhet.

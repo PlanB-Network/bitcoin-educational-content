@@ -1,0 +1,9 @@
+domanda: Chi ha creato il primo block explorer nel novembre 2010?
+risposta: Michael Marquardt (Theymos)
+risposte_errate:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+spiegazione: |
+  Questo "Bitcoin Block Explorer" permetteva agli utenti di visualizzare informazioni dettagliate su blocchi, indirizzi e transazioni tramite un browser web.
+revisionato: false

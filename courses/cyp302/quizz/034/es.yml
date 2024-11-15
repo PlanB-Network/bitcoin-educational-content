@@ -1,0 +1,9 @@
+pregunta: ¿Qué es una cadena pseudorandom?
+respuesta: Una cadena que parece provenir de una variable uniforme pero es producida por un algoritmo de expansión
+respuestas_incorrectas:
+  - Una cadena generada con una probabilidad idéntica para cada carácter
+  - Una cadena de longitud fija de un evento aleatorio natural
+  - Una cadena aleatoria elegida solo de los valores binarios 0 y 1
+explicación: |
+  Una cadena pseudorandom es producida por un algoritmo de expansión a partir de una semilla más pequeña, de manera que imita una selección uniforme entre todas las cadenas de la misma longitud.
+revisado: false

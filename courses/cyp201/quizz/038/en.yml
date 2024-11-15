@@ -1,10 +1,9 @@
-question: What is the total number of possibilities for a private key in theory?
-answer: 2^256
+question: What is the main difference between a PRNG and a TRNG?
+answer: A PRNG is deterministic, while a TRNG produces truly random numbers.
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - A TRNG is faster than a PRNG.
+  - A TRNG uses a seed, while a PRNG does not use any seed.
+  - A PRNG is hardware, while a TRNG is software.
 explanation: |
-  The total number of possibilities for a private key is theoretically
-  2^256, but in reality, it is slightly less than that.
+  A TRNG (True Random Number Generator) generates random numbers from a physical random phenomenon, unlike a PRNG which is deterministic.
 reviewed: false

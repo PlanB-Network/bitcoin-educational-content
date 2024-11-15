@@ -1,0 +1,9 @@
+otázka: Proč je samotný autentizovaný šifrovací systém nedostatečný v komunikační seanci?
+odpověď: Nezaručuje, že zpráva byla odeslána odesílatelem v době seance.
+špatné_odpovědi:
+  - Používá příliš krátké klíče.
+  - Nešifruje zprávy odeslané v době seance.
+  - Neumožňuje autentizaci odesílatele v době seance.
+vysvětlení: |
+  Autentizovaný šifrovací systém nechrání před útoky jako jsou opakování, přeuspořádání a odraz bez přidání ukazatelů jako identifikátory a pořadová čísla.
+recenzováno: false

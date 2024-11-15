@@ -1,0 +1,13 @@
+domanda: Cosa indica un grande anonset riguardo alla privacy di un UTXO?
+
+risposta: Privacy migliorata.
+
+risposte_errate:
+  - Privacy ridotta.
+  - Migliorata tracciabilità.
+  - Velocità di transazione coinjoin più veloce.
+
+spiegazione: |
+  Un grande anonset indica un alto livello di anonimato, poiché diventa difficile distinguere un UTXO specifico all'interno dell'insieme omogeneo.
+
+revisionato: false

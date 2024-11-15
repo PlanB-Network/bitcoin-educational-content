@@ -1,0 +1,9 @@
+question: Hvem opprettet Mt. Gox-utvekslingsplattformen 18. juli 2010, en uke etter "den store slashdottingen" av Bitcoin?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+  Han opprettet dette effektive markedet "på en innfall", da han innså hvor vanskelig det var å skaffe bitcoin i bytte mot dollar (spesielt på Bitcoin Market).
+reviewed: false

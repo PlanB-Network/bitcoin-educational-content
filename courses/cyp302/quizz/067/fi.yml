@@ -1,0 +1,9 @@
+kysymys: Mitä tapahtuu, jos hyökkääjä kaappaa salatun viestin hyvässä symmetrisessä salausjärjestelmässä?
+vastaus: Heidän ei pitäisi oppia mitään merkittävää alkuperäisestä viestistä
+väärät_vastaukset:
+  - He voivat aina purkaa viestin ilman avainta
+  - Heidän pitäisi pystyä purkamaan se julkisella avaimella
+  - Heidän pitäisi pystyä arvaamaan viestin sisällön
+selitys: |
+  Hyvin suunnitellussa symmetrisessä salausjärjestelmässä hyökkääjän, joka kaappaa salatun viestin, ei pitäisi pystyä päättelemään relevanttia tietoa viestin sisällöstä ilman purkuavainta.
+arvioitu: false

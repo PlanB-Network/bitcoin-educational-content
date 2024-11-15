@@ -1,0 +1,11 @@
+küsimus: Millisel põhimõttel töötab Bitcoin'i kaevandamine?
+vastus: Bitcoin'i kaevandamine töötab loteriipõhimõttel, kus võimalus võita plokk (ja seega Bitcoin'i auhind) iga kümne minuti tagant on üksikule väikesele kaevandajale äärmiselt väike.
+valed_vastused:
+  - Bitcoin'i kaevandamine töötab esimesena kohale jõudmise põhimõttel, kus esimene kaevandaja, kes lahendab keeruka matemaatilise probleemi, saab Bitcoin'i auhinna.
+  - Bitcoin'i kaevandamine töötab pakkumispõhimõttel, kus kaevandaja, kes pakub kõige kõrgemat hinda, saab Bitcoin'i auhinna.
+  - Bitcoin'i kaevandamine töötab rotatsioonipõhimõttel, kus igal kaevandajal on kord kaevandada plokk ja saada Bitcoin'i auhind.
+selgitus: |
+  Peatükk selgitab, et Bitcoin'i kaevandamine töötab loteriipõhimõttel,
+  kus võimalus võita plokk (ja seega Bitcoin'i auhind) iga kümne
+  minuti tagant on üksikule väikesele kaevandajale äärmiselt väike.
+üle vaadatud: false

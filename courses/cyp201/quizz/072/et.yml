@@ -1,0 +1,9 @@
+question: Mis funktsiooni kasutatakse aadressi genereerimiseks?
+answer: HASH160.
+wrong_answers:
+  - HASH256.
+  - HASH512.
+  - SHA256.
+explanation: |
+  HASH160 funktsiooni, mis ühendab SHA256 ja RIPEMD-160, kasutatakse Bitcoin aadresside genereerimiseks avalikest võtmetest.
+reviewed: false

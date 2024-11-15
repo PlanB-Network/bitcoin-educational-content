@@ -1,0 +1,8 @@
+question: Mis on rahakott Bitcoini kontekstis?
+answer: Digitaalne seif sinu bitcoinide jaoks
+wrong_answers:
+  - Füüsiline seade bitcoinide hoiustamiseks
+  - Tarkvara bitcoinide kaevandamiseks
+  - Platvorm bitcoinide ostuks ja müügiks
+explanation: |
+  Peatüki sisu selgitab, et bitcoine hoitakse nn "rahakotis", mis on digitaalne seif sinu raha jaoks. Juurdepääsu sellele omab ainult võtme omanik.

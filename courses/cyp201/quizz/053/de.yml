@@ -1,9 +1,9 @@
-question: Wie lang sind die privaten Schlüssel in einer Bitcoin-Wallet?
-answer: 256 Bits
-wrong_answers:
-  - 128 Bits
-  - 512 Bits
-  - 1024 Bits
-explanation: |
-  Die privaten Schlüssel in einer Bitcoin-Wallet, die für den Besitz von Kryptowährungen unerlässlich sind, haben eine feste Länge von 256 Bits.
-reviewed: false
+Frage: Welche Informationen werden aus dem Seed durch Anwendung von HMAC-SHA512 berechnet?
+Antwort: Der Master-Schlüssel und der Master-Chain-Code des Wallets.
+Falsche Antworten:
+  - Der erweiterte Schlüssel des Wallets.
+  - Der xpub und xprv des Wallets.
+  - Der private Schlüsselsignaturcode.
+Erklärung: |
+  Aus dem Seed leitet HMAC-SHA512 den Master-Schlüssel und den Master-Chain-Code ab, die die Basis für die Schlüsselgenerierung bilden.
+Überprüft: false

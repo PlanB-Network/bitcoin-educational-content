@@ -1,0 +1,8 @@
+pertanyaan: Apa yang dilakukan oleh node pengirim ketika rute pembayaran gagal karena likuiditas yang tidak mencukupi?
+jawaban: Mencoba rute lain sampai menemukan satu yang berfungsi
+jawaban_salah:
+  - Secara otomatis mengirim permintaan pengembalian dana ke penerima
+  - Menutup saluran dan membuat saluran langsung baru
+  - Meminta node perantara untuk meningkatkan likuiditas mereka
+penjelasan: |
+  Ketika sebuah rute gagal, node pengirim mencoba rute alternatif lain sampai menemukan jalur yang berfungsi, atau semua opsi telah habis dicoba.

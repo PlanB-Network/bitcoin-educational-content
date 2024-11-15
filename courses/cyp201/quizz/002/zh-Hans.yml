@@ -1,0 +1,8 @@
+问题：比特币协议中使用了哪些哈希函数？
+答案：SHA-256, RIPEMD-160
+错误答案：
+  - MD5, SHA3-256
+  - Keccak-256, SHA-512
+  - SHA-1, Whirlpool
+解释：
+  在比特币中，使用了SHA-256和RIPEMD-160。

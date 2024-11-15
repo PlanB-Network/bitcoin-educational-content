@@ -1,0 +1,8 @@
+pertanyaan: Dengan kunci publik yang diperluas, saya dapat menurunkan...
+jawaban: ...kunci publik anak normal.
+jawaban_salah:
+  - ...kunci publik anak yang diperkuat.
+  - ...kunci privat anak normal.
+  - ...kunci privat anak yang diperkuat.
+penjelasan: |
+  Kunci publik yang diperluas hanya memungkinkan untuk penurunan kunci publik anak normal, tetapi tidak untuk kunci privat.

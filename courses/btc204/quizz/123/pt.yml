@@ -1,0 +1,13 @@
+pergunta: Qual é a principal desvantagem de usar Tor para um nó de Bitcoin?
+
+resposta: Redução na velocidade de comunicação
+
+respostas_erradas:
+  - Aumento nas taxas de transação
+  - Risco de censura de transação
+  - Risco de ataque Eclipse no nó
+
+explicação: |
+  As comunicações através do Tor são mais lentas. Essa latência é particularmente problemática durante o lançamento inicial de um nó, pois o IBD (Initial Block Download) requer muitas comunicações.
+
+revisado: false

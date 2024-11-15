@@ -1,0 +1,13 @@
+domanda: Come gestisce il cambio Wabisabi rispetto a Wasabi 1.0?
+
+risposta: Lo suddivide in diversi piccoli importi distribuiti in denominazioni uguali.
+
+risposte_errate:
+  - Lo consolida per prevenirne la trasformazione in "polvere".
+  - Lo esclude prima della transazione coinjoin equalizzando gli input.
+  - Lo trasferisce automaticamente a un portafoglio di riserva.
+
+spiegazione: |
+  A differenza di Wasabi 1.0, dove il cambio era direttamente collegato agli input degli utenti, Wabisabi mira a suddividere il cambio in diversi piccoli importi, distribuiti in denominazioni uguali a tutti i partecipanti.
+
+revisionato: false

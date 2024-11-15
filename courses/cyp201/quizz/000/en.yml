@@ -1,12 +1,9 @@
-question: What is the principle of drawers in the context of cryptographic hash functions?
-answer: It explains why, despite our best efforts, collision avoidance is impossible due to the limitation of output size.
+question: What is the goal of the cryptographic hashing process?
+answer: To map a bit string of arbitrary length to a bit string of fixed length.
 wrong_answers:
-  - It explains the storage mechanism of hash functions.
-  - It describes the process of creating a hash.
-  - It is a principle that explains the irreversibility of hash functions.
+  - Encrypt a message.
+  - Ensure that the sender of the message cannot deny having sent the message in the future.
+  - Guarantee the confidentiality of data.
 explanation: |
-  The principle of drawers in the context of cryptographic hash functions
-  explains that due to the limitation of output size, collision avoidance is impossible.
-  This is because there are more possible inputs than outputs, so some inputs must
-  inevitably share the same output.
+  Hashing transforms data of any size into an output of fixed size, useful for verifying integrity without necessarily encrypting or authenticating the data.
 reviewed: false

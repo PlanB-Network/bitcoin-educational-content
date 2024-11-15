@@ -1,0 +1,9 @@
+otázka: Jaký problém nastane, pokud Jim's Sporting Goods použije stejný pár klíčů pro všechny zákazníky?
+odpověď: Jakýkoliv zákazník by mohl přistupovat ke komunikaci ostatních
+špatné_odpovědi:
+  - Klíč by se stal příliš velkým
+  - Komunikace by se zpomalila
+  - Zákazníci by museli měnit klíče při každém nákupu
+vysvětlení: |
+  Použitím stejného klíče pro všechny by Jim's Sporting Goods ohrozilo důvěrnost a integritu, jelikož každý zákazník by potenciálně mohl přistupovat k datům ostatních zákazníků.
+recenzováno: false

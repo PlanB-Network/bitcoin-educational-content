@@ -1,9 +1,8 @@
-question: Qual é o comprimento das chaves privadas em uma carteira de Bitcoin?
-answer: 256 bits
-wrong_answers:
-  - 128 bits
-  - 512 bits
-  - 1024 bits
-explanation: |
-  As chaves privadas em uma carteira de Bitcoin, que são essenciais para a propriedade de criptomoedas, têm um comprimento fixo de 256 bits.
-reviewed: false
+pergunta: Que informação é calculada a partir da semente ao aplicar HMAC-SHA512?
+resposta: A chave mestre e o código de cadeia mestre da carteira.
+respostas_erradas:
+  - A chave estendida da carteira.
+  - O xpub e xprv da carteira.
+  - O código de assinatura da chave privada.
+explicação: |
+  A partir da semente, o HMAC-SHA512 deriva a chave mestre e o código de cadeia mestre, que são a base para a geração de chaves.

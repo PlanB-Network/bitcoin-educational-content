@@ -1,0 +1,9 @@
+pregunta: ¿Qué problema de seguridad surge si el mismo mensaje se cifra múltiples veces en el sistema criptográfico RSA simplificado?
+respuesta: El mensaje siempre producirá el mismo cifrado
+respuestas_incorrectas:
+  - El mensaje será vulnerable a ataques de fuerza bruta
+  - El mensaje se invertirá
+  - El mensaje se volverá imposible de descifrar
+explicación: |
+  En un RSA simplificado, cifrar un mensaje múltiples veces siempre producirá el mismo resultado, haciendo que el cifrado sea vulnerable a ataques.
+revisado: false

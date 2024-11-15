@@ -1,12 +1,9 @@
-question: What is the role of the generator point in the elliptic curve?
-answer: It is used to calculate the point on the elliptic curve.
+question: How to construct the recovery phrase (mnemonic) in binary?
+answer: Concatenate the random number with its checksum at the end.
 wrong_answers:
-  - It is used to generate the nonce.
-  - It is used to encrypt the keys.
-  - It is used to store the keys.
+  - Concatenate the random number with its checksum at the beginning.
+  - Concatenate the random number with a seed.
+  - Divide the random number into two parts and insert the checksum in the middle.
 explanation: |
-  The generator point is a specific point on the elliptic curve that is
-  used in the calculation of other points on the curve. It is used in the generation
-  of public and private keys, as well as in the creation and verification of digital
-  signatures.
+  To generate a binary mnemonic phrase, concatenate the checksum to the end of the random number before converting into words.
 reviewed: false

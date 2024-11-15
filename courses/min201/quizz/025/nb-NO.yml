@@ -1,0 +1,8 @@
+question: Hva blir grunnlaget for Bitcoin-nettverket ofte referert til som?
+answer: Oppgjørslaget
+wrong_answers:
+  - Transaksjonslaget
+  - Sikkerhetslaget
+  - Konsensuslaget
+explanation: |
+  Grunnlaget for Bitcoin-nettverket, som Lightning Network er avhengig av for å åpne og lukke betalingskanaler, blir ofte referert til som "oppgjørslaget".

@@ -1,0 +1,8 @@
+otázka: Co usnadňuje zachycení lokálních komunikací málo vybavenými útočníky?
+odpověď: Použití rádiových vln pro bezdrátová připojení
+špatné_odpovědi:
+  - Směrování všech dat přes satelity
+  - Používání pouze koaxiálních kabelů pro přenos dat
+  - Odesílání dat pouze přes optická vlákna
+vysvětlení: |
+  Bezdrátová připojení, která přenášejí data pomocí rádiových vln, usnadňují zachycení útočníky, jelikož nevyžadují fyzický přístup k síti.

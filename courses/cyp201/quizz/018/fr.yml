@@ -1,9 +1,9 @@
-question: Quel est le but de HMAC dans le protocole Bitcoin?
-answer: Il est utilisé pour contrer les attaques d'extension de longueur lors de la dérivation des portefeuilles déterministes hiérarchiques (HD).
+question: Où sont stockés les clés privées ?
+answer: Dans des portefeuilles Bitcoin
 wrong_answers:
-  - Il est utilisé pour convertir une phrase mnémonique en une graine (seed).
-  - Il est utilisé pour générer une sortie de taille fixe.
-  - Il est utilisé pour ajouter une source supplémentaire d'entropie lors de la dérivation de clé.
+  - Sur la blockchain
+  - Sur des serveurs de la communauté Bitcoin.
+  - Sur le réseau peer-to-peer.
 explanation: |
-  HMAC est principalement utilisé pour contrer les attaques d'extension de longueur lors de la dérivation des portefeuilles déterministes hiérarchiques (HD). Il prend un message et une clé en entrée et génère une sortie de taille fixe.
+  Le portefeuille contient les clés privées nécessaires pour accéder aux bitcoins.
 reviewed: false

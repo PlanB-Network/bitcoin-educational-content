@@ -1,0 +1,14 @@
+pertanyaan: Mengapa Proof of Work penting dalam jaringan Bitcoin?
+jawaban: Ini mewakili tautan fisik antara dunia nyata dan Bitcoin, memerlukan energi nyata untuk produksi dan validasi bitcoin serta blok.
+jawaban_salah:
+  - Ini memungkinkan partisipasi skala kecil.
+  - Ini menjamin perlindungan terhadap sentralisasi.
+  - Ini mencerminkan ketidaksetaraan kekuasaan yang ada dalam masyarakat.
+penjelasan: |
+  Proof of Work penting dalam jaringan Bitcoin karena ini mewakili
+
+  tautan fisik antara dunia nyata dan Bitcoin. Produksi dan validasi
+
+  bitcoin serta blok memerlukan energi nyata, mengikat jaringan Bitcoin dalam
+
+  realitas fisik dan mencegah dominasi lengkap oleh entitas kuat.

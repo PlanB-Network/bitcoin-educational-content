@@ -1,0 +1,8 @@
+pertanyaan: Apa itu dompet JBOK dalam konteks Bitcoin?
+jawaban: Dompet yang mengelompokkan bersama kunci privat yang ditentukan secara acak, tanpa ada hubungan antara mereka.
+jawaban_salah:
+  - Dompet yang menghasilkan kunci secara hierarkis dari satu benih.
+  - Dompet yang menghasilkan kunci dari kunci sebelumnya.
+  - Dompet yang hanya menggunakan frasa mnemonik untuk menghasilkan kunci.
+penjelasan: |
+  Dompet JBOK (Just a Bunch Of Keys) berisi kunci privat yang dihasilkan secara acak dan independen satu sama lain, tidak seperti dompet HD.

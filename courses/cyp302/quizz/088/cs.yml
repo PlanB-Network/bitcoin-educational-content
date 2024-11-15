@@ -1,0 +1,9 @@
+otázka: Jaký blokový šifrovací algoritmus byl přijat jako standard AES?
+odpověď: Šifra Rijndael
+špatné_odpovědi:
+  - DES
+  - RSA
+  - Diffie-Hellman
+vysvětlení: |
+  Šifra Rijndael byla přijata jako standard symetrického šifrování (AES) organizací NIST, díky své vysoké výkonnosti a bezpečnosti.
+recenzováno: false

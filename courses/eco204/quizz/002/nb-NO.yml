@@ -1,0 +1,11 @@
+question: Hva er definisjonen av inflasjon ifølge Robert?
+answer: Inflasjon er en overdreven økning i betalingsmidler som forårsaker en prisstigning og en verdiforringelse av valutaen.
+wrong_answers:
+  - Inflasjon er en nedgang i betalingsmidler som forårsaker en prisstigning og en verdiforringelse av valutaen.
+  - Inflasjon er en overdreven økning i betalingsmidler som forårsaker en nedgang i priser og en verdiforringelse av valutaen.
+  - Inflasjon er en overdreven økning i betalingsmidler som forårsaker en prisstigning og en verdiøkning av valutaen.
+explanation: |
+  Ifølge Robert er inflasjon definert som en overdreven økning i
+  betalingsmidler (sedler, kapital) som forårsaker en prisstigning og en verdiforringelse
+  av valutaen.
+reviewed: false

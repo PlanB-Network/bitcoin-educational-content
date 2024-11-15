@@ -1,0 +1,9 @@
+question: Hva er tittelen på boken til Thomas Paine?
+answer: Common Sense.
+wrong_answers:
+  - Den unike fornuften.
+  - Det felles gode.
+  - Ingen av de ovennevnte svarene er riktige.
+explanation: |
+  Boken til Thomas Paine, med tittelen "Common Sense" ("Le sens commun" på fransk), er en innflytelsesrik pamflett som argumenterte for amerikansk uavhengighet og fordømte britisk tyranni, og spilte en nøkkelrolle i å mobilisere kolonistene.
+reviewed: false

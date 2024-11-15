@@ -1,0 +1,9 @@
+question: Hvorfor er det umulig å hente ut den private nøkkelen fra en gyldig digital signatur?
+answer: Signaturen er basert på irreversible matematiske operasjoner på en elliptisk kurve.
+wrong_answers:
+  - Den private nøkkelen er kryptert før bruk.
+  - Frøet beskytter den private nøkkelen.
+  - Hashing av meldinger forhindrer at den private nøkkelen kan hentes ut.
+explanation: |
+  Operasjoner på elliptiske kurver er irreversible, noe som sikrer at den private nøkkelen ikke kan utledes fra signaturen.
+reviewed: false

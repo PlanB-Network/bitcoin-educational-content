@@ -1,0 +1,13 @@
+question: Mikä on älykkään sopimuksen hyöty salaisessa omaisuudenvaihdossa?
+
+answer: Paljastaa samanaikaisesti ja järjestelmällisesti tietoa, joka mahdollistaa molempien osapuolten toistensa varojen lunastamisen.
+
+wrong_answers:
+  - Varmistaa luottamuksellisuuden salaamalla omaisuustiedot niin, että vain laillinen vastaanottaja voi purkaa salauksen.
+  - Automaattistaa siirtoprosessin minimoimalla ihmisten väliset vuorovaikutukset ja vähentämällä virheitä.
+  - Helpottaa riidanratkaisua pitämällä molempien osapuolten bitcoinit tallessa huijausyritysten varalta.
+
+explanation: |
+  Vaihtojen mahdollistamiseksi osapuolten välillä, jotka eivät luota toisiinsa, käytetään älykkäitä sopimusjärjestelmiä. Älykäs sopimus on ohjelma, joka suoritetaan automaattisesti, kun ennalta määritellyt ehdot täyttyvät, mikä meidän tapauksessamme varmistaa, että omaisuudenvaihto suoritetaan automaattisesti ilman keskinäistä luottamusta. Älykäs sopimus mahdollistaa kahden arkaluonteisen tiedon samanaikaisen paljastamisen osallistujien välillä. Joko se suoritetaan normaalisti, ja kumpikin osapuoli lunastaa toistensa varat, tai se epäonnistuu, ja kaikki säilyttävät alkuperäiset varansa.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é a crítica de Frédéric Bastiat à democracia socialista?
+answer: Bastiat critica a democracia socialista porque ela leva ao aumento dos impostos, endividamento do estado e saque.
+wrong_answers:
+  - Bastiat critica a democracia socialista porque ela não respeita os princípios de liberdade e igualdade.
+  - Bastiat critica a democracia socialista porque ela leva à estagnação.
+  - Bastiat critica a democracia socialista porque ameaça os valores tradicionais da família e da religião.
+explanation: |
+  Frédéric Bastiat vê na democracia socialista uma tendência de usar o estado para redistribuir a riqueza por meio de impostos e dívidas, o que ele considera um "saque legal" da propriedade individual.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Her er en sekvens av desimaltall (10 25 13 18 02 31). Hva er den korrekte konverteringen til Bech32?
+answer: 2edjzl
+wrong_answers:
+  - 2udjpr
+  - 2uaz2c
+  - 3bdjsr
+explanation: |
+  Konverteringen av desimaltall til Bech32 gjøres gjennom en spesifikk korrespondansetabell, og sekvensen 10 25 13 18 02 31 tilsvarer 2edjzl.

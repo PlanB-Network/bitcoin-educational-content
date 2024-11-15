@@ -1,0 +1,9 @@
+question: Kus hoitakse privaatvõtmeid?
+answer: Bitcoin'i rahakottides
+wrong_answers:
+  - Plokiahelas
+  - Bitcoin'i kogukonna serverites.
+  - Otseühenduse võrgus.
+explanation: |
+  Rahakott sisaldab privaatvõtmeid, mis on vajalikud bitcoinidele juurdepääsuks.
+reviewed: false

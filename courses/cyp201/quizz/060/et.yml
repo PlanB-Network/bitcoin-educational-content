@@ -1,0 +1,8 @@
+question: Mis funktsiooni kasutatakse lapse võtmepaari tuletamiseks vanema võtmepaarist HD rahakotis?
+answer: HMAC-SHA512.
+wrong_answers:
+  - SHA256.
+  - Argon2d.
+  - PBKDF2.
+explanation: |
+  HMAC-SHA512 kasutatakse lapse võtmepaari tuletamiseks vanema võtmepaarist HD rahakotis.

@@ -1,0 +1,9 @@
+spørsmål: Hvilken teknikk bidrar til å beskytte mot risikoen for sporing forårsaket av KYC?
+svar: Coinjoin-transaksjoner
+feil_svar:
+  - Bruken av VPN
+  - Bruken av en full node
+  - Validering gjennom proof of work
+forklaring: |
+  Coinjoins har effekten av å bryte historikken til en mynt, noe som hjelper deg med å motvirke risikoen for sporing assosiert med KYC.
+reviewed: false

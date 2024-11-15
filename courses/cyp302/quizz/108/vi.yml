@@ -1,0 +1,8 @@
+câu hỏi: Tại sao chỉ sử dụng một hệ thống mã hóa có xác thực lại không đủ trong một phiên giao tiếp?
+câu trả lời: Nó không đảm bảo rằng tin nhắn được gửi bởi người gửi vào thời điểm của phiên.
+câu trả lời sai:
+  - Nó sử dụng các khóa quá ngắn.
+  - Nó không mã hóa các tin nhắn được gửi vào thời điểm của phiên.
+  - Nó không cho phép xác thực người gửi vào thời điểm của phiên.
+giải thích: |
+  Một hệ thống mã hóa có xác thực không bảo vệ chống lại các cuộc tấn công như phát lại, sắp xếp lại, và phản chiếu mà không có sự bổ sung của các chỉ báo như bộ nhận dạng và số thứ tự.

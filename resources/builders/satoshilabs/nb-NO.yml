@@ -1,0 +1,8 @@
+description: |
+  SatoshiLabs er et teknologiselskap som er mest kjent for å ha skapt Trezor hardware wallet, en av de sikreste og mest pålitelige måtene å lagre Bitcoin på. Selskapet ble grunnlagt i 2013 av Marek Palatinus, Pavol Rusnak, og Alena Vranova og har hovedkontor i Praha, Tsjekkia.
+
+  Trezor hardware wallet, SatoshiLabs' flaggskipprodukt, er en fysisk enhet som trygt lagrer brukernes private nøkler offline. Denne funksjonen gjør den motstandsdyktig mot mange typer online angrep. Ved å holde de private nøklene på enheten og offline, tilbyr Trezor et ekstra lag med sikkerhet for brukernes Bitcoin-eiendeler.
+
+  I tillegg til Trezor hardware wallet, har SatoshiLabs gjort betydelige bidrag til Bitcoin-økosystemet. Dette inkluderer å skape ulike sikkerhetsstandarder og utvikle nye teknologier designet for å forbedre og beskytte Bitcoin-transaksjoner.
+contributors:
+  - rabbit-hole

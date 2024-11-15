@@ -208,3 +208,8 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- 适用于Win
 
 静态闪电地址：dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/
+
+为了更深入地探讨这个话题，并通过BIP39 passphrase加强您Ledger Nano钱包的安全性，我邀请您查看这个完整的教程：
+
+https://planb.network/tutorials/wallet/passphrase-ledger
+

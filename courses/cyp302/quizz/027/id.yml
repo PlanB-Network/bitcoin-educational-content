@@ -1,0 +1,8 @@
+pertanyaan: Apa itu sifat komutatif dari operasi XOR?
+jawaban: Urutan dari operan tidak mempengaruhi hasil operasi
+jawaban_salah:
+  - XOR hanya bekerja dengan angka genap
+  - XOR memerlukan operan dengan panjang yang sama
+  - Posisi bit dalam operan tidak mempengaruhi hasil operasi
+penjelasan: |
+  XOR bersifat komutatif, yang berarti a XOR b sama dengan b XOR a.

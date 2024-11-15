@@ -1,0 +1,9 @@
+question: What is the main difference between a "primitive stream cipher" and a "block cipher stream cipher"?
+answer: A "primitive stream cipher" is not built from a block cipher.
+wrong_answers:
+  - A "primitive stream cipher" requires padding of messages.
+  - A "block cipher stream cipher" uses blocks of variable size.
+  - A "block cipher stream cipher" cannot be used for large data.
+explanation: |
+  A "primitive stream cipher", like Salsa20, is designed independently of a "block cipher", while a "block cipher stream cipher" uses a "block cipher" as its basis, modified to produce a stream of encryption.
+reviewed: false

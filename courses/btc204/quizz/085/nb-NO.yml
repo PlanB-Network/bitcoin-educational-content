@@ -1,0 +1,11 @@
+question: Hva er den spesifikke brukersammenkoblingsmodellen som brukes av JoinMarket?
+
+answer: P2P-marked mellom skapere og brukere.
+
+wrong_answers:
+  - Server som tilfeldig tildeler deltakere.
+  - Utvekslinger basert på nederlandske auksjoner.
+  - Meglingstjeneste som manuelt velger deltakere.
+
+explanation: |
+  JoinMarket opererer på et P2P-utvekslingsmarked der noen brukere, "skaperne", tilbyr sine bitcoins for miksing, mens andre, "brukerne", bruker disse midlene til å utføre coinjoins i bytte mot et gebyr.

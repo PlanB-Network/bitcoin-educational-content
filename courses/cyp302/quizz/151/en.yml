@@ -1,0 +1,9 @@
+question: How is the exponent "e" chosen in the RSA cryptosystem?
+answer: It must be an integer greater than 2, coprime with φ(N)
+wrong_answers:
+  - It must be a prime number less than N
+  - It is chosen randomly without restriction
+  - It must be equal to φ(N)
+explanation: |
+  In RSA, the exponent "e" is chosen such that it is greater than 2 and coprime with φ(N), which ensures the security of the operations.
+reviewed: false

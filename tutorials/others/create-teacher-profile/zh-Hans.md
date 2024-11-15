@@ -8,7 +8,7 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能多的语言。
 
 如果您希望在PlanB网络上添加一个新的完整教程或课程，您将需要创建您的教授个人资料。这将允许您为您在网站上产生的内容得到适当的归功。
 ![教程](assets/1.webp)
-如果您之前已经为PlanB网络做出了贡献，您可能已经有了一个贡献者ID。您可以在[此页面](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors)访问的教授文件夹中找到它。如果是这种情况，您可以跳过这个教程并直接开始贡献。
+如果您之前已经为PlanB网络做出了贡献，您可能已经有了一个贡献者ID。您可以在[此页面](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)访问的教授文件夹中找到它。如果是这种情况，您可以跳过这个教程并直接开始贡献。
 ![教程](assets/2.webp)
 
 让我们一起发现如何在本教程中添加新教授！
@@ -21,7 +21,7 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能多的语言。
 ![教程](assets/3.webp)
 **开始教程之前的先决条件：**
 - 拥有一个[GitHub账户](https://github.com/signup)。
-- 拥有[PlanB网络源代码库](https://github.com/DecouvreBitcoin/sovereign-university-data)的一个分支。
+- 拥有[PlanB网络源代码库](https://github.com/PlanB-Network/bitcoin-educational-content)的一个分支。
 
 **如果您需要帮助获取这些先决条件，我的其他教程将指导您：**
 - **[理解Git和GitHub](https://planb.network/tutorials/others/basics-of-github)**
@@ -30,7 +30,7 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能多的语言。
 
 ## 如何创建新的教授个人资料？
 
-- 打开您的浏览器并导航到您的PlanB仓库分支的页面。您的分支的URL应该看起来像：`https://github.com/[username]/sovereign-university-data`
+- 打开您的浏览器并导航到您的PlanB仓库分支的页面。您的分支的URL应该看起来像：`https://github.com/[username]/bitcoin-educational-content`
 ![教程](assets/4.webp)
 - 确保您处于主分支`dev`，然后点击`Sync fork`按钮。如果您的分支不是最新的，GitHub将提供更新您的分支。继续进行这个同步。
 
@@ -45,14 +45,14 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能多的语言。
 ![教程](assets/8.webp)
 - 点击这个分支，然后点击`New Branch`按钮：
 ![教程](assets/9.webp)
-- 确保新分支基于源仓库，即 `DecouvreBitcoin/sovereign-university-data`。
+- 确保新分支基于源仓库，即 `PlanB-Network/bitcoin-educational-content`。
 - 以清晰表明其目的的方式命名您的分支，使用破折号分隔每个单词。由于这个分支是用于添加教授资料的，一个例子名称可能是：`add-professor-[你的名字]`。输入名称后，点击 `Create branch` 来确认其创建：
 ![教程](assets/10.webp)
 - 现在点击 `Publish branch` 按钮将您的新工作分支保存到 GitHub 上的在线分叉中：
 ![教程](assets/11.webp)
 - 此时，在 GitHub Desktop 上，您应该处于您的新分支上。这意味着在您的电脑上本地做的所有修改将专门记录在这个特定的分支上。同时，只要这个分支在 GitHub Desktop 上保持选中状态，您机器上本地可见的文件对应于这个分支（`add-professor-your-name`），而不是主分支（`dev`）：
 ![教程](assets/12.webp)
-- 要添加您的教授资料，请打开您的文件资源管理器并导航到您的本地仓库，在 `professors` 文件夹中。您将在路径：`\GitHub\sovereign-university-data\professors` 下找到它。
+- 要添加您的教授资料，请打开您的文件资源管理器并导航到您的本地仓库，在 `professors` 文件夹中。您将在路径：`\GitHub\bitcoin-educational-content\professors` 下找到它。
 
 - 在这个文件夹中，创建一个以您的名字或假名命名的新文件夹。确保文件夹名称中没有空格。因此，如果您的名字是 "Loic Pandul" 并且没有其他教授使用这个名字，要创建的文件夹将被命名为 `loic-pandul`：
 ![教程](assets/13.webp)

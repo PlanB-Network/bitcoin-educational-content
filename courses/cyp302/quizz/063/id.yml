@@ -1,0 +1,8 @@
+pertanyaan: Mengapa contoh kriptografi sering menggunakan karakter Alice dan Bob?
+jawaban: Untuk mengilustrasikan prinsip kriptografi secara sederhana
+jawaban_salah:
+  - Karena Alice dan Bob adalah istilah teknis dalam kriptografi
+  - Karena mereka adalah nama-nama paling umum di dunia
+  - Karena mereka mewakili sistem komputer
+penjelasan: |
+  Alice dan Bob sering digunakan dalam kriptografi sebagai karakter fiksi untuk mengilustrasikan pertukaran pesan dan prinsip-prinsip kriptografi dalam konteks yang disederhanakan dan skematik.

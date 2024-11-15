@@ -8,4 +8,4 @@ Cryptocurrency system resulting from a hard fork of Bitcoin Cash (BCH), which it
 
 Bitcoin SV distinguishes itself from Bitcoin Cash, and even more so from Bitcoin, by its significantly higher block size limit. This characteristic aims to align with what its supporters consider to be Satoshi Nakamoto's original vision for Bitcoin.
 
-![](../../dictionnaire/assets/50.png)
+![](../../dictionnaire/assets/50.webp)

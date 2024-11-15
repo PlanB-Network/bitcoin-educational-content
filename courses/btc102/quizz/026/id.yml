@@ -1,0 +1,11 @@
+pertanyaan: Apa dua karakteristik yang membuat Bitcoin seperti apa adanya saat ini?
+jawaban: Kode sumber terbukanya dan kelangkaannya
+jawaban_salah:
+  - Anonimitasnya dan desentralisasinya
+  - Nilai tingginya dan volatilitasnya
+  - Kemudahan penggunaannya dan penerimaan globalnya
+penjelasan: |
+  Dua karakteristik utama yang mendefinisikan Bitcoin adalah kode sumber terbukanya,
+  yang membuatnya transparan, dapat diaudit, dan dapat digunakan oleh siapa saja, serta kelangkaannya,
+  yang berarti hanya akan ada 21 juta Bitcoin di dunia.
+ditinjau: false

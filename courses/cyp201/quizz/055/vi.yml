@@ -1,9 +1,11 @@
-question: Tên gọi thô tục nào đôi khi được sử dụng để chỉ tập hợp các khóa riêng tư trong một ví Bitcoin?
-answer: Chỉ là Một Đám Khóa (JBOC)
-wrong_answers:
-  - Chỉ là Một Đám Tiền Xu (JBOC)
-  - Chỉ là Một Đám Tiền Ảo (JBOC)
-  - Chỉ là Một Đám Mã (JBOC)
-explanation: |
-  Tập hợp các khóa mật mã riêng tư được tạo ra từ một khóa chính duy nhất trong ví Bitcoin đôi khi được gọi bằng cái tên hơi thô tục là "Chỉ là Một Đám Khóa" (JBOC).
-reviewed: false
+Câu hỏi: Payload của một khóa mở rộng bao gồm những gì?
+
+Câu trả lời: Một khóa công khai hoặc khóa riêng tư, và mã chuỗi liên kết tương ứng.
+
+Câu trả lời sai:
+  - Một khóa riêng tư và khóa công khai tương ứng.
+  - Một mã chuỗi, một khóa công khai, và một khóa riêng tư.
+  - Một khóa riêng tư và chỉ số phái sinh.
+
+Giải thích:
+  Payload của một khóa mở rộng bao gồm một khóa công khai hoặc khóa riêng tư, cùng với một mã chuỗi được sử dụng để phái sinh các khóa con.

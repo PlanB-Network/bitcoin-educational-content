@@ -1,0 +1,9 @@
+Frage: Was ist der Hauptnachteil der ECB-Methode bei einem Blockverschlüsselungsverfahren?
+Antwort: Sie ist deterministisch und kann Muster in den Daten aufzeigen
+falsche_Antworten:
+  - Sie erfordert Schlüssel variabler Länge
+  - Sie funktioniert nicht mit Nachrichten über 128 Bits
+  - Sie funktioniert nicht mit Nachrichten über 256 Bits
+Erklärung: |
+  Die ECB-Methode ("Electronic Code Book") ist deterministisch: Identische Datenblöcke werden auf die gleiche Weise verschlüsselt, was das Erkennen von Mustern im verschlüsselten Text ermöglicht.
+überprüft: false

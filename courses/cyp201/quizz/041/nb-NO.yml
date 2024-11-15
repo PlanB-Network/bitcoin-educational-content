@@ -1,0 +1,9 @@
+question: Hvis jeg genererer et 128-bit tilfeldig tall, hva vil størrelsen på gjenopprettingsfrasen min være i ord?
+answer: 12 ord.
+wrong_answers:
+  - 6 ord.
+  - 8 ord.
+  - 24 ord.
+explanation: |
+  Et 128-bit tilfeldig tall tilsvarer en 12-ords mnemonic frase, i henhold til BIP39-standarden.
+reviewed: false

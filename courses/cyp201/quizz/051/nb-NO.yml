@@ -1,0 +1,9 @@
+question: Hva er nøkkelderivasjonsfunksjonen som brukes for å utlede en seed fra en mnemonic frase og en valgfri passfrase?
+answer: PBKDF2.
+wrong_answers:
+  - Lyra2.
+  - Argon2d.
+  - Scrypt.
+explanation: |
+  PBKDF2-funksjonen brukes til å utlede seeden til en HD-lommebok fra den mnemonic frasen og en valgfri passfrase.
+reviewed: false

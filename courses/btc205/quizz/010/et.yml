@@ -1,0 +1,11 @@
+question: Milline peatükis arutatud P2P lahendus kasutab vaidluste haldamiseks DAO süsteemi ja multisign'i?
+answer: Bisq
+wrong_answers:
+  - RoboSat
+  - LNP2PBot
+  - Peach
+explanation: |
+  Peatüki kohaselt on Bisq hoiustamata P2P lahendus, mis kasutab
+  DAO (detsentraliseeritud autonoomne organisatsioon) süsteemi ja multisign'i vaidluste
+  haldamiseks.
+reviewed: false

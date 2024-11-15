@@ -1,0 +1,10 @@
+pertanyaan: Apa itu dompet dalam konteks Bitcoin?
+jawaban: Sebuah brankas digital untuk bitcoin Anda
+jawaban_salah:
+  - Sebuah perangkat fisik untuk menyimpan bitcoin
+  - Sebuah perangkat lunak untuk menambang bitcoin
+  - Sebuah platform untuk membeli dan menjual bitcoin
+penjelasan: |
+  Konten bab menjelaskan bahwa bitcoin disimpan dalam apa yang disebut
+  "dompet," yang merupakan brankas digital untuk uang Anda. Hanya pemegang kunci yang dapat
+  mengaksesnya.

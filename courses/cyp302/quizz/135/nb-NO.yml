@@ -1,0 +1,9 @@
+question: Hva er den største sårbarheten til svake passord når de er hashet?
+answer: De er sårbare for ordbokangrep
+wrong_answers:
+  - De kan ikke verifiseres ved hashing
+  - De genererer alltid kollisjoner
+  - De krever lengre hashing for mer sikkerhet
+explanation: |
+  Svak passord kan enkelt gjenvinnes fra deres hash ved bruk av ordbokangrep, noe som gjør deres valg viktig for å sikre sikkerhet.
+reviewed: false

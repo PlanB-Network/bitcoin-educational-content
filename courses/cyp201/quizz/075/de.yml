@@ -1,9 +1,9 @@
-question: Welche Funktion wird verwendet, um den Seed aus der Passphrase in einer Bitcoin-Wallet zu generieren?
-answer: pbkdf2
-wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
-explanation: |
-  Die Funktion pbkdf2 wird verwendet, um den Seed aus der Passphrase in einer Bitcoin-Wallet zu generieren. Dieser Seed ermöglicht die Ableitung aller Kind-Schlüsselpaare der Wallet.
-reviewed: false
+Frage: Wie komprimiert man einen öffentlichen Schlüssel?
+Antwort: Wir behalten den Wert seiner x-Koordinate bei und fügen ein Präfix hinzu, das angibt, welche y-Koordinate ausgewählt werden soll.
+falsche_Antworten:
+  - Wir behalten den Wert seiner y-Koordinate bei und fügen ein Präfix hinzu, das angibt, welche x-Koordinate ausgewählt werden soll.
+  - Wir hashen den öffentlichen Schlüssel, um ihn zu komprimieren.
+  - Wir verwenden einen doppelten SHA256-Hash, um den öffentlichen Schlüssel zu komprimieren.
+Erklärung: |
+  Die Komprimierung eines öffentlichen Schlüssels erfolgt, indem man die x-Koordinate behält und ein Präfix 0x02 oder 0x03 hinzufügt, um anzugeben, ob y gerade oder ungerade ist.
+überprüft: false

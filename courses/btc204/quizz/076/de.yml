@@ -1,0 +1,13 @@
+Frage: Was ist eine CoinJoin-Transaktion?
+
+Antwort: Eine kollaborative Transaktion, bei der mehrere Benutzer ihre UTXOs zusammenführen.
+
+Falsche Antworten:
+  - Eine kollaborative Transaktion zwischen nur zwei Benutzern.
+  - Eine Transaktion, bei der ein einzelner Benutzer Gelder an mehrere Adressen sendet.
+  - Eine Transaktion, bei der ein zentraler Akteur die Bitcoins seiner Kunden mischt.
+
+Erklärung: |
+  Die CoinJoin-Transaktion ist eine kollaborative Transaktion, bei der mehrere Benutzer ihre Münzen mischen.
+
+Überprüft: false

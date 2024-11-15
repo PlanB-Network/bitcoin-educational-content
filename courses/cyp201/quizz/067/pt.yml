@@ -1,9 +1,9 @@
-question: Como é determinado o tamanho do checksum na geração de uma frase mnemônica para uma carteira de Bitcoin?
-answer: Ao dividir o tamanho da entropia por 32.
+question: O que o seguinte caminho de derivação indica? m/84'/0'/1'/0/7
+answer: Um endereço SegwitV0 externo na rede principal.
 wrong_answers:
-  - Ao multiplicar o tamanho da entropia por 32.
-  - Ao adicionar 32 ao tamanho da entropia.
-  - Ao subtrair 32 do tamanho da entropia.
+  - Um endereço SegwitV1 externo na rede principal.
+  - Um endereço Legacy interno na rede de teste.
+  - Um endereço Legacy externo na rede principal.
 explanation: |
-  O tamanho do checksum é determinado ao dividir o tamanho da entropia por 32. Por exemplo, uma entropia de 256 bits gera um checksum de 8 bits.
+  O caminho de derivação m/84'/0'/1'/0/7 indica um endereço SegwitV0 externo na rede principal (mainnet). 84' = SegWit v0, 0' = mainnet, 1 = externo
 reviewed: false

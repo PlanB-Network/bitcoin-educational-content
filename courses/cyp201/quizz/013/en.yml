@@ -1,10 +1,9 @@
-question: What is the role of the AND operator in the compression function of SHA256?
-answer: To return 1 only if both operands are equal to 1
+question: What does the prefix "0x" mean?
+answer: The number following this prefix is expressed in base 16 (hexadecimal).
 wrong_answers:
-  - To process the bits one by one according to their rank
-  - To return the opposite value of an operand
-  - To shift the bits to the right by a chosen number
+  - The number following this prefix is expressed in base 2 (binary).
+  - The number following this prefix is expressed in base 10 (decimal).
+  - The number following this prefix is expressed in base 8 (octal).
 explanation: |
-  In the compression function of SHA256, the AND operator is used to return
-  1 only if both operands are equal to 1. This is done using a truth table.
+  The prefix "0x" indicates that the number following it is expressed in base 16 (hexadecimal).
 reviewed: false

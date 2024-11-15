@@ -1,10 +1,9 @@
-question: Phương trình của đường cong secp256k1 được sử dụng trong Bitcoin là gì?
-answer: "y² = x³ + 7 modulo n"
-wrong_answers:
-  - "y² = x³ + ax + b"
-  - "y² = x³ + 7 modulo p"
-  - "y² = x³ + ax + b modulo n"
-explanation: |
-  "Đường cong secp256k1 được sử dụng trong Bitcoin được định nghĩa bởi các tham số a=0\
-  \ và b=7, và phương trình của nó là y² = x³ + 7 modulo n, nơi n đại diện cho\
-  \ số nguyên tố xác định thứ tự của đường cong."
+câu hỏi: Tọa độ của điểm sinh G được sử dụng trên đường cong elliptic secp256k1 là gì?
+câu trả lời: Gx = 79BE667E... Gy = 483ADA77...
+câu trả lời sai:
+  - Gx = FFF213AE... Gy = 1234ABC1...
+  - Gx = 5A67E812... Gy = 1B234678...
+  - Gx = A12345F9... Gy = 3B76EBC1...
+giải thích: |
+  Điểm sinh G là một điểm được xác định trước trên đường cong elliptic secp256k1, được sử dụng để tạo ra khóa công khai từ khóa riêng trong Bitcoin.
+đã xem xét: false

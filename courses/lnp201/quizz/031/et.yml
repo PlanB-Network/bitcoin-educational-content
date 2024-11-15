@@ -1,0 +1,8 @@
+question: Mis piirab kaudse makse suurust Lightning Network'is?
+answer: Väikseim saadaolev likviidsus valitud tee kanalis
+wrong_answers:
+  - Vahepealsete sõlmede arv
+  - Lightning Network'i kogumaht
+  - Iga sõlme poolt määratud marsruudi tasud
+explanation: |
+  Maksimaalne summa, mida kaudne makse saab üle kanda, sõltub kasutatavate kanalite madalaimast saadaolevast likviidsusest, kuna iga kanal peab kohandama vahendeid mõlemal poolel.

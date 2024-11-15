@@ -1,0 +1,11 @@
+spørsmål: Hvilket uttrykk beskriver beskyttelsen som tilbys av en coinjoin mot analysen av en mynts tidligere transaksjoner?
+
+svar: Retrospektiv anonset.
+
+feil_svar:
+  - Prospektiv anonset.
+  - Sporbarhetsmotstand.
+  - Tidsmessig personvern.
+
+forklaring: |
+  Beskyttelsen mot analyse fra nåtiden til fortiden er det som kalles den retrospektive anonset.

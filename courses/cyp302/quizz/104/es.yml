@@ -1,0 +1,8 @@
+pregunta: ¿Cuál es el objetivo principal de un esquema de cifrado autenticado?
+respuesta: Asegurar la confidencialidad y autenticidad de las comunicaciones
+respuestas_incorrectas:
+  - Generar claves de manera segura
+  - Reemplazar los MACs en intercambios criptográficos
+  - Descifrar automáticamente mensajes interceptados
+explicación: |
+  Un esquema de cifrado autenticado combina el cifrado y un código de autenticación (MAC) para garantizar tanto la confidencialidad de los mensajes como su autenticidad.

@@ -1,0 +1,13 @@
+domanda: In che modo una transazione payjoin può essere considerata una transazione steganografica?
+
+risposta: Nasconde l'importo effettivo del pagamento dagli osservatori esterni.
+
+risposte_errate:
+  - Cripta l'importo effettivo del pagamento per gli osservatori esterni.
+  - Nasconde l'importo effettivo del pagamento al destinatario.
+  - Cripta l'importo effettivo del pagamento per il destinatario.
+
+spiegazione: |
+  La transazione payjoin rientra nel dominio della steganografia perché nasconde l'importo reale di una transazione all'interno di una transazione fittizia che funge da diversivo per gli osservatori esterni.
+
+revisionato: false

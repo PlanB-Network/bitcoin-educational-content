@@ -1,0 +1,9 @@
+question: Hvilken økonom uttalte i 1999 at "det eneste som mangler, men som snart vil bli utviklet, er pålitelig elektronisk kontanter"?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+  En Nobelprisvinner i økonomi og grunnlegger av Chicago-skolen, han gjorde denne spådommen ved mikrofonen til National Taxpayers Union Foundation. [micro](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: false

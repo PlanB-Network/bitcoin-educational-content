@@ -1,9 +1,9 @@
-question: Was passiert, wenn auch nur eine geringfügig abweichende Eingabe an eine kryptografische Hash-Funktion gegeben wird?
-answer: Es verändert das endgültige Hash-Ergebnis erheblich.
-wrong_answers:
-  - Es erzeugt das gleiche Hash-Ergebnis.
-  - Es führt zum Versagen der Hash-Funktion.
-  - Es verlangsamt die Berechnung des Hash-Ergebnisses.
-explanation: |
-  Kryptografische Hash-Funktionen sind so konzipiert, dass selbst eine geringfügige Abweichung in der Eingabe das endgültige Hash-Ergebnis erheblich verändert. Diese Eigenschaft ist entscheidend für die Sicherheit der Hash-Funktion, da es äußerst schwierig macht, eine andere Eingabe zu finden, die das gleiche Hash-Ergebnis erzeugt.
-reviewed: false
+Frage: Wie viele Runden umfasst die SHA256-Kompressionsfunktion?
+Antwort: 64 Runden.
+falsche_Antworten:
+  - 10 Runden.
+  - 128 Runden.
+  - 150 Runden.
+Erklärung: |
+  Die SHA256-Kompressionsfunktion führt 64 Runden für jeden verarbeiteten Datenblock durch.
+überprüft: false

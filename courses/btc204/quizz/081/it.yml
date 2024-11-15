@@ -1,0 +1,13 @@
+domanda: Quale metodo crittografico viene utilizzato per impedire al coordinatore di collegare gli input e gli output in un coinjoin?
+
+risposta: Firme cieche di Chaum.
+
+risposte_errate:
+  - Firme di Schnorr.
+  - Indirizzi P2SH.
+  - Indirizzi P2TR.
+
+spiegazione: |
+  Nei cosiddetti coinjoin "Chaumiani", l'uso di Tor e le firme cieche di David Chaum sono combinati per garantire che il coordinatore non possa sapere a quale utente appartiene ciascun output.
+
+recensito: false

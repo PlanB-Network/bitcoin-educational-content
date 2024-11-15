@@ -1,0 +1,9 @@
+domanda: Cosa succede se un attaccante intercetta un messaggio cifrato in un buon schema di cifratura simmetrica?
+risposta: Non dovrebbe apprendere nulla di significativo riguardo al messaggio originale
+risposte_errate:
+  - Possono sempre decifrare il messaggio senza la chiave
+  - Dovrebbero essere in grado di decifrarlo con una chiave pubblica
+  - Dovrebbero essere in grado di indovinare il contenuto del messaggio
+spiegazione: |
+  In uno schema di cifratura simmetrica ben progettato, un attaccante che intercetta un messaggio cifrato non dovrebbe essere in grado di dedurre informazioni rilevanti sul contenuto del messaggio senza la chiave di decifrazione.
+recensito: false

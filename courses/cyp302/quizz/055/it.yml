@@ -1,0 +1,9 @@
+domanda: Qual è l'importanza dei gruppi ciclici nella crittografia?
+risposta: Consentono la creazione di sistemi crittografici basati su generatori
+risposte_errate:
+  - Semplificano la moltiplicazione delle chiavi di cifratura
+  - Aumentano la sicurezza dei canali di comunicazione pubblici
+  - Sono utilizzati per fare l'hash dei messaggi direttamente per preservarne l'integrità
+spiegazione: |
+  Nella crittografia, i gruppi ciclici, avendo generatori, sono essenziali per stabilire basi per le chiavi di cifratura, specialmente nei sistemi di chiave pubblica.
+recensito: false

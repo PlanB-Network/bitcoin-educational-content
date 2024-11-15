@@ -1,10 +1,9 @@
-question: Jaký je účel BIP43 a BIP44 v ekosystému Bitcoinu?
-answer: Standardizovaly strukturu a hierarchii HD peněženek.
-wrong_answers:
-  - Představily 24slovnou mnemonickou frázi.
-  - Revolucionizovaly způsob generování a ukládání klíčů.
-  - Navrhly přidání dodatečné heslové fráze pro posílení bezpečnosti jednotlivých klíčů.
-explanation: |
-  BIP43 a BIP44 standardizovaly strukturu a hierarchii HD peněženek,
-  čímž je učinily přístupnějšími a snadněji použitelnými pro širokou veřejnost.
-reviewed: false
+otázka: Pro výpočet hodnot hlavního klíče a hlavního řetězového kódu je prvním vstupem do funkce HMAC-SHA512 seed (semeno). Jaká je druhá vstupní hodnota této funkce, která slouží jako klíč?
+odpověď: "Bitcoin seed".
+špatné_odpovědi:
+  - Mnemonická fráze.
+  - Heslová fráze.
+  - "Seed".
+vysvětlení: |
+  Řetězec "Bitcoin seed" je použit jako klíč v HMAC-SHA512 pro odvození hlavního klíče a hlavního řetězového kódu ze seedu.
+recenzováno: false

@@ -1,9 +1,0 @@
-question: Địa chỉ nhận Bitcoin là gì?
-answer: Một bản hash của khóa công khai, với một định dạng cụ thể.
-wrong_answers:
-  - Một định danh duy nhất cho người dùng Bitcoin.
-  - Khóa công khai của người dùng Bitcoin.
-  - Một script khóa bitcoin vào một khóa công khai.
-explanation: |
-  Địa chỉ nhận Bitcoin là một bản hash của khóa công khai, với một định dạng cụ thể. Nó được sử dụng để nhận tiền trên một đồng xu và được tạo ra từ các cặp khóa riêng tư và khóa công khai.
-reviewed: false

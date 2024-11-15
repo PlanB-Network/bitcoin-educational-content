@@ -1,0 +1,9 @@
+Frage: In einer Gruppe, wie wird das einzigartige Element genannt, das, wenn es auf ein anderes Element angewendet wird, dieses nicht verändert?
+Antwort: Das neutrale Element
+falsche_Antworten:
+  - Das inverse Element
+  - Das kommutative Element
+  - Das assoziative Element
+Erklärung: |
+  Das neutrale Element einer Gruppe ist das einzigartige Element, das, wenn es auf ein anderes Element angewendet wird, dieses unverändert lässt. Zum Beispiel ist in der Gruppe der ganzen Zahlen unter Addition das neutrale Element 0.
+überprüft: false

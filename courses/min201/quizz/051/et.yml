@@ -1,0 +1,12 @@
+question: Mis on peamine eelis uute bitcoiinide kaevandamisel?
+answer: Neid ei ole kunagi kulutatud ja neil puudub ajalugu.
+wrong_answers:
+  - Neid saab müüa kõrgema hinnaga.
+  - Neid saab kasutada ebaseaduslikeks tegevusteks.
+  - Neid saab pikka aega säilitada ilma väärtust kaotamata.
+explanation: |
+  Peamine eelis uute bitcoiinide kaevandamisel on see, et neid ei ole kunagi
+  kulutatud ja neil puudub ajalugu. Selliseid bitcoine peetakse sageli
+  väärtuslikumaks, kuna neid ei ole "määritud", pakkudes teatud garantiid
+  tagasilükkamise vastu regulaatorite või suurte vahetusplatvormide poolt.
+reviewed: false

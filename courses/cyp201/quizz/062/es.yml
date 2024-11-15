@@ -1,10 +1,9 @@
-question: ¿Cuál es el principal riesgo asociado con generar una frase mnemotécnica propia utilizando dados para transacciones de Bitcoin?
-answer: Puede presentar ciertos riesgos.
-wrong_answers:
-  - Puede llevar a la generación de números predecibles.
-  - Puede llevar a la generación de números duplicados.
-  - Puede llevar a la generación de números inválidos.
-explanation: |
-  Generar una frase mnemotécnica propia utilizando dados puede presentar ciertos riesgos.
-  Por lo tanto, se recomienda utilizar una frase de paso generada al azar para mitigar estos riesgos.
-reviewed: false
+pregunta: Para realizar una derivación de un par de claves hijo normal, debo introducir en la función HMAC-SHA512...
+respuesta: clave pública del padre || índice, código de cadena del padre.
+respuestas_incorrectas:
+  - clave privada del padre || índice, código de cadena del padre.
+  - clave privada del padre, código de cadena del padre.
+  - clave privada del padre || índice.
+explicación: |
+  Para derivar una clave hijo normal, se utiliza la clave pública del padre con el índice y el código de cadena en la función HMAC-SHA512.
+revisado: false

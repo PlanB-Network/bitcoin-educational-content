@@ -1,0 +1,9 @@
+pertanyaan: Pada tahap mana dari enkripsi AES Galois Fields digunakan?
+jawaban: Dalam substitusi byte dan operasi MixColumns
+jawaban_salah:
+  - Dalam generasi kunci privat
+  - Saat membagi teks menjadi blok 128-bit
+  - Pada setiap tahap operasi XOR
+penjelasan: |
+  Galois Fields digunakan dalam substitusi byte untuk menghitung invers perkalian dan dalam operasi MixColumns untuk melakukan perkalian modulo suatu polinomial tak tereduksi.
+direview: false

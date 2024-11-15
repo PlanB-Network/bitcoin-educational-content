@@ -1,0 +1,9 @@
+otázka: Jaký postoj by měli uživatelé zaujmout ohledně soukromí svých komunikací v moderním prostředí?
+odpověď: Předpokládejte, že vás někdo vždy poslouchá
+špatné_odpovědi:
+  - Spoléhat se pouze na Wi-Fi
+  - Věřit, že mobilní data jsou zcela bezpečná
+  - Používat pouze kabelová připojení
+vysvětlení: |
+  Ve světě, kde mnoho komunikačních kanálů je náchylných k odposlechu, je moudré předpokládat, že třetí strana by mohla poslouchat, což činí kryptografii nezbytnou.
+recenzováno: false

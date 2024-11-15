@@ -1,0 +1,13 @@
+pergunta: Qual é o papel de um coordenador de CoinJoin?
+
+resposta: Conectar participantes e construir a transação.
+
+respostas_erradas:
+  - Criptografar dados dos participantes para confidencialidade da transação.
+  - Manter um registro de CoinJoins anteriores para auditorias de segurança.
+  - Receber bitcoins dos participantes para misturá-los.
+
+explicação: |
+  O papel dos coordenadores é conectar os diferentes usuários e construir e então transmitir a transação colaborativa.
+
+revisado: false

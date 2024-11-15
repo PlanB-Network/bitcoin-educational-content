@@ -1,0 +1,9 @@
+question: Mis on riikliku suveräänsuse piir John Stuart Milli järgi?
+answer: Riik võib sekkuda ainult siis, kui üksikisiku tegevus kahjustab teisi.
+wrong_answers:
+  - Riik on suveräänne igas olukorras ja seda ei saa piirata ühegi üksikisiku või isikute grupi poolt.
+  - Riiklik suveräänsus on piiratud majanduslike vahenditega.
+  - Riiklik suveräänsus on piiratud loodusseadustega.
+explanation: |
+  John Stuart Mill väidab, et riigi sekkumine on legitiimne ainult siis, kui üksikisiku tegevus põhjustab kahju teistele, et kaitsta isiklikku vabadust valdkondades, mis ei kahjusta teisi.
+reviewed: false

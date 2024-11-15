@@ -1,0 +1,8 @@
+pertanyaan: Bagaimana cara membuat status saluran baru setelah setiap transfer?
+jawaban: Dengan membuat transaksi komitmen baru dengan distribusi yang diperbarui
+jawaban_salah:
+  - Dengan memposting transaksi on-chain setelah setiap transfer
+  - Dengan meningkatkan kapasitas total dari saluran
+  - Dengan menutup dan membuka kembali saluran setelah setiap transaksi
+penjelasan: |
+  Setiap transaksi dalam saluran memperbarui status saluran dengan transaksi komitmen baru, mencerminkan distribusi dana saat ini antara dua peserta.

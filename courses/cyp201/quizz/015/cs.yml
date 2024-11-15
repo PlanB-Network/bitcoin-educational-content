@@ -1,9 +1,9 @@
-question: Jaká je velikost výstupu hašovací funkce SHA256?
-answer: 256 bitů
-wrong_answers:
-  - 512 bitů
-  - 128 bitů
-  - 1024 bitů
-explanation: |
-  Hašovací funkce SHA256 generuje z proměnně velkého vstupu 256bitový hash. Proto se nazývá SHA256.
-reviewed: false
+otázka: Jaký je název eliptické křivky používané pro digitální podpisové algoritmy v Bitcoinu?
+odpověď: secp256k1.
+špatné_odpovědi:
+  - secp256r1.
+  - secp160k1.
+  - secp521r1.
+vysvětlení: |
+  Křivka secp256k1 je používána v protokolu Bitcoinu pro digitální podpisy.
+recenzováno: false

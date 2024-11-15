@@ -1,9 +1,0 @@
-question: ¿Cuál es una forma de evitar estafas en línea?
-answer: Verificar la identidad del sitio que estás navegando, especialmente al verificar la extensión y el nombre de dominio.
-wrong_answers:
-  - Utilizar redes Wi-Fi públicas.
-  - Utilizar sitios que no utilicen el protocolo HTTPS.
-  - Utilizar sitios que no tengan un candado visible.
-explanation: |
-  Para evitar estafas en línea, es crucial verificar la identidad del sitio que estás navegando. Esto se puede hacer al verificar la extensión y el nombre de dominio del sitio.
-reviewed: false

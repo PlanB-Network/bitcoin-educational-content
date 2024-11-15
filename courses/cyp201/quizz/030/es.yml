@@ -1,9 +1,8 @@
-question: ¿Cuál es la ecuación que define una curva elíptica?
-answer: "y\xB2 = x\xB3 + ax + b"
-wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
-explanation: |
-  "Una curva elíptica se define mediante la ecuación y\xB2 = x\xB3 + ax + b. Cada punto en esta curva tiene una simetría distintiva que es clave para su utilidad en criptografía."
-reviewed: false
+pregunta: ¿Cuál es el principal rol técnico de un monedero de Bitcoin?
+respuesta: Almacenar pares de claves criptográficas.
+respuestas_incorrectas:
+  - Almacenar bitcoins.
+  - Almacenar UTXOs.
+  - Almacenar transacciones.
+explicación: |
+  Un monedero de Bitcoin no almacena directamente bitcoins, sino pares de claves criptográficas que se utilizan para gestionar y gastar UTXOs.

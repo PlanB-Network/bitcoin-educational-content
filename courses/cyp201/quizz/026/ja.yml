@@ -1,9 +1,9 @@
-question: Bitcoinの最小単位は何ですか？
-answer: Satoshi
+question: ECDSAアルゴリズムでnonceを再利用してはいけない理由は何ですか？
+answer: nonceを再利用するとセキュリティが損なわれ、秘密鍵が露呈する可能性があります。
 wrong_answers:
-  - Bit
-  - Byte
-  - Coin
+  - nonceを再利用するとパフォーマンスが低下します。
+  - nonceを再利用すると署名が長くなります。
+  - nonceを再利用すると公開鍵のサイズが増加します。
 explanation: |
-  Bitcoinシステムでは、アカウントの単位はbitcoin（小文字の"b"に注意）です。これは8桁の小数点まで分割可能で、最小単位はsatoshiです。
+  ECDSAでnonceを再利用すると、攻撃者が秘密鍵を発見し、セキュリティが損なわれる可能性があります。
 reviewed: false

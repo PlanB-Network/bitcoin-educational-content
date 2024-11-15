@@ -1,0 +1,9 @@
+question: Quelle association Bastiat a-t-il fondée en France pour promouvoir le libre-échange ?
+answer: Association pour la liberté des échanges
+wrong_answers:
+  - Association pour l'échangisme
+  - Association pour le libre marché
+  - Ligue pour la libre concurrence
+explanation: |
+  Bastiat fonde l'Association pour la liberté des échanges pour diffuser ses idées libérales en France.
+reviewed: false

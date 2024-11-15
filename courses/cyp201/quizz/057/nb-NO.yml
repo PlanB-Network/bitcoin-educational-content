@@ -1,0 +1,8 @@
+question: Med en utvidet offentlig nøkkel kan jeg utlede...
+answer: ...normale barneoffentlige nøkler.
+wrong_answers:
+  - ...forsterkede barneoffentlige nøkler.
+  - ...normale barneprivate nøkler.
+  - ...forsterkede barneprivate nøkler.
+explanation: |
+  En utvidet offentlig nøkkel tillater utledning av kun normale barneoffentlige nøkler, men ikke private nøkler.

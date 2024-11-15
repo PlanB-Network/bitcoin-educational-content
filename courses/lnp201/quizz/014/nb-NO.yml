@@ -1,0 +1,9 @@
+question: Hva er det siste steget for å åpne en kanal på Lightning Network?
+answer: Publisere innskuddstransaksjonen på Bitcoin-blockchainen
+wrong_answers:
+  - Signere en uttakstransaksjon for å gjenopprette midlene
+  - Sende en bekreftelsesmelding om åpningen til den andre parten
+  - Verifisere saldoen av midler for hver deltaker
+explanation: |
+  Det siste steget for å åpne en kanal er å publisere innskuddstransaksjonen på blockchainen, som offisielt åpner kanalen.
+reviewed: false

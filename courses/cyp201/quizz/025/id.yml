@@ -1,0 +1,8 @@
+pertanyaan: Apa itu "Nonce" dalam kriptografi?
+jawaban: Sebuah angka yang dimaksudkan untuk digunakan sekali.
+jawaban_salah:
+  - Sebuah angka genap.
+  - Sebuah tanda tangan digital.
+  - Sebuah angka yang dapat digunakan kembali.
+penjelasan: |
+  Nonce adalah angka yang digunakan sekali untuk operasi kriptografi, memastikan keunikan nilai tertentu dalam algoritma.

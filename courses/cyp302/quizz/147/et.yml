@@ -1,0 +1,9 @@
+küsimus: Kui täisarv N on kahe algarvu p ja q korrutis, kuidas arvutatakse N järku?
+vastus: (p - 1) * (q - 1)
+valed_vastused:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+selgitus: |
+  Kui N on võrdne kahe algarvu p ja q korrutisega, arvutatakse N järk kui (p - 1) * (q - 1).
+üle vaadatud: false

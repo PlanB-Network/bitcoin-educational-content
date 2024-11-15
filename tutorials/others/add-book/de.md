@@ -13,7 +13,7 @@ Die Mission von PlanB ist es, erstklassige Bildungsressourcen über Bitcoin in m
 https://planb.network/tutorials/others/create-github-account
 
 
-- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books) im Abschnitt `resources/books/`:
+- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) im Abschnitt `resources/books/`:
 ![book](assets/02.webp)
 - Klicken Sie oben rechts auf den Button `Add file`, dann auf `Create new file`:
 ![book](assets/03.webp)

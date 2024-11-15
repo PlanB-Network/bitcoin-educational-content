@@ -1,0 +1,9 @@
+pergunta: Quem criou o primeiro explorador de blocos em novembro de 2010?
+resposta: Michael Marquardt (Theymos)
+respostas_erradas:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+explicação: |
+  Este "Explorador de Blocos Bitcoin" permitia que os usuários visualizassem informações detalhadas sobre blocos, endereços e transações por meio de um navegador web.
+revisado: false

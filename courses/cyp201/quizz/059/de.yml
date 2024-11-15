@@ -1,9 +1,9 @@
-question: Was ist der Zweck der SHA-256-Hashfunktion bei der Erzeugung einer guten Zufallszahl?
-answer: Sie reduziert ein sehr großes anfängliches Informationsstück auf 256 Bits.
-wrong_answers:
-  - Sie erhöht die Größe der anfänglichen Information.
-  - Sie verschlüsselt die anfängliche Information.
-  - Sie überprüft die Authentizität der anfänglichen Information.
-explanation: |
-  Die SHA-256-Hashfunktion wird verwendet, um ein sehr großes anfängliches Informationsstück auf 256 Bits zu reduzieren. Dieser Prozess hilft bei der Erzeugung einer guten Zufallszahl, was für die Sicherheit von privaten Schlüsseln und Bitcoin-Transaktionen entscheidend ist.
-reviewed: false
+Frage: In welchem Zahlensystem wird der erweiterte Schlüssel normalerweise kodiert, um dem Benutzer präsentiert zu werden?
+Antwort: In Base 58.
+falsche_Antworten:
+  - In bech32.
+  - In Base 16.
+  - In bech32m.
+Erklärung: |
+  Der erweiterte Schlüssel wird allgemein in Base 58 kodiert, um für den Benutzer lesbarer zu sein und um mehrdeutige Zeichen zu vermeiden.
+überprüft: false

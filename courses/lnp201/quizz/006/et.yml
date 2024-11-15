@@ -1,0 +1,9 @@
+question: Mis on UTXO Bitcoin'i kontekstis?
+answer: Tükike kulutamata bitcoine, mis on seotud skriptiga
+wrong_answers:
+  - Täielikult kinnitatud tehing plokiahelas
+  - Avalik võti, mis genereerib Bitcoin'i aadresse
+  - Bitcoin'i summa, mis on jagatud mitmeks osaks
+explanation: |
+  UTXO ehk "Unspent Transaction Output" on kulutamata tehingu väljund, mis esindab teatud hulka bitcoine, mida hoidja saab kasutada.
+reviewed: false

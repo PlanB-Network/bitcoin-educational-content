@@ -1,12 +1,9 @@
-question: Jaký je princip šuplíků v kontextu kryptografických hašovacích funkcí?
-answer: Vysvětluje, proč navzdory našim nejlepším snahám je vyhnutí se kolizím nemožné kvůli omezení velikosti výstupu.
-wrong_answers:
-  - Vysvětluje mechanismus ukládání hašovacích funkcí.
-  - Popisuje proces vytváření haše.
-  - Jedná se o princip, který vysvětluje nevratnost hašovacích funkcí.
-explanation: |
-  Princip šuplíků v kontextu kryptografických hašovacích funkcí
-  vysvětluje, že kvůli omezení velikosti výstupu je vyhnutí se kolizím nemožné.
-  To je proto, že existuje více možných vstupů než výstupů, takže některé vstupy musí
-  nevyhnutelně sdílet stejný výstup.
-reviewed: false
+otázka: Jaký je cíl kryptografického hašovacího procesu?
+odpověď: Přiřadit bitový řetězec libovolné délky k bitovému řetězci pevné délky.
+špatné_odpovědi:
+  - Zašifrovat zprávu.
+  - Zajistit, že odesílatel zprávy nemůže v budoucnu popřít, že zprávu odeslal.
+  - Zaručit důvěrnost dat.
+vysvětlení: |
+  Hašování transformuje data jakékoli velikosti na výstup pevné velikosti, což je užitečné pro ověření integrity bez nutnosti šifrování nebo autentizace dat.
+recenzováno: false

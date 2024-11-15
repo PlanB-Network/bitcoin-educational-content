@@ -1,11 +1,12 @@
 question: What does the term 'fiduciary' mean in the context of currencies?
-answer: It refers to currencies that have no intrinsic value and rely on trust in the institutions that regulate them.
+answer: It refers to currencies that are only valuable because of the trust in the central institution that regulates them.
 wrong_answers:
-  - It refers to currencies that are backed by gold.
-  - It refers to currencies that are used only for fiduciary transactions.
-  - It refers to currencies that are used only within a specific institution.
+  - It refers to currencies that are backed by gold and are issued by small commercial banks.
+  - It refers to currencies that are only valuable for fiduciary transactions.
+  - It refers to currencies that are only used within a specific institution.
 explanation: |
-  Fiduciary currencies are those that are not backed by a physical commodity
-  like gold or silver. Their value is derived from the trust and confidence people
-  have in the institutions that issue and regulate them.
+  Fiduciary currencies are not backed by a physical commodity
+  like gold or silver. Their value is derived from the trust
+  and confidence people have in the institutions that issue
+  and regulate them.
 reviewed: true

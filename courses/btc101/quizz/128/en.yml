@@ -1,11 +1,11 @@
-question: What is the role of miners in the Bitcoin network?
-answer: They validate transactions by including them in a block.
+question: When you create an inheritance plan, what is not necessary to include?
+answer: The name of the Bitcoin wallet you usually use.
 wrong_answers:
-  - They create new Bitcoins.
-  - They manage the Bitcoin network.
-  - They regulate the price of Bitcoin.
-explanation: >-
-  Miners in the Bitcoin network have the role of validating transactions
-  by including them in a block. They do this by solving a cryptographic puzzle in
-  a process called "proof of work".
-reviewed: false
+  - An handwritten letter listing your assets.
+  - A description of how to access your funds.
+  - The contact information of trusted individuals.
+explanation: |
+  creating an inheritance plan is a crucial step to ensure that your bitcoins will be properly managed after your death. 
+This plan can include a handwritten letter listing your assets, 
+their access methods, and the contact information of trusted individuals to be contacted
+reviewed: true

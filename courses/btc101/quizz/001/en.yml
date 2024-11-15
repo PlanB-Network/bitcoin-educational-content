@@ -1,10 +1,10 @@
-question: What is the role of miners in the Bitcoin network?
-answer: Miners are essential for creating new bitcoins and securing the Bitcoin network.
+question: When did the block size war occur?
+answer: In 2017.
 wrong_answers:
-  - Miners are responsible for regulating the price of Bitcoin.
-  - Miners are responsible for creating Bitcoin wallets.
-  - Miners are responsible for controlling the Bitcoin protocol.
+  - In 2008.
+  - In 2010.
+  - In 2019.
 explanation: >-
-  Miners play a crucial role in the Bitcoin network as they are responsible
-  for creating new bitcoins and securing the Bitcoin network by consuming electricity for hashing a block of transactions. 
+  The block size war occurred in 2017. This conflict opposed the actors who wanted to modify Bitcoin by increasing the block size to increase transaction capacity, 
+to those who sought to preserve the independence and power of users by keeping the size at 1 MB.
 reviewed: true

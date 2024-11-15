@@ -1,11 +1,12 @@
-question: What is a valid "hash" in the context of mining a block in the Bitcoin network?
+question: What is a valid "hash" in the context of block mining in the Bitcoin network?
 answer: A unique fingerprint associated with the block, composed of 256 characters.
 wrong_answers:
   - A unique code used to access the block.
   - A unique password required to mine the block.
   - A unique identifier for the miner who mined the block.
-explanation: >-
-  In the context of mining a block in the Bitcoin network, a valid "hash"
-  is a unique fingerprint associated with the block, composed of 256 characters. The
-  validity of this hash depends on the difficulty of the Bitcoin network.
-reviewed: false
+explanation: |
+  In the context of block mining in the Bitcoin network, a
+  valid "hash" is a unique fingerprint associated with the
+  block, composed of 256 characters. The validity of this
+  hash depends on the difficulty of the Bitcoin network.
+reviewed: true

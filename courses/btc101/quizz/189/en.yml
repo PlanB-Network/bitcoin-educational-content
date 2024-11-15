@@ -1,10 +1,14 @@
-question: Which country has made Bitcoin legal tender since 2021?
-answer: El Salvador
+question: how does Bitcoin solve the Byzantine Generals' Problem?
+answer: Through the use of a blockchain based on Proof of Work with a floating difficulty.
 wrong_answers:
-  - France
-  - United States
-  - China
+  - Through the use of digital signatures.
+  - Through the use of a public ledger.
+  - Through the use of a Proof of Stake algorithm.
 explanation: >-
-  El Salvador has made Bitcoin legal tender since 2021, contributing to
-  the development of the Bitcoin economy in the region.
-reviewed: false
+  The Byzantine Generals' Problem is a classic problem in
+distributed computing, which involves achieving consensus
+in a network where some of the nodes may be faulty or
+malicious. Bitcoin solves this problem through the use of a
+blockchain based on Proof of Work, which ensures that all
+nodes agree on the state of the transaction history.
+reviewed: true

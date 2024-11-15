@@ -1,12 +1,12 @@
-question: What is the significance of the geographical distribution of Bitcoin nodes?
+question: What is the importance of the geographical distribution of Bitcoin nodes?
 answer: It makes it practically impossible to destroy all copies of the blockchain.
 wrong_answers:
   - It determines the price of Bitcoin in different regions.
   - It affects the speed of Bitcoin transactions.
-  - It determines the number of Bitcoins that can be mined in a region.
-explanation: >-
-  The geographical distribution of Bitcoin nodes makes it practically
-  impossible
-  to destroy all copies of the blockchain. This is because the nodes are spread out
-  and it would be difficult to physically seize them all.
-reviewed: false
+  - It determines the number of bitcoins that can be mined in a region.
+explanation: |
+  The geographical distribution of Bitcoin nodes makes it
+  practically impossible to destroy all copies of the
+  blockchain. Since nodes are spread out, it is difficult to
+  physically seize them all.
+reviewed: true

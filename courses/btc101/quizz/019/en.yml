@@ -1,11 +1,12 @@
 question: What are the three canonical functions of money?
-answer: Store of value, Medium of exchange, Unit of account
+answer: Store of value, Medium of exchange, Unit of account.
 wrong_answers:
-  - Store of value, Medium of exchange, Means of production
-  - Store of value, Means of production, Unit of account
-  - Medium of exchange, Means of production, Unit of account
+  - Store of value, Medium of exchange, Means of production.
+  - Store of value, Means of production, Unit of account.
+  - Medium of exchange, Means of production, Unit of account.
 explanation: |
-  According to Aristotle, money serves three functions: it is a store of
-  value, a medium of exchange, and a unit of account. Even though, nowaday it
-  is widely admited that the medium of exchange precedes the other two functions.
+  According to Aristotle, money serves three functions: it is
+  a store of value, a medium of exchange, and a unit of
+  account. Nowadays, the medium of exchange function is
+  widely recognized as the main one, before the other two.
 reviewed: true

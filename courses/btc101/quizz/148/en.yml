@@ -1,10 +1,10 @@
 question: What was the outcome of the "block war" in 2017?
-answer: Users and nodes rejected the proposed change to increase the block size, and activated an update called SegWit
+answer: Users and nodes rejected the proposed change to increase the block size, and activated an update called SegWit.
 wrong_answers:
-  - Users and nodes accepted the proposed change to increase the block size, and activated an update called SegWit
-  - Users and nodes rejected the proposed change to increase the block size, and did not activate any updates
-  - Users and nodes accepted the proposed change to increase the block size, and did not activate any updates
+  - Users and nodes accepted the proposed change to increase the block size, and activated an update called SegWit.
+  - Users and nodes rejected the proposed change to increase the block size, and did not activate any updates.
+  - Users and nodes accepted the proposed change to increase the block size, and did not activate any updates.
 explanation: >-
   In the "block war" in 2017, users and nodes triumphed by rejecting the
   proposed change to increase the block size, and activated an update called SegWit.
-reviewed: false
+reviewed: true

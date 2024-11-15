@@ -1,11 +1,9 @@
-question: Which of these option is not an advantage of fiat currencies?
-answer: They are subject to monetary inflation
+question: What is the meaning of "fiat" money?
+answer: Fiat money is currency that has value because a government maintains it and people have faith in its value, rather than being backed by a physical commodity like gold.
 wrong_answers:
-  - They are easily transportable
-  - They are easily divisible
-  - They are accepted by all countries
+  - Fiat money is currency that is backed by a physical commodity, such as gold or silver, which means its value is directly tied to the worth of that commodity.
+  - Fiat money is a type of cryptocurrency that operates on a decentralized network, allowing for peer-to-peer transactions without the need for a central authority.
+  - Fiat money is currency that has no intrinsic value and cannot be used for transactions, making it essentially worthless in the economy.
 explanation: |
-  Fiat currencies, such as the dollar and the euro, are very liquid and
-  easily transportable because they are now mostly digital. However, their value is
-  constantly eroded by monetary inflation.
+  Fiat money is established as legal tender by government decree, and its value is not not derived from any physical commodity.
 reviewed: true

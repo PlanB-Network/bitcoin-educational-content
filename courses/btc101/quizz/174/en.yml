@@ -1,10 +1,10 @@
-question: What is one of the factors that can cause the price of Bitcoin to fluctuate?
-answer: Market variations and bullish and bearish market phases.
+question: What are the typical costs for a miner?
+answer: Electricity consumption and hardware purchase.
 wrong_answers:
-  - The number of people using the internet.
-  - The weather.
-  - The price of gold.
+  - Only hardware purchase.
+  - Transaction fees. 
+  - Electricity consumption and transaction fees.
 explanation: >-
-  The price of Bitcoin is often characterized by significant volatility,
-  which can be influenced by market variations and bullish and bearish market phases.
+  Mining Bitcoin requires substantial computational power, which in turn consumes electricity. 
+Besides, miners need to invest in specialized hardware to effectively mine it.
 reviewed: false

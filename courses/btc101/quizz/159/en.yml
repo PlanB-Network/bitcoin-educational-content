@@ -1,9 +1,9 @@
-question: What is the significance of the energy cost in Bitcoin mining?
+question: What is the significance of energy expenditure in Bitcoin mining?
 answer: The energy expenditure is necessary to produce the information, but the verification of information has a negligible cost. This asymmetry guarantees the security of the network.
 wrong_answers:
-  - The energy cost is necessary to power the ASIC machines used in mining.
-  - The energy cost is necessary to maintain the Bitcoin network.
-  - The energy cost is necessary to create new bitcoins.
+  - The energy cost is necessary to power the ASIC machines used in mining, and the verification of information has a high costs.
+  - The energy energy expenditure is necessary to maintain the Bitcoin network, and the verification of information has variable costs.
+  - The energy energy cost is not necessary to create new bitcoins.
 explanation: >-
   The energy cost in Bitcoin mining is a crucial aspect of the network's
   security. The high energy cost of mining makes it extremely expensive for a malicious

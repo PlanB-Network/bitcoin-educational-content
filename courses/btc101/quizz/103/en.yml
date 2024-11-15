@@ -1,11 +1,13 @@
 question: What is the purpose of creating an inheritance plan for your bitcoins?
-answer: To ensure that your bitcoins will be properly managed after your death
+answer: To ensure that your bitcoins will be properly managed after your death.
 wrong_answers:
-  - To avoid taxes on your bitcoins
-  - To increase the value of your bitcoins
-  - To prevent your bitcoins from being stolen
+  - To avoid taxes on your bitcoins.
+  - To decrease the value of your bitcoins.
+  - To prevent your bitcoins from being stolen.
 explanation: |
-  An inheritance plan ensures that your bitcoins will be properly managed
-  after your death. It can include a handwritten letter detailing your assets, their
-  access methods, and the contact information of trusted individuals to be contacted.
+  An inheritance plan ensures that your bitcoins will be
+  properly managed after your death. It can include a
+  handwritten letter detailing your assets, their access
+  methods, and the contact information of trusted individuals
+  to be contacted.
 reviewed: true

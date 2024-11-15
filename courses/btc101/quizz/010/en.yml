@@ -5,6 +5,7 @@ wrong_answers:
   - It is used to regulate the price of Bitcoin.
   - It is used to control the Bitcoin protocol.
 explanation: |
-  In everyday life, people use the Bitcoin unit to buy and sell goods and
-  services. It relies on the Bitcoin protocol to function.
+  In everyday life, people use the Bitcoin unit to buy and
+  sell goods and services. In order to be used, the unit
+  relies on the Bitcoin protocol.
 reviewed: true

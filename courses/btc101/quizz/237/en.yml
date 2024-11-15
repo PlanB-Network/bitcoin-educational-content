@@ -1,13 +1,13 @@
-question: How does the Lightning Network potentially transform existing business models
+question: How does the Lightning Network potentially transform the existing business models in the video game industry?
   in the video game industry?
-answer: It allows players to wager very small amounts of money when playing games
+answer: It allows players to wager very small amounts of money when playing games.
 wrong_answers:
-  - It allows players to mine Bitcoin while playing games
-  - It allows game developers to accept Bitcoin as payment for their games
-  - It allows players to buy in-game items with Bitcoin
+  - It allows players to mine Bitcoin while playing games.
+  - It allows game developers to accept Bitcoin as payment for their games.
+  - It allows players to buy in-game items with Bitcoin.
 explanation: >-
   The Lightning Network allows players to wager very small amounts of money
   when playing games, such as a few satoshis. This allows for the establishment of
   a stake that stimulates competition while significantly increasing the cost of deploying
   bots.
-reviewed: false
+reviewed: true

@@ -1,12 +1,14 @@
-question: What is the main criticism of the current financial system in relation to
+question: What is the main issue of the current financial system in relation to the environment?
   the environment?
-answer: It encourages overconsumption and debt
+answer: It encourages over-consumption and debt.
 wrong_answers:
-  - It promotes the use of fossil fuels
-  - It does not invest in renewable energy
-  - It does not regulate the production of goods
-explanation: >-
-  The current financial system is criticized for encouraging overconsumption
-  and debt, which poses serious environmental problems. This is due to easy access
-  to credit, monetary issuance by banks, and the use of fractional reserve banking.
-reviewed: false
+  - It promotes the use of fossil fuels.
+  - It does not invest in renewable energy.
+  - It does not regulate the production of goods.
+explanation: |
+  The current financial system is criticized for encouraging
+  over-consumption and debt, which poses serious
+  environmental problems. This is due to easy access to
+  credit, monetary issuance by banks, and the use of
+  fractional reserve banking.
+reviewed: true

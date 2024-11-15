@@ -1,10 +1,11 @@
 question: How often is the reward for mining halved?
-answer: Every 210,000 blocks
+answer: Every 210,000 blocks.
 wrong_answers:
-  - Every 120,000 blocks
-  - Every 540,000 blocks
-  - Every 2,100,000 blocks
+  - Every 120,000 blocks.
+  - Every 540,000 blocks.
+  - Every 2,100,000 blocks.
 explanation: |
-  The reward for mining is programmed to halve every 210,000 blocks, which
-  is approximately every four years, an event known as "halving".
+  The reward for mining is programmed to halve every 210,000
+  blocks, which is approximately every four years: an event
+  known as "halving".
 reviewed: true

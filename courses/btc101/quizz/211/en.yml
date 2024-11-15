@@ -1,13 +1,13 @@
-question: What does Bitcoin force companies, universities, regulators, and individuals
+question: What action does Bitcoin force companies, universities, regulators, and individuals to do?
   to do?
-answer: Take this new technology into account
+answer: To take it into account.
 wrong_answers:
-  - Ignore it
-  - Ban it
-  - Criminalize it
+  - To ignore it.
+  - To ban it.
+  - To criminalize it.
 explanation: >-
   The rise of Bitcoin forces companies, universities, regulators, and
   individuals
   to take this new technology into account. New tools need to be created, services
   need to be adapted, and innovation must continue to ensure their survival.
-reviewed: false
+reviewed: true

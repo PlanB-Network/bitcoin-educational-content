@@ -1,11 +1,11 @@
 question: What is the private key in a Bitcoin wallet?
-answer: A secret key that allow you to sign your transactions
+answer: A secret key that allows you to sign your transactions.
 wrong_answers:
-  - A public key used to generate Bitcoin addresses
-  - A secret list of words to destroy wallet
-  - A secret key to encrypt the Bitcoin transactions
+  - A public key used to generate Bitcoin addresses.
+  - A secret list of words to destroy a wallet in case of need.
+  - A secret key to encrypt Bitcoin transactions.
 explanation: >-
-  When initializing a Bitcoin wallet, a secret list of words, called mnemonic seed is generated. 
+  When initializing a Bitcoin wallet, a secret list of words, called mnemonic seed, is generated. 
   This recovery list is very important because it represents ownership
   of the Bitcoins and therefore the right to send them.
 reviewed: true

@@ -1,12 +1,9 @@
-question: What is the risk of using a custodial wallet?
-answer: The trusted third party can restrict your access to your funds at any time
+question: What does the term 'hodl' mean?
+answer: "Hodl" is a slang term in the cryptocurrency community that means to hold onto your investments rather than selling them, especially during market volatility.
 wrong_answers:
-  - The trusted third party can increase the value of your bitcoins at any time
-  - The trusted third party can decrease the value of your bitcoins at any time
-  - The trusted third party can give your bitcoins at any time
+  - "Hodl" refers to a type of cryptocurrency that is used for trading only.
+  - "Hodl" is a term that means to sell all your cryptocurrency at a high price.
+  - "Hodl" is a strategy for day trading that involves buying and selling frequently.
 explanation: |
-  When you use a custodial wallet, you are not the sole holder of your bitcoins.
-  This means that the trusted third party can restrict your access to your funds at
-  any time, giving you the same level of financial sovereignty as with the traditional
-  banking system.
+  The term "hodl" originated from a misspelled online post in 2013 on a Bitcoin forum.Over time, "hodl" has evolved to represent a broader investment strategy. It encourages investors to hold onto their cryptocurrencies for the long term, regardless of market fluctuations.
 reviewed: true

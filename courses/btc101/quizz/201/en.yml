@@ -1,11 +1,12 @@
 question: What is the purpose of KYC regulations?
 answer: To combat terrorism financing, tax evasion, and money laundering.
 wrong_answers:
-  - To increase the price of Bitcoin.
+  - To increase the price of Bitcoin and have the user pay more taxes.
   - To control the supply of Bitcoin.
   - To prevent people from buying Bitcoin.
-explanation: >-
-  The text explains that Know Your Customer (KYC) regulations require users
-  to provide identification to combat terrorism financing, tax evasion, and money
+explanation: |
+  The course text explains that "Know Your Customer" (KYC)
+  regulations require users to provide identification to
+  combat terrorism financing, tax evasion, and money
   laundering.
-reviewed: false
+reviewed: true

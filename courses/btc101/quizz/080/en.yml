@@ -1,13 +1,14 @@
 question: What is the probability of someone accidentally guessing your list of 12
   or 24 words in a Bitcoin wallet?
-answer: Astronomically low
+answer: Astronomically low.
 wrong_answers:
-  - High
-  - Moderate
-  - Low
-explanation: >-
-  Thanks to the cryptography used to create the wallet, the probability
-  of someone accidentally guessing your list of 12 or 24 words is astronomically low.
-  It is like finding the "right" number between 1 and $2^256$, which is almost equivalent
-  to finding a defined atom in the Universe.
+  - High.
+  - Moderate.
+  - Strong.
+explanation: |
+  Thanks to the cryptography used to create the wallet, the
+  probability of someone accidentally guessing your list of
+  12 or 24 words is astronomically low. It is like finding
+  the "right" number between 1 and $2^256$, which is almost
+  equivalent to finding a defined atom in the Universe.
 reviewed: true

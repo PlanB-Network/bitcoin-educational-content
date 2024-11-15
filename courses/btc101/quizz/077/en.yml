@@ -1,7 +1,7 @@
 question: What is the risk of sharing the public key of a Bitcoin wallet?
 answer: Losing privacy.
 wrong_answers:
-  - Destoying the Bitcoin wallet.
+  - Destroying the Bitcoin wallet.
   - Losing the Bitcoins.
   - Hacking the Bitcoin wallet.
 explanation: |

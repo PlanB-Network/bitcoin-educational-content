@@ -1,14 +1,15 @@
 question: What is the main advantage of owning your own mining equipment?
-answer: Actively contributing to the security of the Bitcoin network and acquiring virgin bitcoins.
+answer: Acquiring virgin bitcoins.
 wrong_answers:
   - Avoiding the need to buy Bitcoin directly.
   - Making a profit from selling the equipment later.
   - Avoiding the need to trust other miners.
 explanation: |
-  Owning your own mining equipment offers considerable advantages. In
-  addition
-  to the personal satisfaction of actively contributing to the security of the Bitcoin
-  network and seeing the rewards fall into your wallet, there is the attractive aspect
-  of "virgin bitcoins". These are freshly mined bitcoins that have never been spent
-  and have no history attached to them.
-reviewed: false
+  Owning your own mining equipment offers considerable
+  advantages. In addition to the personal satisfaction of
+  actively contributing to the security of the Bitcoin
+  network and seeing the rewards fall into your wallet, there
+  is the attractive aspect of "virgin bitcoins". These are
+  freshly mined bitcoins that have never been spent and have
+  no history attached to them.
+reviewed: true

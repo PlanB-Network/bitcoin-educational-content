@@ -5,8 +5,10 @@ wrong_answers:
   - If you do not own Bitcoin, you will not get any rewards.
   - If you do not have a mining machine, you will not get any rewards.
 explanation: |
-  The adage "Not your hashrate, not your reward" is similar to the well-known
-  adage in the world of cryptocurrencies, "Not your keys, not your Bitcoins." It means
-  that if you do not control the hashrate, you do not control the mining rewards.
-  This is because the rewards from mining are directly proportional to the hashrate.
-reviewed: false
+  The adage "Not your hashrate, not your reward" is similar
+  to the well-known adage in the world of cryptocurrencies,
+  "Not your keys, not your Bitcoins." It means that if you do
+  not control the hashrate, you do not control the mining
+  rewards. This is because the rewards from mining are
+  directly proportional to the hashrate.
+reviewed: true

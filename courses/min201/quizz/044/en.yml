@@ -5,8 +5,9 @@ wrong_answers:
   - Bitcoins that have been lost or forgotten.
   - Bitcoins that have been stored in a wallet for a long time.
 explanation: |
-  Virgin bitcoins are freshly mined bitcoins that have never been spent
-  and have no history attached to them. These bitcoins are often considered more valuable
-  because they have never been tainted, providing some guarantee against rejection
-  by regulators or major exchange platforms.
-reviewed: false
+  Virgin bitcoins are freshly mined bitcoins that have never
+  been spent and have no history attached to them. These
+  bitcoins are often considered more valuable because they
+  have never been tainted, providing some guarantee against
+  rejection by regulators or major exchange platforms.
+reviewed: true

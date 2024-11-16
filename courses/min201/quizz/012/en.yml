@@ -5,8 +5,10 @@ wrong_answers:
   - A mining pool is a group of miners who share the same mining software to increase their chances of mining. This cooperation is necessary because different mining software have different efficiencies.
   - A mining pool is a group of miners who share the same mining location to increase their chances of mining. This cooperation is necessary because the location of the mining operation can affect the efficiency of mining.
 explanation: |
-  The chapter explains that a mining pool is a group of miners who combine
-  their computing resources to increase their chances of mining. This cooperation
-  is necessary because an isolated small mining machine is competing against industry
-  giants, reducing its chances of success to a negligible level.
-reviewed: false
+  The chapter explains that a mining pool is a group of
+  miners who combine their computing resources to increase
+  their chances of mining. This cooperation is necessary
+  because an isolated small mining machine is competing
+  against industry giants, reducing its chances of success to
+  a negligible level.
+reviewed: true

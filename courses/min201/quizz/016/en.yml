@@ -2,11 +2,12 @@ question: What is the role of Bitcoin miners in the world of energy?
 answer: Bitcoin miners are constantly seeking sources of cheap electricity, often those that are wasted or untapped. They can act as a flexible demand source, ready to consume this "orphaned" electricity, thus helping to offset infrastructure costs.
 wrong_answers:
   - Bitcoin miners are constantly seeking sources of renewable energy to reduce their carbon footprint.
-  - Bitcoin miners are constantly seeking sources of nuclear energy to power their mining operations.
+  - Bitcoin miners are constantly seeking sources of nuclear energy to power their mining operations, since this is the only clean and renewable way to produce energy.
   - Bitcoin miners are constantly seeking sources of solar energy to power their mining operations.
 explanation: |
-  The chapter explains that Bitcoin miners are constantly seeking sources
-  of cheap electricity, often those that are wasted or untapped. They can act as a
-  flexible demand source, ready to consume this "orphaned" electricity, thus helping
-  to offset infrastructure costs.
-reviewed: false
+  The chapter explains that Bitcoin miners are constantly
+  seeking sources of cheap electricity, often those that are
+  wasted or untapped. They can act as a flexible demand
+  source, ready to consume this "orphaned" electricity, thus
+  helping to offset infrastructure costs.
+reviewed: true

@@ -5,8 +5,10 @@ wrong_answers:
   - They can be used for illegal activities.
   - They can be stored for a long time without losing value.
 explanation: |
-  The main advantage of mining virgin bitcoins is that they have never
-  been spent and have no history attached to them. These bitcoins are often considered
-  more valuable because they have never been "tainted", providing some guarantee against
-  rejection by regulators or major exchange platforms.
-reviewed: false
+  The main advantage of mining virgin bitcoins is that they
+  have never been spent and have no history attached to them.
+  These bitcoins are often considered more valuable because
+  they have never been "tainted", providing some guarantee
+  against rejection by regulators or major exchange
+  platforms.
+reviewed: true

@@ -5,6 +5,6 @@ wrong_answers:
   - Quartering
   - Tripling
 explanation: |
-  The programmed reduction of mining rewards, halving every four years,
-  is an event known as "halving".
-reviewed: false
+  The programmed reduction of mining rewards, halving every
+  four years, is an event known as "halving".
+reviewed: true

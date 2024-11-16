@@ -5,7 +5,7 @@ wrong_answers:
   - The security layer
   - The consensus layer
 explanation: |
-  The base layer of the Bitcoin network, which the Lightning Network relies
-  on for opening and closing payment channels, is often referred to as the "settlement
-  layer".
-reviewed: false
+  The base layer of the Bitcoin network, which the Lightning
+  Network relies on for opening and closing payment channels,
+  is often referred to as the "settlement layer".
+reviewed: true

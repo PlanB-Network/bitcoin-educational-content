@@ -1,5 +1,5 @@
 ---
-name: The Bitcoin Journey
+name: Bitcoin reisen
 goal: Oppdag Bitcoin og dets grunnleggende prinsipper, inkludert dets monetære verdi, gruvearbeidere, transaksjoner og lommebøker.
 objectives:
   - Få en generell forståelse av Bitcoin-teknologi

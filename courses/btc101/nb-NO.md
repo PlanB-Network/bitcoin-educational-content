@@ -408,7 +408,7 @@ Oppsummert tilbyr Bitcoin, med sin desentraliserte natur, programmerte knapphet 
 
 ### Konklusjon av seksjon 1!
 
-# Wallets Bitcoin
+# Bitcoin-lommebøker
 
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 

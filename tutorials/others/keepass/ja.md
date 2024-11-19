@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: ローカルパスワードマネージャーの設定方法
 ---
 ![cover](assets/cover.webp)

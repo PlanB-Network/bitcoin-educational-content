@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: Bagaimana cara mengatur manajer kata sandi lokal?
 ---
 ![cover](assets/cover.webp)

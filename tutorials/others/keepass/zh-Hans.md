@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: 如何设置一个本地密码管理器？
 ---
 ![cover](assets/cover.webp)

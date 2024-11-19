@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: Come configurare un gestore di password locale?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: Como configurar um gerenciador de senhas local?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: How to set up a local password manager?
 ---
 ![cover](assets/cover.webp)

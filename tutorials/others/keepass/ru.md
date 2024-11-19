@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: Как настроить локальный менеджер паролей?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: Cách thiết lập một trình quản lý mật khẩu cục bộ?
 ---
 ![cover](assets/cover.webp)

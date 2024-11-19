@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: Comment mettre en place un gestionnaire de mots de passe local ?
 ---
 ![cover](assets/cover.webp)

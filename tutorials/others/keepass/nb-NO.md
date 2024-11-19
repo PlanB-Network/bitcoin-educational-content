@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: Hvordan sette opp en lokal passordbehandler?
 ---
 ![cover](assets/cover.webp)

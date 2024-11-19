@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: Kuinka perustaa paikallinen salasanojen hallintaohjelma?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: KEEPASS
+name: KeePass
 description: Jak nastavit lokální správce hesel?
 ---
 ![cover](assets/cover.webp)

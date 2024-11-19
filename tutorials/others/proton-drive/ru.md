@@ -1,5 +1,5 @@
 ---
-name: PROTON DRIVE
+name: Proton Drive
 description: Реализация резервного копирования
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: PROTON DRIVE
+name: Proton Drive
 description: Implementierung von Backups
 ---
 ![cover](assets/cover.webp)

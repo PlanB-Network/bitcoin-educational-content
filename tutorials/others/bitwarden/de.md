@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Wie richtet man einen Passwort-Manager ein?
 ---
 ![cover](assets/cover.webp)

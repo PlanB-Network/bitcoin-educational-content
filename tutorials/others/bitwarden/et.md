@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Kuidas seadistada paroolihaldurit?
 ---
 ![kaas](assets/cover.webp)

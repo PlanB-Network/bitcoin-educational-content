@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: How to set up a password manager?
 ---
 ![cover](assets/cover.webp)

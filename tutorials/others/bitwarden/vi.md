@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Cách thiết lập một trình quản lý mật khẩu?
 ---
 ![cover](assets/cover.webp)

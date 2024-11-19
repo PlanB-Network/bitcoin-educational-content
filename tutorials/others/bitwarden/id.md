@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Bagaimana cara mengatur manajer kata sandi?
 ---
 ![cover](assets/cover.webp)

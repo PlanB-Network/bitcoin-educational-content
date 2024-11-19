@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: パスワードマネージャーの設定方法
 ---
 ![cover](assets/cover.webp)

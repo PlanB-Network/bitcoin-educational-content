@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: 如何设置密码管理器？
 ---
 ![cover](assets/cover.webp)

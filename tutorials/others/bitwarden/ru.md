@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Как настроить менеджер паролей?
 ---
 ![cover](assets/cover.webp)

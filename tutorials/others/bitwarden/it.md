@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Come configurare un gestore di password?
 ---
 ![cover](assets/cover.webp)

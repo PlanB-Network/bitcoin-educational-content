@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Comment mettre en place un gestionnaire de mots de passe ?
 ---
 ![cover](assets/cover.webp)

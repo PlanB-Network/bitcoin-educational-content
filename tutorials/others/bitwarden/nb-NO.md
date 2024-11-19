@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Hvordan sette opp en passordbehandler?
 ---
 ![cover](assets/cover.webp)

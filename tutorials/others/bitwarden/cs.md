@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Jak nastavit správce hesel?
 ---
 ![cover](assets/cover.webp)

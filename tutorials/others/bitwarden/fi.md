@@ -1,5 +1,5 @@
 ---
-name: BITWARDEN
+name: Bitwarden
 description: Kuinka salasananhallintaohjelma otetaan käyttöön?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: 如何设置您的JADE设备
 ---

@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: Kuidas seadistada oma JADE seadet
 ---

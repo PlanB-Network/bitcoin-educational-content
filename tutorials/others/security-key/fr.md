@@ -1,5 +1,5 @@
 ---
-name: YUBIKEY 2FA
+name: YubiKey 2FA
 description: Comment utiliser une clé de sécurité physique ?
 ---
 ![cover](assets/cover.webp)

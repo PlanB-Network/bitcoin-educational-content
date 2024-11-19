@@ -1,5 +1,5 @@
 ---
-name: YUBIKEY 2FA
+name: YubiKey 2FA
 description: 如何使用物理安全密钥？
 ---
 ![cover](assets/cover.webp)

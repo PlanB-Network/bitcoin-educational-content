@@ -1,5 +1,5 @@
 ---
-name: YUBIKEY 2FA
+name: YubiKey 2FA
 description: Cách sử dụng khóa bảo mật vật lý?
 ---
 ![cover](assets/cover.webp)

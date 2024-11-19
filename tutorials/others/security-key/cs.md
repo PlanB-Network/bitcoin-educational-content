@@ -1,5 +1,5 @@
 ---
-name: YUBIKEY 2FA
+name: YubiKey 2FA
 description: Jak používat fyzický bezpečnostní klíč?
 ---
 ![cover](assets/cover.webp)

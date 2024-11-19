@@ -1,5 +1,5 @@
 ---
-name: YUBIKEY 2FA
+name: YubiKey 2FA
 description: Bagaimana cara menggunakan kunci keamanan fisik?
 ---
 ![cover](assets/cover.webp)

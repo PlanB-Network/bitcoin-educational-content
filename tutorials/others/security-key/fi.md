@@ -1,5 +1,5 @@
 ---
-name: YUBIKEY 2FA
+name: YubiKey 2FA
 description: Kuinka fyysistä turva-avainta käytetään?
 ---
 ![cover](assets/cover.webp)

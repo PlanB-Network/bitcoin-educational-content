@@ -1,5 +1,5 @@
 ---
-name: MULLVAD VPN
+name: Mullvad VPN
 description: Nastavení VPN placené bitcoiny
 ---
 ![cover](assets/cover.webp)

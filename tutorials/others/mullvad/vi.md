@@ -1,5 +1,5 @@
 ---
-name: MULLVAD VPN
+name: Mullvad VPN
 description: Cài đặt VPN được thanh toán bằng bitcoin
 ---
 ![cover](assets/cover.webp)

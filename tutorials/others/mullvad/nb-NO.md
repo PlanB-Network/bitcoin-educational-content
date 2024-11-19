@@ -1,5 +1,5 @@
 ---
-name: MULLVAD VPN
+name: Mullvad VPN
 description: Oppsett av en VPN betalt med bitcoins
 ---
 ![cover](assets/cover.webp)

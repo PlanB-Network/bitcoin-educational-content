@@ -1,5 +1,5 @@
 ---
-name: MULLVAD VPN
+name: Mullvad VPN
 description: Einrichtung eines VPNs, bezahlt mit Bitcoins
 ---
 ![cover](assets/cover.webp)

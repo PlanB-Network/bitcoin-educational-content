@@ -1,5 +1,5 @@
 ---
-name: MULLVAD VPN
+name: Mullvad VPN
 description: 使用比特币支付的VPN设置
 ---
 ![cover](assets/cover.webp)

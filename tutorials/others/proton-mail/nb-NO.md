@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: Oppsett av en sikker e-postboks
 ---
 ![cover](assets/cover.webp)

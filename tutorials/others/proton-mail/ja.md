@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: セキュアなメールボックスの設定
 ---
 ![cover](assets/cover.webp)

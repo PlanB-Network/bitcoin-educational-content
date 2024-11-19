@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: Turvallisen sähköpostilaatikon asettaminen
 ---
 ![cover](assets/cover.webp)

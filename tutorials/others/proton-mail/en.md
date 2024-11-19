@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: Setting up a secure email box
 ---
 ![cover](assets/cover.webp)

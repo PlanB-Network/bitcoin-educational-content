@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: Mise en place d'une boîte mail sécurisée
 ---
 ![cover](assets/cover.webp)

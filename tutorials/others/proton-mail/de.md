@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: Einrichtung eines sicheren E-Mail-Postfachs
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: 设置一个安全的电子邮箱
 ---
 ![cover](assets/cover.webp)

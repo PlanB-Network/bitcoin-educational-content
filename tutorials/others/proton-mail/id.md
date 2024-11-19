@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: Mengatur kotak email yang aman
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: Nastavení bezpečné e-mailové schránky
 ---
 ![cover](assets/cover.webp)

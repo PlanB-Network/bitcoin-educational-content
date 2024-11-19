@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: Cài đặt một hộp thư điện tử an toàn
 ---
 ![cover](assets/cover.webp)

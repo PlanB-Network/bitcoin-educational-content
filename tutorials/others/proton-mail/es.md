@@ -1,5 +1,5 @@
 ---
-name: PROTON MAIL
+name: Proton Mail
 description: Configuración de un buzón de correo electrónico seguro
 ---
 ![cover](assets/cover.webp)

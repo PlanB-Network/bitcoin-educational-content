@@ -1,5 +1,5 @@
 ---
-name: AUTHY 2FA
+name: Authy 2FA
 description: Как использовать приложение для 2FA?
 ---
 ![cover](assets/cover.webp)

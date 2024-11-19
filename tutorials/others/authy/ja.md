@@ -1,5 +1,5 @@
 ---
-name: AUTHY 2FA
+name: Authy 2FA
 description: 2FAアプリケーションの使用方法
 ---
 ![cover](assets/cover.webp)

@@ -29,7 +29,7 @@ PassKeys are mandatory.
 They allow you to authenticate quickly and securely using your device's built-in security features, such as Face ID or fingerprint scanning.
 They are your main layer of protection, ensuring fast and secure access.
 
-[Passkey](assets/passkey.webp)
+![Passkey](assets/passkey.webp)
 
 Choose your second level: PassCode or PassWord
 Next, you will need to choose a second level of security:
@@ -39,7 +39,7 @@ Next, you will need to choose a second level of security:
 
 You must use Passkeys in conjunction with a PassCode or PassWord.
 
-[secondfactor](assets/secondfactor.webp)
+![secondfactor](assets/secondfactor.webp)
 Note: To set up your account, you need at least 2 factors, one of which must be the Passkey.
 
 To further increase security, you can add a third layer of protection (Passkey + PassCode + PassWord).
@@ -49,7 +49,7 @@ You will always use Passkey as the primary factor. For the second layer, choose 
 If you have chosen PassCode as the second factor, you can add PassWord as the third layer or vice versa. This flexible approach ensures that your assets are protected according to your preferences.
 You can add the third security factor during the setup phase (see images) or later by going to Settings > Improve security.
 
-[thirdfactor](assets/thirdfactor.webp)
+![thirdfactor](assets/thirdfactor.webp)
 
 However, if you forget one of the factors, please note that:
 
@@ -61,39 +61,39 @@ We strongly recommend setting up all three factors from the beginning for maximu
 ## How to receive a transaction?
 Step 1: Open the Elysium app and go to the main menu. Tap 'Receive'.
 
-[receive1](assets/receive1.webp)
+![receive1](assets/receive1.webp)
 
 Now, select the chain you want to receive payment on (Bitcoin or Polygon) and you can simply share the QR code of your Elysium wallet with the person who needs to pay you, they will take care of the rest.
 
 ## How to Receive a Transaction in Lightning Network?
 STEP 1: By tapping “Request Payment” you request a Bitcoin payment via Lightning Network.
 
-[requestpayment1](asset/requestpayment1)
+![requestpayment1](asset/requestpayment1)
 
 Step 2: Enter the amount you want to request, select the currency you want to receive, and add a description if necessary.
 
-[requestpayment2](asset/requestpayment2)
+![requestpayment2](asset/requestpayment2)
 
 Note: There is a small fee for the first Lightning Network (LN) payment to open the LN channel. After that, all subsequent payments are free.
 
 ## How to send a transaction?
 STEP 1: Go to the main menu and tap "Send".
-[send1](assets/send1.webp)
+![send1](assets/send1.webp)
 
 STEP 2: Scan the recipient's QR code from their Elysium Wallet to automatically save their contact to your address book.
 Alternatively, manually copy their address and paste it into the recipient field.
 After selecting the recipient or adding them to your address book, tap "Send Payment".
 
-[payment1](assets/payment1.webp)
+![payment1](assets/payment1.webp)
 
 Already have the contact? Choose it directly from the address book.
 
-[addressbook1](assets/addressbook1.webp)
+![addressbook1](assets/addressbook1.webp)
 
 STEP 3: Enter the amount you want to send and select the asset you want to transfer.
 For BTC transactions, you can select your preferred network speed and fees (as shown in the third image)
 
-[payment2](assets/payment2.webp)
+![payment2](assets/payment2.webp)
 
 Your transaction has been submitted! You can easily check your Elysium Wallet's updated balance and transaction status.
 
@@ -103,17 +103,17 @@ STEP 2: Scan the LN QR code for payment.
 STEP3: Review the payment details and confirm everything is correct.
 STEP4: Tap "Confirm" to complete the transaction.
 
-[paymentLN1](assets/paymentLN1.webp)
+![paymentLN1](assets/paymentLN1.webp)
 
 ## How to see the Seed Phrase?
 Go to the main menu and tap "Hub". Select Settings and tap "Extract private key".
 
-[extract1](assets/extract1.webp)
+![extract1](assets/extract1.webp)
 
 Log in with your passkey and enter your password and/or passcode.
 The seed phrase will be displayed in 24-word format.
 
-[seed1](assets/seed1.webp)
+![seed1](assets/seed1.webp)
 
 Don't share it with anyone!
 
@@ -127,7 +127,7 @@ Here's how you can contact our customer support team directly from the app:
 2. Tap Settings
 3. Select Help
 
-[help1](assets/help1.webp)
+![help1](assets/help1.webp)
 
 A form will appear where you can describe the issue you are experiencing.
 

@@ -4,7 +4,7 @@ description:
 ---
 ![cover](assets/cover.webp)
 
-Un portefeuille logiciel est une application installée sur un ordinateur, un smartphone ou tout autre appareil connecté à Internet, permettant de gérer et de sécuriser les clés de son portefeuille Bitcoin. Contrairement aux hardware wallets, qui isolent les clés privées, les portefeuilles "chauds" fonctionnent donc dans un environnement potentiellement exposé aux cyberattaques, ce qui augmente les risques de piratage et de vol.
+Un portefeuille logiciel est une application installée sur un ordinateur, un smartphone ou tout autre appareil connecté à Internet, permettant de gérer et de sécuriser les clés de son portefeuille Bitcoin. Contrairement aux hardware wallets, qui isolent les clés privées, les portefeuilles "*chauds*" fonctionnent donc dans un environnement potentiellement exposé aux cyberattaques, ce qui augmente les risques de piratage et de vol.
 
 Les portefeuilles logiciels sont à utiliser pour gérer des montants raisonnables de bitcoins, notamment pour les transactions du quotidien. Cela peut être une option intéressante également pour les personnes possédant un patrimoine limité en bitcoins, pour qui l'investissement dans un hardware wallet peut sembler disproportionné. Cependant, leur exposition constante à Internet les rend moins sûrs pour stocker votre épargne de long terme ou des fonds importants. Pour ces derniers, il est préférable d'opter pour des solutions plus sécurisées, comme les hardware wallets.
 
@@ -36,15 +36,15 @@ Pour les utilisateurs Android, vous avez aussi la possibilité d'installer l'app
 
 03
 
-Lancez l'application, puis cochez la case "J'accepte les conditions...".
+Lancez l'application, puis cochez la case "*J'accepte les conditions...*".
 
 04
 
-Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur "Paramètres de l'application".
+Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur "*Paramètres de l'application*".
 
 05
 
-L’option "Enhanced Privacy", disponible uniquement sur Android, améliore la confidentialité en désactivant les captures d’écran et en masquant les aperçus d’application. Elle verrouille également automatiquement l’accès à l’application dès que votre téléphone est verrouillé, ce qui rend vos données plus difficiles à exposer.
+L’option "*Enhanced Privacy*", disponible uniquement sur Android, améliore la confidentialité en désactivant les captures d’écran et en masquant les aperçus d’application. Elle verrouille également automatiquement l’accès à l’application dès que votre téléphone est verrouillé, ce qui rend vos données plus difficiles à exposer.
 
 06
 
@@ -56,23 +56,23 @@ Pour les utilisateurs qui disposent de leur nœud complet, Green Wallet offre la
 
 08
 
-Une autre fonctionnalité alternative est l’option "SPV Verification", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet.
+Une autre fonctionnalité alternative est l’option "*SPV Verification*", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet.
 
 09
 
-Une fois ces paramètres ajustés selon vos besoins, cliquez sur le bouton "Sauvegarder" et redémarrez l’application.
+Une fois ces paramètres ajustés selon vos besoins, cliquez sur le bouton "*Sauvegarder*" et redémarrez l’application.
 
 10
 
 ## Créer un portefeuille Bitcoin sur Blockstream Green
 
-Vous êtes maintenant prêt à créer un portefeuille Bitcoin. Cliquez sur le bouton "Get Started".
+Vous êtes maintenant prêt à créer un portefeuille Bitcoin. Cliquez sur le bouton "*Get Started*".
 
 11
 
-Vous avez le choix entre créer un portefeuille logiciel en local ou gérer un portefeuille froid via un hardware wallet. Pour ce tutoriel, nous nous concentrons sur la création d'un portefeuille chaud, donc vous devrez sélectionner l'option "On This Device". Dans un futur tutoriel, je vous montrerai comment utiliser l'autre option.
+Vous avez le choix entre créer un portefeuille logiciel en local ou gérer un portefeuille froid via un hardware wallet. Pour ce tutoriel, nous nous concentrons sur la création d'un portefeuille chaud, donc vous devrez sélectionner l'option "*On This Device*". Dans un futur tutoriel, je vous montrerai comment utiliser l'autre option.
 
-L'option "Watch-only", quant à elle, vous permet d'importer une clé publique étendue (`xpub`) pour consulter les transactions d’un portefeuille sans pouvoir dépenser les fonds associés, ce qui est pratique pour suivre un portefeuille sur un hardware wallet par exemple.
+L'option "*Watch-only*", quant à elle, vous permet d'importer une clé publique étendue (`xpub`) pour consulter les transactions d’un portefeuille sans pouvoir dépenser les fonds associés, ce qui est pratique pour suivre un portefeuille sur un hardware wallet par exemple.
 
 12
 
@@ -82,7 +82,7 @@ Vous pouvez ensuite choisir de restaurer un portefeuille Bitcoin existant ou d'e
 
 Vous avez ensuite le choix entre une phrase mnémonique de 12 mots ou de 24 mots. Cette phrase vous permettra de récupérer l'accès à votre portefeuille depuis n'importe quel logiciel compatible, en cas de problème sur votre téléphone. Actuellement, opter pour une phrase de 24 mots n'offre pas plus de sécurité qu'une phrase de 12 mots. Je vous recommande donc de choisir une phrase mnémonique de **12 mots**.
 
-Green vous fournira ensuite votre phrase mnémonique. Avant de continuer, assurez-vous de ne pas être observé. Cliquez sur "Afficher la phrase de récupération" pour l'afficher à l'écran.
+Green vous fournira ensuite votre phrase mnémonique. Avant de continuer, assurez-vous de ne pas être observé. Cliquez sur "*Afficher la phrase de récupération*" pour l'afficher à l'écran.
 
 14
 
@@ -94,7 +94,7 @@ Elle permet de restaurer l'accès à vos bitcoins en cas de perte, de vol ou de 
 
 15
 
-Après avoir correctement noté votre phrase mnémonique sur un support physique, cliquez sur "Continuez". Green Wallet vous demandera ensuite de confirmer certains mots de votre phrase pour vérifier que vous les avez bien enregistrés. Complétez les espaces avec les mots manquants.
+Après avoir correctement noté votre phrase mnémonique sur un support physique, cliquez sur "*Continuez*". Green Wallet vous demandera ensuite de confirmer certains mots de votre phrase pour vérifier que vous les avez bien enregistrés. Complétez les espaces avec les mots manquants.
 
 16
 
@@ -108,7 +108,7 @@ Entrez votre PIN une seconde fois pour le confirmer.
 
 18
 
-Patientez le temps de la création de votre portefeuille, puis cliquez sur le bouton "Créer un compte".
+Patientez le temps de la création de votre portefeuille, puis cliquez sur le bouton "*Créer un compte*".
 
 19
 
@@ -132,15 +132,15 @@ Si vous souhaitez personnaliser votre portefeuille, cliquez sur les trois petits
 
 22
 
-L'option "Renommer" vous permet de personnaliser le nom de votre portefeuille, ce qui est particulièrement utile si vous gérez plusieurs portefeuilles sur la même application.
+L'option "*Renommer*" vous permet de personnaliser le nom de votre portefeuille, ce qui est particulièrement utile si vous gérez plusieurs portefeuilles sur la même application.
 
 23
 
-Le menu "Unité" vous donne la possibilité de changer l'unité de base de votre portefeuille. Vous pouvez par exemple choisir de l'afficher en satoshis plutôt qu'en bitcoins.
+Le menu "*Unité*" vous donne la possibilité de changer l'unité de base de votre portefeuille. Vous pouvez par exemple choisir de l'afficher en satoshis plutôt qu'en bitcoins.
 
 24
 
-Le menu "Paramètres" offre un accès aux différentes options de votre portefeuille Bitcoin.
+Le menu "*Paramètres*" offre un accès aux différentes options de votre portefeuille Bitcoin.
 
 25
 
@@ -154,11 +154,11 @@ Vous pouvez aussi y modifier le code PIN de votre portefeuille et activer une co
 
 ## Utiliser Blockstream Green
 
-Maintenant que votre portefeuille Bitcoin est configuré, vous êtes prêt à recevoir vos premiers sats ! Pour cela, cliquez simplement sur le bouton "Recevoir".
+Maintenant que votre portefeuille Bitcoin est configuré, vous êtes prêt à recevoir vos premiers sats ! Pour cela, cliquez simplement sur le bouton "*Recevoir*".
 
 28
 
-Green affichera alors la première adresse de réception vierge de votre portefeuille. Vous pouvez soit scanner le QR code associé, soit copier l'adresse directement pour y envoyer des bitcoins. Ce type d'adresse ne spécifie pas le montant à envoyer par le payeur. Vous pouvez toutefois générer une adresse qui demande un montant spécifique, en cliquant sur les trois petits points en haut à droite, puis sur "Montant de la demande", et en saisissant le montant désiré.
+Green affichera alors la première adresse de réception vierge de votre portefeuille. Vous pouvez soit scanner le QR code associé, soit copier l'adresse directement pour y envoyer des bitcoins. Ce type d'adresse ne spécifie pas le montant à envoyer par le payeur. Vous pouvez toutefois générer une adresse qui demande un montant spécifique, en cliquant sur les trois petits points en haut à droite, puis sur "*Montant de la demande*", et en saisissant le montant désiré.
 
 Puisque vous utilisez un compte Segwit v0 (BIP84), votre adresse commencera par `bc1q...`. Dans mon exemple, j'utilise un portefeuille Testnet, donc le préfixe est légèrement différent.
 
@@ -172,7 +172,7 @@ Attendez d'obtenir suffisamment de confirmations pour considérer la transaction
 
 31
 
-Avec des bitcoins dans votre portefeuille, vous pouvez maintenant également en envoyer. Cliquez sur "Envoyer".
+Avec des bitcoins dans votre portefeuille, vous pouvez maintenant également en envoyer. Cliquez sur "*Envoyer*".
 
 32
 
@@ -184,11 +184,11 @@ Choisissez le montant du paiement.
 
 34
 
-En bas de l'écran, vous pouvez sélectionner le taux de frais pour cette transaction. Vous avez le choix de suivre les recommandations de l'application ou de personnaliser vos frais. Plus les frais sont élevés par rapport aux autres transactions en attente, plus vite votre transaction sera traitée. Pour connaitre le marché de frais, vous pouvez consulter le site [Mempool.space](https://mempool.space/) dans la section "Transaction Fees".
+En bas de l'écran, vous pouvez sélectionner le taux de frais pour cette transaction. Vous avez le choix de suivre les recommandations de l'application ou de personnaliser vos frais. Plus les frais sont élevés par rapport aux autres transactions en attente, plus vite votre transaction sera traitée. Pour connaitre le marché de frais, vous pouvez consulter le site [Mempool.space](https://mempool.space/) dans la section "*Transaction Fees*".
 
 35
 
-Cliquez sur "Suivant" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant, et les frais sont corrects.
+Cliquez sur "*Suivant*" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant, et les frais sont corrects.
 
 36
 

@@ -26,7 +26,7 @@ Blockstream Green supporte aussi le réseau Liquid, une sidechain de Bitcoin dé
 
 ## Installer et paramétrer l'application Blockstream Green
 
-La première étape est, naturellement, de télécharger l'application Green. Rendez-vous sur votre store d'applications :
+La première étape est naturellement de télécharger l'application Green. Rendez-vous sur votre store d'applications :
 - [Pour Android](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) ;
 - [Pour Apple](https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590).
 
@@ -48,11 +48,11 @@ L’option "*Enhanced Privacy*", disponible uniquement sur Android, améliore la
 
 06
 
-Pour ceux qui souhaitent renforcer leur confidentialité, l’application propose de router votre trafic via Tor, un réseau permettant de chiffrer toutes vos connexions et de rendre vos activités difficiles à tracer. Bien que cette option puisse légèrement ralentir le fonctionnement de l’application, elle est fortement recommandée pour protéger votre vie privée, surtout si vous n'utilisez pas votre propre nœud complet.
+Pour ceux qui souhaitent renforcer leur confidentialité, l’application propose de rooter votre trafic via Tor, un réseau permettant de chiffrer toutes vos connexions et de rendre vos activités difficiles à tracer. Bien que cette option puisse légèrement ralentir le fonctionnement de l’application, elle est fortement recommandée pour protéger votre vie privée, surtout si vous n'utilisez pas votre propre nœud complet.
 
 07
 
-Pour les utilisateurs qui disposent de leur nœud complet, Green Wallet offre la possibilité de s'y connecter via un serveur Electrum, ce qui garantie un contrôle total sur les informations du réseau Bitcoin et sur la diffusion des transactions. 
+Pour les utilisateurs qui disposent de leur nœud complet, Green Wallet offre la possibilité de s'y connecter via un serveur Electrum, ce qui garantit un contrôle total sur les informations du réseau Bitcoin et sur la diffusion des transactions. 
 
 08
 
@@ -80,7 +80,7 @@ Vous pouvez ensuite choisir de restaurer un portefeuille Bitcoin existant ou d'e
 
 13
 
-Vous avez ensuite le choix entre une phrase mnémonique de 12 mots ou de 24 mots. Cette phrase vous permettra de récupérer l'accès à votre portefeuille depuis n'importe quel logiciel compatible, en cas de problème sur votre téléphone. Actuellement, opter pour une phrase de 24 mots n'offre pas plus de sécurité qu'une phrase de 12 mots. Je vous recommande donc de choisir une phrase mnémonique de **12 mots**.
+Vous avez ensuite le choix entre une phrase mnémonique de 12 mots ou de 24 mots. Cette phrase vous permettra de récupérer l'accès à votre portefeuille depuis n'importe quel logiciel compatible en cas de problème sur votre téléphone. Actuellement, opter pour une phrase de 24 mots n'offre pas plus de sécurité qu'une phrase de 12 mots. Je vous recommande donc de choisir une phrase mnémonique de **12 mots**.
 
 Green vous fournira ensuite votre phrase mnémonique. Avant de continuer, assurez-vous de ne pas être observé. Cliquez sur "*Afficher la phrase de récupération*" pour l'afficher à l'écran.
 
@@ -188,7 +188,7 @@ En bas de l'écran, vous pouvez sélectionner le taux de frais pour cette transa
 
 35
 
-Cliquez sur "*Suivant*" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant, et les frais sont corrects.
+Cliquez sur "*Suivant*" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant et les frais sont corrects.
 
 36
 

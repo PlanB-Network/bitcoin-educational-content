@@ -24,11 +24,11 @@ https://planb.network/tutorials/wallet/blockstream-green-watch-only
 
 ## Installer et paramétrer le logiciel Blockstream Green
 
-Commencez par installer le logiciel Blockstream Green sur votre ordinateur. Rendez-vous [sur le site officiel](https://blockstream.com/green/) et cliquez sur le bouton "Download Now". Suivez ensuite le processus d'installation en fonction de votre système d'exploitation.
+Commencez par installer le logiciel Blockstream Green sur votre ordinateur. Rendez-vous [sur le site officiel](https://blockstream.com/green/) et cliquez sur le bouton "*Download Now*". Suivez ensuite le processus d'installation en fonction de votre système d'exploitation.
 
 02
 
-Lancez l'application, puis cochez la case "J'accepte les conditions...".
+Lancez l'application, puis cochez la case "*J'accepte les conditions...*".
 
 03
 
@@ -36,19 +36,19 @@ Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’aff
 
 04
 
-Dans le menu "General", vous pouvez modifier la langue du logiciel et activer si vous le souhaitez les fonctionnalités expérimentales.
+Dans le menu "*General*", vous pouvez modifier la langue du logiciel et activer si vous le souhaitez les fonctionnalités expérimentales.
 
 05
 
-Dans le menu "Network", vous pouvez activer la connexion via Tor, un réseau permettant de chiffrer toutes vos connexions et de rendre vos activités difficiles à tracer. Bien que cette option puisse légèrement ralentir le fonctionnement de l’application, elle est fortement recommandée pour protéger votre vie privée, surtout si vous n'utilisez pas votre propre nœud complet.
+Dans le menu "*Network*", vous pouvez activer la connexion via Tor, un réseau permettant de chiffrer toutes vos connexions et de rendre vos activités difficiles à tracer. Bien que cette option puisse légèrement ralentir le fonctionnement de l’application, elle est fortement recommandée pour protéger votre vie privée, surtout si vous n'utilisez pas votre propre nœud complet.
 
 06
 
-Pour les utilisateurs qui disposent de leur nœud complet, Green offre la possibilité de s'y connecter via un serveur Electrum, ce qui garantit un contrôle total sur les informations du réseau Bitcoin et sur la diffusion des transactions. Pour ce faire, cliquez sur le menu "Custom servers and validation", puis entrez les informations de votre serveur Electrum.
+Pour les utilisateurs qui disposent de leur nœud complet, Green offre la possibilité de s'y connecter via un serveur Electrum, ce qui garantit un contrôle total sur les informations du réseau Bitcoin et sur la diffusion des transactions. Pour ce faire, cliquez sur le menu "*Custom servers and validation*", puis entrez les informations de votre serveur Electrum.
 
 07
 
-Une autre fonctionnalité alternative est l’option "SPV Verification", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet. Cette option se trouve également dans le menu "Custom servers and validation".
+Une autre fonctionnalité alternative est l’option "*SPV Verification*", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet. Cette option se trouve également dans le menu "*Custom servers and validation*".
 
 08
 
@@ -56,17 +56,17 @@ Une fois ces paramètres ajustés selon vos besoins, vous pouvez quitter cette i
 
 ## Importer un portefeuille Bitcoin sur Blockstream Green
 
-Vous êtes maintenant prêt à importer votre portefeuille Bitcoin. Cliquez sur le bouton "*Get Started*".
+Vous êtes maintenant prêt à importer votre portefeuille Bitcoin. Cliquez sur le bouton "**Get Started**".
 
 09
 
-Vous avez le choix entre créer un portefeuille logiciel en local ou gérer un portefeuille froid via un hardware wallet. Pour ce tutoriel, nous nous concentrons sur la gestion d'un hardware wallet, donc vous devrez sélectionner l'option "On Hardware Wallet".
+Vous avez le choix entre créer un portefeuille logiciel en local ou gérer un portefeuille froid via un hardware wallet. Pour ce tutoriel, nous nous concentrons sur la gestion d'un hardware wallet, donc vous devrez sélectionner l'option "*On Hardware Wallet*".
 
-L'option "Watch-only", quant à elle, vous permet d'importer une clé publique étendue (`xpub`) pour consulter les transactions d’un portefeuille sans pouvoir dépenser les fonds associés.
+L'option "*Watch-only*", quant à elle, vous permet d'importer une clé publique étendue (`xpub`) pour consulter les transactions d’un portefeuille sans pouvoir dépenser les fonds associés.
 
 10
 
-Si vous utilisez un Jade, cliquez sur le bouton correspondant. Sinon, sélectionnez "Connect a different Hardware Device". Dans mon cas, j'utilise un Ledger Nano S. Pour les utilisateurs de Ledger, assurez-vous d'installer l'application "Bitcoin Legacy" sur votre hardware wallet, car Green ne prend en charge que cette version.
+Si vous utilisez un Jade, cliquez sur le bouton correspondant. Sinon, sélectionnez "*Connect a different Hardware Device*". Dans mon cas, j'utilise un Ledger Nano S. Pour les utilisateurs de Ledger, assurez-vous d'installer l'application "*Bitcoin Legacy*" sur votre hardware wallet, car Green ne prend en charge que cette version.
 
 11
 
@@ -78,11 +78,11 @@ Patientez le temps que Green importe les informations de votre portefeuille, apr
 
 13
 
-À ce stade, deux scénarios sont possibles. Si vous aviez déjà utilisé votre hardware wallet auparavant, vous devriez voir votre compte apparaître sur le logiciel. Mais si, comme moi, vous venez juste d'initialiser votre hardware wallet en générant une phrase mnémonique sans l'avoir encore utilisé, vous devrez créer un compte. Cliquez sur "Create Account".
+À ce stade, deux scénarios sont possibles. Si vous aviez déjà utilisé votre hardware wallet auparavant, vous devriez voir votre compte apparaître sur le logiciel. Mais si, comme moi, vous venez juste d'initialiser votre hardware wallet en générant une phrase mnémonique sans l'avoir encore utilisé, vous devrez créer un compte. Cliquez sur "*Create Account*".
 
 14
 
-Choisissez "Standard" si vous souhaitez utiliser un portefeuille classique.
+Choisissez "*Standard*" si vous souhaitez utiliser un portefeuille classique.
 
 15
 
@@ -92,11 +92,11 @@ Vous avez maintenant accès à votre compte.
 
 ## Utiliser un hardware wallet avec Blockstream Green
 
-Maintenant que votre portefeuille Bitcoin est configuré, vous êtes prêt à recevoir vos premiers sats ! Pour cela, cliquez simplement sur le bouton "Receive".
+Maintenant que votre portefeuille Bitcoin est configuré, vous êtes prêt à recevoir vos premiers sats ! Pour cela, cliquez simplement sur le bouton "*Receive*".
 
 17
 
-Cliquez sur le bouton "Copy address" pour copier l'adresse, ou bien scannez son QR code.
+Cliquez sur le bouton "*Copy address*" pour copier l'adresse, ou bien scannez son QR code.
 
 18
 
@@ -104,7 +104,7 @@ Une fois la transaction diffusée sur le réseau, elle apparaîtra dans votre po
 
 19
 
-Avec des bitcoins dans votre portefeuille, vous êtes maintenant en mesure d'en envoyer. Cliquez sur le bouton "Send".
+Avec des bitcoins dans votre portefeuille, vous êtes maintenant en mesure d'en envoyer. Cliquez sur le bouton "*Send*".
 
 20
 
@@ -116,19 +116,19 @@ Choisissez le montant du paiement.
 
 22
 
-En bas de l'écran, vous pouvez sélectionner le taux de frais pour cette transaction. Vous avez le choix de suivre les recommandations de l'application ou de personnaliser vos frais. Plus les frais sont élevés par rapport aux autres transactions en attente, plus vite votre transaction sera traitée. Pour connaitre le marché de frais, vous pouvez consulter le site [Mempool.space](https://mempool.space/) dans la section "Transaction Fees".
+En bas de l'écran, vous pouvez sélectionner le taux de frais pour cette transaction. Vous avez le choix de suivre les recommandations de l'application ou de personnaliser vos frais. Plus les frais sont élevés par rapport aux autres transactions en attente, plus vite votre transaction sera traitée. Pour connaitre le marché de frais, vous pouvez consulter le site [Mempool.space](https://mempool.space/) dans la section "*Transaction Fees*".
 
 23
 
-Si vous souhaitez sélectionner spécifiquement quels UTXOs utiliser dans votre transaction, cliquez sur le bouton "Manual coin selection".
+Si vous souhaitez sélectionner spécifiquement quels UTXOs utiliser dans votre transaction, cliquez sur le bouton "*Manual coin selection*".
 
 24
 
-Vérifiez les paramètres de votre transaction et, si tout est conforme à vos attentes, cliquez sur "Next".
+Vérifiez les paramètres de votre transaction et, si tout est conforme à vos attentes, cliquez sur "*Next*".
 
 25
 
-Vérifiez une nouvelle fois que l'adresse, le montant et les frais sont corrects, puis cliquez sur "Confirm transaction".
+Vérifiez une nouvelle fois que l'adresse, le montant et les frais sont corrects, puis cliquez sur "*Confirm transaction*".
 
 26
 

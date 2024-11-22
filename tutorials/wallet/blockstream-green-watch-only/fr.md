@@ -30,7 +30,7 @@ Dans ce tutoriel, nous nous concentrerons uniquement sur la création d'un porte
 
 https://planb.network/tutorials/wallet/blockstream-green-desktop
 
-https://planb.network/tutorials/wallet/blockstream-green-mobile
+https://planb.network/tutorials/wallet/blockstream-green
 
 ## Installer et paramétrer l'application Blockstream Green
 
@@ -122,4 +122,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser 
 
 Je vous conseille également de découvrir cet autre tutoriel complet sur l'application Blockstream Green pour mettre en place un portefeuille chaud :
 
-https://planb.network/tutorials/wallet/blockstream-green-mobile
+https://planb.network/tutorials/wallet/blockstream-green

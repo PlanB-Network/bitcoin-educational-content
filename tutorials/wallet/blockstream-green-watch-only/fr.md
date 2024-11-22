@@ -4,11 +4,11 @@ description: Configuration d'un portefeuille watch-only
 ---
 ![cover](assets/cover.webp)
 
-Dans ce tutoriel, vous allez découvrir comment mettre en place facilement un portefeuille "watch-only" sur mobile grâce à l'application Blockstream Green.
+Dans ce tutoriel, vous allez découvrir comment mettre en place facilement un portefeuille "*watch-only*" sur mobile grâce à l'application Blockstream Green.
 
 ## C'est quoi un Watch-Only Wallet ?
 
-Un portefeuille en lecture seule, ou "watch-only wallet", est un type de logiciel conçu pour permettre à l'utilisateur d'observer les transactions associées à une ou plusieurs clés publiques Bitcoin spécifiques, sans pour autant avoir accès aux clés privées correspondantes.
+Un portefeuille en lecture seule, ou "*watch-only wallet*", est un type de logiciel conçu pour permettre à l'utilisateur d'observer les transactions associées à une ou plusieurs clés publiques Bitcoin spécifiques, sans pour autant avoir accès aux clés privées correspondantes.
 
 Ce type d'application conserve uniquement les données nécessaires à la surveillance d'un portefeuille Bitcoin, notamment pour voir son solde et son historique des transactions, mais elle n'a pas accès aux clés privées. Ainsi, il est impossible de dépenser les bitcoins détenus par le portefeuille sur l'application watch-only.
 
@@ -44,15 +44,15 @@ Pour les utilisateurs Android, vous avez aussi la possibilité d'installer l'app
 
 04
 
-Lancez l'application, puis cochez la case "J'accepte les conditions...".
+Lancez l'application, puis cochez la case "*J'accepte les conditions...*".
 
 05
 
-Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur "Paramètres de l'application".
+Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur "*Paramètres de l'application*".
 
 06
 
-L’option "Enhanced Privacy", disponible uniquement sur Android, améliore la confidentialité en désactivant les captures d’écran et en masquant les aperçus d’application. Elle verrouille également automatiquement l’accès à l’application dès que votre téléphone est verrouillé, ce qui rend vos données plus difficiles à exposer.
+L’option "*Enhanced Privacy*", disponible uniquement sur Android, améliore la confidentialité en désactivant les captures d’écran et en masquant les aperçus d’application. Elle verrouille également automatiquement l’accès à l’application dès que votre téléphone est verrouillé, ce qui rend vos données plus difficiles à exposer.
 
 07
 
@@ -64,17 +64,17 @@ Pour les utilisateurs qui disposent de leur nœud complet, Green Wallet offre la
 
 09
 
-Une autre fonctionnalité alternative est l’option "SPV Verification", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet.
+Une autre fonctionnalité alternative est l’option "*SPV Verification*", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet.
 
 10
 
-Une fois ces paramètres ajustés selon vos besoins, cliquez sur le bouton "Sauvegarder" et redémarrez l’application.
+Une fois ces paramètres ajustés selon vos besoins, cliquez sur le bouton "*Sauvegarder*" et redémarrez l’application.
 
 11
 
 ## Créer un portefeuille watch-only sur Blockstream Green
 
-Vous êtes maintenant prêt à créer un portefeuille watch-only. Cliquez sur le bouton "Get Started".
+Vous êtes maintenant prêt à créer un portefeuille watch-only. Cliquez sur le bouton "*Get Started*".
 
 12
 
@@ -82,11 +82,11 @@ Vous aurez le choix entre plusieurs types de portefeuilles. Pour ce tutoriel, no
 
 13
 
-Choisissez l'option "Signature unique".
+Choisissez l'option "*Signature unique*".
 
 14
 
-Sélectionnez ensuite "Bitcoin". Pour ma part, je réalise ce tutoriel sur un portefeuille testnet, mais la procédure reste identique sur le mainnet.
+Sélectionnez ensuite "*Bitcoin*". Pour ma part, je réalise ce tutoriel sur un portefeuille testnet, mais la procédure reste identique sur le mainnet.
 
 15
 
@@ -96,11 +96,11 @@ Il vous sera demandé de fournir soit une clé publique étendue (`xpub`, `zpub`
 
 Vous devrez donc récupérer cette information depuis le portefeuille que vous souhaitez suivre via votre portefeuille watch-only. La clé publique étendue n'est pas sensible en termes de sécurité, car elle ne permet pas l'accès aux clés privées, mais elle est sensible pour votre confidentialité, puisqu'elle révèle toutes vos clés publiques et donc toutes vos transactions Bitcoin.
 
-Imaginons que vous utilisiez Sparrow Wallet pour gérer votre portefeuille sur un hardware wallet, vous trouverez cette information dans la section "Settings". Trouver cette information va dépendre du logiciel de gestion de portefeuille que vous utilisez, mais cela se trouve généralement dans les paramètres.
+Imaginons que vous utilisiez Sparrow Wallet pour gérer votre portefeuille sur un hardware wallet, vous trouverez cette information dans la section "*Settings*". Trouver cette information va dépendre du logiciel de gestion de portefeuille que vous utilisez, mais cela se trouve généralement dans les paramètres.
 
 17
 
-Copiez votre clé publique étendue et renseignez-la dans l'application Green, puis cliquez sur "Se connecter".
+Copiez votre clé publique étendue et renseignez-la dans l'application Green, puis cliquez sur "*Se connecter*".
 
 18
 
@@ -108,15 +108,15 @@ Vous pourrez alors voir le solde associé à cette clé ainsi que l'historique d
 
 19
 
-En cliquant sur "Recevoir", vous pouvez générer une adresse de réception pour recevoir des bitcoins sur le portefeuille de votre hardware wallet. Cependant, je vous déconseille d'utiliser cette option sans vérifier préalablement sur l'écran du hardware wallet que celui-ci dispose de la clé privée associée à l'adresse générée, avant de l'utiliser pour verrouiller des bitcoins. C'est une bonne pratique à suivre.
+En cliquant sur "*Recevoir*", vous pouvez générer une adresse de réception pour recevoir des bitcoins sur le portefeuille de votre hardware wallet. Cependant, je vous déconseille d'utiliser cette option sans vérifier préalablement sur l'écran du hardware wallet que celui-ci dispose de la clé privée associée à l'adresse générée, avant de l'utiliser pour verrouiller des bitcoins. C'est une bonne pratique à suivre.
 
 20
 
-L'option "Balayer" vous permet d'entrer manuellement une clé privée pour dépenser des fonds directement depuis votre application Green. Sauf dans des cas très spécifiques, je recommande de ne pas utiliser cette fonction, car elle nécessite de révéler votre clé privée sur un téléphone, qui est bien plus vulnérable aux attaques informatiques que votre hardware wallet.
+L'option "*Balayer*" vous permet d'entrer manuellement une clé privée pour dépenser des fonds directement depuis votre application Green. Sauf dans des cas très spécifiques, je recommande de ne pas utiliser cette fonction, car elle nécessite de révéler votre clé privée sur un téléphone, qui est bien plus vulnérable aux attaques informatiques que votre hardware wallet.
 
 21
 
-Et voilà, vous savez maintenant comment configurer facilement un portefeuille watch-only sur votre smartphone ! C'est un outil très pratique pour surveiller un portefeuille sur un hardware wallet sans devoir le connecter et le déverrouiller chaque fois.
+Et voilà, vous savez maintenant comment configurer facilement un portefeuille watch-only sur votre smartphone ! C'est un outil très pratique pour surveiller un portefeuille sur un hardware wallet sans devoir le connecter et le déverrouiller à chaque fois.
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !
 

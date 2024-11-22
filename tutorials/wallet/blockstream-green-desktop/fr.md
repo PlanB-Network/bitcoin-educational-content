@@ -24,7 +24,7 @@ https://planb.network/tutorials/wallet/blockstream-green-watch-only
 
 ## Installer et paramétrer le logiciel Blockstream Green
 
-La première étape est naturellement d'installer le logiciel Green sur votre ordinateur. Rendez-vous sur le site officiel et cliquez sur le bouton "Download Now", puis suivez le processus d'instalation en fonciton de votre système d'exploitation.
+Commencez par installer le logiciel Blockstream Green sur votre ordinateur. Rendez-vous [sur le site officiel](https://blockstream.com/green/) et cliquez sur le bouton "Download Now". Suivez ensuite le processus d'installation en fonction de votre système d'exploitation.
 
 02
 
@@ -32,7 +32,7 @@ Lancez l'application, puis cochez la case "J'accepte les conditions...".
 
 03
 
-Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur l'icone des paramètres en bas à gauche.
+Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur l'icône des paramètres en bas à gauche.
 
 04
 

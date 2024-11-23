@@ -5,7 +5,7 @@ description: Configuration d'un portefeuille sur la sidechain Liquid Network
 ![cover](assets/cover.webp)
 Le protocole Bitcoin présente des limitations techniques intentionnelles qui permettent de maintenir la décentralisation du réseau et d'assurer une distribution de la sécurité parmi tous les utilisateurs. Cependant, ces limites peuvent parfois frustrer les utilisateurs, notamment lors de congestions dues à un volume élevé de transactions simultanées. Le débat sur la scalabilité de Bitcoin a longtemps divisé la communauté, en particulier lors de la Blocksize War. Depuis cet épisode, il est largement reconnu au sein de la communauté Bitcoin que l'évolutivité doit être assurée par des solutions off-chain, sur des systèmes de seconde couche. Parmi ces solutions, il y a les sidechains, qui sont encore relativement méconnues et peu utilisées comparativement à d'autres systèmes comme le Lightning Network.
 
-Une sidechain est une blockchain indépendante qui fonctionne en parallèle de la blockchain principale de Bitcoin. Elle utilise le bitcoin comme unité de compte grâce à un mécanisme appelé "two-way peg". Ce système permet de verrouiller des bitcoins sur la chaîne principale afin de reproduire leur valeur sur la sidechain, où ils circulent sous forme de tokens adossés aux bitcoins d'origine. Ces tokens conservent normalement une parité de valeur avec les bitcoins verrouillés sur la chaîne principale, et le processus peut être inversé pour récupérer les fonds sur Bitcoin.
+Une sidechain est une blockchain indépendante qui fonctionne en parallèle de la blockchain principale de Bitcoin. Elle utilise le bitcoin comme unité de compte grâce à un mécanisme appelé "*two-way peg*". Ce système permet de verrouiller des bitcoins sur la chaîne principale afin de reproduire leur valeur sur la sidechain, où ils circulent sous forme de tokens adossés aux bitcoins d'origine. Ces tokens conservent normalement une parité de valeur avec les bitcoins verrouillés sur la chaîne principale, et le processus peut être inversé pour récupérer les fonds sur Bitcoin.
 
 L'objectif des sidechains est d'offrir des fonctionnalités supplémentaires ou des améliorations techniques, comme des transactions plus rapides, des frais réduits ou la prise en charge de contrats intelligents. Ces innovations ne peuvent pas toujours être mises en œuvre directement sur la blockchain de Bitcoin sans en compromettre la décentralisation ou la sécurité. Les sidechains permettent donc de tester et d’explorer de nouvelles solutions tout en préservant l’intégrité de Bitcoin. Cependant, ces protocoles nécessitent souvent des compromis, notamment en matière de décentralisation et de sécurité, en fonction du modèle de gouvernance et du mécanisme de consensus choisi.
 
@@ -49,15 +49,15 @@ Pour les utilisateurs Android, vous avez aussi la possibilité d'installer l'app
 
 05
 
-Lancez l'application, puis cochez la case "J'accepte les conditions...".
+Lancez l'application, puis cochez la case "*J'accepte les conditions...*".
 
 06
 
-Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur "Paramètres de l'application".
+Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur "*Paramètres de l'application*".
 
 07
 
-L’option "Enhanced Privacy", disponible uniquement sur Android, améliore la confidentialité en désactivant les captures d’écran et en masquant les aperçus d’application. Elle verrouille également automatiquement l’accès à l’application dès que votre téléphone est verrouillé, ce qui rend vos données plus difficiles à exposer.
+L’option "*Enhanced Privacy*", disponible uniquement sur Android, améliore la confidentialité en désactivant les captures d’écran et en masquant les aperçus d’application. Elle verrouille également automatiquement l’accès à l’application dès que votre téléphone est verrouillé, ce qui rend vos données plus difficiles à exposer.
 
 08
 
@@ -69,21 +69,21 @@ Pour les utilisateurs qui disposent de leur nœud complet, Green Wallet offre la
 
 10
 
-Une autre fonctionnalité alternative est l’option "SPV Verification", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet. Encore une fois, cela concernera uniquement vos portefeuilles Bitcoin onchain, et pas Liquid.
+Une autre fonctionnalité alternative est l’option "*SPV Verification*", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet. Encore une fois, cela concernera uniquement vos portefeuilles Bitcoin onchain, et pas Liquid.
 
 11
 
-Une fois ces paramètres ajustés selon vos besoins, cliquez sur le bouton "Sauvegarder" et redémarrez l’application.
+Une fois ces paramètres ajustés selon vos besoins, cliquez sur le bouton "*Sauvegarder*" et redémarrez l’application.
 
 12
 
 ## Créer un portefeuille Liquid sur Blockstream Green
 
-Vous êtes maintenant prêt à créer un portefeuille Liquid. Cliquez sur le bouton "Get Started".
+Vous êtes maintenant prêt à créer un portefeuille Liquid. Cliquez sur le bouton "*Get Started*".
 
 13
 
-Vous avez le choix entre créer un portefeuille logiciel en local ou gérer un portefeuille froid via un hardware wallet. Pour ce tutoriel, nous nous concentrons sur la création d'un portefeuille chaud sur Liquid, donc vous devrez sélectionner l'option "On This Device". Vous pouvez également utiliser un hardware wallet compatible, tel que le Blockstream Jade, pour sécuriser votre portefeuille Liquid.
+Vous avez le choix entre créer un portefeuille logiciel en local ou gérer un portefeuille froid via un hardware wallet. Pour ce tutoriel, nous nous concentrons sur la création d'un portefeuille chaud sur Liquid, donc vous devrez sélectionner l'option "*On This Device*". Vous pouvez également utiliser un hardware wallet compatible, tel que le Blockstream Jade, pour sécuriser votre portefeuille Liquid.
 
 14
 
@@ -93,7 +93,7 @@ Vous pouvez ensuite choisir de restaurer un portefeuille Bitcoin existant ou d'e
 
 Vous avez ensuite le choix entre une phrase mnémonique de 12 mots ou de 24 mots. Cette phrase vous permettra de récupérer l'accès à votre portefeuille depuis n'importe quel logiciel compatible en cas de problème sur votre téléphone. Actuellement, opter pour une phrase de 24 mots n'offre pas plus de sécurité qu'une phrase de 12 mots. Je vous recommande donc de choisir une phrase mnémonique de **12 mots**.
 
-Green vous fournira ensuite votre phrase mnémonique. Avant de continuer, assurez-vous de ne pas être observé. Cliquez sur "Afficher la phrase de récupération" pour l'afficher à l'écran.
+Green vous fournira ensuite votre phrase mnémonique. Avant de continuer, assurez-vous de ne pas être observé. Cliquez sur "*Afficher la phrase de récupération*" pour l'afficher à l'écran.
 
 16
 
@@ -105,7 +105,7 @@ Elle permet de restaurer l'accès à vos bitcoins en cas de perte, de vol ou de 
 
 17
 
-Après avoir correctement noté votre phrase mnémonique sur un support physique, cliquez sur "Continuez". Green Wallet vous demandera ensuite de confirmer certains mots de votre phrase pour vérifier que vous les avez bien enregistrés. Complétez les espaces avec les mots manquants.
+Après avoir correctement noté votre phrase mnémonique sur un support physique, cliquez sur "*Continuez*". Green Wallet vous demandera ensuite de confirmer certains mots de votre phrase pour vérifier que vous les avez bien enregistrés. Complétez les espaces avec les mots manquants.
 
 18
 
@@ -119,11 +119,11 @@ Entrez votre PIN une seconde fois pour le confirmer.
 
 20
 
-Patientez le temps de la création de votre portefeuille, puis cliquez sur le bouton "Créer un compte".
+Patientez le temps de la création de votre portefeuille, puis cliquez sur le bouton "*Créer un compte*".
 
 21
 
-Dans la case "Actifs", sélectionnez "Liquid Bitcoin". Vous avez ensuite le choix entre un portefeuille standard à signature unique, que nous utiliserons dans ce tutoriel, ou un portefeuille protégé par une authentification à deux facteurs (2FA).
+Dans la case "*Actifs*", sélectionnez "*Liquid Bitcoin*". Vous avez ensuite le choix entre un portefeuille standard à signature unique, que nous utiliserons dans ce tutoriel, ou un portefeuille protégé par une authentification à deux facteurs (2FA).
 
 22
 
@@ -141,15 +141,15 @@ Si vous souhaitez personnaliser votre portefeuille, cliquez sur les trois petits
 
 24
 
-L'option "Renommer" vous permet de personnaliser le nom de votre portefeuille, ce qui est particulièrement utile si vous gérez plusieurs portefeuilles sur la même application.
+L'option "*Renommer*" vous permet de personnaliser le nom de votre portefeuille, ce qui est particulièrement utile si vous gérez plusieurs portefeuilles sur la même application.
 
 25
 
-Le menu "Unité" vous donne la possibilité de changer l'unité de base de votre portefeuille. Vous pouvez par exemple choisir de l'afficher en satoshis plutôt qu'en bitcoins.
+Le menu "*Unité*" vous donne la possibilité de changer l'unité de base de votre portefeuille. Vous pouvez par exemple choisir de l'afficher en satoshis plutôt qu'en bitcoins.
 
 26
 
-Le menu "Paramètres" offre un accès aux différentes options de votre portefeuille Bitcoin.
+Le menu "*Paramètres*" offre un accès aux différentes options de votre portefeuille Bitcoin.
 
 27
 
@@ -169,7 +169,7 @@ Si vous ne possédez pas encore de L-BTC, plusieurs options s'offrent à vous. L
 
 30
 
-Pour générer une adresse Liquid, cliquez sur le bouton "Recevoir".
+Pour générer une adresse Liquid, cliquez sur le bouton "*Recevoir*".
 
 31
 
@@ -185,7 +185,7 @@ Attendez d'obtenir suffisamment de confirmations pour considérer la transaction
 
 34
 
-Avec des L-sats dans votre portefeuille Liquid, vous pouvez maintenant également en envoyer. Cliquez sur "Envoyer".
+Avec des L-sats dans votre portefeuille Liquid, vous pouvez maintenant également en envoyer. Cliquez sur "*Envoyer*".
 
 35
 
@@ -197,7 +197,7 @@ Choisissez le montant du paiement.
 
 37
 
-Cliquez sur "Suivant" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant et les frais sont corrects.
+Cliquez sur "*Suivant*" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant et les frais sont corrects.
 
 38
 

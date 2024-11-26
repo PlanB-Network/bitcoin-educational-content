@@ -1,14 +1,13 @@
-id: b6bde4ac-9b6f-4511-9777-7566045fbda8
+id: b4c5cb2c-e7ee-4521-a750-edefb0747db3
 builder: Braiins
-
-level: beginner
 
 category: hardware
 
 tags:
   - mining
-  - guides
-  - DIY
+  - Hardware
+
+level: advanced
 
 # Proofreading metadata
 original_language: en

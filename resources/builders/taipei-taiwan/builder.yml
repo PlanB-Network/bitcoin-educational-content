@@ -1,4 +1,4 @@
-name: Taipei Taiwan
+name: PlanB network Taipei
 category: communities
 address_line_1: Taipei, Taiwan
 address_line_2:
@@ -7,7 +7,7 @@ language:
   - zh-tw
   - en
 links:
-  youtube: https://www.youtube.com/@PlanBSummerSchoolTaiwan
+  twitter: https://x.com/PlanBTaiwanNode
 
 tags:
   - bitcoin-only

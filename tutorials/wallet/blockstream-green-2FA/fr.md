@@ -4,11 +4,11 @@ description: Configuration d'un multisig 2/2 sur Green Wallet
 ---
 ![cover](assets/cover.webp)
 
-Un portefeuille logiciel est une application installée sur un ordinateur, un smartphone ou tout autre appareil connecté à Internet, permettant de gérer et de sécuriser les clés de son portefeuille Bitcoin. Contrairement aux hardware wallets, qui isolent les clés privées, les portefeuilles "*chauds*" fonctionnent donc dans un environnement potentiellement exposé aux cyberattaques, ce qui augmente les risques de piratage et de vol.
+Un portefeuille logiciel est une application installée sur un ordinateur, un smartphone ou tout autre appareil connecté à Internet, permettant de gérer et de sécuriser les clés de son portefeuille Bitcoin. Contrairement aux hardware wallets, qui isolent les clés privées, les portefeuilles "**chauds**" fonctionnent donc dans un environnement potentiellement exposé aux cyberattaques, ce qui augmente les risques de piratage et de vol.
 
 Les portefeuilles logiciels sont à utiliser pour gérer des montants raisonnables de bitcoins, notamment pour les transactions du quotidien. Cela peut être une option intéressante également pour les personnes possédant un patrimoine limité en bitcoins, pour qui l'investissement dans un hardware wallet peut sembler disproportionné. Cependant, leur exposition constante à Internet les rend moins sûrs pour stocker votre épargne de long terme ou des fonds importants. Pour ces derniers, il est préférable d'opter pour des solutions plus sécurisées, comme les hardware wallets.
 
-Dans ce tutoriel, je vous propose de découvrir comment améliorer la sécurité d'un portefeuille chaud en utilisant l'option "2FA" sur Blockstream Green.
+Dans ce tutoriel, je vous propose de découvrir comment améliorer la sécurité d'un portefeuille chaud en utilisant l'option "*2FA*" sur Blockstream Green.
 
 01
 
@@ -24,7 +24,7 @@ https://planb.network/tutorials/wallet/blockstream-green-liquid
 
 ## L'option multisig 2/2 (2FA)
 
-Sur Green, vous pouvez tout à fait créer un portefeuille chaud classique "singlesig". Mais vous avez également l'option "2FA multisig", qui permet d'améliorer la sécurité de votre portefeuille chaud sans trop compliquer sa gestion quotidienne.
+Sur Green, vous pouvez tout à fait créer un portefeuille chaud classique "*singlesig*". Mais vous avez également l'option "*2FA multisig*", qui permet d'améliorer la sécurité de votre portefeuille chaud sans trop compliquer sa gestion quotidienne.
 
 Vous allez donc configurer un portefeuille multisig 2/2, ce qui signifie que chaque transaction requerra la signature de deux clés. La première clé, dérivée de votre phrase mnémonique de 12 ou 24 mots, est sécurisée localement avec un code PIN sur votre téléphone. Vous contrôlez entièrement cette clé. La seconde clé est conservée par les serveurs de Blockstream et son utilisation pour signer nécessite une authentification, qui peut être réalisée via un code reçu par email, SMS, appel téléphonique, ou, comme nous le verrons dans ce tutoriel, via une application d'authentification (Authy, Google Authenticator, etc.).
 
@@ -38,7 +38,7 @@ Cette contrainte rend l'option 2FA plus adaptée à un portefeuille de dépense,
 
 Un autre inconvénient de cette méthode de sécurisation est que vous devrez utiliser des modèles de scripts minoritaires. Cela signifie que, du point de vue de la confidentialité, les choses se compliquent : très peu de personnes utilisent le même type de script que vous, ce qui permet ainsi à un observateur extérieur d'identifier plus facilement votre empreinte de portefeuille. De plus, ces scripts entraîneront des frais de transaction plus élevés en raison de leur taille plus importante.
 
-Si vous préférez ne pas utiliser l'option 2FA et souhaitez simplement configurer un portefeuille "singlesig" sur Green, je vous invite à consulter cet autre tutoriel :
+Si vous préférez ne pas utiliser l'option 2FA et souhaitez simplement configurer un portefeuille "*singlesig*" sur Green, je vous invite à consulter cet autre tutoriel :
 
 https://planb.network/tutorials/wallet/blockstream-green-liquid
 
@@ -54,15 +54,15 @@ Pour les utilisateurs Android, vous avez aussi la possibilité d'installer l'app
 
 04
 
-Lancez l'application, puis cochez la case "J'accepte les conditions...".
+Lancez l'application, puis cochez la case "*J'accepte les conditions...*".
 
 05
 
-Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur "Paramètres de l'application".
+Lorsque vous ouvrez Green pour la première fois, l’écran d’accueil s’affiche sans portefeuille configuré. Plus tard, si vous créez ou importez des portefeuilles, ils apparaîtront dans cette interface. Avant de passer à la création d’un portefeuille, je vous conseille d’ajuster les paramètres de l’application en fonction de vos attentes. Cliquez sur "*Paramètres de l'application*".
 
 06
 
-L’option "Enhanced Privacy", disponible uniquement sur Android, améliore la confidentialité en désactivant les captures d’écran et en masquant les aperçus d’application. Elle verrouille également automatiquement l’accès à l’application dès que votre téléphone est verrouillé, ce qui rend vos données plus difficiles à exposer.
+L’option "*Enhanced Privacy*", disponible uniquement sur Android, améliore la confidentialité en désactivant les captures d’écran et en masquant les aperçus d’application. Elle verrouille également automatiquement l’accès à l’application dès que votre téléphone est verrouillé, ce qui rend vos données plus difficiles à exposer.
 
 07
 
@@ -74,21 +74,21 @@ Pour les utilisateurs qui disposent de leur nœud complet, Green Wallet offre la
 
 09
 
-Une autre fonctionnalité alternative est l’option "SPV Verification", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet.
+Une autre fonctionnalité alternative est l’option "*SPV Verification*", qui permet de vérifier directement certaines données de la blockchain et donc de réduire le besoin de confiance envers le nœud par défaut de Blockstream, bien que cette méthode ne fournisse pas toutes les garanties d’un nœud complet.
 
 10
 
-Une fois ces paramètres ajustés selon vos besoins, cliquez sur le bouton "Sauvegarder" et redémarrez l’application.
+Une fois ces paramètres ajustés selon vos besoins, cliquez sur le bouton "*Sauvegarder*" et redémarrez l’application.
 
 11
 
 ## Créer un portefeuille Bitcoin sur Blockstream Green
 
-Vous êtes maintenant prêt à créer un portefeuille Bitcoin. Cliquez sur le bouton "Get Started".
+Vous êtes maintenant prêt à créer un portefeuille Bitcoin. Cliquez sur le bouton "*Get Started*".
 
 12
 
-Vous avez le choix entre créer un portefeuille logiciel en local ou gérer un portefeuille froid via un hardware wallet. Pour ce tutoriel, nous nous concentrons sur la création d'un portefeuille chaud, donc vous devrez sélectionner l'option "On This Device".
+Vous avez le choix entre créer un portefeuille logiciel en local ou gérer un portefeuille froid via un hardware wallet. Pour ce tutoriel, nous nous concentrons sur la création d'un portefeuille chaud, donc vous devrez sélectionner l'option "*On This Device*".
 
 13
 
@@ -98,7 +98,7 @@ Vous pouvez ensuite choisir de restaurer un portefeuille Bitcoin existant ou d'e
 
 Vous avez ensuite le choix entre une phrase mnémonique de 12 mots ou de 24 mots. Cette phrase vous permettra de récupérer l'accès à votre portefeuille depuis n'importe quel logiciel compatible en cas de problème sur votre téléphone. Actuellement, opter pour une phrase de 24 mots n'offre pas plus de sécurité qu'une phrase de 12 mots. Je vous recommande donc de choisir une phrase mnémonique de **12 mots**.
 
-Green vous fournira ensuite votre phrase mnémonique. Avant de continuer, assurez-vous de ne pas être observé. Cliquez sur "Afficher la phrase de récupération" pour l'afficher à l'écran.
+Green vous fournira ensuite votre phrase mnémonique. Avant de continuer, assurez-vous de ne pas être observé. Cliquez sur "*Afficher la phrase de récupération*" pour l'afficher à l'écran.
 
 15
 
@@ -110,7 +110,7 @@ Elle permet de restaurer l'accès à vos clés locales en cas de perte, de vol o
 
 16
 
-Après avoir correctement noté votre phrase mnémonique sur un support physique, cliquez sur "Continuez". Green Wallet vous demandera ensuite de confirmer certains mots de votre phrase pour vérifier que vous les avez bien enregistrés. Complétez les espaces avec les mots manquants.
+Après avoir correctement noté votre phrase mnémonique sur un support physique, cliquez sur "*Continuez*". Green Wallet vous demandera ensuite de confirmer certains mots de votre phrase pour vérifier que vous les avez bien enregistrés. Complétez les espaces avec les mots manquants.
 
 17
 
@@ -124,7 +124,7 @@ Entrez votre PIN une seconde fois pour le confirmer.
 
 19
 
-Patientez le temps de la création de votre portefeuille, puis cliquez sur le bouton "Créer un compte".
+Patientez le temps de la création de votre portefeuille, puis cliquez sur le bouton "*Créer un compte*".
 
 20
 
@@ -142,7 +142,7 @@ Cliquez sur votre compte.
 
 23
 
-Cliquez sur le bouton vert "Augmentez la sécurité de votre compte en ajoutant le 2FA".
+Cliquez sur le bouton vert "*Augmentez la sécurité de votre compte en ajoutant le 2FA*".
 
 24
 
@@ -150,7 +150,7 @@ Vous aurez ensuite la possibilité de choisir la méthode d'authentification pou
 
 https://planb.network/tutorials/others/authy
 
-Sélectionnez "Authentificateur Application".
+Sélectionnez "*Authentificateur Application*".
 
 25
 
@@ -162,7 +162,7 @@ Dans votre application d'authentification, ajoutez un nouveau code, puis scannez
 
 *Évidemment, vous ne devez jamais partager cette clé et ce QR code sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.*
 
-Cliquez sur le bouton "Continuez".
+Cliquez sur le bouton "*Continuez*".
 
 27
 
@@ -188,15 +188,15 @@ Si vous souhaitez personnaliser votre portefeuille, cliquez sur les trois petits
 
 32
 
-L'option "Renommer" vous permet de personnaliser le nom de votre portefeuille, ce qui est particulièrement utile si vous gérez plusieurs portefeuilles sur la même application.
+L'option "*Renommer*" vous permet de personnaliser le nom de votre portefeuille, ce qui est particulièrement utile si vous gérez plusieurs portefeuilles sur la même application.
 
 33
 
-Le menu "Unité" vous donne la possibilité de changer l'unité de base de votre portefeuille. Vous pouvez par exemple choisir de l'afficher en satoshis plutôt qu'en bitcoins.
+Le menu "*Unité*" vous donne la possibilité de changer l'unité de base de votre portefeuille. Vous pouvez par exemple choisir de l'afficher en satoshis plutôt qu'en bitcoins.
 
 34
 
-Le menu "Paramètres" offre un accès aux différentes options de votre portefeuille Bitcoin.
+Le menu "*Paramètres*" offre un accès aux différentes options de votre portefeuille Bitcoin.
 
 35
 
@@ -210,11 +210,11 @@ Vous pouvez aussi y modifier le code PIN de votre portefeuille et activer une co
 
 ## Utiliser Blockstream Green
 
-Maintenant que votre portefeuille Bitcoin est configuré, vous êtes prêt à recevoir vos premiers sats ! Pour cela, cliquez simplement sur le bouton "Recevoir".
+Maintenant que votre portefeuille Bitcoin est configuré, vous êtes prêt à recevoir vos premiers sats ! Pour cela, cliquez simplement sur le bouton "*Recevoir*".
 
 38
 
-Green affichera alors la première adresse de réception vierge de votre portefeuille. Vous pouvez soit scanner le QR code associé, soit copier l'adresse directement pour y envoyer des bitcoins. Ce type d'adresse ne spécifie pas le montant à envoyer par le payeur. Vous pouvez toutefois générer une adresse qui demande un montant spécifique, en cliquant sur les trois petits points en haut à droite, puis sur "Montant de la demande", et en saisissant le montant désiré.
+Green affichera alors la première adresse de réception vierge de votre portefeuille. Vous pouvez soit scanner le QR code associé, soit copier l'adresse directement pour y envoyer des bitcoins. Ce type d'adresse ne spécifie pas le montant à envoyer par le payeur. Vous pouvez toutefois générer une adresse qui demande un montant spécifique, en cliquant sur les trois petits points en haut à droite, puis sur "*Montant de la demande*", et en saisissant le montant désiré.
 
 39
 
@@ -226,7 +226,7 @@ Attendez d'obtenir suffisamment de confirmations pour considérer la transaction
 
 41
 
-Avec des bitcoins dans votre portefeuille, vous pouvez maintenant également en envoyer. Cliquez sur "Envoyer".
+Avec des bitcoins dans votre portefeuille, vous pouvez maintenant également en envoyer. Cliquez sur "*Envoyer*".
 
 42
 
@@ -238,11 +238,11 @@ Choisissez le montant du paiement.
 
 44
 
-En bas de l'écran, vous pouvez sélectionner le taux de frais pour cette transaction. Vous avez le choix de suivre les recommandations de l'application ou de personnaliser vos frais. Plus les frais sont élevés par rapport aux autres transactions en attente, plus vite votre transaction sera traitée. Pour connaitre le marché de frais, vous pouvez consulter le site [Mempool.space](https://mempool.space/) dans la section "Transaction Fees".
+En bas de l'écran, vous pouvez sélectionner le taux de frais pour cette transaction. Vous avez le choix de suivre les recommandations de l'application ou de personnaliser vos frais. Plus les frais sont élevés par rapport aux autres transactions en attente, plus vite votre transaction sera traitée. Pour connaitre le marché de frais, vous pouvez consulter le site [Mempool.space](https://mempool.space/) dans la section "*Transaction Fees*".
 
 45
 
-Cliquez sur "Suivant" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant et les frais sont corrects.
+Cliquez sur "*Suivant*" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant et les frais sont corrects.
 
 46
 
@@ -250,7 +250,7 @@ Si tout vous convient, faites glisser le bouton vert en bas de l'écran vers la 
 
 47
 
-C'est à ce moment que vous devez entrer votre code d'authentification pour déverrouiller la seconde clé du multisig conservée par Blockstream. Saisissez le code à 6 chiffres affiché sur votre application d'authentification.
+C'est à ce moment-là que vous devez entrer votre code d'authentification pour déverrouiller la seconde clé du multisig conservée par Blockstream. Saisissez le code à 6 chiffres affiché sur votre application d'authentification.
 
 48
 

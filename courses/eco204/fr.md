@@ -1068,16 +1068,6 @@ Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le m
 
 Les banques centrales ont évolué pour devenir des prêteurs de dernier recours, suspendant la convertibilité de leur monnaie en or. Bien que cette action ait été initialement conçue comme une solution temporaire, elle est finalement devenue permanente, marquant ainsi l'avènement du concept du prêteur de dernier recours. Cette transformation a façonné les banques centrales telles que nous les connaissons aujourd'hui. Cependant, dans des économies plus fragiles, cette capacité à imprimer de la monnaie à volonté peut entraîner des conséquences indésirables, comme l'hyperinflation, si elle est utilisée de manière irresponsable.
 
-## Évaluez ce cours
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Examen final
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Livres et ressources
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -1102,11 +1092,50 @@ L'hyperinflation est un sujet fascinant qui a été étudié à travers divers �
 - "The Hyperinflation Survival Guide: Strategies for American Businesses" par Gerald Swanson
   Un guide pratique sur la manière dont les entreprises peuvent naviguer dans un environnement hyperinflationniste.
 
-- "Dying of Money: Lessons of the Great German and American Inflations" par Jens O. Parsson
-  Une analyse comparative des crises inflationnistes en Allemagne et aux États-Unis.
+# Conclusion
 
-- "The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class" par Frederick Taylor
-  Une exploration narrative de l'impact social et économique de l'hyperinflation sur la société allemande.
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-- "Currency Boards for Developing Countries: A Handbook" par Steve Hanke et Kurt Schuler
-  Bien que le focus soit sur les caisses d'émission, ce livre offre une perspective sur comment éviter des situations d'hyperinflation.
+## Évaluez ce cours
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+
+Félicitations pour avoir terminé ce cours !
+
+Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
+
+Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
+
+#### Découvrez la vie de F. Bastiat avec
+
+https://planb.network/courses/eco102
+
+#### Découvrez la pensée économique de l'école autrichienne avec
+
+https://planb.network/courses/eco201
+
+#### Découvrez Bitcoin et ses fondamentaux avec
+
+https://planb.network/courses/btc101
+
+#### Mettez à jour votre sécurité en ligne avec
+
+https://planb.network/courses/scu101
+
+#### Obtenez et sécurisez vos premiers bitcoins avec
+
+https://planb.network/courses/btc102
+
+#### Découvrez l'histoire des origines de Bitcoin avec
+
+https://planb.network/courses/his201

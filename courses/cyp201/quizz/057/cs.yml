@@ -1,9 +1,9 @@
-question: S rozšířeným veřejným klíčem mohu odvodit...
-answer: ...normální dětské veřejné klíče.
+question: Jaká je velikost seedu generovaného PBKDF2?
+answer: 512 bitů
 wrong_answers:
-  - ...zpevněné dětské veřejné klíče.
-  - ...normální dětské soukromé klíče.
-  - ...zpevněné dětské soukromé klíče.
+  - 128 bitů
+  - 256 bitů
+  - Proměnlivá v závislosti na délce mnemonické fráze
 explanation: |
-  Rozšířený veřejný klíč umožňuje odvození pouze normálních dětských veřejných klíčů, ale nikoli soukromých klíčů.
+  Bez ohledu na délku mnemonické fráze PBKDF2 vždy generuje seed o velikosti 512 bitů.
 reviewed: false

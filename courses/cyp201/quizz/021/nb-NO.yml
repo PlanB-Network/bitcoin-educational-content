@@ -1,9 +1,9 @@
-question: Hva er størrelsen på en Bitcoin privatnøkkel?
-answer: 256 bits.
+question: Hva er hovedkarakteristikken til skalar multiplikasjon på elliptiske kurver?
+answer: Enveisfunksjon
 wrong_answers:
-  - 512 bytes.
-  - 520 bits.
-  - 512 bits.
+  - Lett reversibel
+  - Basert på faktorisering av primtall
+  - Veldig lang tid å beregne
 explanation: |
-  Bitcoin privatnøkkelen har en standard størrelse på 256 bits, som tilsvarer den elliptiske kurvealgoritmen brukt i Bitcoin.
+  Skalar multiplikasjon på elliptiske kurver er en enveisfunksjon, noe som gjør det umulig å hente ut den private nøkkelen fra den offentlige nøkkelen.
 reviewed: false

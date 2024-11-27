@@ -1,9 +1,9 @@
-question: Mis on JBOK rahakott Bitcoin'i kontekstis?
-answer: Rahakott, mis grupeerib juhuslikult määratud privaatvõtmed, ilma nende vahelise seoseta.
+question: Millist sighash lippu kasutatakse Bitcoin'i tehingutes kõige sagedamini?
+answer: SIGHASH_ALL
 wrong_answers:
-  - Rahakott, mis tuletatud võtmed hierarhilisel viisil ühest seemnest.
-  - Rahakott, mis tuletatud võtmed eelnevatest võtmetest.
-  - Rahakott, mis kasutab võtmete tuletamiseks ainult mnemoonilist fraasi.
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  JBOK (Just a Bunch Of Keys) rahakott sisaldab privaatvõtmeid, mis on genereeritud juhuslikult ja sõltumatult üksteisest, erinevalt HD rahakottidest.
+  SIGHASH_ALL on vaikimisi sighash lipp, mis hõlmab kõiki tehingu sisendeid ja väljundeid, takistades igasuguseid muudatusi.
 reviewed: false

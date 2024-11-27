@@ -1,9 +1,9 @@
-question: Comment calcule-t-on la checksum d'une adresse SegWit ?
-answer: Avec un code BCH.
+question: À quoi correspond la notation /<0;1>/* dans un descriptor ?
+answer: À la chaîne externe et interne avec une dérivation séquentielle
 wrong_answers:
-  - Avec HASH160.
-  - Avec HASH256.
-  - Avec SHA512.
+  - À une adresse multisignature triée
+  - À une somme de contrôle pour les chemins de dérivation
+  - À un chemin de dérivation endurcie
 explanation: |
-  Pour les adresses SegWit, la checksum est calculée à l'aide du code BCH, qui permet de détecter d'éventuelles erreurs dans l'adresse.
+  La notation /<0;1>/* indique que le descriptor peut générer des adresses pour la chaîne externe (0) et interne (1), avec une dérivation séquentielle grâce au wildcard (*).
 reviewed: false

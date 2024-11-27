@@ -1,9 +1,9 @@
-question: Comment compresser une clé publique ?
-answer: On garde la valeur de son abscisse (x) et on ajoute un préfixe indiquant quelle ordonnée (y) choisir.
+question: Quel chemin de dérivation est utilisé pour un compte SegWit v0 dans un descriptor standard ?
+answer: 84h/0h/0h
 wrong_answers:
-  - On garde la valeur de son ordonnée (y) et on ajoute un préfixe indiquant quelle abscisse (x) choisir.
-  - On hache la clé publique pour la compresser.
-  - On utilise un double hachage SHA256 pour compresser la clé publique.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  La compression d'une clé publique se fait en conservant la coordonnée x et en ajoutant un préfixe 0x02 ou 0x03 pour indiquer si y est pair ou impair.
+  Le chemin 84h/0h/0h est défini dans le BIP84 pour un compte dérivant des adresses SegWit v0 avec P2WPKH.
 reviewed: false

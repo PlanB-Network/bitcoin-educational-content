@@ -1,0 +1,9 @@
+question: ¿Qué codificación se utiliza para representar las direcciones SegWit v0?
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  Las direcciones SegWit v0, como las de P2WPKH y P2WSH, utilizan la codificación bech32 introducida con SegWit.
+reviewed: false

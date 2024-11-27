@@ -1,8 +1,9 @@
-question: ¿Qué sucede si uso un monedero HD con una frase de paso y pierdo esa frase de paso?
-answer: Mis bitcoins se pierden para siempre.
+question: ¿Cuántos bits tiene el checksum para una entropía de 128 bits?
+answer: 4 bits
 wrong_answers:
-  - No es un problema, todavía puedo acceder a mis bitcoins solo con mi frase mnemotécnica.
-  - Puedo restablecer la frase de paso con mi clave privada.
-  - Puedo recuperar mis bitcoins usando un monedero sin frase de paso.
+  - 8 bits
+  - 16 bits
+  - 6 bits
 explanation: |
-  Si se pierde la frase de paso, el acceso a los bitcoins se pierde permanentemente, ya que es necesaria para derivar las claves privadas.
+  La longitud del checksum se calcula usando la fórmula CS = ENT / 32, lo que equivale a 4 bits para una entropía de 128 bits.
+reviewed: false

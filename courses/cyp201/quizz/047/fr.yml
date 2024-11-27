@@ -1,9 +1,9 @@
-question: Pourquoi l'utilisation d'une passphrase renforce-t-elle la sécurité d'un portefeuille HD ?
-answer: Elle ajoute une couche de protection supplémentaire à la phrase mnémonique.
+question: Quelle est la taille en bits d'un segment binaire utilisé pour créer chaque mot mnémonique ?
+answer: 11 bits
 wrong_answers:
-  - Elle permet de générer des clés publiques plus fortes.
-  - Elle permet de protéger les transactions de façon cryptographique.
-  - Elle double le nombre de bitcoins dans le portefeuille.
+  - 8 bits
+  - 16 bits
+  - 10 bits
 explanation: |
-  La passphrase renforce la sécurité en ajoutant une donnée supplémentaire à la phrase mnémonique, c'est un peu un 2FA.
+  Chaque segment de 11 bits correspond à un mot de la liste standardisée de 2048 mots du BIP39.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Miten Bitcoinin yksityisavain määritetään?
-answer: Se määritetään satunnaisesta tai pseudosatunnaisesta numerosta.
+question: Mikä on ero pakatun ja pakkaamattoman julkisen avaimen välillä?
+answer: Pakattu julkinen avain käyttää vain x-koordinaattia ja y n pariteettia
 wrong_answers:
-  - Se määritetään lisäämällä ja kaksinkertaistamalla pisteitä elliptisellä käyrällä sen julkisesta avaimesta.
-  - Se määritetään hashaamalla sen julkinen avain.
-  - Se määritetään SHA-256 algoritmilla.
+  - Pakattu julkinen avain on turvallisempi
+  - Pakattu julkinen avain käyttää vain y-koordinaattia ja x: n pariteettia
+  - Pakattu julkinen avain vaatii suuremman yksityisen avaimen
 explanation: |
-  Bitcoinin yksityisavain luodaan satunnaisesti tai pseudosatunnaisesti, mikä varmistaa sen yksilöllisyyden ja turvallisuuden.
+  Pakattu julkinen avain säilyttää vain x-koordinaatin ja bitin y: n pariteetille, vähentäen sen kokoa 33 tavuun.
 reviewed: false

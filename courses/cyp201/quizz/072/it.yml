@@ -1,9 +1,9 @@
-question: Qual è la funzione utilizzata per generare un indirizzo?
-answer: HASH160.
+question: Cosa significa un apostrofo (') o la h in un percorso di derivazione?
+answer: Una derivazione rinforzata
 wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
+  - Una derivazione normale
+  - Una derivazione esterna
+  - Una derivazione non standard
 explanation: |
-  La funzione HASH160, che combina SHA256 e RIPEMD-160, è utilizzata per generare indirizzi Bitcoin a partire dalle chiavi pubbliche.
+  Un apostrofo indica che la derivazione è rinforzata, richiedendo una chiave privata genitore per generare la chiave figlio.
 reviewed: false

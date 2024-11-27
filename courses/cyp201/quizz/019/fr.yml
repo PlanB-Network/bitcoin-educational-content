@@ -1,9 +1,9 @@
-question: Quelle est la courbe elliptique la plus connue utilisée dans les systèmes cryptographiques ?
-answer: secp256r1.
+question: Quelle opération mathématique est à la base de la sécurité de la cryptographie sur les courbes elliptiques ?
+answer: Problème du logarithme discret
 wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
+  - Factorisation de nombres premiers
+  - Calcul des résidus quadratiques
+  - Problème du cube discret
 explanation: |
-  La courbe elliptique secp256r1 est largement utilisée dans de nombreux systèmes cryptographiques, mais Bitcoin utilise la courbe secp256k1.
+  La sécurité de la cryptographie sur courbes elliptiques repose sur la difficulté de résoudre le problème du logarithme discret sur ces courbes.
 reviewed: false

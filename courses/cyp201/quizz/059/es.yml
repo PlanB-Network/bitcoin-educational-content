@@ -1,8 +1,9 @@
-question: ¿En qué sistema numérico suele codificarse la clave extendida para presentarla al usuario?
-answer: En Base 58.
+question: ¿Cuál es el papel de la semilla en una cartera HD de Bitcoin?
+answer: Servir como el punto de partida para la derivación de todas las claves
 wrong_answers:
-  - En bech32.
-  - En Base 16.
-  - En bech32m.
+  - Almacenar las transacciones de la cartera
+  - Generar directamente la clave pública maestra
+  - Asegurar la confidencialidad de las transacciones
 explanation: |
-  La clave extendida generalmente se codifica en Base 58 para ser más legible para el usuario y evitar caracteres ambiguos.
+  La semilla es una secuencia de 512 bits derivada de la frase mnemotécnica y la contraseña. Forma la base de todas las claves en la cartera.
+reviewed: false

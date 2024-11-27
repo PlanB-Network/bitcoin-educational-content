@@ -1,9 +1,9 @@
-question: How is a Bitcoin private key determined?
-answer: It is determined from a random or pseudo-random number.
+question: What is the difference between a compressed and uncompressed public key?
+answer: The compressed public key uses only the x-coordinate and the parity of y
 wrong_answers:
-  - It is determined by addition and doubling points on the elliptic curve from its public key.
-  - It is determined by hashing its public key.
-  - It is determined by the SHA-256 algorithm.
+  - The compressed public key is more secure
+  - The compressed public key uses only the y-coordinate and the parity of x
+  - The compressed public key requires a larger private key
 explanation: |
-  A Bitcoin private key is generated in a random or pseudo-random manner, which ensures its uniqueness and security.
+  A compressed public key retains only the x-coordinate and a bit for the parity of y, thus reducing its size to 33 bytes.
 reviewed: false

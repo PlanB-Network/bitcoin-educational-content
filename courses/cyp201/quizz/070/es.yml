@@ -1,9 +1,8 @@
-question: ¿Qué es una dirección de recepción (en general)?
-answer: Un hash de una clave pública con metadatos colocados en un formato específico.
+question: ¿Qué representa la profundidad 0 en la jerarquía de las carteras HD?
+answer: La clave maestra y el código de cadena maestro
 wrong_answers:
-  - Un hash de una clave privada con metadatos colocados en un formato específico.
-  - Un hash de una clave extendida con metadatos colocados en un formato específico.
-  - Un hash de un código de cadena con metadatos.
+  - La cadena externa de direcciones
+  - La cuenta predeterminada
+  - El tipo de moneda
 explanation: |
-  Una dirección de recepción es generalmente un hash de una clave pública asociada con metadatos, utilizada en un scriptPubKey para establecer condiciones.
-reviewed: false
+  La profundidad 0 corresponde a la clave maestra y el código de cadena maestro, que son los puntos de partida para todas las derivaciones en una cartera HD.

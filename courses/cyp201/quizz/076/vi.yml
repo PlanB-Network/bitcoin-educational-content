@@ -1,8 +1,9 @@
-question: Checksum của địa chỉ SegWit được tính toán như thế nào?
-answer: Bằng mã BCH.
+question: Ký hiệu /<0;1>/* trong một mô tả tương ứng với gì?
+answer: Đến chuỗi bên ngoài và chuỗi bên trong với sự phát sinh tuần tự
 wrong_answers:
-  - Bằng HASH160.
-  - Bằng HASH256.
-  - Bằng SHA512.
+  - Đến một địa chỉ đa chữ ký được sắp xếp
+  - Đến một checksum cho các đường dẫn phát sinh
+  - Đến một đường dẫn phát sinh cứng
 explanation: |
-  Đối với địa chỉ SegWit, checksum được tính toán sử dụng mã BCH, cho phép phát hiện các lỗi có thể có trong địa chỉ.
+  Ký hiệu /<0;1>/* chỉ ra rằng mô tả có thể tạo ra địa chỉ cho chuỗi bên ngoài (0) và chuỗi bên trong (1), với sự phát sinh tuần tự nhờ vào ký tự đại diện (*).
+reviewed: false

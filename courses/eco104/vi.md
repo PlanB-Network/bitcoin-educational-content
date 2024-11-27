@@ -36,9 +36,11 @@ Khóa học này được tài trợ bởi TETHER
 +++
 
 # Giới thiệu
+
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
 ## Giới thiệu
+
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
 
 ### Chúng ta sống trong một thế giới mà:
@@ -79,9 +81,11 @@ Khi kết thúc khóa học này, không chỉ có được kiến thức mạnh
 Chúng tôi rất vui mừng chào đón bạn tham gia cùng chúng tôi trong hành trình này để cùng nhau khám phá hệ thống tiền tệ của chúng ta.
 
 # Cái giá của sự tiến bộ - MMột cái nhìn chi tiết hơn về hệ thống tài chính của chúng ta
+
 <partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
 
 ## Giới thiệu về tiền
+
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 Tiền là một phần hấp dẫn và thiết yếu trong cuộc sống hàng ngày của chúng ta. Hàng ngày chúng ta sử dụng tiền để mua thực phẩm, thanh toán hóa đơn và thực hiện vô số giao dịch khác. Nhưng thực sự tiền là gì? Về cơ bản, tiền chỉ là một phương tiện trung gian thanh toán, một công cụ cho phép chúng ta trao đổi hàng hóa và dịch vụ với nhau. Đó là một khái niệm trừu tượng mà chúng ta đều coi là điều hiển nhiên, nhưng lại cực kỳ cơ bản đối với hệ thống kinh tế của chúng ta.
 
@@ -132,7 +136,7 @@ Khái niệm về một đồng tiền tốt có thể có vẻ phức tạp, nh
 
 Để một đồng tiền duy trì được sức mua theo thời gian, nó phải:
 
-**Bền vững - Durable:** Khi nói về đồng tiền bền vững, chúng ta đang đề cập đến khả năng chống lại sự mài mòn của thời gian và  quá trình sử dụng của nó. Một phương tiện lưu trữ giá trị bền vững có nghĩa là đồng tiền sẽ giữ được giá trị theo thời gian, mặc cho bất kỳ yếu tố vật lý hay môi trường nào có thể làm cho nó bị hao mòn. Ví dụ, nếu bạn lưu trữ tiền của mình bằng vàng, nó sẽ giữ được giá trị và độ sáng bóng ngay cả khi các đồng xu bằng vàng đã trở nên lỗi thời (không còn được sử dụng như đồng tiền chi tiêu hàng ngày nữa). Độ bền của một đồng tiền rất quan trọng vì nó cho phép chúng ta tiết kiệm của cải theo thời gian mà không sợ mất giá trị.
+**Bền vững - Durable:** Khi nói về đồng tiền bền vững, chúng ta đang đề cập đến khả năng chống lại sự mài mòn của thời gian và quá trình sử dụng của nó. Một phương tiện lưu trữ giá trị bền vững có nghĩa là đồng tiền sẽ giữ được giá trị theo thời gian, mặc cho bất kỳ yếu tố vật lý hay môi trường nào có thể làm cho nó bị hao mòn. Ví dụ, nếu bạn lưu trữ tiền của mình bằng vàng, nó sẽ giữ được giá trị và độ sáng bóng ngay cả khi các đồng xu bằng vàng đã trở nên lỗi thời (không còn được sử dụng như đồng tiền chi tiêu hàng ngày nữa). Độ bền của một đồng tiền rất quan trọng vì nó cho phép chúng ta tiết kiệm của cải theo thời gian mà không sợ mất giá trị.
 
 **Khan hiếm - Scarce:** Khi một đồng tiền có sự khan hiếm, chúng ta biết rằng nguồn cung của nó có hạn. Điều này rất quan trọng cho một phương tiện lưu trữ giá trị vì nếu có quá nhiều tiền trên lưu thông, nó có thể bị giảm giá trị. Một đồng tiền khan hiếm có khả năng giữ giá trị theo thời gian, làm cho nó trở thành một phương tiện lưu trữ của cải đáng tin cậy. Hãy nghĩ về nó như một mặt hàng phiên bản giới hạn - nếu chỉ có một vài cái, chúng có giá trị và được săn đón hơn là nếu nó có một nguồn cung không giới hạn. Tương tự, một đồng tiền khan hiếm có khả năng giữ giá trị và duy trì sức mua của mình, làm cho nó trở thành một lựa chọn tốt hơn để lưu trữ của cải.
 
@@ -162,6 +166,7 @@ Trong các mô-đun tiếp theo, chúng ta sẽ khám phá hai hình thức ti�
 Từ hình thức hàng đổi hàng cho đến sự phát minh ra tiền xu và tiền giấy, tiền tệ đã trải qua một loạt các biến đổi để thích nghi với nhu cầu thay đổi liên tục của xã hội. Đến với chương tiếp theo, chúng ta sẽ hướng sự chú ý của mình đến sự tiến hóa của tiền tệ.
 
 ## Cách chúng ta đến với hiện trạng lúc này
+
 <chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
 
 Từ những ngày còn dùng hàng đổi hàng cho đến kỷ nguyên tiền kỹ thuật số hiện đại, tiền tệ đã trải qua một quá trình phát triển thú vị. Tổ tiên chúng ta đã sử dụng vỏ sò, hạt cườm, và thậm chí là gia súc như một phương tiện trung gian thanh toán. Ngày nay, chúng ta có ví ảo và thanh toán không tiếp xúc. Đó là một hành trình đặc biệt với vô số lần lặp lại, thỏa hiệp, và thích nghi để đáp ứng nhu cầu không ngừng thay đổi của xã hội.
@@ -192,7 +197,7 @@ Bây giờ, hãy cùng xem xét từng cái một để có cái nhìn tổng th
 Hàng đổi hàng! Đó là một khái niệm đơn giản: bạn trao đổi thứ bạn có để lấy thứ bạn muốn hoặc cần.
 
 Nhưng liệu nó có thực tế?
-Vấn đề với hình thức hàng đổi hàng là rất khó để tìm được một người muốn những gì bạn có và có những gì bạn muốn. Ví dụ, hãy tưởng tượng bạn là một nông dân trồng lúa mì và cần một chiếc áo mới. Bạn có thể phải tìm kiếm khắp nơi để tìm một người làm áo sẵn lòng trao đổi chiếc áo lấy lúa mì của bạn. Nhưng nếu người làm áo không muốn lấy lúa mì của bạn thì sao? Điều này được biết đến với tên gọi là vấn đề sự trùng khớp kép về nhu cầu - *The double coincidence of wants*. Để một giao dịch thành công cần có sự trùng khớp kép về nhu cầu, nghĩa là cả hai bên đều phải có thứ mà bên kia muốn trao đổi.
+Vấn đề với hình thức hàng đổi hàng là rất khó để tìm được một người muốn những gì bạn có và có những gì bạn muốn. Ví dụ, hãy tưởng tượng bạn là một nông dân trồng lúa mì và cần một chiếc áo mới. Bạn có thể phải tìm kiếm khắp nơi để tìm một người làm áo sẵn lòng trao đổi chiếc áo lấy lúa mì của bạn. Nhưng nếu người làm áo không muốn lấy lúa mì của bạn thì sao? Điều này được biết đến với tên gọi là vấn đề sự trùng khớp kép về nhu cầu - _The double coincidence of wants_. Để một giao dịch thành công cần có sự trùng khớp kép về nhu cầu, nghĩa là cả hai bên đều phải có thứ mà bên kia muốn trao đổi.
 
 Một vấn đề khác của hình thức hàng đổi hàng là nó gần như không thực tế đối với một số mặt hàng. Bạn sẽ chia nhỏ một con bò đang sống ra sao để đổi lấy một đôi giày? Và không có một đơn vị tiêu chuẩn để tính toán, việc so sánh giá trị của hàng hóa và dịch vụ trở nên khó khăn. Một con bò có giá trị hơn hay ít hơn mười bao lúa mì hay hai cuộn vải?
 
@@ -212,6 +217,7 @@ Tuy nhiên, khi việc đi lại trở nên dễ dàng hơn, thế giới bắt 
 
 Nhìn chung, tiền hàng hóa đã đóng một vai trò thiết yếu trong sự phát triển của hoạt động giao thương, vì nó mang đến một phương tiện trung gian thanh toán tiêu chuẩn được chấp nhận rộng rãi. Tuy nhiên, khi xã hội trở nên tiến bộ hơn, các hình thức tiền tệ thuận tiện và có thể chia nhỏ hơn bắt đầu xuất hiện.
 Để giải quyết những vấn đề này, loài người bắt đầu tìm kiếm những hàng hóa có sự khan hiếm được công nhận trên toàn cầu, điều này dẫn đến việc sử dụng kim loại quý như một phương tiện trung gian thanh toán.
+
 ### Tiền xu
 
 Mặc dù về mặt kỹ thuật vân là tiền hàng hóa, khi loài người tiếp tục cuộc tìm kiếm hình thái tiền tệ tốt hơn, họ đã tình cờ phát hiện ra một người hùng: kim loại quý. Không chỉ vì những kim loại này đẹp và được săn đón để sử dụng trong trang sức, mà chúng còn đáp ứng nhiều tiêu chí của một loại tiền tệ xuất sắc. Sự khan hiếm toàn cầu trong tự nhiên và khoản đầu tư lớn cần thiết để khai thác, tinh chế và lưu trữ những kim loại này đã tạo ra một giá trị phụ trội so với các hình thức tiền tệ trước đó.
@@ -239,6 +245,7 @@ Thứ hai, tiền giấy được đảm bảo bằng kim loại không miễn n
 Mặc dù tiền giấy được đảm bảo bằng kim loại có vấn đề của riêng mình, khả năng dễ chia nhỏ, khả năng dễ đổi lẫn và tính dễ di chuyển của nó đã tạo ra sự tiện lợi của tiền pháp định mà chúng ta sử dụng ngày nay, nơi tính thực tiễn thường chiến thắng trước sự khan hiếm.
 
 ### Tiền pháp định - Fiat
+
 Các đồng tiền pháp định đã là nền tảng của hệ thống tiền tệ của chúng ta trong nhiều thập kỷ. Thuật ngữ "fiat" có nguồn gốc Latin, nghĩa là "let it be done" và ám chỉ quyền lực của nhà nước trong việc tuyên bố một loại tiền tệ là đồng tiền hợp pháp. Khác với các loại tiền tệ từng được bảo đảm bằng vàng hoặc các giá trị khác, giá trị của tiền pháp định đến từ lời hứa của chính phủ rằng sẽ có người chấp nhận nó trong việc trao đổi hàng hóa và dịch vụ.
 
 Các đồng tiền pháp định xuất hiện khi các quốc gia cảm thấy bất mãn với tiền giấy được bảo đảm bằng kim loại - chính phủ sẽ phải thu thập thêm vàng để in thêm tiền giấy. Điều này là một trở ngại, vì vậy mỗi khi một quốc gia cần thêm tiền, họ sẽ tạm thời bỏ qua việc này và mở rộng nguồn cung tiền tệ của mình (bản chất là in thêm tiền). Đồng tiền mới này không được bảo đảm bởi bất cứ thứ gì ngoài niềm tin vào chính phủ do nó là đồng tiền hợp pháp. Không chỉ vậy, đồng tiền mới này làm giảm giá trị của những đồng tiền trong lưu thông bằng cách làm tăng nguồn cung tiền, và với nhiều đô la hơn được dùng để mua cùng một lượng hàng hóa, giá cả sẽ tăng lên.
@@ -285,6 +292,7 @@ Khi chúng ta tiếp tục hướng tới một thế giới của các đồng 
 Sau khi xem xét các hình thức tiền tệ khác nhau qua lịch sử, điều này đặt ra một câu hỏi đáng suy ngẫm:
 
 ### Liệu chúng ta có đang đi đúng hướng?
+
 Trong suốt hành trình này, chúng ta đã khám phá sự tiến hóa thú vị của tiền tệ, theo dõi sự phát triển của nó từ hình thức hàng đổi hàng đến kỷ nguyên số hóa hiện tại. Chúng ta đã chứng kiến sự thăng trầm của nhiều loại tiền tệ, từ vỏ sò và hạt cườm đến kim loại quý và tiền giấy.
 
 Tuy nhiên, như chúng ta đã thấy, con đường tiến hóa của tiền tệ không tránh khỏi những thách thức. Sự nổi lên của hành động cắt xén đồng xu và thao túng tiền tệ, sự chuyển dịch về hướng tập trung hoá và rời xa phương tiện trung gian thanh toán được chấp nhận rộng rãi (như vàng) chỉ là một vài ví dụ về những trở ngại mà chúng ta đã phải đối mặt trên con đường này.
@@ -298,6 +306,7 @@ Và, mặc dù rõ ràng chúng ta đã ưu tiên sự tiện lợi khi chuyển
 Khi chúng ta tiếp tục khám phá thế giới của tiền tệ, điều quan trọng là phải nhận thức được những thay đổi đáng kể đã diễn ra kể từ khi tiền giấy trở nên phổ biến. Mặc dù những loại tiền này đã mang lại một mức độ tiện lợi và ổn định, chúng cũng đặt ra những thách thức mới, như lạm phát, mức nợ tăng cao, và bất bình đẳng về tài sản. Trong phần tiếp theo, chúng ta sẽ đi sâu hơn vào những vấn đề này, và trong các mô-đun tiếp theo, chúng ta sẽ khám phá các giải pháp tiềm năng cho những vấn đề này.
 
 ## Nhìn vào vị trí hiện tại và xem chúng ta có thể kỳ vọng gì ở tương lai
+
 <chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
 
 Như chúng ta đã thảo luận trong chương trước, theo lịch sử, tiền tệ thường được bảo đảm bằng một hàng hóa như vàng. Lợi ích của điều này không thể phủ nhận. Việc này không chỉ đồng nghĩa với việc giá trị của loại tiền đó được trực tiếp gắn liền với giá trị của một loại hàng hóa (vàng), mà nó còn có nghĩa là người phát hành tiền tệ, thường là chính phủ, bị hạn chế về số lượng tiền có thể in ra vì họ cần phải có thêm vàng.
@@ -366,7 +375,7 @@ $63.14t / $26.13t = 241%
 
 Giả sử một cách thận trọng rằng lãi suất trung bình trên nợ này là 3%.
 
-3% * 241% = 7.23%
+3% \* 241% = 7.23%
 Quy mô của gánh nặng nợ của Hoa Kỳ lớn đến mức mà chỉ mỗi việc trả lãi cho khoản nợ đó đã đòi hỏi một tỷ lệ tăng trưởng hàng năm là 7.23% - một tỷ lệ đáng kể cao hơn so với tỷ lệ tăng trưởng GDP trung bình [3.13%](https://tradingeconomics.com/united-states/gdp-growth-annual) trong 70 năm qua.
 7.23% - 3.13% = 4.1%
 
@@ -397,12 +406,12 @@ Với sự liên tục của mạng xã hội và tin tức, bạn có thể đ�
 
 **Hiệu Suất Theo Loại Tài Sản**
 
-| Loại Tài Sản        | Tổng Tăng Trưởng (Tháng 1 2010 - Tháng 1 2021) | Tăng Trưởng Hàng Năm (Tháng 1 2010 - Tháng 1 2021) |
-| ------------------- | --------------------------------------------- | ------------------------------------------------- |
-| Thị Trường Chứng Khoán | 236.84%                                       | 11.67%                                            |
-| Bất Động Sản        | 66.38%                                        | 4.74%                                             |
-| Vàng                | 73.10%                                        | 5.11%                                             |
-| Tiền Lương Hàng Giờ | 33.37%                                        | 2.65%                                             |
+| Loại Tài Sản           | Tổng Tăng Trưởng (Tháng 1 2010 - Tháng 1 2021) | Tăng Trưởng Hàng Năm (Tháng 1 2010 - Tháng 1 2021) |
+| ---------------------- | ---------------------------------------------- | -------------------------------------------------- |
+| Thị Trường Chứng Khoán | 236.84%                                        | 11.67%                                             |
+| Bất Động Sản           | 66.38%                                         | 4.74%                                              |
+| Vàng                   | 73.10%                                         | 5.11%                                              |
+| Tiền Lương Hàng Giờ    | 33.37%                                         | 2.65%                                              |
 
 Hình: Hiệu Suất Theo Loại Tài Sản ([Chứng Khoán](https://finance.yahoo.com/quote/%5EGSPC/history/), [Bất Động Sản](https://dqydj.com/historical-home-prices/), [Vàng](https://goldprice.org/), [Tiền Lương](https://tradingeconomics.com/united-states/wages.))
 
@@ -434,6 +443,7 @@ May mắn thay, chúng ta có những lựa chọn khả dụng. Với sự xu�
 Khi học đến phần tiếp theo, chúng tôi khuyến khích bạn tiếp cận công nghệ mới này với một tâm trí cởi mở và một cái nhìn phản biện, khám phá cách nó có thể mang lại một lựa chọn thay thế cho hệ thống tài chính hiện nay của chúng ta. Làm như vậy, chúng ta có khả năng giải quyết các vấn đề về sự gia tăng bất bình đẳng và bất ổn xã hội trong khi xây dựng một tương lai kinh tế bền vững và công bằng hơn.
 
 ## Bài tập
+
 <chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
 Bây giờ bạn đã đi qua Mô-đun "Cái giá của sự tiến bộ", bạn sẽ phải kiểm tra kiến thức mới được học của mình để đảm bảo bản thân đã hiểu các phần. Chúng ta sẽ bắt đầu với một số câu hỏi mở rộng và sau đó là một bài kiểm tra nhỏ.
@@ -445,9 +455,11 @@ Bây giờ bạn đã đi qua Mô-đun "Cái giá của sự tiến bộ", bạn
 5. Với những thông tin được cung cấp liên quan tới nợ và lạm phát, bạn có ý kiến gì về sự bền vững của hệ thống tiền tệ hiện tại? Bạn nghĩ hệ thống hiện tại sẽ mang lại lợi ích hay bất lợi cho chúng ta trong dài hạn?
 
 # Giải phóng sự tự do về tài chính - Giới thiệu về Bitcoin
+
 <partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
 ## Những người tiên phong, nhà đổi mới và nền tảng của Bitcoin
+
 <chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
 Chào mừng đến với Mô-đun số 2, nơi chúng ta sẽ khám phá thế giới hấp dẫn của Bitcoin. Dựa trên sự hiểu biết của chúng ta về lịch sử tiền tệ, mô-đun này sẽ bao gồm các chủ đề sau:
@@ -456,7 +468,7 @@ Chào mừng đến với Mô-đun số 2, nơi chúng ta sẽ khám phá thế 
 - Lợi ích của đồng tiền kỹ thuật số mang tên Bitcoin
 - Sự khác biệt giữa đồng tiền bitcoin và mạng lưới Bitcoin
 - Cách tương tác với Bitcoin và các lớp của nó
-Đến cuối mô-đun này, bạn sẽ có được hiểu biết vững chắc về nguồn gốc, tính năng và ứng dụng tiềm năng của Bitcoin. Nhưng trước khi chúng ta khám phá sâu vào những khía cạnh phức tạp của Bitcoin, hãy cùng tìm hiểu về lịch sử của tiền tệ số thứ đã mở đường cho loại công nghệ sẽ thay đổi cách chúng ta suy nghĩ về tiền bạc này.
+  Đến cuối mô-đun này, bạn sẽ có được hiểu biết vững chắc về nguồn gốc, tính năng và ứng dụng tiềm năng của Bitcoin. Nhưng trước khi chúng ta khám phá sâu vào những khía cạnh phức tạp của Bitcoin, hãy cùng tìm hiểu về lịch sử của tiền tệ số thứ đã mở đường cho loại công nghệ sẽ thay đổi cách chúng ta suy nghĩ về tiền bạc này.
 
 ### Bitcoin là cái gì?
 
@@ -468,7 +480,7 @@ Bitcoin cũng độc đáo ở chỗ nó có nguồn cung hạn chế. Sẽ ch�
 
 Cuối cùng, và có lẽ quan trọng nhất, vì nó hoạt động độc lập với chính phủ hoặc ngân hàng, Bitcoin cho phép mọi người trao đổi giá trị với nhau trực tiếp, giống như các giao dịch tiền mặt. Tuy nhiên, không giống như tiền mặt, bitcoin có thể được sử dụng để mua hàng hóa và dịch vụ trực tuyến, mà không cần dựa vào các phương thức thanh toán truyền thống. Điều này có nghĩa là, với bản chất kỹ thuật số và phi tập trung của nó, Bitcoin loại bỏ nhu cầu về trung gian, tiền giấy và đồng xu, làm cho các giao dịch dễ dàng, nhanh chóng và an toàn hơn.
 
-Lần đầu tiên sau một thời gian dài, Bitcoin đại diện cho một lối suy nghĩ mới về tiền bạc và giá trị. Đây là lý do tại sao chúng tôi hào hứng dẫn bạn đi xuống chiếc hang thỏ không đáy mang tên Bitcoin - *The Bitcoin rabbit hole* - cùng chúng tôi.
+Lần đầu tiên sau một thời gian dài, Bitcoin đại diện cho một lối suy nghĩ mới về tiền bạc và giá trị. Đây là lý do tại sao chúng tôi hào hứng dẫn bạn đi xuống chiếc hang thỏ không đáy mang tên Bitcoin - _The Bitcoin rabbit hole_ - cùng chúng tôi.
 
 ### Những người tiên phong trong lĩnh vực tiền kỹ thuật số
 
@@ -549,6 +561,7 @@ Những điểm này kết hợp lại có nghĩa là Bitcoin mang đến cho b�
 Cuối cùng, bất kể Satoshi Nakamoto là ai, không thể phủ nhận rằng sự phát minh của Bitcoin đã khơi dậy một cách tư duy mới về việc chuyển giao giá trị.
 
 ## Bitcoin hoạt động như thế nào? Cơ chế bên trọng của đồng tiền "ma thuật" này
+
 <chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
 
 Bitcoin thường được gọi là đồng tiền internet "ma thuật"... và có lý do chính đáng cho điều đó. Hãy nghĩ về điều này – với Bitcoin, bạn có thể gửi giá trị cho bất kỳ ai, ở bất kỳ đâu trên thế giới, mà không cần thông qua trung gian như một ngân hàng hay chính phủ. Nó giống như việc bạn kiểm soát ngân hàng cá nhân của mình, có quyền chuyển tiền qua biên giới chỉ với vài cú nhấp chuột.
@@ -566,7 +579,7 @@ Khi so sánh với các hệ thống ngân hàng truyền thống, mặc dù Bit
 1. Xác thực và xử lý giao dịch,
 2. Giám sát giao dịch để đảm bảo không có gian lận hay hành vi xấu,
 3. Đảm bảo mọi thứ được cập nhật, hoạt động mượt mà và an toàn.
-Trong khi các ngân hàng thực hiện những chức năng này một cách nội bộ, giúp họ kiểm soát hoàn toàn quy trình, Bitcoin lại yêu cầu sự hợp tác của cộng đồng để thực hiện những chức năng này. Nói cách khác, để Bitcoin có thể tái tạo những quy trình này trong một hệ thống phi tập trung, Bitcoin phải giao khoán việc thực hiện từng nhiệm vụ này để đảm bảo rằng không có cá nhân hay thực thể tập trung nào kiểm soát quá mức hệ thống.
+   Trong khi các ngân hàng thực hiện những chức năng này một cách nội bộ, giúp họ kiểm soát hoàn toàn quy trình, Bitcoin lại yêu cầu sự hợp tác của cộng đồng để thực hiện những chức năng này. Nói cách khác, để Bitcoin có thể tái tạo những quy trình này trong một hệ thống phi tập trung, Bitcoin phải giao khoán việc thực hiện từng nhiệm vụ này để đảm bảo rằng không có cá nhân hay thực thể tập trung nào kiểm soát quá mức hệ thống.
 
 Để đạt được thành tựu cách mạng này, Bitcoin đã chia những nhiệm vụ này thành ba vai trò chính: các nốt (nodes), thợ đào (miners) và các nhà phát triển (developers). Ở đó, các nốt xác minh giao dịch, thiết lập và thực thi các quy tắc, thợ đào sắp xếp và xác nhận giao dịch, và các nhà phát triển giữ cho mạng lưới được cập nhật và đề xuất các nâng cấp. Bằng cách phân phối những nhiệm vụ này cho những thành phần tham gia chính, Bitcoin đã tạo ra một hệ thống an toàn, minh bạch và có trách nhiệm với tất cả người dùng.
 
@@ -612,6 +625,7 @@ Tại thời điểm này, giao dịch được nhập vào cái gọi là mempo
 Các thợ đào bây giờ lấy những giao dịch đang chờ xác thực này, gói chúng vào một khối mới, và cạnh tranh với nhau để thực hiện một nhiệm vụ nhất định được đặt ra bởi phần mềm Bitcoin. Người chiến thắng cuộc cạnh tranh sẽ đó thêm khối của họ và các giao dịch bên trong đó vào blockchain, hoàn thiện việc xử lý các giao dịch này. Người chiến thắng cũng được thưởng bằng bitcoin được phát hành mới và phí liên quan đến các giao dịch đã xử lý, khuyến khích họ tiếp tục xử lý giao dịch.
 
 ### Xác minh giao dịch
+
 Một khi giao dịch được xác nhận, Bob giờ đây nên có thể thấy 0.00100000 bitcoin trong ví của mình. Nhưng không dừng lại ở đó. Các nốt mạng sau đó xác minh rằng thợ đào đã thực hiện công việc của mình một cách chính xác và rằng các giao dịch được đặt trong trong khối mới này tuân thủ các quy tắc đã được các nốt đồng ý. Nếu không vượt qua được việc xác minh này, khối mới sẽ bị từ chối, và thợ đào sẽ mất phần thưởng đào của mình.
 
 _**Sự Thật Thú Vị:** Ngay cả sau khi một giao dịch Bitcoin được xác nhận, khả năng đảo ngược vẫn tồn tại nếu các nốt từ chối các khối. Tuy nhiên, với mỗi khối mới được thêm vào blockchain sau giao dịch, khả năng đảo ngược giảm đi theo cấp số mũ. Để tăng cường an toàn, các sàn giao dịch và ví thường giữ bitcoin của bạn cho đến khi vài khối tiếp theo được thêm vào— thường là ba đến sáu. Điều này bảo vệ tài sản và đảm bảo sự yên tâm trong giao dịch._
@@ -628,6 +642,7 @@ Như đã giải thích trong phần này, mặc dù Bitcoin nổi lên như m�
 Mỗi thành phần này đều thiết yếu cho sự hoạt động và thành công của Bitcoin như một đồng tiền kỹ thuật số. Bằng cách giao phó những nhiệm vụ quan trọng này cho các nhân tố chính, Bitcoin có thể hoạt động như một phương tiện trung gian thanh toán an toàn, minh bạch và có trách nhiệm với tất cả người dùng, biến nó trở thành một thành tựu, một nấc thang quan trọng trong lịch sử phát triển của tiền tệ.
 
 ## Điều gì làm cho Bitcoin khác biệt so với tiền pháp định?
+
 <chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
 
 Trong phần trước, chúng ta đã khám phá tính năng độc đáo của Bitcoin làm cho nó khác biệt so với các đồng tiền truyền thống và làm thế nào Bitcoin đạt được danh hiệu quý giá là đồng tiền phi tập trung. Bây giờ, hãy chuyển sự chú ý của chúng ta khám phá các mà Bitcoin trở nên khác biệt với tiền tệ truyền thống theo hướng nghiên cứu những đặc điểm làm cho một đồng tiền trở nên lý tưởng. Chỉ bằng cách xem xét những đặc điểm chính này, chúng ta mới có thể hiểu sâu hơn lý do tại sao Bitcoin là độc nhất khi nhắc tới tiền tệ.
@@ -729,6 +744,7 @@ Những đặc tính độc đáo của Bitcoin khi đóng vai trò là một ph
 Hơn nữa, những đặc tính kết hợp này không chỉ đặt Bitcoin vào vị trí là một công cụ mạnh mẽ để lưu trữ và xây dựng tài sản lâu dài (bitcoin tài sản) mà còn mang lại nhiều lợi ích cho những người muốn sử dụng Bitcoin như một phương tiện trung gian trong giao dịch (mạng lưới Bitcoin). Điều này tạo nên sự tương phản rõ rệt với các đồng tiền pháp định, đòi hỏi phải có sự tin tưởng và các bên trung gian trong cả hai trường hợp. Điều này khiến Bitcoin trở thành một đồng tiền hấp dẫn cho cả cá nhân và doanh nghiệp, bất kể nó được sử dụng để tiết kiệm hay giao dịch.
 
 ## Tương tác với Bitcoin
+
 <chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
 
 Bitcoin đã tạo nên một cơn bão trong hệ thống tiền tệ, thu hút sự chú ý của các quốc gia đang phát triển, những người am hiểu công nghệ và nhà đầu tư. Tuy nhiên, với sự phát triển nhanh chóng, nhiều người tự hỏi làm thế nào tài sản số này có thể cạnh tranh với các phương thức thanh toán truyền thống như Visa và Mastercard. Ngoài ra, mọi người cũng tò mò về cách cá nhân họ có thể tương tác với Bitcoin.
@@ -787,7 +803,7 @@ Ví tự quản là loại ví Bitcoin mà bạn là người duy nhất quản 
 
 Ví tự quản mang lại một mức độ bảo mật và riêng tư cao hơn so với ví giữ hộ vì bạn là người duy nhất chịu trách nhiệm về sự an toàn cho tài sản của mình. Ví dụ về ví tự quản bao gồm ví cứng như [Coldcard](https://store.coinkite.com/store/coldcard) và [Trezor](https://trezor.io/), là các thiết bị vật lý lưu trữ khóa riêng tư của bạn ngoại tuyến và cung cấp một lớp bảo mật bổ sung. Các ví tự quản phổ biến khác là ví phần mềm như [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), và [Blockstream Green](https://blockstream.com/green/), có thể được tải xuống và cài đặt trên máy tính hoặc thiết bị di động của bạn.
 
-Mặc dù không thể khuyến nghị một ví cụ thể ở khoá học này, chúng tôi rất khuyến khích bạn kiểm soát bitcoin của mình thông qua giải pháp tự quản lý hoặc quản lý hợp tác, bao gồm việc chọn một ví phù hợp với nhu cầu và sở thích của bạn. Việc nghiên cứu kỹ lưỡng trước khi quyết định lựa chọn một ví nào đó là rất quan trọng để đảm bảo rằng nó phù hợp với yêu cầu về bảo mật và khả năng sử dụng của bạn._
+Mặc dù không thể khuyến nghị một ví cụ thể ở khoá học này, chúng tôi rất khuyến khích bạn kiểm soát bitcoin của mình thông qua giải pháp tự quản lý hoặc quản lý hợp tác, bao gồm việc chọn một ví phù hợp với nhu cầu và sở thích của bạn. Việc nghiên cứu kỹ lưỡng trước khi quyết định lựa chọn một ví nào đó là rất quan trọng để đảm bảo rằng nó phù hợp với yêu cầu về bảo mật và khả năng sử dụng của bạn.\_
 Mặc dù ví giữ hộ có vẻ tiện lợi, nhưng chúng đi kèm với những rủi ro đáng kể. Bằng cách giao quyền kiểm soát chìa khóa riêng tư của mình cho một bên thứ ba, bạn thực sự đang trao quyền kiểm soát số tiền của mình cho họ. Nếu người giữ quyền kiểm soát mất khả năng thanh toán, bị hack, hoặc đóng cửa, bạn có thể mất quyền truy cập vào bitcoin của mình. Và điều này đã xảy ra không ít lần, với những ví dụ nổi bật như vụ hack Mt. Gox và QuadrigaCX dẫn đến mất tiền của khách hàng, hoặc FTX, Voyager, BlockFi, và Celsius đã sụp đổ thảm khốc, dẫn đến việc mất tiền của khách hàng. Đặc biệt đối với việc tiết kiệm, việc tự quản lý ví và chịu trách nhiệm bảo vệ bitcoin của bản thân là rất quan trọng.
 
 #### Các mẹo an toàn
@@ -818,6 +834,7 @@ Trước khi kết thúc mô-đun này, tôi muốn để lại cho bạn một 
 ### Khám phá sâu hơn
 
 Nếu bạn quan tâm đến việc khám phá thêm về thế giới Bitcoin, có nhiều lựa chọn sẵn có. Như:
+
 1. **Nốt - Node:** Việc chạy một mốt là cách tuyệt vời cho những người tò mò về Bitcoin ngoài việc giao dịch cơ bản bình thường. Nó cho phép bạn không chỉ đóng góp vào mạng lưới Bitcoin bằng cách xác minh blockchain và ảnh hưởng đến các cập nhật hoặc thay đổi mới mà còn giảm thiểu sự tin tưởng và mang đến quyền riêng tư tăng cường bằng cách cho phép bạn tự xác minh các giao dịch và số dư của mình. Bằng cách chạy một node, bạn trở thành một phần của mạng lưới phi tập trung và góp một tay vào việc đảm bảo an ninh và tính toàn vẹn của nó.
 2. **Đào bitcoin:** Đào coin là một cách khác để đóng góp vào mạng lưới Bitcoin và có tiềm năng kiếm được bitcoin. Mặc dù nó đòi hỏi nhiều nguồn lực hơn so với việc chạy một node và không còn lợi nhuận cao như trước đây, đào coin là một hoạt động đáng giá cho những người quan tâm đến các khía cạnh kỹ thuật của mạng lưới.
 3. **Trở thành nhà phát triển trên Bitcoin:** Nếu bạn có kinh nghiệm trong phát triển phần mềm và quan tâm đến việc đóng góp vào sự phát triển của Bitcoin, một điểm khởi đầu tuyệt vời là trang [GitHub](https://github.com/bitcoin/bitcoin) của Bitcoin.
@@ -831,6 +848,7 @@ Mặc dù chúng ta thường nghe nói rằng Bitcoin không bao giờ có th�
 Lợi thế lớn nhất của Bitcoin là nó cho phép chúng ta tự quản lý tài sản số của mình, điều này là bất khả thi trước đây. Nếu bạn cảm thấy choáng ngợp sau khi đi qua phần này, đừng lo lắng. Việc kiểm soát bitcoin của riêng bạn là một bước đi mạnh mẽ hướng tới tự do tài chính, nhưng nó cũng đi kèm với những trách nhiệm mới. Tuy nhiên, với một chút nghiên cứu và thận trọng, những trách nhiệm mới này sẽ nhanh chóng trở nên quen thuộc với bạn, và bạn sẽ cảm thấy thoải mái khi đảm nhận nhiệm vụ bảo mật bitcoin cho chính mình một cách an toàn.
 
 ## Bài tập
+
 <chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
 Bây giờ bạn đã đi qua Mô-đun "Giải phóng sự tự do về tài chính - Giới thiệu về Bitcoin", bạn sẽ phải kiểm tra kiến thức mới học được của mình để đảm bảo rằng bạn đã hiểu chúng. Chúng ta sẽ bắt đầu với một số câu hỏi mở rộng và sau đó là một bài kiểm tra nhỏ.
@@ -843,8 +861,11 @@ Bây giờ bạn đã đi qua Mô-đun "Giải phóng sự tự do về tài ch�
 6. Một tình huống giả định là bạn cần gửi tiền cho một thành viên trong gia đình ở một quốc gia khác. Tính chất ngang hàng và phí thấp của Bitcoin có thể mang lại lợi ích gì cho bạn trong tình huống này?
 
 # Ổn định giữa sự hỗn loại - Giới thiệu về Tether và thế giới của Stablecoin
+
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+
 ## Giới thiệu về Tether và thế giới của các đồng Stablecoin
+
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
 Như đã được thảo luận trước đó, tiền tệ đã là một phần thiết yếu của loài người trong hàng ngàn năm. Nó đã giúp chúng ta mua sắm hàng hóa và dịch vụ, tạo điều kiện cho hoạt động giao thương và hỗ trợ chúng ta trong việc lưu trữ của cải.
@@ -876,6 +897,7 @@ Chúng ta cần một loại tiền tệ kỹ thuật số, có giá trị tươ
 Và đây là nơi Tether xuất hiện.
 
 #### Tether là ai?
+
 Trong bối cảnh luôn thay đổi của các đồng tiền pháp định, Tether đã nổi lên như một "tay chơi" quan trọng, được thúc đẩy bởi tầm nhìn nhằm đáp ứng nhu cầu tài chính của thế giới hiện đại. Khi các đồng tiền truyền thống liên tục gặp khó khăn trong việc theo kịp nhu cầu của nền kinh tế toàn cầu đang thay đổi nhanh chóng, và sự biến động ngắn hạn của Bitcoin khiến những người thiếu khả năng tiết kiệm gặp thách thức, các nhà sáng lập của Tether đã nhận ra cơ hội để làm cầu nối cho hai thế giới này.
 
 Tether được mô tả là "một sự đổi mới phá vỡ đối với hệ thống tài chính truyền thống và tiên phong trong việc sử dụng số hóa các đồng tiền truyền thống." Mục đích chính của họ là tăng cường việc áp dụng Bitcoin bằng cách kết nối thế giới tài chính truyền thống với thế giới kỹ thuật số của Bitcoin. Họ đạt được điều này thông qua việc cung cấp một loạt các token kỹ thuật số, thường được gọi là “stablecoins,” có giá trị do sự liên kết với các tài sản trong thế giới thực. Tether cũng đầu tư vào việc đào Bitcoin, giáo dục về Bitcoin, xây dựng cơ sở hạ tầng thanh toán dựa trên Bitcoin, và nghiên cứu và phát triển Bitcoin.
@@ -908,6 +930,7 @@ Kết luận, khi xã hội của chúng ta tiếp tục phát triển và công
 _**Lưu ý bên lề:** Đừng lo lắng nếu một số thuật ngữ không hoàn toàn có ý nghĩa với bạn ở hiện tại. Chúng ta sẽ khám phá từng chủ đề một cách chi tiết hơn trong suốt mô-đun này._
 
 ## Lịch sử của Stablecoin
+
 <chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
 
 Stablecoin đã trở thành một chủ đề phổ biến trong thế giới tiền mã hóa, cung cấp một lựa chọn ít biến động hơn trong ngắn hạn so với các loại tiền mã hóa như Bitcoin. Như đã được trình bày trong phần giới thiệu của mô-đun này, stablecoin là các tài sản kỹ thuật số được gắn với một tài sản ổn định như tiền tệ hoặc kim loại quý, được thiết kế để duy trì một giá trị ổn định. Bây giờ, hãy cùng khám phá lịch sử của stablecoin và xem xét kỹ lưỡng một số stablecoin thuở ban đầu, bao gồm USDt của Tether, stablecoin được biết đến rộng rãi và sử dụng nhiều nhất.
@@ -933,6 +956,7 @@ Hơn nữa, khi thị trường stablecoin phát triển, Tether đã mở rộn
 Kết luận, stablecoin đã đi một chặng đường dài kể từ khi ra đời. Từ những ngày đầu của bitUSD và NuBits đến sự phổ biến rộng rãi các sản phẩm Tether và sự xuất hiện của các stablecoin khác, thị trường stablecoin đã phát triển nhanh chóng. Mặc dù những tranh cãi xung quanh Tether đã làm dấy lên lo ngại về sự minh bạch và trách nhiệm giải trình của các nhà phát hành stablecoin, thị trường stablecoin vẫn tiếp tục phát triển, cung cấp một liên kết toàn cầu và linh hoạt đến Bitcoin. Tuy nhiên, sự tiện lợi này đi kèm với cái giá của sự tập trung tăng lên và sự phụ thuộc vào lòng tin.
 
 ## Đặc điểm của các đồng stablecoin
+
 <chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
 
 Như đã rõ ràng cho đến nay, stablecoin là một loại token kỹ thuật số được thiết kế để duy trì một mức giá trị ổn định dựa trên tài sản mà nó liên kết. Những tài sản này có thể bao gồm tiền pháp định, kim loại quý, hàng hóa, hoặc sự kết hợp của những thứ này (ví dụ, một rổ các đồng tiền pháp định).
@@ -944,7 +968,9 @@ Cơ bản, stablecoin hoạt động như một cây cầu giữa tài sản tru
 Về cách họ duy trì sự ổn định giá này, hãy cùng xem xét…
 
 Phần lớn stablecoin thường chọn sử dụng một đồng tiền pháp định làm điểm neo của mình, với đô la Mỹ là một trong những đồng tiền pháp định phổ biến hơn để neo. Chính vì lý do này, đầu tiên, chúng ta sẽ khám phá stablecoin được neo với tiền pháp định. Tuy nhiên, có nhiều loại stablecoin khác nhau, như được gắn với hàng hóa và thuật toán, mà chúng ta cũng sẽ khám phá ở phía sau.
+
 ### Stablecoin được bảo chứng bằng tiền pháp định
+
 Stablecoin được thiết kế để duy trì một giá trị ổn định so với loại tài sản được neo. Đối với stablecoin được bảo chứng bằng tiền tệ pháp định, như USDt, cách đơn giản nhất để token duy trì giá trị của mình là nhà phát hành token giữ đồng tiền pháp định mà token được neo vào theo tỷ lệ 1:1.
 
 Nghe có vẻ hơi rối? Đừng lo. Dưới đây là một ví dụ:
@@ -994,6 +1020,7 @@ Tuy nhiên, giống như stablecoin được bảo chứng bằng tiền pháp �
 Bây giờ, hãy xem xét hình thức thứ ba của stablecoin...
 
 ### Stablecoin thuật toán
+
 Một stablecoin thuật toán là loại stablecoin cuối cùng mà chúng ta sẽ thảo luận và, giống như các loại khác, được thiết kế để duy trì một mức giá ổn định.
 
 Khác với các stablecoin khác được bảo chứng bởi tài sản vật lý, stablecoin thuật toán sử dụng công thức toán học hoặc thuật toán — thường kết hợp với một số tài sản — để điều chỉnh nguồn cung của chúng so với nhu cầu nhằm duy trì sự ổn định giá cả.
@@ -1017,6 +1044,7 @@ Kết luận, stablecoin cung cấp một cầu nối giữa thế giới truy�
 Mặc dù stablecoin thường được coi là an toàn do bản chất “ổn định” của chúng, quan trọng là phải nhớ rằng chúng không hoàn toàn miễn nhiễm rủi ro. Do stablecoin phụ thuộc vào các nhà phát hành tập trung, ví dụ như Tether, và các tổ chức tài chính, nên sẽ có rủi ro tiềm năng bị tổn thất. Để giảm thiểu những rủi ro này, việc nghiên cứu kỹ lưỡng các stablecoin khác nhau trước khi đầu tư là rất quan trọng. Làm như vậy, bạn có thể đưa ra quyết định sáng suốt và giảm thiểu rủi ro gặp phải tổn thất không mong muốn.
 
 ## Lợi ích mà đồng stablecoin của Tether mang lại
+
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 Gặp Adanna, một phụ nữ trẻ sống ở một làng quê châu Phi, nơi đồng Franc CFA, đã mất sức mua ở mức đáng kinh ngạc [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) trong 70 năm qua, là đồng tiền duy nhất có sẵn - khiến việc tiết kiệm trở nên không khả thi.
 Adanna luôn bị cuốn hút bởi ý tưởng kiểm soát tiền của mình, nhưng đó đã là một giấc mơ không tưởng cho đến gần đây. Đồng tiền cô sử dụng được giám sát bởi những người đã chứng minh là đặt lợi ích tốt nhất của người dân lên hàng đầu, và vị trí sinh sống thuộc vùng quê đã hạn chế quyền truy cập vào dịch vụ ngân hàng của cô. Do đó, Adanna không có lựa chọn nào khác ngoài phụ thuộc vào tiền mặt, khiến cô dễ bị mất mát và trộm cắp, bên cạnh việc mất giá và giảm sức mua.
@@ -1131,6 +1159,7 @@ Và nếu như điều đó chưa đủ, những stablecoin này không chỉ t�
 Tổng quát lại, stablecoin, như USDt và XAUt, có khả năng biến đổi cuộc sống của hàng tỷ người bằng việc mang lại cho họ quyền truy cập vào các dịch vụ tài chính toàn diện và thiết yếu.
 
 ## Câu hỏi kiểm tra
+
 <chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
 
 Sau khi bạn đã trải qua Mô-đun "Sự ổn định giữa sự hỗn loại", bạn sẽ phải kiểm tra kiến thức mới học được để đảm bảo rằng bạn đã hiểu chúng. Chúng ta sẽ bắt đầu với một số Câu hỏi mở rộng và sau đó là một bài trắc nghiệm nhỏ.
@@ -1142,9 +1171,11 @@ Sau khi bạn đã trải qua Mô-đun "Sự ổn định giữa sự hỗn lo�
 5. Theo bạn, các nhà phát hành nên thực hiện những biện pháp gì để đảm bảo sự ổn định và đáng tin cậy cho đồng stablecoin của họ? Việc nhà phát hành minh bạch hoá về các phương pháp dự trữ của họ và cung cấp báo cáo định kỳ quan trọng như thế nào?
 
 # Vượt qua sự hoài nghi - Phản biện để bác bỏ những hiểu lầm phổ biến và các trường hợp ứng dụng thực tế
+
 <partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
 
 ## Những hiểu lầm phổ biến
+
 <chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
 
 Bitcoin đã bị chỉ trích, phản đối và hiểu lầm kể từ khi ra đời vào năm 2009. Mặc dù sự phổ biến và sự chấp nhận của nó đã tăng lên, nhiều người vẫn coi đó là một bong bóng sắp vỡ. Theo cùng một dòng suy nghĩ, stablecoin cũng thu hút sự chú ý và hoài nghi tương tự. Ý tưởng về một đồng tiền được bảo chứng bởi một tài sản ổn định nghe có vẻ hứa hẹn, nhưng nhiều người hiểu lầm về cách thức hoạt động của stablecoin và tác động tiềm năng của chúng đối với hệ thống tài chính.
@@ -1161,9 +1192,10 @@ Mặc dù có nhiều hiểu lầm xung quanh Bitcoin, hãy tập trung vào nh�
 6. Bitcoin chủ yếu được sử dụng cho các hoạt động tội phạm
 7. Bất kỳ ai cũng có thể sao chép mã nguồn của Bitcoin, làm cho nó mất giá trị
 8. Cơ chế đồng thuận của Bitcoin tiêu thụ quá nhiều năng lượng
-Hãy cùng khám phá...
+   Hãy cùng khám phá...
 
 ### Hiểu lầm thứ nhất: Bitcoin là một bong bóng sắp vỡ
+
 Kể từ khi ra đời, Bitcoin đã được truyền thông chính thống tuyên bố là "đã chết" [473](https://99bitcoins.com/bitcoin-obituaries/) lần (Tính đến tháng 3 năm 2023), nhưng nó vẫn tiếp tục hoạt động một cách mượt mà.
 
 Điều này đặt ra câu hỏi: Điều gì về Bitcoin khiến mọi người có cảm giác rằng nó là một bong bóng sắp vỡ?
@@ -1344,6 +1376,7 @@ Và cuối cùng…
 
 Chúng tôi muốn bắt đầu bằng cách nói: **Mọi thứ tiêu thụ năng lượng**, dù chúng ta có nhận ra điều đó hay không. Ngay cả một hành động đơn giản, như chạy bộ cùng chú chó của bạn, cũng đòi hỏi phải cung cấp năng lượng cho cả bạn và người bạn lông bông của mình. Cả bạn và chú chó của bạn đều tiêu thụ năng lượng.
 Mục tiêu của chúng tôi không phải là chỉ trích các ngành công nghiệp khác về việc tiêu thụ năng lượng của họ bởi vì, như đã thảo luận ở trên, việc sử dụng năng lượng thể hiện giá trị mà mọi người tìm thấy trong các dịch vụ hoặc sản phẩm được cung cấp. Tuy nhiên, điều cần thiết là đặt việc sử dụng năng lượng của Bitcoin vào một bối cảnh so sánh hợp lý. Xem xét các [so sánh](https://bitcoinmagazine.com/business/bitcoin-energy-use-compare-industry) sau đây:
+
 - Máy giặt tiêu thụ năng lượng nhiều hơn [18%](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) so với Bitcoin.
 - Khai thác vàng và sản xuất trang sức tiêu thụ năng lượng gấp mười lần so với Bitcoin.
 - Vận tải biển tiêu thụ năng lượng nhiều hơn 51 lần so với Bitcoin.
@@ -1439,6 +1472,7 @@ Bằng cách đánh giá khách quan bất kỳ sự phản đối nào mà bạ
 Cuối cùng, tương lai của tài chính phi tập trung nằm ở những người sẵn lòng vượt ra ngoài giới hạn của quy ước, thách thức những quan niệm đã được thiết lập, và đánh giá thông tin một cách khách quan. Hãy cố gắng đưa ra quyết định thông minh về Bitcoin và stablecoin dựa trên kiến thức chính xác và một nền hiểu biết cân bằng về khả năng cũng như hạn chế của chúng.
 
 ## Roya Mahboob
+
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 Trong thế giới toàn cầu hóa ngày nay, việc tiếp cận dịch vụ tài chính là một yếu tố quan trọng để tham gia và đạt được sự độc lập về kinh tế. Mặc dù vậy, quá nhiều cá nhân vẫn bị loại trừ khỏi hệ thống ngân hàng truyền thống, và phụ nữ thường chịu đựng nhiều nhất từ sự loại trừ này. Đáng chú ý, [một phần tư](https://www.worldbank.org/en/publication/globalfindex) dân số toàn cầu vẫn không có tài khoản ngân hàng, ở các quốc gia như Ả Rập Saudi, [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) phụ nữ thiếu quyền tiếp cận các dịch vụ ngân hàng cơ bản, ngăn cản họ tham gia đầy đủ vào nền kinh tế và xã hội của đất nước mình.
@@ -1505,6 +1539,7 @@ Sự cam kết không nao núng của Mercedes đối với những khó khăn �
 Cuộc đời của Mercedes là một hành trình đáng kinh ngạc, và ảnh hưởng của Bitcoin đối với cuộc sống của cô thực sự đáng chú ý. Câu chuyện của cô là ngọn hải đăng hy vọng cho việc Bitcoin mang lại sự thay đổi ý nghĩa và trao quyền cho mọi cá nhân từ mọi tầng lớp xã hội. Là một người ủng hộ bình đẳng tài chính, cô tận dụng kiến thức sâu rộng và kinh nghiệm du lịch của mình để giáo dục và nâng đỡ những người bị gạt ra ngoài lề bởi hệ thống tài chính truyền thống. Những nỗ lực không ngừng của cô là ví dụ về cách đam mê và quyết tâm của một người có thể truyền cảm hứng cho sự thay đổi tích cực trong cộng đồng trên toàn thế giới.
 
 ## Những câu chuyện về stablecoin
+
 <chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 
 Khi chúng ta tiến gần đến cuối khóa học này, chúng tôi muốn giới thiệu một bộ sưu tập các câu chuyện truyền cảm hứng về stablecoin. Những lời chứng thực này trình bày những trải nghiệm thực tế từ cá nhân, chủ doanh nghiệp và các công ty đã tận dụng sức mạnh của stablecoin để nâng cao cuộc sống của họ.
@@ -1591,6 +1626,7 @@ Trong ngành nhân sự, chúng tôi có rất nhiều người để trả lư�
 Chúng tôi hy vọng bạn đã tìm thấy cảm hứng từ những câu chuyện này. Điều đó nói lên rằng, stablecoin, như USDt, đóng vai trò quan trọng trong việc giúp các cá nhân tiếp cận với các giao dịch quốc tế nhanh chóng và hiệu quả, tạo hóa đơn và thanh toán bằng USD, trả lượng theo USD và, quan trọng nhất, một khoản tiết kiệm tương đối ổn định so với vô số những đồng tiền pháp định biện động. Không có stablecoin, nhiều cá nhân sẽ đối mặt với những rào cản đáng kể khi tham gia vào thị trường toàn cầu, kết nối với các thành viên gia đình toàn cầu, hoặc tiếp cận với khách hàng không thể tiếp cận được. Stablecoin đã đóng vai trò quan trọng không thể chối cãi được trong việc cải thiện khả năng kết nối tài chính của họ và cung cấp một công cụ quý giá để họ chiến thắng những phức tạp của nền kinh tế toàn cầu của chúng ta.
 
 ## Câu hỏi kiểm tra
+
 <chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
 Bây giờ bạn đã trải qua Mô-đun "Vượt qua sự hoài nghi", bạn sẽ phải kiểm tra kiến thức mới học được của mình để đảm bảo rằng bạn đã hiểu chúng. Chúng tôi sẽ bắt đầu với một số câu hỏi mở rộng và sau đó là một bài kiểm tra nhỏ.
@@ -1601,20 +1637,8 @@ Bây giờ bạn đã trải qua Mô-đun "Vượt qua sự hoài nghi", bạn s
 4. Với khả năng của Bitcoin trong việc cung cấp cho các nhà sản xuất năng lượng khả năng chuyển đổi năng lượng trực tiếp thành tiền, bạn có nghĩ điều này mang lại lợi ích đáng kể cho các nhà sản xuất năng lượng và thị trường năng lượng một cách tổng thể không?
 5. Nói về việc so sánh giữa việc tiêu thụ năng lượng của Bitcoin và các ngành công nghiệp khác, liệu có công bằng khi chỉ trích Bitcoin về việc sử dụng năng lượng của nó? Tại sao có hoặc tại sao không?
 
-# Lời Kết
-<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
-
-
-
-## Đánh giá khóa học
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Kỳ thi cuối cùng
-<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Lời Kết
+
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
 Xin chúc mừng bạn đã hoàn thành khóa học! Bạn đã đi được một chặng đường dài. Trong suốt hành trình này, chúng ta đã khám phá một loạt các chủ đề, bao gồm:
@@ -1638,3 +1662,47 @@ Hy vọng rằng sự hiểu biết mới mẻ này sẽ trao quyền cho bạn 
 
 Tương lai tươi sáng!
 
+# Kết luận
+
+<partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
+
+## Đánh giá khóa học
+
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Kết luận
+
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+
+Chúc mừng bạn đã hoàn thành khóa học này!
+
+Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc này trong hành trình học tập của mình.
+
+Thông qua sự cống hiến và tham gia của bạn, bạn đã đạt được những kiến thức và kỹ năng quý giá sẽ phục vụ tốt cho sự phát triển nghề nghiệp của bạn.
+
+Để tiếp tục đi sâu vào thế giới Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
+
+#### Khám phá Bitcoin và những điều cơ bản của nó với
+
+https://planb.network/courses/btc101
+
+#### Cập nhật bảo mật trực tuyến của bạn với
+
+https://planb.network/courses/scu101
+
+#### Khám phá Lightning Network với
+
+https://planb.network/courses/lnp201
+
+#### Tìm hiểu về Tư duy Kinh tế của Trường phái Áo với
+
+https://planb.network/courses/eco201
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+
+https://planb.network/courses/his201
+
+#### Hiểu về sự xuất hiện của siêu lạm phát với
+
+https://planb.network/courses/eco204

@@ -1,9 +1,9 @@
-question: Mengapa penting untuk tidak pernah menggunakan nonce yang sama lebih dari sekali dalam algoritma ECDSA?
-answer: Menggunakan nonce yang sama lebih dari sekali dapat mengompromikan keamanan dan dapat mengekspos kunci privat.
+question: Apa titik awal untuk menghitung tanda tangan ECDSA?
+answer: Hash pesan
 wrong_answers:
-  - Menggunakan nonce yang sama lebih dari sekali memperlambat kinerja.
-  - Menggunakan nonce yang sama membuat tanda tangan menjadi lebih panjang.
-  - Menggunakan nonce yang sama meningkatkan ukuran kunci publik.
+  - Kunci publik
+  - Nonce tetap
+  - Kurva elips kustom
 explanation: |
-  Menggunakan nonce yang sama dalam ECDSA dapat memungkinkan penyerang untuk menemukan kunci privat, mengompromikan keamanan.
-reviewed: false
+  Tanda tangan ECDSA dimulai dengan menghitung hash dari pesan yang akan ditandatangani, seringkali dengan SHA256.
+ditinjau: false

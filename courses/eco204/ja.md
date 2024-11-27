@@ -879,16 +879,6 @@ VOCの創設後、金融史におけるもう一つの重要な要素は、ア�
 
 中央銀行は最後の貸し手として進化し、自国通貨の金への兌換性を停止しました。この行動は当初、一時的な解決策として意図されていましたが、最終的には恒久的なものとなり、最後の貸し手という概念の出現を示しました。この変革は、今日私たちが知る中央銀行を形成しています。しかし、より脆弱な経済では、この無制限にお金を印刷する能力が、無責任に使用された場合、ハイパーインフレーションなどの望ましくない結果を招くことがあります。
 
-## コースを評価してください
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## 最終試験
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## 書籍とリソース
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -912,3 +902,52 @@ VOCの創設後、金融史におけるもう一つの重要な要素は、ア�
 - 『The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class』フレデリック・テイラー著。ハイパーインフレーションがドイツ社会の社会的および経済的影響についての物語性のある探求です。
 
 - 『Currency Boards for Developing Countries: A Handbook』スティーブ・ハンケとカート・シューラー著。この本は通貨委員会に焦点を当てていますが、ハイパーインフレーションの状況を避ける方法についての視点を提供しています。
+
+# まとめ
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## このコースを評価する
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## 最終試験
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## まとめ
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+コース修了おめでとうございます！
+
+学習の旅路においてこの重要な節目に到達されたことを大変嬉しく思います。
+
+あなたの献身と努力により、専門的な成長に役立つ貴重な知識とスキルを習得されました。
+
+ビットコインの世界をさらに深く探求するために、Plan ₿ Networkで提供されている他のすべてのコースをご覧ください：
+
+#### F. バスティアの生涯について学ぶ
+
+https://planb.network/courses/eco102
+
+#### オーストリア学派の経済思想について学ぶ
+
+https://planb.network/courses/eco201
+
+#### ビットコインとその基礎について学ぶ
+
+https://planb.network/courses/btc101
+
+#### オンラインセキュリティを更新する
+
+https://planb.network/courses/scu101
+
+#### 最初のビットコインを取得し、安全に保管する
+
+https://planb.network/courses/btc102
+
+#### ビットコインの起源の歴史について学ぶ
+
+https://planb.network/courses/his201

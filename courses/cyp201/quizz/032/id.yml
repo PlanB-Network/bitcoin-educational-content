@@ -1,9 +1,8 @@
-question: Apa itu BIP (Bitcoin Improvement Proposal) yang mengusulkan versi pertama dari dompet HD pada Bitcoin?
-answer: BIP32.
+question: Bendera sighash mana yang memungkinkan untuk crowdfunding dengan menutupi satu input dan semua output?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32, yang diusulkan pada tahun 2012, adalah yang pertama memperkenalkan konsep dompet deterministik hierarkis (HD) di Bitcoin.
-reviewed: false
+  SIGHASH_ALL yang dikombinasikan dengan SIGHASH_ANYONECANPAY memungkinkan penambahan input tanpa mengubah output.

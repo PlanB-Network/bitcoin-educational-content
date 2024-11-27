@@ -1,9 +1,8 @@
-question: Qual é o propósito da chave estendida?
-answer: Reunir todas as informações necessárias para derivar chaves filhas em uma única string.
+question: Qual constante é usada para derivar a chave privada mestre a partir da semente?
+answer: Bitcoin Seed
 wrong_answers:
-  - Reunir todas as informações necessárias para reconstruir uma carteira HD inteira em uma única string.
-  - Reunir informações sobre os UTXOs na carteira.
-  - Reunir a frase mnemônica e a senha em um único formato.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Uma chave estendida permite que todas as informações necessárias para derivar chaves filhas sejam contidas, simplificando assim o gerenciamento de contas em uma carteira HD.
-reviewed: false
+  A constante Bitcoin Seed é usada como uma chave na função HMAC-SHA512 para derivar a chave privada mestre e o código de cadeia mestre.

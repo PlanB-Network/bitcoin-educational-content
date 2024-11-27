@@ -1,9 +1,9 @@
-question: What are the coordinates of the generator point G used on the elliptic curve secp256k1?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: What is the size of a raw private key used on Bitcoin?
+answer: 256 bits
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bits
+  - 512 bits
+  - 1024 bits
 explanation: |
-  The generator point G is a predefined point on the elliptic curve secp256k1, used to generate public keys from private keys in Bitcoin.
+  A private key in Bitcoin is a 256-bit random integer, ensuring a key space large enough to guarantee security.
 reviewed: false

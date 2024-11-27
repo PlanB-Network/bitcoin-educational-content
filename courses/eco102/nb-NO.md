@@ -301,7 +301,6 @@ Spørsmålet om frihandel er fortsatt relevant i dag. Geografibøker i skolen he
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-
 Frédéric Bastiat, som uttrykte seg på 1840-tallet, er arving til en generasjon av opplysningsfilosofer som kjempet mot sensur og for friheten til å debattere. Tenk på Montesquieu, Diderot, Voltaire, Condorcet, men også Rousseau.
 
 For dem var ideen enkel: jo flere ideer som får lov til å bli uttrykt, jo mer går sannheten frem og jo lettere blir feil tilbakevist. Vitenskapen gjør alltid fremskritt på denne måten.
@@ -429,7 +428,6 @@ For å konkludere, proteksjonister og sosialister deler et felles punkt, ifølge
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-
 Pierre-Joseph Proudhon er en av de viktigste representantene for fransk sosialisme midt på 1800-tallet. Han er spesielt kjent for denne uttalelsen: "Eiendom er tyveri" i "Hva er eiendom?" i 1840.
 
 ![bilde](assets/image/08/IMG06.webp)
@@ -485,7 +483,6 @@ Som konklusjon anerkjente både Proudhon og Bastiat viktigheten av kapitalakkumu
 ## Det som er sett og det som ikke er sett
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
-
 
 I dette kapittelet vil jeg avdekke en helt ny teknologi, en revolusjonerende teknologi. En forsker har utviklet et par bioniske briller med et ultrakraftig minikamera innebygd i fronten. Denne teknologien gjør det mulig å se detaljer som er umulige å se med det blotte øye. I armene er det en elektronisk brikke som overfører bilder direkte til skyen via smarttelefonen min.
 
@@ -568,7 +565,6 @@ Ekte rikdom, ifølge Bastiat, er derfor settet av nyttige ting som vi produserer
 ## Plyndring gjennom Skattlegging
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
-
 
 > Når de rike går ned i vekt, dør de fattige.
 
@@ -666,7 +662,6 @@ Selvfølgelig er ikke politisk økonomi den universelle vitenskapen; den utelukk
 ## Markedets Mirakel
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
-
 
 Kan et harmonisk samfunn klare seg uten skrevne lover, regler, undertrykkende tiltak? Hvis menn er overlatt til frihet, vil vi ikke da være vitne til uorden, anarki, desorganisering? Hvordan unngå å skape en ren samling av individer som handler utenfor enhver samordning, hvis ikke gjennom lover og en sentralisert politisk organisasjon?
 
@@ -769,7 +764,6 @@ Med andre ord, kollektive valg er ikke ansvarlige valg siden, på den ene siden,
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-
 I det forrige kurset så vi hvorfor frihet og ansvar er nøkkelen til det sosiale problemet. Vi vil nå fordype oss i dette punktet ved å vise hvordan Frédéric Bastiat ser på de ondene som plager samfunnene og deres løsning.
 
 Liberale har noen ganger blitt kritisert for å ignorere ondskap og konstruere utopien av ren og perfekt frihet i en ideell verden. Denne kritikken er absolutt ubegrunnet med tanke på vår forfatter.
@@ -814,7 +808,6 @@ Det må klargjøres at denne utviklingen av fremgang gjennom ansvarlighet er på
 ## Ekte og Falsk Solidaritet
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
-
 
 ![bilde](assets/image/16/IMG1.webp)
 Frédéric Bastiat, i sitt berømte pamflett "Loven," fordømmer forvrengningen av loven som består i å legalisere, under navnet "solidaritet," det som faktisk må kalles plyndring. Det er faktisk en motsetning i å ønske å pålegge brorskap gjennom loven, det vi i dag ville kalle "sosial rettferdighet" eller solidaritet.
@@ -867,7 +860,6 @@ Loven kan tvinge en mann til å være rettferdig, men den kan ikke tvinge ham ti
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-
 Med eiendom bør vi ikke forstå land her. Det betyr "arbeiderens rett over verdien han har skapt gjennom sitt arbeid." Bastiat spesifiserer:
 
 > Jeg anser at retten til eiendom består i friheten til først å disponere over sin egen person, deretter over sitt arbeid, og til slutt, over produktene av sitt arbeid - som dessuten beviser at, fra et visst synspunkt, kan frihet og retten til eiendom ikke skilles fra hverandre.
@@ -919,7 +911,6 @@ _(Cicero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-
 Hovedideen til Bastiat i "Loven", hans berømte pamflett datert 1850, er å vise hvorfor og hvordan loven har blitt til plyndring, det vil si en kilde til privilegier, situasjonsbestemte leier og fiskal vilkårlighet.
 
 ![bilde](assets/image/18/IMG01.webp)
@@ -969,7 +960,6 @@ Et århundre etter døden til Frédéric Bastiat, er juridisk plyndring tydelig 
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-
 I 1848 var Bastiat en stortingsrepresentant. Han ble utnevnt til visepresident i finanskomiteen. Han var derfor spesielt godt plassert til å svare på dette spørsmålet: hva er Staten? Vi vender oss til Staten for å sikre vårt velvære. Men Bastiat minner oss om at Staten ikke kan gi noe til borgerne som den ikke først har tatt fra dem.
 
 Bastiat begynner med å omkalfatre en allment akseptert ligning: det er Staten som opprettholder nasjonen. Imidlertid kan ikke Staten opprettholde borgerne fordi den ikke produserer rikdom; den flytter den bare rundt, omfordeler den. Tvert imot er det borgerne som opprettholder Staten gjennom skapelsen av rikdom.
@@ -1014,19 +1004,9 @@ Skrev Frédéric Bastiat i en kort pamflett med tittelen Staten.
 
 ![bilde](assets/image/19/IMG9.webp)
 
-# Konklusjon
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-## Evaluer kurset
-
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Arven etter Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
-
 
 Bastiats innflytelse begynte å avta mot slutten av det 19. århundret, med fremveksten av sosialisme og spesielt marxisme innen universiteter og forskningsinstitutter, finansiert med offentlige midler.
 
@@ -1054,3 +1034,52 @@ Hvis vi ser på ting fra denne vinkelen, forklarte Reagan til GE-ansatte, fremst
 ![bilde](assets/image/20/IMG10.webp)
 I bunn og grunn tok Reagan fra Bastiat flere nøkkelelementer av et liberalt syn på samfunn og menneske: primatet til sivilsamfunnet over Staten, verdien av valg og individuelt ansvar, betydningen av entreprenøren i rikdomsskaping, viktigheten av et fleksibelt og minimalt lovverk, som tillater tillit og respekt for kontrakter, den grunnleggende loven om at rikdom må skapes før den kan distribueres, ønsket om å gi alle en sjanse i konkurranseutsatte markeder…
 
+# Konklusjon
+
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Evaluer dette kurset
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Avsluttende eksamen
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Konklusjon
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Gratulerer med fullført kurs!
+
+Vi er glade for at du har nådd denne viktige milepælen i din lærereise.
+
+Gjennom din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
+
+For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle de andre kursene som er tilgjengelige på Plan ₿ Network:
+
+#### Oppdag Bitcoin og dens grunnleggende prinsipper med
+
+https://planb.network/courses/btc101
+
+#### Få og sikre dine første bitcoins med
+
+https://planb.network/courses/btc102
+
+#### Oppdater din nettsikkerhet med
+
+https://planb.network/courses/scu101
+
+#### Oppdag Lightning Network med
+
+https://planb.network/courses/lnp201
+
+#### Lær økonomisk tenkning fra den østerrikske skolen med
+
+https://planb.network/courses/eco201
+
+#### Forstå Bitcoin-grunnlaget og bygg din egen hjemmeoppvarming med
+
+https://planb.network/courses/min201

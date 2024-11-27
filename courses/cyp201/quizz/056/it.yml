@@ -1,9 +1,8 @@
-question: Qual è lo scopo della chiave estesa?
-answer: Raccogliere tutte le informazioni necessarie per derivare le chiavi figlie in un'unica stringa.
+question: Quale costante viene utilizzata per derivare la chiave privata principale dal seed?
+answer: Bitcoin Seed
 wrong_answers:
-  - Raccogliere tutte le informazioni necessarie per ricostruire un intero portafoglio HD in un'unica stringa.
-  - Raccogliere informazioni sui UTXO presenti nel portafoglio.
-  - Raccogliere la frase mnemonica e la passphrase in un unico formato.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Una chiave estesa permette di contenere tutte le informazioni necessarie per derivare le chiavi figlie, semplificando così la gestione degli account in un portafoglio HD.
-reviewed: false
+  La costante Bitcoin Seed viene utilizzata come chiave nella funzione HMAC-SHA512 per derivare la chiave privata principale e il codice catena principale.

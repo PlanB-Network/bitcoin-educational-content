@@ -9,7 +9,7 @@ objectives:
 
 # Bitcoin ja BTCPay Server
 
-See on sissejuhatav kursus BTCPay Serveri operaatoritele, mille on kirjutanud Alekos ja Bas ning mis on kohandatud PlanB kursuse formaati melontwisti ja asi0 poolt.
+See on sissejuhatav kursus BTCPay Serveri operaatoritele, mille on kirjutanud Alekos ja Bas ning mis on kohandatud Plan ₿ kursuse formaati melontwisti ja asi0 poolt.
 
 POOLELI OLEV LUGU
 

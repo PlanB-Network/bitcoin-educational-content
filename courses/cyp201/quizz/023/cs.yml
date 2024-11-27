@@ -1,9 +1,9 @@
-question: Jaká je velikost nekomprimovaného veřejného klíče Bitcoinu včetně jeho prefixu?
-answer: 520 bitů.
+question: Jaký společný bod používají všichni účastníci pro výpočet veřejného klíče v Bitcoinu?
+answer: Generátorový bod G
 wrong_answers:
-  - 512 bajtů.
-  - 256 bitů.
-  - 512 bitů.
+  - SHA256 hash
+  - Mnemonická fráze
+  - Kompresovaný veřejný klíč
 explanation: |
-  Nekomprimovaný veřejný klíč Bitcoinu s jeho prefixem je 520 bitů, což zahrnuje x a y souřadnice bodu na eliptické křivce.
+  Generátorový bod G eliptické křivky secp256k1 je používán pro výpočet veřejných klíčů z privátních klíčů.
 reviewed: false

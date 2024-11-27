@@ -1,9 +1,8 @@
-question: Mida tähistab punkt V digitaalse allkirja protsessis, kasutades näitena ECDSA-d selles peatükis?
-answer: Punkt, mis on arvutatud lähtudes nihkest v ja generaatorpunktist G (V = v.G).
+question: Milline ECDSA allkirjade haavatavus parandati SegWiti poolt?
+answer: Muudetavus
 wrong_answers:
-  - Punkt, mis on tuletatud otse avalikust võtmest.
-  - Allkirjastatud sõnumi räsi.
-  - Kahe punkti liitmine elliptilisel kõveral.
+  - Partii kontroll
+  - Agregatsiooni puudumine
+  - Allkirjade liigne suurus
 explanation: |
-  V on tulemus, mis saadakse nihke korrutamisel generaatorpunktiga elliptilisel kõveral.
-reviewed: false
+  SegWit parandas ECDSA allkirjade muudetavuse, võimaldades kasutada näiteks Lightning Networki.

@@ -1,11 +1,9 @@
-question: Um eine Ableitung eines normalen Kind-Schlüsselpaares durchzuführen, muss ich in die HMAC-SHA512-Funktion eingeben...
-
-answer: Elterlicher öffentlicher Schlüssel || Index, Elterlicher Ketten-Code.
-
+question: Wozu ermöglicht ein erweiterter öffentlicher Schlüssel die Ableitung?
+answer: Nur normale Kind-öffentliche Schlüssel
 wrong_answers:
-  - Elterlicher privater Schlüssel || Index, Elterlicher Ketten-Code.
-  - Elterlicher privater Schlüssel, Elterlicher Ketten-Code.
-  - Elterlicher privater Schlüssel || Index.
-
+  - Nur normale Kind-private Schlüssel
+  - Sowohl gehärtete als auch normale Kind-öffentliche Schlüssel
+  - Sowohl gehärtete als auch normale Kind-private Schlüssel
 explanation: |
-  Um einen normalen Kind-Schlüssel abzuleiten, wird der elterliche öffentliche Schlüssel zusammen mit dem Index und dem Ketten-Code in der HMAC-SHA512-Funktion verwendet.
+  Ein erweiterter öffentlicher Schlüssel ermöglicht nur die Ableitung von normalen Kind-öffentlichen Schlüsseln, nicht von privaten Schlüsseln oder gehärteten Schlüsseln.
+reviewed: false

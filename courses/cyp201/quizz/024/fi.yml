@@ -1,9 +1,9 @@
-question: Mitkä ovat generaattoripisteen G koordinaatit elliptisellä käyrällä secp256k1?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Mikä on Bitcoinissa käytetyn raakayksityisavaimen koko?
+answer: 256 bittiä
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bittiä
+  - 512 bittiä
+  - 1024 bittiä
 explanation: |
-  Generaattoripiste G on ennalta määritelty piste elliptisellä käyrällä secp256k1, jota käytetään julkisten avainten generoimiseen yksityisistä avaimista Bitcoinissa.
+  Bitcoinin yksityisavain on 256-bittinen satunnaisluku, mikä takaa riittävän suuren avainavaruuden turvallisuuden takaamiseksi.
 reviewed: false

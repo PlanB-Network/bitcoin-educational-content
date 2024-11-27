@@ -1,9 +1,9 @@
-question: Nei percorsi di derivazione dei portafogli HD, a cosa corrisponde la profondità 0?
-answer: La chiave principale.
+question: Qual è la differenza tra una chiave figlio normale e una chiave figlio rinforzata?
+answer: Una chiave figlio rinforzata richiede la chiave privata del genitore per la sua derivazione.
 wrong_answers:
-  - La chiave estesa.
-  - Gli indirizzi di ricezione.
-  - Il tipo di valuta.
+  - Una chiave figlio normale non può derivare dalle chiavi pubbliche.
+  - Una chiave figlio rinforzata utilizza un indice dispari.
+  - Una chiave figlio normale è più sicura di una chiave figlio rinforzata.
 explanation: |
-  La profondità 0 nei percorsi di derivazione corrisponde alla chiave principale, che è il punto di partenza per tutte le derivazioni in un portafoglio HD.
-reviewed: false
+  Una chiave figlio normale può essere derivata dalla chiave pubblica del genitore, a differenza di una chiave figlio rinforzata che richiede la chiave privata del genitore.
+recensito: false

@@ -1,9 +1,8 @@
-question: Berikut ini adalah urutan angka desimal (10 25 13 18 02 31). Apa konversi yang benar ke Bech32?
-answer: 2edjzl
+question: Apa arti dari awalan `wpkh` dalam sebuah deskriptor?
+answer: Pay-to-Witness-PubKey-Hash
 wrong_answers:
-  - 2udjpr
-  - 2uaz2c
-  - 3bdjsr
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Witness Script Hash
 explanation: |
-  Konversi angka desimal ke Bech32 dilakukan melalui tabel korespondensi spesifik, dan urutan 10 25 13 18 02 31 sesuai dengan 2edjzl.
-reviewed: false
+  Awalan `wpkh` menunjukkan skrip SegWit v0 yang menggunakan alamat Pay-to-Witness-Public-Key-Hash.

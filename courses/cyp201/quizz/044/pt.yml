@@ -1,9 +1,8 @@
-question: Como construir a frase de recuperação (mnemônica) em binário?
-answer: Concatene o número aleatório com seu checksum no final.
+question: O que é entropia no contexto da criptografia?
+answer: Uma medida de imprevisibilidade associada a um processo aleatório
 wrong_answers:
-  - Concatene o número aleatório com seu checksum no início.
-  - Concatene o número aleatório com uma semente.
-  - Divida o número aleatório em duas partes e insira o checksum no meio.
+  - Um método para criptografar dados sensíveis
+  - Um algoritmo para calcular chaves públicas
+  - Uma técnica de compressão de dados
 explanation: |
-  Para gerar uma frase mnemônica binária, concatene o checksum ao final do número aleatório antes de converter em palavras.
-reviewed: false
+  Na criptografia, a entropia quantifica o nível de incerteza ou caos em uma fonte aleatória, essencial para gerar chaves seguras.

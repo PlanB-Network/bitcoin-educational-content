@@ -1,9 +1,9 @@
-question: Hva er utgangsstørrelsen til SHA256 hash-funksjonen?
-answer: 256 bits.
+question: Hvilken egenskap sikrer at det er beregningsmessig umulig å hente inputen til en hash?
+answer: Preimage resistance
 wrong_answers:
-  - 256 bytes.
-  - 512 bits.
-  - 512 bytes.
+  - Collision resistance
+  - Avalanche effect
+  - Second preimage resistance
 explanation: |
-  SHA-256 produserer en fast utgang på 256 bits, uavhengig av størrelsen på inndataene.
+  Preimage resistance sikrer at det er praktisk umulig å finne den opprinnelige meldingen fra dens hash.
 reviewed: false

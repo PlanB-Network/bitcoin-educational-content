@@ -1,8 +1,11 @@
-question: Với một khóa công khai mở rộng, tôi có thể suy ra...
-answer: ...các khóa công khai con bình thường.
+question: Kích thước của hạt giống được tạo ra bởi PBKDF2 là bao nhiêu?
+
+answer: 512 bit
+
 wrong_answers:
-  - ...các khóa công khai con cứng.
-  - ...các khóa riêng tư con bình thường.
-  - ...các khóa riêng tư con cứng.
-explanation: |
-  Một khóa công khai mở rộng cho phép suy ra chỉ các khóa công khai con bình thường, nhưng không phải khóa riêng tư.
+  - 128 bit
+  - 256 bit
+  - Thay đổi tùy thuộc vào độ dài của cụm từ ghi nhớ
+
+explanation:
+  Bất kể độ dài của cụm từ ghi nhớ là bao nhiêu, PBKDF2 luôn tạo ra một hạt giống 512-bit.

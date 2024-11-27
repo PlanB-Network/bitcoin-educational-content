@@ -1,9 +1,9 @@
-question: Miten tehokas salalause tulisi valita?
-answer: Sen tulisi olla pitkä, monipuolinen ja satunnainen, ilman yhteyttä käyttäjään.
+question: Mikä on mnemonisen lauseen tarkoitus Bitcoin HD-lompakossa?
+answer: Johtaa deterministisesti kaikki avaimet
 wrong_answers:
-  - Sen tulisi olla helppo muistaa ja liittyä käyttäjän ympäristöön.
-  - Sen tulisi olla lyhyt, mutta sisältää numeroita.
-  - Sen tulisi sisältää vähintään 10 numeroa.
+  - Allekirjoittaa suoraan siirtoja
+  - Salata Bitcoin-osoitteet
+  - Luoda tiiviste UTXO: ille
 explanation: |
-  Tehokkaan salalauseen tulisi olla pitkä (20–40 merkkiä), monipuolinen ja satunnainen, jotta se tarjoaisi maksimaalisen turvallisuuden, samankaltaisesti kuin hyvä salasana.
+  Mnemoninen lause mahdollistaa kaikkien yksityisten ja julkisten avainten johtamisen lompakossa, mikä helpottaa varmuuskopiointia ja palautusta.
 reviewed: false

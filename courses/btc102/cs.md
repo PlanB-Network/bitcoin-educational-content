@@ -20,9 +20,11 @@ Abych vám pomohl začít toto dobrodružství, vytvořil jsem tento bezplatný 
 +++
 
 # Úvod a předpoklady pro pochopení Bitcoinu
+
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
 ## Úvod do kurzu BTC102
+
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Vítejte v BTC 102! Praktický kurz, který vás provede nastavením vašeho Bitcoinového plánu! V rámci tohoto kurzu se připravíme na získání vašich prvních bitcoinů, jejich řádné zabezpečení a zajištění hladkého vstupu do tohoto nového průmyslu.
@@ -44,9 +46,11 @@ Jak vidíte, účelem tohoto školení je doprovodit vás, abyste od začátku d
 Hodně štěstí :)
 
 ## Podvody a finanční podvody
+
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 Jsme v průmyslu, kde se v sektoru "kryptoměn" objevují dvě hlavní větve:
+
 1. Bitcoinový průmysl se zaměřuje na zdravou měnu prostřednictvím decentralizovaného protokolu pro přenos hodnot (Bitcoin). Klade důraz na soukromí a individuální suverenitu a postupně buduje dlouhodobé projekty s vysokou úrovní odolnosti a bezpečnosti.
 2. Globální průmysl kryptoměn, orientovaný na fintech, "blockchain" a další centralizované inovace. Vyvíjí se rychle a snaží se pozicionovat jako nový trend.
 
@@ -146,9 +150,11 @@ Je důležité si uvědomit, že každý má svou agendu, včetně mě. Věřím
 Vždy mějte na paměti, že ne všichni budou nutně transparentní ohledně svých záměrů. Vždy se ptáte na účel něčích akcí a nesvěřujte jim slepou důvěru.
 
 ## Online bezpečnost
+
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 Kromě podvodů s kryptoměnami a finančních podvodů je hlavním důvodem ztráty bitcoinů špatné řízení online bezpečnosti. Často se stává, že lidé používají stejné heslo pro všechny své účty, zapomínají aktualizovat svůj počítač a zanedbávají pravidelné zálohování svých dat. Pokud vás tyto praktiky znepokojují, nebojte se, je vždy možné zlepšit své návyky v oblasti online bezpečnosti. Zde jsou některá základní opatření, která je třeba zavést:
+
 - Používejte správce hesel (viz tutoriál LastPass),
 - Zapněte dvoufaktorovou autentizaci (2FA),
 - Udržujte svůj počítač aktuální a bez malware,
@@ -189,6 +195,7 @@ Online anonymita je zásadní pro svobodnou a prosperující společnost. Umož�
 Pokud vás toto téma zajímá, školení SECU 101 je k dispozici, aby vás provedlo.
 
 ## Tip pro začátečníky
+
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Formální vzdělání nás o investování naučí velmi málo. V důsledku toho se často sami pouštíme do tohoto nového a složitého investičního prostředí.
@@ -206,15 +213,15 @@ V této sekci se podíváme na některé běžné chyby, kterých se začínají
 ![správce hesel](assets/prerequis/0.webp)
 Před tím, než se pustíte do investování do Bitcoinu, je zásadní věnovat čas vzdělávání se. Je snadné udělat chyby v odvětví Bitcoinu a každá chyba může být nákladná. Sdílením některých pastí, do kterých jsem během mé investiční cesty narazil, stejně jako těch, které jsem pozoroval u ostatních, doufám, že poskytnu cenné rady pro navigaci v tomto prostoru. Některé z těchto chyb zahrnují:
 
-| Technické problémy                                     | Finanční problémy                                              |
-| ------------------------------------------------------ | -------------------------------------------------------------- |
-| Ztráta privátního klíče                                | Přeinvestování                                                 |
-| Svěření péče o vaše aktiva třetí straně                | Nedostatek finančního vzdělání                                 |
-| Nedostatek soukromí                                    | Investování s půjčenými penězi                                 |
-| Problémy s online bezpečností                          | Nerozumění rozdílu mezi obchodováním a investováním            |
-| Špatná manipulace                                      | Ignorování daňových důsledků                                   |
-| Problémy s počítačem                                   | Nezohlednění časových rámců investic                           |
-| Ztráta BTC kvůli hackingu                              | Padnutí do finančních podvodů a podfuků                        |
+| Technické problémy                      | Finanční problémy                                   |
+| --------------------------------------- | --------------------------------------------------- |
+| Ztráta privátního klíče                 | Přeinvestování                                      |
+| Svěření péče o vaše aktiva třetí straně | Nedostatek finančního vzdělání                      |
+| Nedostatek soukromí                     | Investování s půjčenými penězi                      |
+| Problémy s online bezpečností           | Nerozumění rozdílu mezi obchodováním a investováním |
+| Špatná manipulace                       | Ignorování daňových důsledků                        |
+| Problémy s počítačem                    | Nezohlednění časových rámců investic                |
+| Ztráta BTC kvůli hackingu               | Padnutí do finančních podvodů a podfuků             |
 
 Bez ohledu na úroveň vašeho vzdělání nebo pozadí, každý může rozumět a používat Bitcoin. Nepotřebujete mít zkušenosti ve financích nebo programování. Jako 90% lidí můžete Bitcoin používat jednoduše.
 
@@ -239,16 +246,16 @@ Jako u jakékoli investice, potřebujete znát váš trh. Bitcoin je velmi mlad�
 Jakmile se budete cítit pohodlněji s Bitcoinem, můžete přehodnotit svůj akční plán. Podobně, pokud jste v tomto světě nováčci, je důležité pochopit rozdíly mezi obchodováním, dlouhodobou investicí a velmi, velmi dlouhodobou strategií, kterou používá mnoho Bitcoinerů a nazývá se "hold".
 Obecně:
 
-|                   | Obchodování | Investice         | Držení         |
-| ----------------- | ----------- | ----------------- | -------------- |
-| Pákový efekt      | Ano         | Ne                | Ne             |
-| Časový horizont   | Krátkodobý  | Krátko/střednědobý | Velmi dlouhodobý|
-| Typ aktiva        | Kontrakt    | BTC               | BTC            |
-| Riziko            | Velmi vysoké| Vysoké            | Vysoké         |
-| Obtížnost         | Velmi těžké | Těžké             | Těžké          |
-| Učící křivka      | Dlouhá      | Dlouhá            | Dlouhá         |
-| Potenciální ztráty| Neomezené   | Omezené           | Omezené        |
-| Vhodnější pro     | Některé     | Většinu           | Některé        |
+|                    | Obchodování  | Investice          | Držení           |
+| ------------------ | ------------ | ------------------ | ---------------- |
+| Pákový efekt       | Ano          | Ne                 | Ne               |
+| Časový horizont    | Krátkodobý   | Krátko/střednědobý | Velmi dlouhodobý |
+| Typ aktiva         | Kontrakt     | BTC                | BTC              |
+| Riziko             | Velmi vysoké | Vysoké             | Vysoké           |
+| Obtížnost          | Velmi těžké  | Těžké              | Těžké            |
+| Učící křivka       | Dlouhá       | Dlouhá             | Dlouhá           |
+| Potenciální ztráty | Neomezené    | Omezené            | Omezené          |
+| Vhodnější pro      | Některé      | Většinu            | Některé          |
 
 A zde jsou mé doporučení:
 
@@ -277,9 +284,11 @@ Pokud ztratíte svůj klíč, ztratíte také své peníze. Nejlepší je dodrž
 Hodně štěstí! Doufám, že mě budete následovat do světa Bitcoinu a dovolíte mi vás vést při získávání a zabezpečování vašich prvních Bitcoinů bez rizika!
 
 # Porozumění tomu, do čeho se pouštíme
+
 <partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 ## Bitcoin za 5 minut
+
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 V tomto kurzu se chceme zaměřit na akční plán, jak získat vaše první bitcoiny. Pokud chcete podrobné vysvětlení základů Bitcoinu, doporučujeme BTC 101, který je dostupný zdarma na této platformě.
@@ -309,6 +318,7 @@ Pokud je to pro vás novinka, důrazně vás povzbuzuji, abyste se před další
 ![stručně řečeno](assets/section2/10.webp)
 
 ## Proč je Bitcoin důležitý?
+
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Proč je důležitost Bitcoinu tak zásadní? To je hlavní otázka této univerzity. Ať už se jedná o vaše studium nebo investiční strategii, bez jasného pochopení důležitosti Bitcoinu riskujete, že se odchýlíte od svého akčního plánu. Cílem je tedy mít vždy na paměti základy Bitcoinu, aby vaše strategie zůstala v souladu s vašimi přesvědčeními.
@@ -340,6 +350,7 @@ Bitcoin nabízí každému jednotlivci šanci opustit tento systém. Je to etick
 
 ![stručně řečeno](assets/section2/3.webp)
 Zhoršující se nerovnosti v bohatství na světě vedly ke vzestupu extremismu, který někdy vyústil ve vznik diktátorských režimů. Ať už jste kdokoli, jednoho dne budete možná potřebovat soukromí, abyste ochránili svou rodinu, sebe a své úspory. Kde byste mohli skrýt svá aktiva, pokud byste byli politicky ohroženi?
+
 - Váš bankovní účet může být zmrazen, zabaven nebo vyprázdněn.
 - Zlato je obtížné dělit, složité přepravovat a používat.
 - Hotovost je objemná, snadno ukradnutelná a podléhá inflaci.
@@ -378,6 +389,7 @@ Hlavními propagátory Bitcoinu dnes jsou stále převážně kyberpunkové, utl
 Bitcoin má vysoký filozofický, etický a politický rozměr, zatímco je k těmto úvahám zcela lhostejný. Bitcoin je jednoduchý protokol, který neustále opakuje stejný proces. Jsou to jeho uživatelé, kteří jej proměnili v zbraň osvobození proti současnému finančnímu systému. Z pohledu Kyberpunku se Bitcoin staví proti společnosti bez hotovosti. Umožňuje vytváření zcela soukromých a bezprostředních digitálních finančních transakcí. Pro hnutí Kyberpunk je Bitcoin elektronickým ekvivalentem hotovosti.
 
 ## Porozumění průmyslu Bitcoinu
+
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 S příchodem Bitcoinu v roce 2009 od Satoshiho Nakamota se narodil průmysl v hodnotě několika miliard dolarů. Přestože je tento průmysl mladý, za poslední dekádu zažil exponenciální růst. Každý den přicházejí noví hráči s velkými částkami peněz a jsou připraveni silně vstoupit do tohoto nového průmyslu. Dnes dosáhl průmysl bodu, z něhož už není návratu, kde vlády, banky, internetoví giganti a další se připojili k hnutí s různými zásahy.
@@ -390,16 +402,16 @@ V této sekci se rychle podíváme na aktéry, abychom lépe porozuměli tomu, j
 
 Je možné, že si kdokoli navrhne vlastní kryptoměnu - úkol, který trvá jen několik minut. Hodnota tohoto tokenu bude však výhradně určena trhem. V prosinci 2019 bylo na Coinmarketcapu uvedeno přes 5000 tokenů. Dnes, v roce 2023, se toto číslo zvýšilo na více než 23 000, s NFT, DeFi a mnoha dalšími věcmi. Tyto kryptografické tokeny mohou mít různé formy: měna, bezpečnostní token, palivo pro ekosystém, sidechain, digitální umění atd.
 Je zásadní pochopit, že 99,8 % těchto nových "kryptoměn" jsou podvody, založené marketéry s cílem ukrást vaše bitcoiny. Avšak mezi vzácnými 0,2 % vážných projektů se vynakládá značné úsilí na pokrok, experimentování a vývoj inovativních technologií, které mohou uživatelům přinést mnoho výhod. Časem se sektor zlepší, což povede k vzniku legitimních společností nabízejících skutečné produkty. Otázka, zda k tomu dojde na blockchainech jiných než Bitcoin, zůstává otevřená. Prozatím je jedna věc jistá: Bitcoin je jediná skutečně decentralizovaná, odolná vůči cenzuře, svobodná a vážná kryptoměna, která ospravedlňuje tisíce hodin práce.
-| Charakteristika   | Bitcoin                  | Alt-Coin (99,9 % z nich) |
+| Charakteristika | Bitcoin | Alt-Coin (99,9 % z nich) |
 | ----------------- | ------------------------ | ------------------------ |
-| Likvidita         | Vysoká                   | Nízká                     |
-| Adopce (skutečná) | Vysoká a globální        | Nízká                     |
-| Tým               | Robustní a decentralizovaný | Slabý a centralizovaný    |
-| Reputace          | Vysoká a globální        | Nízká                     |
-| Infrastruktura    | Robustní a stabilní      | Slabá                     |
-| Decentralizace    | Ano                      | Ne                        |
-| Podvod?           | Ne                       | Pravděpodobně             |
-| Hodnota?          | Ano                      | Diskutabilní              |
+| Likvidita | Vysoká | Nízká |
+| Adopce (skutečná) | Vysoká a globální | Nízká |
+| Tým | Robustní a decentralizovaný | Slabý a centralizovaný |
+| Reputace | Vysoká a globální | Nízká |
+| Infrastruktura | Robustní a stabilní | Slabá |
+| Decentralizace | Ano | Ne |
+| Podvod? | Ne | Pravděpodobně |
+| Hodnota? | Ano | Diskutabilní |
 
 Nedejte se zmást frázemi jako:
 
@@ -414,13 +426,13 @@ Je zásadní provést vlastní výzkum, pokud se rozhodnete ponořit do světa a
 
 Po bublině ICO v roce 2017 začali mnozí hlavní hráči vyvíjet vlastní databáze s použitím "blockchainu". Vlády a centrální banky zkoumají možnost vytvoření digitální verze své fiat měny (Švédsko, Evropa, Rusko, Čína atd.). Také technologické giganty se přidávají do tohoto závodu. Facebook spustil svůj vlastní projekt stablecoinu nazvaný "Libra". Alternativy k "blockchainu" jsou experimentovány bankami, korporacemi a dalšími technologickými giganty s řešeními jako Linux nebo IBM "Hyperledger".
 
-| Charakteristika       | Bitcoin | Alt-coin | Facebook-coin | Fed-coin |
-| --------------------- | ------- | -------- | ------------- | -------- |
-| Veřejný               | Ano     | Různé    | Ne            | Ne       |
-| Otevřený              | Ano     | Různé    | Ne            | Ne       |
-| Bez hranic            | Ano     | Různé    | Ne            | Ne       |
-| Neutrální             | Ano     | Různé    | Ne            | Ne       |
-| Odolný vůči cenzuře   | Ano     | Různé    | Ne            | Ne       |
+| Charakteristika     | Bitcoin | Alt-coin | Facebook-coin | Fed-coin |
+| ------------------- | ------- | -------- | ------------- | -------- |
+| Veřejný             | Ano     | Různé    | Ne            | Ne       |
+| Otevřený            | Ano     | Různé    | Ne            | Ne       |
+| Bez hranic          | Ano     | Různé    | Ne            | Ne       |
+| Neutrální           | Ano     | Různé    | Ne            | Ne       |
+| Odolný vůči cenzuře | Ano     | Různé    | Ne            | Ne       |
 
 I když tvrdí, že konkuruje Bitcoinu, tyto projekty zůstávají centralizované, aby zajistily kontrolu a dodržení místních předpisů. Neposkytnou ochranu soukromí, ale spíše zvýšený masový dohled. Projekt "Libra" od Facebooku se pozicionoval jako konkurent bankám, nikoli Bitcoinu. Dále, bez důkazu práce nemá "blockchain" skutečnou hodnotu. Je třeba poznamenat, že projekt Libra byl mezitím opuštěn a žádný skutečně soukromý projekt blockchainu v současnosti není celosvětově používán, na rozdíl od Bitcoinu, který je.
 
@@ -499,6 +511,7 @@ Neomezená moc? Ne. Hlavní vývojáři nemají neomezenou moc a nemohou sami m�
 ![blockchain](assets/industrie/5.webp)
 
 ## Vrstvená architektura Bitcoinu
+
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, jako open-source protokol, může být doplněn a obohacen o vrstvy protokolů/aplikací přidaných kýmkoli. Některé z těchto funkcí jsou významnější než jiné, vytvářejí dynamický ekosystém s množstvím společností přispívajících k vývoji infrastruktury. Příklady takových projektů zahrnují Sidechains (např. Liquid Chain od Blockstream), Lightning Network od Lightning Labs a koncepty identity (např. Microsoft ION). Tyto projekty jsou jako další vrstvy přidané k původnímu protokolu Bitcoinu.
@@ -532,9 +545,11 @@ To je vize budoucnosti, kterou mám pro Bitcoin. Stane se dálnicí pro internet
 Andreas Antonopoulos, pokud se nepletu, mě s touto myšlenkou seznámil. @aantonop
 
 # Nastavení vašeho plánu
+
 <partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Výběr vašeho profilu
+
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Nyní, když jsme si připomněli základní principy a naučili se, jak se vyhnout podvodům a finančním ztrátám, můžeme vyvinout náš plán. Plán bude na začátku poměrně jednoduchý, ale je důležité začít. Vždy ho můžete upravit, jak čas půjde.
@@ -560,7 +575,9 @@ Obecně:
 
 S tím byste měli najít, co vám vyhovuje, vybrat odpovídající plán a poté následovat správný tutoriál v další sekci.
 **Připomínka:** Pokud nevlastníte soukromý klíč (seznam 24 slov), za bezpečnost vašich bitcoinů je zodpovědná třetí strana. Jinými slovy, již nevlastníte své bitcoiny. Jsou vystaveny stejným rizikům jako burzovní platformy, jako je hacking, zabavení, regulace nebo bankrot.
+
 ## Hodler
+
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Ať už jde o investice nebo o Bitcoin, dlouhodobé držení je obecně normou. Statisticky je to dlouhodobě nejvýnosnější a nejsnadnější k implementaci:
@@ -614,10 +631,11 @@ Zde je stručný psychologický profil Hodlera, pokud se v něm poznáváte, mů
   V čele s cenovými poklesy a tržní volatilitou zůstává hodler odolný, udržuje víru ve svou investici a budoucí růst Bitcoinu.
 
 - Víra v technologii:
-Mimo prostého hledání zisku často hodler věří v technologii blockchainu a v schopnost Bitcoinu přinést pozitivní změnu ve světě.
-Shrnutí, hodler je trpělivý, disciplinovaný a vizionářský investor, který pevně věří v dlouhodobou hodnotu Bitcoinu a je ochoten snášet krátkodobou volatilitu, aby v budoucnu dosáhl významných zisků. Jsou metodický ve své investiční strategii a věnují pozornost bezpečnosti a dlouhodobému plánování.
+  Mimo prostého hledání zisku často hodler věří v technologii blockchainu a v schopnost Bitcoinu přinést pozitivní změnu ve světě.
+  Shrnutí, hodler je trpělivý, disciplinovaný a vizionářský investor, který pevně věří v dlouhodobou hodnotu Bitcoinu a je ochoten snášet krátkodobou volatilitu, aby v budoucnu dosáhl významných zisků. Jsou metodický ve své investiční strategii a věnují pozornost bezpečnosti a dlouhodobému plánování.
 
 ## Stacker
+
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 V Bitcoinu je koncept "Stacker" dobře známý. Myšlenka je jednoduchá: existuje pouze 21 milionů bitcoinů, a každý malý bitcoin se počítá! Tento malý bitcoin se ve skutečnosti nazývá satoshi (nebo SAT). Cílem stackera je nahromadit jich co nejvíce.
@@ -667,13 +685,14 @@ Psychologický portrét Stackeru
   Jejich hlavní cíl je jasný: nahromadit co nejvíce satoshi. Toto zaměření řídí jejich akce a investiční rozhodnutí, ať už cena prudce stoupá nebo klesá.
 
 - Finanční znalosti:
-Rozumí významu diverzifikace a pravidelného investování, čímž minimalizují riziko a optimalizují potenciální výnosy. Toho dosahují prostřednictvím průměrování cen a tudíž nedostatečným zájmem o krátkodobé pohyby cen.
+  Rozumí významu diverzifikace a pravidelného investování, čímž minimalizují riziko a optimalizují potenciální výnosy. Toho dosahují prostřednictvím průměrování cen a tudíž nedostatečným zájmem o krátkodobé pohyby cen.
 - Proaktivní:
   Aktivně hledá další příležitosti k získání Bitcoinů, ať už prodejem zboží nebo služeb, nebo prozkoumáváním dalších možností v ekosystému Bitcoinu.
 
 Stacker je metodická a soustředěná osoba s jasným plánem, jak maximalizovat svou akumulaci satoshi. Projevuje proaktivitu a finanční znalosti, neustále hledá způsoby, jak optimalizovat a zabezpečit své investice do Bitcoinu. Jejich přístup je charakterizován konzistencí a bezchybnou organizací, což je staví na cestu k stabilnímu a nepřetržitému růstu jejich portfolia Bitcoinů.
 
 ## Uživatel
+
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Nakonec poslední typ bitcoinera, který lze zmínit v úvodním kurzu, je bitcoiner, který potřebuje pravidelně používat Bitcoin. Ať už kvůli profesním povinnostem nebo prostě kvůli podpoře ekosystému, je nutné poskytnout řešení vhodná pro časté používání.
@@ -728,6 +747,7 @@ https://planb.network/tutorials/exchange/kraken
 Uživatel je technologicky zdatná osoba, která je aktivně zapojena do aktivního používání Bitcoinu. Neustále hledají způsoby, jak zlepšit efektivitu a bezpečnost svých transakcí a držení Bitcoinu. Jejich flexibilita a závazek k ekosystému se odráží v ochotě používat různá řešení, od lightning peněženek po rychlá řešení pro výměnu. Přestože jsou aktivně zapojeni do transakcí s Bitcoinem, nezanedbávají bezpečnost, čímž zajišťují jasný rozděl mezi svými bitcoiny pro každodenní použití a těmi, které drží na dlouhodobé období.
 
 ## Paranoidní Bitcoiner
+
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 Rád bych zde přidal paranoidního bitcoinistu. Tento typ osoby nechce být vystaven KYC (Know Your Customer - Poznej svého zákazníka), dává přednost zůstat blízko anonymitě a klade velký důraz na své soukromí. Paranoidní bitcoinista také použije LN prostřednictvím vlastního uzlu a pracuje na své bezpečnosti.
 
@@ -778,9 +798,11 @@ https://planb.network/tutorials/exchange/hodlhodl
 V myšlení paranoidního jedince jsou opatrnost, bezpečnost a anonymita na prvním místě. Tyto priority dikutují promyšlený a dobře zvážený přístup k používání Bitcoinu, podporují soběstačnost a opatrnost. Paranoidní jedinec je ochoten investovat čas a úsilí, aby zajistil bezpečnost a soukromí svých bitcoinů, zatímco zručně naviguje ekosystémem, aby se vyhnul zbytečnému vystavení. I když se to některým může zdát přehnaně opatrné, paranoidní jedinec považuje svou pečlivost a pozornost k detailům za nezbytné pro úspěšnou a bezpečnou účast ve světě Bitcoinu.
 
 # Budoucnost s Bitcoinem
+
 <partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Vytvoření plánu dědictví
+
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 Představme si následující dramatický scénář.
 Dopravní nehoda, BOOM, a vy už nejste na tomto světě. Zmizíte, necháváte svou rodinu bez svého experta na Bitcoin. Nevědí, kde jsou peníze, ale pamatují si, že jste neustále zmiňovali termíny jako klíč, seznam slov a nevratnost Bitcoinových transakcí. Jsou zdrceni, zmateni a teď musí všechno zjistit sami. Ačkoli se tato situace může zdát děsivá, je to skutečná možnost, kterou nelze ignorovat. Pak máte dvě možnosti: strávit mezi 15 minutami a 1 hodinou na zřízení plánu dědictví, nebo nic nedělat. Nikdo nebude soudit, ale pokud na vás lidé závisí, těch 15 minut může jednoho dne udělat velký rozdíl. Je to na vás.
@@ -823,7 +845,7 @@ Co potřebujete?
 - Dvě obálky
 - Telefonní/adresář
 - Počítač (podle mého názoru volitelný)
-![pamela morgan](assets/heritage/1.webp)
+  ![pamela morgan](assets/heritage/1.webp)
 
 Podle Pamely Morgan v "Plánování dědictví kryptoaktiv" na straně 18 jsou běžné omyly:
 
@@ -846,12 +868,12 @@ Vždy bude existovat kompromis mezi technickou odborností, dostupností a dův�
 
 Oddělení odpovědností: Důvěryhodná osoba by NIKDY neměla mít přístup k vašemu soukromému klíči. Jejich jedinou rolí je pomoci vašim blízkým pochopit bezpečnostní systém vašich Bitcoinů a získat důvěru. To je důvod, proč si vybíráte dvě důvěryhodné osoby. Pokud je to nutné, můžete se také obrátit na organizaci třetí strany (specializovaný právník nebo služby plánování dědictví).
 
-| Důvěryhodná osoba | Důvěra | Znalosti BTC | Kontaktní informace | Poznámka |
-| -------------- | ----- | ------------- | ---------- | ---- |
-| Můj bratr Bob         | Velmi vysoká  | Nízké               | Telefon & email          | "Bob toho o BTC moc neví, ale můžeme mu 100% důvěřovat, že pomůže." |
-| Můj bratranec Nathan       | Vysoká        | Střední              | Telefon & insta          | #1 osoba, na kterou se obrátit. Může vám pomoci. Je informovaný.                                        |
-| Ricco (krypto přítel)  | Střední      | Velmi vysoká           | Twitter & email & foto | Důvěřujte mu s technickými otázkami. Nikdy s penězi. Budete ho muset kontaktovat.           |
-| YouTuber & influencer  | Nízká       | Vysoká                | YouTube odkaz           | Vzdělávejte se sledováním jeho kanálu. Přímo vám nemůže pomoci.                               |
+| Důvěryhodná osoba     | Důvěra       | Znalosti BTC | Kontaktní informace    | Poznámka                                                                          |
+| --------------------- | ------------ | ------------ | ---------------------- | --------------------------------------------------------------------------------- |
+| Můj bratr Bob         | Velmi vysoká | Nízké        | Telefon & email        | "Bob toho o BTC moc neví, ale můžeme mu 100% důvěřovat, že pomůže."               |
+| Můj bratranec Nathan  | Vysoká       | Střední      | Telefon & insta        | #1 osoba, na kterou se obrátit. Může vám pomoci. Je informovaný.                  |
+| Ricco (krypto přítel) | Střední      | Velmi vysoká | Twitter & email & foto | Důvěřujte mu s technickými otázkami. Nikdy s penězi. Budete ho muset kontaktovat. |
+| YouTuber & influencer | Nízká        | Vysoká       | YouTube odkaz          | Vzdělávejte se sledováním jeho kanálu. Přímo vám nemůže pomoci.                   |
 
 ### Krok 2: Proveďte jednoduchý a rychlý inventář
 
@@ -863,11 +885,12 @@ Je důležité přemýšlet o všech místech, kde máte dolary nebo BTC:
 
 Zamyslete se nad tím, jak jste je zabezpečili a kde jsou tyto zálohy uloženy. V tuto chvíli není nezbytné mít dvě místa pro zálohu. Cílem je okamžitě zachytit vaši AKTUÁLNÍ bezpečnost. Můžeme ji později vylepšit! To je jen první verze, která zajistí vaši bezpečnost prozatím, později se budeme věnovat více detailům.
 
-| Obecné               | Software / Hardware | Aktiva        | Umístění             | Záloha (soukromý klíč)            | Heslo (PIN, heslová fráze)     | Poznámka                                                                                                                        |
-| --------------------- | ------------------- | ------------- | --------------------- | -------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Platforma pro výměnu     | Bitstamp            | BTC & Hotovost    | Přístupné online.   | -                                | Domov & Bankovní trezor              | Zde jsem koupil a převedl své Bitcoiny. Přihlašuji se pomocí správce hesel a 2FA.                             |
-| Fyzická peněženka       | Trezor model One    | BTC           | Zabezpečené                | Strýc Bob & Bankovní trezor           | Domov & Matka                  | Mám dvě peněženky, jednu běžnou a jednu s heslovou frází.                                                                  |
-| Samourai peněženka    | Mobil - OnePlus 6  | BTC           | U mě                  | Strýček Bob & Bankovní trezor    | Domov & Matka                   | Aplikace může být v režimu skrytí.                                                                                           |
+| Obecné               | Software / Hardware | Aktiva         | Umístění          | Záloha (soukromý klíč)        | Heslo (PIN, heslová fráze) | Poznámka                                                                          |
+| -------------------- | ------------------- | -------------- | ----------------- | ----------------------------- | -------------------------- | --------------------------------------------------------------------------------- |
+| Platforma pro výměnu | Bitstamp            | BTC & Hotovost | Přístupné online. | -                             | Domov & Bankovní trezor    | Zde jsem koupil a převedl své Bitcoiny. Přihlašuji se pomocí správce hesel a 2FA. |
+| Fyzická peněženka    | Trezor model One    | BTC            | Zabezpečené       | Strýc Bob & Bankovní trezor   | Domov & Matka              | Mám dvě peněženky, jednu běžnou a jednu s heslovou frází.                         |
+| Samourai peněženka   | Mobil - OnePlus 6   | BTC            | U mě              | Strýček Bob & Bankovní trezor | Domov & Matka              | Aplikace může být v režimu skrytí.                                                |
+
 NEBUĎTE ROZTRŽITÍ! Může se vám zdát, že potřebujete tyto aktiva převést kvůli:
 
 - Zlepšení vaší bezpečnosti?
@@ -911,6 +934,7 @@ Dále zahrneme "sekci poradců". Tato část může být pro vaše dědice matou
 Zde jsou lidé, kteří vám mohou pomoci odpovědět na otázky a vést vás tímto procesem:
 
 (Vložte jména vašich poradců zde, jejich příslušnost k organizaci (pokud je to aplikovatelné), jejich kontaktní informace a jak by měli ověřit svou identitu, například keybase, fotografie.)
+
 - Můj bratr Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. Můžete věřit Bobovi, že vám v tomto procesu pomůže. Ačkoli nemusí být technicky nejzručnější, je to ten pravý člověk, který vše zpochybňuje a dbá na opatrnost, aby zajistil váš bezpečný úspěch.
 - Můj bratranec Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. Nathan mě seznámil s Bitcoinem. Je velmi znalý v technologiích a může odpovědět na většinu vašich otázek. Také vlastní nějaké bitcoiny a může vás vést technickou stránkou. Viděli jste ho několikrát na rodinných setkáních a zde jsem přiložil jeho fotografii.
 - Ricco; @RiccoSFC na Twitteru; Ricco425@protonmail.com. S Riccem úzce spolupracuji už mnoho let. Nikdy jste se s ním nesetkali, takže se ujistěte, že mluvíte se správnou osobou tím, že se ho zeptáte: "Jaké je jméno Cédricova psa?" Pokud odpoví "12", je to dobré. Ricco je velmi přátelský a znalý expert na Bitcoin. Odpoví na všechny vaše otázky a můžete se spolehnout na jeho úsudek ohledně bezpečnosti bitcoinů. Neváhejte ho kontaktovat, setkal jsem se s ním několikrát a je informován o všem, co se vás a Maii týká.
@@ -936,8 +960,8 @@ Při zmínce o místě, kde je uložena záloha, použijte obecné místo, nikol
 - K přístupu k němu jsem používal správce hesel a vaši zálohu najdete v bankovním trezoru. Účet je také chráněn dvoufaktorovou autentizací, ke které můžete přistupovat prostřednictvím mého telefonu (Samsung Galaxy S8) nebo pomocí záložního kódu uloženého doma.
 - Také mám BTC na zařízení Trezor Model One. Přistupuji k němu prostřednictvím mého PC a webové stránky Trezor.io. Záložní soukromé klíče jsou uloženy v bankovním trezoru a u strýce Boba. PIN kód je uložen doma a u mé matky. Samotné zařízení je pravděpodobně v trezoru v mé kanceláři.
 - Pro mé zařízení Trezor používám pokročilou bezpečnostní frázi. Záloha této fráze je umístěna doma a u mé matky.
-Nyní zakončíme dopis nějakými právními informacemi, pokud je to nutné, stejně jako laskavými slovy.
-"Upozorňuji: Kopii mé závěti, datovanou 17. dubna 2018, najdete ve složce s dokumenty. Můj právník, Dwight Schrute, sídlící ve Scrantonu, Pensylvánie, má také kopii. Buďte opatrní a vždy si pamatujte mou lásku k vám." 26. 6. 2023, Cedric
+  Nyní zakončíme dopis nějakými právními informacemi, pokud je to nutné, stejně jako laskavými slovy.
+  "Upozorňuji: Kopii mé závěti, datovanou 17. dubna 2018, najdete ve složce s dokumenty. Můj právník, Dwight Schrute, sídlící ve Scrantonu, Pensylvánie, má také kopii. Buďte opatrní a vždy si pamatujte mou lásku k vám." 26. 6. 2023, Cedric
 
 Nyní si projděme naši práci (Na základě "Plánování dědictví kryptoaktiv" od Pamely Morgan, strana 44 (přeloženo Découvre Bitcoin)):
 
@@ -946,7 +970,7 @@ Nyní si projděme naši práci (Na základě "Plánování dědictví kryptoakt
 - Aktiva: Ujistěte se, že jste zahrnuli seznam vašich aktiv.
 - Směnárny: Zkontrolujte, že jste uvedli všechny směnárny, které drží vaše prostředky.
 - Přístup: Uveďte informace, které budou potřebovat k nalezení místa vašeho uložení a všechny nezbytné přístupové kódy.
-Pokud jste zkontrolovali všechny body, pak jste připraveni na závěrečné kroky! Udělejte kopii tohoto dopisu a obě kopie uložte do obálky. Obálku zapečetěte, podepište pečeť a uložte tuto obálku na bezpečné, ale přístupné místo. Ujistěte se, že vaši dědicové vědí, že tuto obálku budou muset v případě potřeby vyzvednout. Neváhejte si koupit knihu Pamely, abyste se do tématu více ponořili a našli čas na zlepšení vašeho plánu dědictví. Také o tom diskutujte s vaším notářem, aby byl tento plán právně začleněn do vaší oficiální závěti.
+  Pokud jste zkontrolovali všechny body, pak jste připraveni na závěrečné kroky! Udělejte kopii tohoto dopisu a obě kopie uložte do obálky. Obálku zapečetěte, podepište pečeť a uložte tuto obálku na bezpečné, ale přístupné místo. Ujistěte se, že vaši dědicové vědí, že tuto obálku budou muset v případě potřeby vyzvednout. Neváhejte si koupit knihu Pamely, abyste se do tématu více ponořili a našli čas na zlepšení vašeho plánu dědictví. Také o tom diskutujte s vaším notářem, aby byl tento plán právně začleněn do vaší oficiální závěti.
 
 Gratulujeme! Máte první verzi vašeho plánu dědictví a je to skvělý začátek!
 
@@ -954,14 +978,17 @@ _Plánování dědictví kryptoaktiv, Jednoduchý průvodce pro majitele, Pamela
 Jste nejlepší :D Můj tým a moji studenti vám také děkují!
 
 # Poděkování a pokračujte ve sledování zajíce do díry
+
 <partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Gratulujeme! JSTE V TOP 0,1%
+
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 Pokud jste sledovali náš obsah od začátku, nyní jste opravdovým občanem 21. století a jedním z nejzkušenějších v oblasti Bitcoinu! Používáte správce hesel a dvoufaktorovou autentizaci (2FA). Rozumíte tomu, co Bitcoin je a proč je důležitý. Vlastníte Bitcoiny a máte bezpečný způsob, jak koupit nebo vydělat více. Uložili jste své Bitcoiny do "studené" peněženky a implementovali správné řízení klíčů. Vytvořili jste plán dědictví pro vaše blízké. Nyní jste v bezpečí a můžete si odpočinout! Užijte si pivo a buďte na sebe hrdí!
 
 Jsem opravdu hrdý, že jste dosáhli této fáze. Myslím to upřímně. Co dělat dál? Ačkoli byste nyní určitě měli odpočívat a být na sebe hrdí, vaše cesta s Bitcoinem je zdaleka u konce a nikdy doopravdy nebude. Zde jsou některé možnosti, co dělat dále:
+
 1. Můžete jednoduše pokračovat tak, jak jste doposud. Postupně si hromadit bitcoiny a nechat svou strategii rozvíjet se časem. Již máte dostatečnou úroveň bezpečnosti, vše je na svém místě a udělali jste, co bylo pro vás a vaši rodinu nezbytné. Nemusíte se stát obchodním expertem a nemusíte toho vědět o investování mnohem více. Pravděpodobně máte vedlejší práci a i když je Bitcoin vzrušující, vaším hlavním cílem bylo dosáhnout této fáze. To platí pro většinu z vás a já to respektuji. Jsem velmi rád, že jste se dostali tak daleko do Bitcoinové "králičí nory" a doufám, že cesta byla příjemná. Děkuji vám za důvěru, kterou jste mi projevili při zabezpečení vašich prvních bitcoinů.
 
 2. Možná budete chtít pokračovat ve vzdělávání o technických, ideologických a filozofických aspektech Bitcoinu. Pokud máte pocit, že vaše cesta teprve začíná, povzbuzuji vás, abyste pokračovali ve studiu Bitcoinu. Je toho tolik k naučení, že je někdy těžké vědět, kde začít. Zde je seznam kurzů a školení, které vás mohou doprovázet:
@@ -974,19 +1001,49 @@ Jsem opravdu hrdý, že jste dosáhli této fáze. Myslím to upřímně. Co dě
 
 V každém případě jsou všechny naše kurzy zdarma a na naší platformě je k dispozici mnoho zdrojů a tutoriálů, které vás mohou doprovázet. Hodně štěstí ve vašem studiu!
 
+# Závěr
 
+<partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Ohodnoťte kurz
+## Vyhodnoťte kurz
+
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
+
 <chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Závěr
 
-## Follow up
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-Tento kurz, stejně jako veškerý obsah dostupný na této univerzitě, vám byl poskytnut zdarma naší komunitou. Abyste nás podpořili, můžete ho sdílet s ostatními, stát se členem univerzity a dokonce přispět k jejímu rozvoji prostřednictvím GitHubu. Jménem celého týmu vám děkujeme!
+Gratulujeme k dokončení tohoto kurzu!
 
+Jsme nadšeni, že jste úspěšně dosáhli tohoto milníku ve své vzdělávací cestě. Díky vaší oddanosti a zapojení jste získali cenné znalosti a dovednosti, které vám dobře poslouží ve vašem profesním rozvoji.
 
+Pro další prohlubování znalostí o Bitcoinu vás zveme k prozkoumání všech ostatních kurzů dostupných na Plan ₿ Network:
+
+#### Objevte Bitcoin a jeho základy na
+
+https://planb.network/courses/btc101
+
+#### Aktualizujte svou online bezpečnost na
+
+https://planb.network/courses/scu101
+
+#### Objevte Lightning Network na
+
+https://planb.network/courses/lnp201
+
+#### Seznamte se s rakouskou školou ekonomického myšlení na
+
+https://planb.network/courses/eco201
+
+#### Pochopte základy Bitcoinu a postavte si domácí vytápění na
+
+https://planb.network/courses/min201
+
+#### Pochopte, jak funguje Bitcoin peněženka na
+
+https://planb.network/courses/cyp201

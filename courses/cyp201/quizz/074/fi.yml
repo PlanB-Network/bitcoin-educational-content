@@ -1,8 +1,9 @@
-question: Mikä etuliite tai HRP vastaa SegWit-standardin osoitetta?
-answer: bc
+question: Mitä indeksi /84'/ syvyydessä 1 johdannaispolussa tarkoittaa?
+answer: P2WPKH-standardi (SegWit v0)
 wrong_answers:
-  - 1
-  - 0x
-  - btc
+  - P2TR-standardi (SegWit v1)
+  - Bitcoin-testnet-valuutta
+  - Bitcoin-mainnet-valuutta
 explanation: |
-  Etuliitettä bc käytetään SegWit-osoitteissa Bitcoinin pääverkossa.
+  Indeksi /84'/ on määritelty BIP84: ssä osoittamaan SegWit v0 -standardin käyttöä P2WPKH-osoitteiden kanssa syvyydessä 1 (johdannaiskohteen syvyys).
+reviewed: false

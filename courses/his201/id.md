@@ -1358,3 +1358,38 @@ Ketiga, Bitcoin tumbuh secara organik. Ini mampu berkembang secara diam-diam, me
 Keempat, Bitcoin adalah ciptaan yang altruistik. Satoshi Nakamoto menawarkan Bitcoin kepada dunia. Dia merilis program tersebut di bawah lisensi gratis. Dia tidak mencari ketenaran, keuntungan, ataupun kekuasaan. Dia memastikan keamanan penambangan jaringan lebih dari setahun, tanpa meminta kompensasi apapun. Meskipun dia mengumpulkan lebih dari satu juta bitcoin, dia tidak pernah menghabiskannya. Dia akhirnya menghilang, terutama karena kekhawatiran terkait perhatian yang diciptakan oleh kasus WikiLeaks, meninggalkan proyek tersebut untuk bertumpu pada komunitas, tanpa satu figur dominan pun.
 
 Pada tahun 2011, Satoshi menghilang, tetapi Bitcoin bertahan. Mata uang kripto bahkan secara definitif lepas landas, baik dari sudut pandang media maupun ekonomi. Mesin telah diluncurkan dan tidak ada yang bisa menghentikannya.
+# Kesimpulan
+<partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
+## Evaluasi kursus ini
+<chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
+<isCourseReview>true</isCourseReview>
+## Ujian akhir
+<chapterId>d61dbdf3-b482-412b-b725-0a19006603b7</chapterId>
+<isCourseExam>true</isCourseExam>
+## Kesimpulan
+<chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
+Selamat atas penyelesaian kursus ini!
+
+Kami sangat senang Anda telah mencapai tonggak penting ini dalam perjalanan pembelajaran Anda.
+
+Berkat dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional Anda.
+
+Untuk terus mendalami alam semesta Bitcoin, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
+
+#### Temukan Bitcoin dan fundamental-nya dengan
+https://planb.network/courses/btc101
+
+#### Temukan Sekolah Ekonomi Austria dengan
+https://planb.network/courses/eco201
+
+#### Dapatkan dan amankan bitcoin pertama Anda dengan
+https://planb.network/courses/btc102
+
+#### Perbarui keamanan online Anda dengan
+https://planb.network/courses/scu101
+
+#### Temukan evolusi kebebasan sepanjang masa dengan
+https://planb.network/courses/phi201
+
+#### Pahami dasar-dasar penambangan dengan
+https://planb.network/courses/min201

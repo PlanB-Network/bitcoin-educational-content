@@ -1,9 +1,9 @@
-question: Was bedeutet das Präfix 0x?
-answer: Die Zahl nach diesem Präfix wird im 16er-System (hexadezimal) ausgedrückt.
+question: Was ist die primäre Rolle von PBKDF2 bei Bitcoin?
+answer: Generierung des Seeds eines HD-Wallets
 wrong_answers:
-  - Die Zahl nach diesem Präfix wird im 2er-System (binär) ausgedrückt.
-  - Die Zahl nach diesem Präfix wird im 10er-System (dezimal) ausgedrückt.
-  - Die Zahl nach diesem Präfix wird im 8er-System (oktal) ausgedrückt.
+  - Authentifizierung von Transaktionen
+  - Verschlüsselung privater Schlüssel
+  - Erstellung von Bitcoin-Adressen
 explanation: |
-  Das Präfix 0x zeigt an, dass die nachfolgende Zahl im 16er-System (hexadezimal) ausgedrückt wird.
+  PBKDF2 wird verwendet, um aus einer mnemonischen Phrase und einer optionalen Passphrase einen Seed abzuleiten.
 reviewed: false

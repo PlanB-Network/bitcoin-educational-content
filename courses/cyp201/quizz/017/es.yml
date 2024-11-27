@@ -1,9 +1,9 @@
-question: ¿Cuál es el objetivo de usar firmas digitales en Bitcoin?
-answer: Producir una prueba matemática que justifique que un usuario está realmente en posesión de una clave privada, sin revelar esa clave privada.
+question: ¿Qué curva elíptica se utiliza en el protocolo Bitcoin?
+answer: secp256k1
 wrong_answers:
-  - Producir una prueba matemática que justifique que un usuario está realmente en posesión de una clave pública, sin revelar esa clave pública.
-  - Producir una prueba matemática que justifique que un usuario está realmente en posesión de una dirección de recepción, sin revelar esa dirección de recepción.
-  - Producir una prueba matemática que justifique que un usuario está realmente en posesión de una cartera.
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  Las firmas digitales en Bitcoin permiten probar que un usuario posee la clave privada asociada a una clave pública sin revelar esa clave privada.
+  Bitcoin utiliza la curva secp256k1, definida por la ecuación y² = x³ + 7, para sus operaciones criptográficas.
 reviewed: false

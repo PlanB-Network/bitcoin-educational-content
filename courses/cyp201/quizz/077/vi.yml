@@ -1,8 +1,13 @@
-question: Checksum của một địa chỉ Legacy được tính toán như thế nào?
-answer: Với HASH256.
+question: Tại sao các mô tả (descriptors) lại đặc biệt hữu ích cho ví đa chữ ký?
+
+answer: Chúng bao gồm xpub của mỗi yếu tố và mô tả cấu trúc đa chữ ký
+
 wrong_answers:
-  - Với HASH160.
-  - Với một mã BCH.
-  - Với RIPEMD160.
-explanation: |
-  Đối với các địa chỉ Legacy, checksum được thu được bằng cách thực hiện một phép băm kép với hàm SHA256 (HASH256).
+  - Chúng loại bỏ nhu cầu về cụm từ ghi nhớ
+  - Chúng đơn giản hóa việc tạo ra các khóa cứng
+  - Chúng làm cho đa chữ ký tương thích với tất cả các kịch bản
+
+explanation:
+  Các mô tả bao gồm các khóa công khai mở rộng của tất cả các bên tham gia, điều này giúp việc khôi phục và quản lý cấu hình đa chữ ký trở nên dễ dàng hơn.
+
+reviewed: false

@@ -1,8 +1,9 @@
-question: ¿Por qué es importante usar una buena fuente de entropía para generar claves privadas?
-answer: Una entropía deficiente puede hacer que las claves privadas sean predecibles y vulnerables a ataques.
+question: ¿Cuál es la principal limitación de las carteras JBOK?
+answer: Requieren una copia de seguridad independiente para cada clave privada
 wrong_answers:
-  - Una buena entropía ayuda a optimizar el rendimiento del monedero.
-  - La entropía no juega ningún papel en la seguridad de las claves privadas.
-  - Una entropía deficiente ralentiza las transacciones.
+  - No permiten la generación de nuevas direcciones
+  - Son incompatibles con firmas digitales
+  - Usan claves públicas sin comprimir
 explanation: |
-  Si la entropía utilizada para generar claves privadas es baja, podría permitir a un atacante adivinar o calcular estas claves, comprometiendo la seguridad del monedero.
+  Las carteras JBOK obligan al usuario a hacer una copia de seguridad de cada clave privada individualmente, complicando su gestión.
+reviewed: false

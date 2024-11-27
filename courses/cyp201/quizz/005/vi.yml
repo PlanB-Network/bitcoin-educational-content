@@ -1,9 +1,9 @@
-question: Kích thước đầu vào của hàm SHA256 phải là bao nhiêu sau khi đã được thêm padding?
-answer: Một bội số của 512 bit.
+question: Tại sao tính không thể đảo ngược được đảm bảo trong SHA256?
+answer: Các thao tác được sử dụng loại bỏ thông tin và chỉ một chiều
 wrong_answers:
-  - Của 256 bit.
-  - Của 256 byte.
-  - Một bội số của 256 bit.
+  - Tin nhắn được mã hóa trước khi băm
+  - Các bit được sắp xếp một cách ngẫu nhiên
+  - Mỗi băm được lưu trữ trong một cơ sở dữ liệu
 explanation: |
-  Hàm SHA256 yêu cầu đầu vào phải là một bội số của 512 bit sau khi đã thêm padding để hoạt động chính xác.
+  Các thao tác như ShR và XOR khiến việc quay trở lại trạng thái ban đầu trở nên không thể, đảm bảo tính không thể đảo ngược.
 reviewed: false

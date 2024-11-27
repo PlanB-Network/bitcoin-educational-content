@@ -1,9 +1,9 @@
-question: Cos'è un indirizzo di ricezione (in generale)?
-answer: Un hash di una chiave pubblica con metadati inseriti in un formato specifico.
+question: Cosa rappresenta la profondità 0 nella gerarchia dei portafogli HD?
+answer: La chiave principale e il codice catena principale
 wrong_answers:
-  - Un hash di una chiave privata con metadati inseriti in un formato specifico.
-  - Un hash di una chiave estesa con metadati inseriti in un formato specifico.
-  - Un hash di un codice catena con metadati.
+  - La catena esterna di indirizzi
+  - L'account predefinito
+  - Il tipo di valuta
 explanation: |
-  Un indirizzo di ricezione è generalmente un hash di una chiave pubblica associato a metadati, utilizzato in uno scriptPubKey per stabilire delle condizioni.
-reviewed: false
+  La profondità 0 corrisponde alla chiave principale e al codice catena principale, che sono i punti di partenza per tutte le derivazioni in un portafoglio HD.
+recensito: false

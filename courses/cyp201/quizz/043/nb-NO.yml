@@ -1,9 +1,9 @@
-question: Hvordan bestemme bitstørrelsen på sjekksummen for en gjenopprettingsfrase?
-answer: Del størrelsen på det tilfeldige tallet (entropi) med 32.
+question: Hvor mange bits entropi brukes for en 24-ords mnemonic frase?
+answer: 256 bits
 wrong_answers:
-  - Del størrelsen på det tilfeldige tallet (entropi) med 8.
-  - Del størrelsen på det tilfeldige tallet (entropi) med 16.
-  - Multipliser størrelsen på det tilfeldige tallet (entropi) med 2.
+  - 128 bits
+  - 512 bits
+  - 64 bits
 explanation: |
-  Størrelsen på sjekksummen fås ved å dele størrelsen på entropien med 32, i samsvar med BIP39.
+  En 24-ords mnemonic frase er basert på 256 bits entropi, noe som sikrer veldig høy sikkerhet.
 reviewed: false

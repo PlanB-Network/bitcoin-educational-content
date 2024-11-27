@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'un PRNG ?
-answer: Un algorithme qui génère des nombres aléatoires à partir d'une graine et d'une fonction de transformation.
+question: Qu'est-ce qu'un portefeuille HD permet de faire par rapport à un portefeuille JBOK ?
+answer: Générer toutes les clés privées à partir d'une unique graine
 wrong_answers:
-  - Un dispositif matériel qui génère des nombres véritablement aléatoires.
-  - Un générateur qui produit des nombres aléatoires sans aucune graine.
-  - Un algorithme qui génère des nombres prédictibles.
+  - Augmenter la sécurité des signatures numériques
+  - Réutiliser une même adresse pour plusieurs transactions
+  - Éviter complètement l'utilisation de clés publiques
 explanation: |
-  Un PRNG génère des nombres pseudo-aléatoires à partir d'une graine, mais contrairement à un TRNG, il n'est pas véritablement aléatoire.
+  Les portefeuilles HD dérivent toutes les clés privées à partir d'une graine unique, ce qui simplifie la sauvegarde et améliore indirectement la confidentialité.
 reviewed: false

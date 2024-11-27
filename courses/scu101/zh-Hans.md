@@ -112,8 +112,6 @@ Cookie是网站创建的文件，用于在您的设备上存储信息。虽然�
 
 TOR是合法的，被记者、自由活动家以及希望在专制国家逃避审查的其他人使用。然而，重要的是要理解，TOR不保护访问的网站或计算机本身。此外，使用TOR可能会减慢互联网连接速度，因为数据在到达目的地之前需要通过其他三个人的计算机传输。还必须注意，TOR不是保证100%匿名的万无一失的解决方案，不应用于非法活动。
 
-
-
 https://planb.network/tutorials/others/tor-browser
 
 ## VPN和互联网连接
@@ -136,7 +134,6 @@ https://planb.network/tutorials/others/ivpn
 
 https://planb.network/tutorials/others/mullvad
 
-
 ### HTTPS & 公共Wi-Fi网络
 
 在在线安全方面，了解4G通常比公共Wi-Fi更安全是至关重要的。然而，使用4G可能会迅速耗尽您的移动数据计划。HTTPS协议已成为网站加密数据的标准。它确保了用户与网站之间交换的数据是安全的。因此，验证您访问的网站是否使用HTTPS协议至关重要。
@@ -146,7 +143,6 @@ https://planb.network/tutorials/others/mullvad
 为了避免在线诈骗，验证您正在浏览的网站的身份至关重要，特别是通过检查扩展名和域名。此外，要警惕使用URL中相似字母的骗子来欺骗用户。
 ![](assets/en/10.webp)
 总之，VPN的使用可以大大提高在线安全，无论是对企业还是个人用户而言。此外，养成良好的浏览习惯可以有助于更好的数字卫生。在本课程的下一部分，我们将讨论计算机安全，包括更新、杀毒软件和密码管理。
-
 
 # 计算机使用的最佳实践
 
@@ -193,9 +189,6 @@ https://planb.network/tutorials/others/mullvad
 像对待您的家一样对待您的计算机：保持警惕，定期更新，删除不必要的文件，并使用强密码进行安全保护。对于笔记本电脑和智能手机上的数据进行加密是防止盗窃或数据丢失的关键。Windows的BitLocker、Linux的LUKS和Mac的内置选项是数据加密的解决方案。建议毫不犹豫地激活数据加密，并将密码写在纸上，保存在安全的地方。
 总之，选择一个适合您需求的操作系统并定期更新它及已安装的应用程序是至关重要的。同样重要的是使用一个有效且用户友好的杀毒软件，并采取良好的实践来保护您的计算机和数据的安全。
 
-
-
-
 ## 黑客攻击与备份管理：保护您的数据
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
@@ -238,7 +231,6 @@ https://planb.network/tutorials/others/proton-drive
 
 https://planb.network/tutorials/others/veracrypt
 
-
 # 实施解决方案。
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -271,8 +263,6 @@ https://planb.network/tutorials/others/veracrypt
 比特币奖励：为我们的比特币活动（创建交易账户）创建一个特定的电子邮件地址可能是明智的，以便真正分隔我们生活中的活动领域。
 
 https://planb.network/tutorials/others/proton-mail
-
-
 
 ## 密码管理器
 
@@ -360,8 +350,6 @@ https://planb.network/tutorials/others/authy
 
 https://planb.network/tutorials/others/security-key
 
-
-
 # 实践部分
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -374,8 +362,6 @@ https://planb.network/tutorials/others/security-key
 
 https://planb.network/tutorials/others/proton-mail
 
-
-
 ## 在2FA中增强安全性
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
@@ -387,9 +373,6 @@ https://planb.network/tutorials/others/authy
 另一种选择是使用物理安全密钥。这个额外的教程将向您展示如何设置和使用安全密钥作为第二个认证因素：
 
 https://planb.network/tutorials/others/security-key
-
-
-
 
 ## 创建密码管理器
 
@@ -405,8 +388,6 @@ https://planb.network/tutorials/others/bitwarden
 
 https://planb.network/tutorials/others/keepass
 
-
-
 ## 保护您的账户
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
@@ -416,7 +397,6 @@ https://planb.network/tutorials/others/keepass
 https://planb.network/tutorials/others/bitwarden
 
 https://planb.network/tutorials/others/keypass
-
 
 ## 备份设置
 
@@ -429,8 +409,6 @@ https://planb.network/tutorials/others/proton-drive
 为了保护存储在可移动媒介（如 USB 闪存驱动器或外部硬盘）上的文件，我还将向您展示如何使用 VeraCrypt 轻松加密和解密这些媒介：
 
 https://planb.network/tutorials/others/veracrypt
-
-
 
 ## 更换浏览器和VPN
 
@@ -447,8 +425,6 @@ https://planb.network/tutorials/others/mullvad
 另外，了解如何使用Tor Browser，这是一款专门设计用于保护您在线隐私的浏览器：
 
 https://planb.network/tutorials/others/tor-browser
-
-
 
 # 进一步了解
 
@@ -523,37 +499,52 @@ Passkiz是另一种可行且安全的密码管理替代方案。然而，一个�
 
 作为“安全101”培训模块的一部分，在Découvre Bitcoin Academy上，我们还讨论了闪电网络认证。该系统为每项服务生成不同的标识符，无需提供电子邮件地址或个人信息。可以拥有用户控制的去中心化身份，但在去中心化身份项目中缺乏标准化和规范化。建议使用诸如Nuget和Chocolaté之类的包管理器，这些管理器允许在微软商店之外下载开源软件，以避免恶意攻击。总之，DNS对于在线安全至关重要，但必须保持警惕，防范对DNS服务器的潜在攻击。
 
+# 总结
 
-## 评估课程
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
+
+## 评价本课程
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试
+
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## 总结
 
-## 致谢并继续挖掘知识的深渊
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
 
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+恭喜您完成本课程！
 
-### 评价培训并支持我们
+我们很高兴看到您在学习之旅中成功达到这个里程碑。
 
-这门课程以及本学院的所有内容都是由我们的社区免费提供给您的。为了支持我们，您可以与他人分享它，成为学院的会员，甚至通过GitHub贡献其发展。代表整个团队，谢谢您！
+通过您的专注和投入，您获得了宝贵的知识和技能，这些将有助于您的职业发展。
 
-培训的评价系统将很快整合到这个新的电子学习平台中！与此同时，非常感谢您参加课程，如果您喜欢它，请考虑与他人分享。
+为了继续深入了解比特币世界，我们邀请您探索 Plan ₿ Network 上的其他课程，如：
 
-### 更进一步
+#### 通过以下课程探索比特币及其基础知识
 
-恭喜您完成了这个SECU 101培训！我真诚地希望您喜欢它，并且它为您打开了大门。您现在已经准备好获得您的第一个比特币，或者简单地继续第二级课程的冒险！
+https://planb.network/courses/btc101
 
-- BTC 101 将为您提供比特币的理论基础
-- BTC 102 将帮助您制定您的比特币计划
-- LN 201 和 202 将向您介绍闪电网络，一个第二层支付网络
-- ECON 201 将涵盖奥地利经济学
-- MINING 201 了解更多关于挖矿的信息
-- （还有更多）
+#### 通过以下课程获取并保护您的第一笔比特币
 
-非常感谢我们的Patreon、会员和捐赠者的财务支持，感谢分享的人们，以及让这次培训成为可能的人们：Théo pantamis、Renaud、Théo、Fabien、Noury、Muriel和整个团队。
-很快见！
+https://planb.network/courses/btc102
 
+#### 通过以下课程探索闪电网络
+
+https://planb.network/courses/lnp201
+
+#### 通过以下课程探索奥地利学派的经济思想
+
+https://planb.network/courses/eco201
+
+#### 通过以下课程探索比特币起源的历史
+
+https://planb.network/courses/his201
+
+#### 通过以下课程了解比特币钱包的工作原理
+
+https://planb.network/courses/cyp201

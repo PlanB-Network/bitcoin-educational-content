@@ -1,9 +1,9 @@
-question: Qual é a função de derivação de chave usada para derivar uma semente a partir de uma frase mnemônica e uma senha opcional?
-answer: PBKDF2.
+question: Qual é a principal diferença entre uma frase-senha e um código PIN para uma carteira de Bitcoin?
+answer: A frase-senha modifica a derivação da chave, não o código PIN
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - O código PIN está vinculado à frase mnemônica
+  - O código PIN é usado para criptografar transações, mas não a frase-senha
+  - O código PIN gera endereços Bitcoin
 explanation: |
-  A função PBKDF2 é usada para derivar a semente de uma carteira HD a partir da frase mnemônica e uma senha opcional.
+  Ao contrário do código PIN, a frase-senha está diretamente envolvida no processo de derivação da chave e altera as chaves da carteira.
 reviewed: false

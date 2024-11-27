@@ -1,9 +1,9 @@
-question: Que se passe-t-il si j'utilise un portefeuille HD avec une passphrase et que je perds cette passphrase ?
-answer: Mes bitcoins sont perdus à jamais.
+question: Combien de bits fait la checksum pour une entropie de 128 bits ?
+answer: 4 bits
 wrong_answers:
-  - Ce n'est pas grave, je peux toujours accéder à mes bitcoins avec uniquement ma phrase mnémonique.
-  - Je peux réinitialiser la passphrase avec ma clé privée.
-  - Je peux récupérer mes bitcoins en utilisant un portefeuille sans passphrase.
+  - 8 bits
+  - 16 bits
+  - 6 bits
 explanation: |
-  Si la passphrase est perdue, l'accès aux bitcoins est définitivement perdu, car elle est nécessaire pour dériver les clés privées.
+  La longueur de la checksum est calculée selon la formule CS = ENT / 32, soit 4 bits pour une entropie de 128 bits.
 reviewed: false

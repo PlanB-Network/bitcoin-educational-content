@@ -132,7 +132,6 @@ Hvis du ønsker å utforske Bitcoins historie mer detaljert, anbefaler jeg sterk
 
 https://planb.network/courses/his201
 
-
 # Penger
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -249,7 +248,6 @@ Hvis du ønsker å lære mer om økonomiske feilslutninger og frihet, anbefaler 
 
 https://planb.network/courses/eco102
 
-
 ## Hyperinflasjon
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -333,7 +331,6 @@ Som konklusjon har hyperinflasjon effekten av raskt å degradere valutaens verdi
 For å fordype deg i temaet hyperinflasjon, anbefaler jeg David St-Onges kurs ECO 204. Her lærer du hva hyperinflasjonssykluser er og hvilke reelle konsekvenser de har for våre liv. Du vil også oppdage likhetene mellom disse syklusene og, viktigst av alt, hvordan du kan beskytte deg mot dem:
 
 https://planb.network/courses/eco204
-
 
 ## 21 millioner bitcoins
 
@@ -492,7 +489,6 @@ Velg en lommebok som passer dine behov og bruk. Detaljerte veiledninger om bruk 
 Hvis du under din reise ned i kaninhullet ønsker å lære mer om hvordan en Bitcoin-lommebok bygges, fra entropi til mottaksadresser, anbefaler jeg kurset CYP 201 som er viet til dette emnet:
 
 https://planb.network/courses/cyp201
-
 
 ## Sikkerhet og Bitcoin-lommebøker
 
@@ -1047,7 +1043,6 @@ https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
 
 https://planb.network/courses/btc305
 
-
 ### Rask oppsummering i en plakat!
 
 ![Alt tekst](assets/posters/en/17._earn_your_bitcoin.webp)
@@ -1318,50 +1313,42 @@ Bitcoin er adoptert av ulike grupper av mennesker, fra kryptografer til libertar
 Bitcoin kan ikke lenger stoppes og kan ikke lenger sensureres. Det er en fredelig revolusjon for å endre det monetære systemet og muliggjøre finansiell inkludering. Brukere kan skaffe seg bitcoins ved å akseptere dem for handelen sin eller ved å kjøpe dem gjennom regulerte eller uregulerte plattformer. Bitcoins kan lagres i lommebøker, mobilapplikasjoner eller fysiske enheter. Det er ingen betrodd mellommann i Bitcoin, Bitcoin fremmer transparens, frihet og individuelt ansvar - som ordtaket sier "Ikke stol, verifiser".
 Å endre det finansielle systemet krever endring av valutaen. Satoshi skapte Bitcoin i 2008 for å foreslå et forsøk på dette. Tilgang til lett og "magisk" penger korrumperer. Bitcoin er derfor et alternativ for å bygge et nytt nøytralt monetært system. Bitcoin muliggjør frigjøring fra banksystemet. Det er et sosialt fenomen som leder oss til å delta i en fredelig revolusjon. Er du klar til å bli med?
 
-## Anerkjennelser og fortsett å grave i kaninhullet
+# Konklusjon
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Gå videre
+## Kursevaluering
 
-Gratulerer med å ha fullført dette BTC 101-kurset! Jeg håper inderlig at du likte det og at det åpnet dører for deg. Din oppdagelse av bitcoin er bare begynnelsen, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige ved universitetet.
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>
 
-For å sette opp din Bitcoin-plan:
+## Avsluttende eksamen
+
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Konklusjon
+
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
+Gratulerer med fullført BTC 101-kurs! Jeg håper inderlig at du likte det og at det åpnet nye dører for deg. Din oppdagelsesreise med Bitcoin har bare begynt, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige på Plan ₿ Network:
+
+#### Få og sikre dine første bitcoins med
 
 https://planb.network/courses/btc102
 
-For å oppdage Lightning Network, et betalingsnettverk i andre lag:
+#### Oppdag Lightning Network med
 
 https://planb.network/courses/lnp201
 
-For å utforske østerriksk økonomi:
+#### Lær om den østerrikske økonomiske tankegangen med
 
 https://planb.network/courses/eco201
 
-For å oppdatere din digitale sikkerhet:
+#### Oppdater din nettsikkerhet med
 
 https://planb.network/courses/scu101
 
-For å lære mer om mining:
+#### Forstå grunnleggende Bitcoin og bygg din egen husoppvarming med
 
 https://planb.network/courses/min201
-
-og mye mer...
-
-
-## Støtt oss
-
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
-
-Dette kurset, samt alt innholdet på dette universitetet, har blitt tilbudt deg gratis av vårt samfunn. For å støtte oss, kan du dele det med andre, bli medlem av universitetet, og til og med bidra til utviklingen via [vår GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). På vegne av hele teamet, takk!
-
-## Merk opplæringen
-
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
-
-Et vurderingssystem for opplæringen vil snart bli integrert i denne nye E-læringsplattformen! I mellomtiden, tusen takk for at du tok kurset, og hvis du likte det, vennligst vurder å dele det med andre.
-
-En stor takk til våre Patreon-støttespillere, medlemmer og donorer for deres økonomiske støtte, takk til folk som deler, og takk til de som gjorde denne opplæringen mulig: Rachel, Muriel, StackinSat-teamet, JohnOnChain, Fanis, Guillaume, Lounes, korrekturleserne og anmelderne.
-
-Vi sees snart!
-

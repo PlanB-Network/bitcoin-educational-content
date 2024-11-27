@@ -1,9 +1,9 @@
-question: What is the size of an uncompressed Bitcoin public key including its prefix?
-answer: 520 bits.
+question: What is the common point used by all participants to calculate a public key in Bitcoin?
+answer: The generator point G
 wrong_answers:
-  - 512 bytes.
-  - 256 bits.
-  - 512 bits.
+  - The SHA256 hash
+  - A mnemonic phrase
+  - The compressed public key
 explanation: |
-  An uncompressed Bitcoin public key with its prefix is 520 bits, comprising the x and y coordinates of the point on the elliptic curve.
+  The generator point G of the elliptic curve secp256k1 is used to calculate public keys from private keys.
 reviewed: false

@@ -1,8 +1,8 @@
-question: Hvorfor er det viktig å bruke en god kilde til entropi for å generere private nøkler?
-answer: Dårlig entropi kan gjøre private nøkler forutsigbare og sårbare for angrep.
+question: Hva er den største begrensningen med JBOK-lommebøker?
+answer: De krever en uavhengig sikkerhetskopi for hver privat nøkkel
 wrong_answers:
-  - God entropi bidrar til å optimalisere lommebokytelsen.
-  - Entropi spiller ingen rolle i sikkerheten til private nøkler.
-  - Dårlig entropi senker transaksjoner.
+  - De tillater ikke generering av nye adresser
+  - De er ikke kompatible med digitale signaturer
+  - De bruker ukomprimerte offentlige nøkler
 explanation: |
-  Hvis entropien som brukes til å generere private nøkler er lav, kan det tillate en angriper å gjette eller beregne disse nøklene, noe som kompromitterer sikkerheten til lommeboken.
+  JBOK-lommebøker tvinger brukeren til å ta sikkerhetskopi av hver privat nøkkel individuelt, noe som kompliserer deres håndtering.

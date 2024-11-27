@@ -1,8 +1,8 @@
-question: Apa tujuan dari proses hashing kriptografi?
-answer: Memetakan string bit dengan panjang sembarang ke string bit dengan panjang tetap.
+question: Apa fungsi utama dari fungsi hash?
+answer: Ia mengubah informasi dengan panjang sembarang menjadi sidik jari berukuran tetap
 wrong_answers:
-  - Mengenkripsi sebuah pesan.
-  - Memastikan bahwa pengirim pesan tidak dapat menyangkal telah mengirim pesan tersebut di masa depan.
-  - Menjamin kerahasiaan data.
+  - Ia mengenkripsi pesan untuk membuatnya tidak dapat dibaca
+  - Ia hanya digunakan untuk memverifikasi integritas perangkat lunak Bitcoin
+  - Ia menghasilkan kunci privat untuk dompet Bitcoin
 explanation: |
-  Hashing mengubah data dengan ukuran berapapun menjadi output dengan ukuran tetap, berguna untuk memverifikasi integritas tanpa perlu mengenkripsi atau mengotentikasi data.
+  Fungsi hash mengubah data dengan ukuran berapapun menjadi hash berukuran tetap, sangat penting untuk banyak aplikasi di Bitcoin.

@@ -1,8 +1,8 @@
-question: Cos'è un portafoglio JBOK nel contesto di Bitcoin?
-answer: Un portafoglio che raggruppa chiavi private determinate casualmente, senza nessun collegamento tra loro.
+question: Quale flag sighash è il più comunemente usato nelle transazioni Bitcoin?
+answer: SIGHASH_ALL
 wrong_answers:
-  - Un portafoglio che deriva chiavi in modo gerarchico da un unico seme.
-  - Un portafoglio che deriva chiavi dalle chiavi precedenti.
-  - Un portafoglio che utilizza solo una frase mnemonica per derivare le chiavi.
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  Un portafoglio JBOK (Just a Bunch Of Keys) contiene chiavi private che sono generate casualmente e indipendentemente l'una dall'altra, a differenza dei portafogli HD.
+  SIGHASH_ALL è il flag sighash predefinito, che copre tutti gli input e gli output di una transazione, impedendo qualsiasi modifica.

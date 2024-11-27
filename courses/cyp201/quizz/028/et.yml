@@ -1,9 +1,9 @@
-question: Miks on võimatu taastada privaatvõtit kehtivast digitaalallkirjast?
-answer: Allkiri põhineb pöördumatutel matemaatilistel toimingutel elliptilisel kõveral.
+question: Mis on kompresseeritud avaliku võtme suurus kasutades Schnorri protokolli?
+answer: 32 baiti
 wrong_answers:
-  - Privaatvõti krüpteeritakse enne kasutamist.
-  - Seeme kaitseb privaatvõtit.
-  - Sõnumite räsistamine takistab privaatvõtme taastamist.
+  - 33 baiti
+  - 64 baiti
+  - 256 bitti
 explanation: |
-  Toimingud elliptilistel kõveratel on pöördumatud, tagades, et privaatvõtit ei saa allkirjast tuletada.
+  Schnorri avalik võti esindab ainult punkti x-koordinaati elliptilisel kõveral, mis vähendab selle suurust 32 baitini.
 reviewed: false

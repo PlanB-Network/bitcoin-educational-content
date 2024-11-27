@@ -953,21 +953,16 @@ Abbiamo visto che la gestione della liquidità è una sfida su Lightning per gar
 
 ![LNP201](assets/en/84.webp)
 
-### Ringraziamenti
+# Conclusione
 
-Vorrei ringraziare ciascuno di voi per il vostro interesse, supporto e domande durante questa serie. Inizialmente, la mia idea era quella di creare contenuti in francese riguardanti gli aspetti tecnici di Lightning, data la mancanza di risorse disponibili. Era una sfida personale che volevo affrontare combinando rigore tecnico con accessibilità. Se vi è piaciuto questo corso gratuito, non esitate a valutarlo nella sezione "_Valuta questo corso_" e a condividerlo con i vostri cari e sui vostri social network.
-Grazie, a presto!
-
-### Bonus: Intervista con Fanis
-
-![Intervista con Fanis](https://youtu.be/VeJ4oJIXo9k)
+<partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
 ## Valuta questo corso
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Esame Finale
+## Esame finale
 
 <chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
 <isCourseExam>true</isCourseExam>
@@ -975,8 +970,40 @@ Grazie, a presto!
 ## Conclusione
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+Congratulazioni! 🎉
 
-**Congratulazioni per aver completato questo corso!**
+Hai completato il corso LNP 201 - Introduzione al Lightning Network!
 
-Si prega di notare che questo capitolo è attualmente in costruzione e una versione migliorata arriverà presto. Nel frattempo, se siete ansiosi di continuare il vostro viaggio nel mondo di Bitcoin, vi invitiamo a esplorare gli altri corsi e tutorial disponibili sulla nostra piattaforma. Continuate il buon lavoro e buon apprendimento!
+Puoi essere orgoglioso di te stesso, perché non è un argomento facile.
 
+Poche persone si addentrano così profondamente nella tana del coniglio di Bitcoin.
+
+Un grande ringraziamento a **Fanis Michalakis** per averci offerto questo eccellente corso gratuito sul funzionamento tecnico del Lightning Network.
+
+Non esitare a seguirlo su [Twitter](https://x.com/FanisMichalakis), sul [suo blog](https://fanismichalakis.fr/) o attraverso il suo lavoro su [LN Markets](https://lnmarkets.com/).
+
+Ora che padroneggi il Lightning Network, ti invito a esplorare i nostri altri corsi gratuiti su Plan ₿ Network per approfondire gli altri aspetti dell'invenzione di Satoshi Nakamoto:
+
+#### Comprendi il funzionamento di un portafoglio Bitcoin con
+
+https://planb.network/courses/cyp201
+
+#### Scopri la storia delle origini di Bitcoin con
+
+https://planb.network/courses/his201
+
+#### Configura un server di pagamento BTC con
+
+https://planb.network/courses/btc305
+
+#### Padroneggia i principi della privacy in Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Scopri le basi del mining con
+
+https://planb.network/courses/min201
+
+#### Impara a creare la tua comunità Bitcoin con
+
+https://planb.network/courses/btc302

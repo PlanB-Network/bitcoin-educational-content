@@ -1,9 +1,9 @@
-question: Welche Schlüsselfunktion wird verwendet, um aus einer mnemonischen Phrase und einem optionalen Passwort einen Seed abzuleiten?
-answer: PBKDF2.
+question: Was ist der Hauptunterschied zwischen einer Passphrase und einem PIN-Code für eine Bitcoin-Wallet?
+answer: Die Passphrase modifiziert die Schlüsselableitung, nicht der PIN-Code
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - Der PIN-Code ist mit der mnemonischen Phrase verknüpft
+  - Der PIN-Code wird verwendet, um Transaktionen zu verschlüsseln, aber nicht die Passphrase
+  - Der PIN-Code generiert Bitcoin-Adressen
 explanation: |
-  Die PBKDF2-Funktion wird verwendet, um den Seed eines HD-Wallets aus der mnemonischen Phrase und einem optionalen Passwort abzuleiten.
+  Im Gegensatz zum PIN-Code ist die Passphrase direkt am Schlüsselableitungsprozess beteiligt und ändert die Wallet-Schlüssel.
 reviewed: false

@@ -132,7 +132,6 @@ Jika Anda ingin mengeksplorasi sejarah Bitcoin secara lebih mendalam, saya sanga
 
 https://planb.network/courses/his201
 
-
 # Uang
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -249,7 +248,6 @@ Jika Anda ingin mempelajari lebih lanjut tentang kesalahan ekonomi dan kebebasan
 
 https://planb.network/courses/eco102
 
-
 ## Hiperinflasi
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -333,7 +331,6 @@ Kesimpulannya, hiperinflasi memiliki efek buruk yang dapat merusak nilai mata ua
 Untuk mempelajari lebih lanjut tentang hiperinflasi, saya merekomendasikan kursus ECO 204 oleh David St-Onge. Anda akan mempelajari apa itu siklus hiperinflasi dan dampak nyata mereka pada kehidupan kita. Anda juga akan menemukan kesamaan antara siklus-siklus ini dan, yang terpenting, bagaimana melindungi diri Anda dari mereka:
 
 https://planb.network/courses/eco204
-
 
 ## 21 juta bitcoin
 
@@ -493,7 +490,6 @@ Jika selama perjalanan Anda di lubang kelinci Anda ingin mempelajari lebih lanju
 
 https://planb.network/courses/cyp201
 
-
 ## Keamanan dan Dompet Bitcoin
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -605,7 +601,6 @@ Setelah salinan dibuat, simpan daftar kata-kata di tempat yang aman dan pasti bi
 Jika Anda kemudian ingin mempelajari, langkah demi langkah, cara membuat dompet Anda sendiri dan mendapatkan bitcoin pertama Anda, saya juga merekomendasikan mengikuti kursus ini:
 
 https://planb.network/courses/btc102
-
 
 ## Bertahan terhadap ujian waktu
 
@@ -1055,7 +1050,6 @@ https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
 
 https://planb.network/courses/btc305
 
-
 ### Ringkasan Singkat dalam Poster!
 
 ![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
@@ -1326,43 +1320,17 @@ Bitcoin diadopsi oleh berbagai kelompok individu, mulai dari ahli kriptografi hi
 Bitcoin tidak bisa lagi dihentikan dan tidak bisa lagi disensor. Bitcoin adalah revolusi damai untuk mengubah sistem moneter dan memungkinkan inklusivitas finansial. Pengguna dapat memperoleh bitcoin dengan menerimanya sebagai pembayaran dalam aktivitas perdagangan mereka atau dengan membelinya melalui platform yang diatur atau tidak diatur. Bitcoin dapat disimpan dalam dompet, aplikasi seluler, atau perangkat fisik. Tidak ada perantara terpercaya dalam Bitcoin, Bitcoin mengadvokasi transparansi, kebebasan, dan tanggung jawab individu - seperti pepatah "Jangan Percaya, Verifikasi".
 Perubahan sistem finansial memerlukan penggantian mata uang. Satoshi menciptakan Bitcoin pada tahun 2008 untuk sebagai upaya untuk mengusulkan ini. Memiliki akses ke uang yang mudah didapat dan "ajaib" dapat merusak moralitas. Oleh karena itu, Bitcoin adalah sebuah alternatif untuk membangun sistem moneter netral yang baru. Bitcoin memungkinkan penggunanya untuk merdeka dari sistem perbankan. Bitcoin merupakan fenomena sosial yang mendorong kita untuk berpartisipasi dalam revolusi damai. Apakah Anda siap untuk bergabung?
 
-## Ucapan terima kasih dan terus menggali lubang kelinci
+# Kesimpulan
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Pelajari Lebih Lanjut
+## Evaluasi Kursus
 
-Selamat, Anda telah menyelesaikan kursus BTC 101 ini! Kami sungguh berharap Anda menikmatinya dan membuka peluang baru untuk Anda. Penemuan Anda tentang bitcoin baru saja dimulai, dan kami mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di universitas.
-
-Untuk mengatur rencana Bitcoin Anda:
-
-https://planb.network/courses/btc102
-
-Untuk mempelajari Lightning Network, jaringan pembayaran lapisan kedua:
-
-https://planb.network/courses/lnp201
-
-Untuk mempelajari ekonomi Austria:
-
-https://planb.network/courses/eco201
-
-Untuk memperbarui keamanan digital Anda:
-
-https://planb.network/courses/scu101
-
-Untuk mengetahui lebih lanjut tentang penambangan:
-
-https://planb.network/courses/min201
-
-dan banyak lagi...
-
-
-
-## Evaluasi kursus ini
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Ujian Akhir
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1370,7 +1338,24 @@ dan banyak lagi...
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Selamat atas penyelesaian kursus ini!**
+Selamat atas penyelesaian pelatihan BTC 101! Saya sangat berharap Anda menikmatinya dan pelatihan ini membuka pintu-pintu baru untuk Anda. Perjalanan Anda dalam mengenal Bitcoin baru saja dimulai dan saya mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di Plan ₿ Network:
 
-Harap perhatikan bahwa bab ini sedang dalam pengembangan, dan versi yang lebih baik akan segera hadir. Sementara itu, jika Anda ingin melanjutkan perjalanan Bitcoin Anda, kami mengundang Anda untuk menjelajahi kursus dan tutorial lain yang tersedia di platform kami. Pertahankan kerja bagus Anda, dan selamat belajar!
+#### Dapatkan dan amankan bitcoin pertama Anda dengan
 
+https://planb.network/courses/btc102
+
+#### Temukan Lightning Network dengan
+
+https://planb.network/courses/lnp201
+
+#### Pelajari Sekolah Pemikiran Ekonomi Austria dengan
+
+https://planb.network/courses/eco201
+
+#### Perbarui keamanan online Anda dengan
+
+https://planb.network/courses/scu101
+
+#### Pahami dasar-dasar Bitcoin dan bangun pemanas rumah Anda dengan
+
+https://planb.network/courses/min201

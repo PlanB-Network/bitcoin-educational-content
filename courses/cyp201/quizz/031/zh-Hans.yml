@@ -1,8 +1,8 @@
-question: 在分层确定性（HD）钱包中，密钥对是如何确定的？
-answer: 钱包中的所有密钥对都是从钱包基础上的一个独特信息以确定性和分层的方式确定的。
+question: 哪个修饰符可以与基本的sighash标志组合使用？
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - 钱包中的所有密钥对都是独立于其他密钥对、通过随机数生成器随机确定的。
-  - 钱包中的每个密钥对都是从前一个密钥对以确定性方式确定的。
-  - 所有的密钥对都是随机的，没有分层链接。
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  在HD钱包中，所有的密钥都是从一个称为“种子”的独特信息派生的，这允许以分层和确定性的方式管理密钥。
+  SIGHASH_ANYONECANPAY修饰符修改了sighash标志，使其仅覆盖单个输入，同时保留其余部分可修改。

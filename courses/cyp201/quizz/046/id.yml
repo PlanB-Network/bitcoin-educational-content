@@ -1,9 +1,9 @@
-question: Apa yang terjadi jika saya menggunakan dompet HD dengan kata sandi dan saya kehilangan kata sandi tersebut?
-answer: Bitcoin saya hilang selamanya.
+question: Berapa banyak bit checksum untuk entropi sebesar 128 bit?
+answer: 4 bit
 wrong_answers:
-  - Ini bukan masalah, saya masih bisa mengakses bitcoin saya hanya dengan frasa mnemonik saya.
-  - Saya dapat mereset kata sandi dengan kunci privat saya.
-  - Saya dapat memulihkan bitcoin saya dengan menggunakan dompet tanpa kata sandi.
+  - 8 bit
+  - 16 bit
+  - 6 bit
 explanation: |
-  Jika kata sandi hilang, akses ke bitcoin secara permanen hilang, karena kata sandi tersebut diperlukan untuk menghasilkan kunci privat.
-reviewed: false
+  Panjang checksum dihitung menggunakan rumus CS = ENT / 32, yang sama dengan 4 bit untuk entropi sebesar 128 bit.
+ditinjau: false

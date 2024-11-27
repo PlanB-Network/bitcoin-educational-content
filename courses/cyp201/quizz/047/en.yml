@@ -1,9 +1,9 @@
-question: Why does using a passphrase strengthen the security of an HD wallet?
-answer: It adds an extra layer of protection to the mnemonic phrase.
+question: What is the size in bits of a binary segment used to create each mnemonic word?
+answer: 11 bits
 wrong_answers:
-  - It allows for the generation of stronger public keys.
-  - It cryptographically protects transactions.
-  - It doubles the number of bitcoins in the wallet.
+  - 8 bits
+  - 16 bits
+  - 10 bits
 explanation: |
-  The passphrase enhances security by adding an additional piece of data to the mnemonic phrase, acting somewhat like a 2FA.
+  Each 11-bit segment corresponds to a word from the standardized list of 2048 words in BIP39.
 reviewed: false

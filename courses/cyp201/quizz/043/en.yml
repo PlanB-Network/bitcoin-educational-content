@@ -1,9 +1,9 @@
-question: How to determine the bit size of the checksum for a recovery phrase?
-answer: Divide the size of the random number (entropy) by 32.
+question: How many bits of entropy are used for a 24-word mnemonic phrase?
+answer: 256 bits
 wrong_answers:
-  - Divide the size of the random number (entropy) by 8.
-  - Divide the size of the random number (entropy) by 16.
-  - Multiply the size of the random number (entropy) by 2.
+  - 128 bits
+  - 512 bits
+  - 64 bits
 explanation: |
-  The size of the checksum is obtained by dividing the size of the entropy by 32, in accordance with BIP39.
+  A 24-word mnemonic phrase is based on 256 bits of entropy, ensuring very high security.
 reviewed: false

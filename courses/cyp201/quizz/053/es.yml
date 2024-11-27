@@ -1,8 +1,9 @@
-question: ¿Qué información se calcula a partir de la semilla aplicando HMAC-SHA512?
-answer: La clave maestra y el código de cadena maestro de la billetera.
+question: ¿Qué sucede si pierdes la frase de paso asociada con tu monedero HD?
+answer: Pierdes el acceso a los bitcoins vinculados a ese monedero
 wrong_answers:
-  - La clave extendida de la billetera.
-  - El xpub y xprv de la billetera.
-  - El código de firma de la clave privada.
+  - Todavía puedes acceder al monedero solo con la frase mnemotécnica
+  - Puedes restablecer la frase de paso contactando al soporte de Bitcoin
+  - Solo pierdes las transacciones no confirmadas
 explanation: |
-  A partir de la semilla, HMAC-SHA512 deriva la clave maestra y el código de cadena maestro, que son la base para la generación de claves.
+  La frase de paso es un componente esencial en la derivación de claves. Sin ella, es imposible recrear las claves y por lo tanto acceder a los bitcoins.
+reviewed: false

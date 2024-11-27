@@ -1,9 +1,9 @@
-question: Se genero un numero casuale di 256 bit, qual sarà la dimensione della mia frase di recupero in parole?
-answer: 24 parole.
+question: Qual è la principale differenza tra un PRNG e un TRNG?
+answer: Il PRNG è deterministico, mentre il TRNG genera numeri veramente casuali.
 wrong_answers:
-  - 6 parole.
-  - 8 parole.
-  - 12 parole.
+  - Il PRNG è più veloce del TRNG per numeri grandi.
+  - Il PRNG è usato solo per la crittografia, non il TRNG.
+  - Il PRNG usa chiavi private, il TRNG usa chiavi pubbliche.
 explanation: |
-  Un numero casuale di 256 bit corrisponde a una frase mnemonica di 24 parole secondo lo standard BIP39.
-reviewed: false
+  I PRNG sono deterministici, il che significa che possono riprodurre sequenze a partire da uno stato iniziale, a differenza dei TRNG.
+recensito: false

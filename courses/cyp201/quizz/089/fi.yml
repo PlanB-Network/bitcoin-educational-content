@@ -1,0 +1,9 @@
+question: Mikä vaihe edeltää HASH160 n soveltamista SegWit v0 -osoitteen luomisessa?
+answer: Julkisen avaimen tiivistäminen
+wrong_answers:
+  - Tarkistussumman lisääminen
+  - Muuntaminen bech32-muotoon
+  - Koodaus base58check-muodossa
+explanation: |
+  Julkinen avain on tiivistettävä koon pienentämiseksi ennen sen läpikäymistä HASH160-hajautusfunktion kautta.
+reviewed: false

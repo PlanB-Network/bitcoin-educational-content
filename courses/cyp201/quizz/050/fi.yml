@@ -1,8 +1,8 @@
-question: Jos noudatetaan BIP39-standardia, mikä on HD-lompakon siemenen koko?
-answer: 512 bittiä.
+question: Mikä on hyvä käytäntö salasanan turvaamiseksi?
+answer: Tallenna se erilliselle fyysiselle medialle kuin mnemoninen lause
 wrong_answers:
-  - 32 tavua.
-  - 1024 bittiä.
-  - 512 tavua.
+  - Opettele se ulkoa kirjaamatta sitä ylös
+  - Tallenna se samalle fyysiselle medialle kuin mnemoninen lause
+  - Tallenna se digitaaliselle medialle kuten Google Driveen
 explanation: |
-  BIP39-standardin mukaan HD-lompakon siemen on 512 bittiä, joka johdetaan muistisanoista ja salasanasta.
+  Salasanan on oltava tallennettuna fyysisesti ja erillään mnemonisesta lauseesta, jotta molempien samanaikaista varkautta voidaan estää.

@@ -1,8 +1,9 @@
-question: Welche Pseudozufallsfunktion wird in PBKDF2 verwendet, um den Seed eines Bitcoin HD-Wallets zu berechnen?
-answer: HMAC-SHA512.
+question: Was ist der Zweck der Verwendung eines Täuschungs-Wallets mit einer Passphrase?
+answer: Ein Wallet mit einem kleinen Betrag zu simulieren, im Falle physischer Nötigung
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Eine automatische Sicherung von Transaktionen hinzufügen
+  - Eine zusätzliche mnemonische Phrase generieren
+  - UTXOs vor einem Double-Spend schützen
 explanation: |
-  HMAC-SHA512 ist die Pseudozufallsfunktion, die in PBKDF2 verwendet wird, um den Seed eines Bitcoin HD-Wallets zu generieren.
+  Ein Täuschungs-Wallet wird verwendet, um die Aufmerksamkeit eines Angreifers abzulenken, indem Zugang zu einem Wallet gewährt wird, das eine kleine Menge an Bitcoins enthält.
+reviewed: false

@@ -146,14 +146,15 @@ Para Bastiat, la economía de intercambios, es decir, de servicios mutuos librem
 Pero de Jean-Baptiste Say, Frédéric Bastiat también hereda un concepto clave, el del saqueo. Pues, dice, haciendo eco de las palabras de Say:
 
 > Solo hay dos maneras de adquirir las cosas necesarias para la preservación, embellecimiento y mejora de la vida: la producción y el saqueo.
-Los productores recurren a la persuasión, negociación y contrato, mientras que los saqueadores recurren a la fuerza y el engaño. Por lo tanto, corresponde a la ley suprimir el saqueo y asegurar el trabajo así como la propiedad. Como ya había afirmado Adam Smith, garantizar la seguridad de los ciudadanos es la principal misión de la autoridad pública, y es esto lo que legitima la imposición de impuestos.
-![image](assets/image/01/IMG17.webp)
+> Los productores recurren a la persuasión, negociación y contrato, mientras que los saqueadores recurren a la fuerza y el engaño. Por lo tanto, corresponde a la ley suprimir el saqueo y asegurar el trabajo así como la propiedad. Como ya había afirmado Adam Smith, garantizar la seguridad de los ciudadanos es la principal misión de la autoridad pública, y es esto lo que legitima la imposición de impuestos.
+> ![image](assets/image/01/IMG17.webp)
 
 ## Antoine Destutt de Tracy
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
 Es poco conocido, pero Destutt de Tracy tuvo una influencia decisiva en el futuro Presidente de los Estados Unidos, Thomas Jefferson, mientras este era embajador en París en la década de 1780.
+
 > "Para cada hombre, su primer país es su patria, y el segundo es Francia" & "La tiranía es cuando el pueblo teme a su gobierno; la libertad es cuando el gobierno teme al pueblo."
 >
 > Thomas Jefferson
@@ -220,6 +221,7 @@ _(Benjamin Constant)_
 
 Adoptan de Benjamin Constant la distinción entre los Antiguos y los Modernos, caracterizados por un lado por la guerra, y por el otro por el comercio y la industria. Pero añaden con Say que la economía política proporciona la mejor explicación de los fenómenos sociales. Entienden particularmente que las naciones alcanzan la paz y la prosperidad cuando se respetan los derechos de propiedad y el libre comercio. Desde ahora, para ellos, la economía política es el verdadero y único fundamento de la política. A la filosofía, que se limita a la crítica abstracta de las formas de gobierno, debe sustituirse una teoría basada en el conocimiento de los intereses económicos.
 La economía política, al demostrar cómo prosperan y declinan los pueblos, ha sentado las verdaderas bases de la política.
+
 > Dunoyer
 
 ![image](assets/image/03/IMG07.webp)
@@ -261,6 +263,7 @@ Fue esta campaña de agitación por el libre comercio, a lo largo del reino, con
 
 La Liga puede compararse a una universidad itinerante, educando económicamente a quienes asistían a sus reuniones a lo largo del país—gente común, industriales, cultivadores y agricultores, a todos los cuales la Liga había tomado bajo su ala y cuyos intereses las leyes del grano oprimían. Richard Cobden era el alma del movimiento y un agitador excepcional.
 Un orador fascinante y formidable, tenía un don prodigioso para inventar frases llamativas y concisas, lejos de los discursos abstractos de los economistas.
+
 > ¿Qué es el monopolio del pan? exclamó. Es la escasez de pan. Te sorprende saber que la legislación de este país, sobre este asunto, no tiene otro propósito que producir la mayor escasez posible de pan. Y sin embargo, no es nada más. La legislación solo puede lograr su objetivo a través de la escasez.
 
 En 1845, Bastiat publicó en París su libro Cobden y la Liga, con sus traducciones acompañadas de comentarios. El libro comienza con una introducción sobre la situación económica de Inglaterra, sobre la historia del origen y progreso de la Liga. Desde 1815, el proteccionismo estaba muy desarrollado en Inglaterra. Había, en particular, leyes que limitaban la importación de granos que tenían consecuencias muy duras para la gente. De hecho, el trigo era necesario para hacer pan, un bien vital en ese momento. Además, este sistema favorecía a la aristocracia, es decir, a los grandes terratenientes, que obtenían rentas de él.
@@ -297,7 +300,6 @@ La cuestión del libre comercio sigue siendo relevante hoy en día. Los libros d
 ## Rousseau
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
-
 
 Frédéric Bastiat, quien se expresó en la década de 1840, es heredero de una generación de filósofos de la Ilustración que lucharon contra la censura y por la libertad de debate. Piensa en Montesquieu, Diderot, Voltaire, Condorcet, pero también en Rousseau.
 
@@ -377,6 +379,7 @@ Es triste pensar que nuestra filosofía social y política se ha quedado estanca
 Sin embargo, como nos recuerda Bastiat, el monopolio excluye el progreso.
 
 ## Proteccionismo y Socialismo
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
 ![image](assets/image/07/IMG11.webp)
@@ -422,11 +425,9 @@ Para concluir, los proteccionistas y los socialistas comparten un punto común, 
 
 > El Estado es la gran ficción a través de la cual todos se esfuerzan por vivir a expensas de todos los demás.
 
-
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
-
 
 Pierre-Joseph Proudhon es uno de los principales representantes del socialismo francés a mediados del siglo XIX. Es especialmente famoso por esta declaración: "La propiedad es un robo" en "¿Qué es la propiedad?" en 1840.
 
@@ -462,6 +463,7 @@ Luego, Bastiat muestra que es posible mejorar el poder adquisitivo de las clases
 Efectivamente, según Bastiat, el progreso de la humanidad coincide con la formación de capital. En su folleto titulado Capital y Renta, Bastiat nos hace entender esto con Robinson Crusoe en su isla.
 ![image](assets/image/08/IMG15.webp)
 Sin capital acumulado o materiales, Robinson estaría condenado a la muerte. Luego explica que el capital enriquece al trabajador de dos maneras:
+
 - Aumenta la producción, disminuyendo así el precio de los bienes de consumo
 - Lo que tiene el efecto de aumentar los salarios.
 
@@ -479,7 +481,6 @@ En conclusión, tanto Proudhon como Bastiat reconocieron la importancia de la ac
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-
 En este capítulo, revelaré una tecnología completamente nueva, una tecnología revolucionaria. Un investigador ha desarrollado un par de gafas biónicas con una mini-cámara ultra-potente incrustada en el frente. Esta tecnología permite ver detalles imposibles de ver a simple vista. En los brazos, hay un chip electrónico que transmite imágenes directamente a la nube a través de mi smartphone.
 
 ![image](assets/image/09/IMG01.webp)
@@ -491,8 +492,8 @@ Así, en Obras Públicas, Bastiat escribe:
 
 > El Estado abre una carretera, construye un palacio, endereza una calle, excava un canal; con esto, da trabajo a ciertos trabajadores, eso es lo que se ve; pero priva de trabajo a ciertos otros, eso es lo que no se ve.
 
-
 Uno de los sofismas más conocidos es la falacia de la ventana rota. Algunos afirman que la rotura de una ventana en una casa no perjudica a la economía ya que beneficia al vidriero. Pero Bastiat demostrará que la destrucción no es de nuestro interés porque no crea riqueza. Cuesta más de lo que produce. El joven que rompe la ventana de un vecino le da trabajo al vidriero. Pero así es como sus amigos lo consuelan:
+
 > "No hay mal que por bien no venga. Tales accidentes mantienen la industria en movimiento. Todos necesitan vivir. ¿Qué sería de los vidrieros si nunca se rompieran ventanas?"
 
 Así, según Keynes, la destrucción de propiedades, al forzar el gasto, estimularía la economía y tendría un "efecto multiplicador" vigorizante sobre la producción y el empleo. Esto es solo lo que se ve.
@@ -515,7 +516,9 @@ Finalmente, casi un siglo antes de Keynes, podemos decir que Bastiat refutó los
 ![image](assets/image/09/IMG03.webp)
 
 La gran lección de esta serie de textos es que la intervención estatal tiene efectos perversos que no se ven. Solo un buen economista es capaz de preverlos. La política es lo que vemos. La economía es lo que no vemos.
+
 ## La petición de los fabricantes de velas
+
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
 En 1840, la Cámara de Diputados votó por una ley que aumentaba los impuestos de importación para proteger la industria francesa. Esto es el famoso patriotismo económico, que aún encontramos hoy en día.
@@ -544,8 +547,8 @@ El proteccionismo también se basa en un silogismo oculto que resulta ser una fa
 - Cuanto más trabajamos, más ricos somos;
 - Cuantas más dificultades tenemos que superar, más trabajamos;
 - Por lo tanto, cuantas más dificultades tenemos que superar, más ricos somos.
-Ilustremos esta absurdidad con algunas historias cortas contadas por Bastiat. En el Capítulo III de la segunda serie de Sofismas Económicos, imagina a un carpintero que escribe al ministro una petición solicitando legislación proteccionista. El carpintero formula así su solicitud: Sr. Ministro, haga una ley que estipule que "Nadie puede usar vigas y jácenas producidas con hachas desafiladas". En otras palabras, haga una ley que prohíba el uso de hachas afiladas en Francia. Así, donde normalmente se dan 100 golpes de hacha, será necesario dar 300. Los carpinteros estarán muy demandados y, por lo tanto, mejor pagados.
-![image](assets/image/10/IMG01.webp)
+  Ilustremos esta absurdidad con algunas historias cortas contadas por Bastiat. En el Capítulo III de la segunda serie de Sofismas Económicos, imagina a un carpintero que escribe al ministro una petición solicitando legislación proteccionista. El carpintero formula así su solicitud: Sr. Ministro, haga una ley que estipule que "Nadie puede usar vigas y jácenas producidas con hachas desafiladas". En otras palabras, haga una ley que prohíba el uso de hachas afiladas en Francia. Así, donde normalmente se dan 100 golpes de hacha, será necesario dar 300. Los carpinteros estarán muy demandados y, por lo tanto, mejor pagados.
+  ![image](assets/image/10/IMG01.webp)
 
 En el Capítulo XVI, hay otro texto muy irónico, titulado: La Mano Derecha y la Mano Izquierda. Tras una investigación, un enviado real redacta un informe en el que propone al rey cortar, o al menos atar, todas las manos derechas de los trabajadores. Así, continúa, el trabajo y consecuentemente la riqueza aumentarán. La producción se volverá mucho más difícil, lo que necesitará la contratación masiva de mano de obra adicional y un aumento en los salarios. El pauperismo desaparecerá del país.
 
@@ -554,14 +557,11 @@ Siguiendo esta lógica de crear empleos a toda costa, ¿por qué no también ree
 Esta confusión de medios y fin se encuentra en el eslogan "el dinero es riqueza".
 Este es el axioma que gobierna la política monetaria de la mayoría de los estados. De hecho, el aumento artificial en la cantidad de dinero permite a los bancos prestar dinero a individuos y estados para repagar fácilmente su deuda, esto es "lo que vemos". Pero "lo que no vemos" es que esta creación de dinero, no basada en ninguna creación real de riqueza, llevará a la inflación y la ruina de los ahorradores.
 
-
-
 La verdadera riqueza, según Bastiat, es por lo tanto el conjunto de cosas útiles que producimos a través del trabajo para satisfacer nuestras necesidades. El dinero es así solo un medio de intercambio comúnmente utilizado, solo juega el papel de intermediario.
 
 ## El Saqueo a través de la Tributación
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
-
 
 > Cuando los ricos pierden peso, los pobres mueren.
 
@@ -577,6 +577,7 @@ En Francia, donde el gasto público se considera un beneficio, los impuestos son
 
 ¿De qué se trata?
 La economía describe los efectos buenos o malos de las decisiones políticas en nuestras vidas. Sin embargo, según Bastiat, el economista debe estar atento, no solo a sus efectos a corto plazo en un grupo particular, sino más bien a sus consecuencias a largo plazo para la sociedad en su conjunto.
+
 > "Lo que vemos es el trabajo y el beneficio permitidos por la contribución social. Lo que no vemos son las obras que serían generadas por esta misma contribución si se dejara en manos de los contribuyentes. Lo que vemos es el trabajo y el beneficio permitidos por la contribución social. Lo que no vemos son las obras que serían generadas por esta misma contribución si se dejara en manos de los contribuyentes."
 >
 > F.Bastiat
@@ -625,7 +626,7 @@ Sin embargo, hay dos maneras complementarias de iluminar el juicio de los ciudad
 
 - Primero, hay una "moralidad filosófica o religiosa" que actúa purificando y corrigiendo la acción humana (el hombre como agente)
 - Luego, hay una "moralidad económica", que actúa mostrando al hombre "las consecuencias necesarias de sus actos" (el hombre como paciente)
-De hecho, estos son dos marcos morales perfectamente complementarios.
+  De hecho, estos son dos marcos morales perfectamente complementarios.
 
 1. La primera se dirige al corazón e incentiva a los individuos a hacer el bien; es la moralidad religiosa o filosófica. Es la más noble. Arraiga en el corazón del hombre la conciencia de su deber. Le dice:
 
@@ -662,7 +663,6 @@ Una cosa es cierta, no es el político quien puede cambiar el curso de las cosas
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-
 ¿Puede una sociedad armoniosa prescindir de leyes escritas, reglas, medidas represivas? Si los hombres son dejados libres, ¿no seremos testigos de desorden, anarquía, desorganización? ¿Cómo evitar crear una mera yuxtaposición de individuos actuando fuera de cualquier concierto, si no a través de leyes y una organización política centralizada?
 
 Este es el argumento a menudo invocado por aquellos que demandan regulación del mercado o sociedad sola capaz de coordinar a los individuos en un todo coherente y armonioso.
@@ -675,8 +675,9 @@ El milagro del mercado libre, nos dice, es que utiliza conocimientos que ninguna
 
 Bastiat da algunos ejemplos para ilustrar los beneficios de este mercado. Nos hemos acostumbrado tanto a este fenómeno que ya no le prestamos atención.
 Consideremos a un carpintero en un pueblo, dice, y observemos todos los servicios que proporciona a la sociedad y todos aquellos que recibe:
+
 > Todos los días, al despertar, se viste, y él personalmente no hizo ninguna de sus ropas. Sin embargo, para que estas ropas estuvieran disponibles para él, tuvo que realizarse una enorme cantidad de trabajo, industria, transporte e ingeniosas invenciones en todo el mundo.
-Luego él desayuna. Para que el pan que consume llegue a su mesa cada mañana, tuvieron que despejarse terrenos, ararse; el hierro, el acero, la madera, la piedra tuvieron que convertirse en herramientas de trabajo; todas cosas que, tomadas por separado, asumen una masa incalculable de trabajo puesto en juego, no solo en el espacio sino en el tiempo.
+> Luego él desayuna. Para que el pan que consume llegue a su mesa cada mañana, tuvieron que despejarse terrenos, ararse; el hierro, el acero, la madera, la piedra tuvieron que convertirse en herramientas de trabajo; todas cosas que, tomadas por separado, asumen una masa incalculable de trabajo puesto en juego, no solo en el espacio sino en el tiempo.
 
 Este hombre enviará a su hijo a la escuela, para recibir una educación que presupone investigación, muchos años de estudio previo.
 Sale a la calle: encuentra una calle pavimentada e iluminada.
@@ -698,7 +699,6 @@ Revisita la idea de Bastiat de una cooperación invisible entre millones de indi
 
 El Premio Nobel de Economía de 1976, Milton Friedman, también revisó esta historia del lápiz para explicar al gran público cómo funciona la economía de mercado.
 
-
 En un episodio de su serie de televisión Free to Choose, analiza los diversos componentes de algo tan mundano y simple como un lápiz y destaca el milagro del orden espontáneo, generado por miles de interacciones económicas en todo el mundo. Personas que no se conocen entre sí, que no comparten la misma religión o costumbres, aún logran coordinarse para producir este objeto. Concluye que el mercado libre es esencial para asegurar no solo la prosperidad, sino también la armonía y la paz.
 
 ![image](assets/image/13/IMG04.webp)
@@ -711,12 +711,11 @@ La planificación económica, que pretende superar al mercado, no solo conduce a
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-
 En una carta a Alphonse de Lamartine en 1845, Bastiat escribió que toda su filosofía se contiene en un solo principio:
 
 > La libertad es la mejor forma de organización social.
-![imagen](assets/image/14/IMG1.webp)
-Sin embargo, añade una condición
+> ![imagen](assets/image/14/IMG1.webp)
+> Sin embargo, añade una condición
 
 > "Que la ley no debería eliminar las consecuencias, positivas o negativas, de las acciones de todos. Este es el principio corolario de la responsabilidad.": "Que la ley no debería eliminar las consecuencias, positivas o negativas, de las acciones de todos. Este es el principio corolario de la responsabilidad."
 
@@ -773,7 +772,6 @@ En otras palabras, las elecciones colectivas no son elecciones responsables ya q
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-
 En el curso anterior, vimos por qué la libertad y la responsabilidad son claves para el problema social. Ahora profundizaremos en este punto mostrando cómo Frédéric Bastiat ve los males que afligen a las sociedades y su solución.
 
 A veces se ha criticado a los liberales por ignorar el mal y construir la utopía de una libertad pura y perfecta en un mundo ideal. Esta crítica es absolutamente infundada respecto a nuestro autor.
@@ -814,10 +812,10 @@ Pero si el mal uso de la libertad está en el origen de nuestros males, su uso a
 ![image](assets/image/15/IMG6.webp)
 Contrario a Rousseau, quien busca erradicar el mal a través de instituciones colectivas, Frédéric Bastiat defiende la posibilidad del mal y el error, sin los cuales no hay libertad ni responsabilidad individual. Pues es esto lo que solo permite, a través de un proceso de descubrimiento, progresar y reducir los males sociales.
 Debe aclararse que este desarrollo del progreso a través de la responsabilidad de ninguna manera es automático. No es en absoluto, como con Hegel o Marx, una especie de determinismo natural o histórico, que llevaría milagrosa o mecánicamente a la armonía y el progreso. Se trata de una reducción gradual e indefinida del mal y nunca de su eliminación definitiva.
+
 ## Verdadera y Falsa Solidaridad
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
-
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -838,7 +836,7 @@ Esto es lo que Bastiat llama "el sofisma de la fraternidad legal". Citemoslo en 
 Y nuevamente:
 
 > Los gobiernos solo ejercen una acción que está sancionada por la Fuerza. Ahora bien, es permisible obligar a alguien a ser justo, no a ser caritativo. La Ley, cuando busca hacer por la fuerza lo que la moralidad logra mediante la persuasión, lejos de elevarse al reino de la Caridad, cae en el dominio del Saqueo.
-Sin embargo, esta perversión de la ley tiene un nombre, es el socialismo, es decir, la ideología de redistribución forzada de la riqueza por el Estado. El socialismo, según Bastiat, se caracteriza por la ideología del saqueo legal. Pero la astucia de esta ideología es que enmascara su violencia bajo un mal uso del lenguaje: el llamado a la solidaridad o fraternidad.
+> Sin embargo, esta perversión de la ley tiene un nombre, es el socialismo, es decir, la ideología de redistribución forzada de la riqueza por el Estado. El socialismo, según Bastiat, se caracteriza por la ideología del saqueo legal. Pero la astucia de esta ideología es que enmascara su violencia bajo un mal uso del lenguaje: el llamado a la solidaridad o fraternidad.
 
 ![image](assets/image/16/IMG4.webp)
 
@@ -870,7 +868,6 @@ La ley puede obligar a un hombre a ser justo, pero no puede forzarlo a ser devot
 ## El Derecho a la Propiedad
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
-
 
 Por propiedad, no debemos entender aquí la tierra. Significa "el derecho de un trabajador sobre el valor que ha creado a través de su trabajo". Bastiat especifica:
 
@@ -925,7 +922,6 @@ _(Cicerón)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-
 La idea principal de Bastiat en "La Ley", su famoso panfleto de 1850, es mostrar por qué y cómo la ley se ha convertido en saqueo, es decir, una fuente de privilegios, rentas situacionales y arbitrariedad fiscal.
 
 ![image](assets/image/18/IMG01.webp)
@@ -967,12 +963,11 @@ Para él, el propósito de la Ley debe ser simplemente "poner fin a todos los sa
 Están seguros de que sus derechos naturales están garantizados e intocables. Los derechos de propiedad seguros dan a las personas la capacidad de hacer planes a largo plazo porque saben que sus activos están a salvo del saqueo.
 
 > Ausencia de Saqueo, — es el principio de justicia, paz, orden, estabilidad, conciliación, sentido común que proclamaré con toda la fuerza, ¡ay! insuficiente, de mis pulmones, hasta mi último aliento.
-Bastiat escribió en La Ley, algún tiempo antes de morir. Un siglo después de la muerte de Frédéric Bastiat, el saqueo legal es claramente evidente en la Declaración Universal de Derechos Humanos de 1948, notablemente en sus artículos 22 ("todo individuo tiene derecho a la seguridad social"), 23 ("todo individuo tiene derecho al trabajo"), 24 ("todo individuo tiene derecho al descanso y al ocio"), 25 ("todo individuo tiene derecho a un nivel de vida adecuado para la salud y bienestar"), 26 ("todo individuo tiene derecho a la educación").
+> Bastiat escribió en La Ley, algún tiempo antes de morir. Un siglo después de la muerte de Frédéric Bastiat, el saqueo legal es claramente evidente en la Declaración Universal de Derechos Humanos de 1948, notablemente en sus artículos 22 ("todo individuo tiene derecho a la seguridad social"), 23 ("todo individuo tiene derecho al trabajo"), 24 ("todo individuo tiene derecho al descanso y al ocio"), 25 ("todo individuo tiene derecho a un nivel de vida adecuado para la salud y bienestar"), 26 ("todo individuo tiene derecho a la educación").
 
 ## El Papel de la Ley y el Estado
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
-
 
 En 1848, Bastiat era un diputado. Fue nombrado vicepresidente de la comisión de finanzas. Por lo tanto, estaba particularmente bien posicionado para responder a esta pregunta: ¿qué es el Estado? Nos dirigimos al Estado para asegurar nuestro bienestar. Pero Bastiat nos recuerda que el Estado no puede dar nada a los ciudadanos que primero no haya tomado de ellos.
 
@@ -1018,20 +1013,9 @@ Escribió Frédéric Bastiat en un breve folleto titulado El Estado.
 
 ![image](assets/image/19/IMG9.webp)
 
-# Conclusión
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-
-
-## Danos tu opinión sobre este curso
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## El Legado de Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
-
 
 La influencia de Bastiat comenzó a declinar hacia finales del siglo XIX, con el auge del socialismo y particularmente del marxismo dentro de las universidades e institutos de investigación, financiados con dinero público.
 
@@ -1059,4 +1043,52 @@ Si miramos las cosas desde este ángulo, Reagan explicó a los empleados de GE, 
 ![image](assets/image/20/IMG10.webp)
 En esencia, Reagan tomó de Bastiat varios elementos clave de una visión liberal de la sociedad y el hombre: la primacía de la sociedad civil sobre el Estado, el valor de la elección y la responsabilidad individual, la importancia del empresario en la creación de riqueza, la importancia de un marco legal flexible y mínimo, que permite la confianza y el respeto por los contratos, la ley fundamental de que la riqueza debe ser creada antes de que pueda ser distribuida, el deseo de dar a todos una oportunidad en mercados competitivos…
 
+# Conclusión
 
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Evalúe este curso
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusión
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+¡Felicitaciones por completar este curso!
+
+Nos complace que haya alcanzado este importante hito en su viaje de aprendizaje.
+
+A través de su dedicación y compromiso, ha adquirido valiosos conocimientos y habilidades que le servirán en su desarrollo profesional.
+
+Para seguir explorando en profundidad el universo Bitcoin, le invitamos a descubrir todos los demás cursos disponibles en Plan ₿ Network:
+
+#### Descubra Bitcoin y sus fundamentos con
+
+https://planb.network/courses/btc101
+
+#### Obtenga y asegure sus primeros bitcoins con
+
+https://planb.network/courses/btc102
+
+#### Actualice su seguridad en línea con
+
+https://planb.network/courses/scu101
+
+#### Descubra la Lightning Network con
+
+https://planb.network/courses/lnp201
+
+#### Aprenda el pensamiento económico de la Escuela Austríaca con
+
+https://planb.network/courses/eco201
+
+#### Comprenda los fundamentos de Bitcoin y construya su calefacción doméstica con
+
+https://planb.network/courses/min201

@@ -1,8 +1,9 @@
-question: Mitu vooru koosneb SHA256 tihendusfunktsioon?
-answer: 64 vooru.
+question: Miks rakendab SHA256 sisendsõnumile eeltöötlust?
+answer: Tagamaks, et pikkus oleks 512 biti kordne
 wrong_answers:
-  - 10 vooru.
-  - 128 vooru.
-  - 150 vooru.
+  - Sõnumi terviklikkuse kontrollimiseks
+  - Andmete krüpteerimiseks enne räsistamist
+  - Genereeritud räside suuruse suurendamiseks
 explanation: |
-  SHA256 tihendusfunktsioon teostab iga töödeldud andmebloki jaoks 64 vooru.
+  Eeltöötlus kohandab sõnumi pikkust, lisades täitebitte ja selle pikkuse binaaresituse.
+reviewed: false

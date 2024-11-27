@@ -1,9 +1,9 @@
-question: Hàm nào được sử dụng để tạo ra một địa chỉ?
-answer: HASH160.
+question: Dấu nháy đơn (') hoặc chữ h trong một đường dẫn phái sinh có ý nghĩa gì?
+answer: Một phái sinh cứng
 wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
+  - Một phái sinh bình thường
+  - Một phái sinh bên ngoài
+  - Một phái sinh không chuẩn
 explanation: |
-  Hàm HASH160, kết hợp SHA256 và RIPEMD-160, được sử dụng để tạo ra địa chỉ Bitcoin từ khóa công khai.
+  Dấu nháy đơn chỉ ra rằng phái sinh đó là cứng, yêu cầu khóa riêng của cha mẹ để tạo ra khóa con.
 reviewed: false

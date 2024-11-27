@@ -1,9 +1,8 @@
-question: Làm thế nào để nén một khóa công khai?
-answer: Chúng ta giữ giá trị của tọa độ x và thêm một tiền tố chỉ ra tọa độ y nào được chọn.
+question: Đường dẫn phái sinh nào được sử dụng cho một tài khoản SegWit v0 trong một bộ mô tả chuẩn?
+answer: 84h/0h/0h
 wrong_answers:
-  - Chúng ta giữ giá trị của tọa độ y và thêm một tiền tố chỉ ra tọa độ x nào được chọn.
-  - Chúng ta băm khóa công khai để nén nó.
-  - Chúng ta sử dụng băm SHA256 kép để nén khóa công khai.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  Việc nén một khóa công khai được thực hiện bằng cách giữ tọa độ x và thêm tiền tố 0x02 hoặc 0x03 để chỉ ra liệu y là chẵn hay lẻ.
-reviewed: false
+  Đường dẫn 84h/0h/0h được định nghĩa trong BIP84 cho một tài khoản phái sinh địa chỉ SegWit v0 với P2WPKH.

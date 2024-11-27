@@ -947,16 +947,6 @@ Após o pânico bancário de 1796, ocorreu um fenômeno em que todos buscavam su
 
 Os bancos centrais evoluíram para se tornarem emprestadores de última instância, suspendendo a conversibilidade de sua moeda em ouro. Embora essa ação tenha sido inicialmente concebida como uma solução temporária, acabou se tornando permanente, marcando assim o surgimento do conceito de emprestador de última instância. Essa transformação moldou os bancos centrais como os conhecemos hoje. No entanto, em economias mais frágeis, essa capacidade de imprimir dinheiro à vontade pode ter consequências indesejáveis, como a hiperinflação, se for usada de forma irresponsável.
 
-## Avalie o curso
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Exame Final
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Livros e recursos
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -980,3 +970,52 @@ A hiperinflação é um assunto fascinante que foi estudado por meio de diversos
 - "A Queda do Dinheiro: Hiperinflação na Alemanha e a Destruição da Classe Média" por Frederick Taylor. Uma exploração narrativa do impacto social e econômico da hiperinflação na sociedade alemã.
 
 - "Caixas de Moeda para Países em Desenvolvimento: Um Manual" por Steve Hanke e Kurt Schuler. Embora o foco seja nas caixas de moeda, este livro oferece uma perspectiva sobre como evitar situações de hiperinflação.
+
+# Conclusão
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Avalie este curso
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Exame final
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusão
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Parabéns por concluir este curso!
+
+Estamos muito satisfeitos que tenha alcançado este importante marco em sua jornada de aprendizagem.
+
+Através de sua dedicação e compromisso, você adquiriu conhecimentos e habilidades valiosos que servirão para seu desenvolvimento profissional.
+
+Para continuar explorando em profundidade o universo Bitcoin, convidamos você a descobrir todos os outros cursos disponíveis na Plan ₿ Network:
+
+#### Descubra a vida de F. Bastiat com
+
+https://planb.network/courses/eco102
+
+#### Descubra o pensamento econômico da escola austríaca com
+
+https://planb.network/courses/eco201
+
+#### Descubra o Bitcoin e seus fundamentos com
+
+https://planb.network/courses/btc101
+
+#### Atualize sua segurança online com
+
+https://planb.network/courses/scu101
+
+#### Obtenha e proteja seus primeiros bitcoins com
+
+https://planb.network/courses/btc102
+
+#### Descubra a história das origens do Bitcoin com
+
+https://planb.network/courses/his201

@@ -1,8 +1,8 @@
-question: Hvis BIP39 følges, hva er størrelsen på en HD-lommeboks sitt frø?
-answer: 512 bits.
+question: Hva er en god praksis for å sikre en passfrase?
+answer: Lagre den på et separat fysisk medium fra den mnemoniske frasen
 wrong_answers:
-  - 32 bytes.
-  - 1024 bits.
-  - 512 bytes.
+  - Memoriser den kun ved hjelp av hukommelsen uten å notere den ned
+  - Lagre den på samme fysiske medium som den mnemoniske frasen
+  - Ta den opp på et digitalt medium som Google Drive
 explanation: |
-  Ifølge BIP39 er frøet til en HD-lommebok 512 bits, avledet fra den mnemoniske frasen og passfrasen.
+  Passfrasen må lagres fysisk og separat fra den mnemoniske frasen for å forhindre samtidig tyveri av begge.

@@ -1,8 +1,8 @@
-question: Jaká je velikost seedu HD peněženky, pokud je dodržen BIP39?
-answer: 512 bitů.
+question: Jaká je dobrá praxe pro zabezpečení heslové fráze?
+answer: Uložte ji na samostatném fyzickém médiu než je mnemonická fráze
 wrong_answers:
-  - 32 bajtů.
-  - 1024 bitů.
-  - 512 bajtů.
+  - Zapamatovat si ji pouze nazpaměť bez zaznamenání
+  - Uložit ji na stejném fyzickém médiu jako mnemonická fráze
+  - Zaznamenat ji na digitálním médiu jako je Google Drive
 explanation: |
-  Podle BIP39 je seed HD peněženky 512 bitů, odvozený z mnemonické fráze a hesla.
+  Heslová fráze musí být fyzicky uložena odděleně od mnemonické fráze, aby se zabránilo současné krádeži obou.

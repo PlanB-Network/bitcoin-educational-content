@@ -1,8 +1,8 @@
-question: Miten avainparit määritetään hierarkkisessa deterministisessä (HD) lompakossa?
-answer: Kaikki lompakon avainparit määritetään deterministisesti ja hierarkkisesti ainutlaatuisen tiedon perusteella, joka on lompakon perustana.
+question: Mikä modifioija voidaan yhdistää perus Sighash-lippuihin?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Kaikki lompakon avainparit määritetään toisistaan riippumatta satunnaisesti satunnaislukugeneraattorin avulla.
-  - Jokainen avainpari lompakossa määritetään deterministisesti edellisestä avainparista.
-  - Avainparit ovat kaikki satunnaisia eikä niillä ole hierarkkista yhteyttä.
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  HD-lompakoissa kaikki avaimet johdetaan ainutlaatuisesta tiedosta, jota kutsutaan siemeneksi, mikä mahdollistaa avainten hierarkkisen ja deterministisen hallinnan.
+  SIGHASH_ANYONECANPAY modifioi Sighash-lippuja siten, että ne kattavat vain yhden syötteen samalla kun loput jätetään muokattaviksi.

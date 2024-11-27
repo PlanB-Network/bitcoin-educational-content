@@ -1,9 +1,8 @@
-question: Bitcoinの文脈でJBOKウォレットとは何ですか？
-answer: ランダムに決定されたプライベートキーをまとめたウォレットで、それらの間にリンクはありません。
+question: Bitcoin取引で最も一般的に使用されるsighashフラグは何ですか？
+answer: SIGHASH_ALL
 wrong_answers:
-  - 単一のシードから階層的にキーを導出するウォレット。
-  - 前のキーからキーを導出するウォレット。
-  - キーを導出するためにニーモニックフレーズのみを使用するウォレット。
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  JBOK（Just a Bunch Of Keys）ウォレットには、HDウォレットとは異なり、ランダムかつ独立して生成されたプライベートキーが含まれています。
-reviewed: false
+  SIGHASH_ALLはデフォルトのsighashフラグで、取引のすべての入力と出力をカバーし、いかなる変更も防ぎます。

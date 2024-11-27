@@ -1,9 +1,9 @@
-question: Mikä on elliptisen käyrän nimi, jota käytetään digitaalisen allekirjoituksen algoritmeissa Bitcoinissa?
-answer: secp256k1.
+question: Minkä tyyppistä avainta käytetään lukitsemaan UTXO t Bitcoinissa?
+answer: Julkinen avain
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Yksityinen avain
+  - Siemenen hajautusarvo
+  - Mnemoninen lause
 explanation: |
-  secp256k1-käyrää käytetään Bitcoin-protokollassa digitaalisiin allekirjoituksiin.
+  UTXO: t lukitaan julkisella avaimella tai sen hajautusarvolla, ja avataan vastaavalla yksityisellä avaimella.
 reviewed: false

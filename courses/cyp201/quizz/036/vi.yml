@@ -1,9 +1,8 @@
-question: PRNG là gì?
-answer: Một thuật toán tạo ra các số ngẫu nhiên từ một hạt giống và một hàm biến đổi.
+question: Ví HD cho phép bạn làm gì so với ví JBOK?
+answer: Tạo tất cả các khóa riêng từ một hạt giống duy nhất
 wrong_answers:
-  - Một thiết bị phần cứng tạo ra các số ngẫu nhiên thực sự.
-  - Một bộ phát sinh số ngẫu nhiên mà không cần hạt giống.
-  - Một thuật toán tạo ra các số dự đoán được.
+  - Tăng cường bảo mật của chữ ký số
+  - Sử dụng lại cùng một địa chỉ cho nhiều giao dịch
+  - Hoàn toàn tránh sử dụng khóa công khai
 explanation: |
-  Một PRNG tạo ra các số ngẫu nhiên giả từ một hạt giống, nhưng không giống như một TRNG, nó không thực sự ngẫu nhiên.
-reviewed: false
+  Ví HD tạo ra tất cả các khóa riêng từ một hạt giống duy nhất, điều này làm đơn giản hóa việc sao lưu và gián tiếp cải thiện sự riêng tư.

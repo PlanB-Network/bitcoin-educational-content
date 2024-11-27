@@ -1,8 +1,8 @@
-question: Para realizar a derivação de um par de chaves filho normal, devo inserir na função HMAC-SHA512...
-answer: chave pública do pai || índice, código da cadeia do pai.
+question: O que uma chave pública estendida permite derivar?
+answer: Apenas chaves públicas filhas normais
 wrong_answers:
-  - chave privada do pai || índice, código da cadeia do pai.
-  - chave privada do pai, código da cadeia do pai.
-  - chave privada do pai || índice.
+  - Apenas chaves privadas filhas normais
+  - Tanto chaves públicas filhas endurecidas quanto normais
+  - Tanto chaves privadas filhas endurecidas quanto normais
 explanation: |
-  Para derivar uma chave filho normal, a chave pública do pai é usada com o índice e o código da cadeia na função HMAC-SHA512.
+  Uma chave pública estendida permite apenas a derivação de chaves públicas filhas normais, não chaves privadas ou chaves endurecidas.

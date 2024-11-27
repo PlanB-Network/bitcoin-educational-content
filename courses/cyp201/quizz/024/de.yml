@@ -1,9 +1,9 @@
-question: Was sind die Koordinaten des Generatorpunkts G, der auf der elliptischen Kurve secp256k1 verwendet wird?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Wie groß ist ein roher privater Schlüssel, der bei Bitcoin verwendet wird?
+answer: 256 Bits
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 Bits
+  - 512 Bits
+  - 1024 Bits
 explanation: |
-  Der Generatorpunkt G ist ein vordefinierter Punkt auf der elliptischen Kurve secp256k1, der zur Generierung von öffentlichen Schlüsseln aus privaten Schlüsseln in Bitcoin verwendet wird.
+  Ein privater Schlüssel bei Bitcoin ist eine 256-Bit zufällige Ganzzahl, die einen Schlüsselraum groß genug gewährleistet, um Sicherheit zu garantieren.
 reviewed: false

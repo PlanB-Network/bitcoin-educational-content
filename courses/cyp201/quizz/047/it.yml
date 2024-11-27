@@ -1,9 +1,9 @@
-question: Perché l'utilizzo di una passphrase rafforza la sicurezza di un portafoglio HD?
-answer: Aggiunge un ulteriore livello di protezione alla frase mnemonica.
+question: Qual è la dimensione in bit di un segmento binario utilizzato per creare ogni parola mnemonica?
+answer: 11 bit
 wrong_answers:
-  - Permette la generazione di chiavi pubbliche più forti.
-  - Protegge criptograficamente le transazioni.
-  - Raddoppia il numero di bitcoin nel portafoglio.
+  - 8 bit
+  - 16 bit
+  - 10 bit
 explanation: |
-  La passphrase aumenta la sicurezza aggiungendo un ulteriore pezzo di dati alla frase mnemonica, agendo in modo simile a un 2FA.
+  Ogni segmento di 11 bit corrisponde a una parola dalla lista standardizzata di 2048 parole in BIP39.
 reviewed: false

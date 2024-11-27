@@ -947,16 +947,6 @@ Following the bank panic of 1796, a phenomenon occurred where everyone tried to 
 
 Central banks have evolved to become lenders of last resort, suspending the convertibility of their currency into gold. Although this action was initially intended as a temporary solution, it ultimately became permanent, marking the advent of the concept of the lender of last resort. This transformation has shaped central banks as we know them today. However, in more fragile economies, this ability to print money at will can lead to undesirable consequences, such as hyperinflation, if used irresponsibly.
 
-## Evaluate the course
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Final Exam
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Books and Resources
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -980,3 +970,52 @@ Hyperinflation is a fascinating subject that has been studied through various hi
 - "The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class" by Frederick Taylor. A narrative exploration of the social and economic impact of hyperinflation on German society.
 
 - "Currency Boards for Developing Countries: A Handbook" by Steve Hanke and Kurt Schuler. Although the focus is on currency boards, this book offers a perspective on how to avoid hyperinflation situations.
+
+# Conclusion
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Evaluate this course
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final exam
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Congratulations on completing this course!
+
+We are delighted that you have reached this important milestone in your learning journey.
+
+Through your dedication and commitment, you have gained valuable knowledge and skills that will serve you in your professional development.
+
+To continue exploring the Bitcoin universe in depth, we invite you to discover all other courses available on Plan ₿ Network:
+
+#### Discover F. Bastiat's life with
+
+https://planb.network/courses/eco102
+
+#### Discover Austrian school economic thinking with
+
+https://planb.network/courses/eco201
+
+#### Discover Bitcoin and its fundamentals with
+
+https://planb.network/courses/btc101
+
+#### Update your online security with
+
+https://planb.network/courses/scu101
+
+#### Get and secure your first bitcoins with
+
+https://planb.network/courses/btc102
+
+#### Discover the history of Bitcoin's origins with
+
+https://planb.network/courses/his201

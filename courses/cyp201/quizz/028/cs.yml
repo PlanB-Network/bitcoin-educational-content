@@ -1,9 +1,9 @@
-question: Proč je nemožné získat soukromý klíč z platného digitálního podpisu?
-answer: Podpis je založen na nevratných matematických operacích na eliptické křivce.
+question: Jaká je velikost komprimovaného veřejného klíče používajícího protokol Schnorr?
+answer: 32 bajtů
 wrong_answers:
-  - Soukromý klíč je před použitím zašifrován.
-  - Semínko chrání soukromý klíč.
-  - Hašování zpráv brání získání soukromého klíče.
+  - 33 bajtů
+  - 64 bajtů
+  - 256 bitů
 explanation: |
-  Operace na eliptických křivkách jsou nevratné, což zajišťuje, že soukromý klíč nemůže být odvozen z podpisu.
+  Veřejný klíč Schnorr je reprezentován pouze x-ovou souřadnicí bodu na eliptické křivce, což redukuje jeho velikost na 32 bajtů.
 reviewed: false

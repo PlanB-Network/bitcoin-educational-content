@@ -146,14 +146,15 @@ Para Bastiat, a economia de trocas, ou seja, de serviços mútuos livremente ofe
 Mas de Jean-Baptiste Say, Frédéric Bastiat também herda um conceito chave, o de pilhagem. Pois, ele diz, ecoando as palavras de Say:
 
 > Há apenas duas maneiras de adquirir as coisas necessárias para a preservação, embelezamento e melhoria da vida: produção e pilhagem.
-Os produtores recorrem à persuasão, negociação e contrato, enquanto os saqueadores recorrem à força e ao engano. Cabe, portanto, à lei suprimir o saque e assegurar o trabalho bem como a propriedade. Como Adam Smith já havia afirmado, garantir a segurança dos cidadãos é a principal missão da autoridade pública, e é isso que legitima a cobrança de impostos.
-![image](assets/image/01/IMG17.webp)
+> Os produtores recorrem à persuasão, negociação e contrato, enquanto os saqueadores recorrem à força e ao engano. Cabe, portanto, à lei suprimir o saque e assegurar o trabalho bem como a propriedade. Como Adam Smith já havia afirmado, garantir a segurança dos cidadãos é a principal missão da autoridade pública, e é isso que legitima a cobrança de impostos.
+> ![image](assets/image/01/IMG17.webp)
 
 ## Antoine Destutt de Tracy
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
 É pouco conhecido, mas Destutt de Tracy teve uma influência decisiva sobre o futuro Presidente dos Estados Unidos, Thomas Jefferson, enquanto este era embaixador em Paris na década de 1780.
+
 > "Para todo homem, seu primeiro país é sua pátria, e o segundo é a França" & "Tirania é quando o povo teme seu governo; liberdade é quando o governo teme o povo."
 >
 > Thomas Jefferson
@@ -220,6 +221,7 @@ _(Benjamin Constant)_
 
 Eles adotam de Benjamin Constant a distinção entre os Antigos e os Modernos, caracterizada de um lado pela guerra, e do outro pelo comércio e indústria. Mas eles acrescentam com Say que a economia política fornece a melhor explicação dos fenômenos sociais. Eles entendem particularmente que as nações alcançam paz e prosperidade quando os direitos de propriedade e o livre comércio são respeitados. A partir de agora, para eles, a economia política é a verdadeira e única fundação da política. À filosofia, que se limita à crítica abstrata das formas de governo, deve ser substituída uma teoria baseada no conhecimento dos interesses econômicos.
 A economia política, ao demonstrar como os povos prosperam e declinam, estabeleceu as verdadeiras fundações da política.
+
 > Dunoyer
 
 ![image](assets/image/03/IMG07.webp)
@@ -261,6 +263,7 @@ Foi essa campanha de agitação pelo livre comércio, por todo o reino, com deze
 
 A Liga pode ser comparada a uma universidade itinerante, educando economicamente aqueles que assistiam às suas reuniões pelo país — gente comum, industriais, cultivadores e agricultores, todos sob sua proteção e cujos interesses as leis do grão oprimiam. Richard Cobden era a alma do movimento e um agitador excepcional.
 Um orador fascinante e formidável, ele tinha um dom prodigioso para inventar frases marcantes e concisas, longe dos discursos abstratos dos economistas.
+
 > O que é o monopólio do pão? ele exclamou. É a escassez de pão. Você fica surpreso ao aprender que a legislação deste país, sobre este assunto, não tem outro propósito senão produzir a maior escassez possível de pão. E ainda assim é apenas isso. A legislação só pode alcançar seu objetivo através da escassez.
 
 Em 1845, Bastiat publicou em Paris seu livro Cobden e a Liga, com suas traduções acompanhadas de comentários. O livro abre com uma introdução sobre a situação econômica da Inglaterra, sobre a história da origem e progresso da Liga. Desde 1815, o protecionismo estava muito desenvolvido na Inglaterra. Havia, em particular, leis limitando a importação de grãos que tiveram consequências muito duras para o povo. De fato, o trigo era necessário para fazer pão, uma mercadoria vital na época. Além disso, esse sistema favorecia a aristocracia, isto é, os grandes proprietários de terras, que dele derivavam rendas.
@@ -297,7 +300,6 @@ A questão do livre comércio continua sendo relevante hoje. Livros didáticos d
 ## Rousseau
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
-
 
 Frédéric Bastiat, que se expressou na década de 1840, é herdeiro de uma geração de filósofos do Iluminismo que lutaram contra a censura e pela liberdade de debate. Pense em Montesquieu, Diderot, Voltaire, Condorcet, mas também Rousseau.
 
@@ -377,6 +379,7 @@ O que é então a liberdade? É a propriedade, o direito de desfrutar dos frutos
 No entanto, como Bastiat nos lembra, o monopólio exclui o progresso.
 
 ## Protecionismo e Socialismo
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
 ![image](assets/image/07/IMG11.webp)
@@ -422,11 +425,9 @@ Para concluir, protecionistas e socialistas compartilham um ponto comum, segundo
 
 > O Estado é a grande ficção através da qual todos se esforçam para viver às custas de todos os outros.
 
-
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
-
 
 Pierre-Joseph Proudhon é um dos principais representantes do socialismo francês em meados do século XIX. Ele é especialmente famoso por esta declaração: "A propriedade é um roubo" em "O que é Propriedade?" em 1840.
 
@@ -462,6 +463,7 @@ Então Bastiat mostra que é possível melhorar o poder de compra das classes tr
 De fato, segundo Bastiat, o progresso da humanidade coincide com a formação de capital. Em seu panfleto intitulado Capital e Renda, Bastiat nos faz entender isso com Robinson Crusoe em sua ilha.
 ![image](assets/image/08/IMG15.webp)
 Sem capital acumulado ou materiais, Robinson estaria condenado à morte. Ele então explica que o capital enriquece o trabalhador de duas maneiras:
+
 - Aumenta a produção, diminuindo assim o preço dos bens de consumo
 - O que tem o efeito de aumentar os salários.
 
@@ -479,7 +481,6 @@ Em conclusão, tanto Proudhon quanto Bastiat reconheceram a importância do acú
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-
 Neste capítulo, vou revelar uma tecnologia completamente nova, uma tecnologia revolucionária. Um pesquisador desenvolveu um par de óculos biônicos com uma mini-câmera ultra-poderosa embutida na frente. Esta tecnologia permite ver detalhes impossíveis de serem vistos a olho nu. Nos braços, há um chip eletrônico que transmite imagens diretamente para a nuvem via meu smartphone.
 
 ![image](assets/image/09/IMG01.webp)
@@ -491,8 +492,8 @@ Assim, em Obras Públicas, Bastiat escreve:
 
 > O Estado abre uma estrada, constrói um palácio, retifica uma rua, escava um canal; com isso, dá trabalho a certos trabalhadores, isso é o que é visto; mas priva trabalho de certos outros, isso é o que não é visto.
 
-
 Um dos sofismas mais conhecidos é a falácia da janela quebrada. Alguns afirmam que o quebrar de uma janela em uma casa não prejudica a economia, pois beneficia o vidraceiro. Mas Bastiat mostrará que a destruição não é do nosso interesse porque não cria riqueza. Custa mais do que rende. O jovem que quebra a janela do vizinho dá trabalho ao vidraceiro. Mas eis como seus amigos o consolam:
+
 > "Toda nuvem tem um lado bom. Tais acidentes mantêm a indústria em movimento. Todos precisam viver. O que seria dos vidraceiros se as janelas nunca fossem quebradas?"
 
 Assim, segundo Keynes, a destruição de propriedade, ao forçar gastos, estimularia a economia e teria um "efeito multiplicador" revigorante sobre a produção e o emprego. Isso é apenas o que se vê.
@@ -515,7 +516,9 @@ Finalmente, quase um século antes de Keynes, podemos dizer que Bastiat refutou 
 ![image](assets/image/09/IMG03.webp)
 
 A grande lição desta série de textos é que a intervenção estatal tem efeitos perversos que não são vistos. Apenas um bom economista é capaz de prever isso. Política é o que vemos. A economia é o que não vemos.
+
 ## A petição dos fabricantes de velas
+
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
 Em 1840, a Câmara dos Deputados votou por uma lei que aumentava os impostos de importação para proteger a indústria francesa. Esse é o famoso patriotismo econômico, que ainda encontramos hoje.
@@ -544,8 +547,8 @@ O protecionismo também se baseia em um silogismo oculto que se revela uma falá
 - Quanto mais trabalhamos, mais ricos somos;
 - Quanto mais dificuldades temos que superar, mais trabalhamos;
 - Portanto, quanto mais dificuldades temos que superar, mais ricos somos.
-Vamos ilustrar essa absurdidade com algumas histórias curtas contadas por Bastiat. No Capítulo III da segunda série de Sofismas Econômicos, ele imagina um carpinteiro que escreve ao ministro uma petição pedindo por legislação protecionista. O carpinteiro formula assim o seu pedido: Sr. Ministro, faça uma lei que estipule que "Ninguém pode usar vigas e caibros produzidos com machados cegos." Em outras palavras, faça uma lei que proíba o uso de machados afiados na França. Assim, onde normalmente se dá 100 golpes de machado, será necessário dar 300. Carpinteiros estarão em alta demanda e, portanto, melhor remunerados.
-![image](assets/image/10/IMG01.webp)
+  Vamos ilustrar essa absurdidade com algumas histórias curtas contadas por Bastiat. No Capítulo III da segunda série de Sofismas Econômicos, ele imagina um carpinteiro que escreve ao ministro uma petição pedindo por legislação protecionista. O carpinteiro formula assim o seu pedido: Sr. Ministro, faça uma lei que estipule que "Ninguém pode usar vigas e caibros produzidos com machados cegos." Em outras palavras, faça uma lei que proíba o uso de machados afiados na França. Assim, onde normalmente se dá 100 golpes de machado, será necessário dar 300. Carpinteiros estarão em alta demanda e, portanto, melhor remunerados.
+  ![image](assets/image/10/IMG01.webp)
 
 No Capítulo XVI, há outro texto muito irônico, intitulado: A Mão Direita e a Mão Esquerda. Após uma investigação, um enviado real elabora um relatório no qual propõe ao rei cortar, ou pelo menos amarrar, todas as mãos direitas dos trabalhadores. Assim, ele continua, o trabalho e consequentemente a riqueza aumentarão. A produção se tornará muito mais difícil, o que necessitará a contratação massiva de mão de obra adicional e um aumento nos salários. O pauperismo desaparecerá do país.
 
@@ -554,14 +557,11 @@ Seguindo essa lógica de criar empregos a todo custo, por que não também subst
 Essa confusão de meios e fim é encontrada no slogan "dinheiro é riqueza."
 Esse é o axioma que governa a política monetária da maioria dos estados. De fato, o aumento artificial na quantidade de dinheiro permite que bancos emprestem dinheiro a indivíduos e estados para facilmente repagar suas dívidas, isso é "o que vemos". Mas "o que não vemos" é que essa criação de dinheiro, não baseada em nenhuma criação real de riqueza, levará à inflação e à ruína dos poupadores.
 
-
-
 A verdadeira riqueza, segundo Bastiat, é portanto o conjunto de coisas úteis que produzimos através do trabalho para satisfazer nossas necessidades. O dinheiro é assim apenas um meio de troca comumente usado, ele apenas desempenha o papel de um intermediário.
 
 ## O Saque por meio da Tributação
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
-
 
 > Quando os ricos perdem peso, os pobres morrem.
 
@@ -577,6 +577,7 @@ Na França, onde os gastos públicos são considerados um benefício, os imposto
 
 O que é isso?
 A economia descreve os efeitos bons ou ruins das decisões políticas em nossas vidas. No entanto, segundo Bastiat, o economista deve estar atento, não apenas aos seus efeitos de curto prazo em um grupo específico, mas sim às suas consequências de longo prazo para a sociedade como um todo.
+
 > "O que vemos é o trabalho e o lucro permitidos pela contribuição social. O que não vemos são as obras que seriam geradas por essa mesma contribuição se fosse deixada aos contribuintes. O que vemos é o trabalho e o lucro permitidos pela contribuição social. O que não vemos são as obras que seriam geradas por essa mesma contribuição se fosse deixada aos contribuintes."
 >
 > F.Bastiat
@@ -602,7 +603,6 @@ O problema é que os impostos, como concebidos, estão sujeitos à arbitrariedad
 
 > Imposto demais mata o imposto.
 
-
 Os políticos assumem ingenuamente que existe uma relação automática e fixa entre as taxas de imposto e as receitas fiscais. Eles pensam que podem dobrar as receitas fiscais dobrando a taxa de imposto. Segundo Laffer, tal abordagem ignora o fato de que os contribuintes podem mudar seu comportamento em resposta a novos incentivos.
 
 ![image](assets/image/11/IMG7.webp)
@@ -626,7 +626,7 @@ No entanto, existem duas maneiras complementares de iluminar o julgamento dos ci
 
 - Primeiro, há uma "moralidade filosófica ou religiosa" que atua purificando e corrigindo a ação humana (o homem como agente)
 - Em seguida, há uma "moralidade econômica", que atua mostrando ao homem "as consequências necessárias de seus atos" (o homem como paciente)
-Na verdade, são dois quadros morais perfeitamente complementares.
+  Na verdade, são dois quadros morais perfeitamente complementares.
 
 1. A primeira aborda o coração e incentiva os indivíduos a fazer o bem; é a moralidade religiosa ou filosófica. É a mais nobre. Ela enraíza no coração do homem a consciência de seu dever. Diz-lhe:
 
@@ -663,7 +663,6 @@ Uma coisa é certa, não é o político quem pode mudar o curso das coisas e ape
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-
 Uma sociedade harmoniosa pode prescindir de leis escritas, regras, medidas repressivas? Se os homens forem deixados livres, não testemunharemos desordem, anarquia, desorganização? Como evitar criar uma mera justaposição de indivíduos agindo fora de qualquer concerto, senão através de leis e uma organização política centralizada?
 
 Este é o argumento frequentemente invocado por aqueles que exigem regulação do mercado ou sociedade sozinha capaz de coordenar indivíduos em um todo coerente e harmonioso.
@@ -676,8 +675,9 @@ O milagre do mercado livre, ele nos diz, é que ele utiliza conhecimentos que ne
 
 Bastiat dá alguns exemplos para ilustrar os benefícios deste mercado. Tornamo-nos tão acostumados a este fenômeno que não prestamos mais atenção nele.
 Vamos considerar um carpinteiro em uma vila, ele diz, e observar todos os serviços que ele presta à sociedade e todos aqueles que ele recebe:
+
 > Todos os dias, ao acordar, ele se veste, e ele pessoalmente não fez nenhuma de suas roupas. No entanto, para que essas roupas estivessem disponíveis para ele, uma enorme quantidade de trabalho, indústria, transporte e invenções engenhosas teve que ser realizada em todo o mundo.
-Então, ele toma café da manhã. Para que o pão que ele come chegue à sua mesa todas as manhãs, terras tiveram que ser desmatadas, aradas; ferro, aço, madeira, pedra tiveram que ser convertidos em ferramentas de trabalho; todas coisas que, cada uma tomada separadamente, assumem uma massa incalculável de trabalho em jogo, não apenas no espaço, mas no tempo.
+> Então, ele toma café da manhã. Para que o pão que ele come chegue à sua mesa todas as manhãs, terras tiveram que ser desmatadas, aradas; ferro, aço, madeira, pedra tiveram que ser convertidos em ferramentas de trabalho; todas coisas que, cada uma tomada separadamente, assumem uma massa incalculável de trabalho em jogo, não apenas no espaço, mas no tempo.
 
 Este homem enviará seu filho para a escola, para receber uma educação que pressupõe pesquisa, muitos anos de estudo prévio.
 Ele sai de casa: encontra uma rua pavimentada e iluminada.
@@ -699,7 +699,6 @@ Ele revisita a ideia de Bastiat de uma cooperação invisível entre milhões de
 
 O Prêmio Nobel de Economia de 1976, Milton Friedman, também revisitou esta história do lápis para explicar ao grande público como funciona a economia de mercado.
 
-
 Em um episódio de sua série de televisão Free to Choose, ele analisa os vários componentes de algo tão comum e simples quanto um lápis e destaca o milagre da ordem espontânea, gerada por milhares de interações econômicas em todo o mundo. Pessoas que não se conhecem, que não compartilham a mesma religião ou costumes, ainda conseguem se coordenar para produzir este objeto. Ele conclui que o mercado livre é essencial para garantir não apenas a prosperidade, mas também a harmonia e a paz.
 
 ![image](assets/image/13/IMG04.webp)
@@ -712,12 +711,11 @@ O planejamento econômico, que alega fazer melhor que o mercado, leva não apena
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-
 Em uma carta para Alphonse de Lamartine em 1845, Bastiat escreveu que sua filosofia inteira está contida em um único princípio:
 
 > A liberdade é a melhor forma de organização social.
-![imagem](assets/image/14/IMG1.webp)
-No entanto, ele adiciona uma condição
+> ![imagem](assets/image/14/IMG1.webp)
+> No entanto, ele adiciona uma condição
 
 > "Que a lei não deve eliminar as consequências, positivas ou negativas, das ações de todos. Este é o princípio corolário da responsabilidade.": "Que a lei não deve eliminar as consequências, positivas ou negativas, das ações de todos. Este é o princípio corolário da responsabilidade."
 
@@ -774,7 +772,6 @@ Em outras palavras, escolhas coletivas não são escolhas responsáveis já que,
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-
 No curso anterior, vimos por que liberdade e responsabilidade são chaves para o problema social. Agora, vamos aprofundar neste ponto mostrando como Frédéric Bastiat vê os males que afligem as sociedades e sua solução.
 
 Os liberais às vezes foram criticados por ignorar o mal e construir a utopia da liberdade pura e perfeita em um mundo ideal. Esta crítica é absolutamente infundada em relação ao nosso autor.
@@ -819,7 +816,6 @@ Deve ser esclarecido que este desenvolvimento do progresso através da responsab
 ## Verdadeira e Falsa Solidariedade
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
-
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -874,7 +870,6 @@ A lei pode compelir um homem a ser justo, mas não pode forçá-lo a ser devotad
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-
 Por propriedade, não devemos entender terra aqui. Significa "o direito de um trabalhador sobre o valor que ele criou através de seu trabalho." Bastiat especifica:
 
 > Considero que o direito à propriedade consiste na liberdade de primeiro dispor da própria pessoa, depois do próprio trabalho e, finalmente, dos produtos do próprio trabalho - o que prova, aliás, que, de certo ponto de vista, liberdade e o direito à propriedade não podem ser distinguidos um do outro.
@@ -927,7 +922,6 @@ _(Cícero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-
 A ideia principal de Bastiat em "A Lei", seu famoso panfleto datado de 1850, é mostrar por que e como a lei se tornou saqueadora, ou seja, uma fonte de privilégios, rendas situacionais e arbitrariedade fiscal.
 
 ![image](assets/image/18/IMG01.webp)
@@ -969,12 +963,11 @@ Para ele, o propósito da Lei deve simplesmente ser "pôr fim a todas as pilhage
 Eles têm certeza de que seus direitos naturais são garantidos e intocáveis. Direitos de propriedade seguros dão às pessoas a capacidade de fazer planos de longo prazo porque sabem que seus bens estão seguros contra a pilhagem.
 
 > Ausência de Pilhagem, — é o princípio da justiça, paz, ordem, estabilidade, conciliação, bom senso que proclamarei com toda a força, infelizmente! insuficiente, dos meus pulmões, até meu último suspiro
-Bastiat escreveu em A Lei, algum tempo antes de morrer. Um século após a morte de Frédéric Bastiat, o saque legal é claramente evidente na Declaração Universal dos Direitos Humanos de 1948, notavelmente em seus artigos 22 ("todos têm o direito à segurança social"), 23 ("todos têm o direito ao trabalho"), 24 ("todos têm o direito ao descanso e lazer"), 25 ("todos têm o direito a um padrão de vida adequado para a saúde e bem-estar"), 26 ("todos têm o direito à educação").
+> Bastiat escreveu em A Lei, algum tempo antes de morrer. Um século após a morte de Frédéric Bastiat, o saque legal é claramente evidente na Declaração Universal dos Direitos Humanos de 1948, notavelmente em seus artigos 22 ("todos têm o direito à segurança social"), 23 ("todos têm o direito ao trabalho"), 24 ("todos têm o direito ao descanso e lazer"), 25 ("todos têm o direito a um padrão de vida adequado para a saúde e bem-estar"), 26 ("todos têm o direito à educação").
 
 ## O Papel da Lei e do Estado
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
-
 
 Em 1848, Bastiat era um deputado. Ele foi nomeado vice-presidente da comissão de finanças. Ele estava, portanto, particularmente bem posicionado para responder a esta pergunta: o que é o Estado? Recorremos ao Estado para garantir nosso bem-estar. Mas Bastiat nos lembra que o Estado não pode dar nada aos cidadãos que primeiro não tenha tirado deles.
 
@@ -1020,20 +1013,9 @@ Escreveu Frédéric Bastiat em um pequeno panfleto intitulado O Estado.
 
 ![image](assets/image/19/IMG9.webp)
 
-# Conclusão
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-
-
-## Avalie o curso
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## O Legado de Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
-
 
 A influência de Bastiat começou a declinar em direção ao final do século 19, com a ascensão do socialismo e particularmente do marxismo dentro das universidades e institutos de pesquisa, financiados por dinheiro público.
 
@@ -1061,4 +1043,52 @@ Se olharmos as coisas sob este ângulo, Reagan explicou aos funcionários da GE,
 ![image](assets/image/20/IMG10.webp)
 Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empreendedor na criação de riqueza, a importância de um quadro legal flexível e mínimo, que permite confiança e respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes que possa ser distribuída, o desejo de dar a todos uma chance nos mercados competitivos…
 
+# Conclusão
 
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Avalie este curso
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Exame final
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusão
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Parabéns por concluir este curso!
+
+Estamos muito felizes que você tenha alcançado este importante marco em sua jornada de aprendizado.
+
+Através da sua dedicação e compromisso, você adquiriu conhecimentos e habilidades valiosas que servirão para seu desenvolvimento profissional.
+
+Para continuar explorando em profundidade o universo Bitcoin, convidamos você a descobrir todos os outros cursos disponíveis na Plan ₿ Network:
+
+#### Descubra o Bitcoin e seus fundamentos com
+
+https://planb.network/courses/btc101
+
+#### Obtenha e proteja seus primeiros bitcoins com
+
+https://planb.network/courses/btc102
+
+#### Atualize sua segurança online com
+
+https://planb.network/courses/scu101
+
+#### Descubra a Lightning Network com
+
+https://planb.network/courses/lnp201
+
+#### Aprenda o pensamento econômico da Escola Austríaca com
+
+https://planb.network/courses/eco201
+
+#### Entenda os fundamentos do Bitcoin e construa seu aquecimento doméstico com
+
+https://planb.network/courses/min201

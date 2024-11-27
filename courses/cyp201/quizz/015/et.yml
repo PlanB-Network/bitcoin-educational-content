@@ -1,9 +1,9 @@
-question: Mis on elliptilise kõvera nimi, mida kasutatakse digitaalsete allkirjade algoritmides Bitcoinis?
-answer: secp256k1.
+question: Millist võtit kasutatakse Bitcoinis UTXO-de lukustamiseks?
+answer: Avalik võti
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Privaatvõti
+  - Seemne räsi
+  - Mnemooniline fraas
 explanation: |
-  Kõverat secp256k1 kasutatakse Bitcoin protokollis digitaalsete allkirjade jaoks.
+  UTXO-d lukustatakse avaliku võtmega või selle räsiga ning avatakse vastava privaatvõtmega.
 reviewed: false

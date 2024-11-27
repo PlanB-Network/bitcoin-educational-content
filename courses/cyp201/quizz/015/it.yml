@@ -1,9 +1,9 @@
-question: Qual è il nome della curva ellittica utilizzata per gli algoritmi di firma digitale in Bitcoin?
-answer: secp256k1.
+question: Che tipo di chiave viene utilizzata per bloccare gli UTXO su Bitcoin?
+answer: Chiave pubblica
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Chiave privata
+  - Hash del seed
+  - Frase mnemonica
 explanation: |
-  La curva secp256k1 è utilizzata nel protocollo Bitcoin per le firme digitali.
+  Gli UTXO sono bloccati con una chiave pubblica o il suo hash e sbloccati con la corrispondente chiave privata.
 reviewed: false

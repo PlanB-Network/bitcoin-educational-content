@@ -1,9 +1,9 @@
-question: Jak se počítá kontrolní součet Legacy adresy?
-answer: S HASH256.
+question: Proč jsou deskriptory obzvláště užitečné pro multisignature peněženky?
+answer: Zahrnují xpub každého faktoru a popisují strukturu multisignatury
 wrong_answers:
-  - S HASH160.
-  - S BCH kódem.
-  - S RIPEMD160.
+  - Eliminují potřebu mnemonické fráze
+  - Zjednodušují generování hardened klíčů
+  - Dělají multisignatury kompatibilními se všemi skripty
 explanation: |
-  U Legacy adres se kontrolní součet získá provedením dvojitého hashování funkcí SHA256 (HASH256).
+  Deskriptory zahrnují rozšířené veřejné klíče všech účastníků, což usnadňuje obnovu a správu konfigurací multisignatury.
 reviewed: false

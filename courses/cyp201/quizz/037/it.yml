@@ -1,9 +1,9 @@
-question: Perché è importante utilizzare una buona fonte di entropia per generare chiavi private?
-answer: Un'entropia scarsa può rendere le chiavi private prevedibili e vulnerabili agli attacchi.
+question: Qual è la principale limitazione dei portafogli JBOK?
+answer: Richiedono un backup indipendente per ogni chiave privata
 wrong_answers:
-  - Una buona entropia aiuta a ottimizzare le prestazioni del portafoglio.
-  - L'entropia non gioca alcun ruolo nella sicurezza delle chiavi private.
-  - Un'entropia scarsa rallenta le transazioni.
+  - Non consentono la generazione di nuovi indirizzi
+  - Sono incompatibili con le firme digitali
+  - Utilizzano chiavi pubbliche non compresse
 explanation: |
-  Se l'entropia utilizzata per generare le chiavi private è bassa, potrebbe permettere a un attaccante di indovinare o calcolare queste chiavi, compromettendo la sicurezza del portafoglio.
+  I portafogli JBOK costringono l'utente a eseguire il backup di ogni chiave privata individualmente, complicando la loro gestione.
 reviewed: false

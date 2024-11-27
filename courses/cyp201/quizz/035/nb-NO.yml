@@ -1,8 +1,9 @@
-question: Hva er den grunnleggende informasjonen som gjør det mulig å bestemme en god mnemonic frase for en HD-lommebok?
-answer: En ekstern entropi som gjør det mulig å bestemme et tilfeldig eller pseudo-tilfeldig tall.
+question: Hvilken Bitcoin-standard introduserer hierarkiske deterministiske lommebøker?
+answer: BIP32
 wrong_answers:
-  - Fornavnet til lommebokens eier.
-  - Ingen informasjon, vi velger direkte ordene vi liker.
-  - Opprettelsesdatoen for lommeboken.
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  Den mnemonic frasen er avledet fra en kilde til entropi, som betyr tilfeldig eller pseudo-tilfeldig informasjon, for å sikre sikkerheten til de private nøklene.
+  BIP32 definerer driften av HD-lommebøker, som tillater hierarkisk derivasjon av private nøkler fra et frø.
+reviewed: false

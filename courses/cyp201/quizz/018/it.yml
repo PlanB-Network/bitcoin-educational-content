@@ -1,9 +1,9 @@
-question: Dove vengono conservate le chiavi private?
-answer: Nei portafogli Bitcoin
+question: Perché la curva ellittica secp256r1 non è stata utilizzata in Bitcoin?
+answer: Potenzialmente per evitare una porta nascosta
 wrong_answers:
-  - Sulla blockchain
-  - Sui server della comunità Bitcoin.
-  - Sulla rete peer-to-peer.
+  - Perché è troppo lenta
+  - Perché non è standardizzata
+  - Perché richiede hardware specializzato
 explanation: |
-  Il portafoglio contiene le chiavi private necessarie per accedere ai bitcoin.
-reviewed: false
+  È probabile che Satoshi Nakamoto abbia preferito la curva secp256k1, poiché i parametri di secp256r1 potrebbero contenere una vulnerabilità nascosta.
+recensito: false

@@ -1,0 +1,9 @@
+question: 導出パスにおいて、通貨の種類を指定するのはどの深さですか？
+answer: 深さ2
+wrong_answers:
+  - 深さ1
+  - 深さ3
+  - 深さ4
+explanation: |
+  深さ2は、Bitcoin（インデックス0'）やLitecoin（インデックス2'）など、複数の通貨を扱うウォレットで通貨を識別するために使用されます。
+reviewed: false

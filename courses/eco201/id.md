@@ -17,9 +17,11 @@ Sekolah pemikiran ini sudah memiliki beberapa abad di belakangnya dan memiliki p
 +++
 
 # Pengantar EKON
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Pengantar
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Halo semua dan selamat datang di Econ 201: Pengantar Ekonomi Austria.
@@ -38,6 +40,7 @@ Saya mengucapkan terima kasih yang tulus kepada Théo karena telah memproduksi k
 Jika Anda siap untuk memulai petualangan ini, saya mengundang Anda untuk mengklik video berikut dan memulai dengan video bonus tentang sistem keuangan kita saat ini. Saya sekarang memberikan kesempatan kepada Théo. Terima kasih kepadanya karena telah berkolaborasi dengan Descoupes Bitcoin untuk realisasi video ini. Saya akan bertemu Anda sangat segera. Selamat tinggal!
 
 ## Uang, Kredit, Bank, dan Bank Sentral
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > “Masalah utama dengan mata uang konvensional adalah semua kepercayaan yang diperlukan untuk membuatnya berfungsi. Bank sentral harus dipercaya untuk tidak menurunkan nilai mata uang, tetapi sejarah mata uang fiat penuh dengan pelanggaran terhadap kepercayaan tersebut. Bank harus dipercaya untuk menyimpan uang kita dan mentransfernya secara elektronik, tetapi mereka meminjamkannya dalam gelombang gelembung kredit dengan hanya sebagian kecil dalam cadangan. Kita harus mempercayai mereka dengan privasi kita, mempercayai mereka untuk tidak membiarkan pencuri identitas menguras rekening kita.”
@@ -59,9 +62,9 @@ Saat membeli rumah, Anda menginstruksikan bankir Anda untuk mentransfer uang ke 
 Gambar 1: Penciptaan Uang sebagai Entri Buku
 
 > “Cukup baik bahwa orang-orang di negara kita tidak memahami sistem perbankan dan moneter kita, karena jika mereka melakukannya, saya percaya akan ada revolusi sebelum pagi hari”
-> 
+>
 > Henry Ford
-Proses ini memungkinkan bank untuk mencatat semua transaksi, termasuk transfer kawat, pembelian kartu kredit, dan cek, selama periode tertentu (biasanya seminggu atau sebulan). Kemudian, mereka menyelesaikan transaksi ini satu sama lain menggunakan cadangan bank, yang merupakan bentuk lain dari mata uang fiat yang tidak pernah digunakan oleh publik. Cadangan bank disimpan di bank sentral dalam sebuah akun khusus yang hanya dapat diakses oleh bank dan lembaga keuangan berlisensi.
+> Proses ini memungkinkan bank untuk mencatat semua transaksi, termasuk transfer kawat, pembelian kartu kredit, dan cek, selama periode tertentu (biasanya seminggu atau sebulan). Kemudian, mereka menyelesaikan transaksi ini satu sama lain menggunakan cadangan bank, yang merupakan bentuk lain dari mata uang fiat yang tidak pernah digunakan oleh publik. Cadangan bank disimpan di bank sentral dalam sebuah akun khusus yang hanya dapat diakses oleh bank dan lembaga keuangan berlisensi.
 
 ### Ketidakstabilan Perbankan Cadangan Fraksional dan Pemberi Pinjaman Terakhir
 
@@ -86,6 +89,7 @@ Gambar3: Suku Bunga di Ekonomi Utama / Sumber: ECB
 Berbeda dengan banyak ekspektasi, program QE tidak signifikan dalam menghidupkan kembali pertumbuhan ekonomi tetapi berhasil menggelembungkan aset keuangan ke level historis. Ini terutama menguntungkan orang kaya dan lembaga keuangan, karena mereka sudah memiliki jumlah aset yang besar, sehingga memperlebar disparitas kekayaan. Mengingat struktur sistem perbankan yang dijelaskan sebelumnya, hasil ini seharusnya tidak mengejutkan. Karena cadangan bank tidak dapat dengan mudah mengalir ke ekonomi riil, program QE terutama meningkatkan harga aset tanpa efektif memperbaiki situasi keuangan individu rata-rata.
 
 ### Efek Cantillon
+
 Namun demikian, sebuah prinsip ekonomi penting dapat dipetik dari episode ini: ketika uang baru diciptakan, awalnya menguntungkan mereka yang paling dekat dengan sumber uang tersebut, dengan mengorbankan mereka yang lebih jauh. Wawasan ekonomi ini berasal dari abad ke-18, ketika Richard Cantillon menguraikannya dalam "Esai tentang Sifat Perdagangan pada Umumnya." Kini, hal ini secara kolokial disebut sebagai "Efek Cantillon".
 ![image](assets/Image/4.webp)
 
@@ -114,16 +118,19 @@ Dengan inflasi yang meningkat karena penciptaan uang yang substansial sebagai re
 ### Kesimpulan
 
 > “Dengan cara ini (perbankan cadangan fraksional), pemerintah dapat secara diam-diam dan tanpa disadari, menyita kekayaan rakyat, dan tidak satu pun dari sejuta orang akan mendeteksi pencurian tersebut”
-John Maynard Keynes
-Pada dasarnya, sistem kita menghadapi tantangan yang substansial, dan Bitcoin muncul sebagai alternatif yang kredibel satu-satunya. Namun, Bitcoin sendiri tidak dapat mengatasi masalah dalam sistem moneter kita. Di atas segalanya, kita membutuhkan individu yang memahami prinsip-prinsip ekonomi dasar di antara para penggemar Bitcoin, memungkinkan kesadaran yang lebih luas dan akal sehat ekonomi untuk membimbing kita menjauh dari membangun fondasi keuangan yang rapuh lainnya untuk peradaban kita. Tujuan utama dari kursus ini adalah untuk mendidik penggemar Bitcoin baru dalam prinsip-prinsip ekonomi yang sehat.
+> John Maynard Keynes
+> Pada dasarnya, sistem kita menghadapi tantangan yang substansial, dan Bitcoin muncul sebagai alternatif yang kredibel satu-satunya. Namun, Bitcoin sendiri tidak dapat mengatasi masalah dalam sistem moneter kita. Di atas segalanya, kita membutuhkan individu yang memahami prinsip-prinsip ekonomi dasar di antara para penggemar Bitcoin, memungkinkan kesadaran yang lebih luas dan akal sehat ekonomi untuk membimbing kita menjauh dari membangun fondasi keuangan yang rapuh lainnya untuk peradaban kita. Tujuan utama dari kursus ini adalah untuk mendidik penggemar Bitcoin baru dalam prinsip-prinsip ekonomi yang sehat.
 
 Untuk mencapai tujuan ini, kami akan menjelaskan prinsip-prinsip dasar dari "Ekonomi Austria," sebuah aliran pemikiran ekonomi dengan tradisi metodologis yang berawal dari abad ke-16, memberikan wawasan tentang tindakan manusia di bawah kendala ekonomi. Dengan pengantar ini, Anda sekarang memahami dasar-dasar penciptaan uang dan keadaan saat ini dari sistem keuangan dan moneter kita.
 
 Dalam bab mendatang, kami akan menggali batu penjuru dari setiap aliran pemikiran ekonomi: teori nilai. Bab-bab berikutnya akan mengeksplorasi uang sebagai institusi sosial, teori modal dan siklus bisnis, tantangan perhitungan ekonomi, dan gambaran singkat tentang sejarah dan metodologi Sekolah Ekonomi Austria.
 
 # Dasar Teoretis
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+
 ## Teori Nilai Subjektif
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > “Nilai hanya ada dalam kesadaran manusia”
@@ -203,6 +210,7 @@ Berdasarkan wawasan nilai ordinal subjektif, Menger menjelaskan munculnya pembag
 Bab-bab berikutnya akan didedikasikan untuk munculnya uang sebagai institusi sosial, teori modal dan bunga, yang akan menjadi dasar untuk Teori Siklus Bisnis, dan terakhir peran harga untuk perhitungan ekonomi.
 
 ## Munculnya Uang sebagai Fenomena Sosial
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Sementara individu memiliki kepentingan bersama dalam spesialisasi dan memaksimalkan pembagian kerja, masih ada masalah koordinasi yang membatasi ekspansi ini.
@@ -220,10 +228,10 @@ Awalnya, dilema tahanan diformulasikan sebagai berikut: Dua tersangka, Alice dan
 
 Hasil-hasil ini dapat direpresentasikan dalam sebuah matriks (hasil numerik menunjukkan jumlah tahun penjara):
 
-| Alice / Bob       | Menuduh     | Tetap Diam   |
-| ----------------- | ----------- | ------------- |
-| **Menuduh**       | 2, 2        | 0, 3         |
-| **Tetap Diam**    | 3, 0        | 1, 1         |
+| Alice / Bob    | Menuduh | Tetap Diam |
+| -------------- | ------- | ---------- |
+| **Menuduh**    | 2, 2    | 0, 3       |
+| **Tetap Diam** | 3, 0    | 1, 1       |
 
 Dalam permainan ini, tidak ada kesempatan untuk koordinasi (komunikasi tidak mungkin) untuk mencapai hasil terbaik bagi kedua pihak. Akibatnya, Alice dan Bob memiliki insentif individu untuk saling menuduh, meskipun hal itu tidak mengarah pada hasil optimal untuk kelompok. Strategi optimal bagi keduanya adalah tetap diam, masing-masing menerima hukuman 1 tahun.
 
@@ -240,7 +248,7 @@ Namun, ketika berhadapan dengan komunitas yang lebih besar yang sangat diuntungk
 Pertama, manusia dibatasi oleh kapasitas kognitif mereka. Mustahil bagi seseorang untuk memelihara dan mengingat hubungan sosial yang stabil dengan lebih dari 150 individu, membuat sistem reputasi tidak cukup untuk mengatasi dilema tahanan dalam skala besar.
 
 Kedua, pengukuran yang diterima secara sosial terhadap nilai kontribusi dalam pertukaran (komensurabilitas) adalah masalah yang tidak trivial. Misalnya, jika seorang individu menyediakan daging dari berburu dan meminta bahan untuk tempat berlindung sebagai imbalannya, bagaimana jumlah daging yang ditawarkan dapat dievaluasi dalam istilah yang setara dengan bahan yang diminta? Hal yang sama berlaku untuk kualitas – apakah daging rusa bernilai lebih atau kurang dari kayu?
-Meskipun mungkin untuk menetapkan nilai tukar yang memuaskan untuk setiap pasangan barang, memelihara informasi ini dengan cepat menjadi tidak praktis. Dalam sistem pertukaran langsung yang melibatkan N barang, ada N(N-1)/2 nilai tukar untuk diingat. Untuk ekonomi yang terdiri dari 50 barang, itu berarti mengingat 50*49/2, atau 1225 nilai tukar, dibandingkan hanya 50 dalam pertukaran tidak langsung. Untuk ekonomi yang terdiri dari 100 barang, angka ini meningkat menjadi 4950. Hubungan kuadratik seperti itu menambahkan batasan tambahan pada skalabilitas pertukaran langsung (barter).
+Meskipun mungkin untuk menetapkan nilai tukar yang memuaskan untuk setiap pasangan barang, memelihara informasi ini dengan cepat menjadi tidak praktis. Dalam sistem pertukaran langsung yang melibatkan N barang, ada N(N-1)/2 nilai tukar untuk diingat. Untuk ekonomi yang terdiri dari 50 barang, itu berarti mengingat 50\*49/2, atau 1225 nilai tukar, dibandingkan hanya 50 dalam pertukaran tidak langsung. Untuk ekonomi yang terdiri dari 100 barang, angka ini meningkat menjadi 4950. Hubungan kuadratik seperti itu menambahkan batasan tambahan pada skalabilitas pertukaran langsung (barter).
 
 Lebih lanjut, karena pertukaran ini tidak terjadi secara instan tetapi tersebar sepanjang waktu, mengevaluasi kontribusi sepanjang waktu semakin mempersulit penilaian relatif kontribusi. Selain menilai rasio pertukaran antara dua barang saat ini, menjadi perlu untuk mengevaluasi nilai kontribusi masa lalu relatif terhadap lawannya di masa depan.
 
@@ -282,9 +290,11 @@ Dalam hal ini, uang, dengan memungkinkan penyimpanan nilai di masa sekarang dan 
 Pada bab selanjutnya kita akan menggali konsep preferensi waktu dan menjelaskan perspektif Austria tentang bunga dan modal, yang akan menjadi dasar untuk bab selanjutnya tentang Teori Siklus Bisnis.
 
 ## Preferensi Waktu, Bunga, dan Modal
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Preferensi Waktu
+
 Kami mengakhiri bab terakhir dengan menjelaskan bagaimana agen ekonomi menggunakan barang yang paling mudah dijual, yaitu uang, untuk menghindari ketidakpastian di masa depan. Kami juga menjelaskan bahwa sifat berurutan dari fenomena temporal membuat kita menghadapi ketidakpastian secara bertahap: hanya ketika kita tahu bahwa keberlangsungan hidup kita akan terjamin untuk minggu depan, kita dapat berkonsentrasi pada tujuan yang lebih jauh di masa depan.
 Atau, untuk mengatakannya dengan cara lain: sebagai manusia, kita mendiskontokan nilai dari barang di masa depan.
 
@@ -349,16 +359,18 @@ Ini sempurna diilustrasikan oleh grafik di bawah ini: suku bunga jangka panjang 
 Ini adalah apa yang akan kita temukan di bab berikutnya yang didedikasikan untuk Teori Siklus Bisnis Austria!
 
 # Perspektif Ekonomi Austria
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Teori Siklus Bisnis Austria
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > “Semakin lama ledakan kredit bank inflasioner berlanjut, semakin besar lingkup malinvestasi dalam barang modal, dan semakin besar kebutuhan untuk melikuidasi investasi yang tidak sehat ini. Ketika ekspansi kredit berhenti, berbalik, atau bahkan melambat secara signifikan, malinvestasi tersebut terungkap”
 >
 > Ludwig von Mises
-Ludwig Von Mises, murid terbaik Böhm-Bawerk dan mungkin ekonom Austria paling penting abad ke-20, menggunakan penalaran kapital Böhm-Bawerk untuk menjelaskan penyebab dan dinamika siklus ekonomi. Friedrich A. Hayek, protege Mises, kemudian memperluas penalaran ini ke kesimpulan logisnya dalam karya-karya yang membuatnya dianugerahi Hadiah Nobel dalam Ekonomi pada tahun 1974.
-Mises dan Hayek memulai analisis mereka dengan peningkatan tabungan sebagai titik awal. Seperti yang telah kita lihat dalam bab-bab sebelumnya, setiap peningkatan dalam tabungan selalu melibatkan penurunan yang sesuai dalam konsumsi dan dengan demikian harga relatif barang konsumsi yang lebih rendah. Ini mengarah pada dua efek: pertama, peningkatan permintaan terhadap barang modal yang disebabkan oleh kenaikan upah riil yang berasal dari penurunan harga relatif barang konsumsi; dan kedua, peningkatan keuntungan wirausaha pada tahap produksi yang paling jauh dari konsumsi (urutan lebih rendah). Seiring naiknya upah riil, wirausaha termotivasi untuk menghemat tenaga kerja dengan menggunakan lebih banyak barang modal, yang menciptakan permintaan yang lebih kuat untuk barang modal dan keuntungan yang lebih tinggi bagi wirausaha yang memproduksi barang urutan lebih rendah ini. Jadi, dalam konteks peningkatan tabungan, yaitu penurunan preferensi waktu, suku bunga turun, mendorong pengembangan tahapan produksi tambahan dan peningkatan produktivitas. Ini adalah detour produksi klasik Böhm-Bawerkian, dan ini adalah hasil yang sangat diinginkan.
+> Ludwig Von Mises, murid terbaik Böhm-Bawerk dan mungkin ekonom Austria paling penting abad ke-20, menggunakan penalaran kapital Böhm-Bawerk untuk menjelaskan penyebab dan dinamika siklus ekonomi. Friedrich A. Hayek, protege Mises, kemudian memperluas penalaran ini ke kesimpulan logisnya dalam karya-karya yang membuatnya dianugerahi Hadiah Nobel dalam Ekonomi pada tahun 1974.
+> Mises dan Hayek memulai analisis mereka dengan peningkatan tabungan sebagai titik awal. Seperti yang telah kita lihat dalam bab-bab sebelumnya, setiap peningkatan dalam tabungan selalu melibatkan penurunan yang sesuai dalam konsumsi dan dengan demikian harga relatif barang konsumsi yang lebih rendah. Ini mengarah pada dua efek: pertama, peningkatan permintaan terhadap barang modal yang disebabkan oleh kenaikan upah riil yang berasal dari penurunan harga relatif barang konsumsi; dan kedua, peningkatan keuntungan wirausaha pada tahap produksi yang paling jauh dari konsumsi (urutan lebih rendah). Seiring naiknya upah riil, wirausaha termotivasi untuk menghemat tenaga kerja dengan menggunakan lebih banyak barang modal, yang menciptakan permintaan yang lebih kuat untuk barang modal dan keuntungan yang lebih tinggi bagi wirausaha yang memproduksi barang urutan lebih rendah ini. Jadi, dalam konteks peningkatan tabungan, yaitu penurunan preferensi waktu, suku bunga turun, mendorong pengembangan tahapan produksi tambahan dan peningkatan produktivitas. Ini adalah detour produksi klasik Böhm-Bawerkian, dan ini adalah hasil yang sangat diinginkan.
 
 Namun, kedua ekonom Austria tersebut mempertanyakan apa yang akan terjadi jika penurunan suku bunga, yang menjadi titik awal untuk detour produksi ini, tidak berasal dari peningkatan tabungan tetapi sebaliknya dari ekspansi kredit.
 
@@ -421,6 +433,7 @@ Lebih dari sekolah ekonomi lainnya, Sekolah Austria menekankan pentingnya harga 
 Ini akan menjadi subjek dari bab terakhir dan terakhir dari kursus ini.
 
 ## Ketidakmungkinan Perhitungan Ekonomi di bawah Sosialisme
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > “Di mana tidak ada harga pasar untuk faktor-faktor produksi karena mereka tidak dibeli atau dijual, mustahil untuk menggunakan perhitungan dalam merencanakan tindakan masa depan dan dalam menentukan hasil dari tindakan masa lalu. Manajemen sosialis dari produksi hanya tidak akan tahu apakah apa yang direncanakan dan dilaksanakan adalah cara yang paling tepat untuk mencapai tujuan yang dicari. Ini akan beroperasi dalam kegelapan, seolah-olah. Ini akan menyia-nyiakan faktor-faktor produksi yang langka baik material maupun manusia (tenaga kerja). Kekacauan dan kemiskinan untuk semua akan tak terhindarkan terjadi”
@@ -466,6 +479,7 @@ Seseorang bisa berargumen bahwa melukis panorama seperti itu secara retrospektif
 Meskipun ramalan yang mengesankan dan banyak demonstrasi empiris tentang ketidakmungkinan perhitungan ekonomi di bawah sosialisme, para pemimpin politik di seluruh dunia lebih bersemangat dari sebelumnya untuk menetapkan harga, menasionalisasi seluruh industri, dan mengusulkan rencana lima tahun, seringkali diapresiasi oleh populasi yang secara ekonomi tidak terinformasi. Konsekuensi dari intervensionisme semacam itu dirasakan secara akut oleh orang-orang di negara-negara Barat yang dulunya makmur yang perlahan menyaksikan penurunan standar hidup mereka.
 
 ### Teori Siklus Bisnis Austria sebagai Kasus Khusus dari Ketidakmungkinan Perhitungan Ekonomi di bawah Sosialisme
+
 Pada bab sebelumnya, kami telah menjelaskan dinamika overinvestasi dan salah alokasi modal yang diakibatkan oleh manipulasi suku bunga oleh bank sentral. Pada dasarnya, apa yang kami jelaskan dapat dilihat sebagai kasus spesifik dari ketidakmungkinan perhitungan ekonomi di bawah sosialisme, yang diterapkan pada ranah pasar uang. Ketika harga ditetapkan di luar nilai pasar mereka, para pengusaha dan pengalokasi modal didorong untuk terlibat dalam investasi yang tidak dapat dipertahankan dalam jangka panjang karena kurangnya tabungan. Dengan mengganggu sistem harga, perencana pusat (dalam hal ini, bankir sentral) menciptakan ketidakkoordinasian antara agen ekonomi. Dalam contoh ini, ketidakkoordinasian antarwaktu melibatkan overinvestasi pada barang investasi tingkat tinggi dan underinvestasi pada barang investasi tingkat rendah, yang merupakan manifestasi spesifik dari salah alokasi modal lintas industri.
 
 Konsekuensi dari salah alokasi tersebut meliputi krisis keuangan dan ekonomi, penurunan aktivitas ekonomi, dan deflasi utang. Efek makroekonomi ini berasal dari ketidakseimbangan antara tabungan dan investasi yang dihasilkan dari ekspansi kredit. Di USSR dan rezim komunis lainnya, penetapan harga menyebabkan ketidakkoordinasian serupa, mengakibatkan kekurangan beberapa barang dan overproduksi barang lainnya. Dalam kedua kasus, harga gagal mencerminkan preferensi sejati konsumen, baik dalam hal preferensi waktu atau preferensi konsumsi, menyebabkan pengusaha atau perencana pusat yang bertanggung jawab atas alokasi sumber daya menginvestasikan modal di "industri yang salah."
@@ -474,7 +488,7 @@ Hari ini, debat perhitungan ekonomi muncul kembali terutama dalam diskusi tentan
 
 Untuk aplikasi konkret dari masalah perhitungan ekonomi pada situasi kontemporer, Anda dapat merujuk ke artikel ini yang menangani masalah alokasi sumber daya di China modern.
 
->   Jalan Menuju Represi Keuangan: China Harimau Kertas, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> Jalan Menuju Represi Keuangan: China Harimau Kertas, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Kesimpulan
 
@@ -482,7 +496,9 @@ Dalam bab final ini, kami telah menjelajahi ketidakmungkinan perhitungan ekonomi
 
 Ekonom mainstream dan perencana pusat sering tidak menyukai ekonom Austria karena mereka menyoroti ketidakpastian masa depan, kesalahan prediksi ekonomi kuantitatif, dan efek merugikan dari intervensi ekonomi. Singkatnya, ekonomi Austria menekankan ketidakefektifan dan konsekuensi merugikan dari tindakan intervensionis.
 Tradisi Austria mencerminkan pendekatan yang rendah hati terhadap tindakan manusia, mengambil implikasi mendalam dari konsep nilai subjektif, ketidakpastian, kehendak bebas, dan kompleksitas. Ini menjelaskan bagaimana tatanan pasar, meskipun bukan produk desain manusia, berdiri sebagai institusi sentral untuk pengembangan dan kemakmuran kita. Jika ada satu hal penting yang diambil dari kursus ini, itu adalah kapitalisme menjadi sistem ekonomi dominan karena kemampuannya untuk beradaptasi dengan perubahan dalam dunia yang dinamis dan tidak pasti yang dihuni oleh individu bebas.
+
 ## Metodologi Austria
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Sekolah ekonomi Austria membedakan dirinya dari sekolah lain dengan metodologi aksiomatik-deduktifnya, yang berbeda dari pendekatan positivis yang sering digunakan dalam ilmu sosial. Pendekatan positivis didasarkan pada hukum yang ditetapkan dari data empiris, mengadopsi metode serupa dengan ilmu fisika. Ini merumuskan hipotesis dari observasi, yang kemudian dikonfirmasi atau dibantah oleh eksperimen sementara. Metode ilmiah terdiri dari mempertahankan hipotesis yang paling baik menjelaskan data dan terus menjelajahinya sampai hipotesis yang lebih tepat ditemukan.
@@ -503,19 +519,21 @@ Penting untuk dicatat bahwa cherry-picking, yang melibatkan pemilihan data secar
 Metodologi adalah aspek penting dalam ekonomi dan dalam ilmu sosial pada umumnya. Ini mempengaruhi bagaimana pertanyaan diajukan, hipotesis dirumuskan, dan data ditafsirkan. Memahami perbedaan metodologis antara sekolah pemikiran ekonomi dapat membantu kita menghargai perspektif yang beragam dan mengembangkan opini kita sendiri tentang topik yang dibahas dalam episode sebelumnya.
 
 # Kesimpulan
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-
 ## Evaluasi kursus ini
+
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Ujian Akhir
+
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-
 ## Studi Lanjutan
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Selamat telah menyelesaikan kursus ECON 201 ini! Saya sungguh berharap Anda menikmatinya dan membuka pintu untuk diri Anda sendiri. Penemuan Anda tentang Bitcoin baru saja dimulai, dan saya mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di universitas.
@@ -534,20 +552,55 @@ Selain bacaan ini, Anda juga dapat menemukan informasi tentang ekonomi Austria d
 
 Dengan membaca karya-karya ini dan menjelajahi sumber daya online ini, Anda dapat mengembangkan pemahaman yang lebih dalam tentang prinsip dan ide kunci dari sekolah ekonomi Austria.
 
-### Dukung Kami
+# Kesimpulan
 
-Kursus ini, serta seluruh konten di universitas ini, telah ditawarkan kepada Anda secara gratis oleh komunitas kami. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui GitHub. Atas nama seluruh tim, terima kasih!
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
 
-### Nilai Kursus (segera hadir)
-Sistem penilaian untuk kursus ini akan segera diintegrasikan ke dalam platform E-learning baru ini! Sementara itu, terima kasih banyak telah mengikuti kursus ini, dan jika Anda menikmatinya, mohon pertimbangkan untuk membagikannya kepada orang lain. (segera hadir)
-Jika Anda ingin terus mendalami topik ekonomi Austria, saya sarankan beberapa wawancara dengan Théo Mogenet:
+## Evaluasi kursus ini
 
-- [Bagaimana cara mempersiapkan diri untuk krisis ekonomi berikutnya?](https://youtu.be/GJT8t1TEd7Q)
-- [Bagaimana bisa penghancuran euro diartikulasikan?](https://youtu.be/eK3ONo11HN8)
-- [Hyper-bitcoinization: apakah kita bisa berjalan di standar BTC?](https://youtu.be/nkN2twZ-lJY)
-  Jika Anda masih ingin lebih, Anda dapat menonton diskusi ini tentang situasi makroekonomi dan topik-topik lainnya:
-- [Bagaimana cara menghancurkan Bitcoin?](https://youtu.be/gHKvj4eeiDg)
-- [Apakah Bitcoin itu kanan, kiri, atau anarkis?](https://youtu.be/4fXGxzLtIIw)
-- [Untuk menyelamatkan planet, tinggalkan dolar dan euro](https://youtu.be/iHagDlH4bf8)
-- [Mengapa kenaikan suku bunga tidak mungkin?](https://youtu.be/iHagDlH4bf8)
-Selain itu, lanjutkan pembelajaran Anda dengan pelatihan dan tutorial lain dari universitas!
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Ujian akhir
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kesimpulan
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+Selamat atas penyelesaian kursus ini!
+
+Kami senang Anda telah mencapai tonggak penting ini dalam perjalanan pembelajaran Anda.
+
+Berkat dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional.
+
+Untuk terus menjelajahi alam semesta Bitcoin secara mendalam, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
+
+#### Temukan kehidupan F. Bastiat dengan
+
+https://planb.network/courses/eco102
+
+#### Pahami munculnya hiperinflasi dengan
+
+https://planb.network/courses/eco204
+
+#### Temukan Bitcoin dan dasar-dasarnya dengan
+
+https://planb.network/courses/btc101
+
+#### Perbarui keamanan online Anda dengan
+
+https://planb.network/courses/scu101
+
+#### Temukan Lightning Network dengan
+
+https://planb.network/courses/lnp201
+
+#### Pelajari cara membuat komunitas Bitcoin Anda dengan
+
+https://planb.network/courses/btc302
+
+#### Pahami cara kerja dompet Bitcoin dengan
+
+https://planb.network/courses/cyp201

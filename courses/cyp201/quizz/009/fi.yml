@@ -1,9 +1,9 @@
-question: Mikä on SHA256-tiivistefunktion rakenteen nimi?
-answer: Merkle-Damgårdin rakenne.
+question: Mikä rakenne on käytössä SHA256 ssa käsittelemään mielivaltaisen pituisia viestejä?
+answer: Merkle-Damgårdin rakenne
 wrong_answers:
-  - Sponge-rakenne.
-  - Iteratiivisten tiivistefunktioiden rakenne (HAIFA).
-  - Feistel-rakenne.
+  - Euklidinen rakenne
+  - Rivest-Shamir-Adlemanin rakenne
+  - Knuth-Morris-Prattin rakenne
 explanation: |
-  SHA256 käyttää Merkle-Damgårdin rakennetta, joka on yleisesti käytetty rakenne turvallisten tiivistefunktioiden luomiseen.
+  Merkle-Damgårdin rakenne mahdollistaa tiivistysfunktion muuntamisen hajautusfunktioksi muuttuvan pituisille viesteille.
 reviewed: false

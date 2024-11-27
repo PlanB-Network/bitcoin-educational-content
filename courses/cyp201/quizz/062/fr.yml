@@ -1,9 +1,9 @@
-question: Pour effectuer une dérivation d'une paire de clés enfant normale, je dois mettre en entrée de la fonction HMAC-SHA512...
-answer: clé publique parent || index, code de chaîne parent.
+question: Que permet de dériver une clé publique étendue ?
+answer: Les clés publiques enfants uniquement normales
 wrong_answers:
-  - clé privée parent || index, code de chaîne parent.
-  - clé privée parent, code de chaîne parent.
-  - clé privée parent || index.
+  - Les clés privées enfants uniquement normales
+  - Les clés publiques enfants endurcies et normales
+  - Les clés privées enfants endurcies et normales
 explanation: |
-  Pour dériver une clé enfant normale, la clé publique parent est utilisée avec l'index et le code de chaîne dans la fonction HMAC-SHA512.
+  Une clé publique étendue permet uniquement de dériver des clés publiques enfants normales, pas de clés privées ni de clés endurcies.
 reviewed: false

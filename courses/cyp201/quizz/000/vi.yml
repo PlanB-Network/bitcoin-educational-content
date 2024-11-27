@@ -1,9 +1,9 @@
-question: Mục tiêu của quá trình băm mật mã là gì?
-answer: Ánh xạ một chuỗi bit có độ dài tùy ý thành một chuỗi bit có độ dài cố định.
+question: Chức năng chính của hàm băm là gì?
+answer: Nó chuyển đổi thông tin có độ dài tùy ý thành một dấu vân tay cố định
 wrong_answers:
-  - Mã hóa một thông điệp.
-  - Đảm bảo rằng người gửi thông điệp không thể phủ nhận việc đã gửi thông điệp trong tương lai.
-  - Bảo đảm tính bảo mật của dữ liệu.
+  - Nó mã hóa tin nhắn để làm cho chúng không thể đọc được
+  - Nó chỉ được sử dụng để xác minh tính toàn vẹn của phần mềm Bitcoin
+  - Nó tạo ra khóa riêng cho ví Bitcoin
 explanation: |
-  Băm biến đổi dữ liệu có kích thước bất kỳ thành đầu ra có kích thước cố định, hữu ích cho việc xác minh tính toàn vẹn mà không nhất thiết phải mã hóa hoặc xác thực dữ liệu.
+  Hàm băm biến đổi dữ liệu có kích thước bất kỳ thành một băm cố định, rất quan trọng cho nhiều ứng dụng trong Bitcoin.
 reviewed: false

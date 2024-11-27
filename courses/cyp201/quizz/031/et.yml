@@ -1,8 +1,8 @@
-question: Kuidas määratakse võtmepaarid hierarhilises deterministlikus (HD) rahakotis?
-answer: Kõik rahakoti võtmepaarid määratakse deterministlikul ja hierarhilisel viisil unikaalsest informatsioonist, mis asub rahakoti alusel.
+question: Milline modifikaatorit saab kombineerida põhiliste sighash lippudega?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Kõik rahakoti võtmepaarid määratakse sõltumatult teistest, juhuslikult, kasutades juhuarvugeneraatorit.
-  - Iga võtmepaar rahakotis määratakse deterministlikult eelmisest võtmepaarist.
-  - Kõik võtmepaarid on juhuslikud ja ilma hierarhilise seoseta.
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  HD rahakottides tuletatakse kõik võtmed unikaalsest informatsioonist, mida nimetatakse seemneks, mis võimaldab võtmete hierarhilist ja deterministlikku haldamist.
+  SIGHASH_ANYONECANPAY modifitseerib sighash lippe nii, et need katab ainult ühte sisendit, jättes ülejäänud muudetavaks.

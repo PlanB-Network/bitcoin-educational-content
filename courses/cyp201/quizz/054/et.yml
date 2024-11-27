@@ -1,8 +1,8 @@
-question: Selleks, et arvutada põhi võtme ja põhi ahelakoodi väärtused, on HMAC-SHA512 funktsiooni esimene sisend seeme. Mis on selle funktsiooni teine sisendväärtus, mis toimib võtmena?
-answer: Bitcoin seed.
+question: Mis on peamine roll fraasiparoolil Bitcoin HD rahakotis?
+answer: Muuta võtme tuletamist turvalisuse suurendamiseks
 wrong_answers:
-  - Mnemooniline fraas.
-  - Paroolilause.
-  - Seeme.
+  - Dekrüpteerida ootel tehinguid
+  - Genereerida rahakoti UTXOsid
+  - Kaitsta rahakoti ligipääsu näotuvastusega
 explanation: |
-  Sõne Bitcoin seed kasutatakse võtmena HMAC-SHA512-s, et tuletada seemnest põhi võti ja põhi ahelakood.
+  Fraasiparool toimib teise turvafaktorina, muutes võtme tuletamise seemet, et vältida ligipääsu rahakotile juhul, kui mnemooniline fraas on kompromiteeritud.

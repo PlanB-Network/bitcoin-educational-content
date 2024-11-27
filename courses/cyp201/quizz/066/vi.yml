@@ -1,8 +1,8 @@
-question: Trong ký hiệu của một đường dẫn phái sinh, dấu nháy đơn hoặc chữ H được ghi ở bên phải của số có ý nghĩa gì? Ví dụ m/84'/0'.
-answer: Nó chỉ ra một phái sinh cứng.
+question: Phần nào của kết quả HMAC-SHA512 được sử dụng làm mã chuỗi con?
+answer: 32 byte cuối
 wrong_answers:
-  - Nó chỉ ra một phái sinh bình thường.
-  - Nó được đặt ở đó cho mục đích trang trí.
-  - Nó chỉ ra một khóa thay đổi.
+  - 32 byte đầu tiên
+  - Toàn bộ 64 byte
+  - Băm SHA256 của 32 byte giữa
 explanation: |
-  Dấu nháy đơn hoặc H trong một đường dẫn phái sinh chỉ ra một phái sinh cứng, sử dụng khóa riêng của cha mẹ và phạm vi chỉ số tương ứng.
+  32 byte cuối của kết quả HMAC-SHA512 được sử dụng làm mã chuỗi cho khóa con.

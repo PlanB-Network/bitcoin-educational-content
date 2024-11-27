@@ -1,8 +1,8 @@
-question: 在比特币中，我们在PBKDF2函数中使用多少次迭代？
-answer: 2048。
+question: SHA512在HMAC中使用的块大小是多少？
+answer: 128字节
 wrong_answers:
-  - 512。
-  - 1000。
-  - 21000。
-explanation:
-  比特币在PBKDF2函数中使用2048次迭代来增强种子的安全性。
+  - 64字节
+  - 256字节
+  - 1024字节
+explanation: |
+  SHA512使用128字节的块进行其计算，这等同于1024位。

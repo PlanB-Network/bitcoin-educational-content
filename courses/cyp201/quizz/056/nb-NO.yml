@@ -1,8 +1,8 @@
-question: Hva er formålet med den utvidede nøkkelen?
-answer: Å samle all nødvendig informasjon for å utlede barne-nøkler i en enkelt streng.
+question: Hvilken konstant brukes til å utlede hovedprivatnøkkelen fra frøet?
+answer: Bitcoin Seed
 wrong_answers:
-  - Å samle all nødvendig informasjon for å rekonstruere en hel HD-lommebok i en enkelt streng.
-  - Å samle informasjon om UTXOene i lommeboken.
-  - Å samle den mnemoniske frasen og passfrasen i et enkelt format.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  En utvidet nøkkel tillater at all nødvendig informasjon for å utlede barne-nøkler kan inneholdes, noe som forenkler håndteringen av kontoer i en HD-lommebok.
+  Konstanten Bitcoin Seed brukes som en nøkkel i HMAC-SHA512-funksjonen for å utlede hovedprivatnøkkelen og hovedkjedekoden.

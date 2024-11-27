@@ -1,9 +1,8 @@
-question: Mục đích của chuỗi bên ngoài trong quá trình phái sinh là gì?
-answer: Để cô lập các địa chỉ dự định công khai.
+question: Ràng buộc để suy ra khóa công khai con từ khóa công khai cha là gì?
+answer: Khóa con phải là bình thường
 wrong_answers:
-  - Để cô lập các địa chỉ thay đổi.
-  - Để quản lý các giao dịch đến.
-  - Để tách biệt khóa riêng từ khóa công khai.
+  - Khóa con phải được cứng hóa
+  - Mã chuỗi phải giống hệt với khóa cha
+  - Quá trình phải bao gồm khóa riêng tư của cha
 explanation: |
-  Chuỗi bên ngoài được sử dụng để phái sinh các địa chỉ dự định công khai, như những địa chỉ dùng để nhận thanh toán.
-reviewed: false
+  Một khóa công khai con chỉ có thể được suy ra từ một khóa công khai cha nếu nó là bình thường, không phải cứng hóa.

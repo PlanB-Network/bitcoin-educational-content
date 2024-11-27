@@ -1,9 +1,9 @@
-question: Jaký je rozsah indexů používaný pro normální dětské klíče v HD peněžence?
-answer: Mezi 0 a 2^31 - 1.
+question: Jaká je hlavní funkce rozšířeného klíče v HD peněžence?
+answer: Umožnit odvození dceřiných klíčů
 wrong_answers:
-  - Mezi 0 a 2^32 - 1.
-  - Mezi 0 a 2^31.
-  - Mezi 2^31 a 2^32 - 1.
+  - Uchovávat transakce peněženky
+  - Přímo generovat UTXO
+  - Šifrovat veřejné klíče
 explanation: |
-  Normální dětské klíče používají rozsah indexů mezi 0 a 2^31 - 1, zatímco zpevněné klíče mají index začínající od 2^31.
+  Rozšířený klíč kombinuje klíč (buď soukromý nebo veřejný) s přidruženým řetězcovým kódem, tj. dvěma prvky nezbytnými pro odvození dceřiných klíčů.
 reviewed: false

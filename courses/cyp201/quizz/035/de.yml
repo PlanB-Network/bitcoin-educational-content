@@ -1,9 +1,9 @@
-question: Was sind die grundlegenden Informationen, die es ermöglichen, eine gute mnemonische Phrase für ein HD-Wallet zu bestimmen?
-answer: Eine externe Entropie, die es ermöglicht, eine zufällige oder pseudo-zufällige Zahl zu bestimmen.
+question: Welcher Bitcoin-Standard führt hierarchisch deterministische Wallets ein?
+answer: BIP32
 wrong_answers:
-  - Der Vorname des Wallet-Besitzers.
-  - Keine Informationen, wir wählen direkt die Wörter, die uns gefallen.
-  - Das Erstellungsdatum des Wallets.
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  Die mnemonische Phrase wird von einer Entropiequelle abgeleitet, was bedeutet, dass sie auf zufälligen oder pseudo-zufälligen Informationen basiert, um die Sicherheit der privaten Schlüssel zu gewährleisten.
+  BIP32 definiert den Betrieb von HD-Wallets, die eine hierarchische Ableitung von privaten Schlüsseln aus einem Seed ermöglichen.
 reviewed: false

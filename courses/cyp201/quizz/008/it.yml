@@ -1,9 +1,9 @@
-question: Quante iterazioni comprende la funzione di compressione SHA256?
-answer: 64 iterazioni.
+question: Perché SHA256 applica un preprocessamento al messaggio di input?
+answer: Per garantire una lunghezza multipla di 512 bit
 wrong_answers:
-  - 10 iterazioni.
-  - 128 iterazioni.
-  - 150 iterazioni.
+  - Per verificare l'integrità del messaggio
+  - Per criptare i dati prima dell'hashing
+  - Per aumentare la dimensione degli hash generati
 explanation: |
-  La funzione di compressione SHA256 esegue 64 iterazioni per ogni blocco di dati elaborato.
+  Il preprocessamento regola la lunghezza del messaggio aggiungendo bit di riempimento e una rappresentazione binaria della sua lunghezza.
 reviewed: false

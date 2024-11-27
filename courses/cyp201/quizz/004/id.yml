@@ -1,9 +1,8 @@
-question: Dalam protokol Bitcoin, apa itu HASH256?
-answer: Sebuah hash SHA256 ganda.
+question: Kombinasi fungsi hash apa yang digunakan untuk menghasilkan sidik jari yang lebih pendek di Bitcoin?
+answer: HASH160
 wrong_answers:
-  - Sebuah hash Keccak-256 ganda.
-  - Sebuah hash SHA256 diikuti oleh hash RIPEMD160.
-  - Sebuah hash SHA256 tunggal.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Sebuah HASH256 adalah hash SHA256 ganda, yang berarti fungsi SHA256 diterapkan sekali pada sepotong data, kemudian untuk kedua kalinya pada hasil dari yang pertama.
-reviewed: false
+  HASH160 menggabungkan SHA256 dan RIPEMD160 untuk menghasilkan sidik jari 160-bit, terutama untuk alamat Bitcoin.

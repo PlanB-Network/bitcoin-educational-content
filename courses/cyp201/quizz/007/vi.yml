@@ -1,11 +1,9 @@
-question: Các giá trị của 8 vector khởi tạo của hàm SHA256 tương ứng với cái gì?
-
-answer: 64 bit đầu tiên của phần thập phân của căn bậc ba của 8 số nguyên tố đầu tiên.
-
+question: Sự khác biệt chính giữa các thao tác ShR và RotR là gì?
+answer: ShR dịch chuyển các bit bằng cách thêm số không, RotR chèn lại các bit đã dịch chuyển
 wrong_answers:
-  - Các số thập phân của Pi.
-  - 32 bit đầu tiên của phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên.
-  - 64 bit đầu tiên của phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên.
-
-explanation:
-  Các vector khởi tạo của SHA256 dựa trên 64 bit đầu tiên của phần thập phân của căn bậc ba của 8 số nguyên tố đầu tiên.
+  - ShR loại bỏ các bit đã dịch chuyển, RotR nhân giá trị của chúng
+  - ShR dịch chuyển sang trái, RotR dịch chuyển sang phải
+  - ShR là một thao tác logic, RotR là thao tác số học
+explanation: |
+  ShR dịch chuyển các bit sang phải bằng cách thêm số không, trong khi RotR thực hiện một phép quay vòng của các bit.
+reviewed: false

@@ -132,7 +132,6 @@ Pokud byste chtěli podrobněji prozkoumat historii Bitcoinu, důrazně doporuč
 
 https://planb.network/courses/his201
 
-
 # Peníze
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -252,7 +251,6 @@ Pokud se chcete dozvědět více o ekonomických klamech a svobodě, zvu vás k 
 
 https://planb.network/courses/eco102
 
-
 ## Hyperinflace
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -336,7 +334,6 @@ Závěrem, hyperinflace má za následek rychlé snižování hodnoty měny, co�
 Pro hlubší porozumění tématu hyperinflací doporučuji kurz ECO 204 od Davida St-Onge. Zde se dozvíte, co jsou hyperinflační cykly a jaké jsou jejich skutečné dopady na naše životy. Objevíte také podobnosti mezi těmito cykly a hlavně to, jak se před nimi chránit:
 
 https://planb.network/courses/eco204
-
 
 ## 21 milionů bitcoinů
 
@@ -496,7 +493,6 @@ Pokud během vaší cesty králičí norou budete chtít vědět více o tvorbě
 
 https://planb.network/courses/cyp201
 
-
 ## Bezpečnost a Bitcoinové peněženky
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -538,7 +534,6 @@ https://planb.network/tutorials/wallet/satochip
 
 https://planb.network/tutorials/wallet/tapsigner
 
-
 ![obrázek](assets/en/chapter6/4.webp)
 
 - **Úroveň 3**, používáte peněženku úrovně 1 nebo 2, ale s dodatečnou heslovou frází. Buďte si vědomi, že nyní potřebujete zálohovat jak seznam 12 nebo 24 slov, **tak** vaši heslovou frázi. Ideálně jsou tyto dvě informace uloženy na dvou různých místech.
@@ -546,7 +541,6 @@ https://planb.network/tutorials/wallet/tapsigner
 Pro více informací o použití a fungování přístupové fráze BIP39:
 
 https://planb.network/tutorials/wallet/passphrase
-
 
 ![obrázek](assets/en/chapter6/5.webp)
 
@@ -1055,7 +1049,6 @@ https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
 
 https://planb.network/courses/btc305
 
-
 ### Rychlé shrnutí na plakátu!
 
 ![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
@@ -1228,7 +1221,6 @@ Pokud chcete jít dál než jen tuto úvodní část a pochopit všechny detaily
 
 https://planb.network/courses/lnp201
 
-
 ## Případové studie Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1327,43 +1319,17 @@ Bitcoin je přijímán různými skupinami lidí, od kryptografů po libertariá
 Bitcoin již nelze zastavit ani cenzurovat. Jedná se o mírumilovnou revoluci, která má změnit měnový systém a umožnit finanční inkluzi. Uživatelé mohou získat bitcoiny přijetím za své obchody nebo jejich nákupem prostřednictvím regulovaných či neregulovaných platforem. Bitcoiny lze uchovávat v peněženkách, mobilních aplikacích nebo fyzických zařízeních. Bitcoin nepotřebuje důvěryhodného prostředníka, zastává transparentnost, svobodu a individuální zodpovědnost - jak praví přísloví "Nevěř, ověřuj".
 Změna finančního systému vyžaduje změnu měny. Satoshi vytvořil Bitcoin v roce 2008 jako pokus o toto. Přístup k snadným a "magickým" penězům korumpuje. Bitcoin je tedy alternativou k vytvoření nového neutrálního měnového systému. Bitcoin umožňuje osvobození od bankovního systému. Jedná se o sociální fenomén, který nás vede k účasti na mírumilovné revoluci. Jste připraveni se přidat?
 
-## Poděkování a pokračujte v prozkoumávání králičí nory
+# Závěr
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Jděte dál
-
-Gratulujeme k dokončení tohoto kurzu BTC 101! Doufám, že se vám líbil a otevřel vám nové dveře. Vaše objevování bitcoinu teprve začíná a zvu vás, abyste prozkoumali všechny ostatní kurzy dostupné na PlanB Network.
-
-Pro nastavení vašeho Bitcoin plánu:
-
-https://planb.network/courses/btc102
-
-Pro objevování Lightning Network, platební sítě druhé vrstvy:
-
-https://planb.network/courses/lnp201
-
-Pro seznámení s rakouskou ekonomikou:
-
-https://planb.network/courses/eco201
-
-Pro aktualizaci vaší digitální bezpečnosti:
-
-https://planb.network/courses/scu101
-
-Pro více informací o těžbě:
-
-https://planb.network/courses/min201
-
-a mnoho dalšího...
-
-
-## Ohodnoťte kurz
+## Hodnocení kurzu
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1371,6 +1337,24 @@ a mnoho dalšího...
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Gratulujeme k dokončení tohoto kurzu!**
+Gratulujeme k dokončení školení BTC 101! Upřímně doufám, že se vám líbilo a otevřelo vám nové možnosti. Vaše objevování Bitcoinu teprve začíná a zvu vás k prozkoumání všech ostatních kurzů dostupných na Plan ₿ Network:
 
-Vezměte prosím na vědomí, že tato kapitola je momentálně ve výstavbě a vylepšená verze bude brzy k dispozici. Mezitím, pokud se těšíte na pokračování své Bitcoin cesty, zveme vás k prozkoumání dalších kurzů a výukových programů dostupných na naší platformě. Pokračujte v dobré práci a přejeme příjemné učení!
+#### Získejte a zabezpečte své první bitcoiny s
+
+https://planb.network/courses/btc102
+
+#### Objevte Lightning Network s
+
+https://planb.network/courses/lnp201
+
+#### Seznamte se s rakouskou školou ekonomického myšlení s
+
+https://planb.network/courses/eco201
+
+#### Aktualizujte svou online bezpečnost s
+
+https://planb.network/courses/scu101
+
+#### Pochopte základy Bitcoinu a postavte si domácí vytápění s
+
+https://planb.network/courses/min201

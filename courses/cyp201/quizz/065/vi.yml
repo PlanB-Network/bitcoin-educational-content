@@ -1,9 +1,9 @@
-question: Trong đường dẫn phái sinh ví HD, độ sâu 0 tương ứng với gì?
-answer: Khóa chính.
+question: Sự khác biệt giữa khóa con bình thường và khóa con cứng là gì?
+answer: Khóa con cứng yêu cầu khóa riêng tư của cha mẹ để từ đó phát sinh.
 wrong_answers:
-  - Khóa mở rộng.
-  - Các địa chỉ nhận.
-  - Loại tiền tệ.
-explanation: |
-  Độ sâu 0 trong đường dẫn phái sinh tương ứng với khóa chính, đây là điểm xuất phát cho tất cả các phái sinh trong một ví HD.
+  - Khóa con bình thường không thể phát sinh từ khóa công khai.
+  - Khóa con cứng sử dụng chỉ số lẻ.
+  - Khóa con bình thường an toàn hơn khóa con cứng.
+explanation:
+  Khóa con bình thường có thể được phát sinh từ khóa công khai của cha mẹ, không giống như khóa con cứng yêu cầu khóa riêng tư của cha mẹ.
 reviewed: false

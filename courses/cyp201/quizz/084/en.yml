@@ -1,0 +1,9 @@
+question: What is the primary role of a Bitcoin address in a transaction?
+answer: Lock UTXOs in the scriptPubKey
+wrong_answers:
+  - Unlock the UTXOs in the scriptSig
+  - Signal the end of the transaction
+  - Identify the confirmation block
+explanation: |
+  A Bitcoin address is embedded in the scriptPubKey to lock the UTXOs. It determines the necessary conditions to unlock the funds.
+reviewed: false

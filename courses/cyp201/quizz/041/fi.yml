@@ -1,9 +1,8 @@
-question: Jos generoin 128-bittisen satunnaisluvun, kuinka monta sanaa palautusfraasini tulee olemaan?
-answer: 12 sanaa.
+question: Mikä on suurin riski käyttää huonosti suunniteltua PRNG tä entropian tuottamiseen?
+answer: Hyökkääjä voisi arvata yksityiset avaimet
 wrong_answers:
-  - 6 sanaa.
-  - 8 sanaa.
-  - 24 sanaa.
+  - Mnemoninen lause voisi sisältää vääriä sanoja
+  - Digitaaliset allekirjoitukset muuttuisivat mitättömiksi
+  - Bitcoin-osoitteet eivät olisi yhteensopivia verkon kanssa
 explanation: |
-  128-bittinen satunnaisluku vastaa 12 sanan muistisanaista fraasia, noudattaen BIP39-standardia.
-reviewed: false
+  Huonosti suunniteltu PRNG voi tuottaa ennustettavia sekvenssejä, mikä tekee avaimista haavoittuvampia hyökkäyksille.

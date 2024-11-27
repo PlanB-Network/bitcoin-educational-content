@@ -1,8 +1,9 @@
-question: Missä numerojärjestelmässä laajennettu avain yleensä koodataan esitettäväksi käyttäjälle?
-answer: Base 58; ssa.
+question: Mikä on siemenen rooli Bitcoin HD-lompakossa?
+answer: Toimia kaikkien avainten johdannan lähtökohtana
 wrong_answers:
-  - bech32: ssa.
-  - Base 16: ssa.
-  - bech32m: ssä.
+  - Tallentaa lompakon tapahtumat
+  - Luoda suoraan pääjulkinen avain
+  - Varmistaa tapahtumien luottamuksellisuuden
 explanation: |
-  Laajennettu avain koodataan yleensä Base 58: aan, jotta se olisi käyttäjälle luettavampi ja vältettäisiin epäselvät merkit.
+  Siemen on 512-bittinen sekvenssi, joka on johdettu muistilauseesta ja salasanasta. Se muodostaa perustan kaikille lompakon avaimille.
+reviewed: false

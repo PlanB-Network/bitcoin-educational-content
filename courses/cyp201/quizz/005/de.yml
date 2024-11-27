@@ -1,9 +1,9 @@
-question: Welche Größe muss die Eingabe der SHA256-Funktion haben, nachdem sie aufgefüllt wurde?
-answer: Ein Vielfaches von 512 Bits.
+question: Warum ist die Irreversibilität bei SHA256 gewährleistet?
+answer: Die verwendeten Operationen entfernen Informationen und sind einseitig
 wrong_answers:
-  - Von 256 Bits.
-  - Von 256 Bytes.
-  - Ein Vielfaches von 256 Bits.
+  - Nachrichten werden vor dem Hashen verschlüsselt
+  - Bits werden zufällig neu angeordnet
+  - Jeder Hash wird in einer Datenbank gespeichert
 explanation: |
-  Die SHA256-Funktion erfordert, dass die Eingabe nach dem Auffüllen ein Vielfaches von 512 Bits beträgt, um korrekt zu funktionieren.
+  Operationen wie ShR und XOR machen es unmöglich, zum Ausgangszustand zurückzukehren, und gewährleisten so die Irreversibilität.
 reviewed: false

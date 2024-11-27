@@ -1,8 +1,9 @@
-question: Was ist das BIP (Bitcoin Improvement Proposal), das die erste Version eines HD-Wallets bei Bitcoin vorgeschlagen hat?
-answer: BIP32.
+question: Welches Sighash-Flag ermöglicht Crowdfunding, indem es eine einzelne Eingabe und alle Ausgaben abdeckt?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32, vorgeschlagen im Jahr 2012, ist das erste, das das Konzept von hierarchisch deterministischen (HD) Wallets in Bitcoin eingeführt hat.
+  SIGHASH_ALL in Kombination mit SIGHASH_ANYONECANPAY ermöglicht das Hinzufügen von Eingaben, ohne die Ausgaben zu verändern.
+reviewed: false

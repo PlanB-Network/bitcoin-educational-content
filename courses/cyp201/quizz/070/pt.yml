@@ -1,9 +1,9 @@
-question: O que é um endereço de recebimento (geralmente)?
-answer: Um hash de uma chave pública com metadados inseridos em um formato específico.
+question: O que a profundidade 0 representa na hierarquia das carteiras HD?
+answer: A chave mestre e o código de cadeia mestre
 wrong_answers:
-  - Um hash de uma chave privada com metadados inseridos em um formato específico.
-  - Um hash de uma chave estendida com metadados inseridos em um formato específico.
-  - Um hash de um código de cadeia com metadados.
+  - A cadeia externa de endereços
+  - A conta padrão
+  - O tipo de moeda
 explanation: |
-  Um endereço de recebimento é geralmente um hash de uma chave pública associada a metadados, usado em um scriptPubKey para estabelecer condições.
+  A profundidade 0 corresponde à chave mestre e ao código de cadeia mestre, que são os pontos de partida para todas as derivações em uma carteira HD.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est le rôle technique principal d'un portefeuille Bitcoin ?
-answer: Conserver des paires de clés cryptographiques.
+question: À quoi sert SIGHASH_SINGLE ?
+answer: Couvrir un input et son output correspondant
 wrong_answers:
-  - Conserver des bitcoins.
-  - Conserver des UTXOs.
-  - Conserver des transactions.
+  - Couvrir tous les inputs et outputs
+  - Couvrir uniquement les inputs
+  - Couvrir tous les outputs sauf un
 explanation: |
-  Un portefeuille Bitcoin ne conserve pas directement des bitcoins, mais des paires de clés cryptographiques qui permettent de gérer et de dépenser des UTXOs.
+  SIGHASH_SINGLE couvre un seul input et un seul output correspondant à l'index de l'input signé, laissant le reste modifiable.
 reviewed: false

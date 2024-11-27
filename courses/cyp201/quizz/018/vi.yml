@@ -1,8 +1,9 @@
-question: Khóa riêng được lưu trữ ở đâu?
-answer: Trong ví Bitcoin
+question: Tại sao đường cong elliptic secp256r1 không được sử dụng trong Bitcoin?
+answer: Có khả năng để tránh một cửa hậu
 wrong_answers:
-  - Trên blockchain
-  - Trên máy chủ của cộng đồng Bitcoin.
-  - Trên mạng ngang hàng.
+  - Bởi vì nó quá chậm
+  - Bởi vì nó không được chuẩn hóa
+  - Bởi vì nó yêu cầu phần cứng chuyên biệt
 explanation: |
-  Ví chứa các khóa riêng cần thiết để truy cập vào bitcoin.
+  Satoshi Nakamoto có lẽ đã ưu tiên sử dụng đường cong secp256k1, vì các tham số của secp256r1 có thể chứa một lỗ hổng ẩn.
+reviewed: false

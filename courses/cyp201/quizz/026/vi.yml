@@ -1,9 +1,8 @@
-question: Tại sao việc không bao giờ tái sử dụng một nonce trong thuật toán ECDSA lại quan trọng?
-answer: Tái sử dụng nonce làm lộ lộ thông tin khóa riêng và gây nguy hại cho bảo mật.
+question: Điểm bắt đầu để tính toán chữ ký ECDSA là gì?
+answer: Băm của thông điệp
 wrong_answers:
-  - Tái sử dụng nonce làm giảm hiệu suất.
-  - Tái sử dụng nonce làm cho chữ ký dài hơn.
-  - Tái sử dụng nonce tăng kích thước của khóa công khai.
+  - Khóa công khai
+  - Một nonce cố định
+  - Một đường cong elliptic tùy chỉnh
 explanation: |
-  Tái sử dụng nonce trong ECDSA có thể cho phép kẻ tấn công khám phá khóa riêng, làm tổn hại đến bảo mật.
-reviewed: false
+  Một chữ ký ECDSA bắt đầu bằng việc tính toán băm của thông điệp cần được ký, thường sử dụng SHA256.

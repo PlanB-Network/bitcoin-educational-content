@@ -1,9 +1,9 @@
-question: Was ist die Variable, die es ermöglicht, Geschwister-Schlüsselpaare voneinander zu unterscheiden (die dasselbe Elternpaar haben)?
-answer: Der Index.
+question: Wie groß ist die Gesamtgröße eines erweiterten Schlüssels mit Prüfsumme?
+answer: 82 Bytes
 wrong_answers:
-  - Das kryptografische Salz.
-  - Der Vorname.
-  - Der Eltern-Chain-Code.
+  - 78 Bytes
+  - 64 Bytes
+  - 128 Bytes
 explanation: |
-  Der Index wird verwendet, um Geschwister-Schlüsselpaare, die vom selben Elternpaar in einer HD-Wallet abgeleitet wurden, voneinander zu unterscheiden.
+  Ein erweiterter Schlüssel ist ohne die Prüfsumme 78 Bytes groß und mit der Prüfsumme inbegriffen 82 Bytes.
 reviewed: false

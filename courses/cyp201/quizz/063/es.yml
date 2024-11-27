@@ -1,9 +1,9 @@
-question: ¿Cuáles son los dos tipos de derivación de claves secundarias en una cartera HD?
-answer: Derivación normal y derivación reforzada.
+question: ¿Qué información no se incluye en una clave extendida?
+answer: El historial de transacciones de la clave
 wrong_answers:
-  - Derivación simple y derivación compleja.
-  - Derivación elíptica y derivación de curva.
-  - Derivación estática y derivación dinámica.
+  - El número de índice de la clave
+  - La clave (privada o pública)
+  - El código de cadena
 explanation: |
-  Los dos tipos de derivación son la derivación normal, que utiliza la clave pública del padre, y la derivación reforzada, que utiliza la clave privada del padre.
+  Una clave extendida contiene solo la información necesaria para derivar claves secundarias, no información relacionada con transacciones.
 reviewed: false

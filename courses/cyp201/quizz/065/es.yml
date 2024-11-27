@@ -1,8 +1,9 @@
-question: En las rutas de derivación de carteras HD, ¿a qué corresponde la profundidad 0?
-answer: La llave maestra.
+question: ¿Cuál es la diferencia entre una clave de hijo normal y una clave de hijo endurecida?
+answer: Una clave de hijo endurecida requiere la clave privada del padre para su derivación.
 wrong_answers:
-  - La llave extendida.
-  - Las direcciones de recepción.
-  - El tipo de moneda.
+  - Una clave de hijo normal no puede derivarse de claves públicas.
+  - Una clave de hijo endurecida usa un índice impar.
+  - Una clave de hijo normal es más segura que una clave de hijo endurecida.
 explanation: |
-  La profundidad 0 en las rutas de derivación corresponde a la llave maestra, que es el punto de partida para todas las derivaciones en una cartera HD.
+  Una clave de hijo normal puede derivarse de la clave pública del padre, a diferencia de una clave de hijo endurecida que requiere la clave privada del padre.
+reviewed: false

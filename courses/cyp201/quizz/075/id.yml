@@ -1,9 +1,8 @@
-question: Bagaimana cara mengompres kunci publik?
-answer: Kita menyimpan nilai koordinat x-nya dan menambahkan prefiks untuk menunjukkan koordinat y mana yang harus dipilih.
+question: Jalur derivasi apa yang digunakan untuk akun SegWit v0 dalam deskriptor standar?
+answer: 84h/0h/0h
 wrong_answers:
-  - Kita menyimpan nilai koordinat y-nya dan menambahkan prefiks untuk menunjukkan koordinat x mana yang harus dipilih.
-  - Kita meng-hash kunci publik untuk mengompresnya.
-  - Kita menggunakan hash SHA256 ganda untuk mengompres kunci publik.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  Pengompresan kunci publik dilakukan dengan menyimpan koordinat x dan menambahkan prefiks 0x02 atau 0x03 untuk menunjukkan apakah y genap atau ganjil.
-reviewed: false
+  Jalur 84h/0h/0h didefinisikan dalam BIP84 untuk sebuah akun yang mendapatkan alamat SegWit v0 dengan P2WPKH.

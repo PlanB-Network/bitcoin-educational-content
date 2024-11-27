@@ -1,8 +1,8 @@
-question: Kui järgitakse BIP39 standardit, mis on HD rahakoti seemne suurus?
-answer: 512 bitti.
+question: Mis on hea tava paroolilause turvamiseks?
+answer: Salvestage see füüsilisel kandjal, mis on eraldi mnemoonilisest fraasist
 wrong_answers:
-  - 32 baiti.
-  - 1024 bitti.
-  - 512 baiti.
+  - Jätke see ainult meelde, ilma seda üles märkimata
+  - Salvestage see samale füüsilisele kandjale kui mnemooniline fraas
+  - Salvestage see digitaalsel kandjal nagu Google Drive
 explanation: |
-  BIP39 standardi kohaselt on HD rahakoti seemne suurus 512 bitti, mis on tuletatud mnemoonilisest fraasist ja paroolist.
+  Paroolilause tuleb füüsiliselt salvestada ja hoida eraldi mnemoonilisest fraasist, et vältida mõlema samaaegset vargust.

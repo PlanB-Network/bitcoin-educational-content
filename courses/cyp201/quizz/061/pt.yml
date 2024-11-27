@@ -1,8 +1,8 @@
-question: Qual é a variável que permite diferenciar pares de chaves irmãs entre si (que têm o mesmo par pai)?
-answer: O índice.
+question: Qual é o tamanho total de uma chave estendida com o checksum?
+answer: 82 bytes
 wrong_answers:
-  - O sal criptográfico.
-  - O primeiro nome.
-  - O código da cadeia pai.
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
 explanation: |
-  O índice é usado para diferenciar pares de chaves irmãs derivados do mesmo par pai em uma carteira HD.
+  Uma chave estendida tem 78 bytes sem o checksum e 82 bytes com o checksum incluído.

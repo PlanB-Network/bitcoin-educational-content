@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'une adresse de réception (généralement) ?
-answer: Un hash d'une clé publique avec des métadonnées mis dans un format spécifique.
+question: Que représente la profondeur 0 dans la hiérarchie des portefeuilles HD ?
+answer: La clé maîtresse et le code de chaîne maître
 wrong_answers:
-  - Un hash d'une clé privée avec des métadonnées mis dans un format spécifique.
-  - Un hash d'une clé étendue avec des métadonnées mis dans un format spécifique.
-  - Un hash d'un code de chaîne avec des métadonnées.
+  - La chaîne externe des adresses
+  - Le compte par défaut
+  - Le type de devise
 explanation: |
-  Une adresse de réception est généralement un hash d'une clé publique associé à des métadonnées, utilisées dans un scriptPubKey pour établir des conditions.
+  La profondeur 0 correspond à la clé maîtresse et au code de chaîne maître, point de départ de toutes les dérivations dans un portefeuille HD.
 reviewed: false

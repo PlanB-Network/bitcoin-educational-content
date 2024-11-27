@@ -1,9 +1,9 @@
-question: Co znamená prefix 0x?
-answer: Číslo následující po tomto prefixu je vyjádřeno v soustavě se základem 16 (hexadecimální).
+question: Jaká je hlavní role PBKDF2 v Bitcoinu?
+answer: Generování seedu HD peněženky
 wrong_answers:
-  - Číslo následující po tomto prefixu je vyjádřeno v soustavě se základem 2 (binární).
-  - Číslo následující po tomto prefixu je vyjádřeno v soustavě se základem 10 (decimální).
-  - Číslo následující po tomto prefixu je vyjádřeno v soustavě se základem 8 (oktální).
+  - Autentizace transakcí
+  - Šifrování soukromých klíčů
+  - Vytváření Bitcoinových adres
 explanation: |
-  Prefix 0x naznačuje, že číslo následující po něm je vyjádřeno v soustavě se základem 16 (hexadecimální).
+  PBKDF2 se používá k odvození seedu z mnemonické fráze a volitelného hesla.
 reviewed: false

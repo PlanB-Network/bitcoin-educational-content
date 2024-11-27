@@ -1,9 +1,9 @@
-question: Kuidas konstrueerida taastefraasi (mnemoonik) binaarkoodis?
-answer: Ühenda juhuslik number selle kontrollsummaga lõpus.
+question: Mis on entroopia krüptograafia kontekstis?
+answer: Ettearvamatuse mõõt, mis on seotud juhusliku protsessiga
 wrong_answers:
-  - Ühenda juhuslik number selle kontrollsummaga alguses.
-  - Ühenda juhuslik number seemnega.
-  - Jaga juhuslik number kaheks osaks ja sisesta kontrollsumma keskele.
+  - Meetod tundlike andmete krüpteerimiseks
+  - Algoritm avalike võtmete arvutamiseks
+  - Andmete kokkusurumise tehnika
 explanation: |
-  Binaarse mnemoonilise fraasi genereerimiseks ühenda kontrollsumma juhusliku numbri lõppu enne sõnadeks teisendamist.
+  Krüptograafias kvantifitseerib entroopia ebakindluse või kaose taset juhuslikus allikas, mis on oluline turvaliste võtmete genereerimiseks.
 reviewed: false

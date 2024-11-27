@@ -1,9 +1,9 @@
-question: Kuidas arvutatakse SegWit aadressi kontrollsummat?
-answer: BCH koodi abil.
+question: Millele vastab kirjeldajas notatsioon /<0;1>/*?
+answer: Välimisele ja sisemisele ahelale järjestikuse tuletamisega
 wrong_answers:
-  - HASH160 abil.
-  - HASH256 abil.
-  - SHA512 abil.
+  - Sorteeritud multisignatuuri aadressile
+  - Tuletamisteede kontrollsummale
+  - Kindlustatud tuletamisteele
 explanation: |
-  SegWit aadresside puhul arvutatakse kontrollsumma kasutades BCH koodi, mis võimaldab tuvastada võimalikke vigu aadressis.
+  Notatsioon /<0;1>/* näitab, et kirjeldaja suudab genereerida aadresse välimisele (0) ja sisemisele (1) ahelale, kasutades järjestikust tuletamist tänu metamärgile (*).
 reviewed: false

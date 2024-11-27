@@ -1,9 +1,8 @@
-question: Miks on oluline kasutada hea entroopia allikat privaatvõtmete genereerimiseks?
-answer: Kehv entroopia võib muuta privaatvõtmed ettearvatavaks ja rünnakutele haavatavaks.
+question: Mis on JBOK rahakottide peamine piirang?
+answer: Iga privaatvõtme jaoks on vajalik eraldi varukoopia
 wrong_answers:
-  - Hea entroopia aitab optimeerida rahakoti jõudlust.
-  - Entroopial ei ole rolli privaatvõtmete turvalisuses.
-  - Kehv entroopia aeglustab tehinguid.
+  - Need ei võimalda uute aadresside genereerimist
+  - Need ei ühildu digitaalallkirjadega
+  - Need kasutavad tihendamata avalikke võtmeid
 explanation: |
-  Kui privaatvõtmete genereerimiseks kasutatav entroopia on madal, võib see võimaldada ründajal neid võtmeid ära arvata või välja arvutada, ohustades rahakoti turvalisust.
-reviewed: false
+  JBOK rahakotid sunnivad kasutajat iga privaatvõtit eraldi varundama, muutes nende haldamise keerukamaks.

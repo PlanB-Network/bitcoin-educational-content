@@ -1,9 +1,9 @@
-question: Jaké jsou souřadnice generátorového bodu G používaného na eliptické křivce secp256k1?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Jaká je velikost surového soukromého klíče používaného u Bitcoinu?
+answer: 256 bitů
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bitů
+  - 512 bitů
+  - 1024 bitů
 explanation: |
-  Generátorový bod G je předem definovaný bod na eliptické křivce secp256k1, používaný k generování veřejných klíčů z privátních klíčů v Bitcoinu.
+  Soukromý klíč v Bitcoinu je 256bitové náhodné celé číslo, což zajišťuje dostatečně velký prostor klíčů pro zaručení bezpečnosti.
 reviewed: false

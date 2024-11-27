@@ -1,8 +1,9 @@
-question: Hvor lagres private nøkler?
-answer: I Bitcoin-lommebøker
+question: Hvorfor ble ikke elliptisk kurve secp256r1 brukt i Bitcoin?
+answer: Potensielt for å unngå en bakdør
 wrong_answers:
-  - På blokkjeden
-  - På Bitcoin-samfunnets servere.
-  - På det jevnaldrende nettverket.
+  - Fordi den er for treg
+  - Fordi den ikke er standardisert
+  - Fordi den krever spesialisert maskinvare
 explanation: |
-  Lommeboken inneholder de private nøklene som er nødvendige for å få tilgang til bitcoins.
+  Satoshi Nakamoto foretrakk sannsynligvis secp256k1-kurven, ettersom parameterne til secp256r1 kunne inneholde en skjult sårbarhet.
+reviewed: false

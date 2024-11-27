@@ -1,9 +1,9 @@
-question: Con đường dẫn sau đây chỉ ra điều gì? m/44'/0'/0'/0/0
-answer: Một địa chỉ Legacy bên ngoài trên mainnet.
+question: Vai trò chính của mã chuỗi trong việc tạo ra các khóa con là gì?
+answer: Giới thiệu một nguồn entropy bổ sung
 wrong_answers:
-  - Một địa chỉ SegwitV1 bên ngoài trên mainnet.
-  - Một địa chỉ Legacy bên trong trên testnet.
-  - Một địa chỉ SegwitV0 bên ngoài trên mainnet.
+  - Xác định độ sâu phân cấp
+  - Lưu trữ các chỉ số của các khóa con
+  - Đảm bảo tính tương thích với giao thức Bitcoin
 explanation: |
-  Con đường dẫn m/44'/0'/0'/0/0 chỉ ra một địa chỉ Legacy bên ngoài trên mạng chính (mainnet). 44' = Legacy, 0' = mainnet, 0 = bên ngoài
+  Mã chuỗi được sử dụng để giới thiệu một nguồn entropy bổ sung và độc đáo cho mỗi khóa được tạo ra.
 reviewed: false

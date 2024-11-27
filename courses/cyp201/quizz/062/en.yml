@@ -1,9 +1,9 @@
-question: To perform a derivation of a normal child key pair, I must input into the HMAC-SHA512 function...
-answer: parent public key || index, parent chain code.
+question: What does an extended public key allow to derive?
+answer: Only normal child public keys
 wrong_answers:
-  - parent private key || index, parent chain code.
-  - parent private key, parent chain code.
-  - parent private key || index.
+  - Only normal child private keys
+  - Both hardened and normal child public keys
+  - Both hardened and normal child private keys
 explanation: |
-  To derive a normal child key, the parent public key is used with the index and the chain code in the HMAC-SHA512 function.
+  An extended public key only allows the derivation of normal child public keys, not private keys or hardened keys.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Quale funzione viene utilizzata per derivare una chiave figlia da una chiave genitore in Bitcoin?
-answer: HMAC-SHA512.
+question: Qual è il numero di iterazioni utilizzato da PBKDF2 in Bitcoin?
+answer: 2048
 wrong_answers:
-  - SHA256.
-  - MD5.
-  - BLAKE2.
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  La funzione HMAC-SHA512 viene utilizzata per derivare chiavi figlie da chiavi genitore nei portafogli HD di Bitcoin.
+  PBKDF2 ripete il processo HMAC-SHA512 2048 volte per migliorare la sicurezza.
 reviewed: false

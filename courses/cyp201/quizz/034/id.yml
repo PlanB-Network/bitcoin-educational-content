@@ -1,8 +1,8 @@
-question: Apa itu dompet JBOK dalam konteks Bitcoin?
-answer: Dompet yang mengelompokkan bersama kunci privat yang ditentukan secara acak, tanpa ada hubungan antara mereka.
+question: Tanda sighash apa yang paling sering digunakan dalam transaksi Bitcoin?
+answer: SIGHASH_ALL
 wrong_answers:
-  - Dompet yang menghasilkan kunci secara hierarkis dari satu benih.
-  - Dompet yang menghasilkan kunci dari kunci sebelumnya.
-  - Dompet yang hanya menggunakan frasa mnemonik untuk menghasilkan kunci.
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  Dompet JBOK (Just a Bunch Of Keys) berisi kunci privat yang dihasilkan secara acak dan independen satu sama lain, tidak seperti dompet HD.
+  SIGHASH_ALL adalah tanda sighash default, yang mencakup semua input dan output dari sebuah transaksi, mencegah segala modifikasi.

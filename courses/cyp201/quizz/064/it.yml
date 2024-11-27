@@ -1,9 +1,9 @@
-question: Qual è l'intervallo di indici utilizzato per le chiavi figlio normali in un portafoglio HD?
-answer: Tra 0 e 2^31 - 1.
+question: Qual è la funzione principale di una chiave estesa in un portafoglio HD?
+answer: Consentire la derivazione di chiavi figlie
 wrong_answers:
-  - Tra 0 e 2^32 - 1.
-  - Tra 0 e 2^31.
-  - Tra 2^31 e 2^32 - 1.
+  - Memorizzare le transazioni del portafoglio
+  - Generare direttamente gli UTXO
+  - Crittografare le chiavi pubbliche
 explanation: |
-  Le chiavi figlio normali utilizzano un intervallo di indici tra 0 e 2^31 - 1, mentre le chiavi rinforzate hanno un indice che inizia da 2^31.
-reviewed: false
+  Una chiave estesa combina una chiave (privata o pubblica) con un codice catena associato, ovvero i due elementi necessari per derivare chiavi figlie.
+recensito: false

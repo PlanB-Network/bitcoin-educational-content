@@ -1,9 +1,8 @@
-question: Berapa banyak putaran yang dilakukan oleh fungsi kompresi SHA256?
-answer: 64 putaran.
+question: Mengapa SHA256 menerapkan pra-pemrosesan pada pesan masukan?
+answer: Untuk memastikan panjang kelipatan dari 512 bit
 wrong_answers:
-  - 10 putaran.
-  - 128 putaran.
-  - 150 putaran.
+  - Untuk memverifikasi integritas pesan
+  - Untuk mengenkripsi data sebelum di-hash
+  - Untuk meningkatkan ukuran hash yang dihasilkan
 explanation: |
-  Fungsi kompresi SHA256 melakukan 64 putaran untuk setiap blok data yang diproses.
-reviewed: false
+  Pra-pemrosesan menyesuaikan panjang pesan dengan menambahkan bit padding dan representasi biner dari panjangnya.

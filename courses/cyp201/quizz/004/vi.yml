@@ -1,9 +1,8 @@
-question: Trong giao thức Bitcoin, HASH256 là gì?
-answer: Một băm SHA256 kép.
+question: Kết hợp các hàm băm nào được sử dụng để tạo ra dấu vân tay ngắn hơn trong Bitcoin?
+answer: HASH160
 wrong_answers:
-  - Một băm Keccak-256 kép.
-  - Một băm SHA256 theo sau là một băm RIPEMD160.
-  - Một băm SHA256 đơn.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Một HASH256 là một băm SHA256 kép, nghĩa là hàm SHA256 được áp dụng một lần cho một mảnh dữ liệu, sau đó một lần nữa áp dụng cho kết quả của lần đầu.
-reviewed: false
+  HASH160 kết hợp SHA256 và RIPEMD160 để tạo ra dấu vân tay 160-bit, đặc biệt là cho địa chỉ Bitcoin.

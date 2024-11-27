@@ -1,11 +1,8 @@
-question: Payload của một khóa mở rộng bao gồm những gì?
-
-answer: Một khóa công khai hoặc khóa riêng tư, và mã chuỗi liên kết tương ứng.
-
+question: Đầu ra của hàm HMAC-SHA512 khi áp dụng vào seed được chia thành bao nhiêu phần?
+answer: Hai phần, mỗi phần 256 bit
 wrong_answers:
-  - Một khóa riêng tư và khóa công khai tương ứng.
-  - Một mã chuỗi, một khóa công khai, và một khóa riêng tư.
-  - Một khóa riêng tư và chỉ số phái sinh.
-
-explanation:
-  Payload của một khóa mở rộng bao gồm một khóa công khai hoặc khóa riêng tư, cùng với một mã chuỗi được sử dụng để phái sinh các khóa con.
+  - Một phần duy nhất 512 bit
+  - Ba phần, mỗi phần 170 bit
+  - Bốn phần, mỗi phần 128 bit
+explanation: |
+  Đầu ra của HMAC-SHA512 được chia thành hai phần: khóa riêng tư chính (256 bit) và mã chuỗi chính (256 bit).

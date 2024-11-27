@@ -1,8 +1,9 @@
-question: Hva representerer passfrasen i en HD-lommebok?
-answer: En valgfri kryptografisk salt av vilkårlig størrelse.
+question: Hvilken hash-funksjon brukes for å beregne sjekksummen av en mnemonic frase?
+answer: SHA256
 wrong_answers:
-  - Et 25. ord i den mnemoniske frasen.
-  - En obligatorisk kryptografisk salt av fast størrelse.
-  - Et sekundært frø.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  Passfrasen er en valgfri kryptografisk salt, som forbedrer sikkerheten til lommeboken ved å legge til ekstra informasjon til den mnemoniske frasen for å bestemme frøet.
+  Sjekksummen av en mnemonic frase beregnes ved å anvende en enkel SHA256 hash på entropien.
+reviewed: false

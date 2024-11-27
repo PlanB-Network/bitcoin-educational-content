@@ -1,8 +1,8 @@
-question: Bitcoinのデジタル署名アルゴリズムに使用される楕円曲線の名前は何ですか？
-answer: secp256k1。
+question: BitcoinでUTXOをロックするために使用されるキーのタイプは何ですか？
+answer: 公開キー
 wrong_answers:
-  - secp256r1。
-  - secp160k1。
-  - secp521r1。
+  - 私的キー
+  - シードハッシュ
+  - ニーモニックフレーズ
 explanation: |
-  secp256k1曲線は、Bitcoinプロトコルでデジタル署名に使用されます。
+  UTXOは公開キーまたはそのハッシュでロックされ、対応する秘密キーでアンロックされます。

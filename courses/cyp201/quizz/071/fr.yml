@@ -1,0 +1,9 @@
+question: Quelle profondeur dans le chemin de dérivation spécifie le type de devise ?
+answer: Profondeur 2
+wrong_answers:
+  - Profondeur 1
+  - Profondeur 3
+  - Profondeur 4
+explanation: |
+  La profondeur 2 est utilisée pour identifier la devise dans les portefeuilles multi-devises, comme Bitcoin (index 0') ou Litecoin (index 2').
+reviewed: false

@@ -1,9 +1,8 @@
-question: Kuinka tiivistää julkinen avain?
-answer: Säilytämme sen x-koordinaatin arvon ja lisäämme etuliitteen, joka osoittaa, kumman y-koordinaatin valitsemme.
+question: Mikä johdannaispolku käytetään SegWit v0 -tilille standardissa kuvauksessa?
+answer: 84h/0h/0h
 wrong_answers:
-  - Säilytämme sen y-koordinaatin arvon ja lisäämme etuliitteen, joka osoittaa, kumman x-koordinaatin valitsemme.
-  - Tiivistämme julkisen avaimen hash-funktiolla.
-  - Käytämme kaksinkertaista SHA256-hashia julkisen avaimen tiivistämiseen.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  Julkisen avaimen tiivistäminen tehdään säilyttämällä x-koordinaatti ja lisäämällä etuliite 0x02 tai 0x03 osoittamaan, onko y parillinen vai pariton.
-reviewed: false
+  Polku 84h/0h/0h on määritelty BIP84: ssä tilille, joka johtaa SegWit v0 -osoitteita P2WPKH n kanssa.

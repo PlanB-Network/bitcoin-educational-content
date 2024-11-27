@@ -1,9 +1,9 @@
-question: What is the size of a Bitcoin private key?
-answer: 256 bits.
+question: What is the main characteristic of scalar multiplication on elliptic curves?
+answer: One-way function
 wrong_answers:
-  - 512 bytes.
-  - 520 bits.
-  - 512 bits.
+  - Easily reversible
+  - Based on the factorization of prime numbers
+  - Very long to calculate
 explanation: |
-  The Bitcoin private key has a standard size of 256 bits, corresponding to the elliptic curve algorithm used in Bitcoin.
+  Scalar multiplication on elliptic curves is a one-way function, making it impossible to retrieve the private key from the public key.
 reviewed: false

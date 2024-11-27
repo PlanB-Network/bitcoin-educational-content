@@ -1,9 +1,8 @@
-question: Các hàm băm nào được sử dụng trong giao thức Bitcoin?
-answer: SHA-256, RIPEMD-160
+question: Tính chất nào của hàm băm được thể hiện qua việc thay đổi nhỏ trong thông điệp dẫn đến sự thay đổi hoàn toàn trong giá trị băm?
+answer: Hiệu ứng tuyết lở
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - Khả năng chống va chạm
+  - Khả năng chống tìm kiếm hình ảnh thứ hai
+  - Độ dài
 explanation: |
-  Trong Bitcoin, SHA-256 và RIPEMD-160 được sử dụng.
-reviewed: false
+  Một thay đổi nhỏ trong đầu vào dẫn đến sự thay đổi rõ rệt trong giá trị băm, đây chính là hiệu ứng tuyết lở.

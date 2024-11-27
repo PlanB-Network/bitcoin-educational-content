@@ -1,9 +1,9 @@
-question: What is the name of the elliptical curve used for digital signature algorithms in Bitcoin?
-answer: secp256k1.
+question: What type of key is used to lock UTXOs on Bitcoin?
+answer: Public key
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Private key
+  - Seed hash
+  - Mnemonic phrase
 explanation: |
-  The secp256k1 curve is used in the Bitcoin protocol for digital signatures.
+  UTXOs are locked with a public key or its hash, and unlocked with the corresponding private key.
 reviewed: false

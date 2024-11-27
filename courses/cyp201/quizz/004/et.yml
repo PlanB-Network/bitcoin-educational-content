@@ -1,9 +1,9 @@
-question: Bitcoin'i protokolli raames, mis on HASH256?
-answer: Kahekordne SHA256 räsi.
+question: Millist räsi funktsioonide kombinatsiooni kasutatakse Bitcoinis lühemate sõrmejälgede genereerimiseks?
+answer: HASH160
 wrong_answers:
-  - Kahekordne Keccak-256 räsi.
-  - SHA256 räsi, millele järgneb RIPEMD160 räsi.
-  - Üksik SHA256 räsi.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  HASH256 on kahekordne SHA256 räsi, mis tähendab, et SHA256 funktsiooni rakendatakse üks kord andmetükile, seejärel teist korda esimese tulemusele.
+  HASH160 ühendab SHA256 ja RIPEMD160, et genereerida 160-bitiseid sõrmejälgi, mida kasutatakse eelkõige Bitcoin aadresside jaoks.
 reviewed: false

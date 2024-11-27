@@ -1,9 +1,9 @@
-question: Jaký je účel externího řetězce v procesu derivace?
-answer: Izolovat adresy určené k veřejnému použití.
+question: Jaké je omezení pro odvození dětského veřejného klíče z rodičovského veřejného klíče?
+answer: Dětský klíč musí být normální
 wrong_answers:
-  - Izolovat adresy pro vrácení peněz.
-  - Spravovat příchozí transakce.
-  - Oddělit soukromé klíče od veřejných klíčů.
+  - Dětský klíč musí být zpevněný
+  - Řetězový kód musí být identický s kódem rodičovského klíče
+  - Proces musí zahrnovat soukromý klíč rodiče
 explanation: |
-  Externí řetězec se používá k derivaci adres určených k veřejnému použití, jako jsou ty pro přijímání plateb.
+  Dětský veřejný klíč lze odvodit z rodičovského veřejného klíče pouze pokud je normální, nikoli zpevněný.
 reviewed: false

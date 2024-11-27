@@ -1,6 +1,5 @@
 ---
 name: Elysium Wallet
-
 description: Setup and how to use an Elysium Wallet
 ---
 
@@ -13,6 +12,7 @@ That's right: it is no longer strictly necessary to use a Seed Phrase to regain 
 This simplification could accelerate the spread of Bitcoin around the world.
 
 ## How to Open an Account?
+
 Download the Elysium Wallet App from the Apple Store or Google Play.
 Open the Elysium Wallet app that you downloaded on your device.
 Tap on "Create a new wallet".
@@ -59,6 +59,7 @@ Unfortunately, if you have only set up two factors and forget one, there is no r
 We strongly recommend setting up all three factors from the beginning for maximum security and flexibility.
 
 ## How to receive a transaction?
+
 Step 1: Open the Elysium app and go to the main menu. Tap 'Receive'.
 
 ![receive1](assets/receive1.webp)
@@ -66,6 +67,7 @@ Step 1: Open the Elysium app and go to the main menu. Tap 'Receive'.
 Now, select the chain you want to receive payment on (Bitcoin or Polygon) and you can simply share the QR code of your Elysium wallet with the person who needs to pay you, they will take care of the rest.
 
 ## How to Receive a Transaction in Lightning Network?
+
 STEP 1: By tapping “Request Payment” you request a Bitcoin payment via Lightning Network.
 
 ![requestpayment1](asset/requestpayment1)
@@ -77,6 +79,7 @@ Step 2: Enter the amount you want to request, select the currency you want to re
 Note: There is a small fee for the first Lightning Network (LN) payment to open the LN channel. After that, all subsequent payments are free.
 
 ## How to send a transaction?
+
 STEP 1: Go to the main menu and tap "Send".
 ![send1](assets/send1.webp)
 
@@ -98,6 +101,7 @@ For BTC transactions, you can select your preferred network speed and fees (as s
 Your transaction has been submitted! You can easily check your Elysium Wallet's updated balance and transaction status.
 
 ## How to send a transaction in Lightning Network (LN)?
+
 STEP 1: Tap "Scan" to open the scanner.
 STEP 2: Scan the LN QR code for payment.
 STEP3: Review the payment details and confirm everything is correct.
@@ -106,6 +110,7 @@ STEP4: Tap "Confirm" to complete the transaction.
 ![paymentLN1](assets/paymentLN1.webp)
 
 ## How to see the Seed Phrase?
+
 Go to the main menu and tap "Hub". Select Settings and tap "Extract private key".
 
 ![extract1](assets/extract1.webp)
@@ -118,6 +123,7 @@ The seed phrase will be displayed in 24-word format.
 Don't share it with anyone!
 
 ## How to contact support?
+
 Need help with Elysium Wallet? We're here to help!
 
 Download the App.

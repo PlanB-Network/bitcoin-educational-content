@@ -1,9 +1,9 @@
-question: Quali informazioni vengono calcolate dal seed applicando HMAC-SHA512?
-answer: La chiave principale e il codice catena principale del portafoglio.
+question: Cosa succede se si perde la passphrase associata al proprio portafoglio HD?
+answer: Si perde l'accesso ai bitcoin collegati a quel portafoglio
 wrong_answers:
-  - La chiave estesa del portafoglio.
-  - L'xpub e l'xprv del portafoglio.
-  - Il codice di firma della chiave privata.
+  - È comunque possibile accedere al portafoglio solo con la frase mnemonica
+  - È possibile reimpostare la passphrase contattando l'assistenza di Bitcoin
+  - Si perdono solo le transazioni non confermate
 explanation: |
-  Dal seed, HMAC-SHA512 deriva la chiave principale e il codice catena principale, che sono la base per la generazione delle chiavi.
-reviewed: false
+  La passphrase è un componente essenziale nella derivazione delle chiavi. Senza di essa, è impossibile ricreare le chiavi e quindi accedere ai bitcoin.
+recensito: false

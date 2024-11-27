@@ -1,9 +1,9 @@
-question: Qual è la principale differenza tra un PRNG e un TRNG?
-answer: Un PRNG è deterministico, mentre un TRNG produce numeri veramente casuali.
+question: Perché non è consigliato riutilizzare un indirizzo Bitcoin?
+answer: Facilita il tracciamento delle transazioni da parte di terzi
 wrong_answers:
-  - Un TRNG è più veloce di un PRNG.
-  - Un TRNG utilizza un seme, mentre un PRNG non utilizza alcun seme.
-  - Un PRNG è hardware, mentre un TRNG è software.
+  - Rivela la chiave privata a causa del nonce
+  - Rende le transazioni più costose
+  - Invalida le firme digitali
 explanation: |
-  Un TRNG (True Random Number Generator) genera numeri casuali a partire da un fenomeno fisico casuale, a differenza di un PRNG che è deterministico.
+  Riutilizzare un indirizzo permette agli osservatori di collegare facilmente diverse transazioni allo stesso utente, compromettendo la loro privacy.
 reviewed: false

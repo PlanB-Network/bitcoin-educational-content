@@ -1,8 +1,8 @@
-question: Jika saya menghasilkan sebuah angka acak 128-bit, berapa ukuran frasa pemulihan saya dalam kata-kata?
-answer: 12 kata.
+question: Apa risiko utama menggunakan PRNG yang dirancang dengan buruk untuk menghasilkan entropi?
+answer: Kunci privat bisa ditebak oleh penyerang
 wrong_answers:
-  - 6 kata.
-  - 8 kata.
-  - 24 kata.
+  - Frase mnemonik bisa mengandung kata-kata yang salah
+  - Tanda tangan digital akan menjadi tidak valid
+  - Alamat Bitcoin akan tidak kompatibel dengan jaringan
 explanation: |
-  Sebuah angka acak 128-bit sesuai dengan frasa mnemonik 12 kata, mengikuti standar BIP39.
+  PRNG yang dirancang dengan buruk dapat menghasilkan urutan yang dapat diprediksi, membuat kunci lebih rentan terhadap serangan.

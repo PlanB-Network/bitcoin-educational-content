@@ -1,8 +1,8 @@
-question: Was ist der letzte Schritt, um eine Bech32 Bitcoin-Adresse zu erstellen?
-answer: Fügen Sie das HRP bc und einen Trenner 1 hinzu.
+question: Was ist die Hauptfunktion von Output-Skript-Deskriptoren?
+answer: Ein Output-Skript vollständig zu beschreiben und die zur Wiederherstellung einer Wallet benötigten Informationen bereitzustellen
 wrong_answers:
-  - Fügen Sie die SegWit-Version am Anfang hinzu.
-  - Fügen Sie die Prüfsumme am Anfang der Adresse hinzu.
-  - Fügen Sie ein 1 Präfix hinzu.
+  - Automatisches Generieren von Multisignatur-Adressen
+  - Ersetzen der mnemonischen Phrase in Wallet-Backups
+  - Vereinfachung der Berechnungen von digitalen Signaturen
 explanation: |
-  Der letzte Schritt beim Erstellen einer Bech32-Adresse besteht darin, den HRP (Human Readable Part), bc für Bitcoin, gefolgt von einem Trenner 1, hinzuzufügen.
+  Deskriptoren umfassen alle notwendigen Informationen, um ein bestimmtes Skript zu verfolgen, einschließlich des Ableitungspfads und der verwendeten Schlüssel, jedoch nicht der Wiederherstellungsphrase.

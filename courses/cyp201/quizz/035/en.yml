@@ -1,9 +1,9 @@
-question: What is the primitive information that allows determining a good mnemonic phrase for an HD wallet?
-answer: An external entropy allowing to determine a random or pseudo-random number.
+question: Which Bitcoin standard introduces hierarchical deterministic wallets?
+answer: BIP32
 wrong_answers:
-  - The first name of the wallet's owner.
-  - No information, we directly choose the words we like.
-  - The creation date of the wallet.
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  The mnemonic phrase is derived from a source of entropy, meaning random or pseudo-random information, to ensure the security of the private keys.
+  BIP32 defines the operation of HD wallets, allowing for the hierarchical derivation of private keys from a seed.
 reviewed: false

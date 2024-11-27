@@ -1,8 +1,8 @@
-question: I HD-lommebokderivatstier, hva tilsvarer dybde 0?
-answer: Hovednøkkelen.
+question: Hva er forskjellen mellom en vanlig barne-nøkkel og en herdet barne-nøkkel?
+answer: En herdet barne-nøkkel krever den overordnede private nøkkelen for sin avledning.
 wrong_answers:
-  - Den utvidede nøkkelen.
-  - Mottaksadressene.
-  - Typen valuta.
+  - En vanlig barne-nøkkel kan ikke avledes fra offentlige nøkler.
+  - En herdet barne-nøkkel bruker et oddetallsindeks.
+  - En vanlig barne-nøkkel er sikrere enn en herdet barne-nøkkel.
 explanation: |
-  Dybde 0 i derivatstier tilsvarer hovednøkkelen, som er utgangspunktet for alle derivasjoner i en HD-lommebok.
+  En vanlig barne-nøkkel kan avledes fra den overordnede offentlige nøkkelen, i motsetning til en herdet barne-nøkkel som krever den overordnede private nøkkelen.

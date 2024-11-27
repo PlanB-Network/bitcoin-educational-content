@@ -1,8 +1,9 @@
-question: Sự khác biệt chính giữa PRNG và TRNG là gì?
-answer: PRNG là xác định, trong khi TRNG tạo ra các số ngẫu nhiên thực sự.
+question: Tại sao không nên tái sử dụng địa chỉ Bitcoin?
+answer: Nó tạo điều kiện cho việc theo dõi giao dịch bởi bên thứ ba
 wrong_answers:
-  - TRNG nhanh hơn PRNG.
-  - TRNG sử dụng một hạt giống, trong khi PRNG không sử dụng hạt giống nào.
-  - PRNG là phần cứng, trong khi TRNG là phần mềm.
+  - Nó tiết lộ khóa riêng do nonce
+  - Nó làm cho giao dịch trở nên đắt đỏ hơn
+  - Nó làm mất hiệu lực của chữ ký số
 explanation: |
-  TRNG (True Random Number Generator) tạo ra các số ngẫu nhiên từ một hiện tượng ngẫu nhiên vật lý, không giống như PRNG là xác định.
+  Việc tái sử dụng một địa chỉ cho phép người quan sát dễ dàng liên kết các giao dịch khác nhau với cùng một người dùng, làm ảnh hưởng đến quyền riêng tư của họ.
+reviewed: false

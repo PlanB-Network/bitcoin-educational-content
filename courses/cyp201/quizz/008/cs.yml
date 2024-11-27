@@ -1,9 +1,9 @@
-question: Kolik kol má kompresní funkce SHA256?
-answer: 64 kol.
+question: Proč SHA256 aplikuje předzpracování na vstupní zprávu?
+answer: Aby zajistila délku násobnou 512 bitů
 wrong_answers:
-  - 10 kol.
-  - 128 kol.
-  - 150 kol.
+  - Ověřit integritu zprávy
+  - Zašifrovat data před hashováním
+  - Zvýšit velikost generovaných hashů
 explanation: |
-  Kompresní funkce SHA256 provádí 64 kol pro každý zpracovávaný blok dat.
+  Předzpracování upravuje délku zprávy přidáním bitů pro zarovnání a binární reprezentací její délky.
 reviewed: false

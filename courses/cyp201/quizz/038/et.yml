@@ -1,9 +1,9 @@
-question: Mis on peamine erinevus PRNG ja TRNG vahel?
-answer: PRNG on deterministlik, samas kui TRNG toodab tõeliselt juhuslikke numbreid.
+question: Miks ei soovitata Bitcoini aadressi uuesti kasutada?
+answer: See hõlbustab kolmandate osapoolte poolt tehingute jälgimist
 wrong_answers:
-  - TRNG on kiirem kui PRNG.
-  - TRNG kasutab seemet, samas kui PRNG ei kasuta ühtegi seemet.
-  - PRNG on riistvara, samas kui TRNG on tarkvara.
+  - See paljastab privaatvõtme tänu nonce'ile
+  - See muudab tehingud kallimaks
+  - See muudab digitaalsed allkirjad kehtetuks
 explanation: |
-  TRNG (True Random Number Generator) genereerib juhuslikke numbreid füüsilisest juhuslikust nähtusest, erinevalt PRNG-st, mis on deterministlik.
+  Aadressi uuesti kasutamine võimaldab vaatlejatel hõlpsasti erinevaid tehinguid sama kasutajaga seostada, ohustades nende privaatsust.
 reviewed: false

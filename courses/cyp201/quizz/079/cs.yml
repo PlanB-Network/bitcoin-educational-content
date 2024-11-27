@@ -1,8 +1,8 @@
-question: Jaký je poslední krok pro vytvoření Bech32 Bitcoin adresy?
-answer: Přidat HRP bc a oddělovač 1.
+question: Jaká je hlavní funkce popisovačů výstupního skriptu?
+answer: Plně popsat výstupní skript a poskytnout informace potřebné k obnovení peněženky
 wrong_answers:
-  - Přidat na začátek verzi SegWit.
-  - Přidat kontrolní součet na začátek adresy.
-  - Přidat předponu 1.
+  - Automaticky generovat multisignaturní adresy
+  - Nahradit mnemonickou frázi v zálohách peněženky
+  - Zjednodušit výpočty digitálních podpisů
 explanation: |
-  Posledním krokem při konstrukci Bech32 adresy je přidání HRP (Human Readable Part), bc pro Bitcoin, následované oddělovačem 1.
+  Popisovače zahrnují všechny nezbytné informace pro sledování konkrétního skriptu, včetně cesty derivace a použitých klíčů, ale nikoli obnovovací fráze.

@@ -1,8 +1,9 @@
-question: Apa perbedaan utama antara PRNG dan TRNG?
-answer: PRNG bersifat deterministik, sementara TRNG menghasilkan angka acak yang sebenarnya.
+question: Mengapa menggunakan kembali alamat Bitcoin tidak disarankan?
+answer: Ini memudahkan pelacakan transaksi oleh pihak ketiga
 wrong_answers:
-  - TRNG lebih cepat daripada PRNG.
-  - TRNG menggunakan seed, sementara PRNG tidak menggunakan seed apa pun.
-  - PRNG adalah perangkat keras, sementara TRNG adalah perangkat lunak.
+  - Ini mengungkapkan kunci privat karena nonce
+  - Ini membuat transaksi menjadi lebih mahal
+  - Ini membatalkan tanda tangan digital
 explanation: |
-  TRNG (True Random Number Generator) menghasilkan angka acak dari fenomena acak fisik, tidak seperti PRNG yang bersifat deterministik.
+  Menggunakan kembali alamat memungkinkan pengamat untuk dengan mudah menghubungkan berbagai transaksi ke pengguna yang sama, sehingga merusak privasi mereka.
+ditinjau: false

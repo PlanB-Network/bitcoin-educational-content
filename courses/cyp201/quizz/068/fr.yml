@@ -1,9 +1,9 @@
-question: À quoi sert une chaîne externe dans le processus de dérivation ?
-answer: Isoler les adresses destinées à être publiques.
+question: Quelle est la contrainte pour dériver une clé publique enfant à partir d'une clé publique parent ?
+answer: La clé enfant doit être normale
 wrong_answers:
-  - Isoler les adresses de change.
-  - Gérer les transactions entrantes.
-  - Séparer les clés privées des clés publiques.
+  - La clé enfant doit être endurcie
+  - Le code de chaîne doit être identique à celui de la clé parent
+  - Le processus doit inclure la clé privée parent
 explanation: |
-  La chaîne externe est utilisée pour dériver des adresses destinées à être publiques, telles que celles pour recevoir des paiements.
+  Une clé publique enfant ne peut être dérivée à partir d'une clé publique parent que si elle est normale, et non endurcie.
 reviewed: false

@@ -1,9 +1,9 @@
-question: How should an effective passphrase be chosen?
-answer: It should be long, diverse, and random, with no connection to the user.
+question: What is the purpose of the mnemonic phrase in a Bitcoin HD wallet?
+answer: To deterministically derive all keys
 wrong_answers:
-  - It should be easy to remember and related to the user's environment.
-  - It should be short but include numbers.
-  - It should contain at least 10 digits.
+  - To directly sign transactions
+  - To encrypt Bitcoin addresses
+  - To generate a hash for the UTXOs
 explanation: |
-  An effective passphrase should be long (20 to 40 characters), diverse, and random to provide maximum security, similar to a good password.
+  The mnemonic phrase allows for the derivation of all private and public keys in a wallet, thus facilitating backup and recovery.
 reviewed: false

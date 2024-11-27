@@ -1,9 +1,8 @@
-question: Mis on lahtipakitud Bitcoin avaliku võtme suurus koos selle prefiksiga?
-answer: 520 bitti.
+question: Mis on ühine punkt, mida kõik osalejad kasutavad Bitcoinis avaliku võtme arvutamiseks?
+answer: Generaatori punkt G
 wrong_answers:
-  - 512 baiti.
-  - 256 bitti.
-  - 512 bitti.
+  - SHA256 räsi
+  - Mnemooniline fraas
+  - Komprimeeritud avalik võti
 explanation: |
-  Lahtipakitud Bitcoin avalik võti koos selle prefiksiga on 520 bitti, hõlmates punkti x ja y koordinaate elliptilisel kõveral.
-reviewed: false
+  Elliptilise kõvera secp256k1 generaatori punkti G kasutatakse avalike võtmete arvutamiseks privaatvõtmetest.

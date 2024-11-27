@@ -1,9 +1,8 @@
-question: O que o seguinte caminho de derivação indica? m/84'/0'/1'/0/7
-answer: Um endereço SegwitV0 externo na rede principal.
+question: Qual é o propósito do índice na derivação de chaves filhas?
+answer: Distinguir pares de chaves irmãs
 wrong_answers:
-  - Um endereço SegwitV1 externo na rede principal.
-  - Um endereço Legacy interno na rede de teste.
-  - Um endereço Legacy externo na rede principal.
+  - Identificar a natureza da chave (pública ou privada)
+  - Especificar o nível de segurança da chave
+  - Adicionar uma camada extra de segurança
 explanation: |
-  O caminho de derivação m/84'/0'/1'/0/7 indica um endereço SegwitV0 externo na rede principal (mainnet). 84' = SegWit v0, 0' = mainnet, 1 = externo
-reviewed: false
+  O índice permite diferenciar chaves filhas derivadas do mesmo par de pais.

@@ -1,9 +1,9 @@
-question: Hva er den mest kjente elliptiske kurven brukt i kryptografiske systemer?
-answer: secp256r1.
+question: Hvilken matematisk operasjon er grunnlaget for sikkerheten til elliptisk kurvekryptografi?
+answer: Diskret logaritmeproblem
 wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
+  - Faktorisering av primtall
+  - Beregning av kvadratiske rester
+  - Diskret kube problem
 explanation: |
-  Den elliptiske kurven secp256r1 er mye brukt i mange kryptografiske systemer, men Bitcoin bruker kurven secp256k1.
+  Sikkerheten til elliptisk kurvekryptografi er basert på vanskelighetene med å løse det diskrete logaritmeproblemet på disse kurvene.
 reviewed: false

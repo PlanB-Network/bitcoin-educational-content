@@ -1,8 +1,8 @@
-question: Hệ thống số nào thường được sử dụng để mã hóa khóa mở rộng trước khi trình bày cho người dùng?
-answer: Trong Base 58.
+question: Vai trò của hạt giống trong ví HD Bitcoin là gì?
+answer: Đóng vai trò là điểm xuất phát để suy ra tất cả các khóa
 wrong_answers:
-  - Trong bech32.
-  - Trong Base 16.
-  - Trong bech32m.
+  - Lưu trữ các giao dịch của ví
+  - Trực tiếp tạo ra khóa công khai chính
+  - Đảm bảo tính bảo mật của giao dịch
 explanation: |
-  Khóa mở rộng thường được mã hóa trong Base 58 để dễ đọc hơn cho người dùng và tránh những ký tự gây nhầm lẫn.
+  Hạt giống là một chuỗi 512-bit được suy ra từ cụm từ ghi nhớ và cụm từ mật khẩu. Nó tạo thành cơ sở cho tất cả các khóa trong ví.

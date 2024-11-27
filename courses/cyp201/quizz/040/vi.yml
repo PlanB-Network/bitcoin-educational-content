@@ -1,9 +1,8 @@
-question: Đặc điểm độc đáo của danh sách 2048 từ cho phép mã hóa ghi nhớ là gì?
-answer: Không có từ nào có cùng bốn chữ cái đầu tiên theo cùng một thứ tự.
+question: Tại sao việc tạo entropy một cách thủ công cho một ví HD lại rủi ro?
+answer: Nó có thể giới thiệu những điểm yếu hoặc độ chệch dự đoán của con người
 wrong_answers:
-  - Không có từ nào có cùng ba chữ cái cuối.
-  - Không có từ nào bắt đầu bằng chữ “J”.
-  - Không có từ nào dài hơn sáu chữ cái.
+  - Nó dẫn đến việc tạo ra các khóa công khai không hợp lệ
+  - Nó ngăn chặn việc phái sinh các khóa riêng tư
+  - Nó hạn chế kích thước của các cụm từ mnemonic được tạo ra
 explanation: |
-  Đặc điểm này giúp tránh mọi sự mơ hồ khi nhập các từ, do đó đảm bảo tính độc đáo của mỗi từ trong danh sách, đồng thời giảm bớt không gian lưu trữ cần thiết.
-reviewed: false
+  Việc tạo entropy một cách thủ công có thể giới thiệu độ chệch hoặc lỗi, làm cho các khóa dễ bị tấn công hơn.

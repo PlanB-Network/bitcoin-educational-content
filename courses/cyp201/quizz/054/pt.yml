@@ -1,8 +1,8 @@
-question: Para calcular os valores da chave mestra e do código da cadeia mestre, a primeira entrada para a função HMAC-SHA512 é a semente. Qual é o segundo valor de entrada desta função, atuando como uma chave?
-answer: Bitcoin seed.
+question: Qual é o principal papel da frase-senha em uma carteira HD Bitcoin?
+answer: Modificar a derivação de chave para aumentar a segurança
 wrong_answers:
-  - A frase mnemônica.
-  - A senha.
-  - Seed.
+  - Descriptografar transações pendentes
+  - Gerar os UTXOs da carteira
+  - Proteger o acesso à carteira com identificação facial
 explanation: |
-  A string Bitcoin seed é usada como uma chave no HMAC-SHA512 para derivar a chave mestra e o código da cadeia mestre a partir da semente.
+  A frase-senha atua como um segundo fator de segurança, alterando a semente de derivação de chave para prevenir o acesso à carteira caso a frase mnemônica seja comprometida.

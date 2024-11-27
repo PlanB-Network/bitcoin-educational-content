@@ -1,8 +1,9 @@
-question: 哪个前缀或HRP对应于SegWit标准地址？
-answer: bc
+question: 导出路径深度1处的索引 /84'/ 表示什么？
+answer: P2WPKH标准（SegWit v0）
 wrong_answers:
-  - 1
-  - 0x
-  - btc
-explanation:
-  前缀bc用于比特币主网上的SegWit地址。
+  - P2TR标准（SegWit v1）
+  - 一个比特币测试网货币
+  - 一个比特币主网货币
+explanation: |
+  索引 /84'/ 在BIP84中定义，用于指示在深度1（即导出目标的深度）使用SegWit v0标准与P2WPKH地址。
+reviewed: false

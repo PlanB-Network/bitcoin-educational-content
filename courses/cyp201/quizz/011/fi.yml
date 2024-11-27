@@ -1,9 +1,9 @@
-question: Mistä yhdistämisoperaatio koostuu?
-answer: Kahden operandin asettamisesta peräkkäin.
+question: Mikä hajautusfunktio HMAC käyttää Bitcoinin kontekstissa?
+answer: SHA512
 wrong_answers:
-  - Kahden operandin yhteenlaskeminen.
-  - Kahden operandin jakaminen.
-  - Kahden operandin vähentäminen.
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  Yhdistäminen tarkoittaa kahden operandin asettamista toistensa jälkeen muuttamatta niitä, ja sitä käytetään laajalti kryptografiassa.
+  HMAC käyttää SHA512: ta tuottaakseen turvallisen 512-bittisen hajautuksen.
 reviewed: false

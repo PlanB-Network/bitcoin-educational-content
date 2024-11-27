@@ -1,9 +1,9 @@
-question: Per eseguire una derivazione di una coppia di chiavi figlio normale, devo inserire nella funzione HMAC-SHA512...
-answer: chiave pubblica genitore || indice, codice catena genitore.
+question: Cosa permette di derivare una chiave pubblica estesa?
+answer: Solo chiavi pubbliche figlie normali
 wrong_answers:
-  - chiave privata genitore || indice, codice catena genitore.
-  - chiave privata genitore, codice catena genitore.
-  - chiave privata genitore || indice.
+  - Solo chiavi private figlie normali
+  - Sia chiavi pubbliche figlie normali che rinforzate
+  - Sia chiavi private figlie normali che rinforzate
 explanation: |
-  Per derivare una chiave figlio normale, si utilizza la chiave pubblica del genitore con l'indice e il codice catena nella funzione HMAC-SHA512.
+  Una chiave pubblica estesa permette solo la derivazione di chiavi pubbliche figlie normali, non di chiavi private o chiavi rinforzate.
 reviewed: false

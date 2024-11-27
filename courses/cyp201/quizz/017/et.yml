@@ -1,9 +1,9 @@
-question: Mis on digitaalallkirjade kasutamise eesmärk Bitcoinis?
-answer: Luua matemaatiline tõestus, mis õigustab, et kasutaja on tõepoolest privaatvõtme omanik, ilma seda privaatvõtit avalikustamata.
+question: Millist elliptilist kõverat kasutatakse Bitcoin'i protokollis?
+answer: secp256k1
 wrong_answers:
-  - Luua matemaatiline tõestus, mis õigustab, et kasutaja on tõepoolest avaliku võtme omanik, ilma seda avalikku võtit avalikustamata.
-  - Luua matemaatiline tõestus, mis õigustab, et kasutaja on tõepoolest vastuvõtva aadressi omanik, ilma seda vastuvõtva aadressi avalikustamata.
-  - Luua matemaatiline tõestus, mis õigustab, et kasutaja on tõepoolest rahakoti omanik.
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  Digitaalallkirjad Bitcoinis võimaldavad tõestada, et kasutaja omab privaatvõtit, mis on seotud avaliku võtmega, ilma seda privaatvõtit avalikustamata.
+  Bitcoin kasutab oma krüptograafilistes toimingutes secp256k1 kõverat, mis on määratletud võrrandiga y² = x³ + 7.
 reviewed: false

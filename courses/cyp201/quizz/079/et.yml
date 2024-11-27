@@ -1,8 +1,8 @@
-question: Mis on viimane samm Bech32 Bitcoin aadressi loomisel?
-answer: Lisa HRP bc ja eraldaja 1.
+question: Mis on väljundskripti kirjeldajate peamine funktsioon?
+answer: Täielikult kirjeldada väljundskripti ja pakkuda vajalikku teavet rahakoti taastamiseks
 wrong_answers:
-  - Lisa SegWiti versioon aadressi algusesse.
-  - Lisa kontrollsumma aadressi algusesse.
-  - Lisa eesliide 1.
+  - Automaatselt genereerida multisignatuuriga aadresse
+  - Asendada mnemooniline fraas rahakoti varukoopiates
+  - Lihtsustada digitaalsete allkirjade arvutusi
 explanation: |
-  Bech32 aadressi konstrueerimise viimane samm on lisada HRP (Human Readable Part), bc Bitcoin'i jaoks, millele järgneb eraldaja 1.
+  Kirjeldajad hõlmavad kogu vajalikku teavet konkreetse skripti jälgimiseks, sealhulgas tuletamistee ja kasutatud võtmed, kuid mitte taastefraasi.

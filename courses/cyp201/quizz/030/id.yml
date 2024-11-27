@@ -1,8 +1,9 @@
-question: Apa peran teknis utama dari dompet Bitcoin?
-answer: Untuk menyimpan pasangan kunci kriptografi.
+question: Apa tujuan dari SIGHASH_SINGLE?
+answer: Untuk menutupi satu input dan output yang bersesuaian
 wrong_answers:
-  - Untuk menyimpan bitcoin.
-  - Untuk menyimpan UTXO.
-  - Untuk menyimpan transaksi.
+  - Untuk menutupi semua input dan output
+  - Hanya untuk menutupi input
+  - Untuk menutupi semua output kecuali satu
 explanation: |
-  Dompet Bitcoin tidak secara langsung menyimpan bitcoin, tetapi pasangan kunci kriptografi yang digunakan untuk mengelola dan menghabiskan UTXO.
+  SIGHASH_SINGLE menutupi satu input dan satu output yang bersesuaian dengan indeks dari input yang ditandatangani, meninggalkan sisanya dapat dimodifikasi.
+ditinjau: false

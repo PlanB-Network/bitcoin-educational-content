@@ -1,8 +1,9 @@
-question: Co je v protokolu Bitcoinu HASH256?
-answer: Dvojitý SHA256 hash.
+question: Která kombinace hašovacích funkcí se používá pro generování kratších otisků v Bitcoinu?
+answer: HASH160
 wrong_answers:
-  - Dvojitý Keccak-256 hash.
-  - SHA256 hash následovaný hashem RIPEMD160.
-  - Jednoduchý SHA256 hash.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  HASH256 je dvojitý SHA256 hash, což znamená, že funkce SHA256 je použita jednou na kus dat, a poté podruhé na výsledek prvního použití.
+  HASH160 kombinuje SHA256 a RIPEMD160 pro generování 160bitových otisků, zejména pro adresy Bitcoinu.
+reviewed: false

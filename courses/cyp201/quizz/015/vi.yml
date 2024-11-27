@@ -1,9 +1,9 @@
-question: Tên của đường cong elliptic được sử dụng cho thuật toán chữ ký số trong Bitcoin là gì?
-answer: secp256k1.
+question: Loại khóa nào được sử dụng để khóa UTXOs trên Bitcoin?
+answer: Khóa công khai
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Khóa riêng tư
+  - Băm hạt giống
+  - Cụm từ ghi nhớ
 explanation: |
-  Đường cong secp256k1 được sử dụng trong giao thức Bitcoin cho chữ ký số.
+  UTXOs được khóa bằng một khóa công khai hoặc băm của nó, và được mở khóa bằng khóa riêng tư tương ứng.
 reviewed: false

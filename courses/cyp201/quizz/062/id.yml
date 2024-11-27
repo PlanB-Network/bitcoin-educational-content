@@ -1,8 +1,8 @@
-question: Untuk melakukan derivasi pasangan kunci anak normal, saya harus memasukkan ke dalam fungsi HMAC-SHA512...
-answer: kunci publik induk || indeks, kode rantai induk.
+question: Apa yang dapat diturunkan dari kunci publik yang diperluas?
+answer: Hanya kunci publik anak normal
 wrong_answers:
-  - kunci pribadi induk || indeks, kode rantai induk.
-  - kunci pribadi induk, kode rantai induk.
-  - kunci pribadi induk || indeks.
+  - Hanya kunci privat anak normal
+  - Kedua kunci publik anak yang diperkeras dan normal
+  - Kedua kunci privat anak yang diperkeras dan normal
 explanation: |
-  Untuk mendapatkan kunci anak normal, kunci publik induk digunakan bersama dengan indeks dan kode rantai dalam fungsi HMAC-SHA512.
+  Kunci publik yang diperluas hanya memungkinkan penurunan dari kunci publik anak normal, bukan kunci privat atau kunci yang diperkeras.

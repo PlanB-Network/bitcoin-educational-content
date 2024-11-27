@@ -1,9 +1,9 @@
-question: Que signifie le préfixe “0x” ?
-answer: Le nombre suivant ce préfixe est exprimé en base 16 (hexadécimale).
+question: Quel est le rôle principal de PBKDF2 dans Bitcoin ?
+answer: Générer la graine d'un portefeuille HD
 wrong_answers:
-  - Le nombre suivant ce préfixe est exprimé en base 2 (binaire).
-  - Le nombre suivant ce préfixe est exprimé en base 10 (décimale).
-  - Le nombre suivant ce préfixe est exprimé en base 8 (octale).
+  - Authentifier les transactions
+  - Chiffrer les clés privées
+  - Créer des adresses Bitcoin
 explanation: |
-  Le préfixe 0x indique que le nombre qui suit est exprimé en base 16 (hexadécimale).
+  PBKDF2 est utilisé pour dériver une graine à partir d'une phrase mnémonique et d'une passphrase optionnelle.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Quali metadati vengono aggiunti alla chiave estesa oltre al suo payload?
-answer: Versione / profondità / impronta digitale genitore / indice / checksum.
+question: Quale funzione viene utilizzata per derivare il seed dalla frase mnemonica?
+answer: PBKDF2 con HMAC-SHA512
 wrong_answers:
-  - Versione / indice.
-  - Versione / profondità / separatore / checksum.
-  - Non vengono aggiunti metadati.
+  - Solo SHA256
+  - Doppio SHA256
+  - AES-256
 explanation: |
-  La chiave estesa include diversi pezzi di metadati. Ci sono la versione, la profondità, l'impronta digitale del genitore, l'indice e il checksum per facilitare la derivazione della chiave.
+  Il seed viene generato utilizzando la funzione PBKDF2 con HMAC-SHA512 e 2048 iterazioni, a partire dalla frase mnemonica e dalla passphrase.
 reviewed: false

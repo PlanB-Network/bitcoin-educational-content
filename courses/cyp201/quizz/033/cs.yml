@@ -1,9 +1,9 @@
-question: V kterém BIP je navržena myšlenka obnovovací fráze nebo mnemonické fráze (12/24 slov)?
-answer: BIP39.
+question: Co umožňuje příznak sighash SIGHASH_NONE?
+answer: Modifikaci výstupů po podpisu
 wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
+  - Modifikaci vstupů po podpisu
+  - Pokrytí všech vstupů a výstupů
+  - Omezení modifikací pouze na jeden výstup
 explanation: |
-  BIP39 zavedl 24-slovnou mnemonickou obnovovací frázi, aby usnadnil zálohování klíčů pro uživatele HD peněženek.
+  SIGHASH_NONE pokrývá pouze vstupy, což zanechává výstupy modifikovatelné po podpisu.
 reviewed: false

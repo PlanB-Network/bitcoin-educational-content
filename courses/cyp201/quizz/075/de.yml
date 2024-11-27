@@ -1,9 +1,9 @@
-question: Wie komprimiert man einen öffentlichen Schlüssel?
-answer: Wir behalten den Wert seiner x-Koordinate bei und fügen ein Präfix hinzu, das angibt, welche y-Koordinate ausgewählt werden soll.
+question: Welcher Ableitungspfad wird für ein SegWit v0-Konto in einem Standard-Deskriptor verwendet?
+answer: 84h/0h/0h
 wrong_answers:
-  - Wir behalten den Wert seiner y-Koordinate bei und fügen ein Präfix hinzu, das angibt, welche x-Koordinate ausgewählt werden soll.
-  - Wir hashen den öffentlichen Schlüssel, um ihn zu komprimieren.
-  - Wir verwenden einen doppelten SHA256-Hash, um den öffentlichen Schlüssel zu komprimieren.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  Die Komprimierung eines öffentlichen Schlüssels erfolgt, indem man die x-Koordinate behält und ein Präfix 0x02 oder 0x03 hinzufügt, um anzugeben, ob y gerade oder ungerade ist.
+  Der Pfad 84h/0h/0h ist in BIP84 für ein Konto definiert, das SegWit v0-Adressen mit P2WPKH ableitet.
 reviewed: false

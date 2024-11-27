@@ -1,9 +1,9 @@
-question: Chữ ký số chứng minh điều gì trong hệ thống Bitcoin thông qua scriptSig?
-answer: Sự sở hữu của khóa riêng liên kết với một khóa công khai cụ thể.
+question: Thuật toán chữ ký số nào được sử dụng khi Bitcoin ra đời?
+answer: ECDSA
 wrong_answers:
-  - Sự sở hữu của một địa chỉ Bitcoin.
-  - Khả năng khai thác một khối Bitcoin.
-  - Tính hợp lệ của một giao dịch Bitcoin.
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Chữ ký số chứng minh rằng người dùng có khóa riêng mà không cần phải tiết lộ nó, đảm bảo tính xác thực của giao dịch.
+  Bitcoin ban đầu sử dụng ECDSA, một giao thức chữ ký dựa trên đường cong elliptic, trước khi giới thiệu chữ ký Schnorr vào năm 2021.
 reviewed: false

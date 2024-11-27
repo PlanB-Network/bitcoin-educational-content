@@ -1,9 +1,9 @@
-question: How to construct the recovery phrase (mnemonic) in binary?
-answer: Concatenate the random number with its checksum at the end.
+question: What is entropy in the context of cryptography?
+answer: A measure of unpredictability associated with a random process
 wrong_answers:
-  - Concatenate the random number with its checksum at the beginning.
-  - Concatenate the random number with a seed.
-  - Divide the random number into two parts and insert the checksum in the middle.
+  - A method for encrypting sensitive data
+  - An algorithm for calculating public keys
+  - A data compression technique
 explanation: |
-  To generate a binary mnemonic phrase, concatenate the checksum to the end of the random number before converting into words.
+  In cryptography, entropy quantifies the level of uncertainty or chaos in a random source, essential for generating secure keys.
 reviewed: false

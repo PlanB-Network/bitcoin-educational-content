@@ -1,8 +1,9 @@
-question: Apa fungsi yang digunakan untuk menghasilkan sebuah alamat?
-answer: HASH160.
+question: Apa arti dari sebuah apostrof (') atau huruf h dalam sebuah jalur derivasi?
+answer: Sebuah derivasi yang diperkuat
 wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
+  - Sebuah derivasi normal
+  - Sebuah derivasi eksternal
+  - Sebuah derivasi non-standar
 explanation: |
-  Fungsi HASH160, yang menggabungkan SHA256 dan RIPEMD-160, digunakan untuk menghasilkan alamat Bitcoin dari kunci publik.
+  Sebuah apostrof menunjukkan bahwa derivasi tersebut diperkuat, memerlukan kunci privat induk untuk menghasilkan kunci anak.
+ditinjau: false

@@ -1,9 +1,10 @@
-question: Mikä on HASH160 Bitcoin-protokollassa?
-answer: SHA256-tiivisteen jälkeen seuraa RIPEMD160-tiiviste.
+question: Mikä on pääasiallinen ero SHA256 n ja RIPEMD160 n välillä?
+answer: RIPEMD160 tuottaa lyhyempiä tiivisteitä kuin SHA256
 wrong_answers:
-  - Kahden RIPEMD160-tiivisteen yhdistelmä.
-  - Kahden SHA256-tiivisteen yhdistelmä.
-  - MD5-tiivisteen jälkeen seuraa SHA256-tiiviste.
+  - SHA256 on vanhentunut toisin kuin RIPEMD160
+  - RIPEMD160 a käytetään vain Proof-of-Work -mekanismissa
+  - SHA256 a ei koskaan yhdistetä muiden hajautusfunktioiden kanssa
 explanation: |
-  HASH160 yhdistää SHA256-tiivisteen, jonka jälkeen tulee RIPEMD160. Sitä käytetään erityisesti Bitcoin-osoitteiden generoimiseen.
+  RIPEMD160 tuottaa 160-bittisiä tiivisteitä, kun taas SHA256 tuottaa 256-bittisiä tiivisteitä.
 reviewed: false
+

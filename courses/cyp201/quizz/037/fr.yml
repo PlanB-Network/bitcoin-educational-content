@@ -1,9 +1,9 @@
-question: Pourquoi est-il important d'utiliser une bonne source d'entropie pour générer des clés privées ?
-answer: Une mauvaise entropie peut rendre les clés privées prédictibles et vulnérables aux attaques.
+question: Quelle est la principale limitation des portefeuilles JBOK ?
+answer: Ils nécessitent un sauvegarde indépendante pour chaque clé privée
 wrong_answers:
-  - Une bonne entropie permet d'optimiser les performances du portefeuille.
-  - L'entropie ne joue aucun rôle dans la sécurité des clés privées.
-  - Une mauvaise entropie ralentit les transactions.
+  - Ils ne permettent pas de générer de nouvelles adresses
+  - Ils sont incompatibles avec les signatures numériques
+  - Ils utilisent des clés publiques non compressées
 explanation: |
-  Si l'entropie utilisée pour générer des clés privées est faible, cela pourrait permettre à un attaquant de deviner ou de calculer ces clés, ce qui compromet la sécurité du portefeuille.
+  Les portefeuilles JBOK obligent l'utilisateur à sauvegarder chaque clé privée individuellement, ce qui complique leur gestion.
 reviewed: false

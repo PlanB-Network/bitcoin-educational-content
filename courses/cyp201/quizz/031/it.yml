@@ -1,8 +1,8 @@
-question: Come vengono determinate le coppie di chiavi in un portafoglio gerarchico deterministico (HD)?
-answer: Tutte le coppie di chiavi nel portafoglio sono determinate in modo deterministico e gerarchico a partire da un pezzo unico di informazioni alla base del portafoglio.
+question: Qual è il modificatore che può essere combinato con i flag di base di sighash?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Tutte le coppie di chiavi nel portafoglio sono determinate indipendentemente dalle altre, casualmente, da un generatore di numeri casuali.
-  - Ogni coppia di chiavi nel portafoglio è determinata deterministicamente dalla coppia di chiavi precedente.
-  - Le coppie di chiavi sono tutte casuali e senza collegamento gerarchico.
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  Nei portafogli HD, tutte le chiavi sono derivate da un pezzo unico di informazioni chiamato seed (seme), che consente una gestione gerarchica e deterministica delle chiavi.
+  SIGHASH_ANYONECANPAY modifica i flag di sighash per coprire solo un singolo input, lasciando modificabili gli altri.

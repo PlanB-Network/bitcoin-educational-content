@@ -1,9 +1,8 @@
-question: Cấu trúc của hàm băm SHA256 được gọi là gì?
-answer: Merkle-Damgard Construction.
+question: Cấu trúc nào được SHA256 sử dụng để xử lý các thông điệp có độ dài tùy ý?
+answer: Cấu trúc Merkle-Damgård
 wrong_answers:
-  - Sponge Construction.
-  - Iterative Hash Functions Construction (HAIFA).
-  - Feistel Construction.
+  - Cấu trúc Euclidean
+  - Cấu trúc Rivest-Shamir-Adleman
+  - Cấu trúc Knuth-Morris-Pratt
 explanation: |
-  SHA256 sử dụng Merkle-Damgard Construction, một cấu trúc thường được sử dụng để tạo ra các hàm băm an toàn.
-reviewed: false
+  Cấu trúc Merkle-Damgård cho phép biến đổi một hàm nén thành một hàm băm cho các thông điệp có độ dài biến đổi.

@@ -1,9 +1,9 @@
-question: Jaká funkce se používá k vygenerování seedu z mnemonické fráze a hesla?
-answer: PBKDF2.
+question: Proč je 24-slovní mnemonická fráze často považována za nadbytečnou pro Bitcoin peněženku?
+answer: Odvozené klíče nabízejí pouze 128 bitů zabezpečení
 wrong_answers:
-  - SHA256.
-  - HMAC.
-  - Argon2.
+  - Software nepodporuje 24-slovní fráze
+  - Neumožňuje odvození veřejných klíčů
+  - Kratší fráze nejsou standardizovány
 explanation: |
-  PBKDF2 (Password-Based Key Derivation Function 2) se používá k odvození seedu z mnemonické fráze a hesla v HD peněženkách.
+  Ačkoliv 24-slovní fráze nabízí 256 bitů zabezpečení, odvozené soukromé klíče Bitcoinu zaručují pouze 128 bitů zabezpečení, což činí přebytek zbytečným.
 reviewed: false

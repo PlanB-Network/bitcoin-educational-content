@@ -1,8 +1,8 @@
-question: ¿Cuál es la variable que permite diferenciar pares de claves hermanos entre sí (que tienen el mismo par padre)?
-answer: El índice.
+question: ¿Cuál es el tamaño total de una clave extendida con el checksum incluido?
+answer: 82 bytes
 wrong_answers:
-  - La sal criptográfica.
-  - El primer nombre.
-  - El código de cadena padre.
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
 explanation: |
-  El índice se utiliza para diferenciar pares de claves hermanos derivados del mismo par padre en una cartera HD.
+  Una clave extendida es de 78 bytes sin el checksum y de 82 bytes con el checksum incluido.

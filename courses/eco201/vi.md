@@ -17,9 +17,11 @@ Trường phái tư tưởng này đã có một lịch sử kéo dài vài th�
 +++
 
 # Giới thiệu về ECO
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Giới thiệu
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Chào mừng tất cả mọi người đến với Eco 201: Giới thiệu về trường phái Kinh tế học Áo.
@@ -38,6 +40,7 @@ Tôi chân thành cảm ơn Théo đã tạo ra khóa học này, và tôi hy v�
 Nếu bạn đã sẵn sàng bắt đầu cuộc phiêu lưu này, tôi mời bạn nhấp vào video sau và bắt đầu với video bổ sung về hệ thống tài chính hiện tại của chúng ta. Bây giờ, tôi xin nhường sân cho Théo. Cảm ơn anh ấy đã hợp tác với Descoupes Bitcoin để thực hiện khoá học này. Tôi sẽ sớm gặp lại bạn. Tạm biệt!
 
 ## Tiền tệ, Tín dụng, Ngân hàng, và Ngân hàng Trung ương
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > “Vấn đề cốt lõi với tiền tệ thông thường là tất cả sự tin tưởng mà nó đòi hỏi phải có để làm cho nó hoạt động. Ngân hàng trung ương phải được tin tưởng là không làm mất giá tiền tệ, nhưng lịch sử của các đồng tiền pháp định lại đầy rẫy những lần vi phạm niềm tin đó. Các ngân hàng phải được tin tưởng để giữ tiền cho chúng ta và di chuyển chúng trên không gian điện tử, nhưng họ lại cho vay nó trong các đợt bong bóng tín dụng với chỉ một phần dự trữ nhỏ. Chúng ta phải tin họ sẽ bảo vệ quyền riêng tư của mình, tin họ không để cho những kẻ trộm danh tính rút sạch tài khoản của chúng ta.”
@@ -59,12 +62,13 @@ Khi mua nhà, bạn yêu cầu ngân hàng của mình chuyển tiền vào tài
 Hình 1: Tạo ra tiền như các bút toán kế toán
 
 > “May mắn là người dân không hiểu về hệ thống ngân hàng và tiền tệ của chúng ta, bởi vì nếu họ hiểu, tôi tin rằng sẽ có một cuộc cách mạng trước rạng sáng hôm sau”
-> 
+>
 > Henry Ford
 
 Quy trình này cho phép các ngân hàng ghi lại tất cả các giao dịch, bao gồm chuyển khoản, mua hàng bằng thẻ tín dụng, và séc, trong một khoảng thời gian nhất định (thường là một tuần hoặc một tháng). Sau đó, họ tất toán các giao dịch này với nhau bằng cách sử dụng dự trữ ngân hàng, là một hình thức tiền pháp định khác không bao giờ được công chúng sử dụng. Dự trữ ngân hàng được giữ tại ngân hàng trung ương trong một tài khoản đặc biệt chỉ có thể truy cập bởi các ngân hàng và các tổ chức tài chính có giấy phép.
 
 ### Sự thiếu ổn định của hệ thống ngân hàng dự trữ một phần và Người cho vay cuối
+
 Vấn đề chính với hệ thống dự trữ một phần này là việc nhiều người cùng rút tiền từ một ngân hàng cụ thể có thể dẫn đến sự phá sản của ngân hàng đó. Do ngân hàng phải đáp ứng nhu cầu tiền mặt của khách hàng trong khi chỉ giữ một lượng dự trữ ngân hàng hạn chế, một làn sóng đồng loạt rút tiền của nhiều khách hàng có thể khiến ngân hàng không thể đáp ứng được những nhu cầu này, dẫn đến phá sản. Vì nhiều cá nhân, doanh nghiệp và tổ chức đã gửi tiền của họ vào ngân hàng, việc để một ngân hàng phá sản có thể gây ra hậu quả kinh tế nghiêm trọng, như suy thoái hoặc thậm chí là một cuộc đại suy thoái.
 
 Tình thế tiến thoái lượng nan này này đã dẫn đến sự ra đời của các ngân hàng trung ương hiện đại. Trong thế kỷ 19 ở Anh, các đợt rút tiền hàng loạt liên tiếp đe dọa đến sự ổn định của hệ thống tài chính, dẫn đến việc thành lập Ngân hàng Anh như là “người cho vay cuối - lender of last resort”. Ngân hàng Anh được giao nhiệm vụ cho các ngân hàng gặp khó khăn trong các cuộc khủng hoảng vay tiền để ngăn chặn hiệu ứng dây chuyền có thể làm tê liệt toàn bộ hệ thống tài chính. Ý tưởng về các ngân hàng trung ương như những người cho vay cuối đã lan rộng khắp thế giới và trở nên phổ biến.
@@ -124,8 +128,11 @@ Về bản chất, hệ thống của chúng ta đang đối mặt với những
 Trong chương tiếp theo, chúng ta sẽ đi sâu vào nền tảng cơ bản của bất kỳ trường phái kinh tế nào: lý thuyết về giá trị. Các chương tiếp theo sẽ khám phá tiền tệ như một thế chế xã hội (social institution), lý thuyết về vốn và chu kỳ kinh tế, thách thức của việc tính toán kinh tế, và một cái nhìn tổng quan ngắn gọn về lịch sử và phương pháp luận của trường phái Kinh tế học Áo.
 
 # Nền tảng lý thuyết
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+
 ## Lý thuyết về tính chủ quan của giá trị
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > “Giá trị chỉ tồn tại trong ý thức của con người”
@@ -190,6 +197,7 @@ Về bản chất, chuyên môn hóa tạo ra lợi ích, ngay cả đối với
 Một khi cá nhân đã chuyên môn hóa trong một hoạt động sản xuất cụ thể, họ có thể dành lượng sản phẩm mà họ coi là cần thiết cho tiêu dùng cá nhân và trao đổi phần dư thừa để lấy các hàng hóa khác họ mong muốn. Bằng cách làm như vậy, họ thỏa mãn nhu cầu của mình đối với các hàng hóa họ tự sản xuất, điều này có nghĩa là các đơn vị còn lại của sản phẩm do họ sản xuất có giá trị ít đối với họ. Đó là điều mà các nhà kinh tế học gọi là tiện ích biên giảm dần: mỗi đơn vị hàng hóa thêm vào ít được mong muốn hơn so với đơn vị trước đó. Đối với những người khác thiếu những hàng hóa đó, câu chuyện lại khác: vì những lý do tương tự, họ có xu hướng mong muốn mạnh mẽ hơn đối với các hàng hóa họ không sản xuất so với những hàng hóa họ có. Điều này dẫn đến một tình huống có sự bất đối xứng lớn giữa các đánh giá chủ quan khác nhau của các cá nhân, điều này rất thuận lợi cho việc trao đổi: mỗi bên đều có lợi ích trong việc trao đổi sản phẩm dư thừa của họ vì nhờ đó, họ tăng cường tiện ích chủ quan của mình.
 
 Kết quả của phân tích trước đó là cá nhân luôn tốt hơn khi họ chuyên môn hóa trong công việc của mình và tham gia vào trao đổi. Do đó, các nhà kinh tế học Áo, đặc biệt là Ludwig Von Mises, kết luận rằng lợi thế sản xuất phát sinh từ sự phân công lao động là động lực chính thúc đẩy quá trình hợp tác xã hội. Ở đây, có thể hữu ích khi trích dẫn trực tiếp ông:
+
 > Những sự thật cơ bản đã tạo nên sự hợp tác, xã hội và nền văn minh, và đã biến con người từ động vật thành con người có lý trí là: công việc được thực hiện dưới sự phân công lao động sẽ mang lại năng suất cao hơn so với công việc làm một mình và lý trí của con người có khả năng nhận ra sự thật này. […] Con người không hợp tác dưới sự phân công lao động vì họ yêu thương hoặc nên yêu thương lẫn nhau. Họ hợp tác vì điều đó phục vụ tốt nhất cho lợi ích của bản thân họ.
 
 ### Kết luận
@@ -205,6 +213,7 @@ Dựa trên những hiểu biết về giá trị thứ bậc chủ quan, Menger
 Các chương tiếp theo sẽ được dành riêng cho sự xuất hiện của tiền tệ như một thể chế xã hội, lý thuyết về vốn và lãi suất, sẽ là cơ sở cho lý thuyết chu kỳ kinh tế, và cuối cùng là vai trò của giá cả đối với tính toán kinh tế.
 
 ## Sự xuất hiện tiền tệ như một hiện tượng xã hội
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Mặc dù các cá nhân có lợi ích chung trong việc chuyên môn hóa và tối đa hóa phân công lao động, vẫn còn có những vấn đề về phối hợp hạn chế sự mở rộng này.
@@ -223,10 +232,11 @@ Theo nguyên bản, bài toán tù nhân được trình bày như sau: Hai nghi
 
 Những kết quả này có thể được biểu diễn trong một ma trận (kết quả số chỉ số năm tù):
 
-| Alice / Bob       | Buộc tội    | Giữ im lặng |
-| ----------------- | ----------- | ------------- |
-| **Buộc tội**        | 2, 2        | 0, 3         |
-| **Giữ im lặng** | 3, 0        | 1, 1         |
+| Alice / Bob     | Buộc tội | Giữ im lặng |
+| --------------- | -------- | ----------- |
+| **Buộc tội**    | 2, 2     | 0, 3        |
+| **Giữ im lặng** | 3, 0     | 1, 1        |
+
 Trong trò chơi này, không có cơ hội cho sự phối hợp (giao tiếp là không thể) để đạt được kết quả tốt nhất cho cả hai bên. Do đó, Alice và Bob có động cơ cá nhân để buộc tội lẫn nhau, mặc dù điều này không dẫn đến kết quả tối ưu cho nhóm, cả hai sẽ bị phạt mỗi người 2 năm tù. Chiến lược tối ưu cho cả hai là giữ im lặng, mỗi người nhận một án phạt 1 năm. Trò chơi này minh họa một vấn đề thường gặp trong đời thực: trong tình trạng thiếu các cơ chế phối hợp, cá nhân thường chọn các chiến lược tối đa hóa lợi ích của cá nhân họ, bất kể chiến lược được chọn bởi người khác (trộm cắp, gian lận, phản bội, bạo lực, v.v.), ngay cả khi một trạng thái cân bằng mong muốn hơn thông qua phối hợp hoặc hợp tác là khả thi.
 
 ### Tiền được sinh ra để giải quyết vấn đề hợp tác
@@ -241,7 +251,7 @@ Tuy nhiên, khi đối mặt với các cộng đồng lớn hơn, nơi có lợ
 
 Thứ hai, việc đo lường giá trị của các đóng góp trong trao đổi (tính tương đương) là một vấn đề không hề đơn giản. Ví dụ, nếu một cá nhân cung cấp thịt từ việc săn bắn và yêu cầu vật liệu để xây dựng nơi trú ẩn, làm thế nào có thể đánh giá lượng thịt được cung cấp tương đương với số vật liệu được yêu cầu? Cũng như về chất lượng – thịt nai có giá trị hơn hay kém so với gỗ?
 
-Ngay cả khi có thể thiết lập một tỷ giá trao đổi thỏa đáng cho mỗi cặp hàng hóa, việc duy trì thông tin này nhanh chóng trở nên không thực tế. Trong một hệ thống trao đổi trực tiếp (hàng đổi hàng) liên quan đến N hàng hóa, có N(N-1)/2 tỷ giá trao đổi cần nhớ. Đối với một nền kinh tế có 50 loại hàng hóa, điều đó có nghĩa là cần nhớ nhớ 50*49/2, hay 1225 tỷ giá trao đổi, so với chỉ 50 trong trao đổi gián tiếp (thông qua một trung gian). Đối với một nền kinh tế có 100 loại hàng hóa, con số tỷ giá trao đổi cần nhớ tăng lên đến 4950. Mối quan hệ bậc hai như vậy đặt ra một giới hạn bổ sung về khả năng mở rộng của nền kinh tế dựa trên trao đổi trực tiếp (hàng đổi hàng).
+Ngay cả khi có thể thiết lập một tỷ giá trao đổi thỏa đáng cho mỗi cặp hàng hóa, việc duy trì thông tin này nhanh chóng trở nên không thực tế. Trong một hệ thống trao đổi trực tiếp (hàng đổi hàng) liên quan đến N hàng hóa, có N(N-1)/2 tỷ giá trao đổi cần nhớ. Đối với một nền kinh tế có 50 loại hàng hóa, điều đó có nghĩa là cần nhớ nhớ 50\*49/2, hay 1225 tỷ giá trao đổi, so với chỉ 50 trong trao đổi gián tiếp (thông qua một trung gian). Đối với một nền kinh tế có 100 loại hàng hóa, con số tỷ giá trao đổi cần nhớ tăng lên đến 4950. Mối quan hệ bậc hai như vậy đặt ra một giới hạn bổ sung về khả năng mở rộng của nền kinh tế dựa trên trao đổi trực tiếp (hàng đổi hàng).
 
 Hơn nữa, do những trao đổi này không diễn ra ngay lập tức mà nó trải dài theo thời gian, việc đánh giá các đóng góp theo thời gian làm phức tạp thêm việc đánh giá tương đối các đóng góp. Ngoài việc đánh giá tỷ giá trao đổi giữa hai loại hàng hóa hiện tại, còn cần phải đánh giá giá trị của một đóng góp trong quá khứ so với một đối tác trong tương lai.
 
@@ -282,6 +292,7 @@ Trong trường hợp này, tiền tệ, bằng cách cho phép lưu trữ giá 
 Trong chương tiếp theo, chúng ta sẽ đi sâu vào khái niệm về thị hiếu theo thời gian và giải thích quan điểm của kinh tế học Áo về lãi suất và vốn, sẽ là cơ sở cho chương tiếp theo về lý thuyết chu kỳ kinh tế.
 
 ## Thị hiếu theo thời gian, lãi suất và vốn
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Thị hiếu theo thời gian - Time preference
@@ -348,9 +359,11 @@ Bây giờ, như đã được đề cập trong chương đầu tiên, lãi su�
 Đây là điều chúng ta sẽ tìm hiểu trong chương tiếp theo dành riêng cho Lý thuyết chu kỳ kinh tế của trường phái Áo!
 
 # Quan điểm kinh tế của trường phái kinh tế học Áo
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Lý thuyết chu kỳ kinh tế của trường phái Áo
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > “Bong bóng mở rộng tín dụng ngân hàng càng kéo dài, càng có nhiều khoản đầu tư không sinh lời vào các loại hàng hoá vốn, và nhu cầu phải thanh lý những khoản đầu tư sai lầm này càng cao. Khi sự mở rộng tín dụng dừng lại, đảo ngược, hoặc thậm chí giảm đáng kể, những khoản đầu tư không sinh lời sẽ bị phơi bày.”
@@ -421,6 +434,7 @@ Hơn bất kỳ trường phái kinh tế học nào khác, trường phái Áo 
 Đây sẽ là chủ đề của chương tiếp theo và cũng là chương cuối của khóa học này.
 
 ## Sự bất khả thi của tính toán kinh tế dưới chế độ chủ nghĩa xã hội
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > “Ở nơi không có giá thị trường cho các yếu tố sản xuất vì chúng không được mua hoặc bán, chúng ta không thể nào tính toán được để lập kế hoạch cho hành động trong tương lai và đánh giá kết quả của hành động trong quá khứ. Hoạt động quản lý sản xuất theo chủ nghĩa xã hội đơn giản sẽ không biết liệu những gì họ lập kế hoạch và thực hiện có phải là phương tiện phù hợp nhất để đạt được mục tiêu mình tìm kiếm hay không. Nó sẽ hoạt động trong bóng tối, có thể nói như vậy. Nó sẽ lãng phí các yếu tố sản xuất khan hiếm, cả vật chất lẫn con người (lao động). Hỗn loạn và nghèo đói cho tất cả sẽ không thể tránh khỏi”
@@ -466,7 +480,9 @@ Từ góc độ này, một nền kinh tế được lập kế hoạch tập tr
 Người ta có thể lập luận rằng việc vẽ ra một bức tranh như vậy sau khi mọi chuyện đã xảy ra là việc dễ dàng. Sau cùng, chúng ta đều biết về các kệ hàng trống rỗng ở Liên Xô, những khó khăn của Venezuela, và thảm họa nhân đạo ở Campuchia. Nhưng Mises đã dự đoán những sự kiện này từ rất sớm, vào năm 1920. Tuy nhiên, cho đến khi Liên Xô sụp đổ vào năm 1989, nhiều nhà kinh tế học, bao gồm cả nhiều người đoạt giải Nobel, vẫn ca ngợi "phép màu kinh tế" của Liên Xô và dự đoán rằng nền kinh tế Liên Xô sẽ sớm vượt qua nền kinh tế của Mỹ.
 
 Mặc dù có những dự đoán ấn tượng và nhiều chứng minh thực nghiệm về sự bất khả thi của việc tính toán kinh tế dưới chế độ chủ nghĩa xã hội, các nhà lãnh đạo chính trị trên toàn thế giới vẫn hăng hái hơn bao giờ hết trong việc ấn định giá cả, quốc hữu hóa toàn bộ các ngành công nghiệp, và đề xuất các kế hoạch năm năm, thường được hưởng ứng nhiệt liệt của phần đông dân số không có hiểu biết về kinh tế học. Hậu quả của sự can thiệp này đang được cảm nhận một cách sâu sắc bởi người dân ở các quốc gia từng thịnh vượng ở phương Tây, những người đang từ từ chứng kiến sự suy giảm tiêu chuẩn sống của mình.
+
 ### Lý thuyết chu kỳ kinh tế của trường phái kinh tế Áo là một trường hợp cụ thể về tính bất khả thi của tính toán kinh tế dưới chế độ chủ nghĩa xã hội
+
 ![image](assets/Image/23.webp)
 
 Trong một chương trước, chúng ta đã làm sáng tỏ về động lực của việc đầu tư quá mức và sự phân bổ vốn sai lệch do sự can thiệp vào lãi suất bởi các ngân hàng trung ương. Về cơ bản, những gì chúng ta đã giải thích có thể được xem như một trường hợp cụ thể về sự bất khả thi của việc tính toán kinh tế dưới chế độ chủ nghĩa xã hội, áp dụng cho lĩnh vực thị trường tiền tệ. Khi giá cả được ấn định ngoài giá trị thị trường của chúng, các doanh nhân và người phân bổ vốn được khuyến khích tham gia vào các khoản đầu tư không thể duy trì được lâu dài do thiếu tiết kiệm. Bằng cách can thiệp vào hệ thống giá cả, các nhà hoạch định tập trung (trong trường hợp này là các ngân hàng trung ương) tạo ra sự phối hợp kém giữa các chủ thể kinh tế. Trong trường hợp này, sự phối hợp kém theo thời gian bao gồm việc đầu tư quá mức vào hàng hóa đầu tư ở thứ bậc cao và đầu tư không đủ vào hàng hóa đầu tư cấp bậc thấp hơn, đây là một biểu hiện cụ thể của sự phân bổ vốn sai lệch giữa các ngành.
@@ -477,7 +493,7 @@ Ngày nay, cuộc tranh luận về tính toán kinh tế lại nổi lên chủ
 
 Để áp dụng cụ thể vấn đề tính toán kinh tế vào một tình huống hiện đại, bạn có thể tham khảo bài viết phân tích về vấn đề phân bổ tài nguyên ở Trung Quốc hiện đại.
 
->   Con đường đến với sự áp bức tài chính: Trung Quốc, một con hổ giấy, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> Con đường đến với sự áp bức tài chính: Trung Quốc, một con hổ giấy, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Kết luận
 
@@ -487,6 +503,7 @@ Các nhà kinh tế học chính thống và những người lập kế hoạch
 Trường phái kinh tế học Áo thể hiện một cách tiếp cận khiêm tốn đối với hành động con người, rút ra những hàm ý sâu sắc từ các khái niệm về giá trị chủ quan, sự không chắc chắn, ý chí tự do, và sự phức tạp. Nó giải thích cách mà trật tự thị trường, mặc dù không phải là sản phẩm từ sự thiết kế của con người, lại là nền tảng trung tâm cho sự phát triển và thịnh vượng của chúng ta. Nếu có một điều quan trọng cần rút ra từ khóa học này, đó là chủ nghĩa tư bản trở thành hệ thống kinh tế thống trị bởi vì nó có khả năng thích ứng với sự thay đổi trong một thế giới động và bất định của các cá nhân tự do.
 
 ## Phương pháp luận của trường phái kinh tế học Áo
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Trường phái kinh tế học Áo phân biệt bản thân với các trường phái khác bằng phương pháp luận tiên đề - suy luận, khác biệt so với phương pháp luận thực chứng thường được sử dụng trong các ngành khoa học xã hội. Phương pháp luận thực chứng dựa trên các quy luật được thiết lập từ dữ liệu thực nghiệm, theo phương pháp tương tự như trong khoa học tự nhiên. Nó xây dựng giả thuyết từ quan sát, sau đó được xác nhận hoặc bác bỏ bởi các thí nghiệm tạm thời. Phương pháp khoa học này sẽ giữ lại giả thuyết giải thích tốt nhất cho dữ liệu và tiếp tục khám phá nó cho đến khi tìm ra một giả thuyết chính xác hơn.
@@ -507,19 +524,21 @@ Quan trọng là phải lưu ý rằng việc chọn lựa dữ liệu một cá
 Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học và trong các ngành khoa học xã hội nói chung. Nó ảnh hưởng đến cách đặt ra các câu hỏi, cách hình thành các giả thuyết, và cách diễn giải dữ liệu. Hiểu được sự khác biệt về phương pháp luận giữa các trường phái kinh tế có thể giúp chúng ta đánh giá các quan điểm đa dạng và phát triển ý kiến ​​của riêng mình về các chủ đề đã được thảo luận trong các phần trước.
 
 # Kết luận
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-
 ## Đánh giá khóa học
+
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Kỳ thi cuối cùng
+
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-
 ## Học thêm
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Xin chúc mừng bạn đã hoàn thành khóa học ECON 201 này! Tôi thực sự hy vọng bạn đã thích nó và mở ra một cánh cửa mới cho bản thân. Hành trình khám phá về Bitcoin của bạn chỉ mới bắt đầu, và tôi mời bạn khám phá tất cả các khóa học khác có sẵn tại trường đại học.
@@ -538,20 +557,55 @@ Ngoài việc đọc những tác phẩm này, bạn cũng có thể tìm hiểu
 
 Bằng cách đọc những tác phẩm này và khám phá những nguồn trực tuyến, bạn có thể phát triển hiểu biết sâu sắc hơn về các nguyên tắc và ý tưởng chính của trường phái kinh tế học Áo.
 
-### Hỗ trợ chúng tôi
+# Kết luận
 
-Khóa học này, cũng như tất cả nội dung trên trường đại học này, đã được cung cấp miễn phí cho bạn bởi cộng đồng của chúng tôi. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua GitHub. Thay mặt cho toàn bộ đội ngũ, chân thành cảm ơn bạn!
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
 
-### Đánh giá khóa học (sắp có)
-Hệ thống đánh giá cho khóa học sẽ sớm được tích hợp vào nền tảng E-learning mới này! Trong thời gian chờ đợi, chân thành cảm ơn bạn đã tham gia khóa học, và nếu bạn thấy thích thú, xin hãy cân nhắc chia sẻ nó với người khác. (sắp có)
-Nếu bạn muốn tiếp tục khám phá về chủ đề kinh tế học Áo, tôi gợi ý một số cuộc phỏng vấn với Théo Mogenet:
+## Đánh giá khóa học này
 
-- [Làm thế nào để chuẩn bị cho cuộc khủng hoảng kinh tế tiếp theo?](https://youtu.be/GJT8t1TEd7Q)
-- [Làm thế nào có thể diễn tả được sự hủy diệt của đồng euro?](https://youtu.be/eK3ONo11HN8)
-- [Hyper-bitcoinization: liệu chúng ta có thể vận hành trên tiêu chuẩn BTC?](https://youtu.be/nkN2twZ-lJY)
-  Nếu bạn vẫn muốn tìm hiểu thêm, bạn có thể xem những cuộc thảo luận về tình hình kinh tế vĩ mô và các chủ đề khác nhau:
-- [Làm thế nào để phá hủy Bitcoin?](https://youtu.be/gHKvj4eeiDg)
-- [Bitcoin thuộc phe phải, phe trái, hay là người vô chính phủ?](https://youtu.be/4fXGxzLtIIw)
-- [Để cứu lấy hành tinh, hãy rời bỏ đô la và euro](https://youtu.be/iHagDlH4bf8)
-- [Tại sao việc tăng lãi suất là không thể?](https://youtu.be/iHagDlH4bf8)
-Nếu không, hãy tiếp tục việc học của bạn với các khóa đào tạo và hướng dẫn khác từ trường đại học!
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Bài kiểm tra cuối cùng
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kết luận
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+Chúc mừng bạn đã hoàn thành khóa học này!
+
+Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
+
+Nhờ vào sự tận tâm và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của mình.
+
+Để tiếp tục khám phá sâu rộng vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
+
+#### Khám phá cuộc đời của F. Bastiat với
+
+https://planb.network/courses/eco102
+
+#### Hiểu về sự xuất hiện của siêu lạm phát với
+
+https://planb.network/courses/eco204
+
+#### Khám phá Bitcoin và các nguyên tắc cơ bản của nó với
+
+https://planb.network/courses/btc101
+
+#### Cập nhật bảo mật trực tuyến của bạn với
+
+https://planb.network/courses/scu101
+
+#### Khám phá Lightning Network với
+
+https://planb.network/courses/lnp201
+
+#### Học cách tạo cộng đồng Bitcoin của bạn với
+
+https://planb.network/courses/btc302
+
+#### Hiểu cách hoạt động của ví Bitcoin với
+
+https://planb.network/courses/cyp201

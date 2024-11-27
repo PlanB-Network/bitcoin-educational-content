@@ -1,9 +1,9 @@
-question: Quelles sont les métadonnées ajoutées à la clé étendue en plus de sa charge utile ?
-answer: Version / profondeur / empreinte parent / index / checksum.
+question: Quelle fonction est utilisée pour dériver la graine à partir de la phrase mnémonique ?
+answer: PBKDF2 avec HMAC-SHA512
 wrong_answers:
-  - Version / index.
-  - Version / profondeur / séparateur / checksum.
-  - Aucune métadonnée n'est ajoutée.
+  - SHA256 seul
+  - Double SHA256
+  - AES-256
 explanation: |
-  La clé étendue inclut plusieurs métadonnées. Il y a la version, la profondeur, l'empreinte parent, l'index et la checksum pour faciliter la dérivation des clés.
+  La graine est générée via la fonction PBKDF2 en utilisant HMAC-SHA512 et 2048 itérations, à partir de la phrase mnémonique et de la passphrase.
 reviewed: false

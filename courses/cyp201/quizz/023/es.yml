@@ -1,8 +1,9 @@
-question: ¿Cuál es el tamaño de una clave pública de Bitcoin sin comprimir incluyendo su prefijo?
-answer: 520 bits.
+question: ¿Cuál es el punto común utilizado por todos los participantes para calcular una clave pública en Bitcoin?
+answer: El punto generador G
 wrong_answers:
-  - 512 bytes.
-  - 256 bits.
-  - 512 bits.
+  - El hash SHA256
+  - Una frase mnemotécnica
+  - La clave pública comprimida
 explanation: |
-  Una clave pública de Bitcoin sin comprimir con su prefijo es de 520 bits, comprendiendo las coordenadas x e y del punto en la curva elíptica.
+  El punto generador G de la curva elíptica secp256k1 se utiliza para calcular las claves públicas a partir de las claves privadas.
+reviewed: false

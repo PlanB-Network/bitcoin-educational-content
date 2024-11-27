@@ -1,9 +1,8 @@
-question: Mihin SHA256-funktion 8 alustusvektorin arvot vastaavat?
-answer: Ensimmäisten 8 alkuluvun kuutiojuurten desimaaliosien ensimmäiset 64 bittiä.
+question: Mikä on pääasiallinen ero ShR- ja RotR-toimintojen välillä?
+answer: ShR siirtää bittejä lisäämällä nollia, RotR sijoittaa siirretyt bitit takaisin
 wrong_answers:
-  - Piin desimaalit.
-  - Ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä.
-  - Ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 64 bittiä.
+  - ShR poistaa siirretyt bitit, RotR moninkertaistaa niiden arvon
+  - ShR siirtää vasemmalle, RotR siirtää oikealle
+  - ShR on looginen operaatio, RotR on aritmeettinen
 explanation: |
-  SHA256: n alustusvektorit perustuvat ensimmäisten 8 alkuluvun kuutiojuurten desimaaliosien ensimmäisiin 64 bittiin.
-reviewed: false
+  ShR siirtää bittejä oikealle lisäämällä nollia, kun taas RotR suorittaa bittien kiertävän kierron.

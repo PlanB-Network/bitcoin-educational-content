@@ -1,8 +1,8 @@
-question: Normaalin lapsiavainparin johdannaisen suorittamiseksi, minun täytyy syöttää HMAC-SHA512 funktioon...
-answer: vanhemman julkinen avain || indeksi, vanhemman ketjukoodi.
+question: Mitä laajennettu julkinen avain mahdollistaa johdettavaksi?
+answer: Vain tavalliset lapsijulkiset avaimet
 wrong_answers:
-  - vanhemman yksityinen avain || indeksi, vanhemman ketjukoodi.
-  - vanhemman yksityinen avain, vanhemman ketjukoodi.
-  - vanhemman yksityinen avain || indeksi.
+  - Vain tavalliset lapsiprivaattiavaimet
+  - Sekä kovetetut että tavalliset lapsijulkiset avaimet
+  - Sekä kovetetut että tavalliset lapsiprivaattiavaimet
 explanation: |
-  Normaalin lapsiavaimen johdannaisen luomiseksi käytetään vanhemman julkista avainta yhdessä indeksin ja ketjukoodin kanssa HMAC-SHA512 funktiossa.
+  Laajennettu julkinen avain mahdollistaa vain tavallisten lapsijulkisten avainten johdattamisen, ei privaattiavaimia tai kovetettuja avaimia.

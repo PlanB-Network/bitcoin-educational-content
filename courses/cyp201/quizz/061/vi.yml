@@ -1,11 +1,8 @@
-question: Biến nào cho phép phân biệt các cặp khóa anh em với nhau (có cùng một cặp khóa cha mẹ)?
-
-answer: Chỉ số.
-
+question: Kích thước tổng cộng của một khóa mở rộng kèm theo checksum là bao nhiêu?
+answer: 82 byte
 wrong_answers:
-  - Muối mật mã.
-  - Tên đầu tiên.
-  - Mã chuỗi cha mẹ.
-
+  - 78 byte
+  - 64 byte
+  - 128 byte
 explanation: |
-  Chỉ số được sử dụng để phân biệt các cặp khóa anh em được tạo ra từ cùng một cặp cha mẹ trong ví HD.
+  Một khóa mở rộng không kèm checksum có kích thước là 78 byte và khi bao gồm checksum thì kích thước là 82 byte.

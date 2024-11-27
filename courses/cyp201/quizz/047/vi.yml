@@ -1,8 +1,9 @@
-question: Tại sao việc sử dụng một cụm mật khẩu lại tăng cường bảo mật cho ví HD?
-answer: Nó thêm một lớp bảo vệ bổ sung cho cụm từ ghi nhớ.
+question: Kích thước tính bằng bit của một đoạn nhị phân được sử dụng để tạo ra mỗi từ gợi nhớ là bao nhiêu?
+answer: 11 bit
 wrong_answers:
-  - Nó cho phép tạo ra các khóa công khai mạnh mẽ hơn.
-  - Nó bảo vệ các giao dịch bằng cách mã hóa.
-  - Nó nhân đôi số lượng bitcoin trong ví.
+  - 8 bit
+  - 16 bit
+  - 10 bit
 explanation: |
-  Cụm mật khẩu tăng cường bảo mật bằng cách thêm một phần dữ liệu bổ sung vào cụm từ ghi nhớ, hoạt động tương tự như một hình thức xác thực hai yếu tố (2FA).
+  Mỗi đoạn 11-bit tương ứng với một từ trong danh sách chuẩn hóa gồm 2048 từ trong BIP39.
+reviewed: false

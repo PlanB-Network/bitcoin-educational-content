@@ -1,8 +1,8 @@
-question: Como deve ser escolhida uma frase-senha eficaz?
-answer: Deve ser longa, diversificada e aleatória, sem conexão com o usuário.
+question: Qual é o propósito da frase mnemônica em uma carteira Bitcoin HD?
+answer: Derivar deterministicamente todas as chaves
 wrong_answers:
-  - Deve ser fácil de lembrar e relacionada ao ambiente do usuário.
-  - Deve ser curta, mas incluir números.
-  - Deve conter pelo menos 10 dígitos.
+  - Para assinar transações diretamente
+  - Para criptografar endereços Bitcoin
+  - Para gerar um hash para os UTXOs
 explanation: |
-  Uma frase-senha eficaz deve ser longa (20 a 40 caracteres), diversificada e aleatória para proporcionar máxima segurança, semelhante a uma boa senha.
+  A frase mnemônica permite a derivação de todas as chaves privadas e públicas em uma carteira, facilitando assim o backup e a recuperação.

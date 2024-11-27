@@ -1,8 +1,8 @@
-question: 比特币HD钱包中用于派生的算法是什么？
-answer: HMAC/PBKDF2
+question: 用于基于密钥计算认证码的派生算法是什么？
+answer: HMAC-SHA512
 wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
-explanation:
-  比特币HD钱包使用HMAC（基于哈希的消息认证码）进行密钥派生，以及PBKDF2（基于密码的密钥派生函数2）进行种子派生。
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512是一种算法，它结合了哈希函数和密钥来计算认证码。

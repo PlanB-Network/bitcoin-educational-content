@@ -1,9 +1,9 @@
-question: In which numeral system is the extended key usually encoded to be presented to the user?
-answer: In Base 58.
+question: What is the role of the seed in a Bitcoin HD wallet?
+answer: To serve as the starting point for the derivation of all keys
 wrong_answers:
-  - In bech32.
-  - In Base 16.
-  - In bech32m.
+  - Store the wallet's transactions
+  - Directly generate the master public key
+  - Ensure transaction confidentiality
 explanation: |
-  The extended key is generally encoded in Base 58 to be more readable for the user and to avoid ambiguous characters.
+  The seed is a 512-bit sequence derived from the mnemonic phrase and the passphrase. It forms the basis of all the keys in the wallet.
 reviewed: false

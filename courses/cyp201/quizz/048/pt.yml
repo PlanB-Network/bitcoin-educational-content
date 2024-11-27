@@ -1,8 +1,8 @@
-question: Qual é a função usada para gerar a semente a partir da frase mnemônica e da senha?
-answer: PBKDF2.
+question: Por que uma frase mnemônica de 24 palavras é frequentemente considerada supérflua para uma carteira Bitcoin?
+answer: As chaves derivadas oferecem apenas 128 bits de segurança
 wrong_answers:
-  - SHA256.
-  - HMAC.
-  - Argon2.
+  - O software não suporta frases de 24 palavras
+  - Não permite a derivação de chaves públicas
+  - Frases mais curtas não são padronizadas
 explanation: |
-  PBKDF2 (Password-Based Key Derivation Function 2) é usada para derivar a semente a partir da frase mnemônica e da senha em carteiras HD.
+  Embora uma frase de 24 palavras ofereça 256 bits de segurança, as chaves privadas Bitcoin derivadas garantem apenas 128 bits de segurança, tornando o excesso desnecessário.

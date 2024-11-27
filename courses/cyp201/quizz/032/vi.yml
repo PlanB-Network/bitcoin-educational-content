@@ -1,8 +1,8 @@
-question: BIP (Đề xuất Cải tiến Bitcoin) nào đã đề xuất phiên bản đầu tiên của một ví HD trên Bitcoin?
-answer: BIP32.
+question: Cờ sighash nào cho phép gây quỹ cộng đồng bằng cách bao gồm một đầu vào duy nhất và tất cả các đầu ra?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32, được đề xuất vào năm 2012, là đề xuất đầu tiên giới thiệu khái niệm về ví xác định phân cấp (HD) trong Bitcoin.
+  SIGHASH_ALL kết hợp với SIGHASH_ANYONECANPAY cho phép thêm đầu vào mà không thay đổi các đầu ra.

@@ -1,8 +1,9 @@
-question: Mikä on Bitcoinin yksityisavaimen koko?
-answer: 256 bittiä.
+question: Mikä on skalaarikertolaskun pääominaisuus elliptisillä käyrillä?
+answer: Yksisuuntainen funktio
 wrong_answers:
-  - 512 tavua.
-  - 520 bittiä.
-  - 512 bittiä.
+  - Helposti peruutettavissa
+  - Perustuu alkulukujen tekijöihin jakamiseen
+  - Erittäin pitkä laskettava
 explanation: |
-  Bitcoinin yksityisavaimella on standardikoko, joka on 256 bittiä. Tämä vastaa Bitcoinissa käytettyä elliptisen käyrän algoritmia.
+  Skalaarikertolasku elliptisillä käyrillä on yksisuuntainen funktio, mikä tekee yksityisen avaimen palauttamisen julkisesta avaimesta mahdottomaksi.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Chúng ta sử dụng bao nhiêu lần lặp lại trong hàm PBKDF2 trong Bitcoin?
-answer: 2048.
+question: Kích thước khối mà SHA512 sử dụng trong HMAC là bao nhiêu?
+answer: 128 byte
 wrong_answers:
-  - 512.
-  - 1000.
-  - 21000.
+  - 64 byte
+  - 256 byte
+  - 1024 byte
 explanation: |
-  Bitcoin sử dụng 2048 lần lặp lại trong hàm PBKDF2 để tăng cường bảo mật cho seed.
+  SHA512 sử dụng các khối 128-byte, tương đương với 1024 bit, cho các phép tính của mình.
 reviewed: false

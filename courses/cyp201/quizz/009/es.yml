@@ -1,8 +1,9 @@
-question: ¿Cómo se llama la construcción de la función hash SHA256?
-answer: Construcción de Merkle-Damgard.
+question: ¿Cuál es la construcción utilizada por SHA256 para procesar mensajes de longitud arbitraria?
+answer: La construcción de Merkle-Damgård
 wrong_answers:
-  - Construcción Esponja.
-  - Construcción de Funciones Hash Iterativas (HAIFA).
-  - Construcción Feistel.
+  - La construcción Euclidiana
+  - La construcción de Rivest-Shamir-Adleman
+  - La construcción de Knuth-Morris-Pratt
 explanation: |
-  SHA256 utiliza la Construcción de Merkle-Damgard, una estructura comúnmente usada para crear funciones hash seguras.
+  La construcción de Merkle-Damgård permite transformar una función de compresión en una función hash para mensajes de longitud variable.
+reviewed: false

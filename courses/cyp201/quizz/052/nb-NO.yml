@@ -1,9 +1,8 @@
-question: Hva er den pseudotilfeldige funksjonen som brukes i PBKDF2 for å beregne frøet til en Bitcoin HD-lommebok?
-answer: HMAC-SHA512.
+question: Hva er formålet med å bruke en lokke-lommebok med en passfrase?
+answer: Å simulere en lommebok med en liten mengde i tilfelle fysisk tvang
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Legge til en automatisk sikkerhetskopi av transaksjoner
+  - Generere en ekstra mnemonisk frase
+  - Beskytte UTXOer fra et dobbeltutgift
 explanation: |
-  HMAC-SHA512 er den pseudotilfeldige funksjonen som brukes i PBKDF2 for å generere frøet til en Bitcoin HD-lommebok.
-reviewed: false
+  En lokke-lommebok brukes for å avlede en angripers oppmerksomhet ved å gi tilgang til en lommebok som inneholder en liten mengde bitcoins.

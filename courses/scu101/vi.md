@@ -114,8 +114,6 @@ Một lựa chọn tiến bộ hơn là mạng TOR (The Onion Router), cung cấ
 TOR là hợp pháp và được sử dụng bởi các nhà báo, các nhà hoạt động vì tự do, và những người khác muốn tránh kiểm duyệt ở các quốc gia độc tài. Tuy nhiên, điều quan trọng là phải được hiểu rằng TOR không bảo vệ các trang web được truy cập hoặc chính các máy tính. Ngoài ra, sử dụng TOR có thể làm chậm kết nối internet vì dữ liệu phải đi qua máy tính của ba người khác trước khi đến đích. Cũng cần lưu ý rằng TOR không phải là giải pháp hoàn hảo để đảm bảo 100% ẩn danh và không nên sử dụng TOR cho các hoạt động bất hợp pháp.
 ![](assets/notext/7.webp)
 
-
-
 https://planb.network/tutorials/others/tor-browser
 
 ## VPN và kết nối internet
@@ -150,8 +148,6 @@ Tại Liên minh Châu Âu, bảo vệ dữ liệu được quy định bởi Qu
 Để tránh bị lừa đảo trực tuyến, một điều rất quan trọng là bạn cần xác minh danh tính của trang web mình đang duyệt, đặc biệt là kiểm tra phần mở rộng và tên miền. Ngoài ra, hãy cảnh giác với những kẻ lừa đảo sử dụng các chữ cái tương tự trong URL để lừa đảo người dùng.
 ![](assets/en/10.webp)
 Tóm lại, việc sử dụng VPN có thể cải thiện đáng kể bảo mật trực tuyến, cả cho doanh nghiệp và người dùng cá nhân. Hơn nữa, việc thực hành thói quen duyệt web tốt có thể góp phần vào việc duy trì vệ sinh số hóa tốt hơn. Trong phần tiếp theo của khóa học này, chúng ta sẽ đề cập đến bảo mật máy tính, bao gồm cập nhật, phần mềm diệt virus và quản lý mật khẩu.
-
-
 
 # Những thói quen tốt cần có khi sử dụng máy tính
 
@@ -202,9 +198,6 @@ Hãy đối xử với máy tính của bạn như bạn đối xử với ngôi
 
 Kết luận, việc chọn một hệ điều hành phù hợp với nhu cầu của bạn và cập nhật thường xuyên, cũng như các ứng dụng đã cài đặt, là cực kỳ quan trọng. Một điều nữa cũng rất quan trọng là sử dụng một phần mềm diệt vi rút hiệu quả, dễ sử dụng và áp dụng các thói quen tốt nhằm đảm bảo sự an toàn cho máy tính và dữ liệu của bạn.
 
-
-
-
 ## Quản lý hacking & sao lưu: Bảo vệ dữ liệu của Bạn
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
@@ -247,7 +240,6 @@ https://planb.network/tutorials/others/proton-drive
 
 https://planb.network/tutorials/others/veracrypt
 
-
 # Triển khai giải pháp.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -280,8 +272,6 @@ Nói chung, bắt đầu sử dụng một địa chỉ email mới, an toàn h�
 Bitcoin Bonus: Có thể nên tạo một địa chỉ email cụ thể cho các hoạt động Bitcoin của chúng ta (tạo tài khoản giao dịch) để thực sự tách biệt các lĩnh vực trong cuộc sống của chúng ta.
 
 https://planb.network/tutorials/others/proton-mail
-
-
 
 ## Trình quản lý mật khẩu
 
@@ -370,8 +360,6 @@ https://planb.network/tutorials/others/authy
 
 https://planb.network/tutorials/others/security-key
 
-
-
 # Phần Thực Hành
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -384,8 +372,6 @@ Bảo vệ hộp thư điện tử của bạn là một bước quan trọng đ
 
 https://planb.network/tutorials/others/proton-mail
 
-
-
 ## Bảo mật 2FA
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
@@ -397,9 +383,6 @@ https://planb.network/tutorials/others/authy
 Một tùy chọn khác là sử dụng khóa bảo mật vật lý. Hướng dẫn bổ sung này cho bạn thấy cách thiết lập và sử dụng khóa bảo mật như một yếu tố xác thực thứ hai:
 
 https://planb.network/tutorials/others/security-key
-
-
-
 
 ## Tạo quản lý mật khẩu
 
@@ -415,8 +398,6 @@ https://planb.network/tutorials/others/bitwarden
 
 https://planb.network/tutorials/others/keepass
 
-
-
 ## Bảo vệ tài khoản của bạn
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
@@ -426,7 +407,6 @@ Trong hai hướng dẫn này, tôi cũng hướng dẫn bạn cách bảo vệ 
 https://planb.network/tutorials/others/bitwarden
 
 https://planb.network/tutorials/others/keepass
-
 
 ## Thiết lập sao lưu
 
@@ -439,9 +419,6 @@ https://planb.network/tutorials/others/proton-drive
 Và để bảo mật các tệp của bạn lưu trữ trên các phương tiện di động như ổ USB hoặc ổ cứng di động, tôi cũng sẽ chỉ cho bạn cách mã hóa và giải mã các phương tiện này dễ dàng bằng VeraCrypt:
 
 https://planb.network/tutorials/others/veracrypt
-
-
-
 
 ## Thay đổi trình duyệt & VPN
 
@@ -458,8 +435,6 @@ https://planb.network/tutorials/others/mullvad
 Ngoài ra, hãy tìm hiểu cách sử dụng Tor Browser, một trình duyệt được thiết kế đặc biệt để bảo vệ quyền riêng tư trực tuyến của bạn:
 
 https://planb.network/tutorials/others/tor-browser
-
-
 
 # Đi sâu hơn
 
@@ -533,37 +508,52 @@ Các phương án thay thế để chống lại quảng cáo xâm nhập bao g�
 
 Là một phần của mô-đun đào tạo "Bảo mật 101" tại Découvre Bitcoin Academy, chúng ta cũng đã thảo luận về xác thực Lightning. Hệ thống này tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần cung cấp địa chỉ email hay thông tin cá nhân. Có thể có các danh tính phi tập trung do người dùng kiểm soát, nhưng đang thiếu sự tiêu chuẩn hóa trong các dự án danh tính phi tập trung. Các trình quản lý gói như Nuget và Chocolaté, cho phép tải xuống phần mềm mã nguồn mở ngoài Microsoft Store, được khuyến nghị dùng để tránh các cuộc tấn công độc hại. Tóm lại, DNS rất quan trọng cho bảo mật trực tuyến, nhưng cần phải luôn cảnh giác trước các cuộc tấn công tiềm năng vào máy chủ DNS.
 
+# Kết luận
 
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Đánh giá khóa học
+## Đánh giá khóa học này
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Kỳ thi cuối cùng
+## Bài kiểm tra cuối cùng
+
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Kết luận
 
-## Lời cảm ơn và tiếp tục khám phá
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
 
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+Chúc mừng bạn đã hoàn thành khóa học này!
 
-### Đánh giá khóa học & hỗ trợ chúng tôi
+Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc này trong hành trình học tập của mình.
 
-Khóa học này, cùng với tất cả nội dung trên học viện này, đã được cung cấp miễn phí cho bạn bởi cộng đồng của chúng tôi. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của học viện, và thậm chí đóng góp vào sự phát triển của nó qua GitHub. Thay mặt cho toàn bộ đội ngũ, xin cảm ơn!
+Nhờ sự tận tâm và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
 
-Một hệ thống đánh giá cho khóa học sẽ sớm được tích hợp vào nền tảng e-learning mới này! Trong thời gian chờ đợi, rất cảm ơn bạn đã tham gia khóa học, và nếu bạn thích nó, xin hãy cân nhắc chia sẻ nó với người khác.
+Để tiếp tục đào sâu kiến thức của bạn trong vũ trụ Bitcoin, chúng tôi mời bạn khám phá các khóa học khác có sẵn trên Plan ₿ Network như:
 
-### Tiếp tục học hỏi
+#### Khám phá Bitcoin và các nguyên lý cơ bản của nó với
 
-Xin chúc mừng bạn đã hoàn thành khóa đào tạo SECU 101 này! Chúng tôi thực sự hy vọng bạn đã thích nó và nó đã mở ra cánh cửa mới cho bạn. Bây giờ bạn đã sẵn sàng để nhận bitcoin đầu tiên của mình hoặc chỉ đơn giản là tiếp tục cuộc phiêu lưu với các khóa học cấp độ 2!
+https://planb.network/courses/btc101
 
-- BTC 101 sẽ cung cấp cho bạn các kiến thức cơ bản về Bitcoin
-- BTC 102 sẽ giúp bạn thiết lập kế hoạch bitcoin của mình
-- LN 201 và 202 sẽ giới thiệu bạn với Lightning Network, một mạng lưới thanh toán tầng thứ hai
-- ECON 201 sẽ khám phá về trường phái kinh tế học Áo
-- MINING 201 để tìm hiểu thêm về việc đào bitcoin
-- (và nhiều hơn nữa)
+#### Nhận và bảo mật bitcoin đầu tiên của bạn với
 
-Một lời cảm ơn sâu sắc đến Patreon, các thành viên, và những người quyên góp vì sự hỗ trợ tài chính của họ, cảm ơn những người đã chia sẻ, và cảm ơn những người đã làm cho khóa đào tạo này trở nên có thể: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & toàn bộ đội ngũ.
-ẹn gặp lại bạn!
+https://planb.network/courses/btc102
+
+#### Khám phá mạng Lightning với
+
+https://planb.network/courses/lnp201
+
+#### Khám phá tư duy kinh tế của trường phái Áo với
+
+https://planb.network/courses/eco201
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+
+https://planb.network/courses/his201
+
+#### Hiểu cách hoạt động của ví Bitcoin với
+
+https://planb.network/courses/cyp201

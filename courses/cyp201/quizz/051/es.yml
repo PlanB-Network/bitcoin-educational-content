@@ -1,8 +1,8 @@
-question: ¿Cuál es la función de derivación de clave utilizada para derivar una semilla a partir de una frase mnemotécnica y una frase de paso opcional?
-answer: PBKDF2.
+question: ¿Cuál es la principal diferencia entre una frase de paso y un código PIN para una cartera de Bitcoin?
+answer: La frase de paso modifica la derivación de clave, no el código PIN
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - El código PIN está vinculado a la frase mnemotécnica
+  - El código PIN se utiliza para encriptar transacciones pero no la frase de paso
+  - El código PIN genera direcciones de Bitcoin
 explanation: |
-  La función PBKDF2 se utiliza para derivar la semilla de un monedero HD a partir de la frase mnemotécnica y una frase de paso opcional.
+  A diferencia del código PIN, la frase de paso está directamente involucrada en el proceso de derivación de clave y cambia las claves de la cartera.

@@ -1,8 +1,8 @@
-question: 如果我生成一个256位的随机数，我的恢复短语将包含多少个单词？
-answer: 24个单词。
+question: PRNG和TRNG之间的主要区别是什么？
+answer: PRNG是确定性的，而TRNG生成真正的随机数。
 wrong_answers:
-  - 6个单词。
-  - 8个单词。
-  - 12个单词。
-explanation:
-  根据BIP39标准，一个256位的随机数对应于一个24个单词的助记词短语。
+  - 对于大数，PRNG比TRNG更快。
+  - PRNG仅用于加密，TRNG则不用。
+  - PRNG使用私钥，TRNG使用公钥。
+explanation: |
+  PRNG是确定性的，这意味着它们可以从一个初始状态重现序列，而TRNG则不行。

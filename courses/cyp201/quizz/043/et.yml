@@ -1,9 +1,9 @@
-question: Kuidas määrata taastefraasi kontrollsumma biti suurust?
-answer: Jagage juhusliku numbri (entroopia) suurus 32-ga.
+question: Mitu bitti entroopiat kasutatakse 24-sõnalise mneemonilise fraasi jaoks?
+answer: 256 bitti
 wrong_answers:
-  - Jagage juhusliku numbri (entroopia) suurus 8-ga.
-  - Jagage juhusliku numbri (entroopia) suurus 16-ga.
-  - Korrutage juhusliku numbri (entroopia) suurus 2-ga.
+  - 128 bitti
+  - 512 bitti
+  - 64 bitti
 explanation: |
-  Kontrollsumma suurus saadakse jagades entroopia suuruse 32-ga, vastavalt BIP39-le.
-reviewed: false
+  24-sõnaline mneemoniline fraas põhineb 256 bitil entroopiat, tagades väga kõrge turvalisuse.
+üle_vaadatud: false

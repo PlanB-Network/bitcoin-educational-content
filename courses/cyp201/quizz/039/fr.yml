@@ -1,9 +1,9 @@
-question: Quelles sont les caractéristiques d'un PRNG cryptographiquement sûr ?
-answer: Il doit être imprédictible, statistiquement aléatoire, et résistant aux attaques.
+question: Quel est le rôle principal d'un portefeuille Bitcoin ?
+answer: Gérer et sécuriser les clés privées
 wrong_answers:
-  - Il doit être rapide, utilisable dans le cloud, et open source.
-  - Il doit être non déterministe, basé sur un phénomène physique, et évolutif.
-  - Il doit être matériel, généré par un processeur, et réversible.
+  - Stocker les bitcoins de l'utilisateur
+  - Assurer la confidentialité des transactions automatiquement
+  - Générer des bitcoins pour chaque utilisateur
 explanation: |
-  Un PRNG cryptographiquement sûr doit être imprédictible, résistant même si certains résultats sont révélés, et avoir une période suffisamment longue pour éviter la répétition de séquences.
+  Un portefeuille Bitcoin ne stocke pas directement des bitcoins mais gère les clés privées nécessaires pour déverrouiller les UTXOs qui représentent les bitcoins.
 reviewed: false

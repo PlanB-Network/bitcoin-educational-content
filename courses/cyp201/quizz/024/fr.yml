@@ -1,9 +1,9 @@
-question: Quelles sont les coordonnées du point générateur G utilisé sur la courbe elliptique secp256k1 ?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Quelle est la taille d'une clé privée brute utilisée sur Bitcoin ?
+answer: 256 bits
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bits
+  - 512 bits
+  - 1024 bits
 explanation: |
-  Le point générateur G est un point prédéfini sur la courbe elliptique secp256k1, utilisé pour générer les clés publiques à partir des clés privées dans Bitcoin.
+  Une clé privée dans Bitcoin est un entier aléatoire de 256 bits, assurant un espace de clés suffisamment large pour garantir la sécurité.
 reviewed: false

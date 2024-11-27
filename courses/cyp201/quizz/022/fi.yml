@@ -1,9 +1,9 @@
-question: Kuinka Bitcoinin julkinen avain määritetään?
-answer: Se määritetään lisäämällä ja kaksinkertaistamalla pisteitä elliptisellä käyrällä lähtöpisteestä käyttäen yksityistä avainta.
+question: Kuinka julkinen avain lasketaan yksityisavaimesta?
+answer: Käyttämällä skalaarikertolaskua elliptisellä käyrällä
 wrong_answers:
-  - Se määritetään satunnaisesta tai pseudosatunnaisesta numerosta.
-  - Se määritetään hashaamalla sen yksityinen avain.
-  - Se määritetään hashaamalla sen siemen.
+  - Soveltamalla hajautusfunktiota yksityisavaimelle
+  - Asymmetrisen salauksen kautta
+  - Toistuvalla numeeristen arvojen lisäyksellä
 explanation: |
-  Julkinen avain luodaan yksityisestä avaimesta suorittamalla toimenpiteitä elliptisellä käyrällä, alkaen lähtöpisteestä.
+  Julkinen avain saadaan yksityisavaimen skalaarikertolaskulla generaattoripisteen G kanssa elliptisellä käyrällä.
 reviewed: false

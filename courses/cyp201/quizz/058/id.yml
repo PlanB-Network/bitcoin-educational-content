@@ -1,8 +1,8 @@
-question: Metadata apa saja yang ditambahkan ke kunci ekstensi selain dari muatannya?
-answer: Versi / kedalaman / sidik jari induk / indeks / checksum.
+question: Fungsi apa yang digunakan untuk mendapatkan seed dari frasa mnemonik?
+answer: PBKDF2 dengan HMAC-SHA512
 wrong_answers:
-  - Versi / indeks.
-  - Versi / kedalaman / pemisah / checksum.
-  - Tidak ada metadata yang ditambahkan.
+  - SHA256 saja
+  - Double SHA256
+  - AES-256
 explanation: |
-  Kunci ekstensi mencakup beberapa bagian metadata. Ada versi, kedalaman, sidik jari induk, indeks, dan checksum untuk memfasilitasi derivasi kunci.
+  Seed dihasilkan menggunakan fungsi PBKDF2 dengan HMAC-SHA512 dan 2048 iterasi, dari frasa mnemonik dan passphrase.

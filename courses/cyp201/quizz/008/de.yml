@@ -1,9 +1,9 @@
-question: Wie viele Runden umfasst die SHA256-Kompressionsfunktion?
-answer: 64 Runden.
+question: Warum wendet SHA256 eine Vorverarbeitung auf die Eingabenachricht an?
+answer: Um eine Länge zu gewährleisten, die ein Vielfaches von 512 Bits ist
 wrong_answers:
-  - 10 Runden.
-  - 128 Runden.
-  - 150 Runden.
+  - Um die Integrität der Nachricht zu überprüfen
+  - Um die Daten vor dem Hashing zu verschlüsseln
+  - Um die Größe der generierten Hashes zu erhöhen
 explanation: |
-  Die SHA256-Kompressionsfunktion führt 64 Runden für jeden verarbeiteten Datenblock durch.
+  Die Vorverarbeitung passt die Nachrichtenlänge an, indem sie Füllbits und eine binäre Darstellung ihrer Länge hinzufügt.
 reviewed: false

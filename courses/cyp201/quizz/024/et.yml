@@ -1,9 +1,9 @@
-question: Mis on elliptilisel kõveral secp256k1 kasutatava generaatorpunkti G koordinaadid?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Mis on Bitcoinis kasutatava toorprivaatvõtme suurus?
+answer: 256 bitti
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bitti
+  - 512 bitti
+  - 1024 bitti
 explanation: |
-  Generaatorpunkt G on eeldefineeritud punkt elliptilisel kõveral secp256k1, mida kasutatakse avalike võtmete genereerimiseks privaatvõtmetest Bitcoinis.
+  Bitcoinis on privaatvõti 256-bitine juhuslik täisarv, tagades piisavalt suure võtmeruumi, et garanteerida turvalisus.
 reviewed: false

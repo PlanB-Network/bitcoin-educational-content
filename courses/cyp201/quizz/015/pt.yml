@@ -1,9 +1,8 @@
-question: Qual é o nome da curva elíptica usada para algoritmos de assinatura digital no Bitcoin?
-answer: secp256k1.
+question: Que tipo de chave é usada para bloquear UTXOs no Bitcoin?
+answer: Chave pública
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Chave privada
+  - Hash da semente
+  - Frase mnemônica
 explanation: |
-  A curva secp256k1 é usada no protocolo Bitcoin para assinaturas digitais.
-reviewed: false
+  UTXOs são bloqueados com uma chave pública ou seu hash, e desbloqueados com a chave privada correspondente.

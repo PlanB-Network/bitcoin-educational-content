@@ -1,9 +1,9 @@
-question: What are the two types of child key derivation in an HD wallet?
-answer: Normal derivation and hardened derivation.
+question: What information is not included in an extended key?
+answer: The key's transaction history
 wrong_answers:
-  - Simple derivation and complex derivation.
-  - Elliptic derivation and curve derivation.
-  - Static derivation and dynamic derivation.
+  - The key's index number
+  - The key (private or public)
+  - The chain code
 explanation: |
-  The two types of derivation are normal derivation, which uses the parent public key, and hardened derivation, which uses the parent private key.
+  An extended key contains only the information necessary to derive child keys, not information related to transactions.
 reviewed: false

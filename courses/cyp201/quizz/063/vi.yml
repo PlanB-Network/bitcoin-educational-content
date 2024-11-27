@@ -1,8 +1,8 @@
-question: Hai loại phái sinh khóa con trong ví HD là gì?
-answer: Phái sinh bình thường và phái sinh cứng.
+question: Thông tin nào không được bao gồm trong một khóa mở rộng?
+answer: Lịch sử giao dịch của khóa
 wrong_answers:
-  - Phái sinh đơn giản và phái sinh phức tạp.
-  - Phái sinh elliptic và phái sinh đường cong.
-  - Phái sinh tĩnh và phái sinh động.
+  - Số chỉ mục của khóa
+  - Khóa (riêng tư hoặc công khai)
+  - Mã chuỗi
 explanation: |
-  Hai loại phái sinh là phái sinh bình thường, sử dụng khóa công khai của cha mẹ, và phái sinh cứng, sử dụng khóa riêng tư của cha mẹ.
+  Một khóa mở rộng chỉ chứa thông tin cần thiết để tạo ra các khóa con, không bao gồm thông tin liên quan đến giao dịch.

@@ -1,9 +1,9 @@
-question: Per applicare questa curva ellittica a usi crittografici, su quale campo deve essere definita?
-answer: Un campo finito di numeri interi positivi.
+question: Quale algoritmo di firma è stato introdotto in Bitcoin con Taproot?
+answer: Schema di firma Schnorr
 wrong_answers:
-  - Il campo dei numeri reali.
-  - Un campo finito di numeri reali.
-  - Un campo complesso.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  In Bitcoin, la curva ellittica secp256k1 è definita su un campo finito di numeri interi positivi modulo un numero primo per evitare approssimazioni e garantire la sicurezza.
+  Lo schema di firma Schnorr è stato introdotto nel novembre 2021 con l'aggiornamento Taproot.
 reviewed: false

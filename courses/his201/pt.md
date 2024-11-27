@@ -1330,3 +1330,38 @@ Em segundo lugar, o Bitcoin não foi construído em um dia. Mesmo após o lança
 Em terceiro lugar, o Bitcoin cresceu organicamente. Foi capaz de se desenvolver discretamente, atraindo pessoas gradualmente. Por quase um ano e meio, foi um projeto muito confidencial, conhecido por entusiastas e curiosos. Foi somente após o slashdotting de julho de 2010 que começou a explodir. A frenesi especulativa sobre ele não se estabeleceu de fato até 2011, quando o preço aumentou exponencialmente para $32.
 Em quarto lugar, o Bitcoin foi uma criação altruísta. Satoshi Nakamoto ofereceu o Bitcoin ao mundo. Ele liberou o programa sob uma licença gratuita. Ele não buscava fama, lucro, nem poder. Ele garantiu a segurança da mineração da rede por mais de um ano, sem pedir qualquer compensação. Embora tenha acumulado mais de um milhão de bitcoins, ele nunca os gastou. Ele finalmente desapareceu, principalmente devido a temores relacionados à atenção criada pelo caso WikiLeaks, deixando o projeto nas mãos de uma comunidade, sem uma única figura dominante.
 Em 2011, Satoshi desapareceu, mas o Bitcoin sobreviveu. A criptomoeda até decolou definitivamente, tanto do ponto de vista midiático quanto econômico. A máquina foi lançada e ninguém poderia pará-la.
+# Conclusão
+<partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
+## Avalie este curso
+<chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
+<isCourseReview>true</isCourseReview>
+## Exame final
+<chapterId>d61dbdf3-b482-412b-b725-0a19006603b7</chapterId>
+<isCourseExam>true</isCourseExam>
+## Conclusão
+<chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
+Parabéns por completar este curso!
+
+Estamos muito satisfeitos que tenha alcançado este importante marco em sua jornada de aprendizagem.
+
+Graças à sua dedicação e compromisso, você adquiriu conhecimentos e habilidades valiosos que servirão em seu desenvolvimento profissional.
+
+Para continuar explorando em profundidade o universo Bitcoin, convidamos você a descobrir todos os outros cursos disponíveis na Plan ₿ Network:
+
+#### Descubra o Bitcoin e seus fundamentos com
+https://planb.network/courses/btc101
+
+#### Descubra a Escola Austríaca de Economia com
+https://planb.network/courses/eco201
+
+#### Obtenha e proteja seus primeiros bitcoins com
+https://planb.network/courses/btc102
+
+#### Atualize sua segurança online com
+https://planb.network/courses/scu101
+
+#### Descubra a evolução da liberdade através dos tempos com
+https://planb.network/courses/phi201
+
+#### Compreenda os fundamentos da mineração com
+https://planb.network/courses/min201

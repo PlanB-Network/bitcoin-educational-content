@@ -1,0 +1,8 @@
+question: トランザクションにおけるBitcoinアドレスの主な役割は何ですか？
+answer: scriptPubKeyでUTXOをロックする
+wrong_answers:
+  - scriptSigでUTXOをアンロックする
+  - トランザクションの終了を示す
+  - 確認ブロックを特定する
+explanation: |
+  BitcoinアドレスはscriptPubKeyに埋め込まれ、UTXOをロックします。これにより、資金をアンロックするために必要な条件が決定されます。

@@ -1,9 +1,9 @@
-question: Why is it important to use a good source of entropy to generate private keys?
-answer: Poor entropy can make private keys predictable and vulnerable to attacks.
+question: What is the main limitation of JBOK wallets?
+answer: They require an independent backup for each private key
 wrong_answers:
-  - Good entropy helps optimize wallet performance.
-  - Entropy plays no role in the security of private keys.
-  - Poor entropy slows down transactions.
+  - They do not allow for the generation of new addresses
+  - They are incompatible with digital signatures
+  - They use uncompressed public keys
 explanation: |
-  If the entropy used to generate private keys is low, it could allow an attacker to guess or compute these keys, compromising the security of the wallet.
+  JBOK wallets force the user to back up each private key individually, complicating their management.
 reviewed: false

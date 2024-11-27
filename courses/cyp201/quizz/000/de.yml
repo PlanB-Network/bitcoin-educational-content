@@ -1,9 +1,9 @@
-question: Was ist das Ziel des kryptografischen Hashing-Prozesses?
-answer: Eine Bitfolge beliebiger Länge auf eine Bitfolge fester Länge abzubilden.
+question: Was ist die Hauptfunktion einer Hash-Funktion?
+answer: Sie wandelt Informationen beliebiger Länge in einen Fingerabdruck fester Größe um.
 wrong_answers:
-  - Eine Nachricht verschlüsseln.
-  - Sicherstellen, dass der Absender der Nachricht in Zukunft nicht leugnen kann, die Nachricht gesendet zu haben.
-  - Die Vertraulichkeit der Daten garantieren.
+  - Sie verschlüsselt Nachrichten, um sie unlesbar zu machen.
+  - Sie wird nur verwendet, um die Integrität der Bitcoin-Software zu überprüfen.
+  - Sie generiert private Schlüssel für Bitcoin-Wallets.
 explanation: |
-  Hashing transformiert Daten beliebiger Größe in eine Ausgabe fester Größe, nützlich für die Überprüfung der Integrität, ohne die Daten notwendigerweise zu verschlüsseln oder zu authentifizieren.
+  Eine Hash-Funktion transformiert Daten beliebiger Größe in einen Hash fester Größe, was für viele Anwendungen in Bitcoin entscheidend ist.
 reviewed: false

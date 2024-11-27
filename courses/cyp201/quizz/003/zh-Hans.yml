@@ -1,8 +1,9 @@
-question: 在比特币协议中，什么是HASH160？
-answer: 一个SHA256哈希后跟一个RIPEMD160哈希。
+question: SHA256与RIPEMD160的主要区别是什么？
+answer: RIPEMD160生成的哈希值比SHA256短
 wrong_answers:
-  - 一个双重RIPEMD160哈希。
-  - 一个双重SHA256哈希。
-  - 一个MD5哈希后跟一个SHA256哈希。
+  - SHA256已经过时，而RIPEMD160则没有
+  - RIPEMD160仅在工作量证明机制中使用
+  - SHA256从未与其他哈希函数结合使用
 explanation: |
-  HASH160结合了一个SHA256哈希后跟RIPEMD160，特别用于生成比特币地址。
+  RIPEMD160生成160位的哈希值，而SHA256产生256位的哈希值。
+reviewed: false

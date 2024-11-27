@@ -1,8 +1,9 @@
-question: Mikä koon tulee olla SHA256-funktion syötteen, kun se on täytetty?
-answer: 512 bitin monikerta.
+question: Miksi SHA256 varmistaa peruuttamattomuuden?
+answer: Käytetyt operaatiot poistavat tietoa ja ovat yksisuuntaisia
 wrong_answers:
-  - 256 bitin.
-  - 256 tavun.
-  - 256 bitin monikerta.
+  - Viestit salataan ennen hajautusta
+  - Bitit järjestellään satunnaisesti
+  - Jokainen hajautus tallennetaan tietokantaan
 explanation: |
-  SHA256-funktio vaatii, että syötteen on oltava 512 bitin monikerta täytteen jälkeen toimiakseen oikein.
+  Operaatiot kuten ShR ja XOR tekevät alkuperäiseen tilaan palaamisen mahdottomaksi, varmistaen peruuttamattomuuden.
+reviewed: false

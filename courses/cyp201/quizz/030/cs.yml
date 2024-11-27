@@ -1,8 +1,9 @@
-question: Jaká je hlavní technická role Bitcoinové peněženky?
-answer: Uchovávat kryptografické klíčové páry.
+question: Jaký je účel SIGHASH_SINGLE?
+answer: Pokrýt jeden vstup a jeho odpovídající výstup
 wrong_answers:
-  - Uchovávat bitcoiny.
-  - Uchovávat UTXO.
-  - Uchovávat transakce.
+  - Pokrýt všechny vstupy a výstupy
+  - Pokrýt pouze vstupy
+  - Pokrýt všechny výstupy kromě jednoho
 explanation: |
-  Bitcoinová peněženka přímo neuchoává bitcoiny, ale kryptografické klíčové páry, které se používají k správě a utrácení UTXO.
+  SIGHASH_SINGLE pokrývá jeden vstup a jeden odpovídající výstup vzhledem k indexu podepsaného vstupu, zbytek zůstává modifikovatelný.
+reviewed: false

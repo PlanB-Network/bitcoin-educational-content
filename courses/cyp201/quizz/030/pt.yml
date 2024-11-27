@@ -1,8 +1,9 @@
-question: Qual é o principal papel técnico de uma carteira Bitcoin?
-answer: Armazenar pares de chaves criptográficas.
+question: Qual é o propósito do SIGHASH_SINGLE?
+answer: Cobrir uma entrada e sua saída correspondente
 wrong_answers:
-  - Armazenar bitcoins.
-  - Armazenar UTXOs.
-  - Armazenar transações.
+  - Cobrir todas as entradas e saídas
+  - Cobrir apenas entradas
+  - Cobrir todas as saídas exceto uma
 explanation: |
-  Uma carteira Bitcoin não armazena diretamente bitcoins, mas sim pares de chaves criptográficas que são usados para gerenciar e gastar UTXOs.
+  SIGHASH_SINGLE cobre uma única entrada e uma única saída correspondente ao índice da entrada assinada, deixando o resto modificável.
+reviewed: false

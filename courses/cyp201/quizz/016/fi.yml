@@ -1,9 +1,9 @@
-question: Jotta tätä elliptistä käyrää voitaisiin käyttää kryptografisissa tarkoituksissa, minkä kentän on määriteltävä se?
-answer: Positiivisten kokonaislukujen äärellinen kenttä.
+question: Mikä allekirjoitusmenetelmä otettiin käyttöön Bitcoinissa Taproot-päivityksen myötä?
+answer: Schnorrin allekirjoitusmenetelmä
 wrong_answers:
-  - Reaalilukujen kenttä.
-  - Reaalilukujen äärellinen kenttä.
-  - Kompleksilukujen kenttä.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  Bitcoinissa elliptinen käyrä secp256k1 määritellään positiivisten kokonaislukujen äärellisen kentän yli moduloituna alkuluvulla välttääkseen likiarvoja ja varmistaakseen turvallisuuden.
+  Schnorrin allekirjoitusmenetelmä otettiin käyttöön marraskuussa 2021 Taproot-päivityksen yhteydessä.
 reviewed: false

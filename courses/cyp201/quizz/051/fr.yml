@@ -1,9 +1,9 @@
-question: Quelle est la fonction de dérivation de clés utilisée pour dériver une graine depuis une phrase mnémonique et une éventuelle passphrase ?
-answer: PBKDF2.
+question: Quelle est la principale différence entre une passphrase et un code PIN pour un portefeuille Bitcoin ?
+answer: La passphrase modifie la dérivation des clés, pas le code PIN
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - Le code PIN est lié à la phrase mnémonique
+  - Le code PIN est utilisée pour chiffrer les transactions mais pas la passphrase
+  - Le code PIN génère des adresses Bitcoin
 explanation: |
-  La fonction PBKDF2 est utilisée pour dériver la graine d'un portefeuille HD à partir de la phrase mnémonique et d'une passphrase optionnelle.
+  Contrairement au code PIN, la passphrase est directement impliquée dans le processus de dérivation des clés et change les clés du portefeuille.
 reviewed: false

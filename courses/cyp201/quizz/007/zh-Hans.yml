@@ -1,9 +1,9 @@
-question: SHA256函数的8个初始化向量的值对应什么？
-answer: 前8个质数的立方根的小数部分的前64位。
+question: ShR和RotR操作之间的主要区别是什么？
+answer: ShR通过添加零来移位，而RotR重新插入被移位的比特
 wrong_answers:
-  - 圆周率的小数部分。
-  - 前8个质数的平方根的小数部分的前32位。
-  - 前8个质数的平方根的小数部分的前64位。
-explanation:
-  SHA256的初始化向量基于前8个质数的立方根的小数部分的前64位。
-reviewed: true
+  - ShR移除了被移位的比特，RotR乘以它们的值
+  - ShR向左移位，RotR向右移位
+  - ShR是逻辑操作，RotR是算术操作
+explanation: |
+  ShR通过添加零向右移位，而RotR执行比特的循环旋转。
+reviewed: false

@@ -1,9 +1,9 @@
-question: Mitä seuraava johdannaispolku tarkoittaa? m/84'/0'/1'/0/7
-answer: Ulkoinen SegwitV0-osoite pääverkossa.
+question: Mikä on indeksin tarkoitus lapsiavainten johdannaisessa?
+answer: Erottaa sisarusavainparit
 wrong_answers:
-  - Ulkoinen SegwitV1-osoite pääverkossa.
-  - Sisäinen Legacy-osoite testiverkossa.
-  - Ulkoinen Legacy-osoite pääverkossa.
+  - Tunnistaa avaimen luonteen (julkinen tai yksityinen)
+  - Määritellä avaimen turvallisuustaso
+  - Lisätä ylimääräinen turvallisuuskerros
 explanation: |
-  Johdannaispolku m/84'/0'/1'/0/7 osoittaa ulkoisen SegwitV0-osoitteen pääverkossa (mainnet). 84' = SegWit v0, 0' = pääverkko, 1 = ulkoinen
+  Indeksi mahdollistaa eri lasten avainten erottamisen samasta vanhempien parista.
 reviewed: false

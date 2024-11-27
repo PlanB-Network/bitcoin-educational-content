@@ -1,9 +1,9 @@
-question: Co odpovídá hloubce 0 v cestách derivace HD peněženky?
-answer: Hlavní klíč.
+question: Jaký je rozdíl mezi normálním dětským klíčem a zpevněným dětským klíčem?
+answer: Zpevněný dětský klíč vyžaduje pro svou derivaci rodičovský soukromý klíč.
 wrong_answers:
-  - Rozšířený klíč.
-  - Přijímací adresy.
-  - Typ měny.
+  - Normální dětský klíč nemůže být odvozen z veřejných klíčů.
+  - Zpevněný dětský klíč používá lichý index.
+  - Normální dětský klíč je bezpečnější než zpevněný dětský klíč.
 explanation: |
-  Hloubka 0 v cestách derivace odpovídá hlavnímu klíči, který je výchozím bodem pro všechny derivace v HD peněžence.
+  Normální dětský klíč může být odvozen z rodičovského veřejného klíče, na rozdíl od zpevněného dětského klíče, který vyžaduje rodičovský soukromý klíč.
 reviewed: false

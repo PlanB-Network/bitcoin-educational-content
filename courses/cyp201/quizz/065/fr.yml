@@ -1,9 +1,9 @@
-question: Dans les chemins de dérivation du portefeuille HD, à quoi correspond la profondeur 0 ?
-answer: La clé maîtresse.
+question: Quelle est la différence entre une clé enfant normale et une clé enfant endurcie ?
+answer: Une clé enfant endurcie nécessite la clé privée parent pour sa dérivation
 wrong_answers:
-  - La clé étendue.
-  - Les adresses de réception.
-  - Le type de devise.
+  - Une clé enfant normale ne peut pas dériver de clés publiques
+  - Une clé enfant endurcie utilise un index impair
+  - Une clé enfant normale est plus sécurisée qu'une clé enfant endurcie
 explanation: |
-  La profondeur 0 dans les chemins de dérivation correspond à la clé maîtresse, qui est le point de départ de toutes les dérivations dans un portefeuille HD.
+  Une clé enfant normale peut être dérivée à partir de la clé publique parent, contrairement à une clé enfant endurcie qui nécessite la clé privée parent.
 reviewed: false

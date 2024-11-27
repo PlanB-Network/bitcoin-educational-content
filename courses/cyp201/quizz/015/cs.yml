@@ -1,9 +1,9 @@
-question: Jaký je název eliptické křivky používané pro digitální podpisové algoritmy v Bitcoinu?
-answer: secp256k1.
+question: Jaký typ klíče se používá k uzamčení UTXO na Bitcoinu?
+answer: Veřejný klíč
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Soukromý klíč
+  - Hash seedu
+  - Mnemonická fráze
 explanation: |
-  Křivka secp256k1 je používána v protokolu Bitcoinu pro digitální podpisy.
+  UTXO jsou uzamčeny veřejným klíčem nebo jeho hashem a odemčeny odpovídajícím soukromým klíčem.
 reviewed: false

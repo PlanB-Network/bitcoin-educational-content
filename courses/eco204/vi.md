@@ -929,16 +929,6 @@ Theo sau cơn hoảng loạn ngân hàng năm 1796, một hiện tượng xảy 
 
 Các ngân hàng trung ương đã phát triển để trở thành người cho vay cuối cùng - Lender of Last Resort, tạm ngừng khả năng chuyển đổi tiền tệ của họ thành vàng. Mặc dù hành động này ban đầu được dự định là một giải pháp tạm thời, nhưng cuối cùng nó đã trở nên vĩnh viễn, đánh dấu sự ra đời của khái niệm về người cho vay cuối cùng. Sự chuyển đổi này đã hình thành các ngân hàng trung ương như chúng ta biết ngày nay. Tuy nhiên, trong các nền kinh tế mong manh hơn, khả năng in tiền tùy ý này có thể dẫn đến những hậu quả không mong muốn, như siêu lạm phát, nếu sử dụng không có trách nhiệm.
 
-## Đánh giá khóa học
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Kỳ thi cuối cùng
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Sách và Tài Nguyên
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -962,3 +952,52 @@ Siêu lạm phát là một chủ đề thú vị đã được nghiên cứu qu
 - "The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class" của Frederick Taylor. Một khám phá dưới dạng kể chuyện về ảnh hưởng xã hội và kinh tế của siêu lạm phát đối với xã hội Đức.
 
 - "Currency Boards for Developing Countries: A Handbook" của Steve Hanke và Kurt Schuler. Mặc dù tập trung vào các khung tiền tệ, cuốn sách này cung cấp một góc nhìn về cách phòng tránh tình trạng siêu lạm phát.
+
+# Kết luận
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Đánh giá khóa học này
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Bài kiểm tra cuối cùng
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kết luận
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Chúc mừng bạn đã hoàn thành khóa học!
+
+Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
+
+Thông qua sự cống hiến và cam kết của bạn, bạn đã đạt được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
+
+Để tiếp tục khám phá sâu rộng về vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
+
+#### Khám phá cuộc đời của F. Bastiat với
+
+https://planb.network/courses/eco102
+
+#### Khám phá tư duy kinh tế của trường phái Áo với
+
+https://planb.network/courses/eco201
+
+#### Khám phá Bitcoin và những điều cơ bản của nó với
+
+https://planb.network/courses/btc101
+
+#### Cập nhật bảo mật trực tuyến của bạn với
+
+https://planb.network/courses/scu101
+
+#### Nhận và bảo mật bitcoin đầu tiên của bạn với
+
+https://planb.network/courses/btc102
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+
+https://planb.network/courses/his201

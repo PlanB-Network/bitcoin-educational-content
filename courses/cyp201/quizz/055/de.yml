@@ -1,9 +1,9 @@
-question: Woraus besteht die Nutzlast eines erweiterten Schlüssels?
-answer: Ein öffentlicher oder privater Schlüssel und der zugehörige Chain-Code.
+question: In wie viele Teile wird die Ausgabe der HMAC-SHA512-Funktion, die auf den Seed angewendet wird, unterteilt?
+answer: Zwei Teile zu je 256 Bits
 wrong_answers:
-  - Ein privater Schlüssel und der zugehörige öffentliche Schlüssel.
-  - Ein Chain-Code, ein öffentlicher Schlüssel und ein privater Schlüssel.
-  - Ein privater Schlüssel und ein Ableitungsindex.
+  - Ein einzelner Teil von 512 Bits
+  - Drei Teile zu je 170 Bits
+  - Vier Teile zu je 128 Bits
 explanation: |
-  Die Nutzlast eines erweiterten Schlüssels umfasst entweder einen öffentlichen oder privaten Schlüssel, zusammen mit einem Chain-Code, der zur Ableitung von Kinderschlüsseln verwendet wird.
+  Die Ausgabe von HMAC-SHA512 wird in zwei Teile unterteilt: den Master-Privatschlüssel (256 Bits) und den Master-Chain-Code (256 Bits).
 reviewed: false

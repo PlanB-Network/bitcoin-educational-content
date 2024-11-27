@@ -1,9 +1,9 @@
-question: Wie wird ein Bitcoin-Öffentlicher-Schlüssel bestimmt?
-answer: Er wird bestimmt, indem Punkte auf der elliptischen Kurve vom Generatorpunkt aus durch Addition und Verdopplung unter Verwendung des privaten Schlüssels addiert werden.
+question: Wie wird ein öffentlicher Schlüssel aus einem privaten Schlüssel berechnet?
+answer: Durch skalare Multiplikation auf der elliptischen Kurve
 wrong_answers:
-  - Er wird aus einer zufälligen oder pseudo-zufälligen Zahl bestimmt.
-  - Er wird durch Hashing seines privaten Schlüssels bestimmt.
-  - Er wird durch Hashing seines Seeds bestimmt.
+  - Durch Anwenden eines Hashs auf den privaten Schlüssel
+  - Durch asymmetrische Verschlüsselung
+  - Mit wiederholter Addition numerischer Werte
 explanation: |
-  Der öffentliche Schlüssel wird aus dem privaten Schlüssel durch Operationen auf der elliptischen Kurve generiert, beginnend beim Generatorpunkt.
+  Der öffentliche Schlüssel wird durch die skalare Multiplikation des privaten Schlüssels mit dem Generatorpunkt G auf der elliptischen Kurve erhalten.
 reviewed: false

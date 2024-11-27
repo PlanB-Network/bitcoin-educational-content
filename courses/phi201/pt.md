@@ -1433,4 +1433,38 @@ Agora experimentamos todas as variantes do estatismo, e todas falharam. Em todo 
 Em certo sentido, nossa situação é melhor do que no passado. Após os sucessivos fracassos de vários experimentos socialistas, comunistas e social-democratas, sabemos hoje como distinguir, melhor do que ontem, ideias verdadeiras de falsas. E ideias falsas podem ser refutadas e substituídas por verdadeiras. Como Mises disse:
 Tudo o que acontece na sociedade global em que vivemos é resultado de ideias. As boas e as ruins. O que é necessário é combater as ideias falsas. (...) Nossa civilização pode sobreviver, e deve. E sobreviverá graças a ideias melhores do que aquelas que governam o mundo hoje; e essas ideias melhores serão desenvolvidas pela geração emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
+# Conclusão
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+## Avalie este curso
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+## Exame final
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+## Conclusão
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+Parabéns por concluir este curso!
 
+Estamos muito satisfeitos por ter alcançado este importante marco em sua jornada de aprendizado.
+
+Graças à sua dedicação e comprometimento, você adquiriu conhecimentos e habilidades valiosos que servirão para seu desenvolvimento profissional.
+
+Para continuar explorando em profundidade o universo Bitcoin, convidamos você a descobrir todos os outros cursos disponíveis no Plan ₿ Network:
+
+#### Descubra a vida de F. Bastiat com
+https://planb.network/courses/eco102
+
+#### Descubra o Bitcoin e seus fundamentos com
+https://planb.network/courses/btc101
+
+#### Descubra a Lightning Network com
+https://planb.network/courses/lnp201
+
+#### Domine os princípios de privacidade no Bitcoin
+https://planb.network/courses/btc204
+
+#### Descubra a história das origens do Bitcoin com
+https://planb.network/courses/his201
+
+#### Entenda como funciona a carteira Bitcoin com
+https://planb.network/courses/cyp201

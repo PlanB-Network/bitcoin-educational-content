@@ -1431,3 +1431,52 @@ Kita sekarang telah mengalami semua varian statisme, dan semuanya telah gagal. D
 Dalam arti tertentu, situasi kita lebih baik daripada di masa lalu. Setelah kegagalan berturut-turut dari berbagai eksperimen sosialis, komunis, dan sosial-demokrat, kita hari ini tahu bagaimana membedakan, lebih baik dari kemarin, ide-ide yang benar dari yang salah. Dan ide-ide yang salah dapat dibantah dan digantikan dengan yang benar. Seperti kata Mises:
 Semua yang terjadi dalam masyarakat global tempat kita hidup adalah hasil dari ide-ide. Baik yang baik maupun yang buruk. Yang diperlukan adalah untuk melawan ide-ide palsu. (...) Peradaban kita dapat bertahan, dan harus bertahan. Dan akan bertahan berkat ide-ide yang lebih baik daripada yang menguasai dunia saat ini; dan ide-ide yang lebih baik ini akan dikembangkan oleh generasi yang sedang tumbuh.
 (_Kebijakan Ekonomi: Pemikiran untuk Hari Ini dan Esok_, 1979).
+
+# Kesimpulan
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Evaluasi kursus ini
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Ujian akhir
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kesimpulan
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+Selamat atas penyelesaian kursus ini!
+
+Kami senang Anda telah mencapai tonggak penting ini dalam perjalanan pembelajaran Anda.
+
+Berkat dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional Anda.
+
+Untuk terus mendalami alam semesta Bitcoin, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
+
+#### Temukan kehidupan F. Bastiat dengan
+
+https://planb.network/courses/eco102
+
+#### Temukan Bitcoin dan fundamental-nya dengan
+
+https://planb.network/courses/btc101
+
+#### Temukan Lightning Network dengan
+
+https://planb.network/courses/lnp201
+
+#### Kuasai prinsip-prinsip privasi di Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Temukan sejarah asal-usul Bitcoin dengan
+
+https://planb.network/courses/his201
+
+#### Pahami cara kerja dompet Bitcoin dengan
+
+https://planb.network/courses/cyp201

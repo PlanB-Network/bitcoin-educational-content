@@ -1,8 +1,8 @@
-question: For å utføre en derivasjon av et normalt barnenøkkelpar, må jeg legge inn i HMAC-SHA512-funksjonen...
-answer: forelder offentlig nøkkel || indeks, forelder kjedekode.
+question: Hva tillater en utvidet offentlig nøkkel å utlede?
+answer: Kun normale barne offentlige nøkler
 wrong_answers:
-  - forelder privat nøkkel || indeks, forelder kjedekode.
-  - forelder privat nøkkel, forelder kjedekode.
-  - forelder privat nøkkel || indeks.
+  - Kun normale barne private nøkler
+  - Både herdede og normale barne offentlige nøkler
+  - Både herdede og normale barne private nøkler
 explanation: |
-  For å derivere en normal barnenøkkel, brukes den foreldres offentlige nøkkel med indeksen og kjedekoden i HMAC-SHA512-funksjonen.
+  En utvidet offentlig nøkkel tillater kun utledning av normale barne offentlige nøkler, ikke private nøkler eller herdede nøkler.

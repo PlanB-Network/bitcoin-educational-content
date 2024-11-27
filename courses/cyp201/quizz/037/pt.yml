@@ -1,9 +1,9 @@
-question: Por que é importante usar uma boa fonte de entropia para gerar chaves privadas?
-answer: Uma entropia fraca pode tornar as chaves privadas previsíveis e vulneráveis a ataques.
+question: Qual é a principal limitação das carteiras JBOK?
+answer: Elas requerem um backup independente para cada chave privada
 wrong_answers:
-  - Uma boa entropia ajuda a otimizar o desempenho da carteira.
-  - A entropia não desempenha nenhum papel na segurança das chaves privadas.
-  - Entropia fraca desacelera as transações.
+  - Elas não permitem a geração de novos endereços
+  - Elas são incompatíveis com assinaturas digitais
+  - Elas usam chaves públicas não comprimidas
 explanation: |
-  Se a entropia usada para gerar chaves privadas for baixa, isso poderia permitir que um atacante adivinhasse ou calculasse essas chaves, comprometendo a segurança da carteira.
+  As carteiras JBOK obrigam o usuário a fazer backup de cada chave privada individualmente, complicando seu gerenciamento.
 reviewed: false

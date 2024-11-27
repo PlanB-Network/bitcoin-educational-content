@@ -1,9 +1,8 @@
-question: Điểm V đại diện cho gì trong quá trình chữ ký số với ECDSA là ví dụ trong chương này?
-answer: Điểm được tính từ nonce v và điểm sinh G (V = v.G).
+question: Lỗ hổng chữ ký ECDSA nào đã được SegWit khắc phục?
+answer: Tính dễ biến đổi
 wrong_answers:
-  - Điểm được suy ra trực tiếp từ khóa công khai.
-  - Băm của tin nhắn đã ký.
-  - Kết quả của việc cộng hai điểm trên đường cong elliptic.
+  - Xác minh hàng loạt
+  - Thiếu tính tổng hợp
+  - Kích thước chữ ký quá lớn
 explanation: |
-  V là kết quả của việc tính toán nonce nhân với điểm sinh trên đường cong elliptic.
-reviewed: false
+  SegWit đã khắc phục tính dễ biến đổi của chữ ký ECDSA, cho phép các ứng dụng như Lightning Network.

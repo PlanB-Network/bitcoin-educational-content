@@ -1,9 +1,8 @@
-question: Hva indikerer følgende avledningssti? m/84'/0'/1'/0/7
-answer: En ekstern SegwitV0-adresse på hovednettet.
+question: Hva er formålet med indeksen i å utlede barne nøkler?
+answer: Skille mellom søsken nøkkelpar
 wrong_answers:
-  - En ekstern SegwitV1-adresse på hovednettet.
-  - En intern Legacy-adresse på testnettet.
-  - En ekstern Legacy-adresse på hovednettet.
+  - Identifisere nøkkelens natur (offentlig eller privat)
+  - Spesifisere nøkkelens sikkerhetsnivå
+  - Legge til et ekstra lag med sikkerhet
 explanation: |
-  Avledningsstien m/84'/0'/1'/0/7 indikerer en ekstern SegwitV0-adresse på hovednettverket (mainnet). 84' = SegWit v0, 0' = hovednett, 1 = ekstern
-reviewed: false
+  Indeksen muliggjør differensiering av barne nøkler som er utledet fra det samme foreldreparet.

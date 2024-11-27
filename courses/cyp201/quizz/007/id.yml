@@ -1,9 +1,8 @@
-question: Apa yang dimaksud dengan nilai dari 8 vektor inisialisasi fungsi SHA256?
-answer: 64 bit pertama dari bagian desimal akar kubik dari 8 bilangan prima pertama.
+question: Apa perbedaan utama antara operasi ShR dan RotR?
+answer: ShR menggeser bit dengan menambahkan nol, RotR memasukkan kembali bit yang digeser
 wrong_answers:
-  - Desimal dari Pi.
-  - 32 bit pertama dari bagian desimal akar kuadrat dari 8 bilangan prima pertama.
-  - 64 bit pertama dari bagian desimal akar kuadrat dari 8 bilangan prima pertama.
+  - ShR menghilangkan bit yang digeser, RotR mengalikan nilai mereka
+  - ShR menggeser ke kiri, RotR menggeser ke kanan
+  - ShR adalah operasi logika, RotR adalah aritmetika
 explanation: |
-  Vektor inisialisasi SHA256 didasarkan pada 64 bit pertama dari bagian desimal akar kubik dari 8 bilangan prima pertama.
-reviewed: false
+  ShR menggeser bit ke kanan dengan menambahkan nol, sementara RotR melakukan rotasi sirkular dari bit.

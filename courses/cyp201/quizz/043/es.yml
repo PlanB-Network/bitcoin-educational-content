@@ -1,9 +1,8 @@
-question: ¿Cómo determinar el tamaño en bits del checksum para una frase de recuperación?
-answer: Divide el tamaño del número aleatorio (entropía) por 32.
+question: ¿Cuántos bits de entropía se utilizan para una frase mnemotécnica de 24 palabras?
+answer: 256 bits
 wrong_answers:
-  - Divide el tamaño del número aleatorio (entropía) por 8.
-  - Divide el tamaño del número aleatorio (entropía) por 16.
-  - Multiplica el tamaño del número aleatorio (entropía) por 2.
+  - 128 bits
+  - 512 bits
+  - 64 bits
 explanation: |
-  El tamaño del checksum se obtiene dividiendo el tamaño de la entropía por 32, de acuerdo con BIP39.
-reviewed: false
+  Una frase mnemotécnica de 24 palabras se basa en 256 bits de entropía, asegurando una seguridad muy alta.

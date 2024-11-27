@@ -1,9 +1,8 @@
-question: Jak komprimovat veřejný klíč?
-answer: Zachováme hodnotu jeho x-ové souřadnice a přidáme prefix, který určuje, kterou y-ovou souřadnici vybrat.
+question: Jaká je derivace cesty pro účet SegWit v0 ve standardním popisu?
+answer: 84h/0h/0h
 wrong_answers:
-  - Zachováme hodnotu jeho y-ové souřadnice a přidáme prefix, který určuje, kterou x-ovou souřadnici vybrat.
-  - Hashujeme veřejný klíč pro jeho kompresi.
-  - Použijeme dvojitý SHA256 hash pro kompresi veřejného klíče.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  Kompresi veřejného klíče provádíme tak, že zachováme x-ovou souřadnici a přidáme prefix 0x02 nebo 0x03, aby bylo indikováno, zda je y sudé nebo liché.
-reviewed: false
+  Cesta 84h/0h/0h je definována v BIP84 pro účet derivující adresy SegWit v0 s P2WPKH.

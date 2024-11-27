@@ -1,8 +1,9 @@
-question: Em qual BIP a ideia da frase de recuperação, ou frase mnemônica (12/24 palavras), foi proposta?
-answer: BIP39.
+question: O que a bandeira sighash SIGHASH_NONE permite?
+answer: Modificar as saídas após a assinatura
 wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
+  - Modificar as entradas após a assinatura
+  - Cobrir todas as entradas e saídas
+  - Restringir modificações a apenas uma saída
 explanation: |
-  BIP39 introduziu a frase mnemônica de 24 palavras, para facilitar o backup de chaves para os usuários de carteiras HD.
+  SIGHASH_NONE cobre apenas as entradas, deixando as saídas modificáveis após a assinatura.
+reviewed: false

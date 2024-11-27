@@ -1,9 +1,9 @@
-question: Where are private keys stored?
-answer: In Bitcoin wallets
+question: Why was the elliptical curve secp256r1 not used in Bitcoin?
+answer: Potentially to avoid a backdoor
 wrong_answers:
-  - On the blockchain
-  - On Bitcoin community servers.
-  - On the peer-to-peer network.
+  - Because it is too slow
+  - Because it is not standardized
+  - Because it requires specialized hardware
 explanation: |
-  The wallet contains the private keys necessary to access bitcoins.
+  Satoshi Nakamoto likely preferred the secp256k1 curve, as the parameters of secp256r1 could contain a hidden vulnerability.
 reviewed: false

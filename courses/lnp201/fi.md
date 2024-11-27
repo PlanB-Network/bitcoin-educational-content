@@ -50,6 +50,7 @@ Esimerkissämme Alicella on 100 000 satoshia hänen puolellaan kanavaa, ja Bobil
 **Satoshi** (tai "sat") on yksikkö Bitcoinissa. Euroon verrattuna sentin tavoin satoshi on yksinkertaisesti Bitcoinin murto-osa. Yksi satoshi on yhtä kuin **0.00000001 Bitcoin**, eli yksi sadasosamiljoonasosa Bitcoinista. Bitcoinin arvon noustessa satoshin käyttö muuttuu yhä käytännöllisemmäksi.
 
 ### Varojen jakautuminen kanavassa
+
 Palataan maksukanavaan. Keskeinen käsite tässä on "**kanavan puoli**". Kullakin osallistujalla on varoja omalla puolellaan kanavassa: Alicella 100 000 satoshia ja Bobilla 30 000. Kuten olemme nähneet, näiden varojen summa edustaa kanavan kokonaiskapasiteettia, luku, joka asetetaan kun se avataan.
 
 ![LNP201](assets/en/02.webp)
@@ -87,6 +88,7 @@ Tämä on tämän ensimmäisen luvun loppu, jossa olemme luoneet perustan Lightn
 
 ![bitcoin, osoitteet, utxo ja siirrot](https://youtu.be/cadCJ2V7zTg)
 Tämä luku on hieman erityinen, sillä se ei suoraan keskity Lightning-verkkoon, vaan Bitcoiniin. Todellakin, Lightning-verkko on kerros Bitcoinin päällä. On siis olennaista ymmärtää tietyt Bitcoinin peruskäsitteet, jotta voimme kunnolla käsittää Lightningin toiminnan seuraavissa luvuissa. Tässä luvussa käymme läpi Bitcoinin vastaanotto-osoitteiden, UTXO:iden sekä Bitcoin-siirtojen toiminnan perusteet.
+
 ### Bitcoin-osoitteet, yksityiset avaimet ja julkiset avaimet
 
 Bitcoin-osoite on merkkijono, joka johdetaan **julkisesta avaimesta**, joka puolestaan lasketaan **yksityisestä avaimesta**. Kuten varmasti tiedät, sitä käytetään bitcoinien lukitsemiseen, mikä vastaa niiden vastaanottamista lompakkoosi.
@@ -114,6 +116,7 @@ UTXO on bitcoinin pala, joka voi olla minkä tahansa arvoinen, esimerkiksi **2,0
 UTXO:ita ei voi jakaa. Joka kerta, kun niitä käytetään edustamansa bitcoin-määrän kuluttamiseen, se on tehtävä kokonaisuudessaan. Se on hieman kuin setelin kanssa: jos sinulla on 10 euron seteli ja sinun täytyy maksaa leipurille 5 euroa, et voi vain leikata seteliä puoliksi. Sinun täytyy antaa hänelle 10 euron seteli, ja hän antaa sinulle 5 euroa vaihtorahaa. Tämä on täsmälleen sama periaate UTXO:iden kanssa Bitcoinissa! Esimerkiksi, kun Alice avaa skriptin yksityisellä avaimellaan, hän avaa koko UTXO:n. Jos hän haluaa lähettää vain osan UTXO:n edustamista varoista Bobille, hän voi "pilkkoa" sen useampaan pienempään osaan. Hän lähettää sitten 0.0015 BTC Bobille ja lähettää loput, 0.0005 BTC, **vaihto-osoitteeseen**.
 
 Tässä on esimerkki siirrosta, jossa on 2 tulostetta:
+
 - UTXO, joka on 0,0015 BTC Bobille, lukittu skriptillä, joka vaatii Bobin yksityisen avaimen allekirjoituksen.
 - UTXO, joka on 0,0005 BTC Alicelle, lukittu skriptillä, joka vaatii hänen oman allekirjoituksensa.
 
@@ -168,6 +171,7 @@ On tärkeää selvästi erottaa Lightning-verkon eri tiedonvaihtotasot:
 
 ![LNP201](assets/en/10.webp)
 On huomionarvoista, että Lightning-solmu voi kommunikoida P2P-protokollan kautta avaamatta kanavaa, mutta varojen vaihtamiseksi kanava on välttämätön.
+
 ### Vaiheet Lightning-kanavan avaamiseksi
 
 1. **Viestien vaihto**: Alice haluaa avata kanavan Bobin kanssa. Hän lähettää Bobille viestin, joka sisältää summan, jonka hän haluaa tallettaa kanavalle (130 000 satsia) ja hänen julkisen avaimensa. Bob vastaa jakamalla oman julkisen avaimensa.
@@ -215,6 +219,7 @@ Seuraavassa luvussa tutustumme Lightning-transaktion tekniseen toimintaan kanava
 Tässä luvussa tutustumme Lightning-verkon kanavalla tapahtuvan transaktion tekniseen toimintaan, eli kun varoja siirretään kanavan toiselta puolelta toiselle.
 
 ### Muistutus kanavan elinkaaresta
+
 Kuten aiemmin nähtiin, Lightning-kanava alkaa **avaamalla** Bitcoin-siirrolla. Kanava voidaan **sulkea** milloin tahansa, myös Bitcoin-siirrolla. Näiden kahden hetken välillä kanavassa voidaan suorittaa lähes rajaton määrä siirtoja ilman, että tarvitsee käyttää Bitcoinin lohkoketjua. Katsotaan, mitä tapahtuu kanavassa suoritetun siirron aikana.
 
 ![LNP201](assets/en/17.webp)
@@ -256,6 +261,7 @@ Otetaan toinen esimerkki: ensimmäisen siirron jälkeen, jossa Alice lähetti 30
 Jälleen, tätä siirtoa ei julkaista lohkoketjussa, mutta se voidaan julkaista milloin tahansa, jos kanava suljetaan.
 
 Yhteenvetona, kun varoja siirretään Lightning-kanavassa:
+
 - Alice ja Bob luovat uuden **sitoumustapahtuman**, joka heijastaa varojen uutta jakautumista. - Tämä Bitcoin-tapahtuma **allekirjoitetaan** molempien osapuolten toimesta, mutta sitä **ei julkaista** Bitcoin-lohkoketjussa niin kauan kuin kanava pysyy avoimena.
 - Sitoumustapahtumat varmistavat, että kumpikin osapuoli voi milloin tahansa palauttaa varansa Bitcoin-lohkoketjussa julkaisemalla viimeksi allekirjoitetun tapahtuman.
 
@@ -298,8 +304,8 @@ Estääkseen tällaisen huijauksen Alicen toimesta, Lightning-verkossa sitoumust
 
 1. **Timelock**: Jokainen sitoumustapahtuma sisältää aikalukon Alicen varoille. Aikalukko on älykäs sopimusprimitiivi, joka asettaa aikaehtoja, jotka on täytettävä, jotta tapahtuma voidaan lisätä lohkoon. Tämä tarkoittaa, että Alice ei voi palauttaa varojaan ennen kuin tietty määrä lohkoja on kulunut, jos hän julkaisee jonkin sitoumustapahtumista. Tämä aikalukko alkaa soveltua sitoumustapahtuman vahvistamisesta. Sen kesto on yleensä suhteessa kanavan kokoon, mutta sen voi myös määrittää manuaalisesti.
 2. **Revocation Key**: Alicen varat voidaan myös välittömästi käyttää Bobin toimesta, jos hänellä on **revocation key**. Tämä avain koostuu salaisuudesta, joka on Alicen hallussa, ja salaisuudesta, joka on Bobin hallussa. Huomaa, että tämä salaisuus on erilainen jokaiselle sitoumustapahtumalle.
-Näiden kahden yhdistetyn mekanismin ansiosta Bobilla on aikaa havaita Alicen yritys huijata, ja rangaista häntä palauttamalla hänen tulonsa peruutusavaimella, mikä Bobille tarkoittaa kanavan kaikkien varojen takaisin saamista. Uusi sitoumustapahtumamme näyttää nyt tältä:
-![LNP201](assets/en/25.webp)
+   Näiden kahden yhdistetyn mekanismin ansiosta Bobilla on aikaa havaita Alicen yritys huijata, ja rangaista häntä palauttamalla hänen tulonsa peruutusavaimella, mikä Bobille tarkoittaa kanavan kaikkien varojen takaisin saamista. Uusi sitoumustapahtumamme näyttää nyt tältä:
+   ![LNP201](assets/en/25.webp)
 
 Käydään yhdessä läpi tämän mekanismin toiminta.
 
@@ -377,8 +383,8 @@ Otetaan esimerkki:
 
 3. Alice ja Bob neuvottelevat yhdessä **sulkemistransaktion** kulut. Nämä kulut lasketaan yleensä Bitcoinin kulupörssin perusteella sulkemishetkellä. On tärkeää huomata, että **se henkilö, joka avasi kanavan** (esimerkissämme Alice) maksaa sulkemiskulut.
 4. He rakentavat uuden **sulkemistransaktion**. Tämä transaktio muistuttaa sitoumustransaktiota, mutta ilman aikalukkoja tai peruutusmekanismeja, koska molemmat osapuolet tekevät yhteistyötä eikä huijaamisen riskiä ole. Tämä yhteistyöllinen sulkemistransaktio on siis erilainen kuin sitoumustransaktiot.
-Esimerkiksi, jos Alice omistaa **100 000 satoshia** ja Bob **30 000 satoshia**, lopetustransaktio lähettää **100 000 satoshia** Alicen osoitteeseen ja **30 000 satoshia** Bobin osoitteeseen ilman aikalukkorajoituksia. Kun molemmat osapuolet ovat allekirjoittaneet tämän transaktion, Alice julkaisee sen. Kun transaktio on vahvistettu Bitcoin-lohkoketjussa, Lightning-kanava suljetaan virallisesti.
-![LNP201](assets/en/32.webp)
+   Esimerkiksi, jos Alice omistaa **100 000 satoshia** ja Bob **30 000 satoshia**, lopetustransaktio lähettää **100 000 satoshia** Alicen osoitteeseen ja **30 000 satoshia** Bobin osoitteeseen ilman aikalukkorajoituksia. Kun molemmat osapuolet ovat allekirjoittaneet tämän transaktion, Alice julkaisee sen. Kun transaktio on vahvistettu Bitcoin-lohkoketjussa, Lightning-kanava suljetaan virallisesti.
+   ![LNP201](assets/en/32.webp)
 
 **Yhteistyöllinen sulkeminen** on suosittu sulkemistapa, koska se on nopea (ei aikalukkoa) ja transaktiomaksut mukautuvat nykyisten Bitcoin-markkinaolosuhteiden mukaan. Tämä välttää liian pienten maksujen maksamisen, mikä voisi riskeerata transaktion jumiutumisen mempooleihin, tai tarpeettoman yli maksamisen, mikä johtaa tarpeettomiin taloudellisiin tappioihin osallistujille.
 
@@ -416,7 +422,7 @@ Kanavan sulkemiseen on kolme tapaa:
 1. **Yhteistyöllinen sulkeminen**: Nopea ja vähemmän kallis, missä molemmat osapuolet suostuvat sulkemaan kanavan ja julkaisemaan räätälöidyn sulkemistransaktion.
 2. **Pakotettu sulkeminen**: Vähemmän toivottava, koska se perustuu sitoumustapahtuman julkaisemiseen, mahdollisesti sopimattomilla maksuilla ja aikalukolla, mikä hidastaa sulkemista.
 3. **Huijaaminen**: Jos jompikumpi osapuolista yrittää varastaa varoja julkaisemalla vanhan transaktion, toinen voi käyttää peruutusavainta rangaistakseen tästä huijauksesta.
-Tulevissa luvuissa tutkimme Lightning-verkkoa laajemmasta näkökulmasta, keskittyen siihen, miten sen verkosto toimii.
+   Tulevissa luvuissa tutkimme Lightning-verkkoa laajemmasta näkökulmasta, keskittyen siihen, miten sen verkosto toimii.
 
 # Likviditeettiverkosto
 
@@ -487,7 +493,7 @@ Välisolmut soveltavat palkkioita salliakseen maksujen kulkemisen kanaviensa kau
 
 1. "**Peruspalkkio**": kiinteä määrä per kanava, usein oletuksena **1 sat**, mutta muokattavissa.
 2. "**Muuttuva maksu**": siirretyn summan prosenttiosuus, laskettuna **miljoonasosina (ppm)**. Oletusarvoisesti se on **1 ppm** (1 sat miljoonaa siirrettyä satoshia kohden), mutta sitä voidaan myös säätää.
-Maksut vaihtelevat myös siirron suunnan mukaan. Esimerkiksi siirrossa Alicelta Suzielle sovelletaan Alicen maksuja. Päinvastaisesti Suzielta Alicelle siirrettäessä käytetään Suzien maksuja.
+   Maksut vaihtelevat myös siirron suunnan mukaan. Esimerkiksi siirrossa Alicelta Suzielle sovelletaan Alicen maksuja. Päinvastaisesti Suzielta Alicelle siirrettäessä käytetään Suzien maksuja.
 
 Esimerkiksi kanavalla Alicen ja Suzien välillä meillä voisi olla:
 
@@ -568,6 +574,7 @@ Tässä on, miten tämä prosessi toimii esimerkissämme Alicen, Suzien ja Bobin
 
 ![LNP201](assets/en/48.webp)
 **Salaisuuden luominen**: Bob luo satunnaisen salaisuuden, jota merkitään _s_ (esikuva), ja laskee sen hajautusarvon, jota merkitään _r_, käyttäen hajautusfunktiota, jota merkitään _h_. Meillä on:
+
 $$
 r = h(s)
 $$
@@ -666,7 +673,7 @@ Kaksi pääviestiä, joita Lightning-solmut vaihtavat, ovat seuraavat:
 
 - "**Kanavailmoitukset**": viestit, jotka ilmoittavat uuden kanavan avaamisesta.
 - "**Kanavapäivitykset**": päivitysviestejä kanavan tilasta, erityisesti maksujen kehityksestä (mutta ei likviditeetin jakautumisesta).
-Lightning-solmut myös seuraavat Bitcoin-lohkoketjua havaitakseen kanavan sulkemistransaktiot. Suljettu kanava poistetaan sitten kartasta, koska sitä ei enää voida käyttää maksujemme reitittämiseen.
+  Lightning-solmut myös seuraavat Bitcoin-lohkoketjua havaitakseen kanavan sulkemistransaktiot. Suljettu kanava poistetaan sitten kartasta, koska sitä ei enää voida käyttää maksujemme reitittämiseen.
 
 ### Maksun Reititys
 
@@ -697,7 +704,7 @@ Koska Alice ei kuitenkaan tiedä tarkkaa varojen jakautumista kussakin kanavassa
 - **Siirtomaksut**: parasta reittiä valitessaan lähettävä solmu ottaa myös huomioon kunkin välisolmun soveltamat maksut ja pyrkii minimoimaan kokonaisreitityskustannukset.
 - **HTLC:ien vanheneminen**: estääkseen maksujen jumiutumisen, myös HTLC:ien vanhenemisaika on huomioitava parametri.
 - **Välisolmujen määrä**: lopulta, laajemmin ottaen, lähetysolmu pyrkii löytämään reitin, jossa on mahdollisimman vähän solmuja, vähentääkseen vikojen riskiä ja rajoittaakseen Lightning-siirtomaksuja.
-Näitä kriteereitä analysoimalla lähetysolmu voi testata todennäköisimpiä reittejä ja yrittää optimoida niitä. Esimerkissämme Alice voisi arvottaa parhaat reitit seuraavasti:
+  Näitä kriteereitä analysoimalla lähetysolmu voi testata todennäköisimpiä reittejä ja yrittää optimoida niitä. Esimerkissämme Alice voisi arvottaa parhaat reitit seuraavasti:
 
 1. `Alice → 1 → 2 → 5 → Bob`, koska se on lyhin reitti suurimmalla kapasiteetilla.
 2. `Alice → 1 → 2 → 4 → 5 → Bob`, koska tämä reitti tarjoaa hyvät kapasiteetit, vaikkakin se on pidempi kuin ensimmäinen.
@@ -763,6 +770,7 @@ Sitten tietosisältöä varten tarkoitettu osa:
 
 p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql
 ```
+
 Kaksi osaa on erotettu toisistaan `1`:llä. Tämä erotin valittiin erikoismerkin sijaan, jotta koko laskun kopioiminen kaksoisklikkaamalla olisi helppoa.
 Ensimmäisessä osassa voimme nähdä, että:
 
@@ -810,6 +818,7 @@ Laskun sisältö käsittää useita maksun käsittelyyn tarvittavia tietoja:
 Laskut koodataan sitten **bech32**-muotoon, samaan tapaan kuin Bitcoin SegWit -osoitteet (muoto alkaa `bc1`).
 
 ### LNURL Kotiutus
+
 Perinteisessä transaktiossa, kuten kaupassa tehtävässä ostoksessa, lasku luodaan maksettavaksi tulevalle kokonaissummalle. Kun lasku esitetään (QR-koodin tai merkkijonon muodossa), asiakas voi skannata sen ja viimeistellä transaktion. Maksu noudattaa sitten perinteistä prosessia, jota tutkimme edellisessä osiossa. Tämä prosessi voi kuitenkin joskus olla hyvin hankala käyttäjäkokemuksen kannalta, koska se vaatii vastaanottajalta tiedon lähettämistä lähettäjälle laskun kautta.
 
 Tietyissä tilanteissa, kuten bitcoineja nostettaessa online-palvelusta, perinteinen prosessi on liian hankala. Tällaisissa tapauksissa **LNURL**-nostoratkaisu yksinkertaistaa tätä prosessia näyttämällä QR-koodin, jonka vastaanottajan lompakko skannaa automaattisesti luodakseen laskun. Palvelu maksaa sitten laskun, ja käyttäjä näkee vain välittömän noston.
@@ -845,7 +854,9 @@ Seuraavassa luvussa näemme, kuinka solmuoperaattori voi hallita likviditeettiä
 Tässä luvussa tutkimme strategioita tehokkaaseen likviditeetin hallintaan Lightning-verkossa. Likviditeetin hallinta vaihtelee käyttäjätyypin ja kontekstin mukaan. Käymme läpi pääperiaatteet ja olemassa olevat tekniikat ymmärtääksemme paremmin, kuinka optimoida tämä hallinta.
 
 ### Likviditeettitarpeet
+
 Lightning-verkossa on kolme pääkäyttäjäprofiilia, joilla kullakin on erityiset likviditeettitarpeet:
+
 1. **Maksaja**: Tämä on henkilö, joka suorittaa maksuja. He tarvitsevat lähtevää likviditeettiä voidakseen siirtää varoja muille käyttäjille. Esimerkiksi tämä voisi olla kuluttaja.
 2. **Myyjä (tai Saaja)**: Tämä on henkilö, joka vastaanottaa maksuja. He tarvitsevat saapuvaa likviditeettiä voidakseen hyväksyä maksuja omaan solmuunsa. Esimerkiksi tämä voisi olla yritys tai verkkokauppa.
 3. **Reititin**: Välisolmu, joka on usein erikoistunut maksujen reitittämiseen, ja jonka on optimoitava likviditeettinsä kussakin kanavassa voidakseen reitittää mahdollisimman monta maksua ja ansaita palkkioita.
@@ -957,15 +968,11 @@ Olemme nähneet, että likviditeetin hallinta on haaste Lightning-verkossa maksu
 
 ![LNP201](assets/en/84.webp)
 
-### Kiitokset
-Haluaisin kiittää jokaista teistä kiinnostuksestanne, tuestanne ja kysymyksistänne tämän sarjan aikana. Alun perin ideani oli luoda ranskankielistä sisältöä Lightningin teknisistä näkökohdista, ottaen huomioon saatavilla olevien resurssien puutteen. Se oli henkilökohtainen haaste, jonka halusin ottaa vastaan yhdistämällä teknisen tarkkuuden saavutettavuuteen. Jos pidit tästä ilmaisesta kurssista, ole hyvä ja arvostele se "_Arvostele tämä kurssi_" -osiossa ja jaa se rakkaimpiesi ja sosiaalisten verkostojesi kanssa.
-Kiitos, nähdään pian!
+# Yhteenveto
 
-### Bonus: Haastattelu Faniksen kanssa
+<partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-![Haastattelu Faniksen kanssa](https://youtu.be/VeJ4oJIXo9k)
-
-## Arvostele tämä kurssi
+## Arvioi tämä kurssi
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -978,7 +985,41 @@ Kiitos, nähdään pian!
 ## Yhteenveto
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+Onnittelut! 🎉
 
-**Onnittelut kurssin suorittamisesta!**
+Olet suorittanut LNP 201 -koulutuksen - Johdatus Lightning Networkiin!
 
-Huomaa, että tämä luku on parhaillaan työn alla ja paranneltu versio saapuu pian. Sillä välin, jos olet innokas jatkamaan Bitcoin-matkaasi, kutsumme sinut tutustumaan muihin alustallamme saatavilla oleviin kursseihin ja opetusohjelmiin. Jatka hyvää työtä ja iloista oppimista!
+Voit olla ylpeä itsestäsi, sillä tämä ei ole helppo aihe.
+
+Harvat ihmiset sukeltavat näin syvälle Bitcoinin kaninkäytävään.
+
+Suuri kiitos **Fanis Michalakisille** tästä erinomaisesta ilmaisesta kurssista Lightning Networkin teknisestä toiminnasta.
+
+Seuraa häntä [Twitterissä](https://x.com/FanisMichalakis), [hänen blogissaan](https://fanismichalakis.fr/) tai hänen työnsä kautta [LN Marketsissa](https://lnmarkets.com/).
+
+Nyt kun hallitset Lightning Networkin, kutsun sinut tutustumaan muihin ilmaisiin kursseihimme Plan ₿ Networkissa syventääksesi ymmärrystäsi Satoshi Nakamoton keksinnön muista näkökohdista:
+
+#### Ymmärrä, miten Bitcoin-lompakko toimii
+
+https://planb.network/courses/cyp201
+
+#### Tutustu Bitcoinin alkuperän historiaan
+
+https://planb.network/courses/his201
+
+#### Määritä BTC-maksupalvelin
+
+https://planb.network/courses/btc305
+
+#### Hallitse Bitcoinin yksityisyyden periaatteet
+
+https://planb.network/courses/btc204
+
+#### Tutustu louhinnan perusteisiin
+
+https://planb.network/courses/min201
+
+#### Opi luomaan Bitcoin-yhteisösi
+
+https://planb.network/courses/btc302
+

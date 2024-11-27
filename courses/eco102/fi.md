@@ -146,14 +146,15 @@ Bastiatille vaihtotalous, eli keskinäiset palvelukset, jotka tarjotaan ja hyvä
 Mutta Jean-Baptiste Saylta, Frédéric Bastiat perii myös keskeisen käsitteen, ryöstön. Sillä, hän sanoo, kaikuessaan Sayn sanoja:
 
 > On vain kaksi tapaa hankkia elämän säilyttämiseen, kaunistamiseen ja parantamiseen tarvittavia asioita: tuotanto ja ryöstö.
-Tuottajat turvautuvat vakuutteluun, neuvotteluun ja sopimuksiin, kun taas ryöstäjät turvautuvat voimaan ja petokseen. Siksi lain tehtävänä on estää ryöstely ja turvata työ sekä omaisuus. Kuten Adam Smith jo totesi, kansalaisten turvallisuuden takaaminen on julkisen vallan päätehtävä, ja juuri tämä oikeuttaa verojen keräämisen.
-![kuva](assets/image/01/IMG17.webp)
+> Tuottajat turvautuvat vakuutteluun, neuvotteluun ja sopimuksiin, kun taas ryöstäjät turvautuvat voimaan ja petokseen. Siksi lain tehtävänä on estää ryöstely ja turvata työ sekä omaisuus. Kuten Adam Smith jo totesi, kansalaisten turvallisuuden takaaminen on julkisen vallan päätehtävä, ja juuri tämä oikeuttaa verojen keräämisen.
+> ![kuva](assets/image/01/IMG17.webp)
 
 ## Antoine Destutt de Tracy
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
 Vähemmän tunnettua on, että Destutt de Tracyllä oli ratkaiseva vaikutus Yhdysvaltain tulevaan presidenttiin, Thomas Jeffersoniin, kun tämä oli lähettiläänä Pariisissa 1780-luvulla.
+
 > "Jokaiselle miehelle hänen ensimmäinen kotimaansa on hänen synnyinmaansa, ja toinen on Ranska" & "Tyrannia on silloin, kun kansa pelkää hallitustaan; vapaus on silloin, kun hallitus pelkää kansaa."
 >
 > Thomas Jefferson
@@ -200,7 +201,7 @@ Kaikkien sivilisaatioiden historia on tarina ryöstävien luokkien ja tuottavien
 
 ![kuva](assets/image/03/IMG01.webp)
 
-Comten ja Dunoyerin mukaan ryöstö, kaikenlainen yhteiskunnassa vahvojen toimesta heikkojen yli harjoitettu väkivalta, on suuri avain ihmishistorian ymmärtämiseen. Se on kaikkien ilmiöiden, joissa yhtä luokkaa hyväksikäytetään toisen toimesta, alkuperä. 
+Comten ja Dunoyerin mukaan ryöstö, kaikenlainen yhteiskunnassa vahvojen toimesta heikkojen yli harjoitettu väkivalta, on suuri avain ihmishistorian ymmärtämiseen. Se on kaikkien ilmiöiden, joissa yhtä luokkaa hyväksikäytetään toisen toimesta, alkuperä.
 
 ![kuva](assets/image/03/IMG22.webp)
 Jos Frédéric Bastiat on velkaa talousopillisen koulutuksensa Smithille, Destutt de Tracyn ja Saylle, hän on velkaa poliittisen koulutuksensa Le Censeur -lehden johtajille, Charles Comtelle ja Charles Dunoyerille.
@@ -220,6 +221,7 @@ _(Benjamin Constant)_
 
 He omaksuvat Benjamin Constantilta muinaisten ja modernien erottelun, joka toisaalta karakterisoitiin sodalla ja toisaalta kaupalla ja teollisuudella. Mutta he lisäävät Sayn kanssa, että poliittinen taloustiede tarjoaa parhaan selityksen sosiaalisille ilmiöille. He ymmärtävät erityisesti, että kansakunnat saavuttavat rauhan ja vaurauden, kun omaisuusoikeudet ja vapaakauppa kunnioitetaan. Tästä lähtien heille poliittinen taloustiede on politiikan todellinen ja ainoa perusta. Filosofialle, joka rajoittuu hallitusmuotojen abstraktiin kritiikkiin, on korvattava teoria, joka perustuu taloudellisten etujen tuntemukseen.
 Poliittinen taloustiede, osoittamalla miten kansat kukoistavat ja taantuvat, on luonut politiikan todelliset perusteet.
+
 > Dunoyer
 
 ![kuva](assets/image/03/IMG07.webp)
@@ -261,6 +263,7 @@ Juuri tämä vapaakaupan puolesta käyty agitaatiokampanja koko kuningaskunnassa
 
 Liigaa voidaan verrata kiertävään yliopistoon, joka taloudellisesti koulutti kokouksiinsa osallistuneita ympäri maata – tavallisia ihmisiä, teollisuudenharjoittajia, viljelijöitä ja maanviljelijöitä, jotka kaikki Liiga oli ottanut siipiensä suojaan ja joiden etuja viljalait sortivat. Richard Cobden oli liikkeen sielu ja erinomainen agitaattori.
 Hän oli kiehtova ja mahtipontinen puhuja, jolla oli poikkeuksellinen kyky keksiä iskeviä ja ytimekkäitä ilmaisuja, kaukana taloustieteilijöiden abstrakteista puheenvuoroista.
+
 > Mikä on leivän monopoli? hän huudahti. Se on leivän niukkuus. Teitä yllättää kuulla, että tämän maan lainsäädännöllä, tässä asiassa, ei ole muuta tarkoitusta kuin tuottaa mahdollisimman suuri leivän niukkuus. Ja kuitenkin se on juuri niin. Lainsäädäntö voi saavuttaa tavoitteensa vain niukkuuden kautta.
 
 Vuonna 1845 Bastiat julkaisi Pariisissa kirjansa Cobden ja liiga, johon hän liitti omia käännöksiään kommenttien kera. Kirja alkaa johdannolla Englannin taloudellisesta tilanteesta, liigan alkuperän ja kehityksen historiasta. Vuodesta 1815 lähtien protektionismi oli hyvin kehittynyttä Englannissa. Erityisesti oli olemassa lakeja, jotka rajoittivat viljan tuontia ja joilla oli hyvin kovia seurauksia kansalle. Todellakin, vehnä oli välttämätön leivän valmistukseen, joka oli tuolloin elintärkeä hyödyke. Lisäksi tämä järjestelmä suosi aristokratiaa, eli suurtilallisia, jotka saivat siitä vuokratuloja.
@@ -297,7 +300,6 @@ Vapaakaupan kysymys on edelleen ajankohtainen tänään. Kouluissa käytettävä
 ## Rousseau
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
-
 
 Frédéric Bastiat, joka ilmaisi itseään 1840-luvulla, on valistusfilosofien sukupolven perillinen, joka taisteli sensuuria vastaan ja keskustelunvapauden puolesta. Ajattele Montesquieuta, Diderot'ta, Voltairea, Condorcet'ta, mutta myös Rousseauta.
 
@@ -339,8 +341,7 @@ Bastiat'n mukaan yhteiskunta, ihmiset ja omaisuudet ovat olemassa ennen lakeja, 
 
 ## Klassinen koulutus
 
-<chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
-24. helmikuuta 1848, kolmen päivän mellakoiden jälkeen Pariisissa, kuningas Louis-Philippe I luopui vallastaan. Tämä merkitsi Toisen tasavallan syntymää.
+<chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId> 24. helmikuuta 1848, kolmen päivän mellakoiden jälkeen Pariisissa, kuningas Louis-Philippe I luopui vallastaan. Tämä merkitsi Toisen tasavallan syntymää.
 ![image](assets/image/06/IMG20.webp)
 
 Bastiat oli Pariisissa todistamassa tapahtumia ensikäden kokemuksena. Myöhemmin hän kirjoittaisi:
@@ -377,6 +378,7 @@ On surullista ajatella, että sosiaalinen ja poliittinen filosofiamme on jämäh
 Kuitenkin, kuten Bastiat muistuttaa, monopoli sulkee pois edistyksen.
 
 ## Protektionismi ja sosialismi
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
 ![kuva](assets/image/07/IMG11.webp)
@@ -402,8 +404,7 @@ Protektionismi on myös luokkataistelun muoto. Bastiat'n mukaan se on järjestel
 ![kuva](assets/image/07/IMG02.webp)
 
 Bastiat asettuu jyrkästi kuluttajien puolelle. Luokkaedun vastapainoksi hän asettaa yleisen edun, joka on kuluttajan etu, toisin sanoen kaikkien etu. Valtion tulisi aina toimia kuluttajan näkökulmasta.
-Helmikuun 1848 vallankumouksen ja sen barrikadien myötä esiin nousi protektionismia vaarallisempi vihollinen, jolla oli monia yhtäläisyyksiä: sosialismi. Mikä se on? Se on poliittinen liike, joka vaatii työn järjestämistä lailla, teollisuuden ja pankkien kansallistamista sekä varallisuuden uudelleenjakoa verotuksen kautta. Bastiat omistaisi nyt kaiken energiansa, lahjakkuutensa ja kirjoituksensa tämän uuden opin vastustamiseen, mikä voisi johtaa vain vallan eksponentiaaliseen kasvuun ja ikuiseen luokkataisteluun. Näin ollen vallankumouksen ensimmäisistä päivistä lähtien hän osallistui lyhytikäisen sanomalehden "La République Française" toimintaan, joka nopeasti tunnettiin vastavallankumouksellisena julkaisuna. Tämä oli aika, jolloin hän kirjoitti pamflettejaan omaisuudesta, valtiosta, ryöstöstä ja laista.
-27. kesäkuuta 1848, päivä verisen uuden kapinan jälkeen Pariisissa, hän pohti pitkässä kirjeessä Richard Cobdenille syitä, jotka olisivat voineet johtaa näihin tapahtumiin.
+Helmikuun 1848 vallankumouksen ja sen barrikadien myötä esiin nousi protektionismia vaarallisempi vihollinen, jolla oli monia yhtäläisyyksiä: sosialismi. Mikä se on? Se on poliittinen liike, joka vaatii työn järjestämistä lailla, teollisuuden ja pankkien kansallistamista sekä varallisuuden uudelleenjakoa verotuksen kautta. Bastiat omistaisi nyt kaiken energiansa, lahjakkuutensa ja kirjoituksensa tämän uuden opin vastustamiseen, mikä voisi johtaa vain vallan eksponentiaaliseen kasvuun ja ikuiseen luokkataisteluun. Näin ollen vallankumouksen ensimmäisistä päivistä lähtien hän osallistui lyhytikäisen sanomalehden "La République Française" toimintaan, joka nopeasti tunnettiin vastavallankumouksellisena julkaisuna. Tämä oli aika, jolloin hän kirjoitti pamflettejaan omaisuudesta, valtiosta, ryöstöstä ja laista. 27. kesäkuuta 1848, päivä verisen uuden kapinan jälkeen Pariisissa, hän pohti pitkässä kirjeessä Richard Cobdenille syitä, jotka olisivat voineet johtaa näihin tapahtumiin.
 
 - 1° Ensimmäinen näistä syistä on taloudellinen tietämättömyys. Juuri se valmistaa mieliä omaksumaan sosialismin utopiat ja väärän tasavallan. Viittaan aiempaan videoon klassisen ja yliopistokoulutuksen suuntauksista tässä asiassa.
 
@@ -422,11 +423,9 @@ Yhteenvetona, protektionistit ja sosialistit jakavat yhteisen näkökohdan Basti
 
 > Valtio on suuri fiktio, jonka kautta kaikki pyrkivät elämään toistensa kustannuksella.
 
-
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
-
 
 Pierre-Joseph Proudhon on yksi 1800-luvun puolivälin ranskalaisen sosialismin merkittävimmistä edustajista. Hän on erityisen kuuluisa lausunnostaan: "Omaisuus on varkautta" teoksessa "Mikä on omaisuus?" vuonna 1840.
 
@@ -462,6 +461,7 @@ Sitten Bastiat osoittaa, että työväenluokan ostovoimaa on mahdollista paranta
 Todellakin, Bastiat'n mukaan ihmiskunnan edistyminen kulkee käsi kädessä pääoman muodostumisen kanssa. Hänen pamfletissaan nimeltä Pääoma ja Vuokra, Bastiat saa meidät ymmärtämään tämän Robinson Crusoen esimerkin kautta hänen saarellaan.
 ![image](assets/image/08/IMG15.webp)
 Ilman kertynyttä pääomaa tai materiaaleja, Robinson olisi tuomittu kuolemaan. Hän selittää sitten, että pääoma rikastuttaa työntekijää kahdella tavalla:
+
 - Se lisää tuotantoa, mikä vähentää kulutustavaroiden hintaa
 - Mikä vaikuttaa palkkojen nousuun.
 
@@ -479,7 +479,6 @@ Yhteenvetona sekä Proudhon että Bastiat tunnistivat pääoman kertymisen tärk
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-
 Tässä luvussa paljastan upouuden teknologian, vallankumouksellisen teknologian. Tutkija on kehittänyt parin bionisia laseja, joihin on upotettu erittäin tehokas mini-kamera etuosaan. Tämä teknologia mahdollistaa yksityiskohtien näkemisen, joita ei paljaalla silmällä voi nähdä. Sangan sisällä on elektroninen piiri, joka lähettää kuvat suoraan pilveen älypuhelimeni kautta.
 
 ![image](assets/image/09/IMG01.webp)
@@ -491,8 +490,8 @@ Näin ollen Julkisissa Töissä Bastiat kirjoittaa:
 
 > Valtio avaa tien, rakentaa palatsin, suoristaa kadun, kaivaa kanavan; tämän myötä se antaa työtä tietyille työntekijöille, se on mitä nähdään; mutta se riistää työn tietyiltä toisilta, se on mitä ei nähdä.
 
-
 Yksi tunnetuimmista sofismeista on rikkinäisen ikkunan harhaluulo. Jotkut väittävät, että talon ikkunan rikkominen ei vahingoita taloutta, koska se hyödyttää lasimestaria. Mutta Bastiat osoittaa, että tuhoaminen ei ole meidän etujemme mukaista, koska se ei luo vaurautta. Se maksaa enemmän kuin tuottaa. Nuori poika, joka rikkoo naapurin ikkunan, antaa työtä lasimestarille. Mutta tässä on, miten hänen ystävänsä lohduttavat häntä:
+
 > "Jokaisella pilvellä on hopeareunus. Tällaiset onnettomuudet pitävät teollisuuden käynnissä. Kaikkien täytyy elää. Mitä lasimestareista tulisi, jos ikkunoita ei koskaan rikottaisi?"
 
 Näin ollen Keynesin mukaan omaisuuden tuhoaminen, pakottamalla kulutukseen, stimuloisi taloutta ja sillä olisi "kerrannaisvaikutus" tuotannon ja työllisyyden elvyttämiseen. Tämä on vain se, mitä nähdään.
@@ -515,7 +514,9 @@ Lopuksi, lähes vuosisata ennen Keynesia, voimme sanoa, että Bastiat kumosi key
 ![image](assets/image/09/IMG03.webp)
 
 Tämän tekstisarjan suuri opetus on, että valtion interventiolla on perverssejä vaikutuksia, joita ei nähdä. Vain hyvä taloustieteilijä kykenee ennakoimaan ne. Politiikka on sitä, mitä näemme. Talous on sitä, mitä emme näe.
+
 ## Kynttiläntekijöiden vetoomus
+
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
 Vuonna 1840 edustajainhuone äänesti lain puolesta, joka kasvatti tuontiveroja ranskalaisen teollisuuden suojelemiseksi. Tämä on kuuluisa taloudellinen patriotismi, jota kohtaamme vielä tänäkin päivänä.
@@ -544,7 +545,7 @@ Protektionismi perustuu myös piilotettuun syllogismiin, joka osoittautuu virhep
 - Mitä enemmän työskentelemme, sitä rikkaampia olemme;
 - Mitä enemmän vaikeuksia meidän on voitettava, sitä enemmän työskentelemme;
 - Siksi, mitä enemmän vaikeuksia meidän on voitettava, sitä rikkaampia olemme.
-Kuvitellaanpa tämä absurdius muutaman lyhyen tarinan avulla, joita Bastiat kertoo. Taloudellisten harhaluulojen toisen sarjan luvussa III hän kuvittelee puusepän, joka kirjoittaa ministerille anomuksen suojelulainsäädännön puolesta. Puuseppä muotoilee pyyntönsä seuraavasti: Herra ministeri, säätäkää laki, joka määrää, että "Kukaan ei saa käyttää tylsillä kirveillä tuotettuja palkkeja ja kattotuoleja." Toisin sanoen, säätäkää laki, joka kieltää terävien kirvesten käytön Ranskassa. Näin ollen, missä normaalisti annetaan 100 kirveeniskua, on tarpeen antaa 300. Puusepät olisivat kysyttyjä ja siten paremmin palkattuja.
+  Kuvitellaanpa tämä absurdius muutaman lyhyen tarinan avulla, joita Bastiat kertoo. Taloudellisten harhaluulojen toisen sarjan luvussa III hän kuvittelee puusepän, joka kirjoittaa ministerille anomuksen suojelulainsäädännön puolesta. Puuseppä muotoilee pyyntönsä seuraavasti: Herra ministeri, säätäkää laki, joka määrää, että "Kukaan ei saa käyttää tylsillä kirveillä tuotettuja palkkeja ja kattotuoleja." Toisin sanoen, säätäkää laki, joka kieltää terävien kirvesten käytön Ranskassa. Näin ollen, missä normaalisti annetaan 100 kirveeniskua, on tarpeen antaa 300. Puusepät olisivat kysyttyjä ja siten paremmin palkattuja.
 
 Luvussa XVI on toinen hyvin ironinen teksti, otsikolla: Oikea käsi ja vasen käsi. Tutkimuksen jälkeen kuninkaallinen lähettiläs laatii raportin, jossa hän ehdottaa kuninkaalle, että kaikkien työntekijöiden oikeat kädet katkaistaisiin tai ainakin sidottaisiin. Näin hän jatkaa, työ ja siten myös vauraus lisääntyisivät. Tuotanto muuttuisi paljon vaikeammaksi, mikä edellyttäisi lisätyövoiman massiivista palkkaamista ja palkkojen nousua. Köyhyys katoaisi maasta.
 
@@ -571,6 +572,7 @@ Ranskassa, missä julkiset menot katsotaan hyödyksi, verot ovat korkeampia kuin
 
 Mistä on kyse?
 Talous kuvaa poliittisten päätösten hyviä tai huonoja vaikutuksia elämäämme. Bastiat'n mukaan taloustieteilijän tulee kuitenkin olla tarkkaavainen, ei ainoastaan lyhyen aikavälin vaikutusten suhteen tiettyyn ryhmään, vaan pikemminkin niiden pitkäaikaisten seurausten suhteen yhteiskunnalle kokonaisuutena.
+
 > "Näemme työn ja voiton, jonka sosiaalinen panostus mahdollistaa. Emme näe niitä töitä, jotka tämä sama panostus voisi luoda, jos se jätettäisiin veronmaksajille. Näemme työn ja voiton, jonka sosiaalinen panostus mahdollistaa. Emme näe niitä töitä, jotka tämä sama panostus voisi luoda, jos se jätettäisiin veronmaksajille."
 >
 > F.Bastiat
@@ -596,7 +598,6 @@ Siksi Bastiat oli jo ymmärtänyt Lafferin käyrän. Arthur Laffer on amerikkala
 
 > Liian paljon veroa tappaa veron.
 
-
 Poliitikot olettavat naiivisti, että verokantojen ja verotulojen välillä on automaattinen ja kiinteä suhde. He ajattelevat voivansa kaksinkertaistaa verotulot kaksinkertaistamalla verokannan. Lafferin mukaan tällainen lähestymistapa ei ota huomioon sitä tosiasiaa, että veronmaksajat saattavat muuttaa käyttäytymistään vastauksena uusiin kannustimiin.
 
 ![image](assets/image/11/IMG7.webp)
@@ -604,6 +605,7 @@ Poliitikot olettavat naiivisti, että verokantojen ja verotulojen välillä on a
 Lafferin käyrä osoittaa, että hallitus ei kerää tuloja, kun verokannat ovat 100 %. Päinvastoin, veronalennukset palvelevat taloudellisen toiminnan stimulointia ja siten valtion tuloja. Todellakin, marginaalisten verokantojen alentaminen stimuloi investointeja, työtä, luovuutta ja siten edistää talouskasvua. Riittävän suuri alennus voisi tuottaa tarpeeksi taloudellista stimulaatiota laajentamaan veropohjaa merkittävästi ja lisäämään julkisia tuloja.
 
 Bastiat saattaisi lisätä, että valtion menojen vähentämiseen tulisi kiinnittää yhtä paljon huomiota kuin verojen alentamiseen. Siitä huolimatta, kuten Margaret Thatcher, Frédéric Bastiat'n oppilas, niin osuvasti totesi:
+
 > "Tavoitteena ei ole tehdä rikkaita köyhiksi, vaan tehdä köyhistä rikkaita." Ja hän sanoi tämän puhuessaan sosialisteille.
 
 ## Kaksi moraalia
@@ -620,7 +622,7 @@ Kuitenkin on kaksi täydentävää tapaa valaista kansalaisten tuomiota, kuten B
 
 - Ensinnäkin on "filosofinen tai uskonnollinen moraali", joka toimii puhdistamalla ja korjaamalla ihmisen toimintaa (ihminen toimijana)
 - Sitten on "taloudellinen moraali", joka toimii näyttämällä ihmiselle "hänen tekojensa välttämättömät seuraukset" (ihminen kärsijänä)
-Itse asiassa nämä ovat kaksi täydellisesti täydentävää moraalikehystä.
+  Itse asiassa nämä ovat kaksi täydellisesti täydentävää moraalikehystä.
 
 1. Ensimmäinen käsittelee sydäntä ja kannustaa yksilöitä tekemään hyvää; se on uskonnollinen tai filosofinen moraali. Se on jaloin. Se juurruttaa ihmisen sydämeen tietoisuuden hänen velvollisuudestaan. Se sanoo hänelle:
 
@@ -657,7 +659,6 @@ Yksi asia on varma, poliitikko ei voi muuttaa asioiden kulkua ja täydellistää
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-
 Voiko harmoninen yhteiskunta toimia ilman kirjoitettuja lakeja, sääntöjä, rangaistustoimenpiteitä? Jos ihmiset jätetään vapaiksi, emmekö todista kaaosta, anarkiaa, järjestäytymättömyyttä? Kuinka välttää pelkkä yksilöiden rinnakkaiselo, jotka toimivat ilman minkäänlaista yhteistyötä, ellei lakien ja keskitetyn poliittisen organisaation kautta?
 
 Tämä on argumentti, jota usein käytetään vaadittaessa markkinoiden sääntelyä tai yhteiskuntaa yksin kykenevänä koordinoimaan yksilöitä koherentiksi ja harmoniseksi kokonaisuudeksi.
@@ -670,8 +671,9 @@ Vapaan markkinan ihme, hän kertoo meille, on se, että se käyttää tietoa, jo
 
 Bastiat antaa muutamia esimerkkejä markkinoiden eduista. Olemme tottuneet tähän ilmiöön niin, että emme enää kiinnitä siihen huomiota.
 Katsotaanpa kylän puuseppää, hän sanoo, ja tarkkaillaan kaikkia palveluita, joita hän tarjoaa yhteiskunnalle ja kaikkia niitä, joita hän saa:
+
 > Joka päivä herätessään hän pukeutuu, eikä hän itse ole valmistanut yhtäkään vaatteistaan. Kuitenkin, jotta nämä vaatteet olisivat hänelle saatavilla, maailmanlaajuisesti piti suorittaa valtava määrä työtä, teollisuutta, kuljetusta ja nerokkaita keksintöjä.
-Sitten hän syö aamiaisen. Jotta leipä, jonka hän syö, saapuu hänen pöydälleen joka aamu, maata on raivattu, kyntetty; rautaa, terästä, puuta, kiveä on muunnettava työkaluiksi; kaikki asiat, jotka kukin erikseen otettuna, olettavat mittaamattoman suuren työmäärän peliinpanon, ei vain tilassa vaan myös ajassa.
+> Sitten hän syö aamiaisen. Jotta leipä, jonka hän syö, saapuu hänen pöydälleen joka aamu, maata on raivattu, kyntetty; rautaa, terästä, puuta, kiveä on muunnettava työkaluiksi; kaikki asiat, jotka kukin erikseen otettuna, olettavat mittaamattoman suuren työmäärän peliinpanon, ei vain tilassa vaan myös ajassa.
 
 Tämä mies lähettää poikansa kouluun saamaan koulutusta, joka edellyttää tutkimusta, monia vuosia aiempaa opiskelua.
 Hän menee ulos: hän löytää päällystetyn ja valaistun kadun.
@@ -700,12 +702,11 @@ Taloudellinen suunnittelu, joka väittää pärjäävänsä markkinoita paremmin
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-
 Kirjeessään Alphonse de Lamartinelle vuonna 1845 Bastiat kirjoitti, että hänen koko filosofiansa sisältyy yhteen periaatteeseen:
 
 > Vapaus on paras sosiaalisen järjestelyn muoto.
-![kuva](assets/image/14/IMG1.webp)
-Hän kuitenkin lisää ehdollisuuden
+> ![kuva](assets/image/14/IMG1.webp)
+> Hän kuitenkin lisää ehdollisuuden
 
 > "Lain ei tulisi poistaa kenenkään tekojen, positiivisten tai negatiivisten, seurauksia. Tämä on vastuun korollaarinen periaate.": "Lain ei tulisi poistaa kenenkään tekojen, positiivisten tai negatiivisten, seurauksia. Tämä on vastuun korollaarinen periaate."
 
@@ -762,7 +763,6 @@ Toisin sanoen, kollektiiviset valinnat eivät ole vastuullisia valintoja, koska 
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-
 Edellisellä kurssilla näimme, miksi vapaus ja vastuu ovat avainasemassa sosiaalisessa ongelmassa. Nyt syvennymme tähän kohtaan näyttämällä, miten Frédéric Bastiat näkee yhteiskuntia vaivaavat pahat ja niiden ratkaisun.
 
 Liberaleja on joskus kritisoitu pahan olemassaolon sivuuttamisesta ja puhtaan ja täydellisen vapauden utopian rakentamisesta ideaalimaailmaan. Tämä kritiikki on täysin perusteeton kirjoittajamme kohdalla.
@@ -808,7 +808,6 @@ On tärkeää selventää, että tämä edistyksen kehitys vastuun kautta ei ole
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-
 ![image](assets/image/16/IMG1.webp)
 
 Frédéric Bastiat, kuuluisassa pamfletissaan "Laki", tuomitsee lain vääristymän, joka koostuu siitä, että laillistetaan, "solidaarisuuden" nimissä, mitä todellisuudessa täytyy kutsua ryöstöksi. Todellakin, on ristiriitaista haluta määrätä veljeys lailla, mitä me tänään kutsuisimme "sosiaaliseksi oikeudenmukaisuudeksi" tai solidaarisuudeksi.
@@ -828,7 +827,7 @@ Tätä Bastiat kutsuu "laillisen veljeyden sofismiksi". Lainataan häntä täss�
 Ja jälleen:
 
 > Hallitukset harjoittavat vain toimintaa, joka on voiman hyväksymää. Nyt on sallittua pakottaa joku olemaan oikeudenmukainen, ei pakottaa heitä olemaan hyväntekeväisiä. Laki, kun se pyrkii tekemään voimalla sen, mitä moraali saavuttaa suostuttelun kautta, ei nouse Hyväntekeväisyyden alueelle, vaan putoaa Ryöstön alueelle.
-Kuitenkin tämä lain vääristymä on nimeltään sosialismi, eli valtion pakottaman varallisuuden uudelleenjaon ideologia. Sosialismin mukaan Bastiat, on tunnusomaista laillisen ryöstön ideologia. Mutta tämän ideologian oveluus on, että se naamioi väkivaltansa kielen väärinkäytön alle: kehotus solidaarisuuteen tai veljeyteen.
+> Kuitenkin tämä lain vääristymä on nimeltään sosialismi, eli valtion pakottaman varallisuuden uudelleenjaon ideologia. Sosialismin mukaan Bastiat, on tunnusomaista laillisen ryöstön ideologia. Mutta tämän ideologian oveluus on, että se naamioi väkivaltansa kielen väärinkäytön alle: kehotus solidaarisuuteen tai veljeyteen.
 
 ![image](assets/image/16/IMG4.webp)
 
@@ -860,7 +859,6 @@ Laki voi pakottaa ihmisen olemaan oikeudenmukainen, mutta se ei voi pakottaa hä
 ## Oikeus Omaisuuteen
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
-
 
 Omaisuudella ei tässä yhteydessä tule ymmärtää maata. Se tarkoittaa "työntekijän oikeutta arvoon, jonka hän on luonut työllään." Bastiat täsmentää:
 
@@ -947,12 +945,11 @@ Hänelle lain tarkoituksen tulee yksinkertaisesti olla "lopettaa kaikki ryöstö
 He ovat varmoja, että heidän luonnolliset oikeutensa ovat taatut ja koskemattomat. Turvatut omaisuusoikeudet antavat ihmisille mahdollisuuden tehdä pitkän aikavälin suunnitelmia, koska he tietävät, että heidän omaisuutensa on turvassa ryöstöltä.
 
 > Ryöstön Puuttuminen, — se on oikeudenmukaisuuden, rauhan, järjestyksen, vakauden, sovinnon, terveen järjen periaate, jonka julistan kaikella voimalla, voi! riittämättömällä, keuhkojeni voimalla, kunnes viimeiseen hengenvetooni
-Bastiat kirjoitti Teoksessaan Laki hieman ennen kuolemaansa. Vuosisata Frédéric Bastiatin kuoleman jälkeen, oikeudellinen ryöstö on selvästi havaittavissa Ihmisoikeuksien yleismaailmallisessa julistuksessa vuodelta 1948, erityisesti sen artikloissa 22 ("jokaisella on oikeus sosiaaliturvaan"), 23 ("jokaisella on oikeus työhön"), 24 ("jokaisella on oikeus lepoon ja vapaa-aikaan"), 25 ("jokaisella on oikeus terveydelle ja hyvinvoinnille riittävään elintasoon"), 26 ("jokaisella on oikeus koulutukseen").
+> Bastiat kirjoitti Teoksessaan Laki hieman ennen kuolemaansa. Vuosisata Frédéric Bastiatin kuoleman jälkeen, oikeudellinen ryöstö on selvästi havaittavissa Ihmisoikeuksien yleismaailmallisessa julistuksessa vuodelta 1948, erityisesti sen artikloissa 22 ("jokaisella on oikeus sosiaaliturvaan"), 23 ("jokaisella on oikeus työhön"), 24 ("jokaisella on oikeus lepoon ja vapaa-aikaan"), 25 ("jokaisella on oikeus terveydelle ja hyvinvoinnille riittävään elintasoon"), 26 ("jokaisella on oikeus koulutukseen").
 
 ## Lain ja valtion rooli
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
-
 
 Vuonna 1848 Bastiat oli kansanedustaja. Hänet nimitettiin valtiovarainvaliokunnan varapuheenjohtajaksi. Hän oli siis erityisen hyvin sijoittunut vastaamaan tähän kysymykseen: mikä on valtio? Käännymme valtion puoleen varmistaaksemme hyvinvointimme. Mutta Bastiat muistuttaa meitä siitä, että valtio ei voi antaa kansalaisille mitään, mitä se ei ole ensin ottanut heiltä.
 
@@ -998,28 +995,17 @@ Kirjoitti Frédéric Bastiat lyhyessä pamfletissa nimeltä Valtio.
 
 ![kuva](assets/image/19/IMG9.webp)
 
-# Johtopäätös
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-
-
-## Arvioi kurssi
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Frédéric Bastiatin perintö
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-
 Bastiatin vaikutus alkoi hiipua 1800-luvun lopulla, kun sosialismi ja erityisesti marxilaisuus nousivat yliopistoissa ja tutkimuslaitoksissa, joita rahoitettiin julkisilla varoilla.
 
 20. vuosisadalla Bastiatin tuntemus ja suosio katosivat. Häntä ei enää mainittu taloustieteen oppikirjoissa. Vasta toisen maailmansodan jälkeen uudelleen heräisi kiinnostus vapauden ideoihin, jotka olivat niin ilmeisesti unohtuneet Rooseveltin ja Euroopan totalitaaristen hallintojen aikana. Yksi tämän elpymisen arkkitehdeista oli itävaltalainen taloustieteilijä Ludwig von Mises, yksi monista eurooppalaisista intellektuelleista, jotka pakenivat Euroopasta Espanjan ja Portugalin kautta Amerikkaan.
-Muuttautuessaan New Yorkiin vuonna 1943, Mises järjesti seminaareja, jotka houkuttelivat huomattavia mieliä: George Stigler, Milton Friedman, molemmat tulevia Nobel-palkinnon voittajia, ja Murray Rothbard, tuolloin opiskelija Columbiassa. Juuri näissä seminaareissa hän puhui ensimmäistä kertaa Bastiat'sta yhtenä klassisen liberalismin pääviitteistä. Hän esitteli kuulijoilleen Bastiat'n pamfletteja, Laki ja Valtio, jotka eivät vielä olleet käännetty englanniksi. Vuonna 1953 yksi seminaarin osallistujista, Leonard Read, saisi Bastiat'n "Laki" käännettyä englanniksi ja ottaisi tehtäväkseen levittää kirjaa ympäri maata säätiönsä kautta: Taloudellisen Koulutuksen Säätiö (Foundation for Economic Education).
-![kuva](assets/image/20/IMGG.webp)
-Mutta henkilö, joka myös popularisoi Frédéric Bastiat'n teesejä, oli New York Timesin taloustoimittaja, Henry Hazlitt, pienessä kirjassa nimeltä: "Taloustiede yhdessä oppitunnissa," julkaistu vuonna 1946. Nimenomaisesti Bastiat'n ideoista ammentaen hän pyrkii osoittamaan, että valtiollisten talousratkaisujen ongelma on niiden kyvyttömyys ottaa huomioon niiden tuhoisat pitkän aikavälin seuraukset.
-![kuva](assets/image/20/IMG07.webp)
+    Muuttautuessaan New Yorkiin vuonna 1943, Mises järjesti seminaareja, jotka houkuttelivat huomattavia mieliä: George Stigler, Milton Friedman, molemmat tulevia Nobel-palkinnon voittajia, ja Murray Rothbard, tuolloin opiskelija Columbiassa. Juuri näissä seminaareissa hän puhui ensimmäistä kertaa Bastiat'sta yhtenä klassisen liberalismin pääviitteistä. Hän esitteli kuulijoilleen Bastiat'n pamfletteja, Laki ja Valtio, jotka eivät vielä olleet käännetty englanniksi. Vuonna 1953 yksi seminaarin osallistujista, Leonard Read, saisi Bastiat'n "Laki" käännettyä englanniksi ja ottaisi tehtäväkseen levittää kirjaa ympäri maata säätiönsä kautta: Taloudellisen Koulutuksen Säätiö (Foundation for Economic Education).
+    ![kuva](assets/image/20/IMGG.webp)
+    Mutta henkilö, joka myös popularisoi Frédéric Bastiat'n teesejä, oli New York Timesin taloustoimittaja, Henry Hazlitt, pienessä kirjassa nimeltä: "Taloustiede yhdessä oppitunnissa," julkaistu vuonna 1946. Nimenomaisesti Bastiat'n ideoista ammentaen hän pyrkii osoittamaan, että valtiollisten talousratkaisujen ongelma on niiden kyvyttömyys ottaa huomioon niiden tuhoisat pitkän aikavälin seuraukset.
+    ![kuva](assets/image/20/IMG07.webp)
 
 Hazlitt aloittaa kirjansa kertomalla Bastiat'n rikotun ikkunan tarinan. Hän tiivistää tarinan yksinkertaiseen ja ainutlaatuiseen oppituntiin:
 
@@ -1039,3 +1025,52 @@ Jos tarkastelemme asioita tästä näkökulmasta, Reagan selitti GE:n työntekij
 ![kuva](assets/image/20/IMG10.webp)
 Ytimessään Reagan otti Bastiatilta useita avainelementtejä liberaalin yhteiskunta- ja ihmiskuvan osalta: siviiliyhteiskunnan ensisijaisuus valtioon nähden, valinnan ja yksilöllisen vastuun arvo, yrittäjän merkitys vaurauden luomisessa, joustavan ja minimaalisen lainsäädännön tärkeys, mikä mahdollistaa luottamuksen ja sopimusten kunnioittamisen, peruslaki, jonka mukaan vauraus on luotava ennen kuin sitä voidaan jakaa, halu antaa jokaiselle mahdollisuus kilpailullisilla markkinoilla…
 
+# Yhteenveto
+
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Arvioi tämä kurssi
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Loppukoe
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Yhteenveto
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Onnittelut kurssin suorittamisesta!
+
+Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
+
+Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
+
+Jatkaaksesi Bitcoinin maailman syvempää tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
+
+#### Tutustu Bitcoiniin ja sen perusteisiin kurssilla
+
+https://planb.network/courses/btc101
+
+#### Hanki ja turvaa ensimmäiset bitcoinisi kurssilla
+
+https://planb.network/courses/btc102
+
+#### Päivitä verkkotietoturvasi kurssilla
+
+https://planb.network/courses/scu101
+
+#### Tutustu Lightning Networkiin kurssilla
+
+https://planb.network/courses/lnp201
+
+#### Opi Itävallan koulukunnan talousajattelua kurssilla
+
+https://planb.network/courses/eco201
+
+#### Ymmärrä Bitcoinin perusteet ja rakenna kotilämmitysjärjestelmäsi kurssilla
+
+https://planb.network/courses/min201

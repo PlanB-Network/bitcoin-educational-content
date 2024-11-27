@@ -1,9 +1,9 @@
-question: Jaké informace jsou vypočítány z seedu aplikací HMAC-SHA512?
-answer: Hlavní klíč a hlavní řetězový kód peněženky.
+question: Co se stane, pokud ztratíte heslovou frázi spojenou s vaší HD peněženkou?
+answer: Přijdete o přístup k bitcoinům spojeným s touto peněženkou
 wrong_answers:
-  - Rozšířený klíč peněženky.
-  - Xpub a xprv peněženky.
-  - Podpisový kód soukromého klíče.
+  - Stále můžete přistupovat k peněžence pouze s mnemonickou frází
+  - Heslovou frázi můžete resetovat kontaktováním podpory Bitcoinu
+  - Přijdete pouze o nepotvrzené transakce
 explanation: |
-  Z seedu je pomocí HMAC-SHA512 odvozen hlavní klíč a hlavní řetězový kód, které jsou základem pro generování klíčů.
+  Heslová fráze je zásadní součástí odvození klíčů. Bez ní je nemožné klíče znovu vytvořit a tím pádem získat přístup k bitcoinům.
 reviewed: false

@@ -1,9 +1,8 @@
-question: Mục đích của khóa mở rộng là gì?
-answer: Để thu thập tất cả thông tin cần thiết để tạo ra các khóa con vào một chuỗi đơn.
+question: Hằng số nào được sử dụng để tạo ra khóa riêng tư chính từ seed?
+answer: Bitcoin Seed
 wrong_answers:
-  - Để thu thập tất cả thông tin cần thiết để tái tạo một ví HD hoàn chỉnh vào một chuỗi đơn.
-  - Để thu thập thông tin về các UTXO trong ví.
-  - Để thu thập cụm từ ghi nhớ và cụm từ mật khẩu vào một định dạng đơn.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Một khóa mở rộng cho phép tất cả thông tin cần thiết để tạo ra các khóa con được chứa đựng, do đó đơn giản hóa việc quản lý các tài khoản trong một ví HD.
-reviewed: false
+  Hằng số Bitcoin Seed được sử dụng như một khóa trong hàm HMAC-SHA512 để tạo ra khóa riêng tư chính và mã chuỗi chính.

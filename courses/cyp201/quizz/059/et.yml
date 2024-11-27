@@ -1,8 +1,9 @@
-question: Millises numbrisüsteemis on laiendatud võti tavaliselt kodeeritud, et seda kasutajale esitada?
-answer: Baasis 58.
+question: Mis on seemne roll Bitcoin HD rahakotis?
+answer: Olla kõikide võtmete tuletamise lähtepunktiks
 wrong_answers:
-  - bech32-s.
-  - Baasis 16.
-  - bech32m-s.
+  - Salvestada rahakoti tehinguid
+  - Otse genereerida peamine avalik võti
+  - Tagada tehingute konfidentsiaalsus
 explanation: |
-  Laiendatud võti on üldiselt kodeeritud baasis 58, et see oleks kasutajale loetavam ja vältida segadust tekitavaid tähemärke.
+  Seeme on 512-bitine jada, mis on tuletatud mnemoonilisest fraasist ja paroolist. See moodustab aluse kõikidele rahakoti võtmetele.
+reviewed: false

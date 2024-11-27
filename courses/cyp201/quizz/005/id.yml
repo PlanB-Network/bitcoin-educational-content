@@ -1,8 +1,9 @@
-question: Berapa ukuran input dari fungsi SHA256 setelah dipadankan?
-answer: Kelipatan dari 512 bit.
+question: Mengapa kebalikan tidak mungkin di SHA256?
+answer: Operasi yang digunakan menghilangkan informasi dan bersifat satu arah
 wrong_answers:
-  - Sebesar 256 bit.
-  - Sebesar 256 byte.
-  - Kelipatan dari 256 bit.
+  - Pesan dienkripsi sebelum di-hash
+  - Bit disusun ulang secara acak
+  - Setiap hash disimpan dalam sebuah database
 explanation: |
-  Fungsi SHA256 memerlukan agar inputnya merupakan kelipatan dari 512 bit setelah dipadankan agar dapat berfungsi dengan benar.
+  Operasi seperti ShR dan XOR membuatnya tidak mungkin untuk kembali ke keadaan awal, memastikan kebalikan tidak mungkin.
+ditinjau: false

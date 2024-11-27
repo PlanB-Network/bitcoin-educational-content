@@ -1,9 +1,9 @@
-question: Di cosa è composto il payload di una chiave estesa?
-answer: Una chiave pubblica o privata e il codice catena associato.
+question: In quante parti viene diviso l'output della funzione HMAC-SHA512 applicata al seed?
+answer: Due parti di 256 bit
 wrong_answers:
-  - Una chiave privata e la relativa chiave pubblica.
-  - Un codice catena, una chiave pubblica e una chiave privata.
-  - Una chiave privata e un indice di derivazione.
+  - Una singola parte di 512 bit
+  - Tre parti di 170 bit
+  - Quattro parti di 128 bit
 explanation: |
-  Il payload di una chiave estesa include una chiave pubblica o privata, insieme a un codice catena utilizzato per derivare chiavi figlie.
+  L'output di HMAC-SHA512 è diviso in due parti: la chiave privata principale (256 bit) e il codice catena principale (256 bit).
 reviewed: false

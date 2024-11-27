@@ -1,8 +1,9 @@
-question: ¿En qué BIP se propone la idea de la frase de recuperación o frase mnemotécnica (12/24 palabras)?
-answer: BIP39.
+question: ¿Qué permite la bandera sighash SIGHASH_NONE?
+answer: Modificar las salidas después de firmar
 wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
+  - Modificar las entradas después de firmar
+  - Cubrir todas las entradas y salidas
+  - Restringir las modificaciones a solo una salida
 explanation: |
-  BIP39 introdujo la frase mnemotécnica de 24 palabras, para facilitar la copia de seguridad de las claves para los usuarios de monederos HD.
+  SIGHASH_NONE solo cubre las entradas, dejando las salidas modificables después de firmar.
+reviewed: false

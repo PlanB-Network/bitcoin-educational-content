@@ -1,9 +1,8 @@
-question: Bitcoinプロトコル内で、HASH256とは何ですか？
-answer: 二重SHA256ハッシュです。
+question: Bitcoinでより短いフィンガープリントを生成するために使用されるハッシュ関数の組み合わせは何ですか？
+answer: HASH160
 wrong_answers:
-  - 二重Keccak-256ハッシュです。
-  - SHA256ハッシュの後にRIPEMD160ハッシュが続きます。
-  - 単一のSHA256ハッシュです。
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  HASH256は二重SHA256ハッシュを意味し、これはSHA256関数がデータに一度適用され、その結果に対して二度目が適用されることを意味します。
-reviewed: false
+  HASH160は、SHA256とRIPEMD160を組み合わせて160ビットのフィンガープリントを生成します。これは特にBitcoinアドレスにおいて顕著です。

@@ -1,8 +1,9 @@
-question: Mis funktsiooni kasutatakse lapse võtmepaari tuletamiseks vanema võtmepaarist HD rahakotis?
-answer: HMAC-SHA512.
+question: Millist tüüpi võti on seotud zpub prefiksiga?
+answer: Laiendatud avalik võti SegWit V0 jaoks Mainnetis
 wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
+  - Laiendatud privaatvõti SegWit V1 jaoks Mainnetis
+  - Laiendatud avalik võti Legacy jaoks Testnetis
+  - Laiendatud avalik võti SegWit V2 jaoks Testnetis
 explanation: |
-  HMAC-SHA512 kasutatakse lapse võtmepaari tuletamiseks vanema võtmepaarist HD rahakotis.
+  zpub prefiks tähistab laiendatud avalikku võtit SegWit V0 skriptide jaoks Mainnetis.
+üle_vaadatud: false

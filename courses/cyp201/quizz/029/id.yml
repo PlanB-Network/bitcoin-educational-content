@@ -1,8 +1,9 @@
-question: Apa yang dibuktikan oleh tanda tangan digital dalam sistem Bitcoin melalui scriptSig?
-answer: Kepemilikan kunci privat yang terkait dengan kunci publik tertentu.
+question: Algoritma tanda tangan digital apa yang digunakan pada saat peluncuran Bitcoin?
+answer: ECDSA
 wrong_answers:
-  - Kepemilikan sebuah alamat Bitcoin.
-  - Kemampuan untuk menambang blok Bitcoin.
-  - Keabsahan sebuah transaksi Bitcoin.
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Tanda tangan digital membuktikan bahwa pengguna memiliki kunci privat tanpa harus mengungkapkannya, memastikan keaslian transaksi.
+  Bitcoin awalnya menggunakan ECDSA, sebuah protokol tanda tangan yang berbasis pada kurva eliptik, sebelum diperkenalkannya tanda tangan Schnorr pada tahun 2021.
+ditinjau: false

@@ -1,9 +1,9 @@
-question: En quel système de numération la clé étendue est-elle généralement encodée pour être présentée à l'utilisateur ?
-answer: En Base 58.
+question: Quel est le rôle de la graine dans un portefeuille HD Bitcoin ?
+answer: Servir de point de départ pour la dérivation de toutes les clés
 wrong_answers:
-  - En bech32.
-  - En Base 16.
-  - En bech32m.
+  - Stocker les transactions du portefeuille
+  - Générer directement la clé publique maîtresse
+  - Assurer la confidentialité des transactions
 explanation: |
-  La clé étendue est généralement encodée en Base 58 pour être plus lisible par l'utilisateur et éviter les caractères ambiguës.
+  La graine est une séquence de 512 bits dérivée de la phrase mnémonique et de la passphrase. Elle constitue la base de toutes les clés du portefeuille.
 reviewed: false

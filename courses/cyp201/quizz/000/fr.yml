@@ -1,9 +1,9 @@
-question: Quel est l'objectif du procédé de hachage cryptographique ?
-answer: Mapper une chaîne de bits de longueur arbitraire à une chaîne de bits de longueur fixe.
+question: Quelle est la fonction principale d'une fonction de hachage ?
+answer: Elle convertit une information de longueur arbitraire en une empreinte de taille fixe
 wrong_answers:
-  - Chiffrer un message.
-  - Assurer que l'émetteur du message ne pourra pas nier avoir émis le message dans le futur.
-  - Garantir la confidentialité des données.
+  - Elle chiffre les messages pour les rendre illisibles
+  - Elle sert uniquement à vérifier l'intégrité des logiciels Bitcoin
+  - Elle génère des clés privées pour les portefeuilles Bitcoin
 explanation: |
-  Le hachage transforme une donnée de n'importe quelle taille en une sortie de taille fixe, utile pour vérifier l'intégrité sans nécessairement chiffrer ou authentifier les données.
+  Une fonction de hachage transforme une donnée de taille quelconque en un hash de taille fixe, essentiel pour de nombreuses applications dans Bitcoin.
 reviewed: false

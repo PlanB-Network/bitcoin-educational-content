@@ -1,9 +1,8 @@
-question: Mikä on pseudo-satunnaisfunktio, jota käytetään PBKDF2; ssa laskemaan Bitcoin HD -lompakon siemen?
-answer: HMAC-SHA512.
+question: Mikä on syynä käyttää harhautuslompakkoa salasanan kanssa?
+answer: Simuloida lompakkoa, jossa on pieni määrä varoja fyysisen pakottamisen varalta
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Lisätä automaattinen varmuuskopio transaktioista
+  - Luoda lisäinen muistisääntö
+  - Suojata UTXO: t kaksoiskulutukselta
 explanation: |
-  HMAC-SHA512 on pseudo-satunnaisfunktio, jota käytetään PBKDF2: ssa generoimaan Bitcoin HD -lompakon siemen.
-reviewed: false
+  Harhautuslompakkoa käytetään ohjaamaan hyökkääjän huomio pois antamalla pääsyn lompakkoon, jossa on pieni määrä bitcoineja.

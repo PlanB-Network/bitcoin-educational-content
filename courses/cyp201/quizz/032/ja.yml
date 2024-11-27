@@ -1,9 +1,9 @@
-question: Bitcoinで最初のバージョンのHDウォレットを提案したBIP（Bitcoin Improvement Proposal）は何ですか？
-answer: BIP32。
+question: どのsighashフラグが、単一の入力と全ての出力をカバーすることでクラウドファンディングを可能にしますか？
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16。
-  - BIP39。
-  - BIP44。
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32は、2012年に提案され、Bitcoinにおける階層的決定性（HD）ウォレットの概念を初めて導入したものです。
+  SIGHASH_ALLとSIGHASH_ANYONECANPAYを組み合わせることで、出力を変更することなく入力を追加することができます。
 reviewed: false

@@ -1,9 +1,9 @@
-question: Wie wird die Prüfsumme einer Legacy-Adresse berechnet?
-answer: Mit HASH256.
+question: Warum sind Deskriptoren besonders nützlich für Multisignatur-Wallets?
+answer: Sie beinhalten den xpub jedes Faktors und beschreiben die Multisignatur-Struktur
 wrong_answers:
-  - Mit HASH160.
-  - Mit einem BCH-Code.
-  - Mit RIPEMD160.
+  - Sie eliminieren die Notwendigkeit einer mnemonischen Phrase
+  - Sie vereinfachen die Erzeugung von gehärteten Schlüsseln
+  - Sie machen Multisignaturen kompatibel mit allen Skripten
 explanation: |
-  Für Legacy-Adressen wird die Prüfsumme durch eine doppelte Hash-Berechnung mit der SHA256-Funktion (HASH256) ermittelt.
+  Deskriptoren beinhalten die erweiterten öffentlichen Schlüssel aller Teilnehmer, was die Wiederherstellung und Verwaltung von Multisignatur-Konfigurationen erleichtert.
 reviewed: false

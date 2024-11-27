@@ -1,8 +1,9 @@
-question: Mis tähendab tuletustee notatsioonis numbri paremal pool olev apostroof või H? Näide m/84'/0'.
-answer: See tähistab turvalist tuletust.
+question: Millist osa HMAC-SHA512 väljundist kasutatakse lapse ahelakoodina?
+answer: Viimased 32 baiti
 wrong_answers:
-  - See tähistab tavalist tuletust.
-  - See on seal dekoratsiooni eesmärgil.
-  - See tähistab muutmisvõtit.
+  - Esimesed 32 baiti
+  - Kogu 64 baiti
+  - Keskmise 32 baiti SHA256 räsi
 explanation: |
-  Apostroof või H tuletustees tähistab turvalist tuletust, mis kasutab vanema privaatvõtit ja vastavat indeksivahemikku.
+  HMAC-SHA512 väljundi viimased 32 baiti toimivad lapse võtme ahelakoodina.
+reviewed: false

@@ -1,8 +1,9 @@
-question: Apa kurva elips paling terkenal yang digunakan dalam sistem kriptografi?
-answer: secp256r1.
+question: Operasi matematika apa yang menjadi dasar keamanan kriptografi kurva eliptik?
+answer: Masalah logaritma diskrit
 wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
+  - Faktorisasi bilangan prima
+  - Perhitungan residu kuadrat
+  - Masalah kubus diskrit
 explanation: |
-  Kurva elips secp256r1 digunakan secara luas dalam banyak sistem kriptografi, namun Bitcoin menggunakan kurva secp256k1.
+  Keamanan kriptografi kurva eliptik didasarkan pada kesulitan dalam menyelesaikan masalah logaritma diskrit pada kurva tersebut.
+ditinjau: false

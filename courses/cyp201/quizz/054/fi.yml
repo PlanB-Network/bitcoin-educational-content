@@ -1,9 +1,9 @@
-question: Mestariavaimen ja mestariketjukoodin arvojen laskemiseksi HMAC-SHA512-funktion ensimmäinen syöte on siemen. Mikä on tämän funktion toinen syötearvo, joka toimii avaimena?
-answer: Bitcoin seed.
+question: Mikä on pääasiallinen rooli salasanalla Bitcoin HD-lompakossa?
+answer: Muuttaa avaimen johdannan parantaakseen turvallisuutta
 wrong_answers:
-  - Mnemoninen lause.
-  - Salasana.
-  - Siemen.
+  - Purkaa odottavat transaktiot
+  - Generoida lompakon UTXO: t
+  - Suojata lompakon pääsy kasvojentunnistuksella
 explanation: |
-  Merkkijono Bitcoin seed käytetään avaimena HMAC-SHA512: ssa johdettakseen mestariavain ja mestariketjukoodi siemenestä.
+  Salasana toimii toisena turvatekijänä, muuttaen avaimen johdannan siementä estääkseen pääsyn lompakkoon, jos mnemoninen lause on vaarantunut.
 reviewed: false

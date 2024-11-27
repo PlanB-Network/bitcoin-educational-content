@@ -1,11 +1,9 @@
-question: Mục tiêu của việc sử dụng chữ ký số trong Bitcoin là gì?
-
-answer: Tạo ra một bằng chứng toán học chứng minh rằng người dùng thực sự sở hữu khóa riêng, mà không tiết lộ khóa riêng đó.
-
+question: Đường cong elliptic nào được sử dụng trong giao thức Bitcoin?
+answer: secp256k1
 wrong_answers:
-  - Tạo ra một bằng chứng toán học chứng minh rằng người dùng thực sự sở hữu khóa công khai, mà không tiết lộ khóa công khai đó.
-  - Tạo ra một bằng chứng toán học chứng minh rằng người dùng thực sự sở hữu địa chỉ nhận, mà không tiết lộ địa chỉ nhận đó.
-  - Tạo ra một bằng chứng toán học chứng minh rằng người dùng thực sự sở hữu một ví.
-
-explanation:
-  Chữ ký số trong Bitcoin cho phép chứng minh rằng một người dùng sở hữu khóa riêng liên kết với một khóa công khai mà không tiết lộ khóa riêng đó.
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoin sử dụng đường cong secp256k1, được định nghĩa bởi phương trình y² = x³ + 7, cho các hoạt động mật mã của mình.
+reviewed: false

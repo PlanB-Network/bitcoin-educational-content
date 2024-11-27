@@ -50,6 +50,7 @@ No nosso exemplo, Alice tem 100.000 satoshis do lado dela do canal, e Bob tem 30
 O **satoshi** (ou "sat") é uma unidade de conta no Bitcoin. Semelhante a um centavo para o euro, um satoshi é simplesmente uma fração de Bitcoin. Um satoshi é igual a **0.00000001 Bitcoin**, ou um centésimo milionésimo de um Bitcoin. Usar o satoshi torna-se cada vez mais prático à medida que o valor do Bitcoin aumenta.
 
 ### A Alocação de Fundos no Canal
+
 Vamos retornar ao canal de pagamento. O conceito chave aqui é o "**lado do canal**". Cada participante tem fundos no seu lado do canal: Alice 100.000 satoshis e Bob 30.000. Como vimos, a soma desses fundos representa a capacidade total do canal, um valor estabelecido quando ele é aberto.
 
 ![LNP201](assets/en/02.webp)
@@ -115,6 +116,7 @@ Um UTXO é um pedaço de bitcoin que pode ser de qualquer valor, por exemplo, **
 Os UTXOs não podem ser divididos. Cada vez que são usados para gastar a quantidade em bitcoins que representam, deve ser feito em sua totalidade. É um pouco como uma nota de banco: se você tem uma nota de €10 e deve ao padeiro €5, você não pode simplesmente cortar a nota ao meio. Você tem que dar a ele a nota de €10, e ele lhe dará €5 de troco. Este é exatamente o mesmo princípio para UTXOs no Bitcoin! Por exemplo, quando Alice desbloqueia um script com sua chave privada, ela desbloqueia o UTXO inteiro. Se ela deseja enviar apenas uma parte dos fundos representados por este UTXO para Bob, ela pode "fragmentá-lo" em vários menores. Ela então enviará 0,0015 BTC para Bob e enviará o restante, 0,0005 BTC, para um **endereço de troco**.
 
 Aqui está um exemplo de uma transação com 2 saídas:
+
 - Um UTXO de 0.0015 BTC para Bob, bloqueado por um script que requer a assinatura da chave privada de Bob.
 - Um UTXO de 0.0005 BTC para Alice, bloqueado por um script que requer sua própria assinatura.
 
@@ -169,6 +171,7 @@ Como vimos no primeiro capítulo, um **canal de pagamento** na Lightning pode se
 
 ![LNP201](assets/en/10.webp)
 Vale ressaltar que um nó Lightning pode se comunicar via protocolo P2P sem abrir um canal, mas para trocar fundos, um canal é necessário.
+
 ### Passos para Abrir um Canal Lightning
 
 1. **Troca de mensagens**: Alice quer abrir um canal com Bob. Ela lhe envia uma mensagem contendo a quantidade que deseja depositar no canal (130.000 sats) e sua chave pública. Bob responde compartilhando sua própria chave pública.
@@ -216,6 +219,7 @@ No próximo capítulo, exploraremos o funcionamento técnico de uma transação 
 Neste capítulo, descobriremos o funcionamento técnico de uma transação dentro de um canal na Rede Lightning, ou seja, quando fundos são movidos de um lado do canal para o outro.
 
 ### Lembrete do ciclo de vida do canal
+
 Como visto anteriormente, um canal Lightning começa com uma **abertura** por meio de uma transação Bitcoin. O canal pode ser **fechado** a qualquer momento, também via uma transação Bitcoin. Entre esses dois momentos, um número quase infinito de transações pode ser realizado dentro do canal, sem passar pelo blockchain do Bitcoin. Vamos ver o que acontece durante uma transação no canal.
 ![LNP201](assets/en/17.webp)
 
@@ -256,6 +260,7 @@ Vamos tomar outro exemplo: após a primeira transação onde Alice enviou 30.000
 Novamente, essa transação não é publicada no blockchain, mas pode ser a qualquer momento, caso o canal seja fechado.
 
 Em resumo, quando fundos são transferidos dentro de um canal Lightning:
+
 - Alice e Bob criam uma nova **transação de compromisso**, que reflete a nova distribuição de fundos. - Esta transação Bitcoin é **assinada** por ambas as partes, mas **não publicada** na blockchain do Bitcoin enquanto o canal permanecer aberto.
 - As transações de compromisso garantem que cada participante possa recuperar seus fundos a qualquer momento na blockchain do Bitcoin, publicando a última transação assinada.
 
@@ -298,8 +303,8 @@ Para prevenir esse tipo de trapaça por Alice, na Lightning Network, **mecanismo
 
 1. **O timelock**: Cada transação de compromisso inclui um timelock para os fundos de Alice. O timelock é um primitivo de contrato inteligente que estabelece uma condição de tempo que deve ser cumprida para que uma transação seja adicionada a um bloco. Isso significa que Alice não pode recuperar seus fundos até que um certo número de blocos tenha passado, caso ela publique uma das transações de compromisso. Este timelock começa a aplicar-se a partir da confirmação da transação de compromisso. Sua duração é geralmente proporcional ao tamanho do canal, mas também pode ser configurada manualmente.
 2. **Chave de Revogação**: Os fundos de Alice também podem ser imediatamente gastos por Bob se ele possuir a **chave de revogação**. Esta chave consiste em um segredo mantido por Alice e um segredo mantido por Bob. Note que este segredo é diferente para cada transação de compromisso.
-Graças a esses 2 mecanismos combinados, Bob tem tempo para detectar a tentativa de Alice de enganá-lo e puni-la recuperando seu output com a chave de revogação, o que para Bob significa recuperar todos os fundos do canal. Nossa nova transação de compromisso agora terá esta aparência:
-![LNP201](assets/en/25.webp)
+   Graças a esses 2 mecanismos combinados, Bob tem tempo para detectar a tentativa de Alice de enganá-lo e puni-la recuperando seu output com a chave de revogação, o que para Bob significa recuperar todos os fundos do canal. Nossa nova transação de compromisso agora terá esta aparência:
+   ![LNP201](assets/en/25.webp)
 
 Vamos detalhar o funcionamento desse mecanismo juntos.
 
@@ -336,6 +341,7 @@ As **transações de compromisso** na Lightning Network incluem mecanismos de se
 
 Este sistema de segurança garante que os participantes adiram às regras da Lightning Network, e eles não podem se beneficiar publicando transações de compromisso antigas.
 Neste ponto do treinamento, você já sabe como os canais Lightning são abertos e como as transações dentro desses canais funcionam. No próximo capítulo, descobriremos as diferentes maneiras de fechar um canal e recuperar seus bitcoins na blockchain principal.
+
 ## Encerramento de Canal
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
@@ -376,8 +382,8 @@ Em um **fechamento cooperativo**, Alice e Bob concordam em fechar o canal. Veja 
 
 3. Alice e Bob negociam juntos as taxas da **transação de fechamento**. Essas taxas são geralmente calculadas com base no mercado de taxas Bitcoin no momento do fechamento. É importante notar que **é sempre a pessoa que abriu o canal** (Alice em nosso exemplo) que paga as taxas de fechamento.
 4. Eles constroem uma nova **transação de fechamento**. Esta transação se assemelha a uma transação de compromisso, mas sem timelocks ou mecanismos de revogação, já que ambas as partes estão cooperando e não há risco de trapaça. Esta transação de fechamento cooperativo, portanto, difere das transações de compromisso.
-Por exemplo, se Alice possui **100.000 satoshis** e Bob **30.000 satoshis**, a transação de encerramento enviará **100.000 satoshis** para o endereço de Alice e **30.000 satoshis** para o endereço de Bob, sem restrições de timelock. Uma vez que esta transação seja assinada por ambas as partes, é publicada por Alice. Uma vez que a transação seja confirmada na blockchain do Bitcoin, o canal Lightning será oficialmente fechado.
-![LNP201](assets/en/32.webp)
+   Por exemplo, se Alice possui **100.000 satoshis** e Bob **30.000 satoshis**, a transação de encerramento enviará **100.000 satoshis** para o endereço de Alice e **30.000 satoshis** para o endereço de Bob, sem restrições de timelock. Uma vez que esta transação seja assinada por ambas as partes, é publicada por Alice. Uma vez que a transação seja confirmada na blockchain do Bitcoin, o canal Lightning será oficialmente fechado.
+   ![LNP201](assets/en/32.webp)
 
 O **encerramento cooperativo** é o método preferido de fechamento porque é rápido (sem timelock) e as taxas de transação são ajustadas de acordo com as condições atuais do mercado Bitcoin. Isso evita pagar pouco, o que poderia arriscar bloquear a transação nos mempools, ou pagar demais desnecessariamente, o que leva a perdas financeiras desnecessárias para os participantes.
 
@@ -415,7 +421,7 @@ Existem três maneiras de fechar um canal:
 1. **Encerramento Cooperativo**: Rápido e menos caro, onde ambas as partes concordam em fechar o canal e publicar uma transação de encerramento sob medida.
 2. **Fechamento Forçado**: Menos desejável, pois depende da publicação de uma transação de compromisso, com taxas potencialmente inadequadas e um timelock, o que retarda o fechamento.
 3. **Trapaça**: Se uma das partes tentar roubar fundos publicando uma transação antiga, a outra pode usar a chave de revogação para punir essa trapaça.
-Nos próximos capítulos, exploraremos a Lightning Network de uma perspectiva mais ampla, focando em como sua rede opera.
+   Nos próximos capítulos, exploraremos a Lightning Network de uma perspectiva mais ampla, focando em como sua rede opera.
 
 # Uma Rede de Liquidez
 
@@ -447,7 +453,7 @@ Se Alice quer enviar fundos para Bob sem abrir um canal direto com ele, ela ter�
 Suponha que Alice queira enviar **50.000 satoshis** para Bob:
 
 1. **Alice** envia 50.000 satoshis para **Suzie** em seu canal comum.
-2. **Suzie** replica essa transferência enviando 50.000 satoshis para **Bob** em seu canal. 
+2. **Suzie** replica essa transferência enviando 50.000 satoshis para **Bob** em seu canal.
 
 ![LNP201](assets/en/38.webp)
 Assim, o pagamento é encaminhado para Bob através de um movimento de liquidez em cada canal. Ao final da operação, Alice fica com 50.000 sats. Ela realmente transferiu 50.000 sats, já que inicialmente tinha 100.000. Bob, por sua vez, acaba com 50.000 sats adicionais. Para Suzie (o nó intermediário), esta operação é neutra: inicialmente, ela tinha 30.000 sats em seu canal com Alice e 250.000 sats em seu canal com Bob, um total de 280.000 sats. Após a operação, ela possui 80.000 sats em seu canal com Alice e 200.000 sats em seu canal com Bob, que é a mesma soma que no início.
@@ -486,7 +492,7 @@ Os nós intermediários aplicam taxas para permitir que os pagamentos passem por
 
 1. "**Taxa base**": um valor fixo por canal, frequentemente **1 sat** por padrão, mas personalizável.
 2. "**Taxa variável**": uma porcentagem do valor transferido, calculada em **partes por milhão (ppm)**. Por padrão, é **1 ppm** (1 sat por milhão de satoshis transferidos), mas também pode ser ajustada.
-As taxas também variam dependendo da direção da transferência. Por exemplo, para uma transferência de Alice para Suzie, aplicam-se as taxas de Alice. Inversamente, de Suzie para Alice, são utilizadas as taxas de Suzie.
+   As taxas também variam dependendo da direção da transferência. Por exemplo, para uma transferência de Alice para Suzie, aplicam-se as taxas de Alice. Inversamente, de Suzie para Alice, são utilizadas as taxas de Suzie.
 
 Por exemplo, para um canal entre Alice e Suzie, poderíamos ter:
 
@@ -567,6 +573,7 @@ Aqui está como esse processo funciona em nosso exemplo com Alice, Suzie e Bob:
 
 ![LNP201](assets/en/48.webp)
 **Criando o segredo**: Bob gera um segredo aleatório notado como _s_ (a pré-imagem) e calcula seu hash notado como _r_ com a função hash notada como _h_. Temos:
+
 $$
 r = h(s)
 $$
@@ -672,7 +679,7 @@ As 2 principais mensagens trocadas entre nós Lightning são as seguintes:
 
 - "**Anúncios de Canal**": mensagens sinalizando a abertura de um novo canal.
 - "**Atualizações de Canal**": mensagens de atualização sobre o estado de um canal, particularmente sobre a evolução das taxas (mas não sobre a distribuição de liquidez).
-Os nós do Lightning também monitoram o blockchain do Bitcoin para detectar transações de fechamento de canal. O canal fechado é então removido do mapa, pois não pode mais ser usado para rotear nossos pagamentos.
+  Os nós do Lightning também monitoram o blockchain do Bitcoin para detectar transações de fechamento de canal. O canal fechado é então removido do mapa, pois não pode mais ser usado para rotear nossos pagamentos.
 
 ### Roteando um Pagamento
 
@@ -703,7 +710,7 @@ Mas, como Alice não conhece a distribuição exata de fundos em cada canal, ela
 - **Taxas de transação**: ao escolher a melhor rota, o nó remetente também considera as taxas aplicadas por cada nó intermediário e busca minimizar o custo total de roteamento.
 - **Expiração dos HTLCs**: para evitar pagamentos bloqueados, o tempo de expiração dos HTLCs também é um parâmetro a considerar.
 - **Número de nós intermediários**: finalmente, de forma mais ampla, o nó de envio procurará encontrar uma rota com o menor número possível de nós para reduzir o risco de falha e limitar as taxas de transação do Lightning.
-Analisando esses critérios, o nó de envio pode testar as rotas mais prováveis e tentar otimizá-las. No nosso exemplo, Alice poderia classificar as melhores rotas da seguinte forma:
+  Analisando esses critérios, o nó de envio pode testar as rotas mais prováveis e tentar otimizá-las. No nosso exemplo, Alice poderia classificar as melhores rotas da seguinte forma:
 
 1. `Alice → 1 → 2 → 5 → Bob`, porque é a rota mais curta com a maior capacidade.
 2. `Alice → 1 → 2 → 4 → 5 → Bob`, porque esta rota oferece boas capacidades, embora seja mais longa que a primeira.
@@ -769,6 +776,7 @@ Então a parte destinada ao payload:
 
 p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql
 ```
+
 As duas partes são separadas por um `1`. Esse separador foi escolhido em vez de um caractere especial para permitir a cópia e colagem fácil de toda a fatura com um duplo clique.
 Na primeira parte, podemos ver que:
 
@@ -816,6 +824,7 @@ O conteúdo de uma fatura inclui várias peças de informação necessárias par
 As faturas são então codificadas em **bech32**, o mesmo formato que para endereços Bitcoin SegWit (formato começando com `bc1`).
 
 ### LNURL Saque
+
 Em uma transação tradicional, como uma compra em loja, a fatura é gerada pelo valor total a ser pago. Uma vez que a fatura é apresentada (na forma de um código QR ou sequência de caracteres), o cliente pode escaneá-la e finalizar a transação. O pagamento então segue o processo tradicional que estudamos na seção anterior. No entanto, esse processo pode às vezes ser muito complicado para a experiência do usuário, pois requer que o receptor envie informações ao remetente via fatura.
 Para certas situações, como retirar bitcoins de um serviço online, o processo tradicional é muito complicado. Nestes casos, a solução de retirada **LNURL** simplifica esse processo exibindo um código QR que a carteira do destinatário escaneia para criar automaticamente a fatura. O serviço então paga a fatura, e o usuário simplesmente vê uma retirada instantânea.
 
@@ -850,7 +859,9 @@ No próximo capítulo, veremos como um operador de nó pode gerenciar a liquidez
 Neste capítulo, exploraremos estratégias para gerenciar efetivamente a liquidez na Rede Lightning. A gestão da liquidez varia dependendo do tipo de usuário e contexto. Vamos olhar para os principais princípios e técnicas existentes para entender melhor como otimizar essa gestão.
 
 ### Necessidades de Liquidez
+
 Existem três principais perfis de usuários no Lightning, cada um com necessidades específicas de liquidez:
+
 1. **O Pagador**: Este é quem faz pagamentos. Eles precisam de liquidez de saída para poder transferir fundos para outros usuários. Por exemplo, isso poderia ser um consumidor.
 2. **O Vendedor (ou Beneficiário)**: Este é quem recebe pagamentos. Eles precisam de liquidez de entrada para poder aceitar pagamentos em seu nó. Por exemplo, isso poderia ser um negócio ou uma loja online.
 3. **O Roteador**: Um nó intermediário, muitas vezes especializado em rotear pagamentos, que deve otimizar sua liquidez em cada canal para rotear o máximo de pagamentos possível e ganhar taxas.
@@ -962,20 +973,16 @@ Vimos que a gestão de liquidez é um desafio na Lightning para garantir o fluxo
 
 ![LNP201](assets/en/84.webp)
 
-### Agradecimentos
-Gostaria de agradecer a cada um de vocês pelo interesse, apoio e perguntas ao longo desta série. Inicialmente, minha ideia era criar conteúdo em Francês sobre os aspectos técnicos do Lightning, dada a falta de recursos disponíveis. Foi um desafio pessoal que quis enfrentar, combinando rigor técnico com acessibilidade. Se você gostou deste curso gratuito, sinta-se à vontade para avaliá-lo na seção "_Avalie este curso_" e compartilhá-lo com seus entes queridos e em suas redes sociais.
-Obrigado, até breve!
+# Conclusão
 
-### Bônus: Entrevista com Fanis
-
-![Entrevista com Fanis](https://youtu.be/VeJ4oJIXo9k)
+<partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
 ## Avalie este curso
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Exame Final
+## Exame final
 
 <chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
 <isCourseExam>true</isCourseExam>
@@ -983,11 +990,41 @@ Obrigado, até breve!
 ## Conclusão
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+Parabéns! 🎉
 
-**Parabéns por completar este curso!**
+Você concluiu o treinamento LNP 201 - Introdução à Lightning Network!
 
-Por favor, note que este capítulo está atualmente em construção e uma versão melhorada chegará em breve. Enquanto isso, se você está ansioso para continuar sua jornada no Bitcoin, convidamos você a explorar os outros cursos e tutoriais disponíveis em nossa plataforma. Continue com o bom trabalho e feliz aprendizado!
+Você pode se orgulhar, pois este não é um assunto fácil.
 
-```
+Poucas pessoas se aventuram tão profundamente na toca do coelho do Bitcoin.
 
-```
+Um grande agradecimento ao **Fanis Michalakis** por nos oferecer este excelente curso gratuito sobre o funcionamento técnico da Lightning Network.
+
+Fique à vontade para segui-lo no [Twitter](https://x.com/FanisMichalakis), no [seu blog](https://fanismichalakis.fr/) ou através do seu trabalho na [LN Markets](https://lnmarkets.com/).
+
+Agora que você domina a Lightning Network, convido você a explorar nossos outros cursos gratuitos na Plan ₿ Network para aprofundar seu conhecimento sobre outros aspectos da invenção de Satoshi Nakamoto:
+
+#### Entenda como funciona uma carteira Bitcoin com
+
+https://planb.network/courses/cyp201
+
+#### Descubra a história das origens do Bitcoin com
+
+https://planb.network/courses/his201
+
+#### Configure um servidor de pagamento BTC com
+
+https://planb.network/courses/btc305
+
+#### Domine os princípios de privacidade no Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Descubra os fundamentos da mineração com
+
+https://planb.network/courses/min201
+
+#### Aprenda a criar sua comunidade Bitcoin com
+
+https://planb.network/courses/btc302
+

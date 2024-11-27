@@ -1,9 +1,9 @@
-question: Mis on primitiivne informatsioon, mis võimaldab määrata hea mnemoonilise fraasi HD rahakotile?
-answer: Väline entroopia, mis võimaldab määrata juhusliku või pseudojuhusliku numbri.
+question: Milline Bitcoin'i standard tutvustab hierarhilisi deterministlikke rahakotte?
+answer: BIP32
 wrong_answers:
-  - Rahakoti omaniku eesnimi.
-  - Informatsiooni pole, valime otse sõnad, mis meile meeldivad.
-  - Rahakoti loomise kuupäev.
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  Mnemooniline fraas on tuletatud entroopia allikast, mis tähendab juhuslikku või pseudojuhuslikku informatsiooni, et tagada privaatvõtmete turvalisus.
+  BIP32 määratleb HD rahakottide toimimise, võimaldades privaatvõtmete hierarhilist tuletamist seemnest.
 reviewed: false

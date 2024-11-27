@@ -1,9 +1,9 @@
-question: Quelle est la taille de la sortie de la fonction de hachage SHA256 ?
-answer: 256 bits.
+question: Quelle propriété garantit qu'il est computationnellement impossible de retrouver l'entrée d'un hash ?
+answer: La résistance à la préimage
 wrong_answers:
-  - 256 octets.
-  - 512 bits.
-  - 512 octets.
+  - La résistance aux collisions
+  - L'effet avalanche
+  - La résistance à la seconde préimage
 explanation: |
-  SHA-256 produit une sortie fixe de 256 bits, indépendamment de la taille des données d'entrée.
+  La résistance à la préimage assure qu'il est pratiquement impossible de retrouver le message d'origine à partir de son hash.
 reviewed: false

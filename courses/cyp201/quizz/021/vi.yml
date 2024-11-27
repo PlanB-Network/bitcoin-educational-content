@@ -1,9 +1,8 @@
-question: Kích thước của khóa riêng Bitcoin là bao nhiêu?
-answer: 256 bit.
+question: Đặc điểm chính của phép nhân vô hướng trên đường cong elliptic là gì?
+answer: Hàm một chiều
 wrong_answers:
-  - 512 byte.
-  - 520 bit.
-  - 512 bit.
-explanation: |
-  Khóa riêng Bitcoin có kích thước tiêu chuẩn là 256 bit, tương ứng với thuật toán đường cong elliptic được sử dụng trong Bitcoin.
-reviewed: false
+  - Dễ dàng đảo ngược
+  - Dựa trên việc phân tích các số nguyên tố
+  - Mất rất nhiều thời gian để tính toán
+explanation:
+  Phép nhân vô hướng trên đường cong elliptic là một hàm một chiều, làm cho việc lấy lại khóa riêng từ khóa công khai trở nên không thể.

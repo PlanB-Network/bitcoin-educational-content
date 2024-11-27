@@ -1,9 +1,9 @@
-question: Proč je důležité používat dobrý zdroj entropie pro generování soukromých klíčů?
-answer: Slabá entropie může způsobit, že soukromé klíče budou předvídatelné a zranitelné vůči útokům.
+question: Jaké je hlavní omezení peněženek JBOK?
+answer: Vyžadují nezávislou zálohu pro každý soukromý klíč
 wrong_answers:
-  - Dobrá entropie pomáhá optimalizovat výkon peněženky.
-  - Entropie nehraje žádnou roli v bezpečnosti soukromých klíčů.
-  - Slabá entropie zpomaluje transakce.
+  - Neumožňují generování nových adres
+  - Nejsou kompatibilní s digitálními podpisy
+  - Používají nekomprimované veřejné klíče
 explanation: |
-  Pokud je entropie použitá pro generování soukromých klíčů nízká, může to umožnit útočníkovi uhodnout nebo vypočítat tyto klíče, čímž je ohrožena bezpečnost peněženky.
+  Peněženky JBOK nutí uživatele zálohovat každý soukromý klíč individuálně, což komplikuje jejich správu.
 reviewed: false

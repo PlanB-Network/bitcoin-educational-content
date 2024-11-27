@@ -1,9 +1,9 @@
-question: 楕円曲線を暗号利用に適用するためには、どのようなフィールド上で定義する必要がありますか？
-answer: 正の整数の有限フィールド。
+question: BitcoinのTaprootで導入された署名アルゴリズムは何ですか？
+answer: Schnorr署名方式
 wrong_answers:
-  - 実数のフィールド。
-  - 実数の有限フィールド。
-  - 複素数フィールド。
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  Bitcoinでは、楕円曲線secp256k1は、近似を避け、セキュリティを確保するために、素数による正の整数の有限フィールド上で定義されています。
-  レビュー済み: false
+  Schnorr署名方式は、2021年11月のTaprootアップデートで導入されました。
+reviewed: false

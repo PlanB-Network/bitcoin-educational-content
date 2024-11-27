@@ -1,8 +1,9 @@
-question: Mengapa penting untuk menggunakan sumber entropi yang baik untuk menghasilkan kunci privat?
-answer: Entropi yang buruk dapat membuat kunci privat menjadi dapat diprediksi dan rentan terhadap serangan.
+question: Apa batasan utama dari dompet JBOK?
+answer: Mereka memerlukan cadangan independen untuk setiap kunci privat
 wrong_answers:
-  - Entropi yang baik membantu mengoptimalkan kinerja dompet.
-  - Entropi tidak berperan dalam keamanan kunci privat.
-  - Entropi yang buruk memperlambat transaksi.
+  - Mereka tidak memungkinkan untuk generasi alamat baru
+  - Mereka tidak kompatibel dengan tanda tangan digital
+  - Mereka menggunakan kunci publik yang tidak dikompresi
 explanation: |
-  Jika entropi yang digunakan untuk menghasilkan kunci privat rendah, hal itu dapat memungkinkan penyerang untuk menebak atau menghitung kunci-kunci tersebut, sehingga mengompromikan keamanan dompet.
+  Dompet JBOK memaksa pengguna untuk mencadangkan setiap kunci privat secara individu, yang membuat pengelolaannya menjadi rumit.
+direview: false

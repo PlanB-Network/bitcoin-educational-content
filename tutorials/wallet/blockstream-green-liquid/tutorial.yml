@@ -1,0 +1,26 @@
+id: b3e4fb82-902e-4782-ad2b-a61ab05a543a
+
+builder: Green
+
+tags:
+  - sidechains
+  - offchain
+  - wallets
+
+category: mobile
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-11-23
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

@@ -1,9 +1,9 @@
-question: Afin de pouvoir appliquer cette courbe elliptique à des utilisations cryptographiques, sur quel corps devons-nous la définir ?
-answer: Un corps fini d'entiers positifs.
+question: Quel algorithme de signature a été introduit dans Bitcoin avec Taproot ?
+answer: Schéma de signature de Schnorr
 wrong_answers:
-  - Le corps des réels.
-  - Un corps fini de réels.
-  - Un corps complexe.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  Dans Bitcoin, la courbe elliptique secp256k1 est définie sur un corps fini d'entiers positifs modulo un nombre premier pour éviter les approximations et garantir la sécurité.
+  Le schéma de signature de Schnorr a été introduit en novembre 2021 avec la mise à jour Taproot.
 reviewed: false

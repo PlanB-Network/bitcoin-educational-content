@@ -1,8 +1,8 @@
-question: Ý tưởng về cụm từ khôi phục, hay cụm từ ghi nhớ (12/24 từ), được đề xuất trong BIP nào?
-answer: BIP39.
+question: Cờ sighash SIGHASH_NONE cho phép làm gì?
+answer: Chỉnh sửa các đầu ra sau khi ký
 wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
+  - Chỉnh sửa các đầu vào sau khi ký
+  - Bao gồm tất cả các đầu vào và đầu ra
+  - Hạn chế chỉnh sửa chỉ một đầu ra
 explanation: |
-  BIP39 đã giới thiệu cụm từ ghi nhớ 24 từ để hỗ trợ việc sao lưu khóa cho người dùng của ví HD.
+  SIGHASH_NONE chỉ bao gồm các đầu vào, để lại các đầu ra có thể được chỉnh sửa sau khi ký.

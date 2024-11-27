@@ -1,8 +1,9 @@
-question: Hvorfor styrker bruk av en passfrase sikkerheten til en HD-lommebok?
-answer: Den legger til et ekstra lag med beskyttelse til den mnemoniske frasen.
+question: Hva er størrelsen i bits på et binært segment som brukes til å lage hvert mnemoniske ord?
+answer: 11 bits
 wrong_answers:
-  - Den muliggjør generering av sterkere offentlige nøkler.
-  - Den kryptografisk beskytter transaksjoner.
-  - Den dobler antallet bitcoins i lommeboken.
+  - 8 bits
+  - 16 bits
+  - 10 bits
 explanation: |
-  Passfrasen forbedrer sikkerheten ved å legge til et ekstra stykke data til den mnemoniske frasen, og fungerer noe som en 2FA.
+  Hvert 11-bits segment tilsvarer et ord fra den standardiserte listen over 2048 ord i BIP39.
+reviewed: false

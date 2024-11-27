@@ -1,8 +1,8 @@
-question: Kuinka monta iteraatiota käytetään PBKDF2-funktiossa Bitcoinissa?
-answer: 2048.
+question: Mikä on lohkon koko, jota SHA512 käyttää HMAC ssa?
+answer: 128 tavua
 wrong_answers:
-  - 512.
-  - 1000.
-  - 21000.
+  - 64 tavua
+  - 256 tavua
+  - 1024 tavua
 explanation: |
-  Bitcoin käyttää 2048 iteraatiota PBKDF2-funktiossa siemenen turvallisuuden parantamiseksi.
+  SHA512 käyttää laskelmissaan 128 tavun lohkoja, mikä vastaa 1024 bittiä.

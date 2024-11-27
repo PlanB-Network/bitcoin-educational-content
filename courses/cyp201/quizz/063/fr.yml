@@ -1,9 +1,9 @@
-question: Quelles sont les deux types de dérivation de clés enfants dans un portefeuille HD ?
-answer: Dérivation normale et dérivation renforcée.
+question: Quelle information n'est pas incluse dans une clé étendue ?
+answer: L'historique des transactions de la clé
 wrong_answers:
-  - Dérivation simple et dérivation complexe.
-  - Dérivation elliptique et dérivation courbe.
-  - Dérivation statique et dérivation dynamique.
+  - Le numéro d'index de la clé
+  - La clé (privée ou publique)
+  - Le code de chaîne
 explanation: |
-  Les deux types de dérivation sont la dérivation normale, qui utilise la clé publique parent, et la dérivation renforcée, qui utilise la clé privée parent.
+  Une clé étendue contient uniquement les informations nécessaires pour dériver les clés enfants, pas d'informations liées aux transactions.
 reviewed: false

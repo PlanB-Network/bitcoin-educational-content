@@ -1,8 +1,8 @@
-question: Bitcoin HDウォレットでの導出に使用されるアルゴリズムは何ですか？
-answer: HMAC/PBKDF2
+question: 秘密鍵に基づいて認証コードを計算するために使用される導出アルゴリズムは何ですか？
+answer: HMAC-SHA512
 wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  Bitcoin HDウォレットでは、キー導出にHMAC（ハッシュベースのメッセージ認証コード）を、シード導出にはPBKDF2（パスワードベースのキー導出関数2）を使用します。
+  HMAC-SHA512は、ハッシュ関数と秘密鍵を組み合わせて認証コードを計算するアルゴリズムです。

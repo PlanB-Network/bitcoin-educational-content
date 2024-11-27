@@ -911,16 +911,6 @@ Následkem bankovní paniky z roku 1796 nastal jev, kdy každý se snažil posun
 
 Centrální banky se vyvinuly v poskytovatele poslední instance, pozastavující přeměnitelnost své měny na zlato. Ačkoli bylo toto opatření původně zamýšleno jako dočasné řešení, nakonec se stalo trvalým, což znamenalo příchod konceptu poskytovatele poslední instance. Tato transformace formovala centrální banky, jak je známe dnes. Avšak ve zranitelnějších ekonomikách může tato schopnost libovolně tisknout peníze vést k nežádoucím důsledkům, jako je hyperinflace, pokud je používána nezodpovědně.
 
-## Ohodnoťte kurz
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Závěrečná zkouška
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Knihy a zdroje
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -941,3 +931,52 @@ Hyperinflace je fascinující téma, které bylo studováno prostřednictvím r�
 
 - "Pád peněz: Hyperinflace v Německu a zničení střední třídy" od Fredericka Taylora. Vyprávění o sociálním a ekonomickém dopadu hyperinflace na německou společnost.
 - "Měnové rady pro rozvojové země: Příručka" od Steve Hanke a Kurta Schuler. Ačkoliv je zaměření na měnové rady, tato kniha nabízí perspektivu, jak se vyhnout situacím hyperinflace.
+
+# Závěr
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Zhodnoťte tento kurz
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Závěrečná zkouška
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Závěr
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Gratulujeme k dokončení tohoto kurzu!
+
+Jsme potěšeni, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
+
+Díky vaší oddanosti a odhodlání jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
+
+Pro další podrobné prozkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
+
+#### Objevte život F. Bastiata s
+
+https://planb.network/courses/eco102
+
+#### Objevte ekonomické myšlení rakouské školy s
+
+https://planb.network/courses/eco201
+
+#### Objevte Bitcoin a jeho základy s
+
+https://planb.network/courses/btc101
+
+#### Aktualizujte svou online bezpečnost s
+
+https://planb.network/courses/scu101
+
+#### Získejte a zabezpečte své první bitcoiny s
+
+https://planb.network/courses/btc102
+
+#### Objevte historii původu Bitcoinu s
+
+https://planb.network/courses/his201

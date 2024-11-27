@@ -1,9 +1,8 @@
-question: Hva er en PRNG?
-answer: En algoritme som genererer tilfeldige tall fra et frø og en transformasjonsfunksjon.
+question: Hva tillater en HD-lommebok deg å gjøre sammenlignet med en JBOK-lommebok?
+answer: Generere alle private nøkler fra en enkelt seed
 wrong_answers:
-  - En maskinvareenhet som genererer virkelig tilfeldige tall.
-  - En generator som produserer tilfeldige tall uten noe frø.
-  - En algoritme som genererer forutsigbare tall.
+  - Øke sikkerheten til digitale signaturer
+  - Gjenbruke samme adresse for flere transaksjoner
+  - Fullstendig unngå bruk av offentlige nøkler
 explanation: |
-  En PRNG genererer pseudo-tilfeldige tall fra et frø, men i motsetning til en TRNG, er den ikke virkelig tilfeldig.
-reviewed: false
+  HD-lommebøker genererer alle private nøkler fra en unik seed, noe som forenkler sikkerhetskopiering og indirekte forbedrer personvernet.

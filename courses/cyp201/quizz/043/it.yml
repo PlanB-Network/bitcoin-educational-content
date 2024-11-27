@@ -1,9 +1,9 @@
-question: Come determinare la dimensione in bit del checksum per una frase di recupero?
-answer: Dividere la dimensione del numero casuale (entropia) per 32.
+question: Quanti bit di entropia vengono utilizzati per una frase mnemonica di 24 parole?
+answer: 256 bit
 wrong_answers:
-  - Dividere la dimensione del numero casuale (entropia) per 8.
-  - Dividere la dimensione del numero casuale (entropia) per 16.
-  - Moltiplicare la dimensione del numero casuale (entropia) per 2.
+  - 128 bit
+  - 512 bit
+  - 64 bit
 explanation: |
-  La dimensione del checksum si ottiene dividendo la dimensione dell'entropia per 32, in conformità con BIP39.
+  Una frase mnemonica di 24 parole si basa su 256 bit di entropia, garantendo un livello di sicurezza molto elevato.
 reviewed: false

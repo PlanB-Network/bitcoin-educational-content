@@ -1,9 +1,9 @@
-question: Jaká metadata jsou přidána k rozšířenému klíči kromě jeho payloadu?
-answer: Verze / hloubka / otisk rodiče / index / kontrolní součet.
+question: Která funkce se používá k odvození seedu z mnemonické fráze?
+answer: PBKDF2 s HMAC-SHA512
 wrong_answers:
-  - Verze / index.
-  - Verze / hloubka / oddělovač / kontrolní součet.
-  - Nejsou přidána žádná metadata.
+  - Pouze SHA256
+  - Dvojitý SHA256
+  - AES-256
 explanation: |
-  Rozšířený klíč zahrnuje několik kusů metadat. Jsou zde verze, hloubka, otisk rodiče, index a kontrolní součet pro usnadnění derivace klíče.
+  Seed je generován pomocí funkce PBKDF2 s HMAC-SHA512 a 2048 iteracemi, z mnemonické fráze a hesla.
 reviewed: false

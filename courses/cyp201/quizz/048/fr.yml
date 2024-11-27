@@ -1,9 +1,9 @@
-question: Quelle est la fonction utilisée pour générer la graine à partir de la phrase mnémonique et de la passphrase ?
-answer: PBKDF2.
+question: Pourquoi une phrase mnémonique de 24 mots est-elle souvent jugée superflue pour un portefeuille Bitcoin ?
+answer: Les clés dérivées n'offrent que 128 bits de sécurité
 wrong_answers:
-  - SHA256.
-  - HMAC.
-  - Argon2.
+  - Les logiciels ne prennent pas en charge les phrases de 24 mots
+  - Elle ne permet pas de dériver des clés publiques
+  - Les phrases plus courtes ne sont pas standardisées
 explanation: |
-  PBKDF2 (Password-Based Key Derivation Function 2) est utilisée pour dériver la graine à partir de la phrase mnémonique et de la passphrase dans les portefeuilles HD.
+  Bien qu'une phrase de 24 mots offre 256 bits de sécurité, les clés privées Bitcoin dérivées ne garantissent que 128 bits de sécurité, rendant l'excès inutile.
 reviewed: false

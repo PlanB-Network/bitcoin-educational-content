@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'indique le chemin de dérivation suivant ? m/84'/0'/1'/0/7
-answer: Une adresse externe SegwitV0 sur le mainnet.
+question: Quelle est l'utilité de l'index dans la dérivation des clés enfants ?
+answer: Distinguer les paires de clés sœurs
 wrong_answers:
-  - Une adresse externe SegwitV1 sur le mainnet.
-  - Une adresse interne Legacy sur le testnet.
-  - Une adresse externe Legacy sur le mainnet.
+  - Identifier la nature de la clé (publique ou privée)
+  - Spécifier le niveau de sécurité de la clé
+  - Ajouter une couche de sécurité supplémentaire
 explanation: |
-  Le chemin de dérivation m/84'/0'/1'/0/7 indique une adresse externe SegwitV0 sur le réseau principal (mainnet). 84' = SegWit v0, 0' = mainnet, 0 = externe
+  L'index permet de différencier les clés enfants dérivées de la même paire parent.
 reviewed: false

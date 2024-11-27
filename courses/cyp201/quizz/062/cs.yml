@@ -1,9 +1,9 @@
-question: Pro odvození normálního páru dětských klíčů musím zadat do funkce HMAC-SHA512...
-answer: rodičovský veřejný klíč || index, rodičovský řetězový kód.
+question: Co umožňuje odvodit rozšířený veřejný klíč?
+answer: Pouze obyčejné dětské veřejné klíče
 wrong_answers:
-  - rodičovský soukromý klíč || index, rodičovský řetězový kód.
-  - rodičovský soukromý klíč, rodičovský řetězový kód.
-  - rodičovský soukromý klíč || index.
+  - Pouze obyčejné dětské soukromé klíče
+  - Oba, zpevněné a obyčejné dětské veřejné klíče
+  - Oba, zpevněné a obyčejné dětské soukromé klíče
 explanation: |
-  Pro odvození normálního dětského klíče se používá rodičovský veřejný klíč spolu s indexem a řetězovým kódem ve funkci HMAC-SHA512.
+  Rozšířený veřejný klíč umožňuje odvození pouze obyčejných dětských veřejných klíčů, nikoli soukromých klíčů nebo zpevněných klíčů.
 reviewed: false

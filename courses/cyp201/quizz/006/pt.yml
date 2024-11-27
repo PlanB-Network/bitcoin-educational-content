@@ -1,9 +1,9 @@
-question: Quantos bits são reservados para o preenchimento pelo tamanho na função SHA256?
-answer: 64 bits.
+question: O que acontece durante cada rodada de compressão no SHA256?
+answer: As variáveis de estado são atualizadas a partir das palavras da mensagem e constantes
 wrong_answers:
-  - 128 bits.
-  - 256 bits.
-  - 512 bits.
+  - O hash final é progressivamente gerado após cada rodada
+  - Os bits da mensagem são rearranjados
+  - Os valores iniciais das variáveis permanecem inalterados
 explanation: |
-  O SHA256 reserva 64 bits para preenchimento, o que representa o tamanho inicial da mensagem antes do preenchimento.
+  Cada rodada modifica as variáveis de estado usando palavras, constantes e operações lógicas para espalhar a informação.
 reviewed: false

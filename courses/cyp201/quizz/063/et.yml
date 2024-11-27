@@ -1,8 +1,9 @@
-question: Mis on kaks lastevõtme tuletamise tüüpi HD rahakotis?
-answer: Tavaline tuletamine ja turvaline tuletamine.
+question: Millist informatsiooni ei sisalda laiendatud võti?
+answer: Võtme tehingute ajalugu
 wrong_answers:
-  - Lihtne tuletamine ja keeruline tuletamine.
-  - Elliptiline tuletamine ja kõvera tuletamine.
-  - Staatiline tuletamine ja dünaamiline tuletamine.
+  - Võtme indeksinumber
+  - Võti (privaatne või avalik)
+  - Ahelakood
 explanation: |
-  Kaks tuletamise tüüpi on tavaline tuletamine, mis kasutab vanema avalikku võtit, ja turvaline tuletamine, mis kasutab vanema privaatvõtit.
+  Laiendatud võti sisaldab ainult vajalikku informatsiooni alamvõtmete tuletamiseks, mitte informatsiooni tehingutega seotud andmete kohta.
+reviewed: false

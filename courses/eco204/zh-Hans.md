@@ -917,16 +917,6 @@ Bernold提出的一个有趣观点是，货币改革的成功不仅取决于其�
 
 中央银行已经演变成为最后贷款人，暂停了其货币兑换成黄金的能力。虽然这一行动最初被视为一种临时解决方案，但它最终成为永久性的，标志着最后贷款人概念的到来。这一转变塑造了我们今天所知的中央银行。然而，在更脆弱的经济体中，这种随意印钞的能力可能导致不希望的后果，如恶性通货膨胀，如果使用不当的话。
 
-## 评估课程
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## 期末考试
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## 书籍和资源
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -942,3 +932,52 @@ Bernold提出的一个有趣观点是，货币改革的成功不仅取决于其�
 - 《金钱之死：德国和美国大通胀的教训》作者：延斯·O·帕森。对德国和美国通胀危机的比较分析。
 - 《货币的崩溃：德国恶性通货膨胀与中产阶级的毁灭》作者：弗雷德里克·泰勒。对恶性通货膨胀对德国社会的社会和经济影响的叙述性探索。
 - 《发展中国家的货币委员会：手册》作者：史蒂夫·汉克和库尔特·舒勒。尽管重点是货币委员会，但这本书提供了如何避免恶性通货膨胀情况的视角。
+
+# 总结
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## 评估本课程
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## 期末考试
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## 总结
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+恭喜你完成本课程！
+
+我们很高兴看到您在学习之旅中达到这个重要的里程碑。
+
+通过您的专注和投入，您获得了宝贵的知识和技能，这些将有助于您的职业发展。
+
+为了继续深入探索比特币世界，我们邀请您了解 Plan ₿ Network 上提供的所有其他课程：
+
+#### 通过以下课程了解 F. 巴斯夏的生平
+
+https://planb.network/courses/eco102
+
+#### 通过以下课程了解奥地利学派的经济思想
+
+https://planb.network/courses/eco201
+
+#### 通过以下课程了解比特币及其基础知识
+
+https://planb.network/courses/btc101
+
+#### 通过以下课程更新您的在线安全
+
+https://planb.network/courses/scu101
+
+#### 通过以下课程获取并保护您的首批比特币
+
+https://planb.network/courses/btc102
+
+#### 通过以下课程了解比特币起源的历史
+
+https://planb.network/courses/his201

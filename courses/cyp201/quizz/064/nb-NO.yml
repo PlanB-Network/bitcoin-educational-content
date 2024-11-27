@@ -1,8 +1,8 @@
-question: Hva er indeksområdet som brukes for normale barnenøkler i en HD-lommebok?
-answer: Mellom 0 og 2^31 - 1.
+question: Hva er hovedfunksjonen til en utvidet nøkkel i en HD-lommebok?
+answer: Å tillate derivasjon av barnenøkler
 wrong_answers:
-  - Mellom 0 og 2^32 - 1.
-  - Mellom 0 og 2^31.
-  - Mellom 2^31 og 2^32 - 1.
+  - Lagre lommebokens transaksjoner
+  - Direkte generere UTXOene
+  - Kryptere de offentlige nøklene
 explanation: |
-  Normale barnenøkler bruker et indeksområde mellom 0 og 2^31 - 1, mens herdede nøkler har et indeks som starter fra 2^31.
+  En utvidet nøkkel kombinerer en nøkkel (enten privat eller offentlig) med en tilknyttet kjedekode, dvs. de to elementene som er nødvendige for å derivere barnenøkler.

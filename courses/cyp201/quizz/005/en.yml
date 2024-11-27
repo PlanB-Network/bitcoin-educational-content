@@ -1,9 +1,9 @@
-question: What size must the input of the SHA256 function be once padded?
-answer: A multiple of 512 bits.
+question: Why is irreversibility ensured in SHA256?
+answer: The operations used remove information and are one-way
 wrong_answers:
-  - Of 256 bits.
-  - Of 256 bytes.
-  - A multiple of 256 bits.
+  - Messages are encrypted before hashing
+  - Bits are rearranged randomly
+  - Each hash is stored in a database
 explanation: |
-  The SHA256 function requires that the input be a multiple of 512 bits after padding to function correctly.
+  Operations such as ShR and XOR make it impossible to return to the initial state, ensuring irreversibility.
 reviewed: false

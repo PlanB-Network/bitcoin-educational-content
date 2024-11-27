@@ -1,8 +1,8 @@
-question: Nếu tôi tạo ra một số ngẫu nhiên 128-bit, kích thước của cụm từ khôi phục của tôi sẽ là bao nhiêu từ?
-answer: 12 từ.
+question: Rủi ro chính khi sử dụng một PRNG thiết kế kém để tạo entropy là gì?
+answer: Khóa riêng có thể bị đoán bởi kẻ tấn công
 wrong_answers:
-  - 6 từ.
-  - 8 từ.
-  - 24 từ.
+  - Cụm từ ghi nhớ có thể chứa từ không chính xác
+  - Chữ ký số sẽ trở nên không hợp lệ
+  - Địa chỉ Bitcoin sẽ không tương thích với mạng
 explanation: |
-  Một số ngẫu nhiên 128-bit tương ứng với một cụm từ ghi nhớ 12 từ, theo tiêu chuẩn BIP39.
+  Một PRNG được thiết kế kém có thể tạo ra các chuỗi dễ đoán, làm cho các khóa dễ bị tấn công hơn.

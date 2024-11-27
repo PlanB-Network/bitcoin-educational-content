@@ -1,9 +1,9 @@
-question: Jak je určen soukromý klíč Bitcoinu?
-answer: Je určen z náhodného nebo pseudonáhodného čísla.
+question: Jaký je rozdíl mezi komprimovaným a nekomprimovaným veřejným klíčem?
+answer: Komprimovaný veřejný klíč používá pouze x-ovou souřadnici a paritu y
 wrong_answers:
-  - Je určen sčítáním a zdvojováním bodů na eliptické křivce z jeho veřejného klíče.
-  - Je určen hašováním jeho veřejného klíče.
-  - Je určen algoritmem SHA-256.
+  - Komprimovaný veřejný klíč je bezpečnější
+  - Komprimovaný veřejný klíč používá pouze y-ovou souřadnici a paritu x
+  - Komprimovaný veřejný klíč vyžaduje větší soukromý klíč
 explanation: |
-  Soukromý klíč Bitcoinu je generován náhodným nebo pseudonáhodným způsobem, což zajišťuje jeho jedinečnost a bezpečnost.
+  Komprimovaný veřejný klíč si ponechává pouze x-ovou souřadnici a bit pro paritu y, čímž se jeho velikost redukuje na 33 bajtů.
 reviewed: false

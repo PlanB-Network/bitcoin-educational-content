@@ -989,15 +989,6 @@ Tulis Frédéric Bastiat dalam sebuah pamflet singkat berjudul The State.
 
 ![image](assets/image/19/IMG9.webp)
 
-# Kesimpulan
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-## Evaluasi kursus
-
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Warisan Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
@@ -1027,3 +1018,52 @@ Jika kita melihat hal-hal dari sudut pandang ini, Reagan menjelaskan kepada kary
 
 Pada intinya, Reagan mengambil dari Bastiat beberapa elemen kunci dari visi liberal masyarakat dan manusia: supremasi masyarakat sipil atas Negara, nilai pilihan dan tanggung jawab individu, pentingnya pengusaha dalam penciptaan kekayaan, pentingnya kerangka hukum yang fleksibel dan minimal, yang memungkinkan kepercayaan dan penghormatan terhadap kontrak, hukum fundamental bahwa kekayaan harus diciptakan sebelum dapat didistribusikan, keinginan untuk memberikan kesempatan kepada semua orang di pasar yang kompetitif…
 
+# Kesimpulan
+
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Nilai kursus ini
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Ujian akhir
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kesimpulan
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Selamat atas penyelesaian kursus ini!
+
+Kami senang Anda telah mencapai tonggak penting dalam perjalanan pembelajaran Anda.
+
+Melalui dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional.
+
+Untuk terus menjelajahi dunia Bitcoin secara lebih mendalam, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
+
+#### Temukan Bitcoin dan dasar-dasarnya dengan
+
+https://planb.network/courses/btc101
+
+#### Dapatkan dan amankan bitcoin pertama Anda dengan
+
+https://planb.network/courses/btc102
+
+#### Perbarui keamanan online Anda dengan
+
+https://planb.network/courses/scu101
+
+#### Temukan Lightning Network dengan
+
+https://planb.network/courses/lnp201
+
+#### Pelajari pemikiran ekonomi Sekolah Austria dengan
+
+https://planb.network/courses/eco201
+
+#### Pahami dasar-dasar Bitcoin dan bangun pemanas rumah Anda dengan
+
+https://planb.network/courses/min201

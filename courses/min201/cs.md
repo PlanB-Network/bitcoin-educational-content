@@ -72,7 +72,7 @@ Jste připraveni vstoupit do této poutavé dobrodružství? Pojďme se společn
 
 Pro zjednodušené vysvětlení konceptu těžby lze použít příhodnou analogii: puzzle. Stejně jako puzzle, těžba je složitý úkol, který je ovšem snadno ověřitelný po jeho dokončení. V kontextu těžby Bitcoinu se těžaři snaží rychle vyřešit digitální puzzle. První těžař, který puzzle vyřeší, prezentuje své řešení celé síti, která poté snadno ověří jeho platnost. Toto úspěšné ověření umožňuje těžaři validovat nový blok a přidat ho do Bitcoinového časového řetězce. Jako uznání za jejich práci, která zahrnuje významné náklady, je těžař odměněn určitým počtem bitcoinů. Tato odměna slouží jako finanční pobídka pro těžaře, aby pokračovali ve své práci validace transakcí a zabezpečení Bitcoinové sítě.
 
-![image](assets/overview/puzzle.webp)
+![image](assets/en/01.webp)
 
 Původně v Bitcoinové síti byla odměna za nalezení bloku 50 bitcoinů každých deset minut, paralelně s objevováním bloku těžaři průměrně každých deset minut. Tato odměna prochází halvingem každých 210 000 bloků, přibližně každé čtyři roky. Tato odměna slouží jako silná motivace pro těžaře, aby se zapojili do procesu těžby navzdory jejím energetickým nákladům. Bez odměny by energeticky náročná těžba byla opuštěna, což by ohrozilo bezpečnost a stabilitu celé Bitcoinové sítě.
 Současná těžební odměna je dvojí. Na jedné straně zahrnuje vytváření nových bitcoinů, které se snížilo z původních 50 bitcoinů každých deset minut na dnešních 6,25 bitcoinu (2023). Na druhé straně zahrnuje transakční poplatky, neboli těžební poplatky, z transakcí, které si těžař vybere pro zařazení do svého bloku. Když je provedena bitcoinová transakce, jsou zaplaceny transakční poplatky. Tyto poplatky fungují jako druh aukce, kde uživatelé udávají, kolik jsou ochotni zaplatit za zařazení své transakce do dalšího bloku. Těžaři, jednající ve svém vlastním zájmu, si proto vybírají nejvýnosnější transakce pro zařazení do svého bloku s ohledem na omezený dostupný prostor. Takto těžební odměna zahrnuje jak generování nových bitcoinů, tak transakční poplatky, čímž zajišťuje nepřetržitou motivaci pro těžaře a zajišťuje dlouhověkost a bezpečnost Bitcoinové sítě.
@@ -83,7 +83,7 @@ Proces těžby zahrnuje nalezení platného hash, který je přijatelný pro Bit
 
 Na začátku dominovala éra CPU, kdy těžaři používali své osobní počítače pro těžbu Bitcoinu. Objev výhod GPU (grafických karet) pro tuto úlohu znamenal zlom, výrazně zvýšil hashrate a snížil spotřebu energie. Pokrok zde ale neskončil, následovalo zavedení FPGA (programovatelných hradlových polí). FPGA sloužily jako platforma pro vývoj ASIC (aplikačně specifických integrovaných obvodů).
 
-![image](assets/overview/chip.webp)
+![image](assets/en/02.webp)
 
 ASIC jsou čipy, srovnatelné s čipem CPU, nicméně jsou vyvinuty k provádění pouze jednoho konkrétního typu výpočtu co nejefektivnějším způsobem. Jinými slovy, CPU je schopno provádět mnoho různých typů výpočtů, aniž by bylo zvláště optimalizováno pro jeden konkrétní typ výpočtu, zatímco ASIC bude schopno provádět pouze jeden typ výpočtu, ale velmi efektivně. V případě Bitcoin ASIC jsou tyto čipy navrženy pro výpočet algoritmu SHA256. Dnes již těžaři výhradně používají ASIC určené pro tuto operaci, optimalizované tak, aby testovaly maximální počet kombinací s co nejmenší spotřebou energie a co nejrychleji. Tyto počítače, neschopné provádět jiné úkoly než těžbu Bitcoinu, jsou hmatatelným svědectvím neustálého vývoje a rostoucí specializace průmyslu těžby Bitcoinu. Tento neustálý vývoj odráží vnitřní dynamiku Bitcoinu, kde úprava obtížnosti zajišťuje produkci bloku každých deset minut navzdory exponenciálnímu nárůstu těžební kapacity.
 
@@ -93,7 +93,7 @@ Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopné
 
 Úprava obtížnosti je klíčovým mechanismem v provozu sítě Bitcoin, který zajišťuje, že bloky jsou těženy v průměru každých 10 minut. Toto trvání je průměrem, protože proces těžby je ve skutečnosti hrou pravděpodobnosti, podobně jako házení kostkami v naději, že padne číslo nižší než číslo definované obtížností. Každých 2016 bloků síť upravuje obtížnost těžby na základě průměrného času potřebného k těžbě předchozích bloků. Pokud je průměrný čas větší než 10 minut, obtížnost se sníží, a naopak, pokud je průměrný čas nižší, obtížnost se zvýší. Tento mechanismus úpravy zajišťuje, že čas těžby nových bloků zůstává konstantní v čase, bez ohledu na počet těžařů nebo celkový výpočetní výkon sítě. To je důvod, proč se Bitcoin Blockchain nazývá také Timechain.
 
-![obrázek](assets/overview/chinaban.webp)
+![obrázek](assets/en/03.webp)
 
 - Příklad z Číny:
   Případ Číny dokonale ilustruje tento mechanismus úpravy obtížnosti. S hojnou a levnou energií byla Čína hlavním globálním centrem pro těžbu Bitcoinu. V roce 2021 země náhle zakázala těžbu Bitcoinu na svém území, což vedlo k masivnímu poklesu celosvětového hashrate sítě Bitcoin, asi o 50%. Tento rychlý pokles těžební síly mohl vážně narušit síť Bitcoin tím, že by zvýšil průměrný čas těžby bloků. Avšak mechanismus úpravy obtížnosti zasáhl, snížil obtížnost těžby, aby zajistil, že frekvence těžby bloků zůstane v průměru 10 minut. Tento případ demonstruje efektivitu a odolnost mechanismu úpravy obtížnosti Bitcoinu, který zajišťuje stabilitu a předvídatelnost sítě, i v případě náhlých a významných změn v globální krajině těžby.
@@ -103,7 +103,7 @@ Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopné
 Pokud jde o vývoj strojů pro těžbu Bitcoinu, je důležité poznamenat, že kontext je více orientován směrem k tradičnímu obchodnímu modelu. Těžaři vydělávají svůj příjem z validace bloků, úkolu s relativně nízkou pravděpodobností úspěchu. Současný model v použití, Antminer S9, ačkoli je starší model spuštěný kolem roku 2016, je stále v oběhu na trhu s použitými, obchoduje se za přibližně 100 až 200 €. Cena těžebních strojů se nicméně liší na základě hodnoty Bitcoinu, a novější model, Antminer S19, je v současné době odhadován na přibližně 3000 €.
 V oblasti těžby se odborníci musí strategicky pozicovat vzhledem k neustálému technologickému pokroku. Těžební průmysl je předmětem neustálých inovací, jak dokládá nedávné uvedení verze J modelu S19 a očekávané uvedení modelu S19 XP, které nabízí výrazně vyšší těžební schopnosti. Navíc se zlepšení netýkají pouze surového výkonu strojů. Například nový model S19 XP používá systém kapalinového chlazení, technickou úpravu, která umožňuje významné zlepšení energetické účinnosti. Ačkoli inovace zůstávají konstantní, budoucí zisky v účinnosti budou pravděpodobně menší ve srovnání s dosud pozorovanými, kvůli dosažení určitého prahu technologické inovace.
 
-![image](assets/overview/chipevolution.webp)
+![image](assets/en/04.webp)
 
 Závěrem, průmysl těžby Bitcoinu pokračuje v adaptaci a rozvoji, a hráči v průmyslu musí očekávat snižující se zisky v účinnosti do budoucna a přizpůsobit své strategie podle toho. Budoucí technologické pokroky, ačkoli stále přítomné, pravděpodobně nastanou na menší škále, což odráží rostoucí zralost sektoru.
 
@@ -115,7 +115,7 @@ Závěrem, průmysl těžby Bitcoinu pokračuje v adaptaci a rozvoji, a hráči 
 
 V současnosti se těžba Bitcoinu vyvinula v vážný a rozsáhlý průmysl, s mnoha veřejně známými hráči a stále větším počtem významných těžařů. Tento vývoj učinil těžbu téměř nedostupnou pro malé hráče kvůli vysokým nákladům spojeným s pořízením nových těžebních strojů. To vyvolává otázku distribuce hashrate mezi různé tržní hráče. Situace je složitá, protože je nezbytné zkoumat jak distribuci hashrate mezi různými společnostmi, tak mezi různými těžebními pooly.
 
-![image](assets/overview/pool.webp)
+![image](assets/en/05.webp)
 
 Těžební pool je skupina těžařů, kteří kombinují své výpočetní zdroje, aby zvýšili své šance na těžbu. Tato spolupráce je nutná, protože izolovaný malý těžební stroj soutěží s průmyslovými giganty, čímž se jeho šance na úspěch snižují na zanedbatelnou úroveň. Těžba funguje na principu loterie, a šance na vyhrání bloku (a tedy odměny v Bitcoinech) každých deset minut jsou pro jednotlivého malého těžaře extrémně nízké. Spojením sil mohou těžaři kombinovat svůj výpočetní výkon, častěji nalézat bloky a poté rozdělovat odměny proporcionálně k příspěvku každého těžaře do poolu.
 
@@ -146,7 +146,7 @@ Centralizace těžby je adresována jako hlavní výzva. Velcí hráči, jako je
 
 Riziko Regulace Je zdůrazněno, že pokud by země jako Spojené státy rozhodly regulovat nebo zakázat určité Bitcoinové transakce, mohlo by to mít významný dopad na síť, zejména pokud je velká část výpočetní síly centralizována v této zemi.
 
-![obrázek](assets/overview/foundry.webp)
+![obrázek](assets/en/06.webp)
 
 Pro boj s touto centralizací jsou diskutovány různé strategie:
 
@@ -170,7 +170,7 @@ Iniciativa Attakai vychází z osobního experimentu s domácí těžbou, který
 
 Po představení svého projektu Bitcoinové komunitě a vzhledem k zájmu, který vzbudil, se vynálezci Attakai rozhodli zveřejnit podrobné návody na platformě Découvre Bitcoin, aby kdokoliv mohl replikovat jejich zkušenost s domácí těžbou. Nyní plánují rozšířit tento koncept i mimo domácí prostředí. Cílem je ukázat, jak může být upravený těžební stroj přeměněn na tiché pomocné topidlo použitelné v zimě, a tím nabídnout plynulý přechod k druhé části školení zaměřené na praktickou realizaci těchto úprav, ilustrované vysvětlujícími videi. Otázkou však zůstává, zda lze tuto iniciativu rozšířit do většího měřítka, a tak nabídnout realistickou a udržitelnou alternativu k současným centralizovaným těžebním strukturám.
 
-![image](assets/overview/attakai.webp)
+![image](assets/en/07.webp)
 
 ### Limit této decentralizace?
 
@@ -193,7 +193,7 @@ Pokud jde o otázku, co by mělo být zahrnuto v bitcoinovém bloku, je klíčov
 
 S očekávaným růstem Lightning Network a následným zvýšením počtu otevírání a zavírání kanálů se stane prostor v bitcoinových blocích stále cennějším. Bitcoinová komunita již má tendenci hodnotit zachování tohoto prostoru, uznávajíc jeho vnitřní omezení. Toto povědomí vedlo k diskusím o legitimním využití prostoru v blocích, s obavami o "spam" na blockchainu z transakcí považovaných za neesenciální.
 
-![image](assets/overview/block.webp)
+![image](assets/en/08.webp)
 
 Spekulace obklopují budoucí využití prostoru v blocích, ale obecně je přijímáno, že je to vzácný zdroj, který by měl být moudře využíván. I když existuje touha jej naplnit, je zásadní jej zachovat, aby byla zajištěna dlouhodobá životaschopnost sítě Bitcoinu, s předvídáním budoucího nárůstu poptávky po prostoru v blocích. Jako na jakémkoliv volném trhu, nabídka a poptávka budou regulovat využití prostoru v blocích. S omezenou nabídkou budou muset zúčastněné strany činit informovaná rozhodnutí o využití tohoto cenného prostoru, aby zajistily dlouhodobou efektivitu a bezpečnost sítě Bitcoinu.
 
@@ -208,7 +208,7 @@ Role těžařů v síti Bitcoin byla předmětem intenzivní debaty během tzv. 
 
 Během válek o velikost bloku bylo mnoho těžařů proti určitým vývojům v síti, což zdůraznilo napětí mezi různými aktéry v ekosystému. Otázka, jak vyvážit moc mezi těžaři, uzly a uživateli, aby byla zajištěna dlouhodobá bezpečnost Bitcoinu, zůstává otevřená.
 
-![image](assets/overview/blocksize-wars--BTC-vs-BCH-.webp)
+![image](assets/en/09.webp)
 
 Bezpečnostní dilema Bitcoinu spočívá v křehké rovnováze. Zatímco těžaři hrají klíčovou roli při ověřování a vytváření bloků, uzly udržují integritu ověřováním a validací transakcí a bloků. Nesprávný nebo podvodný blok bude uzly odmítnut, čímž dojde k cenzurování těžaře a zachování bezpečnosti sítě. Moc mají také uzly a uživatelé sítě Bitcoin. Uzly mají moc ověřování a validace, zatímco uživatelé mají moc rozhodnout, kterou blockchainovou síť použijí. Toto rozdělení moci zajišťuje distribuci a integritu sítě Bitcoin.
 
@@ -220,7 +220,7 @@ Nakonec je odpovědnost sdílena mezi všechny aktéry v síti Bitcoin. Pokles p
 
 Elegantní teorie her od Satoshiho Nakamota vytvořila situaci, kde každý aktér v síti Bitcoin je motivován jednat správně, aby chránil jak své vlastní zájmy, tak zájmy ostatních účastníků. To vytváří rovnováhu, kde špatné chování může být potrestáno, čímž se zvyšuje bezpečnost a stabilita celého systému. Přesto zůstávají státy potenciální hrozbou. Jak bylo naznačeno na prezentaci na Surfing Bitcoin 2022, státy mohou pokusit o útok na těžební průmysl, čímž vystavují síť Bitcoin rizikům centralizace a útoku. Hypotetické scénáře, jako je vojenský útok zaměřený na výrobní zařízení těžebního hardwaru, zdůrazňují důležitost geografické a průmyslové diverzifikace pro odolnost sítě Bitcoin.
 
-![image](assets/overview/miner.webp)
+![image](assets/en/10.webp)
 
 Centralizace výroby těžebního hardwaru v Číně představuje další riziko. Odmítnutí exportu těžebních strojů nebo akumulace hashovací síly pro potenciální útok 51% Čínou zdůrazňuje potřebu diverzifikované výroby těžebního hardwaru. Jako reakce na tyto rizika aktivně komunita Bitcoin hledá řešení. Společnosti jako Intel zvažují výrobu těžebního zařízení ve Spojených státech, což přispívá k distribuci výroby. Další iniciativy, jako je open-source Mining Development Kit (MDK) od společnosti Block, mají za cíl snížit monopol na design a výrobu těžebního hardwaru, což umožňuje širší distribuci hashovací síly. V jádru těchto diskusí leží základní poslání Bitcoinu: být sítí pro výměnu hodnot odolnou vůči cenzuře. Komunita Bitcoin neustále usiluje o posílení distribuce, odolnosti vůči cenzuře a anti-křehkosti sítě, odmítajíc předložené návrhy, jako je přechod na proof of stake, které nejsou v souladu s těmito základními principy.
 
@@ -228,7 +228,7 @@ Centralizace výroby těžebního hardwaru v Číně představuje další riziko
 
 Důkaz práce (Proof of Work - PoW) je zásadní, protože představuje fyzickou spojnici mezi skutečným světem a Bitcoinem. Ačkoliv jsou bitcoiny nehmotné, jejich produkce vyžaduje hmatatelnou energii, čímž se navazuje přímé spojení s fyzickým a skutečným světem. Toto spojení zajišťuje, že produkce a validace bitcoinů a bloků mají skutečnou energetickou cenu, čímž je síť Bitcoin ukotvena ve fyzické realitě a brání její úplné dominanci mocnými subjekty. PoW působí jako obrana proti centralizaci, zajišťující, že účast v síti a validace transakcí vyžadují investici do hmatatelných zdrojů. To brání monopolizaci sítě subjekty, které by jinak mohly získat kontrolu bez jakékoliv významné vstupní bariéry, čímž zajišťuje spravedlivější rozdělení moci a vlivu v rámci sítě Bitcoin.
 
-![image](assets/overview/POWPOS.webp)
+![image](assets/en/11.webp)
 
 ### Omezení Důkazu vkladu
 
@@ -249,7 +249,7 @@ Shrnutí, těžaři posilují síť Bitcoin proti cenzuře používáním elektr
 Aktuální hash rate, přestože cena Bitcoinu je na 30 000 dolarů ve srovnání s předchozím maximem 69 000 dolarů, zdůrazňuje hmatatelné spojení mezi těžbou a skutečným světem. Období býčího trhu vedou k vysoké poptávce po těžbě Bitcoinu a k nárůstu objednávek strojů od výrobců jako jsou Avalon a Bitmain. Výroba a dodání však nejsou okamžité, což vytváří nesoulad mezi zvýšenou poptávkou a pozdější dostupností. To může vést k tomu, že stroje objednané během býčího trhu jsou dodány v medvědím trhu, což zdůrazňuje významnou asymetrii mezi nízkou cenou a vysokým hash rate.
 Tato situace také ilustruje odolnost Bitcoinu, která je často hodnocena na základě jeho ceny. Avšak pro hlubší analýzu zdraví Bitcoinu je nutné zkoumat jeho hash rate, což měří počet výpočtů za sekundu v síti Bitcoinu. Zatímco cena Bitcoinu kolísá, jeho náklady, spojené s elektřinou potřebnou k provozu těžebních strojů, zůstávají zásadní pro pochopení tržních dynamik. Zaměřením na náklady místo ceny získáme konzistentnější perspektivu na stabilitu a dlouhodobou životaschopnost Bitcoinu. Obecně platí, že náklady na Bitcoin jsou proporcionální jeho ceně, což poskytuje lepší pochopení kolísání cen a budoucích výhledů.
 
-![obrázek](assets/overview/pricevshashrate.webp)
+![obrázek](assets/en/12.webp)
 
 ### Hash Rate a Odmena
 
@@ -282,7 +282,7 @@ Nicméně, těžba nabízí jedinečné cesty, jak se zapojit do ekosystému Bit
 
 Přesto těžba představuje významné výzvy. Dobře známé přísloví ve světě kryptoměn, "Nejsou-li to vaše klíče, nejsou to vaše bitcoiny," nachází podobný odraz ve světě těžby: "Není-li to váš hashrate, není to vaše odměna." Příběhy zklamání a odpojených strojů jsou běžné, s mnoha hráči slibujícími výjimečné výsledky, ale nedokáží je dodat. Problémy s dodávkami elektřiny a poruchami strojů mohou investory nechat bezmocnými, s drahým vybavením, které nekontrolují. V tomto kontextu je opatrnost a hluboké porozumění sektoru těžby klíčové před vstupem do něj. Ačkoliv existují příležitosti pro zisky, rizika jsou významná a informovaný a promyšlený přístup je nezbytný pro navigaci v tomto složitém a často nepředvídatelném oboru. Je proto nezbytné provést důkladný výzkum a pečlivě zvážit klady a zápory před zapojením do těžby Bitcoinu.
 
-![image](assets/overview/self.webp)
+![image](assets/en/13.webp)
 
 ### Původní Bitcoiny
 
@@ -294,7 +294,7 @@ V tomto kontextu se jeví jako moudré zvolit autonomní a vzdělaný přístup 
 ### Je těžba zakázána v Evropě?
 
 S otázkou potenciálního zákazu těžby v Evropě se diskuse o regulaci stávají stále relevantnější. Kolísavá regulační krajina skutečně může významně ovlivnit průmysl těžby Bitcoinu. Zákaz těžby v Evropě je představitelný scénář, zejména s ohledem na precedenty v Číně. Ačkoliv těžební operace v Číně pokračují navzdory zákazu, Evropa by mohla jít podobnou cestou. Širší distribuce hashrate mezi různé regiony by mohla pomoci posílit těžební komunitu v Evropě, umožňující jim účinně čelit nedorozuměním a nesprávným představám o těžbě, jejím dopadu na životní prostředí a jejím otisku na elektrické síti.
-![obrázek](assets/overview/regulation.webp)
+![obrázek](assets/en/14.webp)
 
 V čele s kampaněmi jako ty od Greenpeace a často zavádějícími čísly z některých studií, zůstává nejlepší zbraní pravdivá informace. Je zásadní informovat širokou veřejnost a rozhodovatele o realitě těžby, její složitosti a jejích nuancích, místo aby se spoléhalo na stereotypy a nepřesné informace. Čím více lidí je informováno a vědomo si, co těžba skutečně je, tím lépe může průmysl bránit se proti potenciálním restriktivním regulacím.
 
@@ -370,39 +370,39 @@ Antminer S9 existuje v několika variantách (i, j), které přinášejí menš�
 
 Cena ASIC se liší v závislosti na mnoha faktorech, jako je cena bitcoinu, obtížnost sítě, efektivita stroje a cena elektřiny. Proto je obtížné dát přesný odhad pro nákup použitého stroje. V únoru 2023 se očekávaná cena ve Francii obvykle pohybuje od 100 € do 200 €, ale tyto ceny se mohou rychle měnit.
 
-![image](assets/guide-achat/1.webp)
+![image](assets/en/15.webp)
 
 Antminer S9 se skládá z následujících částí:
 
 - 3 hashboardy, které obsahují čipy produkující hashovací výkon.
 
-![image](assets/guide-achat/2.webp)
+![image](assets/en/16.webp)
 
 - Řídící deska, která zahrnuje slot pro SD kartu, Ethernetový port a konektory pro hashboardy a ventilátory. To je mozek vašeho ASIC.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/en/17.webp)
 
 - 3 datové kabely, které propojují hashboardy s řídící deskou.
 
-![image](assets/guide-achat/4.webp)
+![image](assets/en/18.webp)
 
 - Zdroj napájení, který pracuje na 220V a může být zapojen jako běžný domácí spotřebič.
 
-![image](assets/guide-achat/5.webp)
+![image](assets/en/19.webp)
 
 - 2 120mm ventilátory.
 
-![image](assets/guide-achat/6.webp)
+![image](assets/en/20.webp)
 
 - Samec kabelu C13.
 
-![image](assets/guide-achat/7.webp)
+![image](assets/en/21.webp)
 
 Při koupi použitého stroje je důležité zkontrolovat, zda jsou všechny části zahrnuty a funkční. Během výměny byste měli prodejce požádat, aby stroj zapnul, abyste zkontrolovali jeho správnou funkci. Je důležité ověřit, že zařízení správně zapne, a poté zkontrolovat připojení k internetu připojením Ethernetového kabelu a přístupem k Bitmain přihlašovacímu rozhraní prostřednictvím webového prohlížeče ve stejné lokální síti. Tuto IP adresu můžete najít připojením k rozhraní vašeho internetového routeru a hledáním připojených zařízení. Tato adresa by měla mít následující formát: 192.168.x.x
 
-![image](assets/guide-achat/8.webp)
+![image](assets/en/22.webp)
 Také ověřte, že výchozí přihlašovací údaje fungují (uživatelské jméno: root, heslo: root). Pokud výchozí přihlašovací údaje nefungují, bude nutné stroj resetovat.
-![image](assets/guide-achat/9.webp)
+![image](assets/en/23.webp)
 
 Po připojení byste měli být schopni vidět stav každého hashboardu na palubní desce. Pokud je těžař připojen k poolu, měli byste vidět, že všechny hashboardy fungují. Je důležité poznamenat, že těžaři vydávají hodně hluku, což je normální. Také se ujistěte, že ventilátory pracují správně.
 
@@ -425,24 +425,24 @@ Pokud jste zručný kutil a chcete přeměnit těžař na ohřívač, tento náv
 
 Původní ventilátory Antmineru S9 jsou příliš hlučné na to, abyste svůj Antminer mohli používat jako ohřívač. Řešením je nahradit je tichými ventilátory. Náš tým otestoval několik modelů značky Noctua a vybral Noctua NF-A14 iPPC-2000 PWM jako nejlepší kompromis. Ujistěte se, že si vyberete 12V verzi ventilátorů. Tento 140mm ventilátor může produkovat až 1200W tepla při teoretické hladině hluku 31 dB. Pro instalaci těchto 140mm ventilátorů budete potřebovat použít adaptér z 140mm na 120mm, který najdete v obchodě DécouvreBitcoin. Přidáme také ochranné mřížky 140mm.
 
-![image](assets/piece/1.webp)
-![image](assets/piece/2.webp)
-![image](assets/piece/3.webp)
+![image](assets/en/24.webp)
+![image](assets/en/25.webp)
+![image](assets/en/26.webp)
 Ventilátor napájecího zdroje je také poměrně hlučný a potřebuje být vyměněn. Doporučujeme Noctua NF-A6x25 PWM. Všimněte si, že konektory ventilátorů Noctua nejsou stejné jako originální, takže budete potřebovat adaptér konektoru pro jejich připojení. Dva budou stačit. Opět se ujistěte, že si vyberete 12V verzi ventilátoru.
-![image](assets/piece/4.webp)
-![image](assets/piece/5.webp)
+![image](assets/en/27.webp)
+![image](assets/en/28.webp)
 
 2. Přidání WIFI/Ethernetového mostu
 
 Místo použití Ethernetového kabelu můžete svůj Antminer připojit přes WIFI přidáním WIFI/Ethernetového mostu. Vybrali jsme vonets vap11g-300, protože snadno umožňuje přijímat WIFI signál z vašeho internetového boxu a přenášet ho do vašeho Antmineru přes Ethernet bez vytváření podřízené sítě. Pokud máte elektrotechnické dovednosti, můžete ho napájet přímo z napájecího zdroje Antmineru bez nutnosti přidávat USB nabíječku. K tomu budete potřebovat samičí jack 5,5mmx2,1mm.
 
-![image](assets/piece/6.webp)
-![image](assets/piece/7.webp)
+![image](assets/en/29.webp)
+![image](assets/en/30.webp)
 
 3. Volitelně: přidání chytré zásuvky
    Pokud chcete zapínat/vypínat svůj Antminer ze svého smartphonu a sledovat jeho spotřebu energie, můžete přidat chytrou zásuvku. Testovali jsme zásuvku ANTELA ve verzi 16A, kompatibilní s aplikací smartlife. Tato chytrá zásuvka umožňuje zobrazit denní a měsíční spotřebu energie a připojuje se přímo k vašemu internetovému routeru přes WiFi.
 
-![image](assets/piece/8.webp)
+![image](assets/en/31.webp)
 
 Seznam vybavení a odkazů
 
@@ -472,21 +472,21 @@ Most napájejte připojením přes USB.
 
 Z vašeho počítače se připojte k WIFI síti VONETS\_**\*\*** s heslem 12345678.
 
-![obrázek](assets/software/vonet1.webp)
+![obrázek](assets/en/32.webp)
 
 Přihlaste se pomocí uživatelského jména "admin" a hesla "admin".
 
-![obrázek](assets/software/vonet2.webp)
+![obrázek](assets/en/33.webp)
 
 Vyberte Průvodce.
 
-![obrázek](assets/software/vonet3.webp)
+![obrázek](assets/en/34.webp)
 
 Vyberte WIFI síť, ke které chcete svůj miner připojit, a poté klikněte na Další.
 
 POZNÁMKA: Most Vonet funguje pouze na frekvenci 2.4GHz. V dnešní době routery obvykle nabízejí dvě WIFI sítě, jednu na 2.4GHz a druhou na 5GHz.
 
-![obrázek](assets/software/vonet4.webp)
+![obrázek](assets/en/35.webp)
 
 Zadejte heslo k vaší WIFI síti do pole "Heslo zdrojového WIFI hotspotu". Pokud nechcete používat váš most Vonet k rozšíření vaší WIFI sítě, zaškrtněte políčko "Zakázat Hotspot". V opačném případě nechte nezaškrtnuté.
 
@@ -505,7 +505,7 @@ Před instalací BraiinOS+ může být nutné resetovat váš S9 na tovární na
 Tato metoda může být použita mezi 2 a 10 minutami po spuštění mineru.
 2 minuty po zapnutí mineru, prosím, stiskněte tlačítko "Reset" na 5 sekund, poté ho uvolněte. Miner bude obnoven na tovární nastavení během 4 minut a automaticky se restartuje (není potřeba ho vypínat).
 
-![image](assets/software/1.webp)
+![image](assets/en/36.webp)
 
 ## Instalace BraiinsOS+ na Antminer S9
 
@@ -521,11 +521,11 @@ Zde uvidíme, jak snadno nainstalovat Braiins OS+ přímo na paměť vašeho Ant
 2. Stáhněte si BOS toolbox pro Windows / Linux.
 3. Rozbalte stažený soubor a otevřete soubor bos-toolbox.bat. Vyberte jazyk a po několika okamžicích uvidíte toto okno:
 
-![image](assets/software/5.webp)
+![image](assets/en/37.webp)
 
 4. BOS toolbox vám umožní snadno najít IP adresu vašeho Antmineru a nainstalovat BraiinsOS+. Pokud již znáte IP adresu vašeho stroje, můžete přeskočit na krok 8. V opačném případě přejděte na záložku scan.
 
-![image](assets/software/6.webp)
+![image](assets/en/38.webp)
 
 5. Obvykle je na domácích sítích rozsah IP adres mezi 192.168.1.1 a 192.168.1.255, takže zadejte "192.168.1.0/24" do pole pro rozsah IP. Pokud je vaše síť jiná, prosím, změňte tyto adresy odpovídajícím způsobem. Poté klikněte na "Start".
 
@@ -533,13 +533,13 @@ Zde uvidíme, jak snadno nainstalovat Braiins OS+ přímo na paměť vašeho Ant
 
 7. Zde by se měly objevit všechny Antminery ve vaší síti a IP adresa je 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/en/39.webp)
 
 8. Klikněte na "Back" a poté na záložku "Install", zadejte dříve nalezenou IP adresu a klikněte na "Start".
 
 > Pokud instalace nefunguje, může být nutné provést reset a zkuste to znovu (viz předchozí sekce).
 
-![image](assets/software/8.webp)
+![image](assets/en/40.webp)
 
 9. Po několika okamžicích se váš Antminer restartuje a vy budete moci přistupovat k rozhraní Braiins OS+ na zadané IP adrese, zde 192.168.1.37, přímo v adresním řádku vašeho prohlížeče. Výchozí uživatelské jméno je "root" a výchozí heslo není nastaveno.
 
@@ -560,7 +560,7 @@ Poté budete přivítáni na palubní desce Braiins OS+.
 
 ### Palubní deska
 
-![obrázek](assets/software/14.webp)
+![obrázek](assets/en/41.webp)
 
 Na této první stránce můžete sledovat skutečný výkon vašeho stroje.
 
@@ -568,7 +568,7 @@ Na této první stránce můžete sledovat skutečný výkon vašeho stroje.
 - Vpravo skutečný hashrate, průměrná teplota čipů, odhadovaná účinnost ve W/THs a spotřeba energie.
 - Níže rychlost ventilátoru jako procento maximální rychlosti a počet otáček za minutu.
 
-![obrázek](assets/software/15.webp)
+![obrázek](assets/en/42.webp)
 
 - Dále níže najdete detailní pohled na každou hash desku. Průměrná teplota desky a čipů, které obsahuje, stejně jako napětí a frekvence.
 - Detaily o aktivních těžebních poolech v Pools.
@@ -577,15 +577,15 @@ Na této první stránce můžete sledovat skutečný výkon vašeho stroje.
 
 ### Konfigurace
 
-![obrázek](assets/software/16.webp)
+![obrázek](assets/en/43.webp)
 
 ### Systém
 
-![obrázek](assets/software/17.webp)
+![obrázek](assets/en/44.webp)
 
 ### Rychlé akce
 
-![obrázek](assets/software/18.webp)
+![obrázek](assets/en/45.webp)
 
 # Attakai - Úprava ventilátoru
 
@@ -597,7 +597,7 @@ Na této první stránce můžete sledovat skutečný výkon vašeho stroje.
 
 > VAROVÁNÍ: Je nezbytné mít předtím nainstalovaný Braiins OS+ na vašem těžaři, nebo jakýkoliv jiný software, který může snížit výkon vašeho stroje. Toto opatření je klíčové, protože za účelem snížení hluku nainstalujeme méně výkonné ventilátory, které mohou rozptýlit méně tepla.
 
-![obrázek](assets/hardware/cover.webp)
+![obrázek](assets/en/46.webp)
 
 ### Potřebné materiály
 
@@ -606,58 +606,58 @@ Na této první stránce můžete sledovat skutečný výkon vašeho stroje.
 
 > VAROVÁNÍ: Především, než začnete, ujistěte se, že jste odpojili váš těžař, abyste předešli jakémukoli riziku úrazu elektrickým proudem.
 
-![obrázek](assets/hardware/1.webp)
+![obrázek](assets/en/47.webp)
 
 Nejprve odstraňte 6 šroubů na boku pouzdra, které jej drží uzavřené. Jakmile jsou šrouby odstraněny, opatrně otevřete pouzdro, abyste odstranili plastovou ochranu kryjící komponenty.
 
-![obrázek](assets/hardware/2.webp)
-![obrázek](assets/hardware/3.webp)
+![obrázek](assets/en/48.webp)
+![obrázek](assets/en/49.webp)
 
 Dále je čas odstranit původní ventilátor, přičemž si dávejte pozor, abyste nepoškodili ostatní komponenty. K tomu odstraňte šrouby, které jej drží na místě, a opatrně odlepte bílé lepidlo obklopující konektor. Je důležité postupovat opatrně, aby nedošlo k poškození drátů nebo konektorů.
-![image](assets/hardware/4.webp)
+![image](assets/en/50.webp)
 Jakmile odstraníte původní ventilátor, všimnete si, že konektory nového ventilátoru Noctua se neshodují s konektory původního ventilátoru. Nový ventilátor má totiž 3 vodiče, včetně žlutého vodiče, který umožňuje regulaci rychlosti. Tento vodič však v tomto konkrétním případě nebude použit. Pro připojení nového ventilátoru se proto doporučuje použít speciální adaptér. Je však důležité poznamenat, že tento adaptér může být někdy těžko k nalezení.
 
-![image](assets/hardware/5.webp)
+![image](assets/en/51.webp)
 
 Pokud tento adaptér nemáte, můžete přesto pokračovat v připojení nového ventilátoru pomocí elektrikářské spojky. K tomu budete muset přestřihnout kabely starého a nového ventilátoru.
 
-![image](assets/hardware/6.webp)
-![image](assets/hardware/7.webp)
+![image](assets/en/52.webp)
+![image](assets/en/53.webp)
 
 Na novém ventilátoru použijte nůž a opatrně přestřihněte obrysy hlavního pláště ve vzdálenosti 1cm, aniž byste přestřihli pláště kabelů pod ním.
 
-![image](assets/hardware/8.webp)
+![image](assets/en/54.webp)
 
 Poté, táhněte hlavní plášť směrem dolů, přestřihněte pláště červeného a černého kabelu stejným způsobem jako předtím. A žlutý kabel přestřihněte zarovna.
 
-![image](assets/hardware/9.webp)
+![image](assets/en/55.webp)
 
 U starého ventilátoru je přestřihnutí hlavního pláště bez poškození plášťů červeného a černého drátu delikátnější. K tomu jsme použili jehlu, kterou jsme zasunuli mezi hlavní plášť a červené a černé dráty.
 
-![image](assets/hardware/10.webp)
-![image](assets/hardware/11.webp)
+![image](assets/en/56.webp)
+![image](assets/en/57.webp)
 
 Jakmile jsou červené a černé dráty odhalené, opatrně přestřihněte pláště, abyste nepoškodili elektrické vodiče.
 
-![image](assets/hardware/12.webp)
+![image](assets/en/58.webp)
 
 Poté připojte kabely pomocí spojky, černý drát s černým a červený drát s červeným. Můžete také přidat izolační pásku.
 
-![image](assets/hardware/13.webp)
-![image](assets/hardware/14.webp)
+![image](assets/en/59.webp)
+![image](assets/en/60.webp)
 
 Jakmile je připojení provedeno, je čas nainstalovat nový ventilátor Noctua s mřížkou a starými šrouby. Nové šrouby v balení budou použity později. Ujistěte se, že je umístěn ve správné orientaci. Na jedné straně ventilátoru uvidíte šipku, která označuje směr proudění vzduchu. Je důležité umístit ventilátor tak, aby tato šipka směřovala dovnitř skříně. Poté znovu připojte ventilátor.
 
-![image](assets/hardware/15.webp)
-![image](assets/hardware/16.webp)
+![image](assets/en/61.webp)
+![image](assets/en/62.webp)
 
 > Volitelně: Pokud se vyznáte v elektřině, můžete přímo přidat samičí konektor jack 5,5mm k 12V výstupu, který bude přímo napájet Wi-Fi most Vonet. Pokud si však nejste jisti svými elektrickými schopnostmi, je lepší použít USB konektor s nabíječkou typu smartphone, abyste předešli jakémukoli riziku zkratu nebo elektrického poškození.
 
-![image](assets/hardware/17.webp)
+![image](assets/en/63.webp)
 
 Jakmile jsou připojení provedena, umístěte plastový kryt nad plast skříně a ne dovnitř.
 
-![image](assets/hardware/18.webp)
+![image](assets/en/64.webp)
 
 Nakonec vraťte na místo kryt skříně a přišroubujte 6 šroubů na stranách, aby vše drželo pohromadě. A máte to, vaše skříň zdroje je nyní vybavena novým ventilátorem.
 
@@ -667,7 +667,7 @@ Nakonec vraťte na místo kryt skříně a přišroubujte 6 šroubů na stranác
 
 > VAROVÁNÍ: Je nezbytné mít předem nainstalovaný Braiins OS+ na vašem těžebním zařízení, nebo jakýkoliv jiný software schopný snížit výkon vašeho stroje. Toto opatření je klíčové, protože za účelem snížení hluku nainstalujeme méně výkonné ventilátory, které budou rozptylovat méně tepla.
 
-![obrázek](assets/hardware/cover.webp)
+![obrázek](assets/en/46.webp)
 
 ### Požadovaný materiál
 
@@ -679,36 +679,36 @@ Nakonec vraťte na místo kryt skříně a přišroubujte 6 šroubů na stranác
 
 1. Nejprve odpojte ventilátory a odšroubujte je.
 
-![obrázek](assets/hardware/19.webp)
+![obrázek](assets/en/65.webp)
 
 2. Konektory nových ventilátorů Noctua se neshodují s původními, ale nebojte se! Vezměte si nůž a opatrně odřízněte malé plastové záložky, aby konektory perfektně pasovaly na vaše těžební zařízení.
 
-![obrázek](assets/hardware/20.webp)
-![obrázek](assets/hardware/21.webp) 3. Je čas nainstalovat 3D díly!
+![obrázek](assets/en/66.webp)
+![obrázek](assets/en/67.webp) 3. Je čas nainstalovat 3D díly!
 Připevněte je na obě strany těžebního zařízení pomocí šroubů, které jste odstranili z ventilátorů. Zašroubujte je, dokud hlava šroubu není zarovnána s 3D dílem a je pevně na místě. Dávejte pozor, abyste příliš neutahovali, protože byste mohli díl deformovat a jeden ze šroubů by mohl dotknout kondenzátoru!
 
-![obrázek](assets/hardware/22.webp)
+![obrázek](assets/en/68.webp)
 
 4. Nyní přejděme k ventilátorům.
 
 Připevněte je k 3D dílům pomocí šroubů dodaných v krabici. Dbejte na směr proudění vzduchu, šipky na stranách ventilátorů uvedou směr, kterým máte postupovat. Jděte od strany s Ethernet portem na druhou stranu. Viz foto níže.
 
-![obrázek](assets/hardware/23.webp)
-![obrázek](assets/hardware/24.webp)
-![obrázek](assets/hardware/25.webp)
+![obrázek](assets/en/69.webp)
+![obrázek](assets/en/70.webp)
+![obrázek](assets/en/71.webp)
 
 5. Poslední krok: připojte ventilátory a připevněte mřížky na vrch s šrouby, které nebyly použity v krabici s ventilátorem zdroje. Máte jich jen 4, ale 2 na mřížku v protilehlých rozích budou stačit. Pokud je potřeba, můžete hledat podobné šrouby v železářství.
 
-![obrázek](assets/hardware/26.webp)
-![obrázek](assets/hardware/27.webp)
+![obrázek](assets/en/72.webp)
+![obrázek](assets/en/73.webp)
 
 Zatímco čekáte, až budeme moci nabídnout stylovější pouzdro pro váš nový ohřívač, můžete pouzdro a zdroj připevnit pomocí elektrikářských kabelových poutek.
 
-![obrázek](assets/hardware/28.webp)
+![obrázek](assets/en/74.webp)
 
 A jako poslední úprava připojte Vonet most k Ethernet portu a jeho napájení.
 
-![obrázek](assets/hardware/29.webp)
+![obrázek](assets/en/75.webp)
 
 A máte to, gratulujeme! Právě jste vyměnili celou mechanickou část vašeho těžebního zařízení. Nyní byste měli slyšet mnohem méně hluku.
 
@@ -734,17 +734,17 @@ Odměnný model, který nás zajímá, je PPS, což znamená "pay-per-share". To
 - Linecoin: Výhodou Linecoinu je počet nabízených funkcí, jako je podrobný dashboard, možnost provádět výběry pomocí Paynym (BIP 47) pro lepší ochranu soukromí a integrace Telegram botu, stejně jako přímo konfigurovatelné automatizace v mobilní aplikaci. Tento pool těží pouze bloky Bitcoinu, ale minimální částka pro výběr zůstává vysoká na 100 000 sats. Rozhraní jednoho z těchto poolů si podrobněji prozkoumáme v budoucím článku.
   Pro konfiguraci poolu v Braiins OS+ budete potřebovat vytvořit účet v jednom z poolů dle vašeho výběru. Zde si vezmeme jako příklad Linecoin:
 
-![obrázek](assets/software/19.webp)
+![obrázek](assets/en/76.webp)
 
 Po vytvoření účtu klikněte na Connect To Pool
 
 Poté zkopírujte Stratum adresu a vaše uživatelské jméno:
 
-![obrázek](assets/software/20.webp)
+![obrázek](assets/en/77.webp)
 
 Nyní se můžete vrátit do rozhraní Braiins OS+ a zadat tyto přihlašovací údaje. Pro heslo můžete pole nechat prázdné.
 
-![obrázek](assets/software/21.webp)
+![obrázek](assets/en/78.webp)
 
 ## Optimalizace výkonu vašeho Antmineru S9
 
@@ -764,15 +764,47 @@ Dnes existuje nový pokrok v softwaru a firmwaru pro těžbu nazvaný autotuning
 Toto stanovuje horní limit pro hash rate, kterého může stroj dosáhnout. Autotuning je proces, při kterém algoritmy vyhodnocují optimální frekvence pro hashování jednotlivých čipů, místo aby byl celý stroj považován za jednotnou jednotku. To znamená, že čip vyšší kvality, který dokáže provést více hashů za sekundu, dostane vyšší frekvenci, a čip nižší kvality, který dokáže provést relativně méně hashů, dostane nižší frekvenci. Autotuning na úrovni čipů je v podstatě způsob, jak optimalizovat výkon ASIC prostřednictvím softwaru a firmware, který na něm běží.
 Výsledkem je vyšší hash rate na watt elektrické energie, což znamená větší ziskové marže pro těžaře. Důvodem, proč stroje nejsou distribuovány s tímto typem softwaru, je to, že variabilita strojů je nežádoucí, protože zákazníci chtějí přesně vědět, co kupují, takže je špatný nápad, aby výrobci prodávali produkt, který nemá konzistentní a předvídatelný výkon z jednoho stroje na druhý. Kromě toho vyžaduje autotuning na úrovni čipů značné vývojové zdroje, jelikož je složité jej implementovat. Výrobci již vynakládají mnoho zdrojů na vývoj vlastních firmware. Existují softwarová řešení, která umožňují autotuning, jako například Braiins OS+. Kromě toho zlepšují výkon ASIC až o 20 %.
 
-## Ohodnoťte kurz
+# Závěr
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Zhodnoťte tento kurz
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Ovládání Antmineru S9 z vašeho smartphonu
+## Závěrečná zkouška
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Vytváření zástupců na iOS
+## Závěr
 
-![Ovládání Antmineru S9 s vaším smartphonem](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Gratulujeme k dokončení tohoto kurzu!
+
+Jsme rádi, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
+
+Díky vaší oddanosti a závazku jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
+
+Pro další hluboké zkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
+
+#### Objevte Bitcoin a jeho základy s
+
+https://planb.network/courses/btc101
+
+#### Objevte Lightning Network s
+
+https://planb.network/courses/lnp201
+
+#### Ovládněte principy soukromí na Bitcoinu
+
+https://planb.network/courses/btc204
+
+#### Objevte historii původu Bitcoinu s
+
+https://planb.network/courses/his201
+
+#### Pochopte, jak funguje Bitcoin peněženka s
+
+https://planb.network/courses/cyp201

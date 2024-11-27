@@ -1,8 +1,8 @@
-question: ¿Cuál es el principal rol técnico de un monedero de Bitcoin?
-answer: Almacenar pares de claves criptográficas.
+question: ¿Cuál es el propósito de SIGHASH_SINGLE?
+answer: Cubrir una entrada y su salida correspondiente
 wrong_answers:
-  - Almacenar bitcoins.
-  - Almacenar UTXOs.
-  - Almacenar transacciones.
+  - Cubrir todas las entradas y salidas
+  - Cubrir solo las entradas
+  - Cubrir todas las salidas excepto una
 explanation: |
-  Un monedero de Bitcoin no almacena directamente bitcoins, sino pares de claves criptográficas que se utilizan para gestionar y gastar UTXOs.
+  SIGHASH_SINGLE cubre una única entrada y una única salida correspondiente al índice de la entrada firmada, dejando el resto modificable.

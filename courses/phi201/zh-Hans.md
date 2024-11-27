@@ -1437,3 +1437,51 @@ objectives:
 我们生活的全球社会中发生的一切都是思想的结果。无论好坏。必要的是要对抗错误的观念。(...) 我们的文明能够存活下来，而且必须存活下来。它将因为比今天统治世界的观念更好的思想而存活下来；而这些更好的思想将由新一代人开发出来。
 （《经济政策：今天和明天的思考》，1979）。
 
+# 结论
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## 评估本课程
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## 期末考试
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## 结论
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+恭喜您完成本课程！
+
+我们很高兴您在学习之旅中达到了这个重要的里程碑。
+
+通过您的奉献和承诺，您获得了宝贵的知识和技能，这将有助于您的职业发展。
+
+为了继续深入探索比特币的世界，我们邀请您探索 Plan ₿ Network 上提供的所有其他课程：
+
+#### 通过以下课程了解 F. 巴斯夏的生平
+
+https://planb.network/courses/eco102
+
+#### 通过以下课程了解比特币及其基础知识
+
+https://planb.network/courses/btc101
+
+#### 通过以下课程了解闪电网络
+
+https://planb.network/courses/lnp201
+
+#### 掌握比特币隐私原则
+
+https://planb.network/courses/btc204
+
+#### 通过以下课程了解比特币起源的历史
+
+https://planb.network/courses/his201
+
+#### 通过以下课程了解比特币钱包的工作原理
+
+https://planb.network/courses/cyp201

@@ -1,9 +1,9 @@
-question: Quelle est la plage d'index utilisée pour les clés enfants normales dans un portefeuille HD ?
-answer: Entre 0 et 2^31 - 1.
+question: Quelle est la fonction principale d'une clé étendue dans un portefeuille HD ?
+answer: Permettre la dérivation des clés enfants
 wrong_answers:
-  - Entre 0 et 2^32 - 1.
-  - Entre 0 et 2^31.
-  - Entre 2^31 et 2^32 - 1.
+  - Stocker les transactions du portefeuille
+  - Générer directement les UTXOs
+  - Chiffrer les clés publiques
 explanation: |
-  Les clés enfants normales utilisent un index compris entre 0 et 2^31 - 1, tandis que les clés renforcées ont un index à partir de 2^31.
+  Une clé étendue combine une clé (privée ou publique) avec un code de chaîne associé, c'est-à-dire les deux éléments nécessaires pour dériver des clés enfants.
 reviewed: false

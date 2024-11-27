@@ -1,9 +1,9 @@
-question: Bitcoin'i protokolli raames, mis on HASH160?
-answer: SHA256 räsi järgneb RIPEMD160 räsi.
+question: Mis on peamine erinevus SHA256 ja RIPEMD160 vahel?
+answer: RIPEMD160 toodab lühemaid räsiväärtusi kui SHA256
 wrong_answers:
-  - Kahekordne RIPEMD160 räsi.
-  - Kahekordne SHA256 räsi.
-  - MD5 räsi järgneb SHA256 räsile.
+  - SHA256 on vananenud, erinevalt RIPEMD160-st
+  - RIPEMD160 kasutatakse ainult Proof-of-Work mehhanismis
+  - SHA256-i ei kombineerita kunagi teiste räsimisfunktsioonidega
 explanation: |
-  HASH160 ühendab SHA256 räsi, millele järgneb RIPEMD160, mida kasutatakse eriti Bitcoin'i aadresside genereerimiseks.
+  RIPEMD160 genereerib 160-bitiseid räsiväärtusi, samas kui SHA256 toodab 256-bitiseid räsiväärtusi.
 reviewed: false

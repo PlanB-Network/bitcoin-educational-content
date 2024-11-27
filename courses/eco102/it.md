@@ -257,7 +257,6 @@ La questione del libero scambio continua ad essere rilevante oggi. I libri di te
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-
 Frédéric Bastiat, che si esprimeva negli anni 1840, è l'erede di una generazione di filosofi dell'Illuminismo che hanno combattuto contro la censura e per la libertà di dibattito. Pensate a Montesquieu, Diderot, Voltaire, Condorcet, ma anche Rousseau.
 
 Per loro, l'idea era semplice: più le idee possono essere espresse, più la verità progredisce e più facilmente gli errori vengono confutati. La scienza progredisce sempre in questo modo.
@@ -421,7 +420,6 @@ In conclusione, sia Proudhon che Bastiat riconobbero l'importanza dell'accumulaz
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-
 In questo capitolo, svelerò una tecnologia completamente nuova, una tecnologia rivoluzionaria. Un ricercatore ha sviluppato un paio di occhiali bionici con una mini-telecamera ultra-potente incorporata nella parte frontale. Questa tecnologia permette di vedere dettagli impossibili da vedere ad occhio nudo. Nelle aste, c'è un chip elettronico che trasmette le immagini direttamente al cloud tramite il mio smartphone.
 
 ![image](assets/image/09/IMG01.webp)
@@ -432,7 +430,6 @@ Il buon economista, secondo Bastiat, deve descrivere gli effetti delle decisioni
 Così, in Opere Pubbliche, Bastiat scrive:
 
 > Lo Stato apre una strada, costruisce un palazzo, rettifica una strada, scava un canale; con ciò, dà lavoro a certi lavoratori, questo è ciò che si vede; ma priva di lavoro certi altri, questo è ciò che non si vede.
-
 
 Uno dei sofismi più noti è la fallacia della finestra rotta. Alcuni sostengono che la rottura di una finestra in una casa non danneggi l'economia poiché beneficia il vetraio. Ma Bastiat dimostrerà che la distruzione non è nel nostro interesse perché non crea ricchezza. Costa più di quanto renda. Il ragazzo che rompe la finestra di un vicino dà lavoro al vetraio. Ma ecco come i suoi amici lo consolano:
 
@@ -594,7 +591,6 @@ Una cosa è certa, non è il politico che può cambiare il corso delle cose e pe
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-
 Una società armoniosa può fare a meno di leggi scritte, regole, misure repressive? Se gli uomini sono lasciati liberi, non assisteremo a disordine, anarchia, disorganizzazione? Come evitare di creare una mera giustapposizione di individui che agiscono al di fuori di qualsiasi concerto, se non attraverso leggi e un'organizzazione politica centralizzata?
 
 Questo è l'argomento spesso invocato da coloro che richiedono la regolamentazione del mercato o la società da sola capace di coordinare gli individui in un tutto coerente e armonioso.
@@ -637,7 +633,6 @@ La pianificazione economica, che pretende di fare meglio del mercato, porta non 
 ## Libertà e responsabilità sono la chiave del problema sociale
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
-
 
 In una lettera ad Alphonse de Lamartine nel 1845, Bastiat scrisse che la sua intera filosofia è contenuta in un unico principio:
 
@@ -700,7 +695,6 @@ In altre parole, le scelte collettive non sono scelte responsabili poiché, da u
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-
 Nel corso precedente, abbiamo visto perché la libertà e la responsabilità sono chiavi per il problema sociale. Ora approfondiremo questo punto mostrando come Frédéric Bastiat veda i mali che affliggono le società e la loro soluzione.
 
 I liberali sono stati talvolta criticati per aver ignorato il male e per aver costruito l'utopia della libertà pura e perfetta in un mondo ideale. Questa critica è assolutamente infondata riguardo al nostro autore.
@@ -745,7 +739,6 @@ Deve essere chiarito che questo sviluppo del progresso attraverso la responsabil
 ## Vera e Falsa Solidarietà
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
-
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -880,7 +873,6 @@ Bastiat scrisse ne "La Legge", poco tempo prima di morire. Un secolo dopo la mor
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-
 Nel 1848, Bastiat era un deputato. Fu nominato vicepresidente della commissione finanziaria. Era, quindi, particolarmente ben posizionato per rispondere a questa domanda: cos'è lo Stato? Ci rivolgiamo allo Stato per garantire il nostro benessere. Ma Bastiat ci ricorda che lo Stato non può dare nulla ai cittadini che non abbia prima preso da loro.
 
 Bastiat inizia ribaltando un'equazione comunemente accettata: è lo Stato che sostiene la nazione. Tuttavia, lo Stato non può sostenere i cittadini perché non produce ricchezza; si limita a spostarla, a redistribuirla. Al contrario, sono i cittadini che sostengono lo Stato attraverso la creazione di ricchezza.
@@ -918,16 +910,6 @@ In sintesi, quando un governo oltrepassa la sua missione di difendere persone e 
 
 Scrisse Frédéric Bastiat in un breve opuscolo intitolato Lo Stato.
 
-# Conclusione
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-
-
-## Valuta il corso
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## L'eredità di Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
@@ -958,4 +940,52 @@ Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della 
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
 
+# Conclusione
 
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Valuta questo corso
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Esame finale
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusione
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Congratulazioni per aver completato questo corso!
+
+Siamo lieti che tu abbia raggiunto questa importante tappa nel tuo percorso di apprendimento.
+
+Attraverso la tua dedizione e il tuo impegno, hai acquisito preziose conoscenze e competenze che ti serviranno nel tuo sviluppo professionale.
+
+Per continuare ad esplorare in profondità l'universo Bitcoin, ti invitiamo a scoprire tutti gli altri corsi disponibili su Plan ₿ Network:
+
+#### Scopri Bitcoin e i suoi fondamenti con
+
+https://planb.network/courses/btc101
+
+#### Ottieni e proteggi i tuoi primi bitcoin con
+
+https://planb.network/courses/btc102
+
+#### Aggiorna la tua sicurezza online con
+
+https://planb.network/courses/scu101
+
+#### Scopri il Lightning Network con
+
+https://planb.network/courses/lnp201
+
+#### Impara il pensiero economico della Scuola Austriaca con
+
+https://planb.network/courses/eco201
+
+#### Comprendi le basi di Bitcoin e costruisci il tuo riscaldamento domestico con
+
+https://planb.network/courses/min201

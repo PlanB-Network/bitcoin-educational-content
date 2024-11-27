@@ -1,9 +1,9 @@
-question: Qu'est-ce que représente la passphrase au sein d'un portefeuille HD ?
-answer: Un sel cryptographique optionnel d'une taille arbitraire.
+question: Quelle est la fonction de hachage utilisée pour calculer la checksum d'une phrase mnémonique ?
+answer: SHA256
 wrong_answers:
-  - Un 25ème mot sur la phrase mnémonique.
-  - Un sel cryptographique obligatoire d'une taille fixe.
-  - Une seconde graine.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  La passphrase est un sel cryptographique optionnel, permettant de renforcer la sécurité du portefeuille en ajoutant une information supplémentaire à la phrase mnémonique pour déterminer la graine.
+  La checksum d'une phrase mnémonique est calculée en appliquant un hachage SHA256 simple sur l'entropie.
 reviewed: false

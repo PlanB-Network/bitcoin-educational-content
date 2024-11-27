@@ -1,9 +1,8 @@
-question: Mis on BIP (Bitcoin Improvement Proposal), mis pakkus välja esimese versiooni HD rahakotist Bitcoinis?
-answer: BIP32.
+question: Milline sighash lipp võimaldab ühisrahastust, kattes ühe sisendi ja kõik väljundid?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32, mis esitati 2012. aastal, on esimene, mis tutvustas hierarhiliselt deterministlike (HD) rahakottide kontseptsiooni Bitcoinis.
-reviewed: false
+  SIGHASH_ALL koos SIGHASH_ANYONECANPAY-ga võimaldab sisendeid lisada ilma väljundeid muutmata.

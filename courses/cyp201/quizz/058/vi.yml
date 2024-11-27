@@ -1,13 +1,8 @@
-question: Metadata nào được thêm vào khóa mở rộng ngoài payload của nó?
-
-answer: Phiên bản / độ sâu / dấu vân tay của cha mẹ / chỉ số / mã kiểm tra.
-
+question: Hàm nào được sử dụng để tạo ra seed từ cụm từ ghi nhớ?
+answer: PBKDF2 với HMAC-SHA512
 wrong_answers:
-  - Phiên bản / chỉ số.
-  - Phiên bản / độ sâu / dấu phân cách / mã kiểm tra.
-  - Không có metadata nào được thêm vào.
-
-explanation:
-  Khóa mở rộng bao gồm một số phần metadata. Có phiên bản, độ sâu, dấu vân tay của cha mẹ, chỉ số, và mã kiểm tra để hỗ trợ việc phát sinh khóa.
-
-reviewed: false
+  - SHA256 đơn lẻ
+  - Double SHA256
+  - AES-256
+explanation: |
+  Seed được tạo ra sử dụng hàm PBKDF2 với HMAC-SHA512 và 2048 lần lặp, từ cụm từ ghi nhớ và cụm từ bí mật.

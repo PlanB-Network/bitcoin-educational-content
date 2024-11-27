@@ -50,6 +50,7 @@ V našem příkladu má Alice na své straně kanálu 100 000 satoshi a Bob 30 0
 **Satoshi** (nebo "sat") je jednotka účtu na Bitcoinu. Podobně jako cent pro euro, satoshi je prostě zlomek Bitcoinu. Jedno satoshi je rovno **0.00000001 Bitcoinu**, nebo jedné sté milionté Bitcoinu. Používání satoshi se stává stále praktičtější, jak hodnota Bitcoinu roste.
 
 ### Rozdělení prostředků v kanálu
+
 Vraťme se k platebnímu kanálu. Klíčovým pojmem zde je "**strana kanálu**". Každý účastník má na své straně kanálu určité prostředky: Alice 100 000 satoshi a Bob 30 000. Jak jsme viděli, součet těchto prostředků představuje celkovou kapacitu kanálu, číslo, které je nastaveno při jeho otevření.
 
 ![LNP201](assets/en/02.webp)
@@ -87,6 +88,7 @@ Toto je konec této první kapitoly, kde jsme položili základy pro Lightning N
 
 ![bitcoin, adresy, utxo a transakce](https://youtu.be/cadCJ2V7zTg)
 Tato kapitola je trochu speciální, protože nebude přímo věnována Lightning Network, ale Bitcoinu. Skutečně, Lightning Network je vrstva postavená na Bitcoinu. Je tedy zásadní pochopit určité základní koncepty Bitcoinu, aby bylo možné správně chápat fungování Lightning Network v následujících kapitolách. V této kapitole si projdeme základy Bitcoinových přijímacích adres, UTXO, stejně jako fungování Bitcoinových transakcí.
+
 ### Bitcoinové Adresy, Soukromé a Veřejné Klíče
 
 Bitcoinová adresa je řada znaků odvozených z **veřejného klíče**, který je sám vypočítán z **soukromého klíče**. Jak jistě víte, používá se k uzamčení bitcoinů, což je ekvivalentní jejich přijetí do naší peněženky.
@@ -114,6 +116,7 @@ UTXO je kus bitcoinu, který může mít jakoukoliv hodnotu, například **2,000
 UTXO nelze dělit. Při každém použití k utracení množství bitcoinů, které reprezentují, musí být utraceno v celku. Je to trochu jako s bankovkou: pokud máte bankovku v hodnotě 10 € a dlužíte pekaři 5 €, nemůžete bankovku prostě rozpůlit. Musíte mu dát bankovku 10 €, a on vám dá 5 € zpět. Tento princip platí přesně stejně pro UTXO na Bitcoinu! Například, když Alice odemkne skript svým soukromým klíčem, odemkne celé UTXO. Pokud si přeje poslat Bobovi pouze část fondů reprezentovaných tímto UTXO, může jej "rozfragmentovat" na několik menších. Poté pošle 0.0015 BTC Bobovi a zbytek, 0.0005 BTC, na **změnovou adresu**.
 
 Zde je příklad transakce se 2 výstupy:
+
 - UTXO 0.0015 BTC pro Boba, uzamčené skriptem vyžadujícím Bobův soukromý klíč pro podpis.
 - UTXO 0.0005 BTC pro Alici, uzamčené skriptem vyžadujícím její vlastní podpis.
 
@@ -168,6 +171,7 @@ Je zásadní jasně rozlišovat různé úrovně výměny na Lightning Network:
 
 ![LNP201](assets/en/10.webp)
 Je důležité poznamenat, že Lightning node může komunikovat prostřednictvím P2P protokolu bez otevření kanálu, ale pro výměnu finančních prostředků je kanál nezbytný.
+
 ### Kroky k otevření Lightning kanálu
 
 1. **Výměna zpráv**: Alice chce otevřít kanál s Bobem. Pošle mu zprávu obsahující částku, kterou chce v kanálu vložit (130 000 satoshi) a svůj veřejný klíč. Bob odpoví sdílením svého vlastního veřejného klíče.
@@ -207,6 +211,7 @@ Kanál je považován za otevřený, jakmile je transakce vkladu zahrnuta do Bit
 V další kapitole prozkoumáme technické fungování transakce uvnitř kanálu na Lightning Network, tj. když jsou prostředky přesunuty z jedné strany kanálu na druhou.
 
 ### Připomenutí životního cyklu kanálu
+
 Jak bylo viděno dříve, Lightning kanál začíná **otevřením** prostřednictvím Bitcoinové transakce. Kanál může být kdykoliv **uzavřen**, také prostřednictvím Bitcoinové transakce. Mezi těmito dvěma okamžiky může být v rámci kanálu proveden téměř nekonečný počet transakcí, aniž by procházely Bitcoinovým blockchainem. Podívejme se, co se děje během transakce v kanálu.
 ![LNP201](assets/en/17.webp)
 
@@ -247,6 +252,7 @@ Vezměme si další příklad: po první transakci, kdy Alice poslala Bobovi 30 
 Opět, tato transakce není publikována na blockchainu, ale může být kdykoliv v případě uzavření kanálu.
 
 Shrnutí, když jsou prostředky převáděny v rámci Lightning kanálu:
+
 - Alice a Bob vytvoří novou **transakci závazku**, která odráží nové rozdělení prostředků. - Tato Bitcoinová transakce je **podepsána** oběma stranami, ale **není publikována** na Bitcoinovém blockchainu, dokud kanál zůstává otevřený.
 - Transakce závazku zajišťují, že každý účastník může kdykoliv získat zpět své prostředky na Bitcoinovém blockchainu publikováním poslední podepsané transakce.
 
@@ -289,8 +295,8 @@ Aby se zabránilo tomuto druhu podvodu ze strany Alice, na Lightning Network jso
 
 1. **Časový zámek**: Každá transakce závazku zahrnuje časový zámek pro prostředky Alice. Časový zámek je primitivum chytré smlouvy, které nastavuje časovou podmínku, která musí být splněna, aby byla transakce přidána do bloku. To znamená, že Alice nemůže získat zpět své prostředky, dokud neprojde určitý počet bloků, pokud publikuje jednu z transakcí závazku. Tento časový zámek začíná platit od potvrzení transakce závazku. Jeho délka je obecně proporcionální velikosti kanálu, ale může být také manuálně konfigurována.
 2. **Revokační klíč**: Prostředky Alice mohou být také okamžitě utraceny Bobem, pokud má **revokační klíč**. Tento klíč se skládá z tajemství drženého Alicí a tajemství drženého Bobem. Poznamenejme, že toto tajemství je pro každou transakci závazku jiné.
-Díky kombinaci těchto dvou mechanismů má Bob čas odhalit pokus Alice o podvod a potrestat ji tím, že pomocí revokačního klíče získá zpět svůj výstup, což pro Boba znamená získání všech prostředků kanálu. Náš nový závazný transakční záznam bude nyní vypadat takto:
-![LNP201](assets/en/25.webp)
+   Díky kombinaci těchto dvou mechanismů má Bob čas odhalit pokus Alice o podvod a potrestat ji tím, že pomocí revokačního klíče získá zpět svůj výstup, což pro Boba znamená získání všech prostředků kanálu. Náš nový závazný transakční záznam bude nyní vypadat takto:
+   ![LNP201](assets/en/25.webp)
 
 Podívejme se podrobněji na fungování tohoto mechanismu.
 
@@ -327,6 +333,7 @@ I když v tomto případě Bob nemá ekonomický zájem na pokusu o podvod, poku
 
 Tento bezpečnostní systém zajišťuje, že účastníci dodržují pravidla Lightning Network, a nemohou profitovat zveřejněním starých závazných transakčních záznamů.
 V tomto bodě školení již víte, jak jsou otevírány kanály Lightning a jak fungují transakce v rámci těchto kanálů. V další kapitole objevíme různé způsoby, jak kanál uzavřít a získat zpět vaše bitcoiny na hlavním blockchainu.
+
 ## Uzavření kanálu
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
@@ -367,8 +374,8 @@ Při **kooperativním uzavření** se Alice a Bob dohodnou na uzavření kanálu
 
 3. Alice a Bob společně vyjednávají poplatky za **uzavírací transakci**. Tyto poplatky jsou obvykle vypočítány na základě trhu s poplatky Bitcoinu v době uzavření. Je důležité poznamenat, že **vždy osoba, která kanál otevřela** (v našem příkladu Alice), platí poplatky za uzavření.
 4. Sestaví novou **uzavírací transakci**. Tato transakce se podobá commitment transakci, ale bez časových zámků nebo mechanismů pro odvolání, protože obě strany spolupracují a neexistuje riziko podvodu. Tato kooperativní uzavírací transakce se tedy liší od commitment transakcí.
-Například, pokud Alice vlastní **100 000 satoshi** a Bob **30 000 satoshi**, závěrečná transakce pošle **100 000 satoshi** na adresu Alice a **30 000 satoshi** na adresu Boba, bez omezení timelock. Jakmile je tato transakce podepsána oběma stranami, publikuje ji Alice. Jakmile je transakce potvrzena na Bitcoin blockchainu, Lightning kanál je oficiálně uzavřen.
-![LNP201](assets/en/32.webp)
+   Například, pokud Alice vlastní **100 000 satoshi** a Bob **30 000 satoshi**, závěrečná transakce pošle **100 000 satoshi** na adresu Alice a **30 000 satoshi** na adresu Boba, bez omezení timelock. Jakmile je tato transakce podepsána oběma stranami, publikuje ji Alice. Jakmile je transakce potvrzena na Bitcoin blockchainu, Lightning kanál je oficiálně uzavřen.
+   ![LNP201](assets/en/32.webp)
 
 **Kooperativní uzavření** je preferovanou metodou uzavření, protože je rychlé (bez timelock) a transakční poplatky jsou upraveny podle aktuálních tržních podmínek Bitcoinu. To zabrání placení příliš malé částky, což by mohlo zablokovat transakci v mempoolech, nebo zbytečnému přeplácení, což vede k zbytečné finanční ztrátě pro účastníky.
 
@@ -406,7 +413,7 @@ Existují tři způsoby, jak uzavřít kanál:
 1. **Kooperativní uzavření**: Rychlé a méně nákladné, kde se obě strany dohodnou na uzavření kanálu a publikují přizpůsobenou závěrečnou transakci.
 2. **Nucené uzavření**: Méně žádoucí, protože se spoléhá na publikování závazné transakce, s potenciálně nevhodnými poplatky a timelockem, který zpomaluje uzavření.
 3. **Podvádění**: Pokud se jedna ze stran pokusí ukrást prostředky zveřejněním staré transakce, druhá může použít revokační klíč k potrestání tohoto podvodu.
-V nadcházejících kapitolách prozkoumáme Lightning Network z širší perspektivy, zaměříme se na to, jak její síť funguje.
+   V nadcházejících kapitolách prozkoumáme Lightning Network z širší perspektivy, zaměříme se na to, jak její síť funguje.
 
 # Síť likvidity
 
@@ -477,7 +484,7 @@ Prostřední uzly uplatňují poplatky, aby umožnily platby procházet jejich k
 
 1. "**Základní poplatek**": pevná částka za kanál, často **1 sat** ve výchozím nastavení, ale přizpůsobitelná.
 2. "**Proměnlivý poplatek**": procento z přenesené částky, vypočítané v **částech na milion (ppm)**. Ve výchozím nastavení je to **1 ppm** (1 sat na milion přenesených satoshi), ale lze to také upravit.
-Poplatky se také liší v závislosti na směru převodu. Například pro převod z Alice na Suzie se použijí poplatky Alice. Naopak, z Suzie na Alice, se použijí poplatky Suzie.
+   Poplatky se také liší v závislosti na směru převodu. Například pro převod z Alice na Suzie se použijí poplatky Alice. Naopak, z Suzie na Alice, se použijí poplatky Suzie.
 
 Například pro kanál mezi Alice a Suzie bychom mohli mít:
 
@@ -558,6 +565,7 @@ Takto tento proces funguje v našem příkladu s Alicí, Suzie a Bobem:
 
 ![LNP201](assets/en/48.webp)
 **Vytvoření tajemství**: Bob vygeneruje náhodné tajemství označené jako _s_ (předobraz) a vypočítá jeho hash označený jako _r_ pomocí hashovací funkce označené jako _h_. Platí:
+
 $$
 r = h(s)
 $$
@@ -656,7 +664,7 @@ Aby uzly udržely svou mapu sítě aktuální, pravidelně si vyměňují zpráv
 
 - "**Oznámení kanálů**": zprávy signalizující otevření nového kanálu.
 - **Aktualizace kanálů**: aktualizační zprávy o stavu kanálu, zejména o vývoji poplatků (ale ne o distribuci likvidity).
-Uzly Lightning také sledují Bitcoinový blockchain, aby detekovaly transakce uzavírající kanály. Uzavřený kanál je poté odstraněn z mapy, protože již nemůže být použit k směrování našich plateb.
+  Uzly Lightning také sledují Bitcoinový blockchain, aby detekovaly transakce uzavírající kanály. Uzavřený kanál je poté odstraněn z mapy, protože již nemůže být použit k směrování našich plateb.
 
 ### Směrování platby
 
@@ -687,7 +695,7 @@ Ale protože Alice nezná přesné rozdělení prostředků v každém kanálu, 
 - **Transakční poplatky**: při výběru nejlepší trasy také odesílající uzel zohledňuje poplatky uplatňované každým prostředníkovým uzlem a snaží se minimalizovat celkové náklady na směrování.
 - **Expirace HTLCs**: aby se zabránilo zablokování plateb, je také parametrem k zvážení doba expirace HTLCs.
 - **Počet mezilehlých uzlů**: konečně, v širším smyslu, odesílající uzel se bude snažit najít trasu s co nejmenším počtem uzlů, aby snížil riziko selhání a omezil poplatky za Lightning transakce.
-Analýzou těchto kritérií může odesílající uzel testovat nejpravděpodobnější trasy a pokusit se je optimalizovat. V našem příkladu by Alice mohla nejlepší trasy seřadit takto:
+  Analýzou těchto kritérií může odesílající uzel testovat nejpravděpodobnější trasy a pokusit se je optimalizovat. V našem příkladu by Alice mohla nejlepší trasy seřadit takto:
 
 1. `Alice → 1 → 2 → 5 → Bob`, protože je to nejkratší trasa s nejvyšší kapacitou.
 2. `Alice → 1 → 2 → 4 → 5 → Bob`, protože tato trasa nabízí dobré kapacity, ačkoli je delší než první.
@@ -753,6 +761,7 @@ Poté část určená pro payload:
 
 p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql
 ```
+
 Dvě části jsou odděleny `1`. Tento oddělovač byl zvolen místo speciálního znaku, aby bylo možné snadno kopírovat celou fakturu dvojitým kliknutím.
 V první části můžeme vidět, že:
 
@@ -800,6 +809,7 @@ Obsah faktury zahrnuje několik informací nezbytných pro zpracování platby:
 Faktury jsou poté zakódovány ve formátu **bech32**, stejně jako adresy Bitcoin SegWit (formát začínající `bc1`).
 
 ### LNURL Výběr
+
 V tradiční transakci, jako je nákup v obchodě, je vygenerována faktura na celkovou částku k zaplacení. Jakmile je faktura prezentována (ve formě QR kódu nebo řetězce znaků), zákazník ji může naskenovat a dokončit transakci. Platba pak následuje tradiční proces, který jsme studovali v předchozí sekci. Tento proces však někdy může být pro uživatelskou zkušenost velmi zdlouhavý, protože vyžaduje, aby příjemce poslal informace odesílateli prostřednictvím faktury.
 Pro určité situace, jako je vybírání bitcoinů z online služby, je tradiční proces příliš zdlouhavý. V takových případech řešení **LNURL** pro výběr zjednodušuje tento proces zobrazením QR kódu, který naskenuje peněženka příjemce a automaticky vytvoří fakturu. Služba poté zaplatí fakturu a uživatel jednoduše vidí okamžitý výběr.
 
@@ -834,7 +844,9 @@ V následující kapitole uvidíme, jak může operátor uzlu spravovat likvidit
 V této kapitole prozkoumáme strategie pro efektivní správu likvidity na Lightning Network. Správa likvidity se liší v závislosti na typu uživatele a kontextu. Podíváme se na hlavní principy a existující techniky, abychom lépe pochopili, jak tuto správu optimalizovat.
 
 ### Potřeby likvidity
+
 Na Lightning existují tři hlavní uživatelské profily, z nichž každý má specifické potřeby v oblasti likvidity:
+
 1. **Platící (The Payer)**: Toto je ten, kdo provádí platby. Potřebují odchozí likviditu, aby mohli převádět prostředky ostatním uživatelům. Například to může být spotřebitel.
 2. **Prodávající (The Seller or Payee)**: Toto je ten, kdo přijímá platby. Potřebují příchozí likviditu, aby mohli přijímat platby na svůj uzel. Například to může být podnik nebo internetový obchod.
 3. **Router**: Prostředník, uzel často specializovaný na směrování plateb, který musí optimalizovat svou likviditu v každém kanálu, aby mohl směrovat co nejvíce plateb a vydělávat poplatky.
@@ -946,13 +958,9 @@ Viděli jsme, že správa likvidity je na Lightning výzvou, aby se zajistil ply
 
 ![LNP201](assets/en/84.webp)
 
-### Poděkování
-Chtěl bych poděkovat každému z vás za váš zájem, podporu a otázky během této série. Původně mým záměrem bylo vytvořit francouzský obsah zaměřený na technické aspekty Lightning, vzhledem k nedostatku dostupných zdrojů. Byla to osobní výzva, kterou jsem chtěl přijmout kombinací technické přesnosti a přístupnosti. Pokud se vám tento bezplatný kurz líbil, neváhejte ho ohodnotit v sekci "_Ohodnoťte tento kurz_" a sdílejte ho se svými blízkými a na vašich sociálních sítích.
-Děkuji, brzy na viděnou!
+# Závěr
 
-### Bonus: Rozhovor s Fanisem
-
-![Rozhovor s Fanisem](https://youtu.be/VeJ4oJIXo9k)
+<partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
 ## Ohodnoťte tento kurz
 
@@ -967,7 +975,40 @@ Děkuji, brzy na viděnou!
 ## Závěr
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+Gratulujeme! 🎉
 
-**Gratulujeme k dokončení tohoto kurzu!**
+Dokončili jste školení LNP 201 - Úvod do Lightning Network!
 
-Vezměte prosím na vědomí, že tato kapitola je momentálně ve výstavbě a brzy přijde vylepšená verze. Mezitím, pokud se nemůžete dočkat pokračování vaší cesty Bitcoinem, zveme vás k prozkoumání dalších kurzů a tutoriálů dostupných na naší platformě. Pokračujte ve skvělé práci a přejeme příjemné učení!
+Můžete být na sebe hrdí, protože tohle není jednoduché téma.
+
+Jen málo lidí se ponoří tak hluboko do králičí nory Bitcoinu.
+
+Velké poděkování **Fanisi Michalakisovi** za poskytnutí tohoto skvělého bezplatného kurzu o technickém fungování Lightning Network.
+
+Neváhejte ho sledovat na [Twitteru](https://x.com/FanisMichalakis), na [jeho blogu](https://fanismichalakis.fr/) nebo skrze jeho práci v [LN Markets](https://lnmarkets.com/).
+
+Nyní, když ovládáte Lightning Network, vás zvu k prozkoumání našich dalších bezplatných kurzů na Plan ₿ Network pro prohloubení znalostí dalších aspektů Satoshi Nakamotova vynálezu:
+
+#### Pochopte, jak funguje Bitcoin peněženka s
+
+https://planb.network/courses/cyp201
+
+#### Objevte historii původu Bitcoinu s
+
+https://planb.network/courses/his201
+
+#### Nakonfigurujte BTC platební server s
+
+https://planb.network/courses/btc305
+
+#### Ovládněte principy soukromí v Bitcoinu
+
+https://planb.network/courses/btc204
+
+#### Objevte základy těžby s
+
+https://planb.network/courses/min201
+
+#### Naučte se vytvořit svou Bitcoin komunitu s
+
+https://planb.network/courses/btc302

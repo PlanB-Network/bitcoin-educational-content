@@ -1,9 +1,9 @@
-question: Para calcular los valores de la clave maestra y el código de cadena maestro, la primera entrada para la función HMAC-SHA512 es la semilla. ¿Cuál es el segundo valor de entrada de esta función, actuando como una clave?
-answer: Bitcoin seed.
+question: ¿Cuál es el principal papel de la frase de paso en una cartera HD de Bitcoin?
+answer: Modificar la derivación de clave para mejorar la seguridad
 wrong_answers:
-  - La frase mnemotécnica.
-  - La frase de paso.
-  - Seed.
+  - Descifrar transacciones pendientes
+  - Generar los UTXOs de la cartera
+  - Proteger el acceso a la cartera con identificación facial
 explanation: |
-  La cadena Bitcoin seed se utiliza como una clave en HMAC-SHA512 para derivar la clave maestra y el código de cadena maestro a partir de la semilla.
+  La frase de paso actúa como un segundo factor de seguridad, alterando la semilla de derivación de clave para prevenir el acceso a la cartera en caso de que la frase mnemotécnica sea comprometida.
 reviewed: false

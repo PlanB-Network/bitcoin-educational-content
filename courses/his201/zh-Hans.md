@@ -1359,3 +1359,38 @@ jimbobway在论坛上发布的与美元等值那天的照片（来源：[Bitcoin
 第三，比特币是有机增长的。它能够悄然发展，逐渐吸引人们。在将近一年半的时间里，它是一个非常机密的项目，只为爱好者和好奇者所知。直到2010年7月的slashdot事件之后，它才开始爆炸性增长。直到2011年，当价格指数级增长到32美元时，围绕它的投机狂热才真正开始。
 第四，比特币是一种利他主义的创造。中本聪向世界提供了比特币。他以免费许可证发布了这个程序。他既不寻求名声、利润，也不寻求权力。他确保了网络的挖矿安全超过一年，而没有要求任何补偿。尽管他积累了超过一百万比特币，但他从未花费过它们。最终，主要由于担心与维基解密案件相关的注意力，他消失了，让这个项目依靠一个社区继续发展，而没有一个单一的主导人物。
 2011年，中本聪消失了，但比特币存活了下来。这种加密货币甚至从媒体和经济的角度 definitively 起飞了。这台机器启动了，没有人能停止它。
+# 总结
+<partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
+## 评价本课程
+<chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
+<isCourseReview>true</isCourseReview>
+## 期末考试
+<chapterId>d61dbdf3-b482-412b-b725-0a19006603b7</chapterId>
+<isCourseExam>true</isCourseExam>
+## 总结
+<chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
+恭喜您完成本课程！
+
+我们很高兴看到您在学习之旅中达到这一重要里程碑。
+
+通过您的奉献和承诺，您获得了宝贵的知识和技能，这将有助于您的职业发展。
+
+为了继续深入探索比特币宇宙，我们邀请您探索 Plan ₿ Network 上提供的所有其他课程：
+
+#### 了解比特币及其基础知识
+https://planb.network/courses/btc101
+
+#### 探索奥地利经济学派
+https://planb.network/courses/eco201
+
+#### 获取并保护您的第一笔比特币
+https://planb.network/courses/btc102
+
+#### 更新您的在线安全
+https://planb.network/courses/scu101
+
+#### 探索自由through历史的演变
+https://planb.network/courses/phi201
+
+#### 了解挖矿基础知识
+https://planb.network/courses/min201

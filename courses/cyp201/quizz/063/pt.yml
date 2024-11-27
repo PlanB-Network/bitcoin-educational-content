@@ -1,8 +1,9 @@
-question: Quais são os dois tipos de derivação de chaves filhas em uma carteira HD?
-answer: Derivação normal e derivação reforçada.
+question: Qual informação não está incluída em uma chave estendida?
+answer: O histórico de transações da chave
 wrong_answers:
-  - Derivação simples e derivação complexa.
-  - Derivação elíptica e derivação curva.
-  - Derivação estática e derivação dinâmica.
+  - O número de índice da chave
+  - A chave (privada ou pública)
+  - O código da cadeia
 explanation: |
-  Os dois tipos de derivação são a derivação normal, que utiliza a chave pública pai, e a derivação reforçada, que utiliza a chave privada pai.
+  Uma chave estendida contém apenas as informações necessárias para derivar chaves filhas, não informações relacionadas a transações.
+reviewed: false

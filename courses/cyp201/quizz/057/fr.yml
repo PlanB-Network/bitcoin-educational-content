@@ -1,9 +1,9 @@
-question: Avec une clé publique étendue, je peux dériver...
-answer: ...des clés publiques enfants normales.
+question: Quelle est la taille de la graine générée par PBKDF2 ?
+answer: 512 bits
 wrong_answers:
-  - ...des clés publiques enfants renforcées.
-  - ...des clés privées enfants normales.
-  - ...des clés privées enfants renforcées.
+  - 128 bits
+  - 256 bits
+  - Variable selon la longueur de la phrase mnémonique
 explanation: |
-  Une clé publique étendue permet de dériver uniquement des clés publiques enfants normales, mais pas des clés privées.
+  Quelle que soit la longueur de la phrase mnémonique, PBKDF2 génère toujours une graine de 512 bits.
 reviewed: false

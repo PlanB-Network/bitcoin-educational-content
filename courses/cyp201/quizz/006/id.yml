@@ -1,9 +1,8 @@
-question: Berapa banyak bit yang dialokasikan untuk padding berdasarkan ukuran dalam fungsi SHA256?
-answer: 64 bit.
+question: Apa yang terjadi selama setiap putaran kompresi di SHA256?
+answer: Variabel-variabel keadaan diperbarui dari kata-kata pesan dan konstanta
 wrong_answers:
-  - 128 bit.
-  - 256 bit.
-  - 512 bit.
+  - Hash akhir dihasilkan secara bertahap setelah setiap putaran
+  - Bit-bit pesan diatur ulang
+  - Nilai awal dari variabel-variabel tetap tidak berubah
 explanation: |
-  SHA256 mengalokasikan 64 bit untuk padding, yang mewakili ukuran awal pesan sebelum padding.
-reviewed: false
+  Setiap putaran memodifikasi variabel-variabel keadaan menggunakan kata-kata, konstanta, dan operasi logika untuk menyebarkan informasi.

@@ -1,9 +1,9 @@
-question: Quelle est la variable qui permet de différencier les paires de clés soeurs entre elles (qui disposent d'une même paire parent) ?
-answer: L'index.
+question: Quelle est la taille totale d'une clé étendue avec la checksum ?
+answer: 82 octets
 wrong_answers:
-  - Le sel cryptographique.
-  - Le prénom.
-  - Le code de chaîne parent.
+  - 78 octets
+  - 64 octets
+  - 128 octets
 explanation: |
-  L'index permet de différencier les paires de clés soeurs dérivées d'une même paire parent dans un portefeuille HD.
+  Une clé étendue mesure 78 octets sans la checksum et 82 octets avec la checksum incluse.
 reviewed: false

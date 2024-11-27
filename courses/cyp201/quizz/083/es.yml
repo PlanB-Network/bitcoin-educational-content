@@ -1,0 +1,9 @@
+question: ¿Qué tipo de dirección comienza con `1` y pertenece al estándar Legacy?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  Las direcciones P2PKH, codificadas en base58check, provienen del estándar Legacy y comienzan con el dígito `1`.
+reviewed: false

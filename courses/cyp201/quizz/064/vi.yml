@@ -1,8 +1,8 @@
-question: Phạm vi chỉ số nào được sử dụng cho các khóa con bình thường trong một ví HD?
-answer: Giữa 0 và 2^31 - 1.
+question: Chức năng chính của một khóa mở rộng trong ví HD là gì?
+answer: Cho phép tạo ra các khóa con
 wrong_answers:
-  - Giữa 0 và 2^32 - 1.
-  - Giữa 0 và 2^31.
-  - Giữa 2^31 và 2^32 - 1.
+  - Lưu trữ các giao dịch của ví
+  - Trực tiếp tạo ra các UTXO
+  - Mã hóa các khóa công khai
 explanation: |
-  Các khóa con bình thường sử dụng phạm vi chỉ số từ 0 đến 2^31 - 1, trong khi các khóa cứng có chỉ số bắt đầu từ 2^31.
+  Một khóa mở rộng kết hợp một khóa (dù là khóa riêng tư hay khóa công khai) với một mã chuỗi liên kết, tức là hai yếu tố cần thiết để tạo ra các khóa con.

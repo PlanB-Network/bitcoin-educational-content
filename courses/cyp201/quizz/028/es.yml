@@ -1,9 +1,9 @@
-question: ¿Por qué es imposible recuperar la clave privada a partir de una firma digital válida?
-answer: La firma se basa en operaciones matemáticas irreversibles sobre una curva elíptica.
+question: ¿Cuál es el tamaño de una clave pública comprimida utilizando el protocolo Schnorr?
+answer: 32 bytes
 wrong_answers:
-  - La clave privada se encripta antes de usarse.
-  - La semilla protege la clave privada.
-  - El hasheo de mensajes impide que se recupere la clave privada.
+  - 33 bytes
+  - 64 bytes
+  - 256 bits
 explanation: |
-  Las operaciones sobre curvas elípticas son irreversibles, asegurando que la clave privada no pueda ser deducida a partir de la firma.
+  Una clave pública Schnorr se representa solo por la coordenada x del punto en la curva elíptica, lo que reduce su tamaño a 32 bytes.
 reviewed: false

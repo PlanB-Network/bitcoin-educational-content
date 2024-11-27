@@ -907,16 +907,6 @@ Etter bankpanikken i 1796, oppsto et fenomen der alle prøvde å bevege seg oppo
 
 Sentralbanker har utviklet seg til å bli utlånere av siste instans, ved å suspendere konverterbarheten av deres valuta til gull. Selv om denne handlingen opprinnelig var ment som en midlertidig løsning, ble den til slutt permanent, og markerte begynnelsen på konseptet med utlåner av siste instans. Denne transformasjonen har formet sentralbankene slik vi kjenner dem i dag. Imidlertid, i mer skjøre økonomier, kan denne evnen til å trykke penger etter vilje føre til uønskede konsekvenser, som hyperinflasjon, hvis den brukes uansvarlig.
 
-## Evaluer kurset
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Avsluttende eksamen
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Bøker og Ressurser
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -940,3 +930,51 @@ Hyperinflasjon er et fascinerende emne som har blitt studert gjennom ulike histo
 
 - "Valutastyrer for U-land: En Håndbok" av Steve Hanke og Kurt Schuler. Selv om fokuset er på valutastyrer, tilbyr denne boken et perspektiv på hvordan man kan unngå situasjoner med hyperinflasjon.
 
+# Konklusjon
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Evaluer dette kurset
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Avsluttende eksamen
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Konklusjon
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Gratulerer med fullført kurs!
+
+Vi er glade for at du har nådd denne viktige milepælen i din læringsprosess.
+
+Gjennom din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
+
+For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle andre kurs tilgjengelige på Plan ₿ Network:
+
+#### Oppdag F. Bastiats liv med
+
+https://planb.network/courses/eco102
+
+#### Oppdag den østerrikske skolens økonomiske tenkning med
+
+https://planb.network/courses/eco201
+
+#### Oppdag Bitcoin og dens grunnleggende prinsipper med
+
+https://planb.network/courses/btc101
+
+#### Oppdater din nettsikkerhet med
+
+https://planb.network/courses/scu101
+
+#### Få og sikre dine første bitcoins med
+
+https://planb.network/courses/btc102
+
+#### Oppdag historien om Bitcoins opprinnelse med
+
+https://planb.network/courses/his201

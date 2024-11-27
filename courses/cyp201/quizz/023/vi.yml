@@ -1,8 +1,8 @@
-question: Kích thước của một khóa công khai Bitcoin không nén bao gồm tiền tố là bao nhiêu?
-answer: 520 bit.
+question: Điểm chung nào được tất cả các bên tham gia sử dụng để tính toán khóa công khai trong Bitcoin?
+answer: Điểm sinh G
 wrong_answers:
-  - 512 byte.
-  - 256 bit.
-  - 512 bit.
+  - Băm SHA256
+  - Cụm từ ghi nhớ
+  - Khóa công khai nén
 explanation: |
-  Một khóa công khai Bitcoin không nén cùng với tiền tố của nó là 520 bit, bao gồm tọa độ x và y của điểm trên đường cong elliptic.
+  Điểm sinh G của đường cong elliptic secp256k1 được sử dụng để tính toán khóa công khai từ khóa riêng.

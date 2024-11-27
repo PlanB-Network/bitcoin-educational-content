@@ -1,8 +1,9 @@
-question: Millest koosneb laiendatud võtme sisu?
-answer: Avalik või privaatvõti ja sellega seotud ahelakood.
+question: Mitmeks osaks jaguneb HMAC-SHA512 funktsiooni rakendamisel seemnele saadud väljund?
+answer: Kaheks osaks, igaüks 256 bitti
 wrong_answers:
-  - Privaatvõti ja sellega seotud avalik võti.
-  - Ahelakood, avalik võti ja privaatvõti.
-  - Privaatvõti ja tuletusindeks.
+  - Üheks terviklikuks osaks, 512 bitti
+  - Kolmeks osaks, igaüks 170 bitti
+  - Neljaks osaks, igaüks 128 bitti
 explanation: |
-  Laiendatud võtme sisu hõlmab kas avalikku või privaatvõtit koos ahelakoodiga, mida kasutatakse alamvõtmete tuletamiseks.
+  HMAC-SHA512 väljund jaguneb kaheks osaks: peamine privaatvõti (256 bitti) ja peamine ahelakood (256 bitti).
+reviewed: false

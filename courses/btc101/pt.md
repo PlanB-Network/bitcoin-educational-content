@@ -133,7 +133,6 @@ Se você deseja explorar mais detalhadamente a história do Bitcoin, recomendo f
 
 https://planb.network/courses/his201
 
-
 # A moeda
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -250,7 +249,6 @@ Ao mesmo tempo, a emergência das moedas digitais dos bancos centrais, ou CBDC, 
 Se você deseja aprender mais sobre sofismas econômicos e liberdade, convido-o a conhecer nosso curso ECO 102. Este curso traça a vida e as ideias de Frédéric Bastiat, um pensador francês do século XIX que, sem dúvida, teria apreciado o surgimento do Bitcoin:
 
 https://planb.network/courses/eco102
-
 
 ## As hiperinflações
 
@@ -1059,7 +1057,6 @@ https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
 
 https://planb.network/courses/btc305
 
-
 ## Poupar com Bitcoin
 
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
@@ -1317,44 +1314,17 @@ Bitcoin não pode mais ser interrompido e não pode mais ser censurado. É uma r
 
 Mudar o sistema financeiro requer mudar a moeda. Satoshi criou o Bitcoin em 2008 como uma tentativa de suprir isso. Ter acesso a dinheiro fácil e "mágico" corrompe. Portanto, o Bitcoin é uma alternativa para construir um novo sistema monetário neutro. O Bitcoin permite a emancipação do sistema bancário. É um fenômeno social que nos leva a participar de uma revolução pacífica. Você está pronto para se juntar a ela?
 
-## Agradecimentos e continue a cavar a toca do coelho
+# Conclusão
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Vá mais fundo
-
-Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha gostado e que tenha aberto portas para você. Sua descoberta do bitcoin está apenas começando e convido você a explorar todos os outros cursos disponíveis na universidade.
-
-Para configurar seu plano de Bitcoin:
-
-https://planb.network/courses/btc102
-
-Para descobrir a Lightning Network, uma rede de pagamentos de segunda camada:
-
-https://planb.network/courses/lnp201
-
-Para explorar a economia austríaca:
-
-https://planb.network/courses/eco201
-
-Para atualizar sua segurança digital:
-
-https://planb.network/courses/scu101
-
-Para saber mais sobre mineração:
-
-https://planb.network/courses/min201
-
-e muito mais...
-
-
-
-## Avalie o curso
+## Avaliação do Curso
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Exame Final
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1362,7 +1332,24 @@ e muito mais...
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Parabéns por concluir este curso!**
+Parabéns por completar o treinamento BTC 101! Espero sinceramente que tenha gostado e que tenha aberto novas portas para você. Sua descoberta do Bitcoin está apenas começando e convido você a explorar todos os outros cursos disponíveis na Plan ₿ Network:
 
-Por favor, observe que este capítulo está atualmente em construção, e uma versão aprimorada chegará em breve. Enquanto isso, se você está ansioso para continuar sua jornada Bitcoin, convidamos você a explorar os outros cursos e tutoriais disponíveis em nossa plataforma. Continue com o bom trabalho e bons estudos!
+#### Obtenha e proteja seus primeiros bitcoins com
 
+https://planb.network/courses/btc102
+
+#### Descubra a Lightning Network com
+
+https://planb.network/courses/lnp201
+
+#### Conheça a Escola Austríaca de pensamento econômico com
+
+https://planb.network/courses/eco201
+
+#### Atualize sua segurança online com
+
+https://planb.network/courses/scu101
+
+#### Entenda os fundamentos do Bitcoin e construa seu aquecimento doméstico com
+
+https://planb.network/courses/min201

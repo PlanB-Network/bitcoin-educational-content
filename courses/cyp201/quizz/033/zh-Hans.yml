@@ -1,8 +1,8 @@
-question: 恢复短语或助记词短语（12/24个词）的概念是在哪个BIP中提出的？
-answer: BIP39。
+question: SIGHASH_NONE签名哈希标志允许做什么？
+answer: 签名后修改输出
 wrong_answers:
-  - BIP16。
-  - BIP32。
-  - BIP44。
-explanation:
-  BIP39引入了24个词的助记恢复短语，以方便HD钱包用户的密钥备份。
+  - 签名后修改输入
+  - 覆盖所有输入和输出
+  - 仅限制修改一个输出
+explanation: |
+  SIGHASH_NONE仅覆盖输入，允许在签名后修改输出。

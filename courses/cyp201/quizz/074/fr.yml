@@ -1,9 +1,9 @@
-question: Quel préfixe ou HRP d'adresse correspond à un standard SegWit ?
-answer: bc
+question: Que désigne l'index /84'/ en profondeur 1 d'un chemin de dérivation ?
+answer: Le standard P2WPKH (SegWit v0)
 wrong_answers:
-  - 1
-  - 0x
-  - btc
+  - Le standard P2TR (SegWit v1)
+  - Une devise Bitcoin testnet
+  - Une devise Bitcoin mainnet
 explanation: |
-  Le préfixe bc est utilisé pour les adresses SegWit sur le réseau principal (mainnet) de Bitcoin.
+  L'index /84'/ est défini dans le BIP84 pour indiquer l'utilisation du standard SegWit v0 avec des adresses P2WPKH en profondeur 1 (celle de l'objectif de dérivation).
 reviewed: false

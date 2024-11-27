@@ -1,9 +1,8 @@
-question: Co je JBOK peněženka v kontextu Bitcoinu?
-answer: Peněženka, která sdružuje soukromé klíče určené náhodně, bez vzájemného propojení.
+question: Který sighash příznak je nejčastěji používán v Bitcoin transakcích?
+answer: SIGHASH_ALL
 wrong_answers:
-  - Peněženka, která odvozuje klíče hierarchickým způsobem z jediného základu (seed).
-  - Peněženka, která odvozuje klíče z předchozích klíčů.
-  - Peněženka, která používá pouze mnemonickou frázi pro odvození klíčů.
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  JBOK (Just a Bunch Of Keys) peněženka obsahuje soukromé klíče, které jsou generovány náhodně a nezávisle na sobě, na rozdíl od HD peněženek.
-reviewed: false
+  SIGHASH_ALL je výchozí sighash příznak, který pokrývá všechny vstupy a výstupy transakce, čímž zabraňuje jakýmkoliv úpravám.

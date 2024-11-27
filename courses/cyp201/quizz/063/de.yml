@@ -1,9 +1,9 @@
-question: Was sind die zwei Arten der Schlüsselableitung bei einem HD-Wallet?
-answer: Normale Ableitung und gehärtete Ableitung.
+question: Welche Information ist in einem erweiterten Schlüssel nicht enthalten?
+answer: Die Transaktionshistorie des Schlüssels
 wrong_answers:
-  - Einfache Ableitung und komplexe Ableitung.
-  - Elliptische Ableitung und Kurvenableitung.
-  - Statische Ableitung und dynamische Ableitung.
+  - Die Indexnummer des Schlüssels
+  - Der Schlüssel (privat oder öffentlich)
+  - Der Ketten-Code
 explanation: |
-  Die zwei Arten der Ableitung sind die normale Ableitung, die den öffentlichen Schlüssel des Elternteils verwendet, und die gehärtete Ableitung, die den privaten Schlüssel des Elternteils verwendet.
+  Ein erweiterter Schlüssel enthält nur die Informationen, die notwendig sind, um Kinderschlüssel abzuleiten, nicht jedoch Informationen, die sich auf Transaktionen beziehen.
 reviewed: false

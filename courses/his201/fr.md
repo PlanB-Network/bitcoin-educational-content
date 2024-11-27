@@ -1570,3 +1570,51 @@ Troisièmement, Bitcoin a grandi de manière organique. Il a pu se développer d
 Quatrièmement, Bitcoin a été une création altruiste. Satoshi Nakamoto a offert Bitcoin au monde. Il a publié le programme sous licence libre. Il n'a recherché ni la gloire, ni le profit, ni le pouvoir. Il a assuré la sécurité minière du réseau pendant plus d'un an, sans demander de rétribution. Même s'il a accumulé plus d'un million de bitcoins, il ne les a jamais dépensés. Il a enfin disparu, principalement par crainte liée à l'attention créée par l'affaire WikiLeaks, laissant dans le même temps le projet reposer sur une communauté, sans figure unique dominante.
 
 En 2011, Satoshi a disparu, mais Bitcoin a survécu. La cryptomonnaie a même définitivement pris son envol, tant du point de vue médiatique qu'économique. La machine était lancée et personne ne pouvait plus l'arrêter.
+
+# Conclusion
+
+<partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
+
+## Évaluez ce cours
+
+<chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>d61dbdf3-b482-412b-b725-0a19006603b7</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
+
+Félicitations pour avoir terminé ce cours !
+
+Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
+
+Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
+
+#### Découvrez Bitcoin et ses fondamentaux avec
+
+https://planb.network/courses/btc101
+
+#### Découvrez la pensée économique de l'école autrichienne avec
+
+https://planb.network/courses/eco201
+
+#### Obtenez et sécurisez vos premiers bitcoins avec 
+
+https://planb.network/courses/btc102
+
+#### Mettez à jour votre sécurité en ligne avec
+
+https://planb.network/courses/scu101
+
+#### Découvrez l'évolution de la liberté à travers les âges avec
+
+https://planb.network/courses/phi201
+
+#### Comprenez les bases du minage 
+
+https://planb.network/courses/min201

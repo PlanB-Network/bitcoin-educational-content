@@ -1,8 +1,9 @@
-question: For å anvende denne elliptiske kurven til kryptografisk bruk, på hvilket felt må vi definere den?
-answer: Et endelig felt av positive heltall.
+question: Hvilken signaturalgoritme ble introdusert i Bitcoin med Taproot?
+answer: Schnorr signaturordning
 wrong_answers:
-  - Feltet av reelle tall.
-  - Et endelig felt av reelle tall.
-  - Et komplekst felt.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  I Bitcoin er den elliptiske kurven secp256k1 definert over et endelig felt av positive heltall modulo et primtall for å unngå tilnærminger og sikre sikkerhet.
+  Schnorr signaturordningen ble introdusert i november 2021 med Taproot-oppdateringen.
+reviewed: false

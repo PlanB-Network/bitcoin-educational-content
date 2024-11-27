@@ -1,8 +1,8 @@
-question: Hva er den unike egenskapen til listen over 2048 ord som tillater mnemonisk koding?
-answer: Ingen ord har de samme første fire bokstavene i samme rekkefølge.
+question: Hvorfor er det risikabelt å manuelt generere entropi for en HD-lommebok?
+answer: Det kan introdusere menneskelige svakheter eller forutsigbare skjevheter
 wrong_answers:
-  - Ingen ord har de samme siste tre bokstavene.
-  - Ingen ord starter med bokstaven J.
-  - Ingen ord er mer enn seks bokstaver lange.
+  - Det resulterer i ugyldige offentlige nøkler
+  - Det blokkerer avledningen av private nøkler
+  - Det begrenser størrelsen på de genererte mnemonic-frasene
 explanation: |
-  Denne egenskapen hjelper til med å unngå enhver tvetydighet når ordene tastes inn, og sikrer dermed unikheten til hvert ord i listen, samtidig som det reduserer det nødvendige lagringsområdet.
+  Å manuelt generere entropi kan introdusere skjevheter eller feil, noe som gjør nøklene mer sårbare for angrep.

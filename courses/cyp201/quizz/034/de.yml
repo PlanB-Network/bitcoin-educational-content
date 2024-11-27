@@ -1,9 +1,8 @@
-question: Was ist eine JBOK-Wallet im Kontext von Bitcoin?
-answer: Eine Wallet, die zufällig bestimmte private Schlüssel zusammenfasst, ohne eine Verbindung zwischen ihnen.
+question: Welches Sighash-Flag wird am häufigsten bei Bitcoin-Transaktionen verwendet?
+answer: SIGHASH_ALL
 wrong_answers:
-  - Eine Wallet, die Schlüssel auf hierarchische Weise aus einem einzigen Seed ableitet.
-  - Eine Wallet, die Schlüssel aus vorherigen Schlüsseln ableitet.
-  - Eine Wallet, die ausschließlich eine mnemonische Phrase verwendet, um Schlüssel abzuleiten.
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  Eine JBOK (Just a Bunch Of Keys) Wallet enthält private Schlüssel, die zufällig und unabhängig voneinander generiert werden, im Gegensatz zu HD-Wallets.
-reviewed: false
+  SIGHASH_ALL ist das Standard-Sighash-Flag, das alle Eingaben und Ausgaben einer Transaktion abdeckt und jegliche Modifikationen verhindert.

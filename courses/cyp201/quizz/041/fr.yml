@@ -1,9 +1,9 @@
-question: Si je génère un nombre aléatoire de 128 bits, quelle sera la taille de ma phrase de récupération en mots ?
-answer: 12 mots.
+question: Quel est le risque principal d'utiliser un PRNG mal conçu pour générer l'entropie ?
+answer: Les clés privées pourraient être devinées par un attaquant
 wrong_answers:
-  - 6 mots.
-  - 8 mots.
-  - 24 mots.
+  - La phrase mnémonique pourrait contenir des mots incorrects
+  - Les signatures numériques deviendraient invalides
+  - Les adresses Bitcoin seraient incompatibles avec le réseau
 explanation: |
-  Un nombre aléatoire de 128 bits correspond à une phrase mnémonique de 12 mots, en suivant le standard BIP39.
+  Un PRNG mal conçu peut produire des séquences prévisibles, rendant les clés plus vulnérables aux attaques.
 reviewed: false

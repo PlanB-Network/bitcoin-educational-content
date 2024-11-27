@@ -1,9 +1,9 @@
-question: Qual è lo scopo del processo di hashing crittografico?
-answer: Mappare una stringa di bit di lunghezza arbitraria in una stringa di bit di lunghezza fissa.
+question: Qual è la funzione principale di una funzione hash?
+answer: Converte informazioni di lunghezza arbitraria in un'impronta digitale di dimensione fissa
 wrong_answers:
-  - Crittografare un messaggio.
-  - Assicurare che il mittente del messaggio non possa negare di aver inviato il messaggio in futuro.
-  - Garantire la riservatezza dei dati.
+  - Cripta i messaggi per renderli illeggibili
+  - È usata solo per verificare l'integrità del software Bitcoin
+  - Genera chiavi private per i portafogli Bitcoin
 explanation: |
-  L'hashing trasforma dati di qualsiasi dimensione in un output di dimensione fissa, utile per verificare l'integrità senza necessariamente crittografare o autenticare i dati.
+  Una funzione hash trasforma dati di qualsiasi dimensione in un hash di dimensione fissa, cruciale per molte applicazioni in Bitcoin.
 reviewed: false

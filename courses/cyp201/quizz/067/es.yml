@@ -1,9 +1,8 @@
-question: ¿Qué indica el siguiente camino de derivación? m/84'/0'/1'/0/7
-answer: Una dirección SegwitV0 externa en la red principal.
+question: ¿Cuál es el propósito del índice al derivar claves secundarias?
+answer: Distinguir pares de claves hermanas
 wrong_answers:
-  - Una dirección SegwitV1 externa en la red principal.
-  - Una dirección Legacy interna en la red de pruebas.
-  - Una dirección Legacy externa en la red principal.
+  - Identificar la naturaleza de la clave (pública o privada)
+  - Especificar el nivel de seguridad de la clave
+  - Añadir una capa extra de seguridad
 explanation: |
-  El camino de derivación m/84'/0'/1'/0/7 indica una dirección SegwitV0 externa en la red principal (mainnet). 84' = SegWit v0, 0' = red principal, 1 = externo
-reviewed: false
+  El índice permite diferenciar las claves secundarias derivadas del mismo par de claves padre.

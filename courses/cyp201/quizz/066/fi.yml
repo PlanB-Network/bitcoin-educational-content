@@ -1,9 +1,9 @@
-question: Mitä tarkoittaa heittomerkki tai H numeron oikealla puolella johdannaispolun merkinnässä? Esimerkki m/84'/0'.
-answer: Se osoittaa kovetetun johdannaisen.
+question: Mikä osa HMAC-SHA512 tulosteen lopusta käytetään lapsiketjun koodina?
+answer: Viimeiset 32 tavua
 wrong_answers:
-  - Se osoittaa normaalin johdannaisen.
-  - Se on siinä koristeena.
-  - Se osoittaa muutosavaimen.
+  - Ensimmäiset 32 tavua
+  - Koko 64 tavua
+  - SHA256-tiiviste keskimmäisestä 32 tavusta
 explanation: |
-  Heittomerkki tai H johdannaispolussa osoittaa kovetetun johdannaisen, joka käyttää vanhemman yksityisavainta ja vastaavaa indeksialuetta.
+  HMAC-SHA512 tulosteen viimeiset 32 tavua toimivat lapsiavaimen ketjukoodina.
 reviewed: false

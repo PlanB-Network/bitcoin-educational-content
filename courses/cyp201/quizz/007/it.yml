@@ -1,9 +1,9 @@
-question: A cosa corrispondono i valori degli 8 vettori di inizializzazione della funzione SHA256?
-answer: Ai primi 64 bit delle parti decimali delle radici cubiche dei primi 8 numeri primi.
+question: Qual è la principale differenza tra le operazioni ShR e RotR?
+answer: ShR sposta i bit aggiungendo zeri, RotR reinserisce i bit spostati
 wrong_answers:
-  - Alle decimali di Pi.
-  - Ai primi 32 bit delle parti decimali delle radici quadrate dei primi 8 numeri primi.
-  - Ai primi 64 bit delle parti decimali delle radici quadrate dei primi 8 numeri primi.
+  - ShR rimuove i bit spostati, RotR moltiplica il loro valore
+  - ShR sposta verso sinistra, RotR sposta verso destra
+  - ShR è un'operazione logica, RotR è aritmetica
 explanation: |
-  I vettori di inizializzazione di SHA256 si basano sui primi 64 bit delle parti decimali delle radici cubiche dei primi 8 numeri primi.
+  ShR sposta i bit verso destra aggiungendo zeri, mentre RotR esegue una rotazione circolare dei bit.
 reviewed: false

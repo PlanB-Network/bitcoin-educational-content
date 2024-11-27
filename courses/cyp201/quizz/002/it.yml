@@ -1,9 +1,9 @@
-question: Quali sono le funzioni hash utilizzate nel protocollo Bitcoin?
-answer: SHA-256, RIPEMD-160
+question: Quale proprietà delle funzioni hash è dimostrata da un cambiamento completo del hash quando un messaggio cambia leggermente?
+answer: L'effetto valanga
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - Resistenza alle collisioni
+  - Resistenza alla seconda immagine
+  - Lunghezza
 explanation: |
-  In Bitcoin, vengono utilizzati SHA-256 e RIPEMD-160.
+  Un piccolo cambiamento nell'input comporta un cambiamento radicale nel hash, questo è ciò che viene chiamato effetto valanga.
 reviewed: false

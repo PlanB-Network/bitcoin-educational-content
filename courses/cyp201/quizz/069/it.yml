@@ -1,9 +1,9 @@
-question: Cosa indica il seguente percorso di derivazione? m/44'/0'/0'/0/0
-answer: Un indirizzo Legacy esterno sulla rete principale.
+question: Qual è il ruolo principale del codice catena nella derivazione delle chiavi figlio?
+answer: Introdurre una fonte aggiuntiva di entropia
 wrong_answers:
-  - Un indirizzo SegwitV1 esterno sulla rete principale.
-  - Un indirizzo Legacy interno sulla rete di test.
-  - Un indirizzo SegwitV0 esterno sulla rete principale.
+  - Identificare la profondità gerarchica
+  - Memorizzare gli indici delle chiavi figlio
+  - Garantire la compatibilità con il protocollo Bitcoin
 explanation: |
-  Il percorso di derivazione m/44'/0'/0'/0/0 indica un indirizzo Legacy esterno sulla rete principale (mainnet). 44' = Legacy, 0' = mainnet, 0 = esterno
-reviewed: false
+  Il codice catena è utilizzato per introdurre una fonte di entropia aggiuntiva e unica per ogni chiave derivata.
+recensito: false

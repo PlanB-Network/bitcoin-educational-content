@@ -1,9 +1,9 @@
-question: What happens if I use an HD wallet with a passphrase and I lose that passphrase?
-answer: My bitcoins are lost forever.
+question: How many bits is the checksum for an entropy of 128 bits?
+answer: 4 bits
 wrong_answers:
-  - It's not a problem, I can still access my bitcoins with just my mnemonic phrase.
-  - I can reset the passphrase with my private key.
-  - I can recover my bitcoins by using a wallet without a passphrase.
+  - 8 bits
+  - 16 bits
+  - 6 bits
 explanation: |
-  If the passphrase is lost, access to the bitcoins is permanently lost, as it is necessary to derive the private keys.
+  The length of the checksum is calculated using the formula CS = ENT / 32, which equals 4 bits for an entropy of 128 bits.
 reviewed: false

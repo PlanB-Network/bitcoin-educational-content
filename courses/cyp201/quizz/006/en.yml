@@ -1,9 +1,9 @@
-question: How many bits are reserved for padding by size in the SHA256 function?
-answer: 64 bits.
+question: What happens during each compression round in SHA256?
+answer: The state variables are updated from the message words and constants
 wrong_answers:
-  - 128 bits.
-  - 256 bits.
-  - 512 bits.
+  - The final hash is progressively generated after each round
+  - The message bits are rearranged
+  - The initial values of the variables remain unchanged
 explanation: |
-  SHA256 reserves 64 bits for padding, which represents the initial size of the message before padding.
+  Each round modifies the state variables using words, constants, and logical operations to spread the information.
 reviewed: false

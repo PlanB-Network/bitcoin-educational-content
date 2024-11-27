@@ -1,9 +1,9 @@
-question: ¿Qué demuestra una firma digital en el sistema Bitcoin a través del scriptSig?
-answer: La posesión de la clave privada asociada a una clave pública específica.
+question: ¿Qué algoritmo de firma digital se utilizó en el lanzamiento de Bitcoin?
+answer: ECDSA
 wrong_answers:
-  - La posesión de una dirección de Bitcoin.
-  - La capacidad de minar un bloque de Bitcoin.
-  - La validez de una transacción de Bitcoin.
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Una firma digital demuestra que el usuario posee la clave privada sin tener que revelarla, asegurando la autenticidad de la transacción.
+  Bitcoin inicialmente utilizó ECDSA, un protocolo de firma basado en curvas elípticas, antes de la introducción de las firmas Schnorr en 2021.
 reviewed: false

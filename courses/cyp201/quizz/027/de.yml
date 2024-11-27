@@ -1,9 +1,9 @@
-question: Was repräsentiert der Punkt V im Prozess der digitalen Signatur mit ECDSA als Beispiel in diesem Kapitel?
-answer: Der Punkt, der aus dem Nonce v und dem Generatorpunkt G berechnet wird (V = v.G).
+question: Welche Schwachstelle in ECDSA-Signaturen wurde durch SegWit behoben?
+answer: Veränderbarkeit
 wrong_answers:
-  - Der Punkt, der direkt vom öffentlichen Schlüssel abgeleitet wird.
-  - Der Hash der signierten Nachricht.
-  - Das Ergebnis der Addition zweier Punkte auf der elliptischen Kurve.
+  - Stapelverifizierung
+  - Fehlende Aggregation
+  - Übermäßige Größe von Signaturen
 explanation: |
-  V ist das Ergebnis der Berechnung des Nonce multipliziert mit dem Generatorpunkt auf der elliptischen Kurve.
+  SegWit korrigierte die Veränderbarkeit von ECDSA-Signaturen, was Anwendungen wie das Lightning Network ermöglichte.
 reviewed: false

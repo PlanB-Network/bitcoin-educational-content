@@ -1,9 +1,9 @@
-question: Mis funktsiooni kasutatakse aadressi genereerimiseks?
-answer: HASH160.
+question: Mida tähendab apostroof (') või h tuletustee osana?
+answer: Kõvastatud tuletus
 wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
+  - Tavaline tuletus
+  - Väline tuletus
+  - Mittestandardne tuletus
 explanation: |
-  HASH160 funktsiooni, mis ühendab SHA256 ja RIPEMD-160, kasutatakse Bitcoin aadresside genereerimiseks avalikest võtmetest.
+  Apostroof näitab, et tuletus on kõvastatud, nõudes lapse võtme genereerimiseks vanema privaatvõtit.
 reviewed: false

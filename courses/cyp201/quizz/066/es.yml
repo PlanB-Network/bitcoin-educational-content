@@ -1,8 +1,8 @@
-question: En cuanto a la notación de una ruta de derivación, ¿qué significa el apóstrofo o la H que se nota a la derecha del número? Ejemplo m/84'/0'.
-answer: Indica una derivación endurecida.
+question: ¿Qué parte del resultado de HMAC-SHA512 se utiliza como el código de cadena hijo?
+answer: Los últimos 32 bytes
 wrong_answers:
-  - Indica una derivación normal.
-  - Está ahí como decoración.
-  - Indica una clave de cambio.
+  - Los primeros 32 bytes
+  - Los 64 bytes completos
+  - El hash SHA256 de los 32 bytes medios
 explanation: |
-  El apóstrofo o H en una ruta de derivación indica una derivación endurecida, que utiliza la clave privada padre y el rango de índice correspondiente.
+  Los últimos 32 bytes del resultado de HMAC-SHA512 sirven como el código de cadena para la clave hijo.

@@ -1,8 +1,9 @@
-question: Mida näitab järgmine tuletustee? m/84'/0'/1'/0/7
-answer: Väline SegwitV0 aadress põhivõrgus.
+question: Mis on indeksi eesmärk lastevõtmete tuletamisel?
+answer: Erinevate võtmepaaride eristamine
 wrong_answers:
-  - Väline SegwitV1 aadress põhivõrgus.
-  - Sisemine Legacy aadress testimisvõrgus.
-  - Väline Legacy aadress põhivõrgus.
+  - Tuvastada võtme olemus (avalik või privaatne)
+  - Määrata võtme turvatase
+  - Lisada täiendav turvakiht
 explanation: |
-  Tuletustee m/84'/0'/1'/0/7 näitab välist SegwitV0 aadressi põhivõrgus (mainnet). 84' = SegWit v0, 0' = põhivõrk, 1 = väline
+  Indeks võimaldab eristada samast vanemapaarist tuletatud lastevõtmeid.
+reviewed: false

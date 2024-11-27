@@ -1,8 +1,9 @@
-question: Was ist die Hauptfunktion eines Bitcoin-Wallets?
-answer: Kryptographische Schlüsselpaare zu speichern.
+question: Was ist der Zweck von SIGHASH_SINGLE?
+answer: Ein einzelnes Eingangssignal und sein entsprechendes Ausgangssignal abzudecken
 wrong_answers:
-  - Bitcoins zu speichern.
-  - UTXOs zu speichern.
-  - Transaktionen zu speichern.
+  - Alle Eingangs- und Ausgangssignale abzudecken
+  - Nur Eingangssignale abzudecken
+  - Alle Ausgangssignale außer einem abzudecken
 explanation: |
-  Ein Bitcoin-Wallet speichert nicht direkt Bitcoins, sondern kryptographische Schlüsselpaare, die verwendet werden, um UTXOs zu verwalten und auszugeben.
+  SIGHASH_SINGLE deckt ein einzelnes Eingangssignal und ein einzelnes Ausgangssignal ab, das dem Index des signierten Eingangssignals entspricht, wobei der Rest modifizierbar bleibt.
+reviewed: false

@@ -20,9 +20,11 @@ To help you start this adventure, I have created this free course. Only Bitcoin,
 +++
 
 # Introduction and prerequisites to understand Bitcoin
+
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
 ## Introduction to BTC102 course
+
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Welcome to BTC 102! A practical course that will guide you in setting up your Bitcoin plan! Through this course, we will prepare to get your first bitcoins, secure them properly, and ensure a smooth entry into this new industry.
@@ -44,6 +46,7 @@ As you can see, the purpose of this training is to accompany you so that you adh
 Good luck :)
 
 ## Scams and Financial Frauds
+
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 We are in an industry where two main branches are emerging in the "cryptocurrency" sector:
@@ -150,6 +153,7 @@ It is important to note that everyone has an agenda, including myself. I believe
 Always keep in mind that not everyone will necessarily be transparent about their intentions. Always question the purpose of someone's actions and do not blindly trust them.
 
 ## Online Security
+
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 In addition to cryptocurrency scams and financial scams, the main reason for losing bitcoins is related to poor online security management. It often happens that people use the same password for all their accounts, forget to update their computer, and neglect to regularly back up their data. If you are concerned about these practices, don't worry, it is always possible to improve your online security habits. Here are some basic measures to implement:
@@ -194,6 +198,7 @@ Online anonymity is essential for a free and prosperous society. It enables free
 Once again, if you are interested in this topic, the SECU 101 training is available to guide you.
 
 ## Tips for Beginners
+
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Formal education teaches us very little about investing. As a result, we often venture alone into this new and complex investment landscape.
@@ -287,9 +292,11 @@ If you lose your key, you also lose your money. It is best to follow industry be
 Good luck! I hope you will follow me into the world of Bitcoin and allow me to guide you in acquiring and securing your first Bitcoins without taking risks!
 
 # Understanding what we're getting into
+
 <partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 ## Bitcoin in 5 minutes
+
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 In this course, we want to focus on the action plan to get your first bitcoins. If you want a thorough explanation of the fundamentals of Bitcoin, we recommend BTC 101, available for free on this platform.
@@ -321,6 +328,7 @@ If this is new to you, I strongly encourage you to follow BTC 101 before continu
 ![in a nutshell](assets/section2/10.webp)
 
 ## Why is Bitcoin important?
+
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Why is the importance of Bitcoin so crucial? This is the central question of this university. Whether it concerns your studies or your investment strategy, without a clear understanding of the importance of Bitcoin, you risk deviating from your action plan. The goal is therefore to always keep in mind the fundamentals of Bitcoin, in order to ensure that your strategy remains in line with your convictions.
@@ -394,6 +402,7 @@ The main promoters of Bitcoin today are still primarily cyberpunks, oppressed ci
 Bitcoin has a highly philosophical, ethical, and political dimension while being completely indifferent to these considerations. Indeed, Bitcoin is a simple protocol that reproduces the same process over and over again. It is its users who have turned it into a weapon of liberation against the current financial system. From a Cyberpunk perspective, Bitcoin opposes a cashless society. It allows for the creation of fully private and intermediary-free digital financial transactions. For the cyberpunk movement, Bitcoin is the electronic equivalent of cash.
 
 ## Understanding the Bitcoin Industry
+
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 With the arrival of Bitcoin in 2009 by Satoshi Nakamoto, a multi-billion dollar industry was born. Despite its youth, this industry has experienced exponential growth over the past decade. New players arrive every day with large sums of money and are ready to forcefully enter this new industry. Today, the industry has reached a point of no return where governments, banks, internet giants, and others have joined the movement with various interventions.
@@ -520,6 +529,7 @@ Unlimited power? No. Core developers do not have unlimited power and cannot modi
 ![blockchain](assets/industrie/5.webp)
 
 ## Bitcoin's Layered Architecture
+
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, as an open-source protocol, can be complemented and enriched by layers of protocols/applications added by anyone. Some of these features are more significant than others, creating a dynamic ecosystem with a multitude of companies contributing to the development of the infrastructure. Examples of such projects include Sidechains (e.g., Liquid Chain by Blockstream), the Lightning Network by Lightning Labs, and identity concepts (e.g., Microsoft ION). These projects are like additional layers added to the original Bitcoin protocol.
@@ -553,9 +563,11 @@ This is the future vision I have for Bitcoin. It will become a highway for inter
 Andreas Antonopoulos, if I'm not mistaken, introduced me to this idea. @aantonop
 
 # Setting up your plan
+
 <partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Choosing your profile
+
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Now that we have reviewed the fundamental basics and learned how to avoid scams and financial losses, we can develop our plan. The plan will be fairly simple to start with, but it is important to get started. You can always modify it as time goes on.
@@ -583,6 +595,7 @@ With this, you should find what suits you, choose the appropriate plan, and then
 **Reminder:** If you do not possess the private key (a list of 24 words), a third party is responsible for the security of your bitcoins. In other words, you no longer own your bitcoins. They are subject to the same risks as exchange platforms such as hacking, seizure, regulation, or bankruptcy.
 
 ## The Hodler
+
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Whether in investments or in Bitcoin, long-term holding is generally the norm. It is statistically the most profitable in the long term and the simplest to implement:
@@ -641,6 +654,7 @@ Here is a brief psychological profile of the Hodler, if you recognize yourself, 
 In summary, the hodler is a patient, disciplined, and visionary investor who firmly believes in the long-term value of Bitcoin and is willing to endure short-term volatility to achieve substantial gains in the future. They are methodical in their investment strategy and attentive to security and long-term planning.
 
 ## The stacker
+
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 In Bitcoin, the concept of "Stacker" is quite well-known. The idea is simple: there are only 21 million bitcoins, and every little bitcoin counts! This small bitcoin is actually called a satoshi (or SAT). The stacker's goal is to accumulate as many as possible.
@@ -698,6 +712,7 @@ Psychological Portrait of the Stacker
 The stacker is a methodical and focused individual, with a clear plan to maximize their accumulation of satoshis. They demonstrate proactivity and financial knowledge, constantly seeking ways to optimize and secure their Bitcoin investments. Their approach is characterized by consistency and flawless organization, putting them on the path to steady and continuous growth of their Bitcoin portfolio.
 
 ## The User
+
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Finally, the last type of bitcoiner that can be mentioned in an introductory course is the bitcoiner who needs to use Bitcoin regularly. Whether due to professional obligations or simply a desire to support the ecosystem, it is necessary to provide solutions suitable for frequent use.
@@ -752,6 +767,7 @@ https://planb.network/tutorials/exchange/kraken
 The user is a technologically savvy individual who is actively involved in the active use of Bitcoin. They are constantly seeking ways to improve the efficiency and security of their Bitcoin transactions and holdings. Their flexibility and commitment to the ecosystem are reflected in their willingness to use a variety of solutions, from lightning wallets to fast exchange solutions. While actively involved in Bitcoin transactions, they do not neglect security, ensuring a clear division between their bitcoins for daily use and those held long-term.
 
 ## The Paranoid Bitcoiner
+
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
 I would like to add the paranoid Bitcoiner here. This type of person does not want to expose themselves to KYC (Know Your Customer), prefers to remain close to anonymity, and places great importance on their privacy. The paranoid Bitcoiner will also use LN via their own node and work on their security.
@@ -770,19 +786,18 @@ They will then need to learn how to mix their coins, manage their UTXOs (Unspent
 
 ### Tutorial:
 
-Hot wallet: 
+Hot wallet:
 https://planb.network/tutorials/wallet/samourai
 
 Cold wallet:
 https://planb.network/tutorials/wallet/coldcard
 https://planb.network/tutorials/wallet/seed-signer
 
-Non-KYC purchase between individuals: 
+Non-KYC purchase between individuals:
 https://planb.network/tutorials/exchange/peach-wallet
 https://planb.network/tutorials/exchange/robosats
 https://planb.network/tutorials/exchange/bisq
 https://planb.network/tutorials/exchange/hodlhodl
-
 
 ### Is it for you?
 
@@ -804,9 +819,11 @@ https://planb.network/tutorials/exchange/hodlhodl
 In the mindset of the Paranoid individual, caution, security, and anonymity are paramount. These priorities dictate a deliberate and well-thought-out approach to using Bitcoin, promoting self-sufficiency and caution. The Paranoid individual is willing to invest time and effort to ensure the security and privacy of their bitcoins while skillfully navigating the ecosystem to avoid unnecessary exposure. While it may seem overly cautious to some, the Paranoid individual considers their diligence and attention to detail essential for successful and secure participation in the world of Bitcoin.
 
 # The future with Bitcoin
+
 <partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Creating an inheritance plan
+
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 
 Let's imagine the following dramatic scenario.
@@ -874,11 +891,11 @@ There will always be a trade-off between technical expertise, availability, and 
 
 Separation of responsibilities: The trusted person should NEVER have access to your private key. Their sole role is to help your loved ones understand the security system of your Bitcoins and gain confidence. That's why you choose two trusted individuals. If necessary, you can also turn to a third-party organization (specialized lawyer or estate planning services).
 
-| Trusted Person | Trust | BTC Knowledge | Trust Info | Note |
-| -------------- | ----- | ------------- | ---------- | ---- |
-| My brother Bob         | Very tall  | Short               | Phone & email          | "Bob doesn't know much about BTC, but we can trust him 100% to help." || My cousin Nathan       | Tall        | Medium              | Phone & insta          | #1 person to talk to. He can help you. He is informed.                                        |
-| Ricco (Crypto friend)  | Medium      | Very tall           | Twitter & email & photo | Trust him with technical questions. Never with money. You will need to contact him.           |
-| YouTuber & influencer  | Short       | Tall                | YouTube link           | Educate yourself by following him. He cannot help you directly.                               |
+| Trusted Person        | Trust     | BTC Knowledge | Trust Info              | Note                                                                                |
+| --------------------- | --------- | ------------- | ----------------------- | ----------------------------------------------------------------------------------- | --- | ---------------- | ---- | ------ | ------------- | ------------------------------------------------------ |
+| My brother Bob        | Very tall | Short         | Phone & email           | "Bob doesn't know much about BTC, but we can trust him 100% to help."               |     | My cousin Nathan | Tall | Medium | Phone & insta | #1 person to talk to. He can help you. He is informed. |
+| Ricco (Crypto friend) | Medium    | Very tall     | Twitter & email & photo | Trust him with technical questions. Never with money. You will need to contact him. |
+| YouTuber & influencer | Short     | Tall          | YouTube link            | Educate yourself by following him. He cannot help you directly.                     |
 
 ### Step 2: Perform a simple and quick inventory
 
@@ -890,11 +907,11 @@ It is important to think about all the places where you have dollars or BTC:
 
 Consider how you have secured them and where these backups are stored. It is not essential to have two backup locations at this time. The goal is to take an instant snapshot of your CURRENT security. We can improve it later! This is just a first version to ensure your security for now, we will go into more detail later.
 
-| General               | Software / Hardware | Assets        | Location             | Backup (private key)            | Password (PIN, passphrase)     | Note                                                                                                                        |
-| --------------------- | ------------------- | ------------- | --------------------- | -------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Exchange platform     | Bitstamp            | BTC & Cash    | Accessible online.   | -                                | Home & Bank vault              | This is where I bought and transferred my Bitcoins. I log in using a password manager and 2FA.                             |
-| Physical wallet       | Trezor model One    | BTC           | Secure                | Uncle Bob & Bank vault           | Home & Mother                  | I have two wallets, one regular and one with a passphrase.                                                                  |
-| Samourai wallet       | Mobile - One Plus 6 | BTC           | On me                 | Uncle Bob & Bank vault           | Home & Mother                  | The app could be in hidden mode.                                                                                             |
+| General           | Software / Hardware | Assets     | Location           | Backup (private key)   | Password (PIN, passphrase) | Note                                                                                           |
+| ----------------- | ------------------- | ---------- | ------------------ | ---------------------- | -------------------------- | ---------------------------------------------------------------------------------------------- |
+| Exchange platform | Bitstamp            | BTC & Cash | Accessible online. | -                      | Home & Bank vault          | This is where I bought and transferred my Bitcoins. I log in using a password manager and 2FA. |
+| Physical wallet   | Trezor model One    | BTC        | Secure             | Uncle Bob & Bank vault | Home & Mother              | I have two wallets, one regular and one with a passphrase.                                     |
+| Samourai wallet   | Mobile - One Plus 6 | BTC        | On me              | Uncle Bob & Bank vault | Home & Mother              | The app could be in hidden mode.                                                               |
 
 DO NOT GET DISTRACTED! You may feel the need to transfer these assets to:
 
@@ -939,6 +956,7 @@ Next, we include the "advisors section". This part can be confusing for your hei
 Here are the people who can help you answer questions and guide you through this process:
 
 (Insert the names of your advisors here, their affiliation with an organization (if applicable), their contact information, and how they should verify their identity, for example, keybase, photos.)
+
 - My brother Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. You can trust Bob to help you in this process. Although he may not be the most technically skilled, he is the right person to question everything and exercise caution to ensure your success safely. • My cousin Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. It was Nathan who introduced me to Bitcoin. He is very knowledgeable in technology and can answer most of your questions. He also owns some bitcoins and can guide you on the technical side. You have seen him several times at family gatherings, and I have included a photo of him here.
 - Ricco; @RiccoSFC on Twitter; Ricco425@protonmail.com. I have been working closely with Ricco for many years. You have never met him, so make sure you are talking to the right person by asking him "What is Cédric's dog's name?" If he answers "12", it's good. Ricco is a very friendly and knowledgeable expert in Bitcoin. He will answer all your questions and you can rely on his judgment regarding the security of bitcoins. Don't hesitate to contact him, I have met him several times and he is aware of everything concerning you and Maia.
 - It may seem strange, but contact all of them. Additionally, you can educate yourself by listening to Andreas Antonopoulos on YouTube and buying the book "Cryptoasset Inheritance Planning" by Pamela Morgan."
@@ -974,7 +992,7 @@ Now let's review our work (Based on "Cryptoasset Inheritance Planning" by Pamela
 - Assets: Make sure you have included a list of your assets.
 - Exchanges: Check that you have listed all the exchanges that hold funds for you.
 - Access: List the information they will need to find your storage location and all necessary access codes.
-If you have checked all the boxes, then you are ready for the final steps! Make a copy of this letter and keep both copies in an envelope. Seal it, sign the seal, and store this envelope in a safe but accessible place. Make sure your heirs know that they need to retrieve this envelope if necessary. Feel free to buy Pamela's book to delve deeper into this subject and plan a time to improve your inheritance plan. Also, discuss it with your notary to legally incorporate this plan into your official will.
+  If you have checked all the boxes, then you are ready for the final steps! Make a copy of this letter and keep both copies in an envelope. Seal it, sign the seal, and store this envelope in a safe but accessible place. Make sure your heirs know that they need to retrieve this envelope if necessary. Feel free to buy Pamela's book to delve deeper into this subject and plan a time to improve your inheritance plan. Also, discuss it with your notary to legally incorporate this plan into your official will.
 
 Congratulations! You have a first version of your inheritance plan, and it's a great start!
 
@@ -982,14 +1000,17 @@ _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ
 You are the best :D My team and my students also thank you!
 
 # Acknowledgments and keep digging the rabbit hole
+
 <partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Congratulations! YOU ARE IN THE TOP 0.1%
+
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 If you have been following our content from the beginning, you are now a true citizen of the 21st century and one of the most experienced in the field of Bitcoin! You use a password manager and two-factor authentication (2FA). You understand what Bitcoin is and why it is important. You own Bitcoins and have a safe way to buy or earn more. You have stored your Bitcoins in a "cold" wallet and have implemented proper key management. You have created an inheritance plan for your loved ones. You are now secure and can relax! Enjoy a beer and be proud of yourself!
 
 I am truly proud that you have reached this stage. I sincerely mean it. What to do next? While you should definitely relax now and be proud of yourself, your journey with Bitcoin is far from over, and it will never really be. Here are some options for what's next:
+
 1. You could simply continue as you have done so far. Keep accumulating bitcoins slowly and let your strategy unfold over time. You already have a sufficient level of security, everything is in place, and you have done what was necessary for yourself and your family. You don't need to become a trading expert, and you don't need to know much more about investing. You probably have a job on the side, and even though Bitcoin is exciting, your main goal was to reach this stage. This is the case for the majority of you, and I respect that. I am very happy that you have made it this far down the Bitcoin "rabbit hole," and I hope the journey has been enjoyable. Thank you for trusting me to help secure your first bitcoins.
 
 2. You may want to continue educating yourself on the technical, ideological, and philosophical aspects of Bitcoin. If you feel like your journey is just beginning, I encourage you to continue learning about Bitcoin. There is so much to learn that it is sometimes difficult to know where to start. Here is a list of courses and training that could accompany you:
@@ -1002,19 +1023,50 @@ I am truly proud that you have reached this stage. I sincerely mean it. What to 
 
 In any case, all our courses are free, and many resources or tutorials are available on our platform to accompany you. Good luck with your studies!
 
+# Conclusion
 
+<partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
 ## Evaluate the course
+
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Final Exam
+
 <chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Conclusion
 
-## Follow up
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-This course, as well as all the content available on this university, has been provided to you free of charge by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via GitHub. On behalf of the entire team, thank you!
 
+Congratulations on completing this course!
 
+We're thrilled that you've successfully reached this milestone in your learning journey. Through your dedication and engagement, you've gained valuable knowledge and skills that will serve you well in your professional development.
+
+To continue going deep down into the Bitcoin rabbit hole, we invite you to explore all the other courses available on Plan ₿ Network:
+
+#### Discover Bitcoin and its fundamentals with
+
+https://planb.network/courses/btc101
+
+#### Update your online security with
+
+https://planb.network/courses/scu101
+
+#### Discover the Lightning Network with
+
+https://planb.network/courses/lnp201
+
+#### Learn about the Austrian School of Economic Thought with
+
+https://planb.network/courses/eco201
+
+#### Understand Bitcoin basics and build your home heating with
+
+https://planb.network/courses/min201
+
+#### Understand how Bitcoin wallet works with
+
+https://planb.network/courses/cyp201

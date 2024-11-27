@@ -1,8 +1,9 @@
-question: Milliseid räsifunktsioone kasutatakse Bitcoin protokollis?
-answer: SHA-256, RIPEMD-160
+question: Millist räsifunktsioonide omadust demonstreerib see, kui sõnumi väikese muutuse korral muutub räsi täielikult?
+answer: Lumelaviini efekt
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - Kollisioonikindlus
+  - Teise eelkujutise vastupanu
+  - Pikkus
 explanation: |
-  Bitcoinis kasutatakse SHA-256 ja RIPEMD-160.
+  Väike muutus sisendis toob kaasa radikaalse muutuse räsis, seda nimetatakse lumelaviini efektiks.
+reviewed: false

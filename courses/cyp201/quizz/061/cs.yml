@@ -1,9 +1,9 @@
-question: Jaká proměnná umožňuje odlišit mezi sebou sourozenecké klíčové páry (které mají stejný rodičovský pár)?
-answer: Index.
+question: Jaká je celková velikost rozšířeného klíče s kontrolním součtem?
+answer: 82 bajtů
 wrong_answers:
-  - Kryptografická sůl.
-  - Křestní jméno.
-  - Rodičovský řetězec kódu.
+  - 78 bajtů
+  - 64 bajtů
+  - 128 bajtů
 explanation: |
-  Index se používá k odlišení sourozeneckých klíčových párů odvozených od stejného rodičovského páru v HD peněžence.
+  Rozšířený klíč je bez kontrolního součtu 78 bajtů a s kontrolním součtem 82 bajtů.
 reviewed: false

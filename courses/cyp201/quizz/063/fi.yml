@@ -1,9 +1,8 @@
-question: Mitkä ovat kahdenlaiset lapsiavaimen johdannaiset HD-lompakossa?
-answer: Normaali johdannainen ja vahvistettu johdannainen.
+question: Mitä tietoa ei sisälly laajennettuun avaimessa?
+answer: Avaimen transaktiohistoria
 wrong_answers:
-  - Yksinkertainen johdannainen ja monimutkainen johdannainen.
-  - Elliptinen johdannainen ja käyrä johdannainen.
-  - Staattinen johdannainen ja dynaaminen johdannainen.
+  - Avaimen indeksinumero
+  - Avain (yksityinen tai julkinen)
+  - Ketjukoodi
 explanation: |
-  Kahdenlaiset johdannaiset ovat normaali johdannainen, joka käyttää vanhemman julkista avainta, ja vahvistettu johdannainen, joka käyttää vanhemman yksityistä avainta.
-reviewed: false
+  Laajennettu avain sisältää vain tarvittavat tiedot lapsiavainten johdattamiseksi, ei tietoja liittyen transaktioihin.

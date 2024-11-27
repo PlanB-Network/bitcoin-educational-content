@@ -1,8 +1,9 @@
-question: Vai trò kỹ thuật chính của một ví Bitcoin là gì?
-answer: Để lưu trữ các cặp khóa mật mã.
+question: Mục đích của SIGHASH_SINGLE là gì?
+answer: Để bao gồm một đầu vào và đầu ra tương ứng của nó
 wrong_answers:
-  - Để lưu trữ bitcoin.
-  - Để lưu trữ UTXOs.
-  - Để lưu trữ giao dịch.
+  - Để bao gồm tất cả các đầu vào và đầu ra
+  - Chỉ bao gồm các đầu vào
+  - Bao gồm tất cả các đầu ra trừ một
 explanation: |
-  Một ví Bitcoin không trực tiếp lưu trữ bitcoin, mà là lưu trữ các cặp khóa mật mã được sử dụng để quản lý và chi tiêu UTXOs.
+  SIGHASH_SINGLE bao gồm một đầu vào và một đầu ra duy nhất tương ứng với chỉ số của đầu vào đã ký, để lại phần còn lại có thể được sửa đổi.
+reviewed: false

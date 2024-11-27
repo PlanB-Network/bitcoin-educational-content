@@ -1,9 +1,9 @@
-question: Wie bestimmt man die Bitgröße der Prüfsumme für eine Wiederherstellungsphrase?
-answer: Teile die Größe der Zufallszahl (Entropie) durch 32.
+question: Wie viele Bits Entropie werden für eine 24-Wort-Mnemonik-Phrase verwendet?
+answer: 256 Bits
 wrong_answers:
-  - Teile die Größe der Zufallszahl (Entropie) durch 8.
-  - Teile die Größe der Zufallszahl (Entropie) durch 16.
-  - Multipliziere die Größe der Zufallszahl (Entropie) mit 2.
+  - 128 Bits
+  - 512 Bits
+  - 64 Bits
 explanation: |
-  Die Größe der Prüfsumme wird ermittelt, indem die Größe der Entropie durch 32 geteilt wird, in Übereinstimmung mit BIP39.
+  Eine 24-Wort-Mnemonik-Phrase basiert auf 256 Bits Entropie, was eine sehr hohe Sicherheit gewährleistet.
 reviewed: false

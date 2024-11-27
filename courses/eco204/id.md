@@ -911,16 +911,6 @@ Menyusul kepanikan bank tahun 1796, terjadi fenomena di mana semua orang mencoba
 
 Bank sentral telah berkembang menjadi pemberi pinjaman terakhir, menangguhkan konversibilitas mata uang mereka menjadi emas. Meskipun tindakan ini awalnya dimaksudkan sebagai solusi sementara, pada akhirnya menjadi permanen, menandai kedatangan konsep pemberi pinjaman terakhir. Transformasi ini telah membentuk bank sentral seperti yang kita kenal saat ini. Namun, dalam ekonomi yang lebih rapuh, kemampuan untuk mencetak uang sesuka hati dapat menyebabkan konsekuensi yang tidak diinginkan, seperti hiperinflasi, jika digunakan secara tidak bertanggung jawab.
 
-## Evaluasi kursus
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Ujian Akhir
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Buku dan Sumber
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -943,3 +933,52 @@ Hiperinflasi adalah subjek yang menarik yang telah dipelajari melalui berbagai p
 - "The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class" oleh Frederick Taylor. Eksplorasi naratif tentang dampak sosial dan ekonomi hiperinflasi pada masyarakat Jerman.
 
 - "Currency Boards for Developing Countries: A Handbook" oleh Steve Hanke dan Kurt Schuler. Meskipun fokusnya adalah pada dewan mata uang, buku ini menawarkan perspektif tentang cara menghindari situasi hiperinflasi.
+
+# Kesimpulan
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Evaluasi kursus ini
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Ujian akhir
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kesimpulan
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Selamat atas penyelesaian kursus ini!
+
+Kami senang Anda telah mencapai tonggak penting ini dalam perjalanan pembelajaran Anda.
+
+Berkat dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional Anda.
+
+Untuk terus mengeksplorasi alam semesta Bitcoin secara mendalam, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
+
+#### Temukan kehidupan F. Bastiat dengan
+
+https://planb.network/courses/eco102
+
+#### Temukan pemikiran ekonomi sekolah Austria dengan
+
+https://planb.network/courses/eco201
+
+#### Temukan Bitcoin dan fundamental-nya dengan
+
+https://planb.network/courses/btc101
+
+#### Perbarui keamanan online Anda dengan
+
+https://planb.network/courses/scu101
+
+#### Dapatkan dan amankan bitcoin pertama Anda dengan
+
+https://planb.network/courses/btc102
+
+#### Temukan sejarah asal-usul Bitcoin dengan
+
+https://planb.network/courses/his201

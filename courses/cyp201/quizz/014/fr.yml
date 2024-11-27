@@ -1,9 +1,9 @@
-question: Quelle fonction est utilisée pour dériver une clé enfant à partir d'une clé parent dans Bitcoin ?
-answer: HMAC-SHA512.
+question: Quel est le nombre d'itérations utilisé par PBKDF2 dans Bitcoin ?
+answer: 2048
 wrong_answers:
-  - SHA256.
-  - MD5.
-  - BLAKE2.
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  La fonction HMAC-SHA512 est utilisée dans la dérivation des clés enfants à partir des clés parent dans les portefeuilles HD Bitcoin.
+  PBKDF2 répète le processus HMAC-SHA512 2048 fois pour renforcer la sécurité.
 reviewed: false

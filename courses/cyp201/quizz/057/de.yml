@@ -1,9 +1,9 @@
-question: Mit einem erweiterten öffentlichen Schlüssel kann ich ableiten...
-answer: ...normale Kind-öffentliche Schlüssel.
+question: Wie groß ist der von PBKDF2 generierte Seed?
+answer: 512 Bits
 wrong_answers:
-  - ...gehärtete Kind-öffentliche Schlüssel.
-  - ...normale Kind-private Schlüssel.
-  - ...gehärtete Kind-private Schlüssel.
+  - 128 Bits
+  - 256 Bits
+  - Variabel, abhängig von der Länge der mnemonischen Phrase
 explanation: |
-  Ein erweiterter öffentlicher Schlüssel ermöglicht nur die Ableitung von normalen Kind-öffentlichen Schlüsseln, jedoch nicht von privaten Schlüsseln.
+  Unabhängig von der Länge der mnemonischen Phrase generiert PBKDF2 immer einen 512-Bit-Seed.
 reviewed: false

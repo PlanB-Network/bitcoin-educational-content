@@ -119,7 +119,7 @@ Viel Glück bei Ihren Studien, und wenn Sie unser Team oder den Lehrer kontaktie
 ## Abschließende Worte
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-Vielen Dank, dass Sie an den RGB-Kursen teilgenommen haben, die von PlanB Network in Zusammenarbeit mit Fulgur'Ventures angeboten werden. Wir möchten unseren Lehrern für ihre Unterstützung danken. Wenn Sie daran interessiert sind, Ihre Arbeit mit RGB fortzusetzen, finden Sie hier eine nützliche Liste von Ressourcen, die Sie erkunden können:
+Vielen Dank, dass Sie an den RGB-Kursen teilgenommen haben, die von Plan ₿ Network in Zusammenarbeit mit Fulgur'Ventures angeboten werden. Wir möchten unseren Lehrern für ihre Unterstützung danken. Wenn Sie daran interessiert sind, Ihre Arbeit mit RGB fortzusetzen, finden Sie hier eine nützliche Liste von Ressourcen, die Sie erkunden können:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
@@ -127,4 +127,4 @@ Vielen Dank, dass Sie an den RGB-Kursen teilgenommen haben, die von PlanB Networ
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
 
-Vielen Dank und viel Erfolg bei Ihren Studien bei PlanB Network.
+Vielen Dank und viel Erfolg bei Ihren Studien bei Plan ₿ Network.

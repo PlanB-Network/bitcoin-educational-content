@@ -1,9 +1,9 @@
-question: Hàm giả ngẫu nhiên nào được sử dụng trong PBKDF2 để tính toán hạt giống của một ví Bitcoin HD?
-answer: HMAC-SHA512.
+question: Mục đích của việc sử dụng một ví giả với mật khẩu là gì?
+answer: Để mô phỏng một ví chứa một lượng nhỏ trong trường hợp bị ép buộc về thể chất
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Thêm một bản sao lưu tự động của các giao dịch
+  - Tạo ra một cụm từ ghi nhớ bổ sung
+  - Bảo vệ UTXOs khỏi việc chi tiêu kép
 explanation: |
-  HMAC-SHA512 là hàm giả ngẫu nhiên được sử dụng trong PBKDF2 để tạo ra hạt giống của một ví Bitcoin HD.
+  Một ví giả được sử dụng để làm lạc hướng sự chú ý của kẻ tấn công bằng cách cung cấp quyền truy cập vào một ví chứa một lượng nhỏ bitcoin.
 reviewed: false

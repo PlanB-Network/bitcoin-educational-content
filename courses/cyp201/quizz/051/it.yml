@@ -1,9 +1,9 @@
-question: Qual è la funzione di derivazione chiave utilizzata per derivare un seed da una frase mnemonica e una passphrase opzionale?
-answer: PBKDF2.
+question: Qual è la principale differenza tra una passphrase e un codice PIN per un portafoglio Bitcoin?
+answer: La passphrase modifica la derivazione della chiave, non il codice PIN
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - Il codice PIN è collegato alla frase mnemonica
+  - Il codice PIN è usato per criptare le transazioni ma non la passphrase
+  - Il codice PIN genera indirizzi Bitcoin
 explanation: |
-  La funzione PBKDF2 è utilizzata per derivare il seed di un portafoglio HD dalla frase mnemonica e da una passphrase opzionale.
-reviewed: false
+  A differenza del codice PIN, la passphrase è direttamente coinvolta nel processo di derivazione della chiave e cambia le chiavi del portafoglio.
+recensito: false

@@ -1,8 +1,9 @@
-question: Miksi salalauseen käyttäminen vahvistaa HD-lompakon turvallisuutta?
-answer: Se lisää ylimääräisen suojakerroksen muistisanaan.
+question: Mikä on bittikoko binäärisegmentissä, jota käytetään kunkin muistisanan luomiseen?
+answer: 11 bittiä
 wrong_answers:
-  - Se mahdollistaa vahvempien julkisten avainten luomisen.
-  - Se suojaa transaktioita kryptografisesti.
-  - Se kaksinkertaistaa lompakossa olevien bitcoinien määrän.
+  - 8 bittiä
+  - 16 bittiä
+  - 10 bittiä
 explanation: |
-  Salalause parantaa turvallisuutta lisäämällä ylimääräisen tieto-osan muistisanaan, toimien ikään kuin 2FA: n tavoin.
+  Jokainen 11-bittinen segmentti vastaa sanaa standardoidusta 2048 sanan listasta BIP39: ssä.
+reviewed: false

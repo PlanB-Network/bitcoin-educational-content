@@ -1,9 +1,9 @@
-question: Come comprimere una chiave pubblica?
-answer: Manteniamo il valore della sua coordinata x e aggiungiamo un prefisso che indica quale coordinata y scegliere.
+question: Quale percorso di derivazione viene utilizzato per un account SegWit v0 in un descrittore standard?
+answer: 84h/0h/0h
 wrong_answers:
-  - Manteniamo il valore della sua coordinata y e aggiungiamo un prefisso che indica quale coordinata x scegliere.
-  - Hashiamo la chiave pubblica per comprimerla.
-  - Usiamo un doppio hash SHA256 per comprimere la chiave pubblica.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  La compressione di una chiave pubblica viene eseguita mantenendo la coordinata x e aggiungendo un prefisso 0x02 o 0x03 per indicare se y è pari o dispari.
-reviewed: false
+  Il percorso 84h/0h/0h è definito nel BIP84 per un account che deriva indirizzi SegWit v0 con P2WPKH.
+recensito: false

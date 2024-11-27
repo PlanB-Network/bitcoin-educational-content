@@ -135,7 +135,6 @@ Si desea explorar la historia de Bitcoin en mayor detalle, le recomiendo encarec
 
 https://planb.network/courses/his201
 
-
 # La moneda
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -262,7 +261,6 @@ Para conocer más sobre falacias económicas y libertad, lo invito a descubrir n
 
 https://planb.network/courses/eco102
 
-
 ## Las hiperinflaciones
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -349,7 +347,6 @@ Una moneda que depende de un tercero de confianza, como una entidad financiera, 
 Para profundizar en el tema de las hiperinflaciones, le recomiendo el curso ECO 204 de David St-Onge. Allí aprenderá qué son los ciclos hiperinflacionarios y cuáles son sus impactos reales en nuestras vidas. También descubrirá las similitudes entre estos ciclos y, sobre todo, cómo protegerse de ellos:
 
 https://planb.network/courses/eco204
-
 
 ## 21 millones de Bitcoins
 
@@ -518,7 +515,6 @@ Elije una billetera que se adapte a tus necesidades y uso. Hay tutoriales detall
 Si durante su viaje por la madriguera del conejo desea aprender más sobre la construcción de una billetera de Bitcoin, desde la entropía hasta las direcciones de recepción, le recomiendo el curso CYP 201 dedicado a este tema:
 
 https://planb.network/courses/cyp201
-
 
 ## Seguridad y Billeteras de Bitcoin
 
@@ -1091,7 +1087,6 @@ https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
 
 https://planb.network/courses/btc305
 
-
 ### ¡Un pequeño resumen en un póster!
 
 ![Alt text](assets/posters/es/17_trabajor_por_tener_bitcoin.webp)
@@ -1268,7 +1263,6 @@ Si desea ir más allá de esta introducción y comprender todos los detalles de 
 
 https://planb.network/courses/lnp201
 
-
 ## Casos de uso de la Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1370,43 +1364,17 @@ Bitcoin no puede ser detenido ni censurado. Es una revolución pacífica para ca
 
 Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó Bitcoin en 2008 como un intento de abordar esto. Tener acceso a dinero fácil y "mágico" corrompe. Por lo tanto, Bitcoin es una alternativa para construir un nuevo sistema monetario neutral. Bitcoin permite la emancipación del sistema bancario. Es un fenómeno social que nos lleva a participar en una revolución pacífica. ¿Estás listo para unirte?
 
-## Agradecimientos y sigue profundizando en la madriguera del conejo
+# Conclusión
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Ve más allá
-
-¡Felicitaciones por completar este curso BTC 101! Esperamos de todo corazón que te haya gustado y te haya abierto puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invitamos a explorar todos los demás cursos disponibles en la universidad.
-
-Para configurar su plan de Bitcoin:
-
-https://planb.network/courses/btc102
-
-Para descubrir la Lightning Network, una red de pagos de segunda capa:
-
-https://planb.network/courses/lnp201
-
-Para explorar la economía austríaca:
-
-https://planb.network/courses/eco201
-
-Para actualizar su seguridad digital:
-
-https://planb.network/courses/scu101
-
-Para saber más sobre la minería:
-
-https://planb.network/courses/min201
-
-y mucho más...
-
-
-## Danos tu opinión sobre este curso
+## Evaluación del curso
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Examen Final
+## Examen final
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1414,7 +1382,24 @@ y mucho más...
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**¡Felicitaciones por completar este curso!**
+¡Felicitaciones por completar el entrenamiento BTC 101! Espero de todo corazón que te haya gustado y que te haya abierto nuevas puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invito a explorar todos los otros cursos disponibles en Plan ₿ Network:
 
-Tenga en cuenta que este capítulo está actualmente en construcción y pronto llegará una versión mejorada. Mientras tanto, si está ansioso por continuar su viaje con Bitcoin, lo invitamos a explorar los otros cursos y tutoriales disponibles en nuestra plataforma. ¡Sigue con el buen trabajo y feliz aprendizaje!
+#### Obtén y asegura tus primeros bitcoins con
 
+https://planb.network/courses/btc102
+
+#### Descubre la Red Lightning con
+
+https://planb.network/courses/lnp201
+
+#### Conoce la Escuela Austríaca de pensamiento económico con
+
+https://planb.network/courses/eco201
+
+#### Actualiza tu seguridad en línea con
+
+https://planb.network/courses/scu101
+
+#### Comprende los fundamentos de Bitcoin y construye tu calefacción doméstica con
+
+https://planb.network/courses/min201

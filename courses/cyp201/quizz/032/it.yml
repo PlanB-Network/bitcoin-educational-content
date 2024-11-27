@@ -1,9 +1,9 @@
-question: Qual è la BIP (Proposta di Miglioramento di Bitcoin) che ha proposto la prima versione di un portafoglio HD su Bitcoin?
-answer: BIP32.
+question: Quale flag sighash consente il crowdfunding coprendo un singolo input e tutti gli output?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32, proposta nel 2012, è la prima ad introdurre il concetto di portafogli gerarchici deterministici (HD) in Bitcoin.
+  SIGHASH_ALL combinato con SIGHASH_ANYONECANPAY consente di aggiungere input senza modificare gli output.
 reviewed: false

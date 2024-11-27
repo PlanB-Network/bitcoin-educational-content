@@ -1,9 +1,9 @@
-question: O que acontece se eu usar uma carteira HD com uma frase-senha e eu perder essa frase-senha?
-answer: Meus bitcoins são perdidos para sempre.
+question: Quantos bits tem o checksum para uma entropia de 128 bits?
+answer: 4 bits
 wrong_answers:
-  - Não é um problema, ainda posso acessar meus bitcoins apenas com minha frase mnemônica.
-  - Posso redefinir a frase-senha com minha chave privada.
-  - Posso recuperar meus bitcoins usando uma carteira sem frase-senha.
+  - 8 bits
+  - 16 bits
+  - 6 bits
 explanation: |
-  Se a frase-senha for perdida, o acesso aos bitcoins é permanentemente perdido, pois ela é necessária para derivar as chaves privadas.
+  O comprimento do checksum é calculado usando a fórmula CS = ENT / 32, que resulta em 4 bits para uma entropia de 128 bits.
 reviewed: false

@@ -1,8 +1,9 @@
-question: What is the main technical role of a Bitcoin wallet?
-answer: To store cryptographic key pairs.
+question: What is the purpose of SIGHASH_SINGLE?
+answer: To cover one input and its corresponding output
 wrong_answers:
-  - To store bitcoins.
-  - To store UTXOs.
-  - To store transactions.
+  - To cover all inputs and outputs
+  - To cover inputs only
+  - To cover all outputs except one
 explanation: |
-  A Bitcoin wallet does not directly store bitcoins, but cryptographic key pairs that are used to manage and spend UTXOs.
+  SIGHASH_SINGLE covers a single input and a single output corresponding to the index of the signed input, leaving the rest modifiable.
+reviewed: false

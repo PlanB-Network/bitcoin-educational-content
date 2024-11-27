@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'indique le chemin de dérivation suivant ? m/44'/0'/0'/0/0
-answer: Une adresse externe Legacy sur le mainnet.
+question: Quel est le rôle principal du code de chaîne dans la dérivation des clés enfants ?
+answer: Introduire une source d'entropie supplémentaire
 wrong_answers:
-  - Une adresse externe SegwitV1 sur le mainnet.
-  - Une adresse interne Legacy sur le testnet.
-  - Une adresse externe SegwitV0 sur le mainnet.
+  - Identifier la profondeur hiérarchique
+  - Stocker les index des clés enfants
+  - Garantir la compatibilité avec le protocole Bitcoin
 explanation: |
-  Le chemin de dérivation m/44'/0'/0'/0/0 indique une adresse externe Legacy sur le réseau principal (mainnet). 44' = Legacy, 0' = mainnet, 0 = externe
+  Le code de chaîne est utilisé pour introduire une source d'entropie supplémentaire et unique pour chaque clé dérivée.
 reviewed: false

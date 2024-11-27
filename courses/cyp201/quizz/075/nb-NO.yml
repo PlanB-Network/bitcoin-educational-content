@@ -1,8 +1,8 @@
-question: Hvordan komprimere en offentlig nøkkel?
-answer: Vi beholder verdien av dens x-koordinat og legger til et prefiks som indikerer hvilken y-koordinat som skal velges.
+question: Hvilken avledningssti brukes for en SegWit v0-konto i en standard beskrivelse?
+answer: 84h/0h/0h
 wrong_answers:
-  - Vi beholder verdien av dens y-koordinat og legger til et prefiks som indikerer hvilken x-koordinat som skal velges.
-  - Vi hasher den offentlige nøkkelen for å komprimere den.
-  - Vi bruker en dobbel SHA256-hash for å komprimere den offentlige nøkkelen.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  Komprimeringen av en offentlig nøkkel gjøres ved å beholde x-koordinaten og legge til et prefiks 0x02 eller 0x03 for å indikere om y er partall eller oddetall.
+  Stien 84h/0h/0h er definert i BIP84 for en konto som avleder SegWit v0-adresser med P2WPKH.

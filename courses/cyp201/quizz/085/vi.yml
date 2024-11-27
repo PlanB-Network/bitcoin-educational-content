@@ -1,0 +1,8 @@
+question: Thao tác nào là cần thiết để tính toán khóa công khai Taproot Q?
+answer: Cộng chỉnh sửa tG vào khóa công khai P
+wrong_answers:
+  - Nhân khóa riêng p với chỉnh sửa
+  - Băm khóa công khai P với SHA256
+  - Nối chỉnh sửa t và khóa công khai P
+explanation: |
+  Khóa công khai Taproot Q được thu được bằng cách cộng sản phẩm vô hướng của chỉnh sửa t với sinh viên G vào khóa công khai P.

@@ -1,8 +1,9 @@
-question: HDウォレット内で親キーペアから子キーペアを導出するために使用される関数は何ですか？
-answer: HMAC-SHA512。
+question: zpubプレフィックスに関連付けられているキーのタイプは何ですか？
+answer: Mainnet上のSegWit V0用の拡張公開キー
 wrong_answers:
-  - SHA256。
-  - Argon2d。
-  - PBKDF2。
+  - Mainnet上のSegWit V1用の拡張秘密キー
+  - Testnet上のLegacy用の拡張公開キー
+  - Testnet上のSegWit V2用の拡張公開キー
 explanation: |
-  HMAC-SHA512は、HDウォレット内で親キーペアから子キーペアを導出するために使用されます。
+  zpubプレフィックスは、Mainnet上のSegWit V0スクリプト用の拡張公開キーを示します。
+reviewed: false

@@ -1,8 +1,9 @@
-question: Hàm nào được sử dụng để tạo ra seed từ cụm từ ghi nhớ và cụm từ bí mật?
-answer: PBKDF2.
+question: Tại sao cụm từ ghi nhớ 24 từ thường được coi là thừa thãi cho một ví Bitcoin?
+answer: Các khóa được tạo ra chỉ cung cấp 128 bit bảo mật
 wrong_answers:
-  - SHA256.
-  - HMAC.
-  - Argon2.
+  - Phần mềm không hỗ trợ cụm từ 24 từ
+  - Nó không cho phép tạo ra các khóa công khai
+  - Các cụm từ ngắn hơn không được chuẩn hóa
 explanation: |
-  PBKDF2 (Password-Based Key Derivation Function 2) được sử dụng để tạo ra seed từ cụm từ ghi nhớ và cụm từ bí mật trong các ví HD.
+  Mặc dù một cụm từ 24 từ cung cấp 256 bit bảo mật, nhưng các khóa riêng tư Bitcoin được tạo ra chỉ đảm bảo 128 bit bảo mật, làm cho phần dư thừa không cần thiết.
+reviewed: false

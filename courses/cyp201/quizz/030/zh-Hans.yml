@@ -1,8 +1,9 @@
-question: 比特币钱包的主要技术作用是什么？
-answer: 存储加密密钥对。
+question: SIGHASH_SINGLE的目的是什么？
+answer: 覆盖一个输入及其对应的输出
 wrong_answers:
-  - 存储比特币。
-  - 存储UTXOs。
-  - 存储交易。
+  - 覆盖所有输入和输出
+  - 仅覆盖输入
+  - 覆盖除一个之外的所有输出
 explanation: |
-  比特币钱包并不直接存储比特币，而是存储用于管理和支出UTXOs的加密密钥对。
+  SIGHASH_SINGLE覆盖单个输入和与签名输入索引对应的单个输出，使其余部分可修改。
+reviewed: false

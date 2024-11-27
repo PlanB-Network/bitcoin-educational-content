@@ -1,8 +1,8 @@
-question: ¿Qué metadatos se añaden a la clave extendida además de su carga útil?
-answer: Versión / profundidad / huella digital del padre / índice / suma de verificación.
+question: ¿Qué función se utiliza para derivar la semilla de la frase mnemotécnica?
+answer: PBKDF2 con HMAC-SHA512
 wrong_answers:
-  - Versión / índice.
-  - Versión / profundidad / separador / suma de verificación.
-  - No se añaden metadatos.
+  - Solo SHA256
+  - Doble SHA256
+  - AES-256
 explanation: |
-  La clave extendida incluye varios fragmentos de metadatos. Está la versión, profundidad, huella digital del padre, índice y suma de verificación para facilitar la derivación de la clave.
+  La semilla se genera utilizando la función PBKDF2 con HMAC-SHA512 y 2048 iteraciones, a partir de la frase mnemotécnica y la frase de paso.

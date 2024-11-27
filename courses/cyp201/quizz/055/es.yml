@@ -1,9 +1,9 @@
-question: ¿De qué consta la carga útil de una clave extendida?
-answer: Una clave pública o privada, y el código de cadena asociado.
+question: ¿En cuántas partes se divide la salida de la función HMAC-SHA512 aplicada a la semilla?
+answer: Dos partes de 256 bits
 wrong_answers:
-  - Una clave privada y la clave pública asociada.
-  - Un código de cadena, una clave pública y una clave privada.
-  - Una clave privada y un índice de derivación.
+  - Una sola parte de 512 bits
+  - Tres partes de 170 bits
+  - Cuatro partes de 128 bits
 explanation: |
-  La carga útil de una clave extendida incluye ya sea una clave pública o privada, junto con un código de cadena utilizado para derivar claves secundarias.
+  La salida de HMAC-SHA512 se divide en dos partes: la clave privada maestra (256 bits) y el código de cadena maestro (256 bits).
 reviewed: false

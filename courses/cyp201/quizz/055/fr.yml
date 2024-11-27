@@ -1,9 +1,9 @@
-question: De quoi est constituée la charge utile d'une clé étendue ?
-answer: Une clé publique ou une clé privée, et le code de chaîne associé.
+question: En combien de parties est divisée la sortie de la fonction HMAC-SHA512 appliquée à la graine ?
+answer: Deux parties de 256 bits
 wrong_answers:
-  - Une clé privée et la clé publique associée.
-  - Un code de chaîne, une clé publique et une clé privée.
-  - Une clé privée et un index de dérivation.
+  - Une seule partie de 512 bits
+  - Trois parties de 170 bits
+  - Quatre parties de 128 bits
 explanation: |
-  La charge utile d'une clé étendue comprend une clé publique ou privée, ainsi qu'un code de chaîne utilisé pour dériver des clés enfants.
+  La sortie de HMAC-SHA512 est divisée en deux parties : la clé privée maîtresse (256 bits) et le code de chaîne maître (256 bits).
 reviewed: false

@@ -1,9 +1,9 @@
-question: Hvilke algoritmer brukes for derivasjon i Bitcoin HD-lommebøker?
-answer: HMAC/PBKDF2
+question: Hvilken avledningsalgoritme brukes for å beregne en autentiseringskode basert på en hemmelig nøkkel?
+answer: HMAC-SHA512
 wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  Bitcoin HD-lommebøker bruker HMAC (Hash-basert meldingsautentiseringskode) for nøkkelderivasjon og PBKDF2 (Password-Based Key Derivation Function 2) for seed-derivasjon.
+  HMAC-SHA512 er en algoritme som kombinerer en hash-funksjon og en hemmelig nøkkel for å beregne en autentiseringskode.
 reviewed: false

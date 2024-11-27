@@ -1,9 +1,9 @@
-question: Hva er målet med å bruke digitale signaturer i Bitcoin?
-answer: Å produsere et matematisk bevis som rettferdiggjør at en bruker faktisk er i besittelse av en privat nøkkel, uten å avsløre den private nøkkelen.
+question: Hvilken elliptisk kurve brukes i Bitcoin-protokollen?
+answer: secp256k1
 wrong_answers:
-  - Å produsere et matematisk bevis som rettferdiggjør at en bruker faktisk er i besittelse av en offentlig nøkkel, uten å avsløre den offentlige nøkkelen.
-  - Å produsere et matematisk bevis som rettferdiggjør at en bruker faktisk er i besittelse av en mottaksadresse, uten å avsløre den mottaksadressen.
-  - Å produsere et matematisk bevis som rettferdiggjør at en bruker faktisk er i besittelse av en lommebok.
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  Digitale signaturer i Bitcoin gjør det mulig å bevise at en bruker eier den private nøkkelen som er assosiert med en offentlig nøkkel, uten å avsløre den private nøkkelen.
+  Bitcoin bruker secp256k1-kurven, definert av ligningen y² = x³ + 7, for sine kryptografiske operasjoner.
 reviewed: false

@@ -1,9 +1,8 @@
-question: 扩展密钥的目的是什么？
-answer: 将派生子密钥所需的所有必要信息收集到一个字符串中。
+question: 用于从种子派生主私钥的常数是什么？
+answer: Bitcoin Seed
 wrong_answers:
-  - 将重构整个HD钱包所需的所有必要信息收集到一个字符串中。
-  - 收集有关钱包中UTXOs的信息。
-  - 将助记词和密码短语收集到一种格式中。
-explanation:
-  扩展密钥允许将派生子密钥所需的所有必要信息包含在内，从而简化了HD钱包中账户的管理。
-reviewed: true
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
+explanation: |
+  Bitcoin Seed常数被用作HMAC-SHA512函数中的一个键，以派生主私钥和主链代码。

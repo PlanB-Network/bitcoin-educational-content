@@ -1,9 +1,8 @@
-question: ¿Cuál es el propósito de la clave extendida?
-answer: Reunir toda la información necesaria para derivar claves secundarias en una sola cadena.
+question: ¿Qué constante se utiliza para derivar la clave privada maestra a partir de la semilla?
+answer: Bitcoin Seed
 wrong_answers:
-  - Reunir toda la información necesaria para reconstruir una billetera HD completa en una sola cadena.
-  - Reunir información sobre los UTXOs en la billetera.
-  - Reunir la frase mnemotécnica y la contraseña en un solo formato.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Una clave extendida permite contener toda la información necesaria para derivar claves secundarias, simplificando así la gestión de cuentas en una billetera HD.
-reviewed: false
+  La constante Bitcoin Seed se utiliza como clave en la función HMAC-SHA512 para derivar la clave privada maestra y el código de cadena maestro.

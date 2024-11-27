@@ -1,9 +1,9 @@
-question: Cosa rappresenta il punto V nel processo di firma digitale con ECDSA come esempio in questo capitolo?
-answer: Il punto calcolato dal nonce v e dal punto generatore G (V = v.G).
+question: Quale vulnerabilità della firma ECDSA è stata corretta da SegWit?
+answer: Malleabilità
 wrong_answers:
-  - Il punto derivato direttamente dalla chiave pubblica.
-  - L'hash del messaggio firmato.
-  - Il risultato dell'aggiunta di due punti sulla curva ellittica.
+  - Verifica batch
+  - Mancanza di aggregazione
+  - Dimensione eccessiva delle firme
 explanation: |
-  V è il risultato del calcolo del nonce moltiplicato per il punto generatore sulla curva ellittica.
+  SegWit ha corretto la malleabilità delle firme ECDSA, consentendo utilizzi come la Lightning Network.
 reviewed: false

@@ -1,8 +1,8 @@
-question: Apa fitur unik dari daftar 2048 kata yang memungkinkan untuk pengkodean mnemonik?
-answer: Tidak ada kata yang memiliki empat huruf pertama yang sama dalam urutan yang sama.
+question: Mengapa menghasilkan entropi secara manual untuk dompet HD berisiko?
+answer: Ini dapat memperkenalkan kelemahan manusia atau bias yang dapat diprediksi
 wrong_answers:
-  - Tidak ada kata yang memiliki tiga huruf terakhir yang sama.
-  - Tidak ada kata yang dimulai dengan huruf J.
-  - Tidak ada kata yang lebih dari enam huruf panjangnya.
+  - Ini menghasilkan kunci publik yang tidak valid
+  - Ini menghalangi derivasi kunci privat
+  - Ini membatasi ukuran frasa mnemonik yang dihasilkan
 explanation: |
-  Fitur ini membantu menghindari ambiguitas saat memasukkan kata-kata, sehingga memastikan keunikan setiap kata dalam daftar, sekaligus mengurangi ruang penyimpanan yang diperlukan.
+  Menghasilkan entropi secara manual dapat memperkenalkan bias atau kesalahan, membuat kunci lebih rentan terhadap serangan.

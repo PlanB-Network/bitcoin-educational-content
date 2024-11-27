@@ -1,9 +1,8 @@
-question: Mikä BIP (Bitcoin Improvement Proposal) ehdotti ensimmäistä versiota HD-lompakosta Bitcoinissa?
-answer: BIP32.
+question: Mikä sighash-lippu mahdollistaa joukkorahoituksen kattamalla yhden syötteen ja kaikki tulosteet?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32, joka ehdotettiin vuonna 2012, on ensimmäinen, joka esitteli hierarkkisen deterministisen (HD) lompakoiden konseptin Bitcoinissa.
-reviewed: false
+  SIGHASH_ALL yhdistettynä SIGHASH_ANYONECANPAY: n kanssa mahdollistaa syötteiden lisäämisen muuttamatta tulosteita.

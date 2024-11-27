@@ -1,8 +1,9 @@
-question: Når det gjelder notasjonen av en avledningssti, hva betyr apostrofen eller H som er notert til høyre for tallet? Eksempel m/84'/0'.
-answer: Det indikerer en herdet avledning.
+question: Hvilken del av HMAC-SHA512-utdataen brukes som barnets kjedekode?
+answer: De siste 32 bytene
 wrong_answers:
-  - Det indikerer en normal avledning.
-  - Den er der for dekorasjon.
-  - Det indikerer en endringsnøkkel.
+  - De første 32 bytene
+  - Hele 64 bytter
+  - SHA256-hashen av de midterste 32 bytene
 explanation: |
-  Apostrofen eller H i en avledningssti indikerer en herdet avledning, som bruker den overordnede private nøkkelen og det tilsvarende indeksområdet.
+  De siste 32 bytene av HMAC-SHA512-utdataen fungerer som kjedekoden for barnenøkkelen.
+reviewed: false

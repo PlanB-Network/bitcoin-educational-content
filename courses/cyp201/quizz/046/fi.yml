@@ -1,8 +1,9 @@
-question: Mitä tapahtuu, jos käytän HD-lompakkoa salasanan kanssa ja kadotan kyseisen salasanan?
-answer: Bitcoinini ovat menetettyjä ikuisesti.
+question: Kuinka monta bittiä on tarkistussummassa, kun entropia on 128 bittiä?
+answer: 4 bittiä
 wrong_answers:
-  - Ei ole ongelma, voin silti päästä käsiksi bitcoineihini pelkällä mnemonisella fraasillani.
-  - Voin nollata salasanan yksityisavaimellani.
-  - Voin palauttaa bitcoinini käyttämällä lompakkoa ilman salasanaa.
+  - 8 bittiä
+  - 16 bittiä
+  - 6 bittiä
 explanation: |
-  Jos salasana katoaa, pääsy bitcoineihin menetetään pysyvästi, koska se on välttämätön yksityisten avainten johdannaisuuden kannalta.
+  Tarkistussumman pituus lasketaan käyttämällä kaavaa CS = ENT / 32, mikä tarkoittaa 4 bittiä 128 bitin entropialle.
+reviewed: false

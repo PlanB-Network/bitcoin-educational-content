@@ -114,8 +114,6 @@ Täiustatud alternatiiv on TOR (The Onion Router) võrk, mis pakub anonüümsust
 TOR on seaduslik ja seda kasutavad ajakirjanikud, vabadusaktivistid ja teised, kes soovivad põgeneda tsensuurist autoritaarsetes riikides. Siiski on oluline mõista, et TOR ei turva külastatavaid saite ega arvutit ennast. Lisaks võib TORi kasutamine aeglustada internetiühendust, kuna andmed liiguvad enne sihtkohta jõudmist läbi kolme teise inimese arvutite. On ka oluline märkida, et TOR ei ole lollikindel lahendus 100% anonüümsuse tagamiseks ja seda ei tohiks kasutada ebaseaduslikeks tegevusteks.
 ![](assets/notext/7.webp)
 
-
-
 https://planb.network/tutorials/others/tor-browser
 
 ## VPN ja internetiühendus
@@ -148,7 +146,6 @@ Euroopa Liidus reguleerib andmekaitset Üldine Andmekaitse Määrus (GDPR). Seet
 Veebipettuste vältimiseks on oluline kontrollida külastatava saidi identiteeti, eriti kontrollides laiendit ja domeeninime. Lisaks olge valvas petturite suhtes, kes kasutavad URL-ides sarnaseid tähti, et kasutajaid eksitada.
 ![](assets/en/10.webp)
 Kokkuvõttes võib VPN-i kasutamine oluliselt parandada veebiturvalisust nii ettevõtetele kui ka üksikkasutajatele. Lisaks võib heade sirvimisharjumuste praktiseerimine aidata kaasa paremale digitaalsele hügieenile. Järgmises kursuse osas käsitleme arvuti turvalisust, sealhulgas uuendusi, viirusetõrjet ja paroolihaldust.
-
 
 # Parimad praktikad arvuti kasutamisel
 
@@ -196,8 +193,6 @@ Lõpuks, siin on mõned head tavad teie arvuti ja andmete turvalisuse jaoks. On 
 Kohtle oma arvutit nagu oma kodu: ole valvas, uuenda regulaarselt, kustuta tarbetuid faile ja kasuta turvalisuse jaoks tugevat parooli. Sülearvutite ja nutitelefonide andmete krüpteerimine on oluline varguse või andmekao vältimiseks. BitLocker Windowsile, LUKS Linuxile ja sisseehitatud võimalus Macile on andmete krüpteerimise lahendused. On soovitatav aktiveerida andmete krüpteerimine kõhklemata ja kirjutada parool paberile, mida hoitakse turvalises kohas.
 Järeldusena on oluline valida operatsioonisüsteem, mis vastab teie vajadustele, ning seda ja installitud rakendusi regulaarselt uuendada. Samuti on oluline kasutada efektiivset ja kasutajasõbralikku viirusetõrjet ning omaks võtta head praktikad oma arvuti ja andmete turvalisuse tagamiseks.
 
-
-
 ## Häkkimine ja varundamise haldus: Oma andmete kaitsmine
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
@@ -240,7 +235,6 @@ https://planb.network/tutorials/others/proton-drive
 
 https://planb.network/tutorials/others/veracrypt
 
-
 # Lahenduste rakendamine.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -273,8 +267,6 @@ On soovitatav kasutada veebisaiti Have I Been Pwned (https://haveibeenpwned.com/
 Boonus Bitcoin: Võib olla soovitatav luua spetsiifiline e-posti aadress meie Bitcoin'i tegevusteks (vahetuskontode loomine), et tõeliselt eraldada meie elu erinevad tegevusalad.
 
 https://planb.network/tutorials/others/proton-mail
-
-
 
 ## Paroolihaldur
 
@@ -362,8 +354,6 @@ https://planb.network/tutorials/others/authy
 
 https://planb.network/tutorials/others/security-key
 
-
-
 # Praktiline osa
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -376,8 +366,6 @@ E-posti postkasti kaitsmine on oluline samm oma veebitegevuste turvamiseks ja is
 
 https://planb.network/tutorials/others/proton-mail
 
-
-
 ## Turvamine 2FA abil
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
@@ -389,9 +377,6 @@ https://planb.network/tutorials/others/authy
 Teine võimalus on kasutada füüsilist turvavõtit. See teine juhend näitab, kuidas seadistada ja kasutada turvavõtit teise autentimistegurina:
 
 https://planb.network/tutorials/others/security-key
-
-
-
 
 ## Paroolihalduri loomine
 
@@ -407,8 +392,6 @@ Kogenumatele kasutajatele pakun ka õpetust teise tasuta ja avatud lähtekoodiga
 
 https://planb.network/tutorials/others/keepass
 
-
-
 ## Oma kontode turvamine
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
@@ -418,7 +401,6 @@ Nendes kahes õpetuses juhendan teid ka oma veebikontode turvamisel ning selgita
 https://planb.network/tutorials/others/bitwarden
 
 https://planb.network/tutorials/others/keypass
-
 
 ## Varundamise seadistamine
 
@@ -431,8 +413,6 @@ https://planb.network/tutorials/others/proton-drive
 Ja et kaitsta teie eemaldatavatel meediumitel, nagu USB-mälupulk või väline kõvaketas, salvestatud faile, näitan ma ka, kuidas neid meediume VeraCryptiga hõlpsasti krüpteerida ja dekrüpteerida:
 
 https://planb.network/tutorials/others/veracrypt
-
-
 
 ## Brauseri ja VPN-i vahetus
 
@@ -449,8 +429,6 @@ https://planb.network/tutorials/others/mullvad
 Lisaks õppige kasutama Tor Browserit, spetsiaalselt teie online-privaatsuse kaitsmiseks loodud veebibrauserit:
 
 https://planb.network/tutorials/others/tor-browser
-
-
 
 # Mine kaugemale
 
@@ -522,38 +500,52 @@ Tuleb märkida, et internet on suuresti tsentraliseeritud ja valdavalt Ameerika 
 
 "Security 101" koolitusmooduli osana Découvre Bitcoin Academy's arutasime ka Lightning autentimist. See süsteem genereerib iga teenuse jaoks erineva identifikaatori, ilma et oleks vaja esitada e-posti aadressi või isiklikku teavet. On võimalik omada kasutaja kontrollitud detsentraliseeritud identiteete, kuid detsentraliseeritud identiteediprojektides puudub standardiseerimine ja normaliseerimine. Soovitatavad on paketihaldurid nagu Nuget ja Chocolaté, mis võimaldavad alla laadida avatud lähtekoodiga tarkvara väljaspool Microsoft Store'i, et vältida pahatahtlikke rünnakuid. Kokkuvõttes on DNS oluline veebiturvalisuse jaoks, kuid on vajalik olla valvas võimalike rünnakute suhtes DNS-serverite vastu.
 
+# Kokkuvõte
 
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Hinnake kursust
+## Hinda seda kursust
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
+
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Kokkuvõte
 
-## Tunnustused ja jätkake küülikuurgu uurimist
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
 
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+Õnnitleme selle kursuse läbimise puhul!
 
-### Hinda koolitust ja toeta meid
+Meil on hea meel, et olete oma õppeteel edukalt jõudnud selle tähiseni.
 
-See kursus koos kogu selle akadeemia sisuga on teile tasuta pakutud meie kogukonna poolt. Meid saate toetada, jagades seda teistega, saades akadeemia liikmeks ja isegi kaasa aidates selle arendamisele GitHubi kaudu. Kogu meeskonna nimel, aitäh!
+Tänu teie pühendumisele ja pühendumusele olete omandanud väärtuslikud teadmised ja oskused, mis tulevad kasuks teie professionaalses arengus.
 
-Koolitusele hinnangusüsteemi integreerimine uude e-õppe platvormi on peagi tulemas! Seniks suur tänu kursuse läbimise eest ja kui see teile meeldis, kaaluge palun selle jagamist teistega.
+Et oma teadmisi Bitcoini maailmas veelgi süvendada, kutsume teid tutvuma teiste Plan ₿ Networkis saadaolevate kursustega, nagu:
 
-### Minge kaugemale
+#### Avastage Bitcoin ja selle põhitõed koos
 
-Palju õnne SECU 101 koolituse lõpetamise puhul! Loodan siiralt, et see meeldis teile ja avas teile uksi. Olete nüüd valmis saama oma esimese bitcoini või lihtsalt jätkama seiklust 2. taseme kursustega!
+https://planb.network/courses/btc101
 
-- BTC 101 annab teile Bitcoinist teoreetilised alused
-- BTC 102 aitab teil seada sisse oma bitcoini plaani
-- LN 201 ja 202 tutvustavad teile Lightning Networki, teise kihi maksevõrku
-- ECON 201 katab Austria majanduse
-- MINING 201 õpetab teile rohkem kaevandamise kohta
-- (ja palju muud)
+#### Saage ja turvake oma esimesed bitcoinid koos
 
-Tohutu tänu meie Patreonile, liikmetele ja annetajatele nende rahalise toetuse eest, tänu inimestele, kes jagavad, ja tänu neile, kes tegid selle koolituse võimalikuks: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & kogu meeskond.
-Näeme varsti!
+https://planb.network/courses/btc102
 
+#### Avastage Lightning võrgustik koos
+
+https://planb.network/courses/lnp201
+
+#### Avastage Austria koolkonna majanduslik mõtlemine koos
+
+https://planb.network/courses/eco201
+
+#### Avastage Bitcoini päritolu ajalugu koos
+
+https://planb.network/courses/his201
+
+#### Mõistke, kuidas Bitcoin rahakott töötab koos
+
+https://planb.network/courses/cyp201

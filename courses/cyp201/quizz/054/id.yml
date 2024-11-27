@@ -1,8 +1,9 @@
-question: Untuk menghitung nilai dari kunci utama dan kode rantai utama, input pertama ke fungsi HMAC-SHA512 adalah seed. Apa nilai input kedua dari fungsi ini, yang berfungsi sebagai kunci?
-answer: Bitcoin seed.
+question: Apa peran utama dari passphrase dalam dompet HD Bitcoin?
+answer: Untuk memodifikasi derivasi kunci guna meningkatkan keamanan
 wrong_answers:
-  - Frase mnemonik.
-  - Frase sandi.
-  - Seed.
+  - Mendekripsi transaksi yang tertunda
+  - Menghasilkan UTXO dompet
+  - Melindungi akses dompet dengan identifikasi wajah
 explanation: |
-  String Bitcoin seed digunakan sebagai kunci dalam HMAC-SHA512 untuk menurunkan kunci utama dan kode rantai utama dari seed.
+  Passphrase berfungsi sebagai faktor keamanan kedua, mengubah benih derivasi kunci untuk mencegah akses ke dompet jika frasa mnemonik dikompromikan.
+ditinjau: false

@@ -1,9 +1,9 @@
-question: ¿Cuál es el tamaño de una clave privada de Bitcoin?
-answer: 256 bits.
+question: ¿Cuál es la principal característica de la multiplicación escalar en curvas elípticas?
+answer: Función unidireccional
 wrong_answers:
-  - 512 bytes.
-  - 520 bits.
-  - 512 bits.
+  - Fácilmente reversible
+  - Basada en la factorización de números primos
+  - Muy larga para calcular
 explanation: |
-  La clave privada de Bitcoin tiene un tamaño estándar de 256 bits, correspondiente al algoritmo de curva elíptica utilizado en Bitcoin.
+  La multiplicación escalar en curvas elípticas es una función unidireccional, lo que hace imposible recuperar la clave privada a partir de la clave pública.
 reviewed: false

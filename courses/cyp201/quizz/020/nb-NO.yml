@@ -1,9 +1,9 @@
-question: Hvordan bestemmes en Bitcoin privat nøkkel?
-answer: Den bestemmes fra et tilfeldig eller pseudo-tilfeldig tall.
+question: Hva er forskjellen mellom en komprimert og en ukomprimert offentlig nøkkel?
+answer: Den komprimerte offentlige nøkkelen bruker kun x-koordinaten og pariteten til y
 wrong_answers:
-  - Den bestemmes ved addisjon og dobling av punkter på elliptisk kurve fra dens offentlige nøkkel.
-  - Den bestemmes ved hashing av dens offentlige nøkkel.
-  - Den bestemmes av SHA-256-algoritmen.
+  - Den komprimerte offentlige nøkkelen er mer sikker
+  - Den komprimerte offentlige nøkkelen bruker kun y-koordinaten og pariteten til x
+  - Den komprimerte offentlige nøkkelen krever en større privat nøkkel
 explanation: |
-  En Bitcoin privat nøkkel genereres på en tilfeldig eller pseudo-tilfeldig måte, noe som sikrer dens unikhet og sikkerhet.
+  En komprimert offentlig nøkkel beholder kun x-koordinaten og en bit for pariteten til y, noe som reduserer størrelsen til 33 byte.
 reviewed: false

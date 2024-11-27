@@ -1,9 +1,9 @@
-question: Co znamená následující odvozovací cesta? m/84'/0'/1'/0/7
-answer: Externí adresa SegwitV0 na hlavní síti.
+question: Jaký je účel indexu při odvozování dětských klíčů?
+answer: Odlišit páry sourozeneckých klíčů
 wrong_answers:
-  - Externí adresa SegwitV1 na hlavní síti.
-  - Interní Legacy adresa na testovací síti.
-  - Externí Legacy adresa na hlavní síti.
+  - Určit povahu klíče (veřejný nebo soukromý)
+  - Specifikovat bezpečnostní úroveň klíče
+  - Přidat další vrstvu zabezpečení
 explanation: |
-  Odvozovací cesta m/84'/0'/1'/0/7 označuje externí adresu SegwitV0 na hlavní síti (mainnet). 84' = SegWit v0, 0' = hlavní síť, 1 = externí
+  Index umožňuje rozlišení dětských klíčů odvozených ze stejného rodičovského páru.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Hva er koordinatene til generatorelementet G som brukes på den elliptiske kurven secp256k1?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Hva er størrelsen på en rå privatnøkkel brukt i Bitcoin?
+answer: 256 bits
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bits
+  - 512 bits
+  - 1024 bits
 explanation: |
-  Generatorelementet G er et forhåndsdefinert punkt på den elliptiske kurven secp256k1, brukt til å generere offentlige nøkler fra private nøkler i Bitcoin.
+  En privatnøkkel i Bitcoin er et 256-bits tilfeldig heltall, noe som sikrer et nøkkelrom stort nok til å garantere sikkerhet.
 reviewed: false

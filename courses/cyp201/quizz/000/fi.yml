@@ -1,9 +1,9 @@
-question: Mikä on kryptografisen hajautusprosessin tavoite?
-answer: Muuntaa mielivaltaisen pituinen bittijono kiinteän pituiseksi bittijonoksi.
+question: Mikä on hajautusfunktion päätehtävä?
+answer: Se muuntaa minkä tahansa pituisen tiedon kiinteänkokoiseksi sormenjäljeksi
 wrong_answers:
-  - Viestin salaaminen.
-  - Varmistaa, että viestin lähettäjä ei voi kieltää lähettäneensä viestiä tulevaisuudessa.
-  - Tietojen luottamuksellisuuden takaaminen.
+  - Se salaa viestit tekemällä ne lukukelvottomiksi
+  - Sitä käytetään vain Bitcoin-ohjelmiston eheyden varmistamiseen
+  - Se luo yksityisiä avaimia Bitcoin-lompakoille
 explanation: |
-  Hajautus muuntaa minkä tahansa kokoiset tiedot kiinteän kokoiseksi tulosteeksi, mikä on hyödyllistä integriteetin varmistamiseksi ilman, että tietoja välttämättä salataan tai todennetaan.
+  Hajautusfunktio muuntaa minkä tahansa kokoisen datan kiinteänkokoiseksi hajautusarvoksi, mikä on ratkaisevan tärkeää monissa Bitcoinin sovelluksissa.
 reviewed: false

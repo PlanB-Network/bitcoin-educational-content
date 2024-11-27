@@ -1,9 +1,8 @@
-question: Hvordan beregnes sjekksummen til en SegWit-adresse?
-answer: Med en BCH-kode.
+question: Hva tilsvarer notasjonen /<0;1>/* i en deskriptor?
+answer: Til den eksterne og interne kjeden med sekvensiell derivasjon
 wrong_answers:
-  - Med HASH160.
-  - Med HASH256.
-  - Med SHA512.
+  - Til en sortert multisignaturadresse
+  - Til en sjekksum for derivasjonsveier
+  - Til en hardnet derivasjonsvei
 explanation: |
-  For SegWit-adresser beregnes sjekksummen ved hjelp av BCH-koden, som muliggjør deteksjon av mulige feil i adressen.
-reviewed: false
+  Notasjonen /<0;1>/* indikerer at deskriptoren kan generere adresser for den eksterne (0) og interne (1) kjeden, med sekvensiell derivasjon takket være jokertegnet (*).

@@ -1,8 +1,9 @@
-question: Mengapa menggunakan passphrase meningkatkan keamanan dari sebuah dompet HD?
-answer: Ini menambahkan lapisan perlindungan ekstra pada frasa mnemonik.
+question: Berapa ukuran dalam bit dari segmen biner yang digunakan untuk membuat setiap kata mnemonik?
+answer: 11 bit
 wrong_answers:
-  - Ini memungkinkan untuk generasi kunci publik yang lebih kuat.
-  - Ini melindungi transaksi secara kriptografis.
-  - Ini menggandakan jumlah bitcoin dalam dompet.
+  - 8 bit
+  - 16 bit
+  - 10 bit
 explanation: |
-  Passphrase meningkatkan keamanan dengan menambahkan potongan data tambahan pada frasa mnemonik, bertindak agak seperti 2FA.
+  Setiap segmen 11-bit sesuai dengan satu kata dari daftar standar 2048 kata dalam BIP39.
+ditinjau: false

@@ -132,7 +132,6 @@ objectives:
 
 https://planb.network/courses/his201
 
-
 # 货币
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -249,7 +248,6 @@ https://planb.network/courses/his201
 
 https://planb.network/courses/eco102
 
-
 ## 恶性通货膨胀
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -331,7 +329,6 @@ https://planb.network/courses/eco102
 如果您想更深入地了解恶性通货膨胀的主题，我推荐 David St-Onge 的 ECO 204 课程。在这里，您将学习什么是恶性通货膨胀周期以及它们对我们生活的实际影响。您还将发现这些周期之间的相似之处，最重要的是，如何保护自己免受其影响：
 
 https://planb.network/courses/eco204
-
 
 ## 2100万个比特币
 
@@ -489,7 +486,6 @@ https://planb.network/courses/eco204
 如果在您探索兔子洞的过程中，想要进一步了解如何构建一个比特币钱包，从熵到接收地址，我推荐专门为此主题设计的 CYP 201 课程：
 
 https://planb.network/courses/cyp201
-
 
 ## 安全性和比特币钱包
 
@@ -1047,7 +1043,6 @@ https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
 
 https://planb.network/courses/btc305
 
-
 ### 快速海报重述！
 
 ![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
@@ -1220,7 +1215,6 @@ https://planb.network/courses/btc305
 
 https://planb.network/courses/lnp201
 
-
 ## 闪电网络的用途
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1320,52 +1314,42 @@ https://planb.network/courses/lnp201
 
 改变金融体系涉及到货币的取代。为了试图实现这一点，中本聪于2008年创造了比特币。容易获得和“神奇”的金钱会腐化人心。因此，比特币是构建一个新且中立货币体系的替代方案。比特币能够使人们从银行体系中解放出来。它是一种社会现象，引导我们参与一场和平革命。您准备好加入了吗？
 
-## 致谢与深入探索
+# 结论
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### 进一步前进
-
-恭喜您完成了BTC 101课程！我真诚地希望您对这门课程满意，并且它为您打开了新的大门。您对比特币的发现仅仅是一个开始，我邀请您探索大学提供的所有其他课程。
-
-要设置您的比特币计划：
-
-https://planb.network/courses/btc102
-
-要了解 Lightning Network（一种第二层支付网络）：
-
-https://planb.network/courses/lnp201
-
-要学习奥地利经济学：
-
-https://planb.network/courses/eco201
-
-要更新您的数字安全：
-
-https://planb.network/courses/scu101
-
-要了解更多关于挖矿的信息：
-
-https://planb.network/courses/min201
-
-还有更多内容...
-
-
-
-## 评估课程
+## 课程评估
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## 总结
+## 结论
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**恭喜您完成本课程！**
+恭喜您完成BTC 101培训！衷心希望您喜欢这个课程，并为您打开了新的机遇之门。您的比特币探索之旅才刚刚开始，我邀请您探索Plan ₿ Network上所有其他可用的课程：
 
-请注意，本章节目前正在建设中，改进版本将很快推出。在此期间，如果您渴望继续您的比特币之旅，我们邀请您探索我们平台上提供的其他课程和教程。继续保持努力，祝学习愉快！
+#### 获取并保护您的第一笔比特币
 
+https://planb.network/courses/btc102
+
+#### 探索闪电网络
+
+https://planb.network/courses/lnp201
+
+#### 了解奥地利经济学派思想
+
+https://planb.network/courses/eco201
+
+#### 更新您的在线安全
+
+https://planb.network/courses/scu101
+
+#### 了解比特币基础知识并建造您的家庭供暖系统
+
+https://planb.network/courses/min201

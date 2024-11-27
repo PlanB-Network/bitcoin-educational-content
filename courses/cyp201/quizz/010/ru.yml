@@ -1,8 +1,8 @@
-question: Какие алгоритмы используются для генерации ключей в HD-кошельках Bitcoin?
-answer: HMAC/PBKDF2
+question: Какой алгоритм деривации используется для вычисления кода аутентификации на основе секретного ключа?
+answer: HMAC-SHA512
 wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  HD-кошельки Bitcoin используют HMAC (Hash-based Message Authentication Code) для генерации ключей и PBKDF2 (Password-Based Key Derivation Function 2) для генерации сида.
+  HMAC-SHA512 - это алгоритм, который сочетает в себе хеш-функцию и секретный ключ для вычисления кода аутентификации.

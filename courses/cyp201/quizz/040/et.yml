@@ -1,8 +1,8 @@
-question: Mis on 2048 sõna nimekirja ainulaadne omadus, mis võimaldab mnemoonilist kodeerimist?
-answer: Ühelgi sõnal ei ole samas järjekorras samu esimesi nelja tähte.
+question: Miks on riskantne käsitsi genereerida entroopiat HD rahakotile?
+answer: See võib kaasa tuua inimlikud nõrkused või ennustatavad kallutatused
 wrong_answers:
-  - Ühelgi sõnal ei ole samu viimaseid kolme tähte.
-  - Ükski sõna ei alga tähega “J”.
-  - Ükski sõna ei ole pikem kui kuus tähte.
+  - See toob kaasa kehtetud avalikud võtmed
+  - See takistab privaatvõtmete tuletamist
+  - See piirab genereeritud mnemooniliste fraaside suurust
 explanation: |
-  See omadus aitab vältida igasugust ebamäärasust sõnade sisestamisel, tagades seeläbi iga sõna unikaalsuse nimekirjas, vähendades samal ajal vajalikku salvestusruumi.
+  Käsitsi entroopia genereerimine võib sisse tuua kallutatusi või vigu, muutes võtmed rünnakutele haavatavamaks.

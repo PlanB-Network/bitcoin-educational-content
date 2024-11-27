@@ -1,9 +1,9 @@
-question: Miksi on tärkeää olla koskaan uudelleenkäyttämättä nonce-arvoa ECDSA-algoritmissa?
-answer: Nonce-arvon uudelleenkäyttö vaarantaa turvallisuuden ja voi paljastaa yksityisen avaimen.
+question: Mikä on lähtökohta ECDSA-allekirjoituksen laskemiselle?
+answer: Viestin tiiviste
 wrong_answers:
-  - Nonce-arvon uudelleenkäyttö hidastaa suorituskykyä.
-  - Nonce-arvon uudelleenkäyttö pidentää allekirjoituksia.
-  - Nonce-arvon uudelleenkäyttö kasvattaa julkisen avaimen kokoa.
+  - Julkinen avain
+  - Kiinteä nonce
+  - Mukautettu elliptinen käyrä
 explanation: |
-  Nonce-arvon uudelleenkäyttö ECDSA: ssa voi mahdollistaa hyökkääjän yksityisen avaimen löytämisen, vaarantaen turvallisuuden.
+  ECDSA-allekirjoitus alkaa laskemalla allekirjoitettavan viestin tiivisteen, usein SHA256 n avulla.
 reviewed: false

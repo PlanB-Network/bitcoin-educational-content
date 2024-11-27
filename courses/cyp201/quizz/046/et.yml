@@ -1,9 +1,9 @@
-question: Mis juhtub, kui kasutan HD rahakotti koos paroolilausega ja kaotan selle paroolilause?
-answer: Minu bitcoiinid on igaveseks kadunud.
+question: Mitu bitti on kontrollsumma 128-bitise entroopia jaoks?
+answer: 4 bitti
 wrong_answers:
-  - Pole probleemi, ma saan endiselt oma bitcoine ligi ainult oma mnemoonilise fraasiga.
-  - Ma saan paroolilause oma privaatvõtmega lähtestada.
-  - Ma saan oma bitcoine taastada, kasutades rahakotti ilma paroolilausega.
+  - 8 bitti
+  - 16 bitti
+  - 6 bitti
 explanation: |
-  Kui paroolilause on kadunud, on juurdepääs bitcoinidele jäädavalt kadunud, kuna see on vajalik privaatvõtmete tuletamiseks.
+  Kontrollsumma pikkus arvutatakse valemiga CS = ENT / 32, mis võrdub 4 bitiga 128-bitise entroopia jaoks.
 reviewed: false

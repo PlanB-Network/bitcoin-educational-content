@@ -146,14 +146,15 @@ Für Bastiat ist die Wirtschaft des Austauschs, das heißt, gegenseitiger Dienst
 Aber von Jean-Baptiste Say erbt Frédéric Bastiat auch ein Schlüsselkonzept, das der Plünderung. Denn, sagt er, in Anlehnung an die Worte von Say:
 
 > Es gibt nur zwei Wege, um die für die Erhaltung, Verschönerung und Verbesserung des Lebens notwendigen Dinge zu erwerben: Produktion und Plünderung.
-Produzenten greifen zu Überzeugung, Verhandlung und Vertrag, während Plünderer auf Gewalt und Täuschung zurückgreifen. Es liegt daher am Gesetz, Plünderung zu unterdrücken und sowohl Arbeit als auch Eigentum zu sichern. Wie Adam Smith bereits feststellte, ist die Sicherstellung der Sicherheit der Bürger die Hauptaufgabe der öffentlichen Autorität, und dies legitimiert die Erhebung von Steuern.
-![image](assets/image/01/IMG17.webp)
+> Produzenten greifen zu Überzeugung, Verhandlung und Vertrag, während Plünderer auf Gewalt und Täuschung zurückgreifen. Es liegt daher am Gesetz, Plünderung zu unterdrücken und sowohl Arbeit als auch Eigentum zu sichern. Wie Adam Smith bereits feststellte, ist die Sicherstellung der Sicherheit der Bürger die Hauptaufgabe der öffentlichen Autorität, und dies legitimiert die Erhebung von Steuern.
+> ![image](assets/image/01/IMG17.webp)
 
 ## Antoine Destutt de Tracy
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
 Es ist wenig bekannt, aber Destutt de Tracy hatte einen entscheidenden Einfluss auf den zukünftigen Präsidenten der Vereinigten Staaten, Thomas Jefferson, während dieser in den 1780er Jahren Botschafter in Paris war.
+
 > "Für jeden Mann ist sein erstes Land seine Heimat, und das zweite ist Frankreich" & "Tyrannei ist, wenn das Volk seine Regierung fürchtet; Freiheit ist, wenn die Regierung das Volk fürchtet."
 >
 > Thomas Jefferson
@@ -220,6 +221,7 @@ _(Benjamin Constant)_
 
 Sie übernehmen von Benjamin Constant die Unterscheidung zwischen den Alten und den Modernen, charakterisiert einerseits durch Krieg und andererseits durch Handel und Industrie. Aber sie fügen mit Say hinzu, dass die politische Ökonomie die beste Erklärung sozialer Phänomene liefert. Sie verstehen insbesondere, dass Nationen Frieden und Wohlstand erreichen, wenn Eigentumsrechte und freier Handel respektiert werden. Von nun an ist für sie die politische Ökonomie die wahre und einzige Grundlage der Politik. Der Philosophie, die sich auf die abstrakte Kritik an Regierungsformen beschränkt, muss eine Theorie gegenübergestellt werden, die auf der Kenntnis wirtschaftlicher Interessen basiert.
 Die politische Ökonomie hat durch die Demonstration, wie Völker gedeihen und verfallen, die wahren Grundlagen der Politik gelegt.
+
 > Dunoyer
 
 ![image](assets/image/03/IMG07.webp)
@@ -261,6 +263,7 @@ Es war diese Kampagne der Agitation für den Freihandel, im ganzen Königreich, 
 
 Die Liga kann mit einer reisenden Universität verglichen werden, die wirtschaftlich jene bildete, die an ihren Versammlungen im ganzen Land teilnahmen – gewöhnliche Leute, Industrielle, Anbauer und Bauern, alle, die die Liga unter ihre Fittiche genommen hatte und deren Interessen durch die Getreidegesetze unterdrückt wurden. Richard Cobden war die Seele der Bewegung und ein herausragender Agitator.
 Ein faszinierender und beeindruckender Redner, er besaß ein außergewöhnliches Talent dafür, markante und prägnante Phrasen zu erfinden, weit entfernt von den abstrakten Diskursen der Ökonomen.
+
 > Was ist das Brotmonopol? rief er aus. Es ist die Knappheit an Brot. Sie sind überrascht zu erfahren, dass die Gesetzgebung dieses Landes in dieser Angelegenheit keinen anderen Zweck hat, als die größtmögliche Knappheit an Brot zu erzeugen. Und doch ist es nichts anderes. Die Gesetzgebung kann ihr Ziel nur durch Knappheit erreichen.
 
 Im Jahr 1845 veröffentlichte Bastiat in Paris sein Buch Cobden und die Liga, mit seinen Übersetzungen, die von Kommentaren begleitet wurden. Das Buch beginnt mit einer Einführung in die wirtschaftliche Situation Englands, über die Geschichte des Ursprungs und des Fortschritts der Liga. Seit 1815 war der Protektionismus in England sehr entwickelt. Es gab insbesondere Gesetze, die den Getreideimport einschränkten, was sehr harte Konsequenzen für die Menschen hatte. Tatsächlich war Weizen notwendig für die Herstellung von Brot, einem lebenswichtigen Gut zu dieser Zeit. Darüber hinaus begünstigte dieses System die Aristokratie, das heißt, die Großgrundbesitzer, die daraus Renten zogen.
@@ -297,7 +300,6 @@ Die Frage des Freihandels bleibt auch heute noch relevant. Schulgeografiebücher
 ## Rousseau
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
-
 
 Frédéric Bastiat, der sich in den 1840er Jahren äußerte, ist der Erbe einer Generation von Aufklärungsphilosophen, die gegen die Zensur kämpften und für die Freiheit zu debattieren. Denken Sie an Montesquieu, Diderot, Voltaire, Condorcet, aber auch Rousseau.
 
@@ -377,6 +379,7 @@ Es ist traurig zu denken, dass unsere soziale und politische Philosophie auf der
 Jedoch erinnert uns Bastiat daran, dass Monopol den Fortschritt ausschließt.
 
 ## Protektionismus und Sozialismus
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
 ![image](assets/image/07/IMG11.webp)
@@ -422,11 +425,9 @@ Zum Abschluss, Protektionisten und Sozialisten teilen einen gemeinsamen Punkt, l
 
 > Der Staat ist die große Fiktion, durch die jeder versucht, auf Kosten aller anderen zu leben.
 
-
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
-
 
 Pierre-Joseph Proudhon ist einer der bedeutendsten Vertreter des französischen Sozialismus im mittleren 19. Jahrhundert. Er ist besonders berühmt für seine Aussage: "Eigentum ist Diebstahl" in "Was ist Eigentum?" im Jahr 1840.
 
@@ -450,6 +451,7 @@ Dann zeigt Bastiat, dass es möglich ist, die Kaufkraft der arbeitenden Klassen 
 Tatsächlich, laut Bastiat, fällt der Fortschritt der Menschheit mit der Bildung von Kapital zusammen. In seiner Broschüre mit dem Titel Kapital und Miete macht Bastiat uns dies mit Robinson Crusoe auf seiner Insel klar.
 ![image](assets/image/08/IMG15.webp)
 Ohne angesammeltes Kapital oder Materialien wäre Robinson dem Tod geweiht. Er erklärt dann, dass Kapital den Arbeiter auf zwei Arten bereichert:
+
 - Es erhöht die Produktion und senkt somit den Preis der Konsumgüter
 - Was zur Folge hat, dass die Löhne steigen.
 
@@ -467,7 +469,6 @@ Zusammenfassend erkannten sowohl Proudhon als auch Bastiat die Bedeutung der Kap
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-
 In diesem Kapitel werde ich eine brandneue Technologie enthüllen, eine revolutionäre Technologie. Ein Forscher hat ein Paar bionische Brillen mit einer extrem leistungsfähigen Mini-Kamera entwickelt, die in der Front eingebettet ist. Diese Technologie ermöglicht es, Details zu sehen, die mit bloßem Auge unmöglich zu erkennen sind. In den Bügeln befindet sich ein elektronischer Chip, der Bilder direkt über mein Smartphone in die Cloud überträgt.
 
 ![image](assets/image/09/IMG01.webp)
@@ -479,8 +480,8 @@ So schreibt Bastiat in Öffentliche Arbeiten:
 
 > Der Staat eröffnet eine Straße, baut einen Palast, begradigt eine Straße, gräbt einen Kanal; dadurch gibt er bestimmten Arbeitern Arbeit, das ist das, was gesehen wird; aber er entzieht bestimmten anderen Arbeit, das ist das, was nicht gesehen wird.
 
-
 Eines der bekanntesten Sophismen ist die Parabel vom zerbrochenen Fenster. Einige behaupten, dass das Zerbrechen eines Fensters in einem Haus der Wirtschaft nicht schadet, da es dem Glaser zugutekommt. Aber Bastiat wird zeigen, dass Zerstörung nicht in unserem Interesse liegt, weil sie keinen Reichtum schafft. Sie kostet mehr, als sie einbringt. Der junge Junge, der das Fenster eines Nachbarn zerbricht, gibt dem Glaser Arbeit. Aber so trösten ihn seine Freunde:
+
 > "Jedes Unglück hat sein Gutes. Solche Unfälle halten die Industrie am Laufen. Jeder muss leben. Was würde aus Glasern werden, wenn niemals Fenster zerbrochen würden?"
 
 Demnach würde laut Keynes die Zerstörung von Eigentum, indem sie Ausgaben erzwingt, die Wirtschaft stimulieren und einen "Multiplikatoreffekt" haben, der die Produktion und Beschäftigung belebt. Das ist nur das, was man sieht.
@@ -503,7 +504,9 @@ Schließlich können wir fast ein Jahrhundert vor Keynes sagen, dass Bastiat die
 ![Bild](assets/image/09/IMG03.webp)
 
 Die große Lektion aus dieser Reihe von Texten ist, dass staatliche Eingriffe perverse Effekte haben, die nicht gesehen werden. Nur ein guter Ökonom ist in der Lage, sie vorherzusehen. Politik ist das, was wir sehen. Die Wirtschaft ist das, was wir nicht sehen.
+
 ## Die Petition der Kerzenmacher
+
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
 Im Jahr 1840 stimmte die Kammer der Abgeordneten für ein Gesetz, das die Importsteuern erhöhte, um die französische Industrie zu schützen. Dies ist der berühmte ökonomische Patriotismus, dem wir auch heute noch begegnen.
@@ -532,7 +535,7 @@ Protektionismus stützt sich auch auf einen versteckten Syllogismus, der sich al
 - Je mehr wir arbeiten, desto reicher sind wir;
 - Je mehr Schwierigkeiten wir überwinden müssen, desto mehr arbeiten wir;
 - Daher sind wir umso reicher, je mehr Schwierigkeiten wir überwinden müssen.
-Lassen Sie uns diese Absurdität anhand einiger kurzer Geschichten illustrieren, die von Bastiat erzählt wurden. In Kapitel III der zweiten Serie von Ökonomischen Sophismen stellt er sich einen Zimmermann vor, der an den Minister einen Antrag schreibt, in dem er um protektionistische Gesetzgebung bittet. Der Zimmermann formuliert seine Anfrage folgendermaßen: Herr Minister, erlassen Sie ein Gesetz, das besagt, dass "Niemand Balken und Träger verwenden darf, die mit stumpfen Äxten hergestellt wurden." Mit anderen Worten, erlassen Sie ein Gesetz, das die Verwendung von scharfen Äxten in Frankreich verbietet. So wird dort, wo man normalerweise 100 Axthiebe gibt, es notwendig sein, 300 zu geben. Zimmerleute werden stark nachgefragt und daher besser bezahlt.
+  Lassen Sie uns diese Absurdität anhand einiger kurzer Geschichten illustrieren, die von Bastiat erzählt wurden. In Kapitel III der zweiten Serie von Ökonomischen Sophismen stellt er sich einen Zimmermann vor, der an den Minister einen Antrag schreibt, in dem er um protektionistische Gesetzgebung bittet. Der Zimmermann formuliert seine Anfrage folgendermaßen: Herr Minister, erlassen Sie ein Gesetz, das besagt, dass "Niemand Balken und Träger verwenden darf, die mit stumpfen Äxten hergestellt wurden." Mit anderen Worten, erlassen Sie ein Gesetz, das die Verwendung von scharfen Äxten in Frankreich verbietet. So wird dort, wo man normalerweise 100 Axthiebe gibt, es notwendig sein, 300 zu geben. Zimmerleute werden stark nachgefragt und daher besser bezahlt.
 
 ![image](assets/image/10/IMG01.webp)
 
@@ -543,14 +546,11 @@ Folgt man dieser Logik, Arbeitsplätze um jeden Preis zu schaffen, warum dann ni
 Diese Verwechslung von Mittel und Zweck findet sich im Slogan "Geld ist Reichtum."
 Dies ist das Axiom, das die Geldpolitik der meisten Staaten regiert. Tatsächlich ermöglicht die künstliche Erhöhung der Geldmenge den Banken, Geld an Einzelpersonen und Staaten zu verleihen, um ihre Schulden leicht zurückzuzahlen, das ist "was wir sehen". Aber "was wir nicht sehen" ist, dass diese Schaffung von Geld, die nicht auf einer echten Wertschöpfung basiert, zu Inflation und dem Ruin der Sparer führen wird.
 
-
-
 Wahrer Reichtum ist nach Bastiat also die Gesamtheit der nützlichen Dinge, die wir durch Arbeit produzieren, um unsere Bedürfnisse zu befriedigen. Geld ist somit nur ein allgemein verwendetes Tauschmittel, es spielt nur die Rolle eines Vermittlers.
 
 ## Plünderung durch Besteuerung
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
-
 
 > Wenn die Reichen abnehmen, sterben die Armen.
 
@@ -564,6 +564,7 @@ Doch haben Sie jemals gehört, dass gesagt wurde:
 
 In Frankreich, wo öffentliche Ausgaben als Vorteil betrachtet werden, sind die Steuern höher als in anderen Ländern. Aber Bastiat warnt uns sofort: "Bei jeder öffentlichen Ausgabe gibt es hinter dem scheinbaren Guten ein schwerer zu erkennendes Übel."
 Die Wirtschaft beschreibt die guten oder schlechten Auswirkungen politischer Entscheidungen auf unser Leben. Jedoch, nach Bastiat, muss der Ökonom aufmerksam sein, nicht nur auf ihre kurzfristigen Effekte auf eine bestimmte Gruppe, sondern vielmehr auf ihre langfristigen Konsequenzen für die Gesellschaft als Ganzes.
+
 > "Was wir sehen, ist die Arbeit und der Gewinn, die durch soziale Beiträge ermöglicht werden. Was wir nicht sehen, sind die Werke, die durch denselben Beitrag generiert würden, wenn er den Steuerzahlern überlassen würde. Was wir sehen, ist die Arbeit und der Gewinn, die durch soziale Beiträge ermöglicht werden. Was wir nicht sehen, sind die Werke, die durch denselben Beitrag generiert würden, wenn er den Steuerzahlern überlassen würde."
 >
 > F.Bastiat
@@ -589,7 +590,6 @@ Deswegen hatte Bastiat bereits die Laffer-Kurve verstanden. Arthur Laffer ist ei
 
 > Zu viel Steuer tötet die Steuer.
 
-
 Politiker nehmen naiverweise an, es gäbe eine automatische und feste Beziehung zwischen Steuersätzen und Steuereinnahmen. Sie denken, sie könnten die Steuereinnahmen verdoppeln, indem sie den Steuersatz verdoppeln. Laut Laffer übersieht ein solcher Ansatz die Tatsache, dass Steuerzahler ihr Verhalten als Reaktion auf neue Anreize ändern könnten.
 
 ![image](assets/image/11/IMG7.webp)
@@ -613,7 +613,7 @@ Es gibt jedoch zwei ergänzende Wege, um das Urteil der Bürger zu erleuchten, w
 
 - Zuerst gibt es eine "philosophische oder religiöse Moralität", die durch Reinigung und Korrektur menschlichen Handelns wirkt (der Mensch als Akteur)
 - Dann gibt es eine "ökonomische Moralität", die dem Menschen "die notwendigen Konsequenzen seiner Handlungen" zeigt (der Mensch als Patient)
-Tatsächlich sind dies zwei perfekt ergänzende moralische Rahmenwerke.
+  Tatsächlich sind dies zwei perfekt ergänzende moralische Rahmenwerke.
 
 1. Die erste spricht das Herz an und ermutigt Individuen, Gutes zu tun; es ist die religiöse oder philosophische Moralität. Sie ist die edelste. Sie wurzelt im Herzen des Menschen das Bewusstsein seiner Pflicht. Sie sagt ihm:
 
@@ -650,7 +650,6 @@ Eines ist sicher, es ist nicht der Politiker, der den Lauf der Dinge ändern und
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-
 Kann eine harmonische Gesellschaft ohne schriftliche Gesetze, Regeln, repressive Maßnahmen auskommen? Wenn die Menschen frei gelassen werden, werden wir dann nicht Unordnung, Anarchie, Desorganisation bezeugen? Wie kann man vermeiden, eine bloße Nebeneinanderstellung von Individuen zu schaffen, die außerhalb jeglicher Abstimmung handeln, wenn nicht durch Gesetze und eine zentralisierte politische Organisation?
 
 Das ist das Argument, das oft von denen vorgebracht wird, die eine Marktregulierung oder die Gesellschaft allein fordern, die fähig ist, Individuen zu einem kohärenten und harmonischen Ganzen zu koordinieren.
@@ -663,8 +662,9 @@ Das Wunder des freien Marktes, sagt er uns, ist, dass er Wissen nutzt, das keine
 
 Bastiat gibt einige Beispiele, um die Vorteile dieses Marktes zu illustrieren. Wir haben uns so sehr an dieses Phänomen gewöhnt, dass wir ihm keine Aufmerksamkeit mehr schenken.
 Betrachten wir einen Tischler in einem Dorf, sagt er, und beobachten wir alle Dienstleistungen, die er der Gesellschaft bietet und all diejenigen, die er erhält:
+
 > Jeden Tag, beim Aufwachen, kleidet er sich, und er hat persönlich keines seiner Kleidungsstücke hergestellt. Doch damit diese Kleidung für ihn verfügbar war, musste weltweit eine enorme Menge an Arbeit, Industrie, Transport und genialen Erfindungen geleistet werden.
-Dann frühstückt er. Damit das Brot, das er jeden Morgen isst, auf seinem Tisch landen kann, mussten Ländereien gerodet, gepflügt werden; Eisen, Stahl, Holz, Stein mussten in Werkzeuge umgewandelt werden; alles Dinge, die jede für sich genommen, eine unermessliche Masse an Arbeit in Anspruch nehmen, nicht nur im Raum, sondern auch in der Zeit.
+> Dann frühstückt er. Damit das Brot, das er jeden Morgen isst, auf seinem Tisch landen kann, mussten Ländereien gerodet, gepflügt werden; Eisen, Stahl, Holz, Stein mussten in Werkzeuge umgewandelt werden; alles Dinge, die jede für sich genommen, eine unermessliche Masse an Arbeit in Anspruch nehmen, nicht nur im Raum, sondern auch in der Zeit.
 
 Dieser Mann wird seinen Sohn zur Schule schicken, um eine Ausbildung zu erhalten, die Forschung voraussetzt, viele Jahre vorheriger Studien.
 
@@ -687,7 +687,6 @@ Er greift Bastiats Idee einer unsichtbaren Zusammenarbeit unter Millionen von In
 
 Der Nobelpreisträger für Wirtschaftswissenschaften von 1976, Milton Friedman, griff diese Bleistiftgeschichte ebenfalls auf, um der breiten Öffentlichkeit zu erklären, wie die Marktwirtschaft funktioniert.
 
-
 In einer Episode seiner Fernsehserie Free to Choose analysiert er die verschiedenen Komponenten eines so alltäglichen und einfachen Gegenstands wie eines Bleistifts und hebt das Wunder der spontanen Ordnung hervor, die durch Tausende von wirtschaftlichen Interaktionen auf der ganzen Welt erzeugt wird. Menschen, die sich nicht kennen, die nicht dieselbe Religion oder Bräuche teilen, schaffen es dennoch, sich zu koordinieren, um dieses Objekt zu produzieren. Er kommt zu dem Schluss, dass der freie Markt nicht nur für Wohlstand, sondern auch für Harmonie und Frieden unerlässlich ist.
 
 ![image](assets/image/13/IMG04.webp)
@@ -698,7 +697,6 @@ Wirtschaftsplanung, die behauptet, besser als der Markt zu sein, führt nicht nu
 ## Freiheit und Verantwortung sind der Schlüssel zum sozialen Problem
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
-
 
 In einem Brief an Alphonse de Lamartine im Jahr 1845 schrieb Bastiat, dass seine gesamte Philosophie in einem einzigen Prinzip enthalten ist:
 
@@ -755,7 +753,6 @@ Mit anderen Worten, kollektive Entscheidungen sind keine verantwortungsvollen En
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-
 Im vorherigen Kurs haben wir gesehen, warum Freiheit und Verantwortung Schlüssel zum sozialen Problem sind. Wir werden nun tiefer in diesen Punkt eintauchen, indem wir zeigen, wie Frédéric Bastiat die Übel, die die Gesellschaften heimsuchen, und deren Lösung sieht.
 
 Liberale wurden manchmal dafür kritisiert, das Böse zu ignorieren und die Utopie der reinen und perfekten Freiheit in einer idealen Welt zu konstruieren. Diese Kritik ist bezüglich unseres Autors absolut unbegründet.
@@ -801,7 +798,6 @@ Es muss klargestellt werden, dass diese Entwicklung des Fortschritts durch Veran
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-
 ![image](assets/image/16/IMG1.webp)
 
 Frédéric Bastiat prangert in seinem berühmten Pamphlet "Das Gesetz" die Perversion des Gesetzes an, die darin besteht, unter dem Namen "Solidarität" das zu legalisieren, was tatsächlich als Plünderung bezeichnet werden muss. Tatsächlich gibt es einen Widerspruch darin, Brüderlichkeit durch das Gesetz aufzwingen zu wollen, was wir heute "soziale Gerechtigkeit" oder Solidarität nennen würden.
@@ -821,7 +817,7 @@ Das ist es, was Bastiat "den Sophismus der gesetzlichen Brüderlichkeit" nennt. 
 Und weiter:
 
 > Regierungen üben nur jemals eine Aktion aus, die durch Gewalt sanktioniert ist. Nun ist es erlaubt, jemanden zur Gerechtigkeit zu zwingen, nicht aber, ihn zur Nächstenliebe zu zwingen. Das Gesetz, wenn es versucht, durch Gewalt zu tun, was die Moral durch Überzeugung erreicht, fällt weit davon ab, in das Reich der Nächstenliebe aufzusteigen, es fällt in das Gebiet der Plünderung.
-Doch diese Perversion des Gesetzes hat einen Namen, es ist der Sozialismus, das heißt, die Ideologie der erzwungenen Umverteilung des Reichtums durch den Staat. Sozialismus, nach Bastiat, ist gekennzeichnet durch die Ideologie der legalen Plünderung. Aber die List dieser Ideologie ist, dass sie ihre Gewalt unter einem Missbrauch der Sprache verbirgt: der Aufruf zur Solidarität oder Brüderlichkeit.
+> Doch diese Perversion des Gesetzes hat einen Namen, es ist der Sozialismus, das heißt, die Ideologie der erzwungenen Umverteilung des Reichtums durch den Staat. Sozialismus, nach Bastiat, ist gekennzeichnet durch die Ideologie der legalen Plünderung. Aber die List dieser Ideologie ist, dass sie ihre Gewalt unter einem Missbrauch der Sprache verbirgt: der Aufruf zur Solidarität oder Brüderlichkeit.
 
 ![image](assets/image/16/IMG4.webp)
 
@@ -853,7 +849,6 @@ Das Gesetz kann einen Menschen zwingen, gerecht zu sein, aber es kann ihn nicht 
 ## Das Recht auf Eigentum
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
-
 
 Mit Eigentum sollte man hier nicht Land verstehen. Es bedeutet "das Recht eines Arbeiters über den Wert, den er durch seine Arbeit geschaffen hat." Bastiat präzisiert:
 
@@ -940,12 +935,11 @@ Für ihn muss der Zweck des Gesetzes einfach sein, "allen Plünderungen ein Ende
 Sie sind sich sicher, dass ihre natürlichen Rechte garantiert und unantastbar sind. Gesicherte Eigentumsrechte geben den Menschen die Fähigkeit, langfristige Pläne zu machen, weil sie wissen, dass ihre Vermögenswerte vor Plünderung sicher sind.
 
 > Fehlen von Plünderung, — es ist das Prinzip der Gerechtigkeit, des Friedens, der Ordnung, der Stabilität, der Versöhnung, des gesunden Menschenverstands, das ich mit aller Kraft, ach! unzureichend, meiner Lungen verkünden werde, bis zu meinem letzten Atemzug
-Bastiat schrieb in "Das Gesetz", einige Zeit bevor er starb. Ein Jahrhundert nach dem Tod von Frédéric Bastiat ist die legale Plünderung in der Allgemeinen Erklärung der Menschenrechte von 1948 deutlich erkennbar, insbesondere in ihren Artikeln 22 ("jeder hat das Recht auf soziale Sicherheit"), 23 ("jeder hat das Recht auf Arbeit"), 24 ("jeder hat das Recht auf Erholung und Freizeit"), 25 ("jeder hat das Recht auf einen Lebensstandard, der seine Gesundheit und sein Wohlergehen sichert"), 26 ("jeder hat das Recht auf Bildung").
+> Bastiat schrieb in "Das Gesetz", einige Zeit bevor er starb. Ein Jahrhundert nach dem Tod von Frédéric Bastiat ist die legale Plünderung in der Allgemeinen Erklärung der Menschenrechte von 1948 deutlich erkennbar, insbesondere in ihren Artikeln 22 ("jeder hat das Recht auf soziale Sicherheit"), 23 ("jeder hat das Recht auf Arbeit"), 24 ("jeder hat das Recht auf Erholung und Freizeit"), 25 ("jeder hat das Recht auf einen Lebensstandard, der seine Gesundheit und sein Wohlergehen sichert"), 26 ("jeder hat das Recht auf Bildung").
 
 ## Die Rolle des Gesetzes und des Staates
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
-
 
 Im Jahr 1848 war Bastiat Abgeordneter. Er wurde zum Vizepräsidenten der Finanzkommission ernannt. Er war also besonders gut positioniert, um diese Frage zu beantworten: Was ist der Staat? Wir wenden uns an den Staat, um unser Wohlergehen zu sichern. Aber Bastiat erinnert uns daran, dass der Staat den Bürgern nichts geben kann, was er ihnen nicht zuvor genommen hat.
 
@@ -990,20 +984,9 @@ Schrieb Frédéric Bastiat in einer kurzen Broschüre mit dem Titel Der Staat.
 
 ![image](assets/image/19/IMG9.webp)
 
-# Schlussfolgerung
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-
-
-## Bewerten Sie den Kurs
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Das Erbe von Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
-
 
 Bastiats Einfluss begann gegen Ende des 19. Jahrhunderts zu schwinden, mit dem Aufstieg des Sozialismus und insbesondere des Marxismus innerhalb von Universitäten und Forschungsinstituten, finanziert mit öffentlichen Geldern.
 
@@ -1031,4 +1014,52 @@ Wenn wir die Dinge aus diesem Blickwinkel betrachten, erklärte Reagan den GE-Mi
 ![Bild](assets/image/20/IMG10.webp)
 Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüsselelemente einer liberalen Vision von Gesellschaft und Mensch: die Vorrangstellung der Zivilgesellschaft vor dem Staat, den Wert der Wahl und der individuellen Verantwortung, die Bedeutung des Unternehmers bei der Schaffung von Wohlstand, die Wichtigkeit eines flexiblen und minimalen rechtlichen Rahmens, der Vertrauen und Respekt für Verträge ermöglicht, das grundlegende Gesetz, dass Wohlstand geschaffen werden muss, bevor er verteilt werden kann, den Wunsch, jedem eine Chance auf wettbewerbsorientierten Märkten zu geben…
 
+# Fazit
 
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Bewerten Sie diesen Kurs
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Abschlussprüfung
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Fazit
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Herzlichen Glückwunsch zum Abschluss dieses Kurses!
+
+Wir freuen uns, dass Sie diesen wichtigen Meilenstein in Ihrer Lernreise erreicht haben.
+
+Durch Ihr Engagement und Ihre Hingabe haben Sie wertvolles Wissen und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung dienen werden.
+
+Um das Bitcoin-Universum weiter zu erforschen, laden wir Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
+
+#### Entdecken Sie Bitcoin und seine Grundlagen mit
+
+https://planb.network/courses/btc101
+
+#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
+
+https://planb.network/courses/btc102
+
+#### Aktualisieren Sie Ihre Online-Sicherheit mit
+
+https://planb.network/courses/scu101
+
+#### Entdecken Sie das Lightning Network mit
+
+https://planb.network/courses/lnp201
+
+#### Lernen Sie das ökonomische Denken der Österreichischen Schule mit
+
+https://planb.network/courses/eco201
+
+#### Verstehen Sie die Bitcoin-Grundlagen und bauen Sie Ihre Hausheizung mit
+
+https://planb.network/courses/min201

@@ -1005,15 +1005,6 @@ _(西塞罗)_
 
 ![image](assets/image/19/IMG9.webp)
 
-# 结论
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-## 评估课程
-
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## 弗雷德里克·巴斯夏特的遗产
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
@@ -1048,3 +1039,52 @@ _(西塞罗)_
 
 本质上，里根从巴斯夏特那里借鉴了几个自由主义社会和人的关键要素：民间社会优于国家的首要地位，选择和个人责任的价值，企业家在财富创造中的重要性，灵活和最小法律框架的重要性，这为信任和尊重合同提供了条件，财富必须先创造出来才能分配的基本法则，以及在竞争市场中给予每个人机会的愿望…
 
+# 总结
+
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## 评价本课程
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## 期末考试
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## 总结
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+恭喜您完成本课程！
+
+我们很高兴看到您在学习旅程中达到这个重要的里程碑。
+
+通过您的专注和投入，您获得了宝贵的知识和技能，这将有助于您的职业发展。
+
+为了继续深入探索比特币的世界，我们邀请您了解 Plan ₿ Network 上提供的所有其他课程：
+
+#### 通过以下课程探索比特币及其基础知识
+
+https://planb.network/courses/btc101
+
+#### 通过以下课程获取并保护您的第一笔比特币
+
+https://planb.network/courses/btc102
+
+#### 通过以下课程更新您的在线安全
+
+https://planb.network/courses/scu101
+
+#### 通过以下课程探索闪电网络
+
+https://planb.network/courses/lnp201
+
+#### 通过以下课程学习奥地利学派的经济思想
+
+https://planb.network/courses/eco201
+
+#### 通过以下课程了解比特币基础知识并构建您的家庭供暖系统
+
+https://planb.network/courses/min201

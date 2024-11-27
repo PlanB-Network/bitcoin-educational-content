@@ -1,9 +1,9 @@
-question: Siin on jada kümnendarve (10 25 13 18 02 31). Mis on õige teisendus Bech32-ks?
-answer: 2edjzl
+question: Mida tähendab eesliide `wpkh` kirjeldajas?
+answer: Maksa tunnistaja avaliku võtme räsi eest
 wrong_answers:
-  - 2udjpr
-  - 2uaz2c
-  - 3bdjsr
+  - Maksa avaliku võtme eest
+  - Maksa skripti räsi eest
+  - Tunnistaja skripti räsi
 explanation: |
-  Kümnendarvude teisendamine Bech32-ks toimub läbi spetsiifilise vastavustabeli, ja jada 10 25 13 18 02 31 vastab 2edjzl-le.
+  Eesliide `wpkh` viitab SegWit v0 skriptile, kasutades Maksa-tunnistaja-avaliku-võtme-räsi aadresse.
 reviewed: false

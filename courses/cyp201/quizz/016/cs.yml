@@ -1,9 +1,9 @@
-question: Abychom mohli použít tuto eliptickou křivku pro kryptografické účely, na jakém poli ji musíme definovat?
-answer: Konečné pole kladných celých čísel.
+question: Který algoritmus podpisu byl zaveden v Bitcoinu s Taproot?
+answer: Schéma podpisu Schnorr
 wrong_answers:
-  - Pole reálných čísel.
-  - Konečné pole reálných čísel.
-  - Komplexní pole.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  V Bitcoinu je eliptická křivka secp256k1 definována nad konečným polem kladných celých čísel modulo prvočíslo, aby se zabránilo aproximacím a zajistila bezpečnost.
+  Schéma podpisu Schnorr bylo zavedeno v listopadu 2021 s aktualizací Taproot.
 reviewed: false

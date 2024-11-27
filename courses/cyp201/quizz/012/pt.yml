@@ -1,9 +1,9 @@
-question: Quantas iterações são usadas na função PBKDF2 no Bitcoin?
-answer: 2048.
+question: Qual é o tamanho do bloco usado pelo SHA512 no HMAC?
+answer: 128 bytes
 wrong_answers:
-  - 512.
-  - 1000.
-  - 21000.
+  - 64 bytes
+  - 256 bytes
+  - 1024 bytes
 explanation: |
-  O Bitcoin utiliza 2048 iterações na função PBKDF2 para aumentar a segurança da semente.
+  O SHA512 utiliza blocos de 128 bytes, o que é equivalente a 1024 bits, para seus cálculos.
 reviewed: false

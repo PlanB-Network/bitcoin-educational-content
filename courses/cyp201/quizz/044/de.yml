@@ -1,9 +1,9 @@
-question: Wie konstruiert man die Wiederherstellungsphrase (Mnemonik) in Binärform?
-answer: Füge die Zufallszahl am Ende mit ihrer Prüfsumme zusammen.
+question: Was ist Entropie im Kontext der Kryptographie?
+answer: Ein Maß für die Unvorhersehbarkeit, die mit einem zufälligen Prozess verbunden ist
 wrong_answers:
-  - Füge die Zufallszahl am Anfang mit ihrer Prüfsumme zusammen.
-  - Füge die Zufallszahl mit einem Seed zusammen.
-  - Teile die Zufallszahl in zwei Teile und füge die Prüfsumme in der Mitte ein.
+  - Eine Methode zur Verschlüsselung sensibler Daten
+  - Ein Algorithmus zur Berechnung öffentlicher Schlüssel
+  - Eine Technik zur Datenkompression
 explanation: |
-  Um eine binäre mnemonische Phrase zu generieren, füge die Prüfsumme am Ende der Zufallszahl hinzu, bevor sie in Wörter umgewandelt wird.
+  In der Kryptographie quantifiziert Entropie das Niveau der Unsicherheit oder des Chaos in einer zufälligen Quelle, was für die Erzeugung sicherer Schlüssel wesentlich ist.
 reviewed: false

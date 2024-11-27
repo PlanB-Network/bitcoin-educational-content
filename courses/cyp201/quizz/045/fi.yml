@@ -1,8 +1,8 @@
-question: Mitä salasana edustaa HD-lompakossa?
-answer: Vaihtoehtoisen kryptografisen suolan mielivaltaisessa koossa.
+question: Mikä hajautusfunktio käytetään laskemaan mnemonisen lauseen tarkistussumma?
+answer: SHA256
 wrong_answers:
-  - 25. sana muistilauseessa.
-  - Pakollinen kryptografinen suola kiinteässä koossa.
-  - Toinen siemen.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  Salasana on vaihtoehtoinen kryptografinen suola, joka parantaa lompakon turvallisuutta lisäämällä lisätietoja muistilauseeseen siemenen määrittämiseksi.
+  Mnemonisen lauseen tarkistussumma lasketaan soveltamalla yksinkertaista SHA256-hajautusta entropiaan.

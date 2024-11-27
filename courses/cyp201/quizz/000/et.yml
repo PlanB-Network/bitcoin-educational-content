@@ -1,8 +1,9 @@
-question: Mis on krüptograafilise räsiprotsessi eesmärk?
-answer: Kaardistada suvalise pikkusega bitijada fikseeritud pikkusega bitijadaks.
+question: Mis on räsifunktsiooni peamine ülesanne?
+answer: See muudab suvalise pikkusega informatsiooni fikseeritud suurusega sõrmejäljeks
 wrong_answers:
-  - Sõnumi krüpteerimine.
-  - Tagada, et sõnumi saatja ei saa tulevikus eitada sõnumi saatmist.
-  - Andmete konfidentsiaalsuse garantii.
+  - See krüpteerib sõnumeid, et muuta need loetamatuks
+  - Seda kasutatakse ainult Bitcoini tarkvara terviklikkuse kontrollimiseks
+  - See genereerib privaatvõtmeid Bitcoini rahakottide jaoks
 explanation: |
-  Räsimine muundab mis tahes suurusega andmed fikseeritud suurusega väljundiks, mis on kasulik terviklikkuse kontrollimiseks ilma andmeid tingimata krüpteerimata või autentimata.
+  Räsifunktsioon teisendab mis tahes suurusega andmed fikseeritud suurusega räsiks, mis on kriitilise tähtsusega paljudes Bitcoini rakendustes.
+reviewed: false

@@ -1,9 +1,8 @@
-question: Bitcoinプロトコルで使用されているハッシュ関数は何ですか？
-answer: SHA-256, RIPEMD-160
+question: ハッシュ関数のどの特性が、メッセージがわずかに変更されたときにハッシュが完全に変化することによって示されますか？
+answer: アバランシェ効果
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - 衝突耐性
+  - 二次プレイメージ耐性
+  - 長さ
 explanation: |
-  Bitcoinでは、SHA-256とRIPEMD-160が使用されています。
-reviewed: false
+  入力が少し変わるだけでハッシュが根本的に変化することをアバランシェ効果と呼びます。

@@ -1,9 +1,9 @@
-question: Quais são as características de um PRNG criptograficamente seguro?
-answer: Deve ser imprevisível, estatisticamente aleatório e resistente a ataques.
+question: Qual é a principal função de uma carteira Bitcoin?
+answer: Gerenciar e proteger chaves privadas
 wrong_answers:
-  - Deve ser rápido, utilizável na nuvem e de código aberto.
-  - Deve ser não determinístico, baseado em um fenômeno físico e escalável.
-  - Deve ser baseado em hardware, gerado por um processador e reversível.
+  - Armazenar os bitcoins do usuário
+  - Garantir automaticamente a confidencialidade das transações
+  - Gerar bitcoins para cada usuário
 explanation: |
-  Um PRNG criptograficamente seguro deve ser imprevisível, resistente mesmo se alguns resultados forem revelados, e ter um período suficientemente longo para evitar a repetição de sequências.
+  Uma carteira Bitcoin não armazena diretamente os bitcoins, mas gerencia as chaves privadas necessárias para desbloquear os UTXOs que representam os bitcoins.
 reviewed: false

@@ -1,9 +1,8 @@
-question: Hvis jeg genererer et 128-bit tilfeldig tall, hva vil størrelsen på gjenopprettingsfrasen min være i ord?
-answer: 12 ord.
+question: Hva er den største risikoen ved å bruke en dårlig utformet PRNG for å generere entropi?
+answer: Private nøkler kunne bli gjettet av en angriper
 wrong_answers:
-  - 6 ord.
-  - 8 ord.
-  - 24 ord.
+  - Den mnemoniske frasen kunne inneholde feil ord
+  - Digitale signaturer ville bli ugyldige
+  - Bitcoin-adresser ville være inkompatible med nettverket
 explanation: |
-  Et 128-bit tilfeldig tall tilsvarer en 12-ords mnemonic frase, i henhold til BIP39-standarden.
-reviewed: false
+  En dårlig utformet PRNG kan produsere forutsigbare sekvenser, noe som gjør nøklene mer sårbare for angrep.

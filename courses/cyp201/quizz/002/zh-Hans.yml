@@ -1,8 +1,8 @@
-question: 比特币协议中使用了哪些哈希函数？
-answer: SHA-256, RIPEMD-160
+question: 当消息稍微改变时，哈希函数的哪个属性表现为哈希完全改变？
+answer: 雪崩效应
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
-explanation:
-  在比特币中，使用了SHA-256和RIPEMD-160。
+  - 抗碰撞性
+  - 第二原像抗性
+  - 长度
+explanation: |
+  输入的一个小改变会导致哈希发生根本性的变化，这就是所谓的雪崩效应。

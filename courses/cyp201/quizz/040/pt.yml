@@ -1,8 +1,9 @@
-question: Qual é a característica única da lista de 2048 palavras que permite a codificação mnemônica?
-answer: Nenhuma palavra tem as mesmas primeiras quatro letras na mesma ordem.
+question: Por que é arriscado gerar entropia manualmente para uma carteira HD?
+answer: Pode introduzir fraquezas humanas ou vieses previsíveis
 wrong_answers:
-  - Nenhuma palavra tem as mesmas últimas três letras.
-  - Nenhuma palavra começa com a letra “J”.
-  - Nenhuma palavra tem mais de seis letras.
+  - Resulta em chaves públicas inválidas
+  - Bloqueia a derivação de chaves privadas
+  - Limita o tamanho das frases mnemônicas geradas
 explanation: |
-  Esta característica ajuda a evitar qualquer ambiguidade ao inserir as palavras, garantindo assim a unicidade de cada palavra na lista, ao mesmo tempo que reduz o espaço de armazenamento necessário.
+  Gerar entropia manualmente pode introduzir vieses ou erros, tornando as chaves mais vulneráveis a ataques.
+reviewed: false

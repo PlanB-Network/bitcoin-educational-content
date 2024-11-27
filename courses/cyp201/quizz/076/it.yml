@@ -1,9 +1,9 @@
-question: Come viene calcolato il checksum di un indirizzo SegWit?
-answer: Con un codice BCH.
+question: A cosa corrisponde la notazione /<0;1>/* in un descrittore?
+answer: Alla catena esterna e interna con derivazione sequenziale
 wrong_answers:
-  - Con HASH160.
-  - Con HASH256.
-  - Con SHA512.
+  - A un indirizzo multisignature ordinato
+  - A un checksum per i percorsi di derivazione
+  - A un percorso di derivazione rinforzato
 explanation: |
-  Per gli indirizzi SegWit, il checksum viene calcolato utilizzando il codice BCH, che consente di rilevare possibili errori nell'indirizzo.
+  La notazione /<0;1>/* indica che il descrittore può generare indirizzi per la catena esterna (0) e interna (1), con derivazione sequenziale grazie al carattere jolly (*).
 reviewed: false

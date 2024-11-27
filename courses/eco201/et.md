@@ -17,9 +17,11 @@ Sellel mõttekoolil on juba mitu sajandit selja taga ja sellel on terve autorite
 +++
 
 # Sissejuhatus MAJANDUSSE
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Sissejuhatus
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Tere kõigile ja tere tulemast kursusele Econ 201: Sissejuhatus Austria majandusteadusesse.
@@ -37,6 +39,7 @@ Soojad tänud Théole selle kursuse loomise eest ja ma loodan, et ta saab teile 
 Kui olete valmis sellele seiklusele asuma, kutsun teid klõpsama järgneval videol ja alustama boonusvideoga meie praegusest finantssüsteemist. Ma annan nüüd sõna Théole. Tänan teda koostöö eest Descoupes Bitcoiniga selle video teostamisel. Näeme varsti. Head aega!
 
 ## Raha, Krediit, Pangad ja Keskpankad
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > “Konventsionaalse valuuta põhiprobleem on kogu usaldus, mis on vajalik selle toimimiseks. Keskpanka tuleb usaldada, et ta ei devalveeri valuutat, kuid fiat-valuutade ajalugu on täis selle usalduse rikkumisi. Panku tuleb usaldada, et nad hoiavad meie raha ja kannavad seda elektrooniliselt üle, kuid nad laenavad seda välja krediitmullide lainetes, hoides reservis vaid murdosa. Me peame neid usaldama oma privaatsusega, usaldama, et nad ei lase identiteedivargustel meie kontosid tühjendada.”
@@ -58,9 +61,9 @@ Maja ostes juhendate oma pankurit kandma raha müüja kontole. Kui müüja konto
 Joonis 1: Raha Loomine Raamatupidamiskannetena
 
 > “On küllaltki hea, et meie rahva inimesed ei mõista meie pangandus- ja rahandussüsteemi, sest kui nad seda teeksid, usun, et homme hommikul oleks revolutsioon”
-> 
+>
 > Henry Ford
-See protsess võimaldab pankadel registreerida kõik tehingud, sealhulgas pangaülekanded, krediitkaardiostud ja tšekid, kindlaksmääratud perioodi jooksul (tavaliselt nädal või kuu). Seejärel klaarivad nad need tehingud omavahel, kasutades pankade reserve, mis on teine avalikkuse poolt mittekasutatav fiat-raha vorm. Pangareservid hoitakse keskpangas erikontol, mis on ligipääsetav ainult litsentseeritud pankadele ja finantsasutustele.
+> See protsess võimaldab pankadel registreerida kõik tehingud, sealhulgas pangaülekanded, krediitkaardiostud ja tšekid, kindlaksmääratud perioodi jooksul (tavaliselt nädal või kuu). Seejärel klaarivad nad need tehingud omavahel, kasutades pankade reserve, mis on teine avalikkuse poolt mittekasutatav fiat-raha vorm. Pangareservid hoitakse keskpangas erikontol, mis on ligipääsetav ainult litsentseeritud pankadele ja finantsasutustele.
 
 ### Fraktsionaalreservpanganduse ebastabiilsus ja viimase instantsi laenuandja
 
@@ -85,6 +88,7 @@ Joonis3: Intressimäärad Peamistes Majandustes / Allikas: ECB
 Vastupidiselt paljude ootustele ei elavdanud QE programmid oluliselt majanduskasvu, kuid paisutasid finantsvarasid ajaloolistele tasemetele. See tõi peamiselt kasu jõukatele ja finantsasutustele, kuna nad juba omasid selliste varade märkimisväärseid koguseid, laiendades seeläbi varanduslikke erinevusi. Arvestades varem selgitatud pangandussüsteemi struktuuri, ei tohiks see tulemus üllatada. Kuna pangareservid ei saa hõlpsasti reaalmajandusse voolata, suurendasid QE programmid peamiselt varahindu, parandamata tõhusalt keskmiste inimeste finantsolukorda.
 
 ### Cantilloni Efekt
+
 Sellest episoodist võib siiski tuletada olulise majanduspõhimõtte: kui luuakse uut raha, saavad esialgu kasu need, kes on raha allikale lähemal, teiste kulul, kes on kaugemal. See majanduslik taip pärineb 18. sajandist, mil Richard Cantillon seda oma teoses "Essee Üldisest Kaubanduse Olemusest" kirjeldas. Nüüdseks on see tuntud kui "Cantilloni Efekt".
 ![image](assets/Image/4.webp)
 
@@ -113,16 +117,19 @@ Inflatsiooni tõustes märkimisväärse rahaloome tõttu vastusena COVID-iga seo
 ### Järeldus
 
 > "Selle vahendi (reservpõhise panganduse) abil võivad valitsused salaja ja märkamatult konfiskeerida inimeste varanduse, ja mitte üks inimene miljonist ei tuvastaks vargust"
-John Maynard Keynes
-Olemuselt seisab meie süsteem silmitsi oluliste väljakutsetega ja Bitcoin kerkib esile ainsa usaldusväärse alternatiivina. Siiski ei suuda Bitcoin üksi lahendada meie rahandussüsteemi probleeme. Eelkõige vajame inimesi, kes mõistavad majanduse põhiprintsiipe Bitcoin'i entusiastide seas, võimaldades laiemat teadlikkust ja majanduslikku terve mõistust, mis juhiks meid eemale teise hapra finantsaluse loomisest meie tsivilisatsioonile. Selle kursuse peamine eesmärk on harida uusi Bitcoin'i huvilisi terviklike majanduspõhimõtete alal.
+> John Maynard Keynes
+> Olemuselt seisab meie süsteem silmitsi oluliste väljakutsetega ja Bitcoin kerkib esile ainsa usaldusväärse alternatiivina. Siiski ei suuda Bitcoin üksi lahendada meie rahandussüsteemi probleeme. Eelkõige vajame inimesi, kes mõistavad majanduse põhiprintsiipe Bitcoin'i entusiastide seas, võimaldades laiemat teadlikkust ja majanduslikku terve mõistust, mis juhiks meid eemale teise hapra finantsaluse loomisest meie tsivilisatsioonile. Selle kursuse peamine eesmärk on harida uusi Bitcoin'i huvilisi terviklike majanduspõhimõtete alal.
 
 Selle eesmärgi saavutamiseks selgitame "Austria Majanduse" põhiprintsiipe, mis on majanduskoolkond, millel on metodoloogiline traditsioon, mis ulatub tagasi 16. sajandisse, pakkudes teadmisi inimtegevusest majanduslike piirangute all. Selle sissejuhatusega mõistate nüüd raha loomise põhitõdesid ja meie finants- ja rahandussüsteemi praegust olukorda.
 
 Järgmises peatükis süveneme mis tahes majanduskoolkonna alustalasse: väärtusteooriasse. Järgnevad peatükid uurivad raha kui sotsiaalset institutsiooni, kapitali ja äritsüklite teooriat, majandusliku arvutamise väljakutset ning Austria Majanduskooli ajaloo ja metodoloogia lühikirjeldust.
 
 # Teoreetilised Alused
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+
 ## Subjektiivne Väärtusteooria
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > “Väärtus eksisteerib ainult inimteadvuses”
@@ -201,6 +208,7 @@ Subjektiivse ordinaalväärtuse mõistmisele toetudes selgitas Menger tööjaotu
 Järgnevad peatükid on pühendatud raha tekkimisele kui sotsiaalsele nähtusele, kapitali ja intressi teooriale, mis saavad olema Äritsükli Teooria aluseks, ja lõpuks hindade rollile majandusarvestuses.
 
 ## Raha tekkimine kui sotsiaalne nähtus
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Kuigi inimestel on ühine huvi spetsialiseerumise ja tööjaotuse maksimeerimise vastu, on siiski koordineerimisprobleeme, mis piiravad selle laienemist.
@@ -218,10 +226,10 @@ Algselt formuleeriti vangi dilemma järgmiselt: Kaks kahtlusalust, Alice ja Bob,
 
 Need tulemused saab esitada maatriksina (numbrilised tulemused näitavad vangistuse aastate arvu):
 
-| Alice / Bob       | Süüdistab   | Vaikib       |
-| ----------------- | ----------- | ------------- |
-| **Süüdistab**     | 2, 2        | 0, 3         |
-| **Vaikib**        | 3, 0        | 1, 1         |
+| Alice / Bob   | Süüdistab | Vaikib |
+| ------------- | --------- | ------ |
+| **Süüdistab** | 2, 2      | 0, 3   |
+| **Vaikib**    | 3, 0      | 1, 1   |
 
 Selles mängus ei ole koordineerimise võimalust (suhtlus on võimatu), et saavutada mõlema osapoole jaoks parim tulemus. Seetõttu on Alicel ja Bobil individuaalne stiimul teineteist süüdistada, kuigi see ei vii grupi jaoks optimaalse tulemuseni. Mõlema jaoks optimaalne strateegia on vaikida, saades mõlemad 1-aastase karistuse.
 
@@ -238,7 +246,7 @@ Siiski, kui tegemist on suuremate kogukondadega, mis saavad tööjaotusest oluli
 Esiteks, inimesed on piiratud oma kognitiivsete võimetega. Inimesel on võimatu säilitada ja meenutada stabiilseid sotsiaalseid suhteid rohkem kui 150 inimesega, muutes mainesüsteemi vangi dilemma ületamiseks suures mastaabis ebapiisavaks.
 
 Teiseks, panuste väärtuse sotsiaalselt aktsepteeritud mõõtmine vahetuses (võrreldavus) on mitte-triviaalne probleem. Näiteks, kui üksikisik pakub jahti pidades liha ja soovib vastutasuks materjale varjualuse jaoks, kuidas saab pakutava liha kogust hinnata võrdväärsetes terminites nõutud materjalidega? Sama kehtib kvaliteedi kohta – kas hirveliha on rohkem või vähem väärt kui puit?
-Isegi kui oleks võimalik kehtestada rahuldav vahetuskurss iga kaubapaari jaoks, muutub selle teabe meeldejätmine kiiresti ebapraktiliseks. Otseses vahetussüsteemis, mis hõlmab N kaupa, on vaja meeles pidada N(N-1)/2 vahetuskurssi. Majanduses, kus on 50 kaupa, tähendab see 50*49/2 ehk 1225 vahetuskursi meeldejätmist, võrreldes vaid 50-ga kaudsetes vahetustes. 100 kauba majanduses suureneb see number 4950-ni. Selline kvadratiline suhe seab otsesele vahetusele (barterile) täiendava piirangu skaalatavusele.
+Isegi kui oleks võimalik kehtestada rahuldav vahetuskurss iga kaubapaari jaoks, muutub selle teabe meeldejätmine kiiresti ebapraktiliseks. Otseses vahetussüsteemis, mis hõlmab N kaupa, on vaja meeles pidada N(N-1)/2 vahetuskurssi. Majanduses, kus on 50 kaupa, tähendab see 50\*49/2 ehk 1225 vahetuskursi meeldejätmist, võrreldes vaid 50-ga kaudsetes vahetustes. 100 kauba majanduses suureneb see number 4950-ni. Selline kvadratiline suhe seab otsesele vahetusele (barterile) täiendava piirangu skaalatavusele.
 
 Lisaks, kuna need vahetused ei toimu koheselt, vaid on ajaliselt hajutatud, muudab panuste ajas hindamine suhtelise panuse hindamise veelgi keerulisemaks. Lisaks kahe praeguse kauba vahetussuhte hindamisele muutub vajalikuks hinnata mineviku panuse väärtust võrreldes tuleviku vastega.
 
@@ -280,9 +288,11 @@ Sellega seoses mängib raha, võimaldades väärtuse säilitamist olevikus ja se
 Järgmises peatükis süveneme ajaeelistuse kontseptsiooni ja selgitame Austria perspektiivi intressist ja kapitalist, mis saab olema aluseks järgmisele peatükile Äritsükli Teooria kohta.
 
 ## Ajaeelistus, Intress ja Kapital
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Ajaeelistus
+
 Viimases peatükis jõudsime järeldusele, kuidas majandussubjektid kasutavad kõige likviidsemat kaupa, st raha, et tuleviku ebakindlust maandada. Samuti selgitasime, et ajaliste nähtuste järjestikune olemus viib meid ebakindlusega järk-järgult võitlema: alles siis, kui teame, et meie toimetulek on järgmiseks nädalaks tagatud, saame keskenduda kaugematele eesmärkidele.
 Teisisõnu: inimestena diskonteerime tulevaste kaupade väärtust.
 
@@ -345,16 +355,18 @@ Seda illustreerib suurepäraselt allpool olev graafik: pikad intressimäärad on
 Seda uurime järgmises peatükis, mis on pühendatud Austria äritsükli teooriale!
 
 # Austria Majandusperspektiivid
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Austria Äritsükli Teooria
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > "Mida kauem inflatsioonilise pangakrediidi buum kestab, seda suurem on kapitalikaupade valeinvesteeringute ulatus ja seda suurem on vajadus nende ebatervete investeeringute likvideerimise järele. Kui krediidi laienemine peatub, pöördub või isegi oluliselt aeglustub, paljastuvad valeinvesteeringud"
 >
 > Ludwig von Mises
-Ludwig Von Mises, Böhm-Bawerki kõige saavutatud õpilane ja vaieldamatult 20. sajandi kõige olulisem Austria majandusteadlane, kasutas Böhm-Bawerki kapitali põhjendusi, et selgitada majandustsüklite põhjuseid ja dünaamikat. Friedrich A. Hayek, Mises'i protežee, laiendas hiljem seda põhjendust oma loogilistele järeldustele töödes, mille eest talle anti 1974. aastal majandusteaduse Nobeli preemia.
-Mises ja Hayek alustasid oma analüüsi säästude suurenemisest kui lähtepunktist. Nagu oleme eelmistes peatükkides näinud, tähendab säästude suurenemine paratamatult vastavat tarbimise vähenemist ja seega tarbekaupade suhteliselt madalamat hinda. See toob kaasa kaks mõju: esiteks, kapitalikaupade nõudluse suurenemine, mida põhjustab reaalpalga tõus tarbekaupade hindade suhtelise languse tõttu; ja teiseks, ettevõtjate kasumi suurenemine tootmise etappides, mis on tarbimisest kaugemal (madalam järjekord). Kuna reaalpalgad tõusevad, on ettevõtjatel stiimul tööjõudu säästa, kasutades rohkem kapitalikaupu, mis loob tugevama nõudluse kapitalikaupade järele ja suuremad kasumid ettevõtjatele, kes toodavad neid madalama järjekorra kaupu. Seega, suurenenud säästude kontekstis, st ajaeelistuste vähenemises, intressimäärad langevad, edendades tootmise lisatasandite arendamist ja suurendades tootlikkust. See on klassikaline Böhm-Bawerkian tootmise kõrvalepõige ja see on väga soovitav tulemus.
+> Ludwig Von Mises, Böhm-Bawerki kõige saavutatud õpilane ja vaieldamatult 20. sajandi kõige olulisem Austria majandusteadlane, kasutas Böhm-Bawerki kapitali põhjendusi, et selgitada majandustsüklite põhjuseid ja dünaamikat. Friedrich A. Hayek, Mises'i protežee, laiendas hiljem seda põhjendust oma loogilistele järeldustele töödes, mille eest talle anti 1974. aastal majandusteaduse Nobeli preemia.
+> Mises ja Hayek alustasid oma analüüsi säästude suurenemisest kui lähtepunktist. Nagu oleme eelmistes peatükkides näinud, tähendab säästude suurenemine paratamatult vastavat tarbimise vähenemist ja seega tarbekaupade suhteliselt madalamat hinda. See toob kaasa kaks mõju: esiteks, kapitalikaupade nõudluse suurenemine, mida põhjustab reaalpalga tõus tarbekaupade hindade suhtelise languse tõttu; ja teiseks, ettevõtjate kasumi suurenemine tootmise etappides, mis on tarbimisest kaugemal (madalam järjekord). Kuna reaalpalgad tõusevad, on ettevõtjatel stiimul tööjõudu säästa, kasutades rohkem kapitalikaupu, mis loob tugevama nõudluse kapitalikaupade järele ja suuremad kasumid ettevõtjatele, kes toodavad neid madalama järjekorra kaupu. Seega, suurenenud säästude kontekstis, st ajaeelistuste vähenemises, intressimäärad langevad, edendades tootmise lisatasandite arendamist ja suurendades tootlikkust. See on klassikaline Böhm-Bawerkian tootmise kõrvalepõige ja see on väga soovitav tulemus.
 
 Siiski mõtlesid kaks Austria majandusteadlast, mis juhtuks, kui intressimäärade langus, mis toimib selle tootmise kõrvalepõike lähtepunktina, ei tuleneks säästude suurenemisest, vaid hoopis krediidi laienemisest.
 
@@ -416,6 +428,7 @@ Enam kui ükski teine majanduskool, rõhutab Austria Kool suhteliste hindade tä
 See saab olema järgmise ja viimase peatüki teema sellel kursusel.
 
 ## Majandusarvestuse võimatus sotsialismi tingimustes
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > “Kus tootmisteguritele ei ole turuhindu, sest neid ei osteta ega müüda, on võimatu kasutada arvestust tuleviku tegevuse planeerimisel ja mineviku tegevuse tulemuste määramisel. Sotsialistlik tootmise juhtimine lihtsalt ei tea, kas see, mida ta kavandab ja teostab, on kõige sobivam vahend taotletud eesmärkide saavutamiseks. See toimib pimeduses, nii-öelda. See raiskab nii materiaalseid kui ka inimlikke (tööjõu) tootmistegureid. Kaos ja vaesus kõigile on vältimatud”
@@ -484,6 +497,7 @@ Peavoolu majandusteadlased ja keskplaneerijad tihti ei salli Austria majandustea
 Austria traditsioon kehastab tagasihoidlikku lähenemist inimtegevusele, tõmmates sügavaid järeldusi subjektiivse väärtuse, ebakindluse, vaba tahte ja keerukuse kontseptsioonidest. See selgitab, kuidas turukord, hoolimata sellest, et see ei ole inimkujunduse produkt, seisab meie arengu ja jõukuse keskse institutsioonina. Kui sellest kursusest on üks peamine võtmesõna, siis on see, et kapitalism sai domineerivaks majandussüsteemiks tänu oma võimele kohaneda muutustega dünaamilises ja ebakindlas maailmas, kus elavad vabad isikud.
 
 ## Austria Metodoloogia
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Austria majanduskool eristub teistest koolkondadest oma aksiomaatilis-deduktiivse metodoloogiaga, mis erineb sageli sotsiaalteadustes kasutatavast positivistlikust lähenemisest. Positivistlik lähenemine põhineb empiirilistest andmetest tuletatud seadustel, kasutades meetodit, mis on sarnane füüsikateaduste omaga. See formuleerib hüpoteese vaatlustest, mida seejärel kinnitatakse või lükatakse ümber ajutiste eksperimentidega. Teaduslik meetod seisneb hüpoteesi säilitamises, mis kõige paremini selgitab andmeid ja jätkab selle uurimist, kuni leitakse täpsem hüpotees.
@@ -503,17 +517,21 @@ Oluline on märkida, et valikuline andmete valimine, et luua seoseid muutujate v
 Metoodika on majandusteaduses ja üldiselt sotsiaalteadustes oluline aspekt. See mõjutab, kuidas küsimusi esitatakse, hüpoteese sõnastatakse ja andmeid tõlgendatakse. Majanduskoolkondade metoodiliste erinevuste mõistmine võib aidata meil hinnata erinevaid perspektiive ja arendada oma arvamusi eelnevalt arutatud teemadel.
 
 # Järeldus
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
 ## Kursuse hindamine
+
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
+
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Edasised õpingud
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Palju õnne ECON 201 kursuse lõpetamise puhul! Loodan siiralt, et see oli nauditav ja avas teile uksi. Teie avastusreis Bitcoini maailmas on alles algus, ja ma kutsun teid uurima kõiki teisi ülikoolis saadaolevaid kursuseid.
@@ -532,21 +550,56 @@ Lisaks nendele lugemistele võite leida teavet Austria majanduse kohta, uurides 
 
 Nende teoste lugemise ja nende veebiallikate uurimisega saate arendada sügavamat arusaama Austria majanduskooli põhiprintsiipidest ja ideedest.
 
-### Toetage meid
-See kursus, nagu ka kogu selle ülikooli sisu, on teile meie kogukonna poolt tasuta pakutud. Meie toetamiseks võite seda teistega jagada, saada ülikooli liikmeks ja isegi aidata selle arendamisele kaasa GitHubi kaudu. Kogu meeskonna nimel, aitäh!
-### Hinda kursust (varsti saadaval)
+# Kokkuvõte
 
-Kursuse hindamissüsteem integreeritakse varsti sellesse uude E-õppe platvormi! Vahepeal suur tänu kursuse läbimise eest ja kui see teile meeldis, kaaluge palun selle jagamist teistega. (varsti saadaval)
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
 
-Kui soovite jätkata Austria majanduse teema uurimist, soovitan mitmeid intervjuusid Théo Mogenet'iga:
+## Hinda seda kursust
 
-- [Kuidas valmistuda järgmiseks majanduskriisiks?](https://youtu.be/GJT8t1TEd7Q)
-- [Kuidas saab euro hävitamist korraldada?](https://youtu.be/eK3ONo11HN8)
-- [Hüper-bitcoiniseerumine: kas me saame toimida BTC standardil?](https://youtu.be/nkN2twZ-lJY)
-  Kui soovite veelgi rohkem, võite vaadata neid arutelusid makromajandusliku olukorra ja muude erinevate teemade üle:
-- [Kuidas hävitada Bitcoini?](https://youtu.be/gHKvj4eeiDg)
-- [Kas Bitcoin on parempoolne, vasakpoolne või anarhistlik?](https://youtu.be/4fXGxzLtIIw)
-- [Planeedi päästmiseks loobu dollarist ja eurost](https://youtu.be/iHagDlH4bf8)
-- [Miks intressimäärade tõus on võimatu?](https://youtu.be/iHagDlH4bf8)
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
 
-Muidu jätkake õppimist ülikooli teiste koolituste ja õpetustega!
+## Lõpueksam
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kokkuvõte
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+Palju õnne kursuse lõpetamise puhul!
+
+Meil on hea meel, et olete jõudnud selle olulise tähiseni oma õppimisteel.
+
+Tänu teie pühendumusele ja pühendumisele olete omandanud väärtuslikud teadmised ja oskused, mis teenivad teid teie professionaalses arengus.
+
+Bitcoini universumi põhjalikumaks uurimiseks kutsume teid avastama kõiki teisi Plan ₿ Networkis saadaolevaid kursusi:
+
+#### Avastage F. Bastiat' elu koos kursusega
+
+https://planb.network/courses/eco102
+
+#### Mõistke hüperinflatsioonide teket koos kursusega
+
+https://planb.network/courses/eco204
+
+#### Avastage Bitcoin ja selle põhitõed koos kursusega
+
+https://planb.network/courses/btc101
+
+#### Uuendage oma veebiturvalisust koos kursusega
+
+https://planb.network/courses/scu101
+
+#### Avastage Lightning Network koos kursusega
+
+https://planb.network/courses/lnp201
+
+#### Õppige looma oma Bitcoini kogukonda koos kursusega
+
+https://planb.network/courses/btc302
+
+#### Mõistke, kuidas Bitcoin-rahakott töötab koos kursusega
+
+https://planb.network/courses/cyp201
+

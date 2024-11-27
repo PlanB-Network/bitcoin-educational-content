@@ -1,8 +1,9 @@
-question: Quais são os algoritmos usados para derivação em carteiras HD Bitcoin?
-answer: HMAC/PBKDF2
+question: Qual algoritmo de derivação é usado para calcular um código de autenticação baseado em uma chave secreta?
+answer: HMAC-SHA512
 wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  As carteiras HD Bitcoin utilizam HMAC (Código de Autenticação de Mensagem Baseado em Hash) para a derivação de chaves e PBKDF2 (Função de Derivação de Chave Baseada em Senha 2) para a derivação de semente.
+  HMAC-SHA512 é um algoritmo que combina uma função de hash e uma chave secreta para calcular um código de autenticação.
+reviewed: false

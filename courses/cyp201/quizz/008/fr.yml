@@ -1,9 +1,9 @@
-question: De combien de tours est constituée la fonction de compression de SHA256 ?
-answer: 64 tours.
+question: Pourquoi SHA256 applique-t-il un pré-traitement au message d'entrée ?
+answer: Pour garantir une longueur multiple de 512 bits
 wrong_answers:
-  - 10 tours.
-  - 128 tours.
-  - 150 tours.
+  - Pour vérifier l'intégrité du message
+  - Pour chiffrer les données avant hachage
+  - Pour augmenter la taille des hashes générés
 explanation: |
-  La fonction de compression de SHA256 effectue 64 tours pour chaque bloc de données traité.
+  Le pré-traitement ajuste la longueur du message en ajoutant des bits de rembourrage et une représentation binaire de sa longueur.
 reviewed: false

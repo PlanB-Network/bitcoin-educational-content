@@ -1,9 +1,9 @@
-question: De quelle taille doit être l'input de la fonction SHA256 une fois égalisé ?
-answer: D'un multiple de 512 bits.
+question: Pourquoi l'irréversibilité est-elle assurée dans SHA256 ?
+answer: Les opérations utilisées suppriment des informations et sont à sens unique
 wrong_answers:
-  - De 256 bits.
-  - De 256 octets.
-  - D'un multiple de 256 bits.
+  - Les messages sont chiffrés avant le hachage
+  - Les bits sont réorganisés de manière aléatoire
+  - Chaque hash est stocké dans une base de données
 explanation: |
-  La fonction SHA256 exige que l'input soit un multiple de 512 bits après le rembourrage pour fonctionner correctement.
+  Les opérations comme ShR et XOR rendent impossible le retour à l'état initial, garantissant l'irréversibilité.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Pro výpočet hodnot hlavního klíče a hlavního řetězového kódu je prvním vstupem do funkce HMAC-SHA512 seed (semeno). Jaká je druhá vstupní hodnota této funkce, která slouží jako klíč?
-answer: Bitcoin seed.
+question: Jaká je hlavní role hesla v Bitcoin HD peněžence?
+answer: Modifikovat odvození klíče pro zvýšení bezpečnosti
 wrong_answers:
-  - Mnemonická fráze.
-  - Heslová fráze.
-  - Seed.
+  - Dešifrovat čekající transakce
+  - Generovat UTXO peněženky
+  - Chránit přístup k peněžence pomocí rozpoznávání obličeje
 explanation: |
-  Řetězec Bitcoin seed je použit jako klíč v HMAC-SHA512 pro odvození hlavního klíče a hlavního řetězového kódu ze seedu.
+  Heslo působí jako druhý faktor zabezpečení, který mění semínko pro odvození klíče, aby zabránil přístupu k peněžence v případě, že je mnemonická fráze ohrožena.
 reviewed: false

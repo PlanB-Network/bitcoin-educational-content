@@ -1,9 +1,9 @@
-question: Cụm từ bí mật trong ví HD đại diện cho cái gì?
-answer: Một loại muối mật mã tùy chọn có kích thước tùy ý.
+question: Hàm băm nào được sử dụng để tính toán giá trị kiểm tra của một cụm từ ghi nhớ?
+answer: SHA256
 wrong_answers:
-  - Một từ thứ 25 trong cụm từ ghi nhớ.
-  - Một loại muối mật mã bắt buộc có kích thước cố định.
-  - Một hạt giống thứ hai.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  Cụm từ bí mật là một loại muối mật mã tùy chọn, giúp tăng cường bảo mật cho ví bằng cách thêm thông tin bổ sung vào cụm từ ghi nhớ để xác định hạt giống.
+  Giá trị kiểm tra của một cụm từ ghi nhớ được tính toán bằng cách áp dụng một hàm băm SHA256 đơn giản lên entropy.
 reviewed: false

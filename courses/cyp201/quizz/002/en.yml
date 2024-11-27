@@ -1,9 +1,9 @@
-question: What are the hash functions used in the Bitcoin protocol?
-answer: SHA-256, RIPEMD-160
+question: Which property of hash functions is demonstrated by a complete change in the hash when a message changes slightly?
+answer: The avalanche effect
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - Collision resistance
+  - Second preimage resistance
+  - Length
 explanation: |
-  In Bitcoin, SHA-256 and RIPEMD-160 are used.
+  A small change in the input results in a radical change in the hash, this is what is called the avalanche effect.
 reviewed: false

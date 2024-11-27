@@ -1,9 +1,9 @@
-question: Jaká funkce se používá k odvození dětského klíčového páru z rodičovského klíčového páru v HD peněžence?
-answer: HMAC-SHA512.
+question: Jaký typ klíče je spojen s prefixem zpub?
+answer: Rozšířený veřejný klíč pro SegWit V0 na Mainnetu
 wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
+  - Rozšířený soukromý klíč pro SegWit V1 na Mainnetu
+  - Rozšířený veřejný klíč pro Legacy na Testnetu
+  - Rozšířený veřejný klíč pro SegWit V2 na Testnetu
 explanation: |
-  HMAC-SHA512 se používá k odvození dětského klíčového páru z rodičovského klíčového páru v HD peněžence.
+  Prefix zpub označuje rozšířený veřejný klíč pro skripty SegWit V0 na Mainnetu.
 reviewed: false

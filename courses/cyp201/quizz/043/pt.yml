@@ -1,9 +1,8 @@
-question: Como determinar o tamanho do bit da soma de verificação para uma frase de recuperação?
-answer: Divida o tamanho do número aleatório (entropia) por 32.
+question: Quantos bits de entropia são usados para uma frase mnemônica de 24 palavras?
+answer: 256 bits
 wrong_answers:
-  - Divida o tamanho do número aleatório (entropia) por 8.
-  - Divida o tamanho do número aleatório (entropia) por 16.
-  - Multiplique o tamanho do número aleatório (entropia) por 2.
+  - 128 bits
+  - 512 bits
+  - 64 bits
 explanation: |
-  O tamanho da soma de verificação é obtido dividindo-se o tamanho da entropia por 32, de acordo com o BIP39.
-reviewed: false
+  Uma frase mnemônica de 24 palavras é baseada em 256 bits de entropia, garantindo uma segurança muito alta.

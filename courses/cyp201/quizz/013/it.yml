@@ -1,9 +1,8 @@
-question: Cosa significa il prefisso 0x?
-answer: Il numero che segue questo prefisso è espresso in base 16 (esadecimale).
+question: Qual è il ruolo principale di PBKDF2 in Bitcoin?
+answer: Generare il seed di un portafoglio HD
 wrong_answers:
-  - Il numero che segue questo prefisso è espresso in base 2 (binario).
-  - Il numero che segue questo prefisso è espresso in base 10 (decimale).
-  - Il numero che segue questo prefisso è espresso in base 8 (ottale).
+  - Autenticare le transazioni
+  - Criptare le chiavi private
+  - Creare indirizzi Bitcoin
 explanation: |
-  Il prefisso 0x indica che il numero che segue è espresso in base 16 (esadecimale).
-reviewed: false
+  PBKDF2 è utilizzato per derivare un seed da una frase mnemonica e una passphrase opzionale.

@@ -1,9 +1,9 @@
-question: Kui ma genereerin 256-bitise juhusliku numbri, kui suur on minu taastefraas sõnades?
-answer: 24 sõna.
+question: Mis on peamine erinevus PRNG ja TRNG vahel?
+answer: PRNG on deterministlik, samas kui TRNG genereerib tõeliselt juhuslikke numbreid.
 wrong_answers:
-  - 6 sõna.
-  - 8 sõna.
-  - 12 sõna.
+  - PRNG on suurte arvude puhul kiirem kui TRNG.
+  - PRNG-d kasutatakse ainult krüpteerimiseks, TRNG-d mitte.
+  - PRNG kasutab privaatvõtmeid, TRNG kasutab avalikke võtmeid.
 explanation: |
-  256-bitine juhuslik number vastab BIP39 standardi kohaselt 24-sõnalisele mnemoonilisele fraasile.
+  PRNG-d on deterministlikud, mis tähendab, et nad suudavad taasluua jadasid algseisundist, erinevalt TRNG-dest.
 reviewed: false

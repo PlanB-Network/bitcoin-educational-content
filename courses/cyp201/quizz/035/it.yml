@@ -1,9 +1,9 @@
-question: Qual è l'informazione primitiva che consente di determinare una buona frase mnemonica per un portafoglio HD?
-answer: Un'entropia esterna che permette di determinare un numero casuale o pseudo-casuale.
+question: Quale standard Bitcoin introduce i portafogli deterministici gerarchici?
+answer: BIP32
 wrong_answers:
-  - Il primo nome del proprietario del portafoglio.
-  - Nessuna informazione, scegliamo direttamente le parole che ci piacciono.
-  - La data di creazione del portafoglio.
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  La frase mnemonica deriva da una fonte di entropia, ovvero informazioni casuali o pseudo-casuali, per garantire la sicurezza delle chiavi private.
-reviewed: false
+  BIP32 definisce il funzionamento dei portafogli HD, consentendo la derivazione gerarchica delle chiavi private da un seme.
+recensito: false

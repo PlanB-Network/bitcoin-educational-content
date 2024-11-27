@@ -1,9 +1,9 @@
-question: In quale sistema numerico viene solitamente codificata la chiave estesa per essere presentata all'utente?
-answer: In Base 58.
+question: Qual è il ruolo del seed in un portafoglio Bitcoin HD?
+answer: Fungere da punto di partenza per la derivazione di tutte le chiavi
 wrong_answers:
-  - In bech32.
-  - In Base 16.
-  - In bech32m.
+  - Memorizzare le transazioni del portafoglio
+  - Generare direttamente la chiave pubblica master
+  - Garantire la riservatezza della transazione
 explanation: |
-  La chiave estesa è generalmente codificata in Base 58 per essere più leggibile per l'utente e per evitare caratteri ambigui.
+  Il seed è una sequenza di 512 bit derivata dalla frase mnemonica e dalla passphrase. Costituisce la base di tutte le chiavi nel portafoglio.
 reviewed: false

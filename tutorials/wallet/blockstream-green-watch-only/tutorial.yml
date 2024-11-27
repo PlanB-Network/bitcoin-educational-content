@@ -1,0 +1,25 @@
+id: 66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+
+builder: Green
+
+tags:
+  - wallets
+  - software
+
+category: mobile
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-11-22
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

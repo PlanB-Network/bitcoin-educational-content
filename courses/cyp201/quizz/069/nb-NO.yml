@@ -1,8 +1,9 @@
-question: Hva indikerer følgende avledningssti? m/44'/0'/0'/0/0
-answer: En ekstern Legacy-adresse på hovednettverket.
+question: Hva er hovedrollen til kjedekoden i utledningen av barnenøkler?
+answer: Introdusere en ekstra kilde til entropi
 wrong_answers:
-  - En ekstern SegwitV1-adresse på hovednettverket.
-  - En intern Legacy-adresse på testnettverket.
-  - En ekstern SegwitV0-adresse på hovednettverket.
+  - Identifisere den hierarkiske dybden
+  - Lagre indeksene til barnenøklene
+  - Sikre kompatibilitet med Bitcoin-protokollen
 explanation: |
-  Avledningsstien m/44'/0'/0'/0/0 indikerer en ekstern Legacy-adresse på hovednettverket (mainnet). 44' = Legacy, 0' = hovednett, 0 = ekstern
+  Kjedekoden brukes til å introdusere en ekstra og unik kilde til entropi for hver utledede nøkkel.
+reviewed: false

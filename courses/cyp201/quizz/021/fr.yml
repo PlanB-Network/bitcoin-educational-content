@@ -1,9 +1,9 @@
-question: Quelle est la taille d'une clé privée Bitcoin ?
-answer: 256 bits.
+question: Quelle est la principale caractéristique de la multiplication scalaire sur les courbes elliptiques ?
+answer: Fonction à sens unique
 wrong_answers:
-  - 512 octets.
-  - 520 bits.
-  - 512 bits.
+  - Reversible facilement
+  - Basée sur la factorisation de nombres premiers
+  - Très longue à calculer
 explanation: |
-  La clé privée Bitcoin a une taille standard de 256 bits, correspondant à l'algorithme de courbe elliptique utilisé dans Bitcoin.
+  La multiplication scalaire sur les courbes elliptiques est une fonction à sens unique, rendant impossible de retrouver la clé privée à partir de la clé publique.
 reviewed: false

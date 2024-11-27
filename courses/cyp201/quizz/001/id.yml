@@ -1,8 +1,8 @@
-question: Berapa ukuran output dari fungsi hash SHA256?
-answer: 256 bit.
+question: Properti apa yang memastikan bahwa secara komputasi tidak mungkin untuk mengambil kembali input dari sebuah hash?
+answer: Preimage resistance
 wrong_answers:
-  - 256 byte.
-  - 512 bit.
-  - 512 byte.
+  - Collision resistance
+  - Avalanche effect
+  - Second preimage resistance
 explanation: |
-  SHA-256 menghasilkan output tetap sebesar 256 bit, tidak peduli berapa ukuran data masukannya.
+  Preimage resistance memastikan bahwa secara praktis tidak mungkin untuk menemukan pesan asli dari hash-nya.

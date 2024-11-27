@@ -1,8 +1,9 @@
-question: Mis on välisharu eesmärk tuletusprotsessis?
-answer: Eraldada avalikkusele mõeldud aadresse.
+question: Mis on piirang lapse avaliku võtme tuletamiseks vanema avalikust võtmest?
+answer: Lapse võti peab olema tavaline
 wrong_answers:
-  - Eraldada vahetus aadresse.
-  - Hallata sissetulevaid tehinguid.
-  - Eraldada privaatvõtmed avalikest võtmetest.
+  - Lapse võti peab olema kõvastunud
+  - Ahelakood peab olema identne vanema võtme omaga
+  - Protsess peab hõlmama vanema privaatvõtit
 explanation: |
-  Välisharu kasutatakse avalikkusele mõeldud aadresside tuletamiseks, nagu näiteks need, mis on mõeldud maksete vastuvõtmiseks.
+  Lapse avalik võti saab tuletada vanema avalikust võtmest ainult siis, kui see on tavaline, mitte kõvastunud.
+reviewed: false

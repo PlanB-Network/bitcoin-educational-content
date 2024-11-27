@@ -1,9 +1,9 @@
-question: Cos'è un PRNG?
-answer: Un algoritmo che genera numeri casuali a partire da un seme e una funzione di trasformazione.
+question: Cosa ti permette di fare un portafoglio HD rispetto a un portafoglio JBOK?
+answer: Generare tutte le chiavi private da un unico seed
 wrong_answers:
-  - Un dispositivo hardware che genera numeri veramente casuali.
-  - Un generatore che produce numeri casuali senza alcun seme.
-  - Un algoritmo che genera numeri prevedibili.
+  - Aumentare la sicurezza delle firme digitali
+  - Riutilizzare lo stesso indirizzo per molteplici transazioni
+  - Evitare completamente l'uso di chiavi pubbliche
 explanation: |
-  Un PRNG genera numeri pseudo-casuali a partire da un seme, ma a differenza di un TRNG, non è veramente casuale.
+  I portafogli HD derivano tutte le chiavi private da un seed unico, il che semplifica il backup e indirettamente migliora la privacy.
 reviewed: false

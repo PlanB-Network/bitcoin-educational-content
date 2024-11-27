@@ -162,6 +162,7 @@ Producers resort to persuasion, negotiation, and contract, while plunderers reso
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
 It is little known, but Destutt de Tracy had a decisive influence on the future President of the United States, Thomas Jefferson, while he was ambassador to Paris in the 1780s.
+
 > "For every man, his first country is his homeland, and the second is France" & "Tyranny is when the people fear their government; liberty is when the government fears the people."
 >
 > Thomas Jefferson
@@ -231,6 +232,7 @@ _(Benjamin Constant)_
 
 They adopt from Benjamin Constant the distinction between the Ancients and the Moderns, characterized on one hand by war, and on the other by commerce and industry. But they add with Say that political economy provides the best explanation of social phenomena. They particularly understand that nations achieve peace and prosperity when property rights and free trade are respected. From now on, for them, political economy is the true and only foundation of politics. To philosophy, which confines itself to the abstract critique of forms of government, must be substituted a theory based on the knowledge of economic interests.
 Political economy, by demonstrating how peoples prosper and decline, has laid the true foundations of politics.
+
 > Dunoyer
 
 ![image](assets/image/03/IMG07.webp)
@@ -312,7 +314,6 @@ The question of free trade continues to be relevant today. Geography textbooks i
 ## Rousseau
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
-
 
 Frédéric Bastiat, who expressed himself in the 1840s, is the heir to a generation of Enlightenment philosophers who fought against censorship and for the freedom to debate. Think of Montesquieu, Diderot, Voltaire, Condorcet, but also Rousseau.
 
@@ -397,6 +398,7 @@ It is sad to think that our social and political philosophy has remained stuck o
 However, as Bastiat reminds us, monopoly excludes progress.
 
 ## Protectionism and Socialism
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
 ![image](assets/image/07/IMG11.webp)
@@ -443,11 +445,9 @@ To conclude, protectionists and socialists share a common point, according to Ba
 
 > The state is the great fiction through which everyone endeavors to live at the expense of everyone else.
 
-
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
-
 
 Pierre-Joseph Proudhon is one of the major representatives of French socialism in the mid-19th century. He is especially famous for this statement: "Property is theft" in "What is Property?" in 1840.
 
@@ -487,6 +487,7 @@ Indeed, according to Bastiat, the progress of humanity coincides with the format
 
 ![image](assets/image/08/IMG15.webp)
 Without accumulated capital or materials, Robinson would be doomed to death. He then explains that capital enriches the worker in two ways:
+
 - It increases production, thus decreasing the price of goods for consumption
 - Which has the effect of increasing wages.
 
@@ -504,7 +505,6 @@ In conclusion, both Proudhon and Bastiat recognized the importance of capital ac
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-
 In this chapter, I will unveil a brand-new technology, a revolutionary technology. A researcher has developed a pair of bionic glasses with an ultra-powerful mini-camera embedded in the front. This technology allows seeing details impossible to see with the naked eye. In the arms, there is an electronic chip that transmits images directly to the cloud via my smartphone.
 
 ![image](assets/image/09/IMG01.webp)
@@ -515,8 +515,6 @@ The good economist, according to Bastiat, must describe the effects of political
 Thus, in Public Works, Bastiat writes:
 
 > The State opens a road, builds a palace, straightens a street, digs a canal; by this, it gives work to certain workers, that's what is seen; but it deprives work from certain others, that's what is not seen.
-
-
 
 One of the most well-known sophisms is the broken window fallacy. Some claim that the breaking of a window in a house does not harm the economy since it benefits the glazier. But Bastiat will show that destruction is not in our interest because it does not create wealth. It costs more than it yields. The young boy who breaks a neighbor's window gives work to the glazier. But here is how his friends console him:
 
@@ -585,14 +583,11 @@ Following this logic of creating jobs at all costs, why not also replace trucks 
 This confusion of means and end is found in the slogan "money is wealth."
 This is the axiom that governs the monetary policy of most states. Indeed, the artificial increase in the quantity of money allows banks to lend money to individuals and states to easily repay their debt, this is "what we see". But "what we do not see" is that this creation of money, not based on any real wealth creation, will lead to inflation and the ruin of savers.
 
-
-
 True wealth, according to Bastiat, is therefore the set of useful things that we produce through work to satisfy our needs. Money is thus only a commonly used means of exchange, it only plays the role of an intermediary.
 
 ## Plunder through Taxation
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
-
 
 > When the rich lose weight, the poor die.
 
@@ -659,7 +654,7 @@ However, there are two complementary ways to enlighten the judgment of citizens,
 
 - First, there is a "philosophical or religious morality" that acts by purifying and correcting human action (the man as an agent)
 - Then, there is an "economic morality", which acts by showing man "the necessary consequences of his acts" (the man as a patient)
-In fact, these are two perfectly complementary moral frameworks.
+  In fact, these are two perfectly complementary moral frameworks.
 
 1. The first addresses the heart and encourages individuals to do good; it is the religious or philosophical morality. It is the most noble. It roots in the heart of man the consciousness of his duty. It tells him:
 
@@ -684,6 +679,7 @@ Political Economy, therefore, has an obvious practical utility. It reveals spoli
 Once again, there would be fewer Tartuffes if there were fewer Orgons to listen to them. Here is what Bastiat has to say on this matter:
 
 ![image](assets/image/12/IMG07.webp)
+
 > Let religious morality therefore touch the hearts of Tartuffes if it can. The task of political economy is to enlighten their dupes. Of these two approaches, which one works most effectively for social progress? Must it be said? I believe it is the second. I fear that humanity cannot escape the necessity of first learning defensive morality.
 
 Of course, political economy is not the universal science; it does not exclude philosophical and religious approaches. "But who has ever displayed such an exorbitant claim in its name?" Bastiat wonders.
@@ -698,7 +694,6 @@ One thing is certain, it is not the politics which can change the course of thin
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-
 Can a harmonious society do without written laws, rules, repressive measures? If men are left free, won't we witness disorder, anarchy, disorganization? How to avoid creating a mere juxtaposition of individuals acting outside of any concert, if not through laws and a centralized political organization?
 
 This is the argument often invoked by those who demand market regulation or society alone capable of coordinating individuals into a coherent and harmonious whole.
@@ -711,6 +706,7 @@ The miracle of the free market, he tells us, is that it uses knowledge that no o
 
 Bastiat gives a few examples to illustrate the benefits of this market. We have become so accustomed to this phenomenon that we no longer pay attention to it.
 Let's consider a carpenter in a village, he says, and observe all the services he provides to society and all those he receives:
+
 > Every day, upon waking up, he dresses, and he personally made none of his clothes. Yet, for these clothes to be available to him, an enormous amount of work, industry, transportation, and ingenious inventions had to be accomplished worldwide.
 >
 > Then he has breakfast. For the bread he eats to arrive on his table every morning, lands had to be cleared, plowed; iron, steel, wood, stone had to be converted into work tools; all things that each, taken separately, assume an incalculable mass of work put into play, not only in space but in time.
@@ -735,7 +731,6 @@ It revisits Bastiat's idea of an invisible cooperation among millions of individ
 
 The 1976 Nobel Prize in Economics, Milton Friedman, also revisited this pencil story to explain to the general public how the market economy works.
 
-
 In an episode of his television series Free to Choose, he analyzes the various components of something as mundane and simple as a pencil and highlights the miracle of spontaneous order, generated by thousands of economic interactions across the world. People who do not know each other, who do not share the same religion or customs, still manage to coordinate to produce this object. He concludes that the free market is essential to ensure not only prosperity but also harmony and peace.
 
 ![image](assets/image/13/IMG04.webp)
@@ -750,12 +745,11 @@ Economic planning, which claims to do better than the market, leads not only to 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-
 In a letter to Alphonse de Lamartine in 1845, Bastiat wrote that his entire philosophy is contained in a single principle:
 
 > Freedom is the best form of social organization.
-![image](assets/image/14/IMG1.webp)
-However, he adds a condition
+> ![image](assets/image/14/IMG1.webp)
+> However, he adds a condition
 
 > "That the law should not eliminate the consequences, positive or negative, of everyone's actions. This is the corollary principle of responsibility.": "That the law should not eliminate the consequences, positive or negative, of everyone's actions. This is the corollary principle of responsibility."
 
@@ -814,7 +808,6 @@ In other words, collective choices are not responsible choices since, on one han
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-
 In the previous course, we saw why freedom and responsibility are key to the social problem. We will now delve deeper into this point by showing how Frédéric Bastiat views the evils that afflict societies and their solution.
 
 Liberals have sometimes been criticized for ignoring evil and constructing the utopia of pure and perfect freedom in an ideal world. This criticism is absolutely unfounded regarding our author.
@@ -862,7 +855,6 @@ It must be clarified that this development of progress through responsibility is
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-
 ![image](assets/image/16/IMG1.webp)
 
 Frédéric Bastiat, in his famous pamphlet "The Law," denounces the perversion of law that consists in legalizing, under the name of "solidarity," what must indeed be called plunder. Indeed, there is a contradiction in wanting to impose fraternity through law, what we would call today "social justice" or solidarity.
@@ -882,7 +874,7 @@ This is what Bastiat calls "the sophism of legal fraternity." Let's quote him on
 And again:
 
 > Governments only ever exercise an action that is sanctioned by Force. Now, it is permissible to force someone to be just, not to force them to be charitable. The Law, when it seeks to do by force what morality achieves through persuasion, far from rising to the realm of Charity, falls into the domain of Plunder.
-Yet this perversion of law has a name, it is socialism, that is, the ideology of forced redistribution of wealth by the State. Socialism, according to Bastiat, is characterized by the ideology of legal plunder. But the cunning of this ideology is that it masks its violence under a misuse of language: the call to solidarity or fraternity.
+> Yet this perversion of law has a name, it is socialism, that is, the ideology of forced redistribution of wealth by the State. Socialism, according to Bastiat, is characterized by the ideology of legal plunder. But the cunning of this ideology is that it masks its violence under a misuse of language: the call to solidarity or fraternity.
 
 ![image](assets/image/16/IMG4.webp)
 
@@ -916,7 +908,6 @@ Law can compel a man to be just, but it cannot force him to be devoted. The fals
 ## The Right to Property
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
-
 
 By property, we should not understand land here. It means "the right of a worker over the value he has created through his labor." Bastiat specifies:
 
@@ -971,7 +962,6 @@ _(Cicero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-
 The main idea of Bastiat in "The Law", his famous pamphlet dated 1850, is to show why and how the law has become plundering, that is, a source of privileges, situational rents, and fiscal arbitrariness.
 
 ![image](assets/image/18/IMG01.webp)
@@ -1023,7 +1013,6 @@ A century after the death of Frédéric Bastiat, legal plunder is clearly eviden
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-
 In 1848, Bastiat was a deputy. He was appointed vice-president of the finance commission. He was, therefore, particularly well-placed to answer this question: what is the State? We turn to the State to ensure our well-being. But Bastiat reminds us that the State cannot give anything to the citizens that it hasn't first taken from them.
 
 Bastiat begins by overturning a commonly accepted equation: it’s the State that sustains the nation. However, the State cannot sustain the citizens because it does not produce wealth; it merely moves it around, redistributes it. On the contrary, it is the citizens who sustain the State through the creation of wealth.
@@ -1070,21 +1059,6 @@ Wrote Frédéric Bastiat in a short pamphlet titled The State.
 
 ![image](assets/image/19/IMG9.webp)
 
-# Conclusion
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-
-
-## Evaluate the course
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## The Legacy of Frédéric Bastiat
-
-<chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
-
-
 Bastiat's influence began to decline towards the end of the 19th century, with the rise of socialism and particularly Marxism within universities and research institutes, funded by public money.
 
 With the 20th century, the knowledge and popularity of Bastiat disappeared. He was no longer mentioned in economics textbooks. It would not be until the end of World War II that a renewed interest in the ideas of freedom, so evidently forgotten with Roosevelt and the totalitarian regimes in Europe, would emerge. One of the architects of this revival was the Austrian economist Ludwig von Mises, one of the many European intellectuals who fled Europe through Spain and Portugal to reach America.
@@ -1115,4 +1089,52 @@ If we look at things from this angle, Reagan explained to GE employees, the so-c
 ![image](assets/image/20/IMG10.webp)
 In essence, Reagan took from Bastiat several key elements of a liberal vision of society and man: the primacy of civil society over the State, the value of choice and individual responsibility, the importance of the entrepreneur in wealth creation, the importance of a flexible and minimal legal framework, which allows for trust and respect for contracts, the fundamental law that wealth must be created before it can be distributed, the desire to give everyone a chance in competitive markets…
 
+# Conclusion
 
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Rate this course
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final exam
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Congratulations on completing this course!
+
+We are delighted that you have reached this important milestone in your learning journey.
+
+Through your dedication and commitment, you have gained valuable knowledge and skills that will serve you in your professional development.
+
+To continue exploring the Bitcoin universe in depth, we invite you to discover all the other courses available on Plan ₿ Network:
+
+#### Discover Bitcoin and its fundamentals with
+
+https://planb.network/courses/btc101
+
+#### Get and secure your first bitcoins with
+
+https://planb.network/courses/btc102
+
+#### Update your online security with
+
+https://planb.network/courses/scu101
+
+#### Discover the Lightning Network with
+
+https://planb.network/courses/lnp201
+
+#### Learn Austrian School economic thinking with
+
+https://planb.network/courses/eco201
+
+#### Understand Bitcoin basics and build your home heating with
+
+https://planb.network/courses/min201

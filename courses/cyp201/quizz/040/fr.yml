@@ -1,9 +1,9 @@
-question: Quelle est la particularité de la liste de 2048 mots permettant l'encodage de la mnémonique ?
-answer: Aucun mot ne dispose des mêmes quatre premières lettres dans le même ordre.
+question: Pourquoi est-il risqué de générer manuellement l'entropie pour un portefeuille HD ?
+answer: Cela peut introduire des faiblesses humaines ou des biais prédictibles
 wrong_answers:
-  - Aucun mot ne dispose des mêmes trois dernières lettres.
-  - Aucun mot ne commence par la lettre “J”.
-  - Aucun mot n'a plus de six lettres.
+  - Cela entraîne des clés publiques non valides
+  - Cela bloque la dérivation des clés privées
+  - Cela limite la taille des phrases mnémoniques générées
 explanation: |
-  Cette particularité permet d'éviter toute ambiguïté lors de la saisie des mots, ce qui garantie ainsi l'unicité de chaque mot dans la liste, tout en permettant de réduire la place nécessaire pour son stockage.
+  Générer manuellement l'entropie peut introduire des biais ou des erreurs, rendant les clés plus vulnérables à des attaques.
 reviewed: false

@@ -1,8 +1,8 @@
-question: For å beregne verdiene av hovednøkkelen og hovedkjedekoden, er det første inndata til HMAC-SHA512-funksjonen frøet. Hva er den andre inndataverdien til denne funksjonen, som fungerer som en nøkkel?
-answer: Bitcoin seed.
+question: Hva er hovedrollen til passfrasen i en Bitcoin HD-lommebok?
+answer: Å modifisere nøkkelavledning for å forbedre sikkerheten
 wrong_answers:
-  - Den mnemoniske frasen.
-  - Passfrasen.
-  - Seed.
+  - Dekryptere ventende transaksjoner
+  - Generere lommebokens UTXOer
+  - Beskytte tilgang til lommeboken med ansikts-ID
 explanation: |
-  Strengen Bitcoin seed brukes som en nøkkel i HMAC-SHA512 for å utlede hovednøkkelen og hovedkjedekoden fra frøet.
+  Passfrasen fungerer som en andre sikkerhetsfaktor, ved å endre nøkkelavledningens frø for å forhindre tilgang til lommeboken i tilfelle den mnemoniske frasen er kompromittert.

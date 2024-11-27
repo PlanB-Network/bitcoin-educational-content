@@ -1,8 +1,9 @@
-question: Missä BIP; ssä ehdotetaan palautuslauseen tai muistilauseen (12/24 sanaa) ideaa?
-answer: BIP39.
+question: Mitä sighash-lippu SIGHASH_NONE sallii?
+answer: Lähtöjen muokkaamisen allekirjoittamisen jälkeen
 wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
+  - Syötteiden muokkaamisen allekirjoittamisen jälkeen
+  - Kaikkien syötteiden ja lähtöjen kattamisen
+  - Rajoittaa muokkaukset vain yhteen lähtöön
 explanation: |
-  BIP39 esitteli 24 sanan muistilauseen palautuslauseen, jotta HD-lompakoiden käyttäjien avainten varmuuskopiointi helpottuisi.
+  SIGHASH_NONE kattaa vain syötteet, jättäen lähdöt muokattaviksi allekirjoittamisen jälkeen.
+reviewed: false

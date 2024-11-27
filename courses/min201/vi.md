@@ -74,7 +74,7 @@ Bạn đã sẵn sàng để tham gia vào cuộc phiêu lưu hấp dẫn này? 
 
 Để giải thích khái niệm đào bitcoin một cách đơn giản, chúng ta có thể sử dụng một phép ẩn dụ tương tự: trò chơi xếp hình. Giống như một trò chơi xếp hình, đào bitcoin là một nhiệm vụ phức tạp để hoàn thành, nhưng dễ dàng để xác minh tính chính xác của kết quả. Trong bối cảnh của đào bitcoin, các thợ đào cố gắng tìm lời giải cho một bài toán kỹ thuật số một cách nhanh chóng. Thợ đào đầu tiên giải được bài toán này sẽ thông báo kết quả của mình cho toàn bộ mạng lưới, mà sau đó toàn bộ mạng lưới có thể dễ dàng xác minh tính hợp lệ của kết quả đó. Việc xác minh thành công sẽ cho phép thợ đào xác nhận một khối mới và thêm nó vào cuốn sổ cái Bitcoin, còn được gọi là Blockchain Bitcoin, hoặc Timechain Bitcoin. Để công nhận công việc của họ, một việc đòi hỏi phải tiêu tốn chi phí đáng kể, thợ đào được thưởng một số lượng bitcoin nhất định. Phần thưởng này là một động lực tài chính để thợ đào tiếp tục công việc xác nhận giao dịch và bảo vệ mạng lưới Bitcoin.
 
-![image](assets/overview/puzzle.webp)
+![image](assets/en/01.webp)
 
 Phần thưởng đào hiện tại gồm hai phần. Một mặt, nó bao gồm số bitcoin mới được tạo ra với mỗi khối, gọi là trợ cấp khổi, đã giảm từ 50 bitcoin mỗi mười phút lúc ban đầu xuống còn 3,125 bitcoin mỗi mười phút ở hiện tại (2024). Mặt khác, nó bao gồm phí giao dịch, hoặc phí đào, từ các giao dịch mà thợ đào chọn để bao gồm trong khối của họ. Khi một giao dịch bitcoin được thực hiện, phí giao dịch được trả cho thợ đào. Loại phí này hoạt động như một hình thức đấu giá nơi người dùng cho thấy họ sẵn lòng trả bao nhiêu để giao dịch của họ được xử lý trong khối tiếp theo. Để tối đa hóa phần thưởng của mình, các thợ đào, hành động theo lợi ích của bản thân, chọn các giao dịch có lợi nhuận cao nhất để đưa vào trong khối của họ, bởi vì không gian của mỗi khối là có giới hạn. Do đó, phần thưởng đào bao gồm cả việc tạo ra bitcoin mới (trợ cấp khối) và phí giao dịch, đảm bảo một động lực liên tục cho thợ đào và đảm bảo sự lâu dài và an ninh cho mạng lưới Bitcoin.
 Ban đầu trong mạng lưới Bitcoin, trợ cấp khối được trao là 50 bitcoin mỗi mười phút, tương đương với mỗi khối được thợ đào khám phá. Trợ cấp khối này sẽ giảm đi một nửa sau mỗi 210.000 khối, tương đương khoảng 4 năm, trong một sự kiện được gọi là halving. Phần thưởng khối là một động lực quan trọng để khuyến khích thợ đào tham gia vào quá trình đào bitcoin, mặc dù đây là một quá trình tiêu tốn chi phí năng lượng. Nếu không có phần thưởng, sẽ không ai tham gia vào việc đào bitcoin rất tốn kém này cả, điều đó sẽ làm suy yếu sự an toàn và ổn định của toàn bộ mạng lưới Bitcoin.
@@ -85,7 +85,7 @@ Quá trình đào bitcoin liên quan đến việc tìm một mã băm hợp l�
 
 Ban đầu là thời kỳ của CPU chiếm ưu thế, nơi các thợ đào sử dụng máy tính cá nhân của họ để đào bitcoin. Việc phát hiện ra lợi thế của GPU (card đồ họa) cho nhiệm vụ này đã đánh dấu một bước ngoặt, làm tăng đáng kể tốc độ băm và giảm tiêu thụ năng lượng của mạng lưới. Sự tiến hoá không dừng lại ở đó, với sự ra đời sau đó của FPGA (Field-Programmable Gate Arrays). FPGA đã trở thành nền tảng cho sự phát triển của ASIC (Application-Specific Integrated Circuits).
 
-![image](assets/overview/chip.webp)
+![image](assets/en/02.webp)
 
 ASIC là các con chip, có thể so sánh với chip CPU, tuy nhiên, chúng được phát triển để thực hiện chỉ một loại phép tính cụ thể một cách hiệu quả nhất có thể. Nói cách khác, một CPU có khả năng thực hiện nhiều loại phép tính khác nhau mà không được tối ưu hóa cho một loại phép tính cụ thể nào, trong khi một ASIC sẽ chỉ có thể thực hiện một loại phép tính duy nhất, nhưng rất hiệu quả. Trong trường hợp của các ASIC dành cho đào bitcoin, chúng được thiết kế cho chỉ để thực hiện phép tính của thuật toán SHA256.
 Ngày nay, các thợ đào chủ yếu chỉ sử dụng ASIC chuyên dụng cho hoạt động này, được tối ưu hóa để kiểm tra được số lượng tối đa các kết hợp với lượng tiêu thụ năng lượng nhỏ nhất có thể và càng nhanh càng tốt. Những máy tính này, không thể thực hiện các nhiệm vụ khác ngoài việc đào bitcoin, là minh chứng cho sự phát triển liên tục và chuyên môn hóa ngày càng cao của ngành công nghiệp đào bitcoin. Sự tiến hoá không ngừng này phản ánh động lực nội tại của Bitcoin, nơi có một cơ chế điều chỉnh độ khó để đảm bảo việc tạo ra một khối mới sau trung bình mỗi mười phút bất chấp sự tăng trưởng theo cấp số nhân trong công suất đào.
@@ -96,7 +96,7 @@ Ngày nay, các thợ đào chủ yếu chỉ sử dụng ASIC chuyên dụng ch
 
 Điều chỉnh độ khó là một cơ chế quan trọng trong hoạt động của mạng lưới Bitcoin, nó đảm bảo rằng các khối mới được đào sau trung bình mỗi 10 phút. Đây là khoảng thời gian trung bình vì quá trình đào thực chất là một trò chơi xác suất, tương tự như việc tung xúc xắc và hy vọng sẽ ra một số nhỏ hơn số được xác định trước bởi độ khó. Sau mỗi 2016 khối, mạng lưới Bitcoin sẽ điều chỉnh độ khó dựa trên thời gian trung bình cần thiết để đào các khối trước đó. Nếu thời gian trung bình lớn hơn 10 phút, độ khó sẽ được giảm xuống, và ngược lại, nếu thời gian trung bình thấp hơn 10 phút, độ khó sẽ được tăng lên. Cơ chế điều chỉnh này đảm bảo rằng khoảng thời gian trung bình để đào được một khối mới luôn ổn định theo thời gian, bất kể số lượng thợ đào hay tổng sức mạnh tính toán của toàn mạng lưới. Đây là lý do tại sao Blockchain của Bitcoin cũng được gọi là Timechain.
 
-![image](assets/overview/chinaban.webp)
+![image](assets/en/03.webp)
 
 - Ví dụ từ Trung Quốc:
   Trường hợp của Trung Quốc minh họa hoàn hảo cho cơ chế điều chỉnh độ khó này. Với nguồn năng lượng dồi dào và giá rẻ, Trung Quốc là trung tâm đào bitcoin chính trên toàn cầu. Năm 2021, chính phủ nước này đột ngột cấm đào bitcoin trên lãnh thổ của mình, dẫn đến sự sụt giảm lớn trong tổng hashrate (tốc độ băm) của toàn mạng lưới Bitcoin toàn cầu, khoảng 50%. Sự sụt giảm đột ngột sức mạnh đào có thể đã làm gián đoạn nghiêm trọng mạng lưới Bitcoin bằng cách tăng thời gian đào được khối mới. Tuy nhiên, cơ chế điều chỉnh độ khó đã được kích hoạt, giảm độ khó đào để đảm bảo rằng tốc độ đào khối mới vẫn ở mức trung bình 10 phút mỗi khối. Ví dụ này chứng minh sự hiệu quả và khả năng phục hồi của cơ chế điều chỉnh độ khó của Bitcoin, đảm bảo sự ổn định và dự đoán được của mạng lưới, ngay cả trong bối cảnh có những thay đổi đột ngột và đáng kể trong hoạt động đào bitcoin toàn cầu.
@@ -106,7 +106,7 @@ Ngày nay, các thợ đào chủ yếu chỉ sử dụng ASIC chuyên dụng ch
 Khi xem xét sự tiến hóa của máy đào bitcoin, quan trọng là phải lưu ý rằng lĩnh vực này hướng nhiều hơn về mô hình kinh doanh truyền thống. Các thợ đào kiếm thu nhập từ việc xử lý khối, một công việc có xác suất thành công tương đối thấp. Loại máy hiện tại đang được sử dụng, Antminer S9, mặc dù là một mẫu cũ được ra mắt vào khoảng năm 2016, vẫn còn lưu hành trên thị trường hàng đã qua sử dụng, được giao dịch với giá khoảng €100 đến €200. Tuy nhiên, giá của máy đào biến đổi dựa trên giá trị của Bitcoin, và một mẫu mới hơn, Antminer S19, hiện được ước tính có giá khoảng €3000.
 Trước sự tiến bộ không ngừng trong lĩnh vực đào bitcoin, các chuyên gia phải định vị chiến lược của mình một cách thông minh. Ngành công nghiệp đào bitcoin đổi mới không ngừng, như được minh chứng bằng sự mắt gần đây của phiên bản S19 J và S19 XP sắp tới, với năng lực đào vượt trội. Hơn nữa, cải tiến không chỉ liên quan đến hiệu suất thô của các máy móc. Ví dụ, mẫu S19 XP sử dụng hệ thống làm mát bằng chất lỏng, một cải tiến kỹ thuật giúp cải thiện đáng kể hiệu suất tiêu thụ năng lượng. Mặc dù đổi mới vẫn luôn là yếu tố chủ đạo, nhưng những lợi ích hiệu quả trong tương lai có thể sẽ nhỏ hơn so với những gì đã quan sát được cho đến nay, do đổi mới công nghệ đã đạt đến một ngưỡng nhất định.
 
-![image](assets/overview/chipevolution.webp)
+![image](assets/en/04.webp)
 
 Kết luận, ngành công nghiệp đào bitcoin tiếp tục thích nghi và phát triển, và các thực thể tham gia vào ngành phải dự đoán được sự giảm bớt lợi ích hiệu quả trong tương lai và điều chỉnh chiến lược của mình cho phù hợp. Các tiến bộ công nghệ trong tương lai, mặc dù vẫn có nhưng khả năng cao là sẽ chỉ xảy ra trên một quy mô nhỏ hơn, phản ánh sự trưởng thành ngày càng tăng của ngành.
 
@@ -118,7 +118,7 @@ Kết luận, ngành công nghiệp đào bitcoin tiếp tục thích nghi và p
 
 Hiện nay, việc đào bitcoin đã phát triển thành một ngành công nghiệp nghiêm túc và quy mô lớn, với nhiều bên tham gia được biết đến công khai và số lượng thợ đào ngày càng tăng. Sự phát triển này đã khiến cho gần như không thể thực hiện việc đào bitcoin nhỏ lẻ được nữa vì chi phí để mua máy đào rất cao. Điều này đặt ra câu hỏi về sự phân bổ sức mạnh băm (hashrate) giữa các đối tượng thị trường khác nhau. Tình hình trở nên phức tạp hơn vì cần phải xem xét cả sự phân bổ hashrate giữa các công ty khác nhau và giữa các pool đào khác nhau.
 
-![image](assets/overview/pool.webp)
+![image](assets/en/05.webp)
 
 Một pool đào bitcoin là một nhóm các thợ mỏ kết hợp nguồn lực tính toán của họ để tăng cơ hội đào thành công. Sự hợp tác này là cần thiết bởi vì một máy đào bitcoin nhỏ lẻ không thể cạnh tranh với các gã khổng lồ trong ngành, bởi vì cơ hội đào thành công của một máy đào nhỏ lẻ giảm xuống gần như bằng 0. Đào bitcoin hoạt động theo nguyên tắc xổ số, và cơ hội giành chiến thắng mỗi 10 phút (tìm ra được một khối mới và nhận phần thưởng bằng bitcoin) là vô cùng thấp đối với một thợ đào nhỏ lẻ. Khi kết hợp lại thành các pool đào, các thợ đào có thể kết hợp sức mạnh tính toán của mình, từ đó có thể tìm thấy các khối một cách thường xuyên hơn và sau đó chia sẻ phần thưởng theo tỷ lệ đóng góp sức mạnh tính toán của mỗi thợ đào.
 
@@ -149,7 +149,7 @@ Tập trung hoá hoạt động đào bitcoin được xem là một thách th�
 
 Một rủi ro khác là nếu một quốc gia như Hoa Kỳ đưa ra quy định hoặc cấm một số giao dịch Bitcoin, điều này có thể có ảnh hưởng đáng kể đến mạng lưới, đặc biệt nếu một phần lớn sức mạnh tính toán được tập trung tại quốc gia đó.
 
-![image](assets/overview/foundry.webp)
+![image](assets/en/06.webp)
 
 Để chống lại sự tập trung hóa này, các chiến lược khác nhau được đang thảo luận:
 
@@ -172,7 +172,7 @@ Sáng kiến Attakai xuất phát từ một thử nghiệm khai thác tại nh�
 
 Sau khi trình bày dự án của họ cho cộng đồng Bitcoin và nhận thấy sự quan tâm mà nó tạo ra, những người sáng lập Attakai đã quyết định công bố các hướng dẫn chi tiết trên nền tảng Découvre Bitcoin, cho phép bất kỳ ai cũng có thể sao chép trải nghiệm khai thác tại nhà của họ. Họ hiện đang có kế hoạch mở rộng khái niệm này ra ngoài phạm vi gia đình. Mục tiêu là chứng minh cách một máy khai thác đã được sửa đổi có thể biến thành một thiết bị sưởi ấm phụ trợ yên tĩnh sử dụng trong mùa đông, cung cấp một bước chuyển nhẹ nhàng sang phần thứ hai của khóa đào tạo, tập trung vào việc thực hiện thực tế các thay đổi này, được minh họa bằng các video giải thích. Tuy nhiên, vẫn còn câu hỏi liệu sáng kiến này có thể mở rộng ở quy mô lớn hơn, cung cấp một giải pháp thay thế thực tế và bền vững cho các cấu trúc khai thác tập trung hiện tại hay không.
 
-![image](assets/overview/attakai.webp)
+![image](assets/en/07.webp)
 
 ### Giới hạn của sự phi tập trung này?
 
@@ -196,7 +196,7 @@ Về câu hỏi cái gì nên được đưa vào trong một khối Bitcoin, đ
 
 Với sự phát triển dự kiến của Lightning Network và sự gia tăng các hoạt động mở và đóng kênh, không gian trong các khối Bitcoin sẽ trở nên ngày càng quý giá. Cộng đồng Bitcoin đã có xu hướng đánh giá cao việc bảo tồn không gian này, nhận ra giới hạn nội tại của nó. Nhận thức này đã dẫn đến các cuộc thảo luận về việc sử dụng không gian khối một cách hợp lệ, với những lo ngại về "spam" trên blockchain bởi các giao dịch được coi là không cần thiết.
 
-![image](assets/overview/block.webp)
+![image](assets/en/08.webp)
 
 Có nhiều suy đoán về việc sử dụng không gian khối trong tương lai, nhưng nói chung mọi người đều chấp nhận rằng đây là một nguồn tài nguyên khan hiếm nên được sử dụng một cách khôn ngoan. Mặc dù có mong muốn lấp đầy nó, việc bảo tồn nó là cần thiết để đảm bảo sự tồn tại lâu dài của mạng lưới Bitcoin, tiên lượng cho một sự gia tăng nhu cầu đối với không gian khối trong tương lai. Như trong bất kỳ thị trường tự do nào, cung và cầu sẽ điều chỉnh việc sử dụng không gian khối. Với nguồn cung hạn chế, các bên liên quan sẽ cần phải đưa ra những lựa chọn khôn ngoan về việc sử dụng không gian quý giá này để đảm bảo hiệu quả và an ninh lâu dài của mạng lưới Bitcoin.
 
@@ -211,7 +211,7 @@ Vai trò của các thợ đào trong mạng lưới Bitcoin đã là đề tài
 
 Trong cuộc chiến kích thước khối, nhiều thợ đào đã phản đối một số thay đổi trong mạng lưới, làm nổi lên sự căng thẳng giữa các bên tham gia trong hệ sinh thái. Câu hỏi đặt ra là làm thế nào để cân bằng quyền lực giữa thợ đào, node và người dùng để đảm bảo an ninh lâu dài cho mạng lưới Bitcoin.
 
-![image](assets/overview/blocksize-wars--BTC-vs-BCH-.webp)
+![image](assets/en/09.webp)
 
 Tình thế tiến thoái lưỡng nan về an ninh của Bitcoin dựa trên một sự cân bằng tinh tế. Trong khi thợ đào đóng vai trò quan trọng trong việc xác nhận và tạo ra các khối, các node duy trì tính toàn vẹn bằng cách xác minh và xác nhận các giao dịch và khối. Một khối sai lệch hoặc gian lận sẽ bị các node từ chối, do đó kiểm duyệt thợ đào và bảo vệ an ninh của mạng lưới. Quyền lực cũng được nắm giữ bởi các node và người dùng của mạng lưới Bitcoin. Các node có quyền xác minh và xác nhận, trong khi người dùng có quyền chọn blockchain nào để sử dụng. Sự phân phối quyền lực này đảm bảo sự phân tán và tính toàn vẹn của mạng lưới Bitcoin.
 
@@ -223,7 +223,7 @@ Cuối cùng, trách nhiệm được chia sẻ giữa tất cả các bên tham
 
 Lý thuyết trò chơi tinh tế của Satoshi Nakamoto đã thiết lập nên một tình huống nơi mà mỗi thành viên trong mạng lưới Bitcoin được khuyến khích hành động đúng đắn để bảo vệ lợi ích của chính họ và của các bên khác. Điều này tạo ra một sự cân bằng nơi hành vi xấu có thể bị trừng phạt, do đó tăng cường an ninh và ổn định của toàn bộ hệ thống. Mặc dù có sự cân bằng này, các quốc gia vẫn là một mối đe dọa tiềm tàng. Như được chỉ ra trong bài thuyết trình tại **Surfing Bitcoin 2022**, các quốc gia có thể cố gắng tấn công ngành công nghiệp đào bitcoin, gây ra rủi ro tập trung hoá và dễ bị tấn công đối với mạng lưới Bitcoin. Các kịch bản giả định như một cuộc tấn công quân sự nhắm vào các cơ sở sản xuất phần cứng đào bitcoin làm nổi bật tầm quan trọng của sự đa dạng hóa về mặt địa lý và công nghiệp để đảm bảo tính kiên cường của mạng lưới Bitcoin.
 
-![image](assets/overview/miner.webp)
+![image](assets/en/10.webp)
 
 Việc tập trung sản xuất phần cứng máy đào ở Trung Quốc đặt ra một rủi ro khác. Việc Trung Quốc từ chối xuất khẩu máy đào hoặc tích lũy hashrate cho một cuộc tấn công 51% tiềm năng cho thấy nhu cầu về sự đa dạng hóa hoạt động sản xuất phần cứng máy đào. Để đối phó với những rủi ro này, cộng đồng Bitcoin đang tích cực tìm kiếm các giải pháp. Các công ty như Intel đang xem xét việc sản xuất máy đào tại Hoa Kỳ, góp phần vào sự phân tán quá trình sản xuất phần cứng. Các sáng kiến khác, như Bộ công cụ phát triển hoạt động đào mã nguồn mở của Block (Mining Development Kit - MDK), nhằm giảm bớt độc quyền trong thiết kế và sản xuất phần cứng máy đào, từ đó mở rộng phân phối hashrate. Trọng tâm của những cuộc thảo luận này là sứ mệnh của Bitcoin: là một mạng lưới trao đổi giá trị chống kiểm duyệt. Cộng đồng Bitcoin không ngừng nỗ lực để tăng cường sự phi tập trung, khả năng chống kiểm duyệt, và chống sự dễ vỡ của mạng lưới, từ chối các đề xuất như chuyển sang bằng chứng cổ phần POS, không phù hợp với những nguyên tắc cơ bản này.
 
@@ -231,7 +231,7 @@ Việc tập trung sản xuất phần cứng máy đào ở Trung Quốc đặt
 
 Bằng chứng công việc (PoW) là thiết yếu bởi vì nó tạo ra mối liên kết vật lý giữa thế giới thực và Bitcoin. Mặc dù bitcoin không hữu hình, quá trình sản xuất ra chúng đòi hỏi năng lượng hữu hình, từ đó thiết lập một sự kết nối trực tiếp với thế giới vật lý. Mối liên kết này đảm bảo rằng việc sản xuất và xác thực bitcoin và các khối đòi hỏi một chi phí năng lượng thực sự, qua đó neo giữ mạng lưới Bitcoin vào thực tại vật lý và ngăn chặn các thực thể mạnh mẽ thống trị hoàn toàn mạng lưới. PoW hoạt động như một pháo đài chống lại sự tập trung hoá quyền lực, đảm bảo rằng việc tham gia vào mạng lưới và xác thực giao dịch đòi hỏi phải đầu tư vào các nguồn lực hữu hình. Điều này ngăn chặn sự độc quyền hoá mạng lưới bởi các thực thể có thể nắm quyền kiểm soát mà không gặp bất kỳ rào cản đáng kể nào, từ đó đảm bảo sự phân phối quyền lực và ảnh hưởng công bằng hơn trong mạng lưới Bitcoin.
 
-![image](assets/overview/POWPOS.webp)
+![image](assets/en/11.webp)
 
 ### Hạn chế của Bằng chứng cổ phần - POS
 
@@ -252,7 +252,7 @@ Tóm lại, các thợ đào củng cố mạng lưới Bitcoin, chống lại s
 Mức hashrate hiện tại, mặc dù giá Bitcoin đang ở mức 30.000 đô la so với đỉnh trước đó là 69.000 đô la, làm nổi bật mối liên kết hữu hình giữa hoạt động đào và thế giới thực. Các giai đoạn thị trường tăng giá dẫn đến nhu cầu cao đối với hoạt động đào bitcoin và tăng số lượng đơn đặt hàng máy đào tới các nhà sản xuất như Avalon và Bitmain. Tuy nhiên, việc sản xuất và giao hàng không diễn ra ngay lập tức, tạo ra sự không khớp giữa sự gia tăng nhu cầu và sự có sẵn nguồn cung. Điều này có thể dẫn đến hiện tượng máy đào được đặt hàng trong thời kỳ thị trường tăng giá nhưng được giao trong giai đoạn thị trường giảm giá, làm nổi bật sự bất cân xứng đáng kể giữa giá thấp và mức hashrate cao.
 Tình huống này cũng cho thấy tính kiên cường của mạng lưới Bitcoin, thường được đánh giá dựa trên giá của nó. Tuy nhiên, để phân tích sâu hơn về sức khỏe của Bitcoin cần phải xem xét tới hashrate của nó, đo lường số lượng tính toán trong mỗi giây trên toàn mạng lưới Bitcoin. Trong khi giá của Bitcoin biến động, chi phí liên quan đến tiêu thụ điện năng của các thợ đào vẫn là yếu tố quan trọng để hiểu về động lực thị trường. Bằng cách tập trung vào chi phí thay vì giá, chúng ta có được một cái nhìn nhất quán hơn về sự ổn định và khả năng tồn tại lâu dài của Bitcoin. Nói chung, chi phí đào bitcoin tỷ lệ thuận với giá của nó, mang lại một hiểu biết rõ ràng hơn về sự biến động giá và triển vọng tương lai.
 
-![image](assets/overview/pricevshashrate.webp)
+![image](assets/en/12.webp)
 
 ### Hashrate và phần thưởng
 
@@ -285,7 +285,7 @@ Tuy nhiên, việc đào bitcoin mang lại những cơ hội độc đáo để
 
 Mặc dù có những lựa chọn này, hoạt động đào bitcoin vẫn đặt ra những thách thức đáng kể. Có một câu ngạn ngữ nổi tiếng trong thế giới tiền mã hóa, "Không phải chìa khóa của bạn, không phải bitcoin của bạn - Not your keys, not your bitcoins," điều này cũng có thể áp dụng tương tự trong lĩnh vực đào bitcoin: "Không phải hashrate của bạn, không phải phần thưởng của bạn - Not your hashrate, not your rewars." Câu chuyện về sự thất vọng do máy móc bị ngắt kết nối là phổ biến, với nhiều đơn vị hứa hẹn những kết quả tuyệt vời nhưng không thực hiện được. Các vấn đề về nguồn cung cấp điện và sự cố máy móc có thể khiến nhà đầu tư bất lực, thiết bị thì đắt tiền nhưng họ không thể tự kiểm soát được. Trong bối cảnh này, sự thận trọng và hiểu biết sâu sắc về ngành đào bitcoin là rất quan trọng trước khi tham gia. Mặc dù có cơ hội để đạt được lợi nhuận, nhưng rủi ro là đáng kể, và một cách tiếp cận khôn ngoan và suy nghĩ cẩn thận là cần thiết để khám phá lĩnh vực phức tạp và thường không dự đoán được này. Do đó, việc nghiên cứu kỹ lưỡng và cân nhắc cẩn thận các ưu và nhược điểm trước khi tham gia vào hoạt động đào bitcoin là rất quan trọng.
 
-![hình ảnh](assets/overview/self.webp)
+![hình ảnh](assets/en/13.webp)
 
 ### Bitcoin sạch (Virgin bitcoins)
 
@@ -299,7 +299,7 @@ Trong bối cảnh này, việc chọn một cách tiếp cận tự chủ và c
 
 Với vấn đề về khả năng cấm đào bitcoin ở Châu Âu, các cuộc thảo luận về quy định trở nên ngày càng quan trọng. Các biến động trong quy định quản lý có thể ảnh hưởng đáng kể đến ngành công nghiệp đào bitcoin. Lệnh cấm đào bitcoin ở Châu Âu là một kịch bản có thể xảy ra, đặc biệt là khi xét đến các tiền lệ ở Trung Quốc. Mặc dù hoạt động đào bitcoin tiếp tục diễn ra ở Trung Quốc bất chấp lệnh cấm, Châu Âu có thể đi theo một con đường tương tự. Sự phân bổ rộng rãi hơn của hashrate qua các khu vực khác nhau có thể giúp củng cố cộng đồng thợ đào ở Châu Âu, cho phép họ đối phó hiệu quả với những hiểu lầm và quan niệm sai lầm về khai thác, tác động môi trường của nó, và ảnh hưởng đến mạng lưới điện.
 
-![image](assets/overview/regulation.webp)
+![image](assets/en/14.webp)
 
 Đối mặt với các chiến dịch như của Greenpeace và những con số thường gây hiểu lầm từ một số nghiên cứu, vũ khí tốt nhất vẫn là thông tin chính xác. Việc cung cấp thông tin chính xác cho công chúng và các nhà lập pháp về thực tế của hoạt động đào bitcoin, sự phức tạp và các nét tinh tế của nó, thay vì để họ dựa vào các định kiến và thông tin không chính xác, là điều cần thiết. Càng nhiều người được thông tin và hiểu được đào bitcoin thực sự là gì, ngành công nghiệp càng có thể tự vệ chống lại các quy định hạn chế tiềm tàng.
 
@@ -379,39 +379,39 @@ Antminer S9 có một số biến thể (i, j) tạo ra những thay đổi nh�
 
 Giá của ASIC thay đổi tùy thuộc vào nhiều yếu tố như giá bitcoin, độ khó của mạng lưới, hiệu quả của máy móc, và chi phí điện. Do đó, việc đưa ra một ước lượng chính xác cho việc mua một máy cũ là khó khăn. Vào tháng 2 năm 2023, giá dự kiến ở Pháp thường dao động từ €100 đến €200, nhưng những giá này có thể thay đổi nhanh chóng.
 
-![image](assets/guide-achat/1.webp)
+![image](assets/en/15.webp)
 
 Antminer S9 bao gồm các bộ phận sau:
 
 - 3 hashboard chứa các chip sản xuất sức mạnh băm.
 
-![image](assets/guide-achat/2.webp)
+![image](assets/en/16.webp)
 
 - Một bảng điều khiển bao gồm một khe cắm cho thẻ SD, cổng Ethernet, và các kết nối cho hashboard và quạt. Đây là bộ não của ASIC.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/en/17.webp)
 
 - 3 cáp dữ liệu kết nối hashboard với bảng điều khiển.
 
-![image](assets/guide-achat/4.webp)
+![image](assets/en/18.webp)
 
 - Nguồn cấp điện, hoạt động trên lưới điện 220V và có thể dùng như một thiết bị gia dụng thông thường.
 
-![image](assets/guide-achat/5.webp)
+![image](assets/en/19.webp)
 
 - 2 quạt 120mm.
 
-![image](assets/guide-achat/6.webp)
+![image](assets/en/20.webp)
 
 - Một phích cắm C13.
 
-![image](assets/guide-achat/7.webp)
+![image](assets/en/21.webp)
 
 Khi mua một máy cũ, điều quan trọng là phải kiểm tra xem có đẩy đủ tất cả các bộ phận và chúng có đang hoạt động hay không. Trong quá trình giao dịch, bạn nên yêu cầu người bán bật máy để kiểm tra tình trạng hoạt động của máy. Quan trọng là phải xác minh rằng thiết bị được bật lên đúng cách, sau đó kiểm tra kết nối internet bằng cách cắm cáp Ethernet và truy cập giao diện đăng nhập Bitmain qua trình duyệt web trên cùng một mạng cục bộ. Bạn có thể tìm địa chỉ IP này bằng cách kết nối với giao diện router internet của bạn và tìm kiếm các thiết bị đã kết nối. Địa chỉ này nên có định dạng sau: 192.168.x.x
 
-![image](assets/guide-achat/8.webp)
+![image](assets/en/22.webp)
 Hãy kiểm tra xem thông tin đăng nhập mặc định có hoạt động không (tên đăng nhập: root, mật khẩu: root). Nếu thông tin đăng nhập mặc định không hoạt động, bạn sẽ cần phải khởi động lại máy.
-![image](assets/guide-achat/9.webp)
+![image](assets/en/23.webp)
 
 Khi đã kết nối, bạn sẽ có thể xem trạng thái của từng hashboard trên bảng điều khiển. Nếu máy đào được kết nối với một pool đào, bạn sẽ thấy tất cả các hashboard đang hoạt động. Điều quan trọng cần lưu ý là máy đào tạo ra rất nhiều tiếng ồn, điều này là bình thường. Ngoài ra, hãy chắc chắn rằng quạt đang hoạt động đúng cách.
 
@@ -436,24 +436,24 @@ Nếu bạn là một người thợ lành nghề và muốn biến một máy �
 
 Quạt gốc của Antminer S9 quá ồn để sử dụng máy đào của bạn như một bộ sưởi ấm. Giải pháp là thay thế chúng bằng loại quạt yên tĩnh hơn. Đội ngũ của chúng tôi đã thử nghiệm một số mẫu từ thương hiệu Noctua và đã đánh giá Noctua NF-A14 iPPC-2000 PWM là lựa chọn tốt nhất. Hãy chắc chắn chọn phiên bản 12V của quạt. Quạt 140mm này có thể tạo ra đến 1200W sức nóng trong khi duy trì mức độ ồn lý thuyết là 31 dB. Để lắp đặt những quạt 140mm này, bạn sẽ cần sử dụng bộ chuyển đổi từ 140mm sang 120mm, thứ mà bạn có thể tìm thấy tại cửa hàng DécouvreBitcoin. Chúng tôi cũng sẽ thêm lưới bảo vệ 140mm.
 
-![image](assets/piece/1.webp)
-![image](assets/piece/2.webp)
-![image](assets/piece/3.webp)
+![image](assets/en/24.webp)
+![image](assets/en/25.webp)
+![image](assets/en/26.webp)
 Quạt của bộ nguồn cũng khá ồn và cần được thay thế. Chúng tôi khuyến nghị sử dụng quạt Noctua NF-A6x25 PWM. Lưu ý rằng các đầu nối của quạt Noctua không giống với đầu nối gốc, vì vậy bạn sẽ cần một bộ chuyển đổi đầu nối để kết nối chúng. Hai cái là đủ. Một lần nữa, hãy chắc chắn chọn phiên bản 12V của quạt.
-![image](assets/piece/4.webp)
-![image](assets/piece/5.webp)
+![image](assets/en/27.webp)
+![image](assets/en/28.webp)
 
 2. Thêm cầu nối WIFI/Ethernet
 
 Thay vì sử dụng cáp Ethernet, bạn có thể kết nối Antminer của mình qua WIFI bằng cách thêm một cầu nối WIFI/Ethernet. Chúng tôi đã chọn vonets vap11g-300 vì nó cho phép bạn dễ dàng thu sóng WIFI từ hộp Internet của bạn và truyền nó đến Antminer qua Ethernet mà không tạo ra mạng con. Nếu bạn có kỹ năng về điện, bạn có thể cung cấp điện trực tiếp cho nó bằng nguồn cung cấp điện của Antminer mà không cần thêm bộ sạc USB. Đối với điều này, bạn sẽ cần một jack cắm 5.5mmx2.1mm.
 
-![image](assets/piece/6.webp)
-![image](assets/piece/7.webp)
+![image](assets/en/29.webp)
+![image](assets/en/30.webp)
 
 3. Tùy chọn: thêm ổ cắm thông minh
    Nếu bạn muốn bật/tắt Antminer của mình từ điện thoại thông minh và theo dõi mức tiêu thụ điện năng của nó, bạn có thể thêm một ổ cắm thông minh. Chúng tôi đã thử nghiệm ổ cắm ANTELA phiên bản 16A, tương thích với ứng dụng smartlife. Ổ cắm thông minh này cho phép bạn xem mức tiêu thụ điện năng hàng ngày, hàng tháng và kết nối trực tiếp với bộ định tuyến internet của bạn qua WiFi.
 
-![image](assets/piece/8.webp)
+![image](assets/en/31.webp)
 
 Danh sách thiết bị và liên kết đến cửa hàng
 
@@ -483,21 +483,21 @@ Cấp nguồn cho cầu nối bằng cách kết nối qua USB.
 
 Từ máy tính của bạn, kết nối với mạng WIFI VONETS\_**\*\*** với mật khẩu 12345678.
 
-![image](assets/software/vonet1.webp)
+![image](assets/en/32.webp)
 
 Đăng nhập với tên người dùng "admin" và mật khẩu "admin".
 
-![image](assets/software/vonet2.webp)
+![image](assets/en/33.webp)
 
 Chọn Wizard.
 
-![image](assets/software/vonet3.webp)
+![image](assets/en/34.webp)
 
 Chọn mạng WIFI mà bạn muốn kết nối với máy đào của mình, sau đó nhấn Next.
 
 LƯU Ý: Cầu nối Vonet chỉ hoạt động trên tần số 2.4GHz. Hiện nay, bộ định tuyến thường cung cấp hai mạng WIFI, một trên 2.4GHz và một trên 5GHz.
 
-![image](assets/software/vonet4.webp)
+![image](assets/en/35.webp)
 
 Nhập mật khẩu cho mạng WIFI của bạn vào trường "Source WIFI hotspot password". Nếu bạn không muốn sử dụng cầu nối Vonet của mình để mở rộng mạng WIFI của mình, hãy đánh dấu vào ô "Disable Hotspot". Nếu không, để nguyên không đánh dấu.
 
@@ -516,7 +516,7 @@ Trước khi cài đặt BraiinOS+, có thể bạn phải đưa S9 của bạn 
 Phương pháp này có thể được áp dụng trong khoảng từ 2 phút đến 10 phút sau khi khởi động máy đào.
 2 phút sau khi bật máy đào, vui lòng nhấn nút "Reset" trong 5 giây, sau đó thả ra. Máy đào sẽ được khôi phục về cài đặt gốc trong vòng 4 phút và sẽ khởi động lại tự động (không cần phải tắt máy).
 
-![image](assets/software/1.webp)
+![image](assets/en/36.webp)
 
 ## Cài đặt BraiinsOS+ trên Antminer S9
 
@@ -532,11 +532,11 @@ Có một số cách để cài đặt Braiins OS+ trên ASIC. Bạn có thể t
 2. Tải xuống BOS toolbox cho Windows / Linux.
 3. Giải nén tệp đã tải và mở tệp bos-toolbox.bat. Chọn ngôn ngữ, và sau vài phút, bạn sẽ thấy cửa sổ này:
 
-![image](assets/software/5.webp)
+![image](assets/en/37.webp)
 
 4. BOS toolbox sẽ giúp bạn dễ dàng tìm địa chỉ IP của Antminer và cài đặt BraiinsOS+. Nếu bạn đã biết địa chỉ IP của máy, bạn có thể bỏ qua đến bước 8. Nếu không, hãy chuyển đến tab "scan".
 
-![image](assets/software/6.webp)
+![image](assets/en/38.webp)
 
 5. Thông thường, trên các mạng gia đình, phạm vi địa chỉ IP nằm giữa 192.168.1.1 và 192.168.1.255, vì vậy nhập "192.168.1.0/24" vào trường phạm vi IP. Nếu mạng của bạn khác, vui lòng thay đổi các địa chỉ này cho phù hợp. Sau đó nhấn vào "Start".
 
@@ -544,13 +544,13 @@ Có một số cách để cài đặt Braiins OS+ trên ASIC. Bạn có thể t
 
 7. Bạn sẽ thấy tất cả các Antminer trên mạng của mình xuất hiện ở đây, và địa chỉ IP là 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/en/39.webp)
 
 8. Nhấn vào "Back" và sau đó là tab "Install", nhập địa chỉ IP đã tìm thấy trước đó, và nhấn vào "Start".
 
 > Nếu việc cài đặt không thành công, có thể cần thực hiện đặt lại cài đặt gốc và thử lại (xem phần trước).
 
-![image](assets/software/8.webp)
+![image](assets/en/40.webp)
 
 9. Sau vài phút, Antminer của bạn sẽ khởi động lại và bạn có thể truy cập giao diện Braiins OS+ tại địa chỉ IP đã chỉ định, ở đây là 192.168.1.37, trực tiếp trên thanh địa chỉ trình duyệt của bạn. Tên người dùng mặc định là "root" và không có mật khẩu mặc định.
 
@@ -571,7 +571,7 @@ Sau đó, bạn sẽ được chào đón bởi Bảng điều khiển Braiins O
 
 ### Bảng điều khiển
 
-![image](assets/software/14.webp)
+![image](assets/en/41.webp)
 
 Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực tế của máy đào.
 
@@ -579,7 +579,7 @@ Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực t�
 - Bên phải, hashrate thực tế, nhiệt độ chip trung bình, hiệu quả ước tính theo W/THs và mức tiêu thụ điện năng.
 - Bên dưới, tốc độ quạt tính theo phần trăm của tốc độ tối đa và số vòng quay mỗi phút.
 
-![image](assets/software/15.webp)
+![image](assets/en/42.webp)
 
 - Phía dưới, bạn sẽ tìm thấy chi tiết về từng hashboard. Nhiệt độ trung bình của bảng và các chip bên trong nó, cũng như điện áp và tần số.
 - Chi tiết về các hồ bơi khai thác hoạt động trong Pools.
@@ -588,15 +588,15 @@ Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực t�
 
 ### Cấu hình
 
-![image](assets/software/16.webp)
+![image](assets/en/43.webp)
 
 ### Hệ thống
 
-![image](assets/software/17.webp)
+![image](assets/en/44.webp)
 
 ### Hành động nhanh
 
-![image](assets/software/18.webp)
+![image](assets/en/45.webp)
 
 # Attakai - Chỉnh sửa quạt
 
@@ -608,7 +608,7 @@ Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực t�
 
 > CẢNH BÁO: Điều cần thiết là phải đã cài đặt Braiins OS+ trên máy đào của bạn, hoặc bất kỳ phần mềm nào khác có thể giảm hiệu suất của máy. Biện pháp này rất quan trọng vì để giảm tiếng ồn, chúng ta sẽ lắp đặt quạt yếu hơn có thể tản nhiệt kém hơn.
 
-![image](assets/hardware/cover.webp)
+![image](assets/en/46.webp)
 
 ### Vật liệu cần thiết
 
@@ -617,58 +617,58 @@ Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực t�
 
 > CẢNH BÁO: Đầu tiên, trước khi bắt đầu, hãy chắc chắn rằng bạn đã rút phích cắm của máy đào để tránh mọi nguy cơ bị điện giật.
 
-![image](assets/hardware/1.webp)
+![image](assets/en/47.webp)
 
 Tháo 6 ốc vít ở bên cạnh vỏ để mở nó ra. Sau khi các ốc vít được tháo ra, cẩn thận mở vỏ để bỏ lớp bảo vệ nhựa che phủ các linh kiện.
 
-![image](assets/hardware/2.webp)
-![image](assets/hardware/3.webp)
+![image](assets/en/48.webp)
+![image](assets/en/49.webp)
 
 Tiếp theo, đã đến lúc tháo quạt gốc, cẩn thận để không làm hỏng các linh kiện khác. Để làm điều này, tháo các ốc vít giữ nó và nhẹ nhàng gỡ bỏ keo trắng xung quanh đầu nối. Quan trọng là phải tiến hành một cách cẩn thận để tránh làm hỏng dây hoặc đầu nối.
-![image](assets/hardware/4.webp)
+![image](assets/en/50.webp)
 Sau khi quạt gốc được tháo ra, bạn sẽ nhận thấy rằng các đầu nối của quạt Noctua mới không khớp với quạt gốc. Thực tế, quạt mới có 3 dây, bao gồm một dây màu vàng cho phép điều khiển tốc độ. Tuy nhiên, dây này sẽ không được sử dụng trong trường hợp này. Do đó, để kết nối quạt mới, việc sử dụng một bộ chuyển đổi đặc biệt được khuyến nghị. Tuy nhiên, cần phải lưu ý rằng bộ chuyển đổi này đôi khi có thể khó tìm.
 
-![image](assets/hardware/5.webp)
+![image](assets/en/51.webp)
 
 Nếu bạn không có bộ chuyển đổi này, bạn vẫn có thể tiếp tục kết nối quạt mới bằng cách sử dụng đầu nối trung gian. Để làm điều này, bạn sẽ cần cắt các dây của quạt cũ và quạt mới.
 
-![image](assets/hardware/6.webp)
-![image](assets/hardware/7.webp)
+![image](assets/en/52.webp)
+![image](assets/en/53.webp)
 
 Trên quạt mới, sử dụng dao cắt và cẩn thận cắt đường viền của vỏ chính ở khoảng cách 1cm mà không cắt vào vỏ của các dây bên trong.
 
-![image](assets/hardware/8.webp)
+![image](assets/en/54.webp)
 
 Sau đó, kéo vỏ chính xuống dưới, cắt vỏ của dây đỏ và dây đen theo cách tương tự như trước. Và cắt dây vàng ngắn gọn.
 
-![image](assets/hardware/9.webp)
+![image](assets/en/55.webp)
 
 Trên quạt cũ, việc cắt vỏ chính mà không làm hỏng vỏ của dây đỏ và dây đen là khó khăn hơn. Để làm điều này, chúng tôi đã sử dụng một cây kim để luồn giữa vỏ chính và dây đỏ và dây đen.
 
-![image](assets/hardware/10.webp)
-![image](assets/hardware/11.webp)
+![image](assets/en/56.webp)
+![image](assets/en/57.webp)
 
 Một khi dây đỏ và dây đen được lộ ra, cắt vỏ cẩn thận để tránh làm hỏng dây điện.
 
-![image](assets/hardware/12.webp)
+![image](assets/en/58.webp)
 
 Sau đó, kết nối các dây bằng đầu nối trung gian, dây đen với dây đen và dây đỏ với dây đỏ. Bạn cũng có thể thêm băng dính điện.
 
-![image](assets/hardware/13.webp)
-![image](assets/hardware/14.webp)
+![image](assets/en/59.webp)
+![image](assets/en/60.webp)
 
 Một khi kết nối được thực hiện, đã đến lúc lắp quạt Noctua mới với lưới bảo vệ và các ốc vít cũ. Các ốc vít mới trong hộp sẽ được sử dụng lại sau. Đảm bảo đặt nó theo hướng đúng. Bạn sẽ nhận thấy một mũi tên trên một bên của quạt, chỉ hướng luồng khí. Quan trọng là phải đặt quạt sao cho mũi tên này hướng vào bên trong của thùng máy. Sau đó kết nối lại quạt.
 
-![image](assets/hardware/15.webp)
-![image](assets/hardware/16.webp)
+![image](assets/en/61.webp)
+![image](assets/en/62.webp)
 
 > Tùy chọn: Nếu bạn có kiến thức về điện, bạn có thể thêm trực tiếp một đầu nối jack nữ 5.5mm vào nguồn điện 12V để cung cấp điện trực tiếp cho cầu Wi-Fi Vonet. Tuy nhiên, nếu bạn không chắc về kỹ năng điện của mình, tốt nhất là sử dụng đầu nối USB với một bộ sạc kiểu điện thoại thông minh để tránh bất kỳ rủi ro nào về ngắn mạch hoặc hỏng hóc điện.
 
-![image](assets/hardware/17.webp)
+![image](assets/en/63.webp)
 
 Một khi các kết nối được thực hiện, đặt nắp nhựa che lên phía trên của thùng máy và không phải nằm bên trong.
 
-![image](assets/hardware/18.webp)
+![image](assets/en/64.webp)
 
 Cuối cùng, đặt nắp thùng máy trở lại và vặn 6 ốc vít ở các bên để giữ mọi thứ cố định. Vậy là thùng bộ cung cấp nguồn của bạn giờ đây đã được trang bị một quạt mới.
 
@@ -678,7 +678,7 @@ Cuối cùng, đặt nắp thùng máy trở lại và vặn 6 ốc vít ở cá
 
 > CẢNH BÁO: Điều cần thiết là phải đã cài đặt Braiins OS+ trên máy đào của bạn, hoặc bất kỳ phần mềm nào khác có thể giảm hiệu suất của máy. Biện pháp này rất quan trọng vì để giảm tiếng ồn, chúng ta sẽ lắp đặt quạt yếu hơn có thể tản nhiệt kém hơn.
 
-![hình ảnh](assets/hardware/cover.webp)
+![hình ảnh](assets/en/46.webp)
 
 ### Vật liệu cần thiết
 
@@ -690,36 +690,36 @@ Cuối cùng, đặt nắp thùng máy trở lại và vặn 6 ốc vít ở cá
 
 1. Đầu tiên, ngắt kết nối quạt và tháo chúng ra.
 
-![hình ảnh](assets/hardware/19.webp)
+![hình ảnh](assets/en/65.webp)
 
 2. Các đầu nối của quạt Noctua mới không khớp với đầu nối gốc, nhưng đừng lo! Lấy dao cắt của bạn và cẩn thận cắt bỏ các thanh nhựa nhỏ sao cho các đầu nối vừa khít với máy đào của bạn.
 
-![hình ảnh](assets/hardware/20.webp)
-![hình ảnh](assets/hardware/21.webp) 3. Đã đến lúc lắp đặt các bộ chuyển đổi 3D!
+![hình ảnh](assets/en/66.webp)
+![hình ảnh](assets/en/67.webp) 3. Đã đến lúc lắp đặt các bộ chuyển đổi 3D!
 Gắn chúng vào cả hai bên của máy đào sử dụng các ốc vít bạn đã tháo ra từ quạt. Vặn chúng cho đến khi đầu ốc vít bằng phẳng với bộ chuyển đổi 3D và đảm bảo nó được giữ chắc chắn. Hãy cẩn thận không vặn quá chặt, vì bạn có thể làm biến dạng bộ chuyển đổi và một trong các ốc vít có thể chạm vào tụ điện!
 
-![hình ảnh](assets/hardware/22.webp)
+![hình ảnh](assets/en/68.webp)
 
 4. Bây giờ chúng ta chuyển sang phần quạt.
 
 Gắn chúng vào các bộ chuyển đổi 3D sử dụng các ốc vít được cung cấp trong hộp. Chú ý đến hướng luồng khí, các mũi tên trên cạnh của quạt sẽ chỉ hướng bạn cần theo. Di chuyển từ phía cổng Ethernet sang phía bên kia. Xem hình dưới đây.
 
-![hình ảnh](assets/hardware/23.webp)
-![hình ảnh](assets/hardware/24.webp)
-![hình ảnh](assets/hardware/25.webp)
+![hình ảnh](assets/en/69.webp)
+![hình ảnh](assets/en/70.webp)
+![hình ảnh](assets/en/71.webp)
 
 5. Bước cuối cùng: kết nối quạt và gắn lưới bảo vệ phía trên với các ốc vít không sử dụng trong hộp quạt nguồn. Bạn chỉ có 4 cái, nhưng 2 cái cho mỗi lưới ở các góc đối diện là đủ. Bạn cũng có thể tìm các ốc vít tương tự tại cửa hàng phần cứng nếu cần.
 
-![hình ảnh](assets/hardware/26.webp)
-![hình ảnh](assets/hardware/27.webp)
+![hình ảnh](assets/en/72.webp)
+![hình ảnh](assets/en/73.webp)
 
 Trong khi chờ đợi một vỏ máy đẹp mắt hơn cho bộ sưởi mới của bạn, bạn có thể gắn vỏ máy và nguồn điện với dây buộc điện.
 
-![hình ảnh](assets/hardware/28.webp)
+![hình ảnh](assets/en/74.webp)
 
 Và cho bước hoàn thiện, kết nối cầu nối Vonet vào cổng Ethernet và nguồn điện của nó.
 
-![hình ảnh](assets/hardware/29.webp)
+![hình ảnh](assets/en/75.webp)
 
 Vậy là, xin chúc mừng! Bạn vừa thay thế toàn bộ phần cơ khí của máy đào của mình. Bây giờ bạn nên nghe thấy tiếng ồn ít hơn nhiều so với trước.
 
@@ -746,17 +746,17 @@ Mô hình phần thưởng mà chúng tôi quan tâm là PPS, có nghĩa là "pa
 - Linecoin: Lợi thế của Linecoin là số lượng tính năng được cung cấp, như bảng điều khiển chi tiết, khả năng thực hiện rút tiền với Paynym (BIP 47) để bảo vệ quyền riêng tư tốt hơn, và việc tích hợp bot Telegram cũng như tự động hóa có thể cấu hình trực tiếp trong ứng dụng di động. Pool này chỉ đào các khối Bitcoin, nhưng số lượng tối thiểu để rút tiền vẫn cao, ở mức 100,000 sats. Chúng tôi sẽ xem xét giao diện của một trong những pool này một cách chi tiết hơn trong một bài viết tương lai.
   Để cấu hình một pool trong Braiins OS+, bạn sẽ cần tạo một tài khoản trong một trong những pool mà bạn lựa chọn. Ở đây chúng ta sẽ lấy ví dụ về Linecoin:
 
-![hình ảnh](assets/software/19.webp)
+![hình ảnh](assets/en/76.webp)
 
 Sau khi tài khoản của bạn được tạo, nhấp vào Connect To Pool
 
 Sau đó sao chép địa chỉ Stratum và tên người dùng của bạn:
 
-![hình ảnh](assets/software/20.webp)
+![hình ảnh](assets/en/77.webp)
 
 Bây giờ bạn có thể quay lại giao diện Braiins OS+ để nhập những thông tin đăng nhập này. Đối với mật khẩu, bạn có thể để trống.
 
-![hình ảnh](assets/software/21.webp)
+![hình ảnh](assets/en/78.webp)
 
 ## Tối ưu hóa hiệu suất cho Antminer S9 của bạn
 
@@ -777,15 +777,47 @@ Ngày nay, có một tiến bộ mới trong lĩnh vực phần mềm và firmwa
 
 Kết quả cuối cùng là tốc độ hash cao hơn trên mỗi watt điện năng tiêu thụ, điều này có nghĩa là lợi nhuận lớn hơn cho các thợ đào. Lý do tại sao các máy không được phân phối với loại phần mềm này là vì sự biến động của máy là không mong muốn, vì khách hàng muốn biết chính xác họ đang nhận được cái gì, vì vậy việc bán một sản phẩm không có hiệu suất nhất quán và dự đoán được từ máy này sang máy khác là ý tưởng tồi cho các nhà sản xuất. Ngoài ra, autotuning ở cấp độ chip đòi hỏi nguồn lực phát triển đáng kể, vì nó phức tạp để triển khai. Các nhà sản xuất đã chi rất nhiều nguồn lực để phát triển firmware của riêng họ. Có các giải pháp phần mềm cho phép autotuning, như Braiins OS+, có thể cải thiện hiệu suất ASIC lên đến 20%.
 
-## Đánh giá khóa học
+# Kết luận
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Đánh giá khóa học này
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Điều khiển Antminer S9 từ điện thoại thông minh của bạn
+## Kỳ thi cuối khóa
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Tạo phím tắt trên iOS
+## Kết luận
 
-![Điều khiển Antminer S9 bằng điện thoại thông minh của bạn](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Chúc mừng bạn đã hoàn thành khóa học này!
+
+Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
+
+Thông qua sự cống hiến và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
+
+Để tiếp tục khám phá sâu hơn về vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
+
+#### Khám phá Bitcoin và những điều cơ bản của nó với
+
+https://planb.network/courses/btc101
+
+#### Khám phá Lightning Network với
+
+https://planb.network/courses/lnp201
+
+#### Làm chủ các nguyên tắc về quyền riêng tư trên Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+
+https://planb.network/courses/his201
+
+#### Hiểu cách hoạt động của ví Bitcoin với
+
+https://planb.network/courses/cyp201

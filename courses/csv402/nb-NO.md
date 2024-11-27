@@ -118,7 +118,7 @@ Lykke til med studiene, og hvis du trenger å kontakte teamet vårt eller lærer
 ## Avsluttende ord
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-Takk for at du deltok på RGB-kursene tilbudt av PlanB Network i samarbeid med Fulgur'Ventures. Vi takker våre lærere for deres støtte. Hvis du er interessert i å fortsette arbeidet ditt med RGB, her er en nyttig liste over ressurser for deg å utforske:
+Takk for at du deltok på RGB-kursene tilbudt av Plan ₿ Network i samarbeid med Fulgur'Ventures. Vi takker våre lærere for deres støtte. Hvis du er interessert i å fortsette arbeidet ditt med RGB, her er en nyttig liste over ressurser for deg å utforske:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
@@ -126,4 +126,4 @@ Takk for at du deltok på RGB-kursene tilbudt av PlanB Network i samarbeid med F
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
 
-Takk, og lykke til med studiene dine på PlanB Network.
+Takk, og lykke til med studiene dine på Plan ₿ Network.

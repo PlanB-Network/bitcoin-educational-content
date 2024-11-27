@@ -1,9 +1,9 @@
-question: Au sein du protocole Bitcoin, qu'est-ce qu'un HASH256 ?
-answer: Un double hachage SHA256.
+question: Quelle combinaison de fonctions de hachage est utilisée pour générer des empreintes plus courtes dans Bitcoin ?
+answer: HASH160
 wrong_answers:
-  - Un double hachage Keccak-256.
-  - Un hachage SHA256 suivi d'un hachage RIPEMD160.
-  - Un simple hachage SHA256.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Un HASH256 est un double hachage SHA256, ce qui signifie que la fonction SHA256 est appliquée une première fois à une donnée, puis une seconde fois sur le résultat de la première.
+  HASH160 combine SHA256 et RIPEMD160 pour générer des empreintes de 160 bits, notamment pour les adresses Bitcoin.
 reviewed: false

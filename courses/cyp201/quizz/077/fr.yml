@@ -1,9 +1,9 @@
-question: Comment calcule-t-on la checksum d'une adresse Legacy ?
-answer: Avec HASH256.
+question: Pourquoi les descriptors sont-ils particulièrement utiles pour les portefeuilles multisignatures ?
+answer: Ils incluent les xpub de chaque facteur et décrivent la structure multisignature
 wrong_answers:
-  - Avec HASH160.
-  - Avec un code BCH.
-  - Avec RIPEMD160.
+  - Ils éliminent la nécessité d'une phrase mnémonique
+  - Ils simplifient la génération des clés endurcies
+  - Ils rendent les multisignatures compatibles avec tous les scripts
 explanation: |
-  Pour les adresses Legacy, la checksum est obtenue en effectuant un double hachage avec la fonction SHA256 (HASH256).
+  Les descriptors incluent les clés publiques étendues de tous les participants, ce qui facilite la restauration et la gestion des configurations multisignatures.
 reviewed: false

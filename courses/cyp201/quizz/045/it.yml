@@ -1,9 +1,9 @@
-question: Cosa rappresenta la passphrase all'interno di un portafoglio HD?
-answer: Un sale crittografico opzionale di dimensione arbitraria.
+question: Qual è la funzione hash utilizzata per calcolare il checksum di una frase mnemonica?
+answer: SHA256
 wrong_answers:
-  - Una 25esima parola nella frase mnemonica.
-  - Un sale crittografico obbligatorio di dimensione fissa.
-  - Un secondo seed.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  La passphrase è un sale crittografico opzionale, che aumenta la sicurezza del portafoglio aggiungendo informazioni aggiuntive alla frase mnemonica per determinare il seed.
+  Il checksum di una frase mnemonica viene calcolato applicando un semplice hash SHA256 sull'entropia.
 reviewed: false

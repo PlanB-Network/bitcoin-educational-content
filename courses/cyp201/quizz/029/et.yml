@@ -1,8 +1,9 @@
-question: Mida tõestab digitaalallkiri Bitcoin'i süsteemis läbi scriptSig?
-answer: Eravihma võtme omamist, mis on seotud kindla avaliku võtmega.
+question: Millist digitaalallkirja algoritmi kasutati Bitcoini käivitamisel?
+answer: ECDSA
 wrong_answers:
-  - Bitcoin'i aadressi omamist.
-  - Võimet kaevandada Bitcoin'i plokki.
-  - Bitcoin'i tehingu kehtivust.
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Digitaalallkiri tõestab, et kasutajal on eravihma võti ilma, et ta peaks seda avalikustama, tagades tehingu autentsuse.
+  Bitcoin kasutas algselt ECDSA-d, allkirjaprotokolli, mis põhineb elliptilistel kõveratel, enne Schnorri allkirjade tutvustamist 2021. aastal.
+reviewed: false

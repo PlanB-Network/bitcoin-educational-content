@@ -1,9 +1,8 @@
-question: Apa tujuan dari rantai eksternal dalam proses derivasi?
-answer: Untuk mengisolasi alamat yang dimaksudkan untuk dipublikasikan.
+question: Apa batasan untuk menurunkan kunci publik anak dari kunci publik induk?
+answer: Kunci anak harus normal
 wrong_answers:
-  - Untuk mengisolasi alamat perubahan.
-  - Untuk mengelola transaksi masuk.
-  - Untuk memisahkan kunci privat dari kunci publik.
+  - Kunci anak harus diperkuat
+  - Kode rantai harus identik dengan kunci induk
+  - Proses tersebut harus mencakup kunci privat induk
 explanation: |
-  Rantai eksternal digunakan untuk mendapatkan alamat yang dimaksudkan untuk dipublikasikan, seperti alamat untuk menerima pembayaran.
-reviewed: false
+  Kunci publik anak hanya dapat diturunkan dari kunci publik induk jika itu normal, tidak diperkuat.

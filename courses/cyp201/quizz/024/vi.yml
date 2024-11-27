@@ -1,9 +1,8 @@
-question: Tọa độ của điểm sinh G được sử dụng trên đường cong elliptic secp256k1 là gì?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Kích thước của một khóa riêng thô được sử dụng trên Bitcoin là bao nhiêu?
+answer: 256 bit
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bit
+  - 512 bit
+  - 1024 bit
 explanation: |
-  Điểm sinh G là một điểm được xác định trước trên đường cong elliptic secp256k1, được sử dụng để tạo ra khóa công khai từ khóa riêng trong Bitcoin.
-reviewed: false
+  Một khóa riêng trong Bitcoin là một số nguyên ngẫu nhiên 256-bit, đảm bảo một không gian khóa đủ lớn để bảo đảm an ninh.

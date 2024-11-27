@@ -1,9 +1,9 @@
-question: Qual è la dimensione di una chiave pubblica Bitcoin non compressa, inclusa la sua prefisso?
-answer: 520 bit.
+question: Qual è il punto comune utilizzato da tutti i partecipanti per calcolare una chiave pubblica in Bitcoin?
+answer: Il punto generatore G
 wrong_answers:
-  - 512 byte.
-  - 256 bit.
-  - 512 bit.
+  - L'hash SHA256
+  - Una frase mnemonica
+  - La chiave pubblica compressa
 explanation: |
-  Una chiave pubblica Bitcoin non compressa con il suo prefisso è di 520 bit, comprendendo le coordinate x e y del punto sulla curva ellittica.
+  Il punto generatore G della curva ellittica secp256k1 è utilizzato per calcolare le chiavi pubbliche a partire dalle chiavi private.
 reviewed: false

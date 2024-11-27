@@ -1,0 +1,9 @@
+question: Which index represents the external chain of an account in a derivation path?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  The external chain is identified by the index /0/ at depth 4 of the derivation path.
+reviewed: false

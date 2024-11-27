@@ -1,0 +1,9 @@
+question: Che tipo di indirizzo inizia con `1` ed appartiene allo standard Legacy?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  Gli indirizzi P2PKH, codificati in base58check, derivano dallo standard Legacy e iniziano con la cifra `1`.
+reviewed: false

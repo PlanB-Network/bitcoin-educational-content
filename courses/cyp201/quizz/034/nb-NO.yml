@@ -1,8 +1,9 @@
-question: Hva er en JBOK-lommebok i konteksten av Bitcoin?
-answer: En lommebok som grupperer sammen private nøkler bestemt tilfeldig, uten noen forbindelse mellom dem.
+question: Hvilket sighash-flagg brukes mest vanlig i Bitcoin-transaksjoner?
+answer: SIGHASH_ALL
 wrong_answers:
-  - En lommebok som utleder nøkler på en hierarkisk måte fra et enkelt frø.
-  - En lommebok som utleder nøkler fra tidligere nøkler.
-  - En lommebok som bruker kun en mnemoteknisk frase for å utlede nøkler.
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  En JBOK (Just a Bunch Of Keys) lommebok inneholder private nøkler som er generert tilfeldig og uavhengig av hverandre, i motsetning til HD-lommebøker.
+  SIGHASH_ALL er det standard sighash-flagget, som dekker alle innganger og utganger i en transaksjon, og forhindrer enhver modifikasjon.
+reviewed: false

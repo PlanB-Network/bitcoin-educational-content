@@ -1,8 +1,9 @@
-question: Mitä digitaalinen allekirjoitus todistaa Bitcoin-järjestelmässä scriptSig; n kautta?
-answer: Yksityisen avaimen hallussapidon, joka liittyy tiettyyn julkiseen avaimen.
+question: Mikä digitaalisen allekirjoituksen algoritmi otettiin käyttöön Bitcoinin lanseerauksessa?
+answer: ECDSA
 wrong_answers:
-  - Bitcoin-osoitteen hallussapidon.
-  - Kyvyn louhia Bitcoin-lohkon.
-  - Bitcoin-siirron pätevyyden.
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Digitaalinen allekirjoitus todistaa, että käyttäjällä on yksityinen avain paljastamatta sitä, varmistaen siirron aitouden.
+  Bitcoin käytti alun perin ECDSA: ta, allekirjoitusprotokollaa, joka perustuu elliptisiin käyriin, ennen kuin Schnorrin allekirjoitukset otettiin käyttöön vuonna 2021.
+reviewed: false

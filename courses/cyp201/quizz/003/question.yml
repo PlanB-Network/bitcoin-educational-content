@@ -1,17 +1,17 @@
-id: 97216b80-c7e5-48db-a8d7-c62a7b2b7b36
+id: 76473f86-a049-45a5-aecc-af54945bceb8
 chapterId: dba011f5-1805-5a48-ac2b-4bd637c93703
 difficulty: easy
-duration: 15
+duration: 30
 author: pretty-private
 tags:
-  - crtyptography
-  - wallets
+  - cypherpunk
+  - network-security
 
 # Proofreading metadata
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-10-21
+    last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - LoicPandul

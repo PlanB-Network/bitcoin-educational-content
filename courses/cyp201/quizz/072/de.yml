@@ -1,8 +1,9 @@
-question: Welche Funktion wird verwendet, um eine Adresse zu generieren?
-answer: HASH160.
+question: Was bedeutet ein Apostroph (') oder das h in einem Ableitungspfad?
+answer: Eine gehärtete Ableitung
 wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
+  - Eine normale Ableitung
+  - Eine externe Ableitung
+  - Eine nicht-standardmäßige Ableitung
 explanation: |
-  Die Funktion HASH160, die SHA256 und RIPEMD-160 kombiniert, wird verwendet, um Bitcoin-Adressen aus öffentlichen Schlüsseln zu generieren.
+  Ein Apostroph zeigt an, dass die Ableitung gehärtet ist, was bedeutet, dass ein Eltern-Privatschlüssel erforderlich ist, um den Kind-Schlüssel zu generieren.
+reviewed: false

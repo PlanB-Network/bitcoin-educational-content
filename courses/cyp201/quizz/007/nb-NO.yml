@@ -1,9 +1,9 @@
-question: Hva tilsvarer verdiene til de 8 initialiseringsvektorene i SHA256-funksjonen?
-answer: De første 64 bitene av desimaldelene til kubikkrøttene av de første 8 primtallene.
+question: Hva er den viktigste forskjellen mellom ShR- og RotR-operasjoner?
+answer: ShR forskyver biter ved å legge til nuller, RotR setter inn de forskyvede bitene på nytt
 wrong_answers:
-  - Desimalene til Pi.
-  - De første 32 bitene av desimaldelene til kvadratrøttene av de første 8 primtallene.
-  - De første 64 bitene av desimaldelene til kvadratrøttene av de første 8 primtallene.
+  - ShR fjerner de forskyvede bitene, RotR multipliserer deres verdi
+  - ShR forskyver til venstre, RotR forskyver til høyre
+  - ShR er en logisk operasjon, RotR er aritmetisk
 explanation: |
-  Initialiseringsvektorene til SHA256 er basert på de første 64 bitene av desimaldelene til kubikkrøttene av de første 8 primtallene.
+  ShR forskyver biter til høyre ved å legge til nuller, mens RotR utfører en sirkulær rotasjon av bitene.
 reviewed: false

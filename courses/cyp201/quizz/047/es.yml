@@ -1,8 +1,9 @@
-question: ¿Por qué usar una frase de paso fortalece la seguridad de un monedero HD?
-answer: Añade una capa extra de protección a la frase mnemotécnica.
+question: ¿Cuál es el tamaño en bits de un segmento binario utilizado para crear cada palabra mnemotécnica?
+answer: 11 bits
 wrong_answers:
-  - Permite la generación de claves públicas más fuertes.
-  - Protege criptográficamente las transacciones.
-  - Duplica el número de bitcoins en el monedero.
+  - 8 bits
+  - 16 bits
+  - 10 bits
 explanation: |
-  La frase de paso mejora la seguridad al añadir un dato adicional a la frase mnemotécnica, actuando de manera similar a un 2FA.
+  Cada segmento de 11 bits corresponde a una palabra de la lista estandarizada de 2048 palabras en BIP39.
+reviewed: false

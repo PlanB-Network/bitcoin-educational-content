@@ -1,8 +1,9 @@
-question: Hva er en Nonce i kryptografi?
-answer: Et tall ment for å bli brukt én gang.
+question: Hvilken egenskap ved Schnorr gjør det mulig å kombinere flere offentlige nøkler til én?
+answer: Nøkkelaggregering
 wrong_answers:
-  - Et partall.
-  - En digital signatur.
-  - Et tall som kan gjenbrukes.
+  - Gruppeverifisering
+  - Formbarhet
+  - Signaturkompaktering
 explanation: |
-  En nonce er et tall som brukes én gang for kryptografiske operasjoner, noe som sikrer unikheten til visse verdier i algoritmer.
+  Schnorr tillater aggregering av flere offentlige nøkler til en enkelt nøkkel.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Co představuje heslová fráze v HD peněžence?
-answer: Volitelný kryptografický sůl libovolné velikosti.
+question: Jaká hashovací funkce se používá pro výpočet kontrolního součtu mnemonické fráze?
+answer: SHA256
 wrong_answers:
-  - 25. slovo ve mnemotechnické frázi.
-  - Povinný kryptografický sůl pevné velikosti.
-  - Druhé semínko.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  Heslová fráze je volitelný kryptografický sůl, který zvyšuje bezpečnost peněženky přidáním dodatečných informací k mnemotechnické frázi pro určení semínka.
+  Kontrolní součet mnemonické fráze je vypočítán aplikací jednoduchého hashu SHA256 na entropii.
 reviewed: false

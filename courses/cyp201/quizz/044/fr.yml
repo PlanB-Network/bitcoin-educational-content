@@ -1,9 +1,9 @@
-question: Comment construire la phrase de récupération (mnémonique) en binaire ?
-answer: On concatène le nombre aléatoire avec sa checksum à la fin.
+question: Qu'est-ce que l'entropie dans le contexte de la cryptographie ?
+answer: Une mesure de l'imprévisibilité associée à un processus aléatoire
 wrong_answers:
-  - On concatène le nombre aléatoire avec sa checksum au début.
-  - On concatène le nombre aléatoire avec une graine.
-  - On divise le nombre aléatoire en deux parties et on insère la checksum au milieu.
+  - Une méthode de chiffrement des données sensibles
+  - Un algorithme pour calculer des clés publiques
+  - Une technique de compression des données
 explanation: |
-  Pour générer une phrase mnémonique en binaire, on concatène la checksum à la fin du nombre aléatoire avant de convertir en mots.
+  En cryptographie, l'entropie quantifie le niveau d'incertitude ou de chaos dans une source aléatoire, essentiel pour générer des clés sécurisées.
 reviewed: false

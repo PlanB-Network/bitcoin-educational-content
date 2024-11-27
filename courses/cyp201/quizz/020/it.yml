@@ -1,9 +1,9 @@
-question: Come viene determinata una chiave privata Bitcoin?
-answer: Viene determinata da un numero casuale o pseudo-casuale.
+question: Qual è la differenza tra una chiave pubblica compressa e una non compressa?
+answer: La chiave pubblica compressa utilizza solo la coordinata x e la parità di y
 wrong_answers:
-  - Viene determinata tramite l'addizione e il raddoppio dei punti sulla curva ellittica dalla sua chiave pubblica.
-  - Viene determinata facendo l'hashing della sua chiave pubblica.
-  - Viene determinata dall'algoritmo SHA-256.
+  - La chiave pubblica compressa è più sicura
+  - La chiave pubblica compressa utilizza solo la coordinata y e la parità di x
+  - La chiave pubblica compressa richiede una chiave privata più grande
 explanation: |
-  Una chiave privata Bitcoin viene generata in modo casuale o pseudo-casuale, il che ne garantisce l'unicità e la sicurezza.
+  Una chiave pubblica compressa mantiene solo la coordinata x e un bit per la parità di y, riducendo così la sua dimensione a 33 byte.
 reviewed: false

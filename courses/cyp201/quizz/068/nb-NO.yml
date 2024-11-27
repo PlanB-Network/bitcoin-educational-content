@@ -1,9 +1,8 @@
-question: Hva er formålet med en ekstern kjede i avledningsprosessen?
-answer: Å isolere adresser som er ment å være offentlige.
+question: Hva er begrensningen for å utlede en barneoffentlig nøkkel fra en forelderoffentlig nøkkel?
+answer: Barne nøkkelen må være normal
 wrong_answers:
-  - Å isolere vekseladresser.
-  - Å håndtere innkommende transaksjoner.
-  - Å skille private nøkler fra offentlige nøkler.
+  - Barne nøkkelen må være herdet
+  - Kjedekoden må være identisk med den til foreldernøkkelen
+  - Prosessen må inkludere den private nøkkelen til forelderen
 explanation: |
-  Den eksterne kjeden brukes til å avlede adresser som er ment å være offentlige, slik som de for å motta betalinger.
-reviewed: false
+  En barneoffentlig nøkkel kan kun utledes fra en forelderoffentlig nøkkel hvis den er normal, ikke herdet.

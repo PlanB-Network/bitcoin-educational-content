@@ -1,11 +1,9 @@
-question: Làm thế nào để chọn một cụm mật khẩu hiệu quả?
-
-answer: Nó nên dài, đa dạng và ngẫu nhiên, không liên quan đến người dùng.
-
+question: Mục đích của cụm từ ghi nhớ trong ví HD Bitcoin là gì?
+answer: Để suy ra một cách có hệ thống tất cả các khóa
 wrong_answers:
-  - Nó nên dễ nhớ và liên quan đến môi trường của người dùng.
-  - Nó nên ngắn nhưng bao gồm số.
-  - Nó nên chứa ít nhất 10 chữ số.
-
-explanation:
-  Một cụm mật khẩu hiệu quả nên dài (20 đến 40 ký tự), đa dạng và ngẫu nhiên để cung cấp mức độ bảo mật cao nhất, tương tự như một mật khẩu tốt.
+  - Để trực tiếp ký các giao dịch
+  - Để mã hóa địa chỉ Bitcoin
+  - Để tạo một băm cho các UTXOs
+explanation: |
+  Cụm từ ghi nhớ cho phép suy ra tất cả các khóa riêng tư và công khai trong ví, do đó tạo điều kiện thuận lợi cho việc sao lưu và khôi phục.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Jak sestavit obnovovací frázi (mnemoniku) v binárním kódu?
-answer: Připojte náhodné číslo se svým kontrolním součtem na konec.
+question: Co je entropie v kontextu kryptografie?
+answer: Míra nepředvídatelnosti spojená s náhodným procesem
 wrong_answers:
-  - Připojte náhodné číslo se svým kontrolním součtem na začátek.
-  - Připojte náhodné číslo se semenem.
-  - Rozdělte náhodné číslo na dvě části a vložte kontrolní součet do prostředka.
+  - Metoda pro šifrování citlivých dat
+  - Algoritmus pro výpočet veřejných klíčů
+  - Technika komprese dat
 explanation: |
-  Pro generování binární mnemonické fráze připojte kontrolní součet na konec náhodného čísla před jeho převedením do slov.
+  V kryptografii entropie kvantifikuje úroveň nejistoty nebo chaosu v náhodném zdroji, což je zásadní pro generování bezpečných klíčů.
 reviewed: false

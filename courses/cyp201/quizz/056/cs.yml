@@ -1,9 +1,8 @@
-question: Jaký je účel rozšířeného klíče?
-answer: Shromáždit všechny nezbytné informace pro odvození dětských klíčů do jediného řetězce.
+question: Jaká konstanta se používá k odvození hlavního soukromého klíče ze seedu?
+answer: Bitcoin Seed
 wrong_answers:
-  - Shromáždit všechny nezbytné informace pro rekonstrukci celé HD peněženky do jediného řetězce.
-  - Shromáždit informace o UTXO v peněžence.
-  - Shromáždit mnemonickou frázi a heslo do jediného formátu.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Rozšířený klíč umožňuje obsahovat všechny nezbytné informace pro odvození dětských klíčů, čímž zjednodušuje správu účtů v HD peněžence.
-reviewed: false
+  Konstanta Bitcoin Seed se používá jako klíč ve funkci HMAC-SHA512 k odvození hlavního soukromého klíče a hlavního řetězového kódu.

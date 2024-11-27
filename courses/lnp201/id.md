@@ -50,6 +50,7 @@ Dalam contoh kita, Alice memiliki 100.000 satoshi di sisinya dari saluran, dan B
 **Satoshi** (atau "sat") adalah unit akun di Bitcoin. Mirip dengan sen untuk euro, satoshi hanyalah pecahan dari Bitcoin. Satu satoshi sama dengan **0,00000001 Bitcoin**, atau satu per seratus juta dari sebuah Bitcoin. Menggunakan satoshi menjadi semakin praktis seiring naiknya nilai Bitcoin.
 
 ### Alokasi Dana dalam Saluran
+
 Mari kembali ke saluran pembayaran. Konsep kunci di sini adalah "**sisi dari saluran**". Setiap peserta memiliki dana di sisi saluran mereka: Alice 100.000 satoshi dan Bob 30.000. Seperti yang telah kita lihat, jumlah dana ini mewakili kapasitas total dari saluran, sebuah angka yang ditetapkan ketika dibuka.
 
 ![LNP201](assets/en/02.webp)
@@ -115,6 +116,7 @@ UTXO adalah sepotong bitcoin yang bisa bernilai berapa saja, misalnya, **2.000 b
 UTXOs tidak dapat dibagi. Setiap kali mereka digunakan untuk menghabiskan jumlah dalam bitcoin yang mereka wakili, itu harus dilakukan secara keseluruhan. Ini sedikit seperti uang kertas: jika Anda memiliki uang kertas €10 dan Anda berhutang kepada tukang roti €5, Anda tidak bisa hanya memotong uang kertas itu menjadi dua. Anda harus memberikannya uang kertas €10, dan dia akan memberi Anda €5 kembali. Prinsip yang sama persis berlaku untuk UTXOs di Bitcoin! Misalnya, ketika Alice membuka skrip dengan kunci privatnya, dia membuka seluruh UTXO. Jika dia ingin mengirim hanya sebagian dari dana yang diwakili oleh UTXO ini ke Bob, dia dapat "memecah"nya menjadi beberapa yang lebih kecil. Dia kemudian akan mengirim 0.0015 BTC ke Bob dan mengirim sisanya, 0.0005 BTC, ke **alamat kembalian**.
 
 Berikut adalah contoh transaksi dengan 2 output:
+
 - UTXO sebesar 0,0015 BTC untuk Bob, dikunci oleh skrip yang memerlukan tanda tangan kunci privat Bob.
 - UTXO sebesar 0,0005 BTC untuk Alice, dikunci oleh skrip yang memerlukan tanda tangan kunci privatnya sendiri.
 
@@ -169,6 +171,7 @@ Sangat penting untuk membedakan dengan jelas berbagai tingkatan pertukaran pada 
 
 ![LNP201](assets/en/10.webp)
 Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui protokol P2P tanpa membuka saluran, tetapi untuk bertukar dana, sebuah saluran diperlukan.
+
 ### Langkah-langkah Membuka Saluran Lightning
 
 1. **Pertukaran pesan**: Alice ingin membuka saluran dengan Bob. Dia mengiriminya pesan yang berisi jumlah yang ingin dia setorkan ke dalam saluran (130.000 sats) dan kunci publiknya. Bob merespons dengan membagikan kunci publiknya sendiri.
@@ -216,6 +219,7 @@ Di bab selanjutnya, kita akan menjelajahi cara kerja teknis transaksi Lightning 
 Dalam bab ini, kita akan menemukan fungsi teknis dari sebuah transaksi dalam saluran di Jaringan Lightning, yaitu, ketika dana dipindahkan dari satu sisi saluran ke sisi lainnya.
 
 ### Pengingat siklus hidup saluran
+
 Seperti yang telah dilihat sebelumnya, sebuah saluran Lightning dimulai dengan **pembukaan** melalui transaksi Bitcoin. Saluran tersebut dapat **ditutup** kapan saja, juga melalui transaksi Bitcoin. Di antara kedua momen tersebut, hampir tak terbatas jumlah transaksi yang dapat dilakukan dalam saluran, tanpa harus melalui blockchain Bitcoin. Mari kita lihat apa yang terjadi selama transaksi dalam saluran.
 
 ![LNP201](assets/en/17.webp)
@@ -257,6 +261,7 @@ Mari kita ambil contoh lain: setelah transaksi pertama di mana Alice mengirim 30
 Sekali lagi, transaksi ini tidak dipublikasikan di blockchain tetapi dapat dipublikasikan kapan saja jika saluran ditutup.
 
 Secara ringkas, ketika dana ditransfer dalam saluran Lightning:
+
 - Alice dan Bob membuat **transaksi komitmen** baru, yang mencerminkan distribusi dana yang baru.
 - Transaksi Bitcoin ini **ditandatangani** oleh kedua belah pihak, namun **tidak dipublikasikan** di blockchain Bitcoin selama saluran tetap terbuka.
 - Transaksi komitmen memastikan bahwa setiap peserta dapat memulihkan dana mereka kapan saja di blockchain Bitcoin dengan mempublikasikan transaksi terakhir yang ditandatangani.
@@ -300,7 +305,7 @@ Untuk mencegah jenis kecurangan ini oleh Alice, di Jaringan Lightning, **mekanis
 
 1. **Timelock**: Setiap transaksi komitmen mencakup timelock untuk dana Alice. Timelock adalah primitif kontrak pintar yang menetapkan kondisi waktu yang harus dipenuhi agar transaksi dapat ditambahkan ke blok. Ini berarti bahwa Alice tidak dapat memulihkan dana nya sampai sejumlah blok telah berlalu jika dia mempublikasikan salah satu transaksi komitmen. Timelock ini mulai berlaku dari konfirmasi transaksi komitmen. Durasi nya umumnya proporsional dengan ukuran saluran, tetapi juga dapat dikonfigurasi secara manual.
 2. **Kunci Pembatalan**: Dana Alice juga dapat segera dihabiskan oleh Bob jika dia memiliki **kunci pembatalan**. Kunci ini terdiri dari rahasia yang dipegang oleh Alice dan rahasia yang dipegang oleh Bob. Perhatikan bahwa rahasia ini berbeda untuk setiap transaksi komitmen.
-Berikut adalah terjemahan dari teks yang diberikan:
+   Berikut adalah terjemahan dari teks yang diberikan:
 
 Berkat dua mekanisme gabungan ini, Bob memiliki waktu untuk mendeteksi upaya Alice untuk menipu, dan untuk menghukumnya dengan mengambil kembali outputnya menggunakan kunci pembatalan, yang bagi Bob berarti memulihkan semua dana dari saluran tersebut. Transaksi komitmen baru kita sekarang akan terlihat seperti ini:
 ![LNP201](assets/en/25.webp)
@@ -340,6 +345,7 @@ Meskipun, dalam kasus ini, Bob tidak memiliki kepentingan ekonomi untuk mencoba 
 
 Sistem keamanan ini memastikan bahwa peserta mematuhi aturan Lightning Network, dan mereka tidak dapat memperoleh keuntungan dari mempublikasikan transaksi komitmen lama.
 Pada titik ini dalam pelatihan, Anda sekarang sudah mengetahui bagaimana saluran Lightning dibuka dan bagaimana transaksi dalam saluran ini bekerja. Pada bab selanjutnya, kita akan menemukan berbagai cara untuk menutup saluran dan memulihkan bitcoin Anda di blockchain utama.
+
 ## Penutupan Saluran
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
@@ -380,8 +386,8 @@ Dalam **penutupan kooperatif**, Alice dan Bob setuju untuk menutup saluran. Begi
 
 3. Alice dan Bob bersama-sama menegosiasikan biaya dari **transaksi penutupan**. Biaya ini umumnya dihitung berdasarkan pasar biaya Bitcoin pada saat penutupan. Penting untuk dicatat bahwa **selalu orang yang membuka saluran** (Alice dalam contoh kita) yang membayar biaya penutupan.
 4. Mereka membuat **transaksi penutupan** baru. Transaksi ini menyerupai transaksi komitmen, tetapi tanpa timelock atau mekanisme pencabutan, karena kedua pihak bekerja sama dan tidak ada risiko kecurangan. Transaksi penutupan kooperatif ini oleh karena itu berbeda dari transaksi komitmen.
-Misalnya, jika Alice memiliki **100.000 satoshi** dan Bob **30.000 satoshi**, transaksi penutupan akan mengirim **100.000 satoshi** ke alamat Alice dan **30.000 satoshi** ke alamat Bob, tanpa batasan timelock. Setelah transaksi ini ditandatangani oleh kedua belah pihak, Alice akan mempublikasikannya. Setelah transaksi dikonfirmasi di blockchain Bitcoin, saluran Lightning akan resmi ditutup.
-![LNP201](assets/en/32.webp)
+   Misalnya, jika Alice memiliki **100.000 satoshi** dan Bob **30.000 satoshi**, transaksi penutupan akan mengirim **100.000 satoshi** ke alamat Alice dan **30.000 satoshi** ke alamat Bob, tanpa batasan timelock. Setelah transaksi ini ditandatangani oleh kedua belah pihak, Alice akan mempublikasikannya. Setelah transaksi dikonfirmasi di blockchain Bitcoin, saluran Lightning akan resmi ditutup.
+   ![LNP201](assets/en/32.webp)
 
 **Penutupan kooperatif** adalah metode penutupan yang disukai karena cepat (tanpa timelock) dan biaya transaksi disesuaikan menurut kondisi pasar Bitcoin saat ini. Ini menghindari pembayaran yang terlalu sedikit, yang bisa berisiko memblokir transaksi di mempool, atau membayar terlalu banyak secara tidak perlu, yang mengakibatkan kerugian finansial yang tidak perlu bagi para peserta.
 
@@ -419,7 +425,7 @@ Ada tiga cara untuk menutup saluran:
 1. **Penutupan Kooperatif**: Cepat dan kurang mahal, di mana kedua belah pihak setuju untuk menutup saluran dan mempublikasikan transaksi penutupan yang disesuaikan.
 2. **Penutupan Paksa**: Kurang diinginkan, karena bergantung pada penerbitan transaksi komitmen, dengan biaya yang mungkin tidak sesuai dan timelock, yang memperlambat penutupan.
 3. **Kecurangan**: Jika salah satu pihak mencoba mencuri dana dengan mempublikasikan transaksi lama, pihak lain dapat menggunakan kunci pembatalan untuk menghukum kecurangan tersebut.
-Dalam bab-bab berikutnya, kita akan menjelajahi Jaringan Lightning dari perspektif yang lebih luas, berfokus pada bagaimana jaringannya beroperasi.
+   Dalam bab-bab berikutnya, kita akan menjelajahi Jaringan Lightning dari perspektif yang lebih luas, berfokus pada bagaimana jaringannya beroperasi.
 
 # Jaringan Likuiditas
 
@@ -490,7 +496,7 @@ Node perantara menerapkan biaya untuk memungkinkan pembayaran melewati saluran m
 
 1. "**Biaya Dasar**": jumlah tetap per saluran, sering kali **1 sat** secara default, tetapi dapat disesuaikan.
 2. "**Biaya variabel**": persentase dari jumlah yang ditransfer, dihitung dalam **bagian per juta (ppm)**. Secara default, ini adalah **1 ppm** (1 sat per juta satoshi yang ditransfer), tetapi ini juga dapat disesuaikan.
-Biaya juga berbeda tergantung pada arah transfer. Misalnya, untuk transfer dari Alice ke Suzie, biaya Alice yang berlaku. Sebaliknya, dari Suzie ke Alice, biaya Suzie yang digunakan.
+   Biaya juga berbeda tergantung pada arah transfer. Misalnya, untuk transfer dari Alice ke Suzie, biaya Alice yang berlaku. Sebaliknya, dari Suzie ke Alice, biaya Suzie yang digunakan.
 
 Sebagai contoh, untuk sebuah saluran antara Alice dan Suzie, kita bisa memiliki:
 
@@ -571,6 +577,7 @@ Berikut cara kerja proses ini dalam contoh kita dengan Alice, Suzie, dan Bob:
 
 ![LNP201](assets/en/48.webp)
 **Membuat Rahasia**: Bob menghasilkan sebuah rahasia acak yang dinotasikan sebagai _s_ (preimage), dan menghitung hash-nya yang dinotasikan sebagai _r_ dengan fungsi hash yang dinotasikan sebagai _h_. Kita memiliki:
+
 $$
 r = h(s)
 $$
@@ -676,7 +683,7 @@ Untuk menjaga peta jaringan mereka tetap terkini, node secara teratur bertukar p
 
 - "**Pengumuman Saluran**": pesan yang menandakan pembukaan saluran baru.
 - "**Pembaruan Saluran**": pesan pembaruan tentang status sebuah saluran, khususnya tentang evolusi biaya (tetapi tidak tentang distribusi likuiditas).
-Node Lightning juga memantau blockchain Bitcoin untuk mendeteksi transaksi penutupan saluran. Saluran yang ditutup kemudian dihapus dari peta karena tidak lagi dapat digunakan untuk merutekan pembayaran kita.
+  Node Lightning juga memantau blockchain Bitcoin untuk mendeteksi transaksi penutupan saluran. Saluran yang ditutup kemudian dihapus dari peta karena tidak lagi dapat digunakan untuk merutekan pembayaran kita.
 
 ### Merutekan Pembayaran
 
@@ -707,7 +714,7 @@ Namun, karena Alice tidak mengetahui distribusi dana yang tepat di setiap salura
 - **Biaya transaksi**: dalam memilih rute terbaik, node pengirim juga mempertimbangkan biaya yang diterapkan oleh setiap node perantara dan berusaha meminimalkan total biaya rute.
 - **Kadaluwarsa HTLCs**: untuk menghindari pembayaran yang terblokir, waktu kadaluwarsa HTLCs juga merupakan parameter yang harus dipertimbangkan.
 - **Jumlah node perantara**: akhirnya, secara lebih luas, node pengirim akan berusaha menemukan rute dengan jumlah node serendah mungkin untuk mengurangi risiko kegagalan dan membatasi biaya transaksi Lightning.
-Dengan menganalisis kriteria ini, node pengirim dapat menguji rute yang paling mungkin dan mencoba mengoptimalkannya. Dalam contoh kita, Alice dapat merangking rute terbaik sebagai berikut:
+  Dengan menganalisis kriteria ini, node pengirim dapat menguji rute yang paling mungkin dan mencoba mengoptimalkannya. Dalam contoh kita, Alice dapat merangking rute terbaik sebagai berikut:
 
 1. `Alice → 1 → 2 → 5 → Bob`, karena ini adalah rute terpendek dengan kapasitas tertinggi.
 2. `Alice → 1 → 2 → 4 → 5 → Bob`, karena rute ini menawarkan kapasitas yang baik, meskipun lebih panjang dari yang pertama.
@@ -773,6 +780,7 @@ Kemudian bagian yang dimaksudkan untuk payload:
 
 p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql
 ```
+
 Dua bagian tersebut dipisahkan oleh `1`. Pemisah ini dipilih alih-alih karakter khusus untuk memudahkan menyalin seluruh faktur dengan mengklik ganda.
 
 Pada bagian pertama, kita dapat melihat bahwa:
@@ -821,6 +829,7 @@ Muatan faktur mencakup beberapa informasi yang diperlukan untuk memproses pembay
 Faktur kemudian dikodekan dalam **bech32**, format yang sama seperti untuk alamat Bitcoin SegWit (format dimulai dengan `bc1`).
 
 ### Penarikan LNURL
+
 Dalam transaksi tradisional, seperti pembelian di toko, faktur dihasilkan untuk jumlah total yang harus dibayar. Setelah faktur disajikan (dalam bentuk kode QR atau rangkaian karakter), pelanggan dapat memindainya dan menyelesaikan transaksi. Pembayaran kemudian mengikuti proses tradisional yang telah kita pelajari di bagian sebelumnya. Namun, proses ini terkadang bisa sangat merepotkan untuk pengalaman pengguna, karena memerlukan penerima untuk mengirim informasi ke pengirim melalui faktur.
 Untuk situasi tertentu, seperti menarik bitcoin dari layanan online, proses tradisional terlalu merepotkan. Dalam kasus seperti itu, solusi penarikan **LNURL** menyederhanakan proses ini dengan menampilkan kode QR yang dipindai oleh dompet penerima untuk secara otomatis membuat faktur. Layanan kemudian membayar faktur, dan pengguna hanya melihat penarikan instan.
 
@@ -855,7 +864,9 @@ Di bab berikutnya, kita akan melihat bagaimana operator node dapat mengelola lik
 Dalam bab ini, kita akan menjelajahi strategi untuk mengelola likuiditas secara efektif di Jaringan Lightning. Pengelolaan likuiditas bervariasi tergantung pada jenis pengguna dan konteks. Kita akan melihat prinsip utama dan teknik yang ada untuk lebih memahami cara mengoptimalkan pengelolaan ini.
 
 ### Kebutuhan Likuiditas
+
 Ada tiga profil pengguna utama di Lightning, masing-masing dengan kebutuhan likuiditas spesifik:
+
 1. **Pembayar**: Ini adalah orang yang melakukan pembayaran. Mereka membutuhkan likuiditas keluar untuk dapat mentransfer dana ke pengguna lain. Sebagai contoh, ini bisa jadi seorang konsumen.
 2. **Penjual (atau Penerima Pembayaran)**: Ini adalah orang yang menerima pembayaran. Mereka membutuhkan likuiditas masuk untuk dapat menerima pembayaran ke node mereka. Sebagai contoh, ini bisa jadi sebuah bisnis atau toko online.
 3. **Router**: Sebuah node perantara, sering kali spesialisasi dalam merutekan pembayaran, yang harus mengoptimalkan likuiditasnya di setiap saluran untuk merutekan sebanyak mungkin pembayaran dan mendapatkan biaya.
@@ -966,20 +977,16 @@ Kita telah melihat bahwa manajemen likuiditas adalah tantangan di Lightning untu
 
 ![LNP201](assets/en/84.webp)
 
-### Pengakuan
-Saya ingin mengucapkan terima kasih kepada setiap dari Anda atas minat, dukungan, dan pertanyaan sepanjang seri ini. Awalnya, ide saya adalah untuk membuat konten dalam bahasa Prancis mengenai aspek teknis dari Lightning, mengingat kurangnya sumber daya yang tersedia. Ini adalah tantangan pribadi yang ingin saya ambil dengan menggabungkan ketelitian teknis dengan aksesibilitas. Jika Anda menikmati kursus gratis ini, silakan untuk memberi penilaian di bagian "_Rate this course_" dan bagikan dengan orang-orang terkasih serta di jaringan sosial Anda.
-Terima kasih, sampai jumpa lagi!
+# Kesimpulan
 
-### Bonus: Wawancara dengan Fanis
+<partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-![Wawancara dengan Fanis](https://youtu.be/VeJ4oJIXo9k)
-
-## Nilai kursus ini
+## Evaluasi kursus ini
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Ujian Akhir
+## Ujian akhir
 
 <chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
 <isCourseExam>true</isCourseExam>
@@ -987,11 +994,41 @@ Terima kasih, sampai jumpa lagi!
 ## Kesimpulan
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+Selamat! 🎉
 
-**Selamat Anda telah menyelesaikan kursus ini!**
+Anda telah menyelesaikan pelatihan LNP 201 - Pengantar Lightning Network!
 
-Harap dicatat bahwa bab ini saat ini sedang dalam pembangunan dan versi yang lebih baik akan segera tiba. Sementara itu, jika Anda ingin melanjutkan perjalanan Bitcoin Anda, kami mengundang Anda untuk menjelajahi kursus dan tutorial lain yang tersedia di platform kami. Teruskan pekerjaan bagus dan selamat belajar!
+Anda bisa bangga dengan diri sendiri, karena ini bukan topik yang mudah.
 
-```
+Hanya sedikit orang yang menyelam begitu dalam ke lubang kelinci Bitcoin.
 
-```
+Terima kasih banyak kepada **Fanis Michalakis** yang telah memberikan kursus gratis yang luar biasa ini tentang cara kerja teknis Lightning Network.
+
+Jangan ragu untuk mengikuti dia di [Twitter](https://x.com/FanisMichalakis), di [blognya](https://fanismichalakis.fr/) atau melalui karyanya di [LN Markets](https://lnmarkets.com/).
+
+Sekarang setelah Anda menguasai Lightning Network, saya mengundang Anda untuk menjelajahi kursus-kursus gratis kami lainnya di Plan ₿ Network untuk memperdalam pemahaman Anda tentang aspek-aspek lain dari penemuan Satoshi Nakamoto:
+
+#### Pahami cara kerja dompet Bitcoin dengan
+
+https://planb.network/courses/cyp201
+
+#### Temukan sejarah asal-usul Bitcoin dengan
+
+https://planb.network/courses/his201
+
+#### Konfigurasi server pembayaran BTC dengan
+
+https://planb.network/courses/btc305
+
+#### Kuasai prinsip-prinsip privasi dalam Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Temukan dasar-dasar penambangan dengan
+
+https://planb.network/courses/min201
+
+#### Pelajari cara membuat komunitas Bitcoin Anda dengan
+
+https://planb.network/courses/btc302
+

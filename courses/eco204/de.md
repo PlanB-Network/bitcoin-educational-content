@@ -933,16 +933,6 @@ Nach der Bankpanik von 1796 trat ein Phänomen auf, bei dem jeder versuchte, die
 
 Zentralbanken haben sich zu Kreditgebern letzter Instanz entwickelt, indem sie die Umtauschbarkeit ihrer Währung in Gold ausgesetzt haben. Obwohl diese Maßnahme ursprünglich als temporäre Lösung gedacht war, wurde sie schließlich dauerhaft und markierte somit die Einführung des Konzepts des Kreditgebers letzter Instanz. Diese Transformation hat die Zentralbanken geprägt, wie wir sie heute kennen. In schwächeren Volkswirtschaften kann diese Fähigkeit, Geld nach Belieben zu drucken, jedoch unerwünschte Folgen wie Hyperinflation haben, wenn sie unverantwortlich eingesetzt wird.
 
-## Bewerten Sie den Kurs
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Abschlussprüfung
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Bücher und Ressourcen
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -966,3 +956,52 @@ Hyperinflation ist ein faszinierendes Thema, das durch verschiedene historische 
 - "Der Untergang des Geldes: Deutschlands Hyperinflation und die Zerstörung der Mittelschicht" von Frederick Taylor. Eine erzählerische Erkundung der sozialen und wirtschaftlichen Auswirkungen der Hyperinflation auf die deutsche Gesellschaft.
 
 - "Währungsbretter für Entwicklungsländer: Ein Handbuch" von Steve Hanke und Kurt Schuler. Obwohl der Schwerpunkt auf Währungsbrettern liegt, bietet dieses Buch eine Perspektive, wie man Hyperinflationssituationen vermeiden kann.
+
+# Abschluss
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Bewerten Sie diesen Kurs
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Abschlussprüfung
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Abschluss
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Herzlichen Glückwunsch zum Abschluss dieses Kurses!
+
+Wir freuen uns, dass Sie diesen wichtigen Meilenstein in Ihrer Lernreise erreicht haben.
+
+Durch Ihre Hingabe und Ihr Engagement haben Sie wertvolle Kenntnisse und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung dienen werden.
+
+Um das Bitcoin-Universum weiter zu erforschen, laden wir Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
+
+#### Entdecken Sie das Leben von F. Bastiat mit
+
+https://planb.network/courses/eco102
+
+#### Entdecken Sie das ökonomische Denken der österreichischen Schule mit
+
+https://planb.network/courses/eco201
+
+#### Entdecken Sie Bitcoin und seine Grundlagen mit
+
+https://planb.network/courses/btc101
+
+#### Aktualisieren Sie Ihre Online-Sicherheit mit
+
+https://planb.network/courses/scu101
+
+#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
+
+https://planb.network/courses/btc102
+
+#### Entdecken Sie die Geschichte der Bitcoin-Ursprünge mit
+
+https://planb.network/courses/his201

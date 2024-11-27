@@ -1,9 +1,9 @@
-question: Apa fungsi yang digunakan untuk menurunkan pasangan kunci anak dari pasangan kunci induk dalam dompet HD?
-answer: HMAC-SHA512.
+question: Jenis kunci apa yang diasosiasikan dengan prefiks zpub?
+answer: Kunci publik terluas untuk SegWit V0 di Mainnet
 wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
+  - Kunci privat terluas untuk SegWit V1 di Mainnet
+  - Kunci publik terluas untuk Legacy di Testnet
+  - Kunci publik terluas untuk SegWit V2 di Testnet
 explanation: |
-  HMAC-SHA512 digunakan untuk menurunkan pasangan kunci anak dari pasangan kunci induk dalam dompet HD.
-reviewed: false
+  Prefiks zpub menandakan kunci publik terluas untuk skrip SegWit V0 di Mainnet.
+ditinjau: false

@@ -1,9 +1,8 @@
-question: Apa saja fungsi hash yang digunakan dalam protokol Bitcoin?
-answer: SHA-256, RIPEMD-160
+question: Sifat apa dari fungsi hash yang ditunjukkan oleh perubahan total dalam hash ketika pesan berubah sedikit?
+answer: Efek salju
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - Ketahanan terhadap tabrakan
+  - Ketahanan terhadap gambar kedua
+  - Panjang
 explanation: |
-  Dalam Bitcoin, SHA-256 dan RIPEMD-160 digunakan.
-reviewed: false
+  Perubahan kecil pada masukan menghasilkan perubahan radikal pada hash, inilah yang disebut efek salju.

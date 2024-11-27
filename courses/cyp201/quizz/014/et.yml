@@ -1,9 +1,9 @@
-question: Millist funktsiooni kasutatakse Bitcoinis lapsevõtme tuletamiseks vanemvõtmest?
-answer: HMAC-SHA512.
+question: Mitu iteratsiooni kasutab PBKDF2 Bitcoinis?
+answer: 2048
 wrong_answers:
-  - SHA256.
-  - MD5.
-  - BLAKE2.
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  HMAC-SHA512 funktsiooni kasutatakse Bitcoin HD rahakottides lapsevõtmete tuletamiseks vanemvõtmetest.
+  PBKDF2 kordab HMAC-SHA512 protsessi 2048 korda, et suurendada turvalisust.
 reviewed: false

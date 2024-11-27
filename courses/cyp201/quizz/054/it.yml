@@ -1,9 +1,9 @@
-question: Per calcolare i valori della chiave principale e del codice catena principale, il primo input alla funzione HMAC-SHA512 è il seed. Qual è il secondo valore di input di questa funzione, che agisce come chiave?
-answer: Bitcoin seed.
+question: Qual è il ruolo principale della passphrase in un portafoglio HD Bitcoin?
+answer: Modificare la derivazione della chiave per migliorare la sicurezza
 wrong_answers:
-  - La frase mnemonica.
-  - La passphrase.
-  - Seed.
+  - Decifrare le transazioni in sospeso
+  - Generare gli UTXO del portafoglio
+  - Proteggere l'accesso al portafoglio con il riconoscimento facciale
 explanation: |
-  La stringa Bitcoin seed è utilizzata come chiave in HMAC-SHA512 per derivare la chiave principale e il codice catena principale dal seed.
-reviewed: false
+  La passphrase agisce come un secondo fattore di sicurezza, modificando il seme di derivazione della chiave per impedire l'accesso al portafoglio nel caso in cui la frase mnemonica sia compromessa.
+recensito: false

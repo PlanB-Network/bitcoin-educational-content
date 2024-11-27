@@ -1,9 +1,8 @@
-question: Mitu bitti on SHA256 funktsioonis suuruse järgi polsterdamiseks reserveeritud?
-answer: 64 bitti.
+question: Mis toimub iga kompressiooniringi ajal SHA256-s?
+answer: Olekumuutujad uuendatakse sõnumisõnade ja konstantide abil
 wrong_answers:
-  - 128 bitti.
-  - 256 bitti.
-  - 512 bitti.
+  - Lõplik räsi genereeritakse järk-järgult pärast iga ringi
+  - Sõnumibiidid paigutatakse ümber
+  - Muutujate algväärtused jäävad muutmata
 explanation: |
-  SHA256 reserveerib polsterdamiseks 64 bitti, mis esindab sõnumi algset suurust enne polsterdamist.
-reviewed: false
+  Iga ring muudab olekumuutujaid kasutades sõnu, konstante ja loogilisi operatsioone, et levitada informatsiooni.

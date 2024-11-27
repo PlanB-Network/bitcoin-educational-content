@@ -1,8 +1,8 @@
-question: 在比特币中，用于从父密钥派生子密钥的函数是什么？
-answer: HMAC-SHA512。
+question: 比特币中PBKDF2使用的迭代次数是多少？
+answer: 2048
 wrong_answers:
-  - SHA256。
-  - MD5。
-  - BLAKE2。
-explanation:
-  HMAC-SHA512函数用于在比特币HD钱包中从父密钥派生子密钥。
+  - 1024
+  - 4096
+  - 512
+explanation: |
+  PBKDF2重复执行HMAC-SHA512过程2048次以增强安全性。

@@ -1,8 +1,8 @@
-question: Apa karakteristik dari PRNG yang aman secara kriptografi?
-answer: Harus tidak terduga, secara statistik acak, dan tahan terhadap serangan.
+question: Apa peran utama dari dompet Bitcoin?
+answer: Mengelola dan mengamankan kunci privat
 wrong_answers:
-  - Harus cepat, dapat digunakan di cloud, dan open source.
-  - Harus non-deterministik, berbasis pada fenomena fisik, dan dapat diskalakan.
-  - Harus berbasis hardware, dihasilkan oleh sebuah prosesor, dan dapat dibalik.
+  - Menyimpan bitcoin pengguna
+  - Menjamin kerahasiaan transaksi secara otomatis
+  - Menghasilkan bitcoin untuk setiap pengguna
 explanation: |
-  PRNG yang aman secara kriptografi harus tidak terduga, tahan bahkan jika beberapa hasil diungkapkan, dan memiliki periode yang cukup panjang untuk menghindari pengulangan urutan.
+  Dompet Bitcoin tidak secara langsung menyimpan bitcoin tetapi mengelola kunci privat yang diperlukan untuk membuka UTXO yang mewakili bitcoin.

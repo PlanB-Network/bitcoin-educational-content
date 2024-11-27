@@ -1,9 +1,9 @@
-question: Was ist eine Empfangsadresse (allgemein)?
-answer: Ein Hash eines öffentlichen Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
+question: Was repräsentiert die Tiefe 0 in der Hierarchie von HD-Wallets?
+answer: Der Master-Schlüssel und der Master-Chain-Code
 wrong_answers:
-  - Ein Hash eines privaten Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
-  - Ein Hash eines erweiterten Schlüssels mit Metadaten, der in ein spezifisches Format gebracht wurde.
-  - Ein Hash eines Ketten-Codes mit Metadaten.
+  - Die externe Kette von Adressen
+  - Das Standardkonto
+  - Die Art der Währung
 explanation: |
-  Eine Empfangsadresse ist im Allgemeinen ein Hash eines öffentlichen Schlüssels, der mit Metadaten verbunden ist und in einem scriptPubKey verwendet wird, um Bedingungen festzulegen.
+  Die Tiefe 0 entspricht dem Master-Schlüssel und dem Master-Chain-Code, welche die Ausgangspunkte für alle Ableitungen in einem HD-Wallet sind.
 reviewed: false

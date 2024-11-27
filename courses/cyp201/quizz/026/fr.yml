@@ -1,9 +1,9 @@
-question: Pourquoi est-il important de ne jamais réutiliser un nonce dans l'algorithme ECDSA ?
-answer: Réutiliser un nonce compromet la sécurité et peut exposer la clé privée.
+question: Quel est le point de départ pour calculer une signature ECDSA ?
+answer: Le hash du message
 wrong_answers:
-  - Réutiliser un nonce ralentit les performances.
-  - Réutiliser un nonce rend les signatures plus longues.
-  - Réutiliser un nonce augmente la taille de la clé publique.
+  - La clé publique
+  - Un nonce fixe
+  - Une courbe elliptique personnalisée
 explanation: |
-  La réutilisation d'un nonce dans ECDSA peut permettre à un attaquant de retrouver la clé privée, ce qui compromet la sécurité.
+  Une signature ECDSA commence par le calcul du hash du message à signer, souvent avec SHA256.
 reviewed: false

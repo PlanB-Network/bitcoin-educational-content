@@ -1,9 +1,8 @@
-question: Was sind die Merkmale eines kryptographisch sicheren PRNGs?
-answer: Er muss unvorhersehbar, statistisch zufällig und widerstandsfähig gegen Angriffe sein.
+question: Was ist die Hauptaufgabe eines Bitcoin-Wallets?
+answer: Verwalten und Sichern von privaten Schlüsseln
 wrong_answers:
-  - Er muss schnell sein, in der Cloud nutzbar und Open Source.
-  - Er muss nicht-deterministisch sein, auf einem physischen Phänomen basieren und skalierbar sein.
-  - Er muss hardwarebasiert sein, von einem Prozessor erzeugt und umkehrbar sein.
+  - Die Bitcoins des Benutzers speichern
+  - Die Vertraulichkeit von Transaktionen automatisch gewährleisten
+  - Für jeden Benutzer Bitcoins generieren
 explanation: |
-  Ein kryptographisch sicherer PRNG muss unvorhersehbar sein, widerstandsfähig, selbst wenn einige Ergebnisse enthüllt werden, und eine ausreichend lange Periode haben, um die Wiederholung von Sequenzen zu vermeiden.
-reviewed: false
+  Ein Bitcoin-Wallet speichert nicht direkt Bitcoins, sondern verwaltet die privaten Schlüssel, die notwendig sind, um die UTXOs zu entsperren, die die Bitcoins repräsentieren.

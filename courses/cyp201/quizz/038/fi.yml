@@ -1,9 +1,8 @@
-question: Mikä on pääasiallinen ero PRNG; n ja TRNG; n välillä?
-answer: PRNG on deterministinen, kun taas TRNG tuottaa todella satunnaisia numeroita.
+question: Miksi Bitcoin-osoitteen uudelleenkäyttöä ei suositella?
+answer: Se helpottaa kolmansien osapuolien tekemää transaktioiden seurantaa
 wrong_answers:
-  - TRNG on nopeampi kuin PRNG.
-  - TRNG käyttää siementä, kun taas PRNG ei käytä siementä.
-  - PRNG on laitteisto, kun taas TRNG on ohjelmisto.
+  - Se paljastaa yksityisen avaimen noncen takia
+  - Se tekee transaktioista kalliimpia
+  - Se mitätöi digitaaliset allekirjoitukset
 explanation: |
-  TRNG (True Random Number Generator) luo satunnaisia numeroita fyysisestä satunnaisilmiöstä toisin kuin PRNG, joka on deterministinen.
-reviewed: false
+  Osoitteen uudelleenkäyttö mahdollistaa tarkkailijoiden helposti yhdistää eri transaktiot samaan käyttäjään, vaarantaen heidän yksityisyytensä.

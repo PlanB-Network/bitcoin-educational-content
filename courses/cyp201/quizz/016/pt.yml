@@ -1,8 +1,9 @@
-question: Para aplicar esta curva elíptica a usos criptográficos, sobre qual campo devemos defini-la?
-answer: Um campo finito de números inteiros positivos.
+question: Qual algoritmo de assinatura foi introduzido no Bitcoin com o Taproot?
+answer: Esquema de assinatura Schnorr
 wrong_answers:
-  - O campo dos números reais.
-  - Um campo finito de números reais.
-  - Um campo complexo.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  No Bitcoin, a curva elíptica secp256k1 é definida sobre um campo finito de números inteiros positivos módulo um número primo para evitar aproximações e garantir segurança.
+  O esquema de assinatura Schnorr foi introduzido em novembro de 2021 com a atualização do Taproot.
+reviewed: false

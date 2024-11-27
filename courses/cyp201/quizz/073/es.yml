@@ -1,0 +1,9 @@
+question: ¿Qué índice representa la cadena externa de una cuenta en una ruta de derivación?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  La cadena externa se identifica por el índice /0/ en la profundidad 4 de la ruta de derivación.
+reviewed: false

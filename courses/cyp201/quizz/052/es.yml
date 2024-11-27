@@ -1,9 +1,9 @@
-question: ¿Cuál es la función pseudoaleatoria utilizada en PBKDF2 para calcular la semilla de una cartera HD de Bitcoin?
-answer: HMAC-SHA512.
+question: ¿Cuál es el propósito de usar una cartera señuelo con una frase de paso?
+answer: Simular una cartera con una pequeña cantidad en caso de coacción física
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Añadir una copia de seguridad automática de las transacciones
+  - Generar una frase mnemotécnica adicional
+  - Proteger los UTXOs de un doble gasto
 explanation: |
-  HMAC-SHA512 es la función pseudoaleatoria utilizada en PBKDF2 para generar la semilla de una cartera HD de Bitcoin.
+  Una cartera señuelo se utiliza para desviar la atención de un atacante proporcionando acceso a una cartera que contiene una pequeña cantidad de bitcoins.
 reviewed: false

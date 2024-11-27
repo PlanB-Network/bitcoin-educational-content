@@ -1,9 +1,9 @@
-question: ¿Cuáles son las coordenadas del punto generador G utilizado en la curva elíptica secp256k1?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: ¿Cuál es el tamaño de una clave privada sin procesar utilizada en Bitcoin?
+answer: 256 bits
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bits
+  - 512 bits
+  - 1024 bits
 explanation: |
-  El punto generador G es un punto predefinido en la curva elíptica secp256k1, utilizado para generar claves públicas a partir de claves privadas en Bitcoin.
+  Una clave privada en Bitcoin es un entero aleatorio de 256 bits, asegurando un espacio de clave lo suficientemente grande para garantizar la seguridad.
 reviewed: false

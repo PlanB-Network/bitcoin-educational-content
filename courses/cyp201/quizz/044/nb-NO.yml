@@ -1,8 +1,8 @@
-question: Hvordan konstruere gjenopprettingsfrasen (mnemonisk) i binær?
-answer: Konkatenér det tilfeldige tallet med dets kontrollsum på slutten.
+question: Hva er entropi i konteksten av kryptografi?
+answer: Et mål på uforutsigbarhet assosiert med en tilfeldig prosess
 wrong_answers:
-  - Konkatenér det tilfeldige tallet med dets kontrollsum i begynnelsen.
-  - Konkatenér det tilfeldige tallet med en seed.
-  - Del det tilfeldige tallet i to deler og sett inn kontrollsummen i midten.
+  - En metode for å kryptere sensitiv data
+  - En algoritme for å beregne offentlige nøkler
+  - En teknikk for datakomprimering
 explanation: |
-  For å generere en binær mnemonisk frase, konkatenér kontrollsummen til slutten av det tilfeldige tallet før du konverterer til ord.
+  I kryptografi kvantifiserer entropi nivået av usikkerhet eller kaos i en tilfeldig kilde, essensielt for å generere sikre nøkler.

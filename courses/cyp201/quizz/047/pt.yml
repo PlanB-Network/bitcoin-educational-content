@@ -1,9 +1,9 @@
-question: Por que usar uma frase-senha fortalece a segurança de uma carteira HD?
-answer: Ela adiciona uma camada extra de proteção à frase mnemônica.
+question: Qual é o tamanho em bits de um segmento binário usado para criar cada palavra mnemônica?
+answer: 11 bits
 wrong_answers:
-  - Permite a geração de chaves públicas mais fortes.
-  - Protege criptograficamente as transações.
-  - Dobra o número de bitcoins na carteira.
+  - 8 bits
+  - 16 bits
+  - 10 bits
 explanation: |
-  A frase-senha aumenta a segurança ao adicionar um dado adicional à frase mnemônica, atuando de forma semelhante a um 2FA.
+  Cada segmento de 11 bits corresponde a uma palavra da lista padronizada de 2048 palavras no BIP39.
 reviewed: false

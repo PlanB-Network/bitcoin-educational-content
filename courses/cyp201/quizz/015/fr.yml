@@ -1,9 +1,9 @@
-question: Quel est le nom de la courbe elliptique utilisée pour les algorithmes de signatures numériques dans Bitcoin ?
-answer: secp256k1.
+question: Quel type de clé est utilisée pour verrouiller les UTXOs sur Bitcoin ?
+answer: Clé publique
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Clé privée
+  - Hachage de graine
+  - Phrase mnémonique
 explanation: |
-  La courbe secp256k1 est utilisée dans le protocole Bitcoin pour les signatures numériques.
+  Les UTXOs sont verrouillés avec une clé publique ou son hachage, et déverrouillés avec la clé privée correspondante.
 reviewed: false

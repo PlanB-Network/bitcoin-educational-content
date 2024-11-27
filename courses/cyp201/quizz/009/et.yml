@@ -1,9 +1,8 @@
-question: Mis on SHA256 räsifunktsiooni konstruktsiooni nimetus?
-answer: Merkle-Damgårdi konstruktsioon.
+question: Millist konstruktsiooni kasutab SHA256 sõnumite töötlemiseks, mille pikkus on suvaline?
+answer: Merkle-Damgårdi konstruktsioon
 wrong_answers:
-  - Käsnkonstruktsioon.
-  - Iteratiivsete räsifunktsioonide konstruktsioon (HAIFA).
-  - Feisteli konstruktsioon.
+  - Eukleidese konstruktsioon
+  - Rivest-Shamir-Adlemani konstruktsioon
+  - Knuth-Morris-Pratti konstruktsioon
 explanation: |
-  SHA256 kasutab Merkle-Damgårdi konstruktsiooni, struktuuri, mida kasutatakse laialdaselt turvaliste räsifunktsioonide loomiseks.
-reviewed: false
+  Merkle-Damgårdi konstruktsioon võimaldab muuta kokkusurumisfunktsiooni hash-funktsiooniks muutuva pikkusega sõnumite jaoks.

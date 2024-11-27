@@ -1,8 +1,8 @@
-question: Se o BIP39 for seguido, qual é o tamanho da semente de uma carteira HD?
-answer: 512 bits.
+question: Qual é uma boa prática para proteger uma frase-senha?
+answer: Salvá-la em um meio físico separado da frase mnemônica
 wrong_answers:
-  - 32 bytes.
-  - 1024 bits.
-  - 512 bytes.
+  - Memorizá-la apenas de cor sem anotá-la
+  - Salvá-la no mesmo meio físico que a frase mnemônica
+  - Registrá-la em um meio digital como o Google Drive
 explanation: |
-  De acordo com o BIP39, a semente de uma carteira HD é de 512 bits, derivada da frase mnemônica e da senha.
+  A frase-senha deve ser salva fisicamente e separada da frase mnemônica para prevenir o roubo simultâneo de ambas.

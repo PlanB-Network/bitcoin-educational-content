@@ -1,9 +1,9 @@
-question: Hvis jeg genererer et 256-bit tilfeldig tall, hva vil størrelsen på gjenopprettingsfrasen min være i ord?
-answer: 24 ord.
+question: Hva er den viktigste forskjellen mellom en PRNG og en TRNG?
+answer: PRNG er deterministisk, mens TRNG genererer ekte tilfeldige tall.
 wrong_answers:
-  - 6 ord.
-  - 8 ord.
-  - 12 ord.
+  - PRNG er raskere enn TRNG for store tall.
+  - PRNG brukes kun til kryptering, ikke TRNG.
+  - PRNG bruker private nøkler, TRNG bruker offentlige nøkler.
 explanation: |
-  Et 256-bit tilfeldig tall tilsvarer en 24-ords mnemonic frase i henhold til BIP39-standarden.
+  PRNG-er er deterministiske, noe som betyr at de kan reprodusere sekvenser fra en initial tilstand, i motsetning til TRNG-er.
 reviewed: false

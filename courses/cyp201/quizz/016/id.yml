@@ -1,8 +1,9 @@
-question: Untuk menerapkan kurva elips ini ke penggunaan kriptografi, di lapangan apa kita harus mendefinisikannya?
-answer: Sebuah lapangan hingga dari bilangan bulat positif.
+question: Algoritma tanda tangan apa yang diperkenalkan dalam Bitcoin dengan Taproot?
+answer: Skema tanda tangan Schnorr
 wrong_answers:
-  - Lapangan bilangan riil.
-  - Sebuah lapangan hingga dari bilangan riil.
-  - Sebuah lapangan kompleks.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  Dalam Bitcoin, kurva elips secp256k1 didefinisikan di atas lapangan hingga dari bilangan bulat positif modulo sebuah bilangan prima untuk menghindari pendekatan dan memastikan keamanan.
+  Skema tanda tangan Schnorr diperkenalkan pada November 2021 dengan pembaruan Taproot.
+ditinjau: false

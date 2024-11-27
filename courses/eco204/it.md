@@ -868,16 +868,6 @@ A seguito del panico bancario del 1796, si verificò un fenomeno in cui tutti ce
 
 Le banche centrali sono evolute per diventare prestatori di ultima istanza, sospendendo la convertibilità della loro moneta in oro. Sebbene questa azione fosse inizialmente concepita come una soluzione temporanea, è diventata infine permanente, segnando così l'avvento del concetto di prestatore di ultima istanza. Questa trasformazione ha plasmato le banche centrali come le conosciamo oggi. Tuttavia, in economie più fragili, questa capacità di stampare moneta a volontà può comportare conseguenze indesiderate, come l'iperinflazione, se utilizzata in modo irresponsabile.
 
-## Valuta il corso
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Esame Finale
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Libri e risorse
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -901,3 +891,52 @@ L'iperinflazione è un argomento affascinante che è stato studiato attraverso v
 - "La caduta del denaro: l'iperinflazione in Germania e la distruzione della classe media" di Frederick Taylor. Un'esplorazione narrativa dell'impatto sociale ed economico dell'iperinflazione sulla società tedesca.
 
 - "Consigli per le casse di emissione per i paesi in via di sviluppo: una guida" di Steve Hanke e Kurt Schuler. Sebbene il focus sia sulle casse di emissione, questo libro offre una prospettiva su come evitare situazioni di iperinflazione.
+
+# Conclusione
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Valuta questo corso
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Esame finale
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusione
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Congratulazioni per aver completato questo corso!
+
+Siamo lieti che tu abbia raggiunto questo importante traguardo nel tuo percorso di apprendimento.
+
+Grazie alla tua dedizione e al tuo impegno, hai acquisito preziose conoscenze e competenze che ti serviranno nel tuo sviluppo professionale.
+
+Per continuare ad esplorare in profondità l'universo Bitcoin, ti invitiamo a scoprire tutti gli altri corsi disponibili su Plan ₿ Network:
+
+#### Scopri la vita di F. Bastiat con
+
+https://planb.network/courses/eco102
+
+#### Scopri il pensiero economico della scuola austriaca con
+
+https://planb.network/courses/eco201
+
+#### Scopri Bitcoin e i suoi fondamenti con
+
+https://planb.network/courses/btc101
+
+#### Aggiorna la tua sicurezza online con
+
+https://planb.network/courses/scu101
+
+#### Ottieni e proteggi i tuoi primi bitcoin con
+
+https://planb.network/courses/btc102
+
+#### Scopri la storia delle origini di Bitcoin con
+
+https://planb.network/courses/his201

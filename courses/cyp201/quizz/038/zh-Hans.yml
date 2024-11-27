@@ -1,8 +1,8 @@
-question: PRNG和TRNG之间的主要区别是什么？
-answer: PRNG是确定性的，而TRNG产生真正的随机数。
+question: 为什么不推荐重复使用比特币地址？
+answer: 它便于第三方跟踪交易
 wrong_answers:
-  - TRNG比PRNG更快。
-  - TRNG使用种子，而PRNG不使用任何种子。
-  - PRNG是硬件，而TRNG是软件。
+  - 它因为随机数而泄露了私钥
+  - 它使交易变得更加昂贵
+  - 它使数字签名失效
 explanation: |
-  TRNG（真随机数生成器）通过物理随机现象生成随机数，不同于确定性的PRNG。
+  重复使用一个地址使得观察者可以轻松地将不同的交易链接到同一个用户，从而威胁到他们的隐私。

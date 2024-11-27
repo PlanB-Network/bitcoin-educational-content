@@ -1584,19 +1584,6 @@ HRエージェンシー、ナイジェリア
 4. ビットコインがエネルギー生産者に直接エネルギーを収益化する能力を提供することが、エネルギー生産者と全体のエネルギー市場にとって重要な利点を持つと思いますか？
 5. ビットコインのエネルギー消費と他の産業との比較を考えると、そのエネルギー使用量を特に問題視することは公平ですか？なぜそう思いますか、または思いませんか？
 
-# 終わりに
-<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
-
-
-
-## コースを評価してください
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## 最終試験
-<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
-<isCourseExam>true</isCourseExam>
-
 
 ## 終わりに
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
@@ -1621,3 +1608,31 @@ Tetherのステーブルコインは、経済的な課題に直面している�
 この新たな理解が、皆さんが自信と目的を持って進化する金融の世界を航海する力となることを願っています。成長と発見の道での幸運を祈ります！
 
 未来は明るいです！
+
+# まとめ
+<partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
+## コースを評価する
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
+## まとめ
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+このコースを修了おめでとうございます！
+
+学習の道のりにおいてこの節目を達成されたことを心よりお喜び申し上げます。
+
+あなたの献身と取り組みを通じて、専門的な成長に役立つ貴重な知識とスキルを習得されました。
+
+ビットコインの世界をさらに深く探求するため、Plan ₿ Networkで提供されている他のすべてのコースをご覧ください：
+
+#### ビットコインとその基礎を学ぶ
+https://planb.network/courses/btc101
+#### オンラインセキュリティを更新する
+https://planb.network/courses/scu101
+#### ライトニングネットワークを探求する
+https://planb.network/courses/lnp201
+#### オーストリア学派の経済思想を学ぶ
+https://planb.network/courses/eco201
+#### ビットコインの起源の歴史を探る
+https://planb.network/courses/his201
+#### ハイパーインフレーションの発生を理解する
+https://planb.network/courses/eco204

@@ -1,8 +1,8 @@
-question: ¿Cuál es el paso final para crear una dirección Bitcoin Bech32?
-answer: Añadir el HRP bc y un separador 1.
+question: ¿Cuál es la función principal de los descriptores de script de salida?
+answer: Describir completamente un script de salida y proporcionar la información necesaria para restaurar una cartera
 wrong_answers:
-  - Añadir la versión SegWit al principio.
-  - Añadir el checksum al principio de la dirección.
-  - Añadir un prefijo 1.
+  - Generar automáticamente direcciones multisignatura
+  - Reemplazar la frase mnemotécnica en las copias de seguridad de la cartera
+  - Simplificar los cálculos de firmas digitales
 explanation: |
-  El paso final en la construcción de una dirección Bech32 es añadir el HRP (Parte Legible por Humanos), bc para Bitcoin, seguido por un separador 1.
+  Los descriptores encapsulan toda la información necesaria para rastrear un script particular, incluyendo la ruta de derivación y las claves utilizadas, pero no la frase de recuperación.

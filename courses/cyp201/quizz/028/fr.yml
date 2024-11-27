@@ -1,9 +1,9 @@
-question: Pourquoi est-il impossible de retrouver la clé privée à partir d'une signature numérique valide ?
-answer: La signature est basée sur des opérations mathématiques irréversibles sur une courbe elliptique.
+question: Quelle est la taille d'une clé publique compressée avec le protocole Schnorr ?
+answer: 32 octets
 wrong_answers:
-  - La clé privée est chiffrée avant utilisation.
-  - La graine protège la clé privée.
-  - Le hachage des messages empêche de retrouver la clé privée.
+  - 33 octets
+  - 64 octets
+  - 256 bits
 explanation: |
-  Les opérations sur courbes elliptiques sont irréversibles, ce qui garantie que la clé privée ne peut pas être déduite de la signature.
+  Une clé publique Schnorr est représentée uniquement par l'abscisse x du point sur la courbe elliptique, ce qui réduit sa taille à 32 octets.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Miks on oluline mitte kunagi korduvkasutada nonce'i ECDSA algoritmis?
-answer: Nonce'i korduvkasutamine seab ohtu turvalisuse ja võib paljastada privaatvõtme.
+question: Mis on ECDSA allkirja arvutamise lähtepunkt?
+answer: Sõnumi räsi
 wrong_answers:
-  - Nonce'i korduvkasutamine aeglustab jõudlust.
-  - Nonce'i korduvkasutamine muudab allkirjad pikemaks.
-  - Nonce'i korduvkasutamine suurendab avaliku võtme suurust.
+  - Avalik võti
+  - Fikseeritud nonce
+  - Kohandatud elliptiline kõver
 explanation: |
-  Nonce'i korduvkasutamine ECDSA-s võib võimaldada ründajal avastada privaatvõtme, seades ohtu turvalisuse.
+  ECDSA allkirja arvutamine algab sõnumi räsi arvutamisega, mida tihti tehakse kasutades SHA256.
 reviewed: false

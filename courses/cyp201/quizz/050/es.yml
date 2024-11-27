@@ -1,9 +1,9 @@
-question: Si se sigue BIP39, ¿cuál es el tamaño de la semilla de un monedero HD?
-answer: 512 bits.
+question: ¿Cuál es una buena práctica para asegurar una frase de paso?
+answer: Guardarla en un medio físico separado de la frase mnemotécnica
 wrong_answers:
-  - 32 bytes.
-  - 1024 bits.
-  - 512 bytes.
+  - Memorizarla solo de memoria sin anotarla
+  - Guardarla en el mismo medio físico que la frase mnemotécnica
+  - Registrarla en un medio digital como Google Drive
 explanation: |
-  De acuerdo con BIP39, la semilla de un monedero HD es de 512 bits, derivada de la frase mnemotécnica y la contraseña.
+  La frase de paso debe guardarse físicamente y separada de la frase mnemotécnica para prevenir el robo simultáneo de ambas.
 reviewed: false

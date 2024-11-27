@@ -12,7 +12,7 @@ objectives:
 
 Khóa học này, do Damien Theillier dẫn dắt, mời bạn khám phá thế giới của Frédéric Bastiat, một nhà kinh tế và triết gia người Pháp, người có những tư tưởng vẫn tiếp tục ảnh hưởng tới tư tưởng kinh tế đương đại. Qua 21 video, Damien Theillier khám phá cuộc đời của Bastiat, những ảnh hưởng về mặt trí tuệ, những đối thủ về tư tưởng, cũng như lý thuyết kinh tế của ông.
 
-Khóa học bắt đầu với bài giới thiệu chi tiết về cuộc đời và bối cảnh lịch sử của Bastiat, trước khi xem xét những nhà tư tưởng đã định hình nên suy nghĩ của ông, như Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, và Richard Cobden. Sau đó, khóa học sẽ tìm hiểu về  những đối thủ của Bastiat, bao gồm Rousseau, giáo dục cổ điển, chủ nghĩa bảo hộ, chủ nghĩa xã hội, và Proudhon.
+Khóa học bắt đầu với bài giới thiệu chi tiết về cuộc đời và bối cảnh lịch sử của Bastiat, trước khi xem xét những nhà tư tưởng đã định hình nên suy nghĩ của ông, như Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, và Richard Cobden. Sau đó, khóa học sẽ tìm hiểu về những đối thủ của Bastiat, bao gồm Rousseau, giáo dục cổ điển, chủ nghĩa bảo hộ, chủ nghĩa xã hội, và Proudhon.
 
 Một phần quan trọng của khóa học được dành riêng để phê phán các nguỵ biện về kinh tế mà Bastiat đã chỉ trích, như "Những gì được thấy và những gì không được thấy," "Bản kiến nghị của những người làm nến," sự cướp bóc thông qua thuế, và sự phân biệt giữa hai loại đạo đức kinh tế. Khóa học cũng đề cập đến những sự hoà hợp kinh tế mà Bastiat ủng hộ, bao gồm phép màu của thị trường, sức mạnh của trách nhiệm, và tình đoàn kết thực sự.
 
@@ -139,7 +139,7 @@ Thực vậy, sản phẩm chỉ được mua với kỳ vọng vào dịch vụ
 Nhưng từ Jean-Baptiste Say, Frédéric Bastiat cũng thừa hưởng một khái niệm chính, đó là của cải. Bởi, ông nói, nhắc lại lời của Say:
 
 > Chỉ có hai cách để có được những thứ cần thiết cho việc bảo tồn, tô điểm, và cải thiện cuộc sống, đó là: sản xuất và cướp bóc.
-Các nhà sản xuất thường sử dụng thuyết phục, đàm phán và hợp đồng, trong khi những kẻ cướp bóc lại sử dụng vũ lực và lừa dối. Do đó, nhiệm vụ của pháp luật là ngăn chặn việc cướp bóc và bảo vệ lao động cũng như tài sản. Như Adam Smith đã từng nói, việc đảm bảo an toàn cho công dân là sứ mệnh chính của cơ quan công quyền, và chính điều này biện minh cho việc thu thuế.
+> Các nhà sản xuất thường sử dụng thuyết phục, đàm phán và hợp đồng, trong khi những kẻ cướp bóc lại sử dụng vũ lực và lừa dối. Do đó, nhiệm vụ của pháp luật là ngăn chặn việc cướp bóc và bảo vệ lao động cũng như tài sản. Như Adam Smith đã từng nói, việc đảm bảo an toàn cho công dân là sứ mệnh chính của cơ quan công quyền, và chính điều này biện minh cho việc thu thuế.
 
 ![image](assets/image/01/IMG17.webp)
 
@@ -290,7 +290,6 @@ Ngày nay, vấn đề về tự do thương mại vẫn tiếp tục là một 
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-
 Frédéric Bastiat, người đã bày tỏ quan điểm vào những năm 1840, là người kế thừa một thế hệ các triết gia của Thời kỳ Khai sáng đã chiến đấu chống lại kiểm duyệt và vì tự do ngôn luận. Hãy nghĩ về Montesquieu, Diderot, Voltaire, Condorcet, nhưng cũng không thể không nhắc đến Rousseau.
 
 Đối với họ, ý tưởng rất đơn giản: càng nhiều ý tưởng được phép bày tỏ, sự thật càng tiến bộ và lỗi lầm càng dễ bị bác bỏ. Khoa học luôn tiến bộ theo cách này.
@@ -399,8 +398,8 @@ Bastiat mạnh mẽ đứng về phía người tiêu dùng. Đối lập với 
 Với cuộc cách mạng tháng 2 năm 1848 và những rào cản của nó, một kẻ thù đáng gờm hơn so với chủ nghĩa bảo hộ đã xuất hiện, một kẻ thù mà nó chia sẻ nhiều điểm tương đồng: chủ nghĩa xã hội. Đó là gì? Đó là một phong trào chính trị yêu cầu tổ chức lao động bằng luật pháp, quốc hữu hóa các ngành công nghiệp và ngân hàng, và phân phối lại của cải thông qua thuế vụ. Bastiat giờ đây sẽ dành toàn bộ năng lượng, tài năng, và các tác phẩm viết của mình chống lại học thuyết mới này, thứ mà chỉ có thể dẫn đến sự tăng trưởng theo cấp số mũ của quyền lực và cuộc đấu tranh giai cấp tồn tại mãi mãi. Do đó, ngay từ những ngày đầu của cuộc cách mạng, ông đã đóng góp cho một tờ báo ngắn hạn tên là "La République Française," nhanh chóng được biết đến như một tờ báo phản cách mạng. Đây là thời điểm ông viết các cuốn sách nhỏ về tài sản, nhà nước, cướp bóc, và luật pháp.
 Vào ngày 27 tháng 6 năm 1848, một ngày sau một cuộc nổi dậy đẫm máu mới ở Paris, trong một bức thư dài gửi cho Richard Cobden, ông đã suy ngẫm về những nguyên nhân có thể đã dẫn đến sự kiện này.
 
-1) Nguyên nhân đầu tiên là sự thiếu hiểu biết về kinh tế. Đó là thứ đã chuẩn bị tâm trí cho việc chấp nhận các ảo tưởng của chủ nghĩa xã hội và chủ nghĩa cộng hòa giả mạo. Tôi nhắc đến video trước về xu hướng của giáo dục cổ điển và đại học về điểm này.
-2) Quốc gia trở nên mê mẩn với ý tưởng rằng tình anh em và tình đoàn kết có thể được đưa vào luật pháp. Nghĩa là, nó yêu cầu nhà nước trực tiếp tạo ra hạnh phúc cho công dân của mình. Tại đây Bastiat thấy sự bắt đầu của nhà nước phúc lợi.
+1. Nguyên nhân đầu tiên là sự thiếu hiểu biết về kinh tế. Đó là thứ đã chuẩn bị tâm trí cho việc chấp nhận các ảo tưởng của chủ nghĩa xã hội và chủ nghĩa cộng hòa giả mạo. Tôi nhắc đến video trước về xu hướng của giáo dục cổ điển và đại học về điểm này.
+2. Quốc gia trở nên mê mẩn với ý tưởng rằng tình anh em và tình đoàn kết có thể được đưa vào luật pháp. Nghĩa là, nó yêu cầu nhà nước trực tiếp tạo ra hạnh phúc cho công dân của mình. Tại đây Bastiat thấy sự bắt đầu của nhà nước phúc lợi.
 
 ![image](assets/image/07/IMG01.webp)
 
@@ -408,18 +407,16 @@ Và ông sẽ tiếp tục phân tích những tác động xấu xa của nó s
 
 > Bằng bản năng tự nhiên của trái tim con người, mọi người bắt đầu đòi hỏi từ nhà nước, cho bản thân họ, một cảm giác thịnh vượng và tốt đẹp chung. Nghĩa là, nhà nước hoặc kho bạc công đã bị cướp bóc. Tất cả các tầng lớp đòi hỏi từ nhà nước, như thể đó là quyền, các phương tiện để tồn tại. Những nỗ lực được thực hiện theo hướng này bởi nhà nước chỉ dẫn đến mở rộng thuế má và các trở ngại, và sự gia tăng nghèo đói.
 
-3) Bastiat thêm rằng, theo quan điểm của mình, chủ nghĩa bảo hộ là biểu hiện đầu tiên của sự rối loạn này. Các nhà tư bản khởi xướng điều này bằng cách yêu cầu sự can thiệp của luật pháp để tăng cường phần thưởng của họ. Tất yếu, công nhân cũng muốn làm điều tương tự.
+3. Bastiat thêm rằng, theo quan điểm của mình, chủ nghĩa bảo hộ là biểu hiện đầu tiên của sự rối loạn này. Các nhà tư bản khởi xướng điều này bằng cách yêu cầu sự can thiệp của luật pháp để tăng cường phần thưởng của họ. Tất yếu, công nhân cũng muốn làm điều tương tự.
 
 ![image](assets/image/07/IMG08.webp)
 Kết luận, theo Bastiat: chủ nghĩa bảo hộ và chủ nghĩa xã hội có một điểm chung, đó là những gì họ tìm kiếm từ luật pháp không phải để đảm bảo cho mọi người được tự do thực hiện năng lực của mình và hưởng phần thưởng công bằng cho nỗ lực của họ, mà thay vào đó là để ưu ái việc bóc lột ít hay nhiều một tầng lớp công dân bởi một tầng lớp khác. Với chủ nghĩa bảo hộ, đó là thiểu số bóc lột đa số. Với chủ nghĩa xã hội, đó là đa số bóc lột thiểu số. Trong cả hai trường hợp, công lý bị vi phạm và lợi ích chung bị tổn hại. Bastiat đặt họ vào vị trí đối lập với nhau.
 
 > Nhà nước là hư cấu lớn, qua đó mọi người cố gắng sống bằng chi phí của người khác.
 
-
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
-
 
 Pierre-Joseph Proudhon là một trong những đại diện chính của chủ nghĩa xã hội Pháp giữa thế kỷ 19. Ông đặc biệt nổi tiếng với phát biểu này: "Tài sản là trộm cắp" trong "Tài sản là gì? - What is Property" vào năm 1840.
 
@@ -474,7 +471,6 @@ Kết luận, cả Proudhon và Bastiat đều nhận ra tầm quan trọng củ
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-
 Trong chương này, tôi sẽ tiết lộ một công nghệ mới hoàn toàn, một công nghệ cách mạng. Một nhà nghiên cứu đã phát triển một cặp kính sinh học với một camera nhỏ cực kỳ mạnh mẽ được gắn ở phía trước. Công nghệ này cho phép nhìn thấy những chi tiết không thể thấy bằng mắt thường. Trên gọng kính, có một chip điện tử truyền hình ảnh trực tiếp lên đám mây qua điện thoại thông minh của tôi.
 
 ![image](assets/image/09/IMG01.webp)
@@ -485,7 +481,6 @@ Nhà kinh tế học giỏi, theo Bastiat, phải mô tả được tác động
 Vì thế, trong Public Works, Bastiat viết:
 
 > Nhà nước mở một con đường, xây một cung điện, chỉnh trang một con phố, đào một kênh; qua đó, nó tạo ra công ăn việc làm cho một số công nhân, đó là điều được nhìn thấy; nhưng nó cũng tước đi công việc từ một số người khác, đó là điều không được nhìn thấy.
-
 
 Một trong những sophism nổi tiếng nhất là nguỵ biện về chiếc cửa sổ vỡ. Một số người cho rằng việc vỡ một cái cửa sổ ở nhà không gây hại cho nền kinh tế vì nó mang lại lợi ích cho người thợ làm kính. Nhưng Bastiat sẽ chứng minh rằng sự phá hủy không phải là lợi ích của chúng ta bởi vì nó không tạo ra của cải. Nó gây tốn kém hơn là lợi ích nó mang lại. Cậu bé phá vỡ cửa sổ nhà hàng xóm đã tạo công việc cho người thợ làm kính. Nhưng đây là cách bạn bè của cậu ta an ủi:
 
@@ -553,14 +548,11 @@ Theo logic tạo ra việc làm bằng mọi giá này, tại sao không thay th
 Sự nhầm lẫn giữa phương tiện và mục đích này được tìm thấy trong khẩu hiệu "tiền là sự giàu có."
 Đây là nguyên tắc điều khiển chính sách tiền tệ của hầu hết các quốc gia. Thực vậy, việc tăng số lượng tiền một cách nhân tạo cho phép các ngân hàng cho các cá nhân vay tiền và cho phép các quốc gia dễ dàng trả nợ, đây là "những gì chúng ta nhìn thấy được". Nhưng "những gì chúng ta không nhìn thấy được" là việc tạo ra tiền, không dựa trên bất kỳ sự tạo ra giá trị thực sự nào, sẽ dẫn đến lạm phát và sự tàn phá đối với những người tiết kiệm.
 
-
-
 Sự giàu có thực sự, theo Bastiat, do đó là tập hợp các vật dụng hữu ích mà chúng ta sản xuất thông qua lao động để thỏa mãn nhu cầu của mình. Tiền chỉ là phương tiện trao đổi được sử dụng phổ biến, nó chỉ đóng vai trò là một trung gian.
 
 ## Cướp bóc thông qua thuế má
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
-
 
 > Khi người giàu giảm cân, người nghèo chết.
 
@@ -600,7 +592,6 @@ Vấn đề là thuế, như được hình dung, chịu sự tùy tiện của 
 
 > Thuế quá nhiều sẽ giết chết thuế.
 
-
 Các chính trị gia một cách ngây thơ giả định rằng có một mối quan hệ tự động và cố định giữa mức thuế suất và thu nhập thuế. Họ nghĩ rằng họ có thể tăng gấp đôi thu nhập thuế bằng cách tăng gấp đôi mức thuế suất. Theo Laffer, cách tiếp cận như vậy không tính đến việc người nộp thuế có thể thay đổi hành vi của họ để phản ứng với các động lực mới.
 
 ![image](assets/image/11/IMG7.webp)
@@ -608,6 +599,7 @@ Các chính trị gia một cách ngây thơ giả định rằng có một mố
 Đường cong Laffer cho thấy chính phủ không thu được đồng thu nhập nào khi mức thuế suất ở mức 100%. Ngược lại, bất kỳ sự giảm thuế nào đều kích thích hoạt động kinh tế và do đó là thu nhập của nhà nước. Thực vậy, giảm mức thuế suất biên sẽ kích thích đầu tư, lao động, sáng tạo, và do đó thúc đẩy tăng trưởng kinh tế. Một sự giảm đủ lớn có thể tạo ra đủ kích thích kinh tế để tăng thu nhập công nhờ mở rộng cơ sở đánh thuế.
 
 Bastiat có thể thêm rằng cần phải đặt trọng tâm vào việc giảm chi tiêu của nhà nước cũng như giảm thuế. Tuy nhiên, như Margaret Thatcher, một học trò của Frédéric Bastiat, đã nói một cách đúng đắn:
+
 > Mục tiêu không phải là làm cho người giàu trở nên nghèo, mà là làm cho người nghèo trở nên giàu có." Và bà đã nói điều này khi đang phát biểu trước những người xã hội chủ nghĩa.
 
 ## Hai loại đạo đức
@@ -647,6 +639,7 @@ Kinh tế Chính trị, do đó, có một ích lợi thực tiễn rõ ràng. N
 Một lần nữa, sẽ có ít Tartuffe hơn nếu có ít Orgon nghe họ hơn. Đây là những gì Bastiat đã nói về vấn đề này:
 
 ![image](assets/image/12/IMG07.webp)
+
 > Do đó, hãy để đạo đức tôn giáo chạm đến trái tim của Tartuffes nếu có thể. Nhiệm vụ của kinh tế chính trị là soi sáng cho những kẻ bị lừa dối. Trong hai cách tiếp cận này, cái nào hoạt động hiệu quả nhất cho tiến bộ xã hội? Phải nói sao? Tôi tin rằng đó là cách thứ hai. Tôi lo rằng nhân loại không thể tránh khỏi sự cần thiết phải học đạo đức phòng vệ trước tiên.
 
 Dĩ nhiên, kinh tế chính trị không phải là một một khoa học phổ quát; nó không loại trừ các cách tiếp cận triết học và tôn giáo. "Nhưng ai đã từng thể hiện một yêu sách quá mức như vậy với tên của nó?" Bastiat tự hỏi.
@@ -660,7 +653,6 @@ Một điều chắc chắn, không phải là chính trị có thể thay đổ
 ## Phép mà của thị trường
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
-
 
 Liệu một xã hội hài hòa có thể tồn tại mà không cần đến luật lệ viết, quy tắc, biện pháp trừng phạt? Nếu con người được tự do, chúng ta có chứng kiến sự hỗn loạn, vô chính phủ, vô tổ chức không? Làm thế nào để tránh việc chỉ đơn thuần đặt các cá nhân ở cận kề nhau và hành động tự phát, không có sự phối hợp nào cả, nếu không thông qua luật pháp và một tổ chức chính trị tập trung?
 
@@ -699,7 +691,6 @@ Nó tái hiện ý tưởng của Bastiat về sự hợp tác vô hình giữa 
 
 Giải Nobel Kinh tế năm 1976, Milton Friedman, cũng đã tái hiện câu chuyện về cây bút chì này để giải thích cho công chúng cách nền kinh tế thị trường hoạt động.
 
-
 Trong một tập của sê-ri truyền hình "Free to Choose" của mình, ông phân tích các thành phần khác nhau của một thứ đơn giản và bình thường như cây bút chì và nhấn mạnh điều kỳ diệu của trật tự tự phát, được tạo ra bởi hàng nghìn tương tác kinh tế trên khắp thế giới. Những người không biết nhau, không chia sẻ cùng tôn giáo hay phong tục, vẫn có thể phối hợp để sản xuất ra vật thể này. Ông kết luận rằng thị trường tự do là cần thiết để đảm bảo không chỉ cho sự thịnh vượng mà còn cho cả hòa bình và hòa hợp.
 
 Friedrich Hayek, trong bài luận "The Use of Knowledge in Society - Sử dụng kiến thức trong xã hội" năm 1945, đã giải thích tại sao nền kinh tế thị trường và sự phi tập trung của các quyết định là cốt yếu cho sự thịnh vượng. Theo Hayek, không có một nhà kế hoạch hoá tập trung hay một quan chức nào có đủ kiến thức để thành công trong việc hướng dẫn toàn bộ các hành vi kinh tế. Chỉ có hệ thống giá cả trong một thị trường tự do mới cho phép hàng triệu thành phần tham gia độc lập đưa ra quyết định cho bản thân về cách phân bổ hiệu quả các nguồn lực.
@@ -708,7 +699,6 @@ Kế hoạch hoá kinh tế, vốn tự tuyên bố là sẽ làm tốt hơn th�
 ## Tự do và trách nhiệm là chìa khóa cho vấn đề xã hội
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
-
 
 Trong một bức thư gửi Alphonse de Lamartine vào năm 1845, Bastiat viết rằng toàn bộ triết lý của ông được chứa đựng trong một nguyên tắc duy nhất:
 
@@ -745,7 +735,7 @@ Hãy minh họa vấn đề này bằng một vài chủ đề lớn hiện nay.
 
 ![image](assets/image/14/IMG7.webp)
 _(Alan Greenspan, Chủ tịch của FED, ngân hàng trung ương Mỹ, từ 1987 đến 2006)_
-Trong nhiều năm, các nhà lãnh đạo chính sách tiền tệ đã giải thích rằng nếu lợi nhuận được tư nhân hóa khi mọi thứ diễn ra tốt đẹp, thì thua lỗ sẽ được chia sẻ khi phá sản (cứu trợ, kế hoạch giải cứu, thao túng lãi suất, in tiền, v.v.). Làm như vậy, họ đã tạo ra một rủi ro đạo đức, họ đã tạo điều kiện cho việc chấp nhận rủi ro không hợp lý, và họ đã khuyến khích thế giới tài chính hành xử một cách vô trách nhiệm. Họ do đó đã đẩy nhanh quá trình rơi vào cuộc khủng hoảng mà chúng ta đang trải qua của thế giới tài chính. 
+Trong nhiều năm, các nhà lãnh đạo chính sách tiền tệ đã giải thích rằng nếu lợi nhuận được tư nhân hóa khi mọi thứ diễn ra tốt đẹp, thì thua lỗ sẽ được chia sẻ khi phá sản (cứu trợ, kế hoạch giải cứu, thao túng lãi suất, in tiền, v.v.). Làm như vậy, họ đã tạo ra một rủi ro đạo đức, họ đã tạo điều kiện cho việc chấp nhận rủi ro không hợp lý, và họ đã khuyến khích thế giới tài chính hành xử một cách vô trách nhiệm. Họ do đó đã đẩy nhanh quá trình rơi vào cuộc khủng hoảng mà chúng ta đang trải qua của thế giới tài chính.
 
 ![image](assets/image/14/IMG8.webp)
 
@@ -770,7 +760,6 @@ Nói cách khác, các lựa chọn tập thể không phải là các lựa ch�
 ## Quyền lực của trách nhiệm
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
-
 
 Trong phần trước, chúng ta đã thấy tại sao tự do và trách nhiệm là chìa khóa cho vấn đề xã hội. Bây giờ chúng ta sẽ đi sâu hơn vào điểm này bằng cách chỉ ra cách Frédéric Bastiat nhìn nhận về những tai hoạ mà xã hội phải chịu đựng và giải pháp của chúng.
 
@@ -808,7 +797,6 @@ Cần phải làm rõ rằng sự phát triển tiến bộ thông qua trách nh
 ## Đoàn kết thật và đoàn kết giả
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
-
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -853,6 +841,7 @@ Trên thực tế, một xã hội dân sự tự do không dựa trên sự íc
 Tái phân phối bắt buộc không liên quan gì đến tình đoàn kết nhân văn chân chính, điều vốn có bản chất riêng tư hoặc tự nguyện và được thấy trong gia đình, hoặc giữa các thành viên của một tổ chức.
 
 Vì vậy, Bastiat phản đối các nhà xã hội chủ nghĩa về vai trò của luật pháp. Ông viết:
+
 > Luật có thể buộc một người phải công bằng, nhưng không thể buộc anh ta phải tận tụy. Sự đoàn kết giả mạo của các nhà xã hội chủ nghĩa loại bỏ sự tận tụy để thay thế bằng sự cưỡng chế thuần túy của nhà nước, điều này tạo ra nền tảng cho chủ nghĩa toàn trị.
 
 # Luật pháp - The Law
@@ -862,7 +851,6 @@ Vì vậy, Bastiat phản đối các nhà xã hội chủ nghĩa về vai trò 
 ## Quyền sở hữu
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
-
 
 Ở đây khi nói đến quyền sở hữu - property, chúng ta không nên hiểu là quyền sở hữu đất đai. Nó có nghĩa là "quyền của người lao động đối với giá trị mà anh ta đã tạo ra thông qua công sức lao động của mình." Bastiat chỉ rõ:
 
@@ -924,6 +912,7 @@ Bản chất thực sự của pháp luật là gì?
 Bastiat bắt đầu bằng cách thiết lập các nền tảng nhân học tự nhiên của pháp luật: sự sống, tự do và quyền sở hữu.
 
 Hệ thống tự do tự nhiên là hệ thống mà xã hội, cá nhân và quyền sở hữu tồn tại trước khi tồn tại pháp luật. Trong hệ thống này, Bastiat thêm vào:
+
 > Không phải vì có luật mà có quyền sở hữu, mà vì có quyền sở hữu nên mới có luật.
 
 ![image](assets/image/18/IMG2.webp)
@@ -957,12 +946,11 @@ Họ chắc chắn rằng quyền tự nhiên của họ được bảo đảm v
 
 > Vắng bóng cướp bóc, — đó là nguyên tắc của công lý, hòa bình, trật tự, ổn định, hòa giải, và lẽ thường mà tôi sẽ tuyên bố với tất cả sức lực, thật không may! quá ít ỏi, của phổi tôi, cho đến hơi thở cuối cùng của mình.
 > Bastiat đã viết trong "The Law", một thời gian trước khi ông qua đời.
-Một thế kỷ sau cái chết của Frédéric Bastiat, việc cướp bóc bằng pháp luật rõ ràng được thể hiện trong Tuyên ngôn Quyền con người Toàn cầu năm 1948, đặc biệt là trong các điều khoản 22 ("mọi người đều có quyền được an sinh xã hội"), 23 ("mọi người đều có quyền làm việc"), 24 ("mọi người đều có quyền nghỉ ngơi và giải trí"), 25 ("mọi người đều có quyền có một mức sống đủ đảm bảo sức khỏe và hạnh phúc"), 26 ("mọi người đều có quyền được giáo dục").
+> Một thế kỷ sau cái chết của Frédéric Bastiat, việc cướp bóc bằng pháp luật rõ ràng được thể hiện trong Tuyên ngôn Quyền con người Toàn cầu năm 1948, đặc biệt là trong các điều khoản 22 ("mọi người đều có quyền được an sinh xã hội"), 23 ("mọi người đều có quyền làm việc"), 24 ("mọi người đều có quyền nghỉ ngơi và giải trí"), 25 ("mọi người đều có quyền có một mức sống đủ đảm bảo sức khỏe và hạnh phúc"), 26 ("mọi người đều có quyền được giáo dục").
 
 ## Vai trò của pháp luật và Nhà nước
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
-
 
 Năm 1848, Bastiat là một nghị sĩ. Ông được bổ nhiệm làm phó chủ tịch ủy ban tài chính. Do đó, ông đặc biệt có vị trí tốt để trả lời câu hỏi này: Nhà nước là gì? Chúng ta cần Nhà nước đảm bạo sự thịnh vượng của mình. Nhưng Bastiat nhắc nhở chúng ta rằng Nhà nước không thể cho công dân bất cứ thứ gì mà nó không trước tiên lấy từ họ.
 
@@ -1009,20 +997,9 @@ Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề "N
 
 ![hình ảnh](assets/image/19/IMG9.webp)
 
-# Kết luận
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-
-
-## Đánh giá khóa học
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Di sản của Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
-
 
 Ảnh hưởng của Bastiat bắt đầu suy giảm vào cuối thế kỷ 19, với sự trỗi dậy của chủ nghĩa xã hội và đặc biệt là chủ nghĩa Marx trong các trường đại học và viện nghiên cứu, được tài trợ bằng tiền công.
 
@@ -1048,5 +1025,52 @@ Nếu nhìn nhận vấn đề từ góc độ này, Reagan giải thích với 
 
 Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố then chốt của một tầm nhìn tự do về xã hội và con người: ưu tiên hơn vai trò của xã hội dân sự so với Nhà nước, giá trị của sự lựa chọn và trách nhiệm cá nhân, tầm quan trọng của doanh nhân trong việc tạo ra của cải, vật chất, tầm quan trọng của một khung pháp lý linh hoạt và tối thiểu, để tạo niềm tin và sự tôn trọng đối với các hợp đồng, quy luật cơ bản rằng của cải phải được tạo ra trước khi nó có thể được phân phối, mong muốn mang lại cho mọi người một cơ hội trong thị trường cạnh tranh...
 
+# Kết luận
 
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
+## Đánh giá khóa học này
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Kỳ thi cuối khóa
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kết luận
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Chúc mừng bạn đã hoàn thành khóa học này!
+
+Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
+
+Thông qua sự cống hiến và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
+
+Để tiếp tục khám phá sâu hơn về vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
+
+#### Khám phá Bitcoin và các nguyên tắc cơ bản của nó với
+
+https://planb.network/courses/btc101
+
+#### Nhận và bảo mật bitcoin đầu tiên của bạn với
+
+https://planb.network/courses/btc102
+
+#### Cập nhật bảo mật trực tuyến của bạn với
+
+https://planb.network/courses/scu101
+
+#### Khám phá Lightning Network với
+
+https://planb.network/courses/lnp201
+
+#### Học tư duy kinh tế của trường phái Áo với
+
+https://planb.network/courses/eco201
+
+#### Hiểu về cơ bản của Bitcoin và xây dựng hệ thống sưởi gia đình của bạn với
+
+https://planb.network/courses/min201

@@ -1,8 +1,9 @@
-question: Mitkä algoritmit ovat käytössä johdannaisissa Bitcoin HD-lompakoissa?
-answer: HMAC/PBKDF2
+question: Mikä johdannaisalgoritmi käytetään laskemaan todennuskoodi salaisen avaimen perusteella?
+answer: HMAC-SHA512
 wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  Bitcoin HD-lompakot käyttävät HMACia (Hash-pohjainen viestin autentikointikoodi) avainjohdannaisiin ja PBKDF2: ta (salasanaan perustuva avainjohdannaisfunktio 2) siemenjohdannaisiin.
+  HMAC-SHA512 on algoritmi, joka yhdistää hajautusfunktion ja salaisen avaimen todennuskoodin laskemiseksi.
+reviewed: false

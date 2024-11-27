@@ -132,7 +132,6 @@ Kui soovite Bitcoini ajalugu põhjalikumalt uurida, soovitan väga meie kursust 
 
 https://planb.network/courses/his201
 
-
 # Raha
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -250,7 +249,6 @@ Kui soovite rohkem teada saada majanduslikest eksitustest ja vabadusest, kutsun 
 
 https://planb.network/courses/eco102
 
-
 ## Hüperinflatsioon
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -336,7 +334,6 @@ Kokkuvõttes on hüperinflatsioonil mõju valuuta väärtuse kiirele degradeerum
 Teema süvendamiseks soovitan David St-Onge'i kursust ECO 204 hüperinflatsiooni kohta. Siit saate teada, mis on hüperinflatsioonilised tsüklid ja milline on nende reaalne mõju meie eludele. Samuti avastate nende tsüklite sarnasusi ja mis kõige tähtsam, kuidas end nende eest kaitsta:
 
 https://planb.network/courses/eco204
-
 
 ## 21 miljonit bitcoini
 
@@ -495,7 +492,6 @@ Valige rahakott, mis vastab teie vajadustele ja kasutusele. Erinevate rahakottid
 Kui soovite oma teekonnal jäneseurus rohkem teada saada Bitcoini rahakoti loomise kohta, alates entroopiast kuni vastuvõtuaadressideni, soovitan selle teema jaoks pühendatud kursust CYP 201:
 
 https://planb.network/courses/cyp201
-
 
 ## Turvalisus ja Bitcoini rahakotid
 
@@ -1051,7 +1047,6 @@ https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
 
 https://planb.network/courses/btc305
 
-
 ### Kiire kokkuvõte plakatil!
 
 ![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
@@ -1324,43 +1319,17 @@ Bitcoini ei saa enam peatada ega tsenseerida. See on rahumeelne revolutsioon, et
 
 Finantssüsteemi muutmine nõuab valuuta muutmist. Satoshi lõi Bitcoini 2008. aastal, et pakkuda katset seda teha. Lihtne ja "maagiline" raha juurdepääs rikub. Seega on Bitcoin alternatiiv uue neutraalse rahandussüsteemi loomiseks. Bitcoin võimaldab vabaneda pangasüsteemist. See on sotsiaalne nähtus, mis viib meid osalema rahumeelses revolutsioonis. Kas olete valmis liituma?
 
-## Tunnustused ja jätkake küülikuurgu uurimist
+# Kokkuvõte
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Mine kaugemale
-
-Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis teile ja avas teile uksi. Teie avastusreis bitcoiniga on alles algus, ja ma kutsun teid uurima kõiki teisi ülikoolis saadaolevaid kursuseid.
-
-Bitcoini plaani seadistamiseks:
-
-https://planb.network/courses/btc102
-
-Lightning Networki avastamiseks, teise kihi maksevõrgu kohta:
-
-https://planb.network/courses/lnp201
-
-Austria majanduse käsitlemiseks:
-
-https://planb.network/courses/eco201
-
-Teie digitaalset turvalisust värskendamiseks:
-
-https://planb.network/courses/scu101
-
-Et rohkem teada saada kaevandamise kohta:
-
-https://planb.network/courses/min201
-
-ja palju muud...
-
-
-## Hinnake kursust
+## Kursuse hindamine
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1368,7 +1337,24 @@ ja palju muud...
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Palju õnne kursuse lõpetamise puhul!**
+Õnnitlused BTC 101 koolituse lõpetamise puhul! Loodan siiralt, et see meeldis teile ja avas uusi uksi. Teie Bitcoini avastamine on alles alguses ja kutsun teid tutvuma kõigi teiste Plan ₿ Networkis saadaolevate kursustega:
 
-Pange tähele, et see peatükk on praegu koostamisel ja peagi ilmub täiustatud versioon. Vahepeal, kui soovite oma Bitcoini teekonda jätkata, kutsume teid tutvuma meie platvormil saadaolevate teiste kursuste ja õpetustega. Jätkake head tööd ja head õppimist!
+#### Saage ja turvake oma esimesed bitcoinid kursusega
 
+https://planb.network/courses/btc102
+
+#### Avastage Lightning Network kursusega
+
+https://planb.network/courses/lnp201
+
+#### Tutvuge Austria majanduskooli mõtteviisiga kursuses
+
+https://planb.network/courses/eco201
+
+#### Uuendage oma veebiturvalisust kursusega
+
+https://planb.network/courses/scu101
+
+#### Mõistke Bitcoini põhialuseid ja ehitage oma kodune küttesüsteem kursusega
+
+https://planb.network/courses/min201

@@ -1,9 +1,8 @@
-question: Bagaimana cara menentukan ukuran bit dari checksum untuk frase pemulihan?
-answer: Bagi ukuran dari angka acak (entropi) dengan 32.
+question: Berapa banyak bit entropi yang digunakan untuk frasa mnemonik 24 kata?
+answer: 256 bit
 wrong_answers:
-  - Bagi ukuran dari angka acak (entropi) dengan 8.
-  - Bagi ukuran dari angka acak (entropi) dengan 16.
-  - Kalikan ukuran dari angka acak (entropi) dengan 2.
+  - 128 bit
+  - 512 bit
+  - 64 bit
 explanation: |
-  Ukuran dari checksum diperoleh dengan membagi ukuran entropi dengan 32, sesuai dengan BIP39.
-reviewed: false
+  Frasa mnemonik 24 kata didasarkan pada 256 bit entropi, memastikan keamanan yang sangat tinggi.

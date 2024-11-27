@@ -1,9 +1,8 @@
-question: Mikä on indeksialue, jota käytetään normaaleille lapsiavaimille HD-lompakossa?
-answer: Välillä 0 ja 2^31 - 1.
+question: Mikä on laajennetun avaimen päätoiminto HD-lompakossa?
+answer: Mahdollistaa ala-avainten johdannan
 wrong_answers:
-  - Välillä 0 ja 2^32 - 1.
-  - Välillä 0 ja 2^31.
-  - Välillä 2^31 ja 2^32 - 1.
+  - Tallentaa lompakon tapahtumat
+  - Generoida suoraan UTXO: t
+  - Salata julkiset avaimet
 explanation: |
-  Normaalit lapsiavaimet käyttävät indeksialuetta välillä 0 ja 2^31 - 1, kun taas kovennetut avaimet aloittavat indeksinsä 2^31: stä.
-reviewed: false
+  Laajennettu avain yhdistää avaimen (joko yksityisen tai julkisen) liitännäisen ketjukoodin kanssa, eli kaksi elementtiä, jotka ovat tarpeen ala-avainten johdannassa.

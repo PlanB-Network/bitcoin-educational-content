@@ -1,9 +1,9 @@
-question: Quali sono i due tipi di derivazione di chiavi figlio in un portafoglio HD?
-answer: Derivazione normale e derivazione rinforzata.
+question: Quali informazioni non sono incluse in una chiave estesa?
+answer: La cronologia delle transazioni della chiave
 wrong_answers:
-  - Derivazione semplice e derivazione complessa.
-  - Derivazione ellittica e derivazione curva.
-  - Derivazione statica e derivazione dinamica.
+  - Il numero di indice della chiave
+  - La chiave (privata o pubblica)
+  - Il codice catena
 explanation: |
-  I due tipi di derivazione sono la derivazione normale, che utilizza la chiave pubblica genitore, e la derivazione rinforzata, che utilizza la chiave privata genitore.
+  Una chiave estesa contiene solo le informazioni necessarie per derivare chiavi figlie, non informazioni relative alle transazioni.
 reviewed: false

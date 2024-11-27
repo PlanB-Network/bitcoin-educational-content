@@ -1,8 +1,8 @@
-question: Tavalise alamvõtme paari tuletamiseks pean sisestama HMAC-SHA512 funktsiooni...
-answer: vanema avalik võti || indeks, vanema ahelakood.
+question: Mida võimaldab tuletada laiendatud avalik võti?
+answer: Ainult tavalised laste avalikud võtmed
 wrong_answers:
-  - vanema privaatvõti || indeks, vanema ahelakood.
-  - vanema privaatvõti, vanema ahelakood.
-  - vanema privaatvõti || indeks.
+  - Ainult tavalised laste privaatvõtmed
+  - Nii kõvastunud kui ka tavalised laste avalikud võtmed
+  - Nii kõvastunud kui ka tavalised laste privaatvõtmed
 explanation: |
-  Tavalise alamvõtme tuletamiseks kasutatakse vanema avalikku võtit koos indeksi ja ahelakoodiga HMAC-SHA512 funktsioonis.
+  Laiendatud avalik võti võimaldab tuletada ainult tavalisi laste avalikke võtmeid, mitte privaatvõtmeid või kõvastunud võtmeid.

@@ -1,9 +1,9 @@
-question: Millega vastavad SHA256 funktsiooni 8 algväärtuse vektori väärtused?
-answer: Esimese 8 algarvu kuupjuurte kümnendkohtade esimesed 64 bitti.
+question: Mis on peamine erinevus ShR ja RotR operatsioonide vahel?
+answer: ShR nihutab bitte lisades nulle, RotR sisestab nihutatud bitid tagasi
 wrong_answers:
-  - Pi kümnendkohad.
-  - Esimese 8 algarvu ruutjuurte kümnendkohtade esimesed 32 bitti.
-  - Esimese 8 algarvu ruutjuurte kümnendkohtade esimesed 64 bitti.
+  - ShR eemaldab nihutatud bitid, RotR korrutab nende väärtust
+  - ShR nihutab vasakule, RotR nihutab paremale
+  - ShR on loogiline operatsioon, RotR on aritmeetiline
 explanation: |
-  SHA256 algväärtuste vektorid põhinevad esimese 8 algarvu kuupjuurte kümnendkohtade esimestel 64 bitil.
+  ShR nihutab bitte paremale lisades nulle, samal ajal kui RotR teostab bittide tsirkulaarset rotatsiooni.
 reviewed: false

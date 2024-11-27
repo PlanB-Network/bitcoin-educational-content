@@ -1,9 +1,9 @@
-question: Bitcoinで親キーから子キーを導出するために使用される関数は何ですか？
-answer: HMAC-SHA512。
+question: Bitcoinで使用されるPBKDF2の反復回数は何回ですか？
+answer: 2048
 wrong_answers:
-  - SHA256。
-  - MD5。
-  - BLAKE2。
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  HMAC-SHA512関数は、BitcoinのHDウォレットで親キーから子キーを導出するために使用されます。
+  PBKDF2はセキュリティを強化するために、HMAC-SHA512プロセスを2048回繰り返します。
 reviewed: false

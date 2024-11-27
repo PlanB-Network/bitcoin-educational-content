@@ -1,9 +1,8 @@
-question: Hva er nøkkelderivasjonsfunksjonen som brukes for å utlede en seed fra en mnemonic frase og en valgfri passfrase?
-answer: PBKDF2.
+question: Hva er hovedforskjellen mellom en passfrase og en PIN-kode for en Bitcoin-lommebok?
+answer: Passfrasen endrer nøkkelavledningen, ikke PIN-koden
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - PIN-koden er knyttet til den mnemoniske frasen
+  - PIN-koden brukes til å kryptere transaksjoner, men ikke passfrasen
+  - PIN-koden genererer Bitcoin-adresser
 explanation: |
-  PBKDF2-funksjonen brukes til å utlede seeden til en HD-lommebok fra den mnemonic frasen og en valgfri passfrase.
-reviewed: false
+  I motsetning til PIN-koden, er passfrasen direkte involvert i nøkkelavledningsprosessen og endrer lommebokens nøkler.

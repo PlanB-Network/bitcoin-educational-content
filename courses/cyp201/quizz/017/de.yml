@@ -1,9 +1,9 @@
-question: Was ist das Ziel der Verwendung digitaler Signaturen bei Bitcoin?
-answer: Einen mathematischen Beweis zu erzeugen, der rechtfertigt, dass ein Benutzer tatsächlich im Besitz eines privaten Schlüssels ist, ohne diesen privaten Schlüssel preiszugeben.
+question: Welche elliptische Kurve wird im Bitcoin-Protokoll verwendet?
+answer: secp256k1
 wrong_answers:
-  - Einen mathematischen Beweis zu erzeugen, der rechtfertigt, dass ein Benutzer tatsächlich im Besitz eines öffentlichen Schlüssels ist, ohne diesen öffentlichen Schlüssel preiszugeben.
-  - Einen mathematischen Beweis zu erzeugen, der rechtfertigt, dass ein Benutzer tatsächlich im Besitz einer Empfangsadresse ist, ohne diese Empfangsadresse preiszugeben.
-  - Einen mathematischen Beweis zu erzeugen, der rechtfertigt, dass ein Benutzer tatsächlich im Besitz einer Wallet ist.
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  Digitale Signaturen bei Bitcoin ermöglichen den Nachweis, dass ein Benutzer den privaten Schlüssel besitzt, der mit einem öffentlichen Schlüssel verbunden ist, ohne diesen privaten Schlüssel preiszugeben.
+  Bitcoin verwendet die secp256k1-Kurve, definiert durch die Gleichung y² = x³ + 7, für seine kryptografischen Operationen.
 reviewed: false

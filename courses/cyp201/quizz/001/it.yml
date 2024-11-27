@@ -1,9 +1,9 @@
-question: Qual è la dimensione dell'output della funzione hash SHA256?
-answer: 256 bit.
+question: Quale proprietà garantisce che sia computazionalmente impossibile recuperare l'input di un hash?
+answer: Resistenza alla pre-immagine
 wrong_answers:
-  - 256 byte.
-  - 512 bit.
-  - 512 byte.
+  - Resistenza alle collisioni
+  - Effetto valanga
+  - Resistenza alla seconda pre-immagine
 explanation: |
-  SHA-256 produce un output fisso di 256 bit, indipendentemente dalla dimensione dei dati di input.
+  La resistenza alla pre-immagine garantisce che sia praticamente impossibile trovare il messaggio originale a partire dal suo hash.
 reviewed: false

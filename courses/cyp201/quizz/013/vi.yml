@@ -1,9 +1,8 @@
-question: Tiền tố 0x có ý nghĩa gì?
-answer: Số theo sau tiền tố này được biểu diễn ở cơ số 16 (hệ thập lục phân).
+question: Vai trò chính của PBKDF2 trong Bitcoin là gì?
+answer: Tạo ra hạt giống của một ví HD
 wrong_answers:
-  - Số theo sau tiền tố này được biểu diễn ở cơ số 2 (nhị phân).
-  - Số theo sau tiền tố này được biểu diễn ở cơ số 10 (thập phân).
-  - Số theo sau tiền tố này được biểu diễn ở cơ số 8 (bát phân).
+  - Xác thực giao dịch
+  - Mã hóa khóa riêng
+  - Tạo địa chỉ Bitcoin
 explanation: |
-  Tiền tố 0x chỉ ra rằng số theo sau nó được biểu diễn ở cơ số 16 (hệ thập lục phân).
-reviewed: false
+  PBKDF2 được sử dụng để tạo ra một hạt giống từ một cụm từ ghi nhớ và một cụm từ mật khẩu tùy chọn.

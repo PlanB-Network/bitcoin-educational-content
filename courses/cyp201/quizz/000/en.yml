@@ -1,9 +1,9 @@
-question: What is the goal of the cryptographic hashing process?
-answer: To map a bit string of arbitrary length to a bit string of fixed length.
+question: What is the main function of a hash function?
+answer: It converts information of arbitrary length into a fixed-size fingerprint
 wrong_answers:
-  - Encrypt a message.
-  - Ensure that the sender of the message cannot deny having sent the message in the future.
-  - Guarantee the confidentiality of data.
+  - It encrypts messages to make them unreadable
+  - It is only used to verify the integrity of Bitcoin software
+  - It generates private keys for Bitcoin wallets
 explanation: |
-  Hashing transforms data of any size into an output of fixed size, useful for verifying integrity without necessarily encrypting or authenticating the data.
+  A hash function transforms data of any size into a fixed-size hash, crucial for many applications in Bitcoin.
 reviewed: false

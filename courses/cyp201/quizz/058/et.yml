@@ -1,9 +1,9 @@
-question: Millist metadata't lisatakse laiendatud võtmele lisaks selle sisule?
-answer: Versioon / sügavus / vanema sõrmejälg / indeks / kontrollsumma.
+question: Millist funktsiooni kasutatakse seemne tuletamiseks mnemoonilisest fraasist?
+answer: PBKDF2 koos HMAC-SHA512-ga
 wrong_answers:
-  - Versioon / indeks.
-  - Versioon / sügavus / eraldaja / kontrollsumma.
-  - Metadata't ei lisata.
+  - SHA256 üksi
+  - Kahekordne SHA256
+  - AES-256
 explanation: |
-  Laiendatud võti sisaldab mitmeid metadata tükke. On olemas versioon, sügavus, vanema sõrmejälg, indeks ja kontrollsumma, et hõlbustada võtme tuletamist.
+  Seeme genereeritakse kasutades PBKDF2 funktsiooni koos HMAC-SHA512 ja 2048 iteratsiooniga, mnemoonilisest fraasist ja paroolifraasist lähtuvalt.
 reviewed: false

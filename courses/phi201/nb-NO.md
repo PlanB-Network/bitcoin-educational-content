@@ -1426,3 +1426,51 @@ På en måte er vår situasjon bedre enn i fortiden. Etter de påfølgende feile
 Alt som skjer i det globale samfunnet vi lever i, er resultatet av ideer. Det gode og det dårlige. Det som er nødvendig, er å bekjempe falske ideer. (...) Vår sivilisasjon kan overleve, og den må. Og den vil overleve takket være bedre ideer enn de som styrer verden i dag; og disse bedre ideene vil bli utviklet av den oppvoksende generasjonen.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
+# Konklusjon
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Evaluer dette kurset
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Avsluttende eksamen
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Konklusjon
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+Gratulerer med fullført kurs!
+
+Vi er glade for at du har nådd denne viktige milepælen i din læringssreise.
+
+Takket være din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
+
+For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle andre kurs tilgjengelige på Plan ₿ Network:
+
+#### Oppdag F. Bastiats liv med
+
+https://planb.network/courses/eco102
+
+#### Oppdag Bitcoin og dens grunnprinsipper med
+
+https://planb.network/courses/btc101
+
+#### Oppdag Lightning Network med
+
+https://planb.network/courses/lnp201
+
+#### Behersk prinsippene for personvern på Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Oppdag historien om Bitcoins opprinnelse med
+
+https://planb.network/courses/his201
+
+#### Forstå hvordan Bitcoin-lommeboken fungerer med
+
+https://planb.network/courses/cyp201

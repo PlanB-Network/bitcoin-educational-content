@@ -1,9 +1,8 @@
-question: Hàm nào được sử dụng để tạo ra khóa con từ khóa cha trong Bitcoin?
-answer: HMAC-SHA512.
+question: Số lần lặp lại được sử dụng bởi PBKDF2 trong Bitcoin là bao nhiêu?
+answer: 2048
 wrong_answers:
-  - SHA256.
-  - MD5.
-  - BLAKE2.
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  Hàm HMAC-SHA512 được sử dụng trong việc tạo ra khóa con từ khóa cha trong ví HD Bitcoin.
-reviewed: false
+  PBKDF2 lặp lại quy trình HMAC-SHA512 2048 lần để tăng cường bảo mật.

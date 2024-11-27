@@ -1,9 +1,8 @@
-question: Qual é o BIP (Proposta de Melhoria do Bitcoin) que propôs a primeira versão de uma carteira HD no Bitcoin?
-answer: BIP32.
+question: Qual flag de sighash permite financiamento coletivo ao cobrir uma única entrada e todas as saídas?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32, proposto em 2012, é o primeiro a introduzir o conceito de carteiras determinísticas hierárquicas (HD) no Bitcoin.
-reviewed: false
+  SIGHASH_ALL combinado com SIGHASH_ANYONECANPAY permite adicionar entradas sem modificar as saídas.

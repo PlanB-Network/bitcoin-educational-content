@@ -1,11 +1,8 @@
-question: Thông tin nguyên thủy nào cho phép xác định một cụm từ ghi nhớ tốt cho một ví HD?
-
-answer: Một entropy bên ngoài cho phép xác định một số ngẫu nhiên hoặc giả ngẫu nhiên.
-
+question: Tiêu chuẩn Bitcoin nào giới thiệu ví xác định phân cấp?
+answer: BIP32
 wrong_answers:
-  - Tên đầu tiên của chủ sở hữu ví.
-  - Không cần thông tin, chúng ta trực tiếp chọn những từ mà chúng ta thích.
-  - Ngày tạo của ví.
-
-explanation:
-  Cụm từ ghi nhớ được tạo ra từ một nguồn entropy, nghĩa là thông tin ngẫu nhiên hoặc giả ngẫu nhiên, để đảm bảo an ninh cho các khóa riêng tư.
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 định nghĩa hoạt động của ví HD, cho phép việc phái sinh phân cấp các khóa riêng từ một hạt giống.

@@ -1,9 +1,9 @@
-question: Co se stane, pokud použiji HD peněženku s heslem a toto heslo ztratím?
-answer: Moje bitcoiny jsou navždy ztraceny.
+question: Kolik bitů má kontrolní součet pro entropii 128 bitů?
+answer: 4 bity
 wrong_answers:
-  - Není to problém, stále mohu přistupovat k mým bitcoinům jen s mou mnemonickou frází.
-  - Heslo mohu resetovat s mým soukromým klíčem.
-  - Mohu získat zpět své bitcoiny použitím peněženky bez hesla.
+  - 8 bitů
+  - 16 bitů
+  - 6 bitů
 explanation: |
-  Pokud je heslo ztraceno, přístup k bitcoinům je trvale ztracen, jelikož je nezbytné pro odvození soukromých klíčů.
+  Délka kontrolního součtu se vypočítá pomocí vzorce CS = ENT / 32, což pro entropii 128 bitů dává 4 bity.
 reviewed: false

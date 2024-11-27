@@ -1,8 +1,9 @@
-question: O que é um PRNG?
-answer: Um algoritmo que gera números aleatórios a partir de uma semente e uma função de transformação.
+question: O que uma carteira HD permite fazer em comparação com uma carteira JBOK?
+answer: Gerar todas as chaves privadas a partir de uma única semente
 wrong_answers:
-  - Um dispositivo de hardware que gera números verdadeiramente aleatórios.
-  - Um gerador que produz números aleatórios sem qualquer semente.
-  - Um algoritmo que gera números previsíveis.
+  - Aumentar a segurança das assinaturas digitais
+  - Reutilizar o mesmo endereço para múltiplas transações
+  - Evitar completamente o uso de chaves públicas
 explanation: |
-  Um PRNG gera números pseudoaleatórios a partir de uma semente, mas ao contrário de um TRNG, não é verdadeiramente aleatório.
+  Carteiras HD derivam todas as chaves privadas de uma semente única, o que simplifica o backup e indiretamente melhora a privacidade.
+reviewed: false

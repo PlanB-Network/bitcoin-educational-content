@@ -1,9 +1,9 @@
-question: Co je v protokolu Bitcoinu HASH160?
-answer: SHA256 hash následovaný RIPEMD160 hashem.
+question: Jaký je hlavní rozdíl mezi SHA256 a RIPEMD160?
+answer: RIPEMD160 produkuje kratší hashe než SHA256
 wrong_answers:
-  - Dvojitý RIPEMD160 hash.
-  - Dvojitý SHA256 hash.
-  - MD5 hash následovaný SHA256 hashem.
+  - SHA256 je zastaralý na rozdíl od RIPEMD160
+  - RIPEMD160 se používá pouze v mechanismu Proof-of-Work
+  - SHA256 nikdy není kombinován s jinými hashovacími funkcemi
 explanation: |
-  HASH160 kombinuje SHA256 hash následovaný RIPEMD160, používá se zejména pro generování Bitcoinových adres.
+  RIPEMD160 generuje 160-bitové hashe, zatímco SHA256 produkuje 256-bitové hashe.
 reviewed: false

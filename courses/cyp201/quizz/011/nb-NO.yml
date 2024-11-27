@@ -1,9 +1,9 @@
-question: Hva består konkateneringsoperasjonen av?
-answer: Å sette to operander etter hverandre.
+question: Hva er hash-funksjonen som brukes av HMAC i sammenheng med Bitcoin?
+answer: SHA512
 wrong_answers:
-  - Å legge sammen to operander.
-  - Å dele to operander.
-  - Å trekke fra to operander.
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  Konkatenering innebærer å plassere to operander etter hverandre uten å modifisere dem, mye brukt i kryptografi.
+  HMAC bruker SHA512 for å produsere en sikker 512-bits hash.
 reviewed: false

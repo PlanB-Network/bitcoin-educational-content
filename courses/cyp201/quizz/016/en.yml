@@ -1,9 +1,9 @@
-question: In order to apply this elliptical curve to cryptographic uses, on what field must we define it?
-answer: A finite field of positive integers.
+question: Which signature algorithm was introduced in Bitcoin with Taproot?
+answer: Schnorr signature scheme
 wrong_answers:
-  - The field of real numbers.
-  - A finite field of real numbers.
-  - A complex field.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  In Bitcoin, the elliptical curve secp256k1 is defined over a finite field of positive integers modulo a prime number to avoid approximations and ensure security.
+  The Schnorr signature scheme was introduced in November 2021 with the Taproot update.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Minkä tyyppinen osoite alkaa numerolla `1` ja kuuluu Legacy-standardiin?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  P2PKH-osoitteet, jotka on koodattu base58check-muodossa, ovat peräisin Legacy-standardista ja alkavat numerolla `1`.

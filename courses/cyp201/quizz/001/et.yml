@@ -1,9 +1,8 @@
-question: Mis on SHA256 räsifunktsiooni väljundsuurus?
-answer: 256 bitti.
+question: Milline omadus tagab, et sisendi taastamine räsi põhjal on arvutuslikult võimatu?
+answer: Eelkujutise vastupanu
 wrong_answers:
-  - 256 baiti.
-  - 512 bitti.
-  - 512 baiti.
+  - Kollisioonivastupanu
+  - Lumelaviini efekt
+  - Teise eelkujutise vastupanu
 explanation: |
-  SHA-256 toodab fikseeritud väljundi 256 bitti, olenemata sisendi andmete suurusest.
-reviewed: false
+  Eelkujutise vastupanu tagab, et algse sõnumi leidmine selle räsi põhjal on praktiliselt võimatu.

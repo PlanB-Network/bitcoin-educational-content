@@ -1,9 +1,8 @@
-question: Tại sao việc sử dụng một nguồn entropy tốt để tạo khóa riêng là quan trọng?
-answer: Entropy kém có thể khiến khóa riêng trở nên dễ đoán và dễ bị tấn công.
+question: Hạn chế chính của ví JBOK là gì?
+answer: Chúng yêu cầu phải sao lưu độc lập cho từng khóa riêng tư
 wrong_answers:
-  - Entropy tốt giúp tối ưu hóa hiệu suất của ví.
-  - Entropy không đóng vai trò gì trong việc bảo mật khóa riêng.
-  - Entropy kém làm chậm giao dịch.
+  - Chúng không cho phép tạo mới địa chỉ
+  - Chúng không tương thích với chữ ký số
+  - Chúng sử dụng khóa công khai không nén
 explanation: |
-  Nếu entropy được sử dụng để tạo khóa riêng thấp, nó có thể cho phép kẻ tấn công đoán hoặc tính toán được những khóa này, làm ảnh hưởng đến an ninh của ví.
-reviewed: false
+  Ví JBOK buộc người dùng phải sao lưu từng khóa riêng tư một cách riêng biệt, làm phức tạp việc quản lý chúng.

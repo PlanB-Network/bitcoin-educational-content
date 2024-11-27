@@ -1,9 +1,9 @@
-question: Millist funktsiooni kasutatakse seemne genereerimiseks mnemoonilisest fraasist ja paroolilausest?
-answer: PBKDF2.
+question: Miks peetakse 24-sõnalist mnemoonilist fraasi Bitcoin'i rahakoti jaoks tihti üleliigseks?
+answer: Tuletatud võtmed pakuvad ainult 128 biti turvalisust
 wrong_answers:
-  - SHA256.
-  - HMAC.
-  - Argon2.
+  - Tarkvara ei toeta 24-sõnalisi fraase
+  - See ei võimalda avalike võtmete tuletamist
+  - Lühemad fraasid ei ole standardiseeritud
 explanation: |
-  PBKDF2 (Password-Based Key Derivation Function 2) on kasutusel HD rahakottides seemne tuletamiseks mnemoonilisest fraasist ja paroolilausest.
+  Kuigi 24-sõnaline fraas pakub 256 biti turvalisust, tagavad tuletatud Bitcoin'i privaatvõtmed ainult 128 biti turvalisust, muutes ülejäägi tarbetuks.
 reviewed: false

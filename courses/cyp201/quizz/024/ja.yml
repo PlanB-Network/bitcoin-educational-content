@@ -1,9 +1,9 @@
-question: 楕円曲線secp256k1で使用される生成点Gの座標は何ですか？
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Bitcoinで使用される生のプライベートキーのサイズは何ですか？
+answer: 256ビット
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128ビット
+  - 512ビット
+  - 1024ビット
 explanation: |
-  生成点Gは、楕円曲線secp256k1上の事前に定義された点で、Bitcoinにおいて秘密鍵から公開鍵を生成するために使用されます。
-  レビュー済み: false
+  Bitcoinのプライベートキーは、256ビットのランダムな整数であり、セキュリティを保証するのに十分な大きなキースペースを確保しています。
+reviewed: false

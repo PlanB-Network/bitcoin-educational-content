@@ -1,9 +1,9 @@
-question: Come viene determinata una chiave pubblica Bitcoin?
-answer: Viene determinata aggiungendo e raddoppiando i punti sulla curva ellittica a partire dal punto generatore utilizzando la chiave privata.
+question: Come si calcola una chiave pubblica da una chiave privata?
+answer: Utilizzando la moltiplicazione scalare sulla curva ellittica
 wrong_answers:
-  - Viene determinata da un numero casuale o pseudo-casuale.
-  - Viene determinata facendo l'hashing della sua chiave privata.
-  - Viene determinata facendo l'hashing del suo seme.
+  - Applicando un hash sulla chiave privata
+  - Attraverso la crittografia asimmetrica
+  - Con l'aggiunta ripetuta di valori numerici
 explanation: |
-  La chiave pubblica è generata dalla chiave privata attraverso operazioni sulla curva ellittica, partendo dal punto generatore.
+  La chiave pubblica si ottiene dalla moltiplicazione scalare della chiave privata con il punto generatore G sulla curva ellittica.
 reviewed: false

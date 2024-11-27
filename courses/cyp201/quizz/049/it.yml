@@ -1,9 +1,9 @@
-question: Come si dovrebbe scegliere una passphrase efficace?
-answer: Dovrebbe essere lunga, diversificata e casuale, senza nessuna connessione con l'utente.
+question: Qual è lo scopo della frase mnemonica in un portafoglio Bitcoin HD?
+answer: Derivare deterministicamente tutte le chiavi
 wrong_answers:
-  - Dovrebbe essere facile da ricordare e correlata all'ambiente dell'utente.
-  - Dovrebbe essere breve ma includere numeri.
-  - Dovrebbe contenere almeno 10 cifre.
+  - Firmare direttamente le transazioni
+  - Criptare gli indirizzi Bitcoin
+  - Generare un hash per gli UTXO
 explanation: |
-  Una passphrase efficace dovrebbe essere lunga (da 20 a 40 caratteri), diversificata e casuale per fornire la massima sicurezza, similmente a una buona password.
+  La frase mnemonica consente la derivazione di tutte le chiavi private e pubbliche in un portafoglio, facilitando così il backup e il recupero.
 reviewed: false

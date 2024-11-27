@@ -1,9 +1,9 @@
-question: Voici une suite de nombres décimaux (10 25 13 18 02 31). Quelle est la bonne conversion en Bech32 ?
-answer: 2edjzl
+question: Que signifie le préfixe `wpkh` dans un descriptor ?
+answer: Pay-to-Witness-PubKey-Hash
 wrong_answers:
-  - 2udjpr
-  - 2uaz2c
-  - 3bdjsr
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Witness Script Hash
 explanation: |
-  La conversion en Bech32 des nombres décimaux se fait via une table de correspondance spécifique, et la suite 10 25 13 18 02 31 correspond à 2edjzl.
+  Le préfixe `wpkh` indique un script SegWit v0 utilisant des adresses Pay-to-Witness-Public-Key-Hash.
 reviewed: false

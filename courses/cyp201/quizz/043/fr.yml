@@ -1,9 +1,9 @@
-question: Comment déterminer la taille en bits de la checksum (somme de contrôle) d'une phrase de récupération ?
-answer: On divise la taille du nombre aléatoire (entropie) par 32.
+question: Combien de bits d'entropie sont utilisés pour une phrase mnémonique de 24 mots ?
+answer: 256 bits
 wrong_answers:
-  - On divise la taille du nombre aléatoire (entropie) par 8.
-  - On divise la taille du nombre aléatoire (entropie) par 16.
-  - On multiplie la taille du nombre aléatoire (entropie) par 2.
+  - 128 bits
+  - 512 bits
+  - 64 bits
 explanation: |
-  La taille de la checksum est obtenue en divisant la taille de l'entropie par 32, conformément au BIP39.
+  Une phrase mnémonique de 24 mots est basée sur une entropie de 256 bits, garantissant une très grande sécurité.
 reviewed: false

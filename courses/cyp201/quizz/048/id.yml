@@ -1,8 +1,8 @@
-question: Apa fungsi yang digunakan untuk menghasilkan seed dari frasa mnemonik dan passphrase?
-answer: PBKDF2.
+question: Mengapa frasa mnemonik 24 kata sering dianggap berlebihan untuk dompet Bitcoin?
+answer: Kunci yang dihasilkan hanya menawarkan 128 bit keamanan
 wrong_answers:
-  - SHA256.
-  - HMAC.
-  - Argon2.
+  - Perangkat lunak tidak mendukung frasa 24 kata
+  - Ini tidak memungkinkan untuk derivasi kunci publik
+  - Frasa yang lebih pendek tidak distandarisasi
 explanation: |
-  PBKDF2 (Password-Based Key Derivation Function 2) digunakan untuk menurunkan seed dari frasa mnemonik dan passphrase dalam dompet HD.
+  Meskipun frasa 24 kata menawarkan 256 bit keamanan, kunci privat Bitcoin yang dihasilkan hanya menjamin 128 bit keamanan, membuat kelebihan tersebut tidak perlu.

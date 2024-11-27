@@ -137,14 +137,15 @@ Pro Bastiata ekonomika výměn, tj. vzájemných služeb svobodně nabízených 
 Ale od Jean-Baptiste Saya, Frédéric Bastiat také zdědil klíčový koncept, ten o loupeži. Neboť, jak říká, ozvěnou slov Saya:
 
 > Existují pouze dva způsoby, jak získat věci nezbytné pro zachování, zkrášlení a zlepšení života: produkce a loupež.
-Výrobci se uchylují k přesvědčování, vyjednávání a smlouvám, zatímco lupiči využívají sílu a podvod. Proto je na zákonu, aby potlačil loupení a zajistil ochranu práce i majetku. Jak již Adam Smith uvedl, zajištění bezpečnosti občanů je hlavním posláním veřejné autority a právě to legitimizuje vybírání daní.
-![image](assets/image/01/IMG17.webp)
+> Výrobci se uchylují k přesvědčování, vyjednávání a smlouvám, zatímco lupiči využívají sílu a podvod. Proto je na zákonu, aby potlačil loupení a zajistil ochranu práce i majetku. Jak již Adam Smith uvedl, zajištění bezpečnosti občanů je hlavním posláním veřejné autority a právě to legitimizuje vybírání daní.
+> ![image](assets/image/01/IMG17.webp)
 
 ## Antoine Destutt de Tracy
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
 Je málo známo, ale Destutt de Tracy měl rozhodující vliv na budoucího prezidenta Spojených států, Thomase Jeffersona, když byl v 80. letech 18. století velvyslancem v Paříži.
+
 > "Pro každého člověka je jeho první vlastí jeho domovina a druhou je Francie" & "Tyranie je, když se lidé bojí své vlády; svoboda je, když se vláda bojí lidí."
 >
 > Thomas Jefferson
@@ -203,6 +204,7 @@ Jaký je cíl časopisu? Název mluví sám za sebe: cenzurovat vládu. Bojovat 
 
 Od Benjamina Constanta přejímají rozlišení mezi Starověkými a Moderními, charakterizované na jedné straně válkou a na druhé obchodem a průmyslem. Ale přidávají s Sayem, že politická ekonomie poskytuje nejlepší vysvětlení sociálních jevů. Zvláště si uvědomují, že národy dosahují míru a prosperity, když jsou respektována práva na vlastnictví a svobodný obchod. Odteď pro ně politická ekonomie představuje pravý a jediný základ politiky. Filozofii, která se omezuje na abstraktní kritiku forem vlády, musí být nahrazena teorií založenou na znalosti ekonomických zájmů.
 Politická ekonomie tím, že ukazuje, jak národy prosperují a upadají, položila pravé základy politiky.
+
 > Dunoyer
 
 Tato nová sociální teorie obsahuje jeden z prvků, který by se stal základním kamenem vědeckého socialismu Marxe a Engelse: třídní boj. Ale v čem spočívá liberální teorie třídního boje a jak se liší od marxismu?
@@ -241,6 +243,7 @@ Byla to tato kampaň za volný obchod po celém království, s desítkami tisí
 
 Ligu lze přirovnat k putovní univerzitě, která ekonomicky vzdělávala ty, kteří se jejích setkání účastnili po celé zemi - obyčejné lidi, průmyslníky, pěstitele a farmáře, které Liga vzala pod svá křídla a jejichž zájmy obilné zákony potlačovaly. Richard Cobden byl duší hnutí a vynikajícím agitátorem.
 Fascinující a formidabilní řečník, měl neobyčejný dar vymýšlet působivé a stručné fráze, daleko od abstraktních diskurzů ekonomů.
+
 > Co je to monopol na chléb? zvolal. Je to nedostatek chleba. Budete překvapeni, když se dozvíte, že legislativa této země, v této věci, nemá jiný účel, než vyprodukovat co největší nedostatek chleba. A přesto to není nic jiného. Legislativa může svůj cíl dosáhnout pouze prostřednictvím nedostatku.
 
 V roce 1845 Bastiat v Paříži publikoval svou knihu Cobden a Liga, s jeho překlady doplněnými komentáři. Kniha začíná úvodem o ekonomické situaci Anglie, o historii vzniku a pokroku Ligy. Od roku 1815 byl v Anglii velmi rozvinutý protekcionismus. Existovaly zejména zákony omezující dovoz obilí, které měly pro lid velmi tvrdé důsledky. Pšenice byla totiž nezbytná pro výrobu chleba, v té době životně důležitého zboží. Navíc tento systém upřednostňoval aristokracii, tedy velké pozemkové vlastníky, kteří z něj čerpali renty.
@@ -277,7 +280,6 @@ Otázka volného obchodu zůstává relevantní i dnes. Učebnice zeměpisu ve �
 ## Rousseau
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
-
 
 Frédéric Bastiat, který se vyjadřoval ve 40. letech 19. století, je dědicem generace filozofů osvícenství, kteří bojovali proti cenzuře a za svobodu debaty. Pomyslete na Montesquieua, Diderota, Voltaira, Condorceta, ale také Rousseaua.
 
@@ -357,6 +359,7 @@ Je smutné si myslet, že naše sociální a politická filozofie zůstala uvíz
 Nicméně, jak nás Bastiat připomíná, monopol vylučuje pokrok.
 
 ## Protekcionismus a socialismus
+
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
 ![obrázek](assets/image/07/IMG11.webp)
@@ -402,12 +405,9 @@ Závěrem, protekcionisté a socialisté mají podle Bastiata společný bod: to
 
 > Stát je velká fikce, díky které se každý snaží žít na úkor všech ostatních.
 
-
-
 ## Proudhon
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
-
 
 Pierre-Joseph Proudhon je jedním z hlavních představitelů francouzského socialismu v polovině 19. století. Je zejména proslulý svým tvrzením: "Majetek je krádež" v "Co je majetek?" v roce 1840.
 
@@ -443,6 +443,7 @@ Poté Bastiat ukazuje, že je možné zlepšit kupní sílu pracujících tříd
 Skutečně, podle Bastiata, pokrok lidstva souvisí s tvorbou kapitálu. Ve svém pamfletu nazvaném Kapitál a Rent, Bastiat nám to objasňuje na příkladu Robinsona Crusoe na jeho ostrově.
 ![image](assets/image/08/IMG15.webp)
 Bez nahromaděného kapitálu nebo materiálů by byl Robinson odsouzen k smrti. Poté vysvětluje, že kapitál obohacuje pracovníka dvěma způsoby:
+
 - Zvyšuje produkci, čímž snižuje cenu zboží pro spotřebu
 - Což má za následek zvýšení mezd.
 
@@ -460,7 +461,6 @@ Závěrem, jak Proudhon, tak Bastiat uznali význam akumulace kapitálu a tenden
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-
 V této kapitole odhalím zcela novou technologii, revoluční technologii. Výzkumník vyvinul pár bionických brýlí s ultra-výkonnou mini-kamerou zabudovanou v přední části. Tato technologie umožňuje vidět detaily, které jsou nemožné vidět pouhým okem. V ramenech je elektronický čip, který přenáší obrazy přímo do cloudu prostřednictvím mého smartphonu.
 
 ![image](assets/image/09/IMG01.webp)
@@ -472,8 +472,8 @@ Takže v Dílech veřejných, Bastiat píše:
 
 > Stát otevře cestu, postaví palác, narovná ulici, vykope kanál; tím dá práci určitým pracovníkům, to je viděno; ale připraví o práci určité jiné, to je neviděno.
 
-
 Jedním z nejznámějších sofismů je omyl o rozbitém okně. Někteří tvrdí, že rozbití okna v domě neškodí ekonomice, protože to prospívá sklenáři. Ale Bastiat ukáže, že destrukce není v našem zájmu, protože nevytváří bohatství. Stojí více, než přináší. Mladý chlapec, který rozbije okno souseda, dá práci sklenáři. Ale tady je, jak ho jeho přátelé utěšují:
+
 > "Každý mrak má stříbrný okraj. Takové nehody udržují průmysl v chodu. Každý potřebuje žít. Co by se stalo se sklenáři, kdyby se okna nikdy nerozbíjela?"
 
 Takže podle Keynese by destrukce majetku, tím že nutí k výdajům, stimulovala ekonomiku a měla by "multiplikační efekt" povzbuzující na produkci a zaměstnanost. To je pouze to, co je vidět.
@@ -496,7 +496,9 @@ Nakonec, téměř století před Keynesem, můžeme říci, že Bastiat vyvráti
 ![image](assets/image/09/IMG03.webp)
 
 Velké ponaučení z této série textů je, že státní zásah má perverzní účinky, které nejsou vidět. Pouze dobrý ekonom je schopen je předvídat. Politika je to, co vidíme. Ekonomika je to, co nevidíme.
+
 ## Petice svíčkářů
+
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
 V roce 1840 hlasovala Sněmovna poslanců pro zákon zvyšující dovozní cla za účelem ochrany francouzského průmyslu. Jedná se o slavný ekonomický patriotismus, se kterým se setkáváme i dnes.
@@ -525,8 +527,8 @@ Protekcionismus se také opírá o skrytý sylogismus, který se ukazuje být kl
 - Čím více pracujeme, tím jsme bohatší;
 - Čím více překážek musíme překonat, tím více pracujeme;
 - Tedy, čím více překážek musíme překonat, tím jsme bohatší.
-Ilustrujme tuto absurditu několika krátkými příběhy, které vyprávěl Bastiat. V kapitole III druhé série Ekonomických sofismů si představuje tesaře, který píše ministrovi petici žádající o protekcionistickou legislativu. Tesař takto formuluje svou žádost: Pane ministře, vytvořte zákon, který stanoví, že "Nikdo nesmí používat trámy a nosníky vyrobené z tupých seker." Jinými slovy, vytvořte zákon, který zakazuje používání ostrých seker ve Francii. Tam, kde se normálně udělí 100 sekerových úderů, bude nutné udělit 300. Tesaři budou mít velkou poptávku a tudíž budou lépe placeni.
-![image](assets/image/10/IMG01.webp)
+  Ilustrujme tuto absurditu několika krátkými příběhy, které vyprávěl Bastiat. V kapitole III druhé série Ekonomických sofismů si představuje tesaře, který píše ministrovi petici žádající o protekcionistickou legislativu. Tesař takto formuluje svou žádost: Pane ministře, vytvořte zákon, který stanoví, že "Nikdo nesmí používat trámy a nosníky vyrobené z tupých seker." Jinými slovy, vytvořte zákon, který zakazuje používání ostrých seker ve Francii. Tam, kde se normálně udělí 100 sekerových úderů, bude nutné udělit 300. Tesaři budou mít velkou poptávku a tudíž budou lépe placeni.
+  ![image](assets/image/10/IMG01.webp)
 
 V kapitole XVI je další velmi ironický text, nazvaný: Pravá ruka a levá ruka. Po vyšetřování královský vyslanec sepíše zprávu, ve které navrhuje králi, aby se všem pracovníkům uřízly, nebo alespoň svázaly, všechny pravé ruce. Tím, pokračuje, práce a tudíž i bohatství vzrostou. Produkce se stane mnohem obtížnější, což si vyžádá masivní najímání další pracovní síly a zvýšení mezd. Chudoba zmizí ze země.
 
@@ -540,7 +542,6 @@ Pravé bohatství, podle Bastiata, je tedy soubor užitečných věcí, které v
 ## Plenění prostřednictvím zdanění
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
-
 
 > Když bohatí hubnou, chudí umírají.
 
@@ -556,6 +557,7 @@ Ve Francii, kde se veřejné výdaje považují za přínos, jsou daně vyšší
 
 O co jde?
 Ekonomie popisuje dobré nebo špatné účinky politických rozhodnutí na naše životy. Avšak podle Bastiata by se ekonom musel věnovat nejen jejich krátkodobým účinkům na konkrétní skupinu, ale spíše jejich dlouhodobým důsledkům pro společnost jako celek.
+
 > "To, co vidíme, je práce a zisk umožněný sociálním příspěvkem. To, co nevidíme, jsou díla, která by byla generována touto stejnou příspěvkem, kdyby byla ponechána daňovým poplatníkům. To, co vidíme, je práce a zisk umožněný sociálním příspěvkem. To, co nevidíme, jsou díla, která by byla generována touto stejnou příspěvkem, kdyby byla ponechána daňovým poplatníkům."
 >
 > F.Bastiat
@@ -589,6 +591,7 @@ Lafferova křivka ukazuje, že vláda nevybírá žádné příjmy, když jsou d
 
 Bastiat by mohl dodat, že stejný důraz by měl být kladen na snižování státních výdajů jako na snižování daní. Nicméně, jak tak trefně řekla Margaret Thatcherová, žákyně Frédérica Bastiata:
 Cílem není udělat z bohatých chudé, ale z chudých bohaté." A to řekla, když oslovila socialisty.
+
 ## Dvě morálky
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
@@ -603,7 +606,7 @@ Existují však dva doplňující způsoby, jak osvětlit úsudek občanů, jak 
 
 - První je "filozofická nebo náboženská morálka", která působí čištěním a opravou lidského jednání (člověk jako aktér)
 - Potom existuje "ekonomická morálka", která ukazuje člověku "nezbytné důsledky jeho činů" (člověk jako pacient)
-Ve skutečnosti jsou to dvě dokonale doplňující morální rámce.
+  Ve skutečnosti jsou to dvě dokonale doplňující morální rámce.
 
 1. První oslovuje srdce a povzbuzuje jednotlivce k dobrému; je to náboženská nebo filozofická morálka. Je to ta nejušlechtilejší. Zakládá v srdci člověka vědomí jeho povinnosti. Říká mu:
 
@@ -640,7 +643,6 @@ Jedna věc je jistá, není to politik, kdo může změnit běh věcí a zdokona
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-
 Může harmonická společnost fungovat bez psaných zákonů, pravidel, represivních opatření? Pokud jsou lidé ponecháni svobodní, nebudeme svědky chaosu, anarchie, dezorganizace? Jak zabránit vytvoření pouhého souboru jednotlivců jednajících mimo jakoukoliv spolupráci, pokud ne prostřednictvím zákonů a centralizované politické organizace?
 
 Toto je argument často uvedený těmi, kdo požadují regulaci trhu nebo společnosti samotné schopné koordinovat jednotlivce do koherentního a harmonického celku.
@@ -653,8 +655,9 @@ Zázrak svobodného trhu, jak nám říká, spočívá v tom, že využívá zna
 
 Bastiat uvádí několik příkladů, které ilustrují výhody tohoto trhu. Stali jsme se tak zvyklí na tento jev, že si ho již nevšímáme.
 Pojďme zvážit třeba truhláře ve vesnici, říká, a pozorujme všechny služby, které poskytuje společnosti a všechny ty, které obdrží:
+
 > Každý den, když se probudí, se obléká, a žádnou ze svých oděvů si sám nevyrobil. Přesto, aby tyto oděvy byly pro něj dostupné, muselo být po celém světě vykonáno obrovské množství práce, průmyslu, dopravy a geniálních vynálezů.
-Poté snídá. Aby chléb, který každé ráno konzumuje, dorazil na jeho stůl, musela být vyčištěna půda, zorána; železo, ocel, dřevo, kámen musely být přeměněny na pracovní nástroje; všechny tyto věci, každá zvlášť, předpokládají nevyčíslitelnou masu práce vynaložené nejen v prostoru, ale i v čase.
+> Poté snídá. Aby chléb, který každé ráno konzumuje, dorazil na jeho stůl, musela být vyčištěna půda, zorána; železo, ocel, dřevo, kámen musely být přeměněny na pracovní nástroje; všechny tyto věci, každá zvlášť, předpokládají nevyčíslitelnou masu práce vynaložené nejen v prostoru, ale i v čase.
 
 Tento muž pošle svého syna do školy, aby získal vzdělání, které předpokládá výzkum, mnoho let předchozího studia.
 Jde ven: najde vydlážděnou a osvětlenou ulici.
@@ -676,7 +679,6 @@ Navazuje na Bastiatovu myšlenku neviditelné spolupráce mezi miliony jednotliv
 
 Nobelova cena za ekonomii za rok 1976, Milton Friedman, také znovu navštívil tento příběh tužky, aby vysvětlil široké veřejnosti, jak funguje tržní ekonomika.
 
-
 V epizodě svého televizního seriálu Free to Choose analyzuje různé komponenty něčeho tak obyčejného a jednoduchého jako tužka a zdůrazňuje zázrak spontánního řádu, generovaného tisíci ekonomických interakcí po celém světě. Lidé, kteří se navzájem neznají, kteří nesdílejí stejné náboženství ani zvyky, přesto dokážou koordinovat výrobu tohoto objektu. Dospívá k závěru, že volný trh je nezbytný nejen pro zajištění prosperity, ale také pro harmonii a mír.
 
 ![image](assets/image/13/IMG04.webp)
@@ -688,12 +690,11 @@ Ekonomické plánování, které tvrdí, že dokáže fungovat lépe než trh, v
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-
 V dopise Alphonse de Lamartine v roce 1845 Bastiat napsal, že jeho celá filozofie je obsažena v jediném principu:
 
 > Svoboda je nejlepší formou sociální organizace.
-![image](assets/image/14/IMG1.webp)
-Nicméně, dodává jednu podmínku
+> ![image](assets/image/14/IMG1.webp)
+> Nicméně, dodává jednu podmínku
 
 > "Zákon by neměl eliminovat důsledky, ať už pozitivní nebo negativní, činů každého. To je doplňující princip odpovědnosti."
 
@@ -750,7 +751,6 @@ Jinými slovy, kolektivní volby nejsou zodpovědné volby, protože na jedné s
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-
 V předchozím kurzu jsme viděli, proč jsou svoboda a odpovědnost klíčové pro sociální problém. Nyní se do tohoto bodu ponoříme hlouběji tím, že ukážeme, jak Frédéric Bastiat vidí zla, která sužují společnosti, a jejich řešení.
 
 Liberálové byli někdy kritizováni za ignorování zla a konstruování utopie čisté a dokonalé svobody v ideálním světě. Tato kritika je však v případě našeho autora zcela neopodstatněná.
@@ -791,10 +791,10 @@ Ale pokud je zneužití svobody na počátku našich běd, jeho správné použi
 ![image](assets/image/15/IMG6.webp)
 Na rozdíl od Rousseaua, který se snaží vymýtit zlo prostřednictvím kolektivních institucí, Frédéric Bastiat brání možnost zla a chyby, bez kterých neexistuje svoboda ani individuální odpovědnost. Neboť právě to sama umožňuje, prostřednictvím procesu objevování, pokrok a snížení sociálních zel.
 Je nutné objasnit, že tento vývoj pokroku skrze odpovědnost není nijak automatický. Není to vůbec tak, jako u Hegela nebo Marxe, druh přirozeného nebo historického determinismu, který by zázračně nebo mechanicky vedl k harmonii a pokroku. Jde o postupné a nekonečné snižování zla a nikdy o jeho definitivní odstranění.
+
 ## Pravá a falešná solidarita
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
-
 
 ![image](assets/image/16/IMG1.webp)
 
@@ -815,7 +815,7 @@ To je to, co Bastiat nazývá "sofismem legálního bratrství". Citujme ho na t
 A znovu:
 
 > Vlády vykonávají pouze akci, která je sankcionována Silou. Nyní je přípustné někoho donutit být spravedlivým, nikoli ho donutit být milosrdným. Zákon, když se snaží silou dosáhnout toho, co morálka dosahuje přesvědčením, místo aby se vyšvihl do říše Milosrdenství, padá do domény Loupeže.
-Tato perverze zákona má jméno, je to socialismus, tj. ideologie nuceného přerozdělování bohatství státem. Socialismus podle Bastiata charakterizuje ideologie legální loupeže. Ale lstivost této ideologie je, že maskuje své násilí zneužitím jazyka: výzvou k solidaritě nebo bratrství.
+> Tato perverze zákona má jméno, je to socialismus, tj. ideologie nuceného přerozdělování bohatství státem. Socialismus podle Bastiata charakterizuje ideologie legální loupeže. Ale lstivost této ideologie je, že maskuje své násilí zneužitím jazyka: výzvou k solidaritě nebo bratrství.
 
 ![image](assets/image/16/IMG4.webp)
 
@@ -847,7 +847,6 @@ Zákon může člověka přimět být spravedlivý, ale nemůže ho donutit být
 ## Právo na majetek
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
-
 
 Majetkem zde nemáme na mysli půdu. Znamená to "právo pracovníka nad hodnotou, kterou vytvořil svou prací." Bastiat upřesňuje:
 
@@ -901,7 +900,6 @@ _(Cicero)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-
 Hlavní myšlenkou Bastiata v "Zákonu", jeho slavném pamfletu z roku 1850, je ukázat proč a jak se zákon stal loupeží, tedy zdrojem privilegií, situativních rent a fiskální svévolnosti.
 
 ![image](assets/image/18/IMG01.webp)
@@ -912,6 +910,7 @@ Bastiat začíná položením přirozených antropologických základů zákona:
 
 Institucionální systém přirozené svobody je ten, pro který společnost, jednotlivci a vlastnictví existují před zákony. V tomto systému Bastiat dodává:
 Není to proto, že existují zákony, že existují vlastnictví, ale proto, že existují vlastnictví, že existují zákony.
+
 > Vlastnictví a právo
 
 ![image](assets/image/18/IMG2.webp)
@@ -944,12 +943,11 @@ Pro něj musí být účelem zákona jednoduše "ukončit veškerou loupež." Po
 Jsou si jisti, že jejich přirozená práva jsou zaručena a nedotknutelná. Bezpečná práva k vlastnictví dávají lidem možnost dělat dlouhodobé plány, protože vědí, že jejich majetek je chráněn před loupeží.
 
 > Absence loupeže, — je to princip spravedlnosti, míru, pořádku, stability, smíření, zdravého rozumu, který budu vyhlašovat se vší silou, bohužel! nedostatečnou, mých plic, až do mého posledního dechu
-Bastiat napsal v díle "Zákon" krátce před svou smrtí. Sto let po smrti Frédérica Bastiata je právní loupež zřetelně patrná v Univerzální deklaraci lidských práv z roku 1948, zejména v jejích článcích 22 ("každý má právo na sociální zabezpečení"), 23 ("každý má právo na práci"), 24 ("každý má právo na odpočinek a volný čas"), 25 ("každý má právo na životní úroveň dostatečnou pro zdraví a blahobyt"), 26 ("každý má právo na vzdělání").
+> Bastiat napsal v díle "Zákon" krátce před svou smrtí. Sto let po smrti Frédérica Bastiata je právní loupež zřetelně patrná v Univerzální deklaraci lidských práv z roku 1948, zejména v jejích článcích 22 ("každý má právo na sociální zabezpečení"), 23 ("každý má právo na práci"), 24 ("každý má právo na odpočinek a volný čas"), 25 ("každý má právo na životní úroveň dostatečnou pro zdraví a blahobyt"), 26 ("každý má právo na vzdělání").
 
 ## Role zákona a státu
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
-
 
 V roce 1848 byl Bastiat poslancem. Byl jmenován viceprezidentem finanční komise. Byl tedy zvláště vhodný k zodpovězení této otázky: Co je stát? Obracíme se na stát, aby zajistil naše blaho. Ale Bastiat nás připomíná, že stát nemůže dát občanům nic, co si nejprve sám nevzal.
 
@@ -995,20 +993,9 @@ Napsal Frédéric Bastiat v krátké brožuře nazvané Stát.
 
 ![image](assets/image/19/IMG9.webp)
 
-# Závěr
-
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
-
-
-
-## Ohodnoťte kurz
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Dědictví Frédérica Bastiata
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
-
 
 Vliv Bastiata začal klesat ke konci 19. století s nástupem socialismu a zejména marxismu na univerzitách a výzkumných institutech, financovaných veřejnými penězi.
 
@@ -1036,3 +1023,52 @@ Pokud se na věci podíváme z tohoto úhlu, vysvětloval Reagan zaměstnancům 
 ![obrázek](assets/image/20/IMG10.webp)
 Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liberální vize společnosti a člověka: primát občanské společnosti nad státem, hodnotu volby a individuální odpovědnosti, důležitost podnikatele ve tvorbě bohatství, význam flexibilního a minimálního právního rámce, který umožňuje důvěru a respektování smluv, základní zákon, že bohatství musí být vytvořeno, než může být rozděleno, touhu dát každému šanci na konkurenčních trzích…
 
+# Závěr
+
+<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+
+## Ohodnoťte tento kurz
+
+<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Závěrečná zkouška
+
+<chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Závěr
+
+<chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
+
+Gratulujeme k dokončení tohoto kurzu!
+
+Jsme rádi, že jste dosáhli tohoto důležitého milníku ve vaší vzdělávací cestě.
+
+Díky vaší oddanosti a nasazení jste získali cenné znalosti a dovednosti, které vám budou sloužit ve vašem profesním rozvoji.
+
+Pro další hlubší zkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
+
+#### Objevte Bitcoin a jeho základy s
+
+https://planb.network/courses/btc101
+
+#### Získejte a zabezpečte své první bitcoiny s
+
+https://planb.network/courses/btc102
+
+#### Aktualizujte svou online bezpečnost s
+
+https://planb.network/courses/scu101
+
+#### Objevte Lightning Network s
+
+https://planb.network/courses/lnp201
+
+#### Naučte se ekonomické myšlení Rakouské školy s
+
+https://planb.network/courses/eco201
+
+#### Pochopte základy Bitcoinu a postavte si domácí vytápění s
+
+https://planb.network/courses/min201

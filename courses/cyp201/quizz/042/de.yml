@@ -1,9 +1,9 @@
-question: Wenn ich eine 256-Bit Zufallszahl generiere, wie groß wird meine Wiederherstellungsphrase in Wörtern sein?
-answer: 24 Wörter.
+question: Was ist der Hauptunterschied zwischen einem PRNG und einem TRNG?
+answer: Der PRNG ist deterministisch, während der TRNG echte Zufallszahlen erzeugt.
 wrong_answers:
-  - 6 Wörter.
-  - 8 Wörter.
-  - 12 Wörter.
+  - Der PRNG ist schneller als der TRNG bei großen Zahlen.
+  - Der PRNG wird nur für Verschlüsselung verwendet, nicht der TRNG.
+  - Der PRNG verwendet private Schlüssel, der TRNG verwendet öffentliche Schlüssel.
 explanation: |
-  Eine 256-Bit Zufallszahl entspricht einer 24-Wort-Mnemonik-Phrase gemäß dem BIP39-Standard.
+  PRNGs sind deterministisch, was bedeutet, dass sie Sequenzen aus einem Anfangszustand reproduzieren können, im Gegensatz zu TRNGs.
 reviewed: false

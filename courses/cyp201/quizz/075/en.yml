@@ -1,9 +1,9 @@
-question: How to compress a public key?
-answer: We keep the value of its x-coordinate and add a prefix indicating which y-coordinate to choose.
+question: What derivation path is used for a SegWit v0 account in a standard descriptor?
+answer: 84h/0h/0h
 wrong_answers:
-  - We keep the value of its y-coordinate and add a prefix indicating which x-coordinate to choose.
-  - We hash the public key to compress it.
-  - We use a double SHA256 hash to compress the public key.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  The compression of a public key is done by keeping the x-coordinate and adding a prefix 0x02 or 0x03 to indicate whether y is even or odd.
+  The path 84h/0h/0h is defined in BIP84 for an account deriving SegWit v0 addresses with P2WPKH.
 reviewed: false

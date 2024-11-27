@@ -1,9 +1,9 @@
-question: ¿Cómo construir la frase de recuperación (mnemónica) en binario?
-answer: Concatena el número aleatorio con su suma de verificación al final.
+question: ¿Qué es la entropía en el contexto de la criptografía?
+answer: Una medida de imprevisibilidad asociada con un proceso aleatorio
 wrong_answers:
-  - Concatena el número aleatorio con su suma de verificación al principio.
-  - Concatena el número aleatorio con una semilla.
-  - Divide el número aleatorio en dos partes e inserta la suma de verificación en el medio.
+  - Un método para encriptar datos sensibles
+  - Un algoritmo para calcular claves públicas
+  - Una técnica de compresión de datos
 explanation: |
-  Para generar una frase mnemotécnica binaria, concatena la suma de verificación al final del número aleatorio antes de convertirlo en palabras.
+  En criptografía, la entropía cuantifica el nivel de incertidumbre o caos en una fuente aleatoria, esencial para generar claves seguras.
 reviewed: false

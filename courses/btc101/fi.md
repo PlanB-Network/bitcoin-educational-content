@@ -132,8 +132,6 @@ Jos haluat tutkia Bitcoinin historiaa tarkemmin, suosittelen lämpimästi kurssi
 
 https://planb.network/courses/his201
 
-
-
 # Raha
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -251,7 +249,6 @@ Jos haluat oppia lisää taloudellisista harhaluuloista ja vapaudesta, suosittel
 
 https://planb.network/courses/eco102
 
-
 ## Hyperinflaatio
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -335,7 +332,6 @@ Yhteenvetona voidaan todeta, että hyperinflaatio johtaa nopeasti valuutan arvon
 Jos haluat syventyä hyperinflaatioihin, suosittelen David St-Ongen ECO 204 -kurssia. Kurssilla opit, mitä hyperinflaatiokierrot ovat ja miten ne vaikuttavat elämäämme. Löydät myös näiden kierrosten samankaltaisuudet ja ennen kaikkea, kuinka suojautua niiltä:
 
 https://planb.network/courses/eco204
-
 
 ## 21 miljoonaa bitcoinia
 
@@ -495,7 +491,6 @@ Jos haluat matkallasi alas kaninkoloon oppia lisää Bitcoin-lompakon rakentamis
 
 https://planb.network/courses/cyp201
 
-
 ## Turvallisuus ja Bitcoin-lompakot
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -606,7 +601,6 @@ Kun kopiot on tehty, säilytä sanalistat turvallisessa paikassa, josta muistat 
 Jos haluat sen jälkeen vaihe vaiheelta oppia, kuinka perustaa oma lompakkosi ja hankkia ensimmäiset bitcoinisi, suosittelen myös tätä toista kurssia:
 
 https://planb.network/courses/btc102
-
 
 ## Kestää aikaa
 
@@ -1046,7 +1040,6 @@ https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
 
 https://planb.network/courses/btc305
 
-
 ### Nopea yhteenveto julisteessa!
 
 ![Alt-teksti](assets/posters/en/17._earn_your_bitcoin.webp)
@@ -1318,43 +1311,17 @@ Bitcoinia ei voi enää pysäyttää eikä sensuroida. Se on rauhanomainen valla
 
 Rahoitusjärjestelmän muuttaminen edellyttää valuutan muuttamista. Satoshi loi Bitcoinin vuonna 2008 ehdottaakseen yritystä tähän. Helppoon ja "taianomaiseen" rahaan pääsy turmelee. Bitcoin on siis vaihtoehto uuden neutraalin rahajärjestelmän rakentamiseen. Bitcoin mahdollistaa irtautumisen pankkijärjestelmästä. Se on sosiaalinen ilmiö, joka johdattaa meidät osallistumaan rauhanomaiseen vallankumoukseen. Oletko valmis liittymään?
 
-## Kiitokset ja jatka kaninkolon tutkimista
+# Yhteenveto
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Mene pidemmälle
-
-Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nautit siitä ja se avasi sinulle uusia ovia. Bitcoinin löytäminen on vasta alussa, ja kutsun sinut tutustumaan yliopistossa tarjolla oleviin muihin kursseihin.
-
-Bitcoin-suunnitelmasi laatimiseen:
-
-https://planb.network/courses/btc102
-
-Lightning Networkin, toisen kerroksen maksujärjestelmän, tutkimiseen:
-
-https://planb.network/courses/lnp201
-
-Itävaltalaisen taloustieteen oppimiseen:
-
-https://planb.network/courses/eco201
-
-Digitaalisen turvallisuutesi päivittämiseen:
-
-https://planb.network/courses/scu101
-
-Lisätietoja louhinnasta:
-
-https://planb.network/courses/min201
-
-ja paljon muuta...
-
-
-## Arvioi kurssi
+## Kurssin arviointi
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Loppukoe
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1362,7 +1329,24 @@ ja paljon muuta...
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Onnittelut kurssin suorittamisesta!**
+Onnittelut BTC 101 -koulutuksen suorittamisesta! Toivon sydämestäni, että pidit siitä ja se avasi sinulle uusia ovia. Bitcoin-matkasi on vasta alussa, ja kutsun sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
 
-Huomaathan, että tämä luku on parhaillaan työn alla, ja parannettu versio julkaistaan pian. Sillä välin, jos olet innokas jatkamaan Bitcoin-matkaasi, kutsumme sinut tutustumaan muihin alustamme kursseihin ja opetusmateriaaleihin. Jatka hyvää työtä ja hauskaa oppimista!
+#### Hanki ja turvaa ensimmäiset bitcoinisi kurssilla
 
+https://planb.network/courses/btc102
+
+#### Tutustu Lightning Networkiin kurssilla
+
+https://planb.network/courses/lnp201
+
+#### Tutustu itävaltalaiseen talousajatteluun kurssilla
+
+https://planb.network/courses/eco201
+
+#### Päivitä verkon turvallisuutesi kurssilla
+
+https://planb.network/courses/scu101
+
+#### Ymmärrä Bitcoinin perusteet ja rakenna kotisi lämmitysjärjestelmä kurssilla
+
+https://planb.network/courses/min201

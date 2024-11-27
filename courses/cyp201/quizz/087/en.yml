@@ -1,0 +1,9 @@
+question: What is the unique feature of SegWit v1 (P2TR) addresses compared to SegWit v0 addresses?
+answer: They directly use the raw public key in the address.
+wrong_answers:
+  - They are encoded in base58check.
+  - They require two signatures to be valid.
+  - They use the public key hash in the address.
+explanation: |
+  SegWit v1 (P2TR) addresses do not use a hash of the public key, but directly the Taproot public key.
+reviewed: false

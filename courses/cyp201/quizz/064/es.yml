@@ -1,9 +1,9 @@
-question: ¿Cuál es el rango de índice utilizado para las claves de hijo normales en una cartera HD?
-answer: Entre 0 y 2^31 - 1.
+question: ¿Cuál es la función principal de una clave extendida en un monedero HD?
+answer: Permitir la derivación de claves secundarias
 wrong_answers:
-  - Entre 0 y 2^32 - 1.
-  - Entre 0 y 2^31.
-  - Entre 2^31 y 2^32 - 1.
+  - Almacenar las transacciones del monedero
+  - Generar directamente los UTXOs
+  - Encriptar las claves públicas
 explanation: |
-  Las claves de hijo normales utilizan un rango de índice entre 0 y 2^31 - 1, mientras que las claves endurecidas tienen un índice que comienza desde 2^31.
+  Una clave extendida combina una clave (ya sea privada o pública) con un código de cadena asociado, es decir, los dos elementos necesarios para derivar claves secundarias.
 reviewed: false

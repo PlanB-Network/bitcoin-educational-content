@@ -1,9 +1,9 @@
-question: Qual è lo scopo dell'utilizzo delle firme digitali in Bitcoin?
-answer: Produrre una prova matematica che giustifichi che un utente è effettivamente in possesso di una chiave privata, senza rivelare tale chiave privata.
+question: Quale curva ellittica viene utilizzata nel protocollo Bitcoin?
+answer: secp256k1
 wrong_answers:
-  - Produrre una prova matematica che giustifichi che un utente è effettivamente in possesso di una chiave pubblica, senza rivelare tale chiave pubblica.
-  - Produrre una prova matematica che giustifichi che un utente è effettivamente in possesso di un indirizzo di ricezione, senza rivelare tale indirizzo di ricezione.
-  - Produrre una prova matematica che giustifichi che un utente è effettivamente in possesso di un portafoglio.
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  Le firme digitali in Bitcoin permettono di dimostrare che un utente possiede la chiave privata associata a una chiave pubblica senza rivelare tale chiave privata.
+  Bitcoin utilizza la curva secp256k1, definita dall'equazione y² = x³ + 7, per le sue operazioni crittografiche.
 reviewed: false

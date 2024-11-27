@@ -1,9 +1,9 @@
-question: Was ist das einzigartige Merkmal der Liste von 2048 Wörtern, das die mnemonische Kodierung ermöglicht?
-answer: Kein Wort hat die gleichen ersten vier Buchstaben in derselben Reihenfolge.
+question: Warum ist es riskant, Entropie manuell für ein HD-Wallet zu generieren?
+answer: Es kann menschliche Schwächen oder vorhersehbare Verzerrungen einführen
 wrong_answers:
-  - Kein Wort hat die gleichen letzten drei Buchstaben.
-  - Kein Wort beginnt mit dem Buchstaben „J“.
-  - Kein Wort ist länger als sechs Buchstaben.
+  - Es führt zu ungültigen öffentlichen Schlüsseln
+  - Es blockiert die Ableitung von privaten Schlüsseln
+  - Es begrenzt die Größe der generierten mnemonischen Phrasen
 explanation: |
-  Dieses Merkmal hilft, jegliche Mehrdeutigkeit bei der Eingabe der Wörter zu vermeiden, und gewährleistet so die Einzigartigkeit jedes Wortes in der Liste, während es gleichzeitig den notwendigen Speicherplatz reduziert.
+  Das manuelle Generieren von Entropie kann Verzerrungen oder Fehler einführen, wodurch die Schlüssel anfälliger für Angriffe werden.
 reviewed: false

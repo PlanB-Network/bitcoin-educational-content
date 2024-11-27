@@ -1,9 +1,8 @@
-question: Mis on Bitcoin'i privaatvõtme suurus?
-answer: 256 bitti.
+question: Mis on skalaarkorrutise peamine omadus elliptilistel kõveratel?
+answer: Ühesuunaline funktsioon
 wrong_answers:
-  - 512 baiti.
-  - 520 bitti.
-  - 512 bitti.
+  - Kergesti pööratav
+  - Põhineb algarvude tegurdamisel
+  - Väga pikk arvutada
 explanation: |
-  Bitcoin'i privaatvõtmel on standardne suurus 256 bitti, mis vastab Bitcoin'is kasutatavale elliptilise kõvera algoritmile.
-reviewed: false
+  Skalaarkorrutis elliptilistel kõveratel on ühesuunaline funktsioon, muutes võimatuks privaatvõtme taastamise avalikust võtmest.

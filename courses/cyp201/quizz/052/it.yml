@@ -1,9 +1,9 @@
-question: Qual è la funzione pseudo-casuale utilizzata in PBKDF2 per calcolare il seme di un portafoglio HD Bitcoin?
-answer: HMAC-SHA512.
+question: Qual è lo scopo dell'utilizzo di un portafoglio esca con una passphrase?
+answer: Simulare un portafoglio con una piccola quantità in caso di coercizione fisica
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Aggiungere un backup automatico delle transazioni
+  - Generare una frase mnemonica aggiuntiva
+  - Proteggere gli UTXO da una doppia spesa
 explanation: |
-  HMAC-SHA512 è la funzione pseudo-casuale utilizzata in PBKDF2 per generare il seme di un portafoglio HD Bitcoin.
+  Un portafoglio esca viene utilizzato per deviare l'attenzione di un attaccante fornendo l'accesso a un portafoglio che contiene una piccola quantità di bitcoin.
 reviewed: false

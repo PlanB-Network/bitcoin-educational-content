@@ -1,9 +1,8 @@
-question: Để thực hiện việc dẫn xuất một cặp khóa con bình thường, tôi phải nhập vào hàm HMAC-SHA512...
-answer: khóa công khai của cha mẹ || chỉ số, mã chuỗi của cha mẹ.
+question: Khóa công khai mở rộng cho phép suy ra những gì?
+answer: Chỉ các khóa công khai con bình thường
 wrong_answers:
-  - khóa riêng của cha mẹ || chỉ số, mã chuỗi của cha mẹ.
-  - khóa riêng của cha mẹ, mã chuỗi của cha mẹ.
-  - khóa riêng của cha mẹ || chỉ số.
+  - Chỉ các khóa riêng tư con bình thường
+  - Cả khóa công khai con cứng và bình thường
+  - Cả khóa riêng tư con cứng và bình thường
 explanation: |
-  Để dẫn xuất một khóa con bình thường, khóa công khai của cha mẹ được sử dụng với chỉ số và mã chuỗi trong hàm HMAC-SHA512.
-reviewed: false
+  Một khóa công khai mở rộng chỉ cho phép suy ra các khóa công khai con bình thường, không phải khóa riêng tư hoặc khóa cứng.

@@ -1,8 +1,8 @@
-question: PBKDF2在计算比特币HD钱包的种子时使用的伪随机函数是什么？
-answer: HMAC-SHA512。
+question: 使用带有密码短语的诱饵钱包的目的是什么？
+answer: 为了在遭受身体胁迫时模拟一个只有少量资金的钱包
 wrong_answers:
-  - HMAC-SHA256。
-  - HMAC-SHA1。
-  - SHA3-512。
-explanation:
-  HMAC-SHA512是PBKDF2用来生成比特币HD钱包种子的伪随机函数。
+  - 添加交易的自动备份
+  - 生成额外的助记词短语
+  - 保护UTXOs免受双重支付的影响
+explanation: |
+  诱饵钱包的用途是通过提供一个只包含少量比特币的钱包，来转移攻击者的注意力。

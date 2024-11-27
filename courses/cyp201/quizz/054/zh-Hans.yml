@@ -1,8 +1,9 @@
-question: 要计算主密钥和主链代码的值，HMAC-SHA512函数的第一个输入是种子。这个函数的第二个输入值是什么，作为一个密钥？
-answer: “Bitcoin seed”。
+question: 比特币HD钱包中的密码短语主要扮演什么角色？
+answer: 修改密钥派生以增强安全性
 wrong_answers:
-  - 助记词组。
-  - 密码短语。
-  - “Seed”。
-explanation:
-  字符串“Bitcoin seed”在HMAC-SHA512中用作密钥，以从种子派生主密钥和主链代码。
+  - 解密待处理的交易
+  - 生成钱包的UTXOs
+  - 用面部ID保护钱包访问
+explanation: |
+  密码短语作为第二安全因素，通过改变密钥派生种子来防止在助记词被泄露的情况下访问钱包。
+reviewed: false

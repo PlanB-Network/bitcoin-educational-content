@@ -1,9 +1,9 @@
-question: Pokud vygeneruji 128bitové náhodné číslo, jaká bude velikost mé obnovovací fráze ve slovech?
-answer: 12 slov.
+question: Jaké je hlavní riziko používání špatně navrženého PRNG pro generování entropie?
+answer: Soukromé klíče by mohly být uhodnuty útočníkem
 wrong_answers:
-  - 6 slov.
-  - 8 slov.
-  - 24 slov.
+  - Mnemonická fráze by mohla obsahovat nesprávná slova
+  - Digitální podpisy by se staly neplatnými
+  - Bitcoinové adresy by nebyly kompatibilní se sítí
 explanation: |
-  128bitové náhodné číslo odpovídá 12slovní mnemonické frázi, podle standardu BIP39.
+  Špatně navržený PRNG může produkovat předvídatelné sekvence, což klíče činí více zranitelnými vůči útokům.
 reviewed: false

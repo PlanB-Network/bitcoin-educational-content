@@ -1,9 +1,9 @@
-question: Wo werden private Schlüssel gespeichert?
-answer: In Bitcoin-Wallets
+question: Warum wurde die elliptische Kurve secp256r1 nicht in Bitcoin verwendet?
+answer: Möglicherweise, um eine Hintertür zu vermeiden
 wrong_answers:
-  - Auf der Blockchain
-  - Auf Bitcoin-Community-Servern.
-  - Im Peer-to-Peer-Netzwerk.
+  - Weil sie zu langsam ist
+  - Weil sie nicht standardisiert ist
+  - Weil sie spezialisierte Hardware benötigt
 explanation: |
-  Das Wallet enthält die privaten Schlüssel, die notwendig sind, um auf Bitcoins zuzugreifen.
+  Satoshi Nakamoto bevorzugte wahrscheinlich die secp256k1-Kurve, da die Parameter von secp256r1 eine versteckte Schwachstelle enthalten könnten.
 reviewed: false

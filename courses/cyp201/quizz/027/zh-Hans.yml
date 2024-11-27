@@ -1,8 +1,8 @@
-question: 在本章以ECDSA为例的数字签名过程中，点V代表什么？
-answer: 由随机数v和生成点G计算出的点（V = v.G）。
+question: SegWit修正了ECDSA签名的哪个漏洞？
+answer: 可变性
 wrong_answers:
-  - 直接从公钥派生的点。
-  - 已签名消息的哈希值。
-  - 椭圆曲线上两点相加的结果。
-explanation:
-  V是在椭圆曲线上将随机数乘以生成点计算的结果。
+  - 批量验证
+  - 缺乏聚合
+  - 签名过大
+explanation: |
+  SegWit修正了ECDSA签名的可变性，使得像闪电网络这样的应用成为可能。

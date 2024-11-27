@@ -1,8 +1,9 @@
-question: Qual è la variabile che permette di differenziare le coppie di chiavi fratelli l'una dall'altra (che hanno la stessa coppia genitore)?
-answer: L'indice.
+question: Qual è la dimensione totale di una chiave estesa con il checksum?
+answer: 82 byte
 wrong_answers:
-  - Il sale crittografico.
-  - Il primo nome.
-  - Il codice catena genitore.
+  - 78 byte
+  - 64 byte
+  - 128 byte
 explanation: |
-  L'indice viene utilizzato per differenziare le coppie di chiavi fratelli derivate dalla stessa coppia genitore in un portafoglio HD.
+  Una chiave estesa è di 78 byte senza il checksum e di 82 byte con il checksum incluso.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Was ist der Zweck einer externen Kette im Ableitungsprozess?
-answer: Adressen zu isolieren, die öffentlich sein sollen.
+question: Was ist die Einschränkung für die Ableitung eines Kind-Öffentlichen-Schlüssels von einem Eltern-Öffentlichen-Schlüssel?
+answer: Der Kind-Schlüssel muss normal sein
 wrong_answers:
-  - Adressen für Wechselgeld zu isolieren.
-  - Eingehende Transaktionen zu verwalten.
-  - Private Schlüssel von öffentlichen Schlüsseln zu trennen.
+  - Der Kind-Schlüssel muss gehärtet sein
+  - Der Ketten-Code muss identisch mit dem des Eltern-Schlüssels sein
+  - Der Prozess muss den Eltern-Privatschlüssel beinhalten
 explanation: |
-  Die externe Kette wird verwendet, um Adressen abzuleiten, die öffentlich sein sollen, wie zum Beispiel solche für den Zahlungsempfang.
+  Ein Kind-Öffentlicher-Schlüssel kann nur von einem Eltern-Öffentlichen-Schlüssel abgeleitet werden, wenn er normal und nicht gehärtet ist.
 reviewed: false

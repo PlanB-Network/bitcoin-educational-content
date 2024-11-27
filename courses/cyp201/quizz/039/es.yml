@@ -1,9 +1,9 @@
-question: ¿Cuáles son las características de un PRNG criptográficamente seguro?
-answer: Debe ser impredecible, estadísticamente aleatorio y resistente a ataques.
+question: ¿Cuál es la función principal de un monedero de Bitcoin?
+answer: Gestionar y asegurar las claves privadas
 wrong_answers:
-  - Debe ser rápido, utilizable en la nube y de código abierto.
-  - Debe ser no determinista, basado en un fenómeno físico y escalable.
-  - Debe ser basado en hardware, generado por un procesador y reversible.
+  - Almacenar los bitcoins del usuario
+  - Garantizar automáticamente la confidencialidad de las transacciones
+  - Generar bitcoins para cada usuario
 explanation: |
-  Un PRNG criptográficamente seguro debe ser impredecible, resistente incluso si se revelan algunos resultados y tener un período suficientemente largo para evitar la repetición de secuencias.
+  Un monedero de Bitcoin no almacena directamente los bitcoins, sino que gestiona las claves privadas necesarias para desbloquear los UTXOs que representan los bitcoins.
 reviewed: false

@@ -1,8 +1,8 @@
-question: Mikä on ulkoisen ketjun tarkoitus johdannaisprosessissa?
-answer: Eristää julkiseen käyttöön tarkoitetut osoitteet.
+question: Mikä on rajoite lapsen julkisen avaimen johdattamiselle vanhemman julkisesta avaimesta?
+answer: Lapsen avaimen tulee olla normaali
 wrong_answers:
-  - Eristää vaihto-osoitteet.
-  - Hallita saapuvia transaktioita.
-  - Eristää yksityiset avaimet julkisista avaimista.
+  - Lapsen avaimen tulee olla vahvistettu
+  - Ketjukoodin tulee olla identtinen vanhemman avaimen kanssa
+  - Prosessin tulee sisältää vanhemman yksityinen avain
 explanation: |
-  Ulkoista ketjua käytetään johdettavien osoitteiden eristämiseen julkiseen käyttöön, kuten maksujen vastaanottamiseen tarkoitetut osoitteet.
+  Lapsen julkinen avain voidaan johtaa vanhemman julkisesta avaimesta vain, jos se on normaali, ei vahvistettu.

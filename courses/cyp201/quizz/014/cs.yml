@@ -1,9 +1,9 @@
-question: Která funkce se používá k odvození dětského klíče od rodičovského klíče v Bitcoinu?
-answer: HMAC-SHA512.
+question: Kolik iterací používá PBKDF2 v Bitcoinu?
+answer: 2048
 wrong_answers:
-  - SHA256.
-  - MD5.
-  - BLAKE2.
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  Funkce HMAC-SHA512 se používá k odvození dětských klíčů od rodičovských klíčů v Bitcoin HD peněženkách.
+  PBKDF2 opakuje proces HMAC-SHA512 2048krát, aby zvýšil bezpečnost.
 reviewed: false

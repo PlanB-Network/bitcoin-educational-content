@@ -1,9 +1,8 @@
-question: Kuidas valida tõhusat paroolilauset?
-answer: See peaks olema pikk, mitmekesine ja juhuslik, ilma seoseta kasutajaga.
+question: Mis on mnemoonilise fraasi eesmärk Bitcoin HD rahakotis?
+answer: Kõikide võtmete deterministlik tuletamine
 wrong_answers:
-  - See peaks olema kergesti meeldejääv ja seotud kasutaja keskkonnaga.
-  - See peaks olema lühike, kuid sisaldama numbreid.
-  - See peaks sisaldama vähemalt 10 numbrit.
+  - Tehingute otse allkirjastamiseks
+  - Bitcoin aadresside krüpteerimiseks
+  - UTXO-de jaoks räsi genereerimiseks
 explanation: |
-  Tõhus paroolilause peaks olema pikk (20 kuni 40 tähemärki), mitmekesine ja juhuslik, et tagada maksimaalne turvalisus, sarnaselt heale salasõnale.
-reviewed: false
+  Mnemooniline fraas võimaldab kõikide privaat- ja avalike võtmete tuletamist rahakotis, hõlbustades seeläbi varundamist ja taastamist.

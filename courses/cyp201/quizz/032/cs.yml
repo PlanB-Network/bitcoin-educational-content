@@ -1,9 +1,9 @@
-question: Který BIP (Bitcoin Improvement Proposal) navrhl první verzi HD peněženky na Bitcoinu?
-answer: BIP32.
+question: Který příznak sighash umožňuje crowdfunding pokrývající jediný vstup a všechny výstupy?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32, navržený v roce 2012, je první, který představil koncept hierarchických deterministických (HD) peněženek v Bitcoinu.
+  Kombinace SIGHASH_ALL s SIGHASH_ANYONECANPAY umožňuje přidávání vstupů bez modifikace výstupů.
 reviewed: false

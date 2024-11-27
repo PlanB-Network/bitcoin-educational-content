@@ -1,9 +1,9 @@
-question: Mikä muuttuja mahdollistaa sisaravainparien erottamisen toisistaan (kun ne ovat peräisin samasta vanhempainparista)?
-answer: Indeksi.
+question: Mikä on laajennetun avaimen kokonaiskoko tarkistussumman kanssa?
+answer: 82 tavua
 wrong_answers:
-  - Kryptografinen suola.
-  - Etunimi.
-  - Vanhempainketjun koodi.
+  - 78 tavua
+  - 64 tavua
+  - 128 tavua
 explanation: |
-  Indeksiä käytetään erottamaan sisaravainparit, jotka on johdettu samasta vanhempainparista HD-lompakossa.
+  Laajennettu avain on 78 tavua ilman tarkistussummaa ja 82 tavua tarkistussumman kanssa mukana.
 reviewed: false

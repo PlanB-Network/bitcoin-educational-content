@@ -1,8 +1,9 @@
-question: Em qual sistema numérico a chave estendida é geralmente codificada para ser apresentada ao usuário?
-answer: Em Base 58.
+question: Qual é o papel da semente em uma carteira HD Bitcoin?
+answer: Servir como ponto de partida para a derivação de todas as chaves
 wrong_answers:
-  - Em bech32.
-  - Em Base 16.
-  - Em bech32m.
+  - Armazenar as transações da carteira
+  - Gerar diretamente a chave pública mestra
+  - Garantir a confidencialidade da transação
 explanation: |
-  A chave estendida é geralmente codificada em Base 58 para ser mais legível para o usuário e evitar caracteres ambíguos.
+  A semente é uma sequência de 512 bits derivada da frase mnemônica e da senha. Ela forma a base de todas as chaves na carteira.
+reviewed: false

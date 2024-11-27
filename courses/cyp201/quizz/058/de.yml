@@ -1,9 +1,9 @@
-question: Welche Metadaten werden zusätzlich zu seinem Payload zum erweiterten Schlüssel hinzugefügt?
-answer: Version / Tiefe / Eltern-Fingerprint / Index / Prüfsumme.
+question: Welche Funktion wird verwendet, um den Seed aus der mnemonischen Phrase abzuleiten?
+answer: PBKDF2 mit HMAC-SHA512
 wrong_answers:
-  - Version / Index.
-  - Version / Tiefe / Trennzeichen / Prüfsumme.
-  - Es werden keine Metadaten hinzugefügt.
+  - SHA256 allein
+  - Doppeltes SHA256
+  - AES-256
 explanation: |
-  Der erweiterte Schlüssel beinhaltet mehrere Metadaten. Dazu gehören die Version, Tiefe, Eltern-Fingerprint, Index und Prüfsumme, um die Schlüsselableitung zu erleichtern.
+  Der Seed wird mit der Funktion PBKDF2 mit HMAC-SHA512 und 2048 Iterationen aus der mnemonischen Phrase und der Passphrase generiert.
 reviewed: false

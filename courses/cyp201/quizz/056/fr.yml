@@ -1,9 +1,9 @@
-question: Quel est l'intérêt de la clé étendue ?
-answer: Rassembler en une seule chaîne de caractères l'ensemble des informations nécessaires à la dérivation de clés enfants.
+question: Quelle constante est utilisée pour dériver la clé privée maîtresse depuis la graine ?
+answer: Bitcoin Seed
 wrong_answers:
-  - Rassembler en une seule chaîne de caractères l'ensemble des informations nécessaires à la reconstruction de tout un portefeuille HD.
-  - Rassembler des informations sur les UTXOs dans le portefeuille.
-  - Rassembler la phrase mnémonique et la passphrase dans un seul format.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Une clé étendue permet de contenir toutes les informations nécessaires pour dériver des clés enfants, ce qui simplifie ainsi la gestion des comptes d'un portefeuilles HD.
+  La constante Bitcoin Seed est utilisée comme clé dans la fonction HMAC-SHA512 pour dériver la clé privée maîtresse et le code de chaîne maître.
 reviewed: false

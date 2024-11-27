@@ -1,8 +1,9 @@
-question: SHA256ハッシュ関数の構造は何と呼ばれていますか？
-answer: Merkle-Damgard Construction.
+question: SHA256が任意の長さのメッセージを処理するために使用する構造は何ですか？
+answer: メルクル-ダムゴード構造
 wrong_answers:
-  - Sponge Construction.
-  - Iterative Hash Functions Construction (HAIFA).
-  - Feistel Construction.
+  - ユークリッド構造
+  - リベスト-シャミア-アドルマン構造
+  - クヌース-モリス-プラット構造
 explanation: |
-  SHA256は、安全なハッシュ関数を作成するために一般的に使用されるMerkle-Damgard Constructionという構造を使用しています。
+  メルクル-ダムゴード構造は、圧縮関数を可変長メッセージのハッシュ関数に変換することを可能にします。
+reviewed: false

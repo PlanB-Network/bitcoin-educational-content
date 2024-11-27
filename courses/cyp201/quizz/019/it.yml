@@ -1,9 +1,9 @@
-question: Qual è la curva ellittica più nota utilizzata nei sistemi crittografici?
-answer: secp256r1.
+question: Quale operazione matematica è alla base della sicurezza della crittografia a curve ellittiche?
+answer: Problema del logaritmo discreto
 wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
+  - Fattorizzazione di numeri primi
+  - Calcolo dei residui quadratici
+  - Problema del cubo discreto
 explanation: |
-  La curva ellittica secp256r1 è ampiamente utilizzata in molti sistemi crittografici, ma Bitcoin utilizza la curva secp256k1.
+  La sicurezza della crittografia a curve ellittiche si basa sulla difficoltà di risolvere il problema del logaritmo discreto su queste curve.
 reviewed: false

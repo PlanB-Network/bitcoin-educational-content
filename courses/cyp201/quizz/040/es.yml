@@ -1,8 +1,9 @@
-question: ¿Cuál es la característica única de la lista de 2048 palabras que permite la codificación mnemotécnica?
-answer: Ninguna palabra tiene las mismas primeras cuatro letras en el mismo orden.
+question: ¿Por qué es riesgoso generar entropía manualmente para un monedero HD?
+answer: Puede introducir debilidades humanas o sesgos predecibles
 wrong_answers:
-  - Ninguna palabra tiene las mismas últimas tres letras.
-  - Ninguna palabra comienza con la letra J.
-  - Ninguna palabra tiene más de seis letras de longitud.
+  - Resulta en claves públicas inválidas
+  - Bloquea la derivación de claves privadas
+  - Limita el tamaño de las frases mnemotécnicas generadas
 explanation: |
-  Esta característica ayuda a evitar cualquier ambigüedad al ingresar las palabras, asegurando así la unicidad de cada palabra en la lista, al mismo tiempo que reduce el espacio de almacenamiento necesario.
+  Generar entropía manualmente puede introducir sesgos o errores, haciendo las claves más vulnerables a ataques.
+reviewed: false

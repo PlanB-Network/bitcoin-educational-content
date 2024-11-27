@@ -20,9 +20,11 @@ For å hjelpe deg med å starte dette eventyret, har jeg laget dette gratis kurs
 +++
 
 # Introduksjon og forutsetninger for å forstå Bitcoin
+
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
 ## Introduksjon til BTC102-kurset
+
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Velkommen til BTC 102! Et praktisk kurs som vil veilede deg i å sette opp din Bitcoin-plan! Gjennom dette kurset vil vi forberede oss på å få dine første bitcoins, sikre dem ordentlig, og sikre en smidig inngang i denne nye industrien.
@@ -44,9 +46,11 @@ Som du kan se, er formålet med denne opplæringen å følge deg slik at du fra 
 Lykke til :)
 
 ## Svindel og finansielle bedragerier
+
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 Vi er i en industri hvor to hovedgrener dukker opp i "kryptovaluta"-sektoren:
+
 1. Bitcoin-industrien, fokusert på en solid valuta gjennom et desentralisert verdioverføringsprotokoll (Bitcoin). Den verdsetter personvern og individuell suverenitet og bygger gradvis opp langsiktige prosjekter med høy grad av motstandsdyktighet og sikkerhet.
 2. Den globale kryptovalutaindustrien, orientert mot fintech, "blockchain" og andre sentraliserte innovasjoner. Den utvikler seg raskt og prøver å posisjonere seg som den nye trenden.
 
@@ -87,8 +91,8 @@ Pump and Dump-strategien følger typisk et veldefinert mønster:
 
 1. En meningsleder eller en gruppe investorer kjøper først et stort antall målrettede aksjer eller andre eiendeler.
 2. De skaper deretter hype rundt disse eiendelene og sprer overdrevet eller villedende informasjon for å tiltrekke seg andre investorer. 3. Denne hypen utløser FOMO (Fear Of Missing Out) blant menneskelige investorer og investeringsroboter, som begynner å kjøpe disse eiendelene i stor skala.
-4. Når prisen har økt nok, selger lederne sine eiendeler i bulk, og gjør dermed en betydelig fortjeneste.
-5. Det massive salget fører til et kraftig fall i prisen på eiendelen, og etterlater mange investorer med betydelige tap.
+3. Når prisen har økt nok, selger lederne sine eiendeler i bulk, og gjør dermed en betydelig fortjeneste.
+4. Det massive salget fører til et kraftig fall i prisen på eiendelen, og etterlater mange investorer med betydelige tap.
 
 Det er viktig å forstå at deltakelse i slike strategier er ulovlig og kan resultere i anklager om markedsmanipulasjon. I tillegg er disse strategiene ofte orkestrert av innflytelsesrike grupper som krever medlemsavgifter. Selv om noen deltakere kan oppnå kortsiktige gevinster, er Pump and Dump-strategier generelt ikke lønnsomme på lang sikt.
 Derfor anbefales det å fokusere på finansiell utdanning og ansvarlig investering, i stedet for å bli lokket av slike manipulative taktikker. Å tilegne seg solid kunnskap og å adoptere en langsiktig tilnærming er essensielle nøkler til suksess i investeringsverdenen.
@@ -145,9 +149,11 @@ Det er viktig å merke seg at alle har en agenda, inkludert meg selv. Jeg tror p
 Husk alltid at ikke alle nødvendigvis vil være transparente om sine intensjoner. Still alltid spørsmål ved formålet med noens handlinger og ikke stol blindt på dem.
 
 ## Online Sikkerhet
+
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 I tillegg til svindel med kryptovaluta og finansiell svindel, er hovedårsaken til tap av bitcoins relatert til dårlig håndtering av online sikkerhet. Det skjer ofte at folk bruker samme passord for alle sine kontoer, glemmer å oppdatere datamaskinen sin, og forsømmer å jevnlig ta sikkerhetskopi av dataene sine. Hvis du er bekymret for disse praksisene, ikke bekymre deg, det er alltid mulig å forbedre dine online sikkerhetsvaner. Her er noen grunnleggende tiltak å implementere:
+
 - Bruk en passordbehandler (se LastPass-opplæringen),
 - Aktiver tofaktorautentisering (2FA),
 - Hold datamaskinen din oppdatert og fri for skadelig programvare,
@@ -188,6 +194,7 @@ Online anonymitet er essensielt for et fritt og velstående samfunn. Det muliggj
 Igjen, hvis du er interessert i dette emnet, er SECU 101-treningen tilgjengelig for å veilede deg.
 
 ## Tips for Nybegynnere
+
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Formell utdanning lærer oss svært lite om investering. Som et resultat, vandrer vi ofte alene inn i dette nye og komplekse investeringslandskapet.
@@ -205,15 +212,15 @@ I denne delen vil vi se på noen vanlige feil som nybegynnere gjør når de går
 ![passordbehandler](assets/prerequis/0.webp)
 Før du dykker inn i Bitcoin-investering, er det essensielt å ta deg tid til å utdanne deg selv. Det er lett å gjøre feil i Bitcoin-industrien, og hver feil kan være kostbar. Ved å dele noen av fallgruvene jeg har støtt på i min investeringsreise, samt de jeg har observert hos andre, håper jeg å gi verdifull rådgivning for å navigere i dette rommet. Noen av disse feilene inkluderer:
 
-| Tekniske Problemer                                     | Finansielle Problemer                                         |
-| ------------------------------------------------------ | -------------------------------------------------------------- |
-| Tap av en privat nøkkel                                | Overinvestering                                                |
-| Å betro forvaltningen av dine midler til en tredjepart | Mangel på finansiell utdannelse                                |
-| Mangel på personvern                                   | Investering med lånte penger                                   |
-| Problemer med nettsikkerhet                            | Ikke å forstå forskjellen mellom handel og investering        |
-| Feilhåndtering                                         | Ignorering av skatteimplikasjoner                              |
-| Dataproblemer                                          | Ikke å vurdere investeringstidslinjer                          |
-| Tap av BTC på grunn av hacking                         | Å falle for finansiell svindel og lureri                       |
+| Tekniske Problemer                                     | Finansielle Problemer                                  |
+| ------------------------------------------------------ | ------------------------------------------------------ |
+| Tap av en privat nøkkel                                | Overinvestering                                        |
+| Å betro forvaltningen av dine midler til en tredjepart | Mangel på finansiell utdannelse                        |
+| Mangel på personvern                                   | Investering med lånte penger                           |
+| Problemer med nettsikkerhet                            | Ikke å forstå forskjellen mellom handel og investering |
+| Feilhåndtering                                         | Ignorering av skatteimplikasjoner                      |
+| Dataproblemer                                          | Ikke å vurdere investeringstidslinjer                  |
+| Tap av BTC på grunn av hacking                         | Å falle for finansiell svindel og lureri               |
 
 Uavhengig av ditt utdannelsesnivå eller bakgrunn, kan hvem som helst forstå og bruke Bitcoin. Du trenger ikke å ha erfaring fra finans eller koding. Som 90% av folkene, kan du ganske enkelt bruke Bitcoin på en enkel måte.
 
@@ -238,16 +245,16 @@ Som med enhver investering, trenger du å kjenne markedet ditt. Bitcoin er veldi
 Når du blir mer komfortabel med Bitcoin, kan du se over handlingsplanen din. På samme måte, hvis du er ny i denne verdenen, er det viktig å forstå forskjellene mellom trading, langsiktig investering, og en veldig, veldig langsiktig strategi brukt av mange Bitcoinere kalt "hold".
 Generelt:
 
-|                   | Trading    | Investering       | Holding        |
-| ----------------- | ---------- | ----------------- | -------------- |
-| Giring            | Ja         | Nei               | Nei            |
-| Tidsramme         | Kort sikt  | Kort/mellomlang sikt | Veldig lang sikt |
-| Aktivatype        | Kontrakt   | BTC               | BTC            |
-| Risiko            | Veldig høy | Høy               | Høy            |
-| Vanskelighetsgrad | Veldig vanskelig | Vanskelig      | Vanskelig      |
-| Læringskurve      | Lang       | Lang              | Lang           |
-| Potensielle tap   | Ubegrenset | Begrenset         | Begrenset      |
-| Mer egnet for     | Noen       | De fleste         | Noen           |
+|                   | Trading          | Investering          | Holding          |
+| ----------------- | ---------------- | -------------------- | ---------------- |
+| Giring            | Ja               | Nei                  | Nei              |
+| Tidsramme         | Kort sikt        | Kort/mellomlang sikt | Veldig lang sikt |
+| Aktivatype        | Kontrakt         | BTC                  | BTC              |
+| Risiko            | Veldig høy       | Høy                  | Høy              |
+| Vanskelighetsgrad | Veldig vanskelig | Vanskelig            | Vanskelig        |
+| Læringskurve      | Lang             | Lang                 | Lang             |
+| Potensielle tap   | Ubegrenset       | Begrenset            | Begrenset        |
+| Mer egnet for     | Noen             | De fleste            | Noen             |
 
 Og her er mine anbefalinger:
 
@@ -276,9 +283,11 @@ Hvis du mister nøkkelen din, mister du også pengene dine. Det er best å følg
 Lykke til! Jeg håper du vil følge meg inn i verden av Bitcoin og la meg veilede deg i å skaffe og sikre dine første Bitcoins uten å ta risikoer!
 
 # Forstå hva vi begir oss ut på
+
 <partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 ## Bitcoin på 5 minutter
+
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 I dette kurset ønsker vi å fokusere på handlingsplanen for å skaffe dine første bitcoins. Hvis du ønsker en grundig forklaring på grunnleggende om Bitcoin, anbefaler vi BTC 101, tilgjengelig gratis på denne plattformen.
@@ -308,6 +317,7 @@ Hvis dette er nytt for deg, oppfordrer jeg deg sterkt til å følge BTC 101 før
 ![i et nøtteskall](assets/section2/10.webp)
 
 ## Hvorfor er Bitcoin viktig?
+
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Hvorfor er betydningen av Bitcoin så avgjørende? Dette er det sentrale spørsmålet ved dette universitetet. Enten det gjelder studiene dine eller investeringsstrategien din, uten en klar forståelse av Bitcoins betydning, risikerer du å avvike fra handlingsplanen din. Målet er derfor å alltid ha i tankene grunnprinsippene til Bitcoin, for å sikre at strategien din forblir i tråd med dine overbevisninger.
@@ -339,6 +349,7 @@ Bitcoin gir hvert individ en sjanse til å forlate dette systemet. Det er et eti
 
 ![i et nøtteskall](assets/section2/3.webp)
 Forverringen av formuesulikhetene i verden har ført til en økning i ekstremisme, som noen ganger har resultert i etableringen av diktatoriske regimer. Uansett hvem du er, kan det komme en dag hvor du trenger privatliv for å beskytte din familie, deg selv og dine sparepenger. Hvor kunne du gjemme dine eiendeler hvis du var politisk truet?
+
 - Bankkontoen din kan fryses, beslaglegges eller tømmes.
 - Gull er vanskelig å dele, komplisert å transportere og bruke.
 - Kontanter er klumpete, lett å stjele og utsatt for inflasjon.
@@ -377,6 +388,7 @@ De viktigste promotørene av Bitcoin i dag er fortsatt hovedsakelig cyberpunks, 
 Bitcoin har en sterkt filosofisk, etisk, og politisk dimensjon, samtidig som den er fullstendig likegyldig til disse betraktningene. Faktisk er Bitcoin et enkelt protokoll som reproduserer den samme prosessen om og om igjen. Det er brukerne som har gjort den til et frigjøringsvåpen mot det nåværende finanssystemet. Fra et Cyberpunk-perspektiv, motsier Bitcoin et kontantløst samfunn. Den muliggjør skapelsen av fullstendig private og mellommannsfrie digitale finanstransaksjoner. For cyberpunk-bevegelsen er Bitcoin det elektroniske ekvivalenten av kontanter.
 
 ## Forståelse av Bitcoin-industrien
+
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 Med ankomsten av Bitcoin i 2009 av Satoshi Nakamoto, ble en milliardindustri født. Til tross for sin ungdom, har denne industrien opplevd eksponentiell vekst det siste tiåret. Nye aktører ankommer hver dag med store summer penger og er klare til å kraftfullt entre denne nye industrien. I dag har industrien nådd et punkt uten retur hvor regjeringer, banker, internettgiganter og andre har sluttet seg til bevegelsen med ulike intervensjoner.
@@ -390,16 +402,16 @@ I denne seksjonen vil vi ta en rask oversikt over aktørene for bedre å forstå
 Det er mulig for hvem som helst å designe sin egen kryptovaluta - en oppgave som bare tar noen minutter. Imidlertid vil verdien av denne tokenen utelukkende bli bestemt av markedet. I desember 2019 var over 5000 tokens oppført på Coinmarketcap. I dag, i 2023, har dette tallet økt til over 23 000, med NFT-er, DeFi, og mange andre ting. Disse kryptografiske tokenene kan ta forskjellige former: valuta, sikkerhetstoken, drivstoff for et økosystem, sidekjede, digital kunst, osv.
 Det er avgjørende å forstå at 99,8% av disse nye "kryptovalutaene" er svindel, opprettet av markedsførere med mål om å stjele dine bitcoins. Imidlertid blant de sjeldne 0,2% av seriøse prosjekter, blir det gjort betydelig innsats for å fremme, eksperimentere og utvikle innovative teknologier som kan bringe mange fordeler til brukerne. Over tid vil sektoren forbedre seg, og gi opphav til legitime selskaper som tilbyr ekte produkter. Spørsmålet om dette vil skje på blockchains andre enn Bitcoin, forblir åpent. For nå er en ting sikkert: Bitcoin er den eneste virkelig desentraliserte, sensurresistente, frie og seriøse kryptovalutaen som rettferdiggjør tusenvis av arbeidstimer.
 
-| Egenskap          | Bitcoin                  | Alt-Coin (99,9% av dem) |
-| ----------------- | ------------------------ | ------------------------ |
-| Likviditet        | Høy                      | Lav                      |
-| Adopsjon (ekte)   | Høy og global            | Lav                      |
-| Team              | Robust og desentralisert | Svakt og sentralisert    |
-| Omdømme           | Høyt og globalt          | Lavt                     |
-| Infrastruktur     | Robust og stabil         | Svakt                    |
-| Desentralisering  | Ja                       | Nei                      |
-| Svindel?          | Nei                      | Sannsynligvis            |
-| Verdi?            | Ja                       | Diskuterbart             |
+| Egenskap         | Bitcoin                  | Alt-Coin (99,9% av dem) |
+| ---------------- | ------------------------ | ----------------------- |
+| Likviditet       | Høy                      | Lav                     |
+| Adopsjon (ekte)  | Høy og global            | Lav                     |
+| Team             | Robust og desentralisert | Svakt og sentralisert   |
+| Omdømme          | Høyt og globalt          | Lavt                    |
+| Infrastruktur    | Robust og stabil         | Svakt                   |
+| Desentralisering | Ja                       | Nei                     |
+| Svindel?         | Nei                      | Sannsynligvis           |
+| Verdi?           | Ja                       | Diskuterbart            |
 
 Ikke fall for fraser som:
 
@@ -414,13 +426,13 @@ Det er essensielt å gjøre din egen forskning hvis du bestemmer deg for å dykk
 
 Etter ICO-boblen i 2017 begynte mange store aktører å utvikle sine egne databaser ved hjelp av "blockchain". Regjeringer og sentralbanker utforsker muligheten for å skape en digital versjon av sin fiatvaluta (Sverige, Europa, Russland, Kina, osv.). Teknologigiganter slutter seg også til dette kappløpet. Facebook har lansert sitt eget stablecoin-prosjekt kalt "Libra". Alternativer til "blockchain" blir eksperimentert med av banker, selskaper og andre teknologigiganter med løsninger som Linux eller IBM "Hyperledger".
 
-| Egenskap              | Bitcoin | Alt-coin | Facebook-coin | Fed-coin |
-| --------------------- | ------- | -------- | ------------- | -------- |
-| Offentlig             | Ja      | Varierer | Nei           | Nei      |
-| Åpen                  | Ja      | Varierer | Nei           | Nei      |
-| Grenseløs             | Ja      | Varierer | Nei           | Nei      |
-| Nøytral               | Ja      | Varierer | Nei           | Nei      |
-| Motstandsdyktig mot sensur | Ja  | Varierer | Nei           | Nei      |
+| Egenskap                   | Bitcoin | Alt-coin | Facebook-coin | Fed-coin |
+| -------------------------- | ------- | -------- | ------------- | -------- |
+| Offentlig                  | Ja      | Varierer | Nei           | Nei      |
+| Åpen                       | Ja      | Varierer | Nei           | Nei      |
+| Grenseløs                  | Ja      | Varierer | Nei           | Nei      |
+| Nøytral                    | Ja      | Varierer | Nei           | Nei      |
+| Motstandsdyktig mot sensur | Ja      | Varierer | Nei           | Nei      |
 
 Selv om de hevder å konkurrere med Bitcoin, forblir disse prosjektene sentraliserte for å sikre kontroll og overholde lokale forskrifter. De vil ikke tilby personvernbeskyttelse, men heller økt masseovervåkning. Facebooks "Libra"-prosjekt posisjonerte seg som en konkurrent til banker, ikke Bitcoin. Videre, uten proof of work, har en "blockchain" ingen reell verdi. Det bør bemerkes at Libra siden har blitt forlatt og ingen ekte privat blockchain-prosjekt for øyeblikket brukes globalt, i motsetning til Bitcoin som er.
 
@@ -501,6 +513,7 @@ Ubegrenset makt? Nei. Kjerneutviklere har ikke ubegrenset makt og kan ikke endre
 ![blockchain](assets/industrie/5.webp)
 
 ## Bitcoins lagdelte arkitektur
+
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, som en åpen kildekode-protokoll, kan komplementeres og berikes av lag med protokoller/applikasjoner lagt til av hvem som helst. Noen av disse funksjonene er mer betydningsfulle enn andre, noe som skaper et dynamisk økosystem med en mengde selskaper som bidrar til utviklingen av infrastrukturen. Eksempler på slike prosjekter inkluderer Sidechains (f.eks., Liquid Chain av Blockstream), Lightning Network av Lightning Labs, og identitetskonsepter (f.eks., Microsoft ION). Disse prosjektene er som ekstra lag lagt til den opprinnelige Bitcoin-protokollen.
@@ -534,9 +547,11 @@ Dette er fremtidsvisjonen jeg har for Bitcoin. Det vil bli en motorvei for inter
 Andreas Antonopoulos, hvis jeg ikke tar feil, introduserte meg for denne ideen. @aantonop
 
 # Sette opp din plan
+
 <partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Velge din profil
+
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Nå som vi har gjennomgått de grunnleggende prinsippene og lært hvordan vi kan unngå svindel og finansielle tap, kan vi utvikle vår plan. Planen vil være ganske enkel å starte med, men det er viktig å komme i gang. Du kan alltid endre den etter hvert som tiden går.
@@ -562,7 +577,9 @@ Generelt:
 
 Med dette, bør du finne det som passer deg, velge den passende planen, og deretter følge den riktige opplæringen i neste seksjon.
 **Påminnelse:** Hvis du ikke besitter den private nøkkelen (en liste med 24 ord), er en tredjepart ansvarlig for sikkerheten til dine bitcoins. Med andre ord, du eier ikke lenger dine bitcoins. De er utsatt for de samme risikoene som børsplattformer, som hacking, beslaglegging, regulering eller konkurs.
+
 ## Hodleren
+
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Enten det gjelder investeringer eller Bitcoin, er langtidshold generelt normen. Det er statistisk sett mest lønnsomt på lang sikt og det enkleste å implementere:
@@ -616,10 +633,11 @@ Her er en kort psykologisk profil av Hodleren, hvis du kjenner deg igjen, kan de
   Fasert med prisfall og markedsflyktighet, forblir hodleren motstandsdyktig, og beholder troen på sin investering og den fremtidige veksten av Bitcoin.
 
 - Tro på Teknologi:
-Utover den enkle jakten på profitt, tror hodleren ofte på blockchain-teknologien og Bitcoins evne til å bringe positiv endring i verden.
-Oppsummert er hodleren en tålmodig, disiplinert og visjonær investor som fast tror på Bitcoins langsiktige verdi og er villig til å tåle kortsiktig volatilitet for å oppnå betydelige gevinster i fremtiden. De er metodiske i sin investeringsstrategi og oppmerksomme på sikkerhet og langsiktig planlegging.
+  Utover den enkle jakten på profitt, tror hodleren ofte på blockchain-teknologien og Bitcoins evne til å bringe positiv endring i verden.
+  Oppsummert er hodleren en tålmodig, disiplinert og visjonær investor som fast tror på Bitcoins langsiktige verdi og er villig til å tåle kortsiktig volatilitet for å oppnå betydelige gevinster i fremtiden. De er metodiske i sin investeringsstrategi og oppmerksomme på sikkerhet og langsiktig planlegging.
 
 ## Stackeren
+
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 I Bitcoin er konseptet "Stacker" ganske kjent. Ideen er enkel: det finnes bare 21 millioner bitcoins, og hver lille bitcoin teller! Denne lille bitcoindelen kalles faktisk en satoshi (eller SAT). Målet til stackeren er å akkumulere så mange som mulig.
@@ -669,13 +687,14 @@ Psykologisk portrett av Stackeren
   Deres hovedmål er klart: å akkumulere så mange satoshis som mulig. Dette fokuset veileder deres handlinger og investeringsbeslutninger, uavhengig av om prisen skyter i været eller stuper.
 
 - Finansiell kunnskap:
-De forstår viktigheten av diversifisering og regelmessig investering, dermed minimerer de risiko og optimaliserer potensielle avkastninger. Dette oppnås gjennom prisgjennomsnitt og derfor en mangel på interesse for kortsiktige prisbevegelser.
+  De forstår viktigheten av diversifisering og regelmessig investering, dermed minimerer de risiko og optimaliserer potensielle avkastninger. Dette oppnås gjennom prisgjennomsnitt og derfor en mangel på interesse for kortsiktige prisbevegelser.
 - Proaktiv:
   Aktivt søker etter ytterligere muligheter for å tjene Bitcoins, enten ved å selge varer eller tjenester eller utforske andre veier innen Bitcoin-økosystemet.
 
 Stackeren er en metodisk og fokusert person, med en klar plan for å maksimere sin akkumulering av satoshis. De demonstrerer proaktivitet og finansiell kunnskap, stadig søker måter å optimalisere og sikre sine Bitcoin-investeringer på. Deres tilnærming kjennetegnes av konsistens og feilfri organisering, noe som setter dem på veien til jevn og kontinuerlig vekst av sin Bitcoin-portefølje.
 
 ## Brukeren
+
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Til slutt, den siste typen bitcoiner som kan nevnes i et introduksjonskurs, er bitcoineren som trenger å bruke Bitcoin regelmessig. Enten på grunn av profesjonelle forpliktelser eller bare et ønske om å støtte økosystemet, er det nødvendig å tilby løsninger som passer for hyppig bruk.
@@ -730,6 +749,7 @@ https://planb.network/tutorials/exchange/kraken
 Brukeren er en teknologisk kyndig person som er aktivt involvert i den aktive bruken av Bitcoin. De søker konstant etter måter å forbedre effektiviteten og sikkerheten til sine Bitcoin-transaksjoner og beholdninger. Deres fleksibilitet og engasjement for økosystemet reflekteres i deres vilje til å bruke en rekke løsninger, fra lynlommebøker til raske bytteløsninger. Mens de er aktivt involvert i Bitcoin-transaksjoner, forsømmer de ikke sikkerheten, og sikrer en klar inndeling mellom deres bitcoins for daglig bruk og de som holdes på lang sikt.
 
 ## Den Paranoide Bitcoineren
+
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 Jeg vil gjerne legge til den paranoide Bitcoiner her. Denne typen person ønsker ikke å utsette seg for KYC (Know Your Customer), foretrekker å holde seg nær anonymitet, og legger stor vekt på sitt privatliv. Den paranoide Bitcoiner vil også bruke LN via sin egen node og jobbe med sin sikkerhet.
 
@@ -747,19 +767,18 @@ De må deretter lære hvordan de kan blande sine mynter, håndtere sine UTXOs (U
 
 ### Veiledning:
 
-Hot wallet: 
+Hot wallet:
 https://planb.network/tutorials/wallet/samourai
 
 Cold wallet:
 https://planb.network/tutorials/wallet/coldcard
 https://planb.network/tutorials/wallet/seed-signer
 
-Ikke-KYC-kjøp mellom individer: 
+Ikke-KYC-kjøp mellom individer:
 https://planb.network/tutorials/exchange/peach-wallet
 https://planb.network/tutorials/exchange/robosats
 https://planb.network/tutorials/exchange/bisq
 https://planb.network/tutorials/exchange/hodlhodl
-
 
 ### Er det for deg?
 
@@ -781,9 +800,11 @@ https://planb.network/tutorials/exchange/hodlhodl
 I tankesettet til den paranoide personen er forsiktighet, sikkerhet og anonymitet av største viktighet. Disse prioriteringene dikterer en gjennomtenkt og veloverveid tilnærming til bruk av Bitcoin, fremmer selvstendighet og forsiktighet. Den paranoide personen er villig til å investere tid og krefter for å sikre sikkerheten og privatlivet til sine bitcoins mens de dyktig navigerer i økosystemet for å unngå unødvendig eksponering. Selv om det kan virke overforsiktig for noen, anser den paranoide personen sin grundighet og oppmerksomhet på detaljer som essensiell for vellykket og sikker deltakelse i Bitcoin-verdenen.
 
 # Fremtiden med Bitcoin
+
 <partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Lage en arveplan
+
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 La oss forestille oss følgende dramatiske scenario.
 En bilulykke, BOOM, og du er ikke lenger i denne verden. Du forsvinner, og etterlater familien din uten deres Bitcoin-ekspert. De vet ikke hvor pengene er, men de husker at du stadig nevnte termer som nøkkel, ordliste, og irreversibiliteten til Bitcoin-transaksjoner. De er knust, forvirret, og må nå finne ut alt på egen hånd. Selv om denne situasjonen kan virke skremmende, er det en reell mulighet som ikke kan ignoreres. Du har da to valg: bruk mellom 15 minutter og 1 time på å etablere en arveplan, eller gjør ingenting. Ingen vil dømme, men hvis folk er avhengige av deg, kan de 15 minuttene utgjøre en stor forskjell en dag. Valget er ditt.
@@ -826,7 +847,7 @@ Hva trenger du?
 - To konvolutter
 - En telefon-/adressebok
 - En datamaskin (valgfritt etter min mening)
-![pamela morgan](assets/heritage/1.webp)
+  ![pamela morgan](assets/heritage/1.webp)
 
 Ifølge Pamela Morgan i "Cryptoasset Inheritance Planning" på side 18, er vanlige misforståelser:
 
@@ -849,12 +870,12 @@ Det vil alltid være en avveining mellom teknisk ekspertise, tilgjengelighet og 
 
 Separasjon av ansvar: Den pålitelige personen skal ALDRI ha tilgang til din private nøkkel. Deres eneste rolle er å hjelpe dine kjære å forstå sikkerhetssystemet til dine Bitcoins og få tillit. Derfor velger du to pålitelige personer. Om nødvendig kan du også vende deg til en tredjepartsorganisasjon (spesialisert advokat eller tjenester for arveplanlegging).
 
-| Pålitelig Person | Tillit | BTC Kunnskap | Tillitsinfo | Merknad |
-| -------------- | ----- | ------------- | ---------- | ---- |
-| Min bror Bob         | Veldig høy  | Lav               | Telefon & e-post          | "Bob vet ikke mye om BTC, men vi kan stole 100% på ham for å hjelpe." |
-| Min fetter Nathan       | Høy        | Middels              | Telefon & insta          | #1 person å snakke med. Han kan hjelpe deg. Han er informert.                                        |
-| Ricco (Krypto-venn)  | Middels      | Veldig høy           | Twitter & e-post & foto | Stol på ham med tekniske spørsmål. Aldri med penger. Du må kontakte ham.           |
-| YouTuber & influencer  | Lav       | Høy                | YouTube-lenke           | Utdann deg selv ved å følge ham. Han kan ikke hjelpe deg direkte.                               |
+| Pålitelig Person      | Tillit     | BTC Kunnskap | Tillitsinfo             | Merknad                                                                  |
+| --------------------- | ---------- | ------------ | ----------------------- | ------------------------------------------------------------------------ |
+| Min bror Bob          | Veldig høy | Lav          | Telefon & e-post        | "Bob vet ikke mye om BTC, men vi kan stole 100% på ham for å hjelpe."    |
+| Min fetter Nathan     | Høy        | Middels      | Telefon & insta         | #1 person å snakke med. Han kan hjelpe deg. Han er informert.            |
+| Ricco (Krypto-venn)   | Middels    | Veldig høy   | Twitter & e-post & foto | Stol på ham med tekniske spørsmål. Aldri med penger. Du må kontakte ham. |
+| YouTuber & influencer | Lav        | Høy          | YouTube-lenke           | Utdann deg selv ved å følge ham. Han kan ikke hjelpe deg direkte.        |
 
 ### Steg 2: Utfør en enkel og rask inventar
 
@@ -866,11 +887,12 @@ Det er viktig å tenke på alle stedene hvor du har dollar eller BTC:
 
 Vurder hvordan du har sikret dem og hvor disse sikkerhetskopiene er lagret. Det er ikke essensielt å ha to sikkerhetskopieringssteder på dette tidspunktet. Målet er å ta et øyeblikksbilde av din NÅVÆRENDE sikkerhet. Vi kan forbedre den senere! Dette er bare en første versjon for å sikre din sikkerhet for nå, vi vil gå mer i detalj senere.
 
-| Generelt               | Programvare / Maskinvare | Eiendeler        | Plassering             | Sikkerhetskopi (privat nøkkel)            | Passord (PIN, passfrase)     | Merknad                                                                                                                        |
-| --------------------- | ------------------- | ------------- | --------------------- | -------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Børsplattform     | Bitstamp            | BTC & Kontanter    | Tilgjengelig online.   | -                                | Hjem & Bankhvelv              | Dette er hvor jeg kjøpte og overførte mine Bitcoins. Jeg logger inn med en passordbehandler og 2FA.                             |
-| Fysisk lommebok       | Trezor model One    | BTC           | Sikker                | Onkel Bob & Bankhvelv           | Hjem & Mor                  | Jeg har to lommebøker, en vanlig og en med en passfrase.                                                                  |
-| Samourai-lommebok     | Mobil - One Plus 6 | BTC           | På meg                | Onkel Bob & Bankhvelvet           | Hjemme & Mor                   | Appen kan være i skjult modus.                                                                                              |
+| Generelt          | Programvare / Maskinvare | Eiendeler       | Plassering           | Sikkerhetskopi (privat nøkkel) | Passord (PIN, passfrase) | Merknad                                                                                             |
+| ----------------- | ------------------------ | --------------- | -------------------- | ------------------------------ | ------------------------ | --------------------------------------------------------------------------------------------------- |
+| Børsplattform     | Bitstamp                 | BTC & Kontanter | Tilgjengelig online. | -                              | Hjem & Bankhvelv         | Dette er hvor jeg kjøpte og overførte mine Bitcoins. Jeg logger inn med en passordbehandler og 2FA. |
+| Fysisk lommebok   | Trezor model One         | BTC             | Sikker               | Onkel Bob & Bankhvelv          | Hjem & Mor               | Jeg har to lommebøker, en vanlig og en med en passfrase.                                            |
+| Samourai-lommebok | Mobil - One Plus 6       | BTC             | På meg               | Onkel Bob & Bankhvelvet        | Hjemme & Mor             | Appen kan være i skjult modus.                                                                      |
+
 IKKE LA DEG DISTRAHERE! Du kan føle behovet for å overføre disse eiendelene for å:
 
 - Forbedre sikkerheten din?
@@ -914,6 +936,7 @@ Deretter inkluderer vi "rådgiverseksjonen". Denne delen kan være forvirrende f
 Her er personene som kan hjelpe dere med å svare på spørsmål og veilede dere gjennom denne prosessen:
 
 (Sett inn navnene på rådgiverne dine her, deres tilknytning til en organisasjon (hvis aktuelt), deres kontaktinformasjon, og hvordan de skal verifisere sin identitet, for eksempel, keybase, bilder.)
+
 - Min bror Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. Du kan stole på Bob for å hjelpe deg i denne prosessen. Selv om han kanskje ikke er den mest teknisk dyktige, er han den rette personen til å stille spørsmål ved alt og utøve forsiktighet for å sikre din suksess på en trygg måte. • Min fetter Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. Det var Nathan som introduserte meg for Bitcoin. Han er veldig kunnskapsrik innen teknologi og kan svare på de fleste av dine spørsmål. Han eier også noen bitcoins og kan veilede deg på den tekniske siden. Du har sett ham flere ganger på familiemøter, og jeg har inkludert et bilde av ham her. - Ricco; @RiccoSFC på Twitter; Ricco425@protonmail.com. Jeg har jobbet tett med Ricco i mange år. Du har aldri møtt ham, så sørg for at du snakker med den rette personen ved å spørre ham "Hva heter Cédrics hund?" Hvis han svarer "12", er det bra. Ricco er en veldig vennlig og kunnskapsrik ekspert på Bitcoin. Han vil svare på alle dine spørsmål, og du kan stole på hans dømmekraft angående sikkerheten til bitcoins. Ikke nøl med å kontakte ham, jeg har møtt ham flere ganger, og han er informert om alt som angår deg og Maia.
 - Det kan virke rart, men kontakt alle sammen. I tillegg kan du utdanne deg selv ved å lytte til Andreas Antonopoulos på YouTube og kjøpe boken "Cryptoasset Inheritance Planning" av Pamela Morgan."
 
@@ -936,8 +959,8 @@ Når du nevner stedet hvor sikkerhetskopien er lagret, bruk en generell lokasjon
 - Jeg brukte en passordbehandler for å få tilgang til den, og du vil finne sikkerhetskopien min i bankhvelvet. Kontoen er også beskyttet av tofaktorautentisering, som du kan få tilgang til gjennom telefonen min (Samsung Galaxy S8) eller ved å bruke sikkerhetskoden lagret hjemme.
 - Jeg har også BTC på en Trezor Model One-enhet. Jeg får tilgang til den gjennom PC-en min og Trezor.io-nettstedet. Sikkerhetskopiene av de private nøklene er lagret i bankhvelvet og hos onkel Bob. PIN-koden er oppbevart hjemme og hos moren min. Enheten selv er sannsynligvis i et safe på kontoret mitt.
 - Jeg bruker en avansert sikkerhetsfrase for min Trezor-enhet. Sikkerhetskopien av denne frasen er plassert hjemme og hos moren min."
-La oss nå avslutte brevet med noe juridisk informasjon om nødvendig, samt vennlige ord.
-"Vennligst merk: Du vil finne en kopi av mitt testamente, datert 17. april 2018, i min dokumentmappe. Min advokat, Dwight Schrute, basert i Scranton, Pennsylvania, har også en kopi. Vær forsiktig og husk alltid min kjærlighet til deg." 26.06.2023, Cedric"
+  La oss nå avslutte brevet med noe juridisk informasjon om nødvendig, samt vennlige ord.
+  "Vennligst merk: Du vil finne en kopi av mitt testamente, datert 17. april 2018, i min dokumentmappe. Min advokat, Dwight Schrute, basert i Scranton, Pennsylvania, har også en kopi. Vær forsiktig og husk alltid min kjærlighet til deg." 26.06.2023, Cedric"
 
 La oss nå gjennomgå vårt arbeid (Basert på "Cryptoasset Inheritance Planning" av Pamela Morgan, side 44 (oversatt av Découvre Bitcoin)):
 
@@ -946,7 +969,7 @@ La oss nå gjennomgå vårt arbeid (Basert på "Cryptoasset Inheritance Planning
 - Eiendeler: Sørg for at du har inkludert en liste over dine eiendeler.
 - Børser: Sjekk at du har listet opp alle børsene som holder midler for deg.
 - Tilgang: List opp informasjonen de vil trenge for å finne din lagringsplass og alle nødvendige tilgangskoder.
-Hvis du har sjekket alle punktene, da er du klar for de siste stegene! Lag en kopi av dette brevet og behold begge kopiene i en konvolutt. Forsegl den, signer forseglingen, og oppbevar denne konvolutten på et sikkert, men tilgjengelig sted. Sørg for at dine arvinger vet at de trenger å hente denne konvolutten om nødvendig. Føl deg fri til å kjøpe Pamelas bok for å dykke dypere inn i dette emnet og planlegg en tid for å forbedre din arveplan. Diskuter også dette med din notar for å juridisk inkorporere denne planen i ditt offisielle testamente.
+  Hvis du har sjekket alle punktene, da er du klar for de siste stegene! Lag en kopi av dette brevet og behold begge kopiene i en konvolutt. Forsegl den, signer forseglingen, og oppbevar denne konvolutten på et sikkert, men tilgjengelig sted. Sørg for at dine arvinger vet at de trenger å hente denne konvolutten om nødvendig. Føl deg fri til å kjøpe Pamelas bok for å dykke dypere inn i dette emnet og planlegg en tid for å forbedre din arveplan. Diskuter også dette med din notar for å juridisk inkorporere denne planen i ditt offisielle testamente.
 
 Gratulerer! Du har en første versjon av din arveplan, og det er en flott start!
 
@@ -954,14 +977,17 @@ _Cryptoasset Inheritance Planning, En enkel guide for eiere, Pamela Morgan, ESQ.
 Dere er de beste :D Mitt team og mine studenter takker deg også!
 
 # Anerkjennelser og fortsett å grave i kaninhullet
+
 <partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Gratulerer! DU ER I TOPP 0.1%
+
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 Hvis du har fulgt vårt innhold fra begynnelsen, er du nå en ekte borger av det 21. århundre og en av de mest erfarne på feltet Bitcoin! Du bruker en passordbehandler og tofaktorautentisering (2FA). Du forstår hva Bitcoin er og hvorfor det er viktig. Du eier Bitcoins og har en sikker måte å kjøpe eller tjene mer på. Du har lagret dine Bitcoins i en "kald" lommebok og har implementert riktig nøkkelhåndtering. Du har opprettet en arveplan for dine kjære. Du er nå sikker og kan slappe av! Nyt en øl og vær stolt av deg selv!
 
 Jeg er virkelig stolt over at du har nådd dette stadiet. Jeg mener det oppriktig. Hva gjør du videre? Selv om du definitivt bør slappe av nå og være stolt av deg selv, er din reise med Bitcoin langt fra over, og den vil aldri virkelig være det. Her er noen alternativer for hva som er neste:
+
 1. Du kan enkelt fortsette som du har gjort til nå. Fortsett å samle bitcoins sakte og la strategien din utfolde seg over tid. Du har allerede et tilstrekkelig sikkerhetsnivå, alt er på plass, og du har gjort det som var nødvendig for deg selv og din familie. Du trenger ikke å bli en handelsekspert, og du trenger ikke å vite mye mer om investeringer. Du har sannsynligvis en jobb ved siden av, og selv om Bitcoin er spennende, var ditt hovedmål å nå dette stadiet. Dette er tilfellet for flertallet av dere, og jeg respekterer det. Jeg er veldig glad for at du har kommet så langt ned i Bitcoin "kaninhullet", og jeg håper reisen har vært hyggelig. Takk for at du stolte på meg for å hjelpe med å sikre dine første bitcoins.
 
 2. Du ønsker kanskje å fortsette å utdanne deg selv om de tekniske, ideologiske og filosofiske aspektene ved Bitcoin. Hvis du føler at reisen din bare har begynt, oppmuntrer jeg deg til å fortsette å lære om Bitcoin. Det er så mye å lære at det noen ganger er vanskelig å vite hvor man skal starte. Her er en liste over kurs og opplæring som kan følge deg:
@@ -974,15 +1000,50 @@ Jeg er virkelig stolt over at du har nådd dette stadiet. Jeg mener det opprikti
 
 Uansett er alle våre kurs gratis, og mange ressurser eller opplæringer er tilgjengelige på vår plattform for å følge deg. Lykke til med studiene!
 
+# Konklusjon
+
+<partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
+
 ## Evaluer kurset
+
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen
+
 <chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Oppfølging
-<chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-Dette kurset, samt alt innholdet tilgjengelig på dette universitetet, har blitt gitt til deg gratis av vårt fellesskap. For å støtte oss, kan du dele det med andre, bli medlem av universitetet, og til og med bidra til utviklingen via GitHub. På vegne av hele teamet, takk!
+## Konklusjon
 
+<chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
+
+Gratulerer med fullført kurs!
+
+Vi er glade for at du har nådd denne milepælen i din læringsprosess. Gjennom din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil være nyttige i din profesjonelle utvikling.
+
+For å dykke dypere ned i Bitcoin-verdenen, inviterer vi deg til å utforske alle de andre kursene som er tilgjengelige på Plan ₿ Network:
+
+#### Oppdag Bitcoin og dens grunnprinsipper med
+
+https://planb.network/courses/btc101
+
+#### Oppdater din nettsikkerhet med
+
+https://planb.network/courses/scu101
+
+#### Oppdag Lightning Network med
+
+https://planb.network/courses/lnp201
+
+#### Lær om den østerrikske økonomiske skolen med
+
+https://planb.network/courses/eco201
+
+#### Forstå Bitcoin-grunnprinsippene og bygg din egen boligoppvarming med
+
+https://planb.network/courses/min201
+
+#### Forstå hvordan Bitcoin-lommeboken fungerer med
+
+https://planb.network/courses/cyp201

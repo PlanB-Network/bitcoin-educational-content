@@ -1,8 +1,9 @@
-question: Dengan kunci publik yang diperluas, saya dapat menurunkan...
-answer: ...kunci publik anak normal.
+question: Berapa ukuran seed yang dihasilkan oleh PBKDF2?
+answer: 512 bit
 wrong_answers:
-  - ...kunci publik anak yang diperkuat.
-  - ...kunci privat anak normal.
-  - ...kunci privat anak yang diperkuat.
+  - 128 bit
+  - 256 bit
+  - Berubah-ubah tergantung pada panjang frasa mnemonik
 explanation: |
-  Kunci publik yang diperluas hanya memungkinkan untuk penurunan kunci publik anak normal, tetapi tidak untuk kunci privat.
+  Terlepas dari panjang frasa mnemonik, PBKDF2 selalu menghasilkan seed sebesar 512 bit.
+ditinjau: false

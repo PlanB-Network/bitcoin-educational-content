@@ -1,8 +1,9 @@
-question: Dentro do protocolo Bitcoin, o que é um HASH160?
-answer: Um hash SHA256 seguido por um hash RIPEMD160.
+question: Qual é a principal diferença entre SHA256 e RIPEMD160?
+answer: RIPEMD160 produz hashes mais curtos do que SHA256
 wrong_answers:
-  - Um duplo hash RIPEMD160.
-  - Um duplo hash SHA256.
-  - Um hash MD5 seguido por um hash SHA256.
+  - SHA256 está obsoleto ao contrário do RIPEMD160
+  - RIPEMD160 é usado apenas no mecanismo de Prova de Trabalho
+  - SHA256 nunca é combinado com outras funções de hash
 explanation: |
-  HASH160 combina um hash SHA256 seguido por RIPEMD160, usado especialmente para gerar endereços Bitcoin.
+  RIPEMD160 gera hashes de 160 bits, enquanto SHA256 produz hashes de 256 bits.
+reviewed: false

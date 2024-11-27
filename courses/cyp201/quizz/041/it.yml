@@ -1,9 +1,9 @@
-question: Se genero un numero casuale di 128 bit, qual sarà la dimensione della mia frase di recupero in parole?
-answer: 12 parole.
+question: Qual è il principale rischio nell'utilizzare un PRNG mal progettato per generare entropia?
+answer: Le chiavi private potrebbero essere indovinate da un attaccante
 wrong_answers:
-  - 6 parole.
-  - 8 parole.
-  - 24 parole.
+  - La frase mnemonica potrebbe contenere parole non corrette
+  - Le firme digitali diventerebbero invalide
+  - Gli indirizzi Bitcoin sarebbero incompatibili con la rete
 explanation: |
-  Un numero casuale di 128 bit corrisponde a una frase mnemonica di 12 parole, seguendo lo standard BIP39.
+  Un PRNG mal progettato può produrre sequenze prevedibili, rendendo le chiavi più vulnerabili agli attacchi.
 reviewed: false

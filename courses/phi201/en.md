@@ -1487,9 +1487,8 @@ For Hayek, the past instability of the market economy results from the fact that
 
 Hayek believed that a free market of private currencies would lead to greater monetary stability. Nearly 50 years later, a cryptocurrency like Bitcoin embodies Hayek's competitive vision by offering a decentralized alternative to the monopolistic system of central banks. Bitcoin, with its emission limit of 21 million units, is a guarantee against inflation and the arbitrariness of regulators.
 
-
-
 ## Evaluate the course
+
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1517,3 +1516,52 @@ In a certain sense, our situation is better than in the past. After the successi
 > Everything that happens in the global society we live in is the result of ideas. The good and the bad. What is necessary is to combat false ideas. (...) Our civilization can survive, and it must. And it will survive thanks to better ideas than those that govern the world today; and these better ideas will be developed by the rising generation.
 
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
+
+# Conclusion
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Evaluate this course
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final exam
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+Congratulations on completing this course!
+
+We are delighted that you have reached this important milestone in your learning journey.
+
+Thanks to your dedication and commitment, you have acquired valuable knowledge and skills that will serve you in your professional development.
+
+To continue exploring the Bitcoin universe in depth, we invite you to discover all other courses available on Plan ₿ Network:
+
+#### Discover F. Bastiat's life with
+
+https://planb.network/courses/eco102
+
+#### Discover Bitcoin and its fundamentals with
+
+https://planb.network/courses/btc101
+
+#### Discover the Lightning Network with
+
+https://planb.network/courses/lnp201
+
+#### Master the principles of privacy on Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Discover the history of Bitcoin's origins with
+
+https://planb.network/courses/his201
+
+#### Understand how Bitcoin wallet works with
+
+https://planb.network/courses/cyp201

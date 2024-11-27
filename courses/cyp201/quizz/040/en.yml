@@ -1,9 +1,9 @@
-question: What is the unique feature of the list of 2048 words allowing for mnemonic encoding?
-answer: No word has the same first four letters in the same order.
+question: Why is it risky to manually generate entropy for an HD wallet?
+answer: It can introduce human weaknesses or predictable biases
 wrong_answers:
-  - No word has the same last three letters.
-  - No word starts with the letter “J”.
-  - No word is more than six letters long.
+  - It results in invalid public keys
+  - It blocks the derivation of private keys
+  - It limits the size of the generated mnemonic phrases
 explanation: |
-  This feature helps to avoid any ambiguity when entering the words, thus ensuring the uniqueness of each word in the list, while also reducing the necessary storage space.
+  Manually generating entropy can introduce biases or errors, making the keys more vulnerable to attacks.
 reviewed: false

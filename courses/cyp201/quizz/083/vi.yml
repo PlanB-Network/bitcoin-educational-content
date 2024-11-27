@@ -1,0 +1,8 @@
+question: Loại địa chỉ nào bắt đầu với `1` và thuộc về tiêu chuẩn Legacy?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  Địa chỉ P2PKH, được mã hóa trong base58check, thuộc về tiêu chuẩn Legacy và bắt đầu với chữ số `1`.

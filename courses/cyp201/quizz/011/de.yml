@@ -1,9 +1,9 @@
-question: Woraus besteht die Verkettungsoperation?
-answer: Zwei Operanden werden aneinandergereiht.
+question: Welche Hash-Funktion wird von HMAC im Kontext von Bitcoin verwendet?
+answer: SHA512
 wrong_answers:
-  - Zwei Operanden addieren.
-  - Zwei Operanden teilen.
-  - Zwei Operanden subtrahieren.
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  Die Verkettung beinhaltet das Aneinanderreihen von zwei Operanden, ohne sie zu verändern, was in der Kryptographie weit verbreitet ist.
+  HMAC verwendet SHA512, um einen sicheren 512-Bit-Hash zu erzeugen.
 reviewed: false

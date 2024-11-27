@@ -1,8 +1,8 @@
-question: Hvordan bør et effektivt passordfrase velges?
-answer: Det bør være langt, variert og tilfeldig, uten tilknytning til brukeren.
+question: Hva er formålet med den mnemoniske frasen i en Bitcoin HD-lommebok?
+answer: Å deterministisk utlede alle nøkler
 wrong_answers:
-  - Det bør være lett å huske og relatert til brukerens miljø.
-  - Det bør være kort, men inkludere tall.
-  - Det bør inneholde minst 10 sifre.
+  - Å direkte signere transaksjoner
+  - Å kryptere Bitcoin-adresser
+  - Å generere en hash for UTXOene
 explanation: |
-  Et effektivt passordfrase bør være langt (20 til 40 tegn), variert og tilfeldig for å gi maksimal sikkerhet, likt et godt passord.
+  Den mnemoniske frasen muliggjør utledningen av alle private og offentlige nøkler i en lommebok, noe som letter sikkerhetskopiering og gjenoppretting.

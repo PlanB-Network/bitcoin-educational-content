@@ -1,9 +1,9 @@
-question: Come viene calcolato il checksum di un indirizzo Legacy?
-answer: Con HASH256.
+question: Perché i descrittori sono particolarmente utili per i portafogli multisignatura?
+answer: Includono l'xpub di ogni fattore e descrivono la struttura multisignatura
 wrong_answers:
-  - Con HASH160.
-  - Con un codice BCH.
-  - Con RIPEMD160.
+  - Eliminano la necessità di una frase mnemonica
+  - Semplificano la generazione di chiavi rinforzate
+  - Rendono le multisignature compatibili con tutti gli script
 explanation: |
-  Per gli indirizzi Legacy, il checksum è ottenuto eseguendo un doppio hash con la funzione SHA256 (HASH256).
-reviewed: false
+  I descrittori includono le chiavi pubbliche estese di tutti i partecipanti, il che facilita il ripristino e la gestione delle configurazioni multisignatura.
+recensito: false

@@ -1,9 +1,9 @@
-question: Mis on üldiselt vastuvõtu aadress?
-answer: Avaliku võtme räsi koos metaandmetega, mis on paigutatud kindlasse formaati.
+question: Mida tähistab sügavus 0 HD rahakottide hierarhias?
+answer: Peavõti ja peamine ahelakood
 wrong_answers:
-  - Privaatvõtme räsi koos metaandmetega, mis on paigutatud kindlasse formaati.
-  - Laiendatud võtme räsi koos metaandmetega, mis on paigutatud kindlasse formaati.
-  - Ahelakoodi räsi koos metaandmetega.
+  - Väliste aadresside ahel
+  - Vaikimisi konto
+  - Valuuta tüüp
 explanation: |
-  Üldiselt on vastuvõtu aadress avaliku võtme räsi, mis on seotud metaandmetega ja mida kasutatakse scriptPubKey's tingimuste kehtestamiseks.
+  Sügavus 0 vastab peavõtmele ja peamisele ahelakoodile, mis on kõikide tuletiste lähtepunktid HD rahakotis.
 reviewed: false

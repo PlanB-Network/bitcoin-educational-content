@@ -1,9 +1,8 @@
-question: Millised on krüptograafiliselt turvalise PRNG omadused?
-answer: See peab olema ettearvamatu, statistiliselt juhuslik ja rünnakutele vastupidav.
+question: Mis on Bitcoin'i rahakoti peamine ülesanne?
+answer: Hallata ja turvata privaatvõtmeid
 wrong_answers:
-  - See peab olema kiire, pilves kasutatav ja avatud lähtekoodiga.
-  - See peab olema mitteterministlik, põhinema füüsikalisel nähtusel ja olema skaleeritav.
-  - See peab olema riistvarapõhine, genereeritud protsessori poolt ja pööratav.
+  - Hoida kasutaja bitcoine
+  - Tagada tehingute konfidentsiaalsus automaatselt
+  - Genereerida igale kasutajale bitcoine
 explanation: |
-  Krüptograafiliselt turvaline PRNG peab olema ettearvamatu, vastupidav isegi kui mõned tulemused on avalikustatud, ja omama piisavalt pikka perioodi, et vältida jadade kordumist.
-reviewed: false
+  Bitcoin'i rahakott ei hoia otseselt bitcoine, vaid hallab privaatvõtmeid, mis on vajalikud UTXO-de avamiseks, mis esindavad bitcoine.

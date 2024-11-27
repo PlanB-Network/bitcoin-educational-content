@@ -1,8 +1,8 @@
-question: Di mana kunci privat disimpan?
-answer: Di dompet Bitcoin
+question: Mengapa kurva eliptik secp256r1 tidak digunakan dalam Bitcoin?
+answer: Berpotensi untuk menghindari pintu belakang
 wrong_answers:
-  - Di blockchain
-  - Di server komunitas Bitcoin.
-  - Di jaringan peer-to-peer.
+  - Karena terlalu lambat
+  - Karena tidak distandarisasi
+  - Karena memerlukan perangkat keras khusus
 explanation: |
-  Dompet tersebut berisi kunci privat yang diperlukan untuk mengakses bitcoin.
+  Satoshi Nakamoto kemungkinan lebih memilih kurva secp256k1, karena parameter dari secp256r1 bisa mengandung kerentanan tersembunyi.

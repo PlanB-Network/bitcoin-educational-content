@@ -1,8 +1,9 @@
-question: Miks tugevdab paroolilausendi kasutamine HD rahakoti turvalisust?
-answer: See lisab mnemoonilisele fraasile täiendava kaitsekihi.
+question: Kui suur on bittides binaarne segment, mida kasutatakse iga mnemoonilise sõna loomiseks?
+answer: 11 bitti
 wrong_answers:
-  - See võimaldab genereerida tugevamaid avalikke võtmeid.
-  - See krüpteerib tehinguid krüptograafiliselt.
-  - See kahekordistab rahakotis olevate bitcoinide arvu.
+  - 8 bitti
+  - 16 bitti
+  - 10 bitti
 explanation: |
-  Paroolilausend tugevdab turvalisust, lisades mnemoonilisele fraasile täiendava andmeelemendi, toimides omamoodi nagu 2FA.
+  Iga 11-bitine segment vastab sõnale standarditud 2048 sõna nimekirjast BIP39-s.
+reviewed: false

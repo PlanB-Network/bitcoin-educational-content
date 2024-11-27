@@ -1,8 +1,9 @@
-question: Jaké algoritmy se používají pro derivaci v Bitcoin HD peněženkách?
-answer: HMAC/PBKDF2
+question: Který algoritmus derivace se používá k výpočtu autentizačního kódu na základě tajného klíče?
+answer: HMAC-SHA512
 wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  Bitcoin HD peněženky používají HMAC (Hash-based Message Authentication Code) pro derivaci klíčů a PBKDF2 (Password-Based Key Derivation Function 2) pro derivaci seedu.
+  HMAC-SHA512 je algoritmus, který kombinuje hašovací funkci a tajný klíč k výpočtu autentizačního kódu.
+reviewed: false

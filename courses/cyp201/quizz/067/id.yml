@@ -1,9 +1,9 @@
-question: Apa yang ditunjukkan oleh jalur derivasi berikut? m/84'/0'/1'/0/7
-answer: Sebuah alamat SegwitV0 eksternal pada mainnet.
+question: Apa tujuan dari indeks dalam menurunkan kunci anak?
+answer: Membedakan pasangan kunci saudara
 wrong_answers:
-  - Sebuah alamat SegwitV1 eksternal pada mainnet.
-  - Sebuah alamat Legacy internal pada testnet.
-  - Sebuah alamat Legacy eksternal pada mainnet.
+  - Mengidentifikasi sifat kunci (publik atau privat)
+  - Menentukan tingkat keamanan kunci
+  - Menambahkan lapisan keamanan tambahan
 explanation: |
-  Jalur derivasi m/84'/0'/1'/0/7 menunjukkan sebuah alamat SegwitV0 eksternal pada jaringan utama (mainnet). 84' = SegWit v0, 0' = mainnet, 1 = eksternal
-reviewed: false
+  Indeks memungkinkan untuk membedakan kunci anak yang diturunkan dari pasangan induk yang sama.
+ditinjau: false

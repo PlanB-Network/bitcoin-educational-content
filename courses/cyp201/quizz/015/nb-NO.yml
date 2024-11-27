@@ -1,9 +1,8 @@
-question: Hva er navnet på den elliptiske kurven som brukes for digitale signaturalgoritmer i Bitcoin?
-answer: secp256k1.
+question: Hvilken type nøkkel brukes til å låse UTXOer på Bitcoin?
+answer: Offentlig nøkkel
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Privat nøkkel
+  - Seed hash
+  - Mnemonisk frase
 explanation: |
-  Kurven secp256k1 brukes i Bitcoin-protokollen for digitale signaturer.
-reviewed: false
+  UTXOer låses med en offentlig nøkkel eller dens hash, og låses opp med den tilsvarende private nøkkelen.

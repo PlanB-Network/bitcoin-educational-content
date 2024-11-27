@@ -1,8 +1,9 @@
-question: Hvilken størrelse må inndataen til SHA256-funksjonen være etter at den er fylt ut?
-answer: Et multiplum av 512 bits.
+question: Hvorfor sikres irreversibilitet i SHA256?
+answer: Operasjonene som brukes fjerner informasjon og er enveis
 wrong_answers:
-  - Av 256 bits.
-  - Av 256 bytes.
-  - Et multiplum av 256 bits.
+  - Meldinger krypteres før hashing
+  - Bits omorganiseres tilfeldig
+  - Hver hash lagres i en database
 explanation: |
-  SHA256-funksjonen krever at inndataen er et multiplum av 512 bits etter utfylling for å fungere korrekt.
+  Operasjoner som ShR og XOR gjør det umulig å returnere til den opprinnelige tilstanden, noe som sikrer irreversibilitet.
+reviewed: false

@@ -1,9 +1,8 @@
-question: Mikä on laajennetun avaimen tarkoitus?
-answer: Kerätä kaikki tarvittavat tiedot lapsiavainten johdannaisiin yhteen merkkijonoon.
+question: Mikä vakio käytetään johdattamaan pääyksityisavain siemenestä?
+answer: Bitcoin Seed
 wrong_answers:
-  - Kerätä kaikki tarvittavat tiedot koko HD-lompakon uudelleenrakentamiseen yhteen merkkijonoon.
-  - Kerätä tietoja lompakon UTXO: ista.
-  - Kerätä muistisana ja salasana yhteen muotoon.
+  - Pääavain
+  - HD Lompakon Siemen
+  - Lohkoketjun Juuri
 explanation: |
-  Laajennettu avain mahdollistaa kaikkien tarvittavien tietojen sisällyttämisen lapsiavainten johdannaisiin, mikä yksinkertaistaa tilien hallintaa HD-lompakossa.
-reviewed: false
+  Bitcoin Seed vakioa käytetään avaimena HMAC-SHA512 funktiossa johdattaakseen pääyksityisavaimen ja pääketjukoodin.

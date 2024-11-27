@@ -1,9 +1,9 @@
-question: What is a receiving address (generally)?
-answer: A hash of a public key with metadata put into a specific format.
+question: What does depth 0 represent in the hierarchy of HD wallets?
+answer: The master key and the master chain code
 wrong_answers:
-  - A hash of a private key with metadata put into a specific format.
-  - A hash of an extended key with metadata put into a specific format.
-  - A hash of a chain code with metadata.
+  - The external chain of addresses
+  - The default account
+  - The type of currency
 explanation: |
-  A receiving address is generally a hash of a public key associated with metadata, used in a scriptPubKey to establish conditions.
+  Depth 0 corresponds to the master key and the master chain code, which are the starting points for all derivations in an HD wallet.
 reviewed: false

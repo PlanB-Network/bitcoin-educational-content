@@ -1,9 +1,9 @@
-question: Quelles sont les informations calculées à partir de la graine en appliquant HMAC-SHA512 ?
-answer: La clé maîtresse et le code de chaîne maître du portefeuille.
+question: Que se passe-t-il si vous perdez la passphrase associée à votre portefeuille HD ?
+answer: Vous perdez l'accès aux bitcoins liés à ce portefeuille
 wrong_answers:
-  - La clé étendue du portefeuille.
-  - La xpub et la xprv du portefeuille.
-  - Le code de signature de la clé privée.
+  - Vous pouvez toujours accéder au portefeuille avec la phrase mnémonique seule
+  - Vous pouvez réinitialiser la passphrase en contactant le support de Bitcoin
+  - Vous perdez uniquement les transactions non confirmées
 explanation: |
-  À partir de la graine, HMAC-SHA512 dérive la clé maîtresse et le code de chaîne maître, qui sont la base pour la génération des clés.
+  La passphrase est une composante indispensable dans la dérivation des clés. Sans elle, il est impossible de recréer les clés et donc d'accéder aux bitcoins.
 reviewed: false

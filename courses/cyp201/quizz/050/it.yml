@@ -1,9 +1,9 @@
-question: Se si segue il BIP39, qual è la dimensione del seed di un portafoglio HD?
-answer: 512 bit.
+question: Qual è una buona pratica per proteggere una passphrase?
+answer: Conservarla su un supporto fisico separato dalla frase mnemonica
 wrong_answers:
-  - 32 byte.
-  - 1024 bit.
-  - 512 byte.
+  - Memorizzarla solamente a memoria senza annotarla
+  - Conservarla sullo stesso supporto fisico della frase mnemonica
+  - Registrarla su un supporto digitale come Google Drive
 explanation: |
-  Secondo il BIP39, il seed di un portafoglio HD è di 512 bit, derivato dalla frase mnemonica e dalla passphrase.
-reviewed: false
+  La passphrase deve essere conservata fisicamente e separata dalla frase mnemonica per prevenire il furto simultaneo di entrambe.
+recensito: false

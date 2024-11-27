@@ -1,8 +1,9 @@
-question: ¿Qué prefijo o HRP corresponde a una dirección estándar SegWit?
-answer: bc
+question: ¿Qué indica el índice /84'/ en la profundidad 1 de una ruta de derivación?
+answer: El estándar P2WPKH (SegWit v0)
 wrong_answers:
-  - 1
-  - 0x
-  - btc
+  - El estándar P2TR (SegWit v1)
+  - Una moneda de testnet de Bitcoin
+  - Una moneda de mainnet de Bitcoin
 explanation: |
-  El prefijo bc se utiliza para direcciones SegWit en la red principal de Bitcoin.
+  El índice /84'/ está definido en el BIP84 para indicar el uso del estándar SegWit v0 con direcciones P2WPKH en la profundidad 1 (la del objetivo de derivación).
+reviewed: false

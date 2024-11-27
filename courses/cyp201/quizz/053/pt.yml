@@ -1,8 +1,9 @@
-question: Que informação é calculada a partir da semente ao aplicar HMAC-SHA512?
-answer: A chave mestre e o código de cadeia mestre da carteira.
+question: O que acontece se você perder a frase-senha associada à sua carteira HD?
+answer: Você perde o acesso aos bitcoins vinculados a essa carteira
 wrong_answers:
-  - A chave estendida da carteira.
-  - O xpub e xprv da carteira.
-  - O código de assinatura da chave privada.
+  - Você ainda pode acessar a carteira apenas com a frase mnemônica
+  - Você pode redefinir a frase-senha entrando em contato com o suporte do Bitcoin
+  - Você só perde as transações não confirmadas
 explanation: |
-  A partir da semente, o HMAC-SHA512 deriva a chave mestre e o código de cadeia mestre, que são a base para a geração de chaves.
+  A frase-senha é um componente essencial na derivação de chaves. Sem ela, é impossível recriar as chaves e, portanto, acessar os bitcoins.
+reviewed: false

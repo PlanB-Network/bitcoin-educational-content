@@ -1,9 +1,9 @@
-question: What does the payload of an extended key consist of?
-answer: A public or private key, and the associated chain code.
+question: How many parts is the output of the HMAC-SHA512 function applied to the seed divided into?
+answer: Two parts of 256 bits
 wrong_answers:
-  - A private key and the associated public key.
-  - A chain code, a public key, and a private key.
-  - A private key and a derivation index.
+  - One single part of 512 bits
+  - Three parts of 170 bits
+  - Four parts of 128 bits
 explanation: |
-  The payload of an extended key includes either a public or private key, along with a chain code used to derive child keys.
+  The output of HMAC-SHA512 is divided into two parts: the master private key (256 bits) and the master chain code (256 bits).
 reviewed: false

@@ -1,9 +1,9 @@
-question: Milline peab olema SHA256 funktsiooni sisendi suurus pärast täitmist?
-answer: 512 biti kordne.
+question: Miks on SHA256-s tagatud pöördumatus?
+answer: Kasutatavad toimingud eemaldavad informatsiooni ja on ühesuunalised
 wrong_answers:
-  - 256 biti suurune.
-  - 256 baiti suurune.
-  - 256 biti kordne.
+  - Sõnumid krüpteeritakse enne räsistamist
+  - Bitid paigutatakse juhuslikult ümber
+  - Iga räsi salvestatakse andmebaasi
 explanation: |
-  SHA256 funktsioon nõuab, et sisend oleks pärast täitmist 512 biti kordne, et see korrektselt toimiks.
+  Toimingud nagu ShR ja XOR muudavad algseisundisse naasmise võimatuks, tagades pöördumatuse.
 reviewed: false

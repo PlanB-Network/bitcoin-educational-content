@@ -1,9 +1,9 @@
-question: What does the following derivation path indicate? m/84'/0'/1'/0/7
-answer: An external SegwitV0 address on the mainnet.
+question: What is the purpose of the index in deriving child keys?
+answer: Distinguish sibling key pairs
 wrong_answers:
-  - An external SegwitV1 address on the mainnet.
-  - An internal Legacy address on the testnet.
-  - An external Legacy address on the mainnet.
+  - Identify the nature of the key (public or private)
+  - Specify the key's security level
+  - Add an extra layer of security
 explanation: |
-  The derivation path m/84'/0'/1'/0/7 indicates an external SegwitV0 address on the main network (mainnet). 84' = SegWit v0, 0' = mainnet, 1 = external
+  The index allows for differentiating child keys derived from the same parent pair.
 reviewed: false

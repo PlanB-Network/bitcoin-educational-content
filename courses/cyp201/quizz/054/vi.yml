@@ -1,8 +1,9 @@
-question: Để tính toán giá trị của khóa chính và mã chuỗi chính, đầu vào đầu tiên cho hàm HMAC-SHA512 là hạt giống. Giá trị đầu vào thứ hai của hàm này, đóng vai trò như một khóa, là gì?
-answer: “Bitcoin seed”.
+question: Vai trò chính của cụm từ bí mật trong ví HD Bitcoin là gì?
+answer: Để thay đổi việc phát sinh khóa nhằm tăng cường bảo mật
 wrong_answers:
-  - Cụm từ ghi nhớ.
-  - Cụm từ bí mật.
-  - “Seed”.
+  - Giải mã các giao dịch đang chờ xử lý
+  - Tạo UTXOs của ví
+  - Bảo vệ quyền truy cập vào ví bằng Face ID
 explanation: |
-  Chuỗi Bitcoin seed được sử dụng như một khóa trong HMAC-SHA512 để suy ra khóa chính và mã chuỗi chính từ hạt giống.
+  Cụm từ bí mật hoạt động như một yếu tố bảo mật thứ hai, thay đổi hạt giống phát sinh khóa để ngăn chặn quyền truy cập vào ví trong trường hợp cụm từ ghi nhớ bị xâm phạm.
+reviewed: false

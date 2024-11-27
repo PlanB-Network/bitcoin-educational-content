@@ -1,9 +1,8 @@
-question: Mikä funktio on käytössä osoitteen generoimiseen?
-answer: HASH160.
+question: Mitä apostrofi (') tai h johdannaispolussa tarkoittaa?
+answer: Kovetettu johdannainen
 wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
+  - Normaali johdannainen
+  - Ulkoinen johdannainen
+  - Ei-standardi johdannainen
 explanation: |
-  HASH160-funktio, joka yhdistää SHA256: n ja RIPEMD-160; n, on käytössä Bitcoin-osoitteiden generoimiseen julkisista avaimista.
-reviewed: false
+  Apostrofi osoittaa, että johdannainen on kovetettu, vaatien vanhemman yksityisavaimen lapsiavaimen luomiseen.

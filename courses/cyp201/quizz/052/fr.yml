@@ -1,9 +1,9 @@
-question: Quelle est la fonction pseudo-aléatoire utilisée au sein de PBKDF2 pour calculer la graine d'un portefeuille HD Bitcoin ?
-answer: HMAC-SHA512.
+question: Quel est l'intérêt d'un portefeuille d'appât utilisant une passphrase ?
+answer: Simuler un portefeuille avec une petite somme en cas de contrainte physique
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Ajouter une sauvegarde automatique des transactions
+  - Générer une phrase mnémonique supplémentaire
+  - Protéger les UTXOs d'une double dépense
 explanation: |
-  HMAC-SHA512 est la fonction pseudo-aléatoire utilisée dans PBKDF2 pour générer la graine d'un portefeuille HD Bitcoin.
+  Un portefeuille d'appât permet de détourner l'attention d'un agresseur en fournissant un accès à un portefeuille contenant une petite quantité de bitcoins.
 reviewed: false

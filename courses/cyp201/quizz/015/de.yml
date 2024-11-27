@@ -1,9 +1,9 @@
-question: Wie lautet der Name der elliptischen Kurve, die für digitale Signaturalgorithmen in Bitcoin verwendet wird?
-answer: secp256k1.
+question: Welche Art von Schlüssel wird verwendet, um UTXOs bei Bitcoin zu sperren?
+answer: Öffentlicher Schlüssel
 wrong_answers:
-  - secp256r1.
-  - secp160k1.
-  - secp521r1.
+  - Privater Schlüssel
+  - Seed-Hash
+  - Mnemonische Phrase
 explanation: |
-  Die secp256k1 Kurve wird im Bitcoin-Protokoll für digitale Signaturen verwendet.
+  UTXOs werden mit einem öffentlichen Schlüssel oder dessen Hash gesperrt und mit dem entsprechenden privaten Schlüssel entsperrt.
 reviewed: false

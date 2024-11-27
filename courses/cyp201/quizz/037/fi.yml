@@ -1,9 +1,9 @@
-question: Miksi on tärkeää käyttää hyvää entropian lähdettä yksityisten avainten luomiseen?
-answer: Huono entropia voi tehdä yksityisistä avaimista ennustettavia ja alttiita hyökkäyksille.
+question: Mikä on JBOK-lompakoiden pääasiallinen rajoitus?
+answer: Ne vaativat itsenäisen varmuuskopion jokaiselle yksityiselle avaimelle
 wrong_answers:
-  - Hyvä entropia auttaa optimoimaan lompakon suorituskykyä.
-  - Entropialla ei ole roolia yksityisten avainten turvallisuudessa.
-  - Huono entropia hidastaa transaktioita.
+  - Ne eivät salli uusien osoitteiden luomista
+  - Ne eivät ole yhteensopivia digitaalisten allekirjoitusten kanssa
+  - Ne käyttävät pakkaamattomia julkisia avaimia
 explanation: |
-  Jos yksityisten avainten luomiseen käytetty entropia on alhainen, se saattaa mahdollistaa hyökkääjän arvata tai laskea nämä avaimet, vaarantaen lompakon turvallisuuden.
+  JBOK-lompakot pakottavat käyttäjän varmuuskopioimaan jokaisen yksityisen avaimen erikseen, mikä monimutkaistaa niiden hallintaa.
 reviewed: false

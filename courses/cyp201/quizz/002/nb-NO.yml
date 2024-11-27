@@ -1,9 +1,8 @@
-question: Hvilke hashfunksjoner brukes i Bitcoin-protokollen?
-answer: SHA-256, RIPEMD-160
+question: Hvilken egenskap ved hash-funksjoner demonstreres ved en fullstendig endring i hashen når en melding endres litt?
+answer: Lavineeffekten
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - Kollisjonsresistens
+  - Motstandsdyktighet mot andre prebilder
+  - Lengde
 explanation: |
-  I Bitcoin brukes SHA-256 og RIPEMD-160.
-reviewed: false
+  En liten endring i inndata fører til en radikal endring i hashen, dette er det som kalles lavineeffekten.

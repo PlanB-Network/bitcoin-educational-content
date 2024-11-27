@@ -1,8 +1,9 @@
-question: Kích thước đầu ra của hàm băm SHA256 là bao nhiêu?
-answer: 256 bit.
+question: Tính chất nào đảm bảo rằng việc tìm lại đầu vào của một hàm băm là điều không thể về mặt tính toán?
+answer: Kháng ảnh nguyên
 wrong_answers:
-  - 256 byte.
-  - 512 bit.
-  - 512 byte.
+  - Kháng va chạm
+  - Hiệu ứng tuyết lở
+  - Kháng ảnh nguyên thứ hai
 explanation: |
-  SHA-256 tạo ra một đầu ra cố định 256 bit, bất kể kích thước dữ liệu đầu vào.
+  Kháng ảnh nguyên đảm bảo rằng việc tìm ra tin nhắn gốc từ giá trị băm của nó là điều thực tế không thể.
+reviewed: false

@@ -1,9 +1,9 @@
-question: ¿Cómo comprimir una clave pública?
-answer: Conservamos el valor de su coordenada x y añadimos un prefijo que indica qué coordenada y elegir.
+question: ¿Qué camino de derivación se utiliza para una cuenta SegWit v0 en un descriptor estándar?
+answer: 84h/0h/0h
 wrong_answers:
-  - Conservamos el valor de su coordenada y y añadimos un prefijo que indica qué coordenada x elegir.
-  - Hacemos hash de la clave pública para comprimirla.
-  - Usamos un doble hash SHA256 para comprimir la clave pública.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  La compresión de una clave pública se realiza conservando la coordenada x y añadiendo un prefijo 0x02 o 0x03 para indicar si y es par o impar.
+  El camino 84h/0h/0h está definido en BIP84 para una cuenta que deriva direcciones SegWit v0 con P2WPKH.
 reviewed: false

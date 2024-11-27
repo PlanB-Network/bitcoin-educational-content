@@ -1,9 +1,9 @@
-question: Apa itu PRNG?
-answer: Sebuah algoritma yang menghasilkan angka acak dari sebuah seed dan fungsi transformasi.
+question: Apa yang memungkinkan Anda lakukan dengan dompet HD dibandingkan dengan dompet JBOK?
+answer: Menghasilkan semua kunci privat dari satu benih
 wrong_answers:
-  - Sebuah perangkat keras yang menghasilkan angka acak sejati.
-  - Sebuah generator yang menghasilkan angka acak tanpa seed apapun.
-  - Sebuah algoritma yang menghasilkan angka yang dapat diprediksi.
+  - Meningkatkan keamanan tanda tangan digital
+  - Menggunakan alamat yang sama untuk berbagai transaksi
+  - Menghindari penggunaan kunci publik sepenuhnya
 explanation: |
-  Sebuah PRNG menghasilkan angka pseudo-acak dari sebuah seed, namun tidak seperti TRNG, angka yang dihasilkan tidak benar-benar acak.
-reviewed: false
+  Dompet HD menghasilkan semua kunci privat dari satu benih unik, yang mempermudah pencadangan dan secara tidak langsung meningkatkan privasi.
+ditinjau: false

@@ -1,9 +1,9 @@
-question: Selleks, et rakendada seda elliptilist kõverat krüptograafilistel eesmärkidel, millisele väljale peame selle defineerima?
-answer: Lõplik väli positiivsetest täisarvudest.
+question: Milline allkirja algoritm toodi Bitcoinis sisse Taprooti uuendusega?
+answer: Schnorri allkirjastamise skeem
 wrong_answers:
-  - Reaalarvude väli.
-  - Lõplik väli reaalarvudest.
-  - Kompleksarvude väli.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  Bitcoinis on elliptiline kõver secp256k1 defineeritud lõplikul väljal positiivsetest täisarvudest modulo algarv, et vältida ligikaudseid väärtusi ja tagada turvalisus.
+  Schnorri allkirjastamise skeem toodi sisse novembris 2021 Taprooti uuendusega.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Sur la notation d'un chemin de dérivation, que signifie l'apostrophe ou le “H” noté à droite du nombre ? Exemple m/84'/0'.
-answer: Cela indique une dérivation renforcée.
+question: Quelle partie de la sortie de HMAC-SHA512 est utilisée comme code de chaîne enfant ?
+answer: Les 32 derniers octets
 wrong_answers:
-  - Cela indique une dérivation normale.
-  - C'est ici pour faire joli.
-  - Cela indique une clé de change.
+  - Les 32 premiers octets
+  - L'intégralité des 64 octets
+  - Le hash SHA256 des 32 octets du milieu
 explanation: |
-  L'apostrophe ou le H dans un chemin de dérivation indique une dérivation renforcée, qui utilise la clé privée parent et la fourchette d'index correspondante.
+  Les 32 derniers octets de la sortie de HMAC-SHA512 servent de code de chaîne pour la clé enfant.
 reviewed: false

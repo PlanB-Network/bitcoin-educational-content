@@ -1,9 +1,9 @@
-question: Cos'è un Nonce in crittografia?
-answer: Un numero inteso per essere usato una volta.
+question: Quale proprietà di Schnorr consente di combinare più chiavi pubbliche in una sola?
+answer: Aggregazione delle Chiavi
 wrong_answers:
-  - Un numero pari.
-  - Una firma digitale.
-  - Un numero che può essere riutilizzato.
+  - Verifica in Batch
+  - Malleabilità
+  - Compattazione della Firma
 explanation: |
-  Un nonce è un numero usato una volta per operazioni crittografiche, assicurando l'unicità di certi valori negli algoritmi.
+  Schnorr consente l'aggregazione di più chiavi pubbliche in una singola chiave.
 reviewed: false

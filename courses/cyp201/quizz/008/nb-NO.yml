@@ -1,8 +1,9 @@
-question: Hvor mange runder består SHA256 kompresjonsfunksjonen av?
-answer: 64 runder.
+question: Hvorfor bruker SHA256 en forbehandling på inngangsmeldingen?
+answer: For å sikre en lengde som er et multiplum av 512 bits
 wrong_answers:
-  - 10 runder.
-  - 128 runder.
-  - 150 runder.
+  - For å verifisere integriteten til meldingen
+  - For å kryptere dataene før hashing
+  - For å øke størrelsen på de genererte hashene
 explanation: |
-  SHA256 kompresjonsfunksjonen utfører 64 runder for hver blokk av data som behandles.
+  Forbehandlingen justerer meldingens lengde ved å legge til utfyllingsbiter og en binær representasjon av dens lengde.
+reviewed: false

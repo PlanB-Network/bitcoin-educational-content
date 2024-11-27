@@ -1,9 +1,9 @@
-question: If I generate a 128-bit random number, what will be the size of my recovery phrase in words?
-answer: 12 words.
+question: What is the main risk of using a poorly designed PRNG to generate entropy?
+answer: Private keys could be guessed by an attacker
 wrong_answers:
-  - 6 words.
-  - 8 words.
-  - 24 words.
+  - The mnemonic phrase could contain incorrect words
+  - Digital signatures would become invalid
+  - Bitcoin addresses would be incompatible with the network
 explanation: |
-  A 128-bit random number corresponds to a 12-word mnemonic phrase, following the BIP39 standard.
+  A poorly designed PRNG can produce predictable sequences, making the keys more vulnerable to attacks.
 reviewed: false

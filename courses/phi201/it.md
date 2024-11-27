@@ -1335,9 +1335,8 @@ Per Hayek, l'instabilità passata dell'economia di mercato deriva dal fatto che 
 ![immagine](assets/6/img-006.webp)
 Hayek riteneva che un mercato libero di valute private avrebbe portato a una maggiore stabilità monetaria. Quasi 50 anni dopo, una criptovaluta come Bitcoin incarna la visione competitiva di Hayek offrendo un'alternativa decentralizzata al sistema monopolistico delle banche centrali. Bitcoin, con il suo limite di emissione di 21 milioni di unità, è una garanzia contro l'inflazione e l'arbitrarietà dei regolatori.
 
-
-
 ## Valuta il corso
+
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1364,3 +1363,52 @@ Abbiamo ora sperimentato tutte le varianti dello statalismo, e tutte hanno falli
 In un certo senso, la nostra situazione è migliore rispetto al passato. Dopo i successivi fallimenti di vari esperimenti socialisti, comunisti e socialdemocratici, oggi sappiamo come distinguere, meglio di ieri, le idee vere da quelle false. E le idee false possono essere confutate e sostituite con quelle vere. Come diceva Mises:
 Tutto ciò che accade nella società globale in cui viviamo è il risultato delle idee. Il bene e il male. Ciò che è necessario è combattere le idee false. (...) La nostra civiltà può sopravvivere, e deve. E sopravviverà grazie a idee migliori rispetto a quelle che governano il mondo oggi; e queste idee migliori saranno sviluppate dalla generazione emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
+
+# Conclusione
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Valuta questo corso
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Esame finale
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusione
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+Congratulazioni per aver completato questo corso!
+
+Siamo lieti che tu abbia raggiunto questo importante traguardo nel tuo percorso di apprendimento.
+
+Grazie alla tua dedizione e al tuo impegno, hai acquisito preziose conoscenze e competenze che ti serviranno nel tuo sviluppo professionale.
+
+Per continuare ad esplorare in profondità l'universo Bitcoin, ti invitiamo a scoprire tutti gli altri corsi disponibili su Plan ₿ Network:
+
+#### Scopri la vita di F. Bastiat con
+
+https://planb.network/courses/eco102
+
+#### Scopri Bitcoin e i suoi fondamenti con
+
+https://planb.network/courses/btc101
+
+#### Scopri il Lightning Network con
+
+https://planb.network/courses/lnp201
+
+#### Padroneggia i principi della privacy su Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Scopri la storia delle origini di Bitcoin con
+
+https://planb.network/courses/his201
+
+#### Capisci come funziona il portafoglio Bitcoin con
+
+https://planb.network/courses/cyp201

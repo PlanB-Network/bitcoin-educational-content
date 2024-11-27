@@ -1,0 +1,8 @@
+question: Mikä syvyys johdannaispolussa määrittää valuutan tyypin?
+answer: Syvyys 2
+wrong_answers:
+  - Syvyys 1
+  - Syvyys 3
+  - Syvyys 4
+explanation: |
+  Syvyys 2: tta käytetään valuutan tunnistamiseen monivaluuttaisissa lompakoissa, kuten Bitcoin (indeksi 0') tai Litecoin (indeksi 2').

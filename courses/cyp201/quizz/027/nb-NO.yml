@@ -1,9 +1,9 @@
-question: Hva representerer punktet V i prosessen med digital signatur med ECDSA som eksempel i dette kapittelet?
-answer: Punktet beregnet fra nonce v og generatorpunktet G (V = v.G).
+question: Hvilken sårbarhet i ECDSA-signaturer ble rettet av SegWit?
+answer: Formbarhet
 wrong_answers:
-  - Punktet som er direkte avledet fra den offentlige nøkkelen.
-  - Hashen av den signerte meldingen.
-  - Resultatet av å legge sammen to punkter på den elliptiske kurven.
+  - Gruppeverifisering
+  - Mangel på aggregasjon
+  - Overdreven størrelse på signaturer
 explanation: |
-  V er resultatet av beregningen av nonce multiplisert med generatorpunktet på den elliptiske kurven.
+  SegWit rettet formbarheten til ECDSA-signaturer, noe som muliggjorde bruk som Lightning Network.
 reviewed: false

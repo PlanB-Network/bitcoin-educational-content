@@ -1,9 +1,9 @@
-question: What is the output size of the SHA256 hash function?
-answer: 256 bits.
+question: Which property ensures that it is computationally impossible to retrieve the input of a hash?
+answer: Preimage resistance
 wrong_answers:
-  - 256 bytes.
-  - 512 bits.
-  - 512 bytes.
+  - Collision resistance
+  - Avalanche effect
+  - Second preimage resistance
 explanation: |
-  SHA-256 produces a fixed output of 256 bits, regardless of the input data size.
+  Preimage resistance ensures that it is practically impossible to find the original message from its hash.
 reviewed: false

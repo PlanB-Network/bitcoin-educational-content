@@ -1,0 +1,8 @@
+question: Mikä on P2WPKH-skriptien pääuutuus verrattuna P2PKH een?
+answer: Allekirjoitukset siirretään Todistaja-kenttään.
+wrong_answers:
+  - Osoitteet on koodattu base58check-muodossa.
+  - scriptPubKey sisältää yksityisen avaimen hajautuksen.
+  - P2WPKH ei ole yhteensopiva SegWitin kanssa.
+explanation: |
+  P2WPKH, joka esiteltiin SegWitin yhteydessä, siirtää allekirjoitukset erilliseen osioon nimeltä Todistaja estääkseen transaktioiden muunneltavuuden.

@@ -1,11 +1,8 @@
-question: Was bedeutet das Apostroph oder das H, das rechts von der Zahl in einem Ableitungspfad notiert ist? Beispiel m/84'/0'.
-
-answer: Es zeigt eine gehärtete Ableitung an.
-
+question: Welcher Teil des HMAC-SHA512-Ausgabewerts wird als Child Chain Code verwendet?
+answer: Die letzten 32 Bytes
 wrong_answers:
-  - Es zeigt eine normale Ableitung an.
-  - Es ist nur zur Dekoration da.
-  - Es zeigt einen Änderungsschlüssel an.
-
+  - Die ersten 32 Bytes
+  - Die gesamten 64 Bytes
+  - Der SHA256-Hash der mittleren 32 Bytes
 explanation: |
-  Das Apostroph oder H in einem Ableitungspfad zeigt eine gehärtete Ableitung an, die den Eltern-Privatschlüssel und den entsprechenden Indexbereich verwendet.
+  Die letzten 32 Bytes des HMAC-SHA512-Ausgabewerts dienen als Chain Code für den Child-Key.

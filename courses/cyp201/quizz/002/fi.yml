@@ -1,9 +1,8 @@
-question: Mitkä hajautusfunktiot ovat käytössä Bitcoin-protokollassa?
-answer: SHA-256, RIPEMD-160
+question: Mikä hajautusfunktioiden ominaisuus ilmenee, kun viestissä tapahtuu pieni muutos ja hajautusarvo muuttuu täysin?
+answer: Lumivyöryefekti
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - Yhteentörmäyksenesto
+  - Toisen esikuvan vastustuskyky
+  - Pituus
 explanation: |
-  Bitcoinissa käytetään SHA-256 ja RIPEMD-160 hajautusfunktioita.
-reviewed: false
+  Pieni muutos syötteessä johtaa radikaaliin muutokseen hajautusarvossa, tätä kutsutaan lumivyöryefektiksi.

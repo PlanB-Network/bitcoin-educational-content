@@ -1,9 +1,9 @@
-question: Jaká klíčová odvozovací funkce se používá k odvození seedu z mnemonické fráze a volitelného hesla?
-answer: PBKDF2.
+question: Jaký je hlavní rozdíl mezi heslovou frází a PIN kódem pro Bitcoinovou peněženku?
+answer: Heslová fráze upravuje odvození klíče, nikoli PIN kód
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - PIN kód je spojen s mnemonickou frází
+  - PIN kód se používá k šifrování transakcí, ale heslová fráze ne
+  - PIN kód generuje Bitcoinové adresy
 explanation: |
-  Funkce PBKDF2 se používá k odvození seedu HD peněženky z mnemonické fráze a volitelného hesla.
+  Na rozdíl od PIN kódu je heslová fráze přímo zapojena do procesu odvození klíče a mění klíče peněženky.
 reviewed: false

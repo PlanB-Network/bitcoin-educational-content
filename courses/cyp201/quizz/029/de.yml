@@ -1,8 +1,9 @@
-question: Was beweist eine digitale Signatur im Bitcoin-System über das scriptSig?
-answer: Den Besitz des privaten Schlüssels, der einem bestimmten öffentlichen Schlüssel zugeordnet ist.
+question: Welcher digitale Signaturalgorithmus wurde beim Start von Bitcoin verwendet?
+answer: ECDSA
 wrong_answers:
-  - Den Besitz einer Bitcoin-Adresse.
-  - Die Fähigkeit, einen Bitcoin-Block zu minen.
-  - Die Gültigkeit einer Bitcoin-Transaktion.
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Eine digitale Signatur beweist, dass der Benutzer den privaten Schlüssel besitzt, ohne ihn offenlegen zu müssen, und gewährleistet so die Authentizität der Transaktion.
+  Bitcoin verwendete ursprünglich ECDSA, ein Signaturprotokoll basierend auf elliptischen Kurven, bevor die Einführung von Schnorr-Signaturen im Jahr 2021 erfolgte.
+reviewed: false

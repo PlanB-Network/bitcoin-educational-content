@@ -1,8 +1,9 @@
-question: Awalan atau HRP apa yang sesuai dengan alamat standar SegWit?
-answer: bc
+question: Apa yang ditunjukkan oleh indeks /84'/ pada kedalaman 1 dari jalur derivasi?
+answer: Standar P2WPKH (SegWit v0)
 wrong_answers:
-  - 1
-  - 0x
-  - btc
+  - Standar P2TR (SegWit v1)
+  - Mata uang Bitcoin testnet
+  - Mata uang Bitcoin mainnet
 explanation: |
-  Awalan bc digunakan untuk alamat SegWit di mainnet Bitcoin.
+  Indeks /84'/ didefinisikan dalam BIP84 untuk menunjukkan penggunaan standar SegWit v0 dengan alamat P2WPKH pada kedalaman 1 (yang merupakan target derivasi).
+direview: false

@@ -1,9 +1,9 @@
-question: Hvordan beregnes sjekksummen til en Legacy-adresse?
-answer: Med HASH256.
+question: Hvorfor er deskriptorer spesielt nyttige for multisignatur-lommebøker?
+answer: De inkluderer xpub for hver faktor og beskriver multisignaturstrukturen
 wrong_answers:
-  - Med HASH160.
-  - Med en BCH-kode.
-  - Med RIPEMD160.
+  - De eliminerer behovet for en mnemonic frase
+  - De forenkler genereringen av forsterkede nøkler
+  - De gjør multisignaturer kompatible med alle skript
 explanation: |
-  For Legacy-adresser oppnås sjekksummen ved å utføre en dobbel hash med SHA256-funksjonen (HASH256).
+  Deskriptorer inkluderer de utvidede offentlige nøklene til alle deltakere, noe som letter gjenoppretting og håndtering av multisignaturkonfigurasjoner.
 reviewed: false

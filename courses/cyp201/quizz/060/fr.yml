@@ -1,9 +1,9 @@
-question: Quelle est la fonction utilisée pour dériver une paire de clés enfant depuis une paire de clé parent au sein d'un portefeuille HD ?
-answer: HMAC-SHA512.
+question: Quel type de clé est associé au préfixe zpub ?
+answer: Une clé publique étendue pour SegWit V0 sur le Mainnet
 wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
+  - Une clé privée étendue pour SegWit V1 sur le Mainnet
+  - Une clé publique étendue pour Legacy sur le Testnet
+  - Une clé publique étendue pour SegWit V2 sur le Testnet
 explanation: |
-  HMAC-SHA512 est utilisée pour dériver une paire de clés enfant à partir d'une paire de clés parent dans un portefeuille HD.
+  Le préfixe zpub désigne une clé publique étendue pour les scripts SegWit V0 sur le Mainnet.
 reviewed: false

@@ -1,8 +1,9 @@
-question: Dalam BIP mana ide frase pemulihan, atau frase mnemonik (12/24 kata), diusulkan?
-answer: BIP39.
+question: Apa yang diizinkan oleh bendera sighash SIGHASH_NONE?
+answer: Memodifikasi keluaran setelah penandatanganan
 wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
+  - Memodifikasi masukan setelah penandatanganan
+  - Menutupi semua masukan dan keluaran
+  - Membatasi modifikasi hanya pada satu keluaran
 explanation: |
-  BIP39 memperkenalkan frase mnemonik pemulihan 24 kata, untuk memfasilitasi pencadangan kunci bagi pengguna dompet HD.
+  SIGHASH_NONE hanya menutupi masukan, meninggalkan keluaran dapat dimodifikasi setelah penandatanganan.
+ditinjau: false

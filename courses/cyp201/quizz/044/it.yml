@@ -1,9 +1,9 @@
-question: Come costruire la frase di recupero (mnemonica) in binario?
-answer: Concatena il numero casuale con il suo checksum alla fine.
+question: Cos'è l'entropia nel contesto della crittografia?
+answer: Una misura dell'imprevedibilità associata a un processo casuale
 wrong_answers:
-  - Concatena il numero casuale con il suo checksum all'inizio.
-  - Concatena il numero casuale con un seed.
-  - Dividi il numero casuale in due parti e inserisci il checksum nel mezzo.
+  - Un metodo per criptare dati sensibili
+  - Un algoritmo per calcolare chiavi pubbliche
+  - Una tecnica di compressione dei dati
 explanation: |
-  Per generare una frase mnemonica binaria, concatena il checksum alla fine del numero casuale prima di convertirlo in parole.
-reviewed: false
+  In crittografia, l'entropia quantifica il livello di incertezza o caos in una fonte casuale, essenziale per generare chiavi sicure.
+recensito: false

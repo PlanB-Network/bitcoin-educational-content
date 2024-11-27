@@ -1,8 +1,9 @@
-question: Qual prefixo ou HRP corresponde a um endereço padrão SegWit?
-answer: bc
+question: O que o índice /84'/ no nível 1 de um caminho de derivação indica?
+answer: O padrão P2WPKH (SegWit v0)
 wrong_answers:
-  - 1
-  - 0x
-  - btc
+  - O padrão P2TR (SegWit v1)
+  - Uma moeda de teste Bitcoin
+  - Uma moeda principal Bitcoin
 explanation: |
-  O prefixo bc é usado para endereços SegWit na rede principal do Bitcoin.
+  O índice /84'/ é definido no BIP84 para indicar o uso do padrão SegWit v0 com endereços P2WPKH no nível 1 (aquele do alvo da derivação).
+reviewed: false

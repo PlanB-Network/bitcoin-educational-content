@@ -1,9 +1,9 @@
-question: Qual è la funzione utilizzata per derivare una coppia di chiavi figlio da una coppia di chiavi genitore all'interno di un portafoglio HD?
-answer: HMAC-SHA512.
+question: Che tipo di chiave è associata al prefisso zpub?
+answer: Una chiave pubblica estesa per SegWit V0 sulla Mainnet
 wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
+  - Una chiave privata estesa per SegWit V1 sulla Mainnet
+  - Una chiave pubblica estesa per Legacy sul Testnet
+  - Una chiave pubblica estesa per SegWit V2 sul Testnet
 explanation: |
-  HMAC-SHA512 è utilizzato per derivare una coppia di chiavi figlio da una coppia di chiavi genitore in un portafoglio HD.
-reviewed: false
+  Il prefisso zpub indica una chiave pubblica estesa per script SegWit V0 sulla Mainnet.
+recensito: false

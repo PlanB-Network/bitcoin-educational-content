@@ -1,8 +1,9 @@
-question: Hva skjer hvis jeg bruker en HD-lommebok med en passfrase og jeg mister den passfrasen?
-answer: Mine bitcoins er tapt for alltid.
+question: Hvor mange bits er sjekksummen for en entropi på 128 bits?
+answer: 4 bits
 wrong_answers:
-  - Det er ikke et problem, jeg kan fortsatt få tilgang til mine bitcoins bare med min mnemoniske frase.
-  - Jeg kan tilbakestille passfrasen med min private nøkkel.
-  - Jeg kan gjenopprette mine bitcoins ved å bruke en lommebok uten en passfrase.
+  - 8 bits
+  - 16 bits
+  - 6 bits
 explanation: |
-  Hvis passfrasen er tapt, er tilgangen til bitcoins permanent tapt, ettersom den er nødvendig for å utlede de private nøklene.
+  Lengden på sjekksummen beregnes ved hjelp av formelen CS = ENT / 32, som tilsvarer 4 bits for en entropi på 128 bits.
+reviewed: false

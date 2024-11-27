@@ -1,8 +1,9 @@
-question: Thông tin nào được tính toán từ seed bằng cách áp dụng HMAC-SHA512?
-answer: Khóa chính và mã chuỗi chính của ví.
+question: Điều gì xảy ra nếu bạn mất cụm mật khẩu liên kết với ví HD của mình?
+answer: Bạn sẽ mất quyền truy cập vào các bitcoin liên kết với ví đó
 wrong_answers:
-  - Khóa mở rộng của ví.
-  - Xpub và xprv của ví.
-  - Mã chữ ký khóa riêng.
+  - Bạn vẫn có thể truy cập ví chỉ với cụm từ ghi nhớ
+  - Bạn có thể đặt lại cụm mật khẩu bằng cách liên hệ với hỗ trợ Bitcoin
+  - Bạn chỉ mất các giao dịch chưa được xác nhận
 explanation: |
-  Từ seed, HMAC-SHA512 tạo ra khóa chính và mã chuỗi chính, đây là cơ sở cho việc tạo khóa.
+  Cụm mật khẩu là một thành phần thiết yếu trong việc tạo khóa. Không có nó, việc tái tạo các khóa và do đó truy cập vào các bitcoin là không thể.
+reviewed: false

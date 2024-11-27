@@ -1,11 +1,8 @@
-question: Đặc điểm của một PRNG (Pseudo Random Number Generator - Bộ sinh số ngẫu nhiên giả mạo) bảo mật mật mã là gì?
-
-answer: Nó phải không thể dự đoán trước, ngẫu nhiên về mặt thống kê, và kháng lại các cuộc tấn công.
-
+question: Vai trò chính của một ví Bitcoin là gì?
+answer: Quản lý và bảo mật khóa riêng
 wrong_answers:
-  - Nó phải nhanh, có thể sử dụng trong cloud, và mã nguồn mở.
-  - Nó phải không xác định, dựa trên hiện tượng vật lý, và có khả năng mở rộng.
-  - Nó phải dựa trên phần cứng, được tạo ra bởi một bộ xử lý, và có thể đảo ngược.
-
-explanation:
-  Một PRNG bảo mật mật mã phải không thể dự đoán trước, kháng lại được ngay cả khi một số kết quả được tiết lộ, và có một chu kỳ đủ dài để tránh lặp lại các chuỗi.
+  - Lưu trữ bitcoin của người dùng
+  - Đảm bảo tính bảo mật của giao dịch tự động
+  - Tạo bitcoin cho mỗi người dùng
+explanation: |
+  Một ví Bitcoin không trực tiếp lưu trữ bitcoin mà quản lý các khóa riêng cần thiết để mở khóa các UTXO đại diện cho bitcoin.

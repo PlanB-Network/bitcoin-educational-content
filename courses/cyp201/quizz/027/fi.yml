@@ -1,9 +1,9 @@
-question: Mitä piste V edustaa digitaalisen allekirjoituksen prosessissa käyttäen ECDSA; ta esimerkkinä tässä luvussa?
-answer: Piste, joka lasketaan nonce v ja generaattoripiste G avulla (V = v.G).
+question: Mikä ECDSA-allekirjoituksen haavoittuvuus korjattiin SegWitillä?
+answer: Muunneltavuus
 wrong_answers:
-  - Piste, joka johdetaan suoraan julkisesta avaimesta.
-  - Allekirjoitetun viestin hajautusarvo.
-  - Tuloksena kahden pisteen yhteenlaskusta elliptisellä käyrällä.
+  - Erän varmennus
+  - Aggregoinnin puute
+  - Allekirjoitusten liiallinen koko
 explanation: |
-  V on laskutoimituksen tulos, jossa nonce kerrotaan generaattoripisteellä elliptisellä käyrällä.
+  SegWit korjasi ECDSA-allekirjoitusten muunneltavuuden, mahdollistaen käyttötapauksia kuten Lightning Networkin.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Comment est déterminée une clé privée Bitcoin ?
-answer: Elle est déterminée à partir d'un nombre aléatoire ou pseudo-aléatoire.
+question: Quelle est la différence entre une clé publique compressée et non compressée ?
+answer: La clé publique compressée utilise uniquement l'abscisse x et la parité de y
 wrong_answers:
-  - Elle est déterminée par addition et doublement de points sur la courbe elliptique depuis sa clé publique.
-  - Elle est déterminée en hachant sa clé publique.
-  - Elle est déterminée par l'algorithme SHA-256.
+  - La clé publique compressée est plus sécurisée
+  - La clé publique compressée utilise uniquement l'ordonnée y et la parité de x
+  - La clé publique compressée nécessite une clé privée plus grande
 explanation: |
-  Une clé privée Bitcoin est générée de manière aléatoire ou pseudo-aléatoire, ce qui garantit son caractère unique et sécurisé.
+  Une clé publique compressée conserve uniquement l'abscisse x et un bit pour la parité de y, réduisant ainsi sa taille à 33 octets.
 reviewed: false

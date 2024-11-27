@@ -1,8 +1,8 @@
-question: 用于生成地址的函数是什么？
-answer: HASH160。
+question: 在派生路径中，撇号（'）或“h”代表什么意思？
+answer: 一个加固的派生
 wrong_answers:
-  - HASH256。
-  - HASH512。
-  - SHA256。
+  - 一个普通的派生
+  - 一个外部的派生
+  - 一个非标准的派生
 explanation: |
-  HASH160函数结合了SHA256和RIPEMD-160，用于从公钥生成比特币地址。
+  撇号表示该派生是加固的，需要父私钥来生成子密钥。

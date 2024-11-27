@@ -1,9 +1,8 @@
-question: Apa nama konstruksi dari fungsi hash SHA256?
-answer: Konstruksi Merkle-Damgard.
+question: Apa konstruksi yang digunakan oleh SHA256 untuk memproses pesan dengan panjang yang berubah-ubah?
+answer: Konstruksi Merkle-Damgård
 wrong_answers:
-  - Konstruksi Sponge.
-  - Konstruksi Fungsi Hash Iteratif (HAIFA).
-  - Konstruksi Feistel.
+  - Konstruksi Euclidean
+  - Konstruksi Rivest-Shamir-Adleman
+  - Konstruksi Knuth-Morris-Pratt
 explanation: |
-  SHA256 menggunakan Konstruksi Merkle-Damgard, sebuah struktur yang umum digunakan untuk menciptakan fungsi hash yang aman.
-reviewed: false
+  Konstruksi Merkle-Damgård memungkinkan transformasi sebuah fungsi kompresi menjadi fungsi hash untuk pesan dengan panjang yang variabel.

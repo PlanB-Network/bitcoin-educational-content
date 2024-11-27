@@ -1,9 +1,9 @@
-question: Quelle est la taille d'une clé publique Bitcoin avec son préfixe (non-compressée) ?
-answer: 520 bits.
+question: Quel est le point commun utilisé par tous les participants pour calculer une clé publique dans Bitcoin ?
+answer: Le point générateur G
 wrong_answers:
-  - 512 octets.
-  - 256 bits.
-  - 512 bits.
+  - Le hash SHA256
+  - Une phrase mnémonique
+  - La clé publique compressée
 explanation: |
-  Une clé publique Bitcoin non compressée avec son préfixe fait 520 bits, comprenant les coordonnées x et y du point sur la courbe elliptique.
+  Le point générateur G de la courbe elliptique secp256k1 est utilisé pour calculer les clés publiques à partir des clés privées.
 reviewed: false

@@ -1,9 +1,9 @@
-question: What does a digital signature prove in the Bitcoin system via the scriptSig?
-answer: The possession of the private key associated with a specific public key.
+question: Which digital signature algorithm was used at the launch of Bitcoin?
+answer: ECDSA
 wrong_answers:
-  - The possession of a Bitcoin address.
-  - The ability to mine a Bitcoin block.
-  - The validity of a Bitcoin transaction.
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  A digital signature proves that the user has the private key without having to reveal it, ensuring the authenticity of the transaction.
+  Bitcoin initially used ECDSA, a signature protocol based on elliptic curves, before the introduction of Schnorr signatures in 2021.
 reviewed: false

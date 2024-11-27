@@ -1,9 +1,9 @@
-question: What is the function used to generate an address?
-answer: HASH160.
+question: What does an apostrophe (') or the h in a derivation path mean?
+answer: A hardened derivation
 wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
+  - A normal derivation
+  - An external derivation
+  - A non-standard derivation
 explanation: |
-  The HASH160 function, which combines SHA256 and RIPEMD-160, is used to generate Bitcoin addresses from public keys.
+  An apostrophe indicates that the derivation is hardened, requiring a parent private key to generate the child key.
 reviewed: false

@@ -1,9 +1,8 @@
-question: Hva kalles konstruksjonen av SHA256 hash-funksjonen?
-answer: Merkle-Damgård-konstruksjonen.
+question: Hva er konstruksjonen som brukes av SHA256 for å behandle meldinger av vilkårlig lengde?
+answer: Merkle-Damgård-konstruksjonen
 wrong_answers:
-  - Svampkonstruksjonen.
-  - Iterativ Hash Funksjoner Konstruksjon (HAIFA).
-  - Feistel-konstruksjonen.
+  - Den euklidske konstruksjonen
+  - Rivest-Shamir-Adleman-konstruksjonen
+  - Knuth-Morris-Pratt-konstruksjonen
 explanation: |
-  SHA256 bruker Merkle-Damgård-konstruksjonen, en struktur som ofte brukes til å lage sikre hash-funksjoner.
-reviewed: false
+  Merkle-Damgård-konstruksjonen gjør det mulig å transformere en kompresjonsfunksjon til en hashfunksjon for meldinger med variabel lengde.

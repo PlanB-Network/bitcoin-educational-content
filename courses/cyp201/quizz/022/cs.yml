@@ -1,9 +1,9 @@
-question: Jak je určen veřejný klíč Bitcoinu?
-answer: Určuje se přičítáním a zdvojováním bodů na eliptické křivce od generátorového bodu pomocí soukromého klíče.
+question: Jak se vypočítá veřejný klíč z privátního klíče?
+answer: Pomocí skalárního násobení na eliptické křivce
 wrong_answers:
-  - Určuje se z náhodného nebo pseudonáhodného čísla.
-  - Určuje se hašováním jeho soukromého klíče.
-  - Určuje se hašováním jeho seedu.
+  - Aplikací hash funkce na privátní klíč
+  - Prostřednictvím asymetrického šifrování
+  - Opakovaným sčítáním číselných hodnot
 explanation: |
-  Veřejný klíč je generován z soukromého klíče prostřednictvím operací na eliptické křivce, začínajíc od generátorového bodu.
+  Veřejný klíč je získán skalárním násobením privátního klíče s generátorovým bodem G na eliptické křivce.
 reviewed: false

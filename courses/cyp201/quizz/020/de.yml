@@ -1,9 +1,9 @@
-question: Wie wird ein Bitcoin-Privatschlüssel bestimmt?
-answer: Er wird aus einer zufälligen oder pseudozufälligen Zahl abgeleitet.
+question: Was ist der Unterschied zwischen einem komprimierten und einem unkomprimierten öffentlichen Schlüssel?
+answer: Der komprimierte öffentliche Schlüssel verwendet nur die x-Koordinate und die Parität von y.
 wrong_answers:
-  - Er wird durch Addition und Verdopplung von Punkten auf der elliptischen Kurve aus seinem öffentlichen Schlüssel bestimmt.
-  - Er wird durch Hashing seines öffentlichen Schlüssels bestimmt.
-  - Er wird durch den SHA-256-Algorithmus bestimmt.
+  - Der komprimierte öffentliche Schlüssel ist sicherer
+  - Der komprimierte öffentliche Schlüssel verwendet nur die y-Koordinate und die Parität von x
+  - Der komprimierte öffentliche Schlüssel erfordert einen größeren privaten Schlüssel
 explanation: |
-  Ein Bitcoin-Privatschlüssel wird auf eine zufällige oder pseudozufällige Weise generiert, was seine Einzigartigkeit und Sicherheit gewährleistet.
+  Ein komprimierter öffentlicher Schlüssel behält nur die x-Koordinate und ein Bit für die Parität von y bei, wodurch seine Größe auf 33 Bytes reduziert wird.
 reviewed: false

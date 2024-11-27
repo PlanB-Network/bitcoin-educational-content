@@ -1,8 +1,8 @@
-question: Mikä on SHA256-hajautusfunktion tulosteen koko?
-answer: 256 bittiä.
+question: Mikä ominaisuus varmistaa, että syötteen palauttaminen hajautuksesta on laskennallisesti mahdotonta?
+answer: Esikuvan vastustuskyky
 wrong_answers:
-  - 256 tavua.
-  - 512 bittiä.
-  - 512 tavua.
+  - Yhteentörmäyksen vastustuskyky
+  - Lumivyöryefekti
+  - Toisen esikuvan vastustuskyky
 explanation: |
-  SHA-256 tuottaa kiinteän 256 bitin tulosteen riippumatta syötteen koosta.
+  Esikuvan vastustuskyky varmistaa, että alkuperäisen viestin löytäminen sen hajautuksesta on käytännössä mahdotonta.

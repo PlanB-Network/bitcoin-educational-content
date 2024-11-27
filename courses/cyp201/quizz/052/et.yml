@@ -1,9 +1,9 @@
-question: Millist pseudo-juhuslikku funktsiooni kasutatakse PBKDF2-s, et arvutada Bitcoin HD rahakoti seemet?
-answer: HMAC-SHA512.
+question: Mis on peibutusrahakoti kasutamise eesmärk koos paroolilausega?
+answer: Simuleerida väikese summaga rahakotti füüsilise sundimise korral
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Lisada tehingute automaatne varundamine
+  - Genereerida täiendav mnemooniline fraas
+  - Kaitsta UTXO-sid topeltkulutamise eest
 explanation: |
-  HMAC-SHA512 on pseudo-juhuslik funktsioon, mida kasutatakse PBKDF2-s, et genereerida Bitcoin HD rahakoti seemet.
+  Peibutusrahakotti kasutatakse ründaja tähelepanu kõrvalejuhtimiseks, pakkudes juurdepääsu rahakotile, mis sisaldab väikest kogust bitcoine.
 reviewed: false

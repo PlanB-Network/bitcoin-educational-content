@@ -1,9 +1,9 @@
-question: Thao tác nối chuỗi bao gồm những gì?
-answer: Đặt hai toán hạng liền kề nhau.
+question: Hàm băm nào được HMAC sử dụng trong bối cảnh của Bitcoin?
+answer: SHA512
 wrong_answers:
-  - Cộng hai toán hạng.
-  - Chia hai toán hạng.
-  - Trừ hai toán hạng.
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  Thao tác nối chuỗi bao gồm việc đặt hai toán hạng cạnh nhau mà không thay đổi chúng, được sử dụng rộng rãi trong mật mã học.
+  HMAC sử dụng SHA512 để tạo ra một băm an toàn 512-bit.
 reviewed: false

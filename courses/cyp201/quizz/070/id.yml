@@ -1,9 +1,8 @@
-question: Apa itu alamat penerimaan (umumnya)?
-answer: Sebuah hash dari kunci publik dengan metadata yang dimasukkan ke dalam format tertentu.
+question: Apa yang diwakili oleh kedalaman 0 dalam hierarki dompet HD?
+answer: Kunci induk dan kode rantai induk
 wrong_answers:
-  - Sebuah hash dari kunci privat dengan metadata yang dimasukkan ke dalam format tertentu.
-  - Sebuah hash dari kunci ekstensi dengan metadata yang dimasukkan ke dalam format tertentu.
-  - Sebuah hash dari kode rantai dengan metadata.
+  - Rantai alamat eksternal
+  - Akun default
+  - Jenis mata uang
 explanation: |
-  Alamat penerimaan umumnya adalah hash dari kunci publik yang terkait dengan metadata, digunakan dalam scriptPubKey untuk menetapkan kondisi.
-reviewed: false
+  Kedalaman 0 sesuai dengan kunci induk dan kode rantai induk, yang merupakan titik awal untuk semua turunan dalam dompet HD.

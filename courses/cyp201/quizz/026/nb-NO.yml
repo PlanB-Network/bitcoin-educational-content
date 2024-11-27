@@ -1,9 +1,9 @@
-question: Hvorfor er det viktig å aldri gjenbruke en nonce i ECDSA-algoritmen?
-answer: Å gjenbruke en nonce kompromitterer sikkerheten og kan eksponere den private nøkkelen.
+question: Hva er utgangspunktet for å beregne en ECDSA-signatur?
+answer: Meldingshashen
 wrong_answers:
-  - Å gjenbruke en nonce reduserer ytelsen.
-  - Å gjenbruke en nonce gjør signaturene lengre.
-  - Å gjenbruke en nonce øker størrelsen på den offentlige nøkkelen.
+  - Den offentlige nøkkelen
+  - En fast nonce
+  - En tilpasset elliptisk kurve
 explanation: |
-  Å gjenbruke en nonce i ECDSA kan tillate en angriper å oppdage den private nøkkelen, noe som kompromitterer sikkerheten.
+  En ECDSA-signatur starter med å beregne hashen av meldingen som skal signeres, ofte med SHA256.
 reviewed: false

@@ -1,9 +1,8 @@
-question: Um die Werte des Master-Schlüssels und des Master-Chain-Codes zu berechnen, ist die erste Eingabe für die HMAC-SHA512-Funktion der Seed. Was ist der zweite Eingabewert dieser Funktion, der als Schlüssel dient?
-answer: „Bitcoin seed“.
+question: Was ist die Hauptfunktion der Passphrase in einem Bitcoin-HD-Wallet?
+answer: Die Ableitung des Schlüssels zu modifizieren, um die Sicherheit zu erhöhen
 wrong_answers:
-  - Die mnemonische Phrase.
-  - Das Passwort.
-  - „Seed“.
+  - Ausstehende Transaktionen entschlüsseln
+  - Die UTXOs des Wallets generieren
+  - Zugriff auf das Wallet mit Gesichtserkennung schützen
 explanation: |
-  Der String „Bitcoin seed“ wird als Schlüssel in HMAC-SHA512 verwendet, um den Master-Schlüssel und den Master-Chain-Code aus dem Seed abzuleiten.
-reviewed: false
+  Die Passphrase fungiert als ein zweiter Sicherheitsfaktor, indem sie den Ableitungsseed des Schlüssels verändert, um den Zugriff auf das Wallet zu verhindern, falls die mnemonische Phrase kompromittiert wird.

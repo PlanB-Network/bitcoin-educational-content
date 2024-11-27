@@ -1,9 +1,9 @@
-question: Jaký je cíl používání digitálních podpisů v Bitcoinu?
-answer: Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní soukromý klíč, aniž by tento soukromý klíč odhalil.
+question: Která eliptická křivka je používána v protokolu Bitcoin?
+answer: secp256k1
 wrong_answers:
-  - Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní veřejný klíč, aniž by tento veřejný klíč odhalil.
-  - Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní přijímací adresu, aniž by tuto přijímací adresu odhalil.
-  - Vytvořit matematický důkaz, který ospravedlňuje, že uživatel skutečně vlastní peněženku.
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  Digitální podpisy v Bitcoinu umožňují dokázat, že uživatel vlastní soukromý klíč spojený s veřejným klíčem, aniž by tento soukromý klíč odhalil.
+  Bitcoin používá křivku secp256k1, definovanou rovnicí y² = x³ + 7, pro své kryptografické operace.
 reviewed: false

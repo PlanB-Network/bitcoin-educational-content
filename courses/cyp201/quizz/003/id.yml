@@ -1,9 +1,9 @@
-question: Dalam protokol Bitcoin, apa itu HASH160?
-answer: Sebuah hash SHA256 diikuti oleh hash RIPEMD160.
+question: Apa perbedaan utama antara SHA256 dan RIPEMD160?
+answer: RIPEMD160 menghasilkan hash yang lebih pendek dibandingkan SHA256
 wrong_answers:
-  - Sebuah hash RIPEMD160 ganda.
-  - Sebuah hash SHA256 ganda.
-  - Sebuah hash MD5 diikuti oleh hash SHA256.
+  - SHA256 sudah usang tidak seperti RIPEMD160
+  - RIPEMD160 hanya digunakan dalam mekanisme Proof-of-Work
+  - SHA256 tidak pernah digabungkan dengan fungsi hashing lainnya
 explanation: |
-  HASH160 menggabungkan hash SHA256 diikuti oleh RIPEMD160, digunakan khusus untuk menghasilkan alamat Bitcoin.
-reviewed: false
+  RIPEMD160 menghasilkan hash 160-bit, sementara SHA256 menghasilkan hash 256-bit.
+ditinjau: false

@@ -1,9 +1,8 @@
-question: Quais metadados são adicionados à chave estendida além do seu payload?
-answer: Versão / profundidade / impressão digital do pai / índice / checksum.
+question: Qual função é usada para derivar a semente a partir da frase mnemônica?
+answer: PBKDF2 com HMAC-SHA512
 wrong_answers:
-  - Versão / índice.
-  - Versão / profundidade / separador / checksum.
-  - Nenhum metadado é adicionado.
+  - SHA256 sozinho
+  - Duplo SHA256
+  - AES-256
 explanation: |
-  A chave estendida inclui várias peças de metadados. Há a versão, profundidade, impressão digital do pai, índice e checksum para facilitar a derivação de chaves.
-reviewed: false
+  A semente é gerada usando a função PBKDF2 com HMAC-SHA512 e 2048 iterações, a partir da frase mnemônica e da senha.

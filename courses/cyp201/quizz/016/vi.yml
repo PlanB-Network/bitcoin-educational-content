@@ -1,9 +1,9 @@
-question: Để áp dụng đường cong elliptic này vào các ứng dụng mật mã, chúng ta phải định nghĩa nó trên trường nào?
-answer: Một trường hữu hạn của các số nguyên dương.
+question: Thuật toán chữ ký nào đã được giới thiệu trong Bitcoin với Taproot?
+answer: Schnorr signature scheme
 wrong_answers:
-  - Trường của các số thực.
-  - Một trường hữu hạn của các số thực.
-  - Một trường phức.
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  Trong Bitcoin, đường cong elliptic secp256k1 được định nghĩa trên một trường hữu hạn của các số nguyên dương modulo một số nguyên tố để tránh các phép tính xấp xỉ và đảm bảo an ninh.
+  Thuật toán chữ ký Schnorr đã được giới thiệu vào tháng 11 năm 2021 với bản cập nhật Taproot.
 reviewed: false

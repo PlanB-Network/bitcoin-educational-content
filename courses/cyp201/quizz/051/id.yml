@@ -1,8 +1,8 @@
-question: Apa fungsi derivasi kunci yang digunakan untuk menurunkan seed dari frasa mnemonik dan passphrase opsional?
-answer: PBKDF2.
+question: Apa perbedaan utama antara passphrase dan kode PIN untuk dompet Bitcoin?
+answer: Passphrase mengubah derivasi kunci, bukan kode PIN
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - Kode PIN terkait dengan frasa mnemonik
+  - Kode PIN digunakan untuk mengenkripsi transaksi tetapi tidak untuk passphrase
+  - Kode PIN menghasilkan alamat Bitcoin
 explanation: |
-  Fungsi PBKDF2 digunakan untuk menurunkan seed dari dompet HD dari frasa mnemonik dan passphrase opsional.
+  Berbeda dengan kode PIN, passphrase secara langsung terlibat dalam proses derivasi kunci dan mengubah kunci dompet.

@@ -1,8 +1,8 @@
-question: Hva er det siste steget for å opprette en Bech32 Bitcoin-adresse?
-answer: Legg til HRP bc og en separator 1.
+question: Hva er hovedfunksjonen til output script descriptors?
+answer: Å fullstendig beskrive et output script og gi informasjonen som trengs for å gjenopprette en lommebok
 wrong_answers:
-  - Legg til SegWit-versjonen i begynnelsen.
-  - Legg til sjekksummen i begynnelsen av adressen.
-  - Legg til et 1 prefiks.
+  - Automatisk generere multisignaturadresser
+  - Erstatte den mnemoniske frasen i sikkerhetskopier av lommebøker
+  - Forenkle beregningene av digitale signaturer
 explanation: |
-  Det siste steget i konstruksjonen av en Bech32-adresse er å legge til HRP (Human Readable Part), bc for Bitcoin, etterfulgt av en separator 1.
+  Descriptors inneholder all nødvendig informasjon for å spore et bestemt script, inkludert avledningsveien og nøklene som brukes, men ikke gjenopprettingsfrasen.

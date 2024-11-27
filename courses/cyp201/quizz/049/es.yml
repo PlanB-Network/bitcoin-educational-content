@@ -1,9 +1,8 @@
-question: ¿Cómo se debe elegir una frase de paso efectiva?
-answer: Debe ser larga, diversa y aleatoria, sin ninguna conexión con el usuario.
+question: ¿Cuál es el propósito de la frase mnemotécnica en una cartera HD de Bitcoin?
+answer: Derivar determinísticamente todas las claves
 wrong_answers:
-  - Debe ser fácil de recordar y relacionada con el entorno del usuario.
-  - Debe ser corta pero incluir números.
-  - Debe contener al menos 10 dígitos.
+  - Para firmar transacciones directamente
+  - Para cifrar direcciones de Bitcoin
+  - Para generar un hash para los UTXOs
 explanation: |
-  Una frase de paso efectiva debe ser larga (de 20 a 40 caracteres), diversa y aleatoria para proporcionar la máxima seguridad, similar a una buena contraseña.
-reviewed: false
+  La frase mnemotécnica permite la derivación de todas las claves privadas y públicas en una cartera, facilitando así la copia de seguridad y la recuperación.

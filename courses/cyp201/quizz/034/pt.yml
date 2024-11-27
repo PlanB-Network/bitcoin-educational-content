@@ -1,9 +1,8 @@
-question: O que é uma carteira JBOK no contexto do Bitcoin?
-answer: Uma carteira que agrupa chaves privadas determinadas de maneira aleatória, sem nenhum vínculo entre elas.
+question: Qual é a flag de sighash mais comumente usada em transações Bitcoin?
+answer: SIGHASH_ALL
 wrong_answers:
-  - Uma carteira que deriva chaves de maneira hierárquica a partir de uma única semente.
-  - Uma carteira que deriva chaves a partir de chaves anteriores.
-  - Uma carteira que usa apenas uma frase mnemônica para derivar chaves.
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  Uma carteira JBOK (Just a Bunch Of Keys) contém chaves privadas que são geradas de forma aleatória e independente uma da outra, ao contrário das carteiras HD.
-reviewed: false
+  SIGHASH_ALL é a flag de sighash padrão, cobrindo todas as entradas e saídas de uma transação, impedindo quaisquer modificações.

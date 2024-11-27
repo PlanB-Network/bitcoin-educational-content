@@ -1,9 +1,9 @@
-question: ¿Cuál es la función utilizada para generar una dirección?
-answer: HASH160.
+question: ¿Qué significa un apóstrofo (') o la h en una ruta de derivación?
+answer: Una derivación endurecida
 wrong_answers:
-  - HASH256.
-  - HASH512.
-  - SHA256.
+  - Una derivación normal
+  - Una derivación externa
+  - Una derivación no estándar
 explanation: |
-  La función HASH160, que combina SHA256 y RIPEMD-160, se utiliza para generar direcciones de Bitcoin a partir de claves públicas.
+  Un apóstrofo indica que la derivación es endurecida, requiriendo una clave privada padre para generar la clave hija.
 reviewed: false

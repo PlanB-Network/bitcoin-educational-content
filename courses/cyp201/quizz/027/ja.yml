@@ -1,9 +1,9 @@
-question: この章でのECDSAを例に挙げたデジタル署名プロセスにおいて、点Vは何を表していますか？
-answer: ノンスvと生成点Gから計算された点（V = v.G）。
+question: SegWitによって修正されたECDSA署名の脆弱性は何ですか？
+answer: 変更可能性
 wrong_answers:
-  - 公開鍵から直接導出された点。
-  - 署名されたメッセージのハッシュ。
-  - 楕円曲線上の二つの点の加算結果。
+  - バッチ検証
+  - 集約の欠如
+  - 署名の過大なサイズ
 explanation: |
-  Vは、楕円曲線上の生成点にノンスを乗算した計算結果です。
-  レビュー済み: false
+  SegWitはECDSA署名の変更可能性を修正し、Lightning Networkなどの用途を可能にしました。
+reviewed: false

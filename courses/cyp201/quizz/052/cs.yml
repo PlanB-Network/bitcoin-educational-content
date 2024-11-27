@@ -1,9 +1,9 @@
-question: Jaká pseudonáhodná funkce se používá v PBKDF2 pro výpočet seedu Bitcoin HD peněženky?
-answer: HMAC-SHA512.
+question: Jaký je účel použití návnadové peněženky s heslovou frází?
+answer: Simulovat peněženku s malým množstvím v případě fyzického nátlaku
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Přidat automatickou zálohu transakcí
+  - Generovat dodatečnou mnemonickou frázi
+  - Chránit UTXO před dvojitým výdajem
 explanation: |
-  HMAC-SHA512 je pseudonáhodná funkce používaná v PBKDF2 pro generování seedu Bitcoin HD peněženky.
+  Návnadová peněženka se používá k odvedení pozornosti útočníka tím, že poskytne přístup k peněžence obsahující malé množství bitcoinů.
 reviewed: false

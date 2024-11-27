@@ -1,9 +1,8 @@
-question: Apa koordinat dari titik generator G yang digunakan pada kurva eliptik secp256k1?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Berapa ukuran kunci privat mentah yang digunakan pada Bitcoin?
+answer: 256 bit
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bit
+  - 512 bit
+  - 1024 bit
 explanation: |
-  Titik generator G adalah titik yang telah ditentukan sebelumnya pada kurva eliptik secp256k1, digunakan untuk menghasilkan kunci publik dari kunci privat dalam Bitcoin.
-reviewed: false
+  Kunci privat dalam Bitcoin adalah bilangan bulat acak 256-bit, memastikan ruang kunci yang cukup besar untuk menjamin keamanan.

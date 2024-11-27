@@ -1,9 +1,9 @@
-question: Jaké hašovací funkce se používají v protokolu Bitcoin?
-answer: SHA-256, RIPEMD-160
+question: Která vlastnost hašovacích funkcí je demonstrována úplnou změnou haše, když se zpráva mírně změní?
+answer: Lavinový efekt
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - Odolnost proti kolizím
+  - Odolnost proti druhému obrazu
+  - Délka
 explanation: |
-  V Bitcoinu se používají SHA-256 a RIPEMD-160.
+  Malá změna ve vstupu vede k radikální změně v haši, tomu se říká lavinový efekt.
 reviewed: false

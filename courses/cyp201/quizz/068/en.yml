@@ -1,9 +1,9 @@
-question: What is the purpose of an external chain in the derivation process?
-answer: To isolate addresses intended to be public.
+question: What is the constraint for deriving a child public key from a parent public key?
+answer: The child key must be normal
 wrong_answers:
-  - To isolate change addresses.
-  - To manage incoming transactions.
-  - To separate private keys from public keys.
+  - The child key must be hardened
+  - The chain code must be identical to that of the parent key
+  - The process must include the parent private key
 explanation: |
-  The external chain is used to derive addresses intended to be public, such as those for receiving payments.
+  A child public key can only be derived from a parent public key if it is normal, not hardened.
 reviewed: false

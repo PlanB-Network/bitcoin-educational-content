@@ -1,9 +1,13 @@
-question: Hàm nén SHA256 bao gồm bao nhiêu vòng?
-answer: 64 vòng.
+question: Tại sao SHA256 áp dụng một quá trình tiền xử lý cho thông điệp đầu vào?
+
+answer: Để đảm bảo độ dài là bội số của 512 bit
+
 wrong_answers:
-  - 10 vòng.
-  - 128 vòng.
-  - 150 vòng.
+  - Để xác minh tính toàn vẹn của thông điệp
+  - Để mã hóa dữ liệu trước khi băm
+  - Để tăng kích thước của các băm được tạo ra
+
 explanation: |
-  Hàm nén SHA256 thực hiện 64 vòng cho mỗi khối dữ liệu được xử lý.
+  Quá trình tiền xử lý điều chỉnh độ dài của thông điệp bằng cách thêm các bit đệm và một biểu diễn nhị phân của độ dài của nó.
+
 reviewed: false

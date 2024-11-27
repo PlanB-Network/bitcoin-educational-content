@@ -901,16 +901,6 @@ Vuoden 1796 pankkipaniikin jälkeen tapahtui ilmiö, jossa kaikki yrittivät sii
 
 Keskuspankit ovat kehittyneet viimeisenä lainanantajana toimiviksi tahoiksi, keskeyttäen valuuttansa vaihdettavuuden kultaan. Vaikka tämä toimenpide oli alun perin tarkoitettu väliaikaiseksi ratkaisuksi, se lopulta muuttui pysyväksi, merkiten viimeisen lainanantajan käsitteen syntyä. Tämä muutos on muovannut keskuspankkeja, kuten me ne tänään tunnemme. Kuitenkin herkemmissä talouksissa tämä kyky painaa rahaa mielin määrin voi johtaa ei-toivottuihin seurauksiin, kuten hyperinflaatioon, jos sitä käytetään vastuuttomasti.
 
-## Arvioi kurssi
-
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Loppukoe
-
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Kirjat ja Resurssit
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -932,3 +922,52 @@ Hyperinflaatio on kiehtova aihe, jota on tutkittu eri historiallisten tapahtumie
 - "Rahan tuho: Saksan hyperinflaatio ja keskiluokan tuhoutuminen" Frederick Taylorin kirjoittama. Narratiivinen tutkimus hyperinflaation sosiaalisista ja taloudellisista vaikutuksista saksalaiseen yhteiskuntaan.
 
 - "Valuuttalautakunnat kehitysmaille: Käsikirja" Steve Hanken ja Kurt Schulerin kirjoittama. Vaikka keskitytään valuuttalautakuntiin, tämä kirja tarjoaa näkökulman hyperinflaatiotilanteiden välttämiseen.
+
+# Yhteenveto
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Arvioi tämä kurssi
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Loppukoe
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Yhteenveto
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Onnittelut kurssin suorittamisesta!
+
+Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
+
+Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
+
+Jatkaaksesi Bitcoin-universumin syvällistä tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
+
+#### Tutustu F. Bastiatin elämään kurssilla
+
+https://planb.network/courses/eco102
+
+#### Tutustu Itävallan koulukunnan talousajatteluun kurssilla
+
+https://planb.network/courses/eco201
+
+#### Tutustu Bitcoiniin ja sen perusteisiin kurssilla
+
+https://planb.network/courses/btc101
+
+#### Päivitä verkkotietoturvasi kurssilla
+
+https://planb.network/courses/scu101
+
+#### Hanki ja turvaa ensimmäiset bitcoinisi kurssilla
+
+https://planb.network/courses/btc102
+
+#### Tutustu Bitcoinin alkuperän historiaan kurssilla
+
+https://planb.network/courses/his201

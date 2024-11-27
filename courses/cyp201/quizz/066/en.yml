@@ -1,9 +1,9 @@
-question: Regarding the notation of a derivation path, what does the apostrophe or the H noted to the right of the number mean? Example m/84'/0'.
-answer: It indicates a hardened derivation.
+question: Which part of the HMAC-SHA512 output is used as the child chain code?
+answer: The last 32 bytes
 wrong_answers:
-  - It indicates a normal derivation.
-  - It's there for decoration.
-  - It indicates a change key.
+  - The first 32 bytes
+  - The entire 64 bytes
+  - The SHA256 hash of the middle 32 bytes
 explanation: |
-  The apostrophe or H in a derivation path indicates a hardened derivation, which uses the parent private key and the corresponding index range.
+  The last 32 bytes of the HMAC-SHA512 output serve as the chain code for the child key.
 reviewed: false

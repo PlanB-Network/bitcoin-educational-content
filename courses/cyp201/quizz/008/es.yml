@@ -1,9 +1,9 @@
-question: ¿De cuántas rondas consta la función de compresión SHA256?
-answer: 64 rondas.
+question: ¿Por qué SHA256 aplica un preprocesamiento al mensaje de entrada?
+answer: Para asegurar una longitud múltiple de 512 bits
 wrong_answers:
-  - 10 rondas.
-  - 128 rondas.
-  - 150 rondas.
+  - Para verificar la integridad del mensaje
+  - Para cifrar los datos antes de hacer el hash
+  - Para aumentar el tamaño de los hashes generados
 explanation: |
-  La función de compresión SHA256 realiza 64 rondas para cada bloque de datos procesado.
+  El preprocesamiento ajusta la longitud del mensaje añadiendo bits de relleno y una representación binaria de su longitud.
 reviewed: false

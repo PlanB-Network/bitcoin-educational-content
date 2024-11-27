@@ -1,9 +1,9 @@
-question: What is the function used to generate the seed from the mnemonic phrase and the passphrase?
-answer: PBKDF2.
+question: Why is a 24-word mnemonic phrase often considered superfluous for a Bitcoin wallet?
+answer: The derived keys only offer 128 bits of security
 wrong_answers:
-  - SHA256.
-  - HMAC.
-  - Argon2.
+  - The software does not support 24-word phrases
+  - It does not allow for the derivation of public keys
+  - Shorter phrases are not standardized
 explanation: |
-  PBKDF2 (Password-Based Key Derivation Function 2) is used to derive the seed from the mnemonic phrase and the passphrase in HD wallets.
+  Although a 24-word phrase offers 256 bits of security, the derived Bitcoin private keys only guarantee 128 bits of security, making the excess unnecessary.
 reviewed: false

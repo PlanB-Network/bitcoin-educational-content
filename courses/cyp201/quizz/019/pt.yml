@@ -1,8 +1,9 @@
-question: Qual é a curva elíptica mais conhecida usada em sistemas criptográficos?
-answer: secp256r1.
+question: Qual operação matemática está na base da segurança da criptografia de curva elíptica?
+answer: Problema do logaritmo discreto
 wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
+  - Fatoração de números primos
+  - Cálculo de resíduos quadráticos
+  - Problema do cubo discreto
 explanation: |
-  A curva elíptica secp256r1 é amplamente utilizada em muitos sistemas criptográficos, mas o Bitcoin utiliza a curva secp256k1.
+  A segurança da criptografia de curva elíptica baseia-se na dificuldade de resolver o problema do logaritmo discreto nessas curvas.
+reviewed: false

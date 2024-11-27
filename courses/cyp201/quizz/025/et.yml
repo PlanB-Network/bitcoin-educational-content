@@ -1,9 +1,9 @@
-question: Mis on Nonce krüptograafias?
-answer: Number, mis on mõeldud ühekordseks kasutamiseks.
+question: Milline Schnorri omadus võimaldab ühendada mitu avalikku võtit üheks?
+answer: Võtmete Agregatsioon
 wrong_answers:
-  - Paarisarv.
-  - Digitaalne allkiri.
-  - Number, mida saab uuesti kasutada.
+  - Partii Kontroll
+  - Muudetavus
+  - Allkirja Kompaktimine
 explanation: |
-  Nonce on number, mida kasutatakse ühekordselt krüptograafilistes operatsioonides, tagamaks teatud väärtuste unikaalsust algoritmides.
+  Schnorr võimaldab mitme avaliku võtme agregatsiooni üheks võtmeks.
 reviewed: false

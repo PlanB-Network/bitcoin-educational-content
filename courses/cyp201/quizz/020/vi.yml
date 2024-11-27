@@ -1,9 +1,9 @@
-question: Khóa riêng của Bitcoin được xác định như thế nào?
-answer: Nó được xác định từ một số ngẫu nhiên hoặc giả ngẫu nhiên.
+question: Sự khác biệt giữa khóa công khai nén và không nén là gì?
+answer: Khóa công khai nén chỉ sử dụng tọa độ x và tính chẵn lẻ của y
 wrong_answers:
-  - Nó được xác định bằng cách cộng và nhân đôi các điểm trên đường cong elliptic từ khóa công khai của nó.
-  - Nó được xác định bằng cách băm khóa công khai của nó.
-  - Nó được xác định bởi thuật toán SHA-256.
+  - Khóa công khai nén an toàn hơn
+  - Khóa công khai nén chỉ sử dụng tọa độ y và tính chẵn lẻ của x
+  - Khóa công khai nén yêu cầu khóa riêng tư lớn hơn
 explanation: |
-  Một khóa riêng Bitcoin được tạo ra một cách ngẫu nhiên hoặc giả ngẫu nhiên, điều này đảm bảo tính duy nhất và an toàn của nó.
+  Khóa công khai nén chỉ giữ lại tọa độ x và một bit cho tính chẵn lẻ của y, do đó giảm kích thước của nó xuống còn 33 byte.
 reviewed: false

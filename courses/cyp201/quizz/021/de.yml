@@ -1,9 +1,9 @@
-question: Wie groß ist ein Bitcoin-Privatschlüssel?
-answer: 256 Bits.
+question: Was ist das Hauptmerkmal der Skalarmultiplikation auf elliptischen Kurven?
+answer: Einwegfunktion
 wrong_answers:
-  - 512 Bytes.
-  - 520 Bits.
-  - 512 Bits.
+  - Leicht umkehrbar
+  - Basierend auf der Faktorisierung von Primzahlen
+  - Sehr langwierig zu berechnen
 explanation: |
-  Der Bitcoin-Privatschlüssel hat eine Standardgröße von 256 Bits, entsprechend dem elliptischen Kurvenalgorithmus, der bei Bitcoin verwendet wird.
+  Die Skalarmultiplikation auf elliptischen Kurven ist eine Einwegfunktion, was es unmöglich macht, den privaten Schlüssel aus dem öffentlichen Schlüssel abzuleiten.
 reviewed: false

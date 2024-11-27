@@ -1,9 +1,9 @@
-question: To calculate the values of the master key and the master chain code, the first input to the HMAC-SHA512 function is the seed. What is the second input value of this function, acting as a key?
-answer: “Bitcoin seed”.
+question: What is the main role of the passphrase in a Bitcoin HD wallet?
+answer: To modify key derivation to enhance security
 wrong_answers:
-  - The mnemonic phrase.
-  - The passphrase.
-  - “Seed”.
+  - Decrypt pending transactions
+  - Generate the wallet's UTXOs
+  - Protect wallet access with face ID
 explanation: |
-  The string Bitcoin seed is used as a key in HMAC-SHA512 to derive the master key and the master chain code from the seed.
+  The passphrase acts as a second factor of security, altering the key derivation seed to prevent access to the wallet in case the mnemonic phrase is compromised.
 reviewed: false

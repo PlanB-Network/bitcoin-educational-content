@@ -1,8 +1,9 @@
-question: Wie werden Schlüsselpaare in einem hierarchisch deterministischen (HD) Wallet bestimmt?
-answer: Alle Schlüsselpaare im Wallet werden auf deterministische und hierarchische Weise aus einem einzigartigen Informationsstück an der Basis des Wallets bestimmt.
+question: Welcher Modifikator kann mit den grundlegenden Sighash-Flags kombiniert werden?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Alle Schlüsselpaare im Wallet werden unabhängig voneinander, zufällig, durch einen Zufallszahlengenerator bestimmt.
-  - Jedes Schlüsselpaar im Wallet wird deterministisch aus dem vorherigen Schlüsselpaar bestimmt.
-  - Die Schlüsselpaare sind alle zufällig und ohne hierarchische Verbindung.
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  In HD-Wallets werden alle Schlüssel von einem einzigartigen Informationsstück abgeleitet, das als Seed bezeichnet wird, was eine hierarchische und deterministische Verwaltung von Schlüsseln ermöglicht.
+  SIGHASH_ANYONECANPAY modifiziert die Sighash-Flags so, dass nur ein einzelner Input abgedeckt wird, während der Rest modifizierbar bleibt.
+reviewed: false

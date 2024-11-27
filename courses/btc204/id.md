@@ -1221,7 +1221,7 @@ Di antara metode lain untuk memperoleh bitcoin sambil melindungi privasi Anda, t
 
 Metode lain terdiri dari bekerja sebagai imbalan untuk bitcoin. Metode akuisisi ini bisa menarik, tetapi tingkat identifikasi yang diperlukan sangat bervariasi tergantung pada keadaannya.
 
-*Untuk menulis bab ini, saya menggunakan kursus [BTC205](https://planb.network/fr/courses/btc205) yang dibuat oleh [@pivi___](https://x.com/pivi___) di PlanB Network (hanya tersedia dalam bahasa Prancis untuk saat ini).*
+*Untuk menulis bab ini, saya menggunakan kursus [BTC205](https://planb.network/fr/courses/btc205) yang dibuat oleh [@pivi___](https://x.com/pivi___) di Plan ₿ Network (hanya tersedia dalam bahasa Prancis untuk saat ini).*
 
 ## Konsolidasi, Manajemen UTXO, dan CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2498,7 +2498,7 @@ Avatar-avatarnya juga dapat direpresentasikan dalam bentuk gambar:
 ![BTC204](assets/notext/66/6.webp)
 
 Meskipun robot-robot ini tidak memiliki fungsi teknis spesifik dalam kerangka BIP47, mereka memainkan peran dalam memfasilitasi interaksi antar pengguna dengan menawarkan identitas visual yang mudah dikenali.
-Dalam bagian-bagian berikut dari bab ini yang didedikasikan untuk BIP47, kita akan memeriksa secara detail cara kerjanya, dengan penekanan khusus pada metode kriptografi yang digunakan. Untuk sepenuhnya memahami penjelasan teknis ini, sangat penting untuk terlebih dahulu memahami struktur dompet HD, proses derivasi kunci, dan prinsip-prinsip dasar kriptografi berbasis kurva eliptik. Jika Anda ingin mendalami konsep-konsep ini, kursus gratis lainnya tersedia di PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Saya masih menyarankan Anda untuk mengikutinya, karena memahami cara kerja teknis BIP47 akan memudahkan Anda untuk memahami proposal serupa lainnya yang akan kita bahas di bab-bab berikutnya.
+Dalam bagian-bagian berikut dari bab ini yang didedikasikan untuk BIP47, kita akan memeriksa secara detail cara kerjanya, dengan penekanan khusus pada metode kriptografi yang digunakan. Untuk sepenuhnya memahami penjelasan teknis ini, sangat penting untuk terlebih dahulu memahami struktur dompet HD, proses derivasi kunci, dan prinsip-prinsip dasar kriptografi berbasis kurva eliptik. Jika Anda ingin mendalami konsep-konsep ini, kursus gratis lainnya tersedia di Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Saya masih menyarankan Anda untuk mengikutinya, karena memahami cara kerja teknis BIP47 akan memudahkan Anda untuk memahami proposal serupa lainnya yang akan kita bahas di bab-bab berikutnya.
 ### Kode Pembayaran yang Dapat Digunakan Kembali
 
 Seperti yang disebutkan sebelumnya, kode pembayaran yang dapat digunakan kembali terletak pada kedalaman 3 dari dompet HD, membuatnya sebanding dengan `xpub`, baik dalam posisinya dalam struktur dompet maupun dalam perannya.
@@ -3452,12 +3452,10 @@ Kami akan segera menawarkan tutorial terperinci tentang cara mengatur alamat sta
 Mengingat fitur ini baru, disarankan untuk berhati-hati dan menghindari menggunakan Silent Payments untuk jumlah besar di mainnet.
 
 *Untuk membuat bab ini tentang Silent Payments, saya menggunakan [situs penjelasan Silent Payments](https://silentpayments.xyz/) dan [dokumen penjelasan BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
-
 # Kesimpulan
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Evaluasi kursus ini 
+## Evaluasi kursus ini
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -3465,14 +3463,34 @@ Mengingat fitur ini baru, disarankan untuk berhati-hati dan menghindari mengguna
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Kata Akhir
+## Kesimpulan
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Selamat atas penyelesaian pelatihan privasi Bitcoin ini!
 
-Selamat telah menyelesaikan pelatihan ini tentang privasi di Bitcoin!
-Kami telah membahas banyak topik lanjutan dan teknis dalam pelatihan ini, tetapi tidak wajib untuk menggunakan semua alat yang disajikan. Tujuan utama adalah untuk memberdayakan Anda dalam memilih informasi yang ingin Anda ungkapkan dan informasi yang Anda pilih untuk menjaga kerahasiaan dalam penggunaan Bitcoin Anda. Ini merupakan inti esensial dari perlindungan privasi. Untuk membuat pilihan yang tepat tentang informasi yang akan dibagikan atau disembunyikan, penting untuk menyadari implikasi dari tindakan kita. Saya berharap pelatihan ini telah membantu Anda mendapatkan pengetahuan ini.
+Dalam pelatihan ini, kita telah membahas banyak topik lanjutan dan teknis, tetapi tidak wajib menggunakan semua alat yang disajikan. Tujuan utamanya adalah memberi Anda kekuatan untuk memilih informasi apa yang ingin Anda ungkapkan dan mana yang lebih suka Anda jaga kerahasiaannya dalam penggunaan Bitcoin Anda. Ini mewujudkan esensi dari perlindungan privasi. Untuk membuat pilihan yang tepat tentang informasi apa yang akan dibagikan atau disembunyikan, Anda harus menyadari implikasi dari tindakan Anda. Saya berharap pelatihan ini telah membantu Anda memperoleh pengetahuan tersebut.
 
-Jika saya harus memilih bagian terpenting dari pelatihan ini, saya akan memilih bagian yang didedikasikan untuk analisis rantai. Memahami teknik yang digunakan oleh penyerang potensial Anda adalah cara terbaik untuk melindungi diri. Oleh karena itu, saran saya adalah untuk secara seksama meninjau bagian ini dan mencoba memahami semua detailnya.
+Jika saya harus memilih bagian terpenting dari pelatihan ini, saya akan mengambil bagian yang didedikasikan untuk analisis rantai. Memahami teknik yang digunakan oleh penyerang potensial Anda adalah cara terbaik untuk melindungi diri dari mereka. Jadi saran saya adalah untuk meninjau bagian ini dengan cermat dan mencoba memahami semua detailnya.
 
-Dalam pelatihan ini, kami secara eksklusif fokus pada privasi Bitcoin di rantai utama. Masalah privasi pada sistem lapis kedua, seperti Lightning Network dan sidechain, juga signifikan dan memiliki karakteristik yang sangat spesifik. Meskipun penggunaan transaksi off-chain bisa menjadi strategi efektif untuk menghindari banyak risiko pelacakan pada Bitcoin yang telah kami pelajari, ini mengekspos Anda pada risiko lain yang juga penting untuk diketahui. Itulah mengapa topik-topik ini akan dibahas dalam pelatihan khusus di masa depan di PlanB Network.
+Dalam pelatihan ini, kita fokus secara eksklusif pada privasi Bitcoin di rantai utama. Masalah privasi pada sistem lapisan kedua, seperti Lightning Network dan sidechains, juga penting dan memiliki karakteristik yang sangat spesifik. Meskipun menggunakan transaksi off-chain bisa menjadi strategi yang efektif untuk menghindari banyak risiko keterlacakan Bitcoin yang telah kita pelajari, hal ini membuat Anda terpapar pada risiko lain yang juga penting untuk diketahui. Itulah mengapa topik-topik ini akan dibahas dalam pelatihan khusus di masa depan di Plan ₿ Network.
 
-Jika Anda menikmati pelatihan ini, saya akan sangat berterima kasih jika Anda bisa membagikannya dengan teman-teman Anda dan di media sosial. Terima kasih! :)
+Jika Anda menikmati pelatihan ini, saya akan sangat berterima kasih jika Anda membagikannya dengan orang-orang terdekat dan di media sosial. Terima kasih! :)
+
+Untuk terus memperdalam pengetahuan Anda di dunia Bitcoin, kami mengundang Anda untuk mengeksplorasi kursus lain yang tersedia di Plan ₿ Network seperti:
+
+#### Pahami cara kerja dompet Bitcoin dengan
+https://planb.network/courses/cyp201
+
+#### Pelajari cara membuat komunitas Bitcoin Anda dengan
+https://planb.network/courses/btc302
+
+#### Temukan sejarah asal-usul Bitcoin dengan
+https://planb.network/courses/his201
+
+#### Konfigurasi server pembayaran BTC dengan
+https://planb.network/courses/btc305
+
+#### Temukan Lightning Network dengan
+https://planb.network/courses/lnp201
+
+#### Temukan evolusi kebebasan sepanjang masa dengan
+https://planb.network/courses/phi201

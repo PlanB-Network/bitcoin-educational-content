@@ -1,9 +1,9 @@
-question: In which BIP is the idea of the recovery phrase, or mnemonic phrase (12/24 words), proposed?
-answer: BIP39.
+question: What does the sighash flag SIGHASH_NONE allow?
+answer: Modifying the outputs after signing
 wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
+  - Modifying the inputs after signing
+  - Covering all inputs and outputs
+  - Restricting modifications to only one output
 explanation: |
-  BIP39 introduced the 24-word mnemonic recovery phrase, to facilitate the backup of keys for users of HD wallets.
+  SIGHASH_NONE only covers the inputs, leaving the outputs modifiable after signing.
 reviewed: false

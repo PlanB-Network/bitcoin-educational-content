@@ -1,9 +1,9 @@
-question: Con una chiave pubblica estesa, posso derivare...
-answer: ...chiavi pubbliche figlio normali.
+question: Qual è la dimensione del seed generato da PBKDF2?
+answer: 512 bit
 wrong_answers:
-  - ...chiavi pubbliche figlio rinforzate.
-  - ...chiavi private figlio normali.
-  - ...chiavi private figlio rinforzate.
+  - 128 bit
+  - 256 bit
+  - Variabile a seconda della lunghezza della frase mnemonica
 explanation: |
-  Una chiave pubblica estesa consente la derivazione solo di chiavi pubbliche figlio normali, ma non di chiavi private.
+  Indipendentemente dalla lunghezza della frase mnemonica, PBKDF2 genera sempre un seed di 512 bit.
 reviewed: false

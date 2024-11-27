@@ -1,8 +1,8 @@
-question: Bước cuối cùng để tạo một địa chỉ Bitcoin Bech32 là gì?
-answer: Thêm HRP bc và một dấu phân cách 1.
+question: Chức năng chính của mô tả kịch bản đầu ra là gì?
+answer: Mô tả đầy đủ một kịch bản đầu ra và cung cấp thông tin cần thiết để khôi phục một ví
 wrong_answers:
-  - Thêm phiên bản SegWit ở đầu.
-  - Thêm checksum vào đầu địa chỉ.
-  - Thêm tiền tố 1.
-explanation:
-  Bước cuối cùng trong việc xây dựng một địa chỉ Bech32 là thêm HRP (Human Readable Part), bc cho Bitcoin, theo sau là một dấu phân cách 1.
+  - Tự động tạo địa chỉ đa chữ ký
+  - Thay thế cụm từ ghi nhớ trong sao lưu ví
+  - Đơn giản hóa các phép tính của chữ ký số
+explanation: |
+  Mô tả kịch bản bao gồm tất cả thông tin cần thiết để theo dõi một kịch bản cụ thể, bao gồm đường dẫn phái sinh và các khóa được sử dụng, nhưng không bao gồm cụm từ khôi phục.

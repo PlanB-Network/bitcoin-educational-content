@@ -1,8 +1,9 @@
-question: Hàm nào được sử dụng để tạo ra một cặp khóa con từ một cặp khóa cha mẹ trong một ví HD?
-answer: HMAC-SHA512.
+question: Loại khóa nào được liên kết với tiền tố zpub?
+answer: Một khóa công khai mở rộng cho SegWit V0 trên Mainnet
 wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
+  - Một khóa riêng mở rộng cho SegWit V1 trên Mainnet
+  - Một khóa công khai mở rộng cho Legacy trên Testnet
+  - Một khóa công khai mở rộng cho SegWit V2 trên Testnet
 explanation: |
-  HMAC-SHA512 được sử dụng để tạo ra một cặp khóa con từ một cặp khóa cha mẹ trong một ví HD.
+  Tiền tố zpub chỉ một khóa công khai mở rộng cho các script SegWit V0 trên Mainnet.
+reviewed: false

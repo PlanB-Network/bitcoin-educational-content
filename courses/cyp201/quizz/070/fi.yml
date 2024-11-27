@@ -1,9 +1,9 @@
-question: Mikä on vastaanotto-osoite (yleisesti)?
-answer: Julkisen avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
+question: Mitä syvyys 0 edustaa HD-lompakoiden hierarkiassa?
+answer: Pääavain ja pääketjukoodi
 wrong_answers:
-  - Yksityisen avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
-  - Laajennetun avaimen tiiviste, johon on lisätty metadataa ja joka on asetettu tiettyyn muotoon.
-  - Ketjukoodin tiiviste, johon on lisätty metadataa.
+  - Ulkoinen osoiteketju
+  - Oletustili
+  - Valuutan tyyppi
 explanation: |
-  Vastaanotto-osoite on yleensä julkisen avaimen tiiviste, johon liittyy metadataa, ja sitä käytetään scriptPubKey: ssä ehtojen määrittämiseen.
+  Syvyys 0 vastaa pääavainta ja pääketjukoodia, jotka ovat lähtökohtia kaikille johdannaisille HD-lompakossa.
 reviewed: false

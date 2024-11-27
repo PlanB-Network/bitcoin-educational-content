@@ -1,8 +1,8 @@
-question: What is the final step to create a Bech32 Bitcoin address?
-answer: Add the HRP bc and a separator 1.
+question: What is the main function of output script descriptors?
+answer: To fully describe an output script and provide the information needed to restore a wallet
 wrong_answers:
-  - Add the SegWit version at the beginning.
-  - Add the checksum at the beginning of the address.
-  - Add a 1 prefix.
+  - Automatically generate multisignature addresses
+  - Replace the mnemonic phrase in wallet backups
+  - Simplify the calculations of digital signatures
 explanation: |
-  The final step in constructing a Bech32 address is to add the HRP (Human Readable Part), bc for Bitcoin, followed by a separator 1.
+  Descriptors encapsulate all the necessary information to track a particular script, including the derivation path and the keys used, but not the recovery phrase.

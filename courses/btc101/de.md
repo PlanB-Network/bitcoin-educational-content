@@ -134,7 +134,6 @@ Wenn Sie die Geschichte von Bitcoin detaillierter erkunden möchten, empfehle ic
 
 https://planb.network/courses/his201
 
-
 # Die Währung
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -250,7 +249,6 @@ Um mehr über wirtschaftliche Trugschlüsse und Freiheit zu erfahren, lade ich S
 
 https://planb.network/courses/eco102
 
-
 ## Die Hyperinflationen
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -333,7 +331,6 @@ Eine Währung, die auf einem Vertrauensdritten wie einer Finanzinstitution beruh
 Um das Thema Hyperinflation zu vertiefen, empfehle ich den Kurs ECO 204 von David St-Onge. Dort lernen Sie, was hyperinflationäre Zyklen sind und welche tatsächlichen Auswirkungen sie auf unser Leben haben. Sie werden auch die Ähnlichkeiten zwischen diesen Zyklen entdecken und vor allem, wie Sie sich davor schützen können:
 
 https://planb.network/courses/eco204
-
 
 ## 21 Millionen Bitcoins
 
@@ -488,12 +485,11 @@ Man könnte sich die Frage stellen: Was ist, wenn jemand zufällig unsere Liste 
 
 Die Wahrscheinlichkeit eines Hacks Ihrer Bitcoin-Brieftasche ist daher astronomisch gering, wenn Sie bewährte Sicherheitspraktiken befolgen. Diese Praktiken werden im nächsten Abschnitt ausführlich erläutert.
 
-Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial PlanB](https://planb.network/tutorials/wallet).
+Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial Plan ₿](https://planb.network/tutorials/wallet).
 
 Wenn Sie während Ihrer Reise durch den Kaninchenbau mehr über den Aufbau einer Bitcoin-Wallet erfahren möchten, von der Entropie bis hin zu Empfangsadressen, empfehle ich den Kurs CYP 201, der diesem Thema gewidmet ist:
 
 https://planb.network/courses/cyp201
-
 
 ## Sicherheit und Bitcoin-Brieftaschen
 
@@ -1044,7 +1040,6 @@ https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
 
 https://planb.network/courses/btc305
 
-
 ## Mit Bitcoin sparen
 
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
@@ -1302,50 +1297,42 @@ Bitcoin kann nicht mehr gestoppt oder zensiert werden. Es ist eine friedliche Re
 
 Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Satoshi hat Bitcoin im Jahr 2008 geschaffen, um einen Versuch dazu zu unternehmen. Einfaches und "magisches" Geld zu haben, korruptiert. Bitcoin ist daher eine Alternative, um ein neues neutrales Geldsystem aufzubauen. Bitcoin ermöglicht die Befreiung vom Bankensystem. Es ist ein soziales Phänomen, das uns dazu bringt, an einer friedlichen Revolution teilzunehmen. Sind Sie bereit, sich anzuschließen?
 
-## Dank und weiterhin den Kaninchenbau erkunden
+# Abschluss
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Gehen Sie weiter
-
-Herzlichen Glückwunsch zum Abschluss dieses BTC 101-Kurses! Ich hoffe von ganzem Herzen, dass es Ihnen gefallen hat und Ihnen neue Möglichkeiten eröffnet hat. Ihre Entdeckung von Bitcoin steht erst am Anfang und ich lade Sie ein, alle anderen verfügbaren Kurse an der Universität zu entdecken.
-
-Um Ihren Bitcoin-Plan einzurichten:
-
-https://planb.network/courses/btc102
-
-Um das Lightning Network zu entdecken, ein Second-Layer-Zahlungsnetzwerk:
-
-https://planb.network/courses/lnp201
-
-Um die Österreichische Schule der Wirtschaft zu erforschen:
-
-https://planb.network/courses/eco201
-
-Um Ihre digitale Sicherheit zu aktualisieren:
-
-https://planb.network/courses/scu101
-
-Um mehr über das Mining zu erfahren:
-
-https://planb.network/courses/min201
-
-und vieles mehr...
-
-
-## Bewerten Sie den Kurs
+## Kursbewertung
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Fazit
+## Abschluss
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Herzlichen Glückwunsch zum Abschluss dieses Kurses!**
+Herzlichen Glückwunsch zum Abschluss dieser BTC 101-Schulung! Ich hoffe von Herzen, dass sie Ihnen gefallen und neue Türen geöffnet hat. Ihre Entdeckungsreise in die Bitcoin-Welt hat gerade erst begonnen, und ich lade Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
 
-Bitte beachten Sie, dass dieses Kapitel derzeit noch im Aufbau ist und eine verbesserte Version in Kürze verfügbar sein wird. Wenn Sie in der Zwischenzeit Ihre Bitcoin-Reise fortsetzen möchten, laden wir Sie ein, die anderen Kurse und Tutorials auf unserer Plattform zu erkunden. Machen Sie weiter so und viel Spaß beim Lernen!
+#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
+
+https://planb.network/courses/btc102
+
+#### Entdecken Sie das Lightning Network mit
+
+https://planb.network/courses/lnp201
+
+#### Lernen Sie die Österreichische Schule der Wirtschaftstheorie kennen mit
+
+https://planb.network/courses/eco201
+
+#### Aktualisieren Sie Ihre Online-Sicherheit mit
+
+https://planb.network/courses/scu101
+
+#### Verstehen Sie die Grundlagen von Bitcoin und bauen Sie Ihre Hausheizung mit
+
+https://planb.network/courses/min201

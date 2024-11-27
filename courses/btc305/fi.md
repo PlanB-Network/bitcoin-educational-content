@@ -9,7 +9,7 @@ objectives:
 
 # Bitcoin ja BTCPay Server
 
-Tämä on johdantokurssi BTCPay Serverin käyttöön, jonka ovat kirjoittaneet Alekos ja Bas, ja joka on mukautettu PlanB-kurssimuotoon melontwistin ja asi0:n toimesta.
+Tämä on johdantokurssi BTCPay Serverin käyttöön, jonka ovat kirjoittaneet Alekos ja Bas, ja joka on mukautettu Plan ₿-kurssimuotoon melontwistin ja asi0:n toimesta.
 
 KESKENERÄINEN TARINA
 

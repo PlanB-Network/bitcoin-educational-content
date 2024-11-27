@@ -1,8 +1,8 @@
-question: Qual é a função pseudo-aleatória usada no PBKDF2 para calcular a semente de uma carteira HD Bitcoin?
-answer: HMAC-SHA512.
+question: Qual é o propósito de usar uma carteira isca com uma frase-senha?
+answer: Simular uma carteira com uma pequena quantia em caso de coerção física
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Adicionar um backup automático de transações
+  - Gerar uma frase mnemônica adicional
+  - Proteger UTXOs contra um gasto duplo
 explanation: |
-  HMAC-SHA512 é a função pseudo-aleatória usada no PBKDF2 para gerar a semente de uma carteira HD Bitcoin.
+  Uma carteira isca é usada para desviar a atenção de um atacante, fornecendo acesso a uma carteira que contém uma pequena quantidade de bitcoins.

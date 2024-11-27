@@ -20,9 +20,11 @@ Selleks, et aidata sul seda seiklust alustada, olen loonud selle tasuta kursuse.
 +++
 
 # Sissejuhatus ja eeldused Bitcoini mõistmiseks
+
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
 ## Sissejuhatus BTC102 kursusesse
+
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Tere tulemast BTC 102 kursusele! Praktiline kursus, mis juhendab sind oma Bitcoini plaani seadistamisel! Selle kursuse käigus valmistume oma esimeste bitcoinide hankimiseks, nende nõuetekohaseks turvamiseks ja sujuvaks sisenemiseks sellesse uude tööstusharusse.
@@ -44,9 +46,11 @@ Nagu näete, on selle koolituse eesmärk saata teid nii, et te järgiksite meie 
 Edu :)
 
 ## Pettused ja finantspettused
+
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 Oleme tööstuses, kus "krüptoraha" sektoris on tekkimas kaks peamist haru:
+
 1. Bitcoin'i tööstus, mis keskendub heli valuutale läbi detsentraliseeritud väärtuse ülekande protokolli (Bitcoin). See väärtustab privaatsust ja individuaalset suveräänsust ning ehitab järk-järgult üles pikaajalisi projekte, millel on kõrge vastupidavuse ja turvalisuse tase.
 2. Globaalne krüptoraha tööstus, mis on suunatud fintech'ile, "blockchain'ile" ja muudele tsentraliseeritud uuendustele. See areneb kiiresti ja üritab positsioneerida ennast kui uut trendi.
 
@@ -146,9 +150,11 @@ On oluline märkida, et kõigil on oma agenda, kaasa arvatud minul. Ma usun Bitc
 Pidage alati meeles, et mitte kõik ei pruugi oma kavatsustes olla läbipaistvad. Küsige alati kellegi tegevuse eesmärgi kohta ja ärge usaldage neid pimesi.
 
 ## Veebiturvalisus
+
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 Lisaks krüptoraha pettustele ja finantspettustele on bitcoine kaotamise peamine põhjus seotud kehva veebiturvalisuse haldusega. Tihti juhtub, et inimesed kasutavad kõikide oma kontode jaoks sama parooli, unustavad oma arvutit uuendada ja hooletusse jätavad oma andmete regulaarse varundamise. Kui olete mures nende praktikate pärast, ärge muretsege, on alati võimalik oma veebiturvalisuse harjumusi parandada. Siin on mõned põhilised meetmed, mida rakendada:
+
 - Kasutage paroolihaldurit (vt LastPassi õpetust),
 - Lülitage sisse kahefaktoriline autentimine (2FA),
 - Hoidke oma arvuti ajakohane ja vaba pahavarast,
@@ -189,6 +195,7 @@ Veebianonüümsus on vaba ja jõuka ühiskonna jaoks hädavajalik. See võimalda
 Kui olete sellel teemal huvitatud, on SECU 101 koolitus saadaval, et teid juhendada.
 
 ## Algajatele mõeldud näpunäited
+
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Formaalne haridus õpetab meile investeerimise kohta väga vähe. Selle tulemusena sukeldume sageli üksi sellesse uude ja keerulisse investeerimismaastikku.
@@ -206,15 +213,15 @@ Sel jaotises vaatleme mõningaid levinud vigu, mida algajad investorid teevad Bi
 ![paroolihaldur](assets/prerequis/0.webp)
 Enne Bitcoin'i investeeringusse sukeldumist on oluline võtta aega enda harimiseks. Bitcoin'i tööstuses on lihtne vigu teha ja iga viga võib olla kulukas. Jagades mõningaid lõkse, millega olen oma investeerimisteekonnal kokku puutunud, samuti neid, mida olen teistes täheldanud, loodan pakkuda väärtuslikke nõuandeid selle valdkonna navigeerimiseks. Mõned neist vigadest hõlmavad järgmist:
 
-| Tehnilised Probleemid                                  | Finantsprobleemid                                             |
-| ------------------------------------------------------ | ------------------------------------------------------------- |
-| Privaatvõtme kaotus                                    | Liigne investeerimine                                         |
-| Oma varade kolmanda osapoole hoiule usaldamine         | Finantshariduse puudumine                                     |
-| Privaatsuse puudumine                                  | Laenatud rahaga investeerimine                                |
-| Internetiturvalisuse probleemid                        | Kauplemise ja investeerimise erinevuse mõistmata jätmine      |
-| Vale käsitsemine                                       | Maksutagajärgede eiramine                                     |
-| Arvutiprobleemid                                       | Investeerimisajakavade mittearvestamine                      |
-| BTC kaotus häkkimise tõttu                             | Finantspettuste ja -skeemide ohvriks langemine                |
+| Tehnilised Probleemid                          | Finantsprobleemid                                        |
+| ---------------------------------------------- | -------------------------------------------------------- |
+| Privaatvõtme kaotus                            | Liigne investeerimine                                    |
+| Oma varade kolmanda osapoole hoiule usaldamine | Finantshariduse puudumine                                |
+| Privaatsuse puudumine                          | Laenatud rahaga investeerimine                           |
+| Internetiturvalisuse probleemid                | Kauplemise ja investeerimise erinevuse mõistmata jätmine |
+| Vale käsitsemine                               | Maksutagajärgede eiramine                                |
+| Arvutiprobleemid                               | Investeerimisajakavade mittearvestamine                  |
+| BTC kaotus häkkimise tõttu                     | Finantspettuste ja -skeemide ohvriks langemine           |
 
 Olenemata teie haridustasemest või taustast, võib igaüks mõista ja kasutada Bitcoin'i. Te ei pea omama kogemusi finants- või programmeerimisalal. Nagu 90% inimestest, võite lihtsalt kasutada Bitcoin'i lihtsal viisil.
 
@@ -239,16 +246,16 @@ Nagu iga investeeringu puhul, peate teadma oma turgu. Bitcoin on väga noor ja v
 Kui olete Bitcoini maailmaga mugavamalt tuttav, võite üle vaadata oma tegevuskava. Samamoodi, kui olete selles maailmas uus, on oluline mõista erinevusi kauplemise, pikaajalise investeeringu ja väga, väga pikaajalise strateegia vahel, mida paljud Bitcoin'i kasutajad nimetavad "hoidmiseks".
 Üldiselt:
 
-|                   | Kauplemine | Investeering      | Hoidmine       |
-| ----------------- | ---------- | ----------------- | -------------- |
-| Võimendus         | Jah        | Ei                | Ei             |
-| Ajaraam           | Lühiajaline| Lühike/keskmine   | Väga pikaajaline|
-| Varatüüp          | Leping     | BTC               | BTC            |
-| Risk              | Väga kõrge | Kõrge             | Kõrge          |
-| Raskusaste        | Väga raske | Raske             | Raske          |
-| Õppimiskõver      | Pikk       | Pikk              | Pikk           |
-| Potentsiaalsed kaotused | Piiramatu | Piiratud      | Piiratud       |
-| Sobivam           | Mõnedele   | Enamikule         | Mõnedele       |
+|                         | Kauplemine  | Investeering    | Hoidmine         |
+| ----------------------- | ----------- | --------------- | ---------------- |
+| Võimendus               | Jah         | Ei              | Ei               |
+| Ajaraam                 | Lühiajaline | Lühike/keskmine | Väga pikaajaline |
+| Varatüüp                | Leping      | BTC             | BTC              |
+| Risk                    | Väga kõrge  | Kõrge           | Kõrge            |
+| Raskusaste              | Väga raske  | Raske           | Raske            |
+| Õppimiskõver            | Pikk        | Pikk            | Pikk             |
+| Potentsiaalsed kaotused | Piiramatu   | Piiratud        | Piiratud         |
+| Sobivam                 | Mõnedele    | Enamikule       | Mõnedele         |
 
 Ja siin on minu soovitused:
 
@@ -277,9 +284,11 @@ Kui kaotad oma võtme, kaotad ka oma raha. On parim järgida tööstuse parimaid
 Edu! Loodan, et järgid mind Bitcoini maailma ja lubad mul juhendada sind oma esimeste Bitcoinide hankimisel ja turvamisel ilma riske võtmata!
 
 # Mõistmaks, millesse me astume
+
 <partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 ## Bitcoin 5 minutiga
+
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 Selles kursuses soovime keskenduda tegevuskavale, kuidas hankida oma esimesed bitcoinid. Kui soovid põhjalikku selgitust Bitcoin'i alustaladest, soovitame BTC 101, mis on saadaval tasuta sellel platvormil.
@@ -309,6 +318,7 @@ Kui see on teile uus, soovitan tungivalt enne tehnoloogiaga tutvumist järgida B
 ![lühidalt](assets/section2/10.webp)
 
 ## Miks on Bitcoin oluline?
+
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Miks on Bitcoini tähtsus nii kriitiline? See on selle ülikooli keskne küsimus. Olgu see seotud teie õpingute või investeerimisstrateegiaga, ilma Bitcoini tähtsuse selge mõistmiseta riskite oma tegevuskavast kõrvale kalduda. Eesmärk on seega alati meeles pidada Bitcoini põhitõdesid, et tagada, et teie strateegia oleks kooskõlas teie veendumustega.
@@ -340,6 +350,7 @@ Bitcoin pakub igale üksikisikule võimalust sellest süsteemist väljuda. See o
 
 ![lühidalt](assets/section2/3.webp)
 Maailmas süvenevad varanduslikud ebavõrdsused on viinud äärmusluse tõusuni, mis mõnikord on viinud diktatuurirežiimide loomiseni. Pole tähtis, kes sa oled, ühel päeval võid vajada privaatsust, et kaitsta oma perekonda, ennast ja oma sääste. Kuhu saaksite oma varad peita, kui teid ähvardab poliitiline oht?
+
 - Teie pangakonto võib olla külmutatud, arestitud või tühjendatud.
 - Kuld on raske jagada, keeruline transportida ja kasutada.
 - Sularaha on kohmakas, kergesti varastatav ja inflatsioonile alluv.
@@ -379,6 +390,7 @@ Bitcoin'i peamised edendajad on tänapäeval endiselt peamiselt küberpunkid, r�
 Bitcoinil on sügavalt filosoofiline, eetiline ja poliitiline mõõde, olles samal ajal täiesti ükskõikne nende kaalutluste suhtes. Tegelikult on Bitcoin lihtne protokoll, mis kordab sama protsessi ikka ja jälle. Selle kasutajad on muutnud selle vabastamise relvaks praeguse finantssüsteemi vastu. Küberpunki vaatenurgast vastandub Bitcoin sularahata ühiskonnale. See võimaldab luua täiesti privaatseid ja vahendajateta digitaalseid finantstehinguid. Küberpunkide liikumise jaoks on Bitcoin elektroonilise sularaha ekvivalent.
 
 ## Bitcoin'i tööstuse mõistmine
+
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 Bitcoin'i saabumisega 2009. aastal Satoshi Nakamoto poolt sündis mitme miljardi dollari suurune tööstusharu. Hoolimata oma noorusest on see tööstusharu viimase kümnendi jooksul kogenud eksponentsiaalset kasvu. Iga päev saabub uusi tegijaid suurte summadega raha ja on valmis jõuliselt siseneda sellesse uude tööstusharusse. Täna on tööstus jõudnud punkti, kust tagasipöördumine pole võimalik, kus valitsused, pangad, internetihiiglased ja teised on liitunud liikumisega erinevate sekkumistega.
@@ -392,16 +404,16 @@ Selless jaotises vaatame kiiresti üle tegijad, et paremini mõista, kuidas meie
 Igaüks võib kujundada oma krüptoraha - ülesanne, mis võtab vaid mõne minuti. Siiski määrab selle tokeni väärtuse ainult turg. Detsembris 2019 oli Coinmarketcap'is loetletud üle 5000 tokeni. Täna, 2023. aastal, on see number kasvanud üle 23 000, hõlmates NFT-sid, DeFi-d ja palju muud. Need krüptograafilised tokenid võivad võtta erinevaid vorme: valuuta, turvatoken, ökosüsteemi kütus, külgahel, digitaalne kunst jne.
 On oluline mõista, et 99,8% neist uutest "krüptorahadest" on pettused, mille on loonud turundajad eesmärgiga varastada teie bitcoine. Siiski, haruldase 0,2% tõsiste projektide seas tehakse märkimisväärseid jõupingutusi, et edendada, katsetada ja arendada uuenduslikke tehnoloogiaid, mis võivad kasutajatele tuua palju kasu. Aja jooksul paraneb sektor, andes teed legitiimsetele ettevõtetele, mis pakuvad reaalseid tooteid. Küsimus, kas see juhtub ka teistel plokkahelatel peale Bitcoini, on endiselt lahtine. Praegu on üks asi kindel: Bitcoin on ainus tõeliselt detsentraliseeritud, tsensuurikindel, vaba ja tõsine krüptoraha, mis õigustab tuhandeid töötunde.
 
-| Omadus             | Bitcoin                  | Alt-Coin (99,9% neist)   |
-| ------------------ | ------------------------ | ------------------------- |
-| Likviidsus         | Kõrge                    | Madal                     |
-| Kasutuselevõtt (reaalne) | Kõrge ja globaalne       | Madal                     |
-| Meeskond           | Tugev ja detsentraliseeritud | Nõrk ja tsentraliseeritud |
-| Mainekus           | Kõrge ja globaalne       | Madal                     |
-| Infrastruktuur     | Tugev ja stabiilne       | Nõrk                      |
-| Detsentraliseeritus| Jah                      | Ei                        |
-| Pettus?            | Ei                       | Tõenäoliselt              |
-| Väärtus?           | Jah                      | Vaidlustatav              |
+| Omadus                   | Bitcoin                      | Alt-Coin (99,9% neist)    |
+| ------------------------ | ---------------------------- | ------------------------- |
+| Likviidsus               | Kõrge                        | Madal                     |
+| Kasutuselevõtt (reaalne) | Kõrge ja globaalne           | Madal                     |
+| Meeskond                 | Tugev ja detsentraliseeritud | Nõrk ja tsentraliseeritud |
+| Mainekus                 | Kõrge ja globaalne           | Madal                     |
+| Infrastruktuur           | Tugev ja stabiilne           | Nõrk                      |
+| Detsentraliseeritus      | Jah                          | Ei                        |
+| Pettus?                  | Ei                           | Tõenäoliselt              |
+| Väärtus?                 | Jah                          | Vaidlustatav              |
 
 Ärge langege fraaside ohvriks nagu:
 
@@ -416,13 +428,13 @@ On oluline teha oma uurimistöö, kui otsustate sukelduda alt-coinide maailma, k
 
 Järgides 2017. aasta ICO mulli, hakkasid paljud suured tegijad arendama oma andmebaase kasutades "plokkahelat". Valitsused ja keskpangad uurivad võimalust luua oma fiat-valuuta digitaalne versioon (Rootsi, Euroopa, Venemaa, Hiina jne). Tehnoloogiahiiglased liituvad samuti selle võidujooksuga. Facebook on käivitanud oma stablecoin projekti nimega "Libra". Pankade, korporatsioonide ja teiste tehnoloogiahiiglaste poolt katsetatakse "plokkahela" alternatiive lahendustega nagu Linux või IBM "Hyperledger".
 
-| Omadus               | Bitcoin | Alt-coin | Facebook-coin | Fed-coin |
-| -------------------- | ------- | -------- | ------------- | -------- |
-| Avalik               | Jah     | Varieerub| Ei            | Ei       |
-| Avatud               | Jah     | Varieerub| Ei            | Ei       |
-| Piirideta            | Jah     | Varieerub| Ei            | Ei       |
-| Neutraalne           | Jah     | Varieerub| Ei            | Ei       |
-| Tsensuurikindel      | Jah     | Varieerub| Ei            | Ei       |
+| Omadus          | Bitcoin | Alt-coin  | Facebook-coin | Fed-coin |
+| --------------- | ------- | --------- | ------------- | -------- |
+| Avalik          | Jah     | Varieerub | Ei            | Ei       |
+| Avatud          | Jah     | Varieerub | Ei            | Ei       |
+| Piirideta       | Jah     | Varieerub | Ei            | Ei       |
+| Neutraalne      | Jah     | Varieerub | Ei            | Ei       |
+| Tsensuurikindel | Jah     | Varieerub | Ei            | Ei       |
 
 Kuigi nad väidavad, et konkureerivad Bitcoiniga, jäävad need projektid tsentraliseerituks, et tagada kontroll ja järgida kohalikke regulatsioone. Nad ei paku privaatsuskaitset, vaid pigem suurendavad massilist jälgimist. Facebooki "Libra" projekt positsioneeris ennast pankade, mitte Bitcoini konkurendina. Lisaks, ilma töötõendita, ei oma "plokkahel" tegelikku väärtust. Tuleb märkida, et Libra on tänaseks hüljatud ja ühtegi tõelist privaatset plokkahelaprojekti ei kasutata praegu globaalselt, erinevalt Bitcoinist.
 
@@ -501,6 +513,7 @@ Piiramatu võim? Ei. Põhiarendajatel ei ole piiramatut võimu ja nad ei saa ük
 ![blockchain](assets/industrie/5.webp)
 
 ## Bitcoin'i kihiline arhitektuur
+
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, olles avatud lähtekoodiga protokoll, võib olla täiendatud ja rikastatud igaühe poolt lisatud protokollide/rakenduste kihtidega. Mõned neist funktsioonidest on olulisemad kui teised, luues dünaamilise ökosüsteemi, kus paljud ettevõtted panustavad infrastruktuuri arendamisse. Selliste projektide näideteks on külgrajad (nt Liquid Chain by Blockstream), Lightning Network Lightning Labs'ilt ja identiteedikontseptsioonid (nt Microsoft ION). Need projektid on nagu lisakihid, mis on lisatud algsele Bitcoin'i protokollile.
@@ -533,9 +546,11 @@ See on tulevikuvisioon, millel on Bitcoin. See saab olema maantee internetiliikl
 Andreas Antonopoulos, kui ma ei eksi, tutvustas mulle seda ideed. @aantonop
 
 # Oma plaani seadistamine
+
 <partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Oma profiili valimine
+
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Nüüd, kui oleme üle vaadanud põhitõed ja õppinud, kuidas vältida pettusi ja finantskaotusi, saame arendada oma plaani. Plaan on alguses üsna lihtne, kuid oluline on alustada. Saate seda aja jooksul alati muuta.
@@ -563,6 +578,7 @@ Selle abil peaksite leidma endale sobiva, valima sobiva plaani ja seejärel jär
 **Meeldetuletus:** Kui te ei oma privaatvõtit (24-sõnalist nimekirja), siis on kolmas osapool vastutav teie bitcoinide turvalisuse eest. Teisisõnu, te enam ei oma oma bitcoine. Need on samade riskidega nagu vahetusplatvormid, sealhulgas häkkimine, konfiskeerimine, regulatsioonid või pankrot.
 
 ## Hodler
+
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Olgu see investeeringutes või Bitcoinis, pikaajaline hoidmine on üldiselt norm. Statistiliselt on see pikas perspektiivis kõige kasumlikum ja lihtsaim rakendada:
@@ -616,10 +632,11 @@ Siin on lühike Hodleri psühholoogiline profiil, kui tunnete end ära, võib se
   Hinnalanguste ja turu volatiilsuse ees seisab hodler vastupidavana, säilitades usku oma investeeringusse ja Bitcoini tulevikukasvu.
 
 - Usk Tehnoloogiasse:
-Lihtsalt kasumi tagaajamisest kaugemal usub hodler sageli plokiahela tehnoloogiasse ja Bitcoini võimesse tuua maailma positiivseid muutusi.
-Kokkuvõttes on hodler kannatlik, distsiplineeritud ja visionäärne investor, kes usub kindlalt Bitcoini pikaajalisse väärtusesse ning on valmis taluma lühiajalist volatiilsust, et tulevikus olulisi kasumeid saavutada. Nad on oma investeerimisstrateegias metoodilised ning pööravad tähelepanu turvalisusele ja pikaajalisele planeerimisele.
+  Lihtsalt kasumi tagaajamisest kaugemal usub hodler sageli plokiahela tehnoloogiasse ja Bitcoini võimesse tuua maailma positiivseid muutusi.
+  Kokkuvõttes on hodler kannatlik, distsiplineeritud ja visionäärne investor, kes usub kindlalt Bitcoini pikaajalisse väärtusesse ning on valmis taluma lühiajalist volatiilsust, et tulevikus olulisi kasumeid saavutada. Nad on oma investeerimisstrateegias metoodilised ning pööravad tähelepanu turvalisusele ja pikaajalisele planeerimisele.
 
 ## Stacker
+
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 Bitcoini kontekstis on "Stacker" mõiste üsna tuntud. Idee on lihtne: bitcoine on ainult 21 miljonit ja iga väike bitcoin loeb! Seda väikest bitcoini nimetatakse tegelikult satoshi'ks (või SAT). Stackeri eesmärk on koguda nii palju kui võimalik.
@@ -669,13 +686,14 @@ Stackeri psühholoogiline portree
   Nende peamine eesmärk on selge: koguda võimalikult palju satoshi'sid. See fookus juhib nende tegevusi ja investeerimisotsuseid, olenemata sellest, kas hind tõuseb taevasse või langeb.
 
 - Finantsteadmised:
-Nad mõistavad mitmekesistamise tähtsust ja regulaarset investeerimist, vähendades seeläbi riske ja optimeerides potentsiaalseid tulusid. See saavutatakse hinna keskmistamise kaudu ja seetõttu puudub huvi lühiajaliste hinnaliikumiste vastu.
+  Nad mõistavad mitmekesistamise tähtsust ja regulaarset investeerimist, vähendades seeläbi riske ja optimeerides potentsiaalseid tulusid. See saavutatakse hinna keskmistamise kaudu ja seetõttu puudub huvi lühiajaliste hinnaliikumiste vastu.
 - Proaktiivne:
   Otsib aktiivselt täiendavaid võimalusi Bitcoinide teenimiseks, olgu selleks kaupade või teenuste müük või muude võimaluste uurimine Bitcoinide ökosüsteemis.
 
 Stacker on meetodiline ja keskendunud isik, kellel on selge plaan oma satoshi'de kogumise maksimeerimiseks. Nad demonstreerivad proaktiivsust ja finantsteadmisi, otsides pidevalt viise oma Bitcoinide investeeringute optimeerimiseks ja turvamiseks. Nende lähenemist iseloomustab järjepidevus ja veatu korraldus, mis viib nad stabiilse ja pideva oma Bitcoinide portfelli kasvu teele.
 
 ## Kasutaja
+
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Lõpuks, viimane bitcoinikasutaja tüüp, mida saab mainida sissejuhatavas kursuses, on bitcoinikasutaja, kes peab Bitcoini regulaarselt kasutama. Olgu selleks siis professionaalsed kohustused või lihtsalt soov toetada ökosüsteemi, on vajalik pakkuda lahendusi sagedaseks kasutamiseks.
@@ -730,6 +748,7 @@ https://planb.network/tutorials/exchange/kraken
 Kasutaja on tehnoloogiliselt osav isik, kes on aktiivselt kaasatud Bitcoini aktiivsesse kasutamisse. Nad otsivad pidevalt viise oma Bitcoini tehingute ja hoidmiste tõhususe ja turvalisuse parandamiseks. Nende paindlikkus ja pühendumus ökosüsteemile kajastub nende valmisolekus kasutada erinevaid lahendusi, alates lightning rahakottidest kuni kiirete vahetuslahendusteni. Kuigi nad on aktiivselt kaasatud Bitcoini tehingutesse, ei jäta nad turvalisust tähelepanuta, tagades selge jaotuse igapäevaseks kasutamiseks mõeldud bitcoinide ja pikaajaliselt hoitavate vahel.
 
 ## Paranoiline Bitcoinikasutaja
+
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 Ma sooviksin siia lisada paranoilise Bitcoini kasutaja. Selline inimene ei soovi end KYC (Know Your Customer - Tea Oma Klienti) protsessidele avada, eelistab jääda anonüümsuse lähedale ja paneb suurt rõhku oma privaatsusele. Paranoiline Bitcoini kasutaja kasutab samuti LN-i (Lightning Network) omaenda noodil ja töötab oma turvalisuse kallal.
 
@@ -780,9 +799,11 @@ https://planb.network/tutorials/exchange/hodlhodl
 Paranoilise isiku mõtteviisis on ettevaatlikkus, turvalisus ja anonüümsus ülimad. Need prioriteedid dikteerivad läbimõeldud ja hästi kaalutletud lähenemise Bitcoini kasutamisele, edendades iseseisvust ja ettevaatlikkust. Paranoiline isik on valmis investeerima aega ja vaeva, et tagada oma bitcoinide turvalisus ja privaatsus, samal ajal oskuslikult navigeerides ökosüsteemis, et vältida tarbetut kokkupuudet. Kuigi mõne jaoks võib see tunduda liiga ettevaatlik, peab paranoiline isik oma hoolsust ja detailidele tähelepanu pööramist eduka ja turvalise osalemise jaoks Bitcoini maailmas hädavajalikuks.
 
 # Tulevik Bitcoini abil
+
 <partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Pärandiplaani loomine
+
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 Kujutame ette järgmist dramaatilist stsenaariumi.
 Autoõnnetus, PAUK, ja sind ei ole enam selles maailmas. Sa kaod, jättes oma pere ilma nende Bitcoini eksperdita. Nad ei tea, kus raha on, kuid mäletavad, et sa pidevalt mainisid termineid nagu võti, sõnade nimekiri ja Bitcoin tehingute tagasipööramatus. Nad on hävitatud, segaduses ja nüüd peavad kõik ise välja mõtlema. Kuigi see olukord võib tunduda hirmutav, on see reaalne võimalus, mida ei saa eirata. Sul on siis kaks valikut: veeta 15 minutit kuni 1 tund, et koostada pärandiplaan, või mitte midagi teha. Keegi ei mõista hukka, kuid kui inimesed sõltuvad sinust, võivad need 15 minutit ühel päeval suurt vahet teha. Valik on sinu.
@@ -825,7 +846,7 @@ Mida sa vajad?
 - Kaks ümbrikku
 - Telefon/adressiraamat
 - Arvuti (minu arvates valikuline)
-![pamela morgan](assets/heritage/1.webp)
+  ![pamela morgan](assets/heritage/1.webp)
 
 Pamela Morgani raamatus "Cryptoasset Inheritance Planning" leheküljel 18 on välja toodud levinud eksiarvamused:
 
@@ -848,11 +869,11 @@ Alati on kompromiss tehnilise oskusteabe, kättesaadavuse ja usalduse vahel. Kui
 
 Vastutuse eraldamine: Usaldusväärne isik EI TOHI kunagi omada juurdepääsu teie privaatvõtmele. Nende ainus roll on aidata teie lähedastel mõista teie Bitcoinide turvasüsteemi ja kasvatada enesekindlust. Seetõttu valite kaks usaldusväärset isikut. Vajadusel võite pöörduda ka kolmanda osapoole organisatsiooni poole (spetsialiseerunud advokaat või pärandiplaneerimise teenused).
 
-| Usaldusväärne Isik | Usaldus | BTC Teadmised | Usaldus Info | Märkus |
-| -------------- | ----- | ------------- | ---------- | ---- |
-| Minu vend Bob         | Väga suur  | Lühike               | Telefon & email          | "Bob ei tea BTC-st palju, kuid me võime teda 100% usaldada, et aidata." || Minu nõbu Nathan       | Suur        | Keskmine              | Telefon & insta          | #1 inimene, kellega rääkida. Ta saab aidata. Ta on informeeritud.                                        |
-| Ricco (Krüptosõber)  | Keskmine      | Väga suur           | Twitter & email & foto | Usalda teda tehnilistes küsimustes. Mitte kunagi rahaga. Peate temaga ühendust võtma.           |
-| YouTuber & influencer  | Lühike       | Suur                | YouTube link           | Harige ennast teda jälgides. Ta ei saa teid otseselt aidata.                               |
+| Usaldusväärne Isik    | Usaldus   | BTC Teadmised | Usaldus Info           | Märkus                                                                                |
+| --------------------- | --------- | ------------- | ---------------------- | ------------------------------------------------------------------------------------- | --- | ---------------- | ---- | -------- | --------------- | ----------------------------------------------------------------- |
+| Minu vend Bob         | Väga suur | Lühike        | Telefon & email        | "Bob ei tea BTC-st palju, kuid me võime teda 100% usaldada, et aidata."               |     | Minu nõbu Nathan | Suur | Keskmine | Telefon & insta | #1 inimene, kellega rääkida. Ta saab aidata. Ta on informeeritud. |
+| Ricco (Krüptosõber)   | Keskmine  | Väga suur     | Twitter & email & foto | Usalda teda tehnilistes küsimustes. Mitte kunagi rahaga. Peate temaga ühendust võtma. |
+| YouTuber & influencer | Lühike    | Suur          | YouTube link           | Harige ennast teda jälgides. Ta ei saa teid otseselt aidata.                          |
 
 ### 2. samm: Tehke lihtne ja kiire inventuur
 
@@ -864,11 +885,12 @@ On oluline mõelda kõikidele kohtadele, kus teil on dollareid või BTC-d:
 
 Mõelge sellele, kuidas olete need turvanud ja kus neid varukoopiaid hoitakse. Praegu ei ole oluline omada kahte varukoopia asukohta. Eesmärk on teha hetktõmmis teie PRAEGUSEST turvalisusest. Me saame seda hiljem parandada! See on lihtsalt esimene versioon, et tagada teie turvalisus praegu, me räägime hiljem rohkem detailidest.
 
-| Üldine               | Tarkvara / Riistvara | Varad        | Asukoht             | Varukoopia (privaatvõti)            | Parool (PIN, paroolilausung)     | Märkus                                                                                                                        |
-| --------------------- | ------------------- | ------------- | --------------------- | -------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Vahetusplatvorm     | Bitstamp            | BTC & Sularaha    | Kättesaadav online.   | -                                | Kodu & Pangaseif              | Siin ostsin ja kandsin üle oma Bitcoinid. Logisin sisse paroolihalduri ja 2FA abil.                             |
-| Füüsiline rahakott       | Trezor model One    | BTC           | Turvaline                | Onu Bob & Pangaseif           | Kodu & Ema                  | Mul on kaks rahakotti, üks tavaline ja teine parooliga.                                                                  |
-| Samourai rahakott | Mobiil - One Plus 6 | BTC | Minu peal | Onu Bob & Pangaseif | Kodu & Ema | Rakendus võib olla peidetud režiimis. |
+| Üldine             | Tarkvara / Riistvara | Varad          | Asukoht             | Varukoopia (privaatvõti) | Parool (PIN, paroolilausung) | Märkus                                                                              |
+| ------------------ | -------------------- | -------------- | ------------------- | ------------------------ | ---------------------------- | ----------------------------------------------------------------------------------- |
+| Vahetusplatvorm    | Bitstamp             | BTC & Sularaha | Kättesaadav online. | -                        | Kodu & Pangaseif             | Siin ostsin ja kandsin üle oma Bitcoinid. Logisin sisse paroolihalduri ja 2FA abil. |
+| Füüsiline rahakott | Trezor model One     | BTC            | Turvaline           | Onu Bob & Pangaseif      | Kodu & Ema                   | Mul on kaks rahakotti, üks tavaline ja teine parooliga.                             |
+| Samourai rahakott  | Mobiil - One Plus 6  | BTC            | Minu peal           | Onu Bob & Pangaseif      | Kodu & Ema                   | Rakendus võib olla peidetud režiimis.                                               |
+
 ÄRA LASE END HÄIRIDA! Võib tekkida soov neid varasid üle kanda:
 
 - Parandamaks oma turvalisust?
@@ -884,7 +906,7 @@ Turvalisuse huvides kasuta kirja kirjutamiseks pliiatsit ja paberit oma lähedas
 - Mul on mõned krüptovarad
 - Võtke ühendust nende nõustajatega
 - Mul on siin need varad - ma armastan teid
-Siin on mall, mis aitab alustada. Kui sa ei soovi kirja ise kirjutada, saad alla laadida malli ja lihtsalt tühjad kohad täita. (link siin)
+  Siin on mall, mis aitab alustada. Kui sa ei soovi kirja ise kirjutada, saad alla laadida malli ja lihtsalt tühjad kohad täita. (link siin)
 
 Alusta selgitades kirja eesmärki ja hoiata oma lähedasi krüptovarade iseseisva haldamise ohtude eest.
 
@@ -912,6 +934,7 @@ Järgnevalt lisame "nõustajate osa". See osa võib olla teie pärijatele segadu
 Siin on inimesed, kes aitavad teil küsimustele vastata ja juhendada teid selles protsessis:
 
 (Sisestage oma nõustajate nimed siia, nende seotus organisatsiooniga (kui see on asjakohane), nende kontaktandmed ja kuidas nad peaksid oma identiteeti tõendama, näiteks keybase, fotod.)
+
 - Minu vend Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. Võid Bobile protsessis abistamise osas kindel olla. Kuigi ta ei pruugi olla kõige tehnilisemalt oskuslikum, on ta õige inimene kõike kahtluse alla seadmiseks ja ettevaatlikkuse rakendamiseks, et tagada sinu ohutu edu. • Minu nõbu Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. Nathan tutvustas mind Bitcoini maailmaga. Ta on väga tehnoloogiatundlik ja suudab vastata enamikule sinu küsimustest. Samuti omab ta mõningaid bitcoine ja oskab sind tehnilisel poolel juhendada. Oled teda näinud mitmel perekondlikul koosviibimisel ja olen siia lisanud tema foto. - Ricco; @RiccoSFC Twitteris; Ricco425@protonmail.com. Olen Riccoga tihedalt koostööd teinud juba palju aastaid. Sa pole teda kunagi kohanud, seega veendu, et räägid õige inimesega, küsides temalt "Mis on Cédricu koera nimi?" Kui ta vastab "12", on kõik korras. Ricco on väga sõbralik ja teadlik Bitcoin'i ekspert. Ta vastab kõigile sinu küsimustele ja saad tema otsustele Bitcoini turvalisuse osas kindel olla. Ära kõhkle temaga ühendust võtta, olen temaga mitu korda kohtunud ja ta on teadlik kõigest, mis puudutab sind ja Maiat.
 - Võib tunduda kummaline, kuid võta nendega kõigiga ühendust. Lisaks saad end harida, kuulates Andreas Antonopoulost YouTube'is ja ostes Pamela Morgani raamatu "Cryptoasset Inheritance Planning".
 
@@ -934,8 +957,8 @@ Mainides varukoopia asukohta, kasutage üldist asukohta, mitte konkreetset aadre
 - Kasutasin sellele juurdepääsuks paroolihaldurit ja leiate minu varukoopia pangaseifist. Konto on kaitstud ka kahefaktorilise autentimisega, millele pääsete juurde minu telefoni (Samsung Galaxy S8) kaudu või kasutades kodus hoitud varukoodi.
 - Mul on ka BTC-d Trezor Model One seadmel. Pääsen sellele juurde oma arvuti ja Trezor.io veebilehe kaudu. Varundus privaatvõtmed on hoiustatud pangaseifis ja onu Bobi juures. PIN-kood on hoitud kodus ja ema juures. Seade ise on tõenäoliselt minu kontori seifis.
 - Kasutan oma Trezor seadme jaoks täiustatud turvasalasõna. Selle salasõna varukoopia asub kodus ja ema juures."
-Nüüd lõpetame kirja mõningase vajaliku õigusalase teabega, samuti lahketel sõnadel.
-"Palun pane tähele: Minu testamendi koopia, mis on dateeritud 17. aprillil 2018, asub minu dokumendikaustas. Minu advokaat, Dwight Schrute, kes asub Pennsylvanias Scrantonis, omab samuti koopiat. Ole ettevaatlik ja pea alati meeles minu armastust sinu vastu." 26.06.2023, Cedric"
+  Nüüd lõpetame kirja mõningase vajaliku õigusalase teabega, samuti lahketel sõnadel.
+  "Palun pane tähele: Minu testamendi koopia, mis on dateeritud 17. aprillil 2018, asub minu dokumendikaustas. Minu advokaat, Dwight Schrute, kes asub Pennsylvanias Scrantonis, omab samuti koopiat. Ole ettevaatlik ja pea alati meeles minu armastust sinu vastu." 26.06.2023, Cedric"
 
 Nüüd vaatame üle meie töö (Põhineb Pamela Morgani "Krüptoassetide Pärandamise Planeerimine", lk 44 (tõlkinud Découvre Bitcoin)):
 
@@ -944,7 +967,7 @@ Nüüd vaatame üle meie töö (Põhineb Pamela Morgani "Krüptoassetide Pärand
 - Varad: Veenduge, et olete kaasanud oma varade loetelu.
 - Vahetused: Kontrollige, et olete loetlenud kõik vahetused, mis teie vahendeid hoiavad.
 - Juurdepääs: Loetlege teave, mida nad vajavad teie hoiukoha leidmiseks ja kõik vajalikud juurdepääsukoodid.
-Kui olete kõik punktid üle kontrollinud, siis olete valmis lõppetappideks! Tehke sellest kirjast koopia ja hoidke mõlemat koopiat ümbrikus. Sulgege see, allkirjastage sulgemiskoht ja hoidke seda ümbrikut turvalises, kuid kättesaadavas kohas. Veenduge, et teie pärijad teaksid, et vajadusel peavad nad selle ümbriku kätte saama. Võite vabalt osta Pamela raamatu, et süveneda sellesse teemasse ja planeerida aega oma pärandiplaani täiustamiseks. Samuti arutage seda oma notariga, et see plaan ametlikult oma testamendisse lisada.
+  Kui olete kõik punktid üle kontrollinud, siis olete valmis lõppetappideks! Tehke sellest kirjast koopia ja hoidke mõlemat koopiat ümbrikus. Sulgege see, allkirjastage sulgemiskoht ja hoidke seda ümbrikut turvalises, kuid kättesaadavas kohas. Veenduge, et teie pärijad teaksid, et vajadusel peavad nad selle ümbriku kätte saama. Võite vabalt osta Pamela raamatu, et süveneda sellesse teemasse ja planeerida aega oma pärandiplaani täiustamiseks. Samuti arutage seda oma notariga, et see plaan ametlikult oma testamendisse lisada.
 
 Palju õnne! Teil on esimene versioon oma pärandiplaanist ja see on suurepärane algus!
 
@@ -952,14 +975,17 @@ _Krüptoassetide Pärandamise Planeerimine, Lihtne juhend omanikele, Pamela Morg
 Te olete parimad :D Minu meeskond ja minu õpilased tänavad teid samuti!
 
 # Tunnustused ja jätkake küülikuurgu uurimist
+
 <partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Palju õnne! TE OLETE TOP 0.1%-S
+
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 Kui olete meie sisu algusest peale jälginud, olete nüüd tõeline 21. sajandi kodanik ja üks kõige kogenumaid Bitcoin'i valdkonnas! Kasutate paroolihaldurit ja kahefaktorilist autentimist (2FA). Te mõistate, mis on Bitcoin ja miks see on oluline. Teil on Bitcoine ja teil on turvaline viis nende ostmiseks või teenimiseks. Olete hoiustanud oma Bitcoine "külmas" rahakotis ja rakendanud korrektset võtmete haldust. Olete loonud oma lähedastele pärandiplaani. Nüüd olete turvaline ja võite lõõgastuda! Nautige õlut ja olge uhke enda üle!
 
 Olen tõeliselt uhke, et olete jõudnud selle etapini. Ma tõesti mõtlen seda. Mida edasi teha? Kuigi peaksite kindlasti nüüd lõõgastuma ja olema enda üle uhke, ei ole teie teekond Bitcoiniga kaugeltki lõppenud ja see ei lõpe kunagi päriselt. Siin on mõned võimalused, mida edasi teha:
+
 1. Võite lihtsalt jätkata nii, nagu seni olete teinud. Koguge bitcoine aeglaselt ja laske oma strateegial ajapikku lahti rulluda. Teil on juba piisav turvalisuse tase, kõik on paigas ja olete teinud vajaliku enda ja oma pere jaoks. Te ei pea saama kauplemiseksperdiks ega teadma investeerimisest palju rohkem. Tõenäoliselt on teil kõrvaltöö ja kuigi Bitcoin on põnev, oli teie peamine eesmärk jõuda sellesse etappi. See kehtib enamiku teie kohta ja ma austan seda. Olen väga rõõmus, et olete jõudnud nii kaugele Bitcoin'i "jänesurgas" ja loodan, et teekond on olnud nauditav. Tänan, et usaldasite mind oma esimeste bitcoinide turvamisel.
 
 2. Võib-olla soovite jätkata enda harimist Bitcoin'i tehniliste, ideoloogiliste ja filosoofiliste aspektide osas. Kui tunnete, et teie teekond on alles algamas, julgustan teid jätkama Bitcoin'i kohta õppimist. Õppida on nii palju, et mõnikord on raske teada, kust alustada. Siin on nimekiri kursustest ja koolitustest, mis võiksid teid saata:
@@ -972,19 +998,50 @@ Olen tõeliselt uhke, et olete jõudnud selle etapini. Ma tõesti mõtlen seda. 
 
 Igal juhul on kõik meie kursused tasuta ja meie platvormil on saadaval palju ressursse või õpetusi, mis teid saadavad. Edu õpingutes!
 
+# Kokkuvõte
 
+<partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Hinnake kursust
+## Hinda kursust
+
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
+
 <chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Kokkuvõte
 
-## Järeltegevus
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-See kursus, nagu kogu selle ülikooli sisu, on teile tasuta pakutud meie kogukonna poolt. Meid toetamiseks võite seda jagada teistega, saada ülikooli liikmeks ja isegi aidata selle arendamisele kaasa GitHubis. Kogu meeskonna nimel, aitäh!
 
+Õnnitleme kursuse lõpetamise puhul!
 
+Meil on hea meel, et olete oma õppeteekonnal edukalt selle verstaposti saavutanud. Tänu teie pühendumisele ja osalemisele olete omandanud väärtuslikke teadmisi ja oskusi, mis tulevad teile professionaalses arengus kasuks.
+
+Et sukelduda sügavamale Bitcoini maailma, kutsume teid tutvuma kõigi teiste Plan ₿ Networkis saadaolevate kursustega:
+
+#### Avasta Bitcoin ja selle põhitõed aadressil
+
+https://planb.network/courses/btc101
+
+#### Uuenda oma võrguturvalisust aadressil
+
+https://planb.network/courses/scu101
+
+#### Avasta Lightning Network aadressil
+
+https://planb.network/courses/lnp201
+
+#### Õpi tundma Austria majanduskoolkonna mõtteviisi aadressil
+
+https://planb.network/courses/eco201
+
+#### Mõista Bitcoini põhitõdesid ja ehita oma kodu küttesüsteem aadressil
+
+https://planb.network/courses/min201
+
+#### Mõista, kuidas Bitcoin'i rahakott töötab aadressil
+
+https://planb.network/courses/cyp201

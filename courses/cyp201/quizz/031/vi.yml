@@ -1,11 +1,8 @@
-question: Các cặp khóa trong ví Hierarchical Deterministic (HD) được xác định như thế nào?
-
-answer: Tất cả các cặp khóa trong ví được xác định một cách có hệ thống và phân cấp từ một thông tin duy nhất ở cơ sở của ví.
-
+question: Bộ chỉnh sửa nào có thể được kết hợp với các cờ sighash cơ bản?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Tất cả các cặp khóa trong ví được xác định độc lập với nhau, một cách ngẫu nhiên, bởi một bộ sinh số ngẫu nhiên.
-  - Mỗi cặp khóa trong ví được xác định một cách có hệ thống từ cặp khóa trước đó.
-  - Các cặp khóa đều ngẫu nhiên và không có liên kết phân cấp.
-
-explanation:
-  Trong ví HD, tất cả các khóa đều được phái sinh từ một thông tin duy nhất gọi là seed, cho phép quản lý các khóa một cách có hệ thống và phân cấp.
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY chỉnh sửa các cờ sighash để chỉ bao gồm một đầu vào duy nhất trong khi để phần còn lại có thể được thay đổi.

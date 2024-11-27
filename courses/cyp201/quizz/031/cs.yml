@@ -1,8 +1,8 @@
-question: Jak jsou určeny klíčové páry v Hierarchické Deterministické (HD) peněžence?
-answer: Všechny klíčové páry v peněžence jsou určeny deterministickým a hierarchickým způsobem z jedinečného kusu informace, který se nachází na základě peněženky.
+question: Jaký modifikátor lze kombinovat se základními příznaky sighash?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Všechny klíčové páry v peněžence jsou určeny nezávisle na ostatních, náhodně, pomocí generátoru náhodných čísel.
-  - Každý klíčový pár v peněžence je určen deterministicky z předchozího klíčového páru.
-  - Všechny klíčové páry jsou náhodné a bez hierarchického propojení.
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  V HD peněženkách jsou všechny klíče odvozeny z jedinečného kusu informace nazývaného seed (semeno), což umožňuje hierarchické a deterministické řízení klíčů.
+  SIGHASH_ANYONECANPAY modifikuje příznaky sighash tak, aby pokrývaly pouze jediný vstup, zatímco zbytek zůstává modifikovatelný.

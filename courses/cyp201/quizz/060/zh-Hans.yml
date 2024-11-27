@@ -1,8 +1,8 @@
-question: 在HD钱包中，用于从父密钥对派生子密钥对的函数是什么？
-answer: HMAC-SHA512。
+question: 与“zpub”前缀关联的密钥类型是什么？
+answer: 主网上SegWit V0的扩展公钥
 wrong_answers:
-  - SHA256。
-  - Argon2d。
-  - PBKDF2。
+  - 主网上SegWit V1的扩展私钥
+  - 测试网上旧版的扩展公钥
+  - 测试网上SegWit V2的扩展公钥
 explanation: |
-  在HD钱包中，使用HMAC-SHA512从父密钥对派生子密钥对。
+  “zpub”前缀表示主网上SegWit V0脚本的扩展公钥。

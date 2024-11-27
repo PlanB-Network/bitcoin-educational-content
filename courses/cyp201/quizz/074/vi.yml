@@ -1,8 +1,8 @@
-question: Tiền tố hoặc HRP nào tương ứng với địa chỉ chuẩn SegWit?
-answer: bc
+question: Chỉ số /84'/ ở độ sâu 1 của một đường dẫn phái sinh chỉ ra điều gì?
+answer: Chuẩn P2WPKH (SegWit v0)
 wrong_answers:
-  - 1
-  - 0x
-  - btc
+  - Chuẩn P2TR (SegWit v1)
+  - Một loại tiền tệ Bitcoin testnet
+  - Một loại tiền tệ Bitcoin mainnet
 explanation: |
-  Tiền tố bc được sử dụng cho các địa chỉ SegWit trên mạng chính của Bitcoin.
+  Chỉ số /84'/ được định nghĩa trong BIP84 để chỉ việc sử dụng chuẩn SegWit v0 với địa chỉ P2WPKH ở độ sâu 1 (đó là độ sâu của mục tiêu phái sinh).

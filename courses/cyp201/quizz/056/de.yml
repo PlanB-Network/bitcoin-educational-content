@@ -1,9 +1,8 @@
-question: Was ist der Zweck des erweiterten Schlüssels?
-answer: Alle notwendigen Informationen zur Ableitung von Kinderschlüsseln in einer einzigen Zeichenkette zu sammeln.
+question: Welche Konstante wird verwendet, um den Master-Privatschlüssel aus dem Seed abzuleiten?
+answer: Bitcoin Seed
 wrong_answers:
-  - Alle notwendigen Informationen zur Rekonstruktion einer gesamten HD-Brieftasche in einer einzigen Zeichenkette zu sammeln.
-  - Informationen über die UTXOs in der Brieftasche zu sammeln.
-  - Die mnemonische Phrase und das Passwort in einem einzigen Format zu sammeln.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Ein erweiterter Schlüssel ermöglicht es, alle notwendigen Informationen zur Ableitung von Kinderschlüsseln zu enthalten, was die Verwaltung von Konten in einer HD-Brieftasche vereinfacht.
-reviewed: false
+  Die Konstante Bitcoin Seed wird als Schlüssel in der HMAC-SHA512-Funktion verwendet, um den Master-Privatschlüssel und den Master-Chain-Code abzuleiten.

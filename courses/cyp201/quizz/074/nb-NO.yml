@@ -1,8 +1,8 @@
-question: Hvilket prefiks eller HRP tilsvarer en SegWit standardadresse?
-answer: bc
+question: Hva indikerer indeksen /84'/ på dybde 1 av en avledningssti?
+answer: P2WPKH-standarden (SegWit v0)
 wrong_answers:
-  - 1
-  - 0x
-  - btc
+  - P2TR-standarden (SegWit v1)
+  - En Bitcoin testnettvaluta
+  - En Bitcoin hovednettvaluta
 explanation: |
-  Prefikset bc brukes for SegWit-adresser på Bitcoin hovednettverket.
+  Indeksen /84'/ er definert i BIP84 for å indikere bruk av SegWit v0-standarden med P2WPKH-adresser på dybde 1 (det som er avledningsmålet).

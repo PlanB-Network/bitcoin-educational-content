@@ -1,0 +1,9 @@
+question: Was ist das einzigartige Merkmal von SegWit v1 (P2TR)-Adressen im Vergleich zu SegWit v0-Adressen?
+answer: Sie verwenden direkt den rohen öffentlichen Schlüssel in der Adresse.
+wrong_answers:
+  - Sie sind in base58check kodiert.
+  - Sie erfordern zwei Signaturen, um gültig zu sein.
+  - Sie verwenden den Hash des öffentlichen Schlüssels in der Adresse.
+explanation: |
+  SegWit v1 (P2TR)-Adressen verwenden nicht einen Hash des öffentlichen Schlüssels, sondern direkt den Taproot-öffentlichen Schlüssel.
+reviewed: false

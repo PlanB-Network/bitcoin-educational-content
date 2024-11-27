@@ -1,8 +1,8 @@
-question: SHA256哈希函数的构造叫什么？
-answer: Merkle-Damgard构造。
+question: SHA256处理任意长度消息所使用的构造是什么？
+answer: Merkle-Damgård构造
 wrong_answers:
-  - 海绵构造。
-  - 迭代哈希函数构造（HAIFA）。
-  - 费斯妥构造。
-explanation:
-  SHA256使用Merkle-Damgard构造，这是一种常用于创建安全哈希函数的结构。
+  - 欧几里得构造
+  - Rivest-Shamir-Adleman构造
+  - Knuth-Morris-Pratt构造
+explanation: |
+  Merkle-Damgård构造允许将一个压缩函数转换为一个可变长度消息的哈希函数。

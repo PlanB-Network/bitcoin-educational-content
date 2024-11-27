@@ -23,9 +23,11 @@ Théo; Contribuição
 +++
 
 # Introdução
+
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Introdução ao curso
+
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Objetivo: atualização!
@@ -51,6 +53,7 @@ Se você estiver procurando por habilidades mais avançadas sobre o assunto, nos
 
 Para começar, discutiremos a importância da escolha de um navegador da web e suas implicações em termos de segurança. Em seguida, exploraremos as especificidades dos navegadores, especialmente no que diz respeito à gestão de cookies. Também veremos como garantir uma navegação mais segura e anônima, usando ferramentas como o TOR. Em seguida, daremos ênfase ao uso de VPNs para fortalecer a proteção de seus dados. Por fim, terminaremos com recomendações sobre o uso seguro de conexões WiFi.
 ![](assets/pt/1.webp)
+
 ### Seção 2: Boas práticas de uso do computador
 
 - Capítulo 3 - Uso do computador
@@ -71,9 +74,11 @@ Primeiro, veremos como proteger sua caixa de e-mails, essencial para suas comuni
 ![](assets/pt/3.webp)
 
 # Tudo sobre navegação online
+
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Navegação online
+
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Ao navegar na internet, é importante evitar alguns erros comuns para preservar sua segurança online. Aqui estão algumas dicas para evitá-los:
@@ -87,7 +92,7 @@ Exemplo: Utilizar www.signal.org/download e não www.logicieltelechargement.fr/s
 Também é aconselhável dar preferência a softwares de código aberto, pois eles geralmente são mais seguros e livres de softwares maliciosos. Um software "open-source" ou aberto é um software cujo código é conhecido e acessível por todos. Portanto, é possível verificar, entre outras coisas, se não há acesso oculto para roubar seus dados pessoais.
 
 > Bônus: softwares de código aberto geralmente são gratuitos! Esta universidade é 100% open source, então você também pode verificar nosso código através do nosso GitHub.
-![](assets/notext/5.webp)
+> ![](assets/notext/5.webp)
 
 ### Gerenciamento de cookies: Erros e boas práticas
 
@@ -100,6 +105,7 @@ Cookies são arquivos criados por sites para armazenar informações em seu disp
 Existem duas grandes famílias de navegadores: aqueles baseados no Chrome e aqueles baseados no Firefox.
 Embora ambas as famílias ofereçam um nível de segurança semelhante, é recomendado evitar o navegador Chrome do Google devido aos seus rastreadores. Alternativas mais leves do Chrome, como o Chromium ou o Brave, podem ser preferidas. O Brave é especialmente recomendado por seu bloqueador de anúncios integrado. Pode ser necessário usar vários navegadores para acessar alguns sites.
 ![](assets/notext/6.webp)
+
 ### Navegação privada, TOR e outras alternativas para uma navegação mais segura e anônima
 
 A navegação privada, embora não oculte a navegação do seu provedor de serviços de Internet, permite não deixar rastros locais no seu computador. Os cookies são automaticamente excluídos no final de cada sessão, permitindo aceitar todos os cookies sem ser rastreado. A navegação privada pode ser útil ao comprar serviços online, pois os sites acompanham nossos hábitos de pesquisa e ajustam os preços de acordo. No entanto, é importante observar que a navegação privada é recomendada para sessões temporárias e específicas, e não para uso geral na navegação na Internet.
@@ -109,10 +115,10 @@ Uma alternativa mais avançada é a rede TOR (The Onion Router), que oferece ano
 O TOR é legal e é usado por jornalistas, ativistas da liberdade e outras pessoas que desejam escapar da censura em países autoritários. No entanto, é importante entender que o TOR não protege os sites visitados nem o próprio computador. Além disso, o uso do TOR pode diminuir a velocidade da conexão com a Internet, pois os dados passam pelos computadores de outras três pessoas antes de chegar ao destino. Também é essencial observar que o TOR não é uma solução infalível para garantir 100% de anonimato e não deve ser usado para atividades ilegais.
 ![](assets/notext/7.webp)
 
-
 https://planb.network/tutorials/others/tor-browser
 
 ## VPN e conexão com a internet
+
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPNs
@@ -144,9 +150,11 @@ Para evitar golpes online, é crucial verificar a identidade do site em que voc�
 Em resumo, o uso de VPN pode melhorar significativamente a segurança online, tanto para empresas quanto para usuários individuais. Além disso, a adoção de boas práticas de navegação pode contribuir para uma melhor higiene digital. No próximo segmento deste curso, abordaremos a segurança do computador, incluindo atualizações, antivírus e gerenciamento de senhas.
 
 # Boas práticas de uso do computador
+
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Uso do computador
+
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 A segurança de nossos computadores é uma questão importante no mundo digital atual. Hoje, abordaremos três pontos-chave:
@@ -190,9 +198,8 @@ Trate o seu computador como faria com a sua casa: fique atento, faça atualizaç
 
 Em conclusão, é fundamental optar por um sistema operacional adequado às suas necessidades e atualizá-lo regularmente, assim como os aplicativos instalados nele. Também é essencial usar um antivírus eficaz e fácil de usar, e adotar boas práticas para a segurança do seu computador e dados.
 
-
-
 ## Hack e gerenciamento de backup: protegendo seus dados
+
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Como os hackers atacam?
@@ -233,11 +240,12 @@ https://planb.network/tutorials/others/proton-drive
 
 https://planb.network/tutorials/others/veracrypt
 
-
 # Implementação das soluções.
+
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Gerenciamento de caixas de e-mail
+
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 ### Configurar uma nova caixa de correio eletrónico!
@@ -265,9 +273,8 @@ Bônus Bitcoin: Pode ser aconselhável criar um endereço de e-mail especialment
 
 https://planb.network/tutorials/others/proton-mail
 
-
-
 ## Gerenciador de senhas
+
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### O que é um gerenciador de senhas?
@@ -281,14 +288,15 @@ Com um gerenciador de senhas, você não precisa mais se preocupar em esquecer s
 - LastPass: Um dos gerenciadores mais populares. É um serviço de terceiros, o que significa que suas senhas são armazenadas em seus servidores. Ele oferece uma versão gratuita e uma versão paga, com uma interface amigável.
 
 - Dashlane: Também é um serviço de terceiros, com uma interface intuitiva e recursos adicionais, como rastreamento de informações de cartão de crédito e notas seguras.
-![](assets/notext/17.webp)
+  ![](assets/notext/17.webp)
+
 ### Auto-hospedagem para mais controle:
 
 - Bitwarden: É uma ferramenta de código aberto, o que significa que você pode examinar seu código para verificar sua segurança. Embora o Bitwarden ofereça um serviço hospedado, ele também permite que os usuários se auto-hospedem, o que significa que você pode controlar onde suas senhas são armazenadas, oferecendo potencialmente mais segurança e controle.
 
 - KeePass: É uma solução de código aberto que é principalmente destinada à auto-hospedagem. Seus dados são armazenados localmente por padrão, mas você pode sincronizar o banco de dados de senhas usando diferentes métodos, se desejar. O KeePass é amplamente reconhecido por sua segurança e flexibilidade, embora possa ser um pouco menos amigável para iniciantes.
-![](assets/notext/18.webp)
-(Observação: Escolher entre um serviço de terceiros ou um serviço de auto-hospedagem depende do seu nível de conforto tecnológico e de como você prioriza o controle em relação à conveniência. Os serviços de terceiros geralmente são mais convenientes para a maioria das pessoas, enquanto a auto-hospedagem requer mais conhecimento técnico, mas pode oferecer mais controle e tranquilidade em termos de segurança.)
+  ![](assets/notext/18.webp)
+  (Observação: Escolher entre um serviço de terceiros ou um serviço de auto-hospedagem depende do seu nível de conforto tecnológico e de como você prioriza o controle em relação à conveniência. Os serviços de terceiros geralmente são mais convenientes para a maioria das pessoas, enquanto a auto-hospedagem requer mais conhecimento técnico, mas pode oferecer mais controle e tranquilidade em termos de segurança.)
 
 ### O que é uma boa senha?
 
@@ -310,6 +318,7 @@ https://planb.network/tutorials/others/bitwarden
 https://planb.network/tutorials/others/keepass
 
 ## Autenticação de 2 fatores
+
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Por que implementar o 2FA
@@ -321,8 +330,8 @@ Esta segunda etapa pode ser:
 - Um código temporário enviado por SMS.
 - Um código gerado por um aplicativo como o Google Authenticator ou o Authy.
 - Uma chave de segurança física que você insere no seu computador.
-![](assets/notext/19.webp)
-Com o 2FA, mesmo que um hacker obtenha sua senha, ele não poderá acessar sua conta sem esse segundo fator de verificação. Isso torna o 2FA essencial para proteger suas contas online contra acessos não autorizados.
+  ![](assets/notext/19.webp)
+  Com o 2FA, mesmo que um hacker obtenha sua senha, ele não poderá acessar sua conta sem esse segundo fator de verificação. Isso torna o 2FA essencial para proteger suas contas online contra acessos não autorizados.
 
 ### Qual opção escolher?
 
@@ -353,21 +362,20 @@ https://planb.network/tutorials/others/authy
 
 https://planb.network/tutorials/others/security-key
 
-
-
 # Seção Prática
+
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Configurando uma Caixa de Correio
+
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 Proteger sua caixa de e-mail é uma etapa importante para garantir a segurança de suas atividades online e preservar seus dados pessoais. Este tutorial irá guiá-lo, passo a passo, na criação e configuração de uma conta ProtonMail, um provedor reconhecido pelo seu alto nível de segurança que oferece criptografia de ponta a ponta das suas comunicações. Seja você um novato ou um usuário experiente, as boas práticas apresentadas aqui ajudarão a fortalecer a segurança do seu e-mail, aproveitando as funcionalidades avançadas do ProtonMail:
 
 https://planb.network/tutorials/others/proton-mail
 
-
-
 ## Segurança em 2FA
+
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 A autenticação de dois fatores (2FA) tornou-se essencial para proteger suas contas online. Neste tutorial, você aprenderá a configurar e usar o aplicativo 2FA Authy, que gera códigos dinâmicos de 6 dígitos para proteger suas contas. O Authy é muito fácil de usar e sincroniza em vários dispositivos. Descubra como instalar e configurar o Authy e, assim, fortaleça a segurança de suas contas online agora mesmo:
@@ -378,10 +386,8 @@ Outra opção é usar uma chave de segurança física. Este outro tutorial mostr
 
 https://planb.network/tutorials/others/security-key
 
-
-
-
 ## Criando um gerenciador de senhas
+
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 A gestão de senhas é um desafio na era digital. Todos nós temos inúmeros contas online para proteger. Um gerenciador de senhas ajuda você a criar e armazenar senhas fortes e únicas para cada conta.
@@ -394,9 +400,8 @@ Para usuários mais avançados, também ofereço um tutorial sobre outro softwar
 
 https://planb.network/tutorials/others/keepass
 
-
-
 ## Protegendo suas contas
+
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 Nestes dois tutoriais, também vou guiá-lo na segurança de suas contas online e explicar como adotar gradualmente práticas mais seguras para gerenciar suas senhas diariamente.
@@ -405,8 +410,8 @@ https://planb.network/tutorials/others/bitwarden
 
 https://planb.network/tutorials/others/keepass
 
-
 ## Configuração de Backup
+
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 Proteger seus arquivos pessoais também é um ponto essencial. Este tutorial mostra como implementar uma estratégia de backup eficaz usando o Proton Drive. Descubra como usar esta solução de nuvem segura para aplicar o método 3-2-1: três cópias dos seus dados em dois suportes diferentes, sendo uma cópia fora do local. Assim, você garante a acessibilidade e a segurança dos seus arquivos sensíveis:
@@ -417,9 +422,8 @@ E para proteger seus arquivos armazenados em mídias removíveis como um pendriv
 
 https://planb.network/tutorials/others/veracrypt
 
-
-
 ## Mudança de navegador & VPN
+
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 A proteção da sua privacidade online também é um ponto a ser considerado para garantir sua segurança. O uso de uma VPN pode ser uma primeira solução para alcançá-la.
@@ -434,12 +438,12 @@ Além disso, descubra como usar o Tor Browser, um navegador especificamente proj
 
 https://planb.network/tutorials/others/tor-browser
 
-
-
 # Vá além
+
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Como trabalhar nesta indústria de cibersegurança
+
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 A cibersegurança, um campo em pleno crescimento, oferece uma infinidade de oportunidades para aqueles apaixonados pela proteção de sistemas e dados. Se essa indústria te intriga, aqui estão alguns passos-chave para se orientar.
@@ -472,7 +476,9 @@ A evolução constante das ameaças requer uma vigilância regular das notícias
 
 Dominando essas habilidades e ferramentas, você estará bem equipado para navegar com sucesso no mundo da cibersegurança.
 ![](assets/notext/20.webp)
+
 ## Entrevista com Renaud
+
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Gestão eficaz de senhas e fortalecimento da autenticação: uma abordagem acadêmica
@@ -502,35 +508,52 @@ Des alternativas aos anúncios intrusivos incluem o Google DNS, OpenDNS e outros
 
 No módulo de treinamento "Segurança 101" do Descubra Bitcoin na Academia, também discutimos a autenticação do Lightning. Esse sistema gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de e-mail ou informações pessoais. É possível ter identidades descentralizadas controladas pelo usuário, mas falta padronização e normalização nos projetos de identidade descentralizada. Gerenciadores de pacotes como Nuget e Chocolaté, que permitem baixar software de código aberto fora da Microsoft Store, são recomendados para evitar ataques maliciosos. Em resumo, o DNS é crucial para a segurança online, mas é necessário permanecer vigilante contra possíveis ataques aos servidores DNS.
 
+# Conclusão
 
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Avalie o curso
+## Avalie este curso
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Exame Final
+## Exame final
+
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Conclusão
 
-## Agradecimentos e continue a explorar a toca do coelho
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
 
-### Avalie o curso e nos apoie
+Parabéns por concluir este curso!
 
-Este curso, juntamente com todo o conteúdo presente nesta universidade, foi disponibilizado gratuitamente pela nossa comunidade. Para nos apoiar, você pode compartilhá-lo com outras pessoas, tornar-se membro da universidade e até mesmo contribuir para o seu desenvolvimento por meio do GitHub. Em nome de toda a equipe, obrigado!
+Estamos felizes que você tenha alcançado com sucesso esta etapa em sua jornada de aprendizado.
 
-Um sistema de avaliação para o curso será em breve integrado a esta nova plataforma de E-learning! Enquanto isso, muito obrigado por ter concluído o curso e, se você gostou, considere compartilhá-lo com outras pessoas.
+Graças à sua dedicação e comprometimento, você adquiriu conhecimentos e habilidades valiosas que servirão para seu desenvolvimento profissional.
 
-### Vá mais longe
+Para continuar aprofundando seus conhecimentos no universo Bitcoin, convidamos você a explorar outros cursos disponíveis na Plan ₿ Network como:
 
-Parabéns por concluir este curso SECU 101! Espero sinceramente que você tenha gostado e que tenha aberto portas para você. Agora você está pronto para obter seus primeiros bitcoins ou simplesmente continuar a aventura com os cursos de nível 2!
+#### Descubra o Bitcoin e seus fundamentos com
 
-- BTC 101 lhe dará as bases teóricas sobre o Bitcoin
-- BTC 102 irá ajudá-lo a criar seu plano de bitcoin
-- LN 201 e 202 permitirão que você descubra a Lightning Network, uma rede de pagamentos de segunda camada
-- ECON 201 abordará a economia austríaca
-- MINAGE 201 para saber mais sobre mineração
-- (e muitos outros)
-  Um enorme obrigado aos nossos Patreon, membros e doadores pelo seu apoio financeiro, obrigado às pessoas que compartilham e obrigado àquelas que tornaram este treinamento possível: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & toda a equipe
-  Até breve!
+https://planb.network/courses/btc101
+
+#### Obtenha e proteja seus primeiros bitcoins com
+
+https://planb.network/courses/btc102
+
+#### Descubra a rede Lightning com
+
+https://planb.network/courses/lnp201
+
+#### Descubra o pensamento econômico da Escola Austríaca com
+
+https://planb.network/courses/eco201
+
+#### Descubra a história das origens do Bitcoin com
+
+https://planb.network/courses/his201
+
+#### Entenda como funciona uma carteira Bitcoin com
+
+https://planb.network/courses/cyp201

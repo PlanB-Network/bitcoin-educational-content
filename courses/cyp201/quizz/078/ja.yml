@@ -1,9 +1,9 @@
-question: こちらは10進数の数列です（10 25 13 18 02 31）。Bech32への正しい変換は何ですか？
-answer: 2edjzl
+question: ディスクリプターでの接頭辞 `wpkh` は何を意味していますか？
+answer: Pay-to-Witness-PubKey-Hash
 wrong_answers:
-  - 2udjpr
-  - 2uaz2c
-  - 3bdjsr
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Witness Script Hash
 explanation: |
-  10進数の数列をBech32に変換するには、特定の対応表を通じて行われ、数列10 25 13 18 02 31は2edjzlに対応します。
-  レビュー済み: false
+  接頭辞 `wpkh` は、Pay-to-Witness-Public-Key-Hash アドレスを使用する SegWit v0 スクリプトを示しています。
+reviewed: false

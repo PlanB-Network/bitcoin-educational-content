@@ -1,8 +1,8 @@
-question: Hva er den viktigste forskjellen mellom en PRNG og en TRNG?
-answer: En PRNG er deterministisk, mens en TRNG produserer virkelig tilfeldige tall.
+question: Hvorfor anbefales det ikke å gjenbruke en Bitcoin-adresse?
+answer: Det letter sporingen av transaksjoner av tredjeparter
 wrong_answers:
-  - En TRNG er raskere enn en PRNG.
-  - En TRNG bruker et frø, mens en PRNG ikke bruker noe frø.
-  - En PRNG er maskinvare, mens en TRNG er programvare.
+  - Det avslører den private nøkkelen på grunn av nonce
+  - Det gjør transaksjoner dyrere
+  - Det ugyldiggjør digitale signaturer
 explanation: |
-  En TRNG (True Random Number Generator) genererer tilfeldige tall fra et fysisk tilfeldig fenomen, i motsetning til en PRNG som er deterministisk.
+  Å gjenbruke en adresse lar observatører enkelt koble forskjellige transaksjoner til samme bruker, noe som kompromitterer deres personvern.

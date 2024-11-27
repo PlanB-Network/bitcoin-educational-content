@@ -1,9 +1,9 @@
-question: Innerhalb des Bitcoin-Protokolls, was ist ein HASH256?
-answer: Ein doppelter SHA256-Hash.
+question: Welche Kombination von Hash-Funktionen wird verwendet, um kürzere Fingerabdrücke in Bitcoin zu erzeugen?
+answer: HASH160
 wrong_answers:
-  - Ein doppelter Keccak-256-Hash.
-  - Ein SHA256-Hash gefolgt von einem RIPEMD160-Hash.
-  - Ein einzelner SHA256-Hash.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Ein HASH256 ist ein doppelter SHA256-Hash, was bedeutet, dass die SHA256-Funktion einmal auf ein Stück Daten angewendet wird, dann ein zweites Mal auf das Ergebnis des ersten Durchlaufs.
+  HASH160 kombiniert SHA256 und RIPEMD160, um 160-Bit-Fingerabdrücke zu erzeugen, insbesondere für Bitcoin-Adressen.
 reviewed: false

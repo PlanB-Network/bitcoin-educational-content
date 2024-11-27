@@ -1,8 +1,9 @@
-question: Mikä on Nonce kryptografiassa?
-answer: Numero, joka on tarkoitettu käytettäväksi vain kerran.
+question: Mikä Schnorrin ominaisuus mahdollistaa useiden julkisten avainten yhdistämisen yhdeksi?
+answer: Avainten aggregointi
 wrong_answers:
-  - Parillinen numero.
-  - Digitaalinen allekirjoitus.
-  - Numero, jota voidaan käyttää uudelleen.
+  - Erän varmennus
+  - Muokattavuus
+  - Allekirjoituksen tiivistäminen
 explanation: |
-  Nonce on numero, jota käytetään kerran kryptografisissa toiminnoissa, varmistaen tiettyjen arvojen yksilöllisyyden algoritmeissa.
+  Schnorr mahdollistaa useiden julkisten avainten aggregoinnin yhdeksi ainoaksi avaimiksi.
+reviewed: false

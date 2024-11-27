@@ -1,9 +1,9 @@
-question: ¿Cómo se determina una clave privada de Bitcoin?
-answer: Se determina a partir de un número aleatorio o pseudoaleatorio.
+question: ¿Cuál es la diferencia entre una clave pública comprimida y una no comprimida?
+answer: La clave pública comprimida utiliza solo la coordenada x y la paridad de y
 wrong_answers:
-  - Se determina mediante la adición y duplicación de puntos en la curva elíptica a partir de su clave pública.
-  - Se determina mediante el hash de su clave pública.
-  - Se determina por el algoritmo SHA-256.
+  - La clave pública comprimida es más segura
+  - La clave pública comprimida utiliza solo la coordenada y y la paridad de x
+  - La clave pública comprimida requiere una clave privada más grande
 explanation: |
-  Una clave privada de Bitcoin se genera de manera aleatoria o pseudoaleatoria, lo que asegura su unicidad y seguridad.
+  Una clave pública comprimida retiene solo la coordenada x y un bit para la paridad de y, reduciendo así su tamaño a 33 bytes.
 reviewed: false

@@ -1,9 +1,8 @@
-question: ¿Cuál es el propósito de una cadena externa en el proceso de derivación?
-answer: Aislar direcciones destinadas a ser públicas.
+question: ¿Cuál es la restricción para derivar una clave pública hija de una clave pública padre?
+answer: La clave hija debe ser normal
 wrong_answers:
-  - Aislar direcciones de cambio.
-  - Gestionar transacciones entrantes.
-  - Separar claves privadas de claves públicas.
+  - La clave hija debe ser endurecida
+  - El código de cadena debe ser idéntico al de la clave padre
+  - El proceso debe incluir la clave privada padre
 explanation: |
-  La cadena externa se utiliza para derivar direcciones destinadas a ser públicas, como aquellas para recibir pagos.
-reviewed: false
+  Una clave pública hija solo puede derivarse de una clave pública padre si es normal, no endurecida.

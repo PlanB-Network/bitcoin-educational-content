@@ -1,9 +1,9 @@
-question: How is a Bitcoin public key determined?
-answer: It is determined by adding and doubling points on the elliptic curve from the generator point using the private key.
+question: How is a public key calculated from a private key?
+answer: By using scalar multiplication on the elliptic curve
 wrong_answers:
-  - It is determined from a random or pseudo-random number.
-  - It is determined by hashing its private key.
-  - It is determined by hashing its seed.
+  - By applying a hash on the private key
+  - Through asymmetric encryption
+  - With repeated addition of numerical values
 explanation: |
-  The public key is generated from the private key through operations on the elliptic curve, starting from the generator point.
+  The public key is obtained by the scalar multiplication of the private key with the generator point G on the elliptic curve.
 reviewed: false

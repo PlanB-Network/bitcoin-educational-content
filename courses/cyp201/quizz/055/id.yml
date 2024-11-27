@@ -1,8 +1,8 @@
-question: Apa yang terkandung dalam muatan kunci yang diperluas?
-answer: Kunci publik atau kunci privat, dan kode rantai yang terkait.
+question: Berapa bagian output dari fungsi HMAC-SHA512 yang diterapkan pada seed dibagi?
+answer: Dua bagian dari 256 bit
 wrong_answers:
-  - Kunci privat dan kunci publik yang terkait.
-  - Kode rantai, kunci publik, dan kunci privat.
-  - Kunci privat dan indeks derivasi.
+  - Satu bagian tunggal dari 512 bit
+  - Tiga bagian dari 170 bit
+  - Empat bagian dari 128 bit
 explanation: |
-  Muatan dari kunci yang diperluas mencakup baik kunci publik atau kunci privat, bersama dengan kode rantai yang digunakan untuk menurunkan kunci anak.
+  Output dari HMAC-SHA512 dibagi menjadi dua bagian: kunci privat utama (256 bit) dan kode rantai utama (256 bit).

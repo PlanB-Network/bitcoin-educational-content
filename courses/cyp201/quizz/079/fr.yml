@@ -1,9 +1,9 @@
-question: Quelle est l'étape finale pour créer une adresse Bitcoin en Bech32 ?
-answer: Ajouter le HRP bc et un séparateur 1.
+question: Quelle est la fonction principale des output script descriptors ?
+answer: Décrire intégralement un script de sortie et fournir les informations pour restaurer un portefeuille
 wrong_answers:
-  - Ajouter la version de SegWit au début.
-  - Ajouter la checksum au début de l'adresse.
-  - Ajouter un préfixe 1.
+  - Générer automatiquement des adresses multisignatures
+  - Remplacer la phrase mnémonique dans la sauvegarde des portefeuilles
+  - Simplifier les calculs des signatures numériques
 explanation: |
-  L'étape finale de la construction d'une adresse Bech32 consiste à ajouter le HRP (Human Readable Part), bc pour Bitcoin, suivi d'un séparateur 1.
+  Les descriptors encapsulent toutes les informations nécessaires pour suivre un script particulier, incluant le chemin de dérivation et les clés utilisées, mais pas la phrase de récupération.
 reviewed: false

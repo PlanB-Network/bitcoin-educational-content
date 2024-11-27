@@ -1,9 +1,9 @@
-question: Jos generoin 256-bittisen satunnaisluvun, kuinka monta sanaa palautusfraasini tulee olemaan?
-answer: 24 sanaa.
+question: Mikä on pääasiallinen ero PRNG n ja TRNG n välillä?
+answer: PRNG on deterministinen, kun taas TRNG tuottaa todellisia satunnaislukuja.
 wrong_answers:
-  - 6 sanaa.
-  - 8 sanaa.
-  - 12 sanaa.
+  - PRNG on nopeampi kuin TRNG suurilla luvuilla.
+  - PRNG: tä käytetään vain salaukseen, ei TRNG tä.
+  - PRNG käyttää yksityisiä avaimia, TRNG käyttää julkisia avaimia.
 explanation: |
-  256-bittinen satunnaisluku vastaa 24 sanan muistisanaista fraasia BIP39-standardin mukaisesti.
+  PRNG: t ovat deterministisiä, mikä tarkoittaa, että ne voivat toistaa sekvenssejä alkutilasta toisin kuin TRNG t.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Co znamená apostrof nebo písmeno H uvedené vpravo od čísla v notaci cesty derivace? Příklad m/84'/0'.
-answer: Značí to zpevněnou derivaci.
+question: Která část výstupu HMAC-SHA512 je použita jako kód dětského řetězce?
+answer: Posledních 32 bajtů
 wrong_answers:
-  - Značí to normální derivaci.
-  - Je to tam pro dekoraci.
-  - Značí to změnový klíč.
+  - Prvních 32 bajtů
+  - Celých 64 bajtů
+  - SHA256 hash prostředních 32 bajtů
 explanation: |
-  Apostrof nebo H v cestě derivace značí zpevněnou derivaci, která využívá rodičovský soukromý klíč a odpovídající rozsah indexů.
+  Posledních 32 bajtů výstupu HMAC-SHA512 slouží jako kód řetězce pro dětský klíč.
 reviewed: false

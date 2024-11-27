@@ -1,9 +1,9 @@
-question: In welchem Zahlensystem wird der erweiterte Schlüssel normalerweise kodiert, um dem Benutzer präsentiert zu werden?
-answer: In Base 58.
+question: Was ist die Rolle des Seeds in einem Bitcoin HD Wallet?
+answer: Dient als Ausgangspunkt für die Ableitung aller Schlüssel
 wrong_answers:
-  - In bech32.
-  - In Base 16.
-  - In bech32m.
+  - Speichert die Transaktionen des Wallets
+  - Generiert direkt den Master-Public-Key
+  - Gewährleistet die Vertraulichkeit der Transaktion
 explanation: |
-  Der erweiterte Schlüssel wird allgemein in Base 58 kodiert, um für den Benutzer lesbarer zu sein und um mehrdeutige Zeichen zu vermeiden.
+  Der Seed ist eine 512-Bit-Sequenz, die aus der mnemonischen Phrase und dem Passwort abgeleitet wird. Er bildet die Grundlage aller Schlüssel im Wallet.
 reviewed: false

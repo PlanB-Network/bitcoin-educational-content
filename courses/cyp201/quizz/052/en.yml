@@ -1,9 +1,9 @@
-question: What is the pseudo-random function used in PBKDF2 to calculate the seed of a Bitcoin HD wallet?
-answer: HMAC-SHA512.
+question: What is the purpose of using a decoy wallet with a passphrase?
+answer: To simulate a wallet with a small amount in case of physical coercion
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Add an automatic backup of transactions
+  - Generate an additional mnemonic phrase
+  - Protect UTXOs from a double spend
 explanation: |
-  HMAC-SHA512 is the pseudo-random function used in PBKDF2 to generate the seed of a Bitcoin HD wallet.
+  A decoy wallet is used to divert an attacker's attention by providing access to a wallet containing a small amount of bitcoins.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'une signature numérique permet de prouver dans le système Bitcoin via les scriptSig ?
-answer: La possession de la clé privée associée à une clé publique spécifique.
+question: Quel algorithme de signature numérique était utilisé au lancement de Bitcoin ?
+answer: ECDSA
 wrong_answers:
-  - La possession d'une adresse Bitcoin.
-  - La capacité à miner un bloc Bitcoin.
-  - La validité d'une transaction Bitcoin.
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Une signature numérique prouve que l'utilisateur possède la clé privée sans avoir à la révéler, garantissant l'authenticité de la transaction.
+  Bitcoin utilisait initialement ECDSA, un protocole de signature basé sur les courbes elliptiques, avant l'introduction des signatures Schnorr en 2021.
 reviewed: false

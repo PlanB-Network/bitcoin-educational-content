@@ -1,9 +1,9 @@
-question: If BIP39 is followed, what is the size of an HD wallet's seed?
-answer: 512 bits.
+question: What is a good practice for securing a passphrase?
+answer: Save it on a separate physical medium from the mnemonic phrase
 wrong_answers:
-  - 32 bytes.
-  - 1024 bits.
-  - 512 bytes.
+  - Memorize it only by heart without noting it down
+  - Save it on the same physical medium as the mnemonic phrase
+  - Record it on a digital medium like Google Drive
 explanation: |
-  According to BIP39, the seed of an HD wallet is 512 bits, derived from the mnemonic phrase and the passphrase.
+  The passphrase must be saved physically and separate from the mnemonic phrase to prevent simultaneous theft of both.
 reviewed: false

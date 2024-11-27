@@ -1,9 +1,9 @@
-question: In HD wallet derivation paths, what does depth 0 correspond to?
-answer: The master key.
+question: What is the difference between a normal child key and a hardened child key?
+answer: A hardened child key requires the parent private key for its derivation.
 wrong_answers:
-  - The extended key.
-  - The receiving addresses.
-  - The type of currency.
+  - A normal child key cannot derive from public keys.
+  - A hardened child key uses an odd index.
+  - A normal child key is more secure than a hardened child key.
 explanation: |
-  Depth 0 in derivation paths corresponds to the master key, which is the starting point for all derivations in an HD wallet.
+  A normal child key can be derived from the parent public key, unlike a hardened child key which requires the parent private key.
 reviewed: false

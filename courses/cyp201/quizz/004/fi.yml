@@ -1,9 +1,9 @@
-question: Mikä on HASH256 Bitcoin-protokollassa?
-answer: Kahden SHA256-hassin yhdistelmä.
+question: Mikä hajautusfunktioiden yhdistelmä käytetään lyhyempien sormenjälkien tuottamiseen Bitcoinissa?
+answer: HASH160
 wrong_answers:
-  - Kahden Keccak-256-hassin yhdistelmä.
-  - SHA256-hassi seurattuna RIPEMD160-hassilla.
-  - Yksittäinen SHA256-hassi.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  HASH256 on kahden SHA256-hassin yhdistelmä, mikä tarkoittaa, että SHA256-funktiota sovelletaan kerran tietoerään, ja sitten toisen kerran ensimmäisen tulokseen.
+  HASH160 yhdistää SHA256 n ja RIPEMD160 n tuottaakseen 160-bittisiä sormenjälkiä, erityisesti Bitcoin-osoitteita varten.
 reviewed: false

@@ -1224,7 +1224,7 @@ Trong số các phương pháp khác để mua bitcoin mà vẫn bảo vệ đư
 
 Một phương pháp khác bao gồm làm việc và nhận lương bằng bitcoin. Phương pháp mua bán này có thể thú vị, nhưng mức độ xác định danh tính yêu cầu thay đổi rất nhiều tùy theo hoàn cảnh.
 
-*Để viết chương này, tôi đã sử dụng khóa học [BTC205](https://planb.network/fr/courses/btc205) được tạo bởi [@pivi___](https://x.com/pivi___) trên PlanB Network (hiện chỉ có sẵn bằng tiếng Pháp).*
+*Để viết chương này, tôi đã sử dụng khóa học [BTC205](https://planb.network/fr/courses/btc205) được tạo bởi [@pivi___](https://x.com/pivi___) trên Plan ₿ Network (hiện chỉ có sẵn bằng tiếng Pháp).*
 
 ## Hợp nhất, quản lý UTXO và CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2487,7 +2487,7 @@ Những avatar này cũng có thể được biểu diễn dưới dạng hình 
 
 Mặc dù những robot này không có chức năng kỹ thuật cụ thể nào trong khuôn khổ của BIP47, chúng đóng vai trò trong việc tạo điều kiện cho các tương tác giữa người dùng bằng cách cung cấp một danh tính hình ảnh dễ nhận biết.
 
-Trong các phần tiếp theo của chương được dành riêng cho BIP47 này, chúng ta sẽ xem xét chi tiết cách thức hoạt động của nó, và nhấn mạnh đặc biệt vào các phương pháp mật mã học được sử dụng. Để hiểu đầy đủ những giải thích kỹ thuật này, điều cần thiết là phải hiểu trước cấu trúc của ví HD - ví phân cấp tất định, các quy trình phát sinh khóa, và các nguyên tắc cơ bản của mật mã học dựa trên đường cong e líp. Nếu bạn muốn tìm hiểu sâu hơn về những khái niệm này, một khóa học miễn phí khác có sẵn trên PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Tôi vẫn khuyên bạn nên theo dõi chúng, vì việc hiểu rõ cơ chế kỹ thuật của BIP47 sẽ giúp bạn dễ dàng hiểu các đề xuất tương tự khác mà chúng ta sẽ thảo luận trong các chương tiếp theo.
+Trong các phần tiếp theo của chương được dành riêng cho BIP47 này, chúng ta sẽ xem xét chi tiết cách thức hoạt động của nó, và nhấn mạnh đặc biệt vào các phương pháp mật mã học được sử dụng. Để hiểu đầy đủ những giải thích kỹ thuật này, điều cần thiết là phải hiểu trước cấu trúc của ví HD - ví phân cấp tất định, các quy trình phát sinh khóa, và các nguyên tắc cơ bản của mật mã học dựa trên đường cong e líp. Nếu bạn muốn tìm hiểu sâu hơn về những khái niệm này, một khóa học miễn phí khác có sẵn trên Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Tôi vẫn khuyên bạn nên theo dõi chúng, vì việc hiểu rõ cơ chế kỹ thuật của BIP47 sẽ giúp bạn dễ dàng hiểu các đề xuất tương tự khác mà chúng ta sẽ thảo luận trong các chương tiếp theo.
 ### Mã thanh toán có thể sử dụng lại
 
 Như đã đề cập trước đó, mã thanh toán có thể sử dụng lại nằm ở độ sâu 3 của ví HD, làm cho nó tương đương với một `xpub`, cả về vị trí của nó trong cấu trúc ví và vai trò của nó.
@@ -3453,26 +3453,45 @@ Chúng tôi sẽ sớm cung cấp một hướng dẫn chi tiết về cách thi
 Vì tính năng này là mới, nên cần thận trọng và tránh sử dụng Silent Payments cho các khoản tiền lớn trên mainnet.
 
 *Để tạo chương này về Silent Payments, tôi đã sử dụng [trang giải thích Silent Payments](https://silentpayments.xyz/) và [tài liệu giải thích BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
-
 # Kết luận
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Đánh giá khóa học
+## Đánh giá khóa học này
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Kỳ thi cuối cùng
+## Bài kiểm tra cuối cùng
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Lời kết
+## Kết luận
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Chúc mừng bạn đã hoàn thành khóa đào tạo về quyền riêng tư Bitcoin này!
 
-Xin chúc mừng bạn đã hoàn thành khóa đào tạo này về quyền riêng tư trên mạng lưới Bitcoin!
+Trong khóa đào tạo này, chúng ta đã đề cập đến nhiều chủ đề nâng cao và kỹ thuật, nhưng không bắt buộc phải sử dụng tất cả các công cụ đã được giới thiệu. Mục tiêu chính là trao cho bạn quyền lựa chọn thông tin nào bạn muốn tiết lộ và thông tin nào bạn muốn giữ bí mật trong việc sử dụng Bitcoin của mình. Điều này thể hiện bản chất của việc bảo vệ quyền riêng tư. Để đưa ra quyết định sáng suốt về việc chia sẻ hoặc giấu thông tin nào, bạn cần nhận thức được những hệ quả từ hành động của chúng ta. Tôi hy vọng khóa đào tạo này đã giúp bạn có được những kiến thức đó.
 
-Chúng tôi đã đề cập đến nhiều chủ đề  nâng cao và thiên về kỹ thuật trong khoá này, nhưng bạn không nhất thiết phải sử dụng tất cả các công cụ được trình bày ở đây. Mục tiêu chính là trao quyền cho bạn để chọn lựa thông tin bạn muốn tiết lộ và thông tin bạn muốn giữ kín trong việc sử dụng Bitcoin của mình. Điều này thể hiện bản chất cốt lõi của việc bảo vệ quyền riêng tư. Để đưa ra quyết định thông tin nào nên chia sẻ hoặc giấu kín, cần phải nhận thức được hậu quả của các hành động của mình. Tôi hy vọng khóa đào tạo này đã giúp bạn có được những kiến thức này.
-Nếu tôi phải chọn phần quan trọng nhất của khóa đào tạo này, tôi sẽ chọn phần dành riêng cho phân tích chuỗi. Hiểu biết về các kỹ thuật mà kẻ tấn công tiềm năng của bạn sử dụng là cách tốt nhất để bảo vệ bản thân. Do đó, lời khuyên của tôi sẽ là xem xét kỹ lưỡng phần này và cố gắng nắm bắt tất cả các chi tiết.
-Trong khóa đào tạo này, chúng tôi chỉ tập trung vào vấn đề quyền riêng tư của Bitcoin trên chuỗi chính. Các vấn đề về riêng tư trên các hệ thống lớp thứ hai, như Lightning Network và sidechains, cũng rất quan trọng và có những đặc điểm cụ thể. Mặc dù việc sử dụng các giao dịch ngoại tuyến có thể là một chiến lược hiệu quả để lách qua nhiều rủi ro về khả năng theo dõi trên mạng lưới Bitcoin mà chúng ta đã nghiên cứu, nó cũng đưa bạn đến với những rủi ro khác mà chúng ta cần nhận biết. Đó là lý do tại sao những chủ đề này sẽ được đề cập trong một khóa đào tạo chuyên sâu trong tương lai trên PlanB Network.
+Nếu phải chọn phần quan trọng nhất của khóa đào tạo này, tôi sẽ chọn phần dành cho phân tích chuỗi. Hiểu được các kỹ thuật mà những kẻ tấn công tiềm năng sử dụng là cách tốt nhất để bảo vệ bạn khỏi họ. Vì vậy, lời khuyên của tôi là xem xét kỹ phần này và cố gắng nắm bắt tất cả các chi tiết của nó.
 
-Nếu bạn thích khóa đào tạo này, tôi sẽ rất biết ơn nếu bạn có thể chia sẻ nó với bạn bè của bạn và trên mạng xã hội. Cảm ơn bạn! :)
+Trong khóa đào tạo này, chúng ta chỉ tập trung vào quyền riêng tư của Bitcoin trên chuỗi chính. Các vấn đề về quyền riêng tư trên các hệ thống lớp hai, như Lightning Network và sidechains, cũng quan trọng và có những đặc điểm rất riêng biệt. Mặc dù việc sử dụng các giao dịch ngoài chuỗi có thể là một chiến lược hiệu quả để tránh nhiều rủi ro về khả năng theo dõi Bitcoin mà chúng ta đã nghiên cứu, nó khiến bạn phải đối mặt với những rủi ro khác mà cũng cần thiết phải biết. Đó là lý do tại sao những chủ đề này sẽ được đề cập trong khóa đào tạo chuyên biệt trong tương lai trên Plan ₿ Network.
+
+Nếu bạn thích khóa đào tạo này, tôi sẽ rất biết ơn nếu bạn chia sẻ nó với người thân và trên mạng xã hội của bạn. Cảm ơn! :)
+
+Để tiếp tục đào sâu kiến thức của bạn trong vũ trụ Bitcoin, chúng tôi mời bạn khám phá các khóa học khác có sẵn trên Plan ₿ Network như:
+
+#### Hiểu cách hoạt động của ví Bitcoin với
+https://planb.network/courses/cyp201
+
+#### Học cách tạo cộng đồng Bitcoin của bạn với
+https://planb.network/courses/btc302
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+https://planb.network/courses/his201
+
+#### Cấu hình máy chủ thanh toán BTC với
+https://planb.network/courses/btc305
+
+#### Khám phá Lightning Network với
+https://planb.network/courses/lnp201
+
+#### Khám phá sự phát triển của tự do qua các thời đại với
+https://planb.network/courses/phi201

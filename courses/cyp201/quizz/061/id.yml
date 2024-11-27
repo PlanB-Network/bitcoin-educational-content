@@ -1,8 +1,8 @@
-question: Apa variabel yang memungkinkan membedakan pasangan kunci saudara satu sama lain (yang memiliki pasangan induk yang sama)?
-answer: Indeks.
+question: Berapa ukuran total dari kunci ekstensi dengan checksum?
+answer: 82 byte
 wrong_answers:
-  - Garam kriptografi.
-  - Nama depan.
-  - Kode rantai induk.
+  - 78 byte
+  - 64 byte
+  - 128 byte
 explanation: |
-  Indeks digunakan untuk membedakan pasangan kunci saudara yang berasal dari pasangan induk yang sama dalam dompet HD.
+  Sebuah kunci ekstensi adalah 78 byte tanpa checksum dan 82 byte dengan checksum termasuk.

@@ -1,8 +1,8 @@
-question: Mikä on Bitcoin-lompakon pääasiallinen tekninen rooli?
-answer: Tallentaa kryptografisia avainpareja.
+question: Mikä on SIGHASH_SINGLE n tarkoitus?
+answer: Kattaa yhden syötteen ja sen vastaavan tulosteen
 wrong_answers:
-  - Tallentaa bitcoineja.
-  - Tallentaa UTXO: ja.
-  - Tallentaa transaktioita.
+  - Kattaa kaikki syötteet ja tulosteet
+  - Kattaa vain syötteet
+  - Kattaa kaikki tulosteet paitsi yhden
 explanation: |
-  Bitcoin-lompakko ei suoraan tallenna bitcoineja, vaan kryptografisia avainpareja, joita käytetään UTXO: jen hallintaan ja käyttämiseen.
+  SIGHASH_SINGLE kattaa yhden syötteen ja yhden siihen indeksillä vastaavan tulosteen, jättäen loput muokattaviksi.

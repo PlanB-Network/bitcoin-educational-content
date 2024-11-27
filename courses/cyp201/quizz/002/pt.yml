@@ -1,9 +1,8 @@
-question: Quais são as funções de hash utilizadas no protocolo Bitcoin?
-answer: SHA-256, RIPEMD-160
+question: Qual propriedade das funções de hash é demonstrada por uma mudança completa no hash quando uma mensagem muda levemente?
+answer: O efeito avalanche
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - Resistência a colisões
+  - Resistência à segunda pré-imagem
+  - Comprimento
 explanation: |
-  No Bitcoin, são utilizadas SHA-256 e RIPEMD-160.
-reviewed: false
+  Uma pequena mudança na entrada resulta em uma mudança radical no hash, isso é o que é chamado de efeito avalanche.

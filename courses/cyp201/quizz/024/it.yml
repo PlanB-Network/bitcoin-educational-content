@@ -1,9 +1,9 @@
-question: Quali sono le coordinate del punto generatore G utilizzato sulla curva ellittica secp256k1?
-answer: Gx = 79BE667E... Gy = 483ADA77...
+question: Qual è la dimensione di una chiave privata grezza utilizzata su Bitcoin?
+answer: 256 bit
 wrong_answers:
-  - Gx = FFF213AE... Gy = 1234ABC1...
-  - Gx = 5A67E812... Gy = 1B234678...
-  - Gx = A12345F9... Gy = 3B76EBC1...
+  - 128 bit
+  - 512 bit
+  - 1024 bit
 explanation: |
-  Il punto generatore G è un punto predefinito sulla curva ellittica secp256k1, utilizzato per generare chiavi pubbliche a partire da chiavi private in Bitcoin.
+  Una chiave privata in Bitcoin è un intero casuale di 256 bit, garantendo uno spazio chiave abbastanza ampio da garantire la sicurezza.
 reviewed: false

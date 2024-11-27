@@ -1,9 +1,9 @@
-question: Qual è la caratteristica unica della lista di 2048 parole che consente la codifica mnemonica?
-answer: Nessuna parola ha le stesse prime quattro lettere nello stesso ordine.
+question: Perché è rischioso generare manualmente l'entropia per un portafoglio HD?
+answer: Può introdurre debolezze umane o pregiudizi prevedibili
 wrong_answers:
-  - Nessuna parola ha le stesse ultime tre lettere.
-  - Nessuna parola inizia con la lettera J.
-  - Nessuna parola è più lunga di sei lettere.
+  - Risulta in chiavi pubbliche non valide
+  - Blocca la derivazione delle chiavi private
+  - Limita la dimensione delle frasi mnemoniche generate
 explanation: |
-  Questa caratteristica aiuta a evitare qualsiasi ambiguità durante l'inserimento delle parole, garantendo così l'unicità di ogni parola nella lista, riducendo al contempo lo spazio di archiviazione necessario.
-reviewed: false
+  Generare manualmente l'entropia può introdurre pregiudizi o errori, rendendo le chiavi più vulnerabili agli attacchi.
+recensito: false

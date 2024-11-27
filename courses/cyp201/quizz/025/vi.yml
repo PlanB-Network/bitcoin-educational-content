@@ -1,9 +1,9 @@
-question: Nonce trong mật mã học là gì?
-answer: Một số được dùng với mục đích sử dụng một lần.
+question: Tính chất nào của Schnorr cho phép kết hợp nhiều khóa công khai thành một?
+answer: Tích hợp Khóa
 wrong_answers:
-  - Một số chẵn.
-  - Chữ ký số.
-  - Một số có thể tái sử dụng.
+  - Xác minh Đợt
+  - Tính Dễ Biến Dạng
+  - Nén Chữ Ký
 explanation: |
-  Nonce là một số được sử dụng một lần cho các hoạt động mật mã, đảm bảo tính duy nhất của một số giá trị trong các thuật toán.
+  Schnorr cho phép tích hợp nhiều khóa công khai vào một khóa duy nhất.
 reviewed: false

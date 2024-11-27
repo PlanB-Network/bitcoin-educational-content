@@ -1,9 +1,9 @@
-question: Hier ist eine Sequenz von Dezimalzahlen (10 25 13 18 02 31). Was ist die korrekte Umwandlung in Bech32?
-answer: 2edjzl
+question: Was bedeutet das Präfix `wpkh` in einem Deskriptor?
+answer: Pay-to-Witness-PubKey-Hash
 wrong_answers:
-  - 2udjpr
-  - 2uaz2c
-  - 3bdjsr
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Witness Script Hash
 explanation: |
-  Die Umwandlung von Dezimalzahlen in Bech32 erfolgt über eine spezifische Korrespondenztabelle, und die Sequenz 10 25 13 18 02 31 entspricht 2edjzl.
+  Das Präfix `wpkh` deutet auf ein SegWit v0 Skript hin, das Pay-to-Witness-Public-Key-Hash Adressen verwendet.
 reviewed: false

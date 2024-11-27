@@ -1,9 +1,8 @@
-question: Mitä etuliite 0x tarkoittaa?
-answer: Tätä etuliitettä seuraava numero ilmaistaan 16-järjestelmässä (heksadesimaali).
+question: Mikä on PBKDF2 n ensisijainen rooli Bitcoinissa?
+answer: HD-lompakon siemenen generointi
 wrong_answers:
-  - Tätä etuliitettä seuraava numero ilmaistaan 2-järjestelmässä (binääri).
-  - Tätä etuliitettä seuraava numero ilmaistaan 10-järjestelmässä (desimaali).
-  - Tätä etuliitettä seuraava numero ilmaistaan 8-järjestelmässä (oktaali).
+  - Transaktioiden autentikointi
+  - Yksityisavainten salaus
+  - Bitcoin-osoitteiden luonti
 explanation: |
-  Etuliite 0x osoittaa, että sitä seuraava numero ilmaistaan 16-järjestelmässä (heksadesimaali).
-reviewed: false
+  PBKDF2 tä käytetään johdattamaan siemen muistisanoista ja valinnaisesta salasanasta.

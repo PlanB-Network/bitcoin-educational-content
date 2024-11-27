@@ -117,11 +117,11 @@ objectives:
 ## 结语
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-感谢您参加PlanB网络与Fulgur'Ventures合作提供的RGB课程。我们对我们的教师表示感谢，感谢他们的支持。如果您有兴趣继续从事RGB工作，这里有一份有用的资源列表供您探索：
+感谢您参加Plan ₿网络与Fulgur'Ventures合作提供的RGB课程。我们对我们的教师表示感谢，感谢他们的支持。如果您有兴趣继续从事RGB工作，这里有一份有用的资源列表供您探索：
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-感谢您，祝您在PlanB网络的学习之旅好运。
+感谢您，祝您在Plan ₿网络的学习之旅好运。

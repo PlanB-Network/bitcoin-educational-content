@@ -1,8 +1,8 @@
-question: Como são determinados os pares de chaves em uma carteira Hierárquica Determinística (HD)?
-answer: Todos os pares de chaves na carteira são determinados de maneira determinística e hierárquica a partir de uma peça única de informação na base da carteira.
+question: Qual é o modificador que pode ser combinado com as flags básicas de sighash?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Todos os pares de chaves na carteira são determinados independentemente dos outros, aleatoriamente, por um gerador de números aleatórios.
-  - Cada par de chaves na carteira é determinado deterministicamente a partir do par de chaves anterior.
-  - Os pares de chaves são todos aleatórios e sem ligação hierárquica.
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  Em carteiras HD, todas as chaves são derivadas de uma peça única de informação chamada semente, que permite o gerenciamento hierárquico e determinístico das chaves.
+  SIGHASH_ANYONECANPAY modifica as flags de sighash para cobrir apenas uma única entrada, deixando o restante modificável.

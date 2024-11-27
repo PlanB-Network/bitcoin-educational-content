@@ -1,9 +1,9 @@
-question: Millest koosneb konkatenatsiooni operatsioon?
-answer: Kahe operandi üksteise otsa asetamine.
+question: Millist räsifunktsiooni kasutab HMAC Bitcoini kontekstis?
+answer: SHA512
 wrong_answers:
-  - Kahe operandi liitmine.
-  - Kahe operandi jagamine.
-  - Kahe operandi lahutamine.
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  Konkatenatsioon hõlmab kahe operandi üksteise järel asetamist ilma neid muutmata, mida kasutatakse laialdaselt krüptograafias.
+  HMAC kasutab turvalise 512-bitise räsi tootmiseks SHA512. 
 reviewed: false

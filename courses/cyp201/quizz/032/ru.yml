@@ -1,8 +1,8 @@
-question: Какой BIP (Bitcoin Improvement Proposal) предложил первую версию иерархического детерминированного (HD) кошелька для Bitcoin?
-answer: BIP32.
+question: Какой флаг sighash позволяет организовать краудфандинг, покрывая один вход и все выходы?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16.
-  - BIP39.
-  - BIP44.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  BIP32, предложенный в 2012 году, впервые ввел концепцию иерархических детерминированных (HD) кошельков в Bitcoin.
+  SIGHASH_ALL в сочетании с SIGHASH_ANYONECANPAY позволяет добавлять входы без изменения выходов.

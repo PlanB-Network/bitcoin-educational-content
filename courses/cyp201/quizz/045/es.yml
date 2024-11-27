@@ -1,8 +1,9 @@
-question: ¿Qué representa la frase de contraseña dentro de una cartera HD?
-answer: Un sal criptográfico opcional de tamaño arbitrario.
+question: ¿Cuál es la función hash utilizada para calcular el checksum de una frase mnemotécnica?
+answer: SHA256
 wrong_answers:
-  - Una 25ª palabra en la frase mnemotécnica.
-  - Un sal criptográfico obligatorio de tamaño fijo.
-  - Una segunda semilla.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  La frase de contraseña es un sal criptográfico opcional, que mejora la seguridad de la cartera al agregar información adicional a la frase mnemotécnica para determinar la semilla.
+  El checksum de una frase mnemotécnica se calcula aplicando un simple hash SHA256 sobre la entropía.
+reviewed: false

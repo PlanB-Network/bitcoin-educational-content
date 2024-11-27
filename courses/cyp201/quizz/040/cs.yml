@@ -1,9 +1,8 @@
-question: Jaká je unikátní vlastnost seznamu 2048 slov umožňující mnemonické kódování?
-answer: Žádné slovo nemá stejné první čtyři písmena ve stejném pořadí.
+question: Proč je ruční generování entropie pro HD peněženku riskantní?
+answer: Může do ní vnést lidské slabosti nebo předvídatelné zkreslení
 wrong_answers:
-  - Žádné slovo nemá stejná poslední tři písmena.
-  - Žádné slovo nezačíná písmenem „J“.
-  - Žádné slovo není delší než šest písmen.
+  - Vede k neplatným veřejným klíčům
+  - Blokuje odvození soukromých klíčů
+  - Omezuje velikost generovaných mnemonických frází
 explanation: |
-  Tato vlastnost pomáhá vyhnout se jakékoli nejednoznačnosti při zadávání slov, čímž zajišťuje jedinečnost každého slova v seznamu, a zároveň snižuje potřebný úložný prostor.
-reviewed: false
+  Ruční generování entropie může zavést zkreslení nebo chyby, čímž klíče stávají více zranitelnými vůči útokům.

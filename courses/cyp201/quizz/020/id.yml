@@ -1,8 +1,9 @@
-question: Bagaimana kunci privat Bitcoin ditentukan?
-answer: Ditentukan dari angka acak atau pseudo-acak.
+question: Apa perbedaan antara kunci publik yang dikompresi dan tidak dikompresi?
+answer: Kunci publik yang dikompresi hanya menggunakan koordinat x dan paritas dari y
 wrong_answers:
-  - Ditentukan dengan penambahan dan penggandaan titik pada kurva eliptik dari kunci publiknya.
-  - Ditentukan dengan meng-hash kunci publiknya.
-  - Ditentukan oleh algoritma SHA-256.
+  - Kunci publik yang dikompresi lebih aman
+  - Kunci publik yang dikompresi hanya menggunakan koordinat y dan paritas dari x
+  - Kunci publik yang dikompresi memerlukan kunci privat yang lebih besar
 explanation: |
-  Kunci privat Bitcoin dihasilkan secara acak atau pseudo-acak, yang menjamin keunikan dan keamanannya.
+  Kunci publik yang dikompresi hanya menyimpan koordinat x dan sebuah bit untuk paritas dari y, sehingga mengurangi ukurannya menjadi 33 byte.
+ditinjau: false

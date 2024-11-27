@@ -1,8 +1,8 @@
-question: Mikä on ainutlaatuinen piirre 2048 sanan listassa, joka mahdollistaa mnemonisen koodauksen?
-answer: Yksikään sana ei ala samoilla neljällä kirjaimella samassa järjestyksessä.
+question: Miksi on riskialtista luoda entropiaa manuaalisesti HD-lompakolle?
+answer: Se voi tuoda mukanaan inhimillisiä heikkouksia tai ennustettavia vinoumia
 wrong_answers:
-  - Yksikään sana ei pääty samoihin kolmeen kirjaimeen.
-  - Yksikään sana ei ala kirjaimella “J”.
-  - Yksikään sana ei ole yli kuusi kirjainta pitkä.
+  - Se johtaa virheellisiin julkisiin avaimiin
+  - Se estää yksityisten avainten johdannan
+  - Se rajoittaa luotujen mnemonisten fraasien kokoa
 explanation: |
-  Tämä piirre auttaa välttämään mahdollisen epäselvyyden sanoja syötettäessä, varmistaen näin jokaisen sanan ainutlaatuisuuden listalla, samalla vähentäen tarvittavaa tallennustilaa.
+  Entropian manuaalinen luominen voi tuoda mukanaan vinoumia tai virheitä, mikä tekee avaimista haavoittuvampia hyökkäyksille.

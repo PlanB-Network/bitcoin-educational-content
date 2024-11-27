@@ -1,9 +1,9 @@
-question: Jak se počítá kontrolní součet adresy SegWit?
-answer: Pomocí BCH kódu.
+question: Co znamená notace /<0;1>/* v deskriptoru?
+answer: Externí a interní řetězec se sekvenční derivací
 wrong_answers:
-  - Pomocí HASH160.
-  - Pomocí HASH256.
-  - Pomocí SHA512.
+  - Na seřazenou multisignaturní adresu
+  - Na kontrolní součet pro cesty derivace
+  - Na zpevněnou cestu derivace
 explanation: |
-  Pro adresy SegWit se kontrolní součet počítá pomocí BCH kódu, což umožňuje detekci možných chyb v adrese.
+  Notace /<0;1>/* naznačuje, že deskriptor může generovat adresy pro externí (0) a interní (1) řetězec, se sekvenční derivací díky zástupnému symbolu (*).
 reviewed: false

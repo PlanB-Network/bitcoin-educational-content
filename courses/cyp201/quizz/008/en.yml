@@ -1,9 +1,9 @@
-question: How many rounds does the SHA256 compression function consist of?
-answer: 64 rounds.
+question: Why does SHA256 apply a preprocessing to the input message?
+answer: To ensure a length multiple of 512 bits
 wrong_answers:
-  - 10 rounds.
-  - 128 rounds.
-  - 150 rounds.
+  - To verify the integrity of the message
+  - To encrypt the data before hashing
+  - To increase the size of the generated hashes
 explanation: |
-  The SHA256 compression function performs 64 rounds for each block of data processed.
+  The preprocessing adjusts the message length by adding padding bits and a binary representation of its length.
 reviewed: false

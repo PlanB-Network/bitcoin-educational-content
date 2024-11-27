@@ -1,9 +1,9 @@
-question: Riguardo la notazione di un percorso di derivazione, cosa significa l'apostrofo o la H annotata a destra del numero? Esempio m/84'/0'.
-answer: Indica una derivazione rinforzata.
+question: Quale parte dell'output HMAC-SHA512 viene utilizzata come codice catena figlio?
+answer: Gli ultimi 32 byte
 wrong_answers:
-  - Indica una derivazione normale.
-  - È lì per decorazione.
-  - Indica una chiave di cambio.
+  - I primi 32 byte
+  - Tutti i 64 byte
+  - L'hash SHA256 dei 32 byte centrali
 explanation: |
-  L'apostrofo o la H in un percorso di derivazione indica una derivazione rinforzata, che utilizza la chiave privata genitore e l'intervallo di indice corrispondente.
-reviewed: false
+  Gli ultimi 32 byte dell'output HMAC-SHA512 fungono da codice catena per la chiave figlio.
+recensito: false

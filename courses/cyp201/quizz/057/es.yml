@@ -1,8 +1,9 @@
-question: Con una clave pública extendida, puedo derivar...
-answer: ...claves públicas de hijos normales.
+question: ¿Cuál es el tamaño de la semilla generada por PBKDF2?
+answer: 512 bits
 wrong_answers:
-  - ...claves públicas de hijos endurecidos.
-  - ...claves privadas de hijos normales.
-  - ...claves privadas de hijos endurecidos.
+  - 128 bits
+  - 256 bits
+  - Variable dependiendo de la longitud de la frase mnemotécnica
 explanation: |
-  Una clave pública extendida permite la derivación solo de claves públicas de hijos normales, pero no de claves privadas.
+  Independientemente de la longitud de la frase mnemotécnica, PBKDF2 siempre genera una semilla de 512 bits.
+reviewed: false

@@ -1,8 +1,9 @@
-question: Apa fungsi pseudo-random yang digunakan dalam PBKDF2 untuk menghitung seed dari dompet HD Bitcoin?
-answer: HMAC-SHA512.
+question: Apa tujuan menggunakan dompet umpan dengan kata sandi?
+answer: Untuk mensimulasikan dompet dengan jumlah kecil dalam kasus paksaan fisik
 wrong_answers:
-  - HMAC-SHA256.
-  - HMAC-SHA1.
-  - SHA3-512.
+  - Menambahkan cadangan otomatis transaksi
+  - Menghasilkan frasa mnemonik tambahan
+  - Melindungi UTXO dari pengeluaran ganda
 explanation: |
-  HMAC-SHA512 adalah fungsi pseudo-random yang digunakan dalam PBKDF2 untuk menghasilkan seed dari dompet HD Bitcoin.
+  Dompet umpan digunakan untuk mengalihkan perhatian penyerang dengan memberikan akses ke dompet yang berisi jumlah bitcoin yang kecil.
+ditinjau: false

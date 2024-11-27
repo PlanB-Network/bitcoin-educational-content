@@ -1,9 +1,9 @@
-question: Jaká je nejznámější eliptická křivka používaná v kryptografických systémech?
-answer: secp256r1.
+question: Jaká matematická operace je základem bezpečnosti eliptické křivkové kryptografie?
+answer: Diskrétní logaritmus
 wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
+  - Faktorizace prvočísel
+  - Výpočet kvadratických zbytků
+  - Diskrétní kubický problém
 explanation: |
-  Eliptická křivka secp256r1 je široce používána v mnoha kryptografických systémech, ale Bitcoin používá křivku secp256k1.
+  Bezpečnost eliptické křivkové kryptografie je založena na obtížnosti řešení problému diskrétního logaritmu na těchto křivkách.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Kuinka määrittää palautuslauseen tarkistussumman bittikoko?
-answer: Jaa satunnaisluvun (entropia) koko 32; lla.
+question: Kuinka monta bittiä entropiaa käytetään 24 sanan muistilauseessa?
+answer: 256 bittiä
 wrong_answers:
-  - Jaa satunnaisluvun (entropia) koko 8: lla.
-  - Jaa satunnaisluvun (entropia) koko 16: lla.
-  - Kerro satunnaisluvun (entropia) koko 2: lla.
+  - 128 bittiä
+  - 512 bittiä
+  - 64 bittiä
 explanation: |
-  Tarkistussumman koko saadaan jakamalla entropian koko 32: lla, BIP39; n mukaisesti.
+  24 sanan muistilause perustuu 256 bittiin entropiaa, varmistaen erittäin korkean turvallisuuden.
 reviewed: false

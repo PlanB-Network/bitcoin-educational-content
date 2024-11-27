@@ -1,9 +1,8 @@
-question: Millist võtmest tuletamise funktsiooni kasutatakse seemne tuletamiseks mnemoonilisest fraasist ja valikulisest paroolist?
-answer: PBKDF2.
+question: Mis on peamine erinevus fraasparooli ja PIN-koodi vahel Bitcoin'i rahakoti puhul?
+answer: Fraasparool muudab võtme tuletamist, mitte PIN-koodi
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - PIN-kood on seotud mnemoonilise fraasiga
+  - PIN-koodi kasutatakse tehingute krüpteerimiseks, aga mitte fraasparooli
+  - PIN-kood genereerib Bitcoin'i aadresse
 explanation: |
-  PBKDF2 funktsiooni kasutatakse HD rahakoti seemne tuletamiseks mnemoonilisest fraasist ja valikulisest paroolist.
-reviewed: false
+  Erinevalt PIN-koodist on fraasparool otseselt seotud võtme tuletamise protsessiga ja muudab rahakoti võtmeid.

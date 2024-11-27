@@ -1,9 +1,8 @@
-question: Mis on laiendatud võtme eesmärk?
-answer: Koguda kõik vajalikud andmed tuletatavate alamvõtmete jaoks ühte stringi.
+question: Millist konstanti kasutatakse seemnest peamise privaatvõtme tuletamiseks?
+answer: Bitcoin Seed
 wrong_answers:
-  - Koguda kõik vajalikud andmed terve HD rahakoti taastamiseks ühte stringi.
-  - Koguda teavet rahakoti UTXO-de kohta.
-  - Koguda mnemooniline fraas ja parool ühte formaati.
+  - Peavõti
+  - HD Rahakoti Seeme
+  - Plokiahela Juur
 explanation: |
-  Laiendatud võti võimaldab kõik vajalikud andmed alamvõtmete tuletamiseks koondada, lihtsustades seeläbi kontode haldamist HD rahakotis.
-reviewed: false
+  Konstanti Bitcoin Seed kasutatakse võtmena HMAC-SHA512 funktsioonis, et tuletada peamine privaatvõti ja peamine ahelakood.

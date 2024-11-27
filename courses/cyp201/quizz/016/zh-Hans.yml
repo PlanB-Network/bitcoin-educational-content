@@ -1,8 +1,8 @@
-question: 为了将这个椭圆曲线应用于密码学用途，我们必须在哪个领域定义它？
-answer: 一个正整数的有限域。
+question: 比特币中Taproot更新引入了哪种签名算法？
+answer: Schnorr签名方案
 wrong_answers:
-  - 实数域。
-  - 实数的有限域。
-  - 复数域。
-explanation:
-  在比特币中，椭圆曲线secp256k1是在一个模一个素数的正整数的有限域上定义的，以避免近似值并确保安全性。
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schnorr签名方案是在2021年11月随Taproot更新引入的。

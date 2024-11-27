@@ -1,9 +1,9 @@
-question: Warum ist es wichtig, eine gute Entropiequelle zur Generierung von privaten Schlüsseln zu verwenden?
-answer: Schlechte Entropie kann private Schlüssel vorhersehbar und anfällig für Angriffe machen.
+question: Was ist die Hauptbeschränkung von JBOK-Wallets?
+answer: Sie erfordern ein unabhängiges Backup für jeden privaten Schlüssel
 wrong_answers:
-  - Gute Entropie hilft, die Leistung des Wallets zu optimieren.
-  - Entropie spielt keine Rolle bei der Sicherheit von privaten Schlüsseln.
-  - Schlechte Entropie verlangsamt Transaktionen.
+  - Sie erlauben nicht die Erzeugung neuer Adressen
+  - Sie sind nicht kompatibel mit digitalen Signaturen
+  - Sie verwenden unkomprimierte öffentliche Schlüssel
 explanation: |
-  Wenn die zur Generierung von privaten Schlüsseln verwendete Entropie niedrig ist, könnte dies einem Angreifer ermöglichen, diese Schlüssel zu erraten oder zu berechnen, was die Sicherheit des Wallets gefährdet.
+  JBOK-Wallets zwingen den Benutzer dazu, jeden privaten Schlüssel einzeln zu sichern, was deren Verwaltung kompliziert.
 reviewed: false

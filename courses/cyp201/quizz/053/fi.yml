@@ -1,8 +1,8 @@
-question: Mitä tietoa lasketaan siemenestä soveltamalla HMAC-SHA512; tä?
-answer: Lompakon pääavain ja pääketjukoodi.
+question: Mitä tapahtuu, jos menetät salasanan, joka on yhdistetty HD-lompakkoosi?
+answer: Menetät pääsyn kyseiseen lompakkoon linkitettyihin bitcoineihin
 wrong_answers:
-  - Lompakon laajennettu avain.
-  - Lompakon xpub ja xprv.
-  - Yksityisen avaimen allekirjoituskoodi.
+  - Voit silti päästä käsiksi lompakkoon pelkän muistisäännön avulla
+  - Voit nollata salasanan ottamalla yhteyttä Bitcoin-tukeen
+  - Menetät vain vahvistamattomat siirrot
 explanation: |
-  Siemenestä HMAC-SHA512 johdetaan pääavain ja pääketjukoodi, jotka ovat avainten luonnin perusta.
+  Salasana on olennainen osa avainjohdannaisessa. Ilman sitä avaimia on mahdotonta uudelleenluoda, ja siksi bitcoineihin pääsy estyy.

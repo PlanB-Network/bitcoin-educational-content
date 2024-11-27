@@ -1,9 +1,9 @@
-question: Mida näitab järgmine tuletustee? m/44'/0'/0'/0/0
-answer: Väline Legacy aadress põhivõrgus.
+question: Mis on peamine roll ahelakoodil lastevõtmete tuletamisel?
+answer: Tutvustada täiendavat entroopia allikat
 wrong_answers:
-  - Väline SegwitV1 aadress põhivõrgus.
-  - Sisemine Legacy aadress testimisvõrgus.
-  - Väline SegwitV0 aadress põhivõrgus.
+  - Määrata hierarhilise sügavuse
+  - Salvestada lastevõtmete indeksid
+  - Tagada ühilduvus Bitcoin protokolliga
 explanation: |
-  Tuletustee m/44'/0'/0'/0/0 näitab välist Legacy aadressi põhivõrgus (mainnet). 44' = Legacy, 0' = põhivõrk, 0 = väline
+  Ahelakoodi kasutatakse selleks, et tutvustada iga tuletatud võtme jaoks täiendavat ja unikaalset entroopia allikat.
 reviewed: false

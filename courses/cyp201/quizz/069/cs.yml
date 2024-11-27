@@ -1,9 +1,9 @@
-question: Co značí následující odvozovací cesta? m/44'/0'/0'/0/0
-answer: Externí Legacy adresa na hlavní síti (mainnet).
+question: Jaká je hlavní role řetězcového kódu při odvozování dětských klíčů?
+answer: Přidat další zdroj entropie
 wrong_answers:
-  - Externí SegwitV1 adresa na hlavní síti.
-  - Interní Legacy adresa na testovací síti.
-  - Externí SegwitV0 adresa na hlavní síti.
+  - Určit hierarchickou hloubku
+  - Uchovávat indexy dětských klíčů
+  - Zajistit kompatibilitu s protokolem Bitcoin
 explanation: |
-  Odvozovací cesta m/44'/0'/0'/0/0 značí externí Legacy adresu na hlavní síti (mainnet). 44' = Legacy, 0' = hlavní síť (mainnet), 0 = externí
+  Řetězcový kód se používá k přidání dalšího a unikátního zdroje entropie pro každý odvozený klíč.
 reviewed: false

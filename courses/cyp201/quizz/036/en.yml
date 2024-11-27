@@ -1,9 +1,9 @@
-question: What is a PRNG?
-answer: An algorithm that generates random numbers from a seed and a transformation function.
+question: What does an HD wallet allow you to do compared to a JBOK wallet?
+answer: Generate all private keys from a single seed
 wrong_answers:
-  - A hardware device that generates truly random numbers.
-  - A generator that produces random numbers without any seed.
-  - An algorithm that generates predictable numbers.
+  - Increase the security of digital signatures
+  - Reuse the same address for multiple transactions
+  - Completely avoid the use of public keys
 explanation: |
-  A PRNG generates pseudo-random numbers from a seed, but unlike a TRNG, it is not truly random.
+  HD wallets derive all private keys from a unique seed, which simplifies backup and indirectly improves privacy.
 reviewed: false

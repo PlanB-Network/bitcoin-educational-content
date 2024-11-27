@@ -1,8 +1,8 @@
-question: 是哪一个比特币改进提案（BIP）首次提出了比特币上的HD钱包（分层确定性钱包）的第一个版本？
-answer: BIP32。
+question: 哪个sighash标志允许通过覆盖单个输入和所有输出来进行众筹？
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - BIP16。
-  - BIP39。
-  - BIP44。
-explanation:
-  BIP32，于2012年提出，是首次在比特币中引入分层确定性（HD）钱包概念的提案。
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL结合SIGHASH_ANYONECANPAY允许在不修改输出的情况下添加输入。

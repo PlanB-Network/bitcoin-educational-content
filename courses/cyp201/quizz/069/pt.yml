@@ -1,9 +1,9 @@
-question: O que o seguinte caminho de derivação indica? m/44'/0'/0'/0/0
-answer: Um endereço Legacy externo na rede principal.
+question: Qual é o principal papel do código de cadeia na derivação de chaves filhas?
+answer: Introduzir uma fonte adicional de entropia
 wrong_answers:
-  - Um endereço SegwitV1 externo na rede principal.
-  - Um endereço Legacy interno na rede de teste.
-  - Um endereço SegwitV0 externo na rede principal.
+  - Identificar a profundidade hierárquica
+  - Armazenar os índices das chaves filhas
+  - Garantir compatibilidade com o protocolo Bitcoin
 explanation: |
-  O caminho de derivação m/44'/0'/0'/0/0 indica um endereço Legacy externo na rede principal (mainnet). 44' = Legacy, 0' = rede principal, 0 = externo
+  O código de cadeia é usado para introduzir uma fonte adicional e única de entropia para cada chave derivada.
 reviewed: false

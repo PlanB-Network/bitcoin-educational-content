@@ -1,9 +1,9 @@
-question: Apa yang ditunjukkan oleh jalur derivasi berikut? m/44'/0'/0'/0/0
-answer: Sebuah alamat Legacy eksternal pada mainnet.
+question: Apa peran utama dari kode rantai dalam derivasi kunci anak?
+answer: Memperkenalkan sumber entropi tambahan
 wrong_answers:
-  - Sebuah alamat SegwitV1 eksternal pada mainnet.
-  - Sebuah alamat Legacy internal pada testnet.
-  - Sebuah alamat SegwitV0 eksternal pada mainnet.
+  - Mengidentifikasi kedalaman hierarki
+  - Menyimpan indeks dari kunci anak
+  - Memastikan kompatibilitas dengan protokol Bitcoin
 explanation: |
-  Jalur derivasi m/44'/0'/0'/0/0 menunjukkan sebuah alamat Legacy eksternal pada jaringan utama (mainnet). 44' = Legacy, 0' = mainnet, 0 = eksternal
-reviewed: false
+  Kode rantai digunakan untuk memperkenalkan sumber entropi tambahan dan unik untuk setiap kunci yang diturunkan.
+ditinjau: false

@@ -1,8 +1,9 @@
-question: Mida esindab parool HD rahakotis?
-answer: Valikuline krüptograafiline sool suvalise suurusega.
+question: Millist räsifunktsiooni kasutatakse mnemoonilise fraasi kontrollsumma arvutamiseks?
+answer: SHA256
 wrong_answers:
-  - 25. sõna mnemoonilises fraasis.
-  - Kohustuslik krüptograafiline sool fikseeritud suurusega.
-  - Teine seeme.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  Parool on valikuline krüptograafiline sool, mis suurendab rahakoti turvalisust, lisades mnemoonilisele fraasile täiendavat teavet, et määrata seeme.
+  Mnemoonilise fraasi kontrollsumma arvutatakse, rakendades entroopiale lihtsat SHA256 räsi.
+reviewed: false

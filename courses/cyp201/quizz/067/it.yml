@@ -1,9 +1,9 @@
-question: Cosa indica il seguente percorso di derivazione? m/84'/0'/1'/0/7
-answer: Un indirizzo SegwitV0 esterno sulla rete principale.
+question: Qual è lo scopo dell'indice nella derivazione delle chiavi figlie?
+answer: Distinguere le coppie di chiavi fratello
 wrong_answers:
-  - Un indirizzo SegwitV1 esterno sulla rete principale.
-  - Un indirizzo Legacy interno sulla rete di test.
-  - Un indirizzo Legacy esterno sulla rete principale.
+  - Identificare la natura della chiave (pubblica o privata)
+  - Specificare il livello di sicurezza della chiave
+  - Aggiungere un ulteriore livello di sicurezza
 explanation: |
-  Il percorso di derivazione m/84'/0'/1'/0/7 indica un indirizzo SegwitV0 esterno sulla rete principale (mainnet). 84' = SegWit v0, 0' = mainnet, 1 = esterno
-reviewed: false
+  L'indice consente di differenziare le chiavi figlie derivate dalla stessa coppia genitore.
+recensito: false

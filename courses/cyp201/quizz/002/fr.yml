@@ -1,9 +1,9 @@
-question: Quelles sont les fonctions de hachage utilisées sur le protocole Bitcoin ?
-answer: SHA-256, RIPEMD-160
+question: Quelle propriété des fonctions de hachage est démontrée par une modification complète du hash lorsqu'un message change légèrement ?
+answer: L'effet avalanche
 wrong_answers:
-  - MD5, SHA3-256
-  - Keccak-256, SHA-512
-  - SHA-1, Whirlpool
+  - La résistance aux collisions
+  - La résistance à la seconde préimage
+  - La longueur
 explanation: |
-  Sur Bitcoin, on utilise SHA-256 et RIPEMD-160.
+  Une petite modification de l'entrée entraîne un changement radical dans le hash, c'est ce que l'on appelle l'effet avalanche.
 reviewed: false

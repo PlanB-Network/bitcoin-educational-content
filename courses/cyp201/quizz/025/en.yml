@@ -1,9 +1,9 @@
-question: What is a Nonce in cryptography?
-answer: A number intended to be used once.
+question: What property of Schnorr allows combining multiple public keys into one?
+answer: Key Aggregation
 wrong_answers:
-  - An even number.
-  - A digital signature.
-  - A number that can be reused.
+  - Batch Verification
+  - Malleability
+  - Signature Compaction
 explanation: |
-  A nonce is a number used once for cryptographic operations, ensuring the uniqueness of certain values in algorithms.
+  Schnorr allows for the aggregation of multiple public keys into a single key.
 reviewed: false

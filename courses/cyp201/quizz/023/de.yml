@@ -1,9 +1,9 @@
-question: Wie groß ist ein unkomprimierter Bitcoin-Öffentlicher-Schlüssel einschließlich seines Präfixes?
-answer: 520 Bits.
+question: Was ist der gemeinsame Punkt, der von allen Teilnehmern verwendet wird, um einen öffentlichen Schlüssel in Bitcoin zu berechnen?
+answer: Der Generatorpunkt G
 wrong_answers:
-  - 512 Bytes.
-  - 256 Bits.
-  - 512 Bits.
+  - Der SHA256-Hash
+  - Eine mnemonische Phrase
+  - Der komprimierte öffentliche Schlüssel
 explanation: |
-  Ein unkomprimierter Bitcoin-Öffentlicher-Schlüssel mit seinem Präfix ist 520 Bits groß und umfasst die x- und y-Koordinaten des Punktes auf der elliptischen Kurve.
+  Der Generatorpunkt G der elliptischen Kurve secp256k1 wird verwendet, um öffentliche Schlüssel aus privaten Schlüsseln zu berechnen.
 reviewed: false

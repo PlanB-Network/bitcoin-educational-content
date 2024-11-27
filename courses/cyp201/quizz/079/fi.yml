@@ -1,8 +1,8 @@
-question: Mikä on viimeinen vaihe Bech32 Bitcoin-osoitteen luomisessa?
-answer: Lisää HRP bc ja erotin 1.
+question: Mikä on ulostulon skriptikuvausten päätoiminto?
+answer: Kuvailla täysin ulostulon skripti ja tarjota tarvittavat tiedot lompakon palauttamiseen
 wrong_answers:
-  - Lisää SegWit-versio osoitteen alkuun.
-  - Lisää tarkistussumma osoitteen alkuun.
-  - Lisää etuliite 1.
+  - Automaattisesti generoida multisignatuuri-osoitteita
+  - Korvata mnemoninen lause lompakon varmuuskopioissa
+  - Yksinkertaistaa digitaalisten allekirjoitusten laskelmia
 explanation: |
-  Viimeinen vaihe Bech32-osoitteen rakentamisessa on lisätä HRP (Human Readable Part), bc Bitcoinille, jonka jälkeen seuraa erotin 1.
+  Kuvaajat kapseloivat kaikki tarvittavat tiedot tietyn skriptin seuraamiseksi, mukaan lukien johdannaispolku ja käytetyt avaimet, mutta eivät palautusfraasia.

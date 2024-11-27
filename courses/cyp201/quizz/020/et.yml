@@ -1,9 +1,9 @@
-question: Kuidas määratakse Bitcoin'i privaatvõti?
-answer: See määratakse juhusliku või pseudojuhusliku numbri põhjal.
+question: Mis vahe on kokkusurutud ja lahtisurutud avalikul võtmel?
+answer: Kokkusurutud avalik võti kasutab ainult x-koordinaati ja y paarsust
 wrong_answers:
-  - See määratakse elliptilisel kõveral punktide liitmisel ja kahekordistamisel selle avalikust võtmest lähtuvalt.
-  - See määratakse selle avaliku võtme räsimisel.
-  - See määratakse SHA-256 algoritmi abil.
+  - Kokkusurutud avalik võti on turvalisem
+  - Kokkusurutud avalik võti kasutab ainult y-koordinaati ja x paarsust
+  - Kokkusurutud avalik võti nõuab suuremat privaatvõtit
 explanation: |
-  Bitcoin'i privaatvõti genereeritakse juhuslikul või pseudojuhuslikul viisil, mis tagab selle unikaalsuse ja turvalisuse.
+  Kokkusurutud avalik võti säilitab ainult x-koordinaadi ja biti y paarsuse jaoks, vähendades seeläbi selle suurust 33 baitini.
 reviewed: false

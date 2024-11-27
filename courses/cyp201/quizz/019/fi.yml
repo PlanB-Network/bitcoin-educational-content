@@ -1,8 +1,8 @@
-question: Mikä on tunnetuin elliptinen käyrä, jota käytetään kryptografisissa järjestelmissä?
-answer: secp256r1.
+question: Mikä matemaattinen operaatio on elliptisen käyrän kryptografian turvallisuuden perustana?
+answer: Diskreetin logaritmin ongelma
 wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
+  - Alkulukujen tekijöihin jakaminen
+  - Kvadraattisten jäännösten laskeminen
+  - Diskreetti kuutio-ongelma
 explanation: |
-  Elliptinen käyrä secp256r1 on laajalti käytössä monissa kryptografisissa järjestelmissä, mutta Bitcoin käyttää käyrää secp256k1.
+  Elliptisen käyrän kryptografian turvallisuus perustuu näillä käyrillä diskreetin logaritmin ongelman ratkaisemisen vaikeuteen.

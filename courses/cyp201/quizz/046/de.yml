@@ -1,9 +1,9 @@
-question: Was passiert, wenn ich ein HD-Wallet mit einem Passwort verwende und dieses Passwort verliere?
-answer: Meine Bitcoins sind für immer verloren.
+question: Wie viele Bits hat die Prüfsumme für eine Entropie von 128 Bits?
+answer: 4 Bits
 wrong_answers:
-  - Es ist kein Problem, ich kann immer noch auf meine Bitcoins zugreifen, nur mit meiner mnemonischen Phrase.
-  - Ich kann das Passwort mit meinem privaten Schlüssel zurücksetzen.
-  - Ich kann meine Bitcoins wiederherstellen, indem ich ein Wallet ohne Passwort verwende.
+  - 8 Bits
+  - 16 Bits
+  - 6 Bits
 explanation: |
-  Wenn das Passwort verloren geht, ist der Zugang zu den Bitcoins dauerhaft verloren, da es notwendig ist, um die privaten Schlüssel abzuleiten.
+  Die Länge der Prüfsumme wird mit der Formel CS = ENT / 32 berechnet, was bei einer Entropie von 128 Bits 4 Bits ergibt.
 reviewed: false

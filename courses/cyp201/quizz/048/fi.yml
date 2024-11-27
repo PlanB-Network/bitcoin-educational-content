@@ -1,8 +1,8 @@
-question: Mikä funktio käytetään generoimaan siemen mnemonic-lauseesta ja salasanasta?
-answer: PBKDF2.
+question: Miksi 24 sanan muistisanaa pidetään usein tarpeettomana Bitcoin-lompakossa?
+answer: Johdetut avaimet tarjoavat vain 128 bitin turvallisuuden
 wrong_answers:
-  - SHA256.
-  - HMAC.
-  - Argon2.
+  - Ohjelmisto ei tue 24 sanan lauseita
+  - Se ei salli julkisten avainten johdantoa
+  - Lyhyempiä lauseita ei ole standardoitu
 explanation: |
-  PBKDF2 (Password-Based Key Derivation Function 2) käytetään johdattamaan siemen mnemonic-lauseesta ja salasanasta HD-lompakoissa.
+  Vaikka 24 sanan lause tarjoaa 256 bitin turvallisuuden, johdetut Bitcoin yksityisavaimet takaavat vain 128 bitin turvallisuuden, mikä tekee ylimääräisestä tarpeetonta.

@@ -1,0 +1,9 @@
+question: ¿Cómo se calcula el checksum para direcciones SegWit v0 codificadas en bech32?
+answer: Usando códigos BCH
+wrong_answers:
+  - Aplicando HASH256 dos veces
+  - Añadiendo un hash RIPEMD160
+  - Codificando directamente en base64
+explanation: |
+  Las direcciones Bech32 utilizan códigos BCH para calcular el checksum.
+reviewed: false

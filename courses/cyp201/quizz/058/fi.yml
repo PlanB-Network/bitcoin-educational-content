@@ -1,9 +1,8 @@
-question: Mitä metatietoja lisätään laajennettuun avaimen lisäksi sen kuormaan?
-answer: Versio / syvyys / vanhemman sormenjälki / indeksi / tarkistussumma.
+question: Mikä funktio käytetään johdattamaan siemen arvo mnemonic-lausekkeesta?
+answer: PBKDF2 HMAC-SHA512 n kanssa
 wrong_answers:
-  - Versio / indeksi.
-  - Versio / syvyys / erotin / tarkistussumma.
-  - Metatietoja ei lisätä.
+  - SHA256 yksinään
+  - Kahden SHA256
+  - AES-256
 explanation: |
-  Laajennettu avain sisältää useita metatietoja. Siinä on versio, syvyys, vanhemman sormenjälki, indeksi ja tarkistussumma avaimen johdannan helpottamiseksi.
-reviewed: false
+  Siemen arvo luodaan käyttäen PBKDF2-funktiota HMAC-SHA512: n kanssa ja 2048 iteraatiota, mnemonic-lausekkeesta ja salasanasta.

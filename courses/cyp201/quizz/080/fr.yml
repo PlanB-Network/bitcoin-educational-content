@@ -1,0 +1,9 @@
+question: Quel encodage est utilisé pour représenter les adresses SegWit v0 ?
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  Les adresses SegWit v0, comme celles pour P2WPKH et P2WSH, utilisent l'encodage bech32 introduit avec SegWit.
+reviewed: false

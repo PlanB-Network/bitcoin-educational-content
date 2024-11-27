@@ -17,9 +17,11 @@ Denne skolen har allerede flere århundrer bak seg og har et helt panorama av fo
 +++
 
 # Introduksjon til ECON
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Introduksjon
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Hallo alle sammen og velkommen til Econ 201: Introduksjon til Østerriksk Økonomi.
@@ -37,6 +39,7 @@ Jeg takker varmt Théo for å ha produsert dette kurset, og jeg håper han vil v
 Hvis du er klar til å begi deg ut på dette eventyret, inviterer jeg deg til å klikke på følgende video og starte med bonusvideoen om vårt nåværende finanssystem. Jeg gir nå ordet til Théo. Takk til ham for å samarbeide med Descoupes Bitcoin for realiseringen av denne videoen. Vi sees veldig snart. Ha det!
 
 ## Penger, Kreditt, Banker og Sentralbanker
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > “Det grunnleggende problemet med konvensjonell valuta er all tilliten som kreves for å få det til å fungere. Sentralbanken må stoles på for ikke å devaluere valutaen, men historien om fiat-valutaer er full av brudd på den tilliten. Banker må stoles på for å holde på pengene våre og overføre dem elektronisk, men de låner dem ut i bølger av kredittbobler med knapt en brøkdel i reserve. Vi må stole på dem med vårt privatliv, stole på at de ikke lar identitetstyver tømme kontoene våre.”
@@ -58,9 +61,9 @@ Når du kjøper huset, instruerer du bankmannen din til å overføre penger til 
 Figur 1: Pengeopprettelse som Bokføringsposter
 
 > “Det er godt nok at folk i vår nasjon ikke forstår vårt bank- og pengevesen, for hvis de gjorde det, tror jeg det ville være en revolusjon før morgendagen”
-> 
+>
 > Henry Ford
-Denne prosessen lar banker registrere alle transaksjoner, inkludert bankoverføringer, kredittkortkjøp og sjekker, over en spesifisert periode (vanligvis en uke eller en måned). Deretter avregner de disse transaksjonene med hverandre ved bruk av bankreserver, som er en annen form for fiatvaluta som aldri brukes av offentligheten. Bankreserver holdes ved sentralbanken i en spesiell konto som kun er tilgjengelig for lisensierte banker og finansinstitusjoner.
+> Denne prosessen lar banker registrere alle transaksjoner, inkludert bankoverføringer, kredittkortkjøp og sjekker, over en spesifisert periode (vanligvis en uke eller en måned). Deretter avregner de disse transaksjonene med hverandre ved bruk av bankreserver, som er en annen form for fiatvaluta som aldri brukes av offentligheten. Bankreserver holdes ved sentralbanken i en spesiell konto som kun er tilgjengelig for lisensierte banker og finansinstitusjoner.
 
 ### Ustabiliteten ved fraksjonell reservebankvirksomhet og långiver i siste instans
 
@@ -85,6 +88,7 @@ Figur3: Rentesatser i store økonomier / Kilde: ECB
 I motsetning til mange forventninger, gjenopplivet ikke QE-programmene økonomisk vekst i betydelig grad, men de blåste opp finansielle eiendeler til historiske nivåer. Dette kom primært de velstående og finansinstitusjonene til gode, ettersom de allerede hadde betydelige mengder slike eiendeler, noe som dermed økte formuesforskjellene. Gitt strukturen på banksystemet forklart tidligere, bør dette utfallet ikke komme som en overraskelse. Siden bankreserver ikke lett kan flyte inn i den reelle økonomien, økte QE-programmene hovedsakelig eiendomspriser uten å effektivt forbedre de økonomiske situasjonene til gjennomsnittlige individer.
 
 ### Cantillon-effekten
+
 Likevel kan et vesentlig økonomisk prinsipp trekkes fra denne episoden: når nytt penger skapes, gagner det først og fremst de som er nærmest pengekilden, på bekostning av de som er lenger unna. Denne økonomiske innsikten går tilbake til det 18. århundret da Richard Cantillon skisserte den i sitt "Essay om handelens natur generelt." Det er nå uformelt referert til som "Cantillon-effekten".
 ![image](assets/Image/4.webp)
 
@@ -113,16 +117,19 @@ Med inflasjon på vei opp på grunn av betydelig pengetrykking som respons på C
 ### Konklusjon
 
 > “Ved dette middel (fraksjonell reservebankvirksomhet), kan regjeringer hemmelig og ubemerket, konfiskere folkets rikdom, og ikke en mann i en million ville oppdage tyveriet”
-John Maynard Keynes
-I bunn og grunn står systemet vårt overfor betydelige utfordringer, og Bitcoin fremstår som det eneste troverdige alternativet. Men Bitcoin alene kan ikke adressere problemene i vårt monetære system. Fremfor alt trenger vi personer som forstår grunnleggende økonomiske prinsipper blant Bitcoin-entusiaster, noe som muliggjør en bredere bevissthet og økonomisk sunn fornuft for å lede oss bort fra å bygge nok en skjør finansiell grunnmur for vår sivilisasjon. Det primære målet med dette kurset er å utdanne nye Bitcoin-entusiaster i sunne økonomiske prinsipper.
+> John Maynard Keynes
+> I bunn og grunn står systemet vårt overfor betydelige utfordringer, og Bitcoin fremstår som det eneste troverdige alternativet. Men Bitcoin alene kan ikke adressere problemene i vårt monetære system. Fremfor alt trenger vi personer som forstår grunnleggende økonomiske prinsipper blant Bitcoin-entusiaster, noe som muliggjør en bredere bevissthet og økonomisk sunn fornuft for å lede oss bort fra å bygge nok en skjør finansiell grunnmur for vår sivilisasjon. Det primære målet med dette kurset er å utdanne nye Bitcoin-entusiaster i sunne økonomiske prinsipper.
 
 For å oppnå dette målet vil vi forklare de grunnleggende prinsippene i "Austrian Economics", en økonomisk skole med en metodologisk tradisjon som går tilbake til det 16. århundre, og som gir innsikt i menneskelig handling under økonomiske begrensninger. Med denne introduksjonen forstår du nå det grunnleggende om pengekreasjon og den nåværende tilstanden til vårt finansielle og monetære system.
 
 I det kommende kapittelet vil vi dykke ned i grunnsteinen i enhver økonomisk skole: verditeorien. Påfølgende kapitler vil utforske penger som en sosial institusjon, teorien om kapital og konjunktursyklusen, utfordringen med økonomisk kalkulasjon, og en kort oversikt over historien og metodologien til den østerrikske skolen for økonomi.
 
 # Teoretiske Grunnlag
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+
 ## Den Subjektive Verditeorien
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > “Verdi eksisterer kun innen menneskelig bevissthet”
@@ -202,6 +209,7 @@ Basert på innsiktene om subjektiv ordinal verdi forklarte Menger fremveksten av
 De følgende kapitlene vil være dedikert til fremveksten av penger som en sosial institusjon, teorien om kapital og renter, som vil tjene som grunnlag for Teorien om Forretningsyklusen, og til slutt rollen priser har for økonomisk kalkulasjon.
 
 ## Fremveksten av Penger som et Sosialt Fenomen
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Selv om individer har en felles interesse i spesialisering og maksimering av arbeidsdelingen, er det fortsatt koordineringsproblemer som begrenser denne utvidelsen.
@@ -219,10 +227,10 @@ Opprinnelig ble fangens dilemma formulert som følger: To mistenkte, Alice og Bo
 
 Disse utfallene kan representeres i en matrise (numeriske resultater indikerer antall år i fengsel):
 
-| Alice / Bob       | Anklage     | Forbli Taus  |
-| ----------------- | ----------- | ------------ |
-| **Anklage**       | 2, 2        | 0, 3         |
-| **Forbli Taus**   | 3, 0        | 1, 1         |
+| Alice / Bob     | Anklage | Forbli Taus |
+| --------------- | ------- | ----------- |
+| **Anklage**     | 2, 2    | 0, 3        |
+| **Forbli Taus** | 3, 0    | 1, 1        |
 
 I dette spillet er det ingen mulighet for koordinering (kommunikasjon er umulig) for å oppnå det beste utfallet for begge parter. Følgelig har Alice og Bob en individuell insentiv til å anklage hverandre, selv om det ikke fører til det optimale utfallet for gruppen. Den optimale strategien for begge er å forbli stille, hver mottar en 1-års dom.
 
@@ -239,7 +247,7 @@ Imidlertid, når man har å gjøre med større samfunn som drar betydelig nytte 
 Først er mennesker begrenset av sine kognitive kapasiteter. Det er umulig for en person å opprettholde og huske stabile sosiale relasjoner med mer enn 150 individer, noe som gjør et ryktesystem utilstrekkelig for å overvinne fangens dilemma i stor skala.
 
 For det andre er sosialt akseptert måling av verdien av bidrag i bytte (kommensurabilitet) et ikke-trivielt problem. For eksempel, hvis et individ tilbyr kjøtt fra jakt og ber om materialer til ly i retur, hvordan kan mengden kjøtt som tilbys vurderes i termer som tilsvarer de etterspurte materialene? Det samme gjelder for kvalitet – er hjortekjøtt verdt mer eller mindre enn tre?
-Selv om det var mulig å etablere en tilfredsstillende vekslingskurs for hvert par av varer, blir det raskt upraktisk å opprettholde denne informasjonen. I et direkte utvekslingssystem som involverer N varer, er det N(N-1)/2 vekslingskurser å huske. For en økonomi med 50 varer, betyr det å huske 50*49/2, eller 1225 vekslingskurser, i motsetning til bare 50 i indirekte utvekslinger. For en økonomi med 100 varer, øker dette tallet til 4950. Et slikt kvadratisk forhold setter en ytterligere grense for skalérbarheten av direkte utveksling (byttehandel).
+Selv om det var mulig å etablere en tilfredsstillende vekslingskurs for hvert par av varer, blir det raskt upraktisk å opprettholde denne informasjonen. I et direkte utvekslingssystem som involverer N varer, er det N(N-1)/2 vekslingskurser å huske. For en økonomi med 50 varer, betyr det å huske 50\*49/2, eller 1225 vekslingskurser, i motsetning til bare 50 i indirekte utvekslinger. For en økonomi med 100 varer, øker dette tallet til 4950. Et slikt kvadratisk forhold setter en ytterligere grense for skalérbarheten av direkte utveksling (byttehandel).
 I tillegg, siden disse utvekslingene ikke skjer øyeblikkelig, men er spredt over tid, kompliserer evalueringen av bidrag over tid den relative vurderingen av bidrag ytterligere. I tillegg til å vurdere vekslingsforholdet mellom to nåværende varer, blir det nødvendig å evaluere verdien av et tidligere bidrag i forhold til en fremtidig motpart.
 
 I dag, til tross for upraktiskheten av et slikt system, kunne vi bruke skriving eller digital datalagring for å huske all denne informasjonen og etablere et kredittsystem (å holde styr på tidligere bidrag, inkludert vekslingskursen for disse bidragene, er i hovedsak å sette opp et kredittsystem).
@@ -280,9 +288,11 @@ I denne forbindelse spiller penger, ved å tillate lagring av verdi i nåtiden o
 I neste kapittel vil vi fordype oss i konseptet med tidspreferanse og forklare det østerrikske perspektivet på renter og kapital, som vil tjene som grunnlag for det følgende kapittelet om Teorien om Konjunktursyklusen.
 
 ## Tidspreferanse, Renter og Kapital
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Tidspreferanse
+
 Vi avsluttet det siste kapittelet med å forklare hvordan økonomiske aktører bruker det mest omsettelige godet, dvs. penger, for å avverge fremtidig usikkerhet. Vi forklarte også at den sekvensielle naturen til tidsfenomener fører oss til å bekjempe usikkerhet gradvis: bare når vi vet at vår eksistens vil være sikret for neste uke, kan vi konsentrere oss om mål lenger inn i fremtiden.
 Eller, for å si det på en annen måte: som mennesker neddiskonterer vi verdien av fremtidige goder.
 
@@ -345,16 +355,18 @@ Dette illustreres perfekt av diagrammet nedenfor: langrenter er lavere enn kortr
 Dette er hva vi vil finne ut i neste kapittel dedikert til den østerrikske teorien om forretningsyklusen!
 
 # Østerrikske økonomiske perspektiver
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Den østerrikske teorien om forretningsyklusen
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > “Jo lenger boomen av inflatorisk bankkreditt fortsetter, desto større er omfanget av feilinvesteringer i kapitalvarer, og desto større er behovet for likvidasjon av disse usunne investeringene. Når kredittutvidelsen stopper, reverseres, eller selv betydelig bremser ned, blir feilinvesteringene avslørt”
 >
 > Ludwig von Mises
-Det var Ludwig Von Mises, den mest fullendte studenten av Böhm-Bawerk og muligens den viktigste østerrikske økonomen i det 20. århundre, som brukte Böhm-Bawerks kapitalresonnement for å forklare årsakene og dynamikken i økonomiske sykluser. Friedrich A. Hayek, Mises sin protegé, utvidet senere dette resonnementet til dets logiske konklusjoner i arbeider som han ble tildelt Nobelprisen i økonomi for i 1974.
-Mises og Hayek begynte sin analyse med en økning i sparing som utgangspunkt. Som vi har sett i de foregående kapitlene, medfører enhver økning i sparing nødvendigvis en tilsvarende nedgang i forbruk og dermed lavere relative priser på forbruksvarer. Dette fører til to effekter: for det første, en økt etterspørsel etter kapitalvarer forårsaket av stigende reallønninger som følge av den relative nedgangen i prisene på forbruksvarer; og for det andre, en økning i entreprenørprofitter på produksjonsstadiene lengst fra forbruk (lavere orden). Ettersom reallønningene stiger, blir entreprenører incentivert til å økonomisere arbeidskraft ved å bruke mer kapitalvarer, noe som skaper en sterkere etterspørsel etter kapitalvarer og høyere profitter for entreprenører som produserer disse lavere ordens varene. Således, i konteksten av økt sparing, dvs. en nedgang i tidspreferanser, faller rentenivået, noe som fremmer utviklingen av ytterligere produksjonsstadier og økt produktivitet. Dette er en klassisk Böhm-Bawerkian produksjonsomvei, og det er et høyst ønskelig utfall.
+> Det var Ludwig Von Mises, den mest fullendte studenten av Böhm-Bawerk og muligens den viktigste østerrikske økonomen i det 20. århundre, som brukte Böhm-Bawerks kapitalresonnement for å forklare årsakene og dynamikken i økonomiske sykluser. Friedrich A. Hayek, Mises sin protegé, utvidet senere dette resonnementet til dets logiske konklusjoner i arbeider som han ble tildelt Nobelprisen i økonomi for i 1974.
+> Mises og Hayek begynte sin analyse med en økning i sparing som utgangspunkt. Som vi har sett i de foregående kapitlene, medfører enhver økning i sparing nødvendigvis en tilsvarende nedgang i forbruk og dermed lavere relative priser på forbruksvarer. Dette fører til to effekter: for det første, en økt etterspørsel etter kapitalvarer forårsaket av stigende reallønninger som følge av den relative nedgangen i prisene på forbruksvarer; og for det andre, en økning i entreprenørprofitter på produksjonsstadiene lengst fra forbruk (lavere orden). Ettersom reallønningene stiger, blir entreprenører incentivert til å økonomisere arbeidskraft ved å bruke mer kapitalvarer, noe som skaper en sterkere etterspørsel etter kapitalvarer og høyere profitter for entreprenører som produserer disse lavere ordens varene. Således, i konteksten av økt sparing, dvs. en nedgang i tidspreferanser, faller rentenivået, noe som fremmer utviklingen av ytterligere produksjonsstadier og økt produktivitet. Dette er en klassisk Böhm-Bawerkian produksjonsomvei, og det er et høyst ønskelig utfall.
 
 Men, de to østerrikske økonomene undret seg over hva som ville skje hvis nedgangen i renten, som fungerer som utgangspunktet for denne produksjonsomveien, ikke resulterte fra en økning i sparing, men i stedet fra kredittutvidelse.
 
@@ -414,6 +426,7 @@ Mer enn noen annen økonomisk skole, insisterer den østerrikske skolen på vikt
 Dette vil være temaet for det neste og siste kapittelet i dette kurset.
 
 ## Umuligheten av Økonomisk Kalkulasjon under Sosialisme
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > “Der det ikke finnes markedspriser for produksjonsfaktorene fordi de verken kjøpes eller selges, er det umulig å ty til kalkulasjon i planlegging av fremtidig handling og i å bestemme resultatet av tidligere handling. En sosialistisk ledelse av produksjonen ville ganske enkelt ikke vite om det den planlegger og utfører er de mest passende midlene for å oppnå de søkte målene. Den vil operere i mørket, så å si. Den vil sløse bort de knappe produksjonsfaktorene, både materielle og menneskelige (arbeidskraft). Kaos og fattigdom for alle vil uunngåelig være resultatet”
@@ -459,6 +472,7 @@ Man kan argumentere for at det er enkelt å male et slikt panorama i ettertid. T
 Til tross for denne imponerende prognosen og tallrike empiriske demonstrasjoner av umuligheten av økonomisk kalkulasjon under sosialisme, er politiske ledere over hele verden mer ivrige enn noensinne til å sette priser, nasjonalisere hele industrier, og foreslå femårsplaner, ofte applaudert av økonomisk uinformerte befolkninger. Konsekvensene av slik intervensjonisme føles sterkt av mennesker i tidligere velstående vestlige land som sakte vitner tilbakegangen av deres levestandarder.
 
 ### Den østerrikske forretningsyklusteori som et spesifikt tilfelle av umuligheten av økonomisk kalkulasjon under sosialisme
+
 I et tidligere kapittel belyste vi dynamikken i overinvestering og feilallokering av kapital som følge av rentemanipulering av sentralbanker. I hovedsak kan det vi forklarte ses som et spesifikt tilfelle av umuligheten av økonomisk kalkulasjon under sosialisme, anvendt på pengemarkedets område. Når priser er fastsatt utenfor deres markedsverdier, blir entreprenører og kapitalallokerere incentivert til å engasjere seg i investeringer som ikke kan opprettholdes på lang sikt på grunn av mangel på sparing. Ved å forstyrre prissystemet, skaper sentralplanleggere (i dette tilfellet, sentralbankfolk) en misforståelse mellom økonomiske agenter. I dette tilfellet innebærer den intertemporale misforståelsen overinvestering i høyere ordens investeringsgoder og underinvestering i lavere ordens investeringsgoder, som representerer en spesifikk manifestasjon av feilallokering av kapital på tvers av industrier.
 
 Konsekvensene av en slik feilallokering inkluderer finansielle og økonomiske kriser, redusert økonomisk aktivitet og gjeldsdeflasjon. Disse makroøkonomiske effektene stammer fra en ubalanse mellom sparing og investeringer som følge av kredittutvidelse. I USSR og andre kommunistiske regimer førte prisfastsetting til lignende misforståelser, noe som resulterte i mangel på noen varer og overproduksjon av andre. I begge tilfeller mislykkes priser i å reflektere de sanne preferansene til forbrukerne, enten det gjelder tidspreferanser eller konsumpreferanser, noe som fører til at entreprenører eller sentralplanleggere ansvarlige for ressursallokering investerer kapital i "feil industrier."
@@ -467,7 +481,7 @@ I dag gjenoppstår debatten om økonomisk kalkulasjon hovedsakelig i diskusjoner
 
 For en konkret anvendelse av det økonomiske kalkulasjonsproblemet på en samtidsituasjon, kan du referere til denne artikkelen som tar for seg problemet med ressursallokering i moderne Kina.
 
->   The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Konklusjon
 
@@ -475,7 +489,9 @@ I dette siste kapittelet har vi utforsket umuligheten av økonomisk kalkulasjon 
 
 Mainstream-økonomer og sentralplanleggere misliker ofte østerrikske økonomer fordi de fremhever usikkerheten om fremtiden, feilen ved kvantitativ økonomisk prediksjon, og de skadelige effektene av økonomisk intervensjon. Kort sagt, understreker østerriksk økonomi ineffektiviteten og de skadelige konsekvensene av intervensjonistiske handlinger.
 Den østerrikske tradisjonen legemliggjør en ydmyk tilnærming til menneskelig handling, og trekker dype implikasjoner fra konseptene om subjektiv verdi, usikkerhet, fri vilje og kompleksitet. Den forklarer hvordan markedsordenen, til tross for ikke å være et produkt av menneskelig design, står som den sentrale institusjonen for vår utvikling og velstand. Hvis det er én nøkkelinnsikt fra dette kurset, er det at kapitalismen ble det dominerende økonomiske systemet på grunn av sin evne til å tilpasse seg endringer i en dynamisk og usikker verden befolket av frie individer.
+
 ## Den østerrikske metodologien
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Den østerrikske skolen innen økonomi skiller seg fra andre skoler ved sin aksiomatisk-deduktive metodologi, som avviker fra den positivistiske tilnærmingen ofte brukt i samfunnsvitenskapene. Den positivistiske tilnærmingen er basert på lover etablert fra empiriske data, og tar i bruk en metode lik den som brukes i fysiske vitenskaper. Den formulerer hypoteser fra observasjoner, som deretter bekreftes eller avkreftes av midlertidige eksperimenter. Den vitenskapelige metoden består av å beholde hypotesen som best forklarer dataene og fortsette å utforske den til en mer presis hypotese blir funnet.
@@ -495,17 +511,21 @@ Det er viktig å merke seg at kirsebærplukking, som innebærer selektivt valg a
 Metodologi er et essensielt aspekt i økonomi og i samfunnsvitenskapene generelt. Det påvirker hvordan spørsmål stilles, hypoteser formuleres, og data tolkes. Å forstå de metodologiske forskjellene mellom økonomiske skoler kan hjelpe oss med å sette pris på ulike perspektiver og utvikle våre egne meninger om temaene diskutert i tidligere episoder.
 
 # Konklusjon
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
 ## Evaluer kurset
+
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen
+
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Videre studier
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Gratulerer med å ha fullført dette ECON 201-kurset! Jeg håper inderlig at du likte det og at det åpnet dører for deg. Din oppdagelse av Bitcoin er bare i begynnelsen, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige ved universitetet.
@@ -524,21 +544,56 @@ I tillegg til disse lesningene, kan du også finne informasjon om østerriksk ø
 
 Ved å lese disse verkene og utforske disse online ressursene, kan du utvikle en dypere forståelse av de nøkkelprinsippene og ideene til den østerrikske skolen for økonomi.
 
-### Støtt oss
-Dette kurset, samt alt innholdet på dette universitetet, har blitt tilbudt deg gratis av vårt fellesskap. For å støtte oss, kan du dele det med andre, bli medlem av universitetet, og til og med bidra til utviklingen via GitHub. På vegne av hele teamet, takk!
-### Vurder kurset (kommer snart)
+# Konklusjon
 
-Et vurderingssystem for kurset vil snart bli integrert i denne nye E-læringsplattformen! I mellomtiden, tusen takk for at du tok kurset, og hvis du likte det, vennligst vurder å dele det med andre. (kommer snart)
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
 
-Hvis du ønsker å fortsette å fordype deg i emnet østerriksk økonomi, foreslår jeg flere intervjuer med Théo Mogenet:
+## Evaluer dette kurset
 
-- [Hvordan forberede seg på den neste økonomiske krisen?](https://youtu.be/GJT8t1TEd7Q)
-- [Hvordan kan ødeleggelsen av euroen artikuleres?](https://youtu.be/eK3ONo11HN8)
-- [Hyper-bitcoinisering: kan vi kjøre på en BTC-standard?](https://youtu.be/nkN2twZ-lJY)
-  Hvis du fortsatt vil ha mer, kan du se disse diskusjonene om den makroøkonomiske situasjonen og andre ulike emner:
-- [Hvordan ødelegge Bitcoin?](https://youtu.be/gHKvj4eeiDg)
-- [Er Bitcoin høyreorientert, venstreorientert, eller anarkistisk?](https://youtu.be/4fXGxzLtIIw)
-- [For å redde planeten, forlat dollaren og euroen](https://youtu.be/iHagDlH4bf8)
-- [Hvorfor er en økning i renten umulig?](https://youtu.be/iHagDlH4bf8)
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
 
-Ellers, fortsett læringen din med andre opplæringer og kurs fra universitetet!
+## Avsluttende eksamen
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Konklusjon
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+Gratulerer med fullført kurs!
+
+Vi er glade for at du har nådd denne viktige milepælen i din læringsprosess.
+
+Takket være din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
+
+For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle andre kurs tilgjengelig på Plan ₿ Network:
+
+#### Oppdag F. Bastiats liv med
+
+https://planb.network/courses/eco102
+
+#### Forstå fremveksten av hyperinflasjon med
+
+https://planb.network/courses/eco204
+
+#### Oppdag Bitcoin og dens grunnleggende prinsipper med
+
+https://planb.network/courses/btc101
+
+#### Oppdater din nettsikkerhet med
+
+https://planb.network/courses/scu101
+
+#### Oppdag Lightning Network med
+
+https://planb.network/courses/lnp201
+
+#### Lær å skape ditt Bitcoin-fellesskap med
+
+https://planb.network/courses/btc302
+
+#### Forstå hvordan Bitcoin-lommeboken fungerer med
+
+https://planb.network/courses/cyp201
+

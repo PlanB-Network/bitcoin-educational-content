@@ -1,9 +1,9 @@
-question: Welche Informationen werden aus dem Seed durch Anwendung von HMAC-SHA512 berechnet?
-answer: Der Master-Schlüssel und der Master-Chain-Code des Wallets.
+question: Was passiert, wenn Sie die Passphrase verlieren, die mit Ihrem HD-Wallet verbunden ist?
+answer: Sie verlieren den Zugang zu den Bitcoins, die mit diesem Wallet verknüpft sind.
 wrong_answers:
-  - Der erweiterte Schlüssel des Wallets.
-  - Der xpub und xprv des Wallets.
-  - Der private Schlüsselsignaturcode.
+  - Sie können immer noch auf das Wallet nur mit dem mnemonischen Ausdruck zugreifen
+  - Sie können die Passphrase zurücksetzen, indem Sie den Bitcoin-Support kontaktieren
+  - Sie verlieren nur die unbestätigten Transaktionen
 explanation: |
-  Aus dem Seed leitet HMAC-SHA512 den Master-Schlüssel und den Master-Chain-Code ab, die die Basis für die Schlüsselgenerierung bilden.
+  Die Passphrase ist ein wesentlicher Bestandteil in der Schlüsselableitung. Ohne sie ist es unmöglich, die Schlüssel neu zu erstellen und daher auf die Bitcoins zuzugreifen.
 reviewed: false

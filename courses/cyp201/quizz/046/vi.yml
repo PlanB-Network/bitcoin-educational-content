@@ -1,9 +1,9 @@
-question: Điều gì xảy ra nếu tôi sử dụng ví HD với một cụm mật khẩu và tôi mất cụm mật khẩu đó?
-answer: Bitcoin của tôi sẽ bị mất mãi mãi.
+question: Checksum cho một entropy 128 bit có bao nhiêu bit?
+answer: 4 bit
 wrong_answers:
-  - Không phải vấn đề, tôi vẫn có thể truy cập vào bitcoin của mình chỉ với cụm từ ghi nhớ của mình.
-  - Tôi có thể đặt lại cụm mật khẩu với khóa riêng của mình.
-  - Tôi có thể khôi phục bitcoin của mình bằng cách sử dụng một ví không có cụm mật khẩu.
+  - 8 bit
+  - 16 bit
+  - 6 bit
 explanation: |
-  Nếu cụm mật khẩu bị mất, quyền truy cập vào bitcoin sẽ bị mất vĩnh viễn, vì nó là cần thiết để tạo ra các khóa riêng.
+  Độ dài của checksum được tính toán bằng công thức CS = ENT / 32, tương đương với 4 bit cho một entropy 128 bit.
 reviewed: false

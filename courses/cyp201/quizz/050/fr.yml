@@ -1,9 +1,9 @@
-question: Si l'on respecte le BIP39, quelle est la taille de la graine d'un portefeuille HD ?
-answer: 512 bits.
+question: Quelle est une bonne pratique pour sécuriser une passphrase ?
+answer: La sauvegarder sur un support physique séparé de la phrase mnémonique
 wrong_answers:
-  - 32 octets.
-  - 1024 bits.
-  - 512 octets.
+  - La mémoriser uniquement de tête sans la noter
+  - La sauvegarder sur le même support physique que la phrase mnémonique
+  - L'enregistrer sur un support numérique comme Google Drive
 explanation: |
-  Selon le BIP39, la graine d'un portefeuille HD fait 512 bits, dérivée à partir de la phrase mnémonique et de la passphrase.
+  La passphrase doit être sauvegardée de manière physique et séparée de la phrase mnémonique pour éviter un vol simultané des deux.
 reviewed: false

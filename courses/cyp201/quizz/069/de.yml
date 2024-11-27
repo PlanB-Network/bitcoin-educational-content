@@ -1,9 +1,9 @@
-question: Was zeigt der folgende Ableitungspfad an? m/44'/0'/0'/0/0
-answer: Eine externe Legacy-Adresse im Hauptnetz.
+question: Was ist die Hauptrolle des Chain Codes bei der Ableitung von Kind-Schlüsseln?
+answer: Einführung einer zusätzlichen Entropiequelle
 wrong_answers:
-  - Eine externe SegwitV1-Adresse im Hauptnetz.
-  - Eine interne Legacy-Adresse im Testnetz.
-  - Eine externe SegwitV0-Adresse im Hauptnetz.
+  - Bestimmung der hierarchischen Tiefe
+  - Speicherung der Indizes der Kind-Schlüssel
+  - Gewährleistung der Kompatibilität mit dem Bitcoin-Protokoll
 explanation: |
-  Der Ableitungspfad m/44'/0'/0'/0/0 zeigt eine externe Legacy-Adresse im Hauptnetzwerk (mainnet) an. 44' = Legacy, 0' = Hauptnetz, 0 = extern
+  Der Chain Code wird verwendet, um eine zusätzliche und einzigartige Entropiequelle für jeden abgeleiteten Schlüssel einzuführen.
 reviewed: false

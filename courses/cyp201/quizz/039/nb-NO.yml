@@ -1,9 +1,8 @@
-question: Hva er kjennetegnene til en kryptografisk sikker PRNG?
-answer: Den må være uforutsigbar, statistisk tilfeldig, og motstandsdyktig mot angrep.
+question: Hva er hovedrollen til en Bitcoin-lommebok?
+answer: Administrere og sikre private nøkler
 wrong_answers:
-  - Den må være rask, brukbar i skyen, og åpen kildekode.
-  - Den må være ikke-deterministisk, basert på et fysisk fenomen, og skalerbar.
-  - Den må være maskinvarebasert, generert av en prosessor, og reversibel.
+  - Lagre brukerens bitcoins
+  - Sikre konfidensialiteten til transaksjoner automatisk
+  - Generere bitcoins for hver bruker
 explanation: |
-  En kryptografisk sikker PRNG må være uforutsigbar, motstandsdyktig selv om noen resultater avsløres, og ha en tilstrekkelig lang periode for å unngå gjentakelse av sekvenser.
-reviewed: false
+  En Bitcoin-lommebok lagrer ikke direkte bitcoins, men administrerer de private nøklene som er nødvendige for å låse opp UTXOene som representerer bitcoinsene.

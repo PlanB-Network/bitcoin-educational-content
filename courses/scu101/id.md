@@ -114,8 +114,6 @@ Alternatif yang lebih lanjut adalah jaringan TOR (The Onion Router), yang menawa
 TOR legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin lolos dari sensor di negara-negara otoriter. Namun, penting untuk memahami bahwa TOR tidak mengamankan situs yang dikunjungi atau komputer itu sendiri. Selain itu, menggunakan TOR dapat memperlambat koneksi internet karena data melewati komputer tiga orang lain sebelum mencapai tujuannya. Juga penting untuk dicatat bahwa TOR bukan solusi sempurna untuk menjamin anonimitas 100% dan tidak seharusnya digunakan untuk aktivitas ilegal.
 ![](assets/notext/7.webp)
 
-
-
 https://planb.network/tutorials/others/tor-browser
 
 ## VPN dan koneksi internet
@@ -148,7 +146,6 @@ Di Uni Eropa, perlindungan data diatur oleh General Data Protection Regulation (
 Untuk menghindari penipuan online, sangat penting untuk memverifikasi identitas situs yang Anda jelajahi, terutama dengan memeriksa ekstensi dan nama domain. Selain itu, waspadalah terhadap penipu yang menggunakan huruf serupa dalam URL untuk menipu pengguna.
 ![](assets/en/10.webp)
 Secara keseluruhan, penggunaan VPN dapat sangat meningkatkan keamanan online, baik untuk bisnis maupun pengguna individu. Selain itu, praktik kebiasaan menjelajah yang baik dapat berkontribusi pada kebersihan digital yang lebih baik. Dalam segmen berikutnya dari kursus ini, kami akan membahas keamanan komputer, termasuk pembaruan, antivirus, dan manajemen kata sandi.
-
 
 # Praktik Terbaik Penggunaan Komputer
 
@@ -196,8 +193,6 @@ Akhirnya, berikut adalah beberapa praktik baik untuk keamanan komputer dan data 
 Perlakukan komputer Anda seperti Anda memperlakukan rumah Anda: tetap waspada, perbarui secara teratur, hapus file yang tidak perlu, dan gunakan kata sandi yang kuat untuk keamanan. Sangat penting untuk mengenkripsi data pada laptop dan smartphone untuk mencegah pencurian atau kehilangan data. BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac adalah solusi untuk enkripsi data. Disarankan untuk mengaktifkan enkripsi data tanpa ragu dan menuliskan kata sandi pada kertas yang disimpan di tempat yang aman.
 Kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai dengan kebutuhan Anda dan secara rutin memperbaruinya, begitu juga dengan aplikasi yang terinstal. Juga penting untuk menggunakan antivirus yang efektif dan ramah pengguna serta mengadopsi praktik baik untuk keamanan komputer dan data Anda.
 
-
-
 ## Manajemen Hacking & Backup: Melindungi Data Anda
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
@@ -240,7 +235,6 @@ https://planb.network/tutorials/others/proton-drive
 
 https://planb.network/tutorials/others/veracrypt
 
-
 # Implementasi solusi.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -273,8 +267,6 @@ Secara umum, mulai menggunakan alamat email baru yang lebih aman bukanlah prakti
 Bonus Bitcoin: Mungkin disarankan untuk membuat alamat email khusus untuk aktivitas Bitcoin kita (membuat akun pertukaran) agar benar-benar memisahkan area aktivitas dalam hidup kita.
 
 https://planb.network/tutorials/others/proton-mail
-
-
 
 ## Manajer Kata Sandi
 
@@ -362,8 +354,6 @@ https://planb.network/tutorials/others/authy
 
 https://planb.network/tutorials/others/security-key
 
-
-
 # Bagian Praktis
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -376,8 +366,6 @@ Melindungi kotak surat Anda adalah langkah penting untuk mengamankan aktivitas o
 
 https://planb.network/tutorials/others/proton-mail
 
-
-
 ## Mengamankan dengan 2FA
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
@@ -389,8 +377,6 @@ https://planb.network/tutorials/others/authy
 Opsi lain adalah menggunakan kunci keamanan fisik. Tutorial lainnya ini menunjukkan cara mengatur dan menggunakan kunci keamanan sebagai faktor autentikasi kedua:
 
 https://planb.network/tutorials/others/security-key
-
-
 
 ## Membuat manajer kata sandi
 
@@ -406,8 +392,6 @@ Untuk pengguna yang lebih mahir, saya juga menawarkan tutorial tentang perangkat
 
 https://planb.network/tutorials/others/keepass
 
-
-
 ## Mengamankan Akun Anda
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
@@ -417,7 +401,6 @@ Dalam dua tutorial ini, saya juga membimbing Anda dalam mengamankan akun online 
 https://planb.network/tutorials/others/bitwarden
 
 https://planb.network/tutorials/others/keepass
-
 
 ## Pengaturan Cadangan
 
@@ -431,12 +414,9 @@ Dan untuk mengamankan file Anda yang disimpan di media yang dapat dilepas sepert
 
 https://planb.network/tutorials/others/veracrypt
 
-
-
 ## Perubahan Browser & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-
 
 Melindungi privasi online Anda juga merupakan poin penting untuk memastikan keamanan Anda. Penggunaan VPN dapat menjadi solusi pertama untuk mencapainya.
 
@@ -449,9 +429,6 @@ https://planb.network/tutorials/others/mullvad
 Juga, pelajari cara menggunakan Tor Browser, browser yang dirancang khusus untuk melindungi privasi online Anda:
 
 https://planb.network/tutorials/others/tor-browser
-
-
-
 
 # Lanjutkan Lebih Jauh
 
@@ -525,38 +502,52 @@ Harus juga dicatat bahwa Internet sangat terpusat dan sebagian besar berada di b
 
 Sebagai bagian dari modul pelatihan "Security 101" di Découvre Bitcoin Academy, kami juga membahas autentikasi Lightning. Sistem ini menghasilkan pengenal yang berbeda untuk setiap layanan, tanpa perlu menyediakan alamat email atau informasi pribadi. Dimungkinkan untuk memiliki identitas terdesentralisasi yang dikontrol pengguna, tetapi ada kekurangan standarisasi dan normalisasi dalam proyek identitas terdesentralisasi. Manajer paket seperti Nuget dan Chocolaté, yang memungkinkan pengunduhan perangkat lunak sumber terbuka di luar Microsoft Store, direkomendasikan untuk menghindari serangan jahat. Singkatnya, DNS sangat penting untuk keamanan online, tetapi perlu untuk tetap waspada terhadap serangan potensial pada server DNS.
 
+# Kesimpulan
 
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
 ## Evaluasi kursus ini
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Ujian Akhir
+
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Kesimpulan
 
-## Pengakuan dan terus menggali lubang kelinci
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
 
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+Selamat atas penyelesaian kursus ini!
 
-### Nilai pelatihan & dukung kami
+Kami senang Anda telah berhasil mencapai tonggak ini dalam perjalanan pembelajaran Anda.
 
-Kursus ini, bersama dengan semua konten di akademi ini, telah disediakan untuk Anda secara gratis oleh komunitas kami. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota akademi, dan bahkan berkontribusi pada pengembangannya melalui GitHub. Atas nama seluruh tim, terima kasih!
+Berkat dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan bermanfaat dalam pengembangan profesional Anda.
 
-Sistem penilaian untuk pelatihan akan segera diintegrasikan ke dalam platform e-learning baru ini! Sementara itu, terima kasih banyak telah mengikuti kursus ini, dan jika Anda menikmatinya, pertimbangkan untuk membagikannya dengan orang lain.
+Untuk terus memperdalam pengetahuan Anda di dunia Bitcoin, kami mengundang Anda untuk menjelajahi kursus lain yang tersedia di Plan ₿ Network seperti:
 
-### Lanjutkan lebih jauh
+#### Temukan Bitcoin dan fundamental-nya dengan
 
-Selamat telah menyelesaikan pelatihan SECU 101 ini! Saya sungguh berharap Anda menikmatinya dan itu membuka pintu untuk Anda. Anda sekarang siap untuk mendapatkan bitcoin pertama Anda atau sekadar melanjutkan petualangan dengan kursus level 2!
+https://planb.network/courses/btc101
 
-- BTC 101 akan memberi Anda dasar teoritis tentang Bitcoin
-- BTC 102 akan membantu Anda menyiapkan rencana bitcoin Anda
-- LN 201 dan 202 akan memperkenalkan Anda ke Lightning Network, jaringan pembayaran lapis kedua
-- ECON 201 akan membahas ekonomi Austria
-- MINING 201 untuk mempelajari lebih lanjut tentang penambangan
-- (dan banyak lagi)
+#### Dapatkan dan amankan bitcoin pertama Anda dengan
 
-Terima kasih yang sangat besar kepada Patreon kami, anggota, dan donor atas dukungan finansial mereka, terima kasih kepada orang-orang yang membagikan, dan terima kasih kepada mereka yang membuat pelatihan ini mungkin: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & seluruh tim.
-Sampai jumpa!
+https://planb.network/courses/btc102
 
+#### Temukan jaringan Lightning dengan
+
+https://planb.network/courses/lnp201
+
+#### Temukan pemikiran ekonomi Mazhab Austria dengan
+
+https://planb.network/courses/eco201
+
+#### Temukan sejarah asal-usul Bitcoin dengan
+
+https://planb.network/courses/his201
+
+#### Pahami cara kerja dompet Bitcoin dengan
+
+https://planb.network/courses/cyp201

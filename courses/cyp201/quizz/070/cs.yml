@@ -1,9 +1,9 @@
-question: Co je obecně přijímací adresa?
-answer: Hash veřejného klíče s metadaty vloženými do specifického formátu.
+question: Co v hierarchii HD peněženek reprezentuje hloubka 0?
+answer: Hlavní klíč a hlavní řetězový kód
 wrong_answers:
-  - Hash soukromého klíče s metadaty vloženými do specifického formátu.
-  - Hash rozšířeného klíče s metadaty vloženými do specifického formátu.
-  - Hash řetězového kódu s metadaty.
+  - Externí řetězec adres
+  - Výchozí účet
+  - Typ měny
 explanation: |
-  Přijímací adresa je obecně hash veřejného klíče spojený s metadaty, používaný ve scriptPubKey k určení podmínek.
+  Hloubka 0 odpovídá hlavnímu klíči a hlavnímu řetězovému kódu, které jsou výchozími body pro všechny derivace v HD peněžence.
 reviewed: false

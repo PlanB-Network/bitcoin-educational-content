@@ -1,9 +1,9 @@
-question: Millises BIP-is pakutakse taastefraasi või mnemoonilise fraasi (12/24 sõna) ideed?
-answer: BIP39.
+question: Mida võimaldab sighash lipp SIGHASH_NONE?
+answer: Väljundite muutmine peale allkirjastamist
 wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
+  - Sisendite muutmine peale allkirjastamist
+  - Kõikide sisendite ja väljundite katmine
+  - Piirata muudatusi ainult ühele väljundile
 explanation: |
-  BIP39 tutvustas 24-sõnalist mnemoonilist taastefraasi, et hõlbustada võtmete varundamist HD rahakottide kasutajatele.
+  SIGHASH_NONE katab ainult sisendid, jättes väljundid peale allkirjastamist muudetavaks.
 reviewed: false

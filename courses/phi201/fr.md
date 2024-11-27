@@ -18,9 +18,11 @@ De la Renaissance aux Lumières, le cours examine la montée de la liberté, mar
 +++
 
 # La liberté ou le pouvoir
+
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
 ## Introduction: Il n’y a que deux philosophies politiques
+
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
 Pourquoi intituler ce cours : une histoire de la liberté ? Parce que nous avons besoin de comprendre la relation entre les idées et les événements, pour mieux juger notre époque et agir avec discernement. C’est dans le passé que nous trouvons les éléments d'une meilleure compréhension de ce qu’est la liberté et des raisons pour lesquelles nous devons la chérir.
@@ -65,7 +67,7 @@ De ce point de vue, il n’existe deux sortes de philosophies politiques et deux
 
 L’antagonisme entre ces deux philosophies existe à toutes les époques. Mais nous pouvons l’illustrer avec la philosophie des Lumières. On voit clairement une ligne de partage entre deux types de penseurs.
 
-Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat, 
+Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat,
 
 > Ce n’est pas parce qu’il y a des lois qu’il y a des propriétés, mais parce qu’il y a des propriétés qu’il y a des lois. (_Propriété et Loi_).
 
@@ -84,6 +86,7 @@ La seconde philosophie se retrouve chez des auteurs comme Rousseau, Robespierre 
 Dans cette perspective, le législateur a pour mission d’organiser, modifier, supprimer même la propriété, s’il le trouve bon. Pour Rousseau, la propriété n’est pas naturelle mais conventionnelle, comme la société elle-même. À son tour Robespierre pose le principe que « La propriété est le droit qu’a chaque citoyen de jouir et de disposer de la portion de biens qui lui est garantie par la loi ». Il n’y a pas de droit naturel de propriété, il n’y a qu’un nombre indéfini d’arrangements possibles et contingents.
 
 ## Frédéric Bastiat : production versus spoliation
+
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 Quand on ouvre les manuels scolaires, remarquait Bastiat, on apprend que l’humanité serait vouée au néant sans l’intervention du pouvoir :
@@ -98,7 +101,7 @@ Mais la réalité du pouvoir est tout autre selon Bastiat. Le pouvoir c’est l�
 
 C’est la soif du pouvoir qui est à l’origine de toutes les formes d’oppression dans l’histoire. Dans une lettre à Mme Chevreux, datée du 23 juin 1850, Bastiat indique quelles sont les phases de l’oppression : « Les temps de luttes, à qui s’emparera de l’État ; et les temps de trêve qui seront le règne éphémère d’une oppression triomphante, présage d’une lutte nouvelle. » D’abord la conquête du pouvoir par la guerre, puis l’établissement d’un État qui subsiste par le pillage des richesses de ses citoyens.
 
-L’histoire est donc une lutte entre deux principes : la liberté et l’oppression : 
+L’histoire est donc une lutte entre deux principes : la liberté et l’oppression :
 
 > Liberté ! voilà, en définitive, le principe harmonique. Oppression ! voilà le principe dissonant ; la lutte de ces deux puissances remplit les annales du genre humain. ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
 
@@ -118,7 +121,7 @@ La spoliation illégale, c’est le vol ou le crime accomplit par un citoyen con
 
 Mais la pire forme de spoliation est celle qui est accomplie par la loi : « Il y a des gens qui pensent que la spoliation perd toute son immoralité pourvu qu’elle soit légale. Quant à moi, je ne saurais imaginer une circonstance plus aggravante. » ([_Ce qu’on voit et ce qu’on ne voit pas_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
 
-Il y a encore deux formes de spoliation légale, nous dit Bastiat : 
+Il y a encore deux formes de spoliation légale, nous dit Bastiat :
 
 > La spoliation au dehors s’appelle guerre, conquêtes, colonies. La spoliation au dedans se nomme impôts, places, monopoles. ([_Cobden et la ligue_](http://bastiat.org/fr/introduction_cobden_ligue.html)_, Introduction_).
 
@@ -136,7 +139,7 @@ Historiquement les élites dirigeantes ont toujours vécu de la spoliation. Bast
 >
 > ([_Sophismes économiques_](http://bastiat.org/fr/conclusion_sophismes.html)_, Conclusion du premier volume)_.
 
-ou encore: 
+ou encore:
 
 > La spoliation, sous sa forme la plus brutale, armée de la torche et de l’épée, remplit les annales du genre humain. Quels sont les noms qui résument l’histoire ? Cyrus, Sésostris, Alexandre, Scipion, César, Attila, Tamerlan, Mahomet, Pizarre, Guillaume le Conquérant ; c’est la spoliation naïve par voie de conquêtes. À elle les lauriers, les monuments, les statues, les arcs de triomphe. ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
 
@@ -145,10 +148,11 @@ L’histoire du monde est l’histoire de la façon dont un groupe de personnes 
 Quelques jours avant sa mort à Rome en 1850, Bastiat confiait à son ami Prosper Paillottet :
 
 > Un travail bien important à faire, pour l’économie politique, c’est d’écrire l’histoire de la Spoliation. C’est une longue histoire dans laquelle, dès l’origine, apparaissent les conquêtes, les migrations des peuples, les invasions et tous les funestes excès de la force aux prises avec la justice. De tout cela il reste encore aujourd’hui des traces vivantes, et c’est une grande difficulté pour la solution des questions posées dans notre siècle. On n’arrivera pas à cette solution tant qu’on n’aura pas bien constaté en quoi et comment l’injustice, faisant sa part au milieu de nous, s’est impatronisée dans nos mœurs et dans nos lois.
-> 
+>
 > (P. Paillottet, _Neuf jours près d’un mourant_)
 
 ## Lord Acton : la liberté est le moteur de l’histoire
+
 <chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
 
 On le sait, l’histoire est écrite par les vainqueurs. L'attention est souvent portée sur la conquête du pouvoir, sur la vie des dirigeants au pouvoir et sur les conflits qui les opposent à ceux qui souhaitent prendre leur place.
@@ -171,7 +175,7 @@ Pour Acton, le conflit entre la liberté et le pouvoir est le fil rouge de l'his
 
 Sa thèse centrale est que « la liberté est établie par le conflit des pouvoirs ». Selon Acton, pendant des siècles après la chute de l'Empire romain d'Occident, l'Église catholique était la seule force capable de contester l'autorité des seigneurs féodaux, des monarques et des empereurs. Cette lutte de pouvoir entre l'Église et l'État s'avéra cruciale pour l'essor de la liberté. L’Europe disposait d’un Dieu fort et d’un pouvoir faible, du fait de la querelle permanente, au Moyen Âge, entre les papes et les rois. Au contraire, la Chine connaissait une divinité faible et un pouvoir bureaucratique fort.
 
-> Par liberté j'entends l'assurance que tout homme sera protégé, lorsqu'il accomplit ce qu'il croit être son devoir, contre l'influence de l'autorité et des majorités, de la coutume et de l'opinion. L'État n'est compétent pour fixer des devoirs et pour distinguer entre le bien et le mal que dans sa propre sphère immédiate. 
+> Par liberté j'entends l'assurance que tout homme sera protégé, lorsqu'il accomplit ce qu'il croit être son devoir, contre l'influence de l'autorité et des majorités, de la coutume et de l'opinion. L'État n'est compétent pour fixer des devoirs et pour distinguer entre le bien et le mal que dans sa propre sphère immédiate.
 >
 > (Lord Acton)
 
@@ -194,6 +198,7 @@ Condorcet, dans son [_Esquisse pour un tableau historique des progrès de l'espr
 On retrouve également cette thèse dans un ouvrage monumental datant de 1983 : _Droit et Révolution : La formation de la tradition juridique occidentale_, de Harold J. Berman ([traduction française de Raoul Audouin](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), publiée par la Librairie de l’Université d’Aix en Provence en 2002). L'analyse de Berman met en lumière le rôle crucial du pluralisme juridique dans l'histoire de l'Occident. Ce système, loin d'être une simple source de complexité, a été un moteur de développement, de liberté et d'innovation, façonnant durablement les traditions juridiques occidentales.
 
 ## Marx : l’histoire comme lutte des classes
+
 <chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
 
 Une autre vision de l’histoire existe néanmoins. Elle a connu un certain succès et a longtemps bénéficié du soutien des intellectuels occidentaux et des représentants des pays du Sud. C’est la vision socialiste et marxiste de l’histoire.
@@ -204,7 +209,7 @@ Elle explique l’extraordinaire croissance de l’Europe principalement par le 
 
 Dans un premier temps Marx a raison sur un point : l’histoire est l’histoire de la lutte des classes et de l’exploitation. La citation est connue, c’est la première phrase du premier chapitre du [_Manifeste du parti communiste_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler) : « Toute l’histoire de la société humaine jusqu’à ce jour est l’histoire de luttes de classes. » Marx, lui-même, a reconnu qu'il avait emprunté sa théorie de la lutte des classes à des auteurs antérieurs :
 
-> Je n'ai aucun mérite pour la découverte des classes ni de la lutte entre les classes dans la société moderne. Bien avant moi, les historiens bourgeois avaient décrit le développement historique de cette lutte des classes et les économistes bourgeois l'anatomie économique des classes. 
+> Je n'ai aucun mérite pour la découverte des classes ni de la lutte entre les classes dans la société moderne. Bien avant moi, les historiens bourgeois avaient décrit le développement historique de cette lutte des classes et les économistes bourgeois l'anatomie économique des classes.
 >
 > (_Lettre à J. Weydemeyer_, 5 mars 1852).
 
@@ -267,6 +272,7 @@ C'est cette Europe radicalement décentralisée qui a produit les parlements, le
 En conclusion de ce chapitre, l’Europe ne doit pas son décollage économique et culturel à la conquête et à l’exploitation du reste du monde. Elle a dominé le monde grâce à ses progrès économiques. Ce que l’on a appelé l’« impérialisme » est la conséquence et non la cause du progrès économique de l’Europe. Mais pour revenir à Lord Acton, ce qui distingue plus encore la civilisation occidentale de toutes les autres, c'est son affirmation de la valeur de l'individu. En ce sens, la liberté de conscience, notamment en matière religieuse a constitué un pilier fondamental de cette civilisation. Nous y reviendrons dans la section suivante.
 
 ## Murray Rothbard : État versus société
+
 <chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
 
 Dans le dernier chapitre de _Anatomy of the State_ (traduit en français _L’anatomie de l’Etat_, aux édition Résurgence), Murray Rothbard propose une théorie de l’histoire. Ce chapitre très court est intitulé : L’histoire, course entre pouvoir étatique et pouvoir social. Selon Rothbard, l'histoire peut être comprise comme un conflit permanent entre deux principes fondamentaux :
@@ -321,9 +327,11 @@ Et il ajoute :
 > (_Ethique de la liberté_)
 
 # Les origines de la liberté : l’Antiquité
+
 <partId>d7a9d251-6d44-5f2f-9cc5-88796c84f61b</partId>
 
 ## L’invention de la rationalité critique par les Grecs
+
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
 L'expérience de la démocratie athénienne a marqué durablement l'histoire de la pensée politique et continue d'inspirer les idéaux de démocratie et de participation citoyenne dans le monde d'aujourd'hui.
@@ -367,7 +375,7 @@ L’harmonie sociale n’est pas produite par l’action intentionnelle des dieu
 
 ![image](assets/2/img-110.webp)
 
-Pour Aristote, la tyrannie c’est l’obéissance à un homme et la liberté c’est l’obéissance à la loi. On lui attribue cette citation : 
+Pour Aristote, la tyrannie c’est l’obéissance à un homme et la liberté c’est l’obéissance à la loi. On lui attribue cette citation :
 
 > Vouloir le règne de la loi, c’est vouloir le règne exclusif de la raison. Vouloir au contraire le règne d’un homme, c’est y ajouter celui d’une bête sauvage, car le désir et la colère faussent le jugement des gouvernants, fussent-ils les meilleurs des hommes.
 
@@ -409,7 +417,7 @@ Le principe fondamental posé par ces premiers philosophes présocratiques est q
 
 D’après Karl Popper, on doit aux philosophes de la Grèce antique, en particulier aux présocratiques, l’invention du rationalisme critique, c’est-à-dire la tradition occidentale de la discussion critique, source de la pensée scientifique et du pluralisme. Il s’en explique dans un chapitre de _Conjectures et Réfutations_ intitulé « Retour aux présocratiques » :
 
-> Quant aux premiers indices de l’existence d’une attitude critique, d’une liberté de pensée nouvelles, c’est dans la critique de Thalès par Anaximandre qu’ils apparaissent. Il y a là un phénomène tout à fait singulier, le penseur qu’Anaximandre critique est son maître, son compatriote, l’un des Sept Sages, celui qui a fondé l’École ionienne. D’après la tradition, Anaximandre n’avait que quatorze ans de moins que Thalès, et il a vraisemblablement formulé ses critiques et exposé ses conceptions nouvelles du vivant de son maître (ils sont morts, semble-t-il, à quelques années d’intervalle). Or, on ne découvre dans les sources aucune trace de dissension, de querelle ni de schisme.
+> Quant aux premiers indices de l’existence d’une attitude critique, d’une liberté de pensée nouvelles, c’est dans la critique de Thalès par Anaximandre qu’ils apparaissent. Il y a là un phénomène tout à fait singulier, le penseur qu’Anaximandre critique est son maître, son compatriote, l’un des Sept Sages, celui qui a fondé l’École ionienne. D’après la tradition, Anaximandre n’avait que quatorze ans de moins que Thalès, et il a vraisemblablement formulé ses critiques et exposé ses conceptions nouvelles du vivant de son maître (ils sont morts, semble-t-il, à quelques années d’intervalle). Or, on ne découvre dans les sources aucune trace de dissension, de querelle ni de schisme.
 
 ![image](assets/2/img-008.webp)
 
@@ -422,6 +430,7 @@ Les seuls moyens dont nous disposons pour approcher la vérité sont la critique
 > Qui consiste à formuler des conjectures hardies et à exercer la libre critique, tradition qui a été à l’origine de la démarche rationnelle et scientifique et, partant, de cette culture occidentale qui est la nôtre et la seule qui soit fondée sur la science même si, de toute évidence, ce n’est pas là son seul fondement.
 
 ## L’invention du droit par les romains
+
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 L’empire romain était une vaste entité cosmopolite. A son apogée, vers 117 après J.-C., il était un immense État pluriethnique et plurilingue :
@@ -528,6 +537,7 @@ Ni la vérité ni la justice ne se décrètent, fut-ce à la majorité, car sino
 En affirmant que le droit ne peut se réduire aux seules lois édictées par le législateur, Cicéron a voulu lutter contre l’arbitraire législatif et proposer une morale politique. Cette idée a eu une influence durable sur la pensée occidentale.
 
 ## La chute de Rome
+
 <chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
 
 Pourquoi Rome a-t-elle déclinée puis finalement chutée ? Beaucoup aiment à penser que l’Empire Romain s’est effondré subitement, sous le coup des invasions barbares. Mais les causes de l’effondrement de l’Empire Romain sont à chercher bien plus en amont, dans l’impérialisme et le dirigisme économique et monétaire.
@@ -605,9 +615,11 @@ Et il ajoute :
 > Au total la vie économique, politique, artistique, religieuse sous l’Empire romain au IVe siècle devait ressembler assez fortement à ce qu’elle était sous Brejnev en URSS (et dans les pires moments sous Staline) ou à ce qu’elle peut être aujourd’hui en Corée du Nord : toute la population du monde romain était enrégimentée par le socialisme impérial et en subissait, directement ou indirectement, les effets.
 
 # Les origines de la liberté : le Moyen-Âge
+
 <partId>f47bd5fc-c4a7-5d3b-b102-7b948bb43268</partId>
 
 ## L’affirmation de la liberté humaine
+
 <chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
 
 L’idée chrétienne de la liberté s’est développée dans la théologie médiévale de Saint Augustin au IVe siècle, à Saint Thomas d’Aquin au XIIIe siècle. Quelle est cette idée ?
@@ -663,6 +675,7 @@ Selon Saint Thomas :
 Il existe donc un droit antérieur à la formation de l'État, un ensemble de principes généraux que la raison peut énoncer en étudiant la nature de l'homme telle que Dieu l'a créée. Ce droit s'impose au monarque, au pouvoir, qui doit dès lors le respecter. Et les lois édictées par l'autorité politique n’ont force obligatoire que selon leur conformité au droit naturel.
 
 ## Raison et foi : une concurrence ouverte
+
 <chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
 
 Au Moyen Âge, la raison et la foi sont en concurrence pour l'accès à la vérité. A la suite d’Abélard et d’Albert Le Grand, Thomas d’Aquin, au XIIIe siècle, choisit de défendre les droits de la raison et son autonomie par rapport à la foi.
@@ -705,6 +718,7 @@ Parmi les grands maîtres aristotéliciens qui ont marqué cette époque, citons
 Dès lors, c’est le rationalisme religieux qui va l’emporter définitivement sur le mysticisme.
 
 ## Religion et politique : la naissance de l’État souverain
+
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
 Au Moyen Âge l’Église et les monarchies chrétiennes ont hérité d’un modèle politique qui est celui de l’Empire Romain et que les historiens appellent le système théologico-politique c’est-à-dire un système où le pouvoir est sacral c’est-à-dire ou le chef politique est en même temps un chef religieux.
@@ -736,13 +750,14 @@ C’est ainsi que l'Église de son côté va mettre au point son droit et ses tr
 
 Dans la réalité, la compétition entre les pouvoirs a donné lieu à de nombreux conflits. Chaque Prince ou chaque Pape a toujours essayé d'emporter le dernier mot et de convaincre qu'il possédait l'autorité suprême, en dernier recours. Ainsi, le Pape Grégoire VII déclarait:
 
->Le pape est le seul homme dont tous les princes doivent baiser les pieds.
+> Le pape est le seul homme dont tous les princes doivent baiser les pieds.
 
 De son côté, Saint Louis n’a pas hésité à s’opposer au Pape Innocent IV qui avait excommunié et déposé l’empereur Frédéric II, le privant ainsi de toute crédibilité auprès de son peuple. Son petit-fils, Philippe Le Bel, fera de même.
 
 La tentation théocratique de l’Église se heurte aussi à la théorie du « droit divin ». Si les rois de France se proclament monarques de « droit divin », c’est pour échapper à l’emprise du Pape et tirer leur autorité directement de Dieu, sans avoir d’ordre à recevoir des clercs.
 
 ## L’éthique biblique : la valeur sacrée de l’individu
+
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
 La pensée antique subordonne l’homme à un cosmos divin, c’est-à-dire à un univers parfait dont il n’est qu’une parcelle. Le monothéisme, au contraire, affirme la valeur infiniment supérieure de l’homme sur la nature, dans la mesure où l’homme est créé à l’image de Dieu. Ce point capital est à l’origine d’une véritable révolution éthique. Dans la Bible est affirmée la valeur sacrée et infinie de chaque être humain.
@@ -780,6 +795,7 @@ L’affaire des Indiens fut la première brèche dans le monolithisme politico-r
 L’idée d'humanité progresse. On en vient effectivement à considérer qu'il n'y a qu'une seule humanité à laquelle des droits égaux sont naturellement liés. Mais il faudra encore du temps pour qu’elle s’impose à tous. Il faudra notamment l’apport des sciences naturelles avec le concept d’espèce humaine.
 
 ## Les premières ébauches du capitalisme
+
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 Nous avons vu que le christianisme fait aux hommes un devoir moral impérieux d’œuvrer à l’amélioration du monde. Dieu veut que l’homme soit heureux mais il ne veut pas réaliser son bien à sa place. C’est donc au chrétien de combattre le mal moral, d’aimer son prochain, de secourir les victimes, bref d’œuvrer pour un monde plus juste et plus humain. Le capitalisme, c'est-à-dire l'économie libre fondée sur la propriété privée et la liberté des contrats est-il compatible avec le devoir du chrétien ?
@@ -844,9 +860,11 @@ Oresme souligne que les altérations de la monnaie ne sont pas simplement un jeu
 De plus, si deux monnaies différentes profitent du cours légal, les agents vont thésauriser celle qui vaut plus, de manière que seule la monnaie inférieure demeure en circulation. (Oresme anticipe ici la fameuse « loi de Gresham » : la mauvaise monnaie chasse la bonne dans un régime de cours légal.) Il conclut que les manipulations de la monnaie sont pires que l'usure et que, probablement, elles ont été une cause importante du déclin de l'Empire romain, comme nous l’avons vu précédemment.
 
 # L’essor de la liberté : de la Renaissance aux Lumières
+
 <partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
 
 ## Plaidoyer pour la tolérance religieuse
+
 <chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
 
 A partir de la Renaissance, l'Europe allait être ravagée par des guerres de religion. La tolérance fut donc un des grands combats des Lumières.
@@ -861,7 +879,7 @@ Voltaire pensera la même chose à propos du commerce. Celui-ci peut instaurer l
 
 Pour Voltaire, c’est d’abord la faillibilité de l’homme qui constitue le fondement d’une doctrine de la tolérance et de la liberté politique. Il écrit dans son _Dictionnaire philosophique_ (1764) :
 
->La tolérance est la conséquence nécessaire de la conscience que nous avons d’être faillible. L’erreur est humaine et nous faisons tous sans cesse des fautes. Pardonnons nous mutuellement nos bêtises c’est la première loi de la nature.
+> La tolérance est la conséquence nécessaire de la conscience que nous avons d’être faillible. L’erreur est humaine et nous faisons tous sans cesse des fautes. Pardonnons nous mutuellement nos bêtises c’est la première loi de la nature.
 
 ![image](assets/4/img-078.webp)
 
@@ -906,6 +924,7 @@ En d’autres mots, être tolérant ce n’est pas être hostile à la religion.
 - Les idées doivent s’échanger, comme les biens
 
 ## Plaidoyer pour la liberté économique
+
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 On associe souvent le « libéralisme économique » à une tradition anglo-saxonne issue d’Adam Smith pour l’opposer au « libéralisme politique » qui serait issu des Lumières continentales, en particulier de la France. Ce schéma est faux.
@@ -970,6 +989,7 @@ Les physiocrates répondent en trois temps :
 En bref, si chacun peut poursuivre librement son intérêt privé dans le respect de la loi naturelle, la paix et la prospérité de tous seront mieux assurées que par une organisation politique qui définirait d’en haut l’intérêt général et l’imposerait par la contrainte de la loi. La liberté politique est une chose utile mais elle ne suffit pas à donner aux individus l’autonomie de décision et d’action dont ils ont besoin. Telle est la leçon des physiocrates. L’école libérale française du XIXe siècle, avec Say, Constant, Dunoyer, Bastiat et Molinari, s’en souviendra et défendra brillamment cet héritage contre le socialisme naissant.
 
 ## Une année-clé pour le monde libre : 1776
+
 <chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
 
 1776 est une année qui passe souvent inaperçue dans les manuels d’histoire. Mais dans trois pays, France, Ecosse et Amérique du Nord, plusieurs évènements vont marquer l’histoire de la liberté d’une empreinte indélébile.
@@ -984,7 +1004,7 @@ Lors de son court passage au ministère des finances (Contrôleur général), d�
 
 En 1774 il publia ses Six Édits pour abolir les jurandes et maîtrises (les corporations qui étaient devenues des monopoles et des barrières à l’entrée dans le marché du travail), abolir les droits de douane internes sur le commerce du grain, abolir le travail forcé (la corvée) et établir la tolérance envers les protestants.
 
-Malheureusement l’envolée des prix du blé, suite à une mauvaise récolte, va porter le soupçon sur ses réformes. Turgot écrivit pour sa défense : 
+Malheureusement l’envolée des prix du blé, suite à une mauvaise récolte, va porter le soupçon sur ses réformes. Turgot écrivit pour sa défense :
 
 > Lorsque dans les provinces on verrait encore des disettes, il ne faudrait pas en faire une objection contre la liberté ; il faudrait seulement en conclure que la liberté n’est pas établie depuis assez longtemps pour avoir produit tous ses effets.
 
@@ -1075,6 +1095,7 @@ La plus importante contribution de Smith à la liberté fut de clarifier l’id�
 Cette idée d’ordre spontané deviendra un concept-clé dans l’œuvre de Friedrich Hayek, qui reconnaîtra sa dette à l’égard des Lumières écossaises et d’Adam Smith en particulier.
 
 ## L’ère des révolutions
+
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 La grande nouveauté de cette période moderne de l’histoire occidentale, c’est l’apparition d’une société qui s'organise en dehors de la dépendance religieuse. Cela ne signifie pas la disparition de la croyance religieuse ou la mort de Dieu. Mais Dieu devient une affaire privée, il n’est plus mêlé aux affaires politiques. Il n’y a pas disparition de la religion mais destitution de son rôle directeur. Elle devient un système de croyances individuelles.
@@ -1170,9 +1191,11 @@ C’est d’ailleurs le sens de la remarque de Friedrich Hayek dans son livre _L
 > Le facteur décisif qui a rendu vains les efforts de la Révolution en faveur de la promotion de la liberté individuelle, fut qu’elle créa l’illusion que, dans la mesure où tout le pouvoir avait été remis aux mains du peuple, toutes les précautions contre l’abus de ce pouvoir étaient devenues sans objet.
 
 # Apogée et déclin : du XIXe au XXe siècle
+
 <partId>39810d57-19e3-5166-8f2e-40b763154148</partId>
 
 ## La liberté des Modernes
+
 <chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
 
 Selon Benjamin Constant, la liberté, dans nos sociétés modernes, ne peut plus se comprendre à la manière des sociétés de l’Antiquité comme participation directe aux affaires de la cité.
@@ -1228,13 +1251,14 @@ La liberté politique sans les autres libertés n'est qu'un leurre selon Benjami
 Autrement dit, dans une société libre, il est nécessaire d'établir une frontière stricte entre sphère publique et sphère privée. Le principe de cette frontière réside dans le fait de ne pas nuire à autrui, c’est-à-dire de ne pas porter atteinte à sa propriété.
 
 ## Forces et faiblesses de la démocratie
+
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 Alexis de Tocqueville fut un observateur attentif de la démocratie et un critique de l’individualisme démocratique.
 
 ![image](assets/5/img-095.webp)
 
-L'analyse tocquevillienne de la démocratie ne fait que prolonger en un sens la distinction de Constant entre la liberté des Anciens et celle des Modernes. Dans un article de 1836 (_État social et politique de la France avant et depuis 1789_), Tocqueville établit une comparaison méthodique entre la liberté aristocratique et la liberté démocratique. La première se définit comme « La jouissance d'un privilège » et Tocqueville de citer en exemple le citoyen romain qui tient sa liberté non de la nature mais de son appartenance à Rome. 
+L'analyse tocquevillienne de la démocratie ne fait que prolonger en un sens la distinction de Constant entre la liberté des Anciens et celle des Modernes. Dans un article de 1836 (_État social et politique de la France avant et depuis 1789_), Tocqueville établit une comparaison méthodique entre la liberté aristocratique et la liberté démocratique. La première se définit comme « La jouissance d'un privilège » et Tocqueville de citer en exemple le citoyen romain qui tient sa liberté non de la nature mais de son appartenance à Rome.
 
 La seconde notion, qui est « la notion juste de la liberté », consiste dans un « droit égal et imprescriptible à vivre indépendant de ses semblables. » Cette notion moderne de la liberté n'est donc pas comme la première une notion politique, elle se fonde sur le droit naturel et elle est « juste » parce qu'elle s'étend également à tout homme. Il écrit :
 
@@ -1272,7 +1296,7 @@ Dans ce discours, Tocqueville compare le socialisme à l’Ancien Régime, pour 
 
 ### La loi et ses dérives
 
-Que pensait Frédéric Bastiat de la démocratie ? Il a répondu dès 1846 : 
+Que pensait Frédéric Bastiat de la démocratie ? Il a répondu dès 1846 :
 
 > Je suis de la démocratie, si vous entendez par ce mot : À chacun la propriété de son travail, liberté pour tous, égalité pour tous, justice pour tous, et paix entre tous. (_Libre-échange_).
 
@@ -1305,6 +1329,7 @@ Conclusion de Bastiat :
 > Jetez les yeux sur le globe. Quels sont les peuples les plus heureux, les plus moraux, les plus paisibles? Ceux où la Loi intervient le moins dans l'activité privée; où le gouvernement se fait le moins sentir; où l'individualité a le plus de ressort et l'opinion publique le plus d'influence; où les rouages administratifs sont les moins nombreux et les moins compliqués; les impôts les moins lourds et les moins inégaux; les mécontentements populaires les moins excités et les moins justifiables; où la responsabilité des individus et des classes est la plus agissante, et où, par suite, si les mœurs ne sont pas parfaites, elles tendent invinciblement à se rectifier; où les transactions, les conventions, les associations sont le moins entravées; où le travail, les capitaux, la population subissent les moindres déplacements artificiels ([_La loi_](http://bastiat.org/fr/la_loi.html))
 
 ## La critique marxiste du capitalisme
+
 <chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
 
 C’est au cours du XIXe siècle qu’émerge la critique du capitalisme et en particulier la critique marxiste.
@@ -1334,6 +1359,7 @@ En fait, pour Marx et conformément au matérialisme historique, c’est l’ali
 La révolution politique est donc une illusion, selon lui, tant qu’elle ne s’accompagne pas d’une révolution économique et sociale capable de libérer l’homme de la servitude capitaliste et de réaliser ainsi l’unité entre le travailleur et le citoyen, entre la société et l’État, la sphère privée et la sphère publique. La liberté et l’égalité formelles du citoyen deviendront ainsi réelles, dans la société sans classes.
 
 ## La critique autrichienne du marxisme
+
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 L'école autrichienne d'économie, fondée par Carl Menger à la fin du XIXe siècle, s'est opposée dès le départ aux théories de Karl Marx.
@@ -1397,6 +1423,7 @@ Les Marxistes croient que le socialisme, un système économique dans lequel les
 Dès 1922, dans son livre _Socialisme,_ Ludwig von Mises démontre que le socialisme conduirait à une pénurie généralisée, car les planificateurs centraux ne seraient pas en mesure de faire des calculs économiques précis sans le système de prix fourni par le marché.
 
 ## La route de la servitude
+
 <chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
 
 Alarmé par la montée de l'interventionnisme des gouvernements dans les économies des démocraties occidentales, Hayek écrit _La Route de la Servitude_ (_The Road to Serfdom)_, comme une critique philosophique des collectivismes, qu’ils soient de droite ou de gauche. Tirée à plusieurs millions d’exemplaires, grâce au _Reader’s Digest_, ce livre a largement contribué à la notoriété d’Hayek aux États-Unis.
@@ -1409,11 +1436,11 @@ Rédigé entre 1940 et 1943, ce petit essai entend dresser un premier bilan des 
 
 On retrouve en effet partout à l’œuvre le même processus de centralisation politique et la même volonté de substituer une organisation dirigiste aux mécanismes traditionnels du marché. En Grande Bretagne comme aux États-Unis, on affirme que la puissance publique doit tout planifier et peut tout résoudre.
 
-Quant au libéralisme authentique, il est soucieux de la justice. Mais Hayek rappelle qu’il appartient à la société civile et non à l’État d’organiser cette solidarité. Ce qui différencie le libéralisme et le socialisme, ce ne sont pas les fins, ce sont les moyens. Selon Hayek, 
+Quant au libéralisme authentique, il est soucieux de la justice. Mais Hayek rappelle qu’il appartient à la société civile et non à l’État d’organiser cette solidarité. Ce qui différencie le libéralisme et le socialisme, ce ne sont pas les fins, ce sont les moyens. Selon Hayek,
 
 > Le libéralisme veut qu'on fasse le meilleur usage possible des forces de la concurrence en tant que moyen de coordonner les efforts humains ; il ne veut pas qu'on laisse les choses en l'état où elles sont.
 
-C’est pourquoi, ajoute Hayek, l'État a un domaine d'activité incontestable : 
+C’est pourquoi, ajoute Hayek, l'État a un domaine d'activité incontestable :
 
 > Créer les conditions dans lesquelles la concurrence sera la plus efficace possible, la remplacer là où elle ne peut être efficace, fournir les services qui sont d'une nature telle que le profit, selon la formule de Smith, ne saurait en rembourser le coût à aucun groupe.
 
@@ -1438,9 +1465,11 @@ Les nazis n’ont fait que récupérer le discours étatiste, dirigiste et inter
 Hayek appelle en conclusion ses contemporains à tourner le dos aux « folies » et à « l’obscurantisme contemporain » pour débarrasser l’humanité des « erreurs qui ont dominé notre vie dans un passé récent ». Selon lui, la meilleure garantie de la liberté est la propriété privée. Quand tous les moyens de production sont concentrés dans les mains de quelques organisateurs, nous sommes soumis à un pouvoir total car ce pouvoir économique devient un instrument politique de contrôle sur notre vie entière.
 
 # L’essor de l’État providence au XXe siècle
+
 <partId>49e581cb-3dca-5f10-ac34-5b4cbd3d7c36</partId>
 
 ## Le triomphe de Keynes
+
 <chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
 
 On accuse souvent le capitalisme d’être à l’origine de l’injonction : « il faut produire toujours plus », ou bien de la formule : « consommer est bon pour la croissance ». Pourtant ces idées ne proviennent pas du capitalisme traditionnel mais du keynésianisme qui règne depuis les années trente, dans la science économique et dans la classe politique.
@@ -1495,7 +1524,7 @@ A partir de 1958, une politique de redressement de l’économie française, ins
 
 Dans _Le péché monétaire de l’Occident_, en 1971, Rueff écrit :
 
-> C’est par le déficit budgétaire que les hommes perdent leur liberté. 
+> C’est par le déficit budgétaire que les hommes perdent leur liberté.
 
 Il ajoute: "L'inflation, c'est de subventionner des dépenses qui ne rapportent rien avec de l'argent qui n'existe pas ». Selon lui : «  On croirait, en observant l'évolution du système monétaire international, que l'Occident s'applique à mettre en œuvre le conseil de Lénine, suivant lequel : Pour détruire le régime bourgeois, il suffit de corrompre sa monnaie.
 
@@ -1506,6 +1535,7 @@ En 1976, il s’attaque une dernière une fois au keynésianisme dans un article
 > Aucune religion ne s'est répandue dans le monde aussi vite que celle de l'emploi. Portée par le souvenir des drames du chômage qui avait ravagé l'Angleterre et l'Allemagne pendant les années 20, elle est devenue le premier principe, expresse ou tacite, de la politique économique dans presque tous les pays du monde. Masquant son objet sous l'habillage habile et spécieux de la "théorie générale", élevée par des disciples enthousiastes et aveugles à la hauteur d'une bible de l'action gouvernementale, elle a dissimulé le véritable visage des politiques d'inflation qu'elle recouvrait. Par ce détour, elle a donné bonne conscience aux gouvernements qui, ayant épousé leurs possibilités d'impôts et d'emprunts, recouraient aux délices trompeurs de la création monétaire. (_La fin de l'ère keynésienne_. Version anglaise: "The End of the Keynesian Era or: When the Long Run Ran Out", Euromoney, avril 1976, pp.70-7.)
 
 ## L’abandon de l’étalon-or
+
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 La monnaie est un outil qui a permis aux humains de sortir du troc, d’épargner et de se coordonner à grande échelle par le marché. Elle a rendu possible la spécialisation du travail, les avantages comparatifs, les gains à l’échange, le calcul économique. Sans monnaie, il n’y a pas de civilisation moderne.
@@ -1518,13 +1548,13 @@ Et il se trouve qu’une forme particulière de monnaie s’est progressivement 
 
 En effet, l’or est une monnaie dure, difficile à produire, coûteuse à falsifier. L’or a été élu par le marché comme la monnaie la plus fiable, la plus durable et la moins manipulable. L’histoire montre que lorsque les individus peuvent choisir la monnaie qu’ils utilisent, ils ont tendance à choisir l’or.
 
-C’est pourquoi, dans _L’Action humaine_, Ludwig von Mises écrit : 
+C’est pourquoi, dans _L’Action humaine_, Ludwig von Mises écrit :
 
 > L’étalon-or a été l’étalon mondial au temps du capitalisme, de l’accroissement du bien-être, de la liberté et de la démocratie \[…\] C’était l’étalon international dont le commerce international et les marchés mondiaux des capitaux avaient besoin \[…\] Il a porté l’industrie, le capital et la civilisation occidentales dans les coins les plus reculés de la planète, créant des richesses inconnues jusqu’alors.
 
 Mais l'étalon-or contraint les gouvernements à financer leurs dépenses par l'impôt plutôt que par l'inflation, ce qui explique une certaine hostilité des élites politico-économiques envers ce système. Car le fait de relier la monnaie à un métal précieux limite la capacité des banques centrales à financer la croissance de l’État-providence via la taxe indirecte qu’est l’inflation.
 
-C’est pourquoi dès 1923, Keynes déclarait : 
+C’est pourquoi dès 1923, Keynes déclarait :
 
 > En vérité, l’étalon d’or est déjà une relique barbare. (…) Les défenseurs de l’ancien étalon ne remarquent pas combien il est maintenant éloigné de l’esprit et des besoins des temps nouveaux. (J.M. Keynes, _La réforme monétaire_).
 
@@ -1570,13 +1600,13 @@ Pour Hayek, l’instabilité passée de l’économie de marché résulte du fai
 
 Hayek pensait qu’un marché libre des monnaies privées mènerait à une plus grande stabilité monétaire. Près de 50 ans plus tard, une cryptomonnaie comme Bitcoin incarne cette vision concurrentielle de Hayek en proposant une alternative décentralisée au système monopolistique des banques centrales. Bitcoin, avec sa limite d'émission à 21 millions d’unités, est une garantie contre l’inflation et l’arbitraire des régulateurs.
 
-
-
 ## Évaluez ce cours
+
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion : le pouvoir des idées
+
 <chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>
 
 La crise que nous traversons est une crise de civilisation, c’est-à-dire une crise intellectuelle aux conséquences morales, politiques et économiques.
@@ -1597,8 +1627,56 @@ C’est ce que suggérait Murray Rothbard en 1982 :
 
 > On a maintenant tâté de toutes les variantes de l’étatisme et elles ont toutes échoué. Partout dans le monde occidental au début du 20ème siècle les chefs d’entreprise, les politiciens et intellectuels s’étaient mis à appeler de leurs vœux un “nouveau” système d’économie mixte, de domination étatique, à la place du laissez-faire relatif du siècle précédent. De nouvelles panacées, attrayantes à première vue, comme le socialisme, l’État corporatiste, l’État-Providence-Gendarme du monde, etc. ont été essayées et toutes ont manifestement échoué. Les argumentaires en faveur du socialisme et de la planification étatique apparaissent maintenant comme des plaidoyers pour un système vieilli, épuisé et raté. Que reste-t-il à essayer sinon la liberté ?
 
-En un certain sens, notre situation est meilleure que par le passé. Après les échecs successifs des différentes expériences socialistes, communistes et sociales-démocrates, nous savons aujourd’hui distinguer, mieux qu’hier, les idées vraies des idées fausses. Et les idées fausses peuvent être réfutées et remplacées par des idées vraies. Comme le disait Mises: 
+En un certain sens, notre situation est meilleure que par le passé. Après les échecs successifs des différentes expériences socialistes, communistes et sociales-démocrates, nous savons aujourd’hui distinguer, mieux qu’hier, les idées vraies des idées fausses. Et les idées fausses peuvent être réfutées et remplacées par des idées vraies. Comme le disait Mises:
 
-> Tout ce qui arrive dans la société mondiale où nous vivons est le résultat des idées. Le bon et le mauvais. Ce qu’il faut c’est combattre les idées fausses. (…) Notre civilisation peut survivre, et elle le doit. Et elle survivra grâce à des idées meilleures que celles qui gouvernent le monde aujourd’hui ; et ces idées meilleures seront développées par la génération montante. 
+> Tout ce qui arrive dans la société mondiale où nous vivons est le résultat des idées. Le bon et le mauvais. Ce qu’il faut c’est combattre les idées fausses. (…) Notre civilisation peut survivre, et elle le doit. Et elle survivra grâce à des idées meilleures que celles qui gouvernent le monde aujourd’hui ; et ces idées meilleures seront développées par la génération montante.
 >
 > (_Politique économique. Réflexions pour aujourd’hui et pour demain_, 1979).
+
+# Conclusion
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Évaluez ce cours
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+
+Félicitations pour avoir terminé ce cours !
+
+Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
+
+Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
+
+#### Découvrez la vie de F. Bastiat avec
+
+https://planb.network/courses/eco102
+
+#### Découvrez Bitcoin et ses fondamentaux avec
+
+https://planb.network/courses/btc101
+
+#### Découvrez le Lightning Network avec
+
+https://planb.network/courses/lnp201
+
+#### Maîtriser les principes des la vie privée sur Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Découvrez l'histoire des origines de Bitcoin avec
+
+https://planb.network/courses/his201
+
+#### Comprenez comment fonctionne le portefeuille Bitcoin avec
+
+https://planb.network/courses/cyp201

@@ -1,8 +1,9 @@
-question: What prefix or HRP corresponds to a SegWit standard address?
-answer: bc
+question: What does the index /84'/ at depth 1 of a derivation path indicate?
+answer: The P2WPKH standard (SegWit v0)
 wrong_answers:
-  - 1
-  - 0x
-  - btc
+  - The P2TR standard (SegWit v1)
+  - A Bitcoin testnet currency
+  - A Bitcoin mainnet currency
 explanation: |
-  The prefix bc is used for SegWit addresses on the Bitcoin mainnet.
+  The index /84'/ is defined in BIP84 to indicate the use of the SegWit v0 standard with P2WPKH addresses at depth 1 (that of the derivation target).
+reviewed: false

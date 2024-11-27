@@ -1,9 +1,9 @@
-question: Hva er variabelen som tillater differensiering av søsken nøkkelpar fra hverandre (som har samme foreldrepar)?
-answer: Indeksen.
+question: Hva er den totale størrelsen på en utvidet nøkkel med sjekksummen?
+answer: 82 bytes
 wrong_answers:
-  - Den kryptografiske salt.
-  - Fornavnet.
-  - Foreldrenes kjedekode.
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
 explanation: |
-  Indeksen brukes til å differensiere søsken nøkkelpar som er avledet fra samme foreldrepar i en HD-lommebok.
+  En utvidet nøkkel er 78 bytes uten sjekksummen og 82 bytes med sjekksummen inkludert.
 reviewed: false

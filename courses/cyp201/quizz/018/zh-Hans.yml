@@ -1,8 +1,9 @@
-question: 私钥存储在哪里？
-answer: 在比特币钱包中
+question: 为什么比特币没有使用椭圆曲线secp256r1？
+answer: 可能是为了避免后门
 wrong_answers:
-  - 在区块链上
-  - 在比特币社区服务器上。
-  - 在点对点网络上。
-explanation:
-  钱包包含访问比特币所需的私钥。
+  - 因为它太慢了
+  - 因为它没有被标准化
+  - 因为它需要专用硬件
+explanation: |
+  中本聪可能更倾向于使用secp256k1曲线，因为secp256r1的参数可能包含隐藏的漏洞。
+reviewed: false

@@ -1,8 +1,9 @@
-question: Mitkä ovat kryptografisesti turvallisen satunnaislukugeneraattorin (PRNG) ominaisuudet?
-answer: Sen on oltava ennustamaton, tilastollisesti satunnainen ja hyökkäyksiltä suojattu.
+question: Mikä on Bitcoin-lompakon pääasiallinen tehtävä?
+answer: Hallita ja turvata yksityisiä avaimia
 wrong_answers:
-  - Sen on oltava nopea, pilvessä käytettävä ja avoimen lähdekoodin.
-  - Sen on oltava epädeterministinen, perustuttava fyysiseen ilmiöön ja skaalautuva.
-  - Sen on oltava laitteistopohjainen, prosessorin tuottama ja peruutettavissa.
+  - Säilyttää käyttäjän bitcoinit
+  - Varmistaa automaattisesti tapahtumien luottamuksellisuuden
+  - Generoida bitcoineja jokaiselle käyttäjälle
 explanation: |
-  Kryptografisesti turvallisen satunnaislukugeneraattorin on oltava ennustamaton, kestettävä hyökkäyksiä, vaikka osa tuloksista paljastuisikin, ja sillä on oltava riittävän pitkä jakso toistuvien sekvenssien välttämiseksi.
+  Bitcoin-lompakko ei suoraan säilytä bitcoineja, vaan hallinnoi yksityisiä avaimia, jotka ovat tarpeen UTXO: iden avaamiseksi, jotka edustavat bitcoineja.
+reviewed: false

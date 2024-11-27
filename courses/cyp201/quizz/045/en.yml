@@ -1,9 +1,9 @@
-question: What does the passphrase represent within an HD wallet?
-answer: An optional cryptographic salt of arbitrary size.
+question: What is the hash function used to calculate the checksum of a mnemonic phrase?
+answer: SHA256
 wrong_answers:
-  - A 25th word on the mnemonic phrase.
-  - A mandatory cryptographic salt of fixed size.
-  - A second seed.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  The passphrase is an optional cryptographic salt, which enhances the security of the wallet by adding additional information to the mnemonic phrase to determine the seed.
+  The checksum of a mnemonic phrase is calculated by applying a simple SHA256 hash on the entropy.
 reviewed: false

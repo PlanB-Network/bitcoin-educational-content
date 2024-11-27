@@ -1,9 +1,9 @@
-question: Apa yang diwakili oleh titik V dalam proses tanda tangan digital dengan ECDSA sebagai contoh dalam bab ini?
-answer: Titik yang dihitung dari nonce v dan titik generator G (V = v.G).
+question: Apa kerentanan tanda tangan ECDSA yang diperbaiki oleh SegWit?
+answer: Malleability (Kemudahan Perubahan Bentuk)
 wrong_answers:
-  - Titik yang diturunkan langsung dari kunci publik.
-  - Hash dari pesan yang ditandatangani.
-  - Hasil dari penjumlahan dua titik pada kurva eliptik.
+  - Verifikasi Batch
+  - Kurangnya agregasi
+  - Ukuran tanda tangan yang berlebihan
 explanation: |
-  V adalah hasil dari perhitungan nonce yang dikalikan dengan titik generator pada kurva eliptik.
-reviewed: false
+  SegWit memperbaiki malleability (kemudahan perubahan bentuk) dari tanda tangan ECDSA, memungkinkan penggunaan seperti Lightning Network.
+ditinjau: false

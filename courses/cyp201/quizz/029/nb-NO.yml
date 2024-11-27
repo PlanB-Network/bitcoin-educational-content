@@ -1,8 +1,8 @@
-question: Hva beviser en digital signatur i Bitcoin-systemet via scriptSig?
-answer: Besittelsen av den private nøkkelen som er assosiert med en spesifikk offentlig nøkkel.
+question: Hvilken digital signaturalgoritme ble brukt ved lanseringen av Bitcoin?
+answer: ECDSA
 wrong_answers:
-  - Besittelsen av en Bitcoin-adresse.
-  - Evnen til å mine en Bitcoin-blokk.
-  - Gyldigheten av en Bitcoin-transaksjon.
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  En digital signatur beviser at brukeren har den private nøkkelen uten å måtte avsløre den, noe som sikrer transaksjonens autentisitet.
+  Bitcoin brukte opprinnelig ECDSA, en signaturprotokoll basert på elliptiske kurver, før introduksjonen av Schnorr-signaturer i 2021.

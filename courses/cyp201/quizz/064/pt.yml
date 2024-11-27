@@ -1,9 +1,8 @@
-question: Qual é o intervalo de índice usado para chaves de criança normais em uma carteira HD?
-answer: Entre 0 e 2^31 - 1.
+question: Qual é a principal função de uma chave estendida em uma carteira HD?
+answer: Permitir a derivação de chaves filhas
 wrong_answers:
-  - Entre 0 e 2^32 - 1.
-  - Entre 0 e 2^31.
-  - Entre 2^31 e 2^32 - 1.
+  - Armazenar as transações da carteira
+  - Gerar diretamente os UTXOs
+  - Criptografar as chaves públicas
 explanation: |
-  Chaves de criança normais usam um intervalo de índice entre 0 e 2^31 - 1, enquanto chaves endurecidas têm um índice começando de 2^31.
-reviewed: false
+  Uma chave estendida combina uma chave (seja privada ou pública) com um código de cadeia associado, ou seja, os dois elementos necessários para derivar chaves filhas.

@@ -1,9 +1,8 @@
-question: Làm thế nào để xác định kích thước bit của checksum cho một cụm từ khôi phục?
-answer: Chia kích thước của số ngẫu nhiên (entropy) cho 32.
+question: Bao nhiêu bit entropy được sử dụng cho một cụm từ ghi nhớ 24 từ?
+answer: 256 bit
 wrong_answers:
-  - Chia kích thước của số ngẫu nhiên (entropy) cho 8.
-  - Chia kích thước của số ngẫu nhiên (entropy) cho 16.
-  - Nhân kích thước của số ngẫu nhiên (entropy) với 2.
+  - 128 bit
+  - 512 bit
+  - 64 bit
 explanation: |
-  Kích thước của checksum được thu được bằng cách chia kích thước của entropy cho 32, theo BIP39.
-reviewed: false
+  Một cụm từ ghi nhớ 24 từ dựa trên 256 bit entropy, đảm bảo độ an toàn rất cao.

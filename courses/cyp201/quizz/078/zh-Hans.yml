@@ -1,8 +1,8 @@
-question: 这是一串十进制数字（10 25 13 18 02 31）。正确转换为Bech32的是什么？
-answer: 2edjzl
+question: 描述符中的前缀`wpkh`是什么意思？
+answer: 支付至见证公钥哈希
 wrong_answers:
-  - 2udjpr
-  - 2uaz2c
-  - 3bdjsr
+  - 支付至公钥
+  - 支付至脚本哈希
+  - 见证脚本哈希
 explanation: |
-  十进制数字转换为Bech32是通过一个特定的对应表完成的，序列10 25 13 18 02 31对应于2edjzl。
+  前缀`wpkh`表示使用支付至见证公钥哈希地址的SegWit v0脚本。

@@ -1,8 +1,9 @@
-question: Com uma chave pública estendida, eu posso derivar...
-answer: ...chaves públicas filhas normais.
+question: Qual é o tamanho da semente gerada pelo PBKDF2?
+answer: 512 bits
 wrong_answers:
-  - ...chaves públicas filhas endurecidas.
-  - ...chaves privadas filhas normais.
-  - ...chaves privadas filhas endurecidas.
+  - 128 bits
+  - 256 bits
+  - Variável dependendo do comprimento da frase mnemônica
 explanation: |
-  Uma chave pública estendida permite a derivação apenas de chaves públicas filhas normais, mas não de chaves privadas.
+  Independentemente do comprimento da frase mnemônica, o PBKDF2 sempre gera uma semente de 512 bits.
+reviewed: false

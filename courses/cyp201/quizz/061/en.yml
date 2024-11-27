@@ -1,9 +1,9 @@
-question: What is the variable that allows differentiating sibling key pairs from each other (which have the same parent pair)?
-answer: The index.
+question: What is the total size of an extended key with the checksum?
+answer: 82 bytes
 wrong_answers:
-  - The cryptographic salt.
-  - The first name.
-  - The parent chain code.
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
 explanation: |
-  The index is used to differentiate sibling key pairs derived from the same parent pair in an HD wallet.
+  An extended key is 78 bytes without the checksum and 82 bytes with the checksum included.
 reviewed: false

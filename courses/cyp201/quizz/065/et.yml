@@ -1,9 +1,9 @@
-question: HD rahakoti tuletusteedel, millele vastab sügavus 0?
-answer: Peamine võti.
+question: Mis vahe on tavalisel lapsvõtmel ja kõvastunud lapsvõtmel?
+answer: Kõvastunud lapsvõti nõuab selle tuletamiseks vanema privaatvõtit.
 wrong_answers:
-  - Laiendatud võti.
-  - Vastuvõtvad aadressid.
-  - Valuuta tüüp.
+  - Tavaline lapsvõti ei saa tuletuda avalikest võtmetest.
+  - Kõvastunud lapsvõti kasutab paarisarvulist indeksit.
+  - Tavaline lapsvõti on turvalisem kui kõvastunud lapsvõti.
 explanation: |
-  Sügavus 0 tuletusteedel vastab peamisele võtmele, mis on kõikide tuletuste lähtepunkt HD rahakotis.
+  Tavaline lapsvõti saab tuletuda vanema avalikust võtmest, erinevalt kõvastunud lapsvõtmest, mis nõuab vanema privaatvõtit.
 reviewed: false

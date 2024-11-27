@@ -1454,4 +1454,38 @@ Nhưng trái với những gì các nhà tiên tri về ngày tận thế tuyên
 > Chúng ta đã nếm trải tất cả các biến thể của chủ nghĩa nhà nước, và tất cả đều đã thất bại. Ở khắp nơi trên thế giới phương Tây vào đầu thế kỷ 20, các nhà lãnh đạo doanh nghiệp, chính trị gia, và trí thức đã bắt đầu kêu gọi một hệ thống kinh tế hỗn hợp "mới", với sự thống trị của nhà nước, thay thế cho sự tự do tương đối của thế kỷ trước. Những phương thuốc mới, hấp dẫn ngay từ cái nhìn đầu tiên, như Chủ nghĩa Xã hội, nhà nước tập quyền, nhà nước phúc lợi - chiến tranh, v.v., đã được thử nghiệm và tất cả đều đã rõ ràng thất bại. Những lập luận ủng hộ Chủ nghĩa Xã hội và kế hoạch hoá nhà nước giờ đây xuất hiện như là những lời kêu gọi cho một hệ thống già cỗi, kiệt quệ, và thất bại. Còn lại gì để thử ngoài tự do?
 Ở một khía cạnh nào đó, tình hình hiện tại của chúng ta tốt hơn so với quá khứ. Sau những thất bại liên tiếp của các thí nghiệm xã hội chủ nghĩa, cộng sản và xã hội dân chủ, ngày nay, chúng ta biết cách phân biệt ý tưởng đúng từ ý tưởng sai tốt hơn này hôm qua. Và các ý tưởng sai có thể bị bác bỏ và thay thế bằng ý tưởng đúng. Như Mises đã nói:
 > Tất cả mọi thứ xảy ra trong xã hội toàn cầu mà chúng ta đang sống đều là kết quả của các ý tưởng. Cả tốt lẫn xấu. Điều cần thiết là phải chống lại những ý tưởng sai lầm. (...) Nền văn minh của chúng ta có thể tồn tại, và nó phải tồn tại. Và nó sẽ tồn tại nhờ vào những ý tưởng tốt đẹp hơn so với những ý tưởng đang chi phối thế giới ngày nay; và những ý tưởng tốt đẹp hơn này sẽ được phát triển bởi thế hệ tương lai. (_Chính sách kinh tế: Những suy tư cho hôm nay và ngày mai - Economic Policy: Thoughts for Today and Tomorrow_, 1979)
+# Kết luận
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+## Đánh giá khóa học này
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+## Kỳ thi cuối khóa
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+## Kết luận
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+Chúc mừng bạn đã hoàn thành khóa học này!
 
+Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
+
+Nhờ sự tận tâm và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
+
+Để tiếp tục khám phá sâu rộng vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
+
+#### Khám phá cuộc đời của F. Bastiat với
+https://planb.network/courses/eco102
+
+#### Khám phá Bitcoin và các nguyên lý cơ bản với
+https://planb.network/courses/btc101
+
+#### Khám phá Lightning Network với
+https://planb.network/courses/lnp201
+
+#### Làm chủ các nguyên tắc quyền riêng tư trên Bitcoin
+https://planb.network/courses/btc204
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+https://planb.network/courses/his201
+
+#### Hiểu cách hoạt động của ví Bitcoin với
+https://planb.network/courses/cyp201

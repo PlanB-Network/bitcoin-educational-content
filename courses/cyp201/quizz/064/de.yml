@@ -1,8 +1,9 @@
-question: Was ist der Indexbereich, der für normale Kind-Schlüssel in einem HD-Wallet verwendet wird?
-answer: Zwischen 0 und 2^31 - 1.
+question: Was ist die Hauptfunktion eines erweiterten Schlüssels in einem HD-Wallet?
+answer: Die Ableitung von Kinderschlüsseln ermöglichen
 wrong_answers:
-  - Zwischen 0 und 2^32 - 1.
-  - Zwischen 0 und 2^31.
-  - Zwischen 2^31 und 2^32 - 1.
+  - Die Transaktionen des Wallets speichern
+  - Direkt die UTXOs generieren
+  - Die öffentlichen Schlüssel verschlüsseln
 explanation: |
-  Normale Kind-Schlüssel verwenden einen Indexbereich zwischen 0 und 2^31 - 1, während gehärtete Schlüssel einen Index ab 2^31 haben.
+  Ein erweiterter Schlüssel kombiniert einen Schlüssel (entweder privat oder öffentlich) mit einem zugehörigen Kettenkode, d.h., den beiden Elementen, die notwendig sind, um Kinderschlüssel abzuleiten.
+reviewed: false

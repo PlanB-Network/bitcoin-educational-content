@@ -23,9 +23,11 @@ Théo; bidrag
 +++
 
 # Introduksjon
+
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Kursintroduksjon
+
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Mål: Oppdater dine sikkerhetsferdigheter!
@@ -57,7 +59,7 @@ For å starte, vil vi diskutere viktigheten av å velge en nettleser og dens imp
 
 - Kapittel 3 - Bruk av datamaskin
 - Kapittel 4 - Hacking & håndtering av sikkerhetskopier
-I denne seksjonen vil vi dekke tre nøkkelområder innen datamaskinsikkerhet. Først vil vi utforske ulike operativsystemer: Mac, PC og Linux, og fremheve deres spesifikasjoner og styrker. Deretter vil vi dykke ned i metoder for å effektivt beskytte mot hackingforsøk og styrke sikkerheten til enhetene dine. Til slutt vil vi understreke viktigheten av regelmessig å beskytte og sikkerhetskopiere dataene dine for å forhindre tap eller ransomware. ![](assets/en/2.webp)
+  I denne seksjonen vil vi dekke tre nøkkelområder innen datamaskinsikkerhet. Først vil vi utforske ulike operativsystemer: Mac, PC og Linux, og fremheve deres spesifikasjoner og styrker. Deretter vil vi dykke ned i metoder for å effektivt beskytte mot hackingforsøk og styrke sikkerheten til enhetene dine. Til slutt vil vi understreke viktigheten av regelmessig å beskytte og sikkerhetskopiere dataene dine for å forhindre tap eller ransomware. ![](assets/en/2.webp)
 
 ### Seksjon 3: Implementering av løsninger
 
@@ -70,9 +72,11 @@ I denne praktiske tredje seksjonen vil vi gå videre til implementeringen av din
 Først vil vi se på hvordan du beskytter innboksen din, som er essensiell for kommunikasjonen din og ofte målrettet av hackere. Deretter vil vi introdusere deg for en passordbehandler: en praktisk løsning for å ikke lenger glemme eller blande sammen passordene dine samtidig som du holder dem sikre. Til slutt vil vi diskutere et ekstra sikkerhetstiltak, to-faktor autentisering, som legger til et ekstra lag med beskyttelse for kontoene dine. Alt vil bli forklart klart og tilgjengelig. ![](assets/en/3.webp)
 
 # Alt du trenger å vite om nettlesing
+
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Nettlesing
+
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Når du surfer på internett, er det viktig å unngå visse vanlige feil for å bevare din online sikkerhet. Her er noen tips for å unngå dem:
@@ -96,6 +100,7 @@ Cookies er filer opprettet av nettsteder for å lagre informasjon på enheten di
 
 Det er to store familier av nettlesere: de som er basert på Chrome og de som er basert på Firefox.
 Selv om begge familiene tilbyr et lignende sikkerhetsnivå, anbefales det å unngå Google Chrome-nettleseren på grunn av dens sporing. Lettere alternativer til Chrome, som Chromium eller Brave, kan være å foretrekke. Brave er spesielt anbefalt for sin innebygde annonseblokkering. Det kan være nødvendig å bruke flere nettlesere for å få tilgang til visse nettsteder.![](assets/notext/6.webp)
+
 ### Privat surfing, TOR og andre alternativer for sikrere og mer anonym surfing
 
 Privat surfing, selv om det ikke skjuler surfing fra din internettleverandør, lar deg ikke etterlate lokale spor på datamaskinen din. Informasjonskapsler slettes automatisk ved slutten av hver økt, noe som lar deg akseptere alle informasjonskapsler uten å bli sporet. Privat surfing kan være nyttig når du kjøper nettjenester, ettersom nettsteder sporer våre søkevaner og justerer priser deretter. Det er imidlertid viktig å merke seg at privat surfing anbefales for midlertidige og spesifikke økter, ikke for generell internettbrowsing.
@@ -105,12 +110,10 @@ Et mer avansert alternativ er TOR (The Onion Router)-nettverket, som tilbyr anon
 TOR er lovlig og brukes av journalister, frihetsaktivister og andre som ønsker å unnslippe sensur i autoritære land. Det er imidlertid viktig å forstå at TOR ikke sikrer de besøkte sidene eller datamaskinen selv. I tillegg kan bruk av TOR senke internettforbindelsen ettersom data passerer gjennom tre andre personers datamaskiner før det når sin destinasjon. Det er også essensielt å merke seg at TOR ikke er en idiotsikker løsning for å garantere 100% anonymitet og bør ikke brukes til ulovlige aktiviteter.
 ![](assets/notext/7.webp)
 
-
 https://planb.network/tutorials/others/tor-browser
 
-
-
 ## VPN og internettforbindelse
+
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPN-er
@@ -141,9 +144,11 @@ For å unngå online svindel, er det avgjørende å verifisere identiteten til n
 Oppsummert kan bruk av VPN i stor grad forbedre online sikkerhet, både for bedrifter og individuelle brukere. Videre kan det å praktisere gode nettleservaner bidra til bedre digital hygiene. I neste del av dette kurset vil vi ta for oss datasikkerhet, inkludert oppdateringer, antivirus og passordhåndtering.
 
 # Beste praksiser for datamaskinbruk
+
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Datamaskinbruk
+
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 Sikkerheten til våre datamaskiner er en stor bekymring i dagens digitale verden. I dag vil vi ta for oss tre nøkkelpunkter:
@@ -176,6 +181,7 @@ For å gi deg et konkret eksempel på en feil: sprukket programvare som ikke kan
 
 Valget og implementeringen av et antivirus er viktig. Windows Defender, det innebygde antivirusprogrammet i Windows, er en trygg og effektiv løsning. For en gratis løsning er den ekstremt god og mye bedre enn mange gratis løsninger funnet på nettet. Faktisk bør man være forsiktig med antivirus lastet ned fra internett, da de kan være ondsinnede eller utdaterte.
 For de som ønsker å investere i et betalt antivirus, anbefales det å velge et antivirus som intelligent analyserer ukjente og fremvoksende trusler, som Kaspersky. Oppdateringer av antivirus er essensielle for å beskytte mot nye trusler.
+
 > Merk: Linux og Mac, takket være deres system for separasjon av brukerrettigheter, trenger ofte ikke antivirus.
 
 Til slutt, her er noen gode praksiser for sikkerheten til datamaskinen og dataene dine. Det er viktig å velge et effektivt og brukervennlig antivirus. Det er også avgjørende å adoptere gode praksiser på datamaskinen din, som å ikke sette inn ukjente eller mistenkelige USB-nøkler. Disse USB-nøklene kan inneholde skadelige programmer som automatisk kan starte ved innsetting. Å sjekke USB-nøkkelen vil være nytteløst etter at den har blitt satt inn. Noen selskaper har vært ofre for hacking på grunn av USB-nøkler uforsiktig etterlatt i tilgjengelige områder, som en parkeringsplass.
@@ -184,6 +190,7 @@ Behandle datamaskinen din som du ville behandlet hjemmet ditt: vær årvåken, o
 I konklusjon er det essensielt å velge et operativsystem som passer dine behov og regelmessig oppdatere det, samt de installerte applikasjonene. Det er også viktig å bruke et effektivt og brukervennlig antivirusprogram og å adoptere gode praksiser for sikkerheten til din datamaskin og data.
 
 ## Hacking & Sikkerhetskopiering: Beskyttelse av Dataene Dine
+
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Hvordan angriper hackere?
@@ -224,12 +231,14 @@ https://planb.network/tutorials/others/proton-drive
 
 https://planb.network/tutorials/others/veracrypt
 
-
 # Implementering av løsninger.
+
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Håndtering av e-postkontoer
+
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
 ### Opprette en ny e-postkonto!
 
 E-postkontoen er sentralpunktet i din online aktivitet: hvis den blir kompromittert, kan en hacker bruke den til å tilbakestille alle passordene dine via "glemt passord"-funksjonen og få tilgang til mange andre nettsteder. Derfor er det viktig å sikre den ordentlig.
@@ -255,9 +264,8 @@ Bonus Bitcoin: Det kan være tilrådelig å opprette en spesifikk e-postadresse 
 
 https://planb.network/tutorials/others/proton-mail
 
-
-
 ## Passordbehandler
+
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### Hva er en passordbehandler?
@@ -267,16 +275,18 @@ En passordbehandler er et verktøy som lar deg lagre, generere og håndtere pass
 Med en passordbehandler trenger du ikke lenger å bekymre deg for å glemme passordene dine eller skrive dem ned et sted. Du trenger bare å huske ett hovedpassord. I tillegg genererer de fleste av disse verktøyene sterke passord for deg, noe som øker sikkerheten til kontoene dine.
 
 ### Forskjeller mellom noen populære behegere:
+
 - LastPass: En av de mest populære passordbehandlerne. Det er en tredjepartstjeneste, noe som betyr at passordene dine lagres på deres servere. Den tilbyr en gratisversjon og en betalt versjon, med et brukervennlig grensesnitt.
 - Dashlane: Dette er også en tredjepartstjeneste, med et intuitivt grensesnitt og ekstra funksjoner som sporing av kredittkortinformasjon og sikre notater.
-![](assets/notext/17.webp)
+  ![](assets/notext/17.webp)
+
 ### Selvhosting for mer kontroll:
 
 - Bitwarden: Dette er et åpen kildekode-verktøy, noe som betyr at du kan gjennomgå koden for å verifisere sikkerheten. Selv om Bitwarden tilbyr en hostet tjeneste, tillater det også brukere å selvhoste, noe som betyr at du kan kontrollere hvor passordene dine lagres, potensielt tilbyr mer sikkerhet og kontroll.
 
 - KeePass: Dette er en løsning med åpen kildekode som primært er ment for selvhosting. Dataene dine lagres lokalt som standard, men du kan synkronisere passorddatabasen ved hjelp av forskjellige metoder hvis du ønsker det. KeePass er anerkjent for sin sikkerhet og fleksibilitet, selv om det kan være litt mindre brukervennlig for nybegynnere.
-![](assets/notext/18.webp)
-(Merk: Valget mellom en tredjepartstjeneste eller en selvhostet tjeneste avhenger av ditt nivå av teknologisk komfort og hvordan du prioriterer kontroll versus bekvemmelighet. Tredjepartstjenester er generelt mer praktiske for de fleste mennesker, mens selvhosting krever mer teknisk kunnskap, men kan tilby mer kontroll og sinnsro når det gjelder sikkerhet.)
+  ![](assets/notext/18.webp)
+  (Merk: Valget mellom en tredjepartstjeneste eller en selvhostet tjeneste avhenger av ditt nivå av teknologisk komfort og hvordan du prioriterer kontroll versus bekvemmelighet. Tredjepartstjenester er generelt mer praktiske for de fleste mennesker, mens selvhosting krever mer teknisk kunnskap, men kan tilby mer kontroll og sinnsro når det gjelder sikkerhet.)
 
 ### Hva som utgjør et godt passord:
 
@@ -298,6 +308,7 @@ https://planb.network/tutorials/others/bitwarden
 https://planb.network/tutorials/others/keepass
 
 ## To-Faktor Autentisering
+
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Hvorfor implementere 2FA
@@ -309,7 +320,7 @@ Dette andre steget kan være:
 - En midlertidig kode sendt via SMS.
 - En kode generert av en applikasjon som Google Authenticator eller Authy.
 - En fysisk sikkerhetsnøkkel som du setter inn i datamaskinen din.![](assets/notext/19.webp)
-Med 2FA, selv om en hacker får tak i passordet ditt, vil de ikke kunne få tilgang til kontoen din uten denne andre verifiseringsfaktoren. Dette gjør 2FA essensielt for å beskytte dine nettbaserte kontoer mot uautorisert tilgang.
+  Med 2FA, selv om en hacker får tak i passordet ditt, vil de ikke kunne få tilgang til kontoen din uten denne andre verifiseringsfaktoren. Dette gjør 2FA essensielt for å beskytte dine nettbaserte kontoer mot uautorisert tilgang.
 
 ### Hvilket alternativ skal man velge?
 
@@ -340,21 +351,20 @@ https://planb.network/tutorials/others/authy
 
 https://planb.network/tutorials/others/security-key
 
-
-
 # Praktisk del
+
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Sette opp en postkasse
+
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 Å beskytte e-postkontoen din er et viktig skritt for å sikre dine nettaktiviteter og beskytte dine personlige data. Denne veiledningen vil lede deg, steg for steg, i å opprette og sette opp en ProtonMail-konto, en leverandør kjent for sitt høye sikkerhetsnivå som tilbyr ende-til-ende-kryptering av dine kommunikasjoner. Enten du er en nybegynner eller en erfaren bruker, vil de beste praksisene som presenteres her hjelpe deg med å styrke sikkerheten til din e-post, samtidig som du tar fordel av ProtonMails avanserte funksjoner:
 
 https://planb.network/tutorials/others/proton-mail
 
-
-
 ## Sikre med 2FA
+
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 Tofaktorautentisering (2FA) har blitt essensielt for å sikre dine nettbaserte kontoer. I denne veiledningen vil du lære hvordan du setter opp og bruker 2FA-appen Authy, som genererer dynamiske 6-sifrede koder for å beskytte kontoene dine. Authy er veldig enkel å bruke og synkroniseres på tvers av flere enheter. Oppdag hvordan du installerer og konfigurerer Authy, og dermed styrker sikkerheten til dine nettbaserte kontoer nå:
@@ -364,6 +374,7 @@ En annen mulighet er å bruke en fysisk sikkerhetsnøkkel. Denne tilleggstutoria
 https://planb.network/tutorials/others/security-key
 
 ## Opprette en passordbehandler
+
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 Passordhåndtering er en utfordring i den digitale tidsalderen. Vi har alle mange online kontoer å sikre. En passordbehandler hjelper deg med å opprette og lagre sterke og unike passord for hver konto.
@@ -377,6 +388,7 @@ For mer avanserte brukere tilbyr jeg også en tutorial om en annen gratis og åp
 https://planb.network/tutorials/others/keepass
 
 ## Sikre kontoene dine
+
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 I disse to tutorialene guider jeg deg også i å sikre dine online kontoer og forklarer hvordan du gradvis kan adoptere sikrere praksiser for å håndtere passordene dine på daglig basis.
@@ -386,6 +398,7 @@ https://planb.network/tutorials/others/bitwarden
 https://planb.network/tutorials/others/keepass
 
 ## Oppsett av sikkerhetskopi
+
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 Å beskytte dine personlige filer er også et kritisk punkt. Denne tutorialen viser deg hvordan du implementerer en effektiv backup-strategi ved bruk av Proton Drive. Oppdag hvordan du bruker denne sikre sky-løsningen for å anvende 3-2-1 metoden: tre kopier av dataene dine på to forskjellige medier, med en kopi offsite. Dette sikrer tilgjengeligheten og sikkerheten til dine sensitive filer:
@@ -397,6 +410,7 @@ Og for å sikre filene dine lagret på flyttbare medier som en USB-stasjon eller
 https://planb.network/tutorials/others/veracrypt
 
 ## Bytte av nettleser & VPN
+
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 Å beskytte ditt online privatliv er også et kritisk punkt for å sikre din sikkerhet. Å bruke en VPN kan være en første løsning for å oppnå dette.
@@ -412,13 +426,17 @@ Lær også hvordan du bruker Tor Browser, en nettleser spesielt designet for å 
 https://planb.network/tutorials/others/tor-browser
 
 # Gå videre
+
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Hvordan jobbe i cybersikkerhetsindustrien
+
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 ### Cybersikkerhet: Et voksende felt med uendelige muligheter
+
 Hvis du er lidenskapelig opptatt av å beskytte systemer og data, tilbyr feltet innen cybersikkerhet en mengde muligheter. Hvis denne industrien interesserer deg, her er noen nøkkelsteg for å veilede deg.
+
 ### Akademiske Grunnlag og Sertifiseringer:
 
 En solid utdannelse innen datavitenskap, informasjonssystemer, eller et relatert felt er ofte det ideelle utgangspunktet. Disse studiene gir det nødvendige grunnlaget for å forstå de tekniske utfordringene innen cybersikkerhet. For å komplementere denne utdannelsen, er det klokt å oppnå anerkjente sertifiseringer i feltet. Selv om disse sertifiseringene kan variere etter region, nyter noen, som CISSP eller CEH, global anerkjennelse.
@@ -449,6 +467,7 @@ Ved å mestre disse ferdighetene og verktøyene, vil du være godt utrustet til 
 ![](assets/notext/20.webp)
 
 ## Intervju med Renaud
+
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Effektiv Passordhåndtering og Styrking av Autentisering: En Akademisk Tilnærming
@@ -480,33 +499,53 @@ Det bør også bemerkes at internett er sterkt sentralisert og i stor grad under
 Alternativer til påtrengende annonser inkluderer Google DNS, OpenDNS og andre uavhengige tjenester. Standard DNS-protokollen lar DNS-forespørsler være synlige for internettleverandøren. DOH (DNS over HTTPS) og DOT (DNS over TLS) krypterer DNS-forbindelsen, og gir større personvern og sikkerhet. Disse protokollene brukes mye i bedrifter på grunn av deres forbedrede sikkerhet og støttes nativt av Windows, Android og iPhone. For å bruke DOH og DOT, må et TLS-vertsnavn angis i stedet for en IP-adresse. Gratis DOH- og DOT-leverandører er tilgjengelige på nettet. DOH og DOT forbedrer personvern og sikkerhet ved å unngå "man in the middle"-angrep. Andre nøkkelhensyn
 Som en del av "Security 101" treningsmodulen på Découvre Bitcoin Academy, diskuterte vi også Lightning-autentisering. Dette systemet genererer en forskjellig identifikator for hver tjeneste, uten behov for å oppgi en e-postadresse eller personlig informasjon. Det er mulig å ha brukerkontrollerte desentraliserte identiteter, men det er en mangel på standardisering og normalisering i prosjekter for desentralisert identitet. Pakkebehandlere som Nuget og Chocolaté, som tillater nedlasting av åpen kildekode-programvare utenfor Microsoft Store, anbefales for å unngå ondsinnede angrep. Sammenfattet er DNS avgjørende for online sikkerhet, men det er nødvendig å være årvåken mot potensielle angrep på DNS-servere.
 
-## Evaluer kurset
+# Konklusjon
+
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
+
+## Evaluer dette kurset
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen
+
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Anerkjennelser og fortsett å grave i kaninhullet
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+## Konklusjon
 
-### Vurder treningen & støtt oss
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
 
-Dette kurset, sammen med alt innholdet på denne akademien, har blitt gitt til deg gratis av vårt samfunn. For å støtte oss, kan du dele det med andre, bli medlem av akademien, og til og med bidra til utviklingen via GitHub. På vegne av hele teamet, takk!
+Gratulerer med fullført kurs!
 
-Et vurderingssystem for treningen vil snart bli integrert i denne nye e-læringsplattformen! I mellomtiden, tusen takk for at du tok kurset, og hvis du likte det, vennligst vurder å dele det med andre.
+Vi er glade for at du har nådd denne milepælen i din læringsprosess.
 
-### Gå videre
+Takket være din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
 
-Gratulerer med å fullføre denne SECU 101-treningen! Jeg håper inderlig at du likte det og at det åpnet dører for deg. Du er nå klar til å få din første bitcoin eller bare fortsette eventyret med nivå 2-kurs!
+For å fortsette å fordype deg i Bitcoin-universet, inviterer vi deg til å utforske andre kurs tilgjengelig på Plan ₿ Network som:
 
-- BTC 101 vil gi deg de teoretiske grunnleggende om Bitcoin
-- BTC 102 vil hjelpe deg med å sette opp din bitcoin-plan
-- LN 201 og 202 vil introdusere deg til Lightning Network, et andre-lags betalingsnettverk
-- ECON 201 vil dekke østerriksk økonomi
-- MINING 201 for å lære mer om gruvedrift
-- (og mange flere)
+#### Oppdag Bitcoin og dens grunnprinsipper med
 
-En enorm takk til våre Patreon, medlemmer og donorer for deres økonomiske støtte, takk til folk som deler, og takk til de som gjorde denne treningen mulig: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & hele teamet.
-Vi sees snart!
+https://planb.network/courses/btc101
+
+#### Få og sikre dine første bitcoins med
+
+https://planb.network/courses/btc102
+
+#### Oppdag Lightning-nettverket med
+
+https://planb.network/courses/lnp201
+
+#### Oppdag den økonomiske tankegangen til den østerrikske skolen med
+
+https://planb.network/courses/eco201
+
+#### Oppdag historien om Bitcoins opprinnelse med
+
+https://planb.network/courses/his201
+
+#### Forstå hvordan en Bitcoin-lommebok fungerer med
+
+https://planb.network/courses/cyp201
+

@@ -1364,3 +1364,38 @@ Thứ ba, Bitcoin phát triển một cách tự nhiên. Nó đã có thể phá
 Thứ tư, Bitcoin là một sáng tạo vị tha. Satoshi Nakamoto đã cung cấp Bitcoin cho thế giới. Ông đã phát hành chương trình dưới một giấy phép miễn phí. Ông không tìm kiếm danh tiếng, lợi nhuận, hay quyền lực. Ông đã đảm bảo an ninh khai thác mạng lưới hơn một năm, mà không yêu cầu bất kỳ sự bồi thường nào. Mặc dù ông đã tích lũy hơn một triệu bitcoin, ông chưa bao giờ tiêu chúng. Cuối cùng, ông biến mất, chủ yếu do lo ngại liên quan đến sự chú ý mà vụ việc WikiLeaks tạo ra, để lại dự án cho một cộng đồng, không có một nhân vật lãnh đạo nào.
 
 Vào năm 2011, Satoshi biến mất, nhưng Bitcoin vẫn tồn tại. Đồng tiền mã hóa thậm chí đã chính thức cất cánh, từ cả quan điểm truyền thông và kinh tế. Cỗ máy đã được khởi động và không ai có thể ngăn cản nó.
+# Kết luận
+<partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
+## Đánh giá khóa học này
+<chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
+<isCourseReview>true</isCourseReview>
+## Kỳ thi cuối khóa
+<chapterId>d61dbdf3-b482-412b-b725-0a19006603b7</chapterId>
+<isCourseExam>true</isCourseExam>
+## Kết luận
+<chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
+Chúc mừng bạn đã hoàn thành khóa học này!
+
+Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
+
+Nhờ sự tận tâm và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ bạn trong sự phát triển nghề nghiệp.
+
+Để tiếp tục khám phá sâu hơn về vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
+
+#### Khám phá Bitcoin và các nguyên lý cơ bản của nó với
+https://planb.network/courses/btc101
+
+#### Khám phá Trường phái Kinh tế học Áo với
+https://planb.network/courses/eco201
+
+#### Nhận và bảo mật bitcoin đầu tiên của bạn với
+https://planb.network/courses/btc102
+
+#### Cập nhật bảo mật trực tuyến của bạn với
+https://planb.network/courses/scu101
+
+#### Khám phá sự tiến hóa của tự do qua các thời đại với
+https://planb.network/courses/phi201
+
+#### Hiểu các nguyên tắc cơ bản về khai thác với
+https://planb.network/courses/min201

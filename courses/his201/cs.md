@@ -1338,3 +1338,39 @@ Zadruhé, Bitcoin nebyl postaven za jeden den. I po vydání verze 0.1 softwaru 
 Zatřetí, Bitcoin rostl organicky. Byl schopen se vyvíjet diskrétně, postupně přitahoval lidi. Téměř rok a půl to byl velmi důvěrný projekt, známý nadšencům a zvědavým. Teprve po slashdottingu v červenci 2010 začal explodovat. Spekulativní šílenství kolem něj skutečně začalo až v roce 2011, kdy cena exponenciálně vzrostla na 32 dolarů.
 Za čtvrté, Bitcoin byl altruistickým výtvorem. Satoshi Nakamoto nabídl Bitcoin světu. Program uvolnil pod svobodnou licencí. Nehledal slávu, zisk ani moc. Více než rok zajišťoval bezpečnost těžby sítě, aniž by požadoval jakoukoliv kompenzaci. Přestože nahromadil více než milion bitcoinů, nikdy je neutratil. Nakonec zmizel, hlavně kvůli obavám souvisejícím s pozorností, kterou vyvolal případ WikiLeaks, a projekt nechal odpočívat na komunitě, bez jediné dominantní postavy.
 V roce 2011 Satoshi zmizel, ale Bitcoin přežil. Kryptoměna dokonce definitivně vystřelila, jak z mediálního, tak z ekonomického hlediska. Stroj byl spuštěn a nikdo ho nemohl zastavit.
+
+# Závěr
+<partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
+## Zhodnoťte tento kurz
+<chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
+<isCourseReview>true</isCourseReview>
+## Závěrečná zkouška
+<chapterId>d61dbdf3-b482-412b-b725-0a19006603b7</chapterId>
+<isCourseExam>true</isCourseExam>
+## Závěr
+<chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
+Gratulujeme k dokončení tohoto kurzu!
+
+Jsme potěšeni, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
+
+Díky vaší oddanosti a závazku jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
+
+Pro další hlubší zkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
+
+#### Objevte Bitcoin a jeho základy s
+https://planb.network/courses/btc101
+
+#### Objevte rakouskou školu ekonomie s
+https://planb.network/courses/eco201
+
+#### Získejte a zabezpečte své první bitcoiny s
+https://planb.network/courses/btc102
+
+#### Aktualizujte svou online bezpečnost s
+https://planb.network/courses/scu101
+
+#### Objevte vývoj svobody v průběhu věků s
+https://planb.network/courses/phi201
+
+#### Pochopte základy těžby s
+https://planb.network/courses/min201

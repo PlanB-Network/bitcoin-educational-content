@@ -1,8 +1,9 @@
-question: Informasi apa yang dihitung dari seed dengan menerapkan HMAC-SHA512?
-answer: Kunci utama dan kode rantai utama dari dompet.
+question: Apa yang terjadi jika Anda kehilangan frasa sandi yang terkait dengan dompet HD Anda?
+answer: Anda kehilangan akses ke bitcoin yang terkait dengan dompet tersebut
 wrong_answers:
-  - Kunci perluasan dari dompet.
-  - xpub dan xprv dari dompet.
-  - Kode tanda tangan kunci pribadi.
+  - Anda masih bisa mengakses dompet dengan frasa mnemonik saja
+  - Anda dapat mereset frasa sandi dengan menghubungi dukungan Bitcoin
+  - Anda hanya kehilangan transaksi yang belum dikonfirmasi
 explanation: |
-  Dari seed, HMAC-SHA512 menghasilkan kunci utama dan kode rantai utama, yang merupakan dasar untuk generasi kunci.
+  Frasa sandi adalah komponen penting dalam derivasi kunci. Tanpanya, mustahil untuk merekreasi kunci dan oleh karena itu mengakses bitcoin.
+direview: false

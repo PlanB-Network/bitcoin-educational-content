@@ -1,9 +1,8 @@
-question: Hva er størrelsen på en ukomprimert Bitcoin offentlig nøkkel inkludert prefikset?
-answer: 520 bits.
+question: Hva er det felles punktet brukt av alle deltakere for å beregne en offentlig nøkkel i Bitcoin?
+answer: Generatorenpunktet G
 wrong_answers:
-  - 512 bytes.
-  - 256 bits.
-  - 512 bits.
+  - SHA256-hashen
+  - En mnemonic frase
+  - Den komprimerte offentlige nøkkelen
 explanation: |
-  En ukomprimert Bitcoin offentlig nøkkel med sitt prefiks er 520 bits, som består av x- og y-koordinatene til punktet på den elliptiske kurven.
-reviewed: false
+  Generatorenpunktet G på elliptisk kurve secp256k1 brukes for å beregne offentlige nøkler fra private nøkler.

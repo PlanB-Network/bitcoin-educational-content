@@ -1,8 +1,9 @@
-question: In quale BIP viene proposta l'idea della frase di recupero, o frase mnemonica (12/24 parole)?
-answer: BIP39.
+question: Cosa permette il flag sighash SIGHASH_NONE?
+answer: Modificare gli output dopo la firma
 wrong_answers:
-  - BIP16.
-  - BIP32.
-  - BIP44.
+  - Modificare gli input dopo la firma
+  - Coprire tutti gli input e gli output
+  - Limitare le modifiche a un solo output
 explanation: |
-  BIP39 ha introdotto la frase mnemonica di recupero di 24 parole, per facilitare il backup delle chiavi per gli utenti di portafogli HD.
+  SIGHASH_NONE copre solo gli input, lasciando gli output modificabili dopo la firma.
+reviewed: false

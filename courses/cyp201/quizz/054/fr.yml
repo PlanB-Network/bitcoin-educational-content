@@ -1,9 +1,9 @@
-question: Pour calculer les valeurs de la clé maîtresse et du code de chaîne maître, le premier input de la fonction HMAC-SHA512 est la graine. Quelle est la seconde valeur en input de cette fonction, agissant comme clé ?
-answer: “Bitcoin seed”.
+question: Quel est le rôle principal de la passphrase dans un portefeuille HD Bitcoin ?
+answer: Modifier la dérivation des clés pour renforcer la sécurité
 wrong_answers:
-  - La phrase mnémonique.
-  - La passphrase.
-  - “Seed”.
+  - Déchiffrer les transactions en attente
+  - Générer les UTXOs du portefeuille
+  - Protéger l'accès au portefeuille avec un face ID
 explanation: |
-  La chaîne de caractères Bitcoin seed est utilisée comme clé dans HMAC-SHA512 pour dériver la clé maîtresse et le code de chaîne maître à partir de la graine.
+  La passphrase agit comme un second facteur de sécurité, modifiant la graine de dérivation des clés pour empêcher l'accès au portefeuille en cas de compromission de la phrase mnémonique.
 reviewed: false

@@ -1,9 +1,9 @@
-question: ¿Qué tamaño debe tener la entrada de la función SHA256 una vez rellenada?
-answer: Un múltiplo de 512 bits.
+question: ¿Por qué se asegura la irreversibilidad en SHA256?
+answer: Las operaciones utilizadas eliminan información y son unidireccionales
 wrong_answers:
-  - De 256 bits.
-  - De 256 bytes.
-  - Un múltiplo de 256 bits.
+  - Los mensajes se cifran antes de ser hasheados
+  - Los bits se reorganizan aleatoriamente
+  - Cada hash se almacena en una base de datos
 explanation: |
-  La función SHA256 requiere que la entrada sea un múltiplo de 512 bits después del relleno para funcionar correctamente.
+  Operaciones como ShR y XOR hacen imposible volver al estado inicial, asegurando la irreversibilidad.
 reviewed: false

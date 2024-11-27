@@ -1,8 +1,9 @@
-question: ¿Cuántos bits se reservan para el relleno por tamaño en la función SHA256?
-answer: 64 bits.
+question: ¿Qué sucede durante cada ronda de compresión en SHA256?
+answer: Las variables de estado se actualizan a partir de las palabras del mensaje y constantes
 wrong_answers:
-  - 128 bits.
-  - 256 bits.
-  - 512 bits.
+  - El hash final se genera progresivamente después de cada ronda
+  - Los bits del mensaje se reorganizan
+  - Los valores iniciales de las variables permanecen sin cambios
 explanation: |
-  SHA256 reserva 64 bits para el relleno, lo que representa el tamaño inicial del mensaje antes del relleno.
+  Cada ronda modifica las variables de estado utilizando palabras, constantes y operaciones lógicas para esparcir la información.
+reviewed: false

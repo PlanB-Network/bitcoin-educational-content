@@ -1,9 +1,9 @@
-question: ¿Cuál es la función utilizada para derivar un par de claves hijo de un par de claves padre dentro de un monedero HD?
-answer: HMAC-SHA512.
+question: ¿Qué tipo de clave se asocia con el prefijo zpub?
+answer: Una clave pública extendida para SegWit V0 en la red principal
 wrong_answers:
-  - SHA256.
-  - Argon2d.
-  - PBKDF2.
+  - Una clave privada extendida para SegWit V1 en la red principal
+  - Una clave pública extendida para Legacy en la red de pruebas
+  - Una clave pública extendida para SegWit V2 en la red de pruebas
 explanation: |
-  HMAC-SHA512 se utiliza para derivar un par de claves hijo de un par de claves padre en un monedero HD.
+  El prefijo zpub denota una clave pública extendida para scripts SegWit V0 en la red principal.
 reviewed: false

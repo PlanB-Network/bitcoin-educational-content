@@ -1,9 +1,8 @@
-question: Mistä laajennetun avaimen kuorma koostuu?
-answer: Julkisesta tai yksityisestä avaimesta ja siihen liittyvästä ketjukoodista.
+question: Kuinka moniin osiin HMAC-SHA512-funktion siemenen tuotos jaetaan?
+answer: Kahteen 256 bitin osaan
 wrong_answers:
-  - Yksityisestä avaimesta ja siihen liittyvästä julkisesta avaimesta.
-  - Ketjukoodista, julkisesta avaimesta ja yksityisestä avaimesta.
-  - Yksityisestä avaimesta ja johdannaisindeksistä.
+  - Yhteen yksittäiseen 512 bitin osaan
+  - Kolmeen 170 bitin osaan
+  - Neljään 128 bitin osaan
 explanation: |
-  Laajennetun avaimen kuorma sisältää joko julkisen tai yksityisen avaimen yhdessä ketjukoodin kanssa, jota käytetään ala-avainten johtamiseen.
-reviewed: false
+  HMAC-SHA512: n tuotos jaetaan kahteen osaan pääyksityisavain (256 bittiä) ja pääketjukoodi (256 bittiä).

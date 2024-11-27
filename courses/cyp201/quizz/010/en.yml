@@ -1,9 +1,9 @@
-question: What are the algorithms used for derivation in Bitcoin HD wallets?
-answer: HMAC/PBKDF2
+question: Which derivation algorithm is used to calculate an authentication code based on a secret key?
+answer: HMAC-SHA512
 wrong_answers:
-  - NMAC/PBKDF1
-  - KMAC/Scrypt
-  - CMAC/Argon2
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  Bitcoin HD wallets use HMAC (Hash-based Message Authentication Code) for key derivation and PBKDF2 (Password-Based Key Derivation Function 2) for seed derivation.
+  HMAC-SHA512 is an algorithm that combines a hash function and a secret key to calculate an authentication code.
 reviewed: false

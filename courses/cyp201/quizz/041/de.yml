@@ -1,9 +1,9 @@
-question: Wenn ich eine 128-Bit-Zufallszahl generiere, wie groß wird meine Wiederherstellungsphrase in Wörtern sein?
-answer: 12 Wörter.
+question: Was ist das Hauptrisiko bei der Verwendung eines schlecht konzipierten PRNG zur Erzeugung von Entropie?
+answer: Private Schlüssel könnten von einem Angreifer erraten werden
 wrong_answers:
-  - 6 Wörter.
-  - 8 Wörter.
-  - 24 Wörter.
+  - Die mnemonische Phrase könnte falsche Wörter enthalten
+  - Digitale Signaturen würden ungültig werden
+  - Bitcoin-Adressen wären nicht kompatibel mit dem Netzwerk
 explanation: |
-  Eine 128-Bit-Zufallszahl entspricht einer 12-Wort-Mnemonik-Phrase, gemäß dem BIP39-Standard.
+  Ein schlecht konzipierter PRNG kann vorhersehbare Sequenzen erzeugen, was die Schlüssel anfälliger für Angriffe macht.
 reviewed: false

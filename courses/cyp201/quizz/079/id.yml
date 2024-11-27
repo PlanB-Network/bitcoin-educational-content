@@ -1,8 +1,8 @@
-question: Apa langkah terakhir untuk membuat alamat Bitcoin Bech32?
-answer: Tambahkan HRP bc dan pemisah 1.
+question: Apa fungsi utama dari deskriptor skrip keluaran?
+answer: Untuk sepenuhnya mendeskripsikan skrip keluaran dan menyediakan informasi yang diperlukan untuk memulihkan dompet
 wrong_answers:
-  - Tambahkan versi SegWit di awal.
-  - Tambahkan checksum di awal alamat.
-  - Tambahkan awalan 1.
+  - Secara otomatis menghasilkan alamat multisignature
+  - Menggantikan frasa mnemonik dalam cadangan dompet
+  - Mempermudah perhitungan tanda tangan digital
 explanation: |
-  Langkah terakhir dalam membuat alamat Bech32 adalah menambahkan HRP (Human Readable Part), bc untuk Bitcoin, diikuti oleh pemisah 1.
+  Deskriptor merangkum semua informasi yang diperlukan untuk melacak skrip tertentu, termasuk jalur derivasi dan kunci yang digunakan, tetapi tidak termasuk frasa pemulihan.

@@ -1,8 +1,9 @@
-question: Como é calculado o checksum de um endereço Legacy?
-answer: Com HASH256.
+question: Por que os descritores são particularmente úteis para carteiras multisignature?
+answer: Eles incluem o xpub de cada fator e descrevem a estrutura multisignature
 wrong_answers:
-  - Com HASH160.
-  - Com um código BCH.
-  - Com RIPEMD160.
+  - Eles eliminam a necessidade de uma frase mnemônica
+  - Eles simplificam a geração de chaves endurecidas
+  - Eles tornam multisignatures compatíveis com todos os scripts
 explanation: |
-  Para endereços Legacy, o checksum é obtido realizando uma dupla hash com a função SHA256 (HASH256).
+  Os descritores incluem as chaves públicas estendidas de todos os participantes, o que facilita a restauração e o gerenciamento de configurações multisignature.
+reviewed: false

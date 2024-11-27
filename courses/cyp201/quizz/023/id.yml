@@ -1,9 +1,8 @@
-question: Berapa ukuran kunci publik Bitcoin yang tidak dikompresi termasuk prefiksnya?
-answer: 520 bit.
+question: Apa titik umum yang digunakan oleh semua peserta untuk menghitung kunci publik dalam Bitcoin?
+answer: Titik generator G
 wrong_answers:
-  - 512 byte.
-  - 256 bit.
-  - 512 bit.
+  - Hash SHA256
+  - Frase mnemonik
+  - Kunci publik terkompresi
 explanation: |
-  Kunci publik Bitcoin yang tidak dikompresi dengan prefiksnya adalah 520 bit, yang terdiri dari koordinat x dan y dari titik pada kurva eliptik.
-reviewed: false
+  Titik generator G dari kurva eliptik secp256k1 digunakan untuk menghitung kunci publik dari kunci privat.

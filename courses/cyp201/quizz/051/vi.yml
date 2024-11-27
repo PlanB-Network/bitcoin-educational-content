@@ -1,8 +1,9 @@
-question: Hàm dẫn xuất khóa nào được sử dụng để dẫn xuất một hạt giống từ cụm từ ghi nhớ và một cụm mật khẩu tùy chọn?
-answer: PBKDF2.
+question: Sự khác biệt chính giữa mật khẩu và mã PIN đối với ví Bitcoin là gì?
+answer: Mật khẩu thay đổi quá trình sinh khóa, không phải mã PIN
 wrong_answers:
-  - Lyra2.
-  - Argon2d.
-  - Scrypt.
+  - Mã PIN được liên kết với cụm từ ghi nhớ
+  - Mã PIN được sử dụng để mã hóa giao dịch nhưng mật khẩu thì không
+  - Mã PIN tạo ra địa chỉ Bitcoin
 explanation: |
-  Hàm PBKDF2 được sử dụng để dẫn xuất hạt giống của một ví HD từ cụm từ ghi nhớ và một cụm mật khẩu tùy chọn.
+  Khác với mã PIN, mật khẩu trực tiếp tham gia vào quá trình sinh khóa và thay đổi các khóa ví.
+reviewed: false

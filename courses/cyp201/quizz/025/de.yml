@@ -1,9 +1,9 @@
-question: Was ist ein Nonce in der Kryptographie?
-answer: Eine Zahl, die beabsichtigt ist, einmal verwendet zu werden.
+question: Welche Eigenschaft von Schnorr ermöglicht es, mehrere öffentliche Schlüssel zu einem zu kombinieren?
+answer: Schlüsselaggregation
 wrong_answers:
-  - Eine gerade Zahl.
-  - Eine digitale Signatur.
-  - Eine Zahl, die wiederverwendet werden kann.
+  - Stapelverifizierung
+  - Verformbarkeit
+  - Signaturkompaktierung
 explanation: |
-  Ein Nonce ist eine Zahl, die einmal für kryptographische Operationen verwendet wird, um die Einzigartigkeit bestimmter Werte in Algorithmen zu gewährleisten.
+  Schnorr ermöglicht die Aggregation mehrerer öffentlicher Schlüssel zu einem einzigen Schlüssel.
 reviewed: false

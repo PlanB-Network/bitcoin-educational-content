@@ -1,9 +1,9 @@
-question: Jaké jsou charakteristiky kryptograficky bezpečného PRNG?
-answer: Musí být nepředvídatelný, statisticky náhodný a odolný vůči útokům.
+question: Jaká je hlavní role Bitcoinové peněženky?
+answer: Spravovat a zabezpečit soukromé klíče
 wrong_answers:
-  - Musí být rychlý, použitelný v cloudu a open source.
-  - Musí být nedeterministický, založený na fyzikálním jevu a škálovatelný.
-  - Musí být založený na hardwaru, generovaný procesorem a reverzibilní.
+  - Ukládat bitcoiny uživatele
+  - Automaticky zajistit důvěrnost transakcí
+  - Generovat bitcoiny pro každého uživatele
 explanation: |
-  Kryptograficky bezpečný PRNG musí být nepředvídatelný, odolný i v případě, že jsou některé výsledky odhaleny, a mít dostatečně dlouhé období, aby se zabránilo opakování sekvencí.
+  Bitcoinová peněženka přímo neukládá bitcoiny, ale spravuje soukromé klíče nezbytné pro odemčení UTXO, které reprezentují bitcoiny.
 reviewed: false

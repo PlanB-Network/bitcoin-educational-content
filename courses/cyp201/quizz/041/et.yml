@@ -1,9 +1,8 @@
-question: Kui ma genereerin 128-bitise juhusliku numbri, kui suur on minu taastefraas sõnades?
-answer: 12 sõna.
+question: Mis on peamine risk, kui kasutada halvasti kujundatud PRNG-d entroopia genereerimiseks?
+answer: Ründaja võib ära arvata privaatvõtmed
 wrong_answers:
-  - 6 sõna.
-  - 8 sõna.
-  - 24 sõna.
+  - Mnemooniline fraas võib sisaldada valesid sõnu
+  - Digitaalsed allkirjad muutuksid kehtetuks
+  - Bitcoin aadressid ei ühilduks võrguga
 explanation: |
-  128-bitine juhuslik number vastab 12-sõnalisele mnemoonilisele fraasile, järgides BIP39 standardit.
-reviewed: false
+  Halvasti kujundatud PRNG võib toota etteaimatavaid jadasid, muutes võtmed rünnakutele haavatavamaks.

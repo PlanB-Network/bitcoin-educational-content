@@ -1,9 +1,9 @@
-question: Qual é o objetivo do processo de hashing criptográfico?
-answer: Mapear uma sequência de bits de comprimento arbitrário para uma sequência de bits de comprimento fixo.
+question: Qual é a principal função de uma função hash?
+answer: Ela converte informações de tamanho arbitrário em uma impressão digital de tamanho fixo
 wrong_answers:
-  - Criptografar uma mensagem.
-  - Garantir que o remetente da mensagem não possa negar ter enviado a mensagem no futuro.
-  - Garantir a confidencialidade dos dados.
+  - Ela criptografa mensagens para torná-las ilegíveis
+  - É usada apenas para verificar a integridade do software Bitcoin
+  - Ela gera chaves privadas para carteiras Bitcoin
 explanation: |
-  O hashing transforma dados de qualquer tamanho em uma saída de tamanho fixo, útil para verificar a integridade sem necessariamente criptografar ou autenticar os dados.
+  Uma função hash transforma dados de qualquer tamanho em um hash de tamanho fixo, crucial para muitas aplicações no Bitcoin.
 reviewed: false

@@ -1,8 +1,8 @@
-question: Hva betyr prefikset 0x?
-answer: Tallet etter dette prefikset er uttrykt i base 16 (heksadesimal).
+question: Hva er den primære rollen til PBKDF2 i Bitcoin?
+answer: Generere frøet til en HD-lommebok
 wrong_answers:
-  - Tallet etter dette prefikset er uttrykt i base 2 (binær).
-  - Tallet etter dette prefikset er uttrykt i base 10 (desimal).
-  - Tallet etter dette prefikset er uttrykt i base 8 (oktal).
+  - Autentisere transaksjoner
+  - Kryptere private nøkler
+  - Opprette Bitcoin-adresser
 explanation: |
-  Prefikset 0x indikerer at tallet etter det er uttrykt i base 16 (heksadesimal).
+  PBKDF2 brukes til å utlede et frø fra en mnemonisk frase og en valgfri passfrase.

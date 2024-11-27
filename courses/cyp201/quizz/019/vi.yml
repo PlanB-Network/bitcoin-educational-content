@@ -1,9 +1,9 @@
-question: Đường cong elliptic nào là nổi tiếng nhất được sử dụng trong các hệ thống mật mã?
-answer: secp256r1.
+question: Phép toán toán học nào là cơ sở của sự an toàn trong mật mã học đường cong elliptic?
+answer: Vấn đề logarit rời rạc
 wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
+  - Phân tích số nguyên tố
+  - Tính toán dư thừa bậc hai
+  - Vấn đề lập phương rời rạc
 explanation: |
-  Đường cong elliptic secp256r1 được sử dụng rộng rãi trong nhiều hệ thống mật mã, nhưng Bitcoin sử dụng đường cong secp256k1.
+  Sự an toàn của mật mã học đường cong elliptic dựa trên sự khó khăn trong việc giải quyết vấn đề logarit rời rạc trên các đường cong này.
 reviewed: false

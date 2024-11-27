@@ -1,9 +1,9 @@
-question: Qual é o objetivo de usar assinaturas digitais no Bitcoin?
-answer: Produzir uma prova matemática que justifica que um usuário está de fato na posse de uma chave privada, sem revelar essa chave privada.
+question: Qual curva elíptica é usada no protocolo Bitcoin?
+answer: secp256k1
 wrong_answers:
-  - Produzir uma prova matemática que justifica que um usuário está de fato na posse de uma chave pública, sem revelar essa chave pública.
-  - Produzir uma prova matemática que justifica que um usuário está de fato na posse de um endereço de recebimento, sem revelar esse endereço de recebimento.
-  - Produzir uma prova matemática que justifica que um usuário está de fato na posse de uma carteira.
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  As assinaturas digitais no Bitcoin permitem provar que um usuário possui a chave privada associada a uma chave pública sem revelar essa chave privada.
+  O Bitcoin utiliza a curva secp256k1, definida pela equação y² = x³ + 7, para suas operações criptográficas.
 reviewed: false

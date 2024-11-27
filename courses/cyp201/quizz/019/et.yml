@@ -1,8 +1,8 @@
-question: Mis on krüptograafilistes süsteemides kõige tuntum elliptiline kõver?
-answer: secp256r1.
+question: Milline matemaatiline toiming on elliptilise kõvera krüptograafia turvalisuse aluseks?
+answer: Diskreetne logaritmiprobleem
 wrong_answers:
-  - secp256k1.
-  - secp160r1.
-  - ed25519.
+  - Algarvude tegurdamine
+  - Kvadratuursete jääkide arvutamine
+  - Diskreetne kuupprobleem
 explanation: |
-  Elliptiline kõver secp256r1 on laialdaselt kasutusel paljudes krüptograafilistes süsteemides, kuid Bitcoin kasutab kõverat secp256k1.
+  Elliptilise kõvera krüptograafia turvalisus põhineb nende kõverate diskreetse logaritmiprobleemi lahendamise raskusel.

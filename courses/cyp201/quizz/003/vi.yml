@@ -1,9 +1,9 @@
-question: Trong giao thức Bitcoin, HASH160 là gì?
-answer: Một băm SHA256 theo sau là một băm RIPEMD160.
+question: Sự khác biệt chính giữa SHA256 và RIPEMD160 là gì?
+answer: RIPEMD160 tạo ra các băm ngắn hơn so với SHA256
 wrong_answers:
-  - Một băm RIPEMD160 kép.
-  - Một băm SHA256 kép.
-  - Một băm MD5 theo sau là một băm SHA256.
+  - SHA256 đã lỗi thời khác với RIPEMD160
+  - RIPEMD160 chỉ được sử dụng trong cơ chế Chứng minh Công việc
+  - SHA256 không bao giờ được kết hợp với các hàm băm khác
 explanation: |
-  HASH160 kết hợp một băm SHA256 theo sau là RIPEMD160, được sử dụng đặc biệt để tạo ra địa chỉ Bitcoin.
+  RIPEMD160 tạo ra các băm 160-bit, trong khi SHA256 tạo ra các băm 256-bit.
 reviewed: false

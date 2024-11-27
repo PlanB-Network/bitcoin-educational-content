@@ -1,8 +1,8 @@
-question: Apa rentang indeks yang digunakan untuk kunci anak normal dalam dompet HD?
-answer: Antara 0 dan 2^31 - 1.
+question: Apa fungsi utama dari kunci ekstensi dalam dompet HD?
+answer: Untuk memungkinkan derivasi kunci anak
 wrong_answers:
-  - Antara 0 dan 2^32 - 1.
-  - Antara 0 dan 2^31.
-  - Antara 2^31 dan 2^32 - 1.
+  - Menyimpan transaksi dompet
+  - Langsung menghasilkan UTXOs
+  - Mengenkripsi kunci publik
 explanation: |
-  Kunci anak normal menggunakan rentang indeks antara 0 dan 2^31 - 1, sementara kunci yang diperkuat memiliki indeks yang dimulai dari 2^31.
+  Kunci ekstensi menggabungkan sebuah kunci (baik itu privat atau publik) dengan kode rantai yang terkait, yaitu, dua elemen yang diperlukan untuk derivasi kunci anak.

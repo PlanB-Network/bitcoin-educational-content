@@ -1,9 +1,9 @@
-question: Proč použití heslové fráze zvyšuje bezpečnost HD peněženky?
-answer: Přidává další vrstvu ochrany k mnemonické frázi.
+question: Jaká je velikost v bitech binárního segmentu použitého pro vytvoření každého mnemonického slova?
+answer: 11 bitů
 wrong_answers:
-  - Umožňuje generování silnějších veřejných klíčů.
-  - Kryptograficky chrání transakce.
-  - Zdvojnásobuje počet bitcoinů v peněžence.
+  - 8 bitů
+  - 16 bitů
+  - 10 bitů
 explanation: |
-  Heslová fráze zvyšuje bezpečnost přidáním dodatečného kusu dat k mnemonické frázi, působí podobně jako 2FA.
+  Každý 11bitový segment odpovídá slovu ze standardizovaného seznamu 2048 slov v BIP39.
 reviewed: false

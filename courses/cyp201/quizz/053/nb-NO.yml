@@ -1,8 +1,8 @@
-question: Hvilken informasjon beregnes fra frøet ved å anvende HMAC-SHA512?
-answer: Hovednøkkelen og hovedkjedekoden til lommeboken.
+question: Hva skjer hvis du mister passfrasen som er assosiert med din HD-lommebok?
+answer: Du mister tilgangen til bitcoinene som er knyttet til den lommeboken
 wrong_answers:
-  - Den utvidede nøkkelen til lommeboken.
-  - xpub og xprv til lommeboken.
-  - Den private nøkkels signaturkode.
+  - Du kan fortsatt få tilgang til lommeboken kun med den mnemoniske frasen
+  - Du kan tilbakestille passfrasen ved å kontakte Bitcoin-støtte
+  - Du mister kun de ubekreftede transaksjonene
 explanation: |
-  Fra frøet utleder HMAC-SHA512 hovednøkkelen og hovedkjedekoden, som er grunnlaget for nøkkelgenerering.
+  Passfrasen er en essensiell komponent i nøkkelavledningen. Uten den er det umulig å gjenskape nøklene og derfor umulig å få tilgang til bitcoinene.

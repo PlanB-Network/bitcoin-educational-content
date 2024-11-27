@@ -1,9 +1,9 @@
-question: Combien de bits sont réservés au rembourrage par la taille sur la fonction SHA256 ?
-answer: 64 bits.
+question: Que se passe-t-il lors de chaque tour de compression dans SHA256 ?
+answer: Les variables d'état sont mises à jour à partir des mots de message et des constantes
 wrong_answers:
-  - 128 bits.
-  - 256 bits.
-  - 512 bits.
+  - Le hash final est généré progressivement après chaque tour
+  - Les bits du message sont réorganisés
+  - Les valeurs initiales des variables restent inchangées
 explanation: |
-  SHA256 réserve 64 bits pour le rembourrage, qui représente la taille initiale du message avant le padding.
+  Chaque tour modifie les variables d'état à l'aide des mots, des constantes et des opérations logiques pour diffuser l'information.
 reviewed: false

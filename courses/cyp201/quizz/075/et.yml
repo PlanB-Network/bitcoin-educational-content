@@ -1,9 +1,8 @@
-question: Kuidas avalikku võtit kokku suruda?
-answer: Hoiame selle x-koordinaadi väärtust ja lisame prefiksi, mis näitab, millist y-koordinaati valida.
+question: Millist tuletusteed kasutatakse standardse kirjeldaja puhul SegWit v0 konto jaoks?
+answer: 84h/0h/0h
 wrong_answers:
-  - Hoiame selle y-koordinaadi väärtust ja lisame prefiksi, mis näitab, millist x-koordinaati valida.
-  - Avaliku võtme kokkusurumiseks kasutame selle räsiväärtust.
-  - Avaliku võtme kokkusurumiseks kasutame kahekordset SHA256 räsi.
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  Avaliku võtme kokkusurumine toimub nii, et hoitakse x-koordinaati ja lisatakse prefiks 0x02 või 0x03, et näidata, kas y on paaris või paaritu.
-reviewed: false
+  Tee 84h/0h/0h on määratletud BIP84-s, et tuletada SegWit v0 aadresse P2WPKH-ga.

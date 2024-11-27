@@ -1,9 +1,8 @@
-question: O que significa o prefixo 0x?
-answer: O número seguinte a este prefixo é expresso em base 16 (hexadecimal).
+question: Qual é o papel principal do PBKDF2 no Bitcoin?
+answer: Gerar a semente de uma carteira HD
 wrong_answers:
-  - O número seguinte a este prefixo é expresso em base 2 (binário).
-  - O número seguinte a este prefixo é expresso em base 10 (decimal).
-  - O número seguinte a este prefixo é expresso em base 8 (octal).
+  - Autenticar transações
+  - Criptografar chaves privadas
+  - Criar endereços Bitcoin
 explanation: |
-  O prefixo 0x indica que o número seguinte a ele é expresso em base 16 (hexadecimal).
-reviewed: false
+  O PBKDF2 é usado para derivar uma semente a partir de uma frase mnemônica e uma senha opcional.

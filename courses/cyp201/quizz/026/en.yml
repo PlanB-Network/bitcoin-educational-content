@@ -1,9 +1,9 @@
-question: Why is it important to never reuse a nonce in the ECDSA algorithm?
-answer: Reusing a nonce compromises security and can expose the private key.
+question: What is the starting point for calculating an ECDSA signature?
+answer: The message hash
 wrong_answers:
-  - Reusing a nonce slows down performance.
-  - Reusing a nonce makes the signatures longer.
-  - Reusing a nonce increases the size of the public key.
+  - The public key
+  - A fixed nonce
+  - A custom elliptical curve
 explanation: |
-  Reusing a nonce in ECDSA can allow an attacker to discover the private key, compromising security.
+  An ECDSA signature starts with calculating the hash of the message to be signed, often with SHA256.
 reviewed: false

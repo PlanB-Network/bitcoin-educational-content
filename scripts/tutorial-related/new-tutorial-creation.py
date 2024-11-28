@@ -437,7 +437,7 @@ ctk.CTkEntry(root, textvariable=contributor_id_var, width=field_width).grid(row=
 ctk.CTkLabel(root, text="PBN professor's ID:").grid(row=10, column=0, sticky='w', **padding)
 ctk.CTkEntry(root, textvariable=professor_id_var, width=field_width).grid(row=10, column=1, columnspan=3, sticky='w', **padding)
 
-button_frame = ctk.CTkFrame(root)
+button_frame = ctk.CTkFrame(root, fg_color="transparent", border_width=0)
 button_frame.grid(row=11, column=0, columnspan=4, pady=20)
 
 create_button = ctk.CTkButton(button_frame, text="Create Tutorial", command=create_tutorial)

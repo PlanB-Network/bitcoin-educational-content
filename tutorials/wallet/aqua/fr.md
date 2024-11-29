@@ -16,7 +16,7 @@ Dans ce tutoriel, nous allons découvrir comment utiliser les nombreuses fonctio
 
 Le protocole Bitcoin présente des limitations techniques intentionnelles qui permettent de maintenir la décentralisation du réseau et d'assurer une distribution de la sécurité parmi tous les utilisateurs. Cependant, ces limites peuvent parfois frustrer les utilisateurs, notamment lors de congestions dues à un volume élevé de transactions simultanées. Le débat sur la scalabilité de Bitcoin a longtemps divisé la communauté, en particulier lors de la Blocksize War. Depuis cet épisode, il est largement reconnu au sein de la communauté Bitcoin que l'évolutivité doit être assurée par des solutions off-chain, sur des systèmes de seconde couche. Parmi ces solutions, il y a les sidechains, qui sont encore relativement méconnues et peu utilisées comparativement à d'autres systèmes comme le Lightning Network.
 
-Une sidechain est une blockchain indépendante qui fonctionne en parallèle de la blockchain principale de Bitcoin. Elle utilise le bitcoin comme unité de compte grâce à un mécanisme appelé "two-way peg". Ce système permet de verrouiller des bitcoins sur la chaîne principale afin de reproduire leur valeur sur la sidechain, où ils circulent sous forme de tokens adossés aux bitcoins d'origine. Ces tokens conservent normalement une parité de valeur avec les bitcoins verrouillés sur la chaîne principale, et le processus peut être inversé pour récupérer les fonds sur Bitcoin.
+Une sidechain est une blockchain indépendante qui fonctionne en parallèle de la blockchain principale de Bitcoin. Elle utilise le bitcoin comme unité de compte grâce à un mécanisme appelé "*two-way peg*". Ce système permet de verrouiller des bitcoins sur la chaîne principale afin de reproduire leur valeur sur la sidechain, où ils circulent sous forme de tokens adossés aux bitcoins d'origine. Ces tokens conservent normalement une parité de valeur avec les bitcoins verrouillés sur la chaîne principale, et le processus peut être inversé pour récupérer les fonds sur Bitcoin.
 
 L'objectif des sidechains est d'offrir des fonctionnalités supplémentaires ou des améliorations techniques, comme des transactions plus rapides, des frais réduits ou la prise en charge de contrats intelligents. Ces innovations ne peuvent pas toujours être mises en œuvre directement sur la blockchain de Bitcoin sans en compromettre la décentralisation ou la sécurité. Les sidechains permettent donc de tester et d’explorer de nouvelles solutions tout en préservant l’intégrité de Bitcoin. Cependant, ces protocoles nécessitent souvent des compromis, notamment en matière de décentralisation et de sécurité, en fonction du modèle de gouvernance et du mécanisme de consensus choisi.
 
@@ -42,13 +42,13 @@ Pour les utilisateurs Android, vous avez aussi la possibilité d'installer l'app
 
 05
 
-Lancez l'application, puis cochez la case "I have read and agreed to the Terms of Service & Privacy Policy".
+Lancez l'application, puis cochez la case "*I have read and agreed to the Terms of Service & Privacy Policy*".
 
 06
 
 ## Créer son portefeuille sur Aqua
 
-Cliquez sur le bouton "Create Wallet".
+Cliquez sur le bouton "*Create Wallet*".
 
 07
 
@@ -64,7 +64,7 @@ Pour ce faire, cliquez sur le menu des paramètres.
 
 09
 
-Puis cliquez sur "View Seed Phrase". Réalisez la sauvegarde physique de cette phrase de 12 mots.
+Puis cliquez sur "*View Seed Phrase*". Réalisez la sauvegarde physique de cette phrase de 12 mots.
 
 10
 
@@ -78,7 +78,7 @@ https://planb.network/tutorials/wallet/recovery-test
 
 ## Recevoir des bitcoins sur Aqua
 
-Maintenant que votre portefeuille est configuré, vous êtes prêt à recevoir vos premiers sats ! Cliquez simplement sur le bouton "Receive" dans le menu "Wallet".
+Maintenant que votre portefeuille est configuré, vous êtes prêt à recevoir vos premiers sats ! Cliquez simplement sur le bouton "*Receive*" dans le menu "*Wallet*".
 
 12
 
@@ -98,7 +98,7 @@ Si vous préférez recevoir des fonds via Lightning, vous devrez d'abord spécif
 
 16
 
-Ensuite, cliquez sur "Generate Invoice".
+Ensuite, cliquez sur "*Generate Invoice*".
 
 17
 
@@ -110,7 +110,7 @@ Personnellement, je vais commencer en envoyant des bitcoins via Lightning vers A
 
 19
 
-Pour suivre la progression du swap, retournez à l'accueil de votre portefeuille et cliquez sur le compte "L2 Bitcoin", qui répertorie les transactions Lightning (via swap) et Liquid.
+Pour suivre la progression du swap, retournez à l'accueil de votre portefeuille et cliquez sur le compte "*L2 Bitcoin*", qui répertorie les transactions Lightning (via swap) et Liquid.
 
 20
 
@@ -120,19 +120,19 @@ Ici, vous pourrez visualiser votre transaction ainsi que votre solde en L-BTC.
 
 ## Swap des bitcoins avec Aqua
 
-Maintenant que vous disposez d'actifs dans votre portefeuille Aqua, vous avez la possibilité de les swap directement depuis l'application, soit pour les transférer sur la blockchain principale de Bitcoin, soit sur Liquid. Vous pouvez aussi convertir vos bitcoins en stablecoin USDT (ou autres). Pour cela, accédez au menu "Marketplace".
+Maintenant que vous disposez d'actifs dans votre portefeuille Aqua, vous avez la possibilité de les swap directement depuis l'application, soit pour les transférer sur la blockchain principale de Bitcoin, soit sur Liquid. Vous pouvez aussi convertir vos bitcoins en stablecoin USDT (ou autres). Pour cela, accédez au menu "*Marketplace*".
 
 22
 
-Cliquez sur "Swaps".
+Cliquez sur "*Swaps*".
 
 23
 
-Dans la case "Transfer from", choisissez l'actif que vous souhaitez échanger. Actuellement, je possède uniquement du L-BTC, donc c'est ce que je sélectionne.
+Dans la case "*Transfer from*", choisissez l'actif que vous souhaitez échanger. Actuellement, je possède uniquement du L-BTC, donc c'est ce que je sélectionne.
 
 24
 
-Dans la case "Transfer to", choisissez l'actif cible de votre swap. Pour ma part, j'ai opté pour de l'USDT sur le réseau Liquid.
+Dans la case "*Transfer to*", choisissez l'actif cible de votre swap. Pour ma part, j'ai opté pour de l'USDT sur le réseau Liquid.
 
 25
 
@@ -140,11 +140,11 @@ Saisissez le montant que vous désirez convertir.
 
 26
 
-Confirmez en cliquant sur "Continue".
+Confirmez en cliquant sur "*Continue*".
 
 27
 
-Assurez-vous que les paramètres du swap vous conviennent, puis confirmez en faisant glisser le bouton "Swap" en bas de l'écran.
+Assurez-vous que les paramètres du swap vous conviennent, puis confirmez en faisant glisser le bouton "*Swap*" en bas de l'écran.
 
 28
 
@@ -158,7 +158,7 @@ Si l'on revient sur notre portefeuille, on peut voir que l'on a maintenant des U
 
 ## Envoyer des bitcoins avec Aqua
 
-Maintenant que vous avez des bitcoins sur votre portefeuille Aqua, vous avez la possibilité de les envoyer. Cliquez sur le bouton "Send".
+Maintenant que vous avez des bitcoins sur votre portefeuille Aqua, vous avez la possibilité de les envoyer. Cliquez sur le bouton "*Send*".
 
 31
 
@@ -166,15 +166,15 @@ Choisissez l'actif que vous voulez envoyer ou sélectionnez le réseau pour effe
 
 32
 
-Ensuite, entrez les informations nécessaires pour l'envoi du paiement : pour des bitcoins onchain ou Liquid, il faut entrer une adresse de réception ; pour Lightning, une invoice est nécessaire. Vous pouvez coller ces informations directement dans le champ prévu ou utiliser l'icône de QR code pour ouvrir votre appareil photo et scanner l'adresse ou l'invoice. Cliquez ensuite sur "Continue".
+Ensuite, entrez les informations nécessaires pour l'envoi du paiement : pour des bitcoins onchain ou Liquid, il faut entrer une adresse de réception ; pour Lightning, une invoice est nécessaire. Vous pouvez coller ces informations directement dans le champ prévu ou utiliser l'icône de QR code pour ouvrir votre appareil photo et scanner l'adresse ou l'invoice. Cliquez ensuite sur "*Continue*".
 
 33
 
-Cliquez à nouveau sur "Continue" si toutes les informations vous semblent correctes.
+Cliquez à nouveau sur "*Continue*" si toutes les informations vous semblent correctes.
 
 34
 
-Aqua vous présente alors un résumé de la transaction. Assurez-vous que toutes les informations sont correctes, notamment l'adresse de destination, les frais, et le montant. Pour confirmer la transaction, faites glisser le bouton "Slide to send" situé en bas de l'écran.
+Aqua vous présente alors un résumé de la transaction. Assurez-vous que toutes les informations sont correctes, notamment l'adresse de destination, les frais, et le montant. Pour confirmer la transaction, faites glisser le bouton "*Slide to send*" situé en bas de l'écran.
 
 35
 

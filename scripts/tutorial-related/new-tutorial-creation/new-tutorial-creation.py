@@ -179,6 +179,11 @@ def on_closing():
     save_settings()
     root.destroy()
 
+def toggle_theme():
+    current_mode = ctk.get_appearance_mode()
+    new_mode = "Light" if current_mode == "Dark" else "Dark"
+    ctk.set_appearance_mode(new_mode)
+
 sections = {
     "exchange": ["centralized", "peer-to-peer"],
     "merchant": ["merchant"],
@@ -448,6 +453,9 @@ clear_button.pack(side='left', padx=10)
 
 cancel_button = ctk.CTkButton(button_frame, text="Close", command=on_closing)
 cancel_button.pack(side='left', padx=10)
+
+theme_switch = ctk.CTkButton(button_frame, text="Toggle Theme", command=toggle_theme)
+theme_switch.pack(side='left', padx=10)
 
 root.protocol("WM_DELETE_WINDOW", on_closing)
 

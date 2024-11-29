@@ -38,9 +38,11 @@ python new-tutorial-creation.py
 	- Choose 2 or 3 tags.
 	- Provide your GitHub ID and your internal professor ID (the two words from the BIP39 list).
 
-4. Click **"Create Tutorial"** to generate the folder structure and files.
+4. Click **"*Create Tutorial*"** to generate the folder structure and files.
 
 Upon closing, the software will automatically generate a JSON file that saves your local path, language, and IDs, so you won’t have to enter them manually each time you use it. To modify these settings, click the "Clear" button.
+
+The GUI uses the default light and blue theme of CustomTkinter. You can switch to dark mode by clicking the "*Toggle Theme*" button.
 
 ## Files Generated
 
@@ -54,8 +56,3 @@ local_tutorials_path/
         └── [language_code].md
 ```
 
-## Notes
-
-The GUI uses the default "blue" theme from `CustomTkinter`
-
-La GUI utilise le thème claire et bleu par défaut de CustomTkinter. Si vous le souhaitez

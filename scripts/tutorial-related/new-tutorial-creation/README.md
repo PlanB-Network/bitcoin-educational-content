@@ -30,7 +30,7 @@ python new-tutorial-creation.py
 ```
 
 3. Fill in the fields in the GUI:
-    - Your local path to the `/tutorials` folder (`.../bitcoin-educational-content/tutorials/`).
+	- Your local path to the `/tutorials` folder (`.../bitcoin-educational-content/tutorials/`).
 	- Select the language in which you will write the tutorial. If it’s in English, French, Italian, or Spanish, select the "*Main languages*" button. For any other language, select "*Other languages*".
 	- Choose the category, subcategory, and difficulty level of your tutorial.  
 	- Enter the folder name for your tutorial. Note: this folder name will also become your tutorial's URL path, so use only lowercase letters, numbers, and hyphens. Avoid using spaces.

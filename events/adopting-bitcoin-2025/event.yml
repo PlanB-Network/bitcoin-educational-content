@@ -1,0 +1,24 @@
+- start_date: 2025-11-14 16:00:00
+  end_date: 2025-11-15 23:00:00
+  timezone: America/El_Salvador
+  address_line_1: Antiguo Cuscatlan, El Salvador
+  address_line_2:
+  address_line_3:
+  name: Adopting Bitcoin 2025
+  builder: Adopting Bitcoin
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption.
+  language:
+    - en
+    - es
+  links:
+    website: https://sv24.adoptingbitcoin.org/
+    replay_url:
+    live_url:
+  tags:
+    - adoption
+    - innovation
+    - case-studies

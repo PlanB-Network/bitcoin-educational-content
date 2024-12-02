@@ -1,8 +1,9 @@
-- start_date: 2024-12-09 
-  end_date: 2024-12-10
+- start_date: 2024-12-09 06:00:00
+  end_date: 2024-12-10 14:00:00
+  timezone: Asia/Dubai
   address_line_1: Abu Dhabi, United Arab Emirates
-  address_line_2: 
-  address_line_3: 
+  address_line_2:
+  address_line_3:
   name: Bitcoin Mena 2024
   builder: The Bitcoin Conference
   type: conference
@@ -10,14 +11,12 @@
   book_in_person: false
   price_dollars: 0
   description: The bitcoin Conference is coming to Abu dhabi
-  language: 
+  language:
     - en
   links:
     website: https://b.tc/conference/mena
     replay_url:
-    live_url :
-  tags: 
+    live_url:
+  tags:
     - bitcoiner
     - General
-
-

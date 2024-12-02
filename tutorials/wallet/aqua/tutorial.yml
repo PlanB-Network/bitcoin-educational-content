@@ -1,0 +1,26 @@
+id: 8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+builder: JAN3
+
+tags:
+  - lightning
+  - sidechains
+  - wallets
+
+category: mobile
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-11-29
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

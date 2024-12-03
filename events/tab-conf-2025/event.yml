@@ -1,0 +1,21 @@
+- start_date: 2025-10-13
+  end_date: 2025-10-16
+  address_line_1: Atalanta, USA
+  address_line_2:
+  address_line_3:
+  name: A Technical Bitcoin Conference
+  builder: TABConf
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: TABConf's mission is to create a forum for protocol and application developers to collaborate, debate, and innovate on Bitcoin.
+  language:
+    - en
+  links:
+    website: https://6.tabconf.com/
+    replay_url:
+    live_url:
+  tags:
+    - bitcoiner
+    - development

@@ -36,7 +36,11 @@ Pour les utilisateurs avancés, Alby Hub peut être déployé sur un serveur per
 
 Ce tutoriel se concentre principalement sur l'interface, qui sera la même quelle que soit l'option choisie. Nous allons également voir comment déployer Alby Hub avec l'option du cloud payant, puis avec l'option du node-in-box (Umbrel ou Start9).
 
+02
+
 Pour une installation locale sur votre PC, [téléchargez et installez le logiciel selon votre système d'exploitation](https://github.com/getAlby/hub/releases), puis suivez les mêmes instructions au niveau de l'interface.
+
+03
 
 ## Créer un compte Alby
 

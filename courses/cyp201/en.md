@@ -69,7 +69,7 @@ The first type of cryptographic algorithms used on Bitcoin encompasses hash func
 Hashing is a process that transforms information of arbitrary length into another piece of information of fixed length through a cryptographic hash function. In other words, a hash function takes an input of any size and converts it into a fixed-size fingerprint, called a "hash".
 The hash can also sometimes be referred to as "digest", "condensate", "condensed", or "hashed".
 
-For example, the SHA256 hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_Plan ₿_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
+For example, the SHA256 hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_PlanB_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -90,7 +90,7 @@ These cryptographic hash functions have several essential characteristics that m
 
 Irreversibility means that it is easy to calculate the hash from the input information, but the inverse calculation, that is, finding the input from the hash, is practically impossible. This property makes hash functions perfect for creating unique digital fingerprints without compromising the original information. This characteristic is often referred to as a one-way function or a "_trap door function_".
 
-In the given example, obtaining the hash `24f1b9…` by knowing the input "_Plan ₿_" is simple and quick. However, finding the message "_Plan ₿_" by only knowing `24f1b9…` is impossible.
+In the given example, obtaining the hash `24f1b9…` by knowing the input "_PlanB_" is simple and quick. However, finding the message "_PlanB_" by only knowing `24f1b9…` is impossible.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -100,7 +100,7 @@ Therefore, it is impossible to find a preimage $m$ for a hash $h$ such that $h =
 
 The second characteristic is tamper resistance, also known as the **avalanche effect**. This characteristic is observed in a hash function if a small change in the input message results in a radical change in the output hash.
 
-If we go back to our example with the input "_Plan ₿_" and the SHA256 function, we have seen that the generated hash is as follows:
+If we go back to our example with the input "_PlanB_" and the SHA256 function, we have seen that the generated hash is as follows:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2407,3 +2407,4 @@ https://planb.network/courses/his201
 #### Discover the evolution of freedom through the ages with
 https://planb.network/courses/phi201
 $$
+

@@ -67,7 +67,7 @@ Die erste Art von kryptografischen Algorithmen, die bei Bitcoin verwendet werden
 Hashing ist ein Prozess, der Informationen beliebiger Länge in ein anderes Stück Information fester Länge durch eine kryptografische Hash-Funktion transformiert. Mit anderen Worten, eine Hash-Funktion nimmt eine Eingabe beliebiger Größe und wandelt sie in einen Fingerabdruck fester Größe um, der als "Hash" bezeichnet wird.
 Der Hash kann manchmal auch als "Digest", "Kondensat", "verdichtet" oder "gehasht" bezeichnet werden.
 
-Zum Beispiel erzeugt die SHA256-Hash-Funktion einen Hash fester Länge von 256 Bit. Wenn wir also die Eingabe "_Plan ₿_", eine Nachricht beliebiger Länge, verwenden, wird der erzeugte Hash der folgende 256-Bit-Fingerabdruck sein:
+Zum Beispiel erzeugt die SHA256-Hash-Funktion einen Hash fester Länge von 256 Bit. Wenn wir also die Eingabe "_PlanB_", eine Nachricht beliebiger Länge, verwenden, wird der erzeugte Hash der folgende 256-Bit-Fingerabdruck sein:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Diese kryptografischen Hash-Funktionen haben mehrere wesentliche Eigenschaften, 
 
 Unumkehrbarkeit bedeutet, dass es einfach ist, den Hash aus den Eingangsinformationen zu berechnen, aber die umgekehrte Berechnung, also das Finden der Eingabe aus dem Hash, praktisch unmöglich ist. Diese Eigenschaft macht Hash-Funktionen perfekt für die Erstellung einzigartiger digitaler Fingerabdrücke, ohne die ursprünglichen Informationen zu kompromittieren. Diese Eigenschaft wird oft als Einwegfunktion oder "_Falltürfunktion_" bezeichnet.
 
-Im gegebenen Beispiel ist es einfach und schnell, den Hash `24f1b9…` zu erhalten, wenn man die Eingabe "_Plan ₿_" kennt. Jedoch ist es unmöglich, die Nachricht "_Plan ₿_" zu finden, wenn man nur `24f1b9…` kennt.
+Im gegebenen Beispiel ist es einfach und schnell, den Hash `24f1b9…` zu erhalten, wenn man die Eingabe "_PlanB_" kennt. Jedoch ist es unmöglich, die Nachricht "_PlanB_" zu finden, wenn man nur `24f1b9…` kennt.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Daher ist es unmöglich, ein Preimage $m$ für einen Hash $h$ zu finden, so dass
 #### 2. Manipulationssicherheit (Lawineneffekt)
 
 Das zweite Merkmal ist die Manipulationssicherheit, auch bekannt als der **Lawineneffekt**. Dieses Merkmal wird bei einer Hash-Funktion beobachtet, wenn eine kleine Änderung in der Eingangsnachricht eine radikale Änderung im Ausgabe-Hash bewirkt.
-Wenn wir zu unserem Beispiel mit der Eingabe "_Plan ₿_" und der SHA256-Funktion zurückkehren, haben wir gesehen, dass der generierte Hash wie folgt ist:
+Wenn wir zu unserem Beispiel mit der Eingabe "_PlanB_" und der SHA256-Funktion zurückkehren, haben wir gesehen, dass der generierte Hash wie folgt ist:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2274,3 +2274,4 @@ https://planb.network/courses/his201
 #### Entdecken Sie die Entwicklung der Freiheit im Laufe der Zeit mit
 
 https://planb.network/courses/phi201
+

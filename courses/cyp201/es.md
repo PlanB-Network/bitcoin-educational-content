@@ -67,7 +67,7 @@ El primer tipo de algoritmos criptográficos utilizados en Bitcoin abarca las fu
 El hashing es un proceso que transforma información de longitud arbitraria en otra pieza de información de longitud fija a través de una función hash criptográfica. En otras palabras, una función hash toma una entrada de cualquier tamaño y la convierte en una huella digital de tamaño fijo, llamada "hash".
 El hash también puede ser referido a veces como "digest", "condensado", o "hasheado".
 
-Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256 bits. Así, si usamos la entrada "_Plan ₿_", un mensaje de longitud arbitraria, el hash generado será la siguiente huella digital de 256 bits:
+Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256 bits. Así, si usamos la entrada "_PlanB_", un mensaje de longitud arbitraria, el hash generado será la siguiente huella digital de 256 bits:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Estas funciones hash criptográficas tienen varias características esenciales q
 
 La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero el cálculo inverso, es decir, encontrar la entrada a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original. Esta característica se conoce a menudo como una función unidireccional o una "_función de trampa_".
 
-En el ejemplo dado, obtener el hash `24f1b9…` sabiendo la entrada "_Plan ₿_" es simple y rápido. Sin embargo, encontrar el mensaje "_Plan ₿_" solo sabiendo `24f1b9…` es imposible.
+En el ejemplo dado, obtener el hash `24f1b9…` sabiendo la entrada "_PlanB_" es simple y rápido. Sin embargo, encontrar el mensaje "_PlanB_" solo sabiendo `24f1b9…` es imposible.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Por lo tanto, es imposible encontrar una preimagen $m$ para un hash $h$ tal que 
 #### 2. Resistencia a la manipulación (efecto avalancha)
 
 La segunda característica es la resistencia a la manipulación, también conocida como el **efecto avalancha**. Esta característica se observa en una función hash si un pequeño cambio en el mensaje de entrada resulta en un cambio radical en el hash de salida.
-Si volvemos a nuestro ejemplo con la entrada "_Plan ₿_" y la función SHA256, hemos visto que el hash generado es el siguiente:
+Si volvemos a nuestro ejemplo con la entrada "_PlanB_" y la función SHA256, hemos visto que el hash generado es el siguiente:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2322,3 +2322,4 @@ https://planb.network/courses/his201
 #### Descubra la evolución de la libertad a través de las edades con
 
 https://planb.network/courses/phi201
+

@@ -67,7 +67,7 @@ Ensimmäinen Bitcoinissa käytetty kryptografisten algoritmien tyyppi kattaa hä
 Häsäys on prosessi, joka muuntaa mielivaltaisen pituisen tiedon toiseksi, kiinteän pituiseksi tiedoksi kryptografisen häsäfunktion avulla. Toisin sanoen, häsäfunktio ottaa syötteenä minkä tahansa kokoisen tiedon ja muuntaa sen kiinteän kokoiseksi sormenjäljeksi, jota kutsutaan "häsäykseksi".
 Häsäystä voidaan joskus kutsua myös "digestiksi", "tiivisteeksi", "tiivistetyksi" tai "häsätyksi".
 
-Esimerkiksi SHA256-häsäfunktio tuottaa kiinteän pituisen, 256-bittisen häsäyksen. Jos käytämme syötteenä "_Plan ₿_", mielivaltaisen pituisen viestin, tuotettu häsäys on seuraava 256-bittinen sormenjälki:
+Esimerkiksi SHA256-häsäfunktio tuottaa kiinteän pituisen, 256-bittisen häsäyksen. Jos käytämme syötteenä "_PlanB_", mielivaltaisen pituisen viestin, tuotettu häsäys on seuraava 256-bittinen sormenjälki:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Näillä kryptografisilla häsäfunktioilla on useita olennaisia ominaisuuksia, 
 
 Palautumattomuus tarkoittaa, että häsäyksen laskeminen syötteestä on helppoa, mutta käänteinen laskenta, eli syötteen löytäminen häsäyksestä, on käytännössä mahdotonta. Tämä ominaisuus tekee häsäfunktioista täydellisiä ainutlaatuisten digitaalisten sormenjälkien luomiseen ilman alkuperäisen tiedon vaarantamista. Tätä ominaisuutta kutsutaan usein yksisuuntaiseksi funktioksi tai "_ansaovifunktioksi_".
 
-Annetussa esimerkissä häsäyksen `24f1b9…` saaminen tietäen syötteen "_Plan ₿_" on yksinkertaista ja nopeaa. Kuitenkin viestin "_Plan ₿_" löytäminen tietäen vain `24f1b9…` on mahdotonta.
+Annetussa esimerkissä häsäyksen `24f1b9…` saaminen tietäen syötteen "_PlanB_" on yksinkertaista ja nopeaa. Kuitenkin viestin "_PlanB_" löytäminen tietäen vain `24f1b9…` on mahdotonta.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Siksi on mahdotonta löytää esikuvaa $m$ häsäykselle $h$ siten, että $h = \
 #### 2. Muutoksenkestävyys (lumivyöryvaikutus)
 
 Toisen ominaisuuden nimi on manipuloinnin kestävyys, joka tunnetaan myös **lumivyöryefektinä**. Tämä ominaisuus havaitaan hajautusfunktiossa, jos pieni muutos syötteen viestissä johtaa radikaaliin muutokseen tulosteessa olevassa hajautusarvossa.
-Jos palaamme esimerkkiimme syötteellä "_Plan ₿_" ja SHA256-funktiolla, olemme nähneet, että tuotettu hajautusarvo on seuraava:
+Jos palaamme esimerkkiimme syötteellä "_PlanB_" ja SHA256-funktiolla, olemme nähneet, että tuotettu hajautusarvo on seuraava:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2215,3 +2215,4 @@ https://planb.network/courses/his201
 #### Tutustu vapauden kehitykseen läpi aikojen
 
 https://planb.network/courses/phi201
+

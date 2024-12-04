@@ -67,7 +67,7 @@ Den første typen kryptografiske algoritmer brukt på Bitcoin omfatter hashfunks
 Hashing er en prosess som transformerer informasjon av vilkårlig lengde til et annet stykke informasjon av fast lengde gjennom en kryptografisk hashfunksjon. Med andre ord tar en hashfunksjon en inndata av hvilken som helst størrelse og konverterer den til et fingeravtrykk av fast størrelse, kalt en "hash".
 Hashen kan også noen ganger refereres til som "digest", "condensate", "condensed", eller "hashed".
 
-For eksempel produserer SHA256-hashfunksjonen en hash av en fast lengde på 256 bits. Så, hvis vi bruker inndataen "_Plan ₿_", en melding av vilkårlig lengde, vil den genererte hashen være følgende 256-bits fingeravtrykk:
+For eksempel produserer SHA256-hashfunksjonen en hash av en fast lengde på 256 bits. Så, hvis vi bruker inndataen "_PlanB_", en melding av vilkårlig lengde, vil den genererte hashen være følgende 256-bits fingeravtrykk:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Disse kryptografiske hashfunksjonene har flere essensielle egenskaper som gjør 
 
 Irreversibilitet betyr at det er enkelt å beregne hashen fra inndatainformasjonen, men den inverse beregningen, det vil si å finne inndataen fra hashen, er praktisk talt umulig. Denne egenskapen gjør hashfunksjoner perfekte for å skape unike digitale fingeravtrykk uten å kompromittere den opprinnelige informasjonen. Denne karakteristikken omtales ofte som en enveisfunksjon eller en "_felle dør-funksjon_".
 
-I det gitte eksemplet er det enkelt og raskt å oppnå hashen `24f1b9…` ved å kjenne inndataen "_Plan ₿_". Imidlertid er det umulig å finne meldingen "_Plan ₿_" ved kun å kjenne `24f1b9…`.
+I det gitte eksemplet er det enkelt og raskt å oppnå hashen `24f1b9…` ved å kjenne inndataen "_PlanB_". Imidlertid er det umulig å finne meldingen "_PlanB_" ved kun å kjenne `24f1b9…`.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Derfor er det umulig å finne et preimage $m$ for en hash $h$ slik at $h = \text
 #### 2. Manipulasjonsmotstand (snøskredseffekt)
 
 Det andre kjennetegnet er motstandsdyktighet mot manipulering, også kjent som **snøballeffekten**. Dette kjennetegnet observeres i en hash-funksjon hvis en liten endring i inngangsmeldingen resulterer i en radikal endring i utgangshashen.
-Hvis vi går tilbake til eksemplet vårt med inngangen "_Plan ₿_" og SHA256-funksjonen, har vi sett at den genererte hashen er som følger:
+Hvis vi går tilbake til eksemplet vårt med inngangen "_PlanB_" og SHA256-funksjonen, har vi sett at den genererte hashen er som følger:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2219,3 +2219,4 @@ https://planb.network/courses/his201
 #### Oppdag frihetens utvikling gjennom tidene med
 
 https://planb.network/courses/phi201
+

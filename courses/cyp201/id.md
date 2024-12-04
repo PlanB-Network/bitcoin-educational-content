@@ -67,7 +67,7 @@ Jenis algoritma kriptografi pertama yang digunakan pada Bitcoin mencakup fungsi 
 Hashing adalah proses yang mengubah informasi dengan panjang sembarang menjadi potongan informasi dengan panjang tetap melalui fungsi hash kriptografi. Dengan kata lain, fungsi hash mengambil input dengan ukuran berapa pun dan mengubahnya menjadi sidik jari berukuran tetap, yang disebut "hash".
 Hash juga terkadang dapat disebut sebagai "digest", "condensate", "condensed", atau "hashed".
 
-Sebagai contoh, fungsi hash SHA256 menghasilkan hash dengan panjang tetap 256 bit. Jadi, jika kita menggunakan input "_Plan ₿_", sebuah pesan dengan panjang sembarang, hash yang dihasilkan akan menjadi sidik jari 256-bit berikut:
+Sebagai contoh, fungsi hash SHA256 menghasilkan hash dengan panjang tetap 256 bit. Jadi, jika kita menggunakan input "_PlanB_", sebuah pesan dengan panjang sembarang, hash yang dihasilkan akan menjadi sidik jari 256-bit berikut:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Fungsi hash kriptografi ini memiliki beberapa karakteristik esensial yang membua
 
 Irreversibilitas berarti mudah untuk menghitung hash dari informasi input, tetapi perhitungan terbalik, yaitu, menemukan input dari hash, praktis tidak mungkin. Sifat ini membuat fungsi hash sempurna untuk menciptakan sidik jari digital unik tanpa mengompromikan informasi asli. Karakteristik ini sering disebut sebagai fungsi satu arah atau "_fungsi pintu perangkap_".
 
-Dalam contoh yang diberikan, mendapatkan hash `24f1b9…` dengan mengetahui input "_Plan ₿_" adalah hal yang sederhana dan cepat. Namun, menemukan pesan "_Plan ₿_" hanya dengan mengetahui `24f1b9…` adalah hal yang mustahil.
+Dalam contoh yang diberikan, mendapatkan hash `24f1b9…` dengan mengetahui input "_PlanB_" adalah hal yang sederhana dan cepat. Namun, menemukan pesan "_PlanB_" hanya dengan mengetahui `24f1b9…` adalah hal yang mustahil.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -98,7 +98,7 @@ Oleh karena itu, tidak mungkin menemukan preimage $m$ untuk hash $h$ sedemikian 
 
 Karakteristik kedua adalah ketahanan terhadap perubahan, juga dikenal sebagai **efek longsoran**. Karakteristik ini diamati pada fungsi hash jika perubahan kecil pada pesan masukan menghasilkan perubahan radikal pada hash keluaran.
 
-Jika kita kembali ke contoh kita dengan masukan "_Plan ₿_" dan fungsi SHA256, kita telah melihat bahwa hash yang dihasilkan adalah sebagai berikut:
+Jika kita kembali ke contoh kita dengan masukan "_PlanB_" dan fungsi SHA256, kita telah melihat bahwa hash yang dihasilkan adalah sebagai berikut:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2221,3 +2221,4 @@ https://planb.network/courses/his201
 #### Temukan evolusi kebebasan sepanjang masa dengan
 
 https://planb.network/courses/phi201
+

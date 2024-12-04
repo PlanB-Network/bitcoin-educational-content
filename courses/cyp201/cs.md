@@ -66,7 +66,7 @@ První typ kryptografických algoritmů používaných na Bitcoinu zahrnuje haš
 Hašování je proces, který transformuje informace libovolné délky na jinou informaci pevné délky prostřednictvím kryptografické hašovací funkce. Jinými slovy, hašovací funkce přijme vstup jakékoli velikosti a převede jej na otisk pevné velikosti, nazývaný "hash".
 Hash může být také někdy označován jako "digest", "condensate", "condensed" nebo "hashed".
 
-Například hašovací funkce SHA256 produkuje hash pevné délky 256 bitů. Takže pokud použijeme vstup "_Plan ₿_", zprávu libovolné délky, vygenerovaný hash bude následující 256bitový otisk:
+Například hašovací funkce SHA256 produkuje hash pevné délky 256 bitů. Takže pokud použijeme vstup "_PlanB_", zprávu libovolné délky, vygenerovaný hash bude následující 256bitový otisk:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -87,7 +87,7 @@ Tyto kryptografické hašovací funkce mají několik zásadních charakteristik
 
 Nezvratnost znamená, že je snadné vypočítat hash z vstupních informací, ale opačný výpočet, tj. nalezení vstupu z hash, je prakticky nemožné. Tato vlastnost činí hašovací funkce dokonalými pro vytváření unikátních digitálních otisků bez ohrožení původních informací. Tato charakteristika je často označována jako jednosměrná funkce nebo "_pastová funkce_".
 
-V daném příkladu, získání hash `24f1b9…` znalostí vstupu "_Plan ₿_" je jednoduché a rychlé. Nicméně, nalezení zprávy "_Plan ₿_" pouze znalostí `24f1b9…` je nemožné.
+V daném příkladu, získání hash `24f1b9…` znalostí vstupu "_PlanB_" je jednoduché a rychlé. Nicméně, nalezení zprávy "_PlanB_" pouze znalostí `24f1b9…` je nemožné.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -96,7 +96,7 @@ Proto je nemožné najít preimage $m$ pro hash $h$ tak, že $h = \text{HASH}(m)
 #### 2. Odolnost proti manipulaci (lavina efekt)
 
 Druhá charakteristika je odolnost proti manipulaci, známá také jako **lavina efekt**. Tato charakteristika je pozorována u hašovací funkce, pokud malá změna ve vstupní zprávě způsobí radikální změnu ve výstupním haši.
-Pokud se vrátíme k našemu příkladu se vstupem "_Plan ₿_" a funkcí SHA256, viděli jsme, že generovaný haš je následující:
+Pokud se vrátíme k našemu příkladu se vstupem "_PlanB_" a funkcí SHA256, viděli jsme, že generovaný haš je následující:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2222,3 +2222,4 @@ https://planb.network/courses/his201
 #### Objevte vývoj svobody napříč věky s
 
 https://planb.network/courses/phi201
+

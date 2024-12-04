@@ -67,7 +67,7 @@ O primeiro tipo de algoritmos criptográficos usados no Bitcoin engloba as funç
 Hashing é um processo que transforma informações de comprimento arbitrário em outra peça de informação de comprimento fixo por meio de uma função de hash criptográfica. Em outras palavras, uma função de hash recebe uma entrada de qualquer tamanho e a converte em uma impressão digital de tamanho fixo, chamada de "hash".
 O hash também pode ser referido às vezes como "digest", "condensado", ou "hashed".
 
-Por exemplo, a função de hash SHA256 produz um hash de comprimento fixo de 256 bits. Assim, se usarmos a entrada "_Plan ₿_", uma mensagem de comprimento arbitrário, o hash gerado será a seguinte impressão digital de 256 bits:
+Por exemplo, a função de hash SHA256 produz um hash de comprimento fixo de 256 bits. Assim, se usarmos a entrada "_PlanB_", uma mensagem de comprimento arbitrário, o hash gerado será a seguinte impressão digital de 256 bits:
 
 ```txt
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Essas funções de hash criptográficas têm várias características essenciais
 
 Irreversibilidade significa que é fácil calcular o hash a partir da informação de entrada, mas o cálculo inverso, ou seja, encontrar a entrada a partir do hash, é praticamente impossível. Esta propriedade torna as funções de hash perfeitas para criar impressões digitais únicas sem comprometer a informação original. Esta característica é frequentemente referida como uma função unidirecional ou uma "_função de armadilha_".
 
-No exemplo dado, obter o hash `24f1b9…` sabendo a entrada "_Plan ₿_" é simples e rápido. No entanto, encontrar a mensagem "_Plan ₿_" apenas sabendo `24f1b9…` é impossível.
+No exemplo dado, obter o hash `24f1b9…` sabendo a entrada "_PlanB_" é simples e rápido. No entanto, encontrar a mensagem "_PlanB_" apenas sabendo `24f1b9…` é impossível.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Portanto, é impossível encontrar uma imagem prévia $m$ para um hash $h$ tal q
 #### 2. Resistência à adulteração (efeito avalanche)
 
 A segunda característica é a resistência à adulteração, também conhecida como **efeito avalanche**. Esta característica é observada em uma função de hash se uma pequena alteração na mensagem de entrada resulta em uma mudança radical no hash de saída.
-Se voltarmos ao nosso exemplo com a entrada "_Plan ₿_" e a função SHA256, vimos que o hash gerado é o seguinte:
+Se voltarmos ao nosso exemplo com a entrada "_PlanB_" e a função SHA256, vimos que o hash gerado é o seguinte:
 
 ```txt
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2316,3 +2316,4 @@ https://planb.network/courses/his201
 #### Descubra a evolução da liberdade através dos tempos com
 
 https://planb.network/courses/phi201
+

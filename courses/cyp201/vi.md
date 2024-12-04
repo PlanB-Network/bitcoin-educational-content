@@ -68,7 +68,7 @@ Loại thuật toán mật mã đầu tiên được sử dụng trên Bitcoin b
 Băm là quá trình biến đổi thông tin có độ dài tùy ý thành một mảnh thông tin có độ dài cố định thông qua một hàm băm mật mã. Nói cách khác, một hàm băm nhận đầu vào bất kỳ và chuyển đổi nó thành một dấu vân tay cố định, gọi là "băm".
 Băm cũng đôi khi được gọi là "digest", "condensate", "condensed", hoặc "hashed".
 
-Ví dụ, hàm băm SHA256 tạo ra một băm có độ dài cố định 256 bit. Vì vậy, nếu chúng ta sử dụng đầu vào "_Plan ₿_", một thông điệp có độ dài tùy ý, băm được tạo ra sẽ là dấu vân tay 256-bit sau đây:
+Ví dụ, hàm băm SHA256 tạo ra một băm có độ dài cố định 256 bit. Vì vậy, nếu chúng ta sử dụng đầu vào "_PlanB_", một thông điệp có độ dài tùy ý, băm được tạo ra sẽ là dấu vân tay 256-bit sau đây:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -89,7 +89,7 @@ Những hàm băm mật mã này có một số đặc điểm thiết yếu là
 
 Khả năng không thể đảo ngược có nghĩa là việc tính toán băm từ thông tin đầu vào là dễ dàng, nhưng phép tính ngược lại, tức là tìm thông tin đầu vào từ băm, là gần như không thể. Tính chất này làm cho hàm băm hoàn hảo cho việc tạo ra các dấu vân tay số duy nhất mà không làm lộ thông tin gốc. Đặc điểm này thường được gọi là một hàm một chiều hoặc "_hàm cửa bẫy_".
 
-Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "_Plan ₿_" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "_Plan ₿_" chỉ bằng cách biết `24f1b9…` là không thể.
+Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "_PlanB_" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "_PlanB_" chỉ bằng cách biết `24f1b9…` là không thể.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -98,7 +98,7 @@ Do đó, không thể tìm ra một ảnh trước $m$ cho một băm $h$ sao ch
 #### 2. Kháng thay đổi (hiệu ứng tuyết lở)
 
 Đặc điểm thứ hai là khả năng chống thay đổi, còn được biết đến với cái tên **hiệu ứng tuyết lở**. Đặc điểm này được quan sát thấy trong một hàm băm nếu một thay đổi nhỏ trong thông điệp đầu vào dẫn đến một sự thay đổi lớn trong kết quả băm đầu ra.
-Nếu quay lại ví dụ của chúng ta với đầu vào "_Plan ₿_" và hàm SHA256, chúng ta đã thấy rằng băm được tạo ra như sau:
+Nếu quay lại ví dụ của chúng ta với đầu vào "_PlanB_" và hàm SHA256, chúng ta đã thấy rằng băm được tạo ra như sau:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2239,3 +2239,4 @@ https://planb.network/courses/his201
 #### Khám phá sự phát triển của tự do qua các thời đại với
 https://planb.network/courses/phi201
 $$
+

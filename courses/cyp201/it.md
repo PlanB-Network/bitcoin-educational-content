@@ -66,7 +66,7 @@ Il primo tipo di algoritmi crittografici utilizzati su Bitcoin comprende le funz
 L'hashing è un processo che trasforma informazioni di lunghezza arbitraria in un'altra informazione di lunghezza fissa attraverso una funzione hash crittografica. In altre parole, una funzione hash prende un input di qualsiasi dimensione e lo converte in un'impronta digitale di dimensione fissa, chiamata "hash".
 L'hash può anche essere talvolta definito come "digest", "condensato", o "hashed".
 
-Ad esempio, la funzione hash SHA256 produce un hash di lunghezza fissa di 256 bit. Così, se usiamo l'input "_Plan ₿_", un messaggio di lunghezza arbitraria, l'hash generato sarà la seguente impronta digitale di 256 bit:
+Ad esempio, la funzione hash SHA256 produce un hash di lunghezza fissa di 256 bit. Così, se usiamo l'input "_PlanB_", un messaggio di lunghezza arbitraria, l'hash generato sarà la seguente impronta digitale di 256 bit:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -87,7 +87,7 @@ Queste funzioni hash crittografiche hanno diverse caratteristiche essenziali che
 
 L'irreversibilità significa che è facile calcolare l'hash dalle informazioni di input, ma il calcolo inverso, cioè trovare l'input dall'hash, è praticamente impossibile. Questa proprietà rende le funzioni hash perfette per creare impronte digitali uniche senza compromettere le informazioni originali. Questa caratteristica è spesso definita come una funzione unidirezionale o una "_funzione trappola_".
 
-Nell'esempio dato, ottenere l'hash `24f1b9…` conoscendo l'input "_Plan ₿_" è semplice e veloce. Tuttavia, trovare il messaggio "_Plan ₿_" conoscendo solo `24f1b9…` è impossibile.
+Nell'esempio dato, ottenere l'hash `24f1b9…` conoscendo l'input "_PlanB_" è semplice e veloce. Tuttavia, trovare il messaggio "_PlanB_" conoscendo solo `24f1b9…` è impossibile.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Pertanto, è impossibile trovare una preimmagine $m$ per un hash $h$ tale che $h
 
 La seconda caratteristica è la resistenza alla manomissione, nota anche come **effetto valanga**. Questa caratteristica si osserva in una funzione hash se un piccolo cambiamento nel messaggio di input comporta un radicale cambiamento nell'hash di output.
 
-Se torniamo al nostro esempio con l'input "_Plan ₿_" e la funzione SHA256, abbiamo visto che l'hash generato è il seguente:
+Se torniamo al nostro esempio con l'input "_PlanB_" e la funzione SHA256, abbiamo visto che l'hash generato è il seguente:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2241,3 +2241,4 @@ https://planb.network/courses/his201
 #### Scopri l'evoluzione della libertà attraverso le epoche con
 
 https://planb.network/courses/phi201
+

@@ -67,7 +67,7 @@ Esimest tüüpi krüptograafilised algoritmid, mida Bitcoinis kasutatakse, hõlm
 Hashimine on protsess, mis muundab suvalise pikkusega informatsiooni teiseks, fikseeritud pikkusega informatsiooniks läbi krüptograafilise hash-funktsiooni. Teisisõnu, hash-funktsioon võtab sisendi mis tahes suuruses ja muundab selle fikseeritud suurusega sõrmejäljeks, mida nimetatakse "hashiks".
 Hashi võib mõnikord nimetada ka "digestiks", "kondensaadiks", "kondenseerituks" või "hashituks".
 
-Näiteks SHA256 hash-funktsioon toodab 256-bitise fikseeritud pikkusega hashi. Seega, kui kasutame sisendina "_Plan ₿_", suvalise pikkusega sõnumit, siis genereeritud hash on järgmine 256-bitine sõrmejälg:
+Näiteks SHA256 hash-funktsioon toodab 256-bitise fikseeritud pikkusega hashi. Seega, kui kasutame sisendina "_PlanB_", suvalise pikkusega sõnumit, siis genereeritud hash on järgmine 256-bitine sõrmejälg:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -88,7 +88,7 @@ Need krüptograafilised hash-funktsioonid omavad mitmeid olulisi omadusi, mis mu
 
 Pöördumatuse all mõeldakse, et hashi on lihtne arvutada sisendinformatsioonist, kuid vastupidine arvutus, st sisendi leidmine hashi põhjal, on praktiliselt võimatu. See omadus muudab hash-funktsioonid ideaalseks unikaalsete digitaalsete sõrmejälgede loomiseks ilma algse informatsiooni ohustamata. Seda omadust nimetatakse sageli ühesuunaliseks funktsiooniks või "_lõksuukse funktsiooniks_".
 
-Antud näites on hashi `24f1b9…` saamine teades sisendit "_Plan ₿_" lihtne ja kiire. Kuid sõnumi "_Plan ₿_" leidmine teades ainult `24f1b9…` on võimatu.
+Antud näites on hashi `24f1b9…` saamine teades sisendit "_PlanB_" lihtne ja kiire. Kuid sõnumi "_PlanB_" leidmine teades ainult `24f1b9…` on võimatu.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,7 +97,7 @@ Seega on võimatu leida eelkujutist $m$ hashi $h$ jaoks nii, et $h = \text{HASH}
 #### 2. Muutmiskindlus (laviiniefekt)
 
 Teine omadus on rikkumiskindlus, mida tuntakse ka kui **laviiniefekti**. Seda omadust täheldatakse räsifunktsioonis, kui sisendsõnumis tehtud väike muudatus põhjustab radikaalse muutuse väljundräsis.
-Kui me pöördume tagasi meie näite juurde sisendiga "_Plan ₿_" ja SHA256 funktsiooni kasutades, oleme näinud, et genereeritud räsi on järgmine:
+Kui me pöördume tagasi meie näite juurde sisendiga "_PlanB_" ja SHA256 funktsiooni kasutades, oleme näinud, et genereeritud räsi on järgmine:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -2274,3 +2274,4 @@ https://planb.network/courses/his201
 #### Avastage vabaduse areng läbi aegade
 
 https://planb.network/courses/phi201
+

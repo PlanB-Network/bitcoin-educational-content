@@ -1237,7 +1237,7 @@ Por ejemplo, para una entropía de 256 bits, el resultado $\text{ENT} \Vert \tex
 
 ### Conversión de la Secuencia Binaria en una Frase Mnemotécnica
 
-La secuencia de bits $\text{ENT} \Vert \text{CS}$ se divide entonces en segmentos de 11 bits. Cada segmento de 11 bits, una vez convertido a decimal, corresponde a un número entre 0 y 2047, que designa la posición de una palabra [en una lista de 2048 palabras estandarizadas por el BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La secuencia de bits $\text{ENT} \Vert \text{CS}$ se divide entonces en segmentos de 11 bits. Cada segmento de 11 bits, una vez convertido a decimal, corresponde a un número entre 0 y 2047, que designa la posición de una palabra [en una lista de 2048 palabras estandarizadas por el BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 Por ejemplo, para una entropía de 128 bits, la suma de verificación es de 4 bits, y así la secuencia total mide 132 bits. Se divide en 12 segmentos de 11 bits (los bits naranjas designan la suma de verificación):
@@ -2322,4 +2322,5 @@ https://planb.network/courses/his201
 #### Descubra la evolución de la libertad a través de las edades con
 
 https://planb.network/courses/phi201
+
 

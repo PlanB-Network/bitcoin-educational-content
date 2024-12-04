@@ -1183,7 +1183,7 @@ For eksempel, for en entropi på 256 bits, er resultatet $\text{ENT} \Vert \text
 
 ### Konvertering av den Binære Sekvensen til en Mnemonisk Frase
 
-Bitsekvensen $\text{ENT} \Vert \text{CS}$ deles deretter inn i segmenter på 11 bits. Hvert 11-bits segment, når det er konvertert til desimal, tilsvarer et tall mellom 0 og 2047, som angir posisjonen til et ord [i en liste over 2048 ord standardisert av BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitsekvensen $\text{ENT} \Vert \text{CS}$ deles deretter inn i segmenter på 11 bits. Hvert 11-bits segment, når det er konvertert til desimal, tilsvarer et tall mellom 0 og 2047, som angir posisjonen til et ord [i en liste over 2048 ord standardisert av BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 For eksempel, for en 128-bit entropi, er kontrollsummen 4 bit, og dermed måler den totale sekvensen 132 bit. Den er delt inn i 12 segmenter på 11 bit (de oransje bitene betegner kontrollsummen):
@@ -2219,4 +2219,5 @@ https://planb.network/courses/his201
 #### Oppdag frihetens utvikling gjennom tidene med
 
 https://planb.network/courses/phi201
+
 

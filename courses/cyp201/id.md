@@ -1186,7 +1186,7 @@ Misalnya, untuk entropi 256-bit, hasil $\text{ENT} \Vert \text{CS}$ adalah 264 b
 
 ### Konversi Urutan Biner menjadi Frasa Mnemonik
 
-Urutan bit $\text{ENT} \Vert \text{CS}$ kemudian dibagi menjadi segmen-segmen 11 bit. Setiap segmen 11-bit, setelah dikonversi ke desimal, sesuai dengan nomor antara 0 dan 2047, yang menunjukkan posisi kata [dalam daftar 2048 kata yang distandarisasi oleh BIP39](https://github.com/Plan ₿-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Urutan bit $\text{ENT} \Vert \text{CS}$ kemudian dibagi menjadi segmen-segmen 11 bit. Setiap segmen 11-bit, setelah dikonversi ke desimal, sesuai dengan nomor antara 0 dan 2047, yang menunjukkan posisi kata [dalam daftar 2048 kata yang distandarisasi oleh BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/fr/037.webp)
 Misalnya, untuk entropi 128-bit, checksum adalah 4 bit, sehingga total urutan berukuran 132 bit. Ini dibagi menjadi 12 segmen dari 11 bit (bit oranye menunjukkan checksum):
@@ -2221,4 +2221,5 @@ https://planb.network/courses/his201
 #### Temukan evolusi kebebasan sepanjang masa dengan
 
 https://planb.network/courses/phi201
+
 

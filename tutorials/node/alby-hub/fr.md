@@ -8,7 +8,7 @@ Alby Hub est le dernier logiciel développé par Alby, la société à l'origine
 
 Dans ce tutoriel, nous allons découvrir différentes façons d'utiliser Alby Hub pour gérer son propre nœud Lightning et comment le connecter à Alby Go, l'application mobile d'Alby. Cela vous permettra de dépenser vos sats en déplacement tout en étant autonome sur la gestion de votre nœud.
 
-01
+![ALBY HUB](assets/fr/01.webp)
 
 ## C'est quoi Alby Hub ?
 
@@ -36,11 +36,11 @@ Pour les utilisateurs avancés, Alby Hub peut être déployé sur un serveur per
 
 Ce tutoriel se concentre principalement sur l'interface, qui sera la même quelle que soit l'option choisie. Nous allons également voir comment déployer Alby Hub avec l'option du cloud payant, puis avec l'option du node-in-box (Umbrel ou Start9).
 
-02
+![ALBY HUB](assets/fr/02.webp)
 
 Pour une installation locale sur votre PC, [téléchargez et installez le logiciel selon votre système d'exploitation](https://github.com/getAlby/hub/releases), puis suivez les mêmes instructions au niveau de l'interface.
 
-03
+![ALBY HUB](assets/fr/03.webp)
 
 ## Créer un compte Alby
 
@@ -48,23 +48,23 @@ La première étape consiste à créer un compte Alby. Bien que ce ne soit pas i
 
 Rendez-vous sur [le site officiel d'Alby](https://getalby.com/) et cliquez sur le bouton "*Create Account*".
 
-04
+![ALBY HUB](assets/fr/04.webp)
 
 Saisissez un pseudonyme et une adresse email, puis cliquez sur "*Sign up*". Cette adresse email servira à vous connecter à votre compte par la suite.
 
-05
+![ALBY HUB](assets/fr/05.webp)
 
 Entrez le code de vérification que vous avez reçu par email.
 
-06
+![ALBY HUB](assets/fr/06.webp)
 
 Une fois connecté à votre compte en ligne, cliquez sur le bouton "*Continue*".
 
-07
+![ALBY HUB](assets/fr/07.webp)
 
 Cliquez de nouveau sur "*Continue*".
 
-08
+![ALBY HUB](assets/fr/08.webp)
 
 ## L'option d'hébergement cloud
 
@@ -72,23 +72,23 @@ Vous devrez ensuite choisir entre une option self-hosted, où vous hébergez un 
 
 Cliquez sur "*Upgrade*".
 
-09
+![ALBY HUB](assets/fr/09.webp)
 
 Confirmez en cliquant sur "*Subscribe Now*".
 
-10
+![ALBY HUB](assets/fr/10.webp)
 
 Cliquez sur "*Launch Alby Hub*".
 
-11
+![ALBY HUB](assets/fr/11.webp)
 
 Patientez quelques instants le temps que votre nœud soit créé.
 
-12
+![ALBY HUB](assets/fr/12.webp)
 
 Et voilà, votre Alby Hub est désormais configuré. Dans la partie suivante, je vous montrerai comment installer Alby Hub sur un nœud déjà existant. Si vous n'en avez pas besoin, vous pouvez passer directement à la section suivante pour configurer votre nœud.
 
-13
+![ALBY HUB](assets/fr/13.webp)
 
 ## L'option d'auto-hébergement
 
@@ -98,25 +98,25 @@ Pour configurer cela sur Umbrel (les étapes pour Start9 sont identiques), vous 
 
 Connectez-vous à votre interface Umbrel et allez dans le magasin d'applications.
 
-14
+![ALBY HUB](assets/fr/14.webp)
 
 Recherchez l'application "*Alby Hub*".
 
-15
+![ALBY HUB](assets/fr/15.webp)
 
 Installez-la sur votre nœud.
 
-16
+![ALBY HUB](assets/fr/16.webp)
 
 Votre interface Alby Hub est maintenant prête. Vous pouvez suivre le reste du tutoriel comme si vous utilisiez l'interface cloud, mais sans les options de la version payante. De plus, contrairement à la version cloud, vos clés sont conservées localement sur votre nœud et non sur les serveurs d'Alby.
 
-17
+![ALBY HUB](assets/fr/17.webp)
 
 ## Lancer Alby Hub
 
 Cliquez sur le bouton "*Get Started*".
 
-18
+![ALBY HUB](assets/fr/18.webp)
 
 Alby Hub vous invitera ensuite à choisir un mot de passe. Ce mot de passe est très important, car il sera utilisé pour chiffrer votre portefeuille. Dans la version cloud payante, vos clés sont conservées sur le serveur d'Alby, chiffrées avec ce mot de passe que vous êtes le seul à connaître, puis déchiffrées et stockées uniquement en RAM pour signer les transactions quand nécessaire.
 
@@ -124,27 +124,27 @@ Il est donc essentiel de choisir un mot de passe robuste. Toute personne posséd
 
 Après avoir soigneusement choisi et sauvegardé votre mot de passe, cliquez sur "*Create Password*".
 
-19
+![ALBY HUB](assets/fr/19.webp)
 
 Vous avez maintenant accès à votre nœud Lightning.
 
-20
+![ALBY HUB](assets/fr/20.webp)
 
-La première action à entreprendre est de sauvegarder votre phrase de récupération, à partir de laquelle vos clés sont dérivées. Cette phrase vous permet de récupérer l'accès à votre wallet onchain et, avec le dernier état de vos canaux, vos sats sur Lightning. Pour cela, cliquez sur "*Settings*".
+La première action à faire est de sauvegarder votre phrase de récupération, à partir de laquelle vos clés sont dérivées. Cette phrase vous permet de récupérer l'accès à votre wallet onchain et, avec le dernier état de vos canaux, vos sats sur Lightning. Pour cela, cliquez sur "*Settings*".
 
-21
+![ALBY HUB](assets/fr/21.webp)
 
 Rendez-vous ensuite dans l'onglet "*Backup*". Entrez votre mot de passe pour y accéder.
 
-22
+![ALBY HUB](assets/fr/22.webp)
 
 Vous aurez alors accès à votre phrase de récupération de 12 mots. Réalisez une ou plusieurs sauvegardes physiques de cette phrase sur du papier ou du métal et conservez-la en lieu sûr.
 
-23
+![ALBY HUB](assets/fr/23.webp)
 
 Après avoir sauvegardé la phrase, cochez la case confirmant que vous l'avez bien sauvegardée et cliquez sur "*Continue*".
 
-24
+![ALBY HUB](assets/fr/24.webp)
 
 ## Comment récupérer l'accès à ses bitcoins ?
 
@@ -165,39 +165,39 @@ Pour ceux qui hébergent leur propre nœud, le processus de récupération est i
 
 Vous pouvez maintenant suivre les instructions fournies par Alby Hub. Cliquez sur le bouton pour ouvrir votre premier canal et ainsi disposer de liquidités entrantes.
 
-25
+![ALBY HUB](assets/fr/25.webp)
 
 Sélectionnez "*Open Channel*". Si vous n'avez pas l'intention de devenir un nœud de routage et que vous n'en avez pas spécifiquement besoin, je vous recommande d'opter pour des canaux privés.
 
-26
+![ALBY HUB](assets/fr/26.webp)
 
 Alby Hub va générer une invoice que vous devrez payer. Ce paiement couvre les frais de transaction nécessaires pour ouvrir votre canal, ainsi que les frais de service du LSP (*Lightning Service Provider*) qui ouvrira un canal vers votre nœud, ce qui vous permet de recevoir immédiatement des paiements.
 
-27
+![ALBY HUB](assets/fr/27.webp)
 
 Une fois l'invoice payée et la transaction confirmée, votre premier canal Lightning est établi.
 
-28
+![ALBY HUB](assets/fr/28.webp)
 
 Dans l'onglet "*Node*", vous pouvez constater que vous disposez désormais de liquidités entrantes, ce qui vous permet de recevoir des paiements via Lightning.
 
-29
+![ALBY HUB](assets/fr/29.webp)
 
 Pour recevoir un paiement, cliquez sur l'onglet "*Wallet*" puis sur "*Receive*".
 
-30
+![ALBY HUB](assets/fr/30.webp)
 
 Indiquez un montant et ajoutez une description si nécessaire, puis cliquez sur "*Create Invoice*".
 
-31
+![ALBY HUB](assets/fr/31.webp)
 
 J'ai reçu mon premier paiement de 120 000 sats.
 
-32
+![ALBY HUB](assets/fr/32.webp)
 
 En retournant dans l'onglet "*Wallet*", vous pouvez vérifier le solde de votre portefeuille. Notez qu'Alby Hub met automatiquement en réserve 354 sats lors du premier paiement. Pour chaque canal Lightning que vous ouvrez par la suite, Alby Hub constituera automatiquement une réserve équivalente à 1% des capacités du canal. Cette réserve est une mesure de sécurité qui permet à votre nœud de récupérer les fonds du canal en cas de tentative de fraude par votre pair. C'est pourquoi, bien que j'aie envoyé 120 000 sats, seul 119 646 sats sont affichés sur mon solde.
 
-33
+![ALBY HUB](assets/fr/33.webp)
 
 ## Déposer des bitcoins onchain
 
@@ -205,43 +205,43 @@ Pour avoir des liquidités sortantes qui vous permettront d'effectuer des paieme
 
 Depuis l'onglet "*Node*", cliquez sur "*Deposit*".
 
-34
+![ALBY HUB](assets/fr/34.webp)
 
 Envoyez des bitcoins à l'adresse qui s'affiche. Cette adresse est dérivée de votre phrase de récupération que vous avez sauvegardée précédemment.
 
-35
+![ALBY HUB](assets/fr/35.webp)
 
 J'ai envoyé 72 000 sats. Ils sont maintenant visibles dans "*Savings Balance*", qui regroupe tous les fonds que je possède onchain, et non sur Lightning.
 
-36
+![ALBY HUB](assets/fr/36.webp)
 
 ## Ouvrir un canal Lightning
 
-Maintenant que vous disposez de fonds onchain, vous pouvez ouvrir un nouveau canal Lightning. Il est conseillé d'ouvrir plusieurs canaux, avec des montants suffisants pour assurer que vous puissiez toujours effectuer des paiements sans contrainte. La plupart des LSP (Lightning Service Providers) demandent un minimum de 150 000 sats pour ouvrir un canal avec vous.
+Maintenant que vous disposez de fonds onchain, vous pouvez ouvrir un nouveau canal Lightning. Il est conseillé d'ouvrir plusieurs canaux, avec des montants suffisants pour assurer que vous puissiez toujours effectuer des paiements sans contrainte. La plupart des LSP (*Lightning Service Providers*) demandent un minimum de 150 000 sats pour ouvrir un canal avec vous.
 
 Dans l'onglet "*Node*", cliquez sur "*Open Channel*".
 
-37
+![ALBY HUB](assets/fr/37.webp)
 
 Sélectionnez la taille de votre canal. Je vous recommande de ne pas ouvrir de canaux trop petits, tout en gardant à l'esprit que c'est un nœud Lightning et que la machine hébergeant vos clés n'offre pas le même niveau de sécurité qu'un hardware wallet. Soyez donc prudents avec les montants que vous choisissez de bloquer.
 
-38
+![ALBY HUB](assets/fr/38.webp)
 
 Dans le menu "*Advanced Options*", vous avez la possibilité de choisir avec quel LSP ouvrir votre canal, ou d'entrer manuellement un autre nœud Lightning.
 
-39
+![ALBY HUB](assets/fr/39.webp)
 
 Cliquez ensuite sur "*Open Channel*".
 
-40
+![ALBY HUB](assets/fr/40.webp)
 
 Patientez pendant que l'ouverture de votre canal est confirmée onchain.
 
-41
+![ALBY HUB](assets/fr/41.webp)
 
 Votre nouveau canal apparaîtra désormais dans l'onglet "*Node*".
 
-42
+![ALBY HUB](assets/fr/42.webp)
 
 ## Connecter une application de dépense
 
@@ -249,99 +249,99 @@ Maintenant que vous disposez d'un nœud Lightning fonctionnel, vous pouvez l'uti
 
 Dans ce tutoriel, je vous recommande d'opter pour Alby Go, qui est très simple d'utilisation, mais vous pouvez également utiliser d'autres applications compatibles comme Zeus.
 
-43
+![ALBY HUB](assets/fr/43.webp)
 
 Pour installer Alby Go, rendez-vous sur le magasin d'applications de votre appareil :
 - [Pour Android](https://play.google.com/store/apps/details?id=com.getalby.mobile);
 - [Pour Apple](https://apps.apple.com/us/app/alby-go/id6471335774).
 
-44
+![ALBY HUB](assets/fr/44.webp)
 
 Les utilisateurs Android peuvent aussi installer l'application via le fichier `.apk` [disponible sur le GitHub d'Alby](https://github.com/getAlby/go/releases).
 
-45
+![ALBY HUB](assets/fr/45.webp)
 
 Au lancement de l'application, cliquez sur "*Connect Wallet*".
 
-46
+![ALBY HUB](assets/fr/46.webp)
 
 Dans votre Alby Hub, sous l'onglet "*Connections*", cliquez sur "*Add Connection*".
 
-47
+![ALBY HUB](assets/fr/47.webp)
 
 Nommez cette connexion pour l'identifier facilement dans votre Hub, et sélectionnez les permissions que vous souhaitez accorder à l'application. Dans mon cas, je choisis "*Full Access*" pour avoir un accès total aux fonds de mon nœud Lightning depuis mon smartphone, mais vous pouvez également limiter l'accès par un budget maximal, sélectionner les fonctionnalités autorisées, ou fixer une date d'expiration pour ces permissions. Une fois la configuration terminée, cliquez sur "*Next*".
 
-48
+![ALBY HUB](assets/fr/48.webp)
 
 Alby Hub générera alors un secret pour établir la connexion.
 
-49
+![ALBY HUB](assets/fr/49.webp)
 
 Retournez sur l'application Alby Go, scannez le QR code ou collez le secret.
 
-50
+![ALBY HUB](assets/fr/50.webp)
 
 Cliquez sur "*Finish*".
 
-51
+![ALBY HUB](assets/fr/51.webp)
 
 Vous avez maintenant accès à distance à votre nœud Lightning depuis votre smartphone, ce qui facilite les dépenses et les réceptions de sats en déplacement au quotidien.
 
-52
+![ALBY HUB](assets/fr/52.webp)
 
 Si nécessaire, vous pouvez gérer les autorisations de cette connexion directement sur Alby Hub en cliquant dessus.
 
-53
+![ALBY HUB](assets/fr/53.webp)
 
 Pour recevoir des sats, cliquez simplement sur "*Receive*".
 
-54
+![ALBY HUB](assets/fr/54.webp)
 
 Modifiez le montant et la description de l'invoice en cliquant sur "*Invoice*".
 
-55
+![ALBY HUB](assets/fr/55.webp)
 
 Faites-vous payer l'invoice pour recevoir des sats.
 
-56
+![ALBY HUB](assets/fr/56.webp)
 
 Pour envoyer des sats, cliquez sur "*Send*".
 
-57
+![ALBY HUB](assets/fr/57.webp)
 
 Scannez l'invoice que vous souhaitez payer.
 
-58
+![ALBY HUB](assets/fr/58.webp)
 
 Cliquez ensuite sur "*Pay*".
 
-59
+![ALBY HUB](assets/fr/59.webp)
 
 Votre transaction est confirmée.
 
-60
+![ALBY HUB](assets/fr/60.webp)
 
 En cliquant sur la petite flèche, vous pouvez accéder à votre historique de transactions.
 
-61
+![ALBY HUB](assets/fr/61.webp)
 
 Ces transactions sont également visibles sur votre Alby Hub.
 
-62
+![ALBY HUB](assets/fr/62.webp)
 
 ## Personnaliser son adresse Lightning
 
 Alby vous offre la possibilité de disposer d'une adresse Lightning. Elle vous permet de recevoir des paiements sur votre nœud sans devoir générer manuellement une invoice à chaque fois. Par défaut, Alby vous attribue une adresse Lightning, mais vous pouvez la personnaliser. Connectez-vous à votre compte Alby en ligne, cliquez sur votre nom en haut à droite, puis sélectionnez "*Settings*".
 
-63
+![ALBY HUB](assets/fr/63.webp)
 
 Naviguez jusqu'au menu "*Lightning Address*".
 
-64
+![ALBY HUB](assets/fr/64.webp)
 
 Modifiez votre adresse, puis confirmez en cliquant sur "*Update your lightning address*".
 
-65
+![ALBY HUB](assets/fr/65.webp)
 
 Attention, une fois modifiée, votre ancienne adresse ne vous appartient plus. Assurez-vous donc de ne plus y faire envoyer des sats.
 

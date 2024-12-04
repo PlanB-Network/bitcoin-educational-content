@@ -6,13 +6,13 @@ description: Comment lancer facilement son propre nœud Lightning ?
 
 Alby Hub est le dernier logiciel développé par Alby, la société à l'origine de la célèbre extension web Lightning. Alby Hub est une interface pour gérer facilement un nœud Lightning.
 
-Dans ce tutoriel, je nous allons découvrir différentes façons d'utiliser Alby Hub pour gérer son propre nœud Lightning et comment le connecter à Alby Go, l'application mobile d'Alby. Cela vous permettra de dépenser vos sats en déplacement tout en étant autonome sur la gestion de votre nœud.
+Dans ce tutoriel, nous allons découvrir différentes façons d'utiliser Alby Hub pour gérer son propre nœud Lightning et comment le connecter à Alby Go, l'application mobile d'Alby. Cela vous permettra de dépenser vos sats en déplacement tout en étant autonome sur la gestion de votre nœud.
 
 01
 
 ## C'est quoi Alby Hub ?
 
-En 2024, Alby a marqué un virage stratégique. Depuis des années, ils offrent une variété d'outils associés à Bitcoin et au Lightning Network, dont l'emblématique extension Alby, qui permet d'exploiter un portefeuille Lightning, custodial ou non. Cependant, en 2025 ils prévoient d'arrêter leur service de wallet custodial partagé pour se concentrer désormais exclusivement sur des solutions en self-custody. Alby Hub s'annonce comme le nouvel outil phare de l'écosystème Alby. Cet outil offre la possibilité de gérer son propre nœud Lightning en toute simplicité, tout en conservant la propriété de ses clés (self-custody).
+En 2024, Alby a marqué un virage stratégique. Depuis des années, ils offrent une variété d'outils associés à Bitcoin et au Lightning Network, dont l'emblématique extension Alby, qui permet d'exploiter un portefeuille Lightning, custodial ou non. Cependant, en 2025, ils prévoient d'arrêter leur service de wallet custodial partagé pour se concentrer désormais exclusivement sur des solutions en self-custody. Alby Hub s'annonce comme le nouvel outil phare de l'écosystème Alby. Ce logiciel offre la possibilité de gérer son propre nœud Lightning en toute simplicité, tout en conservant la propriété de ses clés (self-custody).
 
 Alby Hub est un outil très adaptable. Il peut répondre aux besoins d'utilisateurs débutants comme avancés. Les novices l'utiliseront pour opérer facilement un vrai nœud Lightning en toute autonomie, sans se heurter à la complexité sous-jacente. Pour les utilisateurs plus expérimentés, Alby Hub peut être utilisé comme une interface complète pour la gestion avancée d'un nœud Lightning déjà existant.
 
@@ -269,7 +269,7 @@ Dans votre Alby Hub, sous l'onglet "Connections", cliquez sur "Add Connection".
 
 48
 
-Nommez cette connexion pour l'identifier facilement dans votre Hub, et sélectionnez les permissions que vous souhaitez accorder à l'application. Dans mon cas, je choisis "Full Access" pour avoir un accès total aux fonds de mon nœud Lightning depuis mon smartphone, mais vous pouvez également limiter l'accès par un budget maximum, sélectionner les fonctionnalités autorisées, ou fixer une date d'expiration pour ces permissions. Une fois la configuration terminée, cliquez sur "Next".
+Nommez cette connexion pour l'identifier facilement dans votre Hub, et sélectionnez les permissions que vous souhaitez accorder à l'application. Dans mon cas, je choisis "Full Access" pour avoir un accès total aux fonds de mon nœud Lightning depuis mon smartphone, mais vous pouvez également limiter l'accès par un budget maximal, sélectionner les fonctionnalités autorisées, ou fixer une date d'expiration pour ces permissions. Une fois la configuration terminée, cliquez sur "Next".
 
 49
 

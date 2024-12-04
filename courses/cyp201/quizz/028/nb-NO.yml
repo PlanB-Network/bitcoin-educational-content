@@ -3,7 +3,7 @@ answer: 32 bytes
 wrong_answers:
   - 33 bytes
   - 64 bytes
-  - 256 bits
+  - 128 bits
 explanation: |
   En offentlig Schnorr-nøkkel representeres kun av x-koordinaten til punktet på den elliptiske kurven, noe som reduserer størrelsen til 32 bytes.
 reviewed: false

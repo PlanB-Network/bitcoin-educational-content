@@ -3,7 +3,7 @@ answer: 32 octets
 wrong_answers:
   - 33 octets
   - 64 octets
-  - 256 bits
+  - 128 bits
 explanation: |
   Une clé publique Schnorr est représentée uniquement par l'abscisse x du point sur la courbe elliptique, ce qui réduit sa taille à 32 octets.
 reviewed: false

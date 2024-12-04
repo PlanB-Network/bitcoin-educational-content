@@ -3,7 +3,7 @@ answer: 32 tavua
 wrong_answers:
   - 33 tavua
   - 64 tavua
-  - 256 bittiä
+  - 128 bittiä
 explanation: |
   Schnorrin julkinen avain esitetään ainoastaan elliptisen käyrän pisteen x-koordinaatilla, mikä pienentää sen koon 32 tavuun.
 reviewed: false

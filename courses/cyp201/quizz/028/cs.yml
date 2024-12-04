@@ -3,7 +3,7 @@ answer: 32 bajtů
 wrong_answers:
   - 33 bajtů
   - 64 bajtů
-  - 256 bitů
+  - 128 bitů
 explanation: |
   Veřejný klíč Schnorr je reprezentován pouze x-ovou souřadnicí bodu na eliptické křivce, což redukuje jeho velikost na 32 bajtů.
 reviewed: false

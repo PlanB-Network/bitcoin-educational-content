@@ -3,7 +3,7 @@ answer: 32 baiti
 wrong_answers:
   - 33 baiti
   - 64 baiti
-  - 256 bitti
+  - 128 bitti
 explanation: |
   Schnorri avalik võti esindab ainult punkti x-koordinaati elliptilisel kõveral, mis vähendab selle suurust 32 baitini.
 reviewed: false

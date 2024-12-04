@@ -3,6 +3,6 @@ answer: 32字节
 wrong_answers:
   - 33字节
   - 64字节
-  - 256位
+  - 128位
 explanation: |
   Schnorr公钥仅由椭圆曲线上点的x坐标表示，这减小了其大小到32字节。

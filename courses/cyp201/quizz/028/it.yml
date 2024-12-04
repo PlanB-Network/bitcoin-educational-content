@@ -3,7 +3,7 @@ answer: 32 byte
 wrong_answers:
   - 33 byte
   - 64 byte
-  - 256 bit
+  - 128 bit
 explanation: |
   Una chiave pubblica Schnorr è rappresentata solo dalla coordinata x del punto sulla curva ellittica, il che riduce la sua dimensione a 32 byte.
 reviewed: false

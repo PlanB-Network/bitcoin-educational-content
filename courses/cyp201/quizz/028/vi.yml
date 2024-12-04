@@ -3,7 +3,7 @@ answer: 32 byte
 wrong_answers:
   - 33 byte
   - 64 byte
-  - 256 bit
+  - 128 bit
 explanation: |
   Một khóa công khai Schnorr chỉ được biểu diễn bởi tọa độ x của điểm trên đường cong elliptic, điều này giảm kích thước của nó xuống còn 32 byte.
 reviewed: false

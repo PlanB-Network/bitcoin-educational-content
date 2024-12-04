@@ -1284,7 +1284,7 @@ Persamaan berikut mengilustrasikan penurunan seed dari frase mnemonik dan passph
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2221,5 +2221,7 @@ https://planb.network/courses/his201
 #### Temukan evolusi kebebasan sepanjang masa dengan
 
 https://planb.network/courses/phi201
+
+
 
 

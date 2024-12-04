@@ -1309,7 +1309,7 @@ https://planb.network/tutorials/wallet/generate-mnemonic-phrase
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2300,5 +2300,7 @@ https://planb.network/courses/his201
 #### Откройте для себя эволюцию свободы через века с помощью
 
 https://planb.network/courses/phi201
+
+
 
 

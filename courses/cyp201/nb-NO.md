@@ -1281,7 +1281,7 @@ Følgende ligning illustrerer utledningen av seedet fra den mnemoniske frasen og
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2219,5 +2219,7 @@ https://planb.network/courses/his201
 #### Oppdag frihetens utvikling gjennom tidene med
 
 https://planb.network/courses/phi201
+
+
 
 

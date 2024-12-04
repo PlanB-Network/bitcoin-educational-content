@@ -1303,7 +1303,7 @@ Phương trình sau minh họa việc suy ra hạt giống từ cụm từ ghi n
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2239,5 +2239,7 @@ https://planb.network/courses/his201
 #### Khám phá sự phát triển của tự do qua các thời đại với
 https://planb.network/courses/phi201
 $$
+
+
 
 

@@ -1303,7 +1303,7 @@ La seguente equazione illustra la derivazione del seed dalla frase mnemonica e d
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2241,5 +2241,7 @@ https://planb.network/courses/his201
 #### Scopri l'evoluzione della libertà attraverso le epoche con
 
 https://planb.network/courses/phi201
+
+
 
 

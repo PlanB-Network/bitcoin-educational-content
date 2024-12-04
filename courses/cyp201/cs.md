@@ -1285,7 +1285,7 @@ Následující rovnice ilustruje odvození semene z mnemonické fráze a heslov�
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2222,5 +2222,7 @@ https://planb.network/courses/his201
 #### Objevte vývoj svobody napříč věky s
 
 https://planb.network/courses/phi201
+
+
 
 

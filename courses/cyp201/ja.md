@@ -1304,7 +1304,7 @@ BIP39標準は、シードを512ビットのシーケンスとして定義し、
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2240,5 +2240,7 @@ https://planb.network/courses/his201
 #### 時代を通じた自由の進化を発見する
 
 https://planb.network/courses/phi201
+
+
 
 

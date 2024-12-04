@@ -1288,7 +1288,7 @@ Järgmine võrrand illustreerib seemne tuletamist mnemoonilisest fraasist ja sal
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2274,5 +2274,7 @@ https://planb.network/courses/his201
 #### Avastage vabaduse areng läbi aegade
 
 https://planb.network/courses/phi201
+
+
 
 

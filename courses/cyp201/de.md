@@ -1335,7 +1335,7 @@ Die folgende Gleichung veranschaulicht die Ableitung des Seeds aus der mnemonisc
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2274,5 +2274,7 @@ https://planb.network/courses/his201
 #### Entdecken Sie die Entwicklung der Freiheit im Laufe der Zeit mit
 
 https://planb.network/courses/phi201
+
+
 
 

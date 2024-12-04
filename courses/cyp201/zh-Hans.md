@@ -1275,7 +1275,7 @@ BIP39标准定义了种子为一个512位序列，它作为派生HD钱包所有�
 
 $$
 
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
@@ -2259,5 +2259,7 @@ https://planb.network/courses/his201
 #### 探索自由在历史长河中的演变
 
 https://planb.network/courses/phi201
+
+
 
 

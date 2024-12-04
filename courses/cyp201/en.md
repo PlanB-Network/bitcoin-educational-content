@@ -1397,10 +1397,7 @@ The BIP39 standard defines the seed as a 512-bit sequence, which serves as the s
 The following equation illustrates the derivation of the seed from the mnemonic phrase and the passphrase:
 
 $$
-
-s = \text{PBKDF2}\_{\text{HMAC-SHA512}}(m, p, 2048)
-
-
+s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 $$
 
 ![CYP201](assets/fr/044.webp)
@@ -2407,5 +2404,6 @@ https://planb.network/courses/his201
 #### Discover the evolution of freedom through the ages with
 https://planb.network/courses/phi201
 $$
+
 
 

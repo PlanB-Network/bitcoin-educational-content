@@ -42,11 +42,11 @@ Pour une installation locale sur votre PC, [téléchargez et installez le logici
 
 La première étape consiste à créer un compte Alby. Bien que ce ne soit pas indispensable pour utiliser Alby Hub, cela vous permet de profiter pleinement des options disponibles, notamment la possibilité d'obtenir une adresse Lightning.
 
-Rendez-vous sur [le site officiel d'Alby](https://getalby.com/) et cliquez sur le bouton "Create Account".
+Rendez-vous sur [le site officiel d'Alby](https://getalby.com/) et cliquez sur le bouton "*Create Account*".
 
 04
 
-Saisissez un pseudonyme et une adresse email, puis cliquez sur "Sign up". Cette adresse email servira à vous connecter à votre compte par la suite.
+Saisissez un pseudonyme et une adresse email, puis cliquez sur "*Sign up*". Cette adresse email servira à vous connecter à votre compte par la suite.
 
 05
 
@@ -54,11 +54,11 @@ Entrez le code de vérification que vous avez reçu par email.
 
 06
 
-Une fois connecté à votre compte en ligne, cliquez sur le bouton "Continue".
+Une fois connecté à votre compte en ligne, cliquez sur le bouton "*Continue*".
 
 07
 
-Cliquez de nouveau sur "Continue".
+Cliquez de nouveau sur "*Continue*".
 
 08
 
@@ -66,15 +66,15 @@ Cliquez de nouveau sur "Continue".
 
 Vous devrez ensuite choisir entre une option self-hosted, où vous hébergez un nœud Lightning sur votre propre matériel, ou l'option payante utilisant le cloud d'Alby. Je vais d'abord vous expliquer comment procéder avec l'option Cloud (notez que cette option est payante, voir les détails dans la partie précédente).
 
-Cliquez sur "Upgrade".
+Cliquez sur "*Upgrade*".
 
 09
 
-Confirmez en cliquant sur "Subscribe Now".
+Confirmez en cliquant sur "*Subscribe Now*".
 
 10
 
-Cliquez sur "Launch Alby Hub".
+Cliquez sur "*Launch Alby Hub*".
 
 11
 
@@ -96,7 +96,7 @@ Connectez-vous à votre interface Umbrel et allez dans le magasin d'applications
 
 14
 
-Recherchez l'application "Alby Hub".
+Recherchez l'application "*Alby Hub*".
 
 15
 
@@ -110,7 +110,7 @@ Votre interface Alby Hub est maintenant prête. Vous pouvez suivre le reste du t
 
 ## Lancer Alby Hub
 
-Cliquez sur le bouton "Get Started".
+Cliquez sur le bouton "*Get Started*".
 
 18
 
@@ -118,7 +118,7 @@ Alby Hub vous invitera ensuite à choisir un mot de passe. Ce mot de passe est t
 
 Il est donc essentiel de choisir un mot de passe robuste. Toute personne possédant ce mot de passe pourrait potentiellement accéder à votre nœud. Assurez-vous également de réaliser une ou plusieurs sauvegardes physiques de ce mot de passe sur un morceau de papier, ou mieux, sur un morceau de métal pour plus de sécurité. **Si vous perdez ce mot de passe, il vous sera impossible de récupérer l'accès à vos bitcoins**, car Alby n'a aucun moyen de le réinitialiser. La perte de ce mot de passe signifie donc la perte de vos bitcoins.
 
-Après avoir soigneusement choisi et sauvegardé votre mot de passe, cliquez sur "Create Password".
+Après avoir soigneusement choisi et sauvegardé votre mot de passe, cliquez sur "*Create Password*".
 
 19
 
@@ -126,11 +126,11 @@ Vous avez maintenant accès à votre nœud Lightning.
 
 20
 
-La première action à entreprendre est de sauvegarder votre phrase de récupération, à partir de laquelle vos clés sont dérivées. Cette phrase vous permet de récupérer l'accès à votre wallet onchain et, avec le dernier état de vos canaux, vos sats sur Lightning. Pour cela, cliquez sur "Settings".
+La première action à entreprendre est de sauvegarder votre phrase de récupération, à partir de laquelle vos clés sont dérivées. Cette phrase vous permet de récupérer l'accès à votre wallet onchain et, avec le dernier état de vos canaux, vos sats sur Lightning. Pour cela, cliquez sur "*Settings*".
 
 21
 
-Rendez-vous ensuite dans l'onglet "Backup".
+Rendez-vous ensuite dans l'onglet "*Backup*".
 
 22
 
@@ -142,7 +142,7 @@ Vous aurez alors accès à votre phrase de récupération de 12 mots. Réalisez 
 
 24
 
-Après avoir sauvegardé la phrase, cochez la case confirmant que vous l'avez bien sauvegardée et cliquez sur "Continue".
+Après avoir sauvegardé la phrase, cochez la case confirmant que vous l'avez bien sauvegardée et cliquez sur "*Continue*".
 
 25
 
@@ -167,7 +167,7 @@ Vous pouvez maintenant suivre les instructions fournies par Alby Hub. Cliquez su
 
 26
 
-Sélectionnez "Open Channel". Si vous n'avez pas l'intention de devenir un nœud de routage et que vous n'en avez pas spécifiquement besoin, je vous recommande d'opter pour des canaux privés.
+Sélectionnez "*Open Channel*". Si vous n'avez pas l'intention de devenir un nœud de routage et que vous n'en avez pas spécifiquement besoin, je vous recommande d'opter pour des canaux privés.
 
 27
 
@@ -179,15 +179,15 @@ Une fois l'invoice payée et la transaction confirmée, votre premier canal Ligh
 
 29
 
-Dans l'onglet "Node", vous pouvez constater que vous disposez désormais de liquidités entrantes, ce qui vous permet de recevoir des paiements via Lightning.
+Dans l'onglet "*Node*", vous pouvez constater que vous disposez désormais de liquidités entrantes, ce qui vous permet de recevoir des paiements via Lightning.
 
 30
 
-Pour recevoir un paiement, cliquez sur l'onglet "Wallet" puis sur "Receive".
+Pour recevoir un paiement, cliquez sur l'onglet "*Wallet*" puis sur "*Receive*".
 
 31
 
-Indiquez un montant et ajoutez une description si nécessaire, puis cliquez sur "Create Invoice".
+Indiquez un montant et ajoutez une description si nécessaire, puis cliquez sur "*Create Invoice*".
 
 32
 
@@ -195,7 +195,7 @@ J'ai reçu mon premier paiement de 120 000 sats.
 
 33
 
-En retournant dans l'onglet "Wallet", vous pouvez vérifier le solde de votre portefeuille. Notez qu'Alby Hub met automatiquement en réserve 354 sats lors du premier paiement. Pour chaque canal Lightning que vous ouvrez par la suite, Alby Hub constituera automatiquement une réserve équivalente à 1% des capacités du canal. Cette réserve est une mesure de sécurité qui permet à votre nœud de récupérer les fonds du canal en cas de tentative de fraude par votre pair. C'est pourquoi, bien que j'aie envoyé 120 000 sats, seul 119 646 sats sont affichés sur mon solde.
+En retournant dans l'onglet "*Wallet*", vous pouvez vérifier le solde de votre portefeuille. Notez qu'Alby Hub met automatiquement en réserve 354 sats lors du premier paiement. Pour chaque canal Lightning que vous ouvrez par la suite, Alby Hub constituera automatiquement une réserve équivalente à 1% des capacités du canal. Cette réserve est une mesure de sécurité qui permet à votre nœud de récupérer les fonds du canal en cas de tentative de fraude par votre pair. C'est pourquoi, bien que j'aie envoyé 120 000 sats, seul 119 646 sats sont affichés sur mon solde.
 
 34
 
@@ -203,7 +203,7 @@ En retournant dans l'onglet "Wallet", vous pouvez vérifier le solde de votre po
 
 Pour avoir des liquidités sortantes qui vous permettront d'effectuer des paiements, vous pouvez également ouvrir un canal vous-même. Pour cela, vous aurez besoin de bitcoins onchain dans votre portefeuille.
 
-Depuis l'onglet "Node", cliquez sur "Deposit".
+Depuis l'onglet "*Node*", cliquez sur "*Deposit*".
 
 35
 
@@ -211,7 +211,7 @@ Envoyez des bitcoins à l'adresse qui s'affiche. Cette adresse est dérivée de 
 
 36
 
-J'ai envoyé 72 000 sats. Ils sont maintenant visibles dans "Savings Balance", qui regroupe tous les fonds que je possède onchain, et non sur Lightning.
+J'ai envoyé 72 000 sats. Ils sont maintenant visibles dans "*Savings Balance*", qui regroupe tous les fonds que je possède onchain, et non sur Lightning.
 
 37
 
@@ -219,7 +219,7 @@ J'ai envoyé 72 000 sats. Ils sont maintenant visibles dans "Savings Balance", q
 
 Maintenant que vous disposez de fonds onchain, vous pouvez ouvrir un nouveau canal Lightning. Il est conseillé d'ouvrir plusieurs canaux, avec des montants suffisants pour assurer que vous puissiez toujours effectuer des paiements sans contrainte. La plupart des LSP (Lightning Service Providers) demandent un minimum de 150 000 sats pour ouvrir un canal avec vous.
 
-Dans l'onglet "Node", cliquez sur "Open Channel".
+Dans l'onglet "*Node*", cliquez sur "*Open Channel*".
 
 38
 
@@ -227,11 +227,11 @@ Sélectionnez la taille de votre canal.
 
 39
 
-Dans le menu "Advanced Options", vous avez la possibilité de choisir avec quel LSP ouvrir votre canal, ou d'entrer manuellement un autre nœud Lightning.
+Dans le menu "*Advanced Options*", vous avez la possibilité de choisir avec quel LSP ouvrir votre canal, ou d'entrer manuellement un autre nœud Lightning.
 
 40
 
-Cliquez ensuite sur "Open Channel".
+Cliquez ensuite sur "*Open Channel*".
 
 41
 
@@ -239,7 +239,7 @@ Patientez pendant que l'ouverture de votre canal est confirmée onchain.
 
 42
 
-Votre nouveau canal apparaîtra désormais dans l'onglet "Node".
+Votre nouveau canal apparaîtra désormais dans l'onglet "*Node*".
 
 43
 
@@ -261,15 +261,15 @@ Les utilisateurs Android peuvent aussi installer l'application via le fichier `.
 
 46
 
-Au lancement de l'application, cliquez sur "Connect Wallet".
+Au lancement de l'application, cliquez sur "*Connect Wallet*".
 
 47
 
-Dans votre Alby Hub, sous l'onglet "Connections", cliquez sur "Add Connection".
+Dans votre Alby Hub, sous l'onglet "*Connections*", cliquez sur "*Add Connection*".
 
 48
 
-Nommez cette connexion pour l'identifier facilement dans votre Hub, et sélectionnez les permissions que vous souhaitez accorder à l'application. Dans mon cas, je choisis "Full Access" pour avoir un accès total aux fonds de mon nœud Lightning depuis mon smartphone, mais vous pouvez également limiter l'accès par un budget maximal, sélectionner les fonctionnalités autorisées, ou fixer une date d'expiration pour ces permissions. Une fois la configuration terminée, cliquez sur "Next".
+Nommez cette connexion pour l'identifier facilement dans votre Hub, et sélectionnez les permissions que vous souhaitez accorder à l'application. Dans mon cas, je choisis "*Full Access*" pour avoir un accès total aux fonds de mon nœud Lightning depuis mon smartphone, mais vous pouvez également limiter l'accès par un budget maximal, sélectionner les fonctionnalités autorisées, ou fixer une date d'expiration pour ces permissions. Une fois la configuration terminée, cliquez sur "*Next*".
 
 49
 
@@ -281,7 +281,7 @@ Retournez sur l'application Alby Go, scannez le QR code ou collez le secret.
 
 51
 
-Cliquez sur "Finish".
+Cliquez sur "*Finish*".
 
 52
 
@@ -293,11 +293,11 @@ Si nécessaire, vous pouvez gérer les autorisations de cette connexion directem
 
 54
 
-Pour recevoir des sats, cliquez simplement sur "Receive".
+Pour recevoir des sats, cliquez simplement sur "*Receive*".
 
 55
 
-Modifiez le montant et la description de l'invoice en cliquant sur "Invoice".
+Modifiez le montant et la description de l'invoice en cliquant sur "*Invoice*".
 
 56
 
@@ -305,7 +305,7 @@ Faites-vous payer l'invoice pour recevoir des sats.
 
 57
 
-Pour envoyer des sats, cliquez sur "Send".
+Pour envoyer des sats, cliquez sur "*Send*".
 
 58
 
@@ -313,7 +313,7 @@ Scannez l'invoice que vous souhaitez payer.
 
 59
 
-Cliquez ensuite sur "Pay".
+Cliquez ensuite sur "*Pay*".
 
 60
 
@@ -331,15 +331,15 @@ Ces transactions sont également visibles sur votre Alby Hub.
 
 ## Personnaliser son adresse Lightning
 
-Alby vous offre la possibilité de disposer d'une adresse Lightning. Elle vous permet de recevoir des paiements sur votre nœud sans devoir générer manuellement une invoice à chaque fois. Par défaut, Alby vous attribue une adresse Lightning, mais vous pouvez la personnaliser. Connectez-vous à votre compte Alby en ligne, cliquez sur votre nom en haut à droite, puis sélectionnez "Settings".
+Alby vous offre la possibilité de disposer d'une adresse Lightning. Elle vous permet de recevoir des paiements sur votre nœud sans devoir générer manuellement une invoice à chaque fois. Par défaut, Alby vous attribue une adresse Lightning, mais vous pouvez la personnaliser. Connectez-vous à votre compte Alby en ligne, cliquez sur votre nom en haut à droite, puis sélectionnez "*Settings*".
 
 64
 
-Naviguez jusqu'au menu "Lightning Address".
+Naviguez jusqu'au menu "*Lightning Address*".
 
 65
 
-Modifiez votre adresse, puis confirmez en cliquant sur "Update your lightning address".
+Modifiez votre adresse, puis confirmez en cliquant sur "*Update your lightning address*".
 
 66
 

@@ -1637,7 +1637,7 @@ $$
 $$
 
 $$
-h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 $$
 
 La clé privée enfant $k_{\text{CHD}}^h$ est alors calculée comme cela :
@@ -1677,7 +1677,7 @@ $$
 $$
 
 $$
-h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 $$
 
 La clé publique enfant $K_{\text{CHD}}^n$ est alors calculée comme cela :

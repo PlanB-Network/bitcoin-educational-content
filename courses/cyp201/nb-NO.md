@@ -256,21 +256,16 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
-
-
-$$
-
-\begin{pmatrix}
-
-$$
-\begin{pmatrix}
-0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
+0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
+0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
+0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
 0x19a4c116, & 0x1e376c08, & 0x2748774c, & 0x34b0bcb5, \\
 0x391c0cb3, & 0x4ed8aa4a, & 0x5b9cca4f, & 0x682e6ff3, \\
 0x748f82ee, & 0x78a5636f, & 0x84c87814, & 0x8cc70208, \\
 0x90befffa, & 0xa4506ceb, & 0xbef9a3f7, & 0xc67178f2
 \end{pmatrix}
 $$
+
 
 ### Inndeling av inndata
 
@@ -300,9 +295,10 @@ For XOR ($\oplus$):
 For OG ($\land$):
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- | --- | --- | --- | --- |
+| --- | --- | ----------- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           |     | 1   | 0   | 0   |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
 For NOT ($\lnot p$):
@@ -434,14 +430,12 @@ $$
 H = G \\
 G = F \\
 F = E \\
-$$
-
-E = D + \text{temp1} \mod 2^{32} \\D = C \\
+E = D + temp1 \mod 2^{32} \\
+D = C \\
 C = B \\
 B = A \\
-A = \text{temp1} + \text{temp2} \mod 2^{32}
+A = temp1 + temp2 \mod 2^{32}
 \end{cases}
-
 $$
 
 Følgende diagram representerer en runde av SHA256-komprimeringsfunksjonen slik vi nettopp har beskrevet:
@@ -454,17 +448,17 @@ Følgende diagram representerer en runde av SHA256-komprimeringsfunksjonen slik 
 
 Vi kan allerede observere at denne runden produserer nye tilstandsvariabler $A$, $B$, $C$, $D$, $E$, $F$, $G$, og $H$. Disse nye variablene vil tjene som input for neste runde, som igjen vil produsere nye variabler $A$, $B$, $C$, $D$, $E$, $F$, $G$, og $H$, for å brukes i den følgende runden. Denne prosessen fortsetter opp til den 64. runden.
 Etter de 64 rundene, oppdaterer vi de opprinnelige verdiene av tilstandsvariablene ved å legge dem til de endelige verdiene ved slutten av runde 64:
-$$
 
+$$
 \begin{cases}
-A = A*{\text{initial}} + A \mod 2^{32} \\
-B = B*{\text{initial}} + B \mod 2^{32} \\
-C = C*{\text{initial}} + C \mod 2^{32} \\
-D = D*{\text{initial}} + D \mod 2^{32} \\
-E = E*{\text{initial}} + E \mod 2^{32} \\
-F = F*{\text{initial}} + F \mod 2^{32} \\
-G = G*{\text{initial}} + G \mod 2^{32} \\
-H = H*{\text{initial}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
 
 $$
@@ -788,7 +782,10 @@ Grafisk ville dette bli representert som følger:
 Takket være disse operasjonene, kan vi forstå hvorfor det er enkelt å utlede en offentlig nøkkel fra en privat nøkkel, men det motsatte er praktisk talt umulig.
 
 La oss gå tilbake til vårt forenklede eksempel. Med en privat nøkkel $k = 4$. For å beregne den tilknyttede offentlige nøkkelen, utfører vi:
-K = k \cdot G = 4G$$
+
+$$
+K = k \cdot G = 4G
+$$
 
 Vi har dermed kunnet enkelt beregne den offentlige nøkkelen $K$ ved å kjenne $k$ og $G$.
 
@@ -1179,6 +1176,17 @@ Antall ord i den mnemoniske frasen avhenger av størrelsen på den opprinnelige 
 $$
 \begin{array}{|c|c|c|c|}
 \hline
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
+
 For eksempel, for en entropi på 256 bits, er resultatet $\text{ENT} \Vert \text{CS}$ 264 bits og gir en mnemonisk frase på 24 ord.
 
 ### Konvertering av den Binære Sekvensen til en Mnemonisk Frase
@@ -1392,22 +1400,21 @@ Hvis det legges til ett byte til den private nøkkelen alene, er det fordi den k
 Som vi nettopp har sett, inkluderer utvidede nøkler et prefiks som indikerer både versjonen av den utvidede nøkkelen og dens natur. Notasjonen `pub` indikerer at det refererer til en utvidet offentlig nøkkel, og notasjonen `prv` indikerer en utvidet privat nøkkel. Den ekstra bokstaven ved basen av den utvidede nøkkelen hjelper til med å indikere om standarden som følges er Legacy, SegWit v0, SegWit v1, osv.
 Her er en oppsummering av de brukte prefiksene og deres betydninger:
 
-| Base 58 Prefiks | Base 16 Prefiks     | Nettverk | Formål               | Assosierte Skripter        | Avledning                  | Nøkkeltype  |
-|-----------------|---------------------|----------|----------------------|----------------------------|----------------------------|-------------|
-| `xpub`          | `0488b21e`          | Mainnet  | Legacy og SegWit V1  | P2PK / P2PKH / P2TR        | `m/44'/0'`, `m/86'/0'`     | offentlig   |
-| `xprv`          | `0488ade4`          | Mainnet  | Legacy og SegWit V1  | P2PK / P2PKH / P2TR        | `m/44'/0'`, `m/86'/0'`     | privat      |
-| `tpub`          | `043587cf`          | Testnet  | Legacy og SegWit V1  | P2PK / P2PKH / P2TR        | `m/44'/1'`, `m/86'/1'`     | offentlig   |
-| `tprv`          | `04358394`          | Testnet  | Legacy og SegWit V1  | P2PK / P2PKH / P2TR        | `m/44'/1'`, `m/86'/1'`     | privat      |
-| `ypub`          | `049d7cb2`          | Mainnet  | Nested SegWit        | P2WPKH i P2SH              | `m/49'/0'`                 | offentlig   |
-| `yprv`         | `049d7878`         | Hovednett  | Nested SegWit        | P2WPKH i P2SH           | `m/49'/0'`                 | privat     |
-| `upub`         | `049d7cb2`         | Testnett  | Nested SegWit        | P2WPKH i P2SH           | `m/49'/1'`                 | offentlig      |
-| `uprv`         | `044a4e28`         | Testnett  | Nested SegWit        | P2WPKH i P2SH           | `m/49'/1'`                 | privat     |
-| `zpub`         | `04b24746`         | Hovednett  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | offentlig      |
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-Denne tabellen gir en omfattende oversikt over prefiksene som brukes i utvidede nøkler, og detaljerer deres base 58 og base 16 prefikser, nettverket de er assosiert med (Hovednett eller Testnett), deres formål, skriptene de er assosiert med, deres avledningssti, og om de er offentlige eller private nøkler.
-| `zprv`          | `04b2430c`          | Hovednett  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | privat     |
-| `vpub`          | `045f1cf6`          | Testnett  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | offentlig      |
-| `vprv`          | `045f18bc`          | Testnett  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | privat     |
 
 ### Detaljer om en utvidet nøkkels elementer
 
@@ -1640,25 +1647,17 @@ Takket være addisjons- og doblingsoperasjonene på den elliptiske kurven, produ
 
 For å oppsummere, her er de forskjellige mulige typene av avledninger:
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 For å oppsummere, så langt har du lært å skape de grunnleggende elementene av HD-lommeboken: den mnemoniske frasen, frøet, og deretter hovednøkkelen og hovedkjedekoden. Du har også oppdaget hvordan man avleder barne-nøkkelpar i dette kapittelet. I neste kapittel vil vi utforske hvordan disse avledningene er organisert i Bitcoin-lommebøker og hvilken struktur man skal følge for å konkret oppnå mottaksadressene samt nøkkelparene som brukes i *scriptPubKey* og *scriptSig*.
@@ -1961,12 +1960,10 @@ RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 Vi har oppnådd en 160-bits hash av den offentlige nøkkelen, som utgjør det som kalles nyttelasten til adressen. Denne nyttelasten representerer den sentrale og viktigste delen av adressen. Den brukes også i *scriptPubKey* for å låse UTXOene.
 Men, for å gjøre denne nyttelasten lettere brukbar for mennesker, legges metadata til den. Neste steg involverer koding av denne hashen til grupper av 5 bits i desimal. Denne desimalomformingen vil være nyttig for konvertering til *bech32*, som brukes av post-SegWit-adresser. Den 160-bits binære hashen deles dermed inn i 32 grupper av 5 bits:
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
-\text{5-bits Grupper} & \text{Desimalverdi} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -1991,8 +1988,17 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
 Så, vi har:
 
@@ -2061,6 +2067,20 @@ Dette gir oss i desimal:
 Deretter må hver desimalverdi kartlegges til sin *bech32*-karakter ved hjelp av følgende konverteringstabell:
 
 
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
 $$
 
 For å konvertere en verdi til et _bech32_-tegn ved hjelp av denne tabellen, finn ganske enkelt verdiene i den første kolonnen og den første raden som, når de legges sammen, gir det ønskede resultatet. Deretter henter du det tilsvarende tegnet. For eksempel vil det desimale tallet `19` bli konvertert til bokstaven `n`, fordi $19 = 16 + 3$.
@@ -2145,28 +2165,32 @@ $$
 Med:
 
 - $v$: versjonsnummeret til skriptet (standard `0xC0` for Taproot);
-- $sz$: størrelsen på skriptet kodet i _CompactSize_-formatet; - $S$: skriptet.
+- $sz$: størrelsen på skriptet kodet i _CompactSize_-formatet; 
+- $S$: skriptet.
 
 De forskjellige skript-hashene ($\text{h}_{\text{leaf}}$) sorteres først i leksikografisk rekkefølge. Deretter blir de konkatenert i par og sendt gjennom den merkede hash-funksjonen `TapBranch`. Denne prosessen gjentas iterativt for å bygge, steg for steg, Merkle-treet:
-Gren-hashen \(\text{h}_{\text{branch}}\) beregnes som den merkede hash-funksjonen `TapBranch` anvendt på konkatenasjonen av blad-hashene \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\):
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 Vi fortsetter deretter med å konkatenere resultatene to og to, og sender dem gjennom den merkede hash-funksjonen `TapBranch` ved hvert steg, til vi oppnår Merkle-treets rot:
 
 ![CYP201](assets/fr/066.webp)
 
-Når Merkle-roten \(h*{\text{root}}\) er beregnet, kan vi beregne justeringen. For dette konkatenrer vi lommebokens interne offentlige nøkkel \(P\) med roten \(h*{\text{root}}\), og deretter sender vi hele gjennom den merkede hash-funksjonen `TapTweak`:
+Når Merkle-roten $h_{\text{root}}$ er beregnet, kan vi beregne tweaken. For å gjøre dette, kobles den interne offentlige nøkkelen til lommeboken $P$ med roten $h_{\text{root}}$, og resultatet kjøres gjennom den merkede hash-funksjonen `TapTweak`:
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-Til slutt, som før, oppnås Taproot-offentlig nøkkel \(Q\) ved å legge til den interne offentlige nøkkelen \(P\) til produktet av justeringen \(t\) med generatorpunktet \(G\):
+Til slutt, som tidligere, oppnås Taproot offentlig nøkkel $Q$ ved å legge til den interne offentlige nøkkelen $P$ til produktet av tweaken $t$ og generatorpunktet $G$:
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-Deretter følger genereringen av adressen samme prosess, ved å bruke den rå offentlige nøkkelen \(Q\) som nyttelast, ledsaget av noe tilleggs metadata.
+Genereringen av adressen følger deretter samme prosess, hvor den rå offentlige nøkkelen $Q$ brukes som nyttelast, sammen med noen ekstra metadata.
+
 
 Og der har du det! Vi har nådd slutten av dette CYP201-kurset. Hvis du fant dette kurset nyttig, ville jeg være veldig takknemlig hvis du kunne ta deg noen øyeblikk til å gi det en god vurdering i det følgende evalueringskapittelet. Føl deg også fri til å dele det med dine kjære eller på dine sosiale nettverk. Til slutt, hvis du ønsker å oppnå ditt diplom for dette kurset, kan du ta den endelige eksamenen rett etter evalueringskapittelet.
 

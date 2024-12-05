@@ -1,0 +1,16 @@
+id: 78879050-a625-4c8d-901d-1a95c5869a14
+title: Linux Advisory Watch
+author: Brittany Day
+publication_date: 1996-01-01
+level: wizard
+website: https://linuxsecurity.com/newsletters/linux-advisory-watch
+language:
+  - en
+description: |
+  An advisory watch for Linux systems that has been active for nearly three decades, provided by LinuxSecurity. Linux Advisory Watch and the Linux Security Week, together, have been the leading source of security news, information and updates impacting the Linux community. The Linux Advisory Watch provides detailed security advisories related to vulnerabilities, updates, and patches across a wide array of Linux distributions. It typically includes critical insights for administrators to stay updated on specific CVEs and their resolutions, making it highly technical and detail-oriented. Given that, it focuses on delivering concise, technical details about vulnerabilities (e.g., CVE specifics, patch availability) in a digestible format for those responsible for security implementations.
+tags:
+  - network-security
+  - good-practice
+
+contributors:
+  - hunt-wood

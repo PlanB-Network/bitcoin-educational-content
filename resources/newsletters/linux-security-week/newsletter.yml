@@ -1,0 +1,16 @@
+id: 1b588a18-9b44-43a8-8ce6-3692c73bf804
+title: Linux Security Week
+author: LinuxSecurity Team
+publication_date: 1996-01-01
+level: expert
+website: https://linuxsecurity.com/newsletters/linux-security-week
+language:
+  - en
+description: |
+  A weekly set of recommendations for Linux systems that has been active for nearly three decades, provided by LinuxSecurity. Linux Advisory Watch and the Linux Security Week, together, have been the leading source of security news, information and updates impacting the Linux community. The Linux Security Week offers a broader overview of Linux security trends and highlights. It covers not just advisories but also includes articles, news, and analysis on security best practices and challenges, making it more accessible to a general audience or those looking for a broader perspective. Given that, it includes summaries of security news and trends, making it better suited for a broad understanding of the Linux security ecosystem.
+tags:
+  - network-security
+  - good-practice
+
+contributors:
+  - hunt-wood

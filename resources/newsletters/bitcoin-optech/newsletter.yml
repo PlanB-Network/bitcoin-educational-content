@@ -1,0 +1,17 @@
+id: 32cd5246-ae6a-4d76-9e1d-8a25cb096e39
+title: Bitcoin Optech
+author: Adam Jonas, David A. Harding, Gloria Zhao, and al.
+publication_date: 2018-06-08
+level: expert
+website: https://bitcoinops.org/en/newsletters/
+language:
+  - en
+description: |
+  A key initiative from the Bitcoin Operations Technology Group (Optech) that bridges the gap between Bitcoin businesses and open source technology. The newsletter, released weekly, focuses on helping Bitcoin companies implement the most efficient and cost-effective operational practices. A primary focus is optimizing transaction sizes and managing fee costs through better technical implementation. The content covers technical developments, practical workshops, original research, and real-world case studies. What makes this newsletter particularly valuable is its non-profit nature (funded by member companies and seed investors Wences Casares and John Pfeffer) and its commitment to open source - all materials are released under the MIT license. It's especially relevant for engineers and managers at Bitcoin companies who want to stay current with the latest operational best practices and strengthen their connection to the open source community.
+tags:
+  - on-chain
+  - lightning
+
+contributors:
+  - hunt-wood
+  - another-satoshi

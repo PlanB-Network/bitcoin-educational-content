@@ -1938,7 +1938,7 @@ Avšak, aby byl tento payload snadněji použitelný pro lidi, je k němu přid�
 $$
 \begin{array}{|c|c|}
 \hline
-\text{5-bitové Skupiny} & \text{Desítková Hodnota} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\

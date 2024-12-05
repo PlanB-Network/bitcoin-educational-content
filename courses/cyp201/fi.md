@@ -257,14 +257,6 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
-
-
-$$
-
-\begin{pmatrix}
-
-$$
-\begin{pmatrix}
 0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
 0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
 0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
@@ -303,9 +295,10 @@ XOR:lle ($\oplus$):
 AND:lle ($\land$):
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- | --- | --- | --- | --- |
+| --- | --- | ----------- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           |     | 1   | 0   | 0   |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
 Ei ole ($\lnot p$):
@@ -437,6 +430,14 @@ $$
 H = G \\
 G = F \\
 F = E \\
+E = D + temp1 \mod 2^{32} \\
+D = C \\
+C = B \\
+B = A \\
+A = temp1 + temp2 \mod 2^{32}
+\end{cases}
+$$
+
 Seuraava kaava esittää yhden kierroksen SHA256-tiivistysfunktion toimintaa, kuten juuri kuvailimme:
 
 ![CYP201](assets/fr/010.webp)
@@ -447,20 +448,21 @@ Seuraava kaava esittää yhden kierroksen SHA256-tiivistysfunktion toimintaa, ku
 
 Voimme jo havaita, että tämä kierros tuottaa uudet tilamuuttujat $A$, $B$, $C$, $D$, $E$, $F$, $G$ ja $H$. Nämä uudet muuttujat toimivat syötteenä seuraavalle kierrokselle, joka puolestaan tuottaa uudet muuttujat $A$, $B$, $C$, $D$, $E$, $F$, $G$ ja $H$, joita käytetään seuraavalla kierroksella. Tämä prosessi jatkuu aina 64. kierrokseen asti.
 64 kierroksen jälkeen päivitämme tilamuuttujien alkuperäiset arvot lisäämällä ne lopullisiin arvoihin 64. kierroksen lopussa:
+
 $$
 
 \begin{cases}
-A = A*{\text{alkuperäinen}} + A \mod 2^{32} \\
-B = B*{\text{alkuperäinen}} + B \mod 2^{32} \\
-C = C*{\text{alkuperäinen}} + C \mod 2^{32} \\
-D = D*{\text{alkuperäinen}} + D \mod 2^{32} \\
-E = E*{\text{alkuperäinen}} + E \mod 2^{32} \\
-F = F*{\text{alkuperäinen}} + F \mod 2^{32} \\
-G = G*{\text{alkuperäinen}} + G \mod 2^{32} \\
-H = H*{\text{alkuperäinen}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
-
 $$
+
 
 Nämä uudet arvot $A$, $B$, $C$, $D$, $E$, $F$, $G$ ja $H$ toimivat alkuperäisinä arvoina seuraavalle lohkolle, $P_2$. Tässä lohkossa $P_2$ toistamme saman tiivistysprosessin 64 kierroksen ajan, sitten päivitämme muuttujat lohkolle $P_3$, ja niin edelleen, kunnes viimeinen lohko tasattua syötettä on käsitelty.
 
@@ -685,6 +687,7 @@ https://planb.network/courses/cyp302
 ## Julkisen avaimen laskeminen yksityisavaimesta
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
 Kuten aiemmin nähtiin, Bitcoinin digitaalisen allekirjoituksen algoritmit perustuvat matemaattisesti yhteydessä olevaan yksityisen ja julkisen avaimen pariin. Tutkitaan yhdessä, mikä tämä matemaattinen yhteys on ja miten ne luodaan.
 
 ### Yksityinen avain
@@ -780,7 +783,10 @@ Graafisesti tämä esitettäisiin seuraavasti:
 Näiden toimintojen ansiosta voimme ymmärtää, miksi julkisen avaimen johtaminen yksityisestä avaimesta on helppoa, mutta päinvastainen on käytännössä mahdotonta.
 
 Palataanpa yksinkertaistettuun esimerkkiimme. Yksityisellä avaimella $k = 4$. Laskiaksemme siihen liittyvän julkisen avaimen, suoritamme:
-K = k \cdot G = 4G$$
+
+$$
+K = k \cdot G = 4G
+$$
 
 Olemme siis pystyneet helposti laskemaan julkisen avaimen $K$ tietäen $k$:n ja $G$:n.
 
@@ -1175,6 +1181,17 @@ Mnemonisen lauseen sanojen määrä riippuu alkuperäisen entropian koosta, kute
 $$
 \begin{array}{|c|c|c|c|}
 \hline
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
+
 Esimerkiksi 256-bittiselle entropialle tulos $\text{ENT} \Vert \text{CS}$ on 264 bittiä ja tuottaa 24 sanan mnemonisen lauseen.
 
 ### Binäärijonon Muuntaminen Mnemoniseksi Lauseeksi
@@ -1268,6 +1285,7 @@ BIP39-standardi määrittelee siemenen 512-bittiseksi jonoiksi, joka toimii läh
 - $p$ : käyttäjän valitsema valinnainen salalause siemenen turvallisuuden parantamiseksi. Jos salalausetta ei ole, tämä kenttä jätetään tyhjäksi;
 - $\text{PBKDF2}$ : johdannaisfunktio $\text{HMAC-SHA512}$:lla ja $2048$ iteraatiolla;
 - $s$: 512-bittinen lompakon siemen.
+
 Riippumatta valitusta muistisarjan pituudesta (132 bittiä tai 264 bittiä), PBKDF2-funktio tuottaa aina 512-bittisen tuloksen, ja siemen on siksi aina tämän kokoinen.
 
 ### Siemenen johdannaiskaava PBKDF2:lla
@@ -1389,22 +1407,21 @@ Jos yksityiseen avaimen lisätään vain yksi tavu, se johtuu siitä, että paka
 Kuten juuri näimme, laajennetut avaimet sisältävät etuliitteen, joka osoittaa sekä laajennetun avaimen version että sen luonteen. Notaatio `pub` osoittaa, että se viittaa laajennettuun julkiseen avaimen, ja notaatio `prv` osoittaa laajennettuun yksityiseen avaimen. Lisäkirjain laajennetun avaimen perusteella auttaa osoittamaan, noudatetaanko standardia Legacy, SegWit v0, SegWit v1, jne.
 Tässä on yhteenveto käytetyistä etuliitteistä ja niiden merkityksistä:
 
-| Base 58 Etuliite | Base 16 Etuliite     | Verkko  | Tarkoitus              | Liitetyt Skriptit        | Johdatus                 | Avaintyyppi    |
-|----------------|--------------------|----------|----------------------|---------------------------|----------------------------|-------------|
-| `xpub`         | `0488b21e`         | Mainnet  | Legacy ja SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | julkinen      |
-| `xprv`         | `0488ade4`         | Mainnet  | Legacy ja SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | yksityinen     |
-| `tpub`         | `043587cf`         | Testnet  | Legacy ja SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | julkinen      |
-| `tprv`         | `04358394`         | Testnet  | Legacy ja SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | yksityinen     |
-| `ypub`         | `049d7cb2`         | Mainnet  | Sisäkkäinen SegWit        | P2WPKH in P2SH           | `m/49'/0'`                 | julkinen      |
-| `yprv`         | `049d7878`         | Mainnet  | Sisäkkäinen SegWit        | P2WPKH P2SH:ssa           | `m/49'/0'`                 | yksityinen     |
-| `upub`         | `049d7cb2`         | Testnet  | Sisäkkäinen SegWit        | P2WPKH P2SH:ssa           | `m/49'/1'`                 | julkinen      |
-| `uprv`         | `044a4e28`         | Testnet  | Sisäkkäinen SegWit        | P2WPKH P2SH:ssa           | `m/49'/1'`                 | yksityinen     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | julkinen      |
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-Tämä taulukko tarjoaa kattavan yleiskatsauksen laajennettujen avainten etuliitteistä, niiden base 58 ja base 16 etuliitteistä, niihin liittyvästä verkosta (Mainnet tai Testnet), niiden tarkoituksesta, niihin liittyvistä skripteistä, niiden johdannaispolusta ja siitä, ovatko ne julkisia vai yksityisiä avaimia.
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | yksityinen     |
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | julkinen      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | yksityinen     |
 
 ### Laajennetun avaimen elementtien yksityiskohdat
 
@@ -1462,7 +1479,9 @@ Tutkitaan, miten tämä deterministinen johdannainen toimii.
 Kuten edellisessä luvussa lyhyesti mainitsimme: lasten avaimet jakautuvat kahteen päätyyppiin:
 1. **Normaalit lasten avaimet** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Nämä johdetaan laajennetusta julkisesta avaimesta ($K_{\text{PAR}}$), tai laajennetusta yksityisestä avaimesta ($k_{\text{PAR}}$), ensin julkisen avaimen johdannaisena.
 2. **Kovennetut lasten avaimet** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Nämä voidaan johtaa vain laajennetusta yksityisestä avaimesta ($k_{\text{PAR}}$) ja ovat siksi näkymättömissä tarkkailijoille, joilla on vain laajennettu julkinen avain.
+
 Jokainen lapsiavainpari tunnistetaan 32-bittisellä **indeksillä** (nimetty $i$:ksi laskelmissamme). Normaalien avainten indeksit vaihtelevat välillä $0$ - $2^{31}-1$, kun taas kovennettujen avainten indeksit vaihtelevat välillä $2^{31}$ - $2^{32}-1$. Näitä numeroita käytetään erottamaan sisarusavainparit johdannan aikana. Itse asiassa jokaisen vanhemman avainparin on pystyttävä johtamaan useita lapsiavainpareja. Jos soveltaisimme samaa laskentaa järjestelmällisesti vanhemmista avaimista, kaikki saadut sisarusavaimet olisivat identtisiä, mikä ei ole toivottavaa. Indeksi tuo siis muuttujan, joka muuttaa johdannan laskentaa, mahdollistaen kunkin sisarusparin erottamisen. Lukuun ottamatta tiettyjä protokollia ja johdannan standardeja, aloitamme yleensä johdannan ensimmäisestä lapsiavaimesta indeksillä `0`, toisesta indeksillä `1`, ja niin edelleen.
+
 ### Johdantaprosessi HMAC-SHA512:n kanssa
 
 Kunkin lapsiavaimen johdanta perustuu HMAC-SHA512-funktioon, josta keskustelimme osiossa 2 hash-funktioista. Se ottaa kaksi syötettä: vanhemman ketjukoodin $C_{\text{PAR}}$ ja vanhemman avaimen (joko julkinen avain $K_{\text{PAR}}$ tai yksityinen avain $k_{\text{PAR}}$, riippuen halutun lapsiavaimen tyypistä) ja indeksin yhdistelmän. HMAC-SHA512:n tuloksena on 512-bittinen sekvenssi, joka jaetaan kahteen osaan:
@@ -1632,30 +1651,23 @@ Tässä on kaavamainen esitys koko johdannaisesta:
 Kysymys, joka saattaa nousta esiin, on miten normaali lapsen julkinen avain, joka on johdettu vanhemman julkisesta avaimesta, vastaa normaalia lapsen yksityistä avainta, joka on johdettu vastaavasta vanhemman yksityisestä avaimesta. Tämä linkki varmistetaan nimenomaan elliptisten käyrien ominaisuuksien avulla. Todellakin, normaalin lapsen julkisen avaimen johtamiseksi sovelletaan HMAC-SHA512 samalla tavalla, mutta sen tulosta käytetään eri tavalla:
    - **Normaali lapsen yksityinen avain**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
    - **Normaali lapsen julkinen avain**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
+
 Elliptisen käyrän lisäys- ja kaksinkertaistamistoimintojen ansiosta molemmat menetelmät tuottavat johdonmukaisia tuloksia: lapsen yksityisavaimesta johdettu julkinen avain on identtinen suoraan vanhemman julkisesta avaimesta johdetun lapsen julkisen avaimen kanssa.
 ### Johdannaistyypien yhteenveto
 
 Yhteenvetona, tässä ovat erilaiset mahdolliset johdannaistyypit:
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 Yhteenvetona, tähän mennessä olet oppinut luomaan HD-lompakon peruselementit: muistilauseen, siemenen ja sitten pääavaimen sekä pääketjukoodin. Olet myös löytänyt, miten johdetaan lapsiavainpareja tässä luvussa. Seuraavassa luvussa tutkimme, miten nämä johdannaiset on järjestetty Bitcoin-lompakoissa ja mitä rakennetta noudattaa konkreettisesti vastaanotto-osoitteiden sekä *scriptPubKey* ja *scriptSig*:ssä käytettyjen avainparien saamiseksi.
@@ -1957,12 +1969,10 @@ RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 Olemme saaneet 160-bittisen julkisen avaimen tiivisteen, joka muodostaa niin kutsutun osoitteen kuorman (payload). Tämä kuorma edustaa osoitteen keskeisintä ja tärkeintä osaa. Sitä käytetään myös *scriptPubKey:ssä* lukitsemaan UTXO:t.
 Jotta tämä kuorma olisi ihmisille helpommin käytettävissä, siihen lisätään metadataa. Seuraava vaihe sisältää tämän tiivisteen koodaamisen 5 bitin ryhmiin desimaalimuodossa. Tämä desimaalimuunnos on hyödyllinen muunnoksessa *bech32*-muotoon, jota käytetään post-SegWit-osoitteissa. 160-bittinen binääritiiviste jaetaan siten 32 ryhmään, joissa on 5 bittiä:
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
-\text{5-bittiset Ryhmät} & \text{Desimaaliarvo} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -1987,9 +1997,19 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
+
 Joten meillä on:
 
 ```text
@@ -2056,8 +2076,22 @@ Tämä antaa meille desimaaliluvuissa:
 
 Sitten jokainen desimaaliarvo on kartoitettava vastaavaan *bech32*-merkkiin käyttäen seuraavaa muunnostaulukkoa:
 
-
 $$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
+$$
+
 
 Arvon muuttaminen _bech32_-merkiksi tämän taulukon avulla on yksinkertaista: etsi ensimmäisestä sarakkeesta ja ensimmäisestä rivistä arvot, jotka yhteenlaskettuna antavat halutun tuloksen. Sen jälkeen hae vastaava merkki. Esimerkiksi desimaaliluku `19` muunnetaan kirjaimeksi `n`, koska $19 = 16 + 3$.
 Kartoittamalla kaikki arvomme saamme seuraavan osoitteen:
@@ -2141,28 +2175,33 @@ $$
 Missä:
 
 - $v$: skriptin versionumero (oletusarvo `0xC0` Taprootille);
-- $sz$: skriptin koko, joka on koodattu _CompactSize_-muodossa; - $S$: skripti.
+- $sz$: skriptin koko, joka on koodattu _CompactSize_-muodossa; 
+- $S$: skripti.
 
 Eri skriptien hajautukset ($\text{h}_{\text{leaf}}$) lajitellaan ensin leksikografiseen järjestykseen. Sen jälkeen ne yhdistetään pareittain ja syötetään merkityn hajautusfunktion `TapBranch` läpi. Tätä prosessia toistetaan iteratiivisesti rakentaaksemme askel askeleelta Merkle-puun:
-Haaran hajautus \(\text{h}_{\text{branch}}\) lasketaan soveltamalla merkittyä hajautusfunktiota `TapBranch` lehtihajautusten \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\) yhdistelmään:
+
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 Jatkamme sitten tulosten yhdistämistä kaksi kerrallaan, syöttämällä ne jokaisella askeleella merkityn hajautusfunktion `TapBranch` läpi, kunnes saamme Merkle-puun juuren:
 
 ![CYP201](assets/fr/066.webp)
 
-Kun Merkle-juuri \(h*{\text{root}}\) on laskettu, voimme laskea muunnoksen. Tätä varten yhdistämme lompakon sisäisen julkisen avaimen \(P\) juuren \(h*{\text{root}}\) kanssa, ja sitten syötämme koko yhdistelmän merkityn hajautusfunktion `TapTweak` läpi:
+Kun Merkle-juuri $h_{\text{root}}$ on laskettu, voimme laskea tweak-arvon. Tätä varten yhdistämme lompakon sisäisen julkisen avaimen $P$ juureen $h_{\text{root}}$ ja syötämme tuloksen merkittyyn hash-funktioon `TapTweak`:
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-Lopuksi, kuten aiemmin, Taprootin julkinen avain \(Q\) saadaan lisäämällä sisäinen julkinen avain \(P\) muunnoksen \(t\) ja generaattoripisteen \(G\) tulon kanssa:
+Lopuksi, kuten aiemmin, Taprootin julkinen avain $Q$ saadaan lisäämällä sisäinen julkinen avain $P$ tweak-arvon $t$ ja generaattoripisteen $G$ tuloon:
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-Tämän jälkeen osoitteen luominen noudattaa samaa prosessia, käyttäen raakaa julkista avainta \(Q\) kuormana, johon liittyy joitakin lisämetatietoja.
+Osoitteen luominen jatkuu samalla prosessilla, jossa raakajulkinen avain $Q$ toimii hyötykuormana, johon lisätään joitakin lisämetatietoja.
+
 
 Ja siinä kaikki! Olemme saapuneet CYP201-kurssin päätökseen. Jos pidit kurssia hyödyllisenä, olisin erittäin kiitollinen, jos voisit käyttää muutaman hetken antaaksesi sille hyvän arvostelun seuraavassa arviointiluvussa. Voit myös mielellään jakaa sen läheistesi tai sosiaalisten verkostojesi kanssa. Lopuksi, jos haluat saada diplomisi tälle kurssille, voit suorittaa loppukokeen heti arviointiluvun jälkeen.
 

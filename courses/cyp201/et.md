@@ -257,15 +257,9 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
-
-
-$$
-
-\begin{pmatrix}
-
-$$
-\begin{pmatrix}
-0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
+0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
+0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
+0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
 0x19a4c116, & 0x1e376c08, & 0x2748774c, & 0x34b0bcb5, \\
 0x391c0cb3, & 0x4ed8aa4a, & 0x5b9cca4f, & 0x682e6ff3, \\
 0x748f82ee, & 0x78a5636f, & 0x84c87814, & 0x8cc70208, \\
@@ -298,12 +292,13 @@ XOR-i ($\oplus$) puhul:
 | 1   | 0   | 1            |
 | 1   | 1   | 0            |
 
-JA ($\land$) puhul:
+AND ($\land$) puhul:
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- | --- | --- | --- | --- |
+| --- | --- | ----------- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           |     | 1   | 0   | 0   |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
 Eituse (NOT) ($\lnot p$) jaoks:
@@ -435,14 +430,12 @@ $$
 H = G \\
 G = F \\
 F = E \\
-$$
-
-E = D + \text{temp1} \mod 2^{32} \\D = C \\
+E = D + temp1 \mod 2^{32} \\
+D = C \\
 C = B \\
 B = A \\
-A = \text{temp1} + \text{temp2} \mod 2^{32}
+A = temp1 + temp2 \mod 2^{32}
 \end{cases}
-
 $$
 
 Järgnev diagramm esindab ühte vooru SHA256 tihendusfunktsioonis, nagu me just kirjeldasime:
@@ -458,14 +451,14 @@ Pärast 64 vooru uuendame olekumuutujate algväärtusi, lisades need lõppväär
 $$
 
 \begin{cases}
-A = A*{\text{algne}} + A \mod 2^{32} \\
-B = B*{\text{algne}} + B \mod 2^{32} \\
-C = C*{\text{algne}} + C \mod 2^{32} \\
-D = D*{\text{algne}} + D \mod 2^{32} \\
-E = E*{\text{algne}} + E \mod 2^{32} \\
-F = F*{\text{algne}} + F \mod 2^{32} \\
-G = G*{\text{algne}} + G \mod 2^{32} \\
-H = H*{\text{algne}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
 
 $$
@@ -790,7 +783,10 @@ Graafiliselt kujutataks seda järgmiselt:
 Tänu nendele toimingutele saame mõista, miks on lihtne tuletada avalik võti privaatvõtmest, kuid vastupidine on praktiliselt võimatu.
 
 Tagasi minnes meie lihtsustatud näite juurde. Privaatvõtmega $k = 4$. Avaliku võtme arvutamiseks teostame:
-K = k \cdot G = 4G$$
+
+$$
+K = k \cdot G = 4G
+$$
 
 Oleme seega suutnud kergesti arvutada avaliku võtme $K$, teades $k$ ja $G$.
 
@@ -1186,7 +1182,16 @@ Mnemoonilise fraasi sõnade arv sõltub algse entroopia suurusest, nagu on illus
 $$
 \begin{array}{|c|c|c|c|}
 \hline
-Näiteks 256-bitise entroopia puhul on tulemus $\text{ENT} \Vert \text{CS}$ 264 bitti ja annab mnemoonilise fraasi 24 sõnaga.
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
 
 ### Binaarjada Muundamine Mnemooniliseks Fraasiks
 
@@ -1231,6 +1236,7 @@ Selle tulemusena ei paku 24-sõnalise fraasi valimine rahakotile lisakaitset, ku
 Et minna kaugemale ja õppida konkreetsemalt, kuidas käsitsi genereerida test-mnemoonilist fraasi, soovitan teil avastada seda õpetust:
 
 https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+
 Enne kui jätkame rahakoti tuletamist sellest mnemoonilisest fraasist, tutvustan teile järgmises peatükis BIP39 paroolilauset, kuna see mängib tuletamisprotsessis rolli ja on mnemoonilise fraasiga samal tasemel.
 ## Paroolilause
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
@@ -1257,6 +1263,7 @@ Lõpuks on paroolilause kasutamine huvitav, kui soovitakse kontrollida HD rahako
 
 Et paroolilause oleks tõhus, peab see olema piisavalt pikk ja juhuslik. Nagu tugeva parooli puhul, soovitan valida paroolilause, mis on võimalikult pikk ja juhuslik, sisaldades tähtede, numbrite ja sümbolite mitmekesisust, et muuta mis tahes jõuga ründamine võimatuks.
 On oluline ka see salafraas korralikult salvestada, samamoodi nagu mnemooniline fraas. **Selle kaotamine tähendab juurdepääsu kaotamist oma bitcoinidele**. Ma soovitan tungivalt mitte jätta seda ainult meelde, kuna see suurendab mõttetult kaotuse riski. Ideaalne on see üles kirjutada füüsilisele kandjale (paberile või metallile) eraldi mnemoonilisest fraasist. See varukoopia peab ilmselgelt olema hoitud erinevas kohas, kus teie mnemooniline fraas, et vältida mõlema samaaegset kompromiteerimist.
+
 ![CYP201](assets/fr/042.webp)
 
 Järgmises jaotises avastame, kuidas neid kahte teie rahakoti aluseks olevat elementi — mnemoonilist fraasi ja salafraasi — kasutatakse võtmepaaride tuletamiseks, mida kasutatakse *scriptPubKey*'s, mis lukustavad teie UTXOsid.
@@ -1400,22 +1407,21 @@ Kui privaatvõtmele lisatakse ainult üks bait, on see seetõttu, et komprimeeri
 Nagu me just nägime, sisaldavad laiendatud võtmed prefiksi, mis näitab nii laiendatud võtme versiooni kui ka selle olemust. Notatsioon `pub` näitab, et see viitab laiendatud avalikule võtmele, ja notatsioon `prv` näitab laiendatud privaatvõtit. Lisatäht laiendatud võtme aluses aitab näidata, kas järgitakse standardit Legacy, SegWit v0, SegWit v1 jne.
 Siin on kokkuvõte kasutatud prefiksidest ja nende tähendustest:
 
-| Base 58 Prefiks | Base 16 Prefiks     | Võrk  | Eesmärk              | Seotud Skriptid        | Tuletamine                 | Võtme Tüüp    |
-|----------------|--------------------|----------|----------------------|---------------------------|----------------------------|-------------|
-| `xpub`         | `0488b21e`         | Mainnet  | Legacy ja SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | avalik      |
-| `xprv`         | `0488ade4`         | Mainnet  | Legacy ja SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | privaat     |
-| `tpub`         | `043587cf`         | Testnet  | Legacy ja SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | avalik      |
-| `tprv`         | `04358394`         | Testnet  | Legacy ja SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | privaat     |
-| `ypub`         | `049d7cb2`         | Mainnet  | Pesastatud SegWit        | P2WPKH in P2SH           | `m/49'/0'`                 | avalik      |
-| `yprv`         | `049d7878`         | Mainnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/0'`                 | privaatne     |
-| `upub`         | `049d7cb2`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | avalik      |
-| `uprv`         | `044a4e28`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | privaatne     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | avalik      |
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-See tabel annab põhjaliku ülevaate laiendatud võtmete prefiksidest, kirjeldades nende base 58 ja base 16 prefikseid, võrgustikku, millega need on seotud (Mainnet või Testnet), nende eesmärki, skripte, millega need on seotud, nende tuletusteed ja kas need on avalikud või privaatsed võtmed.
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | privaatne     |
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | avalik      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | privaatne     |
 
 ### Laiendatud võtme elementide detailid
 
@@ -1660,27 +1666,17 @@ Küsimus, mis võib tekkida, on see, kuidas tavaline lapse avalik võti, mis on 
 
 Kokkuvõtteks, siin on erinevad võimalikud tuletamistüübid:
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-
-
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 Kokkuvõtteks, seni olete õppinud looma HD rahakoti põhielemente: mnemoonilist fraasi, seemet ja seejärel peavõtit ning peamist ahelakoodi. Olete samuti avastanud, kuidas tuletada lapse võtmepaare selles peatükis. Järgmises peatükis uurime, kuidas neid tuletusi on organiseeritud Bitcoin'i rahakottides ja millist struktuuri järgida, et konkreetselt saada vastuvõtu aadresse ning võtmepaare, mida kasutatakse _scriptPubKey_ ja _scriptSig_ jaoks.
@@ -1909,9 +1905,12 @@ See skriptimudel tutvustati Bitcoini esimeses versioonis Satoshi Nakamoto poolt.
 
 Nagu P2PK, tutvustati P2PKH skripti Bitcoini käivitamisel. Erinevalt eelkäijast lukustab see bitcoinid kasutades avaliku võtme räsi, mitte otse toorest avalikku võtit. _scriptSig_ peab seejärel esitama saaja aadressiga seotud avaliku võtme, samuti kehtiva allkirja. Selle mudeli aadressid algavad `1`-ga ja on kodeeritud _base58check_-is. See skript kuulub samuti "_Legacy_" standardi hulka.
 
-**P2SH (_Pay-to-Script-Hash_)**: 2012. aastal BIP16-ga tutvustatud P2SH mudel võimaldab kasutada suvalise skripti räsi _scriptPubKey_-s. Seda räsitud skripti, mida nimetatakse "_redeemScript_-iks", sisaldavad tingimused vahendite vabastamiseks. UTXO kulutamiseks, mis on lukustatud P2SH-ga, on vajalik esitada _scriptSig_, mis sisaldab algset _redeemScript_-i ning vajalikke andmeid selle valideerimiseks. Seda mudelit kasutatakse märkimisväärselt vanade multisigide jaoks. P2SH-ga seotud aadressid algavad `3`-ga ja on kodeeritud _base58check_-is. See skript kuulub ka "_Legacy_" standardi alla.
+**P2SH (_Pay-to-Script-Hash_)**: 
+
+2012.aastal BIP16-ga tutvustatud P2SH mudel võimaldab kasutada suvalise skripti räsi _scriptPubKey_-s. Seda räsitud skripti, mida nimetatakse "_redeemScript_-iks", sisaldavad tingimused vahendite vabastamiseks. UTXO kulutamiseks, mis on lukustatud P2SH-ga, on vajalik esitada _scriptSig_, mis sisaldab algset _redeemScript_-i ning vajalikke andmeid selle valideerimiseks. Seda mudelit kasutatakse märkimisväärselt vanade multisigide jaoks. P2SH-ga seotud aadressid algavad `3`-ga ja on kodeeritud _base58check_-is. See skript kuulub ka "_Legacy_" standardi alla.
 
 **P2WPKH (_Pay-to-Witness-PubKey-Hash_)**:
+
 See skript on sarnane P2PKH-ga, kuna see samuti lukustab bitcoine avaliku võtme räsi kasutades. Siiski, erinevalt P2PKH-st, on _scriptSig_ viidud eraldi sektsiooni nimega "_Witness_". Seda nimetatakse mõnikord "_scriptWitness_-iks", et tähistada allkirja ja avaliku võtme komplekti. Igal SegWit sisendil on oma _scriptWitness_, ja _scriptWitness_-ide kogum moodustab tehingu _Witness_ välja. Allkirjaandmete selline liigutamine on uuendus, mida tutvustati SegWit uuendusega, eesmärgiga eriti vältida tehingute muudetavust ECDSA allkirjade tõttu.
 P2WPKH aadressid kasutavad _bech32_ kodeeringut ja algavad alati `bc1q`. See skripti tüüp vastab versioon 0 SegWit väljunditele.
 
@@ -1929,7 +1928,8 @@ Tehniliselt lukustab P2TR skript bitcoine unikaalse Schnorri avaliku võtmega, m
 
 - Avaldades allkirja avaliku võtme $P$ jaoks (_key path_).
 - Täites ühe skriptidest, mis sisalduvad Merkle puus (_script path_).
-  P2TR pakub suurt paindlikkust, kuna see võimaldab bitcoine lukustada kas unikaalse avaliku võtmega, mitme valitud skriptiga või mõlemaga korraga. Selle Merkle puu struktuuri eelis on see, et tehingu ajal paljastatakse ainult kasutatud kulutamise skript, kuid kõik teised alternatiivsed skriptid jäävad saladuseks.
+
+P2TR pakub suurt paindlikkust, kuna see võimaldab bitcoine lukustada kas unikaalse avaliku võtmega, mitme valitud skriptiga või mõlemaga korraga. Selle Merkle puu struktuuri eelis on see, et tehingu ajal paljastatakse ainult kasutatud kulutamise skript, kuid kõik teised alternatiivsed skriptid jäävad saladuseks.
 
 P2TR vastab versiooni 1 SegWit väljunditele, mis tähendab, et P2TR sisendite allkirjad salvestatakse tehingu _Witness_ sektsiooni, mitte _scriptSig_-i. P2TR aadressid kasutavad _bech32m_ kodeeringut ja algavad `bc1p`-ga, kuid need on üsna unikaalsed, kuna nende konstrueerimiseks ei kasutata räsi funktsiooni. Tegelikult esindavad nad otse avalikku võtit $Q$, mis on lihtsalt vormindatud metateabega. Seega on see skripti mudel lähedane P2PK-le.
 
@@ -1948,8 +1948,11 @@ Kuna aadressi genereerimise protsess sõltub vastuvõetud skripti mudelist, kesk
 Pärast kõigi tuletamisetappide sooritamist meistervõtmest sügavusele 5, kasutades sobivaid indekseid, saame võtmepaari ($k$, $K$), kus $K = k \cdot G$. Kuigi on võimalik kasutada seda avalikku võtit sellisena, nagu see on, vahendite lukustamiseks P2PK standardi järgi, ei ole see meie siin eesmärk. Selle asemel on meie eesmärk esmalt luua aadress P2WPKH-s ja seejärel P2TR-s teise näitena.
 
 Esimene samm on avaliku võtme $K$ kompressioon. Selle protsessi mõistmiseks meenutagem kõigepealt mõningaid põhitõdesid, mida käsitleti osas 3.
+
 Bitcoinis on avalik võti punkt $K$, mis asub elliptilisel kõveral. See on esitatud kujul $(x, y)$, kus $x$ ja $y$ on punkti koordinaadid. Oma lahtipakitud kujul mõõdab see avalik võti 520 bitti: 8 bitti prefiksi jaoks (algväärtus `0x04`), 256 bitti $x$ koordinaadi jaoks ja 256 bitti $y$ koordinaadi jaoks.
+
 Siiski, elliptilistel kõveratel on sümmeetriaomadus x-telje suhtes: antud $x$ koordinaadi jaoks on $y$ jaoks võimalikud ainult kaks väärtust: $y$ ja $-y$. Need kaks punkti asuvad x-telje mõlemal küljel. Teisisõnu, kui me teame $x$, piisab sellest, kui määrata, kas $y$ on paaris või paaritu, et tuvastada täpne punkt kõveral.
+
 Avaliku võtme kokkusurumiseks kodeeritakse ainult $x$, mis hõivab 256 bitti, ja lisatakse prefiks, et määrata $y$ paarsus. See meetod vähendab avaliku võtme suurust 264 bitini algse 520 asemel. Prefiks `0x02` näitab, et $y$ on paaris, ja prefiks `0x03` näitab, et $y$ on paaritu.
 Vaatame näidet, et paremini aru saada, kasutades toorest avalikku võtit kokkusurumata esituses:
 
@@ -1979,7 +1982,6 @@ Nüüd, kui oleme saanud oma kokkusurutud avaliku võtme, saame sellest tuletada
 
 Esimene samm on rakendada kokkusurutud avalikule võtmele HASH160 räsifunktsiooni. HASH160 on kahe järjestikuse räsifunktsiooni kompositsioon: SHA256, millele järgneb RIPEMD160:
 
-
 $$
 
 \text{HASH160}(K) = \text{RIPEMD160}(\text{SHA256}(K))
@@ -2001,12 +2003,10 @@ RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 Me oleme saanud 160-bitise räsi avalikust võtmest, mis moodustab nn aadressi sisu (payload). See sisu esindab aadressi keskset ja kõige olulisemat osa. Samuti kasutatakse seda _scriptPubKey_'s, et lukustada UTXOd.
 Siiski, et muuta see sisu inimestele kergemini kasutatavaks, lisatakse sellele metaandmed. Järgmine samm hõlmab selle räsi kodeerimist 5-bitisteks rühmadeks kümnendsüsteemis. See kümnendkood muutub kasulikuks muundamisel _bech32_-ks, mida kasutatakse post-SegWit aadressidel. 160-bitine binaarne räsi jagatakse seega 32 rühmaks, millest igaüks on 5 bitti:
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
-\text{5-bitised rühmad} & \text{Kümnendväärtus} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -2031,8 +2031,17 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
 
 Niisiis, meil on:
@@ -2052,8 +2061,8 @@ Kontrollsumma arvutamiseks BCH koodidega peame ette valmistama mitu elementi:
 - **Inimloetav osa (HRP)**: Bitcoin'i peamise võrgu jaoks on HRP `bc`;
   HRP tuleb laiendada, eraldades iga tähemärgi kaheks osaks:
 - Võttes HRP tähemärgid ASCII kujul:
-  - `b`: `01100010`
-- `c`: `01100011`
+	- `b`: `01100010`
+	- `c`: `01100011`
 - Eraldades 3 kõige olulisemat bitti ja 5 vähem olulist bitti:
   - 3 kõige olulisemat bitti: `011` (3 kümnendsüsteemis)
   - 3 kõige olulisemat bitti: `011` (3 kümnendsüsteemis)
@@ -2103,7 +2112,20 @@ See annab meile kümnendsüsteemis:
 
 Seejärel tuleb iga kümnendarv kaardistada vastavale _bech32_ tähemärgile, kasutades järgmist konversioonitabelit:
 
-
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
 $$
 
 Väärtuse teisendamiseks _bech32_ tähemärgiks kasutades seda tabelit, tuleb lihtsalt leida väärtused esimeses veerus ja esimeses reas, mis kokku liidetuna annavad soovitud tulemuse. Seejärel tuleb leida vastav tähemärk. Näiteks kümnendarv `19` teisendatakse täheks `n`, sest $19 = 16 + 3$.
@@ -2209,19 +2231,20 @@ Seejärel jätkame tulemuste kaupa kaupa ühendamist, lastes need igal sammul l�
 
 ![CYP201](assets/fr/066.webp)
 
-Kui Merkle'i juur \(h*{\text{root}}\) on arvutatud, saame arvutada kohanduse. Selleks ühendame rahakoti sisemise avaliku võtme \(P\) juurega \(h*{\text{root}}\), ja seejärel lastakse kogu läbi märgistatud räsi funktsiooni `TapTweak`:
+Kui Merkle'i juur $h_{\text{root}}$ on arvutatud, saame arvutada tweak'i. Selleks ühendame rahakoti sisemise avaliku võtme $P$ juurega $h_{\text{root}}$ ja viime tulemuse läbi märgistatud räsifunktsiooni `TapTweak`:
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-Lõpuks, nagu varem, saadakse Taprooti avalik võti \(Q\) lisades sisemise avaliku võtme \(P\) kohanduse \(t\) ja generaatori punkti \(G\) korrutisele:
+Lõpuks saadakse Taprooti avalik võti $Q$ samamoodi nagu varem, lisades sisemise avaliku võtme $P$ tweak'i $t$ ja generaatori punkti $G$ korrutisele:
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-Seejärel järgneb aadressi genereerimine sama protsessi kasutades, kasutades tooravalikku võtit \(Q\) koormana, millele lisandub mõningane lisametadata.
+Seejärel jätkub aadressi genereerimine sama protsessiga, kasutades toorandmetena avalikku võtit $Q$ koos mõne lisametainfoga.
+
 
 Ja nii me jõudsimegi CYP201 kursuse lõppu. Kui leidsite selle kursuse kasuliku olevat, oleksin väga tänulik, kui võtaksite hetke, et anda sellele järgnevas hinnangupeatükis hea hinnang. Julgustan teid jagama seda ka oma lähedastega või sotsiaalvõrgustikes. Lõpuks, kui soovite saada selle kursuse diplomit, saate lõpueksamit teha kohe pärast hinnangupeatükki.
 

@@ -254,29 +254,16 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
-\end{pmatrix}
-$$
-
-作为一名熟练的专业翻译人员，您的主要任务是将技术内容从英文准确翻译成您的母语简体中文。请遵循以下指南，以确保翻译的高质量：
-
-原始语言：内容最初是用英文编写的。
-内容性质：您将遇到技术材料，可能包括特定行业术语。
-链接和技术词汇：不要翻译URL或高度特定的技术术语。如果不确定，保留原始术语。
-格式一致性：保持与原始文本相同的Markdown布局和格式。结构的一致性至关重要。
-YML属性：如果一行以YAML属性开始（例如，'name:'、'goal:'、'objectives:'），保留属性名称为英文。
-文化背景：对于可能无法直接翻译的文化或上下文特定参考，改述以保留预期的含义或提供简要说明。
-重点应放在保持技术内容的完整性上，同时确保翻译在简体中文中是可理解的并且在上下文上准确。
-
-这是要翻译的文本：
-
-$$
-0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
+0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
+0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
+0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
 0x19a4c116, & 0x1e376c08, & 0x2748774c, & 0x34b0bcb5, \\
 0x391c0cb3, & 0x4ed8aa4a, & 0x5b9cca4f, & 0x682e6ff3, \\
 0x748f82ee, & 0x78a5636f, & 0x84c87814, & 0x8cc70208, \\
 0x90befffa, & 0xa4506ceb, & 0xbef9a3f7, & 0xc67178f2
 \end{pmatrix}
 $$
+
 
 ### 输入的划分
 
@@ -308,6 +295,15 @@ $$
 | $p$ | $q$ | $p \land q$ |
 | --- | --- | ----------- |
 | 0   | 0   | 0           |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
+| 1   | 1   | 1           |
+NOT ($\lnot p$) :
+
+| $p$ | $\lnot p$ |
+| --- | --------- |
+| 0   | 1         |
+| 1   | 0         |
 
 为了理解位级别上的异或（XOR）操作，我们来看一个例子。如果我们有两个六位的二进制数：
 
@@ -431,6 +427,14 @@ $$
 H = G \\
 G = F \\
 F = E \\
+E = D + temp1 \mod 2^{32} \\
+D = C \\
+C = B \\
+B = A \\
+A = temp1 + temp2 \mod 2^{32}
+\end{cases}
+$$
+
 以下是SHA256压缩函数一个轮次的表示图，正如我们刚才描述的：
 
 ![CYP201](assets/fr/010.webp)
@@ -441,19 +445,18 @@ F = E \\
 
 我们已经可以观察到，这一轮输出了新的状态变量$A$、$B$、$C$、$D$、$E$、$F$、$G$和$H$。这些新变量将作为下一轮的输入，进而产生新的变量$A$、$B$、$C$、$D$、$E$、$F$、$G$和$H$，用于下一轮。这个过程一直持续到第64轮。
 在64轮之后，我们通过将它们与第64轮结束时的最终值相加，来更新状态变量的初始值：
+
 $$
-
 \begin{cases}
-A = A*{\text{初始}} + A \mod 2^{32} \\
-B = B*{\text{初始}} + B \mod 2^{32} \\
-C = C*{\text{初始}} + C \mod 2^{32} \\
-D = D*{\text{初始}} + D \mod 2^{32} \\
-E = E*{\text{初始}} + E \mod 2^{32} \\
-F = F*{\text{初始}} + F \mod 2^{32} \\
-G = G*{\text{初始}} + G \mod 2^{32} \\
-H = H*{\text{初始}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
-
 $$
 
 这些新的$A$、$B$、$C$、$D$、$E$、$F$、$G$和$H$的值将作为下一个区块$P_2$的初始值。对于这个区块$P_2$，我们复制相同的压缩过程，进行64轮，然后我们更新区块$P_3$的变量，依此类推，直到我们的输入的最后一个区块。
@@ -774,7 +777,10 @@ $$
 多亏了这些操作，我们可以理解为什么从私钥推导出公钥很容易，但反之则几乎不可能。
 
 让我们回到我们的简化示例。使用私钥 $k = 4$。为了计算关联的公钥，我们执行：
-K = k \cdot G = 4G$$
+
+$$
+K = k \cdot G = 4G
+$$
 
 因此，我们能够通过知道 $k$ 和 $G$ 轻松计算出公钥 $K$。
 
@@ -1167,6 +1173,17 @@ $$
 $$
 \begin{array}{|c|c|c|c|}
 \hline
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
+
 例如，对于256位的熵，结果 $\text{ENT} \Vert \text{CS}$ 是264位，并产生24个单词的助记词组。
 
 ### 将二进制序列转换为助记词组
@@ -1385,22 +1402,20 @@ $$
 正如我们刚才看到的，扩展密钥包括一个前缀，该前缀指示扩展密钥的版本及其性质。符号 `pub` 表示它指的是一个扩展公钥，而符号 `prv` 表示一个扩展私钥。扩展密钥基础上的额外字母有助于指示遵循的标准是传统的、SegWit v0、SegWit v1 等。
 这里是使用的前缀及其含义的总结：
 
-| Base 58 前缀 | Base 16 前缀     | 网络     | 目的                  | 关联脚本                   | 派生路径                     | 密钥类型    |
-|--------------|------------------|----------|----------------------|----------------------------|------------------------------|-------------|
-| `xpub`       | `0488b21e`       | 主网     | 传统和 SegWit V1     | P2PK / P2PKH / P2TR        | `m/44'/0'`, `m/86'/0'`       | 公钥        |
-| `xprv`       | `0488ade4`       | 主网     | 传统和 SegWit V1     | P2PK / P2PKH / P2TR        | `m/44'/0'`, `m/86'/0'`       | 私钥        |
-| `tpub`       | `043587cf`       | 测试网   | 传统和 SegWit V1     | P2PK / P2PKH / P2TR        | `m/44'/1'`, `m/86'/1'`       | 公钥        |
-| `tprv`       | `04358394`       | 测试网   | 传统和 SegWit V1     | P2PK / P2PKH / P2TR        | `m/44'/1'`, `m/86'/1'`       | 私钥        |
-| `ypub`       | `049d7cb2`       | 主网     | 嵌套 SegWit          | P2WPKH in P2SH             | `m/49'/0'`                   | 公钥        |
-| `yprv`         | `049d7878`         | 主网  | 嵌套SegWit        | P2WPKH在P2SH中           | `m/49'/0'`                 | 私钥     |
-| `upub`         | `049d7cb2`         | 测试网  | 嵌套SegWit        | P2WPKH在P2SH中           | `m/49'/1'`                 | 公钥      |
-| `uprv`         | `044a4e28`         | 测试网  | 嵌套SegWit        | P2WPKH在P2SH中           | `m/49'/1'`                 | 私钥     |
-| `zpub`         | `04b24746`         | 主网  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | 公钥      |
-
-此表提供了扩展密钥中使用的前缀的全面概述，详细说明了它们的base 58和base 16前缀、它们关联的网络（主网或测试网）、它们的用途、它们关联的脚本、它们的派生路径，以及它们是公钥还是私钥。
-| `zprv`          | `04b2430c`          | 主网  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | 私钥     |
-| `vpub`          | `045f1cf6`          | 测试网  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | 公钥      |
-| `vprv`          | `045f18bc`          | 测试网  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | 私钥     |
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
 ### 扩展密钥元素的详细信息
 
@@ -1645,27 +1660,17 @@ $$
 
 总结一下，以下是不同可能的派生类型：
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-
-
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 总结一下，到目前为止，您已经学会了创建HD钱包的基本元素：助记词、种子，然后是主密钥和主链代码。在本章中，您还发现了如何派生子密钥对。在下一章中，我们将探讨这些派生在比特币钱包中是如何组织的，以及遵循什么结构来具体获得接收地址以及在*scriptPubKey*和*scriptSig*中使用的密钥对。
@@ -1986,12 +1991,10 @@ RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 我们已经获得了公钥的160位哈希值，这构成了所谓的地址的有效载荷（payload）。这个有效载荷代表了地址中最核心和最重要的部分。它也用于*scriptPubKey*中以锁定UTXOs。
 然而，为了使这个有效载荷更容易被人类使用，会向其中添加元数据。下一步涉及将这个哈希编码成5位一组的十进制数。这种十进制转换对于转换成*bech32*非常有用，*bech32*被后续的SegWit地址所使用。因此，160位的二进制哈希被划分为32组5位：
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
-\text{5位组} & \text{十进制值} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -2016,8 +2019,17 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
 
 因此，我们得到：
@@ -2089,6 +2101,20 @@ INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 
 然后，每个十进制值必须使用以下转换表映射到其*bech32*字符：
 
 
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
 $$
 
 要将一个值转换为 _bech32_ 字符，只需在第一列和第一行中找到相加后能得到所需结果的值。然后，检索相应的字符。例如，十进制数 `19` 将被转换为字母 `n`，因为 $19 = 16 + 3$。
@@ -2185,28 +2211,32 @@ $$
 其中：
 
 - $v$：脚本版本号（Taproot的默认值为`0xC0`）；
-- $sz$：脚本大小，以*CompactSize*格式编码；- $S$：脚本。
+- $sz$：脚本大小，以*CompactSize*格式编码；
+- $S$：脚本。
 
 不同的脚本哈希（$\text{h}_{\text{leaf}}$）首先按字典顺序排序。然后，它们成对连接，并通过标记哈希函数`TapBranch`进行处理。这个过程反复迭代，逐步构建Merkle树：
-分支哈希\(\text{h}_{\text{branch}}\)计算为标记哈希函数`TapBranch`应用于叶哈希的连接\(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\):
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 然后，我们继续两两连接结果，每一步都通过标记哈希函数`TapBranch`处理，直到我们获得Merkle树的根：
 
 ![CYP201](assets/fr/066.webp)
 
-一旦计算出Merkle根\(h*{\text{root}}\)，我们就可以计算调整值。为此，我们将钱包的内部公钥\(P\)与根\(h*{\text{root}}\)连接起来，然后将整体通过标记哈希函数`TapTweak`处理：
+在计算出梅克尔根 $h_{\text{root}}$ 之后，我们可以计算 tweak。为此，将钱包的内部公钥 $P$ 与根 $h_{\text{root}}$ 连接，并将结果通过标记哈希函数 `TapTweak`：
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-最后，如同之前，通过将内部公钥\(P\)加上调整值\(t\)与生成点\(G\)的乘积，获得Taproot公钥\(Q\)：
+最后，与之前一样，Taproot 公钥 $Q$ 是通过将内部公钥 $P$ 与 tweak $t$ 和生成点 $G$ 的乘积相加获得的：
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-然后，地址的生成遵循相同的过程，使用原始公钥\(Q\)作为有效载荷，附带一些额外的元数据。
+然后，地址生成遵循相同的流程，使用原始公钥 $Q$ 作为有效载荷，并附加一些额外的元数据。
+
 
 就这样！我们已经完成了CYP201课程的学习。如果您觉得这门课程有帮助，我将非常感激您能在接下来的评估章节给予好评。也欢迎您与亲朋好友分享，或在您的社交网络上分享。最后，如果您希望获得这门课程的毕业证书，可以在评估章节之后参加最终考试。
 

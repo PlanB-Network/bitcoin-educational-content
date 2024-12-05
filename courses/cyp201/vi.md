@@ -1359,14 +1359,14 @@ Kết quả của hàm này do đó là 512 bit. Nó sau đó được chia thà
 Toán học, hai giá trị này có thể được ghi như sau với $k_M$ là chìa khóa riêng tư chính và $C_M$ là mã chuỗi chính:
 $$
 
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 
 $$
 
 
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
@@ -1531,7 +1531,7 @@ Trong tất cả các phép tính của chúng tôi, tôi sẽ ký hiệu $\text
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 
 $$
 Trong phép tính này, chúng ta thấy rằng hàm HMAC của chúng ta nhận hai đầu vào: trước tiên, mã chuỗi cha, và sau đó là sự kết hợp của chỉ số với khóa công khai liên kết với khóa riêng tư cha. Khóa công khai cha được sử dụng ở đây vì chúng ta đang tìm cách suy rộng một khóa con thông thường, không phải một khóa cứng.
@@ -1547,7 +1547,7 @@ $$
 
 $$
 
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 
 $$
 
@@ -1556,7 +1556,7 @@ Khóa riêng tư con $k_{\text{CHD}}^n$ sau đó được tính toán như sau:
 
 $$
 
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 Trong phép tính này, thao tác $\text{parse256}(h_1)$ bao gồm việc giải thích 32 byte đầu tiên của $\text{hash}$ như một số nguyên 256-bit. Số này sau đó được cộng với khóa riêng của cha, tất cả được lấy modulo $n$ để giữ cho phép tính nằm trong phạm vi của đường cong elliptic, như chúng ta đã thấy trong phần 3 về chữ ký số. Do đó, để suy ra một khóa riêng con bình thường, mặc dù khóa công khai của cha được sử dụng làm cơ sở cho phép tính trong các đầu vào của hàm HMAC-SHA512, việc có khóa riêng của cha vẫn luôn cần thiết để hoàn thành phép tính.
@@ -1580,7 +1580,7 @@ Dưới đây là biểu đồ mô tả tổng quan quá trình suy ra:
 
 $$
 
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1604,7 +1604,7 @@ Khóa riêng con $k_{\text{CHD}}^h$ sau đó được tính như sau:
 
 $$
 
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
@@ -1631,7 +1631,7 @@ Nếu chúng ta chỉ biết khóa công khai của cha mẹ $K_{\text{PAR}}$ v�
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1658,7 +1658,7 @@ Khóa công khai con $K_{\text{CHD}}^n$ sau đó được tính như sau:
 
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 
 $$
 Nếu $\text{parse256}(h_1) \geq n$ (thứ tự của đường cong elliptic) hoặc nếu $K_{\text{CHD}}^n$ là điểm tại vô cực, suy ra là không hợp lệ, và một chỉ số khác phải được chọn.

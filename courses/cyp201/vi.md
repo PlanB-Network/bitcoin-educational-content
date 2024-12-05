@@ -258,6 +258,13 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
+0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
+0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
+0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
+0x19a4c116, & 0x1e376c08, & 0x2748774c, & 0x34b0bcb5, \\
+0x391c0cb3, & 0x4ed8aa4a, & 0x5b9cca4f, & 0x682e6ff3, \\
+0x748f82ee, & 0x78a5636f, & 0x84c87814, & 0x8cc70208, \\
+0x90befffa, & 0xa4506ceb, & 0xbef9a3f7, & 0xc67178f2
 \end{pmatrix}
 $$
 
@@ -291,6 +298,15 @@ Mỗi phép toán logic có thể được biểu diễn bằng một bảng ch�
 | $p$ | $q$ | $p \land q$ |
 | --- | --- | ----------- |
 | 0   | 0   | 0           |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
+| 1   | 1   | 1           |
+NOT ($\lnot p$) :
+
+| $p$ | $\lnot p$ |
+| --- | --------- |
+| 0   | 1         |
+| 1   | 0         |
 
 Để hiểu về hoạt động của XOR ở cấp độ bit, hãy lấy một ví dụ. Nếu chúng ta có hai số nhị phân 6 bit:
 
@@ -415,19 +431,12 @@ $$
 H = G \\
 G = F \\
 F = E \\
-Dưới đây là bản dịch của đoạn văn bản đã cho:
-
-
-$$
-
-\begin{cases}
 E = D + temp1 \mod 2^{32} \\
 D = C \\
 C = B \\
 B = A \\
 A = temp1 + temp2 \mod 2^{32}
 \end{cases}
-
 $$
 
 Sơ đồ sau đây đại diện cho một vòng của hàm nén SHA256 như chúng tôi vừa mô tả:
@@ -439,18 +448,20 @@ Sơ đồ sau đây đại diện cho một vòng của hàm nén SHA256 như ch
 - Các ký hiệu $+$ xung quanh biểu diễn phép cộng modulo $2^{32}$.
 
 Chúng ta có thể quan sát thấy rằng, sau vòng này, các biến trạng thái mới $A$, $B$, $C$, $D$, $E$, $F$, $G$, và $H$ được tạo ra. Những biến mới này sẽ được sử dụng làm đầu vào cho vòng tiếp theo, từ đó tạo ra các biến mới $A$, $B$, $C$, $D$, $E$, $F$, $G$, và $H$ để sử dụng cho vòng tiếp theo. Quá trình này tiếp tục cho đến vòng thứ 64.
+
 Sau 64 vòng, chúng ta cập nhật các giá trị ban đầu của các biến trạng thái bằng cách cộng chúng với các giá trị cuối cùng ở cuối vòng 64:
+
 $$
 
 \begin{cases}
-A = A*{\text{ban đầu}} + A \mod 2^{32} \\
-B = B*{\text{ban đầu}} + B \mod 2^{32} \\
-C = C*{\text{ban đầu}} + C \mod 2^{32} \\
-D = D*{\text{ban đầu}} + D \mod 2^{32} \\
-E = E*{\text{ban đầu}} + E \mod 2^{32} \\
-F = F*{\text{ban đầu}} + F \mod 2^{32} \\
-G = G*{\text{ban đầu}} + G \mod 2^{32} \\
-H = H*{\text{ban đầu}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
 
 $$
@@ -803,6 +814,8 @@ Một cách hình ảnh, điều này sẽ được biểu diễn như sau:
 Nhờ những phép toán này, chúng ta có thể hiểu tại sao việc suy ra khóa công khai từ khóa riêng là dễ dàng, nhưng ngược lại thì gần như không thể.
 
 Hãy quay lại với ví dụ đơn giản của chúng ta. Với khóa riêng $k = 4$. Để tính toán khóa công khai liên quan, chúng ta thực hiện:
+
+$$
 K = k \cdot G = 4G
 $$
 
@@ -1200,6 +1213,17 @@ Số lượng từ trong cụm từ ghi nhớ phụ thuộc vào kích thước 
 $$
 \begin{array}{|c|c|c|c|}
 \hline
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
+
 Ví dụ, đối với một entropy 256-bit, kết quả $\text{ENT} \Vert \text{CS}$ là 264 bit và tạo ra một cụm từ ghi nhớ gồm 24 từ.
 
 ### Chuyển Đổi Chuỗi Nhị Phân thành Cụm Từ Ghi Nhớ
@@ -1415,22 +1439,21 @@ Nếu một byte được thêm vào khóa riêng tư, đó là vì khóa công 
 Như chúng ta vừa thấy, khóa mở rộng bao gồm một tiền tố chỉ ra cả phiên bản của khóa mở rộng và bản chất của nó. Ký hiệu `pub` chỉ ra rằng nó đề cập đến khóa công khai mở rộng, và ký hiệu `prv` chỉ ra khóa riêng tư mở rộng. Chữ cái bổ sung ở cơ sở của khóa mở rộng giúp chỉ ra liệu tiêu chuẩn được theo dõi là Legacy, SegWit v0, SegWit v1, v.v.
 Dưới đây là bảng tổng kết các tiền tố được sử dụng và ý nghĩa của chúng:
 
-| Tiền Tố Base 58 | Tiền Tố Base 16     | Mạng Lưới  | Mục Đích              | Kịch Bản Liên Quan        | Đạo Hàm                 | Loại Khóa    |
-|----------------|--------------------|----------|----------------------|---------------------------|----------------------------|-------------|
-| `xpub`         | `0488b21e`         | Mainnet  | Legacy và SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | công khai      |
-| `xprv`         | `0488ade4`         | Mainnet  | Legacy và SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | riêng tư     |
-| `tpub`         | `043587cf`         | Testnet  | Legacy và SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | công khai      |
-| `tprv`         | `04358394`         | Testnet  | Legacy và SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | riêng tư     |
-| `ypub`         | `049d7cb2`         | Mainnet  | Nested SegWit        | P2WPKH trong P2SH           | `m/49'/0'`                 | công khai      |
-Bảng này cung cấp một cái nhìn tổng quan về các tiền tố được sử dụng trong khóa mở rộng, chi tiết về tiền tố cơ sở 58 và cơ sở 16, mạng mà chúng liên kết (Mainnet hoặc Testnet), mục đích của chúng, các script mà chúng liên kết, đường dẫn phát sinh của chúng, và liệu chúng là khóa công khai hay khóa riêng tư.
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-| `yprv`         | `049d7878`         | Mainnet  | Nested SegWit        | P2WPKH trong P2SH           | `m/49'/0'`                 | riêng tư     |
-| `upub`         | `049d7cb2`         | Testnet  | Nested SegWit        | P2WPKH trong P2SH           | `m/49'/1'`                 | công khai      |
-| `uprv`         | `044a4e28`         | Testnet  | Nested SegWit        | P2WPKH trong P2SH           | `m/49'/1'`                 | riêng tư     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | công khai      |
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | riêng tư     |
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | công khai      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | riêng tư     |
 
 ### Chi Tiết về Các Yếu Tố của Khóa Mở Rộng
 
@@ -1665,25 +1688,17 @@ Cảm ơn việc thêm vào và nhân đôi các phép toán trên đường con
 
 Để tóm tắt, dưới đây là các loại phái sinh khả dĩ:
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 Để tóm tắt, cho đến nay bạn đã học cách tạo ra các yếu tố cơ bản của ví HD: cụm từ ghi nhớ, hạt giống và sau đó là khóa chính và mã chuỗi chính. Bạn cũng đã khám phá cách phái sinh các cặp khóa con trong chương này. Trong chương tiếp theo, chúng ta sẽ khám phá cách các phái sinh này được tổ chức trong ví Bitcoin và cấu trúc nào cần theo dõi để cụ thể nhận được các địa chỉ nhận cũng như các cặp khóa được sử dụng trong *scriptPubKey* và *scriptSig*.
@@ -1988,12 +2003,10 @@ Chúng tôi đã thu được một băm 160-bit của khóa công khai, đây c
 
 Tuy nhiên, để làm cho payload này dễ sử dụng hơn với con người, metadata được thêm vào. Bước tiếp theo bao gồm việc mã hóa băm này thành các nhóm 5 bit dưới dạng thập phân. Sự chuyển đổi thập phân này sẽ hữu ích cho việc chuyển đổi thành *bech32*, được sử dụng bởi địa chỉ sau-SegWit. Băm nhị phân 160-bit do đó được chia thành 32 nhóm 5 bit:
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
-\text{Nhóm 5-bit} & \text{Giá Trị Thập Phân} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -2018,8 +2031,17 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
 Vậy, chúng ta có:
 
@@ -2086,6 +2108,23 @@ Bây giờ chúng ta có thể xây dựng địa chỉ nhận bằng cách nố
 ```
 
 Sau đó, mỗi giá trị thập phân phải được ánh xạ vào ký tự *bech32* của nó sử dụng bảng chuyển đổi sau:
+
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
+$$
+
 Để chuyển đổi một giá trị thành một ký tự *bech32* sử dụng bảng này, chỉ cần tìm giá trị trong cột đầu tiên và hàng đầu tiên mà, khi cộng lại, cho kết quả mong muốn. Sau đó, lấy ký tự tương ứng. Ví dụ, số thập phân `19` sẽ được chuyển đổi thành chữ `n`, bởi vì $19 = 16 + 3$.
 Bằng cách ánh xạ tất cả giá trị của chúng ta, chúng ta nhận được địa chỉ sau:
 
@@ -2173,28 +2212,32 @@ $$
 
 Với:
 - $v$: số phiên bản kịch bản (mặc định `0xC0` cho Taproot);
-- $sz$: kích thước của script được mã hóa theo định dạng *CompactSize*; - $S$: script.
+- $sz$: kích thước của script được mã hóa theo định dạng *CompactSize*; 
+- $S$: script.
 
 Các hash script khác nhau ($\text{h}_{\text{leaf}}$) được sắp xếp theo thứ tự từ điển trước tiên. Sau đó, chúng được nối lại với nhau thành từng cặp và đưa qua hàm băm có gắn thẻ `TapBranch`. Quá trình này được lặp lại từng bước để xây dựng cây Merkle:
-Hash nhánh \(\text{h}_{\text{branch}}\) được tính toán như là hàm băm có gắn thẻ `TapBranch` áp dụng cho sự nối của các hash lá \(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}}\):
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 Chúng ta tiếp tục bằng cách nối kết quả thành từng cặp, đưa chúng qua hàm băm có gắn thẻ `TapBranch` ở mỗi bước, cho đến khi chúng ta thu được gốc của cây Merkle:
 
 ![CYP201](assets/fr/066.webp)
 
-Một khi gốc Merkle \(h_{\text{root}}\) được tính toán, chúng ta có thể tính toán tweak. Để làm điều này, chúng ta nối khóa công khai nội bộ của ví \(P\) với gốc \(h_{\text{root}}\), và sau đó đưa toàn bộ qua hàm băm có gắn thẻ `TapTweak`:
+Sau khi tính toán được gốc Merkle $h_{\text{root}}$, chúng ta có thể tính toán tweak. Để làm điều này, khóa công khai nội bộ của ví $P$ được nối với gốc $h_{\text{root}}$, và kết quả được đưa qua hàm băm có gắn thẻ `TapTweak`:
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-Cuối cùng, như trước, khóa công khai Taproot \(Q\) được thu được bằng cách cộng khóa công khai nội bộ \(P\) với sản phẩm của tweak \(t\) với điểm sinh \(G\):
+Cuối cùng, giống như trước đây, khóa công khai Taproot $Q$ được tạo bằng cách thêm khóa công khai nội bộ $P$ với tích của tweak $t$ và điểm tạo $G$:
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-Sau đó, việc tạo địa chỉ tuân theo cùng một quy trình, sử dụng khóa công khai thô \(Q\) làm payload, kèm theo một số metadata bổ sung.
+Sau đó, việc tạo địa chỉ sẽ tiếp tục theo cùng một quy trình, sử dụng khóa công khai $Q$ thô làm payload, cùng với một số siêu dữ liệu bổ sung.
+
 
 Và đó là tất cả! Chúng ta đã đến cuối khóa học CYP201. Nếu bạn thấy khóa học này hữu ích, tôi sẽ rất biết ơn nếu bạn có thể dành vài phút để đánh giá cao nó trong chương đánh giá tiếp theo. Đừng ngần ngại chia sẻ nó với người thân yêu của bạn hoặc trên các mạng xã hội của bạn. Cuối cùng, nếu bạn muốn nhận bằng chứng nhận cho khóa học này, bạn có thể tham gia kỳ thi cuối cùng ngay sau chương đánh giá.
 

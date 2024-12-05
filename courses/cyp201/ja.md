@@ -256,11 +256,6 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
-\end{pmatrix}
-$$
-
-$$
-\begin{pmatrix}
 0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
 0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
 0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
@@ -270,6 +265,7 @@ $$
 0x90befffa, & 0xa4506ceb, & 0xbef9a3f7, & 0xc67178f2
 \end{pmatrix}
 $$
+
 
 ### 入力の分割
 
@@ -299,9 +295,10 @@ XOR（$\oplus$）の場合：
 AND（$\land$）の場合：
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- | --- | --- | --- | --- |
+| --- | --- | ----------- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           |     | 1   | 0   | 0   |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
 NOT ($\lnot p$)について:
@@ -434,6 +431,14 @@ $$
 H = G \\
 G = F \\
 F = E \\
+E = D + temp1 \mod 2^{32} \\
+D = C \\
+C = B \\
+B = A \\
+A = temp1 + temp2 \mod 2^{32}
+\end{cases}
+$$
+
 以下は、SHA256圧縮関数のラウンドを表したものです：
 
 ![CYP201](assets/fr/010.webp)
@@ -444,17 +449,17 @@ F = E \\
 
 このラウンドが新しい状態変数$A$、$B$、$C$、$D$、$E$、$F$、$G$、$H$を出力することがすでに観察できます。これらの新しい変数は次のラウンドの入力として機能し、次に新しい変数$A$、$B$、$C$、$D$、$E$、$F$、$G$、$H$を生成し、次のラウンドに使用されます。このプロセスは64ラウンドまで続きます。
 64ラウンド後、最終ラウンドの終了時に最終値に初期値を加算することで、状態変数の初期値を更新します：
-$$
 
+$$
 \begin{cases}
-A = A*{\text{初期}} + A \mod 2^{32} \\
-B = B*{\text{初期}} + B \mod 2^{32} \\
-C = C*{\text{初期}} + C \mod 2^{32} \\
-D = D*{\text{初期}} + D \mod 2^{32} \\
-E = E*{\text{初期}} + E \mod 2^{32} \\
-F = F*{\text{初期}} + F \mod 2^{32} \\
-G = G*{\text{初期}} + G \mod 2^{32} \\
-H = H*{\text{初期}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
 
 $$
@@ -806,6 +811,8 @@ $$
 これらの操作のおかげで、プライベートキーから公開キーを導出することは容易であるが、その逆が事実上不可能である理由を理解することができます。
 
 私たちの簡略化された例に戻りましょう。プライベートキー $k = 4$ で、関連する公開キーを計算するために、次の操作を行います：
+
+$$
 K = k \cdot G = 4G
 $$
 
@@ -1202,6 +1209,17 @@ $$
 $$
 \begin{array}{|c|c|c|c|}
 \hline
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
+
 例えば、256ビットのエントロピーの場合、結果$\text{ENT} \Vert \text{CS}$は264ビットとなり、ニーモニックフレーズは24単語になります。
 
 ### バイナリシーケンスをニーモニックフレーズに変換
@@ -1416,22 +1434,21 @@ HDウォレットの導出を次の要素で続ける前に、次の章でマス
 先ほど見たように、拡張鍵には拡張鍵のバージョンとその性質の両方を示す接頭辞が含まれています。表記`pub`は、それが拡張公開鍵を指すことを示し、表記`prv`は拡張秘密鍵を指します。拡張鍵の基底に追加される文字は、Legacy、SegWit v0、SegWit v1など、どの標準に従っているかを示すのに役立ちます。
 ここに使用される接頭辞とその意味の要約を示します：
 
-| Base 58 Prefix | Base 16 Prefix     | Network  | Purpose              | Associated Scripts        | Derivation                 | Key Type    |
-|----------------|--------------------|----------|----------------------|---------------------------|----------------------------|-------------|
-| `xpub`         | `0488b21e`         | Mainnet  | LegacyおよびSegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | public      |
-| `xprv`         | `0488ade4`         | Mainnet  | LegacyおよびSegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | private     |
-| `tpub`         | `043587cf`         | Testnet  | LegacyおよびSegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | public      |
-| `tprv`         | `04358394`         | Testnet  | LegacyおよびSegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | private     |
-| `ypub`         | `049d7cb2`         | Mainnet  | ネストされたSegWit    | P2WPKH in P2SH           | `m/49'/0'`                 | public      |
-このテーブルは、拡張キーで使用されるプレフィックスの包括的な概要を提供し、それらのbase 58とbase 16のプレフィックス、関連するネットワーク（MainnetまたはTestnet）、目的、関連するスクリプト、導出パス、そしてそれらが公開鍵か秘密鍵かを詳細に説明しています。
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-| `yprv`         | `049d7878`         | Mainnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/0'`                 | private     |
-| `upub`         | `049d7cb2`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | public      |
-| `uprv`         | `044a4e28`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | private     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | public      |
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | private     |
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | public      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | private     |
 
 ### 拡張キーの要素の詳細
 
@@ -1665,25 +1682,17 @@ $$
 
 ここに、可能な導出タイプを要約します：
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 要約すると、これまでにHDウォレットの基本要素を作成する方法を学びました：ニーモニックフレーズ、シード、そしてマスターキーとマスターチェーンコード。また、この章で子キーペアを導出する方法も発見しました。次の章では、これらの導出がビットコインウォレットでどのように組織され、*scriptPubKey* と *scriptSig* で使用されるキーペアと受信アドレスを具体的に取得するためにどの構造に従うべきかを探求します。
@@ -1982,12 +1991,10 @@ RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 公開鍵の160ビットハッシュを取得しました。これはアドレスのペイロードと呼ばれるものを構成します。このペイロードはアドレスの中心的で最も重要な部分を表します。また、UTXOsをロックするために*scriptPubKey*で使用されます。
 しかし、このペイロードを人間がより簡単に使用できるようにするために、メタデータが追加されます。次のステップでは、このハッシュを5ビットのグループに10進数でエンコードします。この10進数変換は、SegWit以降のアドレスで使用される*bech32*への変換に役立ちます。160ビットのバイナリハッシュは、5ビットの32グループに分割されます：
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
-\text{5ビットグループ} & \text{10進数値} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -2012,8 +2019,17 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
 したがって、以下のようになります：
 
@@ -2082,6 +2098,20 @@ INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 
 その後、各10進数値を以下の変換表を使用して*bech32*文字にマッピングする必要があります：
 
 
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
 $$
 
 値を*bech32*文字に変換するには、この表を使用して、最初の列と最初の行にある値を見つけ、それらを合計すると所望の結果が得られるようにします。その後、対応する文字を取得します。例えば、10進数の`19`は、$19 = 16 + 3$であるため、文字`n`に変換されます。
@@ -2166,28 +2196,32 @@ $$
 ここで：
 
 - $v$：スクリプトのバージョン番号（Taprootのデフォルトは`0xC0`）；
-- $sz$: スクリプトのサイズは _CompactSize_ 形式でエンコードされます；- $S$: スクリプトです。
+- $sz$: スクリプトのサイズは _CompactSize_ 形式でエンコードされます；
+- $S$: スクリプトです。
 
 異なるスクリプトハッシュ ($\text{h}_{\text{leaf}}$) はまず、辞書順にソートされます。次に、これらをペアで連結し、タグ付きハッシュ関数 `TapBranch` を通して処理します。このプロセスは繰り返し行われ、段階的にマークルツリーを構築します：
-ブランチハッシュ \(\text{h}_{\text{branch}}\) は、葉のハッシュ \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\) の連結にタグ付きハッシュ関数 `TapBranch` を適用して計算されます：
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 次に、結果を二つずつ連結し、各ステップでタグ付きハッシュ関数 `TapBranch` を通して処理を続け、マークルツリーの根を得ます：
 
 ![CYP201](assets/fr/066.webp)
 
-マークル根 \(h*{\text{root}}\) を計算したら、次にトゥウィークを計算できます。これには、ウォレットの内部公開鍵 \(P\) を根 \(h*{\text{root}}\) と連結し、その全体をタグ付きハッシュ関数 `TapTweak` を通して処理します：
+マークルルート $h_{\text{root}}$ が計算されたら、次にtweakを計算します。そのためには、ウォレットの内部公開鍵 $P$ をルート $h_{\text{root}}$ と連結し、結果をタグ付きハッシュ関数 `TapTweak` に通します：
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-最後に、以前と同様に、トゥウィーク \(t\) と生成点 \(G\) の積に内部公開鍵 \(P\) を加えることで、Taproot公開鍵 \(Q\) が得られます：
+最後に、これまでと同様に、Taproot公開鍵 $Q$ は内部公開鍵 $P$ に tweak $t$ と生成点 $G$ の積を加えることで得られます：
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-その後、アドレスの生成は同じプロセスに従い、生の公開鍵 \(Q\) をペイロードとして使用し、いくつかの追加メタデータを伴います。
+その後、アドレスの生成は同じプロセスに従い、公開鍵 $Q$ をペイロードとして使用し、いくつかの追加メタデータを伴います。
+
 
 これで終わりです！CYP201コースの最後に到達しました。このコースが役立ったと思われる場合、次の評価章で良い評価をしていただけると非常に感謝します。また、愛する人やソーシャルネットワークで共有していただけると嬉しいです。最後に、このコースのディプロマを取得したい場合は、評価章の直後に最終試験を受けることができます。
 

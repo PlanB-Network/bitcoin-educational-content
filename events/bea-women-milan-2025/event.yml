@@ -1,0 +1,16 @@
+- start_date: 2025-01-17 08:00:00
+  end_date: 2025-01-19 16:00:00
+  timezone: Europe/Rome
+  address_line_1: Milan, Italy
+  name: Bitcoin Educators Academy For Women Italy 2025
+  builder: Amity Age
+  type: course
+  description: Experience 3 intense days of learning how to communicate and educate Bitcoin in a simple and efficient way!
+  language:
+    - en
+  links:
+    website: https://www.amityage.com/bea
+  tags:
+    - adoption
+    - DIY
+    - proof-of-work

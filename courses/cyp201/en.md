@@ -390,10 +390,7 @@ The first 16 words, $W_0$ to $W_{15}$, are directly extracted from the processed
 The next 48 words ($W_{16}$ to $W_{63}$) are generated using the following formula:
 
 $$
-
-W*i = W*{i-16} + \sigma*0(W*{i-15}) + W*{i-7} + \sigma_1(W*{i-2}) \mod 2^{32}
-
-
+W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
 $$
 
 With:
@@ -407,18 +404,19 @@ Once we have determined all the words $W_i$ for our 512-bit piece, we can move o
 
 ![CYP201](assets/fr/009.webp)
 For each round $i$ from 0 to 63, we have three different types of inputs. First, the $W_i$ that we have just determined, partly consisting of our message piece $P_n$. Next, the 64 constants $K_i$. Finally, we use the state variables $A$, $B$, $C$, $D$, $E$, $F$, $G$, and $H$, which will evolve throughout the hashing process and be modified with each compression function. However, for the first piece $P_1$, we use the initial constants given previously.
+
 We then perform the following operations on our inputs:
 
 - **Function $\Sigma_0$:**
 
 $$
-\Sigma*0(A) = RotR_2(A) \oplus RotR*{13}(A) \oplus RotR\_{22}(A)
+\Sigma_0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR_{22}(A)
 $$
 
 - **Function $\Sigma_1$:**
 
 $$
-\Sigma*1(E) = RotR_6(E) \oplus RotR*{11}(E) \oplus RotR\_{25}(E)
+\Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
 $$
 
 - **Function $Ch$ ("_Choose_"):**
@@ -474,19 +472,16 @@ We can already observe that this round outputs new state variables $A$, $B$, $C$
 After the 64 rounds, we update the initial values of the state variables by adding them to the final values at the end of round 64:
 
 $$
-
 \begin{cases}
-A = A*{\text{initial}} + A \mod 2^{32} \\
-B = B*{\text{initial}} + B \mod 2^{32} \\
-C = C*{\text{initial}} + C \mod 2^{32} \\
-D = D*{\text{initial}} + D \mod 2^{32} \\
-E = E*{\text{initial}} + E \mod 2^{32} \\
-F = F*{\text{initial}} + F \mod 2^{32} \\
-G = G*{\text{initial}} + G \mod 2^{32} \\
-H = H*{\text{initial}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
-
-
 $$
 
 These new values of $A$, $B$, $C$, $D$, $E$, $F$, $G$, and $H$ will serve as the initial values for the next block, $P_2$. For this block $P_2$, we replicate the same compression process with 64 rounds, then we update the variables for block $P_3$, and so on until the last block of our equalized input.
@@ -2318,7 +2313,7 @@ We then continue by concatenating the results two by two, passing them at each s
 
 ![CYP201](assets/fr/066.webp)
 
-Once the Merkle root $h*{\text{root}}$ is calculated, we can calculate the tweak. For this, we concatenate the internal public key of the wallet $P$ with the root $h*{\text{root}}$, and then pass the whole through the tagged hash function `TapTweak`:
+Once the Merkle root $h_{\text{root}}$ is calculated, we can calculate the tweak. For this, we concatenate the internal public key of the wallet $P$ with the root $h_{\text{root}}$, and then pass the whole through the tagged hash function `TapTweak`:
 
 
 $$

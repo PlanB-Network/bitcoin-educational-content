@@ -1701,6 +1701,7 @@ Hier ist eine schematische Darstellung der gesamten Ableitung:
 Eine Frage, die aufkommen könnte, ist, wie ein normaler Kind-öffentlicher Schlüssel, der von einem Eltern-öffentlichen Schlüssel abgeleitet wurde, einem normalen Kind-privaten Schlüssel entsprechen kann, der vom entsprechenden Eltern-privaten Schlüssel abgeleitet wurde. Diese Verbindung wird genau durch die Eigenschaften elliptischer Kurven sichergestellt. Tatsächlich wird zur Ableitung eines normalen Kind-öffentlichen Schlüssels HMAC-SHA512 auf die gleiche Weise angewendet, aber sein Ausgang wird anders verwendet:
    - **Normaler Kind-privater Schlüssel**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
    - **Normaler Kind-öffentlicher Schlüssel**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
+
 Dank der Addition und Verdopplungsoperationen auf der elliptischen Kurve liefern beide Methoden konsistente Ergebnisse: Der vom Kind-Privatschlüssel abgeleitete öffentliche Schlüssel ist identisch mit dem Kind-Öffentlichen Schlüssel, der direkt vom Eltern-Öffentlichen Schlüssel abgeleitet wurde.
 ### Zusammenfassung der Ableitungstypen
 

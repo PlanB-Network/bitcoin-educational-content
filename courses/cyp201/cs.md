@@ -255,21 +255,16 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
-
-
-$$
-
-\begin{pmatrix}
-
-$$
-\begin{pmatrix}
-0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
+0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
+0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
+0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
 0x19a4c116, & 0x1e376c08, & 0x2748774c, & 0x34b0bcb5, \\
 0x391c0cb3, & 0x4ed8aa4a, & 0x5b9cca4f, & 0x682e6ff3, \\
 0x748f82ee, & 0x78a5636f, & 0x84c87814, & 0x8cc70208, \\
 0x90befffa, & 0xa4506ceb, & 0xbef9a3f7, & 0xc67178f2
 \end{pmatrix}
 $$
+
 
 ### Dělení vstupu
 
@@ -299,10 +294,12 @@ Pro XOR ($\oplus$):
 Pro AND ($\land$):
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- | --- | --- | --- | --- |
+| --- | --- | ----------- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           |     | 1   | 0   | 0   |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
 | 1   | 1   | 1           |
+
 
 Pro NOT ($\lnot p$):
 
@@ -433,15 +430,12 @@ $$
 H = G \\
 G = F \\
 F = E \\
-$$
-
-E = D + \text{temp1} \mod 2^{32} \\
+E = D + temp1 \mod 2^{32} \\
 D = C \\
 C = B \\
 B = A \\
-A = \text{temp1} + \text{temp2} \mod 2^{32}
+A = temp1 + temp2 \mod 2^{32}
 \end{cases}
-
 $$
 
 Následující diagram představuje jedno kolo kompresní funkce SHA256, jak jsme právě popisovali:
@@ -454,19 +448,18 @@ Následující diagram představuje jedno kolo kompresní funkce SHA256, jak jsm
 
 Už nyní můžeme pozorovat, že toto kolo výstupuje nové stavové proměnné $A$, $B$, $C$, $D$, $E$, $F$, $G$ a $H$. Tyto nové proměnné budou sloužit jako vstup pro další kolo, které zase produkuje nové proměnné $A$, $B$, $C$, $D$, $E$, $F$, $G$ a $H$, jež budou použity pro následující kolo. Tento proces pokračuje až do 64. kola.
 Po 64 kolech aktualizujeme počáteční hodnoty stavových proměnných jejich přičtením k konečným hodnotám na konci 64. kola:
+
 $$
-
 \begin{cases}
-A = A*{\text{počáteční}} + A \mod 2^{32} \\
-B = B*{\text{počáteční}} + B \mod 2^{32} \\
-C = C*{\text{počáteční}} + C \mod 2^{32} \\
-D = D*{\text{počáteční}} + D \mod 2^{32} \\
-E = E*{\text{počáteční}} + E \mod 2^{32} \\
-F = F*{\text{počáteční}} + F \mod 2^{32} \\
-G = G*{\text{počáteční}} + G \mod 2^{32} \\
-H = H*{\text{počáteční}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
-
 $$
 
 Tyto nové hodnoty $A$, $B$, $C$, $D$, $E$, $F$, $G$ a $H$ budou sloužit jako počáteční hodnoty pro další blok, $P_2$. Pro tento blok $P_2$ replikujeme stejný kompresní proces s 64 koly, poté aktualizujeme proměnné pro blok $P_3$ a tak dále až do posledního bloku našeho vyrovnávaného vstupu.
@@ -556,7 +549,7 @@ Podívejme se podrobněji na to, co se děje v této černé skříňce HMAC-SHA
   Hodnoty $\text{opad}$ a $\text{ipad}$ jsou získány opakováním jejich základního bytu ($0x5c$ pro $\text{opad}$, $0x36$ pro $\text{ipad}$) dokud není dosaženo velikosti $B$. Tedy s $B = 128$ byty máme:
 
 $$
-\text{opad} = \underbrace{0x5c5c\ldots5c}_{128 \, \text{bytů}}
+\text{opad} = \underbrace{0x5c5c\ldots5c}_{128 \, \text{bytes}}
 $$
 
 Jakmile je předzpracování dokončeno, algoritmus HMAC-SHA512 je definován následující rovnicí:
@@ -788,7 +781,10 @@ Graficky by to bylo znázorněno takto:
 Díky těmto operacím můžeme pochopit, proč je snadné odvodit veřejný klíč z privátního klíče, ale opak je prakticky nemožný.
 
 Vraťme se k našemu zjednodušenému příkladu. S privátním klíčem $k = 4$. Pro výpočet přidruženého veřejného klíče provedeme:
-K = k \cdot G = 4G$$
+
+$$
+K = k \cdot G = 4G
+$$
 
 Takto jsme snadno vypočítali veřejný klíč $K$ znalostí $k$ a $G$.
 
@@ -1182,6 +1178,17 @@ Počet slov v mnemonické frázi závisí na velikosti počáteční entropie, j
 $$
 \begin{array}{|c|c|c|c|}
 \hline
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
+
 Například pro entropii 256 bitů je výsledek $\text{ENT} \Vert \text{CS}$ 264 bitů a vede k mnemonické frázi o 24 slovech.
 
 ### Převod Binární Sekvence na Mnemonickou Frázi
@@ -1213,7 +1220,6 @@ Tento rozdíl v bezpečnosti na úrovni fráze však nezlepšuje celkovou bezpe�
 
 Pro 256bitové klíče, jako jsou ty používané na Bitcoinu, tak Pollardův rho algoritmus snižuje složitost na $2^{128}$ operací:
 
-
 $$
 
 O(\sqrt{2^{256}}) = O(2^{128})
@@ -1227,6 +1233,7 @@ Fáze o 12 slovech, která také nabízí 128 bitů zabezpečení, je proto v so
 Pokud chcete jít dále a konkrétně se naučit, jak ručně generovat testovací mnemonickou frázi, doporučuji vám objevit tento tutoriál:
 
 https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+
 Před pokračováním v odvození peněženky z této mnemonické fráze vám v následující kapitole představím BIP39 heslo, protože hraje roli v procesu odvození a je na stejné úrovni jako mnemonická fráze.
 ## Heslo
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
@@ -1304,29 +1311,23 @@ Pro získání hlavního soukromého klíče a hlavního řetězového kódu se 
 - $s$: 512-bitové semínko peněženky;
 - $\text{"Bitcoin Seed"}$: společná konstanta odvození pro všechny Bitcoinové peněženky.
 
-
 $$
-
-\text{výstup} = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)
-
+\text{output} = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)
 $$
 
 Výstup této funkce je tedy 512 bitů. Poté je rozdělen na 2 části:
 - Levých 256 bitů tvoří **hlavní soukromý klíč**;
 - Pravých 256 bitů tvoří **hlavní řetězový kód**.
 Matematicky lze tyto dvě hodnoty označit následovně s $k_M$ jako hlavním soukromým klíčem a $C_M$ jako hlavním řetězovým kódem:
-$$
-
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
 
 $$
-
-
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
-
 $$
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
+$$
+
 
 ![CYP201](assets/fr/045.webp)
 
@@ -1396,22 +1397,21 @@ Pokud je k soukromému klíči přidán jeden bajt, je to proto, že komprimovan
 Jak jsme právě viděli, rozšířené klíče zahrnují předponu, která udává jak verzi rozšířeného klíče, tak jeho povahu. Označení `pub` ukazuje, že se jedná o rozšířený veřejný klíč, a označení `prv` ukazuje rozšířený soukromý klíč. Dodatečné písmeno na základně rozšířeného klíče pomáhá určit, zda se jedná o standard Legacy, SegWit v0, SegWit v1 atd.
 Zde je souhrn použitých předpon a jejich významů:
 
-| Předpona Base 58 | Předpona Base 16  | Síť      | Účel                  | Asociované skripty        | Odvození                  | Typ klíče   |
-|------------------|-------------------|----------|-----------------------|---------------------------|---------------------------|-------------|
-| `xpub`           | `0488b21e`        | Mainnet  | Legacy a SegWit V1    | P2PK / P2PKH / P2TR       | `m/44'/0'`, `m/86'/0'`    | veřejný     |
-| `xprv`           | `0488ade4`        | Mainnet  | Legacy a SegWit V1    | P2PK / P2PKH / P2TR       | `m/44'/0'`, `m/86'/0'`    | soukromý    |
-| `tpub`           | `043587cf`        | Testnet  | Legacy a SegWit V1    | P2PK / P2PKH / P2TR       | `m/44'/1'`, `m/86'/1'`    | veřejný     |
-| `tprv`           | `04358394`        | Testnet  | Legacy a SegWit V1    | P2PK / P2PKH / P2TR       | `m/44'/1'`, `m/86'/1'`    | soukromý    |
-| `ypub`           | `049d7cb2`        | Mainnet  | Vnořený SegWit        | P2WPKH v P2SH             | `m/49'/0'`                | veřejný     |
-| `yprv`         | `049d7878`         | Mainnet  | Nested SegWit        | P2WPKH v P2SH           | `m/49'/0'`                 | soukromý     |
-| `upub`         | `049d7cb2`         | Testnet  | Nested SegWit        | P2WPKH v P2SH           | `m/49'/1'`                 | veřejný      |
-| `uprv`         | `044a4e28`         | Testnet  | Nested SegWit        | P2WPKH v P2SH           | `m/49'/1'`                 | soukromý     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | veřejný      |
+| Prefix Base 58  | Prefix Base 16  | Síť     | Účel               | Související skripty | Odvození              | Typ klíče    |
+| --------------- | --------------- | ------- | ------------------ | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy a SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | veřejný      |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy a SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | soukromý     |
+| `tpub`          | `043587cf`      | Testnet | Legacy a SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | veřejný      |
+| `tprv`          | `04358394`      | Testnet | Legacy a SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | soukromý     |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit      | P2WPKH in P2SH      | `m/49'/0'`             | veřejný      |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit      | P2WPKH in P2SH      | `m/49'/0'`             | soukromý     |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit      | P2WPKH in P2SH      | `m/49'/1'`             | veřejný      |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit      | P2WPKH in P2SH      | `m/49'/1'`             | soukromý     |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0          | P2WPKH              | `m/84'/0'`             | veřejný      |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0          | P2WPKH              | `m/84'/0'`             | soukromý     |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0          | P2WPKH              | `m/84'/1'`             | veřejný      |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0          | P2WPKH              | `m/84'/1'`             | soukromý     |
 
-Tato tabulka poskytuje komplexní přehled prefixů používaných u rozšířených klíčů, detailně popisuje jejich prefixy v base 58 a base 16, síť, se kterou jsou spojené (Mainnet nebo Testnet), jejich účel, skripty, se kterými jsou spojené, jejich cestu derivace a zda se jedná o veřejné nebo soukromé klíče.
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | soukromý     |
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | veřejný      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | soukromý     |
 
 ### Detaily prvků rozšířeného klíče
 
@@ -1441,6 +1441,7 @@ Toto pole udává hierarchickou úroveň klíče v rámci HD peněženky. V tomt
 
 3. **Otisk rodiče**: `6D5601AD`
 Tyto jsou první 4 bajty HASH160 hashe rodičovského veřejného klíče, který byl použit k odvození tohoto `xpub`.
+
 4. **Číslo indexu**: `80000000`
 
 Tento index označuje pozici klíče mezi jeho rodičovskými potomky. Předpona `0x80` naznačuje, že klíč je odvozen tvrdě (hardened způsobem), a protože zbytek je vyplněn nulami, naznačuje to, že tento klíč je první mezi jeho možnými sourozenci.
@@ -1486,12 +1487,10 @@ Pro derivaci dětského soukromého klíče $k_{\text{CHD}}$ z rodičovského so
 
 Pro **normální dětský klíč** ($i < 2^{31}$) je výpočet $\text{hash}$ následující:
 
-
+$$
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
-
-$$
 V tomto výpočtu pozorujeme, že naše HMAC funkce přijímá dva vstupy: nejprve rodičovský řetězec kódů a poté konkatenaci indexu s veřejným klíčem spojeným s rodičovským soukromým klíčem. Rodičovský veřejný klíč je zde použit, protože hledáme derivaci normálního dětského klíče, nikoli zpevněného.
 Nyní máme 64-bajtový $\text{hash}$, který rozdělíme na 2 části po 32 bajtech: $h_1$ a $h_2$:
 
@@ -1504,29 +1503,23 @@ $$
 
 
 $$
-
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
-
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 $$
 
 Dětský soukromý klíč $k_{\text{CHD}}^n$ je poté vypočítán následovně:
 
 
 $$
-
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
-
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 $$
+
 V této kalkulaci operace $\text{parse256}(h_1)$ spočívá v interpretaci prvních 32 bajtů $\text{hash}$ jako 256-bitového celého čísla. Toto číslo je poté přičteno k rodičovskému soukromému klíči, vše modulo $n$ pro zachování v rámci řádu eliptické křivky, jak jsme viděli v sekci 3 o digitálních podpisech. Takto, pro odvození normálního dětského soukromého klíče, ačkoliv je jako základ pro výpočet vstupů funkce HMAC-SHA512 použit rodičovský veřejný klíč, je vždy nutné mít rodičovský soukromý klíč pro dokončení výpočtu.
 Z tohoto dětského soukromého klíče je možné odvodit odpovídající veřejný klíč aplikací ECDSA nebo Schnorr. Tímto způsobem získáme kompletní pár klíčů.
 
 Poté je druhá část $\text{hash}$ jednoduše interpretována jako řetězový kód pro právě odvozený pár dětských klíčů:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Zde je schématické znázornění celkové derivace:
@@ -1535,11 +1528,8 @@ Zde je schématické znázornění celkové derivace:
 
 Pro **zpevněný dětský klíč** ($i \geq 2^{31}$) je výpočet $\text{hash}$ následující:
 
-
 $$
-
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
-
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 $$
 
 V tomto výpočtu pozorujeme, že naše funkce HMAC bere dva vstupy: prvně, rodičovský řetězový kód, a poté konkatenaci indexu s rodičovským soukromým klíčem. Rodičovský soukromý klíč je zde použit, protože se snažíme odvodit zpevněný dětský klíč. Navíc, na začátek klíče je přidán bajt rovný `0x00`. Tato operace vyrovnává jeho délku tak, aby odpovídala délce komprimovaného veřejného klíče.
@@ -1559,20 +1549,14 @@ $$
 
 Dětský soukromý klíč $k_{\text{CHD}}^h$ je poté vypočítán následovně:
 
-
 $$
-
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
-
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 $$
 
 Dále jednoduše interpretujeme druhou část $\text{hash}$ jako řetězový kód pro právě odvozený pár dětských klíčů:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Zde je schématické znázornění celkové derivace:
@@ -1585,11 +1569,8 @@ Vidíme, že normální derivace a zpevněná derivace fungují stejným způsob
 Pokud známe pouze veřejný klíč rodiče $K_{\text{PAR}}$ a přidružený řetězový kód $C_{\text{PAR}}$, to znamená rozšířený veřejný klíč, je možné odvodit dětské veřejné klíče $K_{\text{CHD}}^n$, ale pouze pro normální (nepevněné) dětské klíče. Tento princip umožňuje zejména sledování pohybů na účtu v Bitcoinové peněžence z `xpub` (*pouze pro sledování*).
 Pro provedení tohoto výpočtu vypočítáme $\text{hash}$ s indexem $i < 2^{31}$ (normální odvození):
 
-
 $$
-
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
-
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 $$
 
 V tomto výpočtu pozorujeme, že naše funkce HMAC bere dva vstupy: nejprve řetězový kód rodiče, poté konkatenaci indexu s veřejným klíčem rodiče.
@@ -1612,22 +1593,17 @@ $$
 
 Dětský veřejný klíč $K_{\text{CHD}}^n$ je poté vypočítán následovně:
 
-
+$$
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
-
-$$
 Pokud $\text{parse256}(h_1) \geq n$ (řád eliptické křivky) nebo pokud $K_{\text{CHD}}^n$ je bod v nekonečnu, odvození je neplatné a musí být vybrán jiný index.
 V tomto výpočtu operace $\text{parse256}(h_1)$ zahrnuje interpretaci prvních 32 bajtů $\text{hash}$ jako 256-bitového celého čísla. Toto číslo se používá k výpočtu bodu na eliptické křivce prostřednictvím sčítání a zdvojení od generátorového bodu $G$. Tento bod je poté přičten k veřejnému klíči rodiče, aby se získal normální dětský veřejný klíč. Takže pro odvození normálního dětského veřejného klíče jsou nutné pouze veřejný klíč rodiče a řetězový kód rodiče; soukromý klíč rodiče do tohoto procesu nikdy nevstupuje, na rozdíl od výpočtu dětského soukromého klíče, který jsme viděli dříve.
 
 Následně je dětský řetězový kód jednoduše:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Zde je schématické znázornění celkového odvození:
@@ -1644,25 +1620,17 @@ Díky operacím sčítání a zdvojení na eliptické křivce obě metody produk
 
 Shrnutí různých možných typů derivací:
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 Shrnutí, dosud jste se naučili vytvářet základní prvky HD peněženky: mnemonickou frázi, seed a poté hlavní klíč a hlavní řetězový kód. Také jste objevili, jak odvozovat dětské páry klíčů v této kapitole. V další kapitole prozkoumáme, jak jsou tyto derivace organizovány v Bitcoinových peněženkách a jakou strukturu sledovat, abychom konkrétně získali přijímací adresy stejně jako páry klíčů používané v *scriptPubKey* a *scriptSig*.
@@ -1878,8 +1846,11 @@ Tento model skriptu byl představen v první verzi Bitcoinu Satoshi Nakamotem. S
 Stejně jako P2PK, skript P2PKH byl představen při spuštění Bitcoinu. Na rozdíl od svého předchůdce uzamkne bitcoiny pomocí hashe veřejného klíče, namísto přímého použití surového veřejného klíče. *scriptSig* musí poté poskytnout veřejný klíč spojený s přijímací adresou, stejně jako platný podpis. Adresy odpovídající tomuto modelu začínají číslem `1` a jsou kódovány v *base58check*. Tento skript také patří do standardu "*Legacy*".
 
 **P2SH (*Pay-to-Script-Hash*)**:
+
 Zavedený v roce 2012 s BIP16, model P2SH umožňuje použití hash hodnoty libovolného skriptu v *scriptPubKey*. Tento zahašovaný skript, nazývaný "*redeemScript*", obsahuje podmínky pro odemčení prostředků. Pro utrácení UTXO zamčeného pomocí P2SH je nutné poskytnout *scriptSig* obsahující původní *redeemScript* a také nezbytná data pro jeho validaci. Tento model je významně používán pro staré multisigy. Adresy spojené s P2SH začínají na `3` a jsou kódovány v *base58check*. Tento skript také patří do standardu "*Legacy*".
+
 **P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
+
 Tento skript je podobný P2PKH, protože také zamyká bitcoiny pomocí hash hodnoty veřejného klíče. Na rozdíl od P2PKH je však *scriptSig* přesunut do samostatné sekce nazývané "*Witness*". Někdy se tomu říká "*scriptWitness*", aby se označila sada obsahující podpis a veřejný klíč. Každý SegWit vstup má svůj vlastní *scriptWitness*, a sbírka *scriptWitnesses* tvoří pole *Witness* transakce. Tento přesun dat o podpisu je inovace zavedená aktualizací SegWit, zaměřená zejména na prevenci manipulovatelnosti transakcí kvůli podpisům ECDSA.
 Adresy P2WPKH používají kódování *bech32* a vždy začínají `bc1q`. Tento typ skriptu odpovídá výstupům SegWit verze 0.
 
@@ -1964,9 +1935,7 @@ Získali jsme 160bitový hash veřejného klíče, který tvoří to, co se naz�
 
 Avšak, aby byl tento payload snadněji použitelný pro lidi, je k němu přidána metadata. Dalším krokem je zakódování tohoto hashe do skupin po 5 bitech v desítkové soustavě. Tato desítková transformace bude užitečná pro konverzi do *bech32*, která je používána u adres po SegWit. 160bitový binární hash je tak rozdělen do 32 skupin po 5 bitech:
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
 \text{5-bitové Skupiny} & \text{Desítková Hodnota} \\
@@ -1994,9 +1963,19 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
+
 Takže máme:
 
 ```text
@@ -2014,7 +1993,7 @@ Pro výpočet kontrolního součtu s BCH kódy potřebujeme připravit několik 
 HRP musí být rozšířeno oddělením každého znaku na dvě části:
 - Převzetí znaků HRP v ASCII:
 	- `b`: `01100010`
-- `c`: `01100011`
+	- `c`: `01100011`
 - Extrakce 3 nejvýznamnějších bitů a 5 nejméně významných bitů:
   - 3 nejvýznamnější bity: `011` (3 v desítkové soustavě)
   - 3 nejvýznamnější bity: `011` (3 v desítkové soustavě)
@@ -2063,7 +2042,20 @@ To nám v desítkové soustavě dává:
 
 Poté musí být každá desítková hodnota převedena na její *bech32* znak pomocí následující konverzní tabulky:
 
-
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
 $$
 
 Pro převedení hodnoty na znak _bech32_ pomocí této tabulky jednoduše najděte hodnoty v prvním sloupci a prvním řádku, které po sečtení dávají požadovaný výsledek. Poté získejte odpovídající znak. Například desítkové číslo `19` bude převedeno na písmeno `n`, protože $19 = 16 + 3$.
@@ -2142,34 +2134,38 @@ Na druhou stranu, pokud si přejete přidat alternativní skripty kromě výdaj�
 Jakmile jsou napsány různé alternativní skripty, musíte je jednotlivě projít značkovanou hašovací funkcí `TapLeaf`, doprovázenou některými metadaty:
 
 $$
-\text{h}_{\text{list}} = \text{H}_{\text{TapLeaf}} (v \Vert sz \Vert S)
+\text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}} (v \Vert sz \Vert S)
 $$
 
 S:
 
 - $v$: číslo verze skriptu (výchozí `0xC0` pro Taproot);
-- $sz$: velikost skriptu zakódovaná ve formátu _CompactSize_; - $S$: skript.
+- $sz$: velikost skriptu zakódovaná ve formátu _CompactSize_;
+- $S$: skript.
 
 Různé hashe skriptů ($\text{h}_{\text{leaf}}$) jsou nejprve seřazeny v lexikografickém pořadí. Poté jsou spojeny po dvojicích a procházejí funkcí značeného hashování `TapBranch`. Tento proces se opakuje iterativně, aby se krok za krokem budoval Merkleův strom:
-Větevní hash \(\text{h}_{\text{branch}}\) je vypočítán jako značená hashovací funkce `TapBranch` aplikovaná na spojení hashů listů \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\):
+
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 Pokračujeme spojováním výsledků po dvou, přičemž je na každém kroku procházíme funkcí značeného hashování `TapBranch`, dokud nezískáme kořen Merkleova stromu:
 
 ![CYP201](assets/fr/066.webp)
 
-Jakmile je vypočítán kořen Merkleova stromu \(h*{\text{root}}\), můžeme vypočítat úpravu. K tomu spojíme interní veřejný klíč peněženky \(P\) s kořenem \(h*{\text{root}}\), a poté celé procházíme funkcí značeného hashování `TapTweak`:
+Jakmile je vypočten kořen Merkle $h_{\text{root}}$, můžeme vypočítat tweak. Za tímto účelem zkombinujeme interní veřejný klíč peněženky $P$ s kořenem $h_{\text{root}}$ a celé to proženeme značkovou hashovací funkcí `TapTweak`:
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-Nakonec, jako předtím, je Taproot veřejný klíč \(Q\) získán přičtením interního veřejného klíče \(P\) k součinu úpravy \(t\) a generátorového bodu \(G\):
+Nakonec, stejně jako dříve, je veřejný klíč Taproot $Q$ získán přidáním interního veřejného klíče $P$ k produktu tweaku $t$ s generátorovým bodem $G$:
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-Poté následuje generování adresy stejným procesem, použitím surového veřejného klíče \(Q\) jako nákladu, doplněného o nějaká další metadata.
+Generování adresy pak pokračuje stejným procesem, přičemž surový veřejný klíč $Q$ je použit jako užitečný náklad spolu s několika dalšími metadata.
 
 A to je vše! Dospěli jsme ke konci tohoto kurzu CYP201. Pokud jste tento kurz považovali za užitečný, byl bych velmi vděčný, pokud byste si našli chvilku na to, abyste mu dali dobré hodnocení v následující kapitole hodnocení. Neváhejte jej také sdílet s vašimi blízkými nebo na sociálních sítích. Nakonec, pokud si přejete získat diplom za tento kurz, můžete po kapitole hodnocení absolvovat závěrečnou zkoušku.
 

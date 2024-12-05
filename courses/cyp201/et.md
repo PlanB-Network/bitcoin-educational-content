@@ -1327,14 +1327,14 @@ Selle funktsiooni väljund on seega 512 bitti. See jagatakse seejärel kaheks os
 Matemaatiliselt võib neid kahte väärtust märkida järgmiselt, $k_M$ olles meistri privaatvõti ja $C_M$ meisterahelakood:
 $$
 
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 
 $$
 
 
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
@@ -1503,7 +1503,7 @@ Lapse privaatvõtme $k_{\text{CHD}}$ tuletamiseks vanema privaatvõtmest $k_{\te
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1520,7 +1520,7 @@ $$
 
 $$
 
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 
 $$
 
@@ -1529,7 +1529,7 @@ Lapse privaatvõti $k_{\text{CHD}}^n$ arvutatakse seejärel järgmiselt:
 
 $$
 
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
@@ -1554,7 +1554,7 @@ Siin on skeemiline esitus kogu tuletusprotsessist:
 
 $$
 
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1580,7 +1580,7 @@ Lapse privaatvõti $k_{\text{CHD}}^h$ arvutatakse seejärel järgmiselt:
 
 $$
 
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
@@ -1607,7 +1607,7 @@ Selle arvutuse sooritamiseks arvutame $\text{hash}$ indeksiga $i < 2^{31}$ (tava
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1634,7 +1634,7 @@ Lapse avalik võti $K_{\text{CHD}}^n$ arvutatakse seejärel järgmiselt:
 
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 
 $$
 

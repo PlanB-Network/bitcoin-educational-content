@@ -1335,6 +1335,7 @@ A 12-word phrase, which also offers 128 bits of security, is therefore currently
 To go further and learn concretely how to manually generate a test mnemonic phrase, I advise you to discover this tutorial:
 
 https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+
 Before continuing with the derivation of the wallet from this mnemonic phrase, I will introduce you, in the following chapter, to the BIP39 passphrase, as it plays a role in the derivation process, and it is at the same level as the mnemonic phrase.
 
 ## The passphrase
@@ -1429,18 +1430,15 @@ The output of this function is therefore 512 bits. It is then divided into 2 par
 
 - The left 256 bits form the **master private key**;
 - The right 256 bits form the **master chain code**.
-  Mathematically, these two values can be noted as follows with $k_M$ being the master private key and $C_M$ the master chain code:
-  $$
 
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
+Mathematically, these two values can be noted as follows with $k_M$ being the master private key and $C_M$ the master chain code:
 
 $$
-
-
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
-
+$$
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 $$
 
 ![CYP201](assets/fr/045.webp)
@@ -1512,22 +1510,21 @@ If one byte is added to the private key only, it's because the compressed public
 As we have just seen, extended keys include a prefix that indicates both the version of the extended key and its nature. The notation `pub` indicates that it refers to an extended public key, and the notation `prv` indicates an extended private key. The additional letter at the base of the extended key helps to indicate whether the standard followed is Legacy, SegWit v0, SegWit v1, etc.
 Here is a summary of the prefixes used and their meanings:
 
-| Base 58 Prefix | Base 16 Prefix     | Network  | Purpose              | Associated Scripts        | Derivation                 | Key Type    |
-|----------------|--------------------|----------|----------------------|---------------------------|----------------------------|-------------|
-| `xpub`         | `0488b21e`         | Mainnet  | Legacy and SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | public      |
-| `xprv`         | `0488ade4`         | Mainnet  | Legacy and SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`     | private     |
-| `tpub`         | `043587cf`         | Testnet  | Legacy and SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | public      |
-| `tprv`         | `04358394`         | Testnet  | Legacy and SegWit V1 | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`     | private     |
-| `ypub`         | `049d7cb2`         | Mainnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/0'`                 | public      |
-| `yprv`         | `049d7878`         | Mainnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/0'`                 | private     |
-| `upub`         | `049d7cb2`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | public      |
-| `uprv`         | `044a4e28`         | Testnet  | Nested SegWit        | P2WPKH in P2SH           | `m/49'/1'`                 | private     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | public      |
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-This table provides a comprehensive overview of the prefixes used in extended keys, detailing their base 58 and base 16 prefixes, the network they are associated with (Mainnet or Testnet), their purpose, the scripts they are associated with, their derivation path, and whether they are public or private keys.
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | private     ||
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | public      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | private     |
 
 ### Details of an Extended Key's Elements
 
@@ -1547,25 +1544,25 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 This extended key breaks down into several distinct elements:
 
-1. **Version**: `0488B21E`
+1.**Version**: `0488B21E`
 
 The first 4 bytes are the version. Here, it corresponds to an extended public key on the Mainnet with a derivation purpose of either *Legacy* or *SegWit v1*.
 
-2. **Depth**: `03`
+2.**Depth**: `03`
 
 This field indicates the hierarchical level of the key within the HD wallet. In this case, a depth of `03` means that this key is three levels of derivation below the master key.
 
-3. **Parent fingerprint**: `6D5601AD`
+3.**Parent fingerprint**: `6D5601AD`
 
 These are the first 4 bytes of the HASH160 hash of the parent public key that was used to derive this `xpub`.
 
-4. **Index number**: `80000000`
+4.**Index number**: `80000000`
 
 This index indicates the key's position among its parent's children. The `0x80` prefix indicates that the key is derived in a hardened manner, and since the rest is filled with zeros, it indicates that this key is the first among its possible siblings.
 
-5. **Chain code**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
-6. **Public Key**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
-7. **Checksum**: `1F067C3A`
+5.**Chain code**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+6.**Public Key**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
+7.**Checksum**: `1F067C3A`
 
 The checksum corresponds to the first 4 bytes of the hash (double SHA256) of everything else.
 
@@ -1588,6 +1585,7 @@ Let's explore how this deterministic derivation works.
 As we briefly touched upon in the previous chapter: child keys are divided into two main types:
 1. **Normal child keys** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): These are derived from the extended public key ($K_{\text{PAR}}$), or the extended private key ($k_{\text{PAR}}$), by first deriving the public key.
 2. **Hardened child keys** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): These can only be derived from the extended private key ($k_{\text{PAR}}$) and are therefore invisible to observers who only have the extended public key.
+
 Every child key pair is identified by a 32-bit **index** (named $i$ in our calculations). The indexes for normal keys range from $0$ to $2^{31}-1$, while those for hardened keys range from $2^{31}$ to $2^{32}-1$. These numbers are used to distinguish sibling key pairs during derivation. Indeed, each parent key pair must be capable of deriving multiple child key pairs. If we were to apply the same calculation systematically from the parent keys, all the sibling keys obtained would be identical, which is not desirable. The index thus introduces a variable that modifies the derivation calculation, allowing each sibling pair to be differentiated. Except for specific use in certain protocols and derivation standards, we generally start by deriving the first child key with the index `0`, the second with the index `1`, and so on.
 
 ### Derivation Process with HMAC-SHA512
@@ -1606,12 +1604,10 @@ To derive a child private key $k_{\text{CHD}}$ from a parent private key $k_{\te
 
 For a **normal child key** ($i < 2^{31}$), the calculation of $\text{hash}$ is as follows:
 
-
+$$
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
-
-$$
 In this calculation, we observe that our HMAC function takes two inputs: first, the parent chain code, and then the concatenation of the index with the public key associated with the parent private key. The parent public key is used here because we are looking to derive a normal child key, not a hardened one.
 We now have a 64-byte $\text{hash}$ that we will split into 2 parts of 32 bytes each: $h_1$ and $h_2$:
 
@@ -1624,18 +1620,13 @@ $$
 
 
 $$
-
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
-
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 $$
 
 The child private key $k_{\text{CHD}}^n$ is then calculated as follows:
 
-
 $$
-
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
-
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 $$
 
 In this calculation, the operation $\text{parse256}(h_1)$ consists of interpreting the first 32 bytes of the $\text{hash}$ as a 256-bit integer. This number is then added to the parent private key, all taken modulo $n$ to stay within the order of the elliptic curve, as we saw in section 3 on digital signatures. Thus, to derive a normal child private key, although the parent public key is used as the basis for calculation in the inputs of the HMAC-SHA512 function, it is always necessary to have the parent private key to finalize the calculation.
@@ -1644,11 +1635,8 @@ From this child private key, it is possible to derive the corresponding public k
 
 Then, the second part of the $\text{hash}$ is simply interpreted as being the chain code for the child key pair that we have just derived:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Here is a schematic representation of the overall derivation:
@@ -1659,9 +1647,7 @@ For a **hardened child key** ($i \geq 2^{31}$), the calculation of the $\text{ha
 
 
 $$
-
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
-
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 $$
 
 In this calculation, we observe that our HMAC function takes two inputs: first, the parent chain code, and then the concatenation of the index with the parent private key. The parent private key is used here because we are looking to derive a hardened child key. Moreover, a byte equal to `0x00` is added at the beginning of the key. This operation equalizes its length to match that of a compressed public key.
@@ -1674,27 +1660,19 @@ $$
 
 
 $$
-
 h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
-
 $$
 
 The child private key $k_{\text{CHD}}^h$ is then calculated as follows:
 
-
 $$
-
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
-
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 $$
 
 Next, we simply interpret the second part of the $\text{hash}$ as being the chain code for the pair of child keys that we have just derived:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Here is a schematic representation of the overall derivation:
@@ -1709,11 +1687,8 @@ If we only know the parent public key $K_{\text{PAR}}$ and the associated chain 
 
 To perform this calculation, we will compute the $\text{hash}$ with an index $i < 2^{31}$ (normal derivation):
 
-
 $$
-
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
-
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 $$
 
 In this calculation, we observe that our HMAC function takes two inputs: first the parent chain code, then the concatenation of the index with the parent public key.
@@ -1736,22 +1711,18 @@ $$
 
 The child public key $K_{\text{CHD}}^n$ is then calculated as follows:
 
-
+$$
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
-
-$$
 If $\text{parse256}(h_1) \geq n$ (order of the elliptic curve) or if $K_{\text{CHD}}^n$ is the point at infinity, the derivation is invalid, and another index must be chosen.
+
 In this calculation, the operation $\text{parse256}(h_1)$ involves interpreting the first 32 bytes of the $\text{hash}$ as a 256-bit integer. This number is used to calculate a point on the elliptic curve through addition and doubling from the generator point $G$. This point is then added to the parent public key to obtain the normal child public key. Thus, to derive a normal child public key, only the parent public key and the parent chain code are necessary; the parent private key never comes into this process, unlike the calculation of the child private key we saw earlier.
 
 Next, the child chain code is simply:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Here is a schematic representation of the overall derivation:
@@ -1770,20 +1741,17 @@ Thanks to the addition and doubling operations on the elliptic curve, both metho
 
 To summarize, here are the different possible types of derivations:
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k*{\text{CHD}}^h \} & \{ n, h \} \\
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K\_{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 To summarize, so far you have learned to create the basic elements of the HD wallet: the mnemonic phrase, the seed, and then the master key and master chain code. You have also discovered how to derive child key pairs in this chapter. In the next chapter, we will explore how these derivations are organized in Bitcoin wallets and what structure to follow to concretely obtain the receiving addresses as well as the key pairs used in the *scriptPubKey* and *scriptSig*.
@@ -1806,7 +1774,8 @@ A derivation path, therefore, refers to the sequence of indices used to derive c
 This depth corresponds to the wallet's master private key and master chain code. It is represented by the notation $m/$.
 
 **Depth 1: Purpose (BIP43)**
-The goal determines the logical structure of derivation. For example, a P2WPKH address will have $/84'/$ at depth 1 (according to BIP84), while a P2TR address will have $/86'/$ (according to BIP86). This layer facilitates compatibility between wallets by indicating index numbers corresponding to the BIP numbers.
+
+The purpose determines the logical structure of derivation. For example, a P2WPKH address will have $/84'/$ at depth 1 (according to BIP84), while a P2TR address will have $/86'/$ (according to BIP86). This layer facilitates compatibility between wallets by indicating index numbers corresponding to the BIP numbers.
 
 In other words, once you have the master key and the master chain code, these serve as a parent key pair to derive a child key pair. The index used in this derivation can be, for example, $/84'/$ if the wallet is intended to use SegWit v0 type scripts. This key pair is then at depth 1. Its role is not to lock bitcoins, but simply to serve as a waypoint in the derivation hierarchy.
 
@@ -1826,7 +1795,9 @@ To give you other examples, here are the indexes of some currencies:
 Each wallet can be divided into several accounts, numbered from $2^{31}$, and represented at depth 3 by $/0'/$ for the first account, $/1'/$ for the second, and so on. Generally, when referring to an extended key `xpub`, it refers to keys at this depth of derivation.
 
 This separation into different accounts is optional. It aims to simplify the organization of the wallet for users. In practice, often only one account is used, usually the first by default. However, in some cases, if one wishes to clearly distinguish key pairs for different uses, this can be useful. For example, it is possible to create a personal account and a professional account from the same seed, with completely distinct groups of keys from this depth of derivation.
+
 **Depth 4: Chain (BIP32)**
+
 Each account defined at depth 3 is then structured into two chains:
 - **The external chain**: In this chain, what are known as "public" addresses are derived. These receiving addresses are intended to lock UTXOs coming from external transactions (that is, originating from the consumption of UTXOs that do not belong to you). To put it simply, this external chain is used whenever one wishes to receive bitcoins. When you click on "*receive*" in your wallet software, it is always an address from the external chain that is offered to you. This chain is represented by a pair of keys derived with the index $/0/$.
 - **The internal chain (change)**: This chain is reserved for receiving addresses that lock bitcoins coming from the consumption of UTXOs that belong to you, in other words, change addresses. It is identified by the index $/1/$.
@@ -1917,7 +1888,9 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 ```
 
 Next, the notation `/<0;1>/*` specifies that the descriptor can generate addresses from the external chain (`0`) and internal chain (`1`), with a wildcard (`*`) allowing for the sequential derivation of multiple addresses in a configurable manner, similar to managing a "gap limit" on traditional wallet software.
+
 Finally, `#jy0l7nr4` represents the checksum to verify the integrity of the descriptor.
+
 You now know everything about the operation of the HD wallet on Bitcoin and the process of deriving key pairs. However, in the last chapters, we limited ourselves to the generation of private and public keys, without addressing the construction of receiving addresses. This will precisely be the subject of the next chapter!
 
 ## Receiving Addresses
@@ -2014,6 +1987,7 @@ Like P2PK, the P2PKH script was introduced at the launch of Bitcoin. Unlike its 
 Introduced in 2012 with BIP16, the P2SH model allows using the hash of an arbitrary script in the *scriptPubKey*. This hashed script, called "*redeemScript*", contains the conditions for unlocking the funds. To spend a UTXO locked with P2SH, it is necessary to provide a *scriptSig* containing the original *redeemScript* as well as the necessary data to validate it. This model is notably used for old multisigs. The addresses associated with P2SH start with `3` and are encoded in *base58check*. This script also belongs to the "*Legacy*" standard.
 
 **P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
+
 This script is similar to P2PKH, as it also locks bitcoins using the hash of a public key. However, unlike P2PKH, the *scriptSig* is moved to a separate section called "*Witness*". This is sometimes referred to as "*scriptWitness*" to denote the set comprising the signature and the public key. Each SegWit input has its own *scriptWitness*, and the collection of *scriptWitnesses* constitutes the *Witness* field of the transaction. This movement of signature data is an innovation introduced by the SegWit update, aimed particularly at preventing the malleability of transactions due to ECDSA signatures.
 P2WPKH addresses use *bech32* encoding and always start with `bc1q`. This type of script corresponds to version 0 SegWit outputs.
 
@@ -2030,6 +2004,7 @@ The P2TR model was introduced with the implementation of Taproot in November 202
 Technically, a P2TR script locks bitcoins on a unique Schnorr public key, denoted as $Q$. This key $Q$ is actually an aggregate of a public key $P$ and a public key $M$, the latter being calculated from the Merkle root of a list of *scriptPubKey*. Bitcoins locked with this type of script can be spent in two ways:
 - By publishing a signature for the public key $P$ (*key path*).
 - By satisfying one of the scripts contained in the Merkle tree (*script path*).
+
 P2TR thus offers great flexibility, as it allows locking bitcoins either with a unique public key, with several scripts of choice, or both simultaneously. The advantage of this Merkle tree structure is that only the spending script used is revealed during the transaction, but all other alternative scripts remain secret.
 ![CYP201](assets/fr/063.webp)
 
@@ -2109,7 +2084,7 @@ $$
 
 \begin{array}{|c|c|}
 \hline
-\text{Groupes de 5 bits} & \text{Valeur décimale} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -2165,7 +2140,7 @@ To calculate the checksum with BCH codes, we need to prepare several elements:
 The HRP must be expanded by separating each character into two parts:
 - Taking the characters of the HRP in ASCII:
 	- `b`: `01100010`
-- `c`: `01100011`
+	- `c`: `01100011`
 - Extracting the 3 most significant bits and the 5 least significant bits:
   - 3 most significant bits: `011` (3 in decimal)
   - 3 most significant bits: `011` (3 in decimal)
@@ -2403,7 +2378,8 @@ https://planb.network/courses/his201
 
 #### Discover the evolution of freedom through the ages with
 https://planb.network/courses/phi201
-$$
+
+
 
 
 

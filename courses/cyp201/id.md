@@ -257,8 +257,9 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
-\end{pmatrix}
-0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
+0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
+0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
+0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
 0x19a4c116, & 0x1e376c08, & 0x2748774c, & 0x34b0bcb5, \\
 0x391c0cb3, & 0x4ed8aa4a, & 0x5b9cca4f, & 0x682e6ff3, \\
 0x748f82ee, & 0x78a5636f, & 0x84c87814, & 0x8cc70208, \\
@@ -294,9 +295,10 @@ Untuk XOR ($\oplus$):
 Untuk AND ($\land$):
 
 | $p$ | $q$ | $p \land q$ |
-| --- | --- | ----------- | --- | --- | --- | --- |
+| --- | --- | ----------- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           |     | 1   | 0   | 0   |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
 Untuk NOT ($\lnot p$):
@@ -429,19 +431,12 @@ $$
 H = G \\
 G = F \\
 F = E \\
-Berikut adalah teks yang telah diterjemahkan:
-
-
-$$
-
-\begin{cases}
-E = D + \text{temp1} \mod 2^{32} \\
+E = D + temp1 \mod 2^{32} \\
 D = C \\
 C = B \\
 B = A \\
-A = \text{temp1} + \text{temp2} \mod 2^{32}
+A = temp1 + temp2 \mod 2^{32}
 \end{cases}
-
 $$
 
 Diagram berikut mewakili satu putaran dari fungsi kompresi SHA256 seperti yang baru saja kita jelaskan:
@@ -454,17 +449,17 @@ Diagram berikut mewakili satu putaran dari fungsi kompresi SHA256 seperti yang b
 
 Kita dapat mengamati bahwa putaran ini menghasilkan variabel-variabel keadaan baru $A$, $B$, $C$, $D$, $E$, $F$, $G$, dan $H$. Variabel-variabel baru ini akan berfungsi sebagai input untuk putaran berikutnya, yang pada gilirannya akan menghasilkan variabel-variabel baru $A$, $B$, $C$, $D$, $E$, $F$, $G$, dan $H$, untuk digunakan pada putaran berikutnya. Proses ini berlanjut hingga putaran ke-64.
 Setelah 64 putaran, kita memperbarui nilai-nilai awal dari variabel-variabel keadaan dengan menambahkannya ke nilai-nilai akhir di akhir putaran ke-64:
-$$
 
+$$
 \begin{cases}
-A = A*{\text{awal}} + A \mod 2^{32} \\
-B = B*{\text{awal}} + B \mod 2^{32} \\
-C = C*{\text{awal}} + C \mod 2^{32} \\
-D = D*{\text{awal}} + D \mod 2^{32} \\
-E = E*{\text{awal}} + E \mod 2^{32} \\
-F = F*{\text{awal}} + F \mod 2^{32} \\
-G = G*{\text{awal}} + G \mod 2^{32} \\
-H = H*{\text{awal}} + H \mod 2^{32}
+A = A_{\text{initial}} + A \mod 2^{32} \\
+B = B_{\text{initial}} + B \mod 2^{32} \\
+C = C_{\text{initial}} + C \mod 2^{32} \\
+D = D_{\text{initial}} + D \mod 2^{32} \\
+E = E_{\text{initial}} + E \mod 2^{32} \\
+F = F_{\text{initial}} + F \mod 2^{32} \\
+G = G_{\text{initial}} + G \mod 2^{32} \\
+H = H_{\text{initial}} + H \mod 2^{32}
 \end{cases}
 
 $$
@@ -787,7 +782,10 @@ Secara grafis, ini akan diwakili sebagai berikut:
 Berkat operasi-operasi ini, kita dapat memahami mengapa mudah untuk menurunkan kunci publik dari kunci privat, tetapi sebaliknya hampir mustahil.
 
 Mari kita kembali ke contoh sederhana kita. Dengan kunci privat $k = 4$. Untuk menghitung kunci publik yang terkait, kita melakukan:
-K = k \cdot G = 4G$$
+
+$$
+K = k \cdot G = 4G
+$$
 
 Dengan demikian, kita dapat dengan mudah menghitung kunci publik $K$ dengan mengetahui $k$ dan $G$.
 
@@ -1182,6 +1180,17 @@ Jumlah kata dalam frasa mnemonik tergantung pada ukuran entropi awal, seperti ya
 $$
 \begin{array}{|c|c|c|c|}
 \hline
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
+
 Misalnya, untuk entropi 256-bit, hasil $\text{ENT} \Vert \text{CS}$ adalah 264 bit dan menghasilkan frasa mnemonik dari 24 kata.
 
 ### Konversi Urutan Biner menjadi Frasa Mnemonik
@@ -1396,22 +1405,21 @@ Jika satu byte ditambahkan ke kunci privat saja, itu karena kunci publik yang di
 Seperti yang baru saja kita lihat, kunci ekstensi mencakup awalan yang menunjukkan baik versi dari kunci ekstensi tersebut maupun sifatnya. Notasi `pub` menunjukkan bahwa itu merujuk pada kunci publik ekstensi, dan notasi `prv` menunjukkan kunci privat ekstensi. Huruf tambahan di dasar kunci ekstensi membantu menunjukkan apakah standar yang diikuti adalah Legacy, SegWit v0, SegWit v1, dll.
 Berikut adalah ringkasan dari awalan yang digunakan dan artinya:
 
-| Awalan Base 58 | Awalan Base 16     | Jaringan | Tujuan               | Skrip Terkait              | Turunan                    | Tipe Kunci  |
-|----------------|--------------------|----------|----------------------|----------------------------|----------------------------|-------------|
-| `xpub`         | `0488b21e`         | Mainnet  | Legacy dan SegWit V1 | P2PK / P2PKH / P2TR        | `m/44'/0'`, `m/86'/0'`     | publik      |
-| `xprv`         | `0488ade4`         | Mainnet  | Legacy dan SegWit V1 | P2PK / P2PKH / P2TR        | `m/44'/0'`, `m/86'/0'`     | privat      |
-| `tpub`         | `043587cf`         | Testnet  | Legacy dan SegWit V1 | P2PK / P2PKH / P2TR        | `m/44'/1'`, `m/86'/1'`     | publik      |
-| `tprv`         | `04358394`         | Testnet  | Legacy dan SegWit V1 | P2PK / P2PKH / P2TR        | `m/44'/1'`, `m/86'/1'`     | privat      |
-| `ypub`         | `049d7cb2`         | Mainnet  | Nested SegWit        | P2WPKH dalam P2SH          | `m/49'/0'`                 | publik      |
-| `yprv`         | `049d7878`         | Mainnet  | Nested SegWit        | P2WPKH dalam P2SH           | `m/49'/0'`                 | privat     |
-| `upub`         | `049d7cb2`         | Testnet  | Nested SegWit        | P2WPKH dalam P2SH           | `m/49'/1'`                 | publik      |
-| `uprv`         | `044a4e28`         | Testnet  | Nested SegWit        | P2WPKH dalam P2SH           | `m/49'/1'`                 | privat     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | publik      |
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-Tabel ini memberikan gambaran menyeluruh tentang prefiks yang digunakan dalam kunci ekstensi, merinci prefiks basis 58 dan basis 16 mereka, jaringan yang terkait dengan mereka (Mainnet atau Testnet), tujuan mereka, skrip yang terkait dengan mereka, jalur derivasi mereka, dan apakah mereka adalah kunci publik atau privat.
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | privat     |
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | publik      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | privat     |
 
 ### Detail Elemen Kunci Ekstensi
 
@@ -1645,25 +1653,17 @@ Terima kasih kepada operasi penambahan dan penggandaan pada kurva eliptik, kedua
 
 Untuk merangkum, berikut adalah berbagai jenis turunan yang mungkin:
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 Untuk merangkum, sejauh ini Anda telah belajar untuk menciptakan elemen dasar dari dompet HD: frasa mnemonik, benih, dan kemudian kunci utama serta kode rantai utama. Anda juga telah menemukan cara untuk menurunkan pasangan kunci anak dalam bab ini. Dalam bab berikutnya, kita akan menjelajahi bagaimana turunan-turunan ini disusun dalam dompet Bitcoin dan struktur apa yang harus diikuti untuk secara konkret mendapatkan alamat penerima serta pasangan kunci yang digunakan dalam *scriptPubKey* dan *scriptSig*.
@@ -1963,12 +1963,10 @@ RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 ```
 Kami telah memperoleh hash 160-bit dari kunci publik, yang merupakan apa yang disebut sebagai payload dari alamat. Payload ini merupakan bagian pusat dan paling penting dari alamat. Ini juga digunakan dalam *scriptPubKey* untuk mengunci UTXOs. Namun, untuk membuat payload ini lebih mudah digunakan oleh manusia, metadata ditambahkan ke dalamnya. Langkah selanjutnya melibatkan pengkodean hash ini ke dalam kelompok-kelompok 5 bit dalam desimal. Transformasi desimal ini akan berguna untuk konversi ke *bech32*, yang digunakan oleh alamat pasca-SegWit. Hash biner 160-bit ini kemudian dibagi menjadi 32 kelompok dari 5 bit:
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
-\text{Kelompok 5-bit} & \text{Nilai Desimal} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -1993,8 +1991,17 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
 Jadi, kita memiliki:
 
@@ -2063,6 +2070,20 @@ Ini memberi kita dalam desimal:
 Kemudian, setiap nilai desimal harus dipetakan ke karakter *bech32* nya menggunakan tabel konversi berikut:
 
 
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
 $$
 
 Untuk mengonversi nilai menjadi karakter _bech32_ menggunakan tabel ini, cukup temukan nilai-nilai pada kolom pertama dan baris pertama yang, ketika ditambahkan bersama, menghasilkan hasil yang diinginkan. Kemudian, ambil karakter yang sesuai. Sebagai contoh, angka desimal `19` akan dikonversi menjadi huruf `n`, karena $19 = 16 + 3$.
@@ -2147,28 +2168,33 @@ $$
 Dengan:
 
 - $v$: nomor versi skrip (default `0xC0` untuk Taproot);
-- $sz$: ukuran skrip yang dikodekan dalam format _CompactSize_; - $S$: skripnya.
+- $sz$: ukuran skrip yang dikodekan dalam format _CompactSize_; 
+- $S$: skripnya.
 
 Berbagai hash skrip ($\text{h}_{\text{leaf}}$) pertama-tama diurutkan dalam urutan leksikografis. Kemudian, mereka digabungkan secara berpasangan dan dilewati melalui fungsi hash bertag `TapBranch`. Proses ini diulang secara iteratif untuk membangun, langkah demi langkah, pohon Merkle:
-Hash cabang \(\text{h}_{\text{branch}}\) dihitung sebagai fungsi hash bertag `TapBranch` yang diterapkan pada penggabungan hash daun \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\):
+
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 Kemudian kita melanjutkan dengan menggabungkan hasilnya dua demi dua, melewatinya pada setiap langkah melalui fungsi hash bertag `TapBranch`, sampai kita mendapatkan akar pohon Merkle:
 
 ![CYP201](assets/fr/066.webp)
 
-Setelah akar Merkle \(h*{\text{root}}\) dihitung, kita dapat menghitung tweak. Untuk ini, kita menggabungkan kunci publik internal dompet \(P\) dengan akar \(h*{\text{root}}\), dan kemudian melewati keseluruhan melalui fungsi hash bertag `TapTweak`:
+Setelah akar Merkle $h_{\text{root}}$ dihitung, kita dapat menghitung tweak. Untuk itu, kunci publik internal dompet $P$ digabungkan dengan akar $h_{\text{root}}$, dan hasilnya dimasukkan ke dalam fungsi hash bertanda `TapTweak`:
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-Akhirnya, seperti sebelumnya, kunci publik Taproot \(Q\) diperoleh dengan menambahkan kunci publik internal \(P\) ke produk tweak \(t\) dengan titik generator \(G\):
+Akhirnya, seperti sebelumnya, kunci publik Taproot $Q$ diperoleh dengan menambahkan kunci publik internal $P$ ke hasil perkalian tweak $t$ dan titik generator $G$:
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-Kemudian, generasi alamat mengikuti proses yang sama, menggunakan kunci publik mentah \(Q\) sebagai muatan, disertai dengan beberapa metadata tambahan.
+Kemudian, pembuatan alamat mengikuti proses yang sama, menggunakan kunci publik mentah $Q$ sebagai payload, bersama dengan beberapa metadata tambahan.
+
 
 Dan itulah! Kita telah mencapai akhir kursus CYP201 ini. Jika Anda merasa kursus ini bermanfaat, saya akan sangat berterima kasih jika Anda bisa meluangkan waktu sejenak untuk memberikannya penilaian yang baik di bab evaluasi berikutnya. Jangan ragu untuk juga membagikannya dengan orang-orang terkasih atau di jejaring sosial Anda. Akhirnya, jika Anda ingin mendapatkan diploma untuk kursus ini, Anda dapat mengikuti ujian akhir tepat setelah bab evaluasi.
 

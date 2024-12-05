@@ -1652,13 +1652,11 @@ Wir können sehen, dass die normale Ableitung und die verstärkte Ableitung auf 
 
 #### Ableitung eines Kind-öffentlichen Schlüssels aus einem Eltern-öffentlichen Schlüssel
 Wenn wir nur den öffentlichen Schlüssel des Elternteils $K_{\text{PAR}}$ und den zugehörigen Ketten-Code $C_{\text{PAR}}$ kennen, also einen erweiterten öffentlichen Schlüssel, ist es möglich, Kind-öffentliche Schlüssel $K_{\text{CHD}}^n$ abzuleiten, aber nur für normale (nicht verstärkte) Kind-Schlüssel. Dieses Prinzip ermöglicht es insbesondere, die Bewegungen eines Kontos in einer Bitcoin-Wallet vom `xpub` (*nur-beobachten*) zu überwachen.
+
 Um diese Berechnung durchzuführen, werden wir den $\text{hash}$ mit einem Index $i < 2^{31}$ (normale Ableitung) berechnen:
 
-
 $$
-
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
-
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 $$
 
 In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Ketten-Code des Elternteils, dann die Verkettung des Indexes mit dem öffentlichen Schlüssel des Elternteils.
@@ -1675,28 +1673,23 @@ $$
 
 $$
 
-h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 
 $$
 
 Der Kind-öffentliche Schlüssel $K_{\text{CHD}}^n$ wird dann wie folgt berechnet:
 
-
+$$
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
-
-$$
 Wenn $\text{parse256}(h_1) \geq n$ (Ordnung der elliptischen Kurve) ist oder wenn $K_{\text{CHD}}^n$ der Punkt im Unendlichen ist, ist die Ableitung ungültig, und ein anderer Index muss gewählt werden.
 In dieser Berechnung beinhaltet die Operation $\text{parse256}(h_1)$, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird verwendet, um einen Punkt auf der elliptischen Kurve durch Addition und Verdopplung vom Generatorpunkt $G$ zu berechnen. Dieser Punkt wird dann zum öffentlichen Schlüssel des Elternteils addiert, um den normalen Kind-öffentlichen Schlüssel zu erhalten. Somit ist zur Ableitung eines normalen Kind-öffentlichen Schlüssels nur der öffentliche Schlüssel des Elternteils und der Ketten-Code des Elternteils notwendig; der private Schlüssel des Elternteils kommt in diesem Prozess im Gegensatz zur Berechnung des Kind-privaten Schlüssels, die wir zuvor gesehen haben, nie ins Spiel.
 
 Als Nächstes ist der Ketten-Code des Kindes einfach:
 
-
 $$
-
-C\_{\text{CHD}} = h_2
-
+C_{\text{CHD}} = h_2
 $$
 
 Hier ist eine schematische Darstellung der gesamten Ableitung:

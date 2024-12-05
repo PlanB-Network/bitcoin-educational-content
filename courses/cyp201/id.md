@@ -1322,19 +1322,18 @@ $$
 Output dari fungsi ini adalah 512 bit. Kemudian dibagi menjadi 2 bagian:
 - 256 bit kiri membentuk **kunci privat utama**;
 - 256 bit kanan membentuk **kode rantai utama**.
+
 Secara matematis, kedua nilai ini dapat dicatat sebagai berikut dengan $k_M$ sebagai kunci privat utama dan $C_M$ sebagai kode rantai utama:
-$$
-
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
-
-$$
 
 
 $$
-
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
+$$
 
 $$
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
+$$
+
 
 ![CYP201](assets/fr/045.webp)
 
@@ -1497,9 +1496,10 @@ Untuk **kunci anak normal** ($i < 2^{31}$), perhitungan $\text{hash}$ adalah seb
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 
 $$
+
 Dalam perhitungan ini, kita melihat bahwa fungsi HMAC kita mengambil dua input: pertama, kode rantai induk, dan kemudian penggabungan indeks dengan kunci publik yang terkait dengan kunci privat induk. Kunci publik induk digunakan di sini karena kita mencari untuk menghasilkan kunci anak normal, bukan yang diperkuat.
 Sekarang kita memiliki $\text{hash}$ 64-byte yang akan kita bagi menjadi 2 bagian masing-masing 32 byte: $h_1$ dan $h_2$:
 

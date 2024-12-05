@@ -256,17 +256,16 @@ K[0 \ldots 63] = \begin{pmatrix}
 0x983e5152, & 0xa831c66d, & 0xb00327c8, & 0xbf597fc7, \\
 0xc6e00bf3, & 0xd5a79147, & 0x06ca6351, & 0x14292967, \\
 0x27b70a85, & 0x2e1b2138, & 0x4d2c6dfc, & 0x53380d13, \\
-\end{pmatrix}
-$$
-
-0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
+0x650a7354, & 0x766a0abb, & 0x81c2c92e, & 0x92722c85, \\
+0xa2bfe8a1, & 0xa81a664b, & 0xc24b8b70, & 0xc76c51a3, \\
+0xd192e819, & 0xd6990624, & 0xf40e3585, & 0x106aa070, \\
 0x19a4c116, & 0x1e376c08, & 0x2748774c, & 0x34b0bcb5, \\
 0x391c0cb3, & 0x4ed8aa4a, & 0x5b9cca4f, & 0x682e6ff3, \\
 0x748f82ee, & 0x78a5636f, & 0x84c87814, & 0x8cc70208, \\
 0x90befffa, & 0xa4506ceb, & 0xbef9a3f7, & 0xc67178f2
 \end{pmatrix}
-
 $$
+
 
 ### Divisão da Entrada
 
@@ -297,7 +296,8 @@ Para AND ($\land$):
 | $p$ | $q$ | $p \land q$ |
 | --- | --- | ----------- |
 | 0   | 0   | 0           |
-| 0   | 1   | 0           || 1   | 0   | 0           |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
 Para NOT ($\lnot p$):
@@ -452,21 +452,20 @@ $$
 
 A seguir, atualizamos as variáveis de estado da seguinte forma:
 
-
 $$
-
 \begin{cases}
 H = G \\
 G = F \\
 F = E \\
-
-$$
-E = D + \text{temp1} \mod 2^{32} \\D = C \\
+E = D + temp1 \mod 2^{32} \\
+D = C \\
 C = B \\
 B = A \\
-A = \text{temp1} + \text{temp2} \mod 2^{32}
+A = temp1 + temp2 \mod 2^{32}
 \end{cases}
+
 $$
+
 
 O diagrama a seguir representa uma rodada da função de compressão SHA256 como acabamos de descrever:
 
@@ -834,6 +833,8 @@ Graficamente, isso seria representado da seguinte forma:
 Graças a essas operações, podemos entender por que é fácil derivar uma chave pública a partir de uma chave privada, mas o inverso é praticamente impossível.
 
 Vamos voltar ao nosso exemplo simplificado. Com uma chave privada $k = 4$. Para calcular a chave pública associada, realizamos:
+
+$$
 K = k \cdot G = 4G
 $$
 
@@ -1227,6 +1228,17 @@ O número de palavras na frase mnemônica depende do tamanho da entropia inicial
 $$
 \begin{array}{|c|c|c|c|}
 \hline
+\text{ENT} & \text{CS} & \text{ENT} \Vert \text{CS} & w \\
+\hline
+128 & 4 & 132 & 12 \\
+160 & 5 & 165 & 15 \\
+192 & 6 & 198 & 18 \\
+224 & 7 & 231 & 21 \\
+256 & 8 & 264 & 24 \\
+\hline
+\end{array}
+$$
+
 Por exemplo, para uma entropia de 256 bits, o resultado $\text{ENT} \Vert \text{CS}$ é de 264 bits e gera uma frase mnemônica de 24 palavras.
 
 ### Conversão da Sequência Binária em uma Frase Mnemônica
@@ -1441,22 +1453,21 @@ Se um byte é adicionado apenas à chave privada, é porque a chave pública com
 Como acabamos de ver, as chaves estendidas incluem um prefixo que indica tanto a versão da chave estendida quanto sua natureza. A notação `pub` indica que se refere a uma chave pública estendida, e a notação `prv` indica uma chave privada estendida. A letra adicional na base da chave estendida ajuda a indicar se o padrão seguido é Legacy, SegWit v0, SegWit v1, etc.
 Aqui está um resumo dos prefixos usados e seus significados:
 
-| Prefixo Base 58 | Prefixo Base 16    | Rede     | Propósito             | Scripts Associados       | Derivação                 | Tipo de Chave |
-|-----------------|--------------------|----------|-----------------------|--------------------------|---------------------------|---------------|
-| `xpub`          | `0488b21e`         | Mainnet  | Legacy e SegWit V1    | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`    | pública       |
-| `xprv`          | `0488ade4`         | Mainnet  | Legacy e SegWit V1    | P2PK / P2PKH / P2TR      | `m/44'/0'`, `m/86'/0'`    | privada       |
-| `tpub`          | `043587cf`         | Testnet  | Legacy e SegWit V1    | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`    | pública       |
-| `tprv`          | `04358394`         | Testnet  | Legacy e SegWit V1    | P2PK / P2PKH / P2TR      | `m/44'/1'`, `m/86'/1'`    | privada       |
-| `ypub`          | `049d7cb2`         | Mainnet  | Nested SegWit         | P2WPKH in P2SH           | `m/49'/0'`                | pública       |
-| `yprv`         | `049d7878`         | Mainnet  | Nested SegWit        | P2WPKH em P2SH           | `m/49'/0'`                 | privado     |
-| `upub`         | `049d7cb2`         | Testnet  | Nested SegWit        | P2WPKH em P2SH           | `m/49'/1'`                 | público      |
-| `uprv`         | `044a4e28`         | Testnet  | Nested SegWit        | P2WPKH em P2SH           | `m/49'/1'`                 | privado     |
-| `zpub`         | `04b24746`         | Mainnet  | SegWit V0            | P2WPKH                   | `m/84'/0'`                 | público      |
+| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
+| `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
+| `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
+| `tpub`          | `043587cf`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | public       |
+| `tprv`          | `04358394`      | Testnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/1'`, `m/86'/1'` | private      |
+| `ypub`          | `049d7cb2`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | public       |
+| `yprv`          | `049d7878`      | Mainnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/0'`             | private      |
+| `upub`          | `049d7cb2`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | public       |
+| `uprv`          | `044a4e28`      | Testnet | Nested SegWit       | P2WPKH in P2SH      | `m/49'/1'`             | private      |
+| `zpub`          | `04b24746`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | public       |
+| `zprv`          | `04b2430c`      | Mainnet | SegWit V0           | P2WPKH              | `m/84'/0'`             | private      |
+| `vpub`          | `045f1cf6`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | public       |
+| `vprv`          | `045f18bc`      | Testnet | SegWit V0           | P2WPKH              | `m/84'/1'`             | private      |
 
-Esta tabela fornece uma visão abrangente dos prefixos usados em chaves estendidas, detalhando seus prefixos em base 58 e base 16, a rede com a qual estão associados (Mainnet ou Testnet), seu propósito, os scripts com os quais estão associados, seu caminho de derivação, e se são chaves públicas ou privadas.
-| `zprv`          | `04b2430c`          | Mainnet  | SegWit V0            | P2WPKH                    | `m/84'/0'`                  | privado     |
-| `vpub`          | `045f1cf6`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | público      |
-| `vprv`          | `045f18bc`          | Testnet  | SegWit V0            | P2WPKH                    | `m/84'/1'`                  | privado     |
 
 ### Detalhes dos Elementos de uma Chave Estendida
 
@@ -1701,27 +1712,17 @@ Uma questão que pode surgir é como uma chave pública filha normal derivada de
 
 Para resumir, aqui estão os diferentes tipos possíveis de derivações:
 
-
 $$
-
 \begin{array}{|c|c|c|c|}
 \hline
 \rightarrow & \text{PAR} & \text{CHD} & \text{n/h} \\
 \hline
-k*{\text{PAR}} \rightarrow k*{\text{CHD}} & k*{\text{PAR}} & \{ k*{\text{CHD}}^n, k\_{\text{CHD}}^h \} & \{ n, h \} \\
-\end{array}
-
-$$
-
-
-$$
-
-k*{\text{PAR}} \rightarrow K*{\text{CHD}} & k*{\text{PAR}} & \{ K*{\text{CHD}}^n, K*{\text{CHD}}^h \} & \{ n, h \} \\
-K*{\text{PAR}} \rightarrow k*{\text{CHD}} & K*{\text{PAR}} & \times & \times \\
-K*{\text{PAR}} \rightarrow K*{\text{CHD}} & K*{\text{PAR}} & K*{\text{CHD}}^n & n \\
+k_{\text{PAR}} \rightarrow k_{\text{CHD}} & k_{\text{PAR}} & \{ k_{\text{CHD}}^n, k_{\text{CHD}}^h \} & \{ n, h \} \\
+k_{\text{PAR}} \rightarrow K_{\text{CHD}} & k_{\text{PAR}} & \{ K_{\text{CHD}}^n, K_{\text{CHD}}^h \} & \{ n, h \} \\
+K_{\text{PAR}} \rightarrow k_{\text{CHD}} & K_{\text{PAR}} & \times & \times \\
+K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & n \\
 \hline
 \end{array}
-
 $$
 
 Para resumir, até agora você aprendeu a criar os elementos básicos da carteira HD: a frase mnemônica, a semente e, então, a chave mestra e o código da cadeia mestre. Você também descobriu como derivar pares de chaves filhas neste capítulo. No próximo capítulo, exploraremos como essas derivações são organizadas em carteiras Bitcoin e qual estrutura seguir para obter concretamente os endereços de recebimento, bem como os pares de chaves usados no _scriptPubKey_ e _scriptSig_.
@@ -2043,12 +2044,10 @@ RIPEMD160(SHA256(K)) = 9F81322CC88622CA4CCB2A52A21E2888727AA535
 
 Obtivemos um hash de 160 bits da chave pública, que constitui o que é chamado de payload do endereço. Este payload representa a parte central e mais importante do endereço. Ele também é usado no _scriptPubKey_ para bloquear os UTXOs. No entanto, para tornar este payload mais facilmente utilizável por humanos, metadados são adicionados a ele. O próximo passo envolve codificar este hash em grupos de 5 bits em decimal. Esta transformação decimal será útil para conversão em _bech32_, usado por endereços pós-SegWit. O hash binário de 160 bits é, assim, dividido em 32 grupos de 5 bits:
 
-
 $$
-
 \begin{array}{|c|c|}
 \hline
-\text{Grupos de 5 bits} & \text{Valor Decimal} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -2073,8 +2072,17 @@ $$
 00100 & 4 \\
 00111 & 7 \\
 10001 & 17 \\
+01000 & 8 \\
+10001 & 17 \\
+00001 & 1 \\
+11001 & 25 \\
+00111 & 7 \\
+10101 & 21 \\
+00101 & 5 \\
+00101 & 5 \\
+10101 & 21 \\
+\hline
 \end{array}
-
 $$
 
 Então, temos:
@@ -2146,6 +2154,20 @@ Isso nos dá em decimal:
 Então, cada valor decimal deve ser mapeado para seu caractere _bech32_ usando a seguinte tabela de conversão:
 
 
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
++0 & q & p & z & r & y & 9 & x & 8 \\
+\hline
++8 & g & f & 2 & t & v & d & w & 0 \\
+\hline
++16 & s & 3 & j & n & 5 & 4 & k & h \\
+\hline
++24 & c & e & 6 & m & u & a & 7 & l \\
+\hline
+\end{array}
 $$
 
 Para converter um valor em um caractere _bech32_ usando esta tabela, basta localizar os valores na primeira coluna e na primeira linha que, quando somados, resultam no valor desejado. Em seguida, recupere o caractere correspondente. Por exemplo, o número decimal `19` será convertido na letra `n`, porque $19 = 16 + 3$.
@@ -2242,28 +2264,32 @@ $$
 Com:
 
 - $v$: o número da versão do script (padrão `0xC0` para Taproot);
-- $sz$: o tamanho do script codificado no formato _CompactSize_;- $S$: o script.
+- $sz$: o tamanho do script codificado no formato _CompactSize_;
+- $S$: o script.
 
 Os diferentes hashes de script ($\text{h}_{\text{leaf}}$) são primeiramente ordenados em ordem lexicográfica. Em seguida, eles são concatenados em pares e passados através de uma função de hash etiquetada `TapBranch`. Esse processo é repetido iterativamente para construir, passo a passo, a árvore de Merkle:
-O hash do ramo \(\text{h}_{\text{branch}}\) é calculado como a função de hash etiquetada `TapBranch` aplicada à concatenação dos hashes das folhas \(\text{h}_{\text{leaf1}} \Vert \text{h}\_{\text{leaf2}}\):
+$$
+\text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
+$$
 
 Continuamos então concatenando os resultados dois a dois, passando-os a cada etapa pela função de hash etiquetada `TapBranch`, até obtermos a raiz da árvore de Merkle:
 
 ![CYP201](assets/fr/066.webp)
 
-Uma vez calculada a raiz de Merkle \(h*{\text{root}}\), podemos calcular o ajuste. Para isso, concatenamos a chave pública interna da carteira \(P\) com a raiz \(h*{\text{root}}\), e então passamos o todo pela função de hash etiquetada `TapTweak`:
+Uma vez calculada a raiz de Merkle $h_{\text{root}}$, podemos calcular o tweak. Para isso, concatenamos a chave pública interna da carteira $P$ com a raiz $h_{\text{root}}$ e passamos o resultado pela função hash marcada `TapTweak`:
 
-\[
+$$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
-\]
+$$
 
-Finalmente, como antes, a chave pública Taproot \(Q\) é obtida adicionando a chave pública interna \(P\) ao produto do ajuste \(t\) pelo ponto gerador \(G\):
+Finalmente, como antes, a chave pública Taproot $Q$ é obtida somando a chave pública interna $P$ ao produto do tweak $t$ pelo ponto gerador $G$:
 
-\[
+$$
 Q = P + t \cdot G
-\]
+$$
 
-Então, a geração do endereço segue o mesmo processo, usando a chave pública crua \(Q\) como o payload, acompanhada de algumas metadados adicionais.
+A geração do endereço segue então o mesmo processo, utilizando a chave pública bruta $Q$ como carga útil, juntamente com alguns metadados adicionais.
+
 
 E é isso! Chegamos ao fim deste curso CYP201. Se você achou este curso útil, ficaria muito grato se você pudesse dedicar alguns momentos para dar uma boa avaliação no capítulo de avaliação a seguir. Sinta-se livre também para compartilhá-lo com seus entes queridos ou em suas redes sociais. Finalmente, se você deseja obter seu diploma para este curso, você pode fazer o exame final logo após o capítulo de avaliação.
 

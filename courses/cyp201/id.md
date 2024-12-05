@@ -1513,7 +1513,7 @@ $$
 
 $$
 
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+h*1 = \text{hash}_{[:32]} \quad, \quad h*2 = \text{hash}_{[32:]}
 
 $$
 
@@ -1522,7 +1522,7 @@ Kunci privat anak $k_{\text{CHD}}^n$ kemudian dihitung sebagai berikut:
 
 $$
 
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 Dalam perhitungan ini, operasi $\text{parse256}(h_1)$ terdiri dari interpretasi 32 byte pertama dari $\text{hash}$ sebagai bilangan bulat 256-bit. Angka ini kemudian ditambahkan ke kunci privat induk, semuanya diambil modulo $n$ untuk tetap dalam urutan kurva eliptik, seperti yang kita lihat di bagian 3 tentang tanda tangan digital. Jadi, untuk menurunkan kunci privat anak yang normal, meskipun kunci publik induk digunakan sebagai dasar perhitungan dalam input fungsi HMAC-SHA512, selalu diperlukan kunci privat induk untuk menyelesaikan perhitungan.
@@ -1546,7 +1546,7 @@ Untuk **kunci anak yang diperkuat** ($i \geq 2^{31}$), perhitungan $\text{hash}$
 
 $$
 
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1570,7 +1570,7 @@ Kunci privat anak $k_{\text{CHD}}^h$ kemudian dihitung sebagai berikut:
 
 $$
 
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
@@ -1596,7 +1596,7 @@ Untuk melakukan perhitungan ini, kita akan menghitung $\text{hash}$ dengan indek
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1623,7 +1623,7 @@ Kunci publik anak $K_{\text{CHD}}^n$ kemudian dihitung sebagai berikut:
 
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 
 $$
 Jika $\text{parse256}(h_1) \geq n$ (urutan kurva eliptik) atau jika $K_{\text{CHD}}^n$ adalah titik di tak hingga, turunan tersebut tidak valid, dan indeks lain harus dipilih.

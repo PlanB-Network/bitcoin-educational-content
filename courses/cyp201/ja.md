@@ -1354,14 +1354,14 @@ $$
 数学的に、これら二つの値は以下のように表されます。$k_M$がマスタープライベートキー、$C_M$がマスターチェーンコードです：
 $$
 
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 
 $$
 
 
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
@@ -1526,7 +1526,7 @@ Bitcoin HDウォレットにおける子鍵ペアの派生は、大量の鍵を�
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 
 $$
 この計算では、HMAC関数が2つの入力を取ることがわかります：まず、親チェーンコード、次に親秘密キーに関連付けられた公開キーとインデックスの結合です。ここでは通常の子キーを導出するために親公開キーが使用されていますが、強化キーではありません。
@@ -1542,7 +1542,7 @@ $$
 
 $$
 
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 
 $$
 
@@ -1551,7 +1551,7 @@ $$
 
 $$
 
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 この計算では、操作 $\text{parse256}(h_1)$ は、$\text{hash}$ の最初の32バイトを256ビット整数として解釈することから成ります。この数値はその後、親の秘密鍵に加えられ、全てが $n$ によってモジュロ演算されます。これは、セクション3で見たデジタル署名における楕円曲線の順序内に留まるためです。したがって、通常の子秘密鍵を導出するには、HMAC-SHA512関数の入力計算の基礎として親の公開鍵が使用されるものの、計算を完了するためには常に親の秘密鍵が必要です。
@@ -1575,7 +1575,7 @@ $$
 
 $$
 
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1599,7 +1599,7 @@ $$
 
 $$
 
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
@@ -1625,7 +1625,7 @@ $$
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1652,7 +1652,7 @@ $$
 
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 
 $$
 もし $\text{parse256}(h_1) \geq n$（楕円曲線の位数）であるか、または $K_{\text{CHD}}^n$ が無限遠点である場合、導出は無効であり、別のインデックスを選択する必要があります。

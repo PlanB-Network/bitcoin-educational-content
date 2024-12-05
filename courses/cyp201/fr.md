@@ -2068,7 +2068,7 @@ Cependant, pour rendre cette charge utile plus facilement utilisable par les hum
 $$
 \begin{array}{|c|c|}
 \hline
-\text{Groupes de 5 bits} & \text{Valeur décimale} \\
+\text{5 bits} & \text{Decimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\

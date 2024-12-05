@@ -378,7 +378,7 @@ Le successive 48 parole ($W_{16}$ fino a $W_{63}$) sono generate utilizzando la 
 
 $$
 
-W*i = W*{i-16} + \sigma*0(W*{i-15}) + W*{i-7} + \sigma_1(W*{i-2}) \mod 2^{32}
+W_i = W_{i-16} + \sigma*0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
 
 $$
 
@@ -398,7 +398,7 @@ Eseguiamo quindi le seguenti operazioni sui nostri input:
 
 $$
 
-\Sigma*0(A) = RotR_2(A) \oplus RotR*{13}(A) \oplus RotR\_{22}(A)
+\Sigma*0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR\_{22}(A)
 
 $$
 
@@ -407,7 +407,7 @@ $$
 
 $$
 
-\Sigma*1(E) = RotR_6(E) \oplus RotR*{11}(E) \oplus RotR\_{25}(E)
+\Sigma*1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR\_{25}(E)
 
 $$
 
@@ -1345,14 +1345,14 @@ L'output di questa funzione è quindi di 512 bit. Viene poi diviso in 2 parti:
 Matematicamente, questi due valori possono essere notati come segue con $k_M$ che rappresenta la chiave privata maestra e $C_M$ il codice catena maestro:
 $$
 
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 
 $$
 
 
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
@@ -1516,7 +1516,7 @@ Per una **chiave figlio normale** ($i < 2^{31}$), il calcolo di $\text{hash}$ è
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 
 $$
 In questo calcolo, osserviamo che la nostra funzione HMAC prende due input: prima, il codice catena genitore, e poi la concatenazione dell'indice con la chiave pubblica associata alla chiave privata genitore. La chiave pubblica genitore è utilizzata qui perché stiamo cercando di derivare una chiave figlio normale, non una potenziata.
@@ -1532,7 +1532,7 @@ $$
 
 $$
 
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+h*1 = \text{hash}_{[:32]} \quad, \quad h*2 = \text{hash}_{[32:]}
 
 $$
 
@@ -1541,7 +1541,7 @@ La chiave privata figlio $k_{\text{CHD}}^n$ è quindi calcolata come segue:
 
 $$
 
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 In questa calcolazione, l'operazione $\text{parse256}(h_1)$ consiste nell'interpretare i primi 32 byte dell'$\text{hash}$ come un intero a 256 bit. Questo numero viene poi sommato alla chiave privata genitore, il tutto preso modulo $n$ per rimanere nell'ordine della curva ellittica, come abbiamo visto nella sezione 3 sulle firme digitali. Pertanto, per derivare una chiave privata figlio normale, sebbene la chiave pubblica genitore sia utilizzata come base per il calcolo negli input della funzione HMAC-SHA512, è sempre necessario avere la chiave privata genitore per finalizzare il calcolo.
@@ -1565,7 +1565,7 @@ Per una **chiave figlio rinforzata** ($i \geq 2^{31}$), il calcolo dell'$\text{h
 
 $$
 
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1589,7 +1589,7 @@ La chiave privata figlio $k_{\text{CHD}}^h$ viene quindi calcolata come segue:
 
 $$
 
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
@@ -1615,7 +1615,7 @@ Per eseguire questo calcolo, calcoleremo l'$\text{hash}$ con un indice $i < 2^{3
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1642,7 +1642,7 @@ La chiave pubblica figlio $K_{\text{CHD}}^n$ viene quindi calcolata come segue:
 
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 
 $$
 Se $\text{parse256}(h_1) \geq n$ (ordine della curva ellittica) o se $K_{\text{CHD}}^n$ è il punto all'infinito, la derivazione è invalida e deve essere scelto un altro indice.

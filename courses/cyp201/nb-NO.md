@@ -1321,14 +1321,14 @@ Utgangen av denne funksjonen er derfor 512 bits. Den deles deretter inn i 2 dele
 Matematisk kan disse to verdiene noteres som følger med $k_M$ som den mesterlige private nøkkelen og $C_M$ som den mesterlige kjedekoden:
 $$
 
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 
 $$
 
 
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
@@ -1492,7 +1492,7 @@ For en **normal barnenøkkel** ($i < 2^{31}$), er beregningen av $\text{hash}$ s
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 
 $$
 I denne beregningen observerer vi at vår HMAC-funksjon tar to inndata: først, foreldrenes kjedekode, og deretter sammenkjedningen av indeksen med den offentlige nøkkelen assosiert med den private foreldrenøkkelen. Den offentlige foreldrenøkkelen brukes her fordi vi ser etter å derivere en normal barnenøkkel, ikke en herdet en.
@@ -1508,7 +1508,7 @@ $$
 
 $$
 
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+h*1 = \text{hash}_{[:32]} \quad, \quad h*2 = \text{hash}_{[32:]}
 
 $$
 
@@ -1517,7 +1517,7 @@ Den barn private nøkkelen $k_{\text{CHD}}^n$ beregnes deretter som følger:
 
 $$
 
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 I denne beregningen består operasjonen $\text{parse256}(h_1)$ av å tolke de første 32 bytene av $\text{hash}$ som et 256-bits heltall. Dette tallet legges deretter til den overordnede private nøkkelen, alt tatt modulo $n$ for å holde seg innenfor elliptisk kurves orden, som vi så i seksjon 3 om digitale signaturer. Dermed, for å utlede en normal barnenøkkel, selv om den overordnede offentlige nøkkelen brukes som grunnlag for beregning i inndataene til HMAC-SHA512-funksjonen, er det alltid nødvendig å ha den overordnede private nøkkelen for å fullføre beregningen.
@@ -1541,7 +1541,7 @@ For en **hardened barnenøkkel** ($i \geq 2^{31}$), er beregningen av $\text{has
 
 $$
 
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1565,7 +1565,7 @@ Barnets private nøkkel $k_{\text{CHD}}^h$ beregnes deretter som følger:
 
 $$
 
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
@@ -1591,7 +1591,7 @@ For å utføre denne beregningen, vil vi beregne $\text{hash}$ med et indeks $i 
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1618,7 +1618,7 @@ Den offentlige nøkkelen til barnet $K_{\text{CHD}}^n$ beregnes deretter som fø
 
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 
 $$
 Hvis $\text{parse256}(h_1) \geq n$ (ordenen til den elliptiske kurven) eller hvis $K_{\text{CHD}}^n$ er punktet i uendelighet, er utledningen ugyldig, og et annet indeks må velges.

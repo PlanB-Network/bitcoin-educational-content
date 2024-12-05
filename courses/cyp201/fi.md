@@ -1327,14 +1327,14 @@ Tämän funktion tuloksena on siis 512 bittiä. Se jaetaan sitten kahteen osaan:
 Matemaattisesti nämä kaksi arvoa voidaan merkitä seuraavasti, $k_M$ ollessa mestari yksityisavain ja $C_M$ mestari ketjukoodi:
 $$
 
-k*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[:256]}
+k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
 
 $$
 
 
 $$
 
-C*M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)*{[256:]}
+C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
@@ -1501,7 +1501,7 @@ Lapsen yksityisen avaimen $k_{\text{CHD}}$ johtamiseksi vanhemman yksityisestä 
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, G \cdot k*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 
 $$
 Tässä laskennassa huomaamme, että HMAC-funktiomme ottaa kaksi syötettä: ensin vanhemman ketjukoodin, ja sitten indeksin yhdistämisen vanhemman yksityiseen avaimen liittyvän julkisen avaimen kanssa. Vanhempaa julkista avainta käytetään tässä, koska haluamme johtaa normaalin lapsiavaimen, ei kovennettua.
@@ -1517,7 +1517,7 @@ $$
 
 $$
 
-h*1 = \text{hash}*{[:32]} \quad, \quad h*2 = \text{hash}*{[32:]}
+h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 
 $$
 
@@ -1526,7 +1526,7 @@ Lapsen yksityinen avain $k_{\text{CHD}}^n$ lasketaan sitten seuraavasti:
 
 $$
 
-k*{\text{CHD}}^n = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 Tässä laskennassa toiminto $\text{parse256}(h_1)$ koostuu ensimmäisen 32 tavun tulkinnasta $\text{hash}$:sta 256-bittisenä kokonaislukuna. Tämä luku lisätään sitten vanhemman yksityisavaimen arvoon, kaikki otetaan modulo $n$ pysyäkseen elliptisen käyrän järjestyksessä, kuten näimme osiossa 3 digitaalisista allekirjoituksista. Näin ollen normaalin lapsen yksityisavaimen johdannaisessa, vaikka vanhemman julkista avainta käytetään laskennan perustana HMAC-SHA512 funktion syötteissä, on aina tarpeen olla vanhemman yksityisavain laskennan viimeistelyä varten.
@@ -1550,7 +1550,7 @@ Tässä on kaavamainen esitys koko johdannaisesta:
 
 $$
 
-hash = \text{HMAC-SHA512}(C*{\text{PAR}}, 0x00 \Vert k*{\text{PAR}} \Vert i)
+hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1574,7 +1574,7 @@ Lapsen yksityisavain $k_{\text{CHD}}^h$ lasketaan sitten seuraavasti:
 
 $$
 
-k*{\text{CHD}}^h = \text{parse256}(h_1) + k*{\text{PAR}} \mod n
+k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
@@ -1600,7 +1600,7 @@ Tämän laskennan suorittamiseksi laskemme $\text{hash}$ indeksillä $i < 2^{31}
 
 $$
 
-\text{hash} = \text{HMAC-SHA512}(C*{\text{PAR}}, K*{\text{PAR}} \Vert i)
+\text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 
 $$
 
@@ -1627,7 +1627,7 @@ Lapsen julkinen avain $K_{\text{CHD}}^n$ lasketaan sitten seuraavasti:
 
 $$
 
-K*{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K*{\text{PAR}}
+K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 
 $$
 Jos $\text{parse256}(h_1) \geq n$ (elliptisen käyrän järjestys) tai jos $K_{\text{CHD}}^n$ on äärettömyyden piste, johdannainen on virheellinen, ja toinen indeksi on valittava.

@@ -49,11 +49,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 Pour installer Git, rendez-vous sur [le site officiel du projet](https://git-scm.com/). Téléchargez le logiciel et suivez les instructions d'installation.
 
-01
+![BACCA](assets/fr/01.webp)
 
 Procédez de la même manière pour installer Rust à partir [du site officiel](https://www.rust-lang.org/tools/install).
 
-02
+![BACCA](assets/fr/02.webp)
 
 
 **Mac :**
@@ -94,7 +94,7 @@ cargo run -p ledger_manager_gui
 
 Vous avez maintenant accès à l'interface du logiciel.
 
-03
+![BACCA](assets/fr/03.webp)
 
 ## Configurer la Ledger
 
@@ -110,31 +110,31 @@ https://planb.network/tutorials/wallet/ledger-flex
 
 Branchez votre Ledger à votre ordinateur et déverrouillez-la en utilisant le code PIN que vous avez configuré. Bacca devrait automatiquement détecter votre Ledger.
 
-04
+![BACCA](assets/fr/04.webp)
 
 Pour confirmer l'authenticité de votre Ledger, cliquez sur le bouton "*Check*". Vous devrez autoriser la connexion sur votre appareil Ledger pour continuer.
 
-05
+![BACCA](assets/fr/05.webp)
 
 Bacca vous informera ensuite si votre Ledger est authentique. Si ce n'est pas le cas, cela indique soit que l'appareil a été compromis, soit qu'il s'agit d'une contrefaçon. Dans ce cas, arrêtez immédiatement de l'utiliser.
 
-06
+![BACCA](assets/fr/06.webp)
 
 Dans le menu "*Apps*", vous pouvez consulter la liste des applications déjà installées sur votre Ledger.
 
-07
+![BACCA](assets/fr/07.webp)
 
 Pour installer l'application Bitcoin, cliquez sur "*Install*", puis autorisez l'installation sur votre Ledger.
 
-08
+![BACCA](assets/fr/08.webp)
 
 L'application est bien installée.
 
-09
+![BACCA](assets/fr/09.webp)
 
 Si vous n'avez pas la dernière version de l'application Bitcoin installée, Bacca affichera un bouton "*Update*" au lieu de l'indication "*Latest*". Cliquez simplement sur ce bouton pour mettre à jour l'application.
 
-10
+![BACCA](assets/fr/10.webp)
 
 Maintenant que votre Ledger est correctement configurée avec la dernière version de l'application Bitcoin, vous êtes prêt à importer puis utiliser votre portefeuille sur un logiciel de gestion tel que Sparrow ou Liana, sans avoir eu besoin de passer par Ledger Live !
 

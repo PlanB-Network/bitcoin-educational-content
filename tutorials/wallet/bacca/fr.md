@@ -56,7 +56,7 @@ Procédez de la même manière pour installer Rust à partir [du site officiel](
 ![BACCA](assets/fr/02.webp)
 
 
-**Mac :**
+**MacOS :**
 
 Si Git n'est pas déjà installé sur votre système, ouvrez un terminal et exécutez la commande suivante pour l'installer :
 

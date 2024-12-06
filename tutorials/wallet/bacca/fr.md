@@ -4,7 +4,7 @@ description: Configurer une Ledger sans le logiciel Ledger Live
 ---
 ![cover](assets/cover.webp)
 
-Si vous utilisez une Ledger, vous avez probablement constaté que vous devez passer par le logiciel Ledger Live, au moins pour la configuration initiale de l'appareil, afin de vérifier son authenticité et d'y installer l'application Bitcoin. Cependant, après cette configuration, beaucoup de bitcoiners préfèrent utiliser des logiciels de gestion de portefeuille Bitcoin spécialisés tels que Sparrow ou Liana plutôt que Ledger Live. Bien que Ledger produise d'excellents hardware wallets qui incluent rapidement les dernière fonctionnalités sur Bitcoin, leur logiciel n'est pas forcément adapté aux besoins spécifiques des bitcoiners. En effet, Ledger Live inclut de nombreuses fonctionnalités destinées aux altcoins, tandis que les options dédiées à la gestion de portefeuille Bitcoin sont limitées. Mais le problème de Sparrow et Liana (pour le moment), est qu'ils ne permettent pas d'installer l'application Bitcoin sur la Ledger.
+Si vous utilisez une Ledger, vous avez probablement constaté que vous deviez passer par le logiciel Ledger Live, au moins pour la configuration initiale de l'appareil, afin de vérifier son authenticité et d'y installer l'application Bitcoin. Cependant, après cette configuration, beaucoup de bitcoiners préfèrent utiliser des logiciels de gestion de portefeuille Bitcoin spécialisés tels que Sparrow ou Liana plutôt que Ledger Live. Bien que Ledger produise d'excellents hardware wallets qui incluent rapidement les dernières fonctionnalités sur Bitcoin, leur logiciel n'est pas forcément adapté aux besoins spécifiques des bitcoiners. En effet, Ledger Live inclut de nombreuses fonctionnalités destinées aux altcoins, tandis que les options dédiées à la gestion de portefeuille Bitcoin sont limitées. Mais le problème de Sparrow et Liana (pour le moment), est qu'ils ne permettent pas d'installer l'application Bitcoin sur la Ledger.
 
 Pour contourner le besoin d'utiliser Ledger Live lors de la configuration initiale de votre Ledger, vous pouvez utiliser l'outil Bacca, (ou "Ledger Installer"). Ce logiciel vous permet d'installer et de mettre à jour l'application Bitcoin, de vérifier l'authenticité de votre Ledger, et même plus tard de mettre à jour le firmware de l'appareil. Bacca a été créé par Antoine Poinsot (Darosior), développeur Bitcoin Core chez Chaincode Labs, cofondateur [de Revault et de Liana](https://wizardsardine.com/), et par Pythcoiner.
 
@@ -112,7 +112,7 @@ Branchez votre Ledger à votre ordinateur et déverrouillez-la en utilisant le c
 
 04
 
-Pour confirmer l'authenticité de votre Ledger, cliquez sur le bouton "Check". Vous devrez autoriser la connexion sur votre appareil Ledger pour continuer.
+Pour confirmer l'authenticité de votre Ledger, cliquez sur le bouton "*Check*". Vous devrez autoriser la connexion sur votre appareil Ledger pour continuer.
 
 05
 
@@ -120,11 +120,11 @@ Bacca vous informera ensuite si votre Ledger est authentique. Si ce n'est pas le
 
 06
 
-Dans le menu "Apps", vous pouvez consulter la liste des applications déjà installées sur votre Ledger.
+Dans le menu "*Apps*", vous pouvez consulter la liste des applications déjà installées sur votre Ledger.
 
 07
 
-Pour installer l'application Bitcoin, cliquez sur "Install", puis autorisez l'installation sur votre Ledger.
+Pour installer l'application Bitcoin, cliquez sur "*Install*", puis autorisez l'installation sur votre Ledger.
 
 08
 
@@ -132,7 +132,7 @@ L'application est bien installée.
 
 09
 
-Si vous n'avez pas la dernière version de l'application Bitcoin installée, Bacca affichera un bouton "Update" au lieu de l'indication "Latest". Cliquez simplement sur ce bouton pour mettre à jour l'application.
+Si vous n'avez pas la dernière version de l'application Bitcoin installée, Bacca affichera un bouton "*Update*" au lieu de l'indication "*Latest*". Cliquez simplement sur ce bouton pour mettre à jour l'application.
 
 10
 

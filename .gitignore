@@ -3,3 +3,5 @@ scripts/.env
 .DS_Store
 **/plan.txt
 courses/**/scripts/
+scripts/auto-translate/json-content-conversion/.env
+scripts/auto-translate/.env

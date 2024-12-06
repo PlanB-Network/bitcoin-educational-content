@@ -1,0 +1,15 @@
+header_separator: false
+yml_properties:
+  - name: true
+  - goal: true
+  - objectives: false
+paragraph: true
+markdown_header: true
+description_separator: false
+partId: false
+chapterId: false
+embed_links: false
+list: true
+equation: false
+snippet: false
+planb_links: false

@@ -25,7 +25,7 @@ class JsonConverter:
                     self.in_snippet = True
                     self.output.append({
                         'type': 'snippet_start',
-                        'value': line,
+                        'content': line,
                         'language': meta
                     })
                 else:
@@ -33,8 +33,8 @@ class JsonConverter:
                     if self.current_block:
                         self.output.append({
                             'type': 'snippet',
-                            'value': '\n'.join(self.current_block),
-                            'content': self.current_block
+                            'content': '\n'.join(self.current_block),
+                            'lines': self.current_block
                         })
                         self.current_block = []
                 return
@@ -44,15 +44,15 @@ class JsonConverter:
                     self.in_equation = True
                     self.output.append({
                         'type': 'equation_start',
-                        'value': line
+                        'content': line
                     })
                 else:
                     self.in_equation = False
                     if self.current_block:
                         self.output.append({
                             'type': 'equation',
-                            'value': '\n'.join(self.current_block),
-                            'content': self.current_block
+                            'content': '\n'.join(self.current_block),
+                            'lines': self.current_block
                         })
                         self.current_block = []
                 return
@@ -67,7 +67,7 @@ class JsonConverter:
             self.in_yaml = not self.in_yaml
             self.output.append({
                 'type': 'header_separator',
-                'value': line
+                'content': line
             })
             return
 
@@ -76,9 +76,8 @@ class JsonConverter:
             if key:
                 self.output.append({
                     'type': 'yml_property',
-                    'value': line,
-                    'key': key,
-                    'content': value
+                    'content': value,
+                    'prefix': f"{key}:"
                 })
                 return
 
@@ -86,36 +85,88 @@ class JsonConverter:
         obj_type = self.detector.detect_object_type(line)
         if obj_type == 'list':
             indent = len(raw_line) - len(raw_line.lstrip())
+            content = line.lstrip('- *').strip()
             self.output.append({
                 'type': obj_type,
-                'value': raw_line.rstrip(),
-                'indent': indent,
-                'content': line.lstrip('- *').strip()
+                'content': content,
+                'prefix': '-',
+                'indent': indent
             })
         elif obj_type == 'quote':
-            # Modified quote handling to extract content
-            quote_content = line.lstrip('> ').strip()
+            content = line.lstrip('> ').strip()
             self.output.append({
                 'type': obj_type,
-                'value': line,
-                'content': quote_content
+                'content': content,
+                'prefix': '>'
+            })
+        elif obj_type == 'markdown_header':
+            level = len(line) - len(line.lstrip('#'))
+            content = line.lstrip('#').strip()
+            self.output.append({
+                'type': obj_type,
+                'content': content,
+                'prefix': '#' * level
             })
         elif obj_type:
             self.output.append({
                 'type': obj_type,
-                'value': line
+                'content': line
             })
 
+    def to_markdown(self) -> str:
+        """Convert the JSON structure back to markdown format."""
+        markdown_lines = []
+        for obj in self.output:
+            obj_type = obj['type']
+            
+            if obj_type == 'header_separator':
+                markdown_lines.append(obj['content'])
+            
+            elif obj_type == 'yml_property':
+                markdown_lines.append(f"{obj['prefix']} {obj['content']}")
+            
+            elif obj_type == 'list':
+                indent = ' ' * obj.get('indent', 0)
+                markdown_lines.append(f"{indent}{obj['prefix']} {obj['content']}")
+            
+            elif obj_type == 'quote':
+                markdown_lines.append(f"{obj['prefix']} {obj['content']}")
+            
+            elif obj_type == 'markdown_header':
+                markdown_lines.append(f"{obj['prefix']} {obj['content']}")
+            
+            elif obj_type in ['snippet', 'equation']:
+                if obj.get('lines'):
+                    markdown_lines.extend(obj['lines'])
+                else:
+                    markdown_lines.append(obj['content'])
+            
+            elif obj_type in ['snippet_start', 'equation_start']:
+                markdown_lines.append(obj['content'])
+            
+            else:
+                markdown_lines.append(obj['content'])
+        
+        return '\n'.join(markdown_lines)
+
 def main():
-    with open('../../../courses/btc101/en_test.md', 'r') as f:
+    # Read input file
+    with open('../../../courses/btc101/en.md', 'r') as f:
         lines = f.readlines()
         
+    # Convert to JSON
     converter = JsonConverter()
     for line in lines:
         converter.process_line(line)
         
-    with open('output.json', 'w') as f:
-        json.dump(converter.output, f, indent=2)
+    # Write JSON output
+    with open('output.json', 'w', encoding='utf-8') as f:
+        json.dump(converter.output, f, indent=2, ensure_ascii=False)
+    
+    # Optionally verify roundtrip conversion
+    markdown = converter.to_markdown()
+    with open('output.md', 'w', encoding='utf-8') as f:
+        f.write(markdown)
 
 if __name__ == "__main__":
     main()

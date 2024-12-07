@@ -7,43 +7,52 @@ class JsonToMarkdownConverter:
         self.output_lines: List[str] = []
         
     def handle_yml_property(self, item: Dict[str, Any]) -> str:
-        if item.get('key') == 'objectives':
-            return f"{item['key']}:"
-        return item['value']
+        """Handle YAML property with prefix and content"""
+        return f"{item['prefix']} {item['content']}"
         
     def handle_list(self, item: Dict[str, Any]) -> str:
+        """Handle list items with indent and content"""
         indent = ' ' * item.get('indent', 0)
-        return f"{indent}- {item['content']}"
+        return f"{indent}{item['prefix']} {item['content']}"
         
     def handle_quote(self, item: Dict[str, Any]) -> str:
-        return f"> {item.get('content', item['value'])}"
+        """Handle quote with prefix and content"""
+        return f"{item['prefix']} {item['content']}"
         
     def handle_snippet(self, item: Dict[str, Any]) -> List[str]:
+        """Handle code snippets and their delimiters"""
         if item['type'] == 'snippet_start':
-            return [f"```{item.get('language', '')}"]
+            return [item['content']]  # Use the full content as it includes the backticks and language
         elif item['type'] == 'snippet':
-            content = item.get('content', [])
-            if isinstance(content, str):
-                content = content.split('\n')
-            lines = content + ['```']
-            if item['type'] == 'snippet':  # Add extra break after closing snippet
-                lines.append('')
+            if item.get('lines'):
+                lines = item['lines']
+            else:
+                lines = item['content'].split('\n')
+            lines.append('```')
+            lines.append('')  # Add extra break after closing snippet
             return lines
         return []
         
     def handle_equation(self, item: Dict[str, Any]) -> List[str]:
+        """Handle equations and their delimiters"""
         if item['type'] == 'equation_start':
-            return ['$$']
+            return [item['content']]  # Use the full content as it includes the equation delimiter
         elif item['type'] == 'equation':
-            content = item.get('content', [])
-            if isinstance(content, str):
-                content = content.split('\n')
-            lines = content + ['$$']
+            if item.get('lines'):
+                lines = item['lines']
+            else:
+                lines = item['content'].split('\n')
+            lines.append('$$')
             lines.append('')  # Add extra break after equation
             return lines
         return []
+        
+    def handle_header(self, item: Dict[str, Any]) -> List[str]:
+        """Handle markdown headers with prefix and content"""
+        return [f"{item['prefix']} {item['content']}", '']
 
     def convert_item(self, item: Dict[str, Any]) -> List[str]:
+        """Convert a single JSON item to markdown lines"""
         item_type = item['type']
         
         if item_type == 'header_separator':
@@ -65,25 +74,33 @@ class JsonToMarkdownConverter:
         if item_type in ['equation_start', 'equation']:
             return self.handle_equation(item)
             
+        if item_type == 'markdown_header':
+            return self.handle_header(item)
+            
         # Elements that need an extra break line
-        if item_type in ['embed_links', 'markdown_header', 'paragraph', 'chapterId', 'partId']:
-            return [item['value'], '']
-
+        if item_type in ['embed_links', 'paragraph', 'chapterId', 'partId']:
+            return [item['content'], '']
+            
         # Default handling for other types
-        return [item['value']]
+        return [item['content']]
 
     def convert(self, json_data: List[Dict[str, Any]]) -> str:
+        """Convert entire JSON structure to markdown"""
         formatted_lines = []
         
         for item in json_data:
             lines = self.convert_item(item)
             formatted_lines.extend(lines)
             
+        # Clean up any trailing empty lines while preserving intentional spacing
+        while formatted_lines and not formatted_lines[-1]:
+            formatted_lines.pop()
+            
         return '\n'.join(formatted_lines)
 
 def main():
     # Read JSON file
-    with open('output.json', 'r') as f:
+    with open('output.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     # Convert to markdown
@@ -91,7 +108,7 @@ def main():
     markdown_content = converter.convert(json_data)
     
     # Write to file
-    with open('output.md', 'w') as f:
+    with open('output.md', 'w', encoding='utf-8') as f:
         f.write(markdown_content)
 
 if __name__ == "__main__":

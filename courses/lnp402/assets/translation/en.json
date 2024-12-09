@@ -1,0 +1,430 @@
+[
+  {
+    "type": "header_separator",
+    "content": "---"
+  },
+  {
+    "type": "yml_property",
+    "content": "Developping on Lightning with SDK",
+    "prefix": "name:"
+  },
+  {
+    "type": "yml_property",
+    "content": "Advance your lightning development skills with intermediate Rust and SDK training.",
+    "prefix": "goal:"
+  },
+  {
+    "type": "yml_property",
+    "content": [],
+    "prefix": "objectives:"
+  },
+  {
+    "type": "list",
+    "content": "Get used to Rust Language",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "list",
+    "content": "Understand why using Rust for developping Bitcoin",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "list",
+    "content": "Get the basis of SDK",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "header_separator",
+    "content": "---"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Advancing in your LN dev skills",
+    "prefix": "#"
+  },
+  {
+    "type": "paragraph",
+    "content": "Welcome to your LN journey with SDK."
+  },
+  {
+    "type": "paragraph",
+    "content": "In this course, you will learn the basics of the Rust book, then follow up with some LN programming using SDKs, and finish with some practical exercises. Our teachers from various backgrounds will guide you toward practical skills and explain the various challenges that today's LN engineers often face."
+  },
+  {
+    "type": "paragraph",
+    "content": "This course was filmed during a LIVE seminar organized by Fulgur'Ventures during the LN Tuscany event in October 2023."
+  },
+  {
+    "type": "paragraph",
+    "content": "Enjoy the course!"
+  },
+  {
+    "type": "description_separator",
+    "content": "+++"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Introduction",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Cours curriculum & introduction",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Introduction",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Welcome to this advanced programming course on SDKs. In this training, you will learn the basics of Rust, then focus on BTC & Rust, and finish with some practical exercises using SDKs."
+  },
+  {
+    "type": "paragraph",
+    "content": "This training will be available only in English for now and was part of a live seminar organized last October in Tuscany by Fulgure Venture. The program of the LIVE event can be found below, and this training will focus on the first week only. The second half was targeted at RGB and can be found in the RGB course."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Teachers",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Many thanks to our teachers who have been part of this program:"
+  },
+  {
+    "type": "list",
+    "content": "Alekos : \"Hey, i'm an italien coder and hacker. i've worked on various project such as bitcoindevkit, magicalbitcoin and h4ckbs\"",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Andrei : \"Lightning expert at LIPA\"",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Gabriel : \"I write code and do stuff.\"",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Jesse de wit : \"Lightning network enthousiast | developer | Breez\"",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "markdown_header",
+    "content": "Seminaire schedual",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Week 1 of the LN Tuscany event"
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/1.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Once you've finished this course, if you are interested in the follow-up training, here is the second part of the schedule:"
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/2.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Good luck with your studies."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Learn how to code with the rust book",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Introduction to Rust (1/7)",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>"
+  },
+  {
+    "type": "paragraph",
+    "content": "<professor>radio-talent</professor>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://www.youtube.com/watch?v=aZYhDXE_Gas)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Introduction to Rust (2/7)",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>918ca359-c123-5414-af01-253016670f3a</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/Xm8eCv4LQPc)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Introduction to Rust (3/7)",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>0278ed13-68b6-59e1-97c5-f8dde505549b</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/R8NeHvHT0uc)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Introduction to Rust (4/7)",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>915e523a-8fbd-5789-ab42-99b56a2a16c3</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/et8pKvYiO4c)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Introduction to Rust (5/7)",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>96d54999-cdbc-5601-acac-1bc7acbe2eb7</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/PxQkVmxOc40)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Introduction to Rust (6/7)",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>a66c63ed-9514-51d1-b3a0-c8edb57603bb</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/3C6hl9BW-Ho)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Introduction to Rust (7/7)",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>21cf8dab-239a-580a-85cd-34326aeb1b26</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/SBDcb_AauHM)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Rust & BTC",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>0f4f2ff0-7f41-5ce3-8f64-9ecff69c5355</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Why rust per Bitcoin",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>92f13f36-70bd-5b00-8c6c-fcd1a1bd1531</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/veLj2w6ulpc)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Error model",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>1a648363-0aff-54dd-a79d-ead75231e5d6</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/X3VKhLtKTRU)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Unniffit",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>fe1be3e3-2288-5a10-b64b-9ba72fb985d1</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/zro9GQpJrH0)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Async traits",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>e1610abe-574c-5995-abe4-a92b0dca4c93</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/cz66eTfk0lw)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Developping LNP/BP with SDK",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>42e8e0f8-1c07-5c71-8378-c57afb38e25d</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "LN node on SDK",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>643e4670-bb1f-581f-a102-f84e8e5d2a02</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/aEzpxuhLdeo)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Breez sdk",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>52f20a4d-7d81-58e4-be00-9d39334352af</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/M3ad9BE6ovo)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Greenlight for lipa",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>7ba30435-d26e-5e6f-a973-94080d44bf27</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/gKiIPF4apeE)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Breez sdk for lipa",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>93d87d63-dd7b-5e05-ad2e-dda12915ea32</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![video](https://youtu.be/6VaIVvBKjLY)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Conclusion",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Evaluate the course",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>"
+  },
+  {
+    "type": "paragraph",
+    "content": "<isCourseReview>true</isCourseReview>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Closing word",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>"
+  },
+  {
+    "type": "paragraph",
+    "content": "Thank you for taking part in this course! We hope you liked it."
+  },
+  {
+    "type": "paragraph",
+    "content": "If you want to keep learning from this seminar, we encourage you to take part in the RGB courses available on this platform."
+  },
+  {
+    "type": "paragraph",
+    "content": "You can also check out our other courses and continue studying from our numerous resources."
+  },
+  {
+    "type": "paragraph",
+    "content": "A big thanks to Fulgur Venture for offering this course and to our teachers for their participation."
+  }
+]

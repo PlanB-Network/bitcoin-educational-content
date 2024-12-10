@@ -1235,7 +1235,7 @@ Sebagai hasilnya, memilih frasa 24 kata tidak memberikan perlindungan tambahan u
 Frasa 12 kata, yang juga menawarkan keamanan 128 bit, saat ini sudah cukup untuk melindungi bitcoin Anda dari setiap upaya pencurian. Selama algoritma tanda tangan digital tidak berubah untuk menggunakan kunci yang lebih besar atau bergantung pada masalah matematika lain selain ECDLP, frasa 24 kata tetap berlebihan. Selain itu, frasa yang lebih panjang meningkatkan risiko kehilangan saat pencadangan: pencadangan yang dua kali lebih singkat selalu lebih mudah dikelola.
 Untuk lebih lanjut dan belajar secara konkret bagaimana menghasilkan frasa mnemonik tes secara manual, saya menyarankan Anda untuk menemukan tutorial ini:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 Sebelum melanjutkan dengan derivasi dompet dari frasa mnemonik ini, saya akan memperkenalkan Anda, dalam bab berikutnya, ke frasa sandi BIP39, karena ini berperan dalam proses derivasi, dan berada pada level yang sama dengan frasa mnemonik.
 ## Frasa Sandi
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

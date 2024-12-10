@@ -1084,7 +1084,7 @@ Alle disse metodene for automatisk UTXO-valg kan være effektive i å redusere t
 
 Hvis du vil lære hvordan du merker UTXOene dine, har vi laget en komplett veiledning om den viktigste eksisterende Bitcoin-lommebokprogramvaren:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC og Nøkkelidentifikasjon
 
@@ -1814,11 +1814,11 @@ Vi følger nøye med på utviklingen av denne saken samt utviklingen angående t
 
 I neste kapittel vil vi oppdage hva "anonsets" er, hvordan disse indikatorene beregnes, og hvordan de kan hjelpe oss med å estimere effektiviteten av coinjoin-sykluser.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Anonymitetssett
 
@@ -1884,7 +1884,7 @@ Det er mulig å manuelt beregne ens anonsets ved bruk av en blokkutforsker for s
 
 Som vi har sett i dette kapittelet, kan anonsets bare beregnes hvis det er en viss homogenitet i strukturen av coinjoins. Og nettopp, i neste kapittel, vil vi oppdage hvordan man kvantifiserer denne homogeniteten i en Bitcoin-transaksjon, enten det er en coinjoin eller en mer tradisjonell transaksjon.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropi
 
@@ -2111,7 +2111,7 @@ Det var også mulig å bruke nettstedet KYCP.org for disse analysene:
 Dessverre, etter arrestasjonen av grunnleggerne av Samourai, er disse verktøyene for øyeblikket ikke operative.
 Nå som vi har diskutert coinjoins i detalj, vil vi utforske andre personvernsteknikker tilgjengelige på Bitcoin i den siste delen av opplæringen vår. Vi vil se på payjoins, spesifikke transaksjonstyper pseudo-coinjoins, statiske adresseprotokoller, samt tiltak rettet mot å forbedre personvern ikke på transaksjonsnivå, men på nettverket av noder-nivå.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Forståelse av innsatsen for andre avanserte personvernsteknikker
 
@@ -2190,9 +2190,9 @@ Den mest avanserte implementeringen av payjoin var kun Stowaway på Samourai Wal
 
 Vanskeligheten med å bruke payjoin ligger i dens avhengighet av handlernes deltakelse. Som kunde er det umulig å bruke en payjoin hvis handelsmannen ikke støtter det. Dette legger til en ekstra vanskelighet under et kjøp: ikke bare er det komplisert å finne handelsmenn som aksepterer bitcoin, men hvis man også ser etter de som støtter payjoins, blir det enda mer komplisert.
 En løsning ville være å bruke transaksjonsstrukturer som introduserer tvetydighet i kjedeanalysen uten å kreve samarbeid fra mottakeren. Dette ville tillate oss å forbedre personvernet til betalingene våre uten å være avhengig av aktiv deltakelse fra handelsmenn. Dette er nettopp det vi vil studere i neste kapittel.
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Betalings Mini-Coinjoins
 
@@ -2303,9 +2303,9 @@ Det er også mulig å manuelt utføre denne typen transaksjon fra hvilken som he
 
 I neste kapittel vil vi studere en annen personvernsteknikk som er relativt ukjent, men som er veldig nyttig i tillegg til det vi allerede har studert.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
 
 ## Ricochets
 
@@ -2368,7 +2368,7 @@ Ricochet innebærer ganske enkelt å sende bitcoins til seg selv. Det er fullt m
 
 I det følgende kapittelet utforsker vi ulike teknikker for hemmelige eiendomsoverføringer. Disse metodene skiller seg radikalt fra de vi har undersøkt så langt, både med hensyn til drift og resultater.
 
-https://planb.network/tutorials/privacy/ricochet
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Hemmelige Eiendomsoverføringer
 
@@ -3227,7 +3227,7 @@ Bob kan deretter refundere Alice på samme måte som hun sendte ham betalinger. 
 
 ![BTC204](assets/en/66/26.webp)
 _En stor takk til [Fanis Michalakis](https://x.com/FanisMichalakis) for hans gjennomgang og verdifulle ekspertise som inspirerte skrivingen av dette kapittelet!_
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Stille Betalinger
 

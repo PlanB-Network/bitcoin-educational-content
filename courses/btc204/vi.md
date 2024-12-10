@@ -1057,7 +1057,7 @@ Tất cả các phương pháp tự động lựa chọn UTXO này có thể hi�
 
 ### Hướng dẫn về gán nhãn UTXO
 
-Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ liên quan tới các phần mềm ví Bitcoin phổ biến hiện nay. Tìm hiểu [bằng cách nhấp vào đây](https://planb.network/tutorials/privacy/utxo-labelling).
+Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ liên quan tới các phần mềm ví Bitcoin phổ biến hiện nay. Tìm hiểu [bằng cách nhấp vào đây](https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52).
 
 ## KYC và xác định danh tính của chủ khoá
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>

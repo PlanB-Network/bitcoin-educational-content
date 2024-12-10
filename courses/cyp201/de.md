@@ -1304,7 +1304,7 @@ Folglich bietet die Wahl einer 24-Wort-Phrase keinen zusätzlichen Schutz für d
 Ein 12-Wort-Phrase, die auch 128 Bit an Sicherheit bietet, ist daher derzeit ausreichend, um Ihre Bitcoins gegen jeden Diebstahlversuch zu schützen. Solange der digitale Signaturalgorithmus nicht geändert wird, um größere Schlüssel zu verwenden oder sich auf ein anderes mathematisches Problem als das ECDLP zu stützen, bleibt eine 24-Wort-Phrase überflüssig. Darüber hinaus erhöht eine längere Phrase das Risiko eines Verlusts während der Sicherung: Eine Sicherung, die halb so lang ist, ist immer einfacher zu verwalten.
 Um weiter zu gehen und konkret zu lernen, wie man manuell eine Test-Mnemonic-Phrase generiert, rate ich Ihnen, dieses Tutorial zu entdecken:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 Bevor wir mit der Ableitung des Wallets aus dieser Mnemonic-Phrase fortfahren, werde ich Ihnen im folgenden Kapitel die BIP39-Passphrase vorstellen, da sie eine Rolle im Ableitungsprozess spielt und sie sich auf derselben Ebene wie die Mnemonic-Phrase befindet.
 ## Die Passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

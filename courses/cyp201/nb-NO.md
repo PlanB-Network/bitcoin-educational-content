@@ -1231,7 +1231,7 @@ Som et resultat gir ikke å velge en 24-ords frase ekstra beskyttelse for lommeb
 En 12-ords frase, som også tilbyr 128 bits sikkerhet, er derfor for øyeblikket tilstrekkelig for å beskytte dine bitcoins mot ethvert tyveriforsøk. Så lenge den digitale signaturalgoritmen ikke endres for å bruke større nøkler eller for å stole på et matematisk problem annet enn ECDLP, forblir en 24-ords frase overflødig. Dessuten øker en lengre frase risikoen for tap under sikkerhetskopiering: en sikkerhetskopi som er halvparten så kort er alltid enklere å håndtere.
 For å gå videre og lære konkret hvordan man manuelt genererer en test mnemonisk frase, anbefaler jeg deg å oppdage denne opplæringen:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 Før vi fortsetter med derivasjonen av lommeboken fra denne mnemoniske frasen, vil jeg introdusere deg, i det følgende kapittelet, til BIP39-passfrasen, ettersom den spiller en rolle i derivasjonsprosessen, og den er på samme nivå som den mnemoniske frasen.
 ## Passfrasen
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

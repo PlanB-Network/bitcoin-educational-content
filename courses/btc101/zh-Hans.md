@@ -516,17 +516,17 @@ https://planb.network/courses/cyp201
 
 例如，您可以使用 Sparrow Wallet 作为热钱包：
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **第2级**，您使用物理钱包，并且您已保护您的12个或24个单词的列表。如果您想要进行交易，您将始终需要使用您的设备进行签名。这使得您在日常生活中很少使用这个钱包。这通常被称为“冷钱包”，因为您的密钥被存储在未连接到互联网的设备。
 
 例如，您可以使用 Ledger、Satochip 或 Tapsigner：
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/en/chapter6/4.webp)
 
@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 要了解更多关于 BIP39 密码短语的使用和功能：
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/en/chapter6/5.webp)
 
@@ -1033,11 +1033,11 @@ https://planb.network/courses/min201
 
 - 简单的在线解决方案：OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - 适合业余商家的解决方案：Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 适合大型机构或比特币爱好者的解决方案：BTCpay服务器
 

@@ -519,17 +519,17 @@ La oss prøve å etablere flere nivåer av sikkerhet for dine bitcoins:
 
 For eksempel kan du bruke Sparrow Wallet som en varm lommebok:
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **Nivå 2**, du bruker en fysisk lommebok, og du har sikret din liste med 12 eller 24 ord. For å utføre en transaksjon, vil du alltid trenge å signere med enheten din. Dette gjør dine midler mindre tilgjengelige på daglig basis. Det refereres ofte til som en "Cold Wallet" fordi nøklene dine lagres på en enhet som ikke er koblet til internett.
 
 For eksempel kan du bruke en Ledger, en Satochip eller en Tapsigner:
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![bilde](assets/en/chapter6/4.webp)
 
@@ -537,7 +537,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 For å lære mer om bruk og funksjon av BIP39-passfrasen:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![bilde](assets/en/chapter6/5.webp)
 
@@ -1033,11 +1033,11 @@ Vi vil dekke dette emnet i detalj i en annen opplæring, men for å holde det en
 
 - Enkel nettbasert løsning: OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Løsning for hobbyhandlere: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Løsning for store strukturer eller lidenskapelige bitcoiner: BTCpay Server
 

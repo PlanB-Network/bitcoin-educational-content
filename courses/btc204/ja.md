@@ -1050,7 +1050,7 @@ FIFO（*First In First Out*）やLIFO（*Last In First Out*）などのUTXO選�
 
 あなたのUTXOにラベルを付ける方法を知りたい場合は、既存の主要なビットコインウォレットソフトウェアに関する完全なチュートリアルを作成しました：
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 
 ## KYCとキー識別
@@ -1742,11 +1742,11 @@ Samourai Walletの創設者が2024年4月24日に逮捕され、サーバーが�
 
 次の章では、「anonsets」が何であるか、これらの指標がどのように計算されるか、そしてcoinjoinサイクルの効果をどのように推定するのに役立つかを学びます。
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## 匿名セット
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -1805,7 +1805,7 @@ Anonsetsは、適切な場合には、CoinJoinsの品質を判断するのに役
 
 この章で見てきたように、アノンセットはコインジョインの構造にある程度の均一性がある場合にのみ計算できます。そして正確に、次の章では、ビットコイントランザクションがコインジョインであるか、より伝統的なトランザクションであるかにかかわらず、この均一性をどのように定量化するかを発見します。
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## エントロピー
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2025,7 +2025,7 @@ $$
 
 コインジョインについて詳しく説明した今、私たちはトレーニングの最後のセクションでBitcoinに利用可能な他のプライバシー技術を探究します。ペイジョイン、特定の取引タイプの擬似コインジョイン、静的アドレスプロトコル、および取引レベルではなくノードのネットワークレベルでのプライバシーを強化するための措置を検討します。
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # 他の高度なプライバシー技術の課題を理解する
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2102,9 +2102,9 @@ payjoinを使用する難しさは、商人の参加に依存していること�
 
 解決策は、受取人の協力を必要とせずにチェーン分析に曖昧さを導入するトランザクション構造を使用することです。これにより、商人の積極的な参加に依存することなく、支払いのプライバシーを向上させることができます。これは、次の章で詳しく学ぶことです。
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## 支払いのミニコインジョイン
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2202,9 +2202,9 @@ StonewallとStonewall x2トランザクションは、Samourai Walletアプリ�
 
 次の章では、これまでに研究したものに加えて非常に有用であるが、比較的知られていない別のプライバシー技術について学びます。
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
  
 ## リコシェ
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2256,7 +2256,7 @@ Samouraiアプリケーションはリコシェットの2つのバリアント�
 
 次の章では、秘密の財産転送のための異なる技術を探ります。これらの方法は、これまでに検討したものとは、操作と結果の両方の点で根本的に異なります。
 
-https://planb.network/tutorials/privacy/ricochet
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
  
 ## 秘密の財産転送
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3101,7 +3101,7 @@ BIP47支払いを受け取り、対応する秘密鍵を計算するために私
 ![BTC204](assets/ja/66/26.webp)
 *この章の執筆に触発された記事のレビューと貴重な専門的アドバイスをしてくださった[Fanis Michalakis](https://x.com/FanisMichalakis)に大きな感謝を！*
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## サイレントペイメント
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

@@ -1232,7 +1232,7 @@ Výsledkem je, že výběr 24slovní fráze neposkytuje peněžence další ochr
 Fáze o 12 slovech, která také nabízí 128 bitů zabezpečení, je proto v současnosti dostatečná k ochraně vašich bitcoinů proti jakémukoli pokusu o krádež. Pokud se algoritmus digitálního podpisu nezmění tak, aby používal větší klíče nebo spoléhal na matematický problém jiný než ECDLP, zůstává fráze o 24 slovech nadbytečná. Navíc delší fráze zvyšuje riziko ztráty během zálohování: záloha, která je dvakrát kratší, je vždy snazší spravovat.
 Pokud chcete jít dále a konkrétně se naučit, jak ručně generovat testovací mnemonickou frázi, doporučuji vám objevit tento tutoriál:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Před pokračováním v odvození peněženky z této mnemonické fráze vám v následující kapitole představím BIP39 heslo, protože hraje roli v procesu odvození a je na stejné úrovni jako mnemonická fráze.
 ## Heslo

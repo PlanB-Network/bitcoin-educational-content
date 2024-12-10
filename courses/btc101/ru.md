@@ -523,17 +523,17 @@ https://planb.network/courses/cyp201
 
 Например, вы можете использовать Sparrow Wallet в качестве горячего кошелька:
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **Уровень 2**, ты используете физический кошелек, и у тебя защищен список из 12 или 24 слов. Для совершения транзакции тебе всегда потребуется подпись с твоего устройства. Это делает твои средства менее доступными в повседневной жизни. Такой способ часто называют "холодным кошельком", потому что твои ключи хранятся на устройстве, не подключенном к интернету.
 
 Например, вы можете использовать Ledger, Satochip или Tapsigner:
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![изображение](assets/en/chapter6/4.webp)
 
@@ -541,7 +541,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 Чтобы узнать больше об использовании и работе парольной фразы BIP39:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![изображение](assets/en/chapter6/5.webp)
 
@@ -1058,11 +1058,11 @@ https://planb.network/courses/min201
 
 - Простое онлайн-решение: OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Решение для начинающих торговцев: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Решение для крупных компаний или страстных биткойнеров: BTCpay Server
 

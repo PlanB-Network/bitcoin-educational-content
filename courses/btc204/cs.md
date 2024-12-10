@@ -1077,7 +1077,7 @@ Všechny tyto metody automatického výběru UTXO mohou být účinné při sni�
 
 Pokud se chcete dozvědět, jak označit své UTXO, připravili jsme kompletní návod pro hlavní dostupné Bitcoin peněženky:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC a identifikace klíčů
 
@@ -1804,11 +1804,11 @@ Pozorně sledujeme vývoj této kauzy i vývoj přidružených nástrojů. Ujist
 
 V další kapitole se dozvíme, co jsou "anonsety", jak se tyto ukazatele vypočítávají a jak nám mohou pomoci odhadnout účinnost cyklů coinjoin.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Sady anonymity
 
@@ -1876,7 +1876,7 @@ Je možné ručně vypočítat své anonsety pomocí prohlížeče bloků pro ma
 
 Jak jsme viděli v této kapitole, anonsety lze vypočítat pouze v případě, že existuje určitá homogenita ve struktuře coinjoinů. A přesně v další kapitole se dozvíme, jak kvantifikovat tuto homogenitu v Bitcoinové transakci, ať už jde o coinjoin nebo tradičnější transakci.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropie
 
@@ -2105,7 +2105,7 @@ Bohužel, po zatčení zakladatelů Samourai, tyto nástroje momentálně nejsou
 
 Nyní, když jsme podrobně diskutovali o coinjoinech, prozkoumáme v poslední části našeho školení další dostupné techniky soukromí na Bitcoinu. Budeme zkoumat payjoiny, specifické typy transakcí pseudo-coinjoin, protokoly s pevnou adresou, stejně jako opatření zaměřená na zvýšení soukromí ne na úrovni transakce, ale na úrovni sítě uzlů.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Porozumění významu dalších pokročilých technik soukromí
 
@@ -2185,9 +2185,9 @@ Obtížnost používání payjoin spočívá v jeho závislosti na účasti obch
 
 Řešením by mohlo být použití transakčních struktur, které zavádějí nejednoznačnost v analýze řetězce bez nutnosti spolupráce příjemce. To by nám umožnilo zlepšit soukromí našich plateb bez závislosti na aktivní účasti obchodníků. To je přesně to, co budeme studovat v další kapitole.
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Mini-coinjoiny pro platby
 
@@ -2294,9 +2294,9 @@ Je také možné manuálně provést tento typ transakce z jakéhokoli softwaru 
 
 V další kapitole se budeme věnovat další technice ochrany soukromí, která je relativně neznámá, ale je velmi užitečná v doplnění toho, co jsme již studovali.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
 
 ## Ricochets
 
@@ -2361,7 +2361,7 @@ Ricochet jednoduše zahrnuje poslání bitcoinů sami sobě. Je zcela možné pr
 
 V následující kapitole prozkoumáme různé techniky pro tajné převody majetku. Tyto metody se radikálně liší od těch, které jsme dosud zkoumali, jak z hlediska provozu, tak výsledků.
 
-https://planb.network/tutorials/privacy/ricochet
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Tajné převody majetku
 
@@ -3317,7 +3317,7 @@ Bob může poté vrátit Alice peníze stejným způsobem, jakým mu poslala pla
 ![BTC204](assets/cs/66/26.webp)
 _Velké poděkování [Fanis Michalakis](https://x.com/FanisMichalakis) za jeho recenzi a cenné odborné rady k článku, který inspiroval k napsání této kapitoly!_
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Tiché platby
 

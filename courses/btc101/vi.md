@@ -522,17 +522,17 @@ Hãy cố gắng thiết lập một số cấp độ bảo mật cho Bitcoin c�
 
 Ví dụ, bạn có thể sử dụng Sparrow Wallet làm ví nóng:
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **Cấp độ 2**, bạn sử dụng một ví vật lý và bạn đã bảo mật danh sách 12 hoặc 24 từ của mình. Để thực hiện một giao dịch, bạn luôn cần phải ký bằng thiết bị của mình. Điều này làm cho quỹ của bạn ít dễ truy cập hàng ngày. Nó thường được gọi là "Ví Lạnh" vì khóa của bạn được lưu trữ trên thiết bị không kết nối với internet.
 
 Ví dụ, bạn có thể sử dụng Ledger, Satochip hoặc Tapsigner:
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/en/chapter6/4.webp)
 
@@ -540,7 +540,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 Để tìm hiểu thêm về cách sử dụng và chức năng của cụm mật khẩu BIP39:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/en/chapter6/5.webp)
 
@@ -1040,11 +1040,11 @@ Chúng tôi sẽ đề cập đến chủ đề này chi tiết trong một khó
 
 - Giải pháp trực tuyến đơn giản: OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Giải pháp cho thương gia nghiệp dư: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Giải pháp cho các cấu trúc lớn hoặc những người đam mê bitcoin: BTCpay Server
 

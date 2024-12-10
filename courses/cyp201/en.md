@@ -1329,7 +1329,7 @@ A 12-word phrase, which also offers 128 bits of security, is therefore currently
 
 To go further and learn concretely how to manually generate a test mnemonic phrase, I advise you to discover this tutorial:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Before continuing with the derivation of the wallet from this mnemonic phrase, I will introduce you, in the following chapter, to the BIP39 passphrase, as it plays a role in the derivation process, and it is at the same level as the mnemonic phrase.
 

@@ -649,16 +649,16 @@ Pour ce type de profil, il est conseillé d'utiliser un portefeuille de type fro
 
 Tutoriel Portfeuille pertinant:
 
-https://planb.network/tutorials/wallet/ledger
-https://planb.network/tutorials/wallet/bitbox02
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/trezor
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Moyen d'échange qui permet de faire du volume:
 
-https://planb.network/tutorials/exchange/bitstamp
-https://planb.network/tutorials/exchange/bitfinex
-https://planb.network/tutorials/exchange/kraken
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 Si le hold veut allez plus loins: mise en place d'un plan de DCA comme le stacker et un portfeuille chaud LN d'utilisation pour dépenser un peu de bitcoin
 
@@ -705,21 +705,21 @@ D'autres solutions peuvent consister à commencer à vendre des biens ou des ser
 
 Un portefuille chaud pour accumulé rapidement
 
-https://planb.network/tutorials/wallet/blue-wallet
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 https://planb.network/tutorials/wallet/green-wallet
-https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Un portefeuille froid pour la sécurisation long terme
 
-https://planb.network/tutorials/wallet/ledger
-https://planb.network/tutorials/wallet/bitbox02
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/trezor
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Une plateforme de DCA pour acculumuer du bitccoin.
 
-https://planb.network/tutorials/exchange/relai
-https://planb.network/tutorials/exchange/bull-bitcoin
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Ce type de profile peut aussi bien evidement utilsier unbroker pour faire un gros achat d'un coup comme un holds, mais genement le stacking esty concepte de rajouter régulierement des sat a son portfeuille. Une approche plus courrente serait donc d'apprendre a utiliser bitcoin de facon pair a pair et ainsi acheter des bitcoin directement en cash avec des proche ou des membre de la communauté bitcoin
 
@@ -767,21 +767,21 @@ Pour s'exposer à Bitcoin, ce type de profil aura plusieurs options :
 
 Portefeuille chaud LN
 
-https://planb.network/tutorials/wallet/phoenix
-https://planb.network/tutorials/wallet/wallet-of-satoshi
-https://planb.network/tutorials/wallet/breez
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 Portefeuille froid
 
-https://planb.network/tutorials/wallet/ledger
-https://planb.network/tutorials/wallet/bitbox02
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/trezor
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Plateforme d'achat
 
-https://planb.network/tutorials/exchange/robosats
-https://planb.network/tutorials/exchange/kraken
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 ### Est-ce pour vous ?
 
@@ -817,18 +817,18 @@ Il devra ensuite apprendre à mélanger ses coins, gérer ses UTXO (Unspent Tran
 ### Tutorial:
 
 Portefeuille chaud :
-https://planb.network/tutorials/wallet/samourai
+https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
 
 Portefeuille froid :
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/seed-signer
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
 Achat non KYC entre particuliers :
 
-https://planb.network/tutorials/exchange/peach-wallet
-https://planb.network/tutorials/exchange/robosats
-https://planb.network/tutorials/exchange/bisq
-https://planb.network/tutorials/exchange/hodlhodl
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 ### Est-ce pour vous ?
 

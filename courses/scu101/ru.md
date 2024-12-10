@@ -113,7 +113,7 @@ objectives:
 TOR законен и используется журналистами, активистами за свободу и другими, желающими избежать цензуры в авторитарных странах. Однако важно понимать, что TOR не обеспечивает безопасность посещаемых сайтов или самого компьютера. Кроме того, использование TOR может замедлить интернет-соединение, поскольку данные проходят через компьютеры трех других людей, прежде чем достичь своего пункта назначения. Также существенно отметить, что TOR не является абсолютным решением для гарантии 100% анонимности и не должен использоваться для незаконной деятельности.
 ![](assets/notext/7.webp)
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN и интернет-соединение
 
@@ -132,9 +132,9 @@ https://planb.network/tutorials/others/tor-browser
 Однако использование потребительского VPN не гарантирует полной анонимности. Многие провайдеры VPN сохраняют информацию о своих пользователях, что может потенциально компрометировать их анонимность. Хотя VPN могут быть полезны для улучшения онлайн-безопасности, они не являются универсальным решением. Они эффективны для определенных конкретных использований, таких как доступ к географически ограниченным услугам или улучшение безопасности во время путешествий, но они не гарантируют полной безопасности. При выборе VPN важно отдавать предпочтение надежности и техническим характеристикам, а не популярности. Провайдеры VPN, которые собирают минимум личной информации, обычно являются самыми безопасными. Сервисы, такие как iVPN и Mullvad, не собирают личную информацию и даже позволяют совершать платежи в Bitcoin для повышения конфиденциальности.![](assets/notext/9.webp)
 Наконец, VPN также может использоваться для блокировки онлайн-рекламы, обеспечивая более приятный и безопасный опыт просмотра. Однако важно провести собственное исследование, чтобы найти VPN, который лучше всего подходит для ваших конкретных потребностей. Использование VPN рекомендуется для повышения безопасности, даже когда вы пользуетесь интернетом дома. Это помогает обеспечить более высокий уровень безопасности обмена данными в сети. В заключение, не забудьте проверить URL-адреса и маленький замок в адресной строке, чтобы подтвердить, что вы находитесь на сайте, который намереваетесь посетить.
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS и публичные Wi-Fi сети
 
@@ -230,9 +230,9 @@ https://planb.network/tutorials/others/mullvad
 
 Если вы обнаружите вирус на вашем компьютере, отключите его от интернета, выполните полное сканирование антивирусом и удалите зараженные файлы. Затем обновите ваше программное обеспечение и операционную систему, и измените ваши пароли, чтобы предотвратить дальнейшие вторжения.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Реализация решений.
 
@@ -265,7 +265,7 @@ https://planb.network/tutorials/others/veracrypt
 В целом, начать использовать новый, более безопасный электронный адрес не является плохой практикой и даже необходимо, если вы хотите начать с чистого листа на здоровой основе.
 Бонус Bitcoin: Может быть рекомендовано создать специальный электронный адрес для наших действий с Bitcoin (создание аккаунтов на биржах), чтобы действительно разделить области деятельности в нашей жизни.
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Менеджер паролей
 
@@ -306,9 +306,9 @@ https://planb.network/tutorials/others/proton-mail
 
 Случайно сгенерированные пароли обеспечивают более высокий уровень безопасности, хотя их может быть сложнее запомнить. Менеджеры паролей могут генерировать более безопасные случайные пароли. Используя менеджер паролей, вам не нужно запоминать все ваши пароли. Важно постепенно заменять ваши старые пароли на те, которые сгенерированы менеджером, так как они более сильные и длинные. Убедитесь, что мастер-пароль вашего менеджера паролей также сильный и безопасный.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Двухфакторная аутентификация
 
@@ -349,9 +349,9 @@ https://planb.network/tutorials/others/keepass
 
 Золотое правило: Кибербезопасность - это движущаяся цель, которая будет адаптироваться к вашему пути обучения!
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Практический раздел
 
@@ -363,7 +363,7 @@ https://planb.network/tutorials/others/security-key
 
 Защита вашей электронной почты является важным шагом для обеспечения безопасности ваших онлайн-активностей и сохранения личных данных. Этот учебник пошагово проведет вас через создание и настройку учетной записи ProtonMail, провайдера, известного своим высоким уровнем безопасности, предлагающего сквозное шифрование ваших коммуникаций. Независимо от того, являетесь ли вы новичком или опытным пользователем, предлагаемые здесь лучшие практики помогут вам усилить безопасность вашей электронной почты, одновременно используя расширенные функции ProtonMail:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Обеспечение безопасности с помощью 2FA
 
@@ -371,11 +371,11 @@ https://planb.network/tutorials/others/proton-mail
 
 Двухфакторная аутентификация (2FA) стала необходимой для обеспечения безопасности ваших онлайн-аккаунтов. В этом руководстве вы узнаете, как настроить и использовать приложение 2FA Authy, которое генерирует динамические 6-значные коды для защиты ваших аккаунтов. Authy очень прост в использовании и синхронизируется на нескольких устройствах. Узнайте, как установить и настроить Authy, и таким образом усилите безопасность ваших онлайн-аккаунтов уже сейчас:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Другим вариантом является использование физического ключа безопасности. Это дополнительное руководство показывает, как настроить и использовать ключ безопасности в качестве второго фактора аутентификации:
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Создание менеджера паролей
 
@@ -385,11 +385,11 @@ https://planb.network/tutorials/others/security-key
 
 В этом руководстве вы узнаете, как настроить Bitwarden, менеджер паролей с открытым исходным кодом, и как синхронизировать свои учетные данные на всех ваших устройствах, чтобы упростить ежедневное использование:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Для более опытных пользователей я также предлагаю руководство по другому бесплатному и открытого кода программному обеспечению, которое можно использовать локально для управления паролями:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Обеспечение безопасности ваших аккаунтов
 
@@ -397,9 +397,9 @@ https://planb.network/tutorials/others/keepass
 
 В этих двух руководствах я также проведу вас через процесс обеспечения безопасности ваших онлайн-аккаунтов и объясню, как постепенно внедрять более безопасные практики для управления вашими паролями в повседневной жизни.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Настройка резервного копирования
 
@@ -407,11 +407,11 @@ https://planb.network/tutorials/others/keepass
 
 Защита ваших личных файлов также является важным моментом. В этом руководстве показано, как внедрить эффективную стратегию резервного копирования с помощью Proton Drive. Узнайте, как использовать это безопасное облачное решение для применения метода 3-2-1: три копии ваших данных на двух разных носителях, одна из которых хранится вне офиса. Таким образом, вы обеспечиваете доступность и безопасность ваших конфиденциальных файлов:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 А чтобы защитить ваши файлы, хранящиеся на съемных носителях, таких как USB-накопитель или внешний жесткий диск, я также покажу, как легко шифровать и дешифровать эти носители с помощью VeraCrypt:
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## Смена браузера и VPN
 
@@ -421,13 +421,13 @@ https://planb.network/tutorials/others/veracrypt
 
 Я предлагаю вам ознакомиться с двумя надежными VPN-решениями, которые можно оплатить биткоинами, а именно IVPN и Mullvad. Эти руководства помогут вам установить, настроить и использовать Mullvad или IVPN на всех ваших устройствах:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Также узнайте, как использовать Tor Browser, браузер, специально разработанный для защиты вашей онлайн-конфиденциальности:
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # Идем дальше
 

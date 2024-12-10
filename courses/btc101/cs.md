@@ -522,17 +522,17 @@ Pokusme se stanovit několik úrovní zabezpečení pro vaše bitcoiny:
 
 Například můžete jako horkou peněženku použít Sparrow Wallet:
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **Úroveň 2**, používáte fyzickou peněženku a máte zabezpečený váš seznam 12 nebo 24 slov. Pro provedení transakce budete vždy potřebovat podepsat vaším zařízením. To činí vaše prostředky méně přístupnými na denní bázi. Často se tomu říká "Cold Wallet", protože vaše klíče jsou uloženy na zařízení, které není připojeno k internetu.
 
 Například byste mohli použít Ledger, Satochip nebo Tapsigner:
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![obrázek](assets/en/chapter6/4.webp)
 
@@ -540,7 +540,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 Pro více informací o použití a fungování přístupové fráze BIP39:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![obrázek](assets/en/chapter6/5.webp)
 
@@ -1039,11 +1039,11 @@ Toto téma podrobněji probereme v dalším školení, ale abychom to udrželi j
 
 - Jednoduché online řešení: OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Řešení pro amatérské obchodníky: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Řešení pro velké struktury nebo nadšené bitcoinery: BTCpay Server
 

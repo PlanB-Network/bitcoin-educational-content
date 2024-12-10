@@ -113,7 +113,7 @@ Théo; 貢献
 TORは合法であり、ジャーナリスト、自由活動家、検閲を逃れたいと願う権威主義国の人々によって使用されています。しかし、TORが訪問したサイトやコンピュータ自体を保護するわけではないことを理解することが重要です。さらに、データが目的地に到達する前に他の3人のコンピュータを通過するため、TORを使用するとインターネット接続が遅くなる可能性があります。また、TORは100％の匿名性を保証する万能の解決策ではなく、違法活動には使用すべきではないことに注意することが重要です。
 ![](assets/notext/7.webp)
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPNとインターネット接続
 
@@ -134,9 +134,9 @@ VPNには主に2つのタイプがあります:企業向けVPNと消費者向け
 ![](assets/notext/9.webp)
 最終的に、VPNはオンライン広告をブロックするためにも使用でき、より楽しく安全なブラウジング体験を提供します。しかし、特定のニーズに最適なVPNを見つけるためには、自分自身で調査を行うことが重要です。自宅でインターネットを閲覧する際でも、セキュリティを強化するためにVPNの使用を推奨します。これにより、オンラインで交換されるデータのセキュリティレベルが高まります。最後に、訪問しようとしているサイトに実際にアクセスしていることを確認するために、URLとアドレスバーの小さな南京錠をチェックしてください。
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & 公共Wi-Fiネットワーク
 
@@ -236,9 +236,9 @@ Windows 10では、アップデートはほぼ連続しており、それらを�
 
 コンピューターにウイルスが検出された場合は、インターネットから切断し、完全なアンチウイルススキャンを実行し、感染したファイルを削除してください。その後、ソフトウェアとオペレーティングシステムを更新し、さらなる侵入を防ぐためにパスワードを変更してください。
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 解決策の実装。
 
@@ -271,7 +271,7 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 一般的に、新しい、よりセキュアなメールアドレスの使用を開始することは悪い習慣ではなく、健全な基盤で新たに始めたい場合には必要です。
 ボーナスBitcoin:Bitcoin活動（取引所アカウントの作成など）のために特定のメールアドレスを作成することが望ましい場合があります。これにより、私たちの生活の活動領域を真に分離することができます。
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## パスワードマネージャー
 
@@ -313,9 +313,9 @@ https://planb.network/tutorials/others/proton-mail
 
 ランダムに生成されたパスワードはより高いレベルのセキュリティを提供しますが、覚えにくい可能性があります。パスワードマネージャーは、より安全なランダムパスワードを生成することができます。パスワードマネージャーを使用することで、すべてのパスワードを記憶する必要はありません。マネージャーによって生成されたものに古いパスワードを徐々に置き換えることが重要です。これらはより強力で長いからです。パスワードマネージャーのマスターパスワードも強力で安全であることを確認してください。
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 二要素認証
 
@@ -356,9 +356,9 @@ https://planb.network/tutorials/others/keepass
 
 黄金律:サイバーセキュリティは、あなたの学習の旅に適応する移動目標です！
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # 実践セクション
 
@@ -370,7 +370,7 @@ https://planb.network/tutorials/others/security-key
 
 メールボックスを保護することは、オンラインでの活動を安全にし、個人データを守るための重要なステップです。このチュートリアルでは、高いセキュリティレベルで知られ、通信のエンドツーエンド暗号化を提供するプロバイダーであるProtonMailのアカウントの作成と設定を、一歩ずつガイドします。初心者でも経験豊富なユーザーでも、ここで提案されているベストプラクティスは、ProtonMailの高度な機能を活用しながら、メールのセキュリティを強化するのに役立ちます：
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 2FAでのセキュリティ強化
 
@@ -378,11 +378,11 @@ https://planb.network/tutorials/others/proton-mail
 
 二要素認証（2FA）は、オンラインアカウントを保護するために不可欠となっています。このチュートリアルでは、アカウントを保護するために6桁の動的コードを生成する2FAアプリAuthyの設定と使用方法を学びます。Authyは非常に使いやすく、複数のデバイスで同期できます。Authyのインストールと設定方法を確認し、今すぐオンラインアカウントのセキュリティを強化しましょう：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 もう一つのオプションは、物理的なセキュリティキーを使用することです。この別のチュートリアルでは、セキュリティキーを第二の認証要素として設定および使用する方法を示します：
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## パスワードマネージャーの作成
 
@@ -392,11 +392,11 @@ https://planb.network/tutorials/others/security-key
 
 このチュートリアルでは、オープンソースのパスワードマネージャーであるBitwardenの設定方法と、日常の使用を簡素化するためにすべてのデバイスで資格情報を同期する方法を学びます：
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 より上級のユーザー向けに、パスワードをローカルで管理するために使用できる別の無料かつオープンソースのソフトウェアに関するチュートリアルも提供しています：
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## アカウントのセキュリティ強化
 
@@ -404,9 +404,9 @@ https://planb.network/tutorials/others/keepass
 
 この2つのチュートリアルでは、オンラインアカウントのセキュリティ確保についてもガイドし、日常的なパスワード管理のためにより安全な方法を徐々に採用する方法を説明します。
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## バックアップの設定
 
@@ -414,11 +414,11 @@ https://planb.network/tutorials/others/keepass
 
 個人ファイルを保護することも重要なポイントです。このチュートリアルでは、Proton Driveを使用して効果的なバックアップ戦略を構築する方法を紹介します。この安全なクラウドソリューションを使用して、3-2-1メソッドを適用する方法を学びましょう：データの3つのコピーを2つの異なるメディアに保存し、そのうち1つはオフサイトに保管します。これにより、機密ファイルのアクセス性とセキュリティが確保されます：
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 また、USBメモリや外付けハードディスクなどのリムーバブルメディアに保存されたファイルを保護するために、VeraCryptを使用してこれらのメディアを簡単に暗号化および復号化する方法も紹介します：
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## ブラウザとVPNの変更
 
@@ -428,13 +428,13 @@ https://planb.network/tutorials/others/veracrypt
 
 ビットコインで支払える信頼性の高いVPNソリューションであるIVPNとMullvadの二つをご紹介します。これらのチュートリアルでは、MullvadまたはIVPNをすべてのデバイスにインストール、設定、および使用する方法をご案内します：
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 また、オンラインでのプライバシーを保護するために特別に設計されたブラウザであるTor Browserの使用方法についても学びましょう：
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # より深く掘り下げる
 

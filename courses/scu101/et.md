@@ -114,7 +114,7 @@ Täiustatud alternatiiv on TOR (The Onion Router) võrk, mis pakub anonüümsust
 TOR on seaduslik ja seda kasutavad ajakirjanikud, vabadusaktivistid ja teised, kes soovivad põgeneda tsensuurist autoritaarsetes riikides. Siiski on oluline mõista, et TOR ei turva külastatavaid saite ega arvutit ennast. Lisaks võib TORi kasutamine aeglustada internetiühendust, kuna andmed liiguvad enne sihtkohta jõudmist läbi kolme teise inimese arvutite. On ka oluline märkida, et TOR ei ole lollikindel lahendus 100% anonüümsuse tagamiseks ja seda ei tohiks kasutada ebaseaduslikeks tegevusteks.
 ![](assets/notext/7.webp)
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN ja internetiühendus
 
@@ -133,9 +133,9 @@ VPN-e on peamiselt kahte tüüpi: ettevõtte VPN-id ja tarbija VPN-id, nagu Nord
 Kuigi tarbija VPN-i kasutamine ei taga täielikku anonüümsust, säilitavad paljud VPN-i pakkujad teavet oma kasutajate kohta, mis võib nende anonüümsust ohustada. Kuigi VPN-id võivad olla kasulikud veebiturvalisuse parandamisel, ei ole need universaalne lahendus. Need on tõhusad teatud konkreetsetel eesmärkidel, nagu geograafiliselt piiratud teenustele juurdepääsu võimaldamine või turvalisuse parandamine reisimisel, kuid need ei taga täielikku turvalisust. VPN-i valimisel on oluline eelistada usaldusväärsust ja tehnilisust populaarsusele. VPN-i pakkujad, kes koguvad kõige vähem isiklikku teavet, on üldiselt kõige turvalisemad. Teenused nagu iVPN ja Mullvad ei kogu isiklikku teavet ja võimaldavad isegi makseid Bitcoin'is suurema privaatsuse tagamiseks. ![](assets/notext/9.webp)
 Lõpuks võib VPN-i kasutada ka veebireklaamide blokeerimiseks, pakkudes nauditavamat ja turvalisemat sirvimiskogemust. Siiski on oluline teha oma uurimistööd, et leida just teie konkreetsetele vajadustele kõige paremini sobiv VPN. VPN-i kasutamine on soovitatav turvalisuse suurendamiseks, isegi kui sirvite internetti kodus. See aitab tagada vahetatavate andmete kõrgema turvalisuse taseme. Lõpuks veenduge, et kontrolliksite URL-e ja väikest tabalukku aadressiribal, et kinnitada, et olete soovitud saidil.
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS ja avalikud Wi-Fi võrgud
 
@@ -231,9 +231,9 @@ EI, üldiselt ei soovitata lunavara või muud tüüpi rünnakute korral häkkeri
 
 Kui avastate oma arvutis viiruse, ühendage see internetist lahti, tehke täielik viirusetõrje skannimine ja kustutage nakatunud failid. Seejärel uuendage oma tarkvara ja operatsioonisüsteemi ning muutke oma paroole, et vältida edasisi sissetunge.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Lahenduste rakendamine.
 
@@ -266,7 +266,7 @@ On soovitatav kasutada veebisaiti Have I Been Pwned (https://haveibeenpwned.com/
 Üldiselt ei ole uue, turvalisema e-posti aadressi kasutusele võtmine halb tava ja isegi vajalik, kui soovitakse alustada puhtalt lehelt tervislikul alusel.
 Boonus Bitcoin: Võib olla soovitatav luua spetsiifiline e-posti aadress meie Bitcoin'i tegevusteks (vahetuskontode loomine), et tõeliselt eraldada meie elu erinevad tegevusalad.
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Paroolihaldur
 
@@ -307,9 +307,9 @@ Tugeva parooli loomiseks on soovitatav kasutada suurt hulka juhuslikke tähemär
 
 Juhuslikult genereeritud paroolid pakuvad kõrgemat turvalisuse taset, kuigi need võivad olla raskemini meeldejäetavad. Paroolihaldurid saavad genereerida turvalisemaid juhuslikke paroole. Paroolihalduri kasutamisel ei pea te kõiki oma paroole meelde jätma. On oluline järk-järgult asendada oma vanad paroolid halduri poolt genereeritud tugevamate ja pikematega. Veenduge, et teie paroolihalduri peaparool on samuti tugev ja turvaline.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Kahefaktoriline Autentimine
 
@@ -350,9 +350,9 @@ Jätkake õppimist ja järk-järgult rakendage häid tavasid!
 
 Kuldreegel: Küberturvalisus on liikuv sihtmärk, mis kohandub teie õppimisteekonnaga!
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktiline osa
 
@@ -364,7 +364,7 @@ https://planb.network/tutorials/others/security-key
 
 E-posti postkasti kaitsmine on oluline samm oma veebitegevuste turvamiseks ja isikuandmete kaitsmiseks. See juhend juhendab teid samm-sammult ProtonMaili konto loomisel ja seadistamisel, pakkujal, mis on tuntud oma kõrge turvalisuse taseme poolest ja pakub teie kommunikatsioonide otsast lõpuni krüpteerimist. Olgu te olete algaja või kogenud kasutaja, siin pakutavad parimad tavad aitavad teil tugevdada oma postkasti turvalisust, kasutades samal ajal ProtonMaili täiustatud funktsioone:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Turvamine 2FA abil
 
@@ -372,11 +372,11 @@ https://planb.network/tutorials/others/proton-mail
 
 Kahefaktoriline autentimine (2FA) on muutunud oluliseks teie veebikontode turvamiseks. Selles juhendis õpite, kuidas seadistada ja kasutada 2FA rakendust Authy, mis genereerib teie kontode kaitsmiseks dünaamilisi 6-kohalisi koode. Authy on väga lihtne kasutada ja sünkroonib mitme seadmega. Avastage, kuidas installida ja konfigureerida Authy ning tugevdada oma veebikontode turvalisust kohe:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Teine võimalus on kasutada füüsilist turvavõtit. See teine juhend näitab, kuidas seadistada ja kasutada turvavõtit teise autentimistegurina:
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Paroolihalduri loomine
 
@@ -386,11 +386,11 @@ Paroolihaldus on digiajastul väljakutse. Meil kõigil on palju veebikontosid, m
 
 Selles õpetuses saate teada, kuidas seadistada Bitwarden, avatud lähtekoodiga paroolihaldurit, ja kuidas sünkroonida oma mandaadid kõigis seadmetes, et lihtsustada igapäevast kasutamist:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kogenumatele kasutajatele pakun ka õpetust teise tasuta ja avatud lähtekoodiga tarkvara kohta, mida saate lokaalselt paroolide haldamiseks kasutada:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Oma kontode turvamine
 
@@ -398,7 +398,7 @@ https://planb.network/tutorials/others/keepass
 
 Nendes kahes õpetuses juhendan teid ka oma veebikontode turvamisel ning selgitan, kuidas järk-järgult võtta kasutusele turvalisemaid praktikaid oma paroolide igapäevaseks haldamiseks.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.network/tutorials/others/keypass
 
@@ -408,11 +408,11 @@ https://planb.network/tutorials/others/keypass
 
 Teie isiklike failide kaitsmine on samuti oluline punkt. See õpetus näitab, kuidas seadistada tõhus varundamisstrateegia Proton Drive'i abil. Avastage, kuidas kasutada seda turvalist pilvelahendust 3-2-1 meetodi rakendamiseks: kolm koopiat teie andmetest kahes erinevas meediumis, millest üks koopia on väljaspool asukohta. Nii tagate oma tundlike failide ligipääsetavuse ja turvalisuse:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Ja et kaitsta teie eemaldatavatel meediumitel, nagu USB-mälupulk või väline kõvaketas, salvestatud faile, näitan ma ka, kuidas neid meediume VeraCryptiga hõlpsasti krüpteerida ja dekrüpteerida:
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## Brauseri ja VPN-i vahetus
 
@@ -422,13 +422,13 @@ Teie online-elu privaatsuse kaitsmine on samuti oluline punkt teie turvalisuse t
 
 Pakun teil avastada kaks usaldusväärset VPN-lahendust, mida saab maksta bitcoini kaudu, nimelt IVPN ja Mullvad. Need juhendid aitavad teil installida, konfigureerida ja kasutada Mullvadi või IVPN-i kõigis teie seadmetes:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lisaks õppige kasutama Tor Browserit, spetsiaalselt teie online-privaatsuse kaitsmiseks loodud veebibrauserit:
 
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # Mine kaugemale
 

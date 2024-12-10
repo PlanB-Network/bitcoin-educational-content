@@ -1229,7 +1229,7 @@ $$
 
 要进一步了解如何手动生成测试助记词短语，请参阅此教程：
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 在继续从这个助记词短语派生钱包之前，我将在下一章向您介绍BIP39密码短语，因为它在派生过程中起着作用，与助记词短语处于同一水平。
 

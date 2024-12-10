@@ -602,16 +602,16 @@ Nếu chúng ta quên rằng mình đã có bitcoin trong 3 năm, không vấn �
 
 Hướng dẫn Ví Liên Quan:
 
-https://planb.network/tutorials/wallet/ledger
-https://planb.network/tutorials/wallet/bitbox02
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/trezor
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Lựa Chọn Giao Dịch:
 
-https://planb.network/tutorials/exchange/bitstamp
-https://planb.network/tutorials/exchange/bitfinex
-https://planb.network/tutorials/exchange/kraken
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 Nếu người giữ muốn tiến xa hơn: thực hiện một kế hoạch DCA giống như người tích lũy và sử dụng một ví Lightning Network nóng để chi tiêu bitcoin.
 
 ### Liệu đó có phải là chiến lược dành cho bạn?
@@ -657,21 +657,21 @@ Các giải pháp khác có thể bao gồm bắt đầu bán hàng hóa hoặc 
 
 Một ví nóng cho việc tích lũy nhanh chóng
 
-https://planb.network/tutorials/wallet/blue-wallet
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 https://planb.network/tutorials/wallet/green-wallet
-https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Một ví lạnh cho sự an toàn dài hạn
 
-https://planb.network/tutorials/wallet/ledger
-https://planb.network/tutorials/wallet/bitbox02
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/trezor
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Một nền tảng DCA để tích lũy bitcoin.
 
-https://planb.network/tutorials/exchange/relai
-https://planb.network/tutorials/exchange/bull-bitcoin
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 Những người theo chiến lược này cũng có thể, tất nhiên, sử dụng một môi giới để mua số lượng lớn trong một lần như một hodler, nhưng nói chung, stacking là khái niệm về việc thường xuyên thêm sats vào ví của họ. Một cách tiếp cận phổ biến hơn sẽ là học cách sử dụng Bitcoin theo cách ngang hàng và do đó mua bitcoin trực tiếp bằng tiền mặt với bạn bè hoặc các thành viên của cộng đồng Bitcoin.
 
 ### Điều này có phải là dành cho bạn?
@@ -718,21 +718,21 @@ Người dùng loại này có lẽ sẽ chọn một ví dựa trên Lightning 
 
 Ví Nóng Lightning Network
 
-https://planb.network/tutorials/wallet/phoenix
-https://planb.network/tutorials/wallet/wallet-of-satoshi
-https://planb.network/tutorials/wallet/breez
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 Ví Lạnh
 
-https://planb.network/tutorials/wallet/ledger
-https://planb.network/tutorials/wallet/bitbox02
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/trezor
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Nền Tảng Mua
 
-https://planb.network/tutorials/exchange/robosats
-https://planb.network/tutorials/exchange/kraken
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 ### Bạn có phải là người dùng loại này?
 
@@ -767,17 +767,17 @@ Sau đó, họ cần học cách trộn coin, quản lý UTXO (Unspent Transacti
 ### Hướng dẫn:
 
 Ví nóng:
-https://planb.network/tutorials/wallet/samourai
+https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
 
 Ví lạnh:
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/seed-signer
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
 Mua bán không KYC giữa các cá nhân:
-https://planb.network/tutorials/exchange/peach-wallet
-https://planb.network/tutorials/exchange/robosats
-https://planb.network/tutorials/exchange/bisq
-https://planb.network/tutorials/exchange/hodlhodl
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 ### Bạn có phù hợp để trở thành một Bitcoiner "hoài nghi"?
 

@@ -1235,7 +1235,7 @@ Selle tulemusena ei paku 24-sõnalise fraasi valimine rahakotile lisakaitset, ku
 12-sõnaline fraas, mis pakub samuti 128-bitist turvalisust, on seega praegu piisav, et kaitsta teie bitcoine igasuguse varguskatse eest. Niikaua kui digitaalse allkirja algoritm ei muutu suuremate võtmete kasutamiseks või ei hakka sõltuma mõnest muust matemaatilisest probleemist peale ECDLP, jääb 24-sõnaline fraas üleliigseks. Pealegi suurendab pikem fraas kaotamise riski varundamise ajal: varukoopia, mis on kaks korda lühem, on alati lihtsamini hallatav.
 Et minna kaugemale ja õppida konkreetsemalt, kuidas käsitsi genereerida test-mnemoonilist fraasi, soovitan teil avastada seda õpetust:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Enne kui jätkame rahakoti tuletamist sellest mnemoonilisest fraasist, tutvustan teile järgmises peatükis BIP39 paroolilauset, kuna see mängib tuletamisprotsessis rolli ja on mnemoonilise fraasiga samal tasemel.
 ## Paroolilause

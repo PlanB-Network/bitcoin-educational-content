@@ -1294,7 +1294,7 @@ Una frase de 12 palabras, que además ofrece 128 bits de seguridad, es por lo ta
 
 Para ir más allá y aprender concretamente cómo generar manualmente una frase mnemotécnica de prueba, te aconsejo descubrir este tutorial:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Antes de continuar con la derivación de la billetera a partir de esta frase mnemotécnica, te presentaré, en el siguiente capítulo, la frase de paso BIP39, ya que juega un papel en el proceso de derivación, y está al mismo nivel que la frase mnemotécnica.
 ## La frase de paso

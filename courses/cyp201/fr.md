@@ -1307,7 +1307,7 @@ Une phrase de 12 mots, qui offre également 128 bits de sécurité, est donc act
 
 Pour aller plus loin et découvrir concrètement comment générer manuellement une phrase mnémonique de test, je vous conseille de découvrir ce tutoriel :
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Avant de poursuivre la dérivation du portefeuille à partir de cette phrase mnémonique, je vais vous présenter, dans le chapitre suivant, la passphrase BIP39, car celle-ci joue un rôle dans la dérivation, et elle se situe au même niveau que la phrase mnémonique.
 

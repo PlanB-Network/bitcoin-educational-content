@@ -1076,7 +1076,7 @@ Kõik need automaatsed UTXO valikumeetodid võivad olla tõhusad tehingutasude v
 
 Kui soovite õppida, kuidas oma UTXO-sid märgistada, oleme loonud täieliku õpetuse peamise olemasoleva Bitcoin rahakotitarkvara kohta:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC ja Võtme Identifitseerimine
 
@@ -1794,11 +1794,11 @@ Jälgime selle juhtumi arengut ning seotud tööriistade arengut lähedalt. Või
 
 Järgmises peatükis avastame, mis on "anonsets", kuidas neid näitajaid arvutatakse ja kuidas need aitavad meil hinnata coinjoin tsüklite efektiivsust.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Anonüümsuse Komplektid
 
@@ -1861,7 +1861,7 @@ Väikeste komplektide puhul on võimalik anonüümsuse komplekte käsitsi arvuta
 
 Nagu selles peatükis nägime, saab anonüümsuse komplekte arvutada ainult siis, kui coinjoinide struktuuris on teatav ühtlus. Ja täpselt, järgmises peatükis avastame, kuidas seda ühtlust kvantifitseerida Bitcoin tehingus, olgu see siis coinjoin või traditsioonilisem tehing.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entroopia
 
@@ -2113,7 +2113,7 @@ Samuti oli võimalik kasutada veebisaiti KYCP.org nende analüüside jaoks:
 Kahjuks, pärast Samourai asutajate arreteerimist, ei ole need tööriistad hetkel töökorras.
 Nüüd, kui oleme coinjoin'e üksikasjalikult arutanud, uurime meie koolituse viimases osas teisi Bitcoinil saadaolevaid privaatsustehnikaid. Vaatleme payjoin tehinguid, spetsiifilisi tehingutüüpe pseudo-coinjoin'e, staatilise aadressi protokolle, samuti meetmeid, mis on suunatud privaatsuse tõstmisele mitte tehingutasandil, vaid sõlmede võrgu tasandil.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Teiste edasijõudnud privaatsustehnikate panuse mõistmine
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2189,9 +2189,9 @@ Kõige arenenum payjoini rakendus oli ainult Stowaway Samourai Walletis. Kuid p�
 
 Payjoini kasutamise raskus seisneb selle sõltuvuses kaupmehe osalusest. Kliendina on payjoini kasutamine võimatu, kui kaupmees seda ei toeta. See lisab ostu ajal täiendava raskuse: mitte ainult ei ole keeruline leida bitcoini aktsepteerivaid kaupmehi, vaid kui otsida ka neid, kes toetavad payjoine, muutub see veelgi keerulisemaks.
 Lahendus võiks olla kasutada tehingustruktuure, mis tutvustavad ahela analüüsis ebamäärasust ilma, et oleks vaja saaja koostööd. See võimaldaks meil parandada oma maksete privaatsust ilma, et peaksime sõltuma kaupmeeste aktiivsest osalusest. Just seda me järgmises peatükis uurime.
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Maksete Mini-Coinjoins
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2297,9 +2297,9 @@ Samuti on võimalik seda tüüpi tehingut käsitsi teostada mis tahes Bitcoin'i 
 
 Järgmises peatükis uurime teist privaatsustehnikat, mis on suhteliselt tundmatu, kuid on väga kasulik lisaks sellele, mida oleme juba uurinud.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
 
 ## Ricochets
 
@@ -2360,7 +2360,7 @@ Ricochet tähendab lihtsalt bitcoinide saatmist iseendale. Ricochet'i on täiest
 
 Järgmises peatükis uurime erinevaid tehnikaid salajaseks varade ülekandmiseks. Need meetodid erinevad radikaalselt seni uuritutest nii toimimise kui ka tulemuste poolest.
 
-https://planb.network/tutorials/privacy/ricochet
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Salajased Varade Ülekanded
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3254,7 +3254,7 @@ Bob saab seejärel tagastada Alice'ile makse samal viisil, kuidas ta talle makse
 
 ![BTC204](assets/en/66/26.webp)
 _Suur tänu [Fanis Michalakis](https://x.com/FanisMichalakis)ile tema ülevaatuse ja väärtusliku eksperdinõuande eest artiklile, mis inspireeris selle peatüki kirjutamist!_
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Vaiksed Maksed
 

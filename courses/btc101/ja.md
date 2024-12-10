@@ -517,17 +517,17 @@ https://planb.network/courses/cyp201
 
 例えば、Sparrow Walletをホットウォレットとして使用できます：
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **レベル2**:物理的なウォレットを使用し、12または24の単語のリストを保護します。トランザクションを行うためには常にデバイスで署名する必要があります。これにより、日常的に資金にアクセスすることが難しくなります。これはインターネットに接続されていないデバイスに秘密鍵が保存されているため、「コールド・ウォレット」と呼ばれることが多いです。
 
 例えば、Ledger、Satochip、またはTapsignerを使用できます：
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![画像](assets/Concept/chapitre6/4.webp)
 
@@ -535,7 +535,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 BIP39パスフレーズの使用方法と機能について詳しく知るために：
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![画像](assets/Concept/chapitre6/5.webp)
 
@@ -1051,11 +1051,11 @@ BTC/ドルのペアは短期的に変動する一方で、ビットコインは2
 
 - 簡単なオンラインソリューション: OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - アマチュア商人向けのソリューション: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 大規模な構造または情熱的なビットコイナー向けのソリューション: BTCpayサーバー
 

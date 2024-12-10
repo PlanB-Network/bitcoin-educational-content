@@ -1283,7 +1283,7 @@ Como resultado, escolher uma frase de 24 palavras não proporciona proteção ad
 Uma frase de 12 palavras, que também oferece 128 bits de segurança, é, portanto, atualmente suficiente para proteger seus bitcoins contra qualquer tentativa de roubo. Enquanto o algoritmo de assinatura digital não mudar para usar chaves maiores ou depender de um problema matemático diferente do ECDLP, uma frase de 24 palavras permanece supérflua. Além disso, uma frase mais longa aumenta o risco de perda durante o backup: um backup que é duas vezes mais curto é sempre mais fácil de gerenciar.
 Para ir além e aprender concretamente como gerar manualmente uma frase mnemônica de teste, aconselho você a descobrir este tutorial:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 Antes de continuar com a derivação da carteira a partir desta frase mnemônica, vou apresentar a você, no capítulo seguinte, a passphrase BIP39, pois ela desempenha um papel no processo de derivação, e está no mesmo nível que a frase mnemônica.
 ## A passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

@@ -520,17 +520,17 @@ Yritetään määrittää useita turvallisuustasoja bitcoineillesi:
 
 Esimerkiksi voit käyttää Sparrow Walletia kuumana lompakkona:
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **Taso 2**, käytät fyysistä lompakkoa, ja olet turvannut 12 tai 24 sanan listasi. Transaktion suorittamiseksi sinun on aina allekirjoitettava laitteellasi. Tämä tekee varoistasi vähemmän saavutettavia päivittäisessä käytössä. Tätä kutsutaan usein "kylmäksi lompakoksi", koska avaimet säilytetään laitteessa, joka ei ole yhteydessä internetiin.
 
 Esimerkiksi voit käyttää Ledgeriä, Satochipiä tai Tapsigneria:
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![kuva](assets/en/chapter6/4.webp)
 
@@ -538,7 +538,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 Lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![kuva](assets/en/chapter6/5.webp)
 
@@ -1030,11 +1030,11 @@ Käsittelemme tätä aihetta yksityiskohtaisemmin toisessa koulutuksessa, mutta 
 
 - Yksinkertainen online-ratkaisu: OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Ratkaisu harrastajakauppiaille: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Ratkaisu suurille yrityksille tai intohimoisille bitcoinaajille: BTCpay Server
 

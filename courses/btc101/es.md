@@ -544,17 +544,17 @@ Intentemos establecer varios niveles de seguridad para tus bitcoins:
 
 Por ejemplo, puede usar Sparrow Wallet como billetera caliente:
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **Nivel 2**, estás utilizando una billetera física y has asegurado tu lista de 12 o 24 palabras. Para poder realizar una transacción, siempre deberás firmar con tu dispositivo. Esto hace que tus fondos sean menos accesibles en el día a día. A menudo se habla de "cold wallet (billetera fría)" porque tus claves se almacenan en un dispositivo que no está conectado a internet.
 
 Por ejemplo, podría usar un Ledger, un Satochip o un Tapsigner:
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/es/chapter6/4.webp)
 
@@ -562,7 +562,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 Para saber más sobre el uso y funcionamiento de la frase de contraseña BIP39:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/es/chapter6/5.webp)
 
@@ -1077,11 +1077,11 @@ Trataremos este tema en detalle en otra formación, pero para simplificar, se pu
 
 - Solución en línea simple: OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solución para comerciantes aficionados: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solución para grandes estructuras o bitcoiners apasionados: BTCpay Server
 

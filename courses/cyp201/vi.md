@@ -1269,7 +1269,7 @@ Kết quả là, việc chọn một cụm từ 24 từ không cung cấp thêm 
 Một cụm từ gồm 12 từ, cũng cung cấp 128 bit bảo mật, vì vậy hiện tại là đủ để bảo vệ bitcoin của bạn khỏi bất kỳ nỗ lực trộm cắp nào. Miễn là thuật toán chữ ký số không thay đổi để sử dụng khóa lớn hơn hoặc dựa vào một vấn đề toán học khác ngoài ECDLP, một cụm từ 24 từ vẫn là thừa. Hơn nữa, một cụm từ dài hơn tăng nguy cơ mất mát trong quá trình sao lưu: một bản sao lưu ngắn gấp đôi luôn dễ quản lý hơn.
 Để tìm hiểu thêm và biết cách tạo một cụm từ ghi nhớ thử nghiệm một cách thủ công, tôi khuyên bạn nên khám phá hướng dẫn này:
 
-https://planb.network/tutorials/wallet/generate-mnemonic-phrase
+https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 Trước khi tiếp tục với việc phát sinh ví từ cụm từ ghi nhớ này, tôi sẽ giới thiệu cho bạn, trong chương tiếp theo, về cụm từ BIP39, vì nó đóng vai trò trong quá trình phát sinh, và nó ở cùng một cấp độ với cụm từ ghi nhớ.
 ## Cụm từ bí mật
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

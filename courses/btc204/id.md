@@ -1055,7 +1055,7 @@ Semua metode pemilihan UTXO otomatis ini dapat efektif dalam mengurangi biaya tr
 
 Jika Anda ingin belajar cara melabeli UTXO Anda, kami telah membuat tutorial lengkap tentang perangkat lunak dompet Bitcoin utama yang ada:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 
 ## KYC dan Identifikasi Kunci
@@ -1755,11 +1755,11 @@ Kami mengikuti perkembangan kasus ini serta perkembangan terkait alat yang terka
 
 Dalam bab berikutnya, kita akan menemukan apa itu "anonsets", bagaimana indikator ini dihitung, dan bagaimana mereka dapat membantu kita memperkirakan efektivitas siklus coinjoin.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Set Anonimitas
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -1822,7 +1822,7 @@ Memungkinkan untuk secara manual menghitung anonset seseorang menggunakan block 
 
 Seperti yang telah kita lihat dalam bab ini, anonset hanya dapat dihitung jika ada homogenitas tertentu dalam struktur coinjoins. Dan tepatnya, dalam bab berikutnya, kita akan menemukan cara mengkuantifikasi homogenitas ini dalam transaksi Bitcoin, apakah itu coinjoin atau transaksi tradisional.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropi
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2033,7 +2033,7 @@ Juga dimungkinkan untuk menggunakan situs web KYCP.org untuk analisis ini:
 ![BTC204](assets/notext/56/06.webp)
 Sayangnya, menyusul penangkapan para pendiri Samourai, alat-alat ini saat ini tidak beroperasi. Sekarang setelah kita telah membahas coinjoins secara detail, kita akan menjelajahi teknik privasi lain yang tersedia di Bitcoin di bagian terakhir dari pelatihan kita. Kita akan meneliti payjoins, jenis transaksi tertentu pseudo-coinjoins, protokol alamat statis, serta langkah-langkah yang bertujuan untuk meningkatkan privasi tidak pada level transaksi, tetapi pada jaringan node.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Memahami taruhan teknik privasi lanjutan lainnya
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2109,9 +2109,9 @@ Implementasi payjoin paling lanjut hanyalah Stowaway di Samourai Wallet. Namun, 
 
 Kesulitan menggunakan payjoin terletak pada ketergantungannya pada partisipasi pedagang. Sebagai pelanggan, menggunakan payjoin tidak mungkin jika pedagang tidak mendukungnya. Ini menambah kesulitan tambahan selama pembelian: tidak hanya sulit menemukan pedagang yang menerima bitcoin, tetapi jika seseorang juga mencari mereka yang mendukung payjoins, itu menjadi lebih rumit lagi.
 Solusi yang dapat digunakan adalah dengan menggunakan struktur transaksi yang memperkenalkan ambiguitas dalam analisis rantai tanpa memerlukan kerjasama dari penerima. Hal ini memungkinkan kita untuk meningkatkan privasi pembayaran kita tanpa bergantung pada partisipasi aktif dari para pedagang. Inilah yang akan kita pelajari di bab selanjutnya.
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Pembayaran Mini-Coinjoins
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2215,9 +2215,9 @@ Juga dimungkinkan untuk secara manual melakukan jenis transaksi ini dari perangk
 
 Di bab selanjutnya, kita akan mempelajari teknik privasi lain yang relatif tidak dikenal, tetapi sangat berguna sebagai tambahan dari apa yang telah kita pelajari.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
 
 ## Ricochets
 
@@ -2278,7 +2278,7 @@ Ricochet pada dasarnya melibatkan pengiriman bitcoin kepada diri sendiri. Sangat
 
 Pada bab berikutnya, kami menjelajahi teknik berbeda untuk transfer properti rahasia. Metode-metode ini sangat berbeda dari yang telah kami periksa sejauh ini, baik dalam hal operasi maupun hasil.
 
-https://planb.network/tutorials/privacy/ricochet
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
  
 ## Transfer Properti Rahasia
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3110,7 +3110,7 @@ Bob kemudian dapat mengembalikan dana kepada Alice dengan cara yang sama dia men
 
 ![BTC204](assets/en/66/26.webp)
 *Terima kasih banyak kepada [Fanis Michalakis](https://x.com/FanisMichalakis) atas tinjauannya dan saran ahli yang berharga mengenai artikel yang menginspirasi penulisan bab ini!*
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Pembayaran Rahasia
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

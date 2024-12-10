@@ -1192,7 +1192,7 @@ Toutes ces méthodes de sélection automatique des UTXOs peuvent être efficaces
 
 Si vous souhaitez découvrir comment apposer une étiquette sur vos UTXOs, nous avons fait un tutoriel complet sur les principaux logiciels de portefeuille Bitcoin existants : 
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## Le KYC et l'identification des clés
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -2000,11 +2000,11 @@ Nous suivons de près l'évolution de cette affaire ainsi que les développement
 
 Dans le chapitre suivant, nous allons découvrir ce que sont les "anonsets", comment ces indicateurs sont calculés, et en quoi ils peuvent nous aider pour estimer l'efficacité des cycles de coinjoins.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Les ensembles d'anonymat
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -2075,7 +2075,7 @@ Il est possible de calculer manuellement ses anonsets avec un explorateur de blo
 
 Comme nous avons vu dans ce chapitre, les anonset ne peuvent être calculés que s'il existe une certaine homogénéité dans la structure des coinjoins. Et justement, nous allons découvrir dans le prochain chapitre comment quantifier cette homogénéité sur une transaction Bitcoin, qu'il s'agisse d'un coinjoin ou d'une transaction plus classique.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## L'entropie
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2307,7 +2307,7 @@ Hélas, suite à l'arrestation des fondateurs de Samourai, ces outils ne sont pl
 
 Maintenant que nous avons abordé en détail les coinjoins, nous allons étudier les autres techniques de confidentialité disponibles sur Bitcoin dans la dernière section de notre formation. Nous examinerons les payjoins, les types de transactions spécifiques pseudo-coinjoins, les protocoles d'adresses statiques, ainsi que les mesures visant à renforcer la confidentialité non pas au niveau des transactions elles-mêmes, mais au niveau du réseau de nœuds.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Connaître les enjeux d'autres techniques de confidentialité avancées
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2395,9 +2395,9 @@ La difficulté d'utilisation du payjoin réside dans sa dépendance vis-à-vis d
 
 Une solution serait d'utiliser des structures transactionnelles qui introduisent de l'ambiguïté dans l'analyse de la chaîne sans nécessiter la coopération du destinataire. Cela nous permettrait d'améliorer la confidentialité de nos paiements sans dépendre de la participation active des commerçants. C'est justement ce que nous allons étudier dans le prochain chapitre.
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Les mini-coinjoins de paiement
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2510,9 +2510,9 @@ Il est également possible de réaliser manuellement ce type de transaction depu
 
 Dans le prochain chapitre, nous allons étudier une autre technique de confidentialité qui assez peu connue, mais qui est très utile en complément de ce que nous avons déjà étudié.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
 
 ## Les ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2580,7 +2580,7 @@ Le ricochet consiste simplement à s'envoyer des bitcoins à soi-même. Il est d
 
 Dans le chapitre suivant, nous étudions différentes techniques de transferts secrets de propriété. Ces méthodes diffèrent radicalement de celles que nous avons examinées jusqu'à présent, tant en termes de fonctionnement que de résultats.
 
-https://planb.network/tutorials/privacy/ricochet
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
  
 ## Les transferts secrets de propriété
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3513,7 +3513,7 @@ Bob peut alors rembourser Alice de la même manière qu'elle lui a envoyé des p
 
 *Un grand merci à [Fanis Michalakis](https://x.com/FanisMichalakis) pour sa relecture et ses précieux conseils d'expert sur l'article qui a inspiré la rédaction de ce chapitre !*
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Silent Payments
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

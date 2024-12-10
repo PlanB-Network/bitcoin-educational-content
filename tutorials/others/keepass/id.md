@@ -16,7 +16,7 @@ Menerapkan dua prinsip keamanan kata sandi ini (keunikan dan kekuatan) dapat ter
 
 Manajer kata sandi menghasilkan dan menyimpan kata sandi yang kuat secara aman, memungkinkan Anda untuk mengakses semua akun online Anda tanpa perlu mengingatnya secara individu. Anda hanya perlu mengingat satu kata sandi, kata sandi induk, yang memberi Anda akses ke semua kata sandi yang disimpan dalam manajer. Menggunakan manajer kata sandi meningkatkan keamanan online Anda karena mencegah penggunaan kembali kata sandi dan secara sistematis menghasilkan kata sandi acak. Tapi itu juga mempermudah penggunaan harian akun Anda dengan memusatkan akses ke informasi sensitif Anda.
 Dalam tutorial ini, kita akan belajar cara mengatur dan menggunakan manajer kata sandi lokal untuk meningkatkan keamanan online Anda. Di sini, saya akan memperkenalkan Anda kepada KeePass. Namun, jika Anda pemula dan ingin memiliki manajer kata sandi online yang mampu sinkronisasi lintas perangkat, saya sarankan mengikuti tutorial kami tentang Bitwarden:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -106,7 +106,7 @@ Perangkat lunak akan membuat database baru tempat kata sandi Anda akan disimpan.
 ![KEEPASS](assets/notext/16.webp)
 Setelah itu, Anda harus memikirkan tentang secara rutin membackup folder ini untuk menghindari kehilangan kredensial Anda dalam kasus kehilangan, kerusakan, atau pencurian komputer Anda. Sebagai contoh, Anda bisa menyalin database ke USB stick setiap minggu. File yang berisi database Anda bernama `Database.kdbx` (dokumen ini dienkripsi dengan master password Anda). Untuk saran lebih lanjut tentang praktik backup terbaik, saya juga merekomendasikan untuk berkonsultasi dengan tutorial lain ini:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Selanjutnya adalah pilihan master password Anda.
 ![KEEPASS](assets/notext/17.webp)
@@ -150,4 +150,4 @@ Itu mencakup fitur dasar dari KeePass. Tentu saja, tutorial ini yang ditujukan u
 
 Jika Anda tertarik untuk belajar bagaimana secara drastis meningkatkan keamanan akun online Anda untuk menghindari peretasan dengan 2FA, saya juga merekomendasikan untuk memeriksa tutorial lain ini:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

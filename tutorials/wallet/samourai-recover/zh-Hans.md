@@ -30,10 +30,10 @@ description: 如何恢复在Samourai Wallet上卡住的比特币？
 关于个人消费工具，只要您拥有自己的Dojo，一切都正常工作。普通的Stonewall交易（而非Stonewall x2）没有任何问题。
 
 Twitter上的评论强调了Stonewall交易提供的隐私可能现在已经减少。Stonewall交易的附加价值在于，从结构上看，它与Stonewall x2交易无法区分。当分析师遇到这种特定模式时，他们无法确定它是一个标准的Stonewall，只涉及单一用户，还是涉及两个用户的Stonewall x2。然而，正如我们将在以下段落中看到的，由于Soroban不可用，进行Stonewall x2交易变得更加复杂。因此，有些人认为，分析师现在可能会假设任何具有此结构的交易都是普通的Stonewall。个人而言，我不同意这个假设。尽管Stonewall x2交易可能较少（我认为在这次事件之前它们已经较少了），但它们仍然可能的事实可以使基于它们不存在的假设的整个分析无效。
-**[-> 了解更多关于Stonewall交易的信息。](https://planb.network/tutorials/privacy/stonewall)**
+**[-> 了解更多关于Stonewall交易的信息。](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 关于Ricochet，由于我没有在Testnet上拥有Dojo，我无法验证该服务是否仍在运行，我不愿意冒险花费`100 000 sats`向可能被当局控制的钱包发送。如果您最近有机会测试这个工具，我邀请您与我联系，以便我们更新这篇文章。
 
-如果您需要使用Ricochet，请注意，您仍然可以使用任何钱包软件手动执行此操作。要了解如何正确手动执行各种跳转，我推荐查阅另一篇文章：[**RICOCHET**](https://planb.network/tutorials/privacy/ricochet)。
+如果您需要使用Ricochet，请注意，您仍然可以使用任何钱包软件手动执行此操作。要了解如何正确手动执行各种跳转，我推荐查阅另一篇文章：[**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)。
 
 JoinBot工具不再运行，因为它完全依赖于由Samourai管理的钱包的参与。
 
@@ -44,9 +44,9 @@ JoinBot工具不再运行，因为它完全依赖于由Samourai管理的钱包�
 经过几次测试，Soroban似乎不再运行。要执行这些协作交易，因此必须手动进行数据交换。这里有两个执行此交换的选项：
 - 如果您与您的合作者身处近距离，您可以连续扫描二维码；
 - 如果您与合作者距离较远，可以通过应用程序外的通信渠道交换PSBTs。但是，请小心，因为这些PSBTs中包含的数据在隐私方面非常敏感。我建议使用加密的消息服务来确保交换的保密性。
-**[-> 了解更多关于Stonewall x2交易的信息。](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> 了解更多关于Stonewall x2交易的信息。](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
 
-**[-> 了解更多关于Stowaway交易的信息。](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> 了解更多关于Stowaway交易的信息。](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 至于Whirlpool，该协议似乎不再起作用，即使是对于拥有自己Dojo的用户也是如此。这几天我一直在监控我的RoninDojo，并尝试了一些基本操作，但自服务器关闭以来，Whirlpool CLI就无法连接了。
 
@@ -146,7 +146,7 @@ Sparrow接下来会派生你钱包的密钥并搜索相应的交易。
 - 预混：`m/84'/0'/2147483645'`
 - 后混：`m/84'/0'/2147483646'`
 
-你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查看[我们的专门教程](https://planb.network/tutorials/wallet/sparrow)。
+你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查看[我们的专门教程](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)。
 
 我还建议手动导入你在Samourai上与你的UTXOs关联的标签。这将允许你随后在Sparrow上进行有效的硬币控制。
 
@@ -202,7 +202,7 @@ Sparrow接下来将为你的钱包派生密钥，并搜索相应的交易。
 - 预混：`m/84'/0'/2147483645'`
 - 后混：`m/84'/0'/2147483646'`
 
-你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查阅[我们的专用教程](https://planb.network/tutorials/wallet/sparrow)。
+你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查阅[我们的专用教程](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)。
 
 我还建议手动导入你在Samourai上与你的UTXOs关联的标签。这将允许你随后在Sparrow上进行有效的硬币控制。
 
@@ -305,7 +305,7 @@ Sparrow接下来将为你的钱包派生密钥，并搜索相应的交易。
 
 我指的是“对当局而言”，因为重要的是要记住，只有查封服务器的当局可能知道这些xpubs。如果您使用coinjoin的目的是为了防止您的面包师能够跟踪您的资金，那么他在服务器被查封之前就和现在一样，没有更好的了解。
 最后，考虑您的硬币在服务器被查封之前的初始匿名集（anonset）是至关重要的。以一个达到了预期匿名集40,000的硬币为例；这个匿名集的潜在减少可能是微不足道的。实际上，由于已经有了一个非常高的基础匿名集，少数几个没有使用Dojo的用户的存在不太可能根本改变情况。然而，如果您的硬币的匿名集只有40，那么这种潜在的泄露可能会严重影响您的匿名集，并可能允许追踪。由于OXT.me关闭后WST工具已经停止服务，您只能估计这些匿名集。对于回顾性匿名集，由于Whirlpool模型确保了从第一次coinjoin开始它就非常高，感谢您的同伴的遗产，所以不用太担心。唯一可能出现问题的情况是，如果您的硬币几年都没有被重新混合，并且是在池子启动之初被混合的。关于预期匿名集，您可以检查您的硬币可用于coinjoins的时间长度。如果已经有几个月了，那么它可能有一个极高的预期匿名集。相反，如果它在服务器被查封前几小时才被添加到池中，那么它的预期匿名集可能非常低。
-[**-> 了解更多关于匿名集及其计算方法的信息。**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> 了解更多关于匿名集及其计算方法的信息。**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 另一个需要考虑的方面是混合后的硬币的匿名集整合对匿名集的影响。鉴于通过Samourai应用程序无法再访问Whirlpool账户，很可能许多用户已经将他们的钱包转移到其他软件，并试图从Whirlpool中提取他们的资金。特别是上周末，当比特币网络上的交易费用相对较高时，有一个强烈的技术和经济动机来整合混合后的硬币。这意味着很可能许多用户已经进行了重大的整合。
 

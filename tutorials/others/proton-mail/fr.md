@@ -46,7 +46,7 @@ On vous demande ensuite de définir un mot de passe. Il est important de choisir
 
 L'utilisation d'un gestionnaire de mots de passe est une excellente pratique. Non seulement il vous permet de stocker vos mots de passe de manière sécurisée sans avoir à les mémoriser, mais il peut également générer pour vous des mots de passe longs et aléatoires. Les êtres humains sont en effet très mauvais pour créer des séquences aléatoires, et un mot de passe insuffisamment aléatoire peut être vulnérable à des attaques par brute force. Je vous recommande également de consulter notre tutoriel complet sur la mise en place d'un gestionnaire de mots de passe pour plus de détails sur ce sujet :
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -114,7 +114,7 @@ Puis scannez le QR code à l'aide de votre application de 2FA.
 
 Pour plus d'informations, je vous conseille de découvrir notre tutoriel sur comment utiliser une application de 2FA.
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Dans l'onglet "*Language and time*" vous pouvez changer la langue de l'interface ainsi que le fuseau horaire.
 

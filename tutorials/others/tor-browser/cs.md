@@ -110,4 +110,4 @@ Máte možnost ponechat nebo smazat vaši historii prohlížení.
 ![TOR BROWSER](assets/notext/35.webp)
 Pro celkovou bezpečnost vašeho prohlížeče režimy "*Safer*" a "*Safest*" umožňují upravit webové funkce a skripty spouštěné stránkami, které navštěvujete. To minimalizuje rizika zneužití zranitelností, ale také to ovlivní zobrazení a interaktivitu stránek. ![TOR BROWSER](assets/notext/36.webp) Najdete zde další bezpečnostní možnosti, včetně blokátoru nebezpečného obsahu a režimu pouze-HTTPS, který zajišťuje, že spojení se stránkami konzistentně respektuje tento protokol. ![TOR BROWSER](assets/notext/37.webp) Nakonec v záložce "*Connection*" najdete všechna nastavení související s připojením k síti Tor. Zde můžete nakonfigurovat most pro přístup k Toru z regionů, kde může být jeho přístup cenzurován. ![TOR BROWSER](assets/notext/38.webp) A to je vše, nyní jste připraveni procházet internet bezpečněji a soukroměji! Pokud vás téma online soukromí zajímá, doporučuji také objevit tento další tutoriál na Mullvad VPN:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

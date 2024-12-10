@@ -16,7 +16,7 @@ Jos kuitenkin olet kiinnostunut kääntämään muita sivuston osioita, lukuun o
 
 Jos haluat lisätä PlanB Networkiin täysin uuden kielen, jota ei vielä ole saatavilla Weblatessa, sinun on ensin lähetettävä lisäyspyyntö. Tätä varten seuraa tätä erityisopasta.
 
-https://planb.network/tutorials/others/add-new-language-weblate
+https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 
 

@@ -16,7 +16,7 @@ Applying these two password security principles (uniqueness and robustness) can 
 
 A password manager generates and securely stores strong passwords, allowing you to access all your online accounts without the need to memorize them individually. You only need to remember one password, the master password, which gives you access to all your saved passwords in the manager. Using a password manager enhances your online security because it prevents the reuse of passwords and systematically generates random passwords. But it also simplifies your daily use of your accounts by centralizing access to your sensitive information.
 In this tutorial, we will learn how to set up and use a local password manager to enhance your online security. Here, I will introduce you to KeePass. However, if you are a beginner and would like to have an online password manager capable of syncing across multiple devices, I recommend following our tutorial on Bitwarden:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -109,7 +109,7 @@ The software will create a new database where your passwords will be stored. You
 ![KEEPASS](assets/notext/16.webp)
 Afterward, you should think about regularly backing up this folder to avoid losing your credentials in case of loss, damage, or theft of your computer. For example, you could copy the database onto a USB stick every week. The file containing your database is named `Database.kdbx` (the document is encrypted with your master password). For more advice on best backup practices, I also recommend consulting this other tutorial:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Next comes the choice of your master password.
 ![KEEPASS](assets/notext/17.webp)
@@ -155,4 +155,4 @@ That covers the basic features of KeePass. Of course, this tutorial aimed at beg
 
 If you're interested in learning how to drastically improve the security of your online accounts to avoid hacking with 2FA, I also recommend checking out this other tutorial:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

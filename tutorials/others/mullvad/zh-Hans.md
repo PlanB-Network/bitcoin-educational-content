@@ -80,4 +80,4 @@ Mullvad VPN还通过其透明度和安全性区别于其他服务。他们的软
 要获取您的Mullvad账户概览并管理各种连接的设备，您可以在网站上点击“*设备*”菜单。
 ![MULLVAD VPN](assets/notext/37.webp)就这样，您现在已经准备好充分享受Mullvad VPN了。如果您对发现一个类似于Mullvad的VPN提供商感兴趣，无论是在功能还是定价方面，我还推荐您查看我们关于IVPN的教程：
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

@@ -16,7 +16,7 @@ Det andre essensielle prinsippet er passordets styrke. Et passord anses som ster
 
 En passordbehandler genererer og lagrer sterke passord på en sikker måte, og lar deg få tilgang til alle dine online kontoer uten behovet for å memorere dem individuelt. Du trenger bare å huske ett passord, hovedpassordet, som gir deg tilgang til alle dine lagrede passord i behandleren. Å bruke en passordbehandler forbedrer din online sikkerhet fordi det forhindrer gjenbruk av passord og systematisk genererer tilfeldige passord. Men det forenkler også din daglige bruk av kontoene dine ved å sentralisere tilgangen til din sensitive informasjon.
 I denne veiledningen vil vi utforske hvordan man setter opp og bruker en passordbehandler for å forbedre din online sikkerhet. Jeg vil introdusere deg for Bitwarden, og i en annen veiledning, vil vi se på en annen løsning kalt KeePass.
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Advarsel: En passordbehandler er flott for å lagre passord, men **du bør aldri lagre din Bitcoin lommeboks' mnemonic frase i den!** Husk, en mnemonic frase bør eksklusivt lagres i et fysisk format, som et stykke papir eller metall.
 
@@ -68,9 +68,9 @@ Først og fremst, anbefaler jeg sterkt at du setter opp tofaktorautentisering (2
 
 Hvis du er usikker på hvordan du setter opp og bruker disse 2FA-enhetene, anbefaler jeg å følge disse 2 andre opplæringene:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 For å gjøre dette, gå til "*Sikkerhet*" fanen i "*Innstillinger*" menyen.
 ![BITWARDEN](assets/notext/14.webp)

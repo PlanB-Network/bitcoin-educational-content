@@ -16,7 +16,7 @@ Applying these two password security principles (uniqueness and robustness) can 
 
 A password manager generates and securely stores strong passwords, allowing you to access all your online accounts without the need to memorize them individually. You only need to remember one password, the master password, which gives you access to all your saved passwords in the manager. Using a password manager enhances your online security because it prevents the reuse of passwords and systematically generates random passwords. But it also simplifies your daily use of your accounts by centralizing access to your sensitive information.
 In this tutorial, we will explore how to set up and use a password manager to enhance your online security. I will introduce you to Bitwarden, and in another tutorial, we will look into another solution called KeePass.
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Warning: A password manager is great for storing passwords, but **you should never store your Bitcoin wallet's mnemonic phrase in it!** Remember, a mnemonic phrase should be exclusively saved in a physical format, like a piece of paper or metal.
 
@@ -69,9 +69,9 @@ First and foremost, I strongly advise you to set up two-factor authentication (2
 
 If you are unsure how to set up and use these 2FA devices, I recommend following these 2 other tutorials:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 To do this, go to the "*Security*" tab in the "*Settings*" menu.
 ![BITWARDEN](assets/notext/14.webp)

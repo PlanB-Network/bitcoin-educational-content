@@ -10,7 +10,7 @@ Kui soovite PlanB võrgustiku saidile lisada Bitcoin'i konverentsi, et suurendad
 ![event](assets/01.webp)
 - Esiteks peate omama kontot GitHubis. Kui te ei tea, kuidas kontot luua, oleme teinud üksikasjaliku õpetuse, mis juhendab teid.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Minge [PlanB-le pühendatud GitHubi andmerepositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) jaotisesse `resources/conference/`:
@@ -84,7 +84,7 @@ description: Prantsusmaa suurim Bitcoin'i konverents, kus igal aastal osaleb ül
 ![üritus](assets/09.webp)
 Kui teie organisatsioonil ei ole veel "*builder*" identifikaatorit, saate selle lisada, järgides seda teist õpetust.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 

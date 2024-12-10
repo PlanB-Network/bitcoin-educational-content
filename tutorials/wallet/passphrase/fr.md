@@ -36,4 +36,4 @@ Il est également important de bien sauvegarder cette passphrase, de la même ma
 
 Pour mettre en place une passphrase sur un appareil Ledger (Stax, Flex ou Nano), vous pouvez consulter ce tutoriel :
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49

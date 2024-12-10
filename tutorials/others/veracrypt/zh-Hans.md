@@ -15,7 +15,7 @@ description: 如何轻松加密存储设备？
 
 要轻松实施这一3-2-1备份策略，您可以选择在线存储解决方案，通过自动或定期同步您的电脑文件与云中的文件。在这些在线备份解决方案中，显然有来自您所知道的大型数字公司的解决方案：Google Drive、Microsoft OneDrive或Apple iCloud。然而，这些并不是保护您隐私的最佳解决方案。在之前的教程中，我向您介绍了一个加密您的文档以更好保护机密性的替代方案：Proton Drive。
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 通过采用本地和云备份的策略，您已经从两种不同类型的媒介中受益于您的数据，其中一个是异地的。要完成3-2-1策略，您只需添加一个额外的副本。我建议您做的就是定期将本地和云中的数据导出到物理介质，如USB闪存盘或外置硬盘。这样，即使您的在线存储解决方案的服务器被摧毁且您的电脑同时出现故障，您仍然拥有这第三份副本在外部介质上，以免丢失数据。
 ![VeraCrypt](assets/notext/01.webp)

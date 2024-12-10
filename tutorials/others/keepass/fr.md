@@ -18,7 +18,7 @@ Un gestionnaire de mots de passe génère et stocke de manière sécurisée des 
 
 Dans ce tutoriel, nous allons découvrir comment configurer et utiliser un gestionnaire de mots de passe local pour améliorer votre sécurité en ligne. Je vous propose ici de découvrir KeePass. Toutefois, si vous êtes novice et que vous souhaitez avoir un gestionnaire de mots de passe en ligne capable de se synchroniser sur plusieurs appareils, je vous recommande plutôt de suivre notre tutoriel sur Bitwarden :
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -111,7 +111,7 @@ Le logiciel va créer une nouvelle base de données où seront conservés vos mo
 ![KEEPASS](assets/notext/16.webp)
 Par la suite, il faudra penser à effectuer régulièrement des sauvegardes de ce dossier pour éviter la perte de vos identifiants en cas de perte, de casse ou de vol de votre ordinateur. Vous pourriez, par exemple, copier la base de données sur une clé USB chaque semaine. Le fichier contenant votre base de données porte le nom de `Database.kdbx` (le document est chiffré avec votre mot de passe maître). Pour plus de conseils sur les meilleures pratiques de sauvegarde, je vous recommande également de consulter cet autre tutoriel :
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Vient ensuite le choix de votre mot de passe maître.
 ![KEEPASS](assets/notext/17.webp)
@@ -185,4 +185,4 @@ Voilà pour les fonctionnalités de base concernant KeePass. Évidemment, ce tut
 
 Si vous souhaitez découvrir comment améliorer drastiquement la sécurité de vos comptes en ligne pour éviter les piratages avec le 2FA, je vous conseille également de découvrir cet autre tutoriel :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

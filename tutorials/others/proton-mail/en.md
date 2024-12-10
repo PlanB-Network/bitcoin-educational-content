@@ -35,7 +35,7 @@ You are then asked to set a password. It is important to choose a strong passwor
 
 The use of a password manager is an excellent practice. Not only does it allow you to store your passwords securely without having to memorize them, but it can also generate long and random passwords for you. Humans are indeed very bad at creating random sequences, and a password that is not random enough can be vulnerable to brute force attacks. I also recommend consulting our complete tutorial on setting up a password manager for more details on this topic:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Click on the "*Create Account*" button.
 

@@ -40,7 +40,7 @@ Dari perspektif eksternal, pola transaksi akan tetap sama persis.
 
 Secara ringkas, transaksi Stonewall dan Stonewall x2 memiliki struktur yang identik. Perbedaan antara keduanya terletak pada sifat kolaboratif mereka. Transaksi Stonewall dikembangkan secara individu, tanpa kebutuhan akan kolaborasi. Sebaliknya, transaksi Stonewall x2 mengandalkan kerjasama antara dua individu untuk implementasinya.
 
-[**-> Pelajari lebih lanjut tentang transaksi Stonewall x2**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Pelajari lebih lanjut tentang transaksi Stonewall x2**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## Apa tujuan dari transaksi Stonewall?
 Struktur Stonewall menambahkan jumlah entropi yang signifikan ke dalam transaksi dan menyamarkan analisis rantai. Dari perspektif eksternal, transaksi seperti itu dapat diinterpretasikan sebagai coinjoin kecil antara dua orang. Namun pada kenyataannya, sama seperti transaksi Stonewall x2, itu adalah pembayaran. Metode ini oleh karena itu menciptakan ketidakpastian dalam analisis rantai, dan bahkan dapat mengarah pada kesimpulan yang salah.

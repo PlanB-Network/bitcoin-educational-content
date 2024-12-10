@@ -16,7 +16,7 @@ Applicare questi due principi di sicurezza delle password (unicità e robustezza
 
 Un gestore di password genera e memorizza in modo sicuro password forti, permettendovi di accedere a tutti i vostri account online senza la necessità di memorizzarle individualmente. È necessario ricordare solo una password, la password principale, che vi dà accesso a tutte le vostre password salvate nel gestore. Utilizzare un gestore di password migliora la vostra sicurezza online perché impedisce il riutilizzo delle password e genera sistematicamente password casuali. Ma semplifica anche l'uso quotidiano dei vostri account centralizzando l'accesso alle vostre informazioni sensibili.
 In questo tutorial, impareremo come configurare e utilizzare un gestore di password locale per migliorare la vostra sicurezza online. Qui, vi presenterò KeePass. Tuttavia, se siete principianti e desiderate avere un gestore di password online capace di sincronizzarsi su più dispositivi, vi consiglio di seguire il nostro tutorial su Bitwarden:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -106,7 +106,7 @@ Il software creerà un nuovo database dove verranno memorizzate le tue password.
 ![KEEPASS](assets/notext/16.webp)
 Successivamente, dovresti pensare a fare regolarmente il backup di questa cartella per evitare di perdere le tue credenziali in caso di perdita, danneggiamento o furto del tuo computer. Ad esempio, potresti copiare il database su una chiavetta USB ogni settimana. Il file contenente il tuo database si chiama `Database.kdbx` (il documento è criptato con la tua password principale). Per ulteriori consigli sulle migliori pratiche di backup, ti consiglio anche di consultare questo altro tutorial:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Segue la scelta della tua password principale.
 ![KEEPASS](assets/notext/17.webp)
@@ -148,4 +148,4 @@ Questo copre le funzionalità di base di KeePass. Ovviamente, questo tutorial ri
 
 Se sei interessato a scoprire come migliorare drasticamente la sicurezza dei tuoi account online per evitare il hacking con il 2FA, ti consiglio anche di consultare questo altro tutorial:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

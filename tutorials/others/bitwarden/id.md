@@ -16,7 +16,7 @@ Menerapkan dua prinsip keamanan kata sandi ini (keunikan dan kekuatan) dapat ter
 
 Manajer kata sandi menghasilkan dan menyimpan kata sandi yang kuat secara aman, memungkinkan Anda untuk mengakses semua akun online Anda tanpa perlu mengingatnya secara individu. Anda hanya perlu mengingat satu kata sandi, kata sandi utama, yang memberi Anda akses ke semua kata sandi yang disimpan dalam manajer. Menggunakan manajer kata sandi meningkatkan keamanan online Anda karena mencegah penggunaan kembali kata sandi dan secara sistematis menghasilkan kata sandi acak. Tetapi ini juga mempermudah penggunaan harian akun Anda dengan memusatkan akses ke informasi sensitif Anda.
 Dalam tutorial ini, kita akan menjelajahi cara mengatur dan menggunakan manajer kata sandi untuk meningkatkan keamanan online Anda. Saya akan memperkenalkan Anda kepada Bitwarden, dan dalam tutorial lain, kita akan melihat solusi lain yang disebut KeePass.
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Peringatan: Manajer kata sandi sangat baik untuk menyimpan kata sandi, tetapi **Anda seharusnya tidak pernah menyimpan frasa mnemonik dompet Bitcoin Anda di dalamnya!** Ingat, frasa mnemonik harus disimpan secara eksklusif dalam format fisik, seperti selembar kertas atau logam.
 
@@ -68,9 +68,9 @@ Pertama dan terutama, saya sangat menyarankan Anda untuk mengatur otentikasi dua
 
 Jika Anda tidak yakin bagaimana cara mengatur dan menggunakan perangkat 2FA ini, saya menyarankan mengikuti 2 tutorial lain ini:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Untuk melakukan ini, pergi ke tab "*Keamanan*" dalam menu "*Pengaturan*".
 ![BITWARDEN](assets/notext/14.webp)

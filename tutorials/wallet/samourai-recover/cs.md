@@ -29,10 +29,10 @@ Na druhou stranu, některé nástroje jsou buď ovlivněny vypnutím serveru, ne
 Pokud jde o individuální nástroje pro utrácení, vše funguje normálně, samozřejmě za předpokladu, že máte vlastní Dojo. Normální transakce Stonewall (a ne Stonewall x2) fungují bez jakéhokoli problému.
 
 Komentáře na Twitteru upozornily na to, že soukromí nabízené transakcí Stonewall by nyní mohlo být sníženo. Přidaná hodnota transakce Stonewall spočívá ve skutečnosti, že je z hlediska struktury nerozeznatelná od transakce Stonewall x2. Když analytik narazí na tento konkrétní vzor, nemůže určit, zda jde o standardní Stonewall s jedním uživatelem nebo o Stonewall x2 s účastí dvou uživatelů. Avšak, jak uvidíme v následujících odstavcích, provádění transakcí Stonewall x2 se stalo složitějším kvůli nedostupnosti Sorobanu. Někteří proto myslí, že analytik by nyní mohl předpokládat, že jakákoli transakce s touto strukturou je normální Stonewall. Osobně s tímto předpokladem nesouhlasím. I když mohou být transakce Stonewall x2 méně časté (a myslím, že už před tímto incidentem byly), skutečnost, že jsou stále možné, může zneplatnit celou analýzu založenou na předpokladu, že nejsou.
-**[-> Dozvědět se více o transakcích Stonewall.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> Dozvědět se více o transakcích Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Pokud jde o Ricochet, nebyl jsem schopen ověřit, zda je služba stále funkční, protože nemám Dojo na Testnetu, a raději neriskuji utrácení `100 000 sats` směrem k peněžence, která by mohla být kontrolována úřady. Pokud jste měli nedávno příležitost tento nástroj otestovat, zvu vás, abyste se se mnou spojili, abychom mohli tento článek aktualizovat.
 
-Pokud potřebujete použít Ricochet, mějte na paměti, že tuto operaci můžete vždy provést ručně s jakýmkoli softwarem pro peněženky. Jak správně provést jednotlivé skoky ručně, doporučuji konzultovat tento další článek: [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+Pokud potřebujete použít Ricochet, mějte na paměti, že tuto operaci můžete vždy provést ručně s jakýmkoli softwarem pro peněženky. Jak správně provést jednotlivé skoky ručně, doporučuji konzultovat tento další článek: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 Nástroj JoinBot již není funkční, jelikož byl zcela závislý na účasti peněženky spravované Samourai.
 
@@ -43,9 +43,9 @@ Pokud jde o další typy spolupracujících transakcí, často označované jako
 Po několika testech se ukázalo, že Soroban již nefunguje. Provedení těchto spolupracujících transakcí tedy musí proběhnout ručně. Zde jsou dvě možnosti, jak provést tuto výměnu:
 - Pokud jste fyzicky blízko svému spolupracovníkovi, můžete postupně skenovat QR kódy.
 - Pokud jste od svého spolupracovníka vzdáleni, můžete si PSBTs vyměňovat prostřednictvím externího komunikačního kanálu aplikace. Buďte ovšem opatrní, protože data obsažená v těchto PSBTs jsou citlivá z hlediska soukromí. Doporučuji použít šifrovanou zprávu, abyste zajistili důvěrnost výměny.
-**[-> Dozvědět se více o transakcích Stonewall x2.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> Dozvědět se více o transakcích Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
 
-**[-> Dozvědět se více o transakcích Stowaway.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> Dozvědět se více o transakcích Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Co se týče Whirlpool, protokol již zdá se nefunguje, ani pro uživatele, kteří mají vlastní Dojo. Poslední dny jsem sledoval svůj RoninDojo a pokusil se o některé základní manipulace, ale Whirlpool CLI se od vypnutí serveru nepodařilo připojit.
 
@@ -145,7 +145,7 @@ Pokud používáte k obnově vaší peněženky Samourai jiný software než Spa
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nyní máte přístup ke svým bitcoinům na Sparrow. Pokud potřebujete pomoc s používáním Sparrow Wallet, můžete také zkontrolovat [náš věnovaný tutoriál](https://planb.network/tutorials/wallet/sparrow).
+Nyní máte přístup ke svým bitcoinům na Sparrow. Pokud potřebujete pomoc s používáním Sparrow Wallet, můžete také zkontrolovat [náš věnovaný tutoriál](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Doporučuji také ručně importovat štítky, které jste měli spojené s vašimi UTXOs na Samourai. To vám umožní následně provádět efektivní kontrolu mincí na Sparrow.
 
@@ -201,7 +201,7 @@ Pokud používáte jiný software, jako je Electrum, pro obnovu vaší peněžen
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nyní máte přístup k vašim bitcoinům na Sparrow. Pokud potřebujete pomoc s používáním Sparrow Wallet, můžete také konzultovat [náš dedikovaný tutoriál](https://planb.network/tutorials/wallet/sparrow).
+Nyní máte přístup k vašim bitcoinům na Sparrow. Pokud potřebujete pomoc s používáním Sparrow Wallet, můžete také konzultovat [náš dedikovaný tutoriál](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Doporučuji také ručně importovat štítky, které jste spojili s vašimi UTXOs na Samourai. To vám umožní efektivně kontrolovat mince na Sparrow následně.
 
@@ -303,7 +303,7 @@ Na druhou stranu, pokud pro vás soukromí vašich mincí vůči úřadu potenci
 
 Specifikuji "vůči úřadu", protože je důležité si pamatovat, že pouze úřad, který zabavil servery, je potenciálně vědom těchto xpubs. Pokud byl váš cíl při používání coinjoin zabránit vašemu pekaři v možnosti sledovat vaše finanční prostředky, pak není lépe informován než před zabavením serveru.
 Nakonec je nezbytné zvážit počáteční anonset vaší mince před zajištěním serveru. Vezměme si příklad mince, která dosáhla potenciálního anonsetu 40 000; pravděpodobný pokles tohoto anonsetu je pravděpodobně zanedbatelný. Skutečně, s již velmi vysokým základním anonsetem, je nepravděpodobné, že by přítomnost několika uživatelů bez Dojo mohla radikálně změnit situaci. Pokud však vaše mince měla anonset 40, pak by tento potenciální únik mohl vážně ovlivnit vaše anonsety a potenciálně umožnit sledování. S nástrojem WST nyní mimo provoz po zastavení OXT.me, můžete tyto anonsety pouze odhadovat. Co se týče retrospektivního anonsetu, není se příliš čeho obávat, protože model Whirlpool zajišťuje, že je velmi vysoký již od prvního coinjoinu, díky odkazu vašich vrstevníků. Jediný případ, kdy by to mohlo představovat problém, je, pokud vaše mince nebyla remixována několik let a byla smíchána na začátku spuštění poolu. Pokud jde o perspektivní anonset, můžete zkoumat dobu, po kterou byla vaše mince k dispozici pro coinjoins. Pokud to bylo několik měsíců, pak pravděpodobně má extrémně vysoký perspektivní anonset. Naopak, pokud byla přidána do poolu jen několik hodin před zajištěním serverů, pak je její perspektivní anonset pravděpodobně velmi nízký.
-[**-> Dozvědět se více o anonsetech a jejich metodě výpočtu.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> Dozvědět se více o anonsetech a jejich metodě výpočtu.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Dalším aspektem, který je třeba zvážit, je dopad konsolidací na anonsety mincí, které byly smíchány. Vzhledem k tomu, že účty Whirlpool již nejsou přístupné prostřednictvím aplikace Samourai, je pravděpodobné, že mnoho uživatelů převedlo svou peněženku do jiného softwaru a pokusilo se vybrat své prostředky z Whirlpoolu. Zejména minulý víkend, kdy byly transakční poplatky v síti Bitcoin relativně vysoké, existoval silný technický a ekonomický podnět k konsolidaci mincí po smíchání. To znamená, že je pravděpodobné, že mnoho uživatelů provedlo významné konsolidace.
 

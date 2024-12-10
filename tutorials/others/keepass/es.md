@@ -16,7 +16,7 @@ Aplicar estos dos principios de seguridad de contraseñas (unicidad y robustez) 
 
 Un gestor de contraseñas genera y almacena de forma segura contraseñas fuertes, permitiéndote acceder a todas tus cuentas en línea sin la necesidad de memorizarlas individualmente. Solo necesitas recordar una contraseña, la contraseña maestra, que te da acceso a todas tus contraseñas guardadas en el gestor. Usar un gestor de contraseñas mejora tu seguridad en línea porque previene la reutilización de contraseñas y genera sistemáticamente contraseñas aleatorias. Pero también simplifica tu uso diario de tus cuentas centralizando el acceso a tu información sensible.
 En este tutorial, aprenderemos cómo configurar y usar un gestor de contraseñas local para mejorar tu seguridad en línea. Aquí, te presentaré KeePass. Sin embargo, si eres principiante y te gustaría tener un gestor de contraseñas en línea capaz de sincronizarse a través de múltiples dispositivos, te recomiendo seguir nuestro tutorial sobre Bitwarden:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -106,7 +106,7 @@ El software creará una nueva base de datos donde se almacenarán tus contraseñ
 ![KEEPASS](assets/notext/16.webp)
 Después, deberías pensar en hacer copias de seguridad de esta carpeta regularmente para evitar perder tus credenciales en caso de pérdida, daño o robo de tu computadora. Por ejemplo, podrías copiar la base de datos en una memoria USB cada semana. El archivo que contiene tu base de datos se llama `Database.kdbx` (el documento está cifrado con tu contraseña maestra). Para más consejos sobre las mejores prácticas de respaldo, también recomiendo consultar este otro tutorial:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 A continuación, viene la elección de tu contraseña maestra.
 ![KEEPASS](assets/notext/17.webp)
@@ -150,4 +150,4 @@ Eso cubre las características básicas de KeePass. Por supuesto, este tutorial 
 
 Si estás interesado en aprender cómo mejorar drásticamente la seguridad de tus cuentas en línea para evitar hackeos con 2FA, también te recomiendo revisar este otro tutorial:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

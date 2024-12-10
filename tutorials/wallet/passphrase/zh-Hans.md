@@ -35,4 +35,4 @@ HD 钱包通常由包含 12 个或 24 个单词的助记词短语生成。这个
 
 要在 Ledger 设备（Stax、Flex 或 Nano）上设置密语，您可以参考此教程：
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49

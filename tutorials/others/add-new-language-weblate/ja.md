@@ -20,7 +20,7 @@ PlanBでは、すでに多くの言語がウェブサイトで利用可能であ
 ![language](assets/02.webp)
 もし、あなたの言語がこのリストにある場合、再度追加する必要はありません。既存の言語に貢献するために、こちらのチュートリアルをご覧ください。
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/others/translate-front-weblate
 
 - 最初のステップは、Weblateにアカウントを作成することです。これがどのように行うかわからない場合は、私たちの詳細なガイドに従ってください。
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 - アカウントが作成されたら、`Website frontend element`メニューに移動し、`Languages`タブを選択します：
@@ -48,7 +48,7 @@ https://planb.network/tutorials/others/translate-front-weblate
 
 おめでとうございます、新しい言語でPlanB Networkサイトの翻訳プロセスを開始しました！Weblateを通じて、ウェブサイト上のすべてのテキスト（コース、チュートリアルなどの教育コンテンツを除く）を含む、フロントエンド全体の翻訳から始めることができます。
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 これには、私たちが別の半自動Humans x AI方法を使用している教育コンテンツは含まれません。
 次に、Telegram上で@asi0_flammeusに連絡することができます。彼らは、モデルで自動翻訳されたいくつかのコースをレビューするお手伝いをします。これらのコンテンツが満足できると判断された場合、サイト上の他のすべてのコンテンツ（コース、チュートリアルなど）のレビューに進むことができます。これらのステップが完了すると、新しい言語をPlanB Networkウェブサイトに正式に統合することを検討できます。これにより、あなたの言語の話者全員が、障壁なくBitcoinに関する質の高いコンテンツにアクセスできるようになります。

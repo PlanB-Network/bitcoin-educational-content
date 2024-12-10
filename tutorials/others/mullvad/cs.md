@@ -80,4 +80,4 @@ Nakonec menu "*Split tunneling*" umožňuje vybrat konkrétní aplikace na vaše
 Pro přehled o vašem účtu Mullvad a správu různých připojených zařízení můžete kliknout na menu "*Zařízení*" na webu.
 ![MULLVAD VPN](assets/notext/37.webp)A tady to máte, nyní jste plně vybaveni k užívání Mullvad VPN. Pokud máte zájem objevit dalšího poskytovatele VPN podobného Mullvadu, jak z hlediska funkcí, tak cenové politiky, doporučuji také prohlédnout náš návod na IVPN:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

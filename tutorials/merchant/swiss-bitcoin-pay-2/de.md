@@ -10,11 +10,11 @@ Heutzutage existieren zahlreiche Lösungen für Händler, die Bitcoin als Zahlun
 
 Für diejenigen, die sich nicht darum kümmern möchten und Gelder direkt in Fiat-Währung auf ihr Bankkonto erhalten möchten, stehen treuhänderische Lösungen wie Open Node zur Verfügung:
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Für Händler, die bereit sind, sich die Hände schmutzig zu machen und den Prozess vollständig kontrollieren wollen, ist die BTCPay Server-Software eine ausgezeichnete Option. Der größte Nachteil des BTCPay Servers besteht jedoch darin, dass seine Einrichtung und Verwaltung Zeit beansprucht und einige technische Kenntnisse erfordert:
 
-https://planb.network/tutorials/merchant/btcpay-server
+https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Unter all diesen Lösungen scheint Swiss Bitcoin Pay ein sehr interessanter Kompromiss zu sein, der Benutzerfreundlichkeit, Funktionen und Sicherheit kombiniert. Diese Lösung eignet sich sowohl für sehr kleine Unternehmen als auch für größere Strukturen. In diesem Tutorial werden Sie entdecken, wie Sie Swiss Bitcoin Pay einfach nutzen können, um Bitcoin in Ihrem Geschäft zu akzeptieren.
 

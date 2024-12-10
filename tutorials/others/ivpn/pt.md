@@ -109,8 +109,8 @@ No menu "*AntiTracker*", selecione o perfil de bloqueio para o seu anti-rastread
 ![IVPN](assets/notext/32.webp)
 E aí está, você agora está equipado para aproveitar plenamente o IVPN. Se você também deseja aumentar a segurança de suas contas online usando um gerenciador de senhas local, convido você a conferir nosso tutorial sobre o KeePass, uma solução gratuita e de código aberto:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Se você tem interesse em descobrir outro provedor de VPN semelhante ao IVPN, tanto em termos de recursos quanto de preços, também recomendo conferir nosso tutorial sobre o Mullvad:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

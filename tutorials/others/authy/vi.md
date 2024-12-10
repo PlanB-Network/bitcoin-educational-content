@@ -45,7 +45,7 @@ Nếu bạn muốn cho phép thêm các thiết bị khác, tôi khuyên bạn n
 
 Để thiết lập mã xác thực 2FA qua một ứng dụng như Authy cho một tài khoản, tài khoản đó phải hỗ trợ tính năng này. Ngày nay, đa số các dịch vụ trực tuyến đều cung cấp tùy chọn 2FA này, nhưng không phải lúc nào cũng vậy. Hãy lấy ví dụ về tài khoản Proton mail mà tôi đã trình bày trong một hướng dẫn khác:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 Bạn sẽ thường tìm thấy tùy chọn 2FA này trong phần cài đặt của tài khoản, thường dưới mục "*Mật khẩu*" hoặc "*Bảo mật*".
 Khi bạn kích hoạt tùy chọn này trên tài khoản Proton mail của mình, một mã QR sẽ được trình bày cho bạn. Bạn phải sau đó quét mã QR này với ứng dụng Authy của mình.
 Trên Authy, nhấp vào nút "*+*".

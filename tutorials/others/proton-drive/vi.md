@@ -31,7 +31,7 @@ Về [giá cả](https://proton.me/pricing), phiên bản miễn phí cung cấp
 
 Nếu bạn chưa có tài khoản Proton, bạn sẽ cần tạo một. Tôi giới thiệu bạn đọc hướng dẫn Proton Mail của chúng tôi trong đó chúng tôi giải thích chi tiết cách tạo một tài khoản Proton miễn phí và thiết lập nó:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Làm thế nào để thiết lập Proton Drive?
 
@@ -43,7 +43,7 @@ Bây giờ bạn đang ở trên Proton Drive của mình.
 ![PROTON DRIVE](assets/notext/07.webp)
 ## Làm thế nào để sử dụng Proton Drive?
 Để thêm tệp vào Proton Drive của bạn, khi bạn chỉ sử dụng phiên bản web (chúng tôi sẽ thảo luận về việc sử dụng phiên bản địa phương sau), bạn chỉ cần kéo và thả tài liệu trực tiếp vào giao diện. ![PROTON DRIVE](assets/notext/08.webp) Sau đó, bạn có thể tìm thấy tài liệu của mình trên trang chủ. ![PROTON DRIVE](assets/notext/09.webp) Để thêm một mục mới, nhấp vào nút "*New*" ở góc trên bên trái của màn hình. ![PROTON DRIVE](assets/notext/10.webp) Chức năng "*Upload file*" mở trình duyệt tệp địa phương của bạn, cho phép bạn chọn và nhập tài liệu mới vào Proton Drive, giống như bạn sẽ làm bằng cách kéo và thả. ![PROTON DRIVE](assets/notext/11.webp) "*Upload folder*" cho phép bạn nhập toàn bộ thư mục. ![PROTON DRIVE](assets/notext/12.webp) "*New folder*" giúp bạn tạo một thư mục để tổ chức tài liệu của mình trên Proton Drive một cách tốt hơn. ![PROTON DRIVE](assets/notext/13.webp) Nhấp vào tùy chọn này, đặt tên cho thư mục của bạn. ![PROTON DRIVE](assets/notext/14.webp) Sau đó, bạn sẽ tìm thấy nó trực tiếp trên trang chủ của Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Cuối cùng, "*New document*" cho phép bạn tạo một tài liệu văn bản mới trực tiếp trong Proton Drive. ![PROTON DRIVE](assets/notext/16.webp) Bằng cách nhấp vào đó, một tài liệu trắng mới mở ra. ![PROTON DRIVE](assets/notext/17.webp) Bạn có thể viết và chỉnh sửa trên đó. ![PROTON DRIVE](assets/notext/18.webp) Nếu bạn nhấp vào nút "*Share*" ở góc trên bên phải, bạn có thể chia sẻ tài liệu. ![PROTON DRIVE](assets/notext/19.webp) Bạn chỉ cần nhập email của người đóng góp mà bạn muốn cấp quyền truy cập vào tài liệu, hoặc ở chế độ chỉ đọc hoặc với quyền chỉnh sửa. ![PROTON DRIVE](assets/notext/20.webp) Nếu bạn quay lại Proton Drive của mình, bạn có thể thấy rằng tài liệu đã được lưu thành công. ![PROTON DRIVE](assets/notext/21.webp) Trong tab "*Shared*", bạn có thể tìm thấy các tài liệu mà bạn đã chia sẻ với người khác. ![PROTON DRIVE](assets/notext/22.webp) Và trong tab "*Shared with me*", bạn có thể thấy các tài liệu mà người khác đã chia sẻ với bạn. ![PROTON DRIVE](assets/notext/23.webp) Cuối cùng, trong tab "*Trash*", bạn có thể tìm thấy các tài liệu mà bạn đã xóa gần đây. ![PROTON DRIVE](assets/notext/24.webp) Hầu hết các cài đặt cho Proton Drive của bạn được tích hợp vào tài khoản Proton của bạn. Để biết hướng dẫn chi tiết về cách thiết lập tài khoản của bạn, tôi mời bạn tham khảo hướng dẫn này:
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Làm thế nào để cài đặt phần mềm Proton Drive?
 Proton Drive cũng cung cấp phần mềm cho phép đồng bộ hóa các tệp địa phương của bạn với không gian lưu trữ trực tuyến. Tính năng này giúp và tự động hóa việc triển khai chiến lược sao lưu 3-2-1 của chúng tôi. Với phần mềm Proton Drive, bạn nhận được 2 bản sao đồng bộ của tệp của mình: một trên máy tính của bạn và một bản khác trên máy chủ của Proton, do đó đáp ứng tiêu chí của 2 loại phương tiện và sao lưu ngoại vi. Bạn chỉ cần tạo một bản sao thứ ba, mà chúng tôi sẽ thiết lập sau.
@@ -81,4 +81,4 @@ Xin chúc mừng, bây giờ bạn đã có một chiến lược sao lưu 3-2-1
 
 Để tìm hiểu thêm về việc bảo mật sự hiện diện trực tuyến của bạn và tránh bị hack, tôi cũng khuyên bạn nên tham khảo hướng dẫn chi tiết của chúng tôi về trình quản lý mật khẩu Bitwarden:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

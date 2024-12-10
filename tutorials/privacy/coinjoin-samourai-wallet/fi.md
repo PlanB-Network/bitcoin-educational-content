@@ -66,7 +66,7 @@ Whirlpool suunniteltiin ottaen huomioon kaksi tärkeää vaatimusta:
 Nämä imperatiivit ohjasivat Samourai Walletin kehittäjiä Whirlpoolin suunnittelussa, johdattaen heidät rajoittamaan osallistujien määrää per sykli. Liian vähäinen osallistujamäärä olisi vaarantanut coinjoinin tehokkuuden, drastisesti vähentäen jokaisessa syklissä tuotettuja anonsetteja, kun taas liian suuri osallistujamäärä olisi aiheuttanut hallinnollisia ongelmia mobiilisovelluksissa ja hidastanut syklien kulkua.
 **Lopulta Whirlpoolissa ei tarvita suurta osallistujamäärää per coinjoin, koska anonsetit saavutetaan kerryttämällä useita coinjoin-syklejä.**
 
-[-> Lue lisää Whirlpoolin anonseteista.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Lue lisää Whirlpoolin anonseteista.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Altaat ja coinjoin-maksut
 Jotta nämä monet syklit voisivat tehokkaasti lisätä sekoitettujen kolikoiden anonsetteja, tietty kehys on määriteltävä käytettävien UTXO-määrien rajoittamiseksi. Whirlpool määrittelee siis erilaisia altaita.
@@ -299,7 +299,7 @@ Kun `Tx0` on vahvistettu, UTXO:si rekisteröidään automaattisesti koordinaatto
 
 ![samourai](assets/notext/34.webp)
 
-Tarkistamalla `Remixing`-välilehden, joka vastaa **Postmix**-tiliä, näet alkuperäisistä sekoituksista saadut UTXO:t. Nämä kolikot pysyvät valmiina seuraaviin uudelleensekoituksiin, jotka eivät aiheuta lisämaksuja. Suosittelen tutustumaan tähän toiseen artikkeliin oppiaksesi lisää uudelleensekoitusprosessista ja coinjoin-syklin tehokkuudesta: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
+Tarkistamalla `Remixing`-välilehden, joka vastaa **Postmix**-tiliä, näet alkuperäisistä sekoituksista saadut UTXO:t. Nämä kolikot pysyvät valmiina seuraaviin uudelleensekoituksiin, jotka eivät aiheuta lisämaksuja. Suosittelen tutustumaan tähän toiseen artikkeliin oppiaksesi lisää uudelleensekoitusprosessista ja coinjoin-syklin tehokkuudesta: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 ![samourai](assets/notext/35.webp)
 
@@ -336,7 +336,7 @@ Syötä tarvittavat tiedot maksutapahtumaasi varten, ja klikkaa sen jälkeen sin
 
 ![samourai](assets/notext/43.webp)
 Seuraavassa vaiheessa sinulla on mahdollisuus muuttaa maksutapahtumasi palkkiotasoa. Voit myös ottaa käyttöön Stonewall-vaihtoehdon valitsemalla vastaavan ruudun. Jos Stonewall-vaihtoehto ei ole valittavissa, se tarkoittaa, että **Postmix**-tilisi ei sisällä riittävän suurta UTXO:ta tukemaan tätä tiettyä tapahtumarakennetta.
-[-> Lue lisää Stonewall-tapahtumista.](https://planb.network/tutorials/privacy/stonewall)
+[-> Lue lisää Stonewall-tapahtumista.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Jos kaikki on mielestäsi kunnossa, klikkaa vihreää `SEND ... BTC` -painiketta.
 
@@ -369,7 +369,7 @@ Varmista, että SCODEsi on rekisteröity oikein klikkaamalla vielä kerran kolme
 
 ## Miten tietää coinjoin-sykliemme laatu?
 Jotta coinjoin olisi todella tehokas, on olennaista, että syötteiden ja tuottojen määrissä on hyvä yhtenäisyys. Tämä yhtenäisyys lisää mahdollisten tulkintojen määrää ulkopuolisen tarkkailijan silmissä, lisäten näin epävarmuutta tapahtuman ympärillä. Tämän coinjoinin tuottaman epävarmuuden määrää voidaan arvioida laskemalla tapahtuman entropia. Näiden indikaattorien syvällisempään tutkimiseen viittaan sinut oppaaseen: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Whirlpool-malli tunnustetaan sellaiseksi, joka tuo eniten yhtenäisyyttä coinjoineihin.
-Seuraavaksi arvioidaan useiden coinjoin-syklien suorituskykyä ryhmien laajuuden perusteella, joihin kolikko on piilotettu. Näiden ryhmien koko määrittelee niin kutsutut anonsetit. Anonsetteja on kahta tyyppiä: ensimmäinen arvioi saavutetun yksityisyyden retrospektiivisen analyysin (nykyhetkestä menneisyyteen) perusteella ja toinen, prospektiivisen analyysin (menneisyydestä nykyhetkeen) perusteella. Näiden kahden indikaattorin tarkempaa selitystä varten kutsun sinut tutustumaan oppaaseen: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
+Seuraavaksi arvioidaan useiden coinjoin-syklien suorituskykyä ryhmien laajuuden perusteella, joihin kolikko on piilotettu. Näiden ryhmien koko määrittelee niin kutsutut anonsetit. Anonsetteja on kahta tyyppiä: ensimmäinen arvioi saavutetun yksityisyyden retrospektiivisen analyysin (nykyhetkestä menneisyyteen) perusteella ja toinen, prospektiivisen analyysin (menneisyydestä nykyhetkeen) perusteella. Näiden kahden indikaattorin tarkempaa selitystä varten kutsun sinut tutustumaan oppaaseen: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 ## Miten hallita postmixiä?
 Coinjoin-syklien suorittamisen jälkeen paras strategia on pitää UTXO:si **postmix**-tilillä odottamassa tulevaa käyttöä. On jopa suositeltavaa antaa niiden remixautua loputtomiin, kunnes tarvitset käyttää niitä.
 
@@ -396,7 +396,7 @@ Seuraavaksi sinun on oltava varovainen doxxic-muutoksen hallinnassa, muutoksen, 
 Yksityiskohtaisia ohjeita näiden eri tekniikoiden toteuttamiseen tarjotaan pian PlanB Networkissa.
 
 **Lisäresurssit:**
-[Samourai Walletin video-opas](https://planb.network/tutorials/wallet/samourai)
+[Samourai Walletin video-opas](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Walletin dokumentaatio - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-ketju coinjoineista](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogikirjoitus coinjoineista](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

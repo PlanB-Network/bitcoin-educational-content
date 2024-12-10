@@ -26,10 +26,10 @@ Trong hướng dẫn này, tôi sẽ giải thích cách chỉnh sửa mục "H�
 - Có [một hồ sơ giáo sư trên Mạng PlanB](https://planb.network/professors) (chỉ khi bạn đề xuất một hướng dẫn đầy đủ).
 
 **Nếu bạn cần trợ giúp để đạt được các điều kiện tiên quyết này, các hướng dẫn khác của tôi sẽ hướng dẫn bạn:**
-**[Hiểu biết về Git và GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Tạo một tài khoản GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Thiết lập môi trường làm việc của bạn](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Tạo một hồ sơ giáo sư](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Hiểu biết về Git và GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Tạo một tài khoản GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Thiết lập môi trường làm việc của bạn](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Tạo một hồ sơ giáo sư](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Loại nội dung nào để viết trên Mạng PlanB?
 Chúng tôi chủ yếu tìm kiếm các hướng dẫn về các công cụ liên quan đến Bitcoin hoặc hệ sinh thái của nó. Những nội dung này có thể được tổ chức xung quanh sáu danh mục chính:
 - Ví;

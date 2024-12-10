@@ -161,4 +161,4 @@ Jos pidit tätä opasta hyödyllisenä, arvostaisin peukkua ylös alla. Voit vap
 
 Suosittelen myös tutustumaan toiseen oppaaseen VeraCryptista, ohjelmistosta, joka mahdollistaa tallennuslaitteiden salaamisen ja salauksen purkamisen.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

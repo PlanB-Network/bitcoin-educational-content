@@ -12,13 +12,13 @@ Ce tutoriel vous guide étape par étape dans la correction de ces petites erreu
 
 Veuillez noter que si vous envisagez de réaliser une relecture et une révision complètes d'un document, en particulier pour des traductions de contenus, je vous invite à consulter cet autre tutoriel plus détaillé.
 
-https://planb.network/tutorials/others/content-review-tutorial
+https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 
  Ici, nous nous concentrons uniquement sur la manière d'effectuer une correction rapide pour une petite erreur.
 
 - Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait un tutoriel détaillé pour vous accompagner.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content) :

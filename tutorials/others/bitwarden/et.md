@@ -16,7 +16,7 @@ Nende kahe parooliturvalisuse põhimõtte (unikaaalsus ja robustsus) rakendamine
 
 Paroolihaldur genereerib ja hoiab turvaliselt tugevaid paroole, võimaldades teil pääseda ligi kõigile oma veebikontodele ilma, et peaksite neid ükshaaval meelde jätma. Teil on vaja meeles pidada ainult ühte parooli, peaparooli, mis annab teile juurdepääsu kõigile halduris salvestatud paroolidele. Paroolihalduri kasutamine suurendab teie veebiturvalisust, kuna see hoiab ära paroolide korduvkasutuse ja genereerib süsteemselt juhuslikke paroole. Kuid see lihtsustab ka teie igapäevast kontode kasutamist, keskendades juurdepääsu teie tundlikule teabele.
 Selles õpetuses uurime, kuidas seadistada ja kasutada paroolihaldurit, et suurendada oma veebiturvalisust. Tutvustan teile Bitwardeni ja teises õpetuses vaatame teist lahendust nimega KeePass.
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Hoiatus: Paroolihaldur on suurepärane paroolide hoidmiseks, kuid **te ei tohiks kunagi hoida selles oma Bitcoini rahakoti mnemoonilist fraasi!** Pea meeles, et mnemooniline fraas tuleks eksklusiivselt salvestada füüsilisel kujul, nagu paberil või metallil.
 
@@ -68,9 +68,9 @@ Eelkõige soovitan tungivalt seadistada kahefaktoriline autentimine (2FA), et om
 
 Kui te pole kindel, kuidas neid 2FA seadmeid seadistada ja kasutada, soovitan järgida neid kahte muud õpetust:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Selleks minge menüüs "*Seaded*" vahekaardile "*Turvalisus*".
 ![BITWARDEN](assets/notext/14.webp)

@@ -30,7 +30,7 @@ Bezüglich der [Preisgestaltung](https://proton.me/pricing) bietet die kostenlos
 
 Wenn Sie noch kein Proton-Konto haben, müssen Sie eines erstellen. Ich verweise Sie auf unser Proton Mail-Tutorial, in dem wir detailliert erklären, wie Sie ein kostenloses Proton-Konto erstellen und einrichten:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Wie richtet man Proton Drive ein?
 
@@ -42,7 +42,7 @@ Sie befinden sich jetzt auf Ihrem Proton Drive.
 ![PROTON DRIVE](assets/notext/07.webp)
 ## Wie verwendet man Proton Drive?
 Um Dateien zu Ihrem Proton Drive hinzuzufügen, wenn Sie ausschließlich die Webversion verwenden (die Nutzung der lokalen Version besprechen wir später), müssen Sie Ihre Dokumente einfach per Drag-and-Drop direkt in die Schnittstelle ziehen. ![PROTON DRIVE](assets/notext/08.webp) Anschließend finden Sie Ihr Dokument auf der Startseite. ![PROTON DRIVE](assets/notext/09.webp) Um einen neuen Eintrag hinzuzufügen, klicken Sie auf den Button "*Neu*" oben links auf dem Bildschirm. ![PROTON DRIVE](assets/notext/10.webp) Die Funktion "*Datei hochladen*" öffnet Ihren lokalen Dateiexplorer, sodass Sie neue Dokumente zu Proton Drive hinzufügen können, genau wie Sie es durch Ziehen und Ablegen tun würden. ![PROTON DRIVE](assets/notext/11.webp) "*Ordner hochladen*" ermöglicht es Ihnen, einen ganzen Ordner zu importieren. ![PROTON DRIVE](assets/notext/12.webp) "*Neuer Ordner*" ermöglicht es Ihnen, einen Ordner zu erstellen, um Ihre Dokumente auf Proton Drive besser zu organisieren. ![PROTON DRIVE](assets/notext/13.webp) Klicken Sie auf diese Option, weisen Sie Ihrem Ordner einen Namen zu. ![PROTON DRIVE](assets/notext/14.webp) Dann finden Sie ihn direkt auf der Startseite von Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Schließlich ermöglicht Ihnen "*Neues Dokument*", direkt in Proton Drive ein neues Textdokument zu erstellen. ![PROTON DRIVE](assets/notext/16.webp) Wenn Sie darauf klicken, öffnet sich ein neues leeres Dokument. ![PROTON DRIVE](assets/notext/17.webp) Sie können darauf schreiben und es bearbeiten. ![PROTON DRIVE](assets/notext/18.webp) Wenn Sie auf den Button "*Teilen*" oben rechts klicken, können Sie das Dokument teilen. ![PROTON DRIVE](assets/notext/19.webp) Sie müssen nur die E-Mail des Mitwirkenden eingeben, dem Sie Zugriff auf das Dokument geben möchten, entweder im Nur-Lese-Modus oder mit Bearbeitungsrechten. ![PROTON DRIVE](assets/notext/20.webp) Wenn Sie zu Ihrem Proton Drive zurückkehren, können Sie sehen, dass das Dokument erfolgreich gespeichert wurde. ![PROTON DRIVE](assets/notext/21.webp) Im Tab "*Geteilt*" finden Sie die Dokumente, die Sie mit anderen geteilt haben. ![PROTON DRIVE](assets/notext/22.webp) Und im Tab "*Mit mir geteilt*" können Sie die Dokumente sehen, die andere mit Ihnen geteilt haben. ![PROTON DRIVE](assets/notext/23.webp) Schließlich können Sie im Tab "*Papierkorb*" Ihre kürzlich gelöschten Dokumente finden. ![PROTON DRIVE](assets/notext/24.webp) Die meisten Einstellungen für Ihr Proton Drive sind in Ihr Proton-Konto integriert. Für detaillierte Anweisungen zur Einrichtung Ihres Kontos lade ich Sie ein, dieses Tutorial zu konsultieren:
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Wie installiert man die Proton Drive Software?
 Proton Drive bietet auch eine Software, die die Synchronisierung Ihrer lokalen Dateien mit Ihrem Online-Speicherplatz ermöglicht. Diese Funktion erleichtert und automatisiert die Implementierung unserer 3-2-1-Backup-Strategie. Mit der Proton Drive Software erhalten Sie 2 synchronisierte Kopien Ihrer Dateien: eine auf Ihrem Computer und die andere auf den Servern von Proton, was die Kriterien von 2 Medientypen und Offsite-Backup erfüllt. Sie müssen lediglich eine dritte Kopie erstellen, die wir später einrichten werden.
@@ -80,4 +80,4 @@ Herzlichen Glückwunsch, Sie haben jetzt eine sehr robuste 3-2-1-Backup-Strategi
 
 Um mehr darüber zu erfahren, wie Sie Ihre Online-Präsenz sichern und Hacking vermeiden können, empfehle ich auch, unser detailliertes Tutorial zum Passwortmanager Bitwarden zu konsultieren:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

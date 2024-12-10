@@ -10,7 +10,7 @@ Tänapäeval on kahefaktoriline autentimine (2FA) muutunud hädavajalikuks onlin
 
 Teises õpetuses selgitasin, kuidas seadistada ja kasutada TOTP 2FA rakendust:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Siin vaatame, kuidas kasutada füüsilist turvavõtit kõigi teie kontode teise autentimisfaktorina.
 

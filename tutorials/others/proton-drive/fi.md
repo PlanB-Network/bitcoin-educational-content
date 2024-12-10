@@ -31,7 +31,7 @@ Hinnoittelusta [hinnat](https://proton.me/pricing) osalta ilmainen versio tarjoa
 
 Jos sinulla ei vielä ole Proton-tiliä, sinun tulee luoda sellainen. Ohjaan sinut Proton Mail -oppaaseemme, jossa selitämme yksityiskohtaisesti, kuinka luoda ilmainen Proton-tili ja ottaa se käyttöön:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Kuinka ottaa Proton Drive käyttöön?
 
@@ -43,7 +43,7 @@ Olet nyt Proton Drivessasi.
 ![PROTON DRIVE](assets/notext/07.webp)
 ## Kuinka käyttää Proton Drivea?
 Lisätäksesi tiedostoja Proton Driveen, kun käytät yksinomaan web-versiota (käsittelemme paikallisen version käyttöä myöhemmin), sinun tarvitsee vain raahata ja pudottaa dokumenttisi suoraan käyttöliittymään. ![PROTON DRIVE](assets/notext/08.webp) Sen jälkeen löydät dokumenttisi kotisivulta. ![PROTON DRIVE](assets/notext/09.webp) Lisätäksesi uuden kohteen, klikkaa "*Uusi*" -painiketta näytön vasemmassa yläkulmassa. ![PROTON DRIVE](assets/notext/10.webp) "*Lataa tiedosto*" -toiminto avaa paikallisen tiedostonhallintasi, jolloin voit valita ja tuoda uusia dokumentteja Proton Driveen, aivan kuten raahaamalla ja pudottamalla. ![PROTON DRIVE](assets/notext/11.webp) "*Lataa kansio*" mahdollistaa kokonaisen kansion tuomisen. ![PROTON DRIVE](assets/notext/12.webp) "*Uusi kansio*" mahdollistaa kansion luomisen dokumenttiesi parempaan järjestämiseen Proton Drivessa. ![PROTON DRIVE](assets/notext/13.webp) Klikkaa tätä vaihtoehtoa, anna kansiollasi nimi. ![PROTON DRIVE](assets/notext/14.webp) Sen jälkeen löydät sen suoraan Proton Driven kotisivulta. ![PROTON DRIVE](assets/notext/15.webp) Lopuksi, "*Uusi dokumentti*" mahdollistaa uuden tekstidokumentin luomisen suoraan Proton Drivessa. ![PROTON DRIVE](assets/notext/16.webp) Klikkaamalla sitä, uusi tyhjä dokumentti avautuu. ![PROTON DRIVE](assets/notext/17.webp) Voit kirjoittaa siihen ja muokata sitä. ![PROTON DRIVE](assets/notext/18.webp) Jos klikkaat "*Jaa*" -painiketta näytön oikeassa yläkulmassa, voit jakaa dokumentin. ![PROTON DRIVE](assets/notext/19.webp) Sinun tarvitsee vain syöttää sen henkilön sähköpostiosoite, jonka kanssa haluat jakaa dokumentin, joko vain luku -oikeudella tai muokkausoikeuksilla. ![PROTON DRIVE](assets/notext/20.webp) Jos palaat takaisin Proton Driveesi, näet, että dokumentti on tallennettu onnistuneesti. ![PROTON DRIVE](assets/notext/21.webp) "*Jaetut*" -välilehdessä voit löytää dokumentit, jotka olet jakanut muiden kanssa. ![PROTON DRIVE](assets/notext/22.webp) Ja "*Minulle jaetut*" -välilehdessä voit nähdä dokumentit, jotka muut ovat jakaneet sinulle. ![PROTON DRIVE](assets/notext/23.webp) Lopuksi, "*Roskakori*" -välilehdessä voit löytää äskettäin poistamasi dokumentit. ![PROTON DRIVE](assets/notext/24.webp) Useimmat asetukset Proton Driveesi on integroitu Proton-tiliisi. Tarkempien ohjeiden saamiseksi tilisi asettamiseen, kutsun sinut tutustumaan tähän opastukseen:
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Miten asentaa Proton Drive -ohjelmisto?
 Proton Drive tarjoaa myös ohjelmiston, joka mahdollistaa paikallisten tiedostojen synkronoinnin online-tallennustilasi kanssa. Tämä ominaisuus helpottaa ja automatisoi 3-2-1-varmuuskopiointistrategiamme toteuttamista. Proton Drive -ohjelmiston avulla saat 2 synkronoitua tiedostokopiota: toisen tietokoneellesi ja toisen Protonin palvelimille, täyttäen siten kahden median tyypin ja sijainnin ulkopuolisen varmuuskopion kriteerit. Sinun tarvitsee vain luoda kolmas kopio, jonka asetamme myöhemmin.
@@ -81,4 +81,4 @@ Onnittelut, sinulla on nyt erittäin vankka 3-2-1 varmuuskopiointistrategia, jok
 
 Lisätietoja online-läsnäolosi turvaamisesta ja hakkeroinnin välttämisestä suosittelemme myös tutustumaan yksityiskohtaiseen tutoriaaliimme Bitwarden salasananhallintaohjelmasta:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

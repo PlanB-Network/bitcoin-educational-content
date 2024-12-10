@@ -64,7 +64,7 @@ Whirlpool suunniteltiin ottaen huomioon kaksi tärkeää vaatimusta:
 Nämä imperatiivit ohjasivat Samourai Walletin kehittäjien valintoja Whirlpoolin suunnittelussa, johdattaen heidät rajoittamaan osallistujien määrää per sykli. Liian vähäinen osallistujamäärä olisi vaarantanut coinjoinin tehokkuuden, drastisesti vähentäen jokaisessa syklissä tuotettuja anonsetteja, kun taas liian suuri osallistujamäärä olisi aiheuttanut hallinnollisia ongelmia mobiilisovelluksissa ja hidastanut syklien kulkua.
 **Lopulta Whirlpoolissa ei tarvita suurta osallistujamäärää per coinjoin, koska anonsetit saavutetaan kerryttämällä useita coinjoin-syklejä.**
 
-[-> Lue lisää Whirlpoolin anonseteista.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Lue lisää Whirlpoolin anonseteista.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Altaat ja coinjoin-maksut
 Jotta nämä monet syklit voisivat tehokkaasti lisätä sekoitettujen kolikoiden anonsetteja, tietty kehys on määriteltävä käytettävien UTXO-määrien rajoittamiseksi. Whirlpool määrittelee siis erilaisia altaita.
@@ -254,7 +254,7 @@ Seuraavassa vaiheessa pääset sivulle, joka on omistettu Dojosi konfiguroinnill
 
 ![coinjoin](assets/notext/24.webp)
 
-*Uusille Samourain käyttäjille, on sitten tarpeen luoda lompakko alusta. Jos tarvitset apua, voit konsultoida ohjeita uuden Samourai-lompakon asettamiseksi [tässä oppaassa, erityisesti kohdassa "Luodaan ohjelmistolompakko"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*Uusille Samourain käyttäjille, on sitten tarpeen luoda lompakko alusta. Jos tarvitset apua, voit konsultoida ohjeita uuden Samourai-lompakon asettamiseksi [tässä oppaassa, erityisesti kohdassa "Luodaan ohjelmistolompakko"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 Jos jatkat jo olemassa olevan Samourai-lompakon palauttamista, valitse `Palauta olemassa oleva lompakko`, sitten valitse `Minulla on Samourai-varmuuskopiotiedosto`.
 ![coinjoin](assets/notext/25.webp)
 Normaalisti sinulla tulisi aina olla palautustiedostosi leikepöydälläsi. Sen jälkeen klikkaa `LIITÄ` lisätäksesi tiedoston määrättyyn sijaintiin. Sen purkamiseksi sinun on myös tarpeen syöttää lompakkosi BIP39-salasana vastaavaan kenttään, joka sijaitsee juuri alla. Lopuksi, klikkaa `VALMIS`.
@@ -359,4 +359,4 @@ Sekoitetut UTXO:si ovat nähtävissä **Jälkisekoitus**-tilillä Whirlpool GUI:
 Whirlpool-tilit ovat helposti tunnistettavissa Samourai Walletissa niiden sinisen värin ansiosta. Tämä mahdollistaa sekoitettujen UTXO:jesi käyttämisen missä ja milloin tahansa, suoraan älypuhelimestasi.
 
 ![coinjoin](assets/notext/53.webp)
-Jotta voit seurata automaattisia coinjoinejasi, suosittelen myös watch-only lompakon asettamista Sentinel-sovelluksen kautta. Lisää **Postmix**-tilisi ZPUB ja seuraa coinjoin-syklien etenemistä reaaliajassa. Jos haluat ymmärtää, miten Sentinelia käytetään, suosittelen tutustumaan tähän toiseen oppaaseen PlanB Networkissa: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)
+Jotta voit seurata automaattisia coinjoinejasi, suosittelen myös watch-only lompakon asettamista Sentinel-sovelluksen kautta. Lisää **Postmix**-tilisi ZPUB ja seuraa coinjoin-syklien etenemistä reaaliajassa. Jos haluat ymmärtää, miten Sentinelia käytetään, suosittelen tutustumaan tähän toiseen oppaaseen PlanB Networkissa: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

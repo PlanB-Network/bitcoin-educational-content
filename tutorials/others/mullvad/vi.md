@@ -80,4 +80,4 @@ Cuối cùng, menu "*Chia tách đường hầm*" cho phép bạn chọn các �
 Để có cái nhìn tổng quan về tài khoản Mullvad của bạn và quản lý các thiết bị kết nối khác nhau, bạn có thể nhấp vào menu "*Thiết bị*" trên trang web.
 Và đó chính xác là những gì bạn cần, giờ đây bạn đã sẵn sàng để tận hưởng trọn vẹn Mullvad VPN. Nếu bạn quan tâm đến việc khám phá một nhà cung cấp VPN khác tương tự như Mullvad, cả về tính năng lẫn giá cả, tôi cũng khuyên bạn nên xem hướng dẫn của chúng tôi về IVPN:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

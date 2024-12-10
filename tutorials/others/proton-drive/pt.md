@@ -30,7 +30,7 @@ Sobre [preços](https://proton.me/pricing), a versão gratuita oferece até 5 GB
 
 Se você ainda não tem uma conta Proton, precisará criar uma. Eu o encaminho para o nosso tutorial do Proton Mail no qual explicamos em detalhes como criar uma conta Proton gratuita e configurá-la:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Como configurar o Proton Drive?
 
@@ -42,7 +42,7 @@ Você está agora no seu Proton Drive.
 ![PROTON DRIVE](assets/notext/07.webp)
 ## Como usar o Proton Drive?
 Para adicionar arquivos ao seu Proton Drive, quando você estiver usando exclusivamente a versão web (discutiremos o uso da versão local mais tarde), você simplesmente precisa arrastar e soltar seus documentos diretamente na interface. ![PROTON DRIVE](assets/notext/08.webp) Você pode então encontrar seu documento na página inicial. ![PROTON DRIVE](assets/notext/09.webp) Para adicionar um novo item, clique no botão "*Novo*" no canto superior esquerdo da tela. ![PROTON DRIVE](assets/notext/10.webp) A função "*Enviar arquivo*" abre o explorador de arquivos local, permitindo que você selecione e importe novos documentos para o Proton Drive, assim como faria arrastando e soltando. ![PROTON DRIVE](assets/notext/11.webp) "*Enviar pasta*" permite que você importe uma pasta inteira. ![PROTON DRIVE](assets/notext/12.webp) "*Nova pasta*" permite que você crie uma pasta para organizar melhor seus documentos no Proton Drive. ![PROTON DRIVE](assets/notext/13.webp) Clique nesta opção, atribua um nome à sua pasta. ![PROTON DRIVE](assets/notext/14.webp) Então você a encontrará diretamente na página inicial do Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Finalmente, "*Novo documento*" permite que você crie um novo documento de texto diretamente no Proton Drive. ![PROTON DRIVE](assets/notext/16.webp) Ao clicar nisso, um novo documento em branco se abre. ![PROTON DRIVE](assets/notext/17.webp) Você pode escrever nele e editá-lo. ![PROTON DRIVE](assets/notext/18.webp) Se você clicar no botão "*Compartilhar*" no canto superior direito, você pode compartilhar o documento. ![PROTON DRIVE](assets/notext/19.webp) Você só precisa inserir o email do colaborador a quem deseja dar acesso ao documento, seja no modo somente leitura ou com direitos de edição. ![PROTON DRIVE](assets/notext/20.webp) Se você voltar ao seu Proton Drive, pode ver que o documento foi salvo com sucesso. ![PROTON DRIVE](assets/notext/21.webp) Na aba "*Compartilhados*", você pode encontrar os documentos que compartilhou com outros. ![PROTON DRIVE](assets/notext/22.webp) E na aba "*Compartilhados comigo*", você pode ver os documentos que outros compartilharam com você. ![PROTON DRIVE](assets/notext/23.webp) Finalmente, na aba "*Lixeira*", você pode encontrar seus documentos recentemente excluídos. ![PROTON DRIVE](assets/notext/24.webp) A maioria das configurações para o seu Proton Drive está integrada à sua conta Proton. Para instruções detalhadas sobre a configuração da sua conta, convido você a consultar este tutorial:
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Como instalar o software Proton Drive?
 O Proton Drive também oferece um software que possibilita a sincronização dos seus arquivos locais com seu espaço de armazenamento online. Este recurso facilita e automatiza a implementação da nossa estratégia de backup 3-2-1. Com o software Proton Drive, você obtém 2 cópias sincronizadas dos seus arquivos: uma no seu computador e a outra nos servidores do Proton, cumprindo assim os critérios de 2 tipos de mídia e backup fora do local. Você simplesmente precisará criar uma terceira cópia, que configuraremos mais tarde.
@@ -80,4 +80,4 @@ Parabéns, você agora possui uma estratégia de backup 3-2-1 muito robusta, que
 
 Para saber mais sobre como proteger sua presença online e evitar hacking, recomendo também consultar nosso tutorial detalhado sobre o gerenciador de senhas Bitwarden:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

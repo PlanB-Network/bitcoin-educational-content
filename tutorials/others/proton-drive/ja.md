@@ -30,7 +30,7 @@ Proton Driveは単なるストレージオプション以上のものを提供�
 
 まだProtonアカウントをお持ちでない場合は、アカウントを作成する必要があります。無料のProtonアカウントの作成と設定方法を詳しく説明しているProton Mailチュートリアルを参照してください：
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Proton Driveの設定方法
 
@@ -42,7 +42,7 @@ Protonメールにログインしたら、画面の左上にある四つの小�
 ![PROTON DRIVE](assets/notext/07.webp)
 ## Proton Driveの使用方法
 Proton Driveにファイルを追加するには、ウェブバージョンを専用で使用している場合（ローカルバージョンの使用については後で説明します）、ドキュメントを直接インターフェースにドラッグアンドドロップするだけです。 ![PROTON DRIVE](assets/notext/08.webp) その後、ホームページでドキュメントを見つけることができます。 ![PROTON DRIVE](assets/notext/09.webp) 新しいアイテムを追加するには、画面の左上にある「*New*」ボタンをクリックします。 ![PROTON DRIVE](assets/notext/10.webp) 「*Upload file*」機能は、ローカルのファイルエクスプローラーを開き、ドラッグアンドドロップするのと同じように、新しいドキュメントをProton Driveに選択してインポートすることができます。 ![PROTON DRIVE](assets/notext/11.webp) 「*Upload folder*」では、フォルダー全体をインポートできます。 ![PROTON DRIVE](assets/notext/12.webp) 「*New folder*」を使うと、Proton Drive上でドキュメントをより整理しやすくするためのフォルダーを作成できます。 ![PROTON DRIVE](assets/notext/13.webp) このオプションをクリックし、フォルダーに名前を付けます。 ![PROTON DRIVE](assets/notext/14.webp) すると、Proton Driveのホームページで直接見つけることができます。 ![PROTON DRIVE](assets/notext/15.webp) 最後に、「*New document*」を使うと、Proton Drive内に新しいテキストドキュメントを直接作成できます。 ![PROTON DRIVE](assets/notext/16.webp) それをクリックすると、新しい空白のドキュメントが開きます。 ![PROTON DRIVE](assets/notext/17.webp) それに書き込み、編集することができます。 ![PROTON DRIVE](assets/notext/18.webp) 右上にある「*Share*」ボタンをクリックすると、ドキュメントを共有できます。 ![PROTON DRIVE](assets/notext/19.webp) ドキュメントにアクセスを許可したい寄稿者のメールアドレスを入力するだけです。読み取り専用モードまたは編集権限で。 ![PROTON DRIVE](assets/notext/20.webp) Proton Driveに戻ると、ドキュメントが正常に保存されたことがわかります。 ![PROTON DRIVE](assets/notext/21.webp) 「*Shared*」タブでは、他の人と共有したドキュメントを見つけることができます。 ![PROTON DRIVE](assets/notext/22.webp) そして、「*Shared with me*」タブでは、他の人があなたと共有したドキュメントを見ることができます。 ![PROTON DRIVE](assets/notext/23.webp) 最後に、「*Trash*」タブでは、最近削除したドキュメントを見つけることができます。 ![PROTON DRIVE](assets/notext/24.webp) Proton Driveのほとんどの設定は、Protonアカウントに統合されています。アカウントの設定方法についての詳細な指示については、このチュートリアルを参照してください：
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Proton Driveソフトウェアのインストール方法は？
 Proton Driveは、ローカルファイルをオンラインストレージスペースと同期させるソフトウェアも提供しています。この機能は、3-2-1バックアップ戦略の実装を容易にし、自動化します。Proton Driveソフトウェアを使用すると、2つの同期されたファイルコピーを取得します：1つはコンピューター上に、もう1つはProtonのサーバー上にあり、これにより2つのメディアタイプとオフサイトバックアップの基準を満たします。後で設定する第3のコピーを作成するだけです。
@@ -80,4 +80,4 @@ Proton Driveと同期したいローカルファイルを選択してくださ�
 
 オンラインプレゼンスのセキュリティを強化し、ハッキングを避ける方法についてさらに学びたい場合は、Bitwardenパスワードマネージャーに関する詳細なチュートリアルもご覧ください：
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

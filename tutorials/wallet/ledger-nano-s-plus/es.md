@@ -49,7 +49,7 @@ Para este tutorial, necesitarás 2 aplicaciones de software: Ledger Live para in
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Para estos dos programas de software, recomiendo encarecidamente verificar tanto su autenticidad (con GnuPG) como su integridad (a través del hash) antes de instalarlos en tu máquina. Si no estás seguro de cómo hacer esto, puedes seguir este otro tutorial:
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## ¿Cómo inicializar un Ledger Nano?
 
@@ -145,7 +145,7 @@ La frase de paso no debe confundirse con el código PIN. Juega un papel en la de
 
 La frase de paso es una herramienta muy poderosa para mejorar la seguridad de tus bitcoins. Sin embargo, es muy importante entender cómo funciona antes de implementarla, para evitar perder acceso a tu billetera. Es por esto que te aconsejo consultar este otro tutorial dedicado si deseas configurar una frase de paso en tu Ledger:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 El menú "*Bloqueo PIN*" te permite configurar y activar el bloqueo automático de tu Ledger después de un período determinado de inactividad.
 
@@ -236,7 +236,7 @@ Te aconsejo que guardes esta contraseña en un gestor de contraseñas para que n
 Antes de recibir tus primeros bitcoins en tu monedero, **te aconsejo encarecidamente que realices una prueba de recuperación en seco**. Anota una pieza de información de referencia, como tu xpub, luego reinicia tu Ledger Nano mientras el monedero aún está vacío. Después, intenta restaurar tu monedero en el Ledger usando tus copias de seguridad en papel. Comprueba que el xpub generado después de la restauración coincide con el que inicialmente anotaste. Si es así, puedes estar seguro de que tus copias de seguridad en papel son fiables.
 Para aprender más sobre cómo realizar una prueba de recuperación, te aconsejo que consultes este otro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## ¿Cómo recibir bitcoins con el Ledger Nano?
 
@@ -266,7 +266,7 @@ Puedes añadir una "*Etiqueta*" para describir el origen de los bitcoins que ser
 
 Para más información sobre el etiquetado, también te aconsejo que consultes este otro tutorial:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Entonces puedes usar esta dirección para recibir bitcoins.
 
@@ -332,4 +332,4 @@ Si encontraste este tutorial útil, te agradecería mucho si pudieras dejar un p
 
 También te recomiendo que revises este tutorial completo sobre el Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

@@ -80,4 +80,4 @@ Akhirnya, menu "*Split tunneling*" memungkinkan Anda untuk memilih aplikasi spes
 Untuk mendapatkan gambaran umum tentang akun Mullvad Anda dan mengelola berbagai perangkat yang terhubung, Anda dapat mengklik pada menu "*Devices*" di situs web.
 ![MULLVAD VPN](assets/notext/37.webp)Dan dengan itu, Anda sekarang telah siap untuk sepenuhnya menikmati Mullvad VPN. Jika Anda tertarik untuk menemukan penyedia VPN lain yang serupa dengan Mullvad, baik dalam hal fitur maupun harga, saya juga merekomendasikan untuk melihat tutorial kami tentang IVPN:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

@@ -10,7 +10,7 @@ description: 如何使用物理安全密钥？
 
 在另一个教程中，我解释了如何设置和使用TOTP 2FA应用程序：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 在这里，我们将看到如何使用物理安全密钥作为所有账户的第二认证因素。
 

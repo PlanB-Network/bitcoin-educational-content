@@ -31,11 +31,11 @@ Green est une application particulièrement facile à utiliser, ce qui la rend i
 
 Blockstream Green prend également en charge le réseau Liquid, et c'est ce que nous allons découvrir dans ce tutoriel. Si vous souhaitez utiliser Green pour d'autres applications, je vous recommande de consulter également ces autres tutoriels :
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143-watch-only
 
 ## Installer et paramétrer l'application Blockstream Green
 
@@ -133,7 +133,7 @@ Et voilà, votre portefeuille Liquid a bien été créé à l'aide de l'applicat
 
 Avant de recevoir vos premiers bitcoins sur votre portefeuille Liquid, **je vous conseille vivement de réaliser un test de récupération à vide**. Notez une information de référence, telle que votre xpub ou la première adresse de réception, puis supprimez votre portefeuille sur l'application Green tant qu'il est encore vide. Ensuite, essayez de restaurer votre portefeuille sur Green en utilisant vos sauvegardes papier. Vérifiez que l'information témoin générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables. Pour en savoir plus sur comment effectuer un test de récupération, je vous conseille de consulter cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Paramétrer votre portefeuille Liquid
 
@@ -215,4 +215,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser 
 
 Je vous conseille également de découvrir cet autre tutoriel complet sur l'application mobile Blockstream Green pour mettre en place un portefeuille chaud Bitcoin onchain :
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

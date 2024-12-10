@@ -10,7 +10,7 @@ description: 物理セキュリティキーの使用方法
 
 別のチュートリアルでは、TOTP 2FAアプリケーションの設定と使用方法について説明しました：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ここでは、すべてのアカウントに対して二要素認証の第二の要素として物理セキュリティキーを使用する方法について見ていきます。
 

@@ -28,9 +28,9 @@ Bitrefill очень прост в использовании. Для откры
 ![BITREFILL](assets/notext/05.webp)
 Если вы хотите узнать, как легко создать безопасный почтовый ящик и как управлять своими паролями, я рекомендую проконсультироваться с этими 2 другими учебными пособиями:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Затем нажмите на кнопку "*Create account*".
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ https://planb.network/tutorials/others/bitwarden
 ![BITREFILL](assets/notext/13.webp)
 Чтобы узнать больше о том, как использовать двухфакторную аутентификацию для защиты ваших онлайн-аккаунтов, рекомендую ознакомиться с этим другим учебным пособием:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Как купить подарочную карту за BTC на Bitrefill?
 
@@ -88,4 +88,4 @@ https://planb.network/tutorials/others/authy
 
 Если вы хотите способствовать популяризации биткоина и поощрить независимого продавца принять этот метод оплаты, я рекомендую ознакомиться с нашим полным руководством по Swiss Bitcoin Pay. Это универсальное решение для процессоров оплаты BTC, легкое в установке и управлении на ежедневной основе:
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

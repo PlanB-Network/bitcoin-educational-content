@@ -26,10 +26,10 @@ description: Как предложить новое учебное пособи�
 - Иметь [профиль профессора на сети PlanB](https://planb.network/professors) (только если вы предлагаете полное учебное пособие).
 
 **Если вам нужна помощь в получении этих предварительных требований, мои другие учебные пособия помогут вам:**
-**[Понимание Git и GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Создание учетной записи GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Настройка вашей рабочей среды](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Создание профиля профессора](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Понимание Git и GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Создание учетной записи GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Настройка вашей рабочей среды](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Создание профиля профессора](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Какой тип контента писать на сети PlanB?
 Мы в первую очередь ищем учебные пособия по инструментам, связанным с Bitcoin или его экосистемой. Эти материалы могут быть организованы вокруг шести основных категорий:
 - Кошелек;

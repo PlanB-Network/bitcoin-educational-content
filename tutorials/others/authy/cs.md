@@ -52,7 +52,7 @@ Pro přidání nového zařízení jednoduše zopakujte instalační proces prez
 
 Pro nastavení 2FA autentizačního kódu přes aplikaci jako Authy na účtu, musí účet tuto funkci podporovat. V dnešní době většina online služeb nabízí tuto možnost 2FA, ale to ne vždy platí. Vezměme si jako příklad účet Proton mail, který jsem prezentoval v jiném tutoriálu:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![AUTHY 2FA](assets/notext/13.webp)
 Tuto možnost 2FA obvykle najdete v nastavení vašeho účtu, často pod záložkou "*Heslo*" nebo "*Zabezpečení*".
 ![AUTHY 2FA](assets/notext/14.webp)

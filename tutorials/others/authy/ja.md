@@ -52,7 +52,7 @@ Authyは、大手テクノロジー企業の他の解決策に比べていくつ
 
 Authyのようなアプリを介して2FA認証コードをアカウントに設定するには、そのアカウントがこの機能をサポートしている必要があります。現在、多くのオンラインサービスがこの2FAオプションを提供していますが、常にそうとは限りません。別のチュートリアルで紹介したProtonメールアカウントの例を取り上げましょう：
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![AUTHY 2FA](assets/notext/13.webp)
 通常、この2FAオプションはアカウントの設定内、多くの場合"*Password*"や"*Security*"セクションの下にあります。
 ![AUTHY 2FA](assets/notext/14.webp)

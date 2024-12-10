@@ -34,14 +34,14 @@ Ačkoli je vždy lepší rozumět tomu, co děláte (a proč), můžete jednodu�
 
 Pokud však nejste s prací s Git a GitHubem vůbec obeznámeni a chtěli byste se dozvědět více, můžete objevit náš úvodní článek o těchto nástrojích.
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 ## 1. Vytvořte účet
 * Vytvořte si účet na GitHubu, abyste mohli začít přispívat. Pokud potřebujete návod, jak si vytvořit účet na GitHubu, máme také podrobný tutoriál.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 ## **2. Přejděte na stránku projektu ve vašem jazyce**

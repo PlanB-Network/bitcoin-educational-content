@@ -16,7 +16,7 @@ Aplicar estos dos principios de seguridad de contraseñas (unicidad y robustez) 
 
 Un gestor de contraseñas genera y almacena de forma segura contraseñas fuertes, permitiéndote acceder a todas tus cuentas en línea sin la necesidad de memorizarlas individualmente. Solo necesitas recordar una contraseña, la contraseña maestra, que te da acceso a todas tus contraseñas guardadas en el gestor. Usar un gestor de contraseñas mejora tu seguridad en línea porque previene la reutilización de contraseñas y genera sistemáticamente contraseñas aleatorias. Pero también simplifica tu uso diario de tus cuentas centralizando el acceso a tu información sensible.
 En este tutorial, exploraremos cómo configurar y usar un gestor de contraseñas para mejorar tu seguridad en línea. Te presentaré a Bitwarden, y en otro tutorial, veremos otra solución llamada KeePass.
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Advertencia: Un gestor de contraseñas es excelente para almacenar contraseñas, pero **¡nunca debes almacenar la frase mnemotécnica de tu billetera de Bitcoin en él!** Recuerda, una frase mnemotécnica debe guardarse exclusivamente en un formato físico, como un pedazo de papel o metal.
 
@@ -68,9 +68,9 @@ Antes que nada, te aconsejo encarecidamente configurar la autenticación de dos 
 
 Si no estás seguro de cómo configurar y usar estos dispositivos 2FA, te recomiendo seguir estos otros 2 tutoriales:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Para hacer esto, ve a la pestaña "*Seguridad*" en el menú "*Configuración*".
 ![BITWARDEN](assets/notext/14.webp)

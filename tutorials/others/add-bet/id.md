@@ -12,7 +12,7 @@ Apakah Anda ingin berpartisipasi dalam memperkaya database ini, tetapi tidak tah
 
 *Penting bahwa semua konten yang diintegrasikan ke dalam situs bebas dari hak atau menghormati lisensi file sumber. Juga, semua visual yang dipublikasikan di Jaringan PlanB tersedia di bawah lisensi [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
-- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/create-github-account).
+- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Pergi ke [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) di bagian `resources/bet/`:
 ![event](assets/02.webp)
 - Klik di kanan atas pada tombol `Add file`, lalu pada `Create new file`:
@@ -41,7 +41,7 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: Tunjukkan pengenal organisasi Anda di Jaringan PlanB. Jika Anda belum memiliki pengenal "builder" untuk perusahaan Anda, Anda dapat membuatnya [dengan mengikuti tutorial ini](https://planb.network/tutorials/others/add-builder). Jika Anda tidak memilikinya, Anda dapat menggunakan nama Anda, pseudonim Anda, atau nama perusahaan Anda tanpa harus membuat profil builder.
+- **`builder`**: Tunjukkan pengenal organisasi Anda di Jaringan PlanB. Jika Anda belum memiliki pengenal "builder" untuk perusahaan Anda, Anda dapat membuatnya [dengan mengikuti tutorial ini](https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Jika Anda tidak memilikinya, Anda dapat menggunakan nama Anda, pseudonim Anda, atau nama perusahaan Anda tanpa harus membuat profil builder.
 - **`type`**: Pilih jenis konten Anda dari dua opsi berikut:
 	- `Educational Content` untuk konten pendidikan.
 	- `Visual Content` untuk jenis konten beragam lainnya.

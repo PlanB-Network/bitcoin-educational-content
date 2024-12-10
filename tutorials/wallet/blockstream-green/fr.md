@@ -14,7 +14,7 @@ Dans ce tutoriel, je vous propose de découvrir une des meilleures solutions de 
 
 Si vous souhaitez découvrir comment utiliser Blockstream Green en version ordinateur, je vous renvoie vers cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 ## Présentation de Blockstream Green
 
@@ -124,7 +124,7 @@ Et voilà, votre portefeuille Bitcoin a bien été créé à l'aide de l'applica
 
 Avant de recevoir vos premiers bitcoins sur votre portefeuille, **je vous conseille vivement de réaliser un test de récupération à vide**. Notez une information de référence, telle que votre xpub ou la première adresse de réception, puis supprimez votre portefeuille sur l'application Green tant qu'il est encore vide. Ensuite, essayez de restaurer votre portefeuille sur Green en utilisant vos sauvegardes papier. Vérifiez que l'information témoin générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables. Pour en savoir plus sur comment effectuer un test de récupération, je vous conseille de consulter cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Paramétrer votre portefeuille sur Blockstream Green
 

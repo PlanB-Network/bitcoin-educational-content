@@ -161,4 +161,4 @@ Wenn Sie dieses Tutorial hilfreich fanden, würde ich mich über ein Daumen hoch
 
 Ich empfehle auch, dieses andere Tutorial über VeraCrypt zu lesen, eine Software, die es Ihnen ermöglicht, Speichergeräte zu verschlüsseln und zu entschlüsseln.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

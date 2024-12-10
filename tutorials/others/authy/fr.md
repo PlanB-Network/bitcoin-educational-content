@@ -55,7 +55,7 @@ Pour ajouter un nouvel appareil, répétez simplement le processus d'installatio
 
 Pour mettre en place un code d'authentification 2FA via une application comme Authy sur un compte, celui-ci doit supporter cette fonctionnalité. De nos jours, la majorité des services en ligne proposent cette option de 2FA, mais ce n'est pas toujours le cas. Prenons l'exemple de la boîte mail Proton que j'ai présentée dans un autre tutoriel :
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![AUTHY 2FA](assets/notext/13.webp)
 Vous trouverez généralement cette option de 2FA dans les paramètres de votre compte, souvent sous la section "*Password*" ou "*Security*".
 ![AUTHY 2FA](assets/notext/14.webp)

@@ -33,7 +33,7 @@ Velg også brukernavnet for din e-postadresse.
 
 Du blir deretter bedt om å sette et passord. Det er viktig å velge et sterkt passord på dette stadiet, da det vil tillate tilgang til din postkasse. Et robust passord bør være så langt som mulig, bruke et bredt utvalg av tegn, og velges tilfeldig. I 2024 er de minimumsanbefalingene for et sikkert passord 13 tegn inkludert tall, små og store bokstaver, samt symboler, forutsatt at passordet er virkelig tilfeldig. Imidlertid anbefaler jeg å velge et passord på minst 20 tegn, inkludert alle mulige typer tegn, for å sikre dets sikkerhet lenger.
 Bruken av en passordbehandler er en utmerket praksis. Ikke bare lar det deg lagre passordene dine sikkert uten å måtte huske dem, men det kan også generere lange og tilfeldige passord for deg. Mennesker er faktisk veldig dårlige til å skape tilfeldige sekvenser, og et passord som ikke er tilfeldig nok kan være sårbart for brute force-angrep. Jeg anbefaler også å konsultere vår komplette veiledning om oppsett av en passordbehandler for flere detaljer om dette emnet:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Klikk på "*Opprett konto*" knappen.
 

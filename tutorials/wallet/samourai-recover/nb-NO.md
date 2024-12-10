@@ -29,10 +29,10 @@ På den andre siden er noen verktøy enten påvirket av servernedleggelsen eller
 Når det gjelder individuelle utgiftsverktøy, fungerer alt normalt forutsatt, selvfølgelig, at du har din egen Dojo. Normale Stonewall-transaksjoner (og ikke Stonewall x2) fungerer uten problemer.
 
 Kommentarer på Twitter har fremhevet at personvernet som tilbys av en Stonewall-transaksjon nå kan være redusert. Den tilleggsverdien av en Stonewall-transaksjon ligger i det faktum at den er uatskillelig fra en Stonewall x2-transaksjon når det gjelder struktur. Når en analytiker støter på dette spesifikke mønsteret, kan de ikke bestemme om det er en standard Stonewall med en enkelt bruker eller en Stonewall x2 som involverer to brukere. Imidlertid, som vi vil se i de følgende avsnittene, har gjennomføringen av Stonewall x2-transaksjoner blitt mer kompleks på grunn av utilgjengeligheten av Soroban. Noen tror derfor at en analytiker nå kan anta at enhver transaksjon med denne strukturen er en normal Stonewall. Personlig deler jeg ikke denne antagelsen. Selv om Stonewall x2-transaksjoner kan være mindre hyppige (og jeg tror de allerede var det før denne hendelsen), er det faktum at de fortsatt er mulige nok til å ugyldiggjøre en hel analyse basert på antagelsen om at de ikke er det.
-**[-> Lær mer om Stonewall-transaksjoner.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> Lær mer om Stonewall-transaksjoner.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Når det gjelder Ricochet, har jeg ikke vært i stand til å verifisere om tjenesten fortsatt er operativ, på grunn av at jeg ikke eier en Dojo på Testnet, og jeg foretrekker å ikke risikere å bruke `100 000 sats` mot en lommebok som kunne være kontrollert av myndighetene. Hvis du har hatt muligheten til å teste dette verktøyet nylig, inviterer jeg deg til å kontakte meg slik at vi kan oppdatere denne artikkelen.
 
-Hvis du trenger å bruke Ricochet, vær oppmerksom på at du alltid kan utføre denne operasjonen manuelt med hvilken som helst lommebokprogramvare. For å lære hvordan du manuelt utfører de forskjellige hoppene på riktig måte, anbefaler jeg å konsultere denne andre artikkelen: [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+Hvis du trenger å bruke Ricochet, vær oppmerksom på at du alltid kan utføre denne operasjonen manuelt med hvilken som helst lommebokprogramvare. For å lære hvordan du manuelt utfører de forskjellige hoppene på riktig måte, anbefaler jeg å konsultere denne andre artikkelen: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 JoinBot-verktøyet er ikke lenger operativt, da det var helt avhengig av deltakelsen fra en lommebok forvaltet av Samourai.
 
@@ -43,9 +43,9 @@ Når det gjelder andre typer samarbeidstransaksjoner, ofte referert til som "cah
 Etter flere tester viser det seg at Soroban ikke lenger fungerer. For å utføre disse samarbeidstransaksjonene må datautvekslingen derfor gjøres manuelt. Her er to alternativer for å utføre denne utvekslingen:
 - Hvis du fysisk er nær din samarbeidspartner, kan du skanne QR-kodene etter hverandre;
 - Hvis du er langt unna din samarbeidspartner, kan dere utveksle PSBT-ene via en ekstern kommunikasjonskanal til applikasjonen. Men vær forsiktig, da dataene som er inneholdt i disse PSBT-ene er sensitive med tanke på personvern. Jeg anbefaler å bruke en kryptert meldingstjeneste for å sikre konfidensialiteten til utvekslingen.
-**[-> Lær mer om Stonewall x2-transaksjoner.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> Lær mer om Stonewall x2-transaksjoner.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
 
-**[-> Lær mer om Stowaway-transaksjoner.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> Lær mer om Stowaway-transaksjoner.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Når det gjelder Whirlpool, ser protokollen ikke ut til å fungere lenger, selv for brukere som har sin egen Dojo. Jeg har overvåket min RoninDojo de siste dagene og forsøkt noen grunnleggende manipulasjoner, men Whirlpool CLI har ikke klart å koble til siden servernedleggelsen.
 
@@ -145,7 +145,7 @@ Hvis du bruker en annen programvare enn Sparrow, som Electrum, for å gjenoppret
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Du har nå tilgang til dine bitcoins på Sparrow. Hvis du trenger hjelp med å bruke Sparrow Wallet, kan du også sjekke ut [vår dedikerte opplæring](https://planb.network/tutorials/wallet/sparrow).
+Du har nå tilgang til dine bitcoins på Sparrow. Hvis du trenger hjelp med å bruke Sparrow Wallet, kan du også sjekke ut [vår dedikerte opplæring](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Jeg anbefaler også å manuelt importere etikettene du hadde assosiert med dine UTXOer på Samourai. Dette vil tillate deg å utføre effektiv myntkontroll på Sparrow etterpå.
 
@@ -201,7 +201,7 @@ Hvis du bruker en annen programvare som Electrum for å gjenopprette din Samoura
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Du har nå tilgang til dine bitcoins på Sparrow. Hvis du trenger hjelp med å bruke Sparrow Wallet, kan du også konsultere [vår dedikerte opplæring](https://planb.network/tutorials/wallet/sparrow).
+Du har nå tilgang til dine bitcoins på Sparrow. Hvis du trenger hjelp med å bruke Sparrow Wallet, kan du også konsultere [vår dedikerte opplæring](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Jeg anbefaler også manuelt å importere etikettene du hadde assosiert med dine UTXOs på Samourai. Dette vil tillate deg å utføre effektiv myntkontroll på Sparrow etterpå.
 
@@ -303,7 +303,7 @@ På den annen side, hvis personvernet til myntene dine vis-à-vis myndigheten po
 
 Jeg spesifiserer "vis-à-vis myndigheten" fordi det er viktig å huske på at kun myndigheten som beslagla serverne potensielt er klar over disse xpubs. Hvis målet ditt med å bruke coinjoin var å forhindre at bakeren din kunne følge pengene dine, da er han ikke bedre informert enn før serverbeslaget.
 Til slutt er det essensielt å vurdere den opprinnelige anonseten til mynten din, før serverbeslagleggelsen. La oss ta eksempelet med en mynt som hadde nådd en forventet anonset på 40 000; den potensielle reduksjonen i denne anonseten er sannsynligvis ubetydelig. Faktisk, med en allerede veldig høy grunnleggende anonset, er det usannsynlig at tilstedeværelsen av noen få brukere uten Dojo kunne radikalt endre situasjonen. Imidlertid, hvis mynten din hadde en anonset på 40, så kunne denne potensielle lekkasjen alvorlig påvirke dine anonseter og potensielt tillate sporing. Med WST-verktøyet nå ute av tjeneste etter nedleggelsen av OXT.me, kan du bare estimere disse anonsetene. For den retrospektive anonseten, er det ikke så mye å bekymre seg for siden Whirlpool-modellen sikrer at den er veldig høy fra den første coinjoin, takket være arven fra dine jevnaldrende. Det eneste tilfellet hvor dette kunne utgjøre et problem er hvis mynten din ikke har blitt remixet på flere år og den ble blandet i begynnelsen av en pools lansering. Når det gjelder den forventede anonseten, kan du undersøke varigheten mynten din har vært tilgjengelig for coinjoins. Hvis det har vært flere måneder, så har den sannsynligvis en ekstremt høy forventet anonset. Omvendt, hvis den ble lagt til i en pool bare noen timer før serverne ble beslaglagt, så er dens forventede anonset sannsynligvis veldig lav.
-[**-> Lær mer om anonseter og deres beregningsmetode.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> Lær mer om anonseter og deres beregningsmetode.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Et annet aspekt å vurdere er effekten av konsolideringer på anonsetene til mynter som har blitt blandet. Gitt at Whirlpool-kontoer ikke lenger er tilgjengelige via Samourai-appen, er det sannsynlig at mange brukere har overført lommeboken sin til annen programvare og forsøkt å ta ut midlene sine fra Whirlpool. Spesielt sist helg, da transaksjonsgebyrene på Bitcoin-nettverket var relativt høye, var det en sterk teknisk og økonomisk insentiv til å konsolidere post-mix mynter. Dette betyr at det er sannsynlig at mange brukere har gjort betydelige konsolideringer.
 

@@ -20,7 +20,7 @@ The first step is to check if your language is not already among those we are wo
 ![language](assets/02.webp)
 If your language is in this list, you do not need to add it again. To contribute to an existing language, we have made another tutorial that you can discover.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -30,7 +30,7 @@ If your language is not there, follow the tutorial below to add it.
 
 - The first step is to create an account on Weblate. If you do not know how to do this, you can follow our detailed guide.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 - Once your account is created, go to the `Website frontend element` menu and select the `Languages` tab:
@@ -48,7 +48,7 @@ To be guided through the translation process, check out our dedicated tutorial o
 
 Congratulations, you have initiated the process of translating the PlanB Network site into a new language! You can begin by translating the entire frontend via Weblate.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
  This includes all the texts on the website, except for educational content (courses, tutorials...) for which we use another semi-automated Humans x AI method.
 

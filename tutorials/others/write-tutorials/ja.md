@@ -26,10 +26,10 @@ PlanB Networkに貢献するためには、GitHubに関する経験レベルに�
 - [PlanB Network上での教授プロファイル](https://planb.network/professors)を持っている（完全なチュートリアルを提案する場合のみ）。
 
 **これらの前提条件を得るために助けが必要な場合、私の他のチュートリアルがガイドします：**
-**[GitとGitHubの理解](https://planb.network/tutorials/others/basics-of-github)**
-**[GitHubアカウントの作成](https://planb.network/tutorials/others/create-github-account)**
-**[作業環境の設定](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[教授プロファイルの作成](https://planb.network/tutorials/others/create-teacher-profile)**
+**[GitとGitHubの理解](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[GitHubアカウントの作成](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[作業環境の設定](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[教授プロファイルの作成](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## PlanB Networkにどのようなコンテンツを書くか？
 私たちは主に、Bitcoinまたはそのエコシステムに関連するツールに関するチュートリアルを求めています。これらのコンテンツは、以下の六つの主要なカテゴリーに沿って整理することができます：
 - ウォレット；

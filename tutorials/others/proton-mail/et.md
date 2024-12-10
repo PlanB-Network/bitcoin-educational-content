@@ -33,7 +33,7 @@ Samuti vali oma e-posti aadressile kasutajanimi.
 
 Seejärel palutakse sul seada parool. Selles etapis on oluline valida tugev parool, kuna see võimaldab juurdepääsu sinu postkastile. Tugev parool peaks olema võimalikult pikk, kasutama laia valikut tähemärke ja olema valitud juhuslikult. 2024. aasta minimaalsed soovitused turvalise parooli jaoks on 13 tähemärki, sealhulgas numbrid, väiketähed ja suurtähed ning sümbolid, eeldusel, et parool on tõeliselt juhuslik. Siiski soovitan valida vähemalt 20-tähemärgilise parooli, mis sisaldab kõiki võimalikke tähemärkide tüüpe, et tagada selle turvalisus pikemaks ajaks.
 Paroolihalduri kasutamine on suurepärane praktika. See mitte ainult ei võimalda teil oma paroole turvaliselt salvestada, ilma et peaksite neid meelde jätma, vaid see võib teie jaoks genereerida ka pikki ja juhuslikke paroole. Inimesed on tõepoolest väga halvad juhuslike jadade loomisel ja piisavalt juhuslik mitteolev parool võib olla haavatav jõuga murdmise rünnakutele. Soovitan samuti tutvuda meie täieliku juhendiga paroolihalduri seadistamise kohta, et saada sellel teemal rohkem üksikasju:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Klõpsake nupul "*Loo konto*".
 

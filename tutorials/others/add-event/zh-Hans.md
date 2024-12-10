@@ -8,7 +8,7 @@ PlanB的使命是以尽可能多的语言提供关于比特币的顶级教育资
 
 如果你想在PlanB Network网站上添加一个比特币会议，以增加你活动的可见性，但不知道如何操作？这个教程就是为你准备的！
 ![event](assets/01.webp)
-- 首先，你需要在GitHub上拥有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/create-github-account)。
+- 首先，你需要在GitHub上拥有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 - 前往[PlanB专门用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference)的`resources/conference/`部分：
 ![event](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：
@@ -78,7 +78,7 @@ PlanB的使命是以尽可能多的语言提供关于比特币的顶级教育资
     - 国际
 ```
 ![活动](assets/09.webp)
-如果您的组织还没有一个“*构建者*”标识符，您可以[按照这个教程添加](https://planb.network/tutorials/others/add-builder)。
+如果您的组织还没有一个“*构建者*”标识符，您可以[按照这个教程添加](https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d)。
 
 - 完成对此文件的修改后，点击 `Commit changes...` 按钮保存更改：
 ![活动](assets/10.webp)

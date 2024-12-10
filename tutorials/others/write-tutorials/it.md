@@ -26,10 +26,10 @@ Per contribuire al PlanB Network, hai 3 opzioni a seconda del tuo livello di esp
 - Avere [un profilo professore su PlanB Network](https://planb.network/professors) (solo se stai proponendo un tutorial completo).
 
 **Se hai bisogno di aiuto per ottenere questi prerequisiti, i miei altri tutorial ti guideranno:**
-**[Comprendere Git e GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Creare un account GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Configurare il tuo ambiente di lavoro](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Creare un profilo professore](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Comprendere Git e GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Creare un account GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Configurare il tuo ambiente di lavoro](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Creare un profilo professore](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Che tipo di contenuto scrivere su PlanB Network?
 Siamo principalmente alla ricerca di tutorial su strumenti relativi a Bitcoin o al suo ecosistema. Questi contenuti possono essere organizzati attorno a sei categorie principali:
 - Wallet;

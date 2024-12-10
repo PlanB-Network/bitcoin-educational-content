@@ -80,4 +80,4 @@ Lõpuks võimaldab menüü "*Jagatud tunnelimine*" valida konkreetseid rakendusi
 Ülevaate saamiseks oma Mullvad kontost ja erinevate ühendatud seadmete haldamiseks võite klõpsata veebisaidil menüül "*Seadmed*".
 Ja ongi kõik, nüüd olete valmis täielikult nautima Mullvad VPN-i. Kui olete huvitatud teise VPN-i pakkujaga tutvumisest, mis on sarnane Mullvadiga nii omaduste kui ka hinnastamise poolest, soovitan teil vaadata ka meie õpetust IVPN kohta:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

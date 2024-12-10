@@ -16,7 +16,7 @@ Aplicar esses dois princípios de segurança de senha (unicidade e robustez) pod
 
 Um gerenciador de senhas gera e armazena de forma segura senhas fortes, permitindo que você acesse todas as suas contas online sem a necessidade de memorizá-las individualmente. Você só precisa lembrar de uma senha, a senha mestre, que lhe dá acesso a todas as suas senhas salvas no gerenciador. Usar um gerenciador de senhas aumenta sua segurança online porque impede a reutilização de senhas e gera sistematicamente senhas aleatórias. Mas também simplifica o uso diário de suas contas centralizando o acesso às suas informações sensíveis.
 Neste tutorial, aprenderemos como configurar e usar um gerenciador de senhas local para melhorar sua segurança online. Aqui, vou apresentá-lo ao KeePass. No entanto, se você é iniciante e gostaria de ter um gerenciador de senhas online capaz de sincronizar entre vários dispositivos, recomendo seguir nosso tutorial sobre o Bitwarden:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -106,7 +106,7 @@ O software criará um novo banco de dados onde suas senhas serão armazenadas. V
 ![KEEPASS](assets/notext/16.webp)
 Depois, você deve pensar em fazer backup regularmente desta pasta para evitar perder suas credenciais em caso de perda, dano ou roubo do seu computador. Por exemplo, você poderia copiar o banco de dados para um pendrive toda semana. O arquivo contendo seu banco de dados é nomeado `Database.kdbx` (o documento é criptografado com sua senha mestra). Para mais conselhos sobre as melhores práticas de backup, recomendo também consultar este outro tutorial:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 A seguir, vem a escolha da sua senha mestra.
 ![KEEPASS](assets/notext/17.webp)
@@ -150,4 +150,4 @@ Isso cobre as funcionalidades básicas do KeePass. Claro, este tutorial voltado 
 
 Se você estiver interessado em aprender como melhorar drasticamente a segurança de suas contas online para evitar hacking com 2FA, também recomendo conferir este outro tutorial:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

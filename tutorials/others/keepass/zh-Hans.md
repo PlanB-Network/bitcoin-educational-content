@@ -16,7 +16,7 @@ description: 如何设置一个本地密码管理器？
 
 密码管理器生成并安全存储强密码，使你能够访问所有在线账户而无需单独记住它们。你只需要记住一个密码，即主密码，它让你能够访问管理器中保存的所有密码。使用密码管理器可以增强你的在线安全，因为它防止了密码的重复使用，并系统地生成随机密码。但它也通过集中访问你的敏感信息简化了你的账户日常使用。
 在本教程中，我们将学习如何设置和使用本地密码管理器来增强你的在线安全。这里，我将向你介绍KeePass。然而，如果你是初学者，并希望拥有一个能够在多个设备之间同步的在线密码管理器，我推荐你跟随我们关于Bitwarden的教程：
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -105,7 +105,7 @@ mono KeePass.exe
 ![KEEPASS](assets/notext/16.webp)
 之后，您应该考虑定期备份此文件夹，以避免因计算机丢失、损坏或被盗而丢失您的凭据。例如，您可以每周将数据库复制到USB闪存驱动器上。包含您数据库的文件名为`Database.kdbx`（该文档用您的主密码加密）。为了更多关于备份最佳实践的建议，我还推荐咨询这个其他教程：
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 接下来是您主密码的选择。
 ![KEEPASS](assets/notext/17.webp)
@@ -149,4 +149,4 @@ https://planb.network/tutorials/others/proton-drive
 
 如果您有兴趣学习如何通过2FA大幅提高在线账户的安全性以避免黑客攻击，我还推荐查看这个其他教程：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

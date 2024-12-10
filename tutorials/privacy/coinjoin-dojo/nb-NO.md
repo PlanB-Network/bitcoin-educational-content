@@ -64,7 +64,7 @@ Whirlpool ble designet med tanke på to viktige krav:
 Disse imperativene veiledet utviklerne av Samourai Wallet i designet av Whirlpool, noe som førte dem til å begrense antallet deltakere per syklus. For få deltakere ville ha kompromittert effektiviteten av coinjoin, drastisk redusert anonsets generert hver syklus, mens for mange deltakere ville ha utgjort forvaltningsproblemer på mobile applikasjoner og ville ha hindret flyten av sykluser.
 **Til syvende og sist er det ikke nødvendig å ha et høyt antall deltakere per coinjoin på Whirlpool siden anonsets oppnås gjennom akkumulering av flere coinjoin-sykluser.**
 
-[-> Lær mer om Whirlpool anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Lær mer om Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Poolene og coinjoin-avgifter
 For at disse flere syklusene effektivt skal øke anonsets av de blandete myntene, må et visst rammeverk etableres for å begrense mengdene av UTXO som brukes. Whirlpool definerer dermed forskjellige pooler.
@@ -255,7 +255,7 @@ I neste trinn vil du få tilgang til siden dedikert til å konfigurere din Dojo.
 
 ![coinjoin](assets/notext/24.webp)
 
-*For nye brukere av Samourai, vil det deretter være nødvendig å opprette en lommebok fra bunnen av. Hvis du trenger assistanse, kan du konsultere instruksjonene for å sette opp en ny Samourai lommebok [i denne veiledningen, spesifikt i seksjonen "Opprette en programvarelommebok"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*For nye brukere av Samourai, vil det deretter være nødvendig å opprette en lommebok fra bunnen av. Hvis du trenger assistanse, kan du konsultere instruksjonene for å sette opp en ny Samourai lommebok [i denne veiledningen, spesifikt i seksjonen "Opprette en programvarelommebok"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 Hvis du fortsetter med gjenopprettingen av en allerede eksisterende Samourai-lommebok, velg `Gjenopprett eksisterende lommebok`, deretter velger du `Jeg har en Samourai sikkerhetskopi-fil`.
 ![coinjoin](assets/notext/25.webp)
 Normalt bør du alltid ha gjenopprettingsfilen din i utklippstavlen. Klikk deretter på `LIM INN` for å sette inn filen din på det angitte stedet. For å dekryptere den, vil det også være nødvendig å angi BIP39-passfrasen til lommeboken din i det tilsvarende feltet, som er plassert rett nedenfor. For å fullføre, klikk på `FERDIG`.
@@ -360,4 +360,4 @@ Dine blandete UTXOer er synlige fra **Postmix**-kontoen på Whirlpool GUI. I til
 Whirlpool-kontoer er lett gjenkjennelige på Samourai Wallet ved deres blå farge. Dette lar deg bruke dine blandete UTXOer fra hvor som helst og når som helst, direkte fra smarttelefonen din.
 
 ![coinjoin](assets/notext/53.webp)
-For å holde oversikt over dine automatiske coinjoins, anbefaler jeg også å sette opp en se-kun lommebok via Sentinel-appen. Legg til ZPUB-en til din **Postmix**-konto og overvåk fremgangen til dine coinjoin-sykluser i sanntid. Hvis du ønsker å forstå hvordan du bruker Sentinel, anbefaler jeg å konsultere denne andre opplæringen på PlanB Network: [**SENTINEL SE-KUN**](https://planb.network/tutorials/wallet/sentinel)
+For å holde oversikt over dine automatiske coinjoins, anbefaler jeg også å sette opp en se-kun lommebok via Sentinel-appen. Legg til ZPUB-en til din **Postmix**-konto og overvåk fremgangen til dine coinjoin-sykluser i sanntid. Hvis du ønsker å forstå hvordan du bruker Sentinel, anbefaler jeg å konsultere denne andre opplæringen på PlanB Network: [**SENTINEL SE-KUN**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

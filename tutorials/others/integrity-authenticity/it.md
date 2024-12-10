@@ -161,4 +161,4 @@ Se hai trovato utile questo tutorial, apprezzerei un pollice in su qui sotto. Se
 
 Raccomando anche di dare un'occhiata a questo altro tutorial su VeraCrypt, un software che ti permette di criptare e decriptare dispositivi di memorizzazione.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

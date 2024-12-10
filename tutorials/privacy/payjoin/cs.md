@@ -41,8 +41,8 @@ Při pohledu na tuto transakci na blockchainu by vnější pozorovatel, který s
 ![Nesprávná interpretace transakce Payjoin zvenčí](assets/en/3.webp)
 Tato interpretace je samozřejmě nesprávná, protože, jak již víte, dva vstupní UTXO nepatří téže osobě. Navíc skutečná hodnota platby není `19,000 sats`, ale spíše `4,000 sats`. Analýza vnějšího pozorovatele je tedy směrována k nesprávnému závěru, čímž je zajištěno zachování důvěrnosti zúčastněných stran.![diagram transakce Payjoin](assets/en/1.webp)
 Pokud si přejete analyzovat skutečnou transakci Payjoin, zde je jedna, kterou jsem provedl na testnetu: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
-[**-> Objevte náš tutoriál, jak provést Payjoin s peněženkou Samourai**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  
-[**-> Objevte náš tutoriál, jak provést Payjoin s peněženkou Sparrow**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+[**-> Objevte náš tutoriál, jak provést Payjoin s peněženkou Samourai**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
+[**-> Objevte náš tutoriál, jak provést Payjoin s peněženkou Sparrow**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 **Externí zdroje:**
 - https://docs.samourai.io/en/spend-tools#stowaway;

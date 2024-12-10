@@ -52,7 +52,7 @@ Para adicionar um novo dispositivo, basta repetir o processo de instalação apr
 
 Para configurar um código de autenticação 2FA via um aplicativo como o Authy em uma conta, a conta deve suportar esse recurso. Atualmente, a maioria dos serviços online oferece essa opção de 2FA, mas nem sempre é o caso. Vamos tomar o exemplo da conta de Proton Mail que apresentei em outro tutorial:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![AUTHY 2FA](assets/notext/13.webp)
 Você geralmente encontrará essa opção de 2FA nas configurações da sua conta, muitas vezes sob a seção "*Senha*" ou "*Segurança*".
 ![AUTHY 2FA](assets/notext/14.webp)

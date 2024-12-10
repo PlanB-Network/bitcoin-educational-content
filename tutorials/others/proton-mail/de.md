@@ -33,7 +33,7 @@ Wählen Sie auch den Benutzernamen für Ihre E-Mail-Adresse.
 
 Dann werden Sie aufgefordert, ein Passwort festzulegen. Es ist wichtig, in diesem Stadium ein starkes Passwort zu wählen, da es den Zugang zu Ihrem Postfach ermöglicht. Ein robustes Passwort sollte so lang wie möglich sein, eine breite Vielfalt von Zeichen verwenden und zufällig gewählt werden. Im Jahr 2024 sind die Mindestempfehlungen für ein sicheres Passwort 13 Zeichen, einschließlich Zahlen, Klein- und Großbuchstaben sowie Symbole, vorausgesetzt, das Passwort ist wirklich zufällig. Ich empfehle jedoch, ein Passwort von mindestens 20 Zeichen zu wählen, das alle möglichen Arten von Zeichen enthält, um seine Sicherheit länger zu gewährleisten.
 Die Verwendung eines Passwort-Managers ist eine ausgezeichnete Praxis. Er ermöglicht es Ihnen nicht nur, Ihre Passwörter sicher zu speichern, ohne sie sich merken zu müssen, sondern er kann auch lange und zufällige Passwörter für Sie generieren. Menschen sind tatsächlich sehr schlecht darin, zufällige Sequenzen zu erstellen, und ein Passwort, das nicht zufällig genug ist, kann anfällig für Brute-Force-Angriffe sein. Ich empfehle auch, unser vollständiges Tutorial zur Einrichtung eines Passwort-Managers für weitere Details zu diesem Thema zu konsultieren:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Klicken Sie auf den Button "*Konto erstellen*".
 

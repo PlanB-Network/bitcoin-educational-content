@@ -113,8 +113,8 @@ In the "*AntiTracker*" menu, select the blocking profile for your anti-tracker. 
 ![IVPN](assets/notext/32.webp)
 And there you have it, you are now equipped to fully enjoy IVPN. If you also want to enhance the security of your online accounts by using a local password manager, I invite you to check out our tutorial on KeePass, a free and open-source solution:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 If you are interested in discovering another VPN provider similar to IVPN, both in terms of features and pricing, I also recommend checking out our tutorial on Mullvad:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

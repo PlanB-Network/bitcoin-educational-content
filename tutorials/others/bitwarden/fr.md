@@ -18,7 +18,7 @@ Un gestionnaire de mots de passe génère et stocke de manière sécurisée des 
 
 Dans ce tutoriel, nous allons découvrir comment configurer et utiliser un gestionnaire de mots de passe pour améliorer votre sécurité en ligne. Je vous propose ici d'étudier Bitwarden, et dans un autre tutoriel, nous découvrirons une autre solution appelée KeePass.
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Attention : Un gestionnaire de mots de passe, c'est très bien pour enregistrer les mots de passe, mais **il ne faut surtout pas y enregistrer la phrase mnémonique de votre portefeuille Bitcoin !** Pour rappel, une phrase mnémonique doit être sauvegardée exclusivement sous un format physique, comme un bout de papier ou de métal.
 
@@ -73,9 +73,9 @@ Avant toute chose, je vous conseille fortement de mettre en place l'authentifica
 
 Si vous ne savez pas comment mettre en place et utiliser ces dispositifs de 2FA, je vous conseille de suivre ces 2 autres tutoriels :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Pour ce faire, allez dans l'onglet "*Security*" dans le menu "*Settings*".
 ![BITWARDEN](assets/notext/14.webp)

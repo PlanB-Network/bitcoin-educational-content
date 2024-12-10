@@ -35,4 +35,4 @@ Cũng quan trọng là phải lưu trữ cụm từ bí mật này một cách �
 
 Để thiết lập một cụm từ bí mật trên thiết bị Ledger (Stax, Flex, hoặc Nano), bạn có thể tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49

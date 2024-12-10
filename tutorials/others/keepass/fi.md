@@ -16,7 +16,7 @@ Näiden kahden salasanaturvallisuuden periaatteen (uniikkius ja vahvuus) sovelta
 
 Salasanojen hallintaohjelma luo ja tallentaa turvallisesti vahvoja salasanoja, mahdollistaen pääsyn kaikkiin verkkotileihisi ilman, että sinun tarvitsee muistaa niitä yksitellen. Sinun tarvitsee muistaa vain yksi salasana, pääsalasana, joka antaa sinulle pääsyn kaikkiin tallennettuihin salasanoihisi hallintaohjelmassa. Salasanojen hallintaohjelman käyttö parantaa verkkoturvallisuuttasi, koska se estää salasanojen uudelleenkäytön ja luo systemaattisesti satunnaisia salasanoja. Mutta se myös yksinkertaistaa päivittäistä tilien käyttöäsi keskittämällä pääsyn arkaluonteisiin tietoihisi.
 Tässä oppaassa opimme, kuinka perustaa ja käyttää paikallista salasanojen hallintaohjelmaa parantaaksemme verkkoturvallisuuttamme. Tässä esittelen sinulle KeePassin. Jos kuitenkin olet aloittelija ja haluaisit käyttää verkkopohjaista salasanojen hallintaohjelmaa, joka pystyy synkronoimaan useiden laitteiden välillä, suosittelen seuraamaan opastamme Bitwardenista:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -105,7 +105,7 @@ Ohjelmisto luo uuden tietokannan, johon salasanasi tallennetaan. Sinun on valitt
 ![KEEPASS](assets/notext/16.webp)
 Tämän jälkeen sinun tulisi harkita tämän kansion säännöllistä varmuuskopiointia, jotta et menetä tunnisteitasi tietokoneesi katoamisen, vahingoittumisen tai varkauden sattuessa. Voisit esimerkiksi kopioida tietokannan USB-tikulle joka viikko. Tietokantaasi sisältävä tiedosto on nimeltään `Database.kdbx` (asiakirja on salattu pääsalasanallasi). Parhaiden varmuuskopiointikäytäntöjen osalta suosittelen myös tämän toisen oppaan konsultointia:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Seuraavaksi tulee pääsalasanasi valinta.
 ![KEEPASS](assets/notext/17.webp)
@@ -149,4 +149,4 @@ Tämä kattaa KeePassin perusominaisuudet. Tietenkin tämä aloittelijoille suun
 
 Jos olet kiinnostunut oppimaan, kuinka voit merkittävästi parantaa online-tiliesi turvallisuutta välttääksesi hakkeroinnin 2FA:n avulla, suosittelen myös tutustumaan tähän toiseen oppaaseen:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

@@ -34,11 +34,11 @@ En ce qui concerne les outils de dépense individuels, tout fonctionne normaleme
 
 Des commentaires sur Twitter ont souligné que la confidentialité offerte par une transaction Stonewall pourrait désormais être réduite. La valeur ajoutée d'une transaction Stonewall réside dans le fait qu'elle est indistinguable d'une transaction Stonewall x2 en termes de structure. Lorsqu'un analyste rencontre ce pattern spécifique, il ne peut pas déterminer s'il s'agit d'un Stonewall standard avec un seul utilisateur ou d'un Stonewall x2 impliquant deux utilisateurs. Cependant, comme nous le verrons dans les paragraphes suivants, réaliser des transactions Stonewall x2 est devenu plus complexe en raison de l'indisponibilité de Soroban. Certains pensent donc qu'un analyste pourrait maintenant supposer que toute transaction avec cette structure est un Stonewall normal. Personnellement, je ne partage pas cette hypothèse. Bien que les transactions Stonewall x2 soient peut-être moins fréquentes (et je pense qu'elles l'étaient déjà avant cet incident), le fait qu'elles soient toujours possibles peut invalider toute une analyse basée sur l'assomption qu'elles ne le sont pas.
 
-**[-> En savoir plus sur les transactions Stonewall.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> En savoir plus sur les transactions Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 Pour ce qui est de Ricochet, je n'ai pas pu vérifier si le service était encore opérationnel, faute de posséder un Dojo sur le Testnet, et je préfère ne pas risquer de dépenser `100 000 sats` vers un portefeuille qui pourrait être contrôlé par les autorités. Si vous avez eu l'occasion de tester cet outil récemment, je vous invite à me contacter afin que nous puissions mettre à jour cet article.
 
-Si vous avez besoin d'utiliser Ricochet, sachez que vous pouvez toujours réaliser cette opération manuellement avec n'importe quel logiciel de portefeuille. Pour apprendre comment effectuer manuellement les différents hops proprement, je vous recommande de consulter cet autre article : [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+Si vous avez besoin d'utiliser Ricochet, sachez que vous pouvez toujours réaliser cette opération manuellement avec n'importe quel logiciel de portefeuille. Pour apprendre comment effectuer manuellement les différents hops proprement, je vous recommande de consulter cet autre article : [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 L'outil JoinBot n'est plus opérationnel, car il dépendait entièrement de la participation d'un portefeuille géré par Samourai.
 
@@ -50,9 +50,9 @@ Après plusieurs tests, il semble que Soroban ne fonctionne plus. Pour réaliser
 - Si vous êtes physiquement proche de votre collaborateur, vous pouvez scanner les QR codes successivement ;
 - Si vous êtes éloigné de votre collaborateur, vous pouvez échanger les PSBT via un canal de communication externe à l'application. Toutefois, faites attention, car les données contenues dans ces PSBT sont sensibles en termes de confidentialité. Je vous recommande d'utiliser un service de messagerie chiffrée pour assurer la confidentialité de l'échange.
 
-**[-> En savoir plus sur les transactions Stonewall x2.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> En savoir plus sur les transactions Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
 
-**[-> En savoir plus sur les transactions Stowaway.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> En savoir plus sur les transactions Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Pour ce qui est de Whirlpool, le protocole ne semble plus fonctionner, même pour les utilisateurs qui disposent de leur propre Dojo. J'ai surveillé mon RoninDojo ces derniers jours et effectué quelques tentatives de manipulations basiques, mais le Whirlpool CLI ne parvient pas à se connecter depuis l'arrêt des serveurs.
 
@@ -162,7 +162,7 @@ Si vous utilisez un autre logiciel que Sparrow, comme Electrum, pour récupérer
 - Premix : `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Vous avez maintenant accès à vos bitcoins sur Sparrow. Si vous avez besoin d'aide pour utiliser Sparrow Wallet, vous pouvez également consulter [notre tutoriel dédié](https://planb.network/tutorials/wallet/sparrow).
+Vous avez maintenant accès à vos bitcoins sur Sparrow. Si vous avez besoin d'aide pour utiliser Sparrow Wallet, vous pouvez également consulter [notre tutoriel dédié](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Je vous recommande aussi d'importer manuellement les étiquettes que vous aviez associées à vos UTXO sur Samourai. Cela vous permettra de réaliser un contrôle efficace de vos pièces (coin control) sur Sparrow par la suite.
 
@@ -222,7 +222,7 @@ Si vous utilisez un autre logiciel que Sparrow, comme Electrum, pour récupérer
 - Premix : `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Vous avez maintenant accès à vos bitcoins sur Sparrow. Si vous avez besoin d'aide pour utiliser Sparrow Wallet, vous pouvez également consulter [notre tutoriel dédié](https://planb.network/tutorials/wallet/sparrow).
+Vous avez maintenant accès à vos bitcoins sur Sparrow. Si vous avez besoin d'aide pour utiliser Sparrow Wallet, vous pouvez également consulter [notre tutoriel dédié](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Je vous recommande aussi d'importer manuellement les étiquettes que vous aviez associées à vos UTXO sur Samourai. Cela vous permettra de réaliser un contrôle efficace de vos pièces (coin control) sur Sparrow par la suite.
 
@@ -346,7 +346,7 @@ Enfin, il est essentiel de prendre en compte l'anonset initial de votre pièce, 
 
 Avec l'outil WST désormais hors service suite à la fermeture de OXT.me, vous ne pouvez qu'estimer ces anonsets. Pour l'anonset rétrospectif, il n'y a pas trop de soucis à se faire puisque le modèle de Whirlpool assure que celui-ci est très élevé dès le premier coinjoin, grâce à l'héritage de vos pairs. Le seul cas où cela pourrait poser un problème est si votre pièce n'a pas été remixée depuis plusieurs années et qu'elle a été mixée au début du lancement d'une pool. Concernant l'anonset prospectif, vous pouvez examiner la durée pendant laquelle votre pièce a été disponible pour des coinjoins. Si cela fait plusieurs mois, alors elle dispose probablement d'un anonset prospectif extrêmement élevé. En revanche, si elle a été ajoutée à une pool juste quelques heures avant la saisie des serveurs, alors son anonset prospectif est probablement très bas.
 
-[**-> En savoir plus sur les anonsets et leur méthode de calcul.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> En savoir plus sur les anonsets et leur méthode de calcul.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Un autre aspect à considérer est l'impact des consolidations sur les anonsets des pièces qui ont été mixées. Étant donné que les comptes Whirlpool ne sont plus accessibles via l'application Samourai, il est probable que de nombreux utilisateurs aient transféré leur portefeuille sur d'autres logiciels et tenté de retirer leurs fonds de Whirlpool. En particulier, le week-end dernier, lorsque les frais de transaction sur le réseau Bitcoin étaient relativement élevés, il y avait une forte incitation, tant technique qu'économique, à consolider les pièces post-mix. Cela signifie qu'il est probable que de nombreux utilisateurs aient effectué d'importantes consolidations.
 

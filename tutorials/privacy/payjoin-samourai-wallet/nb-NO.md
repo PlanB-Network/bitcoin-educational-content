@@ -26,7 +26,7 @@ Stowaway støtter seg på en kategori transaksjoner som Samourai refererer til s
 
 Cahoots-transaksjoner involverer utvekslinger av delvis signerte transaksjoner mellom brukere. Denne prosessen kan være lang og tungvint, spesielt når den gjøres på avstand. Det kan imidlertid fortsatt utføres manuelt med en annen bruker, noe som kan være praktisk hvis samarbeidspartnerne er fysisk nær hverandre. I praksis innebærer dette å manuelt utveksle fem QR-koder som skal skannes etter hverandre.
 Når dette gjøres på avstand, blir prosessen for kompleks. For å adressere dette problemet har Samourai utviklet et kryptert kommunikasjonsprotokoll basert på Tor, kalt "Soroban." Med Soroban blir utvekslingene som er nødvendige for en Payjoin automatisert bak et brukervennlig grensesnitt. Dette er den andre metoden vi vil studere i denne artikkelen.
-Disse krypterte utvekslingene krever etablering av en forbindelse og autentisering mellom Cahoots-deltakerne. Soroban-kommunikasjonen er derfor basert på brukernes Paynyms. Hvis du ikke er kjent med Paynyms, inviterer jeg deg til å konsultere denne artikkelen for flere detaljer: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+Disse krypterte utvekslingene krever etablering av en forbindelse og autentisering mellom Cahoots-deltakerne. Soroban-kommunikasjonen er derfor basert på brukernes Paynyms. Hvis du ikke er kjent med Paynyms, inviterer jeg deg til å konsultere denne artikkelen for flere detaljer: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 For å si det enkelt, er en Paynym en unik identifikator knyttet til lommeboken din som tillater ulike funksjonaliteter, inkludert kryptert meldingsutveksling. Paynymen presenteres i form av en identifikator og en illustrasjon som representerer en robot. Her er et eksempel på min på Testnet: ![paynym samourai wallet](assets/en/1.webp)
 
@@ -37,7 +37,7 @@ For å si det enkelt, er en Paynym en unik identifikator knyttet til lommeboken 
 - _Soroban_ = Kryptert kommunikasjonsprotokoll etablert på Tor, som tillater samarbeid med andre brukere i konteksten av en Cahoots-transaksjon;
 - _Paynym_ = Unik identifikator for en lommebok som tillater kommunikasjon med en annen bruker på Soroban, for å gjennomføre en Cahoots-transaksjon.
 
-[**-> Lær mer om Payjoin-transaksjoner og deres nytte**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Lær mer om Payjoin-transaksjoner og deres nytte**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Hvordan etablere en forbindelse mellom Paynyms?
 

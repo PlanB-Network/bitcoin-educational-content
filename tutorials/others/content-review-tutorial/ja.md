@@ -34,14 +34,14 @@ PlanB.networkは根本的に多言語であり、私たちの目標は世界中�
 
 しかし、GitやGitHubの動作に完全に不慣れで、もっと学びたい場合は、これらのツールに関する私たちの導入記事を発見することができます。
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 ## 1. アカウントを作成する
 * GitHubでアカウントを作成して寄稿を開始します。GitHubでアカウントを作成する方法についてのガイダンスが必要な場合は、詳細なチュートリアルもあります。
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 ## **2. あなたの言語のプロジェクトページに行く**

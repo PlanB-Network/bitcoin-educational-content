@@ -60,5 +60,5 @@ On Git and GitHub, you will encounter commands and features whose names may seem
 This list is obviously not exhaustive. There are many other technical terms specific to Git and GitHub. However, those mentioned here are the main ones you will frequently encounter.
 
 After reading this article, it is possible that some aspects of Git and GitHub are still unclear to you. I encourage you to start using these tools yourself. Practice is often the best way to understand how the machine works! And to get started, you can discover these 2 other tutorials:
-**[Create your GitHub account](https://planb.network/tutorials/others/create-github-account)**
-**[Setting Up Your Local Environment to Contribute to PlanB Network](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Create your GitHub account](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Setting Up Your Local Environment to Contribute to PlanB Network](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**

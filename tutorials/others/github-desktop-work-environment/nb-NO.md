@@ -12,13 +12,13 @@ Hvis du ønsker å bidra til PlanB-nettverket, må du bruke GitHub for å foresl
 
 Hvis du ikke har noen ide om hva GitHub er, eller hvis du ønsker å lære mer om de tekniske termene relatert til Git og GitHub, anbefaler jeg at du leser vår introduksjonsartikkel for å gjøre deg kjent med disse konseptene.
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 - For å starte, vil du åpenbart trenge en GitHub-konto. Hvis du allerede har en, kan du logge inn, ellers kan du bruke vår veiledning for å opprette en ny.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

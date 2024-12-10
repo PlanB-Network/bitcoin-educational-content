@@ -30,10 +30,10 @@ Por otro lado, algunas herramientas están afectadas por el cierre del servidor 
 En cuanto a las herramientas de gasto individual, todo funciona normalmente siempre y cuando, por supuesto, tengas tu propio Dojo. Las transacciones Stonewall normales (y no Stonewall x2) funcionan sin ningún problema.
 
 Comentarios en Twitter han resaltado que la privacidad ofrecida por una transacción Stonewall podría ahora estar reducida. El valor agregado de una transacción Stonewall radica en el hecho de que es indistinguible de una transacción Stonewall x2 en términos de estructura. Cuando un analista encuentra este patrón específico, no pueden determinar si se trata de un Stonewall estándar con un solo usuario o un Stonewall x2 que involucra a dos usuarios. Sin embargo, como veremos en los siguientes párrafos, realizar transacciones Stonewall x2 se ha vuelto más complejo debido a la no disponibilidad de Soroban. Algunos, por lo tanto, piensan que un analista podría ahora asumir que cualquier transacción con esta estructura es un Stonewall normal. Personalmente, no comparto esta suposición. Aunque las transacciones Stonewall x2 pueden ser menos frecuentes (y creo que ya lo eran antes de este incidente), el hecho de que todavía sean posibles puede invalidar un análisis completo basado en la suposición de que no lo son.
-**[-> Aprende más sobre las transacciones Stonewall.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> Aprende más sobre las transacciones Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 En cuanto a Ricochet, no he podido verificar si el servicio sigue operativo, debido a no poseer un Dojo en el Testnet, y prefiero no arriesgarme a gastar `100 000 sats` hacia una billetera que podría estar controlada por las autoridades. Si has tenido la oportunidad de probar esta herramienta recientemente, te invito a contactarme para que podamos actualizar este artículo.
 
-Si necesitas usar Ricochet, ten en cuenta que siempre puedes realizar esta operación manualmente con cualquier software de billetera. Para aprender cómo realizar manualmente los diversos saltos correctamente, recomiendo consultar este otro artículo: [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+Si necesitas usar Ricochet, ten en cuenta que siempre puedes realizar esta operación manualmente con cualquier software de billetera. Para aprender cómo realizar manualmente los diversos saltos correctamente, recomiendo consultar este otro artículo: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 La herramienta JoinBot ya no está operativa, ya que dependía enteramente de la participación de una billetera gestionada por Samourai.
 
@@ -44,9 +44,9 @@ En cuanto a otros tipos de transacciones colaborativas, a menudo referidas como 
 Después de varias pruebas, parece que Soroban ya no funciona. Para realizar estas transacciones colaborativas, el intercambio de datos debe hacerse, por lo tanto, manualmente. Aquí hay dos opciones para realizar este intercambio:
 - Si estás físicamente cerca de tu colaborador, puedes escanear los códigos QR sucesivamente;
 - Si estás lejos de tu colaborador, puedes intercambiar los PSBTs a través de un canal de comunicación externo a la aplicación. Sin embargo, ten cuidado, ya que los datos contenidos en estos PSBTs son sensibles en términos de privacidad. Recomiendo usar un servicio de mensajería encriptado para asegurar la confidencialidad del intercambio.
-**[-> Aprende más sobre las transacciones Stonewall x2.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> Aprende más sobre las transacciones Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
 
-**[-> Aprende más sobre las transacciones Stowaway.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> Aprende más sobre las transacciones Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 En cuanto a Whirlpool, el protocolo ya no parece funcionar, incluso para usuarios que tienen su propio Dojo. He estado monitoreando mi RoninDojo estos últimos días e intentado algunas manipulaciones básicas, pero el CLI de Whirlpool no ha podido conectarse desde el cierre del servidor.
 
@@ -146,7 +146,7 @@ Si estás usando un software diferente a Sparrow, como Electrum, para recuperar 
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Ahora tienes acceso a tus bitcoins en Sparrow. Si necesitas ayuda usando Sparrow Wallet, también puedes consultar [nuestro tutorial dedicado](https://planb.network/tutorials/wallet/sparrow).
+Ahora tienes acceso a tus bitcoins en Sparrow. Si necesitas ayuda usando Sparrow Wallet, también puedes consultar [nuestro tutorial dedicado](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 También recomiendo importar manualmente las etiquetas que habías asociado con tus UTXOs en Samourai. Esto te permitirá realizar un control de monedas efectivo en Sparrow posteriormente.
 
@@ -202,7 +202,7 @@ Si estás usando otro software como Electrum para recuperar tu billetera Samoura
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Ahora tienes acceso a tus bitcoins en Sparrow. Si necesitas ayuda usando Sparrow Wallet, también puedes consultar [nuestro tutorial dedicado](https://planb.network/tutorials/wallet/sparrow).
+Ahora tienes acceso a tus bitcoins en Sparrow. Si necesitas ayuda usando Sparrow Wallet, también puedes consultar [nuestro tutorial dedicado](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 También recomiendo importar manualmente las etiquetas que habías asociado con tus UTXOs en Samourai. Esto te permitirá realizar un control de monedas efectivo en Sparrow posteriormente.
 
@@ -304,7 +304,7 @@ Por otro lado, si la privacidad de tus monedas frente a la autoridad potencialme
 
 Específico "frente a la autoridad" porque es importante recordar que solo la autoridad que incautó los servidores es potencialmente consciente de estos xpubs. Si tu objetivo al usar coinjoin era evitar que tu panadero pudiera seguir tus fondos, entonces él no está mejor informado que antes de la incautación del servidor.
 Finalmente, es esencial considerar el anonset inicial de tu moneda, antes de la incautación del servidor. Tomemos el ejemplo de una moneda que había alcanzado un anonset prospectivo de 40,000; la disminución potencial en este anonset es probablemente insignificante. De hecho, con un anonset base ya muy alto, es poco probable que la presencia de unos pocos usuarios sin Dojo pueda cambiar radicalmente la situación. Sin embargo, si tu moneda tenía un anonset de 40, entonces esta fuga potencial podría afectar seriamente tus anonsets y potencialmente permitir el rastreo. Con la herramienta WST ahora fuera de servicio tras el cierre de OXT.me, solo puedes estimar estos anonsets. Para el anonset retrospectivo, no hay demasiado de qué preocuparse ya que el modelo Whirlpool asegura que es muy alto desde el primer coinjoin, gracias al legado de tus pares. El único caso en el que esto podría representar un problema es si tu moneda no ha sido remezclada durante varios años y se mezcló al principio del lanzamiento de un pool. En cuanto al anonset prospectivo, puedes examinar la duración que tu moneda ha estado disponible para coinjoins. Si han pasado varios meses, entonces probablemente tiene un anonset prospectivo extremadamente alto. Por el contrario, si se agregó a un pool solo unas horas antes de que los servidores fueran incautados, entonces su anonset prospectivo es probablemente muy bajo.
-[**-> Aprende más sobre los anonsets y su método de cálculo.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> Aprende más sobre los anonsets y su método de cálculo.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Otro aspecto a considerar es el impacto de las consolidaciones en los anonsets de las monedas que han sido mezcladas. Dado que las cuentas de Whirlpool ya no son accesibles a través de la aplicación Samourai, es probable que muchos usuarios hayan transferido su billetera a otro software e intentado retirar sus fondos de Whirlpool. En particular, el último fin de semana, cuando las tarifas de transacción en la red Bitcoin eran relativamente altas, hubo un fuerte incentivo técnico y económico para consolidar las monedas post-mezcla. Esto significa que es probable que muchos usuarios hayan realizado consolidaciones significativas.
 

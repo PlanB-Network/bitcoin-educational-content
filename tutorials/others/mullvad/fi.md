@@ -80,4 +80,4 @@ Lopuksi, "*Jaettu tunnelointi*" -valikko mahdollistaa tiettyjen sovellusten vali
 Saadaksesi yleiskatsauksen Mullvad-tilistäsi ja hallitaksesi eri yhdistettyjä laitteita, voit klikata "*Laitteet*" -valikkoa verkkosivustolla.
 Ja siinä se on, nyt olet valmis nauttimaan täysin Mullvad VPN:stä. Jos olet kiinnostunut tutustumaan toiseen VPN-palveluntarjoajaan, joka on samankaltainen kuin Mullvad sekä ominaisuuksiltaan että hinnoittelultaan, suosittelen myös tutustumaan oppaaseemme IVPN:stä:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

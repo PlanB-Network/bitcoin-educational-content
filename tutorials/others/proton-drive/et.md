@@ -30,7 +30,7 @@ Hinnakujunduse osas pakub tasuta versioon kuni 5 GB salvestusruumi ja sisaldab o
 
 Kui teil ei ole veel Protoni kontot, peate selle looma. Viitan teid meie Proton Maili õpetusele, milles selgitame üksikasjalikult, kuidas luua tasuta Protoni konto ja seda seadistada:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Kuidas seadistada Proton Drive'i?
 
@@ -42,7 +42,7 @@ Nüüd olete oma Proton Drive'is.
 ![PROTON DRIVE](assets/notext/07.webp)
 ## Kuidas kasutada Proton Drive'i?
 Failide lisamiseks oma Proton Drive'i, kasutades ainult veebiversiooni (räägime kohaliku versiooni kasutamisest hiljem), peate lihtsalt lohistama oma dokumendid otse liidesesse. ![PROTON DRIVE](assets/notext/08.webp) Seejärel leiate oma dokumendi avalehelt. ![PROTON DRIVE](assets/notext/09.webp) Uue üksuse lisamiseks klõpsake ekraani vasakus ülanurgas nuppu "*Uus*". ![PROTON DRIVE](assets/notext/10.webp) Funktsioon "*Laadi fail üles*" avab teie kohaliku failihalduri, võimaldades teil valida ja importida uusi dokumente Proton Drive'i, täpselt nagu teeksite lohistades ja kukutades. ![PROTON DRIVE](assets/notext/11.webp) "*Laadi kaust üles*" võimaldab teil importida terve kausta. ![PROTON DRIVE](assets/notext/12.webp) "*Uus kaust*" võimaldab teil luua kausta, et paremini organiseerida oma dokumente Proton Drive'is. ![PROTON DRIVE](assets/notext/13.webp) Klõpsake sellel valikul, määrake oma kaustale nimi. ![PROTON DRIVE](assets/notext/14.webp) Seejärel leiate selle otse Proton Drive'i avalehelt. ![PROTON DRIVE](assets/notext/15.webp) Lõpuks võimaldab "*Uus dokument*" teil luua Proton Drive'is otse uue tekstidokumendi. ![PROTON DRIVE](assets/notext/16.webp) Sellel klõpsates avaneb uus tühi dokument. ![PROTON DRIVE](assets/notext/17.webp) Saate seda kirjutada ja redigeerida. ![PROTON DRIVE](assets/notext/18.webp) Kui klõpsate ekraani paremas ülanurgas nuppu "*Jaga*", saate dokumenti jagada. ![PROTON DRIVE](assets/notext/19.webp) Peate lihtsalt sisestama meiliaadressi, kellele soovite anda dokumendile juurdepääsu, kas ainult lugemisõigusega või redigeerimisõigustega. ![PROTON DRIVE](assets/notext/20.webp) Kui lähete tagasi oma Proton Drive'i, näete, et dokument on edukalt salvestatud. ![PROTON DRIVE](assets/notext/21.webp) Vahekaardil "*Jagatud*" leiate dokumendid, mida olete teistega jaganud. ![PROTON DRIVE](assets/notext/22.webp) Ja vahekaardil "*Minuga jagatud*" näete dokumente, mida teised on teiega jaganud. ![PROTON DRIVE](assets/notext/23.webp) Lõpuks vahekaardil "*Prügikast*" leiate hiljuti kustutatud dokumendid. ![PROTON DRIVE](assets/notext/24.webp) Enamik teie Proton Drive'i seadeid on integreeritud teie Protoni kontoga. Oma konto seadistamise detailsete juhiste saamiseks soovitan teil konsulteerida selle õpetusega:
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Kuidas paigaldada Proton Drive tarkvara?
 Proton Drive pakub ka tarkvara, mis võimaldab teie kohalike failide sünkroniseerimist teie veebipõhise salvestusruumiga. See funktsioon hõlbustab ja automatiseerib meie 3-2-1 varundusstrateegia rakendamist. Proton Drive tarkvaraga saate 2 sünkroniseeritud koopiat oma failidest: ühe oma arvutis ja teise Protoni serverites, täites seeläbi 2 meediumitüübi ja väljaspool asuva varukoopia kriteeriumid. Lihtsalt peate looma kolmanda koopia, mille seadistame hiljem.
@@ -80,4 +80,4 @@ Palju õnne, teil on nüüd väga tugev 3-2-1 varundusstrateegia, mis võimaldab
 
 Et rohkem teada saada oma veebipresendi turvamise ja häkkimise vältimise kohta, soovitan teil tutvuda ka meie üksikasjaliku õpetusega Bitwarden paroolihalduri kohta:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

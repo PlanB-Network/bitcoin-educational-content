@@ -27,7 +27,7 @@ Stowaway se opírá o kategorii transakcí, které Samourai označuje jako "Caho
 Transakce Cahoots zahrnují výměny částečně podepsaných transakcí mezi uživateli. Tento proces může být dlouhý a zdlouhavý, zejména když se provádí na dálku. Přesto lze stále ručně provést s dalším uživatelem, což může být pohodlné, pokud jsou spolupracovníci fyzicky blízko. V praxi to zahrnuje ruční výměnu pěti QR kódů, které se postupně skenují.
 
 Když se tento proces provádí na dálku, stává se příliš složitým. Aby se tento problém vyřešil, Samourai vyvinul šifrovaný komunikační protokol založený na Toru, nazvaný "Soroban." S Sorobanem jsou výměny potřebné pro Payjoin automatizovány za uživatelsky přívětivým rozhraním. To je druhá metoda, kterou v tomto článku prozkoumáme.
-Tyto šifrované výměny vyžadují navázání spojení a ověření mezi účastníky Cahoots. Komunikace Soroban je proto založena na Paynyme uživatelů. Pokud nejste obeznámeni s Paynymy, doporučuji vám pro více detailů navštívit tento článek: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+Tyto šifrované výměny vyžadují navázání spojení a ověření mezi účastníky Cahoots. Komunikace Soroban je proto založena na Paynyme uživatelů. Pokud nejste obeznámeni s Paynymy, doporučuji vám pro více detailů navštívit tento článek: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
  Jednoduše řečeno, Paynym je unikátní identifikátor spojený s vaší peněženkou, který umožňuje různé funkce, včetně šifrovaného zasílání zpráv. Paynym je prezentován ve formě identifikátoru a ilustrace reprezentující robota. Zde je příklad mého na Testnetu: ![paynym samourai wallet](assets/en/1.webp)
 
@@ -38,7 +38,7 @@ Tyto šifrované výměny vyžadují navázání spojení a ověření mezi úč
 - _Soroban_ = Protokol šifrované komunikace založený na Toru, umožňující spolupráci s dalšími uživateli v kontextu transakce Cahoots;
 - _Paynym_ = Unikátní identifikátor peněženky umožňující komunikaci s dalším uživatelem na Sorobanu za účelem provedení transakce Cahoots.
 
-[**-> Dozvědět se více o transakcích Payjoin a jejich užitečnosti**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Dozvědět se více o transakcích Payjoin a jejich užitečnosti**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Jak navázat spojení mezi Paynymy?
 

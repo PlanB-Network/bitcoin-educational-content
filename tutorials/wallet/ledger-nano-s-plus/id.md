@@ -49,7 +49,7 @@ Untuk tutorial ini, Anda akan memerlukan 2 aplikasi perangkat lunak: Ledger Live
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Untuk kedua program perangkat lunak ini, saya sangat menyarankan untuk memeriksa keaslian mereka (dengan GnuPG) dan integritas mereka (melalui hash) sebelum menginstalnya di mesin Anda. Jika Anda tidak yakin bagaimana melakukannya, Anda dapat mengikuti tutorial lain ini:
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Bagaimana Cara Menginisialisasi Ledger Nano?
 
@@ -121,7 +121,7 @@ Passphrase tidak boleh dikacaukan dengan kode PIN. Ini berperan dalam derivasi k
 
 Passphrase adalah alat yang sangat kuat untuk meningkatkan keamanan bitcoin Anda. Namun, sangat penting untuk memahami cara kerjanya sebelum mengimplementasikannya, untuk menghindari kehilangan akses ke dompet Anda. Inilah mengapa saya menyarankan Anda untuk berkonsultasi dengan tutorial lain ini yang didedikasikan jika Anda ingin menetapkan passphrase pada Ledger Anda:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Menu "*PIN lock*" memungkinkan Anda untuk mengonfigurasi dan mengaktifkan penguncian otomatis Ledger Anda setelah periode ketidakaktifan yang ditentukan.
 
@@ -212,7 +212,7 @@ Dan sekarang, dompet Anda telah dibuat!
 Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **saya sangat menyarankan Anda untuk melakukan tes pemulihan tanpa transaksi**. Catat informasi referensi, seperti xpub Anda, kemudian reset Ledger Nano Anda sementara dompet masih kosong. Setelah itu, coba pulihkan dompet Anda di Ledger menggunakan cadangan kertas Anda. Periksa bahwa xpub yang dihasilkan setelah pemulihan cocok dengan yang Anda catat awalnya. Jika iya, Anda dapat yakin bahwa cadangan kertas Anda dapat diandalkan.
 Untuk mempelajari lebih lanjut tentang cara melakukan tes pemulihan, saya menyarankan Anda untuk berkonsultasi dengan tutorial lain ini:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Bagaimana cara menerima bitcoin dengan Ledger Nano?
 
@@ -242,7 +242,7 @@ Anda dapat menambahkan "*Label*" untuk mendeskripsikan sumber bitcoin yang akan 
 
 Untuk informasi lebih lanjut tentang pelabelan, saya juga menyarankan Anda untuk memeriksa tutorial lain ini:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Anda kemudian dapat menggunakan alamat ini untuk menerima bitcoin.
 
@@ -308,4 +308,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat menghargai jika Anda 
 
 Saya juga merekomendasikan Anda untuk memeriksa tutorial lengkap ini tentang Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

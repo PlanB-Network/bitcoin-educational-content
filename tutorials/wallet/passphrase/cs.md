@@ -35,4 +35,4 @@ Je také důležité toto heslo správně uložit, stejně jako mnemonickou frá
 
 Pro nastavení hesla na zařízení Ledger (Stax, Flex, nebo Nano) můžete konzultovat tento tutoriál:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49

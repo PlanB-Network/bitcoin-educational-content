@@ -12,13 +12,13 @@ Tento tutoriál vás krok za krokem provede procesem opravy těchto drobných ch
 
 Vezměte prosím na vědomí, že pokud plánujete provést kompletní přezkum a revizi dokumentu, zejména pro překlady obsahu, doporučuji vám poradit se s tímto dalším podrobnějším tutoriálem.
 
-https://planb.network/tutorials/others/content-review-tutorial
+https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 
  Zde se zaměřujeme pouze na to, jak provést rychlou opravu malé chyby.
 
 - Nejprve musíte mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme podrobný tutoriál, který vás provede.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Přejděte na [GitHub repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content):

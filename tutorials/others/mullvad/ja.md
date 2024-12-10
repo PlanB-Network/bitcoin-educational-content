@@ -80,4 +80,4 @@ iOSユーザーの場合は[AppStore](https://apps.apple.com/us/app/mullvad-vpn/
 Mullvadアカウントの概要を確認し、さまざまな接続されたデバイスを管理するには、ウェブサイトの「*デバイス*」メニューをクリックします。
 MULLVAD VPNをフルに活用する準備が整いました。Mullvadと機能や価格で似ている別のVPNプロバイダーを探している場合は、IVPNに関する私たちのチュートリアルもぜひご覧ください：
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

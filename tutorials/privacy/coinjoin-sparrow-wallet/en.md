@@ -70,7 +70,7 @@ Whirlpool was designed taking into account two important requirements:
 These imperatives guided the choices of the developers of Samourai Wallet in the design of Whirlpool, leading them to limit the number of participants per cycle. Too few participants would have compromised the effectiveness of the coinjoin, drastically reducing the anonsets generated with each cycle, while too many participants would have posed management problems on mobile applications and would have impeded the flow of cycles.
 
 **Ultimately, there is no need to have a high number of participants per coinjoin on Whirlpool since the anonsets are made over the accumulation of several coinjoin cycles.**
-[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 ### Coinjoin pools and fees
 To ensure that multiple cycles effectively increase the anonsets of mixed coins, a certain framework must be established to restrict the amounts of UTXOs used. Whirlpool defines different pools for this purpose.
 
@@ -180,7 +180,7 @@ Using Sparrow has the advantage of being quite easy to get started with, quick t
 ### Install Sparrow Wallet
 To begin, you will obviously need the Sparrow Wallet software. You can directly download it from [the official website](https://sparrowwallet.com/download/) or on [their GitHub](https://github.com/sparrowwallet/sparrow/releases).
 
-Before installing the software, it will be important to verify the signature and integrity of the executable you just downloaded. If you want more details on the installation process and verification of Sparrow software, I advise you to read this other tutorial: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/sparrow)*
+Before installing the software, it will be important to verify the signature and integrity of the executable you just downloaded. If you want more details on the installation process and verification of Sparrow software, I advise you to read this other tutorial: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
 
 ### Create a Software Wallet
 After installing the software, you will need to proceed with creating a Bitcoin wallet. It is important to note that to participate in coinjoins, the use of a software wallet (also called a "hot wallet") is essential. Therefore, **it will not be possible to perform coinjoins with a wallet secured by a hardware wallet**.
@@ -300,7 +300,7 @@ In this section, you will have the option to enter the destination address, the 
 
 ![sparrow](assets/notext/33.webp)
 
-[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/stonewall)
+[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 If you wish to make a more precise selection of your coins to spend, go to the `UTXOs` tab. Select the UTXOs you specifically want to consume, then press the `Send Selected` button to initiate the transaction.
 
@@ -318,7 +318,7 @@ A window opens, start by selecting the destination wallet from the dropdown list
 
 ![sparrow](assets/notext/37.webp)
 
-Choose the coinjoin threshold beyond which the withdrawal will be made automatically. I cannot give you an exact number of remixes to perform, as this varies according to your personal situation and your privacy goals, but avoid choosing a threshold too low. I recommend consulting this other article to learn more about the remixing process: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
+Choose the coinjoin threshold beyond which the withdrawal will be made automatically. I cannot give you an exact number of remixes to perform, as this varies according to your personal situation and your privacy goals, but avoid choosing a threshold too low. I recommend consulting this other article to learn more about the remixing process: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 You can leave the `Index range` option on its default value, `Full`. This function allows for mixing simultaneously from different clients, but that's not what we want to do in this tutorial. To finalize and activate the `Mix to...` option, press `Restart Whirlpool`.
 
@@ -328,7 +328,7 @@ However, be cautious when using the `Mix to` option, as removing mixed coins fro
 
 ## How to know the quality of our coinjoin cycles?
 For a coinjoin to be truly effective, it is essential that it presents good homogeneity between the amounts of inputs and outputs. This uniformity amplifies the number of possible interpretations in the eyes of an external observer, thereby increasing the uncertainty around the transaction. To quantify this uncertainty generated by a coinjoin, one can resort to calculating the transaction's entropy. For an in-depth exploration of these indicators, I refer you to the tutorial: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). The Whirlpool model is recognized as the one that brings the most homogeneity in coinjoins.
-Next, the performance of several coinjoin cycles is evaluated based on the size of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy gained against retrospective analysis (from the present to the past) and the second, against prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
+Next, the performance of several coinjoin cycles is evaluated based on the size of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy gained against retrospective analysis (from the present to the past) and the second, against prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## How to manage postmix?
 After performing coinjoin cycles, the best strategy is to keep your UTXOs in the **postmix** account, waiting for their future use. It is even advisable to let them remix indefinitely until you need to spend them.
@@ -355,8 +355,8 @@ Next, you need to be careful in managing doxxic change, the change that couldn't
 Detailed tutorials on implementing these different techniques will be offered soon on PlanB Network.
 
 **Additional Resources:**
-[Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/sparrow)
-[Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/samourai)
+[Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Wallet Documentation - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter Thread on CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blog Post on CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

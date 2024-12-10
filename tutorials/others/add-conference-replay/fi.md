@@ -10,13 +10,13 @@ Haluatko lisätä Bitcoin-konferenssisi uusinnan PlanB-verkon sivustolle ja anta
 
 Jos kuitenkin haluat lisätä tulevaisuudessa tapahtuvan konferenssin, suosittelen lukemaan tämän toisen oppaan, jossa selitämme, kuinka lisätä uusi tapahtuma sivustolle.
 
-https://planb.network/tutorials/others/add-event
+https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![konferenssi](assets/01.webp)
 - Ensimmäiseksi sinun on oltava tili GitHubissa. Jos et tiedä, kuinka luoda tiliä, olemme tehneet yksityiskohtaisen oppaan sinua varten.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Siirry [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) `resources/conference/`-osiossa:
@@ -69,7 +69,7 @@ tags:
 
 ![konferenssi](assets/09.webp)
 Jos organisaatiollasi ei vielä ole "*builder*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Kun olet valmis tekemään muutoksia tähän tiedostoon, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![konferenssi](assets/10.webp)

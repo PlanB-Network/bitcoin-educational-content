@@ -10,11 +10,11 @@ I dag finnes det mange løsninger for handlende som ønsker å akseptere Bitcoin
 
 For de som foretrekker å ikke bry seg og motta midler i fiat-valuta direkte til bankkontoen sin, er forvaringsløsninger som Open Node tilgjengelige:
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 For handlende som er klare til å ta i et tak og som ønsker å ha full kontroll over prosessen, er BTCPay Server-programvaren et utmerket alternativ. Imidlertid er den største ulempen med BTCPay Server at oppsettet og styringen tar tid og krever litt teknisk ekspertise:
 
-https://planb.network/tutorials/merchant/btcpay-server
+https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Blant alle disse løsningene, ser Swiss Bitcoin Pay ut til å være et veldig interessant kompromiss som kombinerer brukervennlighet, funksjoner og sikkerhet. Denne løsningen passer for både veldig små bedrifter og større strukturer. I denne veiledningen vil du oppdage hvordan du enkelt kan bruke Swiss Bitcoin Pay for å akseptere Bitcoin i din bedrift.
 

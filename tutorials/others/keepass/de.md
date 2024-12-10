@@ -16,7 +16,7 @@ Diese beiden Sicherheitsprinzipien für Passwörter (Einzigartigkeit und Robusth
 
 Ein Passwortmanager generiert und speichert sicher starke Passwörter und ermöglicht Ihnen den Zugriff auf alle Ihre Online-Konten, ohne dass Sie sich diese einzeln merken müssen. Sie müssen sich nur ein Passwort merken, das Master-Passwort, das Ihnen Zugang zu allen Ihren im Manager gespeicherten Passwörtern gibt. Die Verwendung eines Passwortmanagers verbessert Ihre Online-Sicherheit, da sie die Wiederverwendung von Passwörtern verhindert und systematisch zufällige Passwörter generiert. Aber es vereinfacht auch Ihre tägliche Nutzung Ihrer Konten, indem es den Zugang zu Ihren sensiblen Informationen zentralisiert.
 In diesem Tutorial werden wir lernen, wie man einen lokalen Passwortmanager einrichtet und verwendet, um Ihre Online-Sicherheit zu verbessern. Hier werde ich Ihnen KeePass vorstellen. Wenn Sie jedoch ein Anfänger sind und einen Online-Passwortmanager wünschen, der eine Synchronisierung über mehrere Geräte hinweg ermöglicht, empfehle ich, unserem Tutorial zu Bitwarden zu folgen:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -105,7 +105,7 @@ Die Software wird eine neue Datenbank erstellen, in der Ihre Passwörter gespeic
 ![KEEPASS](assets/notext/16.webp)
 Danach sollten Sie daran denken, diesen Ordner regelmäßig zu sichern, um den Verlust Ihrer Zugangsdaten im Falle eines Verlusts, Schadens oder Diebstahls Ihres Computers zu vermeiden. Sie könnten beispielsweise jede Woche die Datenbank auf einen USB-Stick kopieren. Die Datei, die Ihre Datenbank enthält, heißt `Database.kdbx` (das Dokument ist mit Ihrem Hauptpasswort verschlüsselt). Für weitere Ratschläge zu den besten Backup-Praktiken empfehle ich auch, dieses andere Tutorial zu konsultieren:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Als Nächstes kommt die Wahl Ihres Hauptpassworts.
 ![KEEPASS](assets/notext/17.webp)
@@ -149,4 +149,4 @@ Das deckt die grundlegenden Funktionen von KeePass ab. Natürlich hat dieses Tut
 
 Wenn Sie daran interessiert sind zu lernen, wie Sie die Sicherheit Ihrer Online-Konten drastisch verbessern können, um Hacking mit 2FA zu vermeiden, empfehle ich auch, dieses andere Tutorial zu überprüfen:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

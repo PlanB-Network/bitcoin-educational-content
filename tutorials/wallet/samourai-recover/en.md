@@ -31,10 +31,10 @@ On the other hand, some tools are either affected by the server shutdown or comp
 Regarding individual spending tools, everything works normally provided, of course, that you have your own Dojo. Normal Stonewall transactions (and not Stonewall x2) work without any problem.
 
 Comments on Twitter have highlighted that the privacy offered by a Stonewall transaction might now be reduced. The added value of a Stonewall transaction lies in the fact that it is indistinguishable from a Stonewall x2 transaction in terms of structure. When an analyst encounters this specific pattern, they cannot determine whether it is a standard Stonewall with a single user or a Stonewall x2 involving two users. However, as we will see in the following paragraphs, carrying out Stonewall x2 transactions has become more complex due to the unavailability of Soroban. Some therefore think that an analyst might now assume that any transaction with this structure is a normal Stonewall. Personally, I do not share this assumption. Although Stonewall x2 transactions may be less frequent (and I think they were already before this incident), the fact that they are still possible can invalidate an entire analysis based on the assumption that they are not.
-**[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Regarding Ricochet, I have not been able to verify if the service is still operational, due to not owning a Dojo on the Testnet, and I prefer not to risk spending `100 000 sats` towards a wallet that could be controlled by the authorities. If you have had the opportunity to test this tool recently, I invite you to contact me so we can update this article.
 
-If you need to use Ricochet, be aware that you can always perform this operation manually with any wallet software. To learn how to manually perform the various hops properly, I recommend consulting this other article: [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+If you need to use Ricochet, be aware that you can always perform this operation manually with any wallet software. To learn how to manually perform the various hops properly, I recommend consulting this other article: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 The JoinBot tool is no longer operational, as it was entirely dependent on the participation of a wallet managed by Samourai.
 
@@ -46,9 +46,9 @@ After several tests, it appears that Soroban is no longer functioning. To perfor
 - If you are physically close to your collaborator, you can scan the QR codes successively;
 - If you are distant from your collaborator, you can exchange the PSBTs via an external communication channel to the application. However, be careful, as the data contained in these PSBTs are sensitive in terms of privacy. I recommend using an encrypted messaging service to ensure the confidentiality of the exchange.
 
-**[-> Learn more about Stonewall x2 transactions.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> Learn more about Stonewall x2 transactions.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
 
-**[-> Learn more about Stowaway transactions.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> Learn more about Stowaway transactions.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 As for Whirlpool, the protocol no longer seems to function, even for users who have their own Dojo. I have been monitoring my RoninDojo these past few days and attempted some basic manipulations, but the Whirlpool CLI has not been able to connect since the server shutdown.
 
@@ -150,7 +150,7 @@ If you are using a different software than Sparrow, like Electrum, to recover yo
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also check out [our dedicated tutorial](https://planb.network/tutorials/wallet/sparrow).
+You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also check out [our dedicated tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 I also recommend manually importing the labels you had associated with your UTXOs on Samourai. This will allow you to perform effective coin control on Sparrow subsequently.
 
@@ -208,7 +208,7 @@ If you are using another software like Electrum to recover your Samourai wallet,
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also consult [our dedicated tutorial](https://planb.network/tutorials/wallet/sparrow).
+You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also consult [our dedicated tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 I also recommend manually importing the labels you had associated with your UTXOs on Samourai. This will allow you to perform effective coin control on Sparrow subsequently.
 
@@ -320,7 +320,7 @@ I specify "vis-à-vis the authority" because it is important to remember that on
 
 Finally, it is essential to consider the initial anonset of your coin, before the server seizure. Let's take the example of a coin that had reached a prospective anonset of 40,000; the potential decrease in this anonset is probably negligible. Indeed, with an already very high base anonset, it is unlikely that the presence of a few users without Dojo could radically change the situation. However, if your coin had an anonset of 40, then this potential leak could seriously affect your anonsets and potentially allow tracing.
 With the WST tool now out of service following the shutdown of OXT.me, you can only estimate these anonsets. For the retrospective anonset, there's not too much to worry about since the Whirlpool model ensures that it is very high from the first coinjoin, thanks to the legacy of your peers. The only case where this could pose a problem is if your coin hasn't been remixed for several years and it was mixed at the beginning of a pool's launch. Regarding the prospective anonset, you can examine the duration your coin has been available for coinjoins. If it has been several months, then it probably has an extremely high prospective anonset. Conversely, if it was added to a pool just a few hours before the servers were seized, then its prospective anonset is probably very low.
-[**-> Learn more about anonsets and their calculation method.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> Learn more about anonsets and their calculation method.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Another aspect to consider is the impact of consolidations on the anonsets of coins that have been mixed. Given that Whirlpool accounts are no longer accessible via the Samourai app, it is likely that many users have transferred their wallet to other software and attempted to withdraw their funds from Whirlpool. In particular, last weekend, when transaction fees on the Bitcoin network were relatively high, there was a strong technical and economic incentive to consolidate post-mix coins. This means that it is likely that many users have made significant consolidations.
 

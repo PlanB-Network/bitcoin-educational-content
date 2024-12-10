@@ -10,7 +10,7 @@ I dag har tofaktorautentisering (2FA) blitt essensielt for å forbedre sikkerhet
 
 I en annen veiledning forklarte jeg hvordan du setter opp og bruker en TOTP 2FA-applikasjon:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Her vil vi se på hvordan du bruker en fysisk sikkerhetsnøkkel som en sekundær autentiseringsfaktor for alle kontoene dine.
 

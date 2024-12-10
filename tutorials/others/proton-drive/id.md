@@ -31,7 +31,7 @@ Mengenai [penetapan harga](https://proton.me/pricing), versi gratis menawarkan h
 
 Jika Anda belum memiliki akun Proton, Anda perlu membuat satu. Saya mengarahkan Anda ke tutorial Proton Mail kami di mana kami menjelaskan secara detail cara membuat akun Proton gratis dan mengaturnya:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Bagaimana cara mengatur Proton Drive?
 
@@ -43,7 +43,7 @@ Anda sekarang berada di Proton Drive Anda.
 ![PROTON DRIVE](assets/notext/07.webp)
 ## Bagaimana cara menggunakan Proton Drive?
 Untuk menambahkan file ke Proton Drive Anda, ketika Anda hanya menggunakan versi web (kami akan membahas penggunaan versi lokal nanti), Anda cukup menyeret dan melepaskan dokumen Anda langsung ke dalam antarmuka. ![PROTON DRIVE](assets/notext/08.webp) Kemudian Anda dapat menemukan dokumen Anda di halaman utama. ![PROTON DRIVE](assets/notext/09.webp) Untuk menambahkan item baru, klik tombol "*Baru*" di kiri atas layar. ![PROTON DRIVE](assets/notext/10.webp) Fungsi "*Unggah file*" membuka penjelajah file lokal Anda, memungkinkan Anda untuk memilih dan mengimpor dokumen baru ke Proton Drive, sama seperti Anda akan melakukannya dengan menyeret dan melepaskan. ![PROTON DRIVE](assets/notext/11.webp) "*Unggah folder*" memungkinkan Anda untuk mengimpor seluruh folder. ![PROTON DRIVE](assets/notext/12.webp) "*Folder baru*" memungkinkan Anda untuk membuat folder untuk mengorganisir dokumen Anda di Proton Drive dengan lebih baik. ![PROTON DRIVE](assets/notext/13.webp) Klik pada opsi ini, beri nama pada folder Anda. ![PROTON DRIVE](assets/notext/14.webp) Kemudian Anda akan menemukannya langsung di halaman utama Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Akhirnya, "*Dokumen baru*" memungkinkan Anda untuk membuat dokumen teks baru langsung di Proton Drive. ![PROTON DRIVE](assets/notext/16.webp) Dengan mengkliknya, dokumen kosong baru terbuka. ![PROTON DRIVE](assets/notext/17.webp) Anda dapat menulis di dalamnya dan mengeditnya. ![PROTON DRIVE](assets/notext/18.webp) Jika Anda mengklik tombol "*Bagikan*" di kanan atas, Anda dapat membagikan dokumen. ![PROTON DRIVE](assets/notext/19.webp) Anda hanya perlu memasukkan email dari kontributor yang ingin Anda berikan akses ke dokumen, baik dalam mode baca-saja atau dengan hak untuk mengedit. ![PROTON DRIVE](assets/notext/20.webp) Jika Anda kembali ke Proton Drive Anda, Anda dapat melihat bahwa dokumen telah berhasil disimpan. ![PROTON DRIVE](assets/notext/21.webp) Di tab "*Dibagikan*", Anda dapat menemukan dokumen yang telah Anda bagikan dengan orang lain. ![PROTON DRIVE](assets/notext/22.webp) Dan di tab "*Dibagikan dengan saya*", Anda dapat melihat dokumen yang telah dibagikan dengan Anda. ![PROTON DRIVE](assets/notext/23.webp) Akhirnya, di tab "*Sampah*", Anda dapat menemukan dokumen yang baru-baru ini Anda hapus. ![PROTON DRIVE](assets/notext/24.webp) Sebagian besar pengaturan untuk Proton Drive Anda terintegrasi ke dalam akun Proton Anda. Untuk instruksi terperinci tentang pengaturan akun Anda, saya mengundang Anda untuk berkonsultasi dengan tutorial ini:
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Bagaimana cara menginstal perangkat lunak Proton Drive?
 Proton Drive juga menawarkan perangkat lunak yang memungkinkan sinkronisasi file lokal Anda dengan ruang penyimpanan online Anda. Fitur ini memfasilitasi dan mengotomatiskan implementasi strategi cadangan 3-2-1 kami. Dengan perangkat lunak Proton Drive, Anda memperoleh 2 salinan file yang disinkronkan: satu di komputer Anda dan yang lainnya di server Proton, sehingga memenuhi kriteria dari 2 jenis media dan cadangan di luar lokasi. Anda hanya perlu membuat salinan ketiga, yang akan kami atur nanti.
@@ -81,4 +81,4 @@ Selamat, Anda sekarang memiliki strategi cadangan 3-2-1 yang sangat kuat, yang m
 
 Untuk mempelajari lebih lanjut tentang mengamankan kehadiran online Anda dan menghindari peretasan, saya juga merekomendasikan untuk berkonsultasi dengan tutorial terperinci kami tentang manajer kata sandi Bitwarden:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

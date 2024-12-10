@@ -26,10 +26,10 @@ Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expé
 - Avoir [un profil de professeur sur PlanB Network](https://planb.network/professors) (uniquement si vous proposez un tutoriel complet).
 
 **Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vous guideront :**
-**[Comprendre Git et GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Créer un compte GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Configurer votre environnement de travail](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Créer un profil de professeur](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Comprendre Git et GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Créer un compte GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Configurer votre environnement de travail](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Créer un profil de professeur](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 
 ## Quel type de contenu rédiger sur PlanB Network ?
 

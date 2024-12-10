@@ -8,7 +8,7 @@ PlanB的使命是以尽可能多的语言提供关于比特币的顶级教育资
 
 **你想在PlanB网络站点上添加一本与比特币相关的书籍，并增加你作品的可见性，但不知道如何操作？这个教程是为你准备的！**
 ![book](assets/01.webp)
-- 首先，你需要拥有一个GitHub账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/create-github-account)。
+- 首先，你需要拥有一个GitHub账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 - 前往[PlanB专门用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books)的`resources/books/`部分：
 ![book](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：

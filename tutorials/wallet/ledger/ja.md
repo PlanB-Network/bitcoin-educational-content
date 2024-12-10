@@ -215,5 +215,5 @@ https://armantheparman.com/ledgersparrow/
 
 このトピックをさらに掘り下げ、BIP39 passphraseを使用したLedger Nano上のウォレットのセキュリティを強化するために、この包括的なチュートリアルをご覧ください。
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 

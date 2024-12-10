@@ -52,7 +52,7 @@ For å legge til en ny enhet, gjenta ganske enkelt installasjonsprosessen presen
 
 For å sette opp en 2FA-autentiseringskode via en app som Authy på en konto, må kontoen støtte denne funksjonen. I dag tilbyr flertallet av nettjenester denne 2FA-alternativet, men dette er ikke alltid tilfellet. La oss ta eksemplet med Proton mail-kontoen som jeg presenterte i en annen veiledning:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![AUTHY 2FA](assets/notext/13.webp)
 Du vil generelt finne denne 2FA-alternativet i innstillingene til kontoen din, ofte under "*Passord*" eller "*Sikkerhet*" seksjonen.
 ![AUTHY 2FA](assets/notext/14.webp)

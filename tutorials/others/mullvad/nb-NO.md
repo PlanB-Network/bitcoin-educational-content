@@ -80,4 +80,4 @@ Til slutt, menyen "*Split tunneling*" lar deg velge spesifikke applikasjoner på
 For å få en oversikt over din Mullvad-konto og administrere de forskjellige tilkoblede enhetene, kan du klikke på "*Enheter*" menyen på nettsiden.
 ![MULLVAD VPN](assets/notext/37.webp)Og der har du det, du er nå utstyrt til å fullt ut nyte Mullvad VPN. Hvis du er interessert i å oppdage en annen VPN-leverandør som ligner på Mullvad, både når det gjelder funksjoner og prising, anbefaler jeg også å sjekke ut vår veiledning om IVPN:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

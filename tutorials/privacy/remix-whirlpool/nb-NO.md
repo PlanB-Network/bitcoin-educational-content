@@ -48,7 +48,7 @@ Det er derfor jeg anser bruken av Whirlpool som spesielt relevant i en `Hodl -> 
 
 Jeg håper dette svaret har kastet litt lys over Whirlpool-modellen. Hvis du vil lære mer om hvordan coinjoins fungerer på Bitcoin, anbefaler jeg å lese min omfattende artikkel om dette emnet:
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 **Eksterne ressurser:**
 - Samourai Wallet Whirlpool

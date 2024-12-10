@@ -33,7 +33,7 @@ Valitse myös käyttäjänimi sähköpostiosoitteellesi.
 
 Sinua pyydetään sen jälkeen asettamaan salasana. On tärkeää valita vahva salasana tässä vaiheessa, sillä se mahdollistaa pääsyn postilaatikkoosi. Vahvan salasanan tulisi olla mahdollisimman pitkä, käyttää laajaa valikoimaa merkkejä ja olla valittu satunnaisesti. Vuonna 2024 turvallisen salasanan vähimmäissuositukset ovat 13 merkkiä, mukaan lukien numerot, pienet ja suuret kirjaimet sekä symbolit, edellyttäen, että salasana on todella satunnainen. Suosittelen kuitenkin valitsemaan vähintään 20 merkin pituisen salasanan, joka sisältää kaikki mahdolliset merkkityypit, jotta sen turvallisuus säilyisi pidempään.
 Salasananhallintaohjelman käyttö on erinomainen käytäntö. Se ei ainoastaan mahdollista salasanojesi turvallista tallentamista ilman niiden muistamisen tarvetta, vaan se voi myös luoda sinulle pitkiä ja satunnaisia salasanoja. Ihmiset ovat todella huonoja luomaan satunnaisia jonoja, ja riittämättömän satunnainen salasana voi olla haavoittuvainen voimakkaan luvun hyökkäyksille. Suosittelen myös tutustumaan kattavaan oppaaseemme salasananhallintaohjelman asettamisesta lisätietoja varten tästä aiheesta:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Klikkaa "*Luo tili*" -painiketta.
 

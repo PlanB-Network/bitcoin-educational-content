@@ -34,14 +34,14 @@ Selv om det alltid er bedre å forstå hva du gjør (og hvorfor), kan du enkelt 
 
 Men, hvis du er helt ukjent med hvordan Git og GitHub fungerer og ønsker å lære mer, kan du oppdage vår innledende artikkel om disse verktøyene.
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 ## 1. Opprett en konto
 * Opprett en konto på GitHub for å starte med å bidra. Hvis du trenger veiledning om hvordan du oppretter kontoen din på GitHub, har vi også en detaljert opplæring.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 ## **2. Gå til prosjektsiden for ditt språk**

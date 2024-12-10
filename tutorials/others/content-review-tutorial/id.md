@@ -32,10 +32,10 @@ Selain itu, karena Découvre Bitcoin (DB) bertanggung jawab atas evaluasi kontri
 Anda tidak perlu menjadi ahli GitHub untuk mereview konten.
 Meskipun selalu lebih baik untuk memahami apa yang Anda lakukan (dan mengapa), Anda cukup mengikuti instruksi di bawah ini untuk berkontribusi.
 
-Namun, jika Anda sama sekali tidak familiar dengan cara kerja Git dan GitHub dan ingin mempelajari lebih lanjut, Anda dapat menemukan [artikel pengantar kami tentang alat-alat ini](https://planb.network/tutorials/others/basics-of-github).
+Namun, jika Anda sama sekali tidak familiar dengan cara kerja Git dan GitHub dan ingin mempelajari lebih lanjut, Anda dapat menemukan [artikel pengantar kami tentang alat-alat ini](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb).
 
 ## 1. Buat akun
-* Buat akun di GitHub untuk mulai berkontribusi. Jika Anda membutuhkan panduan tentang cara membuat akun Anda di GitHub, kami juga memiliki [tutorial terperinci](https://planb.network/tutorials/others/create-github-account).
+* Buat akun di GitHub untuk mulai berkontribusi. Jika Anda membutuhkan panduan tentang cara membuat akun Anda di GitHub, kami juga memiliki [tutorial terperinci](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 ## **2. Kunjungi halaman proyek untuk bahasa Anda**
 * [Halaman proyek](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) berisi konten dalam bahasa Anda yang ditampilkan pada papan Kanban.
 * Cari kartu di kolom "Review Needed" (lihat **A**). Ini adalah isu yang dapat Anda review.

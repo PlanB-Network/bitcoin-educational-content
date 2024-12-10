@@ -67,7 +67,7 @@ Whirlpool wurde unter Berücksichtigung von zwei wichtigen Anforderungen entwick
 Diese Imperative leiteten die Entscheidungen der Entwickler von Samourai Wallet bei der Gestaltung von Whirlpool, was sie dazu veranlasste, die Anzahl der Teilnehmer pro Zyklus zu begrenzen. Zu wenige Teilnehmer hätten die Wirksamkeit des Coinjoin beeinträchtigt, indem sie die mit jedem Zyklus generierten Anonsets drastisch reduziert hätten, während zu viele Teilnehmer Managementprobleme bei mobilen Anwendungen verursacht hätten und den Fluss der Zyklen behindert hätten.
 
 **Letztendlich ist es nicht notwendig, eine hohe Anzahl von Teilnehmern pro Coinjoin bei Whirlpool zu haben, da die Anonsets über die Ansammlung mehrerer Coinjoin-Zyklen gebildet werden.**
-[-> Erfahren Sie mehr über Whirlpool Anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Erfahren Sie mehr über Whirlpool Anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 ### Coinjoin-Pools und Gebühren
 Um sicherzustellen, dass mehrere Zyklen die Anonsets der gemischten Coins effektiv erhöhen, muss ein bestimmter Rahmen festgelegt werden, um die Mengen der verwendeten UTXOs zu beschränken. Whirlpool definiert dafür verschiedene Pools.
 
@@ -171,7 +171,7 @@ Die Nutzung von Sparrow hat den Vorteil, dass sie recht einfach zu beginnen ist,
 
 ### Sparrow Wallet installieren
 Um zu beginnen, benötigen Sie offensichtlich die Sparrow Wallet Software. Sie können diese direkt von [der offiziellen Webseite](https://sparrowwallet.com/download/) oder auf [ihrem GitHub](https://github.com/sparrowwallet/sparrow/releases) herunterladen.
-Bevor Sie die Software installieren, ist es wichtig, die Signatur und Integrität der gerade heruntergeladenen ausführbaren Datei zu überprüfen. Wenn Sie mehr Details zum Installationsprozess und zur Überprüfung der Sparrow-Software wünschen, rate ich Ihnen, dieses andere Tutorial zu lesen: *[Die Sparrow Wallet Anleitungen](https://planb.network/tutorials/wallet/sparrow)*
+Bevor Sie die Software installieren, ist es wichtig, die Signatur und Integrität der gerade heruntergeladenen ausführbaren Datei zu überprüfen. Wenn Sie mehr Details zum Installationsprozess und zur Überprüfung der Sparrow-Software wünschen, rate ich Ihnen, dieses andere Tutorial zu lesen: *[Die Sparrow Wallet Anleitungen](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
 
 ### Erstellen eines Software-Wallets
 Nach der Installation der Software müssen Sie mit der Erstellung eines Bitcoin-Wallets fortfahren. Es ist wichtig zu beachten, dass für die Teilnahme an Coinjoins die Verwendung eines Software-Wallets (auch "Hot Wallet" genannt) unerlässlich ist. Daher **wird es nicht möglich sein, Coinjoins mit einem durch ein Hardware-Wallet gesicherten Wallet durchzuführen**.
@@ -289,7 +289,7 @@ In diesem Abschnitt haben Sie die Möglichkeit, die Zieladresse, den zu sendende
 
 ![sparrow](assets/notext/33.webp)
 
-[-> Erfahren Sie mehr über Stonewall-Transaktionen.](https://planb.network/tutorials/privacy/stonewall)
+[-> Erfahren Sie mehr über Stonewall-Transaktionen.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Wenn Sie eine präzisere Auswahl Ihrer Münzen zum Ausgeben treffen möchten, gehen Sie zum Reiter `UTXOs`. Wählen Sie die UTXOs aus, die Sie speziell verbrauchen möchten, und drücken Sie dann den Button `Send Selected`, um die Transaktion zu initiieren.
 
@@ -306,7 +306,7 @@ Ein Fenster öffnet sich, beginnen Sie damit, die Ziel-Wallet aus der Dropdown-L
 
 ![sparrow](assets/notext/37.webp)
 
-Wählen Sie die Coinjoin-Schwelle, jenseits derer die Auszahlung automatisch erfolgen wird. Ich kann Ihnen keine genaue Anzahl von Remixes geben, die durchgeführt werden sollen, da dies je nach Ihrer persönlichen Situation und Ihren Datenschutzzielen variiert, aber vermeiden Sie es, eine zu niedrige Schwelle zu wählen. Ich empfehle, diesen anderen Artikel zu konsultieren, um mehr über den Remixing-Prozess zu erfahren: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
+Wählen Sie die Coinjoin-Schwelle, jenseits derer die Auszahlung automatisch erfolgen wird. Ich kann Ihnen keine genaue Anzahl von Remixes geben, die durchgeführt werden sollen, da dies je nach Ihrer persönlichen Situation und Ihren Datenschutzzielen variiert, aber vermeiden Sie es, eine zu niedrige Schwelle zu wählen. Ich empfehle, diesen anderen Artikel zu konsultieren, um mehr über den Remixing-Prozess zu erfahren: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 Sie können die Option `Index range` auf ihrem Standardwert `Full` belassen. Diese Funktion ermöglicht das Mischen gleichzeitig von verschiedenen Clients, aber das ist nicht, was wir in diesem Tutorial tun wollen. Um die Option `Mix to...` zu finalisieren und zu aktivieren, drücken Sie `Restart Whirlpool`.
 
@@ -316,7 +316,7 @@ Seien Sie jedoch vorsichtig bei der Verwendung der Option `Mix to`, da das Entfe
 
 ## Wie kann man die Qualität unserer Coinjoin-Zyklen erkennen?
 Damit ein Coinjoin wirklich effektiv ist, ist es wesentlich, dass er eine gute Homogenität zwischen den Beträgen von Inputs und Outputs aufweist. Diese Uniformität verstärkt die Anzahl der möglichen Interpretationen in den Augen eines externen Beobachters und erhöht damit die Unsicherheit rund um die Transaktion. Um diese durch einen Coinjoin erzeugte Unsicherheit zu quantifizieren, kann man auf die Berechnung der Entropie der Transaktion zurückgreifen. Für eine vertiefende Erkundung dieser Indikatoren verweise ich Sie auf das Tutorial: [BOLTZMANN CALCULATOR](https://planb.network/de/tutorials/privacy/boltzmann-entropy). Das Whirlpool-Modell wird als dasjenige anerkannt, das die meiste Homogenität in Coinjoins bringt.
-Als Nächstes wird die Leistung mehrerer Coinjoin-Zyklen basierend auf der Größe der Gruppen bewertet, in denen eine Münze versteckt ist. Die Größe dieser Gruppen definiert das, was als Anonsets bezeichnet wird. Es gibt zwei Arten von Anonsets: Die erste bewertet den Datenschutzgewinn gegen retrospektive Analyse (von der Gegenwart in die Vergangenheit) und die zweite, gegen prospektive Analyse (von der Vergangenheit in die Gegenwart). Für eine detaillierte Erklärung dieser beiden Indikatoren lade ich Sie ein, das Tutorial zu konsultieren: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
+Als Nächstes wird die Leistung mehrerer Coinjoin-Zyklen basierend auf der Größe der Gruppen bewertet, in denen eine Münze versteckt ist. Die Größe dieser Gruppen definiert das, was als Anonsets bezeichnet wird. Es gibt zwei Arten von Anonsets: Die erste bewertet den Datenschutzgewinn gegen retrospektive Analyse (von der Gegenwart in die Vergangenheit) und die zweite, gegen prospektive Analyse (von der Vergangenheit in die Gegenwart). Für eine detaillierte Erklärung dieser beiden Indikatoren lade ich Sie ein, das Tutorial zu konsultieren: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## Wie verwaltet man Postmix?
 Nachdem Coinjoin-Zyklen durchgeführt wurden, ist die beste Strategie, Ihre UTXOs im **Postmix**-Konto zu behalten, in Erwartung ihrer zukünftigen Verwendung. Es ist sogar ratsam, sie unendlich remixen zu lassen, bis Sie sie ausgeben müssen.
@@ -341,8 +341,8 @@ Als Nächstes müssen Sie vorsichtig sein, wenn Sie toxisches Wechselgeld verwal
 Detaillierte Tutorials zur Implementierung dieser verschiedenen Techniken werden bald im PlanB Network angeboten.
 
 **Zusätzliche Ressourcen:**
-[Sparrow Wallet Video-Tutorial](https://planb.network/tutorials/wallet/sparrow)
-[Samourai Wallet Video-Tutorial](https://planb.network/tutorials/wallet/samourai)
+[Sparrow Wallet Video-Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Samourai Wallet Video-Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Wallet Dokumentation - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-Thread über CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogbeitrag über CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

@@ -24,9 +24,9 @@ Hãy cùng khám phá cách thêm một giáo sư mới trong hướng dẫn nà
 - Có một bản sao của [kho lưu trữ nguồn PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Nếu bạn cần trợ giúp để có được những yêu cầu tiên quyết này, các hướng dẫn khác của tôi sẽ hướng dẫn bạn:**
-**[Hiểu về Git và GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Tạo một Tài khoản GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Thiết lập Môi trường Làm việc của Bạn](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Hiểu về Git và GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Tạo một Tài khoản GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Thiết lập Môi trường Làm việc của Bạn](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 
 ## Làm thế nào để tạo một hồ sơ giáo sư mới?
 

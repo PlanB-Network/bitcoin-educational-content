@@ -66,7 +66,7 @@ Whirlpool的设计考虑了两个重要要求：
 这些必要条件指导了Samourai Wallet的开发者在设计Whirlpool时，使他们限制了每个周期的参与者数量。参与者太少会妨碍coinjoin的效率，极大地减少每个周期生成的匿名集，而参与者过多则会在移动应用上引起管理问题，并会阻碍周期的流动。
 **最终，Whirlpool上每次coinjoin的参与者数量无需过多，因为通过累积多个coinjoin周期就能实现匿名集。**
 
-[-> 了解更多关于Whirlpool匿名集的信息。](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> 了解更多关于Whirlpool匿名集的信息。](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### 池和coinjoin费用
 为了让这些多个周期有效增加混合硬币的匿名集，必须建立一定的框架来限制使用的UTXO金额。Whirlpool因此定义了不同的池。
@@ -300,7 +300,7 @@ Samourai将然后广播你的Tx0。
 
 ![samourai](assets/notext/34.webp)
 
-通过检查`Remixing`标签页，对应于**Postmix**账户，您将观察到来自初始混合的UTXOs。这些硬币将保持准备状态，以便进行后续的重新混合，这将不会产生任何额外费用。我推荐您阅读这篇其他文章，以了解更多关于重新混合过程和coinjoin周期的效率：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)。
+通过检查`Remixing`标签页，对应于**Postmix**账户，您将观察到来自初始混合的UTXOs。这些硬币将保持准备状态，以便进行后续的重新混合，这将不会产生任何额外费用。我推荐您阅读这篇其他文章，以了解更多关于重新混合过程和coinjoin周期的效率：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)。
 
 ![samourai](assets/notext/35.webp)
 
@@ -337,7 +337,7 @@ Samourai将然后广播你的Tx0。
 
 ![samourai](assets/notext/43.webp)
 在下一步中，您可以选择修改与您的交易相关的费率。您还可以通过勾选相应的框来启用Stonewall选项。如果Stonewall选项不可选，这意味着您的**Postmix**账户中没有足够大小的UTXO来支持这种特定的交易结构。
-[-> 了解更多关于Stonewall交易的信息。](https://planb.network/tutorials/privacy/stonewall)
+[-> 了解更多关于Stonewall交易的信息。](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 如果一切符合您的满意，点击绿色的`SEND ... BTC`按钮。
 
@@ -370,7 +370,7 @@ Whirlpool将自动关闭。等待Samourai完成加载，然后再次打开Whirlp
 
 ## 如何知道我们的coinjoin周期的质量？
 为了使coinjoin真正有效，它必须在输入和输出的金额之间展示良好的一致性。这种一致性增加了外部观察者可能的解释数量，从而增加了围绕交易的不确定性。为了量化coinjoin产生的不确定性，可以通过计算交易的熵来实现。要深入探索这些指标，我推荐您参考教程：[BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy)。Whirlpool模型被认为是为coinjoins带来最多同质性的模型。
-接下来，我们将根据一个硬币在其中被隐藏的群组的范围，评估几个coinjoin周期的性能。这些群组的大小定义了所谓的匿名集（anonsets）。有两种类型的匿名集：第一种是针对回顾性分析（从现在到过去）评估获得的隐私；第二种是针对前瞻性分析（从过去到现在）。为了详细解释这两个指标，我邀请您参考教程：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)。
+接下来，我们将根据一个硬币在其中被隐藏的群组的范围，评估几个coinjoin周期的性能。这些群组的大小定义了所谓的匿名集（anonsets）。有两种类型的匿名集：第一种是针对回顾性分析（从现在到过去）评估获得的隐私；第二种是针对前瞻性分析（从过去到现在）。为了详细解释这两个指标，我邀请您参考教程：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)。
 
 ## 如何管理postmix？
 在执行coinjoin周期后，最佳策略是将您的UTXOs保留在**postmix**账户中，等待将来使用。甚至建议让它们无限期地重新混合，直到您需要花费它们为止。
@@ -398,7 +398,7 @@ Whirlpool将自动关闭。等待Samourai完成加载，然后再次打开Whirlp
 关于实施这些不同技术的详细教程将很快在PlanB Network上提供。
 
 **额外资源：**
-- [Samourai Wallet视频教程](https://planb.network/tutorials/wallet/samourai);
+- [Samourai Wallet视频教程](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
 - [Samourai Wallet文档 - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [关于coinjoins的Twitter线索](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [关于coinjoins的博客文章](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

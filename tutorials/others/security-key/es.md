@@ -10,7 +10,7 @@ Hoy en día, la autenticación de dos factores (2FA) se ha vuelto esencial para 
 
 En otro tutorial, expliqué cómo configurar y usar una aplicación 2FA TOTP:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Aquí, veremos cómo usar una llave de seguridad física como un segundo factor de autenticación para todas tus cuentas.
 

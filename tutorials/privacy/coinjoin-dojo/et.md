@@ -64,7 +64,7 @@ Whirlpool on loodud arvestades kahte olulist nõuet:
 Need imperatiivid juhtisid Samourai Walleti arendajate valikuid Whirlpooli kujundamisel, sundides neid piirama osalejate arvu tsükli kohta. Liiga vähesed osalejad oleksid ohustanud coinjoin'i efektiivsust, drastiliselt vähendades iga tsükli genereeritud anonüümsuskomplekte, samas kui liiga paljud osalejad oleksid tekitanud haldusprobleeme mobiilirakendustes ja takistanud tsüklite voolu.
 **Lõppkokkuvõttes pole Whirlpoolis vaja suurt osalejate arvu coinjoin'i kohta, kuna anonüümsuskomplektid saavutatakse mitme coinjoin tsükli kuhjumise kaudu.**
 
-[-> Uuri lähemalt Whirlpooli anonüümsuskomplektide kohta.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Uuri lähemalt Whirlpooli anonüümsuskomplektide kohta.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Basseinid ja coinjoin tasud
 Selleks, et need mitmed tsüklid tõhusalt suurendaksid segatud müntide anonüümsuskomplekte, tuleb kehtestada teatud raamistik, et piirata kasutatavate UTXO-de summasid. Whirlpool määratleb seega erinevad basseinid.
@@ -255,7 +255,7 @@ Järgmises sammus pääsete juurde lehele, mis on pühendatud teie Dojo seadista
 
 ![coinjoin](assets/notext/24.webp)
 
-*Uutele Samourai kasutajatele on seejärel vajalik luua rahakott nullist. Kui vajate abi, võite konsulteerida juhiseid uue Samourai rahakoti seadistamiseks [selles õpetuses, eriti jaotises "Creating a software wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*Uutele Samourai kasutajatele on seejärel vajalik luua rahakott nullist. Kui vajate abi, võite konsulteerida juhiseid uue Samourai rahakoti seadistamiseks [selles õpetuses, eriti jaotises "Creating a software wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 Kui tegelete juba olemasoleva Samourai rahakoti taastamisega, valige `Restore existing wallet`, seejärel valige `I have a Samourai backup file`.
 ![coinjoin](assets/notext/25.webp)
 Tavaliselt peaks teie taastefail alati olema teie lõikelauale kopeeritud. Seejärel klõpsake `PASTE`, et sisestada oma fail ettenähtud kohta. Selle dekrüpteerimiseks on vajalik sisestada ka teie rahakoti BIP39 paroolfraas vastavasse väljasse, mis asub kohe allpool. Lõpetamiseks klõpsake `FINISH`.
@@ -360,4 +360,4 @@ Teie segatud UTXOd on nähtavad Whirlpool GUI **Järelsegamine** kontolt. Lisaks
 Whirlpooli kontod on Samourai Walletis sinise värviga hõlpsasti äratuntavad. See võimaldab teil oma segatud UTXOsid kulutada igal ajal ja igal pool, otse oma nutitelefonist.
 
 ![coinjoin](assets/notext/53.webp)
-Selleks, et jälgida oma automaatseid coinjoine, soovitan samuti seadistada vaatlus-ainult rahakoti läbi Sentinel rakenduse. Lisa oma **Postmix** konto ZPUB ja jälgi oma coinjoin tsüklite edenemist reaalajas. Kui soovid mõista, kuidas Sentinelit kasutada, soovitan konsulteerida selle teise õpetusega PlanB võrgustikus: [**SENTINEL VAATLUS-AINULT**](https://planb.network/tutorials/wallet/sentinel)
+Selleks, et jälgida oma automaatseid coinjoine, soovitan samuti seadistada vaatlus-ainult rahakoti läbi Sentinel rakenduse. Lisa oma **Postmix** konto ZPUB ja jälgi oma coinjoin tsüklite edenemist reaalajas. Kui soovid mõista, kuidas Sentinelit kasutada, soovitan konsulteerida selle teise õpetusega PlanB võrgustikus: [**SENTINEL VAATLUS-AINULT**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

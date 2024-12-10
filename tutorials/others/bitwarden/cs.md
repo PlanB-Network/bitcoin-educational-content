@@ -16,7 +16,7 @@ Aplikace těchto dvou principů bezpečnosti hesel (unikátnost a robustnost) se
 
 Správce hesel generuje a bezpečně ukládá silná hesla, což vám umožňuje přistupovat ke všem vašim online účtům bez nutnosti je individuálně pamatovat. Potřebujete si zapamatovat pouze jedno heslo, hlavní heslo, které vám dává přístup ke všem vašim uloženým heslům ve správci. Používání správce hesel zvyšuje vaši online bezpečnost, protože brání opětovnému používání hesel a systematicky generuje náhodná hesla. Ale také zjednodušuje vaše každodenní používání účtů centralizací přístupu k vašim citlivým informacím.
 V tomto tutoriálu prozkoumáme, jak nastavit a používat správce hesel pro zvýšení vaší online bezpečnosti. Představím vám Bitwarden a v dalším tutoriálu se podíváme na další řešení nazvané KeePass.
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Varování: Správce hesel je skvělý pro ukládání hesel, ale **nikdy byste v něm neměli ukládat mnemonickou frázi vaší Bitcoinové peněženky!** Pamětní fráze by měla být výhradně uložena ve fyzickém formátu, jako je kus papíru nebo kovu.
 
@@ -67,9 +67,9 @@ Především vám důrazně doporučuji nastavit dvoufaktorové ověření (2FA)
 
 Pokud si nejste jisti, jak nastavit a používat tyto zařízení 2FA, doporučuji následovat tyto 2 další tutoriály:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Pro toto přejděte na záložku "*Bezpečnost*" v menu "*Nastavení*".
 ![BITWARDEN](assets/notext/14.webp)

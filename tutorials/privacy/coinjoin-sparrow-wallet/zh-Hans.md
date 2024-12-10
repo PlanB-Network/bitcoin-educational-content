@@ -67,7 +67,7 @@ Whirlpool的设计考虑了两个重要要求：
 这些必要条件指导了Samourai Wallet的开发者在设计Whirlpool时的选择，使他们限制了每个周期的参与者数量。参与者太少会妨碍coinjoin的有效性，极大地减少每个周期生成的匿名集，而参与者过多则会在移动应用上造成管理问题，并会阻碍周期的流动。
 
 **最终，在Whirlpool上每次coinjoin的参与者数量无需过多，因为匿名集是通过多个coinjoin周期的累积形成的。**
-[-> 了解更多关于Whirlpool匿名集的信息。](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> 了解更多关于Whirlpool匿名集的信息。](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 ### Coinjoin池和费用
 为了确保多个周期有效地增加混合硬币的匿名集，必须建立一定的框架来限制使用的UTXOs的金额。Whirlpool为此定义了不同的池。
 
@@ -172,7 +172,7 @@ Whirlpool的设计考虑了两个重要要求：
 ### 安装Sparrow Wallet
 首先，您显然需要Sparrow Wallet软件。您可以直接从[官方网站](https://sparrowwallet.com/download/)或在[他们的GitHub](https://github.com/sparrowwallet/sparrow/releases)上下载。
 
-在安装软件之前，验证您刚下载的可执行文件的签名和完整性将是重要的。如果您想了解有关Sparrow软件安装过程和验证的更多细节，我建议您阅读这个其他教程：*[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/sparrow)*。
+在安装软件之前，验证您刚下载的可执行文件的签名和完整性将是重要的。如果您想了解有关Sparrow软件安装过程和验证的更多细节，我建议您阅读这个其他教程：*[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*。
 
 ### 创建软件钱包
 安装软件后，您需要继续创建一个比特币钱包。重要的是要注意，要参与coinjoins，使用软件钱包（也称为"热钱包"）是必不可少的。因此，**使用硬件钱包保护的钱包将无法进行coinjoins**。
@@ -287,7 +287,7 @@ Sparrow邀请您为您的钱包创建一个密码。通过Sparrow Wallet软件�
 
 ![sparrow](assets/notext/33.webp)
 
-[-> 了解更多关于Stonewall交易的信息。](https://planb.network/tutorials/privacy/stonewall)
+[-> 了解更多关于Stonewall交易的信息。](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 如果您希望更精确地选择要花费的硬币，请转到`UTXOs`标签。选择您特别想要消费的UTXOs，然后按`发送选中的`按钮来启动交易。
 
@@ -305,7 +305,7 @@ Sparrow邀请您为您的钱包创建一个密码。通过Sparrow Wallet软件�
 
 ![sparrow](assets/notext/37.webp)
 
-选择混币阈值，超过该阈值后将自动进行提款。我不能给您一个执行混币的确切次数，因为这根据您的个人情况和隐私目标而有所不同，但避免选择过低的阈值。我推荐咨询这篇其他文章来了解更多关于混币过程的信息：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)。
+选择混币阈值，超过该阈值后将自动进行提款。我不能给您一个执行混币的确切次数，因为这根据您的个人情况和隐私目标而有所不同，但避免选择过低的阈值。我推荐咨询这篇其他文章来了解更多关于混币过程的信息：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)。
 
 您可以将`索引范围`选项保留在其默认值`Full`。这个功能允许从不同的客户端同时进行混币，但这不是我们在本教程中想要做的。要完成并激活`混币到...`选项，请按`重启Whirlpool`。
 
@@ -314,7 +314,7 @@ Sparrow邀请您为您的钱包创建一个密码。通过Sparrow Wallet软件�
 然而，在使用`混币到`选项时要小心，因为从您的`Postmix`账户中移除混合硬币可能会显著增加损害您隐私的风险。以下部分将详细说明这种可能性的原因。
 
 ## 如何了解我们的混币周期的质量？
-为了确保coinjoin（联合交易）真正有效，至关重要的是它在输入和输出的金额之间呈现良好的同质性。这种一致性增加了外部观察者可能的解释数量，从而增加了围绕交易的不确定性。为了量化coinjoin产生的不确定性，可以通过计算交易的熵来实现。要深入探索这些指标，我推荐您参考教程：[BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy)。Whirlpool模型被认为是在coinjoins中带来最多同质性的模型。接下来，基于隐藏一个硬币的群组大小，评估几个coinjoin周期的性能。这些群组的大小定义了所谓的匿名集。有两种类型的匿名集：第一种是针对回顾性分析（从现在到过去）评估获得的隐私，第二种是针对前瞻性分析（从过去到现在）。要详细解释这两个指标，我邀请您参考教程：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)。
+为了确保coinjoin（联合交易）真正有效，至关重要的是它在输入和输出的金额之间呈现良好的同质性。这种一致性增加了外部观察者可能的解释数量，从而增加了围绕交易的不确定性。为了量化coinjoin产生的不确定性，可以通过计算交易的熵来实现。要深入探索这些指标，我推荐您参考教程：[BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy)。Whirlpool模型被认为是在coinjoins中带来最多同质性的模型。接下来，基于隐藏一个硬币的群组大小，评估几个coinjoin周期的性能。这些群组的大小定义了所谓的匿名集。有两种类型的匿名集：第一种是针对回顾性分析（从现在到过去）评估获得的隐私，第二种是针对前瞻性分析（从过去到现在）。要详细解释这两个指标，我邀请您参考教程：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)。
 
 ## 如何管理postmix？
 在执行coinjoin周期后，最佳策略是将您的UTXOs保留在**postmix**账户中，等待将来使用。甚至建议让它们无限期地重新混合，直到您需要花费它们。
@@ -339,8 +339,8 @@ Sparrow邀请您为您的钱包创建一个密码。通过Sparrow Wallet软件�
 关于实施这些不同技术的详细教程将很快在PlanB Network上提供。
 
 **额外资源：**
-- [Sparrow Wallet视频教程](https://planb.network/tutorials/wallet/sparrow);
-- [Samourai Wallet视频教程](https://planb.network/tutorials/wallet/samourai);
+- [Sparrow Wallet视频教程](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607);
+- [Samourai Wallet视频教程](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
 - [Samourai Wallet文档 - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [关于CoinJoins的Twitter讨论串](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [关于CoinJoins的博客文章](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

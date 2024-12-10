@@ -52,7 +52,7 @@ Authy相比大型科技公司的其他解决方案有几个优势。首先，它
 
 要通过像Authy这样的应用在账户上设置2FA认证码，该账户必须支持此功能。如今，大多数在线服务都提供这个2FA选项，但并非总是如此。以我在另一个教程中介绍的Proton邮件账户为例：
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![AUTHY 2FA](assets/notext/13.webp)
 您通常会在账户的设置中找到这个2FA选项，通常位于“*密码*”或“*安全性*”部分下。
 ![AUTHY 2FA](assets/notext/14.webp)

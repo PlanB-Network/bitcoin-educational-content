@@ -28,9 +28,9 @@ Green est une application très facile à utiliser, ce qui la rend particulière
 
 Dans ce tutoriel, nous nous concentrerons uniquement sur la création d'un portefeuille watch-only. Pour explorer d'autres utilisations de Green, je vous invite à consulter nos autres tutoriels dédiés :
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Installer et paramétrer l'application Blockstream Green
 
@@ -122,4 +122,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser 
 
 Je vous conseille également de découvrir cet autre tutoriel complet sur l'application Blockstream Green pour mettre en place un portefeuille chaud :
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

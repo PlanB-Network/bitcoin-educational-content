@@ -40,7 +40,7 @@ description: Whirlpoolでどれくらいのリミックスを行うべきか？
 そのため、私は`Hodl -> Mix -> Spend -> Replace`戦略において、Whirlpoolの使用が特に関連性が高いと考えています。私の意見では、最も論理的なアプローチは、ビットコインの大部分をコールドウォレットに保持しつつ、日常の支出をカバーするために、常にSamourai上でコインジョインに一定数のコインを維持することです。コインジョインからのビットコインが使われたら、混合されたコインの定義された閾値に戻るために新しいものと交換されます。この方法により、私たちはUTXOの匿名セットに関する懸念から自由になり、コインジョインが効果的であるために必要な時間を大幅に短縮することができます。
 この回答がWhirlpoolモデルについて少しでも光を当てることができたことを願っています。Bitcoin上でのコインジョインの仕組みについてもっと学びたい場合は このトピックに関する私の包括的な記事 を読むことをお勧めします。
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 **外部リソース:**
 - https://samouraiwallet.com/whirlpool

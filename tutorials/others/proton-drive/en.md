@@ -32,7 +32,7 @@ Regarding [pricing](https://proton.me/pricing), the free version offers up to 5 
 
 If you do not yet have a Proton account, you will need to create one. I refer you to our Proton Mail tutorial in which we explain in detail how to create a free Proton account and set it up:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## How to set up Proton Drive?
 
@@ -45,7 +45,7 @@ You are now on your Proton Drive.
 ## How to use Proton Drive?
 To add files to your Proton Drive, when you are exclusively using the web version (we will discuss the use of the local version later), you simply need to drag and drop your documents directly into the interface. ![PROTON DRIVE](assets/notext/08.webp) You can then find your document on the homepage. ![PROTON DRIVE](assets/notext/09.webp) To add a new item, click on the "*New*" button at the top left of the screen. ![PROTON DRIVE](assets/notext/10.webp) The "*Upload file*" function opens your local file explorer, allowing you to select and import new documents to Proton Drive, just as you would by dragging and dropping. ![PROTON DRIVE](assets/notext/11.webp) "*Upload folder*" allows you to import an entire folder. ![PROTON DRIVE](assets/notext/12.webp) "*New folder*" enables you to create a folder to better organize your documents on Proton Drive. ![PROTON DRIVE](assets/notext/13.webp) Click on this option, assign a name to your folder. ![PROTON DRIVE](assets/notext/14.webp) Then you will find it directly on the homepage of Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Finally, "*New document*" allows you to create a new text document directly in Proton Drive. ![PROTON DRIVE](assets/notext/16.webp) By clicking on it, a new blank document opens. ![PROTON DRIVE](assets/notext/17.webp) You can write on it and edit it. ![PROTON DRIVE](assets/notext/18.webp) If you click on the "*Share*" button at the top right, you can share the document. ![PROTON DRIVE](assets/notext/19.webp) You just need to enter the email of the contributor whom you wish to give access to the document, either in read-only mode or with editing rights. ![PROTON DRIVE](assets/notext/20.webp) If you go back to your Proton Drive, you can see that the document has been saved successfully. ![PROTON DRIVE](assets/notext/21.webp) In the "*Shared*" tab, you can find the documents that you have shared with others. ![PROTON DRIVE](assets/notext/22.webp) And in the "*Shared with me*" tab, you can see the documents that others have shared with you. ![PROTON DRIVE](assets/notext/23.webp) Finally, in the "*Trash*" tab, you can find your recently deleted documents. ![PROTON DRIVE](assets/notext/24.webp) Most settings for your Proton Drive are integrated into your Proton account. For detailed instructions on setting up your account, I invite you to consult this tutorial:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## How to install Proton Drive software?
 Proton Drive also offers software that enables the synchronization of your local files with your online storage space. This feature facilitates and automates the implementation of our 3-2-1 backup strategy. With the Proton Drive software, you obtain 2 synchronized copies of your files: one on your computer and the other on Proton's servers, thus fulfilling the criteria of 2 media types and off-site backup. You will simply need to create a third copy, which we will set up later.
@@ -84,4 +84,4 @@ Congratulations, you now have a very robust 3-2-1 backup strategy, which allows 
 
 To learn more about securing your online presence and avoiding hacking, I also recommend consulting our detailed tutorial on the Bitwarden password manager:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

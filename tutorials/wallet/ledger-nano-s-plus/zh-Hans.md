@@ -51,7 +51,7 @@ Ledger Nano S Plus可以在[官方网站](https://shop.ledger.com/products/ledge
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 对于这两个软件程序，我强烈建议在将它们安装到你的机器上之前，检查它们的真实性（通过GnuPG）和完整性（通过哈希）。如果你不确定如何做，你可以跟随这个其他教程：
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## 如何初始化一个Ledger Nano？
 
@@ -123,7 +123,7 @@ Ledger将使用其随机数生成器创建您的助记词。在进行此操作�
 
 密码短语是增强您的比特币安全性的非常强大的工具。然而，在实施之前了解它的工作原理非常重要，以避免失去对您钱包的访问。这就是为什么我建议您在希望在您的Ledger上设置密码短语时，咨询这个专门的教程：
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 "*PIN锁定*" 菜单允许您配置并激活在确定的不活动期后自动锁定您的Ledger。
 
@@ -214,7 +214,7 @@ https://planb.network/tutorials/wallet/passphrase-ledger
 在您的钱包中接收第一笔比特币之前，**我强烈建议您执行一次干运行恢复测试**。记录下一个参考信息，例如您的xpub，然后在钱包仍为空时重置您的Ledger Nano。之后，尝试使用您的纸质备份在Ledger上恢复您的钱包。检查恢复后生成的xpub是否与您最初记录的那个相匹配。如果是这样，您就可以确信您的纸质备份是可靠的。
 要了解更多关于如何执行恢复测试的信息，我建议您参考这个教程：
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## 如何用Ledger Nano接收比特币？
 
@@ -244,7 +244,7 @@ https://planb.network/tutorials/wallet/recovery-test
 
 有关标签的更多信息，我还建议您查看这个教程：
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 然后您可以使用这个地址来接收比特币。
 
@@ -310,4 +310,4 @@ https://planb.network/tutorials/privacy/utxo-labelling
 
 我还推荐您查看有关Ledger Flex的完整教程：
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

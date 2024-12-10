@@ -10,9 +10,9 @@ Jika, saat mengkonsultasikan salah satu konten pendidikan kami (tutorial, pelati
 
 Tutorial ini memandu Anda langkah demi langkah melalui proses mengoreksi kesalahan kecil tersebut. Ini adalah tutorial yang ditujukan untuk pemula yang tidak ingin terjun ke dalam kerumitan Git. Namun, jika Anda nyaman dengan Git, berikut adalah ringkasan cepat: Anda hanya perlu melakukan fork [repositori data Jaringan PlanB](https://github.com/PlanB-Network/bitcoin-educational-content), membuat perubahan pada cabang yang didedikasikan, dan mengajukan Pull Request terhadap cabang `dev` dari repositori sumber.
 
-Harap dicatat bahwa jika Anda berencana untuk melakukan tinjauan dan revisi dokumen secara lengkap, terutama untuk terjemahan konten, saya mengundang Anda untuk berkonsultasi [tutorial lebih rinci ini](https://planb.network/tutorials/others/content-review-tutorial). Di sini, kami hanya fokus pada cara melakukan koreksi cepat untuk kesalahan kecil.
+Harap dicatat bahwa jika Anda berencana untuk melakukan tinjauan dan revisi dokumen secara lengkap, terutama untuk terjemahan konten, saya mengundang Anda untuk berkonsultasi [tutorial lebih rinci ini](https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Di sini, kami hanya fokus pada cara melakukan koreksi cepat untuk kesalahan kecil.
 
-- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/create-github-account).
+- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content):
 ![typos](assets/01.webp)
 - Di sini, Anda akan menemukan semua konten kami yang disusun berdasarkan bagian.

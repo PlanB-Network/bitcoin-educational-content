@@ -33,7 +33,7 @@ Juga, pilih nama pengguna untuk alamat email Anda.
 
 Anda kemudian diminta untuk menetapkan kata sandi. Penting untuk memilih kata sandi yang kuat pada tahap ini, karena itu akan memungkinkan akses ke kotak surat Anda. Kata sandi yang kuat harus sepanjang mungkin, menggunakan berbagai karakter yang luas, dan dipilih secara acak. Pada tahun 2024, rekomendasi minimum untuk kata sandi yang aman adalah 13 karakter termasuk angka, huruf kecil dan huruf besar, serta simbol, asalkan kata sandi tersebut benar-benar acak. Namun, saya merekomendasikan untuk memilih kata sandi setidaknya 20 karakter, termasuk semua jenis karakter yang mungkin, untuk memastikan keamanannya lebih lama.
 Penggunaan manajer kata sandi adalah praktik yang sangat baik. Ini tidak hanya memungkinkan Anda untuk menyimpan kata sandi Anda secara aman tanpa harus mengingatnya, tetapi juga dapat menghasilkan kata sandi yang panjang dan acak untuk Anda. Memang benar manusia sangat buruk dalam menciptakan urutan acak, dan kata sandi yang tidak cukup acak dapat rentan terhadap serangan brute force. Saya juga merekomendasikan untuk berkonsultasi dengan tutorial lengkap kami tentang pengaturan manajer kata sandi untuk lebih detail mengenai topik ini:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Klik tombol "*Create Account*".
 

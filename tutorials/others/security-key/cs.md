@@ -10,7 +10,7 @@ V dnešní době se dvoufaktorová autentizace (2FA) stala nezbytnou pro zvýše
 
 V jiném tutoriálu jsem vysvětlil, jak nastavit a používat aplikaci TOTP 2FA:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Zde se podíváme, jak používat fyzický bezpečnostní klíč jako druhý faktor autentizace pro všechny vaše účty.
 

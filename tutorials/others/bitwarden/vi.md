@@ -16,7 +16,7 @@ Nguyên tắc thiết yếu thứ hai là độ mạnh của mật khẩu. Một
 
 Một trình quản lý mật khẩu tạo và lưu trữ an toàn các mật khẩu mạnh, cho phép bạn truy cập vào tất cả các tài khoản trực tuyến mà không cần phải ghi nhớ chúng một cách riêng lẻ. Bạn chỉ cần nhớ một mật khẩu, mật khẩu chính, cho phép bạn truy cập vào tất cả mật khẩu đã lưu trong trình quản lý. Sử dụng trình quản lý mật khẩu tăng cường an ninh trực tuyến của bạn vì nó ngăn chặn việc tái sử dụng mật khẩu và hệ thống tạo mật khẩu ngẫu nhiên. Nhưng nó cũng đơn giản hóa việc sử dụng hàng ngày các tài khoản của bạn bằng cách tập trung truy cập vào thông tin nhạy cảm của bạn.
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thiết lập và sử dụng trình quản lý mật khẩu để tăng cường an ninh trực tuyến của bạn. Tôi sẽ giới thiệu bạn với Bitwarden, và trong một hướng dẫn khác, chúng ta sẽ tìm hiểu về một giải pháp khác gọi là KeePass.
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Cảnh báo: Trình quản lý mật khẩu rất tốt để lưu trữ mật khẩu, nhưng **bạn không bao giờ nên lưu cụm từ ghi nhớ của ví Bitcoin trong đó!** Nhớ rằng, cụm từ ghi nhớ nên được lưu trữ độc quyền trong định dạng vật lý, như một tờ giấy hoặc kim loại.
 
@@ -68,9 +68,9 @@ Trước hết và quan trọng nhất, tôi rất khuyên bạn nên thiết l�
 
 Nếu bạn không chắc cách thiết lập và sử dụng các thiết bị 2FA này, tôi khuyên bạn nên theo dõi 2 hướng dẫn khác này:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Để làm điều này, đi đến tab "*Bảo mật*" trong menu "*Cài đặt*".
 ![BITWARDEN](assets/notext/14.webp)

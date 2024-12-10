@@ -30,7 +30,7 @@ Angående [priser](https://proton.me/pricing), tilbyr gratisversjonen opptil 5 G
 
 Hvis du ennå ikke har en Proton-konto, må du opprette en. Jeg henviser deg til vår Proton Mail-opplæring der vi forklarer i detalj hvordan du oppretter en gratis Proton-konto og setter den opp:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Hvordan sette opp Proton Drive?
 
@@ -42,7 +42,7 @@ Du er nå på din Proton Drive.
 ![PROTON DRIVE](assets/notext/07.webp)
 ## Hvordan bruke Proton Drive?
 For å legge til filer i din Proton Drive, når du utelukkende bruker webversjonen (vi vil diskutere bruk av den lokale versjonen senere), trenger du bare å dra og slippe dokumentene dine direkte inn i grensesnittet. ![PROTON DRIVE](assets/notext/08.webp) Du kan deretter finne dokumentet ditt på hjemmesiden. ![PROTON DRIVE](assets/notext/09.webp) For å legge til et nytt element, klikk på "*Ny*" knappen øverst til venstre på skjermen. ![PROTON DRIVE](assets/notext/10.webp) Funksjonen "*Last opp fil*" åpner din lokale filutforsker, som lar deg velge og importere nye dokumenter til Proton Drive, akkurat som du ville gjort ved å dra og slippe. ![PROTON DRIVE](assets/notext/11.webp) "*Last opp mappe*" lar deg importere en hel mappe. ![PROTON DRIVE](assets/notext/12.webp) "*Ny mappe*" gjør det mulig for deg å opprette en mappe for bedre å organisere dokumentene dine på Proton Drive. ![PROTON DRIVE](assets/notext/13.webp) Klikk på dette alternativet, tildel et navn til mappen din. ![PROTON DRIVE](assets/notext/14.webp) Deretter vil du finne den direkte på hjemmesiden til Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Til slutt, "*Nytt dokument*" lar deg opprette et nytt tekst dokument direkte i Proton Drive. ![PROTON DRIVE](assets/notext/16.webp) Ved å klikke på det, åpnes et nytt blankt dokument. ![PROTON DRIVE](assets/notext/17.webp) Du kan skrive på det og redigere det. ![PROTON DRIVE](assets/notext/18.webp) Hvis du klikker på "*Del*" knappen øverst til høyre, kan du dele dokumentet. ![PROTON DRIVE](assets/notext/19.webp) Du trenger bare å skrive inn e-posten til bidragsyteren som du ønsker å gi tilgang til dokumentet, enten i skrivebeskyttet modus eller med redigeringsrettigheter. ![PROTON DRIVE](assets/notext/20.webp) Hvis du går tilbake til din Proton Drive, kan du se at dokumentet har blitt lagret vellykket. ![PROTON DRIVE](assets/notext/21.webp) I fanen "*Delt*" kan du finne dokumentene som du har delt med andre. ![PROTON DRIVE](assets/notext/22.webp) Og i fanen "*Delt med meg*" kan du se dokumentene som andre har delt med deg. ![PROTON DRIVE](assets/notext/23.webp) Til slutt, i fanen "*Søppel*" kan du finne dine nylig slettede dokumenter. ![PROTON DRIVE](assets/notext/24.webp) De fleste innstillinger for din Proton Drive er integrert i din Proton-konto. For detaljerte instruksjoner om å sette opp kontoen din, inviterer jeg deg til å konsultere denne veiledningen:
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Hvordan installere Proton Drive programvare?
 Proton Drive tilbyr også programvare som muliggjør synkronisering av dine lokale filer med ditt online lagringsområde. Denne funksjonen letter og automatiserer implementeringen av vår 3-2-1 sikkerhetskopistrategi. Med Proton Drive-programvaren får du 2 synkroniserte kopier av filene dine: en på datamaskinen din og den andre på Protons servere, og oppfyller dermed kriteriene for 2 mediatyper og sikkerhetskopi utenfor stedet. Du trenger bare å opprette en tredje kopi, som vi vil sette opp senere.
@@ -80,4 +80,4 @@ Gratulerer, du har nå en veldig robust 3-2-1 sikkerhetskopistrategi, som lar de
 
 For å lære mer om å sikre din online tilstedeværelse og unngå hacking, anbefaler jeg også at du konsulterer vår detaljerte opplæring om Bitwarden passordbehandler:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

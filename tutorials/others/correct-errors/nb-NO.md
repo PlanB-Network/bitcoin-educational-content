@@ -12,13 +12,13 @@ Denne veiledningen guider deg trinn for trinn gjennom prosessen med å korrigere
 
 Vennligst merk at hvis du planlegger å utføre en komplett gjennomgang og revisjon av et dokument, spesielt for innholdsoversettelser, inviterer jeg deg til å konsultere denne andre mer detaljerte veiledningen.
 
-https://planb.network/tutorials/others/content-review-tutorial
+https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 
 Her fokuserer vi kun på hvordan man gjør en rask korreksjon for en liten feil.
 
 - Først må du ha en konto på GitHub. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å guide deg.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data):

@@ -8,7 +8,7 @@ BIP39パスフレーズは、ニーモニックフレーズと組み合わせる
 
 このチュートリアルを始める前に、パスフレーズの概念、その仕組み、およびBitcoinウォレットに対するその意味について不慣れな場合は、すべてを説明するこの他の理論的な記事を参照することを強くお勧めします：
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Ledgerでのパスフレーズ機能はどのように動作するのか？
 
@@ -28,9 +28,9 @@ Ledgerデバイスでは、ウォレットにパスフレーズを設定する�
 **注意:** パスフレーズを有効にする前に既にLedgerにビットコインを受け取っている場合は、ビットコイントランザクションを介してそれらを転送する必要があります。パスフレーズは新しいキーセットを生成し、初期のウォレットとは完全に独立したウォレットを作成します。パスフレーズを追加すると、新しい空のウォレットができます。しかし、これはパスフレーズなしの最初のウォレットを削除するわけではありません。パスフレーズを入力せずにLedgerを直接使用するか、24語のフレーズを使用して別のソフトウェアを通じて、引き続きアクセスできます。
 このチュートリアルを始める前に、既にLedgerを初期化し、ニーモニックフレーズを生成していることを確認してください。そうでない場合、またはLedgerが新しい場合は、PlanB Networkで利用可能なモデルに応じた特定のチュートリアルに従ってください。このステップが完了したら、このチュートリアルに戻ることができます。
 
-https://planb.network/tutorials/wallet/ledger-flex
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
-https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Ledgerで一時的なパスフレーズを設定する方法は？
 
@@ -173,4 +173,4 @@ Sparrow Walletへのアクセスを保護するために強力なパスワード
 
 また、Ledger Flexの使用方法に関するこの完全なチュートリアルもチェックすることをお勧めします：
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

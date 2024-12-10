@@ -33,7 +33,7 @@ Também, escolha o nome de usuário para o seu endereço de email.
 
 Você é então solicitado a definir uma senha. É importante escolher uma senha forte nesta etapa, pois ela permitirá acesso à sua caixa de correio. Uma senha robusta deve ser o mais longa possível, usar uma grande variedade de caracteres e ser escolhida aleatoriamente. Em 2024, as recomendações mínimas para uma senha segura são 13 caracteres incluindo números, letras minúsculas e maiúsculas, bem como símbolos, desde que a senha seja verdadeiramente aleatória. No entanto, recomendo optar por uma senha de pelo menos 20 caracteres, incluindo todos os tipos possíveis de caracteres, para garantir sua segurança por mais tempo.
 O uso de um gerenciador de senhas é uma excelente prática. Ele não apenas permite que você armazene suas senhas de forma segura sem ter que memorizá-las, mas também pode gerar senhas longas e aleatórias para você. De fato, os humanos são muito ruins em criar sequências aleatórias, e uma senha que não é suficientemente aleatória pode ser vulnerável a ataques de força bruta. Eu também recomendo consultar nosso tutorial completo sobre a configuração de um gerenciador de senhas para mais detalhes sobre este tópico:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Clique no botão "*Criar Conta*".
 

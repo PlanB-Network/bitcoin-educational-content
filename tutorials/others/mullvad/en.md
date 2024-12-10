@@ -85,4 +85,4 @@ To get an overview of your Mullvad account and manage the various connected devi
 ![MULLVAD VPN](assets/notext/37.webp)
 And there you have it, you are now equipped to fully enjoy Mullvad VPN. If you're interested in discovering another VPN provider similar to Mullvad, both in terms of features and pricing, I also recommend checking out our tutorial on IVPN:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

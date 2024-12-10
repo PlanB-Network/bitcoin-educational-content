@@ -10,7 +10,7 @@ Ngày nay, xác thực hai yếu tố (2FA) đã trở nên thiết yếu để 
 
 Trong một hướng dẫn khác, tôi đã giải thích cách thiết lập và sử dụng một ứng dụng 2FA TOTP:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ở đây, chúng ta sẽ xem cách sử dụng một khóa bảo mật vật lý làm yếu tố xác thực thứ hai cho tất cả tài khoản của bạn.
 

@@ -47,7 +47,7 @@ Do đó, logic nên như sau khi sử dụng công cụ chi tiêu Samourai:
 
 Nếu bạn muốn tìm một người hợp tác sẵn lòng hỗ trợ bạn trong một giao dịch Stonewall X2, bạn cũng có thể tham gia nhóm Telegram này (không chính thức) được duy trì bởi người dùng Samourai để kết nối người gửi và người hợp tác: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> Tìm hiểu thêm về giao dịch Stonewall**](https://planb.network/tutorials/privacy/stonewall)
+[**-> Tìm hiểu thêm về giao dịch Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Mục đích của một giao dịch Stonewall x2 là gì?
 

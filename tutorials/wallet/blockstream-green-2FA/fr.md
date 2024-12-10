@@ -20,7 +20,7 @@ Green est une application particulièrement facile à utiliser, ce qui la rend i
 
 Blockstream Green supporte aussi le réseau Liquid, une sidechain de Bitcoin développée par Blockstream pour réaliser des transactions rapides et confidentielles en dehors de la blockchain principale. Dans ce tutoriel, on se concentre exclusivement sur Bitcoin, mais j'ai également fait un autre tutoriel pour apprendre à utiliser Liquid sur Green :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## L'option multisig 2/2 (2FA)
 
@@ -40,7 +40,7 @@ Un autre inconvénient de cette méthode de sécurisation est que vous devrez ut
 
 Si vous préférez ne pas utiliser l'option 2FA et souhaitez simplement configurer un portefeuille "*singlesig*" sur Green, je vous invite à consulter cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installer et paramétrer le logiciel Blockstream Green
 
@@ -148,7 +148,7 @@ Cliquez sur le bouton vert "*Augmentez la sécurité de votre compte en ajoutant
 
 Vous aurez ensuite la possibilité de choisir la méthode d'authentification pour accéder à la seconde clé de votre multisig 2/2. Pour ce tutoriel, nous utiliserons une application d'authentification. Si vous n'êtes pas familier avec ce type d'application, je vous recommande de consulter notre tutoriel sur Authy :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Sélectionnez "*Authentificateur Application*".
 
@@ -264,4 +264,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser 
 
 Je vous conseille également de découvrir cet autre tutoriel complet sur l'application mobile Blockstream Green pour mettre en place un portefeuille Liquid :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

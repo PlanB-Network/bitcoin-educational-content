@@ -10,7 +10,7 @@ Le 2FA introduit une couche de sécurité supplémentaire en requérant une seco
 
 Dans un autre tutoriel, je vous expliquais comment mettre en place et utiliser une application de 2FA TOTP :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ici, nous allons voir comment utiliser une clé de sécurité physique comme second facteur d'authentification pour tous vos comptes.
 

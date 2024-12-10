@@ -16,7 +16,7 @@ Det andre essensielle prinsippet er passordets styrke. Et passord anses som ster
 
 En passordbehandler genererer og lagrer sterke passord på en sikker måte, og lar deg få tilgang til alle dine online kontoer uten å måtte huske dem individuelt. Du trenger bare å huske ett passord, hovedpassordet, som gir deg tilgang til alle dine lagrede passord i behandleren. Å bruke en passordbehandler forbedrer din online sikkerhet fordi det forhindrer gjenbruk av passord og systematisk genererer tilfeldige passord. Men det forenkler også din daglige bruk av kontoene dine ved å sentralisere tilgangen til din sensitive informasjon.
 I denne opplæringen vil vi lære hvordan man setter opp og bruker en lokal passordbehandler for å forbedre din online sikkerhet. Her vil jeg introdusere deg for KeePass. Men, hvis du er nybegynner og ønsker å ha en online passordbehandler som er i stand til å synkronisere på tvers av flere enheter, anbefaler jeg å følge vår opplæring om Bitwarden:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -105,7 +105,7 @@ Programvaren vil opprette en ny database hvor passordene dine vil bli lagret. Du
 ![KEEPASS](assets/notext/16.webp)
 Etterpå bør du tenke på å regelmessig ta sikkerhetskopi av denne mappen for å unngå å miste legitimasjonen din i tilfelle tap, skade eller tyveri av datamaskinen din. For eksempel kan du kopiere databasen til en USB-stikk hver uke. Filen som inneholder databasen din heter `Database.kdbx` (dokumentet er kryptert med ditt hovedpassord). For flere råd om beste praksis for sikkerhetskopiering, anbefaler jeg også å konsultere denne andre opplæringen:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Neste kommer valget av ditt hovedpassord.
 ![KEEPASS](assets/notext/17.webp)
@@ -149,4 +149,4 @@ Det dekker de grunnleggende funksjonene til KeePass. Selvfølgelig, denne opplæ
 
 Hvis du er interessert i å lære hvordan du drastisk kan forbedre sikkerheten til dine online kontoer for å unngå hacking med 2FA, anbefaler jeg også å sjekke ut denne andre opplæringen:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

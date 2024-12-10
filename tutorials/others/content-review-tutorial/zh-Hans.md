@@ -32,10 +32,10 @@ PlanB.network从根本上是多语言的，因为我们的目标是使全世界�
 你不需要成为GitHub专家就可以审核内容。
 虽然理解你在做什么（以及为什么）总是更好，但你可以简单地按照下面的说明来贡献。
 
-然而，如果你对Git和GitHub的工作方式完全不熟悉，并且想要了解更多，你可以发现[我们关于这些工具的入门文章](https://planb.network/tutorials/others/basics-of-github)。
+然而，如果你对Git和GitHub的工作方式完全不熟悉，并且想要了解更多，你可以发现[我们关于这些工具的入门文章](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)。
 
 ## 1. 创建账户
-* 在GitHub上创建一个账户开始贡献。如果你需要指导如何在GitHub上创建你的账户，我们也有[一个详细的教程](https://planb.network/tutorials/others/create-github-account)。
+* 在GitHub上创建一个账户开始贡献。如果你需要指导如何在GitHub上创建你的账户，我们也有[一个详细的教程](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 ## **2. 前往你所使用语言的项目页面**
 * [项目页面](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen)展示了你所使用语言的内容，这些内容在看板板上显示。
 * 寻找“需要审核”的列中的卡片（见**A**）。这些是你可以审核的问题。

@@ -52,7 +52,7 @@ Uue seadme lisamiseks korrake lihtsalt eelmises osas esitatud installiprotsessi,
 
 2FA autentimiskoodi seadistamiseks rakenduse, nagu Authy kaudu kontol, peab konto toetama seda funktsiooni. Tänapäeval pakuvad enamik veebiteenuseid seda 2FA võimalust, kuid see ei ole alati nii. Võtame näiteks Proton maili konto, millest rääkisin teises õpetuses:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![AUTHY 2FA](assets/notext/13.webp)
 Üldiselt leiate selle 2FA võimaluse oma konto seadetest, sageli "*Password*" (Parool) või "*Security*" (Turvalisus) jaotise all.
 ![AUTHY 2FA](assets/notext/14.webp)

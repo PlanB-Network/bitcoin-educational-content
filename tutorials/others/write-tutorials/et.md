@@ -26,10 +26,10 @@ PlanB võrgustikku panustamiseks on teil 3 võimalust, sõltuvalt teie kogemuse 
 - Omada [professori profiili PlanB võrgustikus](https://planb.network/professors) (ainult juhul, kui pakute täielikku õpetust).
 
 **Kui vajate abi nende eeltingimuste saamiseks, juhendavad teid minu teised õpetused:**
-- **[Git'i ja GitHub'i mõistmine](https://planb.network/tutorials/others/basics-of-github)**
-- **[GitHub'i konto loomine](https://planb.network/tutorials/others/create-github-account)**
-- **[Töökeskkonna seadistamine](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[Professori profiili loomine](https://planb.network/tutorials/others/create-teacher-profile)**
+- **[Git'i ja GitHub'i mõistmine](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+- **[GitHub'i konto loomine](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[Töökeskkonna seadistamine](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+- **[Professori profiili loomine](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Millist tüüpi sisu kirjutada PlanB võrgustikus?
 Otsime peamiselt õpetusi tööriistade kohta, mis on seotud Bitcoin'i või selle ökosüsteemiga. Need sisud võivad olla korraldatud kuue peamise kategooria ümber:
 - Rahakott;

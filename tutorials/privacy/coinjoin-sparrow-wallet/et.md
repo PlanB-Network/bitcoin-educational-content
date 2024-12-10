@@ -69,7 +69,7 @@ Whirlpool on loodud arvestades kahte olulist nõuet:
 Need imperatiivid juhtisid Samourai Walleti arendajate valikuid Whirlpooli kujundamisel, sundides neid piirama osalejate arvu tsükli kohta. Liiga vähesed osalejad oleksid ohustanud coinjoin'i efektiivsust, drastiliselt vähendades iga tsükliga genereeritud anonüümsete osalejate hulka, samas kui liiga paljud osalejad oleksid tekitanud haldusprobleeme mobiilirakendustes ja takistanud tsüklite voolu.
 
 **Lõppkokkuvõttes pole Whirlpoolis iga coinjoin'i kohta vaja suurt osalejate arvu, kuna anonüümsete osalejate hulgad luuakse mitme coinjoin-tsükli kuhjumise kaudu.**
-[-> Uuri lähemalt Whirlpooli anonüümsete osalejate kohta.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Uuri lähemalt Whirlpooli anonüümsete osalejate kohta.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 ### Coinjoin basseinid ja tasud
 Selleks, et mitu tsüklit tõhusalt suurendaksid segatud müntide anonüümsete osalejate hulka, tuleb kehtestada teatud raamistik, et piirata kasutatavate UTXO-de koguseid. Whirlpool määratleb selleks erinevad basseinid.
 
@@ -173,7 +173,7 @@ Sparrow kasutamise eeliseks on see, et alustamine on üsna lihtne, seadistamine 
 ### Sparrow Wallet'i paigaldamine
 Alustuseks vajate ilmselgelt Sparrow Wallet tarkvara. Saate selle otse alla laadida [ametlikult veebilehelt](https://sparrowwallet.com/download/) või [nende GitHubist](https://github.com/sparrowwallet/sparrow/releases).
 
-Enne tarkvara paigaldamist on oluline kontrollida allalaaditud täitmisfaili allkirja ja terviklikkust. Kui soovite Sparrow tarkvara paigaldusprotsessi ja kontrollimise kohta rohkem üksikasju, soovitan teil lugeda seda teist õpetust: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/sparrow)*.
+Enne tarkvara paigaldamist on oluline kontrollida allalaaditud täitmisfaili allkirja ja terviklikkust. Kui soovite Sparrow tarkvara paigaldusprotsessi ja kontrollimise kohta rohkem üksikasju, soovitan teil lugeda seda teist õpetust: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*.
 
 ### Tarkvararahakoti loomine
 Pärast tarkvara paigaldamist peate jätkama Bitcoin'i rahakoti loomisega. On oluline märkida, et coinjoinide kasutamiseks on hädavajalik kasutada tarkvararahakotti (nn "kuum rahakott"). Seega **ei ole võimalik teostada coinjoine rahakotiga, mis on turvatud riistvaralise rahakotiga**.
@@ -288,7 +288,7 @@ Selles jaotises on teil võimalus sisestada sihtkoha aadress, saadetava summa ja
 
 ![sparrow](assets/notext/33.webp)
 
-[-> Uuri lähemalt Stonewall tehingute kohta.](https://planb.network/tutorials/privacy/stonewall)
+[-> Uuri lähemalt Stonewall tehingute kohta.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Kui soovite oma kulutatavate müntide valikut täpsemalt teha, minge `UTXOs` vahelehele. Valige spetsiifiliselt tarbida soovitud UTXOd ja seejärel vajutage `Send Selected` nuppu tehingu alustamiseks.
 
@@ -306,7 +306,7 @@ Aken avaneb, alustage sihtkoha rahakoti valimisega rippmenüüst.
 
 ![sparrow](assets/notext/37.webp)
 
-Valige coinjoini läviväärtus, millest alates tehakse väljamakse automaatselt. Ma ei saa teile täpset remixide arvu anda, kuna see varieerub vastavalt teie isiklikule olukorrale ja privaatsuseesmärkidele, kuid vältige liiga madala läviväärtuse valimist. Soovitan konsulteerida selle teise artikliga, et rohkem teada saada remiximise protsessist: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
+Valige coinjoini läviväärtus, millest alates tehakse väljamakse automaatselt. Ma ei saa teile täpset remixide arvu anda, kuna see varieerub vastavalt teie isiklikule olukorrale ja privaatsuseesmärkidele, kuid vältige liiga madala läviväärtuse valimist. Soovitan konsulteerida selle teise artikliga, et rohkem teada saada remiximise protsessist: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa).
 
 Võite jätta `Index range` valiku vaikimisi väärtusele `Full`. See funktsioon võimaldab segamist samaaegselt erinevatest klientidest, kuid see pole meie eesmärk selles õpetuses. `Mix to...` valiku lõplikuks aktiveerimiseks vajutage `Restart Whirlpool`.
 
@@ -315,7 +315,7 @@ Võite jätta `Index range` valiku vaikimisi väärtusele `Full`. See funktsioon
 Siiski olge `Mix to` valiku kasutamisel ettevaatlik, kuna segatud müntide eemaldamine teie `Postmix` kontolt võib oluliselt suurendada teie privaatsuse ohustamise riski. Selle potentsiaali põhjused on üksikasjalikult kirjeldatud järgmistes jaotistes.
 
 ## Kuidas teada meie coinjoin tsüklite kvaliteeti?
-Selleks, et coinjoin oleks tõeliselt efektiivne, on oluline, et see esitaks hea homogeensuse sisendite ja väljundite summade vahel. See ühtlus suurendab võimalike tõlgenduste arvu välise vaatleja silmis, suurendades seeläbi tehingu ümber olevat ebakindlust. Coinjoini poolt tekitatud ebakindluse kvantifitseerimiseks võib kasutada tehingu entroopia arvutamist. Nende näitajate põhjalikumaks uurimiseks viitan teile õpetusele: [BOLTZMANNI KALKULAATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Whirlpooli mudelit tunnustatakse kui seda, mis toob coinjoinides kõige rohkem homogeensust. Järgnevalt hinnatakse mitme coinjoini tsükli tulemuslikkust grupi suuruse põhjal, millesse münt on peidetud. Nende gruppide suurus määratleb nn anonsetid. Anonsete on kahte tüüpi: esimene hindab privaatsuse kasvu tagasiulatuva analüüsi vastu (olevikust minevikku) ja teine, etteulatuva analüüsi vastu (minevikust olevikku). Nende kahe näitaja detailseks selgituseks kutsun teid üles konsulteerima õpetusega: [WHIRLPOOLI STATISTIKATÖÖRIISTAD - ANONSETID](https://planb.network/tutorials/privacy/wst-anonsets).
+Selleks, et coinjoin oleks tõeliselt efektiivne, on oluline, et see esitaks hea homogeensuse sisendite ja väljundite summade vahel. See ühtlus suurendab võimalike tõlgenduste arvu välise vaatleja silmis, suurendades seeläbi tehingu ümber olevat ebakindlust. Coinjoini poolt tekitatud ebakindluse kvantifitseerimiseks võib kasutada tehingu entroopia arvutamist. Nende näitajate põhjalikumaks uurimiseks viitan teile õpetusele: [BOLTZMANNI KALKULAATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Whirlpooli mudelit tunnustatakse kui seda, mis toob coinjoinides kõige rohkem homogeensust. Järgnevalt hinnatakse mitme coinjoini tsükli tulemuslikkust grupi suuruse põhjal, millesse münt on peidetud. Nende gruppide suurus määratleb nn anonsetid. Anonsete on kahte tüüpi: esimene hindab privaatsuse kasvu tagasiulatuva analüüsi vastu (olevikust minevikku) ja teine, etteulatuva analüüsi vastu (minevikust olevikku). Nende kahe näitaja detailseks selgituseks kutsun teid üles konsulteerima õpetusega: [WHIRLPOOLI STATISTIKATÖÖRIISTAD - ANONSETID](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 
 ## Kuidas hallata postmixi?
 Pärast coinjoini tsüklite sooritamist on parim strateegia hoida oma UTXOsid **postmix** kontol, oodates nende tulevast kasutamist. On isegi soovitatav lasta neil lõputult remixida, kuni peate neid kulutama.
@@ -340,8 +340,8 @@ Järgmisena peate olema ettevaatlik doxxic muutuse haldamisel, muutusega, mis ei
 Nende erinevate tehnikate rakendamise kohta pakutakse varsti üksikasjalikke õpetusi PlanB Networkis.
 
 **Lisaresursid:**
-- [Sparrow Wallet Videoõpetus](https://planb.network/tutorials/wallet/sparrow);
-- [Samourai Wallet Videoõpetus](https://planb.network/tutorials/wallet/samourai);
+- [Sparrow Wallet Videoõpetus](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607);
+- [Samourai Wallet Videoõpetus](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
 - [Samourai Wallet Dokumentatsioon - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitteri lõim CoinJoinsi kohta](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogipostitus CoinJoinsi kohta](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

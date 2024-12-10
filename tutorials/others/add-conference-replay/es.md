@@ -10,13 +10,13 @@ La misión de PlanB es proporcionar recursos educativos de primera categoría so
 
 Sin embargo, si quieres añadir una conferencia que tendrá lugar en el futuro, te aconsejo que leas este otro tutorial en el que explicamos cómo añadir un nuevo evento al sitio.
 
-https://planb.network/tutorials/others/add-event
+https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 - Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) en la sección `resources/conference/`:
@@ -69,7 +69,7 @@ tags:
 
 ![conference](assets/09.webp)
 Si aún no tienes un identificador de "*builder*" para tu organización, puedes agregarlo siguiendo este otro tutorial.
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Una vez que hayas terminado de hacer cambios en este archivo, guárdalos haciendo clic en el botón `Commit changes...`:
 ![conferencia](assets/10.webp)

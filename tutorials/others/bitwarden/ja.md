@@ -16,7 +16,7 @@ description: パスワードマネージャーの設定方法
 
 パスワードマネージャーは強力なパスワードを生成し、安全に保存することで、個々にそれらを記憶する必要なく、すべてのオンラインアカウントにアクセスできるようにします。あなたが覚える必要があるのは1つのパスワード、マスターパスワードだけで、これによりマネージャーに保存されたすべてのパスワードにアクセスできます。パスワードマネージャーを使用することは、パスワードの再利用を防ぎ、系統的にランダムなパスワードを生成することで、オンラインセキュリティを強化します。しかし、あなたのアカウントの日常使用を、あなたの機密情報へのアクセスを一元化することで簡素化します。
 このチュートリアルでは、オンラインセキュリティを強化するためにパスワードマネージャーを設定し、使用する方法を探ります。Bitwardenについて紹介し、別のチュートリアルではKeePassという別のソリューションを見ていきます。
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 警告：パスワードマネージャーはパスワードの保存には最適ですが、**ビットコインウォレットのニーモニックフレーズをそれに保存してはいけません！** ニーモニックフレーズは、紙や金属のような物理的な形式でのみ保存されるべきです。
 
@@ -68,9 +68,9 @@ Bitwardenのもう一つの特徴は、例えば自宅にNASを所有してい�
 
 これらの2FAデバイスの設定と使用方法が不明な場合は、以下の2つのチュートリアルをお勧めします：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 これを行うには、「*セキュリティ*」タブを「*設定*」メニューでクリックします。
 ![BITWARDEN](assets/notext/14.webp)

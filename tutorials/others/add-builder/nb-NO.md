@@ -10,7 +10,7 @@ PlanB's oppdrag er å tilby førsteklasses utdanningsressurser om Bitcoin, på s
 ![builder](assets/01.webp)
 - Først må du ha en GitHub-konto. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) i `resources/builder/`-seksjonen:

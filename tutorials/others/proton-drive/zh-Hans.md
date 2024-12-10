@@ -30,7 +30,7 @@ Proton Drive提供的不仅仅是简单的存储选项；它还允许在线共�
 
 如果您还没有Proton账户，您将需要创建一个。我推荐您参考我们的Proton Mail教程，在其中我们详细解释了如何创建一个免费的Proton账户并设置它：
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## 如何设置Proton Drive？
 
@@ -42,7 +42,7 @@ https://planb.network/tutorials/others/proton-mail
 ![PROTON DRIVE](assets/notext/07.webp)
 ## 如何使用Proton Drive？
 要将文件添加到您的Proton Drive中，当您专门使用网页版本时（我们稍后将讨论本地版本的使用），您只需将文档直接拖放到界面中。![PROTON DRIVE](assets/notext/08.webp) 然后，您可以在首页上找到您的文档。![PROTON DRIVE](assets/notext/09.webp) 要添加新项目，请点击屏幕左上角的“*新建*”按钮。![PROTON DRIVE](assets/notext/10.webp) “*上传文件*”功能会打开您的本地文件浏览器，允许您选择并导入新文档到Proton Drive，就像您通过拖放操作一样。![PROTON DRIVE](assets/notext/11.webp) “*上传文件夹*”允许您导入整个文件夹。![PROTON DRIVE](assets/notext/12.webp) “*新建文件夹*”使您能够创建一个文件夹，以便在Proton Drive上更好地组织您的文档。![PROTON DRIVE](assets/notext/13.webp) 点击此选项，为您的文件夹指定一个名称。![PROTON DRIVE](assets/notext/14.webp) 然后您可以直接在Proton Drive的首页上找到它。![PROTON DRIVE](assets/notext/15.webp) 最后，“*新建文档*”允许您直接在Proton Drive中创建一个新的文本文档。![PROTON DRIVE](assets/notext/16.webp) 点击它，一个新的空白文档就会打开。![PROTON DRIVE](assets/notext/17.webp) 您可以在上面写字并编辑。![PROTON DRIVE](assets/notext/18.webp) 如果您点击右上角的“*分享*”按钮，您可以分享该文档。![PROTON DRIVE](assets/notext/19.webp) 您只需输入您希望授予文档访问权限的贡献者的电子邮件，无论是以只读模式还是具有编辑权限。![PROTON DRIVE](assets/notext/20.webp) 如果您返回到您的Proton Drive，您可以看到文档已经成功保存。![PROTON DRIVE](assets/notext/21.webp) 在“*已分享*”标签中，您可以找到您与他人分享的文档。![PROTON DRIVE](assets/notext/22.webp) 而在“*与我共享*”标签中，您可以看到其他人与您分享的文档。![PROTON DRIVE](assets/notext/23.webp) 最后，在“*垃圾箱*”标签中，您可以找到您最近删除的文档。![PROTON DRIVE](assets/notext/24.webp) 您的Proton Drive的大多数设置都集成到您的Proton账户中。有关设置账户的详细说明，请参阅此教程：
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 如何安装Proton Drive软件？
 Proton Drive还提供了一款软件，使您的本地文件与在线存储空间同步。这个功能便于并自动化了我们的3-2-1备份策略的实施。通过Proton Drive软件，您可以获得两个同步的文件副本：一个在您的电脑上，另一个在Proton的服务器上，从而满足了两种媒介类型和异地备份的标准。您只需创建第三份副本，我们稍后将进行设置。
@@ -80,4 +80,4 @@ Proton Drive还提供了一款软件，使您的本地文件与在线存储空�
 
 要了解更多关于保护您的在线存在和避免黑客攻击的信息，我还推荐您查阅我们关于Bitwarden密码管理器的详细教程：
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

@@ -18,7 +18,7 @@ Pour acheter du bitcoin sur Bitfinex, commencez par [créer un compte sur la pla
 
 Pour sécuriser vos mots de passe et garantir l'utilisation de mots de passe forts pour vos comptes en ligne, notamment sur Bitfinex, je vous conseille fortement d'utiliser un gestionnaire de mots de passe. Découvrez notre tutoriel sur Bitwarden pour apprendre à l'installer et à l'utiliser au quotidien :
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vous pouvez ensuite faire un dépôt avec le moyen de paiement de votre choix puis acheter du bitcoin.
 
@@ -38,11 +38,11 @@ https://youtu.be/_Ah34kG6tng
 
 Si vous ne savez pas comment utiliser ces solutions de double authentification pour sécuriser vos comptes en ligne, je vous recommande de consulter notre tutoriel sur l'application Authy :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ou, si vous préférez utiliser une clé physique, vous pouvez consulter notre tutoriel sur Yubikey :
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Comment utiliser les fonctionnalités de trading ?
 

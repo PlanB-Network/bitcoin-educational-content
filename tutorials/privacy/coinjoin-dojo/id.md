@@ -64,7 +64,7 @@ Whirlpool dirancang dengan mempertimbangkan dua persyaratan penting:
 Imperatif ini memandu pilihan para pengembang Samourai Wallet dalam desain Whirlpool, membawa mereka untuk membatasi jumlah peserta per siklus. Terlalu sedikit peserta akan mengompromikan efisiensi coinjoin, secara drastis mengurangi anonset yang dihasilkan setiap siklus, sementara terlalu banyak peserta akan menimbulkan masalah manajemen pada aplikasi mobile dan akan menghambat aliran siklus.
 **Pada akhirnya, tidak perlu memiliki jumlah peserta yang tinggi per coinjoin di Whirlpool karena anonset dicapai melalui akumulasi beberapa siklus coinjoin.**
 
-[-> Pelajari lebih lanjut tentang anonset Whirlpool.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Pelajari lebih lanjut tentang anonset Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Pool dan biaya coinjoin
 Agar siklus berganda ini secara efektif meningkatkan anonset dari coin yang dicampur, sebuah kerangka kerja tertentu harus ditetapkan untuk membatasi jumlah UTXO yang digunakan. Whirlpool mendefinisikan berbagai pool.
@@ -253,7 +253,7 @@ Pada langkah selanjutnya, Anda akan mengakses halaman yang didedikasikan untuk m
 
 ![coinjoin](assets/notext/24.webp)
 
-*Untuk pengguna baru Samourai, kemudian akan diperlukan untuk membuat dompet dari awal. Jika Anda memerlukan bantuan, Anda dapat berkonsultasi dengan instruksi untuk menyiapkan dompet Samourai baru [dalam tutorial ini, khususnya di bagian "Creating a software wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).*
+*Untuk pengguna baru Samourai, kemudian akan diperlukan untuk membuat dompet dari awal. Jika Anda memerlukan bantuan, Anda dapat berkonsultasi dengan instruksi untuk menyiapkan dompet Samourai baru [dalam tutorial ini, khususnya di bagian "Creating a software wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef).*
 Jika Anda sedang melanjutkan pemulihan dompet Samourai yang sudah ada, pilih `Restore existing wallet`, kemudian pilih `I have a Samourai backup file`.
 ![coinjoin](assets/notext/25.webp)
 Biasanya, Anda seharusnya selalu memiliki file pemulihan Anda di clipboard. Kemudian klik pada `PASTE` untuk memasukkan file Anda ke lokasi yang ditentukan. Untuk mendekripsinya, akan diperlukan juga untuk memasukkan frasa sandi BIP39 dari dompet Anda di kolom yang sesuai, yang terletak tepat di bawahnya. Untuk menyelesaikan, klik pada `FINISH`.
@@ -359,4 +359,4 @@ UTXO Anda yang telah dicampur terlihat dari akun **Postmix** pada Whirlpool GUI.
 Akun Whirlpool mudah dikenali di Samourai Wallet dengan warna birunya. Ini memungkinkan Anda untuk menghabiskan UTXO Anda yang telah dicampur dari mana saja dan kapan saja, langsung dari smartphone Anda.
 
 ![coinjoin](assets/notext/53.webp)
-Untuk melacak coinjoin otomatis Anda, saya juga merekomendasikan untuk mengatur dompet hanya-pantau melalui aplikasi Sentinel. Tambahkan ZPUB dari akun **Postmix** Anda dan pantau progres siklus coinjoin Anda secara real-time. Jika Anda ingin memahami cara menggunakan Sentinel, saya merekomendasikan untuk berkonsultasi dengan tutorial lain ini di PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).
+Untuk melacak coinjoin otomatis Anda, saya juga merekomendasikan untuk mengatur dompet hanya-pantau melalui aplikasi Sentinel. Tambahkan ZPUB dari akun **Postmix** Anda dan pantau progres siklus coinjoin Anda secara real-time. Jika Anda ingin memahami cara menggunakan Sentinel, saya merekomendasikan untuk berkonsultasi dengan tutorial lain ini di PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9).

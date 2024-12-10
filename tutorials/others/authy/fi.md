@@ -52,7 +52,7 @@ Uuden laitteen lisäämiseksi toista vain aiemmin esitetty asennusprosessi käyt
 
 Jotta voit ottaa käyttöön 2FA-tunnistuskoodin sovelluksen, kuten Authyn kautta tilillä, tilin on tuettava tätä ominaisuutta. Nykyään suurin osa online-palveluista tarjoaa tämän 2FA-vaihtoehdon, mutta näin ei aina ole. Otetaan esimerkiksi Proton mail -tili, jonka esittelin toisessa oppaassa:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![AUTHY 2FA](assets/notext/13.webp)
 Yleensä löydät tämän 2FA-vaihtoehdon tilisi asetuksista, usein "*Salasana*" tai "*Turvallisuus*" -osion alla.
 ![AUTHY 2FA](assets/notext/14.webp)

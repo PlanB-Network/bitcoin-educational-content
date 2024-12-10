@@ -34,14 +34,14 @@ Mặc dù luôn tốt hơn khi hiểu bạn đang làm gì (và tại sao), bạ
 
 Tuy nhiên, nếu bạn hoàn toàn không quen với cách hoạt động của Git và GitHub và muốn tìm hiểu thêm, bạn có thể khám phá bài viết giới thiệu của chúng tôi về những công cụ này.
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 ## 1. Tạo một tài khoản
 * Tạo một tài khoản trên GitHub để bắt đầu đóng góp. Nếu bạn cần hướng dẫn về cách tạo tài khoản trên GitHub, chúng tôi cũng có một hướng dẫn chi tiết.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 ## **2. Đi tới trang dự án của ngôn ngữ bạn**

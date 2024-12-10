@@ -69,7 +69,7 @@ Whirlpool dirancang dengan mempertimbangkan dua persyaratan penting:
 Imperatif ini memandu pilihan para pengembang Samourai Wallet dalam perancangan Whirlpool, membawa mereka untuk membatasi jumlah peserta per siklus. Terlalu sedikit peserta akan mengompromikan efektivitas coinjoin, secara drastis mengurangi anonset yang dihasilkan dengan setiap siklus, sementara terlalu banyak peserta akan menimbulkan masalah manajemen pada aplikasi mobile dan akan menghambat aliran siklus.
 
 **Pada akhirnya, tidak perlu memiliki jumlah peserta yang tinggi per coinjoin di Whirlpool karena anonset dibuat melalui akumulasi beberapa siklus coinjoin.**
-[-> Pelajari lebih lanjut tentang anonset Whirlpool.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Pelajari lebih lanjut tentang anonset Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 ### Pool Coinjoin dan Biaya
 Untuk memastikan bahwa beberapa siklus secara efektif meningkatkan anonset dari coin yang dicampur, harus ada kerangka kerja tertentu yang ditetapkan untuk membatasi jumlah UTXO yang digunakan. Whirlpool mendefinisikan berbagai pool untuk tujuan ini.
 
@@ -173,7 +173,7 @@ Menggunakan Sparrow memiliki keuntungan karena cukup mudah untuk memulai, cepat 
 ### Instal Sparrow Wallet
 Untuk memulai, Anda tentu saja akan memerlukan perangkat lunak Sparrow Wallet. Anda dapat langsung mengunduhnya dari [situs resmi](https://sparrowwallet.com/download/) atau di [GitHub mereka](https://github.com/sparrowwallet/sparrow/releases).
 
-Sebelum menginstal perangkat lunak, akan penting untuk memverifikasi tanda tangan dan integritas dari eksekutabel yang baru saja Anda unduh. Jika Anda ingin lebih banyak detail tentang proses instalasi dan verifikasi perangkat lunak Sparrow, saya menyarankan Anda untuk membaca tutorial lain ini: *[Panduan Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow)*.
+Sebelum menginstal perangkat lunak, akan penting untuk memverifikasi tanda tangan dan integritas dari eksekutabel yang baru saja Anda unduh. Jika Anda ingin lebih banyak detail tentang proses instalasi dan verifikasi perangkat lunak Sparrow, saya menyarankan Anda untuk membaca tutorial lain ini: *[Panduan Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*.
 
 ### Membuat Dompet Perangkat Lunak
 Setelah menginstal perangkat lunak, Anda perlu melanjutkan dengan membuat dompet Bitcoin. Penting untuk dicatat bahwa untuk berpartisipasi dalam coinjoin, penggunaan dompet perangkat lunak (juga disebut "hot wallet") adalah esensial. Oleh karena itu, **tidak akan mungkin untuk melakukan coinjoin dengan dompet yang diamankan oleh dompet perangkat keras**.
@@ -289,7 +289,7 @@ Di bagian ini, Anda akan memiliki opsi untuk memasukkan alamat tujuan, jumlah ya
 
 ![sparrow](assets/notext/33.webp)
 
-[-> Pelajari lebih lanjut tentang transaksi Stonewall.](https://planb.network/tutorials/privacy/stonewall)
+[-> Pelajari lebih lanjut tentang transaksi Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Jika Anda ingin membuat seleksi koin yang lebih tepat untuk dibelanjakan, pergilah ke tab `UTXOs`. Pilih UTXO yang secara khusus ingin Anda konsumsi, kemudian tekan tombol `Send Selected` untuk memulai transaksi.
 
@@ -307,7 +307,7 @@ Sebuah jendela terbuka, mulailah dengan memilih dompet tujuan dari daftar dropdo
 
 ![sparrow](assets/notext/37.webp)
 
-Pilih ambang batas coinjoin di mana penarikan akan dilakukan secara otomatis. Saya tidak dapat memberi Anda jumlah remix yang tepat untuk dilakukan, karena ini bervariasi menurut situasi pribadi Anda dan tujuan privasi Anda, tetapi hindari memilih ambang batas yang terlalu rendah. Saya merekomendasikan untuk berkonsultasi dengan artikel lain ini untuk mempelajari lebih lanjut tentang proses remixing: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
+Pilih ambang batas coinjoin di mana penarikan akan dilakukan secara otomatis. Saya tidak dapat memberi Anda jumlah remix yang tepat untuk dilakukan, karena ini bervariasi menurut situasi pribadi Anda dan tujuan privasi Anda, tetapi hindari memilih ambang batas yang terlalu rendah. Saya merekomendasikan untuk berkonsultasi dengan artikel lain ini untuk mempelajari lebih lanjut tentang proses remixing: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa).
 
 Anda dapat meninggalkan opsi `Index range` pada nilai defaultnya, `Full`. Fungsi ini memungkinkan pencampuran secara simultan dari klien yang berbeda, tetapi itu bukan yang ingin kita lakukan dalam tutorial ini. Untuk menyelesaikan dan mengaktifkan opsi `Mix to...`, tekan `Restart Whirlpool`.
 
@@ -316,7 +316,7 @@ Anda dapat meninggalkan opsi `Index range` pada nilai defaultnya, `Full`. Fungsi
 Namun, berhati-hatilah saat menggunakan opsi `Mix to`, karena mengeluarkan koin campuran dari akun `Postmix` Anda dapat secara signifikan meningkatkan risiko kompromi privasi Anda. Alasan potensial untuk ini dijelaskan dalam bagian berikut.
 
 ## Bagaimana cara mengetahui kualitas dari siklus coinjoin kita?
-Untuk coinjoin agar benar-benar efektif, sangat penting bahwa ia menunjukkan homogenitas yang baik antara jumlah input dan output. Keseragaman ini memperluas jumlah interpretasi yang mungkin di mata pengamat eksternal, sehingga meningkatkan ketidakpastian seputar transaksi. Untuk mengukur ketidakpastian yang dihasilkan oleh coinjoin, seseorang dapat menghitung entropi transaksi. Untuk eksplorasi mendalam tentang indikator-indikator ini, saya mengarahkan Anda ke tutorial: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Model Whirlpool diakui sebagai yang membawa homogenitas terbanyak dalam coinjoins. Selanjutnya, kinerja beberapa siklus coinjoin dievaluasi berdasarkan ukuran grup tempat sebuah koin disembunyikan. Ukuran grup ini mendefinisikan apa yang disebut anonsets. Ada dua jenis anonsets: yang pertama menilai privasi yang diperoleh terhadap analisis retrospektif (dari sekarang ke masa lalu) dan yang kedua, terhadap analisis prospektif (dari masa lalu ke sekarang). Untuk penjelasan rinci tentang kedua indikator ini, saya mengundang Anda untuk mengkonsultasikan tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
+Untuk coinjoin agar benar-benar efektif, sangat penting bahwa ia menunjukkan homogenitas yang baik antara jumlah input dan output. Keseragaman ini memperluas jumlah interpretasi yang mungkin di mata pengamat eksternal, sehingga meningkatkan ketidakpastian seputar transaksi. Untuk mengukur ketidakpastian yang dihasilkan oleh coinjoin, seseorang dapat menghitung entropi transaksi. Untuk eksplorasi mendalam tentang indikator-indikator ini, saya mengarahkan Anda ke tutorial: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Model Whirlpool diakui sebagai yang membawa homogenitas terbanyak dalam coinjoins. Selanjutnya, kinerja beberapa siklus coinjoin dievaluasi berdasarkan ukuran grup tempat sebuah koin disembunyikan. Ukuran grup ini mendefinisikan apa yang disebut anonsets. Ada dua jenis anonsets: yang pertama menilai privasi yang diperoleh terhadap analisis retrospektif (dari sekarang ke masa lalu) dan yang kedua, terhadap analisis prospektif (dari masa lalu ke sekarang). Untuk penjelasan rinci tentang kedua indikator ini, saya mengundang Anda untuk mengkonsultasikan tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 
 ## Bagaimana mengelola postmix?
 Setelah melakukan siklus coinjoin, strategi terbaik adalah menyimpan UTXO Anda di akun **postmix**, menunggu penggunaan masa depan mereka. Bahkan disarankan untuk membiarkan mereka remix secara tak terbatas sampai Anda perlu menghabiskannya.
@@ -342,8 +342,8 @@ Selanjutnya, Anda perlu berhati-hati dalam mengelola perubahan doxxic, perubahan
 Tutorial terperinci tentang implementasi teknik-teknik berbeda ini akan segera ditawarkan di PlanB Network.
 
 **Sumber Daya Tambahan:**
-- [Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/sparrow);
-- [Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/samourai);
+- [Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607);
+- [Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
 - [Dokumentasi Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread Twitter tentang CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Postingan Blog tentang CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

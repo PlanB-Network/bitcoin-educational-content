@@ -29,10 +29,10 @@ Teisest küljest on mõned tööriistad kas serveri sulgemise tõttu mõjutatud 
 Individuaalsete kulutamise tööriistade osas töötab kõik tavaliselt, eeldusel, et teil on oma Dojo. Tavalised Stonewall tehingud (ja mitte Stonewall x2) töötavad probleemideta.
 
 Twitteri kommentaarides on rõhutatud, et Stonewall tehingu pakutav privaatsus võib nüüd olla vähendatud. Stonewall tehingu lisaväärtus seisneb selles, et selle struktuur on eristamatu Stonewall x2 tehingust. Kui analüütik kohtab seda konkreetset mustrit, ei saa ta kindlaks teha, kas tegemist on standardse Stonewalliga ühe kasutajaga või Stonewall x2-ga, kus osaleb kaks kasutajat. Siiski, nagu järgmistes lõikudes näeme, on Sorobani kättesaamatus tõttu Stonewall x2 tehingute sooritamine muutunud keerulisemaks. Seetõttu arvavad mõned, et analüütik võib nüüd eeldada, et iga sellise struktuuriga tehing on tavaline Stonewall. Isiklikult ei jaga ma seda eeldust. Kuigi Stonewall x2 tehingud võivad olla vähem sagedased (ja ma arvan, et need olid juba enne seda intsidenti), võib asjaolu, et need on endiselt võimalikud, tühistada terve analüüsi, mis põhineb eeldusel, et neid ei ole.
-**[-> Lugege lisaks Stonewall tehingute kohta.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> Lugege lisaks Stonewall tehingute kohta.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Ricocheti osas ei ole ma suutnud kontrollida, kas teenus on endiselt töös, kuna mul ei ole Testnetis Dojot, ja ma eelistan mitte riskida `100 000 sats` kulutamisega rahakotile, mida võivad kontrollida võimud. Kui teil on olnud võimalus hiljuti seda tööriista testida, kutsun teid üles minuga ühendust võtma, et saaksime seda artiklit uuendada.
 
-Kui vajate Ricocheti kasutamist, pidage meeles, et saate seda toimingut alati käsitsi teostada mis tahes rahakotitarkvaraga. Selleks, et õppida, kuidas erinevaid hüppeid korrektselt käsitsi sooritada, soovitan konsulteerida selle teise artikliga: [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+Kui vajate Ricocheti kasutamist, pidage meeles, et saate seda toimingut alati käsitsi teostada mis tahes rahakotitarkvaraga. Selleks, et õppida, kuidas erinevaid hüppeid korrektselt käsitsi sooritada, soovitan konsulteerida selle teise artikliga: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 JoinBot tööriist ei ole enam töökorras, kuna see sõltus täielikult rahakoti osalemisest, mida haldas Samourai.
 
@@ -43,9 +43,9 @@ Teiste koostöötehingute tüüpide osas, mida sageli nimetatakse "kaasosalistek
 Pärast mitmeid katseid selgub, et Soroban ei toimi enam. Nende koostöötehingute sooritamiseks tuleb andmevahetus seega teha käsitsi. Siin on kaks võimalust selle vahetuse sooritamiseks:
 - Kui olete füüsiliselt oma kaasosalise lähedal, saate järjestikku skaneerida QR-koode;
 - Kui te olete oma koostööpartnerist kaugel, saate PSBT-sid vahetada välise suhtluskanali kaudu rakendusest väljaspool. Olge siiski ettevaatlikud, kuna nendes PSBT-des sisalduvad andmed on privaatsuse seisukohast tundlikud. Soovitan kasutada krüpteeritud sõnumside teenust, et tagada vahetuse konfidentsiaalsus.
-**[-> Uuri lähemalt Stonewall x2 tehingute kohta.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> Uuri lähemalt Stonewall x2 tehingute kohta.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
 
-**[-> Uuri lähemalt Stowaway tehingute kohta.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> Uuri lähemalt Stowaway tehingute kohta.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Mis puutub Whirlpooli, siis tundub, et protokoll ei toimi enam, isegi kasutajatele, kellel on oma Dojo. Olen viimastel päevadel jälgitud oma RoninDojo't ja proovinud mõningaid lihtsaid manipulatsioone, kuid Whirlpool CLI pole serveri sulgemisest saadik suutnud ühendust luua.
 
@@ -145,7 +145,7 @@ Kui kasutate Samourai rahakoti taastamiseks Sparrow'ist erinevat tarkvara, nagu 
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nüüd on teil juurdepääs oma bitcoinidele Sparrow's. Kui vajate abi Sparrow Wallet'i kasutamisel, võite vaadata ka [meie pühendatud õpetust](https://planb.network/tutorials/wallet/sparrow).
+Nüüd on teil juurdepääs oma bitcoinidele Sparrow's. Kui vajate abi Sparrow Wallet'i kasutamisel, võite vaadata ka [meie pühendatud õpetust](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Soovitan samuti käsitsi importida sildid, mille olite seostanud oma UTXO-dega Samourais. See võimaldab teil hiljem Sparrow's tõhusat mündikontrolli teostada.
 
@@ -201,7 +201,7 @@ Kui kasutate oma Samourai rahakoti taastamiseks mõnda muud tarkvara nagu Electr
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nüüd on teil juurdepääs oma bitcoinidele Sparrow's. Kui vajate Sparrow Walleti kasutamisel abi, võite konsulteerida ka [meie pühendatud õpetusega](https://planb.network/tutorials/wallet/sparrow).
+Nüüd on teil juurdepääs oma bitcoinidele Sparrow's. Kui vajate Sparrow Walleti kasutamisel abi, võite konsulteerida ka [meie pühendatud õpetusega](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Soovitan samuti käsitsi importida sildid, mille olite seostanud oma UTXO-dega Samourai's. See võimaldab teil Sparrow's hiljem tõhusat müntide kontrolli teostada.
 
@@ -303,7 +303,7 @@ Teisest küljest, kui teie müntide privaatsus võimude ees, kes võivad neid xp
 
 Ma täpsustan "võimude ees", sest on oluline meeles pidada, et ainult võimud, kes serverid hõivasid, on potentsiaalselt teadlikud neist xpubidest. Kui teie eesmärk coinjoini kasutamisel oli takistada teie pagaril teie vahendite jälgimist, siis ta ei ole paremini informeeritud kui enne serveri hõivamist.
 Lõpetuseks on oluline arvestada oma mündi algset anonüümsuskomplekti (anonset) enne serveri hõivamist. Võtame näiteks mündi, mis oli saavutanud potentsiaalse anonseti 40 000; selle anonseti võimalik vähenemine on tõenäoliselt tühine. Tõepoolest, juba väga kõrge baasanonseti korral on ebatõenäoline, et mõne Dojota kasutaja olemasolu võiks olukorda radikaalselt muuta. Siiski, kui teie mündil oli anonset 40, siis võib see potentsiaalne leke teie anonsete olukorda tõsiselt mõjutada ja potentsiaalselt võimaldada jälgimist. Pärast OXT.me sulgemist WST tööriista enam kasutada ei saa, saate neid anonsete ainult hinnata. Retrospektiivse anonseti puhul pole liiga palju muretseda, kuna Whirlpooli mudel tagab, et see on esimesest coinjoinist alates väga kõrge, tänu teie eakaaslaste pärandile. Ainus juhtum, kus see võib probleemi tekitada, on siis, kui teie münti pole mitu aastat remixitud ja see segati basseini käivitamise alguses. Tuleviku anonseti osas saate uurida, kui kaua teie münt on olnud saadaval coinjoinide jaoks. Kui see on olnud mitu kuud, siis on sellel tõenäoliselt äärmiselt kõrge tuleviku anonset. Vastupidisel juhul, kui see lisati basseini vaid mõni tund enne serverite hõivamist, siis on selle tuleviku anonset tõenäoliselt väga madal.
-[**-> Lugege lisaks anonsetide ja nende arvutusmeetodi kohta.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> Lugege lisaks anonsetide ja nende arvutusmeetodi kohta.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Teine aspekt, mida kaaluda, on konsolideerimiste mõju segatud müntide anonsetidele. Kuna Whirlpooli kontodele ei pääse enam ligi Samourai rakenduse kaudu, on tõenäoline, et paljud kasutajad on oma rahakoti teise tarkvarasse üle kandnud ja üritanud oma vahendeid Whirlpoolist välja võtta. Eriti eelmisel nädalavahetusel, kui Bitcoin võrgu tehingutasud olid suhteliselt kõrged, oli tugev tehniline ja majanduslik stiimul post-mix müntide konsolideerimiseks. See tähendab, et tõenäoliselt on paljud kasutajad teinud olulisi konsolideerimisi.
 

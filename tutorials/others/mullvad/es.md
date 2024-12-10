@@ -80,4 +80,4 @@ Finalmente, el menú de "*Túnel dividido*" te permite seleccionar aplicaciones 
 Para obtener una visión general de tu cuenta de Mullvad y gestionar los diversos dispositivos conectados, puedes hacer clic en el menú de "*Dispositivos*" en el sitio web.
 ![MULLVAD VPN](assets/notext/37.webp) Y ahí lo tienes, ahora estás preparado para disfrutar plenamente de Mullvad VPN. Si estás interesado en descubrir otro proveedor de VPN similar a Mullvad, tanto en términos de características como de precios, también te recomiendo que consultes nuestro tutorial sobre IVPN:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

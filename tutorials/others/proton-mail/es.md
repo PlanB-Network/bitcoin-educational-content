@@ -33,7 +33,7 @@ También, elige el nombre de usuario para tu dirección de correo electrónico.
 
 Luego se te pide que establezcas una contraseña. Es importante elegir una contraseña fuerte en esta etapa, ya que permitirá el acceso a tu buzón de correo. Una contraseña robusta debe ser lo más larga posible, usar una amplia variedad de caracteres y ser elegida al azar. En 2024, las recomendaciones mínimas para una contraseña segura son 13 caracteres incluyendo números, letras minúsculas y mayúsculas, así como símbolos, siempre que la contraseña sea verdaderamente aleatoria. Sin embargo, recomiendo optar por una contraseña de al menos 20 caracteres, incluyendo todos los tipos posibles de caracteres, para asegurar su seguridad por más tiempo.
 El uso de un gestor de contraseñas es una práctica excelente. No solo te permite almacenar tus contraseñas de manera segura sin tener que memorizarlas, sino que también puede generar contraseñas largas y aleatorias para ti. Los humanos son realmente muy malos creando secuencias aleatorias, y una contraseña que no es lo suficientemente aleatoria puede ser vulnerable a ataques de fuerza bruta. También recomiendo consultar nuestro tutorial completo sobre cómo configurar un gestor de contraseñas para más detalles sobre este tema:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Haz clic en el botón "*Crear Cuenta*".
 

@@ -26,10 +26,10 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能用多种语言
 - 在PlanB网络上拥有[一个教授资料](https://planb.network/professors)（仅当您提出完整教程时）。
 
 **如果您需要帮助获取这些先决条件，我的其他教程将指导您：**
-- **[理解Git和GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[创建GitHub账户](https://planb.network/tutorials/others/create-github-account)**
-- **[设置您的工作环境](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[创建教授资料](https://planb.network/tutorials/others/create-teacher-profile)**
+- **[理解Git和GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+- **[创建GitHub账户](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[设置您的工作环境](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+- **[创建教授资料](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## 在PlanB网络上写什么类型的内容？
 我们主要寻找与比特币或其生态系统相关的工具教程。这些内容可以围绕六个主要类别组织：
 - 钱包；

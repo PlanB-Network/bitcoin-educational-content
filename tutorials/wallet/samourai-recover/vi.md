@@ -30,10 +30,10 @@ Một số công cụ bị ảnh hưởng bởi việc tắt máy chủ hoặc h
 Về công cụ chi tiêu cá nhân, mọi thứ vẫn hoạt động bình thường miễn là, tất nhiên, bạn có Dojo riêng của mình. Giao dịch Stonewall (không phải Stonewall x2) hoạt động bình thường mà không có vấn đề gì.
 
 Các bình luận trên Twitter đã chỉ ra rằng, có thể là bây giờ, sự riêng tư được cung cấp bởi một giao dịch Stonewall đã giảm. Giá trị cộng thêm của một giao dịch Stonewall nằm ở chỗ nó không thể phân biệt được với một giao dịch Stonewall x2 về cấu trúc. Khi một nhà phân tích gặp phải mẫu cụ thể này, họ không thể xác định liệu đó là một Stonewall tiêu chuẩn với một người dùng duy nhất hay một Stonewall x2 liên quan đến hai người dùng. Tuy nhiên, như chúng ta sẽ thấy trong các phần sau, việc thực hiện giao dịch Stonewall x2 đã trở nên phức tạp hơn do sự không khả dụng của Soroban. Một số người do đó nghĩ rằng, giờ đây, một nhà phân tích có thể giả định rằng bất kỳ giao dịch nào với cấu trúc này là một Stonewall bình thường. Cá nhân tôi không đồng ý với giả định này. Mặc dù các giao dịch Stonewall x2 có thể ít phổ biến hơn (và tôi nghĩ chúng đã ít phổ biến như vậy trước sự cố này), thực tế là chúng vẫn có thể làm vô hiệu một phân tích dựa trên giả định rằng chúng không phải là.
-**[-> Tìm hiểu thêm về giao dịch Stonewall.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> Tìm hiểu thêm về giao dịch Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Về Ricochet, tôi chưa thể xác minh liệu dịch vụ này vẫn còn hoạt động hay không, do không sở hữu một Dojo trên Testnet, và tôi không muốn mạo hiểm chi tiêu `100 000 sats` vào một ví có thể được kiểm soát bởi cơ quan chức năng. Nếu bạn đã có cơ hội thử nghiệm công cụ này gần đây, rất mong liên hệ với tôi để chúng tôi có thể cập nhật bài viết này.
 
-Nếu bạn cần sử dụng Ricochet, hãy biết rằng bạn vẫn có thể thực hiện thao tác này một cách thủ công với bất kỳ phần mềm ví nào. Để tìm hiểu cách thực hiện các bước nhảy một cách thủ công một cách đúng đắn, tôi khuyên bạn nên tham khảo bài viết khác này: [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+Nếu bạn cần sử dụng Ricochet, hãy biết rằng bạn vẫn có thể thực hiện thao tác này một cách thủ công với bất kỳ phần mềm ví nào. Để tìm hiểu cách thực hiện các bước nhảy một cách thủ công một cách đúng đắn, tôi khuyên bạn nên tham khảo bài viết khác này: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 Công cụ JoinBot không còn hoạt động, vì nó hoàn toàn phụ thuộc vào sự tham gia của một ví được quản lý bởi Samourai.
 
@@ -44,9 +44,9 @@ Về các loại giao dịch hợp tác khác, thường được gọi là "cah
 Sau một số lần thử nghiệm, có vẻ như Soroban không còn hoạt động. Để thực hiện các giao dịch hợp tác này, việc trao đổi dữ liệu phải được thực hiện một cách thủ công. Dưới đây là hai lựa chọn để thực hiện việc trao đổi này:
 - Nếu bạn ở gần người hợp tác về mặt vật lý, bạn có thể quét các mã QR liên tiếp;
 - Nếu bạn ở xa người cộng tác, bạn có thể trao đổi PSBTs thông qua một kênh liên lạc bên ngoài ứng dụng. Tuy nhiên, hãy cẩn thận, vì dữ liệu trong các PSBTs này rất nhạy cảm về mặt quyền riêng tư. Tôi khuyên bạn nên sử dụng dịch vụ nhắn tin mã hóa để đảm bảo tính bảo mật của việc trao đổi.
-**[-> Tìm hiểu thêm về giao dịch Stonewall x2.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> Tìm hiểu thêm về giao dịch Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
 
-**[-> Tìm hiểu thêm về giao dịch Stowaway.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> Tìm hiểu thêm về giao dịch Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Về Whirlpool, giao thức này dường như không còn hoạt động, ngay cả đối với những người dùng có Dojo riêng của họ. Tôi đã theo dõi RoninDojo của mình trong những ngày qua và thử nghiệm một số thao tác cơ bản, nhưng Whirlpool CLI không thể kết nối kể từ khi máy chủ ngừng hoạt động.
 
@@ -146,7 +146,7 @@ Nếu bạn sử dụng phần mềm khác ngoài Sparrow, như Electrum, để 
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Bây giờ bạn đã có quyền truy cập vào bitcoin của mình trên Sparrow. Nếu bạn cần trợ giúp sử dụng Sparrow Wallet, bạn cũng có thể xem [hướng dẫn chuyên dụng của chúng tôi](https://planb.network/tutorials/wallet/sparrow).
+Bây giờ bạn đã có quyền truy cập vào bitcoin của mình trên Sparrow. Nếu bạn cần trợ giúp sử dụng Sparrow Wallet, bạn cũng có thể xem [hướng dẫn chuyên dụng của chúng tôi](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Tôi cũng khuyên bạn nên nhập thủ công lại các nhãn bạn đã liên kết với các UTXO trên Samourai. Điều này sẽ cho phép bạn kiểm soát coin của mình hiệu quả trên Sparrow sau này.
 
@@ -202,7 +202,7 @@ Nếu bạn đang sử dụng phần mềm khác như Electrum để khôi phụ
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Bây giờ bạn đã có quyền truy cập vào bitcoin của mình trên Sparrow. Nếu bạn cần trợ giúp sử dụng Sparrow Wallet, bạn cũng có thể tham khảo [hướng dẫn dành riêng của chúng tôi](https://planb.network/tutorials/wallet/sparrow).
+Bây giờ bạn đã có quyền truy cập vào bitcoin của mình trên Sparrow. Nếu bạn cần trợ giúp sử dụng Sparrow Wallet, bạn cũng có thể tham khảo [hướng dẫn dành riêng của chúng tôi](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Tôi cũng khuyên bạn nên nhập thủ công lại các nhãn bạn đã liên kết với các UTXO của mình trên Samourai. Điều này sẽ giúp bạn kiểm soát coin của mình hiệu quả trên Sparrow sau này.
 
@@ -309,7 +309,7 @@ Tôi nhấn mạnh "đối với cơ quan chức năng" bởi vì quan trọng l
 Cuối cùng, việc xem xét tập hợp ẩn danh ban đầu cho đồng tiền của bạn, trước khi máy chủ bị tịch thu, là điều cần thiết. Hãy lấy ví dụ về một đồng tiền đã đạt được tập hợp ẩn danh tiềm năng là 40,000; sự giảm sút tiềm năng trong tập hợp ẩn danh này có lẽ là không đáng kể. Thực sự, với một tập hợp ẩn danh về cơ bản đã rất cao, khả năng mà một vài người dùng không sử dụng Dojo có thể thay đổi đáng kể tình hình là không cao. Tuy nhiên, nếu đồng tiền của bạn chỉ có tập hợp ẩn danh là 40, thì rò rỉ tiềm năng này có thể ảnh hưởng nghiêm trọng đến tập hợp ẩn danh của bạn và có khả năng sẽ bị truy vết.
 
 Với công cụ WST hiện không còn hoạt động sau khi OXT.me bị đóng cửa, bạn chỉ có thể ước lượng về các tập hợp ẩn danh này. Đối với tập hợp ẩn danh hồi tưởng (Retrospective Anonset), không có quá nhiều điều phải lo lắng vì mô hình Whirlpool đảm bảo rằng nó rất cao ngay từ lần trộn coin đầu tiên, nhờ vào di sản của các đối tác của bạn. Trường hợp duy nhất có thể gây ra vấn đề là nếu đồng tiền của bạn không được tái trộn trong vài năm và nó được trộn vào giai đoạn ra mắt của một pool. Về tập hợp ẩn danh tương lai (Prospective Anonset), bạn có thể xem xét thời gian đồng tiền của bạn đã ở trong chương trình trộn coin. Nếu đã vài tháng, thì có lẽ nó đã có một tập hợp ẩn danh tiềm năng cực kỳ cao. Ngược lại, nếu nó được thêm vào một pool chỉ vài giờ trước khi máy chủ bị tịch thu, thì tập hợp ẩn danh tiềm năng của nó có lẽ rất thấp.
-[**-> Tìm hiểu thêm về anonsets và phương pháp tính toán của chúng.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> Tìm hiểu thêm về anonsets và phương pháp tính toán của chúng.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Một khía cạnh khác cần xem xét là ảnh hưởng của việc hợp nhất đối với tập hợp ẩn danh của các đồng tiền đã được trộn. Do tài khoản Whirlpool không còn truy cập được qua ứng dụng Samourai, có khả năng nhiều người dùng đã chuyển ví của họ sang phần mềm khác và cố gắng rút tiền từ Whirlpool. Đặc biệt, vào cuối tuần trước, khi phí giao dịch trên mạng Bitcoin tương đối cao, đã có một động lực kỹ thuật và kinh tế mạnh mẽ để hợp nhất các đồng tiền sau khi trộn. Điều này có nghĩa là có khả năng nhiều người dùng đã thực hiện các hợp nhất.
 

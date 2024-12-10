@@ -16,7 +16,7 @@ Aplikace těchto dvou principů bezpečnosti hesel (unikátnost a robustnost) se
 
 Správce hesel generuje a bezpečně ukládá silná hesla, což vám umožňuje přistupovat ke všem vašim online účtům bez nutnosti je individuálně pamatovat. Potřebujete si zapamatovat pouze jedno heslo, hlavní heslo, které vám dává přístup ke všem vašim uloženým heslům ve správci. Používání správce hesel zvyšuje vaši online bezpečnost, protože brání opětovnému použití hesel a systematicky generuje náhodná hesla. Ale také zjednodušuje vaše každodenní používání účtů centralizací přístupu k vašim citlivým informacím.
 V tomto tutoriálu se naučíme, jak nastavit a používat lokální správce hesel pro zvýšení vaší online bezpečnosti. Zde vám představím KeePass. Pokud jste však začátečník a chtěli byste mít online správce hesel schopného synchronizace napříč více zařízeními, doporučuji následovat náš tutoriál na Bitwarden:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -106,7 +106,7 @@ Software vytvoří novou databázi, kde budou uložena vaše hesla. Musíte vybr
 ![KEEPASS](assets/notext/16.webp)
 Poté byste měli pravidelně zálohovat tuto složku, abyste předešli ztrátě vašich přihlašovacích údajů v případě ztráty, poškození nebo krádeže vašeho počítače. Například byste mohli kopírovat databázi na USB klíč každý týden. Soubor obsahující vaši databázi se jmenuje `Database.kdbx` (dokument je šifrován vaším hlavním heslem). Pro další rady ohledně nejlepších zálohovacích postupů doporučuji také konzultovat tento další návod:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Následuje výběr vašeho hlavního hesla.
 ![KEEPASS](assets/notext/17.webp)
@@ -150,4 +150,4 @@ To pokrývá základní funkce KeePass. Samozřejmě, tento tutoriál určený p
 
 Pokud máte zájem dozvědět se, jak výrazně zlepšit bezpečnost vašich online účtů a vyhnout se hackování s 2FA, doporučuji také prohlédnout tento další tutoriál:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

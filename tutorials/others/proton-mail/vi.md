@@ -33,7 +33,7 @@ Cũng chọn tên người dùng cho địa chỉ email của bạn.
 
 Sau đó, bạn được yêu cầu thiết lập một mật khẩu. Quan trọng là phải chọn một mật khẩu mạnh ở giai đoạn này, vì nó sẽ cho phép truy cập vào hộp thư của bạn. Một mật khẩu mạnh nên dài nhất có thể, sử dụng đa dạng các ký tự, và được chọn một cách ngẫu nhiên. Vào năm 2024, các khuyến nghị tối thiểu cho một mật khẩu an toàn là 13 ký tự bao gồm số, chữ thường và chữ hoa, cũng như các biểu tượng, miễn là mật khẩu thực sự ngẫu nhiên. Tuy nhiên, tôi khuyên bạn nên chọn một mật khẩu ít nhất 20 ký tự, bao gồm tất cả các loại ký tự có thể, để đảm bảo an ninh của nó lâu dài hơn.
 Việc sử dụng một trình quản lý mật khẩu là một phương pháp tuyệt vời. Nó không chỉ cho phép bạn lưu trữ mật khẩu một cách an toàn mà không cần phải nhớ chúng, mà còn có thể tạo ra những mật khẩu dài và ngẫu nhiên cho bạn. Con người thực sự rất kém trong việc tạo ra các chuỗi ngẫu nhiên, và một mật khẩu không đủ ngẫu nhiên có thể bị dễ dàng tấn công bằng phương pháp brute force. Tôi cũng khuyên bạn nên tham khảo hướng dẫn đầy đủ của chúng tôi về cách thiết lập một trình quản lý mật khẩu để biết thêm chi tiết về chủ đề này:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nhấn vào nút "*Create Account*".
 

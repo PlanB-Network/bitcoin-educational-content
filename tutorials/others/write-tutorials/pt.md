@@ -26,10 +26,10 @@ Para contribuir para a Rede PlanB, você tem 3 opções dependendo do seu nível
 - Ter [um perfil de professor na Rede PlanB](https://planb.network/professors) (apenas se você estiver propondo um tutorial completo).
 
 **Se você precisar de ajuda para obter esses pré-requisitos, meus outros tutoriais irão guiá-lo:**
-**[Entendendo Git e GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Criando uma conta no GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Configurando seu ambiente de trabalho](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Criando um perfil de professor](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Entendendo Git e GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Criando uma conta no GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Configurando seu ambiente de trabalho](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Criando um perfil de professor](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Que tipo de conteúdo escrever na Rede PlanB?
 Estamos principalmente à procura de tutoriais sobre ferramentas relacionadas ao Bitcoin ou seu ecossistema. Esses conteúdos podem ser organizados em torno de seis categorias principais:
 - Carteira;

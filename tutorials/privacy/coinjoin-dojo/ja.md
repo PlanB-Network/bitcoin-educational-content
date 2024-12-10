@@ -55,7 +55,7 @@ Whirlpoolは、次の2つの重要な要件を考慮して設計されました�
 これらの命題は、Samourai Walletの開発者がWhirlpoolの設計において選択を導いたものであり、サイクルごとの参加者数を制限することにつながりました。参加者が少なすぎると、コインジョインの効率が損なわれ、各サイクルで生成される匿名セットが劇的に減少してしまいます。一方、参加者が多すぎると、モバイルアプリケーションでの管理問題が発生し、サイクルの流れが妨げられる可能性があります。
 **結局のところ、Whirlpoolでのコインジョインごとに多数の参加者を必要とすることはありません。なぜなら、匿名セットは複数のコインジョインサイクルの蓄積を通じて達成されるからです。**
 
-[-> Whirlpoolの匿名セットについてもっと学ぶ。](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Whirlpoolの匿名セットについてもっと学ぶ。](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### プールとコインジョイン手数料
 これらの複数のサイクルが混合コインの匿名セットを効果的に増加させるためには、使用されるUTXOの金額を制限する特定の枠組みを確立する必要があります。Whirlpoolは、異なるプールを定義します。
@@ -244,7 +244,7 @@ Samouraiウォレットのリカバリーフレーズを持っていて、それ
 
 ![coinjoin](assets/en/24.webp)
 
-*Samouraiの新規ユーザーの場合、最初からウォレットを作成する必要があります。アシスタンスが必要な場合は、[このチュートリアルの「ソフトウェアウォレットの作成」セクション](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*Samouraiの新規ユーザーの場合、最初からウォレットを作成する必要があります。アシスタンスが必要な場合は、[このチュートリアルの「ソフトウェアウォレットの作成」セクション](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 既存のSamouraiウォレットの復元を進める場合は、`Restore existing wallet`を選択し、次に`I have a Samourai backup file`を選択してください。
 
@@ -351,4 +351,4 @@ WhirlpoolアカウントはSamourai Wallet上で青色で簡単に識別でき�
 
 ![coinjoin](assets/en/53.webp)
 
-自動コインジョインの進行状況を追跡するためには、Sentinelアプリを介してウォッチオンリーウォレットを設定することもお勧めします。**Postmix**アカウントのZPUBを追加し、リアルタイムでコインジョインサイクルの進行状況を監視してください。Sentinelの使用方法を理解したい場合は、PlanB Networkのこの他のチュートリアル[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)
+自動コインジョインの進行状況を追跡するためには、Sentinelアプリを介してウォッチオンリーウォレットを設定することもお勧めします。**Postmix**アカウントのZPUBを追加し、リアルタイムでコインジョインサイクルの進行状況を監視してください。Sentinelの使用方法を理解したい場合は、PlanB Networkのこの他のチュートリアル[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

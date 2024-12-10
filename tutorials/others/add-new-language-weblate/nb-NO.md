@@ -20,7 +20,7 @@ Det første steget er å sjekke om språket ditt ikke allerede er blant de vi jo
 ![language](assets/02.webp)
 Hvis språket ditt er på denne listen, trenger du ikke å legge det til igjen. For å bidra til et eksisterende språk, har vi laget en annen veiledning som du kan oppdage.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -30,7 +30,7 @@ Hvis språket ditt ikke er der, følg veiledningen nedenfor for å legge det til
 
 - Det første steget er å opprette en konto på Weblate. Hvis du ikke vet hvordan du gjør dette, kan du følge vår detaljerte veiledning.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 - Når kontoen din er opprettet, gå til `Website frontend element`-menyen og velg `Languages`-fanen:
@@ -48,7 +48,7 @@ For å bli guidet gjennom oversettelsesprosessen, sjekk ut vår dedikerte veiled
 
 Gratulerer, du har startet prosessen med å oversette PlanB Network-nettstedet til et nytt språk! Du kan begynne med å oversette hele frontend via Weblate.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
  Dette inkluderer alle tekstene på nettstedet, bortsett fra utdanningsinnhold (kurs, veiledninger...) for hvilket vi bruker en annen semi-automatisert Humans x AI-metode.
 Deretter kan du kontakte @asi0_flammeus på Telegram, som vil hjelpe deg med å gjennomgå noen kurs som automatisk er oversatt med deres modell. Hvis disse innholdene anses som tilfredsstillende, kan du fortsette med å gjennomgå alt det andre innholdet på nettstedet (kurs, veiledninger...). Når disse stegene er fullført, kan vi vurdere å offisielt integrere det nye språket på PlanB Network-nettstedet, noe som vil tillate alle som snakker ditt språk å få tilgang til kvalitetsinnhold om Bitcoin, uten noen barrierer.

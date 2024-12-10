@@ -34,14 +34,14 @@ Vaikka onkin aina parempi ymmärtää mitä teet (ja miksi), voit yksinkertaises
 
 Jos et kuitenkaan ole lainkaan tuttu Gitin ja GitHubin toiminnan kanssa ja haluaisit oppia lisää, voit tutustua johdantoartikkeliimme näistä työkaluista.
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 ## 1. Luo tili
 * Luo tili GitHubiin aloittaaksesi osallistumisen. Jos tarvitset ohjeita tilin luomiseen GitHubissa, meillä on myös yksityiskohtainen opas.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 ## **2. Mene kieliprojektisi sivulle**

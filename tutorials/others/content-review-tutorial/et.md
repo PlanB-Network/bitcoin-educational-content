@@ -32,10 +32,10 @@ Lisaks, kuna Découvre Bitcoin (DB) vastutab panuste hindamise eest ja meie (DB)
 Sisu ülevaatamiseks ei pea sa olema GitHub'i ekspert.
 Kuigi on alati parem mõista, mida sa teed (ja miks), võid lihtsalt järgida allpool toodud juhiseid, et panustada.
 
-Siiski, kui sa pole täiesti tuttav, kuidas Git ja GitHub töötavad ja sooviksid rohkem teada saada, võid avastada [meie sissejuhatava artikli nende tööriistade kohta](https://planb.network/tutorials/others/basics-of-github).
+Siiski, kui sa pole täiesti tuttav, kuidas Git ja GitHub töötavad ja sooviksid rohkem teada saada, võid avastada [meie sissejuhatava artikli nende tööriistade kohta](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb).
 
 ## 1. Loo konto
-* Loo konto GitHub'is, et alustada panustamist. Kui vajad juhiseid, kuidas luua oma kontot GitHub'is, on meil ka [üksikasjalik õpetus](https://planb.network/tutorials/others/create-github-account).
+* Loo konto GitHub'is, et alustada panustamist. Kui vajad juhiseid, kuidas luua oma kontot GitHub'is, on meil ka [üksikasjalik õpetus](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 ## **2. Mine oma keele projekti lehele**
 * [Projekti leht](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) sisaldab sinu keeles sisu, mis on kuvatud Kanban tahvlil.
 * Otsi kaarte "Review Needed" veerust (vt **A**). Need on probleemid, mida saad üle vaadata.

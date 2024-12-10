@@ -16,7 +16,7 @@ description: 如何设置密码管理器？
 
 密码管理器生成并安全存储强密码，允许您访问所有在线账户而无需单独记住它们。您只需要记住一个密码，即主密码，它让您可以访问管理器中保存的所有密码。使用密码管理器增强了您的在线安全，因为它防止了密码的重复使用，并系统地生成随机密码。但它也通过集中访问您的敏感信息简化了您的账户日常使用。
 在本教程中，我们将探索如何设置和使用密码管理器以增强您的在线安全。我将向您介绍Bitwarden，在另一个教程中，我们将研究另一个叫做KeePass的解决方案。
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 警告：密码管理器非常适合存储密码，但**您绝不应该在其中存储您的比特币钱包的助记词！**记住，助记词应该专门保存在物理格式中，如纸张或金属。
 
@@ -68,9 +68,9 @@ Bitwarden 的另一个特点是，如果您拥有，例如，家里的NAS，您�
 
 如果您不确定如何设置和使用这些2FA设备，我推荐您跟随这2个其他教程：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 为此，请转到“*设置*”菜单中的“*安全性*”标签页。
 ![BITWARDEN](assets/notext/14.webp)

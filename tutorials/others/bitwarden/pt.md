@@ -16,7 +16,7 @@ Aplicar esses dois princípios de segurança de senhas (unicidade e robustez) po
 
 Um gerenciador de senhas gera e armazena de forma segura senhas fortes, permitindo que você acesse todas as suas contas online sem a necessidade de memorizá-las individualmente. Você só precisa lembrar de uma senha, a senha mestre, que lhe dá acesso a todas as suas senhas salvas no gerenciador. Usar um gerenciador de senhas melhora sua segurança online porque impede a reutilização de senhas e gera sistematicamente senhas aleatórias. Mas também simplifica o uso diário de suas contas centralizando o acesso às suas informações sensíveis.
 Neste tutorial, exploraremos como configurar e usar um gerenciador de senhas para melhorar sua segurança online. Vou apresentá-lo ao Bitwarden, e em outro tutorial, examinaremos outra solução chamada KeePass.
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Aviso: Um gerenciador de senhas é ótimo para armazenar senhas, mas **você nunca deve armazenar a frase mnemônica da sua carteira Bitcoin nele!** Lembre-se, uma frase mnemônica deve ser exclusivamente salva em um formato físico, como um pedaço de papel ou metal.
 
@@ -67,9 +67,9 @@ Antes de mais nada, eu fortemente aconselho você a configurar a autenticação 
 
 Se você não tem certeza de como configurar e usar esses dispositivos 2FA, eu recomendo seguir estes outros 2 tutoriais:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Para fazer isso, vá para a aba "*Segurança*" no menu "*Configurações*".
 ![BITWARDEN](assets/notext/14.webp)

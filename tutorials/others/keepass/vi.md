@@ -16,7 +16,7 @@ Nguyên tắc thiết yếu thứ hai là độ mạnh của mật khẩu. Một
 
 Một trình quản lý mật khẩu tạo và lưu trữ an toàn các mật khẩu mạnh, cho phép bạn truy cập vào tất cả các tài khoản trực tuyến của mình mà không cần phải ghi nhớ chúng một cách riêng lẻ. Bạn chỉ cần nhớ một mật khẩu, mật khẩu chính, cho phép bạn truy cập vào tất cả các mật khẩu đã lưu trong trình quản lý. Sử dụng một trình quản lý mật khẩu tăng cường an ninh trực tuyến của bạn vì nó ngăn chặn việc tái sử dụng mật khẩu và hệ thống tạo ra các mật khẩu ngẫu nhiên. Nhưng nó cũng đơn giản hóa việc sử dụng hàng ngày các tài khoản của bạn bằng cách tập trung truy cập vào thông tin nhạy cảm của bạn.
 Trong hướng dẫn này, chúng ta sẽ học cách thiết lập và sử dụng một trình quản lý mật khẩu cục bộ để tăng cường an ninh trực tuyến của bạn. Tại đây, tôi sẽ giới thiệu bạn với KeePass. Tuy nhiên, nếu bạn là người mới bắt đầu và muốn có một trình quản lý mật khẩu trực tuyến có khả năng đồng bộ hóa trên nhiều thiết bị, tôi khuyên bạn nên theo dõi hướng dẫn của chúng tôi về Bitwarden:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -107,7 +107,7 @@ Phần mềm sẽ tạo một cơ sở dữ liệu mới nơi mật khẩu của
 ![KEEPASS](assets/notext/16.webp)
 Sau đó, bạn nên nghĩ đến việc sao lưu thường xuyên thư mục này để tránh mất dữ liệu trong trường hợp mất, hỏng, hoặc bị đánh cắp máy tính. Ví dụ, bạn có thể sao chép cơ sở dữ liệu vào một ổ USB mỗi tuần. File chứa cơ sở dữ liệu của bạn được đặt tên là `Database.kdbx` (tài liệu được mã hóa bằng mật khẩu chính của bạn). Để biết thêm lời khuyên về các phương pháp sao lưu tốt nhất, tôi cũng khuyên bạn nên tham khảo hướng dẫn khác này:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Tiếp theo là việc chọn mật khẩu chính của bạn.
 ![KEEPASS](assets/notext/17.webp)
@@ -151,4 +151,4 @@ Nếu bạn để KeePass mở ở chế độ nền, phần mềm sẽ không t
 
 Nếu bạn quan tâm đến việc học cách cải thiện đáng kể an ninh cho các tài khoản trực tuyến của mình để tránh bị hack với 2FA, tôi cũng khuyên bạn nên xem hướng dẫn khác này:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

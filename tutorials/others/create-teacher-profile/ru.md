@@ -24,9 +24,9 @@ description: Как добавить профиль профессора на с
 - Наличие форка [исходного репозитория сети PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Если вам нужна помощь в получении этих предварительных требований, мои другие руководства помогут вам:**
-**[Понимание Git и GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Создание аккаунта на GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Настройка рабочего окружения](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Понимание Git и GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Создание аккаунта на GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Настройка рабочего окружения](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 
 ## Как создать новый профиль профессора?
 

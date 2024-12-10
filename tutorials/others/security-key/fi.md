@@ -10,7 +10,7 @@ Nykyään kaksivaiheinen tunnistautuminen (2FA) on muodostunut olennaiseksi osak
 
 Toisessa oppaassa selitin, kuinka asettaa ja käyttää TOTP 2FA -sovellusta:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Tässä näemme, kuinka käyttää fyysistä turva-avainta toisena tunnistautumistekijänä kaikille tileillesi.
 

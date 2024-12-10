@@ -8,7 +8,7 @@ A BIP39 passphrase is an optional password that, when combined with your mnemoni
 
 Before starting this tutorial, if you are not familiar with the concept of a passphrase, how it works, and its implications for your Bitcoin wallet, I strongly recommend consulting this other theoretical article where I explain everything:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## How does the passphrase function on a Ledger?
 
@@ -30,9 +30,9 @@ In this tutorial, I will use the Ledger Flex as an example. However, if you are 
 
 Before starting this tutorial, make sure you have already initialized your Ledger and generated your mnemonic phrase. If this is not the case and your Ledger is new, follow the specific tutorial for your model available on PlanB Network. Once this step is completed, you can return to this tutorial.
 
-https://planb.network/tutorials/wallet/ledger-flex
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
-https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## How to set up a temporary passphrase with a Ledger?
 
@@ -180,4 +180,4 @@ Congratulations, your Bitcoin wallet is now secured with a passphrase! If you fo
 
 I also recommend you check out this other complete tutorial on how to use your Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

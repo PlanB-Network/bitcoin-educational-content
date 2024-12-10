@@ -33,7 +33,7 @@ Také si vyberte uživatelské jméno pro vaši e-mailovou adresu.
 
 Poté vás bude požádáno o nastavení hesla. Je důležité vybrat na této fázi silné heslo, protože to umožní přístup k vaší schránce. Robustní heslo by mělo být co nejdelší, používat širokou škálu znaků a být vybráno náhodně. V roce 2024 jsou minimální doporučení pro bezpečné heslo 13 znaků včetně čísel, malých a velkých písmen, stejně jako symbolů, za předpokladu, že je heslo skutečně náhodné. Nicméně doporučuji zvolit heslo o délce alespoň 20 znaků, včetně všech možných typů znaků, aby byla jeho bezpečnost zajištěna na delší dobu.
 Používání správce hesel je vynikající praxe. Nejenže vám umožní bezpečně ukládat vaše hesla, aniž byste je museli pamatovat, ale také za vás může generovat dlouhá a náhodná hesla. Lidé jsou skutečně velmi špatní v tvorbě náhodných sekvencí a heslo, které není dostatečně náhodné, může být zranitelné vůči útokům hrubou silou. Doporučuji také konzultovat náš kompletní tutoriál o nastavení správce hesel pro více detailů na toto téma:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Klikněte na tlačítko "*Vytvořit účet*".
 

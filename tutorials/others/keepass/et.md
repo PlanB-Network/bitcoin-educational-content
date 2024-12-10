@@ -16,7 +16,7 @@ Nende kahe parooliturvalisuse põhimõtte (ainulaadsus ja robustsus) rakendamine
 
 Paroolihaldur genereerib ja hoiab turvaliselt tugevaid paroole, võimaldades teil juurde pääseda kõigile oma veebikontodele ilma, et peaksite neid individuaalselt meelde jätma. Peate meeles pidama ainult ühte parooli, peaparooli, mis annab teile juurdepääsu kõigile halduris salvestatud paroolidele. Paroolihalduri kasutamine suurendab teie veebiturvalisust, kuna see hoiab ära paroolide taaskasutamise ja genereerib süstemaatiliselt juhuslikke paroole. Kuid see lihtsustab ka teie igapäevast kontode kasutamist, keskendades juurdepääsu teie tundlikule teabele.
 Selles õpetuses õpime, kuidas seadistada ja kasutada kohalikku paroolihaldurit, et suurendada teie veebiturvalisust. Siin tutvustan teile KeePassi. Kui olete aga algaja ja sooviksite kasutada veebipõhist paroolihaldurit, mis suudab sünkroniseerida mitme seadme vahel, soovitan järgida meie õpetust Bitwardeni kohta:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -105,7 +105,7 @@ Tarkvara loob uue andmebaasi, kuhu teie paroolid salvestatakse. Peate valima sel
 ![KEEPASS](assets/notext/16.webp)
 Seejärel peaksite mõtlema selle kausta regulaarsele varundamisele, et vältida oma volituste kaotamist arvuti kaotuse, kahjustumise või varguse korral. Näiteks võiksite andmebaasi iga nädal USB-pulgale kopeerida. Teie andmebaasi sisaldavat faili nimetatakse `Database.kdbx` (dokument on krüpteeritud teie peaparooliga). Parimate varundamistavade kohta soovitan samuti konsulteerida selle teise õpetusega:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Järgneb teie peaparooli valik.
 ![KEEPASS](assets/notext/17.webp)
@@ -149,4 +149,4 @@ See katab KeePassi põhifunktsioonid. Loomulikult on see algajatele mõeldud õp
 
 Kui olete huvitatud õppimast, kuidas oma veebikontode turvalisust 2FA abil oluliselt parandada, et vältida häkkimist, soovitan tutvuda ka selle teise õpetusega:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

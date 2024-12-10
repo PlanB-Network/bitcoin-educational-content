@@ -34,14 +34,14 @@ Obwohl es immer besser ist zu verstehen, was du tust (und warum), kannst du einf
 
 Wenn du jedoch völlig unvertraut damit bist, wie Git und GitHub funktionieren, und mehr erfahren möchtest, kannst du unseren einführenden Artikel zu diesen Tools entdecken.
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 ## 1. Erstelle ein Konto
 * Erstelle ein Konto auf GitHub, um mit dem Beitrag zu beginnen. Wenn du Anleitung benötigst, wie du dein Konto auf GitHub erstellen kannst, haben wir auch ein detailliertes Tutorial.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 ## **2. Gehe zur Projektseite deiner Sprache**

@@ -64,7 +64,7 @@ Whirlpool的设计考虑了两个重要要求：
 这些必要条件指导了Samourai Wallet的开发者在设计Whirlpool时的选择，使他们限制了每个周期的参与者数量。参与者太少会妨碍coinjoin的效率，大大减少每个周期生成的匿名集，而参与者太多则会在移动应用上造成管理问题，并会阻碍周期的流动。
 **最终，在Whirlpool上每次coinjoin的参与者数量无需过多，因为通过积累多个coinjoin周期来实现匿名集。**
 
-[-> 了解更多关于Whirlpool匿名集的信息。](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> 了解更多关于Whirlpool匿名集的信息。](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### 池和coinjoin费用
 为了让这些多个周期有效增加混合币的匿名集，必须建立一定的框架来限制使用的UTXO金额。Whirlpool因此定义了不同的池。
@@ -254,7 +254,7 @@ Whirlpool的设计考虑了两个重要要求：
 
 ![coinjoin](assets/notext/24.webp)
 
-*对于Samourai的新用户，接下来将需要从头开始创建一个钱包。如果您需要帮助，您可以查阅在[此教程中，特别是在"创建软件钱包"部分](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)的设置新Samourai钱包的说明。*
+*对于Samourai的新用户，接下来将需要从头开始创建一个钱包。如果您需要帮助，您可以查阅在[此教程中，特别是在"创建软件钱包"部分](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)的设置新Samourai钱包的说明。*
 如果您正在进行已存在的Samourai钱包的恢复，请选择`Restore existing wallet`，然后选择`I have a Samourai backup file`。
 ![coinjoin](assets/notext/25.webp)
 通常，您应该始终将恢复文件保存在剪贴板中。然后点击`PASTE`将您的文件插入到指定位置。为了解密它，还需要在下方相应的字段中输入您钱包的BIP39密码短语。完成后，点击`FINISH`。
@@ -359,4 +359,4 @@ Whirlpool配置页面将打开。您可以选择您希望进入的池。同时�
 在Samourai Wallet上，Whirlpool账户通过它们的蓝色轻松识别。这使您可以随时随地直接从您的智能手机花费您的混合UTXOs。
 
 ![coinjoin](assets/notext/53.webp)
-为了跟踪您的自动coinjoin交易，我还推荐通过Sentinel应用程序设置一个仅限查看的钱包。添加您的**Postmix**账户的ZPUB，并实时监控您的coinjoin周期的进展。如果您想了解如何使用Sentinel，我推荐咨询PlanB网络上的另一个教程：[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)。
+为了跟踪您的自动coinjoin交易，我还推荐通过Sentinel应用程序设置一个仅限查看的钱包。添加您的**Postmix**账户的ZPUB，并实时监控您的coinjoin周期的进展。如果您想了解如何使用Sentinel，我推荐咨询PlanB网络上的另一个教程：[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)。

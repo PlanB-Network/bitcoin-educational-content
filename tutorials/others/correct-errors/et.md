@@ -10,9 +10,9 @@ Kui te, konsulteerides mõne meie haridussisu (õpetused, koolitused, ressursid.
 
 See õpetus juhendab teid samm-sammult läbi protsessi, kuidas parandada neid väikseid vigu. See on mõeldud algajatele, kes ei soovi sukelduda Giti keerukustesse. Kuid, kui olete Gitiga mugav, siis siin on kiire kokkuvõte: peate lihtsalt tegema fork'i [PlanB võrgustiku andmerepositooriumist](https://github.com/PlanB-Network/bitcoin-educational-content), tegema muudatusi pühendatud harus ja esitama Pull Request'i lähterepositooriumi `dev` haru vastu.
 
-Palun pange tähele, et kui plaanite teha dokumendi täieliku ülevaatuse ja revisjoni, eriti sisu tõlgete puhul, siis kutsun teid üles konsulteerima [selle teise, detailsema õpetusega](https://planb.network/tutorials/others/content-review-tutorial). Siin keskendume ainult sellele, kuidas teha kiiret parandust väikese vea jaoks.
+Palun pange tähele, et kui plaanite teha dokumendi täieliku ülevaatuse ja revisjoni, eriti sisu tõlgete puhul, siis kutsun teid üles konsulteerima [selle teise, detailsema õpetusega](https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Siin keskendume ainult sellele, kuidas teha kiiret parandust väikese vea jaoks.
 
-- Esiteks, teil peab olema konto GitHubis. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/create-github-account).
+- Esiteks, teil peab olema konto GitHubis. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Minge [PlanB andmetele pühendatud GitHubi repositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content):
 ![kirjavead](assets/01.webp)
 - Siin leiate kogu meie sisu, mis on korraldatud osade kaupa.

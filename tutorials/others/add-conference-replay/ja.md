@@ -10,13 +10,13 @@ PlanB NetworkサイトにあなたのBitcoinコンファレンスのリプレイ
 
 しかし、将来行われるコンファレンスを追加したい場合は、サイトに新しいイベントを追加する方法を説明するこの他のチュートリアルを読むことをお勧めします。
 
-https://planb.network/tutorials/others/add-event
+https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 - まず、GitHubにアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、ガイドする詳細なチュートリアルを作成しました。
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - `resources/conference/`セクションで[PlanBに専用のデータのGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference)にアクセスしてください：
@@ -69,7 +69,7 @@ tags:
 
 ![conference](assets/09.webp)
 もしまだお使いの組織に"*builder*"識別子がない場合は、この他のチュートリアルに従って追加することができます。
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - このファイルへの変更が完了したら、`Commit changes...`ボタンをクリックして保存してください：
 ![conference](assets/10.webp)

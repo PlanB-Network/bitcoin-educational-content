@@ -8,7 +8,7 @@ BIP39 paroolilause on valikuline parool, mis koos sinu mnemoonilise fraasiga kas
 
 Enne selle õpetuse alustamist, kui sa pole tuttav paroolilause kontseptsiooniga, kuidas see töötab ja millised on selle tagajärjed sinu Bitcoin rahakotile, soovitan tungivalt konsulteerida selle teise teoreetilise artikliga, kus ma kõike selgitan:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Kuidas paroolilause Ledgeril toimib?
 
@@ -28,9 +28,9 @@ Selles õpetuses kasutan näitena Ledger Flexi. Kui kasutad aga mõnda teist Led
 **Tähelepanu:** Kui olete juba enne paroolilause aktiveerimist oma Ledgerisse bitcoine saanud, peate need üle kandma Bitcoin'i tehingu kaudu. Paroolilause genereerib uue võtmete komplekti, luues seeläbi rahakoti, mis on täiesti sõltumatu teie esialgsest rahakotist. Paroolilause lisamisel saate uue rahakoti, mis on tühi. See aga ei kustuta teie esimest paroolilausega rahakotti. Saate sellele endiselt juurde pääseda, kas otse oma Ledgeri kaudu ilma paroolilause sisestamata või kasutades mõnda muud tarkvara koos oma 24-sõnalise fraasiga.
 Enne selle õpetuse alustamist veenduge, et olete oma Ledgeri juba seadistanud ja genereerinud oma mnemoonilise fraasi. Kui see pole nii ja teie Ledger on uus, järgige oma mudeli jaoks saadaolevat spetsiifilist õpetust PlanB võrgustikus. Kui see samm on lõpetatud, võite naasta selle õpetuse juurde.
 
-https://planb.network/tutorials/wallet/ledger-flex
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
-https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Kuidas seadistada ajutist paroolilause Ledgeris?
 
@@ -153,4 +153,4 @@ Palju õnne, teie Bitcoin'i rahakott on nüüd paroolifraasiga kaitstud! Kui lei
 
 Soovitan teil samuti tutvuda selle teise põhjaliku õpetusega, kuidas kasutada oma Ledger Flexi:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

@@ -30,7 +30,7 @@ Ohledně [ceníku](https://proton.me/pricing), bezplatná verze nabízí až 5 G
 
 Pokud ještě nemáte účet Proton, budete si ho muset vytvořit. Odkazuji vás na náš tutoriál Proton Mail, ve kterém podrobně vysvětlujeme, jak vytvořit bezplatný účet Proton a nastavit ho:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Jak nastavit Proton Drive?
 
@@ -42,7 +42,7 @@ Nyní jste na svém Proton Drive.
 ![PROTON DRIVE](assets/notext/07.webp)
 ## Jak používat Proton Drive?
 Pro přidání souborů do vašeho Proton Drive, pokud využíváte výhradně webovou verzi (o použití lokální verze si povíme později), stačí jednoduše přetáhnout vaše dokumenty přímo do rozhraní. ![PROTON DRIVE](assets/notext/08.webp) Poté svůj dokument najdete na úvodní stránce. ![PROTON DRIVE](assets/notext/09.webp) Pro přidání nové položky klikněte na tlačítko "*Nový*" v levém horním rohu obrazovky. ![PROTON DRIVE](assets/notext/10.webp) Funkce "*Nahrát soubor*" otevře váš lokální průzkumník souborů, což vám umožní vybrat a importovat nové dokumenty do Proton Drive, stejně jako byste je přetáhli. ![PROTON DRIVE](assets/notext/11.webp) "*Nahrát složku*" umožňuje importovat celou složku. ![PROTON DRIVE](assets/notext/12.webp) "*Nová složka*" umožňuje vytvořit složku pro lepší organizaci vašich dokumentů na Proton Drive. ![PROTON DRIVE](assets/notext/13.webp) Klikněte na tuto možnost, přiřaďte název vaší složce. ![PROTON DRIVE](assets/notext/14.webp) Poté ji najdete přímo na úvodní stránce Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Nakonec, "*Nový dokument*" umožňuje vytvořit nový textový dokument přímo v Proton Drive. ![PROTON DRIVE](assets/notext/16.webp) Kliknutím na něj se otevře nový prázdný dokument. ![PROTON DRIVE](assets/notext/17.webp) Můžete na něm psát a upravovat ho. ![PROTON DRIVE](assets/notext/18.webp) Pokud kliknete na tlačítko "*Sdílet*" v pravém horním rohu, můžete dokument sdílet. ![PROTON DRIVE](assets/notext/19.webp) Stačí zadat e-mail přispěvatele, kterému chcete umožnit přístup k dokumentu, ať už pouze pro čtení nebo s právy na úpravy. ![PROTON DRIVE](assets/notext/20.webp) Pokud se vrátíte do vašeho Proton Drive, uvidíte, že dokument byl úspěšně uložen. ![PROTON DRIVE](assets/notext/21.webp) V záložce "*Sdílené*" najdete dokumenty, které jste sdíleli s ostatními. ![PROTON DRIVE](assets/notext/22.webp) A v záložce "*Sdílené se mnou*" můžete vidět dokumenty, které s vámi sdíleli ostatní. ![PROTON DRIVE](assets/notext/23.webp) Nakonec, v záložce "*Koš*" najdete vaše nedávno smazané dokumenty. ![PROTON DRIVE](assets/notext/24.webp) Většina nastavení vašeho Proton Drive je integrována do vašeho účtu Proton. Pro podrobné instrukce k nastavení vašeho účtu vás zvu na konzultaci tohoto tutoriálu:
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Jak nainstalovat software Proton Drive?
 Proton Drive také nabízí software, který umožňuje synchronizaci vašich lokálních souborů s vaším online úložištěm. Tato funkce usnadňuje a automatizuje implementaci naší strategie zálohování 3-2-1. S softwarem Proton Drive získáte 2 synchronizované kopie vašich souborů: jednu na vašem počítači a druhou na serverech Protonu, čímž splňujete kritéria pro 2 typy médií a zálohování mimo místo. Budete potřebovat pouze vytvořit třetí kopii, kterou nastavíme později.
@@ -80,4 +80,4 @@ Gratulujeme, nyní máte velmi robustní zálohovací strategii 3-2-1, která v�
 
 Pokud se chcete dozvědět více o zabezpečení vaší online přítomnosti a vyhýbání se hackování, doporučuji také konzultovat náš podrobný tutoriál na správce hesel Bitwarden:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

@@ -33,7 +33,7 @@ Scegli anche il nome utente per il tuo indirizzo email.
 
 Ti verrà poi chiesto di impostare una password. È importante scegliere una password forte in questa fase, poiché permetterà l'accesso alla tua casella di posta. Una password robusta dovrebbe essere il più lunga possibile, utilizzare una vasta varietà di caratteri e essere scelta in modo casuale. Nel 2024, le raccomandazioni minime per una password sicura sono 13 caratteri includendo numeri, lettere minuscole e maiuscole, così come simboli, a condizione che la password sia veramente casuale. Tuttavia, raccomando di optare per una password di almeno 20 caratteri, includendo tutti i tipi possibili di caratteri, per garantirne la sicurezza più a lungo.
 L'uso di un gestore di password è un'eccellente pratica. Non solo ti permette di memorizzare le tue password in modo sicuro senza doverle ricordare, ma può anche generare password lunghe e casuali per te. Gli esseri umani sono infatti molto cattivi nel creare sequenze casuali, e una password che non è abbastanza casuale può essere vulnerabile agli attacchi di forza bruta. Raccomando anche di consultare il nostro tutorial completo su come configurare un gestore di password per maggiori dettagli su questo argomento:
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Clicca sul pulsante "*Crea Account*".
 

@@ -80,4 +80,4 @@ Schließlich ermöglicht Ihnen das Menü "*Split-Tunneling*", spezifische Anwend
 Um einen Überblick über Ihr Mullvad-Konto zu erhalten und die verschiedenen verbundenen Geräte zu verwalten, können Sie im Website-Menü auf "*Geräte*" klicken.
 Und da haben Sie es, Sie sind jetzt bestens ausgestattet, um Mullvad VPN vollständig zu genießen. Wenn Sie an der Entdeckung eines weiteren VPN-Anbieters interessiert sind, der Mullvad in Bezug auf Funktionen und Preise ähnlich ist, empfehle ich Ihnen auch, unser Tutorial über IVPN zu prüfen:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

@@ -40,7 +40,7 @@ Fra et eksternt perspektiv, ville mønsteret av transaksjonen ha forblitt nøyak
 
 Oppsummert deler Stonewall og Stonewall x2-transaksjoner en identisk struktur. Forskjellen mellom de to ligger i deres samarbeidsnatur. Stonewall-transaksjonen er utviklet individuelt, uten behov for samarbeid. I motsetning, Stonewall x2-transaksjonen er avhengig av samarbeid mellom to personer for sin implementering.
 
-[**-> Lær mer om Stonewall x2-transaksjoner**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Lær mer om Stonewall x2-transaksjoner**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## Hva er formålet med en Stonewall-transaksjon?
 Stonewall-strukturen legger til en betydelig mengde entropi til transaksjonen og skjuler kjedeanalysen. Fra et eksternt perspektiv kan en slik transaksjon tolkes som en liten coinjoin mellom to personer. Men i virkeligheten, akkurat som Stonewall x2-transaksjonen, er det en betaling. Denne metoden skaper derfor usikkerheter i kjedeanalysen, og kan til og med føre til falske spor.

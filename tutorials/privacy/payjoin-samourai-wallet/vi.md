@@ -27,7 +27,7 @@ Stowaway dựa trên một loại giao dịch mà Samourai gọi là "Cahoots." 
 Giao dịch Cahoots bao gồm việc trao đổi các giao dịch đã ký một phần giữa người dùng. Quá trình này có thể kéo dài và phức tạp, đặc biệt là khi thực hiện từ xa. Tuy nhiên, nó vẫn có thể được thực hiện một cách thủ công với người dùng khác, điều này có thể thuận tiện nếu các bên hợp tác ở gần nhau về mặt vật lý. Trên thực tế, điều này bao gồm việc trao đổi thủ công năm mã QR để được quét liên tiếp.
 
 Khi thực hiện từ xa, quá trình này trở nên quá phức tạp. Để giải quyết vấn đề này, Samourai đã phát triển một giao thức giao tiếp mã hóa dựa trên Tor, gọi là "Soroban." Với Soroban, các trao đổi cần thiết cho một Payjoin được tự động hóa phía sau một giao diện thân thiện với người dùng. Đây là phương pháp thứ hai mà chúng tôi sẽ nghiên cứu trong bài viết này.
-Những giao dịch được mã hóa này đòi hỏi việc thiết lập một kết nối và xác thực giữa các thành viên tham gia Cahoots. Do đó, giao tiếp Soroban dựa trên Paynyms của người dùng. Nếu bạn chưa quen với Paynyms, tôi mời bạn tham khảo bài viết này để biết thêm chi tiết: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+Những giao dịch được mã hóa này đòi hỏi việc thiết lập một kết nối và xác thực giữa các thành viên tham gia Cahoots. Do đó, giao tiếp Soroban dựa trên Paynyms của người dùng. Nếu bạn chưa quen với Paynyms, tôi mời bạn tham khảo bài viết này để biết thêm chi tiết: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
  Để nói một cách đơn giản, Paynym là một định danh duy nhất liên kết với ví của bạn, cho phép nhiều chức năng khác nhau, bao gồm cả tin nhắn được mã hóa. Paynym được trình bày dưới dạng một định danh và một hình minh họa đại diện cho một robot. Dưới đây là ví dụ về Paynym của tôi trên Testnet: ![paynym samourai wallet](assets/en/1.webp)
 
@@ -38,7 +38,7 @@ Những giao dịch được mã hóa này đòi hỏi việc thiết lập mộ
 - _Soroban_ = Giao thức giao tiếp được mã hóa thiết lập trên Tor, cho phép hợp tác với người dùng khác trong bối cảnh giao dịch Cahoots;
 - _Paynym_ = Định danh duy nhất của một ví cho phép giao tiếp với người dùng khác trên Soroban, nhằm thực hiện giao dịch Cahoots.
 
-[**-> Tìm hiểu thêm về giao dịch Payjoin và công dụng của chúng**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Tìm hiểu thêm về giao dịch Payjoin và công dụng của chúng**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Làm thế nào để thiết lập kết nối giữa các Paynyms?
 

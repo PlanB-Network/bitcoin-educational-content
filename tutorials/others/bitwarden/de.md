@@ -16,7 +16,7 @@ Diese beiden Sicherheitsprinzipien für Passwörter (Einzigartigkeit und Robusth
 
 Ein Passwort-Manager generiert und speichert sicher starke Passwörter und ermöglicht Ihnen den Zugriff auf alle Ihre Online-Konten, ohne dass Sie sich diese einzeln merken müssen. Sie müssen sich nur ein Passwort merken, das Master-Passwort, das Ihnen Zugang zu allen in dem Manager gespeicherten Passwörtern gibt. Die Verwendung eines Passwort-Managers verbessert Ihre Online-Sicherheit, da sie die Wiederverwendung von Passwörtern verhindert und systematisch zufällige Passwörter generiert. Aber es vereinfacht auch die tägliche Nutzung Ihrer Konten, indem es den Zugang zu Ihren sensiblen Informationen zentralisiert.
 In diesem Tutorial werden wir erkunden, wie man einen Passwort-Manager einrichtet und verwendet, um Ihre Online-Sicherheit zu verbessern. Ich werde Ihnen Bitwarden vorstellen, und in einem anderen Tutorial werden wir uns eine andere Lösung namens KeePass ansehen.
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Warnung: Ein Passwort-Manager ist großartig für die Speicherung von Passwörtern, aber **Sie sollten niemals die mnemonische Phrase Ihres Bitcoin-Wallets darin speichern!** Denken Sie daran, eine mnemonische Phrase sollte ausschließlich in einem physischen Format gespeichert werden, wie einem Stück Papier oder Metall.
 
@@ -68,9 +68,9 @@ Zuallererst rate ich Ihnen dringend, die Zwei-Faktor-Authentifizierung (2FA) ein
 
 Wenn Sie unsicher sind, wie Sie diese 2FA-Geräte einrichten und verwenden, empfehle ich, diesen 2 anderen Tutorials zu folgen:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Gehen Sie dazu in den Tab "*Sicherheit*" im Menü "*Einstellungen*".
 ![BITWARDEN](assets/notext/14.webp)

@@ -66,7 +66,7 @@ Whirlpool dirancang dengan mempertimbangkan dua persyaratan penting:
 Imperatif ini memandu pengembang Samourai Wallet dalam perancangan Whirlpool, membawa mereka untuk membatasi jumlah peserta per siklus. Terlalu sedikit peserta akan mengompromikan efisiensi coinjoin, drastis mengurangi anonset yang dihasilkan setiap siklus, sementara terlalu banyak peserta akan menimbulkan masalah manajemen pada aplikasi mobile dan akan menghambat aliran siklus.
 **Pada akhirnya, tidak perlu memiliki jumlah peserta yang tinggi per coinjoin di Whirlpool karena anonset dicapai melalui akumulasi beberapa siklus coinjoin.**
 
-[-> Pelajari lebih lanjut tentang anonset Whirlpool.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Pelajari lebih lanjut tentang anonset Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Pool dan biaya coinjoin
 Agar siklus-siklus ini secara efektif meningkatkan anonset dari coin yang dicampur, harus ada kerangka kerja tertentu yang ditetapkan untuk membatasi jumlah UTXO yang digunakan. Whirlpool mendefinisikan berbagai pool.
@@ -301,7 +301,7 @@ Setelah `Tx0` dikonfirmasi, UTXO Anda akan secara otomatis terdaftar dengan koor
 
 ![samourai](assets/notext/34.webp)
 
-Dengan memeriksa tab `Remixing`, yang sesuai dengan akun **Postmix**, Anda akan melihat UTXO hasil dari pencampuran awal. Koin-koin ini akan tetap siap untuk pencampuran ulang, yang tidak akan menimbulkan biaya tambahan. Saya merekomendasikan untuk membaca artikel lain ini untuk mempelajari lebih lanjut tentang proses remixing dan efisiensi dari siklus coinjoin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
+Dengan memeriksa tab `Remixing`, yang sesuai dengan akun **Postmix**, Anda akan melihat UTXO hasil dari pencampuran awal. Koin-koin ini akan tetap siap untuk pencampuran ulang, yang tidak akan menimbulkan biaya tambahan. Saya merekomendasikan untuk membaca artikel lain ini untuk mempelajari lebih lanjut tentang proses remixing dan efisiensi dari siklus coinjoin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa).
 
 ![samourai](assets/notext/35.webp)
 
@@ -338,7 +338,7 @@ Masukkan informasi yang diperlukan untuk transaksi pengeluaran Anda, kemudian kl
 
 ![samourai](assets/notext/43.webp)
 Pada langkah selanjutnya, Anda memiliki opsi untuk mengubah tarif biaya yang terkait dengan transaksi Anda. Anda juga dapat mengaktifkan opsi Stonewall dengan menandai kotak yang sesuai. Jika opsi Stonewall tidak dapat dipilih, itu berarti akun **Postmix** Anda tidak memiliki UTXO dengan ukuran yang cukup untuk mendukung struktur transaksi tertentu ini.
-[-> Pelajari lebih lanjut tentang transaksi Stonewall.](https://planb.network/tutorials/privacy/stonewall)
+[-> Pelajari lebih lanjut tentang transaksi Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Jika semuanya sesuai dengan kepuasan Anda, klik tombol hijau `KIRIM ... BTC`.
 
@@ -371,7 +371,7 @@ Pastikan SCODE Anda telah terdaftar dengan benar dengan mengklik sekali lagi pad
 
 ## Bagaimana mengetahui kualitas siklus coinjoin kami?
 Agar coinjoin benar-benar efektif, sangat penting bahwa ia menunjukkan keseragaman yang baik antara jumlah input dan output. Keseragaman ini memperkuat jumlah interpretasi yang mungkin di mata pengamat eksternal, sehingga meningkatkan ketidakpastian seputar transaksi. Untuk mengkuantifikasi ketidakpastian yang dihasilkan oleh coinjoin, seseorang dapat menggunakan perhitungan entropi transaksi. Untuk eksplorasi mendalam tentang indikator-indikator ini, saya merujuk Anda ke tutorial: [KALKULATOR BOLTZMANN](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Model Whirlpool diakui sebagai salah satu yang membawa homogenitas terbanyak ke coinjoins.
-Selanjutnya, kinerja dari beberapa siklus coinjoin dievaluasi berdasarkan sejauh mana kelompok-kelompok di mana sebuah koin disembunyikan. Ukuran dari kelompok-kelompok ini mendefinisikan apa yang disebut anonsets. Ada dua jenis anonsets: yang pertama menilai privasi yang diperoleh melawan analisis retrospektif (dari masa sekarang ke masa lalu) dan yang kedua, melawan analisis prospektif (dari masa lalu ke masa sekarang). Untuk penjelasan rinci tentang kedua indikator ini, saya mengundang Anda untuk berkonsultasi dengan tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
+Selanjutnya, kinerja dari beberapa siklus coinjoin dievaluasi berdasarkan sejauh mana kelompok-kelompok di mana sebuah koin disembunyikan. Ukuran dari kelompok-kelompok ini mendefinisikan apa yang disebut anonsets. Ada dua jenis anonsets: yang pertama menilai privasi yang diperoleh melawan analisis retrospektif (dari masa sekarang ke masa lalu) dan yang kedua, melawan analisis prospektif (dari masa lalu ke masa sekarang). Untuk penjelasan rinci tentang kedua indikator ini, saya mengundang Anda untuk berkonsultasi dengan tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 
 ## Bagaimana cara mengelola postmix?
 Setelah melakukan siklus coinjoin, strategi terbaik adalah menyimpan UTXO Anda di akun **postmix**, menunggu penggunaan masa depan mereka. Bahkan disarankan untuk membiarkan mereka remix secara tak terbatas sampai Anda perlu menghabiskannya.
@@ -399,7 +399,7 @@ Selanjutnya, Anda harus berhati-hati dalam mengelola perubahan doxxic, perubahan
 Tutorial terperinci tentang penerapan teknik-teknik berbeda ini akan segera ditawarkan di PlanB Network.
 
 **Sumber daya tambahan:**
-- [Tutorial video Samourai Wallet](https://planb.network/tutorials/wallet/samourai);
+- [Tutorial video Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
 - [Dokumentasi Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread Twitter tentang coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Postingan blog tentang coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

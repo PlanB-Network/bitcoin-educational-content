@@ -1,0 +1,5 @@
+description: |
+  NerdMiner adalah alat edukasi dan hiburan yang didedikasikan untuk penambangan Bitcoin, berbasis pada papan ESP-32 S3. Meskipun tidak memiliki daya ASIC profesional, alat ini memungkinkan pemahaman konkret tentang cara kerja penambangan dengan konsumsi listrik hanya 0,5 W. Terhubung ke pool penambangan, alat ini menawarkan peluang kecil untuk menambang blok sambil menampilkan statistik di layar terintegrasinya. Ideal untuk penggemar dan mereka yang penasaran.
+
+contributors:
+  - pretty-private

@@ -1,0 +1,16 @@
+- start_date: 2025-08-15 06:00:00
+  end_date: 2025-08-16 14:00:00
+  timezone: Europe/Helsinki
+  address_line_1: Kulttuuritehdas Korjaamo, Helsinki, Finland
+  name: BTC Hel Conference 2025
+  builder: Bitcoin Helsinski
+  type: conference
+  description: Join us for an immersive experience where industry leaders, innovators, and enthusiasts converge to explore the latest trends and breakthroughs in the world of bitcoin!
+  language:
+    - en
+  links:
+    website: https://btchel.com/
+  tags:
+    - software
+    - business
+    - decentralization

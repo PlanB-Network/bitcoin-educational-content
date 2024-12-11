@@ -1,0 +1,5 @@
+description: |
+  Public Pool adalah platform penambangan jenis Solo Pool yang memungkinkan penambang mencoba keberuntungan mereka untuk menambang blok Bitcoin tanpa berbagi hadiah. Berbeda dengan pool tradisional, Public Pool tidak menggabungkan daya komputasi: pengguna menerima hadiah penuh jika blok ditemukan. Platform ini menyediakan template blok untuk penambang, sehingga tidak perlu mengelola node Bitcoin. Meskipun peluang sukses rendah, sistem ini berfungsi seperti lotre dengan potensi hadiah tinggi. Sebuah dasbor menawarkan statistik terperinci tentang kinerja dan jaringan.
+
+contributors:
+  - pretty-private

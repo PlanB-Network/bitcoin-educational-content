@@ -1,0 +1,5 @@
+description: |
+  Public Pool er en Solo Pool-gruveplattform som lar gruvearbeidere prøve lykken med å mine en Bitcoin-blokk uten å dele belønningen. I motsetning til tradisjonelle pooler samler ikke Public Pool beregningskraft: brukerne mottar hele belønningen hvis en blokk blir funnet. Plattformen gir gruvearbeidere en blokkmal, noe som eliminerer behovet for å administrere en Bitcoin-node. Selv om sjansene for suksess er små, fungerer systemet som et lotteri med potensielt høye gevinster. Et dashbord tilbyr detaljerte statistikker om ytelse og nettverk.
+
+contributors:
+  - pretty-private

@@ -1,0 +1,5 @@
+description: |
+  GrapheneOS là một hệ điều hành di động tập trung vào bảo mật và quyền riêng tư, được thiết kế cho các thiết bị Google Pixel. Đây là một dự án mã nguồn mở dựa trên Android, tăng cường khả năng chống lại các cuộc tấn công bằng cách tích hợp các tính năng nâng cao và kiểm soát chặt chẽ quyền của ứng dụng. Không có dịch vụ Google được tích hợp mặc định, GrapheneOS cung cấp trải nghiệm người dùng tối giản đồng thời cho phép cài đặt tùy chọn các công cụ, đáp ứng nhu cầu của người dùng quan tâm đến quyền riêng tư trên di động.
+
+contributors:
+  - pretty-private

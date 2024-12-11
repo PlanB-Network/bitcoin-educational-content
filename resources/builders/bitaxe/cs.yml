@@ -1,0 +1,5 @@
+description: |
+  BitAxe je open-source projekt navržený pro experimentování s těžbou Bitcoinu s nízkými náklady pomocí znovu použitých ASIC čipů, jako jsou ty z populárních Antminer S19. Nabízí několik modelů přizpůsobených potřebám těžařů a poskytuje výkon až 3,3 TH/s. Na rozdíl od vzdělávacích řešení, jako je NerdMiner, umožňuje BitAxe účast v těžebních poolech k získávání pravidelných odměn v bitcoinech, a přitom zůstává dostupný a konfigurovatelný. Ideální nástroj pro nadšence, kteří chtějí prozkoumat těžbu.
+
+contributors:
+  - pretty-private

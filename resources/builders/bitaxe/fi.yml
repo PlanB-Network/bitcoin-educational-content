@@ -1,0 +1,5 @@
+description: |
+  BitAxe on avoimen lähdekoodin projekti, joka on suunniteltu tarjoamaan mahdollisuus kokeilla Bitcoinin louhintaa edullisesti käyttämällä uudelleenkäytettyjä ASIC-siruja, kuten suosituista Antminer S19 -laitteista. Se tarjoaa useita malleja, jotka on räätälöity louhijoiden tarpeisiin, ja suorituskyky voi olla jopa 3,3 TH/s. Toisin kuin opetustyökalut, kuten NerdMiner, BitAxe mahdollistaa osallistumisen louhintapooleihin säännöllisten Bitcoin-palkkioiden ansaitsemiseksi, pysyen samalla helposti saavutettavana ja muokattavana. Ihanteellinen työkalu louhintaa tutkiville harrastajille.
+
+contributors:
+  - pretty-private

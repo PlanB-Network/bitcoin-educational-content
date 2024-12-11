@@ -1,0 +1,22 @@
+name: Satochip
+
+links:
+  website: https://satochip.io/
+  twitter: https://x.com/satochip
+  github: https://github.com/toporin
+
+tags:
+  - wallets
+  - hardware
+
+category: wallet
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-12-11
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

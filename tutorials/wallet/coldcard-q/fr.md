@@ -278,7 +278,7 @@ Appuyez sur "ENTER" pour générer le fichier de configuration.
 
 041
 
-Choisissez ensuite comment transmettre ce fichier à Sparrow. Dans cet exemple, j'ai inséré une microSD dans l'emplacement "A", donc je vais sélectionner le bouton "1". Vous pouvez également afficher les informations sous forme de QR code sur l'écran de votre COLDCARD en appuyant sur le bouton "QR", et scanner ce code avec la webcam de votre ordinateur.
+Choisissez ensuite comment transmettre ce fichier à Sparrow. Dans cet exemple, j'ai inséré une microSD dans l'emplacement "A", donc je vais sélectionner le bouton "1". Vous pouvez également afficher les informations sous forme de QR code sur l'écran de votre COLDCARD en appuyant sur le bouton "QR", et scanner ce QR code avec la webcam de votre ordinateur.
 
 042
 
@@ -356,7 +356,7 @@ Vérifiez sur Sparrow que l'adresse correspond bien. Dans mon cas, l'adresse ave
 
 057
 
-Une autre méthode pour vérifier la possession de cette adresse consiste à scanner son QR code directement sur Sparrow à partir de votre COLDCARD. Depuis l'écran d'accueil de votre COLDCARD, sélectionnez "Scan Any QR Code".
+Une autre méthode pour vérifier la possession de cette adresse consiste à scanner son QR code directement sur Sparrow à partir de votre COLDCARD. Depuis l'écran d'accueil de votre COLDCARD, sélectionnez "Scan Any QR Code". Vous pouvez également utiliser la touche "QR" sur le clavier.
 
 058
 
@@ -448,7 +448,7 @@ La seconde méthode pour signer avec votre COLDCARD en Air-Gap, qui est bien plu
 
 078
 
-Sur la COLDCARD, choisissez "Scan Any QR Code".
+Sur la COLDCARD, choisissez "Scan Any QR Code". Vous pouvez également utiliser la touche "QR" sur le clavier.
 
 079
 

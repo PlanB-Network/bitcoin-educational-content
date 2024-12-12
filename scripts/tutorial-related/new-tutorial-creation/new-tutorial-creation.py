@@ -5,16 +5,19 @@ import json
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
 
-ctk.set_appearance_mode("Light")
-ctk.set_default_color_theme("blue")
-
 SETTINGS_FILE = 'settings.json'
 
 def load_settings():
     if os.path.exists(SETTINGS_FILE):
         with open(SETTINGS_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            settings = json.load(f)
+            if 'theme' in settings:
+                ctk.set_appearance_mode(settings['theme'])
+            else:
+                ctk.set_appearance_mode("Light")
+            return settings
     else:
+        ctk.set_appearance_mode("Light")
         return {}
 
 def save_settings():
@@ -23,7 +26,8 @@ def save_settings():
         'language_option': language_option_var.get(),
         'language': language_var.get(),
         'contributor_id': contributor_id_var.get(),
-        'professor_id': professor_id_var.get()
+        'professor_id': professor_id_var.get(),
+        'theme': ctk.get_appearance_mode()
     }
     with open(SETTINGS_FILE, 'w', encoding='utf-8') as f:
         json.dump(settings, f, ensure_ascii=False, indent=4)
@@ -183,6 +187,9 @@ def toggle_theme():
     current_mode = ctk.get_appearance_mode()
     new_mode = "Light" if current_mode == "Dark" else "Dark"
     ctk.set_appearance_mode(new_mode)
+    save_settings()
+
+ctk.set_default_color_theme("blue")
 
 sections = {
     "exchange": ["centralized", "peer-to-peer"],

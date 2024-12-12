@@ -85,15 +85,15 @@ Vous pouvez maintenant allumer votre COLDCARD en appuyant sur le bouton en haut 
 
 006
 
-Appuyez sur le bouton "ENTER" pour accepter les conditions d'utilisation.
+Appuyez sur le bouton "*ENTER*" pour accepter les conditions d'utilisation.
 
 007
 
-Votre COLDCARD Q affichera ensuite un numéro en haut de l'écran. Assurez-vous que ce numéro correspond à celui noté sur le sac scellé et sur le morceau de plastique contenu dans le sac. Cela garantit que votre colis n'a pas été ouvert entre le moment où il a été conditionné par Coinkite et votre ouverture. Appuyez sur "ENTER" pour continuer.
+Votre COLDCARD Q affichera ensuite un numéro en haut de l'écran. Assurez-vous que ce numéro correspond à celui noté sur le sac scellé et sur le morceau de plastique contenu dans le sac. Cela garantit que votre colis n'a pas été ouvert entre le moment où il a été conditionné par Coinkite et votre ouverture. Appuyez sur "*ENTER*" pour continuer.
 
 008
 
-Naviguez jusqu'au menu "Choose PIN Code" et confirmez avec le bouton "ENTER".
+Naviguez jusqu'au menu "*Choose PIN Code*" et confirmez avec le bouton "*ENTER*".
 
 009
 
@@ -101,7 +101,7 @@ Ce code PIN vous servira à déverrouiller votre COLDCARD. C'est donc une protec
 
 Les codes PIN des COLDCARD se divisent en deux parties : un préfixe et un suffixe, chacun pouvant comprendre entre 2 et 6 chiffres, pour un total de 4 à 12 chiffres. Lorsque vous déverrouillerez votre COLDCARD, vous devrez d'abord saisir le préfixe, après quoi l'appareil vous montrera 2 mots. Vous entrerez ensuite le suffixe. Ces deux mots vous seront donnés lors de cette étape de configuration et devront être soigneusement sauvegardés, car ils vous seront nécessaires à chaque déverrouillage de votre COLDCARD. Si les deux mots affichés lors du déverrouillage correspondent à ceux que vous avez enregistrés lors de la configuration, cela confirmera que votre appareil n'a pas été compromis depuis son dernier usage.
 
-Cliquez de nouveau sur "Choose PIN"
+Cliquez de nouveau sur "*Choose PIN*"
 
 010
 
@@ -111,7 +111,7 @@ Confirmez que vous avez pris connaissance des avertissements.
 
 Vous allez maintenant choisir votre code PIN. Il est recommandé d'opter pour un code PIN long et aléatoire. Assurez-vous également de conserver ce code dans un lieu différent de celui où est stocké votre COLDCARD. Vous pouvez utiliser le carton fourni dans votre colis pour noter ce code.
 
-Saisissez le préfixe de votre choix, puis appuyez sur le bouton "ENTER" pour confirmer cette première partie du code PIN.
+Saisissez le préfixe de votre choix, puis appuyez sur le bouton "*ENTER*" pour confirmer cette première partie du code PIN.
 
 012
 
@@ -119,7 +119,7 @@ Les deux mots anti-phishing vous seront ensuite affichés à l'écran. Sauvegard
 
 013
 
-Entrez ensuite la seconde partie de votre code PIN et appuyez sur "ENTER".
+Entrez ensuite la seconde partie de votre code PIN et appuyez sur "*ENTER*".
 
 014
 
@@ -131,25 +131,25 @@ Dorénavant, à chaque déverrouillage de votre COLDCARD, pensez à vérifier la
 
 ## Mise à jour du firmware
 
-Lors de la première utilisation, il est important de vérifier et de mettre à jour le firmware de votre appareil. Pour cela, accédez au menu "Advanced/Tools".
+Lors de la première utilisation, il est important de vérifier et de mettre à jour le firmware de votre appareil. Pour cela, accédez au menu "*Advanced/Tools*".
 
 016
 
 **Important :** Si vous envisagez de mettre à jour votre firmware et que ce n'est pas votre première utilisation de la COLDCARD (c'est-à-dire que vous avez déjà un portefeuille créé sur la COLDCARD), assurez-vous de vérifier que vous avez bien votre phrase mnémonique et qu'elle est fonctionnelle (ainsi que la passphrase optionnelle, si applicable). Cette précaution est importante pour éviter de perdre vos bitcoins en cas de problème durant la mise à jour de l'appareil.
 
-Sélectionnez "Upgrade Firmware".
+Sélectionnez "*Upgrade Firmware*".
 
 017
 
-Choisissez "Show Version".
+Choisissez "*Show Version*".
 
 018
 
-Vous pouvez consulter la version actuelle du firmware de votre COLDCARD. Par exemple, dans mon cas, la version est "1.2.3Q".
+Vous pouvez consulter la version actuelle du firmware de votre COLDCARD. Par exemple, dans mon cas, la version est "*1.2.3Q*".
 
 019
 
-Vérifiez [sur le site officiel de COLDCARD](https://coldcard.com/downloads) si une version plus récente est disponible. Cliquez sur "Download" pour télécharger le nouveau firmware.
+Vérifiez [sur le site officiel de COLDCARD](https://coldcard.com/downloads) si une version plus récente est disponible. Cliquez sur "*Download*" pour télécharger le nouveau firmware.
 
 020
 
@@ -163,7 +163,7 @@ Munissez-vous d'une carte microSD et transférez-y le fichier firmware (document
 
 021
 
-Ensuite, dans le menu de mise à jour du firmware, sélectionnez "From MicroSD".
+Ensuite, dans le menu de mise à jour du firmware, sélectionnez "*From MicroSD*".
 
 022
 
@@ -171,7 +171,7 @@ Choisissez le fichier correspondant au firmware.
 
 023
 
-Confirmez la sélection en appuyant sur le bouton "ENTER".
+Confirmez la sélection en appuyant sur le bouton "*ENTER*".
 
 024
 
@@ -187,7 +187,7 @@ Votre firmware est désormais à jour.
 
 ## Les paramètres de la COLDCARD Q
 
-Si vous le souhaitez, vous pouvez explorer les paramètres de votre COLDCARD en accédant au menu "Settings".
+Si vous le souhaitez, vous pouvez explorer les paramètres de votre COLDCARD en accédant au menu "*Settings*".
 
 027
 
@@ -212,7 +212,7 @@ Je déconseille l'option des dés seuls, car une mauvaise réalisation peut cond
 
 En revanche, la meilleure option est sûrement la seconde, qui combine l'usage du TRNG avec une source d'entropie externe. Cette méthode garantit une entropie minimale équivalente à celle du TRNG seul et ajoute un niveau de sécurité supplémentaire en cas d'éventuelle défaillance du générateur interne (volontaire ou non). En choisissant cette option qui combine TRNG et lancers de dés, vous bénéficiez de plus de contrôle sur la génération de la phrase, sans pour autant augmenter les risques en cas de mauvaise réalisation de votre part.
 
-Cliquez sur "New Seed Words".
+Cliquez sur "*New Seed Words*".
 
 029
 
@@ -220,11 +220,11 @@ Vous pouvez choisir la longueur de votre phrase. Je vous recommande d'opter pour
 
 030
 
-La COLDCARD affichera ensuite votre phrase de récupération générée par le TRNG. Si vous voulez y ajouter une entropie externe supplémentaire, appuyez sur la touche "4".
+La COLDCARD affichera ensuite votre phrase de récupération générée par le TRNG. Si vous voulez y ajouter une entropie externe supplémentaire, appuyez sur la touche "*4*".
 
 031
 
-Vous accéderez à une page où vous pourrez ajouter de l'entropie par des lancers de dés. Effectuez autant de lancers que possible (un minimum de 50 est conseillé, mais en faire moins n'est pas très grave puisque vous bénéficiez déjà de l'entropie du TRNG), et enregistrez les résultats avec les touches de "1" à "6". Une fois terminé, appuyez sur "ENTER" pour confirmer.
+Vous accéderez à une page où vous pourrez ajouter de l'entropie par des lancers de dés. Effectuez autant de lancers que possible (un minimum de 50 est conseillé, mais en faire moins n'est pas très grave puisque vous bénéficiez déjà de l'entropie du TRNG), et enregistrez les résultats avec les touches de "*1*" à "*6*". Une fois terminé, appuyez sur "*ENTER*" pour confirmer.
 
 032
 
@@ -238,7 +238,7 @@ Notez les mots fournis sur l'écran sur le support physique de votre choix. Selo
 
 Évidemment, **vous ne devez jamais partager ces mots** sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.
 
-Après avoir noté les mots, appuyez sur "ENTER".
+Après avoir noté les mots, appuyez sur "*ENTER*".
 
 033
 
@@ -246,7 +246,7 @@ Pour vérifier que vous avez correctement sauvegardé votre phrase, le système 
 
 034
 
-Votre portefeuille est maintenant créé ! Vous pouvez voir en haut à droite de l'écran votre empreinte de clé privée maîtresse. Appuyez sur "ENTER".
+Votre portefeuille est maintenant créé ! Vous pouvez voir en haut à droite de l'écran votre empreinte de clé privée maîtresse. Appuyez sur "*ENTER*".
 
 035
 
@@ -256,29 +256,29 @@ Vous accédez maintenant au menu principal de votre COLDCARD.
 
 ## Configurer un nouveau portefeuille sur Sparrow
 
-Pour établir une communication entre le logiciel Sparrow Wallet et votre COLDCARD, vous disposez de plusieurs options. La plus directe est l'utilisation d'un câble USB-C. Toutefois, par défaut, votre COLDCARD a les communications par câble et par NFC désactivées. Pour les réactiver, naviguez dans "Settings", puis "Hardware On/Off", et activez l'option de communication souhaitée.
+Pour établir une communication entre le logiciel Sparrow Wallet et votre COLDCARD, vous disposez de plusieurs options. La plus directe est l'utilisation d'un câble USB-C. Toutefois, par défaut, votre COLDCARD a les communications par câble et par NFC désactivées. Pour les réactiver, naviguez dans "*Settings*", puis "*Hardware On/Off*", et activez l'option de communication souhaitée.
 
 037
 
-Si vous préférez maintenir votre COLDCARD totalement isolée de votre ordinateur, vous pouvez opter pour une communication indirecte en "Air-Gap", en utilisant des QR codes ou une carte microSD. C'est cette méthode que nous utiliserons dans ce tutoriel.
+Si vous préférez maintenir votre COLDCARD totalement isolée de votre ordinateur, vous pouvez opter pour une communication indirecte en "*Air-Gap*", en utilisant des QR codes ou une carte microSD. C'est cette méthode que nous utiliserons dans ce tutoriel.
 
-Dirigez-vous vers "Advanced/Tools".
+Dirigez-vous vers "*Advanced/Tools*".
 
 038
 
-Choisissez "Export Wallet".
+Choisissez "*Export Wallet*".
 
 039
 
-Sélectionnez ensuite "Sparrow Wallet".
+Sélectionnez ensuite "*Sparrow Wallet*".
 
 040
 
-Appuyez sur "ENTER" pour générer le fichier de configuration.
+Appuyez sur "*ENTER*" pour générer le fichier de configuration.
 
 041
 
-Choisissez ensuite comment transmettre ce fichier à Sparrow. Dans cet exemple, j'ai inséré une microSD dans l'emplacement "A", donc je vais sélectionner le bouton "1". Vous pouvez également afficher les informations sous forme de QR code sur l'écran de votre COLDCARD en appuyant sur le bouton "QR", et scanner ce QR code avec la webcam de votre ordinateur.
+Choisissez ensuite comment transmettre ce fichier à Sparrow. Dans cet exemple, j'ai inséré une microSD dans l'emplacement "*A*", donc je vais sélectionner le bouton "*1*". Vous pouvez également afficher les informations sous forme de QR code sur l'écran de votre COLDCARD en appuyant sur le bouton "*QR*", et scanner ce QR code avec la webcam de votre ordinateur.
 
 042
 
@@ -288,27 +288,27 @@ Lancez Sparrow Wallet et passez les pages d'introduction pour arriver à l'écra
 
 Il est fortement recommandé d'utiliser votre propre nœud Bitcoin. Pour ce tutoriel, j'utilise un nœud public (jaune), car je suis sur le testnet, mais pour une utilisation en production, il est préférable d'utiliser Bitcoin Core en local (vert) ou un serveur Electrum sur un nœud distant (bleu).
 
-Accédez au menu "File" et sélectionnez "New Wallet".
+Accédez au menu "*File*" et sélectionnez "*New Wallet*".
 
 044
 
-Nommez votre portefeuille et cliquez sur "Create Wallet".
+Nommez votre portefeuille et cliquez sur "*Create Wallet*".
 
 045
 
-Dans le menu déroulant "Script Type", choisissez le type de script qui sécurisera vos bitcoins.
+Dans le menu déroulant "*Script Type*", choisissez le type de script qui sécurisera vos bitcoins.
 
 046
 
-Cliquez sur "Airgapped Hardware Wallet".
+Cliquez sur "*Airgapped Hardware Wallet*".
 
 047
 
-Sous l'onglet "Coldcard", cliquez sur "Scan..." si vous prévoyez de scanner le QR code affiché sur votre COLDCARD, ou "Import File..." pour importer le fichier depuis la microSD (c'est le fichier `.json`).
+Sous l'onglet "*Coldcard*", cliquez sur "*Scan...*" si vous prévoyez de scanner le QR code affiché sur votre COLDCARD, ou "*Import File...*" pour importer le fichier depuis la microSD (c'est le fichier `.json`).
 
 048
 
-Après l'importation, vérifiez que la "Master fingerprint" affichée sur Sparrow correspond à celle affichée sur votre COLDCARD. Confirmez la création en cliquant sur "Apply".
+Après l'importation, vérifiez que la "*Master fingerprint*" affichée sur Sparrow correspond à celle affichée sur votre COLDCARD. Confirmez la création en cliquant sur "*Apply*".
 
 049
 
@@ -334,13 +334,13 @@ Pour recevoir vos premiers bitcoins, commencez par allumer et déverrouiller vot
 
 052
 
-Sur Sparrow Wallet, cliquez sur l'onglet "Receive".
+Sur Sparrow Wallet, cliquez sur l'onglet "*Receive*".
 
 053
 
 Avant d'utiliser l'adresse proposée par Sparrow Wallet, vérifiez-la sur l'écran de votre COLDCARD. Cette pratique vous permet de confirmer que l'adresse affichée sur Sparrow n'est pas frauduleuse et que le hardware wallet détient bien la clé privée nécessaire pour dépenser ultérieurement les bitcoins sécurisés avec cette adresse. Cela vous permet d'éviter plusieurs types d'attaques.
 
-Pour effectuer cette vérification, cliquez sur le menu "Address Explorer" sur la COLDCARD.
+Pour effectuer cette vérification, cliquez sur le menu "*Address Explorer*" sur la COLDCARD.
 
 054
 
@@ -356,7 +356,7 @@ Vérifiez sur Sparrow que l'adresse correspond bien. Dans mon cas, l'adresse ave
 
 057
 
-Une autre méthode pour vérifier la possession de cette adresse consiste à scanner son QR code directement sur Sparrow à partir de votre COLDCARD. Depuis l'écran d'accueil de votre COLDCARD, sélectionnez "Scan Any QR Code". Vous pouvez également utiliser la touche "QR" sur le clavier.
+Une autre méthode pour vérifier la possession de cette adresse consiste à scanner son QR code directement sur Sparrow à partir de votre COLDCARD. Depuis l'écran d'accueil de votre COLDCARD, sélectionnez "*Scan Any QR Code*". Vous pouvez également utiliser la touche "*QR*" sur le clavier.
 
 058
 
@@ -364,7 +364,7 @@ Scannez le QR code de l'adresse affichée sur Sparrow Wallet.
 
 059
 
-Assurez-vous que l'adresse affichée sur votre COLDCARD correspond à celle indiquée sur Sparrow. Ensuite, appuyez sur le bouton "1".
+Assurez-vous que l'adresse affichée sur votre COLDCARD correspond à celle indiquée sur Sparrow. Ensuite, appuyez sur le bouton "*1*".
 
 060
 
@@ -372,7 +372,7 @@ L'adresse est ainsi confirmée avec succès.
 
 061
 
-Vous pouvez maintenant ajouter un "Label" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
+Vous pouvez maintenant ajouter un "*Label*" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
 
 062
 
@@ -388,19 +388,19 @@ Vous pouvez ensuite utiliser cette adresse pour recevoir des bitcoins.
 
 Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec la COLDCARD, vous pouvez également les dépenser !
 
-Comme à chaque fois, commencez par allumer et déverrouiller votre COLDCARD Q, puis ouvrez Sparrow Wallet et naviguez jusqu'à l'onglet "Send" pour préparer une nouvelle transaction.
+Comme à chaque fois, commencez par allumer et déverrouiller votre COLDCARD Q, puis ouvrez Sparrow Wallet et naviguez jusqu'à l'onglet "*Send*" pour préparer une nouvelle transaction.
 
 064
 
-Si vous souhaitez faire du "coin control", c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "UTXOs". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "Send Selected". Vous serez redirigé vers le même écran de l'onglet "Send", mais avec vos UTXOs déjà sélectionnés pour la transaction.
+Si vous souhaitez faire du "*coin control*", c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "*UTXOs*". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "*Send Selected*". Vous serez redirigé vers le même écran de l'onglet "*Send*", mais avec vos UTXOs déjà sélectionnés pour la transaction.
 
 065
 
-Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "+ Add".
+Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "*+ Add*".
 
 066
 
-Notez un "Label" pour vous souvenir de l'objet de cette dépense.
+Notez un "*Label*" pour vous souvenir de l'objet de cette dépense.
 
 067
 
@@ -412,23 +412,23 @@ Ajustez le taux de frais de votre transaction en fonction du marché du moment.
 
 069
 
-Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "Create Transaction".
+Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "*Create Transaction*".
 
 070
 
-Si tout vous convient, cliquez sur "Finalize Transaction for Signing".
+Si tout vous convient, cliquez sur "*Finalize Transaction for Signing*".
 
 071
 
-Une fois votre transaction construite dans Sparrow, il est temps de la signer avec votre COLDCARD. Pour transmettre le PSBT (transaction non signée) à votre appareil, vous avez plusieurs options. Si la transmission de données par câble est activée, vous pouvez envoyer la transaction directement via une connexion USB-C, comme vous le feriez avec un autre hardware wallet. Dans ce cas, sur Sparrow, il faudrait cliquer sur le bouton "Sign" situé en bas à droite. Dans mon exemple, ce bouton est bloqué car la COLDCARD n'est pas connectée par câble.
+Une fois votre transaction construite dans Sparrow, il est temps de la signer avec votre COLDCARD. Pour transmettre le PSBT (transaction non signée) à votre appareil, vous avez plusieurs options. Si la transmission de données par câble est activée, vous pouvez envoyer la transaction directement via une connexion USB-C, comme vous le feriez avec un autre hardware wallet. Dans ce cas, sur Sparrow, il faudrait cliquer sur le bouton "*Sign*" situé en bas à droite. Dans mon exemple, ce bouton est bloqué car la COLDCARD n'est pas connectée par câble.
 
 072
 
-Si vous préférez maintenir une connexion "Air-Gap" sans contact direct entre le hardware wallet et votre ordinateur, 2 options s'offrent à vous. La première, plus complexe, consiste à utiliser une carte microSD. Insérez la carte microSD dans votre ordinateur, enregistrez la transaction via le bouton "Save Transaction" sur Sparrow, puis transférez cette carte dans un port de votre COLDCARD.
+Si vous préférez maintenir une connexion "*Air-Gap*" sans contact direct entre le hardware wallet et votre ordinateur, 2 options s'offrent à vous. La première, plus complexe, consiste à utiliser une carte microSD. Insérez la carte microSD dans votre ordinateur, enregistrez la transaction via le bouton "*Save Transaction*" sur Sparrow, puis transférez cette carte dans un port de votre COLDCARD.
 
 073
 
-Accédez ensuite au menu "Ready To Sign".
+Accédez ensuite au menu "*Ready To Sign*".
 
 074
 
@@ -436,19 +436,19 @@ Examinez les détails de la transaction sur votre COLDCARD, notamment l'adresse 
 
 075
 
-Si tout est correct, appuyez sur le bouton "ENTER" pour signer la transaction.
+Si tout est correct, appuyez sur le bouton "*ENTER*" pour signer la transaction.
 
 076
 
-Replacez ensuite la microSD dans votre ordinateur et sur Sparrow, cliquez sur "Load Transaction" pour charger la transaction signée depuis la microSD. Vous pourrez faire une dernière vérification avant de la diffuser sur le réseau Bitcoin.
+Replacez ensuite la microSD dans votre ordinateur et sur Sparrow, cliquez sur "*Load Transaction*" pour charger la transaction signée depuis la microSD. Vous pourrez faire une dernière vérification avant de la diffuser sur le réseau Bitcoin.
 
 077
 
-La seconde méthode pour signer avec votre COLDCARD en Air-Gap, qui est bien plus simple que la méthode avec la microSD, consiste à scanner directement la PSBT via la caméra de l'appareil. Sur Sparrow, sélectionnez "Show QR".
+La seconde méthode pour signer avec votre COLDCARD en Air-Gap, qui est bien plus simple que la méthode avec la microSD, consiste à scanner directement la PSBT via la caméra de l'appareil. Sur Sparrow, sélectionnez "*Show QR*".
 
 078
 
-Sur la COLDCARD, choisissez "Scan Any QR Code". Vous pouvez également utiliser la touche "QR" sur le clavier.
+Sur la COLDCARD, choisissez "*Scan Any QR Code*". Vous pouvez également utiliser la touche "*QR*" sur le clavier.
 
 079
 
@@ -456,19 +456,19 @@ Utilisez la caméra de la COLDCARD pour scanner le QR code affiché sur Sparrow.
 
 080
 
-Les détails de la transaction apparaîtront de nouveau pour vérification. Appuyez sur "ENTER" pour signer si tout vous convient.
+Les détails de la transaction apparaîtront de nouveau pour vérification. Appuyez sur "*ENTER*" pour signer si tout vous convient.
 
 081
 
-Votre COLDCARD affichera alors la transaction signée sous forme de QR code. Utilisez la webcam de votre ordinateur pour scanner ce QR code en sélectionnant "Scan QR" sur Sparrow.
+Votre COLDCARD affichera alors la transaction signée sous forme de QR code. Utilisez la webcam de votre ordinateur pour scanner ce QR code en sélectionnant "*Scan QR*" sur Sparrow.
 
 082
 
-Votre transaction signée est maintenant visible sur Sparrow. Vérifiez une dernière fois que tout est correct, puis cliquez sur "Broadcast Transaction" pour la diffuser sur le réseau Bitcoin.
+Votre transaction signée est maintenant visible sur Sparrow. Vérifiez une dernière fois que tout est correct, puis cliquez sur "*Broadcast Transaction*" pour la diffuser sur le réseau Bitcoin.
 
 083
 
-Vous pourrez suivre votre transaction dans l'onglet "Transactions" de Sparrow Wallet.
+Vous pourrez suivre votre transaction dans l'onglet "*Transactions*" de Sparrow Wallet.
 
 084
 

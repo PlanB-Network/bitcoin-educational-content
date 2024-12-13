@@ -36,7 +36,7 @@ Saisissez votre passphrase à l’aide du clavier. Assurez-vous de choisir une p
 
 03
 
-Après avoir configuré votre passphrase, la COLDCARD Q vous montre l'empreinte de la clé maîtresse du nouveau portefeuille associé à cette passphrase. Assurez-vous de sauvegarder cette empreinte. Lorsque vous saisirez à nouveau votre passphrase lors des utilisations futures de votre appareil, vous pourrez vérifier que l'empreinte affichée correspond à celle que vous avez sauvegardée. Cette vérification vous assure que vous n'avez pas commis d'erreur en saisissant votre passphrase.
+Après avoir configuré votre passphrase, la COLDCARD Q vous montre l'empreinte de la clé maîtresse du nouveau portefeuille associé à cette passphrase. Assurez-vous de sauvegarder cette empreinte. Lorsque vous saisirez de nouveau votre passphrase lors des utilisations futures de votre appareil, vous pourrez vérifier que l'empreinte affichée correspond à celle que vous avez sauvegardée. Cette vérification vous assure que vous n'avez pas commis d'erreur en saisissant votre passphrase.
 
 04
 
@@ -107,7 +107,7 @@ Choisissez ensuite l'action qui sera exécutée automatiquement à chaque saisie
 16
 
 - "Login Countdown" : Ce menu regroupe des actions avec un décompte avant leur exécution. **Attention**, certaines d'entre elles peuvent détruire votre appareil ou entraîner la perte de vos bitcoins. Voici les sous-actions disponibles :
-	- "Wipe & Countdown" : Efface la seed de la mémoire de la COLDCARD, puis démarre un décompte d'une heure. Sans sauvegarde de votre phrase mnémonique ou de votre passphrase, vos bitcoins seront perdus. Cette option est destinée à tromper un agresseur en lui faisant croire que l'appareil se déverrouillera à la fin du décompte, alors qu’il sera en réalité réinitialisé aux paramètres d'usine.
+	- "Wipe & Countdown" : Efface la seed de la mémoire de la COLDCARD, puis lance un décompte d'une heure. Sans sauvegarde de votre phrase mnémonique ou de votre passphrase, vos bitcoins seront perdus. Cette option est destinée à tromper un agresseur en lui faisant croire que l'appareil se déverrouillera à la fin du décompte, alors qu’il sera en réalité réinitialisé aux paramètres d'usine.
 	- "Countdown & Brick" : Lance un décompte d'une heure, au terme duquel la COLDCARD détruit ses deux puces sécurisées, la rendant définitivement inutilisable. Sans sauvegarde, vos bitcoins seront perdus. Cette action sert à duper un agresseur, qui pense attendre un déverrouillage, alors que l’appareil s’autodétruira.
 	- "Just Countdown" : Déclenche un simple décompte d'une heure, après quoi la COLDCARD redémarre sans aucune autre action. La seed n'est pas effacée et l’appareil reste intact. Attention de ne pas confondre cette action avec l'option "Login Countdown", abordée dans les sections suivantes, qui ajoute un décompte au PIN principal tout en donnant accès au portefeuille réel.
 
@@ -129,7 +129,7 @@ Une fois l’action sélectionnée, confirmez votre choix.
 
 21
 
-Vous pouvez ensuite consulter tous les Trick PIN configurés dans le menu dédié.
+Vous pouvez ensuite consulter tous les Trick PINs configurés dans le menu dédié.
 
 22
 
@@ -175,7 +175,7 @@ Ensuite, vous devrez attendre la durée définie par le décompte.
 
 30
 
-À l'issue du décompte, vous devrez à nouveau entrer votre code PIN pour accéder à l'appareil.
+À l'issue du décompte, vous devrez de nouveau entrer votre code PIN pour accéder à l'appareil.
 
 31
 

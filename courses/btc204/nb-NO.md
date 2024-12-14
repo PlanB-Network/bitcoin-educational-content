@@ -2591,7 +2591,16 @@ Disse avatarer kan også representeres i form av bilder:
 ![BTC204](assets/notext/66/6.webp)
 
 Selv om disse robotene ikke har en spesifikk teknisk funksjonalitet innenfor rammen av BIP47, spiller de en rolle i å lette interaksjoner mellom brukere ved å tilby en lett gjenkjennelig visuell identitet.
-I de følgende avsnittene av dette kapittelet dedikert til BIP47, vil vi undersøke i detalj hvordan det fungerer, med spesiell vekt på de kryptografiske metodene som brukes. For å fullt ut forstå disse noe tekniske forklaringene, er det essensielt å først forstå strukturen til HD-lommebøker, nøkkelavledningsprosessene og de grunnleggende prinsippene for kryptografi basert på elliptiske kurver. Hvis du ønsker å fordype deg i disse konseptene, er et annet gratis kurs tilgjengelig på Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Jeg råder deg likevel til å følge dem, da forståelsen av den tekniske funksjonen til BIP47 vil gjøre det mye enklere for deg å forstå andre lignende forslag som vi vil diskutere i de følgende kapitlene.
+
+---
+*I de følgende delene av dette kapittelet viet til BIP47, vil vi undersøke hvordan det fungerer i detalj, med spesielt fokus på de kryptografiske metodene som brukes. For å forstå disse noe tekniske forklaringene fullt ut, er det viktig først å forstå strukturen til HD-lommebøker, nøkkelavledningsprosesser og de grunnleggende prinsippene for elliptisk kurve-kryptografi. Hvis du ønsker å fordype deg i disse konseptene, er et annet gratis kurs tilgjengelig på Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Jeg anbefaler på det sterkeste å ta kurset, fordi forståelse av den tekniske funksjonen til BIP47 vil gjøre det mye enklere å forstå andre lignende forslag vi vil diskutere i de følgende kapitlene.*
+
+---
+
 
 ### Gjenbrukbar Betalingskode
 

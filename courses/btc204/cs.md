@@ -2587,7 +2587,17 @@ Tyto avatary mohou být také reprezentovány ve formě obrázků:
 ![BTC204](assets/notext/66/6.webp)
 
 Ačkoliv tyto roboty nemají v rámci BIP47 specifickou technickou funkcionalitu, hrají roli ve zjednodušení interakcí mezi uživateli tím, že nabízejí snadno rozpoznatelnou vizuální identitu.
-V následujících částech této kapitoly věnované BIP47 podrobně prozkoumáme, jak to funguje, s osobitým důrazem na použité kryptografické metody. Abychom plně pochopili tyto poněkud technické vysvětlení, je nezbytné nejprve porozumět struktuře HD peněženek, procesům derivace klíčů a základním principům kryptografie založené na eliptických křivkách. Pokud se chcete do těchto konceptů ponořit hlouběji, další bezplatný kurz je k dispozici na Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Přesto vám doporučuji je sledovat, protože pochopení technického fungování BIP47 vám velmi usnadní pochopení dalších podobných návrhů, o kterých budeme diskutovat v následujících kapitolách.
+
+
+---
+*V následujících částech této kapitoly věnované BIP47 podrobně prozkoumáme jeho fungování, přičemž se zaměříme zejména na použité kryptografické metody. Abychom tyto poněkud technické vysvětlení plně pochopili, je důležité nejprve porozumět struktuře HD peněženek, procesům odvození klíčů a základním principům kryptografie založené na eliptických křivkách. Pokud si přejete tyto koncepty prohloubit, na Plan ₿ Network je k dispozici další bezplatné školení:*
+
+https://planb.network/courses/cyp201
+
+*Doporučuji je absolvovat, protože pochopením technického fungování BIP47 snáze porozumíte dalším podobným návrhům, o kterých budeme hovořit v následujících kapitolách.*
+
+---
+
 
 ### Opakovaně použitelný platební kód
 

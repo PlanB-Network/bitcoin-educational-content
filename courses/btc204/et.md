@@ -1934,11 +1934,10 @@ Selle tehingu puhul on ainus võimalik tõlgendus: `(In.0) > (Out.0 ; Out.1)`. S
 
 $$
 \begin{align*}
-$$
-
-E_D &= 1.453 \text{ bitti}
-\end{align\*}
-
+C &= 1 \\
+E &= \log_2(1) \\
+E &= 0 \text{ bits}
+\end{align*}
 $$
 
 ### Efektiivsus
@@ -2027,20 +2026,13 @@ Arvutame ka Whirlpool 8x8 coinjoini entroopia tiheduse:
 
 
 $$
-
 \begin{align*}
 T &= 8 + 8 = 16 \\
 E &= 23.244 \\
 E_D &= \frac{E}{T} \\
 E_D &= \frac{23.244}{16} \\
-E_D &= 1.453 \text{ bitti}
+E_D &= 1.453 \text{ bits}
 \end{align*}
-
-$$
-$$
-
-E_D &= 1.453 \text{ biti}\end{align\*}
-
 $$
 
 Analüüsides nende kahe tüüpi coinjoinide entroopiatihedust, saab ilmseks, et isegi entroopia normaliseerimisel elementide arvu järgi, genereerib "Surge Cycle 8x8" coinjoin analüüsi jaoks rohkem ebakindlust.
@@ -2580,7 +2572,18 @@ Neid avatare saab samuti esitada piltide kujul:
 ![BTC204](assets/notext/66/6.webp)
 
 Kuigi neil robotitel ei ole BIP47 raamistikus spetsiifilist tehnilist funktsionaalsust, mängivad nad rolli kasutajatevaheliste interaktsioonide hõlbustamisel, pakkudes kergesti äratuntavat visuaalset identiteeti.
-Järgnevates peatükkides, mis on pühendatud BIP47-le, uurime üksikasjalikult, kuidas see töötab, erilise rõhuasetusega kasutatavatele krüptograafilistele meetoditele. Et täielikult mõista neid veidi tehnilisi selgitusi, on hädavajalik esmalt mõista HD rahakottide struktuuri, võtmete tuletamise protsesse ja elliptilise kõvera põhineva krüptograafia põhiprintsiipe. Kui soovite nendesse kontseptsioonidesse sügavamale sukelduda, on Plan ₿ võrgustikus saadaval teine tasuta kursus: [CRYPTO 301](https://planb.network/en/courses/crypto301). Soovitan siiski neid jälgida, kuna BIP47 tehnilise toimimise mõistmine teeb teile palju lihtsamaks teiste sarnaste ettepanekute mõistmise, mida järgnevates peatükkides arutame.
+
+---
+*Järgmistes osades, mis on pühendatud BIP47-le, uurime üksikasjalikult selle toimimist, keskendudes eriti kasutatud krüptograafilistele meetoditele. Nende mõnevõrra tehniliste selgituste täielikuks mõistmiseks on oluline esmalt mõista HD-rahakottide struktuuri, võtmete tuletamise protsesse ja elliptilistel kõveratel põhineva krüptograafia põhimõtteid. Kui soovite nende mõistete kohta rohkem teada saada, on Plan ₿ Networkis saadaval teine tasuta koolitus:*
+
+https://planb.network/courses/cyp201
+
+*Soovitan tungivalt seda läbida, sest BIP47 tehnilise toimimise mõistmine aitab teil palju lihtsamini mõista ka teisi sarnaseid ettepanekuid, millest räägime järgnevates peatükkides.*
+
+---
+
+
+
 ### Korduvkasutatav Maksekood
 
 Nagu varem mainitud, asub korduvkasutatav maksekood HD rahakoti sügavusel 3, muutes selle võrreldavaks `xpub`-iga, nii oma positsiooni poolest rahakoti struktuuris kui ka oma rolli poolest.

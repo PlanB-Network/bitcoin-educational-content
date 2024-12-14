@@ -2644,7 +2644,18 @@ These avatars can also be represented in the form of images:
 ![BTC204](assets/notext/66/6.webp)
 
 Although these robots do not have a specific technical functionality within the framework of BIP47, they play a role in facilitating interactions between users by offering an easily recognizable visual identity.
-In the following sections of this chapter dedicated to BIP47, we will examine in detail how it works, with a particular emphasis on the cryptographic methods used. To fully grasp these somewhat technical explanations, it is essential to first understand the structure of HD wallets, the key derivation processes, and the fundamental principles of elliptic curve-based cryptography. If you wish to delve deeper into these concepts, another free course is available on Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). I still advise you to follow them, as understanding the technical workings of BIP47 will make it much easier for you to comprehend other similar proposals that we will discuss in the following chapters.
+
+---
+*In the following sections of this chapter dedicated to BIP47, we will examine its functioning in detail, with a particular focus on the cryptographic methods used. To fully grasp these somewhat technical explanations, it is essential to first understand the structure of HD wallets, key derivation processes, and the fundamental principles of elliptic curve cryptography. If you wish to deepen your knowledge of these concepts, another free training is available on Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*I strongly recommend taking it, as understanding the technical functioning of BIP47 will make it much easier to grasp other similar proposals that we will discuss in the following chapters.*
+
+---
+
+
+
 ### Reusable Payment Code
 
 As mentioned before, the reusable payment code is located at depth 3 of the HD wallet, making it comparable to an `xpub`, both in its position within the wallet structure and in its role.

@@ -2498,7 +2498,16 @@ Avatar-avatarnya juga dapat direpresentasikan dalam bentuk gambar:
 ![BTC204](assets/notext/66/6.webp)
 
 Meskipun robot-robot ini tidak memiliki fungsi teknis spesifik dalam kerangka BIP47, mereka memainkan peran dalam memfasilitasi interaksi antar pengguna dengan menawarkan identitas visual yang mudah dikenali.
-Dalam bagian-bagian berikut dari bab ini yang didedikasikan untuk BIP47, kita akan memeriksa secara detail cara kerjanya, dengan penekanan khusus pada metode kriptografi yang digunakan. Untuk sepenuhnya memahami penjelasan teknis ini, sangat penting untuk terlebih dahulu memahami struktur dompet HD, proses derivasi kunci, dan prinsip-prinsip dasar kriptografi berbasis kurva eliptik. Jika Anda ingin mendalami konsep-konsep ini, kursus gratis lainnya tersedia di Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Saya masih menyarankan Anda untuk mengikutinya, karena memahami cara kerja teknis BIP47 akan memudahkan Anda untuk memahami proposal serupa lainnya yang akan kita bahas di bab-bab berikutnya.
+
+---
+*Dalam bagian berikut dari bab ini yang didedikasikan untuk BIP47, kami akan memeriksa secara rinci cara kerjanya, dengan penekanan khusus pada metode kriptografi yang digunakan. Untuk sepenuhnya memahami penjelasan yang agak teknis ini, penting untuk terlebih dahulu memahami struktur dompet HD, proses derivasi kunci, dan prinsip-prinsip dasar kriptografi berbasis kurva elips. Jika Anda ingin mempelajari konsep-konsep ini lebih dalam, pelatihan gratis lainnya tersedia di Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Saya sangat menyarankan Anda untuk mengikutinya, karena dengan memahami cara kerja teknis BIP47, Anda akan lebih mudah memahami proposal serupa lainnya yang akan kita bahas di bab-bab berikutnya.*
+
+---
+
 ### Kode Pembayaran yang Dapat Digunakan Kembali
 
 Seperti yang disebutkan sebelumnya, kode pembayaran yang dapat digunakan kembali terletak pada kedalaman 3 dari dompet HD, membuatnya sebanding dengan `xpub`, baik dalam posisinya dalam struktur dompet maupun dalam perannya.

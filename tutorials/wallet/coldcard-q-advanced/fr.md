@@ -28,7 +28,7 @@ Sur les COLDCARD, vous avez deux options pour gérer votre passphrase :
 1. **La saisie classique :** Vous entrez manuellement la passphrase à chaque utilisation, comme sur les autres hardware wallets. La COLDCARD Q simplifie cette tâche grâce à son clavier complet.
 2. **Le stockage sur microSD :** Vous pouvez choisir de chiffrer votre passphrase et de la stocker sur une carte microSD. Dans ce cas, vous devrez insérer la microSD dans la COLDCARD Q chaque fois que vous l’utiliserez. Notez que cette microSD ne fonctionnera que sur votre COLDCARD Q et ne constitue pas une sauvegarde. Il est donc très important de conserver en plus une copie de votre passphrase sur un support physique, comme du papier ou du métal.
 
-Pour configurer votre passphrase BIP39, accédez au menu "Passphrase".
+Pour configurer votre passphrase BIP39, accédez au menu "*Passphrase*".
 
 02
 
@@ -40,7 +40,7 @@ Après avoir configuré votre passphrase, la COLDCARD Q vous montre l'empreinte 
 
 04
 
-Vous pouvez maintenant appuyer sur "ENTER" pour appliquer cette passphrase à votre phrase mnémonique et ainsi activer le nouveau portefeuille. Si vous préférez enregistrer cette passphrase sur une microSD, insérez la carte dans le port approprié et appuyez sur "1".
+Vous pouvez maintenant appuyer sur "*ENTER*" pour appliquer cette passphrase à votre phrase mnémonique et ainsi activer le nouveau portefeuille. Si vous préférez enregistrer cette passphrase sur une microSD, insérez la carte dans le port approprié et appuyez sur "*1*".
 
 05
 
@@ -48,11 +48,11 @@ Votre passphrase est désormais appliquée. L'empreinte de la clé apparaît sur
 
 06
 
-À chaque déverrouillage de votre COLDCARD Q, vous devrez accéder au menu "Passphrase" et entrer votre passphrase de la même manière que nous venons de le faire, pour l'appliquer à la phrase mnémonique stockée dans l'appareil et accéder au bon portefeuille Bitcoin.
+À chaque déverrouillage de votre COLDCARD Q, vous devrez accéder au menu "*Passphrase*" et entrer votre passphrase de la même manière que nous venons de le faire, pour l'appliquer à la phrase mnémonique stockée dans l'appareil et accéder au bon portefeuille Bitcoin.
 
 07
 
-Si vous avez sauvegardé la passphrase sur une carte microSD, lors de chaque utilisation, insérez-la dans la COLDCARD et accédez au menu "Passphrase". Votre COLDCARD chargera la passphrase directement depuis la microSD, donc vous n'aurez pas besoin de la saisir manuellement. Cliquez sur "Restore Saved".
+Si vous avez sauvegardé la passphrase sur une carte microSD, lors de chaque utilisation, insérez-la dans la COLDCARD et accédez au menu "*Passphrase*". Votre COLDCARD chargera la passphrase directement depuis la microSD, donc vous n'aurez pas besoin de la saisir manuellement. Cliquez sur "*Restore Saved*".
 
 08
 
@@ -60,11 +60,11 @@ Vérifiez que la longueur et la première lettre de la passphrase chargée sont 
 
 09
 
-Confirmez que l'empreinte affichée correspond à celle de votre portefeuille et cliquez sur "Restore".
+Confirmez que l'empreinte affichée correspond à celle de votre portefeuille et cliquez sur "*Restore*".
 
 10
 
-Gardez à l'esprit que l'utilisation d'une passphrase signifie que vous devrez importer un nouvel ensemble de clés dérivées de la combinaison de votre phrase mnémonique et de la passphrase dans votre logiciel de gestion de portefeuille (comme Sparrow Wallet). Pour ce faire, suivez l'étape "Configurer un nouveau portefeuille sur Sparrow" dans cet autre tutoriel :
+Gardez à l'esprit que l'utilisation d'une passphrase signifie que vous devrez importer un nouvel ensemble de clés dérivées de la combinaison de votre phrase mnémonique et de la passphrase dans votre logiciel de gestion de portefeuille (comme Sparrow Wallet). Pour ce faire, suivez l'étape "*Configurer un nouveau portefeuille sur Sparrow*" dans cet autre tutoriel :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
@@ -74,13 +74,13 @@ Les COLDCARD bénéficient également de très nombreuses options au niveau du p
 
 ### Trick PINs
 
-Un Trick PIN est un code PIN secondaire distinct de celui défini lors de la configuration initiale de l'appareil. Ce code permet de déclencher des actions spécifiques préalablement configurées dès qu'il est saisi lors de l'allumage de la COLDCARD. Vous pouvez configurer plusieurs Trick PINs, chacun étant lié à une action différente. Ces fonctionnalités vous permettent d'adapter votre COLDCARD à votre stratégie de sécurisation personnelle. Elles se révèlent particulièrement utiles en cas de contrainte physique, comme lors d'un braquage (couramment désigné dans la communauté Bitcoin comme une "$5 wrench attack").
+Un Trick PIN est un code PIN secondaire distinct de celui défini lors de la configuration initiale de l'appareil. Ce code permet de déclencher des actions spécifiques préalablement configurées dès qu'il est saisi lors de l'allumage de la COLDCARD. Vous pouvez configurer plusieurs Trick PINs, chacun étant lié à une action différente. Ces fonctionnalités vous permettent d'adapter votre COLDCARD à votre stratégie de sécurisation personnelle. Elles se révèlent particulièrement utiles en cas de contrainte physique, comme lors d'un braquage (couramment désigné dans la communauté Bitcoin comme une "*$5 wrench attack*").
 
 Pour activer un Trick PIN et l'associer à une action, accédez au menu `Settings > Login Settings > Trick PINs`.
 
 11
 
-Sélectionnez "Add New Trick".
+Sélectionnez "*Add New Trick*".
 
 12
 
@@ -90,38 +90,38 @@ Définissez le code PIN à associer à l'action et pensez à le sauvegarder.
 
 Choisissez ensuite l'action qui sera exécutée automatiquement à chaque saisie de ce Trick PIN. Voici la liste des actions disponibles pour un PIN :
 
-- "Brick Self" : Cette action détruit les deux puces de la COLDCARD Q si le Trick PIN est entré, ce qui rendra l'appareil totalement inutilisable. Il sera alors impossible de le revendre, de le réutiliser ou même de le renvoyer à Coinkite. L'appareil deviendra irrémédiablement obsolète. Cette fonctionnalité peut être utilisée en cas de braquage pour convaincre un agresseur qu’il ne pourra jamais accéder à vos bitcoins. **Attention** : sans sauvegarde physique de votre phrase mnémonique et de votre éventuelle passphrase, vos bitcoins seront définitivement perdus.
+- "*Brick Self*" : Cette action détruit les deux puces de la COLDCARD Q si le Trick PIN est entré, ce qui rendra l'appareil totalement inutilisable. Il sera alors impossible de le revendre, de le réutiliser ou même de le renvoyer à Coinkite. L'appareil deviendra irrémédiablement obsolète. Cette fonctionnalité peut être utilisée en cas de braquage pour convaincre un agresseur qu’il ne pourra jamais accéder à vos bitcoins. **Attention** : sans sauvegarde physique de votre phrase mnémonique et de votre éventuelle passphrase, vos bitcoins seront définitivement perdus.
 
 14
 
-- "Wipe Seed" : Ce menu propose plusieurs actions pour effacer la seed, c'est-à-dire réinitialiser la COLDCARD sans la détruire. Contrairement à l'option "Brick Self", il sera possible de reconfigurer l'appareil en utilisant une sauvegarde de votre phrase mnémonique. Cependant, sans cette sauvegarde, vos bitcoins seront perdus. Voici les options disponibles :
-	- "Wipe & Reboot" : Supprime la seed et redémarre la COLDCARD sans afficher aucune information à l'écran.
-	- "Silent Wipe" : Efface la seed en silence, et déverrouille la COLDCARD sur un faux portefeuille aléatoire comme si de rien n'était.
-	- "Wipe -> Wallet" : Supprime la seed discrètement et déverrouille la COLDCARD sur un portefeuille secondaire préconfiguré, conçu comme un appât. Ce portefeuille peut contenir une petite partie de votre épargne en bitcoins pour satisfaire un agresseur.
-	- "Say Wiped, Stop" : Efface la seed et affiche le message `Seed is wiped, Stop` à l’écran.
+- "*Wipe Seed*" : Ce menu propose plusieurs actions pour effacer la seed, c'est-à-dire réinitialiser la COLDCARD sans la détruire. Contrairement à l'option "*Brick Self*", il sera possible de reconfigurer l'appareil en utilisant une sauvegarde de votre phrase mnémonique. Cependant, sans cette sauvegarde, vos bitcoins seront perdus. Voici les options disponibles :
+	- "*Wipe & Reboot*" : Supprime la seed et redémarre la COLDCARD sans afficher aucune information à l'écran.
+	- "*Silent Wipe*" : Efface la seed en silence, et déverrouille la COLDCARD sur un faux portefeuille aléatoire comme si de rien n'était.
+	- "*Wipe -> Wallet*" : Supprime la seed discrètement et déverrouille la COLDCARD sur un portefeuille secondaire préconfiguré, conçu comme un appât. Ce portefeuille peut contenir une petite partie de votre épargne en bitcoins pour satisfaire un agresseur.
+	- "*Say Wiped, Stop*" : Efface la seed et affiche le message `Seed is wiped, Stop` à l’écran.
 
 15
 
-- "Duress Wallet" : Avec cette action, le code Trick PIN déverrouille un portefeuille dérivé à partir de la seed en utilisant le BIP85. Ce portefeuille secondaire peut servir d’appât pour satisfaire un agresseur. La COLDCARD agit comme s'il s'agissait du véritable portefeuille, mais sans le code PIN principal (différent du Trick PIN), l'agresseur ne pourra jamais accéder au portefeuille réel. Cette stratégie vise à faire croire que le portefeuille lié au Trick PIN est le seul existant.
+- "*Duress Wallet*" : Avec cette action, le code Trick PIN déverrouille un portefeuille dérivé à partir de la seed en utilisant le BIP85. Ce portefeuille secondaire peut servir d’appât pour satisfaire un agresseur. La COLDCARD agit comme s'il s'agissait du véritable portefeuille, mais sans le code PIN principal (différent du Trick PIN), l'agresseur ne pourra jamais accéder au portefeuille réel. Cette stratégie vise à faire croire que le portefeuille lié au Trick PIN est le seul existant.
 
 16
 
-- "Login Countdown" : Ce menu regroupe des actions avec un décompte avant leur exécution. **Attention**, certaines d'entre elles peuvent détruire votre appareil ou entraîner la perte de vos bitcoins. Voici les sous-actions disponibles :
-	- "Wipe & Countdown" : Efface la seed de la mémoire de la COLDCARD, puis lance un décompte d'une heure. Sans sauvegarde de votre phrase mnémonique ou de votre passphrase, vos bitcoins seront perdus. Cette option est destinée à tromper un agresseur en lui faisant croire que l'appareil se déverrouillera à la fin du décompte, alors qu’il sera en réalité réinitialisé aux paramètres d'usine.
-	- "Countdown & Brick" : Lance un décompte d'une heure, au terme duquel la COLDCARD détruit ses deux puces sécurisées, la rendant définitivement inutilisable. Sans sauvegarde, vos bitcoins seront perdus. Cette action sert à duper un agresseur, qui pense attendre un déverrouillage, alors que l’appareil s’autodétruira.
-	- "Just Countdown" : Déclenche un simple décompte d'une heure, après quoi la COLDCARD redémarre sans aucune autre action. La seed n'est pas effacée et l’appareil reste intact. Attention de ne pas confondre cette action avec l'option "Login Countdown", abordée dans les sections suivantes, qui ajoute un décompte au PIN principal tout en donnant accès au portefeuille réel.
+- "*Login Countdown*" : Ce menu regroupe des actions avec un décompte avant leur exécution. **Attention**, certaines d'entre elles peuvent détruire votre appareil ou entraîner la perte de vos bitcoins. Voici les sous-actions disponibles :
+	- "*Wipe & Countdown*" : Efface la seed de la mémoire de la COLDCARD, puis lance un décompte d'une heure. Sans sauvegarde de votre phrase mnémonique ou de votre passphrase, vos bitcoins seront perdus. Cette option est destinée à tromper un agresseur en lui faisant croire que l'appareil se déverrouillera à la fin du décompte, alors qu’il sera en réalité réinitialisé aux paramètres d'usine.
+	- "*Countdown & Brick*" : Lance un décompte d'une heure, au terme duquel la COLDCARD détruit ses deux puces sécurisées, la rendant définitivement inutilisable. Sans sauvegarde, vos bitcoins seront perdus. Cette action sert à duper un agresseur, qui pense attendre un déverrouillage, alors que l’appareil s’autodétruira.
+	- "*Just Countdown*" : Déclenche un simple décompte d'une heure, après quoi la COLDCARD redémarre sans aucune autre action. La seed n'est pas effacée et l’appareil reste intact. Attention de ne pas confondre cette action avec l'option "*Login Countdown*", abordée dans les sections suivantes, qui ajoute un décompte au PIN principal tout en donnant accès au portefeuille réel.
 
 17
 
-- "Look Blank" : Cette action fait paraître la COLDCARD comme si elle était vide, donnant l’impression que la seed a été supprimée. En réalité, rien ne se passe et la seed reste intacte. Cela permet de simuler une COLDCARD inutilisée ou réinitialisée.
+- "*Look Blank*" : Cette action fait paraître la COLDCARD comme si elle était vide, donnant l’impression que la seed a été supprimée. En réalité, rien ne se passe et la seed reste intacte. Cela permet de simuler une COLDCARD inutilisée ou réinitialisée.
 
 18
 
-- "Just Reboot" : Lorsque le Trick PIN est utilisé, la COLDCARD se contente de redémarrer. Aucune autre action n’est exécutée.
+- "*Just Reboot*" : Lorsque le Trick PIN est utilisé, la COLDCARD se contente de redémarrer. Aucune autre action n’est exécutée.
 
 19
 
-- "Delta Mode" : Cette action, complexe et réservée aux utilisateurs expérimentés, est conçue pour contrer des attaques sous contrainte très sophistiquées, qu'elles proviennent d’un état ou d’un proche ayant des informations privilégiées. Lorsque le Delta Mode est activé, la COLDCARD donne accès au véritable portefeuille, permettant à un attaquant de naviguer et de vérifier qu’il s’agit bien du bon portefeuille. Cependant, les signatures de transaction sont bloquées, ce qui empêche ainsi tout transfert de bitcoins. De plus, l’accès à la phrase mnémonique est désactivé et toute tentative de la récupérer entraînera sa suppression. Pour renforcer la crédibilité, le Trick PIN utilisé avec le Delta Mode doit partager le même préfixe que le véritable code PIN (pour afficher les mêmes mots anti-phishing), mais le suffixe doit être différent.
+- "*Delta Mode*" : Cette action, complexe et réservée aux utilisateurs expérimentés, est conçue pour contrer des attaques sous contrainte très sophistiquées, qu'elles proviennent d’un état ou d’un proche ayant des informations privilégiées. Lorsque le Delta Mode est activé, la COLDCARD donne accès au véritable portefeuille, permettant à un attaquant de naviguer et de vérifier qu’il s’agit bien du bon portefeuille. Cependant, les signatures de transaction sont bloquées, ce qui empêche ainsi tout transfert de bitcoins. De plus, l’accès à la phrase mnémonique est désactivé et toute tentative de la récupérer entraînera sa suppression. Pour renforcer la crédibilité, le Trick PIN utilisé avec le Delta Mode doit partager le même préfixe que le véritable code PIN (pour afficher les mêmes mots anti-phishing), mais le suffixe doit être différent.
 
 20
 
@@ -133,11 +133,11 @@ Vous pouvez ensuite consulter tous les Trick PINs configurés dans le menu dédi
 
 22
 
-En sélectionnant un Trick PIN existant, vous pouvez vérifier l’action associée. Vous avez également la possibilité de le masquer via l’option "Hide Trick", ce qui le rend invisible dans le menu des Trick PIN. Il est possible de le supprimer en cliquant sur "Delete Trick" ou de modifier le code PIN tout en conservant l’action associée avec "Change PIN".
+En sélectionnant un Trick PIN existant, vous pouvez vérifier l’action associée. Vous avez également la possibilité de le masquer via l’option "*Hide Trick*", ce qui le rend invisible dans le menu des Trick PIN. Il est possible de le supprimer en cliquant sur "*Delete Trick*" ou de modifier le code PIN tout en conservant l’action associée avec "*Change PIN*".
 
 23
 
-L’option "Add If Wrong", disponible dans le menu "Trick PIN", permet de configurer une action spécifique qui se déclenche automatiquement après un certain nombre de tentatives incorrectes pour saisir le code PIN principal. Le nombre d’essais autorisés peut être défini lors du paramétrage.
+L’option "*Add If Wrong*", disponible dans le menu "*Trick PIN*", permet de configurer une action spécifique qui se déclenche automatiquement après un certain nombre de tentatives incorrectes pour saisir le code PIN principal. Le nombre d’essais autorisés peut être défini lors du paramétrage.
 
 ### Scramble Keys
 
@@ -147,7 +147,7 @@ Pour activer cette option, accédez au menu `Settings > Login Settings > Scrambl
 
 24
 
-Sélectionnez l'option "Scramble Keys".
+Sélectionnez l'option "*Scramble Keys*".
 
 25
 
@@ -157,7 +157,7 @@ Désormais, lors du déverrouillage de votre COLDCARD Q, les touches du clavier 
 
 ### Login Countdown
 
-Cette option vous permet d'imposer un décompte systématique à chaque tentative de déverrouillage de la COLDCARD. Elle peut s'intégrer à votre stratégie de sécurisation en retardant l'accès à l'appareil en cas de vol ou en imposant un délai avant de signer une transaction, notamment pour se protéger lors d’un braquage. Cependant, ce décompte s'applique à toutes vos utilisations, y compris lorsque vous utilisez légitimement votre COLDCARD, ce qui vous oblige également à patienter. Attention de ne pas confondre cette option avec l'action "Just Countdown", qui ne s'active que lors de l’utilisation d’un Trick PIN spécifique.
+Cette option vous permet d'imposer un décompte systématique à chaque tentative de déverrouillage de la COLDCARD. Elle peut s'intégrer à votre stratégie de sécurisation en retardant l'accès à l'appareil en cas de vol ou en imposant un délai avant de signer une transaction, notamment pour se protéger lors d’un braquage. Cependant, ce décompte s'applique à toutes vos utilisations, y compris lorsque vous utilisez légitimement votre COLDCARD, ce qui vous oblige également à patienter. Attention de ne pas confondre cette option avec l'action "*Just Countdown*", qui ne s'active que lors de l’utilisation d’un Trick PIN spécifique.
 
 Pour configurer cette option, accédez au menu `Settings > Login Settings > Login Countdown`.
 
@@ -193,7 +193,7 @@ Désormais, à chaque allumage de l'appareil, une calculatrice fonctionnelle ave
 
 34
 
-Par exemple, vous pourrez calculer le hachage SHA256 de "Plan B Network".
+Par exemple, vous pourrez calculer le hachage SHA256 de "*Plan B Network*".
 
 35
 
@@ -217,9 +217,9 @@ Le premier niveau de destruction consiste à effacer uniquement la seed. Cette o
 
 38
 
-Le deuxième niveau de destruction consiste à désactiver définitivement les deux puces sécurisées de la COLDCARD via le logiciel. Cette action rendra l’appareil totalement inutilisable. Vous ne pourrez ni le revendre, ni le réutiliser, ni le retourner à Coinkite : il sera définitivement détruit. Pour procéder, suivez les étapes décrites dans la partie précédente concernant le "Brick Me" PIN, puis saisissez intentionnellement ce code PIN lors du déverrouillage de la COLDCARD.
+Le deuxième niveau de destruction consiste à désactiver définitivement les deux puces sécurisées de la COLDCARD via le logiciel. Cette action rendra l’appareil totalement inutilisable. Vous ne pourrez ni le revendre, ni le réutiliser, ni le retourner à Coinkite : il sera définitivement détruit. Pour procéder, suivez les étapes décrites dans la partie précédente concernant le "*Brick Me*" PIN, puis saisissez intentionnellement ce code PIN lors du déverrouillage de la COLDCARD.
 
-Le troisième niveau implique une destruction physique des éléments sécurisés de votre COLDCARD Q. Comme précédemment, cela rendra l’appareil irrévocablement inutilisable. Pour cela, utilisez une perceuse et faites un trou dans les deux puces situées en haut à droite de l’appareil (une fois retourné), à proximité de l’inscription "SHOOT HERE". 
+Le troisième niveau implique une destruction physique des éléments sécurisés de votre COLDCARD Q. Comme précédemment, cela rendra l’appareil irrévocablement inutilisable. Pour cela, utilisez une perceuse et faites un trou dans les deux puces situées en haut à droite de l’appareil (une fois retourné), à proximité de l’inscription "*SHOOT HERE*". 
 
 **Précautions importantes** :  
 - Retirez les piles de l’appareil et débranchez-le avant toute manipulation pour éviter tout risque d’électrocution.

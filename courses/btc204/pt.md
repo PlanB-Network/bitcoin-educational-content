@@ -2643,7 +2643,17 @@ Esses avatares também podem ser representados na forma de imagens:
 ![BTC204](assets/notext/66/6.webp)
 
 Embora esses robôs não tenham uma funcionalidade técnica específica dentro do quadro do BIP47, eles desempenham um papel na facilitação das interações entre os usuários, oferecendo uma identidade visual facilmente reconhecível.
-Nas seções seguintes deste capítulo dedicado ao BIP47, examinaremos em detalhes como ele funciona, com ênfase particular nos métodos criptográficos utilizados. Para compreender completamente essas explicações um tanto técnicas, é essencial entender primeiro a estrutura das carteiras HD, os processos de derivação de chaves e os princípios fundamentais da criptografia baseada em curva elíptica. Se você deseja aprofundar-se nesses conceitos, outro curso gratuito está disponível na Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Ainda aconselho que os siga, pois entender o funcionamento técnico do BIP47 facilitará muito a compreensão de outras propostas semelhantes que discutiremos nos próximos capítulos.
+
+---
+*Nas seções seguintes deste capítulo dedicado ao BIP47, examinaremos em detalhe o seu funcionamento, com um foco particular nos métodos criptográficos utilizados. Para compreender plenamente estas explicações algo técnicas, é essencial primeiro entender a estrutura das carteiras HD, os processos de derivação de chaves e os princípios fundamentais da criptografia baseada em curvas elípticas. Se desejar aprofundar esses conceitos, está disponível outro treinamento gratuito na Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Recomendo vivamente que o siga, pois entender o funcionamento técnico do BIP47 tornará muito mais fácil compreender outras propostas semelhantes que abordaremos nos capítulos seguintes.*
+
+---
+
+
 
 ### Código de Pagamento Reutilizável
 

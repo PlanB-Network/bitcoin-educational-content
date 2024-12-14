@@ -2619,7 +2619,17 @@ Estos avatares también pueden representarse en forma de imágenes:
 ![BTC204](assets/notext/66/6.webp)
 
 Aunque estos robots no tienen una funcionalidad técnica específica dentro del marco de BIP47, juegan un papel en facilitar las interacciones entre usuarios al ofrecer una identidad visual fácilmente reconocible.
-En las siguientes secciones de este capítulo dedicado a BIP47, examinaremos en detalle cómo funciona, con un énfasis particular en los métodos criptográficos utilizados. Para comprender completamente estas explicaciones algo técnicas, es esencial primero entender la estructura de las billeteras HD, los procesos de derivación de claves y los principios fundamentales de la criptografía basada en curvas elípticas. Si deseas profundizar en estos conceptos, otro curso gratuito está disponible en Plan ₿ Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Aún te aconsejo que los sigas, ya que entender el funcionamiento técnico de BIP47 te facilitará mucho la comprensión de otras propuestas similares que discutiremos en los siguientes capítulos.
+
+---
+*En las siguientes secciones de este capítulo dedicado al BIP47, examinaremos en detalle su funcionamiento, con un enfoque particular en los métodos criptográficos utilizados. Para comprender plenamente estas explicaciones algo técnicas, es esencial entender primero la estructura de las carteras HD, los procesos de derivación de claves y los principios fundamentales de la criptografía basada en curvas elípticas. Si desea profundizar en estos conceptos, hay otra formación gratuita disponible en Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Le aconsejo encarecidamente que la siga, ya que al comprender el funcionamiento técnico del BIP47, le resultará mucho más fácil entender otras propuestas similares de las que hablaremos en los siguientes capítulos.*
+
+---
+
+
 ### Código de Pago Reutilizable
 
 Como se mencionó antes, el código de pago reutilizable se encuentra en la profundidad 3 de la billetera HD, lo que lo hace comparable a un `xpub`, tanto en su posición dentro de la estructura de la billetera como en su rol.

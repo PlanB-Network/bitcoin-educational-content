@@ -2619,7 +2619,16 @@ Diese Avatare können auch in Form von Bildern dargestellt werden:
 ![BTC204](assets/notext/66/6.webp)
 
 Obwohl diese Roboter innerhalb des Rahmens von BIP47 keine spezifische technische Funktionalität haben, spielen sie eine Rolle dabei, Interaktionen zwischen Benutzern zu erleichtern, indem sie eine leicht erkennbare visuelle Identität bieten.
-In den folgenden Abschnitten dieses Kapitels, das BIP47 gewidmet ist, werden wir detailliert untersuchen, wie es funktioniert, mit besonderem Schwerpunkt auf den verwendeten kryptografischen Methoden. Um diese etwas technischen Erklärungen vollständig zu verstehen, ist es wesentlich, zunächst die Struktur von HD-Wallets, die Schlüsselableitungsprozesse und die grundlegenden Prinzipien der elliptischen Kurven-basierten Kryptografie zu verstehen. Wenn Sie tiefer in diese Konzepte eintauchen möchten, steht ein weiterer kostenloser Kurs auf Plan ₿ Network zur Verfügung: [CRYPTO 301](https://planb.network/en/courses/crypto301). Ich rate Ihnen dennoch, ihnen zu folgen, da das Verständnis der technischen Funktionsweise von BIP47 es Ihnen viel leichter machen wird, andere ähnliche Vorschläge zu verstehen, die wir in den folgenden Kapiteln besprechen werden.
+
+---
+*In den folgenden Abschnitten dieses Kapitels, das BIP47 gewidmet ist, werden wir dessen Funktionsweise im Detail untersuchen, mit besonderem Fokus auf die verwendeten kryptographischen Methoden. Um diese eher technischen Erklärungen vollständig zu verstehen, ist es wichtig, zunächst die Struktur von HD-Wallets, die Verfahren zur Schlüsselableitung und die Grundlagen der kryptographischen Verfahren auf Basis elliptischer Kurven zu verstehen. Wenn Sie diese Konzepte vertiefen möchten, steht ein weiteres kostenloses Training auf Plan ₿ Network zur Verfügung:*
+
+https://planb.network/courses/cyp201
+
+*Ich empfehle Ihnen, dieses Training zu absolvieren, da Sie durch das Verständnis der technischen Funktionsweise von BIP47 ähnliche Vorschläge, die wir in den nächsten Kapiteln besprechen werden, viel einfacher verstehen werden.*
+
+---
+
 
 ### Wiederverwendbarer Zahlungscode
 

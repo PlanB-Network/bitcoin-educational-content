@@ -2616,7 +2616,16 @@ Nämä avatarit voidaan myös esittää kuvien muodossa:
 ![BTC204](assets/notext/66/6.webp)
 
 Vaikka näillä roboteilla ei ole erityistä teknistä toiminnallisuutta BIP47:n puitteissa, ne toimivat roolissa helpottamassa käyttäjien välisiä vuorovaikutuksia tarjoamalla helposti tunnistettavan visuaalisen identiteetin.
-Tässä luvussa, joka on omistettu BIP47:lle, tarkastelemme yksityiskohtaisesti sen toimintaa, erityisesti keskittyen käytettyihin kryptografisiin menetelmiin. Jotta voit täysin ymmärtää nämä hieman tekniset selitykset, on olennaista ensin ymmärtää HD-lompakoiden rakenne, avainjohdannaisprosessit ja elliptiseen käyrään perustuvan kryptografian perusperiaatteet. Jos haluat syventää näitä käsitteitä, toinen ilmainen kurssi on saatavilla Plan ₿ Networkissa: [CRYPTO 301](https://planb.network/en/courses/crypto301). Suosittelen silti niiden seuraamista, sillä BIP47:n teknisen toiminnan ymmärtäminen helpottaa huomattavasti muiden samankaltaisten ehdotusten ymmärtämistä, joita käsittelemme seuraavissa luvuissa.
+
+---
+*Seuraavissa tämän BIP47:lle omistetun luvun osioissa tarkastelemme yksityiskohtaisesti sen toimintaa, keskittyen erityisesti käytettyihin kryptografisiin menetelmiin. Jotta näitä teknisiä selityksiä voidaan täysin ymmärtää, on tärkeää ensin perehtyä HD-lompakoiden rakenteeseen, avainten johdantaprosesseihin ja elliptisiin käyriin perustuvan kryptografian periaatteisiin. Jos haluat syventää näitä käsitteitä, Plan ₿ Network tarjoaa ilmaisen koulutuksen:*
+
+https://planb.network/courses/cyp201
+
+*Suosittelen sen suorittamista, sillä BIP47:n teknisen toiminnan ymmärtäminen helpottaa huomattavasti muiden samankaltaisten ehdotusten ymmärtämistä, joista keskustelemme seuraavissa luvuissa.*
+
+---
+
 
 ### Uudelleenkäytettävä Maksukoodi
 

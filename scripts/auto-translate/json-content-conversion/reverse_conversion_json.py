@@ -100,7 +100,7 @@ class JsonToMarkdownConverter:
 
 def main():
     # Read JSON file
-    with open('output.json', 'r', encoding='utf-8') as f:
+    with open('../translation-logic/output/lnp201_en_it.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     # Convert to markdown
@@ -108,7 +108,7 @@ def main():
     markdown_content = converter.convert(json_data)
     
     # Write to file
-    with open('output.md', 'w', encoding='utf-8') as f:
+    with open('lnp201-it.md', 'w', encoding='utf-8') as f:
         f.write(markdown_content)
 
 if __name__ == "__main__":

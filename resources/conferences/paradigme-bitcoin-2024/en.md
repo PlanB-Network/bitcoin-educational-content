@@ -3,7 +3,7 @@ name: Le Paradigme Bitcoin 2024
 description: Conferences and roundtable discussions about Bitcoin in french and english
 ---
 
-# French Language (og version)
+# French Version (original)
 
 ## ENTREPRENDRE AVEC BITCOIN (fr)
 
@@ -21,7 +21,7 @@ description: Conferences and roundtable discussions about Bitcoin in french and 
 
 ![video](https://youtu.be/52_0EdFReuQ)
 
-# English english dubbing
+# English Version (dubbing)
 
 ## EMBARKING WITH BITCOIN
 

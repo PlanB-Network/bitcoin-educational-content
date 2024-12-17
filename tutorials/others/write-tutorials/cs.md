@@ -120,7 +120,7 @@ bitcoin-educational-content/
     - Mírně pokročilý (`intermediary`),
     - Pokročilý (`advanced`),
     - Expert (`expert`).
-- **professor**: Uveďte své ID přispěvatele, jak se objevuje na vašem profilu profesora. Pro více informací se odkazujte na [příslušný tutoriál](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Uveďte své ID přispěvatele, jak se objevuje na vašem profilu profesora. Pro více informací se odkazujte na [příslušný tutoriál](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (volitelně): Pokud si přejete uvést zdrojovou webovou stránku pro tutoriál, který vyvíjíte, jako je například vaše osobní stránka, zde můžete přidat příslušný odkaz.
 ![tutorial](assets/15.webp)
 - Jakmile dokončíte úpravy vašeho souboru `tutorial.yml`, uložte váš dokument kliknutím na `Soubor > Uložit`:
@@ -204,3 +204,4 @@ V softwaru GitHub Desktop můžete přepnout zpět na hlavní větev vašeho for
 Pokud si přejete provést úpravy vašeho příspěvku po již odeslaném PR, postup závisí na aktuálním stavu vašeho PR:
 - Pokud je váš PR stále otevřený a ještě nebyl sloučen, proveďte úpravy lokálně při zůstání na stejné větvi. Jakmile jsou úpravy dokončeny, použijte tlačítko `Push origin` k přidání nového commitu do vašeho stále otevřeného PR;
 - V případě, že váš PR byl již sloučen s hlavní větví, budete muset celý proces začít od začátku vytvořením nové větve, a poté odesláním nového PR. Před pokračováním se ujistěte, že váš lokální repozitář je synchronizován se zdrojovým repozitářem PlanB Network.
+

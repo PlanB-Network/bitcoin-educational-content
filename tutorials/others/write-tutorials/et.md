@@ -120,7 +120,7 @@ bitcoin-educational-content/
     - Kesktase (`intermediary`),
     - Edasijõudnud (`advanced`),
     - Ekspert (`expert`).
-- **professor**: Esitage oma kaastöötaja ID, nagu see ilmub teie professori profiilil. Lisateabe saamiseks vaadake [vastavat õpetust](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Esitage oma kaastöötaja ID, nagu see ilmub teie professori profiilil. Lisateabe saamiseks vaadake [vastavat õpetust](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (valikuline): Kui soovite oma arendatava õpetuse jaoks krediteerida allikaveebisaiti, nagu teie isiklik sait, siis siin saate lisada vastava lingi.
 ![õpetus](assets/15.webp)
 - Kui olete oma `tutorial.yml` faili muutmise lõpetanud, salvestage oma dokument, klõpsates `File > Save`:
@@ -206,3 +206,4 @@ GitHub Desktop tarkvaras saate tagasi lülituda oma fork'i peaharu (`dev`).
 Kui soovite pärast oma PR esitamist oma panusele teha muudatusi, sõltub järgitav protseduur teie PR-i praegusest seisundist:
 - Kui teie PR on endiselt avatud ja seda ei ole veel ühendatud, tehke muudatused kohapeal, jäädes samale harule. Kui muudatused on lõpetatud, kasutage uue commit'i lisamiseks oma endiselt avatud PR-ile nuppu `Push origin`;
 - Juhul, kui teie PR on juba peaharuga ühendatud, peate protsessi algusest peale uuesti tegema, luues uue haru ja esitades uue PR. Enne jätkamist veenduge, et teie kohalik repositoorium on sünkroniseeritud PlanB Networki allikarepositooriumiga.
+

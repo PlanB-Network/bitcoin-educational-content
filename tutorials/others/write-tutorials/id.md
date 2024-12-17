@@ -121,7 +121,7 @@ bitcoin-educational-content/
     - Menengah (`intermediary`),
     - Lanjutan (`advanced`),
     - Ahli (`expert`).
-- **professor**: Sertakan ID kontributor Anda sebagaimana muncul di profil professor Anda. Untuk detail lebih lanjut, rujuk ke [tutorial yang sesuai](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Sertakan ID kontributor Anda sebagaimana muncul di profil professor Anda. Untuk detail lebih lanjut, rujuk ke [tutorial yang sesuai](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (opsional): Jika Anda ingin memberikan kredit ke situs web sumber untuk tutorial yang Anda kembangkan, seperti situs pribadi Anda sendiri, ini adalah tempat Anda dapat menambahkan link yang bersangkutan.
 ![tutorial](assets/15.webp)
 - Setelah Anda selesai memodifikasi file `tutorial.yml` Anda, simpan dokumen Anda dengan mengklik `File > Save`:
@@ -205,3 +205,4 @@ Pada perangkat lunak GitHub Desktop, Anda dapat beralih kembali ke cabang utama 
 Jika Anda ingin melakukan modifikasi pada kontribusi Anda setelah sudah mengirimkan PR Anda, prosedur yang harus diikuti tergantung pada status saat ini dari PR Anda:
 - Jika PR Anda masih terbuka dan belum digabungkan, lakukan modifikasi secara lokal sambil tetap berada di cabang yang sama. Setelah modifikasi selesai, gunakan tombol `Push origin` untuk menambahkan commit baru ke PR Anda yang masih terbuka;
 - Dalam kasus di mana PR Anda sudah digabungkan dengan cabang utama, Anda perlu melakukan proses dari awal dengan membuat cabang baru, kemudian mengirimkan PR baru. Pastikan repositori lokal Anda disinkronkan dengan repositori sumber PlanB Network sebelum melanjutkan.
+

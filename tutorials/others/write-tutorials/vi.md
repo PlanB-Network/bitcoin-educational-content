@@ -121,7 +121,7 @@ bitcoin-educational-content/
     - Trung cấp (`intermediary`),
     - Nâng cao (`advanced`),
     - Chuyên gia (`expert`).
-- **professor**: Cung cấp ID người đóng góp của bạn như hiển thị trên hồ sơ giáo viên của bạn. Để biết thêm chi tiết, tham khảo [hướng dẫn tương ứng](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Cung cấp ID người đóng góp của bạn như hiển thị trên hồ sơ giáo viên của bạn. Để biết thêm chi tiết, tham khảo [hướng dẫn tương ứng](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (tùy chọn): Trong trường hợp bạn muốn ghi công một trang web nguồn cho hướng dẫn bạn đang phát triển, như trang cá nhân của bạn, đây là nơi bạn có thể thêm liên kết liên quan.
 ![tutorial](assets/15.webp)
 - Sau khi bạn hoàn thành việc chỉnh sửa tệp `tutorial.yml` của mình, lưu tài liệu của bạn bằng cách nhấp vào `File > Save`:
@@ -206,3 +206,4 @@ Trên phần mềm GitHub Desktop, bạn có thể chuyển lại về nhánh ch
 Nếu bạn muốn thực hiện chỉnh sửa đối với đóng góp của mình sau khi đã gửi PR, quy trình cần tuân theo phụ thuộc vào trạng thái hiện tại của PR của bạn:
 - Nếu PR của bạn vẫn đang mở và chưa được hợp nhất, thực hiện các chỉnh sửa cục bộ trong khi vẫn ở trên cùng một nhánh. Một khi các chỉnh sửa được hoàn thiện, sử dụng nút `Push origin` để thêm một commit mới vào PR vẫn đang mở của bạn;
 - Trong trường hợp PR của bạn đã được hợp nhất với nhánh chính, bạn sẽ cần thực hiện lại quy trình từ đầu bằng cách tạo một nhánh mới, sau đó gửi một PR mới. Đảm bảo rằng kho lưu trữ cục bộ của bạn được đồng bộ hóa với kho lưu trữ nguồn của PlanB Network trước khi tiến hành.
+

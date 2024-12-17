@@ -120,7 +120,7 @@ bitcoin-educational-content/
     - Keskitaso (`intermediary`),
     - Edistynyt (`advanced`),
     - Asiantuntija (`expert`).
-- **professor**: Anna kontribuutori-ID, joka näkyy professoriprofiilissasi. Lisätietoja varten, katso [vastaava opas](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Anna kontribuutori-ID, joka näkyy professoriprofiilissasi. Lisätietoja varten, katso [vastaava opas](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (valinnainen): Jos haluat antaa tunnustusta lähdeweb-sivustolle oppaasta, jonka olet kehittämässä, kuten omalle henkilökohtaiselle sivustollesi, tässä voit lisätä kyseisen linkin.
 ![opas](assets/15.webp)
 - Kun olet saanut muokattua `tutorial.yml`-tiedostoasi, tallenna dokumenttisi klikkaamalla `File > Save`:
@@ -206,3 +206,4 @@ GitHub Desktop -ohjelmistossa voit vaihtaa takaisin haarasi päähaaraan (`dev`)
 Jos haluat tehdä muutoksia panokseesi sen jälkeen, kun olet jo jättänyt PR:si, menettely riippuu PR:si nykyisestä tilasta:
 - Jos PR:si on edelleen avoinna eikä sitä ole vielä yhdistetty, tee muutokset paikallisesti pysyen samalla haaralla. Kun muutokset on saatu valmiiksi, käytä `Push origin` -painiketta lisätäksesi uuden commitin edelleen avoimeen PR:si;
 - Jos PR:si on jo yhdistetty päähaaraan, sinun on aloitettava prosessi alusta luomalla uusi haara ja jättämällä uusi PR. Varmista, että paikallinen repositoriosi on synkronoitu PlanB Networkin lähde-repositorion kanssa ennen jatkamista.
+

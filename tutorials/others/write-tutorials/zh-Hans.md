@@ -121,7 +121,7 @@ bitcoin-educational-content/
     - 中级（`intermediary`），
     - 高级（`advanced`），
     - 专家（`expert`）。
-- **教授**：提供您在教授个人资料上显示的贡献者ID。更多详情，请参考[相应的教程](https://planb.network/fr/tutorials/others/create-teacher-profile)；
+- **教授**：提供您在教授个人资料上显示的贡献者ID。更多详情，请参考[相应的教程](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)；
 - **链接**（可选）：如果您希望为您正在开发的教程信用一个来源网站，比如您自己的个人网站，这里可以添加相关链接。
 ![教程](assets/15.webp)
 - 完成修改您的`tutorial.yml`文件后，通过点击`文件 > 保存`来保存您的文档：
@@ -215,3 +215,4 @@ description: [描述]
 如果你希望在已经提交你的 PR 之后对你的贡献进行修改，接下来的程序取决于你的 PR 的当前状态：
 - 如果你的 PR 仍然是开放的并且尚未被合并，就在同一个分支上本地进行修改。一旦修改完成，使用 `Push origin` 按钮将一个新的提交添加到你仍然开放的 PR 中；
 - 在你的 PR 已经与主分支合并的情况下，你需要从头开始重新进行这个过程，创建一个新的分支，然后提交一个新的 PR。在进行之前确保你的本地仓库与 PlanB Network 的源仓库同步。
+

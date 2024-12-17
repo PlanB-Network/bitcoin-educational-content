@@ -120,7 +120,7 @@ bitcoin-educational-content/
     - Fortgeschrittene (`intermediary`),
     - Fortgeschritten (`advanced`),
     - Experte (`expert`).
-- **Professor**: Geben Sie Ihre Mitwirkenden-ID an, wie sie in Ihrem Profil als Lehrkraft erscheint. Für weitere Details siehe [das entsprechende Tutorial](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **Professor**: Geben Sie Ihre Mitwirkenden-ID an, wie sie in Ihrem Profil als Lehrkraft erscheint. Für weitere Details siehe [das entsprechende Tutorial](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **Link** (optional): Falls Sie eine Quellwebsite für das Tutorial, das Sie entwickeln, wie Ihre eigene persönliche Seite, nennen möchten, können Sie hier den betreffenden Link hinzufügen.
 ![tutorial](assets/15.webp)
 - Sobald Sie Ihre `tutorial.yml`-Datei bearbeitet haben, speichern Sie Ihr Dokument, indem Sie auf `Datei > Speichern` klicken:
@@ -205,3 +205,4 @@ In der GitHub Desktop-Software können Sie zurück zum Hauptbranch Ihres Forks (
 Wenn Sie Änderungen an Ihrem Beitrag vornehmen möchten, nachdem Sie Ihren PR bereits eingereicht haben, hängt das Vorgehen vom aktuellen Status Ihres PR ab:
 - Wenn Ihr PR noch offen ist und noch nicht zusammengeführt wurde, führen Sie die Änderungen lokal durch, während Sie im gleichen Branch bleiben. Sobald die Änderungen abgeschlossen sind, verwenden Sie den `Push origin`-Button, um einen neuen Commit zu Ihrem noch offenen PR hinzuzufügen;
 - Falls Ihr PR bereits mit dem Hauptbranch zusammengeführt wurde, müssen Sie den Prozess von vorne beginnen, indem Sie einen neuen Branch erstellen und dann einen neuen PR einreichen. Stellen Sie sicher, dass Ihr lokales Repository mit dem Quell-Repository von PlanB Network synchronisiert ist, bevor Sie fortfahren.
+

@@ -120,7 +120,7 @@ sovereign-university-data/
     - Mellomnivå (`intermediary`),
     - Avansert (`advanced`),
     - Ekspert (`expert`).
-- **professor**: Oppgi din bidragsyter-ID slik den vises på din professorprofil. For flere detaljer, se til [den tilsvarende opplæringen](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Oppgi din bidragsyter-ID slik den vises på din professorprofil. For flere detaljer, se til [den tilsvarende opplæringen](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (valgfritt): I tilfelle du ønsker å kreditere en kilde nettside for opplæringen du utvikler, som din egen personlige side, er dette stedet du kan legge til den aktuelle lenken.
 ![opplæring](assets/15.webp)
 - Når du har ferdigstilt endringene i din `tutorial.yml`-fil, lagre dokumentet ditt ved å klikke på `Fil > Lagre`:

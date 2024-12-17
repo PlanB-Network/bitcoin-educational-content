@@ -121,7 +121,7 @@ bitcoin-educational-content/
     - Intermedio (`intermediary`),
     - Avanzado (`advanced`),
     - Experto (`expert`).
-- **profesor**: Proporciona tu ID de colaborador tal como aparece en tu perfil de profesor. Para más detalles, consulta [el tutorial correspondiente](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **profesor**: Proporciona tu ID de colaborador tal como aparece en tu perfil de profesor. Para más detalles, consulta [el tutorial correspondiente](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **enlace** (opcional): En caso de que desees dar crédito a un sitio web fuente para el tutorial que estás desarrollando, como tu propio sitio personal, aquí es donde puedes agregar el enlace concerniente.
 ![tutorial](assets/15.webp)
 - Una vez que hayas terminado de modificar tu archivo `tutorial.yml`, guarda tu documento haciendo clic en `Archivo > Guardar`:
@@ -206,3 +206,4 @@ En el software GitHub Desktop, puedes volver a la rama principal de tu fork (`de
 Si deseas hacer modificaciones a tu contribución después de haber ya enviado tu PR, el procedimiento a seguir depende del estado actual de tu PR:
 - Si tu PR todavía está abierto y no ha sido fusionado, realiza las modificaciones localmente mientras permaneces en la misma rama. Una vez finalizadas las modificaciones, usa el botón `Push origin` para añadir un nuevo commit a tu PR aún abierto;
 - En el caso de que tu PR ya haya sido fusionado con la rama principal, necesitarás repetir el proceso desde el principio creando una nueva rama, y luego enviando un nuevo PR. Asegúrate de que tu repositorio local esté sincronizado con el repositorio fuente de PlanB Network antes de proceder.
+

@@ -121,7 +121,7 @@ bitcoin-educational-content/
     - 中級者 (`intermediary`),
     - 上級者 (`advanced`),
     - 専門家 (`expert`).
-- **professor**: 教授プロファイルに表示されるあなたの貢献者IDを提供してください。詳細については、[該当するチュートリアル](https://planb.network/fr/tutorials/others/create-teacher-profile)を参照してください。
+- **professor**: 教授プロファイルに表示されるあなたの貢献者IDを提供してください。詳細については、[該当するチュートリアル](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)を参照してください。
 - **link** (任意): チュートリアルを開発する際に、自分の個人サイトなどのソースウェブサイトにクレジットを付けたい場合、ここで関連するリンクを追加できます。
 ![tutorial](assets/15.webp)
 - `tutorial.yml`ファイルの修正が完了したら、`File > Save`をクリックしてドキュメントを保存してください：
@@ -205,3 +205,4 @@ GitHub Desktopソフトウェアでは、フォークのメインブランチ (`
 既にPRを提出した後で貢献に変更を加えたい場合、フォローする手順はPRの現在の状態によって異なります:
 - PRがまだオープンであり、まだマージされていない場合は、同じブランチにとどまりながらローカルで変更を行います。変更が完了したら、`Push origin` ボタンを使用して、まだオープンなPRに新しいコミットを追加します。
 - PRが既にメインブランチとマージされている場合は、新しいブランチを作成し、新しいPRを提出するプロセスを最初からやり直す必要があります。PlanB Networkのソースリポジトリとローカルリポジトリが同期していることを確認してから進めてください。
+

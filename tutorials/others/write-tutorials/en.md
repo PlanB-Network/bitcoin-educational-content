@@ -123,7 +123,7 @@ bitcoin-educational-content/
     - Intermediate (`intermediary`),
     - Advanced (`advanced`),
     - Expert (`expert`).
-- **professor**: Provide your contributor ID as it appears on your professor profile. For more details, refer to [the corresponding tutorial](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Provide your contributor ID as it appears on your professor profile. For more details, refer to [the corresponding tutorial](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (optional): In case you wish to credit a source website for the tutorial you are developing, such as your own personal site, this is where you can add the concerned link.
 ![tutorial](assets/15.webp)
 - Once you have finished modifying your `tutorial.yml` file, save your document by clicking on `File > Save`:
@@ -212,3 +212,4 @@ On the GitHub Desktop software, you can switch back to the main branch of your f
 If you wish to make modifications to your contribution after having already submitted your PR, the procedure to follow depends on the current state of your PR:
 - If your PR is still open and has not yet been merged, perform the modifications locally while staying on the same branch. Once the modifications are finalized, use the `Push origin` button to add a new commit to your still-open PR;
 - In the case where your PR has already been merged with the main branch, you will need to redo the process from the beginning by creating a new branch, then submitting a new PR. Ensure that your local repository is synchronized with the source repository of PlanB Network before proceeding.
+

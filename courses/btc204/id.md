@@ -1174,18 +1174,18 @@ Sekali lagi, salah satu kelemahan pembelian P2P adalah harga seringkali lebih ti
 
 Mengenai solusi, saya secara pribadi selalu menggunakan [Bisq](https://bisq.network/) dan sangat puas dengan itu. Sistem mereka sudah terbentuk dengan baik dan tampaknya dapat diandalkan. Namun, Bisq hanya tersedia di PC dan antarmukanya mungkin terlalu kompleks untuk pemula. Kelemahan lain adalah Bisq beroperasi hanya dengan transaksi onchain, yang dapat menjadi mahal selama periode biaya transaksi Bitcoin yang tinggi.
 
-[-> Temukan tutorial kami tentang Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Temukan tutorial kami tentang Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 Untuk opsi yang lebih sederhana, Anda dapat mencoba [Peach](https://peachbitcoin.com/), aplikasi seluler yang memfasilitasi koneksi antara pembeli dan penjual dengan sistem penyelesaian sengketa terintegrasi. Prosesnya lebih intuitif daripada Bisq.
 
-[-> Temukan tutorial kami tentang Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Temukan tutorial kami tentang Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 Opsi online lainnya adalah [HodlHodl](https://hodlhodl.com/), platform yang sudah terbentuk dengan baik yang menawarkan likuiditas yang baik, meskipun saya secara pribadi belum mencobanya.
-[-> Temukan tutorial kami tentang HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Temukan tutorial kami tentang HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 Untuk solusi berbasis Lightning Network, Anda dapat mencoba [RoboSats](https://learn.robosats.com/) dan [LNP2PBot](https://lnp2pbot.com/). RoboSats dapat diakses melalui situs web dan relatif sederhana untuk digunakan. LNP2PBot lebih atipikal, karena beroperasi melalui sistem pertukaran di aplikasi perpesanan Telegram.
 
-[-> Temukan tutorial kami tentang RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Temukan tutorial kami tentang LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Temukan tutorial kami tentang RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> Temukan tutorial kami tentang LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1193,7 +1193,7 @@ Untuk solusi berbasis Lightning Network, Anda dapat mencoba [RoboSats](https://l
 
 Tergantung pada negara tempat Anda tinggal, Anda mungkin memiliki akses ke platform teratur yang tidak memerlukan prosedur KYC untuk membeli atau menjual bitcoin. Di Swiss, misalnya, Anda dapat menggunakan platform seperti [Relai](https://relai.app/) dan [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Temukan tutorial kami tentang Relai.](https://planb.network/en/tutorials/exchange/relai)
+[-> Temukan tutorial kami tentang Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 Seperti yang kita lihat di bab sebelumnya, jenis platform ini menghindarkan Anda dari risiko yang terkait dengan prosedur KYC, tetapi mereka menyajikan tingkat risiko yang lebih tinggi untuk identifikasi kunci. Dalam hal privasi pada Bitcoin, platform ini oleh karena itu menawarkan perlindungan yang lebih baik daripada metode pembelian dengan KYC, tetapi mereka kurang menarik daripada pertukaran P2P.
 Namun, dalam hal keamanan pribadi, menggunakan platform ini secara signifikan kurang berisiko daripada pertukaran P2P. Mereka juga seringkali lebih sederhana untuk digunakan daripada platform yang memfasilitasi pertukaran P2P.
 
@@ -2217,7 +2217,7 @@ Di bab selanjutnya, kita akan mempelajari teknik privasi lain yang relatif tidak
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -3503,5 +3503,6 @@ https://planb.network/courses/lnp201
 
 #### Temukan evolusi kebebasan sepanjang masa dengan
 https://planb.network/courses/phi201
+
 
 

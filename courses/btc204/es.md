@@ -1246,18 +1246,18 @@ Una vez más, otra desventaja de las compras P2P es que el precio suele ser más
 
 En cuanto a soluciones, personalmente siempre he usado [Bisq](https://bisq.network/) y estoy muy satisfecho con ello. Su sistema está bien establecido y parece confiable. Sin embargo, Bisq solo está disponible en PC y su interfaz puede ser demasiado compleja para principiantes. Otro inconveniente es que Bisq opera únicamente con transacciones onchain, lo que puede volverse costoso durante períodos de altas tarifas de transacción en Bitcoin.
 
-[-> Descubre nuestro tutorial sobre Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Descubre nuestro tutorial sobre Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 Para una opción más simple, puedes probar [Peach](https://peachbitcoin.com/), una aplicación móvil que facilita la conexión entre compradores y vendedores con un sistema integrado de resolución de disputas. El proceso es más intuitivo que el de Bisq.
 
-[-> Descubre nuestro tutorial sobre Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Descubre nuestro tutorial sobre Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 Otra opción en línea es [HodlHodl](https://hodlhodl.com/), una plataforma bien establecida que ofrece buena liquidez, aunque personalmente no la he probado.
-[-> Descubre nuestro tutorial sobre HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Descubre nuestro tutorial sobre HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 Para soluciones basadas en la Lightning Network, puedes probar [RoboSats](https://learn.robosats.com/) y [LNP2PBot](https://lnp2pbot.com/). RoboSats es accesible a través de un sitio web y es relativamente simple de usar. LNP2PBot es más atípico, ya que opera a través de un sistema de intercambio en la aplicación de mensajería Telegram.
 
-[-> Descubre nuestro tutorial sobre RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Descubre nuestro tutorial sobre LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Descubre nuestro tutorial sobre RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> Descubre nuestro tutorial sobre LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1265,7 +1265,7 @@ Para soluciones basadas en la Lightning Network, puedes probar [RoboSats](https:
 
 Dependiendo del país en el que vivas, podrías tener acceso a plataformas reguladas que no requieren un procedimiento KYC para comprar o vender bitcoins. En Suiza, por ejemplo, puedes usar plataformas como [Relai](https://relai.app/) y [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Descubre nuestro tutorial sobre Relai.](https://planb.network/en/tutorials/exchange/relai)
+[-> Descubre nuestro tutorial sobre Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 Como vimos en el capítulo anterior, este tipo de plataforma te ahorra los riesgos asociados con los procedimientos KYC, pero presentan un nivel de riesgo más alto para la identificación clave. En términos de privacidad en Bitcoin, estas plataformas por lo tanto ofrecen mejor protección que los métodos de compra con KYC, pero son menos interesantes que los intercambios P2P.
 Sin embargo, en términos de seguridad personal, usar estas plataformas es significativamente menos riesgoso que los intercambios P2P. También suelen ser más simples de usar que las plataformas que facilitan los intercambios P2P.
 
@@ -2342,7 +2342,7 @@ En el próximo capítulo, estudiaremos otra técnica de privacidad que es relati
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -3735,5 +3735,6 @@ https://planb.network/courses/lnp201
 
 #### Descubra la evolución de la libertad a través de las edades con
 https://planb.network/courses/phi201
+
 
 

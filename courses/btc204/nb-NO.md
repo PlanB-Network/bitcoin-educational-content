@@ -1206,18 +1206,18 @@ Igjen er en annen ulempe med P2P-kjøp at prisen ofte er høyere enn det som ses
 
 Når det gjelder løsninger, har jeg personlig alltid brukt [Bisq](https://bisq.network/) og er veldig fornøyd med det. Deres system er godt etablert og virker pålitelig. Imidlertid er Bisq kun tilgjengelig på PC, og grensesnittet kan være for komplekst for nybegynnere. En annen ulempe er at Bisq opererer utelukkende med onchain-transaksjoner, noe som kan bli kostbart i perioder med høye transaksjonsgebyrer på Bitcoin.
 
-[-> Oppdag vår opplæring på Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Oppdag vår opplæring på Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 For et enklere alternativ kan du prøve [Peach](https://peachbitcoin.com/), en mobilapp som letter forbindelsen mellom kjøpere og selgere med et integrert tvisteløsningssystem. Prosessen er mer intuitiv enn den hos Bisq.
 
-[-> Oppdag vår opplæring på Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Oppdag vår opplæring på Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 Et annet online alternativ er [HodlHodl](https://hodlhodl.com/), en veletablert plattform som tilbyr god likviditet, selv om jeg personlig ikke har testet den.
-[-> Oppdag vår opplæring på HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Oppdag vår opplæring på HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 For løsninger basert på Lightning Network, kan du prøve [RoboSats](https://learn.robosats.com/) og [LNP2PBot](https://lnp2pbot.com/). RoboSats er tilgjengelig via en nettside og er relativt enkel å bruke. LNP2PBot er mer atypisk, da den opererer gjennom et utvekslingssystem på Telegram meldingsapp.
 
-[-> Oppdag vår opplæring på RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Oppdag vår opplæring på LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Oppdag vår opplæring på RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> Oppdag vår opplæring på LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1225,7 +1225,7 @@ For løsninger basert på Lightning Network, kan du prøve [RoboSats](https://le
 
 Avhengig av landet du bor i, kan du ha tilgang til regulerte plattformer som ikke krever en KYC-prosedyre for å kjøpe eller selge bitcoins. I Sveits, for eksempel, kan du bruke plattformer som [Relai](https://relai.app/) og [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Oppdag vår opplæring på Relai.](https://planb.network/en/tutorials/exchange/relai)
+[-> Oppdag vår opplæring på Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 Som vi så i det forrige kapittelet, sparer denne typen plattform deg for risikoene forbundet med KYC-prosedyrer, men de presenterer et høyere nivå av risiko for nøkkelidentifikasjon. Når det gjelder personvern på Bitcoin, tilbyr disse plattformene derfor bedre beskyttelse enn kjøpsmetoder med KYC, men de er mindre interessante enn P2P-utvekslinger.
 Imidlertid, når det gjelder personlig sikkerhet, er bruk av disse plattformene betydelig mindre risikofylt enn P2P-utvekslinger. De er også ofte enklere å bruke enn plattformer som legger til rette for P2P-utvekslinger.
 
@@ -2305,7 +2305,7 @@ I neste kapittel vil vi studere en annen personvernsteknikk som er relativt ukje
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -3651,5 +3651,6 @@ https://planb.network/courses/lnp201
 #### Oppdag frihetens utvikling gjennom tidene med
 
 https://planb.network/courses/phi201
+
 
 

@@ -1188,24 +1188,24 @@ Un altro svantaggio degli acquisti P2P è che il prezzo è spesso più alto risp
 
 Per quanto riguarda le soluzioni, ho personalmente sempre usato [Bisq](https://bisq.network/) e ne sono molto soddisfatto. Il loro sistema è ben consolidato e sembra affidabile. Tuttavia, Bisq è disponibile solo su PC e la sua interfaccia potrebbe essere troppo complessa per i principianti. Un altro svantaggio è che Bisq opera esclusivamente con transazioni onchain, che possono diventare costose durante periodi di commissioni di transazione elevate su Bitcoin.
 
-[-> Scopri il nostro tutorial su Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Scopri il nostro tutorial su Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 Per un'opzione più semplice, puoi provare [Peach](https://peachbitcoin.com/), un'app mobile che facilita la connessione tra acquirenti e venditori con un sistema integrato di risoluzione delle controversie. Il processo è più intuitivo rispetto a quello di Bisq.
 
-[-> Scopri il nostro tutorial su Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Scopri il nostro tutorial su Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 Un'altra opzione online è [HodlHodl](https://hodlhodl.com/), una piattaforma ben consolidata che offre una buona liquidità, anche se personalmente non l'ho testata.
-[-> Scopri il nostro tutorial su HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Scopri il nostro tutorial su HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 Per soluzioni basate sulla Lightning Network, puoi provare [RoboSats](https://learn.robosats.com/) e [LNP2PBot](https://lnp2pbot.com/). RoboSats è accessibile tramite un sito web ed è relativamente semplice da usare. LNP2PBot è più atipico, in quanto opera attraverso un sistema di scambio sull'app di messaggistica Telegram.
 
-[-> Scopri il nostro tutorial su RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Scopri il nostro tutorial su LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Scopri il nostro tutorial su RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> Scopri il nostro tutorial su LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ### Piattaforme regolamentate senza KYC
 
 A seconda del paese in cui vivi, potresti avere accesso a piattaforme regolamentate che non richiedono una procedura KYC per comprare o vendere bitcoin. In Svizzera, ad esempio, puoi utilizzare piattaforme come [Relai](https://relai.app/) e [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Scopri il nostro tutorial su Relai.](https://planb.network/en/tutorials/exchange/relai)
+[-> Scopri il nostro tutorial su Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 Come abbiamo visto nel capitolo precedente, questo tipo di piattaforma ti risparmia i rischi associati alle procedure KYC, ma presentano un livello di rischio più elevato per l'identificazione delle chiavi. In termini di privacy su Bitcoin, queste piattaforme offrono quindi una protezione migliore rispetto ai metodi di acquisto con KYC, ma sono meno interessanti rispetto agli scambi P2P.
 Tuttavia, in termini di sicurezza personale, l'utilizzo di queste piattaforme è significativamente meno rischioso rispetto agli scambi P2P. Sono anche spesso più semplici da usare rispetto alle piattaforme che facilitano gli scambi P2P.
 
@@ -2237,7 +2237,7 @@ Nel prossimo capitolo, studieremo un'altra tecnica di privacy relativamente scon
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Rimbalzi
 
@@ -3614,5 +3614,6 @@ https://planb.network/courses/lnp201
 #### Scopri l'evoluzione della libertà attraverso le età con
 https://planb.network/courses/phi201
 $$
+
 
 

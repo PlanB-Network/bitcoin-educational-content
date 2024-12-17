@@ -1249,18 +1249,18 @@ Once again, another downside of P2P purchases is that the price is often higher 
 
 Regarding solutions, I have personally always used [Bisq](https://bisq.network/) and am very satisfied with it. Their system is well-established and seems reliable. However, Bisq is only available on PC and its interface may be too complex for beginners. Another drawback is that Bisq operates solely with onchain transactions, which can become costly during periods of high transaction fees on Bitcoin.
 
-[-> Discover our tutorial on Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Discover our tutorial on Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 For a simpler option, you can try [Peach](https://peachbitcoin.com/), a mobile app that facilitates the connection between buyers and sellers with an integrated dispute resolution system. The process is more intuitive than that of Bisq.
 
-[-> Discover our tutorial on Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Discover our tutorial on Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 Another online option is [HodlHodl](https://hodlhodl.com/), a well-established platform that offers good liquidity, although I have not personally tested it.
-[-> Discover our tutorial on HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Discover our tutorial on HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 For solutions based on the Lightning Network, you can try [RoboSats](https://learn.robosats.com/) and [LNP2PBot](https://lnp2pbot.com/). RoboSats is accessible via a website and is relatively simple to use. LNP2PBot is more atypical, as it operates through an exchange system on the Telegram messaging app.
 
-[-> Discover our tutorial on RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Discover our tutorial on LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Discover our tutorial on RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> Discover our tutorial on LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1268,7 +1268,7 @@ For solutions based on the Lightning Network, you can try [RoboSats](https://lea
 
 Depending on the country you live in, you might have access to regulated platforms that do not require a KYC procedure to buy or sell bitcoins. In Switzerland, for example, you can use platforms like [Relai](https://relai.app/) and [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Discover our tutorial on Relai.](https://planb.network/en/tutorials/exchange/relai)
+[-> Discover our tutorial on Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 
 As we saw in the previous chapter, this type of platform spares you the risks associated with KYC procedures, but they present a higher level of risk for key identification. In terms of privacy on Bitcoin, these platforms therefore offer better protection than purchasing methods with KYC, but they are less interesting than P2P exchanges.
 
@@ -2345,7 +2345,7 @@ In the next chapter, we will study another privacy technique that is relatively 
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -3701,5 +3701,6 @@ https://planb.network/courses/lnp201
 
 #### Discover the evolution of freedom through the ages with
 https://planb.network/courses/phi201
+
 
 

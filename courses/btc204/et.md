@@ -1200,18 +1200,18 @@ Jällegi on üks P2P ostude puudustest see, et hind on sageli kõrgem kui regule
 
 Lahenduste osas olen isiklikult alati kasutanud [Bisq](https://bisq.network/) ja olen sellega väga rahul. Nende süsteem on hästi välja töötatud ja tundub usaldusväärne. Siiski on Bisq saadaval ainult PC-l ja selle liides võib algajatele olla liiga keeruline. Teine puudus on see, et Bisq toimib ainult onchain tehingutega, mis võivad Bitcoin'i kõrgete tehingutasude perioodidel muutuda kulukaks.
 
-[-> Avasta meie õpetus Bisqi kohta.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Avasta meie õpetus Bisqi kohta.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 Lihtsama valikuna võite proovida [Peach](https://peachbitcoin.com/), mobiilirakendust, mis hõlbustab ostjate ja müüjate vahelist ühendust integreeritud vaidluste lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqil.
 
-[-> Avasta meie õpetus Peach'i kohta.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Avasta meie õpetus Peach'i kohta.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 Teine võrgupõhine valik on [HodlHodl](https://hodlhodl.com/), hästi välja kujunenud platvorm, mis pakub head likviidsust, kuigi ma pole seda isiklikult testinud.
-[-> Avasta meie õpetus HodlHodl'i kohta.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Avasta meie õpetus HodlHodl'i kohta.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 Lahenduste jaoks, mis põhinevad Lightning Network'il, võite proovida [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSats on kättesaadav veebisaidi kaudu ja on suhteliselt lihtne kasutada. LNP2PBot on ebatüüpilisem, kuna see toimib vahetussüsteemina Telegrami sõnumirakenduses.
 
-[-> Avasta meie õpetus RoboSats'i kohta.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Avasta meie õpetus LNP2PBot'i kohta.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Avasta meie õpetus RoboSats'i kohta.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> Avasta meie õpetus LNP2PBot'i kohta.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1219,7 +1219,7 @@ Lahenduste jaoks, mis põhinevad Lightning Network'il, võite proovida [RoboSats
 
 Sõltuvalt riigist, kus elate, võib teil olla juurdepääs reguleeritud platvormidele, mis ei nõua bitcoini ostmiseks või müümiseks KYC protseduuri. Šveitsis näiteks võite kasutada platvorme nagu [Relai](https://relai.app/) ja [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Avasta meie õpetus Relai kohta.](https://planb.network/en/tutorials/exchange/relai)
+[-> Avasta meie õpetus Relai kohta.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 Nagu me eelmises peatükis nägime, säästab see tüüpi platvorm teid KYC protseduuridega seotud riskidest, kuid nad esitavad suurema riski võtmete identifitseerimise osas. Privaatsuse mõttes Bitcoinil pakuvad need platvormid seega paremat kaitset kui KYC-ga ostumeetodid, kuid nad ei ole nii huvitavad kui P2P vahetused.
 Siiski, isikliku turvalisuse mõttes on nende platvormide kasutamine oluliselt vähem riskantne kui P2P vahetused. Samuti on need sageli lihtsamini kasutatavad kui platvormid, mis hõlbustavad P2P vahetusi.
 
@@ -2291,7 +2291,7 @@ Järgmises peatükis uurime teist privaatsustehnikat, mis on suhteliselt tundmat
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -3669,5 +3669,6 @@ https://planb.network/courses/lnp201
 #### Avastage vabaduse areng läbi aegade
 
 https://planb.network/courses/phi201
+
 
 

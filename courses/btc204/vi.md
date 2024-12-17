@@ -1177,25 +1177,25 @@ Một lần nữa, một nhược điểm khác của việc mua bán P2P là gi
 
 Về giải pháp, cá nhân tôi luôn sử dụng [Bisq](https://bisq.network/) và rất hài lòng với nó. Hệ thống của họ được thiết lập tốt và có vẻ đáng tin cậy. Tuy nhiên, Bisq chỉ có sẵn trên máy tính cá nhân và giao diện của nó có thể quá phức tạp đối với người mới bắt đầu. Một nhược điểm khác là Bisq chỉ hoạt động với giao dịch trên chuỗi, có thể trở nên tốn kém trong những thời kỳ phí giao dịch Bitcoin cao.
 
-[-> Khám phá hướng dẫn của chúng tôi về Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Khám phá hướng dẫn của chúng tôi về Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 Đối với một lựa chọn đơn giản hơn, bạn có thể thử [Peach](https://peachbitcoin.com/), một ứng dụng di động giúp kết nối người mua và người bán với hệ thống giải quyết tranh chấp tích hợp. Quy trình này dễ hiểu hơn so với Bisq.
 
-[-> Khám phá hướng dẫn của chúng tôi về Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Khám phá hướng dẫn của chúng tôi về Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 Một lựa chọn trực tuyến khác là [HodlHodl](https://hodlhodl.com/), một nền tảng đã có uy tín tốt và cung cấp tính thanh khoản tốt, mặc dù cá nhân tôi chưa từng trải nghiệm.
 
-[-> Khám phá hướng dẫn của chúng tôi về HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Khám phá hướng dẫn của chúng tôi về HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 Đối với các giải pháp dựa trên Lightning Network, bạn có thể thử [RoboSats](https://learn.robosats.com/) và [LNP2PBot](https://lnp2pbot.com/). RoboSats có thể truy cập qua một trang web và tương đối dễ sử dụng. LNP2PBot thì đặc biệt hơn, vì nó hoạt động thông qua một hệ thống trao đổi trên ứng dụng nhắn tin Telegram.
 
-[-> Khám phá hướng dẫn của chúng tôi về RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Khám phá hướng dẫn của chúng tôi về LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Khám phá hướng dẫn của chúng tôi về RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> Khám phá hướng dẫn của chúng tôi về LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ### Các nền tảng giao dịch được quản lý nhưng không yêu cầu KYC
 
 Tùy thuộc vào quốc gia bạn sống, bạn có thể có quyền truy cập vào các nền tảng được quản lý không yêu cầu thủ tục KYC để mua hoặc bán bitcoin. Ở Thụy Sĩ, ví dụ, bạn có thể sử dụng các nền tảng như [Relai](https://relai.app/) và [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Khám phá hướng dẫn của chúng tôi về Relai.](https://planb.network/en/tutorials/exchange/relai)
+[-> Khám phá hướng dẫn của chúng tôi về Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 Như chúng ta đã thấy trong chương trước, loại nền tảng này giúp bạn tránh được rủi ro liên quan đến các thủ tục KYC, nhưng chúng lại mang lại mức độ rủi ro cao hơn trong việc dễ bị xác định danh tính chủ khoá. Về mặt bảo mật thông tin cá nhân trên Bitcoin, những nền tảng này do đó cung cấp bảo vệ tốt hơn so với các phương pháp mua bán có KYC, nhưng chúng kém hấp dẫn hơn so với giao dịch P2P.
 
 Tuy nhiên, về mặt an toàn cá nhân, việc sử dụng những nền tảng này ít rủi ro hơn đáng kể so với giao dịch P2P. Chúng cũng thường dễ sử dụng hơn so với các nền tảng hỗ trợ giao dịch P2P.
@@ -3503,4 +3503,5 @@ https://planb.network/courses/lnp201
 
 #### Khám phá sự phát triển của tự do qua các thời đại với
 https://planb.network/courses/phi201
+
 

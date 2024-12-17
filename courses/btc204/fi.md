@@ -1229,24 +1229,24 @@ Jälleen kerran yhtenä P2P-ostojen haittapuolena on, että hinta on usein korke
 
 Ratkaisujen osalta olen henkilökohtaisesti aina käyttänyt [Bisq](https://bisq.network/) -palvelua ja olen erittäin tyytyväinen siihen. Heidän järjestelmänsä on vakiintunut ja vaikuttaa luotettavalta. Bisq on kuitenkin saatavilla vain PC:lle ja sen käyttöliittymä voi olla liian monimutkainen aloittelijoille. Toinen haittapuoli on, että Bisq toimii ainoastaan onchain-transaktioilla, jotka voivat tulla kalliiksi Bitcoinin korkeiden transaktiomaksujen aikoina.
 
-[-> Tutustu Bisq-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Tutustu Bisq-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 Yksinkertaisempana vaihtoehtona voit kokeilla [Peach](https://peachbitcoin.com/)-mobiilisovellusta, joka helpottaa ostajien ja myyjien välistä yhteydenpitoa sisäänrakennetun riidanratkaisujärjestelmän avulla. Prosessi on intuitiivisempi kuin Bisq:ssa.
 
-[-> Tutustu Peach-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Tutustu Peach-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 Toinen verkossa oleva vaihtoehto on [HodlHodl](https://hodlhodl.com/), hyvin vakiintunut alusta, joka tarjoaa hyvän likviditeetin, vaikka en ole henkilökohtaisesti testannut sitä.
-[-> Tutustu HodlHodl-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Tutustu HodlHodl-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 Lightning Networkiin perustuvista ratkaisuista voit kokeilla [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSats on käytettävissä verkkosivuston kautta ja on suhteellisen yksinkertainen käyttää. LNP2PBot on epätavallisempi, sillä se toimii vaihtojärjestelmänä Telegram-viestisovelluksessa.
 
-[-> Tutustu RoboSats-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Tutustu LNP2PBot-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Tutustu RoboSats-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> Tutustu LNP2PBot-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ### Säännellyt alustat ilman KYC:tä
 
 Riippuen siitä, missä maassa asut, saatat päästä käyttämään säänneltyjä alustoja, jotka eivät vaadi KYC-menettelyä bitcoinien ostamiseen tai myymiseen. Esimerkiksi Sveitsissä voit käyttää alustoja kuten [Relai](https://relai.app/) ja [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Tutustu Relai-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/relai)
+[-> Tutustu Relai-opetusohjelmaamme.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 Kuten edellisessä luvussa näimme, tämän tyyppinen alusta säästää sinut KYC-menettelyihin liittyviltä riskeiltä, mutta ne esittävät korkeamman tason riskin avaintunnistukselle. Bitcoinin yksityisyyden suhteen nämä alustat tarjoavat siis paremman suojan kuin KYC:llä varustetut ostomenetelmät, mutta ne eivät ole yhtä kiinnostavia kuin P2P-vaihdot.
 Kuitenkin henkilökohtaisen turvallisuuden näkökulmasta näiden alustojen käyttö on huomattavasti vähemmän riskialtista kuin P2P-vaihtojen käyttö. Ne ovat myös usein yksinkertaisempia käyttää kuin alustat, jotka helpottavat P2P-vaihtoja.
 
@@ -2318,7 +2318,7 @@ Seuraavassa luvussa tutkimme toista yksityisyyden suojan tekniikkaa, joka on suh
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -3689,5 +3689,6 @@ https://planb.network/courses/lnp201
 #### Tutustu vapauden kehitykseen aikojen saatossa
 
 https://planb.network/courses/phi201
+
 
 

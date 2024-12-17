@@ -1203,18 +1203,18 @@ Opět se ukazuje, že další nevýhodou nákupů P2P je, že cena je často vy�
 
 Pokud jde o řešení, osobně jsem vždy používal [Bisq](https://bisq.network/) a jsem s ním velmi spokojen. Jejich systém je dobře zavedený a zdá se být spolehlivý. Bisq je však dostupný pouze na PC a jeho rozhraní může být pro začátečníky příliš složité. Další nevýhodou je, že Bisq funguje pouze s onchain transakcemi, což může být nákladné během období vysokých transakčních poplatků na Bitcoinu.
 
-[-> Objevte náš tutoriál na Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Objevte náš tutoriál na Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 Pro jednodušší možnost můžete vyzkoušet [Peach](https://peachbitcoin.com/), mobilní aplikaci, která usnadňuje spojení mezi kupujícími a prodejci s integrovaným systémem řešení sporů. Proces je intuitivnější než u Bisq.
 
-[-> Objevte náš tutoriál na Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Objevte náš tutoriál na Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 Další online možností je [HodlHodl](https://hodlhodl.com/), dobře zavedená platforma, která nabízí dobrou likviditu, ačkoli jsem ji osobně netestoval.
-[-> Objevte náš tutoriál na HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Objevte náš tutoriál na HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 Pro řešení založená na Lightning Network můžete vyzkoušet [RoboSats](https://learn.robosats.com/) a [LNP2PBot](https://lnp2pbot.com/). RoboSats je přístupný přes webové stránky a je relativně jednoduchý na použití. LNP2PBot je atypičtější, protože funguje prostřednictvím systému výměny na aplikaci pro zasílání zpráv Telegram.
 
-[-> Objevte náš tutoriál na RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Objevte náš tutoriál na LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Objevte náš tutoriál na RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> Objevte náš tutoriál na LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1222,7 +1222,7 @@ Pro řešení založená na Lightning Network můžete vyzkoušet [RoboSats](htt
 
 V závislosti na zemi, ve které žijete, můžete mít přístup k regulovaným platformám, které nevyžadují proceduru KYC pro nákup nebo prodej bitcoinů. Ve Švýcarsku můžete například používat platformy jako [Relai](https://relai.app/) a [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Objevte náš tutoriál na Relai.](https://planb.network/en/tutorials/exchange/relai)
+[-> Objevte náš tutoriál na Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 Jak jsme viděli v předchozí kapitole, tento typ platformy vás ušetří rizik spojených s postupy KYC, ale představují vyšší úroveň rizika pro klíčovou identifikaci. Pokud jde o soukromí na Bitcoinu, tyto platformy tedy nabízejí lepší ochranu než metody nákupu s KYC, ale nejsou tak zajímavé jako P2P burzy.
 Nicméně, pokud jde o osobní bezpečnost, používání těchto platforem je výrazně méně rizikové než P2P burzy. Jsou také často jednodušší na používání než platformy, které usnadňují P2P výměny.
 
@@ -2296,7 +2296,7 @@ V další kapitole se budeme věnovat další technice ochrany soukromí, která
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -3744,5 +3744,6 @@ https://planb.network/courses/lnp201
 #### Objevte vývoj svobody napříč věky s
 https://planb.network/courses/phi201
 $$
+
 
 

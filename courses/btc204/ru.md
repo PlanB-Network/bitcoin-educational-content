@@ -1289,21 +1289,21 @@ KYC конкретно относится к регуляторной проце
 
 ![BTC204](assets/notext/44/03.webp)
 
-[-> Ознакомьтесь с нашим учебником по Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+[-> Ознакомьтесь с нашим учебником по Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 Для более простого варианта вы можете попробовать [Peach](https://peachБиткойн.com/), мобильное приложение, которое облегчает связь между покупателями и продавцами с интегрированной системой разрешения споров. Процесс более интуитивно понятен, чем в Bisq.
 
-[-> Ознакомьтесь с нашим учебником по Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> Ознакомьтесь с нашим учебником по Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 
 Еще один онлайн-вариант - [HodlHodl](https://hodlhodl.com/), хорошо установленная платформа, которая предлагает хорошую ликвидность, хотя я лично не тестировал ее.
 
-[-> Ознакомьтесь с нашим учебником по HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> Ознакомьтесь с нашим учебником по HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 Для решений на основе Lightning Network вы можете попробовать [RoboSats](https://learn.robosats.com/) и [LNP2PBot](https://lnp2pbot.com/). RoboSats доступен через веб-сайт и относительно прост в использовании. LNP2PBot более нетипичен, так как работает через систему обмена в мессенджере Telegram.
 
-[-> Ознакомьтесь с нашим учебником по RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
+[-> Ознакомьтесь с нашим учебником по RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
 
-[-> Ознакомьтесь с нашим учебником по LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> Ознакомьтесь с нашим учебником по LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1311,7 +1311,7 @@ KYC конкретно относится к регуляторной проце
 
 В зависимости от страны вашего проживания, у вас может быть доступ к регулируемым платформам, которые не требуют процедуры KYC для покупки или продажи биткойнов. В Швейцарии, например, вы можете использовать платформы вроде [Relai](https://relai.app/) и [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Ознакомьтесь с нашим учебником по Relai.](https://planb.network/en/tutorials/exchange/relai)
+[-> Ознакомьтесь с нашим учебником по Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 
 Как мы видели в предыдущей главе, такой тип платформ избавляет вас от рисков, связанных с процедурами KYC, но они представляют более высокий уровень риска для идентификации ключевой идентификации. С точки зрения конфиденциальности в Биткойн, эти платформы, следовательно, предлагают лучшую защиту, чем методы покупки с KYC, но они менее интересны, чем P2P обменники.
 
@@ -2440,7 +2440,7 @@ Stonewall x2 — это другая специфическая форма тр�
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets (Рикошеты)
 
@@ -3881,5 +3881,6 @@ https://planb.network/courses/lnp201
 #### Откройте для себя эволюцию свободы сквозь века с
 
 https://planb.network/courses/phi201
+
 
 

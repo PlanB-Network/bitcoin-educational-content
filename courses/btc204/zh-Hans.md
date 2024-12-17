@@ -1223,24 +1223,24 @@ KYC特指一些公司实施的一种监管程序，用于验证和记录其客�
 
 关于解决方案，我个人一直使用[Bisq](https://bisq.network/)，对此非常满意。他们的系统建立得很好，看起来很可靠。然而，Bisq只能在PC上使用，其界面对初学者来说可能过于复杂。另一个缺点是Bisq仅与链上交易一起操作，这在比特币交易费用高昂的时期可能变得昂贵。
 
-[-> 查看我们关于Bisq的教程。](https://planb.network/en/tutorials/exchange/bisq)
+[-> 查看我们关于Bisq的教程。](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
 
 对于更简单的选项，您可以尝试[Peach](https://peachbitcoin.com/)，这是一个移动应用程序，通过集成的争议解决系统促进买家和卖家之间的联系。其过程比Bisq的更直观。
 
-[-> 查看我们关于Peach的教程。](https://planb.network/en/tutorials/exchange/peach-wallet)
+[-> 查看我们关于Peach的教程。](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
 另一个在线选项是[HodlHodl](https://hodlhodl.com/)，这是一个建立良好的平台，提供良好的流动性，尽管我个人没有测试过它。
-[-> 查看我们关于HodlHodl的教程。](https://planb.network/en/tutorials/exchange/hodlhodl)
+[-> 查看我们关于HodlHodl的教程。](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
 
 对于基于闪电网络的解决方案，您可以尝试[RoboSats](https://learn.robosats.com/)和[LNP2PBot](https://lnp2pbot.com/)。RoboSats可以通过网站访问，使用起来相对简单。LNP2PBot更为特别，因为它通过Telegram消息应用程序上的交换系统操作。
 
-[-> 查看我们关于RoboSats的教程。](https://planb.network/en/tutorials/exchange/robosats)
-[-> 查看我们关于LNP2PBot的教程。](https://planb.network/en/tutorials/exchange/lnp2pbot)
+[-> 查看我们关于RoboSats的教程。](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
+[-> 查看我们关于LNP2PBot的教程。](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
 
 ### 不需要KYC的受监管平台
 
 根据您居住的国家，您可能可以访问不需要进行KYC程序就能买卖比特币的受监管平台。例如，在瑞士，您可以使用像[Relai](https://relai.app/)和[MtPelerin](https://www.mtpelerin.com/)这样的平台。
 
-[-> 查看我们关于Relai的教程。](https://planb.network/en/tutorials/exchange/relai)
+[-> 查看我们关于Relai的教程。](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
 正如我们在上一章中看到的，这类平台免除了与KYC程序相关的风险，但它们在关键识别方面呈现出更高的风险水平。就比特币的隐私而言，这些平台因此提供比带KYC的购买方法更好的保护，但它们不如P2P交易所有趣。
 然而，在个人安全方面，使用这些平台的风险显著低于P2P交易所。它们通常也比促进P2P交易的平台更简单易用。
 
@@ -2313,7 +2313,7 @@ Stonewall和Stonewall x2交易都可以在Samourai Wallet应用程序和Sparrow 
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -3644,5 +3644,6 @@ https://planb.network/courses/lnp201
 #### 探索自由在历史长河中的演变
 
 https://planb.network/courses/phi201
+
 
 

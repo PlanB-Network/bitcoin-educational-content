@@ -281,7 +281,7 @@ Need sisenemispunktid on Bitcoin'i kasutamisel peaaegu vältimatud. Kuigi võib 
 
 Seega on samuti vajalik suuta vastu seista plokiahela analüüsile meie Bitcoin'i kasutamisel. Sellisel viisil toimides saame minimeerida oma tegevuste agregatsiooni ja piirata sisenemispunkti mõju meie privaatsusele.
 
-Tõepoolest, et paremini vastu seista plokiahela analüüsile, mis oleks parem lähenemine kui tutvuda plokiahela analüüsis kasutatavate meetoditega? Kui soovite teada, kuidas oma privaatsust Bitcoin'is parandada, peate mõistma neid meetodeid. See võimaldab teil paremini mõista tehnikaid nagu [coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) või [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (tehnikad, mida me uurime koolituse viimastes osades), ja vähendada vigu, mida võite teha.
+Tõepoolest, et paremini vastu seista plokiahela analüüsile, mis oleks parem lähenemine kui tutvuda plokiahela analüüsis kasutatavate meetoditega? Kui soovite teada, kuidas oma privaatsust Bitcoin'is parandada, peate mõistma neid meetodeid. See võimaldab teil paremini mõista tehnikaid nagu [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) või [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (tehnikad, mida me uurime koolituse viimastes osades), ja vähendada vigu, mida võite teha.
 Selles võime teha analoogia krüptograafia ja krüptoanalüüsi vahel. Hea krüptograaf on eelkõige hea krüptoanalüütik. Uue krüpteerimisalgoritmi väljamõtlemiseks peab inimene teadma, milliste rünnakutega see peab silmitsi seisma, ja uurima ka seda, miks eelmised algoritmid murdusid. Sama põhimõte kehtib privaatsuse kohta Bitcoinis. Plokiahela analüüsi meetodite mõistmine on võti selle vastu kaitsmiseks. Seetõttu pakun välja terve jaotise plokiahela analüüsist selles koolituses.
 
 ### Plokiahela analüüsi meetodid
@@ -3669,3 +3669,4 @@ https://planb.network/courses/lnp201
 #### Avastage vabaduse areng läbi aegade
 
 https://planb.network/courses/phi201
+

@@ -293,7 +293,7 @@ Coinbase交易的独特之处在于，它是唯一可以凭空创建比特币的
 因此，在我们使用比特币时，也有必要能够面对区块链分析。通过这种方式，我们可以最小化我们活动的聚合，并限制一个入口点对我们隐私的影响。
 ![BTC204](assets/notext/31/5.webp)
 
-实际上，为了更好地对抗区块链分析，比熟悉区块链分析中使用的方法更好的方法是什么呢？如果你想知道如何在比特币上提高你的隐私，你必须理解这些方法。这将使你能够更好地掌握像[coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet)或[payjoin](https://planb.network/fr/tutorials/privacy/payjoin)（我们将在培训的最后部分研究的技术）这样的技术，并减少你可能犯的错误。
+实际上，为了更好地对抗区块链分析，比熟悉区块链分析中使用的方法更好的方法是什么呢？如果你想知道如何在比特币上提高你的隐私，你必须理解这些方法。这将使你能够更好地掌握像[coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)或[payjoin](https://planb.network/fr/tutorials/privacy/payjoin)（我们将在培训的最后部分研究的技术）这样的技术，并减少你可能犯的错误。
 在这里，我们可以用密码学和密码分析作一个类比。一个优秀的密码学家首先是一个优秀的密码分析师。要想象一个新的加密算法，必须知道它将面临什么样的攻击，同时也要研究为什么之前的算法被破解。这一原则同样适用于比特币上的隐私保护。理解区块链分析的方法是保护免受其侵害的关键。这就是为什么我在这次培训中提议整个部分都关于区块链分析。
 
 ### 区块链分析的方法
@@ -3644,3 +3644,4 @@ https://planb.network/courses/lnp201
 #### 探索自由在历史长河中的演变
 
 https://planb.network/courses/phi201
+

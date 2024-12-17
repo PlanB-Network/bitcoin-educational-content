@@ -271,7 +271,7 @@ Titik masuk ini hampir tidak terhindarkan dalam penggunaan Bitcoin. Meskipun ses
 ### Membela Diri Terhadap Analisis Rantai
 Dengan demikian, juga perlu untuk dapat menghadapi analisis blockchain dalam penggunaan Bitcoin kita. Dengan cara ini, kita dapat meminimalkan agregasi aktivitas kita dan membatasi dampak titik masuk pada privasi kita.
 
-Memang, untuk lebih baik melawan analisis blockchain, pendekatan apa yang lebih baik selain mempelajari metode yang digunakan dalam analisis blockchain? Jika Anda ingin tahu cara meningkatkan privasi Anda pada Bitcoin, Anda harus memahami metode-metode ini. Ini akan memungkinkan Anda untuk lebih memahami teknik seperti [coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) atau [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (teknik yang akan kita pelajari di bagian terakhir pelatihan), dan untuk mengurangi kesalahan yang mungkin Anda buat.
+Memang, untuk lebih baik melawan analisis blockchain, pendekatan apa yang lebih baik selain mempelajari metode yang digunakan dalam analisis blockchain? Jika Anda ingin tahu cara meningkatkan privasi Anda pada Bitcoin, Anda harus memahami metode-metode ini. Ini akan memungkinkan Anda untuk lebih memahami teknik seperti [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) atau [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (teknik yang akan kita pelajari di bagian terakhir pelatihan), dan untuk mengurangi kesalahan yang mungkin Anda buat.
 Dalam hal ini, kita dapat membuat analogi dengan kriptografi dan kriptoanalisis. Seorang kriptografer yang baik pertama-tama adalah seorang kriptoanalis yang baik. Untuk membayangkan algoritma enkripsi baru, seseorang harus tahu serangan apa yang akan dihadapinya, dan juga mempelajari mengapa algoritma sebelumnya dapat dipecahkan. Prinsip yang sama berlaku untuk privasi pada Bitcoin. Memahami metode analisis blockchain adalah kunci untuk melindungi diri dari hal itu. Itulah mengapa saya mengusulkan sebuah bagian lengkap tentang analisis blockchain dalam pelatihan ini.
 
 ### Metode Analisis Blockchain
@@ -3503,3 +3503,4 @@ https://planb.network/courses/lnp201
 
 #### Temukan evolusi kebebasan sepanjang masa dengan
 https://planb.network/courses/phi201
+

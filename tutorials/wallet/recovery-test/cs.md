@@ -63,6 +63,9 @@ Na Sparrow klikněte na záložku "*Adresy*".
 Poté si na kus papíru zapište úplně první přijímací adresu vaší peněženky. V mém příkladu je adresa:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 Po zapsání informací přejděte do menu "*Soubor*", poté vyberte "*Smazat peněženku*". Připomínám vám ještě jednou, že vaše Bitcoinová peněženka musí být prázdná, než s touto operací pokračujete.
 
 ![RECOVERY TEST](assets/notext/04.webp)

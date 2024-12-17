@@ -40,7 +40,7 @@ Pour sauvegarder votre phrase de récupération, il faut la noter sur un support
 
 Si noter votre phrase sur un simple morceau de papier constitue déjà une bonne pratique, opter pour un support en métal, comme de l’acier inoxydable, offre une sécurité supplémentaire. Ce type de support protège votre phrase mnémonique des risques liés aux incendies, inondations ou écroulements pouvant affecter le lieu de stockage.
 
-Pour ceux qui recherchent une option économique pour sauvegarder leur phrase sur un support en métal, [la méthode DIY du "SAFU Ninja"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) est une excellente solution. Il suffit d’acheter des rondelles métalliques, une vis et un écrou dans le commerce. Ensuite, vous gravez les mots de votre phrase sur chaque rondelle en veillant à bien les numéroter, puis vous les assemblez sur la vis avec l’écrou. Cette méthode à cout réduit offre déjà une bonne résistance.
+Pour ceux qui recherchent une option économique pour sauvegarder leur phrase sur un support en métal, [la méthode DIY du "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) est une excellente solution. Il suffit d’acheter des rondelles métalliques, une vis et un écrou dans le commerce. Ensuite, vous gravez les mots de votre phrase sur chaque rondelle en veillant à bien les numéroter, puis vous les assemblez sur la vis avec l’écrou. Cette méthode à cout réduit offre déjà une bonne résistance.
 
 01
 

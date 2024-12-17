@@ -657,7 +657,7 @@ Solusi lain mungkin termasuk mulai menjual barang atau jasa dalam Bitcoin untuk 
 Hot wallet untuk akumulasi cepat
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
-https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Cold wallet untuk keamanan jangka panjang
@@ -1045,3 +1045,4 @@ https://planb.network/courses/min201
 #### Pahami cara kerja dompet Bitcoin di
 
 https://planb.network/courses/cyp201
+

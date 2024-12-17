@@ -668,7 +668,7 @@ Andere Lösungen könnten darin bestehen, damit zu beginnen, Waren oder Dienstle
 Eine Hot Wallet, um schnell anzusammeln.
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
-https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Eine Cold Wallet für langfristige Sicherheit.
@@ -1044,3 +1044,4 @@ https://planb.network/courses/min201
 #### Verstehen Sie, wie Bitcoin-Wallets funktionieren auf
 
 https://planb.network/courses/cyp201
+

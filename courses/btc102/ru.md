@@ -660,7 +660,7 @@ https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a
 Горячий кошелек для быстрого накопления
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
-https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Холодный кошелек для долгосрочной безопасности
@@ -1050,3 +1050,4 @@ https://planb.network/courses/min201
 #### Поймите, как работает Биткоин-кошелек с помощью
 
 https://planb.network/courses/cyp201
+

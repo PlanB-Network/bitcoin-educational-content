@@ -658,7 +658,7 @@ Muita ratkaisuja voivat olla esimerkiksi tavaroiden tai palveluiden myyminen Bit
 Hot wallet nopeaa kerryttämistä varten
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
-https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Cold wallet pitkäaikaiseen turvallisuuteen
@@ -1050,3 +1050,4 @@ https://planb.network/courses/min201
 #### Ymmärrä, miten Bitcoin-lompakko toimii osoitteessa
 
 https://planb.network/courses/cyp201
+

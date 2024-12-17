@@ -659,7 +659,7 @@ Andre løsninger kan inkludere å begynne å selge varer eller tjenester i Bitco
 En hot wallet for rask akkumulering
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
-https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 En cold wallet for langsiktig sikkerhet
@@ -1047,3 +1047,4 @@ https://planb.network/courses/min201
 #### Forstå hvordan Bitcoin-lommeboken fungerer med
 
 https://planb.network/courses/cyp201
+

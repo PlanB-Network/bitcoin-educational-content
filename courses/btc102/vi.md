@@ -658,7 +658,7 @@ Các giải pháp khác có thể bao gồm bắt đầu bán hàng hóa hoặc 
 Một ví nóng cho việc tích lũy nhanh chóng
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
-https://planb.network/tutorials/wallet/green-wallet
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Một ví lạnh cho sự an toàn dài hạn
@@ -1045,3 +1045,4 @@ https://planb.network/courses/min201
 #### Hiểu cách hoạt động của ví Bitcoin với
 
 https://planb.network/courses/cyp201
+

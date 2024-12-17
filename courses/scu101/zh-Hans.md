@@ -396,7 +396,7 @@ https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-2
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keypass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 备份设置
 
@@ -548,3 +548,4 @@ https://planb.network/courses/his201
 #### 通过以下课程了解比特币钱包的工作原理
 
 https://planb.network/courses/cyp201
+

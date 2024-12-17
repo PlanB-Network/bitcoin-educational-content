@@ -400,7 +400,7 @@ Nendes kahes õpetuses juhendan teid ka oma veebikontode turvamisel ning selgita
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keypass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Varundamise seadistamine
 
@@ -549,3 +549,5 @@ https://planb.network/courses/his201
 #### Mõistke, kuidas Bitcoin rahakott töötab koos
 
 https://planb.network/courses/cyp201
+
+

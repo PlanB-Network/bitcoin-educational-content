@@ -569,3 +569,4 @@ https://planb.network/courses/his201
 #### Comprendi il funzionamento di un portafoglio Bitcoin con
 
 https://planb.network/courses/cyp201
+

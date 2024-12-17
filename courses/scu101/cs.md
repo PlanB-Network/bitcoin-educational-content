@@ -550,3 +550,4 @@ https://planb.network/courses/his201
 #### Pochopte, jak funguje Bitcoin peněženka s
 
 https://planb.network/courses/cyp201
+

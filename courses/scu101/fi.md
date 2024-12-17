@@ -549,3 +549,4 @@ https://planb.network/courses/his201
 #### Ymmärrä Bitcoin-lompakon toiminta
 
 https://planb.network/courses/cyp201
+

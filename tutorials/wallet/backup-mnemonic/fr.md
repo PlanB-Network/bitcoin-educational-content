@@ -42,7 +42,7 @@ Si noter votre phrase sur un simple morceau de papier constitue déjà une bonne
 
 Pour ceux qui recherchent une option économique pour sauvegarder leur phrase sur un support en métal, [la méthode DIY du "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) est une excellente solution. Il suffit d’acheter des rondelles métalliques, une vis et un écrou dans le commerce. Ensuite, vous gravez les mots de votre phrase sur chaque rondelle en veillant à bien les numéroter, puis vous les assemblez sur la vis avec l’écrou. Cette méthode à cout réduit offre déjà une bonne résistance.
 
-01
+![SEED](assets/fr/01.webp)
 
 Crédit image : [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
@@ -50,7 +50,7 @@ Si vous préférez investir dans un dispositif complet de sauvegarde en métal, 
 
 Si vous optez pour un support en papier, plusieurs options s'offrent à vous : une simple feuille blanche, le support cartonné souvent fourni avec votre hardware wallet, ou encore notre modèle téléchargeable que vous pouvez imprimer [en cliquant ici](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
-02
+![SEED](assets/fr/02.webp)
 
 ## La sauvegarde
 
@@ -64,7 +64,7 @@ En théorie, il est possible de n’écrire que les 4 premières lettres de chaq
 
 Il est également essentiel d’écrire vos mots dans le bon ordre. Si vous avez vos 24 mots mais que vous ignorez leur séquence exacte, il sera impossible de récupérer votre portefeuille. Numéroter les mots est tout aussi important : en cas de dégradation du support ou si les mots se retrouvent désorganisés, leur numérotation vous permettra de les remettre facilement dans le bon ordre.
 
-03
+![SEED](assets/fr/03.webp)
 
 De plus, il est important de comprendre que, théoriquement, la phrase mnémonique seule ne suffit pas toujours pour retrouver l’accès à vos bitcoins. Il est également nécessaire de connaître les chemins de dérivation utilisés pour générer les clés. Si vous utilisez un portefeuille SingleSig avec un chemin standard, il sera relativement simple de récupérer vos clés. Cependant, avec un chemin non standard, cela pourrait devenir impossible, même en possession de la phrase mnémonique. Pour éviter ce problème, je vous recommande vivement de noter, sur votre support, le chemin de dérivation du compte que vous utilisez. Vous pouvez retrouver cette information dans les paramètres de votre logiciel de portefeuille. Par exemple, pour un portefeuille Taproot standard, le chemin de dérivation par défaut sera :
 
@@ -72,13 +72,13 @@ De plus, il est important de comprendre que, théoriquement, la phrase mnémoniq
 m / 86' / 0' / 0' /
 ```
 
-04
+![SEED](assets/fr/04.webp)
 
 Si vous utilisez un portefeuille multisig ou un portefeuille avec des scripts complexes incluant des clés de récupération, comme ceux proposés par le logiciel Liana, il est indispensable de sauvegarder vos **Output Script Descriptors**. Ces descriptors contiennent toutes les informations nécessaires, en complément des phrases de récupération, pour retrouver l’accès à vos bitcoins.
 
 Vous pouvez également enrichir votre sauvegarde avec des informations supplémentaires liées au support de votre portefeuille. Par exemple, notez le code PIN permettant de déverrouiller votre hardware wallet ou les mots anti-phishing si vous utilisez une COLDCARD.
 
-05
+![SEED](assets/fr/05.webp)
 
 En revanche, si vous utilisez une passphrase, évitez absolument de la noter sur le même support que votre phrase mnémonique. La passphrase a précisément pour rôle de protéger votre portefeuille en cas de vol de cette dernière. Pour en savoir davantage sur l’utilisation de la passphrase, je vous invite à consulter ce tutoriel complémentaire :
 
@@ -98,7 +98,7 @@ Je vous déconseille également de stocker votre phrase mnémonique dans des lie
 
 Pour renforcer la sécurité, je recommande d’utiliser une pochette plastique inviolable ou un système de sceau similaire. Cela vous permettra de vérifier que personne n’a eu accès à votre phrase. Par exemple, si vous stockez votre phrase chez vous et recevez des invités, il peut être impossible de savoir si quelqu’un l’a vue, mémorisée ou photographiée. Une pochette inviolable rend ce type de vérification simple : si elle est intacte, vous êtes assuré que votre phrase est restée secrète. Ces pochettes, entièrement opaques, sont disponibles en ligne ou dans des magasins spécialisés sur Bitcoin.
 
-06
+![SEED](assets/fr/06.webp)
 
 Enfin, lorsque votre phrase est stockée dans une enveloppe inviolable, n’oubliez pas de noter l’identifiant unique de cette enveloppe. Cela vous permettra de vérifier son authenticité lors de vos contrôles.
 

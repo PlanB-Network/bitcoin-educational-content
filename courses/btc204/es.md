@@ -292,7 +292,7 @@ Estos puntos de entrada son casi inevitables en el uso de Bitcoin. Aunque uno pu
 Así, también es necesario poder enfrentarse al análisis de blockchain en nuestro uso de Bitcoin. Procediendo de esta manera, podemos minimizar la agregación de nuestras actividades y limitar el impacto de un punto de entrada en nuestra privacidad.
 ![BTC204](assets/notext/31/5.webp)
 
-De hecho, para contrarrestar mejor el análisis de blockchain, ¿qué mejor enfoque que familiarizarse con los métodos utilizados en el análisis de blockchain? Si quieres saber cómo mejorar tu privacidad en Bitcoin, debes entender estos métodos. Esto te permitirá comprender mejor técnicas como [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) o [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (técnicas que estudiaremos en las últimas partes de la formación), y reducir los errores que podrías cometer.
+De hecho, para contrarrestar mejor el análisis de blockchain, ¿qué mejor enfoque que familiarizarse con los métodos utilizados en el análisis de blockchain? Si quieres saber cómo mejorar tu privacidad en Bitcoin, debes entender estos métodos. Esto te permitirá comprender mejor técnicas como [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) o [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (técnicas que estudiaremos en las últimas partes de la formación), y reducir los errores que podrías cometer.
 En esto, podemos hacer una analogía con la criptografía y el criptoanálisis. Un buen criptógrafo es, ante todo, un buen criptoanalista. Para imaginar un nuevo algoritmo de encriptación, uno debe saber a qué ataques se enfrentará y también estudiar por qué se rompieron los algoritmos anteriores. El mismo principio se aplica a la privacidad en Bitcoin. Entender los métodos de análisis de blockchain es la clave para protegerse contra él. Es por eso que propongo una sección completa sobre análisis de blockchain en esta formación.
 
 ### Los métodos de análisis de blockchain
@@ -3735,4 +3735,5 @@ https://planb.network/courses/lnp201
 
 #### Descubra la evolución de la libertad a través de las edades con
 https://planb.network/courses/phi201
+
 

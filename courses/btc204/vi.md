@@ -270,7 +270,7 @@ Những điểm vào này gần như không thể tránh khỏi trong việc s�
 Do đó, chúng ta cũng cần phải có khả năng đối mặt với phân tích chuỗi trong việc sử dụng Bitcoin của mình. Làm được điều đó, chúng ta có thể giảm thiểu việc các hoạt động của mình bị thu thập và hạn chế ảnh hưởng của một điểm vào đối với quyền riêng tư của chúng ta.
 ![BTC204](assets/notext/31/5.webp)
 
-Thực ra, để đối phó tốt hơn với phân tích chuỗi, cách tiếp cận tốt nhất là nắm bắt được các phương pháp đang được dùng trong phân tích chuỗi. Nếu muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn phải hiểu những phương pháp này. Điều này sẽ cho phép bạn hiểu rõ hơn về các kỹ thuật như [trộn coin - trộn coin](https://planb.network/fr/tutorials/privacy/trộn coin-samourai-wallet) hoặc [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (các kỹ thuật mà chúng ta sẽ nghiên cứu trong các phần cuối của khóa học), và giảm thiểu những sai lầm có thể mắc phải.
+Thực ra, để đối phó tốt hơn với phân tích chuỗi, cách tiếp cận tốt nhất là nắm bắt được các phương pháp đang được dùng trong phân tích chuỗi. Nếu muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn phải hiểu những phương pháp này. Điều này sẽ cho phép bạn hiểu rõ hơn về các kỹ thuật như [trộn coin - trộn coin](https://planb.network/fr/tutorials/privacy/trộn coin-samourai-wallet) hoặc [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (các kỹ thuật mà chúng ta sẽ nghiên cứu trong các phần cuối của khóa học), và giảm thiểu những sai lầm có thể mắc phải.
 Trong phần này, chúng ta có thể ví dụ như việc mã hóa và giải mã mã hóa. Một nhà mã hóa giỏi trước hết phải là một nhà phân tích mã hóa giỏi. Để tưởng tượng ra một thuật toán mã hóa mới, người ta phải biết nó sẽ phải đối mặt với những cuộc tấn công nào, và cũng phải nghiên cứu tại sao các thuật toán trước đó bị phá vỡ. Nguyên tắc tương tự áp dụng cho quyền riêng tư trên mạng lưới Bitcoin. Hiểu biết về các phương pháp phân tích chuỗi là chìa khóa để bảo vệ chống lại nó. Đó là lý do tại sao tôi đề xuất một phần hoàn chỉnh về phân tích chuỗi trong khóa học này.
 ### Các phương pháp phân tích blockchain
 
@@ -3503,3 +3503,4 @@ https://planb.network/courses/lnp201
 
 #### Khám phá sự phát triển của tự do qua các thời đại với
 https://planb.network/courses/phi201
+

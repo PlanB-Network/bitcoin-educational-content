@@ -293,7 +293,7 @@ Disse inngangspunktene er nesten uunngåelige i bruken av Bitcoin. Selv om man k
 Dermed er det også nødvendig å kunne møte blokkjedeanalyse i vår bruk av Bitcoin. Ved å gå frem på denne måten, kan vi minimere aggregasjonen av våre aktiviteter og begrense innvirkningen av et inngangspunkt på vårt personvern.
 ![BTC204](assets/notext/31/5.webp)
 
-Faktisk, for å bedre motvirke blokkjedeanalyse, hva er vel en bedre tilnærming enn å gjøre seg kjent med metodene som brukes i blokkjedeanalyse? Hvis du vil vite hvordan du kan forbedre ditt personvern på Bitcoin, må du forstå disse metodene. Dette vil tillate deg å bedre forstå teknikker som [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) eller [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (teknikker som vi vil studere i de siste delene av opplæringen), og å redusere feilene du kanskje gjør.
+Faktisk, for å bedre motvirke blokkjedeanalyse, hva er vel en bedre tilnærming enn å gjøre seg kjent med metodene som brukes i blokkjedeanalyse? Hvis du vil vite hvordan du kan forbedre ditt personvern på Bitcoin, må du forstå disse metodene. Dette vil tillate deg å bedre forstå teknikker som [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) eller [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (teknikker som vi vil studere i de siste delene av opplæringen), og å redusere feilene du kanskje gjør.
 I dette kan vi trekke en analogi med kryptografi og kryptoanalyse. En god kryptograf er først og fremst en god kryptoanalytiker. For å forestille seg en ny krypteringsalgoritme, må man vite hvilke angrep den må stå imot, og også studere hvorfor tidligere algoritmer ble brutt. Det samme prinsippet gjelder for personvern på Bitcoin. Å forstå metodene for blokkjedeanalyse er nøkkelen til å beskytte mot det. Det er derfor jeg foreslår en hel seksjon om blokkjedeanalyse i denne opplæringen.
 
 ### Metodene for blokkjedeanalyse
@@ -3651,4 +3651,5 @@ https://planb.network/courses/lnp201
 #### Oppdag frihetens utvikling gjennom tidene med
 
 https://planb.network/courses/phi201
+
 

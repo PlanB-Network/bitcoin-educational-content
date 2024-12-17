@@ -283,7 +283,7 @@ Diese Eintrittspunkte sind bei der Nutzung von Bitcoin fast unvermeidlich. Obwoh
 Daher ist es auch notwendig, sich in unserer Nutzung von Bitcoin der Blockchain-Analyse stellen zu können. Indem wir auf diese Weise vorgehen, können wir die Aggregation unserer Aktivitäten minimieren und die Auswirkungen eines Eintrittspunkts auf unsere Privatsphäre begrenzen.
 ![BTC204](assets/notext/31/5.webp)
 
-Um die Blockchain-Analyse besser zu bekämpfen, was gibt es für einen besseren Ansatz, als sich mit den Methoden vertraut zu machen, die in der Blockchain-Analyse verwendet werden? Wenn Sie wissen möchten, wie Sie Ihre Privatsphäre bei Bitcoin verbessern können, müssen Sie diese Methoden verstehen. Dies wird es Ihnen ermöglichen, Techniken wie [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) oder [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (Techniken, die wir in den letzten Teilen des Trainings studieren werden) besser zu erfassen und die Fehler zu reduzieren, die Sie möglicherweise machen.
+Um die Blockchain-Analyse besser zu bekämpfen, was gibt es für einen besseren Ansatz, als sich mit den Methoden vertraut zu machen, die in der Blockchain-Analyse verwendet werden? Wenn Sie wissen möchten, wie Sie Ihre Privatsphäre bei Bitcoin verbessern können, müssen Sie diese Methoden verstehen. Dies wird es Ihnen ermöglichen, Techniken wie [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) oder [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (Techniken, die wir in den letzten Teilen des Trainings studieren werden) besser zu erfassen und die Fehler zu reduzieren, die Sie möglicherweise machen.
 In diesem Zusammenhang können wir eine Analogie zur Kryptographie und Kryptoanalyse ziehen. Ein guter Kryptograph ist zuallererst ein guter Kryptoanalytiker. Um einen neuen Verschlüsselungsalgorithmus zu entwerfen, muss man wissen, welchen Angriffen er ausgesetzt sein wird, und auch studieren, warum frühere Algorithmen gebrochen wurden. Das gleiche Prinzip gilt für die Privatsphäre bei Bitcoin. Das Verständnis der Methoden der Blockchain-Analyse ist der Schlüssel zum Schutz dagegen. Deshalb schlage ich einen ganzen Abschnitt über Blockchain-Analyse in dieser Schulung vor.
 
 ### Die Methoden der Blockchain-Analyse
@@ -3772,4 +3772,5 @@ https://planb.network/courses/lnp201
 #### Entdecken Sie die Entwicklung der Freiheit im Laufe der Zeit mit
 https://planb.network/courses/phi201
 $$
+
 

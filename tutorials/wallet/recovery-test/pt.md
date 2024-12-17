@@ -63,6 +63,9 @@ No Sparrow, clique na aba "*Addresses*".
 Então, anote em um pedaço de papel o primeiro endereço de recebimento da sua carteira. No meu exemplo, o endereço é:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 Após anotar a informação, vá ao menu "*File*", então selecione "*Delete Wallet*". Lembro-lhe mais uma vez que sua carteira Bitcoin deve estar vazia antes de prosseguir com esta operação.
 
 ![RECOVERY TEST](assets/notext/04.webp)

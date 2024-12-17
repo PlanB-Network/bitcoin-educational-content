@@ -20,13 +20,13 @@ Il est donc important de sauvegarder cette phrase avec la plus grande précautio
 
 **Ainsi, votre phrase mnémonique est exposée à deux principaux risques : le vol et la perte.**
 
-Le vol peut survenir de deux manières principales :
+Le vol peut principalement survenir de deux manières :
 - Une personne accède physiquement à votre sauvegarde, par exemple lors d’un cambriolage ou via une personne de votre entourage ;
 - Vous avez partagé volontairement ou involontairement votre phrase avec une autre personne.
 
 Pour éviter les vols physiques de votre sauvegarde de phrase mnémonique, il est important de la conserver dans un lieu sécurisé. Nous aborderons ce point en détail dans les sections suivantes.
 
-Concernant les tentatives vols à distance, gardez toujours en tête qu’il ne faut jamais partager votre phrase mnémonique, quelle que soit la situation. Les tentatives de phishing sont fréquentes : emails frauduleux, sites web imitant ceux de portefeuilles officiels ou demandes directes via divers canaux de communication. Si quelqu’un vous demande votre phrase, c’est une arnaque, même en cas d’urgence ! Il est courant que des voleurs se fassent passer pour des employés du fabricant de votre hardware wallet, mais sachez que ces entreprises ne vous demanderont jamais votre phrase, quelle que soit la situation. Soyez donc extrêmement vigilant face aux communications reçues, qu’elles soient par email, téléphone, courrier, sur les réseaux sociaux ou même en personne.
+Concernant les tentatives de vols à distance, gardez toujours en tête qu’il ne faut jamais partager votre phrase mnémonique, quelle que soit la situation. Les tentatives de phishing sont fréquentes : emails frauduleux, sites web imitant ceux de portefeuilles officiels ou demandes directes via divers canaux de communication. Si quelqu’un vous demande votre phrase, c’est une arnaque, même en cas d’urgence ! Il est courant que des voleurs se fassent passer pour des employés du fabricant de votre hardware wallet, mais sachez que ces entreprises ne vous demanderont jamais votre phrase, quelle que soit la situation. Soyez donc extrêmement vigilant face aux communications reçues, qu’elles soient par email, téléphone, courrier, sur les réseaux sociaux ou même en personne.
 
 Lorsque vous devez entrer votre phrase dans un hardware wallet ou un logiciel pour restaurer l’accès à votre portefeuille après un problème avec le support initial, prenez le temps de vérifier l’authenticité et l’intégrité du matériel ou du logiciel que vous utilisez. Ne cédez pas à la panique, et procédez méthodiquement.
 
@@ -36,7 +36,7 @@ En ce qui concerne le risque de perte, celui-ci peut survenir pour trois raisons
 
 ## Le support
 
-Pour sauvegarder votre phrase de récupération, il faut la noter sur un support physique, comme du papier ou du métal. Évitez absolument les supports numériques : ne la sauvegardez pas dans un fichier texte, ne la prenez pas en photo et ne la stockez pas dans un gestionnaire de mots de passe. Ces méthodes augmentent considérablement la surface d'attaque par rapport à un support physique. La règle est donc claire : utilisez du papier, du carton ou du métal pour sauvegarder votre phrase.
+Pour sauvegarder votre phrase de récupération, il faut la noter sur un support physique, comme du papier ou du métal. N'utilisez jamais un support numérique : ne la sauvegardez pas dans un fichier texte, ne la prenez pas en photo et ne la stockez pas dans un gestionnaire de mots de passe. Ces méthodes augmentent considérablement la surface d'attaque par rapport à un support physique. La règle est donc claire : utilisez du papier, du carton ou du métal pour sauvegarder votre phrase.
 
 Si noter votre phrase sur un simple morceau de papier constitue déjà une bonne pratique, opter pour un support en métal, comme de l’acier inoxydable, offre une sécurité supplémentaire. Ce type de support protège votre phrase mnémonique des risques liés aux incendies, inondations ou écroulements pouvant affecter le lieu de stockage.
 
@@ -58,7 +58,7 @@ Maintenant que vous avez choisi votre support physique, il est temps d'y noter v
 
 Tout d’abord, assurez-vous de ne pas être observé, que ce soit par d’autres personnes ou par des caméras, au moment où vous notez votre phrase.
 
-Prenez ensuite le temps d’écrire chaque mot de manière claire et lisible. Vous pourriez avoir besoin de relire votre phrase dans plusieurs années, ou quelqu’un d’autre pourrait s’en charger dans le cadre d’un héritage. Une écriture soignée est donc essentielle.
+Prenez ensuite le temps d’écrire chaque mot de manière claire et lisible. Vous pourriez avoir besoin de relire votre phrase dans plusieurs années, ou quelqu’un d’autre pourrait avoir besoin de le faire dans le cadre d’un héritage. Une écriture soignée est donc essentielle.
 
 En théorie, il est possible de n’écrire que les 4 premières lettres de chaque mot, car dans la liste des 2048 mots du BIP39, aucun mot ne partage les mêmes 4 premières lettres dans le même ordre. Cependant, si votre support dispose de suffisamment d’espace, je vous recommande de sauvegarder chaque mot dans son intégralité. Cela peut s’avérer utile en cas de dégradation partielle du support. Par exemple, si vous notez seulement `accu` pour le mot `accuse` et que la lettre `u` venait à disparaître, vous pourriez hésiter entre `accuse`, `access`, `accident` ou `account`. En revanche, avec l’intégralité du mot, même si une lettre manque, il reste facile de reconnaître le mot correct.
 
@@ -112,11 +112,9 @@ Enfin, la gestion de la phrase mnémonique soulève également la question de la
 
 ## Aller plus loin
 
-Pour aller plus loin et renforcer encore davantage votre stratégie de sécurisation, je vous recommande d’apprendre le fonctionnement technique de votre portefeuille Bitcoin. En comprenant comment interagissent ses différents éléments, ainsi que leur importance et leurs implications, vous serez en mesure d’affiner votre stratégie de sécurisation en ayant pleinement conscience des risques.
+Pour aller plus loin et renforcer encore davantage votre stratégie de sécurisation, je vous recommande d’apprendre le fonctionnement technique de votre portefeuille Bitcoin. En comprenant comment interagissent ses différents éléments, ainsi que leur importance et leurs implications, vous serez en mesure d’affiner votre stratégie de sécurisation en ayant pleinement conscience des risques. En particulier, si vous comprenez au niveau technique ce que permet la phrase mnémonique, vous pourrez ajuster la manière dont vous la notez, la stockez et la gérez au fil du temps.
 
-En particulier, si vous comprenez au niveau technique ce que permet la phrase mnémonique, vous pourrez ajuster la manière dont vous la notez, la stockez et la gérez au fil du temps. Cette connaissance vous offre une approche plus éclairée et proactive face aux menaces potentielles.
-
-C’est pourquoi je vous invite à suivre la formation gratuite CYP201 proposée sur Plan ₿ Network. Cette formation explique en détail tous les rouages des portefeuilles Bitcoin, vous permettant de maîtriser les aspects techniques essentiels pour sécuriser efficacement vos fonds :
+C’est pourquoi je vous invite à suivre la formation gratuite CYP201 proposée sur Plan ₿ Network. Cette formation explique en détail tous les rouages des portefeuilles Bitcoin, ce qui vous permet de maîtriser les aspects techniques essentiels pour sécuriser efficacement vos fonds :
 
 https://planb.network/courses/cyp201
 

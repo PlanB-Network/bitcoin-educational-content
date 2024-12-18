@@ -141,7 +141,9 @@ proofreading:
 - If needed, make additional changes and push new commits.
 - Once the PR is merged, you can delete your working branch.
 
-For more detailed information on the process of proposing a new tutorial, you can also refer to this detailed guide, and more broadly, to all the tutorials in the "contribution" section: https://planb.network/tutorials/others/write-tutorials
+For more detailed information on the process of proposing a new tutorial, you can also refer to this detailed guide, and more broadly, to all the tutorials in the "contribution" section:
+
+https://planb.network/fr/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 ## Content creation standards
 

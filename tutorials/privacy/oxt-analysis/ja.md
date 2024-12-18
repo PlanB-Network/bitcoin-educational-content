@@ -296,14 +296,14 @@ PayJoinの二つ目の目標は、その出力の特定の構造のおかげで�
 
 実際に、PayJoinを使用してバゲットを購入する例に戻ると、外部の観察者は4,000 satsまたは21,000 satsの支払いを扱っていると考えるかもしれません。実際には、バゲットの支払いは6,000 satsです：21,000 - 15,000 = 6,000。したがって、実際の支払いの価値は、チェーン分析のためのデコイとして機能する偽の支払い内に隠されています。
 
-PayJoinやCoinJoinを超えて、チェーン分析をブロックするか欺くかのどちらかを可能にする多くの他のBitcoinトランザクション構造があります。これらの中には、柔軟なミニCoinJoinを作成するか、柔軟なミニCoinJoinを模倣することを可能にする[Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)や[StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)トランザクションが含まれます。また、自分自身への偽の転送の多数を作成することでビットコインの所有権の変更をシミュレートする[Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)トランザクションもあります。
+PayJoinやCoinJoinを超えて、チェーン分析をブロックするか欺くかのどちらかを可能にする多くの他のBitcoinトランザクション構造があります。これらの中には、柔軟なミニCoinJoinを作成するか、柔軟なミニCoinJoinを模倣することを可能にする[Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)や[StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)トランザクションが含まれます。また、自分自身への偽の転送の多数を作成することでビットコインの所有権の変更をシミュレートする[Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)トランザクションもあります。
 
 これらのツールはすべて、モバイルのSamourai WalletとPCのSparrow Walletで利用可能です。これらの特定のトランザクション構造についてもっと学びたい場合は、私のチュートリアルを発見することをお勧めします：
 - [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
 - [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
 - [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
 - [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
-- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
 - [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## 結論
@@ -323,5 +323,7 @@ PayJoinやCoinJoinを超えて、チェーン分析をブロックするか欺�
 
 **P2WPKH:** 「Pay to Witness Public Key Hash」の略語です。UTXOに支出条件を設定するために使用される標準的なスクリプトモデルです。P2WPKHは、2017年8月のSegWitの実装と共に導入されました。このスクリプトは、公開鍵のハッシュ、つまり受信アドレスに基づいてビットコインをロックする点で、P2PKH（Pay to Public Key Hash）と似ています。違いは、署名とスクリプトがトランザクションにどのように含まれるかにあります。P2WPKHの場合、署名スクリプト情報（ScriptSig）は従来のトランザクション構造からWitnessと呼ばれる別のセクションに移動されます。この移動はSegWit（Segregated Witness、分離証人）アップデートの特徴です。この技術は、メインボディのトランザクションデータのサイズを削減しながらも、検証に必要なスクリプト情報を別のセクションに保持するという利点があります。その結果、P2WPKHトランザクションは一般的にLegacyトランザクションと比較して手数料が安くなります。P2WPKHアドレスはBech32エンコーディングを使用して書かれており、BCHチェックサムのおかげでより簡潔で誤りにくい書き方になっています。これらのアドレスは常にbc1qで始まり、Legacy受信アドレスと容易に区別できます。P2WPKHはバージョン0のSegWit出力です。
 **UTXO:** 「Unspent Transaction Output」の略語です。UTXOは、まだ使われていない、または新しいトランザクションの入力として使用されていないトランザクションの出力を指します。UTXOは、ユーザーが所有し、現在使用可能なビットコインの一部を表しています。各UTXOは特定の出力スクリプトに関連付けられており、ビットコインを使用するために必要な条件を定義します。ビットコインのトランザクションは、これらのUTXOを入力として消費し、出力として新しいUTXOを作成します。UTXOモデルはビットコインにとって基本的なものであり、トランザクションが存在しないビットコインや既に使われたビットコインを使おうとしていないことを簡単に検証できるようにします。本質的に、UTXOはビットコインの一部です。
+
+
 
 

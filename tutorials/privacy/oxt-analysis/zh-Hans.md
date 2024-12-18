@@ -310,14 +310,14 @@ PayJoin的第二个目标是通过其输出的特定结构欺骗分析师关于�
 
 实际上，如果我们重新审视使用PayJoin购买法棍面包的例子，外部观察者可能会认为我们正在处理一笔4,000 sats或21,000 sats的支付。实际上，法棍面包的支付是6,000 sats：21,000 - 15,000 = 6,000。因此，支付的真实价值隐藏在一个充当链分析诱饵的假支付中。
 
-除了PayJoin和CoinJoin之外，还有许多其他比特币交易结构，要么阻止链分析，要么欺骗它。其中，我可以提到[Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)和[StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)交易，它们允许进行灵活的迷你Coinjoin或模仿灵活的迷你Coinjoin。还有[Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)交易，通过进行大量假装对自己的转账来模拟比特币所有权的变更。
+除了PayJoin和CoinJoin之外，还有许多其他比特币交易结构，要么阻止链分析，要么欺骗它。其中，我可以提到[Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)和[StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)交易，它们允许进行灵活的迷你Coinjoin或模仿灵活的迷你Coinjoin。还有[Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)交易，通过进行大量假装对自己的转账来模拟比特币所有权的变更。
 
 所有这些工具都可以在移动端的Samourai Wallet和PC端的Sparrow Wallet上使用。如果你想了解更多关于这些特定交易结构的信息，我建议你发现我的教程：
 - [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)；
 - [PAYJOIN - SAMOURAI 钱包](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)；
 - [PAYJOIN - SPARROW 钱包](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)；
 - [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)；
-- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)；
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)；
 - [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)。
 
 ## 结论
@@ -337,5 +337,7 @@ PayJoin的第二个目标是通过其输出的特定结构欺骗分析师关于�
 
 **P2WPKH:** 是向见证公钥哈希支付（Pay to Witness Public Key Hash）的缩写。它是一种标准的脚本模型，用于在UTXO上建立支付条件。P2WPKH在2017年8月引入SegWit实施时被引入。这种脚本类似于P2PKH（向公钥哈希支付），因为它也基于公钥的哈希（即接收地址）锁定比特币。区别在于签名和脚本是如何包含在交易中的。在P2WPKH的情况下，签名脚本信息（ScriptSig）从传统交易结构移动到一个称为见证的单独部分。这一移动是SegWit（隔离见证）更新的一个特点。这种技术有减少主体中交易数据大小的优点，同时在一个单独的部分保留了验证所需的脚本信息。因此，P2WPKH交易在费用方面通常比传统交易便宜。P2WPKH地址使用Bech32编码书写，这有助于更简洁、更少出错的书写，得益于BCH校验和。这些地址始终以bc1q开头，使它们容易与传统接收地址区分开来。P2WPKH是版本0的SegWit输出。
 **UTXO:** 是未花费交易输出（Unspent Transaction Output）的缩写。UTXO是指尚未被用作新交易输入的交易输出。UTXOs代表用户拥有并且当前可用于支出的比特币的一部分。每个UTXO都与一个特定的输出脚本关联，该脚本定义了花费比特币所需的条件。比特币中的交易消耗这些UTXOs作为输入，并创建新的UTXOs作为输出。UTXO模型对于比特币至关重要，因为它允许轻松验证交易是否试图花费不存在或已经被花费的比特币。本质上，UTXO是比特币的一部分。
+
+
 
 

@@ -307,14 +307,14 @@ Mục tiêu thứ hai của PayJoin là đánh lừa nhà phân tích về số 
 
 Thực sự, nếu chúng ta xem xét lại ví dụ của chúng ta về việc sử dụng PayJoin để mua bánh mì baguette, một quan sát viên bên ngoài có thể nghĩ rằng chúng ta đang xử lý một khoản thanh toán 4,000 sats hoặc 21,000 sats. Trên thực tế, khoản thanh toán cho bánh mì baguette là 6,000 sats: 21,000 - 15,000 = 6,000. Do đó, giá trị thực sự của khoản thanh toán được ẩn trong một khoản thanh toán giả mạo hoạt động như một bức bình phong cho phân tích chuỗi.
 
-Ngoài PayJoin và CoinJoin, có nhiều cấu trúc giao dịch Bitcoin khác hoặc chặn phân tích chuỗi hoặc đánh lừa nó. Trong số này, tôi có thể nhắc đến các giao dịch [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) và [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2), cho phép tạo ra một mini Coinjoin linh hoạt hoặc mô phỏng một mini Coinjoin linh hoạt. Cũng có các giao dịch [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) mô phỏng sự thay đổi sở hữu của bitcoin bằng cách thực hiện nhiều chuyển giao giả mạo cho chính mình.
+Ngoài PayJoin và CoinJoin, có nhiều cấu trúc giao dịch Bitcoin khác hoặc chặn phân tích chuỗi hoặc đánh lừa nó. Trong số này, tôi có thể nhắc đến các giao dịch [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) và [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b), cho phép tạo ra một mini Coinjoin linh hoạt hoặc mô phỏng một mini Coinjoin linh hoạt. Cũng có các giao dịch [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) mô phỏng sự thay đổi sở hữu của bitcoin bằng cách thực hiện nhiều chuyển giao giả mạo cho chính mình.
 
 Tất cả các công cụ này đều có sẵn trên Samourai Wallet trên di động, và Sparrow Wallet trên PC. Nếu bạn muốn tìm hiểu thêm về các cấu trúc giao dịch cụ thể này, tôi khuyên bạn nên khám phá các hướng dẫn của tôi:
 - [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
 - [PAYJOIN - SAMOURAI VÍ](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
 - [PAYJOIN - SPARROW VÍ](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
 - [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
-- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
 - [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## Kết luận
@@ -334,5 +334,7 @@ Chúng ta có thể phân loại các phương pháp này thành ba loại chín
 
 **P2WPKH:** Viết tắt của Pay to Witness Public Key Hash. Đây là một mô hình script chuẩn được sử dụng để thiết lập điều kiện chi tiêu cho một UTXO. P2WPKH được giới thiệu cùng với việc triển khai SegWit vào tháng 8 năm 2017. Script này tương tự như P2PKH (Pay to Public Key Hash), ở chỗ nó cũng khóa bitcoin dựa trên hash của một khóa công khai, tức là, một địa chỉ nhận. Sự khác biệt nằm ở cách chữ ký và script được bao gồm trong giao dịch. Trong trường hợp của P2WPKH, thông tin script chữ ký (ScriptSig) được di chuyển từ cấu trúc giao dịch truyền thống sang một phần riêng biệt gọi là Witness. Điều này là một tính năng của bản cập nhật SegWit (Segregated Witness). Kỹ thuật này có lợi ích là giảm kích thước dữ liệu giao dịch trong phần chính, trong khi vẫn giữ lại thông tin script cần thiết cho việc xác thực trong một phần riêng biệt. Do đó, giao dịch P2WPKH thường ít tốn kém về phí so với giao dịch Legacy. Địa chỉ P2WPKH được viết bằng mã hóa Bech32, góp phần vào việc viết một cách ngắn gọn và ít lỗi hơn nhờ vào checksum BCH. Các địa chỉ này luôn bắt đầu với bc1q, làm cho chúng dễ dàng phân biệt với các địa chỉ nhận Legacy. P2WPKH là một đầu ra SegWit phiên bản 0.
 **UTXO:** Viết tắt của Unspent Transaction Output. UTXO là một đầu ra của giao dịch chưa được tiêu dùng hoặc sử dụng làm đầu vào cho một giao dịch mới. UTXO đại diện cho phần bitcoin mà người dùng sở hữu và hiện đang có sẵn để tiêu. Mỗi UTXO được liên kết với một script đầu ra cụ thể, định nghĩa các điều kiện cần thiết để tiêu bitcoin đó. Giao dịch trong Bitcoin tiêu thụ những UTXO này như là đầu vào và tạo ra UTXO mới như là đầu ra. Mô hình UTXO là cơ bản đối với Bitcoin, vì nó cho phép dễ dàng xác minh rằng các giao dịch không cố gắng tiêu bitcoin không tồn tại hoặc đã được tiêu. Cơ bản, một UTXO là một phần của Bitcoin.
+
+
 
 

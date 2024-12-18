@@ -305,14 +305,14 @@ PayJoin'i teine eesmärk on petta analüütikut tegeliku tehingu summa osas, tä
 
 Tõepoolest, kui me vaatame uuesti meie näidet PayJoin'i kasutamisest baguette'i ostmiseks, võib väline vaatleja arvata, et tegemist on 4,000 satsi või 21,000 satsi maksega. Tegelikkuses on baguette'i eest makse 6,000 satsi: 21,000 - 15,000 = 6,000. Tegelik makseväärtus on seega peidetud võltsmakse sisse, mis toimib ahela analüüsi petukaubana.
 
-PayJoin'i ja CoinJoin'i kõrval on palju muid Bitcoin'i tehingustruktuure, mis kas blokeerivad ahela analüüsi või petavad seda. Nende hulgas võiksin mainida [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) ja [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2) tehinguid, mis võimaldavad kas teha paindliku mini CoinJoin'i või jäljendada paindlikku mini CoinJoin'i. On ka [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) tehinguid, mis simuleerivad bitcoinide omandiõiguse muutust, tehes mitmeid võltsülekandeid iseendale.
+PayJoin'i ja CoinJoin'i kõrval on palju muid Bitcoin'i tehingustruktuure, mis kas blokeerivad ahela analüüsi või petavad seda. Nende hulgas võiksin mainida [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) ja [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) tehinguid, mis võimaldavad kas teha paindliku mini CoinJoin'i või jäljendada paindlikku mini CoinJoin'i. On ka [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) tehinguid, mis simuleerivad bitcoinide omandiõiguse muutust, tehes mitmeid võltsülekandeid iseendale.
 
 Kõik need vahendid on saadaval Samourai Wallet'is mobiilis ja Sparrow Wallet'is PC-l. Kui soovite rohkem teada saada nende spetsiifiliste tehingustruktuuride kohta, soovitan teil avastada minu õpetused:
 - [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
 - [PAYJOIN - SAMOURAI RAHAKOTT](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
 - [PAYJOIN - SPARROW RAHAKOTT](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
 - [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
-- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
 - [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## Järeldus
@@ -332,5 +332,7 @@ Bitcoini kasutajana on oluline valdada ahela analüüsi põhiprintsiipe, et seda
 
 **P2WPKH:** lühend väljendist Pay to Witness Public Key Hash. See on standardne skriptimudel, mida kasutatakse kulutamistingimuste seadmiseks UTXO-le. P2WPKH tutvustati SegWiti rakendamisega augustis 2017. See skript on sarnane P2PKH-ga (Pay to Public Key Hash), kuna see samuti lukustab bitcoine avaliku võtme räsi põhjal, st vastuvõtu aadressil. Erinevus seisneb selles, kuidas allkirjad ja skriptid on tehingusse kaasatud. P2WPKH puhul liigutatakse allkirjaskripti teave (ScriptSig) traditsioonilisest tehingustruktuurist eraldi sektsiooni nimega Witness. See liigutus on SegWiti (Segregated Witness) uuenduse omadus. Sellel tehnikal on eelis tehinguandmete suuruse vähendamisel põhikehas, säilitades samal ajal vajaliku skriptiteabe valideerimiseks eraldi sektsioonis. Seetõttu on P2WPKH tehingud üldiselt vähem kulukad tasude osas võrreldes Legacy tehingutega. P2WPKH aadressid on kirjutatud kasutades Bech32 kodeeringut, mis aitab kaasa lühemale ja vähem eksimustele altuvale kirjutamisele tänu BCH kontrollsummale. Need aadressid algavad alati bc1q-ga, muutes need kergesti eristatavaks Legacy vastuvõtu aadressidest. P2WPKH on versioon 0 SegWit väljund.
 **UTXO:** Lühend väljendist Kasutamata Tehingu Väljund. UTXO on tehingu väljund, mida ei ole veel kulutatud ega kasutatud uue tehingu sisendina. UTXO-d esindavad bitcoini kasutaja omandis olevat ja hetkel kulutamiseks saadaolevat bitcoini osa. Iga UTXO on seotud kindla väljundskriptiga, mis määratleb bitcoini kulutamiseks vajalikud tingimused. Bitcoinis tarbivad tehingud neid UTXO-sid sisenditena ja loovad uusi UTXO-sid väljunditena. UTXO mudel on Bitcoinile fundamentaalne, kuna see võimaldab lihtsalt kontrollida, et tehingud ei ürita kulutada olematuid või juba kulutatud bitcoine. Sisuliselt on UTXO tükk Bitcoinist.
+
+
 
 

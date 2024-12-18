@@ -314,7 +314,7 @@ Sparrow邀请您为您的钱包创建一个密码。通过Sparrow Wallet软件�
 然而，在使用`混币到`选项时要小心，因为从您的`Postmix`账户中移除混合硬币可能会显著增加损害您隐私的风险。以下部分将详细说明这种可能性的原因。
 
 ## 如何了解我们的混币周期的质量？
-为了确保coinjoin（联合交易）真正有效，至关重要的是它在输入和输出的金额之间呈现良好的同质性。这种一致性增加了外部观察者可能的解释数量，从而增加了围绕交易的不确定性。为了量化coinjoin产生的不确定性，可以通过计算交易的熵来实现。要深入探索这些指标，我推荐您参考教程：[BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy)。Whirlpool模型被认为是在coinjoins中带来最多同质性的模型。接下来，基于隐藏一个硬币的群组大小，评估几个coinjoin周期的性能。这些群组的大小定义了所谓的匿名集。有两种类型的匿名集：第一种是针对回顾性分析（从现在到过去）评估获得的隐私，第二种是针对前瞻性分析（从过去到现在）。要详细解释这两个指标，我邀请您参考教程：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)。
+为了确保coinjoin（联合交易）真正有效，至关重要的是它在输入和输出的金额之间呈现良好的同质性。这种一致性增加了外部观察者可能的解释数量，从而增加了围绕交易的不确定性。为了量化coinjoin产生的不确定性，可以通过计算交易的熵来实现。要深入探索这些指标，我推荐您参考教程：[BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)。Whirlpool模型被认为是在coinjoins中带来最多同质性的模型。接下来，基于隐藏一个硬币的群组大小，评估几个coinjoin周期的性能。这些群组的大小定义了所谓的匿名集。有两种类型的匿名集：第一种是针对回顾性分析（从现在到过去）评估获得的隐私，第二种是针对前瞻性分析（从过去到现在）。要详细解释这两个指标，我邀请您参考教程：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)。
 
 ## 如何管理postmix？
 在执行coinjoin周期后，最佳策略是将您的UTXOs保留在**postmix**账户中，等待将来使用。甚至建议让它们无限期地重新混合，直到您需要花费它们。

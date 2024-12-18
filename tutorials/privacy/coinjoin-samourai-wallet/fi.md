@@ -400,3 +400,4 @@ Yksityiskohtaisia ohjeita näiden eri tekniikoiden toteuttamiseen tarjotaan pian
 - [Samourai Walletin dokumentaatio - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-ketju coinjoineista](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogikirjoitus coinjoineista](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

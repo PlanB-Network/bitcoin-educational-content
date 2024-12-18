@@ -400,3 +400,4 @@ Tutoriales detallados sobre la implementación de estas diferentes técnicas se 
 - [Hilo en Twitter sobre coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Publicación en blog sobre coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
+

@@ -148,3 +148,4 @@ Du har muligheten til å angi din signerte PSBT på tre forskjellige måter:
 Når den signerte transaksjonen er angitt i det grå rammen, kan du klikke på den grønne `BROADCAST TRANSACTION`-knappen for å kringkaste den på Bitcoin-nettverket. Sentinel vil gi deg dens TXID.
 
 ![watch-only](assets/notext/25.webp)
+

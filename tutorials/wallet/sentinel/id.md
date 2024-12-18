@@ -148,3 +148,4 @@ Anda memiliki opsi untuk memasukkan PSBT yang telah ditandatangani Anda dengan t
 Setelah transaksi yang ditandatangani dimasukkan dalam bingkai abu-abu, Anda dapat mengklik tombol hijau `BROADCAST TRANSACTION` untuk menyiarkannya di jaringan Bitcoin. Sentinel akan memberi Anda TXID-nya.
 
 ![watch-only](assets/notext/25.webp)
+

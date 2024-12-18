@@ -148,3 +148,4 @@ Voit syöttää allekirjoitetun PSBT:n kolmella eri tavalla:
 Kun allekirjoitettu tapahtuma on syötetty harmaaseen kehykseen, voit klikata vihreää `BROADCAST TRANSACTION` -nappia lähettääksesi sen Bitcoin-verkkoon. Sentinel antaa sinulle sen TXID:n.
 
 ![watch-only](assets/notext/25.webp)
+

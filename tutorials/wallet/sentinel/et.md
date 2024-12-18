@@ -147,3 +147,4 @@ Teil on võimalus sisestada oma allkirjastatud PSBT kolmel erineval viisil:
 Kui allkirjastatud tehing on halli raami sisestatud, võite vajutada rohelisele nupule `BROADCAST TRANSACTION`, et edastada see Bitcoin võrgus. Sentinel annab teile selle TXID.
 
 ![watch-only](assets/notext/25.webp)
+

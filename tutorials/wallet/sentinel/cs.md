@@ -147,3 +147,4 @@ Máte možnost zadat váš podepsaný PSBT třemi různými způsoby:
 Jakmile je podepsaná transakce zadána do šedého rámečku, můžete kliknout na zelené tlačítko `BROADCAST TRANSACTION` a odeslat ji do Bitcoinové sítě. Sentinel vám poskytne jeho TXID.
 
 ![watch-only](assets/notext/25.webp)
+

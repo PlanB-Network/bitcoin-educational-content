@@ -138,3 +138,4 @@ Sentinel経由でビットコインを受け取るには、関心のあるコレ
 署名されたトランザクションが灰色の枠内に入力されたら、緑の`BROADCAST TRANSACTION`ボタンをクリックして、それをBitcoinネットワーク上でブロードキャストすることができます。SentinelはあなたにそのTXIDを提供します。
 
 ![watch-only](assets/en/25.webp)
+

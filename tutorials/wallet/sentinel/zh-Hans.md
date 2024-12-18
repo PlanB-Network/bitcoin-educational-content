@@ -148,3 +148,4 @@ Dojo由Samourai团队开发，是一个完整的比特币节点版本，可以�
 在灰色框架中输入已签名交易后，您可以点击绿色的`BROADCAST TRANSACTION`按钮，在比特币网络上广播它。Sentinel将给您提供其TXID。
 
 ![watch-only](assets/notext/25.webp)
+

@@ -153,3 +153,4 @@ You have the option to enter your signed PSBT in three different ways:
 Once the signed transaction is entered in the gray frame, you can click on the green `BROADCAST TRANSACTION` button to broadcast it on the Bitcoin network. Sentinel will give you its TXID.
 
 ![watch-only](assets/notext/25.webp)
+

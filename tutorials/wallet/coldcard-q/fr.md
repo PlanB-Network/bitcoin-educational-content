@@ -77,7 +77,7 @@ Si vous préférez alimenter votre COLDCARD sans la connecter à un ordinateur (
 
 Pour ce tutoriel, vous aurez également besoin du logiciel Sparrow Wallet pour gérer votre portefeuille Bitcoin sur votre ordinateur. Téléchargez [Sparrow Wallet](https://sparrowwallet.com/download/) depuis le site officiel. Je vous conseille vivement de vérifier à la fois son authenticité (avec GnuPG) et son intégrité (via le hash) avant de procéder à l'installation. Si vous ne savez pas comment effectuer ces vérifications, suivez ce tutoriel :
 
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Choix du code PIN
 
@@ -157,7 +157,7 @@ Vérifiez [sur le site officiel de COLDCARD](https://coldcard.com/downloads) si 
 
 Si vous n'êtes pas familier avec ce processus de vérification, je vous recommande de suivre ce tutoriel :
 
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Munissez-vous d'une carte microSD et transférez-y le fichier firmware (document en `.dfu`). Insérez la carte microSD dans l'un des ports de votre COLDCARD.
 
@@ -326,7 +326,7 @@ Avant de recevoir vos premiers bitcoins sur votre portefeuille, **je vous conse
 
 Pour en savoir plus sur comment effectuer un test de récupération, je vous conseille de consulter cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Recevoir des bitcoins
 

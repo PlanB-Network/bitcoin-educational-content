@@ -317,3 +317,4 @@ V nepravděpodobném případě, že jste používali své Dojo s Samourai, ale 
 
 ## Závěr
 Děkuji, že jste si přečetli tento článek až do konce. Pokud si myslíte, že chybí informace, nebo máte návrhy, neváhejte mě kontaktovat a sdílet své myšlenky. Kromě toho, pokud potřebujete další pomoc s obnovou vaší peněženky Samourai navzdory tomuto návodu, zvu vás, abyste se připojili na [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) a požádali o pomoc. Pravidelně navštěvuji tento Discord a byl bych potěšen vám pomoci, pokud budu mít řešení. Další bitcoinoví uživatelé také budou moci sdílet své zkušenosti a nabídnout svou podporu. **V každém případě je zásadní uchovat vaši obnovovací frázi, záložní soubor a heslo v tajnosti**. Nesdílejte je s nikým, protože by to mohlo umožnit krádež vašich bitcoinů.
+

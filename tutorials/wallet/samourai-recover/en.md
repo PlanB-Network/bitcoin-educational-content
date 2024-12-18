@@ -334,3 +334,4 @@ In the unlikely event that you were using your Dojo with Samourai but not with S
 
 ## Conclusion
 Thank you for reading this article to the end. If you think information is missing or if you have suggestions, please do not hesitate to contact me to share your thoughts. Additionally, if you need further assistance in recovering your Samourai Wallet despite this tutorial, I invite you to join [the Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) to ask for help. I regularly visit this Discord and would be delighted to assist you if I have the solution. Other bitcoiners will also be able to share their experiences and offer their support. **In any case, it is essential to keep your recovery phrase, your backup file, and your passphrase confidential**. Do not share them with anyone, as this could enable them to steal your bitcoins.
+

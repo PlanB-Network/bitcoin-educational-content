@@ -318,3 +318,4 @@ Epätodennäköisessä tapauksessa, että käytit Dojoasi Samourain kanssa mutta
 
 ## Yhteenveto
 Kiitos, että luit tämän artikkelin loppuun. Jos mielestäsi tiedoista puuttuu jotain tai sinulla on ehdotuksia, älä epäröi ottaa yhteyttä minuun jakamaan ajatuksiasi. Lisäksi, jos tarvitset lisäapua Samourai Walletin palauttamisessa tämän oppaan huolimatta, kutsun sinut liittymään [Discover Bitcoin Discordiin](https://discord.gg/xKKm29XGBb) pyytämään apua. Käyn säännöllisesti tässä Discordissa ja olisin iloinen voidessani auttaa sinua, mikäli minulla on ratkaisu. Myös muut bitcoin-käyttäjät voivat jakaa kokemuksiaan ja tarjota tukeaan. **Joka tapauksessa on olennaista pitää palautusfraasisi, varmuuskopiotiedostosi ja salasanasi luottamuksellisina**. Älä jaa niitä kenenkään kanssa, sillä se voisi mahdollistaa bitcoiniesi varastamisen.
+

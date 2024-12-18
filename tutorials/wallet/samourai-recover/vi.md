@@ -324,3 +324,4 @@ Trong trường hợp hiếm hoi là bạn sử dụng Dojo của mình với Sa
 ## Kết luận
 Cảm ơn bạn đã đọc bài viết này đến cuối. Nếu bạn nghĩ thông tin còn thiếu hoặc nếu bạn có gợi ý, xin đừng ngần ngại liên hệ với tôi để chia sẻ suy nghĩ của bạn. Ngoài ra, nếu bạn cần thêm sự hỗ trợ trong việc khôi phục Samourai Wallet của mình sau hướng dẫn này, tôi mời bạn tham gia [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) để yêu cầu giúp đỡ. Tôi thường xuyên ghé thăm Discord này và sẽ rất vui lòng hỗ trợ bạn nếu tôi có giải pháp. Những Bitcoiner khác cũng sẽ có thể chia sẻ kinh nghiệm và cung cấp sự hỗ trợ của họ. **Dù trong trường hợp nào, việc giữ bí mật cụm từ khôi phục, tệp sao lưu và passphrase của bạn là cực kỳ quan trọng**. Đừng chia sẻ chúng với bất kỳ ai, vì điều này có thể cho phép họ ăn cắp bitcoin của bạn.
 
+

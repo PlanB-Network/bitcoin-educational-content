@@ -317,3 +317,4 @@ Ebatõenäolisel juhul, kui kasutasite oma Dojot Samouraiga, kuid mitte Sentinel
 
 ## Järeldus
 Tänan, et lugesite seda artiklit lõpuni. Kui arvate, et informatsiooni on puudu või kui teil on ettepanekuid, palun ärge kõhelge minuga ühendust võtta, et jagada oma mõtteid. Lisaks, kui vajate edasist abi oma Samourai Wallet'i taastamisel hoolimata sellest juhendist, kutsun teid liituma [Discover Bitcoin Discordiga](https://discord.gg/xKKm29XGBb), et küsida abi. Külastan seda Discordi regulaarselt ja oleksin rõõmus teid aidata, kui mul on lahendus. Teised bitcoinikasutajad saavad samuti jagada oma kogemusi ja pakkuda oma tuge. **Igal juhul on oluline hoida oma taastefraasi, varukoopiat ja paroolilauset konfidentsiaalsena**. Ärge jagage neid kellegagi, kuna see võib võimaldada neil teie bitcoine varastada.
+

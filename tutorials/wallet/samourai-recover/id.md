@@ -320,3 +320,4 @@ Dalam kejadian yang tidak mungkin bahwa Anda menggunakan Dojo Anda dengan Samour
 
 ## Kesimpulan
 Terima kasih telah membaca artikel ini sampai selesai. Jika Anda merasa ada informasi yang hilang atau jika Anda memiliki saran, jangan ragu untuk menghubungi saya untuk berbagi pikiran Anda. Selain itu, jika Anda memerlukan bantuan lebih lanjut dalam memulihkan Samourai Wallet Anda meskipun telah mengikuti tutorial ini, saya mengundang Anda untuk bergabung dengan [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) untuk meminta bantuan. Saya secara rutin mengunjungi Discord ini dan akan sangat senang membantu Anda jika saya memiliki solusinya. Bitcoiner lainnya juga akan dapat berbagi pengalaman mereka dan menawarkan dukungan mereka. **Dalam setiap kasus, sangat penting untuk menjaga kerahasiaan frasa pemulihan, file cadangan, dan passphrase Anda**. Jangan berbagi dengan siapapun, karena ini dapat memungkinkan mereka untuk mencuri bitcoin Anda.
+

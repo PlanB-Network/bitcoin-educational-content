@@ -362,3 +362,5 @@ Whirlpool-Konten sind in Samourai Wallet durch ihre blaue Farbe leicht zu identi
 ![coinjoin](assets/notext/53.webp)
 
 Um den Überblick über Ihre automatischen CoinJoins zu behalten, empfehle ich auch, ein Watch-Only-Wallet über die Sentinel-App einzurichten. Fügen Sie das ZPUB Ihres **Postmix**-Kontos hinzu und überwachen Sie den Fortschritt Ihrer CoinJoin-Zyklen in Echtzeit. Wenn Sie verstehen möchten, wie man Sentinel verwendet, empfehle ich, dieses andere Tutorial im PlanB Network zu konsultieren: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+
+

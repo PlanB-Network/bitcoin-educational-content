@@ -359,3 +359,5 @@ Las cuentas de Whirlpool son fácilmente identificables en Samourai Wallet por s
 ![coinjoin](assets/notext/53.webp)
 
 Para mantener un seguimiento de tus coinjoins automáticos, también recomiendo configurar una cartera de solo visualización a través de la aplicación Sentinel. Agrega el ZPUB de tu cuenta **Postmix** y monitorea el progreso de tus ciclos de coinjoin en tiempo real. Si quieres entender cómo usar Sentinel, recomiendo consultar este otro tutorial en PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+
+

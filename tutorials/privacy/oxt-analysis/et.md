@@ -337,3 +337,4 @@ Bitcoini kasutajana on oluline valdada ahela analüüsi põhiprintsiipe, et seda
 
 
 
+

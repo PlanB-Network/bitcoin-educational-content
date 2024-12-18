@@ -309,8 +309,8 @@ Tatsächlich, wenn wir unser Beispiel der Verwendung von PayJoin zum Kauf einer 
 
 Alle diese Werkzeuge sind auf Samourai Wallet auf Mobilgeräten und Sparrow Wallet auf dem PC verfügbar. Wenn Sie mehr über diese spezifischen Transaktionsstrukturen erfahren möchten, rate ich Ihnen, meine Tutorials zu entdecken:
 - [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
-- [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f-samourai-wallet);
-- [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f-sparrow-wallet);
+- [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
 - [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
 - [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
 - [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
@@ -332,6 +332,7 @@ Als Bitcoin-Nutzer ist es wesentlich, die grundlegenden Prinzipien der Kettenana
 
 **P2WPKH:** Akronym für Pay to Witness Public Key Hash. Es handelt sich um ein standardisiertes Skriptmodell, das verwendet wird, um Ausgabebedingungen für ein UTXO festzulegen. P2WPKH wurde mit der Implementierung von SegWit im August 2017 eingeführt. Dieses Skript ähnelt P2PKH (Pay to Public Key Hash), da es ebenfalls Bitcoins auf Basis des Hashs eines öffentlichen Schlüssels, also einer Empfangsadresse, sperrt. Der Unterschied liegt darin, wie Signaturen und Skripte in die Transaktion einbezogen werden. Im Falle von P2WPKH werden die Signaturskriptinformationen (ScriptSig) von der traditionellen Transaktionsstruktur in einen separaten Abschnitt namens Witness verschoben. Diese Verschiebung ist ein Merkmal des SegWit-Updates (Segregated Witness). Diese Technik hat den Vorteil, dass sie die Größe der Transaktionsdaten im Hauptkörper reduziert, während die notwendigen Skriptinformationen zur Validierung in einem separaten Abschnitt beibehalten werden. Folglich sind P2WPKH-Transaktionen im Allgemeinen weniger kostspielig in Bezug auf Gebühren im Vergleich zu Legacy-Transaktionen. P2WPKH-Adressen werden unter Verwendung der Bech32-Kodierung geschrieben, was dank der BCH-Prüfsumme zu einer präziseren und weniger fehleranfälligen Schreibweise beiträgt. Diese Adressen beginnen immer mit bc1q, was sie leicht von Legacy-Empfangsadressen unterscheidbar macht. P2WPKH ist eine Version 0 SegWit-Ausgabe.
 **UTXO:** Akronym für Unspent Transaction Output. Ein UTXO ist ein Transaktionsausgang, der noch nicht ausgegeben oder als Eingabe für eine neue Transaktion verwendet wurde. UTXOs repräsentieren den Anteil an Bitcoins, den ein Benutzer besitzt und der derzeit verfügbar ist, um ausgegeben zu werden. Jeder UTXO ist mit einem spezifischen Ausgabeskript verbunden, das die notwendigen Bedingungen definiert, um die Bitcoins auszugeben. Transaktionen in Bitcoin verbrauchen diese UTXOs als Eingaben und erzeugen neue UTXOs als Ausgaben. Das UTXO-Modell ist grundlegend für Bitcoin, da es eine einfache Überprüfung ermöglicht, dass Transaktionen nicht versuchen, Bitcoins auszugeben, die nicht existieren oder bereits ausgegeben wurden. Im Wesentlichen ist ein UTXO ein Stück Bitcoin.
+
 
 
 

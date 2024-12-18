@@ -308,8 +308,8 @@ Além do PayJoin e CoinJoin, existem muitas outras estruturas de transação Bit
 
 Todas essas ferramentas estão disponíveis no Samourai Wallet em dispositivos móveis e no Sparrow Wallet em PC. Se você quiser aprender mais sobre essas estruturas de transação específicas, aconselho que descubra meus tutoriais:
 - [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
-- [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f-samourai-wallet);
-- [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f-sparrow-wallet);
+- [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
 - [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
 - [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
 - [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
@@ -331,6 +331,7 @@ Como usuário do Bitcoin, é essencial dominar os princípios fundamentais da an
 
 **P2WPKH:** Acrônimo para Pay to Witness Public Key Hash. É um modelo de script padrão usado para estabelecer condições de gasto em um UTXO. P2WPKH foi introduzido com a implementação do SegWit em agosto de 2017. Este script é semelhante ao P2PKH (Pay to Public Key Hash), na medida em que também bloqueia bitcoins com base no hash de uma chave pública, ou seja, um endereço de recebimento. A diferença reside em como assinaturas e scripts são incluídos na transação. No caso do P2WPKH, as informações do script de assinatura (ScriptSig) são movidas da estrutura tradicional da transação para uma seção separada chamada Testemunha. Esse movimento é uma característica da atualização SegWit (Segregated Witness). Esta técnica tem a vantagem de reduzir o tamanho dos dados da transação no corpo principal, enquanto retém as informações de script necessárias para validação em uma seção separada. Consequentemente, transações P2WPKH geralmente são menos caras em termos de taxas comparadas às transações Legacy. Endereços P2WPKH são escritos usando a codificação Bech32, o que contribui para uma escrita mais concisa e menos propensa a erros graças ao checksum BCH. Esses endereços sempre começam com bc1q, tornando-os facilmente distinguíveis de endereços de recebimento Legacy. P2WPKH é uma saída SegWit versão 0.
 **UTXO:** Acrônimo para Unspent Transaction Output (Saída de Transação Não Gasta). Um UTXO é uma saída de transação que ainda não foi gasta ou utilizada como entrada para uma nova transação. Os UTXOs representam a fração de bitcoins que um usuário possui e que estão atualmente disponíveis para serem gastos. Cada UTXO está associado a um script de saída específico, que define as condições necessárias para gastar os bitcoins. As transações em Bitcoin consomem esses UTXOs como entradas e criam novos UTXOs como saídas. O modelo UTXO é fundamental para o Bitcoin, pois permite uma fácil verificação de que as transações não estão tentando gastar bitcoins que não existem ou que já foram gastos. Essencialmente, um UTXO é uma peça de Bitcoin.
+
 
 
 

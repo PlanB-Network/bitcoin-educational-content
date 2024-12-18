@@ -336,3 +336,4 @@ Som en Bitcoin-bruker, er det essensielt å mestre de grunnleggende prinsippene 
 
 
 
+

@@ -404,3 +404,4 @@ Whirlpool автоматически закроется. Дождитесь за
 - [Блог-пост о coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
+

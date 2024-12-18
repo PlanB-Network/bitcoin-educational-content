@@ -403,3 +403,4 @@ Järgmisena peate olema ettevaatlik doxxic muutuse haldamisel, muutusega, mis ei
 - [Blogipostitus coinjoins kohta](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
+

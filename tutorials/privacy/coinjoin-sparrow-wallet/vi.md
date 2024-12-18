@@ -348,3 +348,4 @@ Các hướng dẫn chi tiết về việc thực hiện những kỹ thuật kh
 - [Tài liệu Ví Samourai - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Chuỗi Tweet về CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Bài đăng Blog về CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

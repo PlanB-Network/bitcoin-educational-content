@@ -318,7 +318,7 @@ Puoi lasciare l'opzione `Intervallo di indici` sul suo valore predefinito, `Comp
 Tuttavia, fai attenzione quando utilizzi l'opzione `Mix to`, poiché rimuovere monete mixate dal tuo account `Postmix` può aumentare significativamente il rischio di compromettere la tua privacy. Le ragioni di questo potenziale sono dettagliate nelle sezioni seguenti.
 
 ## Come conoscere la qualità dei nostri cicli di coinjoin?
-Affinché un coinjoin sia veramente efficace, è essenziale che presenti una buona omogeneità tra gli importi degli input e degli output. Questa uniformità amplifica il numero di possibili interpretazioni agli occhi di un osservatore esterno, aumentando così l'incertezza attorno alla transazione. Per quantificare questa incertezza generata da un coinjoin, si può ricorrere al calcolo dell'entropia della transazione. Per un'esplorazione approfondita di questi indicatori, ti rimando al tutorial: [CALCOLATORE BOLTZMANN](https://planb.network/it/tutorials/privacy/boltzmann-entropy). Il modello Whirlpool è riconosciuto come quello che porta la maggiore omogeneità nei coinjoins.
+Affinché un coinjoin sia veramente efficace, è essenziale che presenti una buona omogeneità tra gli importi degli input e degli output. Questa uniformità amplifica il numero di possibili interpretazioni agli occhi di un osservatore esterno, aumentando così l'incertezza attorno alla transazione. Per quantificare questa incertezza generata da un coinjoin, si può ricorrere al calcolo dell'entropia della transazione. Per un'esplorazione approfondita di questi indicatori, ti rimando al tutorial: [CALCOLATORE BOLTZMANN](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Il modello Whirlpool è riconosciuto come quello che porta la maggiore omogeneità nei coinjoins.
 Successivamente, la performance di diversi cicli di coinjoin viene valutata in base alla dimensione dei gruppi in cui una moneta è nascosta. La dimensione di questi gruppi definisce ciò che viene chiamato gli anonsets. Esistono due tipi di anonsets: il primo valuta la privacy guadagnata contro l'analisi retrospettiva (dal presente al passato) e il secondo, contro l'analisi prospettica (dal passato al presente). Per una spiegazione dettagliata di questi due indicatori, ti invito a consultare il tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## Come gestire il postmix?
@@ -349,4 +349,5 @@ Tutorial dettagliati sull'implementazione di queste diverse tecniche saranno pre
 - [Documentazione di Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread su Twitter sui CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Post sul Blog sui CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 

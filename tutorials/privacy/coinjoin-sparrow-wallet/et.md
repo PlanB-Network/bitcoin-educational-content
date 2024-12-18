@@ -345,3 +345,4 @@ Nende erinevate tehnikate rakendamise kohta pakutakse varsti üksikasjalikke õp
 - [Samourai Wallet Dokumentatsioon - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitteri lõim CoinJoinsi kohta](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogipostitus CoinJoinsi kohta](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

@@ -347,3 +347,4 @@ Tutorial terperinci tentang implementasi teknik-teknik berbeda ini akan segera d
 - [Dokumentasi Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread Twitter tentang CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Postingan Blog tentang CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

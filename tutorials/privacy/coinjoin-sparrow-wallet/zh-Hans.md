@@ -344,3 +344,4 @@ Sparrow邀请您为您的钱包创建一个密码。通过Sparrow Wallet软件�
 - [Samourai Wallet文档 - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [关于CoinJoins的Twitter讨论串](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [关于CoinJoins的博客文章](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

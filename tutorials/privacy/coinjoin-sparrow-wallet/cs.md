@@ -346,3 +346,4 @@ Podrobné tutoriály k implementaci těchto různých technik budou brzy nabíze
 - [Dokumentace Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter vlákno o CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogový příspěvek o CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

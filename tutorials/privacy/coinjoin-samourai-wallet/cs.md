@@ -404,3 +404,4 @@ Podrobné tutoriály k implementaci těchto různých technik budou brzy nabíze
 - [Blogový příspěvek o coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
+

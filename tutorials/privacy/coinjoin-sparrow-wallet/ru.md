@@ -347,3 +347,4 @@ Sparrow предлагает вам создать пароль для ваше�
 - [Документация Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Твиттер-тред о CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Блог-пост о CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

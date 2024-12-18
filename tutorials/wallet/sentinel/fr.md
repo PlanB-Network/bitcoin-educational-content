@@ -159,3 +159,4 @@ Vous avez la possibilité de saisir votre PSBT signée de trois manières diffé
 Une fois la transaction signée renseignée dans le cadre gris, vous pouvez cliquer sur le bouton vert `BROADCAST TRANSACTION` pour la diffuser sur le réseau Bitcoin. Sentinel vous donnera son TXID.
 
 ![watch-only](assets/notext/25.webp)
+

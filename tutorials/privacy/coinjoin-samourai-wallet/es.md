@@ -399,3 +399,4 @@ Tutoriales detallados sobre la implementación de estas diferentes técnicas se 
 - [Documentación de Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Hilo en Twitter sobre coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Publicación en blog sobre coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

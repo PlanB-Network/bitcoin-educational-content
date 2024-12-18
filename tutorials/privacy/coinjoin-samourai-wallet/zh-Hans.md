@@ -369,7 +369,7 @@ Whirlpool将自动关闭。等待Samourai完成加载，然后再次打开Whirlp
 通过再次点击三个小点，然后选择`SCODE (促销代码) Whirlpool`来确保您的SCODE已正确注册。如果一切正常，您就可以开始一个新的Whirlpool周期，并在服务费上享受折扣。需要注意的是，这些SCODE是临时的：它们在几天后就会失效。
 
 ## 如何知道我们的coinjoin周期的质量？
-为了使coinjoin真正有效，它必须在输入和输出的金额之间展示良好的一致性。这种一致性增加了外部观察者可能的解释数量，从而增加了围绕交易的不确定性。为了量化coinjoin产生的不确定性，可以通过计算交易的熵来实现。要深入探索这些指标，我推荐您参考教程：[BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy)。Whirlpool模型被认为是为coinjoins带来最多同质性的模型。
+为了使coinjoin真正有效，它必须在输入和输出的金额之间展示良好的一致性。这种一致性增加了外部观察者可能的解释数量，从而增加了围绕交易的不确定性。为了量化coinjoin产生的不确定性，可以通过计算交易的熵来实现。要深入探索这些指标，我推荐您参考教程：[BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)。Whirlpool模型被认为是为coinjoins带来最多同质性的模型。
 接下来，我们将根据一个硬币在其中被隐藏的群组的范围，评估几个coinjoin周期的性能。这些群组的大小定义了所谓的匿名集（anonsets）。有两种类型的匿名集：第一种是针对回顾性分析（从现在到过去）评估获得的隐私；第二种是针对前瞻性分析（从过去到现在）。为了详细解释这两个指标，我邀请您参考教程：[WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)。
 
 ## 如何管理postmix？

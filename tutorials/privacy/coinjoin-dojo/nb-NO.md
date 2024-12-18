@@ -363,3 +363,4 @@ Whirlpool-kontoer er lett gjenkjennelige på Samourai Wallet ved deres blå farg
 For å holde oversikt over dine automatiske coinjoins, anbefaler jeg også å sette opp en se-kun lommebok via Sentinel-appen. Legg til ZPUB-en til din **Postmix**-konto og overvåk fremgangen til dine coinjoin-sykluser i sanntid. Hvis du ønsker å forstå hvordan du bruker Sentinel, anbefaler jeg å konsultere denne andre opplæringen på PlanB Network: [**SENTINEL SE-KUN**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 
+

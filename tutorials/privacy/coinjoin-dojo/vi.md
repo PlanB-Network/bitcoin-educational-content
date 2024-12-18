@@ -366,3 +366,4 @@ Các tài khoản Whirlpool dễ dàng được nhận diện trên Samourai Wal
 Để theo dõi các giao dịch coinjoin tự động của bạn, tôi cũng khuyên bạn nên thiết lập một ví chỉ xem thông qua ứng dụng Sentinel. Thêm ZPUB của tài khoản **Postmix** của bạn và theo dõi tiến trình của các chu kỳ coinjoin của bạn theo thời gian thực. Nếu bạn muốn hiểu cách sử dụng Sentinel, tôi khuyên bạn nên tham khảo hướng dẫn khác này trên PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 
+

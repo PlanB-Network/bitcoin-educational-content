@@ -363,3 +363,4 @@ Vaše smíchaná UTXO jsou viditelná z účtu **Postmix** na Whirlpool GUI. Kro
 Abychom sledovali vaše automatické coinjoins, doporučuji také nastavit sledovací (watch-only) peněženku prostřednictvím aplikace Sentinel. Přidejte ZPUB vašeho účtu **Postmix** a sledujte průběh vašich cyklů coinjoin v reálném čase. Pokud chcete pochopit, jak používat Sentinel, doporučuji se poradit s tímto dalším tutoriálem na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 
+

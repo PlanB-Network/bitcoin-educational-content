@@ -362,3 +362,4 @@ Akun Whirlpool mudah dikenali di Samourai Wallet dengan warna birunya. Ini memun
 Untuk melacak coinjoin otomatis Anda, saya juga merekomendasikan untuk mengatur dompet hanya-pantau melalui aplikasi Sentinel. Tambahkan ZPUB dari akun **Postmix** Anda dan pantau progres siklus coinjoin Anda secara real-time. Jika Anda ingin memahami cara menggunakan Sentinel, saya merekomendasikan untuk berkonsultasi dengan tutorial lain ini di PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9).
 
 
+

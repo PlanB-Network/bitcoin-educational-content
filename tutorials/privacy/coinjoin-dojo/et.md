@@ -363,3 +363,4 @@ Whirlpooli kontod on Samourai Walletis sinise värviga hõlpsasti äratuntavad. 
 Selleks, et jälgida oma automaatseid coinjoine, soovitan samuti seadistada vaatlus-ainult rahakoti läbi Sentinel rakenduse. Lisa oma **Postmix** konto ZPUB ja jälgi oma coinjoin tsüklite edenemist reaalajas. Kui soovid mõista, kuidas Sentinelit kasutada, soovitan konsulteerida selle teise õpetusega PlanB võrgustikus: [**SENTINEL VAATLUS-AINULT**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 
+

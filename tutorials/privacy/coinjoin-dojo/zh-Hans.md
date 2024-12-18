@@ -362,3 +362,4 @@ Whirlpool配置页面将打开。您可以选择您希望进入的池。同时�
 为了跟踪您的自动coinjoin交易，我还推荐通过Sentinel应用程序设置一个仅限查看的钱包。添加您的**Postmix**账户的ZPUB，并实时监控您的coinjoin周期的进展。如果您想了解如何使用Sentinel，我推荐咨询PlanB网络上的另一个教程：[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)。
 
 
+

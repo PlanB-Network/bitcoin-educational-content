@@ -362,3 +362,4 @@ Whirlpool-tilit ovat helposti tunnistettavissa Samourai Walletissa niiden sinise
 Jotta voit seurata automaattisia coinjoinejasi, suosittelen myös watch-only lompakon asettamista Sentinel-sovelluksen kautta. Lisää **Postmix**-tilisi ZPUB ja seuraa coinjoin-syklien etenemistä reaaliajassa. Jos haluat ymmärtää, miten Sentinelia käytetään, suosittelen tutustumaan tähän toiseen oppaaseen PlanB Networkissa: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 
+

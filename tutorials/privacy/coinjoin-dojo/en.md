@@ -376,3 +376,4 @@ Whirlpool accounts are easily identifiable on Samourai Wallet by their blue colo
 To keep track of your automatic coinjoins, I also recommend setting up a watch-only wallet via the Sentinel app. Add the ZPUB of your **Postmix** account and monitor the progress of your coinjoin cycles in real-time. If you want to understand how to use Sentinel, I recommend consulting this other tutorial on PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 
+

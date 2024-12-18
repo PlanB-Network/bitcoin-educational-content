@@ -354,3 +354,4 @@ WhirlpoolアカウントはSamourai Wallet上で青色で簡単に識別でき�
 自動コインジョインの進行状況を追跡するためには、Sentinelアプリを介してウォッチオンリーウォレットを設定することもお勧めします。**Postmix**アカウントのZPUBを追加し、リアルタイムでコインジョインサイクルの進行状況を監視してください。Sentinelの使用方法を理解したい場合は、PlanB Networkのこの他のチュートリアル[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 
+

@@ -335,3 +335,4 @@ Pro uživatele Bitcoinu je zásadní ovládnout základní principy analýzy ře
 
 
 
+

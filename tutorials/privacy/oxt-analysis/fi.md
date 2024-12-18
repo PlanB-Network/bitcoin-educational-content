@@ -338,3 +338,4 @@ Bitcoinin käyttäjänä on olennaista hallita ketjuanalyysin perusperiaatteet t
 
 
 
+

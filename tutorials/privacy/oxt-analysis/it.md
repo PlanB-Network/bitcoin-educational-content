@@ -286,7 +286,7 @@ Puoi anche rivolgerti a metodi che rendono ambiguo il tuo uso di Bitcoin per pre
 La tecnica più popolare è sicuramente Coinjoin, una struttura di transazione collaborativa che mobilita diversi UTXO degli stessi importi. L'obiettivo qui è rompere i collegamenti deterministici, impedendo così analisi dal presente al passato e dal passato al presente. Coinjoin consente una negazione plausibile nascondendo le tue monete all'interno di un grande gruppo di monete indistinguibili. Se vuoi saperne di più su Coinjoin, sia tecnicamente che praticamente, ti suggerisco di leggere questi altri articoli e tutorial:
 - [COINJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
 - [COINJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
-- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/it/tutorials/privacy/wst-anonsets).
+- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 
 CoinJoin è uno strumento eccellente per creare una negazione plausibile per le monete, ma non è ottimizzato per tutte le esigenze di privacy degli utenti. In particolare, CoinJoin non è stato progettato per diventare uno strumento di pagamento. È molto rigido riguardo agli importi scambiati al fine di perfezionare la produzione di negazione plausibile. Poiché non si può scegliere liberamente l'importo degli output della transazione, CoinJoin non può essere utilizzato per effettuare pagamenti in bitcoin.
 
@@ -305,15 +305,15 @@ Il secondo obiettivo di PayJoin è ingannare l'analista riguardo l'importo effet
 
 Infatti, se riprendiamo il nostro esempio di utilizzo di PayJoin per comprare una baguette, un osservatore esterno potrebbe pensare che stiamo trattando un pagamento di 4.000 sats o 21.000 sats. In realtà, il pagamento per la baguette è di 6.000 sats: 21.000 - 15.000 = 6.000. Il valore reale del pagamento è quindi nascosto all'interno di un falso pagamento che funge da diversivo per l'analisi della blockchain.
 
-Oltre a PayJoin e CoinJoin, esistono molte altre strutture di transazione Bitcoin che bloccano l'analisi della blockchain o la ingannano. Tra queste, posso menzionare le transazioni [Stonewall](https://planb.network/it/tutorials/privacy/stonewall) e [StonewallX2](https://planb.network/it/tutorials/privacy/stonewall-x2), che consentono di realizzare un mini Coinjoin flessibile o di imitare un mini Coinjoin flessibile. Ci sono anche transazioni [Ricochet](https://planb.network/it/tutorials/privacy/ricochet) che simulano un cambio di proprietà dei bitcoin effettuando una moltitudine di falsi trasferimenti a se stessi.
+Oltre a PayJoin e CoinJoin, esistono molte altre strutture di transazione Bitcoin che bloccano l'analisi della blockchain o la ingannano. Tra queste, posso menzionare le transazioni [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) e [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2), che consentono di realizzare un mini Coinjoin flessibile o di imitare un mini Coinjoin flessibile. Ci sono anche transazioni [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) che simulano un cambio di proprietà dei bitcoin effettuando una moltitudine di falsi trasferimenti a se stessi.
 
 Tutti questi strumenti sono disponibili su Samourai Wallet su mobile e Sparrow Wallet su PC. Se vuoi saperne di più su queste specifiche strutture di transazione, ti consiglio di scoprire i miei tutorial:
 - [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
 - [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f-samourai-wallet);
 - [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f-sparrow-wallet);
-- [STONEWALL](https://planb.network/it/tutorials/privacy/stonewall);
-- [STONEWALL X2](https://planb.network/it/tutorials/privacy/stonewall-x2);
-- [RICOCHET](https://planb.network/it/tutorials/privacy/ricochet).
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## Conclusione
 L'analisi della blockchain è una pratica che coinvolge il tentativo di tracciare il flusso di bitcoin sulla blockchain. Per fare ciò, gli analisti cercano modelli e caratteristiche al fine di formulare ipotesi e interpretazioni più o meno plausibili.
@@ -332,6 +332,7 @@ Come utente Bitcoin, è essenziale padroneggiare i principi fondamentali dell'an
 
 **P2WPKH:** Acronimo di Pay to Witness Public Key Hash. Si tratta di un modello di script standard utilizzato per stabilire le condizioni di spesa su un UTXO. P2WPKH è stato introdotto con l'implementazione di SegWit nell'agosto 2017. Questo script è simile a P2PKH (Pay to Public Key Hash), in quanto anch'esso blocca bitcoin basandosi sull'hash di una chiave pubblica, ovvero un indirizzo di ricezione. La differenza risiede nel modo in cui firme e script sono inclusi nella transazione. Nel caso di P2WPKH, le informazioni dello script di firma (ScriptSig) vengono spostate dalla struttura tradizionale della transazione a una sezione separata chiamata Witness. Questo spostamento è una caratteristica dell'aggiornamento SegWit (Segregated Witness). Questa tecnica ha il vantaggio di ridurre la dimensione dei dati della transazione nel corpo principale, mantenendo al contempo le necessarie informazioni dello script per la validazione in una sezione separata. Di conseguenza, le transazioni P2WPKH generalmente comportano costi inferiori in termini di commissioni rispetto alle transazioni Legacy. Gli indirizzi P2WPKH sono scritti utilizzando la codifica Bech32, che contribuisce a una scrittura più concisa e meno soggetta a errori grazie al checksum BCH. Questi indirizzi iniziano sempre con bc1q, rendendoli facilmente distinguibili dagli indirizzi di ricezione Legacy. P2WPKH è un output SegWit versione 0.
 **UTXO:** Acronimo di Unspent Transaction Output (Output di Transazione Non Speso). Un UTXO è un output di transazione che non è ancora stato speso o utilizzato come input per una nuova transazione. Gli UTXO rappresentano la frazione di bitcoin che un utente possiede e che sono attualmente disponibili per essere spesi. Ogni UTXO è associato a uno specifico script di output, che definisce le condizioni necessarie per spendere i bitcoin. Le transazioni in Bitcoin consumano questi UTXO come input e creano nuovi UTXO come output. Il modello UTXO è fondamentale per Bitcoin, poiché permette una facile verifica che le transazioni non stiano tentando di spendere bitcoin che non esistono o che sono già stati spesi. Essenzialmente, un UTXO è un pezzo di Bitcoin.
+
 
 
 

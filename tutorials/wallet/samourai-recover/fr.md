@@ -20,7 +20,7 @@ Premièrement, il est nécessaire que l'application ait été préalablement ins
 
 Si Samourai Wallet est déjà installé sur votre smartphone, vous devriez toujours pouvoir accéder à l'application. Pour utiliser la fonctionnalité wallet de Samourai, il est indispensable de connecter un Dojo. Auparavant, les utilisateurs sans Dojo personnel dépendaient des serveurs de Samourai pour accéder aux informations de la blockchain Bitcoin et pour diffuser des transactions. Avec la saisie de ces serveurs, l'application ne peut plus accéder à ces données.
 
-Si vous n'aviez pas de Dojo connecté auparavant, mais que vous en avez un maintenant, vous pouvez le configurer pour utiliser de nouveau votre application Samourai. Cela implique de vérifier vos sauvegardes, de supprimer le portefeuille (le wallet, pas l'application) et de récupérer le wallet en connectant votre Dojo sur l'application. Pour plus de détails sur ces étapes, vous pouvez consulter [ce tutoriel, dans la section "_Préparer son portefeuille Samourai Wallet_" : COINJOIN - DOJO](https://planb.network/fr/tutorials/privacy/coinjoin-dojo).
+Si vous n'aviez pas de Dojo connecté auparavant, mais que vous en avez un maintenant, vous pouvez le configurer pour utiliser de nouveau votre application Samourai. Cela implique de vérifier vos sauvegardes, de supprimer le portefeuille (le wallet, pas l'application) et de récupérer le wallet en connectant votre Dojo sur l'application. Pour plus de détails sur ces étapes, vous pouvez consulter [ce tutoriel, dans la section "_Préparer son portefeuille Samourai Wallet_" : COINJOIN - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
 
 Si votre application Samourai était déjà connectée à votre propre Dojo, alors toute la partie wallet fonctionne parfaitement pour vous. Vous pouvez toujours voir votre solde et diffuser des transactions. Malgré tout ce qu'il se passe, je pense que Samourai Wallet reste le meilleur logiciel de portefeuille mobile à l'heure actuelle. Personnellement, je compte bien continuer de l'utiliser. 
 
@@ -50,7 +50,7 @@ Après plusieurs tests, il semble que Soroban ne fonctionne plus. Pour réaliser
 - Si vous êtes physiquement proche de votre collaborateur, vous pouvez scanner les QR codes successivement ;
 - Si vous êtes éloigné de votre collaborateur, vous pouvez échanger les PSBT via un canal de communication externe à l'application. Toutefois, faites attention, car les données contenues dans ces PSBT sont sensibles en termes de confidentialité. Je vous recommande d'utiliser un service de messagerie chiffrée pour assurer la confidentialité de l'échange.
 
-**[-> En savoir plus sur les transactions Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
+**[-> En savoir plus sur les transactions Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 **[-> En savoir plus sur les transactions Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 

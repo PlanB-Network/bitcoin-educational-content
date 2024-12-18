@@ -43,7 +43,7 @@ Quanto a outros tipos de transações colaborativas, frequentemente referidas co
 Após vários testes, parece que o Soroban não está mais funcionando. Para realizar essas transações colaborativas, a troca de dados deve, portanto, ser feita manualmente. Aqui estão duas opções para realizar essa troca:
 - Se você estiver fisicamente próximo ao seu colaborador, você pode escanear os códigos QR sucessivamente;
 - Se você está distante do seu colaborador, pode trocar os PSBTs por um canal de comunicação externo à aplicação. No entanto, tenha cuidado, pois os dados contidos nesses PSBTs são sensíveis em termos de privacidade. Eu recomendo usar um serviço de mensagens criptografadas para garantir a confidencialidade da troca.
-**[-> Saiba mais sobre transações Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
+**[-> Saiba mais sobre transações Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 **[-> Saiba mais sobre transações Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 

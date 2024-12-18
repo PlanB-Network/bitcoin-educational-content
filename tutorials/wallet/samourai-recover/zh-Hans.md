@@ -19,7 +19,7 @@ description: 如何恢复在Samourai Wallet上卡住的比特币？
 鉴于Samourai Wallet页面在Google Play商店不再可用，不可能禁用自动更新。如果应用返回下载平台，直到有关案件发展的更多信息可用之前，**禁用自动更新**会是明智的选择。
 
 如果Samourai Wallet已经安装在您的智能手机上，您应该仍然能够访问应用。要使用Samourai的钱包功能，连接Dojo是必要的。以前，没有个人Dojo的用户依赖Samourai的服务器来访问比特币区块链信息和广播交易。随着这些服务器的查封，应用再也无法访问这些数据了。
-如果您之前没有连接Dojo，但现在有了，您可以设置它以再次使用您的Samourai应用。这涉及检查您的备份，删除钱包（钱包，而不是应用程序），并通过将您的Dojo连接到应用程序来恢复钱包。有关这些步骤的更多详细信息，您可以查阅[本教程，在“_准备您的Samourai Wallet_”部分：COINJOIN - DOJO](https://planb.network/en/tutorials/privacy/coinjoin-dojo)。
+如果您之前没有连接Dojo，但现在有了，您可以设置它以再次使用您的Samourai应用。这涉及检查您的备份，删除钱包（钱包，而不是应用程序），并通过将您的Dojo连接到应用程序来恢复钱包。有关这些步骤的更多详细信息，您可以查阅[本教程，在“_准备您的Samourai Wallet_”部分：COINJOIN - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2)。
 如果您的Samourai应用已经连接到您自己的Dojo，那么钱包部分对您来说工作得很完美。您仍然可以看到您的余额和广播交易。尽管发生了这一切，我认为Samourai Wallet仍然是目前最好的移动钱包软件。就我个人而言，我计划继续使用它。
 您可能遇到的主要问题是无法从应用程序访问Whirlpool账户。通常，Samourai会尝试与您的Whirlpool CLI建立连接，并在让您访问这些账户之前开始coinjoin循环。然而，由于这种连接不再可能，应用程序会无限期地继续搜索，而不会让您访问Whirlpool账户。在这种情况下，您可以在另一个钱包软件上恢复这些账户，同时只在Samourai上保留存款账户。
 
@@ -44,7 +44,7 @@ JoinBot工具不再运行，因为它完全依赖于由Samourai管理的钱包�
 经过几次测试，Soroban似乎不再运行。要执行这些协作交易，因此必须手动进行数据交换。这里有两个执行此交换的选项：
 - 如果您与您的合作者身处近距离，您可以连续扫描二维码；
 - 如果您与合作者距离较远，可以通过应用程序外的通信渠道交换PSBTs。但是，请小心，因为这些PSBTs中包含的数据在隐私方面非常敏感。我建议使用加密的消息服务来确保交换的保密性。
-**[-> 了解更多关于Stonewall x2交易的信息。](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4-x2)**
+**[-> 了解更多关于Stonewall x2交易的信息。](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 **[-> 了解更多关于Stowaway交易的信息。](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 

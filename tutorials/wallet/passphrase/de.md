@@ -36,3 +36,7 @@ Es ist auch wichtig, diese Passphrase richtig zu speichern, genauso wie die mnem
 Um eine Passphrase auf einem Ledger-Gerät (Stax, Flex oder Nano) einzurichten, können Sie dieses Tutorial konsultieren:
 
 https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
+Auf einer COLDCARD:
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

@@ -36,3 +36,7 @@ Juga penting untuk menyimpan passphrase ini dengan benar, sama seperti frasa mne
 Untuk mengatur passphrase pada perangkat Ledger (Stax, Flex, atau Nano), Anda dapat berkonsultasi dengan tutorial ini:
 
 https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
+Pada COLDCARD:
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

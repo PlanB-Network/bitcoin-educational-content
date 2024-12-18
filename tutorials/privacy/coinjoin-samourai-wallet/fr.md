@@ -437,3 +437,4 @@ Des tutoriels détaillés sur la mise en œuvre de ces différentes techniques v
 - [Thread Twitter sur les coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739) ;
 - [Article de blog sur les coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
+

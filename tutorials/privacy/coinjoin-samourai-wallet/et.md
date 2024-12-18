@@ -402,3 +402,4 @@ Järgmisena peate olema ettevaatlik doxxic muutuse haldamisel, muutusega, mis ei
 - [Twitteri lõim coinjoins kohta](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogipostitus coinjoins kohta](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
+

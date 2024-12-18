@@ -403,3 +403,4 @@ Whirlpool автоматически закроется. Дождитесь за
 - [Твиттер-тред о coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Блог-пост о coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
+

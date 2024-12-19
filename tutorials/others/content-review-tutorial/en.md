@@ -93,16 +93,28 @@ NB. It’s recommended to review in the code window, with the original content d
 
 ![REVIEW](assets/fr/08.webp)
 
+- If this is not your first contribution, GitHub will prompt you to create a new branch. You should never commit directly to the main `dev` branch. If you have already made commits on an existing working branch, select that branch. Otherwise, choose the "Create a new branch" option to create a new one.
+
+![REVIEW](assets/fr/13.webp)
+
 - You’ll then access a page summarizing all your changes. By scrolling through it, you can see the precise modifications: deleted items appear in red, while added items appear in green.
 
 ![REVIEW](assets/fr/09.webp)
 
+- If you have not completed your review and wish to continue your work later, you can simply exit.
+- As long as you have committed your changes, they are saved on your GitHub fork.
+- To resume your work, go to your fork of the Plan ₿ Network content repository via your GitHub profile.
+
+![REVIEW](assets/fr/14.webp)
+
+- Select the branch containing your progress (cf. **A**), locate your content file (cf. **B**), then click on the pencil icon to continue the review.
+
+![REVIEW](assets/fr/15.webp)
+
+
 ## 5. Create a PR with the dedicated branch
 
 - If everything looks good and you’ve finished your changes, click the green "Create Pull Request" button.
-- If you haven’t finished your review and want to continue later, you can simply leave it as is.
-- As long as you’ve committed your changes, they’re saved on your GitHub fork.
-- To resume your work, go to your fork of the Plan ₿ Network content repository via your GitHub profile. Select the branch with your progress, locate your content file, and click the pencil icon to continue reviewing.
 
 ![REVIEW](assets/fr/10.webp)
 
@@ -119,5 +131,8 @@ NB. It’s recommended to review in the code window, with the original content d
 ![REVIEW](assets/fr/12.webp)
 
 - Thank you very much for your contribution! After approval, a Plan ₿ Network team member will contact you to send your reward. **Payments are made exclusively via the Lightning Network**.
-- If you’d like to start again, return to step 2 and send a new message in the Telegram group to continue contributing to other content. Make sure to sync your fork before creating a new working branch.
+- If you’d like to start again, return to step 2 and send a new message in the Telegram group to continue contributing to other content. Make sure to sync your fork before creating a new working branch. To do this, go to the homepage of your fork, select the main branch named `dev` (cf. **A**), then click on the "Sync fork" button (cf. **B**). If updates are available for your fork, an "Update branch" button will appear. Simply click it to perform the update.
+
+![REVIEW](assets/fr/16.webp)
+
 - If you have any remarks, questions, or comments about this project, feel free to send a DM [to the contributors' Telegram group](https://t.me/PlanBNetwork_ContentBuilder).

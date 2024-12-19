@@ -94,17 +94,26 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 
 ![REVIEW](assets/fr/08.webp)
 
+- Si ce n'est pas la première fois que vous contribuez, GitHub vous proposera de créer une nouvelle branche. Il ne faut jamais effectuer de commits directement sur la branche principale `dev`. Si vous avez déjà effectué des commits sur une branche de travail existante, sélectionnez cette branche. Sinon, choisissez l’option "Create a new branch" pour en créer une nouvelle.
+
+![REVIEW](assets/fr/13.webp)
+
 - Vous accéderez ensuite à une page récapitulant tous vos changements. En la faisant défiler, vous pourrez visualiser précisément les modifications apportées : les éléments supprimés apparaissent en rouge, tandis que les éléments ajoutés sont en vert.
 
 ![REVIEW](assets/fr/09.webp)
+- Si vous n'avez pas terminé votre révision et que vous souhaitez continuer votre travail plus tard, vous pouvez simplement quitter.
+- Du moment que vous avez bien commit vos modifications, elles sont enregistrées sur votre fork GitHub.
+- Pour reprendre votre travail, rendez-vous sur votre fork du dépôt de contenu Plan ₿ Network via votre profil GitHub.
+
+![REVIEW](assets/fr/14.webp)
+
+- Sélectionnez la branche contenant votre progression (cf. **A**), localisez votre fichier de contenu (cf. **B**), puis cliquez sur l’icône en forme de stylo pour continuer la révision.
+
+![REVIEW](assets/fr/15.webp)
 
 ## 5. Créer une PR avec la branche dédiée
 
 - Si tout vous convient et que vous avez terminé vos modifications, vous pouvez cliquer sur le bouton vert "Create Pull Request".
-- Si vous n'avez pas terminé votre révision et que vous souhaitez continuer votre travail plus tard, vous pouvez simplement quitter.
-- Du moment que vous avez bien commit vos modifications, elles sont enregistrées sur votre fork GitHub.
-- Pour reprendre votre travail, rendez-vous sur votre fork du dépôt de contenu Plan ₿ Network via votre profil GitHub. Sélectionnez la branche contenant votre progression, localisez votre fichier de contenu, puis cliquez sur l’icône en forme de stylo pour continuer la révision.
-
 ![REVIEW](assets/fr/10.webp)
 
 - Vous arriverez ensuite sur la page de la PR. Une Pull Request est une demande permettant à un contributeur de soumettre des modifications effectuées sur une branche d’un dépôt distant pour qu’elles soient examinées et éventuellement fusionnées dans la branche principale du dépôt.
@@ -120,5 +129,8 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 ![REVIEW](assets/fr/12.webp)
 
 - Merci beaucoup pour votre contribution ! Après approbation, un membre de l'équipe de Plan ₿ Network vous contactera pour vous envoyer votre récompense. **Les paiements se font uniquement sur le Lightning Network**.
-* Si vous souhaitez recommencer, retournez à l'étape 2 et envoyez un nouveau message sur le groupe Telegram pour continuer à contribuer sur d'autres contenus. Pensez à bien synchroniser votre fork avant de créer une nouvelle branche de travail.
+* Si vous souhaitez recommencer, retournez à l'étape 2 et envoyez un nouveau message sur le groupe Telegram pour continuer à contribuer sur d'autres contenus. Pensez à synchroniser votre fork avant de créer une nouvelle branche de travail. Pour cela, rendez-vous sur la page d’accueil de votre fork, sélectionnez la branche principale nommée `dev` (cf. **A**), puis cliquez sur le bouton "Sync fork" (cf. **B**). Si des mises à jour sont disponibles pour votre fork, un bouton "Update branch" apparaîtra. Cliquez simplement dessus pour effectuer la mise à jour.
+
+![REVIEW](assets/fr/16.webp)
+
 * Si vous avez des remarques, des questions ou des commentaires sur ce projet, vous pouvez envoyer un DM [sur le groupe Telegram des contributeurs](https://t.me/PlanBNetwork_ContentBuilder).

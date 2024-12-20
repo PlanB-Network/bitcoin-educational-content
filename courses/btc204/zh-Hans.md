@@ -293,8 +293,12 @@ Coinbase交易的独特之处在于，它是唯一可以凭空创建比特币的
 因此，在我们使用比特币时，也有必要能够面对区块链分析。通过这种方式，我们可以最小化我们活动的聚合，并限制一个入口点对我们隐私的影响。
 ![BTC204](assets/notext/31/5.webp)
 
-实际上，为了更好地对抗区块链分析，比熟悉区块链分析中使用的方法更好的方法是什么呢？如果你想知道如何在比特币上提高你的隐私，你必须理解这些方法。这将使你能够更好地掌握像[coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)或[payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)（我们将在培训的最后部分研究的技术）这样的技术，并减少你可能犯的错误。
+实际上，为了更好地对抗区块链分析，比熟悉区块链分析中使用的方法更好的方法是什么呢？如果你想知道如何在比特币上提高你的隐私，你必须理解这些方法。这将使你能够更好地掌握像coinjoin或payjoin（我们将在培训的最后部分研究的技术）这样的技术，并减少你可能犯的错误。
 在这里，我们可以用密码学和密码分析作一个类比。一个优秀的密码学家首先是一个优秀的密码分析师。要想象一个新的加密算法，必须知道它将面临什么样的攻击，同时也要研究为什么之前的算法被破解。这一原则同样适用于比特币上的隐私保护。理解区块链分析的方法是保护免受其侵害的关键。这就是为什么我在这次培训中提议整个部分都关于区块链分析。
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### 区块链分析的方法
 
@@ -1223,26 +1227,38 @@ KYC特指一些公司实施的一种监管程序，用于验证和记录其客�
 
 关于解决方案，我个人一直使用[Bisq](https://bisq.network/)，对此非常满意。他们的系统建立得很好，看起来很可靠。然而，Bisq只能在PC上使用，其界面对初学者来说可能过于复杂。另一个缺点是Bisq仅与链上交易一起操作，这在比特币交易费用高昂的时期可能变得昂贵。
 
-[-> 查看我们关于Bisq的教程。](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> 查看我们关于Bisq的教程。
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 对于更简单的选项，您可以尝试[Peach](https://peachbitcoin.com/)，这是一个移动应用程序，通过集成的争议解决系统促进买家和卖家之间的联系。其过程比Bisq的更直观。
 
-[-> 查看我们关于Peach的教程。](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> 查看我们关于Peach的教程。
 另一个在线选项是[HodlHodl](https://hodlhodl.com/)，这是一个建立良好的平台，提供良好的流动性，尽管我个人没有测试过它。
-[-> 查看我们关于HodlHodl的教程。](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> 查看我们关于HodlHodl的教程。
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 对于基于闪电网络的解决方案，您可以尝试[RoboSats](https://learn.robosats.com/)和[LNP2PBot](https://lnp2pbot.com/)。RoboSats可以通过网站访问，使用起来相对简单。LNP2PBot更为特别，因为它通过Telegram消息应用程序上的交换系统操作。
 
-[-> 查看我们关于RoboSats的教程。](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> 查看我们关于LNP2PBot的教程。](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> 查看我们关于RoboSats的教程。
+-> 查看我们关于LNP2PBot的教程。
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ### 不需要KYC的受监管平台
 
 根据您居住的国家，您可能可以访问不需要进行KYC程序就能买卖比特币的受监管平台。例如，在瑞士，您可以使用像[Relai](https://relai.app/)和[MtPelerin](https://www.mtpelerin.com/)这样的平台。
 
-[-> 查看我们关于Relai的教程。](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> 查看我们关于Relai的教程。
 正如我们在上一章中看到的，这类平台免除了与KYC程序相关的风险，但它们在关键识别方面呈现出更高的风险水平。就比特币的隐私而言，这些平台因此提供比带KYC的购买方法更好的保护，但它们不如P2P交易所有趣。
 然而，在个人安全方面，使用这些平台的风险显著低于P2P交易所。它们通常也比促进P2P交易的平台更简单易用。
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### ATM机
 
@@ -1268,7 +1284,9 @@ ATM机的主要缺点在于它们通常有很高的兑换费用，这些费用�
 
 另一种方法是通过工作换取比特币。这种获取方法可能很有趣，但所需的身份识别程度根据情况而大不相同。
 
-_写这一章时，我使用了由[@pivi\_\_\_](https://x.com/pivi___)在Plan ₿ Network上创建的课程[BTC205](https://planb.network/fr/courses/btc205)（目前仅提供法语版本）。_
+_写这一章时，我使用了由[@pivi\_\_\_](https://x.com/pivi___)在Plan ₿ Network上创建的课程BTC205（目前仅提供法语版本）。_
+
+
 
 ## 合并、UTXO管理和CIOH
 

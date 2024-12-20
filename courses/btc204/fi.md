@@ -288,8 +288,12 @@ Nämä sisääntulopisteet ovat lähes väistämättömiä Bitcoinin käytössä
 Näin ollen on myös tarpeellista pystyä kohtaamaan lohkoketjuanalyysi Bitcoinin käytössämme. Toimimalla tällä tavoin voimme minimoida toimintojemme aggregoinnin ja rajoittaa sisääntulopisteen vaikutusta yksityisyyteemme.
 ![BTC204](assets/notext/31/5.webp)
 
-Todellakin, paremman vastauksen lohkoketjuanalyysiin tarjoaa tutustuminen lohkoketjuanalyysissä käytettyihin menetelmiin. Jos haluat tietää, miten parantaa yksityisyyttäsi Bitcoinissa, sinun on ymmärrettävä nämä menetelmät. Tämä antaa sinulle paremmat valmiudet ymmärtää tekniikoita kuten [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) tai [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (tekniikat, joita tutkimme koulutuksen viimeisissä osissa), ja vähentää tekemiäsi virheitä.
+Todellakin, paremman vastauksen lohkoketjuanalyysiin tarjoaa tutustuminen lohkoketjuanalyysissä käytettyihin menetelmiin. Jos haluat tietää, miten parantaa yksityisyyttäsi Bitcoinissa, sinun on ymmärrettävä nämä menetelmät. Tämä antaa sinulle paremmat valmiudet ymmärtää tekniikoita kuten coinjoin tai payjoin (tekniikat, joita tutkimme koulutuksen viimeisissä osissa), ja vähentää tekemiäsi virheitä.
 Tässä voimme tehdä analogian kryptografian ja kryptoanalyysin välillä. Hyvä kryptografi on ensisijaisesti hyvä kryptoanalyytikko. Uuden salausalgoritmin kuvitteleminen edellyttää, että tuntee, millaisia hyökkäyksiä sen on kohdattava, ja tutkii myös, miksi aiemmat algoritmit murrettiin. Sama periaate pätee yksityisyyteen Bitcoinissa. Lohkoketjuanalyysin menetelmien ymmärtäminen on avain sen vastaisen suojautumisen kannalta. Siksi ehdotan kokonaista osiota lohkoketjuanalyysista tässä koulutuksessa.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Lohkoketjuanalyysin menetelmät
 
@@ -1229,26 +1233,38 @@ Jälleen kerran yhtenä P2P-ostojen haittapuolena on, että hinta on usein korke
 
 Ratkaisujen osalta olen henkilökohtaisesti aina käyttänyt [Bisq](https://bisq.network/) -palvelua ja olen erittäin tyytyväinen siihen. Heidän järjestelmänsä on vakiintunut ja vaikuttaa luotettavalta. Bisq on kuitenkin saatavilla vain PC:lle ja sen käyttöliittymä voi olla liian monimutkainen aloittelijoille. Toinen haittapuoli on, että Bisq toimii ainoastaan onchain-transaktioilla, jotka voivat tulla kalliiksi Bitcoinin korkeiden transaktiomaksujen aikoina.
 
-[-> Tutustu Bisq-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Tutustu Bisq-opetusohjelmaamme.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Yksinkertaisempana vaihtoehtona voit kokeilla [Peach](https://peachbitcoin.com/)-mobiilisovellusta, joka helpottaa ostajien ja myyjien välistä yhteydenpitoa sisäänrakennetun riidanratkaisujärjestelmän avulla. Prosessi on intuitiivisempi kuin Bisq:ssa.
 
-[-> Tutustu Peach-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Tutustu Peach-opetusohjelmaamme.
 Toinen verkossa oleva vaihtoehto on [HodlHodl](https://hodlhodl.com/), hyvin vakiintunut alusta, joka tarjoaa hyvän likviditeetin, vaikka en ole henkilökohtaisesti testannut sitä.
-[-> Tutustu HodlHodl-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> Tutustu HodlHodl-opetusohjelmaamme.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Lightning Networkiin perustuvista ratkaisuista voit kokeilla [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSats on käytettävissä verkkosivuston kautta ja on suhteellisen yksinkertainen käyttää. LNP2PBot on epätavallisempi, sillä se toimii vaihtojärjestelmänä Telegram-viestisovelluksessa.
 
-[-> Tutustu RoboSats-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> Tutustu LNP2PBot-opetusohjelmaamme.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> Tutustu RoboSats-opetusohjelmaamme.
+-> Tutustu LNP2PBot-opetusohjelmaamme.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ### Säännellyt alustat ilman KYC:tä
 
 Riippuen siitä, missä maassa asut, saatat päästä käyttämään säänneltyjä alustoja, jotka eivät vaadi KYC-menettelyä bitcoinien ostamiseen tai myymiseen. Esimerkiksi Sveitsissä voit käyttää alustoja kuten [Relai](https://relai.app/) ja [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Tutustu Relai-opetusohjelmaamme.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Tutustu Relai-opetusohjelmaamme.
 Kuten edellisessä luvussa näimme, tämän tyyppinen alusta säästää sinut KYC-menettelyihin liittyviltä riskeiltä, mutta ne esittävät korkeamman tason riskin avaintunnistukselle. Bitcoinin yksityisyyden suhteen nämä alustat tarjoavat siis paremman suojan kuin KYC:llä varustetut ostomenetelmät, mutta ne eivät ole yhtä kiinnostavia kuin P2P-vaihdot.
 Kuitenkin henkilökohtaisen turvallisuuden näkökulmasta näiden alustojen käyttö on huomattavasti vähemmän riskialtista kuin P2P-vaihtojen käyttö. Ne ovat myös usein yksinkertaisempia käyttää kuin alustat, jotka helpottavat P2P-vaihtoja.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Pankkiautomaatit
 
@@ -1274,7 +1290,9 @@ Muita menetelmiä hankkia bitcoineja samalla kun suojataan yksityisyyttäsi, on 
 
 Toinen menetelmä koostuu työskentelystä vaihdossa bitcoineihin. Tämä hankintamenetelmä voi olla mielenkiintoinen, mutta vaaditun tunnistautumisen aste vaihtelee suuresti olosuhteiden mukaan.
 
-\_Tämän luvun kirjoittamiseen käytin kurssia [BTC205](https://planb.network/fr/courses/btc205) jonka loi [@pivi\_\_\_](https://x.com/pivi___) Plan ₿ Networkissa (toistaiseksi saatavilla vain ranskaksi).\_
+\_Tämän luvun kirjoittamiseen käytin kurssia BTC205 jonka loi [@pivi\_\_\_](https://x.com/pivi___) Plan ₿ Networkissa (toistaiseksi saatavilla vain ranskaksi).\_
+
+
 
 ## Konsolidointi, UTXO-hallinta ja CIOH
 

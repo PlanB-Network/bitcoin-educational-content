@@ -292,8 +292,12 @@ Tyto vstupní body jsou téměř nevyhnutelné při používání Bitcoinu. Ačk
 Je tedy také nutné být schopen čelit analýze blockchainu při našem používání Bitcoinu. Postupem tohoto způsobu můžeme minimalizovat agregaci našich aktivit a omezit dopad vstupního bodu na naše soukromí.
 ![BTC204](assets/notext/31/5.webp)
 
-Skutečně, pro lepší čelbu analýze blockchainu, jaký lepší přístup, než se seznámit s metodami používanými v analýze blockchainu? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte tyto metody pochopit. To vám umožní lépe pochopit techniky jako [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) nebo [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (techniky, které prozkoumáme v posledních částech školení) a snížit chyby, které byste mohli udělat.
+Skutečně, pro lepší čelbu analýze blockchainu, jaký lepší přístup, než se seznámit s metodami používanými v analýze blockchainu? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte tyto metody pochopit. To vám umožní lépe pochopit techniky jako coinjoin nebo payjoin (techniky, které prozkoumáme v posledních částech školení) a snížit chyby, které byste mohli udělat.
 V tomto můžeme udělat analogii s kryptografií a kryptoanalýzou. Dobrý kryptograf je především dobrý kryptoanalytik. Aby si někdo dokázal představit nový šifrovací algoritmus, musí vědět, jakým útokům bude čelit, a také studovat, proč byly předchozí algoritmy prolomeny. Stejný princip platí pro soukromí na Bitcoinu. Porozumění metodám analýzy blockchainu je klíčem k ochraně proti němu. Proto navrhuji celou sekci o analýze blockchainu v tomto školení.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Metody analýzy blockchainu
 
@@ -1203,18 +1207,28 @@ Opět se ukazuje, že další nevýhodou nákupů P2P je, že cena je často vy�
 
 Pokud jde o řešení, osobně jsem vždy používal [Bisq](https://bisq.network/) a jsem s ním velmi spokojen. Jejich systém je dobře zavedený a zdá se být spolehlivý. Bisq je však dostupný pouze na PC a jeho rozhraní může být pro začátečníky příliš složité. Další nevýhodou je, že Bisq funguje pouze s onchain transakcemi, což může být nákladné během období vysokých transakčních poplatků na Bitcoinu.
 
-[-> Objevte náš tutoriál na Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Objevte náš tutoriál na Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Pro jednodušší možnost můžete vyzkoušet [Peach](https://peachbitcoin.com/), mobilní aplikaci, která usnadňuje spojení mezi kupujícími a prodejci s integrovaným systémem řešení sporů. Proces je intuitivnější než u Bisq.
 
-[-> Objevte náš tutoriál na Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Objevte náš tutoriál na Peach.
 Další online možností je [HodlHodl](https://hodlhodl.com/), dobře zavedená platforma, která nabízí dobrou likviditu, ačkoli jsem ji osobně netestoval.
-[-> Objevte náš tutoriál na HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> Objevte náš tutoriál na HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Pro řešení založená na Lightning Network můžete vyzkoušet [RoboSats](https://learn.robosats.com/) a [LNP2PBot](https://lnp2pbot.com/). RoboSats je přístupný přes webové stránky a je relativně jednoduchý na použití. LNP2PBot je atypičtější, protože funguje prostřednictvím systému výměny na aplikaci pro zasílání zpráv Telegram.
 
-[-> Objevte náš tutoriál na RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> Objevte náš tutoriál na LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> Objevte náš tutoriál na RoboSats.
+-> Objevte náš tutoriál na LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1222,9 +1236,11 @@ Pro řešení založená na Lightning Network můžete vyzkoušet [RoboSats](htt
 
 V závislosti na zemi, ve které žijete, můžete mít přístup k regulovaným platformám, které nevyžadují proceduru KYC pro nákup nebo prodej bitcoinů. Ve Švýcarsku můžete například používat platformy jako [Relai](https://relai.app/) a [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Objevte náš tutoriál na Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Objevte náš tutoriál na Relai.
 Jak jsme viděli v předchozí kapitole, tento typ platformy vás ušetří rizik spojených s postupy KYC, ale představují vyšší úroveň rizika pro klíčovou identifikaci. Pokud jde o soukromí na Bitcoinu, tyto platformy tedy nabízejí lepší ochranu než metody nákupu s KYC, ale nejsou tak zajímavé jako P2P burzy.
 Nicméně, pokud jde o osobní bezpečnost, používání těchto platforem je výrazně méně rizikové než P2P burzy. Jsou také často jednodušší na používání než platformy, které usnadňují P2P výměny.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Bankomaty
 
@@ -1250,7 +1266,9 @@ Mezi další metody získání bitcoinů při ochraně vašeho soukromí patří
 
 Další metoda spočívá v práci výměnou za bitcoiny. Tato metoda získání může být zajímavá, ale stupeň vyžadované identifikace se velmi liší v závislosti na okolnostech.
 
-\_K napsání této kapitoly jsem využil kurz [BTC205](https://planb.network/fr/courses/btc205) vytvořený [@pivi\_\_\_](https://x.com/pivi___) na Plan ₿ Network (zatím dostupný pouze ve francouzštině).\_
+\_K napsání této kapitoly jsem využil kurz BTC205 vytvořený [@pivi\_\_\_](https://x.com/pivi___) na Plan ₿ Network (zatím dostupný pouze ve francouzštině).\_
+
+
 
 ## Konsolidace, Správa UTXO a CIOH
 

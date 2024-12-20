@@ -271,8 +271,12 @@ Questi punti di ingresso sono quasi inevitabili nell'uso di Bitcoin. Anche se si
 
 Quindi, è anche necessario essere in grado di affrontare l'analisi della blockchain nel nostro uso di Bitcoin. Procedendo in questo modo, possiamo minimizzare l'aggregazione delle nostre attività e limitare l'impatto di un punto di ingresso sulla nostra privacy.
 
-Infatti, per contrastare meglio l'analisi della blockchain, quale approccio migliore se non familiarizzare con i metodi utilizzati nell'analisi della blockchain? Se vuoi sapere come migliorare la tua privacy su Bitcoin, devi comprendere questi metodi. Ciò ti permetterà di comprendere meglio tecniche come [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) o [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (tecniche che studieremo nelle ultime parti della formazione), e di ridurre gli errori che potresti commettere.
+Infatti, per contrastare meglio l'analisi della blockchain, quale approccio migliore se non familiarizzare con i metodi utilizzati nell'analisi della blockchain? Se vuoi sapere come migliorare la tua privacy su Bitcoin, devi comprendere questi metodi. Ciò ti permetterà di comprendere meglio tecniche come coinjoin o payjoin (tecniche che studieremo nelle ultime parti della formazione), e di ridurre gli errori che potresti commettere.
 In questo contesto, possiamo fare un'analogia con la crittografia e la crittoanalisi. Un buon crittografo è prima di tutto un buon crittoanalista. Per immaginare un nuovo algoritmo di crittografia, è necessario sapere quali attacchi dovrà affrontare e studiare anche perché gli algoritmi precedenti sono stati violati. Lo stesso principio si applica alla privacy su Bitcoin. Comprendere i metodi di analisi della blockchain è la chiave per proteggersi da essa. Ecco perché propongo un'intera sezione sull'analisi della blockchain in questa formazione.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### I metodi di analisi della blockchain
 
@@ -1188,26 +1192,38 @@ Un altro svantaggio degli acquisti P2P è che il prezzo è spesso più alto risp
 
 Per quanto riguarda le soluzioni, ho personalmente sempre usato [Bisq](https://bisq.network/) e ne sono molto soddisfatto. Il loro sistema è ben consolidato e sembra affidabile. Tuttavia, Bisq è disponibile solo su PC e la sua interfaccia potrebbe essere troppo complessa per i principianti. Un altro svantaggio è che Bisq opera esclusivamente con transazioni onchain, che possono diventare costose durante periodi di commissioni di transazione elevate su Bitcoin.
 
-[-> Scopri il nostro tutorial su Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Scopri il nostro tutorial su Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Per un'opzione più semplice, puoi provare [Peach](https://peachbitcoin.com/), un'app mobile che facilita la connessione tra acquirenti e venditori con un sistema integrato di risoluzione delle controversie. Il processo è più intuitivo rispetto a quello di Bisq.
 
-[-> Scopri il nostro tutorial su Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Scopri il nostro tutorial su Peach.
 Un'altra opzione online è [HodlHodl](https://hodlhodl.com/), una piattaforma ben consolidata che offre una buona liquidità, anche se personalmente non l'ho testata.
-[-> Scopri il nostro tutorial su HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> Scopri il nostro tutorial su HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Per soluzioni basate sulla Lightning Network, puoi provare [RoboSats](https://learn.robosats.com/) e [LNP2PBot](https://lnp2pbot.com/). RoboSats è accessibile tramite un sito web ed è relativamente semplice da usare. LNP2PBot è più atipico, in quanto opera attraverso un sistema di scambio sull'app di messaggistica Telegram.
 
-[-> Scopri il nostro tutorial su RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> Scopri il nostro tutorial su LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> Scopri il nostro tutorial su RoboSats.
+-> Scopri il nostro tutorial su LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ### Piattaforme regolamentate senza KYC
 
 A seconda del paese in cui vivi, potresti avere accesso a piattaforme regolamentate che non richiedono una procedura KYC per comprare o vendere bitcoin. In Svizzera, ad esempio, puoi utilizzare piattaforme come [Relai](https://relai.app/) e [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Scopri il nostro tutorial su Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Scopri il nostro tutorial su Relai.
 Come abbiamo visto nel capitolo precedente, questo tipo di piattaforma ti risparmia i rischi associati alle procedure KYC, ma presentano un livello di rischio più elevato per l'identificazione delle chiavi. In termini di privacy su Bitcoin, queste piattaforme offrono quindi una protezione migliore rispetto ai metodi di acquisto con KYC, ma sono meno interessanti rispetto agli scambi P2P.
 Tuttavia, in termini di sicurezza personale, l'utilizzo di queste piattaforme è significativamente meno rischioso rispetto agli scambi P2P. Sono anche spesso più semplici da usare rispetto alle piattaforme che facilitano gli scambi P2P.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Bancomat
 
@@ -1230,7 +1246,9 @@ Tra gli altri metodi per acquisire bitcoin proteggendo la tua privacy, c'è ovvi
 
 Un altro metodo consiste nel lavorare in cambio di bitcoin. Questo metodo di acquisizione può essere interessante, ma il grado di identificazione richiesto varia notevolmente a seconda delle circostanze.
 
-\_Per scrivere questo capitolo, ho utilizzato il corso [BTC205](https://planb.network/fr/courses/btc205) creato da [@pivi\_\_\_](https://x.com/pivi___) sulla Rete Plan ₿ (disponibile solo in francese per il momento).\_
+\_Per scrivere questo capitolo, ho utilizzato il corso BTC205 creato da [@pivi\_\_\_](https://x.com/pivi___) sulla Rete Plan ₿ (disponibile solo in francese per il momento).\_
+
+
 
 ## Consolidamento, Gestione UTXO e CIOH
 

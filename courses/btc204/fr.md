@@ -318,7 +318,11 @@ Ainsi, il faut également pouvoir faire face à l’analyse de chaîne dans notr
 
 ![BTC204](assets/notext/31/5.webp)
 
-Justement, pour mieux contrecarrer l'analyse de chaîne, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse de chaîne ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme [le coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) ou [le payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
+Justement, pour mieux contrecarrer l'analyse de chaîne, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse de chaîne ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme le coinjoin ou le payjoin (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 En ça, nous pouvons faire une analogie avec la cryptographie et la cryptanalyse. Un bon cryptographe est avant tout un bon cryptanalyste. Pour imaginer un nouvel algorithme de chiffrement, il faut savoir quelles sont les attaques auxquelles il devra faire face, et également étudier pourquoi les algorithmes précédents ont été cassés. Le même principe s'applique à la confidentialité sur Bitcoin. Comprendre les méthodes de l'analyse de chaîne est la clé pour s'en prémunir. C’est pour cette raison que je vous propose une partie entière sur l'analyse de chaîne dans cette formation.
 
@@ -1344,20 +1348,30 @@ Encore une fois, un autre inconvénient des achats en P2P est que le prix est so
 
 Concernant les solutions, j'ai personnellement toujours utilisé [Bisq](https://bisq.network/) et j'en suis très satisfait. Leur système est rodé et semble fiable. Toutefois, Bisq n'est disponible que sur PC et son interface peut être trop complexe pour les débutants. Un autre inconvénient est que Bisq opère uniquement avec des transactions onchain, ce qui peut devenir coûteux lors de périodes de frais de transaction élevés sur Bitcoin.
 
-[-> Découvrir notre tutoriel sur Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Découvrir notre tutoriel sur Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Pour une option plus simple, vous pouvez essayer [Peach](https://peachbitcoin.com/), une application mobile qui permet la mise en relation des acheteurs et vendeurs avec un système de résolution de conflits intégré. Le processus est plus intuitif que celui de Bisq.
 
-[-> Découvrir notre tutoriel sur Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Découvrir notre tutoriel sur Peach.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
 
 Une autre option en ligne est [HodlHodl](https://hodlhodl.com/), une plateforme bien établie qui offre de bonnes liquidités, bien que je ne l'aie pas personnellement testée.
 
-[-> Découvrir notre tutoriel sur HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> Découvrir notre tutoriel sur HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Pour les solutions basées sur le Lightning Network, vous pouvez essayer [RoboSats](https://learn.robosats.com/) et [LNP2PBot](https://lnp2pbot.com/). RoboSats est accessible via un site web et est relativement simple à utiliser. LNP2PBot est plus atypique, car il fonctionne via un système d'échange sur l'application de messagerie Telegram.
 
-[-> Découvrir notre tutoriel sur RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> Découvrir notre tutoriel sur LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> Découvrir notre tutoriel sur RoboSats.
+-> Découvrir notre tutoriel sur LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1365,7 +1379,9 @@ Pour les solutions basées sur le Lightning Network, vous pouvez essayer [RoboSa
 
 Selon le pays où vous vivez, vous pourriez avoir accès à des plateformes régulées qui ne requièrent pas de procédure KYC pour acheter ou vendre des bitcoins. En Suisse, par exemple, vous pouvez utiliser des plateformes comme [Relai](https://relai.app/) et [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Découvrir notre tutoriel sur Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Découvrir notre tutoriel sur Relai.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 Comme nous avons vu dans le chapitre précédent, ce type de plateforme vous épargne des risques associés aux procédures KYC, mais elles présentent un niveau de risque plus élevé pour l'identification des clés. En termes de confidentialité sur Bitcoin, ces plateformes offrent donc une meilleure protection que les méthodes d'achat avec KYC, mais elles restent moins intéressantes que les échanges en P2P.
 
@@ -1397,7 +1413,9 @@ Parmi les autres méthodes pour acquérir des bitcoins tout en protégeant votre
 
 Une autre méthode consiste à travailler en échange de bitcoins. Cette méthode d'acquisition peut être intéressante, mais le degré d'identification requis varie considérablement selon les circonstances.
 
-*Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur Plan ₿ Network (disponible uniquement en français pour le moment).*
+*Pour rédiger ce chapitre, je me suis servi de la formation BTC205 réalisée par [@pivi___](https://x.com/pivi___) sur Plan ₿ Network (disponible uniquement en français pour le moment).*
+
+
 
 ## La consolidation, la gestion des UTXOs et la CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2060,7 +2078,7 @@ L'anonset rétrospectif indique le nombre de sources possibles pour une pièce d
 ![BTC204](assets/fr/55/06.webp)
 
  En connaissant votre UTXO à la sortie des cycles, l'anonset rétrospectif détermine le nombre de transactions Tx0 potentielles qui auraient pu constituer votre entrée dans les cycles de coinjoins. Sur le schéma ci-dessous, cela correspond à l'addition de toutes les bulles orange.
- 
+
 ![BTC204](assets/notext/55/07.webp)
 
 Par exemple, imaginons que notre pièce en sortie de cycle de coinjoin bénéficie d'un anonset rétrospectif de `42 185`. Concrètement, cela signifie qu'il existe `42 185` sources potentielles pour cet UTXO. Si un observateur externe identifie cette pièce à la fin des cycles et cherche à en retrouver l'origine, il se trouvera face à `42 185` sources possibles, toutes avec une probabilité égale d'être l'origine recherchée.
@@ -2581,7 +2599,7 @@ Le ricochet consiste simplement à s'envoyer des bitcoins à soi-même. Il est d
 Dans le chapitre suivant, nous étudions différentes techniques de transferts secrets de propriété. Ces méthodes diffèrent radicalement de celles que nous avons examinées jusqu'à présent, tant en termes de fonctionnement que de résultats.
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
- 
+
 ## Les transferts secrets de propriété
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -3130,7 +3148,7 @@ Maintenant, voyons comment fonctionne cette transaction de notification. Imagino
 $$
 a
 $$
-   
+
 - Alice récupère la clé publique associée à l'adresse de notification de Bob. Cette clé est la première fille dérivée depuis le code de paiement de Bob (index $/0$). Nous nommons cette clé publique $B$ (majuscule). La clé privée associée à cette clé publique est nommée $b$ (minuscule). $B$ est déterminé par addition et doublement de points sur la courbe elliptique depuis $G$ (le point générateur) avec $b$ (la clé privée) :
 
 $$ B = b \cdot G $$

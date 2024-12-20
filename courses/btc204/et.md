@@ -281,8 +281,12 @@ Need sisenemispunktid on Bitcoin'i kasutamisel peaaegu vältimatud. Kuigi võib 
 
 Seega on samuti vajalik suuta vastu seista plokiahela analüüsile meie Bitcoin'i kasutamisel. Sellisel viisil toimides saame minimeerida oma tegevuste agregatsiooni ja piirata sisenemispunkti mõju meie privaatsusele.
 
-Tõepoolest, et paremini vastu seista plokiahela analüüsile, mis oleks parem lähenemine kui tutvuda plokiahela analüüsis kasutatavate meetoditega? Kui soovite teada, kuidas oma privaatsust Bitcoin'is parandada, peate mõistma neid meetodeid. See võimaldab teil paremini mõista tehnikaid nagu [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) või [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (tehnikad, mida me uurime koolituse viimastes osades), ja vähendada vigu, mida võite teha.
+Tõepoolest, et paremini vastu seista plokiahela analüüsile, mis oleks parem lähenemine kui tutvuda plokiahela analüüsis kasutatavate meetoditega? Kui soovite teada, kuidas oma privaatsust Bitcoin'is parandada, peate mõistma neid meetodeid. See võimaldab teil paremini mõista tehnikaid nagu coinjoin või payjoin (tehnikad, mida me uurime koolituse viimastes osades), ja vähendada vigu, mida võite teha.
 Selles võime teha analoogia krüptograafia ja krüptoanalüüsi vahel. Hea krüptograaf on eelkõige hea krüptoanalüütik. Uue krüpteerimisalgoritmi väljamõtlemiseks peab inimene teadma, milliste rünnakutega see peab silmitsi seisma, ja uurima ka seda, miks eelmised algoritmid murdusid. Sama põhimõte kehtib privaatsuse kohta Bitcoinis. Plokiahela analüüsi meetodite mõistmine on võti selle vastu kaitsmiseks. Seetõttu pakun välja terve jaotise plokiahela analüüsist selles koolituses.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Plokiahela analüüsi meetodid
 
@@ -1200,18 +1204,28 @@ Jällegi on üks P2P ostude puudustest see, et hind on sageli kõrgem kui regule
 
 Lahenduste osas olen isiklikult alati kasutanud [Bisq](https://bisq.network/) ja olen sellega väga rahul. Nende süsteem on hästi välja töötatud ja tundub usaldusväärne. Siiski on Bisq saadaval ainult PC-l ja selle liides võib algajatele olla liiga keeruline. Teine puudus on see, et Bisq toimib ainult onchain tehingutega, mis võivad Bitcoin'i kõrgete tehingutasude perioodidel muutuda kulukaks.
 
-[-> Avasta meie õpetus Bisqi kohta.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Avasta meie õpetus Bisqi kohta.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Lihtsama valikuna võite proovida [Peach](https://peachbitcoin.com/), mobiilirakendust, mis hõlbustab ostjate ja müüjate vahelist ühendust integreeritud vaidluste lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqil.
 
-[-> Avasta meie õpetus Peach'i kohta.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Avasta meie õpetus Peach'i kohta.
 Teine võrgupõhine valik on [HodlHodl](https://hodlhodl.com/), hästi välja kujunenud platvorm, mis pakub head likviidsust, kuigi ma pole seda isiklikult testinud.
-[-> Avasta meie õpetus HodlHodl'i kohta.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> Avasta meie õpetus HodlHodl'i kohta.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Lahenduste jaoks, mis põhinevad Lightning Network'il, võite proovida [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSats on kättesaadav veebisaidi kaudu ja on suhteliselt lihtne kasutada. LNP2PBot on ebatüüpilisem, kuna see toimib vahetussüsteemina Telegrami sõnumirakenduses.
 
-[-> Avasta meie õpetus RoboSats'i kohta.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> Avasta meie õpetus LNP2PBot'i kohta.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> Avasta meie õpetus RoboSats'i kohta.
+-> Avasta meie õpetus LNP2PBot'i kohta.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1219,9 +1233,11 @@ Lahenduste jaoks, mis põhinevad Lightning Network'il, võite proovida [RoboSats
 
 Sõltuvalt riigist, kus elate, võib teil olla juurdepääs reguleeritud platvormidele, mis ei nõua bitcoini ostmiseks või müümiseks KYC protseduuri. Šveitsis näiteks võite kasutada platvorme nagu [Relai](https://relai.app/) ja [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Avasta meie õpetus Relai kohta.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Avasta meie õpetus Relai kohta.
 Nagu me eelmises peatükis nägime, säästab see tüüpi platvorm teid KYC protseduuridega seotud riskidest, kuid nad esitavad suurema riski võtmete identifitseerimise osas. Privaatsuse mõttes Bitcoinil pakuvad need platvormid seega paremat kaitset kui KYC-ga ostumeetodid, kuid nad ei ole nii huvitavad kui P2P vahetused.
 Siiski, isikliku turvalisuse mõttes on nende platvormide kasutamine oluliselt vähem riskantne kui P2P vahetused. Samuti on need sageli lihtsamini kasutatavad kui platvormid, mis hõlbustavad P2P vahetusi.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Sularahaautomaadid
 
@@ -1247,7 +1263,9 @@ Teiste meetodite hulgas, et omandada bitcoine samal ajal oma privaatsust kaitste
 
 Teine meetod seisneb töötamises bitcoine vastu. See omandamise meetod võib olla huvitav, kuid nõutava identifitseerimise aste varieerub suuresti olenevalt asjaoludest.
 
-_Selle peatüki kirjutamiseks kasutasin kursust [BTC205](https://planb.network/fr/courses/btc205), mille lõi [@pivi\_\_\_](https://x.com/pivi___) Plan ₿ võrgustikus (hetkel saadaval ainult prantsuse keeles)._
+_Selle peatüki kirjutamiseks kasutasin kursust BTC205, mille lõi [@pivi\_\_\_](https://x.com/pivi___) Plan ₿ võrgustikus (hetkel saadaval ainult prantsuse keeles)._
+
+
 
 ## Konsolideerimine, UTXO Haldamine ja CIOH
 

@@ -270,9 +270,11 @@ Những điểm vào này gần như không thể tránh khỏi trong việc s�
 Do đó, chúng ta cũng cần phải có khả năng đối mặt với phân tích chuỗi trong việc sử dụng Bitcoin của mình. Làm được điều đó, chúng ta có thể giảm thiểu việc các hoạt động của mình bị thu thập và hạn chế ảnh hưởng của một điểm vào đối với quyền riêng tư của chúng ta.
 ![BTC204](assets/notext/31/5.webp)
 
-Thực ra, để đối phó tốt hơn với phân tích chuỗi, cách tiếp cận tốt nhất là nắm bắt được các phương pháp đang được dùng trong phân tích chuỗi. Nếu muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn phải hiểu những phương pháp này. Điều này sẽ cho phép bạn hiểu rõ hơn về các kỹ thuật như trộn coin - trộn coin hoặc [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (các kỹ thuật mà chúng ta sẽ nghiên cứu trong các phần cuối của khóa học), và giảm thiểu những sai lầm có thể mắc phải.
+Thực ra, để đối phó tốt hơn với phân tích chuỗi, cách tiếp cận tốt nhất là nắm bắt được các phương pháp đang được dùng trong phân tích chuỗi. Nếu muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn phải hiểu những phương pháp này. Điều này sẽ cho phép bạn hiểu rõ hơn về các kỹ thuật như trộn coin - trộn coin hoặc payjoin (các kỹ thuật mà chúng ta sẽ nghiên cứu trong các phần cuối của khóa học), và giảm thiểu những sai lầm có thể mắc phải.
 Trong phần này, chúng ta có thể ví dụ như việc mã hóa và giải mã mã hóa. Một nhà mã hóa giỏi trước hết phải là một nhà phân tích mã hóa giỏi. Để tưởng tượng ra một thuật toán mã hóa mới, người ta phải biết nó sẽ phải đối mặt với những cuộc tấn công nào, và cũng phải nghiên cứu tại sao các thuật toán trước đó bị phá vỡ. Nguyên tắc tương tự áp dụng cho quyền riêng tư trên mạng lưới Bitcoin. Hiểu biết về các phương pháp phân tích chuỗi là chìa khóa để bảo vệ chống lại nó. Đó là lý do tại sao tôi đề xuất một phần hoàn chỉnh về phân tích chuỗi trong khóa học này.
 ### Các phương pháp phân tích blockchain
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Quan trọng là chúng ta cần hiểu được rằng phân tích chuỗi không phải là một môn khoa học chính xác. Nó dựa trên các quy tắc suy luận từ các quan sát trước đó hoặc các diễn giải logic. Những quy tắc này cho phép đạt được kết quả khá đáng tin cậy, nhưng không bao giờ là với độ chính xác tuyệt đối cả. Nói cách khác, **phân tích chuỗi luôn tồn tại yếu tố xác suất trong các kết luận được đưa ra**. Ví dụ, có thể ước lượng với độ chắc chắn nhiều hay ít rằng hai địa chỉ thuộc về cùng một thực thể, nhưng sự chắc chắn tuyệt đối luôn nằm ngoài tầm với.
 
@@ -1057,7 +1059,9 @@ Tất cả các phương pháp tự động lựa chọn UTXO này có thể hi�
 
 ### Hướng dẫn về gán nhãn UTXO
 
-Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ liên quan tới các phần mềm ví Bitcoin phổ biến hiện nay. Tìm hiểu [bằng cách nhấp vào đây](https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52).
+Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ liên quan tới các phần mềm ví Bitcoin phổ biến hiện nay. Tìm hiểu bằng cách nhấp vào đây.
+
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC và xác định danh tính của chủ khoá
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1177,26 +1181,38 @@ Một lần nữa, một nhược điểm khác của việc mua bán P2P là gi
 
 Về giải pháp, cá nhân tôi luôn sử dụng [Bisq](https://bisq.network/) và rất hài lòng với nó. Hệ thống của họ được thiết lập tốt và có vẻ đáng tin cậy. Tuy nhiên, Bisq chỉ có sẵn trên máy tính cá nhân và giao diện của nó có thể quá phức tạp đối với người mới bắt đầu. Một nhược điểm khác là Bisq chỉ hoạt động với giao dịch trên chuỗi, có thể trở nên tốn kém trong những thời kỳ phí giao dịch Bitcoin cao.
 
-[-> Khám phá hướng dẫn của chúng tôi về Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Khám phá hướng dẫn của chúng tôi về Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Đối với một lựa chọn đơn giản hơn, bạn có thể thử [Peach](https://peachbitcoin.com/), một ứng dụng di động giúp kết nối người mua và người bán với hệ thống giải quyết tranh chấp tích hợp. Quy trình này dễ hiểu hơn so với Bisq.
 
-[-> Khám phá hướng dẫn của chúng tôi về Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Khám phá hướng dẫn của chúng tôi về Peach.
 Một lựa chọn trực tuyến khác là [HodlHodl](https://hodlhodl.com/), một nền tảng đã có uy tín tốt và cung cấp tính thanh khoản tốt, mặc dù cá nhân tôi chưa từng trải nghiệm.
 
-[-> Khám phá hướng dẫn của chúng tôi về HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+-> Khám phá hướng dẫn của chúng tôi về HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Đối với các giải pháp dựa trên Lightning Network, bạn có thể thử [RoboSats](https://learn.robosats.com/) và [LNP2PBot](https://lnp2pbot.com/). RoboSats có thể truy cập qua một trang web và tương đối dễ sử dụng. LNP2PBot thì đặc biệt hơn, vì nó hoạt động thông qua một hệ thống trao đổi trên ứng dụng nhắn tin Telegram.
 
-[-> Khám phá hướng dẫn của chúng tôi về RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> Khám phá hướng dẫn của chúng tôi về LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> Khám phá hướng dẫn của chúng tôi về RoboSats.
+-> Khám phá hướng dẫn của chúng tôi về LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ### Các nền tảng giao dịch được quản lý nhưng không yêu cầu KYC
 
 Tùy thuộc vào quốc gia bạn sống, bạn có thể có quyền truy cập vào các nền tảng được quản lý không yêu cầu thủ tục KYC để mua hoặc bán bitcoin. Ở Thụy Sĩ, ví dụ, bạn có thể sử dụng các nền tảng như [Relai](https://relai.app/) và [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Khám phá hướng dẫn của chúng tôi về Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Khám phá hướng dẫn của chúng tôi về Relai.
 Như chúng ta đã thấy trong chương trước, loại nền tảng này giúp bạn tránh được rủi ro liên quan đến các thủ tục KYC, nhưng chúng lại mang lại mức độ rủi ro cao hơn trong việc dễ bị xác định danh tính chủ khoá. Về mặt bảo mật thông tin cá nhân trên Bitcoin, những nền tảng này do đó cung cấp bảo vệ tốt hơn so với các phương pháp mua bán có KYC, nhưng chúng kém hấp dẫn hơn so với giao dịch P2P.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 Tuy nhiên, về mặt an toàn cá nhân, việc sử dụng những nền tảng này ít rủi ro hơn đáng kể so với giao dịch P2P. Chúng cũng thường dễ sử dụng hơn so với các nền tảng hỗ trợ giao dịch P2P.
 
@@ -1224,7 +1240,9 @@ Trong số các phương pháp khác để mua bitcoin mà vẫn bảo vệ đư
 
 Một phương pháp khác bao gồm làm việc và nhận lương bằng bitcoin. Phương pháp mua bán này có thể thú vị, nhưng mức độ xác định danh tính yêu cầu thay đổi rất nhiều tùy theo hoàn cảnh.
 
-*Để viết chương này, tôi đã sử dụng khóa học [BTC205](https://planb.network/fr/courses/btc205) được tạo bởi [@pivi___](https://x.com/pivi___) trên Plan ₿ Network (hiện chỉ có sẵn bằng tiếng Pháp).*
+*Để viết chương này, tôi đã sử dụng khóa học BTC205 được tạo bởi [@pivi___](https://x.com/pivi___) trên Plan ₿ Network (hiện chỉ có sẵn bằng tiếng Pháp).*
+
+
 
 ## Hợp nhất, quản lý UTXO và CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>

@@ -283,8 +283,12 @@ Diese Eintrittspunkte sind bei der Nutzung von Bitcoin fast unvermeidlich. Obwoh
 Daher ist es auch notwendig, sich in unserer Nutzung von Bitcoin der Blockchain-Analyse stellen zu können. Indem wir auf diese Weise vorgehen, können wir die Aggregation unserer Aktivitäten minimieren und die Auswirkungen eines Eintrittspunkts auf unsere Privatsphäre begrenzen.
 ![BTC204](assets/notext/31/5.webp)
 
-Um die Blockchain-Analyse besser zu bekämpfen, was gibt es für einen besseren Ansatz, als sich mit den Methoden vertraut zu machen, die in der Blockchain-Analyse verwendet werden? Wenn Sie wissen möchten, wie Sie Ihre Privatsphäre bei Bitcoin verbessern können, müssen Sie diese Methoden verstehen. Dies wird es Ihnen ermöglichen, Techniken wie [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) oder [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (Techniken, die wir in den letzten Teilen des Trainings studieren werden) besser zu erfassen und die Fehler zu reduzieren, die Sie möglicherweise machen.
+Um die Blockchain-Analyse besser zu bekämpfen, was gibt es für einen besseren Ansatz, als sich mit den Methoden vertraut zu machen, die in der Blockchain-Analyse verwendet werden? Wenn Sie wissen möchten, wie Sie Ihre Privatsphäre bei Bitcoin verbessern können, müssen Sie diese Methoden verstehen. Dies wird es Ihnen ermöglichen, Techniken wie coinjoin oder payjoin (Techniken, die wir in den letzten Teilen des Trainings studieren werden) besser zu erfassen und die Fehler zu reduzieren, die Sie möglicherweise machen.
 In diesem Zusammenhang können wir eine Analogie zur Kryptographie und Kryptoanalyse ziehen. Ein guter Kryptograph ist zuallererst ein guter Kryptoanalytiker. Um einen neuen Verschlüsselungsalgorithmus zu entwerfen, muss man wissen, welchen Angriffen er ausgesetzt sein wird, und auch studieren, warum frühere Algorithmen gebrochen wurden. Das gleiche Prinzip gilt für die Privatsphäre bei Bitcoin. Das Verständnis der Methoden der Blockchain-Analyse ist der Schlüssel zum Schutz dagegen. Deshalb schlage ich einen ganzen Abschnitt über Blockchain-Analyse in dieser Schulung vor.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Die Methoden der Blockchain-Analyse
 
@@ -1223,18 +1227,28 @@ Ein weiterer Nachteil von P2P-Käufen ist, dass der Preis oft höher ist als auf
 
 Bezüglich Lösungen habe ich persönlich immer [Bisq](https://bisq.network/) verwendet und bin damit sehr zufrieden. Ihr System ist gut etabliert und scheint zuverlässig zu sein. Allerdings ist Bisq nur auf dem PC verfügbar und seine Schnittstelle könnte für Anfänger zu komplex sein. Ein weiterer Nachteil ist, dass Bisq ausschließlich mit Onchain-Transaktionen arbeitet, was während Perioden hoher Transaktionsgebühren auf Bitcoin kostspielig werden kann.
 
-[-> Entdecken Sie unser Tutorial zu Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Entdecken Sie unser Tutorial zu Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Für eine einfachere Option können Sie [Peach](https://peachbitcoin.com/) ausprobieren, eine mobile App, die die Verbindung zwischen Käufern und Verkäufern mit einem integrierten Streitbeilegungssystem erleichtert. Der Prozess ist intuitiver als bei Bisq.
 
-[-> Entdecken Sie unser Tutorial zu Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Entdecken Sie unser Tutorial zu Peach.
 Eine weitere Online-Option ist [HodlHodl](https://hodlhodl.com/), eine gut etablierte Plattform, die eine gute Liquidität bietet, obwohl ich sie persönlich nicht getestet habe.
-[-> Entdecken Sie unser Tutorial zu HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> Entdecken Sie unser Tutorial zu HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Für Lösungen, die auf dem Lightning Network basieren, können Sie [RoboSats](https://learn.robosats.com/) und [LNP2PBot](https://lnp2pbot.com/) ausprobieren. RoboSats ist über eine Website zugänglich und relativ einfach zu bedienen. LNP2PBot ist untypischer, da er über ein Austauschsystem in der Messaging-App Telegram funktioniert.
 
-[-> Entdecken Sie unser Tutorial zu RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> Entdecken Sie unser Tutorial zu LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> Entdecken Sie unser Tutorial zu RoboSats.
+-> Entdecken Sie unser Tutorial zu LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1242,9 +1256,11 @@ Für Lösungen, die auf dem Lightning Network basieren, können Sie [RoboSats](h
 
 Je nachdem, in welchem Land Sie leben, haben Sie möglicherweise Zugang zu regulierten Plattformen, die kein KYC-Verfahren zum Kauf oder Verkauf von Bitcoins erfordern. In der Schweiz können Sie beispielsweise Plattformen wie [Relai](https://relai.app/) und [MtPelerin](https://www.mtpelerin.com/) nutzen.
 
-[-> Entdecken Sie unser Tutorial zu Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Entdecken Sie unser Tutorial zu Relai.
 Wie wir im vorherigen Kapitel gesehen haben, erspart Ihnen diese Art von Plattform die Risiken, die mit KYC-Verfahren verbunden sind, aber sie präsentieren ein höheres Risiko für die Schlüsselidentifikation. In Bezug auf die Privatsphäre bei Bitcoin bieten diese Plattformen daher einen besseren Schutz als Kaufmethoden mit KYC, aber sie sind weniger interessant als P2P-Börsen.
 Jedoch ist in Bezug auf die persönliche Sicherheit die Nutzung dieser Plattformen deutlich weniger riskant als P2P-Börsen. Sie sind auch oft einfacher zu nutzen als Plattformen, die P2P-Börsen erleichtern.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Geldautomaten
 
@@ -1270,7 +1286,9 @@ Unter anderen Methoden, um Bitcoins zu erwerben und dabei Ihre Privatsphäre zu 
 
 Eine weitere Methode besteht darin, im Austausch für Bitcoins zu arbeiten. Diese Erwerbsmethode kann interessant sein, aber der Grad der erforderlichen Identifikation variiert stark je nach den Umständen.
 
-\_Um dieses Kapitel zu schreiben, habe ich den Kurs [BTC205](https://planb.network/fr/courses/btc205) verwendet, der von [@pivi\_\_\_](https://x.com/pivi___) auf Plan ₿ Network (zurzeit nur auf Französisch verfügbar) erstellt wurde.\_
+\_Um dieses Kapitel zu schreiben, habe ich den Kurs BTC205 verwendet, der von [@pivi\_\_\_](https://x.com/pivi___) auf Plan ₿ Network (zurzeit nur auf Französisch verfügbar) erstellt wurde.\_
+
+
 
 ## Konsolidierung, UTXO-Management und CIOH
 

@@ -293,8 +293,12 @@ Disse inngangspunktene er nesten uunngåelige i bruken av Bitcoin. Selv om man k
 Dermed er det også nødvendig å kunne møte blokkjedeanalyse i vår bruk av Bitcoin. Ved å gå frem på denne måten, kan vi minimere aggregasjonen av våre aktiviteter og begrense innvirkningen av et inngangspunkt på vårt personvern.
 ![BTC204](assets/notext/31/5.webp)
 
-Faktisk, for å bedre motvirke blokkjedeanalyse, hva er vel en bedre tilnærming enn å gjøre seg kjent med metodene som brukes i blokkjedeanalyse? Hvis du vil vite hvordan du kan forbedre ditt personvern på Bitcoin, må du forstå disse metodene. Dette vil tillate deg å bedre forstå teknikker som [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) eller [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (teknikker som vi vil studere i de siste delene av opplæringen), og å redusere feilene du kanskje gjør.
+Faktisk, for å bedre motvirke blokkjedeanalyse, hva er vel en bedre tilnærming enn å gjøre seg kjent med metodene som brukes i blokkjedeanalyse? Hvis du vil vite hvordan du kan forbedre ditt personvern på Bitcoin, må du forstå disse metodene. Dette vil tillate deg å bedre forstå teknikker som coinjoin eller payjoin (teknikker som vi vil studere i de siste delene av opplæringen), og å redusere feilene du kanskje gjør.
 I dette kan vi trekke en analogi med kryptografi og kryptoanalyse. En god kryptograf er først og fremst en god kryptoanalytiker. For å forestille seg en ny krypteringsalgoritme, må man vite hvilke angrep den må stå imot, og også studere hvorfor tidligere algoritmer ble brutt. Det samme prinsippet gjelder for personvern på Bitcoin. Å forstå metodene for blokkjedeanalyse er nøkkelen til å beskytte mot det. Det er derfor jeg foreslår en hel seksjon om blokkjedeanalyse i denne opplæringen.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Metodene for blokkjedeanalyse
 
@@ -1206,18 +1210,28 @@ Igjen er en annen ulempe med P2P-kjøp at prisen ofte er høyere enn det som ses
 
 Når det gjelder løsninger, har jeg personlig alltid brukt [Bisq](https://bisq.network/) og er veldig fornøyd med det. Deres system er godt etablert og virker pålitelig. Imidlertid er Bisq kun tilgjengelig på PC, og grensesnittet kan være for komplekst for nybegynnere. En annen ulempe er at Bisq opererer utelukkende med onchain-transaksjoner, noe som kan bli kostbart i perioder med høye transaksjonsgebyrer på Bitcoin.
 
-[-> Oppdag vår opplæring på Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Oppdag vår opplæring på Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 For et enklere alternativ kan du prøve [Peach](https://peachbitcoin.com/), en mobilapp som letter forbindelsen mellom kjøpere og selgere med et integrert tvisteløsningssystem. Prosessen er mer intuitiv enn den hos Bisq.
 
-[-> Oppdag vår opplæring på Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Oppdag vår opplæring på Peach.
 Et annet online alternativ er [HodlHodl](https://hodlhodl.com/), en veletablert plattform som tilbyr god likviditet, selv om jeg personlig ikke har testet den.
-[-> Oppdag vår opplæring på HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> Oppdag vår opplæring på HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 For løsninger basert på Lightning Network, kan du prøve [RoboSats](https://learn.robosats.com/) og [LNP2PBot](https://lnp2pbot.com/). RoboSats er tilgjengelig via en nettside og er relativt enkel å bruke. LNP2PBot er mer atypisk, da den opererer gjennom et utvekslingssystem på Telegram meldingsapp.
 
-[-> Oppdag vår opplæring på RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> Oppdag vår opplæring på LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> Oppdag vår opplæring på RoboSats.
+-> Oppdag vår opplæring på LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1225,9 +1239,11 @@ For løsninger basert på Lightning Network, kan du prøve [RoboSats](https://le
 
 Avhengig av landet du bor i, kan du ha tilgang til regulerte plattformer som ikke krever en KYC-prosedyre for å kjøpe eller selge bitcoins. I Sveits, for eksempel, kan du bruke plattformer som [Relai](https://relai.app/) og [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Oppdag vår opplæring på Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Oppdag vår opplæring på Relai.
 Som vi så i det forrige kapittelet, sparer denne typen plattform deg for risikoene forbundet med KYC-prosedyrer, men de presenterer et høyere nivå av risiko for nøkkelidentifikasjon. Når det gjelder personvern på Bitcoin, tilbyr disse plattformene derfor bedre beskyttelse enn kjøpsmetoder med KYC, men de er mindre interessante enn P2P-utvekslinger.
 Imidlertid, når det gjelder personlig sikkerhet, er bruk av disse plattformene betydelig mindre risikofylt enn P2P-utvekslinger. De er også ofte enklere å bruke enn plattformer som legger til rette for P2P-utvekslinger.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Minibanker
 
@@ -1253,7 +1269,9 @@ Blant andre metoder for å skaffe bitcoins samtidig som du beskytter ditt person
 
 En annen metode består i å jobbe i bytte mot bitcoins. Denne anskaffelsesmetoden kan være interessant, men graden av identifikasjon som kreves varierer sterkt avhengig av omstendighetene.
 
-\_For å skrive dette kapittelet, brukte jeg kurset [BTC205](https://planb.network/fr/courses/btc205) skapt av [@pivi\_\_\_](https://x.com/pivi___) på Plan ₿ Network (tilgjengelig kun på fransk for øyeblikket).\_
+\_For å skrive dette kapittelet, brukte jeg kurset BTC205 skapt av [@pivi\_\_\_](https://x.com/pivi___) på Plan ₿ Network (tilgjengelig kun på fransk for øyeblikket).\_
+
+
 
 ## Konsolidering, UTXO-håndtering, og CIOH
 

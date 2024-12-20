@@ -271,8 +271,12 @@ Titik masuk ini hampir tidak terhindarkan dalam penggunaan Bitcoin. Meskipun ses
 ### Membela Diri Terhadap Analisis Rantai
 Dengan demikian, juga perlu untuk dapat menghadapi analisis blockchain dalam penggunaan Bitcoin kita. Dengan cara ini, kita dapat meminimalkan agregasi aktivitas kita dan membatasi dampak titik masuk pada privasi kita.
 
-Memang, untuk lebih baik melawan analisis blockchain, pendekatan apa yang lebih baik selain mempelajari metode yang digunakan dalam analisis blockchain? Jika Anda ingin tahu cara meningkatkan privasi Anda pada Bitcoin, Anda harus memahami metode-metode ini. Ini akan memungkinkan Anda untuk lebih memahami teknik seperti [coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) atau [payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) (teknik yang akan kita pelajari di bagian terakhir pelatihan), dan untuk mengurangi kesalahan yang mungkin Anda buat.
+Memang, untuk lebih baik melawan analisis blockchain, pendekatan apa yang lebih baik selain mempelajari metode yang digunakan dalam analisis blockchain? Jika Anda ingin tahu cara meningkatkan privasi Anda pada Bitcoin, Anda harus memahami metode-metode ini. Ini akan memungkinkan Anda untuk lebih memahami teknik seperti coinjoin atau payjoin (teknik yang akan kita pelajari di bagian terakhir pelatihan), dan untuk mengurangi kesalahan yang mungkin Anda buat.
 Dalam hal ini, kita dapat membuat analogi dengan kriptografi dan kriptoanalisis. Seorang kriptografer yang baik pertama-tama adalah seorang kriptoanalis yang baik. Untuk membayangkan algoritma enkripsi baru, seseorang harus tahu serangan apa yang akan dihadapinya, dan juga mempelajari mengapa algoritma sebelumnya dapat dipecahkan. Prinsip yang sama berlaku untuk privasi pada Bitcoin. Memahami metode analisis blockchain adalah kunci untuk melindungi diri dari hal itu. Itulah mengapa saya mengusulkan sebuah bagian lengkap tentang analisis blockchain dalam pelatihan ini.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Metode Analisis Blockchain
 
@@ -1174,18 +1178,28 @@ Sekali lagi, salah satu kelemahan pembelian P2P adalah harga seringkali lebih ti
 
 Mengenai solusi, saya secara pribadi selalu menggunakan [Bisq](https://bisq.network/) dan sangat puas dengan itu. Sistem mereka sudah terbentuk dengan baik dan tampaknya dapat diandalkan. Namun, Bisq hanya tersedia di PC dan antarmukanya mungkin terlalu kompleks untuk pemula. Kelemahan lain adalah Bisq beroperasi hanya dengan transaksi onchain, yang dapat menjadi mahal selama periode biaya transaksi Bitcoin yang tinggi.
 
-[-> Temukan tutorial kami tentang Bisq.](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Temukan tutorial kami tentang Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Untuk opsi yang lebih sederhana, Anda dapat mencoba [Peach](https://peachbitcoin.com/), aplikasi seluler yang memfasilitasi koneksi antara pembeli dan penjual dengan sistem penyelesaian sengketa terintegrasi. Prosesnya lebih intuitif daripada Bisq.
 
-[-> Temukan tutorial kami tentang Peach.](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Temukan tutorial kami tentang Peach.
 Opsi online lainnya adalah [HodlHodl](https://hodlhodl.com/), platform yang sudah terbentuk dengan baik yang menawarkan likuiditas yang baik, meskipun saya secara pribadi belum mencobanya.
-[-> Temukan tutorial kami tentang HodlHodl.](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> Temukan tutorial kami tentang HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Untuk solusi berbasis Lightning Network, Anda dapat mencoba [RoboSats](https://learn.robosats.com/) dan [LNP2PBot](https://lnp2pbot.com/). RoboSats dapat diakses melalui situs web dan relatif sederhana untuk digunakan. LNP2PBot lebih atipikal, karena beroperasi melalui sistem pertukaran di aplikasi perpesanan Telegram.
 
-[-> Temukan tutorial kami tentang RoboSats.](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> Temukan tutorial kami tentang LNP2PBot.](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> Temukan tutorial kami tentang RoboSats.
+-> Temukan tutorial kami tentang LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1193,9 +1207,11 @@ Untuk solusi berbasis Lightning Network, Anda dapat mencoba [RoboSats](https://l
 
 Tergantung pada negara tempat Anda tinggal, Anda mungkin memiliki akses ke platform teratur yang tidak memerlukan prosedur KYC untuk membeli atau menjual bitcoin. Di Swiss, misalnya, Anda dapat menggunakan platform seperti [Relai](https://relai.app/) dan [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Temukan tutorial kami tentang Relai.](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Temukan tutorial kami tentang Relai.
 Seperti yang kita lihat di bab sebelumnya, jenis platform ini menghindarkan Anda dari risiko yang terkait dengan prosedur KYC, tetapi mereka menyajikan tingkat risiko yang lebih tinggi untuk identifikasi kunci. Dalam hal privasi pada Bitcoin, platform ini oleh karena itu menawarkan perlindungan yang lebih baik daripada metode pembelian dengan KYC, tetapi mereka kurang menarik daripada pertukaran P2P.
 Namun, dalam hal keamanan pribadi, menggunakan platform ini secara signifikan kurang berisiko daripada pertukaran P2P. Mereka juga seringkali lebih sederhana untuk digunakan daripada platform yang memfasilitasi pertukaran P2P.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### ATM
 
@@ -1221,7 +1237,9 @@ Di antara metode lain untuk memperoleh bitcoin sambil melindungi privasi Anda, t
 
 Metode lain terdiri dari bekerja sebagai imbalan untuk bitcoin. Metode akuisisi ini bisa menarik, tetapi tingkat identifikasi yang diperlukan sangat bervariasi tergantung pada keadaannya.
 
-*Untuk menulis bab ini, saya menggunakan kursus [BTC205](https://planb.network/fr/courses/btc205) yang dibuat oleh [@pivi___](https://x.com/pivi___) di Plan ₿ Network (hanya tersedia dalam bahasa Prancis untuk saat ini).*
+*Untuk menulis bab ini, saya menggunakan kursus BTC205 yang dibuat oleh [@pivi___](https://x.com/pivi___) di Plan ₿ Network (hanya tersedia dalam bahasa Prancis untuk saat ini).*
+
+
 
 ## Konsolidasi, Manajemen UTXO, dan CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2279,7 +2297,7 @@ Ricochet pada dasarnya melibatkan pengiriman bitcoin kepada diri sendiri. Sangat
 Pada bab berikutnya, kami menjelajahi teknik berbeda untuk transfer properti rahasia. Metode-metode ini sangat berbeda dari yang telah kami periksa sejauh ini, baik dalam hal operasi maupun hasil.
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
- 
+
 ## Transfer Properti Rahasia
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 

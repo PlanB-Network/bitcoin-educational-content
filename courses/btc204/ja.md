@@ -266,8 +266,12 @@ Bitcoinトランザクションは、ブロックチェーン上に記録され�
 したがって、ビットコインの使用においてブロックチェーン分析に直面することも必要です。この方法で進めることにより、私たちは活動の集約を最小限に抑え、エントリーポイントが私たちのプライバシーに与える影響を限定することができます。
 ![BTC204](assets/notext/31/5.webp)
 
-実際、ブロックチェーン分析に対抗するためのより良いアプローチは、ブロックチェーン分析で使用される方法に自分自身を慣れさせることです。ビットコイン上でプライバシーを向上させる方法を知りたい場合、これらの方法を理解する必要があります。これにより、[coinjoin](https://planb.network/fr/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)や[payjoin](https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)（トレーニングの最後の部分で学習する技術）などの技術をよりよく把握し、あなたが犯すかもしれないミスを減らすことができます。
+実際、ブロックチェーン分析に対抗するためのより良いアプローチは、ブロックチェーン分析で使用される方法に自分自身を慣れさせることです。ビットコイン上でプライバシーを向上させる方法を知りたい場合、これらの方法を理解する必要があります。これにより、coinjoinやpayjoin（トレーニングの最後の部分で学習する技術）などの技術をよりよく把握し、あなたが犯すかもしれないミスを減らすことができます。
 このセクションでは、暗号学と暗号解析との類似性について考えてみます。優れた暗号学者は、まず何よりも優れた暗号解析者である必要があります。新しい暗号アルゴリズムを考案するためには、それが直面するであろう攻撃を知り、また以前のアルゴリズムがなぜ破られたのかを研究する必要があります。同じ原則がBitcoinのプライバシーにも適用されます。ブロックチェーン分析の方法を理解することが、それに対抗する鍵となります。そのため、このトレーニングではブロックチェーン分析に関する全セクションを提案します。
+
+https://planb.network/fr/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### ブロックチェーン分析の方法
 
@@ -1167,26 +1171,38 @@ P2P取引のもう一つのデメリットは、価格が規制されたプラ�
 
 解決策に関しては、私は個人的に常に[Bisq](https://bisq.network/)を使用しており、非常に満足しています。彼らのシステムは確立されており、信頼できると思われます。しかし、BisqはPCでのみ利用可能であり、そのインターフェイスは初心者には複雑すぎるかもしれません。もう一つの欠点は、Bisqがオンチェーントランザクションのみで動作し、Bitcoinの取引手数料が高騰する期間にはコストがかかることです。
 
-[-> Bisqに関するチュートリアルを見る。](https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04)
+-> Bisqに関するチュートリアルを見る。
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 よりシンプルなオプションをお探しの場合は、統合された紛争解決システムを備え、購入者と売り手の間の接続を容易にするモバイルアプリの[Peach](https://peachbitcoin.com/)を試してみることができます。そのプロセスはBisqよりも直感的です。
 
-[-> Peachに関するチュートリアルを見る。](https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028)
+-> Peachに関するチュートリアルを見る。
 オンラインの別のオプションは、良好な流動性を提供する確立されたプラットフォームである[HodlHodl](https://hodlhodl.com/)ですが、私は個人的にはテストしていません。
-[-> HodlHodlに関するチュートリアルを見る。](https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879)
+-> HodlHodlに関するチュートリアルを見る。
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Lightning Networkに基づくソリューションをお探しの場合は、[RoboSats](https://learn.robosats.com/)と[LNP2PBot](https://lnp2pbot.com/)を試すことができます。RoboSatsはウェブサイトを通じてアクセス可能で、比較的使いやすいです。LNP2PBotはより特異で、Telegramメッセージングアプリ上の交換システムを通じて動作します。
 
-[-> RoboSatsに関するチュートリアルを見る。](https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06)
-[-> LNP2PBotに関するチュートリアルを見る。](https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f)
+-> RoboSatsに関するチュートリアルを見る。
+-> LNP2PBotに関するチュートリアルを見る。
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ### KYCなしの規制プラットフォーム
 
 お住まいの国によっては、KYC手続きを必要としない規制プラットフォームを利用できる場合があります。たとえばスイスでは、[Relai](https://relai.app/)や[MtPelerin](https://www.mtpelerin.com/)のようなプラットフォームを使用できます。
 
-[-> Relaiに関するチュートリアルを見る。](https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e)
+-> Relaiに関するチュートリアルを見る。
 前章で見たように、このタイプのプラットフォームはKYC手続きに伴うリスクを回避してくれますが、鍵の識別に関してはより高いリスクを提示します。ビットコインのプライバシーに関して言えば、これらのプラットフォームはKYCを伴う購入方法よりも優れた保護を提供しますが、P2P取引所よりも魅力的ではありません。
 しかし、個人のセキュリティの観点からは、これらのプラットフォームを使用することはP2P取引所を使用することよりも大幅にリスクが低いです。また、P2P取引所を容易にするプラットフォームよりも使用が簡単であることが多いです。
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### ATM
 
@@ -1212,7 +1228,9 @@ KYC手続きを要求しないいくつかのプラットフォームは、主�
 
 別の方法は、ビットコインと引き換えに働くことです。この取得方法は興味深いものになる可能性がありますが、要求される識別の程度は状況によって大きく異なります。
 
-*この章を書くために、Plan ₿ Networkで[@pivi___](https://x.com/pivi___)によって作成されたコース[BTC205](https://planb.network/fr/courses/btc205)を使用しました（現時点ではフランス語でのみ利用可能）。*
+*この章を書くために、Plan ₿ Networkで[@pivi___](https://x.com/pivi___)によって作成されたコースBTC205を使用しました（現時点ではフランス語でのみ利用可能）。*
+
+
 
 ## 統合、UTXO管理、およびCIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2205,7 +2223,7 @@ StonewallとStonewall x2トランザクションは、Samourai Walletアプリ�
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
- 
+
 ## リコシェ
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
@@ -2257,7 +2275,7 @@ Samouraiアプリケーションはリコシェットの2つのバリアント�
 次の章では、秘密の財産転送のための異なる技術を探ります。これらの方法は、これまでに検討したものとは、操作と結果の両方の点で根本的に異なります。
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
- 
+
 ## 秘密の財産転送
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 

@@ -1258,6 +1258,8 @@ Nejlepší způsob, jak utratit BTC, je samozřejmě použít Bitcoin přímo ne
 
 Několik platforem, které nevyžadují postup KYC, nabízí možnost výměny bitcoinů za dárkové karty, které lze použít ve velkých obchodech. Mezi tyto platformy patří [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), a [Bitrefill](https://www.bitrefill.com/). Tyto platformy velmi usnadňují každodenní používání vašich bitcoinů tím, že vám umožňují přístup k široké škále produktů a služeb bez nutnosti konverze do fiat měny.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Další metody získání

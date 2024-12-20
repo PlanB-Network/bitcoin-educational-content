@@ -1255,6 +1255,8 @@ Parim viis BTC kulutamiseks on ilmselgelt Bitcoin'i või Lightning Network'i kas
 
 Mitmed KYC protseduuri mitte nõudvad platvormid pakuvad võimalust vahetada bitcoine kinkekaartide vastu, mida saab kasutada suurtes poodides. Nende platvormide hulgas leiame [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), ja [Bitrefill](https://www.bitrefill.com/). Need platvormid hõlbustavad oluliselt teie bitcoinide igapäevast kasutamist, võimaldades teil pääseda ligi laiale toodete ja teenuste valikule ilma, et peaksite läbima konverteerimise fiat-valuutasse.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Muud Omandamise Meetodid

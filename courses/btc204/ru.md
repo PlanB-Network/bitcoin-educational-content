@@ -1349,6 +1349,8 @@ https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85
 
 Несколько платформ, не требующих процедуры KYC, предлагают возможность обмена биткойнов на подарочные карты, которые можно использовать в крупных магазинах. Среди этих платформ мы находим [CoinsBee](https://www.coinsbee.com/), [The Биткойн Company](https://theБиткойнcompany.com/), и [Bitrefill](https://www.bitrefill.com/). Эти платформы значительно облегчают ежедневное использование ваших биткойнов, позволяя вам получить доступ к широкому спектру товаров и услуг без необходимости конвертации в фиатную валюту.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Другие методы приобретения

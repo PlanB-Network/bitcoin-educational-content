@@ -1405,6 +1405,8 @@ La meilleure façon de dépenser des BTC est évidemment d'utiliser directement 
 
 Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibilité d'échanger des bitcoins contre des cartes-cadeaux utilisables dans de grandes enseignes. Parmi ces plateformes, on trouve [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) et [Bitrefill](https://www.bitrefill.com/). Ces plateformes facilitent grandement l'usage quotidien de vos bitcoins en vous permettant d'accéder à une large gamme de produits et de services sans avoir à passer par une conversion en monnaie fiat.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Les autres méthodes d'acquisition

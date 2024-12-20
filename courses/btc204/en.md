@@ -1306,6 +1306,8 @@ The best way to spend BTC is obviously to use Bitcoin directly or the Lightning 
 
 Several platforms that do not require a KYC procedure offer the possibility of exchanging bitcoins for gift cards that can be used in major stores. Among these platforms, we find [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), and [Bitrefill](https://www.bitrefill.com/). These platforms greatly facilitate the daily use of your bitcoins by allowing you to access a wide range of products and services without having to go through a conversion into fiat currency.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Other Acquisition Methods

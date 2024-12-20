@@ -1229,6 +1229,8 @@ Cara terbaik untuk menghabiskan BTC tentunya adalah menggunakan Bitcoin secara l
 
 Beberapa platform yang tidak memerlukan prosedur KYC menawarkan kemungkinan untuk menukar bitcoin dengan kartu hadiah yang dapat digunakan di toko besar. Di antara platform ini, kita temukan [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), dan [Bitrefill](https://www.bitrefill.com/). Platform ini sangat memudahkan penggunaan sehari-hari bitcoin Anda dengan memungkinkan Anda mengakses berbagai produk dan layanan tanpa harus melalui konversi ke mata uang fiat.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Metode Akuisisi Lainnya

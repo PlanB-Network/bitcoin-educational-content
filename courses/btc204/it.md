@@ -1240,6 +1240,8 @@ Il modo migliore per spendere BTC è ovviamente utilizzare direttamente Bitcoin 
 
 Diverse piattaforme che non richiedono una procedura KYC offrono la possibilità di scambiare bitcoin con carte regalo utilizzabili nei principali negozi. Tra queste piattaforme, troviamo [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), e [Bitrefill](https://www.bitrefill.com/). Queste piattaforme facilitano notevolmente l'uso quotidiano dei tuoi bitcoin permettendoti di accedere a una vasta gamma di prodotti e servizi senza dover passare attraverso una conversione in valuta fiat.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ### Altri Metodi di Acquisizione
 
 Tra gli altri metodi per acquisire bitcoin proteggendo la tua privacy, c'è ovviamente il mining. Per iniziare a minare sats, non è necessario rivelare la tua identità; è sufficiente trovare una prova di lavoro valida e sottoporla alla rete. Se opti per il mining in pool, alcuni pool richiedono una forma di identificazione, come il KYC, mentre altri no.

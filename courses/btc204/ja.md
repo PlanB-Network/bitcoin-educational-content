@@ -1220,6 +1220,8 @@ BTCを使う最良の方法は、明らかにビットコインを直接使用�
 
 KYC手続きを要求しないいくつかのプラットフォームは、主要な店舗で使用できるギフトカードとビットコインを交換する可能性を提供しています。これらのプラットフォームには、[CoinsBee](https://www.coinsbee.com/)、[The Bitcoin Company](https://thebitcoincompany.com/)、および[Bitrefill](https://www.bitrefill.com/)が含まれます。これらのプラットフォームは、法定通貨への変換を行うことなく、幅広い製品やサービスへのアクセスを可能にすることで、ビットコインの日常使用を大いに容易にします。
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### その他の取得方法

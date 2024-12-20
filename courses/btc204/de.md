@@ -1278,6 +1278,8 @@ Der beste Weg, BTC auszugeben, ist natürlich, Bitcoin direkt oder das Lightning
 
 Mehrere Plattformen, die kein KYC-Verfahren erfordern, bieten die Möglichkeit, Bitcoins gegen Geschenkkarten einzutauschen, die in großen Geschäften verwendet werden können. Unter diesen Plattformen finden wir [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) und [Bitrefill](https://www.bitrefill.com/). Diese Plattformen erleichtern die tägliche Nutzung Ihrer Bitcoins erheblich, indem sie Ihnen Zugang zu einer breiten Palette von Produkten und Dienstleistungen ermöglichen, ohne dass eine Umwandlung in Fiat-Währung erforderlich ist.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Andere Erwerbsmethoden

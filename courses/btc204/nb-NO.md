@@ -1261,6 +1261,8 @@ Den beste måten å bruke BTC på er åpenbart å bruke Bitcoin direkte eller Li
 
 Flere plattformer som ikke krever en KYC-prosedyre tilbyr muligheten til å veksle bitcoins mot gavekort som kan brukes i store butikker. Blant disse plattformene finner vi [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), og [Bitrefill](https://www.bitrefill.com/). Disse plattformene letter den daglige bruken av dine bitcoins ved å tillate deg å få tilgang til et bredt spekter av produkter og tjenester uten å måtte gå gjennom en konvertering til fiatvaluta.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Andre Anskaffelsesmetoder

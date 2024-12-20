@@ -1300,6 +1300,8 @@ A melhor maneira de gastar BTC é obviamente usar o Bitcoin diretamente ou a Lig
 
 Várias plataformas que não requerem um procedimento KYC oferecem a possibilidade de trocar bitcoins por cartões presente que podem ser usados em grandes lojas. Entre essas plataformas, encontramos [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), e [Bitrefill](https://www.bitrefill.com/). Essas plataformas facilitam grandemente o uso diário de seus bitcoins, permitindo que você acesse uma ampla gama de produtos e serviços sem ter que passar por uma conversão em moeda fiduciária.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Outros Métodos de Aquisição

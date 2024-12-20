@@ -1276,6 +1276,9 @@ ATM机的主要缺点在于它们通常有很高的兑换费用，这些费用�
 
 一些不要求KYC程序的平台提供了将比特币换成可在主要商店使用的礼品卡的可能性。在这些平台中，我们找到了[CoinsBee](https://www.coinsbee.com/)、[The Bitcoin Company](https://thebitcoincompany.com/)和[Bitrefill](https://www.bitrefill.com/)。这些平台极大地方便了你日常使用比特币，允许你在不需要转换成法币的情况下访问广泛的产品和服务。
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### 其他获取方式

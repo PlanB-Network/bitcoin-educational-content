@@ -1232,6 +1232,8 @@ Cách tốt nhất để tiêu bitcoin rõ ràng là sử dụng trực tiếp b
 
 Một số nền tảng không yêu cầu thủ tục KYC cung cấp khả năng đổi bitcoin lấy thẻ quà tặng có thể sử dụng ở các cửa hàng lớn. Trong số các nền tảng này, chúng ta có thể tìm thấy [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), và [Bitrefill](https://www.bitrefill.com/). Những nền tảng này giúp việc sử dụng bitcoin vào các giao dịch hàng ngày của bạn trở nên dễ dàng hơn bằng cách cho phép bạn tiếp cận với một loạt sản phẩm và dịch vụ mà không cần phải chuyển đổi sang tiền pháp định.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Các phương pháp mua bán khác

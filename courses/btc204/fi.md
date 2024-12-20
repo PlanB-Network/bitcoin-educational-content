@@ -1282,6 +1282,8 @@ Paras tapa käyttää BTC:tä on ilmeisesti käyttää Bitcoinia suoraan tai Lig
 
 Useat KYC-menettelyä vaatimattomat alustat tarjoavat mahdollisuuden vaihtaa bitcoineja lahjakortteihin, joita voidaan käyttää suurissa kaupoissa. Näiden alustojen joukossa löydämme [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), ja [Bitrefill](https://www.bitrefill.com/). Nämä alustat helpottavat suuresti bitcoiniesi päivittäistä käyttöä antamalla sinulle pääsyn laajaan valikoimaan tuotteita ja palveluita ilman, että sinun tarvitsee muuntaa niitä fiat-valuutaksi.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Muut Hankintamenetelmät

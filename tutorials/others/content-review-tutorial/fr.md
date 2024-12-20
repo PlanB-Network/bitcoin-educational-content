@@ -4,7 +4,7 @@ description: Comment participer à la revue du contenu éducatif sur PlanB Netwo
 ---
 ![github](assets/cover.webp)
 
-## TL;DR 
+## En résumé
 
 Si vous souhaitez participer à la relecture et à la correction de contenu pour Plan ₿ Network, rejoignez [notre groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) dédié aux contributions. Présentez-vous brièvement, puis indiquez le contenu que vous aimeriez relire ainsi que la langue concernée. Effectuez vos corrections sur une branche de travail et soumettez une PR une fois votre révision terminée.
 

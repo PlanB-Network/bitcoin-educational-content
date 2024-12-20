@@ -25,7 +25,7 @@ Rejoignez-nous pour transformer votre utilisation de Bitcoin et devenir un utili
 ## Introduction de la formation
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
-https://youtu.be/Bbznih_nBE0?feature=shared
+https://youtu.be/V3eeFn4TuIY?feature=shared
 
 Dans un monde où la confidentialité des transactions financières devient progressivement un luxe, comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
 

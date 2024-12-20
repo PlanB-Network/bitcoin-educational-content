@@ -4,7 +4,7 @@ description: How to participate in the review of educational content on PlanB Ne
 ---
 ![github](assets/cover.webp)
 
-## TL;DR 
+## In Summary
 
 If you want to participate in reviewing and correcting content for Plan ₿ Network, join [our Telegram group](https://t.me/PlanBNetwork_ContentBuilder) dedicated to contributions. Introduce yourself briefly, then specify the content you’d like to review and the language. Make your corrections on a working branch and submit a PR once your review is complete.
 

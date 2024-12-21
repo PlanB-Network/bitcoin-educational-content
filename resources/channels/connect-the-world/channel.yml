@@ -1,0 +1,13 @@
+id: fc0ad969-bb53-4138-a4cb-b5acf188ac31
+name: Connect The World
+language: en
+links:
+  channel: https://www.youtube.com/@ConnectTheWorld
+  trailer: https://youtu.be/gqI_pte79eM
+description: |
+  🌍 Connect The World, an English podcast where we guide you in the magic world of the Bitcoin Lightning Network.
+tags:
+  - lightning
+  - software
+contributors:
+  - hunt-wood

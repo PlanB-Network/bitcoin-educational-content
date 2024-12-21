@@ -1,0 +1,13 @@
+id: 7c860650-ba8b-4956-8df4-d7f5b79ac554
+name: PlebDevs
+language: en
+links:
+  channel: https://www.youtube.com/channel/UCRPvdcPYyWAXF7cOjW_dJCA
+  trailer: https://youtu.be/v6Wj9On2poI
+description: |
+  A scrappy group of plebdevs focused on Bitcoin/Lightning app development. Let's level up together!
+tags:
+  - development
+  - lightning
+contributors:
+  - hunt-wood

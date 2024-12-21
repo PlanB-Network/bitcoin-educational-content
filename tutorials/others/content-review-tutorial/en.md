@@ -1,6 +1,6 @@
 ---
 name: Contribution - Review
-description: How to participate in the review of educational content on PlanB Network?
+description: How to participate in the review of educational content on Plan ₿ Network?
 ---
 ![github](assets/cover.webp)
 

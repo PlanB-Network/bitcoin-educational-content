@@ -12,7 +12,7 @@ Bull Bitcoin met un point d’honneur à fournir un service transparent et sans 
 
 ## S'inscrire sur Bull Bitcoin
 
-Accédez à la [page d'inscription](https://accounts.bullbitcoin.com/en/registration) de Bull Bitcoin pour créer un nouveau compte. Saisissez votre adresse e-mail et choisissez un mot de passe fort. Appuyez ensuite sur "Sign up".
+Accédez à la [page d'inscription](https://accounts.bullbitcoin.com/en/registration) de Bull Bitcoin pour créer un nouveau compte. Saisissez votre adresse e-mail et choisissez un mot de passe fort. Appuyez ensuite sur "*Sign up*".
 
 01
 
@@ -20,7 +20,7 @@ Un code de confirmation à 6 chiffres vous sera envoyé par e-mail.
 
 02
 
-Entrez ce code sur le site de Bull Bitcoin et appuyez sur "Continue".
+Entrez ce code sur le site de Bull Bitcoin et appuyez sur "*Continue*".
 
 03
 
@@ -30,19 +30,19 @@ Votre compte est désormais actif et vous pouvez accéder à la plateforme.
 
 ## Paramétrer son compte
 
-Procédons maintenant à la sécurisation de votre compte. Cliquez sur "My Account".
+Procédons maintenant à la sécurisation de votre compte. Cliquez sur "*My Account*".
 
 05
 
-Allez dans l'onglet "Security Settings" et sélectionnez "Access Settings".
+Allez dans l'onglet "*Security Settings*" et sélectionnez "*Access Settings*".
 
 06
 
-Choisissez "Add two-factor authentication" pour ajouter une couche de sécurité supplémentaire à votre compte.
+Choisissez "*Add two-factor authentication*" pour ajouter une couche de sécurité supplémentaire à votre compte.
 
 07
 
-Scannez le QR code avec votre application d'authentification, saisissez le code à 6 chiffres et cliquez sur "Activate 2FA".
+Scannez le QR code avec votre application d'authentification, saisissez le code à 6 chiffres et cliquez sur "*Activate 2FA*".
 
 08
 
@@ -58,25 +58,25 @@ La configuration de la double authentification est désormais complète.
 
 10
 
-Je vous recommande de sauvegarder vos codes de récupération. Pour les générer, cliquez sur "Manage 2FA backup codes".
+Je vous recommande de sauvegarder vos codes de récupération. Pour les générer, cliquez sur "*Manage 2FA backup codes*".
 
 11
 
-Sélectionnez "Generate new backup recovery codes" et stockez ces codes en lieu sûr.
+Sélectionnez "*Generate new backup recovery codes*" et stockez ces codes en lieu sûr.
 
 12
 
-Pour personnaliser davantage votre interface, rendez-vous dans l'onglet "App Settings" où vous pourrez choisir la langue et la devise fiat de votre choix.
+Pour personnaliser davantage votre interface, rendez-vous dans l'onglet "*App Settings*" où vous pourrez choisir la langue et la devise fiat de votre choix.
 
 13
 
 ## Faire le KYC
 
-Pour accéder à l'ensemble des fonctionnalités de Bull Bitcoin, qui est une plateforme réglementée, vous devez procéder à une vérification d'identité (KYC). Cliquez sur "Continue Verification".
+Pour accéder à l'ensemble des fonctionnalités de Bull Bitcoin, qui est une plateforme réglementée, vous devez procéder à une vérification d'identité (KYC). Cliquez sur "*Continue Verification*".
 
 14
 
-Sélectionnez "Personal Account".
+Sélectionnez "*Personal Account*".
 
 15
 
@@ -95,11 +95,11 @@ Cette vérification devrait être confirmée rapidement. Une fois validée, vous
 
 Avant de commencer à acheter et vendre du bitcoin sur Bull, il est important de comprendre que la plateforme ne conserve jamais vos sats. Cela implique que pour acheter du bitcoin, vous devez immédiatement transférer vos fonds vers un portefeuille en self-custody. De même, pour vendre, vous devez envoyer vos bitcoins depuis un portefeuille en self-custody vers Bull. Ils seront alors convertis en monnaie fiat à la réception. Il est impossible de conserver des bitcoins directement sur la plateforme. Toutefois, vous pouvez conserver un solde en euros.
 
-Pour commencer, vous voudrez probablement déposer des euros sur Bull afin d'acheter vos premiers sats. Cliquez sur "Deposit funds".
+Pour commencer, vous voudrez probablement déposer des euros sur Bull afin d'acheter vos premiers sats. Cliquez sur "*Deposit funds*".
 
 17
 
-Choisissez "SEPA transfer".
+Choisissez "*SEPA transfer*".
 
 18
 
@@ -113,11 +113,11 @@ Dès réception de votre virement, votre solde en euros sera actualisé.
 
 ## Acheter des bitcoins
 
-Maintenant que vous avez crédité votre compte en euros, il est temps d'acheter vos premiers sats. Cliquez sur "Buy Bitcoin".
+Maintenant que vous avez crédité votre compte en euros, il est temps d'acheter vos premiers sats. Cliquez sur "*Buy Bitcoin*".
 
 21
 
-Indiquez le montant que vous souhaitez acheter. Vous devrez également choisir la méthode de retrait de vos sats. Pour les petits montants, je vous recommande l'option Lightning, mais les retraits on-chain ou via Liquid sont aussi disponibles. Dans ces derniers cas, vous devrez fournir l'adresse où envoyer les fonds. Après avoir renseigné les informations, cliquez sur "Continue".
+Indiquez le montant que vous souhaitez acheter. Vous devrez également choisir la méthode de retrait de vos sats. Pour les petits montants, je vous recommande l'option Lightning, mais les retraits on-chain ou via Liquid sont aussi disponibles. Dans ces derniers cas, vous devrez fournir l'adresse où envoyer les fonds. Après avoir renseigné les informations, cliquez sur "*Continue*".
 
 22
 
@@ -127,7 +127,7 @@ https://planb.network/courses/btc102
 
 Vous pouvez aussi explorer [nos tutoriels détaillés sur les meilleurs portefeuilles Bitcoin](https://planb.network/tutorials/wallet).
 
-Confirmez ensuite votre achat en cliquant sur "Confirm Buy".
+Confirmez ensuite votre achat en cliquant sur "*Confirm Buy*".
 
 23
 
@@ -136,7 +136,7 @@ Pour ma part, ayant opté pour un retrait via Lightning, j'ai trois options pour
 - En fournissant mon adresse Lightning ;
 - En fournissant une facture correspondant au montant de l'achat.
 
-La méthode LNURL est la plus simple. Elle est disponible dans la plupart des portefeuilles Lightning, comme Phoenix, où il suffit de sélectionner "Receive" puis "Scan".
+La méthode LNURL est la plus simple. Elle est disponible dans la plupart des portefeuilles Lightning, comme Phoenix, où il suffit de sélectionner "*Receive*" puis "*Scan*".
 
 24
 
@@ -146,15 +146,15 @@ Et voilà, vos bitcoins sont désormais sécurisés dans votre portefeuille.
 
 ## Vendre des bitcoins
 
-Pour vendre des bitcoins, la procédure est très simple. Cliquez sur "Sell Bitcoin".
+Pour vendre des bitcoins, la procédure est très simple. Cliquez sur "*Sell Bitcoin*".
 
 26
 
-Entrez le montant que vous souhaitez vendre et sélectionnez la méthode pour transférer les sats à Bull Bitcoin. Pour les petits montants, je vous recommande l'option Lightning. Cliquez ensuite sur "Continue".
+Entrez le montant que vous souhaitez vendre et sélectionnez la méthode pour transférer les sats à Bull Bitcoin. Pour les petits montants, je vous recommande l'option Lightning. Cliquez ensuite sur "*Continue*".
 
 27
 
-Choisissez le compte sur lequel vous souhaitez recevoir les euros issus de la vente. Vous avez la possibilité de sélectionner votre compte sur la plateforme ou un compte bancaire externe. Cliquez sur "Continue".
+Choisissez le compte sur lequel vous souhaitez recevoir les euros issus de la vente. Vous avez la possibilité de sélectionner votre compte sur la plateforme ou un compte bancaire externe. Cliquez sur "*Continue*".
 
 28
 
@@ -168,11 +168,11 @@ Une fois le paiement validé, votre solde sera actualisé.
 
 ## Retirer de la monnaie fiat
 
-Si vous avez des euros sur Bull Bitcoin et souhaitez les transférer vers un compte bancaire externe, cliquez sur "Withdraw funds".
+Si vous avez des euros sur Bull Bitcoin et souhaitez les transférer vers un compte bancaire externe, cliquez sur "*Withdraw funds*".
 
 31
 
-Indiquez le montant à transférer puis cliquez sur "Continue".
+Indiquez le montant à transférer puis cliquez sur "*Continue*".
 
 32
 
@@ -188,7 +188,7 @@ Confirmez ensuite le retrait.
 
 35
 
-Pour suivre toutes vos opérations, vous pouvez consulter l'historique dans le menu "Latest transactions".
+Pour suivre toutes vos opérations, vous pouvez consulter l'historique dans le menu "*Latest transactions*".
 
 36
 

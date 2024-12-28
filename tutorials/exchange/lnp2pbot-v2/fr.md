@@ -60,9 +60,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
   
 Ci-dessous le lien vers le tutoriel pour ce wallet : 
 
-
-https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - **[Blixt](https://blixtwallet.github.io)** : 
   - Plus technique mais très complet
@@ -73,9 +71,7 @@ https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c
 
 Ci-dessous le lien vers le tutoriel pour ce wallet : 
 
-
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
-
 
 **Notes importantes sur d'autres portefeuilles**
 
@@ -170,17 +166,17 @@ Une fois l'ordre créé, vous verrez une confirmation avec la possibilité d'ann
 **3. Gérer la vente**
 
 ![Prise de l'ordre par un acheteur](assets/fr/08.webp)
-1. Lorsqu'un acheteur répond à votre offre, vous recevrez une notification avec un QR code et une invoice à payer.
-2. Vérifiez le profil et la réputation de l'acheteur.
+- Lorsqu'un acheteur répond à votre offre, vous recevrez une notification avec un QR code et une invoice à payer.
+- Vérifiez le profil et la réputation de l'acheteur.
 
 ![Mise en relation avec l'acheteur](assets/fr/09.webp)
-3. Cliquez sur le pseudo de l'acheteur pour ouvrir un canal de discussion privé.
-4. Communiquez les détails du paiement fiat à l'acheteur.
-5. Attendez la confirmation du paiement fiat de l'acheteur.
-6. Vérifiez la réception du paiement sur votre compte.
+- Cliquez sur le pseudo de l'acheteur pour ouvrir un canal de discussion privé.
+- Communiquez les détails du paiement fiat à l'acheteur.
+- Attendez la confirmation du paiement fiat de l'acheteur.
+- Vérifiez la réception du paiement sur votre compte.
 
 ![Confirmation de la fin de l'ordre](assets/fr/10.webp)
-7. Confirmez la transaction avec `/release` et terminez l'ordre. Vous aurez la possibilité de noter l'acheteur.
+- Confirmez la transaction avec `/release` et terminez l'ordre. Vous aurez la possibilité de noter l'acheteur.
 
 ## Bonnes Pratiques et Sécurité
 

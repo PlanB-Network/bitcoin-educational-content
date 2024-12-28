@@ -49,7 +49,7 @@ Commencez par installer un portefeuille Lightning compatible. Voici nos recomman
 
 Ci-dessous le lien vers le tutoriel pour ce wallet : 
 
-https://planb.network/fr/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 - **[Phoenix](https://phoenix.acinq.co)** : 
   - Simple et fiable
@@ -60,7 +60,9 @@ https://planb.network/fr/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-1
   
 Ci-dessous le lien vers le tutoriel pour ce wallet : 
 
+
 https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 
 - **[Blixt](https://blixtwallet.github.io)** : 
   - Plus technique mais très complet
@@ -71,7 +73,9 @@ https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c
 
 Ci-dessous le lien vers le tutoriel pour ce wallet : 
 
-https://planb.network/fr/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
+https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 
 **Notes importantes sur d'autres portefeuilles**
 

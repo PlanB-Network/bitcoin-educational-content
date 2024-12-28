@@ -23,25 +23,42 @@ Profitez-en et bonne chance avec l'un des sujets les plus avancés de Bitcoin.
 ## Présentation du cours
 <chapterId>cf2f087b-6c6b-5037-8f98-94fc9f1d7f46</chapterId>
 
-Bonjour à tous et bienvenue dans ces cours RGB.
+Bonjour à tous et bienvenue dans cette formation dédiée à RGB, un système de contrats intelligents validés côté client, fonctionnant sur Bitcoin et le Lightning Network. La structure de cette formation est pensée pour permettre une exploration approfondie de ce sujet complexe. Voici comment la formation est organisée :
 
-Dans ce nouveau programme, vous apprendrez les bases de la programmation RGB ainsi que quelques exercices pratiques. Les cours seront uniquement en anglais pour le moment. Ce programme faisait initialement partie d'un bootcamp de développement avancé de 2 semaines à Viareggio, en Toscane, organisé par Fulgur'Ventures. La première semaine était axée sur Rust et SDK et peut être trouvée dans le programme [LN 402](https://planb.network/courses/ln402). Dans ce programme, nous nous concentrons sur la deuxième semaine du bootcamp, qui portera sur RGB.
+**Section 1 : Théorie**  
 
-Semaine 1 - [LN 402](https://planb.network/courses/ln402)
+La première section est dédiée aux concepts théoriques nécessaires pour comprendre les principes fondamentaux de la validation côté client et de RGB. Ces notions dépassent en complexité celles de Bitcoin et de la blockchain, car elles impliquent une nature distribuée des données, contrairement à la centralisation des données sur une blockchain.
+
+**Section 2 : Pratique**  
+
+La deuxième section portera sur l'application des concepts théoriques vus la veille. Nous apprendrons à créer et manipuler des contrats RGB, à programmer avec ces outils, et à explorer les développements futurs pour simplifier ce processus.
+
+**Section 3 : Applications**  
+
+La dernière section est animée par d'autres intervenants qui présentent des applications concrètes basées sur RGB, afin de mettre en lumière des cas d’utilisation réels.
+
+---
+
+Cette formation est initialement issue d'un bootcamp de développement avancé de deux semaines à Viareggio, en Toscane, organisé par [Fulgur'Ventures](https://fulgur.ventures/). La première semaine, centrée sur Rust et les SDK, peut être retrouvée dans cet autre cours :
+
+https://planb.network/courses/lnp402
+
+Dans ce cours, nous nous concentrons sur la deuxième semaine du bootcamp, qui porte sur RGB.
+
+**Semaine 1 - LNP402 :**
 
 ![image](assets/image/1.webp)
 
-Semaine 2 - Formation actuelle
+**Semaine 2 - Formation actuelle :**
 
 ![image](assets/image/2.webp)
 
 Un grand merci à la personne qui a organisé ces cours en direct et aux 3 enseignants qui y ont participé :
+- Maxim Orlovsky : *Ex Tenebrae sententia sapiens dominabitur astris. Cypher, IA, robotique, transhumanisme. Créateur de RGB, Prime, Radiant et lnp_bp, mycitadel_io & cyphernet_io* ;
+- Hunter Trujilo : *Développeur, Rust, Bitcoin, Bitcoin, Lightning, RGB* ;
+- Federico Tenga : *Je fais ma part pour que le monde devienne une dystopie cypherpunk. Actuellement en train de travailler sur RGB chez Bitfinex*.
 
-- Maxim Orlovsky : Ex Tenebrae sententia sapiens dominabitur astris. Cypher, IA, robotique, transhumanisme. Créateur de RGB, Prime, Radiant et lnp_bp, mycitadel_io & cyphernet_io
-- Hunter Trujilo : Développeur, Rust, Bitcoin, Bitcoin, Lightning, RGB
-- Federico Tenga : Je fais ma part pour que le monde devienne une dystopie cypherpunk. Actuellement en train de travailler sur RGB chez @bitfinex
 
-Bonne chance dans vos études, et si vous avez besoin de contacter notre équipe ou les enseignants, veuillez utiliser le canal approprié. Ce cours sera bientôt mis à jour avec une section texte pour chaque chapitre, des examens et des images. Restez à l'écoute.
 
 # RGB en théorie
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -50,6 +67,58 @@ Bonne chance dans vos études, et si vous avez besoin de contacter notre équipe
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
 ![video](https://youtu.be/AF2XbifPGXM)
+
+
+### Déroulé de la première section
+
+Les deux premiers chapitres sont consacrés à la **validation côté client**, un paradigme fondamentalement différent de celui de la blockchain. Nous aborderons les points suivants :
+- Les bases de la validation côté client dans le contexte du calcul distribué ;
+- Les raisons de son importance et de sa nécessité ;
+- Comment ce paradigme s’intègre avec la blockchain.
+
+Les deux chapitres suivant se focaliseront sur les bases théoriques de RGB en tant que système de contrats intelligents. Nous aborderons notamment :
+- **Le sharding** : un mécanisme clé pour atteindre l’évolutivité dans RGB.
+- **Les scellés à usage unique (Single-Use Seals)** : une primitive cryptographique développée par Peter Todd, essentielle pour la validation côté client et distincte des autres formes d'engagements cryptographiques.
+
+Nous allons débuter avec une introduction au calcul distribué et son rôle dans la validation côté client. Cette exploration restera centrée sur les aspects en lien avec Bitcoin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Validation côté client
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>

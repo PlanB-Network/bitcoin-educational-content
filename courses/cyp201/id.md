@@ -79,10 +79,10 @@ Sebagai contoh, fungsi hash SHA256 menghasilkan hash dengan panjang tetap 256 bi
 
 Fungsi hash kriptografi ini memiliki beberapa karakteristik esensial yang membuatnya sangat berguna dalam konteks Bitcoin dan sistem komputer lainnya:
 
-1. Irreversibilitas (atau resistensi terhadap pencarian gambar asli)
-2. Resistensi terhadap perubahan (efek salju)
-3. Resistensi terhadap tabrakan
-4. Resistensi terhadap pencarian gambar asli kedua
+- Irreversibilitas (atau resistensi terhadap pencarian gambar asli)
+- Resistensi terhadap perubahan (efek salju)
+- Resistensi terhadap tabrakan
+- Resistensi terhadap pencarian gambar asli kedua
 
 #### 1. Irreversibilitas (resistensi terhadap pencarian gambar asli):
 
@@ -227,9 +227,9 @@ Jika kita kembali ke contoh kita dengan pesan awal sebesar 950 bit, kita menguba
 
 Ukuran padding ini ditambahkan mengikuti padding bit. Oleh karena itu, pesan setelah pra-pemrosesan kita terdiri dari tiga bagian:
 
-1. Pesan asli $M$;
-2. Sebuah bit `1` diikuti oleh beberapa bit `0` untuk membentuk padding bit;
-3. Representasi 64-bit dari panjang $M$ untuk membentuk padding dengan ukuran.
+- Pesan asli $M$;
+- Sebuah bit `1` diikuti oleh beberapa bit `0` untuk membentuk padding bit;
+- Representasi 64-bit dari panjang $M$ untuk membentuk padding dengan ukuran.
 
 ![CYP201](assets/fr/006.webp)
 
@@ -526,8 +526,8 @@ Di Bitcoin pada level aplikasi, selain fungsi hash, algoritma derivasi kriptogra
 
 Pada dompet Bitcoin, terutama 2 algoritma derivasi digunakan:
 
-1. **HMAC (_Hash-based Message Authentication Code_)**
-2. **PBKDF2 (_Password-Based Key Derivation Function 2_)**
+- **HMAC (_Hash-based Message Authentication Code_)**
+- **PBKDF2 (_Password-Based Key Derivation Function 2_)**
 
 Kita akan menjelajahi bersama fungsi dan peran masing-masing dari mereka.
 
@@ -564,12 +564,12 @@ $$
 
 Persamaan ini dipecah menjadi langkah-langkah berikut:
 
-1. XOR kunci yang disesuaikan $K'$ dengan $\text{ipad}$ untuk mendapatkan $\text{iKpad}$;
-2. XOR kunci yang disesuaikan $K'$ dengan $\text{opad}$ untuk mendapatkan $\text{oKpad}$;
-3. Menggabungkan $\text{iKpad}$ dengan pesan $m$.
-4. Hash hasil ini dengan SHA512 untuk mendapatkan hash sementara $H_1$.
-5. Menggabungkan $\text{oKpad}$ dengan $H_1$.
-6. Hash hasil ini dengan SHA512 untuk mendapatkan hasil akhir $H_2$.
+- XOR kunci yang disesuaikan $K'$ dengan $\text{ipad}$ untuk mendapatkan $\text{iKpad}$;
+- XOR kunci yang disesuaikan $K'$ dengan $\text{opad}$ untuk mendapatkan $\text{oKpad}$;
+- Menggabungkan $\text{iKpad}$ dengan pesan $m$.
+- Hash hasil ini dengan SHA512 untuk mendapatkan hash sementara $H_1$.
+- Menggabungkan $\text{oKpad}$ dengan $H_1$.
+- Hash hasil ini dengan SHA512 untuk mendapatkan hasil akhir $H_2$.
 
 Langkah-langkah ini dapat diringkas secara skematis sebagai berikut:
 
@@ -1444,23 +1444,23 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 Kunci ekstensi ini terpecah menjadi beberapa elemen berbeda:
 
-1. **Versi**: `0488B21E`
+- **Versi**: `0488B21E`
 
 4 byte pertama adalah versi. Di sini, ini sesuai dengan kunci publik ekstensi pada Mainnet dengan tujuan derivasi baik *Legacy* atau *SegWit v1*.
 
-2. **Kedalaman**: `03`
+- **Kedalaman**: `03`
 
 Bidang ini menunjukkan tingkat hierarkis kunci dalam dompet HD. Dalam kasus ini, kedalaman `03` berarti bahwa kunci ini adalah tiga tingkat derivasi di bawah kunci induk.
 
-3. **Sidik jari induk**: `6D5601AD`
+- **Sidik jari induk**: `6D5601AD`
 Ini adalah 4 byte pertama dari hash HASH160 dari kunci publik induk yang digunakan untuk menurunkan `xpub` ini.
-4. **Nomor Indeks**: `80000000`
+- **Nomor Indeks**: `80000000`
 
 Indeks ini menunjukkan posisi kunci di antara anak-anak induknya. Prefiks `0x80` menunjukkan bahwa kunci diturunkan dengan cara yang diperketat, dan karena sisanya diisi dengan nol, ini menunjukkan bahwa kunci ini adalah yang pertama di antara saudara kandungnya yang mungkin.
 
-5. **Kode Rantai**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
-6. **Kunci Publik**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
-7. **Checksum**: `1F067C3A`
+- **Kode Rantai**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+- **Kunci Publik**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
+- **Checksum**: `1F067C3A`
 
 Checksum ini sesuai dengan 4 byte pertama dari hash (SHA256 ganda) dari semua yang lain.
 
@@ -1480,8 +1480,8 @@ Mari kita jelajahi bagaimana derivasi deterministik ini bekerja.
 ### Berbagai Jenis Derivasi Kunci Anak
 
 Seperti yang kita singgung secara singkat di bab sebelumnya: kunci anak dibagi menjadi dua jenis utama:
-1. **Kunci anak normal** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Ini diturunkan dari kunci publik terluas ($K_{\text{PAR}}$), atau kunci privat terluas ($k_{\text{PAR}}$), dengan pertama-tama menurunkan kunci publik.
-2. **Kunci anak diperketat** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Ini hanya dapat diturunkan dari kunci privat terluas ($k_{\text{PAR}}$) dan oleh karena itu tidak terlihat oleh pengamat yang hanya memiliki kunci publik terluas.
+- **Kunci anak normal** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Ini diturunkan dari kunci publik terluas ($K_{\text{PAR}}$), atau kunci privat terluas ($k_{\text{PAR}}$), dengan pertama-tama menurunkan kunci publik.
+- **Kunci anak diperketat** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Ini hanya dapat diturunkan dari kunci privat terluas ($k_{\text{PAR}}$) dan oleh karena itu tidak terlihat oleh pengamat yang hanya memiliki kunci publik terluas.
 Setiap pasangan kunci anak diidentifikasi oleh sebuah **indeks** 32-bit (dinamakan $i$ dalam perhitungan kami). Indeks untuk kunci normal berkisar dari $0$ sampai $2^{31}-1$, sementara itu untuk kunci yang diperkuat berkisar dari $2^{31}$ sampai $2^{32}-1$. Angka-angka ini digunakan untuk membedakan pasangan kunci saudara selama derivasi. Memang, setiap pasangan kunci induk harus mampu menghasilkan beberapa pasangan kunci anak. Jika kita menerapkan perhitungan yang sama secara sistematis dari kunci induk, semua kunci saudara yang diperoleh akan identik, yang tidak diinginkan. Indeks dengan demikian memperkenalkan variabel yang memodifikasi perhitungan derivasi, memungkinkan setiap pasangan saudara dapat dibedakan. Kecuali untuk penggunaan spesifik dalam protokol tertentu dan standar derivasi, umumnya kita mulai dengan menghasilkan kunci anak pertama dengan indeks `0`, yang kedua dengan indeks `1`, dan seterusnya.
 ### Proses Derivasi dengan HMAC-SHA512
 

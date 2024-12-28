@@ -79,10 +79,10 @@ Zum Beispiel erzeugt die SHA256-Hash-Funktion einen Hash fester Länge von 256 B
 
 Diese kryptografischen Hash-Funktionen haben mehrere wesentliche Eigenschaften, die sie besonders nützlich im Kontext von Bitcoin und anderen Computersystemen machen:
 
-1. Unumkehrbarkeit (oder Preimage-Resistenz)
-2. Manipulationssicherheit (Lawineneffekt)
-3. Kollisionsresistenz
-4. Zweite Preimage-Resistenz
+- Unumkehrbarkeit (oder Preimage-Resistenz)
+- Manipulationssicherheit (Lawineneffekt)
+- Kollisionsresistenz
+- Zweite Preimage-Resistenz
 
 #### 1. Unumkehrbarkeit (Preimage-Resistenz):
 
@@ -230,9 +230,9 @@ Wenn wir zu unserem Beispiel mit einer anfänglichen Nachricht von 950 Bits zur�
 
 Diese Padding-Größe wird nach dem Bit-Padding hinzugefügt. Daher besteht die Nachricht nach unserer Vorverarbeitung aus drei Teilen:
 
-1. Die ursprüngliche Nachricht $M$;
-2. Ein Bit `1` gefolgt von mehreren Bits `0`, um das Bit-Padding zu bilden;
-3. Eine 64-Bit-Darstellung der Länge von $M$, um das Padding mit der Größe zu bilden.
+- Die ursprüngliche Nachricht $M$;
+- Ein Bit `1` gefolgt von mehreren Bits `0`, um das Bit-Padding zu bilden;
+- Eine 64-Bit-Darstellung der Länge von $M$, um das Padding mit der Größe zu bilden.
 
 ![CYP201](assets/fr/006.webp)
 
@@ -560,8 +560,8 @@ Jetzt, da wir uns im Detail mit der Funktionsweise von Hash-Funktionen, insbeson
 In Bitcoin auf Anwendungsebene werden neben Hash-Funktionen kryptografische Ableitungsalgorithmen verwendet, um sichere Daten aus anfänglichen Eingaben zu generieren. Obwohl diese Algorithmen auf Hash-Funktionen basieren, dienen sie unterschiedlichen Zwecken, insbesondere in Bezug auf Authentifizierung und Schlüsselgenerierung. Diese Algorithmen behalten einige der Eigenschaften von Hash-Funktionen bei, wie Irreversibilität, Manipulationssicherheit und Kollisionsresistenz.
 
 In Bitcoin-Wallets werden hauptsächlich 2 Ableitungsalgorithmen verwendet:
-1. **HMAC (*Hash-based Message Authentication Code*)**
-2. **PBKDF2 (*Password-Based Key Derivation Function 2*)**
+- **HMAC (*Hash-based Message Authentication Code*)**
+- **PBKDF2 (*Password-Based Key Derivation Function 2*)**
 
 Wir werden gemeinsam die Funktionsweise und Rolle jedes von ihnen erkunden.
 
@@ -604,12 +604,12 @@ $$
 $$
 
 Diese Gleichung wird in die folgenden Schritte unterteilt:
-1. XOR des angeglichenen Schlüssels $K'$ mit $\text{ipad}$, um $\text{iKpad}$ zu erhalten;
-2. XOR des angeglichenen Schlüssels $K'$ mit $\text{opad}$, um $\text{oKpad}$ zu erhalten;
-3. Verkettung von $\text{iKpad}$ mit der Nachricht $m$.
-4. Hashen dieses Ergebnisses mit SHA512, um einen Zwischenhash $H_1$ zu erhalten.
-5. Verkettung von $\text{oKpad}$ mit $H_1$.
-6. Hashen dieses Ergebnisses mit SHA512, um das endgültige Ergebnis $H_2$ zu erhalten.
+- XOR des angeglichenen Schlüssels $K'$ mit $\text{ipad}$, um $\text{iKpad}$ zu erhalten;
+- XOR des angeglichenen Schlüssels $K'$ mit $\text{opad}$, um $\text{oKpad}$ zu erhalten;
+- Verkettung von $\text{iKpad}$ mit der Nachricht $m$.
+- Hashen dieses Ergebnisses mit SHA512, um einen Zwischenhash $H_1$ zu erhalten.
+- Verkettung von $\text{oKpad}$ mit $H_1$.
+- Hashen dieses Ergebnisses mit SHA512, um das endgültige Ergebnis $H_2$ zu erhalten.
 
 Diese Schritte können schematisch wie folgt zusammengefasst werden:
 
@@ -1510,23 +1510,23 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 Dieser erweiterte Schlüssel zerfällt in mehrere unterschiedliche Elemente:
 
-1. **Version**: `0488B21E`
+- **Version**: `0488B21E`
 
 Die ersten 4 Bytes sind die Version. Hier entspricht sie einem erweiterten öffentlichen Schlüssel im Mainnet mit einem Ableitungszweck von entweder *Legacy* oder *SegWit v1*.
 
-2. **Tiefe**: `03`
+- **Tiefe**: `03`
 
 Dieses Feld gibt die hierarchische Ebene des Schlüssels innerhalb der HD-Wallet an. In diesem Fall bedeutet eine Tiefe von `03`, dass dieser Schlüssel drei Ableitungsebenen unterhalb des Master-Schlüssels liegt.
 
-3. **Eltern-Fingerabdruck**: `6D5601AD`
+- **Eltern-Fingerabdruck**: `6D5601AD`
 Diese sind die ersten 4 Bytes des HASH160-Hashes des übergeordneten öffentlichen Schlüssels, der verwendet wurde, um diesen `xpub` abzuleiten.
-4. **Indexnummer**: `80000000`
+- **Indexnummer**: `80000000`
 
 Dieser Index gibt die Position des Schlüssels unter den Kindern seines Elternteils an. Das Präfix `0x80` zeigt an, dass der Schlüssel auf eine gehärtete Weise abgeleitet wurde, und da der Rest mit Nullen gefüllt ist, zeigt es an, dass dieser Schlüssel der erste unter seinen möglichen Geschwistern ist.
 
-5. **Chain-Code**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
-6. **Öffentlicher Schlüssel**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
-7. **Prüfsumme**: `1F067C3A`
+- **Chain-Code**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+- **Öffentlicher Schlüssel**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
+- **Prüfsumme**: `1F067C3A`
 
 Die Prüfsumme entspricht den ersten 4 Bytes des Hashes (doppelter SHA256) von allem anderen.
 
@@ -1546,8 +1546,8 @@ Lassen Sie uns erkunden, wie diese deterministische Ableitung funktioniert.
 ### Die verschiedenen Arten von Kinderschlüsselableitungen
 
 Wie wir im vorherigen Kapitel kurz angesprochen haben: Kinderschlüssel sind in zwei Haupttypen unterteilt:
-1. **Normale Kinderschlüssel** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Diese werden vom erweiterten öffentlichen Schlüssel ($K_{\text{PAR}}$) oder dem erweiterten privaten Schlüssel ($k_{\text{PAR}}$) abgeleitet, indem zuerst der öffentliche Schlüssel abgeleitet wird.
-2. **Gehärtete Kinderschlüssel** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Diese können nur vom erweiterten privaten Schlüssel ($k_{\text{PAR}}$) abgeleitet werden und sind daher für Beobachter, die nur den erweiterten öffentlichen Schlüssel haben, unsichtbar.
+- **Normale Kinderschlüssel** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Diese werden vom erweiterten öffentlichen Schlüssel ($K_{\text{PAR}}$) oder dem erweiterten privaten Schlüssel ($k_{\text{PAR}}$) abgeleitet, indem zuerst der öffentliche Schlüssel abgeleitet wird.
+- **Gehärtete Kinderschlüssel** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Diese können nur vom erweiterten privaten Schlüssel ($k_{\text{PAR}}$) abgeleitet werden und sind daher für Beobachter, die nur den erweiterten öffentlichen Schlüssel haben, unsichtbar.
 Jedes Kind-Schlüsselpaar wird durch einen 32-Bit **Index** (benannt $i$ in unseren Berechnungen) identifiziert. Die Indizes für normale Schlüssel reichen von $0$ bis $2^{31}-1$, während die für gehärtete Schlüssel von $2^{31}$ bis $2^{32}-1$ reichen. Diese Zahlen werden verwendet, um Geschwister-Schlüsselpaare während der Ableitung zu unterscheiden. Tatsächlich muss jedes Eltern-Schlüsselpaar in der Lage sein, mehrere Kind-Schlüsselpaare abzuleiten. Würden wir dieselbe Berechnung systematisch von den Elternschlüsseln aus anwenden, wären alle erhaltenen Geschwisterschlüssel identisch, was nicht wünschenswert ist. Der Index führt somit eine Variable ein, die die Ableitungsberechnung modifiziert und es ermöglicht, jedes Geschwisterpaar zu differenzieren. Außer für spezifische Verwendungen in bestimmten Protokollen und Ableitungsstandards beginnen wir in der Regel damit, das erste Kind-Schlüsselpaar mit dem Index `0`, das zweite mit dem Index `1` usw. abzuleiten.
 ### Ableitungsprozess mit HMAC-SHA512
 

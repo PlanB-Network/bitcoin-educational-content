@@ -79,10 +79,10 @@ Por exemplo, a função de hash SHA256 produz um hash de comprimento fixo de 256
 
 Essas funções de hash criptográficas têm várias características essenciais que as tornam particularmente úteis no contexto do Bitcoin e de outros sistemas computacionais:
 
-1. Irreversibilidade (ou resistência à imagem prévia)
-2. Resistência à adulteração (efeito avalanche)
-3. Resistência à colisão
-4. Resistência à segunda imagem prévia
+- Irreversibilidade (ou resistência à imagem prévia)
+- Resistência à adulteração (efeito avalanche)
+- Resistência à colisão
+- Resistência à segunda imagem prévia
 
 #### 1. Irreversibilidade (resistência à imagem prévia):
 
@@ -226,9 +226,9 @@ Se voltarmos ao nosso exemplo com uma mensagem inicial de 950 bits, convertemos 
 
 Este tamanho de preenchimento é adicionado seguindo o preenchimento de bits. Portanto, a mensagem após nosso pré-processamento consiste em três partes:
 
-1. A mensagem original $M$;
-2. Um bit `1` seguido por vários bits `0` para formar o preenchimento de bits;
-3. Uma representação de 64 bits do comprimento de $M$ para formar o preenchimento com o tamanho.
+- A mensagem original $M$;
+- Um bit `1` seguido por vários bits `0` para formar o preenchimento de bits;
+- Uma representação de 64 bits do comprimento de $M$ para formar o preenchimento com o tamanho.
 
 ![CYP201](assets/fr/006.webp)
 
@@ -551,8 +551,8 @@ Agora que examinamos em detalhes o funcionamento das funções de hash, particul
 No Bitcoin, no nível de aplicação, além das funções de hash, algoritmos de derivação criptográfica são usados para gerar dados seguros a partir de entradas iniciais. Embora esses algoritmos dependam de funções de hash, eles servem a propósitos diferentes, especialmente em termos de autenticação e geração de chaves. Esses algoritmos retêm algumas das características das funções de hash, como irreversibilidade, resistência a adulteração e resistência a colisões.
 
 Em carteiras de Bitcoin, principalmente 2 algoritmos de derivação são usados:
-1. **HMAC (*Código de Autenticação de Mensagem Baseado em Hash*)**
-2. **PBKDF2 (*Função de Derivação de Chave Baseada em Senha 2*)**
+- **HMAC (*Código de Autenticação de Mensagem Baseado em Hash*)**
+- **PBKDF2 (*Função de Derivação de Chave Baseada em Senha 2*)**
 
 Vamos explorar juntos o funcionamento e o papel de cada um deles.
 
@@ -593,12 +593,12 @@ $$
 $$
 
 Esta equação é dividida nos seguintes passos:
-1. XOR da chave ajustada $K'$ com $\text{ipad}$ para obter $\text{iKpad}$;
-2. XOR da chave ajustada $K'$ com $\text{opad}$ para obter $\text{oKpad}$;
-3. Concatenar $\text{iKpad}$ com a mensagem $m$.
-4. Fazer o hash deste resultado com SHA512 para obter um hash intermediário $H_1$.
-5. Concatenar $\text{oKpad}$ com $H_1$.
-6. Fazer o hash deste resultado com SHA512 para obter o resultado final $H_2$.
+- XOR da chave ajustada $K'$ com $\text{ipad}$ para obter $\text{iKpad}$;
+- XOR da chave ajustada $K'$ com $\text{opad}$ para obter $\text{oKpad}$;
+- Concatenar $\text{iKpad}$ com a mensagem $m$.
+- Fazer o hash deste resultado com SHA512 para obter um hash intermediário $H_1$.
+- Concatenar $\text{oKpad}$ com $H_1$.
+- Fazer o hash deste resultado com SHA512 para obter o resultado final $H_2$.
 
 Estes passos podem ser resumidos esquematicamente da seguinte forma:
 
@@ -1492,23 +1492,23 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 Esta chave estendida se desdobra em vários elementos distintos:
 
-1. **Versão**: `0488B21E`
+- **Versão**: `0488B21E`
 
 Os primeiros 4 bytes são a versão. Aqui, corresponde a uma chave pública estendida no Mainnet com um propósito de derivação de _Legacy_ ou _SegWit v1_.
 
-2. **Profundidade**: `03`
+- **Profundidade**: `03`
 
 Este campo indica o nível hierárquico da chave dentro da carteira HD. Neste caso, uma profundidade de `03` significa que esta chave está três níveis de derivação abaixo da chave mestre.
 
-3. **Impressão digital do pai**: `6D5601AD`
+- **Impressão digital do pai**: `6D5601AD`
    Estes são os primeiros 4 bytes do hash HASH160 da chave pública pai que foi usada para derivar este `xpub`.
-4. **Número do Índice**: `80000000`
+- **Número do Índice**: `80000000`
 
 Este índice indica a posição da chave entre os filhos de seu pai. O prefixo `0x80` indica que a chave é derivada de maneira endurecida (hardened), e como o restante é preenchido com zeros, indica que esta chave é a primeira entre seus possíveis irmãos.
 
-5. **Código da Cadeia**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
-6. **Chave Pública**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
-7. **Checksum**: `1F067C3A`
+- **Código da Cadeia**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+- **Chave Pública**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
+- **Checksum**: `1F067C3A`
 
 O checksum corresponde aos primeiros 4 bytes do hash (SHA256 duplo) de tudo o mais.
 
@@ -1530,8 +1530,8 @@ Vamos explorar como essa derivação determinística funciona.
 
 Como tocamos brevemente no capítulo anterior: as chaves filhas são divididas em dois tipos principais:
 
-1. **Chaves filhas normais** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): São derivadas da chave pública estendida ($K_{\text{PAR}}$), ou da chave privada estendida ($k_{\text{PAR}}$), derivando primeiro a chave pública.
-2. **Chaves filhas endurecidas** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Só podem ser derivadas da chave privada estendida ($k_{\text{PAR}}$) e, portanto, são invisíveis para observadores que só têm a chave pública estendida.
+- **Chaves filhas normais** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): São derivadas da chave pública estendida ($K_{\text{PAR}}$), ou da chave privada estendida ($k_{\text{PAR}}$), derivando primeiro a chave pública.
+- **Chaves filhas endurecidas** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Só podem ser derivadas da chave privada estendida ($k_{\text{PAR}}$) e, portanto, são invisíveis para observadores que só têm a chave pública estendida.
    Cada par de chaves filho é identificado por um **índice** de 32 bits (denominado $i$ em nossos cálculos). Os índices para chaves normais variam de $0$ a $2^{31}-1$, enquanto aqueles para chaves endurecidas (hardened) variam de $2^{31}$ a $2^{32}-1$. Esses números são usados para distinguir pares de chaves irmãs durante a derivação. De fato, cada par de chaves pai deve ser capaz de derivar múltiplos pares de chaves filho. Se aplicássemos o mesmo cálculo sistematicamente a partir das chaves pai, todas as chaves irmãs obtidas seriam idênticas, o que não é desejável. O índice, portanto, introduz uma variável que modifica o cálculo de derivação, permitindo que cada par irmão seja diferenciado. Exceto por uso específico em certos protocolos e padrões de derivação, geralmente começamos derivando a primeira chave filho com o índice `0`, a segunda com o índice `1`, e assim por diante.
 
 ### Processo de Derivação com HMAC-SHA512

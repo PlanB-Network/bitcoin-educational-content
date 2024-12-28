@@ -47,11 +47,11 @@ Dans ce cours, nous nous concentrons sur la deuxième semaine du bootcamp, qui p
 
 **Semaine 1 - LNP402 :**
 
-![image](assets/image/1.webp)
+001
 
 **Semaine 2 - Formation actuelle :**
 
-![image](assets/image/2.webp)
+002
 
 Un grand merci à la personne qui a organisé ces cours en direct et aux 3 enseignants qui y ont participé :
 - Maxim Orlovsky : *Ex Tenebrae sententia sapiens dominabitur astris. Cypher, IA, robotique, transhumanisme. Créateur de RGB, Prime, Radiant et lnp_bp, mycitadel_io & cyphernet_io* ;

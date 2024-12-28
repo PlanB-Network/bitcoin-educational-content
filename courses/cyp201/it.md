@@ -78,10 +78,10 @@ Ad esempio, la funzione hash SHA256 produce un hash di lunghezza fissa di 256 bi
 
 Queste funzioni hash crittografiche hanno diverse caratteristiche essenziali che le rendono particolarmente utili nel contesto di Bitcoin e altri sistemi informatici:
 
-1. Irreversibilità (o resistenza alla preimmagine)
-2. Resistenza alla manomissione (effetto valanga)
-3. Resistenza alle collisioni
-4. Resistenza alla seconda preimmagine
+- Irreversibilità (o resistenza alla preimmagine)
+- Resistenza alla manomissione (effetto valanga)
+- Resistenza alle collisioni
+- Resistenza alla seconda preimmagine
 
 #### 1. Irreversibilità (resistenza alla preimmagine):
 
@@ -226,9 +226,9 @@ Se torniamo al nostro esempio con un messaggio iniziale di 950 bit, convertiamo 
 
 Questa dimensione di riempimento viene aggiunta seguendo il riempimento bit. Pertanto, il messaggio dopo la nostra pre-elaborazione consiste di tre parti:
 
-1. Il messaggio originale $M$;
-2. Un bit `1` seguito da diversi bit `0` per formare il riempimento bit;
-3. Una rappresentazione di 64 bit della lunghezza di $M$ per formare il riempimento con la dimensione.
+- Il messaggio originale $M$;
+- Un bit `1` seguito da diversi bit `0` per formare il riempimento bit;
+- Una rappresentazione di 64 bit della lunghezza di $M$ per formare il riempimento con la dimensione.
 
 ![CYP201](assets/fr/006.webp)
 
@@ -552,8 +552,8 @@ In Bitcoin a livello applicativo, oltre alle funzioni hash, vengono utilizzati a
 
 Sui portafogli Bitcoin, principalmente vengono utilizzati 2 algoritmi di derivazione:
 
-1. **HMAC (_Hash-based Message Authentication Code_)**
-2. **PBKDF2 (_Password-Based Key Derivation Function 2_)**
+- **HMAC (_Hash-based Message Authentication Code_)**
+- **PBKDF2 (_Password-Based Key Derivation Function 2_)**
 
 Esploreremo insieme il funzionamento e il ruolo di ciascuno di essi.
 
@@ -590,12 +590,12 @@ $$
 
 Questa equazione si scompone nei seguenti passaggi:
 
-1. XOR della chiave aggiustata $K'$ con $\text{ipad}$ per ottenere $\text{iKpad}$;
-2. XOR della chiave aggiustata $K'$ con $\text{opad}$ per ottenere $\text{oKpad}$;
-3. Concatenazione di $\text{iKpad}$ con il messaggio $m$.
-4. Hash di questo risultato con SHA512 per ottenere un hash intermedio $H_1$.
-5. Concatenazione di $\text{oKpad}$ con $H_1$.
-6. Hash di questo risultato con SHA512 per ottenere il risultato finale $H_2$.
+- XOR della chiave aggiustata $K'$ con $\text{ipad}$ per ottenere $\text{iKpad}$;
+- XOR della chiave aggiustata $K'$ con $\text{opad}$ per ottenere $\text{oKpad}$;
+- Concatenazione di $\text{iKpad}$ con il messaggio $m$.
+- Hash di questo risultato con SHA512 per ottenere un hash intermedio $H_1$.
+- Concatenazione di $\text{oKpad}$ con $H_1$.
+- Hash di questo risultato con SHA512 per ottenere il risultato finale $H_2$.
 
 Questi passaggi possono essere riassunti schematicamente come segue:
 
@@ -1469,23 +1469,23 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 Questa chiave estesa si suddivide in diversi elementi distinti:
 
-1. **Versione**: `0488B21E`
+- **Versione**: `0488B21E`
 
 I primi 4 byte sono la versione. Qui, corrisponde a una chiave pubblica estesa sul Mainnet con uno scopo di derivazione *Legacy* o *SegWit v1*.
 
-2. **Profondità**: `03`
+- **Profondità**: `03`
 
 Questo campo indica il livello gerarchico della chiave all'interno del portafoglio HD. In questo caso, una profondità di `03` significa che questa chiave è tre livelli di derivazione sotto la chiave principale.
 
-3. **Impronta del genitore**: `6D5601AD`
+- **Impronta del genitore**: `6D5601AD`
 Questi sono i primi 4 byte dell'hash HASH160 della chiave pubblica genitore che è stata utilizzata per derivare questo `xpub`.
-4. **Numero di indice**: `80000000`
+- **Numero di indice**: `80000000`
 
 Questo indice indica la posizione della chiave tra i figli del suo genitore. Il prefisso `0x80` indica che la chiave è derivata in modo protetto (hardened), e poiché il resto è riempito con zeri, indica che questa chiave è la prima tra i suoi possibili fratelli.
 
-5. **Codice catena**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
-6. **Chiave Pubblica**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
-7. **Checksum**: `1F067C3A`
+- **Codice catena**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+- **Chiave Pubblica**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
+- **Checksum**: `1F067C3A`
 
 Il checksum corrisponde ai primi 4 byte dell'hash (doppio SHA256) di tutto il resto.
 
@@ -1505,8 +1505,8 @@ Esploriamo come funziona questa derivazione deterministica.
 ### I Diversi Tipi di Derivazioni di Chiavi Figlie
 
 Come abbiamo brevemente accennato nel capitolo precedente: le chiavi figlie sono divise in due tipi principali:
-1. **Chiavi figlie normali** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Queste sono derivate dalla chiave pubblica estesa ($K_{\text{PAR}}$), o dalla chiave privata estesa ($k_{\text{PAR}}$), derivando prima la chiave pubblica.
-2. **Chiavi figlie protette** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Queste possono essere derivate solo dalla chiave privata estesa ($k_{\text{PAR}}$) e sono quindi invisibili agli osservatori che hanno solo la chiave pubblica estesa.
+- **Chiavi figlie normali** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Queste sono derivate dalla chiave pubblica estesa ($K_{\text{PAR}}$), o dalla chiave privata estesa ($k_{\text{PAR}}$), derivando prima la chiave pubblica.
+- **Chiavi figlie protette** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Queste possono essere derivate solo dalla chiave privata estesa ($k_{\text{PAR}}$) e sono quindi invisibili agli osservatori che hanno solo la chiave pubblica estesa.
 Ogni coppia di chiavi figlio è identificata da un **indice** a 32 bit (denominato $i$ nei nostri calcoli). Gli indici per le chiavi normali variano da $0$ a $2^{31}-1$, mentre quelli per le chiavi potenziate (hardened) variano da $2^{31}$ a $2^{32}-1$. Questi numeri sono utilizzati per distinguere le coppie di chiavi fratello durante la derivazione. Infatti, ogni coppia di chiavi genitore deve essere in grado di derivare più coppie di chiavi figlio. Se applicassimo lo stesso calcolo sistematicamente dalle chiavi genitore, tutte le chiavi fratello ottenute sarebbero identiche, il che non è desiderabile. L'indice introduce quindi una variabile che modifica il calcolo di derivazione, permettendo di differenziare ogni coppia di chiavi fratello. Eccetto per l'uso specifico in certi protocolli e standard di derivazione, generalmente iniziamo derivando la prima chiave figlio con l'indice `0`, la seconda con l'indice `1`, e così via.
 ### Processo di Derivazione con HMAC-SHA512
 

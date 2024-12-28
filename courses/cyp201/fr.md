@@ -84,10 +84,10 @@ Par exemple, la fonction de hachage SHA256 produit un hash d'une longueur fixe d
 
 Ces fonctions de hachage cryptographiques possèdent plusieurs caractéristiques essentielles qui les rendent particulièrement utiles dans le contexte de Bitcoin et d'autres systèmes informatiques :
 
-1. L'irréversibilité (ou résistance à la préimage)
-2. La résistance à la falsification (effet avalanche)
-3. La résistance aux collisions
-4. La résistance à la seconde préimage
+- L'irréversibilité (ou résistance à la préimage)
+- La résistance à la falsification (effet avalanche)
+- La résistance aux collisions
+- La résistance à la seconde préimage
 
 #### 1. L'irréversibilité (résistance à la préimage) :
 
@@ -240,9 +240,9 @@ Si l'on reprend notre exemple avec un message initial de 950 bits, on va convert
 
 Ce rembourrage de la taille est ajouté à la suite du rembourrage des bits. Le message après notre pré-traitement se compose donc de trois parties :
 
-1. Le message original $M$ ;
-2. Un bit `1` suivi de plusieurs bits `0` pour former le rembourrage des bits ;
-3. Une représentation de 64 bits de la longueur de $M$ pour former le rembourrage avec la taille.
+- Le message original $M$ ;
+- Un bit `1` suivi de plusieurs bits `0` pour former le rembourrage des bits ;
+- Une représentation de 64 bits de la longueur de $M$ pour former le rembourrage avec la taille.
 
 ![CYP201](assets/fr/006.webp)
 
@@ -550,8 +550,8 @@ Sur Bitcoin au niveau applicatif, en complément des fonctions de hachage, on ut
 
 Sur les portefeuilles Bitcoin, on utilise principalement 2 algorithmes de dérivation :
 
-1. **HMAC (_Hash-based Message Authentication Code_)**
-2. **PBKDF2 (_Password-Based Key Derivation Function 2_)**
+- **HMAC (_Hash-based Message Authentication Code_)**
+- **PBKDF2 (_Password-Based Key Derivation Function 2_)**
 
 Nous allons explorer ensemble le fonctionnement et le rôle de chacun d'eux.
 
@@ -590,12 +590,12 @@ $$
 
 Cette équation se décompose avec les étapes suivantes :
 
-1. On XOR la clé ajustée $K'$ avec $\text{ipad}$ pour obtenir $\text{iKpad}$ ;
-2. On XOR la clé ajustée $K'$ avec $\text{opad}$ pour obtenir $\text{oKpad}$ ;
-3. On concatène $\text{iKpad}$ avec le message $m$.
-4. On hache ce résultat avec SHA512 pour obtenir un hash intermédiaire $H_1$.
-5. On concatène $\text{oKpad}$ avec $H_1$.
-6. On hache ce résultat avec SHA512 pour obtenir le résultat final $H_2$.
+- On XOR la clé ajustée $K'$ avec $\text{ipad}$ pour obtenir $\text{iKpad}$ ;
+- On XOR la clé ajustée $K'$ avec $\text{opad}$ pour obtenir $\text{oKpad}$ ;
+- On concatène $\text{iKpad}$ avec le message $m$.
+- On hache ce résultat avec SHA512 pour obtenir un hash intermédiaire $H_1$.
+- On concatène $\text{oKpad}$ avec $H_1$.
+- On hache ce résultat avec SHA512 pour obtenir le résultat final $H_2$.
 
 Ces étapes peuvent être résumées schématiquement comme suit :
 
@@ -1522,27 +1522,27 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 Cette clé étendue se décompose en plusieurs éléments distincts :
 
-1. **Version** : `0488B21E`
+- **Version** : `0488B21E`
 
 Les 4 premiers octets sont la version. Ici, cela correspond à une clé publique étendue sur le Mainnet avec un objectif de dérivation soit _Legacy_, soit _SegWit v1_.
 
-2. **Profondeur** : `03`
+- **Profondeur** : `03`
 
 Ce champ indique le niveau hiérarchique de la clé dans le portefeuille HD. Dans ce cas, une profondeur de `03` signifie que cette clé est à trois niveaux de dérivation en dessous de la clé maîtresse.
 
-3. **Empreinte parent** : `6D5601AD`
+- **Empreinte parent** : `6D5601AD`
 
 Ce sont les 4 premiers octets du hash HASH160 de la clé publique parent ayant servi à dériver cette `xpub`.
 
-4. **Numéro d'index** : `80000000`
+- **Numéro d'index** : `80000000`
 
 Cet index indique la position de la clé parmi les enfants de ses clés parent. Le préfixe `0x80` indique que la clé est dérivée de manière endurcie, et puisque le reste est rempli de zéros, cela indique que cette clé est la première parmi ses éventuelles sœurs.
 
-5. **Code de chaîne** : `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+- **Code de chaîne** : `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
 
-6. **Clé publique** : `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
+- **Clé publique** : `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
 
-7. **Somme de contrôle** : `1F067C3A`
+- **Somme de contrôle** : `1F067C3A`
 
 La checksum correspond aux 4 premiers octets du hachage (double SHA256) de tout le reste.
 
@@ -1564,8 +1564,8 @@ Découvrons ensemble comment fonctionne cette dérivation déterministe.
 
 Nous l'avons abordé rapidement dans le chapitre précédent : les clés enfants se divisent en deux types principaux :
 
-1. **Les clés enfants normales** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$) : Elles sont dérivées à partir de la clé publique étendue parent ($K_{\text{PAR}}$), ou de la clé privée étendue ($k_{\text{PAR}}$), en dérivant d'abord la clé publique.
-2. **Les clés enfants endurcies** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$) : Elles ne peuvent être dérivées qu'à partir de la clé privée étendue ($k_{\text{PAR}}$) et sont donc invisibles aux observateurs disposant uniquement de la clé publique étendue.
+- **Les clés enfants normales** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$) : Elles sont dérivées à partir de la clé publique étendue parent ($K_{\text{PAR}}$), ou de la clé privée étendue ($k_{\text{PAR}}$), en dérivant d'abord la clé publique.
+- **Les clés enfants endurcies** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$) : Elles ne peuvent être dérivées qu'à partir de la clé privée étendue ($k_{\text{PAR}}$) et sont donc invisibles aux observateurs disposant uniquement de la clé publique étendue.
 
 Chaque paire de clés enfant est identifiée par un **index** de 32 bits (nommé $i$ dans nos calculs). Les index pour les clés normales vont de $0$ à $2^{31}-1$, tandis que ceux des clés endurcies vont de $2^{31}$ à $2^{32}-1$. Ces numéros servent à distinguer les paires de clés sœurs lors de la dérivation. En effet, chaque paire de clés parent doit être capable de dériver plusieurs paires de clés enfants. Si l’on appliquait systématiquement le même calcul depuis les clés parent, toutes les clés sœurs obtenues seraient identiques, ce qui n’est pas souhaitable. L’index introduit donc une variable qui modifie le calcul de dérivation, permettant ainsi de différencier chaque paire sœur. Sauf utilisation spécifique dans certains protocoles et standards de dérivation, on commence généralement par dériver la première clé enfant avec l’index `0`, la seconde avec l’index `1`, et ainsi de suite.
 

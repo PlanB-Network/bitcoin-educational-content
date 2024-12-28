@@ -81,10 +81,10 @@ For example, the SHA256 hash function produces a hash of a fixed length of 256 b
 
 These cryptographic hash functions have several essential characteristics that make them particularly useful in the context of Bitcoin and other computer systems:
 
-1. Irreversibility (or preimage resistance)
-2. Tamper resistance (avalanche effect)
-3. Collision resistance
-4. Second preimage resistance
+- Irreversibility (or preimage resistance)
+- Tamper resistance (avalanche effect)
+- Collision resistance
+- Second preimage resistance
 
 #### 1. Irreversibility (preimage resistance):
 
@@ -235,9 +235,9 @@ If we go back to our example with an initial message of 950 bits, we convert the
 
 This padding size is added following the bit padding. Therefore, the message after our preprocessing consists of three parts:
 
-1. The original message $M$;
-2. A bit `1` followed by several bits `0` to form the bit padding;
-3. A 64-bit representation of the length of $M$ to form the padding with the size.
+- The original message $M$;
+- A bit `1` followed by several bits `0` to form the bit padding;
+- A 64-bit representation of the length of $M$ to form the padding with the size.
 
 ![CYP201](assets/fr/006.webp)
 
@@ -554,8 +554,8 @@ In Bitcoin at the application level, in addition to hash functions, cryptographi
 
 On Bitcoin wallets, mainly 2 derivation algorithms are used:
 
-1. **HMAC (_Hash-based Message Authentication Code_)**
-2. **PBKDF2 (_Password-Based Key Derivation Function 2_)**
+- **HMAC (_Hash-based Message Authentication Code_)**
+- **PBKDF2 (_Password-Based Key Derivation Function 2_)**
 
 We will explore together the functioning and role of each of them.
 
@@ -598,12 +598,12 @@ $$
 
 This equation is broken down into the following steps:
 
-1. XOR the adjusted key $K'$ with $\text{ipad}$ to obtain $\text{iKpad}$;
-2. XOR the adjusted key $K'$ with $\text{opad}$ to obtain $\text{oKpad}$;
-3. Concatenate $\text{iKpad}$ with the message $m$.
-4. Hash this result with SHA512 to obtain an intermediate hash $H_1$.
-5. Concatenate $\text{oKpad}$ with $H_1$.
-6. Hash this result with SHA512 to obtain the final result $H_2$.
+- XOR the adjusted key $K'$ with $\text{ipad}$ to obtain $\text{iKpad}$;
+- XOR the adjusted key $K'$ with $\text{opad}$ to obtain $\text{oKpad}$;
+- Concatenate $\text{iKpad}$ with the message $m$.
+- Hash this result with SHA512 to obtain an intermediate hash $H_1$.
+- Concatenate $\text{oKpad}$ with $H_1$.
+- Hash this result with SHA512 to obtain the final result $H_2$.
 
 These steps can be summarized schematically as follows:
 
@@ -1580,8 +1580,8 @@ Let's explore how this deterministic derivation works.
 ### The Different Types of Child Key Derivations
 
 As we briefly touched upon in the previous chapter: child keys are divided into two main types:
-1. **Normal child keys** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): These are derived from the extended public key ($K_{\text{PAR}}$), or the extended private key ($k_{\text{PAR}}$), by first deriving the public key.
-2. **Hardened child keys** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): These can only be derived from the extended private key ($k_{\text{PAR}}$) and are therefore invisible to observers who only have the extended public key.
+- **Normal child keys** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): These are derived from the extended public key ($K_{\text{PAR}}$), or the extended private key ($k_{\text{PAR}}$), by first deriving the public key.
+- **Hardened child keys** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): These can only be derived from the extended private key ($k_{\text{PAR}}$) and are therefore invisible to observers who only have the extended public key.
 
 Every child key pair is identified by a 32-bit **index** (named $i$ in our calculations). The indexes for normal keys range from $0$ to $2^{31}-1$, while those for hardened keys range from $2^{31}$ to $2^{32}-1$. These numbers are used to distinguish sibling key pairs during derivation. Indeed, each parent key pair must be capable of deriving multiple child key pairs. If we were to apply the same calculation systematically from the parent keys, all the sibling keys obtained would be identical, which is not desirable. The index thus introduces a variable that modifies the derivation calculation, allowing each sibling pair to be differentiated. Except for specific use in certain protocols and derivation standards, we generally start by deriving the first child key with the index `0`, the second with the index `1`, and so on.
 

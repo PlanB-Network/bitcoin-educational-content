@@ -15,13 +15,13 @@
 13. lightning: everything that is about Lightining Network
 14. decentralization: aspects referring to one of Bitcoin's most important feature
 15. smart-contracts: regarding a self-executing contract with the terms of the agreement directly written into code
-16. DIY: do it yourself, stands for everything you can build on your own, with some raw material
+16. DIY: do it yourself, stands for every hardware porject you can build on your own, with some raw material
 17. node: every software agent that validates and relays information, contributing to the functionality of that specific network
 18. backup: explore ways how to improve redundacy of secret keys storage
 19. guides: step-to-step explanation to do something
 20. use-case: openly and directly addressing specific use cases for something
 21. user-friendly: when a topic shows content with the goal of being easily understandable by beginner and intermediate bitcoiners
-22. historical: content telling about historical bitcoin facts and data
+22. historical: content telling about historical bitcoin facts and data. It may also be intended for both general and economic history when dealing with Bitcoin's origin
 23. scalability: topics regarding difficulty to scale one of bitcoin-related networks
 24. protocols: whenever topics regard separate sets of rules, where each one governs how participants interact and maintain consensus
 25. layers: different protocols can lay on different levels between each other and versus Bitcoin mainnet
@@ -38,7 +38,7 @@
 36. innovation: it is about new features over the Bitcoin protocol
 37. cypherpunk: refers to content promoting, explaining and applicating any cypherpunk value
 38. self-sovereignty: different from cypherpunk, it links content that are still focused on the individual without requiring him/her to be a cryptographic/tech expert. This concept's boundary is laying more on a day-to-day physical level.
-39. complex-DIY: concept that would go beyond an intermediate level DIY content
+39. DIY-IT: do it yourself, stands for every software project you can develop on your own, with some examples and guidance from a reliable source
 40. consensus: topics referring to security of the network facing incentive mechanisms that bring order over chaos
 41. development: discussion on potential features that may be useful, really experienced users may invest energy into this topic
 42. interoperability: topics facing the possibility of mutual interation between parts of network

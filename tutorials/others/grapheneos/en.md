@@ -4,7 +4,7 @@ name: GrapheneOS
 description: Graphene OS tutorial
 ---
 
-> "[GrapheneOS](https://grapheneos.org/) is a privacy and security focused mobile OS with Android app compatibility developed as a non-profit open source project."
+> [GrapheneOS](https://grapheneos.org/) is a privacy and security focused mobile OS with Android app compatibility developed as a non-profit open source project.
 
 GrapheneOS, originally founded in 2014 as 'CopperheadOS' is based on the traditional Android Code (AOSP), but with many changes and improvements aimed at improving user privacy and security. GrapheneOS puts the user in control of their phone, not the big tech companies.
 
@@ -104,7 +104,7 @@ Default apps
 
 The only two you may not be familiar with are 'Auditor' and 'Vanadium'.
 
-- 'The [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor) uses hardware-based security features to validate the identity of a device along with authenticity and integrity of the operating system. It will verify that the device is running the stock operating system with the bootloader locked and that no tampering with the operating system has occurred.'
+- The [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor) uses hardware-based security features to validate the identity of a device along with authenticity and integrity of the operating system. It will verify that the device is running the stock operating system with the bootloader locked and that no tampering with the operating system has occurred.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) is a privacy and security hardened variant of Chromium web browser.
 
 ## Customization
@@ -322,7 +322,7 @@ However when moving to GrapheneOS, there are some creature comforts that you mus
 
 ### Sandboxed Google Play
 
-> 'GrapheneOS has a compatibility layer providing the option to install and use the official releases of Google Play in the standard app sandbox. Google Play receives absolutely no special access or privileges on GrapheneOS as opposed to bypassing the app sandbox and receiving a massive amount of highly privileged access.'
+**Please note that:** GrapheneOS has a compatibility layer providing the option to install and use the official releases of Google Play in the standard app sandbox. Google Play receives absolutely no special access or privileges on GrapheneOS as opposed to bypassing the app sandbox and receiving a massive amount of highly privileged access.
 
 If you find you simply cannot live without those push notifications for your favorite app or a certain 'must have' app is useless without Play Services, GrapheneOS allows you to [install](https://grapheneos.org/usage#sandboxed-google-play-installation) these services in a completely sandboxed environment. Once installed, these services require no Google account to work, and each one's permissions can be tightly controlled.
 

@@ -12,7 +12,7 @@ _This tutorial is provided for educational and informational purposes only. We d
 
 ---
 
-"*a bitcoin wallet for the streets*"
+> *a bitcoin wallet for the streets*
 
 In this tutorial, you will learn what a coinjoin is and how to perform one using the Samourai Wallet software and the Whirlpool implementation.
 
@@ -168,6 +168,7 @@ When you decide to spend mixed UTXOs, you can do so directly from this **postmix
 
 As we will see in the following tutorial, there is also the `mix to` option which offers the possibility to automatically send your mixed coins to another wallet, such as a cold wallet, after a defined number of coinjoins.
 After covering the theory, let's dive into practice with a tutorial on using Whirlpool through the Samourai Wallet Android app!
+
 ## Tutorial: Coinjoin Whirlpool on Samourai Wallet
 There are numerous options for using Whirlpool. The one I want to introduce here is the Samourai Wallet option (without Dojo), an open-source Bitcoin wallet management application on Android.
 

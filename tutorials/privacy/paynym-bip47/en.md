@@ -19,7 +19,7 @@ One of the most significant issues on the Bitcoin protocol is address reuse. The
 
 This compromise is as old as the White Paper. Satoshi already warned us about this risk in his work published in late 2008:
 
-> "As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner."
+> As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner.
 
 There are many solutions available to receive multiple payments without address reuse. Each of them has its compromises and drawbacks. Among all these solutions, there is [BIP47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki), a proposal developed by Justus Ranvier and published in 2015, which allows for the generation of reusable payment codes. Its goal is to enable multiple transactions to be made to the same person without reusing an address.
 
@@ -28,7 +28,12 @@ Initially, this proposal was met with disdain by part of the community, and it w
 Over time, Samourai has programmed new features directly related to PayNym. Now, there is a whole ecosystem of tools available to optimize user privacy based on PayNym and BIP47.
 In this article, you will discover the principle of BIP47 and PayNym, the mechanisms of these protocols, and the practical applications that result from them. I will only address the first version of BIP47, which is currently used for PayNym, but versions 2, 3, and 4 work practically the same way.
 
-> The only major difference is found in the notification transaction. Version 1 uses a simple address with OP_RETURN for notification, version 2 uses a multisig script (bloom-multisig) with OP_RETURN, and versions 3 and 4 simply use a multisig script (cfilter-multisig). The mechanisms discussed in this article, including the cryptographic methods studied, are therefore applicable to all four versions. To date, the PayNym implementation on Samourai Wallet and Sparrow uses the first version of BIP47.
+**Note** that the only major difference is found in the notification transaction:
+- Version 1 uses a simple address with OP_RETURN for notification,
+- Version 2 uses a multisig script (bloom-multisig) with OP_RETURN,
+- And versions 3 and 4 simply use a multisig script (cfilter-multisig).
+
+The mechanisms discussed in this article, including the cryptographic methods studied, are therefore applicable to all four versions. To date, the PayNym implementation on Samourai Wallet and Sparrow uses the first version of BIP47.
 
 ## Summary:
 
@@ -60,9 +65,10 @@ In this article, you will discover the principle of BIP47 and PayNym, the mechan
 
 A receiving address is used to receive bitcoins. It is generated from a public key by hashing it and applying a specific format. Thus, it allows for the creation of a new spending condition on a coin in order to change its owner.
 
-> To learn more about generating a receiving address, I recommend reading the last part of this article: The Bitcoin Wallet - excerpt from [ebook Bitcoin Démocratisé 2](https://www.pandul.fr/post/le-portefeuille-bitcoin-extrait-ebook-bitcoin-d%C3%A9mocratis%C3%A9-2#viewer-epio7).
+To learn more about generating a receiving address, I recommend reading the last part of this article: **The Bitcoin Wallet - excerpt from** [ebook Bitcoin Démocratisé 2](https://www.pandul.fr/post/le-portefeuille-bitcoin-extrait-ebook-bitcoin-d%C3%A9mocratis%C3%A9-2#viewer-epio7).
 
 Furthermore, you have probably already heard from a knowledgeable bitcoiner that receiving addresses are for one-time use, and that you should generate a new one for each new incoming payment to your wallet. Okay, but why?
+
 Fundamentally, address reuse does not directly endanger your funds. The use of cryptography on elliptic curves allows you to prove to the network that you are in possession of a private key without revealing that key. Therefore, you can lock multiple different UTXOs (Unspent Transaction Outputs) on the same address and spend them at different times. If you do not reveal the private key associated with that address, no one can access your funds. The issue with address reuse is more related to privacy.
 
 As mentioned in the introduction, the transparency and distribution of the Bitcoin network mean that any user with access to a node can observe the transactions of the payment system. As a result, they can see the different balances of addresses. Satoshi Nakamoto then mentioned the possibility of generating new key pairs, and thus new addresses, for each new incoming payment to a wallet. The goal would be to have an additional firewall in case of an association between the user's identity and one of their key pairs.
@@ -72,7 +78,6 @@ Today, with the presence of chain analysis companies and the development of KYC 
 The pursuit of privacy is not a comfort or a fantasy of maximalist Bitcoiners. It is a specific parameter that directly affects your personal security and the security of your funds. To help you understand this, here is a very concrete example:
 
 - Bob buys Bitcoin through Dollar Cost Averaging (DCA), meaning he acquires a small amount of Bitcoin at regular intervals to average his entry price. Bob systematically sends the purchased funds to the same receiving address. He buys 0.01 Bitcoin every week and sends it to this same address. After two years, Bob has accumulated a whole Bitcoin on this address.
-
 - The baker on the corner accepts Bitcoin payments. Excited to be able to spend Bitcoin, Bob goes to buy his baguette in satoshis. To pay, he uses the funds locked with his address. His baker now knows that he owns a Bitcoin. This significant amount could attract envy, and Bob potentially risks a physical attack in the future.
 
 Address reuse allows an observer to make an undeniable link between your different UTXOs and sometimes between your identity and your entire wallet.
@@ -105,21 +110,15 @@ The payment code acts as a virtual identifier, derived from the wallet seed. In 
 
 ![image](assets/3.webp)
 
-Its derivation purpose is noted as 47' (0x8000002F) in reference to BIP47. For example, a derivation path for a reusable payment code would be:
+Its derivation purpose is noted as 47' (0x8000002F) in reference to BIP47. For example, a derivation path for a reusable payment code would be: ** m/47'/0'/0'/**
 
-> m/47'/0'/0'/
-
-To give you an idea of what a payment code looks like, here is mine:
-
-> PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+To give you an idea of what a payment code looks like, here is mine: **PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5**
 
 It can also be encoded as a QR code to facilitate communication:
 
 ![image](assets/4.webp)
 
-As for PayNym Bots, those robots you see on Twitter, they are simply visual representations of your payment code, created by Samourai Wallet. They are generated using a hash function, which makes them almost unique. Here is mine with its identifier:
-
-> +throbbingpond8B1
+As for PayNym Bots, those robots you see on Twitter, they are simply visual representations of your payment code, created by Samourai Wallet. They are generated using a hash function, which makes them almost unique. Here is mine with its identifier: **+throbbingpond8B1**
 
 ![image](assets/5.webp)
 
@@ -130,9 +129,7 @@ For the user, the process of making a BIP47 payment with the PayNym implementati
 1. Bob shares his QR code or directly his reusable payment code. He can place it on his website, on his various public social networks, or send it to Alice through another means of communication.
 2. Alice opens her Samourai or Sparrow software and scans or pastes Bob's payment code.
 3. Alice links her PayNym with Bob's ("Follow" in English). This operation is done off-chain and remains completely free.
-
 4. Alice connects her PayNym with Bob's ("Connect" in English). This operation is done "on-chain". Alice must pay the transaction mining fees as well as a fixed fee of 15,000 sats for the service on Samourai. The service fees are waived on Sparrow. This step is what we call the notification transaction.
-
 5. Once the notification transaction is confirmed, Alice can create a BIP47 payment transaction to Bob. Her wallet will automatically generate a new blank receiving address for which only Bob has the private key.
 
 Performing the notification transaction, i.e., connecting her PayNym, is a mandatory prerequisite for making BIP47 payments. However, once this is done, the sender can make multiple payments to the recipient (exactly 2^32) without needing to perform a new notification transaction.
@@ -144,7 +141,6 @@ On the other hand, the linking operation ("follow" or "relier") allows for a lin
 To summarize:
 
 - Linking two PayNyms ("follow") is completely free. It helps establish off-chain encrypted communications, particularly for using Samourai's collaborative transaction tools (Stowaway or StonewallX2). This operation is specific to PayNym and is not described in BIP47.
-
 - Connecting two PayNyms incurs a cost. This involves performing the notification transaction to initiate the connection. The cost consists of any service fees, transaction mining fees, and 546 sats sent to the recipient's notification address to notify them of the tunnel opening. This operation is related to BIP47. Once completed, the sender can make multiple BIP47 payments to the recipient.
 
 In order to connect two PayNyms, they must already be linked.
@@ -153,7 +149,7 @@ In order to connect two PayNyms, they must already be linked.
 
 Now that we have seen the theory, let's study the practice together. The idea of the tutorials below is to link my PayNym on my Sparrow wallet with my PayNym on my Samourai wallet. The first tutorial shows you how to make a transaction using the reusable payment code from Samourai to Sparrow, and the second tutorial describes the same mechanism from Sparrow to Samourai.
 
-> I performed these tutorials on the Testnet. These are not real bitcoins.
+**Note:** I performed these tutorials on the Testnet. These are not real bitcoins.
 
 ### Building a BIP47 transaction with Samourai Wallet.
 
@@ -205,37 +201,33 @@ As explained in the second part of this paper, the reusable payment code is loca
 
 Here are the different parts that make up an 80-byte payment code:
 
-- Byte 0: The version. If using the first version of BIP47, this byte will be equal to 0x01.
-
-- Byte 1: The bit field. This space is reserved for providing additional indications in case of specific use. If simply using PayNym, this byte will be equal to 0x00.
-
-- Byte 2: The y parity. This byte indicates 0x02 or 0x03 depending on the parity (even or odd number) of the value of the y-coordinate of our public key. For more information on this practice, please read step 1 of the "address derivation" section of this article.
-
-- From byte 3 to byte 34: The x value. These bytes indicate the x-coordinate of our public key. The concatenation of x and the y parity gives us our compressed public key.
-
-- From byte 35 to byte 66: The chain code. This space is reserved for the chain code associated with the aforementioned public key.
-
-- From byte 67 to byte 79: Padding. This space is reserved for possible future developments. For version 1, we simply fill it with zeros to reach 80 bytes, which is the size of the data for an OP_RETURN output.
+- _Byte 0_: The version. If using the first version of BIP47, this byte will be equal to 0x01.
+- _Byte 1_: The bit field. This space is reserved for providing additional indications in case of specific use. If simply using PayNym, this byte will be equal to 0x00.
+- _Byte 2_: The y parity. This byte indicates 0x02 or 0x03 depending on the parity (even or odd number) of the value of the y-coordinate of our public key. For more information on this practice, please read step 1 of the "address derivation" section of this article.
+- _From byte 3 to byte 34_: The x value. These bytes indicate the x-coordinate of our public key. The concatenation of x and the y parity gives us our compressed public key.
+- _From byte 35 to byte 66_: The chain code. This space is reserved for the chain code associated with the aforementioned public key.
+- _From byte 67 to byte 79_: Padding. This space is reserved for possible future developments. For version 1, we simply fill it with zeros to reach 80 bytes, which is the size of the data for an OP_RETURN output.
 
 Here is the hexadecimal representation of my reusable payment code, presented in the previous section, with colors corresponding to the bytes presented above:
 Next, you also need to add the prefix byte "P" to quickly identify that we are dealing with a payment code. This byte is 0x47.
 
-> 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
+**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000**
 
 Finally, we calculate the checksum of this payment code using HASH256, which means double hashing with the SHA256 function. We retrieve the first four bytes of this digest and concatenate them at the end (in pink).
 
-> 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
+**0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4**
 
 The payment code is ready, now we just need to convert it to Base 58:
 
-> PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+**PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5**
 
 As you can see, this construction closely resembles the structure of an extended public key of type "xpub".
 
 During this process to obtain our payment code, we used a compressed public key and a chain code. These two elements are the result of a deterministic and hierarchical derivation from the wallet seed, following the following derivation path: m/47'/0'/0'/
+
 In concrete terms, to obtain the public key and chain code of the reusable payment code, we will calculate the master private key from the seed, then derive a child pair with the index 47 + 2^31 (hardened derivation). Then, we derive two more child pairs with the index 2^31 (hardened derivation).
 
-> If you want to learn more about deriving child key pairs within a hierarchical deterministic Bitcoin wallet, I recommend taking CRYPTO301.
+**Note:** if you want to learn more about deriving child key pairs within a hierarchical deterministic Bitcoin wallet, I recommend taking CRYPTO301.
 
 ### The cryptographic method: Elliptic Curve Diffie-Hellman key exchange (ECDH).
 
@@ -252,74 +244,60 @@ This shared secret (the red key) can then be used for other tasks. Typically, th
 To achieve this exchange, Diffie-Hellman uses modular arithmetic to calculate the shared secret. Here is a simplified explanation of how it works:
 
 - Alice and Bob agree on a common color, in this case, yellow. This color is known to everyone. It is public information.
-
 - Alice chooses a secret color, in this case, red. She mixes the two colors, resulting in orange.
-
 - Bob chooses a secret color, in this case, teal blue. He mixes the two colors, resulting in sky blue.
-
 - Alice and Bob can exchange the colors they obtained: orange and sky blue. This exchange can happen over an insecure network and can be observed by attackers.
-
 - Alice mixes the sky blue color received from Bob with her secret color (red). She obtains brown.
-
 - Bob mixes the orange color received from Alice with his secret color (teal blue). He also obtains brown.
 
 ![image](assets/13.webp)
 
-> Credit: Original idea: A.J. Han VinckVector version: FlugaalTranslation: Dereckson, Public domain, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
+**Credit:** Original idea: A.J. Han VinckVector version: FlugaalTranslation: Dereckson, Public domain, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
 
 In this simplification, the brown color represents the secret shared between Alice and Bob. It should be imagined that in reality, it is impossible for the attacker to separate the orange and sky blue colors in order to retrieve Alice or Bob's secret colors.
 
 Now, let's study its actual functioning. At first glance, Diffie-Hellman may seem complex to grasp. In reality, the operating principle is almost childlike. Before detailing its mechanisms, I will quickly remind you of two mathematical concepts that we will need (and incidentally, are also used in many other cryptographic methods).
 
 1. A prime number is a natural number that has only two divisors: 1 and itself. For example, the number 7 is prime because it can only be divided by 1 and 7 (itself). On the other hand, the number 8 is not prime because it can be divided by 1, 2, 4, and 8. It therefore has not only two divisors, but four whole and positive divisors.
-
 2. "Modulo" (denoted "mod" or "%") is a mathematical operation that allows two integers to return the remainder of the Euclidean division of the first number by the second number. For example, 16 mod 5 is equal to 1.
 
 The Diffie-Hellman key exchange between Alice and Bob works as follows:
 
 - Alice and Bob determine two common numbers: p and g. p is a prime number. The larger this number p is, the more secure Diffie-Hellman will be. g is a primitive root of p. These two numbers can be communicated in plain text over an insecure network, they are the equivalents of the yellow color in the simplification above. Alice and Bob just need to have exactly the same values for p and g.
-
 - Once the parameters are chosen, Alice and Bob each determine a secret random number on their own. The random number obtained by Alice is named a (equivalent to the red color) and the random number obtained by Bob is named b (equivalent to the teal color). These two numbers must remain secret.
-
 - Instead of exchanging these numbers a and b, each party will calculate A (uppercase) and B (uppercase) such that:
 
-> A is equal to g raised to the power of a modulo p:
-> A = g^a % p
+  A is equal to g raised to the power of a modulo p:
+  **A = g^a % p**
 
-> B is equal to g raised to the power of b modulo p:
-> B = g^b % p
+  B is equal to g raised to the power of b modulo p:
+  **B = g^b % p**
 
 - These numbers A (equivalent to the orange color) and B (equivalent to the sky blue color) will be exchanged between the two parties. The exchange can be done in plain text over an insecure network.
-
 - Alice, who now knows B, will calculate the value of z such that:
 
-> z is equal to B raised to the power of a modulo p:
-> z = B^a % p
+  z is equal to B raised to the power of a modulo p:
+  **z = B^a % p**
 
 - As a reminder, B = g^b % p. Therefore:
-
-  > z = B^a % p
-  > z = (g^b)^a % p
-  >
-  > According to the rules of exponentiation:
-  >
-  > (x^n)^m = x^nm
-  >
-  > Therefore:
-  >
-  > z = g^ba % p
+  **z = B^a % p**
+  **z = (g^b)^a % p**
+  
+  According to the rules of exponentiation:
+  **(x^n)^m = x^nm**
+  
+  Therefore:
+  **z = g^ba % p**
 
 - Bob, who now knows A, will also calculate the value of z as follows:
 
-> z is equal to A raised to the power of b modulo p:
->
-> z = A^b % p
->
-> Therefore:
->
-> z = (g^a)^b % p
-> z = g^ab % p
-> z = g^ba % p
+  z is equal to A raised to the power of b modulo p:
+  **z = A^b % p**
+  
+  Therefore:
+  **z = (g^a)^b % p**
+  **z = g^ab % p**
+  **z = g^ba % p**
 
 Thanks to the distributivity of the modulo operator, Alice and Bob find exactly the same value for z. This number represents their shared secret, which is equivalent to the color brown in the previous explanation. They can use this shared secret to encrypt communication between them on an insecure network.
 
@@ -336,7 +314,7 @@ If you have no knowledge of how private and public keys work on an elliptic curv
 
 To summarize roughly, a private key is a random number between 1 and n-1 (where n is the order of the curve), and a public key is a unique point on the curve determined by the private key through point addition and doubling from the generator point, as follows:
 
-> K = k·G
+**K = k·G**
 
 Where K is the public key, k is the private key, and G is the generator point.
 
@@ -347,30 +325,28 @@ In other words, you can easily calculate the public key if you know the private 
 We will use this property to adapt our Diffie-Hellman algorithm. Thus, the operation principle of ECDH is as follows:
 
 - Alice and Bob agree on a cryptographically secure elliptic curve and its parameters. This information is public.
-
 - Alice generates a random number ka, which will be her private key. This private key must remain secret. She determines her public key Ka by adding and doubling points on the chosen elliptic curve.
 
-> Ka = ka·G
+  **Ka = ka·G**
 
 - Bob also generates a random number kb, which will be his private key. He calculates the associated public key Kb.
 
-> Kb = kb·G
+  **Kb = kb·G**
 
 - Alice and Bob exchange their public keys Ka and Kb over an insecure public network.
-
 - Alice calculates a point (x, y) on the curve by applying her private key ka to Bob's public key Kb.
 
-> (x, y) = ka·Kb
+  **(x, y) = ka·Kb**
 
 - Bob calculates a point (x, y) on the curve by applying his private key kb to Alice's public key Ka.
 
-> (x, y) = kb·Ka
+  **(x, y) = kb·Ka**
 
 - Alice and Bob obtain the same point on the elliptic curve. The shared secret will be the x-coordinate of this point.
 
 They do obtain the same shared secret because:
 
-> (x, y) = ka·Kb = ka·kb·G = kb·ka·G = kb·Ka
+  **(x, y) = ka·Kb = ka·kb·G = kb·ka·G = kb·Ka**
 
 A potential attacker observing the insecure public network can only obtain the public keys of each party and the chosen curve parameters. As explained earlier, these two pieces of information alone do not allow for the determination of the private keys, so the attacker cannot access the secret.
 ECDH is an algorithm that allows for key exchange. It is often used alongside other cryptographic methods to define a protocol. For example, ECDH is used in the core of TLS (Transport Layer Security), a encryption and authentication protocol used for the internet transport layer. TLS uses ECDHE for key exchange, a variant of ECDH where the keys are ephemeral to provide persistent confidentiality. In addition to ECDHE, TLS also uses an authentication algorithm like ECDSA, an encryption algorithm like AES, and a hash function like SHA256.
@@ -406,9 +382,7 @@ For example, let's imagine that I want to make a donation with BIP47 to a peacef
 
 - This organization has published its payment code directly on its website or social media platforms.
 - This code is therefore associated with the movement.
-
 - I retrieve this payment code.
-
 - Before I can send them a transaction, I must ensure that they are aware of my personal payment code, which is also associated with my identity since I use it to receive transactions from my social networks.
 
 How can I transmit it to them? If I send it to them using a conventional means of communication, the information may leak, and I may be identified as a person supporting peaceful movements.

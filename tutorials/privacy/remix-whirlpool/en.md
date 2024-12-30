@@ -12,7 +12,7 @@ _This tutorial is provided for educational and informational purposes only. We d
 
 ---
 
-> *"Break the link your coins leave behind"*
+> *Break the link your coins leave behind*
 
 This is a question I am often asked. **When doing coinjoins with Whirlpool, how many remixes should be done to achieve satisfactory results?**
 

@@ -1,9 +1,14 @@
 question: Qual é o risco de usar uma carteira multisig?
-answer: Não ter acesso a partes distintas suficientes do backup multisig
+answer: Não ter acesso a chaves privadas individuais ou componentes de backup suficientes.
 wrong_answers:
-  - Ter acesso a partes distintas suficientes do backup multisig
-  - Compartilhar chaves com outras partes
-  - Não compartilhar chaves com outras partes
+  - Ter acesso a chaves privadas individuais ou componentes de backup suficientes.
+  - Compartilhar suas chaves privadas com outras partes.
+  - Compartilhar suas chaves públicas com outras partes.
 explanation: |
-  Quando você usa uma carteira multisig, cada parte do multisig deve ser armazenada em locais diferentes. Isso ocorre porque o multisig requer múltiplas assinaturas para realizar uma transação, então um certo número de carteiras é necessário, e armazenar cada parte em um local diferente adiciona uma camada extra de segurança.
-reviewed: false
+  Ao usar uma carteira multisig, cada chave privada do
+  multisig deve ser armazenada em locais diferentes. Isso é
+  porque o multisig requer múltiplas assinaturas para realizar
+  uma transação, então um certo número de carteiras são
+  necessárias. Assim, armazenar cada parte em um local diferente
+  adiciona uma camada extra de segurança.
+reviewed: true

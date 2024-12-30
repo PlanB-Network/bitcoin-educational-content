@@ -1,10 +1,9 @@
-question: Qual é o número total de possibilidades para uma chave privada na teoria?
-answer: 2^256
+question: Por que não é recomendado reutilizar um endereço Bitcoin?
+answer: Facilita o rastreamento de transações por terceiros
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - Revela a chave privada por causa do nonce
+  - Torna as transações mais caras
+  - Invalida assinaturas digitais
 explanation: |
-  O número total de possibilidades para uma chave privada é teoricamente
-  2^256, mas na realidade, é ligeiramente menor que isso.
+  Reutilizar um endereço permite que observadores vinculem facilmente diferentes transações ao mesmo usuário, comprometendo sua privacidade.
 reviewed: false

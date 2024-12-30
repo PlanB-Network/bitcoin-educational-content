@@ -1,9 +1,9 @@
-question: Quels sont les avantages des canaux de paiement Lightning ?
-answer: Ils permettent aux utilisateurs d'envoyer et de recevoir des Bitcoins sans avoir à payer de frais de transaction élevés ou à attendre de longues périodes de confirmation sur le réseau Bitcoin.
+question: Quel est le rôle principal d'une clé privée dans le système Bitcoin ?
+answer: Signer des transactions pour satisfaire un script
 wrong_answers:
-  - Ils permettent aux utilisateurs de miner des Bitcoins de manière plus efficace.
-  - Ils permettent aux utilisateurs de stocker des Bitcoins de manière plus sécurisée.
-  - Ils permettent aux utilisateurs d'échanger des Bitcoins contre d'autres cryptomonnaies.
+  - Servir d'identifiant pour recevoir des bitcoins
+  - Stocker les fonds de manière sécurisée sur la blockchain
+  - Créer des scripts de verrouillage pour protéger les bitcoins
 explanation: |
-  Les canaux de paiement Lightning sont un moyen efficace d'effectuer des transactions Bitcoin rapides et peu coûteuses. Ils permettent aux utilisateurs d'envoyer et de recevoir des Bitcoins sans avoir à payer de frais de transaction élevés ou à attendre de longues périodes de confirmation sur le réseau Bitcoin.
+  La clé privée est utilisée pour signer des transactions pour satisfaire un script et déverrouiller les bitcoins.
 reviewed: false

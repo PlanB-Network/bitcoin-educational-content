@@ -1,8 +1,12 @@
-question: Bitcoin được mô tả như thế nào trong văn bản?
-answer: Một đối tượng đa ngành
+question: Khóa học này mô tả Bitcoin như thế nào?
+answer: Một môn học đa ngành.
 wrong_answers:
-  - Một đối tượng đơn giản
-  - Một đối tượng phức tạp
-  - Một đối tượng đơn ngành
-explanation: >-
-  Bitcoin được mô tả là một đối tượng đa ngành bởi vì nó đặt ra các câu hỏi liên quan đến nhiều lĩnh vực, bao gồm mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ, khoa học máy tính, triết học, năng lượng, luật và quy định.
+  - Một môn học đơn giản.
+  - Một môn học vật lý.
+  - Một môn học đơn ngành.
+explanation: |
+  Bitcoin được mô tả là một môn học đa ngành bởi vì
+  nó đặt ra các câu hỏi liên quan đến nhiều lĩnh vực, bao gồm
+  mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ,
+  khoa học máy tính, triết học, năng lượng, luật và quy định.
+reviewed: true

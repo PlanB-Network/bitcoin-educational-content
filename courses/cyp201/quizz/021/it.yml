@@ -1,9 +1,9 @@
-question: Quante iterazioni esegue PBKDF2 utilizzando HMAC SHA512?
-answer: 2048 iterazioni
+question: Qual è la caratteristica principale della moltiplicazione scalare sulle curve ellittiche?
+answer: Funzione unidirezionale
 wrong_answers:
-  - 1024 iterazioni
-  - 512 iterazioni
-  - 4096 iterazioni
+  - Facilmente reversibile
+  - Basata sulla fattorizzazione di numeri primi
+  - Molto lunga da calcolare
 explanation: |
-  PBKDF2 viene utilizzato per convertire una frase mnemonica in un seed. Questo algoritmo esegue 2048 iterazioni utilizzando HMAC SHA512.
+  La moltiplicazione scalare sulle curve ellittiche è una funzione unidirezionale, rendendo impossibile recuperare la chiave privata a partire dalla chiave pubblica.
 reviewed: false

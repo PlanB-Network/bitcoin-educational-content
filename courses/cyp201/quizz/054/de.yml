@@ -1,9 +1,8 @@
-question: Was ist der Zweck von BIP43 und BIP44 im Bitcoin-Ökosystem?
-answer: Sie haben die Struktur und Hierarchie von HD-Wallets standardisiert.
+question: Was ist die Hauptfunktion der Passphrase in einem Bitcoin-HD-Wallet?
+answer: Die Ableitung des Schlüssels zu modifizieren, um die Sicherheit zu erhöhen
 wrong_answers:
-  - Sie haben die 24-Wort-Mnemonic-Phrase eingeführt.
-  - Sie haben die Art und Weise, wie Schlüssel generiert und gespeichert werden, revolutioniert.
-  - Sie haben vorgeschlagen, eine zusätzliche Passphrase hinzuzufügen, um die Sicherheit einzelner Schlüssel zu verstärken.
+  - Ausstehende Transaktionen entschlüsseln
+  - Die UTXOs des Wallets generieren
+  - Zugriff auf das Wallet mit Gesichtserkennung schützen
 explanation: |
-  BIP43 und BIP44 haben die Struktur und Hierarchie von HD-Wallets standardisiert und sie damit für die breite Öffentlichkeit zugänglicher und einfacher in der Anwendung gemacht.
-reviewed: false
+  Die Passphrase fungiert als ein zweiter Sicherheitsfaktor, indem sie den Ableitungsseed des Schlüssels verändert, um den Zugriff auf das Wallet zu verhindern, falls die mnemonische Phrase kompromittiert wird.

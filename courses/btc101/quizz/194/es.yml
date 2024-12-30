@@ -1,9 +1,12 @@
-question: ¿Cuál es una solución para que las estructuras grandes o los entusiastas de Bitcoin acepten Bitcoin?
-answer: BTCpay Server
+question: ¿Cuál es una herramienta para aceptar Bitcoin en grandes organizaciones o entusiastas apasionados de Bitcoin?
+answer: BTCpay Server.
 wrong_answers:
-  - Billetera de Bitcoin
-  - Intercambio de Bitcoin
-  - Minería de Bitcoin
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
 explanation: |
-  BTCpay Server es una solución para que las estructuras grandes o los entusiastas de Bitcoin acepten Bitcoin. Otras soluciones incluyen OpenNode para negocios en línea simples y Swiss Bitcoin Pay para comerciantes aficionados.
-reviewed: false
+  BTCpay Server es una herramienta para aceptar Bitcoin en
+  grandes estructuras o bitcoiners apasionados. Otras soluciones
+  incluyen OpenNode para negocios en línea simples y Swiss
+  Bitcoin Pay para comerciantes aficionados.
+reviewed: true

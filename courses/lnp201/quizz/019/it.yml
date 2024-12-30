@@ -1,9 +1,9 @@
-question: Come finanzia Alice il canale che sta aprendo con Bob?
-answer: Lei crea una transazione con 2 UTXO come output.
+question: Cosa garantisce il sistema di transazione di impegno ai partecipanti di un canale Lightning?
+answer: Che ciascuno può recuperare i propri fondi pubblicando l'ultima transazione firmata
 wrong_answers:
-  - Lei invia denaro direttamente all'indirizzo pubblico di Bob.
-  - Lei crea una transazione con 1 UTXO come output.
-  - Lei chiede a Bob di finanziare il canale.
+  - Che le transazioni sono visibili sulla blockchain di Bitcoin
+  - Che la capacità del canale aumenta con ogni transazione
+  - Che le commissioni sono condivise tra i due partecipanti
 explanation: |
-  Per finanziare il canale che sta aprendo con Bob, Alice crea una transazione con 2 UTXO come output; uno all'indirizzo multi-sig 2/2 e uno a uno dei suoi indirizzi di resto.
+  Le transazioni di impegno firmate assicurano che ciascun partecipante possa recuperare i propri fondi pubblicando l'ultima versione in caso di chiusura del canale.
 reviewed: false

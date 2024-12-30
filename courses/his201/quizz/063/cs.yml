@@ -1,0 +1,9 @@
+question: Jaký jazyk byl prvním neanglickým sub-forem Bitcoin fóra věnovaným v červenci 2010?
+answer: Ruština
+wrong_answers:
+  - Francouzština
+  - Němčina
+  - Italština
+explanation: |
+  Bylo [založeno](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241) Marttim Malmim 28. července. Další jazyky byly přidány v následujících měsících.
+reviewed: false

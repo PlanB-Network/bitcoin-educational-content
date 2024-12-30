@@ -1,9 +1,0 @@
-question: Que signifie le préfixe XPUB dans une clé étendue ?
-answer: Il s'agit d'une clé publique étendue.
-wrong_answers:
-  - Il s'agit d'une clé privée étendue.
-  - Il s'agit d'une clé maître.
-  - Il s'agit d'une clé enfant.
-explanation: |
-  Les clés étendues sont identifiées par des préfixes spécifiques (XPRV, XPUB, YPUB, ZPUB) qui indiquent s'il s'agit d'une clé privée ou publique étendue, ainsi que son objectif spécifique.
-reviewed: false

@@ -1,11 +1,11 @@
 question: What is the approximate number of nodes distributed across the globe as
   of September 2023?
-answer: 45,000 nodes
+answer: 45,000 nodes.
 wrong_answers:
-  - 10,000 nodes
-  - 100,000 nodes
-  - 500,000 nodes
+  - 10,000 nodes.
+  - 100,000 nodes.
+  - 500,000 nodes.
 explanation: >-
   As of September 2023, there are approximately 45,000 nodes distributed
   across the globe.
-reviewed: false
+reviewed: true

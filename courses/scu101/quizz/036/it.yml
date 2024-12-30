@@ -1,9 +1,19 @@
 question: Qual è lo scopo del sito web Have I Been Pwned?
-answer: Verificare se il tuo indirizzo email è stato compromesso e ricevere notifiche su futuri violazioni dei dati.
+answer: Verificare se il tuo indirizzo email è stato compromesso e ricevere notifiche in caso di future violazioni dei dati.
 wrong_answers:
-  - Verificare se il tuo indirizzo email è valido.
-  - Verificare se il tuo indirizzo email è disponibile.
-  - Verificare se il tuo indirizzo email è stato bloccato.
+  - Verificare se il tuo indirizzo email è valido e ricevere notifiche in caso di future violazioni dei dati.
+  - Verificare se il tuo indirizzo email è disponibile e, in caso affermativo, utilizzarlo per registrarsi a un famoso negozio di pegni online.
+  - Verificare se il tuo indirizzo email è stato bloccato a causa di un evento di compromissione dei dati.
 explanation: |
-  Il sito web Have I Been Pwned ti permette di verificare se il tuo indirizzo email è stato compromesso in una violazione dei dati e di ricevere notifiche su futuri violazioni dei dati.
-reviewed: false
+  Il sito web Have I Been Pwned ti permette di verificare se
+  il tuo indirizzo email è stato compromesso in una violazione
+  dei dati e di ricevere notifiche in caso di future violazioni
+  dei dati.' è stato compromesso in una violazione dei dati e di
+  ricevere notifiche in caso di future violazioni dei dati.' è stato
+  compromesso in una violazione dei dati e di ricevere notifiche in
+  caso di future violazioni dei dati.' è stato compromesso in una
+  violazione dei dati e di ricevere notifiche in caso di future
+  violazioni dei dati.'
+
+  è stato compromesso in una violazione dei dati e di ricevere notifiche in caso di future violazioni dei dati.'
+reviewed: true

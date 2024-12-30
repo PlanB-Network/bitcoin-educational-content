@@ -1,0 +1,9 @@
+question: Tên của blog do Jon Matonis điều hành, nói về các loại tiền tệ số (bao gồm Bitcoin từ tháng 3 năm 2010) là gì?
+answer: The Monetary Future
+wrong_answers:
+  - Classic Economic Studies
+  - Return to Cash
+  - The Nakamoto Institute
+explanation: |
+  Ông đã xuất bản [bài viết đầu tiên về Bitcoin](https: //themonetaryfuture.blogspot.com/2010/03/bitcoin-peer-to-peer-electronic-cash.html) vào ngày 13 tháng 3 năm 2010, sau khi trao đổi email với Satoshi.
+reviewed: false

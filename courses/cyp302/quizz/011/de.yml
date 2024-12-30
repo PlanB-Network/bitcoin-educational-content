@@ -1,0 +1,9 @@
+question: Was erleichtert schlecht ausgestatteten Angreifern das Abfangen lokaler Kommunikation?
+answer: Die Verwendung von Funkwellen für drahtlose Verbindungen
+wrong_answers:
+  - Alle Daten durch Satelliten routen
+  - Ausschließlich Koaxialkabel für die Datenübertragung verwenden
+  - Daten nur über Glasfaserkabel senden
+explanation: |
+  Drahtlose Verbindungen, die Daten über Funkwellen übertragen, machen das Abfangen für Angreifer einfacher, da sie keinen physischen Zugang zum Netzwerk benötigen.
+reviewed: false

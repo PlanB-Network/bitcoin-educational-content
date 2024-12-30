@@ -1,9 +1,8 @@
-question: Qual é o tamanho de saída da função hash SHA256?
-answer: 256 bits
+question: Que tipo de chave é usada para bloquear UTXOs no Bitcoin?
+answer: Chave pública
 wrong_answers:
-  - 512 bits
-  - 128 bits
-  - 1024 bits
+  - Chave privada
+  - Hash da semente
+  - Frase mnemônica
 explanation: |
-  A função hash SHA256 gera um hash de 256 bits a partir de uma entrada de tamanho variável. É por isso que é chamada de SHA256.
-reviewed: false
+  UTXOs são bloqueados com uma chave pública ou seu hash, e desbloqueados com a chave privada correspondente.

@@ -9,7 +9,7 @@ _We are closely following the developments of this case as well as developments 
 
 _This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
 
-_This tutorial is dedicated to the installation of RoninDojo v1. To take advantage of the latest improvements and features, I strongly recommend consulting our tutorial dedicated to the direct installation of RoninDojo v2 on your Raspberry Pi:_ [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+_This tutorial is dedicated to the installation of RoninDojo v1. To take advantage of the latest improvements and features, I strongly recommend consulting our tutorial dedicated to the direct installation of RoninDojo v2 on your Raspberry Pi:_ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 
@@ -678,3 +678,4 @@ To learn more about RoninDojo, I recommend checking out the links in my external
 - https://en.wikipedia.org/wiki/Boltzmann_formula
 - https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/
+

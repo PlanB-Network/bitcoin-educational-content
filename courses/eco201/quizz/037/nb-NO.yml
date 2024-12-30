@@ -1,0 +1,13 @@
+question: Hva skjer når det er en nedgang i rentenivået på grunn av en økning i kreditt ifølge den østerrikske teorien om konjunktursyklusen?
+answer: Entreprenører kan låne flere ressurser og dermed skape produksjonsstadier av høyere orden. Denne utvidelsen av produksjonsstrukturen vil ikke resultere i redusert konsum fordi det ikke har vært noen forbrukerutsettelse av nåværende konsum. Med andre ord, BNP vokser.
+wrong_answers:
+  - Entreprenører kan låne færre ressurser og dermed skape produksjonsstadier av lavere orden. Denne utvidelsen av produksjonsstrukturen vil resultere i økt konsum fordi det har vært en forbrukerutsettelse av nåværende konsum. Med andre ord, BNP krymper.
+  - Entreprenører kan låne flere ressurser og dermed skape produksjonsstadier av lavere orden. Denne utvidelsen av produksjonsstrukturen vil resultere i redusert konsum fordi det ikke har vært noen forbrukerutsettelse av nåværende konsum. Med andre ord, BNP krymper.
+  - Entreprenører kan låne færre ressurser og dermed skape produksjonsstadier av høyere orden. Denne utvidelsen av produksjonsstrukturen vil resultere i økt konsum fordi det har vært en forbrukerutsettelse av nåværende konsum. Med andre ord, BNP vokser.
+explanation: |
+  Ifølge den østerrikske teorien om konjunktursyklusen, når det er
+  en nedgang i rentenivået på grunn av en økning i kreditt, kan entreprenører låne
+  flere ressurser og dermed skape produksjonsstadier av høyere orden. Denne utvidelsen av
+  produksjonsstrukturen vil ikke resultere i redusert konsum fordi det
+  ikke har vært noen forbrukerutsettelse av nåværende konsum. Med andre ord, BNP vokser.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hvorfor er det upraktisk å utveksle nøkler personlig for sikker online kommunikasjon?
+answer: Det fører til høye organisatoriske kostnader samtidig som det er ineffektivt
+wrong_answers:
+  - Det gjør kryptert kommunikasjon ubrukelig
+  - Det krever bruk av flere nøkler per klient
+  - Det forhindrer gjenbruk av nøkler for gjentatte transaksjoner
+explanation: |
+  Å utveksle nøkler personlig er kostbart og ineffektivt, spesielt i stor skala, ettersom det bremser transaksjoner og pålegger betydelige logistikkostnader for hver ny klient.

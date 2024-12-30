@@ -1,0 +1,10 @@
+question: Mida näitab mnemoonilise fraasi puudumine rahakotis?
+answer: Rahakott ei ole turvaline pikaajaliseks hoiustamiseks
+wrong_answers:
+  - Rahakott on turvaline pikaajaliseks hoiustamiseks
+  - Rahakott ei ole turvaline lühiajaliseks hoiustamiseks
+  - Rahakott ei ole turvaline kulutamiseks
+explanation: |
+  12 või 24 sõnast koosneva nimekirja, ehk mnemoonilise fraasi puudumine rahakotis peaks teid hoiatama, et
+  rahakott ei ole turvaline, kuna see ei järgi standardset varundamisprotseduuri.
+reviewed: true

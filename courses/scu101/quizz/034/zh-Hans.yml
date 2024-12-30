@@ -1,0 +1,9 @@
+question: 电子邮件附件和图片中可能包含什么？
+answer: 恶意软件
+wrong_answers:
+  - 垃圾邮件
+  - 广告
+  - 促销内容
+explanation:
+  电子邮件附件和图片中可能包含恶意软件。因此，您不应该下载或打开来自未知或可疑发送者的附件。
+reviewed: true

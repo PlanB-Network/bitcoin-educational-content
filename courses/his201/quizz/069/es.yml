@@ -1,0 +1,9 @@
+question: ¿Dónde se reúnen los desarrolladores de Bitcoin para tener discusiones técnicas más informales?
+answer: En el canal IRC \#bitcoin-dev
+wrong_answers:
+  - En una sección especial del foro
+  - En la lista de correo bitcoin-development
+  - En el subreddit r/Bitcoin
+explanation: |
+  Esto fue [creado](https: //mmalmi.github.io/satoshi/#email-27) en agosto de 2009 por Martti Malmi. Ganó cierta popularidad después del slashdotting en julio de 2010.
+reviewed: false

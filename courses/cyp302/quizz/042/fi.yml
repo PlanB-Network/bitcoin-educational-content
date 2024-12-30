@@ -1,0 +1,9 @@
+question: Mikä ryhmä täyttää kommutatiivisuusehdon?
+answer: Abelin ryhmä
+wrong_answers:
+  - Suljettu ryhmä
+  - Assosiatiivinen ryhmä
+  - Käänteisryhmä
+explanation: |
+  Abelin eli kommutatiivinen ryhmä on ryhmä, jossa alkioiden järjestys binäärioperaatiossa ei vaikuta lopputulokseen. Tämä tarkoittaa, että mille tahansa a ja b, pätee a ∘ b = b ∘ a.
+reviewed: false

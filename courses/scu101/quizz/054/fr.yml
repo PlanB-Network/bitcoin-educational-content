@@ -1,9 +1,12 @@
 question: Quelles sont les pratiques recommandées pour une sécurité optimale avec une authentification forte ?
-answer: Utilisez une adresse e-mail sécurisée, un gestionnaire de mots de passe sécurisé et adoptez l'authentification à deux facteurs (2FA) en utilisant des YubiKeys.
+answer: Utilisez une adresse e-mail sécurisée, un gestionnaire de mots de passe sécurisé et adoptez le 2FA en utilisant des YubiKeys.
 wrong_answers:
-  - Utilisez un mot de passe commun pour tous les comptes et évitez le 2FA.
-  - Utilisez un mot de passe simple et comptez sur les données biométriques pour le 2FA.
-  - Utilisez une adresse e-mail sécurisée, mais évitez les gestionnaires de mots de passe et le 2FA.
+  - Utilisez un mot de passe commun pour tous les comptes et évitez le 2FA
+  - Utilisez un mot de passe simple et reposez-vous sur les données biométriques pour le 2FA
+  - Utilisez une adresse e-mail sécurisée, mais évitez les gestionnaires de mots de passe et le 2FA
 explanation: |
-  Pour une sécurité optimale, il est recommandé d'utiliser une adresse e-mail sécurisée, un gestionnaire de mots de passe sécurisé et d'adopter l'authentification à deux facteurs (2FA) en utilisant des YubiKeys. Il est également conseillé d'acheter deux YubiKeys pour anticiper les pertes ou les vols.
-reviewed: false
+  Pour une sécurité optimale, il est recommandé d'utiliser une adresse
+  e-mail sécurisée, un gestionnaire de mots de passe sécurisé et d'adopter le 2FA
+  en utilisant des YubiKeys. Il est également conseillé d'acheter deux
+  YubiKeys pour anticiper la perte ou le vol.
+reviewed: true

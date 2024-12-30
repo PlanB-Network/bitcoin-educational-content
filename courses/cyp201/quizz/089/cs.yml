@@ -1,11 +1,9 @@
-question: Co je seed v kontextu HD peněženky?
-answer: 512bitová alfanumerická sekvence, která slouží jako základ pro odvození klíčů peněženky.
+question: Jaký krok předchází aplikaci HASH160 při generování adresy SegWit v0?
+answer: Kompresi veřejného klíče
 wrong_answers:
-  - Heslo používané k zabezpečení peněženky.
-  - Unikátní identifikátor peněženky.
-  - Kód používaný k generování mnemonické fráze.
+  - Přidání kontrolního součtu
+  - Konverze do formátu bech32
+  - Kódování ve formátu base58check
 explanation: |
-  Seed je 512bitová alfanumerická sekvence, která slouží jako základ
-  pro odvození klíčů peněženky. Získává se použitím funkce pbkdf2 s
-  mnemonickou frází a heslem.
+  Veřejný klíč musí být komprimován, aby se snížila jeho velikost, než projde hashovací funkcí HASH160.
 reviewed: false

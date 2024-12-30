@@ -1,9 +1,12 @@
 question: Quel est l'avantage d'utiliser un gestionnaire de mots de passe auto-hébergé comme Bitwarden ou KeePass ?
-answer: Vous pouvez contrôler l'endroit où vos mots de passe sont stockés, offrant ainsi plus de sécurité et de contrôle.
+answer: Vous pouvez contrôler où vos mots de passe sont stockés, offrant plus de sécurité et de contrôle.
 wrong_answers:
-  - Ils sont plus faciles à utiliser que les services tiers.
-  - Ils offrent plus de fonctionnalités que les services tiers.
-  - Ils sont moins chers que les services tiers.
+  - Ils sont plus faciles et toujours plus sécurisés à utiliser que les services tiers.
+  - Ils offrent généralement plus de fonctionnalités que les services tiers, bien qu'ils soient plus chers.
+  - Ils sont moins chers et plus rapides que les services tiers.
 explanation: |
-  Les gestionnaires de mots de passe auto-hébergés comme Bitwarden ou KeePass vous permettent de contrôler l'endroit où vos mots de passe sont stockés, offrant ainsi potentiellement plus de sécurité et de contrôle. Cependant, ils peuvent nécessiter une connaissance technique plus poussée pour être utilisés.
-reviewed: false
+  Les gestionnaires de mots de passe auto-hébergés comme Bitwarden ou KeePass
+  vous permettent de contrôler où vos mots de passe sont stockés,
+  offrant potentiellement plus de sécurité et de contrôle. Cependant,
+  ils peuvent nécessiter plus de connaissances techniques pour être utilisés.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Quelle est la norme la plus couramment utilisée pour une phrase de récupération de 24 mots dans un portefeuille Bitcoin ?
-answer: Une entropie de 256 bits.
+question: Quel est le rôle principal du code de chaîne dans la dérivation des clés enfants ?
+answer: Introduire une source d'entropie supplémentaire
 wrong_answers:
-  - Une entropie de 128 bits.
-  - Une entropie de 160 bits.
-  - Une entropie de 512 bits.
+  - Identifier la profondeur hiérarchique
+  - Stocker les index des clés enfants
+  - Garantir la compatibilité avec le protocole Bitcoin
 explanation: |
-  La norme la plus couramment utilisée pour une phrase de récupération de 24 mots est une entropie de 256 bits.
+  Le code de chaîne est utilisé pour introduire une source d'entropie supplémentaire et unique pour chaque clé dérivée.
 reviewed: false

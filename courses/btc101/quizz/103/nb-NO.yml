@@ -1,0 +1,11 @@
+question: Hva er formålet med å opprette en arveplan for dine bitcoins?
+answer: For å sikre at dine bitcoins vil bli riktig forvaltet etter din død
+wrong_answers:
+  - For å unngå skatter på dine bitcoins
+  - For å øke verdien av dine bitcoins
+  - For å forhindre at dine bitcoins blir stjålet
+explanation: |
+  En arveplan sikrer at dine bitcoins vil bli riktig forvaltet
+  etter din død. Den kan inkludere et håndskrevet brev som detaljerer dine eiendeler, deres
+  tilgangsmetoder, og kontaktinformasjonen til pålitelige personer som skal kontaktes.
+reviewed: true

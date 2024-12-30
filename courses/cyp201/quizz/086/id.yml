@@ -1,0 +1,9 @@
+question: Bagaimana checksum dihitung untuk alamat SegWit v0 yang dikodekan dalam bech32?
+answer: Menggunakan kode BCH
+wrong_answers:
+  - Dengan menerapkan HASH256 dua kali
+  - Dengan menambahkan hash RIPEMD160
+  - Dengan mengkodekan langsung dalam base64
+explanation: |
+  Alamat Bech32 menggunakan kode BCH untuk menghitung checksum.
+ditinjau: false

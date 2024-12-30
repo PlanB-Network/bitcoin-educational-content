@@ -1,12 +1,14 @@
-question: Vấn đề Tướng Byzantine là gì và Bitcoin giải quyết nó như thế nào?
-answer: Đó là vấn đề về việc phối hợp thông tin trong một hệ thống mà các bên tham gia không thể tin cậy. Bitcoin giải quyết nó thông qua việc sử dụng blockchain dựa trên Bằng chứng Công việc (Proof of Work) với độ khó thay đổi.
+question: Vấn đề Tướng Byzantine là gì?
+answer: Đó là vấn đề về việc phối hợp thông tin trong một hệ thống mà các bên tham gia không thể tin cậy.
 wrong_answers:
-  - Đó là vấn đề về việc xác minh giao dịch trong một mạng lưới phi tập trung. Bitcoin giải quyết nó thông qua việc sử dụng chữ ký số.
-  - Đó là vấn đề về việc ngăn chặn việc chi tiêu gấp đôi trong tiền tệ số. Bitcoin giải quyết nó thông qua việc sử dụng sổ cái công khai.
-  - Đó là vấn đề về việc duy trì sự đồng thuận trong một mạng lưới phi tập trung. Bitcoin giải quyết nó thông qua việc sử dụng thuật toán Chứng minh Cổ phần (Proof of Stake).
+  - Đó là vấn đề về việc xác minh giao dịch trong một mạng phi tập trung.
+  - Đó là vấn đề về việc ngăn chặn việc chi tiêu gấp đôi trong tiền điện tử.
+  - Đó là vấn đề về việc duy trì sự đồng thuận trong một mạng tập trung.
 explanation: |
-  Vấn đề Tướng Byzantine là một vấn đề cổ điển trong tính toán phân tán,
-  liên quan đến việc đạt được sự đồng thuận trong một mạng lưới mà một số nút có thể bị lỗi
-  hoặc có ý đồ xấu. Bitcoin giải quyết vấn đề này thông qua việc sử dụng blockchain dựa
-  trên Bằng chứng Công việc, đảm bảo rằng tất cả các nút đều đồng ý với trạng thái của lịch sử giao dịch.
-reviewed: false
+  Vấn đề Tướng Byzantine là một vấn đề cổ điển trong
+  tính toán phân tán, liên quan đến việc đạt được sự đồng thuận
+  trong một mạng lưới mà một số nút có thể bị lỗi hoặc
+  có ý đồ xấu. Bitcoin giải quyết vấn đề này thông qua việc sử dụng
+  một blockchain dựa trên Bằng chứng Công việc (Proof of Work), đảm bảo rằng tất cả
+  các nút đều đồng ý với trạng thái của lịch sử giao dịch.
+reviewed: true

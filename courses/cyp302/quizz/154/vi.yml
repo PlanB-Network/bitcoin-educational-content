@@ -1,0 +1,9 @@
+question: Trong hệ thống mã hóa RSA, tại sao việc tìm giá trị của d lại khó khăn?
+answer: Bởi vì nó đòi hỏi kiến thức về φ(N), phụ thuộc vào các thừa số nguyên tố của N
+wrong_answers:
+  - Bởi vì d là một số ngẫu nhiên
+  - Bởi vì d lớn hơn N
+  - Bởi vì d được tính toán độc lập với φ(N)
+explanation: |
+  Việc tìm d khó khăn bởi vì nó dựa vào kiến thức về φ(N), mà lại phụ thuộc vào giá trị của p và q, các thừa số nguyên tố của N.
+reviewed: false

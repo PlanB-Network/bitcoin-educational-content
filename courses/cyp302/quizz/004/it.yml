@@ -1,0 +1,9 @@
+question: Qual è il motivo principale per cui gli altri cifrari di Beale rimangono indecifrati?
+answer: La chiave di questi cifrari è ancora sconosciuta
+wrong_answers:
+  - I testi criptati sono troppo vecchi
+  - La scatola è stata persa prima che potesse essere decifrata
+  - Ai ricercatori mancano documenti storici affidabili
+explanation: |
+  Gli altri cifrari di Beale non sono mai stati decifrati perché la chiave necessaria per leggerli rimane sconosciuta, nonostante numerosi tentativi.
+reviewed: false

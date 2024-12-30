@@ -1,4 +1,4 @@
-question: Qual è il significato del termine "Burner-preneurs" nel contesto dell'iperinflazione?
+question: Qual è il significato del termine Burner-preneurs nel contesto dell'iperinflazione?
 answer: Si riferisce agli imprenditori che prosperano prendendo in prestito valuta svalutata per investire in beni tangibili, e poi ripagano i loro debiti con una valuta ancora più svalutata.
 wrong_answers:
   - Si riferisce alle persone che bruciano valuta svalutata per scopi di riscaldamento.
@@ -6,5 +6,5 @@ wrong_answers:
   - Si riferisce alle persone che commerciano illegalmente in valute estere.
 explanation: |
   Durante i periodi di iperinflazione, il valore della valuta si erode rapidamente.
-  Ciò crea opportunità per gli imprenditori, spesso chiamati "Burner-preneurs", che prendono in prestito la valuta svalutata per investire in beni tangibili, e poi ripagano i loro debiti con una valuta ancora più svalutata.
+  Ciò crea opportunità per gli imprenditori, spesso chiamati Burner-preneurs, che prendono in prestito la valuta svalutata per investire in beni tangibili, e poi ripagano i loro debiti con una valuta ancora più svalutata.
 reviewed: false

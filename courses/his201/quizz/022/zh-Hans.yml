@@ -1,0 +1,8 @@
+question: 2008年8月，中本聪首先联系了谁？
+answer: Adam Back
+wrong_answers:
+  - Wei Dai
+  - Hal Finney
+  - James A. Donald
+explanation:
+  他在8月20日联系了他，询问如何在白皮书中引用他关于Hashcash的论文。在回复之后，Adam Back将他引荐给了Wei Dai（因其b-money的概念），中本聪在两天后与其进行了沟通。

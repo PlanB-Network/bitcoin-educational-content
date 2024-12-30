@@ -1,0 +1,8 @@
+question: Hva er den største begrensningen med JBOK-lommebøker?
+answer: De krever en uavhengig sikkerhetskopi for hver privat nøkkel
+wrong_answers:
+  - De tillater ikke generering av nye adresser
+  - De er ikke kompatible med digitale signaturer
+  - De bruker ukomprimerte offentlige nøkler
+explanation: |
+  JBOK-lommebøker tvinger brukeren til å ta sikkerhetskopi av hver privat nøkkel individuelt, noe som kompliserer deres håndtering.

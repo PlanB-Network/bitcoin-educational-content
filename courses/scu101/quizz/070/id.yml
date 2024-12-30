@@ -1,0 +1,13 @@
+question: Apa tujuan dari otentikasi Lightning?
+answer: Ini menghasilkan pengenal yang berbeda untuk setiap layanan, tanpa perlu
+  menyediakan alamat email atau informasi pribadi.
+wrong_answers:
+  - Ini mempercepat proses otentikasi.
+  - Ini memungkinkan Anda untuk menggunakan kata sandi yang sama untuk semua layanan.
+  - Ini mengirimkan pengingat untuk mengubah kata sandi setiap bulan.
+explanation: |
+  Otentikasi Lightning menghasilkan pengenal yang berbeda untuk setiap layanan,
+  tanpa perlu menyediakan alamat email atau informasi pribadi. Ini dapat meningkatkan
+  privasi dan keamanan dengan mengurangi jumlah informasi pribadi yang dibagikan
+  dengan setiap layanan.
+reviewed: false

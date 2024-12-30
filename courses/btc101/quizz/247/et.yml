@@ -1,0 +1,9 @@
+question: Mis on üks peamisi küsimusi, mis on tõstatatud rahanduse tuleviku kohta?
+answer: Kes peaks hoidma, volitama ja jälgima raha, mida me kasutame?
+wrong_answers:
+  - Kuidas me saame raha täielikult kaotada?
+  - Kuidas me saame tagada, et kõigil oleks sama palju raha?
+  - Kuidas me saame raha muuta tarbetuks?
+explanation: >-
+  Tekst tõstatab mitmeid küsimusi rahanduse tuleviku kohta, millest üks
+  on, kes peaks hoidma, volitama ja jälgima raha, mida me kasutame.

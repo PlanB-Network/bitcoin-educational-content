@@ -1,11 +1,8 @@
-question: ¿Cuál es el orden de la curva secp256k1 utilizada en Bitcoin?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: ¿Cuántos bits de entropía se utilizan para una frase mnemotécnica de 24 palabras?
+answer: 256 bits
 wrong_answers:
-  - 2^256
-  - 2^256 - 1
-  - 2^256 - 432420386565659656852420866394968145598
+  - 128 bits
+  - 512 bits
+  - 64 bits
 explanation: |
-  El orden de la curva secp256k1 utilizada en Bitcoin es 2^256 -
-  432420386565659656852420866394968145599.
-  Este es el número de puntos en la curva.
-reviewed: false
+  Una frase mnemotécnica de 24 palabras se basa en 256 bits de entropía, asegurando una seguridad muy alta.

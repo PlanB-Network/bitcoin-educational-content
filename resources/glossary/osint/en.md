@@ -6,4 +6,4 @@ Acronym for "*Open Source Intelligence*". OSINT refers to the collection and ana
 
 In the context of Bitcoin, OSINT can be used to support chain analysis for tracing funds, notably to identify an entry point, that is, a link between an on-chain activity and a form of identity belonging to a real entity. For example, if you post your receiving address on Twitter under your name, an analyst could find it and associate it with your identity.
 
-![](../../dictionnaire/assets/28.png)
+![](../../dictionnaire/assets/28.webp)

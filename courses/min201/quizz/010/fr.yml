@@ -1,9 +1,9 @@
-question: Comment les mineurs de Bitcoin peuvent-ils aider à gérer les excédents d'énergie et à stabiliser les réseaux électriques ?
-answer: Les mineurs de Bitcoin peuvent absorber les excédents d'énergie, agissant comme un tampon flexible, ajustant la demande plutôt que l'offre. Dans un monde où la production d'électricité à partir de sources renouvelables (non contrôlables) augmente constamment, les mineurs peuvent jouer un rôle clé pour assurer l'équilibre de nos réseaux électriques, tout en bénéficiant d'une électricité bon marché ou excédentaire pour alimenter leurs opérations minières.
+question: Comment les mineurs de Bitcoin peuvent-ils aider à gérer les surplus d'énergie et à stabiliser les réseaux électriques ?
+answer: Les mineurs de Bitcoin peuvent absorber les surplus d'énergie, agissant comme un tampon flexible, en ajustant la demande plutôt que l'offre. Dans un monde où la production d'électricité à partir de sources renouvelables (non contrôlables) est en constante augmentation, les mineurs peuvent jouer un rôle clé dans l'assurance de l'équilibre de nos réseaux électriques, tout en bénéficiant d'électricité bon marché ou en surplus pour alimenter leurs opérations de minage.
 wrong_answers:
-  - Les mineurs de Bitcoin peuvent aider à gérer les excédents d'énergie en stockant l'excès d'énergie dans des batteries.
-  - Les mineurs de Bitcoin peuvent aider à gérer les excédents d'énergie en revendant l'excès d'énergie au réseau.
-  - Les mineurs de Bitcoin peuvent aider à gérer les excédents d'énergie en convertissant l'excès d'énergie en chaleur.
+  - Les mineurs de Bitcoin peuvent aider à gérer les surplus d'énergie en stockant l'énergie excédentaire dans des batteries.
+  - Les mineurs de Bitcoin peuvent aider à gérer les surplus d'énergie en vendant l'énergie excédentaire de retour au réseau.
+  - Les mineurs de Bitcoin peuvent aider à gérer les surplus d'énergie en convertissant l'énergie excédentaire en chaleur.
 explanation: |
-  Le chapitre explique que les mineurs de Bitcoin peuvent absorber les excédents d'énergie, agissant comme un tampon flexible, ajustant la demande plutôt que l'offre. Cela peut aider à gérer les excédents d'énergie et à stabiliser les réseaux électriques.
-reviewed: false
+  Le chapitre explique que les mineurs de Bitcoin peuvent absorber les surplus d'énergie, agissant comme un tampon flexible, en ajustant la demande plutôt que l'offre. Cela peut aider à gérer les surplus d'énergie et à stabiliser les réseaux électriques.
+reviewed: true

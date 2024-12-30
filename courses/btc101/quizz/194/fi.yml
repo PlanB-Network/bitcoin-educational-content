@@ -1,9 +1,12 @@
-question: Mikä on yksi ratkaisu suurille rakenteille tai intohimoisille bitcoin-harrastajille hyväksyä Bitcoin?
-answer: BTCpay Server
+question: Mikä on yksi työkalu Bitcoinin vastaanottamiseen suurille organisaatioille tai intohimoisille Bitcoin-harrastajille?
+answer: BTCpay Server.
 wrong_answers:
-  - Bitcoin Lompakko
-  - Bitcoin Vaihto
-  - Bitcoin Louhinta
-explanation: >-
-  BTCpay Server on ratkaisu suurille rakenteille tai intohimoisille bitcoin-harrastajille hyväksyä Bitcoin. Muita ratkaisuja sisältävät OpenNode yksinkertaisille verkkoliiketoiminnoille ja Swiss Bitcoin Pay harrastelijakauppiaille.
-reviewed: false
+  - Bitcoin Lompakko.
+  - Bitcoin Vaihto.
+  - BTCpay Louhinta.
+explanation: |
+  BTCpay Server on työkalu Bitcoinin vastaanottamiseen suurille
+  rakenteille tai intohimoisille bitcoinisteille. Muita ratkaisuja
+  sisältävät OpenNode yksinkertaisille verkkoliiketoiminnoille ja Swiss
+  Bitcoin Pay amatöörikauppiaille.
+reviewed: true

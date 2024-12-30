@@ -119,11 +119,11 @@ Chúc bạn may mắn với việc học của mình, và nếu bạn cần liê
 ## Lời kết
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-Cảm ơn bạn đã tham gia các khóa học về RGB do Mạng lưới PlanB phối hợp cùng Fulgur'Ventures tổ chức. Chúng tôi xin bày tỏ lòng biết ơn đến các giáo viên đã hỗ trợ. Nếu bạn quan tâm đến việc tiếp tục công việc với RGB, dưới đây là danh sách các nguồn lực hữu ích để bạn khám phá:
+Cảm ơn bạn đã tham gia các khóa học về RGB do Mạng lưới Plan ₿ phối hợp cùng Fulgur'Ventures tổ chức. Chúng tôi xin bày tỏ lòng biết ơn đến các giáo viên đã hỗ trợ. Nếu bạn quan tâm đến việc tiếp tục công việc với RGB, dưới đây là danh sách các nguồn lực hữu ích để bạn khám phá:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-Cảm ơn bạn và chúc bạn may mắn với việc học tập tại Mạng lưới PlanB.
+Cảm ơn bạn và chúc bạn may mắn với việc học tập tại Mạng lưới Plan ₿.

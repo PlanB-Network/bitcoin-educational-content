@@ -1,9 +1,9 @@
-question: ¿Cuál es el papel de BIP38 en el ecosistema de Bitcoin?
-answer: Propuso agregar una frase de contraseña adicional para reforzar la seguridad de las claves individuales.
+question: ¿Cuál es el propósito de usar una cartera señuelo con una frase de paso?
+answer: Simular una cartera con una pequeña cantidad en caso de coacción física
 wrong_answers:
-  - Introdujo la frase mnemotécnica de 24 palabras.
-  - Revolucionó la forma en que se generan y almacenan las claves.
-  - Estandarizó la estructura y jerarquía de las carteras HD.
+  - Añadir una copia de seguridad automática de las transacciones
+  - Generar una frase mnemotécnica adicional
+  - Proteger los UTXOs de un doble gasto
 explanation: |
-  BIP38 propuso agregar una frase de contraseña adicional para reforzar la seguridad de las claves individuales. Esta es una de las muchas mejoras realizadas para mejorar la seguridad y funcionalidad de las carteras HD.
+  Una cartera señuelo se utiliza para desviar la atención de un atacante proporcionando acceso a una cartera que contiene una pequeña cantidad de bitcoins.
 reviewed: false

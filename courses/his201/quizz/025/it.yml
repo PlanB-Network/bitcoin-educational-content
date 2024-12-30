@@ -1,0 +1,9 @@
+question: Quando è stato effettivamente lanciato il prototipo di rete Bitcoin nel 2009?
+answer: 9 gennaio 2009, alle 02; 54; 25 UTC
+wrong_answers:
+  - 3 gennaio 2009, alle 18: 15; 05 UTC
+  - 8 gennaio 2009, alle 19: 27; 40 UTC
+  - 12 gennaio 2009, alle 03: 30; 25 UTC
+explanation: |
+  Questo è il timestamp del blocco 1 della blockchain, minato da Satoshi Nakamoto dopo aver pubblicato il codice software sulla mailing list qualche ora prima. Il blocco genesi (0) è stato creato tra il 3 e l'8 gennaio, ma non esisteva ancora una vera e propria rete.
+reviewed: false

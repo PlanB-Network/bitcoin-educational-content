@@ -1,12 +1,13 @@
-question: ¿Cuál es el uso recomendado de una billetera multisig?
-answer: Para grandes cantidades para uso corporativo
+question: ¿Cuál es el uso recomendado de una cartera multisig?
+answer: Almacenar grandes cantidades para uso corporativo.
 wrong_answers:
-  - Para pequeñas cantidades para uso personal
-  - Para cantidades medianas para uso sin fines de lucro
-  - Para gastos diarios para uso individual
+  - Almacenar pequeñas cantidades para uso personal.
+  - Almacenar cantidades medianas para uso de organizaciones sin fines de lucro.
+  - Almacenar gastos diarios para uso individual.
 explanation: |
-  Se recomienda una billetera multisig para grandes cantidades y uso corporativo
-  porque requiere múltiples firmas para realizar una transacción. Esto agrega una capa adicional
-  de seguridad, ya que significa que una sola persona no puede realizar una transacción
-  sin la aprobación de otros.
-reviewed: false
+  Se recomienda una cartera multisig para almacenar grandes cantidades
+  y para uso corporativo porque requiere múltiples
+  firmas para realizar una transacción. Este proceso añade una
+  capa extra de seguridad, ya que una sola persona no puede
+  llevar a cabo una transacción sin la aprobación de los demás.
+reviewed: true

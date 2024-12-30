@@ -1,9 +1,14 @@
-question: ¿Qué país ha convertido al Bitcoin en moneda de curso legal desde 2021?
-answer: El Salvador
+question: ¿Cómo resuelve Bitcoin el Problema de los Generales Bizantinos?
+answer: Mediante el uso de una blockchain basada en Prueba de Trabajo con una dificultad flotante.
 wrong_answers:
-  - Francia
-  - Estados Unidos
-  - China
-explanation: |
-  El Salvador ha convertido al Bitcoin en moneda de curso legal desde 2021, contribuyendo al desarrollo de la economía Bitcoin en la región.
-reviewed: false
+  - Mediante el uso de firmas digitales.
+  - Mediante el uso de un libro mayor público.
+  - Mediante el uso de un algoritmo de Prueba de Participación.
+explanation: >-
+  El Problema de los Generales Bizantinos es un problema clásico en
+  computación distribuida, que implica lograr un consenso
+  en una red donde algunos de los nodos pueden ser defectuosos o
+  maliciosos. Bitcoin resuelve este problema mediante el uso de una
+  blockchain basada en Prueba de Trabajo, lo que asegura que todos
+  los nodos estén de acuerdo en el estado del historial de transacciones.
+reviewed: true

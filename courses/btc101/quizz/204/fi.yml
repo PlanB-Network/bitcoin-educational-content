@@ -4,6 +4,8 @@ wrong_answers:
   - Alustan logon väri.
   - Käyttäjien määrä alustalla.
   - Alustan ikä.
-explanation: >-
-  Tekstissä mainitaan, että DCA-alustaa valittaessa valinta riippuu enemmän saatavuudesta omassa maassasi.
-reviewed: false
+explanation: |
+  Tämän kurssitekstin mukaan DCA-alustaa valittaessa
+  oikea valinta riippuu enemmän sen saatavuudesta
+  omassa maassasi.
+reviewed: true

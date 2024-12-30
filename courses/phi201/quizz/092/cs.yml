@@ -1,0 +1,9 @@
+question: Co je individualismus podle Tocquevilla?
+answer: Individualismus je pocit soběstačnosti, který vede občany k izolaci od ostatních a k uzavření se do sebe samých.
+wrong_answers:
+  - Individualismus je prvek, který existuje v každé éře.
+  - Individualismus je politická doktrína, která obhajuje návrat k předkům.
+  - Individualismus je termín, který charakterizuje lidský sobectví.
+explanation: |
+  Pro Tocquevilla je individualismus moderní tendence k soběstačnosti, která vede občany k zanedbávání kolektivních zodpovědností, čímž vytváří izolaci, která oslabuje sociální tkáň.
+reviewed: false

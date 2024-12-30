@@ -1,9 +1,11 @@
 question: Quel est le but du protocole HTTPS ?
 answer: Il chiffre les données sur les sites web pour garantir un échange sécurisé entre l'utilisateur et le site web.
 wrong_answers:
-  - Il permet aux utilisateurs de contourner les restrictions géographiques.
-  - Il permet aux utilisateurs de bloquer les publicités en ligne.
-  - Il permet aux utilisateurs d'accéder à Internet sans utiliser de données.
+  - Il permet aux utilisateurs de contourner les restrictions géographiques lorsqu'il s'agit de payer par carte de débit ou de crédit.
+  - Il permet aux utilisateurs de bloquer partiellement la publicité en ligne.
+  - Il permet aux utilisateurs d'accéder à internet sans utiliser de données d'identification privées.
 explanation: |
-  Le protocole HTTPS est utilisé pour chiffrer les données sur les sites web, garantissant ainsi que les données échangées entre l'utilisateur et le site web sont sécurisées. Cela aide à protéger contre les tiers qui pourraient intercepter les données.
-reviewed: false
+  Le protocole HTTPS est utilisé pour chiffrer les données sur les sites web,
+  garantissant que les données échangées entre l'utilisateur et le
+  site web sont sécurisées. Cela aide à protéger contre l'interception des données par des tiers.
+reviewed: true

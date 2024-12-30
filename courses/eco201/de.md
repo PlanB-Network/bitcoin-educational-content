@@ -17,9 +17,11 @@ Diese Denkschule hat bereits mehrere Jahrhunderte hinter sich und eine ganze Rei
 +++
 
 # Einführung in die Wirtschaftswissenschaften
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Einführung
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Hallo zusammen und herzlich willkommen zu Econ 201: Einführung in die österreichische Wirtschaftswissenschaft.
@@ -39,6 +41,7 @@ Ich danke Théo herzlich für die Erstellung dieses Kurses und hoffe, dass er ei
 Wenn Sie bereit sind, sich auf dieses Abenteuer einzulassen, lade ich Sie ein, auf das folgende Video zu klicken und mit dem Bonusvideo über unser derzeitiges Finanzsystem zu beginnen. Ich übergebe jetzt das Wort an Théo. Vielen Dank an ihn für die Zusammenarbeit mit Descoupes Bitcoin bei der Realisierung dieses Videos. Ich werde euch bald wiedersehen. Auf Wiedersehen!
 
 ## Geld, Kredit, Banken und Zentralbanken
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > "Das grundlegende Problem mit konventioneller Währung ist das Vertrauen, das erforderlich ist, um sie funktionieren zu lassen. Der Zentralbank muss vertraut werden, dass sie die Währung nicht entwertet, aber die Geschichte der Fiat-Währungen ist voller Vertrauensbrüche. Den Banken muss vertraut werden, dass sie unser Geld halten und elektronisch übertragen, aber sie verleihen es in Wellen von Kreditblasen mit kaum einem Bruchteil als Reserve. Wir müssen ihnen in Bezug auf unsere Privatsphäre vertrauen, ihnen vertrauen, dass sie Identitätsdieben nicht erlauben, unsere Konten zu leeren."
@@ -60,7 +63,7 @@ Nach dem Kauf des Hauses weisen Sie Ihren Banker an, das Geld auf das Konto des 
 Abbildung 1: Geldschöpfung als Buchungseinträge
 
 > "Es ist gut genug, dass die Menschen unseres Landes unser Banken- und Währungssystem nicht verstehen, denn wenn sie es täten, glaube ich, es würde eine Revolution geben, bevor morgen früh"
-> 
+>
 > Henry Ford
 
 Dieser Prozess ermöglicht es den Banken, alle Transaktionen, einschließlich Überweisungen, Kreditkartenzahlungen und Schecks, über einen bestimmten Zeitraum (in der Regel eine Woche oder einen Monat) zu erfassen. Sie gleichen diese Transaktionen dann untereinander mit Bankreserven aus, die eine weitere Form von Fiat-Währung sind, die nie von der Öffentlichkeit verwendet wird. Bankreserven werden bei der Zentralbank auf einem speziellen Konto gehalten, das nur von lizenzierten Banken und Finanzinstituten zugänglich ist.
@@ -127,9 +130,11 @@ Um dieses Ziel zu erreichen, werden wir die grundlegenden Prinzipien der "Öster
 Im nächsten Kapitel werden wir uns mit dem grundlegenden Eckpfeiler jeder wirtschaftlichen Denkschule befassen: der Werttheorie. In den folgenden Kapiteln werden wir Geld als soziale Institution, die Kapital- und Konjunkturtheorie, die Herausforderung der wirtschaftlichen Berechnung sowie einen kurzen Überblick über die Geschichte und Methodik der Österreichischen Schule der Nationalökonomie untersuchen.
 
 # Theoretische Grundlagen
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 
 ## Die subjektive Werttheorie
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > "Wert existiert nur im menschlichen Bewusstsein"
@@ -211,6 +216,7 @@ Aufbauend auf den Erkenntnissen des subjektiven ordinalen Werts erklärte Menger
 Die folgenden Kapitel werden sich mit dem Entstehen von Geld als soziale Institution, der Theorie des Kapitals und des Zinses, die als Grundlage für die Theorie des Konjunkturzyklus dienen wird, und schließlich der Rolle der Preise für die wirtschaftliche Berechnung befassen.
 
 ## Das Entstehen von Geld als soziales Phänomen
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Obwohl Individuen ein gemeinsames Interesse an Spezialisierung und Maximierung der Arbeitsteilung haben, gibt es dennoch Koordinationsprobleme, die diese Expansion begrenzen.
@@ -229,10 +235,10 @@ Ursprünglich wurde das Gefangenendilemma wie folgt formuliert: Zwei Verdächtig
 
 Diese Ergebnisse können in einer Matrix dargestellt werden (numerische Ergebnisse geben die Anzahl der Jahre Haft an):
 
-| Alice / Bob       | Beschuldigen | Schweigen     |
-| ----------------- | ------------ | ------------- |
-| **Beschuldigen**  | 2, 2         | 0, 3          |
-| **Schweigen**     | 3, 0         | 1, 1          |
+| Alice / Bob      | Beschuldigen | Schweigen |
+| ---------------- | ------------ | --------- |
+| **Beschuldigen** | 2, 2         | 0, 3      |
+| **Schweigen**    | 3, 0         | 1, 1      |
 
 In diesem Spiel gibt es keine Möglichkeit zur Koordination (Kommunikation ist unmöglich), um das beste Ergebnis für beide Parteien zu erzielen. Folglich haben Alice und Bob einen individuellen Anreiz, sich gegenseitig zu beschuldigen, obwohl dies nicht zum optimalen Ergebnis für die Gruppe führt. Die optimale Strategie für beide ist es, zu schweigen und jeweils eine einjährige Haftstrafe zu erhalten.
 
@@ -250,7 +256,7 @@ Erstens sind Menschen durch ihre kognitiven Fähigkeiten begrenzt. Es ist für e
 
 Zweitens ist die gesellschaftlich akzeptierte Messung des Wertes von Beiträgen im Austausch (Kommutabilität) ein nicht triviales Problem. Wenn zum Beispiel eine Person Fleisch aus der Jagd liefert und im Gegenzug Materialien für einen Unterschlupf anfordert, wie kann der Wert des angebotenen Fleisches in Bezug auf die angeforderten Materialien bewertet werden? Das Gleiche gilt für die Qualität - ist Hirschfleisch mehr oder weniger wert als Holz?
 
-Selbst wenn es möglich wäre, einen zufriedenstellenden Wechselkurs für jedes Warenpaar festzulegen, wird es schnell unpraktisch, diese Informationen aufrechtzuerhalten. In einem direkten Austauschsystem mit N Gütern gibt es N(N-1)/2 Wechselkurse, an die man sich erinnern muss. Für eine Wirtschaft mit 50 Gütern bedeutet das, sich an 50*49/2, also 1225 Wechselkurse, zu erinnern, im Vergleich zu nur 50 bei indirekten Austauschen. Für eine Wirtschaft mit 100 Gütern steigt diese Zahl auf 4950. Eine solche quadratische Beziehung setzt eine zusätzliche Grenze für die Skalierbarkeit des direkten Austauschs (Tauschhandels).
+Selbst wenn es möglich wäre, einen zufriedenstellenden Wechselkurs für jedes Warenpaar festzulegen, wird es schnell unpraktisch, diese Informationen aufrechtzuerhalten. In einem direkten Austauschsystem mit N Gütern gibt es N(N-1)/2 Wechselkurse, an die man sich erinnern muss. Für eine Wirtschaft mit 50 Gütern bedeutet das, sich an 50\*49/2, also 1225 Wechselkurse, zu erinnern, im Vergleich zu nur 50 bei indirekten Austauschen. Für eine Wirtschaft mit 100 Gütern steigt diese Zahl auf 4950. Eine solche quadratische Beziehung setzt eine zusätzliche Grenze für die Skalierbarkeit des direkten Austauschs (Tauschhandels).
 
 Darüber hinaus, da diese Austausche nicht sofort erfolgen, sondern im Laufe der Zeit stattfinden, erschwert die Bewertung von Beiträgen im Laufe der Zeit die relative Bewertung von Beiträgen. Neben der Bewertung des Austauschverhältnisses zwischen zwei gegenwärtigen Gütern wird es notwendig, den Wert eines vergangenen Beitrags im Verhältnis zu einem zukünftigen Gegenstück zu bewerten.
 
@@ -289,6 +295,7 @@ In diesem Zusammenhang spielt Geld eine entscheidende Rolle bei der intertempora
 Im nächsten Kapitel werden wir das Konzept der Zeitpräferenz genauer untersuchen und die österreichische Perspektive auf Zinsen und Kapital erläutern, die als Grundlage für das folgende Kapitel zur Theorie des Konjunkturzyklus dienen wird.
 
 ## Zeitpräferenz, Zinsen und Kapital
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Zeitpräferenz
@@ -359,9 +366,11 @@ Dies wird perfekt durch das folgende Diagramm veranschaulicht: Die langfristigen
 Dies werden wir im nächsten Kapitel, das der österreichischen Theorie des Konjunkturzyklus gewidmet ist, herausfinden!
 
 # Österreichische Wirtschaftsperspektiven
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Die österreichische Theorie des Konjunkturzyklus
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > "Je länger der Boom der inflationären Bankkredite anhält, desto größer ist der Umfang der Fehlinvestitionen in Sachkapital und desto größer ist die Notwendigkeit der Liquidation dieser unsoliden Investitionen. Wenn die Kreditausweitung stoppt, sich umkehrt oder sogar signifikant verlangsamt, werden die Fehlinvestitionen offenbart."
@@ -431,6 +440,7 @@ Mehr als jede andere Wirtschaftsschule besteht die Österreichische Schule auf d
 Dies wird das Thema des nächsten und letzten Kapitels dieses Kurses sein.
 
 ## Die Unmöglichkeit der wirtschaftlichen Berechnung im Sozialismus
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > "Wo es keine Marktpreise für die Produktionsfaktoren gibt, weil sie weder gekauft noch verkauft werden, ist es unmöglich, bei der Planung zukünftiger Handlungen und bei der Bestimmung des Ergebnisses vergangener Handlungen auf Berechnungen zurückzugreifen. Eine sozialistische Produktionsführung würde einfach nicht wissen, ob das, was sie plant und ausführt, das geeignetste Mittel ist, um die angestrebten Ziele zu erreichen. Sie wird gewissermaßen im Dunkeln operieren. Sie wird die knappen Produktionsfaktoren, sowohl materiell als auch menschlich (Arbeit), verschwenden. Chaos und Armut für alle werden zwangsläufig die Folge sein."
@@ -443,6 +453,7 @@ Trotz der wiederholten Misserfolge marxistischer Regime im letzten Jahrhundert b
 
 1. Vergleichbare Ideen werden immer noch von Progressiven und anderen Interventionisten befürwortet.
 2. Preisabsprachen, sei es in den Kapitalmärkten durch das Handeln von Zentralbankern oder in anderen Märkten durch staatliche Unternehmen, Dekrete und das Eingreifen von Regulierungsausschüssen, sind weiterhin weit verbreitet.
+
 ### Die Debatte über die ökonomische Berechnung
 
 Diese Debatte wurde ursprünglich durch eines der einflussreichsten wirtschaftlichen Papiere des 20. Jahrhunderts entfacht, "Ökonomische Berechnung im sozialistischen Gemeinwesen", verfasst von Ludwig von Mises und veröffentlicht im Jahr 1920. In dieser Ära war der Sozialismus auf dem Vormarsch, mit den Bolschewiki, die die Macht in Russland ergriffen, Sozialisten, die in der Weimarer Republik (Deutschland) an die Macht kamen, und sozialistischen und kommunistischen Parteien, die in ganz Europa an Bedeutung gewannen.
@@ -489,7 +500,7 @@ Heutzutage taucht die Debatte über die wirtschaftliche Berechnung hauptsächlic
 
 Für eine konkrete Anwendung des Problems der wirtschaftlichen Berechnung auf eine zeitgenössische Situation können Sie sich auf diesen Artikel beziehen, der sich mit dem Problem der Ressourcenallokation im modernen China befasst.
 
->   The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Fazit
 
@@ -498,6 +509,7 @@ Hauptstrom-Ökonomen und Zentralplaner mögen österreichische Ökonomen oft nic
 Die österreichische Tradition verkörpert einen bescheidenen Ansatz zum menschlichen Handeln und zieht tiefgreifende Schlussfolgerungen aus den Konzepten des subjektiven Wertes, der Unsicherheit, des freien Willens und der Komplexität. Sie erklärt, wie die Marktordnung, obwohl sie nicht das Produkt menschlichen Designs ist, als zentrale Institution für unsere Entwicklung und Wohlstand steht. Wenn es eine wichtige Erkenntnis aus diesem Kurs gibt, dann ist es, dass der Kapitalismus zum dominierenden Wirtschaftssystem wurde, weil er sich in einer dynamischen und unsicheren Welt, bevölkert von freien Individuen, an Veränderungen anpassen kann.
 
 ## Die österreichische Methodik
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Die österreichische Schule der Wirtschaft unterscheidet sich von anderen Schulen durch ihre axiomatisch-deduktive Methodik, die sich von dem positivistischen Ansatz unterscheidet, der in den Sozialwissenschaften häufig verwendet wird. Der positivistische Ansatz basiert auf Gesetzen, die aus empirischen Daten abgeleitet werden und eine ähnliche Methode wie die Naturwissenschaften verwenden. Er formuliert Hypothesen aus Beobachtungen, die dann durch vorübergehende Experimente bestätigt oder widerlegt werden. Die wissenschaftliche Methode besteht darin, die Hypothese beizubehalten, die die Daten am besten erklärt, und sie weiter zu erforschen, bis eine präzisere Hypothese gefunden wird.
@@ -517,20 +529,21 @@ Es ist wichtig zu beachten, dass das Cherry-Picking, bei dem selektiv Daten ausg
 Methodologie ist ein wesentlicher Aspekt in der Wirtschaft und den Sozialwissenschaften im Allgemeinen. Sie beeinflusst, wie Fragen gestellt, Hypothesen formuliert und Daten interpretiert werden. Das Verständnis der methodologischen Unterschiede zwischen ökonomischen Denkschulen kann uns helfen, vielfältige Perspektiven zu schätzen und unsere eigenen Meinungen zu den in früheren Episoden diskutierten Themen zu entwickeln.
 
 # Fazit
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-
-
 ## Bewerten Sie den Kurs
+
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
+
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-
 ## Weitere Studien
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Herzlichen Glückwunsch zur Absolvierung dieses ECON 201 Kurses! Ich hoffe aufrichtig, dass Sie ihn genossen haben und sich neue Möglichkeiten für sich eröffnet haben. Ihre Entdeckung von Bitcoin steht erst am Anfang, und ich lade Sie ein, alle anderen Kurse an der Universität zu erkunden.
@@ -549,21 +562,55 @@ Neben diesen Lektüren können Sie auch Informationen zur österreichischen Wirt
 
 Durch das Lesen dieser Werke und das Erkunden dieser Online-Ressourcen können Sie ein tieferes Verständnis für die wichtigsten Prinzipien und Ideen der österreichischen Schule der Wirtschaft entwickeln.
 
-### Unterstützen Sie uns
+# Abschluss
 
-Dieser Kurs sowie alle Inhalte dieser Universität wurden Ihnen kostenlos von unserer Community angeboten. Um uns zu unterstützen, können Sie ihn mit anderen teilen, Mitglied der Universität werden und sogar über GitHub zu ihrer Entwicklung beitragen. Im Namen des gesamten Teams vielen Dank!
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
 
-### Bewerten Sie den Kurs (bald verfügbar)
-Ein Bewertungssystem für den Kurs wird bald in diese neue E-Learning-Plattform integriert! In der Zwischenzeit vielen Dank, dass Sie den Kurs belegt haben, und wenn es Ihnen gefallen hat, überlegen Sie bitte, ihn mit anderen zu teilen. (bald verfügbar)
-Wenn Sie weiter in das Thema der österreichischen Wirtschaft eintauchen möchten, empfehle ich Ihnen mehrere Interviews mit Théo Mogenet:
+## Bewerten Sie diesen Kurs
 
-- [Wie kann man sich auf die nächste Wirtschaftskrise vorbereiten?](https://youtu.be/GJT8t1TEd7Q)
-- [Wie kann die Zerstörung des Euro formuliert werden?](https://youtu.be/eK3ONo11HN8)
-- [Hyper-Bitcoinisierung: Können wir auf einem BTC-Standard laufen?](https://youtu.be/nkN2twZ-lJY)
-  Wenn Sie immer noch mehr möchten, können Sie sich diese Diskussionen über die makroökonomische Situation und andere verschiedene Themen ansehen:
-- [Wie kann Bitcoin zerstört werden?](https://youtu.be/gHKvj4eeiDg)
-- [Ist Bitcoin rechts, links oder anarchistisch?](https://youtu.be/4fXGxzLtIIw)
-- [Um den Planeten zu retten, lassen Sie den Dollar und den Euro hinter sich](https://youtu.be/iHagDlH4bf8)
-- [Warum ist ein Anstieg der Zinssätze unmöglich?](https://youtu.be/iHagDlH4bf8)
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
 
-Ansonsten setzen Sie Ihr Lernen mit anderen Schulungen und Tutorials der Universität fort!
+## Abschlussprüfung
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Abschluss
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+Herzlichen Glückwunsch zum Abschluss dieses Kurses!
+
+Wir freuen uns, dass Sie diesen wichtigen Meilenstein in Ihrer Lernreise erreicht haben.
+
+Dank Ihrer Hingabe und Ihres Engagements haben Sie wertvolles Wissen und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung dienen werden.
+
+Um das Bitcoin-Universum weiter zu erforschen, laden wir Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
+
+#### Entdecken Sie das Leben von F. Bastiat mit
+
+https://planb.network/courses/eco102
+
+#### Verstehen Sie die Entstehung von Hyperinflationen mit
+
+https://planb.network/courses/eco204
+
+#### Entdecken Sie Bitcoin und seine Grundlagen mit
+
+https://planb.network/courses/btc101
+
+#### Aktualisieren Sie Ihre Online-Sicherheit mit
+
+https://planb.network/courses/scu101
+
+#### Entdecken Sie das Lightning Network mit
+
+https://planb.network/courses/lnp201
+
+#### Lernen Sie, Ihre Bitcoin-Community aufzubauen mit
+
+https://planb.network/courses/btc302
+
+#### Verstehen Sie, wie die Bitcoin-Wallet funktioniert mit
+
+https://planb.network/courses/cyp201

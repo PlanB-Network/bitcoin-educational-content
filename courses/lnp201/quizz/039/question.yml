@@ -1,64 +1,18 @@
-id: d16a515a-4404-45a3-b0e4-b910e81395a3
-chapterId: f2f61e5b-badb-5947-9a81-7aa530b44e59
-difficulty: easy
-duration: 15
-author: DecouvreBitcoin
+id: d0d533e6-2df3-478b-ad2f-8165839b1eda
+chapterId: 4369b85a-1365-55d8-99e1-509088210116
+difficulty: hard
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Commitment Transaction
-  - Cheating
+  - offchain
+  - lightning
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2598
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2549
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1274
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2573
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2598
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-11-01
     urgency: 1
     contributors_id:
-    reward: 2549
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2573
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2647
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2549
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2647
+      - LoicPandul
+    reward:

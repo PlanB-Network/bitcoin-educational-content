@@ -1,0 +1,9 @@
+question: According to Bastiat, who sustains the state's livelihood?
+answer: It is the citizens who sustain the state
+wrong_answers:
+  - It is the citizens who live off the state
+  - It is the state that sustains the nation
+  - It is the interest groups that sustain the state
+explanation: |
+  Bastiat asserts that it is the citizens who support the state through wealth creation and not the other way around.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on ero historian ja filosofian välillä?
+answer: Kaikki muut vastaukset
+wrong_answers:
+  - Historia kuvailee menneisyyttä, kun taas filosofia arvioi sitä
+  - Historia on faktaa, kun taas filosofia on normatiivista
+  - Historia keskittyy tapahtumiin, kun taas filosofia keskittyy käsitteisiin
+explanation: |
+  Ero historian ja filosofian välillä piilee niiden lähestymistavoissa: historia keskittyy kuvailemaan ja analysoimaan menneitä tapahtumia, kun taas filosofia pyrkii arvioimaan, tulkitsemaan ja vahvistamaan normeja abstraktien käsitteiden pohjalta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tên của phần mềm được Mike Hearn phát hành vào tháng 3 năm 2011, thực hiện Simplified Payment Verification (SPV) là gì?
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  Anh ấy [đã công bố](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438) dưới giấy phép mã nguồn mở (Apache 2.0), mà anh ấy gán cho Google (nơi anh ấy làm việc vào thời điểm đó). Phần mềm này đã làm cho việc ra mắt ví điện tử nhẹ đầu tiên hoạt động trên Android trở nên khả thi.
+reviewed: false

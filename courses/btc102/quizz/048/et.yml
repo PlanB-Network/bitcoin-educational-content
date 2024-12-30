@@ -1,0 +1,11 @@
+question: Mis on peamine omadus blockchainil ilma töötõendita?
+answer: Sellel puudub tegelik väärtus
+wrong_answers:
+  - See on turvalisem
+  - See on kiirem
+  - See on detsentraliseeritum
+explanation: |
+  Peatüki sisu väidab, et ilma töötõendita blockchainil
+  puudub tegelik väärtus. See on võtmeomadus, mis eristab Bitcoini teistest
+  krüptovaluutadest.
+reviewed: false

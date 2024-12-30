@@ -1,0 +1,9 @@
+question: What economic concept does Bastiat highlight in his analysis of the cost of destruction?
+answer: Opportunity cost
+wrong_answers:
+  - Marginal cost
+  - Marginal productivity
+  - Production cost
+explanation: |
+  Bastiat emphasizes the importance of opportunity cost, illustrating that resources used to repair destruction could have been used to create wealth elsewhere.
+reviewed: false

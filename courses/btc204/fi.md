@@ -7,6 +7,7 @@ objectives:
   - Käyttää menetelmiä ja työkaluja yksityisyytesi suojaamiseen Bitcoinissa
   - Ymmärtää ketjuanalyysimenetelmiä ja kehittää puolustusstrategioita
 ---
+
 # Suojaa yksityisyytesi Bitcoinissa
 
 Maailmassa, jossa rahoitustransaktioiden yksityisyys on vähitellen muuttumassa ylellisyydeksi, on olennaista ymmärtää ja hallita yksityisyyden suojan periaatteita Bitcoinin käytössäsi. Tämä koulutus antaa sinulle kaikki avaimet, sekä teoreettiset että käytännölliset, saavuttaaksesi tämän itsenäisesti.
@@ -48,7 +49,7 @@ Aloitamme katsomalla yhdessä Bitcoinin toiminnan periaatteita, jotta voimme sit
 
 Toisessa osassa tutkimme ketjuanalyysiyhtiöiden käyttämiä tekniikoita Bitcoin-toimintasi jäljittämiseen. Näiden menetelmien ymmärtäminen on ratkaisevan tärkeää yksityisyytesi suojan parantamiseksi. Tämän osan tavoitteena on tarkastella hyökkääjien strategioita paremmin ymmärtääksemme riskejä ja luodaksemme perustan seuraavissa osioissa tutkittaville tekniikoille. Analysoimme transaktiokuvioita, sisäisiä ja ulkoisia heuristiikkoja sekä näiden kuvioiden mahdollisia tulkintoja. Teoreettisen osuuden lisäksi opimme käyttämään lohkoketjuselainta ketjuanalyysin suorittamiseen käytännön esimerkkien ja harjoitusten kautta.
 
-![BTC204](assets/en/2.webp)
+![BTC204](assets/notext/11/2.webp)
 
 ### Osa 3: Parhaiden käytäntöjen hallitseminen yksityisyytesi suojaamiseksi
 
@@ -68,7 +69,7 @@ Viidennessä osiossa tarjoamme yleiskatsauksen kaikista muista olemassa olevista
 
 Käsittelemme myös yksityisyyttä solmuverkoston tasolla ja tapahtumien levitystä. Keskustelemme myös eri protokollista, joita on ehdotettu vuosien varrella käyttäjien yksityisyyden parantamiseksi Bitcoinissa, mukaan lukien staattisten osoitteiden protokollat.
 
-![BTC204](assets/en/5.webp)
+![BTC204](assets/notext/11/5.webp)
 
 # Määritelmät ja keskeiset käsitteet
 
@@ -199,11 +200,11 @@ Seuraavaksi, kuten aiemmissa osissa mainittiin, Bitcoinin kolikot ovat käytänn
 
 Yksi valuutan tehtävistä on ratkaista kaksinkertaisen halun ongelma. Vaihtoon perustuvassa järjestelmässä vaihdon tekeminen edellyttää paitsi henkilön löytämistä, joka tarjoaa hyödykkeen, joka täyttää tarpeeni, myös heille tarjottavan hyödykkeen, jolla on vastaava arvo, joka tyydyttää heidän tarpeensa. Tämän tasapainon löytäminen osoittautuu monimutkaiseksi.
 
-![BTC204](assets/en/17.webp)
+![BTC204](assets/notext/23/1.webp)
 
 Siksi turvaudumme valuuttaan, joka mahdollistaa arvon siirron sekä avaruudessa että ajassa.
 
-![BTC204](assets/en/18.webp)
+![BTC204](assets/notext/23/2.webp)
 
 Jotta valuutta voisi ratkaista tämän ongelman, on olennaista, että hyödykkeen tai palvelun tarjoaja on vakuuttunut kyvystään käyttää kyseistä summaa myöhemmin. Näin ollen jokainen rationaalinen henkilö, joka haluaa hyväksyä valuutan, olipa se digitaalinen tai fyysinen, varmistaa, että se täyttää kaksi perustavaa laatua olevaa kriteeriä:
 
@@ -214,13 +215,13 @@ Aitous on myös vaikea ominaisuus todentaa fyysisen rahamedian kanssa. Nykyään
 
 Toisaalta fyysisen valuutan luonteen vuoksi kaksinkertainen kulutus ei ole ongelma. Jos annan sinulle 10 euron setelin, se siirtyy peruuttamattomasti omistuksestani sinun omistukseesi, luonnollisesti poissulkeen mahdollisuuden käyttää samoja rahayksiköitä useita kertoja. Lyhyesti sanottuna en voi käyttää sitä 10 euron seteliä uudelleen.
 
-![BTC204](assets/en/19.webp)
+![BTC204](assets/notext/23/3.webp)
 
 Digitaalisen valuutan kohdalla vaikeus on erilainen. Kolikon aitouden ja eheyden varmistaminen on usein yksinkertaisempaa. Kuten edellisessä osiossa näimme, Bitcoinin UTXO-malli mahdollistaa kolikon jäljittämisen takaisin sen alkuperään, varmistaen näin, että se on todella luotu konsensus sääntöjen mukaisesti louhijan toimesta.
 
 Kuitenkin kaksinkertaisen kulutuksen puuttumisen varmistaminen on monimutkaisempaa, koska mikä tahansa digitaalinen hyödyke on periaatteessa tietoa. Toisin kuin fyysiset hyödykkeet, tieto ei jakaannu vaihdoissa vaan leviää monistumalla. Esimerkiksi, jos lähetän sinulle asiakirjan sähköpostitse, se sitten monistuu. Sinun päässäsi et voi varmistaa varmuudella, että olen poistanut alkuperäisen asiakirjan.
 
-![BTC204](assets/en/20.webp)
+![BTC204](assets/notext/23/4.webp)
 
 ### Kaksinkertaisen kulutuksen estäminen Bitcoinissa
 
@@ -266,13 +267,13 @@ Ketjuanalyysiä voi suorittaa kuka tahansa. Riittää, että on pääsy lohkoket
 ### Ketjuanalyysin tavoitteet
 
 Yhtenä ketjuanalyysin tavoitteista on ryhmitellä erilaisia toimintoja Bitcoinissa, jotta voidaan määrittää suorittaneen käyttäjän yksilöllisyys. Tämän jälkeen on mahdollista yrittää yhdistää tämä toimintojen nippu todelliseen identiteettiin.
-![BTC204](assets/en/23.webp)
+![BTC204](assets/notext/31/2.webp)
 
 Muista edellinen luku. Selitin, miksi Bitcoinin yksityisyyden malli alun perin perustui käyttäjän identiteetin erottamiseen heidän transaktioistaan. Siksi voisi olla houkuttelevaa ajatella, että ketjuanalyysi on tarpeetonta, koska vaikka onnistuisikin ryhmittelemään onchain-toimintoja, niitä ei voida yhdistää todelliseen identiteettiin.
 
 Teoriassa tämä väite on tarkka. Koulutuksen ensimmäisessä osassa näimme, että kryptografisia avainpareja käytetään ehtojen asettamiseen UTXO:lle. Luonteensa vuoksi nämä avainparit eivät paljasta mitään tietoa haltijoidensa identiteetistä. Näin ollen, vaikka onnistuisikin ryhmittelemään eri avainpareihin liittyviä toimintoja, tämä ei kerro meille mitään näiden toimintojen takana olevasta entiteetistä.
 
-![BTC204](assets/en/24.webp)
+![BTC204](assets/notext/31/3.webp)
 
 Käytännön todellisuus on kuitenkin paljon monimutkaisempi. On olemassa monia käyttäytymismalleja, jotka voivat riskeerata todellisen identiteetin yhdistämisen onchain-toimintaan. Analyysissä tätä kutsutaan sisääntulopisteeksi, ja niitä on monia.
 
@@ -280,15 +281,19 @@ Yleisin, tietenkin, on KYC (_Know Your Customer_). Jos nostat bitcoinejasi sää
 
 Nämä sisääntulopisteet ovat lähes väistämättömiä Bitcoinin käytössä. Vaikka niiden vaikutusalaa voi pyrkiä rajoittamaan, ne tulevat pysymään läsnä. Siksi on ratkaisevan tärkeää yhdistää menetelmiä, jotka tähtäävät yksityisyytesi säilyttämiseen. Vaikka todellisen identiteettisi ja transaktioidesi erottaminen on mielenkiintoinen lähestymistapa, se on tänään riittämätön. Todellakin, jos kaikki onchain-toimintasi voidaan ryhmitellä, pieninkin sisääntulopiste voi vaarantaa ainoan yksityisyyden kerroksen, jonka olit luonut.
 
-![BTC204](assets/en/25.webp)
+![BTC204](assets/notext/31/4.webp)
 
 ### Puolustautuminen Ketjuanalyysiä Vastaan
 
 Näin ollen on myös tarpeellista pystyä kohtaamaan lohkoketjuanalyysi Bitcoinin käytössämme. Toimimalla tällä tavoin voimme minimoida toimintojemme aggregoinnin ja rajoittaa sisääntulopisteen vaikutusta yksityisyyteemme.
-![BTC204](assets/en/26.webp)
+![BTC204](assets/notext/31/5.webp)
 
-Todellakin, paremman vastauksen lohkoketjuanalyysiin tarjoaa tutustuminen lohkoketjuanalyysissä käytettyihin menetelmiin. Jos haluat tietää, miten parantaa yksityisyyttäsi Bitcoinissa, sinun on ymmärrettävä nämä menetelmät. Tämä antaa sinulle paremmat valmiudet ymmärtää tekniikoita kuten [coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) tai [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (tekniikat, joita tutkimme koulutuksen viimeisissä osissa), ja vähentää tekemiäsi virheitä.
+Todellakin, paremman vastauksen lohkoketjuanalyysiin tarjoaa tutustuminen lohkoketjuanalyysissä käytettyihin menetelmiin. Jos haluat tietää, miten parantaa yksityisyyttäsi Bitcoinissa, sinun on ymmärrettävä nämä menetelmät. Tämä antaa sinulle paremmat valmiudet ymmärtää tekniikoita kuten coinjoin tai payjoin (tekniikat, joita tutkimme koulutuksen viimeisissä osissa), ja vähentää tekemiäsi virheitä.
 Tässä voimme tehdä analogian kryptografian ja kryptoanalyysin välillä. Hyvä kryptografi on ensisijaisesti hyvä kryptoanalyytikko. Uuden salausalgoritmin kuvitteleminen edellyttää, että tuntee, millaisia hyökkäyksiä sen on kohdattava, ja tutkii myös, miksi aiemmat algoritmit murrettiin. Sama periaate pätee yksityisyyteen Bitcoinissa. Lohkoketjuanalyysin menetelmien ymmärtäminen on avain sen vastaisen suojautumisen kannalta. Siksi ehdotan kokonaista osiota lohkoketjuanalyysista tässä koulutuksessa.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Lohkoketjuanalyysin menetelmät
 
@@ -309,7 +314,7 @@ On huomionarvoista, että kaksi ensimmäistä heuristiikkaa ketjuanalyysiin löy
 - yhteisen syötteen omistajuuden heuristiikka (CIOH);
 - ja osoitteen uudelleenkäyttö.
 
-![BTC204](assets/en/27.webp)
+![BTC204](assets/notext/31/6.webp)
 
 Lähde: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
@@ -465,7 +470,7 @@ Esimerkiksi, tässä on transaktio, johon tätä heuristiikkaa voidaan kohtuulli
 54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0
 ```
 
-![BTC204](assets/en/42.webp)
+![BTC204](assets/notext/33/03.webp)
 
 Lähde: [Mempool.space](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
@@ -481,7 +486,7 @@ Tässä on transaktio, johon tätä heuristiikkaa voidaan kohtuullisesti sovelta
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ```
 
-![BTC204](assets/en/44.webp)
+![BTC204](assets/notext/33/05.webp)
 
 Lähde: [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 Tässä tapauksessa voimme nähdä, että syöte numero 0 ja tulos numero 1 käyttävät P2WPKH-skriptejä (SegWit V0), kun taas tulos numero 0 käyttää erilaista skriptiä, P2PKH (Legacy). 2010-luvun alussa tämä heuristiikka, joka perustuu skriptien versioinnin, oli suhteellisen vähän hyödyllinen johtuen saatavilla olevien skriptityyppien rajoituksesta. Kuitenkin ajan myötä ja Bitcoinin peräkkäisten päivitysten myötä on esitelty yhä suurempi monimuotoisuus skriptityyppejä. Tämä heuristiikka muuttuu yhä merkityksellisemmäksi, koska laajemman valikoiman skriptityyppien myötä käyttäjät jakautuvat pienempiin ryhmiin, näin ollen lisäten tämän sisäisen version uudelleenkäytön heuristiikan soveltamisen mahdollisuuksia. Tästä syystä, pelkästään yksityisyyden näkökulmasta, on suositeltavaa valita yleisin skriptityyppi. Esimerkiksi kirjoittaessani näitä rivejä, Taproot-skriptit (`bc1p`) ovat vähemmän käytössä kuin SegWit V0 -skriptit (`bc1q`). Vaikka edelliset tarjoavat taloudellisia ja yksityisyyden etuja tietyissä erityisissä konteksteissa, perinteisempiä yksiallekirjoituksen käyttötapauksia varten saattaisi olla viisasta pysyä vanhemmassa standardissa yksityisyyden syistä, kunnes uusi standardi on laajemmin omaksuttu.
@@ -512,7 +517,7 @@ Esimerkiksi, tässä on transaktio, jossa tätä heuristiikkaa voidaan todennäk
 2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a
 ```
 
-![BTC204](assets/en/47.webp)
+![BTC204](assets/notext/33/08.webp)
 Lähde: [Mempool.space](https://mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
 
 ### Suurin Ulostulo
@@ -531,7 +536,7 @@ Esimerkiksi, tässä on transaktio, jossa tätä heuristiikkaa todennäköisesti
 b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 ```
 
-![BTC204](assets/en/49.webp)
+![BTC204](assets/notext/33/10.webp)
 
 Lähde: [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
@@ -554,7 +559,7 @@ Kuten johdannossa osaan 3 selitettiin, tämän heuristiikan löysi itse Satoshi 
 
 "_Lisäsuojana voitaisiin käyttää jokaista transaktiota varten uutta avainparia, jotta ne eivät olisi yhdistettävissä yhteiseen omistajaan._"
 
-![BTC204](assets/en/61.webp)
+![BTC204](assets/notext/34/02.webp)
 
 Lähde: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
@@ -564,7 +569,7 @@ Esimerkiksi, tässä on osoite, jota on käytetty useissa transaktioissa:
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
-![BTC204](assets/en/52.webp)
+![BTC204](assets/notext/34/03.webp)
 
 Lähde: [Mempool.space](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
@@ -613,7 +618,7 @@ Samalla tavalla voidaan suorittaa analyysi poissulkemisen kautta. Esimerkiksi, j
 
 Ketjuanalyysi sisältää myös osan OSINT:stä (_Open Source Intelligence_), joka on hieman yleisluontoisempi internet-hakujen kanssa. Tämän vuoksi on suositeltavaa välttää vastaanotto-osoitteiden julkaisemista suoraan sosiaalisessa mediassa tai verkkosivustolla, olipa kyseessä pseudonyymi tai ei.
 
-![BTC204](assets/en/54.webp)
+![BTC204](assets/notext/34/10.webp)
 
 ### Aikamallit
 
@@ -635,7 +640,7 @@ Esimerkiksi aiemmin mainitsemassani uudelleenkäytetyssä osoitteessa voimme hav
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
-![BTC204](assets/en/55.webp)
+![BTC204](assets/notext/34/11.webp)
 
 Lähde: OXT.me
 
@@ -699,7 +704,7 @@ Tunnistettuasi mallin, käyttäen transaktion sisäisiä heuristiikkoja, mikä l
 
 Kuvittele, että Loïc julkaisi yhden Bitcoin-vastaanotto-osoitteistaan sosiaalisessa mediassa Twitterissä:
 
-![BTC204](assets/en/56.webp)
+![BTC204](assets/notext/35/1.webp)
 
 ```plaintext
 bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
@@ -718,7 +723,7 @@ Tämä transaktio on ensimmäinen, joka lähettää varoja Loïcin osoitteeseen.
 
 Tehtävän 5 jälkeen osoitteen uudelleenkäytön heuristiikan avulla pystyit tunnistamaan useita Bitcoin-transaktioita, joihin Loïc näyttää olevan osallisena. Haluat nyt selvittää, mistä Loïc on kotoisin. Löydettyjen transaktioiden perusteella suorita aikajaksoanalyysi löytääksesi todennäköisen aikavyöhykkeen, jota Loïc käyttää. Tämän aikavyöhykkeen perusteella määritä paikka, jossa Loïc näyttää asuvan (maa, osavaltio/alue, kaupunki...).
 
-![BTC204](assets/en/58.webp)
+![BTC204](assets/notext/35/2.webp)
 
 ### Tehtävä 8
 
@@ -878,7 +883,7 @@ Näitä aikoja analysoimalla vaikuttaa siltä, että UTC-7 ja UTC-8 aikavyöhykk
 21:55 UTC > 13:55 UTC-8
 ```
 
-![BTC204](assets/en/58.webp)
+![BTC204](assets/notext/35/2.webp)
 
 UTC-7 aikavyöhyke on erityisen merkittävä kesällä, sillä se kattaa osavaltioita ja alueita kuten:
 
@@ -923,7 +928,7 @@ Teknisesti Bitcoinin vastaanotto-osoite ei "vastaanota" bitcoineja kirjaimellise
 
 > "_Kuluttaaksesi tämän uuden UTXO:n, on annettava digitaalinen allekirjoitus käyttäen yksityistä avainta, joka on yhdistetty tähän vastaanotto-osoitteeseen._"
 
-![BTC204](assets/en/59.webp)
+![BTC204](assets/notext/41/01.webp)
 
 Bitcoin-osoitteita on erilaisia riippuen käytetystä skriptimallista. Ensimmäiset mallit, tunnetaan nimellä "_Legacy_," sisältävät `P2PKH` (_Pay-to-PubKey-Hash_) ja `P2SH` (_Pay-to-Script-Hash_) osoitteet. P2PKH-osoitteet alkavat aina `1`:llä ja P2SH `3`:lla. Vaikka ne ovat edelleen turvallisia, nämä formaatit ovat nyt vanhentuneita, koska ne johtavat korkeampiin transaktiomaksuihin ja tarjoavat vähemmän yksityisyyttä verrattuna uusiin standardeihin.
 SegWit V0 (`P2WPKH` ja `P2WSH`) sekä Taproot / SegWit V1 (`P2TR`) osoitteet edustavat nykyaikaisia formaatteja. SegWit-osoitteet alkavat `bc1q` ja Taproot-osoitteet, jotka esiteltiin vuonna 2021, alkavat `bc1p`.
@@ -981,7 +986,7 @@ Koska lohkoketju on julkinen, on helppo nähdä, mitkä osoitteet lukitsevat mit
 
 > _Lisäsuojana voitaisiin jokaista siirtoa varten käyttää uutta avainparia, jotta ne eivät liittyisi yhteiseen omistajaan._
 
-![BTC204](assets/en/61.webp)
+![BTC204](assets/notext/34/02.webp)
 
 Lähde: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
@@ -1003,7 +1008,7 @@ Sisäisen osoitteen uudelleenkäyttö havaitaan ei silloin, kun uudelleenkäytt�
 
 Osoitteen uudelleenkäyttö on todellinen vitsaus Bitcoinille. Verkkosivuston OXT.me (tällä hetkellä ei saavutettavissa) mukaan Bitcoinin osoitteiden uudelleenkäytön kokonaisaste oli noin 52% vuonna 2022:
 
-![BTC204](assets/en/64.webp)
+![BTC204](assets/notext/41/02.webp)
 
 Tämä prosenttiosuus on valtava, mutta se tulee valtaosin vaihtoalustoilta eikä yksittäisiltä käyttäjiltä.
 
@@ -1013,7 +1018,7 @@ Osoitteen uudelleenkäytön välttäminen on melko yksinkertaista: **käytä vai
 
 Kiitos BIP32:n, modernit lompakot ovat nyt deterministisiä ja hierarkkisia. Tämä tarkoittaa, että käyttäjä voi luoda suuren määrän osoitteita yhdestä alkuperäisestä tiedosta: siemenestä. Säilyttämällä tämän yhden tiedon, on mahdollista palauttaa kaikki lompakon yksityiset avaimet, päästen käsiksi vastaavien osoitteiden turvaamiin varoihin.
 
-![BTC204](assets/en/65.webp)
+![BTC204](assets/notext/41/03.webp)
 Tämän vuoksi, kun painat "_vastaanota_" -painiketta lompakko-ohjelmistossasi, sinulle tarjotaan joka kerta käyttämätön vastaanotto-osoite. Bitcoineja vastaanotettuasi ohjelmisto automaattisesti ehdottaa uutta.
 
 > _PS: Viime aikoina jotkut lompakko-ohjelmistot ovat ilmoittaneet aikomuksestaan lopettaa tyhjien osoitteiden generoinnin, peläten, että viranomaiset saattaisivat pitää tätä rahanpesun muotona. Jos ohjelmistosi kuuluu näihin, suosittelen voimakkaasti sen välitöntä vaihtamista, sillä tämä ei ole hyväksyttävää käyttäjälle._
@@ -1043,7 +1048,7 @@ Merkinnän aktiivinen käyttö muuttuu vieläkin mielenkiintoisemmaksi, kun se y
 
 Kolikoiden hallinta on hyvän Bitcoin-lompakko-ohjelmiston ominaisuus, joka antaa sinulle mahdollisuuden manuaalisesti valita tiettyjä UTXO:ja käytettäväksi syötteinä suorittaaksesi transaktion. Todellakin, maksun suorittamiseksi ulostulossa on tarpeen kuluttaa UTXO sisääntulossa vastineeksi. Useista syistä, joita tulemme myöhemmin käsittelemään, saatat haluta tarkasti valita, mitkä kolikot kulutat sisääntuloina tyydyttääksesi tietyn maksun. Tämä on juuri sitä, mitä kolikoiden hallinta mahdollistaa. Antaakseni sinulle analogian, tämä ominaisuus on samanlainen kuin tietyn kolikon valitseminen lompakostasi, kun maksat patongistasi.
 
-![BTC204](assets/en/66.webp)
+![BTC204](assets/notext/42/01.webp)
 
 Lompakko-ohjelmiston käyttö kolikoiden hallinnalla yhdessä UTXO:jen merkitsemisen kanssa mahdollistaa käyttäjille sekä UTXO:jen erottamisen että tarkkojen UTXO:jen valitsemisen transaktioihinsa.
 
@@ -1105,8 +1110,7 @@ Kaikki nämä automaattisen UTXO-valinnan menetelmät voivat olla tehokkaita tra
 
 Jos haluat oppia, kuinka merkitä UTXO:si, olemme tehneet täydellisen oppaan tärkeimmistä olemassa olevista Bitcoin-lompakko-ohjelmistoista:
 
-https://planb.network/tutorials/privacy/utxo-labelling
-
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC ja avaintunnistus
 
@@ -1122,13 +1126,13 @@ Tämä menettely ei ole ilman riskejä käyttäjien luottamuksellisuudelle ja tu
 
 Ensimmäinen KYC:hen liittyvä riski on, että se tarjoaa etuoikeutetun pääsyn ketjuanalyysiin. Kuten aiemmassa osassa näimme, analyytikot voivat ryhmitellä ja seurata toimintaa lohkoketjussa käyttämällä transaktiokuvioita ja heuristiikkaa. Kun he ovat onnistuneet ryhmittelemään käyttäjän onchain-toiminnan, riittää, että he löytävät vain yhden sisääntulopisteen kaikkien heidän transaktioidensa ja avaintensa joukosta, jotta he voivat täysin vaarantaa heidän yksityisyytensä.
 
-![BTC204](assets/en/73.webp)
+![BTC204](assets/notext/43/1.webp)
 
 Kun suoritat KYC:n, tarjoat erittäin laadukkaan sisääntulopisteen ketjuanalyysiin, sillä linkität vastaanotto-osoitteesi, joita käytät bitcoinejesi nostamiseen vaihtoalustalta, täydelliseen ja vahvistettuun henkilöllisyyteesi. Teoriassa tämä tieto on vain sen yrityksen tiedossa, jolle olet sen toimittanut, mutta kuten myöhemmin näemme, tietovuodon riski on todellinen. Lisäksi pelkkä seikka, että yritys pitää tätä tietoa hallussaan, voi olla ongelmallinen, vaikka se ei jakaisikaan sitä.
 
 Näin ollen, jos et ota muita toimenpiteitä rajoittaaksesi toimintasi ryhmittelyä lohkoketjussa, kuka tahansa, joka tietää tästä KYC:n sisääntulopisteestä, voi mahdollisesti yhdistää kaiken Bitcoin-toimintasi henkilöllisyyteesi. Tämän yrityksen näkökulmasta Bitcoinin käyttösi menettää näin ollen kaiken luottamuksellisuuden.
 
-![BTC204](assets/en/74.webp)
+![BTC204](assets/notext/43/2.webp)
 
 Vertailun vuoksi, on kuin _Pankki X_:n pankkiirisi ei vain pääsisi käsiksi kaikkiin tekemiisi transaktioihin _Pankki X_:n kanssa, vaan voisi myös tarkkailla transaktioitasi _Pankki Y_:n kanssa ja kaikkia käteistransaktioitasi.
 
@@ -1182,13 +1186,13 @@ Joskus jotkut bitcoin-käyttäjät tahtovat laajentaa termin "KYC" kattamaan min
 KYC viittaa nimenomaan joidenkin yritysten toteuttamaan sääntelymenettelyyn, jolla varmistetaan ja kirjataan asiakkaiden henkilöllisyys. Se on binäärinen asia: kun hankit bitcoinejasi, joko käyt KYC:n läpi tai et. Avaintunnistus, joka koskee käyttäjän henkilöllisyyden aspektin yhdistämistä onchain-toimintaan, ei kuitenkaan ole yhtä binäärinen, vaan pikemminkin edustaa jatkumoa. Todellakin, bitcoineja hankittaessa tai luovutettaessa, tämä tunnistus on aina mahdollista eri asteisiin.
 Esimerkiksi, jos ostat bitcoineja säännellyllä alustalla Sveitsissä, KYC (Know Your Customer) ei ole tarpeen. Kuitenkin, avaimiesi tunnistus saattaa tapahtua, koska ostos tehtiin pankkitilisi kautta. Tässä on ensimmäiset kaksi KYC:hen liittyvää riskiä — onchain-seurannan helpottaminen ja altistuminen valtion valvonnalle — jotka voivat myös ilmetä ei-KYC-vaihdossa. Jos sveitsiläinen yksikkö raportoi epäilyttäviä transaktioita maasi viranomaisille, he voivat yksinkertaisesti tarkistaa käytetyn pankkitilin paljastaakseen henkilöllisyytesi. Näin ollen, ostaminen ilman KYC:tä säännellyillä alustoilla on melko korkealla riskitasolla avaintunnistuksen kannalta.
 
-![BTC204](assets/en/76.webp)
+![BTC204](assets/notext/43/4.webp)
 
 Kuitenkin, välttämällä säänneltyjä alustoja ja valitsemalla P2P (Peer-to-Peer) hankintamenetelmiä ei täysin poista avaintunnistuksen riskiä, vaan ainoastaan vähentää sitä. Harkitse esimerkiksi ostoa Bisq:ssa tai toisella P2P-alustalla. Vastapuolesi kanssa selvittääksesi, saatat todennäköisesti käyttää pankkitiliäsi. Jos viranomaiset kyselevät henkilöltä, jonka kanssa kävit kauppaa, ja pyytävät nimeäsi, kohtaamme aiemmin mainitut riskit 1 ja 2. Nämä riskit ovat varmasti paljon pienemmät kuin ei-KYC-ostossa alustalla, ja vieläkin pienemmät kuin KYC-ostossa, mutta ne ovat silti läsnä pienemmässä määrin.
 
-![BTC204](assets/en/77.webp)
+![BTC204](assets/notext/43/5.webp)
 Lopulta, vaikka hankkisit bitcoinejasi fyysisessä vaihdossa käteistä vastaan, et ole täysin nimetön. Henkilö, jonka kanssa vaihdoit, on nähnyt kasvosi, mikä on osa henkilöllisyyttäsi. Vaikka tässä esimerkissä se on vähäistä, on silti olemassa avaintunnistuksen mahdollisuus.
-![BTC204](assets/en/78.webp)
+![BTC204](assets/notext/43/6.webp)
 
 Yhteenvetona voidaan todeta, että bitcoineja vaihdettaessa muihin varoihin, olipa kyseessä sitten ostaminen fiat-valuutalla tai myynti todellista hyödykettä vastaan, on aina jonkinlaista avaintunnistusta. Vaihdossa valitusta menetelmästä riippuen tämä tunnistus voi vaihdella intensiteetiltään. On tärkeää olla sekoittamatta tätä tunnistusta KYC:hen, joka on hyvin määritelty sääntelyprosessi. Kuitenkin KYC:n ja tunnistuksen spektrin välillä on yhteys, koska KYC on tämän spektrin yläpäässä, koska se systemaattisesti helpottaa viranomaisten käyttäjän avainten tunnistamista.
 
@@ -1201,11 +1205,11 @@ Edellisen luvun lukemisen jälkeen saatat miettiä tapoja ostaa tai myydä bitco
 
 Kuten olemme nähneet, yksityisyyden kannalta paras menetelmä on P2P (vertaisverkko) -vaihto käteisellä. Tämä menetelmä mahdollistaa jälkien minimoimisen ja vähentää merkittävästi avaintunnistuksen mahdollisuutta, olitpa sitten ostaja tai myyjä.
 
-![BTC204](assets/en/79.webp)
+![BTC204](assets/notext/44/01.webp)
 
 Tämä käytäntö kuitenkin sisältää riskejä henkilökohtaiseen turvallisuuteen. Päävaara piilee siinä, että vaihdon aikana vastapuoli tietää sinun hallussasi olevan merkittävän määrän, joko käteisenä tai bitcoineina. Tämä tieto voi houkutella pahantahtoisia henkilöitä. Yleensä on suositeltavaa pysyä h discreetinä bitcoin-omistuksestasi. Tätä neuvoa voisi soveltaa myös käteiseen. Kuitenkin henkilökohtaisessa vaihdossa on väistämätöntä paljastaa, että omistat bitcoineja, mikä voi herättää ahneutta.
 
-![BTC204](assets/en/80.webp)
+![BTC204](assets/notext/44/02.webp)
 
 Tämän riskin rajoittamiseksi neuvon sinua priorisoimaan käteistransaktioita luotettujen henkilöiden, kuten perheenjäsenten tai läheisten ystävien kanssa. Vaihtoehtoisesti voit myös harkita vaihtojen tekemistä [paikallisissa Bitcoin-tapaamisissa](https://btcmap.org/communities/map), kun olet osallistunut useita kertoja. Tämä mahdollistaa muiden osallistujien paremman tuntemisen ja sen, ettet ole yksin fyysisen vaihdon aikana. On kuitenkin tärkeää tunnistaa, että käteinen P2P-vaihto sisältää itsessään riskejä henkilökohtaiseen turvallisuuteesi, joita ei ole olemassa ostaessasi säännellyn alustan kautta ja pankkitililtäsi.
 
@@ -1229,32 +1233,44 @@ Jälleen kerran yhtenä P2P-ostojen haittapuolena on, että hinta on usein korke
 
 Ratkaisujen osalta olen henkilökohtaisesti aina käyttänyt [Bisq](https://bisq.network/) -palvelua ja olen erittäin tyytyväinen siihen. Heidän järjestelmänsä on vakiintunut ja vaikuttaa luotettavalta. Bisq on kuitenkin saatavilla vain PC:lle ja sen käyttöliittymä voi olla liian monimutkainen aloittelijoille. Toinen haittapuoli on, että Bisq toimii ainoastaan onchain-transaktioilla, jotka voivat tulla kalliiksi Bitcoinin korkeiden transaktiomaksujen aikoina.
 
-[-> Tutustu Bisq-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/bisq)
+-> Tutustu Bisq-opetusohjelmaamme.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Yksinkertaisempana vaihtoehtona voit kokeilla [Peach](https://peachbitcoin.com/)-mobiilisovellusta, joka helpottaa ostajien ja myyjien välistä yhteydenpitoa sisäänrakennetun riidanratkaisujärjestelmän avulla. Prosessi on intuitiivisempi kuin Bisq:ssa.
 
-[-> Tutustu Peach-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/peach-wallet)
+-> Tutustu Peach-opetusohjelmaamme.
 Toinen verkossa oleva vaihtoehto on [HodlHodl](https://hodlhodl.com/), hyvin vakiintunut alusta, joka tarjoaa hyvän likviditeetin, vaikka en ole henkilökohtaisesti testannut sitä.
-[-> Tutustu HodlHodl-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/hodlhodl)
+-> Tutustu HodlHodl-opetusohjelmaamme.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Lightning Networkiin perustuvista ratkaisuista voit kokeilla [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSats on käytettävissä verkkosivuston kautta ja on suhteellisen yksinkertainen käyttää. LNP2PBot on epätavallisempi, sillä se toimii vaihtojärjestelmänä Telegram-viestisovelluksessa.
 
-[-> Tutustu RoboSats-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Tutustu LNP2PBot-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+-> Tutustu RoboSats-opetusohjelmaamme.
+-> Tutustu LNP2PBot-opetusohjelmaamme.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ### Säännellyt alustat ilman KYC:tä
 
 Riippuen siitä, missä maassa asut, saatat päästä käyttämään säänneltyjä alustoja, jotka eivät vaadi KYC-menettelyä bitcoinien ostamiseen tai myymiseen. Esimerkiksi Sveitsissä voit käyttää alustoja kuten [Relai](https://relai.app/) ja [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Tutustu Relai-opetusohjelmaamme.](https://planb.network/en/tutorials/exchange/relai)
+-> Tutustu Relai-opetusohjelmaamme.
 Kuten edellisessä luvussa näimme, tämän tyyppinen alusta säästää sinut KYC-menettelyihin liittyviltä riskeiltä, mutta ne esittävät korkeamman tason riskin avaintunnistukselle. Bitcoinin yksityisyyden suhteen nämä alustat tarjoavat siis paremman suojan kuin KYC:llä varustetut ostomenetelmät, mutta ne eivät ole yhtä kiinnostavia kuin P2P-vaihdot.
 Kuitenkin henkilökohtaisen turvallisuuden näkökulmasta näiden alustojen käyttö on huomattavasti vähemmän riskialtista kuin P2P-vaihtojen käyttö. Ne ovat myös usein yksinkertaisempia käyttää kuin alustat, jotka helpottavat P2P-vaihtoja.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Pankkiautomaatit
 
 Toinen vaihtoehto ostaa tai myydä bitcoineja ilman KYC:tä ovat kryptovaluutta-automaatit (ATM). Henkilökohtaisesti en ole koskaan saanut tilaisuutta testata tätä ratkaisua, koska maassani ei ole yhtään. Mutta tämä menetelmä voi olla erittäin mielenkiintoinen riippuen siitä, missä asut.
 
-![BTC204](assets/en/88.webp)
+![BTC204](assets/notext/44/09.webp)
 Automaattien ongelmana on, että ne ovat kiellettyjä joissakin maissa tai niitä säännellään voimakkaasti muissa. Jos automaatti vaatii henkilöllisyyden varmistusprosessin, se kohtaa samat riskit kuin säänneltyihin KYC-alustoihin liittyvät riskit. Kuitenkin, jos automaatti sallii transaktiot ilman henkilöllisyyden varmistusta pienille summille, sen käyttö voi tarjota yksityisyyden tasoa, joka on verrattavissa käteiseen perustuvaan P2P-vaihtoon, välttäen suurimman osan riskeistä, jotka liittyvät tähän vaihtotyyppiin.
 Automaattien suurin haittapuoli on niiden usein korkeat vaihtokulut, jotka vaihtelevat muutamasta prosentista joskus jopa 15 prosenttiin vaihdetusta summasta.
 
@@ -1266,7 +1282,9 @@ Paras tapa käyttää BTC:tä on ilmeisesti käyttää Bitcoinia suoraan tai Lig
 
 Useat KYC-menettelyä vaatimattomat alustat tarjoavat mahdollisuuden vaihtaa bitcoineja lahjakortteihin, joita voidaan käyttää suurissa kaupoissa. Näiden alustojen joukossa löydämme [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), ja [Bitrefill](https://www.bitrefill.com/). Nämä alustat helpottavat suuresti bitcoiniesi päivittäistä käyttöä antamalla sinulle pääsyn laajaan valikoimaan tuotteita ja palveluita ilman, että sinun tarvitsee muuntaa niitä fiat-valuutaksi.
 
-![BTC204](assets/en/89.webp)
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
+![BTC204](assets/notext/44/10.webp)
 
 ### Muut Hankintamenetelmät
 
@@ -1274,7 +1292,9 @@ Muita menetelmiä hankkia bitcoineja samalla kun suojataan yksityisyyttäsi, on 
 
 Toinen menetelmä koostuu työskentelystä vaihdossa bitcoineihin. Tämä hankintamenetelmä voi olla mielenkiintoinen, mutta vaaditun tunnistautumisen aste vaihtelee suuresti olosuhteiden mukaan.
 
-_Tämän luvun kirjoittamiseen käytin kurssia [BTC205](https://planb.network/fr/courses/btc205) jonka loi [@pivi\_\_\_](https://x.com/pivi___) PlanB Networkissa (toistaiseksi saatavilla vain ranskaksi)._
+\_Tämän luvun kirjoittamiseen käytin kurssia BTC205 jonka loi [@pivi\_\_\_](https://x.com/pivi___) Plan ₿ Networkissa (toistaiseksi saatavilla vain ranskaksi).\_
+
+
 
 ## Konsolidointi, UTXO-hallinta ja CIOH
 
@@ -1292,7 +1312,7 @@ Todellisuudessa kaikki Bitcoin-transaktiot eivät paina samaa. Ne, joissa on ene
 - Transaktio A sisältää 1 syötteen ja 1 tulosteen. Se kohdistaa 1,994 satoshin maksut ja sen paino on 141 vB;
 - Transaktio B, monimutkaisempi, 2 syötteellä ja 2 tulosteella, kohdistaa 2,640 satoshin maksut painolle 220 vB.
 
-![BTC204](assets/en/90.webp)
+![BTC204](assets/notext/45/01.webp)
 
 Tässä esimerkissä, vaikka transaktio B ehdottaa kokonaisuudessaan korkeampia maksuja, kaivostyöläiset suosivat transaktiota A, koska se tarjoaa paremman suhteen maksujen ja painon välillä. Tässä on laskelma kummallekin transaktiolle, ilmaistuna satosheina virtuaalista tavua kohti (sat/vB):
 
@@ -1304,7 +1324,7 @@ TXB: 2640 / 220 = 12 sat / vB
 
 Tämä tarkoittaa, että jokaisesta painoyksiköstä, transaktio A tarjoaa enemmän maksuja kuin transaktio B, vaikka jälkimmäinen tarjoaa enemmän maksuja absoluuttisessa arvossa.
 
-![BTC204](assets/en/91.webp)
+![BTC204](assets/notext/45/02.webp)
 
 Siksi on aina mielenkiintoisempaa käyttäjälle kuluttaa mahdollisimman vähän syötteitä transaktioissaan. Kuitenkin on tarpeen kuluttaa riittäviä määriä voidakseen tyydyttää maksun tulosteessa. Lompakkoaan hallinnoivan on siis oltava riittävän suuria UTXO:ja.
 
@@ -1340,11 +1360,10 @@ Tässä esimerkissä olisi viisasta ylläpitää vähintään 940 000 satoshin a
 
 Yksi yleisimmin käytetyistä heuristiikoista ketjuanalyysissä on COIH (_Common Input Ownership Heuristic_), joka mahdollistaa oletuksen, että kaikki Bitcoin-siirron sisääntulot kuuluvat samalle entiteetille. Tarkalleen ottaen konsolidoinnin periaate on kuluttaa useita UTXO:ja sisääntuloina ja luoda yksi UTXO ulostulona. Näin ollen konsolidointi mahdollistaa COIH:n soveltamisen.
 
-![BTC204](assets/en/93.webp)
-
+![BTC204](assets/notext/45/04.webp)
 
 Käytännössä tämä tarkoittaa, että ulkopuolinen tarkkailija voi päätellä, että kaikki konsolidoidut UTXO:t todennäköisesti kuuluvat samalle henkilölle ja että tuotettu yksittäinen ulostulo kuuluu myös heille. Tämä tilanne voi vaarantaa yksityisyytesi yhdistämällä erilaisia siirtotarinoita. Esimerkiksi sanotaan, että konsolidoin 3 P2P:llä hankittua UTXO:a UTXO:n kanssa, joka on saatu alustalta, joka vaatii KYC:n:
-![BTC204](assets/en/94.webp)
+![BTC204](assets/notext/45/05.webp)
 
 Näin tehdessäni mikä tahansa taho, jolla on pääsy vaihtoalustan tietoihin, mukaan lukien mahdollisesti hallitusvirastot, voi tunnistaa, että omistan muita määriä BTC:ssä. Aiemmin nämä UTXO:t eivät olleet suoraan yhdistettyjä henkilöllisyyteeni; nyt ne ovat. Lisäksi tämä paljastaa kaikille lähteille, että minulla on tietty määrä bitcoineja.
 
@@ -1373,11 +1392,11 @@ Oman bitcoinien hallussapito on hyvä, mutta oman täyden solmun käyttö on par
 
 Näiden etujen lisäksi oman täyden solmun käyttö parantaa myös yksityisyyttäsi, kun lähetät transaktioitasi. Kun teet transaktion, se luodaan ja allekirjoitetaan lompakkosi kautta. Jotta se voidaan lähettää Bitcoin-verkkoon, ainakin yhden solmun on tiedettävä siitä. Oman solmun käyttämällä hallitset suoraan tätä lähetystä, mikä parantaa yksityisyyttäsi ja rajoittaa tietovuodon riskejä.
 
-![BTC204](assets/en/95.webp)
+![BTC204](assets/notext/46/01.webp)
 
 Jos sinulla ei ole omaa Bitcoin-solmua, sinun on pakko käyttää kolmannen osapuolen solmua, kuten lompakko-ohjelmistosi tarjoajaa. Transaktioiden lähettämisen lisäksi lompakkosi tarvitsee pääsyn erilaisiin tietoihin, kuten vireillä oleviin transaktioihin, osoitteisiisi liittyviin saldoihin tai transaktioidesi vahvistusten määrään. Kaiken tämän datan saavuttamiseksi sinun on kysyttävä solmulta.
 
-![BTC204](assets/en/96.webp)
+![BTC204](assets/notext/46/02.webp)
 
 Pääasiallinen riski, kun et käytä omaa Bitcoin-solmuasi, on, että kolmannen osapuolen solmun operaattori voi tarkkailla toimintaasi lohkoketjussa tai jopa jakaa näitä tietoja muiden entiteettien kanssa. Tämän riskin rajoittamiseksi väliratkaisuna on käyttää lompakko-ohjelmistoa, joka mahdollistaa yhteyksiesi peittämisen Torin kautta. Tämä voi vähentää tietojesi altistumista. Optimaalinen ratkaisu on kuitenkin omistaa oma Bitcoin-solmu ja käyttää sitä transaktioidesi lähettämiseen. Tietenkin sinun on myös varmistettava, ettei solmustasi vuoda tietoja, mutta tämä on toinen aihe, jota tutkimme seuraavissa osioissa.
 Oman yksityisyytesi ilmeisen edun lisäksi oman täysnoden käyttäminen varmistaa myös tiedon totuudenmukaisuuden lohkoketjussa, suojaa sensuurilta ja antaa sinulle mahdollisuuden osallistua aktiivisesti Bitcoinin hallintoon. Oman noden käyttämällä tuot taloudellisen painoarvosi valitsemallesi ketjulle, mikä on tärkeää yhteisön sisäisten konfliktien, kuten esimerkiksi Blocksize Warin aikana vuosina 2015–2017. Haaran (fork) tapahtuessa kolmannen osapuolen noden käyttäminen saattaisi johtaa sinut tukemaan ketjua, jota et halua suosia, koska noden operaattori tekee valinnan puolestasi. Kuten voit ymmärtää, yksityisyyden ja laajemmin yksilön suvereniteetin huolenaiheena on olennaista käyttää ja ajaa omaa täysnodea!
@@ -1390,11 +1409,11 @@ Ensimmäinen neuvoni olisi sulautua tiheimmin joukkoon. Bitcoinissa tämä tarko
 
 Yleisesti ottaen on turvallisempaa kääntyä uusimman skriptistandardin puoleen, edellyttäen, että se on riittävän laajalti omaksuttu. Näin ollen, jos vuonna 2022 olisin neuvonut välttämään P2TR:n (Taproot) käyttöä sen vähäisen omaksumisen vuoksi, vuoteen 2024 mennessä suosittelisin valitsemaan tämän tyyppisen skriptin tai vaihtoehtoisesti SegWit V0 -skriptin, koska P2TR:ää käyttävien siirtojen määrä alkaa edustaa merkittävää osuutta.
 
-![BTC204](assets/en/97.webp)
+![BTC204](assets/notext/46/03.webp)
 
 Lähde: [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 Toinen vinkki yksityisyytesi säilyttämiseen on yrittää kiertää siirtojen sisäisiä heuristiikkoja. Esimerkiksi maksua tehdessäsi saatat yrittää välttää pyöreän summan luomista ulostulolle, sillä se voisi viestiä, että toinen ulostulo edustaa vaihtorahaa. Jos sinun tarvitsee lähettää 100k satsia ystävällesi, harkitse hieman suuremman summan siirtämistä tämän heuristiikan välttämiseksi. Samoin yritä välttää vaihtorahan ulostulojen luomista, jotka ovat suhteettoman suuria verrattuna tehtyyn maksuun, sillä se voisi myös paljastaa, kumpi ulostuloista edustaa vaihtorahaa.
-![BTC204](assets/en/98.webp)
+![BTC204](assets/notext/46/04.webp)
 
 Lopuksi, jos suoritat Bitcoin-siirtoja säännöllisesti, varmista, ettet aina lähetä niitä samoissa ajoissa. Levittämällä siirtojesi lähettämisen läpi päivän ja viikon, vältät antamasta ulkopuolisille tarkkailijoille mahdollisuuden havaita aikaperusteisen mallin, joka voisi parantaa heidän analyysiään.
 
@@ -1423,62 +1442,62 @@ Coinjoinit parantavat Bitcoin-käyttäjien luottamuksellisuutta monimutkaistamal
 
 On tärkeää ymmärtää, että coinjoin-tapahtuman tavoite on katkaista kolikon historia. Tämä tekniikka ei tarjoa pysyvää nimettömyyttä eikä se lopullisesti estä bitcoinien jäljittämistä, toisin kuin saattaisi luulla. Coinjoin pyrkii vain katkaisemaan historian siinä kohdassa, missä coinjoin-tapahtuma suoritetaan. Kuitenkin ennen ja jälkeen tämän toimenpiteen, kolikko on alttiina samoille yksityisyyden riskeille.
 
-![BTC204](assets/en/110.webp)
+![BTC204](assets/notext/51/02.webp)
 
 ### Miten coinjoinit toimivat?
 
 Coinjoinin periaate perustuu yhteistyöhön: useat käyttäjät, jotka haluavat sekoittaa bitcoinejaan, tallettavat identtisiä määriä saman tapahtuman sisääntuloissa. Nämä määrät jaetaan sitten ulostuloissa tasavertaisina arvoina jokaiselle käyttäjälle.
 
-![BTC204](assets/en/101.webp)
+![BTC204](assets/notext/51/03.webp)
 
 Tapahtuman lopussa on mahdotonta yhdistää tiettyä ulostuloa tunnettuun käyttäjään sisääntulossa. Sisääntulojen ja ulostulojen välillä ei ole suoraa yhteyttä, mikä katkaisee yhteyden käyttäjien ja heidän UTXOjensa välillä sekä kunkin kolikon historian.
 
-![BTC204](assets/en/102.webp)
+![BTC204](assets/notext/51/04.webp)
 Käytetään esimerkkinä Alicea. Hän haluaa lähettää noin 100 000 satoshia sisarelleen Evelle syntymäpäivälahjaksi. Alice ei kuitenkaan halua Even pystyvän jäljittämään hänen transaktioidensa historiaa, koska hän ei halua paljastaa, kuinka monta bitcoinia hän omistaa tai miten hän on ne saanut. Tätä varten Alice päättää katkaista UTXO:nsa historian coinjoin-transaktiolla. Hän järjestää Bobin, Charlesin, Davidin ja Frankin kanssa yhteistyössä toteutettavan transaktion: Alice, Bob, Charles, David ja Frank sitoutuvat kukin antamaan 105 000 satoshia (josta 5 000 satoshia on kaivosmaksuja) syötteinä transaktiolle:
 
-![BTC204](assets/en/103.webp)
+![BTC204](assets/notext/51/05.webp)
 
 - Vastineeksi näiden syötteiden käyttämisestä kukin luo uuden osoitteen luodakseen viisi identtistä 100 000 satoshin lähtöä. Jokainen saa yhden lähdön:
 
-![BTC204](assets/en/104.webp)
+![BTC204](assets/notext/51/06.webp)
 
 - Alice päätyy UTXO:on, jossa on 100 000 satoshia, jonka historia on sekoitettu. Hän käyttää tätä UTXO:a uudessa transaktiossa lähettääkseen summan Evelle syntymäpäivälahjaksi:
 
-![BTC204](assets/en/105.webp)
+![BTC204](assets/notext/51/07.webp)
 
 - Jos Eve yrittää analysoida tätä transaktiota saadakseen tietoa, hän kohtaa coinjoin-transaktion, johon Alice, Bob, Charles, David ja Frank ovat osallistuneet. Koska hän ei pysty erottamaan, minkä syötteen kuka omistaa määrien yhtenäisyyden vuoksi, Eve ei voi jäljittää Alicen UTXO:n historiaa, eikä määrittää, kuinka monta bitcoinia hänen sisarensa omistaa tai miten hän on ne saanut:
 
-![BTC204](assets/en/106.webp)
+![BTC204](assets/notext/51/08.webp)
 
 Tässä skenaariossa Alice käytti coinjoin-tekniikkaa lisätäkseen yksityisyyttään takautuvaa analyysiä vastaan. Todellakin, Alice suojaa itseään mahdollista Even analyysiä vastaan, joka alkaisi tietystä transaktiosta jäljittääkseen UTXO:n historiaa taaksepäin. Tämä suoja analyysiä vastaan nykyhetkestä menneisyyteen on sitä, mitä kutsumme takautuvaksi anonsetiksi. Syvennymme tähän käsitteeseen tarkemmin tämän osan viimeisissä luvuissa.
 
 Coinjoin tarjoaa kuitenkin myös mahdollisuuden parantaa yksityisyyttä analyysiä vastaan menneisyydestä nykyhetkeen, jota kutsutaan eteenpäin suuntautuvaksi anonsetiksi. Palataan esimerkkiimme, jossa Alice lähetti 98 000 satoshia Evelle syntymäpäivälahjaksi, mutta käänteisin roolein. Kuvitellaan nyt, että Eve on huolissaan yksityisyydestään. Todellakin, Alice saattaisi olla kiusattu seuraamaan lähettämäänsä kolikkoa Evelle saadakseen tietoa. Eve voisi yhdistää juuri saamansa UTXO:n kaikkiin muihin UTXO:ihinsa, mikä voisi paljastaa Alicelle, kuinka monta bitcoinia hänellä on lompakossaan. Välttääkseen tämän, Eve voi myös katkaista juuri saamansa kolikon historian.
 
 - Eve, Grace, Mallory, Oscar ja Victor laittavat kukin UTXO:n, jossa on 98 000 satoshia, syötteiksi Bitcoin-transaktioon:
-  ![BTC204](assets/en/107.webp)
+  ![BTC204](assets/notext/51/09.webp)
 
 - Vastineeksi näiden syötteiden kuluttamisesta kukin tarjoaa uuden osoitteen luodakseen 5 täysin yhtä suurta 97 500 satoshin lähtöä. Jokainen käyttäjä saa yhden lähdön:
 
-![BTC204](assets/en/108.webp)
+![BTC204](assets/notext/51/10.webp)
 
 - Eve nyt omistaa UTXO:n, jossa on 97 500 satoshia rikotulla historialla. Hän voi käyttää sitä pelkäämättä tulevia transaktioita. Todellakin, jos Alice yrittää seurata lähettämiään bitcoineja Evelle, hän kohtaa coinjoin-transaktion. Hän ei pysty määrittämään, mikä lähtö-UTXO kuuluu Evelle. Analyysi muuttuu mahdottomaksi:
 
-![BTC204](assets/en/109.webp)
+![BTC204](assets/notext/51/11.webp)
 Ensimmäisessä esimerkissä näimme, kuinka coinjoin voi suojata kolikon yksityisyyttä suhteessa sen menneisyyteen, ja toisessa esimerkissä, kuinka se voi myös turvata kolikon historian suhteessa sen tulevaisuuteen. Siksi mainitsin, että coinjoinia tulisi pitää yksittäisenä tapahtumana, joka jakaa kolikon historian molempiin suuntiin:
-![BTC204](assets/en/110.webp)
+![BTC204](assets/notext/51/02.webp)
 
 ### Sekoittaminen, coinjoinit, sekoittajat... Mikä on ero?
 
 Termiä "sekoittaminen" käytetään joskus kuvaamaan coinjoineja, termiä, jonka jotkut bitcoin-käyttäjät hylkäävät, koska he pelkäävät sekaannusta kustodialisesti sekoittajien kanssa. Kuitenkin mielestäni tämä huoli on aiheeton, koska matemaattisessa kontekstissa coinjoin ilmentää sekoittamisen käsitettä tarkasti.
 
 Matematiikan yleisellä alueella sekoittaminen viittaa dynaamisen järjestelmän ominaisuuteen, jossa jonkin ajan kuluttua kaikki alkutilan osat voivat teoriassa sekoittua mihin tahansa muuhun osaan. Sekoittaminen tarkoittaa, että hiukkasen sijainti tai järjestelmän tila kehittyy siten, että sen tuleva jakautuminen on riippumaton sen alkuperäisestä jakautumisesta, saavuttaen tilan, jossa alkutilan ominaisuudet ovat tasaisesti jakautuneet koko järjestelmän tilaan. Tämä on juuri sitä, mitä tapahtuu coinjoinissa bitcoineilla. Näin ollen mielestäni coinjoin on todellakin kolikoiden sekoittamisen menetelmä.
-![BTC204](assets/en/111.webp)
+![BTC204](assets/notext/51/12.webp)
 
 On kuitenkin tärkeää erottaa coinjoin sekoittajista. Sekoittaja on palvelu, johon käyttäjät lähettävät bitcoinejaan sekoitettavaksi. Nämä palvelut olivat suosittuja 2010-luvulla, mutta niiden käyttö on vähentynyt kahden suuren haittapuolen vuoksi verrattuna coinjoiniin:
 
 - Ne vaativat käyttäjältä varojen hallinnan luovuttamisen sekoitusprosessin aikana, mikä altistaa heidät varkausriskille;
 - Ei ole takeita siitä, etteikö sekoittaja tallenna tapahtumien yksityiskohtia tai jopa myy tätä tietoa ketjuanalyysiyhtiöille.
-  ![BTC204](assets/en/112.webp)
+  ![BTC204](assets/notext/51/13.webp)
 
 Nykyään käyttäjät siis suosivat coinjoinia, koska se mahdollistaa heidän pitää täyden kontrollin varoistaan koko prosessin ajan. Coinjoiniin osallistuvat eivät riskeeraa bitcoinien varastamista muiden osapuolten toimesta. Tutkitaan yhdessä, kuinka kaikki tämä on mahdollista seuraavassa luvussa.
 
@@ -1489,7 +1508,7 @@ Nykyään käyttäjät siis suosivat coinjoinia, koska se mahdollistaa heidän p
 Coinjoinin tarjoama yksityisyys voitetaan ryhmän koossa, jossa meidän palamme on piilotettu. Siksi on tarpeen löytää mahdollisimman monta osallistujaa. Coinjoinin suorittaminen manuaalisesti, itse löydettyjen käyttäjien kanssa, on täysin mahdollista, mutta tämä menetelmä on monimutkainen, eikä se mahdollista suurten anonsettien saavuttamista.
 
 Tämän vuoksi Bitcoinissa on kehittynyt coinjoin-koordinaattoreita. Heidän roolinsa on yhdistää eri käyttäjiä ja välittää tarvittavat tiedot yhteistyössä tehtävän tapahtuman onnistuneeseen suorittamiseen.
-![BTC204](assets/en/113.webp)
+![BTC204](assets/notext/52/01.webp)
 
 Mutta kuinka voimme varmistaa, että koordinaattorilla ei koskaan ole hallintaa käyttäjien bitcoineista, ja huolimatta siitä, että he ovat henkilö, joka rakentaa coinjoin-tapahtuman, kuinka voimme varmistaa, etteivät he voi yhdistää käyttäjien syötteitä ja tuotoksia, mikä voisi muodostaa yksityisyyden vuodon?
 
@@ -1538,27 +1557,27 @@ On vaikea määrittää varmuudella, kuka ensimmäisenä esitteli coinjoin-idean
 Käyttäen Chaum Sokeita Allekirjoituksia: Käyttäjät kirjautuvat sisään ja tarjoavat syötteitä (ja vaihto-osoitteita) sekä kryptografisesti sokeutetun version osoitteesta, johon he haluavat lähettää yksityiset kolikkonsa; palvelin allekirjoittaa tokenit ja palauttaa ne käyttäjille. Käyttäjät yhdistävät uudelleen anonyymisti, paljastavat tulostusosoitteensa ja lähettävät ne takaisin palvelimelle. Palvelin näkee, että kaikki tulosteet on allekirjoitettu sen toimesta ja että näin ollen kaikki tulosteet tulevat voimassaolevilta osallistujilta. Myöhemmin ihmiset yhdistävät uudelleen ja allekirjoittavat.
 Maxwell, G. (2013, elokuu 22). _CoinJoin: Bitcoin yksityisyys todellisessa maailmassa_. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
-![BTC204](assets/en/121.webp)
+![BTC204](assets/notext/52/09.webp)
 Kuitenkin, aiempia mainintoja on olemassa sekä Chaum allekirjoituksista sekoittamisen yhteydessä että myös coinjoineista. [Kesäkuussa 2011 Duncan Townsend esitteli BitcoinTalkissa](https://bitcointalk.org/index.php?topic=12751.0) sekoittimen, joka käyttää Chaum allekirjoituksia tavalla, joka on hyvin samankaltainen nykyaikaisten Chaumian coinjoinien kanssa.
 Samassa keskusteluketjussa on [viesti hashcoinilta vastauksena Duncan Townsendille](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) hänen sekoittimensa parantamiseksi. Tässä viestissä kuvattu prosessi edustaa tarkasti sitä, mikä muistuttaa eniten coinjoineja. Maininta samankaltaisesta järjestelmästä on myös [viestissä Alex Mizrahilta vuonna 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), kun hän neuvosi Tenebrixin, yhden ensimmäisistä altcoineista, luojia, joka toimi myöhemmin perustana Litecoinin luomiselle. Jopa termi "coinjoin" itsessään ei ole Greg Maxwellin keksimä, vaan se tuli Peter Toddin ideasta.
 
-![BTC204](assets/en/122.webp)
+![BTC204](assets/notext/52/10.webp)
 
 ### Zerolink
 
 Zerolink on kattava sekoitusprotokolla, joka yhdistää Chaumian coinjoinit ja erilaisia strategioita käyttäjien anonymiteetin suojaamiseksi useita ketjuanalyysin muotoja vastaan, erityisesti vähentäen lompakonhallintaan liittyviä virheitä. Tämän protokollan [esittelivät nopara73 ja TDevD vuonna 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/en/123.webp)
+![BTC204](assets/notext/52/11.webp)
 
 Kuten nimestä voi päätellä, Zerolinkin periaate on suorittaa coinjoin-transaktioita, jotka takaavat linkkien jäljittämisen mahdottomuuden syötteiden ja tuotosten välillä. Tämä ominaisuus saavutetaan varmistamalla, että kaikki tuotokset ovat täysin identtisiä määriltään.
 
-![BTC204](assets/en/124.webp)
+![BTC204](assets/notext/52/12.webp)
 Tärkeä ennaltaehkäisevä toimenpide Zerolinkissa on sekoittamattomien UTXOjen täydellinen erottaminen sekoitetuista UTXOista käyttämällä erillisiä kryptografisia avaimia tai jopa erillisiä lompakoita. Näin "ennakko-sekoitus" lompakko, joka on tarkoitettu kolikoille ennen sekoittamista, erotetaan "jälkisekoitus" lompakosta, joka on varattu sekoitetuille kolikoille.
-![BTC204](assets/en/125.webp)
+![BTC204](assets/notext/52/13.webp)
 
 Tämä UTXOjen tiukka erottaminen palvelee ensisijaisesti vahinkoon perustuvien yhdistämisten estämistä sekoitetun UTXOn ja sekoittamattoman UTXOn välillä. Todellakin, jos tällaisia linkkejä esiintyy, coinjoinin tehokkuus sekoitetussa UTXOssa mitätöidään ilman, että käyttäjä on tietoinen, mikä vaarantaa UTXOn luottamuksellisuuden, jonka he uskoivat irrotetun historiastaan. Nämä linkit voivat syntyä joko osoitteen uudelleenkäytön kautta turvattaessa sekoitettu UTXO sekoittamattoman kanssa, tai soveltamalla Common-Input-Ownership Heuristic (CIOH) -periaatetta, jos käyttäjä käyttää sekä sekoitettuja että sekoittamattomia UTXOja saman transaktion syötteinä. Ennakko-sekoituksen ja jälkisekoituksen lompakoiden erottamisen avulla nämä vahingossa tapahtuvat yhdistämiset vältetään, ja käyttäjä suojataan tahattomilta virheiltä.
 
-![BTC204](assets/en/126.webp)
+![BTC204](assets/notext/52/14.webp)
 Tämä erottelu tarjoaa myös mahdollisuuden soveltaa erillisiä sääntöjä ennen sekoitusta ja sekoituksen jälkeen oleville lompakoille lompakko-ohjelmiston tasolla. Esimerkiksi sekoituksen jälkeisessä lompakossa ohjelmisto voi kieltää UTXO:iden yhdistämisen syötteiksi estääkseen CIOH:n soveltamisen, mikä vaarantaisi käyttäjän anonsetin. On myös mahdollista standardoida skriptien ja transaktiovaihtoehtojen käyttö (kuten RBF:n merkitseminen esimerkiksi) estääkseen tunnistamisen lompakon sormenjäljillä.
 Tällä hetkellä Whirlpool on ainoa coinjoinin toteutus, joka soveltaa Zerolink-protokollaa tiukasti. Seuraavassa luvussa tutkimme erilaisia olemassa olevia coinjoin-toteutuksia sekä kunkin etuja ja haittoja.
 
@@ -1579,13 +1598,13 @@ Tällä hetkellä Bitcoinissa on pääasiassa kolme erilaista coinjoin-toteutust
 
 JoinMarket, jonka loivat Adam Gibson ja Chris Belcher vuonna 2015, erottuu muista coinjoin-toteutuksista ainutlaatuisen käyttäjien yhdistämismallinsa ansiosta. Tämä järjestelmä perustuu P2P-vaihtomarkkinaan, jossa jotkut käyttäjät, "tekijät", tekevät bitcoinejaan saataville sekoitusta varten, kun taas toiset, "ottajat", käyttävät näitä varoja suorittaakseen coinjoineja maksua vastaan.
 
-![BTC204](assets/en/127.webp)
+![BTC204](assets/notext/53/01.webp)
 
 Tässä mallissa "tekijät" jättävät bitcoinejaan "ottajien" käyttöön ja saavat palvelumaksuja vastineeksi palvelustaan. "Ottajat" puolestaan maksavat käyttääkseen "tekijöiden" bitcoineja omien coinjoin-transaktioidensa suorittamiseen. Palvelumaksut vaihtelevat roolin mukaan: "tekijät" kerryttävät maksuja likviditeettitarjouksestaan, kun taas "ottajat" maksavat maksut. Tämä markkina toimii vapaasti ilman käyttöehtoja.
 
 Yksi JoinMarketin päähaitoista on sen käytön monimutkaisuus, joka vaatii tiettyä tuttavuutta terminaaleihin sen tehokkaaseen hyödyntämiseen. Vaikka tämä monimutkaisuus ei ole este kokeneelle käyttäjälle, se voi rajoittaa yleisön pääsyä. Kuitenkin äskettäin esitellyn web-käyttöliittymän, JAM:n, myötä sen käyttö on jonkin verran helpottunut.
 
-![BTC204](assets/en/128.webp)
+![BTC204](assets/notext/53/02.webp)
 
 Lähde: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
@@ -1596,21 +1615,21 @@ Huolimatta innovatiivisesta P2P-matching-mallistaan coinjoineissa, JoinMarketill
 
 Wabisabi on toinen coinjoin-toteutus, jossa transaktioiden koordinointi on keskitetty. Tämän mallin suunnittelivat Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero ja István András Seres vuonna 2021, ja se integroitiin Wasabi 2.0 -ohjelmistoon seuraavana vuonna. Wabisabi on nimenomaan Wasabi-ohjelmiston vuonna 2018 käynnistetyn coinjoin-mallin evoluutio.
 
-![BTC204](assets/en/129.webp)
+![BTC204](assets/notext/53/03.webp)
 
 2010-luvun loppua kohden Wasabi omaksui coinjoineilleen transaktiorakenteen, joka poikkesi radikaalisti Whirlpoolin rakenteesta. Osallistujiensa anonsetteja kasvattaakseen Wasabi käytti hyvin suuria coinjoin-transaktioita, jotka ryhmittivät kymmeniä osallistujia. Whirlpool puolestaan valitsi useita pieniä transaktioita, mikä mahdollisti anonsettien eksponentiaalisen kasvun jokaisella kierroksella.
 
 Myös vaihtorahan hallinnointimenetelmät erottivat kaksi toteutusta toisistaan. Whirlpoolissa vaihtoraha suljettiin pois ja eristettiin UTXOista ennen coinjoin-kiertoja TX0:n avulla, konsepti, jonka selitän tarkemmin seuraavassa luvussa. Wasabissa vaihtoraha muodosti yhden coinjoin-transaktion tulosteista, mikä säilytti deterministisiä linkkejä tietyissä syötteissä ja tulosteissa.
 
-![BTC204](assets/en/130.webp)
+![BTC204](assets/notext/53/04.webp)
 
 Wabisabin myötä, Wasabin version 2.0, se mukautti lähestymistapaansa coinjoineihin lähestyäkseen Whirlpoolin mallia. Vaikka coinjoin-transaktiot pysyvät edelleen hyvin suurina, on nyt mahdollista ketjuttaa useita peräkkäisiä kierroksia, seuraten näin Whirlpoolin mallia. Erityistä ponnistusta on myös tehty vaihtorahan hallinnoinnissa: toisin kuin Wasabi 1.0:ssa, jossa vaihtoraha oli suoraan linkitetty käyttäjien syötteisiin, Wabisabi pyrkii jakamaan vaihtorahan useisiin pieniin määriin, jotka jaetaan tasaisina denominointeina kaikille osallistujille.
 
 Kuvataan tämä yksinkertaistetulla esimerkillä, joka koskee vain 2 käyttäjää: Alice haluaa sekoittaa 115 000 satsia ja Bob 210 000 satsia. Jättäen palkkiot huomiotta, Wasabi 1.0:ssa coinjoin-transaktio olisi tuottanut 3 tulostetta 100 000 satsista, plus 1 vaihtorahan 15 000 satsista Alicelle ja 1 vaihtorahan 10 000 satsista Bobille. Vaihtorahatulosteet olisivat aina linkittyneet syötteisiin:
 
-![BTC204](assets/en/131.webp)
+![BTC204](assets/notext/53/05.webp)
 Wabisabin alla sama transaktio olisi tuottanut 3 tulostetta 100 000 satsista ja 5 tulostetta 5 000 satsista, hajottaen näin vaihtorahan tavalla, joka ei ole suoraan jäljitettävissä tiettyyn syötteeseen:
-![BTC204](assets/en/132.webp)
+![BTC204](assets/notext/53/06.webp)
 Henkilökohtaisesti koen, että muutoksen hallinta Wabisabissa tuo esiin useita riskejä, jotka voivat vaarantaa sen tehokkuuden yksityisyyden suhteen:
 
 - Kun käyttäjä osallistuu UTXO:lla, joka on huomattavasti suurempi kuin muiden osallistujien, he päätyvät väistämättä määrään vaihtorahaa, joka voidaan yhdistää heidän syötteeseensä. Tämä on ristiriidassa protokollan alkuperäisen tavoitteen kanssa, jonka tarkoituksena on eliminoida kaikki tunnistettavissa oleva vaihtoraha;
@@ -1637,7 +1656,7 @@ Whirlpool erottuu muista coinjoin-menetelmistä käyttämällä "_ZeroLink_" -tr
 
 Tämä rajoittava lähestymistapa syötteisiin antaa Whirlpoolin coinjoin-transaktioille ainutlaatuisen ominaisuuden: täydellisen puuttuvan deterministisen linkin syötteiden ja tuotosten välillä. Toisin sanoen, jokaisella tuotoksella on yhtä suuri todennäköisyys olla kenen tahansa osallistujan attribuoitu, suhteessa kaikkiin muihin transaktion tuotoksiin.
 
-![BTC204](assets/en/133.webp)
+![BTC204](assets/notext/54/01.webp)
 
 ### Whirlpoolin Yleinen Toimintaperiaate
 
@@ -1647,24 +1666,24 @@ Näin ollen Whirlpool-transaktiot ovat luonteeltaan sellaisia, että syötteiden
 
 - 5 syötettä ja 5 tuotosta;
 
-![BTC204](assets/en/134.webp)
+![BTC204](assets/notext/54/02.webp)
 
 - 6 syötettä ja 6 tuotosta;
 
-![BTC204](assets/en/135.webp)
+![BTC204](assets/notext/54/03.webp)
 
 - 7 syötettä ja 7 tuotosta;
 
-![BTC204](assets/en/136.webp)
+![BTC204](assets/notext/54/04.webp)
 
 - 8 syötettä ja 8 tuotosta.
 
-![BTC204](assets/en/137.webp)
+![BTC204](assets/notext/54/05.webp)
 Whirlpoolin ehdottama malli perustuu näin ollen pieniin coinjoin-transaktioihin. Toisin kuin Wabisabi ja JoinMarket, joissa anonsettien vahvuus perustuu osallistujien määrään yhdessä syklissä (tai muutamassa syklissä), Whirlpool luottaa useiden pienten syklien ketjuttamiseen. Tässä mallissa käyttäjä maksaa kulut vain ensimmäisellä kerralla liittyessään altaaseen, mahdollistaen heidän osallistumisen lukuisiin uudelleensekoituksiin ilman lisämaksuja. Uudet tulokkaat kattavat kaivosmaksut uudelleensekoittajille.
 
 Jokaisen lisäcoinjoinin myötä, johon kolikko osallistuu yhdessä aiemmin kohdattujen vertaistensa kanssa, anonsetit kasvavat eksponentiaalisesti. Tavoitteena on siis hyödyntää näitä ilmaisia uudelleensekoituksia, jotka jokaisella kerralla vahvistavat kunkin sekoitetun kolikon anonsettien tiheyttä.
 
-![BTC204](assets/en/138.webp)
+![BTC204](assets/notext/54/06.webp)
 
 Whirlpool suunniteltiin kahden tärkeän vaatimuksen pohjalta:
 
@@ -1760,7 +1779,7 @@ Tässä `Tx0`-transaktion esimerkissä **talletus**tililtämme tuleva syöte `37
 - Lopulta on `3 000 sats`, jotka eivät muodosta ulostuloa, mutta ovat louhintamaksuja, jotka vaaditaan `Tx0`:n vahvistamiseen.
   Esimerkiksi tässä on todellinen Tx0 Whirlpool (ei minulta): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
-![BTC204](assets/en/142.webp)
+![BTC204](assets/notext/54/10.webp)
 
 ### Myrkyllinen Vaihdos
 
@@ -1768,7 +1787,7 @@ Ylijäämä, jota ei voitu integroida pooliin, tässä tapauksessa vastaten `40 
 
 Tämä UTXO on vaarallinen käyttäjän yksityisyydelle, koska se ei ainoastaan ole edelleen kiinnitetty menneisyyteensä, ja siten mahdollisesti käyttäjän identiteettiin, mutta se on myös merkitty kuuluvaksi käyttäjälle, joka on osallistunut coinjoiniin.
 
-![BTC204](assets/en/143.webp)
+![BTC204](assets/notext/54/11.webp)
 
 Jos tämä UTXO yhdistetään sekoitettujen ulostulojen kanssa, ne menettävät kaiken yksityisyyden, jonka ne saivat coinjoin-sykleissä, erityisesti CIOH:n (_Common-Input-Ownership-Heuristic_) vuoksi. Jos se yhdistetään muiden myrkyllisten vaihdosten kanssa, käyttäjä riskeeraa yksityisyytensä menettämisen, koska tämä linkittää eri merkinnät coinjoin-sykleistä. Siksi sitä on käsiteltävä varoen. Puhumme tarkemmin näiden myrkyllisten UTXOjen hallinnasta tämän luvun viimeisessä osassa.
 
@@ -1778,7 +1797,7 @@ Kun `Tx0` on valmis, tasapainotetut UTXOt lähetetään lompakkomme **premix**-t
 
 Näiden ensimmäisten sekoitusten lopussa **premix**-tili on tyhjä, kun taas kolikkomme, maksettuaan louhintamaksut tästä ensimmäisestä coinjoinista, on tarkalleen määritelty määrä valitun poolin mukaan. Esimerkissämme alkuperäiset UTXOmme `108 000 sats` on vähennetty tarkalleen `100 000 sats`iin.
 
-![BTC204](assets/en/144.webp)
+![BTC204](assets/notext/54/12.webp)
 
 ### Uudelleensekoitukset
 
@@ -1794,7 +1813,7 @@ Jotkut käyttäjät saattavat harkita sekoitettujen bitcoinien siirtämistä lom
 
 UTXO:iden yhdistäminen on yleisin virhe. On välttämätöntä välttää sekoitettujen UTXO:iden yhdistämistä sekoittamattomien UTXO:iden kanssa samassa siirrossa, välttääkseen Common-Input-Ownership-Heuristic (CIOH) -heuristiikan. Tämä vaatii huolellista UTXO:idesi hallintaa lompakossasi, erityisesti merkinnöissä.
 
-![BTC204](assets/en/145.webp)
+![BTC204](assets/notext/54/13.webp)
 
 On myös tärkeää olla varovainen sekoitettujen UTXO:iden keskinäisessä yhdistämisessä. Kohtuulliset yhdistämiset ovat kuviteltavissa, jos sekoitetuilla UTXO:illasi on merkittäviä anonsettejä, mutta tämä vähentää väistämättä kolikoidesi luottamuksellisuutta. Varmista, että yhdistämiset eivät ole liian merkittäviä eivätkä tapahdu riittämättömän määrän uudelleensekoitusten jälkeen, riskinä luoda jäljitettävissä olevia linkkejä UTXO:idesi välille ennen ja jälkeen coinjoin-syklit. Epävarmuuden vallitessa näistä manipulaatioista paras käytäntö on olla yhdistämättä postmix-UTXO:ita, ja siirtää ne yksitellen laitteistolompakkoosi, luoden joka kerta uuden tyhjän osoitteen. Muista jälleen merkitä jokainen vastaanotettu UTXO asianmukaisesti.
 On myös suositeltavaa välttää postmix-UTXO:idesi siirtämistä lompakkoon, joka käyttää epätavallisia skriptejä. Esimerkiksi, jos liityt Whirlpooliin multisig-lompakosta käyttäen `P2WSH`-skriptejä, on pieni mahdollisuus, että sekoitut muiden käyttäjien kanssa, joilla on alun perin sama tyyppinen lompakko. Jos nostat postmixisi tähän samaan multisig-lompakkoon, sekoitettujen bitcoiniesi yksityisyystaso heikkenee huomattavasti. Skriptien lisäksi on monia muita lompakon sormenjälkiä, jotka voivat johtaa harhaan.
@@ -1819,7 +1838,7 @@ Tässä on erilaisia strategioita niiden käyttämiseen:
 
 Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta 2024, Whirlpool-työkalu ei enää toimi, edes niille, joilla on oma Dojo. Aiemmin se oli saatavilla Samourai Walletissa ja Sparrow Walletissa.
 
-![BTC204](assets/en/146.webp)
+![BTC204](assets/notext/54/14.webp)
 
 On kuitenkin mahdollista, että tämä työkalu voidaan ottaa uudelleen käyttöön tulevina viikkoina, riippuen oikeudenkäyntien tuloksista, tai käynnistää uudelleen eri tavalla. Joka tapauksessa uskon, että markkina Bitcoinin coinjoinille ei tule pysymään tarjonnatta pitkään, sillä kysyntä on selvä. Lisäksi Whirlpool-malli, ollessaan edistynein yksityisyyden suhteen, tullaan varmasti käyttämään tulevaisuudessa muiden toteutusten yhteydessä.
 
@@ -1827,11 +1846,11 @@ Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkal
 
 Seuraavassa luvussa tutustumme siihen, mitä "anonsetit" ovat, kuinka näitä indikaattoreita lasketaan, ja kuinka ne voivat auttaa meitä arvioimaan coinjoin-syklien tehokkuutta.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Anonyymiusjoukot
 
@@ -1872,7 +1891,7 @@ Tämä mittari arvioi, missä määrin UTXO:si on suojattu yrityksiltä rakentaa
 
 Esimerkiksi, jos tapahtumasi osallistui ensimmäiseen coinjoin-sykliin ja kaksi lisäjälkeläissykliä suoritettiin, kolikkosi tulevaisuuteen suuntautuva anonsetti olisi `13`:
 
-![BTC204](assets/en/150.webp)
+![BTC204](assets/notext/55/04.webp)
 
 Kuvitellaan esimerkiksi, että kolikkomme coinjoin-syklin alussa hyötyy tulevaisuuteen suuntautuvasta anonsetista `86,871`. Käytännössä tämä tarkoittaa, että se on piilotettu `86,871` erottamattoman kolikon joukkoon. Ulkopuolisen tarkkailijan, joka on tietoinen tästä kolikosta coinjoin-syklien alussa ja yrittää jäljittää sen ulostuloa, edessä olisi `86,871` mahdollista UTXO:a, joista jokaisella on identtinen todennäköisyys olla etsitty kolikko.
 
@@ -1885,7 +1904,7 @@ Retrospektiivinen anonsetti ilmaisee mahdollisten lähteiden määrän tietylle 
 
 Tietäessäsi UTXO:n syklien lopussa, retrospektiivinen anonsetti määrittää potentiaalisten Tx0-tapahtumien määrän, jotka olisivat voineet muodostaa sisääntulosi coinjoin-sykleihin. Alla olevassa kaaviossa tämä vastaa kaikkien oranssien kuplien summaa.
 
-![BTC204](assets/en/153.webp)
+![BTC204](assets/notext/55/07.webp)
 
 Esimerkiksi, kuvitellaan, että kolikkomme coinjoin-syklin lopussa hyötyy retrospektiivisestä anonsetista `42,185`. Käytännössä tämä tarkoittaa, että tälle UTXO:lle on `42,185` potentiaalista lähdettä. Jos ulkopuolinen tarkkailija tunnistaa tämän kolikon syklien lopussa ja pyrkii jäljittämään sen alkuperän, hän kohtaa `42,185` mahdollista lähdettä, joilla kaikilla on yhtä suuri todennäköisyys olla etsitty alkuperä.
 
@@ -1898,7 +1917,7 @@ On mahdollista manuaalisesti laskea omat anonsetit käyttäen lohkoketjuselainta
 
 Kuten tässä luvussa olemme nähneet, anonsetteja voidaan laskea vain, jos coinjoineissa on tietty homogeenisuus rakenteessa. Ja juuri tässä seuraavassa luvussa tulemme tutkimaan, kuinka mitata tätä homogeenisuutta Bitcoin-tapahtumassa, olipa kyseessä sitten coinjoin tai perinteisempi tapahtuma.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropia
 
@@ -1914,13 +1933,13 @@ Ensimmäinen havaittavissa oleva indikaattori Bitcoin-siirrossa on mahdollisten 
 
 Esimerkiksi yksinkertaisessa maksusiirrossa, jossa on 1 syöte ja 2 tulostetta, on vain yksi tulkinta, nimittäin että syöte #0 rahoitti tulosteen #0 ja tulosteen #1. Muita mahdollisia tulkintoja ei ole:
 
-![BTC204](assets/en/155.webp)
+![BTC204](assets/notext/56/01.webp)
 
 Sen sijaan Whirlpool 5x5 -mallin mukainen coinjoin esittää $1,496$ mahdollista yhdistelmää:
-![BTC204](assets/en/156.webp)
+![BTC204](assets/notext/56/02.webp)
 Whirlpool Surge Cycle 8x8 coinjoin esittää itsensä $9,934,563$ mahdollisella tulkinnalla:
 
-![BTC204](assets/en/157.webp)
+![BTC204](assets/notext/56/03.webp)
 
 ### Entropia
 
@@ -1965,7 +1984,7 @@ $$
 
 Otetaan toinen esimerkki standardista maksutapahtumasta, jossa on 1 sisääntulo ja 2 ulostuloa: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
 
-![BTC204](assets/en/158.webp)
+![BTC204](assets/notext/56/04.webp)
 
 Tässä tapahtumassa ainoa mahdollinen tulkinta on: `(In.0) > (Out.0 ; Out.1)`. Näin ollen sen entropia on vahvistettu $0$:ksi:
 
@@ -2118,17 +2137,17 @@ Näiden indikaattorien manuaalinen laskeminen käyttäen antamiani yhtälöitä 
 
 Aiemmin oli olemassa Python-työkalu nimeltä _Boltzmann Calculator_, jonka OXT:n ja Samourain tiimit kehittivät, ja joka mahdollisti kaikkien näiden indikaattorien automaattisen laskennan Bitcoin-tapahtumalle:
 
-![BTC204](assets/en/159.webp)
+![BTC204](assets/notext/56/05.webp)
 
 Myös verkkosivustoa KYCP.org oli mahdollista käyttää näihin analyyseihin:
 
-![BTC204](assets/en/160.webp)
+![BTC204](assets/notext/56/06.webp)
 
 Valitettavasti Samourain perustajien pidätyksen jälkeen nämä työkalut eivät tällä hetkellä ole käytössä.
 
 Nyt kun olemme käsitelleet coinjoineja yksityiskohtaisesti, tutkimme muita Bitcoinissa saatavilla olevia yksityisyyden suojaustekniikoita koulutuksemme viimeisessä osassa. Tarkastelemme payjoineja, erityisiä tapahtumatyyppejä pseudo-coinjoineja, staattisia osoiteprotokollia sekä toimenpiteitä, jotka tähtäävät yksityisyyden parantamiseen ei tapahtumatasolla, vaan solmujen verkon tasolla.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Muiden edistyneiden yksityisyyden suojaustekniikoiden panokset ymmärtäminen
 
@@ -2156,7 +2175,7 @@ Payjoinin erityispiirre on sen kyky tuottaa transaktio, joka ensi silmäyksellä
 
 Otetaan esimerkki ymmärtääksemme tämän prosessin paremmin. Alice ostaa patongin 4 000 satoshilla käyttäen UTXO:a, joka on 10 000 satoshia, ja valitsee payjoinin. Hänen leipurinsa, Bob, lisää inputtiin 15 000 satoshin UTXO:n, joka kuuluu hänelle, ja hän saa sen kokonaisuudessaan outputissa takaisin, lisäksi Alicen 4 000 satoshia.
 
-![BTC204](assets/en/161.webp)
+![BTC204](assets/notext/61/01.webp)
 Tässä esimerkissä Bob leipuri syöttää 15 000 satoshia ja tulee ulos 19 000 satoshilla, ero ollessa tasan 4 000 satoshia, joka on patongin hinta. Alicen puolella hän tulee sisään 10 000 satoshilla ja päätyy 6 000 satoshiin outputissa, mikä edustaa -4 000 satoshin tasapainoa, eli patongin hintaa. Esimerkin yksinkertaistamiseksi olen tarkoituksella jättänyt mainitsematta louhintamaksut tässä transaktiossa.
 
 ### Mikä on payjoinin tarkoitus?
@@ -2169,13 +2188,13 @@ Näin ollen, kun analyytikko tutkii payjoin-transaktiota, hän uskoo, että kaik
 
 Palataan takaisin esimerkkiimme payjoin-transaktiosta patongin maksamiseksi:
 
-![BTC204](assets/en/162.webp)
+![BTC204](assets/notext/61/02.webp)
 
 Nähdessään tämän transaktion blockchainissa, ulkopuolinen tarkkailija, joka seuraa ketjuanalyysin tavanomaisia heuristiikkoja, tulkitsee sen seuraavasti: "_Alice yhdisti 2 UTXO:a inputeissa transaktioon maksamaan 19 000 satoshia Bobille_".
 ![BTC204](assets/fi/61/03.webp)
 Tämä tulkinta on ilmiselvästi virheellinen, kuten jo tiedät, syötteiden kaksi UTXO:a eivät kuulu samalle henkilölle. Toinen tulee Alicelta, patongin ostajalta, ja toinen Bobilta, leipurilta.
 
-![BTC204](assets/en/164.webp)
+![BTC204](assets/notext/61/04.webp)
 
 Ulkopuolisen tarkkailijan analyysi suuntautuu siis väärään johtopäätökseen, mikä varmistaa sidosryhmien luottamuksellisuuden säilymisen.
 
@@ -2201,16 +2220,16 @@ Analogia voitaisiin tehdä kryptografian ja coinjoinin välille, sekä steganogr
 
 Tunnettuja ohjelmistoja, jotka tukevat payjoinia, ovat Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet ja JoinMarket, sekä maksunprosessori BTCPay.
 
-![BTC204](assets/en/167.webp)
+![BTC204](assets/notext/61/07.webp)
 Samourai Walletin kehittynein payjoin-toteutus oli vain Stowaway. Kuitenkin, ohjelmiston perustajien pidätyksen jälkeen, tämä työkalu toimii nyt vain osittain. Stowawayn etuna on, että se on täydellinen ja erittäin helppokäyttöinen protokolla, joka tukee sekä payjoinien vastaanottamista että lähettämistä. Osittain allekirjoitetut transaktiot voidaan vaihtaa manuaalisesti skannaamalla useita QR-koodeja tai automaattisesti Torin kautta Sorobanin avulla. Juuri tämä viimeksi mainittu viestintävaihtoehto on tällä hetkellä pois käytöstä.
 
 Payjoinin käytön vaikeus piilee sen riippuvuudessa kauppiaan osallistumisesta. Asiakkaana payjoinin käyttö on mahdotonta, jos kauppias ei tue sitä. Tämä lisää ylimääräisen vaikeuden ostoksen aikana: ei ole vain monimutkaista löytää kauppiaita, jotka hyväksyvät bitcoinin, mutta jos etsii myös niitä, jotka tukevat payjoineja, se muuttuu vielä monimutkaisemmaksi.
 
 Ratkaisu voisi olla käyttää transaktiorakenteita, jotka tuovat epäselvyyttä ketjuanalyysiin vaatimatta vastaanottajan yhteistyötä. Tämä mahdollistaisi maksujemme yksityisyyden parantamisen riippumatta kauppiaiden aktiivisesta osallistumisesta. Tämä on juuri se, mitä tulemme tutkimaan seuraavassa luvussa.
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Maksujen mini-coinjoinit
 
@@ -2238,15 +2257,15 @@ Stonewall-rakenne lisää paljon entropiaa transaktioon ja hämärtää ketjuana
 
 Palataan Alicen esimerkkiin Bob leipurin luona. Blockchainilla transaktio näyttäisi tältä:
 
-![BTC204](assets/en/170.webp)
+![BTC204](assets/notext/62/02.webp)
 
 Ulkopuolinen tarkkailija, joka nojaa yleisiin ketjuanalyysin heuristiikkoihin, saattaisi virheellisesti päätellä, että "_kaksi henkilöä on tehnyt pienen coinjoinin, kummallakin yksi UTXO syötteenä ja kaksi UTXO:a lähtönä_". Tämän transaktion ulkopuolinen analyysi ei johda Common Input Ownership Heuristic (CIOH) -sovellukseen, koska kahden samansuuruisen lähdön läsnäolo viittaa coinjoin-kaavaan. Ulkopuolisesta näkökulmasta CIOH ei siis ole sovellettavissa tässä erityistapauksessa.
 
-![BTC204](assets/en/171.webp)
+![BTC204](assets/notext/62/03.webp)
 
 Tämä tulkinta on epätarkka, koska, kuten tiedät, yksi UTXO lähetettiin Bob leipurille, 2 UTXO:a syötteissä tulee Alicelta, ja hän sai takaisin 3 vaihtorahojen lähtöä.
 
-![BTC204](assets/en/172.webp)
+![BTC204](assets/notext/62/04.webp)
 Ja erityisen mielenkiintoista Stonewall-transaktion rakenteessa on, että ulkopuolisen tarkkailijan näkökulmasta se näyttää täsmälleen samalta kuin Stonewall x2 -transaktion rakenne.
 
 ### Stonewall x2 -Transaktio
@@ -2262,7 +2281,7 @@ Näin ollen Stonewall x2 -transaktioissa määritellään kolme eri roolia:
 - Yhteistyökumppani, joka tarjoaa bitcoineja herättääkseen epäilyksiä transaktioanalyysissä, samalla kun hän palauttaa varansa lopussa (neutraali toiminto heille, miinus louhintamaksut).
   Palatkaamme esimerkkiimme Alicesta, joka on Bob leipurin luona ostamassa patonkiaan, joka maksaa 4 000 satsia. Hän haluaa maksaa bitcoineilla säilyttäen tietyn yksityisyyden tason maksussaan. Siksi hän kutsuu ystävänsä Charlesin, joka auttaa häntä tässä prosessissa.
 
-![BTC204](assets/en/173.webp)
+![BTC204](assets/notext/62/05.webp)
 
 Tätä transaktiota analysoimalla voimme nähdä, että Bob leipuri on todellakin saanut 4 000 satsia maksuna patongista. Alice käytti 10 000 satsia sisääntulona ja palautti 6 000 satsia ulostulona, mikä johtaa nettotaseeseen -4 000 satsia, mikä vastaa patongin hintaa. Charlesin osalta hän tarjosi 15 000 satsia sisääntulona ja sai kaksi ulostuloa: toisen 4 000 satsia ja toisen 11 000 satsia, mikä tekee saldosta 0.
 
@@ -2274,15 +2293,15 @@ Kuten Stonewall-rakenne, myös Stonewall x2 -rakenne lisää merkittävän mää
 
 Palatkaamme esimerkkiin Alicesta, Bob leipurista ja Charlesista. Transaktio lohkoketjussa näyttäisi tältä:
 
-![BTC204](assets/en/174.webp)
+![BTC204](assets/notext/62/06.webp)
 
 Ulkopuolinen tarkkailija, joka nojaa yleisiin ketjuanalyysin heuristiikkoihin, saattaisi virheellisesti päätellä, että "_Alice ja Charles ovat suorittaneet pienen coinjoinin, kummallakin yksi UTXO sisääntulossa ja kaksi UTXOa ulostulossa_". Jälleen kerran, tämän transaktion analyysi ulkopuolelta ei johda Common Input Ownership Heuristic (CIOH) -sovelluksen käyttöön, koska kahden saman suuruisen ulostulon läsnäolo viittaa coinjoin-kaavaan. Ulkopuolisen näkökulmasta CIOH ei siis ole sovellettavissa tässä erityistapauksessa.
 
-![BTC204](assets/en/175.webp)
+![BTC204](assets/notext/62/07.webp)
 
 Tämä tulkinta on virheellinen, koska, kuten tiedät, yksi UTXO lähetettiin Bob leipurille, Alicella on vain yksi vaihtoraha ulostulo, ja Charlesilla on kaksi.
 
-![BTC204](assets/en/176.webp)
+![BTC204](assets/notext/62/08.webp)
 
 Ja jälleen kerran, erityisen mielenkiintoista Stonewall x2 -transaktiorakenteessa on, että ulkopuolisen tarkkailijan näkökulmasta se näyttää täsmälleen samalta kuin Stonewall-transaktio.
 
@@ -2290,10 +2309,10 @@ Ja jälleen kerran, erityisen mielenkiintoista Stonewall x2 -transaktiorakentees
 
 StonewallX2-transaktio toimii täsmälleen kuten Stonewall-transaktio, paitsi että edellinen on yhteistyöllinen, kun taas jälkimmäinen ei ole. Kuten olemme nähneet, Stonewall x2 -transaktioon osallistuu kolmas osapuoli (Charles), joka on ulkopuolinen maksulle, ja joka tarjoaa bitcoinejaan lisätäkseen transaktion luottamuksellisuutta. Klassisessa Stonewall-transaktiossa yhteistyökumppanin roolin ottaa lähettäjä.
 
-![BTC204](assets/en/177.webp)
+![BTC204](assets/notext/62/09.webp)
 
 Ulkopuolisen näkökulmasta transaktion kaava on siis täsmälleen sama.
-![BTC204](assets/en/178.webp)
+![BTC204](assets/notext/62/10.webp)
 Se, että nämä kaksi siirtorakennetta jakavat täsmälleen saman kaavan, tarkoittaa, että vaikka ulkopuolinen tarkkailija onnistuisi tunnistamaan "Stonewall(x2)" kaavan, heillä ei ole kaikkea tietoa. He eivät pysty määrittämään, kumpi kahdesta samansuuruisesta UTXO:sta vastaa maksua. Lisäksi he eivät kykene määrittämään, tulevatko kaksi UTXO:a syötteissä kahdelta eri henkilöltä (Stonewall x2) vai kuuluvatko ne yhdelle henkilölle, joka on yhdistänyt ne (Stonewall).
 Tämä viimeinen kohta johtuu siitä, että Stonewall x2 -siirrot noudattavat täsmälleen samaa kaavaa kuin Stonewall-siirrot. Ulkopuolelta ja ilman lisätietoja kontekstista on mahdotonta erottaa Stonewall-siirtoa Stonewall x2 -siirrosta. Kuitenkaan edelliset eivät ole yhteistyöllisiä siirtoja, kun taas jälkimmäiset ovat. Tämä lisää entisestään epävarmuutta yhden näistä siirroista analysoinnissa.
 
@@ -2309,7 +2328,7 @@ Logiikan tulisi olla seuraava, kun halutaan käyttää yksityisyyden suojan työ
 
 Stonewall ja Stonewall x2 -siirrot ovat saatavilla sekä Samourai Wallet -sovelluksessa että Sparrow Wallet -ohjelmistossa.
 
-![BTC204](assets/en/179.webp)
+![BTC204](assets/notext/62/11.webp)
 
 Kuitenkin, kuten payjoinsien kanssa, Samourain perustajien pidätyksen jälkeen Stonewall x2 -siirrot toimivat nyt vain manuaalisesti vaihtamalla PSBT:t osapuolten välillä. Automaattinen vaihto Sorobanin kautta ei valitettavasti ole tällä hetkellä saatavilla.
 
@@ -2317,9 +2336,9 @@ On myös mahdollista suorittaa tämäntyyppinen siirto manuaalisesti mistä taha
 
 Seuraavassa luvussa tutkimme toista yksityisyyden suojan tekniikkaa, joka on suhteellisen tuntematon, mutta erittäin hyödyllinen lisänä siihen, mitä olemme jo tutkineet.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -2328,11 +2347,11 @@ https://planb.network/tutorials/privacy/stonewall-x2
 Bitcoin-siirtorakenteiden, kuten coinjoinin, käyttö, jotka lisäävät epäselvyyttä ketjuanalyysissä, on erityisen hyödyllistä yksityisyyden suojan kannalta. Kuitenkin, kuten keskustelimme payjoins-luvussa, coinjoin-siirrot ovat luonnostaan tunnistettavissa ketjussa. Muistakaa vertaus, jonka teimme salauksen ja coinjoinien välillä: kun joku salaa tiedoston, kolmas osapuoli, joka löytää tämän salatun tiedoston, ei pääse käsiksi sen sisältöön, mutta voi selvästi tunnistaa, että tiedostoa on muutettu piilottamaan sen sisältö. Sama pätee coinjoiniin: kun analyytikko tutkii coinjoin-siirtoa, vaikka he eivät voi luoda suoria linkkejä syötteiden ja tuottojen välille (ja päinvastoin), he voivat kuitenkin tunnistaa, että havaittu siirto on coinjoin.
 Riippuen siitä, mihin tarkoitukseen aiot käyttää kolikkoasi coinjoin-kierrosten jälkeen, voi olla ongelmallista, että kolikko on käynyt läpi tämän prosessin. Esimerkiksi, jos aiot myydä kolikkosi säännellyllä vaihtoalustalla, mutta se on äskettäin käynyt läpi coinjoin-prosessin, alustan ketjuanalyysityökalu havaitsee tämän seikan. Alusta saattaa sen jälkeen kieltäytyä hyväksymästä UTXO:tasi, joka on käynyt läpi coinjoinin, tai jopa vaatia sinulta selityksiä, riskinä tilisi jäädyttäminen tai varojesi lukitseminen. Joissakin tapauksissa alusta saattaa myös ilmoittaa käyttäytymisestäsi valtion viranomaisille (esimerkiksi Ranskassa TRACFIN vaatii tätä Digitaalisen Omaisuuden Palveluntarjoajilta (PSAN)).
 
-![BTC204](assets/en/180.webp)
+![BTC204](assets/notext/63/01.webp)
 
 Välttääksemme tämän tarvitsisimme työkalun, joka pystyy häivyttämään Bitcoin-kolikon menneisyyden jäljet, palauttaakseen tietynlaisen vaihdettavuuden. Tämä on juuri ricochetin tavoite.
 
-![BTC204](assets/en/181.webp)
+![BTC204](assets/notext/63/02.webp)
 
 ### Mikä on ricochet?
 
@@ -2348,7 +2367,7 @@ Tämän siirtojen sarjan jälkeen ricochet-työkalu lopulta ohjaa bitcoinit niid
 
 Tavoitteena on luoda etäisyyttä, joka vaikuttaa kolikon vaihdettavuuteen, kuten coinjoin-siirto, ja lopullinen käyttö, joka saattaisi hylätä tämän kolikon sen menneisyyden vuoksi. Näin ollen ketjuanalyysityökalut saattaisivat päätellä, että omistajuudessa on todennäköisesti tapahtunut muutos tapahtuman jälkeen, ja pitää tätä kolikkoa vaihdettavana. Coinjoin-tapauksessa ketjuanalyysityökalut saattaisivat sitten olettaa, että se ei ole sama henkilö, joka lähetti bitcoinit ja suoritti coinjoinin, ja siksi ei ole tarpeen aloittaa toimenpiteitä lähettäjää vastaan.
 
-![BTC204](assets/en/184.webp)
+![BTC204](assets/notext/63/05.webp)
 
 ### Miksi tämä toimii?
 
@@ -2369,24 +2388,24 @@ Yleisin käyttötapaus ricochetille ilmenee, kun on tarpeen peittää aiempi osa
 Tämä menetelmä on tehokas ei ainoastaan coinjoineille vaan myös mille tahansa muulle merkille, joka voisi vaarantaa kolikon vaihdettavuuden.
 Ricochet-menetelmän idea tulee alun perin Samourai Wallet -tiimeiltä, jotka integroivat sen sovellukseensa prosessin automatisoimiseksi. Palvelu on maksullinen Samouraissa, sillä ricochetin käyttöön liittyy palvelumaksu 100 000 satsia, lisäksi louhintamaksut. Sen käyttöä suositellaan siis merkittävien määrien siirtoihin.
 
-![BTC204](assets/en/186.webp)
+![BTC204](assets/notext/63/07.webp)
 
 Samourai-sovellus tarjoaa kaksi ricochet-vaihtoehtoa:
 
 - Parannettu ricochet eli "viivästetty toimitus", jolla on etuna Samourai-palvelumaksujen jakaminen viiden peräkkäisen siirron yli. Tämä vaihtoehto varmistaa myös, että jokainen siirto lähetetään eri aikaan ja kirjataan eri lohkoon, mikä mahdollistaa omistajuuden muutoksen käyttäytymisen matkimisen mahdollisimman tarkasti. Vaikka hitaampi, tämä menetelmä on suositeltava niille, jotka eivät ole kiireessä, sillä se maksimoi ricochetin tehokkuuden vahvistamalla sen vastustuskykyä ketjuanalyysiin;
 
-![BTC204](assets/en/187.webp)
+![BTC204](assets/notext/63/08.webp)
 
 - Klassinen ricochet, joka on suunniteltu suorittamaan toimenpide nopeasti lähettämällä kaikki siirrot lyhyen ajan kuluessa. Tämä menetelmä tarjoaa siis vähemmän yksityisyyttä ja alhaisemman vastustuskyvyn analyysiin verrattuna parannettuun menetelmään. Sitä tulisi käyttää vain kiireellisissä lähetyksissä.
 
-![BTC204](assets/en/188.webp)
+![BTC204](assets/notext/63/09.webp)
 
 Ricochet tarkoittaa yksinkertaisesti bitcoinien lähettämistä itselleen. On täysin mahdollista suorittaa ricochet manuaalisesti millä tahansa lompakko-ohjelmistolla, käyttämättä erikoistyökalua. Siirrä vain sama kolikko itsellesi peräkkäin, käyttäen joka kerta uutta tyhjää osoitetta.
 
 Seuraavassa luvussa tutkimme erilaisia tekniikoita salaisiin omaisuuden siirtoihin. Nämä menetelmät eroavat radikaalisti tähän asti tarkastelluista sekä toiminnan että tulosten osalta.
 
-https://planb.network/tutorials/privacy/ricochet
- 
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Salaiset Omaisuuden Siirrot
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -2396,17 +2415,17 @@ Bitcoinin yksityisyyteen liittyvien tekniikoiden joukossa on myös salainen omai
 ### CoinSwap
 
 CoinSwap perustuu suhteellisen yksinkertaiseen konseptiin: se käyttää älykkäitä sopimuksia bitcoin-omistuksen siirtämiseen kahden käyttäjän välillä ilman luottamuksen tarvetta ja ilman, että tämä siirto näkyy eksplisiittisesti lohkoketjussa.
-![BTC204](assets/en/189.webp)
+![BTC204](assets/notext/64/01.webp)
 Kuvitellaan yksinkertaistettu esimerkki Alicen ja Bobin kanssa. Alicella on 1 BTC, joka on suojattu yksityisellä avaimella $A$, ja Bobilla on myös 1, suojattu yksityisellä avaimella $B$. Teoriassa he voisivat vaihtaa yksityisiä avaimiaan ulkoisen viestintäkanavan kautta suorittaakseen salaisen siirron.
-![BTC204](assets/en/190.webp)
+![BTC204](assets/notext/64/02.webp)
 
 Tämä naiivi menetelmä kuitenkin esittää suuren riskin luottamuksen suhteen. Mikään ei estä Alicea säilyttämästä yksityisen avaimen $A$ kopiota vaihdon jälkeen ja käyttämästä sitä myöhemmin varastaakseen bitcoinit, kun avain on Bobin hallussa.
 
-![BTC204](assets/en/191.webp)
+![BTC204](assets/notext/64/03.webp)
 
 Lisäksi ei ole takeita, jotka estäisivät Alicen vastaanottamasta Bobin yksityistä avainta $B$ ja jättämästä lähettämättä omaa yksityistä avaintaan $A$ vastineeksi. Tämä vaihto perustuu siis liialliseen luottamukseen osapuolten välillä ja osoittautuu tehottomaksi turvallisen omistajuuden salaisen siirron varmistamisessa.
 
-![BTC204](assets/en/192.webp)
+![BTC204](assets/notext/64/04.webp)
 
 Näiden ongelmien ratkaisemiseksi ja vaihtojen mahdollistamiseksi osapuolten välillä, jotka eivät luota toisiinsa, voimme sen sijaan käyttää älykkäitä sopimusjärjestelmiä. Älykäs sopimus on ohjelma, joka suoritetaan automaattisesti, kun ennalta määritellyt ehdot täyttyvät, mikä meidän tapauksessamme varmistaa, että omistajuuden vaihto tapahtuu automaattisesti ilman keskinäistä luottamusta.
 
@@ -2458,11 +2477,11 @@ On huomionarvoista, että kolikoidenvaihdot ehdotettiin ensimmäisen kerran [Gre
 
 Samankaltaisesti kolikoidenvaihdon kanssa ja käyttäen samoja älykkäitä sopimuksia, on myös mahdollista suorittaa atomivaihtoja. Atomivaihto mahdollistaa eri kryptovaluuttojen, kuten BTC:n ja XMR:n, suoran vaihdon kahden käyttäjän välillä ilman luottamuksen tarvetta tai välittäjän puuttumista. Näitä vaihtoja kutsutaan "atomisiksi", koska niillä on vain kaksi mahdollista lopputulosta: joko vaihto onnistuu ja molemmat osapuolet ovat tyytyväisiä, tai se epäonnistuu ja kumpikin säilyttää alkuperäiset kryptovaluuttansa, mikä eliminoi tarpeen luottaa toiseen osapuoleen.
 
-![BTC204](assets/en/193.webp)
+![BTC204](assets/notext/64/05.webp)
 
 Atomivaihto ja kolikoidenvaihto jakavat samankaltaisen toimintatavan ja tarjoavat samat edut ja haitat yksityisyyden suhteen. Todellakin, Bitcoinin näkökulmasta atomivaihto on verrattavissa kahteen vaiheeseen suoritettuun kolikoidenvaihtoon. Ensin vaihdamme BTC:mme toiseen kryptovaluuttaan, ja sitten tämä kryptovaluutta voidaan vaihtaa muihin BTC:ihin. Lopulta saamme toisen käyttäjän BTC:t. Tämän vuoksi yksityisyysongelmien analyysissä ryhmittelen nämä kaksi protokollaa omistajuuden salaisen vaihdon kategoriaan.
 
-![BTC204](assets/en/194.webp)
+![BTC204](assets/notext/64/06.webp)
 
 Toisin kuin kolikoidenvaihdossa, atomivaihdossa voi kuitenkin olla epätasapainoa saatavilla olevan likviditeetin suhteen, erityisesti BTC/XMR-vaihdoissa. Yleensä bitcoineja on helpompi vaihtaa altcoineiksi, koska bitcoineille on suuri kysyntä, mikä pitää tämän suunnan muuntokurssit matalina. Kuitenkin altcoinien vaihtaminen BTC:ksi voi olla monimutkaisempaa alhaisemman kysynnän vuoksi, mikä usein johtaa erittäin korkeisiin preemioihin.
 
@@ -2482,7 +2501,7 @@ Ja tietenkin, yksityisyyden suojaamisen menetelmät kuten kolikkovaihto tai atom
 
 Kolikkoyhdistämisen (coinjoin) avulla, vaikka kolikkosi sekoitetaan valvottuihin bitcoineihin, kolikon historia katkeaa, mikä tarjoaa tietynlaisen uskottavan kiistämisen mahdollisuuden, joka ei ole olemassa salaisissa omaisuudensiirron protokollissa kuten kolikkovaihdossa tai atomivaihdossa.
 
-![BTC204](assets/en/197.webp)
+![BTC204](assets/notext/64/09.webp)
 Jos Alice haluaa välttää kaikki riskit, hänen on välttämättä käytettävä menetelmää katkaistakseen kolikon $B$ historian, kuten suorittamalla sen läpi kolikkoyhdistämisiä (coinjoins), esimerkiksi. Tämä herättää kysymyksen salaisen omistusoikeuden siirron ja kolikkoyhdistämisen yhdistämisen hyödyllisyydestä. Kolikkoyhdistäminen, katkaistessaan kolikon historian, tarjoaa jo riittävän yksityisyyden tason Alicelle. Näin ollen, mielipiteeni on, että jos Alice haluaa suojata yksityisyyttään, olisi järkevämpää suorittaa suoraan kolikkoyhdistäminen sen sijaan, että hän osallistuisi kolikkovaihtoon seurattuna kolikkoyhdistämisestä.
 Jotta salaisen omistusoikeuden siirron menetelmät olisivat todella tehokkaita ja välttäisivät riskin käyttäjän $A$ historian yhdistämisestä käyttäjään $B$, olisi paradoksaalisesti tarpeen, että niiden käyttö olisi laajalti tunnettua. Jos kolikkovaihtoa käytetään massiivisesti ja viranomaiset ovat tietoisia tästä yleisestä käytännöstä, silloin voitaisiin luoda uskottava kiistämisen mahdollisuus. Kuitenkin, niin kauan kuin näiden siirtojen käyttö pysyy marginaalisena, uskon näiden menetelmien pysyvän liian riskialttiina käyttäjille.
 
@@ -2504,31 +2523,31 @@ Tämä yhteys Bitcoinin toiminnan ja IP-osoitteen välillä edustaa merkittävä
 
 Bitcoinin standarditoiminnassa käyttäjän lompakko-ohjelmistossa luodut transaktiot lähetetään heidän henkilökohtaiseen solmuunsa. Tämä solmu lähettää välittömästi uuden transaktion kaikille siihen yhdistetyille vertaisille.
 
-![BTC204](assets/en/198.webp)
+![BTC204](assets/notext/65/01.webp)
 
 Nämä vertaiset sitten tarkistavat transaktion varmistaakseen, että se noudattaa konsensus- ja paikallisia standardointisääntöjä. Kun se on validoitunut, jokainen vertainen vuorollaan lähettää transaktion omille vertaisilleen, ja niin edelleen.
 
-![BTC204](assets/en/199.webp)
+![BTC204](assets/notext/65/02.webp)
 
 Transaktioiden jakelu, jotka odottavat integrointia lohkoon, tapahtuu melko tasapainoisesti ja tilastollisesti ennustettavalla tavalla. Tätä haavoittuvuutta voidaan hyödyntää yhteistyötä tekevien vakoilusolmujen toimesta, jotka yhteistyössä valvovat ja analysoivat verkkoa, jotta ne voivat tunnistaa ensimmäisen transaktion lähettäneen solmun. Jos tarkkailija onnistuu paikantamaan lähtösolmun, hän voi olettaa, että transaktio on peräisin kyseisen solmun operaattorilta. Tämän tyyppinen havainto voi yhdistää normaalisti anonyymit transaktiot tiettyihin IP-osoitteisiin.
 
-![BTC204](assets/en/200.webp)
+![BTC204](assets/notext/65/03.webp)
 
 BIP156:n tavoitteena on ratkaista tämä ongelma. Tätä varten se esittelee lisävaiheen uuden transaktion lähettämisessä säilyttääkseen anonymiteetin ennen laajaa julkista leviämistä. Dandelion käyttää ensin "varsi"-vaihetta, jossa transaktio lähetetään satunnaisen solmupolun kautta.
 
-![BTC204](assets/en/201.webp)
+![BTC204](assets/notext/65/04.webp)
 
 Tämän jälkeen transaktio lähetetään koko verkkoon "pörrö"-vaiheessa.
 
-![BTC204](assets/en/202.webp)
+![BTC204](assets/notext/65/05.webp)
 
 Varsi ja pörrö viittaavat transaktion leviämisen käyttäytymiseen verkossa, muistuttaen voikukan muotoa.
 
 Näin ollen vakoilusolmut voivat mahdollisesti jäljittää transaktion takaisin solmuun, joka aloitti pörrövaiheen (massalähetyksen), mutta tämä solmu ei ole se, joka ensimmäisenä lähetti transaktion, sillä se sai sen viimeiseltä varsisolmulta. Jos vakoilusolmut eivät voi jäljittää takaisin varren läpi, ne eivät myöskään voi tunnistaa lähtösolmua.
 
-![BTC204](assets/en/203.webp)
+![BTC204](assets/notext/65/06.webp)
 Vaikka vakoilusolmuja olisikin varsi-vaiheessa, epävarmuus säilyy aina, sillä heti kun ne kohtaavat rehellisen solmun leviämisverkostossa, vakoilijat eivät voi määrittää, onko tämä solmu alkuperäinen lähde vai vain välittäjä.
-![BTC204](assets/en/204.webp)
+![BTC204](assets/notext/65/07.webp)
 Tämä reititysmenetelmä hämärtää polkua, joka johtaa lähtösolmuun, tehden transaktion jäljittämisen verkossa takaisin sen alkuperään vaikeaksi. Dandelion parantaa näin yksityisyyttä rajoittamalla vastustajien kykyä poistaa verkosta anonymiteetti. Tämä menetelmä on vielä tehokkaampi, kun transaktio kulkee "varren" vaiheessa solmun kautta, joka salaa verkkoliikenteensä, kuten Torin tai P2P Transport V2:n kanssa.
 
 BIP156 ei ole integroitu Bitcoin Coreen ja on tällä hetkellä luokiteltu tilaan "hylätty". Yksi päähuolista tässä protokollassa on se, että varren vaiheessa transaktiot on välitettävä välisolmujen kautta ennen niiden vahvistamista. Kuten olemme nähneet, Bitcoinin normaalissa mallissa jokainen solmu vahvistaa ensin transaktion ennen sen lähettämistä vertaisilleen. Jos transaktio ei noudata konsensus sääntöjä tai solmun paikallisia standardointisääntöjä, se jättää huomiotta eikä lähetä sitä. Tämä prosessi on tärkeä DoS-hyökkäysten torjumiseksi, sillä vain kelvolliset transaktiot lähetetään koko verkkoon. Kelvottomat transaktiot, jotka on mahdollisesti tuotettu massoittain verkon kuormittamiseksi, pysäytetään ensimmäisessä kohdatussa solmussa eivätkä leviä. Dandelionin pääriski on, että tämä uusi protokolla voisi tuoda uusia vektoreita DoS-hyökkäyksille sallimalla kelvottomien transaktioiden lähettämisen osan verkon kautta.
@@ -2545,7 +2564,7 @@ P2P V2 -siirto sisällytettiin vaihtoehtona (oletuksena pois käytöstä) Bitcoi
 Toisen suhteellisen yksinkertaisen ratkaisun, jolla voidaan välttää solmun luottamuksellisuuden menetysriski verkostotasolla, on ajaa se kokonaan Tor-verkon alla.
 Tor on reitityspalvelimien (solmujen) verkosto, joka anonymisoi TCP-yhteyksien alkuperän internetissä. Se toimii kapseloimalla tiedot useisiin salauskerroksiin. Jokainen reitityssolmu poistaa kerroksen paljastaakseen seuraavan solmun osoitteen, kunnes saavuttaa lopullisen määränpään. Tor-verkko varmistaa anonymiteetin estämällä välisolmuja tietämästä sekä datan alkuperän että määränpään, mikä tekee käyttäjän toiminnan jäljittämisen erittäin vaikeaksi.
 
-![BTC204](assets/en/205.webp)
+![BTC204](assets/notext/65/08.webp)
 Tor ei siis ainoastaan salaa kommunikoitua dataa, vaan myös mahdollistaa kommunikaation alkuperän ja määränpään peittämisen. Käyttämällä Toria henkilökohtaisen solmun kommunikointiin, me parannamme transaktioidemme yksityisyyttä: Internet-palveluntarjoaja (ISP) ei voi purkaa kommunikaatiota, ja muut solmut Bitcoin-verkossa eivät voi tunnistaa lähtösolmun IP-osoitetta. Lisäksi Tor myös piilottaa Bitcoinin käyttösi ISP:ltäsi.
 
 Tähän menetelmään liittyvä pääasiallinen riski on, että Tor on protokolla, joka on riippumaton Bitcoinista. Jos sinulla on Bitcoin-solmu Torin alla ja Tor lakkaa toimimasta, Bitcoin-solmusi ei enää pysty kommunikoimaan.
@@ -2560,16 +2579,16 @@ Tutkittuani erilaisia verkostotason yksityisyysmenetelmiä, haluan myös esitell
 
 Kuten osassa 3 näimme, osoitteen uudelleenkäyttö muodostaa vakavan esteen käyttäjän yksityisyydelle Bitcoin-protokollassa. Näiden riskien lieventämiseksi on vahvasti suositeltavaa luoda uusi vastaanotto-osoite jokaiselle uudelle maksulle lompakossa. Vaikka uuden osoitteen luominen on nykyään yksinkertaistettu modernin ohjelmiston ja hierarkkisesti determinististen lompakoiden avulla, tämä käytäntö voi tuntua vasten intuitiiviselta.
 
-![BTC204](assets/en/206.webp)
+![BTC204](assets/notext/66/1.webp)
 
 Esimerkiksi perinteisessä pankkijärjestelmässä olemme tottuneet jakamaan IBAN-numeromme, joka pysyy aina samana. Kerran kommunikoituamme sen jollekulle, he voivat lähettää meille useita maksuja ilman, että heidän tarvitsee olla yhteydessä meihin uudelleen. Neo-pankit tarjoavat myös modernimpia mahdollisuuksia, kuten ainutlaatuisten sähköpostiosoitteiden käyttö PayPalissa tai RevTageissa Revolutissa. Jopa talousalan ulkopuolella päivittäiset tunnisteemme, kuten postiosoitteemme, puhelinnumeromme ja sähköpostiosoitteemme, ovat myös ainutlaatuisia ja pysyviä. Meidän ei tarvitse uusia niitä jokaisen uuden vuorovaikutuksen yhteydessä.
 
-![BTC204](assets/en/207.webp)
+![BTC204](assets/notext/66/2.webp)
 Bitcoinin toiminta on kuitenkin erilaista: on välttämätöntä luoda uusi vastaanotto-osoite jokaiselle saapuvalle transaktiolle. Tämä käytettävyyden ja yksityisyyden välinen kompromissi juontaa juurensa aivan Bitcoinin White Paperin alkuperästä. Julkaistessaan dokumenttinsa ensimmäisen version lopussa 2008, Satoshi Nakamoto varoitti meitä jo tästä riskistä:
 **"_Lisäsuojana voitaisiin jokaiseen transaktioon käyttää uutta avainparia, jotta ne eivät liittyisi yhteiseen omistajaan._"**
 On olemassa lukuisia menetelmiä vastaanottaa useita maksuja yhteen tunnisteeseen ilman osoitteen uudelleenkäyttöä. Jokaisella menetelmällä on omat kompromissinsa ja haittapuolensa. Näiden menetelmien joukossa on BIP47, ehdotus, jonka kehitti Justus Ranvier ja julkaisi vuonna 2015. Tämän ehdotuksen tavoitteena on luoda uudelleenkäytettäviä maksukoodit, jotka mahdollistavat useita transaktioita samalle henkilölle välttäen osoitteen uudelleenkäyttöä. Yksinkertaisesti sanottuna, BIP47 pyrkii tarjoamaan maksujärjestelmän, joka on yhtä intuitiivinen kuin uniikki tunniste, samalla säilyttäen transaktioiden yksityisyyden.
 
-![BTC204](assets/en/208.webp)
+![BTC204](assets/notext/66/3.webp)
 
 BIP47 ei suoraan paranna käyttäjän yksityisyyttä, sillä BIP47-maksu tarjoaa saman yksityisyyden tason kuin klassinen Bitcoin-transaktio käyttäen uusia osoitteita. Kuitenkin, se tekee Bitcoinin käytöstä mukavampaa ja intuitiivisempaa, mikä normaalisti saattaisi vaarantaa yksityisyyden. Kiitos BIP47:n, tämä käytön helppous saavuttaa saman yksityisyyden tason kuin klassinen transaktio. Tämän vuoksi BIP47 on arvokas työkalu yksityisyyden säilyttämiseen.
 
@@ -2614,10 +2633,19 @@ PayNym Botit, jotka joskus nähdään Twitterissä, ovat maksukoodin visuaalisia
 
 Nämä avatarit voidaan myös esittää kuvien muodossa:
 
-![BTC204](assets/en/211.webp)
+![BTC204](assets/notext/66/6.webp)
 
 Vaikka näillä roboteilla ei ole erityistä teknistä toiminnallisuutta BIP47:n puitteissa, ne toimivat roolissa helpottamassa käyttäjien välisiä vuorovaikutuksia tarjoamalla helposti tunnistettavan visuaalisen identiteetin.
-Tässä luvussa, joka on omistettu BIP47:lle, tarkastelemme yksityiskohtaisesti sen toimintaa, erityisesti keskittyen käytettyihin kryptografisiin menetelmiin. Jotta voit täysin ymmärtää nämä hieman tekniset selitykset, on olennaista ensin ymmärtää HD-lompakoiden rakenne, avainjohdannaisprosessit ja elliptiseen käyrään perustuvan kryptografian perusperiaatteet. Jos haluat syventää näitä käsitteitä, toinen ilmainen kurssi on saatavilla PlanB Networkissa: [CRYPTO 301](https://planb.network/en/courses/crypto301). Suosittelen silti niiden seuraamista, sillä BIP47:n teknisen toiminnan ymmärtäminen helpottaa huomattavasti muiden samankaltaisten ehdotusten ymmärtämistä, joita käsittelemme seuraavissa luvuissa.
+
+---
+*Seuraavissa tämän BIP47:lle omistetun luvun osioissa tarkastelemme yksityiskohtaisesti sen toimintaa, keskittyen erityisesti käytettyihin kryptografisiin menetelmiin. Jotta näitä teknisiä selityksiä voidaan täysin ymmärtää, on tärkeää ensin perehtyä HD-lompakoiden rakenteeseen, avainten johdantaprosesseihin ja elliptisiin käyriin perustuvan kryptografian periaatteisiin. Jos haluat syventää näitä käsitteitä, Plan ₿ Network tarjoaa ilmaisen koulutuksen:*
+
+https://planb.network/courses/cyp201
+
+*Suosittelen sen suorittamista, sillä BIP47:n teknisen toiminnan ymmärtäminen helpottaa huomattavasti muiden samankaltaisten ehdotusten ymmärtämistä, joista keskustelemme seuraavissa luvuissa.*
+
+---
+
 
 ### Uudelleenkäytettävä Maksukoodi
 
@@ -2667,7 +2695,7 @@ m/47'/0'/0'/
 ```
 
 Tiivistetyn julkisen avaimen ja siihen liittyvän ketjukoodin tuottamiseksi uudelleenkäytettävälle maksukoodille aloitamme laskemalla pääyksityisavaimen lompakon siemenestä. Tämän jälkeen jatkamme lapsiavainparien johdannaisella käyttäen indeksiä `47 + 2^31` (kovennettu johdannainen). Tätä vaihetta seuraa kaksi peräkkäistä lapsiavainparien johdannaista, kumpikin käyttäen indeksiä `2^31` (kovennettu johdannainen).
-![BTC204](assets/en/214.webp)
+![BTC204](assets/notext/66/9.webp)
 
 ### Elliptisen käyrän Diffie-Hellman (ECDH) avainvaihto
 
@@ -2678,7 +2706,7 @@ Esitelty vuonna 1976, Diffie-Hellman on avainsopimusprotokolla, joka mahdollista
 
 Tämä yhteinen salaisuus (tässä, sininen avain) voidaan sitten käyttää muihin toimintoihin. Tyypillisesti tätä jaettua salaisuutta voidaan käyttää viestinnän salaamiseen ja purkamiseen turvattomassa verkossa:
 
-![BTC204](assets/en/216.webp)
+![BTC204](assets/notext/66/11.webp)
 
 Tämän vaihdon saavuttamiseksi Diffie-Hellman käyttää modulaarista aritmetiikkaa jaetun salaisuuden laskemiseen. Tässä on yksinkertaistettu selitys siitä, miten se toimii:
 
@@ -2779,7 +2807,7 @@ $$
 
 Kiitos modulo-operaattorin distributiivisuuden, Alice ja Bob saavat täsmälleen saman arvon $z$. Tämä luku edustaa heidän yhteistä salaisuuttaan, joka vastaa **ruskea väri** aiemmassa yksinkertaistuksessa maalipurkkien kanssa. He voivat nyt käyttää tätä yhteistä salaisuutta salatakseen viestintänsä symmetrisesti suojaamattoman verkon yli.
 
-![BTC204](assets/en/218.webp)
+![BTC204](assets/notext/66/13.webp)
 
 Hyökkääjä, vaikka hänellä olisikin $p$, $g$, $A$, ja $B$ (julkiset arvot), ei pystyisi laskemaan $a$:a, $b$:tä tai $z$:tä (yksityiset arvot). Tämän saavuttamiseksi pitäisi kääntää eksponentiaatio, operaatio, joka on mahdoton ilman kaikkien mahdollisuuksien kokeilemista yksi kerrallaan, koska se tarkoittaa diskreetin logaritmin laskemista, eli eksponentiaalifunktion käänteisarvon laskemista äärellisessä syklisessä ryhmässä.
 
@@ -2840,7 +2868,7 @@ TLS on erityisesti vastuussa `https`-protokollan `s`:stä sekä selaimen osoiter
 
 Kuten edellisessä osiossa näimme, ECDH on Diffie-Hellmanin vaihdon variantti, joka käyttää elliptiselle käyrälle perustettuja avainpareja. Kätevästi meillä on jo monia tähän standardiin noudattavia avainpareja Bitcoin-lompakoissamme! BIP47:n idea on käyttää molempien osapuolten Bitcoinin deterministisista hierarkkisista lompakoista peräisin olevia avainpareja jaettujen ja kertakäyttöisten salaisuuksien luomiseen niiden välille. BIP47:n kontekstissa käytetään sen sijaan ECDHE:tä (_Elliptic Curve Diffie-Hellman Ephemeral_).
 
-![BTC204](assets/en/219.webp)
+![BTC204](assets/notext/66/14.webp)
 
 ECDHE:tä käytetään ensimmäistä kertaa BIP47:ssä maksukoodin lähettämiseen lähettäjältä vastaanottajalle. Tämä on kuuluisa **ilmoitustransaktio**. Tämä vaihe on olennainen, sillä jotta BIP47 toimisi tehokkaasti, molempien osapuolten (lähettäjän ja vastaanottajan) on tiedettävä toistensa maksukoodi. Tämä tieto mahdollistaa kertakäyttöisten julkisten avainten johdannan ja siten niihin liittyvien tyhjien vastaanotto-osoitteiden. Ennen tätä vaihtoa lähettäjä on loogisesti jo tietoinen vastaanottajan maksukoodista, koska hän on hankkinut sen off-chain, esimerkiksi heidän verkkosivustoltaan, laskusta tai sosiaalisesta mediasta. Vastaanottaja ei kuitenkaan välttämättä tiedä lähettäjän maksukoodia. Tämä koodi on kuitenkin lähetettävä heille; muuten he eivät pysty johdattamaan tarvittavia kertakäyttöisiä avaimia tunnistamaan osoitteita, joissa heidän bitcoininsa säilytetään, eivätkä pääse käsiksi varoihinsa. Vaikka lähettäjän koodin siirto voidaan teknisesti suorittaa off-chain muiden viestintäkeinojen kautta, tämä aiheuttaa ongelman, jos lompakko täytyy palauttaa pelkästään siemenestä.
 Tosiaan, toisin kuin perinteiset osoitteet, BIP47-osoitteet eivät johda suoraan vastaanottajan siemenestä – `xpub`in käyttö olisi tässä tapauksessa yksinkertaisempaa – vaan ne ovat laskelman tulos, joka yhdistää molempien maksukoodit: lähettäjän ja vastaanottajan. Näin ollen, jos vastaanottaja menettää lompakkonsa ja yrittää palauttaa sen siemenestään, hän palauttaa oman maksukoodinsa, joka on suoraan johdettu hänen siemenestään. Kuitenkin, löytääkseen ohimenevät osoitteet, on välttämätöntä, että hänellä on myös kaikkien niiden maksukoodit, jotka ovat lähettäneet hänelle bitcoineja BIP47:n kautta. Tästä syystä ilmoitustransaktion merkitys on tärkeä, sillä se mahdollistaa tämän tiedon tallentamisen Bitcoin-lohkoketjuun, samalla kun sen löytäminen on erittäin helppoa ilman, että tarvitsee etsiä läpi miljardia transaktiota, jotka on suoritettu sen käynnistämisen jälkeen vuonna 2009.
@@ -2935,7 +2963,7 @@ Kerrataanpa juuri käydyt vaiheet ilmoitustransaktion suorittamiseksi:
 
 Ymmärtääksemme sen toimintaa yksityiskohtaisemmin, erityisesti `OP_RETURN` käyttöä, tutkikaamme yhdessä todellista ilmoitustransaktiota. Suoritin tällaisen transaktion testnetissä, jonka voit löytää [klikkaamalla tästä](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
-![BTC204](assets/en/223.webp)
+![BTC204](assets/notext/66/18.webp)
 
 Tarkastellessamme tätä transaktiota, voimme nähdä, että siinä on yksi sisääntulo ja 4 lähtöä:
 
@@ -3268,7 +3296,7 @@ Bob voi sitten hyvittää Alicen samalla tavalla kuin hän lähetti hänelle mak
 ![BTC204](assets/fi/66/26.webp)
 _Suuri kiitos [Fanis Michalakisille](https://x.com/FanisMichalakis) hänen arvokkaasta asiantuntija-arviostaan ja neuvostaan artikkeliin, joka inspiroi tämän luvun kirjoittamista!_
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Hiljaiset Maksut
 
@@ -3629,26 +3657,58 @@ Koska tämä ominaisuus on uusi, on suositeltavaa olla varovainen ja välttää 
 
 _Tämän Silent Payments -luvun luomiseen käytin [Silent Payments -selityssivustoa](https://silentpayments.xyz/) ja [BIP352-selitysdokumenttia](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
+# Yhteenveto
 
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## Arvioi kurssi
+## Arvioi tämä kurssi
+
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Loppukoe
-<chapterId>bb344824-953b-5a4d-9aec-d44b140d03d2</chapterId>
-<isCourseExam>true</isCourseExam>
 
+<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+<isCourseExam>true</isCourseExam>
 
 ## Yhteenveto
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Onnittelut Bitcoin-yksityisyyskoulutuksen suorittamisesta!
 
-Onnittelut Bitcoinin yksityisyyden suojan koulutuksen suorittamisesta!
+Tässä koulutuksessa käsittelimme monia edistyneitä ja teknisiä aiheita, mutta kaikkia esiteltyjä työkaluja ei ole välttämätöntä käyttää. Päätavoitteena oli antaa sinulle valta valita, mitä tietoja haluat paljastaa ja mitkä haluat pitää luottamuksellisina Bitcoinin käytössäsi. Tämä ilmentää yksityisyyden suojaamisen olemusta. Tehdäksesi tietoisia valintoja siitä, mitä tietoja jakaa tai piilottaa, sinun on oltava tietoinen toimiesi seurauksista. Toivon, että tämä koulutus on auttanut sinua hankkimaan nämä tiedot.
 
-Olemme käsitelleet monia edistyneitä ja teknisiä aiheita tässä koulutuksessa, mutta ei ole välttämätöntä käyttää kaikkia esiteltyjä työkaluja. Päämääränä oli valtuuttaa sinut valitsemaan, mitä tietoja haluat paljastaa ja mitä tietoja haluat pitää luottamuksellisina Bitcoinin käytössäsi. Tämä tiivistää yksityisyyden suojan ydinolemuksen. Tietoisten valintojen tekeminen jaettavasta tai piilotettavasta tiedosta edellyttää toimintamme seurausten ymmärtämistä. Toivon, että tämä koulutus on auttanut sinua saavuttamaan tämän tiedon.
-Jos minun pitäisi valita tämän koulutuksen tärkein osa, valitsisin ketjuanalyysille omistetun osion. Mahdollisten hyökkääjien käyttämien tekniikoiden ymmärtäminen on paras tapa suojautua. Siksi neuvoni olisi tarkastella huolellisesti tätä osaa ja pyrkiä ymmärtämään kaikki sen yksityiskohdat.
-Tässä koulutuksessa keskityimme yksinomaan Bitcoinin yksityisyyteen pääketjussa. Myös toisen kerroksen järjestelmien, kuten Lightning Networkin ja sivuketjujen, yksityisyysongelmat ovat merkittäviä ja niillä on hyvin spesifisiä ominaisuuksia. Vaikka off-chain -transaktioiden käyttö voi olla tehokas strategia välttää monia Bitcoinissa tutkimiamme jäljitettävyysriskejä, se altistaa sinut myös muille riskeille, joista on myös tärkeää olla tietoinen. Siksi nämä aiheet käsitellään tulevassa omistetussa koulutuksessa PlanB Networkissa.
+Jos minun pitäisi valita tämän koulutuksen tärkein osa, valitsisin lohkoketjuanalyysiä käsittelevän osion. Mahdollisten hyökkääjien käyttämien tekniikoiden ymmärtäminen on paras tapa suojautua niiltä. Neuvoni olisi siis käydä tämä osa huolellisesti läpi ja yrittää ymmärtää kaikki sen yksityiskohdat.
 
-Jos pidit tästä koulutuksesta, olisin erittäin kiitollinen, jos voisit jakaa sen ystäviesi kanssa ja sosiaalisessa mediassa. Kiitos! :)
+Tässä koulutuksessa keskityimme yksinomaan Bitcoinin yksityisyyteen pääketjussa. Toisen tason järjestelmien, kuten Lightning Networkin ja sivuketjujen, yksityisyyskysymykset ovat myös tärkeitä ja niillä on hyvin erityisiä ominaisuuksia. Vaikka ketjun ulkopuolisten transaktioiden käyttö voi olla tehokas strategia monien tutkimiemme Bitcoinin jäljitettävyysriskien kiertämiseksi, se altistaa sinut muille riskeille, jotka on myös tärkeä tuntea. Siksi näitä aiheita käsitellään tulevassa erillisessä Plan ₿ Network -koulutuksessa.
+
+Jos pidit tästä koulutuksesta, olisin erittäin kiitollinen, jos jakaisit sen läheistesi kanssa ja sosiaalisessa mediassa. Kiitos! :)
+
+Jatkaaksesi tietojesi syventämistä Bitcoin-maailmassa, kutsumme sinut tutustumaan muihin Plan ₿ Networkissa saatavilla oleviin kursseihin, kuten:
+
+#### Ymmärrä, miten Bitcoin-lompakko toimii
+
+https://planb.network/courses/cyp201
+
+#### Opi luomaan Bitcoin-yhteisösi
+
+https://planb.network/courses/btc302
+
+#### Tutustu Bitcoinin alkuperän historiaan
+
+https://planb.network/courses/his201
+
+#### Määritä BTC-maksupalvelin
+
+https://planb.network/courses/btc305
+
+#### Tutustu Lightning Networkiin
+
+https://planb.network/courses/lnp201
+
+#### Tutustu vapauden kehitykseen aikojen saatossa
+
+https://planb.network/courses/phi201
+
+
 

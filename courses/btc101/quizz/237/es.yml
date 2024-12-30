@@ -1,9 +1,12 @@
-question: ¿Cómo transforma potencialmente la Red Lightning los modelos de negocio existentes en la industria de los videojuegos?
-answer: Permite a los jugadores apostar cantidades muy pequeñas de dinero al jugar juegos.
+question: ¿Cómo podría la Red Lightning transformar los modelos de negocio existentes en la industria de los videojuegos?
+answer: Permite a los jugadores apostar cantidades muy pequeñas de dinero al jugar.
 wrong_answers:
   - Permite a los jugadores minar Bitcoin mientras juegan.
   - Permite a los desarrolladores de juegos aceptar Bitcoin como pago por sus juegos.
-  - Permite a los jugadores comprar objetos dentro del juego con Bitcoin.
-explanation: |
-  La Red Lightning permite a los jugadores apostar cantidades muy pequeñas de dinero al jugar juegos, como unos pocos satoshis. Esto permite establecer una apuesta que estimula la competencia al tiempo que aumenta significativamente el costo de desplegar bots.
-reviewed: false
+  - Permite a los jugadores comprar ítems dentro del juego con Bitcoin.
+explanation: >-
+  La Red Lightning permite a los jugadores apostar cantidades muy pequeñas de dinero
+  al jugar, como por ejemplo, unos pocos satoshis. Esto permite establecer
+  una apuesta que estimula la competencia mientras aumenta significativamente el costo de desplegar
+  bots.
+reviewed: true

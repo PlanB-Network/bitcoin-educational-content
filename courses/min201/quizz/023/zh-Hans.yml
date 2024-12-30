@@ -1,0 +1,9 @@
+question: 比特币的最大发行量是多少？
+answer: 大约2100万个单位
+wrong_answers:
+  - 大约或少于1800万个单位
+  - 大约2500万个单位
+  - 大约3000万个单位
+explanation:
+  比特币的创造特点是有一个固定上限，即2100万个单位。
+reviewed: true

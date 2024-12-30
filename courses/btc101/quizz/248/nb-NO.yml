@@ -1,0 +1,8 @@
+question: Hva er en av de viktigste egenskapene til Bitcoin?
+answer: Den kan byttes hvor som helst i verden uten noen autorisasjon fra noen enhet.
+wrong_answers:
+  - Den kan kun brukes av en utvalgt gruppe mennesker.
+  - Den krever autorisasjon fra en sentral myndighet for å bli brukt.
+  - Den kan kun brukes i visse land.
+explanation: >-
+  Teksten nevner at Bitcoin er pseudonymt og kan byttes hvor som helst i verden uten noen autorisasjon fra noen enhet.

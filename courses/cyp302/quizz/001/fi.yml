@@ -1,0 +1,8 @@
+question: Mitä rautalaatikossa oli, kun se annettiin Robert Morrissille?
+answer: Kolme salakirjoitettua tekstiä ja viesti
+wrong_answers:
+  - Kartta ja vihjeitä
+  - Ainutlaatuinen salausavain
+  - Yksi nimilista
+explanation: |
+  Laatikko sisälsi kolme salakirjoitettua tekstiä ja viestin, joka selitti aarteen löytymisen ja antoi ohjeita sen sisällön noutamiseksi.

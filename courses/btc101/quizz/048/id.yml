@@ -1,0 +1,10 @@
+question: Apa akibat dari hiperinflasi?
+answer: Penurunan drastis dalam nilai mata uang
+wrong_answers:
+  - Penurunan halus dalam nilai mata uang
+  - Peningkatan drastis dalam nilai mata uang
+  - Peningkatan halus dalam nilai mata uang
+explanation: |
+  Karena hiperinflasi, individu secara cepat kehilangan kepercayaan terhadap mata uang
+  yang mengarah pada penurunan drastis dalam nilai mata uang dalam waktu singkat.
+reviewed: true

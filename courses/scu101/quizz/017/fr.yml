@@ -1,9 +1,12 @@
-question: Quelle est une façon de confirmer que vous êtes sur le site que vous avez l'intention de visiter ?
+question: Quelle est une manière de confirmer que vous êtes sur le site que vous souhaitez visiter ?
 answer: Vérifiez les URL et le petit cadenas dans la barre d'adresse.
 wrong_answers:
   - Vérifiez le nombre de publicités sur le site.
   - Vérifiez la vitesse du site.
   - Vérifiez le schéma de couleurs du site.
 explanation: |
-  Vérifier les URL et le petit cadenas dans la barre d'adresse est une façon de confirmer que vous êtes sur le site que vous avez l'intention de visiter. Le cadenas indique que le site utilise le protocole HTTPS, qui chiffre les données pour un échange sécurisé.
-reviewed: false
+  Vérifier les URL et le petit cadenas dans la barre d'adresse
+  est une manière de confirmer que vous êtes sur le site que vous souhaitez
+  visiter. Le cadenas indique que le site utilise le protocole
+  HTTPS, qui chiffre les données pour un échange sécurisé.
+reviewed: true

@@ -1,9 +1,11 @@
-question: Com que frequência a recompensa pela mineração é reduzida pela metade?
-answer: A cada 210.000 blocos
+question: Com que frequência a recompensa por mineração é reduzida pela metade?
+answer: A cada 210.000 blocos.
 wrong_answers:
-  - A cada 120.000 blocos
-  - A cada 540.000 blocos
-  - A cada 2.100.000 blocos
+  - A cada 120.000 blocos.
+  - A cada 540.000 blocos.
+  - A cada 2.100.000 blocos.
 explanation: |
-  A recompensa pela mineração é programada para ser reduzida pela metade a cada 210.000 blocos, o que ocorre aproximadamente a cada quatro anos, em um evento conhecido como "halving".
-reviewed: false
+  A recompensa por mineração é programada para ser reduzida pela metade a cada 210.000
+  blocos, o que corresponde aproximadamente a cada quatro anos: um evento
+  conhecido como halving.
+reviewed: true

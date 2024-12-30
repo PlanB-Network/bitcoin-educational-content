@@ -1,0 +1,9 @@
+question: Menurut teorema Euler, apa hasil dari perpangkatan a^ϕ(N) mod N untuk dua bilangan bulat a dan N yang koprima?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Teorema Euler menyatakan bahwa untuk dua bilangan bulat a dan N yang koprima, perpangkatan a^ϕ(N) mod N selalu sama dengan 1 mod N, sebuah properti yang digunakan dalam kriptografi.
+reviewed: false

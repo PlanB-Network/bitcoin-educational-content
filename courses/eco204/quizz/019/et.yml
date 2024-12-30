@@ -1,0 +1,11 @@
+question: Mitu hüperinflatsiooni episoodi on dokumenteeritud Hanke-Krus tabelis?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Hanke-Krus tabel dokumenteerib 56 hüperinflatsiooni episoodi. Siiski,
+  see ei hõlma kõiki episoode, nagu näiteks see Venezuelas 2016. aastal, mis tõstab
+  koguarvu 57-ni.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Jaké je pořadí křivky secp256k1 používané v Bitcoinu?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: Kolik bitů entropie se používá pro 24-slovní mnemonickou frázi?
+answer: 256 bitů
 wrong_answers:
-  - 2^256
-  - 2^256 - 1
-  - 2^256 - 432420386565659656852420866394968145598
+  - 128 bitů
+  - 512 bitů
+  - 64 bitů
 explanation: |
-  Pořadí křivky secp256k1 používané v Bitcoinu je 2^256 -
-  432420386565659656852420866394968145599.
-  Jedná se o počet bodů na křivce.
+  24-slovní mnemonická fráze je založena na 256 bitech entropie, což zajišťuje velmi vysokou bezpečnost.
 reviewed: false

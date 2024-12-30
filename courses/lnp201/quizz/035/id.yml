@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari HTLCs di Lightning Network?
+answer: Untuk memungkinkan transfer pembayaran yang aman melalui node perantara tanpa memerlukan kepercayaan pada mereka
+wrong_answers:
+  - Untuk mengurangi biaya transaksi untuk setiap pembayaran melalui node perantara
+  - Untuk meningkatkan kapasitas dari setiap saluran pembayaran
+  - Untuk menetapkan koneksi langsung antara semua node jaringan dengan kepercayaan mereka
+explanation: |
+  HTLCs (Hashed Time-Locked Contracts) memastikan bahwa setiap node perantara akan mentransfer pembayaran tanpa menyimpan dana tersebut, karena hanya dapat membukanya dengan menyelesaikan transaksi hingga penerima akhir.
+reviewed: false

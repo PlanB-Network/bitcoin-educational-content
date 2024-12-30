@@ -1,0 +1,9 @@
+question: ¿Cuál es la función de la ley natural según Santo Tomás de Aquino?
+answer: Ilumina la conciencia de los hombres y les permite tomar decisiones morales justas.
+wrong_answers:
+  - Guía a los hombres hacia la salvación revelando la voluntad de Dios.
+  - Permite el conocimiento de las leyes de la naturaleza.
+  - Es una especie de instinto.
+explanation: |
+  Según Santo Tomás de Aquino, la función de la ley natural es iluminar la conciencia humana, proporcionando referencias morales universales que ayudan a los individuos a discernir y elegir lo que es bueno en sus acciones.
+reviewed: false

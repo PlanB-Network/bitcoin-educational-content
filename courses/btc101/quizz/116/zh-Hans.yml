@@ -1,0 +1,9 @@
+question: 记录的第一笔比特币交易是什么？
+answer: Satoshi和Hal Finney之间的10 BTC交易
+wrong_answers:
+  - 用10,000 BTC购买2个比萨的交易
+  - Satoshi和Hal Finney之间的1 BTC交易
+  - Laszlo Hanyecz和Hal Finney之间的10,000 BTC交易
+explanation: |
+  记录的第一笔比特币交易是Satoshi Nakamoto和Hal Finney之间的10 BTC交易。
+reviewed: true

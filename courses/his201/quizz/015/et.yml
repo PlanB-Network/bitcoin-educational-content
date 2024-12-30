@@ -1,0 +1,8 @@
+question: Mis oli Adam Backi poolt loodud Hashcash'i töötõendus algoritmi esialgne eesmärk?
+answer: Võidelda rämpsposti vastu
+wrong_answers:
+  - Tagada arvestusühiku väärtus
+  - Saavutada konsensus võrdõiguslikus võrgustikus
+  - Ookeanide keetmine
+explanation: |
+  Hashcash nõudis iga saabuva e-kirja jaoks töötõendust, mis pidi piirama rämpsposti.

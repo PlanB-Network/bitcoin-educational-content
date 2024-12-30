@@ -1,11 +1,11 @@
-question: Qual é uma maneira de facilitar o uso do Bitcoin em transações do dia a dia?
-answer: Liste todos os comerciantes que aceitam Bitcoin.
+question: Quais das seguintes ações podem ajudar aqueles que desejam usar Bitcoin no dia a dia?
+answer: Ter uma lista de todos os comerciantes que aceitam Bitcoin.
 wrong_answers:
-  - Aumentar o preço do Bitcoin
-  - Diminuir o número de Bitcoins
-  - Limitar o uso do Bitcoin
-explanation: |
-  Uma maneira de facilitar o uso do Bitcoin em transações do dia a dia é
-  listar todos os comerciantes que aceitam Bitcoin. Isso pode ser feito por meio de plataformas
+  - Aumentar o preço do Bitcoin.
+  - Diminuir o número de Bitcoins.
+  - Limitar o uso do Bitcoin.
+explanation: >-
+  Uma maneira de facilitar o uso do Bitcoin em transações cotidianas é
+  listar todos os comerciantes que aceitam Bitcoin. Isso pode ser feito através de plataformas
   como o BTCMap.
-reviewed: false
+reviewed: true

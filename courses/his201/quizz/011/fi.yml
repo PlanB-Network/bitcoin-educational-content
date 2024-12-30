@@ -1,0 +1,9 @@
+question: Mihin yksityiseen valuuttajärjestelmään Satoshi Nakamoto viittasi nimenomaisesti kirjoituksissaan?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - Liberty Dollar
+  - e-Bullion
+explanation: |
+  Tämä oli tosiaan vielä aktiivinen Bitcoinin aikoihin, toisin kuin e-gold ja Liberty Dollar. Satoshi myös [mainitsi](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunixin, digitaalisen kultavaluutan, joka luotiin vuonna 2002.
+reviewed: false

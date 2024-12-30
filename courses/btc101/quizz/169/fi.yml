@@ -1,9 +1,12 @@
-question: Miten Bitcoin-protokolla palkitsee louhijan, joka löytää seuraavaan lohkoon kelpaavan tiivisteen?
-answer: Palkinnolla, joka määritellään konsensus-säännöissä, sekä kaikkien kyseiseen lohkoon sisältyvien transaktioiden transaktiomaksuilla
+question: Miten Bitcoin-protokolla palkitsee louhijan, joka löytää kelvollisen tiivisteen seuraavalle lohkolle?
+answer: Konsensus-sääntöjen määrittelemällä palkkiolla sekä kaikkien kelvolliseen lohkoon sisältyvien transaktioiden maksuilla.
 wrong_answers:
-  - Kiinteällä määrällä Bitcoinia
-  - Prosentilla Bitcoinin kokonaismäärästä
-  - Kaikkien kyseiseen lohkoon sisältyvien transaktioiden transaktiomaksuilla
-explanation: >-
-  Bitcoin-protokolla palkitsee louhijan, joka löytää seuraavaan lohkoon kelpaavan tiivisteen, palkinnolla, jonka määrä määritellään konsensus-säännöissä, sekä kaikkien kyseiseen lohkoon sisältyvien transaktioiden transaktiomaksuilla.
-reviewed: false
+  - Kiinteällä määrällä bitcoineja, jota ei ole määritelty konsensus-säännöissä.
+  - Prosenttiosuudella koko Bitcoin-varannosta sekä kaikkien edellisiin lohkoihin sisältyvien transaktioiden maksuilla.
+  - Kaikkien kelvolliseen lohkoon sisältyvien transaktioiden maksuilla.
+explanation: |
+  Bitcoin-protokolla palkitsee louhijan, joka löytää kelvollisen
+  tiivisteen seuraavalle lohkolle palkkiolla, jonka määrä on
+  määritelty konsensus-säännöissä, yhdessä kaikkien kelvolliseen lohkoon
+  sisältyvien transaktioiden maksujen kanssa.
+reviewed: true

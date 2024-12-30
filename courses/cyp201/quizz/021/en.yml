@@ -1,10 +1,9 @@
-question: How many rounds does PBKDF2 perform using HMAC SHA512?
-answer: 2048 rounds
+question: What is the main characteristic of scalar multiplication on elliptic curves?
+answer: One-way function
 wrong_answers:
-  - 1024 rounds
-  - 512 rounds
-  - 4096 rounds
+  - Easily reversible
+  - Based on the factorization of prime numbers
+  - Very long to calculate
 explanation: |
-  PBKDF2 is used to convert a mnemonic phrase into a seed. This algorithm
-  performs 2048 rounds using HMAC SHA512.
+  Scalar multiplication on elliptic curves is a one-way function, making it impossible to retrieve the private key from the public key.
 reviewed: false

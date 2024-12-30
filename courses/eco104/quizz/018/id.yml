@@ -1,0 +1,12 @@
+question: Apa batasan signifikan yang dihadapi oleh individu selama krisis kebangkrutan pemerintah Yunani tahun 2015?
+answer: Reformasi perbankan yang berat yang diberlakukan oleh pemerintah.
+wrong_answers:
+  - Akses terbatas ke layanan perbankan digital
+  - Volatilitas mata uang digital seperti Bitcoin
+  - Kekurangan mata uang fisik (uang tunai)
+explanation: |
+  Selama krisis kebangkrutan pemerintah Yunani tahun 2015, bank-bank ditutup,
+  penarikan ATM dibatasi, dan sebagian besar deposito bank individu
+  ditarik oleh pemerintah untuk membiayai ketidakbertanggungjawaban fiskal.
+  Kejadian ini menyoroti risiko yang terkait dengan menyimpan uang dalam sistem perbankan tradisional.
+reviewed: true

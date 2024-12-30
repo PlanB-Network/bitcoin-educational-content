@@ -1,0 +1,13 @@
+question: Hva er prinsippet med Attakai i konteksten av Bitcoin-mining?
+answer: Prinsippet med Attakai refererer til den produktive bruken av varme generert fra Bitcoin-mining.
+wrong_answers:
+  - Prinsippet med Attakai refererer til bruken av fornybare energikilder for Bitcoin-mining.
+  - Prinsippet med Attakai refererer til bruken av avanserte kjølesystemer i Bitcoin-mining.
+  - Prinsippet med Attakai refererer til bruken av maskinvare med lavt energiforbruk i Bitcoin-mining.
+explanation: |
+  Prinsippet med Attakai refererer til ideen om
+  desentralisering av mining gjennom den produktive bruken av
+  generert varme. Dette konseptet antyder at energiintensive
+  etableringer kunne dra nytte av varmen produsert av
+  minere for å varme opp sine fasiliteter.
+reviewed: true

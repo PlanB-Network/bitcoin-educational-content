@@ -1,10 +1,18 @@
-question: Was ist der Hauptunterschied zwischen einer CPU und einem ASIC im Zusammenhang mit dem Bitcoin-Mining?
-answer: Eine CPU kann eine Vielzahl verschiedener Arten von Berechnungen durchführen, ohne besonders für eine bestimmte Art von Berechnung optimiert zu sein, während ein ASIC nur eine Art von Berechnung, aber sehr effizient durchführen kann.
+question: Was ist der Hauptunterschied zwischen einem CPU und einem ASIC im Kontext des Bitcoin-Minings?
+answer: Ein CPU kann eine Vielzahl verschiedener Arten von Berechnungen durchführen, ohne besonders für eine Art von Berechnung optimiert zu sein, während ein ASIC nur eine Art von Berechnung durchführen kann, dies aber sehr effizient.
+
 wrong_answers:
-  - Eine CPU ist energieeffizienter als ein ASIC.
-  - Ein ASIC ist vielseitiger als eine CPU.
-  - Eine CPU kann nur eine Art von Berechnung durchführen, während ein ASIC eine Vielzahl verschiedener Arten von Berechnungen durchführen kann.
+  - Ein CPU ist energieeffizienter als ein ASIC.
+  - Ein ASIC ist vielseitiger als ein CPU.
+  - Ein CPU kann nur eine Art von Berechnung durchführen, während ein ASIC eine Vielzahl verschiedener Arten von Berechnungen durchführen kann.
+
 explanation: |
-  ASICs sind Chips, vergleichbar mit einem CPU-Chip, jedoch werden sie entwickelt, um nur eine spezifische Art von Berechnung auf effizienteste Weise durchzuführen.
-  Mit anderen Worten kann eine CPU eine Vielzahl verschiedener Arten von Berechnungen durchführen, ohne besonders für eine bestimmte Art von Berechnung optimiert zu sein, während ein ASIC nur eine Art von Berechnung, aber sehr effizient durchführen kann.
-reviewed: false
+  ASICs sind Chips, vergleichbar mit einem CPU-Chip, jedoch
+  sind sie entwickelt, um nur eine spezifische Art von
+  Berechnung auf möglichst effiziente Weise durchzuführen. Mit anderen
+  Worten, ein CPU ist in der Lage, eine Vielzahl von
+  verschiedenen Arten von Berechnungen durchzuführen, ohne besonders für eine Art von Berechnung oder eine andere optimiert zu sein, während
+  ein ASIC in der Lage sein wird, nur eine Art von
+  Berechnung durchzuführen, dies aber sehr effizient.
+
+reviewed: true

@@ -5,5 +5,6 @@ wrong_answers:
   - 50,51%.
   - 25,98%.
 explanation: |
-  Der Monat mit der höchsten Inflation in Deutschland war der Oktober 1923, mit einem Höchstwert von 29,50%.
-reviewed: false
+  Der Monat mit der höchsten Inflationsrate in Deutschland war
+  Oktober 1923, mit einem Höchststand von 29,50%.
+reviewed: true

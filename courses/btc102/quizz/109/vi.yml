@@ -5,7 +5,7 @@ wrong_answers:
   - Một loại Bitcoin mới.
   - Một nền tảng giao dịch Bitcoin.
 explanation: |
-  Lightning Network là một giao thức thanh toán "tầng 2" hoạt động trên
+  Lightning Network là một giao thức thanh toán tầng 2 hoạt động trên
   cơ sở của một loại tiền mã hóa dựa trên blockchain (như Bitcoin). Nó được thiết kế để cho phép
   các giao dịch nhanh chóng giữa các nút tham gia.
 reviewed: false

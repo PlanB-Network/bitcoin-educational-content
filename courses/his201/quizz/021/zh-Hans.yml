@@ -1,0 +1,10 @@
+question: 中本聪开始研究比特币是在哪一年？
+answer: 2007
+wrong_answers:
+  - 2008
+  - 2009
+  - 2010
+explanation:
+  他在多次的写作中提到了这一点。（https://bitcointalk.org/index.php?topic=13.msg46#msg46）
+reviewed: true
+

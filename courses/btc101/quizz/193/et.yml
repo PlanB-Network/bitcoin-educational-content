@@ -1,0 +1,9 @@
+question: Mis on üks algatustest, mis aitab muuta Bitcoini majanduse kõigile kättesaadavamaks ja mugavamaks?
+answer: BTCMap
+wrong_answers:
+  - Bitcoin Exchange
+  - Bitcoin Mining
+  - Bitcoin Lottery
+explanation: >-
+  BTCMap on üks algatustest, mis aitab muuta Bitcoini majanduse kõigile kättesaadavamaks ja mugavamaks. See on avatud lähtekoodiga ja koostööprojekt, mis loetleb kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma.
+reviewed: false

@@ -1,9 +1,12 @@
 question: Qual é um dos benefícios de participar de conferências e workshops de cibersegurança?
-answer: Isso permite que você construa conexões com profissionais da indústria.
+answer: Permite que você construa conexões com profissionais da indústria
 wrong_answers:
-  - É um requisito para todos os empregos em cibersegurança.
-  - Garante um emprego em cibersegurança.
-  - É a única maneira de aprender sobre cibersegurança.
+  - É um requisito para todos os empregos em cibersegurança
+  - Garante um emprego em cibersegurança
+  - É a única maneira de aprender sobre cibersegurança
 explanation: |
-  O capítulo menciona que participar de conferências e workshops de cibersegurança não apenas permite que você aprenda, mas também ajuda a construir conexões com profissionais da indústria.
-reviewed: false
+  O capítulo menciona que participar de conferências e
+  workshops de cibersegurança não apenas permite que você
+  aprenda, mas também ajuda a construir conexões com
+  profissionais da indústria.
+reviewed: true

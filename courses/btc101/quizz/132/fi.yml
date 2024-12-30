@@ -3,9 +3,10 @@ answer: Se tekee käytännössä mahdottomaksi tuhota kaikkia lohkoketjun kopioi
 wrong_answers:
   - Se määrittää Bitcoinin hinnan eri alueilla.
   - Se vaikuttaa Bitcoin-siirtojen nopeuteen.
-  - Se määrittää, kuinka monta Bitcoinia voidaan louhia alueella.
-explanation: >-
-  Bitcoin-noodien maantieteellinen jakautuminen tekee käytännössä mahdottomaksi
-  tuhota kaikkia lohkoketjun kopioita. Tämä johtuu siitä, että noodit ovat hajallaan
-  ja niiden kaikkien fyysinen takavarikointi olisi vaikeaa.
-reviewed: false
+  - Se määrittää, kuinka monta bitcoinia voidaan louhia alueella.
+explanation: |
+  Bitcoin-noodien maantieteellinen jakautuminen tekee
+  käytännössä mahdottomaksi tuhota kaikkia lohkoketjun
+  kopioita. Koska noodit ovat hajallaan, niiden fyysinen
+  takavarikointi on vaikeaa.
+reviewed: true

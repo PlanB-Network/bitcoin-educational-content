@@ -5,5 +5,9 @@ wrong_answers:
   - Acquistare Bitcoin solo quando il prezzo scende.
   - Acquistare Bitcoin solo quando il prezzo sale.
 explanation: |
-  Il testo spiega che il Dollar Cost Average consiste nell'acquistare piccole quantità di Bitcoin a intervalli regolari. Questo metodo permette di livellare il prezzo nel tempo e garantisce una crescita continua della quantità di Bitcoin posseduta.
-reviewed: false
+  Il testo del corso spiega che la tecnica del Dollar Cost Average
+  implica l'acquisto di piccole quantità di Bitcoin a
+  intervalli regolari. Questo metodo livella le fluttuazioni di prezzo
+  nel tempo e garantisce una crescita continua nella
+  quantità di Bitcoin posseduti.
+reviewed: true

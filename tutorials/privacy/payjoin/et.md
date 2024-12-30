@@ -41,9 +41,9 @@ Seda tehingut blockchainis nähes tõlgendaks väline vaatleja, kes järgib tava
 ![Vale tõlgendus Payjoin tehingust väljastpoolt](assets/en/3.webp)
 See tõlgendus on ilmselgelt vale, kuna, nagu te juba teate, ei kuulu kaks sisend-UTXOt samale isikule. Lisaks ei ole tegelik makseväärtus mitte `19,000 satsi`, vaid pigem `4,000 satsi`. Välise vaatleja analüüs suunatakse seega valele järeldusele, tagades osapoolte konfidentsiaalsuse säilimise.![payjoin tehingu diagramm](assets/en/1.webp)
 Kui soovite analüüsida päris Payjoin tehingut, siis siin on üks, mille ma sooritasin testvõrgus: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)  
-[**-> Avasta meie õpetus, kuidas teha Payjoin tehingut Samourai Wallet'iga**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  
+[**-> Avasta meie õpetus, kuidas teha Payjoin tehingut Samourai Wallet'iga**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
 
-[**-> Avasta meie õpetus, kuidas teha Payjoin tehingut Sparrow Wallet'iga**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+[**-> Avasta meie õpetus, kuidas teha Payjoin tehingut Sparrow Wallet'iga**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 **Välised ressursid:**

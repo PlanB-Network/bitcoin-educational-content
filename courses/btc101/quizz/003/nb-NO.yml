@@ -1,0 +1,11 @@
+question: Hva er formålet med dette Bitcoin-kurset?
+answer: Å diskutere de monetære aspektene ved Bitcoin, hvordan bruke det, og dets fremtid.
+wrong_answers:
+  - Å diskutere hvordan man miner Bitcoin.
+  - Å diskutere hvordan man regulerer Bitcoin.
+  - Å diskutere hvordan man skaper et nytt Bitcoin-protokoll.
+explanation: |
+  Formålet med dette Bitcoin-kurset er å diskutere de monetære aspektene
+  ved Bitcoin, inkludert hvordan kjøpe og selge bitcoins, sikkert lagre dem i digitale
+  lommebøker, og bruke dem for transaksjoner. Det har også som mål å utforske Bitcoins fremtid.
+reviewed: true

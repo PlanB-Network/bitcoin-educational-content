@@ -1,11 +1,13 @@
-question: Která z těchto možností není výhodou Bitcoinu jako měny?
-answer: Používá se k placení daní
+question: Která z následujících možností není výhodou Bitcoinu jako měny?
+answer: Používá se k placení daní.
 wrong_answers:
-  - Je dělitelný
-  - Je přenosný
-  - Je to peníze bez povolení
-explanation: >-
-  Bitcoin díky svým vlastnostem, jako je dělitelnost, ověřitelnost, aspekt bez povolení a přenosnost, nabízí
-  vynikající uchování hodnoty. Navíc jako neutrální internetová měna představuje
-  dobrý prostředek směny, který nezná hranice.
+  - Je dělitelný.
+  - Je přenosný.
+  - Nevyžaduje povolení.
+explanation: |
+  Bitcoin díky svým vlastnostem, jako je dělitelnost,
+  ověřitelnost, aspekt nevyžadující povolení a přenosnost,
+  nabízí vynikající uchování hodnoty. Navíc jako neutrální
+  internetová měna představuje dobrý prostředek výměny,
+  který nezná hranice.
 reviewed: true

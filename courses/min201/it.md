@@ -72,7 +72,7 @@ Pronti per iniziare questa avventura affascinante? Tuffiamoci insieme nel mondo 
 
 Per spiegare in modo semplificato il concetto di mining, si può utilizzare un'analogia pertinente: quella del puzzle. Come un puzzle, il mining è un compito complesso da eseguire, ma facile da verificare una volta completato. Nel contesto del mining di Bitcoin, i minatori cercano di risolvere rapidamente un puzzle digitale. Il primo minatore a risolvere il puzzle presenta la sua soluzione all'intera rete, che può quindi verificarne facilmente la validità. Questa verifica di successo consente al minatore di convalidare un nuovo blocco e aggiungerlo alla blockchain di Bitcoin. In riconoscimento del loro lavoro, che comporta costi significativi, il minatore viene ricompensato con un certo numero di bitcoin. Questa ricompensa costituisce un incentivo finanziario per i minatori a continuare il loro lavoro di convalida delle transazioni e di sicurezza della rete Bitcoin.
 
-![immagine](assets/overview/puzzle.webp)
+![immagine](assets/en/01.webp)
 
 Inizialmente nella rete Bitcoin, la ricompensa assegnata era di 50 bitcoin ogni dieci minuti, parallelamente alla scoperta di un blocco ogni dieci minuti in media da parte dei minatori. Questa ricompensa subisce una divisione per due ogni 210.000 blocchi, ovvero approssimativamente ogni quattro anni. Questa remunerazione serve come potente incentivo per incoraggiare i minatori a partecipare al processo di mining nonostante il suo costo energetico. In assenza di ricompensa, il mining, costoso in termini di elettricità, verrebbe abbandonato, compromettendo così la sicurezza e la stabilità dell'intera rete Bitcoin.
 
@@ -84,7 +84,7 @@ Il processo di mining consiste nel trovare un hash valido accettabile dalla rete
 
 All'inizio, dominava l'era della CPU, in cui i minatori utilizzavano i loro computer personali per il mining di Bitcoin. La scoperta dei vantaggi delle GPU (schede grafiche) per questo compito ha segnato una svolta, aumentando in modo significativo l'hashrate e riducendo il consumo di energia. Il progresso non si è fermato qui, con l'introduzione successiva degli FPGA (field-programmable gate array / array di porte programmabili in campo). Gli FPGA sono serviti come piattaforma per lo sviluppo degli ASIC (application-specific integrated circuit / circuito integrato specifico per un'applicazione).
 
-![image](assets/overview/chip.webp)
+![image](assets/en/02.webp)
 
 Gli ASIC sono chip, simili a quelli di una CPU, ma sono sviluppati per eseguire un solo tipo di calcolo specifico nel modo più efficiente possibile. In altre parole, una CPU è in grado di eseguire una moltitudine di tipi di calcoli diversi senza essere particolarmente ottimizzata per un tipo di calcolo, mentre un ASIC sarà in grado di eseguire un solo tipo di calcolo, ma in modo molto efficiente. Nel caso specifico, gli ASIC Bitcoin sono progettati per il calcolo dell'algoritmo SHA256.
 
@@ -96,7 +96,7 @@ Per illustrare l'intensità di questo processo, considera un minatore tipico in 
 
 L'aggiustamento della difficoltà è un meccanismo cruciale nel funzionamento della rete Bitcoin, garantendo che i blocchi vengano minati in media ogni 10 minuti. Questa durata è una media, poiché il processo di mining è in realtà un gioco di probabilità, simile al lancio di dadi nella speranza di ottenere un numero inferiore al numero definito dalla difficoltà. Ogni 2016 blocchi, la rete regola la difficoltà di mining in base al tempo medio necessario per minare i blocchi precedenti. Se il tempo medio è superiore a 10 minuti, la difficoltà viene ridotta, e viceversa se il tempo medio è inferiore, la difficoltà viene aumentata. Questo meccanismo di aggiustamento assicura che il tempo necessario a minare un blocco rimanga costante nel tempo, indipendentemente dal numero di minatori o dalla potenza di calcolo complessiva della rete. È per questa ragione che la Blockchain di Bitcoin viene anche chiamata Timechain.
 
-![image](assets/overview/chinaban.webp)
+![image](assets/en/03.webp)
 
 - Esempio della Cina:
   Il caso della Cina illustra perfettamente questo meccanismo di regolazione della difficoltà, ricca di energia abbondante e a basso costo, era il principale hub mondiale per il mining di Bitcoin. Nel 2021, il paese ha improvvisamente vietato il mining di Bitcoin sul suo territorio, causando una massiccia caduta del tasso di hash globale della rete Bitcoin, dell'ordine del 50%. Questa rapida diminuzione della potenza di mining avrebbe potuto compromettere gravemente la rete Bitcoin, aumentando il tempo medio di mining dei blocchi. Tuttavia, è intervenuto il meccanismo di regolazione della difficoltà, riducendo la difficoltà di mining per garantire la frequenza di mining dei blocchi sulla media di 10 minuti. Questo caso dimostra l'efficienza e la resilienza del meccanismo di regolazione della difficoltà di Bitcoin, che assicura la stabilità e la prevedibilità della rete, anche in caso di cambiamenti improvvisi e significativi nel panorama del mining globale.
@@ -107,7 +107,7 @@ Per quanto riguarda l'evoluzione delle macchine per il mining di Bitcoin, è imp
 
 Di fronte all'evoluzione tecnologica costante nel campo del mining, i professionisti devono posizionarsi strategicamente. L'industria del mining è soggetta a continue innovazioni, come dimostra il recente lancio della versione J del S19, e l'attesa del S19 XP, che offrirà capacità di mining nettamente superiori. Inoltre, i miglioramenti non sono legati esclusivamente alle prestazioni grezze delle macchine. Ad esempio, il nuovo modello S19 XP utilizza un sistema di raffreddamento a liquido, una modifica tecnica che consente un miglioramento significativo dell'efficienza energetica. Sebbene l'innovazione rimanga una costante, i futuri guadagni di efficienza saranno probabilmente inferiori rispetto a quelli finora osservati, a causa del raggiungimento di una certa soglia di innovazione tecnologica.
 
-![image](assets/overview/chipevolution.webp)
+![image](assets/en/04.webp)
 
 In conclusione, l'industria del mining di Bitcoin continua ad adattarsi e svilupparsi, e gli attori del settore devono anticipare guadagni di efficienza sempre più limitati in futuro e adeguare di conseguenza le loro strategie. Gli sviluppi tecnologici futuri, sebbene ancora presenti, probabilmente avverranno su una scala più ridotta, riflettendo una crescente maturità del settore.
 
@@ -119,7 +119,7 @@ In conclusione, l'industria del mining di Bitcoin continua ad adattarsi e svilup
 
 Attualmente, il mining di Bitcoin si è evoluto in un'industria seria e sostanziale, con molti attori ormai pubblici e un numero crescente di minatori significativi. Questa evoluzione ha reso il mining quasi inaccessibile per i piccoli attori a causa del costo elevato associato all'acquisizione di nuove macchine da mining. Pertanto, sorge la questione della distribuzione dell'hashrate tra diversi attori del mercato. La situazione è complessa, poiché è essenziale esaminare sia la distribuzione dell'hashrate tra diverse società che tra diverse pool di mining.
 
-![immagine](assets/overview/pool.webp)
+![immagine](assets/en/05.webp)
 
 Una pool di mining è un gruppo di minatori che uniscono le loro risorse di calcolo per aumentare le loro possibilità di mining. Questa cooperazione è necessaria perché una piccola macchina da mining isolata è in competizione con i giganti dell'industria, riducendo le sue possibilità di successo a un livello trascurabile. Il mining funziona secondo un principio di lotteria, e le possibilità di vincere un blocco (e quindi la ricompensa in Bitcoin) ogni dieci minuti sono estremamente basse per un piccolo minatore individuale. Unendosi in pool, i minatori possono combinare la loro potenza di calcolo, trovare blocchi più frequentemente e poi distribuire le ricompense in modo proporzionale al contributo di ciascun minatore alla pool.
 
@@ -150,7 +150,7 @@ In Francia, ad esempio, gli eccessi di elettricità dai pannelli solari vengono 
 La centralizzazione del mining viene affrontata come una sfida significativa. Grandi attori, come Foundry, dominano il mercato, il che potrebbe potenzialmente portare alla censura delle transazioni. Questa centralizzazione può anche rendere la rete vulnerabile ad attacchi, in particolare l'attacco del 51%, in cui un attore o un gruppo controlla più del 50% della potenza di hash della rete, consentendo loro di controllare e manipolare la rete.
 Rischio di regolamentazione. Si sottolinea che se un paese come gli Stati Uniti decidesse di regolamentare o vietare alcune transazioni Bitcoin, ciò potrebbe avere un impatto significativo sulla rete, soprattutto se una grande parte della potenza di hash è centralizzata in quel paese.
 
-![image](assets/overview/foundry.webp)
+![image](assets/en/06.webp)
 
 Per contrastare la centralizzazione, vengono adottate diverse strategie:
 
@@ -171,7 +171,7 @@ L'iniziativa Attakai deriva da un'esperienza personale di mining casalingo, real
 
 Esponendo il loro progetto alla comunità Bitcoin e di fronte all'interesse suscitato, gli inventori di Attakai hanno deciso di pubblicare guide dettagliate sulla piattaforma Découvre Bitcoin, consentendo a chiunque di riprodurre la loro esperienza di mining casalingo. Ora stanno considerando l'espansione di questo concetto al di là del contesto domestico. L'obiettivo è dimostrare come un minatore modificato possa essere trasformato in una fonte di riscaldamento ausiliario silenzioso utilizzabile durante l'inverno, offrendo una transizione graduale a una seconda parte di formazione dedicata all'implementazione pratica di queste modifiche, illustrata da video esplicativi. Resta comunque da capire se questa iniziativa può essere estesa su una scala più ampia, offrendo così un'alternativa realistica e sostenibile alle attuali strutture di mining centralizzate.
 
-![image](assets/overview/attakai.webp)
+![image](assets/en/07.webp)
 
 ### Il limite di questa decentralizzazione?
 
@@ -195,7 +195,7 @@ Per quanto riguarda la questione di cosa dovrebbe essere incluso in un blocco Bi
 
 Con la crescita prevista di Lightning Network e l'aumento conseguente delle aperture e delle chiusure dei canali, lo spazio nei blocchi Bitcoin diventerà sempre più prezioso. La comunità Bitcoin tende già a valorizzare la preservazione di questo spazio, riconoscendone la limitazione intrinseca. Questa consapevolezza ha portato a discussioni sull'uso legittimo o meno dello spazio dei blocchi, con preoccupazioni riguardanti lo "spam" sulla blockchain tramite transazioni considerate non essenziali.
 
-![image](assets/overview/block.webp)
+![image](assets/en/08.webp)
 
 La speculazione circonda l'uso futuro dello spazio dei blocchi, ma è generalmente accettato che sia una risorsa rara che dovrebbe essere utilizzata saggiamente. Anche se c'è il desiderio di riempirlo, è essenziale preservarlo per garantire la sostenibilità a lungo termine della rete Bitcoin, in previsione di un futuro aumento della domanda di spazio nei blocchi. Come in ogni mercato libero, l'offerta e la domanda regoleranno l'uso dello spazio dei blocchi. Con un'offerta limitata, le parti interessate dovranno fare scelte informate sull'uso di questo spazio preziozo per garantire l'efficienza e la sicurezza a lungo termine della rete Bitcoin.
 
@@ -211,7 +211,7 @@ Il ruolo dei minatori nella rete Bitcoin è stato un argomento di intenso dibatt
 
 Durante la guerra dei blocchi, molti minatori erano contrari a certe evoluzioni della rete, evidenziando la tensione tra i vari attori dell'ecosistema. La questione rimane su come bilanciare il potere tra i minatori, i nodi e gli utenti per assicurare la sicurezza di lungo termine di Bitcoin.
 
-![image](assets/overview/blocksize-wars--BTC-vs-BCH-.webp)
+![image](assets/en/09.webp)
 
 Il dilemma della sicurezza di Bitcoin si basa su un equilibrio delicato. Sebbene i minatori svolgano un ruolo cruciale nella validazione e nella creazione di blocchi, i nodi mantengono l'integrità verificando e validando le transazioni e i blocchi. Un blocco errato o fraudolento sarà rifiutato dai nodi, censurando così il minatore e preservando la sicurezza della rete. Il potere è detenuto anche dai nodi e dagli utenti della rete Bitcoin. I nodi hanno il potere di verifica e validazione, mentre gli utenti hanno il potere di scegliere quale blockchain utilizzare. Questa distribuzione del potere assicura la distribuzione e l'integrità della rete Bitcoin.
 
@@ -223,7 +223,7 @@ In ultima analisi, la responsabilità è condivisa tra tutti gli attori della re
 
 L'elegante teoria dei giochi di Satoshi Nakamoto ha stabilito una situazione in cui ogni partecipante della rete Bitcoin è incentivato ad agire correttamente per proteggere sia i propri interessi sia quelli degli altri partecipanti. Questo crea un equilibrio in cui il comportamento scorretto può essere sanzionato, rafforzando così la sicurezza e la stabilità dell'intero sistema. Nonostante questo equilibrio, gli Stati rimangono una minaccia potenziale. Come indicato nella presentazione a Surfing Bitcoin 2022, gli Stati possono tentare di attaccare l'industria del mining, esponendo la rete Bitcoin a rischi di centralizzazione ed attacco. Scenari ipotetici come un attacco militare mirato alle strutture di produzione di hardware di mining sottolineano l'importanza della diversificazione geografica e industriale per la resilienza della rete Bitcoin.
 
-![image](assets/overview/miner.webp)
+![image](assets/en/10.webp)
 
 La centralizzazione della produzione di hardware di mining in Cina rappresenta un altro rischio. Un rifiuto di esportare macchine da mining o un accumulo di hashrate per un potenziale attacco del 51% da parte della Cina evidenziano la necessità di una produzione diversificata di hardware di mining. Di fronte a questi rischi, la comunità Bitcoin sta esplorando attivamente delle soluzioni. Aziende come Intel stanno considerando di produrre attrezzature di mining negli Stati Uniti, contribuendo alla distribuzione della produzione. Altre iniziative, come quella di Block con il suo Mining Development Kit (MDK) open source, mirano a ridurre il monopolio della progettazione e produzione di hardware di mining, permettendo una distribuzione più ampia dell'hashrate. Al centro di queste discussioni si trova la missione fondamentale di Bitcoin: essere una rete di scambio di valore resistente alla censura. La comunità Bitcoin si impegna costantemente a rafforzare la distribuzione, la resistenza alla censura e l'anti-fragilità della rete, respingendo proposte come il passaggio al proof of stake, che non si allineano con questi principi fondamentali.
 
@@ -231,7 +231,7 @@ La centralizzazione della produzione di hardware di mining in Cina rappresenta u
 
 Il Proof of Work (PoW) è essenziale perché rappresenta il legame fisico tra il mondo reale e Bitcoin. Sebbene i bitcoin siano immateriali, la loro produzione richiede energia tangibile, stabilendo così un collegamento diretto con il mondo fisico e reale. Questa connessione assicura che la produzione e la validazione dei bitcoin e dei blocchi abbiano un costo energetico reale, ancorando così la rete Bitcoin nella realtà fisica e impedendo la sua completa dominazione da parte di entità potenti. Il PoW funge da baluardo contro la centralizzazione, garantendo che la partecipazione alla rete e la validazione delle transazioni richiedano un investimento in risorse tangibili. Ciò impedisce la monopolizzazione della rete da parte di entità che potrebbero altrimenti prendere il controllo senza alcuna barriera d'ingresso significativa, assicurando così una distribuzione più equa del potere e dell'influenza all'interno della rete Bitcoin.
 
-![image](assets/overview/POWPOS.webp)
+![image](assets/en/11.webp)
 
 ### I Limiti del Proof of Stake
 
@@ -253,7 +253,7 @@ Il tasso di hash attuale, nonostante il prezzo del Bitcoin sia a 30.000$ rispett
 
 Questa situazione illustra anche la resilienza del Bitcoin, spesso valutata in base al suo prezzo. Tuttavia, un'analisi più approfondita della salute di Bitcoin richiede l'esame del suo tasso di hash, che misura i calcoli al secondo nella rete Bitcoin. Mentre il prezzo del Bitcoin fluttua, il suo costo, legato all'elettricità necessaria per far funzionare le macchine di mining, rimane essenziale per comprendere la dinamica del mercato. Concentrandosi sul costo piuttosto che sul prezzo, si ottiene una prospettiva più coerente sulla stabilità e sulla sostenibilità a lungo termine del Bitcoin. In generale, il costo di Bitcoin è proporzionale al suo prezzo, offrendo una migliore comprensione delle fluttuazioni di prezzo e delle prospettive future.
 
-![image](assets/overview/pricevshashrate.webp)
+![image](assets/en/12.webp)
 
 ### Tasso di Hash e Ricompensa
 
@@ -287,7 +287,7 @@ Tuttavia, il mining offre vie uniche per coinvolgersi nell'ecosistema Bitcoin. A
 
 Nonostante queste opzioni, il mining presenta sfide significative. Il motto noto del mondo delle criptovalute, "Non tue le chiavi, non tuoi i Bitcoin", trova un'eco simile nel mondo del mining: "Non il tuo hashrate, non tua la ricompensa". Le storie di delusioni e di macchine disconnesse sono all'ordine del giorno, con diversi operatori che promettono risultati eccezionali ma non li realizzano. I problemi di approvvigionamento energetico e i guasti delle macchine possono lasciare gli investitori impotenti, con attrezzature costose che non possono controllare. In questo contesto, la prudenza e una profonda comprensione del settore del mining sono cruciali prima di avventurarsi. Sebbene le opportunità di guadagno esistano, i rischi sono significativi, e un approccio informato e riflessivo è essenziale per navigare in questo campo complesso e spesso imprevedibile. È quindi vitale fare ricerche approfondite e valutare attentamente i pro e i contro prima di impegnarsi nel mining di Bitcoin.
 
-![image](assets/overview/self.webp)
+![image](assets/en/13.webp)
 
 ### Bitcoin Vergini
 
@@ -301,7 +301,7 @@ In questo contesto, scegliere un approccio autonomo ed educato al mining appare 
 
 Con la questione del potenziale divieto del mining in Europa, le discussioni sulla regolamentazione diventano sempre più rilevanti. Il panorama normativo in costante cambiamento può, infatti, influenzare notevolmente l'industria del mining di Bitcoin. Il divieto del mining in Europa è uno scenario plausibile, specialmente considerando i precedenti in Cina. Sebbene, nonostante il divieto, le operazioni di mining continuino in Cina , l'Europa potrebbe seguire un percorso simile. Una distribuzione più ampia del hashrate in diverse regioni potrebbe aiutare a rafforzare la comunità dei minatori in Europa, permettendo loro di opporsi efficacemente ai malintesi e alle idee sbagliate riguardo al mining, al suo impatto ambientale e alla sua impronta sulla rete elettrica.
 
-![image](assets/overview/regulation.webp)
+![image](assets/en/14.webp)
 
 Di fronte a campagne come quelle di Greenpeace e ai dati spesso fuorvianti di alcuni studi, la migliore arma rimane l'informazione veritiera. È essenziale informare il pubblico e i decisori sulla realtà del mining, sulla sua complessità e sulle sue sfumature, piuttosto che lasciarli affidare a stereotipi e informazioni inesatte. Più persone saranno informate e consapevoli di cosa sia realmente il mining, meglio l'industria potrà difendersi dalle possibili regolamentazioni restrittive.
 
@@ -382,41 +382,41 @@ L'Antminer S9 è disponibile in diverse varianti (i,j) che apportano modifiche m
 
 Il prezzo degli ASIC varia in base a molti fattori come il prezzo di bitcoin, la difficoltà della rete, l'efficienza della macchina e il costo dell'elettricità. È quindi difficile dare una stima precisa per l'acquisto di una macchina usata. A febbraio 2023, il prezzo atteso in Francia si attesta generalmente tra 100€ e 200€ ma questi prezzi sono suscettibili di cambiare molto rapidamente.
 
-![image](assets/guide-achat/1.webp)
+![image](assets/en/15.webp)
 
 L'Antminer S9 è composto dalle seguenti parti:
 
 - 3 hashboard che contengono i chip che producono l'hashing
 
-![image](assets/guide-achat/2.webp)
+![image](assets/en/16.webp)
 
 - Una scheda di controllo che include uno slot per una scheda SD, una porta Ethernet e connettori per gli hashboard e i ventilatori. È il cervello del vostro ASIC.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/en/17.webp)
 
 - 3 cavi di dati che collegano gli hashboard alla scheda di controllo
 
-![image](assets/guide-achat/4.webp)
+![image](assets/en/18.webp)
 
 - L'alimentatore che funziona a 220V e può quindi essere collegato come un normale elettrodomestico
 
-![image](assets/guide-achat/5.webp)
+![image](assets/en/19.webp)
 
 - 2 ventilatori da 120mm
 
-![image](assets/guide-achat/6.webp)
+![image](assets/en/20.webp)
 
 - Un cavo maschio C13
 
-![image](assets/guide-achat/7.webp)
+![image](assets/en/21.webp)
 
 Quando acquisti una macchina usata, è importante verificare che tutte le parti siano incluse e funzionanti. Durante lo scambio, dovresti chiedere al venditore di accendere la macchina per verificarne il corretto funzionamento. È importante verificare che l'apparecchio si accenda correttamente, quindi verificare la connettività a Internet collegando un cavo Ethernet e accedendo all'interfaccia di connessione di Bitmain tramite un browser Internet sulla stessa rete locale. Puoi trovare questo indirizzo IP collegandoti all'interfaccia del tuo router Internet e cercando i dispositivi connessi. Questo indirizzo dovrebbe avere il seguente formato: 192.168.x.x
 
-![image](assets/guide-achat/8.webp)
+![image](assets/en/22.webp)
 
 Verifica anche che le credenziali predefinite funzionino (nome utente: root, password: root). Se le credenziali predefinite non funzionano, sarà necessario eseguire un reset della macchina.
 
-![image](assets/guide-achat/9.webp)
+![image](assets/en/23.webp)
 
 Una volta connesso, dovresti essere in grado di vedere lo stato di ogni hashboard sulla dashboard. Se il minatore è connesso a un pool, dovresti vedere tutte le hashboard funzionare. È importante notare che i minatori facciano molto rumore, è normale. Assicurati anche che le ventole funzionino correttamente.
 
@@ -439,26 +439,26 @@ Se sei un bricoleur esperto e stai cercando di trasformare un minatore in un ris
 
 Le ventole originali dell'Antminer S9 sono troppo rumorose per utilizzare il tuo Antminer come riscaldamento. La soluzione è sostituirle con ventole più silenziose. Il nostro team ha testato diversi modelli del marchio Noctua e ha selezionato il Noctua NF-A14 iPPC-2000 PWM come miglior compromesso, assicurandosi di scegliere la versione a 12V delle ventole. Questa ventola da 140 mm può produrre fino a 1200W di calore mantenendo un livello teorico di rumore di 31 dB. Per poter installare queste ventole da 140 mm, sarà necessario utilizzare un adattatore da 140 mm a 120 mm che potrai trovare nel negozio di DécouvreBitcoin. Aggiungeremo anche delle griglie di protezione da 140 mm.
 
-![image](assets/piece/1.webp)
-![image](assets/piece/2.webp)
-![image](assets/piece/3.webp)
+![image](assets/en/24.webp)
+![image](assets/en/25.webp)
+![image](assets/en/26.webp)
 
 Anche la ventola dell'alimentatore è abbastanza rumorosa e deve essere sostituita. Consigliamo il Noctua NF-A6x25 PWM. Nota che i connettori delle ventole Noctua non sono gli stessi di quelli originali, quindi avrai bisogno di un adattatore per collegarli, ne bastano 2. Anche qui, assicurati di scegliere la versione a 12V della ventola.
 
-![image](assets/piece/4.webp)
-![image](assets/piece/5.webp)
+![image](assets/en/27.webp)
+![image](assets/en/28.webp)
 
 2. Aggiungere un bridge WIFI/Ethernet
 
 Invece di utilizzare un cavo Ethernet, puoi connettere il tuo Antminer tramite WIFI aggiungendo un bridge WIFI/Ethernet. Abbiamo selezionato il vonets vap11g-300 perché consente di recuperare facilmente il segnale WIFI del tuo router e trasmetterlo al tuo Antminer tramite Ethernet senza creare una sottorete. Se hai competenze elettriche, puoi alimentarlo direttamente con l'alimentatore dell'Antminer senza dover aggiungere un caricatore USB, per questo avrai bisogno di un jack femmina da 5,5 mm x 2,1 mm.
 
-![image](assets/piece/6.webp)
-![image](assets/piece/7.webp)
+![image](assets/en/29.webp)
+![image](assets/en/30.webp)
 
 3. Opzionale: aggiungere una presa intelligente.
    Se desideri accendere/spegnere il tuo Antminer dal tuo smartphone e monitorarne il consumo energetico, puoi aggiungere una presa smart. Abbiamo testato la presa ANTELA in versione 16A compatibile con l'applicazione smartlife. Questa presa smart consente di consultare il consumo giornaliero e mensile e si connette direttamente al tuo router Internet tramite Wi-Fi.
 
-![image](assets/piece/8.webp)
+![image](assets/en/31.webp)
 
 Elenco del materiale e link
 
@@ -489,22 +489,22 @@ Alimenta il bridge collegandolo tramite USB.
 
 Dal tuo computer, connettiti alla rete WIFI VONETS\_**\*\*** con la password 12345678.
 
-![image](assets/software/vonet1.webp)
+![image](assets/en/32.webp)
 
 Nome utente: admin
 Password: admin
 
-![image](assets/software/vonet2.webp)
+![image](assets/en/33.webp)
 
 Seleziona Wizard
 
-![image](assets/software/vonet3.webp)
+![image](assets/en/34.webp)
 
 Seleziona la rete WIFI a cui desideri connettere il tuo minatore e clicca su Avanti.
 
 ATTENZIONE: il bridge Vonet funziona solo a 2,4 GHz, oggi i router di solito offrono due reti WIFI, una a 2,4 GHz e una a 5 GHz.
 
-![image](assets/software/vonet4.webp)
+![image](assets/en/35.webp)
 
 Inserisci la password della tua rete WIFI in "Source WIFI hotspot password".
 Se non desideri utilizzare il tuo bridge Vonet per estendere la tua rete WIFI, spunta la casella "Disable Hotspot", altrimenti lasciala deselezionata.
@@ -527,7 +527,7 @@ Questa procedura può essere applicata tra 2 e 10 minuti dopo l'avvio del minato
 
 2 minuti dopo aver acceso il minatore, premere il pulsante "Reset" per 5 secondi, quindi rilasciarlo. Il minatore verrà ripristinato alle impostazioni di fabbrica entro 4 minuti e si riavvierà automaticamente (non è necessario spegnerlo).
 
-![immagine](assets/software/1.webp)
+![immagine](assets/en/36.webp)
 
 ## Installare BraiinsOS+ su un Antminer S9
 
@@ -543,11 +543,11 @@ Vedremo qui come installare facilmente Braiins OS+ direttamente sulla memoria de
 2. Scarica BOS toolbox per Windows / Linux.
 3. Decomprimi il file scaricato e apri il file bos-toolbox.bat, seleziona la lingua e dopo qualche istante vedrai questa finestra:
 
-![immagine](assets/software/5.webp)
+![immagine](assets/en/37.webp)
 
 4. BOS toolbox ti permetterà di trovare facilmente l'indirizzo IP del tuo Antminer e installare BraiinsOS+. Se conosci già l'indirizzo IP della tua macchina, puoi andare al passaggio 8. Altrimenti, vai alla scheda "scan".
 
-![immagine](assets/software/6.webp)
+![immagine](assets/en/38.webp)
 
 5. Di solito, nelle reti domestiche, l'intervallo di indirizzi IP si trova tra 192.168.1.1 e 192.168.1.255, quindi inserisci nell'campo "IP range" "192.168.1.0/24". Se la tua rete è diversa, modifica questi indirizzi di conseguenza. Quindi clicca su "Start".
 
@@ -555,13 +555,13 @@ Vedremo qui come installare facilmente Braiins OS+ direttamente sulla memoria de
 
 7. Dovresti vedere tutti gli Antminer sulla tua rete, qui l'indirizzo IP è 192.168.1.37.
 
-![immagine](assets/software/7.webp)
+![immagine](assets/en/39.webp)
 
 8. Fai clic su "Back" e poi sulla scheda "install", inserisci l'indirizzo IP trovato in precedenza e clicca su "Start".
 
 > Se l'installazione non funziona, potrebbe essere necessario eseguire un ripristino e riprovare (vedi la sezione precedente).
 
-![image](assets/software/8.webp)
+![image](assets/en/40.webp)
 
 9. Dopo alcuni istanti, il tuo Antminer si riavvierà e potrai accedere all'interfaccia di Braiins OS+ all'indirizzo IP indicato, qui 192.168.1.37, da inserire direttamente nella barra degli indirizzi del tuo browser, nome utente predefinito "root" senza password predefinita.
 
@@ -582,7 +582,7 @@ Verrai quindi accolto dalla Dashboard di Brains OS+
 
 ### Dashboard
 
-![image](assets/software/14.webp)
+![image](assets/en/41.webp)
 
 In questa prima pagina potrai osservare le prestazioni della tua macchina in tempo reale.
 
@@ -590,7 +590,7 @@ In questa prima pagina potrai osservare le prestazioni della tua macchina in tem
 - A destra l'hashrate effettivo, la temperatura media dei chip, l'efficienza stimata in W/THs e il consumo di energia.
 - Sotto la velocità di rotazione delle ventole in percentuale rispetto alla velocità massima e il numero di rotazioni al minuto.
 
-![image](assets/software/15.webp)
+![image](assets/en/42.webp)
 
 - Più in basso troverai una vista dettagliata di ogni hashboard. La temperatura media della board e dei chip che la compongono, la tensione e la frequenza.
 - Un dettaglio sui pool di mining attivi in Pools.
@@ -599,15 +599,15 @@ In questa prima pagina potrai osservare le prestazioni della tua macchina in tem
 
 ### Configurazione
 
-![image](assets/software/16.webp)
+![image](assets/en/43.webp)
 
 ### Sistema
 
-![image](assets/software/17.webp)
+![image](assets/en/44.webp)
 
 ### Azioni rapide
 
-![image](assets/software/18.webp)
+![image](assets/en/45.webp)
 
 # Attakai - Modifica delle ventole
 
@@ -619,7 +619,7 @@ In questa prima pagina potrai osservare le prestazioni della tua macchina in tem
 
 > ATTENZIONE: È essenziale aver installato in precedenza Braiins OS+ sul tuo minatore, o qualsiasi altro software in grado di ridurre le prestazioni della tua macchina. Questa misura è cruciale perché, al fine di ridurre il rumore, installeremo ventole meno potenti che saranno in grado di dissipare meno calore.
 
-![image](assets/hardware/cover.webp)
+![image](assets/en/46.webp)
 
 ### Materiali necessari
 
@@ -628,60 +628,60 @@ In questa prima pagina potrai osservare le prestazioni della tua macchina in tem
 
 > ATTENZIONE: Prima di iniziare, assicurati di aver scollegato il tuo minatore per evitare qualsiasi rischio di scossa elettrica.
 
-![image](assets/hardware/1.webp)
+![image](assets/en/47.webp)
 
 Prima di tutto, rimuovi le 6 viti sul lato del case che lo tengono chiuso. Una volta rimosse le viti, apri delicatamente il case per rimuovere la protezione in plastica che copre i componenti.
 
-![image](assets/hardware/2.webp)
-![image](assets/hardware/3.webp)
+![image](assets/en/48.webp)
+![image](assets/en/49.webp)
 
 Successivamente, è il momento di rimuovere la ventola originale facendo attenzione a non danneggiare gli altri componenti. Per farlo, rimuovi le viti che la tengono in posizione e stacca delicatamente la colla bianca che circonda il connettore. È importante procedere con delicatezza per evitare di danneggiare i fili o i connettori.
 
-![image](assets/hardware/4.webp)
+![image](assets/en/50.webp)
 
 Una volta rimossa la ventola originale, noterai che i connettori della nuova ventola Noctua non corrispondono a quelli della ventola originale. Infatti, la nuova ventola ha 3 fili, di cui uno giallo che consente di controllare la velocità. Tuttavia, questo filo non verrà utilizzato in questo caso specifico. Per collegare la nuova ventola, è quindi consigliabile utilizzare un adattatore speciale. È importante notare che questo adattatore può talvolta essere difficile da trovare.
 
-![image](assets/hardware/5.webp)
+![image](assets/en/51.webp)
 
 Se non hai questo adattatore, puoi comunque procedere al collegamento della nuova ventola utilizzando un connettore elettrico. Per farlo, dovrai tagliare i cavi della vecchia e della nuova ventola.
 
-![image](assets/hardware/6.webp)
-![image](assets/hardware/7.webp)
+![image](assets/en/52.webp)
+![image](assets/en/53.webp)
 
 Sulla nuova ventola, usa un cutter e taglia delicatamente i contorni del rivestimento principale a 1 cm senza tagliare i rivestimenti dei cavi sottostanti.
 
-![image](assets/hardware/8.webp)
+![image](assets/en/54.webp)
 
 Poi, tirando verso il basso il rivestimento principale, taglia i rivestimenti dei cavi rossi e neri nello stesso modo di prima. E taglia il cavo giallo a filo.
 
-![image](assets/hardware/9.webp)
+![image](assets/en/55.webp)
 
 Sulla vecchia ventola è più delicato tagliare il rivestimento principale senza danneggiare i rivestimenti dei cavi rossi e neri. Per farlo, abbiamo usato un ago che abbiamo fatto scorrere tra il rivestimento principale e i cavi rossi e neri.
 
-![image](assets/hardware/10.webp)
-![image](assets/hardware/11.webp)
+![image](assets/en/56.webp)
+![image](assets/en/57.webp)
 
 Una volta liberati i cavi rossi e neri, taglia delicatamente i rivestimenti per non danneggiare i fili elettrici.
 
-![image](assets/hardware/12.webp)
+![image](assets/en/58.webp)
 
 Poi collega i cavi con un connettore, il filo nero con il nero e il filo rosso con il rosso. Puoi anche aggiungere del nastro elettrico.
 
-![image](assets/hardware/13.webp)
-![image](assets/hardware/14.webp)
+![image](assets/en/59.webp)
+![image](assets/en/60.webp)
 
 Una volta effettuato il collegamento, è ora di installare il nuovo ventilatore Noctua con la griglia e le vecchie viti, le nuove viti presenti nella scatola saranno riutilizzate in seguito. Assicurati di posizionarlo con il giusto orientamento. Noterai una freccia su uno dei lati del ventilatore, che indica la direzione del flusso d'aria. È importante posizionare il ventilatore in modo che questa freccia punti verso l'interno del case. Quindi ricollega il ventilatore.
 
-![image](assets/hardware/15.webp)
-![image](assets/hardware/16.webp)
+![image](assets/en/61.webp)
+![image](assets/en/62.webp)
 
 > Opzionale: Se hai competenze elettriche, puoi aggiungere direttamente un connettore jack femmina da 5,5 mm all'uscita di alimentazione a 12V, che consentirà di alimentare direttamente il bridge Wi-Fi Vonet. Tuttavia, se non sei sicuro delle tue competenze elettriche, è meglio utilizzare il connettore USB con un caricatore per smartphone per evitare qualsiasi rischio di cortocircuito o danni elettrici.
 
-![image](assets/hardware/17.webp)
+![image](assets/en/63.webp)
 
 Una volta effettuati i collegamenti, rimetti la plastica del coperchio sopra la plastica del case e non all'interno.
 
-![image](assets/hardware/18.webp)
+![image](assets/en/64.webp)
 
 Infine, rimetti il coperchio del case al suo posto e riavvita le 6 viti sui lati per mantenere tutto in posizione. Ecco fatto, il tuo case di alimentazione è ora dotato di un nuovo ventilatore.
 
@@ -691,7 +691,7 @@ Infine, rimetti il coperchio del case al suo posto e riavvita le 6 viti sui lati
 
 > ATTENZIONE: È essenziale aver precedentemente installato Braiins OS+ sul tuo minatore, o qualsiasi altro software in grado di ridurre le prestazioni della tua macchina. Questa misura è cruciale perché, al fine di ridurre il rumore, installeremo ventilatori meno potenti, che saranno in grado di dissipare meno calore.
 
-![image](assets/hardware/cover.webp)
+![image](assets/en/46.webp)
 
 ### Materiali necessari
 
@@ -703,35 +703,35 @@ Infine, rimetti il coperchio del case al suo posto e riavvita le 6 viti sui lati
 
 1. Inizialmente, scollega i ventilatori e svítali.
 
-![image](assets/hardware/19.webp)
+![image](assets/en/65.webp)
 
 2. I connettori dei nuovi ventilatori Noctua non corrispondono a quelli originali, ma niente paura! Prendi il taglierino e taglia delicatamente le piccole linguette di plastica in modo che i connettori si adattino perfettamente al tuo minatore.
 
-![image](assets/hardware/20.webp)
-![image](assets/hardware/21.webp) 3. È ora di installare le parti 3D!
+![image](assets/en/66.webp)
+![image](assets/en/67.webp) 3. È ora di installare le parti 3D!
 Fissale su entrambi i lati del minatore utilizzando le viti che hai rimosso dai ventilatori. Avvita fino a quando la testa della vite si infila nella parte 3D e questa rimane saldamente in posizione. Attenzione a non stringere troppo, potresti deformare la parte e una delle viti potrebbe toccare un condensatore!
 
-![image](assets/hardware/22.webp)
+![image](assets/en/68.webp)
 
 4. Passiamo ora ai ventilatori.
    Fissali sulle parti 3D utilizzando le viti fornite nella scatola. Presta attenzione alla direzione del flusso d'aria, le frecce sui lati dei ventilatori ti indicheranno la direzione da seguire. Vai dal lato della porta Ethernet all'altro lato. Vedi foto qui sotto
 
-![image](assets/hardware/23.webp)
-![image](assets/hardware/24.webp)
-![image](assets/hardware/25.webp)
+![image](assets/en/69.webp)
+![image](assets/en/70.webp)
+![image](assets/en/71.webp)
 
 5. Ultimo passo: collega i ventilatori e fissali con le griglie sopra utilizzando le viti che non sono state utilizzate nella scatola del ventilatore di alimentazione. Ne hai solo 4, ma 2 per griglia negli angoli opposti saranno sufficienti. Se necessario, puoi cercare altre viti simili in un negozio di ferramenta.
 
-![image](assets/hardware/26.webp)
-![image](assets/hardware/27.webp)
+![image](assets/en/72.webp)
+![image](assets/en/73.webp)
 
 Nel frattempo, mentre aspetti di poter offrire un involucro più attraente al tuo nuovo riscaldamento, puoi fissare il case e l'alimentazione con fascette da elettricista.
 
-![image](assets/hardware/28.webp)
+![image](assets/en/74.webp)
 
 E per il tocco finale, collega il bridge Vonet alla porta Ethernet con il suo alimentatore.
 
-![image](assets/hardware/29.webp)
+![image](assets/en/75.webp)
 
 Ecco fatto, bravo! Hai appena sostituito l'intera parte meccanica del tuo minatore. Ora dovresti sentire molto meno rumore.
 
@@ -761,17 +761,17 @@ Il modello di ricompensa che ci interessa è il PPS, che significa "pay-per-shar
 
 Per configurare un pool in Braiins 0S+, sarà necessario creare un account in uno delle pool a tua scelta. Qui prenderemo l'esempio di Lincoin:
 
-![image](assets/software/19.webp)
+![image](assets/en/76.webp)
 
 Una volta creato il tuo account, fai clic su "Connect To Pool"
 
 Successivamente, copia l'indirizzo Stratum e il tuo nome utente:
 
-![image](assets/software/20.webp)
+![image](assets/en/77.webp)
 
 Ora puoi tornare all'interfaccia di Braiins OS+ per inserire queste credenziali. Per la password, puoi lasciare il campo vuoto.
 
-![image](assets/software/21.webp)
+![image](assets/en/78.webp)
 
 ## Ottimizzare le prestazioni del proprio Antminer S9
 
@@ -795,15 +795,47 @@ Questo pone un limite superiore alla velocità di hashing che una macchina può 
 
 Il risultato finale è una velocità di hashing più elevata per watt di elettricità, il che significa margini di profitto più elevati per i minatori. La ragione per cui le macchine non vengono distribuite con questo tipo di software è che la varianza per macchina non è desiderabile, poiché i clienti vogliono sapere esattamente cosa stanno ottenendo ed è quindi una cattiva idea per i produttori vendere un prodotto che non ha prestazioni costanti e prevedibili da una macchina all'altra. Inoltre, l'autoregolazione del chip richiede considerevoli risorse di sviluppo, poiché è complessa da implementare. I produttori già spendono molte risorse per sviluppare i propri firmware. Ci sono soluzioni software che consentono di implementare l'autotuning, come Braiins OS+. Inoltre, migliora le prestazioni dell'ASIC fino al 20%.
 
-## Valuta il corso
+# Conclusione
+
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
+
+## Valuta questo corso
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Controllare un Antminer S9 dal proprio smartphone
+## Esame finale
 
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Creare scorciatoie su iOS
+## Conclusione
 
-![Controllare un Antminer S9 con il proprio smartphone](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+Congratulazioni per aver completato questo corso!
+
+Siamo lieti che tu abbia raggiunto questa importante tappa nel tuo percorso di apprendimento.
+
+Grazie alla tua dedizione e al tuo impegno, hai acquisito preziose conoscenze e competenze che ti serviranno nel tuo sviluppo professionale.
+
+Per continuare ad esplorare in profondità l'universo Bitcoin, ti invitiamo a scoprire tutti gli altri corsi disponibili su Plan ₿ Network:
+
+#### Scopri Bitcoin e i suoi fondamenti con
+
+https://planb.network/courses/btc101
+
+#### Scopri il Lightning Network con
+
+https://planb.network/courses/lnp201
+
+#### Padroneggia i principi della privacy su Bitcoin
+
+https://planb.network/courses/btc204
+
+#### Scopri la storia delle origini di Bitcoin con
+
+https://planb.network/courses/his201
+
+#### Comprendi come funziona il portafoglio Bitcoin con
+
+https://planb.network/courses/cyp201

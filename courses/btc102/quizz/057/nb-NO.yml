@@ -1,0 +1,10 @@
+question: Hva står DCA for i sammenheng med Bitcoin-investering?
+answer: Dollar Cost Averaging
+wrong_answers:
+  - Direkte Valutaanskaffelse
+  - Digital Myntallokering
+  - Desentralisert Kryptovaluta
+explanation: |
+  Dollar Cost Averaging (DCA) er en strategi hvor du deler det totale
+  beløpet du ønsker å investere over periodiske kjøp for å redusere innvirkningen av volatilitet.
+reviewed: false

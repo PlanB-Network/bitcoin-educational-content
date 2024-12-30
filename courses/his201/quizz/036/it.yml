@@ -1,0 +1,9 @@
+question: Chi ha progettato il primo vero logo di Bitcoin (una B maiuscola dorata attraversata da due barre verticali) nel febbraio 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Ha usato il suggerimento di NewLibertyStandard di utilizzare il simbolo del baht tailandese (฿). Il logo arancione è stato successivamente creato da qualcuno conosciuto come bitboy.
+reviewed: false

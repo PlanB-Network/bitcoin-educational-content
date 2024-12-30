@@ -1,0 +1,10 @@
+question: Hva er effekten av 20% inflasjon på kjøpekraften over 3 år?
+answer: Du mister 50% av din kjøpekraft
+wrong_answers:
+  - Du mister 100% av din kjøpekraft
+  - Du mister 60% av din kjøpekraft
+  - Du mister 30% av din kjøpekraft
+explanation: |
+  Med 20% inflasjon, mister du nesten halvparten av din kjøpekraft i
+  løpet av 3 år.
+reviewed: true

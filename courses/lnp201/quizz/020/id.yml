@@ -1,0 +1,8 @@
+question: Apa risiko utama dalam transaksi komitmen pada Lightning Network?
+answer: Menerbitkan transaksi lama untuk mengklaim lebih banyak dana
+wrong_answers:
+  - Lupa untuk menandatangani transaksi komitmen
+  - Secara tidak sengaja mengirim dana ke saluran lain
+  - Memblokir transaksi dengan timelock yang tidak tepat
+explanation: |
+  Risiko utama adalah bahwa pihak dapat mencoba untuk curang dengan menerbitkan transaksi komitmen lama, yang dapat memungkinkan mereka untuk mengklaim kembali dana yang tidak lagi mereka miliki.

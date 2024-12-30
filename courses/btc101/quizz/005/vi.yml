@@ -1,10 +1,9 @@
 question: Mục đích chính của đơn vị Bitcoin là gì?
 answer: Đơn vị Bitcoin là đơn vị tiền tệ cần thiết cho sự hoạt động đúng đắn của giao thức Bitcoin.
 wrong_answers:
-  - Đơn vị Bitcoin được sử dụng để điều chỉnh giá của Bitcoin.
-  - Đơn vị Bitcoin được sử dụng để kiểm soát giao thức Bitcoin.
-  - Đơn vị Bitcoin được sử dụng để tạo ra bitcoin mới.
+  - Đơn vị Bitcoin là một nhóm điều chỉnh giá của Bitcoin.
+  - Đơn vị Bitcoin là một cơ quan trung ương kiểm soát giao thức Bitcoin.
+  - Đơn vị Bitcoin là một nền tảng giao dịch Bitcoin.
 explanation: |
-  Đơn vị Bitcoin là đơn vị tiền tệ cần thiết cho sự hoạt động đúng đắn của giao thức Bitcoin.
-  Nó được sử dụng cho các giao dịch và phụ thuộc vào giao thức Bitcoin để hoạt động.
-reviewed: false
+  Đơn vị Bitcoin là đơn vị tiền tệ cần thiết cho sự hoạt động đúng đắn của giao thức Bitcoin. Nó được sử dụng cho các giao dịch và phụ thuộc vào giao thức Bitcoin để hoạt động.
+reviewed: true

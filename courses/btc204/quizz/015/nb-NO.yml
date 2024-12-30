@@ -1,0 +1,8 @@
+question: Hva er de 3 hovedtrinnene i en blockchain-analyse?
+answer: Observasjon av blockchain, identifisering av kjennetegn, og utledning av hypoteser.
+wrong_answers:
+  - Datainnsamling, sikker lagring, og rapportering.
+  - Identifisering av brukere, regulering av børser, og beskyttelse mot svindel.
+  - Datainnsamling, tilfeldig utvalg, og anmeldelse.
+explanation: |
+  Blockchain-analyse innebærer først å få tilgang til Bitcoin blockchain-data, deretter forsøke å identifisere kjennetegn i denne dataen, og til slutt gjøre plausible tolkninger.

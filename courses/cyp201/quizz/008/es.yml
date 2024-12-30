@@ -1,9 +1,9 @@
-question: ¿Qué sucede si se proporciona una entrada ligeramente diferente a una función hash criptográfica?
-answer: Alterará significativamente el hash final.
+question: ¿Por qué SHA256 aplica un preprocesamiento al mensaje de entrada?
+answer: Para asegurar una longitud múltiple de 512 bits
 wrong_answers:
-  - Produce el mismo hash.
-  - Hace que la función hash falle.
-  - Ralentiza el cálculo del hash.
+  - Para verificar la integridad del mensaje
+  - Para cifrar los datos antes de hacer el hash
+  - Para aumentar el tamaño de los hashes generados
 explanation: |
-  Las funciones hash criptográficas están diseñadas de tal manera que incluso una ligera desviación en la entrada altera significativamente el hash final. Esta propiedad es crucial para la seguridad de la función hash, ya que hace extremadamente difícil encontrar una entrada diferente que produzca el mismo hash.
+  El preprocesamiento ajusta la longitud del mensaje añadiendo bits de relleno y una representación binaria de su longitud.
 reviewed: false

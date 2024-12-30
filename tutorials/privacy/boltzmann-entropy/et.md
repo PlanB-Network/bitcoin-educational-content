@@ -17,7 +17,7 @@ Boltzmanni Kalkulaator on tööriist Bitcoin tehingu analüüsimiseks, mõõtes 
 Selle Pythoni tööriista arendasid Samourai Walleti ja OXT meeskonnad, kuid seda saab kasutada mis tahes Bitcoin tehingul.
 
 ## Kuidas kasutada Boltzmanni Kalkulaatorit?
-Boltzmanni Kalkulaatori kasutamiseks on teile kaks võimalust. Esimene on installida Pythoni tööriist otse oma masinasse. Alternatiivina võite valida KYCP.org (_Know Your Coin Privacy_) veebilehe, mis pakub lihtsustatud kasutusplatvormi. [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2) kasutajatele, pange tähele, et see tööriist on juba teie sõlme integreeritud.
+Boltzmanni Kalkulaatori kasutamiseks on teile kaks võimalust. Esimene on installida Pythoni tööriist otse oma masinasse. Alternatiivina võite valida KYCP.org (_Know Your Coin Privacy_) veebilehe, mis pakub lihtsustatud kasutusplatvormi. [RoninDojo](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8) kasutajatele, pange tähele, et see tööriist on juba teie sõlme integreeritud.
 
 KYCP lehe kasutamine on üsna lihtne: sisestage lihtsalt analüüsida soovitud tehingu identifikaator (TXID) otsinguribale ja vajutage `ENTER`.
 ![KYCP](assets/1.webp)

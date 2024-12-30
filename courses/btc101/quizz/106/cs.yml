@@ -1,10 +1,9 @@
 question: Proč je doporučeno nechávat své Bitcoiny mimo obchodní platformy?
-answer: Mohou být náchylné k hackerským útokům
+answer: Mohou být náchylné k útokům hackerů.
 wrong_answers:
-  - Obchodní platformy účtují náhodné poplatky
-  - Bitcoiny ztrácejí na obchodních platformách na hodnotě
-  - Obchodní platformy nejsou regulované instituce
+  - Obchodní platformy účtují náhodné poplatky.
+  - Bitcoin ztrácí na obchodních platformách na hodnotě.
+  - Obchodní platformy nejsou regulované instituce.
 explanation: |
-  Je doporučeno nechávat své Bitcoiny mimo obchodní platformy,
-  protože mohou být náchylné k hackerským útokům.
+  Doporučuje se nechávat své Bitcoiny mimo obchodní platformy, protože mohou být náchylné k útokům hackerů.
 reviewed: true

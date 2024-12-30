@@ -1,9 +1,9 @@
 question: Por que é aconselhável evitar deixar seus Bitcoins em plataformas de câmbio?
-answer: Elas podem ser suscetíveis a ataques de hackers.
+answer: Eles podem ser suscetíveis a ataques de hackers.
 wrong_answers:
-  - As plataformas de câmbio cobram taxas aleatórias.
-  - Os Bitcoins perdem valor nas plataformas de câmbio.
-  - As plataformas de câmbio não são instituições regulamentadas.
+  - Plataformas de câmbio cobram taxas aleatórias.
+  - Bitcoin perde valor em plataformas de câmbio.
+  - Plataformas de câmbio não são instituições reguladas.
 explanation: |
-  É aconselhável evitar deixar seus Bitcoins em plataformas de câmbio porque elas podem ser suscetíveis a ataques de hackers.
-reviewed: false
+  É aconselhável evitar deixar seus Bitcoins em plataformas de câmbio porque eles podem ser suscetíveis a ataques de hackers.
+reviewed: true

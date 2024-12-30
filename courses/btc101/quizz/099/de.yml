@@ -1,11 +1,9 @@
-question: Was sollten Sie tun, nachdem die Wörter Ihrer Mnemonik-Phrase aufgeschrieben wurden?
-answer: Machen Sie eine zweite Kopie und bewahren Sie diese an einem separaten Ort auf
+question: Was sollten Sie tun, nachdem die Wörter Ihrer mnemonischen Phrase aufgeschrieben wurden?
+answer: Machen Sie eine zweite Kopie und bewahren Sie diese an einem separaten Ort auf.
 wrong_answers:
-  - Teilen Sie es mit einem vertrauenswürdigen Freund
-  - Schicken Sie es sich selbst per E-Mail
-  - Speichern Sie es in Ihrem Telefon
+  - Teilen Sie es mit einem vertrauenswürdigen Freund.
+  - Senden Sie es sich selbst per E-Mail.
+  - Speichern Sie es in Ihrem Telefon.
 explanation: |
-  Sobald die Wörter Ihrer Mnemonik-Phrase aufgeschrieben wurden, wird empfohlen,
-  eine zweite Kopie anzufertigen und diese an einem vom ersten unterschiedlichen Ort aufzubewahren. Dies bietet
-  eine Sicherung für den Fall eines Verlusts oder eines Unfalls mit der ersten Kopie.
-reviewed: false
+  Sobald die Wörter Ihrer mnemonischen Phrase aufgeschrieben wurden, wird empfohlen, eine zweite Kopie anzufertigen und diese an einem vom ersten verschiedenen Ort aufzubewahren. Dies bietet eine Sicherungskopie für den Fall eines Verlusts oder eines Unfalls mit der ersten Kopie.
+reviewed: true

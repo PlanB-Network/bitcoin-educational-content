@@ -1,9 +1,8 @@
-question: Qual è la differenza tra una passphrase e una frase mnemonica in un portafoglio Bitcoin?
-answer: La passphrase è libera e può raggiungere una dimensione quasi infinita, mentre la frase mnemonica è standardizzata e deve seguire determinati vincoli di dimensione, checksum e codifica.
+question: Qual è la funzione principale dei descrittori degli script di output?
+answer: Descrivere completamente uno script di output e fornire le informazioni necessarie per ripristinare un portafoglio
 wrong_answers:
-  - La passphrase è standardizzata, mentre la frase mnemonica è libera e può raggiungere una dimensione quasi infinita.
-  - La passphrase e la frase mnemonica sono la stessa cosa.
-  - La passphrase è opzionale, mentre la frase mnemonica è obbligatoria.
+  - Generare automaticamente indirizzi multisignature
+  - Sostituire la frase mnemonica nei backup dei portafogli
+  - Semplificare i calcoli delle firme digitali
 explanation: |
-  Per derivare le chiavi di un portafoglio HD, sia la frase mnemonica che la passphrase sono necessarie. La passphrase è libera e può raggiungere una dimensione quasi infinita. Non è inclusa nella frase mnemonica, che è standardizzata e deve seguire determinati vincoli di dimensione, checksum e codifica.
-reviewed: false
+  I descrittori racchiudono tutte le informazioni necessarie per tracciare uno script specifico, inclusi il percorso di derivazione e le chiavi utilizzate, ma non la frase di recupero.

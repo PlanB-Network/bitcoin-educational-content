@@ -1,9 +1,12 @@
-question: ¿Por qué no se recomienda utilizar extensiones de navegador para el llenado automático de contraseñas?
-answer: Pueden hacer que el usuario sea más vulnerable a ataques de phishing, aumentar la superficie de ataque y ralentizar el rendimiento del navegador.
+question: ¿Por qué no se recomienda usar extensiones de navegador para el llenado automático de contraseñas?
+answer: Pueden hacer al usuario más vulnerable a ataques de phishing, aumentar la superficie de ataque y ralentizar el rendimiento del navegador.
 wrong_answers:
   - Son difíciles de usar.
   - No son compatibles con todos los navegadores.
   - Requieren mucho espacio de almacenamiento.
 explanation: |
-  Las extensiones de navegador para el llenado automático de contraseñas pueden hacer que el usuario sea más vulnerable a ataques de phishing. También tienden a aumentar la superficie de ataque y pueden ralentizar el rendimiento del navegador, lo que representa un riesgo significativo.
-reviewed: false
+  Las extensiones de navegador para el llenado automático de contraseñas pueden hacer
+  al usuario más vulnerable a ataques de phishing. También
+  tienden a aumentar la superficie de ataque y pueden ralentizar
+  el rendimiento del navegador, presentando así un riesgo significativo.
+reviewed: true

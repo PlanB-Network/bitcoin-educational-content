@@ -1,9 +1,11 @@
-question: ¿Cómo se ve a Bitcoin en relación a las monedas fiduciarias?
-answer: Una economía paralela
+question: En comparación con las monedas fiduciarias, ¿cómo se percibe a Bitcoin?
+answer: Como una economía paralela.
 wrong_answers:
-  - Una economía de reemplazo
-  - Una economía secundaria
-  - Una economía terciaria
-explanation: |
-  Bitcoin se ve como una economía paralela a las monedas fiduciarias, lo que significa que opera junto a las economías tradicionales y se puede utilizar para transacciones directamente, sin necesidad de pasar por una plataforma de intercambio.
-reviewed: false
+  - Como una economía de reemplazo.
+  - Como una economía industrial.
+  - Como una economía terciaria.
+explanation: >-
+  Bitcoin se ve como una economía paralela a las monedas fiduciarias, lo que significa que
+  opera junto a las economías tradicionales y puede ser utilizado para transacciones directamente,
+  sin la necesidad de pasar por una plataforma de intercambio.
+reviewed: true

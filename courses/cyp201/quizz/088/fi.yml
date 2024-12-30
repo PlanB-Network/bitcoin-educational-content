@@ -1,8 +1,8 @@
-question: Mitkä ovat ne kaksi olennaista elementtiä, joihin HD-lompakon perusta nojaa?
-answer: Muistisarja ja salasana.
+question: Mikä etuliite osoittaa tiivistetyn julkisen avaimen, jonka y-koordinaatti on pariton?
+answer: 0x03
 wrong_answers:
-  - Siemen ja pääyksityisavain.
-  - Pääketjukoodi ja siemen.
-  - Muistisarja ja pääyksityisavain.
+  - 0x02
+  - 0x04
+  - 0x00
 explanation: |
-  HD-lompakon perusta nojaa kahteen olennaiseen elementtiin; muistisarjaan ja salasanaan (valinnainen lisäsalasana). Yhdessä ne muodostavat siemenen, 512-bittisen alfanumeerisen sekvenssin, joka toimii perustana lompakon avainten johdannaisille.
+  Etuliite 0x03 osoittaa tiivistetyn julkisen avaimen, jonka y-koordinaatti on pariton.

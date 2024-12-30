@@ -1,11 +1,11 @@
 question: What is the purpose of the website Have I Been Pwned?
 answer: To check if your email address has been compromised and to be notified of future data breaches.
 wrong_answers:
-  - To check if your email address is valid.
-  - To check if your email address is available.
-  - To check if your email address has been blocked.
+  - To check if your email address is valid and to be notified of future data breaches.
+  - To check if your email address is available, and if so using it to register to a famous online pawn shop.
+  - To check if your email address has been blocked due to data compromise event.
 explanation: |
-  The website Have I Been Pwned allows you to check if your email address
-
-  has been compromised in a data breach and to be notified of future data breaches.'
-reviewed: false
+  The website Have I Been Pwned allows you to check if your
+  email address has been compromised in a data breach and to
+  be notified of future data breaches.
+reviewed: true

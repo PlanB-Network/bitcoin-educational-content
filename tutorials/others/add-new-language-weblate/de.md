@@ -20,7 +20,7 @@ Der erste Schritt besteht darin zu überprüfen, ob Ihre Sprache nicht bereits z
 ![language](assets/02.webp)
 Wenn Ihre Sprache in dieser Liste ist, müssen Sie sie nicht erneut hinzufügen. Um zu einer bestehenden Sprache beizutragen, haben wir ein weiteres Tutorial erstellt, das Sie entdecken können.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -30,7 +30,7 @@ Wenn Ihre Sprache nicht dabei ist, folgen Sie dem untenstehenden Tutorial, um si
 
 - Der erste Schritt besteht darin, ein Konto bei Weblate zu erstellen. Wenn Sie nicht wissen, wie das geht, können Sie unserem detaillierten Leitfaden folgen.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 - Sobald Ihr Konto erstellt ist, gehen Sie zum Menü `Website frontend element` und wählen Sie die Registerkarte `Languages`:
@@ -48,7 +48,7 @@ Um durch den Übersetzungsprozess geführt zu werden, schauen Sie sich unser spe
 
 Herzlichen Glückwunsch, Sie haben den Prozess der Übersetzung der PlanB Netzwerkseite in eine neue Sprache eingeleitet! Sie können beginnen, das gesamte Frontend über Weblate zu übersetzen.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
  Dies umfasst alle Texte auf der Website, mit Ausnahme von Bildungsinhalten (Kurse, Tutorials...), für die wir eine andere halbautomatisierte Humans x AI-Methode verwenden.
 Als Nächstes können Sie @asi0_flammeus auf Telegram kontaktieren, der Ihnen dabei helfen wird, einige Kurse zu überprüfen, die automatisch mit ihrem Modell übersetzt wurden. Wenn diese Inhalte als zufriedenstellend angesehen werden, können Sie fortfahren, alle anderen Inhalte auf der Website (Kurse, Tutorials...) zu überprüfen. Sobald diese Schritte abgeschlossen sind, können wir in Erwägung ziehen, die neue Sprache offiziell in die PlanB Network-Website zu integrieren, was es allen Sprechern Ihrer Sprache ermöglichen wird, ohne Barrieren auf qualitativ hochwertige Inhalte über Bitcoin zuzugreifen.

@@ -1,11 +1,12 @@
 question: Jaký je jeden unikátní způsob, jak se zapojit do ekosystému Bitcoinu prostřednictvím těžby?
-answer: Těžba Bitcoinu v zimě může být chytrý způsob, jak vytápět váš domov, zatímco generujete příjem v Bitcoinech.
+answer: Těžba Bitcoinu v zimě může být chytrým způsobem, jak vytápět váš domov a zároveň vydělávat Bitcoin.
 wrong_answers:
-  - Těžba Bitcoinu může být způsob, jak získat zdarma elektřinu.
-  - Těžba Bitcoinu může být způsob, jak získat zdarma internet.
-  - Těžba Bitcoinu může být způsob, jak získat zdarma hardware.
+  - Těžba Bitcoinu může být způsobem, jak získat zdarma elektřinu.
+  - Těžba Bitcoinu může být způsobem, jak získat zdarma internet.
+  - Těžba Bitcoinu může být způsobem, jak získat zdarma hardware.
 explanation: |
-  Jedním unikátním způsobem, jak se zapojit do ekosystému Bitcoinu prostřednictvím těžby,
-  je těžit Bitcoin v zimě. To může být chytrý způsob, jak vytápět váš domov, zatímco
-  generujete příjem v Bitcoinech.
-reviewed: false
+  Jedním unikátním způsobem, jak se zapojit do ekosystému Bitcoinu
+  prostřednictvím těžby, je těžit Bitcoin v zimě. To může
+  být chytrým způsobem, jak vytápět váš domov a zároveň vydělávat
+  Bitcoin.
+reviewed: true

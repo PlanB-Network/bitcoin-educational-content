@@ -1,9 +1,13 @@
-question: Tuyên bố Độc lập của Không gian Mạng là gì?
-answer: Một văn bản khẳng định rằng không gian mạng là một lĩnh vực riêng biệt so với không gian vật lý và không nên tuân theo cùng một bộ luật.
+question: Tuyên ngôn Độc lập của Không gian Mạng là gì?
+answer: Một văn bản khẳng định rằng không gian mạng là một lĩnh vực riêng biệt so với thế giới vật lý và không nên chịu sự chi phối bởi cùng một bộ luật.
 wrong_answers:
-  - Một tuyên bố về sự độc lập của Bitcoin khỏi hệ thống tài chính truyền thống.
-  - Một văn bản khẳng định rằng internet nên được tự do khỏi sự điều tiết của chính phủ.
-  - Một tuyên bố về sự độc lập của phong trào cướp biển khỏi mọi quy định.
+  - Một tuyên bố khẳng định sự độc lập của Bitcoin so với hệ thống tài chính truyền thống.
+  - Một văn bản khẳng định rằng không gian mạng nên được kiểm soát bởi quy định của chính phủ.
+  - Một tuyên bố ủng hộ sự độc lập của phong trào cướp biển khỏi bất kỳ sự quản lý nào.
 explanation: |
-  Tuyên bố Độc lập của Không gian Mạng được viết bởi John Perry Barlow vào năm 1996, khẳng định rằng không gian mạng là một lĩnh vực riêng biệt so với không gian vật lý mà các chính phủ công nghiệp không thể áp đặt quyền lực của mình.
-reviewed: false
+  Tuyên ngôn Độc lập của Không gian Mạng được
+  viết bởi John Perry Barlow vào năm 1996. Tài liệu này khẳng định
+  rằng không gian mạng là một lĩnh vực riêng biệt so với
+  thế giới vật lý, do đó các chính phủ công nghiệp không thể áp đặt
+  quyền lực của họ ở đó.
+reviewed: true

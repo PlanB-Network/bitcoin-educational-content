@@ -1,0 +1,9 @@
+question: 比特币网络中矿工的奖励是什么？
+answer: 新比特币和交易费。
+wrong_answers:
+  - 仅新比特币。
+  - 仅交易费。
+  - 矿工没有奖励。
+explanation:
+  比特币网络中的矿工通过验证和创建区块的工作，获得新比特币和交易费作为奖励。
+reviewed: true确

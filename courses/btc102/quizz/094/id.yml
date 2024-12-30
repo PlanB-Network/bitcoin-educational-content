@@ -1,0 +1,10 @@
+question: Apa saja praktik terbaik yang mungkin dipelajari oleh seorang Bitcoiner yang paranoid?
+answer: Pencampuran koin dan manajemen UTXO
+wrong_answers:
+  - Bagaimana cara mempercayai sistem terpusat
+  - Bagaimana cara berbagi informasi pribadi dengan aman
+  - Bagaimana cara menggunakan kartu kredit untuk membeli Bitcoin secara online
+explanation: |
+  Bab tersebut menyebutkan bahwa seorang Bitcoiner yang paranoid mungkin akan mendidik diri mereka sendiri
+  tentang praktik terbaik seperti pencampuran koin dan manajemen UTXO sebagai bagian dari fokus mereka
+  pada privasi dan keamanan.

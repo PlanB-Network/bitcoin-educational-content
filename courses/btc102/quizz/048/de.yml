@@ -1,9 +1,9 @@
-question: Was ist die Hauptcharakteristik einer "Blockchain" ohne Proof of Work?
+question: Was ist die Hauptcharakteristik einer Blockchain ohne Proof of Work?
 answer: Sie hat keinen realen Wert.
 wrong_answers:
   - Sie ist sicherer.
   - Sie ist schneller.
   - Sie ist dezentralisierter.
 explanation: |
-  Der Inhalt des Kapitels besagt, dass eine "Blockchain" ohne Proof of Work keinen realen Wert hat. Dies ist eine entscheidende Eigenschaft, die Bitcoin von anderen Kryptowährungen unterscheidet.
+  Der Inhalt des Kapitels besagt, dass eine Blockchain ohne Proof of Work keinen realen Wert hat. Dies ist eine entscheidende Eigenschaft, die Bitcoin von anderen Kryptowährungen unterscheidet.
 reviewed: false

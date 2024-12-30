@@ -1,9 +1,10 @@
-question: Quels sont les frais pour les transactions sur le Lightning Network souvent inférieurs à ?
-answer: 0,5%
+question: Les frais pour les transactions sur le Lightning Network sont extrêmement bas, souvent inférieurs à... ?
+answer: 0,5 %.
 wrong_answers:
-  - 1%
-  - 2%
-  - 3%
-explanation: |
-  Les frais pour les transactions sur le Lightning Network sont extrêmement bas, souvent inférieurs à 0,5%.
-reviewed: false
+  - 1 %.
+  - 2 %.
+  - 3 %.
+explanation: >-
+  Les frais pour les transactions sur le Lightning Network sont extrêmement bas, souvent
+  inférieurs à 0,5 %.
+reviewed: true

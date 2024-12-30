@@ -1,11 +1,9 @@
-question: What is the maximum quantity of Bitcoin units that can ever exist?
-answer: 21 million units
+question: Which of the following is not a Bitcoin characteristic?
+answer: It gets easily censored.
 wrong_answers:
-  - 25 million units
-  - 30 million units
-  - 50 million units
+  - It is instantly transportable.
+  - It has negligible costs of verification.
+  - It has a fixed monetary policy.
 explanation: |
-  Bitcoin's computer code and consensus of all users participating in the
-  protocol determine that the maximum quantity of Bitcoin units that can ever exist
-  is 21 million.
+  Bitcoin has all the necessary characteristics to be an efficient and healthy currency: divisible, instantly transportable, uncensorable, negligible cost for verification, and with a monetary policy already set for centuries to come with 21 million units.
 reviewed: true

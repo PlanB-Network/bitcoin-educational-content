@@ -1,0 +1,9 @@
+question: Která směnárenská služba vytvořená v březnu 2010 byla nejpopulárnější před vznikem Mt. Gox v červenci?
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Jednalo se o peer-to-peer tržiště využívající PayPal, které bylo spuštěno 16. března 2010 jedincem známým jako dwdollar a bylo hlavní platformou před Mt. Gox.
+reviewed: false

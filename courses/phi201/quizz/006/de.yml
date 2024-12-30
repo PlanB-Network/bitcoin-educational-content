@@ -1,0 +1,9 @@
+question: Was ist laut Bastiat die Quelle der Unterdrückung?
+answer: Der Durst nach Macht
+wrong_answers:
+  - Die grundsätzlich böse Natur des Menschen
+  - Das Fehlen von Macht
+  - Wirtschaftliche Ungleichheiten
+explanation: |
+  Bastiat identifiziert den Durst nach Macht als die grundlegende Quelle der Unterdrückung und argumentiert, dass diejenigen, die Macht besitzen, oft danach streben, diese auszuweiten und andere zu kontrollieren, was zu Missbräuchen und Verletzungen der individuellen Rechte führt.
+reviewed: false

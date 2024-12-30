@@ -1,0 +1,9 @@
+question: Tên đầu tiên của kỹ sư viễn thông đến từ Temple City, người đã bị một nhà báo của Newsweek nhận diện nhầm là Satoshi Nakamoto vào tháng 3 năm 2014 là gì?
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+  Tên đầy đủ của ông là Dorian Prentice Satoshi Nakamoto. Ông có nguồn gốc Nhật Bản. Xem [bài viết của Newsweek](https: //www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html).
+reviewed: false

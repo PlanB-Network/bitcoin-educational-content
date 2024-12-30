@@ -4,7 +4,8 @@ wrong_answers:
   - The color of the platform's logo.
   - The number of users on the platform.
   - The age of the platform.
-explanation: >-
-  The text mentions that when choosing a DCA platform, the choice will
-  depend more on availability in your country.
-reviewed: false
+explanation: |
+  This course text mentions that when choosing a DCA
+  platform, the right choice will depend more on its
+  availability in your country.
+reviewed: true

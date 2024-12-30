@@ -1,0 +1,11 @@
+question: Mis on multisig rahakott?
+answer: Rahakottide kogum, mis nõuab tehingu sooritamiseks mitut allkirja
+wrong_answers:
+  - Rahakott, mis nõuab tehingu sooritamiseks ühte allkirja
+  - Rahakott, mis ei nõua tehingu sooritamiseks ühtegi allkirja
+  - Rahakott, mis nõuab tehingu sooritamiseks füüsilist allkirja
+explanation: |
+  Multisig rahakott on Bitcoin'i rahakoti tüüp, mis nõuab tehingu sooritamiseks mitut
+  allkirja. See lisab lisakihi turvalisust, kuna see tähendab, et üksikisik ei saa
+  tehingut sooritada ilma teiste nõusolekuta.
+reviewed: true

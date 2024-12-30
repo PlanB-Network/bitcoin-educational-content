@@ -1,9 +1,10 @@
-question: Qual è stato il tasso di inflazione in Germania nell'ottobre 1923?
+question: Qual era il tasso di inflazione in Germania nell'ottobre 1923?
 answer: 29,50%.
 wrong_answers:
   - 200,9%.
   - 50,51%.
   - 25,98%.
 explanation: |
-  Il mese con l'inflazione più alta in Germania è stato ottobre 1923, raggiungendo il 29,50%.
-reviewed: false
+  Il mese con il tasso di inflazione più alto in Germania fu
+  ottobre 1923, raggiungendo il 29,50%.
+reviewed: vero

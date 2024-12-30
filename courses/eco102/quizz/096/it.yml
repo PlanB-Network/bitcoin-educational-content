@@ -1,0 +1,9 @@
+question: Qual è la caratteristica della giustizia negativa secondo Bastiat?
+answer: Impedisce che i diritti di alcuni siano usurpati da altri.
+wrong_answers:
+  - Non fa nulla e lascia che le dispute si risolvano da sole.
+  - Dannosa per i diritti di entrambe le parti.
+  - Crea uno squilibrio tra diritti individuali e collettivi.
+explanation: |
+  La giustizia negativa, secondo Bastiat, consiste nell'impedire l'usurpazione dei diritti, limitandosi quindi a proteggere i diritti naturali senza imporre azioni positive agli individui.
+reviewed: false

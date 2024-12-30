@@ -5,6 +5,6 @@ wrong_answers:
   - Può essere duplicato.
   - Può essere perso fisicamente.
 explanation: |
-  Il testo menziona che Bitcoin è un asset finanziario altamente volatile e
-  il suo prezzo può scendere a 0. Questo è uno dei rischi associati all'acquisto di Bitcoin.
-reviewed: false
+  Il testo del corso menziona che il Bitcoin è un asset finanziario altamente volatile,
+  e il suo prezzo può scendere a 0, che è uno dei rischi associati all'acquisto di Bitcoin.
+reviewed: vero

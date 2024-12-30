@@ -1,0 +1,13 @@
+question: TorをBitcoinノードに使用する主な欠点は何ですか？
+
+answer: 通信速度の低下
+
+wrong_answers:
+  - トランザクション手数料の増加
+  - トランザクションの検閲リスク
+  - ノードに対するエクリプス攻撃のリスク
+
+explanation: |
+  Tor経由の通信は遅くなります。この遅延は、ノードの初期起動時に特に問題となります。なぜなら、IBD（Initial Block Download）では多くの通信が必要とされるからです。
+
+reviewed: false

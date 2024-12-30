@@ -1,10 +1,12 @@
 question: Quel est le but principal de l'unité Bitcoin ?
 answer: L'unité Bitcoin est la monnaie nécessaire au bon fonctionnement du protocole Bitcoin.
 wrong_answers:
-  - L'unité Bitcoin est utilisée pour réguler le prix du Bitcoin.
-  - L'unité Bitcoin est utilisée pour contrôler le protocole Bitcoin.
-  - L'unité Bitcoin est utilisée pour créer de nouveaux bitcoins.
+  - L'unité Bitcoin est une équipe qui régule le prix du Bitcoin.
+  - L'unité Bitcoin est une autorité centrale qui contrôle le protocole Bitcoin.
+  - L'unité Bitcoin est une plateforme d'échange de Bitcoin.
 explanation: |
-  L'unité Bitcoin est la monnaie nécessaire au bon fonctionnement du protocole Bitcoin.
-  Elle est utilisée pour les transactions et repose sur le protocole Bitcoin pour fonctionner.
-reviewed: false
+  L'unité Bitcoin est la monnaie nécessaire au bon
+  fonctionnement du protocole Bitcoin. Elle est utilisée pour
+  les transactions et repose sur le protocole Bitcoin pour
+  fonctionner.
+reviewed: true

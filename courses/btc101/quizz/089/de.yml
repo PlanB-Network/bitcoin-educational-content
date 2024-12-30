@@ -1,9 +1,9 @@
-question: Was ist das Risiko, die Sicherheit und Zugänglichkeit Ihrer Bitcoins zu überkomplizieren?
-answer: Sie können sich selbst schaden, wenn Sie die Backup-Wallets falsch behandeln.
+question: Was ist das Risiko, die Sicherheit und Zugänglichkeit Ihrer Bitcoins zu kompliziert zu gestalten?
+answer: Sie können sich selbst schaden, wenn Sie die Backup-Wallets falsch handhaben.
 wrong_answers:
-  - Sie können sich selbst schaden, wenn Sie die physischen Wallets falsch behandeln.
-  - Sie können sich selbst schaden, wenn Sie die digitalen Wallets falsch behandeln.
-  - Sie können sich selbst schaden, wenn Sie die Multisig-Wallets falsch behandeln.
+  - Sie können sich selbst schaden, wenn Sie die physischen Wallets falsch handhaben.
+  - Sie können sich selbst schaden, wenn Sie die digitalen Wallets falsch handhaben.
+  - Sie können sich selbst schaden, wenn Sie die Multisig-Wallets falsch handhaben.
 explanation: |
-  Die Überkomplizierung der Sicherheit und Zugänglichkeit Ihrer Bitcoins kann Ihnen schaden, wenn Sie zum Beispiel die Backups Ihrer Wallets falsch behandeln. Dies liegt daran, dass einfache Backup-Verfahren entscheidend sind, um den Zugriff auf Ihre Mittel im Falle eines Verlusts Ihres Telefons oder Computers wiederherzustellen.
-reviewed: false
+  Die Sicherheit und Zugänglichkeit Ihrer Bitcoins zu kompliziert zu gestalten, kann Ihnen schaden, wenn Sie beispielsweise die Backups Ihrer Wallets falsch handhaben. Dies liegt daran, dass einfache Backup-Verfahren entscheidend sind, um den Zugriff auf Ihre Mittel wiederzuerlangen, falls Sie Ihr Telefon oder Ihren Computer verlieren.
+reviewed: true

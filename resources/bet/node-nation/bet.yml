@@ -1,0 +1,24 @@
+builder: Node Nation
+type: Educational Content
+links:
+  download: https://workspace.planb.network/s/SJ9dbHxMP6jNsrG
+  view:
+    - es: https://workspace.planb.network/s/eN6N4GRxETS2Cqb
+    - en: https://workspace.planb.network/s/nLJoitoHYYFsMCs
+    - fr: https://workspace.planb.network/s/xYmLWyXew2XJdL9
+    - pt: https://workspace.planb.network/s/EgCpTLpmEHBGKQa
+tags:
+  - guides
+  - adoption
+contributors:
+  - another-satoshi
+
+# Proofreading metadata
+original_language: es
+proofreading:
+  - language: es
+    last_contribution_date: 2024-11-16
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 0

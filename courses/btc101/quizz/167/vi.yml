@@ -1,10 +1,14 @@
-question: Lời chỉ trích chính đối với hệ thống tài chính hiện tại liên quan đến môi trường là gì?
-
-answer: Nó khuyến khích tiêu dùng quá mức và nợ nần
-
+question: Vấn đề chính của hệ thống tài chính hiện tại liên quan đến môi trường là gì?
+  môi trường?
+answer: Nó khuyến khích tiêu dùng quá mức và nợ nần.
 wrong_answers:
-  - Nó thúc đẩy việc sử dụng nhiên liệu hóa thạch
-  - Nó không đầu tư vào năng lượng tái tạo
-  - Nó không quản lý việc sản xuất hàng hóa
-
-explanation: Hệ thống tài chính hiện tại bị chỉ trích vì khuyến khích tiêu dùng quá mức và nợ nần, điều này gây ra các vấn đề môi trường nghiêm trọng. Điều này là do việc dễ dàng tiếp cận tín dụng, việc phát hành tiền tệ bởi các ngân hàng, và việc sử dụng hệ thống dự trữ một phần.
+  - Nó thúc đẩy việc sử dụng nhiên liệu hóa thạch.
+  - Nó không đầu tư vào năng lượng tái tạo.
+  - Nó không quản lý việc sản xuất hàng hóa.
+explanation: |
+  Hệ thống tài chính hiện tại bị chỉ trích vì khuyến khích
+  tiêu dùng quá mức và nợ nần, điều này gây ra những
+  vấn đề môi trường nghiêm trọng. Điều này là do việc dễ dàng tiếp cận
+  với tín dụng, phát hành tiền tệ bởi các ngân hàng, và việc sử dụng
+  hệ thống dự trữ một phần.
+reviewed: true

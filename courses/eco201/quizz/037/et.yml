@@ -1,0 +1,9 @@
+question: Mis juhtub, kui intressimäärad langevad krediidi suurenemise tõttu vastavalt Austria äritsükli teooriale?
+answer: Ettevõtjad saavad laenata rohkem ressursse ja seeläbi luua kõrgema taseme tootmisetappe. See tootmisstruktuuri laiendamine ei too kaasa tarbimise vähenemist, kuna tarbijad ei ole oma praegust tarbimist edasi lükanud. Teisisõnu, SKP kasvab.
+wrong_answers:
+  - Ettevõtjad saavad laenata vähem ressursse ja seeläbi luua madalama taseme tootmisetappe. See tootmisstruktuuri laiendamine toob kaasa tarbimise suurenemise, kuna tarbijad on oma praegust tarbimist edasi lükanud. Teisisõnu, SKP kahaneb.
+  - Ettevõtjad saavad laenata rohkem ressursse ja seeläbi luua madalama taseme tootmisetappe. See tootmisstruktuuri laiendamine toob kaasa tarbimise vähenemise, kuna tarbijad ei ole oma praegust tarbimist edasi lükanud. Teisisõnu, SKP kahaneb.
+  - Ettevõtjad saavad laenata vähem ressursse ja seeläbi luua kõrgema taseme tootmisetappe. See tootmisstruktuuri laiendamine toob kaasa tarbimise suurenemise, kuna tarbijad on oma praegust tarbimist edasi lükanud. Teisisõnu, SKP kasvab.
+explanation: |
+  Austria äritsükli teooria kohaselt, kui intressimäärad langevad krediidi suurenemise tõttu, saavad ettevõtjad laenata rohkem ressursse ja seeläbi luua kõrgema taseme tootmisetappe. See tootmisstruktuuri laiendamine ei too kaasa tarbimise vähenemist, kuna tarbijad ei ole oma praegust tarbimist edasi lükanud. Teisisõnu, SKP kasvab.
+reviewed: false

@@ -1,10 +1,10 @@
 question: What is a pruned node in the context of Bitcoin?
-answer: A node that only keeps the last N blocks in memory
+answer: A node that only keeps the last N blocks in memory.
 wrong_answers:
-  - A node that only validates transactions
-  - A node that only transmits information to other nodes
-  - A node that only enforces the rules of the Bitcoin protocol
+  - A node that only validates transactions.
+  - A node that only transmits information to other nodes.
+  - A node that only enforces the rules of the Bitcoin protocol.
 explanation: >-
   A pruned node in the context of Bitcoin is a node that only keeps the
   last N blocks in memory.
-reviewed: false
+reviewed: true

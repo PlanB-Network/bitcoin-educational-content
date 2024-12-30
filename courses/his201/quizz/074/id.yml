@@ -1,0 +1,9 @@
+question: Apa nama depan dari insinyur telekomunikasi dari Temple City yang secara keliru diidentifikasi oleh seorang jurnalis Newsweek sebagai Satoshi Nakamoto pada Maret 2014?
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+  Nama lengkapnya adalah Dorian Prentice Satoshi Nakamoto. Dia berketurunan Jepang. Lihat [artikel Newsweek](https: //www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html).
+reviewed: false

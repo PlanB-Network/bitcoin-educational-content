@@ -1,0 +1,9 @@
+question: Welches bedeutende Ereignis markierte das Ende der Dollar-Konvertibilität in Gold?
+answer: Der Nixon-Schock
+wrong_answers:
+  - Die Große Depression
+  - Der Ölschock
+  - Der Zweite Weltkrieg
+explanation: |
+  Der Nixon-Schock im Jahr 1971 beendete die Konvertibilität des Dollars in Gold, was das Ende des Bretton-Woods-Systems und den Beginn von frei schwankenden Währungen markierte, da die Vereinigten Staaten den Umtausch von Gold in Dollar nicht länger unterstützen konnten.
+reviewed: false

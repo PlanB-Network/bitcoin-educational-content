@@ -1,9 +1,12 @@
-question: Miksi biometrinen data katsotaan vähemmän turvalliseksi kuin tiedon ja hallussapidon yhdistelmä 2FA:ssa?
-answer: Biometrinen data tulisi säilyttää tunnistuslaitteessa eikä sitä tulisi paljastaa verkossa.
+question: Miksi biometriset tiedot katsotaan vähemmän turvallisiksi kuin tiedon ja hallussapidon yhdistelmä 2FA; ssa?
+answer: Biometriset tiedot tulisi säilyttää tunnistuslaitteessa eikä niitä tulisi paljastaa verkossa.
 wrong_answers:
-  - Biometrinen data on helpompi väärentää
-  - Biometristä dataa on vaikeampi muistaa
-  - Biometrisen datan käyttöönotto on kalliimpaa
+  - Biometriset tiedot on helpompi poimia, vaikka ne säilytettäisiin offline-tilassa tunnistuslaitteessa.
+  - Biometriset tiedot ovat sekä vaikeampia muistaa että käyttää tunnistuslaitetta käytettäessä.
+  - Biometristen tietojen työkalut ovat kalliimpia toteuttaa, joten ne eivät ole kustannustehokkaita verrattuna muihin ratkaisuihin.
 explanation: |
-  Biometrinen data on vähemmän turvallista, koska sen tulisi pysyä tunnistuslaitteessa eikä sitä tulisi paljastaa verkossa. Jos se paljastetaan verkossa, sitä voidaan varastaa ja käyttää luvattomaan pääsyyn.
-reviewed: false
+  Biometriset tiedot ovat vähemmän turvallisia, koska ne tulisi säilyttää
+  tunnistuslaitteessa eikä niitä tulisi paljastaa verkossa. Jos
+  ne paljastetaan verkossa, ne voidaan varastaa ja käyttää
+  luvattomaan pääsyyn.
+reviewed: true

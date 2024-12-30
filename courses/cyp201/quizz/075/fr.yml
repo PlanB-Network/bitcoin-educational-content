@@ -1,9 +1,9 @@
-question: Quelle fonction est utilisée pour générer la graine à partir de la phrase secrète dans un portefeuille Bitcoin ?
-answer: pbkdf2
+question: Quel chemin de dérivation est utilisé pour un compte SegWit v0 dans un descriptor standard ?
+answer: 84h/0h/0h
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  La fonction pbkdf2 est utilisée pour générer la graine à partir de la phrase secrète dans un portefeuille Bitcoin. Cette graine permet la dérivation de toutes les paires de clés enfants du portefeuille.
+  Le chemin 84h/0h/0h est défini dans le BIP84 pour un compte dérivant des adresses SegWit v0 avec P2WPKH.
 reviewed: false

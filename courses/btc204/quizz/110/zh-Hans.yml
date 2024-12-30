@@ -1,0 +1,11 @@
+question: 什么是Stonewall交易？
+
+answer: 一种模仿迷你-coinjoin的交易，但实际上并不是
+
+wrong_answers:
+  - 一种以迷你-coinjoin形式的支付交易
+  - 一种涉及三名参与者的协作交易
+  - 一种交易，涉及到输入中的接收者
+
+explanation: |
+  Stonewall是一种特定形式的比特币交易，旨在通过模仿两人之间的迷你-coinjoin来增加用户在消费时的隐私，但实际上并不是coinjoin。

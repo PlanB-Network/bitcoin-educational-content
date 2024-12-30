@@ -8,7 +8,7 @@ description: Как добавить парольную фразу к вашем
 
 Прежде чем начать этот учебник, если вы не знакомы с концепцией парольной фразы, как она работает и каковы ее последствия для вашего биткойн-кошелька, я настоятельно рекомендую проконсультироваться с этой другой теоретической статьей, где я все объясняю:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Как работает функция парольной фразы на Ledger?
 
@@ -28,9 +28,9 @@ https://planb.network/tutorials/wallet/passphrase
 **Внимание:** Если вы уже получили биткойны на ваш Ledger до активации парольной фразы, вам нужно будет перевести их через биткойн-транзакцию. Парольная фраза генерирует набор новых ключей, создавая кошелек, который полностью независим от вашего первоначального кошелька. При добавлении парольной фразы у вас появится новый кошелек, который будет пустым. Однако это не удаляет ваш первый кошелек без парольной фразы. Вы все еще можете получить к нему доступ, либо напрямую через ваш Ledger, не вводя парольную фразу, либо через другое программное обеспечение, используя вашу 24-словную фразу.
 Перед началом этого руководства убедитесь, что вы уже инициализировали ваш Ledger и сгенерировали вашу мнемоническую фразу. Если это не так и ваш Ledger новый, следуйте специальному руководству для вашей модели, доступному на PlanB Network. После завершения этого шага вы можете вернуться к этому руководству.
 
-https://planb.network/tutorials/wallet/ledger-flex
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
-https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Как настроить временную парольную фразу с Ledger?
 
@@ -158,4 +158,4 @@ https://planb.network/tutorials/wallet/ledger
 
 Я также рекомендую вам ознакомиться с этим другим полным учебником о том, как использовать ваш Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

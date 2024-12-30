@@ -1,10 +1,9 @@
-question: What changes the distribution of capacity in a Lightning payment channel?
-answer: Transactions inside the channel
+question: If Alice sends 40,000 satoshis to Bob from a payment channel where she initially has 100,000 satoshis, how much funds does she have left after the transaction?
+answer: 60,000 satoshis
 wrong_answers:
-  - Changes in the Bitcoin exchange rate
-  - Changes in the total capacity of the channel
-  - Changes in the Bitcoin network
+  - 30,000 satoshis
+  - 40,000 satoshis
+  - 140,000 satoshis
 explanation: |
-  Transactions inside the channel do not change the total capacity of the
-  channel, but they do change the distribution of that capacity between the users.
+  After sending 40,000 satoshis, Alice's balance in the channel is 60,000 satoshis.
 reviewed: false

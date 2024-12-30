@@ -1,11 +1,12 @@
 question: Quel est le lien entre Bitcoin et l'avenir de la technologie et de la société ?
-answer: Bitcoin représente une révolution technologique pour de nouveaux modes d'organisation à grande échelle, permettant l'échange de valeur sans aucune partie de confiance.
+answer: Bitcoin est une révolution technologique qui permet l'échange de valeur sans aucun tiers de confiance.
 wrong_answers:
-  - Bitcoin est une forme de technologie IA.
-  - Bitcoin est un outil pour contrôler la population mondiale.
+  - Bitcoin est une forme de technologie IA qui permet aux gens d'échanger des informations via un serveur central.
+  - Bitcoin est un outil pour contrôler la population mondiale, permettant l'élimination de la pauvreté.
   - Bitcoin est une méthode pour que les gouvernements suivent les transactions financières de leurs citoyens.
-explanation: >-
-  Le texte explique que Bitcoin, à l'instar d'internet pour les modes de
-  communication,
-  est une révolution technologique pour de nouveaux modes d'organisation à grande échelle, nous offrant la possibilité d'échanger de la valeur sans aucune partie de confiance.
-reviewed: false
+explanation: |
+  Le texte explique que Bitcoin, à l'instar d'internet pour les moyens
+  de communication, est une révolution technologique qui
+  crée la possibilité de nouveaux modes d'organisation à grande échelle,
+  nous apportant la possibilité d'échanger de la valeur sans aucun tiers de confiance.
+reviewed: true

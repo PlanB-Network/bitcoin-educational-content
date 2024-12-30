@@ -1,0 +1,8 @@
+question: Hvilken informasjon er ikke inkludert i en utvidet nøkkel?
+answer: Nøkkelens transaksjonshistorikk
+wrong_answers:
+  - Nøkkelens indeksnummer
+  - Nøkkelen (privat eller offentlig)
+  - Kjedekoden
+explanation: |
+  En utvidet nøkkel inneholder kun informasjonen som er nødvendig for å avlede barnenøkler, ikke informasjon relatert til transaksjoner.

@@ -1,10 +1,13 @@
 question: What is the main advantage of gold as a currency?
-answer: It is incredibly durable
+answer: It is incredibly durable.
 wrong_answers:
-  - It is easily divisible or transportable over long distances
-  - It is easily verifiable
-  - It is not regulated by government
+  - It is easily divisible or transportable over long distances.
+  - It is easily verifiable.
+  - It is not regulated by government.
 explanation: |
-  Although it is not easily divisible or transportable over long distances,  which made it good a store
-  of value, but not a common currency nowadays.
+  Although it is not easily divisible or transportable over
+  long distances, gold is a very durable material, which
+  makes it good a store of value. Gold coins were used as a
+  currency in the past, but they would not serve the same
+  purpose in today's digital era.
 reviewed: true

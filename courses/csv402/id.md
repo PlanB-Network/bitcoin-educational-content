@@ -117,11 +117,11 @@ Semoga sukses dengan studi Anda, dan jika Anda perlu menghubungi tim kami atau g
 ## Kata Penutup
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-Terima kasih telah berpartisipasi dalam kursus RGB yang ditawarkan oleh PlanB Network bekerja sama dengan Fulgur'Ventures. Kami mengucapkan terima kasih kepada para pengajar kami atas dukungan mereka. Jika Anda tertarik untuk melanjutkan pekerjaan Anda dengan RGB, berikut adalah daftar sumber daya yang berguna untuk Anda jelajahi:
+Terima kasih telah berpartisipasi dalam kursus RGB yang ditawarkan oleh Plan ₿ Network bekerja sama dengan Fulgur'Ventures. Kami mengucapkan terima kasih kepada para pengajar kami atas dukungan mereka. Jika Anda tertarik untuk melanjutkan pekerjaan Anda dengan RGB, berikut adalah daftar sumber daya yang berguna untuk Anda jelajahi:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-Terima kasih dan semoga sukses dengan studi Anda di PlanB Network.
+Terima kasih dan semoga sukses dengan studi Anda di Plan ₿ Network.

@@ -1,11 +1,9 @@
-question: What is the main function of a Bitcoin wallet?
-answer: It refers to a collection of private cryptographic keys derived from a single master key.
+question: Why is a 24-word mnemonic phrase often considered superfluous for a Bitcoin wallet?
+answer: The derived keys only offer 128 bits of security
 wrong_answers:
-  - It is a physical device that stores cryptocurrencies.
-  - It is a digital platform for buying and selling cryptocurrencies.
-  - It is a software that mines new bitcoins.
+  - The software does not support 24-word phrases
+  - It does not allow for the derivation of public keys
+  - Shorter phrases are not standardized
 explanation: |
-  A Bitcoin wallet, specifically a Hierarchical Deterministic Wallet (HD
-  wallet), is a collection of private cryptographic keys derived from a single master
-  key. These keys are essential for cryptocurrency ownership.
+  Although a 24-word phrase offers 256 bits of security, the derived Bitcoin private keys only guarantee 128 bits of security, making the excess unnecessary.
 reviewed: false

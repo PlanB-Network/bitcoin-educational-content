@@ -5,5 +5,6 @@ wrong_answers:
   - Vous perdez 60% de votre pouvoir d'achat.
   - Vous perdez 30% de votre pouvoir d'achat.
 explanation: |
-  Avec une inflation de 20%, vous perdez presque la moitié de votre pouvoir d'achat en 3 ans.
-reviewed: false
+  Avec une inflation de 20%, vous perdez presque la moitié de votre pouvoir
+  d'achat en 3 ans.
+reviewed: true

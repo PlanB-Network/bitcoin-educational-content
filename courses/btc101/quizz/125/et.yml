@@ -1,0 +1,10 @@
+question: Mis kuupäeval toimus viimane teadaolev privaatne e-kirjavahetus Satoshi Nakamoto'ga?
+answer: 23. aprill 2011
+wrong_answers:
+  - 12. detsember 2010
+  - 8. jaanuar 2009
+  - 31. oktoober 2008
+explanation: >-
+  Viimase teadaoleva privaatse e-kirjavahetuse kuupäev Satoshi Nakamoto'ga e-posti teel
+  on 23. aprill 2011, arendaja Mike Hearniga.
+reviewed: true

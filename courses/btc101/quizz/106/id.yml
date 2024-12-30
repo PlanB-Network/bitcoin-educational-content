@@ -1,0 +1,10 @@
+question: Mengapa disarankan untuk menghindari menyimpan Bitcoin Anda di platform pertukaran?
+answer: Mereka dapat rentan terhadap serangan peretas
+wrong_answers:
+  - Platform pertukaran membebankan biaya acak
+  - Bitcoin kehilangan nilai di platform pertukaran
+  - Platform pertukaran bukanlah institusi yang diatur
+explanation: |
+  Disarankan untuk menghindari menyimpan Bitcoin Anda di platform pertukaran
+  karena mereka dapat rentan terhadap serangan peretas.
+reviewed: true

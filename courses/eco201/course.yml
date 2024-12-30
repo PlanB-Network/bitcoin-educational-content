@@ -1,7 +1,7 @@
 topic: social studies
 subtopic: economy
 level: intermediate
-hours: 12
+hours: 5
 
 professors:
   - hazard-bonus
@@ -67,7 +67,7 @@ proofreading:
       - Reshetenko
     reward: 27596
   - language: vi
-    last_contribution_date: 2024-09-21
+    last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - Henry-Da0

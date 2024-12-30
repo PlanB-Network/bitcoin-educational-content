@@ -1,0 +1,9 @@
+question: Hvorfor er det avgjørende å regelmessig oppdatere operativsystemet og applikasjonene?
+answer: For å beskytte mot nye trusler og sårbarheter.
+wrong_answers:
+  - For å gjøre maskinen foreldet.
+  - For å senke maskinens hastighet.
+  - For å endre brukergrensesnittet.
+explanation: |
+  Regelmessige oppdateringer er essensielle for å beskytte systemet mot nye trusler
+  og sårbarheter. De er ikke ment for å gjøre maskinen foreldet eller treg.

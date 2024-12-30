@@ -5,7 +5,5 @@ wrong_answers:
   - Strategioita Bitcoinin ostamiseen.
   - Bitcoinia koskevia säädöksiä.
 explanation: >-
-  Teksti selittää, että FOMO (Fear of Missing Out) ja FUD (Fear, Uncertainty,
-  Doubt) ovat tunteita, jotka voivat johtaa impulsiiviseen ja mahdollisesti haitalliseen päätöksentekoon
-  Bitcoinia ostettaessa.
-reviewed: false
+  Teksti selittää, että FOMO (Fear of Missing Out) ja FUD (Fear, Uncertainty, Doubt) ovat tunteita, jotka voivat johtaa impulsiiviseen ja mahdollisesti haitalliseen päätöksentekoon Bitcoinia ostaessa.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Hvor mange bitcoins finnes det totalt?
+answer: 21 millioner
+wrong_answers:
+  - 21 milliarder
+  - 21 tusen
+  - 21 billioner
+explanation: |
+  Det finnes kun 21 millioner bitcoins totalt. Dette er et grunnleggende aspekt
+  ved Bitcoins design og bidrar til dens knapphet.
+reviewed: false

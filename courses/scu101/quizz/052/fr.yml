@@ -1,9 +1,12 @@
-question: Pourquoi les jetons matériels, tels que les clés USB ou les cartes à puce, sont-ils considérés comme offrant une sécurité optimale pour l'authentification à deux facteurs (2FA) ?
+question: Pourquoi les jetons matériels, tels que les clés USB ou les cartes intelligentes, sont-ils considérés comme offrant une sécurité optimale pour l'authentification à deux facteurs (2FA) ?
 answer: Ils génèrent une clé privée unique pour chaque site et vérifient l'URL avant d'autoriser la connexion.
 wrong_answers:
-  - Ils sont physiquement plus difficiles à voler.
-  - Ils sont plus chers, donc ils doivent être meilleurs.
-  - Ils sont une technologie plus récente, donc ils doivent être meilleurs.
+  - Ils sont physiquement plus difficiles à voler, mais si les voleurs réussissent, ils extrairont facilement les secrets de l'appareil.
+  - Ils génèrent un seul mot de passe qui va être utilisé pour chaque site et vérifient l'URL avant d'autoriser la connexion.
+  - Ils représentent une technologie plus récente et sont coûteux, donc ils doivent être meilleurs.
 explanation: |
-  Les jetons matériels offrent une sécurité optimale car ils génèrent une clé privée unique pour chaque site et vérifient l'URL avant d'autoriser la connexion. Cela rend beaucoup plus difficile pour un pirate informatique d'accéder de manière non autorisée.
-reviewed: false
+  Les jetons matériels offrent une sécurité optimale car ils
+  génèrent une clé privée unique pour chaque site et vérifient
+  l'URL avant d'autoriser la connexion. Cela rend beaucoup
+  plus difficile pour un pirate d'accéder sans autorisation.
+reviewed: true

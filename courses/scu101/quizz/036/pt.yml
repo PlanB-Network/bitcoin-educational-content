@@ -1,9 +1,17 @@
-question: Qual é o objetivo do site Have I Been Pwned?
-answer: Verificar se o seu endereço de e-mail foi comprometido e ser notificado sobre futuras violações de dados.
+question: Qual é o propósito do site Have I Been Pwned?
+answer: Verificar se o seu endereço de email foi comprometido e ser notificado sobre futuros vazamentos de dados.
 wrong_answers:
-  - Verificar se o seu endereço de e-mail é válido.
-  - Verificar se o seu endereço de e-mail está disponível.
-  - Verificar se o seu endereço de e-mail foi bloqueado.
+  - Verificar se o seu endereço de email é válido e ser notificado sobre futuros vazamentos de dados.
+  - Verificar se o seu endereço de email está disponível, e se estiver, usá-lo para se registrar em uma famosa loja online de penhores.
+  - Verificar se o seu endereço de email foi bloqueado devido a um evento de comprometimento de dados.
 explanation: |
-  O site Have I Been Pwned permite que você verifique se o seu endereço de e-mail foi comprometido em uma violação de dados e seja notificado sobre futuras violações de dados.
-reviewed: false
+  O site Have I Been Pwned permite que você verifique se o
+  seu endereço de email foi comprometido em um vazamento de dados e ser
+  notificado sobre futuros vazamentos de dados.' foi comprometido
+  em um vazamento de dados e ser notificado sobre futuros vazamentos
+  de dados.' foi comprometido em um vazamento de dados e ser
+  notificado sobre futuros vazamentos de dados.' foi comprometido em
+  um vazamento de dados e ser notificado sobre futuros vazamentos de dados.'
+
+  foi comprometido em um vazamento de dados e ser notificado sobre futuros vazamentos de dados.'
+reviewed: true

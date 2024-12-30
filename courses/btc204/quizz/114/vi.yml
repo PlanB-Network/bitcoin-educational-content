@@ -1,0 +1,13 @@
+question: Tại sao nhà phân tích không áp dụng COINJOIN cho một giao dịch kiểu Stonewall?
+
+answer: Bởi vì có 2 đầu ra với cùng một số lượng
+
+wrong_answers:
+  - Bởi vì chỉ có 2 đầu vào
+  - Bởi vì họ không quen thuộc với mẫu này
+  - Bởi vì có nhiều đầu ra hơn so với đầu vào
+
+explanation: |
+  Phân tích một giao dịch Stonewall từ bên ngoài không dẫn đến việc áp dụng COINJOIN, bởi vì sự hiện diện của hai đầu ra với cùng một số lượng gợi ý một mẫu coinjoin. Từ quan điểm bên ngoài, COINJOIN do đó không áp dụng được trong trường hợp cụ thể này.
+
+reviewed: false

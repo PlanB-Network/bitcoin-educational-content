@@ -1,10 +1,17 @@
 question: Vai trò của ASICs trong việc đào Bitcoin là gì?
 
-answer: ASICs là những máy được thiết kế riêng để áp dụng thuật toán SHA256 trong quá trình đào.
+answer: ASICs là những máy móc được thiết kế riêng để áp dụng thuật toán SHA256 trong quá trình đào.
 
 wrong_answers:
-  - ASICs được sử dụng để xác minh các giao dịch Bitcoin.
-  - ASICs được sử dụng để tạo ra bitcoin mới.
+  - ASICs được sử dụng để xác minh các giao dịch Bitcoin bằng cách áp dụng thuật toán SHA256 trong quá trình xác minh.
+  - ASICs được sử dụng để tạo mới bitcoins một cách tùy ý.
   - ASICs được sử dụng để bảo vệ mạng lưới Bitcoin.
 
-explanation: ASICs (Mạch Tích Hợp Đặc Biệt cho Ứng Dụng cụ thể) là phần cứng chuyên biệt được thiết kế đặc biệt cho việc đào Bitcoin. Chúng được tối ưu hóa để thực hiện chức năng băm SHA256, đây là bài toán toán học mà các thợ đào phải giải quyết trong Quá trình Chứng minh Công việc.
+explanation:
+  ASICs (Application-Specific Integrated Circuits) là
+  phần cứng chuyên biệt được thiết kế đặc biệt cho việc
+  đào Bitcoin. Chúng được tối ưu hóa để thực hiện chức năng băm SHA256,
+  đây là bài toán toán học mà các thợ đào
+  phải giải quyết trong quá trình Chứng minh Công việc (Proof of Work).
+
+reviewed: true

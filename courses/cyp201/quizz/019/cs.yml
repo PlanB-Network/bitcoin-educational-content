@@ -1,10 +1,9 @@
-question: Jaká je role PBKDF2 v protokolu Bitcoin?
-answer: Používá se k převodu mnemonické fráze na seed.
+question: Jaká matematická operace je základem bezpečnosti eliptické křivkové kryptografie?
+answer: Diskrétní logaritmus
 wrong_answers:
-  - Používá se k odražení útoků typu length extension při odvozování hierarchicky deterministických (HD) peněženek.
-  - Používá se k generování výstupu pevné velikosti.
-  - Používá se k přidání dodatečného zdroje entropie při odvozování klíče.
+  - Faktorizace prvočísel
+  - Výpočet kvadratických zbytků
+  - Diskrétní kubický problém
 explanation: |
-  PBKDF2 se používá k převodu mnemonické fráze na seed. Tento algoritmus
-  provádí 2048 kol pomocí HMAC SHA512.
+  Bezpečnost eliptické křivkové kryptografie je založena na obtížnosti řešení problému diskrétního logaritmu na těchto křivkách.
 reviewed: false

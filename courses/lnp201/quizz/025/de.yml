@@ -1,9 +1,8 @@
-question: Was ist die Rolle der Commitment-Transaktion im Lightning-Netzwerk?
-answer: Sie aktualisiert den Saldo des Kanals nach jeder Übertragung.
+question: Welche drei Methoden gibt es, um einen Kanal im Lightning-Netzwerk zu schließen?
+answer: Kooperativer Abschluss, erzwungener Abschluss, Abschluss mit Betrug
 wrong_answers:
-  - Sie eröffnet den Kanal.
-  - Sie schließt den Kanal.
-  - Sie überträgt die Gelder.
+  - Schneller Abschluss, langsamer Abschluss, Abschluss mit Doppelsignatur
+  - Sicherer Abschluss, automatisierter Abschluss, Abschluss mit Verlust von Geldern
+  - Direkter Abschluss, indirekter Abschluss, Abschluss mit Anspruch
 explanation: |
-  Die Commitment-Transaktion ist eine neuere Transaktion, die den Saldo des Kanals nach jeder Übertragung aktualisiert. Sie wird nur ausgeführt, wenn der Kanal geschlossen wird.
-reviewed: false
+  Es gibt drei Methoden: kooperativer Abschluss, bei dem die Parteien zustimmen, erzwungener Abschluss ohne eine Antwort von einer Partei und Abschluss mit Betrug, bei dem eine Partei versucht, eine alte Transaktion zu veröffentlichen.

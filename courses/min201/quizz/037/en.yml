@@ -1,12 +1,13 @@
 question: What is the potential downside of mining for profit?
-answer: It can lead to the centralization of hashing power and have a significant environmental impact
+answer: It can lead to the centralization of hashing power and could also have a significant environmental impact
 wrong_answers:
   - It can lead to a decrease in the price of Bitcoin
   - It can lead to a decrease in the hashrate of the network
   - It can lead to a decrease in the number of active nodes in the network
 explanation: |
-  Mining for profit can lead to the centralization of hashing power if
-  only a few large companies can afford to invest in high-end mining equipment. Additionally,
-  the energy consumption of mining for profit can have a significant environmental
-  impact.
-reviewed: false
+  Mining for profit can lead to the centralization of hashing
+  power if only a few large companies can afford to invest in
+  high-end mining equipment. Additionally, the energy
+  consumption of mining for profit could have a significant
+  environmental impact depending on energy source.
+reviewed: true

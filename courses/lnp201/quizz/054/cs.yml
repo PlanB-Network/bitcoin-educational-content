@@ -1,9 +1,9 @@
-question: Co je likvidita kanálu v Lightning Network?
-answer: Množství satoshi, které mohou být přeneseny skrze kanál.
+question: Jaký typ likvidity musí prodejce na Lightning Network primárně spravovat, aby mohl přijímat platby?
+answer: Příchozí likvidita
 wrong_answers:
-  - Počet transakcí, které mohou být provedeny skrze kanál.
-  - Rychlost, s jakou mohou být transakce provedeny skrze kanál.
-  - Cena za provedení transakce skrze kanál.
+  - Odchozí likvidita
+  - Vysoká celková kapacita kanálu
+  - Vysoký zůstatek na-chain
 explanation: |
-  V Lightning Network se likvidita kanálu vztahuje na množství satoshi, které mohou být přeneseny skrze kanál. Likvidita těchto kanálů nemůže být přenesena do jiných likvidních kanálů.
+  Aby mohl prodejce přijímat platby, potřebuje mít příchozí likviditu, což znamená, že na opačné straně kanálu musí být dostupné prostředky, aby mohl platby přijímat.
 reviewed: false

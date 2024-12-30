@@ -1,0 +1,8 @@
+question: 2010年7月にBitcoinを広く知らしめることに大きく貢献したウェブサイトの名前は何ですか？
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  2010年7月11日に、この人気サイト上でTeppyによって書かれたBitcoinのプレゼンテーションが公開され、大量のユーザーが流入しました。

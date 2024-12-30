@@ -1,0 +1,11 @@
+question: Hvilke av disse er ikke en fordel med Bitcoin som valuta?
+answer: Den brukes til å betale skatter
+wrong_answers:
+  - Den er delelig
+  - Den er transportabel
+  - Det er tillatelsesfri penger
+explanation: >-
+  Bitcoin, på grunn av sine egenskaper som delelighet, verifiserbarhet, tillatelsesfrihet og transportabilitet, tilbyr
+  en utmerket verdioppbevaring. Videre, som en nøytral internettvaluta, representerer den
+  et godt byttemiddel som ikke kjenner noen grenser.
+reviewed: true

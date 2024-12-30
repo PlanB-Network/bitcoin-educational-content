@@ -1,0 +1,11 @@
+question: Hva er forskjellen mellom å handle og investere i konteksten av Bitcoin?
+answer: Handel involverer kortsiktige kontrakter med høy risiko, mens investering innebærer å kjøpe BTC for kort til mellomlang sikt med begrenset risiko.
+wrong_answers:
+  - Handel innebærer å kjøpe BTC for kort til mellomlang sikt, mens investering innebærer kortsiktige kontrakter med høy risiko.
+  - Handel innebærer å kjøpe BTC for lang sikt, mens investering innebærer kortsiktige kontrakter med høy risiko.
+  - Handel innebærer å kjøpe BTC for kort til mellomlang sikt, mens investering innebærer å kjøpe BTC for lang sikt.
+explanation: |
+  I konteksten av Bitcoin innebærer handel kortsiktige kontrakter med
+  høy risiko, mens investering innebærer å kjøpe BTC for kort til mellomlang sikt med begrenset
+  risiko.
+reviewed: false

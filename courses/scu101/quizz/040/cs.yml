@@ -1,12 +1,12 @@
 question: Jaký je rozdíl mezi LastPass a Dashlane?
 answer: Oba jsou služby třetích stran, ale Dashlane nabízí další funkce, jako je sledování informací o kreditních kartách a bezpečné poznámky.
 wrong_answers:
-  - LastPass je služba třetí strany, zatímco Dashlane je služba hostovaná vlastním způsobem.
-  - Dashlane je služba třetí strany, zatímco LastPass je služba hostovaná vlastním způsobem.
-  - Neexistuje žádný rozdíl, obě nabízejí stejné funkce.
+  - LastPass je služba třetí strany, zatímco Dashlane je služba hostovaná vlastním zdrojem.
+  - Dashlane je služba třetí strany, zatímco LastPass je služba hostovaná vlastním zdrojem.
+  - Neexistuje žádný rozdíl, nabízejí stejné funkce.
 explanation: |
-  Oba, LastPass i Dashlane, jsou služby třetích stran, což znamená, že vaše hesla
-  
-  jsou uložena na jejich serverech. Dashlane nicméně nabízí další funkce, jako je sledování
-  
+  Oba, LastPass i Dashlane, jsou služby třetích stran,
+  což znamená, že vaše hesla jsou uložena na jejich serverech.
+  Dashlane však nabízí další funkce, jako je sledování
   informací o kreditních kartách a bezpečné poznámky.
+reviewed: true

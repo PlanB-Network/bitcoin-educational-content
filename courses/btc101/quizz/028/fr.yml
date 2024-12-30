@@ -1,10 +1,13 @@
-question: Quelle est l'évolution de la monnaie?
-answer: Pierre brute -> Pièce de monnaie -> Billet de banque -> Carte bancaire -> Blockchain -> Lightning Network
+question: Quel est le chemin d'évolution de la monnaie actuelle ?
+answer: Pierre brute -> Pièce -> Billet de banque -> Carte bancaire -> Blockchain -> Lightning Network
 wrong_answers:
-  - Pierre brute -> Pièce de monnaie -> Billet de banque -> Blockchain -> Lightning Network
-  - Pierre brute -> Pièce de monnaie -> Billet de banque -> Carte bancaire -> Lightning Network
-  - Pierre brute -> Pièce de monnaie -> Billet de banque -> Carte bancaire -> Blockchain
+  - Pierre brute -> Pièce -> Billet de banque -> Blockchain -> Lightning Network
+  - Pierre brute -> Pièce -> Billet de banque -> Carte bancaire -> Lightning Network
+  - Pierre brute -> Pièce -> Carte bancaire -> Billet de banque -> Blockchain -> Lightning Network
 explanation: |
-  La monnaie, comme toute technologie, a évolué de la pierre brute
-  à la pièce métallique, puis au billet de banque, à la carte bancaire, et enfin aux réseaux peer-to-peer avec la blockchain Bitcoin et le Lightning Network.
-reviewed: false
+  La monnaie est une technologie qui a évolué avec le temps,
+  commençant par être représentée par des pierres brutes, se transformant
+  en pièces métalliques, puis en billets de banque, cartes bancaires, et
+  finalement en réseaux pair-à-pair avec l'utilisation de la
+  blockchain Bitcoin et du Lightning Network.
+reviewed: true

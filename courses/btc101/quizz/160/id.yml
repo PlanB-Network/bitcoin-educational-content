@@ -1,0 +1,12 @@
+question: Apa yang terjadi dalam serangan 51% pada jaringan Bitcoin?
+answer: Seorang agen memiliki lebih dari setengah dari hashrate dan dapat mencoba untuk memodifikasi blockchain.
+wrong_answers:
+  - Seorang agen mendapatkan kontrol lebih dari setengah dari bitcoin yang beredar.
+  - Seorang agen mendapatkan kontrol lebih dari setengah dari node dalam jaringan Bitcoin.
+  - Seorang agen mendapatkan kontrol lebih dari setengah dari kolam penambangan dalam jaringan Bitcoin.
+explanation: >-
+  Dalam serangan 51%, seorang agen dengan lebih dari setengah hashrate jaringan
+  berpotensi dapat memanipulasi blockchain dengan menciptakan rantai blok alternatif.
+  Namun, serangan seperti itu akan sangat mahal dan tidak mungkin menguntungkan,
+  membuatnya menjadi skenario yang tidak mungkin terjadi.
+reviewed: false

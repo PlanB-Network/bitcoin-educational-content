@@ -1,0 +1,8 @@
+question: Hva tillater en utvidet offentlig nøkkel å utlede?
+answer: Kun normale barne offentlige nøkler
+wrong_answers:
+  - Kun normale barne private nøkler
+  - Både herdede og normale barne offentlige nøkler
+  - Både herdede og normale barne private nøkler
+explanation: |
+  En utvidet offentlig nøkkel tillater kun utledning av normale barne offentlige nøkler, ikke private nøkler eller herdede nøkler.

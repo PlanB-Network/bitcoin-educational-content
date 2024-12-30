@@ -1,11 +1,12 @@
 question: What is the primary reason for not paying hackers in the case of ransomware or other types of attacks?
 answer: Paying the ransom does not guarantee the recovery of your data and can encourage cybercriminals to continue their malicious activities.
 wrong_answers:
-  - It is illegal to pay hackers.
-  - Hackers will ask for more money after the initial payment.
-  - The payment method is usually untraceable.
+  - Paying the ransom is illegal and can encourage cybercriminals to continue their malicious activities.
+  - Paying the ransom does not guarantee the recovery of your data and can encourage hackers asking for more money after the initial payment.
+  - Paying the ransom can encourage cybercriminals to continue their malicious activities since the payment method is usually untraceable.
 explanation: |
-  Paying the ransom does not guarantee that you will get your data back.
-  Moreover, it encourages cybercriminals to continue their malicious activities as
-  they see it as a profitable venture.
-reviewed: false
+  Paying the ransom does not guarantee that you will get your
+  data back. Moreover, it encourages cybercriminals to
+  continue their malicious activities as they see it as a
+  profitable venture.
+reviewed: true

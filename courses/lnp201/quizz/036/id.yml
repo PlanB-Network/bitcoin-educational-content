@@ -1,0 +1,9 @@
+question: Kondisi apa yang harus dipenuhi oleh penerima HTLC untuk menerima dana?
+answer: Mereka harus menyediakan rahasia (preimage) untuk membuka pembayaran.
+wrong_answers:
+  - Mereka harus menerima biaya routing dari setiap node perantara.
+  - Mereka harus menandatangani transaksi komitmen baru.
+  - Mereka harus menunggu timelock berakhir sebelum mengambil dana.
+explanation: |
+  Untuk menerima dana dalam HTLC, penerima harus menyediakan rahasia spesifik yang memungkinkan pembukaan pembayaran yang diamankan oleh hash.
+reviewed: false

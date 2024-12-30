@@ -1,0 +1,8 @@
+question: Berapa bagian output dari fungsi HMAC-SHA512 yang diterapkan pada seed dibagi?
+answer: Dua bagian dari 256 bit
+wrong_answers:
+  - Satu bagian tunggal dari 512 bit
+  - Tiga bagian dari 170 bit
+  - Empat bagian dari 128 bit
+explanation: |
+  Output dari HMAC-SHA512 dibagi menjadi dua bagian: kunci privat utama (256 bit) dan kode rantai utama (256 bit).

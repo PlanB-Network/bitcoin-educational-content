@@ -1,8 +1,9 @@
 question: Selon Hayek, quel est le lien entre le socialisme et le nazisme ?
-answer: Toutes les réponses ci-dessus (partagent un rejet de l'individualisme, privilégient le bien-être du groupe, utilisent la coercition).
+answer: Toutes les autres réponses (ils partagent un rejet de l'individualisme, privilégient le bien-être du groupe, utilisent la coercition).
 wrong_answers:
   - Les deux idéologies sont incompatibles.
   - Le socialisme et le nazisme s'opposent sur la question économique.
   - Le socialisme et le nazisme n'ont aucun lien.
-explanation: 
+explanation: |
+  Hayek soutenait que le socialisme et le nazisme partagent des traits communs, comme le rejet de l'individualisme au profit du collectif et le recours à la coercition, les rendant similaires dans leurs effets autoritaires.
 reviewed: false

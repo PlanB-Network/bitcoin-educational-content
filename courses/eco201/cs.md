@@ -17,9 +17,11 @@ Tato škola myšlení má za sebou již několik století a za sebou celou panor
 +++
 
 # Úvod do EKON
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Úvod
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Vítejte všichni a vítejte v Econ 201: Úvod do rakouské ekonomie.
@@ -38,6 +40,7 @@ Srděčně děkuji Théovi za vytvoření tohoto kurzu a doufám, že pro vás b
 Pokud jste připraveni vydat se na tuto dobrodružnou cestu, zvu vás, abyste klikli na následující video a začali s bonusem videem o našem současném finančním systému. Nyní předávám slovo Théovi. Děkuji mu za spolupráci s Descoupes Bitcoin na realizaci tohoto videa. Brzy se uvidíme. Nashledanou!
 
 ## Peníze, úvěry, banky a centrální banky
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > „Základní problém s konvenční měnou spočívá ve veškeré důvěře, která je potřebná k jejímu fungování. Centrální bance musíme věřit, že nebude devalvovat měnu, ale historie fiat měn je plná porušení této důvěry. Bankám musíme věřit, že budou držet naše peníze a převádět je elektronicky, ale půjčují je ve vlnách úvěrových bublin sotva s částkou v rezervě. Musíme jim věřit s naším soukromím, věřit, že nedovolí, aby nám zloději identity vyprázdnili účty.“
@@ -59,9 +62,10 @@ Při koupi domu instruujete svého bankéře, aby peníze převedl na účet pro
 Obrázek 1: Vytváření peněz jako účetní záznamy
 
 > „Je dobře, že lidé našeho národa nerozumí našemu bankovnímu a peněžnímu systému, protože kdyby tomu tak bylo, věřím, že by došlo k revoluci ještě před zítřejším ráno“
-> 
+>
 > Henry Ford
-Tento proces umožňuje bankám zaznamenávat všechny transakce, včetně bankovních převodů, nákupů kreditní kartou a šeků, za určité období (obvykle týden nebo měsíc). Poté tyto transakce mezi sebou vyrovnávají pomocí bankovních rezerv, které představují další formu fiat měny, jež veřejnost nikdy nepoužívá. Bankovní rezervy jsou drženy u centrální banky na speciálním účtu přístupném pouze licencovaným bankám a finančním institucím.
+> Tento proces umožňuje bankám zaznamenávat všechny transakce, včetně bankovních převodů, nákupů kreditní kartou a šeků, za určité období (obvykle týden nebo měsíc). Poté tyto transakce mezi sebou vyrovnávají pomocí bankovních rezerv, které představují další formu fiat měny, jež veřejnost nikdy nepoužívá. Bankovní rezervy jsou drženy u centrální banky na speciálním účtu přístupném pouze licencovaným bankám a finančním institucím.
+
 ### Nestabilita systému částečných rezerv a poskytovatel poslední instance
 
 Hlavním problémem tohoto systému částečných rezerv je, že významné výběry z konkrétní banky mohou potenciálně vést k jejímu bankrotu. Jelikož banky musí splnit požadavky zákazníků na hotovost, zatímco drží pouze omezenou rezervu bankovních rezerv, současný spěch mnoha zákazníků vybírat peníze může způsobit, že banka nebude schopna tyto požadavky uspokojit, což vede k bankrotu. Vzhledem k tomu, že mnoho jednotlivců, firem a institucí má své peníze uložené v bankách, umožnění bankrotu banky by mohlo mít vážné ekonomické důsledky, jako je recese nebo dokonce deprese.
@@ -85,6 +89,7 @@ Obrázek3: Úrokové sazby v hlavních ekonomikách / Zdroj: ECB
 Na rozdíl od mnoha očekávání programy QE významně neobnovily ekonomický růst, ale nafoukly finanční aktiva na historické úrovně. To primárně prospělo bohatým a finančním institucím, jelikož ty již držely značné množství takových aktiv, čímž se rozšířily rozdíly v bohatství. Vzhledem ke struktuře bankovního systému vysvětleného dříve by tento výsledek neměl přijít jako překvapení. Jelikož bankovní rezervy nemohou snadno proudit do reálné ekonomiky, programy QE hlavně zvýšily ceny aktiv bez efektivního zlepšení finanční situace průměrných jedinců.
 
 ### Cantillonův efekt
+
 Přesto lze z této epizody vyvodit zásadní ekonomický princip: když je vytvořeno nové peníze, nejprve z toho těží ti, kteří jsou nejblíže k zdroji peněz, na úkor těch, kteří jsou dále. Tento ekonomický vhled sahá až do 18. století, kdy ho Richard Cantillon popsal ve svém díle "Esej o povaze obchodu obecně". Nyní je tento jev běžně označován jako "Cantillonův efekt".
 ![image](assets/Image/4.webp)
 
@@ -113,16 +118,19 @@ S inflací na vzestupu kvůli významnému vytváření peněz v reakci na lockd
 ### Závěr
 
 > „Tímto způsobem (fractional reserve banking) mohou vlády tajně a bez povšimnutí konfiskovat bohatství lidí, a ne jeden z milionu by odhalil krádež“
-John Maynard Keynes
-V podstatě naše systém čelí značným výzvám a Bitcoin se jeví jako jediná věrohodná alternativa. Bitcoin však sám o sobě nemůže řešit problémy našeho peněžního systému. Především potřebujeme mezi nadšenci Bitcoinu jedince, kteří rozumí základním ekonomickým principům, což umožní širší povědomí a ekonomický selský rozum, který nás povede pryč od budování další křehké finanční základny pro naši civilizaci. Hlavním cílem tohoto kurzu je vzdělat nové nadšence Bitcoinu v základech zdravých ekonomických principů.
+> John Maynard Keynes
+> V podstatě naše systém čelí značným výzvám a Bitcoin se jeví jako jediná věrohodná alternativa. Bitcoin však sám o sobě nemůže řešit problémy našeho peněžního systému. Především potřebujeme mezi nadšenci Bitcoinu jedince, kteří rozumí základním ekonomickým principům, což umožní širší povědomí a ekonomický selský rozum, který nás povede pryč od budování další křehké finanční základny pro naši civilizaci. Hlavním cílem tohoto kurzu je vzdělat nové nadšence Bitcoinu v základech zdravých ekonomických principů.
 
 Abychom dosáhli tohoto cíle, vysvětlíme základní principy "Rakouské ekonomie", ekonomické školy myšlení s metodologickou tradicí sahající až do 16. století, poskytující vhledy do lidského jednání v ekonomických omezeních. S tímto úvodem nyní chápete základy tvorby peněz a současný stav našeho finančního a peněžního systému.
 
 V nadcházející kapitole se ponoříme do základního kamene jakékoli ekonomické školy myšlení: teorie hodnoty. Následující kapitoly prozkoumají peníze jako sociální instituci, teorii kapitálu a obchodního cyklu, výzvu ekonomického výpočtu a stručný přehled historie a metodologie Rakouské školy ekonomie.
 
 # Teoretické základy
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+
 ## Subjektivní teorie hodnoty
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > “Hodnota existuje pouze v lidském vědomí”
@@ -143,6 +151,7 @@ Zleva doprava: William Stanley Jevons, Carl Menger, Léon Walras
 
 Marginální teorie hodnoty tvrdí, že ekonomická hodnota odpovídá tomu, co ekonomický subjekt ochotně zaplatí za další jednotku zboží nebo služby. Jelikož tato teorie zdůrazňuje, že ceny se formují na okraji, tj. pro další jednotku daného zboží, byla nazvána "marginalismus".
 Je běžné prezentovat marginalismus těchto tří škol jako podobný. Skutečně, Walras a Jevons jsou velmi kompatibilní, ale Mengerova teoretizace se od ostatních liší v zásadních bodech. Ve svém díle, nyní považovaném za základní pro rakouskou ekonomickou teorii, s názvem "Grundsätze des Volkswirtschaftlehre" (Zásady politické ekonomie), publikovaném v roce 1874, Menger nabízí marginální, ale primárně subjektivní, vysvětlení hodnoty, na rozdíl od Walrase a Jevonse, kteří považují hodnotu za objektivní a měřitelný jev.
+
 ### Subjektivní Hodnota
 
 ![obrázek](assets/Image/15.webp)
@@ -200,12 +209,14 @@ Na základě poznatků o subjektivní ordinální hodnotě Menger vysvětlil vzn
 Následující kapitoly budou věnovány vzniku peněz jako sociálního jevu, teorii kapitálu a úroku, které poslouží jako základ pro Teorii hospodářského cyklu, a nakonec roli cen pro ekonomické kalkulace.
 
 ## Vznik peněz jako sociálního jevu
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 I když jednotlivci mají společný zájem na specializaci a maximalizaci dělby práce, stále existují koordinační problémy, které tuto expanzi omezují.
 
 Za prvé je důležité poznamenat, že vzhledem k tomu, že výrobní procesy jsou inherentně vázány na čas a často nesynchronní (nesoučasné), obvykle bude existovat časový rozdíl mezi počátečním příspěvkem jednotlivce a přijetím protihodnoty. Zavázat se k určitému úkolu nyní, aniž bychom měli předchozí jistotu, že ostatní splní naše potřeby v budoucnosti, může být riskantní.
 V dělbě práce má každá strana prospěch ze spolupráce, ale jednotlivě by se někdo mohl pokoušet užívat práci ostatních bez opětování, jelikož takto získají něco cenného bez jakýchkoli nákladů. Takové situace, kde vzájemná spolupráce vede k suboptimálním ziskům pro jednotlivce, ale maximálním ziskům pro skupinu, jsou v teorii her popisovány jako "vězňovo dilema".
+
 ### Vězňovo dilema
 
 Původně bylo vězňovo dilema formulováno takto: Dva podezřelí, Alice a Bob, kteří nemohou komunikovat, čelí riziku uvěznění s možnými tresty následovně:
@@ -216,11 +227,10 @@ Původně bylo vězňovo dilema formulováno takto: Dva podezřelí, Alice a Bob
 
 Tyto výsledky lze znázornit v matici (číselné výsledky udávají počet let ve vězení):
 
-| Alice / Bob       | Obvinit      | Zůstat ticho |
-| ----------------- | ----------- | ------------- |
-| **Obvinit**        | 2, 2        | 0, 3         |
-| **Zůstat ticho** | 3, 0        | 1, 1         |
-
+| Alice / Bob      | Obvinit | Zůstat ticho |
+| ---------------- | ------- | ------------ |
+| **Obvinit**      | 2, 2    | 0, 3         |
+| **Zůstat ticho** | 3, 0    | 1, 1         |
 
 V této hře není možnost koordinace (komunikace je nemožná) k dosažení nejlepšího výsledku pro obě strany. V důsledku toho mají Alice a Bob individuální pobídku obvinit se navzájem, i když to nevede k optimálnímu výsledku pro skupinu. Optimální strategií pro oba je zůstat ticho, každý dostane trest 1 rok.
 
@@ -237,7 +247,7 @@ Nicméně, při jednání s většími komunitami, které významně těží z d
 Za prvé, lidé jsou omezeni svými kognitivními kapacitami. Je nemožné, aby jedna osoba udržovala a pamatovala si stabilní sociální vztahy s více než 150 jednotlivci, což činí systém reputace nedostatečným k překonání vězňova dilema na velkou škálu.
 
 Za druhé, společensky přijatelné měření hodnoty příspěvků ve výměně (komensurabilita) je netriviální problém. Například, pokud jednotlivec poskytuje maso z lovu a požaduje materiály na stavbu přístřešku výměnou, jak lze hodnotit množství nabízeného masa v termínech ekvivalentních požadovaným materiálům? Totéž platí pro kvalitu – je maso z jelenů více či méně cenné než dřevo?
-I kdyby bylo možné stanovit uspokojivý směnný kurz pro každý pár zboží, udržování těchto informací rychle stává se nepraktické. V přímém směnném systému zahrnujícím N zboží existuje N(N-1)/2 směnných kurzů, které si je třeba pamatovat. Pro ekonomiku 50 zboží to znamená pamatovat si 50*49/2, tedy 1225 směnných kurzů, oproti pouhým 50 u nepřímých směn. Pro ekonomiku 100 zboží se tento počet zvyšuje na 4950. Takový kvadratický vztah klade další omezení na škálovatelnost přímé směny (barteru).
+I kdyby bylo možné stanovit uspokojivý směnný kurz pro každý pár zboží, udržování těchto informací rychle stává se nepraktické. V přímém směnném systému zahrnujícím N zboží existuje N(N-1)/2 směnných kurzů, které si je třeba pamatovat. Pro ekonomiku 50 zboží to znamená pamatovat si 50\*49/2, tedy 1225 směnných kurzů, oproti pouhým 50 u nepřímých směn. Pro ekonomiku 100 zboží se tento počet zvyšuje na 4950. Takový kvadratický vztah klade další omezení na škálovatelnost přímé směny (barteru).
 Navíc, protože tyto směny neprobíhají okamžitě, ale jsou rozloženy v čase, hodnocení příspěvků v čase dále komplikuje relativní posouzení příspěvků. Kromě hodnocení směnného poměru mezi dvěma současnými zbožími se stává nutné hodnotit hodnotu minulého příspěvku ve vztahu k budoucímu protějšku.
 
 Dnes, navzdory nepraktičnosti takového systému, bychom mohli použít psaní nebo digitální ukládání dat k zapamatování všech těchto informací a zřízení kreditního systému (udržování záznamů o minulých příspěvcích, včetně směnného kurzu těchto příspěvků, je v podstatě zřízení kreditního systému).
@@ -278,9 +288,11 @@ V tomto ohledu peníze, umožňující uchování hodnoty v současnosti a její
 V další kapitole se budeme zabývat konceptem časové preference a vysvětlíme rakouský pohled na úrok a kapitál, který poslouží jako základ pro následující kapitolu o Teorii hospodářského cyklu.
 
 ## Časová preference, úrok a kapitál
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Časová preference
+
 Poslední kapitolu jsme zakončili vysvětlením, jak ekonomičtí agenti používají nejprodejnější zboží, tj. peníze, aby čelili budoucí nejistotě. Také jsme vysvětlili, že sekvenční povaha časových jevů nás vede k postupnému boji s nejistotou: pouze když víme, že naše obživa bude na příští týden zajištěna, můžeme se soustředit na cíle dále v budoucnosti.
 Nebo řečeno jinak: jako lidské bytosti diskontujeme hodnotu budoucích statků.
 
@@ -343,16 +355,18 @@ To dokonale ilustruje níže uvedený graf: dlouhodobé sazby jsou nižší než
 To zjistíme v další kapitole věnované Rakouské teorii hospodářského cyklu!
 
 # Rakouské ekonomické perspektivy
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Rakouská teorie hospodářského cyklu
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > „Čím déle trvá boom inflačního bankovního úvěru, tím větší je rozsah špatných investic do kapitálového zboží a tím větší je potřeba likvidace těchto nezdravých investic. Když se expanze úvěru zastaví, obrátí nebo dokonce výrazně zpomalí, špatné investice se projeví“
 >
 > Ludwig von Mises
-Byl to Ludwig Von Mises, nejvýznamnější student Böhma-Bawerka a možná nejdůležitější rakouský ekonom 20. století, kdo použil Böhm-Bawerkovo uvažování o kapitálu k vysvětlení příčin a dynamiky ekonomických cyklů. Friedrich A. Hayek, Misesův protežé, později toto uvažování rozšířil do jeho logických závěrů v pracích, za které byl v roce 1974 oceněn Nobelovou cenou za ekonomii.
-Mises a Hayek začali svou analýzu se zvýšením úspor jako výchozím bodem. Jak jsme viděli v předchozích kapitolách, jakékoli zvýšení úspor nutně znamená odpovídající snížení spotřeby a tím nižší relativní ceny spotřebního zboží. To vede ke dvěma efektům: za prvé, zvýšená poptávka po kapitálovém zboží způsobená růstem reálných mezd v důsledku relativního poklesu cen spotřebního zboží; a za druhé, zvýšení podnikatelských zisků ve fázích výroby nejvzdálenějších od spotřeby (nižší řád). Jak reálné mzdy rostou, podnikatelé jsou motivováni k ekonomizaci práce používáním více kapitálového zboží, což vytváří silnější poptávku po kapitálovém zboží a vyšší zisky pro podnikatele vyrábějící tato zboží nižšího řádu. Tedy, v kontextu zvýšených úspor, tj. snížení časových preferencí, úrokové sazby klesají, což podporuje rozvoj dalších fází výroby a zvýšenou produktivitu. To je klasická Böhm-Bawerkova výrobní objížďka, a je to vysoce žádoucí výsledek.
+> Byl to Ludwig Von Mises, nejvýznamnější student Böhma-Bawerka a možná nejdůležitější rakouský ekonom 20. století, kdo použil Böhm-Bawerkovo uvažování o kapitálu k vysvětlení příčin a dynamiky ekonomických cyklů. Friedrich A. Hayek, Misesův protežé, později toto uvažování rozšířil do jeho logických závěrů v pracích, za které byl v roce 1974 oceněn Nobelovou cenou za ekonomii.
+> Mises a Hayek začali svou analýzu se zvýšením úspor jako výchozím bodem. Jak jsme viděli v předchozích kapitolách, jakékoli zvýšení úspor nutně znamená odpovídající snížení spotřeby a tím nižší relativní ceny spotřebního zboží. To vede ke dvěma efektům: za prvé, zvýšená poptávka po kapitálovém zboží způsobená růstem reálných mezd v důsledku relativního poklesu cen spotřebního zboží; a za druhé, zvýšení podnikatelských zisků ve fázích výroby nejvzdálenějších od spotřeby (nižší řád). Jak reálné mzdy rostou, podnikatelé jsou motivováni k ekonomizaci práce používáním více kapitálového zboží, což vytváří silnější poptávku po kapitálovém zboží a vyšší zisky pro podnikatele vyrábějící tato zboží nižšího řádu. Tedy, v kontextu zvýšených úspor, tj. snížení časových preferencí, úrokové sazby klesají, což podporuje rozvoj dalších fází výroby a zvýšenou produktivitu. To je klasická Böhm-Bawerkova výrobní objížďka, a je to vysoce žádoucí výsledek.
 
 Nicméně, oba rakouští ekonomové přemýšleli, co by se stalo, pokud by pokles úrokové sazby, který slouží jako výchozí bod pro tuto výrobní objížďku, nevyplynul ze zvýšení úspor, ale místo toho z expanze úvěru.
 
@@ -416,6 +430,7 @@ Více než jakákoli jiná ekonomická škola, Rakouská škola zdůrazňuje vý
 To bude předmětem další a poslední kapitoly tohoto kurzu.
 
 ## Nemožnost ekonomického výpočtu v socialismu
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > "Tam, kde neexistují tržní ceny pro výrobní faktory, protože nejsou kupovány ani prodávány, je nemožné uchýlit se k výpočtu při plánování budoucích akcí a při určování výsledku minulých akcí. Socialistické řízení produkce jednoduše nebude vědět, zda to, co plánuje a provádí, je nejvhodnějším prostředkem k dosažení hledaných cílů. Bude operovat ve tmě, takříkajíc. Rozhází vzácné výrobní faktory, jak materiální, tak lidské (práci). Chaos a chudoba pro všechny nevyhnutelně vyplynou."
@@ -462,6 +477,7 @@ Dalo by se tvrdit, že malovat takový panoramatický pohled zpětně je snadné
 Navzdory tomuto působivému předpovídání a mnoha empirickým důkazům o nemožnosti ekonomického výpočtu pod socialismem jsou političtí lídři po celém světě více než kdy jindy ochotni stanovovat ceny, nacionalizovat celá odvětví a navrhovat pětileté plány, často s aplausem ekonomicky neinformovaných populací. Důsledky takového intervencionismu jsou akutně cítěny lidmi ve dříve prosperujících západních zemích, kteří pomalu sledují pokles svých životních standardů.
 
 ### Rakouská teorie obchodního cyklu jako konkrétní případ nemožnosti ekonomického výpočtu pod socialismem
+
 V předchozí kapitole jsme objasnili dynamiku nadměrných investic a špatného rozdělení kapitálu, které jsou důsledkem manipulace úrokových sazeb centrálními bankami. V podstatě to, co jsme vysvětlili, lze považovat za konkrétní případ nemožnosti ekonomického výpočtu v socialismu, aplikovaný na oblast peněžních trhů. Když jsou ceny stanoveny mimo jejich tržní hodnoty, podnikatelé a alokátoři kapitálu jsou motivováni k angažování se v investicích, které nemohou být dlouhodobě udržitelné kvůli nedostatku úspor. Zasahováním do cenového systému centrální plánovači (v tomto případě centrální bankéři) vytvářejí nesoulad mezi ekonomickými subjekty. V tomto případě mezičasový nesoulad zahrnuje nadměrné investice do investičních statků vyššího řádu a nedostatečné investice do investičních statků nižšího řádu, což představuje konkrétní projev špatného rozdělení kapitálu napříč odvětvími.
 Důsledky takového špatného rozdělení zahrnují finanční a ekonomické krize, sníženou ekonomickou aktivitu a deflaci dluhu. Tyto makroekonomické efekty pramení z nerovnováhy mezi úsporami a investicemi v důsledku expanze úvěrů. V SSSR a dalších komunistických režimech vedlo stanovení cen k podobnému nesouladu, což mělo za následek nedostatek některých zboží a nadprodukci jiných. V obou případech ceny neodrážejí skutečné preference spotřebitelů, ať už jde o časové preference nebo preference spotřeby, což vede podnikatele nebo centrální plánovače zodpovědné za alokaci zdrojů k investování kapitálu do "špatných odvětví".
 
@@ -479,6 +495,7 @@ Hlavní ekonomové a centrální plánovači často nemají rádi rakouské ekon
 Rakouská tradice ztělesňuje skromný přístup k lidské činnosti, vyvozuje hluboké důsledky z konceptů subjektivní hodnoty, nejistoty, svobodné vůle a složitosti. Vysvětluje, jak tržní řád, přestože není produktem lidského designu, stojí jako centrální instituce pro náš rozvoj a prosperitu. Pokud je z tohoto kurzu jedno klíčové poučení, je to, že kapitalismus se stal dominantním ekonomickým systémem kvůli své schopnosti přizpůsobit se změnám v dynamickém a nejistém světě obývaném svobodnými jedinci.
 
 ## Rakouská metodologie
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Rakouská škola ekonomie se od ostatních škol liší svou axiomatiko-deduktivní metodologií, která se liší od pozitivistického přístupu často používaného ve společenských vědách. Pozitivistický přístup je založen na zákonech stanovených z empirických dat, přijímá metodu podobnou té, která se používá ve fyzikálních vědách. Formuluje hypotézy z pozorování, které jsou poté potvrzeny nebo vyvráceny dočasnými experimenty. Vědecká metoda spočívá v udržení hypotézy, která nejlépe vysvětluje data, a pokračování v jejím zkoumání, dokud není nalezena přesnější hypotéza.
@@ -498,19 +515,21 @@ Je důležité si uvědomit, že cherry-picking, což znamená selektivní výb�
 Metodologie je zásadním aspektem v ekonomii a obecně ve společenských vědách. Ovlivňuje, jak jsou kladeny otázky, formulovány hypotézy a interpretována data. Porozumění metodologickým rozdílům mezi ekonomickými školami myšlení nám může pomoci ocenit rozmanité perspektivy a rozvíjet vlastní názory na témata diskutovaná v předchozích epizodách.
 
 # Závěr
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-
 ## Ohodnoťte kurz
+
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
+
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-
 ## Další studium
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Gratuluji k dokončení tohoto kurzu ECON 201! Doufám, že se vám líbil a že jste si otevřeli nové dveře. Vaše objevování Bitcoinu teprve začíná a zvu vás, abyste prozkoumali všechny ostatní kurzy dostupné na univerzitě.
@@ -529,20 +548,55 @@ Kromě těchto čtení můžete také najít informace o rakouské ekonomii proz
 
 Čtením těchto děl a prozkoumáváním těchto online zdrojů můžete rozvíjet hlubší porozumění klíčovým principům a myšlenkám rakouské školy ekonomie.
 
-### Podpořte nás
+# Závěr
 
-Tento kurz, stejně jako veškerý obsah na této univerzitě, vám byl nabídnut zdarma naší komunitou. Můžete nás podpořit tím, že jej sdílíte s ostatními, stane se členem univerzity a dokonce přispějete k jeho vývoji prostřednictvím GitHubu. Jménem celého týmu, děkujeme!
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
 
-### Ohodnoťte kurz (brzy dostupné)
-Systém hodnocení kurzu bude brzy integrován do této nové E-learningové platformy! Mezitím vám velmi děkujeme, že jste se kurzu zúčastnili, a pokud se vám líbil, zvažte prosím jeho sdílení s ostatními. (brzy přijde)
-Pokud chcete pokračovat ve prohlubování tématu rakouské ekonomie, doporučuji několik rozhovorů s Théo Mogenetem:
+## Ohodnoťte tento kurz
 
-- [Jak se připravit na příští ekonomickou krizi?](https://youtu.be/GJT8t1TEd7Q)
-- [Jak může být artikulována destrukce eura?](https://youtu.be/eK3ONo11HN8)
-- [Hyper-bitcoinizace: můžeme fungovat na BTC standardu?](https://youtu.be/nkN2twZ-lJY)
-  Pokud chcete ještě více, můžete sledovat tyto diskuse o makroekonomické situaci a dalších různých tématech:
-- [Jak zničit Bitcoin?](https://youtu.be/gHKvj4eeiDg)
-- [Je Bitcoin pravicový, levicový nebo anarchistický?](https://youtu.be/4fXGxzLtIIw)
-- [Chcete zachránit planetu, opusťte dolar a euro](https://youtu.be/iHagDlH4bf8)
-- [Proč je nárůst úrokových sazeb nemožný?](https://youtu.be/iHagDlH4bf8)
-V opačném případě pokračujte ve svém vzdělávání s dalšími školeními a tutoriály od univerzity!
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Závěrečná zkouška
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Závěr
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+Gratulujeme k dokončení tohoto kurzu!
+
+Jsme potěšeni, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
+
+Díky vaší oddanosti a odhodlání jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
+
+Pro další hlubší zkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
+
+#### Objevte život F. Bastiata s
+
+https://planb.network/courses/eco102
+
+#### Pochopte vznik hyperinflací s
+
+https://planb.network/courses/eco204
+
+#### Objevte Bitcoin a jeho základy s
+
+https://planb.network/courses/btc101
+
+#### Aktualizujte svou online bezpečnost s
+
+https://planb.network/courses/scu101
+
+#### Objevte Lightning Network s
+
+https://planb.network/courses/lnp201
+
+#### Naučte se vytvořit svou Bitcoin komunitu s
+
+https://planb.network/courses/btc302
+
+#### Pochopte, jak funguje Bitcoin peněženka s
+
+https://planb.network/courses/cyp201

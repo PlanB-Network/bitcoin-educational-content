@@ -1,0 +1,9 @@
+question: ¿Por qué la criptografía asimétrica se utiliza menos que la criptografía simétrica en intercambios de grandes volúmenes de datos?
+answer: Es menos eficiente para un nivel equivalente de seguridad
+wrong_answers:
+  - No asegura la autenticidad de los mensajes
+  - Requiere múltiples claves públicas para cada intercambio
+  - No es compatible con los protocolos de comunicación modernos
+explanation: |
+  La criptografía asimétrica, aunque poderosa para la autenticación y la encriptación inicial, requiere más recursos, lo que hace su uso ineficiente para transferencias de datos sustanciales.
+reviewed: false

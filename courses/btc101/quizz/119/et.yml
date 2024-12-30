@@ -1,0 +1,9 @@
+question: Mis on BitcoinTalk?
+answer: Arutelukoht Bitcoin'i kasutajatele
+wrong_answers:
+  - Bitcoin'i kaevandamise tarkvara
+  - Bitcoin'i rahakott
+  - Bitcoin'i konverents
+explanation: |
+  BitcoinTalk foorum on arutelukoht Bitcoin'i kasutajatele. Selle lõi Satoshi Nakamoto 22. novembril 2009.
+reviewed: true

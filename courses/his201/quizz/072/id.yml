@@ -1,0 +1,9 @@
+question: Kepada siapa Satoshi menyerahkan tanggung jawab pengembangan perangkat lunak ketika dia pergi?
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation: |
+  Gavin sebelumnya telah [menyatakan](https: //bitcointalk.org/index.php?topic=2367.msg31651#msg31651) bahwa dia akan mengelola proyek Bitcoin secara lebih aktif dan telah membuka repositori GitHub pada Desember 2010.
+reviewed: false

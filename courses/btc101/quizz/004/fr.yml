@@ -1,9 +1,11 @@
-question: Quels sont les deux principaux aspects de Bitcoin?
-answer: Bitcoin est à la fois un protocole informatique et une unité monétaire.
+question: Quelles sont les deux principales caractéristiques du Bitcoin ?
+answer: Le Bitcoin est à la fois un protocole informatique et une unité monétaire.
 wrong_answers:
-  - Bitcoin est à la fois une monnaie physique et un portefeuille numérique.
-  - Bitcoin est à la fois un type d'action et un type d'obligation.
-  - Bitcoin est à la fois une monnaie centralisée et une monnaie décentralisée.
+  - Le Bitcoin est à la fois une monnaie physique et un portefeuille numérique.
+  - Le Bitcoin est à la fois un type d'action et un type d'obligation.
+  - Le Bitcoin est à la fois une monnaie centralisée et décentralisée.
 explanation: |
-  Bitcoin a deux aspects principaux, c'est un protocole informatique qui utilise des technologies telles que la cryptographie et la blockchain, et c'est une unité monétaire utilisée pour les transactions.
-reviewed: false
+  Le Bitcoin est à la fois un protocole informatique qui utilise des technologies
+  comme la cryptographie et la blockchain, et aussi une unité
+  monétaire qui est utilisée pour les transactions.
+reviewed: true

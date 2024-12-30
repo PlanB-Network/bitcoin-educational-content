@@ -1,11 +1,9 @@
-question: Was ist der Zweck der Padding-Bits in der Vorverarbeitungsphase von SHA256?
-answer: Um die Größe des Eingangs auf ein perfektes Vielfaches von 512 Bits zu bringen
+question: Welche Konstruktion wird von SHA256 verwendet, um Nachrichten beliebiger Länge zu verarbeiten?
+answer: Die Merkle-Damgård-Konstruktion
 wrong_answers:
-  - Um die Größe des Eingangs auf 256 Bits zu erhöhen
-  - Um Komplexität zum Eingang hinzuzufügen
-  - Um die Größe des Eingangs auf 512 Bits zu reduzieren
+  - Die Euklidische Konstruktion
+  - Die Rivest-Shamir-Adleman-Konstruktion
+  - Die Knuth-Morris-Pratt-Konstruktion
 explanation: |
-  In der Vorverarbeitungsphase von SHA256 werden Padding-Bits zum Eingang hinzugefügt,
-  um sicherzustellen, dass seine Größe ein perfektes Vielfaches von 512 Bits erreicht. Dies wird getan, um sicherzustellen, dass
-  alle Zutaten perfekt in das kryptografische Rezept passen.
+  Die Merkle-Damgård-Konstruktion ermöglicht es, eine Kompressionsfunktion in eine Hash-Funktion für Nachrichten variabler Länge umzuwandeln.
 reviewed: false

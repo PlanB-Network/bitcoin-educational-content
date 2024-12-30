@@ -1,0 +1,9 @@
+question: Apa prinsip yang menjadi dasar kerja penambangan Bitcoin?
+answer: Penambangan Bitcoin beroperasi berdasarkan prinsip lotere, di mana peluang untuk memenangkan sebuah blok (dan oleh karena itu hadiah Bitcoin) setiap sepuluh menit sangat rendah bagi penambang kecil individu.
+wrong_answers:
+  - Penambangan Bitcoin beroperasi berdasarkan prinsip siapa cepat dia dapat, di mana penambang pertama yang menyelesaikan masalah matematika yang kompleks mendapatkan hadiah Bitcoin.
+  - Penambangan Bitcoin beroperasi berdasarkan prinsip penawaran, di mana penambang yang menawar paling tinggi mendapatkan hadiah Bitcoin.
+  - Penambangan Bitcoin beroperasi berdasarkan prinsip rotasi, di mana setiap penambang mendapat giliran untuk menambang sebuah blok dan menerima hadiah Bitcoin.
+explanation: |
+  Bab ini menjelaskan bahwa penambangan Bitcoin beroperasi berdasarkan prinsip lotere, di mana peluang untuk memenangkan sebuah blok (dan oleh karena itu hadiah Bitcoin) setiap sepuluh menit sangat rendah bagi penambang kecil individu.
+reviewed: true

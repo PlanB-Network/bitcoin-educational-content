@@ -1,0 +1,9 @@
+question: Bastiat považuje Rousseaua za předchůdce kterého politického hnutí?
+answer: Socialismus
+wrong_answers:
+  - Komunismus
+  - Mutualismus
+  - Anarchismus
+explanation: |
+  Bastiat vidí Rousseaua jako předchůdce socialismu, kvůli jeho kolektivnímu přístupu k společnosti, kde se jedinec musí podřídit všeobecné vůli.
+reviewed: false

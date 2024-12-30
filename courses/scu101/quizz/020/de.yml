@@ -1,9 +1,11 @@
-question: Was ist der integrierte Virenschutz in Windows?
+question: Was ist das integrierte Antivirus in Windows?
 answer: Windows Defender
 wrong_answers:
   - Kaspersky
   - Norton
   - McAfee
 explanation: |
-  Windows Defender ist der integrierte Virenschutz in Windows. Es ist eine sichere und effektive Lösung zum Schutz des Systems vor Bedrohungen.
-reviewed: false
+  Windows Defender ist das integrierte Antivirus in Windows. Es
+  ist eine sichere und effektive Lösung zum Schutz des Systems
+  vor Bedrohungen.
+reviewed: true

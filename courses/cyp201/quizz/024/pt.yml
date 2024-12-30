@@ -1,9 +1,9 @@
-question: Qual é a equação da curva secp256k1 usada no Bitcoin?
-answer: "y\xB2 = x\xB3 + 7 modulo n"
+question: Qual é o tamanho de uma chave privada bruta usada no Bitcoin?
+answer: 256 bits
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax + b"
-  - "y\xB2 = x\xB3 + 7 modulo p"
-  - "y\xB2 = x\xB3 + ax + b modulo n"
+  - 128 bits
+  - 512 bits
+  - 1024 bits
 explanation: |
-  A curva secp256k1 usada no Bitcoin é definida pelos parâmetros a=0 e b=7, e sua equação é y\xB2 = x\xB3 + 7 modulo n, onde n representa o número primo que determina a ordem da curva.
+  Uma chave privada no Bitcoin é um inteiro aleatório de 256 bits, garantindo um espaço de chave grande o suficiente para garantir segurança.
 reviewed: false

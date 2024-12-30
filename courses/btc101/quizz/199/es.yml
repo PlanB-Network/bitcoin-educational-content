@@ -5,5 +5,8 @@ wrong_answers:
   - Comprar Bitcoin solo cuando el precio baja.
   - Comprar Bitcoin solo cuando el precio sube.
 explanation: |
-  El texto explica que el Promedio de Costo en Dólares implica comprar pequeñas cantidades de Bitcoin a intervalos regulares. Este método suaviza el precio a lo largo del tiempo y proporciona un crecimiento continuo en la cantidad de Bitcoin poseído.
-reviewed: false
+  El texto del curso explica que la técnica del Promedio de Costo en Dólares
+  implica comprar pequeñas cantidades de Bitcoin a intervalos regulares. Este método
+  nivela las fluctuaciones de precio a lo largo del tiempo y asegura un crecimiento
+  continuo en la cantidad de Bitcoin poseída.
+reviewed: true

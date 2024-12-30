@@ -1,10 +1,13 @@
-question: Qual é a probabilidade de alguém adivinhar acidentalmente sua lista de 12 ou 24 palavras em uma carteira de Bitcoin?
-answer: Extremamente baixa
+question: Qual é a probabilidade de alguém adivinhar acidentalmente sua lista de 12 ou 24 palavras em uma carteira Bitcoin?
+answer: Astronomicamente baixa.
 wrong_answers:
-  - Alta
-  - Moderada
-  - Baixa
+  - Alta.
+  - Moderada.
+  - Forte.
 explanation: |
-  Graças à criptografia usada para criar a carteira, a probabilidade de alguém adivinhar acidentalmente sua lista de 12 ou 24 palavras é extremamente baixa.
-  É como encontrar o número "certo" entre 1 e $2^256$, o que é quase equivalente a encontrar um átomo definido no Universo.
-reviewed: false
+  Graças à criptografia usada para criar a carteira, a
+  probabilidade de alguém adivinhar acidentalmente sua lista de
+  12 ou 24 palavras é astronomicamente baixa. É como encontrar
+  o número certo entre 1 e $2^256$, o que é quase
+  equivalente a encontrar um átomo definido no Universo.
+reviewed: true

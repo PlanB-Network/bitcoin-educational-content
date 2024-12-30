@@ -1,10 +1,13 @@
-question: ¿Cuál es la principal ventaja de los ASIC en el contexto de la minería de Bitcoin?
-answer: Pueden realizar un tipo específico de cálculo de manera muy eficiente.
+question: ¿Cuál es la principal ventaja de los ASICs en el contexto de la minería de Bitcoin?
+answer: Pueden realizar un tipo específico de cálculo de manera muy eficiente
 wrong_answers:
-  - Pueden realizar una multitud de diferentes tipos de cálculos.
-  - Consumen menos electricidad que las CPUs.
-  - Son más baratos que las CPUs.
+  - Pueden realizar una multitud de diferentes tipos de cálculos
+  - Consumen menos electricidad que los CPUs
+  - Son más baratos que los CPUs
 explanation: |
-  Los ASIC son chips, comparables a un chip de CPU, sin embargo, están desarrollados para realizar solo un tipo específico de cálculo de la manera más eficiente posible.
-  En el caso de los ASIC de Bitcoin, están diseñados para el cálculo del algoritmo SHA256.
-reviewed: false
+  Los ASICs son chips, comparables a un chip de CPU, sin embargo,
+  están desarrollados para realizar solo un tipo específico de
+  cálculo de la manera más eficiente posible. En el caso
+  de los ASICs de Bitcoin, están diseñados para el cálculo del
+  algoritmo SHA256.
+reviewed: true

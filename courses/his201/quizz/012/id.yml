@@ -1,0 +1,8 @@
+question: Apa nama yang diberikan untuk masalah konsensus dalam jaringan terdistribusi?
+answer: Masalah Jenderal Bizantium
+wrong_answers:
+  - Masalah Senturion Romawi
+  - Masalah Kolonel Albania
+  - Masalah Taisho Jepang
+explanation: |
+  Nama masalah ini (diformalisasi oleh Lamport, Shostak, dan Pease pada tahun 1982) dipilih untuk menghindari menyinggung pembaca, karena tidak ada yang pernah mengidentifikasi diri mereka sebagai Bizantium.

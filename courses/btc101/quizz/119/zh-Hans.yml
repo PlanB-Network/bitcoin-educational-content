@@ -1,0 +1,9 @@
+question: 什么是BitcoinTalk?
+answer: 一个比特币用户讨论的地方
+wrong_answers:
+  - 一种比特币挖矿软件
+  - 一个比特币钱包
+  - 一次比特币会议
+explanation: |
+  BitcoinTalk论坛是比特币用户讨论的地方。它由中本聪于2009年11月22日创建。
+reviewed: 真

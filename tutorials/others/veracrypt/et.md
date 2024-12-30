@@ -15,7 +15,7 @@ Teisisõnu, on soovitatav hoida oma faile 3 erinevas kohas, kasutades erineva lo
 
 Selle 3-2-1 varundamise strateegia hõlpsaks rakendamiseks võite valida veebipõhise salvestuslahenduse, sünkroonides automaatselt või perioodiliselt faile oma arvutist pilvega. Nende veebipõhiste varunduslahenduste seas on loomulikult need suurtelt digitaalsetelt ettevõtetelt, mida teate: Google Drive, Microsoft OneDrive või Apple iCloud. Siiski ei ole need parimad lahendused teie privaatsuse kaitsmiseks. Eelmises õpetuses tutvustasin teile alternatiivi, mis krüpteerib teie dokumente parema konfidentsiaalsuse tagamiseks: Proton Drive.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Kohaliku ja pilve varundamise strateegia kasutuselevõtuga saate juba kahest erinevast meedia tüübist andmetele juurdepääsu, millest üks asub väljaspool. 3-2-1 strateegia täitmiseks peate lihtsalt lisama veel ühe koopia. Soovitan teil perioodiliselt eksportida oma andmed, mis on kohalikult ja pilves, füüsilisele meediumile, nagu USB mälupulk või väline kõvaketas. Nii, isegi kui teie veebipõhise salvestuslahenduse serverid hävitatakse ja teie arvuti läheb samal ajal rikki, on teil endiselt see kolmas koopia välisel meediumil, et mitte kaotada oma andmeid.
 ![VeraCrypt](assets/notext/01.webp)

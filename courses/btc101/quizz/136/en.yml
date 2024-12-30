@@ -9,4 +9,4 @@ explanation: >-
   The Bitcoin network ensures that it is too costly to act maliciously
   within the Bitcoin protocol through protocol rules and economic incentives. This
   eliminates the need for trust at any step of the bitcoin ownership transfer.
-reviewed: false
+reviewed: true

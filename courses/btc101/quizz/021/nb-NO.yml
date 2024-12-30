@@ -1,0 +1,11 @@
+question: Hva er den største ulempen med gull som en form for penger?
+answer: Det er ikke lett å dele eller transportere over lange avstander
+wrong_answers:
+  - Det beholder ikke sin verdi overalt
+  - Det eroderer over tid
+  - Det er lett å produsere
+explanation: |
+  Den største ulempen med gull som en form for penger er at det ikke er lett
+  å dele eller transportere over lange avstander. Dette gjør det mindre praktisk i
+  en globalisert og digital verden.
+reviewed: true

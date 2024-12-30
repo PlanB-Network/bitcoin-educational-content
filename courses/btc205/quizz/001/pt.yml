@@ -1,9 +1,0 @@
-question: Qual é a alternativa ao KYC completo na Suíça?
-answer: KYC leve
-wrong_answers:
-  - KYC pesado
-  - KYC médio
-  - KYC escuro
-explanation: |
-  Na Suíça, uma alternativa ao KYC completo é o "KYC leve", que permite a compra e venda de bitcoins sem fornecer identificação, desde que o valor da compra não exceda 1000 euros por dia.
-reviewed: false

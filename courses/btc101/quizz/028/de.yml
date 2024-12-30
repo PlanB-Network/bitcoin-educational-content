@@ -1,9 +1,13 @@
-question: Was ist die Entwicklung der Währung?
-answer: Rohstein -> Münze -> Banknote -> Bankkarte -> Blockchain -> Lightning Network
+question: Was ist der Entwicklungspfad der heutigen Währung?
+answer: Rohstein -> Münze -> Banknote -> Bankkarte -> Blockchain -> Lightning-Netzwerk
 wrong_answers:
-  - Rohstein -> Münze -> Banknote -> Blockchain -> Lightning Network
-  - Rohstein -> Münze -> Banknote -> Bankkarte -> Lightning Network
-  - Rohstein -> Münze -> Banknote -> Bankkarte -> Blockchain
+  - Rohstein -> Münze -> Banknote -> Blockchain -> Lightning-Netzwerk
+  - Rohstein -> Münze -> Banknote -> Bankkarte -> Lightning-Netzwerk
+  - Rohstein -> Münze -> Bankkarte -> Banknote -> Blockchain -> Lightning-Netzwerk
 explanation: |
-  Währung, wie jede Technologie, hat sich von Rohsteinen zu metallischen Münzen entwickelt, dann zu Banknoten, Bankkarten und schließlich zu Peer-to-Peer-Netzwerken mit der Bitcoin-Blockchain und dem Lightning Network.
-reviewed: false
+  Währung ist eine Technologie, die sich im Laufe der Zeit entwickelt hat,
+  beginnend mit der Darstellung durch Rohsteine, über den Wechsel
+  zu metallischen Münzen, dann zu Banknoten, Bankkarten und
+  schließlich zu Peer-to-Peer-Netzwerken mit der Nutzung der
+  Bitcoin-Blockchain und des Lightning-Netzwerks.
+reviewed: true

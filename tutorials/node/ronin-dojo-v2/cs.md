@@ -16,7 +16,7 @@ _Tento návod je poskytován pouze pro vzdělávací a informační účely. Nep
 
 V předchozím návodu jsme již vysvětlili postup instalace a používání RoninDojo v1. Během posledního roku však týmy RoninDojo spustily verzi 2 své implementace, což představovalo významný obrat v architektuře softwaru. Skutečně se odvrátili od distribuce Linux Manjaro ve prospěch Debianu. V důsledku toho již nenabízejí předkonfigurovaný obraz pro automatickou instalaci na Raspberry Pi. Existuje však stále metoda, jak pokračovat v ruční instalaci. Toho jsem využil pro svůj vlastní uzel a od té doby RoninDojo v2 na mém Raspberry Pi 4 funguje báječně. Proto nabízím nový návod, jak ručně nainstalovat RoninDojo v2 na Raspberry Pi.
 
-https://planb.network/tutorials/node/ronin-dojo
+https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -320,14 +320,14 @@ Podrobný tutoriál je připravován, aby vás krok za krokem provedl procesem c
 
 Pro hlubší pochopení coinjoin a jeho použití na Bitcoinu, vás také zvu, abyste si přečetli tento další článek: Understanding and using coinjoin on Bitcoin, kde detailně popisuji vše, co potřebujete vědět o této technice.
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 ### Používání nástroje Whirlpool Stat Tool (WST)
 
 Po provedení coinjoinů s Whirlpool je užitečné přesně zhodnotit dosaženou úroveň soukromí pro vaše smíchané UTXO. K tomu můžete použít Python nástroj *Whirlpool Stat Tool*. Tento nástroj umožňuje měřit jak perspektivní, tak retrospektivní skóre vašich UTXO, zatímco analyzuje jejich míru rozptylu v bazénu.
 
 Pro prohloubení vašeho porozumění výpočetním mechanismům těchto anonymních setů doporučuji přečíst článek: REMIX - WHIRLPOOL, který detailně popisuje fungování těchto indexů.
 
-https://planb.network/tutorials/privacy/remix-whirlpool
+https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

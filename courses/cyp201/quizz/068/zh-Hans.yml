@@ -1,0 +1,9 @@
+question: 从父公钥派生子公钥的约束是什么？
+answer: 子密钥必须是普通的
+wrong_answers:
+  - 子密钥必须是加固的
+  - 链码必须与父密钥的相同
+  - 过程必须包括父私钥
+explanation: |
+  只有当子公钥是普通的，而不是加固的，才能从父公钥派生出来。
+reviewed: false

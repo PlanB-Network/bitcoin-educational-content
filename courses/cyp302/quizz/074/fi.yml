@@ -1,0 +1,9 @@
+question: Mitä tapahtuu, jos avaimena käytetään lukua 7 salatakseen sanan CAT?
+answer: Sana muuttuu muotoon JHA
+wrong_answers:
+  - Sana muuttuu muotoon JBA
+  - Sana muuttuu muotoon JHB
+  - Sana muuttuu muotoon ZHA
+explanation: |
+  Kun avaimena käytetään lukua 7, jokainen sanan CAT kirjain siirtyy aakkosissa 7 sijaintia eteenpäin, mikä tuottaa salatun sanan JHA.
+reviewed: false

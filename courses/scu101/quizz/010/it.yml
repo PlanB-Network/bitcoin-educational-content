@@ -1,9 +1,13 @@
 question: Qual è la differenza tra VPN aziendali e VPN per consumatori?
-answer: Le VPN aziendali sono più costose e complesse, mentre le VPN per consumatori sono più accessibili e user-friendly.
+answer: Le VPN aziendali sono più costose e complesse, mentre le VPN per consumatori sono più accessibili e facili da usare.
 wrong_answers:
-  - Le VPN aziendali sono meno sicure delle VPN per consumatori.
-  - Le VPN per consumatori sono più costose delle VPN aziendali.
-  - Le VPN aziendali non crittografano i dati, mentre le VPN per consumatori lo fanno.
+  - Le VPN aziendali sono generalmente più sicure delle VPN per consumatori, poiché sono sempre più costose.
+  - Le VPN per consumatori sono sempre più costose delle VPN aziendali a causa della scala economica a cui queste ultime hanno accesso.
+  - A causa del loro pubblico più esigente, le VPN aziendali criptano sempre i dati, mentre le VPN per consumatori no.
 explanation: |
-  Le VPN aziendali sono progettate per le aziende e di solito sono più costose e complesse da configurare e gestire. D'altra parte, le VPN per consumatori sono progettate per gli utenti individuali e sono generalmente più accessibili e user-friendly.
-reviewed: false
+  Le VPN aziendali sono progettate per le imprese e sono
+  tipicamente più costose e complesse da configurare e gestire.
+  D'altra parte, le VPN per consumatori sono progettate per
+  gli utenti individuali e sono generalmente più accessibili e
+  facili da usare.
+reviewed: true

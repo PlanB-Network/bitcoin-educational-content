@@ -40,7 +40,7 @@ From an external perspective, the pattern of the transaction would have remained
 
 In summary, Stonewall and Stonewall x2 transactions share an identical structure. The distinction between the two lies in their collaborative nature. The Stonewall transaction is developed individually, without the need for collaboration. In contrast, the Stonewall x2 transaction relies on cooperation between two individuals for its implementation.
 
-[**-> Learn more about Stonewall x2 transactions**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Learn more about Stonewall x2 transactions**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## What is the purpose of a Stonewall transaction?
 The Stonewall structure adds a significant amount of entropy to the transaction and obscures the chain analysis. From an external perspective, such a transaction can be interpreted as a small coinjoin between two people. But in reality, just like the Stonewall x2 transaction, it is a payment. This method therefore creates uncertainties in chain analysis, and may even lead to false leads.

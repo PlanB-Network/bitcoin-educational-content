@@ -1,0 +1,11 @@
+question: Какой заметный пример жесткого форка Bitcoin?
+answer: Bitcoin Cash (BCH)
+wrong_answers:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+explanation: |
+  Со временем Bitcoin пережил несколько жестких форков, что привело к появлению различных
+  альтернативных версий оригинальной валюты. Заметные примеры этих отклонений
+  включают Bitcoin Cash (BCH) и Bitcoin Satoshi Vision (BSV).
+reviewed: false

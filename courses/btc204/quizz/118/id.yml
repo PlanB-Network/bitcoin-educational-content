@@ -1,0 +1,13 @@
+question: Dari jawaban berikut, mana yang tidak mewakili risiko ketika mengirim bitcoin yang telah mengalami coinjoin ke platform yang diatur?
+
+answer: Platform dapat meningkatkan biaya transaksi
+
+wrong_answers:
+  - Platform dapat membekukan dana
+  - Platform dapat memblokir akun pengguna
+  - Platform dapat melaporkan perilaku mencurigakan ke otoritas
+
+explanation: |
+  Jika Anda mengirim koin Anda ke platform pertukaran yang diatur, tetapi baru-baru ini telah mengalami coinjoin, alat analisis rantai platform akan mendeteksi fakta ini. Platform kemudian mungkin menolak untuk menerima UTXO Anda yang telah mengalami coinjoin, atau bahkan menuntut penjelasan dari Anda, dengan risiko melihat akun Anda ditangguhkan atau dana Anda dibekukan. Dalam beberapa kasus, platform juga dapat melaporkan perilaku Anda ke otoritas negara.
+
+reviewed: false

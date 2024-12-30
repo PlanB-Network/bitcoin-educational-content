@@ -1,10 +1,9 @@
-question: Mikä on Bitcoin-verkon rytmi?
-answer: 10 minuuttia per lohko
+question: Mikä on ollut Bitcoinin verkkosaatavuus vuodesta 2009 lähtien?
+answer: 99,988 %.
 wrong_answers:
-  - 10 sekuntia per lohko
-  - 10 minuuttia per siirto
-  - 10 sekuntia per siirto
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Bitcoin-verkon rytmi on 10 minuuttia per lohko. Tämä on kuin
-  Bitcoin-rahoitusjärjestelmän sydämenlyönti.
-reviewed: false
+  Bitcoinin verkkosaatavuus on ollut 99,988 % vuodesta 2009 lähtien.
+reviewed: true

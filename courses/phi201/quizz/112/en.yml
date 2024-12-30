@@ -1,0 +1,9 @@
+question: According to Keynes, what role should the state play in the economy?
+answer: An active role by stimulating demand to boost the economy
+wrong_answers:
+  - A minimal role letting the market regulate the economy
+  - A neutral role without intervening in market mechanisms
+  - A primarily fiscal role to balance the budget
+explanation: |
+  Keynes argued that the state should actively intervene to stimulate demand, especially during a recession, in order to boost the economy and compensate for market shortcomings.
+reviewed: false

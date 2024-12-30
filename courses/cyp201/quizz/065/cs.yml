@@ -1,11 +1,9 @@
-question: Jaká je hlavní výhoda používání nového páru klíčů pro každou Bitcoin transakci?
-answer: Zvyšuje bezpečnost.
+question: Jaký je rozdíl mezi normálním dětským klíčem a zpevněným dětským klíčem?
+answer: Zpevněný dětský klíč vyžaduje pro svou derivaci rodičovský soukromý klíč.
 wrong_answers:
-  - Zvyšuje rychlost.
-  - Zvyšuje anonymitu.
-  - Zvyšuje legalitu.
+  - Normální dětský klíč nemůže být odvozen z veřejných klíčů.
+  - Zpevněný dětský klíč používá lichý index.
+  - Normální dětský klíč je bezpečnější než zpevněný dětský klíč.
 explanation: |
-  Použití nového páru klíčů pro každou transakci zvyšuje bezpečnost Bitcoin
-  transakcí. Avšak komplikuje jejich zálohování a pouze částečně zachovává
-  důvěrnost.
+  Normální dětský klíč může být odvozen z rodičovského veřejného klíče, na rozdíl od zpevněného dětského klíče, který vyžaduje rodičovský soukromý klíč.
 reviewed: false

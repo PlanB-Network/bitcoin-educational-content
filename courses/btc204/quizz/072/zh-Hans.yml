@@ -1,0 +1,11 @@
+question: 2024年最推荐用于提高比特币隐私性的脚本模型是哪一个？
+
+answer: P2TR
+
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+
+explanation: |
+  为了尽可能融入最大的人群中，建议使用最广泛采用的脚本模型。P2TR脚本目前是比特币交易中使用最多的。

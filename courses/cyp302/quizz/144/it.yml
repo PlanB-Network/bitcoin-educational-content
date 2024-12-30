@@ -1,0 +1,9 @@
+question: Qual è la dimensione tipica dei numeri primi utilizzati nella fattorizzazione per i criptosistemi moderni come RSA?
+answer: 1024 bit per ogni fattore
+wrong_answers:
+  - 1024 bit in totale
+  - 256 bit per ogni fattore
+  - 256 bit in totale
+explanation: |
+  Nei criptosistemi moderni come RSA, i numeri primi scelti sono tipicamente di 1024 bit ciascuno, rendendo la fattorizzazione estremamente difficile e migliorando la sicurezza.
+reviewed: false

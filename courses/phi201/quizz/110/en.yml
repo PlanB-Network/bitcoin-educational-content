@@ -1,0 +1,9 @@
+question: What is the main economic tool recommended by Keynes to stimulate the economy?
+answer: Increases in public spending
+wrong_answers:
+  - Tax cuts
+  - Market liberalization
+  - Increase in exports
+explanation: |
+  Keynes advocated for increasing public spending to stimulate overall demand, especially during periods of recession, in order to reduce unemployment and kickstart economic growth.
+reviewed: false

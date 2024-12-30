@@ -1,0 +1,5 @@
+description: |
+  NerdMiner là một công cụ giáo dục và giải trí dành riêng cho việc khai thác Bitcoin, dựa trên bảng ESP-32 S3. Mặc dù không có sức mạnh như ASIC chuyên nghiệp, nó cho phép hiểu rõ cách khai thác hoạt động với mức tiêu thụ điện chỉ 0,5 W. Được kết nối với các nhóm khai thác, nó cung cấp một cơ hội nhỏ để khai thác một khối trong khi hiển thị các số liệu thống kê trên màn hình tích hợp. Lý tưởng cho những người đam mê và tò mò.
+
+contributors:
+  - pretty-private

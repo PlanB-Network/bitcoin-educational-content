@@ -1,0 +1,13 @@
+question: Apa yang diukur oleh anonset retrospektif?
+
+answer: Ketahanan privasi terhadap analisis dari masa kini ke masa lalu.
+
+wrong_answers:
+  - Ketahanan privasi terhadap analisis dari masa lalu ke masa depan.
+  - Ketahanan privasi terhadap analisis dari masa kini ke masa depan.
+  - Ketahanan privasi terhadap analisis dari masa lalu ke masa kini.
+
+explanation: |
+  Anonset retrospektif mengukur ketahanan privasi sebuah koin terhadap analisis dari masa kini ke masa lalu (output ke input).
+
+reviewed: false

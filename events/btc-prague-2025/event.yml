@@ -1,0 +1,24 @@
+- start_date: 2025-06-19 08:00:00
+  end_date: 2025-06-21 17:00:00
+  timezone: Europe/Prague
+  address_line_1: Prague, Czech Republic
+  address_line_2:
+  address_line_3:
+  name: BTC Prague 2025
+  builder: BTCprague
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: The biggest, most influential bitcoin event in Europe ever, again!
+  language:
+    - en
+    - cs
+  links:
+    website: https://www.btcprague.com/#
+    replay_url:
+    live_url:
+  tags:
+    - decentralization
+    - finance
+    - protocols

@@ -1,0 +1,11 @@
+question: Hva etablerer mining for Bitcoin?
+answer: En bunnpris
+wrong_answers:
+  - En toppris
+  - En fast pris
+  - En variabel pris
+explanation: |
+  Mining etablerer en bunnpris for Bitcoin, under hvilken
+  gruvearbeidere ville selge med tap. Kostnaden ved mining
+  påvirker betydelig prisen på Bitcoin.
+reviewed: true

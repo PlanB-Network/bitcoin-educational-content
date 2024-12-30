@@ -57,5 +57,5 @@ No Git e GitHub, você encontrará comandos e recursos cujos nomes podem parecer
 
 Esta lista obviamente não é exaustiva. Há muitos outros termos técnicos específicos para Git e GitHub. No entanto, os mencionados aqui são os principais com os quais você frequentemente se deparará.
 Após ler este artigo, é possível que alguns aspectos do Git e do GitHub ainda estejam pouco claros para você. Eu o encorajo a começar a usar essas ferramentas por conta própria. A prática é frequentemente a melhor maneira de entender como a máquina funciona! E para começar, você pode descobrir estes outros 2 tutoriais:
-**[Crie sua conta no GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Configurando Seu Ambiente Local para Contribuir com a PlanB Network](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Crie sua conta no GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Configurando Seu Ambiente Local para Contribuir com a PlanB Network](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**

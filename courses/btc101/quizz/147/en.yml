@@ -1,13 +1,16 @@
-question: What would be the implications if the blocks were 100 times heavier?
-answer: Running a Bitcoin node would not be accessible to the average person, compromising the decentralization of the protocol and the immutability of transactions and consensus rules
+question: What would be the implications for Bitcoin users if the blocks were 100 times heavier?
+answer: Running a Bitcoin node would not be accessible to the average person, compromising the decentralization of the protocol and the immutability of both transactions and consensus rules.
 wrong_answers:
-  - Running a Bitcoin node would be more accessible to the average person, enhancing the decentralization of the protocol and the immutability of transactions and consensus rules
-  - The transaction capacity of the network would decrease
-  - The block reward for miners would increase
+  - Running a Bitcoin node would be more accessible to the average person, enhancing the decentralization of the protocol and the immutability of both transactions and consensus rules.
+  - The transaction capacity of the network would decrease.
+  - The block reward for miners would increase.
 explanation: |
-  If the blocks were 100 times heavier, running a Bitcoin node would require
-  a 50TB hard disk, a bandwidth of over 500GB/month, and hardware capable of validating
-  hundreds of thousands of transactions in less than 10 minutes. This would make running
-  a Bitcoin node inaccessible to the average person, compromising the decentralization
-  of the protocol and the immutability of transactions and consensus rules.
-reviewed: false
+  If the blocks were 100 times heavier, running a Bitcoin
+  node would require a 50TB hard disk, a bandwidth of over
+  500GB/month, and hardware capable of validating hundreds of
+  thousands of transactions in less than 10 minutes. This
+  would make running a Bitcoin node inaccessible to the
+  average person, compromising the decentralization of the
+  protocol and the immutability of transactions and consensus
+  rules.
+reviewed: true

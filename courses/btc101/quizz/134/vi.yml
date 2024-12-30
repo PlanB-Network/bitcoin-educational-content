@@ -1,11 +1,9 @@
-question: Hash hợp lệ trong bối cảnh đào một khối trong mạng Bitcoin là gì?
-answer: Một dấu vân tay độc nhất vô nhị liên kết với khối, bao gồm 256 ký tự.
+question: Hash hợp lệ trong bối cảnh đào block trong mạng Bitcoin là gì?
+answer: Một dấu vân tay duy nhất liên kết với block, bao gồm 256 ký tự.
 wrong_answers:
-  - Một mã độc nhất được sử dụng để truy cập vào khối.
-  - Một mật khẩu độc nhất yêu cầu để đào khối.
-  - Một nhận dạng độc nhất cho người đào đã đào khối.
-explanation: >-
-  Trong bối cảnh đào một khối trong mạng Bitcoin, một "hash" hợp lệ
-  là một dấu vân tay độc nhất vô nhị liên kết với khối, bao gồm 256 ký tự. Sự
-  hợp lệ của hash này phụ thuộc vào độ khó của mạng Bitcoin.
-reviewed: false
+  - Một mã duy nhất được sử dụng để truy cập block.
+  - Một mật khẩu duy nhất cần thiết để đào block.
+  - Một mã định danh duy nhất cho người đào block đó.
+explanation: |
+  Trong bối cảnh đào block trong mạng Bitcoin, một hash hợp lệ là một dấu vân tay duy nhất liên kết với block, bao gồm 256 ký tự. Tính hợp lệ của hash này phụ thuộc vào độ khó của mạng Bitcoin.
+reviewed: true

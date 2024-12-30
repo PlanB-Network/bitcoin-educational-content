@@ -5,4 +5,8 @@ wrong_answers:
   - Dashlane là một dịch vụ của bên thứ ba, trong khi LastPass là một dịch vụ tự lưu trữ.
   - Không có sự khác biệt, chúng cung cấp các tính năng giống nhau.
 explanation:
-  Cả LastPass và Dashlane đều là dịch vụ của bên thứ ba, có nghĩa là mật khẩu của bạn được lưu trữ trên máy chủ của họ. Tuy nhiên, Dashlane cung cấp thêm các tính năng như theo dõi thông tin thẻ tín dụng và ghi chú an toàn.
+  Cả LastPass và Dashlane đều là dịch vụ của bên thứ ba,
+  nghĩa là mật khẩu của bạn được lưu trữ trên máy chủ của họ.
+  Tuy nhiên, Dashlane cung cấp thêm các tính năng như theo dõi
+  thông tin thẻ tín dụng và ghi chú an toàn.
+reviewed: true

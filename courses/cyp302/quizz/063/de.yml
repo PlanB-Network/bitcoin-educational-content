@@ -1,0 +1,9 @@
+question: Warum werden in der Kryptographie oft die Charaktere Alice und Bob verwendet?
+answer: Um kryptografische Prinzipien auf vereinfachte Weise zu veranschaulichen
+wrong_answers:
+  - Weil Alice und Bob technische Begriffe in der Kryptographie sind
+  - Weil sie die häufigsten Namen in der Welt sind
+  - Weil sie Computersysteme darstellen
+explanation: |
+  Alice und Bob werden in der Kryptographie häufig als fiktive Charaktere verwendet, um Nachrichtenaustausche und kryptografische Prinzipien in einem vereinfachten und schematischen Kontext zu veranschaulichen.
+reviewed: false

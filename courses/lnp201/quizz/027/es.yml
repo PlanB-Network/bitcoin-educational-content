@@ -1,10 +1,8 @@
-question: ¿Cuándo se ejecuta la transacción de retiro en una transferencia de la Red Lightning?
-answer: Cuando se cierra el canal.
+question: ¿Por qué es menos deseable el cierre forzado?
+answer: Es más lento y las tarifas pueden ser inapropiadas
 wrong_answers:
-  - Cuando se realiza la transferencia.
-  - Cuando se abre el canal.
-  - Nunca se ejecuta.
+  - Requiere autorización de Satoshi Nakamoto
+  - Obliga a la recreación de un canal más tarde
+  - Impide el uso de la llave de revocación
 explanation: |
-  La transacción de retiro, que representa el estado del canal,
-  no se ejecuta a menos que se cierre el canal.
-reviewed: false
+  El cierre forzado es menos deseable porque incluye un bloqueo de tiempo, lo que ralentiza el proceso, y las tarifas pueden ser inapropiadas ya que se establecieron en el momento de la creación del canal.

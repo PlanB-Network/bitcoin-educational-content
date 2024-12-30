@@ -1,0 +1,13 @@
+question: ¿Cuál es el papel de un coordinador de coinjoin?
+
+answer: Conectar a los participantes y construir la transacción.
+
+wrong_answers:
+  - Encriptar los datos de los participantes para la confidencialidad de la transacción.
+  - Mantener un registro de los coinjoins anteriores para auditorías de seguridad.
+  - Recibir bitcoins de los participantes para mezclarlos.
+
+explanation: |
+  El papel de los coordinadores es conectar a los diferentes usuarios y construir y luego transmitir la transacción colaborativa.
+
+reviewed: false

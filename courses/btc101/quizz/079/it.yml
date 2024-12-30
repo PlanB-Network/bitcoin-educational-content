@@ -5,6 +5,7 @@ wrong_answers:
   - Aggiungendo una seconda chiave pubblica al tuo portafoglio Bitcoin.
   - Aggiungendo una seconda frase mnemonica al tuo portafoglio Bitcoin.
 explanation: |
-  Se non sei soddisfatto della sicurezza predefinita del tuo portafoglio Bitcoin,
-  puoi sempre rafforzarla aggiungendo una passphrase al tuo portafoglio Bitcoin.
-reviewed: false
+  Se non sei soddisfatto della sicurezza predefinita del tuo
+  portafoglio Bitcoin, puoi sempre rafforzarla aggiungendo una
+  passphrase al tuo portafoglio Bitcoin.
+reviewed: vero

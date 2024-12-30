@@ -1,11 +1,12 @@
 question: Kdo jsou cypherpunkové?
-answer: Skupina lidí, která začala hluboce zpochybňovat roli soukromí a svobody v digitálním věku.
+answer: Skupina lidí, kteří začali hluboce zpochybňovat roli soukromí a svobody v digitálním věku.
 wrong_answers:
-  - Skupina hackerů, kteří kradou informace od vlád.
-  - Skupina lidí, kteří vynalezli Bitcoin.
-  - Skupina lidí, kteří se staví proti používání technologií.
+  - Skupina hackerů, kteří kradli informace od vlád.
+  - Skupina lidí, kteří vynalezli Bitcoin a další kryptoměny.
+  - Skupina lidí, kteří se stavěli proti používání technologií.
 explanation: |
-  Cypherpunkové jsou skupina jedinců, kteří věřili, že kryptografie
-  může sloužit jako nástroj k ochraně individuálních práv proti zasahování vlád
+  Cypherpunkové jsou skupina jednotlivců, kteří věřili,
+  že kryptografie může sloužit jako nástroj k ochraně
+  individuálních práv proti zasahování vlád
   a velkých korporací.
 reviewed: true

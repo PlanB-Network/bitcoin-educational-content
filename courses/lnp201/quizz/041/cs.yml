@@ -1,11 +1,9 @@
-question: Jaký je rozdíl mezi uzavírací transakcí a závazkovou transakcí v rámci kooperativního uzavření?
-answer: Uzavírací transakce nemá časový zámek (Timelock) ani klíč pro zrušení.
+question: Proč je pro vysílající uzel obtížné odhadnout přesnou likviditu kanálu?
+answer: Protože pouze dva účastníci znají přesné rozdělení prostředků
 wrong_answers:
-  - Uzavírací transakce má časový zámek (Timelock) a klíč pro zrušení.
-  - Uzavírací transakce je pomalejší než závazková transakce.
-  - Uzavírací transakce je dražší než závazková transakce.
+  - Protože celková kapacita kanálů se neustále mění
+  - Protože poplatky prostřednických uzlů nejsou zveřejněny
+  - Protože kanály se automaticky zavírají po každé transakci
 explanation: |
-  V rámci kooperativního uzavření se obě strany dohodnou na konečném stavu
-  kanálu a vytvoří uzavírací transakci. Tato transakce se liší od závazkových
-  transakcí tím, že nemá časový zámek (Timelock) ani klíč pro zrušení.
+  Přesné rozdělení prostředků v kanálu je viditelné pouze pro dva účastnící uzly, což brání ostatním uzlům v odhadu dostupné likvidity pro směrování.
 reviewed: false

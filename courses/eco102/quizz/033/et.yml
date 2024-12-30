@@ -1,0 +1,9 @@
+question: Rousseau järgi, kust tuleb ühiskonnas kurjus?
+answer: Omandist
+wrong_answers:
+  - Ebavõrdsusest
+  - Orjusest
+  - Individualismist
+explanation: |
+  Rousseau näeb omandit kui sotsiaalse kurjuse allikat, kuna see toob kaasa ebavõrdsused ja soovi domineerida. 
+reviewed: false

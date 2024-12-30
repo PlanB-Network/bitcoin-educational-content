@@ -1,9 +1,9 @@
-question: Quel est le principal inconvénient d'utiliser un gestionnaire de mots de passe auto-hébergé ?
-answer: Il nécessite une connaissance technique plus poussée pour être utilisé.
+question: Quel est le principal inconvénient de l'utilisation d'un gestionnaire de mots de passe auto-hébergé ?
+answer: Il nécessite plus de connaissances techniques pour être utilisé.
 wrong_answers:
-  - Il est plus cher que les services tiers.
+  - Il est plus coûteux que les services tiers.
   - Il n'offre pas autant de fonctionnalités que les services tiers.
   - Il n'est pas aussi sécurisé que les services tiers.
 explanation: |
-  Un gestionnaire de mots de passe auto-hébergé nécessite une connaissance technique plus poussée pour être utilisé, car vous devez configurer et gérer votre propre serveur. Cependant, il peut offrir plus de contrôle et de sécurité.
-reviewed: false
+  Un gestionnaire de mots de passe auto-hébergé nécessite plus de connaissances techniques pour être utilisé, car vous devez configurer et gérer votre propre serveur. Cependant, il peut offrir plus de contrôle et de sécurité.
+reviewed: true

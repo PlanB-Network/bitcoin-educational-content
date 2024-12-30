@@ -1,11 +1,12 @@
 question: Was ist Hyperinflation?
-answer: Eine drastische Zunahme der Geldmenge
+answer: Ein drastischer Anstieg der Geldmenge.
 wrong_answers:
-  - Eine subtile Zunahme der Geldmenge
-  - Eine drastische Abnahme der Geldmenge
-  - Eine subtile Abnahme der Geldmenge
+  - Ein kleiner Anstieg der Geldmenge.
+  - Ein drastischer Rückgang der Geldmenge.
+  - Ein kleiner Rückgang der Geldmenge.
 explanation: |
-  Hyperinflation ist ein monetäres Phänomen,
-  es ist gekennzeichnet durch eine drastische Zunahme der Inflation durch Geldschöpfung durch Behörden,
-  was zu einem vollständigen Vertrauensverlust in eine Währung führt.
-reviewed: false
+  Hyperinflation ist ein monetäres Phänomen, das durch einen
+  drastischen Anstieg der Inflation durch das Drucken von Geld
+  durch die Behörden gekennzeichnet ist, was zu einem vollständigen Verlust des
+  Vertrauens in eine Währung führt.
+reviewed: true

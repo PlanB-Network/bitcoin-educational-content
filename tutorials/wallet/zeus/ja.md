@@ -1,5 +1,5 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: マルチノード自己管理型ウォレット
 ---

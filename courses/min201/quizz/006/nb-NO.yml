@@ -1,0 +1,14 @@
+question: Hva er hovedoppgaven til gruvearbeidere i Bitcoin-nettverket?
+answer: Å løse et digitalt puslespill og validere en ny blokk
+wrong_answers:
+  - Å skape nye bitcoins
+  - Å kontrollere prisen på Bitcoin
+  - Å verifisere identiteten til Bitcoin-brukere
+explanation: |
+  I konteksten av Bitcoin-gruvedrift, streber gruvearbeidere etter å raskt
+  løse et digitalt puslespill. Den første gruvearbeideren som løser puslespillet
+  presenterer sin løsning for hele nettverket, som kan
+  da enkelt verifisere gyldigheten. Denne vellykkede
+  verifiseringen tillater gruvearbeideren å validere en ny blokk og
+  legge den til i Bitcoin Timechain.
+reviewed: true

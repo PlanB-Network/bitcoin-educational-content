@@ -1,0 +1,11 @@
+question: Apa definisi inflasi menurut Robert?
+answer: Inflasi adalah peningkatan berlebihan dalam instrumen pembayaran yang menyebabkan kenaikan harga dan depresiasi mata uang.
+wrong_answers:
+  - Inflasi adalah penurunan dalam instrumen pembayaran yang menyebabkan kenaikan harga dan depresiasi mata uang.
+  - Inflasi adalah peningkatan berlebihan dalam instrumen pembayaran yang menyebabkan penurunan harga dan depresiasi mata uang.
+  - Inflasi adalah peningkatan berlebihan dalam instrumen pembayaran yang menyebabkan kenaikan harga dan apresiasi mata uang.
+explanation: |
+  Menurut Robert, inflasi didefinisikan sebagai peningkatan berlebihan dalam
+  instrumen pembayaran (uang kertas, modal) yang menyebabkan kenaikan harga dan depresiasi
+  mata uang.
+reviewed: false

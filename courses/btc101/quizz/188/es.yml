@@ -1,9 +1,11 @@
 question: ¿Qué es BTCMap?
-answer: Una plataforma que enumera todos los comerciantes que aceptan Bitcoin
+answer: Una plataforma que lista todos los comerciantes que aceptan Bitcoin.
 wrong_answers:
-  - Un mapa de todas las minas de Bitcoin en el mundo
-  - Un mapa de todos los intercambios de Bitcoin en el mundo
-  - Un mapa de todos los usuarios de Bitcoin en el mundo
-explanation: |
-  BTCMap es un proyecto de código abierto y colaborativo que enumera todos los comerciantes que aceptan Bitcoin, así como las diferentes comunidades de Bitcoin en todo el mundo.
-reviewed: false
+  - Un mapa de todas las minas de Bitcoin en el mundo.
+  - Un mapa de todos los intercambios de Bitcoin en el mundo.
+  - Un mapa de todos los usuarios de Bitcoin en el mundo.
+explanation: >-
+  BTCMap es un proyecto de código abierto y colaborativo que lista todos los
+  comerciantes que aceptan Bitcoin, así como las diferentes comunidades de Bitcoin alrededor
+  del mundo.
+reviewed: true

@@ -1,12 +1,13 @@
 question: Miksi kulta tuli vaihdon välineen standardiksi?
-answer: Sen harvinaisuuden, kestävyyden ja jaettavuuden vuoksi
+answer: Sen harvinaisuuden, kestävyyden ja jaettavuuden vuoksi.
 wrong_answers:
-  - Sen runsauden, kestävyyden ja jakamattomuuden vuoksi
-  - Sen harvinaisuuden, pilaantuvuuden ja jaettavuuden vuoksi
-  - Sen runsauden, pilaantuvuuden ja jakamattomuuden vuoksi
+  - Sen runsauden, kestävyyden ja jakamattomuuden vuoksi.
+  - Sen harvinaisuuden, pilaantuvuuden ja jaettavuuden vuoksi.
+  - Sen runsauden, pilaantuvuuden ja jakamattomuuden vuoksi.
 explanation: |
-  Kulta tuli vaihdon välineen standardiksi sen harvinaisuuden, kestävyyden,
-  ja jaettavuuden ansiosta. Sen harvinaisuus estää arvon alenemisen tuotannon myötä, sen kestävyys varmisti, ettei se
-  kulunut ajan myötä, ja sen jaettavuus mahdollisti sen käytön erikokoisissa
-  transaktioissa.
-reviewed: false
+  Kulta tuli vaihdon välineen standardiksi sen
+  harvinaisuuden, kestävyyden ja jaettavuuden ansiosta: sen harvinaisuus esti
+  arvon alenemisen tuotannon myötä; sen kestävyys
+  varmisti, että se ei kuluisi ajan myötä, ja sen jaettavuus
+  mahdollisti käytön erikokoisissa transaktioissa.
+reviewed: true

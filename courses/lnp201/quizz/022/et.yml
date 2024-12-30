@@ -1,0 +1,8 @@
+question: Mida võimaldab teha tühistamisvõti petmise korral?
+answer: Taastada kõik vahendid petjat karistades
+wrong_answers:
+  - Tühistada kohustuse tehing
+  - Kahekordistada kanali mahtu
+  - Takistada edasisi tehinguid kanalis
+explanation: |
+  Tühistamisvõti võimaldab kahjustatud poolel taastada kõik vahendid, kui teine pool üritab petta.

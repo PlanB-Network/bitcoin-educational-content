@@ -1,0 +1,11 @@
+question: Mis on peamine erinevus Bitcoini ja alt-coinide vahel detsentraliseerituse osas?
+answer: Bitcoin on detsentraliseeritud, samas kui enamik alt-coine ei ole
+wrong_answers:
+  - Nii Bitcoin kui ka alt-coinid on detsentraliseeritud
+  - Nii Bitcoin kui ka alt-coinid ei ole detsentraliseeritud
+  - Alt-coinid on detsentraliseeritud, samas kui Bitcoin ei ole
+explanation: |
+  Peatüki sisu selgelt märgib, et Bitcoin on detsentraliseeritud, samas
+  kui enamik alt-coine ei ole. See on võtmeomadus, mis eristab Bitcoini
+  teistest krüptorahadest.
+reviewed: false

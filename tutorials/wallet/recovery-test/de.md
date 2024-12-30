@@ -63,6 +63,9 @@ Klicken Sie bei Sparrow auf den Tab "*Adressen*".
 Notieren Sie dann auf einem Stück Papier die allererste Empfangsadresse Ihrer Wallet. In meinem Beispiel ist die Adresse:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 Nachdem Sie die Informationen notiert haben, gehen Sie zum Menü "*Datei*", dann wählen Sie "*Wallet löschen*". Ich erinnere Sie noch einmal daran, dass Ihre Bitcoin-Wallet leer sein muss, bevor Sie mit dieser Operation fortfahren.
 
 ![RECOVERY TEST](assets/notext/04.webp)

@@ -1,0 +1,11 @@
+question: 什么是Stonewall x2交易？
+
+answer: 一种形式为迷你-coinjoin的支付交易
+
+wrong_answers:
+  - 一种模仿迷你-coinjoin但实际上不是的交易
+  - 一种简单的支付交易
+  - 一种涉及到收款人输入的交易
+
+explanation: |
+  Stonewall x2是一种特定形式的比特币交易，旨在通过与不参与支付的第三方合作来增加用户在支付过程中的隐私。这种方法像是两个参与者之间的迷你-coinjoin，同时向第三人支付。

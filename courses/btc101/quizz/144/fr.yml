@@ -1,8 +1,11 @@
-question: Quelle est l'exigence de bande passante pour faire fonctionner un nœud Bitcoin, en considérant 1 bloc de 1MB toutes les 10 minutes ?
-answer: Environ 5GB par mois
+question: Quelle est l'exigence de bande passante pour exécuter un nœud Bitcoin, en considérant
+  1 bloc de 1MB toutes les 10 minutes ?
+answer: Environ 5GB par mois.
 wrong_answers:
-  - Environ 1GB par mois
-  - Environ 10GB par mois
-  - Environ 20GB par mois
+  - Environ 1GB par mois.
+  - Environ 10GB par mois.
+  - Environ 20GB par mois.
 explanation: >-
-  En considérant 1 bloc de 1MB toutes les 10 minutes, faire fonctionner un nœud Bitcoin nécessite environ 5GB par mois en bande passante.
+  En considérant 1 bloc de 1MB toutes les 10 minutes, exécuter un nœud Bitcoin nécessite
+  environ 5GB par mois en bande passante.
+reviewed: true

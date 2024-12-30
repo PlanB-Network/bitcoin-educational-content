@@ -1,0 +1,9 @@
+question: Milloin ensimmäinen vaihto bitcoinin ja dollarin välillä tapahtui?
+answer: 12. lokakuuta 2009
+wrong_answers:
+  - 8. toukokuuta 2009
+  - 30. joulukuuta 2009
+  - 11. maaliskuuta 2010
+explanation: |
+  Martti siirsi 5,050 bitcoinia NLS: lle, joka sitten siirsi $5.02 hänen PayPal-tililleen. Tämä vastasi yksikköhinnaltaan noin $0.001.
+reviewed: false

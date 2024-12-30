@@ -1,0 +1,9 @@
+question: What happens if an attacker intercepts an encrypted message in a good symmetric encryption scheme?
+answer: They should not learn anything significant about the original message
+wrong_answers:
+  - They can always decrypt the message without the key
+  - They should be able to decrypt it with a public key
+  - They should be able to guess the content of the message
+explanation: |
+  In a well-designed symmetric encryption scheme, an attacker intercepting an encrypted message should not be able to deduce relevant information about the content of the message without the decryption key.
+reviewed: false

@@ -1,9 +1,13 @@
-question: Quel est un potentiel inconvénient des monnaies numériques des banques centrales (CBDC) ?
+question: Quel est un inconvénient potentiel des monnaies numériques émises par les banques centrales (CBDCs) ?
 answer: Elles pourraient entraver la liberté financière des individus et faciliter les abus autoritaires.
 wrong_answers:
   - Elles pourraient entraîner une diminution de l'offre monétaire.
   - Elles pourraient entraîner une diminution de la valeur du Bitcoin.
   - Elles pourraient entraîner une diminution de la valeur de l'or.
 explanation: |
-  Les monnaies numériques des banques centrales (CBDC) pourraient potentiellement entraver la liberté financière des individus et faciliter les abus autoritaires. En effet, elles offriraient une économie plus planifiée de manière centralisée, avec une banque centrale ayant encore plus de contrôle sur l'offre monétaire.
-reviewed: false
+  Les monnaies numériques émises par les banques centrales (CBDCs) pourraient potentiellement
+  entraver la liberté financière des individus et faciliter
+  les abus autoritaires. Cela est dû au fait qu'elles offriraient
+  une économie plus planifiée centralement, avec la banque centrale
+  ayant encore plus de contrôle sur l'offre monétaire.
+reviewed: true

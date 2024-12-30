@@ -1,0 +1,8 @@
+question: 描述符中的前缀`wpkh`是什么意思？
+answer: 支付至见证公钥哈希
+wrong_answers:
+  - 支付至公钥
+  - 支付至脚本哈希
+  - 见证脚本哈希
+explanation: |
+  前缀`wpkh`表示使用支付至见证公钥哈希地址的SegWit v0脚本。

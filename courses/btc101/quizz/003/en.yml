@@ -1,11 +1,13 @@
 question: What is the purpose of this Bitcoin course?
-answer: To discuss the monetary aspects of Bitcoin, how to use it, and its future.
+answer: To introduce some general monetary aspects of Bitcoin, how to use it, and its future.
 wrong_answers:
-  - To discuss how to mine Bitcoin.
-  - To discuss how to regulate Bitcoin.
-  - To discuss how to create a new Bitcoin protocol.
+  - To introduce how to mine Bitcoin.
+  - To introduce how to regulate Bitcoin.
+  - To introduce how to create a new Bitcoin protocol.
 explanation: |
-  The purpose of this Bitcoin course is to discuss the monetary aspects
-  of Bitcoin, including how to buy and sell bitcoins, securely store them in digital
-  wallets, and use them for transactions. It also aims to explore the future of Bitcoin.
+  The purpose of this Bitcoin course is to discuss the
+  general monetary characteristics of Bitcoin, including how
+  to buy and sell bitcoins, securely store them in digital
+  wallets, and use them for transactions. It also aims to
+  explore the future of Bitcoin.
 reviewed: true

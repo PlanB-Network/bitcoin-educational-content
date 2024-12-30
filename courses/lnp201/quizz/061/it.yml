@@ -1,9 +1,0 @@
-question: Cosa succede quando l'HTLC scade?
-answer: I soldi vengono restituiti al mittente.
-wrong_answers:
-  - I soldi vengono trasferiti al destinatario.
-  - I soldi vengono persi.
-  - I soldi vengono trasferiti a un terzo soggetto.
-explanation: |
-  Se il destinatario non rivela il segreto entro un certo periodo di tempo, l'HTLC scade e i soldi vengono restituiti al mittente.
-reviewed: false

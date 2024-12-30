@@ -1,0 +1,9 @@
+question: Qual era il nome del giovane finlandese che ha aiutato Satoshi nella comunicazione riguardo al suo progetto nel 2009, gestendo in particolare il sito web e il forum di Bitcoin?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Ha contattato Satoshi nell'aprile del 2009. Satoshi lo incaricò immediatamente di scrivere una FAQ e una presentazione per il sito web. Martti Malmi è stato il braccio destro di Satoshi per oltre un anno.
+reviewed: false

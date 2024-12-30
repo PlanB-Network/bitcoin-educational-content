@@ -1,0 +1,8 @@
+question: Apa alasan utama seorang Bitcoiner paranoid menggunakan node LN mereka sendiri?
+answer: Untuk menjaga privasi dan keamanan
+wrong_answers:
+  - Untuk menghindari proses KYC
+  - Untuk mengelola UTXO mereka
+  - Untuk mencampurkan koin mereka
+explanation: |
+  Bab tersebut menyebutkan bahwa seorang Bitcoiner paranoid akan menggunakan node LN mereka sendiri sebagai bagian dari fokus mereka pada keamanan. Meskipun menghindari proses KYC, mengelola UTXO, dan mencampur koin juga merupakan aktivitas yang mungkin dilakukan oleh seorang Bitcoiner paranoid, hal-hal tersebut tidak langsung terkait dengan penggunaan node LN.

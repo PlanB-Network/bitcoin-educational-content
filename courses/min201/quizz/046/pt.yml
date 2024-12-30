@@ -1,9 +1,14 @@
-question: Por que a educação e a informação são consideradas as armas mais poderosas contra possíveis regulamentações restritivas à mineração de Bitcoin?
-answer: Um entendimento claro e preciso da mineração pode ajudar a desmistificar a indústria e combater informações incorretas.
+question: Por que a educação e a informação são consideradas as armas mais poderosas contra possíveis regulamentações restritivas na mineração de Bitcoin?
+answer: Um entendimento claro e preciso da mineração pode ajudar a desmistificar a indústria e combater a desinformação.
 wrong_answers:
   - Porque pode ajudar os mineradores a encontrar maneiras de contornar as regulamentações.
   - Porque pode ajudar a convencer os reguladores a mudarem de ideia.
   - Porque pode ajudar os mineradores a entenderem melhor as regulamentações.
 explanation: |
-  A educação e a informação são consideradas as armas mais poderosas contra possíveis regulamentações restritivas à mineração de Bitcoin, pois um entendimento claro e preciso da mineração, como ela funciona e seu impacto, pode ajudar a desmistificar a indústria e combater informações incorretas. Isso pode oferecer uma resistência melhor às regulamentações potencialmente prejudiciais.
-reviewed: false
+  Educação e informação são consideradas as armas mais poderosas
+  contra possíveis regulamentações restritivas na mineração de Bitcoin
+  porque um entendimento claro e preciso da mineração,
+  como ela funciona e seu impacto pode ajudar a desmistificar a
+  indústria e combater a desinformação. Isso pode oferecer uma
+  resistência melhor contra regulamentações potencialmente prejudiciais.
+reviewed: true

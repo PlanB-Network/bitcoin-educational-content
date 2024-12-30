@@ -1,0 +1,12 @@
+question: Hva er en passordbehandler?
+answer: Et verktøy som lar deg lagre, generere og håndtere passordene dine for forskjellige nettbaserte kontoer.
+wrong_answers:
+  - Et verktøy som hjelper deg med å huske alle passordene dine.
+  - Et verktøy som automatisk logger deg inn på dine nettbaserte kontoer.
+  - Et verktøy som beskytter datamaskinen din mot virus.
+explanation: |
+  En passordbehandler er et verktøy som lar deg lagre, generere og
+
+  håndtere passordene dine for forskjellige nettbaserte kontoer. Det hjelper deg med å lage sterke
+
+  passord og huske dem, så du ikke trenger å gjøre det selv.

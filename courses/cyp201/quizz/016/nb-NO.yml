@@ -1,0 +1,9 @@
+question: Hvilken signaturalgoritme ble introdusert i Bitcoin med Taproot?
+answer: Schnorr signaturordning
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schnorr signaturordningen ble introdusert i november 2021 med Taproot-oppdateringen.
+reviewed: false

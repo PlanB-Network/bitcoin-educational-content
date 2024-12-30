@@ -1,0 +1,9 @@
+question: Nende nelja meetodi hulgast, millega bitcoine hankida, milline neist seab teid kõige vähem kokku võtmekoodi tuvastamise riskiga?
+answer: Ostmine P2P kaudu sularahas
+wrong_answers:
+  - Ostmine reguleeritud platvormi kaudu ilma KYC-ta
+  - Ostmine reguleeritud platvormi kaudu KYC-ga
+  - Ostmine PayPal'i kaudu P2P vahendusplatvormil
+explanation: |
+  Bitcoinide ostmine peer-to-peer meetodil sularahas on viis, mis seab teid kõige vähem kokku võtmekoodi tuvastamise riskiga, kuna see ei nõua reguleeritud ettevõtte kaudu toimimist ja ei jäta pangasüsteemi jälgi. Lisaks ei nõua see meetod üldiselt isikliku teabe avalikustamist.
+reviewed: false

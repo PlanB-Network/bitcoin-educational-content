@@ -1,13 +1,13 @@
-question: Các giao dịch trên Lightning Network được bảo mật như thế nào?
+question: Các giao dịch trên Mạng Lưới Lightning được bảo mật như thế nào?
 
 answer: Qua mật mã học và gián tiếp qua năng lượng tiêu thụ bởi các thợ đào trên Bitcoin.
 
 wrong_answers:
-  - Qua việc sử dụng chỉ khóa riêng.
-  - Qua việc sử dụng chỉ khóa công khai.
-  - Qua việc sử dụng cả khóa riêng và khóa công khai.
+  - Qua việc sử dụng khóa riêng tư mà thôi.
+  - Qua việc sử dụng khóa công khai mà thôi.
+  - Qua việc sử dụng cả khóa riêng tư và khóa công khai mà thôi.
 
 explanation: >-
-  Các giao dịch trên Lightning Network được bảo mật qua mật mã học và gián tiếp qua năng lượng tiêu thụ bởi các thợ đào trên Bitcoin.
+  Các giao dịch trên Mạng Lưới Lightning được bảo mật qua mật mã học và gián tiếp qua năng lượng tiêu thụ bởi các thợ đào trên Bitcoin.
 
-reviewed: false
+reviewed: true

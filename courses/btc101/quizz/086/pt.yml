@@ -1,11 +1,13 @@
 question: O que é uma carteira fria?
-answer: Uma carteira física onde suas chaves são armazenadas em um dispositivo que não está conectado à internet
+answer: Uma carteira em um dispositivo físico que armazena suas chaves e não está conectada à internet.
 wrong_answers:
-  - Uma carteira que é fisicamente fria ao toque
-  - Uma carteira que é impopular entre os usuários de Bitcoin
-  - Uma carteira que é recomendada para armazenar pequenas quantidades de bitcoins
+  - Uma carteira que é fisicamente fria ao toque.
+  - Uma carteira que é impopular entre os usuários de Bitcoin.
+  - Uma carteira que é recomendada para armazenar pequenas quantidades de bitcoins.
 explanation: |
-  Uma carteira fria é um termo usado para descrever uma carteira de Bitcoin que é armazenada
-  em um dispositivo que não está conectado à internet. Isso a torna menos vulnerável
-  a ameaças online, mas também significa que a carteira é menos acessível para transações diárias.
+  Uma carteira fria é um termo usado para descrever uma carteira de Bitcoin
+  que é armazenada em um dispositivo que não está conectado à
+  internet. Isso a torna menos vulnerável a ameaças online,
+  mas também significa que a carteira é menos acessível para
+  transações diárias.
 reviewed: true

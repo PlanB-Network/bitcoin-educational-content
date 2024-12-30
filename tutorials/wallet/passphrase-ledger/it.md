@@ -8,7 +8,7 @@ Una passphrase BIP39 è una password opzionale che, combinata con la tua frase m
 
 Prima di iniziare questo tutorial, se non sei familiare con il concetto di passphrase, come funziona e le sue implicazioni per il tuo portafoglio Bitcoin, ti consiglio vivamente di consultare questo altro articolo teorico dove spiego tutto:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Come funziona la passphrase su un Ledger?
 
@@ -28,9 +28,9 @@ In questo tutorial, userò il Ledger Flex come esempio. Tuttavia, se stai utiliz
 **Attenzione:** Se hai già ricevuto bitcoin sul tuo Ledger prima di attivare la passphrase, dovrai trasferirli tramite una transazione Bitcoin. La passphrase genera un insieme di nuove chiavi, creando così un portafoglio completamente indipendente dal tuo portafoglio iniziale. Aggiungendo la passphrase, avrai un nuovo portafoglio che sarà vuoto. Tuttavia, questo non cancella il tuo primo portafoglio senza passphrase. Puoi ancora accedervi, direttamente tramite il tuo Ledger senza inserire la passphrase o tramite un altro software utilizzando la tua frase di 24 parole.
 Prima di iniziare questo tutorial, assicurati di aver già inizializzato il tuo Ledger e generato la tua frase mnemonica. Se non è così e il tuo Ledger è nuovo, segui il tutorial specifico per il tuo modello disponibile su PlanB Network. Una volta completato questo passaggio, puoi tornare a questo tutorial.
 
-https://planb.network/tutorials/wallet/ledger-flex
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
-https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Come impostare una passphrase temporanea con un Ledger?
 
@@ -155,4 +155,4 @@ Congratulazioni, il tuo portafoglio Bitcoin è ora protetto con una passphrase! 
 
 Ti consiglio anche di dare un'occhiata a questo altro tutorial completo su come utilizzare il tuo Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

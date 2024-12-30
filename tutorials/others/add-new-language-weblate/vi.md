@@ -20,7 +20,7 @@ Bước đầu tiên là kiểm tra xem ngôn ngữ của bạn đã có trong s
 ![language](assets/02.webp)
 Nếu ngôn ngữ của bạn có trong danh sách này, bạn không cần phải thêm nó lại. Để đóng góp cho một ngôn ngữ đã có, chúng tôi đã tạo một hướng dẫn khác mà bạn có thể khám phá.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -30,7 +30,7 @@ Nếu ngôn ngữ của bạn không có ở đó, hãy theo dõi hướng dẫn
 
 - Bước đầu tiên là tạo một tài khoản trên Weblate. Nếu bạn không biết làm thế nào, bạn có thể theo dõi hướng dẫn chi tiết của chúng tôi.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 - Một khi tài khoản của bạn đã được tạo, truy cập vào menu `Website frontend element` và chọn tab `Languages`:
@@ -48,7 +48,7 @@ https://planb.network/tutorials/others/translate-front-weblate
 
 Xin chúc mừng, bạn đã bắt đầu quá trình dịch trang web Mạng PlanB sang một ngôn ngữ mới! Bạn có thể bắt đầu bằng cách dịch toàn bộ giao diện người dùng qua Weblate.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
  Điều này bao gồm tất cả các văn bản trên trang web, ngoại trừ nội dung giáo dục (các khóa học, hướng dẫn...) mà chúng tôi sử dụng một phương pháp khác kết hợp giữa Con Người và AI.
 Tiếp theo, bạn có thể liên hệ @asi0_flammeus trên Telegram, người sẽ hỗ trợ bạn trong việc đánh giá một số khóa học được dịch tự động bằng mô hình của họ. Nếu những nội dung này được coi là thỏa đáng, bạn có thể tiếp tục đánh giá tất cả nội dung khác trên trang web (các khóa học, hướng dẫn...). Một khi những bước này được hoàn thành, chúng ta có thể xem xét việc chính thức tích hợp ngôn ngữ mới vào trang web của Mạng lưới PlanB, điều này sẽ cho phép tất cả người nói ngôn ngữ của bạn truy cập vào nội dung chất lượng về Bitcoin, mà không gặp bất kỳ rào cản nào.

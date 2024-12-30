@@ -1,0 +1,9 @@
+question: Jaký je Tocquevillův pohled na právo na práci?
+answer: Tocqueville je proti právu na práci a obává se, že by to mohlo vést ke státismu a ztrátě individuální svobody.
+wrong_answers:
+  - Tocqueville je pro právo na práci a věří, že stát by měl zaručit všem občanům slušné zaměstnání.
+  - Tocqueville si myslí, že právo na práci je ušlechtilý princip, ale že je obtížné jej efektivně a spravedlivě implementovat.
+  - Tocqueville neuvádí jasně svůj postoj k právu na práci.
+explanation: |
+  Tocqueville se staví proti právu na práci, protože se obává, že tato odpovědnost svěřená státu by mohla vést k nadměrnému intervencionismu a snížení individuálních svobod ve prospěch centralizované kontroly.
+reviewed: false

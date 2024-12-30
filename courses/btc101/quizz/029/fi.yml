@@ -1,11 +1,9 @@
-question: Mikä on kullan pääasiallinen etu verrattuna muihin valuuttoihin?
-answer: Sen luontainen harvinaisuus tekee siitä arvokkaan, kun taas sen kemialliset ominaisuudet mahdollistavat sen, ettei se eroosioitumisen myötä kulu
+question: Miksi kulta ei ole kannettava materiaali?
+answer: Koska se on tiheää ja raskasta, mikä tekee siitä hankalaa kantaa suurissa määrissä.
 wrong_answers:
-  - Se on helposti jaettavissa ja kuljetettavissa
-  - Se on altis rahapoliittiselle inflaatiolle
-  - Sitä hyväksytään laajalti kaupankäynnissä
+  - Koska se on liian arvokasta siirrettäväksi.
+  - Koska sitä ei voi helposti muotoilla pienempiin muotoihin.
+  - Koska se on nestemäistä huoneenlämmössä.
 explanation: |
-  Kullan pääasiallinen etu muihin valuuttoihin verrattuna on sen luontainen
-  harvinaisuus, mikä tekee siitä arvokkaan, sekä sen kemialliset ominaisuudet, jotka
-  mahdollistavat sen, ettei se ajan myötä eroosioitumisen seurauksena kulu.
-reviewed: false
+  Kulta on tiheää ja raskasta, mikä tarkoittaa, että suurten määrien kantaminen voi olla fyysisesti haastavaa. Tämä paino tekee siitä vähemmän kätevän kuljetettavan verrattuna kevyempiin materiaaleihin.
+reviewed: true

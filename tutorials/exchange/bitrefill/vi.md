@@ -28,9 +28,9 @@ Nhập một địa chỉ email. Nếu bạn muốn giữ tài khoản của mì
 ![BITREFILL](assets/notext/05.webp)
 Nếu bạn muốn biết cách dễ dàng tạo một hộp thư điện tử an toàn và cách quản lý mật khẩu của mình, tôi khuyên bạn nên tham khảo 2 hướng dẫn khác này:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sau đó, nhấp vào nút "*Create account*".
 ![BITREFILL](assets/notext/06.webp)
@@ -44,7 +44,7 @@ Và đi đến tab "*Đăng nhập & Bảo mật*".
 Trong phần "*Xác thực hai yếu tố*", nhấp vào nút "*Kích hoạt*" và làm theo quy trình thiết lập.
 Để tìm hiểu thêm về cách sử dụng xác thực hai yếu tố để bảo mật các tài khoản trực tuyến của bạn, tôi khuyên bạn nên khám phá hướng dẫn khác này:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Làm thế nào để mua một thẻ quà tặng bằng BTC trên Bitrefill?
 
@@ -69,4 +69,4 @@ Và đó là tất cả, bạn giờ đây đã biết cách tiêu bitcoin mà k
 
 Nếu bạn muốn đóng góp vào việc phổ biến Bitcoin và khuyến khích một thương nhân độc lập áp dụng phương thức thanh toán này, tôi khuyên bạn nên tham khảo hướng dẫn đầy đủ của chúng tôi về Swiss Bitcoin Pay. Đây là một giải pháp toàn diện cho các bộ xử lý thanh toán BTC, dễ dàng cài đặt và quản lý hàng ngày:
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

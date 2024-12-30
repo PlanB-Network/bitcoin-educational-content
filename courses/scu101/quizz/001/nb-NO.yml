@@ -1,0 +1,10 @@
+question: Hvorfor anbefales det å begrense antallet utvidelser installert på nettleseren din?
+answer: For å unngå potensielle sikkerhets- og ytelsesproblemer.
+wrong_answers:
+  - For å spare lagringsplass på enheten din.
+  - For å forhindre at nettleseren krasjer.
+  - For å unngå å bli sporet av tredjepartsnettsteder.
+explanation: |
+  Selv om nettleserutvidelser kan tilby nyttige funksjonaliteter, kan de
+  også utgjøre sikkerhetsrisikoer ettersom de kan få tilgang til dataene dine og nettleseraktiviteten din. I tillegg
+  kan det å ha for mange utvidelser senke nettleserens hastighet og påvirke ytelsen.

@@ -1,0 +1,9 @@
+question: According to Friedrich Hayek, why is centralized planning inefficient?
+answer: It cannot handle the complexity of economic decisions
+wrong_answers:
+  - It reduces the quantity of goods produced
+  - It increases production costs
+  - It promotes international trade
+explanation: |
+  Hayek explains that centralized planning fails due to the complexity of economic decisions, which only a free market can coordinate efficiently.
+reviewed: false

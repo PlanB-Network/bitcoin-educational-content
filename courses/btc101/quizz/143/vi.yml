@@ -1,9 +1,11 @@
-question: Điều gì sẽ xảy ra nếu một người dùng quyết định tuân theo các quy tắc khác làm mất hiệu lực các quy tắc đồng thuận hiện tại?
-answer: Nút đó sẽ không còn là một phần của mạng Bitcoin
+question: Điều gì sẽ xảy ra nếu một người dùng nút quyết định tuân theo những quy tắc khác biệt mâu thuẫn với quy tắc đồng thuận hiện tại?
+answer: Nút đó sẽ không còn là một phần của mạng lưới Bitcoin.
 wrong_answers:
-  - Nút đó sẽ trở thành một phần của một mạng Bitcoin khác
-  - Nút đó sẽ bị mạng Bitcoin phạt
-  - Nút đó sẽ được mạng Bitcoin thưởng
-explanation: >-
-  Nếu một người dùng quyết định tuân theo các quy tắc khác làm mất hiệu lực các quy tắc đồng thuận hiện tại, thì nút này sẽ không còn là một phần của mạng Bitcoin.
-reviewed: false
+  - Nút đó sẽ trở thành một phần của một mạng lưới Bitcoin khác.
+  - Nút đó sẽ bị mạng lưới Bitcoin phạt.
+  - Nút đó sẽ được mạng lưới Bitcoin thưởng.
+explanation: |
+  Nếu một người dùng nút quyết định tuân theo những quy tắc khác
+  làm mất hiệu lực của quy tắc đồng thuận hiện tại, thì nút này
+  sẽ không còn là một phần của mạng lưới Bitcoin.
+reviewed: true

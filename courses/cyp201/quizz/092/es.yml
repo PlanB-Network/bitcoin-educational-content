@@ -1,9 +1,0 @@
-question: ¿Cuál es el tamaño de una clave pública comprimida?
-answer: 33 bytes
-wrong_answers:
-  - 32 bytes
-  - 82 bytes
-  - 512 bits
-explanation: |
-  Las claves públicas comprimidas tienen un tamaño de 33 bytes. Mantienen la misma información que las claves no comprimidas, pero con un tamaño reducido.
-reviewed: false

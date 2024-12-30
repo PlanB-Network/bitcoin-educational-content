@@ -1,0 +1,5 @@
+description: |
+  NerdMiner on koulutuksellinen ja viihteellinen työkalu, joka on omistettu Bitcoinin louhinnalle ja perustuu ESP-32 S3 -korttiin. Vaikka se ei vastaa ammattimaisten ASIC-laitteiden tehoa, se mahdollistaa konkreettisen ymmärryksen louhinnan toiminnasta vain 0,5 W:n sähkönkulutuksella. Louhintapooleihin liitettynä se tarjoaa pienen mahdollisuuden louhia lohko samalla, kun se näyttää tilastoja integroidulla näytöllään. Ihanteellinen harrastajille ja uteliaille.
+
+contributors:
+  - pretty-private

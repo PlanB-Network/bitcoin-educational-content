@@ -1,9 +1,9 @@
-question: Was ist die kleinste Einheit von Bitcoin?
-answer: Satoshi
+question: Was ist der Ausgangspunkt für die Berechnung einer ECDSA-Signatur?
+answer: Der Nachrichten-Hash
 wrong_answers:
-  - Bit
-  - Byte
-  - Münze
+  - Der öffentliche Schlüssel
+  - Ein fester Nonce
+  - Eine benutzerdefinierte elliptische Kurve
 explanation: |
-  Im Bitcoin-System ist die Recheneinheit der Bitcoin (beachten Sie das kleine "b"). Sie ist bis zu acht Dezimalstellen teilbar, wobei die kleinste Einheit der Satoshi ist.
+  Eine ECDSA-Signatur beginnt mit der Berechnung des Hashs der zu signierenden Nachricht, oft mit SHA256.
 reviewed: false

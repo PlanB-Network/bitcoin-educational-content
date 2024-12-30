@@ -1,0 +1,9 @@
+question: Hvor møtes Bitcoin-utviklere for å ha mer uformelle tekniske diskusjoner?
+answer: På IRC-kanalen \#bitcoin-dev
+wrong_answers:
+  - På en spesiell del av forumet
+  - På bitcoin-utviklings e-postlisten
+  - På subreddit-en r/Bitcoin
+explanation: |
+  Dette ble [opprettet](https: //mmalmi.github.io/satoshi/#email-27) i august 2009 av Martti Malmi. Det fikk en viss popularitet etter slashdottingen i juli 2010.
+reviewed: false

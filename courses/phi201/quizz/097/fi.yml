@@ -1,0 +1,8 @@
+question: Mikä on marxilainen uskonnon kritiikki?
+answer: Se ohjaa ihmisiä pois taistelusta heidän todellisen vapautumisensa puolesta.
+wrong_answers:
+  - Se on älymystön oopiumia.
+  - Se on yhteensopimaton vapauden ja tasa-arvon periaatteiden kanssa.
+  - Se ei tarjoa lisäarvoa työssä.
+explanation: |
+  Marx näkee uskonnon välineenä, joka ohjaa työläisiä pois heidän taistelustaan vapautumisen puolesta lohduttamalla heitä heidän materiaalisista olosuhteistaan kannustamatta heitä muuttamaan hyväksikäytön rakenteita.

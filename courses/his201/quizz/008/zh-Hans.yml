@@ -1,0 +1,8 @@
+question: 什么是电子黄金（e-gold）？
+answer: 一种由相等数量的金所支持并存储在金库中的数字货币
+wrong_answers:
+  - 魔兽世界宇宙中的一种货币单位
+  - 一种其发行基于工作量证明的数字货币概念
+  - 一种在线黄金珠宝交换系统
+explanation: |
+  该系统由Douglas Jackson和Barry Downey于1996年共同创立，可以通过简单的网络浏览器访问。

@@ -26,7 +26,7 @@ Stowaway依赖于Samourai称之为"Cahoots"的一类交易。Cahoot本质上是�
 
 Cahoots交易涉及用户之间交换部分签名的交易。这个过程可能既长又繁琐，特别是在远程完成时。然而，如果合作者身处近距离，仍然可以手动与另一用户执行，这可能很方便。实际操作中，这涉及手动交换五个QR码，以便依次扫描。
 在远程进行时，这个过程变得过于复杂。为了解决这个问题，Samourai开发了一个基于Tor的加密通信协议，称为“Soroban”。通过Soroban，为Payjoin所需的交换过程在用户友好界面后自动化。这是我们将在本文中研究的第二种方法。
-这些加密交换需要在Cahoots参与者之间建立连接和认证。因此，Soroban通信基于用户的Paynyms。如果你不熟悉Paynyms，我邀请你查阅这篇文章以获取更多详情：[BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)。
+这些加密交换需要在Cahoots参与者之间建立连接和认证。因此，Soroban通信基于用户的Paynyms。如果你不熟悉Paynyms，我邀请你查阅这篇文章以获取更多详情：[BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)。
 简单来说，Paynym是一个与你的钱包链接的独特标识符，允许进行各种功能，包括加密消息。Paynym以标识符和代表机器人的插图形式呈现。这是我在Testnet上的一个例子：![paynym samourai wallet](assets/en/1.webp)
 
 **总结：**
@@ -36,7 +36,7 @@ Cahoots交易涉及用户之间交换部分签名的交易。这个过程可能�
 - _Soroban_ = 建立在Tor上的加密通信协议，允许在Cahoots交易的背景下与其他用户合作；
 - _Paynym_ = 钱包的独特标识符，允许与Soroban上的另一个用户通信，以进行Cahoots交易。
 
-[**-> 了解更多关于Payjoin交易及其用途**](https://planb.network/tutorials/privacy/payjoin)
+[**-> 了解更多关于Payjoin交易及其用途**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## 如何建立Paynyms之间的连接？
 
@@ -62,7 +62,7 @@ Cahoots交易涉及用户之间交换部分签名的交易。这个过程可能�
 ![跟随支付名](assets/notext/6.webp)
 点击`YES`确认。
 ![确认跟随支付名](assets/notext/7.webp)
-接下来，软件将提供一个`SE CONNECTER`按钮。对于我们的教程来说，点击这个按钮不是必需的。这一步骤只有在您计划作为[BIP47](https://planb.network/tutorials/privacy/paynym-bip47)的一部分向另一个Paynym进行支付时才需要。
+接下来，软件将提供一个`SE CONNECTER`按钮。对于我们的教程来说，点击这个按钮不是必需的。这一步骤只有在您计划作为[BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)的一部分向另一个Paynym进行支付时才需要。
 ![连接支付名](assets/notext/8.webp)
 一旦接收者的Paynym被您的Paynym关注，就重复这个操作，反方向进行，以便接收者也关注您。然后，您可以执行Payjoin交易。
 

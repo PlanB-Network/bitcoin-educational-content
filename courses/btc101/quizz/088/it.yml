@@ -1,9 +1,9 @@
-question: Qual è il principale rischio nell'utilizzare un servizio di custodia per conservare i tuoi bitcoin?
-answer: La terza parte fidata può limitare il tuo accesso ai tuoi fondi in qualsiasi momento.
+question: Qual è il principale rischio nell'utilizzare un servizio custodiale per conservare i tuoi bitcoin?
+answer: La terza parte fidata può limitare l'accesso ai tuoi fondi in qualsiasi momento.
 wrong_answers:
   - La terza parte fidata può aumentare il valore dei tuoi bitcoin in qualsiasi momento.
   - La terza parte fidata può diminuire il valore dei tuoi bitcoin in qualsiasi momento.
   - La terza parte fidata non può duplicare i tuoi bitcoin in qualsiasi momento.
-explanation: |
-  Quando utilizzi un servizio di custodia per conservare i tuoi bitcoin, non sei l'unico detentore dei tuoi bitcoin. Ciò significa che la terza parte fidata può limitare il tuo accesso ai fondi in qualsiasi momento, offrendoti lo stesso livello di sovranità finanziaria del sistema bancario tradizionale.
-reviewed: false
+explanation: >-
+  Quando utilizzi un servizio custodiale per conservare i tuoi bitcoin, non sei l'unico detentore dei tuoi bitcoin. Questo significa che la terza parte fidata può limitare l'accesso ai tuoi fondi in qualsiasi momento, offrendoti lo stesso livello di sovranità finanziaria del sistema bancario tradizionale.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaký je omyl týkající se zabezpečení komunikačních kanálů v moderním světě?
+answer: Domnívat se, že fyzická ochrana kanálu zabrání odposlechu
+wrong_answers:
+  - Myslet si, že bezdrátové sítě jsou neúčinné
+  - Domnívat se, že kryptografie není pro lokální komunikaci nutná
+  - Považovat, že data mohou odposlouchávat pouze národní agentury
+explanation: |
+  Je omyl myslet si, že pouhá fyzická ochrana kanálu je dostatečná pro zajištění důvěrnosti, jelikož existuje mnoho přístupových bodů pro odposlech, zejména u bezdrátových komunikací.
+reviewed: false

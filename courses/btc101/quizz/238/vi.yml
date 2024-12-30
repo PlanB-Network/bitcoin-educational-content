@@ -1,11 +1,12 @@
-question: Khái niệm "phát trực tiếp tiền tệ" trong bối cảnh của Mạng Lưới Lightning là gì?
-answer: Thực hiện các giao dịch vi mô mỗi phút
+question: Khái niệm chảy tiền trong bối cảnh của Mạng Lưới Lightning là gì?
+
+answer: Thực hiện các khoản thanh toán nhỏ liên tục, theo thời gian thực.
+
 wrong_answers:
-  - Phát trực tiếp nội dung video để đổi lấy Bitcoin
-  - Phát trực tiếp nội dung âm thanh để đổi lấy Bitcoin
-  - Phát trực tiếp các giao dịch Bitcoin theo thời gian thực
-explanation: >-
-  Với Mạng Lưới Lightning, chúng ta có thể thực hiện các giao dịch vi mô mỗi phút,
-  mở ra cánh cửa thử nghiệm với các mô hình kinh tế nơi người tiêu dùng trả tiền cho
-  nội dung dựa trên những gì họ tiêu thụ.
-reviewed: false
+  - Chuyển đổi Bitcoin thành tiền mặt tại một địa điểm vật lý sử dụng máy ATM.
+  - Phát trực tuyến nội dung âm thanh hoặc video để nhận Bitcoin.
+  - Tạo ra bitcoin mới thông qua các hoạt động khai thác diễn ra theo thời gian thực.
+
+explanation: Với Mạng Lưới Lightning, chúng ta có thể thực hiện các giao dịch nhỏ mỗi phút, mở ra cánh cửa thử nghiệm với các mô hình kinh tế nơi người tiêu dùng trả tiền cho nội dung dựa trên những gì họ tiêu thụ.
+
+reviewed: đúng

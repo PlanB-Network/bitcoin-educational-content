@@ -1,11 +1,8 @@
-question: Mục đích của giao dịch rút tiền trong một chuyển đổi Mạng Lưới Lightning là gì?
-answer: Nó đại diện cho trạng thái của kênh, đảm bảo ai sở hữu số tiền sau mỗi lần chuyển.
+question: Tại sao Alice và Bob trao đổi bí mật của họ cho các giao dịch cam kết trước đó?
+answer: Để cho phép mỗi người tự bảo vệ mình nếu người kia công bố một giao dịch cũ
 wrong_answers:
-  - Đó là giao dịch di chuyển tiền từ một bên sang bên kia.
-  - Đó là giao dịch mở kênh.
-  - Đó là giao dịch đóng kênh.
+  - Để tăng khả năng của kênh
+  - Để chặn quyền truy cập vào quỹ của nhau
+  - Để chia quỹ một cách đều nhau
 explanation: |
-  Giao dịch rút tiền được cập nhật sau mỗi lần chuyển đổi Mạng Lưới Lightning
-  để phản ánh trạng thái hiện tại của kênh. Nó đảm bảo ai sở hữu số tiền sau
-  mỗi lần chuyển, nhưng nó không được thực hiện trừ khi kênh được đóng lại.
-reviewed: false
+  Việc trao đổi bí mật cho các giao dịch trước đó cho phép mỗi bên tham gia có thể trừng phạt đối phương trong trường hợp có nỗ lực gian lận bằng cách công bố một giao dịch cũ.

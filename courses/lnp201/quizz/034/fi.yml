@@ -1,9 +1,8 @@
-question: Mikä on Timelockin tarkoitus sitoumustapahtumassa?
-answer: Se lukitsee varat tiettyyn lohkoon asti.
+question: Mitä tietoja lähettävän solmun on tiedettävä suorittaakseen sipulireititysmaksun?
+answer: Verkon topologia ja täydellinen reitti vastaanottajalle
 wrong_answers:
-  - Se lukitsee tapahtuman tiettyyn lohkoon asti.
-  - Se lukitsee kanavan tiettyyn lohkoon asti.
-  - Se lukitsee peruutusavaimen tiettyyn lohkoon asti.
+  - Vain seuraava välisolmu
+  - Kunkin kanavan kapasiteetti
+  - Kunkin polulla olevan solmun kryptografinen allekirjoitus
 explanation: |
-  Timelock sitoumustapahtumassa lukitsee varat tiettyyn lohkoon asti. Tämä estää tapahtuman luoneen osapuolen pääsemästä välittömästi käsiksi rahoihinsa.
-reviewed: false
+  Lähettävän solmun on tiedettävä verkon topologia voidakseen laskea reitin vastaanottajalle, mikä mahdollistaa parhaan polun valitsemisen.

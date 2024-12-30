@@ -8,7 +8,7 @@ explanation: |
   First and foremost, back up your wallet when taking self-custody.
   Hardware wallets come with a recovery seed phrase, a set of words that 
   can be used to recover your private keys in case your device is lost or damaged.
-  Create a physical copy, such as a metal [seed plate](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), of this seed phrase and 
+  Create a physical copy, such as a metal [seed plate](https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), of this seed phrase and 
   store it in a safe place. It's important to keep this recovery seed phrase secure. 
   NEVER share it with anyone.
 reviewed: true

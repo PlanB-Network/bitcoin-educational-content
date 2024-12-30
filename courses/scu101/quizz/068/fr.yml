@@ -1,9 +1,12 @@
-question: Quelle est une cause courante de vulnérabilités de sécurité ?
+question: Quelle est une cause fréquente de vulnérabilités de sécurité ?
 answer: La négligence humaine.
 wrong_answers:
-  - Pannes de courant.
-  - Vitesse Internet lente.
-  - Matériel obsolète.
+  - Les coupures de courant.
+  - La lenteur de la connexion internet.
+  - Le matériel obsolète.
 explanation: |
-  Les vulnérabilités de sécurité sont souvent le résultat de la négligence humaine, telle que l'utilisation de mots de passe par défaut ou la notation de mots de passe dans des endroits non sécurisés. Des attaques sophistiquées ne sont pas toujours nécessaires pour compromettre la sécurité informatique.
-reviewed: false
+  Les vulnérabilités de sécurité sont souvent le résultat de la
+  négligence humaine, comme l'utilisation de mots de passe par défaut ou le fait d'écrire
+  des mots de passe dans des endroits non sécurisés. Des attaques sophistiquées ne sont pas
+  toujours nécessaires pour compromettre la sécurité informatique.
+reviewed: true

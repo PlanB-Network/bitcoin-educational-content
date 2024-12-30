@@ -1,0 +1,9 @@
+question: Mikä on itävaltalaisten pääkritiikki marxilaisen luokkataisteluteorian suhteen?
+answer: He kiistävät ajatuksen, että yhteiskunta jakautuu kahteen vastakkaiseen luokkaan.
+wrong_answers:
+  - He väittävät, että talous on pääasiallinen sosiaalisten konfliktien lähde, ei luokkataistelu.
+  - He hylkäävät ajatuksen, että työntekijä on alipalkattu.
+  - Kaikki muut vastaukset ovat oikein.
+explanation: |
+  Itävaltalaiset hylkäävät marxilaisen näkemyksen yhteiskunnasta, joka on jaettu kahteen vastakkaiseen luokkaan, uskoen, että taloudelliset vuorovaikutukset perustuvat vapaaehtoiseen yhteistyöhön eikä rakenteellisiin konflikteihin luokkien välillä.
+reviewed: false

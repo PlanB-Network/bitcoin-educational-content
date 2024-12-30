@@ -1,9 +1,9 @@
-question: Điều gì xảy ra nếu Alice cố gắng gian lận bằng cách công bố một trạng thái cũ?
-answer: Bob có thể sử dụng khóa thu hồi để di chuyển quỹ mà không cần chờ đợi đến cuối của Timelock, từ đó hiệu quả trong việc phạt Alice.
+question: Mục tiêu chính của HTLCs trong Lightning Network là gì?
+answer: Để kích hoạt việc chuyển tiền an toàn qua các nút trung gian mà không cần phải tin tưởng vào chúng
 wrong_answers:
-  - Alice có thể sử dụng khóa thu hồi để di chuyển quỹ mà không cần chờ đợi đến cuối của Timelock.
-  - Bob có thể kéo dài Timelock để ngăn Alice lấy lại tiền của mình.
-  - Alice có thể lấy lại tiền ngay lập tức.
+  - Để giảm phí giao dịch cho mỗi khoản thanh toán qua các nút trung gian
+  - Để tăng khả năng của mỗi kênh thanh toán
+  - Để thiết lập các kết nối trực tiếp giữa tất cả các nút trong mạng với sự tin tưởng của họ
 explanation: |
-  Nếu Alice cố gắng gian lận bằng cách công bố một trạng thái cũ, Bob có thể sử dụng khóa thu hồi để di chuyển quỹ mà không cần chờ đợi đến cuối của Timelock. Điều này hiệu quả trong việc phạt Alice vì đã cố gắng gian lận.
+  HTLCs (Hashed Time-Locked Contracts) đảm bảo rằng mỗi nút trung gian sẽ chuyển tiền mà không giữ lại số tiền đó, vì nó chỉ có thể mở khóa chúng bằng cách hoàn thành giao dịch đến người nhận cuối cùng.
 reviewed: false

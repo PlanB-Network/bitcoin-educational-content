@@ -1,9 +1,8 @@
-question: Ai quyết định lộ trình trước khi gửi thanh toán trong Mạng Lưới Lightning?
-answer: Nút của người gửi.
+question: Dịch vụ nào cho phép di chuyển tính thanh khoản sang phía đối diện của một kênh trong khi thu hồi quỹ trên chuỗi?
+answer: Loop Out
 wrong_answers:
-  - Nút của người nhận.
-  - Nút của người trung gian.
-  - Chính mạng lưới.
+  - Keysend
+  - LNURL
+  - CoinSwap
 explanation: |
-  Trong Mạng Lưới Lightning, chính nút của người gửi quyết định lộ trình trước khi gửi thanh toán. Do đó, có một quá trình tìm kiếm lộ trình tốt nhất và chỉ mình người gửi biết lộ trình và giá cả.
-reviewed: false
+  Dịch vụ Loop Out từ Lightning Labs cho phép chuyển quỹ từ một kênh Lightning sang chuỗi blockchain chính, qua đó tối ưu hóa khả năng nhận trong khi thu hồi bitcoin trên chuỗi chính.

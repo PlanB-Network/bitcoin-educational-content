@@ -1,8 +1,0 @@
-question: Một nhược điểm phổ biến của LNP2PBot và RoboSat P2P là gì?
-answer: Chúng đòi hỏi kiến thức kỹ thuật và hiểu biết về quyền riêng tư.
-wrong_answers:
-  - Chúng không hỗ trợ mua bán Bitcoin.
-  - Chúng không sử dụng Lightning Network.
-  - Chúng không phải là mã nguồn mở.
-explanation:
-  Theo chương, cả LNP2PBot và RoboSat đều đòi hỏi kiến thức kỹ thuật và hiểu biết về quyền riêng tư.

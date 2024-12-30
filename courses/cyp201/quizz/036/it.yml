@@ -1,9 +1,9 @@
-question: Qual è il punto di partenza per calcolare tutte le chiavi pubbliche degli utenti nel sistema Bitcoin?
-answer: Punto G
+question: Cosa ti permette di fare un portafoglio HD rispetto a un portafoglio JBOK?
+answer: Generare tutte le chiavi private da un unico seed
 wrong_answers:
-  - Punto K
-  - Punto U
-  - Punto O
+  - Aumentare la sicurezza delle firme digitali
+  - Riutilizzare lo stesso indirizzo per molteplici transazioni
+  - Evitare completamente l'uso di chiavi pubbliche
 explanation: |
-  Il punto G è il punto di partenza per calcolare tutte le chiavi pubbliche degli utenti nel sistema Bitcoin.
+  I portafogli HD derivano tutte le chiavi private da un seed unico, il che semplifica il backup e indirettamente migliora la privacy.
 reviewed: false

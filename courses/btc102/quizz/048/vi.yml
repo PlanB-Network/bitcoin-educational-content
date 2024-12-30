@@ -1,11 +1,11 @@
-question: Đặc điểm chính của một "blockchain" không có bằng chứng công việc là gì?
+question: Đặc điểm chính của một blockchain không có bằng chứng công việc là gì?
 answer: Nó không có giá trị thực sự
 wrong_answers:
   - Nó an toàn hơn
   - Nó nhanh hơn
   - Nó phân quyền hơn
 explanation: |
-  Nội dung chương chỉ ra rằng không có bằng chứng công việc, một "blockchain"
+  Nội dung chương chỉ ra rằng không có bằng chứng công việc, một blockchain
   không có giá trị thực sự. Đây là một đặc điểm quan trọng làm nên sự khác biệt của Bitcoin so với các
   loại tiền mã hóa khác.
 reviewed: false

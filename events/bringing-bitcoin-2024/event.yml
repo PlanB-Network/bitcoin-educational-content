@@ -1,0 +1,21 @@
+- start_date: 2024-11-17 03:00:00
+  end_date: 2024-11-17 09:00:00
+  timezone: America/El_Salvador
+  address_line_1: San Salvador, El Salvador
+  address_line_2:
+  address_line_3:
+  name: Afterparty Adopting Bitcoin
+  builder: Bringing Bitcoin
+  type: meetup
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: A Bitcoin Educators Unconference from My First Bitcoin.
+  language:
+    - en
+  links:
+    website: https://bringingbitcoin.com/
+    replay_url:
+    live_url:
+  tags:
+    - adoption

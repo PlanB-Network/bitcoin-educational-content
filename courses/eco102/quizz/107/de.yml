@@ -1,0 +1,9 @@
+question: Welcher Präsident der Vereinigten Staaten verbreitete in seiner Jugend Bastiats Ideen in Unternehmensseminaren?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan verbreitete, bevor er Präsident wurde, die liberalen Ideen von Bastiat und anderen Ökonomen in Seminaren für General Electric.
+reviewed: false

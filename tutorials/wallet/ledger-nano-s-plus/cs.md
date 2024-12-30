@@ -49,7 +49,7 @@ Pro tento tutoriál budete potřebovat 2 softwarové aplikace: Ledger Live pro i
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Pro tyto dva softwarové programy důrazně doporučuji ověřit jejich autentičnost (pomocí GnuPG) a integritu (prostřednictvím hash) před jejich instalací na vaše zařízení. Pokud si nejste jisti, jak to udělat, můžete sledovat tento další tutoriál:
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Jak inicializovat Ledger Nano?
 
@@ -145,7 +145,7 @@ Heslová fráze by neměla být zaměňována s PIN kódem. Hraje roli v derivac
 
 Heslová fráze je velmi mocným nástrojem pro zvýšení zabezpečení vašich bitcoinů. Je však velmi důležité rozumět, jak funguje, než ji implementujete, abyste se vyhnuli ztrátě přístupu k vaší peněžence. Proto vám radím, abyste si přečetli tento další tutoriál věnovaný nastavení heslové fráze na vašem Ledgeru:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Menu "*Zámek PIN*" vám umožní nastavit a aktivovat automatické uzamčení vašeho Ledgeru po určité době nečinnosti.
 
@@ -236,7 +236,7 @@ A to je vše, vaše peněženka je nyní vytvořena!
 Předtím, než obdržíte své první bitcoiny ve vaší peněžence, **důrazně doporučuji provést test obnovy bez skutečného použití**. Zapište si referenční informaci, jako je váš xpub, poté resetujte váš Ledger Nano, zatímco je peněženka stále prázdná. Poté se pokuste obnovit vaši peněženku na Ledgeru pomocí vašich papírových záloh. Zkontrolujte, zda se xpub vygenerovaný po obnově shoduje s tím, který jste si původně zapsali. Pokud ano, můžete být ujištěni, že vaše papírové zálohy jsou spolehlivé.
 Pokud se chcete dozvědět více o tom, jak provést test obnovy, doporučuji vám konzultovat tento další tutoriál:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Jak přijímat bitcoiny s Ledger Nano?
 
@@ -266,7 +266,7 @@ Můžete přidat "*Label*", abyste popsal zdroj bitcoinů, které budou s touto 
 
 Pro více informací o označování, doporučuji také konzultovat tento další tutoriál:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Poté můžete tuto adresu použít k přijímání bitcoinů.
 
@@ -332,4 +332,4 @@ Pokud se vám tento tutoriál zdál užitečný, ocenil bych, kdybyste níže za
 
 Doporučuji také, abyste se podívali na tento kompletní tutoriál k Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

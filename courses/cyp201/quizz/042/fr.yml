@@ -1,9 +1,9 @@
-question: Quel est le but d'une signature numérique dans le contexte des transactions Bitcoin?
-answer: Prouver que vous êtes le détenteur d'une clé privée sans la révéler.
+question: Quelle est la différence principale entre un PRNG et un TRNG ?
+answer: Le PRNG est déterministe, tandis que le TRNG génère de vrais nombres aléatoires
 wrong_answers:
-  - Chiffrer les données de transaction.
-  - Stocker les données de transaction.
-  - Transmettre les données de transaction.
+  - Le PRNG est plus rapide que le TRNG pour de grands nombres
+  - Le PRNG est utilisé uniquement pour le chiffrement, pas le TRNG
+  - Le PRNG utilise des clés privées, le TRNG utilise des clés publiques
 explanation: |
-  Dans le contexte des transactions Bitcoin, une signature numérique est utilisée pour prouver que vous êtes le détenteur d'une clé privée sans la révéler. Cela est réalisé en utilisant l'algorithme ECDSA.
+  Les PRNG sont déterministes, c'est-à-dire qu'ils peuvent reproduire des séquences à partir d'un état initial, contrairement aux TRNG.
 reviewed: false

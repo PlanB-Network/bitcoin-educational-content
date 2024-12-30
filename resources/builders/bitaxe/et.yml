@@ -1,0 +1,5 @@
+description: |
+  BitAxe on avatud lähtekoodiga projekt, mis on loodud Bitcoini kaevandamise katsetamiseks madalate kuludega, kasutades taaskasutatud ASIC-kiipe, näiteks neid, mis pärinevad populaarsetest Antminer S19 seadmetest. See pakub mitmeid mudeleid, mis on kohandatud kaevurite vajadustele, ja jõudlus ulatub kuni 3,3 TH/s. Erinevalt hariduslikest tööriistadest nagu NerdMiner võimaldab BitAxe osaleda kaevandamisbasseinides, et teenida regulaarseid bitcoini preemiaid, olles samal ajal ligipääsetav ja konfigureeritav. Ideaalne tööriist entusiastidele, kes soovivad uurida kaevandamist.
+
+contributors:
+  - pretty-private

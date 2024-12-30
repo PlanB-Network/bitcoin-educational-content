@@ -1,5 +1,5 @@
 ---
-name: Samouraï
+name: Samourai
 
 description: Palauta yksityisyytesi Samourain avulla
 ---

@@ -1,9 +1,9 @@
 question: Jaký je jeden z faktorů, který je třeba zvážit při výběru řešení pro přijímání Bitcoinu ve vašem podnikání?
-answer: Očekávaný objem transakcí
+answer: Očekávaný objem transakcí.
 wrong_answers:
-  - Barva vašeho loga
-  - Počet zaměstnanců
-  - Umístění vašeho sídla
+  - Barva vašeho loga.
+  - Počet zaměstnanců.
+  - Umístění vašeho sídla.
 explanation: >-
-  Při výběru řešení pro přijímání Bitcoinu ve vašem podnikání je nutné zvážit několik faktorů, jako je očekávaný objem transakcí, alokovaný rozpočet a typ podnikání (online nebo fyzické).
-reviewed: false
+  Při výběru řešení pro přijímání Bitcoinu ve vašem podnikání je nutné zohlednit několik faktorů, jako je očekávaný objem transakcí, přidělený rozpočet a typ podnikání (online nebo fyzické).
+reviewed: true

@@ -161,4 +161,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat menghargai jempol ke 
 
 Saya juga merekomendasikan untuk memeriksa tutorial lain tentang VeraCrypt, sebuah perangkat lunak yang memungkinkan Anda untuk mengenkripsi dan mendekripsi perangkat penyimpanan.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

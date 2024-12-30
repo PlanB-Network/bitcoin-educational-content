@@ -1,9 +1,9 @@
-question: Lightning Network上の取引はどのようにして保護されていますか？
-answer: 暗号技術を通じて、そして間接的にはBitcoinのマイナーによって消費されるエネルギーを通じてです。
+question: Lightning Network上のトランザクションはどのようにして保護されていますか？
+answer: 暗号技術を通じて、および間接的にはBitcoin上のマイナーによって消費されるエネルギーを通じて。
 wrong_answers:
   - 私的鍵のみを使用して。
   - 公開鍵のみを使用して。
   - 私的鍵と公開鍵の両方のみを使用して。
 explanation: >-
-  Lightning Network上の取引は、暗号技術を通じて、そして間接的にはBitcoinのマイナーによって消費されるエネルギーを通じて保護されています。
-reviewed: false
+  Lightning Network上のトランザクションは、暗号技術を通じて、および間接的にはBitcoin上のマイナーによって消費されるエネルギーを通じて保護されています。
+reviewed: true

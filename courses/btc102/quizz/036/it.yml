@@ -1,9 +1,9 @@
-question: Cosa enfatizza la frase "Not your keys, not your Bitcoins"?
+question: Cosa enfatizza la frase Not your keys, not your Bitcoins?
 answer: L'importanza di possedere la chiave privata di un portafoglio Bitcoin
 wrong_answers:
   - L'importanza di avere una chiave fisica per accedere ai tuoi Bitcoin
   - L'importanza di tenere i tuoi Bitcoin in un luogo sicuro
   - L'importanza di non condividere i dettagli del tuo account Bitcoin
 explanation: |
-  Il capitolo spiega che la frase "Not your keys, not your Bitcoins" enfatizza l'importanza di possedere la chiave privata di un portafoglio Bitcoin. Possedendo la chiave privata, si ha il pieno controllo sui Bitcoin che contiene.
+  Il capitolo spiega che la frase Not your keys, not your Bitcoins enfatizza l'importanza di possedere la chiave privata di un portafoglio Bitcoin. Possedendo la chiave privata, si ha il pieno controllo sui Bitcoin che contiene.
 reviewed: false

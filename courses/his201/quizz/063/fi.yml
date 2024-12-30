@@ -1,0 +1,9 @@
+question: Mikä kieli oli Bitcoin-foorumin ensimmäisen ei-englanninkielisen alafoorumin aiheena heinäkuussa 2010?
+answer: Venäjä
+wrong_answers:
+  - Ranska
+  - Saksa
+  - Italia
+explanation: |
+  Se [perustettiin](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241) Martti Malmin toimesta 28. heinäkuuta. Muita kieliä lisättiin seuraavina kuukausina.
+reviewed: false

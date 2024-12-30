@@ -1,9 +1,0 @@
-question: Jaká je běžná nevýhoda řešení LNP2PBot a RoboSat P2P?
-answer: Vyžadují technické znalosti a porozumění ochraně soukromí.
-wrong_answers:
-  - Neumožňují nákup a prodej Bitcoinu.
-  - Nepoužívají Lightning Network.
-  - Nejsou open source.
-explanation: |
-  Podle kapitoly obě řešení, LNP2PBot a RoboSat, vyžadují technické znalosti a porozumění ochraně soukromí.
-reviewed: false

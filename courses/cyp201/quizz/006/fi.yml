@@ -1,11 +1,9 @@
-question: Mikä on hajautusarvo kryptografisten hajautusfunktioiden kontekstissa?
-answer: Ainutlaatuinen ja kiinteänkokoinen digitaalinen sormenjälki, jonka hajautusfunktio tuottaa.
+question: Mitä tapahtuu jokaisen tiivistyskierroksen aikana SHA256 ssa?
+answer: Tilamuuttujat päivittyvät viestisanoista ja vakioista
 wrong_answers:
-  - Salausalgoritmin tyyppi.
-  - Avain datan salauksen purkamiseen.
-  - Menetelmä datan tiivistämiseen.
+  - Lopullinen tiiviste tuotetaan asteittain jokaisen kierroksen jälkeen
+  - Viestin bitit järjestellään uudelleen
+  - Muuttujien alkuperäiset arvot pysyvät muuttumattomina
 explanation: |
-  Kryptografisten hajautusfunktioiden kontekstissa hajautusarvo on ainutlaatuinen ja
-  kiinteänkokoinen digitaalinen sormenjälki, jonka hajautusfunktio tuottaa. Se edustaa
-  syöttötietoa tavalla, joka on ainutlaatuinen ja peruuttamaton.
+  Jokainen kierros muokkaa tilamuuttujia käyttäen sanoja, vakioita ja loogisia operaatioita levittääkseen tiedon.
 reviewed: false

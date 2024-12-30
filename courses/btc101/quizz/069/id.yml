@@ -1,0 +1,9 @@
+question: Berapa jumlah perkiraan bitcoin yang beredar setelah pemotongan pertama?
+answer: 10,500,000 BTC
+wrong_answers:
+  - 5,250,000 BTC
+  - 15,750,000 BTC
+  - 21,000,000 BTC
+explanation: |
+  Setelah pemotongan pertama, yang terjadi pada tinggi blok 210,000, jumlah perkiraan bitcoin yang beredar adalah 10,500,000 BTC, yang merupakan setengah dari total jumlah bitcoin yang akan beredar.
+reviewed: true

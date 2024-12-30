@@ -1,0 +1,9 @@
+question: I konteksten av RSA-kryptosystemet, hva tilsvarer produktet av to primtall p og q?
+answer: Det utgjør heltallet N som brukes som modulus for operasjoner
+wrong_answers:
+  - Det utgjør den offentlige nøkkelen
+  - Det fungerer som dekrypteringsnøkkelen
+  - Det brukes kun for å generere eksponenten e
+explanation: |
+  I RSA er heltallet N produktet av to store primtall p og q, og det brukes som modulus for krypterings- og dekrypteringsoperasjoner.
+reviewed: false

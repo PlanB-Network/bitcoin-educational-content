@@ -1,0 +1,8 @@
+question: Qual é a definição de um inteiro ser coprimo em relação a outro inteiro?
+answer: Um inteiro que tem um divisor comum máximo de 1 com esse outro inteiro
+wrong_answers:
+  - Um inteiro que é divisível pelo outro inteiro sem resto
+  - Um inteiro que é primo
+  - Um inteiro que é maior que o outro
+explanation: |
+  Um inteiro é coprimo com outro se o seu divisor comum máximo é 1, significando que eles não compartilham nenhum outro fator comum.

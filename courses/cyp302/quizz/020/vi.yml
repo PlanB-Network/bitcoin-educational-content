@@ -1,0 +1,9 @@
+question: Phép toán modulo biểu diễn điều gì trong toán học?
+answer: Phần dư của một phép chia
+wrong_answers:
+  - Thương của một phép chia
+  - Gấp đôi số ban đầu
+  - Số chia hết không dư
+explanation: |
+  Phép toán modulo liên quan đến việc xác định phần dư của một phép chia, ví dụ, 25 mod 4 bằng 1 vì phần dư của phép chia là 1.
+reviewed: false

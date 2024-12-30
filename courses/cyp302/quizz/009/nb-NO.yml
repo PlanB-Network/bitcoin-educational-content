@@ -1,0 +1,8 @@
+question: Hvilket steg er ikke inkludert i sikkerhetsbeviset for et moderne kryptografisk system?
+answer: Å sette opp et brukergrensesnitt
+wrong_answers:
+  - Å angi sikkerhetsdefinisjoner
+  - De matematiske kompleksitetsantagelsene
+  - Den matematiske demonstrasjonen av sikkerhet
+explanation: |
+  Sikkerhetsbeviset i moderne kryptografi fokuserer på mål og matematiske antagelser, og utelater aspekter som brukergrensesnittet, som ikke er relevant for kryptografisk sikkerhet.

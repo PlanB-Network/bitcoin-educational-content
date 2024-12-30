@@ -1,9 +1,12 @@
-question: Welche Kriterien gelten für eine effektive Währung?
-answer: Fungibel, teilbar, liquide
+question: Was sind die Hauptmerkmale einer effektiven Währung?
+answer: Fungibel, Teilbar, Liquide.
 wrong_answers:
-  - Fungibel, teilbar, vergänglich
-  - Fungibel, unteilbar, liquide
-  - Nicht fungibel, teilbar, liquide
+  - Fungibel, Teilbar, Verderblich.
+  - Fungibel, Unteilbar, Liquide.
+  - Nicht-fungibel, Teilbar, Liquide.
 explanation: |
-  Die Kriterien für eine effektive Währung sind, dass sie fungibel ist (ohne Wertverlust austauschbar), teilbar (um Transaktionen unterschiedlicher Volumina zu erleichtern) und liquide (leicht in Waren oder Dienstleistungen umwandelbar).
-reviewed: false
+  Eine effektive Währung muss fungibel (austauschbar
+  ohne Wertverlust), teilbar (in kleine Teile separierbar, um
+  Transaktionen unterschiedlichen Volumens zu erleichtern) und
+  liquide (leicht in Waren oder Dienstleistungen umwandelbar) sein.
+reviewed: true

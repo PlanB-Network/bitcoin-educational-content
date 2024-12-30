@@ -1,10 +1,13 @@
-question: Jaký je vývoj měny?
+question: Jaká je evoluční cesta dnešní měny?
 answer: Surový kámen -> Mince -> Bankovka -> Platební karta -> Blockchain -> Lightning Network
 wrong_answers:
   - Surový kámen -> Mince -> Bankovka -> Blockchain -> Lightning Network
   - Surový kámen -> Mince -> Bankovka -> Platební karta -> Lightning Network
-  - Surový kámen -> Mince -> Bankovka -> Platební karta -> Blockchain
+  - Surový kámen -> Mince -> Platební karta -> Bankovka -> Blockchain -> Lightning Network
 explanation: |
-  Měna, jako každá technologie, se vyvíjela od surového kamene
-  k kovové minci, poté k bankovce, platební kartě a nakonec k peer-to-peer sítím s Bitcoin blockchainem a Lightning Network.
+  Měna je technologie, která se vyvíjela v průběhu času,
+  začínající reprezentací surovými kameny, přecházející
+  do kovových mincí, poté do bankovek, platebních karet a
+  nakonec do peer-to-peer sítí s využitím Bitcoin blockchainu
+  a Lightning Network.
 reviewed: true

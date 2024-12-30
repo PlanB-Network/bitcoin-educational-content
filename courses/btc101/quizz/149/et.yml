@@ -1,0 +1,10 @@
+question: Mis on Lightning Network?
+answer: Kohene Bitcoin'i maksevõrk, mis kasutab Bitcoin'i plokiahelat
+wrong_answers:
+  - Eraldi plokiahelavõrk Bitcoin'i plokiahelast
+  - Bitcoin'i kaevandajate võrk
+  - Bitcoin'i vahetuste võrk
+explanation: >-
+  Lightning Network on kohene Bitcoin'i maksevõrk, mis kasutab
+  Bitcoin'i plokiahelat.
+reviewed: false

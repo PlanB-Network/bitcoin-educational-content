@@ -1,9 +1,10 @@
-question: ¿Cómo mejora la Red Lightning la escalabilidad de las transacciones de Bitcoin?
+question: ¿Cómo mejora la Red Lightning la escalabilidad para las transacciones de Bitcoin?
 answer: Utiliza una red p2p de canales de pago para crear transacciones fuera de la cadena.
 wrong_answers:
   - Utiliza una parte centralizada de confianza para procesar transacciones de manera eficiente.
-  - Utiliza otra cadena de bloques para agrupar transacciones en bloques grandes.
-  - Utiliza usuarios de confianza para crear una reserva federal de bitcoin.
+  - Utiliza otra blockchain para agregar transacciones en bloques grandes.
+  - Utiliza un equipo de usuarios de confianza para crear una reserva federal de bitcoin.
 explanation: |
-  La Red Lightning, con el uso de canales de pago, puede enrutar transacciones fuera de la cadena a un costo más bajo y de manera más rápida.
-reviewed: false
+  A través del uso de canales de pago, la Red Lightning puede
+  enrutar transacciones fuera de la cadena más rápidamente y a un menor costo.
+reviewed: true

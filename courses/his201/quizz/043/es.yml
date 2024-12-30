@@ -1,0 +1,9 @@
+question: ¿Qué ofrecía el Bitcoin Faucet creado en junio de 2010 por Gavin Andresen?
+answer: Bitcoins
+wrong_answers:
+  - Vales de compra
+  - Descuentos en tarifas para Bitcoin Market
+  - Oportunidades para minar un bloque
+explanation: |
+  Este servicio inicialmente distribuía 5 bitcoins por solicitud, para permitir que las personas probaran el sistema. Esta cantidad se redujo con el tiempo, y el faucet cerró en 2012.
+reviewed: false

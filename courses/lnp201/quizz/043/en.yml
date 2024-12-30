@@ -1,10 +1,9 @@
-question: Who pays the closing fees in a cooperative closure?
-answer: The person who opened the channel.
+question: What information can Bob include in an invoice to facilitate routing?
+answer: Nearby channels with sufficient liquidity or the existence of private channels
 wrong_answers:
-  - The person who closed the channel.
-  - Both parties equally.
-  - The person with the most SAT in the channel.
+  - The private key of intermediate nodes
+  - The complete map of all the network's channels
+  - The exact amount of available liquidity for each channel
 explanation: |
-  In a cooperative closure, the two peers agree on a final state of the
-  channel. The person who opened the channel pays the closing fees.
+  By indicating nearby channels with liquidity or revealing private channels, Bob helps Alice to choose routes with a better probability of success.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Apa praktik terbaik untuk mengamankan sebuah passphrase?
+answer: Simpan di media fisik terpisah dari frasa mnemonik
+wrong_answers:
+  - Hafalkan saja tanpa mencatatnya
+  - Simpan di media fisik yang sama seperti frasa mnemonik
+  - Rekam di media digital seperti Google Drive
+explanation: |
+  Passphrase harus disimpan secara fisik dan terpisah dari frasa mnemonik untuk mencegah pencurian keduanya secara bersamaan.
+ditinjau: false

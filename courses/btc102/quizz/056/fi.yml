@@ -1,9 +1,9 @@
-question: Mikä on Bitcoinin lopullinen visio "Bitcoin-valtatien" metaforan mukaan?
+question: Mikä on Bitcoinin lopullinen visio Bitcoin-valtatien metaforan mukaan?
 answer: Siitä tulee valtatie internet-liikenteelle ja 90% maailman väestöstä.
 wrong_answers:
   - Siitä tulee ylellisyystuote, joka on vain varakkaiden saavutettavissa.
   - Siitä tulee väline laittomiin toimiin.
   - Se tulee vanhentumaan ja korvautumaan muiden kryptovaluuttojen toimesta.
 explanation: |
-  "Bitcoin-valtatie" metafora visioi Bitcoinin muuttuvan valtatieksi internet-liikenteelle ja 90% maailman väestölle, jossa tavarat ja palvelut ovat suoraan saavutettavissa tällä valtatiellä.
+  Bitcoin-valtatie metafora visioi Bitcoinin muuttuvan valtatieksi internet-liikenteelle ja 90% maailman väestölle, jossa tavarat ja palvelut ovat suoraan saavutettavissa tällä valtatiellä.
 reviewed: false

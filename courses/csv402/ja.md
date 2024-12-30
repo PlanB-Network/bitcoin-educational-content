@@ -116,11 +116,11 @@ Bitcoinの最も先進的なトピックの1つであるこのコースを楽し
 ## 締めの言葉
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-PlanB NetworkとFulgur'Venturesの共同で提供されるRGBコースに参加していただき、ありがとうございます。サポートを提供してくれた講師の皆様に感謝を申し上げます。RGBでの作業を続けることに興味がある場合は、探索するための有用なリソースリストをこちらにご紹介します:
+Plan ₿ NetworkとFulgur'Venturesの共同で提供されるRGBコースに参加していただき、ありがとうございます。サポートを提供してくれた講師の皆様に感謝を申し上げます。RGBでの作業を続けることに興味がある場合は、探索するための有用なリソースリストをこちらにご紹介します:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-ご参加いただきありがとうございました。PlanB Networkでの学習を引き続き頑張ってください。
+ご参加いただきありがとうございました。Plan ₿ Networkでの学習を引き続き頑張ってください。

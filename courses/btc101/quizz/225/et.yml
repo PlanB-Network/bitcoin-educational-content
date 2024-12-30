@@ -1,0 +1,9 @@
+question: Millal valideeriti ja implementeeriti Lightning Network?
+answer: 2017
+wrong_answers:
+  - 2015
+  - 2016
+  - 2018
+explanation: >-
+  Lightning Network valideeriti ja implementeeriti 2017. aastal.
+reviewed: false

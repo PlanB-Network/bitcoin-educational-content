@@ -120,7 +120,7 @@ Bonne chance dans vos études, et si vous avez besoin de contacter notre équipe
 ## Mot de clôture
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-Merci d'avoir participé aux cours RGB proposés par PlanB Network en collaboration avec Fulgur'Ventures. Nous exprimons notre gratitude à nos enseignants pour leur soutien. Si vous êtes intéressé à poursuivre votre travail avec RGB, voici une liste utile de ressources à explorer :
+Merci d'avoir participé aux cours RGB proposés par Plan ₿ Network en collaboration avec Fulgur'Ventures. Nous exprimons notre gratitude à nos enseignants pour leur soutien. Si vous êtes intéressé à poursuivre votre travail avec RGB, voici une liste utile de ressources à explorer :
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
@@ -128,4 +128,4 @@ Merci d'avoir participé aux cours RGB proposés par PlanB Network en collaborat
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
 
-Merci et bonne chance pour vos études chez PlanB Network.
+Merci et bonne chance pour vos études chez Plan ₿ Network.

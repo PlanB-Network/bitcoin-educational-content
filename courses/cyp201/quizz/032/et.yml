@@ -1,0 +1,8 @@
+question: Milline sighash lipp võimaldab ühisrahastust, kattes ühe sisendi ja kõik väljundid?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL koos SIGHASH_ANYONECANPAY-ga võimaldab sisendeid lisada ilma väljundeid muutmata.

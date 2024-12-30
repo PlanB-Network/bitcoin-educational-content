@@ -1,9 +1,9 @@
-question: Was ist das ultimative Ziel einer kryptografischen Hash-Funktion?
-answer: Arbiträre Informationen in einen Fingerabdruck fester Größe umwandeln.
+question: Warum ist die Irreversibilität bei SHA256 gewährleistet?
+answer: Die verwendeten Operationen entfernen Informationen und sind einseitig
 wrong_answers:
-  - Daten zur sicheren Übertragung verschlüsseln.
-  - Einen eindeutigen Schlüssel für jeden Benutzer generieren.
-  - Daten zur effizienten Speicherung komprimieren.
+  - Nachrichten werden vor dem Hashen verschlüsselt
+  - Bits werden zufällig neu angeordnet
+  - Jeder Hash wird in einer Datenbank gespeichert
 explanation: |
-  Das ultimative Ziel einer kryptografischen Hash-Funktion besteht darin, arbiträre Informationen in einen Fingerabdruck fester Größe umzuwandeln. Dieser Fingerabdruck ist eindeutig für die Eingabedaten, und selbst eine kleine Änderung in der Eingabe führt zu einem drastisch unterschiedlichen Fingerabdruck.
+  Operationen wie ShR und XOR machen es unmöglich, zum Ausgangszustand zurückzukehren, und gewährleisten so die Irreversibilität.
 reviewed: false

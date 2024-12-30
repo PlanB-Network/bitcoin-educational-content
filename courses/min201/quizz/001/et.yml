@@ -1,0 +1,12 @@
+question: Mis on raskusastme kohandamise mehhanismi eesmärk Bitcoin'i võrgus?
+answer: Tagada, et plokid kaevandatakse keskmiselt iga 10 minuti järel
+wrong_answers:
+  - Suurendada kaevandamise raskust aja jooksul
+  - Vähendada kaevandamise raskust aja jooksul
+  - Tagada, et sama kaevur ei kaevandaks järjestikuseid plokke
+explanation: |
+  Raskusastme kohandamine on kriitilise tähtsusega mehhanism Bitcoin'i võrgu
+  toimimises, tagades, et plokid kaevandatakse keskmiselt iga 10 minuti järel. See kohandamismehhanism
+  tagab, et uute plokkide kaevandamise aeg jääb aja jooksul konstantseks, sõltumata
+  kaevurite arvust või võrgu üldisest arvutusvõimsusest.
+reviewed: true

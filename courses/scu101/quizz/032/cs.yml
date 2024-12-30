@@ -1,10 +1,11 @@
 question: Co je ransomware?
 answer: Typ škodlivého softwaru, který šifruje uživatelská data a vyžaduje výkupné za jejich dešifrování.
 wrong_answers:
-  - Typ antivirového softwaru.
-  - Typ softwaru používaného pro obnovu dat.
-  - Typ softwaru používaného pro zálohování dat.
+  - Typ antivirového softwaru, který je schopen vyčistit mezipaměť a cookies počítače po zaplacení jednorázového poplatku.
+  - Typ softwaru používaného pro obnovu dat, který se v současnosti v Evropě stává poměrně běžným.
+  - Typ softwaru používaného pro zálohování dat, obvykle provádí jednu zálohu každých 7 dní.
 explanation: |
-  Ransomware je typ škodlivého softwaru, který šifruje uživatelská data a
-  vyžaduje výkupné za jejich dešifrování. Stává se stále běžnějším a pro firmu nebo jednotlivce může představovat velký problém.
-reviewed: false
+  Ransomware je typ škodlivého softwaru, který šifruje
+  uživatelská data a vyžaduje výkupné za jejich dešifrování. Stává se
+  stále běžnějším a pro firmu nebo jednotlivce může být velmi problematický.
+reviewed: true

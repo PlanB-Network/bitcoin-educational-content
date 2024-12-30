@@ -1,9 +1,12 @@
-question: ¿Cómo se describe Bitcoin en el texto?
-answer: Un objeto multidisciplinario
+question: ¿Cómo describe este curso a Bitcoin?
+answer: Una materia multidisciplinaria.
 wrong_answers:
-  - Un objeto simple
-  - Un objeto complejo
-  - Un objeto de una sola disciplina
+  - Una materia simple.
+  - Una materia física.
+  - Una materia de una sola disciplina.
 explanation: |
-  Bitcoin se describe como un objeto multidisciplinario porque plantea preguntas relacionadas con diversos campos, incluyendo criptografía, teoría de juegos, economía y política monetaria, ciencias de la computación, filosofía, energía, leyes y regulaciones.
-reviewed: false
+  Bitcoin se describe como una materia multidisciplinaria porque
+  plantea preguntas relacionadas con varios campos, incluyendo
+  criptografía, teoría de juegos, economía y política monetaria,
+  ciencias de la computación, filosofía, energía, leyes y regulación.
+reviewed: true

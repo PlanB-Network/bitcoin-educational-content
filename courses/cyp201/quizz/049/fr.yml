@@ -1,9 +1,9 @@
-question: Quel est le but des Propositions d'Amélioration de Bitcoin (BIP) ?
-answer: Ce sont des propositions de mise à niveau qui améliorent la fonctionnalité et la sécurité des portefeuilles HD.
+question: À quoi sert la phrase mnémonique dans un portefeuille HD Bitcoin ?
+answer: À dériver de manière déterministe toutes les clés
 wrong_answers:
-  - Ce sont des propositions visant à augmenter la valeur de Bitcoin.
-  - Ce sont des propositions visant à changer le processus de minage de Bitcoin.
-  - Ce sont des propositions visant à réguler l'utilisation de Bitcoin.
+  - À signer des transactions directement
+  - À chiffrer les adresses Bitcoin
+  - À générer un hash pour les UTXOs
 explanation: |
-  Les Propositions d'Amélioration de Bitcoin (BIP) sont des protocoles qui visent à améliorer la fonctionnalité et la sécurité des portefeuilles HD. Par exemple, BIP32 a introduit le concept de clés dérivées de manière déterministe et hiérarchique.
+  La phrase mnémonique permet de dériver toutes les clés privées et publiques d'un portefeuille, facilitant ainsi la sauvegarde et la récupération.
 reviewed: false

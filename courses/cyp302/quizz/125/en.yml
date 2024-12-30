@@ -1,0 +1,9 @@
+question: What major problem did cryptographers Diffie, Hellman, and Merkle seek to solve in the 1970s?
+answer: The problems of key distribution and management
+wrong_answers:
+  - The development of post-quantum cryptography
+  - Securing military communications
+  - Improving symmetric encryption techniques
+explanation: |
+  Diffie, Hellman, and Merkle were motivated by the practical difficulties of key distribution and management to secure communications, crucial challenges in a world transitioning towards digital communication.
+reviewed: false

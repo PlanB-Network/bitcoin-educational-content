@@ -20,7 +20,7 @@ description: Как добавить новый язык в сеть PlanB?
 ![language](assets/02.webp)
 Если ваш язык уже есть в этом списке, вам не нужно добавлять его снова. Чтобы внести свой вклад в существующий язык, мы подготовили другой учебник, который вы можете изучить.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/others/translate-front-weblate
 
 - Первый шаг - создать аккаунт на Weblate. Если вы не знаете, как это сделать, вы можете следовать нашему подробному руководству.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 - Как только ваш аккаунт будет создан, перейдите в меню `Website frontend element` и выберите вкладку `Languages`:
@@ -48,7 +48,7 @@ https://planb.network/tutorials/others/translate-front-weblate
 
 Поздравляем, вы начали процесс перевода сайта сети PlanB на новый язык! Вы можете начать с перевода всего интерфейса через Weblate.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
  Это включает в себя все тексты на сайте, за исключением образовательного контента (курсы, учебные пособия...), для которого мы используем другой полуавтоматический метод Humans x AI.
 Далее вы можете связаться с @asi0_flammeus в Telegram, который поможет вам в проверке некоторых курсов, автоматически переведенных с помощью их модели. Если эти материалы будут признаны удовлетворительными, вы сможете приступить к проверке всего остального контента на сайте (курсы, учебные пособия...). После завершения этих шагов мы сможем рассмотреть возможность официальной интеграции нового языка на веб-сайт сети PlanB, что позволит всем носителям вашего языка получить доступ к качественному контенту о Bitcoin без каких-либо барьеров.

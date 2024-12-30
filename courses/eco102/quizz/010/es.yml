@@ -1,0 +1,9 @@
+question: ¿Qué autor es principalmente responsable de la educación en economía de Frédéric Bastiat?
+answer: Say
+wrong_answers:
+  - Turgot
+  - Condillac
+  - Quesnay
+explanation: |
+  Frédéric Bastiat considera a Jean-Baptiste Say como una influencia mayor, especialmente por sus ideas sobre el valor y el libre comercio.
+reviewed: false

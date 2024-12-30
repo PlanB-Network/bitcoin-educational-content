@@ -1,0 +1,9 @@
+question: ¿Qué dice Rousseau sobre la transformación del individuo en ciudadano?
+answer: Solo comenzamos a ser hombres después de haber sido ciudadanos
+wrong_answers:
+  - Solo comenzamos a ser ciudadanos con el contrato
+  - Nos convertimos en ciudadanos solo después de haber sido iguales
+  - Convertirse en ciudadano precede a la ciudadanía
+explanation: |
+  Rousseau afirma que un individuo se vuelve completamente humano al pasar por la etapa de ser ciudadano, vinculando así el cumplimiento personal con la integración social.
+reviewed: false

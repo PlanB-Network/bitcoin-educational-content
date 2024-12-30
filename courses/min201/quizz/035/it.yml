@@ -5,5 +5,7 @@ wrong_answers:
   - Il numero di nodi attivi
   - La quantità di elettricità consumata dalla rete
 explanation: |
-  L'hashrate nella rete Bitcoin misura il numero di calcolazioni che possono essere eseguite al secondo. È un indicatore chiave della salute e della sicurezza della rete.
-reviewed: false
+  L'hashrate nella rete Bitcoin misura il numero di
+  calcolazioni che possono essere eseguite al secondo. È un indicatore
+  chiave della salute e della sicurezza della rete.
+reviewed: true

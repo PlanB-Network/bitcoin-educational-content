@@ -1,0 +1,9 @@
+question: Qual è il risultato di 0 XOR 1?
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  Con XOR, 0 XOR 1 produce 1 perché i bit sono diversi.
+reviewed: false

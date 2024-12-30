@@ -1,12 +1,13 @@
 question: Mikä on hot wallet?
-answer: Bitcoin-lompakko puhelimessasi tai tietokoneellasi, joka on yhdistetty internetiin
+answer: Bitcoin-lompakko puhelimessasi tai tietokoneellasi, joka on yhdistetty internetiin.
 wrong_answers:
-  - Lompakko, joka on fyysisesti kuuma koskettaa
-  - Lompakko, joka on suosittu Bitcoin-käyttäjien keskuudessa
-  - Lompakko, joka on suositeltu suurien bitcoin-määrien säilyttämiseen
+  - Lompakko, joka on fyysisesti kuuma koskettaa.
+  - Lompakko, joka on suosittu Bitcoin-käyttäjien keskuudessa.
+  - Lompakko, jota suositellaan suurien määrien bitcoinien säilyttämiseen.
 explanation: |
-  Hot wallet on termi, jota käytetään kuvaamaan Bitcoin-lompakkoa, joka on tallennettu
-  laitteelle, jolla on internetyhteys, kuten puhelin tai tietokone. Tämä tekee siitä helpon
-  suorittaa transaktioita, mutta se myös tarkoittaa, että lompakko on mahdollisesti haavoittuvainen
-  online-uhille.
-reviewed: false
+  Hot wallet on termi, jota käytetään kuvaamaan Bitcoin-lompakkoa,
+  joka on tallennettu laitteelle, jolla on internetyhteys, kuten
+  puhelin tai tietokone. Näin ollen on helppo suorittaa
+  transaktioita, mutta se myös tarkoittaa, että lompakko on
+  potentiaalisesti altis online-uhille.
+reviewed: true

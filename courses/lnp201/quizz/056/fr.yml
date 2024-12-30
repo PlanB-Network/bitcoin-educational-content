@@ -1,9 +1,0 @@
-question: Qui paie les frais de transaction dans le Lightning Network?
-answer: L'expéditeur du paiement.
-wrong_answers:
-  - Le destinataire du paiement.
-  - Les intermédiaires.
-  - Le réseau lui-même.
-explanation: |
-  Dans le Lightning Network, c'est l'expéditeur du paiement qui paie les frais de transaction. Ces frais sont facturés par les nœuds utilisés pour acheminer la transaction.
-reviewed: false

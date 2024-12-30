@@ -1,9 +1,9 @@
-question: Jaký je možný výsledek příliš rychlé devalvace nebo ztráty důvěry v fiduciární měnu?
-answer: Může vést k hyperinflaci.
+question: Jaký je možný výsledek prudkého oslabení nebo ztráty důvěry ve fiduciární měnu?
+answer: Hyperinflace.
 wrong_answers:
-  - Může vést k deflaci.
-  - Může vést ke stabilní ekonomice.
-  - Může vést ke zvýšení hodnoty měny.
+  - Deflace.
+  - Stabilní ekonomika.
+  - Zvýšení hodnoty měny.
 explanation: |
-  Příliš rychlá devalvace nebo ztráta důvěry ve fiduciární měnu může vést k hyperinflaci. Jedná se o situaci, kdy ceny zboží a služeb rostou extrémně vysokou rychlostí, což často vede k ekonomické nestabilitě.
+  Prudké oslabení nebo ztráta důvěry ve fiduciární měnu může vést k hyperinflaci. Jedná se o situaci, kdy ceny zboží a služeb rostou extrémně vysokou rychlostí, což často vede k ekonomické nestabilitě.
 reviewed: true

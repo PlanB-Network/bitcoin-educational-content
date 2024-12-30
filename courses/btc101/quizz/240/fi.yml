@@ -1,9 +1,12 @@
-question: Mikä on yksi mahdollisista hyödyistä Lightning Networkille sisällöntuottajille?
-answer: Heitä kannustettaisiin tuottamaan laadukasta sisältöä säilyttääkseen käyttäjien huomion
+question: Mikä on yksi mahdollisista hyödyistä, joita Lightning Network tarjoaa sisällöntuottajille?
+answer: Heitä kannustettaisiin tuottamaan laadukasta sisältöä pitääkseen käyttäjien huomion.
 wrong_answers:
-  - He pystyisivät veloittamaan enemmän sisällöstään
-  - He pystyisivät tavoittamaan laajemman yleisön
-  - He pystyisivät tuottamaan sisältöä nopeammin
-explanation: >-
-  Lightning Networkin avulla sisällöntuottajia kannustettaisiin tuottamaan laadukasta sisältöä säilyttääkseen käyttäjien huomion. Käyttäjät puolestaan maksaisivat vain kuluttamastaan sisällöstä, mikä poistaisi ennakkomaksulliset tilausmaksut.
-reviewed: false
+  - He voisivat veloittaa sisällöstään enemmän.
+  - He voisivat tavoittaa laajemman yleisön.
+  - He voisivat tuottaa sisältöä nopeammin pitääkseen käyttäjien huomion.
+explanation: |
+  Lightning Networkin avulla sisällöntuottajia kannustettaisiin
+  tuottamaan laadukasta sisältöä pitääkseen käyttäjien huomion.
+  Käyttäjät puolestaan maksaisivat vain kuluttamastaan
+  sisällöstä, mikä poistaisi etukäteen maksettavat tilausmaksut.
+reviewed: true

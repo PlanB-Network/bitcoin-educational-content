@@ -28,9 +28,9 @@ Zadejte emailovou adresu. Pokud si přejete udržet svůj účet anonymní, ujis
 ![BITREFILL](assets/notext/05.webp)
 Pokud se chcete dozvědět, jak snadno vytvořit bezpečnou emailovou schránku a jak spravovat vaše hesla, doporučuji konzultovat tyto 2 další tutoriály:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Poté klikněte na tlačítko "*Create account*".
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ V sekci "*Dvoufaktorové ověření*" klikněte na tlačítko "*Povolit*" a post
 ![BITREFILL](assets/notext/13.webp)
 Pokud se chcete dozvědět více o tom, jak používat dvoufaktorové ověření pro zabezpečení vašich online účtů, doporučuji objevit tento další tutoriál:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Jak koupit dárkovou kartu v BTC na Bitrefill?
 
@@ -88,4 +88,4 @@ A to je vše, nyní víte, jak utrácet vaše bitcoiny bez KYC u hlavních maloo
 
 Pokud si přejete přispět k popularizaci Bitcoinu a povzbudit nezávislého obchodníka k adopci této platební metody, doporučuji se poradit s naším kompletním tutoriálem na Swiss Bitcoin Pay. Jedná se o všestranné řešení pro procesory BTC plateb, snadno se instaluje a spravuje na denní bázi:
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

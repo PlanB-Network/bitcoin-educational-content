@@ -1,0 +1,10 @@
+question: Mis on isetegemise (DIY - Do It Yourself) rahakoti peamine omadus?
+answer: See on 100% avatud lähtekoodiga lahendus, mida saab kodus luua, et vähendada usaldusriske teiste tootmis- või loomeahela osalistega
+wrong_answers:
+  - See on riistvaraseade bitcoiinide hoidmiseks
+  - See on tarkvara bitcoiinide kaevandamiseks
+  - See on platvorm bitcoiinide ostuks ja müügiks
+explanation: |
+  Peatüki sisu selgitab, et DIY (Do It Yourself) rahakotid on 100%
+  avatud lähtekoodiga lahendused, mida saab kodus luua, et vähendada usaldusriske teiste tootmis- või loomeahela osalistega.
+reviewed: false

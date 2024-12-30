@@ -1,0 +1,9 @@
+question: Mikä on perustavanlaatuinen ero merkantilismin ja vapaakaupan välillä fysiokraattien mukaan?
+answer: Merkantilismi rikastuttaa yhtä kansakuntaa toisten kustannuksella, kun taas vapaakauppa rikastuttaa kaikkia kansakuntia.
+wrong_answers:
+  - Merkantilismi on positiivinen-summapeli, kun taas vapaakauppa on nollasummapeli.
+  - Merkantilismi edistää kilpailua.
+  - Vapaakauppa edistää vaihtoa.
+explanation: |
+  Fysiokraattien mukaan merkantilismi perustuu ajatukseen, että kansakunta rikastuu toisten kustannuksella, kun taas vapaakauppa mahdollistaa vastavuoroiset hyödyt, rikastuttaen kaikkia kansakuntia keskinäisesti edullisten vaihtojen kautta.
+reviewed: false

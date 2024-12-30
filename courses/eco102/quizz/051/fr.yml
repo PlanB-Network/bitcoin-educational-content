@@ -1,0 +1,9 @@
+question: Quel est l'argument principal des partisans de l'idée que la destruction crée de la richesse ?
+answer: Cela crée de l'emploi
+wrong_answers:
+  - Cela favorise l'innovation
+  - Cela augmente le pouvoir d'achat
+  - Cela améliore la productivité
+explanation: |
+  Les partisans de cette idée estiment que la destruction stimule l'emploi en générant du travail pour ceux qui effectuent les réparations, une perspective que Bastiat réfute en insistant sur les coûts d'opportunité.
+reviewed: false

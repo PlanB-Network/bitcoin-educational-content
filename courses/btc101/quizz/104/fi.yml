@@ -1,11 +1,12 @@
 question: Mikä ei ole muistisana Bitcoinin kontekstissa?
-answer: Salasana Bitcoin-lompakkoosi
+answer: Salasana Bitcoin-lompakkoosi.
 wrong_answers:
-  - 12-24 sanan lista tietyistä sanakirjasta
-  - salaisuus päästäksesi käsiksi Bitcoin-varoihisi
-  - Salainen koodi päästäksesi käsiksi bitcoineihisi
+  - 12 sanan lista tietyistä sanakirjasta.
+  - 24 sanan lista tietyistä sanakirjasta.
+  - Salaisuus päästäksesi käsiksi bitcoin-varoihisi.
 explanation: |
   Muistisana Bitcoinin kontekstissa on 12 tai 24 sanan lista,
-  jonka avulla voit palauttaa lompakkosi mihin tahansa Bitcoin-lompakko sovellukseen. Kuka tahansa,
-  jolla on pääsy tähän listaan, pääsee myös käsiksi bitcoineihisi.
-reviewed: false
+  jonka avulla voit palauttaa lompakkosi mihin tahansa
+  Bitcoin-lompakko sovellukseen. Kuka tahansa, jolla on pääsy
+  tähän listaan, voi myös päästä käsiksi bitcoineihisi.
+reviewed: true

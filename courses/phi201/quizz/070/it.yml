@@ -1,0 +1,9 @@
+question: Secondo il testo, qual è la differenza fondamentale tra le teorie del contratto e le teorie del mercato?
+answer: Le teorie del contratto cercano l'armonia sociale attraverso la coercizione statale, mentre le teorie del mercato permettono agli interessi individuali di armonizzarsi autonomamente.
+wrong_answers:
+  - Le teorie del contratto si applicano alle società primitive mentre le teorie del mercato si applicano alle società moderne.
+  - Le teorie del contratto riguardano la distribuzione della ricchezza mentre le teorie del mercato riguardano la produzione di beni e servizi.
+  - Le teorie del contratto sono difese dai fisiocratici mentre le teorie del mercato sono difese dai mercantilisti.
+explanation: |
+  Le teorie del contratto vedono l'armonia sociale come imposta dallo stato, mentre le teorie del mercato considerano che gli interessi individuali, interagendo liberamente, creano spontaneamente un equilibrio sociale.
+reviewed: false

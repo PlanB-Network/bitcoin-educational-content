@@ -50,7 +50,7 @@ Upon first opening the application, you are given the choice between:
 
 Dojo, developed by the Samourai team, is a full Bitcoin node version that can be installed standalone or added in one click to node-in-box solutions such as [Umbrel](https://umbrel.com/) and [RoninDojo](https://ronindojo.io/).
 
-[**-> Discover how to install RoninDojo v2 on a Raspberry Pi.**](https://planb.network/en/tutorials/node/ronin-dojo-v2)
+[**-> Discover how to install RoninDojo v2 on a Raspberry Pi.**](https://planb.network/fr/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 If you have your own Dojo, you can connect it at this stage. By doing so, you will benefit from the highest level of privacy when checking your Bitcoin network transaction information.
 
@@ -153,3 +153,4 @@ You have the option to enter your signed PSBT in three different ways:
 Once the signed transaction is entered in the gray frame, you can click on the green `BROADCAST TRANSACTION` button to broadcast it on the Bitcoin network. Sentinel will give you its TXID.
 
 ![watch-only](assets/notext/25.webp)
+

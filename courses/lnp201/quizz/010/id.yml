@@ -1,0 +1,9 @@
+question: Apa langkah pertama dalam membuka saluran Lightning antara dua peserta?
+answer: Bertukar pesan yang berisi jumlah dan kunci publik
+wrong_answers:
+  - Langsung menerbitkan transaksi deposit pada blockchain
+  - Membuat alamat multisignature 2/2 tanpa pertukaran sebelumnya
+  - Menandatangani transaksi penarikan sebelum pertukaran kunci publik
+explanation: |
+  Pembukaan saluran dimulai dengan pertukaran pesan antara kedua pihak, di mana mereka berbagi jumlah yang ingin mereka komit dan kunci publik mereka.
+reviewed: false

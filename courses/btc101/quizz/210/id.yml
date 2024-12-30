@@ -1,0 +1,10 @@
+question: Negara mana yang telah mendeklarasikan Bitcoin sebagai alat pembayaran yang sah?
+answer: El Salvador
+wrong_answers:
+  - Amerika Serikat
+  - Cina
+  - India
+explanation: >-
+  El Salvador telah mengambil langkah berani dengan mengadopsi Bitcoin secara keseluruhan,
+  mendeklarasikannya sebagai alat pembayaran yang sah.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Qual é o papel do princípio de Kerckhoff na criptografia?
+answer: Garantir que a segurança dependa da chave secreta, não do segredo do esquema
+wrong_answers:
+  - Garantir que a segurança dependa do segredo do esquema, não da chave secreta
+  - Exigir uma chave de criptografia muito longa
+  - Garantir que cada mensagem tenha uma chave única
+explanation: |
+  De acordo com o princípio de Kerckhoff, a segurança de um sistema criptográfico deve depender exclusivamente da chave secreta, e não do segredo do algoritmo em si.

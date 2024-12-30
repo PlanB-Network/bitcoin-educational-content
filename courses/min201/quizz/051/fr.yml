@@ -1,9 +1,14 @@
-question: Quel est le principal avantage de l'extraction de bitcoins vierges ?
-answer: Ils n'ont jamais été dépensés et n'ont aucune histoire attachée à eux.
+question: Quel est le principal avantage de miner des bitcoins vierges ?
+answer: Ils n'ont jamais été dépensés et n'ont aucune historique associée.
 wrong_answers:
   - Ils peuvent être vendus à un prix plus élevé.
   - Ils peuvent être utilisés pour des activités illégales.
-  - Ils peuvent être stockés pendant longtemps sans perdre de valeur.
+  - Ils peuvent être stockés longtemps sans perdre de valeur.
 explanation: |
-  Le principal avantage de l'extraction de bitcoins vierges est qu'ils n'ont jamais été dépensés et n'ont aucune histoire attachée à eux. Ces bitcoins sont souvent considérés comme plus précieux car ils n'ont jamais été "contaminés", offrant ainsi une certaine garantie contre le rejet par les régulateurs ou les principales plateformes d'échange.
-reviewed: false
+  Le principal avantage de miner des bitcoins vierges est qu'ils
+  n'ont jamais été dépensés et n'ont aucune historique associée.
+  Ces bitcoins sont souvent considérés comme plus précieux car
+  ils n'ont jamais été entachés, offrant une certaine garantie
+  contre le rejet par les régulateurs ou les principales plateformes
+  d'échange.
+reviewed: true

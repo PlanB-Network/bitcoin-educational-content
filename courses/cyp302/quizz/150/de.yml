@@ -1,0 +1,9 @@
+question: Im Kontext des RSA-Kryptosystems, wofür steht das Produkt zweier Primzahlen p und q?
+answer: Es bildet die ganze Zahl N, die als Modulus für Operationen verwendet wird
+wrong_answers:
+  - Es bildet den öffentlichen Schlüssel
+  - Es dient als Entschlüsselungsschlüssel
+  - Es wird nur zur Generierung des Exponenten e verwendet
+explanation: |
+  Im RSA ist die ganze Zahl N das Produkt zweier großer Primzahlen p und q und wird als Modulus für Verschlüsselungs- und Entschlüsselungsoperationen verwendet.
+reviewed: false

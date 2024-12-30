@@ -14,7 +14,7 @@ _Seda õpetust pakutakse ainult hariduslikel ja informatiivsetel eesmärkidel. M
 
 > "*Kasuta Bitcoini privaatselt.*"
 
-[Varasemas õpetuses](https://planb.network/tutorials/node/ronin-dojo) olime juba selgitanud protseduuri RoninDojo v1 paigaldamiseks ja kasutamiseks. Siiski, viimase aasta jooksul on RoninDojo meeskonnad käivitanud nende rakenduse versiooni 2, mis tähistas olulist pöördepunkti tarkvara arhitektuuris. Tõepoolest, nad liikusid Linux Manjaro distributsioonist Debiani kasuks. Seetõttu ei paku nad enam eelkonfigureeritud pilti Raspberry Pi'le automaatseks paigaldamiseks. Kuid on siiski olemas meetod käsitsi paigaldamiseks. Seda meetodit kasutasin omaenda node'i jaoks ja sellest ajast alates on RoninDojo v2 suurepäraselt töötanud minu Raspberry Pi 4-l. Seega pakun uut õpetust, kuidas käsitsi paigaldada RoninDojo v2 Raspberry Pi'le.
+[Varasemas õpetuses](https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0) olime juba selgitanud protseduuri RoninDojo v1 paigaldamiseks ja kasutamiseks. Siiski, viimase aasta jooksul on RoninDojo meeskonnad käivitanud nende rakenduse versiooni 2, mis tähistas olulist pöördepunkti tarkvara arhitektuuris. Tõepoolest, nad liikusid Linux Manjaro distributsioonist Debiani kasuks. Seetõttu ei paku nad enam eelkonfigureeritud pilti Raspberry Pi'le automaatseks paigaldamiseks. Kuid on siiski olemas meetod käsitsi paigaldamiseks. Seda meetodit kasutasin omaenda node'i jaoks ja sellest ajast alates on RoninDojo v2 suurepäraselt töötanud minu Raspberry Pi 4-l. Seega pakun uut õpetust, kuidas käsitsi paigaldada RoninDojo v2 Raspberry Pi'le.
 
 ## Sisukord:
 - Mis on RoninDojo?
@@ -315,12 +315,12 @@ Teie RoninDojo sõlm integreerib ka _WhirlpoolCLI_, käsurealiidese, mis võimal
 Whirlpooli kasutamiseks mündiühendamiseks peab kasutatav rakendus olema aktiivne, et teostada ümbersegamisi. See tingimus võib olla piirav neile, kes soovivad saavutada kõrge anonüümsuse tasemeid. Tõepoolest, seade, kuhu on integreeritud Whirlpooli rakendus, peab pidevalt töötama. See tähendab, et osalemiseks ümbersegamistes ööpäevaringselt, peab teie arvuti või nutitelefon olema pidevalt sisse lülitatud koos Samourai või Sparrow'ga avatuna. Selle piirangu lahenduseks on kasutada _WhirlpoolCLI_-d masinal, mis on alati sees, nagu näiteks Bitcoin node, võimaldades teie müntidel seguneda katkematult, ilma vajaduseta hoida teist seadet sisse lülitatuna.
 Üksikasjalik õpetus on ettevalmistamisel, et juhendada teid samm-sammult läbi protsessi, kuidas teha mündiühendamist Samourai Walleti ja RoninDojo v2 abil, A-st Z-ni.
 
-Sügavamaks mõistmiseks mündiühendamisest ja selle kasutamisest Bitcoinil, kutsun teid samuti konsulteerima selle teise artikliga: [Mündiühendamise mõistmine ja kasutamine Bitcoinil](https://planb.network/tutorials/privacy/coinjoin-dojo), kus ma detailideni selgitan kõike, mida peate selle tehnika kohta teadma.
+Sügavamaks mõistmiseks mündiühendamisest ja selle kasutamisest Bitcoinil, kutsun teid samuti konsulteerima selle teise artikliga: [Mündiühendamise mõistmine ja kasutamine Bitcoinil](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2), kus ma detailideni selgitan kõike, mida peate selle tehnika kohta teadma.
 ### Whirlpool Stat Tool (WST) kasutamine
 
 Pärast mündiühendamiste tegemist Whirlpooliga on kasulik täpselt hinnata saavutatud privaatsuse taset teie segatud UTXO-de jaoks. Selleks võite kasutada Pythoni tööriista *Whirlpool Stat Tool*. See tööriist võimaldab teil mõõta nii teie UTXO-de tuleviku- kui ka tagasivaatelisi hindeid, analüüsides samal ajal nende leviku määra basseinis.
 
-Oma anonüümsete komplektide arvutusmehhanismide mõistmise süvendamiseks soovitan lugeda artiklit: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool), mis kirjeldab nende indeksite toimimist.
+Oma anonüümsete komplektide arvutusmehhanismide mõistmise süvendamiseks soovitan lugeda artiklit: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), mis kirjeldab nende indeksite toimimist.
 
 WST tööriista kasutamiseks minge RoninCLI juurde. Selleks avage oma isiklikul arvutil terminal ja looge SSH ühendus oma noodiga, kasutades järgmist käsku:
 `SSH ronindojo@[IP]`

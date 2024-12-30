@@ -1,9 +1,12 @@
-question: ¿Por qué es importante utilizar contraseñas generadas al azar?
-answer: Ofrecen un nivel más alto de seguridad y son más resistentes a los ataques de fuerza bruta.
+question: ¿Por qué es importante usar contraseñas generadas aleatoriamente?
+answer: Son más resistentes a los ataques de fuerza bruta que las contraseñas de la misma longitud que contienen palabras de diccionario.
 wrong_answers:
-  - Son más fáciles de recordar.
-  - Son más cortas y simples.
-  - Son requeridas por la mayoría de los servicios en línea.
+  - Son más fáciles de recordar pero más lentas de teclear.
+  - Siempre son seguras ya que superan los 20 caracteres aleatorios.
+  - La mayoría de los servicios en línea solo piden una longitud mínima y un conjunto de caracteres, cumplir con estos criterios significa que las contraseñas son lo suficientemente fuertes.
 explanation: |
-  Las contraseñas generadas al azar ofrecen un nivel más alto de seguridad porque son más resistentes a los ataques de fuerza bruta, los cuales intentan adivinar contraseñas probando todas las posibles combinaciones de caracteres.
-reviewed: false
+  Las contraseñas generadas aleatoriamente ofrecen un nivel más alto de
+  seguridad porque son más resistentes a los ataques de fuerza bruta,
+  que intentan adivinar las contraseñas probando todas las
+  combinaciones posibles de caracteres.
+reviewed: true

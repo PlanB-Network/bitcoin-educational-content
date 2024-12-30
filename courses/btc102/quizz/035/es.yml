@@ -1,9 +1,9 @@
-question: ¿Quién describió a Bitcoin como "un banco suizo en tu bolsillo"?
+question: ¿Quién describió a Bitcoin como un banco suizo en tu bolsillo?
 answer: Barack Obama
 wrong_answers:
   - Donald Trump
   - Bill Gates
   - Elon Musk
 explanation: |
-  El capítulo menciona que Barack Obama alguna vez describió a Bitcoin como "un banco suizo en tu bolsillo".
+  El capítulo menciona que Barack Obama alguna vez describió a Bitcoin como un banco suizo en tu bolsillo.
 reviewed: false

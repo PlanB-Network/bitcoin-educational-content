@@ -1,0 +1,13 @@
+question: Entropy tối đa của một giao dịch là gì?
+
+answer: Entropy cao nhất mà một cấu trúc giao dịch có thể đạt được.
+
+wrong_answers:
+  - Entropy thấp nhất mà một cấu trúc giao dịch có thể đạt được.
+  - Entropy thực tế của một giao dịch.
+  - Hiệu quả của một giao dịch.
+
+explanation: |
+  Entropy tối đa ám chỉ entropy cao nhất mà một cấu trúc giao dịch cụ thể có thể đạt được theo lý thuyết.
+
+reviewed: false

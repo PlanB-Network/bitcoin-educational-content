@@ -47,7 +47,7 @@ StonewallX2交易的工作方式与Stonewall交易完全相同，除了前者是
 
 如果你想找到一个愿意协助你进行Stonewall X2交易的合作者，你也可以访问这个由Samourai用户维护的非官方Telegram群组，以连接发送者和合作者：[Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin)。
 
-[**-> 了解更多关于Stonewall交易**](https://planb.network/tutorials/privacy/stonewall)
+[**-> 了解更多关于Stonewall交易**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Stonewall x2交易的目的是什么？
 
@@ -86,7 +86,7 @@ Stonewall x2结构为交易增加了大量的熵，并混淆了链上分析。�
 ![关注 Paynym](assets/notext/11.webp)
 点击“YES”确认。
 ![确认关注 Paynym](assets/notext/12.webp)
-接下来，软件会提供一个“CONNECT”按钮。在我们的教程中不需要点击此按钮。此步骤仅在您计划作为 [BIP47](https://planb.network/tutorials/privacy/paynym-bip47) 的一部分向另一个 PayNym 进行支付时需要。
+接下来，软件会提供一个“CONNECT”按钮。在我们的教程中不需要点击此按钮。此步骤仅在您计划作为 [BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093) 的一部分向另一个 PayNym 进行支付时需要。
 ![连接 Paynym](assets/notext/13.webp)
 一旦您的 PayNym 开始关注您的合作者的 PayNym，重复此过程，但方向相反，这样您的合作者也可以关注您。然后，您可以执行 Stonewall x2 交易。
 
@@ -96,7 +96,7 @@ Stonewall x2结构为交易增加了大量的熵，并混淆了链上分析。�
 ![请求 Paynym Sparrow](assets/notext/14.webp)
 然后在“Find Contact”框中输入您合作者的 PayNym 标识符（他们的昵称“+...”或他们的支付代码“PM...”），并点击“Add Contact”按钮。
 ![添加联系人 Paynym](assets/notext/15.webp)
-接下来，软件会提供一个“Link Contact”按钮。在我们的教程中不需要点击此按钮。此步骤仅在您计划作为 [BIP47](https://planb.network/tutorials/privacy/paynym-bip47) 的一部分向指定的 PayNym 进行支付时需要。
+接下来，软件会提供一个“Link Contact”按钮。在我们的教程中不需要点击此按钮。此步骤仅在您计划作为 [BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093) 的一部分向指定的 PayNym 进行支付时需要。
 
 一旦您的 PayNym 开始关注您的合作者的 PayNym，重复此过程，但方向相反，这样您的合作者也可以关注您。然后，您可以执行 Stonewall x2 交易。
 ## 如何在 Samourai Wallet 上进行 Stonewall x2 交易？

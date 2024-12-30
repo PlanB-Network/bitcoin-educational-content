@@ -1,0 +1,9 @@
+question: Kteří vědci byli citováni Satoshi Nakamotem ve white paperu o Bitcoinu za jejich práci na certifikovaném časovém razítkování?
+answer: Stuart Haber a Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak a Marshall Pease
+  - Cynthia Dwork a Moni Naor
+  - Ronald Rivest a Adi Shamir
+explanation: |
+  Ve white paperu byly citovány tři práce Habera a Stornetty z 90. let. Jsou známí vytvořením [prvního blockchainu s časovým razítkem](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), který byl publikován v New York Times od roku 1992.
+reviewed: false

@@ -10,11 +10,11 @@ Nykyään on olemassa lukuisia ratkaisuja kauppiaille, jotka haluavat hyväksyä
 
 Niille, jotka mieluummin eivät vaivaudu ja haluavat vastaanottaa varat fiat-valuuttana suoraan pankkitililleen, ovat saatavilla holhousratkaisut kuten Open Node:
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kauppiaat, jotka ovat valmiita tekemään työtä ja haluavat hallita prosessia täysin, BTCPay Server -ohjelmisto on erinomainen vaihtoehto. BTCPay Serverin suurin haittapuoli on kuitenkin se, että sen asettaminen ja hallinta vie aikaa ja vaatii jonkin verran teknistä osaamista:
 
-https://planb.network/tutorials/merchant/btcpay-server
+https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Kaikkien näiden ratkaisujen joukossa Swiss Bitcoin Pay vaikuttaa olevan erittäin mielenkiintoinen kompromissi käytön helppouden, ominaisuuksien ja turvallisuuden yhdistämisessä. Tämä ratkaisu soveltuu sekä hyvin pienille yrityksille että suuremmille rakenteille. Tässä oppaassa saat selville, kuinka voit helposti käyttää Swiss Bitcoin Payta hyväksyäksesi Bitcoinin yrityksessäsi.
 

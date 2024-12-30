@@ -1,0 +1,9 @@
+question: Které revoluci zažil Frédéric Bastiat zblízka jako poslanec?
+answer: Revoluci roku 1848
+wrong_answers:
+  - Revoluci roku 1830
+  - Revoluci roku 1871
+  - Revoluci roku 1789
+explanation: |
+  Bastiat byl svědkem revoluce roku 1848, která založila Druhou republiku a vedla k jeho zvolení za poslance.
+reviewed: false

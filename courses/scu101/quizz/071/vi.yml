@@ -5,5 +5,5 @@ wrong_answers:
   - Sử dụng cùng một mật khẩu cho tất cả các tài khoản.
   - Ghi nhớ nó.
 explanation: |
-  Việc ghi mật khẩu chính của trình quản lý mật khẩu ra giấy và giữ nó ở một nơi kín đáo và an toàn được khuyến nghị. Điều này là bởi vì nếu ổ cứng được mã hóa và máy tính được khóa, mật khẩu sẽ không thể truy cập được, ngay cả trong trường hợp bị đột nhập.
-reviewed: false
+  Việc ghi mật khẩu chính của trình quản lý mật khẩu ra giấy được khuyến nghị, nhưng nó nên được giữ ở một nơi kín đáo và an toàn. Điều này là bởi vì nếu ổ cứng được mã hóa và máy tính được khóa, mật khẩu sẽ không thể truy cập được, ngay cả trong trường hợp bị trộm.
+reviewed: true

@@ -1433,4 +1433,38 @@ Olemme nyt kokeneet kaikki valtiojohtoisuuden muodot, ja ne ovat kaikki epäonni
 Tietyssä mielessä tilanteemme on parempi kuin menneisyydessä. Erilaisten sosialististen, kommunististen ja sosiaalidemokraattisten kokeilujen peräkkäisten epäonnistumisten jälkeen tiedämme tänään, miten erottaa tosiasiat vääristä paremmin kuin eilen. Ja vääriä ideoita voidaan kumota ja korvata tosiasioilla. Kuten Mises sanoi:
 Kaikki, mitä tapahtuu globaalissa yhteiskunnassamme, on ideoiden tulosta. Sekä hyvien että huonojen. Tarpeellista on taistella vääriä ideoita vastaan. (...) Sivilisaatiomme voi selviytyä, ja sen täytyy. Ja se tulee selviytymään parempien ideoiden ansiosta kuin ne, jotka hallitsevat maailmaa tänään; ja nämä paremmat ideat kehittää nouseva sukupolvi.
 (_Talouspolitiikka: Ajatuksia tälle päivälle ja huomiselle_, 1979).
+# Yhteenveto
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+## Arvioi tämä kurssi
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+## Loppukoe
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+## Yhteenveto
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+Onnittelut kurssin suorittamisesta!
 
+Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
+
+Omistautumisesi ja sitoutumisesi ansiosta olet hankkinut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
+
+Jatkaaksesi Bitcoin-maailman syvällistä tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
+
+#### Tutustu F. Bastiatin elämään
+https://planb.network/courses/eco102
+
+#### Tutustu Bitcoiniin ja sen perusteisiin
+https://planb.network/courses/btc101
+
+#### Tutustu Lightning Networkiin
+https://planb.network/courses/lnp201
+
+#### Hallitse Bitcoinin yksityisyyden periaatteet
+https://planb.network/courses/btc204
+
+#### Tutustu Bitcoinin alkuperän historiaan
+https://planb.network/courses/his201
+
+#### Ymmärrä kuinka Bitcoin-lompakko toimii
+https://planb.network/courses/cyp201

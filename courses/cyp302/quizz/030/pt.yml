@@ -1,0 +1,9 @@
+question: Qual é a principal diferença entre uma string aleatória e uma string pseudoaleatória?
+answer: Uma string aleatória vem de um processo puramente aleatório, enquanto uma string pseudoaleatória é gerada por um algoritmo a partir de uma semente.
+wrong_answers:
+  - Uma string pseudoaleatória usa apenas bits 1.
+  - Uma string aleatória é sempre mais longa que uma string pseudoaleatória porque há uma ação natural sobre ela.
+  - Uma string pseudoaleatória é definida por um modelo estritamente binário, enquanto uma string aleatória é definida por um modelo estritamente hexadecimal.
+explanation: |
+  Uma string aleatória vem de um processo direto aleatório, enquanto uma string pseudoaleatória é produzida usando um algoritmo de expansão e uma semente inicial.
+reviewed: false

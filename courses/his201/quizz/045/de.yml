@@ -1,0 +1,9 @@
+question: Wie lautet der Name der Website, die im Juli 2010 maßgeblich dazu beigetragen hat, Bitcoin bekannt zu machen?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  Am 11. Juli 2010 wurde auf dieser beliebten Seite eine Präsentation von Bitcoin, verfasst von Teppy, veröffentlicht, was zu einem massiven Zustrom von Nutzern führte.
+reviewed: false

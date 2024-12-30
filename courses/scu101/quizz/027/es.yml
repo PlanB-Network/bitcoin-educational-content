@@ -1,10 +1,12 @@
 question: ¿Cuál es la razón principal para no pagar a los hackers en caso de ransomware u otros tipos de ataques?
-answer: Pagar el rescate no garantiza la recuperación de tus datos y puede incentivar a los ciberdelincuentes a continuar con sus actividades maliciosas.
+answer: Pagar el rescate no garantiza la recuperación de tus datos y puede incentivar a los ciberdelincuentes a continuar sus actividades maliciosas.
 wrong_answers:
-  - Es ilegal pagar a los hackers.
-  - Los hackers pedirán más dinero después del pago inicial.
-  - El método de pago generalmente es inrastreable.
+  - Pagar el rescate es ilegal y puede incentivar a los ciberdelincuentes a continuar sus actividades maliciosas.
+  - Pagar el rescate no garantiza la recuperación de tus datos y puede incentivar a los hackers a pedir más dinero después del pago inicial.
+  - Pagar el rescate puede incentivar a los ciberdelincuentes a continuar sus actividades maliciosas ya que el método de pago usualmente es imposible de rastrear.
 explanation: |
-  Pagar el rescate no garantiza que recuperarás tus datos.
-  Además, incentiva a los ciberdelincuentes a continuar con sus actividades maliciosas, ya que lo ven como un negocio rentable.
-reviewed: false
+  Pagar el rescate no garantiza que recuperarás tus
+  datos. Además, incentiva a los ciberdelincuentes a
+  continuar sus actividades maliciosas al verlo como una
+  empresa rentable.
+reviewed: true

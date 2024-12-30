@@ -1,64 +1,18 @@
-id: e66077a6-45bd-4ed5-8352-a3d85ea15dd5
+id: 5ac5184c-33e7-4fdf-9069-7e16a9e7c1e6
 chapterId: 0cfb7e6b-96f0-508b-9210-90bc1e28649d
-difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+difficulty: easy
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Transactions
-  - Private Key
+  - offchain
+  - lightning
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2716
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2608
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1304
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2662
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2716
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-11-01
     urgency: 1
     contributors_id:
-    reward: 2608
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2662
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2824
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2608
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2824
+      - LoicPandul
+    reward:

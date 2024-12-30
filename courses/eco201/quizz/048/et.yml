@@ -1,0 +1,11 @@
+question: Mis on Ludwig von Mises'e poolt sotsiaalteaduste uurimisel välja pakutud aksiomaatiline-deduktiivne meetod?
+answer: See lähenemine põhineb põhilistel väidetel, mida nimetatakse aksiomaatideks, sarnaselt nendega, mida kasutatakse matemaatikas.
+wrong_answers:
+  - See lähenemine põhineb empiirilistel andmetel ja vaatlustel.
+  - See lähenemine põhineb ajutistel eksperimentidel ja hüpoteesidel.
+  - See lähenemine põhineb positivistlikul lähenemisel, mida tihti kasutatakse sotsiaalteadustes.
+explanation: |
+  Ludwig von Mises'e poolt välja pakutud aksiomaatiline-deduktiivne meetod põhineb
+  põhilistel väidetel, mida nimetatakse aksiomaatideks, sarnaselt nendega, mida kasutatakse matemaatikas.
+  Seda meetodit kasutatakse sotsiaalteaduste, sealhulgas majandusteaduse uurimiseks.
+reviewed: false

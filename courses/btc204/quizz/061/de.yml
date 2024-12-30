@@ -1,4 +1,4 @@
-question: Was ist der Zweck der "Coin Control"-Option in Bitcoin-Wallet-Software?
+question: Was ist der Zweck der Coin Control-Option in Bitcoin-Wallet-Software?
 
 answer: Um auszuwählen, welche UTXOs als Eingaben für Transaktionen verbraucht werden sollen.
 

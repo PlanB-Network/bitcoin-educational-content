@@ -1,12 +1,11 @@
-question: Mikä on pääasiallinen etu salasanojen hallintaohjelman käytössä?
+question: Mikä on pääasiallinen etu salasananhallintaohjelman käytössä?
 answer: Se auttaa sinua luomaan vahvoja salasanoja ja muistamaan ne, joten sinun ei tarvitse.
 wrong_answers:
   - Se kirjaa sinut automaattisesti sisään online-tileihisi.
   - Se suojaa tietokoneesi viruksilta.
-  - Se tallentaa kaikki salasanasi yhteen paikkaan, mikä tekee niiden löytämisestä helpompaa.
+  - Se tallentaa kaikki salasanasi yhteen paikkaan, tehden niistä helpommin löydettäviä.
 explanation: |
-  Salasanojen hallintaohjelma auttaa sinua luomaan vahvoja salasanoja ja muistamaan ne,
-
-  joten sinun ei tarvitse. Se tallentaa kaikki salasanasi turvallisella tavalla ja luo
-
-  sinulle vahvoja salasanoja.
+  Salasananhallintaohjelma auttaa sinua luomaan vahvoja salasanoja ja
+  muistamaan ne, joten sinun ei tarvitse. Se tallentaa kaikki
+  salasanasi turvallisella tavalla ja luo puolestasi vahvoja salasanoja.
+reviewed: true

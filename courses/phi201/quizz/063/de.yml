@@ -1,0 +1,9 @@
+question: Wie war die Haltung der mittelalterlichen Kirche gegenüber zinsbringenden Darlehen?
+answer: Sie verbot sie.
+wrong_answers:
+  - Sie förderte sie.
+  - Sie duldete sie in bestimmten Fällen.
+  - Sie hatte keine Meinung zu dem Thema.
+explanation: |
+  Die mittelalterliche Kirche verbot zinsbringende Darlehen und betrachtete diese Praxis als Sünde der Wucher, da es als unmoralisch angesehen wurde, aus einem Darlehen Profit zu schlagen, indem mehr als der ursprüngliche Betrag gefordert wurde.
+reviewed: false

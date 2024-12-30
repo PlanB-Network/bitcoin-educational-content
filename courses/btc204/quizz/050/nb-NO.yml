@@ -1,0 +1,11 @@
+question: Hva er den største fordelen med Silent Payments sammenlignet med BIP47?
+
+answer: De krever ikke en varslingstransaksjon.
+
+wrong_answers:
+  - De tilbyr fullstendig transaksjonsanonymitet.
+  - De tillater en refusjon fra mottakeren.
+  - De sikrer kompatibilitet med alle lommebøker.
+
+explanation: |
+  Silent Payments fungerer uten en varslingstransaksjon, noe som sparer transaksjonsgebyrer og unngår å overbelaste blokkjeden.

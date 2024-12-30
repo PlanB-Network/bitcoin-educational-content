@@ -1,0 +1,11 @@
+question: O que é único sobre os remixes no Whirlpool em comparação com outras implementações de coinjoin?
+
+answer: Eles são completamente gratuitos.
+
+wrong_answers:
+  - Eles apenas requerem o pagamento das taxas de mineração.
+  - Eles são limitados a um por usuário.
+  - Eles apenas requerem o pagamento das taxas de serviço.
+
+explanation: |
+  Os remixes do Whirlpool são 100% gratuitos: não são necessárias taxas de serviço adicionais ou taxas de mineração.

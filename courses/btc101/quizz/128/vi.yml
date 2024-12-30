@@ -1,11 +1,11 @@
-question: Vai trò của các thợ đào trong mạng lưới Bitcoin là gì?
-answer: Họ xác nhận các giao dịch bằng cách bao gồm chúng vào một khối.
+question: Khi bạn tạo một kế hoạch thừa kế, điều gì không cần thiết phải bao gồm?
+answer: Tên của ví Bitcoin mà bạn thường sử dụng.
 wrong_answers:
-  - Họ tạo ra Bitcoin mới.
-  - Họ quản lý mạng lưới Bitcoin.
-  - Họ điều chỉnh giá của Bitcoin.
-explanation: >-
-  Các thợ đào trong mạng lưới Bitcoin có vai trò xác nhận các giao dịch
-  bằng cách bao gồm chúng vào một khối. Họ làm điều này bằng cách giải quyết một câu đố mật mã trong
-  quá trình được gọi là "bằng chứng công việc" (proof of work).
-reviewed: false
+  - Một bức thư viết tay liệt kê các tài sản của bạn.
+  - Mô tả cách truy cập vào quỹ của bạn.
+  - Thông tin liên lạc của những người đáng tin cậy.
+explanation: |
+  việc tạo một kế hoạch thừa kế là bước quan trọng để đảm bảo rằng bitcoin của bạn sẽ được quản lý đúng cách sau khi bạn qua đời.
+  Kế hoạch này có thể bao gồm một bức thư viết tay liệt kê các tài sản của bạn,
+  phương pháp truy cập vào chúng, và thông tin liên lạc của những người đáng tin cậy để liên hệ
+reviewed: true

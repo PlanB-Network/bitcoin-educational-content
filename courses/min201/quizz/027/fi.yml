@@ -1,15 +1,14 @@
 question: Miksi Proof of Work on olennainen osa Bitcoin-verkkoa?
-answer: Se edustaa fyysistä yhteyttä todellisen maailman ja Bitcoinin välillä, vaatien konkreettista energiaa bitcoinien ja lohkojen tuottamiseen ja vahvistamiseen.
+answer: Se edustaa fyysistä linkkiä todellisen maailman ja Bitcoinin välillä, vaatien konkreettista energiaa bitcoinien ja lohkojen tuottamiseen ja validointiin.
 wrong_answers:
-  - Sen avulla mahdollistetaan pienimuotoinen osallistuminen.
+  - Se mahdollistaa pienimuotoisen osallistumisen kaivostyöläisille, erityisesti niille korkean sensuurin alueilla.
   - Se takaa suojan keskittymistä vastaan.
-  - Se heijastaa olemassa olevia valtaepätasapainoja yhteiskunnassa.
+  - Se heijastaa olemassa olevia voimaväärinkäytöksiä yhteiskunnassa.
 explanation: |
-  Proof of Work on olennainen osa Bitcoin-verkkoa, koska se edustaa
-
-  fyysistä yhteyttä todellisen maailman ja Bitcoinin välillä. Bitcoinien ja lohkojen tuottaminen ja vahvistaminen
-
-  vaativat konkreettista energiaa, kiinnittäen Bitcoin-verkon fyysiseen todellisuuteen ja estäen sen täydellisen hallinnan
-
-  voimakkaiden toimijoiden toimesta.
-reviewed: false
+  Proof of Work on olennainen osa Bitcoin-verkkoa, koska
+  se edustaa fyysistä linkkiä todellisen maailman ja
+  Bitcoinin välillä. Bitcoinien ja lohkojen tuottaminen ja
+  validointi vaativat konkreettista energiaa, ankkuroiden Bitcoin-
+  verkon fyysiseen todellisuuteen ja estäen sen täydellisen
+  hallinnan voimakkaiden toimijoiden toimesta.
+reviewed: true

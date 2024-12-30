@@ -1,0 +1,12 @@
+question: Hva er en vanlig konsekvens av hyperinflasjon som sett i tilfellene med Zimbabwe og Weimarrepublikken?
+answer: Den iboende verdien av en seddel kan bli lavere enn verdien av papiret den er trykket på.
+wrong_answers:
+  - Verdien av valutaen øker.
+  - Etterspørselen etter sedler minker.
+  - Verdien av håndgripelige eiendeler minker.
+explanation: |
+  I visse økonomiske situasjoner, som hyperinflasjon, kan den iboende
+  verdien av en seddel bli lavere enn verdien av papiret den er trykket på.
+  Denne drastiske verdiforringelsen gjør sedler, som normalt er symboler på verdi og
+  kjøpekraft, til bare stykker verdiløst papir.
+reviewed: false

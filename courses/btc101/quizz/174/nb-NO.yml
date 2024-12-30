@@ -1,0 +1,10 @@
+question: Hva er en av faktorene som kan forårsake at prisen på Bitcoin svinger?
+answer: Markedsvariasjoner og bullish og bearish markedsfaser.
+wrong_answers:
+  - Antallet personer som bruker internett.
+  - Været.
+  - Prisen på gull.
+explanation: >-
+  Prisen på Bitcoin er ofte preget av betydelig volatilitet,
+  som kan påvirkes av markedsvariasjoner og bullish og bearish markedsfaser.
+reviewed: false

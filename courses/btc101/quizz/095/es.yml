@@ -1,11 +1,9 @@
-question: ¿Cuál es el riesgo de usar una billetera custodial?
-answer: El tercero de confianza puede restringir tu acceso a tus fondos en cualquier momento.
+question: ¿Qué significa el término hodl?
+answer: Hodl es un término de jerga en la comunidad de criptomonedas que significa mantener tus inversiones en lugar de venderlas, especialmente durante la volatilidad del mercado.
 wrong_answers:
-  - El tercero de confianza puede aumentar el valor de tus bitcoins en cualquier momento.
-  - El tercero de confianza puede disminuir el valor de tus bitcoins en cualquier momento.
-  - El tercero de confianza puede transferir tus bitcoins en cualquier momento.
+  - Hodl se refiere a un tipo de criptomoneda que se utiliza solo para el comercio.
+  - Hodl es un término que significa vender toda tu criptomoneda a un precio alto.
+  - Hodl es una estrategia para el comercio diario que implica comprar y vender frecuentemente.
 explanation: |
-  Cuando utilizas una billetera custodial, no eres el único titular de tus bitcoins.
-  Esto significa que el tercero de confianza puede restringir tu acceso a tus fondos en
-  cualquier momento, dándote el mismo nivel de soberanía financiera que con el sistema bancario tradicional.
-reviewed: false
+  El término hodl se originó de una publicación en línea mal escrita en 2013 en un foro de Bitcoin. Con el tiempo, hodl ha evolucionado para representar una estrategia de inversión más amplia. Anima a los inversores a mantener sus criptomonedas a largo plazo, independientemente de las fluctuaciones del mercado.
+reviewed: true

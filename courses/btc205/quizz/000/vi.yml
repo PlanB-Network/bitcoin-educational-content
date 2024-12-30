@@ -1,8 +1,0 @@
-question: Mục tiêu chính của KYC là gì?
-answer: Để chống lại rửa tiền, tài trợ cho khủng bố và trốn thuế.
-wrong_answers:
-  - Tăng chi phí tuân thủ cho doanh nghiệp
-  - Tập trung cơ sở dữ liệu nhạy cảm chứa thông tin cá nhân của người dùng
-  - Làm cho các doanh nghiệp Pháp mất khả năng cạnh tranh
-explanation: |
-  KYC, hay "Biết Khách Hàng của Bạn," là một tiêu chuẩn quy định nhằm chống lại rửa tiền, tài trợ cho khủng bố và trốn thuế bằng cách yêu cầu thu thập thông tin cá nhân của khách hàng.

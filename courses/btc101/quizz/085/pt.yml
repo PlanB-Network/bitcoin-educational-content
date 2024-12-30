@@ -1,9 +1,13 @@
 question: O que é uma carteira quente?
-answer: Uma carteira de Bitcoin em seu telefone ou computador conectado à internet.
+answer: Uma carteira Bitcoin no seu telefone ou computador conectado à internet.
 wrong_answers:
-  - Uma carteira que está fisicamente quente ao toque.
+  - Uma carteira que é fisicamente quente ao toque.
   - Uma carteira que é popular entre os usuários de Bitcoin.
   - Uma carteira que é recomendada para armazenar grandes quantidades de bitcoins.
 explanation: |
-  Uma carteira quente é um termo usado para descrever uma carteira de Bitcoin que é armazenada em um dispositivo com acesso à internet, como um telefone ou computador. Isso facilita a realização de transações, mas também significa que a carteira está potencialmente vulnerável a ameaças online.
-reviewed: false
+  Uma carteira quente é um termo usado para descrever uma carteira Bitcoin
+  que é armazenada em um dispositivo com acesso à internet, como um
+  telefone ou computador. Desta forma, é fácil realizar
+  transações, mas isso também significa que a carteira é
+  potencialmente vulnerável a ameaças online.
+reviewed: true

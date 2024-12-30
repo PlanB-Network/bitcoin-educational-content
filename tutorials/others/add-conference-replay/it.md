@@ -10,16 +10,16 @@ Vuoi aggiungere la replica della tua conferenza su Bitcoin sul sito di PlanB Net
 
 Tuttavia, se desideri aggiungere una conferenza che si svolgerà in futuro, ti consiglio di leggere questo altro tutorial in cui spieghiamo come aggiungere un nuovo evento al sito.
 
-https://planb.network/tutorials/others/add-event
+https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 - Prima di tutto, devi avere un account su GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) nella sezione `resources/conference/`:
+- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) nella sezione `resources/conference/`:
 ![conference](assets/02.webp)
 - Clicca in alto a destra sul pulsante `Add file`, poi su `Create new file`:
 ![conference](assets/03.webp)
@@ -69,7 +69,7 @@ tags:
 
 ![conference](assets/09.webp)
 Se non hai ancora un identificatore "*builder*" per la tua organizzazione, puoi aggiungerlo seguendo quest'altro tutorial.
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Una volta terminato di apportare modifiche a questo file, salvali cliccando sul pulsante `Commit changes...`:
 ![conferenza](assets/10.webp)

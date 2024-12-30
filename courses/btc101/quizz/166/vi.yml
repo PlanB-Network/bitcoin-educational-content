@@ -1,11 +1,9 @@
-question: Vai trò của các thợ đào liên quan đến các nhà máy điện chưa được kết nối với lưới điện là gì?
-answer: Họ đóng vai trò là người mua cuối cùng
+question: Người khai thác có thể làm gì cho những nhà máy điện chưa được kết nối với lưới điện?
+answer: Họ có thể đóng vai trò là người mua cuối cùng.
 wrong_answers:
-  - Họ cung cấp điện cho các nhà máy điện
-  - Họ kết nối các nhà máy điện với lưới điện
-  - Họ điều chỉnh giá điện
-explanation: >-
-  Các thợ đào đóng vai trò là người mua cuối cùng cho các nhà máy điện chưa được kết nối
-  với lưới điện. Điều này cho phép các nhà máy điện đảm bảo tài chính ngay cả trước khi được
-  kết nối với mạng lưới điện.
-reviewed: false
+  - Họ có thể cung cấp điện cho các nhà máy điện.
+  - Họ có thể kết nối các nhà máy điện với lưới điện.
+  - Họ có thể điều chỉnh giá điện.
+explanation: |
+  Người khai thác có thể đóng vai trò là người mua cuối cùng cho các nhà máy điện chưa được kết nối với lưới điện. Điều này cho phép các nhà máy điện đảm bảo tài chính ngay cả trước khi được kết nối với mạng lưới điện.
+reviewed: true

@@ -1,9 +1,11 @@
-question: Jaká je role těžařů v síti Bitcoin?
-answer: Ověřují transakce jejich zařazením do bloku.
+question: Co není nutné zahrnout do plánu dědictví?
+answer: Název Bitcoinové peněženky, kterou obvykle používáte.
 wrong_answers:
-  - Vytvářejí nové Bitcoiny.
-  - Spravují síť Bitcoin.
-  - Regulují cenu Bitcoinu.
-explanation: >-
-  Těžaři v síti Bitcoin mají za úkol ověřovat transakce jejich zařazením do bloku. Dělají to tak, že řeší kryptografickou hádanku v procesu nazývaném "důkaz práce".
-reviewed: false
+  - Ručně psaný dopis se seznamem vašich aktiv.
+  - Popis, jak získat přístup k vašim finančním prostředkům.
+  - Kontaktní informace důvěryhodných osob.
+explanation: |
+  Vytvoření plánu dědictví je klíčovým krokem k zajištění, že vaše bitcoiny budou po vaší smrti správně spravovány.
+  Tento plán může zahrnovat ručně psaný dopis se seznamem vašich aktiv,
+  metody přístupu k nim a kontaktní informace důvěryhodných osob, které mají být kontaktovány.
+reviewed: true

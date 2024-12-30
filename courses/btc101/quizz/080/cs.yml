@@ -1,10 +1,13 @@
-question: Jaká je pravděpodobnost, že někdo náhodně uhodne váš seznam 12 nebo 24 slov v Bitcoin peněžence?
-answer: Astronomicky nízká
+question: Jaká je pravděpodobnost, že někdo náhodně uhodne váš seznam 12 nebo 24 slov v Bitcoinové peněžence?
+answer: Astronomicky nízká.
 wrong_answers:
-  - Vysoká
-  - Střední
-  - Nízká
-explanation: >-
-  Díky kryptografii použité při vytváření peněženky je pravděpodobnost, že někdo náhodně uhodne váš seznam 12 nebo 24 slov, astronomicky nízká.
-  Je to jako najít "správné" číslo mezi 1 a $2^256$, což je téměř ekvivalentní s nalezením určitého atomu ve vesmíru.
+  - Vysoká.
+  - Střední.
+  - Silná.
+explanation: |
+  Díky kryptografii použité při vytváření peněženky je
+  pravděpodobnost, že někdo náhodně uhodne váš seznam
+  12 nebo 24 slov, astronomicky nízká. Je to jako najít
+  správné číslo mezi 1 a $2^256$, což je téměř
+  ekvivalentní s nalezením určitého atomu ve vesmíru.
 reviewed: true

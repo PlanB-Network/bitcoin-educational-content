@@ -1,11 +1,11 @@
 question: What is the scalability problem of Bitcoin?
 answer: The challenge of implementing a monetary system capable of providing an ever-increasing number of transactions per second as it is adopted.
 wrong_answers:
-  - The difficulty of mining new Bitcoins.
-  - The volatility of Bitcoin's price.
-  - The lack of regulation for Bitcoin.
+  - The difficulty of mining new Bitcoins with an increasing value over time.
+  - The volatility of Bitcoin's price that will increase after every halving.
+  - The lack of regulation for Bitcoin which will make transactions illegal.
 explanation: >-
   The scalability problem refers to the challenge of implementing a monetary
   system capable of providing an ever-increasing number of transactions per second
   as it is adopted.
-reviewed: false
+reviewed: true

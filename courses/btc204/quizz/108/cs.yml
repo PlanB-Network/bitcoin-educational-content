@@ -1,0 +1,13 @@
+question: Jaká heuristická analýza řetězce je používána transakcí payjoin, aby působila jako klam pro analýzu?
+
+answer: CIOH
+
+wrong_answers:
+  - Opakované použití adresy
+  - Identifikace peněženky
+  - Opakované použití verze
+
+explanation: |
+  Když analytik zkoumá transakci payjoin, je přesvědčen, že všechny vstupy pocházejí od téže osoby kvůli CIOH. Toto vnímání je však nesprávné, protože k vstupům přispívá také příjemce platby společně s vlastním plátcem. Tím je analýza řetězce odkloněna k interpretaci, která se ukáže být nepravdivá.
+
+reviewed: false

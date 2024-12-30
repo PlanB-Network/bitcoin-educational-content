@@ -1,11 +1,8 @@
-question: What does the seed in a Bitcoin wallet represent?
-answer: It is a random or pseudo-random number from which multiple keys are generated.
+question: What constant is used to derive the master private key from the seed?
+answer: Bitcoin Seed
 wrong_answers:
-  - It is the password to access the wallet.
-  - It is the first Bitcoin transaction recorded in the wallet.
-  - It is the digital signature of the wallet owner.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  The seed in a Bitcoin wallet is supposed to be a random or pseudo-random
-  number. This seed allows for the generation of multiple keys, which are essential
-  for cryptocurrency ownership.
-reviewed: false
+  The Bitcoin Seed constant is used as a key in the HMAC-SHA512 function to derive the master private key and the master chain code.

@@ -1,0 +1,11 @@
+question: Hva er en av de anbefalte alternative løsningene til papir for lagring av din mnemoniske frase?
+answer: Inngravering på en metallplate
+wrong_answers:
+  - Lagre det i en digital fil
+  - Skrive det på en whiteboard
+  - Lagre det som en kontakt i telefonen din
+explanation: |
+  En av de alternative løsningene til papir for lagring av din mnemoniske frase
+  er å inngravere den på en metallplate. Dette kan tilby en mer holdbar og langvarig
+  løsning.
+reviewed: true

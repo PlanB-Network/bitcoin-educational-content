@@ -1,9 +1,9 @@
-question: ¿Qué sucede en un cierre forzado si la tarifa de red es de 1 SAT en el momento del cierre?
-answer: La transacción se paga en exceso 50 veces.
+question: ¿Qué permite hacer la función LNURL-withdraw a los usuarios?
+answer: Retirar fondos de un servicio escaneando un código QR
 wrong_answers:
-  - La transacción se paga de menos 50 veces.
-  - La transacción se paga en exceso 2 veces.
-  - La transacción se paga de menos 2 veces.
+  - Realizar un pago directo sin comisiones de enrutamiento
+  - Conectar su billetera Lightning sin una contraseña
+  - Enviar fondos sin confirmación del destinatario
 explanation: |
-  En un cierre forzado, el protocolo establece las tarifas 5 veces más altas que las actuales cuando se creó la transacción. Si la tarifa de red es de 1 SAT en el momento del cierre, la transacción se paga en exceso 50 veces.
+  LNURL-withdraw permite a los usuarios retirar fondos de un servicio escaneando un código QR, simplificando así el proceso de retiro.
 reviewed: false

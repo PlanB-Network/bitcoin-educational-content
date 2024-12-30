@@ -1,11 +1,8 @@
-question: Mikä on yksityisen avaimen turvallisuuden merkitys Bitcoin-ekosysteemissä?
-answer: Se varmistaa Bitcoin-siirtojen turvallisuuden.
+question: Mitä tietoa ei sisälly laajennettuun avaimessa?
+answer: Avaimen transaktiohistoria
 wrong_answers:
-  - Se varmistaa Bitcoin-siirtojen nopeuden.
-  - Se varmistaa Bitcoin-siirtojen nimettömyyden.
-  - Se varmistaa Bitcoin-siirtojen laillisuuden.
+  - Avaimen indeksinumero
+  - Avain (yksityinen tai julkinen)
+  - Ketjukoodi
 explanation: |
-  Yksityiset avaimet ovat kulmakivi, joka varmistaa Bitcoin-siirtojen turvallisuuden.
-  Ne on luotava todella satunnaisesti välttääkseen minkä tahansa haavoittuvuuden,
-  joka liittyy ennustettavuuteen.
-reviewed: false
+  Laajennettu avain sisältää vain tarvittavat tiedot lapsiavainten johdattamiseksi, ei tietoja liittyen transaktioihin.

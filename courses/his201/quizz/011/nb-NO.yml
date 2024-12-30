@@ -1,0 +1,8 @@
+question: Hvilket privat valutasystem refererte Satoshi Nakamoto eksplisitt til i sine skrifter?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - The Liberty Dollar
+  - e-Bullion
+explanation: |
+  Dette var faktisk fortsatt aktivt på tiden for Bitcoin, i motsetning til e-gold og The Liberty Dollar. Satoshi nevnte også [Pecunix](https: //bitcointalk.org/index.php?topic=87.msg807#msg807), en digital gullvaluta opprettet i 2002.

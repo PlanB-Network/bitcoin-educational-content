@@ -1,9 +1,9 @@
-question: Was ist einer der Faktoren, der es für Finanzbehörden schwierig macht, Bitcoin zu regulieren?
-answer: Es operiert global, 24 Stunden am Tag, 7 Tage die Woche.
+question: Was ist ein Faktor, der es Finanzbehörden erschwert, Bitcoin zu regulieren?
+answer: Es funktioniert weltweit, rund um die Uhr, 7 Tage die Woche.
 wrong_answers:
   - Es wird von einer zentralen Autorität kontrolliert.
   - Es wird nirgendwo auf der Welt verwendet.
   - Es ist leicht zu fälschen.
-explanation: |
-  Das Bitcoin-Protokoll ist einzigartig, da es global, 24 Stunden am Tag, 7 Tage die Woche operiert, was die Regulierung für Finanzbehörden schwierig macht.
-reviewed: false
+explanation: >-
+  Das Bitcoin-Protokoll ist insofern einzigartig, als dass es weltweit, rund um die Uhr, 7 Tage die Woche funktioniert, was die Regulierung durch Finanzbehörden erschwert.
+reviewed: true

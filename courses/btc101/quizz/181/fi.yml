@@ -1,8 +1,9 @@
-question: Mikä on yksi tapa, jolla Bitcoin on integroitunut enemmän perinteiseen markkinaan?
-answer: Bitcoin ETF:ien tuleva saapuminen.
+question: Mikä on yksi tapa, jolla Bitcoin on entisestään integroitunut perinteiseen markkinaan?
+answer: Bitcoin ETF; ien tulo.
 wrong_answers:
   - Bitcoinin kieltäminen.
   - Kaikkien kryptovaluuttojen katoaminen.
   - Bitcoinin luominen.
-explanation: >-
-  Bitcoin jatkaa eloonjäämistään ja kasvuaan integroitumalla yhä enemmän perinteiseen markkinaan. Bitcoin ETF:ien tuleva saapuminen, selkeämpi sääntely ja paremmat hankinta- tai säilytystyökalut vain edistävät tätä suuntausta.
+explanation: |
+  Bitcoin jatkaa eloonjäämistään ja kasvuaan integroitumalla yhä enemmän perinteiseen markkinaan. Bitcoin ETF: ien tulo, selkeämpi sääntely ja paremmat varastointityökalujen hankintamahdollisuudet vain edistävät tätä suuntausta.
+reviewed: true

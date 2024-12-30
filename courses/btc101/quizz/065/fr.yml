@@ -1,9 +1,12 @@
-question: Quels principes économiques Bitcoin adopte-t-il?
-answer: Principes de l'économie autrichienne
+question: Quels principes économiques Bitcoin respecte-t-il ?
+answer: Principes de l'économie autrichienne.
 wrong_answers:
-  - Principes de l'économie keynésienne
-  - Principes de l'économie marxiste
-  - Principes de l'économie néoclassique
+  - Principes de l'économie keynésienne.
+  - Principes de l'économie marxiste.
+  - Principes de l'économie néoclassique.
 explanation: |
-  Bitcoin adopte les principes de l'économie autrichienne. Sa quantité limitée et l'absence d'une entité centrale le protègent des risques inhérents à l'inflation des devises traditionnelles.
-reviewed: false
+  Bitcoin s'aligne sur les principes de l'économie autrichienne.
+  Sa quantité limitée et l'absence d'entité centrale le protègent
+  des risques inhérents d'inflation que l'on observe dans
+  les monnaies traditionnelles.
+reviewed: true

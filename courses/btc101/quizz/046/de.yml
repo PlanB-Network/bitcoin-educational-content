@@ -1,9 +1,13 @@
-question: Was ist das potenzielle Auswirkungen des aktuellen Finanzsystems auf politische Akteure?
-answer: Sie haben keinen Anreiz, radikale Veränderungen vorzunehmen, was es dem System ermöglicht, seinen Kurs fortzusetzen, bis es möglicherweise zusammenbricht.
+question: Welche potenzielle Auswirkung hat das aktuelle Finanzsystem auf politische Akteure?
+
+answer: Sie sind nicht dazu motiviert, radikale Veränderungen vorzunehmen, was dem System erlaubt, seinen Lauf zu nehmen, bis möglicherweise eine Implosion eintritt.
+
 wrong_answers:
-  - Sie haben einen Anreiz, radikale Veränderungen vorzunehmen, um einen möglichen Zusammenbruch zu verhindern.
-  - Sie haben keinen Anreiz, den Status quo aufrechtzuerhalten, um ihren eigenen Reichtum zu sichern.
-  - Sie haben einen Anreiz, langfristig zu denken.
+  - Sie sind dazu motiviert, radikale Veränderungen vorzunehmen, um eine mögliche Implosion zu verhindern.
+  - Sie sind nicht dazu motiviert, den Status quo aufrechtzuerhalten, um ihren eigenen Reichtum zu sichern.
+  - Sie sind dazu motiviert, langfristig zu denken.
+
 explanation: |
-  Da politische Akteure vom aktuellen Finanzsystem profitieren, haben sie keinen Anreiz, radikale Veränderungen vorzunehmen. Dies ermöglicht es dem System, seinen Kurs fortzusetzen, bis es möglicherweise zusammenbricht, da das System reguliert und eingeschränkt ist, um einen Zusammenbruch zu vermeiden.
-reviewed: false
+  Da politische Akteure vom aktuellen Finanzsystem profitieren, sind sie nicht dazu motiviert, radikale Veränderungen vorzunehmen. Dies erlaubt dem System, seinen Lauf zu nehmen, bis möglicherweise eine Implosion eintritt, da das System reguliert und eingeschränkt ist, um seinen eigenen Zusammenbruch zu vermeiden.
+
+reviewed: true

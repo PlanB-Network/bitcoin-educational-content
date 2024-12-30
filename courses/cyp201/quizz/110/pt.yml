@@ -1,9 +1,0 @@
-question: Qual é o objetivo da Profundidade 1 na estrutura da Carteira HD?
-answer: Ela é usada para derivar chaves filhas para um propósito específico.
-wrong_answers:
-  - Ela permite a diferenciação de contas para diferentes criptomoedas ou redes.
-  - É usada para receber endereços em uma carteira padrão.
-  - Corresponde às cadeias externas e internas.
-explanation: |
-  Na estrutura da Carteira HD, a Profundidade 1 é usada para derivar chaves filhas para um propósito específico, que é determinado pelo índice.
-reviewed: false

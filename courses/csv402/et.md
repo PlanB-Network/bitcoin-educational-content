@@ -118,11 +118,11 @@ Edu õpingutes ja kui on vaja meie meeskonnaga või õpetajaga ühendust võtta,
 ## Lõppsõna
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-Täname, et osalesite PlanB Network'i poolt koostöös Fulgur'Ventures'iga pakutavatel RGB kursustel. Avaldame tänu meie õpetajatele nende toetuse eest. Kui olete huvitatud oma töö jätkamisest RGB-ga, siis siin on teile kasulik ressursside nimekiri, mida uurida:
+Täname, et osalesite Plan ₿ Network'i poolt koostöös Fulgur'Ventures'iga pakutavatel RGB kursustel. Avaldame tänu meie õpetajatele nende toetuse eest. Kui olete huvitatud oma töö jätkamisest RGB-ga, siis siin on teile kasulik ressursside nimekiri, mida uurida:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
-Täname ja soovime edu teie õpingutes PlanB Network'is.
+Täname ja soovime edu teie õpingutes Plan ₿ Network'is.

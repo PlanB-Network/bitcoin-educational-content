@@ -1,11 +1,11 @@
-question: What is the role of a central bank as a "lender of last resort"?
+question: What is the role of a central bank as a lender of last resort?
 answer: The central bank lends funds to distressed banks during crises to prevent a domino effect that could paralyze the entire financial system.
 wrong_answers:
   - The central bank lends funds to distressed banks during crises to increase its own profits.
   - The central bank lends funds to distressed banks during crises to take over their operations.
   - The central bank lends funds to distressed banks during crises to increase the national debt.
 explanation: |
-  The concept of a central bank as a "lender of last resort" emerged in
+  The concept of a central bank as a lender of last resort emerged in
   the 19th century in England in response to repeated bank runs that threatened financial
   stability. By lending to banks in distress, the central bank can prevent a domino
   effect of bank failures that could lead to a recession or depression.

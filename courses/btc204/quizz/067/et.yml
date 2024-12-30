@@ -1,0 +1,13 @@
+question: Millist heuristikat saab kasutada konsolideerimise kõikide sisendite sidumiseks?
+
+answer: CIOH.
+
+wrong_answers:
+  - Aadressi taaskasutus.
+  - Suurim väljund.
+  - Ümmargune makse.
+
+explanation: |
+  Väline vaatleja saab rakendada CIOH-d hüpoteesiks, et konsolideerimise kõik sisendid kuuluvad samale üksusele.
+
+reviewed: false

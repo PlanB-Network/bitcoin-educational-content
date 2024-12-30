@@ -1,0 +1,8 @@
+question: Kuidas formuleerisid Say seadust Jean-Baptiste Say ja Bastiat?
+answer: Kaubad ja teenused vahetatakse kaupade ja teenuste vastu
+wrong_answers:
+  - Pakkumine loob oma nõudluse
+  - Mida rohkem kaupu toodetakse, seda rohkem neid tarbitakse
+  - Nõudlus määrab pakkumise
+explanation: |
+  Say seaduse kohaselt võimaldab kaupade tootmine vastastikuseid vahetusi, väärtustades seeläbi turumajandust.

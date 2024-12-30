@@ -1,10 +1,9 @@
-question: Wie hoch ist die Wahrscheinlichkeit, dass jemand Ihre Liste von 12 oder 24 Wörtern in einer Bitcoin-Wallet versehentlich errät?
-answer: Astronomisch niedrig
+question: Wie hoch ist die Wahrscheinlichkeit, dass jemand zufällig Ihre Liste von 12 oder 24 Wörtern in einem Bitcoin-Wallet errät?
+answer: Astronomisch niedrig.
 wrong_answers:
-  - Hoch
-  - Mäßig
-  - Niedrig
+  - Hoch.
+  - Mäßig.
+  - Stark.
 explanation: |
-  Dank der Kryptographie, die zur Erstellung der Wallet verwendet wird, ist die Wahrscheinlichkeit, dass jemand Ihre Liste von 12 oder 24 Wörtern versehentlich errät, astronomisch niedrig.
-  Es ist vergleichbar mit dem Finden der "richtigen" Zahl zwischen 1 und $2^256$, was nahezu gleichbedeutend damit ist, ein bestimmtes Atom im Universum zu finden.
-reviewed: false
+  Dank der Kryptografie, die zur Erstellung des Wallets verwendet wird, ist die Wahrscheinlichkeit, dass jemand zufällig Ihre Liste von 12 oder 24 Wörtern errät, astronomisch niedrig. Es ist wie die Suche nach der richtigen Zahl zwischen 1 und $2^256$, was fast dem Finden eines bestimmten Atoms im Universum gleichkommt.
+reviewed: true

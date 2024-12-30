@@ -1,10 +1,8 @@
-question: Vai trò của BIP39 trong hệ sinh thái Bitcoin là gì?
-answer: Nó đã giới thiệu cụm từ ghi nhớ 24 từ để biến đổi các chuỗi số phức tạp thành những từ ngữ thông thường.
+question: Phương pháp nào là thực hành tốt để bảo mật một cụm mật khẩu?
+answer: Lưu trữ nó trên một phương tiện vật lý riêng biệt so với cụm từ gợi nhớ
 wrong_answers:
-  - Nó đã giới thiệu khái niệm về việc tạo ra các khóa một cách có hệ thống và phân cấp.
-  - Nó đề xuất thêm một cụm từ mật khẩu bổ sung để tăng cường bảo mật cho các khóa cá nhân.
-  - Nó chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD.
-explanation:
-  BIP39 đã giới thiệu một đổi mới quan trọng; cụm từ ghi nhớ 24 từ.
-  Hệ thống này đã làm cho việc biến đổi một chuỗi số phức tạp, khó nhớ thành một loạt các từ ngữ thông thường, dễ dàng ghi nhớ và lưu trữ hơn.
-Đã được xem xét: false
+  - Chỉ nhớ bằng lòng mà không ghi chép lại
+  - Lưu trữ nó trên cùng một phương tiện vật lý với cụm từ gợi nhớ
+  - Ghi lại nó trên một phương tiện số như Google Drive
+explanation: |
+  Cụm mật khẩu phải được lưu trữ trên phương tiện vật lý và tách biệt khỏi cụm từ gợi nhớ để ngăn chặn việc đánh cắp cả hai cùng một lúc.

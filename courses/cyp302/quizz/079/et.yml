@@ -1,0 +1,9 @@
+question: Miks on nihkekrüpteering haavatav jõuga läbimurde rünnakute suhtes?
+answer: Kuna sellel on ainult 26 võimalikku võtit
+wrong_answers:
+  - Kuna see kasutab avalikku võtit
+  - Kuna see põhineb sümmeetrilisel krüpteeringul
+  - Kuna see kasutab juhuslikke numbreid
+explanation: |
+  Nihkekrüpteering on kergesti haavatav jõuga läbimurde rünnakute suhtes, kuna sellel on ainult 26 võimalikku võtit, 0-st 25-ni, tänu modulo 26 kasutamisele, mis omakorda sõltub tähestiku suurusest. Suuremaid kehtivaid võtmeid ei saa kasutada, kuna need oleksid igal juhul võrdsed mõne 0-st 25-ni jääva võtmega. Seetõttu piisab nende kõigi testimisest, et leida sõnum. 
+reviewed: false

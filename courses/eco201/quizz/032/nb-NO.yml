@@ -1,0 +1,12 @@
+question: Hva er det ultimate formålet med økonomisk aktivitet ifølge Carl Menger?
+answer: Det ultimate formålet med økonomisk aktivitet er konsum.
+wrong_answers:
+  - Det ultimate formålet med økonomisk aktivitet er produksjon.
+  - Det ultimate formålet med økonomisk aktivitet er sparing.
+  - Det ultimate formålet med økonomisk aktivitet er investering.
+explanation: |
+  Ifølge Carl Menger blir varer kun ansett som økonomiske goder (verdsatt)
+  fordi de tjener som midler til mål valgt og verdsatt av individer. Derfor,
+  for Menger, er utgangspunktet for økonomisk analyse forbruksvarer, eller
+  sluttprodukter, ettersom de representerer det ultimate formålet med økonomisk aktivitet.
+reviewed: false

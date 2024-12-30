@@ -1,0 +1,8 @@
+question: Wer trägt nach Bastiat den Lebensunterhalt des Staates?
+answer: Es sind die Bürger, die den Staat tragen
+wrong_answers:
+  - Es sind die Bürger, die vom Staat leben
+  - Es ist der Staat, der die Nation trägt
+  - Es sind die Interessengruppen, die den Staat tragen
+explanation: |
+  Bastiat behauptet, dass es die Bürger sind, die den Staat durch die Schaffung von Wohlstand unterstützen und nicht umgekehrt.

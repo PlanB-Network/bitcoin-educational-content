@@ -41,8 +41,8 @@ Khi thấy giao dịch này trên blockchain, một người quan sát bên ngo�
 ![Giải thích sai lầm về giao dịch Payjoin từ bên ngoài](assets/en/3.webp)
 Giải thích này rõ ràng là không chính xác bởi vì, như bạn đã biết, hai UTXO đầu vào không thuộc về cùng một người. Hơn nữa, giá trị thực sự của khoản thanh toán không phải là `19,000 sats`, mà là `4,000 sats`. Phân tích của người quan sát bên ngoài do đó được hướng dẫn về một kết luận sai lầm, đảm bảo bảo vệ sự bảo mật của các bên liên quan.![sơ đồ giao dịch Payjoin](assets/en/1.webp)
 Nếu bạn muốn phân tích một giao dịch Payjoin thực sự, đây là một giao dịch mà tôi đã thực hiện trên testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
-[**-> Khám phá hướng dẫn của chúng tôi về cách thực hiện Payjoin với Samourai Wallet**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  
-[**-> Khám phá hướng dẫn của chúng tôi về cách thực hiện Payjoin với Sparrow Wallet**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+[**-> Khám phá hướng dẫn của chúng tôi về cách thực hiện Payjoin với Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
+[**-> Khám phá hướng dẫn của chúng tôi về cách thực hiện Payjoin với Sparrow Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 **Nguồn tài nguyên bên ngoài:**
 - https://docs.samourai.io/en/spend-tools#stowaway;

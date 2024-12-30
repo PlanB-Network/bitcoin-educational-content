@@ -1,0 +1,5 @@
+description: |
+  GrapheneOS 是一款专注于安全性和隐私的移动操作系统，专为 Google Pixel 设备设计。它是一个基于 Android 的开源项目，通过集成高级功能和严格的应用权限控制，提高了对攻击的抵御能力。在默认情况下不集成 Google 服务的情况下，GrapheneOS 提供了简约的用户体验，同时允许可选安装工具，以满足注重移动隐私的用户需求。
+
+contributors:
+  - pretty-private

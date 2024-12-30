@@ -1,0 +1,11 @@
+question: Apa kriteria Kagan untuk hiperinflasi?
+answer: Tingkat inflasi 50% per bulan.
+wrong_answers:
+  - Tingkat inflasi 50% per tahun.
+  - Tingkat inflasi 25% per bulan.
+  - Tingkat inflasi 25% per tahun.
+explanation: |
+  Kriteria Kagan mendefinisikan hiperinflasi sebagai tingkat inflasi 50%
+  per bulan. Kriteria ini terkadang dapat menyebabkan interpretasi yang ambigu, dengan
+  tahun-tahun yang memiliki tingkat inflasi tinggi tetapi tidak memenuhi definisi ketat dari hiperinflasi.
+reviewed: false

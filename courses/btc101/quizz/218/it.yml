@@ -1,9 +1,11 @@
-question: Qual è la natura dell'adozione di Bitcoin secondo il testo?
-answer: Viral
+question: Qual è la natura dell'adozione di Bitcoin come descritta in questo corso?
+answer: Virale.
 wrong_answers:
-  - Lenta e costante
-  - Rapida e incontrollabile
-  - Sporadica e imprevedibile
+  - Lenta e costante.
+  - Rapida e incontrollabile.
+  - Sporadica e imprevedibile.
 explanation: |
-  Il testo descrive l'adozione di Bitcoin come virale, suggerendo che si diffonde rapidamente e ampiamente da una persona all'altra, proprio come un virus.
-reviewed: false
+  Il testo del corso descrive l'adozione di Bitcoin come virale,
+  suggerendo che si diffonde rapidamente e ampiamente da una
+  persona all'altra, molto simile a un virus, ma in senso positivo.
+reviewed: vero

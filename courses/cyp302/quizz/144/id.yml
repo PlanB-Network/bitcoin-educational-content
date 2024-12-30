@@ -1,0 +1,9 @@
+question: Berapa ukuran tipikal dari bilangan prima yang digunakan dalam faktorisasi untuk sistem kriptografi modern seperti RSA?
+answer: 1024 bit untuk setiap faktor
+wrong_answers:
+  - 1024 bit secara total
+  - 256 bit untuk setiap faktor
+  - 256 bit secara total
+explanation: |
+  Dalam sistem kriptografi modern seperti RSA, bilangan prima yang dipilih biasanya berukuran 1024 bit setiap satu, membuat faktorisasi menjadi sangat sulit dan meningkatkan keamanan.
+reviewed: false

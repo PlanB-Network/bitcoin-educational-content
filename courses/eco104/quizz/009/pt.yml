@@ -1,11 +1,11 @@
-question: Qual é a importância da citação "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" no primeiro bloco do Bitcoin?
+question: Qual é a importância da citação The Times 03/Jan/2009 Chancellor on brink of second bailout for banks no primeiro bloco do Bitcoin?
 answer: Ela destaca a capacidade do nosso sistema financeiro de socializar as perdas
 wrong_answers:
   - Significa a apreciação de Satoshi pelo jornal The Times
   - Dá um excelente exemplo de como os resgates beneficiaram nossa sociedade
   - Mostra a capacidade do Bitcoin de armazenar mensagens na blockchain
 explanation: |
-  Esta é uma referência a um artigo do jornal The Times [artigo](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) refletindo as preocupações de Satoshi
+  Esta é uma referência a um artigo do jornal The Times [artigo](https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) refletindo as preocupações de Satoshi
   de que os bancos estavam se envolvendo em comportamentos arriscados, com pouca
   consequência para eles, e que as perdas seriam compartilhadas entre os detentores da moeda.
 reviewed: true

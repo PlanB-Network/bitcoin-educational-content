@@ -1,10 +1,8 @@
-question: Kdo platí závěrečné poplatky při kooperativním uzavření?
-answer: Osoba, která kanál otevřela.
+question: Jaké informace může Bob zahrnout do faktury, aby usnadnil směrování?
+answer: Blízké kanály s dostatečnou likviditou nebo existence soukromých kanálů
 wrong_answers:
-  - Osoba, která kanál uzavřela.
-  - Obě strany rovně.
-  - Osoba s nejvíce SAT v kanálu.
+  - Soukromý klíč mezilehlých uzlů
+  - Kompletní mapa všech kanálů sítě
+  - Přesná částka dostupné likvidity pro každý kanál
 explanation: |
-  Při kooperativním uzavření se obě strany dohodnou na konečném stavu
-  kanálu. Osoba, která kanál otevřela, platí závěrečné poplatky.
-reviewed: false
+  Tím, že Bob uvede blízké kanály s likviditou nebo odhalí soukromé kanály, pomáhá Alici vybrat trasy s lepší pravděpodobností úspěchu.

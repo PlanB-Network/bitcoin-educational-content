@@ -1,0 +1,9 @@
+question: Kterého data byl vytvořen mailing list pro vývoj bitcoinu?
+answer: 12. června 2011
+wrong_answers:
+  - 13. ledna 2011
+  - 7. března 2011
+  - 19. září 2011
+explanation: |
+  Byl vytvořen vývojářem Jeffem Garzikem a umožnil formální diskuse o změnách, které měly být provedeny v Bitcoinu.
+reviewed: false

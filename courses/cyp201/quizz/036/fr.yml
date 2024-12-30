@@ -1,9 +1,9 @@
-question: Quel est le point de départ pour calculer toutes les clés publiques des utilisateurs dans le système Bitcoin?
-answer: Point G
+question: Qu'est-ce qu'un portefeuille HD permet de faire par rapport à un portefeuille JBOK ?
+answer: Générer toutes les clés privées à partir d'une unique graine
 wrong_answers:
-  - Point K
-  - Point U
-  - Point O
+  - Augmenter la sécurité des signatures numériques
+  - Réutiliser une même adresse pour plusieurs transactions
+  - Éviter complètement l'utilisation de clés publiques
 explanation: |
-  Le point G est le point de départ pour calculer toutes les clés publiques des utilisateurs dans le système Bitcoin.
+  Les portefeuilles HD dérivent toutes les clés privées à partir d'une graine unique, ce qui simplifie la sauvegarde et améliore indirectement la confidentialité.
 reviewed: false

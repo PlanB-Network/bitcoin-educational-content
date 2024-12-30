@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin je centralizovaná digitální měna kontrolovaná jedinou entitou.
   - Bitcoin je typ akcie nebo dluhopisu.
 explanation: |
-  Jak je uvedeno v bílé knize, Bitcoin je počítačový protokol peer-to-peer, který zavádí měnový systém bez nutnosti důvěřovat třetím stranám.
+  Jak je uvedeno v bílé knize, Bitcoin je peer-to-peer počítačový protokol, který vytváří měnový systém bez potřeby jakéhokoli důvěryhodného třetího subjektu.
 reviewed: true

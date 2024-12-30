@@ -1,0 +1,11 @@
+question: Hva er ikke en mnemonic frase i konteksten av Bitcoin?
+answer: Et passord for din Bitcoin-lommebok
+wrong_answers:
+  - en liste med 12-24 ord fra en spesifikk ordbok
+  - hemmeligheten for å få tilgang til dine bitcoin-midler
+  - En hemmelig kode for å få tilgang til dine bitcoins
+explanation: |
+  En mnemonic frase i konteksten av Bitcoin er en liste med 12 eller 24 ord
+  som lar deg gjenopprette lommeboken din på hvilken som helst Bitcoin-lommebokapplikasjon. Alle
+  som har tilgang til denne listen har også tilgang til dine bitcoins.
+reviewed: true

@@ -1,12 +1,9 @@
-question: What is onion routing in the context of the Lightning Network?
-answer: A method where intermediaries do not know who the final recipient is, nor who is sending the payment.
+question: What does the triangle opening technique allow participating nodes to achieve?
+answer: Incoming and outgoing liquidity in each channel
 wrong_answers:
-  - A method where intermediaries know both the sender and the recipient.
-  - A method where only the sender knows the route and the price.
-  - A method where the final recipient decides the route before sending the payment.
+  - Reduced routing fees
+  - An unlimited number of transactions without confirmation
+  - A direct link with every other network node
 explanation: |
-  Onion routing in the Lightning Network is a method where intermediaries
-  do not know who the final recipient is, nor who is sending the payment. The node
-  must keep a plan of the network to find its route, but none of the intermediaries
-  have any information.
+  The triangle opening technique allows each node to achieve balanced liquidity, both incoming and outgoing, by forming a loop of channels among several participants.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Hvem etablerte den første gruvekooperasjonen for å produsere en blokk på Bitcoin?
+answer: doublec
+wrong_answers:
+  - slush
+  - puddinpop
+  - m0mchil
+explanation: |
+  Han promoterte den 1. desember. Blokken ble [funnet](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) den 4. desember 2010. Slush sin kooperasjon, på den andre siden, ble lansert den 16. desember.

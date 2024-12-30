@@ -819,9 +819,7 @@ Näin ollen vuoden 2009 jälkeen, jatkuvan rahakriisin ja hillittömän hyperinf
 Dollarisaatio ei kuitenkaan ole ihmeratkaisu. Vaikka se voi lopettaa hyperinflaation, se tuo mukanaan muita taloudellisia haasteita. Yksi seurauksista on itsenäisen rahapolitiikan menettäminen. Ilman omaa valuuttaa maa ei voi säätää rahapolitiikkaansa vastaamaan sisäisiin taloudellisiin shokkeihin.
 Vuonna 2007 Zimbabwen inflaatiovauhti saavutti 50 % kuukausittaisen rajan, mikä virallisesti merkitsi maan olevan hyperinflaatiossa. Dollarisaation jälkeen vuonna 2009 hyperinflaatio loppui, mutta maa kohtasi muita taloudellisia haasteita. On huolestuttavaa huomata, että Zimbabwe on sen jälkeen yrittänyt ottaa uudelleen käyttöön oman valuuttansa, ja korkean inflaation merkkejä on ilmestynyt uudelleen. Tietyt kansainväliset järjestöt ovat todenneet, että maa saattaa jo täyttää hyperinflaation kriteerit uudelleen, vaikka se ei vielä olekaan saavuttanut virallista 50 % kuukausittaista rajaa. Tämä toimii muistutuksena liiallisen rahan liikkeellelaskun ja keskuspankin alijäämärahoituksen vaaroista.
 
-## Johtopäätös
-
-<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
+### Johtopäätös
 
 Kirjassani nimeltä "Kaikki Bitcoinista" olen omistanut kokonaisen luvun Zimbabwen hyperinflaatiolle. Käsittelen merkittäviä tapahtumia, tarjoten erilaisia esimerkkejä siitä, miten maa lopulta sai hyperinflaation päätökseen.
 
@@ -830,8 +828,6 @@ Kirjassani nimeltä "Kaikki Bitcoinista" olen omistanut kokonaisen luvun Zimbabw
 Niille, jotka ovat uteliaita Saksan kokemuksesta ensimmäisen maailmansodan jälkeen, suosittelen lämpimästi sarjakuvakirjaa "Valtakunnan Pankkiiri". Se kertoo, miten Saksa onnistui voittamaan hyperinflaation, erityisesti Rentenmarkin luomisen kautta.
 
 ![kuva](assets/chapitre-3.5/4.webp)
-
-Kirjassani nimeltä "Kaikki Bitcoinista" olen omistanut kokonaisen luvun Zimbabwen hyperinflaatiolle. Käsittelen merkittäviä tapahtumia, tarjoten erilaisia esimerkkejä siitä, miten maa lopulta sai hyperinflaation päätökseen. Niille, jotka ovat uteliaita Saksan kokemuksesta ensimmäisen maailmansodan jälkeen, suosittelen lämpimästi sarjakuvakirjaa "Valtakunnan Pankkiiri". Se kertoo, miten Saksa onnistui voittamaan hyperinflaation, erityisesti Rentenmarkin luomisen kautta.
 
 Tärkein opetus on, että hyperinflaation voittamiseen on useita strategioita. Voi valita dollarisaation tai ottaa käyttöön uuden valuutan. Nämä ratkaisut toimivat vain, jos väestöllä on luottamus niihin. On ratkaisevan tärkeää asettaa tiukat rajoitukset. Todella riippumaton keskuspankki on olennainen. Sen ei tule lisätä rahan tarjontaa kattamaan hallituksen alijäämiä. Lievän inflaation tapauksessa rahan tarjonnan kasvun rajoittaminen pitäisi riittää. Hyperinflaation kohdatessa on kuitenkin ensiarvoisen tärkeää, että talouden kokoon nähden sopiva rahan määrä on aluksi olemassa. Sen jälkeen on välttämätöntä asettaa hallitukselle tiukat rajoitukset tilanteen vakauttamiseksi.
 
@@ -905,17 +901,6 @@ Vuoden 1796 pankkipaniikin jälkeen tapahtui ilmiö, jossa kaikki yrittivät sii
 
 Keskuspankit ovat kehittyneet viimeisenä lainanantajana toimiviksi tahoiksi, keskeyttäen valuuttansa vaihdettavuuden kultaan. Vaikka tämä toimenpide oli alun perin tarkoitettu väliaikaiseksi ratkaisuksi, se lopulta muuttui pysyväksi, merkiten viimeisen lainanantajan käsitteen syntyä. Tämä muutos on muovannut keskuspankkeja, kuten me ne tänään tunnemme. Kuitenkin herkemmissä talouksissa tämä kyky painaa rahaa mielin määrin voi johtaa ei-toivottuihin seurauksiin, kuten hyperinflaatioon, jos sitä käytetään vastuuttomasti.
 
-
-
-## Arvioi kurssi
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Loppukoe
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
-
 ## Kirjat ja Resurssit
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
@@ -938,3 +923,51 @@ Hyperinflaatio on kiehtova aihe, jota on tutkittu eri historiallisten tapahtumie
 
 - "Valuuttalautakunnat kehitysmaille: Käsikirja" Steve Hanken ja Kurt Schulerin kirjoittama. Vaikka keskitytään valuuttalautakuntiin, tämä kirja tarjoaa näkökulman hyperinflaatiotilanteiden välttämiseen.
 
+# Yhteenveto
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Arvioi tämä kurssi
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Loppukoe
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Yhteenveto
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+Onnittelut kurssin suorittamisesta!
+
+Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
+
+Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
+
+Jatkaaksesi Bitcoin-universumin syvällistä tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
+
+#### Tutustu F. Bastiatin elämään kurssilla
+
+https://planb.network/courses/eco102
+
+#### Tutustu Itävallan koulukunnan talousajatteluun kurssilla
+
+https://planb.network/courses/eco201
+
+#### Tutustu Bitcoiniin ja sen perusteisiin kurssilla
+
+https://planb.network/courses/btc101
+
+#### Päivitä verkkotietoturvasi kurssilla
+
+https://planb.network/courses/scu101
+
+#### Hanki ja turvaa ensimmäiset bitcoinisi kurssilla
+
+https://planb.network/courses/btc102
+
+#### Tutustu Bitcoinin alkuperän historiaan kurssilla
+
+https://planb.network/courses/his201

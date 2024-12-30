@@ -1,9 +1,13 @@
-question: Por que o ouro não consegue acompanhar em um mundo globalizado e digital?
-answer: Ele precisa de uma entidade central para torná-lo divisível e facilmente trocável.
+question: Por que o ouro não consegue ter um bom desempenho em um mundo globalizado e digital?
+answer: Porque precisa de uma entidade central para torná-lo divisível e facilmente intercambiável.
 wrong_answers:
-  - Ele não é valioso o suficiente.
-  - Ele não é raro o suficiente.
-  - Ele se desgasta ao longo do tempo.
+  - Porque não é valioso o suficiente.
+  - Porque não é raro o suficiente.
+  - Porque se erosiona com o tempo.
 explanation: |
-  O ouro não consegue acompanhar em um mundo globalizado e digital porque precisa de uma entidade central para torná-lo divisível e facilmente trocável. Isso o torna menos prático para uso em um mundo onde as transações estão cada vez mais digitais e descentralizadas.
-reviewed: false
+  O ouro não consegue acompanhar em um mundo globalizado e digital
+  porque precisa de uma entidade central para torná-lo divisível e
+  facilmente intercambiável. Isso o torna menos prático para uso em
+  um mundo onde as transações são cada vez mais digitais e
+  descentralizadas.
+reviewed: true

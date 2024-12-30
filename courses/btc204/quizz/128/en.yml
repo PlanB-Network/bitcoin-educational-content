@@ -1,0 +1,13 @@
+question: What is the utility of a smart contract in a secret property exchange?
+
+answer: To simultaneously and systematically reveal information allowing both parties to retrieve the other's funds.
+
+wrong_answers:
+  - Ensure confidentiality by encrypting property information so that only the legitimate recipient can decrypt it.
+  - Automate the transfer process to minimize human interactions and reduce errors.
+  - Facilitate dispute resolution by holding the bitcoins of both parties in case of cheating attempts.
+
+explanation: |
+  To enable exchanges between parties who do not trust each other, smart contract systems are used. A smart contract is a program that automatically executes when predefined conditions are met, which, in our case, ensures that the property exchange is carried out automatically without requiring mutual trust. The smart contract allows for the simultaneous revelation of two sensitive pieces of information between the participants. Either it executes normally, and each party retrieves the other's funds, or it fails, and everyone keeps their original funds.
+
+reviewed: false

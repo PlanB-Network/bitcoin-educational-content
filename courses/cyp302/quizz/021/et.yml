@@ -1,0 +1,9 @@
+question: Mis on matemaatiline termin arvutusteks, mis hõlmavad modulo operatsioone?
+answer: Modulaararitmeetika
+wrong_answers:
+  - Lineaaralgebra
+  - Trigonomeetria
+  - Diskreetne geomeetria
+explanation: |
+  Modulaararitmeetika on matemaatika haru, mis tegeleb arvutustega numbrite üle lõplikus raamistikus, kasutades modulo operatsiooni.
+reviewed: false

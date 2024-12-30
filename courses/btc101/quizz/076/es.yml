@@ -1,9 +1,10 @@
-question: ¿Cuál es el papel de la clave pública en una billetera de Bitcoin?
-answer: Se utiliza para generar direcciones de Bitcoin y, por lo tanto, recibir dinero.
+question: ¿Cuál es el papel de la clave pública en una cartera de Bitcoin?
+answer: Se utiliza para generar direcciones de Bitcoin y así recibir dinero.
 wrong_answers:
-  - Se utiliza para encriptar las transacciones de Bitcoin.
-  - Se utiliza para acceder a la billetera de Bitcoin.
-  - Se utiliza para hacer una copia de seguridad de la billetera de Bitcoin.
+  - Se utiliza para encriptar transacciones de Bitcoin.
+  - Se utiliza para acceder a la cartera de Bitcoin.
+  - Se utiliza para hacer una copia de seguridad de la cartera de Bitcoin.
 explanation: |
-  La clave pública se deriva de la clave privada y se utiliza para generar direcciones de Bitcoin con el fin de recibir dinero.
-reviewed: false
+  La clave pública se deriva de la clave privada y se utiliza
+  para generar direcciones de Bitcoin con el fin de recibir dinero.
+reviewed: true

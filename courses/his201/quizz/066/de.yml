@@ -1,0 +1,9 @@
+question: Wie hieß der Blog, der von Jon Matonis betrieben wurde und digitale Währungen (einschließlich Bitcoin ab März 2010) behandelte?
+answer: The Monetary Future
+wrong_answers:
+  - Classic Economic Studies
+  - Return to Cash
+  - The Nakamoto Institute
+explanation: |
+  Er veröffentlichte seinen [ersten Artikel über Bitcoin](https: //themonetaryfuture.blogspot.com/2010/03/bitcoin-peer-to-peer-electronic-cash.html) am 13. März 2010, nachdem er E-Mails mit Satoshi ausgetauscht hatte.
+reviewed: false

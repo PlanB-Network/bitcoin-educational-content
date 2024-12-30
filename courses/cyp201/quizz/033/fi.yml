@@ -1,9 +1,9 @@
-question: Mikä on pisteen skalaarikertolasku n:llä elliptisellä käyrällä?
-answer: Vastaa pisteen lisäämistä itseensä n kertaa
+question: Mitä sighash-lippu SIGHASH_NONE sallii?
+answer: Lähtöjen muokkaamisen allekirjoittamisen jälkeen
 wrong_answers:
-  - Vastaa pisteen vähentämistä itsestään n kertaa
-  - Vastaa pisteen kertomista itsellään n kertaa
-  - Vastaa pisteen jakamista itsellään n kertaa
+  - Syötteiden muokkaamisen allekirjoittamisen jälkeen
+  - Kaikkien syötteiden ja lähtöjen kattamisen
+  - Rajoittaa muokkaukset vain yhteen lähtöön
 explanation: |
-  Pisteen skalaarikertolasku n:llä elliptisellä käyrällä vastaa pisteen lisäämistä itseensä n kertaa. Tämä toimenpide on perustana julkisten avainten laskemiselle Bitcoin-järjestelmässä.
+  SIGHASH_NONE kattaa vain syötteet, jättäen lähdöt muokattaviksi allekirjoittamisen jälkeen.
 reviewed: false

@@ -12,13 +12,13 @@ Pokud si přejete přispět do sítě PlanB, budete potřebovat použít GitHub 
 
 Pokud nevíte, co je GitHub, nebo pokud se chcete dozvědět více o technických termínech souvisejících s Gitem a GitHubem, doporučuji vám přečíst náš úvodní článek, abyste se seznámili s těmito koncepty.
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 - Začněte tím, že budete samozřejmě potřebovat účet na GitHubu. Pokud už jeden máte, můžete se přihlásit, jinak můžete použít náš tutoriál k vytvoření nového.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -59,13 +59,13 @@ Pro udržení konzistence mezi těmito dvěma repozitáři bude nutné je pravid
 
 - Vraťte se do softwaru GitHub Desktop. Váš fork by nyní měl být viditelný v sekci `Your repositories`. Pokud ho hned nevidíte, použijte tlačítko se dvojitou šipkou pro obnovení seznamu. Když se váš fork objeví, klikněte na něj, abyste ho vybrali:
 ![github-desktop](assets/15.webp)
-- Poté klikněte na modré tlačítko: `Clone [username]/sovereign-university-data`:
+- Poté klikněte na modré tlačítko: `Clone [username]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Ponechte výchozí cestu. Pro potvrzení klikněte na modré tlačítko `Clone`:
 ![github-desktop](assets/17.webp)
 - Počkejte, až GitHub Desktop lokálně naklonuje váš fork:
 ![github-desktop](assets/18.webp)
-- Po klonování repozitáře vám software nabídne dvě možnosti. Musíte vybrat první: `Přispět do mateřského projektu`. Tato volba vám umožní prezentovat vaši budoucí práci jako příspěvek do mateřského projektu (`DecouvreBitcoin/sovereign-university-data`), a ne výhradně jako úpravu vašeho osobního forku (`[username]/sovereign-university-data`). Jakmile je možnost vybrána, klikněte na `Pokračovat`: ![github-desktop](assets/19.webp)
+- Po klonování repozitáře vám software nabídne dvě možnosti. Musíte vybrat první: `Přispět do mateřského projektu`. Tato volba vám umožní prezentovat vaši budoucí práci jako příspěvek do mateřského projektu (`PlanB-Network/bitcoin-educational-content`), a ne výhradně jako úpravu vašeho osobního forku (`[username]/bitcoin-educational-content`). Jakmile je možnost vybrána, klikněte na `Pokračovat`: ![github-desktop](assets/19.webp)
 - Váš GitHub Desktop je nyní správně nakonfigurován. Nyní můžete nechat software otevřený na pozadí, abyste sledovali úpravy, které provedeme.
 ![github-desktop](assets/20.webp)
 To, co jsme na této fázi dosáhli, je vytvoření lokální kopie vašeho repozitáře, který je hostován na GitHubu. Připomínáme, že tento repozitář je forkem zdrojového repozitáře PlanB Network. Budete moci provádět úpravy této lokální kopie, jako je přidávání tutoriálů, překladů nebo oprav. Jakmile jsou tyto úpravy provedeny, použijete příkaz **Push origin** k odeslání vašich lokálních úprav do vašeho forku hostovaného na GitHubu.
@@ -81,7 +81,7 @@ Můžete také načítat úpravy z forku, například během synchronizace s rep
 - Otevře se váš průzkumník souborů. Musíte najít a vybrat složku s názvem `GitHub`, která by měla být ve vašem adresáři `Dokumenty` mezi vašimi soubory. Tato cesta odpovídá té, kterou jste nastavili během kroku 4. Po výběru složky potvrďte její výběr. Vytvoření vašeho trezoru v Obsidian se poté spustí na nové stránce softwaru:
 
 ![github-desktop](assets/24.webp)
--> **Pozor**, je důležité nevybrat složku `sovereign-university-data` při vytváření nového trezoru v Obsidian. Místo toho vyberte nadřazenou složku, `GitHub`. Pokud vyberete složku `sovereign-university-data`, konfigurační složka `.obsidian`, obsahující vaše lokální nastavení Obsidian, bude automaticky integrována do repozitáře. Chceme tomu zabránit, protože není nutné přenášet vaše konfigurace Obsidian do repozitáře PlanB Network. Alternativou je přidat složku `.obsidian` do souboru `.gitignore`, ale tato metoda by také upravila soubor `.gitignore` zdrojového repozitáře, což není žádoucí.
+-> **Pozor**, je důležité nevybrat složku `bitcoin-educational-content` při vytváření nového trezoru v Obsidian. Místo toho vyberte nadřazenou složku, `GitHub`. Pokud vyberete složku `bitcoin-educational-content`, konfigurační složka `.obsidian`, obsahující vaše lokální nastavení Obsidian, bude automaticky integrována do repozitáře. Chceme tomu zabránit, protože není nutné přenášet vaše konfigurace Obsidian do repozitáře PlanB Network. Alternativou je přidat složku `.obsidian` do souboru `.gitignore`, ale tato metoda by také upravila soubor `.gitignore` zdrojového repozitáře, což není žádoucí.
 
 - Na levé straně okna můžete vidět strom souborů s vašimi různými repozitáři GitHub, které byly lokálně naklonovány.
 - Kliknutím na šipky vedle názvů složek je můžete rozbalit a získat tak přístup k podsložkám repozitářů a jejich dokumentům:

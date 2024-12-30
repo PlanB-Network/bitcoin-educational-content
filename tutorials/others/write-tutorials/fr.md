@@ -26,10 +26,10 @@ Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expé
 - Avoir [un profil de professeur sur PlanB Network](https://planb.network/professors) (uniquement si vous proposez un tutoriel complet).
 
 **Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vous guideront :**
-**[Comprendre Git et GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Créer un compte GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Configurer votre environnement de travail](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Créer un profil de professeur](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Comprendre Git et GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Créer un compte GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Configurer votre environnement de travail](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Créer un profil de professeur](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 
 ## Quel type de contenu rédiger sur PlanB Network ?
 
@@ -63,7 +63,7 @@ Une fois que tout est en place, que votre environnement local est bien paramétr
 
 ### Créer une nouvelle branche
 
-- Ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de PlanB. Il s'agit du fork que vous avez établi sur GitHub. L'URL de votre fork devrait ressembler à : `https://github.com/[votre-nom-d'utilisateur]/sovereign-university-data` :
+- Ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de PlanB. Il s'agit du fork que vous avez établi sur GitHub. L'URL de votre fork devrait ressembler à : `https://github.com/[votre-nom-d'utilisateur]/bitcoin-educational-content` :
 ![tutorial](assets/3.webp)
 - Assurez-vous d'être sur la branche principale `dev` puis cliquez sur le bouton `Sync fork`. Si votre fork n'est pas à jour, GitHub vous proposera de mettre à jour votre branche. Procédez à cette mise à jour. Si, au contraire, votre branche est déjà à jour, GitHub vous en informera :
 ![tutorial](assets/4.webp)
@@ -75,7 +75,7 @@ Une fois que tout est en place, que votre environnement local est bien paramétr
 ![tutorial](assets/7.webp)
 - Cliquez sur cette branche, puis cliquez sur le bouton `New Branch` :
 ![tutorial](assets/8.webp)
-- Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `DecouvreBitcoin/sovereign-university-data`.
+- Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `PlanB-Network/bitcoin-educational-content`.
 - Nommez votre branche de manière à ce que le titre soit clair quant à son objectif, en utilisant des tirets pour séparer chaque mot. À titre d'exemple, admettons que notre objectif soit de rédiger un tutoriel sur l'utilisation du logiciel Sparrow Wallet. Dans ce cas, la branche de travail dédiée à la rédaction de ce tutoriel pourrait être nommée : `tuto-sparrow-wallet-loic`. Une fois le nom approprié saisi, cliquez sur `Create branch` pour confirmer la création de la branche :
 ![tutorial](assets/9.webp)
 - Cliquez maintenant sur le bouton `Publish branch` afin d'enregistrer votre nouvelle branche de travail sur votre fork en ligne sur GitHub :
@@ -88,7 +88,7 @@ Pour chaque nouvel article que vous souhaitez publier, il vous faudra créer une
 
 Maintenant que la branche de travail est créée, il est temps de faire l'intégration de votre nouveau tutoriel.
 
-- Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `sovereign-university-data`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\sovereign-university-data`. Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web PlanB Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `sovereign-university-data\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+- Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`. Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web PlanB Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
 ![tutorial](assets/12.webp)
 - Au sein du dossier `wallet`, il faut créer un nouveau répertoire spécifiquement dédié à votre tutoriel. Le nom de ce dossier doit évoquer le logiciel traité dans le tutoriel, en veillant à relier les mots par des tirets. Pour mon exemple, le dossier sera intitulé `sparrow-wallet` :
 ![tutorial](assets/13.webp)
@@ -100,7 +100,7 @@ Maintenant que la branche de travail est créée, il est temps de faire l'intég
 ![tutorial](assets/14.webp)
 - Pour résumer, voici la hiérarchie des fichiers à créer :
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (à modifier avec la bonne catégorie)
         └── sparrow-wallet/ (à modifier avec le nom du tuto)
@@ -128,7 +128,7 @@ sovereign-university-data/
 	    - Intermédiaire (`intermediary`),
 	    - Avancé (`advanced`),
 	    - Expert (`expert`).
-	- **professor** : Renseignez votre identifiant de contributeur tel qu'il apparaît sur votre profil de professeur. Pour davantage de détails, reportez-vous [au tutoriel correspondant](https://planb.network/fr/tutorials/others/create-teacher-profile) ;
+	- **professor** : Renseignez votre identifiant de contributeur tel qu'il apparaît sur votre profil de professeur. Pour davantage de détails, reportez-vous [au tutoriel correspondant](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4) ;
 	- **link** (optionnel) : Dans le cas où vous désireriez créditer un site web source pour le tutoriel que vous élaborez, tel que votre propre site personnel, c'est ici que vous pouvez ajouter le lien concerné.
 ![tutorial](assets/15.webp)
 - Une fois la modification de votre fichier `tutorial.yml` terminée, enregistrez votre document en cliquant sur `File > Save` :
@@ -223,3 +223,4 @@ Sur le logiciel GitHub Desktop, vous pouvez vous replacer sur la branche princip
 Si vous désirez apporter des modifications à votre contribution après avoir déjà soumis votre PR, la démarche à suivre dépend de l'état actuel de votre PR :
 - Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications localement en restant sur la même branche. Une fois les modifications finalisées, utilisez le bouton `Push origin` pour ajouter un nouveau commit à votre PR encore ouverte ;
 - Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre dépôt local soit synchronisé avec le dépôt source de PlanB Network avant de procéder.
+

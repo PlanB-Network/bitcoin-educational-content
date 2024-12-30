@@ -1,0 +1,8 @@
+question: Milline on olnud majandusliku avatuse mõju globaalsele vaesusele viimase 20 aasta jooksul Cobdeni ideede järgi?
+answer: Vaesus on vähenenud poole võrra
+wrong_answers:
+  - Vaesus suurenes 10%
+  - Vaesus püsis stabiilsena
+  - Vaesus vähenes 20%
+explanation: |
+  Cobden pooldas majanduslikku avatust kui vahendit vaesuse vähendamiseks, ja kaasaegsed tulemused näitavad olulist vähenemist, eriti riikides, mis on avatud kaubandusele.

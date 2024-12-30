@@ -1,9 +1,0 @@
-question: Jaký je nejjednodušší úkol pro správu likvidity na Lightning Network?
-answer: Otevírání kanálů pro kupující
-wrong_answers:
-  - Připojování k ostatním uzlům pro obchodníky
-  - Udržování vyvážené likvidity na obou stranách pro směrovací uzly
-  - Kupování kanálů pro obchodníky
-explanation: |
-  Pro kupující na Lightning Network je nejjednodušším úkolem pro správu likvidity otevírání kanálů. To jim poskytuje odchozí likviditu.
-reviewed: false

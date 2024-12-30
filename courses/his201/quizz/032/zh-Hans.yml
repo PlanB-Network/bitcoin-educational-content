@@ -1,0 +1,8 @@
+question: 2009年，那位帮助Satoshi处理关于他的项目沟通的年轻芬兰人是谁？特别是通过管理比特币网站和论坛。
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  他在2009年4月联系了Satoshi。Satoshi立即让他为网站撰写了一个常见问题解答和一个介绍。Martti Malmi是Satoshi的得力助手，合作了一年多。

@@ -1,9 +1,12 @@
 question: ¿Cuál es el papel de los mineros en la red de Bitcoin?
-answer: Los mineros desempeñan un papel esencial en la validación y creación de bloques.
+answer: Los mineros juegan un papel esencial en validar y crear bloques.
 wrong_answers:
   - Los mineros solo validan transacciones.
   - Los mineros controlan el precio de Bitcoin.
   - Los mineros no tienen ningún papel en la red de Bitcoin.
 explanation: |
-  Los mineros desempeñan un papel esencial en la red de Bitcoin al validar y crear bloques. Fortalecen la red contra la censura utilizando electricidad para calcular la prueba de trabajo de Bitcoin.
-reviewed: false
+  Los mineros juegan un papel esencial en la red de Bitcoin al
+  validar y crear bloques. Fortalecen la red contra la censura
+  utilizando electricidad para calcular la prueba de trabajo
+  para Bitcoin.
+reviewed: true

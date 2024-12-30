@@ -1,9 +1,9 @@
-question: Mikä on tarkistussumman tarkoitus luotaessa mnemonista fraasia Bitcoin-lompakkoa varten?
-answer: Se varmistaa palautusfraasin tarkkuuden tarkistamisen.
+question: Mikä osa HMAC-SHA512 tulosteen lopusta käytetään lapsiketjun koodina?
+answer: Viimeiset 32 tavua
 wrong_answers:
-  - Se luo lompakon entropian.
-  - Se määrittää sanojen määrän palautusfraasissa.
-  - Se salaa palautusfraasin lisäturvallisuuden vuoksi.
+  - Ensimmäiset 32 tavua
+  - Koko 64 tavua
+  - SHA256-tiiviste keskimmäisestä 32 tavusta
 explanation: |
-  Tarkistussumma saadaan kuljettamalla entropia SHA256-funktion läpi ja noutamalla hashin ensimmäiset 8 bittiä. Ilman tätä tarkistussummaa fraasissa oleva virhe voisi johtaa eri lompakon luomiseen ja siten varojen menetykseen.
+  HMAC-SHA512 tulosteen viimeiset 32 tavua toimivat lapsiavaimen ketjukoodina.
 reviewed: false

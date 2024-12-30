@@ -1,10 +1,9 @@
-question: Qual è la data del ultimo scambio privato conosciuto di Satoshi Nakamoto via email?
-answer: 23 aprile 2011
+question: Qual è la data dell'ultimo messaggio privato conosciuto di Satoshi Nakamoto via email?
+answer: 23 aprile 2011.
 wrong_answers:
-  - 12 dicembre 2010
-  - 8 gennaio 2009
-  - 31 ottobre 2008
-explanation: >-
-  La data dell'ultimo scambio privato conosciuto di Satoshi Nakamoto via email
-  è il 23 aprile 2011 con lo sviluppatore Mike Hearn.
-reviewed: false
+  - 12 dicembre 2010.
+  - 8 gennaio 2009.
+  - 31 ottobre 2008.
+explanation: |
+  La data dell'ultimo messaggio privato conosciuto di Satoshi Nakamoto via email è il 23 aprile 2011. Fu inviato allo sviluppatore Mike Hearn.
+reviewed: vero

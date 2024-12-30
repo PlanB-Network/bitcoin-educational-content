@@ -1,9 +1,9 @@
-question: Qual è la dimensione del blocco utilizzata in HMAC-SHA-512?
-answer: Blocchi di 1024 bit (128 byte)
+question: Qual è la differenza tra una chiave pubblica compressa e una non compressa?
+answer: La chiave pubblica compressa utilizza solo la coordinata x e la parità di y
 wrong_answers:
-  - Blocchi di 512 bit (64 byte)
-  - Blocchi di 256 bit (32 byte)
-  - Blocchi di 2048 bit (256 byte)
+  - La chiave pubblica compressa è più sicura
+  - La chiave pubblica compressa utilizza solo la coordinata y e la parità di x
+  - La chiave pubblica compressa richiede una chiave privata più grande
 explanation: |
-  Nel contesto della derivazione di un portafoglio HD, viene utilizzato HMAC-SHA-512. Quest'ultimo opera con blocchi di 1024 bit (128 byte) e regola di conseguenza la chiave.
+  Una chiave pubblica compressa mantiene solo la coordinata x e un bit per la parità di y, riducendo così la sua dimensione a 33 byte.
 reviewed: false

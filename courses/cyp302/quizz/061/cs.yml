@@ -1,0 +1,9 @@
+question: Jaký typ šifrování používá pevné datové bloky?
+answer: Blokové šifrování
+wrong_answers:
+  - Proudové šifrování
+  - Kód pro ověření zprávy
+  - Veřejný klíč
+explanation: |
+  Blokové šifrování rozdělí data na bloky pevné velikosti a šifruje je nezávisle na sobě.
+reviewed: false

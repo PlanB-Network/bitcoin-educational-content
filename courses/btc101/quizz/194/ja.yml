@@ -1,9 +1,10 @@
-question: 大規模な構造や情熱的なビットコイン愛好家がビットコインを受け入れるための一つの解決策は何ですか？
-answer: BTCpay Server
+question: 大規模な組織や情熱的なBitcoin愛好家がBitcoinを受け入れるためのツールは何ですか？
+  Bitcoin?
+answer: BTCpay Server.
 wrong_answers:
-  - ビットコインウォレット
-  - ビットコイン取引所
-  - ビットコインマイニング
-explanation: >-
-  BTCpay Serverは、大規模な構造や情熱的なビットコイン愛好家がビットコインを受け入れるための解決策です。他の解決策には、シンプルなオンラインビジネス向けのOpenNodeや、アマチュア商人向けのSwiss Bitcoin Payがあります。
-reviewed: false
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Serverは、大規模な構造や情熱的なビットコイナーがBitcoinを受け入れるためのツールです。他の解決策には、シンプルなオンラインビジネス向けのOpenNodeや、アマチュア商人向けのSwiss Bitcoin Payが含まれます。
+  レビュー済み: true

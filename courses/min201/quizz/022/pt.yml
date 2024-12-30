@@ -1,9 +1,11 @@
-question: Em que os mineradores vão depender para receber compensação depois que todos os 21 milhões de bitcoins forem criados?
-answer: Os mineradores vão depender exclusivamente das taxas de transação como compensação.
+question: Em que os mineradores vão se basear para compensação após todos os 21 milhões de bitcoins terem sido criados?
+answer: Os mineradores vão se basear exclusivamente em taxas de transação para compensação.
 wrong_answers:
-  - Os mineradores vão depender exclusivamente das recompensas em bloco como compensação.
-  - Os mineradores vão depender exclusivamente das confirmações de transação como compensação.
-  - Os mineradores vão depender exclusivamente das taxas de rede como compensação.
+  - Os mineradores vão se basear exclusivamente em recompensas de bloco para compensação.
+  - Os mineradores vão se basear exclusivamente em confirmações de transação para compensação.
+  - Os mineradores vão se basear exclusivamente em taxas de rede para compensação.
 explanation: |
-  Até 2140, nenhum novo bitcoin será criado. Neste ponto, os mineradores vão depender exclusivamente das taxas de transação como compensação.
-reviewed: false
+  Até 2140, nenhum novo bitcoin será criado. Neste ponto,
+  os mineradores vão se basear exclusivamente em taxas de transação para
+  compensação.
+reviewed: true

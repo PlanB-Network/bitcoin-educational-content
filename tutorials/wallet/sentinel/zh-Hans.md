@@ -48,7 +48,7 @@ Sentinel的独特缺点在于该应用程序仅适用于Android，且不支持�
 
 Dojo由Samourai团队开发，是一个完整的比特币节点版本，可以独立安装，或一键添加到诸如[Umbrel](https://umbrel.com/) 和 [RoninDojo](https://ronindojo.io/)等节点盒解决方案中。
 
-[**-> 了解如何在树莓派上安装RoninDojo v2。**](https://planb.network/en/tutorials/node/ronin-dojo-v2)
+[**-> 了解如何在树莓派上安装RoninDojo v2。**](https://planb.network/fr/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 如果您有自己的Dojo，您可以在此阶段连接它。通过这样做，当检查您的比特币网络交易信息时，您将受益于最高级别的隐私保护。
 
@@ -148,3 +148,4 @@ Dojo由Samourai团队开发，是一个完整的比特币节点版本，可以�
 在灰色框架中输入已签名交易后，您可以点击绿色的`BROADCAST TRANSACTION`按钮，在比特币网络上广播它。Sentinel将给您提供其TXID。
 
 ![watch-only](assets/notext/25.webp)
+

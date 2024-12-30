@@ -1,5 +1,5 @@
 ---
-name: Samouraï
+name: Samourai
 
 description: Regain your privacy with Samourai
 ---

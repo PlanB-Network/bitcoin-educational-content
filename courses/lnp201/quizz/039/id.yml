@@ -1,0 +1,8 @@
+question: Apa yang terjadi jika sebuah saluran dengan HTLC aktif ditutup secara paksa?
+answer: HTLC dimasukkan dalam transaksi komitmen sebagai output.
+wrong_answers:
+  - HTLC secara otomatis dibatalkan.
+  - Dana didistribusikan kembali ke node-node sebelumnya.
+  - Saluran tidak dapat ditutup sampai HTLC telah kedaluwarsa.
+explanation: |
+  Selama penutupan paksa, HTLC yang tertunda direpresentasikan sebagai output dalam transaksi komitmen, sehingga memastikan eksekusi atau pengembalian mereka sesuai dengan kondisi yang ditentukan.

@@ -1,9 +1,9 @@
 question: Ai là giảng viên của khóa học?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
-  - "Théo Boloré"
+  - Théo Boloré
   - Descoupes Bitcoin
   - Không có câu trả lời nào ở trên
 explanation: |
-  "Chương này đề cập rằng giảng viên của khóa học là Théo
-  Mogenet, một giáo sư đầy đam mê và năng lực về kinh tế học Áo."
+  Chương này đề cập rằng giảng viên của khóa học là Théo
+  Mogenet, một giáo sư đầy đam mê và năng lực về kinh tế học Áo.

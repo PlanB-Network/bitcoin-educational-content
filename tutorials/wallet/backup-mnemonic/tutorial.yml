@@ -1,0 +1,26 @@
+id: 22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
+builder: PlanB Network
+
+tags:
+  - wallets
+  - keys
+  - backup
+
+category: backup
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-12-14
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

@@ -1,0 +1,9 @@
+question: Was ist eine Pseudozufallszeichenfolge?
+answer: Eine Zeichenfolge, die so aussieht, als käme sie von einer gleichförmigen Variablen, aber durch einen Expansionsalgorithmus erzeugt wird
+wrong_answers:
+  - Eine Zeichenfolge, die mit identischer Wahrscheinlichkeit für jedes Zeichen generiert wird
+  - Eine Zeichenfolge fester Länge aus einem natürlichen Zufallsereignis
+  - Eine zufällige Zeichenfolge, die nur aus den Binärwerten 0 und 1 gewählt wird
+explanation: |
+  Eine Pseudozufallszeichenfolge wird durch einen Expansionsalgorithmus aus einem kleineren Seed erzeugt, auf eine Weise, die eine gleichförmige Auswahl unter allen Zeichenfolgen derselben Länge nachahmt.
+reviewed: false

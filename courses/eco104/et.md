@@ -1610,21 +1610,6 @@ Nüüd, kui olete läbinud mooduli "Kahtluste ületamine", peate testima oma äs
 4. Arvestades Bitcoini võimet pakkuda energiatootjatele võimalust energiat otse rahaks muuta, kas arvate, et sellel on olulisi eeliseid energiatootjatele ja üldisele energiaturule?
 5. Peegeldades Bitcoini energiatarbimise võrdlusi teiste tööstusharudega, kas on õiglane Bitcoini tema energiakasutuse pärast eraldi välja tuua? Miks või miks mitte?
 
-# Lõppsõnad
-
-<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
-
-
-
-## Hinnake kursust
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Lõpueksam
-<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
-<isCourseExam>true</isCourseExam>
-
-
 ## Lõppsõnad
 
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
@@ -1650,3 +1635,47 @@ Loodetavasti annab see uus mõistmine teile jõudu navigeerida muutuvas finantsm
 
 Tulevik on Helge!
 
+# Kokkuvõte
+
+<partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
+
+## Hinda kursust
+
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Kokkuvõte
+
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+
+Õnnitleme kursuse läbimise puhul!
+
+Meil on hea meel, et oled edukalt jõudnud selle tähiseni oma õpiteel.
+
+Tänu sinu pühendumisele ja kaasatusele oled omandanud väärtuslikke teadmisi ja oskusi, mis tulevad kasuks sinu professionaalses arengus.
+
+Et süveneda veelgi enam Bitcoini maailma, kutsume sind tutvuma kõigi teiste Plan ₿ Networkis saadaolevate kursustega:
+
+#### Avasta Bitcoin ja selle põhitõed kursusega
+
+https://planb.network/courses/btc101
+
+#### Uuenda oma võrguturvalisust kursusega
+
+https://planb.network/courses/scu101
+
+#### Avasta Lightning Network kursusega
+
+https://planb.network/courses/lnp201
+
+#### Õpi Austria koolkonna majanduslikku mõtlemist kursusega
+
+https://planb.network/courses/eco201
+
+#### Avasta Bitcoini päritolu ajalugu kursusega
+
+https://planb.network/courses/his201
+
+#### Mõista hüperinflatsioonide teket kursusega
+
+https://planb.network/courses/eco204

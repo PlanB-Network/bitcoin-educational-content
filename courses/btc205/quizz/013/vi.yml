@@ -1,9 +1,0 @@
-question: Đặc điểm độc đáo của giải pháp Peach P2P là gì?
-answer: Nó không yêu cầu tạo tài khoản để hoạt động.
-wrong_answers:
-  - Nó sử dụng hệ thống DAO.
-  - Nó hoạt động dưới TOR.
-  - Nó sử dụng multisign để quản lý tranh chấp.
-explanation: |
-  Chương này đề cập rằng Peach nổi bật với sự đơn giản của mình, không yêu cầu tạo tài khoản để hoạt động.
-reviewed: false

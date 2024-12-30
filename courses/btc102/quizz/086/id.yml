@@ -1,0 +1,11 @@
+question: Apa itu cara non-KYC untuk membeli atau menjual bitcoin?
+answer: Menggunakan solusi peer-to-peer seperti Peach.
+wrong_answers:
+  - Menggunakan dompet panas.
+  - Menggunakan dompet dingin.
+  - Menggunakan dompet perangkat keras.
+explanation: |
+  KYC, atau Know Your Customer, adalah proses yang digunakan oleh bisnis untuk memverifikasi
+  identitas klien mereka. Metode non-KYC, seperti solusi peer-to-peer,
+  memungkinkan pengguna untuk membeli atau menjual bitcoin tanpa harus memberikan informasi pribadi.
+reviewed: false

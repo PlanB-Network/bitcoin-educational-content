@@ -1,9 +1,12 @@
-question: Come gli utenti trasferiscono la proprietà dei loro soldi nella rete Bitcoin?
+question: Come trasferiscono la proprietà dei loro soldi gli utenti nella rete Bitcoin?
 answer: Firmando digitalmente le transazioni con le loro chiavi private.
 wrong_answers:
   - Consegnando fisicamente i loro Bitcoin.
-  - Inviando una email al destinatario.
+  - Inviando un'email al destinatario.
   - Fornendo il loro indirizzo Bitcoin al destinatario.
 explanation: |
-  Gli utenti nella rete Bitcoin trasferiscono la proprietà dei loro soldi firmando digitalmente le transazioni con le loro chiavi private. Questo verifica che siano i proprietari dei Bitcoin che desiderano trasferire.
-reviewed: false
+  Gli utenti nella rete Bitcoin trasferiscono la proprietà dei loro
+  soldi firmando digitalmente le transazioni con le loro chiavi
+  private. Questo verifica che sono i proprietari dei
+  bitcoin che vogliono trasferire.
+reviewed: true

@@ -1,10 +1,10 @@
 question: Mikä on Lightning Network?
-answer: Välitön Bitcoin-maksuverkko, joka käyttää Bitcoinin lohkoketjua
+answer: Välitön Bitcoin-maksuverkko, joka perustuu Bitcoin-lohkoketjuun.
 wrong_answers:
-  - Erillinen lohkoketjuverkko Bitcoinin lohkoketjusta
-  - Verkko Bitcoin-louhijoista
-  - Verkko Bitcoin-vaihdoista
-explanation: >-
-  Lightning Network on välitön Bitcoin-maksuverkko, joka käyttää
-  Bitcoinin lohkoketjua.
-reviewed: false
+  - Erillinen lohkoketjuverkko Bitcoin-lohkoketjusta.
+  - Verkko Bitcoin-louhijoista.
+  - Verkko Bitcoin-vaihdoista.
+explanation: |
+  Lightning Network on välitön Bitcoin-maksuverkko,
+  joka perustuu Bitcoin-lohkoketjuun.
+reviewed: true

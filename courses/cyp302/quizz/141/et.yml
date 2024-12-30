@@ -1,0 +1,9 @@
+question: Miks peetakse kahe väga suure algarvu korrutise teguriteks lahutamist keeruliseks probleemiks?
+answer: Kuna see nõuab tohutut arvutusaja hulka isegi superarvutite jaoks.
+wrong_answers:
+  - Kuna see nõuab iga teguri jaoks avalikku võtit.
+  - Kuna see hõlmab ainult lihtsaid arvutustoiminguid.
+  - Kuna see sõltub korrutamisest, mitte jagamisest.
+explanation: |
+  Tohutu suure arvu, kahe suure algarvu korrutise, teguriteks lahutamine nõuab arvutusvõimsust, mis ületab praeguste arvutite võimekuse, muutes selle ülesande praktiliselt teostamatuks.
+reviewed: false

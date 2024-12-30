@@ -1,9 +1,9 @@
-question: Proč je zásadní zálohovat 24slovní obnovovací frázi Bitcoin peněženky?
-answer: Aby se předešlo jakékoli ztrátě prostředků.
+question: Co značí index /84'/ na hloubce 1 cesty derivace?
+answer: Standard P2WPKH (SegWit v0)
 wrong_answers:
-  - Ověřit přesnost obnovovací fráze.
-  - Generovat entropii pro peněženku.
-  - Šifrovat obnovovací frázi pro zvýšenou bezpečnost.
+  - Standard P2TR (SegWit v1)
+  - Měna Bitcoin testnetu
+  - Měna Bitcoin mainnetu
 explanation: |
-  Zálohování 24slovní obnovovací fráze je zásadní, aby se předešlo jakékoli ztrátě prostředků.
-posouzeno: false
+  Index /84'/ je definován v BIP84 jako označení použití standardu SegWit v0 s adresami P2WPKH na hloubce 1 (tj. cíle derivace).
+reviewed: false

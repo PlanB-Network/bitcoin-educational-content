@@ -18,13 +18,13 @@ Esimene samm on kontrollida, kas teie keel ei ole juba nende hulgas, millega me 
 ![language](assets/01.webp)
 - `Website frontend element` menüüs leiate nimekirja kõigist keeltest, millega me töötame:
 ![language](assets/02.webp)
-Kui teie keel on selles nimekirjas, ei ole vaja seda uuesti lisada. Olemasolevasse keelde panustamiseks oleme teinud [teise õpetuse, mida saate avastada](https://planb.network/tutorials/others/translate-front-weblate).
+Kui teie keel on selles nimekirjas, ei ole vaja seda uuesti lisada. Olemasolevasse keelde panustamiseks oleme teinud [teise õpetuse, mida saate avastada](https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295).
 
 Kui teie keelt seal ei ole, järgige allpool toodud õpetust, et see lisada.
 
 ## Uue Keeleni Lisamine PlanB Võrku
 
-- Esimene samm on konto loomine Weblate'is. Kui te ei tea, kuidas seda teha, võite [järgida meie detailset juhendit](https://planb.network/tutorials/others/translate-front-weblate).
+- Esimene samm on konto loomine Weblate'is. Kui te ei tea, kuidas seda teha, võite [järgida meie detailset juhendit](https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295).
 - Kui teie konto on loodud, minge `Website frontend element` menüüsse ja valige `Languages` vaheleht:
 ![language](assets/03.webp)
 - Klõpsake akna vasakul küljel asuval `+` märgil:
@@ -36,7 +36,7 @@ Kui teie keelt seal ei ole, järgige allpool toodud õpetust, et see lisada.
 - Seejärel jõuate oma keele tõlkejuhtimise lehele:
 ![language](assets/07.webp)
 - Esikülje tõlkimise alustamiseks kohe klõpsake nupul `Translate`: ![language](assets/08.webp)
-Tõlkeprotsessi juhendamiseks tutvuge [meie pühendatud õpetusega sel teemal](https://planb.network/tutorials/others/translate-front-weblate)!
+Tõlkeprotsessi juhendamiseks tutvuge [meie pühendatud õpetusega sel teemal](https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295)!
 
 Palju õnne, olete alustanud PlanB võrgu saidi tõlkimise protsessi uude keelde! Võite alustada kogu esikülje tõlkimist Weblate kaudu. See hõlmab kõiki veebisaidi tekste, välja arvatud haridussisu (kursused, õpetused...), mille jaoks kasutame teist poolautomaatset Inimesed x AI meetodit.
 Järgmisena võite võtta ühendust @asi0_flammeus'ega Telegramis, kes aitab teil automaatselt tõlgitud kursuste sisu üle vaadata nende mudeli abil. Kui need sisud peetakse rahuldavaks, võite jätkata kogu muu sisu (kursused, õpetused...) ülevaatamist saidil. Kui need sammud on lõpetatud, võime kaaluda uue keele ametlikku integreerimist PlanB Network veebisaidile, mis võimaldab kõigil teie keele kõnelejatel juurdepääsu kvaliteetsele sisule Bitcoin'i kohta, ilma igasuguste takistusteta.

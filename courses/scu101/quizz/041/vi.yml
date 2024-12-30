@@ -1,13 +1,12 @@
-question: Lợi ích của việc sử dụng một trình quản lý mật khẩu tự host như Bitwarden hoặc KeePass là gì?
-answer: Bạn có thể kiểm soát nơi lưu trữ mật khẩu của mình, mang lại nhiều an ninh và quyền kiểm soát hơn.
+question: Lợi ích của việc sử dụng một trình quản lý mật khẩu tự lưu trữ như Bitwarden hoặc KeePass là gì?
+answer: Bạn có thể kiểm soát nơi mật khẩu của mình được lưu trữ, mang lại nhiều an ninh và quyền kiểm soát hơn.
 wrong_answers:
-  - Chúng dễ sử dụng hơn so với các dịch vụ của bên thứ ba.
-  - Chúng cung cấp nhiều tính năng hơn so với các dịch vụ của bên thứ ba.
-  - Chúng rẻ hơn so với các dịch vụ của bên thứ ba.
+  - Chúng dễ sử dụng và luôn an toàn hơn so với các dịch vụ của bên thứ ba.
+  - Chúng thường cung cấp nhiều tính năng hơn so với các dịch vụ của bên thứ ba, mặc dù chúng có giá cao hơn.
+  - Chúng rẻ hơn và nhanh hơn so với các dịch vụ của bên thứ ba.
 explanation: |
-  Các trình quản lý mật khẩu tự host như Bitwarden hoặc KeePass cho phép bạn
-
-  kiểm soát nơi lưu trữ mật khẩu của mình, có thể mang lại nhiều an ninh và
-
-  quyền kiểm soát hơn. Tuy nhiên, chúng có thể yêu cầu kiến thức kỹ thuật nhiều hơn để sử dụng.
-reviewed: false
+  Các trình quản lý mật khẩu tự lưu trữ như Bitwarden hoặc KeePass
+  cho phép bạn kiểm soát nơi mật khẩu của mình được lưu trữ,
+  có thể mang lại nhiều an ninh và quyền kiểm soát hơn. Tuy nhiên,
+  chúng có thể yêu cầu nhiều kiến thức kỹ thuật để sử dụng.
+reviewed: true

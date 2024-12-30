@@ -1,10 +1,11 @@
-question: ¿Qué es la clave privada en una billetera de Bitcoin?
+question: ¿Qué es la clave privada en un monedero de Bitcoin?
 answer: Una clave secreta que te permite firmar tus transacciones.
 wrong_answers:
   - Una clave pública utilizada para generar direcciones de Bitcoin.
-  - Una lista secreta de palabras para destruir la billetera.
-  - Una clave secreta para encriptar las transacciones de Bitcoin.
-explanation: |
-  Al inicializar una billetera de Bitcoin, se genera una lista secreta de palabras, llamada semilla mnemotécnica.
-  Esta lista de recuperación es muy importante porque representa la propiedad de los Bitcoins y, por lo tanto, el derecho a enviarlos.
-reviewed: false
+  - Una lista secreta de palabras para destruir un monedero en caso de necesidad.
+  - Una clave secreta para cifrar transacciones de Bitcoin.
+explanation: >-
+  Al inicializar un monedero de Bitcoin, se genera una lista secreta de palabras, llamada semilla mnemotécnica. 
+  Esta lista de recuperación es muy importante porque representa la propiedad
+  de los Bitcoins y por lo tanto el derecho a enviarlos.
+reviewed: true

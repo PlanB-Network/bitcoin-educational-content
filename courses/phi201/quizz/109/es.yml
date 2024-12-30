@@ -1,0 +1,9 @@
+question: ¿Cuál es la solución propuesta por Hayek para evitar la servidumbre?
+answer: Defender la propiedad privada y el orden espontáneo del mercado como baluartes contra la tiranía.
+wrong_answers:
+  - Aboga por un aumento en la tributación para ayudar a los pobres.
+  - Llama a un retorno a un sistema económico de tipo feudal.
+  - Educar al público sobre las normas de tráfico.
+explanation: |
+  Hayek cree que la libertad individual se preserva protegiendo la propiedad privada y permitiendo que el mercado se autorregule, evitando así desvíos autoritarios y la centralización del poder.
+reviewed: false

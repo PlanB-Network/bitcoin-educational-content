@@ -1,0 +1,9 @@
+question: Millist osa tehingust uurime, kui otsime mustrit?
+answer: Selle struktuuri
+wrong_answers:
+  - Selle metaandmed
+  - Selle skriptid
+  - Selle allkiri
+explanation: |
+  Tehingumuster on lihtsalt tüüpilise tehingu üldine struktuur või mudel, mida saab leida plokiahelast, mille tõenäoline tõlgendus on teada.
+reviewed: false

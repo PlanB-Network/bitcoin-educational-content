@@ -1,9 +1,11 @@
-question: ¿Cuál es una de las razones por las que Bitcoin resulta atractivo para ciertos grupos?
-answer: Su capacidad para ofrecer soluciones como dinero electrónico sin confianza, resistencia a la censura o una política monetaria transparente e inmutable.
+question: ¿Cuál es una de las razones por las que Bitcoin es atractivo para ciertos grupos?
+answer: Su capacidad para ofrecer soluciones como efectivo electrónico sin necesidad de confianza, resistencia a la censura, o una política monetaria transparente e inmutable.
 wrong_answers:
-  - Es fácil de falsificar.
-  - Está controlado por una autoridad central.
-  - No es seudónimo.
-explanation: |
-  La naturaleza descentralizada de Bitcoin, su seudonimidad y su resistencia a la censura lo hacen atractivo para grupos como los tecnófilos, los ciberpunks, los libertarios y los entusiastas del oro.
-reviewed: false
+  - Es fácil de falsificar y puede crear soluciones para recibir más dinero con un simple clic.
+  - Está controlado por una autoridad central que distribuye capital libremente a los usuarios.
+  - No es pseudónimo, por lo que cada usuario es bien conocido y confiable.
+explanation: >-
+  La naturaleza descentralizada de Bitcoin, su pseudonimato y resistencia a la censura
+  lo hacen atractivo para grupos como tecnófilos, ciberpunks, libertarios y
+  entusiastas del oro.
+reviewed: true

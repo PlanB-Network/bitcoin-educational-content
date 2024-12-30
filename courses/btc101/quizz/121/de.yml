@@ -1,9 +1,9 @@
-question: Was ist die Online-Verfügbarkeit von Bitcoin?
-answer: 99,988%
+question: Seit seiner Erstellung, wie hoch ist der Prozentsatz der Zeit, in der das Bitcoin-Netzwerk funktionsfähig war?
+answer: 99,988 %.
 wrong_answers:
-  - 100%
-  - 90,009%
-  - 80,17%
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Die Online-Verfügbarkeit von Bitcoin beträgt seit 2009 99,988%.
-reviewed: false
+  Die Online-Verfügbarkeit von Bitcoin beträgt seit 2009 99,988 %.
+reviewed: true

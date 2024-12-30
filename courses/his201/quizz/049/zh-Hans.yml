@@ -1,0 +1,9 @@
+question: 在比特币被Slashdot介绍后的一周内，其价格有何变化？
+answer: 从$0.008到$0.08
+wrong_answers:
+  - 从$0.001到$0.008
+  - 从$0.08到$0.50
+  - 从$0.50到$1
+explanation:
+  这种变化对应于十倍的增长！哈希率也经历了类似的激增。
+reviewed: true

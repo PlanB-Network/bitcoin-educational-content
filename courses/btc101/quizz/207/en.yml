@@ -4,8 +4,8 @@ answer: The risks of hacking and fund blocking.
 wrong_answers:
   - The risk of the platform increasing the price of Bitcoin.
   - The risk of the platform controlling the supply of Bitcoin.
-  - The risk of the platform preventing you from buying more Bitcoin.
+  - The risk of Bitcoin being surpassed in price by a cryptocurrency.
 explanation: >-
   The text mentions that leaving your Bitcoin on an exchange platform can
   expose you to the risks of hacking and fund blocking.
-reviewed: false
+reviewed: true

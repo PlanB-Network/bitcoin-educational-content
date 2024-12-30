@@ -1,0 +1,9 @@
+question: Mis on autentitud krüpteerimisskeemi peamine eesmärk?
+answer: Tagada suhtluse konfidentsiaalsus ja autentsus
+wrong_answers:
+  - Genereerida võtmeid turvalisel viisil
+  - Asendada MAC-id krüptograafilistes vahetustes
+  - Automaatselt dekrüpteerida pealtkuulatud sõnumeid
+explanation: |
+  Autentitud krüpteerimisskeem ühendab krüpteerimise ja autentimiskoodi (MAC), et tagada nii sõnumite konfidentsiaalsus kui ka nende autentsus.
+reviewed: false

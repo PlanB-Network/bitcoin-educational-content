@@ -1,0 +1,9 @@
+question: 比特币网络的节奏是什么？
+answer: 每个区块10分钟
+wrong_answers:
+  - 每个区块10秒
+  - 每笔交易10分钟
+  - 每笔交易10秒
+explanation:
+  比特币网络的节奏是每个区块10分钟。这就像是比特币货币系统的心跳。
+reviewed: true

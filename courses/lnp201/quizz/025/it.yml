@@ -1,9 +1,9 @@
-question: Qual è il ruolo della transazione di impegno nella Lightning Network?
-answer: Aggiorna il saldo del canale dopo ogni trasferimento.
+question: Quali sono i tre metodi per chiudere un canale sulla Lightning Network?
+answer: Chiusura cooperativa, chiusura forzata, chiusura con frode
 wrong_answers:
-  - Apre il canale.
-  - Chiude il canale.
-  - Trasferisce i fondi.
+  - Chiusura rapida, chiusura lenta, chiusura con doppia firma
+  - Chiusura sicura, chiusura automatizzata, chiusura con perdita di fondi
+  - Chiusura diretta, chiusura indiretta, chiusura con reclamo
 explanation: |
-  La transazione di impegno è una transazione più recente che aggiorna il saldo del canale dopo ogni trasferimento. Non viene eseguita a meno che il canale non venga chiuso.
+  Esistono tre metodi: la chiusura cooperativa in cui le parti sono d'accordo, la chiusura forzata senza una risposta da una delle parti, e la chiusura con frode dove una parte tenta di pubblicare una vecchia transazione.
 reviewed: false

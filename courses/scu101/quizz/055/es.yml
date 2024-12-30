@@ -1,9 +1,9 @@
-question: ¿Cuál es un buen punto de partida para una carrera en ciberseguridad?
-answer: Una sólida educación en ciencias de la computación, sistemas de información o un campo relacionado.
+question: ¿Cuál es un buen punto de partida para una carrera en ciberseguridad desde una perspectiva académica?
+answer: Una sólida educación en ciencias de la computación, sistemas de información o un campo relacionado
 wrong_answers:
-  - Un título en artes y humanidades
-  - Un título en administración de empresas
-  - Un título en educación física
+  - Un grado en artes y humanidades
+  - Un grado en gestión empresarial
+  - Un grado en educación física
 explanation: |
-  El capítulo menciona que una sólida educación en ciencias de la computación, sistemas de información o un campo relacionado es a menudo el punto de partida ideal para una carrera en ciberseguridad.
-reviewed: false
+  El capítulo menciona que una educación sólida en ciencias de la computación, sistemas de información o un campo relacionado es a menudo el punto de partida ideal para una carrera en ciberseguridad desde una perspectiva académica.
+reviewed: true

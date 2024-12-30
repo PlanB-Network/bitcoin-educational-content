@@ -128,7 +128,10 @@ Die Vorgeschichte von Bitcoin ist tief in der Cypherpunk-Bewegung und in einem k
 
 Bitcoin ist also ein Protokoll, das sich über lange Zeiträume erstreckt und uns dazu anregt, über unser Verhältnis zu Energie, Zeit und Geld nachzudenken. Aber ist Bitcoin eine "echte" Währung? Was ist eine Währung? Gibt es sie in verschiedenen Formen? Das werden wir im nächsten Kapitel sehen.
 
-![Die Vorgeschichte von Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
+
+Wenn Sie die Geschichte von Bitcoin detaillierter erkunden möchten, empfehle ich Ihnen unseren Kurs HIS 201. Dort entdecken Sie die Ursprünge und die langsame Entstehung von Bitcoin sowie die Anfänge seiner Geschichte und seiner Community. Dieser Kurs ist vollständig dokumentiert und mit zahlreichen Anekdoten unterlegt:
+
+https://planb.network/courses/his201
 
 # Die Währung
 
@@ -241,6 +244,10 @@ Gleichzeitig scheint die Einführung von digitalen Zentralbankwährungen, oder C
 
 ![image](assets/de/chapter2/0.webp)
 
+Um mehr über wirtschaftliche Trugschlüsse und Freiheit zu erfahren, lade ich Sie ein, unseren Kurs ECO 102 zu entdecken. Dieser Kurs zeichnet das Leben und die Ideen von Frédéric Bastiat nach, einem französischen Denker des 19. Jahrhunderts, der zweifellos die Entstehung von Bitcoin geschätzt hätte:
+
+https://planb.network/courses/eco102
+
 ## Die Hyperinflationen
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -319,6 +326,10 @@ Die Bewältigung einer Hyperinflationskrise erfordert oft radikale Veränderunge
 
 Zusammenfassend führt Hyperinflation dazu, dass der Wert der Währung schnell abnimmt, was zu einer Erosion der Ersparnisse und einem Vertrauensverlust in das Währungssystem führt. Wie Voltaire einst vorschlug, wird eine Fiatwährung immer ihren inneren Wert verlieren und gegen Null konvergieren.
 Eine Währung, die auf einem Vertrauensdritten wie einer Finanzinstitution beruht, erweist sich in der Praxis und langfristig als fehlerhafte Währung, da sie nicht in der Lage ist, die Kaufkraft zu garantieren oder Ersparnisse zu schützen.
+
+Um das Thema Hyperinflation zu vertiefen, empfehle ich den Kurs ECO 204 von David St-Onge. Dort lernen Sie, was hyperinflationäre Zyklen sind und welche tatsächlichen Auswirkungen sie auf unser Leben haben. Sie werden auch die Ähnlichkeiten zwischen diesen Zyklen entdecken und vor allem, wie Sie sich davor schützen können:
+
+https://planb.network/courses/eco204
 
 ## 21 Millionen Bitcoins
 
@@ -473,7 +484,11 @@ Man könnte sich die Frage stellen: Was ist, wenn jemand zufällig unsere Liste 
 
 Die Wahrscheinlichkeit eines Hacks Ihrer Bitcoin-Brieftasche ist daher astronomisch gering, wenn Sie bewährte Sicherheitspraktiken befolgen. Diese Praktiken werden im nächsten Abschnitt ausführlich erläutert.
 
-Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial PlanB](https://planb.network/tutorials/wallet).
+Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial Plan ₿](https://planb.network/tutorials/wallet).
+
+Wenn Sie während Ihrer Reise durch den Kaninchenbau mehr über den Aufbau einer Bitcoin-Wallet erfahren möchten, von der Entropie bis hin zu Empfangsadressen, empfehle ich den Kurs CYP 201, der diesem Thema gewidmet ist:
+
+https://planb.network/courses/cyp201
 
 ## Sicherheit und Bitcoin-Brieftaschen
 
@@ -502,11 +517,27 @@ Lassen Sie uns hier versuchen, mehrere Sicherheitsstufen für Ihre Bitcoins fest
 
 - **Niveau 1**, Sie verwenden eine Bitcoin-Wallet auf Ihrem Telefon oder Computer, bei der Sie der alleinige Inhaber Ihrer Bitcoins sind. Sie können Ihre Transaktionen problemlos durchführen. Achten Sie jedoch darauf, dass Sie zur Wiederherstellung des Zugriffs auf Ihre Gelder im Falle eines Verlusts Ihres Telefons oder Computers ein Backup der mnemonischen Phrase erstellen müssen. Es wird oft von einer "Hot Wallet" gesprochen, da der private Schlüssel in einem Gerät mit Internetzugang gespeichert ist.
 
+Zum Beispiel können Sie Sparrow Wallet als Hot Wallet verwenden:
+
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+
 - **Niveau 2**, Sie verwenden eine physische Wallet und haben Ihre Liste mit 12 oder 24 Wörtern gesichert. Um eine Transaktion durchzuführen, müssen Sie immer mit Ihrem Gerät signieren. Dadurch sind Ihre Gelder im Alltag weniger zugänglich. Es wird oft von einer "Cold Wallet" gesprochen, da Ihre Schlüssel in einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist.
+
+Zum Beispiel könnten Sie einen Ledger, einen Satochip oder einen Tapsigner verwenden:
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/de/chapter6/4.webp)
 
 - **Niveau 3**, Sie verwenden eine Wallet der Stufe 1 oder 2, jedoch mit einem zusätzlichen Passwort. Achten Sie darauf, dass Sie jetzt eine Sicherung der Liste mit 12 oder 24 Wörtern **und** Ihres Passworts erstellen müssen. Idealerweise werden diese beiden Informationen an zwei verschiedenen Orten gespeichert.
+
+Um mehr über die Verwendung und Funktionsweise der BIP39-Passphrase zu erfahren:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/de/chapter6/5.webp)
 
@@ -558,6 +589,10 @@ Nachdem die Kopien erstellt wurden, bewahren Sie die Wortlisten an einem sichere
 Kaltbrieftaschen haben in der Regel diese Wortlisten, genauso wie heiße Brieftaschen auf Mobilgeräten oder PCs. Diese Methode zur Sicherung des privaten Schlüssels ist heute der Standard. Das bedeutet, dass Sie Ihren mnemonischen Satz in jede Wallet-Software eingeben können, um Ihre Wallet wiederherzustellen. Nur schlechte Wallets, die wir dringend von der Verwendung abraten, geben Ihnen möglicherweise keine Liste mit 24 Wörtern, sondern verlangen möglicherweise ein Konto, eine E-Mail-Adresse oder noch schlimmer, eine ID.
 
 **ACHTUNG: Das Fehlen einer Liste mit 24 Wörtern sollte Sie alarmieren.**
+
+Wenn Sie anschließend Schritt für Schritt entdecken möchten, wie Sie Ihre eigene Wallet einrichten und Ihre ersten Bitcoins erhalten, empfehle ich Ihnen, ebenfalls diesen Kurs zu belegen:
+
+https://planb.network/courses/btc102
 
 ## Die Zeit überstehen
 
@@ -706,9 +741,7 @@ An diesem Punkt wird die Transaktion als gültig betrachtet, und der Miner wird 
 
 > Achtung: Auch wenn Alice feststellt, dass sie Bitcoins auf einer ihrer Adressen erhalten hat, wird empfohlen, die Transaktion erst dann als unveränderlich zu betrachten, wenn sie 6 Bestätigungen hat. Das bedeutet, dass 6 weitere Blöcke über dem Block, in dem sich die Transaktion von Bob befindet, abgebaut wurden. Mit anderen Worten, je älter eine Transaktion in der Blockchain ist, desto unveränderlicher ist sie.
 
-### Kleine Zusammenfassung als Poster!
 
-![Erklärung einer Transaktion](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Wofür das alles?
 
@@ -770,9 +803,7 @@ Diese Situation ist nicht so hypothetisch, denn das Jahr 2017 war von einer inte
 
 Nach diesem Sieg haben die Knoten ein Update namens SegWit aktiviert, das den Weg für die Implementierung des Lightning Network, einem sofortigen Bitcoin-Zahlungsnetzwerk, das die Bitcoin-Blockchain nutzt, geebnet hat. Diese Situation zeigt, dass die Benutzer dank ihrer Knoten eine echte Macht innerhalb von Bitcoin haben, die es ihnen ermöglicht, den großen Institutionen entgegenzutreten.
 
-### Zusammenfassung im Poster!
 
-![Bitcoin-Knoten](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Die Miner
 
@@ -844,7 +875,10 @@ Selbst im Falle eines 51%-Angriffs, bei dem ein Akteur mehr als die Hälfte der 
 
 Die Spieltheorie, die auf Bitcoin angewendet wird, schließt unehrliche Miner aus. Die Miner verwenden ASIC-Maschinen zum Minen und erhalten eine Belohnung bei Erfolg. Außerdem schließen sie sich oft in Mining-Pools zusammen, um ihre Rechenleistung zu teilen und regelmäßigere, wenn auch geringere Belohnungen zu erhalten. Das Bitcoin-Mining ist ein Prozess mit hohem Energieaufwand, der jedoch für den Betrieb und die Sicherheit des Bitcoin-Netzwerks unerlässlich ist. Der Proof-of-Work und die Blockchain lösen das Problem des doppelten Ausgaben und gewährleisten die Richtigkeit der Informationen ohne jegliche Vertrauensinstanz. Der Energieaufwand ist notwendig, um die Informationen zu produzieren, aber die Überprüfung der Informationen ist vernachlässigbar. Diese Asymmetrie gewährleistet die Sicherheit des Netzwerks. Es ist daher wirtschaftlich sinnvoller, die Konsensregeln einzuhalten, als sie zu brechen.
 
-![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
+
+Wenn Sie das spezifische Thema des Bitcoin-Minings vertiefen möchten, können Sie unseren Kurs MIN 201 konsultieren. Dort erfahren Sie mehr über die Funktionsweise und Rolle des Proof-of-Work sowie die Mechanismen der Mining-Industrie. Außerdem erklären wir Ihnen, wie Sie einen ASIC in eine Heizung verwandeln können, um Ihre ersten Satoshis zu minen und gleichzeitig Ihr Zuhause zu heizen!
+
+https://planb.network/courses/min201
 
 ## Bitcoin und die Umwelt
 
@@ -890,7 +924,6 @@ Die Bitcoin-Technologie wird oft missverstanden, und die Kritik an ihren ökolog
 
 > Befolgen Sie eine der Maximen von Bitcoin: Traue nicht, verifiziere dich selbst!
 
-![Bitcoin & écologie](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Kurze Zusammenfassung der technischen Aspekte von Bitcoin
 
@@ -989,8 +1022,16 @@ Um Bitcoin zu akzeptieren, ist es notwendig, die verschiedenen verfügbaren Lös
 Wir werden dieses Thema in einem anderen Kurs ausführlich behandeln, aber um es einfach zu machen, kann man verschiedene Kategorien von Unternehmen und damit verbundene Lösungen betrachten:
 
 - Einfache Online-Lösung: OpenNode
+
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 - Lösung für Hobbyhändler: Swiss Bitcoin Pay
-- Lösung für große Unternehmen oder begeisterte Bitcoin-Nutzer: BTCpay Server
+
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
+- Lösung für große Unternehmen oder leidenschaftliche Bitcoiner: BTCpay Server
+
+https://planb.network/courses/btc305
 
 ## Mit Bitcoin sparen
 
@@ -1147,6 +1188,10 @@ Die Transaktionen sind durch Kryptographie und indirekt durch die von den Minern
 
 Insgesamt ist das Lightning Network ein vielversprechender Versuch, ein effizientes Zahlungssystem für Bitcoin zu implementieren. Es gibt bereits viele Lightning-Wallets, die Sie in unserem Tutorial-Bereich oder über unsere Schulungen zum Lightning Network entdecken können.
 
+Wenn Sie über diese Einführung hinausgehen und alle Feinheiten des Lightning Network verstehen möchten, empfehle ich Ihnen diesen ausgezeichneten Kurs von Fanis Michalakis zu diesem Thema:
+
+https://planb.network/courses/lnp201
+
 ## Anwendungsfälle des Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
@@ -1187,7 +1232,6 @@ Zusammenfassend eröffnet das Lightning Network eine Vielzahl spannender Anwendu
 
 Wie Morpheus zu Neo sagte: "Nimmst du die blaue Pille, endet die Geschichte, du wachst in deinem Bett auf und glaubst, was du willst. Nimmst du die rote Pille, bleibst du im Wunderland, und ich zeige dir, wie tief das Kaninchenloch geht." Sind Sie bereit, das Kaninchenloch von Bitcoin zu erkunden? Seien Sie vorsichtig, denn Sie könnten Ihre finanzielle Freiheit wiederfinden!
 
-![rote Pille](assets/posters/fr/2_pilluleorange.webp)
 
 ### Die technologische Zukunft und ihre Auswirkungen
 
@@ -1245,34 +1289,42 @@ Bitcoin kann nicht mehr gestoppt oder zensiert werden. Es ist eine friedliche Re
 
 Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Satoshi hat Bitcoin im Jahr 2008 geschaffen, um einen Versuch dazu zu unternehmen. Einfaches und "magisches" Geld zu haben, korruptiert. Bitcoin ist daher eine Alternative, um ein neues neutrales Geldsystem aufzubauen. Bitcoin ermöglicht die Befreiung vom Bankensystem. Es ist ein soziales Phänomen, das uns dazu bringt, an einer friedlichen Revolution teilzunehmen. Sind Sie bereit, sich anzuschließen?
 
-## Dank und weiterhin den Kaninchenbau erkunden
+# Abschluss
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Gehen Sie weiter
-
-Herzlichen Glückwunsch zum Abschluss dieses BTC 101-Kurses! Ich hoffe von ganzem Herzen, dass es Ihnen gefallen hat und Ihnen neue Möglichkeiten eröffnet hat. Ihre Entdeckung von Bitcoin steht erst am Anfang und ich lade Sie ein, alle anderen verfügbaren Kurse an der Universität zu entdecken.
-
-- [BTC 102](https://planb.network/courses/btc102) wird Ihnen helfen, Ihren Bitcoin-Plan umzusetzen
-- [LNP 201](https://planb.network/courses/lnp201) ermöglichen es Ihnen, das Lightning Network, ein Zahlungsnetzwerk in der zweiten Schicht, kennenzulernen
-- [ECO 201](https://planb.network/courses/eco201) wird sich mit der österreichischen Wirtschaft befassen
-- [SCU 101](https://planb.network/courses/scu101) ermöglicht es Ihnen, Ihre digitale Sicherheit zu aktualisieren
-- [MIN 201](https://planb.network/courses/min201), um mehr über das Mining zu erfahren
-- und viele mehr...
-
-## Bewerten Sie den Kurs
+## Kursbewertung
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Fazit
+## Abschluss
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Herzlichen Glückwunsch zum Abschluss dieses Kurses!**
+Herzlichen Glückwunsch zum Abschluss dieser BTC 101-Schulung! Ich hoffe von Herzen, dass sie Ihnen gefallen und neue Türen geöffnet hat. Ihre Entdeckungsreise in die Bitcoin-Welt hat gerade erst begonnen, und ich lade Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
 
-Bitte beachten Sie, dass dieses Kapitel derzeit noch im Aufbau ist und eine verbesserte Version in Kürze verfügbar sein wird. Wenn Sie in der Zwischenzeit Ihre Bitcoin-Reise fortsetzen möchten, laden wir Sie ein, die anderen Kurse und Tutorials auf unserer Plattform zu erkunden. Machen Sie weiter so und viel Spaß beim Lernen!
+#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
+
+https://planb.network/courses/btc102
+
+#### Entdecken Sie das Lightning Network mit
+
+https://planb.network/courses/lnp201
+
+#### Lernen Sie die Österreichische Schule der Wirtschaftstheorie kennen mit
+
+https://planb.network/courses/eco201
+
+#### Aktualisieren Sie Ihre Online-Sicherheit mit
+
+https://planb.network/courses/scu101
+
+#### Verstehen Sie die Grundlagen von Bitcoin und bauen Sie Ihre Hausheizung mit
+
+https://planb.network/courses/min201

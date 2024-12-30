@@ -1,10 +1,10 @@
-question: Mạng lưới Bitcoin đảm bảo làm sao để hành động có ác ý trong giao thức Bitcoin trở nên quá tốn kém?
-answer: Qua các quy tắc giao thức và động lực kinh tế.
+question: Mạng Bitcoin đảm bảo làm sao để hành động có ác ý trở nên quá tốn kém trong giao thức Bitcoin?
+answer: Qua các quy tắc giao thức và động cơ kinh tế.
 wrong_answers:
   - Qua quy định nghiêm ngặt và giám sát.
   - Qua việc sử dụng các biện pháp an ninh tiên tiến.
   - Qua mối đe dọa của hành động pháp lý.
 explanation: >-
-  Mạng lưới Bitcoin đảm bảo làm sao để hành động có ác ý trong giao thức Bitcoin trở nên quá tốn kém qua các quy tắc giao thức và động lực kinh tế. Điều này
-  loại bỏ nhu cầu phải tin tưởng ở bất kỳ bước nào trong quá trình chuyển giao quyền sở hữu bitcoin.
-reviewed: false
+  Mạng Bitcoin đảm bảo làm sao để hành động có ác ý trở nên quá tốn kém trong giao thức Bitcoin qua các quy tắc giao thức và động cơ kinh tế. Điều này
+  loại bỏ nhu cầu phải tin tưởng ở bất kỳ bước nào của quá trình chuyển giao quyền sở hữu bitcoin.
+reviewed: true

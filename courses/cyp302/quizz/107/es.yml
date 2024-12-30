@@ -1,0 +1,9 @@
+question: ¿Qué es un ataque de reflexión en una sesión de comunicación?
+answer: El atacante le envía de vuelta a Alice un mensaje que interceptaron entre Alice y Bob
+wrong_answers:
+  - El atacante invierte el orden de los mensajes en la comunicación
+  - El atacante envía un mensaje modificado sin la etiqueta
+  - El atacante usa un mensaje antiguo para crear uno nuevo
+explanation: |
+  En un ataque de reflexión, el atacante intercepta un mensaje de Alice a Bob y envía el mismo mensaje de vuelta a Alice, causando confusión en la sesión.
+reviewed: false

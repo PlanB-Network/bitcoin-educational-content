@@ -1,0 +1,9 @@
+question: Following the value overflow incident, what mechanism was added to the software by Satoshi to limit the impact of potential vulnerabilities on the system?
+answer: The alert system
+wrong_answers:
+  - The standard nature of transactions
+  - The block size limit
+  - The OP_NOP op codes
+explanation: |
+  This effective alert system allowed him, with the use of a private key, to warn the network nodes in case of a technical problem and to suspend some API commands.
+reviewed: false

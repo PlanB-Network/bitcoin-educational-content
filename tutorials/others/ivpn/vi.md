@@ -110,8 +110,8 @@ Trong menu "*AntiTracker*", chọn hồ sơ chặn cho anti-tracker của bạn.
 ![IVPN](assets/notext/32.webp)
 Và đó là tất cả, bạn giờ đã được trang bị đầy đủ để tận hưởng IVPN. Nếu bạn cũng muốn tăng cường bảo mật cho các tài khoản trực tuyến của mình bằng cách sử dụng một trình quản lý mật khẩu địa phương, tôi mời bạn xem qua hướng dẫn của chúng tôi về KeePass, một giải pháp miễn phí và mã nguồn mở:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Nếu bạn quan tâm đến việc khám phá một nhà cung cấp VPN khác tương tự như IVPN, cả về tính năng và giá cả, tôi cũng khuyên bạn nên xem qua hướng dẫn của chúng tôi về Mullvad:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

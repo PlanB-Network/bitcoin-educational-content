@@ -20,9 +20,11 @@ Bạn không cần bất kỳ kiến thức cụ thể nào để bắt đầu, 
 +++
 
 # Giới Thiệu
+
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
 ## Bước Nhảy Vào Vô Định
+
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
 ### Chào mừng đến với một kỷ nguyên tiền tệ và công nghệ mới.
@@ -71,12 +73,13 @@ Quan trọng là phải hiểu rằng Bitcoin là một hệ thống tiền tệ
 
 - Chương 17 - Giới thiệu về Mạng Lưới Lightning
 - Chương 18 - Các trường hợp sử dụng cho Mạng Lưới Lightning
-Trước khi thảo luận về định nghĩa và chức năng của tiền tệ trong xã hội (Chương 1), chúng ta bắt đầu với nguồn gốc của Bitcoin. Bitcoin là một công nghệ tương đối mới, được ra mắt vào năm 2009, khác biệt hoàn toàn so với bất kỳ thứ gì khác. Do đó, việc không hiểu mọi thứ ngay lập tức là điều bình thường. Thực tế, giống như khi học cách sử dụng Internet hoặc một chiếc xe hơi, bạn không cần biết tất cả các chi tiết kỹ thuật để sử dụng Bitcoin (nhận, thanh toán, bảo mật quỹ của mình).
-![image](assets/en/chapter0/3.webp)
+  Trước khi thảo luận về định nghĩa và chức năng của tiền tệ trong xã hội (Chương 1), chúng ta bắt đầu với nguồn gốc của Bitcoin. Bitcoin là một công nghệ tương đối mới, được ra mắt vào năm 2009, khác biệt hoàn toàn so với bất kỳ thứ gì khác. Do đó, việc không hiểu mọi thứ ngay lập tức là điều bình thường. Thực tế, giống như khi học cách sử dụng Internet hoặc một chiếc xe hơi, bạn không cần biết tất cả các chi tiết kỹ thuật để sử dụng Bitcoin (nhận, thanh toán, bảo mật quỹ của mình).
+  ![image](assets/en/chapter0/3.webp)
 
 Mục tiêu quan trọng ở đây chủ yếu là hiểu về công nghệ mới này một cách tổng quát. Chúng tôi hy vọng rằng khóa học này sẽ làm bạn hài lòng và cung cấp cho bạn nền tảng cần thiết để hiểu và có thể tiếp tục tiến bộ trong khuôn khổ tiền tệ toàn cầu mới này.
 
 ## Tiền sử của Bitcoin
+
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
 Trước khi thuật ngữ "Bitcoin" trở nên đồng nghĩa với tiền tệ số và sự biến đổi tài chính, một loạt ý tưởng, đổi mới và phong trào xã hội đã đặt nền móng cho sự ra đời của nó. Một trong những yếu tố cơ bản của tiền sử Bitcoin này là phong trào cypherpunk.
@@ -104,6 +107,7 @@ Phong trào cypherpunk, với những rễ sâu trong hoạt động kỹ thuậ
   Mặc dù không hoàn toàn thuộc về cypherpunk, văn bản này phản ánh tình cảm của nhiều nhân vật trong phong trào. Được viết vào năm 1996 bởi John Perry Barlow, đây là phản ứng trước sự quản lý ngày càng tăng của Internet bởi các chính phủ. Tuyên ngôn khẳng định rằng không gian mạng là một lĩnh vực riêng biệt so với thế giới vật lý và không nên tuân theo cùng một bộ luật. Nó tuyên bố, "Chúng tôi không có chính phủ được bầu chọn, và chúng tôi không thể bị quản lý."
 
 ### Tiền thân của Bitcoin
+
 Trước sự xuất hiện của Bitcoin, đã có nhiều nỗ lực nhằm tạo ra một loại tiền tệ số. Ví dụ, David Chaum đã giới thiệu khái niệm "tiền điện tử ẩn danh" với dự án "DigiCash" vào những năm 1980. Thật không may, do nhiều hạn chế, DigiCash không bao giờ thực sự phát triển mạnh mẽ.
 Một tiền thân quan trọng khác là "b-money" của Wei Dai. Mặc dù nó chưa bao giờ được triển khai, nhưng nó đã trình bày ý tưởng về một loại tiền tệ số ẩn danh, nơi việc phát hiện gian lận được thực hiện bởi một cộng đồng người đánh giá thay vì một cơ quan trung ương.
 
@@ -119,12 +123,17 @@ Tiền sử của Bitcoin gắn liền với phong trào cypherpunk và một n�
 
 Do đó, Bitcoin là một giao thức kéo dài qua nhiều thời kỳ và khuyến khích chúng ta đặt câu hỏi về mối quan hệ của mình với năng lượng, thời gian và tiền bạc. Nhưng Bitcoin có phải là một "tiền tệ" thực sự không? Tiền bạc là gì? Nó có tồn tại ở nhiều hình thức không? Chúng ta sẽ khám phá những câu hỏi này trong chương tiếp theo.
 
-![Lịch sử Tiền của Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
+
+Nếu bạn muốn tìm hiểu chi tiết hơn về lịch sử của Bitcoin, tôi rất khuyến nghị khóa học HIS 201 của chúng tôi. Tại đây, bạn sẽ khám phá nguồn gốc và sự nổi lên chậm chạp của Bitcoin, cũng như những khởi đầu của lịch sử và cộng đồng của nó. Khóa học này được tài liệu hóa và có nguồn, tất nhiên cũng có rất nhiều giai thoại :
+
+https://planb.network/courses/his201
 
 # Tiền Bạc
+
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
 ## Lịch Sử Tiền Tệ
+
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
 Sự tiến hóa của tiền bạc là một khía cạnh thú vị của lịch sử loài người, phản ánh sự sáng tạo của các nền văn minh qua các thời đại trong việc đáp ứng nhu cầu kinh tế không ngừng thay đổi.
@@ -153,8 +162,8 @@ Vàng như một loại tiền tệ là lựa chọn của 4,000 năm tiến hó
 - Kho bảo trữ giá trị
 - Phương tiện trao đổi
 - Đơn vị tính toán
-![hình ảnh](assets/en/chapter1/3.webp)![hình ảnh](assets/en/chapter1/4.webp)
-![hình ảnh](assets/en/chapter1/5.webp)
+  ![hình ảnh](assets/en/chapter1/3.webp)![hình ảnh](assets/en/chapter1/4.webp)
+  ![hình ảnh](assets/en/chapter1/5.webp)
 
 ### Đặc điểm của tiền tệ
 
@@ -180,11 +189,10 @@ Ngày nay, các đồng tiền vẫn đang phát triển, thích nghi hình th�
 
 Mặt khác, Bitcoin mang lại những khả năng mới. Do các tính chất của nó, như nguồn cung cực kỳ hạn chế, nó cung cấp một khoản đầu tư giữ giá trị xuất sắc. Hơn nữa, với tư cách là một đồng tiền trung lập trên internet, nó đại diện cho một phương tiện trao đổi tốt không biết đến biên giới. Tuy nhiên, nó vẫn chưa được chấp nhận rộng rãi trong thương mại ngày nay, bất chấp việc [tiếp tục được chấp nhận](https://btcmap.org/map).
 
-### Tóm tắt nhanh trên một poster!
 
-![v](assets/posters/en/3._money.webp)
 
 ## Các đồng tiền tín dụng
+
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
 "Những ai không học từ lịch sử đều định mệnh lặp lại những sai lầm tương tự," George Santayana đã nói. Một sự thật đặc biệt vang vọng khi nói đến hệ thống tiền tệ hiện tại.
@@ -231,11 +239,14 @@ Việc in tiền dẫn đến lạm phát, dần dần làm cho dân chúng ngh�
 Đồng thời, sự xuất hiện của các đồng tiền số do ngân hàng trung ương phát hành, hay CBDCs, dường như là không thể tránh khỏi. Dạng tiền tệ mới này sẽ cung cấp một nền kinh tế được lập kế hoạch trung ương hóa, có thể cản trở tự do tài chính của cá nhân và tạo điều kiện cho những lạm dụng độc tài.
 Chúng ta có thể kết thúc chương này với lời trích dẫn từ người đoạt giải Nobel F.A Hayek vào năm 1984: "Tôi không tin rằng chúng ta sẽ bao giờ tìm thấy một loại tiền tệ tốt cho đến khi chúng ta lấy nó ra khỏi tay của chính phủ. Tuy nhiên, chúng ta không thể lấy nó một cách bạo lực; tất cả những gì chúng ta có thể làm là giới thiệu một thứ mà họ không thể ngăn chặn thông qua những mánh khóe tinh vi."
 
-### Tóm tắt nhanh trên một poster!
 
-![Văn bản thay thế](assets/posters/en/4._fiat_currency.webp)
+
+Nếu bạn muốn tìm hiểu thêm về các ngụy biện kinh tế và tự do, tôi mời bạn khám phá khóa học ECO 102 của chúng tôi. Khóa học này theo dõi cuộc đời và ý tưởng của Frédéric Bastiat, một nhà tư tưởng người Pháp thế kỷ 19, người chắc chắn sẽ trân trọng sự ra đời của Bitcoin:
+
+https://planb.network/courses/eco102
 
 ## Lạm phát cực đoan
+
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
 Lạm phát cực đoan là một hiện tượng tiền tệ đặc thù cho tiền tệ fiat. Nó được đặc trưng bởi sự mất niềm tin hoàn toàn vào một loại tiền tệ và sự tăng lạm phát một cách đột ngột thông qua việc in tiền của các cơ quan quản lý. Kết quả là, tiền tiết kiệm tích lũy bởi cá nhân có thể tan biến trong một khoảng thời gian ngắn, đẩy đất nước đến bờ vực của sự sụp đổ kinh tế, xã hội và chính trị.
@@ -275,7 +286,7 @@ Giai đoạn 3 - Vòng luẩn quẩn của việc in tiền
 Giai đoạn 4 - Một loại tiền tệ mới xuất hiện
 
 - Một loại tiền tệ mới sau đó được giới thiệu để thay thế loại tiền cũ. Một ví dụ đáng chú ý về lạm phát cực đoan là Đức trong các năm 1920-1924. Để khôi phục nền kinh tế, một loại tiền tệ mới đã được tạo ra, được bảo đảm bởi nợ của Đức, Pháp và Anh, và được đảm bảo bởi đất đai của Đức.
-Giải quyết một cuộc khủng hoảng lạm phát cao thường đòi hỏi những thay đổi triệt để, như cuộc cách mạng, thay đổi chính phủ, thay đổi người đứng đầu ngân hàng trung ương, v.v. Mất niềm tin, sụp đổ tiền tệ và tái thiết là những giai đoạn thiết yếu để hồi sinh một nền kinh tế mới dựa trên tiền tệ fiat.
+  Giải quyết một cuộc khủng hoảng lạm phát cao thường đòi hỏi những thay đổi triệt để, như cuộc cách mạng, thay đổi chính phủ, thay đổi người đứng đầu ngân hàng trung ương, v.v. Mất niềm tin, sụp đổ tiền tệ và tái thiết là những giai đoạn thiết yếu để hồi sinh một nền kinh tế mới dựa trên tiền tệ fiat.
 
 ### 3 ví dụ đáng chú ý
 
@@ -312,14 +323,18 @@ Giải quyết một cuộc khủng hoảng lạm phát cao thường đòi hỏ
 Kết luận, lạm phát cao có tác động làm giảm giá trị của tiền tệ một cách nhanh chóng, dẫn đến sự xói mòn tiết kiệm và mất niềm tin vào hệ thống tiền tệ. Như Voltaire từng gợi ý, một loại tiền tệ fiat luôn cuối cùng sẽ mất giá trị nội tại và hướng tới giá trị bằng không.
 'Một loại tiền tệ dựa vào một bên thứ ba đáng tin cậy như một tổ chức tài chính, về mặt thực hành và lâu dài, là một loại tiền tệ có khuyết điểm vì nó không thể đảm bảo sức mua hoặc bảo toàn tiết kiệm.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/5._hyperinflation.webp)
+
+Để tìm hiểu sâu hơn về chủ đề siêu lạm phát, tôi khuyên bạn nên tham gia khóa học ECO 204 của David St-Onge. Bạn sẽ học được chu kỳ siêu lạm phát là gì và tác động thực sự của nó đối với cuộc sống của chúng ta. Bạn cũng sẽ khám phá sự tương đồng giữa các chu kỳ này và, quan trọng nhất, cách bảo vệ bản thân:
+
+https://planb.network/courses/eco204
 
 ## 21 triệu bitcoin
+
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
 ### Chính sách Tiền tệ của Bitcoin
+
 Bitcoin là một loại tiền tệ số phi tập trung với số lượng tối đa được xác định trước là **21 triệu đơn vị**. Đặc điểm nổi bật về sự khan hiếm này được quy định bởi mã máy tính của nó và được củng cố bởi sự đồng thuận của tất cả người dùng tham gia vào giao thức.
 ![image](assets/en/chapter4/0.webp)
 
@@ -333,28 +348,28 @@ Việc tạo ra bitcoin mới là kết quả của quá trình đào mỏ, mộ
 
 Những người đào mỏ, những người thực hiện nhiệm vụ này, được thưởng bằng việc phát hành bitcoin mới mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210,000 khối, tương đương khoảng mỗi bốn năm, một sự kiện được biết đến là "halving" -- khiến cho đường cong phát hành tiền tệ có hình dạng giống như các bậc thang. Do cơ chế halving này, có thể dự đoán toán học rằng việc tạo ra bitcoin sẽ kết thúc vào năm 2140, khi tổng số lượng bitcoin đạt giới hạn 21 triệu.
 
-| Số Lần Halving | Chiều Cao Khối | Phần Thưởng BTC Sau Halving  | Ước Lượng BTC Lưu Hành Sau Halving |
-| -------------- | ------------ | ------------------------- | ------------------------------------------ |
-| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
-| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
-| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
-| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
-| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
-| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
-| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
-| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
-| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
-| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
-| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
-| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
-| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
-| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
-| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
-| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
-| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
-| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
-| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
-| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
+| Số Lần Halving | Chiều Cao Khối | Phần Thưởng BTC Sau Halving | Ước Lượng BTC Lưu Hành Sau Halving |
+| -------------- | -------------- | --------------------------- | ---------------------------------- |
+| 1              | 210,000        | 25 BTC                      | 10,500,000 BTC                     |
+| 2              | 420,000        | 12.5 BTC                    | 15,750,000 BTC                     |
+| 3              | 630,000        | 6.25 BTC                    | 18,375,000 BTC                     |
+| 4              | 840,000        | 3.125 BTC                   | 19,687,500 BTC                     |
+| 5              | 1,050,000      | 1.5625 BTC                  | 20,343,750 BTC                     |
+| 6              | 1,260,000      | 0.78125 BTC                 | 20,671,875 BTC                     |
+| 7              | 1,470,000      | 0.390625 BTC                | 20,835,937.5 BTC                   |
+| 8              | 1,680,000      | 0.1953125 BTC               | 20,917,968.75 BTC                  |
+| 9              | 1,890,000      | 0.09765625 BTC              | 20,958,984.375 BTC                 |
+| 10             | 2,100,000      | 0.048828125 BTC             | 20,979,492.188 BTC                 |
+| 11             | 2,310,000      | 0.0244140625 BTC            | 20,989,746.094 BTC                 |
+| 12             | 2,520,000      | 0.01220703125 BTC           | 20,994,873.047 BTC                 |
+| 13             | 2,730,000      | 0.006103515625 BTC          | 20,997,436.523 BTC                 |
+| 14             | 2,940,000      | 0.0030517578125 BTC         | 20,998,718.262 BTC                 |
+| 15             | 3,150,000      | 0.00152587890625 BTC        | 20,999,359.131 BTC                 |
+| 16             | 3,360,000      | 0.000762939453125 BTC       | 20,999,679.566 BTC                 |
+| 17             | 3,570,000      | 0.0003814697265625 BTC      | 20,999,839.783 BTC                 |
+| 18             | 3,780,000      | 0.00019073486328125 BTC     | 20,999,919.892 BTC                 |
+| 19             | 3,990,000      | 0.000095367431640625 BTC    | 20,999,959.946 BTC                 |
+| 20             | 4,200,000      | 0.0000476837158203125 BTC   | 20,999,979.973 BTC                 |
 
 Chúng ta sẽ quay lại với các thợ mỏ chi tiết hơn trong chương khai thác.
 
@@ -380,7 +395,7 @@ Sự khan hiếm của Bitcoin là một tài sản lớn, và số lượng t�
 
 Thực tế, bất kỳ ai cũng có thể xác minh số lượng bitcoin lưu thông bằng cách nhập một lệnh đơn giản trên một nút Bitcoin: `bitcoin-cli gettxoutsetinfo`. Sự minh bạch và khả năng xác minh này tăng cường niềm tin vào hệ thống Bitcoin, không dựa trên các tổ chức hay cá nhân trung ương, mà dựa trên một bảo đảm toán học và mật mã học vốn có trong giao thức của nó. (Bạn sẽ học cách làm điều này một cách dễ dàng trong LN201)
 
-```json
+````json
 {
   "height": 710560,
 ```yaml
@@ -392,22 +407,22 @@ Thực tế, bất kỳ ai cũng có thể xác minh số lượng bitcoin lưu 
   "disk_size": 178239584,
   "total_amount": 18745998.12345678
 }
-```
+````
 
 Bitcoin, bằng thiết kế của mình, đảm bảo quản lý tiền tệ chắc chắn bằng cách hạn chế việc tạo ra và bảo vệ tiền tiết kiệm của người dùng, phân biệt nó với các loại tiền tệ khác. Phù hợp với nguyên tắc của kinh tế học Áo (chi tiết trong ECON201), số lượng được kiểm soát và phân phối dự đoán của nó bảo vệ nó khỏi rủi ro về lạm phát đặc trưng của các loại tiền tệ truyền thống.
 
 Tóm lại, Bitcoin, với bản chất phi tập trung, sự khan hiếm được lập trình, và tính minh bạch, cung cấp một lựa chọn thay thế độc đáo cho các hệ thống tiền tệ truyền thống. Nó minh họa cách công nghệ có thể được sử dụng để tạo ra một loại tiền tệ không chỉ hữu ích và có thể kiểm chứng, mà còn bảo toàn giá trị tiết kiệm của người dùng bằng cách hạn chế chặt chẽ nguồn cung.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/6._21_millions.webp)
 
 ### Kết luận của phần 1!
 
 # Ví Bitcoin
+
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
 ## Ví Bitcoin là gì?
+
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 Trong phần 2 này, chúng ta sẽ khám phá việc lưu trữ và bảo mật Bitcoin trong các ví. Điều này sẽ giúp bạn hiểu rõ hơn về nơi những Bitcoin nổi tiếng này được đặt và cách tương tác với chúng!
@@ -441,8 +456,8 @@ Dù là "ngân hàng" Bitcoin của bạn hay chính bạn, nói chung, phần l
   Khóa công khai được tạo ra với khóa riêng và do đó liên kết với nó. Khóa công khai được sử dụng để tạo ra địa chỉ Bitcoin và do đó nhận tiền. Chia sẻ khóa công khai có rủi ro về quyền riêng tư, nhưng không ảnh hưởng đến an ninh.
 
   Các địa chỉ này được ví của bạn tạo ra và có thể được chia sẻ một cách an toàn. Nên sử dụng chúng chỉ một lần để tối đa hóa quyền riêng tư của bạn.
-Vì vậy, việc hiểu rằng nhờ công nghệ này, chúng ta có thể dễ dàng nhận Bitcoin mà không cho phép người gửi ăn cắp tiền của mình là rất quan trọng! Hãy nghĩ về nó như một hòm thư: mọi người đặt tiền vào đó, nhưng bạn là người duy nhất có thể mở nó.
-![image](assets/en/chapter5/4.webp)
+  Vì vậy, việc hiểu rằng nhờ công nghệ này, chúng ta có thể dễ dàng nhận Bitcoin mà không cho phép người gửi ăn cắp tiền của mình là rất quan trọng! Hãy nghĩ về nó như một hòm thư: mọi người đặt tiền vào đó, nhưng bạn là người duy nhất có thể mở nó.
+  ![image](assets/en/chapter5/4.webp)
 
 ### Vậy Bitcoin có trong ví không?
 
@@ -462,11 +477,14 @@ Do đó, khả năng bị hack ví Bitcoin của bạn là cực kỳ thấp n�
 
 Chọn một ví phù hợp với nhu cầu và cách sử dụng của bạn. Các hướng dẫn chi tiết về việc sử dụng và bảo mật các loại ví khác nhau có sẵn trong [phần hướng dẫn của trường đại học của chúng tôi](https://planb.network/tutorials/wallet).
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
+
+Nếu trong hành trình xuống hang thỏ, bạn muốn tìm hiểu thêm về việc xây dựng một ví Bitcoin, từ entropy đến địa chỉ nhận, tôi khuyên bạn nên tham gia khóa học CYP 201 dành riêng cho chủ đề này:
+
+https://planb.network/courses/cyp201
 
 ## Bảo Mật và Ví Bitcoin
+
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
 ### Đặt những câu hỏi đúng trước khi bắt đầu
@@ -485,16 +503,33 @@ Hãy nhớ rằng không có giải pháp phổ quát. Vì vậy, hãy dành th�
 ### Suy nghĩ về ví Bitcoin theo mức độ phức tạp
 
 Hãy cố gắng thiết lập một số cấp độ bảo mật cho Bitcoin của bạn:
+
 - **Cấp độ 0**, bạn sử dụng dịch vụ giữ hộ, nơi bạn không phải là người duy nhất sở hữu bitcoin của mình. Hãy nhớ rằng bên thứ ba đáng tin cậy này có thể hạn chế quyền truy cập vào quỹ của bạn bất cứ lúc nào, và bạn có cùng mức độ chủ quyền tài chính như khi sử dụng hệ thống ngân hàng truyền thống thông qua một tài khoản ngân hàng.
-![image](assets/en/chapter6/2.webp)
+  ![image](assets/en/chapter6/2.webp)
 
 - **Cấp độ 1**, bạn sử dụng ví Bitcoin trên điện thoại hoặc máy tính của mình, nơi bạn là người duy nhất sở hữu bitcoin của mình. Bạn có thể dễ dàng thực hiện các giao dịch của mình. Tuy nhiên, việc sao lưu cụm từ ghi nhớ để lấy lại quyền truy cập vào quỹ của bạn trong trường hợp mất điện thoại hoặc máy tính là rất quan trọng. Nó thường được gọi là "ví nóng" vì khóa riêng tư được lưu trữ trên thiết bị có kết nối internet.
 
+Ví dụ, bạn có thể sử dụng Sparrow Wallet làm ví nóng:
+
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+
 - **Cấp độ 2**, bạn sử dụng một ví vật lý và bạn đã bảo mật danh sách 12 hoặc 24 từ của mình. Để thực hiện một giao dịch, bạn luôn cần phải ký bằng thiết bị của mình. Điều này làm cho quỹ của bạn ít dễ truy cập hàng ngày. Nó thường được gọi là "Ví Lạnh" vì khóa của bạn được lưu trữ trên thiết bị không kết nối với internet.
+
+Ví dụ, bạn có thể sử dụng Ledger, Satochip hoặc Tapsigner:
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/en/chapter6/4.webp)
 
 - **Cấp độ 3**, bạn sử dụng ví cấp độ 1 hoặc 2 nhưng với một cụm từ bổ sung. Hãy nhớ rằng bạn giờ đây cần phải sao lưu cả danh sách 12 hoặc 24 từ **và** cụm từ bổ sung của bạn. Lý tưởng nhất, hai thông tin này được lưu trữ ở hai nơi khác nhau.
+
+Để tìm hiểu thêm về cách sử dụng và chức năng của cụm mật khẩu BIP39:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/en/chapter6/5.webp)
 
@@ -512,13 +547,13 @@ Kết luận, việc sở hữu trực tiếp bitcoin của mình là một yế
 
 Giờ đây, khi chúng ta đã hiểu rõ về điều này, hãy chuyển sang phần tiếp theo để xem các bước tạo ví Bitcoin. Tuy nhiên, nếu bạn muốn khám phá thêm về chủ đề bảo mật, bạn có thể đọc [bài viết này của DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Thiết lập ví
+
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 Việc bảo mật Bitcoin của bạn có tầm quan trọng sống còn, và một sai lầm nhỏ có thể dẫn đến hậu quả đắt giá. Chính vì vậy, chúng ta sẽ xem xét các phương pháp tốt nhất khi tạo một ví Bitcoin mới.
+
 > Lưu ý rằng khóa học BTC102 sẽ hướng dẫn bạn qua bước này.
 
 ### Bước này không phải là trò đùa!
@@ -550,11 +585,14 @@ Ví "lạnh" thường có những danh sách từ này, giống như ví "nóng
 
 **CHÚ Ý: Sự vắng mặt của danh sách 24 từ nên làm bạn cảnh giác.**
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
+
+Nếu bạn muốn tìm hiểu từng bước cách thiết lập ví của riêng mình và có được những bitcoin đầu tiên, tôi cũng khuyên bạn nên tham gia khóa học này:
+
+https://planb.network/courses/btc102
 
 ## Đứng vững trước thử thách của thời gian
+
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
 An ninh là một mối quan tâm lớn trong hệ sinh thái Bitcoin. Thực sự, như bất kỳ hình thức tài sản nào, Bitcoin của bạn phải được bảo vệ khỏi mất mát, trộm cắp và suy giảm, đặc biệt là trong dài hạn. Bảo vệ Bitcoin của bạn đòi hỏi một số kiến thức kỹ thuật và nhận thức về các rủi ro liên quan, điều này dẫn chúng ta đến việc thảo luận hai chiến lược chính: khắc Bitcoin của bạn trên thép và tạo một kế hoạch thừa kế.
@@ -568,6 +606,7 @@ Có nhiều giải pháp để thực hiện điều này, một số có chi ph
 ![image](assets/en/chapter8/1.webp)
 
 ### Nghĩ về thế hệ tiếp theo!
+
 Cùng với việc này, việc tạo ra một kế hoạch thừa kế cũng là bước quan trọng để đảm bảo rằng bitcoin của bạn sẽ được quản lý đúng cách sau khi bạn qua đời. Kế hoạch này có thể bao gồm một bức thư viết tay chi tiết về tài sản của bạn, phương pháp truy cập vào chúng, và thông tin liên lạc của những người đáng tin cậy để liên hệ. Cũng quan trọng là phải thảo luận về việc thừa kế bitcoin với một công chứng viên để đảm bảo tuân thủ thuế, mặc dù quan trọng là không bao giờ trực tiếp giao bitcoin của bạn cho bên thứ ba, bao gồm cả công chứng viên.
 
 Nếu bạn muốn khám phá thêm về chủ đề kế hoạch thừa kế cho bitcoin của mình, chúng tôi khuyên bạn đọc cuốn sách của Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) hoặc tham gia khóa học BTC102 nơi chúng tôi hướng dẫn bạn tạo ra nó.
@@ -582,9 +621,7 @@ Về quyền riêng tư, điều quan trọng là tránh nói với mọi ngư�
 
 Cùng một lý do, tránh tiết lộ hệ thống bảo mật của bạn một cách ồn ào trong các cuộc gặp gỡ bitcoin hoặc khi gặp gỡ người lạ...
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/19._think_long_term.webp)
 
 ### Tóm tắt về bảo mật ví Bitcoin
 
@@ -598,9 +635,11 @@ Khi tạo ví, bạn phải sao lưu khóa riêng của mình trước tiên. Sa
 Bây giờ chúng ta đã đề cập đến cơ bản của ví Bitcoin và các phương pháp hay nhất để bảo mật chúng, chúng ta sẽ tiếp tục với hoạt động kỹ thuật của Bitcoin trong chương tiếp theo. Một lần nữa, việc biết đến cơ bản của giao thức Bitcoin sẽ cho phép bạn hiểu rõ hơn về cách thức hoạt động của nó, điều này sẽ giúp bạn sử dụng nó một cách tốt hơn.
 
 # Các khía cạnh kỹ thuật của Bitcoin.
+
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 ## Khởi động Bitcoin
+
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
 ### Hãy bắt đầu với một chút lịch sử.
@@ -640,7 +679,7 @@ Năm 2010, khi Bitcoin bắt đầu thu hút sự chú ý của truyền thông,
 > “Chính phủ giỏi trong việc cắt đầu của các mạng lưới trung ương
 > như Napster, nhưng các mạng lưới P2P thuần túy như
 > Gnutella và Tor dường như đang tự giữ vững.” - Satoshi Nakamoto
-Mặc dù Satoshi đã vắng mặt, Bitcoin vẫn tiếp tục phát triển. Mỗi 10 phút, lịch sử của Bitcoin lại được viết lên, và giao thức tiếp tục hoạt động như đã được thiết kế. Bất chấp nỗi sợ hãi, sự không chắc chắn, hoặc nghi ngờ (FOMO cho Nỗi Sợ Bỏ Lỡ hoặc FUD cho Nỗi Sợ Hãi Không Chắc Chắn Nghi Ngờ), Bitcoin vẫn tiếp tục tiến lên, với khả năng truy cập trực tuyến là 99.988%.
+> Mặc dù Satoshi đã vắng mặt, Bitcoin vẫn tiếp tục phát triển. Mỗi 10 phút, lịch sử của Bitcoin lại được viết lên, và giao thức tiếp tục hoạt động như đã được thiết kế. Bất chấp nỗi sợ hãi, sự không chắc chắn, hoặc nghi ngờ (FOMO cho Nỗi Sợ Bỏ Lỡ hoặc FUD cho Nỗi Sợ Hãi Không Chắc Chắn Nghi Ngờ), Bitcoin vẫn tiếp tục tiến lên, với khả năng truy cập trực tuyến là 99.988%.
 
 Mỗi người có cách nhìn nhận Bitcoin một cách khác nhau. Đối với một số người, đó là một thực thể giống như nấm [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), đối với những người khác, đó là một [hố đen](https://dergigi.com/2019/05/01/bitcoins-gravity/). Dù yêu hay ghét, Bitcoin vẫn tồn tại, với nhịp độ không đổi 10 phút mỗi khối, như nhịp đập của một hệ thống tiền tệ mới.
 
@@ -652,11 +691,10 @@ Mỗi người có cách nhìn nhận Bitcoin một cách khác nhau. Đối v�
 
 Giờ đây, khi chúng ta đã có một số nền tảng, hãy xem xét cách một giao dịch Bitcoin hoạt động nói chung.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/7._lancement_bitcoin.webp)
 
 ## Giao dịch Bitcoin
+
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
 Một giao dịch Bitcoin đơn giản là việc chuyển quyền sở hữu Bitcoin, sử dụng một địa chỉ Bitcoin. Lấy ví dụ, hai nhân vật: Alice và Bob. Alice muốn mua Bitcoin, trong khi Bob đã sở hữu một số.
@@ -674,6 +712,7 @@ Sau đó, Bob khởi tạo giao dịch sử dụng địa chỉ nhận của Ali
 > **Tại sao phải trả phí?** Những phí này là cần thiết để tạo ra một thị trường tự do cho việc bao gồm giao dịch trong các khối, vì số lượng giao dịch trong một khối là có hạn. Thực tế, một khối có kích thước là 1 MB, tương đương với vài nghìn giao dịch mỗi khối. Phí của một giao dịch tỷ lệ với kích thước của nó. Kích thước của giao dịch, đổi lại, phụ thuộc vào độ phức tạp của giao dịch.
 
 Để hoàn tất giao dịch, Bob phải cung cấp một chữ ký với khóa riêng của địa chỉ mà anh ta sử dụng để trả cho Alice. Điều này xác minh rằng anh ta là chủ sở hữu của Bitcoin mà anh ta muốn chuyển. Bước này thường được thực hiện tự động trên ví di động, hoặc là một xác nhận trên ví vật lý của bạn: "Bạn có chắc chắn muốn gửi X cho Y? Có hay không".
+
 ### Bước 2: Lan truyền giao dịch qua các nút đến các thợ mỏ
 
 Tại giai đoạn này, giao dịch đã được tạo và ví của Bob sẽ chia sẻ nó với mạng lưới Bitcoin. Để làm điều này, ví của anh ấy sẽ giao tiếp với một nút của mạng lưới Bitcoin, và nút này sẽ lan truyền thông tin này đến các nút khác. Bước lan truyền này cho phép toàn bộ mạng lưới biết về giao dịch mới này và xem xét nó.
@@ -702,9 +741,7 @@ Tại giai đoạn này, giao dịch được coi là hợp lệ, thợ mỏ sau
 
 > Lưu ý: Ngay cả khi Alice thấy rằng cô ấy đã nhận được bitcoin trên một trong số các địa chỉ của mình, nó được khuyến nghị coi giao dịch là không thể thay đổi chỉ khi nó có 6 xác nhận. Điều này có nghĩa là 6 khối khác đã được khai thác trên khối chứa giao dịch của Bob. Nói cách khác, càng lâu một giao dịch tồn tại trong blockchain, nó càng trở nên không thể thay đổi.
 
-### Tóm tắt nhanh trong một poster!
 
-![Giải thích về một giao dịch](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Ý nghĩa của tất cả điều này là gì?
 
@@ -716,6 +753,7 @@ Người dùng chuyển giao quyền sở hữu tiền của họ bằng cách k
 Trên thực tế, để mạng lưới Bitcoin bị phá hủy hoàn toàn, tất cả các bản sao của blockchain trên tất cả các nút Bitcoin sẽ phải bị hủy - một nhiệm vụ thực tế là không thể do sự phân bố địa lý của các nút này và khó khăn trong việc thu giữ chúng về mặt vật lý. Hãy cùng xem xét kỹ hơn cách một nút Bitcoin hoạt động.
 
 ## Nút Bitcoin
+
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
 Nút là một yếu tố cơ bản trong kiến trúc mạng lưới Bitcoin. Chúng thực hiện nhiều chức năng quan trọng:
@@ -749,6 +787,7 @@ Một lựa chọn thứ hai là sử dụng phần cứng chuyên dụng cho m�
 Từ góc độ băng thông, xem xét 1 khối 1MB mỗi 10 phút, điều này tương đương với khoảng 5GB mỗi tháng.
 
 ### Nút phải luôn dễ tiếp cận với mọi người!
+
 Chi phí phải chăng và khả năng tiếp cận của một nút Bitcoin về mặt tài nguyên phần cứng, lưu trữ và băng thông là một khía cạnh rất quan trọng vì nó thúc đẩy sự phân quyền của mạng lưới.
 Thực sự, mọi người đều có lý do chính đáng để chạy một nút! Giá cả và công sức bỏ ra là tối thiểu so với lợi ích thu được. Bạn chỉ cần bắt đầu cuộc phiêu lưu và tham gia cùng hàng ngàn người khác vì cùng nhau chúng ta tạo nên mạng lưới Bitcoin.
 
@@ -760,11 +799,10 @@ Tình huống này không phải là giả định vì năm 2017 đã chứng ki
 
 Sau chiến thắng này, các nút đã kích hoạt một bản cập nhật gọi là SegWit, mở đường cho việc triển khai Lightning Network, một mạng lưới thanh toán Bitcoin tức thì sử dụng blockchain Bitcoin. Tình huống này chứng minh rằng người dùng, thông qua các nút của họ, giữ quyền lực thực sự trong Bitcoin, cho phép họ đứng lên chống lại các tổ chức lớn.
 
-### Tóm tắt trong một poster!
 
-![Nút Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Thợ Đào
+
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 > Thợ đào giúp bảo vệ mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện qua máy ASIC để giải quyết bằng chứng công việc của Bitcoin.
@@ -829,16 +867,20 @@ Ngay cả trong trường hợp của một cuộc tấn công 51%, nghĩa là m
 
 Lý thuyết trò chơi áp dụng cho Bitcoin loại bỏ các thợ mỏ không trung thực. Các thợ mỏ sử dụng máy ASIC để khai thác và nhận phần thưởng trong trường hợp thành công. Ngoài ra, họ thường tham gia vào các hồ bơi khai thác để chia sẻ sức mạnh tính toán của mình và nhận được phần thưởng nhỏ nhưng đều đặn hơn. Khai thác Bitcoin là một quá trình có chi phí năng lượng cao nhưng là cần thiết cho việc hoạt động và an ninh của mạng lưới Bitcoin. Bằng chứng công việc và blockchain giải quyết vấn đề chi tiêu gấp đôi và đảm bảo tính xác thực của thông tin mà không cần bất kỳ bên thứ ba đáng tin cậy nào. Chi phí năng lượng là cần thiết để sản xuất thông tin, nhưng việc xác minh thông tin có chi phí không đáng kể. Sự không đối xứng này đảm bảo an ninh của mạng. Do đó, việc tuân theo các quy tắc đồng thuận kinh tế hợp lý hơn là vi phạm chúng.
 
-### Tóm tắt nhanh trên một poster!
 
-![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
+
+Nếu bạn muốn tìm hiểu sâu hơn về chủ đề khai thác Bitcoin, bạn có thể tham khảo khóa học MIN 201 của chúng tôi. Bạn sẽ tìm hiểu về cách hoạt động và vai trò của Proof-of-Work, cũng như các cơ chế của ngành khai thác. Chúng tôi cũng giải thích cách biến ASIC thành lò sưởi, để bạn có thể khai thác satoshi đầu tiên trong khi sưởi ấm ngôi nhà của mình!
+
+https://planb.network/courses/min201
 
 ## Bitcoin và Môi trường
+
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
 Chúng ta vừa thấy trong phần trước rằng an ninh của giao thức Bitcoin dựa trên chi phí năng lượng cao để sản xuất một sổ cái công cộng của các giao dịch mà không cần một bên thứ ba đáng tin cậy. Tổng chi phí năng lượng thường được so sánh với lượng tiêu thụ điện của một quốc gia nhỏ. Nhưng liệu sự so sánh này có ý nghĩa? Liệu nó có phù hợp để hiểu những lý do đằng sau chi phí như vậy không?
 
 ### Chi phí năng lượng của Bitcoin.
+
 Đầu tiên, hãy đánh giá một cách định tính chi phí môi trường của việc khai thác. Một người khai thác cần có một máy như ASIC và một nguồn năng lượng dưới dạng điện để vận hành những máy này. ASIC chủ yếu được làm từ nhôm và có thể được tái chế hoặc tái sử dụng cho một mục đích khác (như đã được chứng minh với [dự án Attakaï](https://decouvrebitcoin.fr/attakai/), biến một Antminer S9 thành một máy sưởi không gian). Vì vậy, mối quan tâm chính là tiêu thụ năng lượng. Hãy cố gắng cung cấp thêm bối cảnh cho vấn đề này.
 ![hình ảnh](assets/en/chapter13/1.webp)
 
@@ -874,9 +916,7 @@ Công nghệ của Bitcoin thường bị hiểu lầm, và những chỉ trích
 
 > Tuân theo một trong những châm ngôn của Bitcoin: Đừng tin, hãy tự mình kiểm chứng!
 
-### Tóm tắt nhanh trên một poster!
 
-![Bitcoin & sinh thái](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Tóm tắt ngắn gọn về các khía cạnh kỹ thuật của Bitcoin
 
@@ -886,10 +926,13 @@ Trung bình, một khối được tạo ra mỗi 10 phút, và thợ đào tìm
 
 Để các thợ đào có thể sinh lời nhất có thể trong hoạt động của mình, họ phải thu được điện giá rẻ nhất có thể, thường ở các địa điểm xa xôi, trong các nhà máy điện chưa được kết nối với lưới điện. Thợ đào sau đó hành động như một người mua cuối cùng, và ngay khi giá điện tăng do tăng cầu, thợ đào sẽ có xu hướng di dời hoạt động của mình sang nơi khác.
 Vì vậy, giao thức Bitcoin là một hệ thống tiền tệ không thể kiểm duyệt và không thể ngăn chặn bởi vì mỗi thành phần của giao thức được phân bố địa lý trên khắp thế giới - ví dụ, có khoảng 40.000 nút Bitcoin trên tất cả các lục địa. Quy tắc đồng thuận của Bitcoin được thiết lập sao cho việc tuân theo chúng có lợi kinh tế hơn là cố gắng phá vỡ chúng, và do đó không cần sự tin tưởng giữa các bên tham gia. Bitcoin không có người lãnh đạo và không thể bị dừng lại. Có thể quản lý các nền tảng giao dịch để hạn chế Bitcoin, nhưng điều này có tác động hạn chế. Nói ngắn gọn, không có thẩm phán hay nhà nước nào có thể kiểm duyệt hoặc ngăn chặn Bitcoin.
+
 # Làm thế nào để có được Bitcoin?
+
 <partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
 ## Bitcoin không bao giờ ngủ!
+
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
 Giá của Bitcoin thường xuyên biến động mạnh. Giá trị của nó có thể thay đổi đáng kể tùy thuộc vào biến động thị trường và các giai đoạn thị trường tăng giá và giảm giá. Điều này xuất hiện trong 100% thị trường tài chính, bao gồm cả Bitcoin.
@@ -938,11 +981,10 @@ Những chu kỳ bong bóng đầu cơ này khá độc đáo trên thế giới
 Hôm nay, vào năm 2023, Bitcoin tiếp tục tồn tại và phát triển thêm nữa bằng cách hòa nhập ngày càng nhiều vào thị trường truyền thống. Sự xuất hiện sắp tới của Bitcoin ETFs, quy định rõ ràng hơn, và các công cụ mua hoặc lưu trữ tốt hơn chỉ khuyến khích xu hướng này. Bitcoin đã MỘT LẦN NỮA sống sót qua bong bóng đầu cơ của mình, vậy có lẽ nó không phải là chuyện vô nghĩa!
 ![image](assets/en/chapter14/3.webp)
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/15._bitcoinr_never_sleeps.webp)
 
 ## Kiếm Bitcoin bằng cách làm việc
+
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
 ### Một nền kinh tế song song đang phát triển
@@ -955,6 +997,7 @@ Nền kinh tế Bitcoin tồn tại và đang phát triển ở một số khu v
 Ngoài ra, để tạo điều kiện sử dụng Bitcoin trong các giao dịch hàng ngày, một dự án mã nguồn mở và hợp tác đã được khởi xướng: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). Nền tảng này liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin cũng như các cộng đồng Bitcoin khác nhau trên thế giới. Bạn có thể truy cập trang web của họ để khám phá hệ sinh thái Bitcoin xung quanh bạn. Như vậy, mặc dù có những khó khăn và do dự, có những sáng kiến như BTCMap góp phần làm cho nền kinh tế Bitcoin trở nên dễ tiếp cận và thuận tiện hơn cho mọi người.
 
 ### Tại sao chấp nhận Bitcoin thay vì mua nó?
+
 Để có được bitcoin, bạn có thể mua chúng trên các nền tảng được quản lý bởi các tổ chức như AMF (Autorité des Marchés Financiers) ở Pháp. Phương pháp này mang theo một số rủi ro và khả năng theo dõi giao dịch của bạn. Một phương pháp khác để có được bitcoin là chấp nhận chúng như một phương tiện thanh toán cho các sản phẩm hoặc dịch vụ bạn cung cấp. Phương pháp này cho phép bạn thu được bitcoin thông qua công việc của mình mà không cần phải lo lắng liên tục về giá của Bitcoin.
 Hơn nữa, việc chấp nhận Bitcoin như một người bán có một số lợi ích, bao gồm khả năng chống kiểm duyệt, giảm phí giao dịch, tăng hiệu quả, bảo vệ chống lạm phát, cũng như tự do tài chính và chủ quyền.
 
@@ -967,14 +1010,21 @@ Hơn nữa, việc chấp nhận Bitcoin như một người bán có một số
 Chúng tôi sẽ đề cập đến chủ đề này chi tiết trong một khóa học khác, nhưng để giữ mọi thứ đơn giản, chúng ta có thể xem xét một số loại hình doanh nghiệp và do đó là các giải pháp liên quan:
 
 - Giải pháp trực tuyến đơn giản: OpenNode
-- Giải pháp cho các nhà bán lẻ không chuyên: Swiss Bitcoin Pay
-- Giải pháp cho các cơ cấu lớn hoặc những người đam mê bitcoin: BTCpay Server
 
-### Tóm tắt nhanh trong một poster!
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
+- Giải pháp cho thương gia nghiệp dư: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
+- Giải pháp cho các cấu trúc lớn hoặc những người đam mê bitcoin: BTCpay Server
+
+https://planb.network/courses/btc305
+
+
 
 ## Tiết kiệm với Bitcoin
+
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
 ### Cảnh báo trước khi bắt đầu!
@@ -1062,11 +1112,10 @@ Ngoài ra, có một số [thị trường](https://planb.network/tutorials/exch
 
 Cũng quan trọng là phải lưu ý rằng thuế có thể được áp dụng trong quyền hạn của bạn. Chúng tôi mời bạn tham khảo quy định của quốc gia mình trước khi thực hiện bất kỳ hành động nào có thể đặt bạn vào rủi ro.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/16._saving_in_bitcoin.webp)
 
 ## Hyper-bitcoinization
+
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
 
 ### Cuộc đua hoang dã mới chỉ bắt đầu!
@@ -1087,14 +1136,14 @@ Nếu bạn muốn mở rộng kiến thức về Bitcoin, một số lượng l
 
 > Milton Friedman, một nhà kinh tế học nổi tiếng, đã dự đoán vào năm 1999: "Tôi nghĩ rằng Internet sẽ trở thành một trong những lực lượng chính giảm bớt vai trò của chính phủ. Điều duy nhất còn thiếu, nhưng sẽ sớm được phát triển, là một phương thức e-cash đáng tin cậy - một phương thức mà trên Internet bạn có thể chuyển tiền từ A sang B mà không cần A biết B hoặc B biết A."
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/18._hyperbitcoinization.webp)
 
 # Tương Lai của Bitcoin: Mạng Lưới Lightning
+
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
 ## Giới Thiệu Ngắn Gọn về Mạng Lưới Lightning
+
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
 Bây giờ chúng ta đã biết cơ bản về giao thức Bitcoin, chúng ta sẽ giới thiệu một mạng lưới thanh toán sử dụng giao thức Bitcoin để kích hoạt các giao dịch cực kỳ nhanh. Chúng tôi đang nói về Mạng Lưới Lightning!
@@ -1130,11 +1179,14 @@ Giao dịch được bảo mật thông qua mã hóa và gián tiếp thông qua
 
 Tóm lại, Mạng lưới Lightning là một nỗ lực hứa hẹn để triển khai một hệ thống thanh toán hiệu quả cho việc giao dịch bằng Bitcoin. Đã có nhiều ví Lightning khác nhau có sẵn, mà bạn có thể khám phá trong phần hướng dẫn của chúng tôi hoặc qua đào tạo Mạng lưới Lightning của chúng tôi.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/20._lightning_network.webp)
+
+Nếu bạn muốn tìm hiểu sâu hơn ngoài phần giới thiệu này và hiểu tất cả các cơ chế của Lightning Network, tôi khuyên bạn nên tham gia khóa học xuất sắc này của Fanis Michalakis về chủ đề này:
+
+https://planb.network/courses/lnp201
 
 ## Các Trường Hợp Sử Dụng của Mạng lưới Lightning
+
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 Như chúng ta vừa thấy, giao thức Bitcoin, mặc dù mang tính cách mạng, đối mặt với những thách thức đáng kể về khả năng mở rộng để xử lý tất cả các giao dịch hàng ngày của chúng ta. Để giải quyết những vấn đề này, một giải pháp lớp thứ hai được biết đến với tên gọi Mạng lưới Lightning đã được đề xuất vào năm 2016 và hiện nay có một số triển khai khác nhau, tất cả đều tương thích với nhau:
@@ -1146,6 +1198,7 @@ Như chúng ta vừa thấy, giao thức Bitcoin, mặc dù mang tính cách m�
 Mạng lưới ngang hàng này nhằm mục đích tạo điều kiện cho các micro-giao dịch, là các giao dịch có giá trị rất thấp mà nếu không sẽ không khả thi do phí cao và thời gian xác nhận dài trên blockchain Bitcoin.
 
 ### Các trường hợp sử dụng của mạng lưới là gì?
+
 Công nghệ này mở ra cánh cửa cho một loạt các ứng dụng tiềm năng cho Bitcoin mà trước đây không thể tiếp cận do những hạn chế cần thiết để đảm bảo an ninh và sự phân quyền của Bitcoin. Trong số những ứng dụng này trong cuộc sống hàng ngày, chúng ta có thể kể đến việc thanh toán tức thì trong thương mại (cả vật lý và trực tuyến), chuyển tiền theo thời gian thực và micro-donations cho nội dung. Bằng cách triển khai một mạng lưới giao dịch gần như tức thì, an toàn và chi phí thấp (trung bình dưới 0.5%), nhiều mô hình kinh doanh trước đây không thể tưởng tượng được có thể được triển khai. Điều này có thể thực hiện được vì Lightning Network sử dụng sats (phần thập phân của bitcoin) để hoạt động.
 ![image](assets/en/chapter19/9.webp)
 
@@ -1164,18 +1217,17 @@ Trong một hệ thống như vậy, tiền được tự động chia, dựa tr
 
 Kết luận, Lightning Network mở ra một loạt các trường hợp sử dụng thú vị cho người dùng Bitcoin. Các mô hình kinh tế và cơ hội kinh doanh phát sinh là nhiều và đa dạng. Chúng tôi khuyến khích bạn tự mình thử nghiệm bằng cách thử ứng dụng podcast [Fountain](https://www.fountain.fm/), cho phép bạn được thưởng một vài sats cho việc nghe các podcast yêu thích của mình!
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/21._ln_use_cases.webp)
 
 ## Viên thuốc đỏ hay viên thuốc xanh?
+
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
 Như Morpheus đã nói với Neo: "Bạn uống viên thuốc xanh, câu chuyện kết thúc, bạn thức dậy trên giường của mình, và bạn tin vào bất cứ điều gì bạn muốn tin. Bạn uống viên thuốc đỏ, bạn ở lại Wonderland, và tôi sẽ cho bạn thấy con thỏ hố sâu như thế nào." Bạn đã sẵn sàng để khám phá con thỏ hố của Bitcoin? Hãy cẩn thận, vì bạn có thể tái khám phá tự do tài chính của mình!
 
-![red pill](assets/posters/fr/2_pilluleorange.webp)
 
 ### Tương lai công nghệ và những hệ quả của nó
+
 Công nghệ đang phát triển theo cấp số nhân, và không ai có thể dự đoán chính xác các phát triển tương lai của nó. Sự kết nối của thế giới và trí tuệ nhân tạo tiếp tục tiến bộ. Kiến thức mà một cá nhân có thể thu thập qua internet ngày càng trở nên không thể đo lường được theo thời gian.
 
 Hãy lấy AI làm ví dụ. Công nghệ này đã vượt qua hoặc đang tiến gần đến hiệu suất ngang bằng con người trong một số lĩnh vực ngày càng tăng, như trò chơi video, sản xuất hình ảnh và văn bản, và phân tích dữ liệu. Một hậu quả tiềm năng là hơn 80% công việc sẽ biến mất do AI và tự động hóa. Chúng ta có một số lựa chọn, như kiềm chế tiến bộ công nghệ hoặc tận dụng vốn tăng thêm từ lợi ích năng suất do AI tạo ra.
@@ -1213,7 +1265,7 @@ Việc kiểm duyệt cũng cần được đặt câu hỏi vì ai có kiến t
 
 - Ai quyết định cái gì là kiểm duyệt hay tuyên truyền?
 - Ai có quyền lực tối cao trên hệ thống của chúng ta?
-Chấp nhận kiểm duyệt có thể phá hủy tự do ngôn luận và quyền tụ tập. Việc thực hiện kiểm duyệt là kỹ thuật khó khăn mà không tạo ra một xã hội hoàn toàn độc tài. Thực thể nào nên có quyền kiểm duyệt? Câu hỏi về kiểm duyệt phức tạp và khó biết ai nên bị kiểm duyệt hay không. Kiểm duyệt có thể có tác động tiêu cực đến sự đổi mới và tự do kinh doanh.
+  Chấp nhận kiểm duyệt có thể phá hủy tự do ngôn luận và quyền tụ tập. Việc thực hiện kiểm duyệt là kỹ thuật khó khăn mà không tạo ra một xã hội hoàn toàn độc tài. Thực thể nào nên có quyền kiểm duyệt? Câu hỏi về kiểm duyệt phức tạp và khó biết ai nên bị kiểm duyệt hay không. Kiểm duyệt có thể có tác động tiêu cực đến sự đổi mới và tự do kinh doanh.
 
 Có 2.4 tỷ người trên thế giới không có tài khoản ngân hàng, điều này tạo ra bất bình đẳng địa lý. Bitcoin cho phép bình đẳng trong giao dịch, bất kể địa vị xã hội hay vị trí chính trị của bạn. Giao thức Bitcoin là phi chính trị và không cấp quyền lợi đặc biệt cho tổng thống hay các nhân vật khác. Lãnh đạo nên có cùng quyền lợi như người dân thường để thúc đẩy phát triển lên cao hơn thay vì để một số người ở trên cao và những người khác ở dưới thấp. Liệu mọi người có nên sử dụng cùng một loại tiền tệ, bất kể địa vị xã hội của họ? Quan trọng là phải suy nghĩ về thế giới mà chúng ta muốn để lại cho con cái mình. Chúng ta mong muốn để lại một thế giới mở cửa, nơi họ tự do làm những gì họ muốn với tiền của mình.
 
@@ -1231,26 +1283,17 @@ Bitcoin không thể bị dừng lại và không thể bị kiểm duyệt nữ
 
 Thay đổi hệ thống tài chính đòi hỏi phải thay đổi tiền tệ. Satoshi đã tạo ra Bitcoin vào năm 2008 để đề xuất một nỗ lực như vậy. Việc tiếp cận với tiền "ma thuật" dễ dàng làm hỏng. Do đó, Bitcoin là một lựa chọn để xây dựng một hệ thống tiền tệ trung lập mới. Bitcoin cho phép giải phóng khỏi hệ thống ngân hàng. Đó là một hiện tượng xã hội dẫn chúng ta tham gia vào một cuộc cách mạng hòa bình. Bạn đã sẵn sàng tham gia chưa?
 
-## Lời cảm ơn và tiếp tục khám phá
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+# Kết luận
 
-### Đi sâu hơn
-
-Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực sự hy vọng bạn đã thích nó và nó đã mở cửa cho bạn. Khám phá về bitcoin của bạn chỉ mới bắt đầu, và tôi mời bạn khám phá tất cả các khóa học khác có sẵn tại trường đại học.
-
-- [BTC 102](https://planb.network/courses/btc102) sẽ giúp bạn thiết lập kế hoạch bitcoin của mình
-- [LNP 201](https://planb.network/courses/lnp201) sẽ giúp bạn khám phá Lightning Network, một mạng lưới thanh toán tầng thứ hai
-- [ECO 201](https://planb.network/courses/eco01) sẽ bao gồm kinh tế học Áo
-- [SCU 101](https://planb.network/courses/scu101) sẽ giúp bạn cập nhật về an ninh số
-- [MIN 201](https://planb.network/courses/min201) để tìm hiểu thêm về việc đào
-- và nhiều hơn nữa...
-
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
 ## Đánh giá khóa học
+
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Kỳ thi cuối cùng
+## Kỳ thi cuối khóa
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1258,6 +1301,24 @@ Xin chúc mừng bạn đã hoàn thành khóa học BTC 101 này! Tôi thực s
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Chúc mừng bạn đã hoàn thành khóa học này!**
+Chúc mừng bạn đã hoàn thành khóa học BTC 101! Tôi chân thành hy vọng rằng bạn đã thích nó và nó đã mở ra những cánh cửa mới cho bạn. Hành trình khám phá Bitcoin của bạn mới chỉ bắt đầu và tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
 
-Xin lưu ý rằng chương này hiện đang được xây dựng và phiên bản cải tiến sẽ sớm ra mắt. Trong thời gian chờ đợi, nếu bạn háo hức tiếp tục hành trình Bitcoin của mình, chúng tôi mời bạn khám phá các khóa học và hướng dẫn khác có sẵn trên nền tảng của chúng tôi. Hãy tiếp tục công việc tốt đẹp và học tập vui vẻ!
+#### Nhận và bảo mật bitcoin đầu tiên của bạn với
+
+https://planb.network/courses/btc102
+
+#### Khám phá Lightning Network với
+
+https://planb.network/courses/lnp201
+
+#### Tìm hiểu về Trường phái Kinh tế học Áo với
+
+https://planb.network/courses/eco201
+
+#### Cập nhật bảo mật trực tuyến của bạn với
+
+https://planb.network/courses/scu101
+
+#### Hiểu về các nguyên tắc cơ bản của Bitcoin và xây dựng hệ thống sưởi gia đình của bạn với
+
+https://planb.network/courses/min201

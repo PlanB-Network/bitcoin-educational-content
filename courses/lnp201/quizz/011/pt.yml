@@ -1,9 +1,8 @@
-question: O que é um endereço de múltiplas assinaturas no contexto da Lightning Network?
-answer: Um endereço que requer duas assinaturas para desbloquear os fundos.
+question: Por que Alice cria uma transação de retirada antes de publicar a transação de depósito?
+answer: Para recuperar seus fundos em caso de problema com Bob
 wrong_answers:
-  - Um endereço que pode ser usado por vários usuários.
-  - Um endereço que pode armazenar vários tipos de criptomoedas.
-  - Um endereço que pode ser acessado a partir de vários dispositivos.
+  - Para aumentar a capacidade do canal com cada transação
+  - Para realizar uma transação Lightning imediatamente após a abertura
+  - Para permitir que Bob gaste os fundos diretamente
 explanation: |
-  Na Lightning Network, são utilizados endereços de múltiplas assinaturas. Esses endereços requerem duas assinaturas, ou seja, duas chaves privadas, para desbloquear os fundos. Isso significa que duas partes devem concordar em desbloquear o dinheiro.
-reviewed: false
+  Alice cria uma transação de retirada para recuperar seus fundos se ocorrer um problema com Bob, garantindo assim a segurança de seu depósito.

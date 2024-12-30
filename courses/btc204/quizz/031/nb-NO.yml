@@ -1,0 +1,9 @@
+question: Hvis i en enkel betalingstransaksjon den samme adressen brukes i en inngang og på en av de 2 utgangene, hvilken utgang representerer sannsynligvis vekselen?
+answer: Den med samme adresse som inngangen.
+wrong_answers:
+  - Den med den mest nylige adressen.
+  - Den med en annen adresse enn inngangen.
+  - Den med en ukjent adresse.
+explanation: |
+  Hvis det skjer en adressegjenbruk innenfor samme transaksjon, er det rimelig å anta at brukeren fortsatt besitter den tilknyttede UTXOen. Derfor er utgangen med samme adresse som inngangen sannsynligvis vekselen.
+reviewed: false

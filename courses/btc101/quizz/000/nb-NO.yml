@@ -1,0 +1,9 @@
+question: Hva er Bitcoin?
+answer: Bitcoin er et peer-to-peer elektronisk kontantsystem.
+wrong_answers:
+  - Bitcoin er en type fysisk valuta.
+  - Bitcoin er en sentralisert digital valuta kontrollert av en enkelt enhet.
+  - Bitcoin er en type aksje eller obligasjon.
+explanation: |
+  Som det står i hvitboken, er Bitcoin et peer-to-peer datamaskinprotokoll som implementerer et monetært system uten behovet for å stole på tredjeparter.
+reviewed: true

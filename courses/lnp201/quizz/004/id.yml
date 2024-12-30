@@ -1,0 +1,8 @@
+question: Apa yang memungkinkan Jaringan Lightning dibandingkan dengan transaksi tradisional di blockchain Bitcoin?
+answer: Transaksi cepat dengan biaya minimal
+wrong_answers:
+  - Transaksi anonim dan tidak dapat dilacak
+  - Transaksi dalam jumlah besar tanpa batas volume
+  - Transaksi antar blockchain yang berbeda
+explanation: |
+  Jaringan Lightning memungkinkan transaksi cepat dan biaya rendah melalui saluran pembayaran off-chain, yang berbeda dari transaksi reguler di blockchain.

@@ -281,7 +281,7 @@ Ledger Flexに表示されたアドレスがSparrow Walletに示されたもの�
 
 ラベリングに関する詳細情報については、この他のチュートリアルもチェックすることをお勧めします：
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 その後、このアドレスを使用してビットコインを受け取ることができます。
 

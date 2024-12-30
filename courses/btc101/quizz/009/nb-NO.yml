@@ -1,0 +1,10 @@
+question: Hvilke teknologier bruker Bitcoin-protokollen?
+answer: Kryptografi, nettverkskommunikasjon og blokkjeden.
+wrong_answers:
+  - Kunstig intelligens, maskinlæring og blokkjeden.
+  - Kvanteberegning, nettverkskommunikasjon og blokkjeden.
+  - Kryptografi, kunstig intelligens og blokkjeden.
+explanation: >-
+  Bitcoin-protokollen bruker underliggende teknologier som kryptografi,
+  nettverkskommunikasjon og blokkjeden.
+reviewed: true

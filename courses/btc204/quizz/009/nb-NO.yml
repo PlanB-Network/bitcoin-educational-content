@@ -1,0 +1,9 @@
+question: Hva er de 2 elementene som utgjør blokkbelønningen i en coinbase-transaksjon?
+answer: Blokksubsidiet og transaksjonsgebyrene.
+wrong_answers:
+  - Blokksubsidiet og hastighetsbonusene.
+  - Utslippstillatelsene og sikkerhetspremiene.
+  - Gravedividendene og nettverksskattene.
+explanation: |
+  Når en miner finner en gyldig blokk, har de rett på en belønning som består av, på den ene siden, blokksubsidiet, og på den andre siden, gebyrene for transaksjonene de har inkludert i sin blokk.
+reviewed: false

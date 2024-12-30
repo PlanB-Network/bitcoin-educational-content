@@ -10,11 +10,11 @@ Dnes existuje mnoho řešení pro obchodníky, kteří chtějí přijímat Bitco
 
 Pro ty, kteří dávají přednost tomu, aby se nezabývali a přijímali prostředky přímo ve fiat měně na svůj bankovní účet, jsou k dispozici poručnická řešení jako Open Node:
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Pro obchodníky, kteří jsou připraveni "zamazat si ruce" a chtějí mít plnou kontrolu nad procesem, je software BTCPay Server vynikající volbou. Hlavní nevýhodou BTCPay Serveru je však to, že jeho nastavení a správa vyžadují čas a určité technické dovednosti:
 
-https://planb.network/tutorials/merchant/btcpay-server
+https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Ze všech těchto řešení se Swiss Bitcoin Pay jeví jako velmi zajímavý kompromis kombinující snadné použití, funkce a bezpečnost. Toto řešení je vhodné jak pro velmi malé podniky, tak pro větší struktury. V tomto návodu objevíte, jak snadno používat Swiss Bitcoin Pay k přijímání Bitcoinu ve vašem podnikání.
 

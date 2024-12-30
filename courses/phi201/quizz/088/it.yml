@@ -1,0 +1,9 @@
+question: Qual è la relazione tra libertà politica e libertà economica secondo Constant?
+answer: Le due libertà sono interdipendenti.
+wrong_answers:
+  - La libertà politica è un prerequisito necessario per la libertà economica.
+  - La libertà economica è un prerequisito necessario per la libertà politica.
+  - Le due libertà sono incompatibili tra loro.
+explanation: |
+  Per Benjamin Constant, la libertà politica e la libertà economica sono strettamente collegate, poiché l'autonomia individuale dipende tanto dalla capacità di partecipare agli affari pubblici quanto dalla libertà di svolgere attività economiche senza ostacoli.
+reviewed: false

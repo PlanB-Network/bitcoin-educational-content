@@ -1,9 +1,9 @@
-question: Qual è la tendenza generale di Bitcoin a causa della sua quantità limitata e del processo di dimezzamento?
+question: Qual è la tendenza generale del Bitcoin, considerando la sua offerta limitata e il processo di dimezzamento?
 answer: Una tendenza generale al rialzo.
 wrong_answers:
   - Una tendenza generale al ribasso.
-  - Nessuna tendenza affatto.
-  - Una tendenza che fluttua selvaggiamente senza un pattern discernibile.
-explanation: |
-  Bitcoin, a causa della sua quantità limitata di 21 milioni di bitcoin e del suo processo di dimezzamento (riduzione della creazione monetaria ogni 4 anni in media), segue una tendenza generale al rialzo.
-reviewed: false
+  - Nessuna tendenza.
+  - Una tendenza che fluttua selvaggiamente senza un modello discernibile.
+explanation: >-
+  Il Bitcoin, data la sua quantità limitata di 21 milioni di bitcoin e il suo processo di dimezzamento (che dimezza la creazione monetaria ogni 4 anni in media), segue una tendenza generale al rialzo.
+reviewed: true

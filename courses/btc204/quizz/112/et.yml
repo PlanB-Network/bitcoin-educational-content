@@ -1,0 +1,13 @@
+question: Mis on kaastöötaja roll Stonewall x2 tehingus?
+
+answer: Pakkuda bitcoine, et lisada kahtlust
+
+wrong_answers:
+  - Tegutseda tehingu koordinaatorina
+  - Vastu võtta maksesumma
+  - Saata maksesumma
+
+explanation: |
+  Kaastöötaja Stonewall x2 tehingus pakub bitcoine, et lisada tehingu analüüsile kahtlust, samal ajal täielikult oma vahendid lõpus taastades (neile neutraalne tegevus, miinus kaevandamistasud).
+
+reviewed: false

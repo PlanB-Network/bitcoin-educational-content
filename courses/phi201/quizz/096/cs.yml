@@ -1,0 +1,9 @@
+question: Jaká je podle Marxe základní iluze státu?
+answer: Reprezentuje obecný zájem a ne specifické zájmy třídy.
+wrong_answers:
+  - Je schopen zaručit nestrannost.
+  - Slouží občanské společnosti.
+  - Podporuje třídní boj.
+explanation: |
+  Pro Marxe stát tvrdí, že reprezentuje obecný zájem, ale ve skutečnosti je nástrojem ve službách zájmů dominantní třídy, čímž perpetuuje utlačování podřízených tříd.
+reviewed: false

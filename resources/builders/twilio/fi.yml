@@ -1,0 +1,5 @@
+description: |
+  Twilio on yritys, joka on erikoistunut pilvipohjaisiin viestintäratkaisuihin, kuten SMS-viestien, äänipuheluiden ja ilmoitusten lähettämiseen API-rajapinnan kautta. Se tarjoaa myös Authy-sovelluksen, joka on kaksivaiheinen tunnistautumistyökalu (2FA), joka suojaa tilit luomalla väliaikaisia koodeja.
+
+contributors:
+  - pretty-private

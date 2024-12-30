@@ -1,0 +1,9 @@
+question: Một chuỗi ngẫu nhiên được định nghĩa như thế nào trong chương này?
+answer: Là một chuỗi được chọn một cách đồng đều từ tất cả các chuỗi có cùng độ dài
+wrong_answers:
+  - Là một chuỗi chỉ được tạo ra với các bit 0 và 1
+  - Là một chuỗi thu được từ việc chọn lựa thủ công
+  - Là một chuỗi có độ dài biến đổi kết quả từ quá trình mã hóa
+explanation: |
+  Một chuỗi ngẫu nhiên được định nghĩa là được chọn từ một lựa chọn đồng đều giữa tất cả các chuỗi có thể có cùng độ dài.
+reviewed: false

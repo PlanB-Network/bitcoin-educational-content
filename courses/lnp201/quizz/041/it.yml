@@ -1,9 +1,9 @@
-question: Qual è la differenza tra una transazione di chiusura e una transazione di impegno in una chiusura cooperativa?
-answer: Una transazione di chiusura non ha Timelock e chiave di revoca.
+question: Perché è difficile per un nodo trasmittente stimare l'esatta liquidità di un canale?
+answer: Perché solo i due partecipanti conoscono la precisa distribuzione dei fondi
 wrong_answers:
-  - Una transazione di chiusura ha un Timelock e una chiave di revoca.
-  - Una transazione di chiusura è più lenta di una transazione di impegno.
-  - Una transazione di chiusura è più costosa di una transazione di impegno.
+  - Perché la capacità totale dei canali è in costante cambiamento
+  - Perché le commissioni dei nodi intermedi non sono pubblicate
+  - Perché i canali si chiudono automaticamente dopo ogni transazione
 explanation: |
-  In una chiusura cooperativa, i due partecipanti concordano uno stato finale del canale e creano una transazione di chiusura. Questa transazione è diversa dalle transazioni di impegno perché non ha Timelock e chiave di revoca.
+  La precisa distribuzione dei fondi in un canale è visibile solo ai due nodi partecipanti, impedendo ad altri nodi di stimare la liquidità disponibile per il routing.
 reviewed: false

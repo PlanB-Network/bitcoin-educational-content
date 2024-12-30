@@ -5,8 +5,9 @@ wrong_answers:
   - A network that hides your online activity from your internet service provider.
   - A network that allows you to browse the internet faster.
 explanation: |
-  The TOR (The Onion Router) network is a network that offers anonymity
-  by masking the user's IP address and allowing access to the Darknet. It is used
-  by journalists, freedom activists, and others wishing to escape censorship in authoritarian
-  countries.
-reviewed: false
+  The TOR (The Onion Router) network is a network that offers
+  anonymity by masking the user's IP address and allowing
+  access to the Darknet. It is used by journalists, freedom
+  activists, and others wishing to escape censorship in
+  authoritarian countries.
+reviewed: true

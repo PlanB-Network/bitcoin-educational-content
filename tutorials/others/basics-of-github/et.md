@@ -57,5 +57,5 @@ Git'i ja GitHub'i kasutades kohtate käsklusi ja funktsioone, mille nimed võiva
 
 See nimekiri ei ole kaugeltki ammendav. On palju muid tehnilisi termineid, mis on spetsiifilised Git'ile ja GitHub'ile. Siiski mainitud siin on peamised, millega te sageli kokku puutute.
 Pärast selle artikli lugemist võib olla, et mõned aspektid Git'ist ja GitHub'ist on teile endiselt ebaselged. Julgustan teid neid tööriistu ise kasutama hakkama. Praktika on tihti parim viis mõista, kuidas masin töötab! Alustamiseks võite avastada need 2 teist õpetust:
-- **[Loo oma GitHubi konto](https://planb.network/tutorials/others/create-github-account)**
-- **[Seadista oma kohalik keskkond, et panustada PlanB võrgustikku](https://planb.network/tutorials/others/github-desktop-work-environment)**
+- **[Loo oma GitHubi konto](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[Seadista oma kohalik keskkond, et panustada PlanB võrgustikku](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**

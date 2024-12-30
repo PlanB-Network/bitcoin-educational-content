@@ -1,9 +1,14 @@
 question: Qu'est-ce que la navigation privée ?
-answer: Une fonctionnalité qui empêche les navigateurs internet de stocker l'historique de navigation, les fichiers internet temporaires, les données de formulaire, les cookies, ainsi que les noms d'utilisateur et les mots de passe.
+answer: Une fonctionnalité qui empêche les navigateurs internet de stocker l'historique de navigation, les fichiers internet temporaires, les données de formulaires, les cookies, ainsi que les noms d'utilisateur et mots de passe.
 wrong_answers:
-  - Une fonctionnalité qui cache votre activité en ligne à votre fournisseur de services internet.
+  - Une fonctionnalité qui cache votre activité en ligne à votre fournisseur d'accès internet.
   - Une fonctionnalité qui vous permet de naviguer sur internet de manière anonyme.
   - Une fonctionnalité qui protège votre appareil contre les virus et autres logiciels malveillants.
 explanation: |
-  La navigation privée est une fonctionnalité qui empêche les navigateurs internet de stocker l'historique de navigation, les fichiers internet temporaires, les données de formulaire, les cookies, ainsi que les noms d'utilisateur et les mots de passe. Cependant, elle ne cache pas votre activité en ligne à votre fournisseur de services internet et ne vous permet pas de naviguer sur internet de manière anonyme.
-reviewed: false
+  La navigation privée est une fonctionnalité qui empêche les
+  navigateurs internet de stocker l'historique de navigation, les fichiers
+  internet temporaires, les données de formulaires, les cookies, et les noms
+  d'utilisateur et mots de passe. Cependant, elle ne cache pas votre activité
+  en ligne à votre fournisseur d'accès internet ni ne vous permet de naviguer
+  sur internet de manière anonyme.
+reviewed: true

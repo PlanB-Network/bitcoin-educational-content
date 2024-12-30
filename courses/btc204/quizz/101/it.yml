@@ -1,0 +1,13 @@
+question: Come viene calcolata l'entropia nel contesto dell'analisi delle catene su Bitcoin?
+
+answer: Prendendo il logaritmo binario del numero di interpretazioni.
+
+wrong_answers:
+  - Moltiplicando il numero di input per il numero di output.
+  - Sommando il numero di input e output.
+  - Prendendo il logaritmo binario del numero di input e output.
+
+explanation: |
+  L'entropia è definita come il logaritmo binario del numero di combinazioni possibili.
+
+reviewed: false

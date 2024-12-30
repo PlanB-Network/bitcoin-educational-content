@@ -1,0 +1,8 @@
+question: Blant de følgende svarene, hvilket er ikke en del av de 3 hovedkategoriene av heuristikker og karakteristikker brukt i kjedeanalyse?
+answer: Kryptografimodeller.
+wrong_answers:
+  - Transaksjonsmodeller.
+  - Intern transaksjonsheuristikk.
+  - Ekstern transaksjonsheuristikk.
+explanation: |
+  Heuristikkene som brukes i kjedeanalyse kan grupperes i tre kategorier; transaksjonsmønstre (eller transaksjonsmodeller), intern transaksjonsheuristikk, og ekstern transaksjonsheuristikk.

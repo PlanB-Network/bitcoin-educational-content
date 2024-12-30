@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito del hash de la preimagen en una factura de la Red Lightning?
-answer: Se utiliza para desbloquear el pago.
-wrong_answers:
-  - Se utiliza para encriptar los datos de la factura.
-  - Se utiliza para verificar la identidad del destinatario.
-  - Se utiliza para calcular la comisión de la transacción.
-explanation: |
-  El hash de la preimagen en una factura de la Red Lightning se utiliza para desbloquear el pago. El destinatario del pago debe proporcionar la preimagen que coincida con el hash para recibir los fondos.
-reviewed: false

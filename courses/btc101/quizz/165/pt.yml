@@ -1,9 +1,14 @@
-question: Como o protocolo do Bitcoin garante que o tempo médio entre dois blocos permaneça constante?
-answer: A dificuldade de encontrar um hash válido é ajustada a cada 2016 blocos.
+question: Como o protocolo Bitcoin mantém um tempo médio consistente entre a criação de dois blocos?
+  remains constant?
+answer: A dificuldade de encontrar um hash válido ajusta-se a cada 2016 blocos.
 wrong_answers:
-  - O número de mineradores é regulado.
-  - O tamanho dos blocos é ajustado.
+  - O número de mineradores é regulado para um número fixo.
+  - O tamanho dos blocos é ajustado para 10 megabytes.
   - A recompensa por encontrar um hash válido é aumentada.
 explanation: |
-  O protocolo do Bitcoin garante que o tempo médio entre dois blocos permaneça constante ajustando a dificuldade de encontrar um hash válido a cada 2016 blocos. Isso acontece independentemente do número de mineradores e do poder de computação deles.
-reviewed: false
+  O protocolo Bitcoin garante que o tempo médio entre
+  dois blocos permaneça constante ajustando a dificuldade de
+  encontrar um hash válido a cada 2016 blocos. Esse evento acontece
+  independentemente do número de mineradores e do seu poder de
+  computação.
+reviewed: true

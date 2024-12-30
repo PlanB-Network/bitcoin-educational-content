@@ -1,0 +1,9 @@
+question: According to Adam Smith, why does the market function?
+answer: Because it is based on self-interest
+wrong_answers:
+  - Because it is regulated
+  - Because it is virtuous
+  - Because it is monitored by the state
+explanation: |
+  For Adam Smith, the market functions because each individual acts in their own self-interest, which naturally generates collective prosperity.
+reviewed: false

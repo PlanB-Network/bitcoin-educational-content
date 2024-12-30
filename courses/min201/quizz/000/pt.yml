@@ -1,13 +1,14 @@
-question: Qual é a recompensa atual de mineração na rede Bitcoin?
-answer: A criação de novos bitcoins e as taxas de transação
+question: Qual é a recompensa atual pela mineração na rede Bitcoin?
+answer: A criação de novos bitcoins e taxas de transação
 wrong_answers:
-  - Apenas a criação de novos bitcoins
+  - A criação de novos bitcoins apenas
   - Apenas taxas de transação
   - A criação de novos bitcoins, taxas de transação e um bônus para o minerador mais rápido
 explanation: |
-  A recompensa atual de mineração na rede Bitcoin é dupla. Inclui
-  a criação de novos bitcoins, que diminuiu de 50 bitcoins a cada dez minutos
-  inicialmente para 6,25 bitcoins hoje (2023). Também inclui taxas de transação, ou taxas de mineração,
-  das transações que o minerador escolhe incluir em seu bloco.
-reviewed: false
-
+  A recompensa atual pela mineração na rede Bitcoin é
+  dupla. Inclui a criação de novos bitcoins, que
+  diminuiu de 50 bitcoins a cada dez minutos inicialmente
+  para 6,25 bitcoins hoje (2023). Também inclui taxas de
+  transação, ou taxas de mineração, das transações que o minerador
+  escolhe incluir em seu bloco.
+reviewed: true

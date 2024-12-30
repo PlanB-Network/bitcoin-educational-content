@@ -1,0 +1,9 @@
+question: Bagaimana kunci publik dihitung dari kunci privat?
+answer: Dengan menggunakan perkalian skalar pada kurva eliptik
+wrong_answers:
+  - Dengan menerapkan hash pada kunci privat
+  - Melalui enkripsi asimetris
+  - Dengan penambahan berulang nilai numerik
+explanation: |
+  Kunci publik diperoleh dengan perkalian skalar dari kunci privat dengan titik generator G pada kurva eliptik.
+ditinjau: false

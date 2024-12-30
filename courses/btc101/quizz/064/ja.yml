@@ -1,9 +1,9 @@
-question: Bitcoinノード上で流通しているビットコインの数量を確認するコマンドは何ですか？
-answer: bitcoin-cli gettxoutsetinfo
+question: Bitcoinノード上で流通しているビットコインの量を確認するコマンドは何ですか？
+answer: bitcoin-cli gettxoutsetinfo。
 wrong_answers:
-  - bitcoin-cli getblockchaininfo
-  - bitcoin-cli getwalletinfo
-  - bitcoin-cli getnetworkinfo
+  - bitcoin-cli getblockchaininfo。
+  - bitcoin-cli getwalletinfo。
+  - bitcoin-cli getnetworkinfo。
 explanation: |
-  Bitcoinノード上で流通しているビットコインの数量を確認するコマンドはbitcoin-cli gettxoutsetinfoです。このコマンドは透明性と検証可能性を提供し、Bitcoinシステムへの信頼を強化します。
-確認済み: true
+  Bitcoinノード上で流通しているビットコインの量を確認するコマンドはbitcoin-cli gettxoutsetinfoです。このコマンドは透明性と検証可能性を提供し、Bitcoinシステムへの信頼を強化します。
+  レビュー済み: true

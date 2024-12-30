@@ -1,0 +1,9 @@
+question: Thuật ngữ champ premier hoặc corps premier có nghĩa là gì?
+answer: Một trường có số phần tử là một số nguyên tố
+wrong_answers:
+  - Một trường chỉ chứa các số nguyên tố
+  - Một trường được định nghĩa hoàn toàn bởi phép cộng của các số nguyên tố
+  - Một trường sử dụng các vector ngẫu nhiên
+explanation: |
+  Một trường nguyên tố chứa số phần tử bằng một số nguyên tố, làm cho nó trở thành một trường cơ bản cho các hoạt động mật mã.
+reviewed: false

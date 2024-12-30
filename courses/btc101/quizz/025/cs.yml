@@ -1,11 +1,12 @@
-question: Jaká je hlavní výhoda Bitcoinu oproti ostatním formám měny?
-answer: Nabízí vynikající uchování hodnoty díky své přísně omezené nabídce a neutralitě.
+question: Jaká je hlavní výhoda Bitcoinu oproti jiným formám měny?
+answer: Nabízí vynikající uchování hodnoty díky svému striktně omezenému množství a neutralitě.
 wrong_answers:
-  - Je nedělitelný a přenosný
-  - Je předmětem měnové inflace
-  - Je široce akceptován v obchodě
+  - Je nedělitelný a nepřenosný.
+  - Je skvělým příkladem měny, která trpí měnovou inflací.
+  - Je široce přijímán v obchodě všemi obchodníky na světě.
 explanation: |
-  Hlavní výhoda Bitcoinu oproti ostatním formám měny spočívá v tom, že
-  nabízí vynikající uchování hodnoty díky své přísně omezené nabídce a absenci důvěryhodné strany. To z
-  něj činí dobrou volbu pro dlouhodobé spoření.
-reviewed: false
+  Hlavní výhoda Bitcoinu oproti jiným formám měny
+  spočívá v tom, že nabízí vynikající uchování hodnoty díky svému
+  striktně omezenému množství a absenci důvěryhodné strany. To
+  z něj činí dobrou volbu pro dlouhodobé spoření.
+reviewed: true

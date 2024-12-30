@@ -1,0 +1,9 @@
+question: How does an online service verify a password without storing it directly?
+answer: By comparing the hash of the entered password with the one in the database
+wrong_answers:
+  - By decrypting the stored password to verify it
+  - By using a public key to verify identity
+  - By comparing the password directly with that of other users
+explanation: |
+  The service generates a hash of the entered password and compares it with the stored one, without ever directly storing the password, thus ensuring increased security.
+reviewed: false

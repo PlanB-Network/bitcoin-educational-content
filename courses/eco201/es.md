@@ -17,9 +17,11 @@ Esta corriente de pensamiento ya cuenta con varios siglos de historia y tiene de
 +++
 
 # Introducción a ECON
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Introducción
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Hola a todos y bienvenidos a Econ 201: Introducción a la Economía Austriaca.
@@ -38,6 +40,7 @@ Agradezco sinceramente a Théo por producir este curso y espero que sea un excel
 Si estás listo para embarcarte en esta aventura, te invito a hacer clic en el siguiente video y comenzar con el video adicional sobre nuestro sistema financiero actual. Ahora le doy la palabra a Théo. Gracias a él por colaborar con Descoupes Bitcoin en la realización de este video. Nos vemos muy pronto. ¡Adiós!
 
 ## Dinero, Crédito, Bancos y Bancos Centrales
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > "El problema fundamental con la moneda convencional es toda la confianza que se requiere para que funcione. Se debe confiar en el banco central para que no devalúe la moneda, pero la historia de las monedas fiduciarias está llena de violaciones de esa confianza. Se debe confiar en los bancos para que guarden nuestro dinero y lo transfieran electrónicamente, pero lo prestan en oleadas de burbujas de crédito con apenas una fracción en reserva. Debemos confiar en ellos con nuestra privacidad, confiar en que no permitirán que los ladrones de identidad vacíen nuestras cuentas".
@@ -126,9 +129,11 @@ Para lograr este objetivo, explicaremos los principios fundamentales de la "Econ
 En el próximo capítulo, profundizaremos en la piedra angular fundamental de cualquier corriente de pensamiento económico: la teoría del valor. Los capítulos siguientes explorarán el dinero como una institución social, la teoría del capital y el ciclo económico, el desafío del cálculo económico y una breve descripción de la historia y metodología de la Escuela Austriaca de Economía.
 
 # Fundamentos Teóricos
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 
 ## La Teoría Subjetiva del Valor
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > "El valor solo existe dentro de la conciencia humana"
@@ -209,6 +214,7 @@ Basándose en las ideas del valor ordinal subjetivo, Menger explicó el surgimie
 Los siguientes capítulos estarán dedicados al surgimiento del dinero como un fenómeno social, la teoría del capital y el interés, que servirán de base para la Teoría del Ciclo Económico, y por último, el papel de los precios en el cálculo económico.
 
 ## El Surgimiento del Dinero como un Fenómeno Social
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Si bien los individuos tienen un interés común en la especialización y en maximizar la división del trabajo, aún existen problemas de coordinación que limitan esta expansión.
@@ -227,10 +233,10 @@ Originalmente, el dilema del prisionero se formuló de la siguiente manera: Dos 
 
 Estos resultados se pueden representar en una matriz (los resultados numéricos indican el número de años de prisión):
 
-| Alice / Bob       | Acusar      | Permanecer en Silencio |
-| ----------------- | ----------- | ---------------------- |
-| **Acusar**        | 2, 2        | 0, 3                   |
-| **Permanecer en Silencio** | 3, 0        | 1, 1                   |
+| Alice / Bob                | Acusar | Permanecer en Silencio |
+| -------------------------- | ------ | ---------------------- |
+| **Acusar**                 | 2, 2   | 0, 3                   |
+| **Permanecer en Silencio** | 3, 0   | 1, 1                   |
 
 En este juego, no hay oportunidad de coordinación (la comunicación es imposible) para lograr el mejor resultado para ambas partes. En consecuencia, Alice y Bob tienen un incentivo individual para acusarse mutuamente, aunque esto no conduzca al resultado óptimo para el grupo. La estrategia óptima para ambos es permanecer en silencio, cada uno recibiendo una sentencia de 1 año.
 Este juego ilustra un problema que se encuentra con frecuencia en la vida real: en ausencia de mecanismos de coordinación, las personas tienden a elegir estrategias que maximizan su ganancia individual, sin importar las estrategias elegidas por los demás (robo, engaño, traición, violencia, etc.), incluso cuando es posible un equilibrio más deseable a través de la coordinación/colaboración.
@@ -247,7 +253,7 @@ En primer lugar, los seres humanos están limitados por sus capacidades cognitiv
 
 En segundo lugar, la medición socialmente aceptada del valor de las contribuciones en el intercambio (conmensurabilidad) es un problema no trivial. Por ejemplo, si un individuo proporciona carne de caza y solicita materiales para refugio a cambio, ¿cómo se puede evaluar la cantidad de carne ofrecida en términos equivalentes a los materiales solicitados? Lo mismo ocurre con la calidad: ¿la carne de venado vale más o menos que la madera?
 
-Incluso si fuera posible establecer una tasa de cambio satisfactoria para cada par de bienes, mantener esta información rápidamente se vuelve impracticable. En un sistema de intercambio directo que involucra N bienes, hay N(N-1)/2 tasas de cambio que recordar. Para una economía de 50 bienes, eso significa recordar 50*49/2, o 1225 tasas de cambio, en comparación con solo 50 en los intercambios indirectos. Para una economía de 100 bienes, este número aumenta a 4950. Esta relación cuadrática impone un límite adicional a la escalabilidad del intercambio directo (trueque).
+Incluso si fuera posible establecer una tasa de cambio satisfactoria para cada par de bienes, mantener esta información rápidamente se vuelve impracticable. En un sistema de intercambio directo que involucra N bienes, hay N(N-1)/2 tasas de cambio que recordar. Para una economía de 50 bienes, eso significa recordar 50\*49/2, o 1225 tasas de cambio, en comparación con solo 50 en los intercambios indirectos. Para una economía de 100 bienes, este número aumenta a 4950. Esta relación cuadrática impone un límite adicional a la escalabilidad del intercambio directo (trueque).
 
 Además, dado que estos intercambios no ocurren instantáneamente sino que se espacian en el tiempo, evaluar las contribuciones a lo largo del tiempo complica aún más la evaluación relativa de las contribuciones. Además de evaluar la relación de intercambio entre dos bienes presentes, se vuelve necesario evaluar el valor de una contribución pasada en relación con un equivalente futuro.
 
@@ -287,6 +293,7 @@ En este sentido, el dinero, al permitir el almacenamiento de valor en el present
 En el próximo capítulo profundizaremos en el concepto de preferencia temporal y explicaremos la perspectiva austriaca sobre el interés y el capital, que servirá de base para el siguiente capítulo sobre la Teoría del Ciclo Económico.
 
 ## Preferencia Temporal, Interés y Capital
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Preferencia Temporal
@@ -356,9 +363,11 @@ Esto se ilustra perfectamente en el gráfico a continuación: las tasas a largo 
 ¡Esto es lo que descubriremos en el próximo capítulo dedicado a la Teoría Austriaca del Ciclo Económico!
 
 # Perspectivas Económicas Austriacas
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## La Teoría Austriaca del Ciclo Económico
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > "Cuanto más tiempo continúa el auge del crédito bancario inflacionario, mayor es el alcance de las inversiones incorrectas en bienes de capital y mayor es la necesidad de liquidar estas inversiones insostenibles. Cuando la expansión del crédito se detiene, se revierte o incluso se desacelera significativamente, se revelan las inversiones incorrectas"
@@ -433,6 +442,7 @@ Más que cualquier otra escuela de economía, la Escuela Austriaca insiste en la
 Este será el tema del próximo y último capítulo de este curso.
 
 ## La Imposibilidad del Cálculo Económico en el Socialismo
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > "Cuando no hay precios de mercado para los factores de producción porque no se compran ni se venden, es imposible recurrir al cálculo para planificar la acción futura y determinar el resultado de la acción pasada. Una gestión socialista de la producción simplemente no sabría si lo que planea y ejecuta es el medio más apropiado para alcanzar los fines buscados. Operará en la oscuridad, por así decirlo. Malgastará los escasos factores de producción, tanto materiales como humanos (trabajo). El caos y la pobreza para todos serán inevitables".
@@ -492,7 +502,7 @@ Hoy en día, el debate sobre el cálculo económico resurge principalmente en di
 
 Para una aplicación concreta del problema del cálculo económico a una situación contemporánea, puedes consultar este artículo que aborda el problema de la asignación de recursos en la China moderna.
 
->   The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Conclusión
 
@@ -501,6 +511,7 @@ Los economistas convencionales y los planificadores centrales a menudo no les gu
 La tradición austriaca encarna un enfoque humilde hacia la acción humana, sacando profundas implicaciones de los conceptos de valor subjetivo, incertidumbre, libre albedrío y complejidad. Explica cómo el orden del mercado, a pesar de no ser un producto del diseño humano, se erige como la institución central para nuestro desarrollo y prosperidad. Si hay una lección clave de este curso, es que el capitalismo se convirtió en el sistema económico dominante debido a su capacidad para adaptarse al cambio en un mundo dinámico e incierto poblado por individuos libres.
 
 ## La Metodología Austriaca
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 La escuela austriaca de economía se distingue de otras escuelas por su metodología axiomático-deductiva, que difiere del enfoque positivista utilizado a menudo en las ciencias sociales. El enfoque positivista se basa en leyes establecidas a partir de datos empíricos, adoptando un método similar al de las ciencias físicas. Formula hipótesis a partir de observaciones, que luego son confirmadas o refutadas por experimentos temporales. El método científico consiste en retener la hipótesis que mejor explique los datos y seguir explorándola hasta encontrar una hipótesis más precisa.
@@ -520,20 +531,21 @@ Es importante tener en cuenta que la selección selectiva, que implica elegir se
 La metodología es un aspecto esencial en economía y en ciencias sociales en general. Influye en cómo se formulan las preguntas, se formulan las hipótesis y se interpreta los datos. Comprender las diferencias metodológicas entre las escuelas de pensamiento económico puede ayudarnos a apreciar perspectivas diversas y desarrollar nuestras propias opiniones sobre los temas discutidos en episodios anteriores.
 
 # Conclusión
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-
-
 ## Danos tu opinión sobre este curso
+
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen Final
+
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-
 ## Estudios adicionales
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 ¡Felicitaciones por completar este curso de ECON 201! Espero sinceramente que lo hayas disfrutado y que te haya abierto puertas. Tu descubrimiento de Bitcoin recién comienza, y te invito a explorar todos los demás cursos disponibles en la universidad.
@@ -552,21 +564,55 @@ Además de estas lecturas, también puedes encontrar información sobre la econo
 
 Al leer estas obras y explorar estos recursos en línea, puedes desarrollar una comprensión más profunda de los principios y las ideas clave de la escuela austriaca de economía.
 
-### Apóyanos
+# Conclusión
 
-Este curso, al igual que todo el contenido de esta universidad, te ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con otros, convertirte en miembro de la universidad e incluso contribuir a su desarrollo a través de GitHub. ¡En nombre de todo el equipo, gracias!
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
 
-### Califica el curso (próximamente)
-¡Pronto se integrará un sistema de calificación para el curso en esta nueva plataforma de aprendizaje en línea! Mientras tanto, muchas gracias por tomar el curso y, si te gustó, considera compartirlo con otros. (próximamente)
-Si quieres seguir profundizando en el tema de la economía austriaca, te sugiero varias entrevistas con Théo Mogenet:
+## Evalúe este curso
 
-- [¿Cómo prepararse para la próxima crisis económica?](https://youtu.be/GJT8t1TEd7Q)
-- [¿Cómo se puede articular la destrucción del euro?](https://youtu.be/eK3ONo11HN8)
-- [Hiper-bitcoinización: ¿podemos funcionar con un estándar de BTC?](https://youtu.be/nkN2twZ-lJY)
-  Si aún quieres más, puedes ver estas discusiones sobre la situación macroeconómica y otros temas diversos:
-- [¿Cómo destruir Bitcoin?](https://youtu.be/gHKvj4eeiDg)
-- [¿Es Bitcoin de derecha, de izquierda o anarquista?](https://youtu.be/4fXGxzLtIIw)
-- [Para salvar el planeta, deja el dólar y el euro](https://youtu.be/iHagDlH4bf8)
-- [¿Por qué es imposible un aumento en las tasas de interés?](https://youtu.be/iHagDlH4bf8)
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
 
-¡De lo contrario, continúa tu aprendizaje con otros cursos y tutoriales de la universidad!
+## Examen final
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusión
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+¡Felicitaciones por completar este curso!
+
+Nos complace que haya alcanzado este importante hito en su viaje de aprendizaje.
+
+Gracias a su dedicación y compromiso, ha adquirido valiosos conocimientos y habilidades que le servirán en su desarrollo profesional.
+
+Para continuar explorando en profundidad el universo Bitcoin, le invitamos a descubrir todos los demás cursos disponibles en Plan ₿ Network:
+
+#### Descubra la vida de F. Bastiat con
+
+https://planb.network/courses/eco102
+
+#### Comprenda el surgimiento de las hiperinflaciones con
+
+https://planb.network/courses/eco204
+
+#### Descubra Bitcoin y sus fundamentos con
+
+https://planb.network/courses/btc101
+
+#### Actualice su seguridad en línea con
+
+https://planb.network/courses/scu101
+
+#### Descubra la Lightning Network con
+
+https://planb.network/courses/lnp201
+
+#### Aprenda a crear su comunidad Bitcoin con
+
+https://planb.network/courses/btc302
+
+#### Comprenda cómo funciona la cartera Bitcoin con
+
+https://planb.network/courses/cyp201

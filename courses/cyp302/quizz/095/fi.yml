@@ -1,0 +1,9 @@
+question: Miten MAC mahdollistaa Alicen varmistaa, että viesti on todella Bobilta?
+answer: Tarkistamalla, että luotu tunniste vastaa Bobin lähettämää
+wrong_answers:
+  - Salaamalla viestin nähdäkseen, onko se luettavissa
+  - Vertaamalla viestin kokoa ja tunnisteen kokoa
+  - Vahvistamalla lähettäjän IP-osoitteen
+explanation: |
+  Alice käyttää jaettua salaisuusavainta luodakseen tunnisteen vastaanotetusta viestistä. Jos tämä tunniste vastaa Bobin lähettämää, hän tietää, että viesti on aito ja ehjä.
+reviewed: false

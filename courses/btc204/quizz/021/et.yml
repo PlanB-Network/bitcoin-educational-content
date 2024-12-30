@@ -1,0 +1,9 @@
+question: Mis on lihtsustatud makse muster Bitcoinis?
+answer: 1 või rohkem UTXOsid sisendites ja 2 UTXOt väljundites.
+wrong_answers:
+  - 1 UTXO sisendis ja 1 UTXO väljundis
+  - Mitu UTXOd sisendis ja 1 UTXO väljundis
+  - 5 UTXOd sisendites ja 5 UTXOd väljundites
+explanation: |
+  Lihtsustatud makses tarbib kasutaja ühe või mitu UTXOd sisenditena, et täita väljundites makse UTXO ja vahetus UTXO (seega 2 UTXOt).
+reviewed: false

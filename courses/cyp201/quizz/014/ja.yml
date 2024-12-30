@@ -1,9 +1,9 @@
-question: SHA256の圧縮関数では、何ラウンドの計算が行われますか？
-answer: 64
+question: Bitcoinで使用されるPBKDF2の反復回数は何回ですか？
+answer: 2048
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  SHA256の圧縮関数では、64ラウンドの計算が行われます。
-  自転車レースの各ラップのように、各ラウンドは関数の位置を改善します。
+  PBKDF2はセキュリティを強化するために、HMAC-SHA512プロセスを2048回繰り返します。
+reviewed: false

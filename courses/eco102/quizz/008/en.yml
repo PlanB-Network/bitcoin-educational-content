@@ -1,0 +1,9 @@
+question: Where did Frédéric Bastiat sit in the National Assembly?
+answer: In the center-left with Alexis de Tocqueville
+wrong_answers:
+  - On the left with the socialists
+  - On the right with the monarchists
+  - In the center-right with the conservative liberals
+explanation: |
+  Bastiat sat in the center-left with Tocqueville, where he defended individual liberties.
+reviewed: false

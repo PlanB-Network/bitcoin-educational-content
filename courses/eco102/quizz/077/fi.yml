@@ -1,0 +1,9 @@
+question: Mikä on valtion puuttumisen päärajoite Bastiat'n mukaan?
+answer: Ne, jotka tekevät julkisia päätöksiä, eivät ole niitä, jotka kärsivät seurauksista
+wrong_answers:
+  - Ne, jotka tekevät julkisia päätöksiä, rakastavat rahaa liikaa
+  - Ne, jotka tekevät julkisia päätöksiä, eivät ole tarpeeksi älykkäitä
+  - Ne, jotka tekevät julkisia päätöksiä, puuttuvat rohkeutta
+explanation: |
+  Bastiat kritisoi valtion puuttumista korostamalla, että julkisia päätöksiä tekevät eivät kärsi omien päätöstensä seurauksista, mikä johtaa vastuuttomiin valintoihin.
+reviewed: false

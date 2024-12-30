@@ -1,9 +1,9 @@
-question: ¿Cuál es el principal riesgo de utilizar un servicio de custodia para almacenar tus bitcoins?
-answer: La tercera parte de confianza puede restringir tu acceso a tus fondos en cualquier momento.
+question: ¿Cuál es el principal riesgo de usar un servicio de custodia para almacenar tus bitcoins?
+answer: El tercero de confianza puede restringir tu acceso a tus fondos en cualquier momento.
 wrong_answers:
-  - La tercera parte de confianza puede aumentar el valor de tus bitcoins en cualquier momento.
-  - La tercera parte de confianza puede disminuir el valor de tus bitcoins en cualquier momento.
-  - La tercera parte de confianza no puede duplicar tus bitcoins en ningún momento.
-explanation: |
-  Cuando utilizas un servicio de custodia para almacenar tus bitcoins, no eres el único titular de tus bitcoins. Esto significa que la tercera parte de confianza puede restringir tu acceso a tus fondos en cualquier momento, dándote el mismo nivel de soberanía financiera que con el sistema bancario tradicional.
-reviewed: false
+  - El tercero de confianza puede aumentar el valor de tus bitcoins en cualquier momento.
+  - El tercero de confianza puede disminuir el valor de tus bitcoins en cualquier momento.
+  - El tercero de confianza no puede duplicar tus bitcoins en ningún momento.
+explanation: >-
+  Cuando usas un servicio de custodia para almacenar tus bitcoins, no eres el único poseedor de tus bitcoins. Esto significa que el tercero de confianza puede restringir tu acceso a tus fondos en cualquier momento, dándote el mismo nivel de soberanía financiera que el sistema bancario tradicional.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Millist probleemi tuvastab Bastiat töökohakaitse argumendiga?
+answer: Kõik need vastused on õiged
+wrong_answers:
+  - See on liiga lihtsustatud ja ei võta arvesse pikaajalisi tagajärgi
+  - See põhineb valel majandusliku konkurentsi ideel
+  - Seda kasutatakse protektsionistlike meetmete õigustamiseks, mis kahjustavad tarbijaid
+explanation: |
+  Kõik vastused on õiged. Bastiat usub, et töökohakaitse argument on lihtsustatud, põhineb valel konkurentsi visioonil ja õigustab protektsionistlikke meetmeid tarbijate kahjuks.
+reviewed: false

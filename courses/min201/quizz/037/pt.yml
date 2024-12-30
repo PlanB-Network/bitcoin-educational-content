@@ -1,9 +1,9 @@
-question: Qual é o potencial lado negativo da mineração para obter lucro?
-answer: Isso pode levar à centralização do poder de hash e ter um impacto ambiental significativo.
+question: Qual é a desvantagem potencial da mineração por lucro?
+answer: Pode levar à centralização do poder de hash e também pode ter um impacto ambiental significativo
 wrong_answers:
-  - Isso pode levar a uma diminuição no preço do Bitcoin.
-  - Isso pode levar a uma diminuição na taxa de hash da rede.
-  - Isso pode levar a uma diminuição no número de nós ativos na rede.
+  - Pode levar a uma diminuição no preço do Bitcoin
+  - Pode levar a uma diminuição na taxa de hash da rede
+  - Pode levar a uma diminuição no número de nós ativos na rede
 explanation: |
-  A mineração para obter lucro pode levar à centralização do poder de hash se apenas algumas grandes empresas puderem investir em equipamentos de mineração de ponta. Além disso, o consumo de energia da mineração para obter lucro pode ter um impacto ambiental significativo.
-reviewed: false
+  A mineração por lucro pode levar à centralização do poder de hash se apenas algumas grandes empresas puderem investir em equipamentos de mineração de alta qualidade. Além disso, o consumo de energia da mineração por lucro poderia ter um impacto ambiental significativo, dependendo da fonte de energia.
+reviewed: true

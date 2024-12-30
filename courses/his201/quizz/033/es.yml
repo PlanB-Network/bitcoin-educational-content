@@ -1,0 +1,9 @@
+question: ¿Qué minero de 2009 perdió todos sus bitcoins al tirar su computadora en el vertedero en 2013?
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Martti Malmi
+  - NewLibertyStandard
+explanation: |
+  Este ingeniero británico había generado 8,000 bitcoins con su computadora entre febrero y abril de 2009. Su caso fue [publicitado](https: //www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site) por el Guardian.
+reviewed: false

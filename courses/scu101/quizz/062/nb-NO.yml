@@ -1,0 +1,10 @@
+question: Hva er noen av aspektene ved nettverkskunnskap som trengs i cybersikkerhet?
+answer: TCP/IP, VPN, brannmur
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  Kapittelet nevner TCP/IP, VPN, og brannmur som noen av aspektene
+
+  ved nettverkskunnskap som trengs i cybersikkerhet.

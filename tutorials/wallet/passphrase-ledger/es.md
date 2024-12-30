@@ -9,7 +9,7 @@ Una frase de contraseña BIP39 es una contraseña opcional que, combinada con tu
 
 Antes de comenzar este tutorial, si no estás familiarizado con el concepto de una frase de contraseña, cómo funciona y sus implicaciones para tu monedero de Bitcoin, te recomiendo encarecidamente consultar este otro artículo teórico donde explico todo:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## ¿Cómo funciona la frase de contraseña en un Ledger?
 
@@ -29,9 +29,9 @@ En este tutorial, usaré el Ledger Flex como ejemplo. Sin embargo, si estás usa
 **Atención:** Si ya has recibido bitcoins en tu Ledger antes de activar la frase de paso, necesitarás transferirlos mediante una transacción de Bitcoin. La frase de paso genera un conjunto de nuevas claves, creando así una cartera completamente independiente de tu cartera inicial. Al añadir la frase de paso, tendrás una nueva cartera que estará vacía. Sin embargo, esto no elimina tu primera cartera sin frase de paso. Todavía puedes acceder a ella, ya sea directamente a través de tu Ledger sin ingresar la frase de paso o mediante otro software usando tu frase de 24 palabras.
 Antes de comenzar este tutorial, asegúrate de haber inicializado tu Ledger y generado tu frase mnemotécnica. Si este no es el caso y tu Ledger es nuevo, sigue el tutorial específico para tu modelo disponible en PlanB Network. Una vez completado este paso, puedes volver a este tutorial.
 
-https://planb.network/tutorials/wallet/ledger-flex
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
-https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## ¿Cómo configurar una frase de paso temporal con un Ledger?
 
@@ -174,4 +174,4 @@ Antes de usar tu billetera con una frase de paso, te aconsejo encarecidamente qu
 
 También te recomiendo que revises este otro tutorial completo sobre cómo usar tu Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

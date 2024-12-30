@@ -1,9 +1,8 @@
-question: O que acontece durante uma transação
-answer: O segredo da transação
+question: O que acontece se um canal com um HTLC ativo for fechado à força?
+answer: O HTLC é incluído nas transações de compromisso como um output.
 wrong_answers:
-  - O segredo da transação
-  - Um novo segredo é decidido e uma nova chave de revogação é criada.
-  - A transação de compromisso anterior é atualizada com o novo segredo e chave de revogação.
+  - O HTLC é automaticamente cancelado.
+  - Os fundos são redistribuídos para os nós anteriores.
+  - O canal não pode ser fechado até que o HTLC tenha expirado.
 explanation: |
-  Durante a transação
-reviewed: false
+  Durante um fechamento forçado, os HTLCs pendentes são representados como outputs nas transações de compromisso, garantindo assim sua execução ou retorno de acordo com as condições definidas.

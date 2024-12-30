@@ -161,4 +161,4 @@ sparrow_2.0.0-1_amd64.deb: OK
 
 我还推荐查看这个关于VeraCrypt的教程，这是一个允许你加密和解密存储设备的软件。
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

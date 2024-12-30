@@ -1,0 +1,9 @@
+question: Mis on klassikaliste hüperinflatsiooni tabelite peamine piirang?
+answer: Nad jäetakse välja teatud ajaloolised kõrge inflatsiooni perioodid tänu rangele klassifikatsioonikriteeriumile
+wrong_answers:
+  - Nad hõlmavad liiga palju inflatsiooniepisoode, mis ei kvalifitseeru hüperinflatsiooniks
+  - Nad on vananenud ja ei ole kohaldatavad kaasaegsetele majandustele
+  - Nad ei võta arvesse inflatsiooni mõju majandusele
+explanation: |
+  Klassikalised hüperinflatsiooni tabelid, nagu Hanke-Krus tabel, jäetakse sageli välja teatud ajaloolised kõrge inflatsiooni perioodid tänu rangele klassifikatsioonikriteeriumile, nagu näiteks Cagani definitsiooni poolt määratletud 50% kuine inflatsioonilävi.
+reviewed: false

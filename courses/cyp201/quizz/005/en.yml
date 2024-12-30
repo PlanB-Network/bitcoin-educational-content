@@ -1,13 +1,9 @@
-question: What is the ultimate goal of a cryptographic hash function?
-answer: To transform arbitrary-sized information into a fixed-size fingerprint.
+question: Why is irreversibility ensured in SHA256?
+answer: The operations used remove information and are one-way
 wrong_answers:
-  - To encrypt data for secure transmission.
-  - To generate a unique key for each user.
-  - To compress data for efficient storage.
+  - Messages are encrypted before hashing
+  - Bits are rearranged randomly
+  - Each hash is stored in a database
 explanation: |
-  The ultimate goal of a cryptographic hash function is to transform
-  arbitrary-sized
-  information into a fixed-size fingerprint. This fingerprint is unique to the input
-  data, and even a small change in the input will result in a drastically different
-  fingerprint.
+  Operations such as ShR and XOR make it impossible to return to the initial state, ensuring irreversibility.
 reviewed: false

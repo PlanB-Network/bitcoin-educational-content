@@ -1,0 +1,9 @@
+question: Jak byla umožněna nezodpovědnost v bankovnictví?
+answer: Garancemi, že ztráty budou mutualizovány v případě bankrotu kvůli nezodpovědnému riskování
+wrong_answers:
+  - Nedostatkem regulací proti nezodpovědnému riskování
+  - Deregulací 90. let
+  - Kapitalistickým systémem
+explanation: |
+  Bastiat vysvětluje, že slib mutualizace ztrát podněcuje banky k přílišnému riskování, protože mají jistotu, že v případě selhání budou zachráněny, což podporuje nezodpovědnost.
+reviewed: false

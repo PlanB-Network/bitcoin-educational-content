@@ -1,0 +1,11 @@
+question: Hva er det potensielle utfallet av en for rask devaluering eller tap av tillit til en fidusiær valuta?
+answer: Det kan føre til hyperinflasjon.
+wrong_answers:
+  - Det kan føre til deflasjon.
+  - Det kan føre til en stabil økonomi.
+  - Det kan føre til en økning i valutaens verdi.
+explanation: |
+  En for rask devaluering eller tap av tillit til en fidusiær valuta
+  kan føre til hyperinflasjon. Dette er en situasjon hvor prisene på varer og tjenester
+  øker med en ekstremt høy rate, ofte som fører til økonomisk ustabilitet.
+reviewed: true

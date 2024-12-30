@@ -1,0 +1,8 @@
+question: Millist kontseptsiooni kasutab Bastiat, et kirjeldada sunniviisilise ümberjaotamise ja seadusliku röövimise ideoloogiat?
+answer: sotsialism
+wrong_answers:
+  - vabariiklus
+  - konservatism
+  - liberalism
+explanation: |
+  Bastiat kritiseerib sotsialismi selle kalduvuse eest kasutada seadust sunniviisilise ümberjaotamise pealesurumiseks, mida ta peab seadusliku röövimise vormiks.

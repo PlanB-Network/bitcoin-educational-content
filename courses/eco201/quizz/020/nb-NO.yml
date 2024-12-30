@@ -1,0 +1,13 @@
+question: Ifølge østerrikske økonomer, hva er resultatet av at individer spesialiserer seg
+  i sitt arbeid og engasjerer seg i utvekslinger?
+answer: Individene er alltid bedre stilt.
+wrong_answers:
+  - Individene er alltid dårligere stilt.
+  - Det er ingen endring i individets situasjon.
+  - Resultatet varierer avhengig av individet.
+explanation: |
+  Ifølge østerrikske økonomer er resultatet av at individer spesialiserer seg
+  i sitt arbeid og engasjerer seg i utvekslinger at de alltid er bedre stilt. Dette
+  er fordi spesialisering og utveksling lar individer maksimere sin subjektive
+  nytteverdi.
+reviewed: false

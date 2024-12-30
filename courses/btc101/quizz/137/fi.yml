@@ -1,9 +1,9 @@
-question: Miten käyttäjät siirtävät omistusoikeuden rahoistaan Bitcoin-verkossa?
+question: Kuinka käyttäjät siirtävät omistusoikeuden rahoistaan Bitcoin-verkossa?
 answer: Digitaalisesti allekirjoittamalla siirrot heidän yksityisillä avaimillaan.
 wrong_answers:
   - Fyysisesti luovuttamalla heidän Bitcoininsa.
   - Lähettämällä sähköpostia vastaanottajalle.
   - Antamalla heidän Bitcoin-osoitteensa vastaanottajalle.
-explanation: >-
-  Käyttäjät Bitcoin-verkossa siirtävät omistusoikeuden rahoistaan digitaalisesti allekirjoittamalla siirrot heidän yksityisillä avaimillaan. Tämä varmistaa, että he ovat Bitcoinien, joita he haluavat siirtää, omistajia.
-reviewed: false
+explanation: |
+  Käyttäjät Bitcoin-verkossa siirtävät omistusoikeuden rahoistaan digitaalisesti allekirjoittamalla siirrot heidän yksityisillä avaimillaan. Tämä varmistaa, että he ovat bitcoinien, joita he haluavat siirtää, omistajia.
+reviewed: true

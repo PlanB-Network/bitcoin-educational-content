@@ -1,0 +1,9 @@
+question: Warum ist authentifizierte Verschlüsselung resistent gegen Angriffe mit gewähltem Chiffretext?
+answer: Weil jede Modifikation des Chiffretexts durch einen Angreifer den Tag ungültig macht.
+wrong_answers:
+  - Weil sie einen einzelnen Verschlüsselungsalgorithmus verwendet
+  - Weil jede Modifikation des Chiffretexts durch einen Angreifer den Schlüssel ungültig macht
+  - Weil sie nur die Nachricht ohne einen Tag verschlüsselt
+explanation: |
+  Ein Schema der authentifizierten Verschlüsselung ist darauf ausgelegt, Modifikationen des Chiffretexts zu erkennen, was den Tag im Falle von Manipulationsversuchen ungültig macht und Widerstandsfähigkeit gegen Angriffe mit gewähltem Chiffretext sicherstellt.
+reviewed: false

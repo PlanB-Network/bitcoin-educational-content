@@ -1,0 +1,8 @@
+question: 整数a要有模N的逆元的条件是什么？
+answer: a和N必须互质
+wrong_answers:
+  - N必须是偶数
+  - a必须是奇数
+  - a必须是一个质数
+explanation:
+  一个整数a有模N的逆元的充分必要条件是它们互质，即它们的最大公约数是1。

@@ -1,0 +1,5 @@
+description: |
+  Bitwarden on avoimen lähdekoodin salasanojen hallintatyökalu, jonka avulla voit tallentaa, hallita ja synkronoida kirjautumistietosi useilla laitteilla. Saatavilla sovellusten, selainlaajennuksen tai verkkokäyttöliittymän kautta, Bitwarden salaa tietosi. Läpinäkyvä ja yksityisyyttä kunnioittava Bitwarden on suunnattu käyttäjille, jotka etsivät turvallista ja luotettavaa salasanojen hallintaa, joka on samalla joustava ja käytännöllinen jokapäiväisessä käytössä.
+
+contributors:
+  - pretty-private

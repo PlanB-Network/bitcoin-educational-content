@@ -1,9 +1,9 @@
-question: O que o texto sugere que você faça para expandir seu conhecimento sobre o Bitcoin?
-answer: Consulte a biblioteca de recursos listados e categorizados ao longo dos últimos anos.
+question: O que significa dizer que o Bitcoin tem uma tendência geral de alta?
+answer: Uma tendência geral de alta no Bitcoin significa que, no geral, o preço do Bitcoin tem aumentado.
 wrong_answers:
-  - Participe de conferências sobre o Bitcoin
-  - Invista em Bitcoin
-  - Inicie uma operação de mineração de Bitcoin
+  - Uma tendência geral de alta no Bitcoin significa que o preço está garantido para subir indefinidamente sem quaisquer flutuações.
+  - Uma tendência geral de alta no Bitcoin significa que o Bitcoin está se tornando menos valioso e está perdendo seu apelo de mercado.
+  - Uma tendência geral de alta no Bitcoin significa que ele é popular apenas entre um pequeno grupo de investidores e não tem impacto no mercado geral.
 explanation: |
-  O texto sugere que, para expandir seu conhecimento sobre o Bitcoin, você pode consultar a biblioteca de recursos que foram listados e categorizados ao longo dos últimos anos, incluindo podcasts, sites, artigos, tutoriais, livros e outros conteúdos.
-reviewed: false
+  Uma tendência geral de alta no Bitcoin refere-se a um aumento consistente em seu preço ao longo de um certo período de tempo. É importante notar que, embora uma tendência de alta sugira uma trajetória positiva, isso não garante que o preço continuará a subir sem quaisquer flutuações.
+reviewed: true

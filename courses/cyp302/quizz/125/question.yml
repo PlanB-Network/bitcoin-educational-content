@@ -1,0 +1,18 @@
+id: d9f2c2c5-ea23-45c5-be2e-63541b295aa0
+chapterId: 7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1
+difficulty: intermediate
+duration: 30
+author: pretty-private
+tags:
+  - cypherpunk
+  - network-security
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-11-02
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

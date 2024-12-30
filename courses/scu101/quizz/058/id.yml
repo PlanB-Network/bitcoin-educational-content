@@ -1,0 +1,8 @@
+question: Apa saja beberapa alat yang digunakan dalam keamanan siber?
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+explanation: |
+  Bab ini mencantumkan Wireshark, Metasploit, dan Nmap sebagai beberapa alat yang digunakan dalam keamanan siber.

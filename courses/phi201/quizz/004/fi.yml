@@ -1,0 +1,9 @@
+question: Mikä on perustavanlaatuinen ero vapauden filosofian ja vallan filosofian välillä?
+answer: Kaikki muut vastaukset
+wrong_answers:
+  - Vapauden filosofia suosii yksilöä, kun taas vallan filosofia suosii yhteiskuntaa
+  - Vapauden filosofia arvostaa yksityisomaisuutta, kun taas vallan filosofia arvostaa kollektiivista etua
+  - Vapauden filosofia perustuu luonnonoikeuteen, kun taas vallan filosofia perustuu positiiviseen oikeuteen
+explanation: |
+  Perustavanlaatuinen ero on siinä, että vapauden filosofia korostaa yksilöä ja heidän oikeuksiaan, kun taas vallan filosofia keskittyy sosiaalisiin ja poliittisiin rakenteisiin, usein yksilön autonomian ja yksityisomaisuuden kustannuksella.
+reviewed: false

@@ -1,9 +1,9 @@
-question: ¿Cuál es la importancia de la seguridad de la clave privada en el ecosistema de Bitcoin?
-answer: Garantiza la seguridad de las transacciones de Bitcoin.
+question: ¿Qué información no se incluye en una clave extendida?
+answer: El historial de transacciones de la clave
 wrong_answers:
-  - Garantiza la rapidez de las transacciones de Bitcoin.
-  - Garantiza el anonimato de las transacciones de Bitcoin.
-  - Garantiza la legalidad de las transacciones de Bitcoin.
+  - El número de índice de la clave
+  - La clave (privada o pública)
+  - El código de cadena
 explanation: |
-  Las claves privadas son el pilar fundamental que garantiza la seguridad de las transacciones de Bitcoin. Deben generarse de manera verdaderamente aleatoria para evitar cualquier vulnerabilidad asociada con la previsibilidad.
+  Una clave extendida contiene solo la información necesaria para derivar claves secundarias, no información relacionada con transacciones.
 reviewed: false

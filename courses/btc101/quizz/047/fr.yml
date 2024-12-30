@@ -1,11 +1,12 @@
 question: Qu'est-ce que l'hyperinflation ?
 answer: Une augmentation drastique de la masse monétaire.
 wrong_answers:
-  - Une augmentation subtile de la masse monétaire.
+  - Une petite augmentation de la masse monétaire.
   - Une diminution drastique de la masse monétaire.
-  - Une diminution subtile de la masse monétaire.
+  - Une petite diminution de la masse monétaire.
 explanation: |
-  L'hyperinflation est un phénomène monétaire,
-  il se caractérise par une augmentation drastique de l'inflation due à l'impression monétaire par les autorités,
-  ce qui entraîne une perte totale de confiance dans une devise.
-reviewed: false
+  L'hyperinflation est un phénomène monétaire caractérisé par une
+  augmentation drastique de l'inflation à travers l'impression monétaire
+  par les autorités, ce qui conduit à une perte complète de
+  confiance dans une monnaie.
+reviewed: true

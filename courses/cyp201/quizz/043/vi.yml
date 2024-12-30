@@ -1,11 +1,8 @@
-question: Thứ tự của đường cong secp256k1 được sử dụng trong Bitcoin là gì?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: Bao nhiêu bit entropy được sử dụng cho một cụm từ ghi nhớ 24 từ?
+answer: 256 bit
 wrong_answers:
-  - 2^256
-  - 2^256 - 1
-  - 2^256 - 432420386565659656852420866394968145598
+  - 128 bit
+  - 512 bit
+  - 64 bit
 explanation: |
-  Thứ tự của đường cong secp256k1 được sử dụng trong Bitcoin là 2^256 -
-  432420386565659656852420866394968145599.
-  Đây là số điểm trên đường cong.
-reviewed: false
+  Một cụm từ ghi nhớ 24 từ dựa trên 256 bit entropy, đảm bảo độ an toàn rất cao.

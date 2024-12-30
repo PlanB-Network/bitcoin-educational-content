@@ -1,0 +1,11 @@
+question: Mida tähendab öelda, et Bitcoin on nagu must auk?
+answer: See ei kao kuhugi ja neelab aja jooksul endasse kõik oma teel.
+wrong_answers:
+  - See variseb lõpuks omaenda raskuse all kokku.
+  - See on oht globaalsele finantssüsteemile.
+  - See on mõistatus, mida teadlased üritavad endiselt mõista.
+explanation: |
+  Väide, et Bitcoin on nagu must auk, viitab selle vastupidavusele
+  ja potentsiaalile saada domineerivaks finantssüsteemiks, neelates endasse kõik teised süsteemid
+  oma teel.
+reviewed: false

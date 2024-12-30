@@ -1,0 +1,9 @@
+question: 2011年3月にMike Hearnによってリリースされた、Simplified Payment Verification (SPV)を実装したソフトウェアの名前は何ですか？
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  彼はそれをオープンソースライセンス（Apache 2.0）の下で[公開](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438)し、その時の雇用主であるGoogleに帰属させました。この実装により、Android上で動作する最初の軽量ウォレットを立ち上げることが可能になりました。
+reviewed: false

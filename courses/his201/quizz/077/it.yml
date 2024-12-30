@@ -1,0 +1,9 @@
+question: In quale data è stata creata la mailing list per lo sviluppo di Bitcoin?
+answer: 12 giugno 2011
+wrong_answers:
+  - 13 gennaio 2011
+  - 7 marzo 2011
+  - 19 settembre 2011
+explanation: |
+  È stata creata dallo sviluppatore Jeff Garzik e ha permesso di avere discussioni formali riguardo le modifiche da apportare a Bitcoin.
+reviewed: false

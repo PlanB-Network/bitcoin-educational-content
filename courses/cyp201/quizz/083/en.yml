@@ -1,12 +1,9 @@
-question:
-  Is it recommended to memorize a passphrase or mnemonic phrase for a Bitcoin
-  wallet?
-answer: This is false
+question: What type of address starts with `1` and belongs to the Legacy standard?
+answer: P2PKH
 wrong_answers:
-  - This is true
-  - It depends on the length of the passphrase or mnemonic phrase
-  - It depends on the complexity of the passphrase or mnemonic phrase
+  - P2WPKH
+  - P2SH
+  - P2TR
 explanation: |
-  It is not recommended to memorize a passphrase or mnemonic phrase. It
-  is crucial to take care of passphrase backups to avoid losing access to the wallet.
+  P2PKH addresses, encoded in base58check, come from the Legacy standard and start with the digit `1`.
 reviewed: false

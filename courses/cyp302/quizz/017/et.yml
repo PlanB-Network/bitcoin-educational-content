@@ -1,0 +1,9 @@
+question: Mis vahe on diskreetse ja pideva juhusliku muutuja vahel?
+answer: Diskreetne muutuja omab piiratud arvu võimalikke tulemusi, samas kui pidev muutuja võib võtta lõpmatul hulgal väärtusi mingis intervallis.
+wrong_answers:
+  - Diskreetne muutuja muudab pidevalt oma väärtust, samal ajal kui pidev muutuja püsib stabiilsena.
+  - Diskreetne muutuja on spetsiifiline füüsilistele eksperimentidele, mida viiakse läbi, pidev muutuja on oma intervallis abstraktne.
+  - Diskreetseid muutujaid ei eksisteeri kaasaegses krüptograafias, kasutusel on ainult pidevad muutujad.
+explanation: |
+  Diskreetsed muutujad omavad piiratud hulka tulemusi, samas kui pidevad muutujad võivad võtta mis tahes väärtuse mingis intervallis, nagu näiteks reaalarvud vahemikus 0 kuni 1.
+reviewed: false

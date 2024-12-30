@@ -1,9 +1,9 @@
-question: Was ist die Rolle der Miner im Bitcoin-Netzwerk?
-answer: Miner sind entscheidend für die Erzeugung neuer Bitcoins und die Sicherung des Bitcoin-Netzwerks.
+question: Wann fand der Blockgrößenkrieg statt?
+answer: Im Jahr 2017.
 wrong_answers:
-  - Miner sind dafür verantwortlich, den Preis von Bitcoin zu regulieren.
-  - Miner sind dafür verantwortlich, Bitcoin-Wallets zu erstellen.
-  - Miner sind dafür verantwortlich, das Bitcoin-Protokoll zu kontrollieren.
-explanation: |
-  Miner spielen eine entscheidende Rolle im Bitcoin-Netzwerk, da sie für die Erzeugung neuer Bitcoins und die Sicherung des Bitcoin-Netzwerks verantwortlich sind, indem sie Strom verbrauchen, um einen Block von Transaktionen zu hashen.
-reviewed: false
+  - Im Jahr 2008.
+  - Im Jahr 2010.
+  - Im Jahr 2019.
+explanation: >-
+  Der Blockgrößenkrieg fand im Jahr 2017 statt. Dieser Konflikt stand zwischen den Akteuren, die Bitcoin durch Erhöhung der Blockgröße verändern wollten, um die Transaktionskapazität zu erhöhen, und jenen, die die Unabhängigkeit und Macht der Nutzer durch Beibehaltung der Größe bei 1 MB bewahren wollten.
+reviewed: true

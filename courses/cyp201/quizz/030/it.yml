@@ -1,9 +1,9 @@
-question: Qual è l'equazione che definisce una curva ellittica?
-answer: "y\xB2 = x\xB3 + ax + b"
+question: Qual è lo scopo di SIGHASH_SINGLE?
+answer: Coprire un input e il suo corrispondente output
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
+  - Coprire tutti gli input e gli output
+  - Coprire solo gli input
+  - Coprire tutti gli output tranne uno
 explanation: |
-  "Una curva ellittica è definita dall'equazione y\xB2 = x\xB3 + ax + b. Ogni punto su questa curva ha una simmetria distintiva che è fondamentale per la sua utilità in crittografia."
+  SIGHASH_SINGLE copre un singolo input e un singolo output corrispondente all'indice dell'input firmato, lasciando il resto modificabile.
 reviewed: false

@@ -1,11 +1,9 @@
-question: What is the purpose of the withdrawal transaction in a Lightning Network transfer?
-answer: It represents the state of the channel, guaranteeing who owns the funds after each transfer.
+question: Why do Alice and Bob exchange their secrets for previous commitment transactions?
+answer: To allow each to protect themselves if the other publishes an old transaction
 wrong_answers:
-  - It is the transaction that moves the funds from one side to the other.
-  - It is the transaction that opens the channel.
-  - It is the transaction that closes the channel.
+  - To increase the channel's capacity
+  - To block each other's access to the funds
+  - To divide the funds equally
 explanation: |
-  The withdrawal transaction is updated after each Lightning Network transfer
-  to reflect the current state of the channel. It guarantees who owns the funds after
-  each transfer, but it is not executed unless the channel is closed.
+  Exchanging secrets for previous transactions allows each participant to punish the other in case of an attempt to cheat by publishing an old transaction.
 reviewed: false

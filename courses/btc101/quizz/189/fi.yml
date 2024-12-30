@@ -1,9 +1,14 @@
-question: Mikä maa on tehnyt Bitcoinista laillisen maksuvälineen vuodesta 2021 lähtien?
-answer: El Salvador
+question: Kuinka Bitcoin ratkaisee Bysantin kenraalien ongelman?
+answer: Käyttämällä Proof of Work -pohjaista lohkoketjua, jonka vaikeustaso on muuttuva.
 wrong_answers:
-  - Ranska
-  - Yhdysvallat
-  - Kiina
+  - Käyttämällä digitaalisia allekirjoituksia.
+  - Käyttämällä julkista kirjanpitoa.
+  - Käyttämällä Proof of Stake -algoritmia.
 explanation: >-
-  El Salvador on tehnyt Bitcoinista laillisen maksuvälineen vuodesta 2021 lähtien, edistäen Bitcoin-talouden kehitystä alueella.
-reviewed: false
+  Bysantin kenraalien ongelma on klassinen ongelma
+  hajautetussa laskennassa, joka käsittää konsensuksen saavuttamisen
+  verkossa, jossa jotkut solmuista voivat olla viallisia tai
+  ilkeämielisiä. Bitcoin ratkaisee tämän ongelman käyttämällä
+  Proof of Work -pohjaista lohkoketjua, mikä varmistaa, että kaikki
+  solmut ovat yhtä mieltä tapahtumahistorian tilasta.
+reviewed: true

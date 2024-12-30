@@ -1,0 +1,11 @@
+question: Qual termo descreve a proteção oferecida por um coinjoin contra a análise das transações passadas de uma moeda?
+
+answer: Anonset retrospectivo.
+
+wrong_answers:
+  - Anonset prospectivo.
+  - Resistência à rastreabilidade.
+  - Privacidade temporal.
+
+explanation: |
+  A proteção contra análise do presente para o passado é o que se chama de anonset retrospectivo.

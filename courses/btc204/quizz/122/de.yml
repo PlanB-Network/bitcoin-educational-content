@@ -1,0 +1,13 @@
+question: Wie verbessert P2P-Transport V2 die Privatsphäre und Sicherheit der Kommunikation zwischen Knoten?
+
+answer: Durch die Integration von opportunistischer Verschlüsselung
+
+wrong_answers:
+  - Durch die Integration von Authentifizierung
+  - Durch die Verwendung zusätzlicher Relais
+  - Durch die Verwendung von Tor
+
+explanation: |
+  P2P-Transport V2 integriert eine Schicht opportunistischer Verschlüsselung, um die Privatsphäre und Sicherheit der Kommunikation zwischen Knoten zu erhöhen.
+
+reviewed: false

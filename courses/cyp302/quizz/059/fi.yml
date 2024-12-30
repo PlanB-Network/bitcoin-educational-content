@@ -1,0 +1,9 @@
+question: Mikä ranskalainen matemaatikko esitteli ryhmien käsitteen 1800-luvulla?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois kehitti ryhmäteorian tutkiakseen yli viidennen asteen polynomiyhtälöiden ratkaisuja.
+reviewed: false

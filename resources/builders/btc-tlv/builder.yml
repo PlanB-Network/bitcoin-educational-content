@@ -1,0 +1,18 @@
+name: BTC Tel Aviv
+category: education
+
+links:
+  website: https://www.bitembassy.org/
+
+tags:
+  - proof-of-work
+  - decentralization
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-12-16
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

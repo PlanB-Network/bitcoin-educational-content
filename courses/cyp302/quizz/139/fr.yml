@@ -1,0 +1,9 @@
+question: Quelle est la principale caractéristique d'une fonction de hachage cryptographique ?
+answer: Elle produit une sortie de longueur fixe pour toute entrée, quelle que soit sa taille
+wrong_answers:
+  - Elle chiffre les données en utilisant une clé symétrique
+  - Elle produit une sortie variable en fonction de la longueur de l'entrée
+  - Elle déchiffre les messages en utilisant une clé publique
+explanation: |
+  Une fonction de hachage génère un hachage de longueur fixe, peu importe la taille de l'entrée.
+reviewed: false

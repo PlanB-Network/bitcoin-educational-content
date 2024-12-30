@@ -1,0 +1,12 @@
+question: Hva er en multisig-lommebok?
+answer: Et sett med lommebøker som krever flere signaturer for å utføre en transaksjon
+wrong_answers:
+  - En lommebok som krever en enkelt signatur for å utføre en transaksjon
+  - En lommebok som ikke krever signaturer for å utføre en transaksjon
+  - En lommebok som krever en fysisk signatur for å utføre en transaksjon
+explanation: |
+  En multisig-lommebok er en type Bitcoin-lommebok som krever flere
+  signaturer for å utføre en transaksjon. Dette legger til et ekstra lag med sikkerhet, ettersom det
+  betyr at en enkelt person ikke kan utføre en transaksjon uten godkjenning fra
+  andre.
+reviewed: true

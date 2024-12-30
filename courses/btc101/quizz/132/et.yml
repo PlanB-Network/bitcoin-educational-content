@@ -1,0 +1,11 @@
+question: Mis on Bitcoin'i sõlmpunktide geograafilise jaotuse tähtsus?
+answer: See muudab praktiliselt võimatuks kõikide plokiahela koopiate hävitamise.
+wrong_answers:
+  - See määrab Bitcoin'i hinna erinevates piirkondades.
+  - See mõjutab Bitcoin'i tehingute kiirust.
+  - See määrab, mitu Bitcoini saab piirkonnas kaevandada.
+explanation: >-
+  Bitcoin'i sõlmpunktide geograafilise jaotuse tõttu on praktiliselt võimatu
+  hävitada kõiki plokiahela koopiaid. See on seetõttu, et sõlmpunktid on laiali
+  ja nende kõigi füüsiliselt kätte saamine oleks keeruline.
+reviewed: false

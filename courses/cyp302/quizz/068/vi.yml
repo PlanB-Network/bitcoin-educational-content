@@ -1,0 +1,8 @@
+question: Vai trò của khóa trong quá trình mã hóa và giải mã đối xứng là gì?
+answer: Nó được sử dụng để mã hóa và giải mã tin nhắn
+wrong_answers:
+  - Nó chỉ được sử dụng để giải mã tin nhắn
+  - Nó được sử dụng để tạo mã xác minh tính toàn vẹn của tin nhắn
+  - Nó được chia sẻ công khai để tạo ra các khóa khác
+explanation: |
+  Trong các phương pháp mã hóa đối xứng, cùng một khóa riêng được sử dụng để mã hóa tin nhắn khi gửi và để giải mã nó khi nhận.

@@ -1,12 +1,19 @@
 question: Miksi voi olla suositeltavaa luoda erityinen sähköpostiosoite Bitcoin-toimintaa varten?
-answer: Eristääksesi elämäsi eri toiminta-alueet toisistaan.
+answer: Erottaaksesi todella elämäsi eri toiminta-alueet toisistaan.
 wrong_answers:
   - Näyttääksesi tukesi Bitcoinille.
   - Saadaksesi Bitcoin-aiheisia uutisia ja päivityksiä.
   - Lisätäksesi mahdollisuuksiasi voittaa Bitcoin-arvontoja.
 explanation: |
-  Luomalla erityisen sähköpostiosoitteen Bitcoin-toimintaa varten voit
+  Luomalla erityisen sähköpostiosoitteen Bitcoin-toimintaa varten
+  voit erottaa tämän toiminta-alueen muista elämäsi osa-alueista,
+  mikä voi parantaa turvallisuutta ja järjestystä.
+  erottaa tämän toiminta-alueen muista elämäsi osa-alueista,
+  mikä voi parantaa turvallisuutta ja järjestystä.' erottaa tämän
+  toiminta-alueen muista elämäsi osa-alueista, mikä voi
+  parantaa turvallisuutta ja järjestystä.'
 
   erottaa tämän toiminta-alueen muista elämäsi osa-alueista, mikä voi parantaa turvallisuutta
 
-  ja järjestystä.
+  ja järjestystä.'
+reviewed: true

@@ -1,11 +1,9 @@
-question: What does Alice do after receiving Bob's public address?
-answer: She creates a 2/2 multi-sig address.
+question: How is a new channel state created after each transfer?
+answer: By creating a new commitment transaction with the updated distribution
 wrong_answers:
-  - She sends money to Bob's public address.
-  - She publishes a transaction to the Bitcoin network.
-  - She asks Bob for his signature.
+  - By posting an on-chain transaction after each transfer
+  - By increasing the total capacity of the channel
+  - By closing and reopening the channel after each transaction
 explanation: |
-  After receiving Bob's public address, Alice uses it along with her own
-  public address to create a 2/2 multi-sig address. This is the address to which she
-  will send money to open the channel.
+  Each transaction within the channel updates the channel's state with a new commitment transaction, reflecting the current distribution of funds between the two participants.
 reviewed: false

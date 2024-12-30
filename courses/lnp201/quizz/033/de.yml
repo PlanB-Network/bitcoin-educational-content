@@ -1,9 +1,9 @@
-question: Wer kann den Widerrufsschlüssel vor Ablauf der Timelock verwenden?
-answer: Die Person, die das Geld erhält.
+question: Was bedeutet Onion-Routing im Lightning-Netzwerk?
+answer: Es bedeutet, dass jeder Zwischenknoten nur seine unmittelbaren Nachbarn auf dem Pfad kennt.
 wrong_answers:
-  - Die Person, die die Transaktion mit der Timelock erstellt.
-  - Beide Parteien können den Widerrufsschlüssel vor Ablauf der Timelock verwenden.
-  - Keine der Parteien kann den Widerrufsschlüssel vor Ablauf der Timelock verwenden.
+  - Mittel direkt von Knoten zu Knoten zu übertragen, wobei der endgültige Empfänger bekannt ist
+  - Gebühren für jeden Zwischenknoten unabhängig zu berechnen
+  - Mittel gleichzeitig an alle Knoten auf dem Pfad zu senden
 explanation: |
-  Die Person, die das Geld erhält, kann den Widerrufsschlüssel vor Ablauf der Timelock verwenden, falls es zu Betrug von einer Seite zur anderen in einem Kanal im Lightning-Netzwerk kommt.
+  Onion-Routing bedeutet, dass jeder Zwischenknoten nur den vorherigen und den nächsten Knoten kennt, wodurch die Vertraulichkeit des endgültigen Empfängers gewahrt bleibt.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Jaký je jeden z hlavních důsledků Bitcoinu pro bankovní systém?
-answer: Umožňuje osvobození od bankovního systému.
+question: Jaký je jeden z hlavních důsledků Bitcoinu na bankovní systém?
+answer: Umožňuje emancipaci od bankovního systému.
 wrong_answers:
-  - Umožňuje kontrolu nad bankovním systémem.
+  - Umožňuje kontrolu bankovního systému.
   - Umožňuje eliminaci bankovního systému.
   - Umožňuje korupci bankovního systému.
 explanation: >-
-  Text uvádí, že Bitcoin umožňuje osvobození od bankovního systému.
-reviewed: false
+  Text uvádí, že Bitcoin umožňuje emancipaci od bankovního systému.
+reviewed: true

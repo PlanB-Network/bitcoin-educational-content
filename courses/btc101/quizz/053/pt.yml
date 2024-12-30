@@ -1,9 +1,11 @@
-question: Em qual caso foi observada uma taxa diária equivalente de inflação de 100%?
-answer: No Zimbábue, em 2007
+question: Existe um caso histórico de uma taxa diária de inflação equivalente a 100%; onde e quando isso aconteceu?
+answer: No Zimbábue, 2007.
 wrong_answers:
-  - Na Hungria, em 1945
-  - Na China, em 1940
-  - Este é um caso irrealista que não pode acontecer
+  - Na Hungria, 1945.
+  - Na China, 1940.
+  - Este é na verdade um caso irrealista que não pode acontecer.
 explanation: |
-  A inflação de 100% ao dia é um cenário realista que ocorreu no Zimbábue em 2007, pois o valor do dinheiro dobrava aproximadamente a cada 24 horas.
-reviewed: false
+  Uma taxa de inflação de 100% por dia é um cenário realista que
+  aconteceu no Zimbábue em 2007, onde o valor do dinheiro
+  dobrava aproximadamente a cada 24 horas.
+reviewed: true

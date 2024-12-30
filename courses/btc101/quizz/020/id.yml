@@ -1,0 +1,11 @@
+question: Apa kriteria untuk mata uang yang efektif?
+answer: Fungible, Dapat Dibagi, Likuid
+wrong_answers:
+  - Fungible, Dapat Dibagi, Mudah Rusak
+  - Fungible, Tidak Dapat Dibagi, Likuid
+  - Tidak Fungible, Dapat Dibagi, Likuid
+explanation: |
+  Kriteria untuk mata uang yang efektif adalah harus fungible
+  (dapat ditukar tanpa kehilangan nilai), dapat dibagi (untuk memfasilitasi transaksi dengan volume yang berbeda),
+  dan likuid (mudah dikonversi menjadi barang atau jasa).
+reviewed: true

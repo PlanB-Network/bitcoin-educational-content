@@ -1,0 +1,9 @@
+question: Minkä vallankumouksen Frédéric Bastiat koki läheltä ollessaan kansanedustajana?
+answer: Vallankumous vuonna 1848
+wrong_answers:
+  - Vallankumous vuonna 1830
+  - Vallankumous vuonna 1871
+  - Vallankumous vuonna 1789
+explanation: |
+  Bastiat todisti vuoden 1848 vallankumouksen, joka perusti Toisen tasavallan ja johti hänen valintaansa kansanedustajaksi.
+reviewed: false

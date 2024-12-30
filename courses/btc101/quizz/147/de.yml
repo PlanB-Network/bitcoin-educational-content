@@ -1,14 +1,9 @@
-question: Welche Auswirkungen hätte es, wenn die Blöcke 100-mal schwerer wären?
-answer: Das Betreiben eines Bitcoin-Knotens wäre für den Durchschnittsmenschen nicht zugänglich, was die Dezentralisierung des Protokolls und die Unveränderlichkeit von Transaktionen und Konsensregeln beeinträchtigen würde
+question: Welche Auswirkungen hätte es für Bitcoin-Nutzer, wenn die Blöcke 100-mal schwerer wären?
+answer: Das Betreiben eines Bitcoin-Knotens wäre für den Durchschnittsnutzer nicht zugänglich, was die Dezentralisierung des Protokolls sowie die Unveränderlichkeit von Transaktionen und Konsensregeln beeinträchtigen würde.
 wrong_answers:
-  - Das Betreiben eines Bitcoin-Knotens wäre für den Durchschnittsmenschen zugänglicher, was die Dezentralisierung des Protokolls und die Unveränderlichkeit von Transaktionen und Konsensregeln verstärken würde
-  - Die Transaktionskapazität des Netzwerks würde abnehmen
-  - Die Blockbelohnung für Miner würde zunehmen
+  - Das Betreiben eines Bitcoin-Knotens wäre für den Durchschnittsnutzer zugänglicher, was die Dezentralisierung des Protokolls sowie die Unveränderlichkeit von Transaktionen und Konsensregeln verbessern würde.
+  - Die Transaktionskapazität des Netzwerks würde abnehmen.
+  - Die Blockbelohnung für Miner würde zunehmen.
 explanation: |
-  Wären die Blöcke 100-mal schwerer, würde das Betreiben eines Bitcoin-Knotens
-  eine 50-TB-Festplatte, eine Bandbreite von über 500 GB/Monat und Hardware erfordern, die
-  hunderttausende von Transaktionen in weniger als 10 Minuten validieren kann. Dies würde das Betreiben
-  eines Bitcoin-Knotens für den Durchschnittsmenschen unzugänglich machen und die Dezentralisierung
-  des Protokolls sowie die Unveränderlichkeit von Transaktionen und Konsensregeln beeinträchtigen.
-reviewed: false
-
+  Wenn die Blöcke 100-mal schwerer wären, würde das Betreiben eines Bitcoin-Knotens eine 50TB-Festplatte erfordern, eine Bandbreite von über 500GB/Monat und Hardware, die in der Lage ist, Hunderttausende von Transaktionen in weniger als 10 Minuten zu validieren. Dies würde das Betreiben eines Bitcoin-Knotens für den Durchschnittsnutzer unzugänglich machen und somit die Dezentralisierung des Protokolls sowie die Unveränderlichkeit von Transaktionen und Konsensregeln beeinträchtigen.
+reviewed: true

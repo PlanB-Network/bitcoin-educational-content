@@ -16,7 +16,7 @@ _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo
 
 In un tutorial precedente, avevamo già spiegato la procedura per installare e utilizzare RoninDojo v1. Tuttavia, nell'ultimo anno, i team di RoninDojo hanno lanciato la versione 2 della loro implementazione, che ha segnato un punto di svolta significativo nell'architettura del software. Infatti, si sono allontanati dalla distribuzione Linux Manjaro a favore di Debian. Di conseguenza, non offrono più un'immagine pre-configurata per l'installazione automatica su Raspberry Pi. Ma esiste ancora un metodo per procedere con un'installazione manuale. Questo è quello che ho usato per il mio nodo, e da allora, RoninDojo v2 ha funzionato meravigliosamente sul mio Raspberry Pi 4. Offro quindi un nuovo tutorial su come installare manualmente RoninDojo v2 su Raspberry Pi.
 
-https://planb.network/tutorials/node/ronin-dojo
+https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -325,14 +325,14 @@ Un tutorial dettagliato è in preparazione per guidarti passo dopo passo attrave
 
 Per una comprensione più approfondita del coinjoin e del suo utilizzo su Bitcoin, ti invito anche a consultare questo altro articolo: Understanding and using coinjoin on Bitcoin, dove dettaglio tutto ciò che devi sapere su questa tecnica.
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 ### Utilizzo di Whirlpool Stat Tool (WST)
 
 Dopo aver eseguito coinjoins con Whirlpool, è utile valutare con precisione il livello di privacy raggiunto per i tuoi UTXO mixati. Per fare ciò, puoi utilizzare lo strumento Python *Whirlpool Stat Tool*. Questo strumento ti permette di misurare sia i punteggi prospettici che retrospettivi dei tuoi UTXO, analizzando al contempo il loro tasso di diffusione nella pool.
 
 Per approfondire la tua comprensione dei meccanismi di calcolo di questi anonset, ti consiglio di leggere l'articolo: REMIX - WHIRLPOOL, che dettaglia il funzionamento di questi indici.
 
-https://planb.network/tutorials/privacy/remix-whirlpool
+https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

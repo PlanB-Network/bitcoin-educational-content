@@ -1,9 +1,0 @@
-question: Jaká je velikost komprimovaného veřejného klíče v Bitcoinu?
-answer: 264 bitů
-wrong_answers:
-  - 520 bitů
-  - 128 bitů
-  - 256 bitů
-explanation: |
-  V Bitcoinu zabírá surový veřejný klíč 520 bitů. Díky symetrii použité eliptické křivky však můžeme veřejný klíč komprimovat a snížit jeho velikost z 520 na 264 bitů.
-reviewed: false

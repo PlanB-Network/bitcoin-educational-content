@@ -8,5 +8,5 @@ In deterministic and hierarchical (HD) wallets, the objective (or _purpose_ in E
 * For P2WPKH: `84'`;
 * For P2TR: `86'`.
 
-![](../../dictionnaire/assets/20.png)
+![](../../dictionnaire/assets/20.webp)
 

@@ -1,0 +1,9 @@
+question: 7のキーを使用して単語「CAT」を暗号化するとどうなりますか？
+answer: 単語は「JHA」になります
+wrong_answers:
+  - 単語は「JBA」になります
+  - 単語は「JHB」になります
+  - 単語は「ZHA」になります
+explanation: |
+  7のキーを使用すると、「CAT」という単語の各文字はアルファベットで7つの位置にシフトされ、「JHA」という暗号化された単語が生成されます。
+reviewed: false

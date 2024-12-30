@@ -1,9 +1,14 @@
-question: Jak protokol Bitcoinu zajistí, že průměrný čas mezi dvěma bloky zůstává konstantní?
-answer: Obtížnost nalezení platného hash se upravuje každých 2016 bloků
+question: Jak protokol Bitcoinu udržuje konstantní průměrný čas mezi vytvořením dvou bloků?
+  zůstává konstantní?
+answer: Obtížnost nalezení platného hash se upravuje každých 2016 bloků.
 wrong_answers:
-  - Počet těžařů je regulován
-  - Velikost bloků je upravena
-  - Odmena za nalezení platného hash je zvýšena
-explanation: >-
-  Protokol Bitcoinu zajistí, že průměrný čas mezi dvěma bloky zůstává konstantní tím, že upravuje obtížnost nalezení platného hash každých 2016 bloků. To se děje bez ohledu na počet těžařů a jejich výpočetní výkon.
-reviewed: false
+  - Počet těžařů je regulován na pevný počet.
+  - Velikost bloků je upravena na 10 megabajtů.
+  - Odmena za nalezení platného hash je zvýšena.
+explanation: |
+  Protokol Bitcoinu zajišťuje, že průměrný čas mezi
+  dvěma bloky zůstává konstantní tím, že upravuje obtížnost
+  nalezení platného hash každých 2016 bloků. Tato událost se děje
+  bez ohledu na počet těžařů a jejich výpočetní
+  výkon.
+reviewed: true

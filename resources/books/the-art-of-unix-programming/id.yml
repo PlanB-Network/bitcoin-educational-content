@@ -1,7 +1,7 @@
 title: "Seni Pemrograman Unix"
 publication_year: 2003
 cover: cover_en.webp
-orignal: false
+original: false
 description: |
   Seni Pemrograman Unix oleh Eric S. Raymond adalah panduan tingkat menengah yang mengeksplorasi filosofi, prinsip desain, dan aspek praktis dari pemrograman Unix. Buku ini membahas topik seperti lingkungan pemrograman Unix, skrip shell, panggilan sistem, dan komunikasi antarproses. Dengan penjelasan yang jelas dan contoh-contoh, buku ini menampilkan kekuatan dan fleksibilitas Unix sebagai platform pemrograman sambil menekankan pada kesederhanaan dan desain modular. Buku ini juga membahas sejarah dan sifat kolaboratif dari pengembangan Unix. Secara keseluruhan, buku ini menawarkan wawasan berharga bagi pengembang yang ingin meningkatkan keterampilan pemrograman Unix mereka.
 contributors:

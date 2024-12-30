@@ -1,11 +1,9 @@
-question: How are miners compensated for their work?
-answer: Miners are compensated through the reward included in the block and through transaction fees.
+question: What is the coinbase transaction?
+answer: The first transaction of the block that includes the miner's reward.
 wrong_answers:
-  - Miners are paid by the Bitcoin network.
-  - Miners receive a fixed salary for their work.
-  - Miners are compensated with new bitcoins.
+  - A transaction carried out on the exchange Coinbase.
+  - The second transaction of the block that includes the highest fees.
+  - A transaction carried out by the miner after he receives the reward.
 explanation: >-
-  When a miner successfully mines a block, they receive a reward in the
-  form of new bitcoins. This reward is included in the block that they mined. In addition,
-  miners also receive transaction fees from the transactions included in the block.
-reviewed: false
+  The coinbase transaction is always the first transaction of a block. It includes the miner's reward for performing the validator's work.
+reviewed: true

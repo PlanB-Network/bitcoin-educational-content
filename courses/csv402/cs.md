@@ -119,10 +119,10 @@ Hodně štěstí ve vašem studiu a pokud potřebujete kontaktovat náš tým ne
 ## Závěrečné slovo
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-Děkujeme za účast v kurzech RGB nabízených sítí PlanB ve spolupráci s Fulgur'Ventures. Děkujeme našim učitelům za jejich podporu. Pokud máte zájem pokračovat ve své práci s RGB, zde je užitečný seznam zdrojů, které můžete prozkoumat:
+Děkujeme za účast v kurzech RGB nabízených sítí Plan ₿ ve spolupráci s Fulgur'Ventures. Děkujeme našim učitelům za jejich podporu. Pokud máte zájem pokračovat ve své práci s RGB, zde je užitečný seznam zdrojů, které můžete prozkoumat:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP- https://twitter.com/lnp_bp
-Děkuji a přeji hodně štěstí ve vašem studiu na PlanB Network.
+Děkuji a přeji hodně štěstí ve vašem studiu na Plan ₿ Network.

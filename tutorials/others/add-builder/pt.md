@@ -10,10 +10,10 @@ Você quer adicionar um novo "construtor" de Bitcoin ao site da Rede PlanB e dar
 ![builder](assets/01.webp)
 - Primeiro, você precisa ter uma conta no GitHub. Se você não sabe como criar uma conta, fizemos um tutorial detalhado para guiá-lo.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) na seção `resources/builder/`:
+- Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) na seção `resources/builder/`:
 ![builder](assets/02.webp)
 - Clique no canto superior direito no botão `Add file`, depois em `Create new file`:
 ![builder](assets/03.webp)

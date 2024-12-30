@@ -1,0 +1,9 @@
+question: What is the definition of an integer being coprime with respect to another integer?
+answer: An integer that has a greatest common divisor of 1 with that other integer
+wrong_answers:
+  - An integer that is divisible by the other integer without remainder
+  - An integer that is prime
+  - An integer that is larger than the other
+explanation: |
+  An integer is coprime with another if their greatest common divisor is 1, meaning they do not share any other common factor.
+reviewed: false

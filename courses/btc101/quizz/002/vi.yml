@@ -1,10 +1,12 @@
 question: Lightning Network là gì?
-answer: Một công nghệ có thể tăng tốc giao dịch Bitcoin.
+answer: Một công nghệ có thể tăng tốc các giao dịch Bitcoin.
 wrong_answers:
-  - Một công nghệ làm chậm giao dịch Bitcoin.
-  - Một công nghệ không ảnh hưởng đến giao dịch Bitcoin.
-  - Một công nghệ làm cho giao dịch Bitcoin kém an toàn hơn.
+  - Một công nghệ làm chậm các giao dịch Bitcoin.
+  - Một công nghệ không ảnh hưởng đến các giao dịch Bitcoin.
+  - Một công nghệ làm cho các giao dịch Bitcoin kém an toàn hơn.
 explanation: |
-  Lightning Network là một công nghệ có thể cải thiện giao dịch Bitcoin,
-  làm cho chúng nhanh chóng và hiệu quả hơn. Đây là một nỗ lực nhằm giải quyết vấn đề khả năng mở rộng mà Bitcoin đối mặt.
-reviewed: false
+  Lightning Network là một công nghệ giúp tăng cường
+  khả năng sử dụng của Bitcoin cho các giao dịch hàng ngày, làm cho chúng
+  nhanh chóng và hiệu quả hơn nhằm giải quyết vấn đề
+  khả năng mở rộng của Bitcoin.
+reviewed: true

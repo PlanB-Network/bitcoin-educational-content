@@ -1,0 +1,13 @@
+question: ¿Cuál es la principal diferencia entre un ricochet mejorado y un ricochet clásico?
+
+answer: La distribución de las transacciones a lo largo del tiempo
+
+wrong_answers:
+  - El número de transacciones utilizadas
+  - El tipo de dirección utilizada
+  - El número de salidas en las transacciones
+
+explanation: |
+  El ricochet mejorado asegura que cada transacción se transmita en un momento distinto y se registre en un bloque diferente, mientras que el ricochet clásico transmite todas las transacciones en un corto período de tiempo.
+
+reviewed: false

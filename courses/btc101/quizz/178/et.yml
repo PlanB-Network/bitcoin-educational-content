@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i üldine suundumus seoses selle piiratud koguse ja poolitamisprotsessiga?
+answer: Üldine tõusutrend.
+wrong_answers:
+  - Üldine langustrend.
+  - Mingit trendi pole.
+  - Trend, mis kõigub metsikult ilma äratuntava mustrita.
+explanation: >-
+  Bitcoin, olles piiratud koguses 21 miljoni bitcoiniga ja läbides poolitamisprotsessi (rahalise loomise poolitamine iga 4 aasta tagant keskmiselt), järgib üldist tõusutrendi.
+reviewed: false

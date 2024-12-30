@@ -1,9 +1,9 @@
-question: Mitä Bitcoin pakottaa yrityksiä, yliopistoja, sääntelyviranomaisia ja yksilöitä tekemään?
-answer: Ottamaan tämän uuden teknologian huomioon
+question: Mihin toimintaan Bitcoin pakottaa yritykset, yliopistot, sääntelijät ja yksilöt?
+answer: Ottamaan sen huomioon.
 wrong_answers:
-  - Ohittamaan sen
-  - Kieltämään sen
-  - Kriminalisoimaan sen
+  - Ohittamaan sen.
+  - Kieltämään sen.
+  - Kriminalisoimaan sen.
 explanation: >-
-  Bitcoinin nousu pakottaa yritykset, yliopistot, sääntelyviranomaiset ja yksilöt ottamaan tämän uuden teknologian huomioon. Uusia työkaluja on luotava, palveluita on mukautettava ja innovaatioiden on jatkuttava varmistaakseen niiden selviytymisen.
-reviewed: false
+  Bitcoinin nousu pakottaa yritykset, yliopistot, sääntelijät ja yksilöt ottamaan tämän uuden teknologian huomioon. Uusia työkaluja on luotava, palveluita on mukautettava ja innovaatioiden on jatkuttava varmistaakseen niiden selviytymisen.
+reviewed: true

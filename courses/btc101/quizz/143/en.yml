@@ -1,12 +1,12 @@
-question: What would happen if a user decides to follow other rules that invalidate
+question: What would occur if a node user chose to follow different rules that contradict the existing consensus rules?
   the current consensus rules?
-answer: The node will no longer be part of the Bitcoin network
+answer: The node will no longer be part of the Bitcoin network.
 wrong_answers:
-  - The node will become a part of a different Bitcoin network
-  - The node will be penalized by the Bitcoin network
-  - The node will be rewarded by the Bitcoin network
-explanation: >-
-  If a user decides to follow other rules that invalidate the current
-  consensus
-  rules, then this node will no longer be part of the Bitcoin network.
-reviewed: false
+  - The node will become a part of a different Bitcoin network.
+  - The node will be penalized by the Bitcoin network.
+  - The node will be rewarded by the Bitcoin network.
+explanation: |
+  If a node user decided to follow other rules that
+  invalidate the current consensus rules, then this node
+  would no longer be part of the Bitcoin network.
+reviewed: true

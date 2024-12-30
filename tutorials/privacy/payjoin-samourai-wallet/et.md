@@ -27,7 +27,7 @@ Stowaway tugineb tehingute kategooriale, mida Samourai nimetab "Cahoots'iks." Ca
 Cahoots tehingud hõlmavad osaliselt allkirjastatud tehingute vahetusi kasutajate vahel. See protsess võib olla pikk ja tülikas, eriti kui see toimub kaugelt. Siiski on see siiski võimalik käsitsi teostada teise kasutajaga, mis võib olla mugav, kui koostööpartnerid on füüsiliselt lähedal. Praktikas hõlmab see viie QR-koodi käsitsi vahetamist, mida tuleb järjest skannida.
 Kui seda protsessi tehakse kaugjuhtimisega, muutub see liiga keerukaks. Selle probleemi lahendamiseks on Samourai välja töötanud krüpteeritud suhtlusprotokolli, mis põhineb Toril, nimetusega "Soroban". Sorobani abil automatiseeritakse Payjoini jaoks vajalikud vahetused kasutajasõbraliku liidese taga. See on teine meetod, mida me selles artiklis uurime.
 
-Need krüpteeritud vahetused nõuavad ühenduse loomist ja autentimist Cahootsi osalejate vahel. Seega põhinevad Sorobani suhtlused kasutajate Paynymidel. Kui te ei ole Paynymidega tuttav, siis kutsun teid üles lugema selle kohta rohkem siit: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
+Need krüpteeritud vahetused nõuavad ühenduse loomist ja autentimist Cahootsi osalejate vahel. Seega põhinevad Sorobani suhtlused kasutajate Paynymidel. Kui te ei ole Paynymidega tuttav, siis kutsun teid üles lugema selle kohta rohkem siit: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 
 Lihtsalt öeldes on Paynym unikaalne identifikaator, mis on seotud teie rahakotiga ja võimaldab erinevaid funktsioone, sealhulgas krüpteeritud sõnumite saatmist. Paynym esitatakse identifikaatori ja illustratsioonina, mis kujutab robotit. Siin on minu näide Testnetis: ![paynym samourai wallet](assets/en/1.webp)
 
@@ -38,7 +38,7 @@ Lihtsalt öeldes on Paynym unikaalne identifikaator, mis on seotud teie rahakoti
 - _Soroban_ = Krüpteeritud suhtlusprotokoll, mis on loodud Tori peal, võimaldades koostööd teiste kasutajatega Cahootsi tehingu kontekstis;
 - _Paynym_ = Rahakoti unikaalne identifikaator, mis võimaldab suhelda teise kasutajaga Sorobanis, et teostada Cahootsi tehing.
 
-[**-> Uuri lähemalt Payjoin tehingute ja nende kasulikkuse kohta**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Uuri lähemalt Payjoin tehingute ja nende kasulikkuse kohta**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Kuidas luua ühendus Paynymide vahel?
 
@@ -64,7 +64,7 @@ Klõpsake nupul `SUIVRE`.
 ![follow paynym](assets/notext/6.webp)
 Kinnitage, klõpsates `YES`.
 ![confirm follow paynym](assets/notext/7.webp)
-Seejärel pakub tarkvara teile nuppu `SE CONNECTER`. Meie õpetuse jaoks ei ole selle nupu vajutamine vajalik. See samm on vajalik ainult juhul, kui plaanite teha makseid teisele Paynym'ile osana [BIP47](https://planb.network/tutorials/privacy/paynym-bip47)-st, mis ei ole meie õpetusega seotud.
+Seejärel pakub tarkvara teile nuppu `SE CONNECTER`. Meie õpetuse jaoks ei ole selle nupu vajutamine vajalik. See samm on vajalik ainult juhul, kui plaanite teha makseid teisele Paynym'ile osana [BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)-st, mis ei ole meie õpetusega seotud.
 ![connect paynym](assets/notext/8.webp)
 Kui saaja Paynym on teie Paynym'i poolt jälgitud, korrake seda toimingut vastupidises suunas, nii et saaja jälgiks ka teid. Seejärel saate teostada Payjoini.
 

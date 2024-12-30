@@ -1,0 +1,10 @@
+question: Apa itu evolusi mata uang?
+answer: Batu mentah -> Koin -> Uang kertas -> Kartu bank -> Blockchain -> Lightning Network
+wrong_answers:
+  - Batu mentah -> Koin -> Uang kertas -> Blockchain -> Lightning Network
+  - Batu mentah -> Koin -> Uang kertas -> Kartu bank -> Lightning Network
+  - Batu mentah -> Koin -> Uang kertas -> Kartu bank -> Blockchain
+explanation: |
+  Mata uang, seperti teknologi apa pun, berkembang dari batu mentah
+  menjadi koin metalik, kemudian ke uang kertas, kartu bank, dan akhirnya jaringan peer-to-peer dengan blockchain Bitcoin, serta Lightning Network.
+reviewed: true

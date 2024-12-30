@@ -1,9 +1,11 @@
 question: Qual è il ruolo di un notaio nel contesto dell'eredità di Bitcoin?
-answer: Per garantire la conformità fiscale
+answer: Garantiscono la conformità fiscale.
 wrong_answers:
-  - Gestire i tuoi bitcoin dopo la tua morte
-  - Creare il tuo piano di eredità
-  - Proteggere i tuoi bitcoin
+  - Gestiscono i tuoi bitcoin dopo la tua morte.
+  - Modificano il tuo piano di eredità.
+  - Proteggono i tuoi bitcoin in una cassaforte.
 explanation: |
-  Nel contesto dell'eredità di Bitcoin, è importante discutere dell'eredità dei bitcoin con un notaio per garantire la conformità fiscale.
+  Nel contesto dell'eredità di Bitcoin, è importante
+  discutere l'eredità dei bitcoin con un notaio per garantire
+  la conformità fiscale.
 reviewed: false

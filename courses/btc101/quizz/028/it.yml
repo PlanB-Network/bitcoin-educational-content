@@ -1,9 +1,13 @@
-question: Qual è l'evoluzione della valuta?
+question: Qual è il percorso evolutivo della valuta di oggi?
 answer: Pietra grezza -> Moneta -> Banconota -> Carta di credito -> Blockchain -> Lightning Network
 wrong_answers:
   - Pietra grezza -> Moneta -> Banconota -> Blockchain -> Lightning Network
   - Pietra grezza -> Moneta -> Banconota -> Carta di credito -> Lightning Network
-  - Pietra grezza -> Moneta -> Banconota -> Carta di credito -> Blockchain
+  - Pietra grezza -> Moneta -> Carta di credito -> Banconota -> Blockchain -> Lightning Network
 explanation: |
-  La valuta, come qualsiasi tecnologia, si è evoluta dalla pietra grezza alla moneta metallica, poi alla banconota, alla carta di credito e infine alle reti peer-to-peer con la blockchain di Bitcoin e la Lightning Network.
-reviewed: false
+  La valuta è una tecnologia che si è evoluta nel tempo,
+  partendo dalla rappresentazione tramite pietre grezze, passando
+  alle monete metalliche, poi alle banconote, alle carte di credito, e
+  infine alle reti peer-to-peer con l'uso della blockchain di Bitcoin
+  e del Lightning Network.
+reviewed: true

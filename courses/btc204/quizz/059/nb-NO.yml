@@ -1,0 +1,13 @@
+question: På omtrent hvilket nivå er den generelle raten for gjenbruk av adresser på Bitcoin?
+
+answer: Omtrent 50%
+
+wrong_answers:
+  - Omtrent 5%
+  - Omtrent 15%
+  - Omtrent 40%
+
+explanation: |
+  Siden tidlig på 2010-tallet har den generelle raten for gjenbruk av adresser på Bitcoin svingt rundt 50%.
+
+reviewed: false

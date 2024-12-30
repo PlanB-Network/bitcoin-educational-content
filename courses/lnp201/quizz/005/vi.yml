@@ -1,9 +1,9 @@
-question: Lợi ích của các kênh thanh toán Lightning là gì?
-answer: Chúng cho phép người dùng gửi và nhận Bitcoin mà không cần phải trả phí giao dịch cao hoặc chờ đợi thời gian xác nhận lâu trên mạng lưới Bitcoin
+question: Vai trò chính của khóa riêng trong hệ thống Bitcoin là gì?
+answer: Ký các giao dịch để thỏa mãn một script
 wrong_answers:
-  - Chúng cho phép người dùng đào Bitcoin hiệu quả hơn
-  - Chúng cho phép người dùng lưu trữ Bitcoin an toàn hơn
-  - Chúng cho phép người dùng đổi Bitcoin lấy các loại tiền mã hóa khác
+  - Đóng vai trò như một bộ nhận dạng để nhận bitcoin
+  - Lưu trữ tiền một cách an toàn trên blockchain
+  - Tạo ra các script khóa để bảo vệ bitcoin
 explanation: |
-  Các kênh thanh toán Lightning là một cách hiệu quả để thực hiện các giao dịch Bitcoin nhanh chóng và tiết kiệm chi phí. Chúng cho phép người dùng gửi và nhận Bitcoin mà không cần phải trả phí giao dịch cao hoặc chờ đợi thời gian xác nhận lâu trên mạng lưới Bitcoin.
+  Khóa riêng được sử dụng để ký các giao dịch nhằm thỏa mãn một script và mở khóa bitcoin.
 reviewed: false

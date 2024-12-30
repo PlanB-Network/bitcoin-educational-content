@@ -1,0 +1,16 @@
+- start_date: 2025-06-28 16:00:00
+  end_date: 2025-06-29 23:00:00
+  timezone: Canada/Mountain
+  address_line_1: Calgary, Alberta, Canada
+  name: The Bitcoin Rodeo 2025
+  builder: Bitcoin Rodeo
+  type: conference
+  description: Discover Bitcoin. Exercise Freedom.
+  language:
+    - en
+  links:
+    website: https://bitcoinrodeo.com/
+  tags:
+    - adoption
+    - business
+    - self-sovereignty

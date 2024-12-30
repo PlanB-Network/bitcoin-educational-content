@@ -1,0 +1,9 @@
+question: ¿Qué aspecto de Bitcoin deseaba Satoshi minimizar en su comunicación en julio de 2010?
+answer: La anonimidad de las transacciones
+wrong_answers:
+  - Política monetaria
+  - Comercio electrónico
+  - Programabilidad
+explanation: |
+  Respecto al borrador de la presentación para Slashdot, afirmó que no quería poner el aspecto anónimo en primer plano. Explicó sus razones a Martti Malmi [en privado](https: //mmalmi.github.io/satoshi/#email-197).
+reviewed: false

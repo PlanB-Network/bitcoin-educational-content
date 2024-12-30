@@ -8,7 +8,7 @@ Uma passphrase BIP39 é uma senha opcional que, quando combinada com sua frase m
 
 Antes de iniciar este tutorial, se você não está familiarizado com o conceito de passphrase, como funciona e suas implicações para sua carteira Bitcoin, eu recomendo fortemente consultar este outro artigo teórico onde explico tudo:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Como a passphrase funciona em um Ledger?
 
@@ -28,9 +28,9 @@ Neste tutorial, usarei o Ledger Flex como exemplo. No entanto, se você estiver 
 **Atenção:** Se você já recebeu bitcoins em sua Ledger antes de ativar a frase-senha, será necessário transferi-los por meio de uma transação Bitcoin. A frase-senha gera um conjunto de novas chaves, criando assim uma carteira completamente independente da sua carteira inicial. Ao adicionar a frase-senha, você terá uma nova carteira que estará vazia. No entanto, isso não exclui sua primeira carteira sem frase-senha. Você ainda pode acessá-la, diretamente pela sua Ledger sem inserir a frase-senha ou através de outro software usando sua frase de 24 palavras.
 Antes de iniciar este tutorial, certifique-se de que já inicializou sua Ledger e gerou sua frase mnemônica. Se este não for o caso e sua Ledger for nova, siga o tutorial específico para o seu modelo disponível na PlanB Network. Uma vez concluída esta etapa, você pode retornar a este tutorial.
 
-https://planb.network/tutorials/wallet/ledger-flex
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
-https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Como configurar uma frase-senha temporária com uma Ledger?
 
@@ -173,4 +173,4 @@ Parabéns, sua carteira Bitcoin agora está segura com uma frase-senha! Se você
 
 Eu também recomendo que você confira este outro tutorial completo sobre como usar seu Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

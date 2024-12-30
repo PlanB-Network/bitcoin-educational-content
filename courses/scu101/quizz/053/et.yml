@@ -1,0 +1,9 @@
+question: Miks peetakse biomeetrilisi andmeid vähem turvaliseks kui teadmiste ja valduse kombinatsiooni 2FA puhul?
+answer: Biomeetrilised andmed peaksid jääma autentimisseadmesse ega tohi olla avalikustatud internetis.
+wrong_answers:
+  - Biomeetrilisi andmeid on lihtsam võltsida
+  - Biomeetrilisi andmeid on raskem meeles pidada
+  - Biomeetriliste andmete rakendamine on kallim
+explanation: |
+  Biomeetrilised andmed on vähem turvalised, kuna need peaksid jääma autentimisseadmesse ega tohi olla avalikustatud internetis. Kui need avalikustatakse internetis, võivad need varastada ja kasutada volitamata juurdepääsuks.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Mitä tapahtuu pakotetussa sulkemisessa, jos verkkomaksu on 1 SAT sulkemishetkellä?
-answer: Maksutapahtuma maksetaan 50 kertaa yli.
+question: Mitä LNURL-withdraw -ominaisuus mahdollistaa käyttäjille?
+answer: Varojen nostaminen palvelusta skannaamalla QR-koodi
 wrong_answers:
-  - Maksutapahtuma maksetaan 50 kertaa ali.
-  - Maksutapahtuma maksetaan 2 kertaa yli.
-  - Maksutapahtuma maksetaan 2 kertaa ali.
+  - Suoran maksun tekeminen ilman välityspalkkioita
+  - Lightning-lompakon yhdistäminen ilman salasanaa
+  - Varojen lähettäminen ilman vastaanottajan vahvistusta
 explanation: |
-  Pakotetussa sulkemisessa protokolla olettaa oletusarvoisesti, että maksut ovat 5 kertaa korkeampia kuin
-  maksutapahtuman luomishetkellä. Jos verkkomaksu on 1 SAT sulkemishetkellä, maksutapahtuma maksetaan 50 kertaa yli.
+  LNURL-withdraw mahdollistaa käyttäjille varojen nostamisen palvelusta skannaamalla QR-koodin, mikä yksinkertaistaa nostoprosessia.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Mis on võtmegeneratsiooni algoritmi funktsioon sümmeetrilises krüpteerimisskeemis?
+answer: See genereerib privaatvõtme
+wrong_answers:
+  - See genereerib avaliku võtme
+  - See räsib sõnumit
+  - See krüpteerib sõnumit
+explanation: |
+  Sümmeetrilises krüpteerimisskeemis toodab võtmegeneratsiooni algoritm privaatvõtme, mida seejärel kasutatakse sõnumite krüpteerimiseks ja dekrüpteerimiseks.

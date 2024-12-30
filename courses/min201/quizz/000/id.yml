@@ -1,0 +1,14 @@
+question: Apa hadiah penambangan saat ini dalam jaringan Bitcoin?
+answer: Pembuatan bitcoin baru dan biaya transaksi
+wrong_answers:
+  - Pembuatan bitcoin baru saja
+  - Hanya biaya transaksi
+  - Pembuatan bitcoin baru, biaya transaksi, dan bonus untuk penambang tercepat
+explanation: |
+  Hadiah penambangan saat ini dalam jaringan Bitcoin adalah
+  dua lipat. Ini mencakup pembuatan bitcoin baru, yang
+  telah berkurang dari 50 bitcoin setiap sepuluh menit pada awalnya
+  menjadi 6.25 bitcoin saat ini (2023). Ini juga mencakup biaya transaksi,
+  atau biaya penambangan, dari transaksi yang dipilih penambang
+  untuk dimasukkan dalam blok mereka.
+reviewed: true

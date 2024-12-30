@@ -1,0 +1,8 @@
+question: I en endelig gruppe, hvilket uttrykk refererer til antallet elementer i gruppen?
+answer: Ordenen til gruppen
+wrong_answers:
+  - Kapasiteten til gruppen
+  - Lengden til gruppen
+  - Graden til gruppen
+explanation: |
+  Ordenen til en gruppe er det totale antallet elementer den inneholder.

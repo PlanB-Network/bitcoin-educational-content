@@ -1,9 +1,9 @@
-question: ¿Cuál es una forma de probar la Lightning Network por ti mismo?
-answer: Probando la aplicación de podcast Fountain
+question: ¿Cuál es una forma de probar la Red Lightning por ti mismo?
+answer: Probando la aplicación de podcast llamada Fountain.
 wrong_answers:
-  - Minando Bitcoin
-  - Comprando Bitcoin
-  - Creando una nueva criptomoneda
-explanation: |
-  Una forma de probar la Lightning Network por ti mismo es probando la aplicación de podcast Fountain, que te permite ser recompensado con algunos sats por escuchar tus podcasts favoritos.
-reviewed: false
+  - Minando Bitcoin usando un ordenador personal.
+  - Comprando Bitcoin del banco.
+  - Creando una nueva criptomoneda.
+explanation: >-
+  Una forma de probar la Red Lightning por ti mismo es probando la aplicación de podcast Fountain, la cual te permite ser recompensado con algunos sats por escuchar tus podcasts favoritos.
+reviewed: true

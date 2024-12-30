@@ -137,7 +137,7 @@ Bạn có thể thêm một "*Label*" để mô tả nguồn của bitcoin sẽ 
 
 Để biết thêm thông tin về việc gắn nhãn, tôi cũng khuyên bạn nên xem hướng dẫn khác này:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Sau đó, bạn có thể sử dụng địa chỉ này để nhận bitcoin.
 

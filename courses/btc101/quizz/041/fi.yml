@@ -5,7 +5,5 @@ wrong_answers:
   - Se johtaa vakaaseen talouteen ilman inflaatiota tai deflaatiota.
   - Se johtaa rahan määrän vähenemiseen.
 explanation: |
-  Rahan painaminen eli uuden rahan luominen keskuspankkien toimesta johtaa
-  inflaatioon. Tämä johtuu siitä, että rahan määrän lisääntyminen vähentää rahan ostovoimaa,
-  mikä johtaa hintojen nousuun ja säästöjen arvon laskuun.
-reviewed: false
+  Rahan painaminen, eli uuden rahan luominen keskuspankkien toimesta, johtaa inflaatioon. Tämä johtuu siitä, että rahan määrän lisääntyminen vähentää rahan ostovoimaa, mikä johtaa korkeampiin hintoihin ja säästöjen arvon alenemiseen.
+reviewed: true

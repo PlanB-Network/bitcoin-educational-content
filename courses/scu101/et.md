@@ -114,9 +114,7 @@ Täiustatud alternatiiv on TOR (The Onion Router) võrk, mis pakub anonüümsust
 TOR on seaduslik ja seda kasutavad ajakirjanikud, vabadusaktivistid ja teised, kes soovivad põgeneda tsensuurist autoritaarsetes riikides. Siiski on oluline mõista, et TOR ei turva külastatavaid saite ega arvutit ennast. Lisaks võib TORi kasutamine aeglustada internetiühendust, kuna andmed liiguvad enne sihtkohta jõudmist läbi kolme teise inimese arvutite. On ka oluline märkida, et TOR ei ole lollikindel lahendus 100% anonüümsuse tagamiseks ja seda ei tohiks kasutada ebaseaduslikeks tegevusteks.
 ![](assets/notext/7.webp)
 
-
-
-https://planb.network/tutorials/others/tor-browser
+https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN ja internetiühendus
 
@@ -135,9 +133,9 @@ VPN-e on peamiselt kahte tüüpi: ettevõtte VPN-id ja tarbija VPN-id, nagu Nord
 Kuigi tarbija VPN-i kasutamine ei taga täielikku anonüümsust, säilitavad paljud VPN-i pakkujad teavet oma kasutajate kohta, mis võib nende anonüümsust ohustada. Kuigi VPN-id võivad olla kasulikud veebiturvalisuse parandamisel, ei ole need universaalne lahendus. Need on tõhusad teatud konkreetsetel eesmärkidel, nagu geograafiliselt piiratud teenustele juurdepääsu võimaldamine või turvalisuse parandamine reisimisel, kuid need ei taga täielikku turvalisust. VPN-i valimisel on oluline eelistada usaldusväärsust ja tehnilisust populaarsusele. VPN-i pakkujad, kes koguvad kõige vähem isiklikku teavet, on üldiselt kõige turvalisemad. Teenused nagu iVPN ja Mullvad ei kogu isiklikku teavet ja võimaldavad isegi makseid Bitcoin'is suurema privaatsuse tagamiseks. ![](assets/notext/9.webp)
 Lõpuks võib VPN-i kasutada ka veebireklaamide blokeerimiseks, pakkudes nauditavamat ja turvalisemat sirvimiskogemust. Siiski on oluline teha oma uurimistööd, et leida just teie konkreetsetele vajadustele kõige paremini sobiv VPN. VPN-i kasutamine on soovitatav turvalisuse suurendamiseks, isegi kui sirvite internetti kodus. See aitab tagada vahetatavate andmete kõrgema turvalisuse taseme. Lõpuks veenduge, et kontrolliksite URL-e ja väikest tabalukku aadressiribal, et kinnitada, et olete soovitud saidil.
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS ja avalikud Wi-Fi võrgud
 
@@ -148,7 +146,6 @@ Euroopa Liidus reguleerib andmekaitset Üldine Andmekaitse Määrus (GDPR). Seet
 Veebipettuste vältimiseks on oluline kontrollida külastatava saidi identiteeti, eriti kontrollides laiendit ja domeeninime. Lisaks olge valvas petturite suhtes, kes kasutavad URL-ides sarnaseid tähti, et kasutajaid eksitada.
 ![](assets/en/10.webp)
 Kokkuvõttes võib VPN-i kasutamine oluliselt parandada veebiturvalisust nii ettevõtetele kui ka üksikkasutajatele. Lisaks võib heade sirvimisharjumuste praktiseerimine aidata kaasa paremale digitaalsele hügieenile. Järgmises kursuse osas käsitleme arvuti turvalisust, sealhulgas uuendusi, viirusetõrjet ja paroolihaldust.
-
 
 # Parimad praktikad arvuti kasutamisel
 
@@ -196,8 +193,6 @@ Lõpuks, siin on mõned head tavad teie arvuti ja andmete turvalisuse jaoks. On 
 Kohtle oma arvutit nagu oma kodu: ole valvas, uuenda regulaarselt, kustuta tarbetuid faile ja kasuta turvalisuse jaoks tugevat parooli. Sülearvutite ja nutitelefonide andmete krüpteerimine on oluline varguse või andmekao vältimiseks. BitLocker Windowsile, LUKS Linuxile ja sisseehitatud võimalus Macile on andmete krüpteerimise lahendused. On soovitatav aktiveerida andmete krüpteerimine kõhklemata ja kirjutada parool paberile, mida hoitakse turvalises kohas.
 Järeldusena on oluline valida operatsioonisüsteem, mis vastab teie vajadustele, ning seda ja installitud rakendusi regulaarselt uuendada. Samuti on oluline kasutada efektiivset ja kasutajasõbralikku viirusetõrjet ning omaks võtta head praktikad oma arvuti ja andmete turvalisuse tagamiseks.
 
-
-
 ## Häkkimine ja varundamise haldus: Oma andmete kaitsmine
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
@@ -236,10 +231,9 @@ EI, üldiselt ei soovitata lunavara või muud tüüpi rünnakute korral häkkeri
 
 Kui avastate oma arvutis viiruse, ühendage see internetist lahti, tehke täielik viirusetõrje skannimine ja kustutage nakatunud failid. Seejärel uuendage oma tarkvara ja operatsioonisüsteemi ning muutke oma paroole, et vältida edasisi sissetunge.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/veracrypt
-
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Lahenduste rakendamine.
 
@@ -272,9 +266,7 @@ On soovitatav kasutada veebisaiti Have I Been Pwned (https://haveibeenpwned.com/
 Üldiselt ei ole uue, turvalisema e-posti aadressi kasutusele võtmine halb tava ja isegi vajalik, kui soovitakse alustada puhtalt lehelt tervislikul alusel.
 Boonus Bitcoin: Võib olla soovitatav luua spetsiifiline e-posti aadress meie Bitcoin'i tegevusteks (vahetuskontode loomine), et tõeliselt eraldada meie elu erinevad tegevusalad.
 
-https://planb.network/tutorials/others/proton-mail
-
-
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Paroolihaldur
 
@@ -315,9 +307,9 @@ Tugeva parooli loomiseks on soovitatav kasutada suurt hulka juhuslikke tähemär
 
 Juhuslikult genereeritud paroolid pakuvad kõrgemat turvalisuse taset, kuigi need võivad olla raskemini meeldejäetavad. Paroolihaldurid saavad genereerida turvalisemaid juhuslikke paroole. Paroolihalduri kasutamisel ei pea te kõiki oma paroole meelde jätma. On oluline järk-järgult asendada oma vanad paroolid halduri poolt genereeritud tugevamate ja pikematega. Veenduge, et teie paroolihalduri peaparool on samuti tugev ja turvaline.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Kahefaktoriline Autentimine
 
@@ -358,11 +350,9 @@ Jätkake õppimist ja järk-järgult rakendage häid tavasid!
 
 Kuldreegel: Küberturvalisus on liikuv sihtmärk, mis kohandub teie õppimisteekonnaga!
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/security-key
-
-
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktiline osa
 
@@ -374,9 +364,7 @@ https://planb.network/tutorials/others/security-key
 
 E-posti postkasti kaitsmine on oluline samm oma veebitegevuste turvamiseks ja isikuandmete kaitsmiseks. See juhend juhendab teid samm-sammult ProtonMaili konto loomisel ja seadistamisel, pakkujal, mis on tuntud oma kõrge turvalisuse taseme poolest ja pakub teie kommunikatsioonide otsast lõpuni krüpteerimist. Olgu te olete algaja või kogenud kasutaja, siin pakutavad parimad tavad aitavad teil tugevdada oma postkasti turvalisust, kasutades samal ajal ProtonMaili täiustatud funktsioone:
 
-https://planb.network/tutorials/others/proton-mail
-
-
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Turvamine 2FA abil
 
@@ -384,14 +372,11 @@ https://planb.network/tutorials/others/proton-mail
 
 Kahefaktoriline autentimine (2FA) on muutunud oluliseks teie veebikontode turvamiseks. Selles juhendis õpite, kuidas seadistada ja kasutada 2FA rakendust Authy, mis genereerib teie kontode kaitsmiseks dünaamilisi 6-kohalisi koode. Authy on väga lihtne kasutada ja sünkroonib mitme seadmega. Avastage, kuidas installida ja konfigureerida Authy ning tugevdada oma veebikontode turvalisust kohe:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Teine võimalus on kasutada füüsilist turvavõtit. See teine juhend näitab, kuidas seadistada ja kasutada turvavõtit teise autentimistegurina:
 
-https://planb.network/tutorials/others/security-key
-
-
-
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Paroolihalduri loomine
 
@@ -401,13 +386,11 @@ Paroolihaldus on digiajastul väljakutse. Meil kõigil on palju veebikontosid, m
 
 Selles õpetuses saate teada, kuidas seadistada Bitwarden, avatud lähtekoodiga paroolihaldurit, ja kuidas sünkroonida oma mandaadid kõigis seadmetes, et lihtsustada igapäevast kasutamist:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kogenumatele kasutajatele pakun ka õpetust teise tasuta ja avatud lähtekoodiga tarkvara kohta, mida saate lokaalselt paroolide haldamiseks kasutada:
 
-https://planb.network/tutorials/others/keepass
-
-
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Oma kontode turvamine
 
@@ -415,10 +398,9 @@ https://planb.network/tutorials/others/keepass
 
 Nendes kahes õpetuses juhendan teid ka oma veebikontode turvamisel ning selgitan, kuidas järk-järgult võtta kasutusele turvalisemaid praktikaid oma paroolide igapäevaseks haldamiseks.
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/keypass
-
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Varundamise seadistamine
 
@@ -426,13 +408,11 @@ https://planb.network/tutorials/others/keypass
 
 Teie isiklike failide kaitsmine on samuti oluline punkt. See õpetus näitab, kuidas seadistada tõhus varundamisstrateegia Proton Drive'i abil. Avastage, kuidas kasutada seda turvalist pilvelahendust 3-2-1 meetodi rakendamiseks: kolm koopiat teie andmetest kahes erinevas meediumis, millest üks koopia on väljaspool asukohta. Nii tagate oma tundlike failide ligipääsetavuse ja turvalisuse:
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Ja et kaitsta teie eemaldatavatel meediumitel, nagu USB-mälupulk või väline kõvaketas, salvestatud faile, näitan ma ka, kuidas neid meediume VeraCryptiga hõlpsasti krüpteerida ja dekrüpteerida:
 
-https://planb.network/tutorials/others/veracrypt
-
-
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## Brauseri ja VPN-i vahetus
 
@@ -442,15 +422,13 @@ Teie online-elu privaatsuse kaitsmine on samuti oluline punkt teie turvalisuse t
 
 Pakun teil avastada kaks usaldusväärset VPN-lahendust, mida saab maksta bitcoini kaudu, nimelt IVPN ja Mullvad. Need juhendid aitavad teil installida, konfigureerida ja kasutada Mullvadi või IVPN-i kõigis teie seadmetes:
 
-https://planb.network/tutorials/others/ivpn
+https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lisaks õppige kasutama Tor Browserit, spetsiaalselt teie online-privaatsuse kaitsmiseks loodud veebibrauserit:
 
-https://planb.network/tutorials/others/tor-browser
-
-
+https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # Mine kaugemale
 
@@ -522,38 +500,54 @@ Tuleb märkida, et internet on suuresti tsentraliseeritud ja valdavalt Ameerika 
 
 "Security 101" koolitusmooduli osana Découvre Bitcoin Academy's arutasime ka Lightning autentimist. See süsteem genereerib iga teenuse jaoks erineva identifikaatori, ilma et oleks vaja esitada e-posti aadressi või isiklikku teavet. On võimalik omada kasutaja kontrollitud detsentraliseeritud identiteete, kuid detsentraliseeritud identiteediprojektides puudub standardiseerimine ja normaliseerimine. Soovitatavad on paketihaldurid nagu Nuget ja Chocolaté, mis võimaldavad alla laadida avatud lähtekoodiga tarkvara väljaspool Microsoft Store'i, et vältida pahatahtlikke rünnakuid. Kokkuvõttes on DNS oluline veebiturvalisuse jaoks, kuid on vajalik olla valvas võimalike rünnakute suhtes DNS-serverite vastu.
 
+# Kokkuvõte
 
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Hinnake kursust
+## Hinda seda kursust
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
+
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Kokkuvõte
 
-## Tunnustused ja jätkake küülikuurgu uurimist
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
 
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+Õnnitleme selle kursuse läbimise puhul!
 
-### Hinda koolitust ja toeta meid
+Meil on hea meel, et olete oma õppeteel edukalt jõudnud selle tähiseni.
 
-See kursus koos kogu selle akadeemia sisuga on teile tasuta pakutud meie kogukonna poolt. Meid saate toetada, jagades seda teistega, saades akadeemia liikmeks ja isegi kaasa aidates selle arendamisele GitHubi kaudu. Kogu meeskonna nimel, aitäh!
+Tänu teie pühendumisele ja pühendumusele olete omandanud väärtuslikud teadmised ja oskused, mis tulevad kasuks teie professionaalses arengus.
 
-Koolitusele hinnangusüsteemi integreerimine uude e-õppe platvormi on peagi tulemas! Seniks suur tänu kursuse läbimise eest ja kui see teile meeldis, kaaluge palun selle jagamist teistega.
+Et oma teadmisi Bitcoini maailmas veelgi süvendada, kutsume teid tutvuma teiste Plan ₿ Networkis saadaolevate kursustega, nagu:
 
-### Minge kaugemale
+#### Avastage Bitcoin ja selle põhitõed koos
 
-Palju õnne SECU 101 koolituse lõpetamise puhul! Loodan siiralt, et see meeldis teile ja avas teile uksi. Olete nüüd valmis saama oma esimese bitcoini või lihtsalt jätkama seiklust 2. taseme kursustega!
+https://planb.network/courses/btc101
 
-- BTC 101 annab teile Bitcoinist teoreetilised alused
-- BTC 102 aitab teil seada sisse oma bitcoini plaani
-- LN 201 ja 202 tutvustavad teile Lightning Networki, teise kihi maksevõrku
-- ECON 201 katab Austria majanduse
-- MINING 201 õpetab teile rohkem kaevandamise kohta
-- (ja palju muud)
+#### Saage ja turvake oma esimesed bitcoinid koos
 
-Tohutu tänu meie Patreonile, liikmetele ja annetajatele nende rahalise toetuse eest, tänu inimestele, kes jagavad, ja tänu neile, kes tegid selle koolituse võimalikuks: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & kogu meeskond.
-Näeme varsti!
+https://planb.network/courses/btc102
+
+#### Avastage Lightning võrgustik koos
+
+https://planb.network/courses/lnp201
+
+#### Avastage Austria koolkonna majanduslik mõtlemine koos
+
+https://planb.network/courses/eco201
+
+#### Avastage Bitcoini päritolu ajalugu koos
+
+https://planb.network/courses/his201
+
+#### Mõistke, kuidas Bitcoin rahakott töötab koos
+
+https://planb.network/courses/cyp201
+
 

@@ -1,0 +1,9 @@
+question: Miks Bitcoin on uus raha vorm?
+answer: Kuna see on digitaalne raha ilma keskse asutuseta
+wrong_answers:
+  - Kuna see on digitaalne valuuta, mida toetab kuld
+  - Kuna see on valuuta, mis nõuab plokiahelat
+  - Kuna Föderaalreserv nii ütleb
+explanation: >-
+  Bitcoini võib vaadelda kui uut raha vormi, kuna see tekib võrdõiguslikust võrgustikust ilma keskse asutuseta.
+reviewed: true

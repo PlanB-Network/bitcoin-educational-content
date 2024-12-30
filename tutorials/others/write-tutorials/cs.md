@@ -26,10 +26,10 @@ Pro přispívání do PlanB Network máte 3 možnosti v závislosti na vaší ú
 - Mít [profil profesora na PlanB Network](https://planb.network/professors) (pouze pokud navrhujete kompletní tutoriál).
 
 **Pokud potřebujete pomoc s získáním těchto předpokladů, moje další tutoriály vás provedou:**
-**[Porozumění Gitu a GitHubu](https://planb.network/tutorials/others/basics-of-github)**
-**[Vytvoření účtu na GitHubu](https://planb.network/tutorials/others/create-github-account)**
-**[Nastavení pracovního prostředí](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Vytvoření profilu profesora](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Porozumění Gitu a GitHubu](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Vytvoření účtu na GitHubu](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Nastavení pracovního prostředí](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Vytvoření profilu profesora](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Jaký typ obsahu psát na PlanB Network?
 Hledáme především tutoriály o nástrojích souvisejících s Bitcoinem nebo jeho ekosystémem. Tyto obsahy mohou být organizovány do šesti hlavních kategorií:
 - Peněženka;
@@ -59,7 +59,7 @@ Jakmile je vše připraveno a vaše lokální prostředí je správně nastaveno
 
 ### Vytvoření nové větve
 
-- Otevřete svůj prohlížeč a přejděte na stránku vašeho forknutí repozitáře PlanB. To je fork, který jste založili na GitHubu. URL vašeho forku by měla vypadat takto: `https://github.com/[vaše-uživatelské-jméno]/sovereign-university-data`:
+- Otevřete svůj prohlížeč a přejděte na stránku vašeho forknutí repozitáře PlanB. To je fork, který jste založili na GitHubu. URL vašeho forku by měla vypadat takto: `https://github.com/[vaše-uživatelské-jméno]/bitcoin-educational-content`:
 ![tutorial](assets/3.webp)
 - Ujistěte se, že jste na hlavní větvi `dev`, poté klikněte na tlačítko `Sync fork`. Pokud váš fork není aktuální, GitHub nabídne aktualizaci vaší větve. Proveďte tuto aktualizaci. Pokud je naopak vaše větev již aktuální, GitHub vás informuje:
 ![tutorial](assets/4.webp)
@@ -70,7 +70,7 @@ Jakmile je vše připraveno a vaše lokální prostředí je správně nastaveno
 ![tutorial](assets/7.webp)
 - Klikněte na tuto větev, poté klikněte na tlačítko `New Branch`:
 ![tutorial](assets/8.webp)
-- Ujistěte se, že nová větev je založena na zdrojovém repozitáři, tedy `DecouvreBitcoin/sovereign-university-data`.
+- Ujistěte se, že nová větev je založena na zdrojovém repozitáři, tedy `PlanB-Network/bitcoin-educational-content`.
 - Pojmenujte vaši větev tak, aby název jasně vypovídal o jejím účelu, použijte pomlčky k oddělení jednotlivých slov. Například, řekněme, že náš cíl je napsat tutoriál na používání softwaru Sparrow Wallet. V tomto případě by pracovní větev věnovaná psaní tohoto tutoriálu mohla být pojmenována: `tuto-sparrow-wallet-loic`. Jakmile je vhodný název zadán, klikněte na `Create branch` pro potvrzení vytvoření větve:
 ![tutorial](assets/9.webp)
 - Nyní klikněte na tlačítko `Publish branch` pro uložení vaší nové pracovní větve na váš online fork na GitHubu:
@@ -81,7 +81,7 @@ Pro každý nový článek, který chcete publikovat, budete muset vytvořit nov
 ### Přidání tutoriálu
 
 Nyní, když je pracovní větev vytvořena, je čas integrovat váš nový tutoriál.
-- Otevřete správce souborů a navigujte do složky `sovereign-university-data`, která představuje lokální klon vašeho repozitáře. Obvykle byste ji měli najít pod `Documents\GitHub\sovereign-university-data`. V tomto adresáři bude nutné najít vhodnou pod-složku pro umístění vašeho tutoriálu. Organizace složek odráží různé sekce webové stránky PlanB Network. V našem příkladu, protože chceme přidat tutoriál na Sparrow Wallet, je vhodné jít na následující cestu: `sovereign-university-data\tutorials\wallet`, která odpovídá sekci `WALLET` na webových stránkách: ![tutorial](assets/12.webp)
+- Otevřete správce souborů a navigujte do složky `bitcoin-educational-content`, která představuje lokální klon vašeho repozitáře. Obvykle byste ji měli najít pod `Documents\GitHub\bitcoin-educational-content`. V tomto adresáři bude nutné najít vhodnou pod-složku pro umístění vašeho tutoriálu. Organizace složek odráží různé sekce webové stránky PlanB Network. V našem příkladu, protože chceme přidat tutoriál na Sparrow Wallet, je vhodné jít na následující cestu: `bitcoin-educational-content\tutorials\wallet`, která odpovídá sekci `WALLET` na webových stránkách: ![tutorial](assets/12.webp)
 - V rámci složky `wallet` potřebujete vytvořit nový adresář specificky věnovaný vašemu tutoriálu. Název této složky musí evokovat software, o kterém je tutoriál, přičemž slova spojíte pomlčkami. V mém příkladu bude složka nazvána `sparrow-wallet`:
 ![tutorial](assets/13.webp)
 - V této nové pod-složce věnované vašemu tutoriálu je třeba přidat několik prvků:
@@ -92,7 +92,7 @@ Nyní, když je pracovní větev vytvořena, je čas integrovat váš nový tuto
 ![tutorial](assets/14.webp)
 - Shrnutí, zde je hierarchie souborů, které je třeba vytvořit:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (upravit podle správné kategorie)
         └── sparrow-wallet/ (upravit podle názvu tutoriálu)
@@ -120,7 +120,7 @@ sovereign-university-data/
     - Mírně pokročilý (`intermediary`),
     - Pokročilý (`advanced`),
     - Expert (`expert`).
-- **professor**: Uveďte své ID přispěvatele, jak se objevuje na vašem profilu profesora. Pro více informací se odkazujte na [příslušný tutoriál](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Uveďte své ID přispěvatele, jak se objevuje na vašem profilu profesora. Pro více informací se odkazujte na [příslušný tutoriál](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (volitelně): Pokud si přejete uvést zdrojovou webovou stránku pro tutoriál, který vyvíjíte, jako je například vaše osobní stránka, zde můžete přidat příslušný odkaz.
 ![tutorial](assets/15.webp)
 - Jakmile dokončíte úpravy vašeho souboru `tutorial.yml`, uložte váš dokument kliknutím na `Soubor > Uložit`:
@@ -204,3 +204,4 @@ V softwaru GitHub Desktop můžete přepnout zpět na hlavní větev vašeho for
 Pokud si přejete provést úpravy vašeho příspěvku po již odeslaném PR, postup závisí na aktuálním stavu vašeho PR:
 - Pokud je váš PR stále otevřený a ještě nebyl sloučen, proveďte úpravy lokálně při zůstání na stejné větvi. Jakmile jsou úpravy dokončeny, použijte tlačítko `Push origin` k přidání nového commitu do vašeho stále otevřeného PR;
 - V případě, že váš PR byl již sloučen s hlavní větví, budete muset celý proces začít od začátku vytvořením nové větve, a poté odesláním nového PR. Před pokračováním se ujistěte, že váš lokální repozitář je synchronizován se zdrojovým repozitářem PlanB Network.
+

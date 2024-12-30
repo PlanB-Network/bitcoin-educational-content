@@ -1,11 +1,11 @@
 question: Co je HashRate?
-answer: Celkové množství pokusů o nalezení správného čísla v Proof of Work.
+answer: Počet výpočtů hash, které těžební zařízení může provést za sekundu pro vyřešení Proof of Work.
 wrong_answers:
-  - Rychlost, s jakou může těžař vyřešit Proof of Work.
+  - Rychlost, s jakou těžební zařízení může vyřešit Proof of Work.
   - Celkový počet těžařů v síti Bitcoin.
-  - Celkové množství vytěžených bitcoinů.
+  - Celkové množství bitcoinů vytěžených prováděním určitého počtu pokusů za sekundu pro vyřešení Proof of Work.
 explanation: >-
-  HashRate odkazuje na celkový počet pokusů, které těžaři podnikají
-  za sekundu, aby vyřešili Proof of Work. Jedná se o míru výpočetního výkonu
+  HashRate odkazuje na celkový počet pokusů, které těžaři dělají
+  za sekundu pro vyřešení Proof of Work. Jedná se o míru výpočetního výkonu
   sítě Bitcoin.
-reviewed: false
+reviewed: true

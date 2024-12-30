@@ -1,0 +1,11 @@
+question: Milline järgmistest vastustest ei võimalda petta ahela analüüsi heuristikat?
+
+answer: Alati sama vastuvõtu aadressi kasutamine.
+
+wrong_answers:
+  - Loome muudatuse, mille väärtus on lähedane maksele.
+  - Tehakse ebakorrapäraseid, mittetäisarvulisi väljamakseid.
+  - Jaotatakse tehingute levikut läbi päeva.
+
+explanation: |
+  Eriti ei tohiks kasutada vastuvõtu aadressi mitu korda. Kõik teised vastused võimaldavad vältida ahela analüüsi heuristikat.

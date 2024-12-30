@@ -1,0 +1,9 @@
+question: Mis on avaliku kulutamise mõju Bastiati jaoks, kui see on finantseeritud võla või maksudega?
+answer: See suunab ressursid erasektorist kõrvale
+wrong_answers:
+  - See stimuleerib nõudlust ilma kõrvalmõjudeta
+  - See suurendab tarbijate ostujõudu
+  - See on hädavajalik majanduse pinnal hoidmiseks
+explanation: |
+  Bastiat väidab, et avalik kulutamine, mis on finantseeritud maksude või võla kaudu, suunab vahendid erasektorist kõrvale, piirates seeläbi mujal majanduses rikkuse loomist.
+reviewed: false

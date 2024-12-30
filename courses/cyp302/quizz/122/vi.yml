@@ -1,0 +1,9 @@
+question: Vấn đề phân phối khóa là gì?
+answer: Thách thức trong việc truyền đạt khóa một cách an toàn mà không cần trao đổi vật lý
+wrong_answers:
+  - Sự cần thiết phải tạo ra nhiều cặp khóa cho mỗi khách hàng
+  - Khó khăn trong việc bảo mật lưu trữ khóa vật lý
+  - Nghĩa vụ phải thay đổi khóa với mỗi lần giao tiếp
+explanation: |
+  Vấn đề phân phối khóa liên quan đến thách thức trong việc truyền đạt khóa một cách an toàn, một nhu cầu đã trở nên cực kỳ quan trọng trong giao tiếp số mà việc trao đổi vật lý không khả thi.
+reviewed: false

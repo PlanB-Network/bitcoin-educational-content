@@ -1,9 +1,10 @@
-question: Qual é o papel dos mineradores na rede Bitcoin?
-answer: Os mineradores são essenciais para criar novos bitcoins e garantir a segurança da rede Bitcoin.
+question: Quando ocorreu a guerra do tamanho do bloco?
+answer: Em 2017.
 wrong_answers:
-  - Os mineradores são responsáveis por regular o preço do Bitcoin.
-  - Os mineradores são responsáveis por criar carteiras Bitcoin.
-  - Os mineradores são responsáveis por controlar o protocolo Bitcoin.
-explanation: |
-  Os mineradores desempenham um papel crucial na rede Bitcoin, pois são responsáveis por criar novos bitcoins e garantir a segurança da rede Bitcoin, consumindo eletricidade para fazer o hash de um bloco de transações.
-reviewed: false
+  - Em 2008.
+  - Em 2010.
+  - Em 2019.
+explanation: >-
+  A guerra do tamanho do bloco ocorreu em 2017. Este conflito opôs os atores que queriam modificar o Bitcoin aumentando o tamanho do bloco para aumentar a capacidade de transação,
+  aos que buscavam preservar a independência e o poder dos usuários mantendo o tamanho em 1 MB.
+reviewed: true

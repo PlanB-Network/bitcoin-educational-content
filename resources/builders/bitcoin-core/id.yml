@@ -1,0 +1,5 @@
+description: |
+  Bitcoin Core adalah perangkat lunak referensi sumber terbuka untuk sistem Bitcoin dan tetap menjadi implementasi utama dari protokol Bitcoin hingga hari ini. Dikembangkan dan dipelihara oleh sekelompok besar kontributor sukarela. Awalnya bernama “Bitcoin Qt,” ini adalah klien ketiga dalam sejarah Bitcoin setelah Bitcoin oleh Satoshi Nakamoto dan Bitcoind. Dikembangkan dari kode asli Satoshi, perangkat ini memperkenalkan antarmuka pengguna grafis. Menariknya, antarmuka grafis Bitcoin Core masih disebut bitcoin-qt hingga saat ini. Sejak versi 0.5, perangkat ini disediakan bersama bitcoind. Bitcoin Core memiliki beberapa tujuan. Pertama, berfungsi sebagai klien node penuh. Bitcoin Core juga menyertakan dompet (wallet) untuk pengguna yang ingin menyimpan, mengelola, dan melakukan transaksi langsung dengan Bitcoin Core.
+
+contributors:
+  - pretty-private

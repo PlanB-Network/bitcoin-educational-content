@@ -1,0 +1,8 @@
+question: David Chaum的eCash概念是在哪一年实现的？
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  它最初由密码朋克在2月份实现，随后在10月份通过DigiCash发行“CyberBucks”进行了试验。

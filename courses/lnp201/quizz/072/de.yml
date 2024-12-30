@@ -1,9 +1,0 @@
-question: Welche Rolle spielt der Preimage-Hash im Routing-Prozess des Lightning-Netzwerks?
-answer: Er wird vom Empfänger verwendet, um den im HTLC gesperrten Transaktionsbetrag abzurufen.
-wrong_answers:
-  - Er wird verwendet, um die Transaktionsdaten zu verschlüsseln.
-  - Er wird verwendet, um die Transaktionsgebühren zu berechnen.
-  - Er wird verwendet, um die Adresse des Empfängers zu überprüfen.
-explanation: |
-  Im Lightning-Netzwerk wird der Preimage-Hash vom Empfänger verwendet, um den im HTLC gesperrten Transaktionsbetrag abzurufen. Der Sender stellt den Preimage-Hash dem Empfänger zur Verfügung, der ihn dann verwenden kann, um die Mittel freizuschalten.
-reviewed: false

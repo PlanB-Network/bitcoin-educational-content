@@ -10,11 +10,11 @@ Ngày nay, có rất nhiều giải pháp dành cho các nhà bán lẻ muốn c
 
 Đối với những người không muốn phiền phức và muốn nhận tiền mặt trực tiếp vào tài khoản ngân hàng của mình, các giải pháp giữ hộ như Open Node có sẵn:
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Đối với các nhà bán lẻ sẵn sàng "làm bẩn tay" và muốn kiểm soát toàn bộ quy trình, phần mềm BTCPay Server là một lựa chọn xuất sắc. Tuy nhiên, nhược điểm lớn nhất của BTCPay Server là việc thiết lập và quản lý mất thời gian và đòi hỏi một số kiến thức kỹ thuật:
 
-https://planb.network/tutorials/merchant/btcpay-server
+https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Trong tất cả các giải pháp này, Swiss Bitcoin Pay dường như là một sự thỏa hiệp rất thú vị kết hợp giữa sự dễ sử dụng, tính năng và an toàn. Giải pháp này phù hợp cho cả các doanh nghiệp rất nhỏ và các cấu trúc lớn hơn. Trong hướng dẫn này, bạn sẽ khám phá cách dễ dàng sử dụng Swiss Bitcoin Pay để chấp nhận Bitcoin trong doanh nghiệp của mình.
 

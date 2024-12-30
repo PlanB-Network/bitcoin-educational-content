@@ -1,9 +1,11 @@
-question: Qual è uno dei principali modi per ottenere Bitcoin?
-answer: Accettandoli in cambio di beni o servizi o acquistandoli tramite piattaforme regolamentate o non regolamentate.
+question: Qual è un modo pratico per ottenere Bitcoin?
+answer: Acquistandoli tramite piattaforme regolamentate o non regolamentate.
 wrong_answers:
-  - Estrarli utilizzando un computer.
+  - Estrarli utilizzando un laptop.
   - Trovarli nel mondo fisico.
   - Crearli utilizzando un software speciale.
 explanation: |
-  Il testo menziona che gli utenti possono ottenere Bitcoin accettandoli in cambio di beni o servizi o acquistandoli tramite piattaforme regolamentate o non regolamentate.
-reviewed: false
+  Il testo menziona che gli utenti possono ottenere Bitcoin
+  accettandoli in cambio o acquistandoli tramite
+  piattaforme regolamentate o non regolamentate.
+reviewed: true

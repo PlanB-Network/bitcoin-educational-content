@@ -1,11 +1,9 @@
-question: Jaká je role eliptické křivky při generování veřejných a soukromých klíčů?
-answer: Používá se k generování bezpečných veřejných a soukromých klíčů.
+question: Jaké je hlavní riziko používání špatně navrženého PRNG pro generování entropie?
+answer: Soukromé klíče by mohly být uhodnuty útočníkem
 wrong_answers:
-  - Používá se k šifrování klíčů.
-  - Používá se k ukládání klíčů.
-  - Používá se k přenosu klíčů.
+  - Mnemonická fráze by mohla obsahovat nesprávná slova
+  - Digitální podpisy by se staly neplatnými
+  - Bitcoinové adresy by nebyly kompatibilní se sítí
 explanation: |
-  Eliptická křivka je matematická konstrukce používaná při generování
-  bezpečných veřejných a soukromých klíčů. Jako soukromý klíč je vybráno náhodné číslo, často nazývané nonce, které je použito v rovnici eliptické křivky k vygenerování
-  odpovídajícího veřejného klíče.
+  Špatně navržený PRNG může produkovat předvídatelné sekvence, což klíče činí více zranitelnými vůči útokům.
 reviewed: false

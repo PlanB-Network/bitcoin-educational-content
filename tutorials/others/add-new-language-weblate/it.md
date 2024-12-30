@@ -20,7 +20,7 @@ Il primo passo è controllare se la tua lingua non è già tra quelle su cui sti
 ![language](assets/02.webp)
 Se la tua lingua è in questo elenco, non hai bisogno di aggiungerla di nuovo. Per contribuire a una lingua già esistente, abbiamo realizzato un altro tutorial che puoi scoprire.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -30,7 +30,7 @@ Se la tua lingua non è presente, segui il tutorial qui sotto per aggiungerla.
 
 - Il primo passo è creare un account su Weblate. Se non sai come fare, puoi seguire la nostra guida dettagliata.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 - Una volta creato il tuo account, vai al menu `Elemento frontend del sito web` e seleziona la scheda `Lingue`:
@@ -48,7 +48,7 @@ Per essere guidato attraverso il processo di traduzione, dai un'occhiata al nost
 
 Congratulazioni, hai avviato il processo di traduzione del sito della Rete PlanB in una nuova lingua! Puoi iniziare traducendo l'intero frontend tramite Weblate.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
  Questo include tutti i testi sul sito web, eccetto i contenuti educativi (corsi, tutorial...) per i quali utilizziamo un altro metodo semi-automatico Umani x IA.
 Successivamente, puoi contattare @asi0_flammeus su Telegram, che ti assisterà nella revisione di alcuni corsi tradotti automaticamente con il loro modello. Se questi contenuti saranno ritenuti soddisfacenti, potrai procedere con la revisione di tutto il resto del contenuto sul sito (corsi, tutorial...). Una volta completati questi passaggi, potremo considerare l'integrazione ufficiale della nuova lingua nel sito web della Rete PlanB, il che permetterà a tutti i parlanti della tua lingua di accedere a contenuti di qualità su Bitcoin, senza alcuna barriera.

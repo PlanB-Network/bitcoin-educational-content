@@ -1,0 +1,9 @@
+question: Apa ciri dari variabel seragam?
+answer: Semua nilai yang mungkin memiliki probabilitas yang sama untuk terjadi
+wrong_answers:
+  - Nilai-nilai mengikuti distribusi asimetris
+  - Probabilitas setiap nilai tergantung pada eksperimen
+  - Hanya dua nilai yang dapat terjadi dengan probabilitas yang sama
+explanation: |
+  Variabel seragam adalah variabel acak di mana semua nilai yang mungkin memiliki probabilitas yang sama untuk terjadi.
+reviewed: false

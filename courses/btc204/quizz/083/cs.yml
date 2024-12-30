@@ -1,0 +1,13 @@
+question: Proč koordinátor nemůže upravit coinjoin transakci po shromáždění podpisů od všech účastníků?
+
+answer: Úprava by transakci zneplatnila.
+
+wrong_answers:
+  - Nemají přístup k přijímacím adresám účastníků.
+  - Podpisy jsou šifrovány.
+  - Transakce již byla vysílána na síť Bitcoinu.
+
+explanation: |
+  Jakmile účastníci podepíší celkovou transakci, po ověření, že je vše správně, koordinátor již nemůže tuto transakci, včetně výstupů, upravit bez jejího zneplatnění, protože podpis pokrývá celou transakci.
+
+reviewed: false

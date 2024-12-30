@@ -1,0 +1,9 @@
+question: Who established the first exchange service between bitcoin and the dollar in October 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  This service was rudimentary: exchanges were negotiated via email, and payments were made through PayPal. The exchange rate was based on the mining costs of NewLibertyStandard himself.
+reviewed: false

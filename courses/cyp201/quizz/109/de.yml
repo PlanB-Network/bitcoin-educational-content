@@ -1,9 +1,0 @@
-question: Was gibt der Index in einem Ableitungspfad im Zusammenhang mit einer HD-Wallet an?
-answer: Der Index in einem Ableitungspfad gibt den Wert an, der in der HMAC-Funktion verwendet wird.
-wrong_answers:
-  - Der Wert, der in der SHA-256-Funktion verwendet wird.
-  - Der Wert, der in der RSA-Funktion verwendet wird.
-  - Der Wert, der in der AES-Funktion verwendet wird.
-explanation: |
-  Im Zusammenhang mit einer HD-Wallet gibt der Index in einem Ableitungspfad den Wert an, der in der HMAC-Funktion verwendet wird. Dies dient dazu, zwischen verschiedenen Paaren von Kinderschlüsseln auf derselben Ebene zu unterscheiden.
-reviewed: false

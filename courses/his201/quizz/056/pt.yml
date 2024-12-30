@@ -1,0 +1,9 @@
+question: Quais eram os padrões de saída de script reconhecidos pelo software em setembro de 2010?
+answer: Recebimento por uma chave pública (P2PK) e recebimento por um endereço (P2PKH)
+wrong_answers:
+  - Recebimento por um endereço (P2PKH) e recebimento por um script de assinatura multisignature (P2MS)
+  - Recebimento por um endereço (P2PKH) e recebimento por um script (P2SH)
+  - Recebimento por uma chave pública (P2PK) e recebimento por um script (P2SH)
+explanation: |
+  Esses foram os dois tipos usados desde o início do Bitcoin. O tipo P2MS foi tornado padrão em março de 2012. O tipo P2SH foi adicionado ao protocolo em abril de 2012.
+reviewed: false

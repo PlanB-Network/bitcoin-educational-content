@@ -1,9 +1,9 @@
-question: In welchem Jahr wird voraussichtlich die Erzeugung von Bitcoins eingestellt?
+question: In welchem Jahr wird vorausgesagt, dass die Erstellung von Bitcoins eingestellt wird?
 answer: 2140
 wrong_answers:
   - 2050
   - 2030
   - 2200
 explanation: |
-  Aufgrund des Halbierungsmechanismus kann mathematisch vorhergesagt werden, dass die Erzeugung von Bitcoins im Jahr 2140 eingestellt wird, wenn die Gesamtzahl von 21 Millionen Bitcoins erreicht ist.
-reviewed: false
+  Aufgrund des Halbierungsmechanismus kann mathematisch vorausgesagt werden, dass die Erstellung von Bitcoins im Jahr 2140 eingestellt wird, wenn die Gesamtzahl der Bitcoins ihr Limit von 21 Millionen erreicht.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Apa tujuan utama dari pembaruan perangkat lunak?
+answer: Untuk memperbaiki bug dan meningkatkan keamanan perangkat lunak Anda
+wrong_answers:
+  - Untuk menambahkan fitur baru
+  - Untuk mengubah antarmuka perangkat lunak
+  - Untuk meningkatkan ukuran perangkat lunak
+explanation: |
+  Meskipun pembaruan perangkat lunak seringkali datang dengan fitur baru, tujuan utamanya
+  adalah untuk memperbaiki bug dan meningkatkan keamanan perangkat lunak. Hal ini sangat penting untuk menjaga
+  komputer Anda dalam kondisi kerja yang optimal.

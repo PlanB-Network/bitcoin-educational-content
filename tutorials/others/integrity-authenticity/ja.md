@@ -161,4 +161,4 @@ sparrow_2.0.0-1_amd64.deb: OK
 
 また、ストレージデバイスの暗号化と復号を可能にするソフトウェアであるVeraCryptについての別のチュートリアルもお勧めします。
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

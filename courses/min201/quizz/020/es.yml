@@ -1,9 +1,14 @@
-question: ¿Cuál es la preocupación futura con respecto al uso del espacio de bloque de Bitcoin?
-answer: La preocupación futura es que, con el crecimiento esperado de la Lightning Network y el consiguiente aumento en la apertura y cierre de canales, el espacio en los bloques de Bitcoin se volverá cada vez más valioso.
+question: ¿Cuál es la preocupación futura respecto al uso del espacio en los bloques de Bitcoin?
+answer: La preocupación futura es que, con el crecimiento esperado de la Red Lightning y el consiguiente aumento en la apertura y cierre de canales, el espacio en los bloques de Bitcoin se volverá cada vez más valioso.
 wrong_answers:
-  - La preocupación futura es que el tamaño de los bloques de Bitcoin se vuelva demasiado grande para gestionar.
-  - La preocupación futura es que el número de bloques de Bitcoin supere la capacidad de la red.
-  - La preocupación futura es que la complejidad de los bloques de Bitcoin aumente, lo que dificulte su procesamiento.
+  - La preocupación futura es que el tamaño de los bloques de Bitcoin se volverá demasiado grande para manejar.
+  - La preocupación futura es que el número de bloques de Bitcoin excederá la capacidad de la red.
+  - La preocupación futura es que la complejidad de los bloques de Bitcoin aumentará, haciéndolos difíciles de procesar.
 explanation: |
-  Con el crecimiento esperado de la Lightning Network y el consiguiente aumento en la apertura y cierre de canales, el espacio en los bloques de Bitcoin se volverá cada vez más valioso. Esto ha llevado a discusiones sobre el uso legítimo del espacio de bloque, con preocupaciones sobre el "spam" en la cadena de bloques debido a transacciones consideradas no esenciales.
-reviewed: false
+  Con el crecimiento esperado de la Red Lightning y el
+  consiguiente aumento en la apertura y cierre de canales, el
+  espacio en los bloques de Bitcoin se volverá cada vez más valioso. Esto
+  ha llevado a discusiones sobre el uso legítimo del espacio en los bloques,
+  con preocupaciones sobre el spam en la blockchain de
+  transacciones consideradas no esenciales.
+reviewed: true

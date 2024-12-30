@@ -1,0 +1,8 @@
+question: ¿Quiénes fueron los primeros filósofos en buscar entender la naturaleza a través de la razón?
+answer: Los filósofos pre-socráticos
+wrong_answers:
+  - Los sacerdotes griegos
+  - Los poetas griegos
+  - Los matemáticos griegos
+explanation: |
+  Los filósofos pre-socráticos fueron los primeros en usar la razón para intentar entender la naturaleza, buscando principios racionales y universales para explicar el mundo, independientemente de las explicaciones mitológicas.

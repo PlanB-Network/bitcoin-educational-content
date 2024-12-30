@@ -1,0 +1,10 @@
+question: Miks on soovitatav vältida oma Bitcoinide hoidmist vahetusplatvormidel?
+answer: Need võivad olla haavatavad häkkerirünnakute suhtes
+wrong_answers:
+  - Vahetusplatvormid võivad küsida juhuslikke tasusid
+  - Bitcoinid kaotavad vahetusplatvormidel väärtust
+  - Vahetusplatvormid ei ole reguleeritud asutused
+explanation: |
+  On soovitatav vältida oma Bitcoinide hoidmist vahetusplatvormidel,
+  kuna need võivad olla haavatavad häkkerirünnakute suhtes.
+reviewed: true

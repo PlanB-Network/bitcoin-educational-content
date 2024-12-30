@@ -1,11 +1,11 @@
-question: Quel est le rôle des mineurs dans le réseau Bitcoin?
+question: Quel est le rôle des mineurs dans le réseau Bitcoin ?
 answer: Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs.
 wrong_answers:
   - Les mineurs créent de nouveaux bitcoins.
   - Les mineurs vérifient l'identité des utilisateurs de Bitcoin.
   - Les mineurs fixent le prix du Bitcoin.
-explanation: |
+explanation: >-
   Les mineurs utilisent leur puissance de calcul pour résoudre des problèmes mathématiques complexes,
   ce qui leur permet d'ajouter de nouvelles transactions à la blockchain. Ce processus sécurise
   le réseau et maintient son intégrité.
-reviewed: false
+reviewed: true

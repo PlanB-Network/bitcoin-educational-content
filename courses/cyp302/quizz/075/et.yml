@@ -1,0 +1,9 @@
+question: Kuidas Kerckhoffi põhimõte aitab kaasa avatud süsteemide, nagu Linux, turvalisusele?
+answer: See võimaldab potentsiaalsete haavatavuste avalikku kontrollimist
+wrong_answers:
+  - See muudab krüpteerimisalgoritmid nähtamatuks
+  - See piirab potentsiaalsete kasutajate arvu
+  - See tagab unikaalsete võtmete kasutamise
+explanation: |
+  Kerckhoffi põhimõte võimaldab turvavigade avalikku kontrollimist, nagu avatud lähtekoodiga süsteemides, mis muudab süsteemid läbipaistvuse kaudu usaldusväärsemaks. Turvalisus tagatakse ainult võtme, mitte krüpteerimisprotsessi enda kaudu.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hva tillater tilbakekallingsnøkkelen å gjøre i tilfelle juks?
+answer: Gjenopprette alle midlene ved å straffe juksemakeren
+wrong_answers:
+  - Avbryte forpliktelsestransaksjonen
+  - Dobble kanalens kapasitet
+  - Forhindre ytterligere transaksjoner i kanalen
+explanation: |
+  Tilbakekallingsnøkkelen lar den krenkede parten gjenopprette alle midlene i tilfelle et forsøk på juks fra den andre partens side.

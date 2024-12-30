@@ -1,0 +1,13 @@
+question: Hva indikerer entropi i konteksten av kjedeanalyse på Bitcoin?
+
+answer: Mangelen på kunnskap hos analytikere om den eksakte konfigurasjonen av transaksjonen.
+
+wrong_answers:
+  - Hastigheten som informasjon om en transaksjon sprer seg over nettverket.
+  - Nivået av kryptografisk sikkerhet av de digitale signaturene brukt i transaksjonen.
+  - Størrelsen på gruppen av identiske UTXOer der en mynt er skjult.
+
+explanation: |
+  Entropi brukes til å måle mangelen på kunnskap hos analytikere om den eksakte konfigurasjonen av transaksjonen. Med andre ord, jo høyere entropi, desto vanskeligere blir det for analytikere å identifisere flyten av bitcoins mellom innganger og utganger.
+
+reviewed: false

@@ -1,9 +1,0 @@
-question: Cosa indica il prefisso XPUB in una chiave estesa?
-answer: Indica una chiave pubblica estesa.
-wrong_answers:
-  - Indica una chiave privata estesa.
-  - Indica una chiave principale.
-  - Indica una chiave figlia.
-explanation: |
-  Le chiavi estese sono identificate da prefissi specifici (XPRV, XPUB, YPUB, ZPUB) che indicano se si tratta di una chiave privata o pubblica estesa, nonché il suo scopo specifico.
-reviewed: false

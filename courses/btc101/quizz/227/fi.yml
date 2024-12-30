@@ -1,9 +1,11 @@
-question: Mitä perinteiset rahansiirtopalvelut kuten Western Union, keskuspankit, Visa ja Mastercard saattavat joutua tekemään, jos ne eivät omaksu Lightning Network -teknologiaa?
-answer: Ne saattavat kadota.
+question: Mitä voisi tapahtua perinteisille rahansiirtopalveluille kuten Western Unionille, keskuspankeille, Visalle ja Mastercardille, jos ne eivät omaksuisi Lightning Networkia?
+answer: Ne voisivat kadota.
 wrong_answers:
-  - Ne saattavat tulla suositummiksi.
-  - Ne saattavat tulla turvallisemmiksi.
-  - Ne saattavat tulla hajautetummiksi.
-explanation: >-
-  Perinteiset rahansiirtopalvelut kuten Western Union, keskuspankit, Visa ja Mastercard saattavat kadota, jos ne eivät omaksu Lightning Network -teknologiaa.
-reviewed: false
+  - Ne voisivat tulla suositummiksi.
+  - Ne voisivat tulla turvallisemmiksi.
+  - Ne voisivat tulla hajautetummiksi.
+explanation: |
+  Perinteiset rahansiirtopalvelut kuten Western Union,
+  keskuspankit, Visa ja Mastercard voisivat kadota, jos ne
+  eivät omaksu Lightning Network -teknologiaa.
+reviewed: true

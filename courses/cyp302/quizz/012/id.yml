@@ -1,0 +1,8 @@
+question: Apa ilusi mengenai keamanan saluran komunikasi di dunia modern?
+answer: Percaya bahwa melindungi saluran secara fisik dapat mencegah penyadapan
+wrong_answers:
+  - Berpikir bahwa jaringan nirkabel tidak efektif
+  - Percaya bahwa kriptografi tidak diperlukan untuk komunikasi lokal
+  - Menganggap bahwa hanya lembaga nasional yang dapat menyadap data
+explanation: |
+  Merupakan ilusi untuk berpikir bahwa hanya dengan mengamankan saluran secara fisik sudah cukup untuk menjamin kerahasiaan, karena masih banyak titik penyadapan yang dapat diakses, terutama untuk komunikasi nirkabel.

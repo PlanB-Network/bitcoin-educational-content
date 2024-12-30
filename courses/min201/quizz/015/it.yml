@@ -1,9 +1,9 @@
 question: Su quale principio si basa il mining di Bitcoin?
-answer: Il mining di Bitcoin si basa su un principio di lotteria, in cui le possibilità di vincere un blocco (e quindi la ricompensa in Bitcoin) ogni dieci minuti sono estremamente basse per un piccolo minatore individuale.
+answer: Il mining di Bitcoin si basa su un principio di lotteria, dove le possibilità di vincere un blocco (e quindi la ricompensa in Bitcoin) ogni dieci minuti sono estremamente basse per un singolo piccolo minatore.
 wrong_answers:
-  - Il mining di Bitcoin funziona secondo un principio del tipo "chi arriva prima, meglio alloggia", in cui il primo minatore a risolvere un complesso problema matematico ottiene la ricompensa in Bitcoin.
-  - Il mining di Bitcoin funziona secondo un principio di offerta, in cui il minatore che fa l'offerta più alta ottiene la ricompensa in Bitcoin.
-  - Il mining di Bitcoin funziona secondo un principio di rotazione, in cui ogni minatore ha a turno l'opportunità di minare un blocco e ricevere la ricompensa in Bitcoin.
+  - Il mining di Bitcoin si basa su un principio di chi primo arriva, primo serve, dove il primo minatore a risolvere un complesso problema matematico ottiene la ricompensa in Bitcoin.
+  - Il mining di Bitcoin si basa su un principio di offerta, dove il minatore che fa l'offerta più alta ottiene la ricompensa in Bitcoin.
+  - Il mining di Bitcoin si basa su un principio di rotazione, dove ogni minatore ha un turno per minare un blocco e ricevere la ricompensa in Bitcoin.
 explanation: |
-  Il capitolo spiega che il mining di Bitcoin funziona secondo un principio di lotteria, in cui le possibilità di vincere un blocco (e quindi la ricompensa in Bitcoin) ogni dieci minuti sono estremamente basse per un piccolo minatore individuale.
-reviewed: false
+  Il capitolo spiega che il mining di Bitcoin funziona su un principio di lotteria, dove le possibilità di vincere un blocco (e quindi la ricompensa in Bitcoin) ogni dieci minuti sono estremamente basse per un singolo piccolo minatore.
+reviewed: true

@@ -1,0 +1,13 @@
+question: ¿Qué representa la puntuación de Boltzmann en el contexto de las transacciones de Bitcoin?
+
+answer: La probabilidad condicional de que una entrada esté vinculada a una salida dada.
+
+wrong_answers:
+  - La cantidad total de bitcoins transferidos.
+  - El número de entradas en una transacción.
+  - La entropía relacionada con cada entrada o salida.
+
+explanation: |
+  La puntuación de Boltzmann indica la probabilidad condicional de que una entrada específica esté vinculada a una salida dada. Por lo tanto, es una medida cuantitativa de la probabilidad condicional de que se produzca una asociación entre una entrada y una salida en una transacción, establecida sobre la relación del número de ocurrencias favorables de este evento en comparación con el número total de ocurrencias posibles, en un conjunto de interpretaciones.
+
+reviewed: false

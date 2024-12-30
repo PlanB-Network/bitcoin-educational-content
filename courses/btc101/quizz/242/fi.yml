@@ -1,9 +1,9 @@
-question: Miten Lightning Network voitaisiin mahdollisesti hyödyntää tavaroiden vuokrauksessa?
-answer: Käyttäjiä voitaisiin veloittaa minuutti- tai jopa sekuntikohtaisesti heidän käyttämänsä ajan mukaan
+question: Miten Lightning Network voisi mahdollisesti olla hyödyllinen tavaroiden vuokraamisessa?
+answer: Käyttäjiä voitaisiin veloittaa minuutti- tai jopa sekuntikohtaisesti sen mukaan, kuinka kauan he käyttävät tavaroita.
 wrong_answers:
-  - Käyttäjiä voitaisiin veloittaa kiinteä maksu tavaroiden vuokraamisesta
-  - Käyttäjiä voitaisiin veloittaa tavaroiden arvon perusteella
-  - Käyttäjiä voitaisiin veloittaa tavaroiden kunnosta riippuen
+  - Käyttäjiä voitaisiin veloittaa korkea maksu tavaroiden vuokraamisesta.
+  - Käyttäjiä voitaisiin veloittaa tavaran arvon mukaan.
+  - Käyttäjiä voitaisiin veloittaa tavaran kunnosta riippuen.
 explanation: >-
-  Lightning Networkin avulla on kuviteltavissa, että tätä järjestelmää voitaisiin käyttää tavaroiden vuokraamiseen. Käyttäjiä voitaisiin veloittaa minuutti- tai jopa sekuntikohtaisesti heidän käyttämänsä ajan mukaan.
-reviewed: false
+  Lightning Networkin avulla on kuviteltavissa, että tätä järjestelmää voitaisiin käyttää tavaroiden vuokraamiseen. Käyttäjiä voitaisiin veloittaa minuutti- tai jopa sekuntikohtaisesti sen mukaan, kuinka kauan he käyttävät tavaroita.
+reviewed: true

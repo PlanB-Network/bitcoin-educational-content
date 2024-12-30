@@ -1,11 +1,8 @@
-question: Việc sử dụng cụm mật khẩu trong ví Bitcoin có bắt buộc không?
-answer: Không, việc sử dụng nó là tùy chọn
+question: Điểm mới chính của kịch bản P2WPKH so với P2PKH là gì?
+answer: Chữ ký được chuyển vào trường Witness.
 wrong_answers:
-  - Có, việc sử dụng nó là bắt buộc
-  - Tùy thuộc vào loại ví
-  - Tùy thuộc vào số lượng bitcoin trong ví
+  - Địa chỉ được mã hóa trong base58check.
+  - scriptPubKey bao gồm hash của khóa riêng.
+  - P2WPKH không tương thích với SegWit.
 explanation: |
-  Cụm mật khẩu là một mật khẩu bổ sung có thể được tích hợp vào
-  ví Bitcoin để tăng cường bảo mật. Việc sử dụng nó là tùy chọn và tùy thuộc vào
-  quyết định của người dùng.
-reviewed: false
+  P2WPKH, được giới thiệu với SegWit, chuyển chữ ký vào một phần riêng biệt gọi là Witness để ngăn chặn sự biến đổi giao dịch.

@@ -1,0 +1,9 @@
+question: Why is authenticated encryption resistant to chosen-ciphertext attacks?
+answer: Because any modification of the ciphertext by an attacker renders the tag invalid
+wrong_answers:
+  - Because it uses a single encryption algorithm
+  - Because any modification of the ciphertext by an attacker renders the key invalid
+  - Because it encrypts only the message without a tag
+explanation: |
+  An authenticated encryption scheme is designed to detect modifications of the ciphertext, which renders the tag invalid in case of tampering attempts and ensures resistance to chosen-ciphertext attacks.
+reviewed: false

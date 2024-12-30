@@ -1,9 +1,9 @@
 question: Qui est l'instructeur du cours?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
-  - "Théo Boloré"
+  - Théo Boloré
   - Descoupes Bitcoin
   - Aucune des réponses ci-dessus
 explanation: |
-  "Le chapitre mentionne que l'instructeur du cours est Théo Mogenet, un professeur passionné et compétent en économie autrichienne."
+  Le chapitre mentionne que l'instructeur du cours est Théo Mogenet, un professeur passionné et compétent en économie autrichienne.
 reviewed: false

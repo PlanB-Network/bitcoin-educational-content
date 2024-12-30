@@ -1,9 +1,9 @@
-question: Kích thước của checksum được xác định như thế nào trong quá trình tạo ra cụm từ ghi nhớ cho ví Bitcoin?
-answer: Bằng cách chia kích thước của entropy cho 32.
+question: Mục đích của chỉ số trong việc tạo ra các khóa con là gì?
+answer: Phân biệt các cặp khóa anh em
 wrong_answers:
-  - Bằng cách nhân kích thước của entropy với 32.
-  - Bằng cách cộng 32 vào kích thước của entropy.
-  - Bằng cách trừ 32 khỏi kích thước của entropy.
+  - Xác định bản chất của khóa (công khai hoặc riêng tư)
+  - Chỉ định mức độ bảo mật của khóa
+  - Thêm một lớp bảo mật nữa
 explanation: |
-  Kích thước của checksum được xác định bằng cách chia kích thước của entropy cho 32. Ví dụ, một entropy 256-bit sẽ tạo ra một checksum 8-bit.
+  Chỉ số cho phép phân biệt các khóa con được tạo ra từ cùng một cặp khóa cha mẹ.
 reviewed: false

@@ -1,0 +1,13 @@
+question: What does a large anonset indicate about the privacy of a UTXO?
+
+answer: Improved privacy.
+
+wrong_answers:
+  - Reduced privacy.
+  - Improved traceability.
+  - Faster coinjoin transaction speeds.
+
+explanation: |
+  A large anonset indicates a high level of anonymity, as it becomes difficult to distinguish a specific UTXO within the homogeneous set.
+
+reviewed: false

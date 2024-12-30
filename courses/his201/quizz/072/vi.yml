@@ -1,0 +1,9 @@
+question: Satoshi đã chuyển giao trách nhiệm phát triển phần mềm cho ai khi ông rời đi?
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation: |
+  Gavin đã từng [nói](https: //bitcointalk.org/index.php?topic=2367.msg31651#msg31651) rằng ông sẽ quản lý dự án Bitcoin một cách tích cực hơn và đã mở kho lưu trữ GitHub vào tháng 12 năm 2010.
+reviewed: false

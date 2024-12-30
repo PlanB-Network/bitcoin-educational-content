@@ -5,9 +5,11 @@ wrong_answers:
   - Private browsing masks the user's IP address, while TOR does not.
   - TOR leaves local traces on your computer, while private browsing does not.
 explanation: |
-  Private browsing is a feature that prevents internet browsers from storing
-  browsing history, temporary internet files, form data, cookies, and user names and
-  passwords. However, it does not hide browsing from your internet service provider.
-  On the other hand, TOR network offers anonymity by masking the user's IP address
-  and allowing access to the Darknet.
-reviewed: false
+  Private browsing is a feature that prevents internet
+  browsers from storing browsing history, temporary internet
+  files, form data, cookies, and user names and passwords.
+  However, it does not hide browsing from your internet
+  service provider. On the other hand, TOR network offers
+  anonymity by masking the user's IP address and allowing
+  access to the Darknet.
+reviewed: true

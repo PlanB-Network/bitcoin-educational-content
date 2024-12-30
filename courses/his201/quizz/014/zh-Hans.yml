@@ -1,0 +1,8 @@
+question: 谁发明了工作量证明的概念？
+answer: Cynthia Dwork 和 Moni Naor
+wrong_answers:
+  - Markus Jakobsson 和 Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation:
+  他们在1992年描述了这一概念。Markus Jakobsson 和 Ari Juels 创造了“工作量证明”的术语。Adam Back 后来将这一概念应用于Hashcash。

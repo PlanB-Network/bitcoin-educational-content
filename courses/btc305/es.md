@@ -9,7 +9,7 @@ objectives:
 
 # Bitcoin y BTCPay Server
 
-Este es un curso introductorio sobre Operador de BTCPay Server escrito por Alekos y Bas, que fue adaptado al Formato de Curso PlanB por melontwist y asi0.
+Este es un curso introductorio sobre Operador de BTCPay Server escrito por Alekos y Bas, que fue adaptado al Formato de Curso Plan ₿ por melontwist y asi0.
 
 UNA HISTORIA INCONCLUSA
 

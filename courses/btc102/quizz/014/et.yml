@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus tööriistade nagu Signal, Tor ja ProtonMail kasutamiseks?
+answer: Sinu privaatsuse väärtustamine ja kaitsmine
+wrong_answers:
+  - Sinu internetiühenduse kiirendamine
+  - Sinu arvuti kaitsmine viiruste eest
+  - Tasuliste teenuste tasuta kasutamise võimaldamine
+explanation: |
+  Tööriistad nagu Signal, Tor ja ProtonMail on mõeldud sinu privaatsuse väärtustamiseks ja kaitsmiseks. Need on osa meetmetest, et parandada veebis turvalisuse harjumusi.

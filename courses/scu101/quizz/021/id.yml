@@ -1,0 +1,8 @@
+question: Apa potensi ancaman dari menggunakan perangkat lunak bajakan yang tidak dapat diperbarui?
+answer: Kedatangan virus selama pengunduhan ilegal dan penggunaan yang tidak aman terhadap bentuk serangan baru.
+wrong_answers:
+  - Perangkat lunak akan berhenti bekerja setelah periode tertentu.
+  - Perangkat lunak tidak akan memiliki fitur baru.
+  - Perangkat lunak akan mengonsumsi lebih banyak sumber daya sistem.
+explanation: |
+  Perangkat lunak bajakan yang tidak dapat diperbarui mewakili ancaman ganda potensial. Ini dapat membawa virus selama pengunduhan ilegal dari situs web yang mencurigakan dan dapat tidak aman terhadap bentuk serangan baru.

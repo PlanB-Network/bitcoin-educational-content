@@ -1,11 +1,13 @@
-question: Mikä on Bitcoinin tila joissakin maissa?
-answer: Kielletty ja kriminalisoitu
+question: Mikä on Bitcoinin asema El Salvadorissa?
+answer: Laillinen maksuväline.
 wrong_answers:
-  - Täysin omaksuttu
-  - Osittain omaksuttu
-  - Sääntelemätön
-explanation: >-
-  Tekstissä mainitaan, että jotkin maat ovat kieltäneet ja kriminalisoineet Bitcoinin
-  käytön, mikä lisää Bitcoinin omaksumisen monimutkaisuutta kulttuurien,
-  aikakausien ja kansakuntien perusteella.
-reviewed: false
+  - Kriminalisoitu.
+  - Tuntematon.
+  - Sääntelemätön.
+explanation: |
+  Kurssitekstissä mainitaan, että jotkut maat ovat kieltäneet
+  ja kriminalisoineet Bitcoinin käytön, mikä lisää
+  Bitcoinin omaksumisen monimutkaisuutta kulttuurien, aikakausien ja
+  kansakuntien mukaan. El Salvador oli kuitenkin rohkea ottaessaan sen
+  käyttöön laillisena maksuvälineenä.
+reviewed: true

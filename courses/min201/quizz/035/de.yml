@@ -5,5 +5,7 @@ wrong_answers:
   - Die Anzahl der aktiven Knoten
   - Die Menge an Strom, die vom Netzwerk verbraucht wird
 explanation: |
-  Die Hashrate im Bitcoin-Netzwerk misst die Anzahl der Berechnungen, die pro Sekunde durchgeführt werden können. Sie ist ein wichtiger Indikator für die Gesundheit und Sicherheit des Netzwerks.
-reviewed: false
+  Die Hashrate im Bitcoin-Netzwerk misst die Anzahl der
+  Berechnungen, die pro Sekunde durchgeführt werden können. Sie ist ein wichtiger
+  Indikator für die Gesundheit und Sicherheit des Netzwerks.
+reviewed: true

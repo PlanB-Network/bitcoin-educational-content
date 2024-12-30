@@ -1,0 +1,9 @@
+question: Jak se v grupě nazývá unikátní prvek, který, když je aplikován na jiný prvek, jej nezmění?
+answer: Neutrální prvek
+wrong_answers:
+  - Inverzní prvek
+  - Komutativní prvek
+  - Asociativní prvek
+explanation: |
+  Neutrální prvek grupy je unikátní prvek, který, když je aplikován na jiný prvek, jej nechá nezměněný. Například v grupě celých čísel pod sčítáním je neutrálním prvkem 0.
+reviewed: false

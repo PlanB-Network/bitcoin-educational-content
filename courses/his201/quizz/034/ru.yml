@@ -1,0 +1,8 @@
+question: Кто основал первую службу обмена между биткойном и долларом в октябре 2009 года?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  Эта служба была первичной: обмены согласовывались по электронной почте, а платежи осуществлялись через PayPal. Курс обмена базировался на затратах на майнинг самого NewLibertyStandard.

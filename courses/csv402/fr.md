@@ -76,7 +76,7 @@ Les deux premiers chapitres sont consacrés à la **validation côté client**, 
 - Les raisons de son importance et de sa nécessité ;
 - Comment ce paradigme s’intègre avec la blockchain.
 
-Les deux chapitres suivant se focaliseront sur les bases théoriques de RGB en tant que système de contrats intelligents. Nous aborderons notamment :
+Les deux chapitres suivants se focaliseront sur les bases théoriques de RGB en tant que système de contrats intelligents. Nous aborderons notamment :
 - **Le sharding** : un mécanisme clé pour atteindre l’évolutivité dans RGB.
 - **Les scellés à usage unique (Single-Use Seals)** : une primitive cryptographique développée par Peter Todd, essentielle pour la validation côté client et distincte des autres formes d'engagements cryptographiques.
 
@@ -108,7 +108,7 @@ La blockchain est très décentralisée, mais peu scalable. De plus, comme tout 
 
 - **Lightning/State channels**
 
-Les canaux d’état (comme avec le Lightning Network) sont plus scalables et plus privés que la blockchain, car les transactions s’effectuent hors chaîne. Toutefois, l’obligation d’annoncer publiquement certains éléments (transactions de financement, topologie du réseau) et la surveillance du trafic réseau peuvent compromettre en partie la confidentialité. Aussi, la décentralisation en pâtit : le routage requiert une grande quantité de liquidité et les nœuds majeurs peuvent devenir des points de centralisation. C'est justement un phénomène que l'on peut commencer à observer actuellement sur Lightning.
+Les canaux d’état (comme avec le Lightning Network) sont plus scalables et plus privés que la blockchain, car les transactions s’effectuent hors chaîne. Toutefois, l’obligation d’annoncer publiquement certains éléments (transactions de financement, topologie du réseau) et la surveillance du trafic réseau peuvent compromettre en partie la confidentialité. Aussi, la décentralisation en pâtit : le routage requiert une grande quantité de liquidités et les nœuds majeurs peuvent devenir des points de centralisation. C'est justement un phénomène que l'on peut commencer à observer actuellement sur Lightning.
 
 - **Client-side validation (RGB)**
 
@@ -152,7 +152,7 @@ Pour les smart contracts de type RGB, on “sharde” selon les contrats eux-mê
 
 ### Les couches : Blockchain, Lightning et RGB
 
-On peut ainsi visualiser l’écosystème ainsi :
+On peut imaginer l’écosystème ainsi :
 - **La blockchain (Bitcoin)** comme fondation qui assure la réplication complète d’un registre minimal et servant de couche d'horodatage.
 - **Le lightning Network** pour des transactions rapides et confidentielles, qui repose toujours sur la sécurité et le règlement final de la blockchain Bitcoin.
 - **RGB et la client-side validation** pour ajouter une logique plus complexe de smart contracts, sans encombrer la blockchain, ni perdre la confidentialité.
@@ -184,7 +184,7 @@ Avec la **client-side validation**, seules les personnes impliquées dans la tra
 Concrètement :
 - Vous préparez une nouvelle transition d’état (par exemple le transfert d’un jeton RGB).
 - Vous générez un engagement cryptographique à cette transition et l’insérez dans une transaction Bitcoin (on appelle ces engagements des “anchors” dans le protocole RGB).
-- La contrepartie (le destinataire) récupère l’historique _client-side_ associé à cet actif et valide la cohérence de bout en bout, depuis la genèse du smart contract jusqu’à la transition que vous lui transmettez.
+- La contrepartie (le destinataire) récupère l’historique _client-side_ associé à cet actif et valide la cohérence de bout en bout, depuis la Genèse du smart contract jusqu’à la transition que vous lui transmettez.
 
 014
 

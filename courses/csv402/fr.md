@@ -47,11 +47,11 @@ Dans ce cours, nous nous concentrons sur la deuxième semaine du bootcamp, qui p
 
 **Semaine 1 - LNP402 :**
 
-001
+![RGB-Bitcoin](assets/fr/001.webp)
 
 **Semaine 2 - Formation actuelle :**
 
-002
+![RGB-Bitcoin](assets/fr/002.webp)
 
 Un grand merci à la personne qui a organisé ces cours en direct et aux 3 enseignants qui y ont participé :
 - Maxim Orlovsky : *Ex Tenebrae sententia sapiens dominabitur astris. Cypher, IA, robotique, transhumanisme. Créateur de RGB, Prime, Radiant et lnp_bp, mycitadel_io & cyphernet_io* ;
@@ -90,7 +90,7 @@ Dans le cadre de Bitcoin, vous connaissez sans doute les principes du minage, la
 
 Nous allons également plus tard introduire un terme important : la notion de "**stash**", qui désigne l'ensemble des données côté client nécessaires pour préserver l'état d'un contrat, ces données n'étant pas répliquées de façon globale sur le réseau. Enfin, nous aborderons la raison d'être de **RGB**, un protocole tirant parti de la _client-side validation_, et pourquoi il se révèle complémentaire aux approches existantes (blockchain et _state channels_).
 
-003
+![RGB-Bitcoin](assets/fr/003.webp)
 
 ### Les trilemmes en informatique distribuée
 
@@ -114,7 +114,7 @@ Les canaux d'état (comme avec le Lightning Network) sont plus scalables et plus
 
 Ce nouveau paradigme est encore plus scalable et plus confidentiel, car non seulement on peut intégrer des techniques zero-knowledge, mais il n'y a pas de graphe global des transactions : personne ne détient la totalité du registre. En revanche, cela implique aussi un certain compromis sur la décentralisation : un _contract issuer_ (l'émetteur d'un contrat intelligent) peut avoir un rôle central (à l'instar d'un _contract deployer_ dans Ethereum). Néanmoins, contrairement à la blockchain, avec la _client-side validation_, vous ne stockez et ne validez que les contrats qui vous intéressent, ce qui améliore la scalabilité en évitant de télécharger et de vérifier tous les états existants.
 
-004
+![RGB-Bitcoin](assets/fr/004.webp)
 
 #### 2. Théorème CAP (Consistency, Availability, Partition tolerance)
 
@@ -132,13 +132,13 @@ Un système de canaux d'états dispose de la disponibilité et de la tolérance 
 
 Un système comme RGB offre la cohérence (chaque participant valide ses données localement, sans ambiguïté) et la tolérance au partitionnement (vous conservez vos données de manière autonome), mais ne garantit pas la disponibilité globale (chacun doit s'assurer d'avoir les morceaux d'historique pertinents, et certains participants peuvent ne rien publier ou cesser de partager certaines informations).
 
-005
+![RGB-Bitcoin](assets/fr/005.webp)
 
 #### 3. Trilemme CIA (Confidentiality, Integrity, Availability)
 
 Ce trilemme rappelle que la confidentialité, l'intégrité et la disponibilité ne peuvent être optimisées toutes les trois en même temps. Blockchain, Lightning et _client-side validation_ se répartissent différemment dans cet équilibre. L'idée est qu'aucun système unique ne peut tout fournir ; il faut combiner plusieurs approches (la time-stamping de la blockchain, l'approche synchrone de Lightning, et la validation locale avec RGB) pour obtenir un ensemble cohérent offrant de bonnes garanties dans chaque dimension.
 
-006
+![RGB-Bitcoin](assets/fr/006.webp)
 
 ### Le rôle de la blockchain et la notion de sharding
 
@@ -157,36 +157,36 @@ On peut imaginer l'écosystème ainsi :
 - **Le lightning Network** pour des transactions rapides et confidentielles, qui repose toujours sur la sécurité et le règlement final de la blockchain Bitcoin.
 - **RGB et la client-side validation** pour ajouter une logique plus complexe de smart contracts, sans encombrer la blockchain, ni perdre la confidentialité.
 
-007
+![RGB-Bitcoin](assets/fr/007.webp)
 
 Ces trois éléments forment un ensemble triangulaire plus qu'un empilement linéaire de "layer 2", "layer 3", etc. Lightning peut se brancher directement sur Bitcoin, ou bien être associé à des transactions Bitcoin qui intègrent des données RGB. De même, un usage de la "BiFi" (finance sur Bitcoin) peut composer avec la blockchain, Lightning et RGB selon les besoins en confidentialité, scalabilité, ou logique de contrat.
 
-008
+![RGB-Bitcoin](assets/fr/008.webp)
 
 ### La notion de transitions d'état
 
 Dans un système distribué, on modélise souvent l'évolution d'un contrat sous forme de "state machine" : un état initial, puis diverses transitions qui mènent à de nouveaux états.
 
-009
+![RGB-Bitcoin](assets/fr/009.webp)
 
 Sur Bitcoin, l'état global est l'ensemble des UTXOs, et chaque bloc apporte un lot de transactions qui modifient une partie de cet ensemble. 
 
-010
+![RGB-Bitcoin](assets/fr/010.webp)
 
 Tout le réseau doit valider et télécharger l'ensemble de ces mises à jour, ce qui nuit à la scalabilité et à la confidentialité (puisque les transactions sont publiques).
 
-012
+![RGB-Bitcoin](assets/fr/012.webp)
 
 Avec la **client-side validation**, seules les personnes impliquées dans la transition d'état conservent et valident cette transition. On n'insère sur la blockchain qu'un engagement (via un arbre de Merkle, etc.) afin de profiter du time-stamping et de la protection face à la double dépense, mais on ne révèle jamais le contenu complet de la transition.
 
-013
+![RGB-Bitcoin](assets/fr/013.webp)
 
 Concrètement :
 - Vous préparez une nouvelle transition d'état (par exemple le transfert d'un jeton RGB).
 - Vous générez un engagement cryptographique à cette transition et l'insérez dans une transaction Bitcoin (on appelle ces engagements des "anchors" dans le protocole RGB).
 - La contrepartie (le destinataire) récupère l'historique _client-side_ associé à cet actif et valide la cohérence de bout en bout, depuis la Genèse du smart contract jusqu'à la transition que vous lui transmettez.
 
-014
+![RGB-Bitcoin](assets/fr/014.webp)
 
 Seuls les participants directement concernés par un contrat conservent les données historiques ; le réseau Bitcoin n'est pas alourdi par ces informations. Vous gagnez ainsi :
 - **en scalabilité** : Pas de duplication globale de tout l'historique.
@@ -194,23 +194,23 @@ Seuls les participants directement concernés par un contrat conservent les donn
 
 L'élément central est donc la **décentralisation partielle** : chaque contrat constitue un shard indépendant, et chaque participant n'en stocke que la part d'historique qui le concerne.
 
-015
+![RGB-Bitcoin](assets/fr/015.webp)
 
 ### Le concept de stash
 
 Un **stash** est l'ensemble de données côté client qu'un participant doit absolument conserver pour maintenir l'intégrité et l'historique d'un smart contract RGB. Contrairement à un canal Lightning, où l'on peut reconstruire certains états localement à partir d'informations partagées, le stash d'un contrat RGB n'est pas répliqué ailleurs : si vous le perdez, personne ne pourra vous le restaurer, car vous êtes responsable de votre part de l'historique. D'où l'intérêt de procédures de sauvegarde fiables dans RGB.
 
-016
+![RGB-Bitcoin](assets/fr/016.webp)
 
 ### Single use seal : origines et fonctionnement
 
 Pour permettre cette validation locale, on s'appuie sur une invention de Peter Todd appelée **single use seal**. 
 
-017
+![RGB-Bitcoin](assets/fr/017.webp)
 
 L'idée de base est de créer un engagement cryptographique que l'on ne puisse "fermer" qu'une seule fois, empêchant ainsi la duplication (double engagement).
 
-018
+![RGB-Bitcoin](assets/fr/018.webp)
 
 Pour cela, on va combiner différentes techniques d'engagement qui à elles seules ne sont pas complètes :
 
@@ -225,11 +225,11 @@ Pour cela, on va combiner différentes techniques d'engagement qui à elles seul
 | Preuve qu'aucun autre engagement alternatif ne peut exister                      | Impossible                      | Impossible | Possible         |
 
 
-019
+![RGB-Bitcoin](assets/fr/019.webp)
 
 Pour comprendre cela, faisons une analogie. Imaginez un journal (comme le _New York Times_) qui paraît chaque jour. Il est impossible de "republier" le même numéro sous deux versions différentes sans être détecté. On pourrait alors définir le coin supérieur droit de la dernière page comme un single use seal. Chaque jour (= chaque block Bitcoin), vous pouvez insérer un message dans cette zone. Ce message sert à prouver que vous avez publié quelque chose ce jour-là, en temps voulu et de manière irréfutable. Une fois ce journal imprimé et distribué, il devient impossible de revenir en arrière pour insérer un second message ou modifier le premier tout en prétendant que la version altérée est l'originale.
 
-021
+![RGB-Bitcoin](assets/fr/021.webp)
 
 Sur la blockchain Bitcoin, le **single use seal** se définit de la même manière :
 
@@ -244,17 +244,17 @@ Cette unicité est importante pour la **client-side validation** : quand vous va
 
 Un smart contract RGB peut avoir besoin de dépenser simultanément plusieurs single use seals (plusieurs UTXO). De plus, une seule transaction Bitcoin peut référencer plusieurs contrats distincts, chacun venant sceller sa propre transition d'état. Cela nécessite un mécanisme de **multi-commitments** permettant de prouver, de manière déterministe et unique, qu'aucun des engagements n'existe en double. C'est ici qu'intervient la notion d'**anchor** dans RGB : une structure spéciale reliant une transaction Bitcoin et un ou plusieurs engagements _client-side_ (transitions d'état), chacun relevant potentiellement d'un contrat différent.
 
-023
+![RGB-Bitcoin](assets/fr/023.webp)
 
 Deux principaux dépôts GitHub du projet (sous l'organisation "LNPBP") regroupent les implémentations de base :
 - **client_side_validation** : Contient les primitives Rust pour la validation locale.
 - **single_use_seals** : Implémente la logique pour définir et fermer ces seals de manière sécurisée.
 
-020
+![RGB-Bitcoin](assets/fr/020.webp)
 
 Ces briques sont agnostiques par rapport à Bitcoin ; on pourrait, en théorie, les appliquer à tout autre support de preuve de publication (un autre registre, un journal, etc.). Dans la pratique, RGB repose sur Bitcoin pour sa robustesse et son large consensus.
 
-021
+![RGB-Bitcoin](assets/fr/021.webp)
 
 ### Questions du public
 

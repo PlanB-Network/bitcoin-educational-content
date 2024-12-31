@@ -280,32 +280,6 @@ Avant de plonger dans les détails plus techniques du deuxième chapitre, n'hés
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Validation côté client
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 

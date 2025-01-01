@@ -1,0 +1,9 @@
+question: Sur RGB, pourquoi conseille-t-on d'utiliser Tapret au lieu d’Opret pour les engagements ?
+answer: Pour minimiser la visibilité et éviter la censure
+wrong_answers:
+  - Pour réduire les frais de transaction
+  - Parce qu’un OP_RETURN n’est pas compatible avec Lightning
+  - Pour maximiser la taille des engagements
+explanation: |
+  Tapret permet d’intégrer des engagements de manière discrète, contrairement à un OP_RETURN qui les rend immédiatement visibles et sujets à la censure.
+reviewed: false

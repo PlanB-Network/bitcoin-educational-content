@@ -333,13 +333,13 @@ Ce schéma a été sélectionné pour sa compatibilité avec l’architecture RG
 
 Pour rappel, définir un _single-use seal_ ne nécessite pas nécessairement de publier une transaction on-chain. Il suffit qu’Alice, par exemple, possède déjà un UTXO non dépensé. Elle peut décider : "Cet _outpoint_ (déjà existant) est désormais mon scellé". Elle le note localement (_client-side_), et tant que cet UTXO n’est pas dépensé, le scellé est considéré comme ouvert.
 
-024
+![RGB-Bitcoin](assets/fr/024.webp)
 
 #### Fermeture du scellé
 
 Le jour où elle veut fermer le scellé (pour signaler un événement, ou pour ancrer un message particulier), elle dépense cet UTXO dans une nouvelle transaction (on appelle souvent cette transaction la _witness transaction_, sans rapport avec _segwit_, c’est juste le terme qu’on lui donne). Cette nouvelle transaction contiendra le _commitment_ au message.
 
-025
+![RGB-Bitcoin](assets/fr/025.webp)
 
 - **Personne d’autre que Bob** (ou les personnes à qui Alice choisit de révéler la preuve complète) ne saura qu’un certain message est caché dans cette transaction.
 - Tout le monde peut constater que l'_outpoint_ a été dépensé, mais seul Bob détient la preuve que le message est bien ancré dans la transaction.
@@ -348,23 +348,23 @@ Le jour où elle veut fermer le scellé (pour signaler un événement, ou pour a
 
 Pour illustrer, on peut utiliser un _single-use seal_ comme mécanisme de révocation d’une clé PGP. Au lieu de publier un certificat de révocation sur des serveurs, Alice peut dire : "Cette sortie Bitcoin, si elle est dépensée, signifie que ma clé PGP est révoquée."
 
-026
+![RGB-Bitcoin](assets/fr/026.webp)
 
 Au moment où Alice dépense cet UTXO, elle referme le scellé sur un message qui indique sa nouvelle clé, ou simplement la révocation de l’ancienne. Ainsi, toute personne surveillant on-chain verra que l’UTXO est dépensé, mais seule celle qui dispose de la preuve complète saura qu’il s’agit précisément de la révocation de la clé PGP.
 
-027
+![RGB-Bitcoin](assets/fr/027.webp)
 
 #### Ancrage et preuve
 
 Pour que Bob ou toute autre personne concernée puisse vérifier le message caché, Alice doit lui fournir des informations off-chain.
 
-028
+![RGB-Bitcoin](assets/fr/028.webp)
 
 Alice doit donc fournir à Bob :
 - Le message lui-même (par exemple, la nouvelle clé PGP).
 - La preuve cryptographique attestant que ce message a été engagé dans la transaction (ce qu’on appelle l’_extra transaction proof_ ou _anchor_).
 
-029
+![RGB-Bitcoin](assets/fr/029.webp)
 
 Les tiers n’ont pas cette information. Ils voient seulement qu’un UTXO a été dépensé. La confidentialité est donc assurée.
 
@@ -372,11 +372,11 @@ Pour bien clarifier la structure, récapitulons le cheminement en deux transacti
 
 - **Transaction 1** : Elle contient la _seal definition_, c’est-à-dire l'_outpoint_ qui servira de scellé.
 
-031
+![RGB-Bitcoin](assets/fr/031.webp)
 
 - **Transaction 2** : Elle dépense cet _outpoint_. De ce fait, le scellé est fermé et, dans cette même transaction, on insère le _commitment_ sur le message.
 
-033
+![RGB-Bitcoin](assets/fr/033.webp)
 
 Nous appelons donc la seconde transaction la "_witness transaction_". 
 
@@ -385,7 +385,7 @@ Pour illustrer cela sous un autre angle, on peut représenter deux couches :
 - **La couche supérieure (blockchain, publique)** : tout le monde voit la transaction et sait qu’il y a un _outpoint_ dépensé.
 - **La couche inférieure (client-side, privée)** : seule Alice (ou la personne intéressée) sait que cette dépense correspond à tel message, via la preuve cryptographique et le message qu’elle conserve en local.
 
-034
+![RGB-Bitcoin](assets/fr/034.webp)
 
 Mais lors de cette fermeture du scellé, on peut se poser la question suivante : concrètement, où devons-nous insérer le _commitment_ ?
 
@@ -409,11 +409,11 @@ Potentiellement, on peut utiliser la partie _scriptSig_ ou _witness_ de l’inpu
 
 On peut également choisir d’insérer le _commitment_ dans le _scriptPubKey_ d’une sortie. C’est ce que font certains schémas d’engagement (op-return, pay-to-contract, taproot script tree, etc.).
 
-035
+![RGB-Bitcoin](assets/fr/035.webp)
 
 Le problème est de s’assurer qu’aucune autre partie de la transaction ne porte un second engagement non déclaré, et qu’on sache exactement lequel des inputs ou outputs véhicule le commitment. Plusieurs approches ont été tentées pour définir un champ déterministe dans lequel glisser la donnée :
 
-038
+![RGB-Bitcoin](assets/fr/038.webp)
 
 ***Sig tweak (sign-to-contract) :***
 
@@ -459,7 +459,7 @@ La dernière option est l’utilisation de **Taproot** (introduit avec le BIP341
 - Ajouter un petit script _op-return_ masqué dans l’arbre.
 - Prouver off-chain qu’il existe réellement cette feuille (et qu’aucune autre ne contient un engagement concurrent), sans devoir révéler l’arbre entier.
 
-036
+![RGB-Bitcoin](assets/fr/036.webp)
 
 C’est ce qui a été retenu pour RGB à partir de 2021, lorsque l’équipe est passée du _pay-to-contract_ classique au **Taproot commitment**. Il reste néanmoins un défi : prouver que cette insertion est unique dans l’arbre (pas de double engagement dans une autre feuille). On veut également éviter d’exposer à jamais toute la structure du script (politique de dépense, etc.).
 
@@ -471,11 +471,11 @@ RGB insère ainsi un script additionnel contenant un `OP_RETURN <commitment>` au
 - Si le script _commitment_ se place à droite, on doit révéler l’autre branche ou d’autres _hash_ frères pour montrer que ce n’est pas un second _commitment_.
 - Pour limiter le risque d’être « forcé » du côté droit, on peut utiliser un petit _nonce_ (8 bits) pour rejouer le calcul et trouver un placement plus favorable.
 
-037
+![RGB-Bitcoin](assets/fr/037.webp)
 
 Cela reste plus complexe qu’un simple “on place le hash dans l’arbre”. Mais c’est la seule façon d’empêcher que la dépense ultérieure d’un script BIP341 n’expose toute la structure d’origine ou ne permette un second engagement secret. Au final, l’équipe a trouvé un compromis gérable entre performance, discrétion, et auditabilité.
 
-039
+![RGB-Bitcoin](assets/fr/039.webp)
 
 ### Analyses et choix pratiques dans RGB
 
@@ -547,7 +547,7 @@ En fin de compte, **Taproot** demeure la plus prometteuse, même si elle réclam
 
 Nous avions déjà discuté du besoin de sharding dans le premier chapitre de la formation. L’idée est qu’un _anchor_ doit parfois contenir des engagements relatifs à plusieurs smart contracts différents. Comment construire un arbre de Merkle pour deux, cinq, ou deux cent mille contrats, tout en permettant à chacun de prouver uniquement l’engagement qui le concerne ?
 
-041
+![RGB-Bitcoin](assets/fr/041.webp)
 
 #### Construire un arbre de Merkle pour plusieurs contrats
 
@@ -561,13 +561,13 @@ Pour plusieurs contrats (ex. USDT, USDC, NFT), vous calculez cette position pour
 
 Sur le client, on ne stocke jamais l’ensemble du Merkle tree. On se contente de générer, à l’instant T, un _Merkle path_ pour chaque contrat concerné, à transmettre au destinataire (qui pourra ainsi valider l’engagement). Dans certains cas, vous possédez plusieurs actifs passés par le même UTXO. Vous pouvez alors fusionner plusieurs _Merkle paths_ dans ce qu’on appelle un _multi-protocol commitment block_, afin d'éviter de dupliquer trop de données.
 
-042
+![RGB-Bitcoin](assets/fr/042.webp)
 
 Dans la base de code (répertoire _client-side validation_, module `commit-verify::mpc`), on retrouve notamment :
 - Des structures d'arbres de Merkle paramétrables (profondeur `depth`, entropie, cofacteur, etc.).
 - Un type de **Merkle proof** qui stocke la position ciblée dans l’arbre et la suite de hachages frères menant à la racine.
 
-044
+![RGB-Bitcoin](assets/fr/044.webp)
 
 Chaque _Merkle proof_ est donc légère, d’autant plus que la profondeur de l’arbre n’excédera pas 32 dans RGB. Il existe également une notion de **Merkle block**, conservant plus d’informations (la cross-section, l’entropie, etc.), utile pour combiner ou séparer plusieurs branches.
 
@@ -591,7 +591,7 @@ L’anchor Tapret requiert notamment :
 - Un **nonce** si nécessaire (pour tenter de forcer le script sur la gauche de l’arbre)
 - Les informations prouvant que le nœud adjacent n’est pas un autre engagement, mais seulement un script ou un hash quelconque inoffensif.
 
-045
+![RGB-Bitcoin](assets/fr/045.webp)
 
 ### Conclusion
 
@@ -605,7 +605,7 @@ Nous avons aussi vu l’importance des _anchors_, qui rassemblent tout (le _TXID
 
 En pratique, la mise en œuvre technique est répartie entre plusieurs _crates_ Rust dédiés (dans _client_side_validation_, _commit-verify_, _bp_core_, etc.). Les notions fondamentales sont là :
 
-046
+![RGB-Bitcoin](assets/fr/046.webp)
 
 Dans les chapitres suivants, nous approfondirons la manière dont on bâtit concrètement un smart contract RGB en assemblant ces briques : comment on encode la logique du contrat, comment on transfère des jetons ou des droits, et comment on tire parti de la modularité offerte par Taproot et les multi-productal commitments pour faire coexister de nombreux contrats ou fonctionnalités au sein d’une seule transaction Bitcoin. Nous verrons aussi les problématiques spécifiques liées à Lightning, et la proposition **Bifrost** pour rendre compatibles les canaux LN avec le protocole RGB et son mécanisme d’ancrage avancé.
 

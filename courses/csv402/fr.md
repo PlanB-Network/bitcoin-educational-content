@@ -372,21 +372,21 @@ Avant de plonger dans les détails plus techniques du deuxième chapitre, n'hés
 
 
 
-## Validation côté client
+## La couche d'engagement
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
 ![video](https://youtu.be/FS6PDprWl5Q)
 
-Nous allons désormais appliquer tout ce que nous avons vu dans le premier chapitre au cas spécifique de Bitcoin et de RGB. Nous allons revenir sur la notion de _single-use seals_ (scellés à usage unique), cette fois-ci directement par-dessus les transactions Bitcoin. Ensuite, nous parlerons de deux points importants qui n’ont pas encore été traités en détail :
 
+Dans ce chapitre, nous explorons la mise en application de la **Client-side Validation** et des **Single-use Seals** au sein de la blockchain Bitcoin. Nous présentons ainsi les principes majeurs de la **couche de commitment** (layer 1) d’RGB, en nous intéressant plus particulièrement au schémas **TxO2**, retenu par RGB pour définir et fermer un sceau dans le cadre d’une transaction Bitcoin. Ensuite, nous parlerons de deux points importants qui n’ont pas encore été traités en détail :
 - Les _deterministic Bitcoin commitments_
 - Les _multi-protocol commitments_
 
-C’est la combinaison de ces concepts qui nous permet de superposer plusieurs systèmes ou contrats au-dessus d’un même _UTXO_ et donc d’une même blockchain.
+C’est la combinaison de ces concepts qui nous permet de superposer plusieurs systèmes ou contrats au-dessus d’un même UTXO et donc d’une même blockchain.
 
-### Les single-use seals sur Bitcoin
+Il convient de rappeler que les opérations cryptographiques décrites peuvent s’appliquer, dans l’absolu, à d’autres blockchains ou médias de publication, mais les caractéristiques de Bitcoin (en matière de décentralisation, de résistance à la censure et d’ouverture à tous) en fait un socle idéal pour développer de la programmabilité avancée comme celle requise par **RGB**.
 
-Avant d’entrer dans le vif du sujet, il y a souvent une plaisanterie autour de l’orthographe du terme _single-use seals_, qui peut sembler ambigu en anglais. Si quelqu’un a une façon arrêtée de l’écrire, avec des tirets ou autre, il est libre d’avoir son opinion. Mais l’important est moins l’orthographe que la notion technique derrière.
+### Les schémas de commitment dans Bitcoin et leur utilisation par RGB
 
 Comme vu dans le premier chapitre de la formation, les _single-use seals_ sont un concept général : on fait une promesse d’inclure un engagement (un _commitment_) dans un emplacement précis d’une transaction, cet emplacement agit comme un scellé que l’on ferme sur un message. Toutefois, sur la blockchain Bitcoin, plusieurs options existent pour choisir où placer ce _commitment_.
 
@@ -400,8 +400,6 @@ On peut décider qu’une clé publique ou une adresse spécifique est le _singl
 
 Cela signifie que l’on définit un _single-use seal_ comme un _outpoint_ précis (un couple `TXID + numéro d’output`). Dès que cet _outpoint_ est dépensé, il s’agit de l’acte de fermeture du scellé.
 
-Bien sûr, selon la méthode retenue, le _commitment_ (c’est-à-dire la donnée prouvant le message) peut être placé soit dans l’output de la transaction, soit dans l’input qui dépense l’UTXO concerné.
-
 En travaillant sur RGB, nous avons identifié au moins 4 manières différentes d’implémenter ces scellés sur Bitcoin :
 - Définir le scellé via une clé publique, et le fermer dans un _output_
 - Définir le scellé via un _outpoint_, et le fermer dans un _output_
@@ -410,16 +408,523 @@ En travaillant sur RGB, nous avons identifié au moins 4 manières différentes 
 
 | Nom du schéma | Définition du scellé      | Fermeture du scellé   | Exigences supplémentaires                                         | Application principale       | Schémas d'engagement possibles |
 | ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-| Pk0           | Valeur de la clé publique | Sortie de transaction | P2(W)PKH                                                          | Aucune pour le moment        | Keytweak, taptweak, opret      |
-| Tx02          | Sortie de transaction     | Sortie de transaction | Nécessite des engagements déterministes sur Bitcoin               | RGBv1 (universel)            | Keytweak, taptweak, opret      |
+| PkO           | Valeur de la clé publique | Sortie de transaction | P2(W)PKH                                                          | Aucune pour le moment        | Keytweak, taptweak, opret      |
+| TxO2          | Sortie de transaction     | Sortie de transaction | Nécessite des engagements déterministes sur Bitcoin               | RGBv1 (universel)            | Keytweak, taptweak, opret      |
 | PkI           | Valeur de la clé publique | Entrée de transaction | Uniquement Taproot & non compatible avec les portefeuilles Legacy | Identités basées sur Bitcoin | Sigtweak, witweak              |
-| Tx01          | Sortie de transaction     | Entrée de transaction | Uniquement Taproot & non compatible avec les portefeuilles Legacy | Aucune pour le moment        | Sigtweak, witweak              |
+| TxO1          | Sortie de transaction     | Entrée de transaction | Uniquement Taproot & non compatible avec les portefeuilles Legacy | Aucune pour le moment        | Sigtweak, witweak              |
 
 Nous ne détaillerons pas chacune de ces configurations, car dans RGB, nous avons choisi d’utiliser **un _outpoint_ comme définition du scellé**, et de placer le _commitment_ dans l’output de la transaction dépensant cet _outpoint_. On peut donc introduire les concepts suivants pour la suite :
 - **"Seal definition"** : Un _outpoint_ donné (identifié par `TXID + N° de sortie`).
 - **"Seal closing"** : La transaction qui dépense cet _outpoint_, dans laquelle on ajoute un _commitment_ à un message.
 
 Ce schéma a été sélectionné pour sa compatibilité avec l’architecture RGB, mais d’autres configurations pourraient être utiles pour des usages différents (par exemple pour la gestion d’identités sur Bitcoin).
+
+La mention "O2" dans "TxO2" rappelle que la définition et la fermeture reposent toutes deux sur la dépense (ou la création) d’une sortie de transaction.
+
+### Les emplacements de _commitment_ dans une transaction
+
+Lorsque vous transmettez à quelqu’un la preuve qu’un certain message est ancré dans une transaction, vous devez pouvoir garantir qu’il n’existe pas, dans cette même transaction, une autre forme d’engagement (un second message caché) qui ne vous aurait pas été révélé. Pour que la validation _côté client_ reste robuste, il faut donc un mécanisme **déterministe** permettant de placer un unique _commitment_ dans la transaction qui ferme le _single-use seal_.
+
+La _witness transaction_ dépense le fameux UTXO (ou _seal definition_) et cette dépense correspond à la fermeture du scellé. Au niveau technique, on sait que chaque outpoint ne peut être dépensé qu’une seule fois. C’est justement ce qui sert de base à la résistance à la double dépense sur Bitcoin. Mais la transaction de dépense peut avoir plusieurs _inputs_, plusieurs _outputs_, ou être composée de façon complexe (coinjoins, cannaux Lightning, etc.). Il faut donc définir clairement où insérer le _commitment_ dans cette structure, sans ambiguïté et de manière uniforme.
+
+Quelle que soit la méthode (PkO, TxO2, etc.), le _commitment_ (message à sceller) peut être inséré :
+- **Dans un Input** via :
+    - **Sigtweak** (on modifie le composant `r` de la signature ECDSA, ce qui s’apparente au principe de "Sign-to-contract").
+    - **Witweak** (on modifie les données _segregated witness_ de la transaction).
+
+- **Dans un Output** via :
+    - **Keytweak** (on “tweake” la clé publique destinataire avec le message).
+    - **Opret** (on place le message dans une sortie `OP_RETURN`, non dépensable).
+    - **Tapret** (ou _Taptweak_), qui s’appuie sur **taproot** pour insérer l’engagement dans la partie script d’une clé taproot, modifiant ainsi la clé publique de manière déterministe.
+
+![RGB-Bitcoin](assets/fr/035.webp)
+
+Voici le détail de chaque méthode :
+
+![RGB-Bitcoin](assets/fr/038.webp)
+
+***Sig tweak (sign-to-contract) :***
+
+Un schéma anciennement proposé consistait à exploiter la partie aléatoire d’une signature (ECDSA ou Schnorr) pour y intégrer le _commitment_ : c’est la technique appelée "**sign to contract**". Vous remplacez le nonce généré au hasard par un hash contenant la donnée. Ainsi, la signature révèle implicitement votre engagement, sans espace additionnel dans la transaction. Cette approche présente des avantages :
+- Pas de surcharge on-chain (vous utilisez la même place que le nonce de base).
+- En théorie, cela peut être assez discret, car le nonce est initialement une donnée aléatoire.
+
+Cependant, 2 inconvénients majeurs ont émergé :
+- Les multisig avant Taproot : quand vous avez plusieurs signataires, il faut décider quelle signature porte le _commitment_. Les signatures peuvent être ordonnées différemment, et si un signataire refuse, vous perdez le contrôle sur l’aboutissement du _commitment_.
+- MuSig et le nonce partagé : avec les multisig Schnorr (*MuSig*), la génération du nonce est un algorithme multipartite, et il devient pratiquement impossible de tweaker le nonce individuellement.
+
+En pratique, **sig tweak** est donc peu compatible avec le matériel (hardware wallets) et les formats existants (Lightning, etc.). Cette belle idée est difficile à mettre en place concrètement.
+
+***Key tweak (pay-to-contract) :***
+
+Le **key tweak** reprend le concept historique de _pay-to-contract_. On prend la clé publique `X` et on la tweak en lui ajoutant la valeur `H(message)`. Concrètement, si `X = x * G` et `h = H(message)`, alors la nouvelle clé sera `X' = X + h * G`. Cette clé tweakée dissimule l’engagement sur le `message`. Le détenteur de la clé privée d’origine peut, en ajoutant `h` à sa clé privée `x`, prouver qu’il possède la clé permettant de dépenser la sortie. En théorie, c’est élégant, car :
+- Le _commitment_ s’inscrit sans ajouter de champs supplémentaires.
+- Vous ne stockez pas de données on-chain additionnelles.
+
+Néanmoins, dans la pratique, on se heurte aux difficultés suivantes :
+- Les wallets ne reconnaissent plus la clé publique standard, puisqu’elle a été “tweakée” ; ils ne peuvent donc pas facilement associer l’UTXO à votre clé habituelle.
+- Les hardware wallets ne sont pas conçus pour signer avec une clé qui n’est pas issue de leur dérivation standard.
+- Vous devez adapter vos scripts, descriptors, etc.
+
+Dans le cadre de RGB, cette piste a été envisagée jusqu’en 2021, mais il s’est avéré trop compliqué de la faire fonctionner avec les standards et l’infrastructure actuelle.
+
+***Witness tweak :***
+
+Une autre idée, que certains protocoles comme les _inscriptions Ordinals_ ont concrétisée, est de placer les données directement dans la section `witness` de la transaction (d’où l’expression **"witness tweak"**). Cependant, cette méthode :
+- Rend l’engagement immédiatement visible (vous collez littéralement des données brutes dans le witness).
+- Peut être sujette à la censure (des mineurs ou nœuds peuvent refuser de relayer si c’est trop volumineux ou arbitraire).
+- Consomme de l’espace dans les blocs, ce qui est contraire à l’objectif de discrétion et de légèreté de RGB.
+
+En plus, le witness est conçu pour être prunable dans certains contextes, ce qui peut rendre plus compliqué le fait d'avoir des preuves robustes.
+
+***Op-return (opret) :***
+
+Très simple dans son foncitonnement, un `OP_RETURN` permet de stocker un hash ou un message dans un champ spécial de la transaction. Mais c’est immédiatement détectable : tout le monde voit qu’il y a un _commitment_ dans la transaction, et cela peut être censuré ou écarté, en plus d’ajouter un output supplémentaire. Cela augmente également la transparence et la taille. C’est donc considéré comme moins satisfaisant dans l’optique d’une solution de _client-side validation_.
+
+```txt
+34-byte_Opret_Commitment =
+ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
+|_________| |______________| |_________________|
+  1-byte       1-byte         32 bytes                      
+```
+
+### Tapret
+
+La dernière option est l’utilisation de **Taproot** (introduit avec le BIP341) avec le schéma *Tapret*. *Tapret* est une forme plus complexe de commitment déterministe, qui apporte des améliorations en termes d’empreinte sur la blockchain (footprint) et de confidentialité pour les opérations de contrat. L’idée directrice est de **cacher le commitment** dans la partie `Script Path Spend` d’une [transaction taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+
+![RGB-Bitcoin](assets/fr/036.webp)
+
+Avant de décrire comment l’engagement est inséré dans une transaction taproot, examinons la **forme exacte** de l’engagement, qui doit **impérativement** correspondre à une chaîne de 64 octets [construite](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) de la manière suivante :
+
+```txt
+64-byte_Tapret_Commitment =
+
+ OP_RESERVED ...  ... .. OP_RESERVED   OP_RETURN   OP_PUSHBYTE_33  <mpc::Commitment>  <Nonce>
+|___________________________________| |_________| |______________| |_______________|  |______|
+ OP_RESERVED x 29 times = 29 bytes      1 byte         1 byte          32 bytes        1 byte
+|________________________________________________________________| |_________________________|
+        TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + NONCE = 33 bytes
+```
+
+- Les 29 octets `OP_RESERVED`, suivis de `OP_RETURN`, puis de `OP_PUSHBYTE_33`, forment la partie _prefix_ de 31 octets.
+- Vient ensuite un _commitment_ de 32 octets (généralement la racine de Merkle issue du **MPC**), auquel on ajoute 1 octet de **Nonce** (soit 33 octets au total pour cette seconde partie).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ainsi, le `Tapret` de 64 octets ressemble à un `Opret` auquel on a préfixé 29 octets de `OP_RESERVED` et auquel on ajoute un octet supplémentaire en guise de Nonce.
+
+Pour conserver une grande flexibilité d’implémentation, de confidentialité et de passage à l’échelle, **le schéma Tapret** prend en compte divers cas d’usage, selon les besoins de dépense en Bitcoin :
+
+- **Incorporation unique** d’un commitment Tapret dans une transaction taproot **sans** structure de Script Path préexistante.
+- **Intégration** d’un commitment Tapret dans une transaction taproot **déjà dotée** d’un Script Path.
+
+Nous détaillons ci-dessous chacun de ces deux scénarios.
+
+---
+
+### Incorporation Tapret **sans** Script Path existant
+
+Dans ce premier cas, on part d’une **sortie taproot** (Taproot Output Key) `Q` qui ne comporte **que** la clé publique interne `P` (Internal Key), **sans** chemin de script associé (Script Path) :
+
+```text
++---+            +---+   +---+   +---+
+| Q |      =     | P | + | m | * | G |
++---+            +---+   +-^-+   +---+
+                           |
+                    +-------------+
+                    | tH_TWEAK(P) |
+                    +-------------+
+```
+
+- `P` : la clé publique interne pour le _Key Path Spend_.
+- `G` : le point générateur de la courbe elliptique [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- `t = tH_TWEAK(P)` est le facteur de « tweak », calculé via un _tagged hash_ (par exemple `SHA-256(SHA-256(TapTweak) || P)`), conformément au [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Cela prouve qu’il n’y a pas de script caché.
+
+Pour inclure un commitment **Tapret**, il faut alors ajouter une **Script Path Spend** avec un **unique script**, selon le schéma suivant :
+
+```text
++---+            +---+   +---+   +---+
+| Q |      =     | P | + | t | * | G |
++---+            +---+   +-^-+   +---+
+                           |
+             +----------------------------+
+             | tH_TWEAK(P || Script_root) |
+             +---------------------^------+
+                                   |
+         +-------------------------+------------+
+         | tH_BRANCH(64-byte_Tapret_Commitment) |
+         +--------------------------------------+
+```
+
+- `t = tH_TWEAK(P || Script_root)` devient alors le nouveau facteur de tweak, incluant le **Script_root**.
+- `Script_root = tH_BRANCH(64-byte_Tapret_Commitment)` représente la racine de ce **script** (un Merkle Tree éventuellement minimal), laquelle est simplement un hash de type `SHA-256(SHA-256(TapBranch) || 64-byte_Tapret_Commitment)`.
+
+La preuve d’inclusion et d’unicité dans l’arbre taproot se résume ici à la seule clé publique interne `P`.
+
+---
+
+### Intégration Tapret **dans** un Script Path préexistant
+
+Le second scénario concerne une **sortie taproot** `Q` plus complexe, qui comporte déjà plusieurs scripts. Par exemple, on dispose d’un arbre de 3 scripts :
+
+```text
++---+            +---+   +---+   +---+
+| Q |      =     | P | + | t | * | G |
++---+            +---+   +-^-+   +---+
+                           |
+             +----------------------------+
+             | tH_TWEAK(P || Script_root) |
+             +---------------------^------+
+                                   |
+                     +-------------+----------+
+                     | tH_BRANCH(tHAB || tHC) |
+                     +------------^-------^---+
+                                  |       |
+                        +---------+       +---------+
+                        |                           |
+           +------------+----------+         +------+-----+
+           | tH_BRANCH(tHA || tHB) |         | tH_LEAF(C) |
+           +------------^------^---+         +------^-----+
+                        |      |                    |
+                 +------+      +------+             |
+                 |                    |             |
+           +-----+------+       +-----+------+      | 
+           | tH_LEAF(A) |       | tH_LEAF(B) |      |
+           +-----^------+       +-----^------+      |
+                 |                    |             |
+               +-+-+                +-+-+         +-+-+
+               | A |                | B |         | C |
+               +---+                +---+         +---+
+```
+
+- `tH_LEAF(x)` désigne la fonction de hachage (tagged hash) normalisée d’un script leaf.
+- `A, B, C` représentent les scripts déjà inclus dans la structure taproot.
+
+#### Règle d’insertion Tapret
+
+Pour ajouter le commitment Tapret, **on doit insérer un script “inconsommable”** (un unspendable script) au **premier niveau** de l’arbre, en décalant les scripts déjà existants **un niveau plus bas**. Visuellement, l’arbre devient :
+
+```text
++---+            +---+   +---+   +---+
+| Q |      =     | P | + | t | * | G |
++---+            +---+   +-^-+   +---+
+                           |
+                           +--------------------+
+                                                |
+                                +---------------+------------+
+                                | tH_TWEAK(P || Script_root) |
+                                +---------------------^------+
+                                                      |
+                                       +--------------+----------+
+                                       | tH_BRANCH(tHABC || tHT) |
+                                       +-------------^-------^---+
+                                                     |       |
+                     +-------------------------------+       +-------+
+                     |                                               |
+          +----------+-------------+               +-----------------+--------------------+
+          | tH_BRANCH(tHAB || tHC) |               | tH_BRANCH(64_byte_Tapret_Commitment) |
+          +------------^-------^---+               +--------------------------------------+
+```
+
+- `tHABC` représente le hash (tagged) du niveau supérieur regroupant `A, B, C`.
+- `tHT` représente le hash du script correspondant au `Tapret` de 64 octets.
+
+##### Ordre lexicographique et preuve d’unicité
+
+Selon les règles taproot, chaque branche/feuille doit être combinée en respectant un ordre **lexicographique** des hachages. Deux cas se présentent :
+
+1. **`tHT` > `tHABC`** : le commitment Tapret se place à **droite** dans l’arbre. La preuve d’unicité n’a besoin que de `tHABC` et `P`.
+2. **`tHT` < `tHABC`** : le commitment Tapret se place à **gauche**. Pour prouver qu’il n’y a pas d’autre commitment Tapret dans la partie droite, il faut révéler `tHAB` et `tHC` afin de démontrer l’absence de tout autre script de ce type.
+
+Exemple visuel pour le premier cas (_`tHABC < tHT`_) :
+
+```text
+* tHABC < tHT case
+
++---+            +---+   +---+   +---+
+| Q |      =     | P | + | t | * | G |
++---+            +---+   +-^-+   +---+
+                           |
+                           +--------------------+
+                                                |
+                                +---------------+------------+
+                                | tH_TWEAK(P || Script_root) |
+                                +---------------------^------+
+                                                      |
+                                       +--------------+----------+
+                                       | tH_BRANCH(tHABC || tHT) |
+                                       +-------------^-------^---+
+                                                     |       |
+                     +-------------------------------+       +-------+
+                     |                                               |
+          +----------+-------------+               +-----------------+--------------------+
+          | tH_BRANCH(tHAB || tHC) |               | tH_BRANCH(64_byte_Tapret_Commitment) |
+          +------------------------+               +--------------------------------------+
+```
+
+Exemple pour le second cas (_`tHABC > tHT`_) :
+
+```text
+* tHABC > tHT case
+
++---+            +---+   +---+   +---+
+| Q |      =     | P | + | t | * | G |
++---+            +---+   +-^-+   +---+
+                           |
+                           +--------------------+
+                                                |
+                                +---------------+------------+
+                                | tH_TWEAK(P || Script_root) |
+                                +---------------------^------+
+                                                      |
+                                       +--------------+----------+
+                                       | tH_BRANCH( tHT || tHABC)|   
+                                       +-------------^-------^---+
+                                                     |       |
+                                  +------------------+       +------------------+
+                                  |                                             |
+             +--------------------+-----------------+              +------------+-----------+
+             | tH_BRANCH(64_byte_Tapret_Commitment) |              | tH_BRANCH(tHAB || tHC) |
+             +--------------------------------------+              +------------^-------^---+
+                                                                                |       |
+                                                                   +------------+       +--------+
+                                                                   |                             |
+                                                      +------------+----------+           +------+-----+
+                                                      | tH_BRANCH(tHA || tHB) |           | tH_LEAF(C) |
+                                                      +-----------------------+           +------------+
+```
+
+---
+
+### Nonce Optimization
+
+Pour améliorer la confidentialité, on peut “miner” (bruteforcer) la valeur du `<Nonce>` (le dernier octet du `Tapret` de 64 octets) pour tenter d’obtenir un hash `tHT` tel que `tHABC < tHT`. Dans ce cas, le commitment se place à droite, évitant ainsi à l’utilisateur de devoir divulguer tout le contenu des scripts existants pour prouver l’unicité du Tapret.
+
+En résumé, le `Tapret` offre un moyen discret et déterministe d’incorporer un engagement (commitment) dans une transaction taproot, tout en respectant l’exigence d’unicité et de non-ambiguïté essentielle à la logique **Client-side Validation** et **Single-use Seal** d’RGB.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C’est ce qui a été retenu pour RGB à partir de 2021, lorsque l’équipe est passée du _pay-to-contract_ classique au **Taproot commitment**. Il reste néanmoins un défi : prouver que cette insertion est unique dans l’arbre (pas de double engagement dans une autre feuille). On veut également éviter d’exposer à jamais toute la structure du script (politique de dépense, etc.).
+
+Quatre algorithmes ont été testés pour gérer ce positionnement du _commitment_ dans l’arbre. Certains étaient trop complexes ou trop risqués pour être implémentés et audités sereinement. Un compromis plus simple a finalement été privilégié, qui reste “analysable” et fonctionnel.
+
+RGB insère ainsi un script additionnel contenant un `OP_RETURN <commitment>` au sommet de l’arbre. Cependant, pour prouver que ce script est unique, on impose des règles quant à l’emplacement du *commitment* :
+- Dans Taproot, l’emplacement _gauche_ ou _droite_ d’une branche est déterminé par l’ordre lexicographique des _hash_ de nœuds (BIP-341).
+- Si le script du _commitment_ se retrouve du côté _gauche_, on peut prouver qu’il n’y a pas de script à droite en montrant un _hash_ vide ou un _hash_ aléatoire, etc.
+- Si le script _commitment_ se place à droite, on doit révéler l’autre branche ou d’autres _hash_ frères pour montrer que ce n’est pas un second _commitment_.
+- Pour limiter le risque d’être « forcé » du côté droit, on peut utiliser un petit _nonce_ (8 bits) pour rejouer le calcul et trouver un placement plus favorable.
+
+![RGB-Bitcoin](assets/fr/037.webp)
+
+Cela reste plus complexe qu’un simple “on place le hash dans l’arbre”. Mais c’est la seule façon d’empêcher que la dépense ultérieure d’un script BIP341 n’expose toute la structure d’origine ou ne permette un second engagement secret. Au final, l’équipe a trouvé un compromis gérable entre performance, discrétion, et auditabilité.
+
+![RGB-Bitcoin](assets/fr/039.webp)
+
+
+
+
+
+
+
+
+
+Pour les opérations de commitment dans le cadre de RGB, l’exigence principale pour qu’un schéma de commitment Bitcoin soit valide est la suivante : La transaction (*witness transaction*) doit **de manière prouvable** contenir un seul commitment.
+
+Grâce à cette exigence, il devient impossible de construire, au sein d’une même transaction, une histoire alternative pour les données validées côté client. Ainsi, le message autour duquel se ferme le _single-use seal_ est unique.
+
+Pour satisfaire ce principe, **et ce quel que soit le nombre de sorties** d’une transaction, on impose qu’**une seule et unique sortie** puisse contenir un engagement (*commitment*) pour chacun des schémas utilisés (*Opret* ou *Tapret*), les seules sorties valides pouvant contenir un _commitment_ RGB sont :
+- La **première sortie** `OP_RETURN` (si présente) pour le schéma *Opret* ;
+- La **première sortie** taproot (si présente) pour le schéma *Tapret*.
+
+Notez qu’il est tout à fait possible qu’une transaction contienne **simultanément** un unique commitment `Opret` et un unique commitment `Tapret` dans deux sorties distinctes. Grâce à la nature déterministe de la Seal Definition, ces deux engagements correspondent alors à deux données distinctes validées côté client.
+
+### Analyses et choix pratiques dans RGB
+
+Quand nous avons démarré RGB, nous avons passé en revue toutes ces méthodes pour déterminer où et comment placer un _commitment_ dans une transaction de manière déterministe. Nous avons défini des critères :
+- Compatibilité avec différents scénarios (par exemple, usages de multisig, de Lightning, de hardware wallets, etc.) ;
+- Impact sur la place nécessaire on-chain ;
+- Difficulté d’implémentation et de maintenance ;
+- Confidentialité et résistance à la censure.
+
+| Méthode                                             | Trace et taille on-chain | Taille côté client | Intégration des portefeuilles | Compatibilité matérielle | Compatibilité Lightning | Compatibilité Taproot |
+| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
+| Keytweak (P2C déterministe)                         | 🟢                       | 🟡                 | 🔴                            | 🟠                       | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🟢 MuSig  |
+| Sigtweak (S2C déterministe)                         | 🟢                       | 🟢                 | 🟠                            | 🔴                       | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |
+| Opret (OP_RETURN)                                   | 🔴                       | 🟢                 | 🟢                            | 🟠                       | 🔴 BOLT, 🟠 Bifrost     | -                     |
+| Algorithme Tapret : noeud haut-gauche               | 🟠                       | 🔴                 | 🟠                            | 🟢                       | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
+| Algorithme Tapret #4 : n'importe quel nœud + preuve | 🟢                       | 🟠                 | 🟠                            | 🟢                       | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
+
+
+| Schéma d’engagement déterministe                              | Standard       | Coût on-chain                                                                                                           | Taille de la preuve côté client                                                                                    |
+| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Keytweak (P2C déterministe)                                   | LNPBP-1, 2     | 0 bytes                                                                                                                 | 33 bytes (clé non tweakée)                                                                                         |
+| Sigtweak (S2C déterministe)                                   | WIP (LNPBP-39) | 0 bytes                                                                                                                 | 0 bytes                                                                                                            |
+| Opret (OP_RETURN)                                             | -              | 36 (v)bytes (TxOut additionnel)                                                                                         | 0 bytes                                                                                                            |
+| Algorithme Tapret : nœud haut-gauche                          | LNPBP-6        | 32 bytes dans le témoin (8 vbytes) sur n’importe quel multisig n-of-m et dépenses par chemin de script                  | 0 bytes sur les scriptless scripts taproot ~270 bytes dans un cas de script unique, ~128 bytes si plus d’un script |
+| Algorithme Tapret #4 : n’importe quel nœud + preuve d’unicité | LNPBP-6        | 32 bytes dans le témoin (8 vbytes) pour les cas de script unique, 0 bytes dans le témoin dans la plupart des autres cas | 0 bytes sur les scriptless scripts taproot, 65 bytes jusqu’à ce que le Taptree ait une douzaine de scripts         |
+
+
+| Layer                          | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût côté client (bytes) | Coût côté client (bytes) | Coût côté client (bytes) | Coût côté client (bytes) | Coût côté client (bytes) |
+| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| **Type**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**               | **Tapret #4**            | **Keytweak**             | **Sigtweak**             | **Opret**                |
+| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | 0?                       | 0                        |
+| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | ? > 0                    | 0                        |
+| Multi-sig 2-of-3               | 32/8                         | 32/8 ou 0                    | 0                            | n/a                          | 32                           | ~270                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 3-of-5               | 32/8                         | 32/8 ou 0                    | 0                            | n/a                          | 32                           | ~340                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 2-of-3 with timeouts | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
+
+
+
+| Layer                            | Coût on-chain (vbytes) | Coût on-chain (vbytes) | Coût on-chain (vbytes) | Coût côté client (bytes) | Coût côté client (bytes) |
+| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Type**                         | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Branche MuSig / Multi_a (n-of-m) | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| Avec timeouts (n-of-m)           | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+
+
+| Méthode                                   | Confidentialité et évolutivité | Interopérabilité | Compatibilité | Portabilité | Complexité |
+| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (P2C déterministe)               | 🟢                             | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (S2C déterministe)               | 🟢                             | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                             | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret : nœud haut-gauche            | 🟠                             | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4 : Nœud quelconque + preuve | 🟢                             | 🟢               | 🟢            | 🟠          | 🔴         |
+
+
+Au fil de l’étude, il est apparu qu’aucun des schémas de commitments n’était pleinement compatible avec le standard LN actuel (qui n’emploie pas Taproot, ni _muSig2_, ni la prise en compte d’un _commitment_ supplémentaire). Des efforts sont en cours pour modifier la construction de canaux LN (*BiFrost*) et permettre d’insérer les engagements RGB. C’est un autre chantier où l’on doit revoir la structure de la transaction, les clés, et la façon dont sont signées les mises à jour de canaux.
+
+L’analyse a montré qu’en effet, d’autres méthodes (key tweak, sig tweak, witness tweak, etc.) présentaient d’autres formes de complication :
+- Soit on a un gros volume on-chain ;
+- Soit on a une incompatibilité radicale avec le code existant des wallets. ;
+- Soit la solution n’est pas viable en multisig non coopératif.
+
+Ainsi, pour RGB, deux des méthodes sortent particulièrement du lot : ***Opret*** et ***Tapret***, toutes deux classées en “Transaction Output”, et compatibles avec le mode TxO2 utilisé par le protocole.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 3. Exemple d’utilisation du TxO2 scheme avec Alice et Bob
+
+Pour comprendre comment se combine la **Client-side Validation** avec un **Single-use Seal** dans un contexte TxO2, considérons Alice (qui manipule le sceau) et Bob (qui en observe les effets).
+
+1. **Alice dispose d’un UTXO** spécifique, auquel est associé localement (côté client) un certain état ou des données (connues d’elle seule).
+2. **Alice informe Bob** qu’en cas de dépense de cet UTXO, un événement particulier sera réputé s’être produit. De l’extérieur, on ne voit qu’une transaction Bitcoin ; mais Bob, lui, sait que cette dépense a une signification cachée.
+3. **Alice dépense son UTXO**. Tout le monde peut voir cette dépense dans la blockchain, mais seul Bob sait qu’elle correspond à un changement d’état ou à un message scellé crucial (fermeture du sceau).
+4. **La transaction de dépense** contient un _commitment_ prouvant (via une fonction de hachage, par exemple) qu’Alice a bel et bien refermé le sceau autour d’un message précis (mise à jour hors chaîne, nouvelle propriété, etc.). En communiquant le pré-image de ce _commitment_ (les données brutes) à Bob, Alice lui permet de vérifier indépendamment la cohérence et l’unicité de cet événement.
+
+Si besoin, le message contenu dans le _commitment_ peut également définir un **nouveau** sceau (un prochain UTXO, par exemple), prolongeant ainsi la chaîne de Single-use Seals dans le temps.
+
+---
+
+### 4. Synthèse : pourquoi TxO2 dans RGB ?
+
+Le **TxO2 scheme** est apprécié dans RGB en raison de son **universalité** : il ne repose pas sur des spécificités strictes de signature (ECDSA, Schnorr) ni sur des inputs obligatoirement _taproot_, et il permet d’intégrer différents schémas de commitment (Keytweak, Opret, Tapret). L’idée est de tirer parti de la transaction **output** pour :
+
+- Ancrer l’événement (fermeture du sceau) dans la blockchain.
+- Insérer un _commitment_ immuable et déterministe, nécessaire à la Client-side Validation.
+
+Il en résulte un mécanisme fiable d’“unique dépense” (Single-use Seal) pour empêcher toute double-dépense de l’état client-side, tout en laissant la grande majorité des informations en dehors de la blockchain (privacy et scalability).
+
+---
+
+### Conclusion et perspectives
+
+Dans ce chapitre, nous avons vu comment **RGB** utilise la blockchain Bitcoin comme support de publication (Proof-of-Publication Medium), en s’appuyant sur le **TxO2 scheme** pour définir et fermer des sceaux uniques. Nous avons également mentionné les schémas de commitment disponibles, en précisant que **Opret** et **Tapret** sont ceux qu’RGB met principalement en œuvre.
+
+Le chapitre suivant présentera en détail leur fonctionnement :
+
+- **Opret**, qui inscrit un engagement via une sortie `OP_RETURN`,
+- **Tapret**, qui exploite la structure taproot pour un engagement plus discret et modulable.
+
+Nous préciserons notamment comment garantir la **déterminisme** du commitment et pourquoi cette propriété est indispensable à la fiabilité des transferts dans RGB.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Le fonctionnement du single-use seal basé sur un outpoint
 
@@ -485,155 +990,23 @@ Mais lors de cette fermeture du scellé, on peut se poser la question suivante�
 
 Nous avons brièvement mentionné, dans la partie précédente, comment le modèle _client-side validation_ peut s’appliquer à RGB ou à d’autres systèmes. Ici, nous abordons la partie concernant les **deterministic Bitcoin commitments** et la façon de les intégrer dans une transaction. L’idée est de comprendre pourquoi on cherche à insérer un unique engagement dans la _witness transaction_, et surtout comment s’assurer qu’il ne puisse y avoir d’autres engagements concurrents non dévoilés.
 
-#### L’importance d’un unique engagement dans la witness transaction
-
-Lorsque vous transmettez à quelqu’un la preuve qu’un certain message est ancré dans une transaction, vous devez pouvoir garantir qu’il n’existe pas, dans cette même transaction, une autre forme d’engagement (un second message caché) qui ne vous aurait pas été révélé. Pour que la validation _côté client_ reste robuste, il faut donc un mécanisme **déterministe** permettant de placer un unique _commitment_ dans la transaction qui ferme le _single-use seal_.
-
-La _witness transaction_ dépense le fameux UTXO (ou _seal definition_) et cette dépense correspond à la fermeture du scellé. Au niveau technique, on sait que chaque outpoint ne peut être dépensé qu’une seule fois. C’est justement ce qui sert de base à la résistance à la double dépense sur Bitcoin. Mais la transaction de dépense peut avoir plusieurs _inputs_, plusieurs _outputs_, ou être composée de façon complexe (coinjoins, cannaux Lightning, etc.). Il faut donc définir clairement où insérer le _commitment_ dans cette structure, sans ambiguïté et de manière uniforme.
-
-#### Où mettre le commitment dans la transaction ?
-
-- **Dans l’input ?**  
-
-Potentiellement, on peut utiliser la partie _scriptSig_ ou _witness_ de l’input qui dépense le scellé. Par exemple, la signature ECDSA ou Schnorr contient une composante “aléatoire” (nonce) que l’on pourrait _tweaker_ pour y glisser un engagement.
-
-- **Dans l’output ?**  
-
-On peut également choisir d’insérer le _commitment_ dans le _scriptPubKey_ d’une sortie. C’est ce que font certains schémas d’engagement (op-return, pay-to-contract, taproot script tree, etc.).
-
-![RGB-Bitcoin](assets/fr/035.webp)
-
-Le problème est de s’assurer qu’aucune autre partie de la transaction ne porte un second engagement non déclaré, et qu’on sache exactement lequel des inputs ou outputs véhicule le commitment. Plusieurs approches ont été tentées pour définir un champ déterministe dans lequel glisser la donnée :
-
-![RGB-Bitcoin](assets/fr/038.webp)
-
-***Sig tweak (sign-to-contract) :***
-
-Un schéma anciennement proposé consistait à exploiter la partie aléatoire d’une signature (ECDSA ou Schnorr) pour y intégrer le _commitment_ : c’est la technique appelée "**sign to contract**". Vous remplacez le nonce généré au hasard par un hash contenant la donnée. Ainsi, la signature révèle implicitement votre engagement, sans espace additionnel dans la transaction. Cette approche présente des avantages :
-- Pas de surcharge on-chain (vous utilisez la même place que le nonce de base).
-- En théorie, cela peut être assez discret, car le nonce est initialement une donnée aléatoire.
-
-Cependant, 2 inconvénients majeurs ont émergé :
-- Les multisig avant Taproot : quand vous avez plusieurs signataires, il faut décider quelle signature porte le _commitment_. Les signatures peuvent être ordonnées différemment, et si un signataire refuse, vous perdez le contrôle sur l’aboutissement du _commitment_.
-- MuSig et le nonce partagé : avec les multisig Schnorr (*MuSig*), la génération du nonce est un algorithme multipartite, et il devient pratiquement impossible de tweaker le nonce individuellement.
-
-En pratique, **sig tweak** est donc peu compatible avec le matériel (hardware wallets) et les formats existants (Lightning, etc.). Cette belle idée est difficile à mettre en place concrètement.
-
-***Key tweak (pay-to-contract) :***
-
-Le **key tweak** reprend le concept historique de _pay-to-contract_. On prend la clé publique `X` et on la tweak en lui ajoutant la valeur `H(message)`. Concrètement, si `X = x * G` et `h = H(message)`, alors la nouvelle clé sera `X' = X + h * G`. Cette clé tweakée dissimule l’engagement sur le `message`. Le détenteur de la clé privée d’origine peut, en ajoutant `h` à sa clé privée `x`, prouver qu’il possède la clé permettant de dépenser la sortie. En théorie, c’est élégant, car :
-- Le _commitment_ s’inscrit sans ajouter de champs supplémentaires.
-- Vous ne stockez pas de données on-chain additionnelles.
-
-Néanmoins, dans la pratique, on se heurte aux difficultés suivantes :
-- Les wallets ne reconnaissent plus la clé publique standard, puisqu’elle a été “tweakée” ; ils ne peuvent donc pas facilement associer l’UTXO à votre clé habituelle.
-- Les hardware wallets ne sont pas conçus pour signer avec une clé qui n’est pas issue de leur dérivation standard.
-- Vous devez adapter vos scripts, descriptors, etc.
-
-Dans le cadre de RGB, cette piste a été envisagée jusqu’en 2021, mais il s’est avéré trop compliqué de la faire fonctionner avec les standards et l’infrastructure actuelle.
-
-***Witness tweak :***
-
-Une autre idée, que certains protocoles comme les _inscriptions Ordinals_ ont concrétisée, est de placer les données directement dans la section `witness` de la transaction (d’où l’expression **"witness tweak"**). Cependant, cette méthode :
-- Rend l’engagement immédiatement visible (vous collez littéralement des données brutes dans le witness).
-- Peut être sujette à la censure (des mineurs ou nœuds peuvent refuser de relayer si c’est trop volumineux ou arbitraire).
-- Consomme de l’espace dans les blocs, ce qui est contraire à l’objectif de discrétion et de légèreté de RGB.
-
-En plus, le witness est conçu pour être prunable dans certains contextes, ce qui peut rendre plus compliqué le fait d'avoir des preuves robustes.
-
-***Op-return (opret) :***
-
-Historique et simple, un `OP_RETURN` permet de stocker un hash ou un message dans un champ spécial de la transaction. Mais c’est immédiatement détectable : tout le monde voit qu’il y a un _commitment_ dans la transaction, et cela peut être censuré ou écarté, en plus d’ajouter un output supplémentaire. Cela augmente également la transparence et la taille. C’est donc considéré comme moins satisfaisant dans l’optique d’une solution de _client-side validation_.
-
-***Taproot (tapret) :***
-
-La dernière option est l’utilisation de **Taproot** (introduit avec le BIP341), qui offre la possibilité de dissimuler un script (contenant le fameux _commitment_) dans l’arbre de Merkle d’une sortie Taproot. L’idée est que la clé interne est tweakée par la racine de Merkle globale de tous les scripts. Vous pouvez alors :
-- Ajouter un petit script _op-return_ masqué dans l’arbre.
-- Prouver off-chain qu’il existe réellement cette feuille (et qu’aucune autre ne contient un engagement concurrent), sans devoir révéler l’arbre entier.
-
-![RGB-Bitcoin](assets/fr/036.webp)
-
-C’est ce qui a été retenu pour RGB à partir de 2021, lorsque l’équipe est passée du _pay-to-contract_ classique au **Taproot commitment**. Il reste néanmoins un défi : prouver que cette insertion est unique dans l’arbre (pas de double engagement dans une autre feuille). On veut également éviter d’exposer à jamais toute la structure du script (politique de dépense, etc.).
-
-Quatre algorithmes ont été testés pour gérer ce positionnement du _commitment_ dans l’arbre. Certains étaient trop complexes ou trop risqués pour être implémentés et audités sereinement. Un compromis plus simple a finalement été privilégié, qui reste “analysable” et fonctionnel.
-
-RGB insère ainsi un script additionnel contenant un `OP_RETURN <commitment>` au sommet de l’arbre. Cependant, pour prouver que ce script est unique, on impose des règles quant à l’emplacement du *commitment* :
-- Dans Taproot, l’emplacement _gauche_ ou _droite_ d’une branche est déterminé par l’ordre lexicographique des _hash_ de nœuds (BIP-341).
-- Si le script du _commitment_ se retrouve du côté _gauche_, on peut prouver qu’il n’y a pas de script à droite en montrant un _hash_ vide ou un _hash_ aléatoire, etc.
-- Si le script _commitment_ se place à droite, on doit révéler l’autre branche ou d’autres _hash_ frères pour montrer que ce n’est pas un second _commitment_.
-- Pour limiter le risque d’être « forcé » du côté droit, on peut utiliser un petit _nonce_ (8 bits) pour rejouer le calcul et trouver un placement plus favorable.
-
-![RGB-Bitcoin](assets/fr/037.webp)
-
-Cela reste plus complexe qu’un simple “on place le hash dans l’arbre”. Mais c’est la seule façon d’empêcher que la dépense ultérieure d’un script BIP341 n’expose toute la structure d’origine ou ne permette un second engagement secret. Au final, l’équipe a trouvé un compromis gérable entre performance, discrétion, et auditabilité.
-
-![RGB-Bitcoin](assets/fr/039.webp)
-
-### Analyses et choix pratiques dans RGB
-
-Quand nous avons démarré RGB, nous avons passé en revue toutes ces méthodes pour déterminer où et comment placer un _commitment_ dans une transaction de manière déterministe. Nous avons défini des critères :
-- Compatibilité avec différents scénarios (par exemple, usages de multisig, de Lightning, de hardware wallets, etc.) ;
-- Impact sur la place nécessaire on-chain ;
-- Difficulté d’implémentation et de maintenance ;
-- Confidentialité et résistance à la censure.
 
 
-| Méthode                                             | Trace et taille on-chain | Taille côté client | Intégration des portefeuilles | Compatibilité matérielle | Compatibilité Lightning | Compatibilité Taproot |
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
-| Keytweak (P2C déterministe)                         | 🟢                       | 🟡                 | 🔴                            | 🟠                       | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🟢 MuSig  |
-| Sigtweak (S2C déterministe)                         | 🟢                       | 🟢                 | 🟠                            | 🔴                       | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |
-| Opret (OP_RETURN)                                   | 🔴                       | 🟢                 | 🟢                            | 🟠                       | 🔴 BOLT, 🟠 Bifrost     | -                     |
-| Algorithme Tapret : noeud haut-gauche               | 🟠                       | 🔴                 | 🟠                            | 🟢                       | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
-| Algorithme Tapret #4 : n'importe quel nœud + preuve | 🟢                       | 🟠                 | 🟠                            | 🟢                       | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
 
 
-| Schéma d’engagement déterministe                              | Standard       | Coût on-chain                                                                                                           | Taille de la preuve côté client                                                                                    |
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Keytweak (P2C déterministe)                                   | LNPBP-1, 2     | 0 bytes                                                                                                                 | 33 bytes (clé non tweakée)                                                                                         |
-| Sigtweak (S2C déterministe)                                   | WIP (LNPBP-39) | 0 bytes                                                                                                                 | 0 bytes                                                                                                            |
-| Opret (OP_RETURN)                                             | -              | 36 (v)bytes (TxOut additionnel)                                                                                         | 0 bytes                                                                                                            |
-| Algorithme Tapret : nœud haut-gauche                          | LNPBP-6        | 32 bytes dans le témoin (8 vbytes) sur n’importe quel multisig n-of-m et dépenses par chemin de script                  | 0 bytes sur les scriptless scripts taproot ~270 bytes dans un cas de script unique, ~128 bytes si plus d’un script |
-| Algorithme Tapret #4 : n’importe quel nœud + preuve d’unicité | LNPBP-6        | 32 bytes dans le témoin (8 vbytes) pour les cas de script unique, 0 bytes dans le témoin dans la plupart des autres cas | 0 bytes sur les scriptless scripts taproot, 65 bytes jusqu’à ce que le Taptree ait une douzaine de scripts         |
 
 
-| Layer                          | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût côté client (bytes) | Coût côté client (bytes) | Coût côté client (bytes) | Coût côté client (bytes) | Coût côté client (bytes) |
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-| **Type**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**               | **Tapret #4**            | **Keytweak**             | **Sigtweak**             | **Opret**                |
-| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | 0?                       | 0                        |
-| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | ? > 0                    | 0                        |
-| Multi-sig 2-of-3               | 32/8                         | 32/8 ou 0                    | 0                            | n/a                          | 32                           | ~270                     | 65                       | 32                       | n/a                      | 0                        |
-| Multi-sig 3-of-5               | 32/8                         | 32/8 ou 0                    | 0                            | n/a                          | 32                           | ~340                     | 65                       | 32                       | n/a                      | 0                        |
-| Multi-sig 2-of-3 with timeouts | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
 
-| Layer                            | Coût on-chain (vbytes) | Coût on-chain (vbytes) | Coût on-chain (vbytes) | Coût côté client (bytes) | Coût côté client (bytes) |
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-| **Type**                         | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
-| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
-| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
-| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
-| Branche MuSig / Multi_a (n-of-m) | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
-| Avec timeouts (n-of-m)           | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
-
-| Méthode                                   | Confidentialité et évolutivité | Interopérabilité | Compatibilité | Portabilité | Complexité |
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-| Keytweak (P2C déterministe)               | 🟢                             | 🔴               | 🔴            | 🟡          | 🟡         |
-| Sigtweak (S2C déterministe)               | 🟢                             | 🔴               | 🔴            | 🟢          | 🔴         |
-| Opret (OP_RETURN)                         | 🔴                             | 🟠               | 🔴            | 🟢          | 🟢         |
-| Algo Tapret : nœud haut-gauche            | 🟠                             | 🟢               | 🟢            | 🔴          | 🟠         |
-| Algo Tapret #4 : Nœud quelconque + preuve | 🟢                             | 🟢               | 🟢            | 🟠          | 🔴         |
 
 
-### Compatibilité avec Lightning et problèmes restants
 
-Au fil de l’étude, il est apparu qu’aucun des schémas de commitments n’était pleinement compatible avec le standard LN actuel (qui n’emploie pas Taproot, ni _muSig2_, ni la prise en compte d’un _commitment_ supplémentaire). Des efforts sont en cours pour modifier la construction de canaux LN (*BiFrost*) et permettre d’insérer les engagements RGB. C’est un autre chantier où l’on doit revoir la structure de la transaction, les clés, et la façon dont sont signées les mises à jour de canaux.
 
-L’analyse a montré qu’en effet, d’autres méthodes (key tweak, sig tweak, witness tweak, etc.) présentaient d’autres formes de complication :
-- Soit on a un gros volume on-chain ;
-- Soit on a une incompatibilité radicale avec le code existant des wallets. ;
-- Soit la solution n’est pas viable en multisig non coopératif.
 
-En fin de compte, **Taproot** demeure la plus prometteuse, même si elle réclame une mise à jour considérable de l’écosystème pour être prise en charge dans toutes les situations (Lightning, hardware wallets, etc.).
+
+
+
+
 
 ### Sharding appliqué aux contrats et rôle de l'Anchor
 

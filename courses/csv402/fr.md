@@ -718,7 +718,7 @@ Dans les chapitres suivants, nous approfondirons la manière dont on bâtit conc
 
 En cas de besoin dans la formation, vous pouvez revenir sur ce petit glossaire des termes techniques importants employés dans l'univers RGB (classés par ordre alphabétique).
 
-#### Anchor
+### Anchor
 
 Un **Anchor** représente un ensemble de données côté client (client-side data) permettant de prouver l’inclusion d’un _commitment_ unique dans une transaction. Dans le protocole RGB, un Anchor est constitué des éléments suivants :
 
@@ -729,7 +729,7 @@ Un **Anchor** représente un ensemble de données côté client (client-side dat
 
 Un Anchor sert donc à établir un lien vérifiable entre une transaction Bitcoin précise et des données privées validées par le protocole RGB. Il garantit que ces données sont bel et bien incluses (committed) dans la blockchain, sans pour autant que leur contenu exact soit exposé publiquement.
 
-#### AluVM
+### AluVM
 
 L’abréviation **AluVM** désigne "_Algorithmic logic unit Virtual Machine_", une machine virtuelle à registres, conçue pour la validation de smart contracts et le calcul distribué. Elle est utilisée (sans y être exclusivement réservée) dans le cadre de la validation des contrats RGB. Les scripts ou les opérations inscrites dans un contrat RGB peuvent ainsi être exécutés dans l’environnement AluVM.  
 Pour plus d’informations : [Site officiel d’AluVM](https://www.aluvm.org/)

@@ -1,0 +1,94 @@
+{
+  "languages": [
+    {
+      "code": "cs",
+      "name": "Czech",
+      "translator": "deepl",
+      "code_translator": "CS"
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "translator": "deepl",
+      "code_translator": "DE"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "translator": "deepl",
+      "code_translator": "EN-US"
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "translator": "deepl",
+      "code_translator": "ES"
+    },
+    {
+      "code": "et",
+      "name": "Estonian",
+      "translator": "deepl",
+      "code_translator": "ET"
+    },
+    {
+      "code": "fi",
+      "name": "Finnish",
+      "translator": "deepl",
+      "code_translator": "FI"
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "translator": "deepl",
+      "code_translator": "FR"
+    },
+    {
+      "code": "id",
+      "name": "Indonesian",
+      "translator": "deepl",
+      "code_translator": "ID"
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "translator": "deepl",
+      "code_translator": "IT"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "translator": "deepl",
+      "code_translator": "JA"
+    },
+    {
+      "code": "nb-NO",
+      "name": "Norwegian",
+      "translator": "deepl",
+      "code_translator": "NB"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "translator": "deepl",
+      "code_translator": "PT"
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "translator": "deepl",
+      "code_translator": "RU"
+    },
+    {
+      "code": "vi",
+      "name": "Vietnamese",
+      "translator": "deepl",
+      "code_translator": "VI"
+    },
+    {
+      "code": "zh-Hans",
+      "name": "Chinese Simplified",
+      "translator": "openai",
+      "code_translator": "zh-Hans"
+    }
+  ]
+}

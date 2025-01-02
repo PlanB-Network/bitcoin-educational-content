@@ -1,6 +1,7 @@
 import json
-from object_detector import MDObjectDetector
-from typing import List, Dict, Any
+from pathlib import Path
+from .object_detector import MDObjectDetector
+from typing import List, Dict, Any, Union
 
 class JsonConverter:
     def __init__(self):
@@ -148,6 +149,39 @@ class JsonConverter:
                 markdown_lines.append(obj['content'])
         
         return '\n'.join(markdown_lines)
+
+    @classmethod
+    def convert_file_to_json(cls, input_path, output_path) -> Path:
+        """
+        Convert a markdown file to JSON format.
+        
+        Args:
+            input_path: Path to input markdown file
+            output_path: Path where JSON should be saved
+            
+        Returns:
+            Path to the created JSON file
+        """
+        input_path = Path(input_path)
+        output_path = Path(output_path)
+        
+        # Create output directory if it doesn't exist
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Read input file
+        with open(input_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+            
+        # Convert to JSON
+        converter = cls()
+        for line in lines:
+            converter.process_line(line)
+            
+        # Write JSON output
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(converter.output, f, indent=2, ensure_ascii=False)
+            
+        return output_path
 
 def main():
     # Read input file

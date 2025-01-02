@@ -1,5 +1,7 @@
 import json
 from typing import List, Dict, Any
+from pathlib import Path
+
 
 class JsonToMarkdownConverter:
     def __init__(self):
@@ -97,6 +99,39 @@ class JsonToMarkdownConverter:
             formatted_lines.pop()
             
         return '\n'.join(formatted_lines)
+    
+    @classmethod
+    def convert_file_to_markdown(cls, input_path, output_path) -> Path:
+        """
+        Convert a JSON file back to markdown format.
+        
+        Args:
+            input_path: Path to input JSON file
+            output_path: Path where markdown should be saved
+            
+        Returns:
+            Path to the created markdown file
+        """
+        input_path = Path(input_path)
+        output_path = Path(output_path)
+        
+        # Create output directory if it doesn't exist
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Read JSON file
+        with open(input_path, 'r', encoding='utf-8') as f:
+            json_data = json.load(f)
+        
+        # Convert to markdown
+        converter = cls()
+        markdown_content = converter.convert(json_data)
+        
+        # Write to file
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(markdown_content)
+            
+        return output_path
+
 
 def main():
     # Read JSON file

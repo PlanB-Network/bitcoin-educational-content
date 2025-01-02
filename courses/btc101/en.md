@@ -74,9 +74,11 @@ It is essential to understand that Bitcoin is a new monetary system that complet
 
 Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology that is different to anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
+After all, we are only at the beginning stages of its adoption, as we have passed the takeoff phase: you are just in time to acquire as much knowledge as you wish regarding this important innovation.
+
 ![image](assets/en/chapter0/3.webp)
 
-The important point here is to understand this new technology in a general way, so we hope you enjoy this training and continue to make progress in this new global monetary paradigm.
+The important point here is to understand this new technology in a general way, so we hope you enjoy this course and continue to make progress in this new global monetary paradigm.
 
 ## The Prehistory of Bitcoin
 
@@ -111,6 +113,8 @@ The cypherpunk movement, deeply rooted in digital activism and cryptography, dre
 Before the emergence of Bitcoin, there had been several attempts to create a digital currency. For example, David Chaum introduced the concept of "anonymous electronic money" with his project "DigiCash" in the 1980s. Unfortunately, due to various constraints, DigiCash never boomed.
 
 Another important precursor is Wei Dai's "B-money". Although it was never implemented, it presented the idea of an anonymous digital currency where fraud detection was performed by a community of evaluators rather than a central authority.
+
+The image below clearly illustrates the development of the movement through its many technological innovations.
 
 ![image](assets/en/chapter0/1.webp)
 
@@ -159,11 +163,11 @@ Money is a highly sophisticated communication tool:
 
 Its function in our world is difficult to artificially replicate. In fact, no individual or group can create money, as it is a natural phenomenon that must emerge from the market and voluntary consensus. In this sense, prices serve as signals and pieces of information that guide society in allocating resources.
 
-For these reasons, gold as money is the result of 4,000 years of monetary Darwinism based on three key functions:
+For these reasons, gold as money is the result of 4,000 years of monetary Darwinism based on the following Aristotelian functions:
 
-- Store of value
-- Medium of exchange
-- Unit of account
+- **Store of value**: money can be used to transfer purchasing power into the future, so it needs to be a durable material;
+- **Medium of exchange**: money can be used in exchange for goods and services instead of bartering, thus avoiding the coincidence of wants between traders;
+- **Unit of account**: money also allows us to compare the values of different goods to better understand their relative convenience.
 
 ![image](assets/en/chapter1/3.webp)
 ![image](assets/en/chapter1/4.webp)
@@ -388,7 +392,8 @@ We will revisit the concept of mining in more details in the [miner chapter](htt
 
 The limit of 21 million is the basis of Bitcoin scarcity, and is guaranteed by two key mechanisms: the adjustment of mining difficulty and the game theory.
 
-- The mining difficulty adjustment is a process that takes place every 2016 blocks, or around two weeks, to ensure that a new block is added to the blockchain every ten minutes on average. This frequency of block creation and the total quantity of bitcoins are both fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems.
+- The mining difficulty adjustment is a process that takes place every 2016 blocks, or around two weeks, to ensure that a new block is added to the blockchain every ten minutes on average. This frequency of block creation and the total quantity of bitcoins are both fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems. 
+- The difficulty of finding a valid hash follows a sort of cycle: if the number of miners increases, it means that the number of blocks they find is higher, which brings to a decrease in the average time to find a block. Because of it, the difficulty is increased. As a consequence, the number of blocks that miners find is lowered, which means that the mechanism goes back to the average of 10 miniutes per block. Please see the image below for a visual display.
 
 ![image](assets/en/chapter4/2.webp)
 
@@ -585,6 +590,8 @@ When you set up a wallet, the software usually creates your private key, usually
 - Never hide your word list in an unusual place.
 
 You should literally take a blank sheet of paper or print this [template](https://bitcoiner.guide/backup.pdf), and write the word list with a pen, following the presented order neatly and clearly. Be aware that if the ink fades over time, you may lose your funds. Therefore, it is important to keep this piece of paper protected from those environmental factors that could potentially damage it, like moisture or fire.
+
+Please find an example of how to compile the paper here below: the words are fake, so do not use them!
 
 ![image](assets/en/chapter7/0.webp)
 
@@ -851,11 +858,11 @@ Over the years, miners have equipped themselves with increasingly efficient comp
 
 The Hashrate of the Bitcoin network represents the number of attempts made per second to find the next block. Today it even surpassed 500 TH/s, which is 500,000 billion attempts per second! The higher the global hashrate, the more difficult it is for a malicious actor to monopolize the resources needed to obtain the majority of the mining power and spend their funds more than once (double spending problem). It is therefore more economically viable to follow the rules of the Bitcoin protocol than to act against them.
 
+The graph below shows the estimation of the number of TH/s on the Bitcoin network in 24 hours.
+
 ![image](assets/en/chapter12/16.webp)
 
 ### What can be found in a block?
-
-![image](assets/en/chapter12/20.webp)
 
 The block header contains several elements such as the time, the difficulty target, the number of the last block, the version used, and the Merkle Root of the previous transactions.
 
@@ -872,6 +879,8 @@ The amount of the subsidy is defined by the consensus rules and depends on the E
 
 Indeed, for the first blocks, the block subsidy was 50 bitcoins. Every 210,000 blocks (approximately every 4 years), this amount is halved. Today (in 2024), we are in the 5th Epoch, which means that the subsidy is 3.125 bitcoins. In short, this is the automatic mechanism that releases new bitcoins in the system. The subsidy decreases over time, until it meets the limit of issuance of 21 million bitcoins. There are already over 19.4 million bitcoins in circulation, which is over 92%.
 
+The image below shows that the miner will receive both the block reward of 6.25 BTC and the transaction fees of 0.00015 BTC if Bob and Alice's transaction is included in the block.
+
 ![image](assets/en/chapter12/18.webp)
 
 The second method of compensation is defined by the amount chosen by users for transaction fees, which show the urgency of the user to have their transaction included in the next block. Since miners want to maximize their income, they will tend to prioritize transactions with high transaction fees.
@@ -880,7 +889,7 @@ The second method of compensation is defined by the amount chosen by users for t
 
 To stabilize their business model, which relies on the rewards they receive for each valid block, miners often create groups through "mining pools", where they pool their computing resources.
 
-### Why bother doing all this?
+### Why should we bother doing all this?
 
 In short, the innovation of Bitcoin is to propose a solution to the problem of double spending through the use of a blockchain based on Proof of Work with a floating difficulty. In the digital world, the concept of ownership differs from that of the physical world. In fact, in the digital world, everything can be copied and pasted, which creates the risk of using digital assets of value more times. Trusted intermediaries, such as banks, have been created to solve this technological problem and ensure that when an asset is transferred, it no longer belongs to the sender. 
 
@@ -1185,6 +1194,8 @@ Be aware that the following is only a general description, so, if you want to un
 The Lightning Network is a revolutionary technology that has profoundly changed our perception of Bitcoin, as it addresses the scalability issue of Bitcoin.
 
 To fully grasp the Lightning Network, it is crucial to understand how Bitcoin evolves and develops in infrastructure layers: the first layer is the blockchain, and the second one is the Lightning Network.
+
+In short terms, when Alice decides to open a channel with Bob, a multi-sig, on-chain transaction records the contract with a Bitcoin timestamp. If the channel "contains" 1 BTC (channel capacity), it means that Alice and Bob can exchange millions of satoshi to each other using Lightning Network without surpassing the limit of 1 BTC. As they transact, the channel keeps track of their balances, enabling them to send and receive payments back and forth efficiently. When they want to close the channel, the final balance will be settled on the Bitcoin blockchain, reflecting the net result of their off-chain transactions.
 
 ![image](assets/en/chapter18/6.webp)
 

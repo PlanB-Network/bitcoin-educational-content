@@ -716,27 +716,26 @@ Dans les chapitres suivants, nous approfondirons la manière dont on bâtit conc
 ## Glossaire RGB
 <chapterId>545e16a4-3cca-44a3-9fd5-dbc5868abf97</chapterId>
 
-En cas de besoin dans la formation, vous pouvez revenir sur ce petit glossaire des termes techniques importants employés dans l'univers RGB (classés par ordre alphabétique).
-
-#### Anchor
-
-Un **Anchor** représente un ensemble de données côté client (client-side data) permettant de prouver l’inclusion d’un _commitment_ unique dans une transaction. Dans le protocole RGB, un Anchor est constitué des éléments suivants :
-
-- L’identifiant de la transaction Bitcoin (le **Transaction ID** ou _txid_) de la **witness transaction**.
-- Le **Multi Protocol Commitment (MPC)**.
-- Le **Deterministic Bitcoin Commitment (DBC)**.
-- L’**Extra Transaction Proof (ETP)** si l’on emploie le mécanisme de commitment **Tapret** (voir la section dédiée à ce schéma).
-
-Un Anchor sert donc à établir un lien vérifiable entre une transaction Bitcoin précise et des données privées validées par le protocole RGB. Il garantit que ces données sont bel et bien incluses (committed) dans la blockchain, sans pour autant que leur contenu exact soit exposé publiquement.
+En cas de besoin dans la formation, vous pouvez revenir sur ce petit glossaire des termes techniques importants employés dans l'univers RGB (classés par ordre alphabétique). Ce chapitre n'est donc pas indispensable si vous avez déjà bien compris tout ce que nous avons vu dans la première section.
 
 #### AluVM
 
 L’abréviation **AluVM** désigne "_Algorithmic logic unit Virtual Machine_", une machine virtuelle à registres, conçue pour la validation de smart contracts et le calcul distribué. Elle est utilisée (sans y être exclusivement réservée) dans le cadre de la validation des contrats RGB. Les scripts ou les opérations inscrites dans un contrat RGB peuvent ainsi être exécutés dans l’environnement AluVM.  
 Pour plus d’informations : [Site officiel d’AluVM](https://www.aluvm.org/)
 
+#### Anchor
+
+Un **Anchor** représente un ensemble de données côté client permettant de prouver l’inclusion d’un _commitment_ unique dans une transaction. Dans le protocole RGB, un Anchor est constitué des éléments suivants :
+- L’identifiant de la transaction Bitcoin (le **Transaction ID** ou _txid_) de la **witness transaction**.
+- Le **Multi Protocol Commitment (MPC)**.
+- Le **Deterministic Bitcoin Commitment (DBC)**.
+- L’**Extra Transaction Proof (ETP)** si l’on emploie le mécanisme de commitment **Tapret** (voir la section dédiée à ce schéma).
+
+Un Anchor sert donc à établir un lien vérifiable entre une transaction Bitcoin précise et des données privées validées par le protocole RGB. Il garantit que ces données sont bel et bien incluses dans la blockchain, sans pour autant que leur contenu exact soit exposé publiquement.
+
 #### Assignment
 
-Dans la logique d’RGB, un **Assignment** est l’équivalent d’une “sortie de transaction” (output) qui modifie, met à jour ou crée certaines propriétés au sein de l’état d’un **contract**. Un Assignment comporte deux éléments :
+Dans la logique de RGB, un **Assignment** est l’équivalent d’une sortie de transaction (output) qui modifie, met à jour ou crée certaines propriétés au sein de l’état d’un **contract**. Un Assignment comporte deux éléments :
 
 1. Une **Seal Definition** (la référence à un UTXO précis).
 2. Un **Owned State** (les données décrivant l’état associé à ce nouveau détenteur).
@@ -745,78 +744,81 @@ Un Assignment indique donc qu’une portion de l’état (ex. un actif) est dés
 
 #### Business Logic
 
-La **Business Logic** regroupe l’ensemble des règles et opérations internes d’un contrat, décrites par son **Schema** (c’est-à-dire la structure même du contrat). Elle dicte la manière dont l’état du contrat peut évoluer et sous quelles conditions. Dans RGB, cette logique spécifie quels types de transitions (State Transitions) sont autorisés, comment elles doivent être validées et quels droits sont conférés à chaque participant.
+La **Business Logic** regroupe l’ensemble des règles et opérations internes d’un contrat, décrites par son **schéma** (c’est-à-dire la structure même du contrat). Elle dicte la manière dont l’état du contrat peut évoluer et sous quelles conditions.
 
 #### Client-side Validation
 
-La **Client-side Validation** renvoie au processus par lequel chaque partie (client) vérifie un ensemble de données échangées en privé, selon les règles d’un protocole. Dans le cas d’RGB, ces données échangées sont regroupées dans ce qu’on appelle des **consignments**. Contrairement au protocole Bitcoin qui exige que toutes les transactions soient publiées on-chain, RGB permet de ne stocker en public que des _commitments_ (ancrés dans Bitcoin), tandis que l’essentiel des informations de contrat (transitions, attestations, preuves) reste off-chain, partagées seulement entre les utilisateurs concernés.
+La **Client-side Validation** renvoie au processus par lequel chaque partie (client) vérifie un ensemble de données échangées en privé, selon les règles d’un protocole. Dans le cas de RGB, ces données échangées sont regroupées dans ce qu’on appelle des **consignments**. Contrairement au protocole Bitcoin qui exige que toutes les transactions soient publiées on-chain, RGB permet de ne stocker en public que des _commitments_ (ancrés dans Bitcoin), tandis que l’essentiel des informations de contrat (transitions, attestations, preuves) reste off-chain, partagées seulement entre les utilisateurs concernés.
 
 #### Commitment
 
-Un **Commitment** (au sens cryptographique) est un objet mathématique, noté CC, dérivé de façon déterministe à partir d’une opération sur une donnée structurée mm (le message) et d’une valeur aléatoire rr. On écrit souvent C=commit(m,r)C = \text{commit}(m, r).  
-Ce mécanisme comprend deux opérations principales :
+Un **Commitment** (au sens cryptographique) est un objet mathématique, noté `C`, dérivé de façon déterministe à partir d’une opération sur une donnée structurée `m` (le message) et d’une valeur aléatoire `r`. On écrit souvent :
+$$
+C = \text{commit}(m, r)
+$$
 
-1. **Commit** : on applique une fonction cryptographique à un message mm et à un aléa rr pour produire CC.
-2. **Verify** : on utilise CC, le message mm et la valeur rr pour vérifier que ce commitment est correct. La fonction renvoie Vrai ou Faux (True/False).
+Ce mécanisme comprend deux opérations principales :
+- **Commit** : on applique une fonction cryptographique à un message `m` et à un aléa `r` pour produire `C` ;
+- **Verify** : on utilise `C`, le message `m` et la valeur `r` pour vérifier que ce commitment est correct. La fonction renvoie `Vrai` ou `Faux`.
 
 Un commitment doit respecter deux propriétés :
+- **Binding** : il doit être impossible de trouver deux messages différents produisant le même `C` :
+$$
+m' : \, | \, : m' \neq m \quad \text{and} \quad r' : \, | \, : r' \neq r \quad 
+$$
+Tels que :
+$$
+\text{verify}(m, r, C) = \text{verify}(m', r', C) \rightarrow \text{True}
+$$
 
-- **Binding** : il doit être impossible (ou computativement infaisable) de trouver deux messages différents (m,r)(m, r) et (m′,r′)(m', r') produisant le même CC.
-- **Hiding** : la connaissance de CC ne doit pas révéler le contenu de mm.
+- **Hiding** : la connaissance de `C` ne doit pas révéler le contenu de `m`.
 
-Dans le protocole RGB, un commitment est souvent inclus dans une transaction Bitcoin afin de prouver l’existence d’une certaine information à un instant donné, sans dévoiler cette information elle-même.
+Dans le protocole RGB, un commitment est inclus dans une transaction Bitcoin afin de prouver l’existence d’une certaine information à un instant donné, sans dévoiler cette information elle-même.
 
 #### Consignment
 
 Un **Consignment** regroupe les données échangées entre les parties, soumises à la Client-side Validation dans RGB. Il existe deux grandes catégories de consignments :
-
-- **Contract Consignment** : fourni par l’**issuer** (émetteur du contrat), il comprend les informations d’initialisation telles que le **Schema**, la **Genesis**, l’**Interface** et l’**Interface Implementation**.
+- **Contract Consignment** : fourni par l’**issuer** (émetteur du contrat), il comprend les informations d’initialisation telles que le **Schema**, la **Genesis**, l’**Interface** et l’**Implementation de l'Interface**.
 - **Transfer Consignment** : fourni par la partie qui paie (payer). Il contient tout l’historique de transitions d’état aboutissant au **terminal consignment** (c’est-à-dire l’état final reçu par le payeur).
 
-Ces consignments ne sont pas enregistrés publiquement dans la blockchain ; ils sont échangés directement, ou via un mécanisme privé, entre les parties concernées.
+Ces consignments ne sont pas enregistrés publiquement dans la blockchain ; ils sont échangés directement entre les parties concernées.
 
 #### Contract
 
-Un **Contract** désigne un ensemble de **droits** (Contract Rights) exécutés numériquement entre plusieurs acteurs via le protocole RGB. Il possède un état actif (Active State) et une logique d’affaires (Business Logic), définie par un **Schema**, qui précise quelles opérations sont autorisées (transferts, extensions, etc.).  
-L’état d’un contrat, ainsi que les règles de validité, s’expriment dans le **Schema**. À tout moment, le contrat n’évolue que conformément à ce qui est permis par ce Schema et par les scripts de validation (exécutés, par exemple, dans AluVM).
+Un **Contract** désigne un ensemble de **droits** exécutés numériquement entre plusieurs acteurs via le protocole RGB. Il possède un état actif et une logique d’affaires, définie par un **Schema**, qui précise quelles opérations sont autorisées (transferts, extensions, etc.). L’état d’un contrat, ainsi que les règles de validité, s’expriment dans le **Schema**. À tout moment, le contrat n’évolue que conformément à ce qui est permis par ce Schema et par les scripts de validation (exécutés, par exemple, dans AluVM).
 
 #### Contract Operation
 
 Une **Contract Operation** est une mise à jour de l’état du contrat effectuée selon les règles du **Schema**. Les opérations suivantes existent dans RGB :
-
-- **State Transition**
-- **Genesis**
-- **State Extension**
+- **State Transition** ;
+- **Genesis** ;
+- **State Extension**.
 
 Chaque opération modifie l’état en y ajoutant ou en y remplaçant certaines données (Global State, Owned State…).
 
 #### Contract Participant
 
 Un **Contract Participant** est un acteur prenant part aux opérations relatives au contrat. Dans RGB, on distingue :
-
 - L’**issuer** du contrat, qui crée la **Genesis** (l’origine du contrat).
-- Les **contract parties**, c’est-à-dire les détenteurs de droits (Ownership rights) sur l’état du contrat.
-- Les **public parties**, acteurs pouvant construire des **State Extensions** si le contrat propose des _Valencies_ accessibles au public.
+- Les **contract parties**, c’est-à-dire les détenteurs de droits sur l’état du contrat.
+- Les **public parties**, acteurs pouvant construire des **State Extensions** si le contrat propose des **Valencies** accessibles au public.
 
 #### Contract Rights
 
 Les **Contract Rights** désignent les différents droits que peuvent exercer les acteurs d’un contrat RGB. Ils se classent en plusieurs catégories :
-
 - Les **ownership rights**, associés à la détention d’un UTXO particulier (via un _Seal Definition_).
 - Les **executive rights**, c’est-à-dire la capacité de construire une ou plusieurs transitions (State Transitions) conformes au **Schema**.
-- Les **public rights**, lorsque le Schema autorise certains usages publics, par exemple la création d’une **State Extension** via la rédemption d’une Valency.
+- Les **public rights**, lorsque le Schema autorise certains usages publics, par exemple la création d’une **State Extension** via la rédemption d’une **Valency**.
 
 #### Contract State
 
 Le **Contract State** correspond à l’état courant d’un contrat à un instant donné. Il peut être constitué de données à la fois publiques et privées, reflétant la situation du contrat. Dans RGB, on distingue :
-
 - Le **Global State**, qui comprend les propriétés publiques du contrat (mises en place dès la Genesis ou ajoutées via des mises à jour autorisées).
 - Les **Owned States**, qui appartiennent à des détenteurs précis, identifiés par leurs UTXOs.
 
 #### Deterministic Bitcoin Commitment - DBC
 
 Le **Deterministic Bitcoin Commitment (DBC)** est l’ensemble de règles permettant d’inscrire de manière prouvable et unique un _commitment_ dans une transaction Bitcoin. Dans le protocole RGB, il existe deux formes principales de DBC :
-
 - **Opret**
 - **Tapret**
 
@@ -824,47 +826,47 @@ Ces mécanismes définissent précisément comment le _commitment_ est encodé d
 
 #### Directed Acyclic Graph - DAG
 
-Un **DAG** (ou Graphe Orienté Acyclique) est un graphe sans cycle, permettant un ordonnancement topologique. Les blockchains, tout comme les _shards_ de contrats RGB, peuvent être représentés par des DAGs.  
-(Plus d’informations : [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph))
+Un **DAG** (ou *Graphe Orienté Acyclique*) est un graphe sans cycle, permettant un ordonnancement topologique. Les blockchains, tout comme les _shards_ de contrats RGB, peuvent être représentés par des DAGs.
+
+Pour plus d’informations : [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
 #### Engraving
 
-Un **Engraving** est une chaîne de données optionnelle que les détenteurs successifs d’un contrat peuvent inscrire dans l’historique du contrat. Cette fonctionnalité existe, par exemple, dans l’interface **RGB21** et permet d’ajouter des informations “commémoratives” ou descriptives dans l’historique du contrat.
+Un **Engraving** est une chaîne de données optionnelle que les détenteurs successifs d’un contrat peuvent inscrire dans l’historique du contrat. Cette fonctionnalité existe, par exemple, dans l’interface **RGB21** et permet d’ajouter des informations commémoratives ou descriptives dans l’historique du contrat.
 
 #### Extra Transaction Proof - ETP
 
-L’**ETP** (Extra Transaction Proof) est la partie de l’**Anchor** qui renferme les données supplémentaires nécessaires à la validation d’un commitment de type **Tapret** (dans un contexte _taproot_). Elle comprend, entre autres, la clé publique interne du script taproot (_internal PubKey_) et les informations spécifiques au _Script Path Spend_.
+L’**ETP** (*Extra Transaction Proof*) est la partie de l’**Anchor** qui renferme les données supplémentaires nécessaires à la validation d’un commitment de type **Tapret** (dans le contexte de _taproot_). Elle comprend, entre autres, la clé publique interne du script taproot (_internal PubKey_) et les informations spécifiques au _Script Path Spend_.
 
 #### Genesis
 
-La **Genesis** désigne l’ensemble des données, régies par un **Schema**, qui forment l’état initial de tout contrat dans RGB. On peut la rapprocher du concept de _Genesis Block_ (le bloc originel) en Bitcoin, mais ici au niveau _client-side_.  
-(Plus d’informations : [Genesis dans la documentation RGB](https://chatgpt.com/rgb-state-and-operations/state-transitions.md#genesis))
-
-#### Interface
-
-L’**Interface** est l’ensemble des instructions qui permettent de décoder les données binaires compilées dans un **Schema** ou dans des opérations de contrat (Contract Operations) et leurs états, afin de les rendre lisibles pour l’utilisateur ou son wallet. Elle agit comme une couche d’interprétation.
-
-#### Interface Implementation
-
-L’**Interface Implementation** est l’ensemble de déclarations qui relient une **Interface** à un **Schema**. Elle rend possible la “traduction” sémantique opérée par l’Interface elle-même, afin que les données brutes d’un contrat soient compréhensibles par l’utilisateur ou les logiciels impliqués.
-
-#### Invoice
-
-Une **Invoice** prend la forme d’une URL encodée en [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), qui embarque les données nécessaires à la construction d’une **State Transition** (par le payeur). En d’autres termes, c’est une facture permettant à la contrepartie (payer) de créer la transition correspondante pour transférer l’actif ou mettre à jour l’état du contrat.
+La **Genesis** désigne l’ensemble des données, régies par un **Schema**, qui forment l’état initial de tout contrat dans RGB. On peut la rapprocher du concept de _Genesis Block_ (le bloc originel) en Bitcoin, ou bien au concept de transaction Coinbase, mais ici au niveau _client-side_ et des jetons RGB.
 
 #### Global State
 
 Le **Global State** est l’ensemble des propriétés publiques contenues dans l’état d’un contrat (Contract State). Il est défini lors de la **Genesis** et peut être, selon les règles du contrat, mis à jour par des transitions autorisées. Contrairement aux Owned States, le Global State n’appartient pas à une entité particulière ; il est plus proche d’un registre public dans le cadre du contrat.
 
+#### Interface
+
+L’**Interface** est l’ensemble des instructions qui permettent de décoder les données binaires compilées dans un **Schema** ou dans des opérations de contrat et leurs états, afin de les rendre lisibles pour l’utilisateur ou son wallet. Elle agit comme une couche d’interprétation.
+
+#### Interface Implementation
+
+L’**Interface Implementation** est l’ensemble des déclarations qui relient une **Interface** à un **Schema**. Elle rend possible la “traduction” sémantique opérée par l’Interface elle-même, afin que les données brutes d’un contrat soient compréhensibles par l’utilisateur ou les logiciels impliqués.
+
+#### Invoice
+
+Une **Invoice** prend la forme d’une URL encodée en [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), qui embarque les données nécessaires à la construction d’une **State Transition** (par le payeur). En d’autres termes, c’est une facture permettant à la contrepartie (payer) de créer la transition correspondante pour transférer l’actif ou mettre à jour l’état du contrat.
+
 #### Lightning Network
 
-Le **Lightning Network** est un réseau décentralisé de _payment channels_ (ou _state channels_) Bitcoin, constitué de portefeuilles multi-signatures 2-of-2. Il autorise des transactions _off-chain_ rapides et peu coûteuses, tout en s’appuyant sur la couche 1 de Bitcoin pour l’arbitrage (ou la fermeture) lorsque nécessaire.  
-(Plus d’informations : [Lightning Network](https://lightning.network/))
+Le **Lightning Network** est un réseau décentralisé de canaux de paiements (ou _state channels_) Bitcoin, constitué de portefeuilles multi-signatures 2-of-2. Il permet de faire des transactions _off-chain_ rapides et peu coûteuses, tout en s’appuyant sur la couche 1 de Bitcoin pour l’arbitrage (ou la fermeture) lorsque nécessaire.
+
+Pour plus d’informations : [Lightning Network](https://lightning.network/)
 
 #### Multi Protocol Commitment - MPC
 
-Le **Multi Protocol Commitment (MPC)** désigne la structure de Merkle Tree utilisée dans RGB pour inclure, au sein d’une unique transaction Bitcoin, plusieurs **Transition Bundles** issus de contrats différents. L’idée est de regrouper plusieurs engagements (correspondant potentiellement à différents contrats ou différents actifs) dans un seul point d’ancrage afin d’optimiser l’occupation de l’espace de bloc.  
-(Plus d’informations : [MPC](https://chatgpt.com/c/commitment-layer/multi-protocol-commitments-mpc.md))
+Le **Multi Protocol Commitment (MPC)** désigne la structure d'arbre de Merkle utilisée dans RGB pour inclure, au sein d’une unique transaction Bitcoin, plusieurs **Transition Bundles** issus de contrats différents. L’idée est de regrouper plusieurs engagements (correspondant potentiellement à différents contrats ou différents actifs) dans un seul point d’ancrage afin d’optimiser l’occupation de l’espace de bloc.
 
 #### Owned State
 
@@ -872,33 +874,37 @@ Un **Owned State** est la partie de l’état d’un contrat (Contract State) qu
 
 #### Ownership
 
-Le terme **Ownership** renvoie à la capacité de contrôler et de “dépenser” un UTXO référencé par une **Seal Definition**. Lorsqu’un Owned State est lié à un UTXO, le propriétaire de cet UTXO a le droit, potentiellement, de transférer ou de faire évoluer l’état associé, selon les règles du contrat.
+Le terme **Ownership** renvoie à la capacité de contrôler et de dépenser un UTXO référencé par une **Seal Definition**. Lorsqu’un Owned State est lié à un UTXO, le propriétaire de cet UTXO a le droit, potentiellement, de transférer ou de faire évoluer l’état associé, selon les règles du contrat.
 
 #### Partially Signed Bitcoin Transaction - PSBT
 
 Une **PSBT** (_Partially Signed Bitcoin Transaction_) est une transaction Bitcoin qui n’est pas encore complètement signée. Elle peut être partagée entre plusieurs entités, chacune pouvant y ajouter ou y vérifier certains éléments (signatures, scripts…), jusqu’à ce que la transaction soit jugée prête pour la diffusion on-chain.  
-(Plus d’informations : [BIP-0174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki))
+
+Pour plus d’informations : [BIP-0174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki)
 
 #### Pedersen commitment
 
-Un **Pedersen commitment** est un type de _commitment_ cryptographique présentant la propriété d’être **homomorphique** vis-à-vis de l’opération d’addition. Cela signifie qu’il est possible de valider la somme de deux engagements sans dévoiler les valeurs individuelles. Formellement, si
+Un **Pedersen commitment** est un type de _commitment_ cryptographique présentant la propriété d’être **homomorphique** vis-à-vis de l’opération d’addition. Cela signifie qu’il est possible de valider la somme de deux engagements sans dévoiler les valeurs individuelles.
+
+Formellement, si :
 
 $$
-C1=commit(m1,r1)etC2=commit(m2,r2),C_1 = \text{commit}(m_1, r_1) \quad \text{et} \quad C_2 = \text{commit}(m_2, r_2)
+C1=\text{commit}(m1,r1) \quad C2=\text{commit}(m2,r2)
 $$
 
-alors
+alors :
 
 $$
-C3=C1⋅C2=commit(m1+m2, r1+r2).C_3 = C_1 \cdot C_2 = \text{commit}(m_1 + m_2, \, r_1 + r_2)
+C3=C1⋅C2=\text{commit}(m1+m2, r1+r2)
 $$
 
-Cette propriété devient utile, par exemple, pour dissimuler les montants de tokens échangés tout en pouvant vérifier les totaux.  
-(Plus d’informations : [Pedersen commitment](https://link.springer.com/chapter/10.1007/3-540-46766-1_9))
+Cette propriété devient utile, par exemple, pour dissimuler les montants de tokens échangés tout en pouvant vérifier les totaux.
+
+Pour plus d’informations : [Pedersen commitment](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
 
 #### Redeem
 
-Dans une **State Extension**, un **Redeem** fait référence à l’action de récupérer (ou d’exploiter) une **Valency** précédemment déclarée. Une Valency étant un droit public, le Redeem permet à un participant autorisé de “réclamer” une extension spécifique de l’état du contrat.
+Dans une **State Extension**, un **Redeem** fait référence à l’action de récupérer (ou d’exploiter) une **Valency** précédemment déclarée. Une Valency étant un droit public, le Redeem permet à un participant autorisé de réclamer une extension spécifique de l’état du contrat.
 
 #### Schema
 
@@ -906,8 +912,7 @@ Un **Schema** dans RGB est un morceau de code déclaratif décrivant l’ensembl
 
 #### Seal Definition
 
-La **Seal Definition** est la partie d’un **Assignment** qui associe le _commitment_ à un UTXO possédé par le nouveau détenteur. Elle indique, en d’autres termes, “où” se trouve l’état (dans quel UTXO) et permet d’établir la propriété d’un actif ou d’un droit.  
-(Plus d’informations : [Seal Definition](https://chatgpt.com/rgb-state-and-operations/components-of-a-contract-operation.md#seal-definition))
+La **Seal Definition** est la partie d’un **Assignment** qui associe le _commitment_ à un UTXO possédé par le nouveau détenteur. Elle indique, en d’autres termes, où se trouve l’état (dans quel UTXO) et permet d’établir la propriété d’un actif ou d’un droit.
 
 #### Shard
 
@@ -915,8 +920,7 @@ Un **Shard** représente une branche dans le DAG de l’historique des **State T
 
 #### Single-Use Seal
 
-Un **Single-Use Seal** est une promesse de _commit_ (engagement cryptographique) sur un message encore inconnu, qui sera révélé une seule fois à l’avenir et qui doit être connu de tous les membres d’une audience spécifique. L’objectif est d’empêcher la création de multiples engagements concurrents pour le même sceau.  
-(Plus d’informations : [Single-Use Seal](https://chatgpt.com/distributed-computing-concepts/single-use-seals.md))
+Un **Single-Use Seal** est une promesse de _commit_ (engagement cryptographique) sur un message encore inconnu, qui sera révélé une seule fois à l’avenir et qui doit être connu de tous les membres d’une audience spécifique. L’objectif est d’empêcher la création de multiples engagements concurrents pour le même sceau.
 
 #### Stash
 
@@ -925,12 +929,10 @@ Le **Stash** est l’ensemble des données côté client (client-side data) qu�
 #### State Extension
 
 Une **State Extension** est une opération de contrat permettant de redéclencher des mises à jour de l’état via la rédemption de **Valencies** préalablement déclarées. Pour être effective, une State Extension doit ensuite être refermée par une **State Transition** (qui actualise l’état final du contrat).  
-(Plus d’informations : [State Extensions](https://chatgpt.com/rgb-state-and-operations/state-transitions.md#state-extensions))
 
 #### State Transition
 
-La **State Transition** est l’opération centrale qui fait évoluer l’état d’un contrat RGB vers un nouvel état. Elle peut modifier les données du **Global State** et/ou les **Owned States**. Dans la pratique, chaque transition est vérifiée par les règles du **Schema** et ancrée dans la blockchain Bitcoin via un _commitment_.  
-(Plus d’informations : [State Transitions](https://chatgpt.com/rgb-state-and-operations/state-transitions.md#state-transitions-and-their-mechanics))
+La **State Transition** est l’opération centrale qui fait évoluer l’état d’un contrat RGB vers un nouvel état. Elle peut modifier les données du **Global State** et/ou les **Owned States**. Dans la pratique, chaque transition est vérifiée par les règles du **Schema** et ancrée dans la blockchain Bitcoin via un _commitment_.
 
 #### Taproot
 
@@ -942,8 +944,7 @@ Le **Terminal Consignment** (ou _Consignment Endpoint_) est un **transfer consig
 
 #### Transition Bundle
 
-Un **Transition Bundle** est un ensemble de **State Transitions** RGB (appartenant au même contrat) qui sont tous engagés dans la même **witness transaction** Bitcoin. Cela permet de regrouper plusieurs mises à jour ou transferts en un seul ancrage on-chain.  
-(Plus d’informations : [Transition Bundle](https://chatgpt.com/rgb-state-and-operations/state-transitions.md#transition-bundle))
+Un **Transition Bundle** est un ensemble de **State Transitions** RGB (appartenant au même contrat) qui sont tous engagés dans la même **witness transaction** Bitcoin. Cela permet de regrouper plusieurs mises à jour ou transferts en un seul ancrage on-chain.
 
 #### UTXO
 

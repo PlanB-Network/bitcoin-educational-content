@@ -18,7 +18,8 @@ load_dotenv(ENV_PATH)
 class TranslationConfig:
     source_lang: str
     target_lang: str
-    code_translator: str
+    source_translator_code: str
+    target_translator_code: str
 
 class BaseTranslator(ABC):
     @abstractmethod
@@ -129,9 +130,15 @@ class FileTranslator:
         
         translator_type = lang['translator']
         if translator_type == "deepl":
-            self.translator = DeepLTranslator(config.code_translator, lang['code_translator'])
+            self.translator = DeepLTranslator(
+                config.source_lang.upper(),  # Source language in uppercase for DeepL
+                config.target_translator_code
+            )
         elif translator_type == "openai":
-            self.translator = OpenAITranslator(config.code_translator, lang['code_translator'])
+            self.translator = OpenAITranslator(
+                config.source_translator_code,
+                config.target_translator_code
+            )
         else:
             raise ValueError(f"Unsupported translator type: {translator_type}")
 
@@ -197,7 +204,10 @@ class FileTranslator:
                              output_path: Union[str, Path],
                              source_lang: str,
                              target_lang: str) -> Path:
-        with open('./translation_logic/supported_languages.json', 'r') as f:
+        script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        lang_file = os.path.join(script_dir, 'translation_logic/supported_languages.json')
+        
+        with open(lang_file, 'r') as f:
             lang_config = json.load(f)
             
         source_info = next((l for l in lang_config['languages'] if l['code'] == source_lang), None)
@@ -205,11 +215,12 @@ class FileTranslator:
         
         if not source_info or not target_info:
             raise ValueError(f"Language not supported: source={source_lang}, target={target_lang}")
-            
+        
         config = TranslationConfig(
             source_lang=source_lang,
             target_lang=target_lang,
-            code_translator=source_info['code_translator']
+            source_translator_code=source_info['code_translator'],
+            target_translator_code=target_info['code_translator']
         )
         
         translator = cls(config)

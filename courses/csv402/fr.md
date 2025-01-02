@@ -744,7 +744,7 @@ Un Assignment indique donc qu’une portion de l’état (ex. un actif) est dés
 
 #### Business Logic
 
-La **Business Logic** regroupe l’ensemble des règles et opérations internes d’un contrat, décrites par son **schéma** (c’est-à-dire la structure même du contrat). Elle dicte la manière dont l’état du contrat peut évoluer et sous quelles conditions.
+La **Business Logic** regroupe l’ensemble des règles et des opérations internes d’un contrat, décrites par son **schéma** (c’est-à-dire la structure même du contrat). Elle dicte la manière dont l’état du contrat peut évoluer et sous quelles conditions.
 
 #### Client-side Validation
 
@@ -924,7 +924,7 @@ Un **Single-Use Seal** est une promesse de _commit_ (engagement cryptographique)
 
 #### Stash
 
-Le **Stash** est l’ensemble des données côté client (client-side data) qu’un utilisateur stocke pour un ou plusieurs contrats RGB, afin de procéder à la validation (Client-side Validation). Cela inclut l’historique des transitions, les consignments, les preuves de validité, etc. Chaque détenteur ne conserve que les parties de l’historique dont il a besoin (shards).
+Le **Stash** est l’ensemble des données côté client qu’un utilisateur stocke pour un ou plusieurs contrats RGB, afin de procéder à la validation (*Client-side Validation*). Cela inclut l’historique des transitions, les consignments, les preuves de validité, etc. Chaque détenteur ne conserve que les parties de l’historique dont il a besoin (*shards*).
 
 #### State Extension
 
@@ -936,7 +936,7 @@ La **State Transition** est l’opération centrale qui fait évoluer l’état 
 
 #### Taproot
 
-Le terme **Taproot** fait référence au format de transactions Segwit v1 de Bitcoin, introduit par [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) et [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot permet d’améliorer la confidentialité et la flexibilité des scripts, notamment en rendant les transactions plus compactes et plus difficiles à distinguer les unes des autres.
+Le terme **Taproot** fait référence au format de transactions Segwit v1 de Bitcoin, introduit par le [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) et le [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot permet d’améliorer la confidentialité et la flexibilité des scripts, notamment en rendant les transactions plus compactes et plus difficiles à distinguer les unes des autres.
 
 #### Terminal Consignment - Consignment Endpoint
 
@@ -948,15 +948,15 @@ Un **Transition Bundle** est un ensemble de **State Transitions** RGB (appartena
 
 #### UTXO
 
-Un **UTXO** (Unspent Transaction Output) Bitcoin est défini par le hachage d’une transaction et l’index de la sortie (vout). On l’appelle aussi parfois un _outpoint_. Dans le protocole RGB, la référence à un UTXO (via une Seal Definition) permet de localiser l’Owned State, c’est-à-dire la propriété détenue sur la blockchain.
+Un **UTXO** (*Unspent Transaction Output*) Bitcoin est défini par le hachage d’une transaction et l’index de la sortie (*vout*). On l’appelle aussi parfois un _outpoint_. Dans le protocole RGB, la référence à un UTXO (via une **Seal Definition**) permet de localiser l’**Owned State**, c’est-à-dire la propriété détenue sur la blockchain.
 
 #### Valency
 
-Une **Valency** est un droit public ne nécessitant pas de stockage d’état en tant que tel, mais qui peut être racheté (Redeem) via une **State Extension**. Il s’agit donc d’une forme de possibilité ouverte à tous (ou à certains acteurs), déclarée dans la logique du contrat, afin d’effectuer ultérieurement une extension particulière.
+Une **Valency** est un droit public ne nécessitant pas de stockage d’état en tant que tel, mais qui peut être racheté via une **State Extension**. Il s’agit donc d’une forme de possibilité ouverte à tous (ou à certains acteurs), déclarée dans la logique du contrat, afin d’effectuer ultérieurement une extension particulière.
 
 #### Witness Transaction
 
-La **Witness Transaction** est la transaction Bitcoin qui ferme le _seal_ autour d’un message contenant un **Multi Protocol Commitment (MPC)**. Cette transaction dépense un UTXO ou en crée un, de façon à sceller (close) l’engagement lié au protocole RGB. Elle fait office de preuve on-chain que l’état a été “fixé” à un instant précis.
+La **Witness Transaction** est la transaction Bitcoin qui ferme le _seal_ autour d’un message contenant un **Multi Protocol Commitment (MPC)**. Cette transaction dépense un UTXO ou en crée un, de façon à sceller l’engagement lié au protocole RGB. Elle fait office de preuve on-chain que l’état a été fixé à un instant précis.
 
 
 # Programmation sur RGB

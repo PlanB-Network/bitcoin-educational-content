@@ -893,12 +893,89 @@ En pratique, la mise en œuvre technique est répartie entre plusieurs _crates_ 
 Dans le chapitre suivant, nous plongerons dans la composante purement off-chain de **RGB**, à savoir la logique des contrats. Nous verrons comment les contrats RGB, organisés sous forme de _finite state machine_ partiellement répliquée, atteignent une expressivité bien plus élevée que celle autorisée par *Bitcoin Script*, tout en préservant la confidentialité de leurs données.
 
 
-## Explication de l'état RGB
+## Introduction aux contrats intelligents et à leurs états
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 ![video](https://youtu.be/tmAVdyXGmj4)
 
-## Logique métier RGB
+Dans ce chapitre et le prochain, nous abordons la notion de **smart contract** au sein de l’environnement **RGB** et présentons les différentes manières dont ces contrats peuvent définir et faire évoluer leur **état** (_state_). Nous verrons pourquoi l’architecture RGB, en utilisant la séquence ordonnée de _single-use seals_, permet d’exécuter divers types de ***Contract Operations*** de manière scalable et sans passer par un registre centralisé. Nous verrons également le rôle fondamental de la ***Business Logic*** pour encadrer l’évolution de l’état contractuel.
+
+### Contrats intelligents et droits au porteur numériques
+
+L’objectif de **RGB** est de proposer une infrastructure où l’on peut mettre en œuvre des **smart contracts** sur Bitcoin. Par "smart contract", on entend un accord entre plusieurs parties qui est automatiquement et informatiquement appliqué, sans intervention humaine pour faire respecter les clauses. En d’autres termes, la loi du contrat est exécutée par le logiciel, et non par un tiers de confiance.
+
+Cette automatisation soulève la question de la décentralisation : comment s’affranchir d’un registre centralisé (par exemple une plateforme ou une base de données centrale) pour gérer la propriété et l’exécution des contrats ? L’idée d’origine, reprise par RGB, consiste à renouer avec un mode de possession dit **"au porteur"** (*bearer instruments*). Dans la tradition historique, certains titres (obligations, actions, etc.) étaient émis au porteur, permettant à quiconque possédait physiquement le document de faire valoir ses droits.  
+
+![RGB-Bitcoin](assets/fr/055.webp)
+
+RGB applique ce concept au monde numérique : les droits (et obligations) sont enfermés dans des données manipulées off-chain, et l’état de ces données est validé par les participants eux-mêmes. Cela permet, à priori, un degré de confidentialité et d’indépendance beaucoup plus grand que celui qu’offrent d’autres approches basées sur des registres publics.
+
+### Introduction à l’État d’un Smart Contract RGB
+
+Un **smart contract** dans RGB peut être vu comme une machine à états, définie par :
+- Un **State** (état), c’est-à-dire l’ensemble d’informations reflétant la configuration actuelle du contrat ;
+- Une **Business Logic** (ensemble de règles), qui décrit sous quelles conditions et par qui l’état peut être modifié.
+
+![RGB-Bitcoin](assets/fr/056.webp)
+
+Il est important de comprendre que ces contrats ne sont pas limités aux simples transferts de tokens. Ils peuvent incarner une grande variété d’applications : des actifs traditionnels (jetons, actions, obligations) jusqu’à des mécaniques plus complexes (droits d’usage, conditions commerciales, etc.). Contrairement à d’autres blockchains où le code de contrat est accessible et exécutable par tous, l’approche de RGB cloisonne l’accès et la connaissance du contrat aux participants (***contract participants***). Il existe ainsi plusieurs rôles :
+- **L’issuer** ou créateur du contrat, qui définit la Genèse du contrat et ses variables initiales ;
+- **Les parties détentrices** de droits (*ownership*) ou d’autres capacités d’exécution ;
+- Des **observateurs**, potentiellement limités à voir certaines informations, mais qui ne peuvent pas déclencher des modifications.
+
+Cette séparation des rôles contribue à la résistance à la censure, en permettant que seules les personnes autorisées puissent interagir avec l’état contractuel. Cela confère également à RGB la capacité de s’étendre de manière horizontale : la majorité des validations a lieu en dehors de la blockchain, et seules des **ancrages cryptographiques** (les *commitments*) sont inscrits sur Bitcoin.
+
+### État et Business Logic dans RGB
+
+D’un point de vue pratique, la **Business Logic** du contrat se présente sous forme de règles et de scripts, définis dans ce que RGB appelle un **Schema**. Le Schema encode :
+- La structure de l’État (quels champs sont publics ? Quels champs sont détenus par telle ou telle partie ?) ;
+- Les conditions de validité (qu’est-ce qui doit être vérifié avant d’autoriser une mise à jour de l’État ?) ;
+- Les autorisations (qui peut initier une *State Transition* ? Qui peut seulement observer ?).
+
+En parallèle, l’**État** (_Contract State_) se décompose souvent en deux volets :
+- Un **Global State** : partie publique, potentiellement observable par tous (selon la configuration) ;
+- Des **Owned States** : parties privées, attribuées spécifiquement à des détenteurs (*owners*) via des UTXOs référencés dans la logique du contrat.
+
+Comme nous le verrons dans les chapitres suivant, toute mise à jour d’état (*Contract Operation*) doit s’arrimer à un _commitment_ Bitcoin (via `Opret` ou `Tapret`) et se conformer aux scripts de la *Business Logic* pour être considérée comme valide.
+
+### Contract Operations : création et évolution de l’État
+
+Dans l’univers RGB, on appelle ***Contract Operation*** tout événement qui fait passer le contrat d’un **ancien état** (_old state_) à un **nouvel état** (_new state_). Ces opérations suivent la logique suivante :
+- On prend connaissance de l’État actuel du contrat ;
+- On applique la règle ou l’opération (une ***State Transition***, une ***Genesis*** si c’est le tout premier état, ou encore une ***State Extension*** s’il y a une *valency* publique à redéclencher) ;
+- On ancre la modification via un nouveau _commitment_ sur la blockchain, en fermant un _single-use seal_ et en en créant un autre ;
+- Les détenteurs de droits concernés valident localement (*client-side*) que la transition est conforme au *Schema* et que la transaction Bitcoin associée est inscrite on-chain.
+
+![RGB-Bitcoin](assets/fr/057.webp)
+
+Le résultat final est un contrat mis à jour, dont l’État est désormais différent. Cette transition ne nécessite pas que l’ensemble du réseau Bitcoin s’intéresse aux détails, puisque seule une petite empreinte cryptographique (le _commitment_) est enregistrée dans la blockchain. La séquence des *single-use seals* prévient toute double-dépense ou double-utilisation de l’État.
+
+### Chaîne d’opérations : de la Genesis au Terminal State
+
+Pour remettre en perspective, un **smart contract** RGB démarre par une **Genesis**, le tout premier état. Par la suite, diverses **Contract Operations** se succèdent, formant un **DAG** (*Directed Acyclic Graph*) d’opérations :
+- Chaque transition s’appuie sur un état précédent (ou plusieurs, en cas de transitions convergentes) ;
+- L’ordre chronologique est garanti par l’inclusion de chaque transition dans un ancrage Bitcoin, horodaté et inaltérable grâce au consensus par Proof-of-Work ;
+- Lorsque plus aucune opération n’est en cours, on atteint un **Terminal State** : la situation la plus récente et complète du contrat.
+
+![RGB-Bitcoin](assets/fr/012.webp)
+
+Cette topologie en DAG (au lieu d’une simple chaîne linéaire) reflète la possibilité que différentes parties du contrat puissent évoluer en parallèle, tant qu’elles ne se contredisent pas. RGB se charge alors d’éviter toute incohérence via la vérification *client-side* de chaque participant concerné.
+
+### Synthèse
+
+Les **smart contracts** dans RGB introduisent un modèle d’“instruments au porteur” numériques, décentralisés, mais ancrés dans Bitcoin pour l’horodatage et la garantie de l’ordre des opérations. L’exécution automatisée de ces contrats repose sur :
+
+- Un **État** (Contract State), indiquant la configuration actuelle du contrat (droits, soldes, variables…).
+- Une **Business Logic** (Schema), définissant quelles transitions sont autorisées et comment elles doivent être validées.
+- Des **Contract Operations**, qui mettent à jour cet État étape par étape, grâce à des engagements ancrés dans des transactions Bitcoin.
+
+Dans le chapitre suivant, nous entrerons plus en détail dans la représentation concrète de ces **states** et des **state transitions** au niveau off-chain, ainsi que dans la manière dont ils se lient aux UTXOs et aux _single-use seals_ ancrés dans Bitcoin. Ce sera l’occasion de voir comment la mécanique interne d’RGB, fondée sur une validation client-side, parvient à maintenir la cohérence des smart contracts tout en préservant la confidentialité des données.
+
+
+
+
+
+## Opérations des contrats RGB
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
 ![video](https://youtu.be/lUTjeuM0oTA)

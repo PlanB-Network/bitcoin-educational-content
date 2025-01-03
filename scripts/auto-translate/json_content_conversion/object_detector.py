@@ -4,7 +4,8 @@ from typing import Optional, Dict, Any
 class MDObjectDetector:
     def __init__(self):
         self.patterns = {
-            'yml_properties': r'^(name|goal|objectives):',
+            'yml_properties':
+      r'^(name|goal|objectives|description|question|answer|wrong_answers|explanation|reviewed):',
             'header_separator': r'^---$',
             'markdown_header': r'^#{1,6}\s+.+$',
             'partId': r'^<partId>[^<]+</partId>$',

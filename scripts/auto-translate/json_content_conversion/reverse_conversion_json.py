@@ -9,8 +9,12 @@ class JsonToMarkdownConverter:
         self.output_lines: List[str] = []
         
     def handle_yml_property(self, item: Dict[str, Any]) -> str:
-        """Handle YAML property with prefix and content"""
-        return f"{item['prefix']} {item['content']}"
+        """Handle YAML property with prefix and content preserving indentation"""
+        # Special handling for objectives
+        if item['prefix'] == 'objectives:' and item['content'] is None:
+            return f"{indent}objectives:"
+        indent = ' ' * item.get('indent', 0)
+        return f"{indent}{item['prefix']} {item['content']}"
         
     def handle_list(self, item: Dict[str, Any]) -> str:
         """Handle list items with indent and content"""
@@ -87,18 +91,30 @@ class JsonToMarkdownConverter:
         return [item['content']]
 
     def convert(self, json_data: List[Dict[str, Any]]) -> str:
-        """Convert entire JSON structure to markdown"""
-        formatted_lines = []
-        
-        for item in json_data:
-            lines = self.convert_item(item)
-            formatted_lines.extend(lines)
-            
-        # Clean up any trailing empty lines while preserving intentional spacing
-        while formatted_lines and not formatted_lines[-1]:
-            formatted_lines.pop()
-            
-        return '\n'.join(formatted_lines)
+      """Convert entire JSON structure to markdown"""
+      formatted_lines = []
+      prev_was_list = False
+      
+      for item in json_data:
+          lines = self.convert_item(item)
+          
+          # Handle spacing between items
+          if item['type'] == 'list':
+              if not prev_was_list and formatted_lines:
+                  formatted_lines.append('')  # Add space before first list item
+              prev_was_list = True
+          else:
+              if prev_was_list:
+                  formatted_lines.append('')  # Add space after last list item
+              prev_was_list = False
+          
+          formatted_lines.extend(lines)
+      
+      # Clean up any trailing empty lines
+      while formatted_lines and not formatted_lines[-1]:
+          formatted_lines.pop()
+      
+      return '\n'.join(formatted_lines)
     
     @classmethod
     def convert_file_to_markdown(cls, input_path, output_path) -> Path:

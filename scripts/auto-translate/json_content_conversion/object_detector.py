@@ -37,7 +37,6 @@ class MDObjectDetector:
             return 'equation', None
             
         return None, None
-
     def parse_yml_property(self, line: str) -> tuple[Optional[str], Any]:
         line = line.strip()
         if not re.match(self.patterns['yml_properties'], line):
@@ -48,17 +47,19 @@ class MDObjectDetector:
             key = key.strip()
             value = value.strip()
             
+            # List of properties that shouldn't be translated
+            non_translatable = ['contributors', 'original', 'cover']
+            
+            if key in non_translatable:
+                # Return the value with a special flag
+                return key, {'content': value, 'translate': False}
+                
             if key == 'objectives':
                 return key, []
+                
             return key, value
         except ValueError:
             return None, None
-
-    def extract_quote_content(self, line: str) -> Optional[str]:
-        match = re.match(self.patterns['quote'], line.strip())
-        if match:
-            return match.group(1).strip()
-        return None
 
 def test_detector():
     detector = MDObjectDetector()

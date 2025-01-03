@@ -1,6 +1,6 @@
 import os
-import shutil
 import sys
+import shutil
 import subprocess
 from pathlib import Path
 from functools import wraps
@@ -22,7 +22,7 @@ def redirect_output_to_file(filepath: str) -> Callable:
 
 def get_supported_languages() -> List[str]:
     """Get list of supported languages from btc101 course directory."""
-    directory = "../../courses/btc101"
+    directory = "../../../courses/btc101"
     supported_languages = []
 
     if os.path.exists(directory):
@@ -40,7 +40,7 @@ def content_exist(filenames: List[str], lang: str) -> bool:
 
 def create_txt_to_en_from(lang: str) -> None:
     """Create a list of files that need translation from given language to English."""
-    base_dir = "../../courses"
+    base_dir = "../../../courses"
     output_file = f"./translate-to-en/{lang}.txt"
     file_written = False
 
@@ -58,7 +58,7 @@ def create_txt_to_en_from(lang: str) -> None:
 
 def create_txt_from_en_to(lang: str) -> None:
     """Create a list of files that need translation from English to given language."""
-    base_dir = "../../courses"
+    base_dir = "../../../courses"
     output_file = f"./translate-from-en/{lang}.txt"
     file_written = False
 
@@ -74,62 +74,31 @@ def create_txt_from_en_to(lang: str) -> None:
         os.remove(output_file)
         print(f"No need to translate from en to {lang}")
 
-def copy_from_repo_to_LLM_Translator(lang: str, input_list_path: str, destination_base_path: str) -> None:
-    """Copy files from repository to LLM Translator input directory."""
-    if not os.path.exists(input_list_path):
-        print(f"No file list found for language '{lang}'.")
-        return
-
-    os.makedirs(destination_base_path, exist_ok=True)
-    with open(input_list_path, 'r') as file:
-        for line in file:
-            source_path = line.strip()
-            if not source_path:
-                continue
-            new_filename = source_path.lstrip('./').replace('/', '_')
-            new_filename = new_filename.rstrip('_')
-            new_filename = new_filename.replace(f'_{lang}','')
-
-            destination_file_path = os.path.join(destination_base_path, new_filename)
-
-            try:
-                shutil.copy(source_path, destination_file_path)
-                print(f"Copied and renamed '{source_path}' to '{destination_file_path}'")
-            except Exception as e:
-                print(f"Error copying '{source_path}': {str(e)}")
-
-def run_LLM_Translator(source_language: str, destination_language: str, folder_path: str) -> None:
-    """Execute LLM Translator with specified parameters."""
-    command = [
-        "python3",
-        "../../../LLM-Translator/scripts/main.py",
-        "-l", destination_language,
-        "-o", source_language,
-        "-s", folder_path
-    ]
-
+def translate_file(input_file: str, target_lang: str) -> None:
+    """Translate a single file using translation_controller."""
     try:
+        command = ["python3", "../translation_controller.py", input_file, target_lang]
         subprocess.run(command, check=True)
-        print("Command executed successfully.")
+        print(f"Translated {input_file} to {target_lang}")
     except subprocess.CalledProcessError as e:
-        print(f"An error occurred: {e}")
+        print(f"Error translating {input_file}: {e}")
 
-def copy_from_LLM_Translator_to_repo(lang: str, source_path: str) -> None:
-    """Copy translated files from LLM Translator output directory back to repository."""
-    source_path = os.path.join('../../../LLM-Translator/outputs/', source_path)
-    if not os.path.exists(source_path):
-        print(f"No source directory found for language '{lang}'.")
+def process_translation_list(list_file: str) -> None:
+    """Process a list of files for translation."""
+    if not os.path.exists(list_file):
         return
 
-    files = os.listdir(source_path)
-    for file in files:
-        destination_file_path = os.path.join('../../', file.replace('_','/'))
-        source_file_path = os.path.join(source_path, file)
-        try:
-            shutil.copy(source_file_path, destination_file_path)
-            print(f"Copied '{source_file_path}' back to '{destination_file_path}'")
-        except Exception as e:
-            print(f"Error copying back to '{destination_file_path}': {str(e)}")
+    with open(list_file, 'r') as f:
+        files = f.readlines()
+        
+    for file_path in files:
+        file_path = file_path.strip()
+        if file_path:
+            if list_file.startswith('./translate-to-en/'):
+                translate_file(file_path, 'en')
+            else:
+                lang = Path(list_file).stem
+                translate_file(file_path, lang)
 
 def ensure_directory_exists(directory: str) -> None:
     """Create directory if it doesn't exist."""
@@ -151,34 +120,24 @@ def main() -> None:
     ensure_directory_exists("./translate-to-en")
     ensure_directory_exists("./translate-from-en")
     
+    # First pass: translate all non-English content to English
     for lang in languages:
         create_txt_to_en_from(lang)
-        translation_needed = os.path.exists(f"./translate-to-en/{lang}.txt")
-        if translation_needed:
-            input_list_path = f"./translate-to-en/{lang}.txt"
-            destination_base_path = f"../../../LLM-Translator/inputs/courses-from-{lang}-to-en/"
-            copy_from_repo_to_LLM_Translator(lang, input_list_path, destination_base_path)
+        to_en_list = f"./translate-to-en/{lang}.txt"
+        if os.path.exists(to_en_list):
+            print(f"\nProcessing translations from {lang} to English")
+            process_translation_list(to_en_list)
 
-            source_path = f"courses-from-{lang}-to-en"
-            run_LLM_Translator(lang, 'en', source_path)
-            print(f'LLM translator running: {lang} to English')
-            copy_from_LLM_Translator_to_repo(lang, source_path)
-
+    # Second pass: translate English content to other languages
     for lang in languages:
         create_txt_from_en_to(lang)
-        translation_needed = os.path.exists(f"./translate-from-en/{lang}.txt")
-        if translation_needed:
-            input_list_path = f"./translate-from-en/{lang}.txt"
-            destination_base_path = f"../../../LLM-Translator/inputs/courses-from-en-to-{lang}/"
-            copy_from_repo_to_LLM_Translator('en', input_list_path, destination_base_path)
-
-            source_path = f"courses-from-en-to-{lang}"
-            run_LLM_Translator('en', lang, source_path)
-            print(f'LLM translator running: English to {lang}')
-            copy_from_LLM_Translator_to_repo(lang, source_path)
+        from_en_list = f"./translate-from-en/{lang}.txt"
+        if os.path.exists(from_en_list):
+            print(f"\nProcessing translations from English to {lang}")
+            process_translation_list(from_en_list)
 
     cleanup_temp_directories()
     print("Course translation process completed!")
 
 if __name__ == "__main__":
-    main()
+    main() 

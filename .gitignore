@@ -5,4 +5,4 @@ scripts/.env
 courses/**/scripts/
 scripts/auto-translate/json-content-conversion/.env
 scripts/auto-translate/.env
-scripts/auto-translate/json-content-conversion/cache
+scripts/auto-translate/json_content_conversion/cache

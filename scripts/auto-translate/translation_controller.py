@@ -1,10 +1,13 @@
 import sys
 import json
+import os
 from pathlib import Path
 from typing import Optional, Union, Dict
 from json_content_conversion.convert_json import JsonConverter
 from json_content_conversion.reverse_conversion_json import JsonToMarkdownConverter
 from translation_logic.translate_json import FileTranslator
+
+CACHE_DIR = Path(os.path.dirname(os.path.abspath(__file__))) / 'json_content_conversion' / 'cache'
 
 def get_language_from_filename(filepath: Union[str, Path]) -> str:
     return Path(filepath).stem.split('.')[-1]
@@ -21,7 +24,7 @@ def translate_content(input_path: Union[str, Path],
     source_lang = get_language_from_filename(input_path)
     
     if cache_dir is None:
-        cache_dir = Path('./json-content-conversion/cache')
+        cache_dir = CACHE_DIR
     cache_dir.mkdir(parents=True, exist_ok=True)
     
     cache_base_name = create_cache_name(input_path)
@@ -34,7 +37,6 @@ def translate_content(input_path: Union[str, Path],
     JsonConverter.convert_file_to_json(input_path, source_json)
     
     print(f"Translating from {source_lang} to {target_lang}...")
-    print(source_lang)
     FileTranslator.translate_file_content(
         input_path=source_json,
         output_path=translated_json,

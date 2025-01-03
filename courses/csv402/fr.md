@@ -370,8 +370,6 @@ La prochaine étape consistera à expliquer plus en détail comment on applique 
 Avant de plonger dans les détails plus techniques du deuxième chapitre, n'hésitez pas à relire les définitions clés (client-side validation, single use seal, anchors, etc.) et à garder à l'esprit la logique globale : nous cherchons à concilier les atouts de la blockchain Bitcoin (sécurité, décentralisation, _time-stamping_) avec ceux des solutions hors chaîne (rapidité, confidentialité, scalabilité), et c'est précisément ce que RGB et la _client-side validation_ tentent de réaliser.
 
 
-
-
 ## La couche d'engagement
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
@@ -705,145 +703,194 @@ L’analyse a montré qu’en effet, d’autres méthodes (key tweak, sig tweak,
 Ainsi, pour RGB, deux des méthodes sortent particulièrement du lot : ***Opret*** et ***Tapret***, toutes deux classées en “Transaction Output”, et compatibles avec le mode TxO2 utilisé par le protocole.
 
 
+### Multi Protocol Commitments - MPC
 
+Dans cette section, nous abordons la manière dont **RGB** gère l’agrégation de plusieurs contrats (ou plus précisément leurs _transition bundles_) au sein d’un unique engagement (*commitment*) enregistré dans une transaction Bitcoin via un schéma déterministe (selon `Opret` ou `Tapret`). Pour y parvenir, l'ordre de Merkelisation des différents contrats s’opère dans une structure nommée **MPC Tree** (_Multi Protocol Commitment Tree_). Dans cette section, nous allons étudier la construction de ce MPC Tree, l’obtention de sa racine, ainsi que la façon dont plusieurs contrats peuvent ainsi partager la même transaction en toute confidentialité et sans ambiguïté.
 
+Le **Multi Protocol Commitment** (MPC) vise à répondre à deux besoins :
+- **La construction du hash `mpc::Commitment`** : celui-ci sera inclus dans la blockchain Bitcoin selon un schéma `Opret` ou `Tapret`, et doit refléter l’ensemble des états changés (state changes) à valider ;
+- **Le stockage simultané de plusieurs contrats** dans un seul _commitment_, permettant de gérer en une seule transaction Bitcoin des mises à jour distinctes, portant sur plusieurs assets ou contrats RGB.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Sharding appliqué aux contrats et rôle de l'Anchor
-
-Nous avions déjà discuté du besoin de sharding dans le premier chapitre de la formation. L’idée est qu’un _anchor_ doit parfois contenir des engagements relatifs à plusieurs smart contracts différents. Comment construire un arbre de Merkle pour deux, cinq, ou deux cent mille contrats, tout en permettant à chacun de prouver uniquement l’engagement qui le concerne ?
-
-![RGB-Bitcoin](assets/fr/041.webp)
-
-#### Construire un arbre de Merkle pour plusieurs contrats
-
-Je vous propose un exemple avec un seul contrat, ayant un _contract ID_ de 256 bits (un hash de la _genesis_). On sélectionne une profondeur minimale de l’arbre, mettons `8`, ce qui procure 2^8 = 256 feuilles. On place l’engagement dans la feuille correspondant à `contract_id mod 256`. Dès lors :
-- Le détenteur du contrat peut produire un _Merkle path_ menant à cette position.
-- Le validateur sait que le contract ID ne peut être associé qu’à cette unique feuille, vu que la profondeur est fixée et que la division modulaire impose un placement déterministe.
-
-Pour plusieurs contrats (ex. USDT, USDC, NFT), vous calculez cette position pour chacun, vérifiez qu’il n’y a pas collision, et construisez l’arbre en conséquence. S’il existe une collision, vous pouvez augmenter la largeur (ou ajuster un cofacteur, un _nonce_) pour obtenir un placement adéquat. Ceci reste hors consensus : vous êtes libre de la largeur d’arbre tant que la preuve finale est cohérente.
-
-#### Preuve côté client et structure MPC
-
-Sur le client, on ne stocke jamais l’ensemble du Merkle tree. On se contente de générer, à l’instant T, un _Merkle path_ pour chaque contrat concerné, à transmettre au destinataire (qui pourra ainsi valider l’engagement). Dans certains cas, vous possédez plusieurs actifs passés par le même UTXO. Vous pouvez alors fusionner plusieurs _Merkle paths_ dans ce qu’on appelle un _multi-protocol commitment block_, afin d'éviter de dupliquer trop de données.
+Concrètement, chacun des _transition bundles_ appartient à un contrat particulier. Toutes ces informations sont insérées dans un **MPC Tree** dont la racine (`mpc::Root`) est ensuite hachée de nouveau pour donner le `mpc::Commitment`. C’est ce dernier hash qui est placé dans la transaction Bitcoin (_witness transaction_), selon la méthode déterministe choisie.
 
 ![RGB-Bitcoin](assets/fr/042.webp)
 
-Dans la base de code (répertoire _client-side validation_, module `commit-verify::mpc`), on retrouve notamment :
-- Des structures d'arbres de Merkle paramétrables (profondeur `depth`, entropie, cofacteur, etc.).
-- Un type de **Merkle proof** qui stocke la position ciblée dans l’arbre et la suite de hachages frères menant à la racine.
+#### MPC Root Hash
+
+La valeur effectivement inscrite on-chain (dans `Opret` ou `Tapret`) se nomme `mpc::Commitment`. Celle-ci est calculée en suivant la forme du [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), selon la formule :
+
+```txt
+mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
+```
+
+où :
+- `mpc_tag` est une étiquette : `urn:ubideco:mpc:commitment#2024-01-31`, choisie selon les [conventions RGB de tagging](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md) ;
+- `depth` (1 octet) indique la profondeur du *MPC Tree* ;
+- `cofactor` (16 bits, en Little Endian) est un paramètre permettant de favoriser l’unicité des positions assignées à chaque contrat dans l’arbre ;
+- `mpc::Root` est la racine de *MPC Tree*, calculée selon le processus décrit dans la section suivante.
 
 ![RGB-Bitcoin](assets/fr/044.webp)
 
+#### Construction de l'arbre MPC (MPC Tree)
+
+Pour construire ce MPC Tree, il faut assurer qu’à chaque contrat corresponde une position de feuille unique. Supposons qu’on ait :
+- `C` contrats à inclure, indexés par `i` dans `i = {0,1,..,C-1}`.
+- Pour chaque contrat `c_i`​, on dispose d’un identifiant `ContractId(i) = c_i`.
+
+On va alors bâtir un arbre de largeur `w` et de profondeur `d` telle que `2^d = w`, avec `w > C`, de sorte que chaque contrat puisse être placé dans une _leaf_ distincte. La position `pos(c_i)` de chaque contrat dans l’arbre est déterminée par :
+
+```txt
+pos(c_i) = c_i mod (w - cofactor)
+```
+
+où `cofactor` est un entier qui augmente les probabilités d’obtenir des positions distinctes pour chaque contrat. Dans la pratique, la construction suit un processus itératif :
+- On part d’une profondeur minimale (`d=3` par convention pour masquer le nombre exact de contrats) ;
+- On tente différents `cofactor` (jusqu’à `w/2`, ou un maximum de 500 pour des raisons de performance) ;
+- Si on ne parvient pas à positionner tous les contrats sans collision, on incrémente `d` et on recommence.
+
+Le but est d’éviter les arbres trop grands tout en maintenant un risque de collision minimal. Notons que le phénomène de collisions suit une logique de distribution aléatoire, liée au [Paradoxe des anniversaires](https://en.wikipedia.org/wiki/Birthday_problem).
+
+#### Les feuilles habitées
+
+Une fois `C` positions distinctes `pos(c_i)` obtenues pour les contrats `i = {0,1,..,C-1}`, on renseigne chaque feuille via une fonction de hachage (*tagged hash*) :
+
+```txt
+tH_MPC_LEAF(c_i) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x10 || c_i || BundleId(c_i))
+```
+
+où :
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, toujours choisi selon les conventions Merkle de RGB ;
+- `0x10` identifie un _contract leaf_ ;
+- `c_i` est l’identifiant de 32 octets du contrat (issu du hash de sa Genesis) ;
+- `BundleId(c_i)` est un hash de 32 octets décrivant l’ensemble des `State Transitions` relatives à `c_i` (réunies en une *Transition Bundle*).
+
+#### Les feuilles inhabitées
+
+Les feuilles restantes, non affectées à un contrat (c’est-à-dire `w - C` feuilles), sont remplies par une valeur dite "dummy" (_entropy leaf_) :
+
+```txt
+tH_MPC_LEAF(j) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x11 || entropy || j )
+```
+
+où :
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, toujours choisi selon les conventions Merkle de RGB ;
+- `0x11` désigne une _entropy leaf_ ;
+- `entropy` est une valeur aléatoire de 64 octets, choisie par la personne qui construit l’arbre ;
+- `j` est la position (en 32 bits Little Endian) de cette feuille dans l’arbre.
+
+#### Les nœuds MPC
+
+Après avoir généré les `w` feuilles (habitées ou non), on procède à la _merkelization_ en suivant la règle `commit_verify`. Tout nœud interne est haché comme suit :
+
+```txt
+tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || b || d || w || tH1 || tH2)
+```
+
+où :
+
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, toujours choisi selon les conventions Merkle de RGB ;
+- `b` est la _branching factor_ (8 bits). Le plus souvent, `b=0x02` car l’arbre est binaire et complet ;
+- `d` est la profondeur du nœud dans l’arbre ;
+- `w` est la largeur de l’arbre (en binaire 256 bits Little Endian) ;
+- `tH1` et `tH2` sont les hachages des nœuds enfants (ou feuilles), déjà calculés comme indiqués ci-dessus.
+
+En progressant ainsi, on obtient la racine `mpc::Root`. On peut ensuite calculer `mpc::Commitment` (comme expliqué précédemment) et l’insérer on-chain.
+
+Pour illustrer cela, imaginons un exemple où `C=3` (trois contrats). On suppose que leurs positions sont `pos(c_0)=7`, `pos(c_1)=4`, `pos(c_2)=2`. Les autres feuilles (positions 0,1,3,5,6) sont des _entropy leaves_. Le schéma ci-dessous montre comment s’enchaînent les hachages jusqu’à la racine :
+
+- `BUNDLE_i` représente `BundleId(c_i)`.
+- `tH_MPC_LEAF(A)` et ainsi de suite, représentent les feuilles (certaines pour les contrats, d’autres pour l’entropie).
+- Chaque branche `tH_MPC_BRANCH(...)` combine les hachages de ses deux fils.
+
+Le résultat final est le **mpc::Root**, puis le `mpc::Commitment`.
+
+![RGB-Bitcoin](assets/fr/053.webp)
+
+#### Vérification de l'arbre MPC
+
+Lorsqu’un vérificateur souhaite s’assurer qu’un contrat `c_i`​ (et son `BundleId`) est bien inclus dans l’engagement final `mpc::Commitment`, il reçoit simplement **une preuve de Merkle** (*Merkle Proof*). Cette preuve indique les nœuds nécessaires pour remonter des feuilles (ici, la _contract leaf_ de `c_i`​) jusqu’à la racine. Inutile de divulguer l’intégralité du *MPC Tree* : cela protège la confidentialité des autres contrats.
+
+Dans l’exemple, un vérificateur de `c_2` n’a besoin que de quelques hachages intermédiaires (`tH_MPC_LEAF(D)`, deux ou trois `tH_MPC_BRANCH(...)`, etc.), plus la preuve de la position `pos(c_2)` et la valeur `cofactor`. Il peut alors reconstruire localement la racine, puis recalculer le `mpc::Commitment` et le comparer à celui inscrit dans la transaction Bitcoin (au sein d’`Opret` ou `Tapret`).
+
+![RGB-Bitcoin](assets/fr/054.webp)
+
+Ce mécanisme garantit ainsi que :
+- L’état relatif à `c_2` est bien inclus dans le bloc d’information agrégé (client-side) ;
+- Personne ne peut construire une histoire alternative avec la même transaction, car le _commitment_ on-chain pointe vers une unique racine MPC.
+
+#### Résumé de la structure MPC
+
+Le *Multi Protocol Commitment* (MPC) est donc le principe qui permet à RGB d’agréger plusieurs contrats dans une seule transaction Bitcoin, tout en maintenant l’unicité des engagements et la confidentialité vis-à-vis des autres participants. Grâce à la construction déterministe de l’arbre, chaque contrat se voit attribuer une position unique, et la présence de feuilles “dummy” (*Entropy Leaves*) masque partiellement le nombre total de contrats participant à l’opération.
+
+Sur le client, on ne stocke jamais l’ensemble de l'arbre de Merkle. On se contente de générer, à l’instant T, un _Merkle path_ pour chaque contrat concerné, à transmettre au destinataire (qui pourra ainsi valider l’engagement). Dans certains cas, vous possédez plusieurs actifs passés par le même UTXO. Vous pouvez alors fusionner plusieurs _Merkle paths_ dans ce qu’on appelle un _multi-protocol commitment block_, afin d'éviter de dupliquer trop de données.
+
 Chaque _Merkle proof_ est donc légère, d’autant plus que la profondeur de l’arbre n’excédera pas 32 dans RGB. Il existe également une notion de **Merkle block**, conservant plus d’informations (la cross-section, l’entropie, etc.), utile pour combiner ou séparer plusieurs branches.
 
-Voilà pourquoi la finalisation de RGB a demandé du temps. On avait la vision globale dès 2019 : tout mettre en client-side, faire circuler les tokens hors chaîne. Mais des détails comme le sharding pour plusieurs contrats, la structure Merkle, la manière de gérer les collisions et la fusion de preuves… tout cela a exigé des itérations.
+Voilà pourquoi la finalisation de RGB a demandé du temps. On avait la vision globale dès 2019 : tout mettre en client-side, faire circuler les tokens hors chaîne. Mais des détails comme le sharding pour plusieurs contrats, la structure de l'arbre de Merkle, la manière de gérer les collisions et la fusion de preuves… tout cela a exigé des itérations.
 
 ### Les anchors : un assemblage global
 
-Il reste un dernier élément fondamental : **les anchors**, qui combinent d’une part les _deterministic Bitcoin commitments_ (inclus dans la transaction) et d’autre part les _multi-protocol commitments_ (Merkle tree) :
-- L’**anchor** comporte l’ID de la transaction de dépense (witness transaction), car retrouver on-chain la transaction exacte dépensant un outpoint peut être coûteux.
-- Il inclut la preuve _multi-protocol commitment_ (un _Merkle path_ vers la bonne feuille).
-- Il inclut aussi la preuve _deterministic Bitcoin commitment_ (comme par exemple : Tapret, key tweak, op-return, etc.), afin de montrer précisément où se situe l’engagement dans la transaction Bitcoin et comment vérifier l’absence d’engagement concurrent.
+Dans la continuité de la construction de nos engagements (`Opret` ou `Tapret`) et de notre **MPC** (*Multi Protocol Commitment*), nous devons aborder la notion d’**Anchor** dans le protocole **RGB**. Un Anchor est une structure validée côté client qui rassemble les éléments nécessaires pour vérifier qu’un engagement Bitcoin renferme bien une information contractuelle précise. Autrement dit, un Anchor résume toutes les données utiles à la validation des _commitments_ décrits précédemment.
 
-Ainsi, côté client, vous avez tous les éléments pour reconstruire la logique : "J’ai dépensé tel outpoint, ancré mon état dans tel script Taproot, la racine Merkle englobant plusieurs contrats, et la feuille correspondant à mon contrat s’obtient via tel chemin."
+Un Anchor se compose de trois champs ordonnés :
+- `Txid`
+- `MPC Proof`
+- `Extra Transaction Proof - ETP`
 
-On a ainsi deux modes dans RGB :
-- Soit on emploie `OpRet` (op-return) pour la compatibilité avec l’historique (mais ce n’est pas recommandé),
-- Soit on utilise la version **Tapret** qui est plus complexe.
+Chacun de ces champs intervient dans la procédure de validation, qu’il s’agisse de reconstituer la transaction Bitcoin sous-jacente ou de prouver l’existence d’un engagement caché (notamment dans le cas de `Tapret`).
 
-L’anchor Tapret requiert notamment :
-- La clé publique interne (pour prouver comment la racine de Merkle tweak la clé)
-- Un **nonce** si nécessaire (pour tenter de forcer le script sur la gauche de l’arbre)
-- Les informations prouvant que le nœud adjacent n’est pas un autre engagement, mais seulement un script ou un hash quelconque inoffensif.
+#### TxId
+
+Le champ `Txid` correspond à l’identifiant de 32 octets de la transaction Bitcoin qui contient l’engagement `Opret` ou `Tapret`.  
+
+En théorie, il serait envisageable de retrouver ce `Txid` en retraçant la chaîne de transitions d'états qui pointent elles-mêmes vers chaque witness transaction, en suivant la logique des single-use seals. Cependant, pour faciliter et accélérer la vérification, ce `Txid` est tout simplement inclus dans l’Anchor, ce qui évite ainsi au validateur d’avoir à remonter tout l’historique off-chain.
+
+#### MPC Proof
+
+Le second champ, la `MPC Proof`, se rapporte à la preuve que ce contrat précis (par exemple `c_i`) est bien inclus dans le _Multi Protocol Commitment_. Il s’agit d’une combinaison de :
+- `pos_i`, la position de ce contrat dans l’arbre du MPC ;
+- `cofactor`, la valeur définie pour résoudre les collisions de positions ;
+- la `Merkle Proof`, c’est-à-dire l’ensemble des nœuds et hachages permettant de reconstruire la racine du MPC et de vérifier que l’identifiant de contrat et son `Transition Bundle` sont bien engagés dans la racine.
+
+Ce mécanisme a été décrit dans la section précédente consacrée à la construction du *MPC Tree*, où chaque contrat obtient une feuille unique grâce à l’opération :
+
+```txt
+pos(c_i) = c_i mod (w - cofactor)
+```
+
+Puis, on utilise un schéma de _merkelization_ déterministe pour agréger toutes les feuilles (contrats + entropie). La `MPC Proof` permet, au final, de reconstituer localement la racine et de la comparer au `mpc::Commitment` inclus on-chain.
+
+#### Extra Transaction Proof – ETP
+
+Le troisième champ, l’**ETP**, dépend du type d’engagement utilisé. Si l’engagement est de type `Opret`, aucune preuve supplémentaire n’est requise. Le validateur inspecte la première sortie `OP_RETURN` de la transaction et y retrouve directement le `mpc::Commitment`.
+
+**Si l’engagement est de type `Tapret`**, il faut fournir une preuve additionnelle appelée ***Extra Transaction Proof – ETP***. Elle contient :
+- La clé publique interne (`P`) de la sortie taproot dans laquelle est incrusté le *commitment* ;
+- Les nœuds partenaires du `Script Path Spend` (lorsque le *commitment* Tapret est inséré dans un script), afin de prouver l’emplacement exact de ce script dans l’arbre taproot :
+	- Si le *commitment* `Tapret` se trouve sur la branche de droite, on révèle le nœud de gauche (par exemple `tHABC`),
+	- Si le *commitment* `Tapret` est sur la gauche, il faut divulguer 2 nœuds (par exemple `tHAB` et `tHC`) pour prouver qu’aucun autre *commitment* n’est présent sur la partie de droite.
+- Le `nonce` éventuellement utilisé pour "miner" la meilleure configuration, permettant de placer le *commitment* à droite de l’arbre (optimisation de preuve).
+
+Cette preuve supplémentaire est indispensable, car, contrairement à `Opret`, l’engagement `Tapret` s’intègre dans la structure d’un script taproot, ce qui exige de révéler une partie de l’arbre taproot afin de valider correctement l’emplacement du commitment.
 
 ![RGB-Bitcoin](assets/fr/045.webp)
 
+Les **Anchors** encapsulent donc l’ensemble des informations nécessaires pour valider un engagement Bitcoin dans le contexte de RGB. Ils indiquent à la fois la transaction pertinente (`Txid`) et les preuves de positionnement du contrat (`MPC Proof`), tout en gérant la preuve supplémentaire (`ETP`) dans le cas de `Tapret`. Ainsi, un Anchor protège l’intégrité et l’unicité de l’état off-chain en assurant qu’une même transaction ne puisse être réinterprétée pour d’autres données contractuelles.
+
 ### Conclusion
 
-Nous avons couvert :
-- Comment appliquer le concept de _single-use seals_ dans Bitcoin (en particulier via un _outpoint_).
-- Les différentes méthodes pour insérer de façon déterministe un _commitment_ dans une transaction (Sig tweak, Key tweak, witness tweak, op_return, Taproot/Tapret).
-- Les raisons pour lesquelles RGB se concentre sur les engagements Taproot.
-- La gestion multi-contrat via des _multi-protocol commitments_, indispensable pour ne pas exposer l’intégralité d’un état ou d’autres contrats lorsqu’on veut prouver un point précis.
-
-Nous avons aussi vu l’importance des _anchors_, qui rassemblent tout (le _TXID_ de la transaction, la preuve de l’arbre de Merkle, la preuve Taproot...) dans un même ensemble.
+Nous ce chapitre, nous avons couvert :
+- Comment appliquer le concept de _single-use seals_ dans Bitcoin (en particulier via un _outpoint_) ;
+- Les différentes méthodes pour insérer de façon déterministe un _commitment_ dans une transaction (Sig tweak, Key tweak, witness tweak, op_return, Taproot/Tapret) ;
+- Les raisons pour lesquelles RGB se concentre sur les engagements Taproot ;
+- La gestion multi-contrat via des _multi-protocol commitments_, indispensable pour ne pas exposer l’intégralité d’un état ou d’autres contrats lorsqu’on veut prouver un point précis ;
+- Nous avons aussi vu l’importance des _Anchors_, qui rassemblent tout (le TXID de la transaction, la preuve de l’arbre de Merkle et la preuve Taproot) dans un même ensemble.
 
 En pratique, la mise en œuvre technique est répartie entre plusieurs _crates_ Rust dédiés (dans _client_side_validation_, _commit-verify_, _bp_core_, etc.). Les notions fondamentales sont là :
 
 ![RGB-Bitcoin](assets/fr/046.webp)
 
-Dans les chapitres suivants, nous approfondirons la manière dont on bâtit concrètement un smart contract RGB en assemblant ces briques : comment on encode la logique du contrat, comment on transfère des jetons ou des droits, et comment on tire parti de la modularité offerte par Taproot et les multi-productal commitments pour faire coexister de nombreux contrats ou fonctionnalités au sein d’une seule transaction Bitcoin. Nous verrons aussi les problématiques spécifiques liées à Lightning, et la proposition **Bifrost** pour rendre compatibles les canaux LN avec le protocole RGB et son mécanisme d’ancrage avancé.
+Dans le chapitre suivant, nous plongerons dans la composante purement off-chain de **RGB**, à savoir la logique des contrats. Nous verrons comment les contrats RGB, organisés sous forme de _finite state machine_ partiellement répliquée, atteignent une expressivité bien plus élevée que celle autorisée par *Bitcoin Script*, tout en préservant la confidentialité de leurs données.
 
 
 ## Explication de l'état RGB

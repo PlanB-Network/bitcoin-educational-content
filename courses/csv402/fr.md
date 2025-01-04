@@ -976,6 +976,108 @@ Dans le chapitre suivant, nous entrerons plus en détail dans la représentation
 
 ![video](https://youtu.be/lUTjeuM0oTA)
 
+Dans ce chapitre, nous allons étudier le fonctionnement des opérations dans les contrats intelligents et des transitions d'état, toujours au sein du protocole RGB. Le but sera également de comprendre comment plusieurs participants coopèrent pour transférer la propriété d’un actif.
+
+### Les transitions d'état et leurs mécaniques
+
+Le principe général est toujours celui de la *client-side validation*, où les données de l’état sont conservées chez le propriétaire et validées par le récepteur. Toutefois, la spécificité ici réside dans le fait que Bob, en tant que récepteur, demande à Alice d’incorporer certaines informations dans les données du contrat afin d’avoir un véritable contrôle sur l’actif reçu, via une référence cachée à l’un de ses UTXOs.
+
+Pour illustrer le processus d’une *State Transition* (qui est l’une des ***Contract Operations*** fondamentales dans RGB), suivons pas à pas l’exemple d’un transfert d’actif entre Alice et Bob :
+
+- **Situation initiale :** 
+
+Alice dispose d’un ***stash RGB*** de données validées en local (*client-side*). Ce stash fait référence à l’un de ses UTXOs sur Bitcoin. Cela signifie qu’une définition de sceau (_seal definition_) pointe, dans ces données, vers un UTXO qui appartient à Alice. L’idée est de lui permettre de transférer à Bob certains droits numériques liés à un actif (par exemple des jetons RGB).
+
+![RGB-Bitcoin](assets/fr/058.webp)
+
+- **Bob possède également des UTXOs :**  
+
+Bob, de son côté, détient au moins un UTXO qui lui est propre, sans lien direct avec celui d’Alice. Dans le cas où Bob ne posséderait pas d'UTXO, il reste tout de même envisageable de procéder au transfert à son bénéfice en utilisant la transaction témoin (*witness transaction*) elle-même : l’output de cette transaction inclura alors l’engagement (_commitment_) et associera implicitement la propriété du nouveau contrat à Bob.
+
+![RGB-Bitcoin](assets/fr/059.webp)
+
+- **Construction de la nouvelle propriété (*New State*) :**  
+
+Bob envoie à Alice des informations encodées sous forme d’***invoice*** (nous détaillerons dans les prochains chapitres la construction de l'invoice) lui demandant de créer un nouvel état conforme aux règles du contrat. Cet état inclura une référence scellée (nouvelle *seal definition*) pointant vers l’un des UTXOs de Bob, mais de façon cachée. Ainsi, Bob se voit attribuer la propriété sur les actifs définis dans ce nouvel état, par exemple un certain montant de jetons RGB.
+
+![RGB-Bitcoin](assets/fr/060.webp)
+
+- **Préparation de la transaction témoin :**  
+
+Alice crée ensuite une transaction Bitcoin dépensant l'UTXO référencé dans le sceau précédent (celui qui la légitimait comme détentrice). Dans la sortie de cette transaction, un ***commitment*** (via `Opret` ou `Tapret`) est inséré pour ancrer le nouvel état RGB. Les engagements `Opret` ou `Tapret` sont dérivés d’un **MPC tree** (comme vu dans les chapitres précédents), qui peut agréger plusieurs transitions de différents contrats.
+
+- **Transmission du *Consignment* à Bob :**  
+
+Avant de diffuser la transaction, Alice envoie à Bob un ***Consignment*** contenant l’intégralité des données *client-side* nécessaires (son *stash*) ainsi que les informations du nouvel état en faveur de Bob. À ce stade, Bob applique les règles de consensus RGB :
+- Il **valide toutes les données RGB** contenues dans le *Consignment*, y compris le nouvel état qui lui octroie la propriété de l’actif ;
+- En s’appuyant sur les ***Anchors*** inclus dans le *Consignment*, il **vérifie la chronologie** des transactions témoins (depuis la Genesis jusqu’à la transition la plus récente) et valide les engagements correspondants dans la blockchain.
+
+- **Finalisation de la transition :**  
+
+Si Bob est satisfait, il peut éventuellement donner son approbation (par exemple en signant le *consignment* via GPG). Alice peut alors diffuser la transaction témoin préparée. Une fois confirmée, celle-ci clos le sceau précédemment détenu par Alice et officialise la propriété par Bob. La sécurité anti double-dépense se base alors sur le même mécanisme que dans Bitcoin : l’UTXO est dépensé, ce qui prouve qu’Alice ne peut plus le réutiliser.
+
+![RGB-Bitcoin](assets/fr/061.webp)
+Le nouvel état référence désormais l'UTXO de Bob, ce qui confère à celui-ci la propriété que détenait précédemment Alice. La sortie Bitcoin où sont ancrées les données RGB devient la preuve irrévocable du transfert de propriété.
+
+Un exemple de **DAG** (*Directed Acyclic Graph*) minimal comprenant deux opérations de contrat (une **Genesis** puis un ***State Transition***) peut illustrer comment l’état RGB (couche *client-side*, en rouge) se relie à la blockchain Bitcoin (couche *Commitment*, en orange).  
+
+![RGB-Bitcoin](assets/fr/062.webp)
+
+On y voit qu’une Genesis définit un sceau (*seal definition*), puis qu’une *State Transition* vient clore ce sceau pour en créer un nouveau dans un autre UTXO.
+
+Dans ce contexte, voici quelques rappels de terminologie :
+- Une ***Assignment*** associe :
+    - Une ***Seal Definition*** (qui pointe vers un UTXO) ;
+    - Des **Owned States**, c’est-à-dire des données liées à la propriété (par exemple, la quantité de tokens transférés).
+- Un **Global State** rassemble des propriétés générales du contrat, visibles par tous, et assurant la cohérence globale des évolutions.
+
+Les **State Transitions**, décrites dans le chapitre précédent, constituent la forme principale d’opérations de contrat. Elles se réfèrent à un ou plusieurs états antérieurs (issus de la Genesis ou d’une autre State Transition) et les mettent à jour vers un nouvel état.
+
+![RGB-Bitcoin](assets/fr/063.webp)
+
+Ce schéma montre comment, dans un *State Transition Bundle*, on peut clore plusieurs sceaux en une seule transaction témoin, en ouvrant simultanément de nouveaux sceaux.
+
+Une caractéristique intéressante du protocole RGB est sa possibilité de passage à l'échelle : plusieurs transitions peuvent être agrégées dans un Transaction Bundle, chaque agrégation étant associée à une feuille distincte du MPC tree (un identifiant de bundle unique). Grâce au mécanisme de *Deterministic Bitcoin Commitment* (DBC), l’ensemble du message est inséré dans une ou plusieurs sorties `Tapret` ou `Opret`, tout en fermant les sceaux précédents et en définissant éventuellement de nouveaux sceaux. L’*Anchor* sert de lien direct entre l’engagement stocké dans la blockchain et la structure de validation côté client (*client-side*).
+
+Nous étudierons dans les chapitre suivants tous les composants et les processus liés à la construction et à la validation d’une State Transition. La plupart de ces éléments relèvent du consensus RGB, implémenté dans la **RGB Core Library**.
+
+### Transition Bundle
+
+Sur RGB, il est possible de regrouper différentes State Transitions appartenant au même contrat (c’est-à-dire partageant le même **ContractId**, dérivé du **OpId** de la Genesis). Dans le cas le plus simple, comme entre Alice et Bob dans l’exemple ci-dessus, un **Transition Bundle** ne contient qu’une seule transition. Mais la prise en charge des opérations **multi-payer** (comme par exemple des coinjoins, des ouvertures de canaux Lightning, etc.) permet à plusieurs utilisateurs de combiner leurs State Transitions en un seul bundle.
+
+Une fois rassemblées, ces transitions sont ancrées (par le mécanisme MPC + DBC) dans une unique transaction Bitcoin :
+- Chaque State Transition est hashée et regroupée en un **Transition Bundle** ;
+- Le **Transaction Bundle** est lui-même hashé et inséré dans la feuille du MPC tree correspondant à ce contrat (un **BundleId**) ;
+- Le MPC tree est finalement **engagé** via `Opret` ou `Tapret` dans la transaction témoin, qui ferment ainsi les sceaux consommés et définissent les nouveaux sceaux.
+
+Sur le plan technique, le **BundleId** inséré dans la feuille MPC est obtenu à partir d’un tagged hash appliqué à la sérialisation stricte du champ *InputMap* du bundle :
+
+```txt
+BundleId = SHA256( SHA256(bundle_tag) || SHA256(bundle_tag) || InputMap )
+```
+
+Dans lequel : `bundle_tag = urn:lnp-bp:rgb:bundle#2024-02-03`. L’***InputMap*** est une structure de données qui répertorie, pour chaque entrée `i` de la transaction témoin, la référence à l’*OpId* de la State Transition correspondante. Par exemple :
+
+```txt
+InputMap =
+         N               input_0    OpId(input_0)    input_1    OpId(input_1)   ...    input_N-1  OpId(input_N-1)    
+|____________________| |_________||______________| |_________||______________|       |__________||_______________|
+ 16-bit Little Endian   32-bit LE   32-byte hash                                         
+                       |_________________________| |_________________________|  ...  |___________________________|
+                               MapElement1                MapElement2                       MapElementN 
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Glossaire RGB
 <chapterId>545e16a4-3cca-44a3-9fd5-dbc5868abf97</chapterId>

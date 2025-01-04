@@ -55,7 +55,7 @@ class MDObjectDetector:
                 return key, {'content': value, 'translate': False}
                 
             if key == 'objectives':
-                return key, []
+                return key, None
                 
             return key, value
         except ValueError:

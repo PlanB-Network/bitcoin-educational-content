@@ -1067,6 +1067,55 @@ InputMap =
                                MapElement1                MapElement2                       MapElementN 
 ```
 
+- `N` est le nombre total d’entrées de la transaction qui se réfèrent à un `OpId`;
+- `OpId(input_j)` est l’identifiant d’opération d’une des State Transitions présentes dans le bundle.
+
+En référençant chaque entrée une seule fois et de manière ordonnée, on empêche la double-dépense d’un même sceau dans deux State Transitions simultanées.
+
+### State Generation et Active State
+
+Les State Transitions permettent donc de transférer la propriété d’un actif d’une personne à une autre. Cependant, ce ne sont pas les seules opérations possibles dans le protocole RGB. Le protocole définit trois **Contract Operations** :
+- **State Transition**
+- **Genesis**
+- **State Extension**
+
+Parmi celles-ci, **Genesis** et **State Extension** sont parfois appelées "*State Generation operations*", car elles créent de nouveaux états sans pour autant en refermer immédiatement. C’est d'ailleurs un point très important : **Genesis** et **State Extension** n’impliquent pas la fermeture d’un sceau. Elles définissent plutôt un nouveau sceau, qui devra ensuite être dépensé par une **State Transition** ultérieure pour être réellement validé dans l’historique de la blockchain.
+
+![RGB-Bitcoin](assets/fr/064.webp)
+
+On définit souvent l’**Active State** d’un contrat comme l’ensemble des derniers états résultant de l’historique (le DAG) des opérations, en commençant par la Genesis et en suivant tous les ancrages dans la blockchain Bitcoin. Tous les anciens états déjà obsolètes (c’est-à-dire attachés à des UTXOs dépensés) ne sont plus considérés comme actifs, mais restent indispensables pour vérifier la cohérence de l’historique.
+
+### Genesis
+
+La Genesis est le point de départ de tout contrat RGB. Elle est créée par l’émetteur du contrat et définit les paramètres initiaux, conformément au **Schema**. Dans le cas d’un token RGB, la Genesis peut spécifier, par exemple :
+- La quantité de jetons créée à l’origine et leurs propriétaires ;
+- Le plafond total d’émission possible ;
+- Les éventuelles règles de réémission, et quels participants peuvent y prétendre.
+
+Étant la première opération du contrat, la Genesis ne référence aucun état antérieur, ni ne ferme aucun sceau. Toutefois, pour apparaître dans l’historique et être validée, la Genesis doit être **consommée** (refermée) par une première State Transition (souvent un auto-spend vers l’émetteur lui-même ou la première distribution aux utilisateurs).
+
+### State Extension
+
+Les **State Extensions** offrent une fonctionnalité originale pour des smart contracts. Elles permettent de racheter certains droits numériques (*Valencies*) prévus dans la définition du contrat, sans fermer immédiatement le sceau. Le plus souvent, cela concerne :
+- Des émissions distribuées de tokens ;
+- Des mécanismes de swap entre actifs ;
+- Des réémissions conditionnelles (pouvant inclure la destruction d’autres actifs, etc.).
+
+Sur le plan technique, une **State Extension** référence un Redeem (un type particulier d’input RGB) qui correspond à une *Valency* définie précédemment (par exemple dans la Genesis ou dans une autre State Transition). Elle définit un nouveau sceau, à la disposition de la personne ou de la condition qui en bénéficie. Pour que ce sceau soit rendu effectif, il faudra qu’une **State Transition** ultérieure vienne le dépenser.
+
+![RGB-Bitcoin](assets/fr/065.webp)
+
+Par exemple : la Genesis crée un droit d’émission (*Valency*). Celui-ci peut être exercé par un acteur autorisé, qui construit alors une State Extension :
+- Elle référence la Valency (redeem) ;
+- Elle crée un nouvel *assignement* (nouvelles données *Owned State*) pointant vers un UTXO ;
+- Une State Transition future, émise par le propriétaire de ce nouvel UTXO, viendra réellement transférer ou répartir les jetons nouvellement émis.
+
+
+
+
+
+
+
 
 
 

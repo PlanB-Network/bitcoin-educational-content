@@ -1110,22 +1110,360 @@ Par exemple : la Genesis crée un droit d’émission (*Valency*). Celui-ci peut
 - Elle crée un nouvel *assignement* (nouvelles données *Owned State*) pointant vers un UTXO ;
 - Une State Transition future, émise par le propriétaire de ce nouvel UTXO, viendra réellement transférer ou répartir les jetons nouvellement émis.
 
+### Composants d’une Contract Operation
+
+Maintenant, je vous propose d'examiner de manière détaillée chacun des éléments constitutifs d’une **Contract Operation** dans RGB. Une Contract Operation est l’entité qui permet de modifier l’état d’un contrat, et dont la validation se fait côté client, de manière déterministe, par le destinataire légitime. Nous allons notamment voir comment la Contract Operation prend en compte, d’un côté, l’**ancien état** (*Old State*) du contrat, et de l’autre côté, la définition d’un **nouvel état** (*New State*).
+
+```txt
+               +---------------------------------------------------------------------------------------------------------------------+
+               |  Contract Operation                                                                                                 |
+               |                                                                                                                     |
+               |  +-----+     +-----------------------+      +--------------------------------+      +---------+     +------------+  |                             
+               |  | Ffv |     | ContractId | SchemaId |      | TransitionType | ExtensionType |      | Testnet |     | AltLayers1 |  |                               
+               |  +-----+     +-----------------------+      +--------------------------------+      +---------+     +------------+  |     
+               |                                                                                                                     |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |
+               |  | Metadata                                      |  | Global State                                               |  |
+               |  |                                               |  | +----------------------------------+                       |  |
+               |  | +-------------------------------------+       |  | | +-------------------+ +--------+ |                       |  |
+               |  | |          Structured Data            |       |  | | |  GlobalStateType  | |  Data  | |     ...     ...       |  |
+               |  | +-------------------------------------+       |  | | +-------------------+ +--------+ |                       |  |
+               |  |                                               |  | +----------------------------------+                       |  |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |         +------+
+               |                                                                                                                     +---------> OpId |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |         +------+
+               |  | Inputs                                        |  | Assignments                                                |  |
+               |  |                                               |  |                                                            |  |
+               |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
+               |  | | Input #1                                  | |  | | Assignment #1                                          | |  |
++------+       |  | | +----------+ +----------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
+| OpId +--------------> PrevOpId | | AssignmentType | | Index | | |  | | | AssignmentType | | Owned State | | Seal Definition +--------------> Bitcoin UTXO |
++------+       |  | | +----------+ + ---------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
+               |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |         
+               |  |                                               |  |                                                            |  |         
+               |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |         
+               |  | | Input #2                                  | |  | | Assignment #2                                          | |  |         
++------+       |  | | +----------+ +----------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
+| OpId +--------------> PrevOpId | | AssignmentType | | Index | | |  | | | AssignmentType | | Owned State | | Seal Definition +--------------> Bitcoin UTXO |
++------+       |  | | +----------+ +----------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
+               |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
+               |  |                                               |  |                                                            |  |
+               |  |       ...           ...          ...          |  |     ...          ...             ...                       |  |
+               |  |                                               |  |                                                            |  |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |
+               |                                                                                                                     |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |
+               |  | Redeems                                       |  | Valencies                                                  |  |
+               |  |                                               |  |                                                            |  |            
+               |  | +------------------------------+              |  |                                                            |  |   
++------+       |  | | +----------+ +-------------+ |              |  |  +-------------+  +-------------+                          |  |            
+| OpId +--------------> PrevOpId | | ValencyType | |  ...   ...   |  |  | ValencyType |  | ValencyType |         ...              |  |    
++------+       |  | | +----------+ +-------------+ |              |  |  +-------------+  +-------------+                          |  |    
+               |  | +------------------------------+              |  |                                                            |  |   
+               |  |                                               |  |                                                            |  |      
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |    
+               |                                                                                                                     |    
+               +---------------------------------------------------------------------------------------------------------------------+
+```
+
+En observant le schéma ci-dessus, on note qu’une Contract Operation comporte des éléments se rapportant au **New State** et d’autres qui font référence à l’**Old State** mis à jour.
+
+Les éléments du **New State** sont :
+- Les **Assignments**, dans lesquels sont définis :
+	- La **Seal Definition** ;
+	- Les **Owned State**.
+- Le **Global State**, qui peut être modifié ou enrichi ;
+- Les **Valencies**, éventuellement définis dans une State Transition ou une Genesis.
+
+L’**Old State** est référencé via :
+- Les **Inputs**, qui pointent vers des *Assignments* de transitions d’état précédentes (pas présents dans la Genesis) ;
+- Les **Redeems**, qui font référence à des Valencies antérieurement définies (uniquement dans les State Extensions).
+
+Par ailleurs, une Contract Operation inclut des champs plus généraux, propres à l’opération :
+- `Ffv` (*Fast-forward version*) : entier de 2 octets indiquant la version du contrat ;
+- `TransitionType` ou `ExtensionType` : entier 16 bits spécifiant le type de Transition ou d’Extension, selon la logique métier ;
+- `ContractId` : nombre de 32 octets renvoyant à l’*OpId* de la Genesis du contrat. Inclus dans les Transitions et Extensions, mais pas dans la Genesis ;
+- `SchemaId` : présent uniquement dans la Genesis, c’est le hash de 32 octets représentant la structure (*Schema*) du contrat ;
+- `Testnet` : booléen indiquant si l’on est sur le réseau de Testnet ou Mainnet. Seulement dans la Genesis ;
+- `Altlayers1` : variable identifiant la couche alternative (sidechain ou autre) utilisée pour ancrer les données en plus de Bitcoin. Présente uniquement dans la Genesis ;
+- `Metadata` : champ pouvant stocker des informations temporaires, utiles à la validation d’un contrat complexe, mais qui ne doivent pas être enregistrées dans l’historique d’état final.
+
+Enfin, tous ces champs sont condensés par un procédé de hachage personnalisé, afin de produire une empreinte unique, l’`OpId`. Cet `OpId` est ensuite intégré au Transition Bundle, ce qui permettra de l’authentifier et de le valider au sein du protocole.
+
+Chaque *Contract Operation* est donc identifiée par un hash de 32 octets nommé `OpId`. Ce hash est calculé par un hachage SHA256 de l’ensemble des éléments composant l’opération. Autrement dit, chaque *Contract Operation* dispose de son propre engagement cryptographique, qui inclut toutes les données permettant de vérifier l’authenticité et la cohérence de l’opération.
+
+Un contrat RGB est ensuite identifié par un `ContractId`, dérivé de l’`OpId` de la Genesis (puisqu’il n’y a pas d’opération antérieure à la Genesis). Concrètement, on prend l’`OpId` de la Genesis, on en inverse l’ordre des octets et on applique un encodage Base58. Cette représentation rend le `ContractId` plus facilement manipulable et reconnaissable.
+
+### Méthodes et règles de mise à jour de l’état
+
+Le **Contract State** représente l’ensemble des informations que le protocole RGB doit suivre pour un contrat donné. Il se compose :
+- **D’un seul Global State** : c’est la partie publique et globale du contrat, visible par tous ;
+- **D’un ou plusieurs Owned State** : chaque Owned State est associé à un sceau unique (et donc à un UTXO sur Bitcoin). On distingue :
+    - Les Owned States **publics**,
+    - Les Owned States **privés**.
+
+![RGB-Bitcoin](assets/fr/066.webp)
+
+Le *Global State* est directement inclus dans la *Contract Operation* sous la forme d’un bloc unique. Les *Owned States* sont, eux, définis dans chaque *Assignment*, à côté de la *Seal Definition*.
+
+Une particularité majeure de RGB est la manière dont on modifie le Global State et les Owned States. On distingue généralement deux comportements :
+- **Mutable** : lorsqu’un élément d’état est décrit comme mutable, chaque nouvelle opération remplace l’état précédent par un nouvel état. L’ancienne donnée est alors considérée comme obsolète ;
+- **Accumulating** : lorsqu’un élément d’état est défini comme cumulatif, chaque nouvelle opération vient ajouter une information supplémentaire à l’état précédent, sans l’écraser. On obtient ainsi une sorte d’historique accumulé.
+
+Si, dans le contrat, un élément d’état n’est pas défini comme mutable ou cumulatif, cet élément restera vide pour les opérations ultérieures (autrement dit, il n’y a aucune nouvelle version pour ce champ). C'est le Schema du contrat (c’est-à-dire la logique métier codée) qui détermine si un état (Global ou Owned) est mutable, cumulatif ou fixe. Une fois la Genesis définie, ces propriétés ne peuvent être modifiées que si le contrat lui-même l’autorise, par exemple via une State Extension spécifique.
+
+Le tableau ci-dessous illustre comment chaque type de Contract Operation peut manipuler (ou non) le Global State et l’Owned State :
+
+|                              | Genesis | State Extension | State Transition |
+| ---------------------------- | :-----: | :-------------: | :--------------: |
+| **Ajout de Global State**    |    +    |        -        |        +         |
+| **Mutation de Global State** |   n/a   |        -        |        +         |
+| **Ajout de Owned State**     |    +    |        -        |        +         |
+| **Mutation de Owned State**  |   n/a   |       Non       |        +         |
+| **Ajout de Valencies**       |    +    |        +        |        +         |
+
+**`+`** : action possible si le Schema du contrat le permet.
+**`-`** : l’opération doit être confirmée par une State Transition ultérieure (la State Extension, seule, ne ferme pas le sceau).
+
+Par ailleurs, on peut distinguer la portée temporelle et les droits de mise à jour de chaque type de données dans le tableau suivant :
+
+|                                 | **Metadata**                             | **Global State**                               | **Owned State**                                                                                              |
+| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Portée**                      | Défini pour une seule Contract Operation | Défini globalement pour le contrat             | Défini pour chaque sceau (*Assignment*)                                                                      |
+| **Qui peut le mettre à jour ?** | Non réactualisable (données éphémères)   | Opération émise par les acteurs (issuer, etc.) | Dépend du détenteur légitime qui possède le sceau (celui qui peut le dépenser dans une transaction suivante) |
+| **Portée temporelle**           | Juste pour l’opération en cours          | L’état est établi à l’issue de l’opération     | L’état est défini avant l’opération (par la *Seal Definition* de l’opération précédente)                     |
+
+### Global State
+
+Le Global State se décrit souvent par la formule : "*personne ne possède, tout le monde sait*". Il contient des informations générales sur le contrat, visibles publiquement. Par exemple, dans un contrat d’émission de jetons, on y retrouve potentiellement :
+- Le ticker (abréviation symbolique du jeton) : `ticker` ;
+- Le nom complet du jeton : `name` ;
+- La précision (nombre de décimales) : `precision` ;
+- L’approvisionnement initial (et/ou la limite maximale de tokens) : `issuedSupply` ;
+- La date d’émission : `created` ;
+- Des données légales ou tout autre information publique : `data`.
+
+Ce Global State peut être placé sur des ressources publiques (sites web, IPFS, Nostr, Torrent, etc.) et diffusé auprès de la communauté. Par contre, l’incitation économique (le besoin de détenir et de transférer ces tokens, etc.) pousse naturellement les utilisateurs du contrat à maintenir eux-mêmes et à propager ces données.
+
+### Assignments
+
+L’*Assignment* est la structure de base permettant de définir :
+- Le sceau (*Seal Definition*), qui pointe vers un UTXO spécifique ;
+- L'*Owned State*, c’est-à-dire la propriété ou les données associées à ce sceau.
+
+On peut voir un *Assignment* comme l’analogue d’une sortie de transaction Bitcoin, mais avec plus de flexibilité. C’est ici que réside la logique de transfert de propriété : l’*Assignment* associe un type particulier d’actif ou de droit (`AssignmentType`) à un sceau. Quiconque possède la clé privée de l’UTXO lié à ce sceau (ou qui peut dépenser cet UTXO) est considéré comme le propriétaire de cet *Owned State*.
+
+Une des grandes forces de RGB réside dans la possibilité de révéler (*reveal*) ou de cacher (*conceal*) à volonté les champs du *Seal Definition* et de l’*Owned State*. Cela offre une combinaison poussée de confidentialité et de sélectivité. Par exemple, on peut prouver qu’une transition est valide sans divulguer la totalité des données, dès lors qu’on fournit la version révélée à celui qui doit la valider, tandis que les tiers ne voient que la version cachée (un hash). Dans la pratique, l’`OpId` d’une transition est toujours calculé à partir des données cachées (*concealed*).
+
+![RGB-Bitcoin](assets/fr/067.webp)
+
+#### Seal Definition
+
+La *Seal Definition*, dans sa forme révélée, comporte quatre champs de base : `txptr`, `vout`, `blinding` et `method` :
+- **txptr** : c'est une référence à un UTXO sur Bitcoin :
+    - Dans le cas d’un **Genesis seal**, on pointe directement vers un UTXO existant (celui associé à la Genesis) ;
+    - Dans le cas d’un **Graph seal**, on peut avoir :
+        - Un simple `txid`, si on pointe vers un UTXO précis ;
+        - Ou un `WitnessTx`, qui désigne une auto-référence : le sceau pointe vers la transaction elle-même. Cela sert notamment quand aucun UTXO externe n’est disponible, par exemple dans des transactions d’ouverture de canal Lightning ou si le destinataire ne possède pas d’UTXO.
+- **vout** : le numéro de sortie de la transaction indiquée par `txptr`. Présent uniquement pour un Graph seal standard (pas pour le `WitnessTx`) ;
+- **blinding** : un nombre aléatoire de 8 octets, qui permet de renforcer la confidentialité pour éviter les tentatives de brute force sur l’identité de l’UTXO ;
+- **method** : indique la méthode d’ancrage utilisée (`Tapret` ou `Opret`).
+
+La forme cachée (*concealed*) de la Seal Definition est un hash SHA256 (tagged) de la concaténation de ces 4 champs, avec un tag spécifique à RGB.
+
+![RGB-Bitcoin](assets/fr/068.webp)
+
+#### Owned States
+
+Le second composant de l’*Assignment* est l’Owned State, c’est-à-dire la donnée associée à l’*Assignment*. Contrairement au Global State, il peut exister sous forme publique ou privée :
+- **Public Owned State** : tout le monde connaît la donnée associée au sceau. Par exemple, une image publique ;
+- **Private Owned State** : la donnée est cachée, seul le propriétaire (et potentiellement le validateur si nécessaire) la connaît. Par exemple, la quantité de jetons détenue.
+
+RGB définit quatre types d’état (*StateTypes*) possibles pour un Owned State :
+- **Declarative** : ne contient aucune donnée numérique, c’est juste un droit déclaratif (par exemple un droit de vote). La forme cachée et la forme révélée sont identiques ;
+- **Fungible** : représente une quantité fongible (comme des jetons). En forme révélée, on a `amount` et `blinding`. En forme cachée, on a un unique *Pedersen commitment* qui dissimule le montant et le blinding ;
+- **Structured** : permet de stocker des données structurées (jusqu’à 64 Kio). En forme révélée, c’est le blob de données. En forme cachée, c’est un hash tagué de ce blob :
+
+```txt
+SHA-256(SHA-256(tag_data) || SHA-256(tag_data) || blob)
+```
+
+Avec :
+
+```txt
+tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
+```
+
+- **Attachments** : permet de relier un fichier (audio, image, binaire, etc.) à l’Owned State, en stockant le hash du fichier `file_hash`, le type MIME `media type` et un sel cryptographique `salt`. Le fichier lui-même est hébergé ailleurs. En forme cachée, c’est un hash tagué des trois données précédentes :
+
+```txt
+SHA-256(SHA-256(tag_attachment) || SHA-256(tag_attachment) || file_hash || media_type || salt)
+```
+
+Avec :
+
+```txt
+tag_attachment = urn:rgb:state-attach#2024-02-12
+```
+
+Pour résumer, voici les 4 types d'états possibles dans la forme publique et cachée :
+
+```txt
+  State                      Concealed form                              Revealed form
+
++---------------------------------------------------------------------------------------------------------
+
+                     +--------------------------------------------------------------------------------+
+                     |                                                                                |
+  Declarative        |                              < void >                                          |
+                     |                                                                                |
+                     +--------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------
+
+                     +--------------------------+             +---------------------------------------+
+                     | +----------------------+ |             |         +--------+ +----------+       |
+  Fungible           | | Pedersen Commitement | | <========== |         | Amount | | Blinding |       |
+                     | +----------------------+ |             |         +--------+ +----------+       |
+                     +--------------------------+             +---------------------------------------+
+
++---------------------------------------------------------------------------------------------------------
+
+                     +--------------------------+             +---------------------------------------+
+                     | +----------------------+ |             |         +--------------------+        |
+  Structured         | |     Tagged Hash      | | <========== |         |     Data Blob      |        |
+                     | +----------------------+ |             |         +--------------------+        |
+                     +--------------------------+             +---------------------------------------+
+
++---------------------------------------------------------------------------------------------------------
+
+                     +--------------------------+             +---------------------------------------+
+                     | +----------------------+ |             | +-----------+ +------------+ +------+ |
+  Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Media Type | | Salt | |
+                     | +----------------------+ |             | +-----------+ +------------+ +------+ |
+                     +--------------------------+             +---------------------------------------+
+
+```
 
 
+Pour résumer :
 
+| **Élément**           | **Déclaratif** | **Fongible**                         | **Structuré**                 | **Pièces jointes**           |
+| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
+| **Données**           | Aucune         | Entier signé ou non signé de 64 bits | Tout type de données strictes | Tout fichier                 |
+| **Type d'info**       | Aucune         | Signé ou non signé                   | Types stricts                 | Type MIME                    |
+| **Confidentialité**   | Non requise    | Pedersen commitment                  | Hachage avec blinding         | Identifiant de fichier haché |
+| **Limites de taille** | N/A            | 256 octets                           | Jusqu’à 64 Ko                 | Jusqu’à ~500 Go              |
 
+### Inputs
 
+Les Inputs d’une *Contract Operation* font référence aux *Assignments* qui sont en train d’être dépensés dans cette nouvelle opération. Un Input indique :
+- `PrevOpId` : l’identifiant (`OpId`) de l’opération précédente où se trouvait l’*Assignment* ;
+- `AssignmentType` : le type d’*Assignment* (par exemple, `assetOwner` pour un token) ;
+- `Index` : l’index de l’*Assignment* dans la liste associée à l’`OpId` précédent, déterminé après un tri lexicographique des sceaux cachés.
 
+Les Inputs n’apparaissent jamais dans la Genesis, puisqu’il n’y a pas d’Assignments antérieurs. Ils n’apparaissent pas non plus dans les State Extensions (car ces dernières ne ferment pas de sceau ; elles redéfinissent plutôt de nouveaux sceaux en se basant sur des Valencies).
 
+Lorsqu’on a des Owned States de type `Fungible`, la logique de validation (via l’AluVM script prévu dans le Schema) vérifie la cohérence des sommes : la somme de jetons entrants (*Inputs*) doit égaler la somme de jetons sortants (dans les nouveaux *Assignments*).
 
+### Metadata
 
+Le champ **Metadata** peut aller jusqu’à 64 KiB et sert à inclure des données temporaires utiles à la validation, mais sans être intégrées dans l’état permanent du contrat. Par exemple, on peut y stocker des variables de calcul intermédiaires pour des scripts complexes. Cet espace n’est pas destiné à être conservé dans l’historique global, ce qui explique pourquoi il se trouve hors du périmètre des Owned States ou du Global State.
 
+### Valencies
 
+Les **Valencies** sont un mécanisme original du protocole RGB. On peut les rencontrer dans la Genesis, les State Transitions ou les State Extensions. Elles représentent des droits numériques activables par une State Extension (via des *Redeems*), puis finalisés par une Transition ultérieure. Chaque Valency est identifiée par un `ValencyType` (16 bits). Sa sémantique (droit de réémission, swap de jetons, droit de burn, etc.) est définie dans le Schema.
 
+Concrètement, on peut imaginer qu’une Genesis définisse une valency "droit de réémission". Une State Extension viendra la consommer (*Redeem*) si certaines conditions sont remplies, afin d’introduire une nouvelle quantité de jetons. Puis, une State Transition émanant du détenteur du sceau ainsi créé pourra transférer ces nouveaux jetons.
 
+### Redeems
 
+Les Redeems sont l’équivalent, pour les Valencies, de ce que sont les Inputs pour les Assignments. Ils n’apparaissent que dans les State Extensions, car c’est là qu’on active une Valency préalablement définie. Un Redeem comporte deux champs :
+- `PrevOpId` : l’`OpId` de l’opération où la Valency a été spécifiée ;
+- `ValencyType` : le type de Valency que l’on souhaite activer (chaque `ValencyType` ne peut être consommé qu’une seule fois par State Extension).
 
+Exemple : un Redeem peut correspondre à une exécution de CoinSwap, suivant ce qui était codé dans la Valency.
 
+### Caractéristiques de l'état RGB
+
+Nous allons maintenant étudier plusieurs caractéristiques fondamentales de l’état dans RGB. Nous allons notamment voir ce que sont :
+- Le **Strict Type System**, qui impose une organisation précise et fortement typée des données ;
+- L’importance de la séparation entre **validation** et **propriété** ;
+- Le système d’**évolution du consensus** dans RGB, qui inclut les notions de *fast-forward* et de *push-back*.
+
+Comme à chaque fois, gardez à l’esprit que tout ce qui concerne l’état du contrat est validé côté client selon des règles de consensus énoncées dans le protocole, et dont l’ultime référence cryptographique est ancrée dans des transactions Bitcoin.
+
+#### Strict Type System
+
+RGB se caractérise par un *Strict Type System* et un mode de sérialisation déterministe (*Strict Encoding*). Cette organisation est conçue pour garantir une **reproductibilité** et une **précision parfaite** dans la définition, la manipulation et la validation des données du contrat.
+
+Dans de nombreux environnements de programmation (JSON, YAML…), la structure des données peut être flexible, voire trop permissive. Dans RGB, au contraire, la **Structure** et les **Types** de chaque champ sont définis avec des contraintes explicites. Ainsi :
+- Chaque variable possède un **type précis** (par exemple un entier non signé sur 8 bits `u8`, ou un entier signé sur 16 bits, etc.) ;
+- Les types peuvent se **composer** (types imbriqués). On peut ainsi définir un type basé sur d’autres types (exemple : un type agrégé qui contient un champ `u8`, un champ `bool`, etc.) ;
+- On peut également spécifier des **collections** : listes (*list*), ensembles (*set*) ou dictionnaires (*map*), avec un ordre de parcours **déterministe** ;
+- Chaque champ est **borné** (lower bound / upper bound). De plus, on impose également des bornes au nombre d’éléments dans les collections (confinement) ;
+- Les données sont alignées sur l’octet et la sérialisation se fait de manière strictement définie, sans ambiguïté.
+
+Grâce à ce protocole d’encodage strict :
+- L’**ordre** des champs est toujours le même, indépendamment de l’implémentation ou du langage de programmation utilisé ;
+- Les **hash** calculés sur un même ensemble de données sont donc **reproductibles** et identiques (*commitments* strictement déterministes) ;
+- Les bornes évitent la croissance incontrôlée de la taille des données (ex. nombre de champs trop élevé) ;
+- Cette forme d’encodage facilite la vérification cryptographique, car chaque participant sait exactement comment sérialiser et hasher les données.
+
+En pratique, la structure (*Schema*) et le code qui en découle (*Interface* et logique associée) sont compilés. Il existe un **langage descriptif** qui précise la définition du contrat (types, champs, règles) et génère un format binaire strict. À la compilation, on obtient :
+- Un **Memory Layout** (la disposition en mémoire de chaque champ) ;
+- Des **identifiants sémantiques** (qui indiquent si le changement d’un nom de variable a un impact sur la logique, même si la structure mémoire reste la même).
+
+Le système de types stricts permet aussi de faire un suivi précis des évolutions : toute modification de la structure (même un changement de nom de champ) est détectable et peut entraîner un changement de l’empreinte globale.
+
+Enfin, chaque compilation produit une empreinte, un identifiant cryptographique qui atteste de la version exacte du code (données, règles, validation). Par exemple un identifiant de la forme :
+
+```txt
+BEiLYE-am9WhTW1-oK8cpvw4-FEMtzMrf-mKocuGZn-qWK6YF#ginger-parking-nirvana
+```
+
+Cela permet de gérer les mises à jour de consensus ou d’implémentation, tout en assurant une traçabilité fine des versions employées dans le réseau.
+
+Pour éviter que l’état d’un contrat RGB ne devienne trop lourd à valider côté client, une règle de consensus impose une taille maximale de `2^16` octets (64 Kio) pour toute donnée impliquée dans les calculs de validation. Cela concerne **chaque variable ou structure** : pas plus de 65536 octets, ou l’équivalent en nombres (32768 entiers de 16 bits, etc.). Cela concerne également les **collections** (listes, sets, maps), qui ne peuvent dépasser `2^16` éléments.
+
+Cette limite garantit :
+- Un contrôle sur la **taille maximale** des données à manipuler lors d’une transition d’état ;
+- Une compatibilité avec la machine virtuelle (***AluVM***) utilisée pour exécuter les scripts de validation.
+
+#### Le paradigme Validation != Ownership
+
+L’une des innovations majeures de RGB est la **séparation stricte** entre deux concepts :
+- La **validation** : le fait de vérifier qu’une transition d’état respecte les règles du contrat (logique métier, historique, etc.) ;
+- L’**ownership** (la propriété, ou le contrôle) : le fait de posséder l’UTXO Bitcoin qui permet de dépenser (ou fermer) le sceau et donc de réaliser la transition d’état.
+
+Cette dissociation est illustrée par le schéma ci-dessous où :
+- La **Validation** se fait au niveau de la pile logicielle RGB (les bibliothèques, le protocole de *commitments*, etc.). Son rôle est de s’assurer que les règles internes au contrat (montants, permissions, etc.) sont bien respectées. Les observateurs ou les autres participants peuvent aussi valider l’historique des données ;
+- L’**Ownership**, elle, repose totalement sur la sécurité de Bitcoin. Posséder la clé privée d’un UTXO, c’est contrôler la capacité de lancer une nouvelle transition (fermer le sceau). Ainsi, même si quelqu’un peut voir ou valider les données, il ne peut pas modifier l’état s’il ne détient pas l’UTXO concerné.
+
+![RGB-Bitcoin](assets/fr/069.webp)
+
+Cette approche limite les vulnérabilités classiques rencontrées dans les blockchains plus complexes (où tout le code d’un smart contract est public et modifiable par n’importe qui, ce qui a parfois mené à des hacks). Sur RGB, un attaquant ne peut pas simplement interagir avec l’état on-chain, car le droit d’agir sur l’état (*ownership*) est protégé par la couche Bitcoin.
+
+De plus, ce découplage permet à RGB de **s’intégrer naturellement** avec le Lightning Network. Les canaux LN peuvent servir à engager et à déplacer les actifs RGB sans révéler de données on-chain, conservant ainsi leur confidentialité.
+
+#### Évolutions de consensus dans RGB
+
+Outre le versioning sémantique du code, RGB inclut un système permettant d’évoluer ou de mettre à jour les règles de consensus d’un contrat au fil du temps. On distingue deux grandes formes d’évolution :
+- **Fast-forward**
+- **Push-back**
+
+Un fast-forward survient lorsqu’une règle auparavant non valide devient valide. Par exemple, si le contrat évolue pour autoriser un nouveau type d’`AssignmentType` ou un nouveau champ :
+- On ne peut pas comparer cela à un hardfork blockchain classique, car RGB fonctionne en validation côté client et n’affecte pas la compatibilité globale de la blockchain ;
+- Sur le plan pratique, ce type de changement est indiqué par le champ `Ffv` (fast-forward version) dans l’opération du contrat ;
+- Les détenteurs actuels ne sont pas lésés : leur état reste valide ;
+- Les nouveaux bénéficiaires (ou nouveaux utilisateurs) doivent en revanche mettre à jour leur logiciel (leur wallet) afin de reconnaître les nouvelles règles.
+
+Un push-back signifie qu’une règle jusque-là valide devient invalide. C'est donc un "durcissement" des règles, mais ce n’est pas à proprement parler un softfork :
+- Les détenteurs existants peuvent être impactés (ils pourraient se retrouver avec des actifs rendus obsolètes ou invalides dans la nouvelle version) ;
+- On peut considérer qu’on crée en fait un nouveau protocole : celui qui adopte la nouvelle règle s’écarte de l’ancien ;
+- L’issuer peut décider de réémettre les actifs dans ce nouveau protocole, obligeant les utilisateurs à tenir deux wallets distincts (l’un pour l’ancien protocole, l’autre pour le nouveau), s’ils veulent gérer les deux versions.
+
+Dans ce chapitre consacré aux opérations des contrats RGB, nous avons exploré les principes fondamentaux qui sous-tendent ce protocole. Comme vous l'avez remarqué, la complexité inhérente du protocole RGB implique l'usage de nombreux termes techniques. Ainsi, dans le prochain chapitre, je vous propose un glossaire qui récapitulera tous les concepts abordés dans cette première partie théorique, avec les définitions de tous les termes techniques relatifs à RGB. Ensuite, dans la partie suivante, nous aborderons de manière pratique la définition et l'implémentation des contrats RGB.
 
 
 ## Glossaire RGB

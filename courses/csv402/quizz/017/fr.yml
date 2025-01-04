@@ -1,0 +1,9 @@
+question: Quelle structure garantit la cohérence temporelle des transitions dans RGB ?
+answer: Un DAG (Directed Acyclic Graph)
+wrong_answers:
+  - Une chaîne linéaire simple
+  - Un réseau peer-to-peer dynamique
+  - Un arbre binaire pour les UTXOs
+explanation: |
+  Un DAG permet de structurer les transitions d’état tout en permettant des évolutions parallèles sans incohérences.
+reviewed: false

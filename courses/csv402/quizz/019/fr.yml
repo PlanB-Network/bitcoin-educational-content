@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal des smart contracts dans l'environnement RGB ?
+answer: Mettre en œuvre des accords automatisés sur Bitcoin sans registre centralisé
+wrong_answers:
+  - Faciliter la création de registres centralisés sur Bitcoin
+  - Fournir une interface publique pour toutes les transactions Bitcoin
+  - Simplifier l'exécution des tokens ERC-20 sur Bitcoin
+explanation: |
+  Les smart contracts RGB permettent l’automatisation d’accords tout en évitant l’utilisation de registres centralisés, en s’appuyant sur Bitcoin pour les ancrages cryptographiques.
+reviewed: false

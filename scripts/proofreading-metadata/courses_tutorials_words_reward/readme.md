@@ -4,3 +4,5 @@ In order to use it:
 - activate the environment as explained in the "readme" file of the previous folder;
 - activate the dependency to use the excel file with the bash command 
 	>>pip install pandas openpyxl
+- activate the dependency to read yaml files
+	>>pip install pyyaml

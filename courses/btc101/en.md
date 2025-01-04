@@ -74,11 +74,9 @@ It is essential to understand that Bitcoin is a new monetary system that complet
 
 Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology that is different to anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
-After all, we are only at the beginning stages of its adoption, as we have passed the takeoff phase: you are just in time to acquire as much knowledge as you wish regarding this important innovation.
-
 ![image](assets/en/chapter0/3.webp)
 
-The important point here is to understand this new technology in a general way, so we hope you enjoy this course and continue to make progress in this new global monetary paradigm.
+The important point here is to understand this new technology in a general way, so we hope you enjoy this training and continue to make progress in this new global monetary paradigm.
 
 ## The Prehistory of Bitcoin
 
@@ -113,8 +111,6 @@ The cypherpunk movement, deeply rooted in digital activism and cryptography, dre
 Before the emergence of Bitcoin, there had been several attempts to create a digital currency. For example, David Chaum introduced the concept of "anonymous electronic money" with his project "DigiCash" in the 1980s. Unfortunately, due to various constraints, DigiCash never boomed.
 
 Another important precursor is Wei Dai's "B-money". Although it was never implemented, it presented the idea of an anonymous digital currency where fraud detection was performed by a community of evaluators rather than a central authority.
-
-The image below clearly illustrates the development of the movement through its many technological innovations.
 
 ![image](assets/en/chapter0/1.webp)
 
@@ -163,11 +159,11 @@ Money is a highly sophisticated communication tool:
 
 Its function in our world is difficult to artificially replicate. In fact, no individual or group can create money, as it is a natural phenomenon that must emerge from the market and voluntary consensus. In this sense, prices serve as signals and pieces of information that guide society in allocating resources.
 
-For these reasons, gold as money is the result of 4,000 years of monetary Darwinism based on the following Aristotelian functions:
+For these reasons, gold as money is the result of 4,000 years of monetary Darwinism based on three key functions:
 
-- **Store of value**: money can be used to transfer purchasing power into the future, so it needs to be a durable material;
-- **Medium of exchange**: money can be used in exchange for goods and services instead of bartering, thus avoiding the coincidence of wants between traders;
-- **Unit of account**: money also allows us to compare the values of different goods to better understand their relative convenience.
+- Store of value
+- Medium of exchange
+- Unit of account
 
 ![image](assets/en/chapter1/3.webp)
 ![image](assets/en/chapter1/4.webp)
@@ -392,8 +388,7 @@ We will revisit the concept of mining in more details in the [miner chapter](htt
 
 The limit of 21 million is the basis of Bitcoin scarcity, and is guaranteed by two key mechanisms: the adjustment of mining difficulty and the game theory.
 
-- The mining difficulty adjustment is a process that takes place every 2016 blocks, or around two weeks, to ensure that a new block is added to the blockchain every ten minutes on average. This frequency of block creation and the total quantity of bitcoins are both fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems. 
-- The difficulty of finding a valid hash follows a sort of cycle: if the number of miners increases, it means that the number of blocks they find is higher, which brings to a decrease in the average time to find a block. Because of it, the difficulty is increased. As a consequence, the number of blocks that miners find is lowered, which means that the mechanism goes back to the average of 10 miniutes per block. Please see the image below for a visual display.
+- The mining difficulty adjustment is a process that takes place every 2016 blocks, or around two weeks, to ensure that a new block is added to the blockchain every ten minutes on average. This frequency of block creation and the total quantity of bitcoins are both fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems.
 
 ![image](assets/en/chapter4/2.webp)
 
@@ -591,8 +586,6 @@ When you set up a wallet, the software usually creates your private key, usually
 
 You should literally take a blank sheet of paper or print this [template](https://bitcoiner.guide/backup.pdf), and write the word list with a pen, following the presented order neatly and clearly. Be aware that if the ink fades over time, you may lose your funds. Therefore, it is important to keep this piece of paper protected from those environmental factors that could potentially damage it, like moisture or fire.
 
-Please find an example of how to compile the paper here below: the words are fake, so do not use them!
-
 ![image](assets/en/chapter7/0.webp)
 
 ### Our tips for doing it right
@@ -685,7 +678,7 @@ On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creati
 > "We can win a major battle in the arms race and gain a
 > new territory of freedom for several years.” - Satoshi Nakamoto
 
-![image](assets/en/chapter9/7.webp)
+![image](assets/en/chapter9/5.webp)
 
 ### The Bitcoin protocol comes to life
 
@@ -861,8 +854,6 @@ The Hashrate of the Bitcoin network represents the number of attempts made per s
 ![image](assets/en/chapter12/16.webp)
 
 ### What can be found in a block?
-
-![image](assets/en/chapter12/20.webp)
 
 The block header contains several elements such as the time, the difficulty target, the number of the last block, the version used, and the Merkle Root of the previous transactions.
 

@@ -715,7 +715,7 @@ Le 3 janvier 2009, Satoshi inaugure officiellement le réseau Bitcoin en créant
 > “We can win a major battle in the arms race and gain a
 > new territory of freedom for several years.” - Satoshi Nakamoto
 
-![image](assets/fr/chapter9/7.webp)
+![image](assets/fr/chapter9/5.webp)
 
 ### Le protocole Bitcoin commence à vivre
 

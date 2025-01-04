@@ -678,7 +678,7 @@ On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creati
 > "We can win a major battle in the arms race and gain a
 > new territory of freedom for several years.” - Satoshi Nakamoto
 
-![image](assets/en/chapter9/7.webp)
+![image](assets/en/chapter9/5.webp)
 
 ### The Bitcoin protocol comes to life
 
@@ -854,8 +854,6 @@ The Hashrate of the Bitcoin network represents the number of attempts made per s
 ![image](assets/en/chapter12/16.webp)
 
 ### What can be found in a block?
-
-![image](assets/en/chapter12/20.webp)
 
 The block header contains several elements such as the time, the difficulty target, the number of the last block, the version used, and the Merkle Root of the previous transactions.
 

@@ -1,0 +1,48 @@
+[
+  {
+    "type": "yml_property",
+    "key": "question",
+    "content": "When did the block size war occur?",
+    "indent": 0,
+    "translate": true
+  },
+  {
+    "type": "yml_property",
+    "key": "answer",
+    "content": "In 2017.",
+    "indent": 0,
+    "translate": true
+  },
+  {
+    "type": "yml_property",
+    "key": "wrong_answers",
+    "content": [
+      "In 2008.",
+      "In 2010.",
+      "In 2019."
+    ],
+    "indent": 0,
+    "is_list": true,
+    "list_indent": 2,
+    "translate": true
+  },
+  {
+    "type": "yml_property",
+    "key": "explanation",
+    "content": [
+      "The block size war occurred in 2017. This conflict opposed the actors who wanted to modify Bitcoin by increasing the block size to increase transaction capacity, ",
+      "to those who sought to preserve the independence and power of users by keeping the size at 1 MB."
+    ],
+    "indent": 2,
+    "is_multiline": true,
+    "content_indent": 4,
+    "translate": true
+  },
+  {
+    "type": "yml_property",
+    "key": "reviewed",
+    "content": "true",
+    "indent": 0,
+    "translate": false
+  }
+]

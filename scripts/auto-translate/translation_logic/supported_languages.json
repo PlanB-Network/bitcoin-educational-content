@@ -67,16 +67,34 @@
       "code_translator": "NB"
     },
     {
+      "code": "pl",
+      "name": "Polish",
+      "translator": "deepl",
+      "code_translator": "PL"
+    },
+    {
       "code": "pt",
       "name": "Portuguese",
       "translator": "deepl",
       "code_translator": "PT-PT"
     },
     {
+      "code": "ro",
+      "name": "Romanian",
+      "translator": "deepl",
+      "code_translator": "RO"
+    },
+    {
       "code": "ru",
       "name": "Russian",
       "translator": "deepl",
       "code_translator": "RU"
+    },
+    {
+      "code": "th",
+      "name": "Thai",
+      "translator": "openai",
+      "code_translator": "TH"
     },
     {
       "code": "vi",
@@ -89,6 +107,12 @@
       "name": "Chinese Simplified",
       "translator": "deepl",
       "code_translator": "ZH-HANS"
+    },
+    {
+      "code": "zh-Hant",
+      "name": "Chinese Traditional",
+      "translator": "deepl",
+      "code_translator": "ZH-HANT"
     }
   ]
 }

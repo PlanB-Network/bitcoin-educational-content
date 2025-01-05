@@ -97,16 +97,6 @@ class OpenAITranslator(BaseTranslator):
             return text
 
 class FileTranslator:
-    TRANSLATABLE_TYPES = {
-        'yml_property': ['content'],
-        'list': ['content'],
-        'paragraph': ['content'],
-        'markdown_header': ['content'],
-        'quote': ['content'],
-        'snippet': [],
-        'equation': []
-    }
-    
     def __init__(self, config: TranslationConfig):
         self.config = config
         script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -131,7 +121,7 @@ class FileTranslator:
         translator_type = lang['translator']
         if translator_type == "deepl":
             self.translator = DeepLTranslator(
-                config.source_lang.upper(),  # Source language in uppercase for DeepL
+                config.source_lang.upper(),
                 config.target_translator_code
             )
         elif translator_type == "openai":
@@ -143,22 +133,37 @@ class FileTranslator:
             raise ValueError(f"Unsupported translator type: {translator_type}")
 
     def translate_object(self, obj: Dict[str, Any]) -> Dict[str, Any]:
-        obj_type = obj.get('type')
-        if obj_type not in self.TRANSLATABLE_TYPES:
+        """Translate an object based on its type and translation flag"""
+        if not obj.get('translate', True):  # Skip if explicitly marked as non-translatable
             return obj.copy()
-        
+            
         new_obj = obj.copy()
-        fields_to_translate = self.TRANSLATABLE_TYPES[obj_type]
+        obj_type = obj.get('type')
         
-        if not fields_to_translate:
-            return new_obj
-        
-        for field in fields_to_translate:
-            if field in obj:
-                content = obj[field]
-                if content:
-                    new_obj[field] = self.translator.translate_text(str(content))
-        
+        if obj_type == 'yml_property':
+            if obj.get('is_list', False):
+                # Translate each item in the list
+                new_obj['content'] = [
+                    self.translator.translate_text(str(item))
+                    for item in obj['content']
+                ]
+            elif obj.get('is_multiline', False):
+                # Translate each line of multiline content
+                new_obj['content'] = [
+                    self.translator.translate_text(str(line))
+                    for line in obj['content']
+                ]
+            else:
+                # Translate simple content
+                content = obj.get('content')
+                if content is not None:
+                    new_obj['content'] = self.translator.translate_text(str(content))
+                    
+        elif obj_type in ['list', 'paragraph', 'markdown_header', 'quote']:
+            content = obj.get('content')
+            if content:
+                new_obj['content'] = self.translator.translate_text(str(content))
+                
         return new_obj
 
     def translate_file(self, input_path: Union[str, Path], output_path: Union[str, Path]) -> None:

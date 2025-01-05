@@ -18,3 +18,4 @@ translatable:
   - paragraph
   - list
   - markdown_header
+  - quote

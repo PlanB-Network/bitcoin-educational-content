@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from object_detector import MDObjectDetector, YMLObjectDetector, get_detector_for_file
+from .object_detector import MDObjectDetector, YMLObjectDetector, get_detector_for_file
 from typing import List, Dict, Any, Union
 
 class JsonConverter:
@@ -54,6 +54,11 @@ class JsonConverter:
                 # Save previous content if exists
                 if current_key:
                     if list_items:
+                        # Get the actual list indent from the first list item
+                        for next_line in lines[i-len(list_items):i]:
+                            if next_line.strip().startswith('-'):
+                                list_indent = self.get_indent_level(next_line)
+                                break
                         self.output.append({
                             'type': 'yml_property',
                             'key': current_key,
@@ -65,13 +70,19 @@ class JsonConverter:
                         })
                         list_items = []
                     elif multiline_content:
+                        # Find content indent by looking at first non-empty line after pipe
+                        content_indent = 0
+                        for next_line in lines[i-len(multiline_content):i]:
+                            if next_line.strip():
+                                content_indent = self.get_indent_level(next_line)
+                                break
                         self.output.append({
                             'type': 'yml_property',
                             'key': current_key,
                             'content': multiline_content,
                             'indent': base_indent,
                             'is_multiline': True,
-                            'content_indent': base_indent + 2,
+                            'content_indent': content_indent,
                             'translate': self.detector.should_translate_property(current_key)
                         })
                         multiline_content = []
@@ -79,7 +90,7 @@ class JsonConverter:
                 key, value = stripped_line.split(':', 1)
                 current_key = key.strip()
                 value = value.strip()
-                base_indent = indent
+                base_indent = indent  # Store original indent for this key
                 
                 # Check if it's a multiline value with pipe
                 if value == '|':
@@ -90,7 +101,7 @@ class JsonConverter:
                         'type': 'yml_property',
                         'key': current_key,
                         'content': value,
-                        'indent': indent,
+                        'indent': indent,  # Use actual indent from file
                         'translate': self.detector.should_translate_property(current_key)
                     })
                     current_key = None
@@ -99,14 +110,13 @@ class JsonConverter:
             # Handle list items
             elif stripped_line.startswith('-'):
                 if not list_items:  # First item in list
-                    list_indent = indent
+                    list_indent = indent  # Store the actual indent of first list item
                 list_items.append(stripped_line[1:].strip())
 
             # Handle multiline content
-            elif is_multiline:
-                if not multiline_content:  # First line of multiline
-                    base_indent = indent
-                multiline_content.append(line[base_indent:])
+            elif is_multiline and current_key:
+                if line.strip():  # Skip empty lines
+                    multiline_content.append(line.strip())
 
         # Handle last property
         if current_key:
@@ -121,13 +131,19 @@ class JsonConverter:
                     'translate': self.detector.should_translate_property(current_key)
                 })
             elif multiline_content:
+                # Find content indent for last multiline block
+                content_indent = 0
+                for line in reversed(lines):
+                    if line.strip():
+                        content_indent = self.get_indent_level(line)
+                        break
                 self.output.append({
                     'type': 'yml_property',
                     'key': current_key,
                     'content': multiline_content,
                     'indent': base_indent,
                     'is_multiline': True,
-                    'content_indent': base_indent + 2,
+                    'content_indent': content_indent,
                     'translate': self.detector.should_translate_property(current_key)
                 })
 

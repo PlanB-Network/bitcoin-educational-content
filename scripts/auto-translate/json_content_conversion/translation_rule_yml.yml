@@ -17,7 +17,6 @@ non_translatable:
   - publication_year
   - author
   # Resource-specific properties
-  - source
   - url
 
 # Properties that should be translated

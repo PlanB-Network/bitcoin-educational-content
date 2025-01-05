@@ -15,7 +15,7 @@ def load_supported_languages() -> Dict:
     except Exception as e:
         print(f"Error loading supported languages: {e}")
         sys.exit(1)
-
+ 
 def display_current_languages(languages: List[Dict]) -> None:
     print("\n=== Current Supported Languages ===")
     print(f"Total languages: {len(languages)}\n")
@@ -23,7 +23,7 @@ def display_current_languages(languages: List[Dict]) -> None:
     for idx, lang in enumerate(sorted(languages, key=lambda x: x['code'].lower()), 1):
         print(f"{idx}. {lang['name']} ({lang['code']:<8}) - {lang['translator']}")
     print()
-
+ 
 def get_input(prompt: str) -> str:
     try:
         readline.parse_and_bind('set editing-mode emacs')
@@ -31,7 +31,7 @@ def get_input(prompt: str) -> str:
     except EOFError:
         print("\nInput cancelled")
         sys.exit(1)
-
+ 
 def get_target_language(supported_langs: Dict) -> str:
     display_current_languages(supported_langs['languages'])
     
@@ -43,7 +43,7 @@ def get_target_language(supported_langs: Dict) -> str:
             print("Invalid choice. Please try again.")
         except ValueError:
             print("Please enter a valid number.")
-
+ 
 def translate_file(input_file: str, target_lang: str) -> None:
     try:
         command = ["python3", "../translation_controller.py", input_file, target_lang]
@@ -51,8 +51,11 @@ def translate_file(input_file: str, target_lang: str) -> None:
         print(f"Translated {input_file} to {target_lang}")
     except subprocess.CalledProcessError as e:
         print(f"Error translating {input_file}: {e}")
-
-
+ 
+def should_skip_file(file_path: str) -> bool:
+    """Check if file should be skipped based on path."""
+    return "courses/btc101" in file_path
+ 
 def find_english_files(base_directories: List[str]) -> List[Path]:
     english_files = []
     script_dir = Path(os.path.dirname(os.getcwd()))
@@ -67,10 +70,11 @@ def find_english_files(base_directories: List[str]) -> List[Path]:
             for path in base_dir.rglob(f'en{ext}'):
                 if path.is_file():
                     relative_path = "../" + os.path.relpath(path, start=script_dir)
-                    english_files.append(relative_path)
+                    if not should_skip_file(str(relative_path)):
+                        english_files.append(relative_path)
     
     return sorted(english_files)
-
+ 
 def main():
     base_directories = [
         "../../../courses",
@@ -90,6 +94,7 @@ def main():
         return
     
     print(f"\nFound {len(english_files)} English files to translate.")
+    print("Note: Files in courses/btc101/ will be skipped")
     files_list = "\n".join(english_files)
     print(f"\nFiles to be translated:\n{files_list}")
     
@@ -118,6 +123,6 @@ def main():
     print(f"\nTranslation completed!")
     print(f"Successfully translated: {success_count} files")
     print(f"Failed translations: {error_count} files")
-
+ 
 if __name__ == "__main__":
-    main() 
+    main()

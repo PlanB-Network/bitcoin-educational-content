@@ -1715,12 +1715,276 @@ La **Witness Transaction** est la transaction Bitcoin qui ferme le _seal_ autour
 # Programmation sur RGB
 <partId>148a7436-d079-56d9-be08-aaa4c14c6b3a</partId>
 
-## Bases de la programmation RGB
+## Implémentation des contrats RGB
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
 ![video](https://youtu.be/Uo1UoxiImsI)
 
-## Programmation RGB Partie 2
+
+Dans ce chapitre, nous allons aborder concrètement la manière dont un contrat RGB est défini et mis en place. Nous allons voir quels sont les composants d'un contrat RGB, quels sont leurs rôles et comment ils sont construits.
+
+### Les composants d'un contrat RGB
+
+Jusqu’ici, nous avons déjà discuté de la **Genesis**, qui représente le point de départ d’un contrat, et nous avons vu comment elle s’inscrit dans la logique d’une *Contract Operation* et de l’état du protocole. La définition complète d’un contrat RGB ne se limite cependant pas à la seule Genesis : elle implique trois composants complémentaires qui, ensemble, forment le cœur de l’implémentation.
+
+Le premier composant est appelé le **Schema**. Il s’agit d’un fichier décrivant la structure fondamentale et la logique métier (*business logic*) du contrat. En son sein, on précise les types de données utilisés, les règles de validation, les opérations permises (par exemple : l'émission initiale de tokens, le transferts, des conditions particulières...), bref, l’ossature générale qui dicte le fonctionnement du contrat.
+
+Le deuxième composant est l'**Interface**. Il se focalise sur la manière dont les utilisateurs (et par extension, les logiciels de portefeuilles) vont interagir avec ce contrat. On y décrit la sémantique, c’est-à-dire la représentation lisible des différents champs et actions. Ainsi, alors que le Schema définit comment le contrat fonctionne techniquement, l’Interface définit comment présenter et exposer ces fonctionnalités : noms des méthodes, affichage des données, etc.
+
+Le troisième composant est l'**Interface Implementation**, qui vient compléter les deux précédents en étant une sorte de pont entre le *Schema* et l’*Interface*. Autrement dit, il associe la sémantique énoncée par l’Interface aux règles sous-jacentes définies dans le Schema. C’est cette implémentation qui va gérer, par exemple, la conversion entre un paramètre saisi dans le wallet et la structure binaire imposée par le protocole, ou encore la compilation des règles de validation en langage machine. Cette modularité est une caractéristique intéressante dans RGB, car elle permet à différents groupes de développeurs de travailler séparément sur ces aspects (*Schema*, *Interface*, *Implementation*), tant qu’ils suivent les règles de consensus du protocole.
+
+Pour résumer, chaque contrat se compose donc de :
+- **Genesis**, qui est l’état initial du contrat (et qu’on peut assimiler à une transaction spéciale définissant la première propriété d’un actif, d'un droit, ou de toute autre donnée paramétrable) ;
+- **Schema**, qui décrit la logique métier du contrat (types de données, règles de validation, etc.) ;
+- **Interface**, qui apporte une couche sémantique, destinée aux wallets et aux utilisateurs humains, afin de clarifier la lecture et l’exécution des opérations ;
+- **Interface Implementation**, qui fait le lien entre la logique métier et la présentation, afin d'assurer que la définition du contrat est cohérente avec l’expérience utilisateur.
+
+![RGB-Bitcoin](assets/fr/070.webp)
+
+Il est important de noter que pour qu’un portefeuille puisse gérer un actif RGB (que ce soit un jeton fongible ou un droit quelconque), il doit disposer de tous ces éléments compilés : *Schema*, *Interface*, *Interface Implementation* et *Genesis*. Cela se transmet via un ***contract consignment***, c’est-à-dire un paquet de données contenant tout le nécessaire pour valider le contrat côté client.
+
+Afin de mieux clarifier ces notions, voici un tableau récapitulatif comparant les composants d’un contrat RGB à des concepts déjà connus soit en programmation orientée objet (OOP), soit dans l’écosystème Ethereum :
+
+| Composant de contrat RGB | Signification                           | équivalent OOP                                     | équivalent Ethereum                |
+| ------------------------ | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
+| Genesis                  | État initial du contrat                 | Class constructor                                  | Contract constructor               |
+| Schema                   | Logique métier du contrat               | Class                                              | Contract                           |
+| Interface                | Sémantique du contrat                   | Interface (Java) / trait (Rust) / protocol (Swift) | ERC Standard                       |
+| Interface Implementation | Mapping de la sémantique et  la logique | Impl (Rust) / Implements (Java)                    | Application Binary Interface (ABI) |
+
+Dans la colonne de gauche, on retrouve les éléments propres au protocole RGB. Dans la colonne du milieu, on voit la fonction concrète de chaque composant. Puis, dans la colonne "équivalent OOP", on trouve le terme équivalent dans la programmation orientée objet :
+- La **Genesis** joue un rôle similaire à un *Class constructor* : c’est là qu’on initialise l’état du contrat ;
+- Le **Schema** correspond à la description d’une classe, c’est-à-dire la définition des propriétés, des méthodes, et de la logique sous-jacente ;
+- L’**Interface** correspond aux *interfaces* (Java), aux *traits* (Rust) ou encore aux *protocols* (Swift) : ce sont les définitions publiques des fonctions, événements, champs... ;
+- L’**Interface Implementation** correspond à *Impl* en Rust ou *Implements* en Java, où l’on précise comment le code va réellement exécuter les méthodes annoncées dans l’interface.
+
+Dans le cadre d’Ethereum, la Genesis se rapproche du *contract constructor*, le Schema de la définition du contrat, l’Interface d’un standard type ERC-20 ou ERC-721, et l’Interface Implementation de l’ABI (*Application Binary Interface*), qui  spécifie le format des interactions avec le contrat.
+
+L’avantage de la modularité de RGB tient aussi au fait que des parties prenantes différentes peuvent écrire, par exemple, leur propre Interface Implementation, tant qu’elles respectent la logique du *Schema* et la sémantique de l’*Interface*. Ainsi, un émetteur pourrait développer un nouveau front-end (Interface) plus convivial, sans modifier la logique du contrat, ou inversement, on pourrait étendre le Schema pour ajouter une fonctionnalité, et fournir une nouvelle version de l’Interface Implementation adaptée, tandis que les anciennes implémentations resteraient valables pour les fonctionnalités de base.
+
+Lorsqu’on compile un nouveau contrat, on génère une **Genesis** (première étape d’émission ou de distribution de l’actif), ainsi que ses composants (Schema, Interface, Interface Implementation). Après cela, le contrat est pleinement opérationnel et peut être propagé aux wallets et aux utilisateurs. Cette méthode, où la Genesis se combine à ces trois composants, garantit à la fois un haut degré de personnalisation (chaque contrat peut avoir sa propre logique), de décentralisation (chacun peut contribuer à un composant donné), et de sécurité (la validation demeure strictement définie par le protocole, sans dépendre d’un code arbitraire on-chain comme c’est souvent le cas sur d’autres blockchains).
+
+Maintenant, je vous propose de découvrir plus en détail chacun de ces composants : le **Schema**, l’**Interface** et l’**Interface Implementation**.
+
+### Schema
+
+Dans la section précédente, nous avons vu que dans l’écosystème RGB, un contrat est composé de plusieurs éléments : la **Genesis**, qui instaure l’état initial, et plusieurs autres composants complémentaires. Le but du Schema est de décrire de manière déclarative toute la logique métier (*business logic*) du contrat, c’est-à-dire la structure des données, les types utilisés, les opérations permises et leurs conditions. C'est donc un élément très important pour rendre un contrat opérationnel côté client, puisque chaque participant (un wallet, par exemple) doit vérifier que les transitions d’état qu’il reçoit sont conformes à la logique définie dans le Schema.
+
+Le Schema peut être assimilé à une "classe" dans la programmation orientée objet (OOP). De manière générale, il sert de modèle définissant les composants d’un contrat, tels que :
+- Les différents types de Owned States et les Assignments ;
+- Les Valencies, c’est-à-dire les droits spéciaux pouvant être déclenchés (*redeemed*) dans le cadre de certaines opérations ;
+- Les champs du Global State, qui décrivent des propriétés globales, publiques et partagées du contrat ;
+- La structure de la Genesis (la toute première opération qui active le contrat) ;
+- Les formes autorisées de State Transitions et de State Extensions, et la manière dont ces opérations peuvent modifier l’état ;
+- Les éventuelles Metadata associées à chaque opération, permettant de stocker des informations temporaires ou supplémentaires ;
+- Les règles qui déterminent comment les données internes du contrat peuvent évoluer (par exemple, si un champ est mutable ou cumulatif) ;
+- Les séquences d’opérations considérées comme valides : par exemple, un ordre de transitions à respecter ou un ensemble de conditions logiques à satisfaire.
+
+![RGB-Bitcoin](assets/fr/071.webp)
+
+Lorsque l’**issuer** d’un actif sur RGB publie un contrat, il fournit la Genesis et le Schema qui lui est associé. Les utilisateurs ou wallets qui souhaitent interagir avec l’actif récupèrent ce Schema pour comprendre la logique qui sous-tend le contrat et vérifier que les transitions auxquelles ils participent sont légitimes.
+
+La première étape, pour quiconque reçoit des informations sur un actif RGB (par exemple un transfert de tokens), est de valider ces informations par rapport au Schema. Cela implique d’utiliser la compilation du Schema pour :
+- Vérifier que les Owned States, Assignments et autres éléments sont correctement définis et qu’ils respectent bien les types imposés (ce qu’on appelle le *strict type system*) ;
+- Vérifier que les règles de transitions (scripts de validation) sont satisfaites. Ces scripts peuvent être exécutés via AluVM, présent côté client et chargé de valider la cohérence de la logique métier (montant d’un transfert, conditions particulières, etc.).
+
+Dans la pratique, le Schema n’est pas un code exécutable comme on peut le voir dans des blockchains qui stockent le code on-chain (EVM sur Ethereum). Au contraire, RGB sépare la logique métier (déclarative) du code d’exécution sur la blockchain (qui se limite à des ancrages cryptographiques). Ainsi, le Schema détermine les règles, mais l’application de ces règles se fait hors de la blockchain, chez chaque participant, selon le principe de la client-side validation.
+
+Un Schema doit être compilé pour être utilisable par les applications RGB. Cette compilation produit un fichier binaire (par exemple `.rgb`) ou binaire chiffré (`.rgba`). Lorsque le wallet importe ce fichier, il sait alors :
+- À quoi ressemble chaque type de donnée (entiers, structures, tableaux…) grâce au strict type system ;
+- De quelle façon la Genesis doit être structurée (afin de comprendre l’initialisation de l’actif) ;
+- Les différents types d’opérations (State Transitions, State Extensions) et la manière dont elles peuvent modifier l’état ;
+- Les règles de script (introduites dans le Schema) que le moteur AluVM appliquera pour vérifier la validité des opérations.
+
+Comme expliqué dans les chapitres précédents, le *strict type system* nous donne un format d’encodage stable et déterministe : toutes les variables, qu’il s’agisse d'Owned States, de Global State ou de Valencies, sont décrites avec précision (taille, borne inférieure et supérieure si nécessaire, type signé ou non signé, etc.). Il est également possible de définir des structures imbriquées, par exemple pour prendre en charge des cas d’usage complexes.
+
+En option, le Schema peut référencer un `SchemaId` racine qui facilite la réutilisation d’une structure de base existante (un template). On peut ainsi faire évoluer un contrat ou créer des variations (par exemple un nouveau type de token) à partir d’un canevas déjà éprouvé. Cette modularité vise à éviter la recréation de contrats entiers et encourage la standardisation des bonnes pratiques.
+
+Un autre point important est que la logique d’évolution de l’état (transferts, mises à jour, etc.) se trouve décrite dans le Schema sous forme de scripts, de règles et de conditions. Ainsi, si le concepteur du contrat souhaite autoriser une réémission ou imposer un mécanisme de burn (destruction de tokens), il peut spécifier les scripts correspondants pour AluVM dans la partie validation du Schema.
+
+#### Différence avec les blockchains programmables on-chain
+
+Contrairement à des systèmes comme Ethereum, où le code du smart contract (exécutable) est inscrit dans la blockchain elle-même, RGB stocke le contrat (sa logique) hors-chaîne, sous forme de document déclaratif compilé. Cela implique que :
+- Il n’y a pas de VM Turing-complète qui tourne dans chaque nœud du réseau Bitcoin. Les règles d’un contrat RGB ne sont pas exécutées sur la blockchain, mais bien chez chaque utilisateur qui souhaite valider un état ;
+- Les données du contrat ne polluent pas la blockchain : seules des preuves cryptographiques (*commitments*) sont ancrées dans les transactions Bitcoin (via `Tapret` ou `Opret`) ;
+- Le Schema peut être mis à jour ou décliner des versions (*fast-forward*, *push-back*, etc.), sans nécessiter de fork sur la blockchain Bitcoin. Les wallets doivent simplement importer le nouveau Schema et s’adapter aux changements de consensus.
+
+#### Utilisation par l’issuer et par les utilisateurs
+
+Lorsqu’un issuer crée un actif (par exemple un jeton fongible non inflationniste), il prépare :
+- Un Schema décrivant les règles d’émission, de transfert, etc. ;
+- Une Genesis adaptée à ce Schema (avec le nombre total de jetons émis, l’identité de l’owner initial, éventuellement des Valencies spéciales pour la réémission, etc.).
+
+Ensuite, il met à disposition des utilisateurs le Schema compilé (un fichier `.rgb`), afin que toute personne recevant un transfert de ce token puisse vérifier localement la cohérence de l’opération. Sans ce Schema, un utilisateur ne saurait pas interpréter les données d’état ou vérifier qu’elles respectent les règles du contrat.
+
+Aussi, lorsqu’un nouveau wallet souhaite prendre en charge un actif, il lui suffit d’intégrer le Schema pertinent. Ce mécanisme permet d’ajouter la compatibilité à de nouveaux types d’actifs RGB, sans changer la base logicielle du wallet de manière invasive : il suffit d’importer le binaire du Schema et de comprendre sa structure.
+
+Le Schema définit donc la logique métier dans RGB. Il liste les règles d’évolution d’un contrat, la structure de ses données (Owned States, Global State, Valencies) et les scripts de validation associés (exécutables par AluVM). Grâce à ce document déclaratif, on sépare clairement la définition d’un contrat (fichier compilé) de l’exécution même des règles (côté client). Ce découplage confère une grande souplesse à RGB, en permettant une large gamme de cas d’usage (jetons fongibles, NFT, contrats plus sophistiqués) tout en évitant la complexité et les failles typiques des blockchains programmables on-chain.
+
+#### Exemple de Schema
+
+Examinons ensemble un exemple concret de Schema pour un contrat RGB. Il s’agit d’un extrait en Rust issu du fichier `nia.rs` (initiales de "*Non-Inflatable Assets*"), qui définit un modèle de jetons fongibles ne pouvant pas être réémis au-delà de leur supply initiale (un actif non inflationniste). On peut considérer ce type de jeton comme l’équivalent, dans l’univers RGB, des ERC20 sur Ethereum, c’est-à-dire des tokens fongibles qui respectent certaines règles de base (par exemple sur les transferts, l’initialisation de la supply, etc.).
+
+Avant de plonger dans le code, il est utile de rappeler la structure générale d’un Schema RGB. On y trouve une série de déclarations encadrant :
+- Un éventuel `SchemaId` qui indique l'utilisation d'un autre Schema de base comme template ;
+- Les **Global States** et **Owned States** (avec leurs types stricts) ;
+- Les **Valencies** (s’il y en a) ;
+- Les **Operations** (Genesis, State Transitions, State Extensions) qui peuvent référencer ces états et valencies ;
+- Le **Strict Type System** utilisé pour décrire et valider les données ;
+- Les **scripts de validation** (exécutés via AluVM).
+
+![RGB-Bitcoin](assets/fr/072.webp)
+
+Le code ci-dessous montre la définition complète du Schema Rust. Nous allons le commenter partie par partie, en suivant les annotations (1) à (9) ci-dessous :
+
+```rust
+fn nia_schema() -> SubSchema {                      //  --->    (1) 
+    
+    // definitions of libraries and variables
+
+    Schema {
+        ffv: zero!(),                                                                           // --+                                                      
+        subset_of: None,                                                                        //   |  (2) 
+        type_system: types.type_system(),                                                       // --+     
+        global_types: tiny_bmap! {                                                              // --+
+            GS_NOMINAL => GlobalStateSchema::once(types.get("RGBContract.DivisibleAssetSpec")), //   |  
+            GS_DATA => GlobalStateSchema::once(types.get("RGBContract.ContractData")),          //   |
+            GS_TIMESTAMP => GlobalStateSchema::once(types.get("RGBContract.Timestamp")),        //   |  (3)
+            GS_ISSUED_SUPPLY => GlobalStateSchema::once(types.get("RGBContract.Amount")),       //   |
+        },                                                                                      // --+
+        owned_types: tiny_bmap! {                                               // --+
+            OS_ASSET => StateSchema::Fungible(FungibleType::Unsigned64Bit),     //   |  (4)
+        },                                                                      // --+                    
+        valency_types: none!(),                          //  --->   (5)
+        genesis: GenesisSchema {                         //  --+ -------> Contract Operations declaration start here
+            metadata: Ty::<SemId>::UNIT.id(None),        //    |
+            globals: tiny_bmap! {                        //    |
+                GS_NOMINAL => Occurrences::Once,         //    |  
+                GS_DATA => Occurrences::Once,            //    |
+                GS_TIMESTAMP => Occurrences::Once,       //    |
+                GS_ISSUED_SUPPLY => Occurrences::Once,   //    |   (6) 
+            },                                           //    |
+            assignments: tiny_bmap! {                    //    |
+                OS_ASSET => Occurrences::OnceOrMore,     //    | 
+            },                                           //    |
+            valencies: none!(),                          //  --+                 
+        },
+        extensions: none!(),                             //  --->  (7) 
+        transitions: tiny_bmap! {                        //  --+      
+            TS_TRANSFER => TransitionSchema {            //    |
+                metadata: Ty::<SemId>::UNIT.id(None),    //    |
+                globals: none!(),                        //    |
+                inputs: tiny_bmap! {                     //    |
+                    OS_ASSET => Occurrences::OnceOrMore  //    |   (8)
+                },                                       //    |
+                assignments: tiny_bmap! {                //    |
+                    OS_ASSET => Occurrences::OnceOrMore  //    |
+                },                                       //    |
+                valencies: none!(),                      //    |
+            }                                            //  --+ 
+        },
+        script: Script::AluVM(AluScript {                                                                 // -+
+            libs: confined_bmap! { alu_id => alu_lib },                                                   //  |
+            entry_points: confined_bmap! {                                                                // (9)
+                EntryPoint::ValidateGenesis => LibSite::with(FN_GENESIS_OFFSET, alu_id),                  //  |
+                EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET, alu_id), // -+
+            },
+        }),
+    }
+}
+```
+
+- **(1) – En-tête de la fonction et SubSchema**
+
+La fonction `nia_schema()` renvoie un `SubSchema`, ce qui indique que ce Schema peut hériter partiellement d’un schéma plus générique. Dans l’écosystème RGB, cette souplesse permet de réutiliser certains éléments standard d’un schema master, puis de définir des règles spécifiques au contrat en question. Ici, on choisit de ne pas activer d’héritage puisque `subset_of` sera `None`.
+
+- **(2) – Propriétés générales : ffv, subset_of, type_system**
+
+La propriété `ffv` correspond à la version *fast-forward* du contrat. Une valeur `zero!()` indique ici qu’on est à la version 0 ou initiale de ce schéma. Si plus tard on souhaite ajouter de nouvelles fonctionnalités (nouveau type d’opération, etc.), on peut incrémenter cette version pour indiquer un changement de consensus.
+
+La propriété `subset_of: None` confirme l’absence d’héritage. Le champ `type_system` fait référence au strict type system déjà défini dans la bibliothèque `types`. Grâce à cette ligne, on indique que toutes les données employées par le contrat utilisent l’implémentation de sérialisation stricte fournie par la librairie mentionnée.
+
+- **(3) – Global States**
+
+Dans le bloc `global_types`, on déclare quatre éléments. On utilise la clé, comme `GS_NOMINAL` ou `GS_ISSUED_SUPPLY`, pour les référencer par la suite :
+- `GS_NOMINAL` fait référence à un type `DivisibleAssetSpec`, qui décrit divers champs du jeton créé (nom complet, ticker, precision…) ;
+- `GS_DATA` représente des données générales, par exemple un disclaimer, des métadonnées, ou tout autre texte ;
+- `GS_TIMESTAMP` fait référence à une date d’émission ;
+- `GS_ISSUED_SUPPLY` établit la supply totale, c’est-à-dire le nombre maximal de jetons qu’il est permis de créer.
+
+Le mot-clé `once(...)` signifie que chacun de ces champs ne peut apparaître qu’une seule fois.
+
+- **(4) – Owned Types**
+
+Dans `owned_types`, on déclare `OS_ASSET`, qui décrit un état fongible. On utilise `StateSchema::Fungible(FungibleType::Unsigned64Bit)`, indiquant que la quantité d’actifs (tokens) est stockée en tant qu’entier non signé de 64 bits. Ainsi, toute transaction enverra un certain montant d’unités de ce jeton, qui sera validé selon cette structure numérique strictement typée.
+
+- **(5) – Valencies**
+
+On indique `valency_types: none!()`, ce qui signifie qu’il n’y a pas de Valencies dans ce schéma, autrement dit aucun droit spécial ou extra (comme la réémission, un burn conditionnel, etc.). Si un schéma en prévoyait, on les déclarerait dans cette section.
+
+- **(6) – Genesis : premières opérations**
+
+On entre ici dans la partie qui déclare les Contract Operations. La Genesis est décrite par :
+- L’absence de `metadata` (champ `metadata: Ty::<SemId>::UNIT.id(None)`) ;
+- Les Global States qui doivent être présents une fois chacun (`Once`) ;
+- Une Assignments list où `OS_ASSET` doit apparaître `OnceOrMore`. Cela signifie qu’à la Genesis, il faut au moins un Assignments `OS_ASSET` (un détenteur initial) ;
+- Aucune Valency : `valencies: none!()`.
+
+C’est ainsi qu’on limite la définition d’émission initiale du jeton : on doit déclarer la supply émise (`GS_ISSUED_SUPPLY`), plus au moins un détenteur (une Owned State de type `OS_ASSET`).
+
+- **(7) – Extensions**
+
+Le champ `extensions: none!()` indique qu’aucune State Extension n’est prévue dans ce contrat. Cela signifie qu’il n’y a pas d’opération servant à racheter un droit numérique (Valency) ou à effectuer une extension de l’état avant une Transition. Tout se fait via la Genesis ou les State Transitions.
+
+- **(8) – Transitions : TS_TRANSFER**
+
+Dans `transitions`, on définit le type d’opération `TS_TRANSFER`. On explique que :
+- Il n’a pas de `metadata` ;
+- Il ne modifie pas le Global State (celui-ci étant déjà défini dans la Genesis) ;
+- Il prend en entrée (`inputs`) un ou plusieurs `OS_ASSET`. Cela signifie qu’il doit dépenser des Owned States existants ;
+- Il crée (`assignments`) au moins un nouveau `OS_ASSET` (autrement dit, le ou les destinataires reçoivent des jetons) ;
+- Il ne génère aucune nouvelle Valency.
+
+Cela modélise le comportement d’un transfert basique, qui consomme des tokens sur un UTXO, puis crée de nouveaux Owned States en faveur des destinataires, et donc conserve l’égalité du montant total entre les inputs et les outputs.
+
+- **(9) – Script AluVM et Entry Points**
+
+Enfin, on déclare un script AluVM (`Script::AluVM(AluScript { ... })`). Ce script contient :
+- Une ou plusieurs bibliothèques externes (`libs`) à utiliser durant la validation ;
+- Des `entry_points` qui pointent vers des offsets de fonctions dans le code AluVM, correspondant à la validation de la Genesis (`ValidateGenesis`) et de chaque Transition déclarée (`ValidateTransition(TS_TRANSFER)`).
+
+Ce code de validation est responsable d’appliquer la logique métier. Par exemple, il vérifiera :
+- Que la `GS_ISSUED_SUPPLY` n’est pas dépassée lors de la Genesis ;
+- Que la somme des `inputs` (tokens dépensés) égale la somme des `assignments` (tokens reçus) pour `TS_TRANSFER`.
+
+En cas de non-respect de ces règles, la transition sera considérée comme invalide.
+
+Cet exemple de Schema de "*Non Inflatable Fungible Asset*" nous permet de mieux comprendre la structure d’un contrat de token fongible simple sous RGB. On voit clairement la séparation entre la description des données (Global et Owned States), la déclaration des opérations (Genesis, Transitions, Extensions) et l’implémentation de la validation (scripts AluVM). Grâce à ce modèle, un token se comporte comme un jeton fongible classique, mais reste validé côté client et ne dépend pas de l’infrastructure on-chain pour exécuter son code. Seuls des engagements cryptographiques sont ancrés dans la blockchain Bitcoin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Les transferts de contrat
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
 ![video](https://youtu.be/sVoKIi-1XbY)
@@ -1734,6 +1998,8 @@ La **Witness Transaction** est la transaction Bitcoin qui ferme le _seal_ autour
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
 ![video](https://youtu.be/mqCupTlDbA0)
+
+
 
 # Construire sur RGB
 <partId>3b4b0d66-0c1b-505a-b5ca-4b2e57dd73c2</partId>

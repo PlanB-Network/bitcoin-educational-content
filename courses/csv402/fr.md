@@ -1961,6 +1961,59 @@ En cas de non-respect de ces règles, la transition sera considérée comme inva
 
 Cet exemple de Schema de "*Non Inflatable Fungible Asset*" nous permet de mieux comprendre la structure d’un contrat de token fongible simple sous RGB. On voit clairement la séparation entre la description des données (Global et Owned States), la déclaration des opérations (Genesis, Transitions, Extensions) et l’implémentation de la validation (scripts AluVM). Grâce à ce modèle, un token se comporte comme un jeton fongible classique, mais reste validé côté client et ne dépend pas de l’infrastructure on-chain pour exécuter son code. Seuls des engagements cryptographiques sont ancrés dans la blockchain Bitcoin.
 
+### Interface
+
+L'interface est la couche destinée à rendre un contrat lisible et manipulable, tant par des utilisateurs (lecture humaine) que par les portefeuilles (lecture logicielle). L’Interface joue donc un rôle comparable à celui d’une interface dans un langage de programmation orientée objet (Java, Rust trait, etc.), en ce sens qu’elle expose et clarifie la structure fonctionnelle d’un contrat, sans nécessairement dévoiler les détails internes de la logique métier.
+
+Contrairement au Schema, qui est purement déclaratif et compilé en un fichier binaire difficilement exploitable tel quel, l’Interface fournit les clés de lecture nécessaires pour :
+- Lister et décrire les Global States et Owned States présents dans le contrat ;
+- Accéder aux noms et aux valeurs de chaque champ, afin de pouvoir les afficher (par exemple pour un jeton, connaître son ticker, son montant maximal, etc.) ;
+- Interpréter et construire les Contract Operations (Genesis, State Transition, ou State Extension) en associant les données à des noms compréhensibles (par exemple réaliser un transfert en spécifiant clairement "amount" plutôt qu’un identifiant binaire).
+
+![RGB-Bitcoin](assets/fr/073.webp)
+
+Grâce à l’Interface, on peut par exemple écrire un code dans un wallet qui, au lieu de manipuler des champs, manipule directement des libellés comme "nombre de tokens", "nom de l’actif", etc. De cette manière, la gestion d’un contrat devient plus intuitive.
+
+#### Fonctionnement général
+
+Cette méthode dispose de nombreux avantages :
+
+- **Standardisation :**  
+
+Un même type de contrat peut être pris en charge par une Interface standard, partagée entre plusieurs implémentations de wallets. Cela facilite la compatibilité et la réutilisation du code.
+
+- **Séparation claire entre le Schema et l’Interface :**  
+
+Dans la conception de RGB, le Schema (logique métier) et l’Interface (présentation et manipulation) sont deux entités indépendantes. Les développeurs qui écrivent la logique du contrat peuvent se concentrer sur le Schema, sans se soucier de l’ergonomie ou de la représentation des données, tandis qu’une autre équipe (ou la même, mais sur un autre temps) peut développer l’Interface.
+
+- **Évolution flexible :**  
+
+L’Interface peut être modifiée ou complétée **après** l’émission de l’actif, sans avoir à changer le contrat lui-même. C’est une différence majeure avec certains systèmes de smart contracts on-chain où l’Interface (souvent mêlée au code d’exécution) est figée dans la blockchain.
+
+- **Possibilité de multi-interface**  
+
+Un même contrat pourrait être exposé par différentes Interfaces adaptées à des besoins distincts : une Interface simple pour l’utilisateur final, une autre plus avancée pour l’issuer qui doit gérer des opérations complexes de configuration. Le wallet pourra alors choisir quelle Interface importer, selon son usage.
+
+
+![RGB-Bitcoin](assets/fr/074.webp)
+
+En pratique, lorsque le wallet récupère un contrat RGB (via un fichier `.rgb` ou `.rgba`), il importe également l’Interface associée, elle aussi compilée. À l’exécution, le wallet peut par exemple :
+- Parcourir la liste des states et lire leurs noms, afin d’afficher sur l’UI Ticker, Montant initial, Date d’émission, etc. plutôt qu’un identifiant numérique illisible ;
+- Construire une opération (comme un transfert) en utilisant des noms de paramètres explicites : au lieu d’écrire `assignments { OS_ASSET => 1 }`, il peut proposer à l’utilisateur un champ "Amount" dans un formulaire, et traduire cette information en champs strictement typés attendus par le contrat.
+
+#### Différence avec Ethereum et les autres systèmes
+
+Sur Ethereum, l’Interface (décrite via l’ABI, *Application Binary Interface*) est généralement dérivée d’un code stocké on-chain (le smart contract). Il peut être coûteux ou compliqué de modifier une partie spécifique de l’interface sans toucher au contrat lui-même. Or, RGB repose sur une logique entièrement off-chain, avec des données ancrées en *commitments* sur Bitcoin. Cette conception rend possible la modification de l’Interface (ou de son implémentation) sans impact sur la sécurité fondamentale du contrat, car la validation des règles métier reste dans le Schema et le code AluVM référencé.
+
+#### Compilation de l’Interface
+
+Comme pour le Schema, l’Interface est définie dans un code source (souvent en Rust) et compilée en un fichier `.rgb` ou `.rgba`. Ce fichier binaire regroupe toutes les informations nécessaires au wallet pour :
+- Identifier les champs par leurs noms ;
+- Faire le lien entre chaque champ (et sa valeur) et le strict type system défini dans le contrat ;
+- Connaître les différentes opérations autorisées et la façon de les construire.
+
+Une fois l’Interface importée, le wallet peut donc afficher correctement le contrat et proposer des interactions à l'utilisateur.
+
 
 
 

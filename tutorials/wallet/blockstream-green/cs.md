@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Mobilní zařízení
+name: Blockstream Green - Mobile
 description: Vytvoření portfolia mobilního softwaru
 ---
 ![cover](assets/cover.webp)

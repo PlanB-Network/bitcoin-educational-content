@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Vain katselua
+name: Blockstream Green - Watch-Only
 description: Pelkän salkun kokoonpano
 ---
 ![cover](assets/cover.webp)

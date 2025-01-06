@@ -1,5 +1,5 @@
 ---
-name: BIP39 Heslo
+name: Passphrase BIP39
 description: Porozumění tomu, jak heslo funguje
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Pouze pro sledování
+name: Blockstream Green - Watch-Only
 description: Konfigurace portfolia pouze pro sledování
 ---
 ![cover](assets/cover.webp)

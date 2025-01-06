@@ -1,5 +1,5 @@
 ---
-name: BIP39 Paroolilausete Ledger
+name: Passphrase BIP39 Ledger
 description: Kuidas lisada paroolilauset oma Ledger rahakotti?
 ---
 ![kaas](assets/cover.webp)

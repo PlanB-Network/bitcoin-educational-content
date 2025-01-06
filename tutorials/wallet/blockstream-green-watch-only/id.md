@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Hanya untuk Ditonton
+name: Blockstream Green - Watch-Only
 description: Konfigurasi portofolio khusus jam tangan
 ---
 ![cover](assets/cover.webp)

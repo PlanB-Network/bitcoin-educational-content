@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Seluler
+name: Blockstream Green - Mobile
 description: Menyiapkan portofolio perangkat lunak seluler
 ---
 ![cover](assets/cover.webp)

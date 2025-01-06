@@ -1,5 +1,5 @@
 ---
-name: BIP39 Passordbok
+name: Passphrase BIP39 Ledger
 description: Hvordan legger du til en passordfrase i Ledger-lommeboken din?
 ---
 ![cover](assets/cover.webp)

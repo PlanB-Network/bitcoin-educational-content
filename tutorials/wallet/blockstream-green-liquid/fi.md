@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Nestemäinen
+name: Blockstream Green - Liquid
 description: Salkun perustaminen Liquid Networkin sivuketjuun
 ---
 ![cover](assets/cover.webp)

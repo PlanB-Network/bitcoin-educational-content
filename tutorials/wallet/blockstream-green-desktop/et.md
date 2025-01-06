@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - töölaud
+name: Blockstream Green - Desktop
 description: Green Walleti kasutamine arvutis
 ---
 ![cover](assets/cover.webp)

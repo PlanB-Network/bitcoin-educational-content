@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - mobiilne
+name: Blockstream Green - Mobile
 description: Mobiilse tarkvara portfelli loomine
 ---
 ![cover](assets/cover.webp)

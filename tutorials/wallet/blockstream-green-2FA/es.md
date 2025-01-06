@@ -1,5 +1,5 @@
 ---
-name: Blockstream Verde - 2FA
+name: Blockstream Green - 2FA
 description: Configurar un multisig 2/2 en Monedero Verde
 ---
 ![cover](assets/cover.webp)

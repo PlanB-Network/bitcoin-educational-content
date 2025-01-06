@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Mobil
+name: Blockstream Green - Mobile
 description: Aufbau eines mobilen Softwareportfolios
 ---
 ![cover](assets/cover.webp)

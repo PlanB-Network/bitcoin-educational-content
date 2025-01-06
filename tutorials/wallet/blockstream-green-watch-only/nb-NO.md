@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Kun for Watch-Only
+name: Blockstream Green - Watch-Only
 description: Konfigurasjon av kun overvåkingsportefølje
 ---
 ![cover](assets/cover.webp)

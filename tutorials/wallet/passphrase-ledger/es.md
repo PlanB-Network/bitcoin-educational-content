@@ -1,5 +1,5 @@
 ---
-name: BIP39 Passphrase Ledger
+name: Passphrase BIP39 Ledger
 description: Cómo añadir una frase de contraseña a tu monedero Ledger?
 ---
 

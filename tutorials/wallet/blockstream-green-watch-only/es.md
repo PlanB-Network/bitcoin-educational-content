@@ -1,5 +1,5 @@
 ---
-name: Blockstream Verde - Sólo en observación
+name: Blockstream Green - Watch-Only
 description: Configuración de la cartera de sólo vigilancia
 ---
 ![cover](assets/cover.webp)

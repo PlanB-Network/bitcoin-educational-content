@@ -1,5 +1,5 @@
 ---
-name: Herramientas de Estadísticas de Whirlpool - Anonsets
+name: Whirlpool Stats Tools - Anonsets
 description: Entiende el concepto de anonset y cómo calcularlo con WST
 ---
 ![cover](assets/cover.webp)

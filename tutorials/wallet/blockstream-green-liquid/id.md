@@ -1,5 +1,5 @@
 ---
-name: Blockstream Hijau - Cair
+name: Blockstream Green - Liquid
 description: Menyiapkan portofolio di sidechain Liquid Network
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Blockstream Verde - Mobile
+name: Blockstream Green - Mobile
 description: Impostazione di un portafoglio software mobile
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Stolní počítače
+name: Blockstream Green - Desktop
 description: Používání Zelené peněženky v počítači
 ---
 ![cover](assets/cover.webp)

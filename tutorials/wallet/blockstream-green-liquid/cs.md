@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Tekutý
+name: Blockstream Green - Liquid
 description: Nastavení portfolia v postranním řetězci sítě Liquid Network
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Ainult vaatamiseks
+name: Blockstream Green - Watch-Only
 description: Ainult vaatlusportfelli konfiguratsioon
 ---
 ![cover](assets/cover.webp)

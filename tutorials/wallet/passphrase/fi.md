@@ -1,5 +1,5 @@
 ---
-name: BIP39 Salasana
+name: Passphrase BIP39
 description: Ymmärrys siitä, miten salasana toimii
 ---
 ![kansi](assets/cover.webp)

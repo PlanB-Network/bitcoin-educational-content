@@ -1,5 +1,5 @@
 ---
-name: Verde Blockstream - Liquido
+name: Blockstream Green - Liquid
 description: Impostazione di un portafoglio sulla sidechain di Liquid Network
 ---
 ![cover](assets/cover.webp)

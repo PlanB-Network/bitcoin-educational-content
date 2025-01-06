@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Mobiili
+name: Blockstream Green - Mobile
 description: Mobiiliohjelmistosalkun perustaminen
 ---
 ![cover](assets/cover.webp)

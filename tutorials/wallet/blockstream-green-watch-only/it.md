@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Solo per guardare
+name: Blockstream Green - Watch-Only
 description: Configurazione del portafoglio di soli orologi
 ---
 ![cover](assets/cover.webp)

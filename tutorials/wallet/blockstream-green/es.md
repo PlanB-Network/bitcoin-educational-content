@@ -1,5 +1,5 @@
 ---
-name: Blockstream Verde - Móvil
+name: Blockstream Green - Mobile
 description: Crear una cartera de software móvil
 ---
 ![cover](assets/cover.webp)

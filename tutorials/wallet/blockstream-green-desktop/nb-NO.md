@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Skrivebord
+name: Blockstream Green - Desktop
 description: Bruke Green Wallet på datamaskinen din
 ---
 ![cover](assets/cover.webp)

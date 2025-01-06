@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Nur beobachten
+name: Blockstream Green - Watch-Only
 description: Konfiguration eines reinen Überwachungsportfolios
 ---
 ![cover](assets/cover.webp)

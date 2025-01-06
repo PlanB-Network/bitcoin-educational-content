@@ -1,5 +1,5 @@
 ---
-name: Blockstream Verde - Escritorio
+name: Blockstream Green - Desktop
 description: Utilizar Green Wallet en su ordenador
 ---
 ![cover](assets/cover.webp)

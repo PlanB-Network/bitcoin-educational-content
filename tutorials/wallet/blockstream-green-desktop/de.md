@@ -1,5 +1,5 @@
 ---
-name: Blockstream Grün - Desktop
+name: Blockstream Green - Desktop
 description: Verwendung von Green Wallet auf Ihrem Computer
 ---
 ![cover](assets/cover.webp)

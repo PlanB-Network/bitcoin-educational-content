@@ -1,5 +1,5 @@
 ---
-name: Blockstream Grün - Flüssig
+name: Blockstream Green - Liquid
 description: Einrichten eines Portfolios auf der Liquid Network Sidechain
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Ambiente de trabalho
+name: Blockstream Green - Desktop
 description: Utilizar a Green Wallet no seu computador
 ---
 ![cover](assets/cover.webp)

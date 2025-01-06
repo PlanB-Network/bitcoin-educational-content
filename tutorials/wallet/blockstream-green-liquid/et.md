@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - vedelik
+name: Blockstream Green - Liquid
 description: Portfelli loomine Liquid Networki külgahelas
 ---
 ![cover](assets/cover.webp)

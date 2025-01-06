@@ -1,5 +1,5 @@
 ---
-name: Blockstream Grün - 2FA
+name: Blockstream Green - 2FA
 description: Einrichten einer 2/2-Multisig auf Green Wallet
 ---
 ![cover](assets/cover.webp)

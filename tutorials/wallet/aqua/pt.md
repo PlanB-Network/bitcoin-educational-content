@@ -1,5 +1,5 @@
 ---
-name: Água
+name: Aqua
 description: Bitcoin, Lightning e Liquid numa única carteira
 ---
 ![cover](assets/cover.webp)

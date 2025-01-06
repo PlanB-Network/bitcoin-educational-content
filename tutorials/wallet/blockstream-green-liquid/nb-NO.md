@@ -1,5 +1,5 @@
 ---
-name: Blockstream Green - Flytende
+name: Blockstream Green - Liquid
 description: Sette opp en portefølje på Liquid Network-sidekjeden
 ---
 ![cover](assets/cover.webp)

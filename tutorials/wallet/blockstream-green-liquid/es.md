@@ -1,5 +1,5 @@
 ---
-name: Blockstream Verde - Líquido
+name: Blockstream Green - Liquid
 description: Creación de una cartera en la red lateral de Liquid Network
 ---
 ![cover](assets/cover.webp)

@@ -32,9 +32,9 @@ Green merupakan aplikasi yang sangat mudah digunakan, yang membuatnya menarik un
 
 Blockstream Green juga mendukung jaringan Liquid, dan itulah yang akan kita pelajari dalam tutorial ini. Jika Anda ingin menggunakan Green untuk aplikasi lain, saya sarankan Anda juga melihat tutorial lainnya:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Menginstal dan mengonfigurasi aplikasi Blockstream Green
 
 Langkah pertama tentu saja mengunduh aplikasi Green. Buka toko aplikasi Anda:
@@ -131,7 +131,7 @@ Dan itu saja, dompet Liquid Anda telah dibuat menggunakan aplikasi Green!
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet Liquid, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus dompet Anda di aplikasi Green saat masih kosong. Kemudian coba pulihkan dompet Anda di Green menggunakan cadangan kertas Anda. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tulis sebelumnya. Jika sesuai, Anda bisa yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut mengenai cara melakukan uji coba pemulihan, silakan baca tutorial lainnya:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Menyiapkan portofolio Liquid Anda
 
 Jika Anda ingin mempersonalisasi portofolio Anda, klik pada tiga titik kecil di sudut kanan atas.
@@ -212,4 +212,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya di aplikasi seluler Blockstream Green untuk menyiapkan dompet Bitcoin onchain:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

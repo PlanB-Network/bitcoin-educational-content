@@ -36,4 +36,4 @@ Det er også viktig å lagre denne passordfrasen på riktig måte, på samme må
 
 Hvis du vil sette opp en passordfrase på en Ledger-enhet (Stax, Flex eller Nano), kan du se denne veiledningen:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49

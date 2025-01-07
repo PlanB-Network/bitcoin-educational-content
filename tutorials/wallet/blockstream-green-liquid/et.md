@@ -32,9 +32,9 @@ Green on eriti lihtsasti kasutatav rakendus, mis teeb selle huvitavaks ka algaja
 
 Blockstream Green toetab ka Liquid-võrku, ja seda me selles õpetuses ka välja selgitame. Kui soovite kasutada Green'i teiste rakenduste jaoks, siis soovitan vaadata ka neid teisi õpetusi:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Blockstream Green rakenduse paigaldamine ja konfigureerimine
 
 Esimene samm on loomulikult rohelise rakenduse allalaadimine. Mine oma rakenduste poodi:
@@ -131,7 +131,7 @@ Ja see ongi kõik, teie Liquid rahakott on loodud, kasutades Green rakendust!
 
 Enne kui saate oma esimesed bitcoinid oma Liquid rahakotti, ** soovitan teil tungivalt teha tühja taastamistesti**. Pange kirja mõned võrdlusandmed, näiteks oma xpub või esimene vastuvõtuaadress, seejärel kustutage oma rahakott rohelises rakenduses, kui see on veel tühi. Seejärel proovige taastada oma rahakott Greenis, kasutades oma paberkandjal varukoopiaid. Kontrollige, et pärast taastamist genereeritud küpsisteave vastab sellele, mille te algselt kirja panite. Kui see vastab, võite olla kindel, et teie paberkandjal varukoopiad on usaldusväärsed. Lisateavet selle kohta, kuidas teha testtaastamine, leiate sellest teisest juhendmaterjalist:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Likviidse portfelli loomine
 
 Kui soovite oma portfelli isikupärastada, klõpsake kolmel väikesel punktil üleval paremas nurgas.
@@ -212,4 +212,4 @@ Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohe
 
 Samuti soovitan teil vaadata seda teist põhjalikku õpetust Blockstream Green mobiilirakenduse kohta, et luua onchain Bitcoini kuum rahakott :
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

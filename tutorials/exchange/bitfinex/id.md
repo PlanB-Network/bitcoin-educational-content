@@ -18,7 +18,7 @@ Untuk membeli bitcoin di Bitfinex, mulailah dengan [membuat akun di platform] (h
 
 Untuk mengamankan kata sandi Anda dan menjamin penggunaan kata sandi yang kuat untuk akun online Anda, terutama di Bitfinex, saya sangat menyarankan Anda untuk menggunakan pengelola kata sandi. Lihat tutorial kami di Bitwarden untuk mempelajari cara menginstal dan menggunakannya setiap hari:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Anda kemudian dapat melakukan deposit dengan metode pembayaran pilihan Anda dan membeli bitcoin.
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 Jika Anda tidak tahu cara menggunakan solusi autentikasi ganda ini untuk mengamankan akun online Anda, saya sarankan Anda untuk melihat tutorial kami tentang aplikasi Authy:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Atau, jika Anda lebih suka menggunakan kunci fisik, lihat tutorial kami tentang Yubikey :
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## Cara menggunakan fungsi perdagangan
 
 Terakhir, jika Anda ingin menggunakan fitur trading yang lebih canggih di Bitfinex, Anda dapat mengatur templat Trade Desk Anda sendiri:

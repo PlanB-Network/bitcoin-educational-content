@@ -20,7 +20,7 @@ Green - особенно простое в использовании прило
 
 Blockstream Green также поддерживает сеть Liquid - сайдчейн биткоина, разработанный компанией Blockstream для быстрых и конфиденциальных транзакций вне основного блокчейна. В этом руководстве мы сосредоточимся исключительно на Биткойне, но я также сделал еще одно руководство, чтобы узнать, как использовать Liquid на Green:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## опция 2/2 мультисиг (2FA)
 
 На Green вы можете создать классический "*singlesig*" горячий кошелек. Но у вас также есть возможность "*2FA multisig*", которая повышает безопасность вашего горячего кошелька, не усложняя его повседневное управление.
@@ -39,7 +39,7 @@ https://planb.network/tutorials/wallet/blockstream-green-liquid
 
 Если вы предпочитаете не использовать опцию 2FA и просто хотите создать кошелек "*singlesig*" на Green, я приглашаю вас ознакомиться с другим руководством:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## Установка и настройка программного обеспечения Blockstream Green
 
 Первым делом, конечно же, нужно загрузить приложение Green. Перейдите в магазин приложений:
@@ -146,7 +146,7 @@ https://planb.network/tutorials/wallet/blockstream-green-liquid
 
 После этого вы сможете выбрать метод аутентификации для доступа ко второму ключу вашей мультисигмы 2/2. В этом уроке мы будем использовать приложение для аутентификации. Если вы не знакомы с этим типом приложений, я рекомендую вам ознакомиться с нашим руководством по Authy:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Выберите "*Приложение для аутентификации*".
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)
@@ -261,4 +261,4 @@ https://planb.network/tutorials/others/authy
 
 Я также рекомендую вам ознакомиться с другим исчерпывающим руководством по настройке мобильного приложения Blockstream Green для создания кошелька Liquid:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

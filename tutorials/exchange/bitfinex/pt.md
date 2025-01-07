@@ -18,7 +18,7 @@ Para comprar bitcoin na Bitfinex, comece por [criar uma conta na plataforma] (ht
 
 Para proteger as suas palavras-passe e garantir a utilização de palavras-passe fortes nas suas contas online, especialmente na Bitfinex, aconselho-o vivamente a utilizar um gestor de palavras-passe. Confira nosso tutorial sobre o Bitwarden para saber como instalá-lo e usá-lo diariamente:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Pode então efetuar um depósito com o método de pagamento da sua escolha e comprar bitcoin.
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 Se não sabe como utilizar estas soluções de autenticação dupla para proteger as suas contas online, recomendo que consulte o nosso tutorial sobre a aplicação Authy:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Ou, se preferir utilizar uma chave física, consulte o nosso tutorial sobre Yubikey :
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## Como utilizar as funções de negociação
 
 Finalmente, se quiser usar as caraterísticas de negociação mais avançadas no Bitfinex, pode configurar os seus próprios modelos de Trade Desk:

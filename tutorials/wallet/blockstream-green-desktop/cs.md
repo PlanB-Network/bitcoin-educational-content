@@ -18,8 +18,8 @@ Zelená je velmi snadno použitelná aplikace, takže je vhodná zejména pro za
 
 V tomto návodu se zaměříme pouze na používání softwaru v počítači. Chcete-li se seznámit s dalšími způsoby použití programu Green, přečtěte si naše další specializované výukové programy:
 
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Instalace a konfigurace softwaru Blockstream Green
 
 Začněte instalací softwaru Blockstream Green do počítače. Přejděte na [oficiální webové stránky](https://blockstream.com/green/) a klikněte na tlačítko "*Download Now*". Poté postupujte podle postupu instalace v souladu s vaším operačním systémem.
@@ -144,4 +144,4 @@ Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níž
 
 Doporučuji vám také podívat se na tento další komplexní návod na mobilní aplikaci Blockstream Green pro nastavení hot wallet:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

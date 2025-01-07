@@ -32,9 +32,9 @@ Green 是一款特别简单易用的应用程序，这使它对初学者很有�
 
 Blockstream Green还支持Liquid网络，我们将在本教程中了解这一点。如果你想将 Green 用于其他应用，我建议你也看看其他教程：
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## 安装和配置 Blockstream Green 应用程序
 
 第一步当然是下载绿色应用程序。前往应用程序商店：
@@ -131,7 +131,7 @@ https://planb.network/tutorials/wallet/blockstream-green-watch-only
 
 在您的 Liquid 钱包收到第一个比特币之前，**我强烈建议您进行一次空钱包恢复测试**。记下一些参考信息，如您的 xpub 或第一个接收地址，然后在 Green 应用程序上删除您的钱包，此时钱包还是空的。然后尝试使用纸质备份在 Green 上恢复钱包。检查还原后生成的 cookie 信息是否与您最初写下的信息一致。如果吻合，您就可以放心，您的纸质备份是可靠的。要了解有关如何进行测试恢复的更多信息，请参阅本教程：
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## 建立流动性投资组合
 
 如果您想个性化您的作品集，请点击右上角的三个小圆点。
@@ -212,4 +212,4 @@ https://planb.network/tutorials/wallet/recovery-test
 
 我还建议您查看 Blockstream Green 移动应用程序的其他综合教程，了解如何设置链上比特币热钱包：
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

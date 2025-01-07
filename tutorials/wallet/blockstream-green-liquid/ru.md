@@ -32,9 +32,9 @@ Green - особенно простое в использовании прило
 
 Blockstream Green также поддерживает сеть Liquid, и именно это мы узнаем в этом руководстве. Если вы хотите использовать Green для других приложений, я рекомендую вам также взглянуть на эти другие руководства:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Установка и настройка приложения Blockstream Green
 
 Первым делом, конечно же, нужно загрузить приложение Green. Перейдите в магазин приложений:
@@ -131,7 +131,7 @@ https://planb.network/tutorials/wallet/blockstream-green-watch-only
 
 Прежде чем вы получите свои первые биткоины на кошелек Liquid, **я настоятельно рекомендую вам провести тест на восстановление пустого кошелька**. Запишите какую-нибудь справочную информацию, например, свой xpub или адрес первого получения, затем удалите кошелек в приложении Green, пока он еще пуст. Затем попробуйте восстановить кошелек в Green, используя свои бумажные резервные копии. Проверьте, совпадает ли информация cookie, полученная после восстановления, с той, которую вы записали изначально. Если совпадает, то вы можете быть уверены, что ваши бумажные резервные копии надежны. Чтобы узнать больше о том, как провести тестовое восстановление, обратитесь к другому руководству:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Создание ликвидного портфеля
 
 Если вы хотите персонализировать свое портфолио, нажмите на три маленькие точки в правом верхнем углу.
@@ -212,4 +212,4 @@ https://planb.network/tutorials/wallet/recovery-test
 
 Я также рекомендую вам ознакомиться с другим полным руководством по мобильному приложению Blockstream Green для создания горячего кошелька Bitcoin на цепочке:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

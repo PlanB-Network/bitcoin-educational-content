@@ -32,9 +32,9 @@ Zelená je mimořádně snadno použitelná aplikace, která je zajímavá i pro
 
 Blockstream Green podporuje také síť Liquid a právě to se dozvíme v tomto tutoriálu. Pokud byste chtěli Green používat i pro jiné aplikace, doporučuji vám podívat se i na tyto další návody:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Instalace a konfigurace aplikace Blockstream Green
 
 Prvním krokem je samozřejmě stažení zelené aplikace. Přejděte do svého obchodu s aplikacemi:
@@ -131,7 +131,7 @@ A je to, vaše peněženka Liquid byla vytvořena pomocí aplikace Green!
 
 Než obdržíte své první bitcoiny do peněženky Liquid, **důrazně vám doporučuji provést test obnovy prázdné peněženky**. Zaznamenejte si některé referenční údaje, jako je vaše xpub nebo první přijímací adresa, a poté peněženku v aplikaci Green vymažte, dokud je ještě prázdná. Poté zkuste peněženku obnovit v aplikaci Zelená pomocí papírových záloh. Zkontrolujte, zda informace o souboru cookie vygenerované po obnovení odpovídají těm, které jste si původně zapsali. Pokud ano, můžete si být jisti, že vaše papírové zálohy jsou spolehlivé. Další informace o tom, jak provést zkušební obnovu, najdete v tomto dalším návodu:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Nastavení portfolia kapalin
 
 Pokud si chcete portfolio přizpůsobit, klikněte na tři malé tečky v pravém horním rohu.
@@ -212,4 +212,4 @@ Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níž
 
 Doporučuji vám také podívat se na tento další komplexní návod na mobilní aplikaci Blockstream Green pro nastavení onchain bitcoinové peněženky:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

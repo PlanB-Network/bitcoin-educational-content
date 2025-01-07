@@ -32,9 +32,9 @@ Greenは特に使いやすいアプリケーションであり、初心者に興
 
 Blockstream GreenはLiquidネットワークもサポートしており、このチュートリアルでそれを確認します。Greenを他のアプリケーションに使用したい場合は、他のチュートリアルもご覧になることをお勧めします：
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Blockstream Greenアプリケーションのインストールと設定
 
 最初のステップは、もちろんGreenアプリケーションをダウンロードすることです。アプリケーションストアにアクセスしてください：
@@ -131,7 +131,7 @@ Active*"ボックスで、"*Liquid Bitcoin*"を選択します。その後、こ
 
 Liquid ウォレットで最初のビットコインを受け取る前に、**空のリカバリーテスト**を行うことを強くお勧めします。xpub や最初の受信アドレスなどの参考情報をメモし、まだ空の状態でグリーンアプリでウォレットを削除してください。その後、紙のバックアップを使用してGreenでウォレットを復元してみてください。復元後に生成されるクッキー情報が、最初にメモしたものと一致しているか確認してください。一致していれば、紙のバックアップが信頼できるものであることが確認できます。リカバリーのテスト方法については、こちらのチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## リキッド・ポートフォリオの設定
 
 ポートフォリオをパーソナライズしたい場合は、右上にある3つの小さな点をクリックしてください。
@@ -212,4 +212,4 @@ L-BTCをまだ持っていない場合、いくつかの選択肢がある。一
 
 私はまた、オンチェーンビットコインホットウォレットをセットアップするためのBlockstream Greenモバイルアプリに関するこの他の包括的なチュートリアルをチェックアウトすることをお勧めします：
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

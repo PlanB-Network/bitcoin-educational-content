@@ -14,7 +14,7 @@ Dalam tutorial ini, saya ingin memperkenalkan Anda pada salah satu solusi dompet
 
 Jika Anda ingin mengetahui cara menggunakan Blockstream Green di komputer Anda, silakan lihat tutorial lainnya:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 ## Memperkenalkan Blockstream Green
 
 Blockstream Green adalah dompet perangkat lunak yang tersedia di ponsel dan desktop. Sebelumnya dikenal sebagai *Green Address*, dompet ini menjadi proyek Blockstream setelah diakuisisi pada tahun 2016.
@@ -123,7 +123,7 @@ Dompet Bitcoin Anda sekarang telah dibuat menggunakan aplikasi Green!
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di aplikasi Green saat masih kosong. Kemudian coba pulihkan dompet Anda di Green menggunakan cadangan kertas Anda. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tulis sebelumnya. Jika sesuai, Anda bisa yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut mengenai cara melakukan uji coba pemulihan, silakan baca tutorial lainnya:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Menyiapkan portofolio Anda di Blockstream Green
 
 Jika Anda ingin mempersonalisasi portofolio Anda, klik pada tiga titik kecil di sudut kanan atas.

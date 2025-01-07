@@ -18,7 +18,7 @@ description: Как использовать Bitfinex?
 
 Чтобы обезопасить свои пароли и гарантировать использование надежных паролей для ваших онлайн-счетов, особенно на Bitfinex, я настоятельно рекомендую вам использовать менеджер паролей. Ознакомьтесь с нашим руководством по Bitwarden, чтобы узнать, как установить и использовать его на ежедневной основе:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Затем вы можете внести депозит выбранным вами способом и приобрести биткоин.
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 Если вы не знаете, как использовать эти решения двойной аутентификации для защиты ваших учетных записей в Интернете, я рекомендую вам взглянуть на наше руководство по приложению Authy:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 А если вы предпочитаете использовать физический ключ, посмотрите наш учебник по Yubikey:
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## Как использовать торговые функции
 
 Наконец, если вы хотите использовать более продвинутые торговые функции на Bitfinex, вы можете установить собственные шаблоны торгового стола:

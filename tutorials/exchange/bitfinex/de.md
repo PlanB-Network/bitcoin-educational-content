@@ -18,7 +18,7 @@ Um Bitcoin auf Bitfinex zu kaufen, beginnen Sie mit der [Erstellung eines Kontos
 
 Um Ihre Passwörter zu sichern und die Verwendung von starken Passwörtern für Ihre Online-Konten zu garantieren, insbesondere auf Bitfinex, rate ich Ihnen dringend, einen Passwort-Manager zu verwenden. Schauen Sie sich unser Tutorial zu Bitwarden an, um zu erfahren, wie Sie ihn installieren und täglich nutzen können:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Sie können dann eine Einzahlung mit der Zahlungsmethode Ihrer Wahl vornehmen und Bitcoin kaufen.
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 Wenn Sie nicht wissen, wie Sie diese doppelten Authentifizierungslösungen zur Sicherung Ihrer Online-Konten nutzen können, empfehle ich Ihnen einen Blick auf unser Tutorial zur Authy-Anwendung:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Wenn Sie lieber einen physischen Schlüssel verwenden möchten, lesen Sie unsere Anleitung zu Yubikey :
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## So verwenden Sie die Handelsfunktionen
 
 Wenn Sie schließlich die fortgeschrittenen Handelsfunktionen von Bitfinex nutzen möchten, können Sie Ihre eigenen Trade Desk-Vorlagen einrichten:

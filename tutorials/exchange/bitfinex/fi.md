@@ -18,7 +18,7 @@ Jos haluat ostaa bitcoineja Bitfinexistä, aloita [luomalla tili alustalle](http
 
 Jos haluat suojata salasanasi ja taata vahvojen salasanojen käytön verkkotileilläsi, erityisesti Bitfinexissä, suosittelen käyttämään salasanahallintaohjelmaa. Tutustu Bitwarden-oppaaseemme ja opi, miten se asennetaan ja käytetään päivittäin:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Tämän jälkeen voit tehdä talletuksen valitsemallasi maksutavalla ja ostaa bitcoinia.
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 Jos et tiedä, miten näitä kaksoistodennusratkaisuja käytetään verkkotilien suojaamiseen, suosittelen tutustumaan Authy-sovellusta koskevaan opetusohjelmaan:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Jos haluat käyttää fyysistä avainta, katso Yubikey-opas:
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## Kaupankäyntitoimintojen käyttö
 
 Lopuksi, jos haluat käyttää Bitfinexin kehittyneempiä kaupankäyntiominaisuuksia, voit luoda omia Trade Desk -malleja:

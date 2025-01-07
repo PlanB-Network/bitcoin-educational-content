@@ -32,9 +32,9 @@ Green é uma aplicação particularmente fácil de utilizar, o que a torna inter
 
 O Blockstream Green também suporta a rede Liquid, e é isso que vamos descobrir neste tutorial. Se quiser utilizar o Green para outras aplicações, recomendo que dê uma vista de olhos a estes outros tutoriais:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Instalar e configurar a aplicação Blockstream Green
 
 O primeiro passo é, obviamente, descarregar a aplicação Green. Aceda à sua loja de aplicações:
@@ -131,7 +131,7 @@ E já está, a sua carteira líquida foi criada com a aplicação Green!
 
 Antes de receberes os teus primeiros bitcoins na tua carteira Liquid, **aconselho-te vivamente a fazeres um teste de recuperação vazio**. Tome nota de algumas informações de referência, como o seu xpub ou o primeiro endereço de receção, depois apague a sua carteira na aplicação Green enquanto ainda está vazia. Em seguida, tente restaurar a sua carteira na aplicação Green utilizando as suas cópias de segurança em papel. Verifique se as informações do cookie geradas após a restauração correspondem às que você anotou originalmente. Se corresponder, pode ter a certeza de que as suas cópias de segurança em papel são fiáveis. Para saber mais sobre como efetuar um teste de recuperação, consulte este outro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Criar a sua carteira líquida
 
 Se pretender personalizar a sua carteira, clique nos três pequenos pontos no canto superior direito.
@@ -212,4 +212,4 @@ Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Si
 
 Também recomendo que você verifique este outro tutorial abrangente sobre o aplicativo móvel Blockstream Green para configurar uma carteira quente Bitcoin onchain :
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

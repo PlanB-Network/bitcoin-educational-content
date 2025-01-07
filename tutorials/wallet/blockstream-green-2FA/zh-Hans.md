@@ -20,7 +20,7 @@ Green 是一款特别简单易用的应用程序，这使它对初学者很有�
 
 Blockstream Green 还支持 Liquid 网络，这是 Blockstream 开发的比特币侧链，用于在主区块链之外进行快速、保密的交易。在本教程中，我们只关注比特币，但我还制作了另一个教程，以学习如何在 Green 上使用 Liquid：
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## 2/2 多重身份验证选项（2FA）
 
 在 Green 上，您可以创建一个经典的 "*singlesig*"热钱包。但您也可以选择 "*2FA 多重签名*"，这样既能提高热钱包的安全性，又不会使日常管理过于复杂。
@@ -39,7 +39,7 @@ https://planb.network/tutorials/wallet/blockstream-green-liquid
 
 如果您不想使用 2FA 选项，而只想在 Green 上设置一个 "*singlesig*"钱包，我邀请您参阅本教程：
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## 安装和配置 Blockstream Green 软件
 
 第一步当然是下载绿色应用程序。前往应用程序商店：
@@ -146,7 +146,7 @@ https://planb.network/tutorials/wallet/blockstream-green-liquid
 
 然后，您就可以选择身份验证方法来访问 2/2 多重身份验证的第二个密钥。在本教程中，我们将使用一个身份验证应用程序。如果你对这类应用程序不熟悉，我建议你参考我们的 Authy 教程：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 选择 "*验证程序*"。
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)
@@ -261,4 +261,4 @@ https://planb.network/tutorials/others/authy
 
 我还建议您查看另一篇关于 Blockstream Green 移动应用程序的综合教程，了解如何设置 Liquid 钱包：
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

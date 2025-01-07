@@ -28,8 +28,8 @@ Green 是一款非常易于使用的应用程序，因此特别适合初学者�
 
 在本教程中，我们将只专注于创建手表投资组合。如需了解 Green 的其他用途，请参阅我们的其他专门教程：
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 ## 安装和配置 Blockstream Green 应用程序
 
 第一步当然是下载绿色应用程序。前往应用程序商店：
@@ -120,4 +120,4 @@ https://planb.network/tutorials/wallet/blockstream-green
 
 我还建议您查看关于 Blockstream Green 应用程序设置热钱包的其他综合教程：
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

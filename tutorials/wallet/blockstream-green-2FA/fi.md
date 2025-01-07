@@ -20,7 +20,7 @@ Green on erityisen helppokäyttöinen sovellus, mikä tekee siitä mielenkiintoi
 
 Blockstream Green tukee myös Liquid-verkkoa, joka on Blockstreamin kehittämä Bitcoin-sivuketju nopeisiin ja luottamuksellisiin transaktioihin päälohkoketjun ulkopuolella. Tässä opetusohjelmassa keskitymme yksinomaan Bitcoiniin, mutta olen tehnyt myös toisen opetusohjelman, jossa opitaan käyttämään Liquidia Greenissä :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## 2/2 multisig-vaihtoehto (2FA)
 
 Vihreällä voit luoda klassisen "*singlesig*"-kuuman lompakon. Mutta sinulla on myös mahdollisuus käyttää "*2FA multisig*" -vaihtoehtoa, joka parantaa kuuman lompakkosi turvallisuutta muttei monimutkaista sen päivittäistä hallintaa.
@@ -39,7 +39,7 @@ Toinen tämän suojausmenetelmän haittapuoli on se, että sinun on käytettäv�
 
 Jos et halua käyttää 2FA-vaihtoehtoa ja haluat vain perustaa "*singlesig*"-lompakon Greeniin, voit tutustua tähän toiseen ohjeeseen :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## Blockstream Green -ohjelmiston asentaminen ja konfigurointi
 
 Ensimmäinen vaihe on tietenkin Green-sovelluksen lataaminen. Mene sovelluskauppaan:
@@ -146,7 +146,7 @@ Napsauta vihreää painiketta "*Lisää tilisi turvallisuutta lisäämällä 2FA
 
 Tämän jälkeen voit valita todentamismenetelmän, jolla saat 2/2-monisignaalin toisen avaimen käyttöösi. Tässä ohjeessa käytämme todennussovellusta. Jos tämäntyyppiset sovellukset eivät ole sinulle tuttuja, suosittelen tutustumaan Authy-oppaaseen :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Valitse "*Autentikointisovellus*".
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)
@@ -261,4 +261,4 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit v
 
 Suosittelen myös tutustumaan tähän muuhun kattavaan oppaaseen Blockstream Green -mobiilisovelluksesta Liquid-lompakon perustamiseksi :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

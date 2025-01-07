@@ -20,7 +20,7 @@ Green er et spesielt brukervennlig program, noe som gjør det interessant for ny
 
 Blockstream Green støtter også Liquid-nettverket, en Bitcoin-sidekjede utviklet av Blockstream for raske, konfidensielle transaksjoner utenfor hovedblokkjeden. I denne veiledningen fokuserer vi utelukkende på Bitcoin, men jeg har også laget en annen veiledning for å lære hvordan du bruker Liquid på Green :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## 2/2 multisig-alternativ (2FA)
 
 På Green kan du opprette en klassisk "*singlesig*"-lommebok. Men du har også muligheten til "*2FA multisig*", som forbedrer sikkerheten til hot wallet uten å gjøre den daglige administrasjonen for komplisert.
@@ -39,7 +39,7 @@ En annen ulempe med denne sikkerhetsmetoden er at du må bruke minoritetsskriptm
 
 Hvis du foretrekker å ikke bruke 2FA-alternativet og bare ønsker å sette opp en "*singlesig*"-lommebok på Green, inviterer jeg deg til å lese denne andre veiledningen :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## Installere og konfigurere Blockstream Green-programvaren
 
 Det første trinnet er selvfølgelig å laste ned Green-applikasjonen. Gå til applikasjonsbutikken din:
@@ -146,7 +146,7 @@ Klikk på den grønne knappen "*Øk sikkerheten til kontoen din ved å legge til
 
 Deretter kan du velge autentiseringsmetode for å få tilgang til den andre nøkkelen i 2/2 multisig. I denne veiledningen bruker vi et autentiseringsprogram. Hvis du ikke er kjent med denne typen applikasjoner, anbefaler jeg at du leser vår veiledning om Authy :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Velg "*Autenticator Application*".
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)
@@ -261,4 +261,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 Jeg anbefaler også at du sjekker ut denne andre omfattende veiledningen om Blockstream Green-mobilapplikasjonen for å sette opp en Liquid-lommebok :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

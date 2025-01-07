@@ -318,7 +318,7 @@ Du kan legge til en "*Label*" for å beskrive kilden til bitcoinsene som skal si
 
 Hvis du vil ha mer informasjon om merking, anbefaler jeg deg også å ta en titt på denne andre veiledningen:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 Du kan deretter bruke denne adressen til å motta bitcoins.
 
 ![LEDGER FLEX](assets/notext/61.webp)

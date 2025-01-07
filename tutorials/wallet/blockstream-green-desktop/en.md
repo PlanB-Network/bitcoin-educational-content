@@ -18,8 +18,8 @@ Green is a very easy-to-use application, making it particularly suitable for beg
 
 In this tutorial, we'll concentrate solely on using the software on the computer. To explore other uses of Green, please consult our other dedicated tutorials:
 
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Installing and configuring Blockstream Green software
 
 Start by installing the Blockstream Green software on your computer. Go to [the official website](https://blockstream.com/green/) and click on the "*Download Now*" button. Then follow the installation process according to your operating system.
@@ -144,4 +144,4 @@ If you found this tutorial useful, I'd be grateful if you'd leave a green thumb 
 
 I also recommend you check out this other comprehensive tutorial on the Blockstream Green mobile app for setting up a hot wallet:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

@@ -14,7 +14,7 @@ In questo tutorial, vorrei presentarvi una delle migliori soluzioni di portafogl
 
 Se desiderate scoprire come utilizzare Blockstream Green sul vostro computer, consultate quest'altra guida:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 ## Presentazione di Blockstream Green
 
 Blockstream Green è un portafoglio software disponibile su mobile e desktop. Precedentemente noto come *Green Address*, questo portafoglio è diventato un progetto di Blockstream in seguito alla sua acquisizione nel 2016.
@@ -123,7 +123,7 @@ Il vostro portafoglio Bitcoin è stato creato con l'applicazione Green!
 
 Prima di ricevere i primi bitcoin nel vostro portafoglio, **vi consiglio vivamente di eseguire un test di recupero del vuoto**. Prendete nota di alcune informazioni di riferimento, come il vostro indirizzo xpub o il primo indirizzo di ricezione, quindi cancellate il vostro portafoglio dall'app Green quando è ancora vuoto. Quindi provare a ripristinare il portafoglio su Green utilizzando i backup cartacei. Verificate che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, potete essere certi che i vostri backup cartacei sono affidabili. Per saperne di più su come effettuare un ripristino di prova, consultate quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Impostazione del portafoglio su Blockstream Green
 
 Se si desidera personalizzare il proprio portafoglio, cliccare sui tre puntini in alto a destra.

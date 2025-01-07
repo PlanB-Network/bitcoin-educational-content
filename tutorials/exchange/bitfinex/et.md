@@ -18,7 +18,7 @@ Bitcoini ostmiseks Bitfinexist alustage [konto loomisest platvormil](https://www
 
 Selleks, et kaitsta oma paroole ja tagada tugevate paroolide kasutamine oma veebikontode jaoks, eriti Bitfinexis, soovitan teil tungivalt kasutada paroolihaldurit. Vaadake meie õpetust Bitwardeni kohta, et teada saada, kuidas seda paigaldada ja igapäevaselt kasutada:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Seejärel saate teha deposiidi oma valitud makseviisiga ja osta bitcoini.
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 Kui te ei tea, kuidas kasutada neid topeltautentimislahendusi oma veebikontode kaitsmiseks, siis soovitan vaadata meie õpetust Authy rakendusest:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Või kui eelistate kasutada füüsilist võtit, vaadake meie õpetust Yubikey :
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## Kuidas kasutada kauplemisfunktsioone
 
 Lõpuks, kui soovite kasutada Bitfinexi täiustatud kauplemisfunktsioone, saate luua oma Trade Deski mallid:

@@ -14,7 +14,7 @@ I denne veiledningen vil jeg introdusere deg for en av de beste løsningene for 
 
 Hvis du vil finne ut hvordan du bruker Blockstream Green på datamaskinen din, kan du lese denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 ## Vi introduserer Blockstream Green
 
 Blockstream Green er en programvarelommebok som er tilgjengelig på mobil og PC. Tidligere kjent som *Green Address*, ble denne lommeboken et Blockstream-prosjekt etter oppkjøpet i 2016.
@@ -123,7 +123,7 @@ Bitcoin-lommeboken din har nå blitt opprettet ved hjelp av Green-applikasjonen!
 
 Før du mottar dine første bitcoins i lommeboken din, anbefaler jeg deg på det sterkeste å utføre en tom gjenopprettingstest**. Noter litt referanseinformasjon, for eksempel xpub-adressen din eller den første mottakeradressen, og slett deretter lommeboken din i Green-appen mens den fortsatt er tom. Prøv deretter å gjenopprette lommeboken din på Green ved hjelp av papirsikkerhetskopiene dine. Sjekk at cookie-informasjonen som genereres etter gjenopprettingen, stemmer overens med den du opprinnelig skrev ned. Hvis den gjør det, kan du være sikker på at papirsikkerhetskopiene dine er pålitelige. Hvis du vil vite mer om hvordan du utfører en testgjenoppretting, kan du lese denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Sette opp porteføljen din på Blockstream Green
 
 Hvis du ønsker å tilpasse porteføljen din, klikker du på de tre små prikkene øverst i høyre hjørne.

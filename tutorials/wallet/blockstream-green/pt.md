@@ -14,7 +14,7 @@ Neste tutorial, gostaria de vos apresentar uma das melhores soluções de softwa
 
 Se quiser saber como utilizar o Blockstream Green no seu computador, consulte este outro tutorial:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 ## Apresentação da Blockstream Green
 
 A Blockstream Green é uma carteira de software disponível para telemóvel e computador. Anteriormente conhecida como *Green Address*, esta carteira tornou-se um projeto Blockstream após a sua aquisição em 2016.
@@ -123,7 +123,7 @@ A sua carteira Bitcoin foi agora criada utilizando a aplicação Green!
 
 Antes de receberes os teus primeiros bitcoins na tua carteira, **aconselho-te vivamente a fazeres um teste de recuperação vazio**. Tome nota de algumas informações de referência, como o seu xpub ou o primeiro endereço de receção, e depois apague a sua carteira na aplicação Green enquanto ainda está vazia. Em seguida, tente restaurar a sua carteira na aplicação Green utilizando as suas cópias de segurança em papel. Verifique se as informações do cookie geradas após a restauração correspondem às que você anotou originalmente. Se corresponder, pode ter a certeza de que as suas cópias de segurança em papel são fiáveis. Para saber mais sobre como efetuar um teste de recuperação, consulte este outro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Criar a sua carteira na Blockstream Green
 
 Se pretender personalizar a sua carteira, clique nos três pequenos pontos no canto superior direito.

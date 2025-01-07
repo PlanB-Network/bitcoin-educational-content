@@ -28,8 +28,8 @@ Zelená je velmi snadno použitelná aplikace, takže je vhodná zejména pro za
 
 V tomto návodu se zaměříme pouze na vytvoření portfolia pouze hodinek. Chcete-li se seznámit s dalšími způsoby využití zelené barvy, přečtěte si naše další specializované výukové programy:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 ## Instalace a konfigurace aplikace Blockstream Green
 
 Prvním krokem je samozřejmě stažení zelené aplikace. Přejděte do svého obchodu s aplikacemi:
@@ -120,4 +120,4 @@ Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níž
 
 Doporučuji vám také podívat se na tento další komplexní návod na aplikaci Blockstream Green pro nastavení horké peněženky:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

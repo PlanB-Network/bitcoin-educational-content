@@ -32,9 +32,9 @@ Green ist eine besonders einfach zu bedienende Anwendung, was sie auch für Anf�
 
 Blockstream Green unterstützt auch das Liquid-Netzwerk, und genau das werden wir in diesem Tutorial herausfinden. Wenn Sie Green für andere Anwendungen nutzen möchten, empfehle ich Ihnen, auch einen Blick auf diese anderen Tutorials zu werfen:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Installieren und Konfigurieren der Blockstream Green Anwendung
 
 Der erste Schritt besteht natürlich darin, die Green-Anwendung herunterzuladen. Gehen Sie zu Ihrem Anwendungsspeicher:
@@ -131,7 +131,7 @@ Und das war's, Ihre Liquid-Brieftasche wurde mit der Green-Anwendung erstellt!
 
 Bevor Sie Ihre ersten Bitcoins in Ihrer Liquid-Wallet erhalten, **empfehle ich Ihnen dringend, einen Test zur Wiederherstellung der leeren Wallet durchzuführen**. Notieren Sie sich einige Referenzinformationen, wie z. B. Ihre xpub- oder erste Empfangsadresse, und löschen Sie dann Ihre Wallet in der Green-App, solange sie noch leer ist. Versuchen Sie dann, Ihre Brieftasche auf Green mit Hilfe Ihrer Papier-Backups wiederherzustellen. Überprüfen Sie, ob die nach der Wiederherstellung generierten Cookie-Informationen mit denen übereinstimmen, die Sie ursprünglich aufgeschrieben haben. Wenn dies der Fall ist, können Sie sicher sein, dass Ihre Papier-Backups zuverlässig sind. Wenn Sie mehr darüber erfahren möchten, wie Sie eine Testwiederherstellung durchführen können, lesen Sie bitte diesen anderen Leitfaden:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Aufbau eines Liquiditätsportfolios
 
 Wenn Sie Ihr Portfolio personalisieren möchten, klicken Sie auf die drei kleinen Punkte in der oberen rechten Ecke.
@@ -212,4 +212,4 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 
 Ich empfehle Ihnen auch, sich dieses andere umfassende Tutorial über die Blockstream Green Mobile App anzusehen, um eine Onchain Bitcoin Hot Wallet einzurichten:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

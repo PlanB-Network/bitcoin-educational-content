@@ -18,7 +18,7 @@ For å kjøpe bitcoin på Bitfinex må du starte med å [opprette en konto på p
 
 For å sikre passordene dine og garantere bruk av sterke passord for nettkontoene dine, spesielt på Bitfinex, anbefaler jeg deg på det sterkeste å bruke en passordadministrator. Ta en titt på veiledningen vår om Bitwarden for å lære hvordan du installerer og bruker den på daglig basis:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Deretter kan du gjøre et innskudd med den betalingsmetoden du ønsker, og kjøpe bitcoin.
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 Hvis du ikke vet hvordan du bruker disse to autentiseringsløsningene for å sikre nettkontoene dine, anbefaler jeg at du tar en titt på veiledningen vår om Authy-programmet:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Hvis du foretrekker å bruke en fysisk nøkkel, kan du se veiledningen vår på Yubikey :
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## Slik bruker du handelsfunksjonene
 
 Til slutt, hvis du ønsker å bruke de mer avanserte handelsfunksjonene på Bitfinex, kan du sette opp dine egne Trade Desk-maler:

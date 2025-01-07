@@ -8,7 +8,7 @@ En BIP39-passordfrase er et valgfritt passord som, når det kombineres med din m
 
 Hvis du ikke er kjent med konseptet med en passordfrase, hvordan det fungerer og hva det innebærer for Bitcoin-lommeboken din, anbefaler jeg på det sterkeste at du leser denne andre teoretiske artikkelen der jeg forklarer alt:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 ## Hvordan fungerer passordfrasen i en hovedbok?
 
 Med Ledger-enheter har du to forskjellige alternativer for å konfigurere en passordfrase på lommeboken din: "*PIN-tied*"-alternativet og "*temporary*"-alternativet.
@@ -31,9 +31,9 @@ I denne veiledningen bruker jeg Ledger Flex som eksempel. Hvis du bruker en anne
 
 Før du starter denne veiledningen, må du forsikre deg om at du allerede har initialisert reskontroen og generert minnefrasen din. Hvis dette ikke er tilfelle og hovedboken din er ny, må du følge den spesifikke veiledningen for din modell som er tilgjengelig på PlanB Network. Når dette trinnet er fullført, kan du gå tilbake til denne veiledningen.
 
-https://planb.network/tutorials/wallet/ledger-flex
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
-https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 ## Hvordan setter jeg opp en midlertidig passordfrase med en hovedbok?
 
 Klikk på tannhjulet for innstillinger på startsiden til Ledger.
@@ -188,4 +188,4 @@ Gratulerer, din Bitcoin-lommebok er nå sikret med en passordfrase! Hvis du syne
 
 Jeg anbefaler også at du tar en titt på denne andre komplette veiledningen om hvordan du bruker Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

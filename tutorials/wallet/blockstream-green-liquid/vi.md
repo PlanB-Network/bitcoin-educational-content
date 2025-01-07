@@ -32,9 +32,9 @@ Green is a particularly easy-to-use application, which makes it interesting for 
 
 Blockstream Green also supports the Liquid network, and that's what we're going to find out in this tutorial. If you'd like to use Green for other applications, I recommend you also take a look at these other tutorials:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Installing and configuring the Blockstream Green application
 
 The first step is of course to download the Green application. Go to your application store:
@@ -131,7 +131,7 @@ And that's it, your Liquid wallet has been created using the Green application!
 
 Before you receive your first bitcoins on your Liquid wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Green app while it's still empty. Then try to restore your wallet on Green using your paper backups. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Setting up your Liquid portfolio
 
 If you wish to personalize your portfolio, click on the three small dots in the top right-hand corner.
@@ -212,4 +212,4 @@ If you found this tutorial useful, I'd be grateful if you'd leave a green thumb 
 
 I also recommend you check out this other comprehensive tutorial on the Blockstream Green mobile app to set up an onchain Bitcoin hot wallet :
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

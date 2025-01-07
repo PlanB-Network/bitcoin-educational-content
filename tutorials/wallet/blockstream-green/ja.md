@@ -14,7 +14,7 @@ description: モバイル・ソフトウェア・ポートフォリオの設定
 
 ブロックストリーム・グリーンの使用方法については、こちらのチュートリアルをご参照ください：
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 ## ブロックストリーム・グリーンの紹介
 
 Blockstream Greenはモバイルとデスクトップで利用可能なソフトウェアウォレットです。以前は*Green Address*として知られていたこのウォレットは、2016年の買収後にBlockstreamのプロジェクトとなった。
@@ -123,7 +123,7 @@ Greenの2FAオプションは、Blockstreamが保持する1つのキーで、2/2
 
 ウォレットに最初のビットコインを受け取る前に、**空のリカバリーテスト**を行うことを強くお勧めします。xpubや最初の受け取りアドレスなどの参考情報をメモし、まだ空の状態でGreenアプリ上でウォレットを削除してください。その後、紙のバックアップを使用してGreenでウォレットを復元してみてください。復元後に生成されるクッキー情報が、最初にメモしたものと一致しているか確認してください。一致していれば、紙のバックアップが信頼できるものであることが確認できます。リカバリーのテスト方法については、こちらのチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## ブロックストリーム・グリーンでポートフォリオを設定する
 
 ポートフォリオをパーソナライズしたい場合は、右上にある3つの小さな点をクリックしてください。

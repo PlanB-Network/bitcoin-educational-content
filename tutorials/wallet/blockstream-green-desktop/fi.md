@@ -18,8 +18,8 @@ Green on erittäin helppokäyttöinen sovellus, joten se sopii erityisesti aloit
 
 Tässä oppaassa keskitymme vain ohjelmiston käyttöön tietokoneella. Jos haluat tutustua Greenin muihin käyttötapoihin, tutustu muihin aiheeseen liittyviin opetusohjelmiin:
 
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Blockstream Green -ohjelmiston asentaminen ja konfigurointi
 
 Aloita asentamalla Blockstream Green -ohjelmisto tietokoneellesi. Siirry [viralliselle verkkosivustolle] (https://blockstream.com/green/) ja napsauta "*Lataa nyt*" -painiketta. Seuraa sitten asennusprosessia käyttöjärjestelmäsi mukaan.
@@ -144,4 +144,4 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit v
 
 Suosittelen myös tutustumaan tähän toiseen kattavaan oppaaseen Blockstream Green -mobiilisovelluksesta kuuman lompakon perustamista varten:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

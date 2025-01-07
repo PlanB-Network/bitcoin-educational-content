@@ -20,7 +20,7 @@ Green es una aplicación particularmente fácil de usar, lo que la hace interesa
 
 Blockstream Green también soporta la red Liquid, una sidechain de Bitcoin desarrollada por Blockstream para transacciones rápidas y confidenciales fuera de la blockchain principal. En este tutorial, nos centramos exclusivamente en Bitcoin, pero también he hecho otro tutorial para aprender a utilizar Liquid en Green :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## opción multisig 2/2 (2FA)
 
 En Green, puede crear un monedero electrónico clásico "*singlesig*". Pero también tienes la opción de "*2FA multisig*", que mejora la seguridad de tu hot wallet sin complicar en exceso su gestión diaria.
@@ -39,7 +39,7 @@ Otra desventaja de este método de seguridad es que tendrás que utilizar planti
 
 Si prefieres no utilizar la opción 2FA y simplemente deseas configurar un monedero "*singlesig*" en Green, te invito a consultar este otro tutorial :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## Instalación y configuración del software Blockstream Green
 
 El primer paso es, por supuesto, descargar la aplicación Green. Ve a tu tienda de aplicaciones:
@@ -146,7 +146,7 @@ Haga clic en el botón verde "*Aumente la seguridad de su cuenta añadiendo la 2
 
 Entonces podrás elegir el método de autenticación para acceder a la segunda clave de tu multisig 2/2. Para este tutorial, utilizaremos una aplicación de autenticación. Si no estás familiarizado con este tipo de aplicación, te recomiendo que consultes nuestro tutorial sobre Authy :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Seleccione "*Aplicación autenticadora*".
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)
@@ -261,4 +261,4 @@ Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar ve
 
 También te recomiendo que consultes este otro completo tutorial sobre la aplicación móvil Blockstream Green para configurar un monedero Liquid :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

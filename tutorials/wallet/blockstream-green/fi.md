@@ -14,7 +14,7 @@ Tässä oppaassa esittelen sinulle yhden parhaista mobiililompakkoratkaisuista: 
 
 Jos haluat tietää, miten Blockstream Greeniä käytetään tietokoneellasi, tutustu tähän muuhun ohjeeseen:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 ## Esittelyssä Blockstream Green
 
 Blockstream Green on ohjelmistolompakko, joka on saatavilla mobiililaitteissa ja työpöydillä. Tämä lompakko tunnettiin aiemmin nimellä *Green Address*, ja siitä tuli Blockstream-projekti sen jälkeen, kun se ostettiin vuonna 2016.
@@ -123,7 +123,7 @@ Bitcoin-lompakkosi on nyt luotu Green-sovelluksella!
 
 Ennen kuin saat ensimmäiset bitcoinit lompakkoosi, **neuvon sinua tekemään tyhjän palautustestin**. Kirjoita muistiin joitakin viitetietoja, kuten xpub- tai ensimmäinen vastaanottava osoite, ja poista lompakkosi Green-sovelluksessa, kun se on vielä tyhjä. Yritä sitten palauttaa lompakkosi Greenissä käyttämällä paperisia varmuuskopioita. Tarkista, että palautuksen jälkeen luodut evästetiedot vastaavat alun perin muistiin kirjoittamiasi tietoja. Jos ne täsmäävät, voit olla varma, että paperiset varmuuskopiot ovat luotettavia. Jos haluat lisätietoja testipalautuksen suorittamisesta, tutustu tähän toiseen ohjeeseen:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Salkun perustaminen Blockstream Greeniin
 
 Jos haluat muokata salkkuasi, napsauta kolmea pientä pistettä oikeassa yläkulmassa.

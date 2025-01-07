@@ -32,9 +32,9 @@ Green è un'applicazione particolarmente facile da usare, il che la rende intere
 
 Blockstream Green supporta anche la rete Liquid, come scopriremo in questo tutorial. Se desiderate utilizzare Green per altre applicazioni, vi consiglio di dare un'occhiata anche a queste altre esercitazioni:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Installazione e configurazione dell'applicazione Blockstream Green
 
 Il primo passo è ovviamente quello di scaricare l'applicazione Green. Andate nel vostro negozio di applicazioni:
@@ -131,7 +131,7 @@ Ed ecco che il vostro portafoglio liquido è stato creato con l'applicazione Gre
 
 Prima di ricevere i primi bitcoin sul vostro portafoglio Liquid, **vi consiglio vivamente di eseguire un test di recupero del vuoto**. Prendete nota di alcune informazioni di riferimento, come il vostro indirizzo xpub o il primo indirizzo di ricezione, quindi cancellate il vostro portafoglio sull'app Green quando è ancora vuoto. Quindi provare a ripristinare il portafoglio su Green utilizzando i backup cartacei. Verificate che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, potete essere certi che i vostri backup cartacei sono affidabili. Per saperne di più su come effettuare un ripristino di prova, consultate quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Impostazione del portafoglio liquidi
 
 Se si desidera personalizzare il proprio portafoglio, cliccare sui tre puntini in alto a destra.
@@ -212,4 +212,4 @@ Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verd
 
 Vi consiglio anche di dare un'occhiata a quest'altro tutorial completo sull'applicazione mobile Blockstream Green per configurare un hot wallet Bitcoin onchain:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

@@ -18,7 +18,7 @@ Chcete-li koupit bitcoin na Bitfinexu, začněte tím, že si [vytvoříte úče
 
 Pro zabezpečení vašich hesel a zaručení používání silných hesel pro vaše online účty, zejména na Bitfinexu, vám důrazně doporučuji používat správce hesel. Podívejte se na náš návod na Bitwarden, kde se dozvíte, jak jej nainstalovat a každodenně používat:
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Poté můžete provést vklad pomocí zvolené platební metody a zakoupit bitcoiny.
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 Pokud nevíte, jak tato řešení dvojího ověřování používat k zabezpečení svých online účtů, doporučuji vám podívat se na náš návod k aplikaci Authy:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Pokud raději používáte fyzický klíč, podívejte se na náš návod na Yubikey :
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## Jak používat obchodní funkce
 
 Pokud chcete využívat pokročilejší obchodní funkce na Bitfinexu, můžete si nastavit vlastní šablony Trade Desk:

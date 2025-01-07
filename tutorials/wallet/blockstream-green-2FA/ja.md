@@ -20,7 +20,7 @@ Greenは特に使いやすいアプリケーションであり、初心者に興
 
 Blockstream Greenはまた、メインブロックチェーン外での高速で機密性の高い取引のためにBlockstreamによって開発されたビットコインのサイドチェーンであるLiquidネットワークもサポートしています。このチュートリアルではBitcoinだけに焦点を当てますが、GreenでLiquidを使用する方法を学ぶ別のチュートリアルも作りました：
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## 2/2マルチシグ・オプション（2FA）
 
 Greenでは、従来の「*singlesig*」ホットウォレットを作成することができます。また、「*2FAマルチシグ*」のオプションもあり、日々の管理を複雑にすることなく、ホットウォレットのセキュリティを強化することができます。
@@ -39,7 +39,7 @@ Blockstreamの障害が発生した場合（例えば、会社の倒産や2つ�
 
 2FAオプションを使用せず、単にGreenで "*singlesig*"ウォレットをセットアップしたい場合は、別のチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## Blockstream Green ソフトウェアのインストールと設定
 
 最初のステップは、もちろんGreenアプリケーションをダウンロードすることです。アプリケーションストアにアクセスしてください：
@@ -146,7 +146,7 @@ PINを確認するため、2回目の入力を行います。
 
 その後、2/2マルチシグの2つ目の鍵にアクセスするための認証方法を選択できるようになる。このチュートリアルでは、認証アプリケーションを使います。このタイプのアプリケーションに慣れていない場合は、Authyのチュートリアルを参照することをお勧めします：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Authenticator Application*」を選択する。
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)
@@ -261,4 +261,4 @@ Unit*"メニューでは、ウォレットの基本単位を変更すること�
 
 また、Blockstream GreenモバイルアプリケーションでLiquidウォレットをセットアップするための包括的なチュートリアルをチェックすることをお勧めします：
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

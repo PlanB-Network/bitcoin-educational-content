@@ -168,4 +168,4 @@ Hvis du fant denne opplæringen nyttig, vil jeg sette pris på en tommel opp ned
 
 Jeg anbefaler også å sjekke ut denne andre veiledningen om VeraCrypt, en programvare som lar deg kryptere og dekryptere lagringsenheter.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

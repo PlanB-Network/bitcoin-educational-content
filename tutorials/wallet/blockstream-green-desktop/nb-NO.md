@@ -18,8 +18,8 @@ Green er et svært brukervennlig program, noe som gjør det spesielt egnet for n
 
 I denne veiledningen konsentrerer vi oss utelukkende om å bruke programvaren på datamaskinen. Hvis du vil utforske andre bruksområder for Green, kan du se våre andre dedikerte veiledninger:
 
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Installere og konfigurere Blockstream Green-programvaren
 
 Start med å installere Blockstream Green-programvaren på datamaskinen din. Gå til [det offisielle nettstedet] (https://blockstream.com/green/) og klikk på "*Last ned nå*"-knappen. Følg deretter installasjonsprosessen i henhold til operativsystemet ditt.
@@ -144,4 +144,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 Jeg anbefaler også at du sjekker ut denne andre omfattende veiledningen om Blockstream Green-mobilappen for å sette opp en hot wallet:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

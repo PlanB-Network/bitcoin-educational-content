@@ -14,7 +14,7 @@ In this tutorial, I'd like to introduce you to one of the best mobile software w
 
 If you would like to find out how to use Blockstream Green on your computer, please refer to this other tutorial:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 ## Introducing Blockstream Green
 
 Blockstream Green is a software wallet available on mobile and desktop. Formerly known as *Green Address*, this wallet became a Blockstream project following its acquisition in 2016.
@@ -123,7 +123,7 @@ Your Bitcoin wallet has now been created using the Green application!
 
 Before you receive your first bitcoins in your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Green app while it's still empty. Then try to restore your wallet on Green using your paper backups. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Setting up your portfolio on Blockstream Green
 
 If you wish to personalize your portfolio, click on the three small dots in the top right-hand corner.

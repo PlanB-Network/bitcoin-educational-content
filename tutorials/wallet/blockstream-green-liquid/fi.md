@@ -32,9 +32,9 @@ Green on erityisen helppokäyttöinen sovellus, mikä tekee siitä mielenkiintoi
 
 Blockstream Green tukee myös Liquid-verkkoa, ja se selviää tässä oppaassa. Jos haluat käyttää Greeniä muihin sovelluksiin, suosittelen tutustumaan myös näihin muihin opetusohjelmiin:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
-https://planb.network/tutorials/wallet/blockstream-green
-https://planb.network/tutorials/wallet/blockstream-green-watch-only
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 ## Blockstream Green -sovelluksen asentaminen ja määrittäminen
 
 Ensimmäinen vaihe on tietenkin Green-sovelluksen lataaminen. Mene sovelluskauppaan:
@@ -131,7 +131,7 @@ Ja se siitä, Liquid-lompakkosi on luotu Green-sovelluksella!
 
 Ennen kuin saat ensimmäiset bitcoinit Liquid-lompakkoosi, **suositan sinua tekemään tyhjän palautustestin**. Merkitse muistiin joitakin viitetietoja, kuten xpub- tai ensimmäinen vastaanottava osoitteesi, ja poista sitten lompakkosi Green-sovelluksessa, kun se on vielä tyhjä. Yritä sitten palauttaa lompakkosi Greenissä käyttämällä paperisia varmuuskopioita. Tarkista, että palautuksen jälkeen luotu evästetieto vastaa alun perin kirjoittamaasi. Jos ne täsmäävät, voit olla varma, että paperiset varmuuskopiot ovat luotettavia. Jos haluat lisätietoja testipalautuksen suorittamisesta, tutustu tähän toiseen ohjeeseen:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Nestemäisen salkun perustaminen
 
 Jos haluat muokata salkkuasi, napsauta kolmea pientä pistettä oikeassa yläkulmassa.
@@ -212,4 +212,4 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit v
 
 Suosittelen myös tutustumaan tähän muuhun kattavaan opetusohjelmaan Blockstream Green -mobiilisovelluksesta onchain Bitcoin hot walletin perustamiseksi:
 
-https://planb.network/tutorials/wallet/blockstream-green
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143

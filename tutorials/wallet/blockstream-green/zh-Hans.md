@@ -14,7 +14,7 @@ description: 建立移动软件组合
 
 如果您想了解如何在电脑上使用 Blockstream Green，请参阅本教程：
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 ## 绿色 Blockstream 介绍
 
 Blockstream Green是一款软件钱包，可在移动端和桌面端使用。该钱包前身为*Green Address*，在2016年被收购后成为Blockstream项目。
@@ -123,7 +123,7 @@ Green 上的 2FA 选项可创建一个 2/2 多重签名钱包，其中一个密�
 
 在您的钱包收到第一个比特币之前，**我强烈建议您进行一次空钱包恢复测试**。记下一些参考信息，如您的 xpub 或第一个接收地址，然后在 Green 应用程序上删除您的钱包，此时钱包还是空的。然后尝试使用纸质备份在 Green 上恢复钱包。检查还原后生成的 cookie 信息是否与您最初写下的信息一致。如果吻合，您就可以放心，您的纸质备份是可靠的。要了解有关如何进行测试恢复的更多信息，请参阅本教程：
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## 在 Blockstream Green 上建立您的投资组合
 
 如果您想个性化您的作品集，请点击右上角的三个小圆点。

@@ -20,7 +20,7 @@ Green é uma aplicação particularmente fácil de utilizar, o que a torna inter
 
 A Blockstream Green também suporta a rede Liquid, uma sidechain Bitcoin desenvolvida pela Blockstream para transacções rápidas e confidenciais fora da blockchain principal. Neste tutorial, concentramo-nos exclusivamente no Bitcoin, mas também criei outro tutorial para aprender a usar o Liquid no Green :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## opção 2/2 multisig (2FA)
 
 No Green, pode criar uma hot wallet clássica "*singlesig*". Mas também tem a opção de "*2FA multisig*", que aumenta a segurança da sua hot wallet sem complicar demasiado a sua gestão quotidiana.
@@ -39,7 +39,7 @@ Outra desvantagem deste método de segurança é o facto de ter de utilizar mode
 
 Se preferir não utilizar a opção 2FA e desejar simplesmente criar uma carteira "*singlesig*" no Green, convido-o a consultar este outro tutorial :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## Instalação e configuração do software Blockstream Green
 
 O primeiro passo é, obviamente, descarregar a aplicação Green. Aceda à sua loja de aplicações:
@@ -146,7 +146,7 @@ Clique no botão verde "*Aumentar a segurança da sua conta adicionando a 2FA*".
 
 Poderá então escolher o método de autenticação para aceder à segunda chave do seu multisig 2/2. Para este tutorial, vamos utilizar uma aplicação de autenticação. Se não estiver familiarizado com este tipo de aplicação, recomendo que consulte o nosso tutorial sobre Authy :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Selecione "*Aplicação de autenticação*".
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)
@@ -261,4 +261,4 @@ Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Si
 
 Também recomendo que você verifique este outro tutorial abrangente sobre o aplicativo móvel Blockstream Green para configurar uma carteira Liquid :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

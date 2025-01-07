@@ -20,7 +20,7 @@ Green è un'applicazione particolarmente facile da usare, il che la rende intere
 
 Blockstream Green supporta anche la rete Liquid, una sidechain di Bitcoin sviluppata da Blockstream per transazioni veloci e riservate al di fuori della blockchain principale. In questo tutorial ci concentriamo esclusivamente su Bitcoin, ma ho realizzato anche un altro tutorial per imparare a usare Liquid su Green:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## opzione 2/2 multisig (2FA)
 
 Su Green è possibile creare un portafoglio caldo classico "*singlesig*". Ma avete anche l'opzione "*2FA multisig*", che aumenta la sicurezza del vostro hot wallet senza complicarne eccessivamente la gestione quotidiana.
@@ -39,7 +39,7 @@ Un altro svantaggio di questo metodo di sicurezza è che dovrete utilizzare mode
 
 Se preferite non utilizzare l'opzione 2FA e desiderate semplicemente impostare un portafoglio "*singlesig*" su Green, vi invito a consultare quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 ## Installazione e configurazione del software Blockstream Green
 
 Il primo passo è ovviamente quello di scaricare l'applicazione Green. Andate nel vostro negozio di applicazioni:
@@ -146,7 +146,7 @@ Cliccate sul pulsante verde "*Aumenta la sicurezza del tuo account aggiungendo l
 
 Si potrà quindi scegliere il metodo di autenticazione per accedere alla seconda chiave del multisig 2/2. Per questa esercitazione, utilizzeremo un'applicazione di autenticazione. Se non si ha familiarità con questo tipo di applicazione, si consiglia di consultare il nostro tutorial su Authy:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 Selezionare "*Applicazione autenticatore*".
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)
@@ -261,4 +261,4 @@ Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verd
 
 Vi consiglio anche di dare un'occhiata a quest'altro tutorial completo sull'applicazione mobile Blockstream Green per configurare un portafoglio Liquid:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

@@ -14,7 +14,7 @@ En este tutorial, me gustaría presentarte una de las mejores soluciones de mone
 
 Si quieres saber cómo utilizar Blockstream Green en tu ordenador, consulta este otro tutorial:
 
-https://planb.network/tutorials/wallet/blockstream-green-desktop
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 ## Presentación de Blockstream Green
 
 Blockstream Green es un monedero de software disponible en móvil y escritorio. Anteriormente conocido como *Green Address*, este monedero se convirtió en un proyecto de Blockstream tras su adquisición en 2016.
@@ -123,7 +123,7 @@ Su monedero Bitcoin ha sido creado con la aplicación Green
 
 Antes de recibir tus primeros bitcoins en tu monedero, **te aconsejo encarecidamente que realices una prueba de recuperación en vacío**. Anota algunos datos de referencia, como tu xpub o la primera dirección de recepción, y luego borra tu monedero en la aplicación Green mientras esté vacío. A continuación, intenta restaurar tu monedero en Green utilizando tus copias de seguridad en papel. Comprueba que la información de la cookie generada tras la restauración coincide con la que anotaste originalmente. Si es así, puede estar seguro de que sus copias de seguridad en papel son fiables. Para saber más sobre cómo realizar una recuperación de prueba, consulta este otro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 ## Crear una cartera en Blockstream Green
 
 Si desea personalizar su cartera, haga clic en los tres puntitos de la esquina superior derecha.

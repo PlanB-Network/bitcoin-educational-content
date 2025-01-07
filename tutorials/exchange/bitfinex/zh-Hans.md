@@ -18,7 +18,7 @@ Bitfinex 积极支持比特币的发展，投资于闪电网络等技术，推�
 
 为了保护您的密码安全，确保您的在线账户（尤其是 Bitfinex 账户）使用高强度密码，我强烈建议您使用密码管理器。查看我们的 Bitwarden 教程，了解如何安装和日常使用：
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 然后，您就可以用自己选择的支付方式存款并购买比特币。
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 如果你不知道如何使用这些双重身份验证解决方案来保护你的在线账户，我建议你看看我们关于 Authy 应用程序的教程：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 或者，如果您喜欢使用实体钥匙，请参阅我们的 Yubikey 教程：
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## 如何使用交易功能
 
 最后，如果您想使用 Bitfinex 上更高级的交易功能，您可以设置自己的交易平台模板：

@@ -18,7 +18,7 @@ Bitfinex でビットコインを購入するには、[プラットフォーム�
 
 パスワードを保護し、オンラインアカウント、特に Bitfinex での強力なパスワードの使用を保証するために、パスワードマネージャーを使用することを強くお勧めします。Bitwarden のチュートリアルをチェックして、インストール方法と日常的な使用方法を学んでください：
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 その後、お好みの支払い方法で入金し、ビットコインを購入することができます。
 
 https://youtu.be/z2YlJr9sF20
@@ -37,10 +37,10 @@ https://youtu.be/_Ah34kG6tng
 
 オンライン・アカウントの安全性を確保するための二重認証ソリューションの使い方がわからない場合は、Authyアプリケーションのチュートリアルをご覧になることをお勧めします：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 また、物理的なキーを使用したい場合は、Yubikeyのチュートリアルをご覧ください：
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## 取引機能の使い方
 
 最後に、Bitfinexのより高度な取引機能を使用したい場合は、独自のトレードデスクテンプレートを設定することができます：

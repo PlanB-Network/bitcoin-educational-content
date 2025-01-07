@@ -1,5 +1,5 @@
 ---
-name: OXT - Ketjuanalyysi
+name: OXT - Chain Analysis
 description: Hallitse Bitcoinin ketjuanalyysin perusteet
 ---
 ![kansi](assets/cover.webp)

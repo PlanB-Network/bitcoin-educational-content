@@ -74,7 +74,11 @@ Ve stejné nabídce nastavení můžete také změnit jazyk aplikace a použitou
 
 Než obdržíte své první bitcoiny do peněženky, **důrazně doporučuji provést test obnovy prázdné peněženky**. Zaznamenejte si některé referenční údaje, jako je vaše xpub nebo první přijímací adresa, a poté peněženku v aplikaci Aqua vymažte, dokud je ještě prázdná. Poté zkuste peněženku v aplikaci Aqua obnovit pomocí papírových záloh. Zkontrolujte, zda informace o souboru cookie vygenerované po obnovení odpovídají těm, které jste si původně zapsali. Pokud ano, můžete si být jisti, že vaše papírové zálohy jsou spolehlivé. Další informace o tom, jak provést zkušební obnovu, naleznete v tomto dalším návodu:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+On to na mém displeji nevidíte, protože používám emulátor, ale v nastavení najdete také možnost zamknout aplikaci pomocí biometrického ověřování. Důrazně doporučuji tuto funkci aktivovat, protože bez ní může kdokoliv, kdo získá přístup k vašemu odemčenému telefonu, ukrást vaše bitcoiny. Na iOS můžete použít Face ID, na Androidu otisk prstu. Pokud by tyto metody při ověřování selhaly, stále byste mohli získat přístup k aplikaci prostřednictvím PIN kódu vašeho telefonu.
+
+
 ## Přijímání bitcoinů na platformě Aqua
 
 Nyní, když je vaše peněženka nastavena, jste připraveni přijímat první saty! Jednoduše klikněte na tlačítko "*Přijmout*" v nabídce "*Peněženka*".
@@ -187,4 +191,4 @@ Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níž
 
 Doporučuji vám také podívat se na tento další komplexní návod na mobilní aplikaci Blockstream Green, která je dalším zajímavým řešením pro nastavení peněženky Liquid :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

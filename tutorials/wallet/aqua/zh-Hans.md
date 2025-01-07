@@ -74,7 +74,10 @@ Liquid 网络依赖于一个由比特币生态系统中公认的实体组成的�
 
 在您的钱包收到第一个比特币之前，**我强烈建议您进行一次空钱包恢复测试**。记下一些参考信息，如您的 xpub 或第一个接收地址，然后在 Aqua 应用程序上删除您的钱包，此时钱包还是空的。然后尝试使用纸质备份在 Aqua 上恢复钱包。检查还原后生成的 cookie 信息是否与您最初写下的信息一致。如果吻合，您就可以放心，您的纸质备份是可靠的。要了解有关如何进行测试恢复的更多信息，请参阅本教程：
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+在我的屏幕上看不到这一选项，因为我使用的是模拟器，但您还可以在设置中找到通过生物识别认证系统锁定应用的选项。我强烈建议您启用此安全功能，因为如果没有它，任何拥有您解锁手机的人都可能盗取您的比特币。您可以在iOS上使用Face ID或在Android上使用指纹。如果这些方法在认证时失败，您仍然可以通过手机的PIN码访问应用程序。
+
 ## 在 Aqua 上接收比特币
 
 钱包设置完成后，您就可以接收第一个卫星信号了！只需点击 "*钱包*"菜单中的 "*接收*"按钮即可。
@@ -187,4 +190,4 @@ Aqua 将创建一张从闪电钱包接收资金的发票。请注意，与 oncha
 
 我还建议您查看关于 Blockstream Green 移动应用程序的其他综合教程，这是另一种有趣的液体钱包设置解决方案：
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

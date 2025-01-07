@@ -76,6 +76,8 @@ Avant de recevoir vos premiers bitcoins sur votre portefeuille, **je vous conse
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
+On ne le voit pas sur mon écran car j'utilise un émulateur, mais vous trouverez également dans les paramètres une option permettant de verrouiller l'application avec un système d'authentification biométrique. Je vous recommande fortement d'activer cette sécurité, car sans elle, toute personne ayant accès à votre téléphone déverrouillé pourrait voler vos bitcoins. Vous pouvez utiliser Face ID sur iOS ou votre empreinte digitale sur Android. Si ces méthodes échouaient lors de l'authentification, vous pourriez toujours accéder à l'application via le code PIN de votre téléphone.
+
 ## Recevoir des bitcoins sur Aqua
 
 Maintenant que votre portefeuille est configuré, vous êtes prêt à recevoir vos premiers sats ! Cliquez simplement sur le bouton "*Receive*" dans le menu "*Wallet*".

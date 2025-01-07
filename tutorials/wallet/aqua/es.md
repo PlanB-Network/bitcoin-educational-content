@@ -74,7 +74,10 @@ En el mismo menú de ajustes, también puedes cambiar el idioma de la aplicació
 
 Antes de recibir tus primeros bitcoins en tu monedero, **te aconsejo encarecidamente que realices una prueba de recuperación en vacío**. Toma nota de alguna información de referencia, como tu xpub o la primera dirección de recepción, luego borra tu monedero en la app Aqua mientras esté vacío. Después intenta restaurar tu monedero en Aqua usando tus copias de seguridad en papel. Comprueba que la información de la cookie generada tras la restauración coincide con la que anotaste originalmente. Si es así, puedes estar seguro de que tus copias de seguridad en papel son fiables. Para saber más sobre cómo realizar una recuperación de prueba, consulta este otro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+No se ve en mi pantalla porque estoy usando un emulador, pero en la configuración encontrarás una opción para bloquear la aplicación con un sistema de autenticación biométrica. Te recomiendo encarecidamente activar esta seguridad, ya que sin ella, cualquier persona con acceso a tu teléfono desbloqueado podría robar tus bitcoins. Puedes usar Face ID en iOS o tu huella dactilar en Android. Si estos métodos fallan durante la autenticación, aún podrás acceder a la aplicación mediante el PIN de tu teléfono.
+
 ## Recibir bitcoins en Aqua
 
 Ahora que tu monedero está configurado, ¡estás listo para recibir tus primeras saturaciones! Sólo tienes que hacer clic en el botón "*Recibir*" del menú "*Monedero*".
@@ -187,4 +190,4 @@ Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar ve
 
 También te recomiendo que eches un vistazo a este otro completo tutorial sobre la aplicación móvil Blockstream Green, que es otra solución interesante para configurar tu monedero Liquid :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

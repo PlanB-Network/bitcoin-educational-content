@@ -74,7 +74,10 @@ No mesmo menu de definições, pode também alterar o idioma da aplicação e a 
 
 Antes de receberes os teus primeiros bitcoins na tua carteira, **aconselho-te vivamente a fazeres um teste de recuperação vazio**. Tome nota de algumas informações de referência, como o seu xpub ou o primeiro endereço de receção, e depois apague a sua carteira na aplicação Aqua enquanto ainda está vazia. Em seguida, tente restaurar a sua carteira na Aqua utilizando as suas cópias de segurança em papel. Verifique se as informações do cookie geradas após a restauração correspondem àquelas que você anotou originalmente. Se corresponder, pode ter a certeza de que as suas cópias de segurança em papel são fiáveis. Para saber mais sobre como efetuar uma recuperação de teste, consulte este outro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+Não é visível na minha tela porque estou usando um emulador, mas você também encontrará uma opção nas configurações para bloquear o aplicativo com um sistema de autenticação biométrica. Recomendo fortemente ativar essa segurança, pois sem ela qualquer pessoa com acesso ao seu telefone desbloqueado poderia roubar seus bitcoins. Você pode usar o Face ID no iOS ou sua impressão digital no Android. Se esses métodos falharem durante a autenticação, você ainda poderá acessar o aplicativo através do PIN do seu telefone.
+
 ## Receber bitcoins no Aqua
 
 Agora que a tua carteira está configurada, estás pronto para receber os teus primeiros sats! Basta clicar no botão "*Receber*" no menu "*Carteira*".
@@ -187,4 +190,4 @@ Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Si
 
 Também recomendo que consulte este outro tutorial completo sobre a aplicação móvel Blockstream Green, que é outra solução interessante para configurar a sua carteira Liquid :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

@@ -74,7 +74,10 @@ Dalam menu pengaturan yang sama, Anda juga dapat mengubah bahasa aplikasi dan ma
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di aplikasi Aqua saat masih kosong. Kemudian coba pulihkan dompet Anda di Aqua menggunakan cadangan kertas Anda. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tulis sebelumnya. Jika sesuai, Anda bisa yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut mengenai cara melakukan uji coba pemulihan, silakan baca tutorial lainnya:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+Ini tidak terlihat di layar saya karena saya menggunakan emulator, tetapi Anda juga akan menemukan opsi di pengaturan untuk mengunci aplikasi dengan sistem autentikasi biometrik. Saya sangat merekomendasikan untuk mengaktifkan fitur keamanan ini karena tanpa itu, siapa pun yang memiliki akses ke ponsel Anda yang tidak terkunci dapat mencuri bitcoin Anda. Anda dapat menggunakan Face ID di iOS atau sidik jari Anda di Android. Jika metode ini gagal selama autentikasi, Anda tetap dapat mengakses aplikasi melalui kode PIN ponsel Anda.
+
 ## Terima bitcoin di Aqua
 
 Sekarang dompet Anda sudah siap, Anda siap untuk menerima satwa pertama Anda! Cukup klik tombol "*Terima*" di menu "*Dompet*".
@@ -187,4 +190,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya di aplikasi seluler Blockstream Green, yang merupakan solusi menarik lainnya untuk menyiapkan dompet Liquid Anda:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

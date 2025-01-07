@@ -74,7 +74,10 @@ Samas seadete menüüs saate muuta ka rakenduse keelt ja kasutatavat fiat-valuut
 
 Enne esimeste bitcoinide saamist oma rahakotti, ** soovitan teil tungivalt teha tühja taastamistesti**. Pange kirja mõned võrdlusandmed, näiteks oma xpub või esimene vastuvõtuaadress, seejärel kustutage oma rahakott Aqua rakenduses, kui see on veel tühi. Seejärel proovige taastada oma rahakott Aqua's, kasutades oma paberkandjal varukoopiaid. Kontrollige, et pärast taastamist genereeritud küpsisteave vastab sellele, mille te algselt kirja panite. Kui see vastab, võite olla kindel, et teie paberkandjal varukoopiad on usaldusväärsed. Lisateavet selle kohta, kuidas teha testtaastamine, leiate sellest teisest juhendmaterjalist:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+Minu ekraanil seda ei kuvata, kuna kasutan emulaatorit, kuid seadetes leiate ka võimaluse rakenduse lukustamiseks biomeetrilise autentimissüsteemiga. Soovitan tungivalt selle turvafunktsiooni aktiveerida, sest ilma selleta võib igaüks, kellel on juurdepääs teie avatud telefonile, teie bitcoine varastada. iOS-is saate kasutada Face ID-d või Androidis oma sõrmejälge. Kui need meetodid autentimise ajal ebaõnnestuvad, pääsete rakendusele ikkagi ligi oma telefoni PIN-koodi kaudu.
+
 ## Saada bitcoine Aqua'l
 
 Nüüd, kui teie rahakott on seadistatud, olete valmis oma esimesi satside vastuvõtmiseks! Lihtsalt klõpsake menüüs "*Pangas*" nupule "*Võta*".
@@ -187,4 +190,4 @@ Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohe
 
 Samuti soovitan teil vaadata seda teist põhjalikku õpetust Blockstream Green mobiilirakenduse kohta, mis on veel üks huvitav lahendus oma Liquid rahakoti seadistamiseks:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

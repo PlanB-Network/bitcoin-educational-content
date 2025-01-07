@@ -74,7 +74,10 @@ Im gleichen Einstellungsmenü können Sie auch die Sprache der Anwendung und die
 
 Bevor Sie Ihre ersten Bitcoins in Ihrem Wallet erhalten, **empfehle ich Ihnen dringend, einen leeren Recovery-Test** durchzuführen. Notieren Sie sich einige Referenzinformationen, wie z. B. Ihre xpub- oder erste Empfangsadresse, und löschen Sie dann Ihre Geldbörse in der Aqua-App, solange sie noch leer ist. Versuchen Sie dann, Ihr Portemonnaie auf Aqua mit Hilfe Ihrer Papier-Backups wiederherzustellen. Überprüfen Sie, ob die nach der Wiederherstellung generierten Cookie-Informationen mit denen übereinstimmen, die Sie ursprünglich aufgeschrieben haben. Wenn dies der Fall ist, können Sie sicher sein, dass Ihre Papier-Backups zuverlässig sind. Um mehr darüber zu erfahren, wie Sie eine Testwiederherstellung durchführen können, lesen Sie bitte diese andere Anleitung:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+Man sieht es nicht auf meinem Bildschirm, da ich einen Emulator benutze, aber in den Einstellungen gibt es auch eine Option, die App mit einem biometrischen Authentifizierungssystem zu sperren. Ich empfehle dringend, diese Sicherheitsfunktion zu aktivieren, da sonst jeder, der Zugriff auf Ihr entsperrtes Telefon hat, Ihre Bitcoins stehlen könnte. Sie können Face ID auf iOS oder Ihren Fingerabdruck auf Android verwenden. Sollte diese Methode bei der Authentifizierung fehlschlagen, können Sie weiterhin über den PIN-Code Ihres Telefons auf die App zugreifen.
+
 ## Erhalten Sie Bitcoins auf Aqua
 
 Nun, da Ihre Brieftasche eingerichtet ist, können Sie Ihre ersten Sats empfangen! Klicken Sie einfach auf die Schaltfläche "*Empfangen*" im Menü "*Geldbörse*".
@@ -187,4 +190,4 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 
 Ich empfehle Ihnen auch dieses umfassende Tutorial über die Blockstream Green Mobile App, die eine weitere interessante Lösung für die Einrichtung Ihrer Liquid Wallet ist:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

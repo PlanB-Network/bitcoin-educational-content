@@ -74,7 +74,10 @@ In the same settings menu, you can also change the application language and the 
 
 Before you receive your first bitcoins in your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Aqua app while it's still empty. Then try restoring your wallet on Aqua using your paper backups. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+You can’t see it on my screen because I’m using an emulator, but in the settings, you’ll find an option to lock the app with a biometric authentication system. I strongly recommend enabling this security feature because, without it, anyone with access to your unlocked phone could steal your bitcoins. You can use Face ID on iOS or your fingerprint on Android. If these methods fail during authentication, you can still access the app using your phone’s PIN code.
+
 ## Receive bitcoins on Aqua
 
 Now that your wallet is set up, you're ready to receive your first sats! Simply click on the "*Receive*" button in the "*Wallet*" menu.
@@ -187,4 +190,4 @@ If you found this tutorial useful, I'd be grateful if you'd leave a green thumb 
 
 I also recommend you check out this other comprehensive tutorial on the Blockstream Green mobile app, which is another interesting solution for setting up your Liquid wallet :
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

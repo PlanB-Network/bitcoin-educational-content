@@ -74,7 +74,10 @@ Nello stesso menu delle impostazioni è possibile modificare la lingua dell'appl
 
 Prima di ricevere i primi bitcoin nel vostro portafoglio, **vi consiglio vivamente di eseguire un test di recupero del vuoto**. Prendete nota di alcune informazioni di riferimento, come il vostro indirizzo xpub o il primo indirizzo di ricezione, quindi cancellate il vostro portafoglio dall'applicazione Aqua quando è ancora vuoto. Quindi provare a ripristinare il portafoglio su Aqua utilizzando i backup cartacei. Verificate che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, potete essere certi che i vostri backup cartacei sono affidabili. Per saperne di più su come effettuare un ripristino di prova, consultate quest'altro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+Non è visibile sul mio schermo perché utilizzo un emulatore, ma troverai anche un'opzione nelle impostazioni per bloccare l'applicazione con un sistema di autenticazione biometrica. Consiglio vivamente di attivare questa sicurezza, perché senza di essa chiunque abbia accesso al tuo telefono sbloccato potrebbe rubare i tuoi bitcoin. Puoi utilizzare Face ID su iOS o l'impronta digitale su Android. Se questi metodi fallissero durante l'autenticazione, potresti comunque accedere all'app tramite il codice PIN del tuo telefono.
+
 ## Ricevere bitcoin su Aqua
 
 Ora che il vostro portafoglio è stato configurato, siete pronti a ricevere i vostri primi satelliti! Basta cliccare sul pulsante "*Ricevi*" nel menu "*Portafoglio*".
@@ -187,4 +190,4 @@ Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verd
 
 Vi consiglio anche di dare un'occhiata a quest'altro tutorial completo sull'applicazione mobile Blockstream Green, che è un'altra soluzione interessante per impostare il vostro portafoglio Liquid:
 
-https://planb.network/tutorials/wallet/blockstream-green-liquid
+https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

@@ -8,7 +8,7 @@ description: Regain your privacy with Samourai
 
 ---
 
-***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, the Samourai app continues to function, but **it is mandatory to use your own Dojo** in order to access blockchain information and broadcast transactions.*
+**\*WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, the Samourai app continues to function, but **it is mandatory to use your own Dojo** in order to access blockchain information and broadcast transactions.\*
 
 _We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
 
@@ -32,8 +32,6 @@ For explanations on each of these tools, you can refer to the **"Privacy Tools"*
 
 ### quick installation for beginners
 
-> Taken from https://docs.samourai.io/wallet/start
-
 Our new welcome screen gives a preview of our wallet features. When you have read these, tap 'Get Started'.
 
 ![image](assets/1.webp)
@@ -56,8 +54,8 @@ Create a secure but memorable passphrase. This passphrase will provide additiona
 
 Your passphrase is a required component when restoring by mnemonic (sometimes called Recovery Words) or when pairing to Whirlpool Desktop apps. It is essential you do not lose or forget your passphrase.
 
-> We do not have knowledge of your passphrase, if you forget your passphrase we cannot help you reset it.
-> Do not forget your passphrase!
+Samourai does not have knowledge of your passphrase, if you forget your passphrase **no one can help you reset** it.
+**Do not forget your passphrase!**
 
 ![image](assets/4.webp)
 
@@ -75,9 +73,9 @@ You have now created a brand new Bitcoin wallet. You will be shown 12 random wor
 
 These words when used together with your passphrase can regenerate your entire wallet, balance, and history in any compatible wallet software.
 
-> Paper Backup Worksheet We provide a template for creating your own offline paper backup
+Paper Backup Worksheet We provide a template for creating your own offline paper backup
 
-> Your secret words must be kept a secret. Anyone who knows your secret words and your passphrase will be able to steal your bitcoin. Never keep your words saved on a computer or the cloud.
+Your secret words must be kept a secret. Anyone who knows your secret words and your passphrase will be able to spend your bitcoin. Never keep your words saved on a computer or the cloud.
 
 Claim your PayNym Bot
 
@@ -85,7 +83,7 @@ A PayNym is a type of stealth address that is unlike normal bitcoin addresses in
 
 After your wallet is successfully created you will be asked to claim a PayNym Bot. This is a visual representation of the SHA-256 hash of your wallet PayNym address.
 
-Once claimed you will be assigned a unique Bot Name that is uploaded to the public directory of PayNym bots, which can be found at https://paynym.is
+Once claimed you will be assigned a unique Bot Name that is uploaded to the public directory of PayNym bots, which can be found ![here](https://paynym.is)
 
 ![image](assets/6.webp)
 

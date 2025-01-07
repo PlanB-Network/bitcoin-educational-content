@@ -2015,6 +2015,317 @@ Comme pour le Schema, l’Interface est définie dans un code source (souvent en
 Une fois l’Interface importée, le wallet peut donc afficher correctement le contrat et proposer des interactions à l'utilisateur.
 
 
+### Interfaces standardisées par l'association LNP/BP
+
+Dans l’écosystème RGB, une **Interface** sert donc à donner un sens lisible et manipulable aux données et opérations d’un contrat. L’Interface est ainsi un complément du **Schema**, qui décrit plutôt la logique métier en interne (types stricts, scripts de validation, etc.). Dans cette section, nous allons découvrir les Interfaces standards développées par l'association LNP/BP pour des types de contrats fréquents (tokens fongibles, NFT...).
+
+Pour rappel, l’idée est que chaque **Interface** décrit la façon d’afficher et de manipuler un contrat du côté du wallet, en nommant clairement les champs (comme `spec`, `ticker`, `issuedSupply`...) et en définissant les opérations possibles (comme `Transfer`, `Burn`, `Rename`...). Plusieurs Interfaces sont déjà opérationnelles, mais il y en aura de plus en plus à l'avenir.
+
+#### Des interface prêtes à l'emploi
+
+**RGB20** est l’Interface destinée aux actifs fongibles, que l’on peut comparer au standard ERC20 d’Ethereum. Elle va cependant plus loin en offrant des fonctionnalités plus étendues :
+- Par exemple, la possibilité de renommer l’actif (changement de *ticker* ou de nom complet) après son émission, ou bien d’ajuster sa précision (*stock splits*) ;
+- Elle peut aussi décrire des mécanismes de réémission secondaire (limitée ou illimitée) et de burn puis de remplacement, afin d'autoriser l’issuer à détruire puis recréer des actifs sous certaines conditions ;
+- À titre d’exemple, on peut lier l’Interface RGB20 au **Schema Non-Inflatable Asset (NIA)**, qui impose une supply initiale non inflationniste, ou à d’autres schémas plus évolués selon les besoins.
+
+**RGB21** concerne les contrats de type NFT ou plus largement, tout contenu numérique unique, comme la représentation de médias numériques (images, musiques, etc.). En plus de décrire l’émission et le transfert d’un actif unique, elle inclut des fonctionnalités comme :
+- Le support intégré pour l’inclusion directe d’un fichier (jusqu’à 16 Mo) dans le contrat (pour le récupérer côté client) ;
+- La possibilité pour le propriétaire d’inscrire un marquage, ou "*engraving*", dans l’historique, afin de prouver sa détention passée d’un NFT.
+
+**RGB25** est un standard hybride combinant des aspects fongibles et non-fongibles. Il est destiné aux actifs partiellement fongibles, par exemple de la tokenisation immobilière, où l’on veut fractionner une propriété tout en conservant un lien avec un actif racine unique (autrement dit, on a des morceaux de maison fongibles, liés à une maison qui, elle, n'est pas fongible). Techniquement, on peut relier cette interface au **Schema *Collectible Fungible Asset* (CFA)**, qui prend en compte la notion de fractionnement tout en traçant l’actif original.
+
+#### Interfaces en cours de développement
+
+D’autres Interfaces sont envisagées pour des usages plus spécialisés, mais ne sont pas encore disponibles à l’heure actuelle :
+- **RGB22**, orientée identités numériques, pour gérer des identifiants ou des profils on-chain dans l’écosystème RGB ;
+- **RGB23**, pour des horodatages avancés, reprenant certaines idées d’*Opentimestamps*, mais avec des fonctionnalités de traçabilité ;
+- **RGB24**, qui vise l’équivalent d’un système de noms de domaines décentralisés (DNS) similaire à l’*Ethereum Name Service* (ENS) ;
+- **RGB26**, destinée à la gestion de **DAOs** (*Decentralized Autonomous Organization*) dans un format plus complexe (gouvernance, votes, etc.) ;
+- **RGB30**, très similaire à RGB20 mais avec la particularité de prendre en compte une **émission initiale décentralisée** et d’utiliser des **State Extensions**. Cela servirait à des actifs dont la réémission est gérée par plusieurs entités, ou soumise à des conditions plus fines.
+
+Évidemment, selon la date à laquelle vous consultez cette formation, il est possible que ces interfaces soient déjà opérationnelles et accessibles.
+
+#### Exemple d'Interface
+
+Dans cet extrait de code Rust, on peut voir une **Interface** [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (actif fongible). Ce code est tiré du fichier `rgb20.rs` dans la bibliothèque standard RGB. Nous allons l’examiner pour comprendre la structure d’une Interface et la façon dont elle fournit un pont entre, d’un côté, la logique métier (définie dans le Schema) et de l’autre, les fonctionnalités exposées aux wallets et aux utilisateurs.
+
+```rust
+// ...
+fn rgb20() -> Iface {
+    let types = StandardTypes::with(rgb20_stl());
+
+    Iface {
+        version: VerNo::V1,
+        name: tn!("RGB20"),
+        global_state: tiny_bmap! {
+            fname!("spec") => GlobalIface::required(types.get("RGBContract.DivisibleAssetSpec")),
+            fname!("data") => GlobalIface::required(types.get("RGBContract.ContractData")),
+            fname!("created") => GlobalIface::required(types.get("RGBContract.Timestamp")),
+            fname!("issuedSupply") => GlobalIface::one_or_many(types.get("RGBContract.Amount")),
+            fname!("burnedSupply") => GlobalIface::none_or_many(types.get("RGBContract.Amount")),
+            fname!("replacedSupply") => GlobalIface::none_or_many(types.get("RGBContract.Amount")),
+        },
+        assignments: tiny_bmap! {
+            fname!("inflationAllowance") => AssignIface::public(OwnedIface::Amount, Req::NoneOrMore),
+            fname!("updateRight") => AssignIface::public(OwnedIface::Rights, Req::Optional),
+            fname!("burnEpoch") => AssignIface::public(OwnedIface::Rights, Req::Optional),
+            fname!("burnRight") => AssignIface::public(OwnedIface::Rights, Req::NoneOrMore),
+            fname!("assetOwner") => AssignIface::private(OwnedIface::Amount, Req::NoneOrMore),
+        },
+        valencies: none!(),
+        genesis: GenesisIface {
+            metadata: Some(types.get("RGBContract.IssueMeta")),
+            global: tiny_bmap! {
+                fname!("spec") => ArgSpec::required(),
+                fname!("data") => ArgSpec::required(),
+                fname!("created") => ArgSpec::required(),
+                fname!("issuedSupply") => ArgSpec::required(),
+            },
+            assignments: tiny_bmap! {
+                fname!("assetOwner") => ArgSpec::many(),
+                fname!("inflationAllowance") => ArgSpec::many(),
+                fname!("updateRight") => ArgSpec::optional(),
+                fname!("burnEpoch") => ArgSpec::optional(),
+            },
+            valencies: none!(),
+            errors: tiny_bset! {
+                SUPPLY_MISMATCH,
+                INVALID_PROOF,
+                INSUFFICIENT_RESERVES
+            },
+        },
+        transitions: tiny_bmap! {
+            tn!("Transfer") => TransitionIface {
+                optional: false,
+                metadata: None,
+                globals: none!(),
+                inputs: tiny_bmap! {
+                    fname!("previous") => ArgSpec::from_non_empty("assetOwner"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("beneficiary") => ArgSpec::from_non_empty("assetOwner"),
+                },
+                valencies: none!(),
+                errors: tiny_bset! {
+                    NON_EQUAL_AMOUNTS
+                },
+                default_assignment: Some(fname!("beneficiary")),
+            },
+            tn!("Issue") => TransitionIface {
+                optional: true,
+                metadata: Some(types.get("RGBContract.IssueMeta")),
+                globals: tiny_bmap! {
+                    fname!("issuedSupply") => ArgSpec::required(),
+                },
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_non_empty("inflationAllowance"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("beneficiary") => ArgSpec::from_many("assetOwner"),
+                    fname!("future") => ArgSpec::from_many("inflationAllowance"),
+                },
+                valencies: none!(),
+                errors: tiny_bset! {
+                    SUPPLY_MISMATCH,
+                    INVALID_PROOF,
+                    ISSUE_EXCEEDS_ALLOWANCE,
+                    INSUFFICIENT_RESERVES
+                },
+                default_assignment: Some(fname!("beneficiary")),
+            },
+            tn!("OpenEpoch") => TransitionIface {
+                optional: true,
+                metadata: None,
+                globals: none!(),
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_required("burnEpoch"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("next") => ArgSpec::from_optional("burnEpoch"),
+                    fname!("burnRight") => ArgSpec::required()
+                },
+                valencies: none!(),
+                errors: none!(),
+                default_assignment: Some(fname!("burnRight")),
+            },
+            tn!("Burn") => TransitionIface {
+                optional: true,
+                metadata: Some(types.get("RGBContract.BurnMeta")),
+                globals: tiny_bmap! {
+                    fname!("burnedSupply") => ArgSpec::required(),
+                },
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_required("burnRight"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("future") => ArgSpec::from_optional("burnRight"),
+                },
+                valencies: none!(),
+                errors: tiny_bset! {
+                    SUPPLY_MISMATCH,
+                    INVALID_PROOF,
+                    INSUFFICIENT_COVERAGE
+                },
+                default_assignment: None,
+            },
+            tn!("Replace") => TransitionIface {
+                optional: true,
+                metadata: Some(types.get("RGBContract.BurnMeta")),
+                globals: tiny_bmap! {
+                    fname!("replacedSupply") => ArgSpec::required(),
+                },
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_required("burnRight"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("beneficiary") => ArgSpec::from_many("assetOwner"),
+                    fname!("future") => ArgSpec::from_optional("burnRight"),
+                },
+                valencies: none!(),
+                errors: tiny_bset! {
+                    NON_EQUAL_AMOUNTS,
+                    SUPPLY_MISMATCH,
+                    INVALID_PROOF,
+                    INSUFFICIENT_COVERAGE
+                },
+                default_assignment: Some(fname!("beneficiary")),
+            },
+            tn!("Rename") => TransitionIface {
+                optional: true,
+                metadata: None,
+                globals: tiny_bmap! {
+                    fname!("new") => ArgSpec::from_required("spec"),
+                },
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_required("updateRight"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("future") => ArgSpec::from_optional("updateRight"),
+                },
+                valencies: none!(),
+                errors: none!(),
+                default_assignment: Some(fname!("future")),
+            },
+        },
+        extensions: none!(),
+        error_type: types.get("RGB20.Error"),
+        default_operation: Some(tn!("Transfer")),
+        type_system: types.type_system(),
+    }
+}
+```
+
+Dans cette interface, on remarque des similarités avec la structure du **Schema** : on retrouve une déclaration de **Global State**, de **Owned States**, de **Contract Operations** (Genesis et Transitions), ainsi que de la gestion d’erreurs. Mais l’Interface se concentre sur la présentation et la manipulation de ces éléments pour un wallet ou toute autre application.
+
+La différence avec le Schema réside dans la nature des types. Dans le Schema, on utilise des types stricts (comme `FungibleType::Unsigned64Bit`) et des identifiants plus techniques. Dans l’Interface, on utilise plutôt des noms de champs, des macros (`fname!()`, `tn!()`), et des références à des classes d’arguments (`ArgSpec`, `OwnedIface::Rights`...). Il s’agit ici de faciliter la compréhension fonctionnelle et l’organisation des éléments pour le wallet.
+
+De plus, l’Interface peut introduire des fonctionnalités supplémentaires par rapport au schéma de base (par exemple, la gestion d’un droit de `burnEpoch`), tant que celles-ci restent cohérentes avec la logique finale validée côté client. La section "script" AluVM dans le Schema assurera la validité cryptographique, tandis que l’Interface décrit comment l’utilisateur (ou le wallet) interagit avec ces états et transitions.
+
+#### Global State et Assignments
+
+Dans la section `global_state`, on retrouve des champs tels que `spec` (description de l’actif), `data`, `created`, `issuedSupply`, `burnedSupply`, `replacedSupply`. Ce sont des champs que le wallet peut lire et présenter. Par exemple :
+- `spec` permettra d’afficher la configuration du jeton ;
+- `issuedSupply` ou `burnedSupply` nous donnent sur le nombre total de tokens émis ou brûlés, etc.
+
+Dans la section `assignments`, on définit différents rôles ou droits. Par exemple :
+- `assetOwner` correspond à la détention de tokens (c’est le *Owned State* fongible) ;
+- `burnRight` correspond à la capacité de brûler des tokens ;
+- `updateRight` correspond au droit de renommer l’actif.
+
+Le mot-clé `public` ou `private` (par exemple `AssignIface::public(...)`) indique si ces états sont visibles (`public`) ou confidentiels (`private`). Quant à `Req::NoneOrMore`, `Req::Optional`, ils indiquent l’occurrence attendue.
+
+#### Genesis et transitions
+
+La partie `genesis` décrit la manière dont est initialisé l’actif :
+- Les champs `spec`, `data`, `created`, `issuedSupply` sont obligatoires (`ArgSpec::required()`) ;
+- Les `assignments` comme `assetOwner` peuvent être présents en plusieurs exemplaires (`ArgSpec::many()`), ce qui permet de distribuer des tokens à plusieurs détenteurs initiaux ;
+- On peut éventuellement prévoir (ou non) des champs comme `inflationAllowance` ou `burnEpoch` dans la Genesis.
+
+Ensuite, pour chaque Transition (`Transfer`, `Issue`, `Burn`…), l’Interface définit quels champs l’opération attend en entrée, quels champs l’opération va produire en sortie, et les éventuelles erreurs qui peuvent survenir. Par exemple :
+
+**Transition `Transfer` :**
+- Inputs : `previous` → doit être un `assetOwner` ;
+- Assignments : `beneficiary` → sera un nouvel `assetOwner` ;
+- Erreur : `NON_EQUAL_AMOUNTS` (le wallet saura ainsi gérer les cas où la somme en entrée ne correspond pas à celle en sortie).
+
+**Transition `Issue` :**
+- Optionnelle (`optional: true`), car l’émission supplémentaire n’est pas forcément activée ;
+- Inputs : `used` → un `inflationAllowance`, c’est-à-dire la permission d’ajouter plus de tokens ;
+- Assignments : `beneficiary` (nouveaux tokens reçus) et `future` (`inflationAllowance` restant) ;
+- Erreurs possibles : `SUPPLY_MISMATCH`, `ISSUE_EXCEEDS_ALLOWANCE`, etc.
+
+**Transition `Burn` :**
+- Inputs : `used` → un `burnRight` ;
+- Globals : `burnedSupply` obligatoire ;
+- Assignments : `future` → une éventuelle poursuite du `burnRight` si on n’a pas tout brûlé ;
+- Erreurs : `SUPPLY_MISMATCH`, `INVALID_PROOF`, `INSUFFICIENT_COVERAGE`.
+
+Chaque opération est donc décrite d’une façon lisible pour un wallet. Cela permet d’afficher une interface graphique où l’utilisateur voit clairement : "*Vous avez un droit de burn. Souhaitez-vous brûler un certain montant ?*". Le code sait qu’il faut renseigner un champ `burnedSupply` et vérifier que le `burnRight` est valide.
+
+Pour résumer, il faut garder à l’esprit qu’une Interface, aussi complète soit-elle, ne définit pas à elle seule la logique interne du contrat. Le cœur du travail est fait par le **Schema**, qui comprend les types stricts, la structure de la Genesis, les transitions, etc. L’Interface se contente en quelque sorte d’exposer ces éléments de manière plus intuitive et nommée, pour un usage dans une application.
+
+Grâce à la modularité de RGB, on peut ainsi faire évoluer l’Interface (par exemple, ajouter une transition `Rename`, corriger l’affichage d’un champ...) sans devoir réécrire tout le contrat. Les utilisateurs de cette Interface peuvent alors bénéficier immédiatement de ces améliorations, dès qu’ils mettent à jour le fichier `.rgb` ou `.rgba`.
+
+Mais après avoir déclaré une Interface, il faut la relier au Schema correspondant. Cette correspondance s’effectue via l’***Interface Implementation***, qui indique comment mapper chaque champ nommé (comme par exemple `fname!("assetOwner")`) à l’ID strict (comme par exemple `OS_ASSET`) défini dans le Schema. Cela permet de s’assurer que, lorsqu’un wallet manipule un champ `burnRight`, il s’agit bien de l’état qui, dans le Schema, décrit la capacité de brûler des tokens.
+
+### Interface Implementation
+
+Dans l’architecture RGB, nous avons vu que chaque composant (Schema, Interface, etc.) peut être développé et compilé indépendamment. Il reste toutefois un élément indispensable pour relier ces différentes briques : l’***Interface Implementation***. C’est elle qui fait le mappage explicite entre les identifiants ou les champs définis dans le Schema (côté logique métier) et les noms déclarés dans l’Interface (côté présentation et interaction utilisateur). Ainsi, lorsqu’un wallet charge un contrat, il peut comprendre précisément quel champ correspond à quoi, et comment une opération nommée dans l’Interface se rattache à la logique du Schema.
+
+Un point important est que l’Interface Implementation n’a pas forcément vocation à exposer toutes les fonctionnalités d’un Schema, ni tous les champs d’une Interface : elle peut se limiter à un sous-ensemble. En pratique, cela permet de brider ou filtrer certains aspects du Schema. Par exemple, on pourrait avoir un Schema avec quatre types d’opérations, mais une Interface Implementation qui n’en mappe que deux dans un contexte donné. Inversement, si une Interface propose des endpoints supplémentaires, on peut choisir de ne pas les implémenter ici.
+
+Voici un exemple classique d’Interface Implementation, où l’on associe un Schema *Non-Inflatable Asset* (NIA) à l’Interface RGB20 :
+
+```rust
+fn nia_rgb20() -> IfaceImpl {
+    let schema = nia_schema();
+    let iface = Rgb20::iface();
+
+    IfaceImpl {
+        version: VerNo::V1,
+        schema_id: schema.schema_id(),
+        iface_id: iface.iface_id(),
+        script: none!(),
+        global_state: tiny_bset! {
+            NamedField::with(GS_NOMINAL, fname!("spec")),
+            NamedField::with(GS_DATA, fname!("data")),
+            NamedField::with(GS_TIMESTAMP, fname!("created")),
+            NamedField::with(GS_ISSUED_SUPPLY, fname!("issuedSupply")),
+        },
+        assignments: tiny_bset! {
+            NamedField::with(OS_ASSET, fname!("assetOwner")),
+        },
+        valencies: none!(),
+        transitions: tiny_bset! {
+            NamedType::with(TS_TRANSFER, tn!("Transfer")),
+        },
+        extensions: none!(),
+    }
+}
+```
+
+Dans cette Interface Implementation :
+- On référence explicitement le Schema, via `nia_schema()`, et l’Interface, via `Rgb20::iface()`. Les appels `schema.schema_id()` et `iface.iface_id()` servent à ancrer l’Interface Implementation du côté de la compilation (cela associe les identifiants cryptographiques de ces deux composants) ;
+- On établit un **mappage** entre les éléments du Schema et ceux de l’Interface. Par exemple, le champ `GS_NOMINAL` dans le Schema est lié à la chaîne `"spec"` côté Interface (`NamedField::with(GS_NOMINAL, fname!("spec"))`). On fait de même pour les opérations, comme `TS_TRANSFER`, qu’on rattache à `"Transfer"` dans l’Interface... ;
+- On peut observer qu’il n’y a pas de valencies (`valencies: none!()`) ni d’extensions (`extensions: none!()`), ce qui reflète le fait que ce contrat NIA n’utilise pas ces fonctionnalités.
+
+Le résultat après compilation est un fichier `.rgb` ou `.rgba` séparé, destiné à être importé dans le wallet en complément du Schema et de l’Interface. Ainsi, le logiciel sait comment connecter concrètement ce contrat NIA (dont la logique est décrite par son Schema) à l’Interface "RGB20" (qui fournit des noms humains et un mode d’interaction pour des jetons fongibles), en appliquant cette Interface Implementation comme passerelle entre les deux.
+
+#### Pourquoi séparer l’Interface Implementation ?
+
+La séparation renforce la flexibilité. Un même Schema pourrait avoir plusieurs Interface Implementations distinctes, chacune mappant un ensemble différent de fonctionnalités. Par ailleurs, l’Interface Implementation elle-même peut évoluer ou être réécrite sans nécessiter un changement dans le Schema ni dans l’Interface. On garde donc le principe de modularité de RGB : chaque composant (Schema, Interface, Interface Implementation) peut être versionné et mis à jour de manière indépendante, tant qu’on respecte les règles de compatibilité imposées par le protocole (mêmes identifiants, cohérence des types, etc.).
+
+Dans le cadre d’une utilisation concrète, lorsque le wallet charge un contrat, il doit :
+- Charger le **Schema** compilé (pour connaître la structure de la logique métier) ;
+- Charger l’**Interface** compilée (pour comprendre les noms et les opérations côté utilisateur) ;
+- Charger l’**Interface Implementation** compilée (pour relier la logique du Schema aux noms de l’Interface, opération par opération, champ par champ).
+
+Cette architecture modulaire rend possible des scénarios d’usage tels que :
+- Limiter certaines opérations pour certains utilisateurs : proposer une Interface Implementation partielle qui ne donne accès qu’aux transferts de base, sans offrir la fonction de burn ou d’update, par exemple ;
+- Changer la présentation : concevoir une Interface Implementation qui renomme un champ dans l’Interface ou le mappe différemment, sans altérer la base du contrat ;
+- Supporter plusieurs schémas : un wallet peut charger plusieurs Interface Implementations pour le même type d’Interface, afin de gérer différents schémas (différentes logiques de jetons), pourvu que leur structure soit compatible.
+
+Dans le chapitre suivant, nous allons étudier comment fonctionne le transfert d'un contrat, et comment sont générées les invoices RGB.
 
 
 

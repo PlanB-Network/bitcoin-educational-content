@@ -2598,6 +2598,36 @@ Maintenant que nous avons étudié les principaux éléments liés à la program
 
 ![video](https://youtu.be/GRwS-NvWF3I)
 
+Dans ce chapitre, nous allons suivre pas à pas la rédaction d'un contrat, en utilisant l’outil en ligne de commande `rgb`. L’objectif est de montrer comment installer et manipuler le CLI, compiler un **Schema**, importer l’**Interface** et l’**Interface Implementation**, puis émettre (*issue*) un actif. Nous verrons également la logique sous-jacente, avec la compilation et la validation de l’état. À l’issue de ce chapitre, vous devriez être en mesure de reproduire la démarche et de créer vos propres contrats RGB.
+
+Pour rappel, la logique interne de RGB repose sur des bibliothèques Rust que vous, en tant que développeurs, pouvez importer dans vos projets pour gérer la partie *client-side validation*. En complément, l’équipe de l'Association LNP/BP travaille à proposer des bindings pour d’autres langages, mais ce n’est pas encore finalisé. Par ailleurs, d’autres entités comme Bitfinex développent leurs propres stacks d’intégration. Le CLI `rgb` constitue donc pour l’instant la référence officielle, même s’il reste relativement brut de décoffrage.
+
+### Installation et présentation de l’outil rgb
+
+La commande principale se nomme simplement `rgb`. Elle est conçue de façon à rappeler l’usage de `git`, avec un ensemble de sous-commandes pour manipuler les contrats, les invoquer, émettre des assets, etc. Actuellement, la partie Bitcoin Wallet n’y est pas intégrée, mais va l’être dans une version imminente (0.11). Cette prochaine version permettra de créer et gérer ses wallets (via des descriptors) directement depuis `rgb`, y compris la génération de PSBT, la compatibilité avec du matériel externe (par exemple un hardware wallet) pour la signature, ou encore l’interopérabilité avec des logiciels comme Sparrow. Le scénario complet d’émission et de transfert d’actif deviendra ainsi plus simple.
+
+#### Installation via Cargo
+
+On installe l’outil en Rust avec :
+
+```sh
+cargo install rgb-contracts --all-features
+```
+
+(Remarque : le crate s’appelle `rgb-contracts`, et la commande installée sera nommée `rgb`. S’il existait déjà un crate nommé `rgb`, il aurait pu y avoir collision, d’où cette dénomination.)
+
+L’installation compile un grand nombre de dépendances (par exemple le parsing de la commande, l’intégration avec Electrum, la gestion des zero-knowledge proofs, etc.).
+
+Une fois l’installation terminée, on dispose de la commande :
+
+```sh
+rgb
+```
+
+L’exécution de `rgb` (sans argument) affiche la liste des sous-commandes disponibles, comme `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, etc. Il est possible de modifier le répertoire de stockage local (un stash qui conserve les consignments, schémas et implémentations), de choisir le réseau (testnet, mainnet) ou de configurer son Electrum server.
+
+
+
 ## Sujets avancés RGB et discussions futures
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 

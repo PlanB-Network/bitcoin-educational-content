@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
 import pandas as pd
+import openpyxl
+from openpyxl.styles import Font
 
 def find_project_root():
     """
@@ -41,9 +43,9 @@ def calculate_reward_multiplier(lines, start_idx):
         return 4
     return 1
 
-def read_course_yaml(yaml_path):
+def read_yaml_file(yaml_path):
     """
-    Read the course.yml file and extract all language-reward pairs,
+    Read the yaml file (course.yml or tutorial.yml) and extract all language-reward pairs,
     applying multipliers based on contributor count.
     """
     try:
@@ -95,7 +97,7 @@ def process_courses(base_path):
             
             if yaml_file.exists():
                 print(f"\nProcessing {yaml_file}")
-                language_rewards = read_course_yaml(yaml_file)
+                language_rewards = read_yaml_file(yaml_file)
                 languages.update(language_rewards.keys())
                 
                 course_data.append({
@@ -123,17 +125,42 @@ def process_courses(base_path):
 
 def process_tutorials(base_path):
     results = []
-    # Only process level 2 directories (sub-sub-folders)
+    languages = set()  # Set to store unique languages
+    tutorial_data = []  # List to store tutorial data
+    
+    # Process level 2 directories (sub-sub-folders)
     for level1 in base_path.iterdir():
         if level1.is_dir():
             for level2 in level1.iterdir():
                 if level2.is_dir():
+                    yaml_file = level2 / 'tutorial.yml'
                     md_file = level2 / 'en.md'
-                    if md_file.exists():
-                        results.append({
+                    
+                    if yaml_file.exists():
+                        print(f"\nProcessing tutorial {yaml_file}")
+                        language_rewards = read_yaml_file(yaml_file)
+                        languages.update(language_rewards.keys())
+                        
+                        tutorial_data.append({
                             'Folder': level2.name,
-                            'Word Count': count_words_in_file(md_file)
+                            'Word Count': count_words_in_file(md_file) if md_file.exists() else 0,
+                            'language_rewards': language_rewards
                         })
+    
+    # Print all found languages in tutorials:", sorted(languages))
+    
+    # Create the final data structure
+    for tutorial in tutorial_data:
+        row_data = {
+            'Folder': tutorial['Folder'],
+            'Word Count': tutorial['Word Count']
+        }
+        # Add the reward under the corresponding language column
+        for lang in languages:
+            row_data[lang] = tutorial['language_rewards'].get(lang)
+        
+        results.append(row_data)
+    
     return results
 
 def main():
@@ -153,11 +180,75 @@ def main():
         output_path = Path(__file__).parent / 'word_counts.xlsx'
         df = pd.DataFrame(results)
         
-        # Sort the columns to ensure Folder and Word Count are first, followed by alphabetically sorted languages
-        columns = ['Folder', 'Word Count'] + sorted([col for col in df.columns if col not in ['Folder', 'Word Count']])
+        # Rename 'Word Count' to 'Word Count EN'
+        df = df.rename(columns={'Word Count': 'Word Count EN'})
+        
+        # Sort the columns to ensure Folder and Word Count EN are first, followed by alphabetically sorted languages
+        columns = ['Folder', 'Word Count EN'] + sorted([col for col in df.columns if col not in ['Folder', 'Word Count EN']])
         df = df[columns]
         
-        df.to_excel(output_path, index=False)
+        # Calculate totals for proofreading
+        first_proofreading = {}
+        first_proofreading['Folder'] = 'Total for first proofreading'
+        first_proofreading['Word Count EN'] = None
+        for col in columns[2:]:  # Skip Folder and Word Count EN
+            first_proofreading[col] = df[col].sum()
+        
+        # Add empty row
+        empty_row = {col: None for col in columns}
+        
+        # Calculate second proofreading
+        second_proofreading = {}
+        second_proofreading['Folder'] = 'Total for second proofreading'
+        second_proofreading['Word Count EN'] = None
+        for col in columns[2:]:
+            second_proofreading[col] = first_proofreading[col] / 2
+        
+        # Calculate third proofreading
+        third_proofreading = {}
+        third_proofreading['Folder'] = 'Total for third proofreading'
+        third_proofreading['Word Count EN'] = None
+        for col in columns[2:]:
+            third_proofreading[col] = second_proofreading[col] / 2
+        
+        # Calculate total for all proofreading
+        total_all = {}
+        total_all['Folder'] = 'Total for all the proofreading'
+        total_all['Word Count EN'] = None
+        for col in columns[2:]:
+            total_all[col] = first_proofreading[col] + second_proofreading[col] + third_proofreading[col]
+        
+        # Append all new rows to the DataFrame
+        df = pd.concat([df, 
+                       pd.DataFrame([first_proofreading]),
+                       pd.DataFrame([empty_row]),
+                       pd.DataFrame([second_proofreading]),
+                       pd.DataFrame([empty_row]),
+                       pd.DataFrame([third_proofreading]),
+                       pd.DataFrame([empty_row]),
+                       pd.DataFrame([total_all])], 
+                      ignore_index=True)
+        
+        # Create Excel file with formatting
+        with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
+            # Write the DataFrame to Excel
+            df.to_excel(writer, index=False)
+            
+            # Get the worksheet
+            worksheet = writer.sheets['Sheet1']
+            
+            # Find the row index of "Total for all the proofreading"
+            total_row = None
+            for idx, row in enumerate(worksheet.iter_rows(min_row=1, max_row=worksheet.max_row), 1):
+                if row[0].value == 'Total for all the proofreading':
+                    total_row = idx
+                    break
+            
+            # Apply bold formatting to the entire row
+            if total_row:
+                for cell in worksheet[total_row]:
+                    cell.font = Font(bold=True)
+
         print(f"\nResults saved to {output_path}")
         
     except FileNotFoundError as e:

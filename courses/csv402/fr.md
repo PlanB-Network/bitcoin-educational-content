@@ -1479,9 +1479,9 @@ Pour plus d’informations : [Site officiel d’AluVM](https://www.aluvm.org/)
 #### Anchor
 
 Un **Anchor** représente un ensemble de données côté client permettant de prouver l’inclusion d’un _commitment_ unique dans une transaction. Dans le protocole RGB, un Anchor est constitué des éléments suivants :
-- L’identifiant de la transaction Bitcoin (le **Transaction ID** ou _txid_) de la **witness transaction**.
-- Le **Multi Protocol Commitment (MPC)**.
-- Le **Deterministic Bitcoin Commitment (DBC)**.
+- L’identifiant de la transaction Bitcoin (le **Transaction ID** ou _txid_) de la **witness transaction** ;
+- Le **Multi Protocol Commitment (MPC)** ;
+- Le **Deterministic Bitcoin Commitment (DBC)** ;
 - L’**Extra Transaction Proof (ETP)** si l’on emploie le mécanisme de commitment **Tapret** (voir la section dédiée à ce schéma).
 
 Un Anchor sert donc à établir un lien vérifiable entre une transaction Bitcoin précise et des données privées validées par le protocole RGB. Il garantit que ces données sont bel et bien incluses dans la blockchain, sans pour autant que leur contenu exact soit exposé publiquement.
@@ -1489,9 +1489,8 @@ Un Anchor sert donc à établir un lien vérifiable entre une transaction Bitcoi
 #### Assignment
 
 Dans la logique de RGB, un **Assignment** est l’équivalent d’une sortie de transaction (output) qui modifie, met à jour ou crée certaines propriétés au sein de l’état d’un **contract**. Un Assignment comporte deux éléments :
-
-1. Une **Seal Definition** (la référence à un UTXO précis).
-2. Un **Owned State** (les données décrivant l’état associé à ce nouveau détenteur).
+- Une **Seal Definition** (la référence à un UTXO précis) ;
+- Un **Owned State** (les données décrivant l’état associé à ce nouveau détenteur).
 
 Un Assignment indique donc qu’une portion de l’état (ex. un actif) est désormais allouée à un détenteur particulier, identifié via un _seal_ lié à un UTXO.
 
@@ -1994,7 +1993,6 @@ L’Interface peut être modifiée ou complétée **après** l’émission de l�
 
 Un même contrat pourrait être exposé par différentes Interfaces adaptées à des besoins distincts : une Interface simple pour l’utilisateur final, une autre plus avancée pour l’issuer qui doit gérer des opérations complexes de configuration. Le wallet pourra alors choisir quelle Interface importer, selon son usage.
 
-
 ![RGB-Bitcoin](assets/fr/074.webp)
 
 En pratique, lorsque le wallet récupère un contrat RGB (via un fichier `.rgb` ou `.rgba`), il importe également l’Interface associée, elle aussi compilée. À l’exécution, le wallet peut par exemple :
@@ -2327,31 +2325,273 @@ Cette architecture modulaire rend possible des scénarios d’usage tels que :
 
 Dans le chapitre suivant, nous allons étudier comment fonctionne le transfert d'un contrat, et comment sont générées les invoices RGB.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Les transferts de contrat
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
 ![video](https://youtu.be/sVoKIi-1XbY)
+
+
+Dans ce chapitre, nous allons analyser le déroulement d'un **transfert de contrat** dans l’écosystème RGB. Pour l’illustrer, nous retrouvons Alice et Bob, nos protagonistes habituels, qui désirent échanger un actif RGB. Nous allons également montrer des extraits de commandes issus de l’outil en ligne de commande `rgb`, afin de voir comment cela fonctionne en pratique.
+
+### Comprendre le transfert de contrat RGB
+
+Prenons donc un exemple de transfert entre Alice et Bob. Dans cet exemple, on suppose que Bob commence tout juste à utiliser RGB, tandis qu’Alice détient déjà des actifs RGB dans son wallet. Nous verrons comment Bob installe son environnement, importe le contrat concerné, puis demande à Alice un transfert, et enfin comment Alice réalise la transaction effective sur la blockchain Bitcoin.
+
+#### 1) Installation du wallet RGB
+
+Avant toute chose, Bob doit **installer un wallet RGB**, c’est-à-dire un logiciel compatible avec le protocole. Celui-ci ne contient au départ aucun contrat. Bob aura également besoin :
+- D’un wallet Bitcoin pour gérer ses UTXOs ;
+- D’une connexion à un nœud Bitcoin (ou à un serveur Electrum), afin de pouvoir identifier ses UTXOs et propager ses transactions sur le réseau.
+
+Pour rappel, **les Owned States** dans RGB font référence à des UTXOs Bitcoin. On doit donc toujours être en mesure de gérer et de dépenser des UTXOs dans une transaction Bitcoin qui intègre les engagements cryptographiques (`Tapret` ou `Opret`) pointant vers les données RGB.
+
+#### 2) Acquisition des informations sur le contrat
+
+Bob doit ensuite **récupérer les données du contrat** qui l’intéresse. Ces données peuvent circuler par n’importe quel canal : site web, e-mail, application de messagerie... En pratique, elles sont groupées dans un **consignment**, c’est-à-dire un petit paquet de données contenant :
+- La **Genesis**, qui définit l’état initial du contrat ;
+- Le **Schema**, qui décrit la logique métier (types stricts, scripts de validation, etc.) ;
+- L’**Interface**, qui définit la couche de présentation (noms des champs, opérations accessibles) ;
+- L’**Interface Implementation**, qui relie concrètement le Schema à l’Interface.
+
+![RGB-Bitcoin](assets/fr/075.webp)
+
+La taille totale est souvent de l’ordre de quelques kilo-octets, car chaque composant pèse généralement moins de 200 octets. Il peut également être possible de diffuser ce consignment en Base58, via des canaux résistants à la censure (comme Nostr ou via le Lightning Network par exemple), ou sous forme de QR code. Cette ouverture à des moyens de transmission variés reflète la philosophie de RGB : favoriser la flexibilité, l’innovation et la concurrence des wallets, tant sur le plan des canaux de distribution que sur l’usage de technologies décentralisées.
+
+#### 3) Import du contrat et validation
+
+Une fois que Bob a reçu le consignment, il l’importe dans son wallet RGB. Celui-ci va alors :
+- Vérifier que la **Genesis** et le **Schema** sont valides ;
+- Charger l’**Interface** et l’**Interface Implementation** ;
+- Mettre à jour son stash de données côté client.
+
+Bob peut maintenant voir l’actif dans son wallet (même s’il n’en détient pas encore) et comprendre quels sont les champs disponibles, les opérations possibles... Il doit ensuite contacter une personne qui possède effectivement l’actif à transférer. Dans notre exemple, c’est Alice.
+
+Le processus de découverte de qui détient un certain actif RGB s’apparente à la découverte d’un payeur en bitcoins. Les détails de cette mise en relation dépendent des usages (places de marché, canaux de discussion privés, facturation, vente de biens et services, salaire...).
+
+#### 4) Émission d'une invoice
+
+Pour lancer le transfert d’un actif RGB, Bob doit commencer par **émettre une invoice**. Cette invoice sert à :
+- Indiquer à Alice le type d’opération à réaliser (par exemple un `Transfer` issu d’une interface RGB20) ;
+- Fournir à Alice la **seal definition** de Bob (c’est-à-dire l’UTXO où il souhaite recevoir l’actif), soit en forme cachée (*blinding*) ou bien explicite ;
+- Préciser la quantité d’actif souhaitée (par exemple 100 unités).
+
+Bob utilise l’outil `rgb` en ligne de commande. Supposons qu’il souhaite 100 unités d’un jeton dont le `ContractId` est connu, qu’il veut s’appuyer sur `Tapret`, et qu’il spécifie son UTXO (`456e3..dfe1:0`) :
+
+```sh
+bob$ rgb invoice RGB20 100 <ContractId> tapret1st:456e3..dfe1:0
+```
+
+Nous étudierons plus précisément la structure des invoices RGB à la fin de ce chapitre.
+
+#### 5) Transmission de l’invoice
+
+L’invoice générée (par exemple sous forme d'URL : `rgb:2WBcas9.../RGB20/100+utxob:...`) contient toutes les informations nécessaires pour qu’Alice puisse préparer le transfert. Comme pour le consignment, elle peut être encodée de manière compacte (Base58 ou un autre format) et envoyée via une application de messagerie, e-mail, Nostr...
+
+![RGB-Bitcoin](assets/fr/076.webp)
+
+#### 6) Préparation de la transaction côté Alice
+
+Alice reçoit l’invoice de Bob. Elle dispose dans son wallet RGB d’une stash validée où figure l’actif à transférer. Pour dépenser l’UTXO où se situe l’actif, elle doit commencer par générer une PSBT (*Partially Signed Bitcoin Transaction*), c’est-à-dire une transaction Bitcoin incomplète, utilisant l’UTXO qu’elle possède :
+
+```sh
+alice$ wallet construct tx.psbt
+```
+
+Cette transaction de base (non signée pour le moment) servira de support pour ancrer l’engagement cryptographique lié au transfert vers Bob. L’UTXO d’Alice sera ainsi dépensé, et dans la sortie, on placera le commitment `Tapret` ou `Opret` pour Bob.
+
+#### 7) Génération du consignment de transfert
+
+Ensuite, Alice construit le ***terminal consignment*** (parfois appelé "consignment de transfert") via la commande :
+
+```sh
+alice$ rgb transfer tx.psbt <invoice> consignment.rgb
+```
+
+Ce nouveau fichier `consignment.rgb` contient :
+- L’**historique** complet des State Transitions nécessaires pour valider l’actif jusqu’à l’instant présent (depuis la Genesis) ;
+- La **nouvelle** State Transition qui transfère l’actif d’Alice vers Bob, selon l’invoice que Bob a émise ;
+- La transaction Bitcoin (*witness transaction*) incomplète (`tx.psbt`), qui dépense le single-use seal d'Alice, modifiée pour inclure l’engagement cryptographique en faveur de Bob.
+
+À ce stade, la transaction n’est pas encore diffusée dans le réseau Bitcoin. Le consignment est plus volumineux qu’un consignment de base car il inclut tout l’historique (*proof chain*) pour prouver la légitimité de l’actif.
+
+#### 8) Bob vérifie et accepte le consignment
+
+Alice transmet ce **terminal consignment** à Bob. Bob va alors :
+- Vérifier la validité de la State Transition (s’assurer que l’historique est cohérent, que les règles du contrat sont respectées, etc.) ;
+- L’ajouter à son stash en local ;
+- Générer éventuellement une signature (`sig:...`) sur le consignment, preuve qu’il l’a examiné et qu’il donne son accord (on l’appelle parfois un "*payslip*").
+
+```sh
+bob$ rgb accept consignment.rgb
+sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
+```
+
+![RGB-Bitcoin](assets/fr/077.webp)
+
+#### 9) Option : Bob renvoie une confirmation à Alice (*payslip*)
+
+Si Bob le souhaite, il peut renvoyer cette signature à Alice. Cela indique :
+- Qu’il reconnaît la transition comme valide ;
+- Qu’il est d’accord pour que la transaction Bitcoin soit diffusée.
+
+Ce n’est pas obligatoire, mais cela peut constituer une assurance pour Alice qu’il n’y aura pas de litige par la suite sur ce transfert.
+
+#### 10) Alice signe et publie la transaction
+
+Alice peut alors :
+- Vérifier la signature éventuelle de Bob (`rgb check <sig>`) ;
+- Signer la *witness transaction* qui est encore une PSBT (`wallet sign`) ;
+- Publier la witness transaction sur le réseau Bitcoin (`—publish`).
+
+```sh
+alice$ rgb check <sig>
+alice$ wallet sign —publish tx.psbt
+```
+
+![RGB-Bitcoin](assets/fr/078.webp)
+
+Une fois confirmée, cette transaction marque la conclusion du transfert. Bob devient le nouveau détenteur de l’actif : il possède désormais un Owned State pointant vers l’UTXO qu’il contrôle, prouvé par la présence de l’engagement dans la transaction.
+
+Pour résumer, voici le processus de transfert complet : 
+
+![RGB-Bitcoin](assets/fr/079.webp)
+
+### Avantages des transferts RGB
+
+- **Confidentialité** : 
+
+Seuls Alice et Bob possèdent la totalité des données de la State Transition. Ils échangent ces informations hors de la blockchain, via des consignments. Les engagements cryptographiques dans la transaction Bitcoin ne révèlent pas le type d’actif ni le montant, ce qui garantie une confidentialité bien supérieure à celle de nombreux systèmes de tokens on-chain.
+
+- **Validation côté client** :
+
+Bob peut vérifier seul la cohérence du transfert en confrontant le consignment aux ancres (*anchors*) dans la blockchain Bitcoin. Il n’a pas besoin d’une validation par un tiers. Alice n’a pas à publier l’historique complet sur la blockchain, ce qui allège la charge du protocole sur le réseau et améliore la confidentialité.
+
+- **Flexibilité de diffusion** :
+
+En option, la transaction peut être diffusée seulement lorsque Bob envoie son approbation (signature) à Alice, si c’est ainsi qu’ils souhaitent procéder. Ou Alice peut la publier immédiatement. S’il n’y a pas de diffusion, les UTXOs utilisés en input restent dépensables ailleurs. RGB ne force pas une publication immédiate.
+
+- **Atomicité simplifiée** : 
+
+Les échanges complexes (atomic swaps entre BTC et un actif RGB, par exemple) peuvent être réalisés au sein d’une même transaction, ce qui évite l’usage de scripts HTLC ou PTLC. Si l’accord n’est pas diffusé, chacun peut réutiliser ses UTXOs autrement.
+
+### Schéma récapitulatif d'un transfert
+
+Avant d'étudier pluys end étail les invoices, voici un schéma récapitulatif de flux global d’un transfert RGB :
+- Bob installe un wallet RGB et obtient le consignment initial du contrat ;
+- Bob émet une invoice mentionnant l’UTXO où recevoir l’actif ;
+- Alice reçoit l’invoice, construit la PSBT et génère le **terminal consignment** ;
+- Bob l’accepte, vérifie, ajoute les données à son stash, et éventuellement signe (*payslip*) ;
+- Alice publie la transaction sur le réseau Bitcoin ;
+- La confirmation de la transaction officialise le transfert.
+
+![RGB-Bitcoin](assets/fr/080.webp)
+
+Le transfert illustre toute la puissance et la souplesse du protocole RGB : un échange privé, validé côté client, ancré de façon minimale et discrète sur la blockchain Bitcoin, et conservant le meilleur de la sécurité du protocole (pas de risque de double dépense). C’est ce qui fait de RGB un écosystème prometteur pour des transferts de valeur plus confidentiels et plus modulables que sur des blockchains programmables on-chain.
+
+### Invoices RGB
+
+Dans cette section, nous allons expliquer en détail la façon dont les **invoices** fonctionnent dans l’écosystème RGB et comment elles permettent de réaliser des opérations (en particulier des transferts) avec un contrat. Nous allons aborder d’abord la question des **identifiants** utilisés, puis la manière dont ils sont encodés, et enfin la structure d’une invoice exprimée sous forme d’URL (un format assez pratique pour un usage dans les wallets).
+
+#### Identifiants et encodage
+
+Pour chacun des éléments suivants :
+- Un **contrat** RGB,
+- Son **Schema** (logique métier),
+- Son **Interface** et son **Interface Implementation**,
+- Ses **actifs** (tokens, NFT, etc.),
+
+… on définit un **identifiant unique**. Cette unicité est très importante, car chaque composant du système doit pouvoir être distingué. Par exemple, un contrat X ne doit pas être confondu avec un autre contrat Y, et deux interfaces différentes (RGB20 vs. RGB21) doivent avoir des identifiants distincts.
+
+Pour que ces identifiants soient à la fois efficaces (peu volumineux) et lisibles, on utilise :
+- Un **encodage en base58**, qui évite l’emploi de caractères pouvant créer des confusions (par ex. le `0` et la lettre `O`) et qui fournit des chaînes de caractères relativement courtes ;
+- Un **préfixe** indiquant la nature de l’identifiant, généralement sous forme de `rgb:` ou d’une URN similaire.
+
+Par exemple, un `ContractId` pourra être représenté par quelque chose du type :
+
+```txt
+rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX
+```
+
+Le préfixe `rgb:` confirme qu’il s’agit d’un identifiant RGB, et non pas d’un lien HTTP ou d’un autre protocole. Grâce à ce préfixe, les wallets savent interpréter correctement la chaîne.
+
+#### Segmentation de l'identifiant
+
+Les identifiants RGB sont souvent assez longs, car la sécurité sous-jacente (cryptographique) peut nécessiter des champs de 256 bits ou plus. Pour faciliter la lecture et la vérification humaine, on segmente (*chunk*) ces chaînes en plusieurs blocs séparés par un tiret (`-`). Ainsi, au lieu d’avoir une longue suite ininterrompue de caractères, on la divise en blocs plus courts. Cette pratique est courante pour les numéros de cartes bancaires ou de téléphones, et elle s’applique également ici pour la facilité de vérification :
+- On peut annoncer à un utilisateur ou un partenaire : « *Vérifie s’il te plaît que le troisième bloc est `9GEgnyMj7`* », plutôt que de devoir comparer la totalité d’un seul coup ;
+- Le dernier bloc sert souvent de **checksum**, afin d'avoir un système de détection d’erreurs ou de typos.
+
+À titre d’exemple, un `ContractId` en base58 encodé et segmenté pourrait être :
+
+```txt
+2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX
+```
+
+Chacun des tirets vient couper la chaîne en sections. Cela n’affecte pas la sémantique du code, seulement sa présentation.
+
+#### Utilisation des URLs pour les Invoices
+
+Une **invoice** RGB se présente comme une **URL**. Cela signifie qu’elle peut être cliquée ou scannée (sous forme de code QR), et qu’un wallet pourra directement l’interpréter pour effectuer une opération. Cette simplicité d’interaction diffère de certains autres systèmes où l’on doit copier-coller divers morceaux de données dans différents champs du logiciel.
+
+Une invoice pour un token fongible (par exemple un jeton RGB20) peut ressembler à ceci :
+
+```txt
+rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb
+```
+
+Analysons cette URL :
+- **`rgb:`** (préfixe) : indique qu’il s’agit d’un lien invoquant le protocole RGB (analogue à `http:` ou `bitcoin:` dans d’autres contextes) ;
+- **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`** : représente le `ContractId` du jeton que l’on veut manipuler ;
+- **`/RGB20/100`** : indique qu’on utilise l’interface `RGB20` et qu’on demande 100 unités de l’actif. La syntaxe est onc : `/Interface/amount` ;
+- **`+utxob:`** : spécifie qu’on ajoute l’information sur l’UTXO destinataire (ou plus exactement la définition du single-use seal) ;
+- **`egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`** : c’est le *blinded* UTXO (ou seal definition). Autrement dit, Bob a masqué son UTXO exact, donc l’expéditeur (Alice) ne sait pas quelle est l’adresse exacte. Elle sait seulement qu’il y a un sceau valide se référant à un UTXO contrôlé par Bob.
+
+Le fait que tout tienne dans une seule URL facilite la vie de l’utilisateur : un simple clic ou une capture dans le wallet, et l’opération est prête à être exécutée.
+
+On pourrait imaginer des systèmes où l’on emploie un simple ticker (ex. `USDT`) à la place du `ContractId`. Cela poserait néanmoins de gros problèmes de confiance et de sécurité : un ticker n’est pas une référence unique (plusieurs contrats peuvent prétendre s’appeler "USDT"). Sur RGB, on veut un identifiant cryptographique unique, sans ambiguïté. D’où l’adoption de la chaîne de 256 bits, encodée en base58 et segmentée. L’utilisateur sait qu’il manipule précisément le contrat dont l’ID est `2WBcas9-yjz...` et pas un autre.
+
+#### Paramètres supplémentaires dans l’URL
+
+On peut également ajouter des paramètres supplémentaires à l’URL, de la même façon qu’avec HTTP, comme par exemple :
+
+```txt
+rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb?sig=6kzbKKffP6xftkxn9UP8gWqiC41W16wYKE5CYaVhmEve
+```
+
+- `?sig=...` : représente par exemple une signature associée à l’invoice, que certains wallets peuvent vérifier ;
+- Si un wallet ne gère pas cette signature, il ignore simplement ce paramètre.
+
+Prenons maintenant le cas d’un NFT via l’interface **RGB21**. On peut avoir :
+
+```txt
+rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81jEp-E9FVZ3xj-cyuTKWWy-2gmdnaxt-ACrS+utxob:egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb
+```
+
+Ici, on voit :
+- **`rgb:`** : préfixe de l’URL ;
+- **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`** : ID du contrat (NFT) ;
+- **`RGB21`** : interface pour les actifs non fongibles (NFT) ;
+- **`DbwzvSu-4BZU81jEp-...`** : une référence explicite à la partie unique du NFT, par exemple un hash du blob de données (média, métadonnées…) ;
+- **`+utxob:egXsFnw-...`** : la seal definition.
+
+L’idée est la même : transmettre un lien unique que le wallet sait interpréter, en identifiant clairement l’actif unique à transférer.
+
+#### Autres opérations via URL
+
+Les URLs RGB ne servent pas uniquement à demander un transfert. Elles peuvent aussi encoder des opérations plus avancées, comme l’émission de nouveaux tokens (*issuance*). Par exemple :
+
+```txt
+rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/issue/100000+utxob:egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb
+```
+
+Ici, on retrouve :
+- `rgb:` : protocole ;
+- `2WBcas9-...` : ID du contrat ;
+- `/RGB20/issue/100000` : indique qu’on veut invoquer la transition "*Issue*" pour créer 100000 jetons supplémentaires ;
+- `+utxob:` : la seal deifnition.
+
+Ainsi, le wallet pourra comprendre : "*On me demande d’effectuer une opération `issue` depuis l’interface `RGB20`, sur tel contrat, pour 100000 unités, au profit de tel sceau.*"
+
+Maintenant que nous avons étudié les principaux éléments liés à la programmation sur RGB, je vous propose, dans le chapitre suivant, de rédiger un contrat RGB.
 
 ## Rédaction de contrats intelligents
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>

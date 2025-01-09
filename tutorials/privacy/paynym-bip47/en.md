@@ -88,8 +88,7 @@ This issue of address reuse is far from negligible in Bitcoin. As you can see in
 Graph from OXT.me showing the evolution of the overall address reuse rate on the Bitcoin network.
 
 ![image](assets/2.webp)
-
-Credit: OXT
+_Credit: OXT_
 
 The majority of these reuses come from exchanges, which, for efficiency and convenience reasons, reuse the same address many times. To date, BIP47 would be the best solution to stem this phenomenon among exchanges. This would help reduce the overall address reuse rate without causing too much friction for these entities.
 
@@ -353,7 +352,7 @@ ECDH is an algorithm that allows for key exchange. It is often used alongside ot
 
 TLS defines the "s" in "https" and the small lock icon you see on your internet browser in the top left corner, which guarantee encrypted communication. So, you are currently using ECDH by reading this article, and you probably use it daily without realizing it.
 
-### The notification transaction.
+### The notification transaction
 
 As we discovered in the previous section, ECDH is a variant of the Diffie-Hellman exchange involving key pairs established on an elliptic curve. Luckily, we have plenty of key pairs that meet this standard in our Bitcoin wallets!
 
@@ -397,42 +396,34 @@ In reality, for the classic privacy model of Bitcoin, it is often difficult to c
 
 Obviously, the classic privacy model of Bitcoin is still observed at the level of the ephemeral public keys derived from the association of the two payment codes. The two models are interdependent. I simply wish to highlight here that, unlike the classic use of a public key to receive bitcoins, the payment code can be associated with an identity because the information "Bob is making a transaction with Alice" is broken at another moment. The payment code is used to generate payment addresses, but by only observing the blockchain, it is impossible to associate a BIP47 payment transaction with the payment codes used to make it.
 
-### Construction of the notification transaction.
+### Construction of the notification transaction
 
 Now, let's see how this notification transaction works. Let's imagine that Alice wants to send funds to Bob using BIP47. In my example, Alice acts as the sender and Bob as the recipient. Bob has already published his payment code on his website, so Alice is already aware of Bob's payment code.
 
 1. Alice calculates a shared secret with ECDH:
 
 - She selects a pair of keys from her HD wallet located on a different branch than her payment code. Note that this pair should not be easily associated with Alice's notification address or Alice's identity (see previous section).
-- Alice selects the private key from this pair. We will call it "a" (lowercase).
-
-> a
+- Alice selects the private key from this pair. We will call it **a** (lowercase).
 
 - Alice retrieves the public key associated with Bob's notification address. This key is the first child derived from Bob's payment code (index 0). We will call this public key "B" (uppercase). The private key associated with this public key is called "b" (lowercase). "B" is determined by point addition and doubling on the elliptic curve from "G" (the generator point) with "b" (the private key).
-
-> B = b·G
+**B = b·G**
 
 - Alice computes a secret point "S" (uppercase) on the elliptic curve by point addition and doubling, applying her private key "a" to Bob's public key "B".
-
-> S = a·B
+**S = a·B**
 
 - Alice computes the blinding factor "f" that will be used to encrypt her payment code. To do this, she will generate a pseudo-random number using the HMAC-SHA512 function. As the second input to this function, she uses a value that only Bob will be able to retrieve: (x), which is the x-coordinate of the previously calculated secret point. The first input is (o), which is the UTXO consumed as an input to this transaction (outpoint).
-
-> f = HMAC-SHA512(o, x)
+**f = HMAC-SHA512(o, x)**
 
 2. Alice converts her personal payment code to base 2 (binary).
 
 3. She uses this blinding factor as a key to perform symmetric encryption on the payload of her payment code. The encryption algorithm used is simply XOR. The operation performed is similar to the Vernam cipher, also known as the "one-time pad":
 
 - Alice first splits her blinding factor into two parts: the first 32 bytes are called "f1" and the last 32 bytes are called "f2". So we have:
-
-> f = f1 || f2
+**f = f1 || f2**
 
 - Alice computes the ciphertext (x') of the x-coordinate of the public key (x) of her payment code, and separately computes the ciphertext (c') of her chain code (c). "f1" and "f2" act as encryption keys, and the XOR operation is used.
-
-> x' = x XOR f1
->
-> c' = c XOR f2
+**x' = x XOR f1**
+**c' = c XOR f2**
 
 - Alice replaces the actual values of the public key's abscissa (x) and the chain code (c) in her payment code with the encrypted values (x') and (c').
 
@@ -447,11 +438,11 @@ Before continuing with the technical description of this notification transactio
 
 For example:
 
-> 0110 XOR 1110 = 1000
+**0110 XOR 1110 = 1000**
 
 Or:
 
-> 010011 XOR 110110 = 100101
+**010011 XOR 110110 = 100101**
 
 With ECDH, the use of XOR as an encryption layer is particularly coherent. First, thanks to this operator, the encryption is symmetric. This allows the recipient to decrypt the payment code with the same key used for encryption. The encryption and decryption key is calculated from the shared secret using ECDH.
 
@@ -490,34 +481,25 @@ Credit: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ra
 If we match this diagram with what I described earlier:
 
 - "Wallet Priv-Key" on Alice's side corresponds to: a.
-
 - "Child Pub-Key 0" on Bob's side corresponds to: B.
 - "Notification Shared Secret" corresponds to: f.
 - "Masked Payment Code" corresponds to the encrypted payment code, i.e., with the encrypted payload: x' and c'.
-
 - "Notification Transaction" is the transaction that contains the OP_RETURN.
 
 Let's recap the steps we just went through to perform a notification transaction:
 
 - Alice retrieves Bob's payment code and notification address.
-
 - Alice selects a UTXO that belongs to her in her HD wallet with the corresponding key pair.
-
 - She calculates a secret point on the elliptic curve using ECDH.
-
 - She uses this secret point to calculate an HMAC, which is the blinding factor.
-
 - She uses this blinding factor to encrypt the payload of her personal payment code.
-
 - She uses an OP_RETURN transaction output to transfer the masked payment code to Bob.
 
 To better understand its operation, especially the use of OP_RETURN, let's study a real notification transaction together. I performed a transaction of this type on the Testnet, which you can find by clicking here:
 
 https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e
 
-TXID:
-
-> 0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e
+TXID: **0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e**
 
 ![BIP47 Notification Transaction](assets/17.webp)
 
@@ -526,11 +508,8 @@ Credit: https://blockstream.info/
 By observing this transaction, we can already see that it has a single input and 4 outputs:
 
 - The first output is the OP_RETURN that contains my masked payment code.
-
 - The second output of 546 sats points to the recipient's notification address.
-
 - The third output of 15,000 sats represents the service fee, as I used Samourai Wallet to construct this transaction.
-
 - The fourth output of two million sats represents the change, i.e., the remaining difference from my input that goes back to another address belonging to me.
 
 The most interesting to study is obviously output 0 using OP_RETURN. Let's take a closer look at what it contains:
@@ -539,9 +518,7 @@ The most interesting to study is obviously output 0 using OP_RETURN. Let's take 
 
 Credit: https://blockstream.info/
 
-We discover the hexadecimal script of the output:
-
-> 6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000
+We discover the hexadecimal script of the output: **6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000**
 
 In this script, we can break down several parts:
 Among the opcodes, we can recognize 0x6a which refers to OP_RETURN and 0x4c which refers to OP_PUSHDATA1. The byte following this opcode indicates the size of the payload that follows. It indicates 0x50, which is 80 bytes.
@@ -550,12 +527,9 @@ Next comes the payment code with the encrypted payload.
 
 Here is my payment code used in this transaction:
 
-> In base 58:
->
-> PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
->
-> In base 16 (HEX):
-> 4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
+In base 58: **PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU**
+
+In base 16 (HEX): **4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db**
 
 If we compare my payment code with the OP_RETURN, we can see that the HRP (in brown) and the checksum (in pink) are not transmitted. This is normal, as this information is intended for humans.
 Next, we can recognize (in green) the version (0x01), the bit field (0x00), and the public key parity (0x02). And, at the end of the payment code, the empty bytes in black (0x00) that allow padding to reach a total of 80 bytes. All of this metadata is transmitted in plaintext (unencrypted).
@@ -568,37 +542,24 @@ Now that Alice has sent the notification transaction to Bob, let's see how he in
 As a reminder, Bob must be able to access Alice's payment code. Without this information, as we will see in the next section, he will not be able to derive the key pairs created by Alice, and therefore, he will not be able to access his bitcoins received with BIP47. For now, Alice's payment code payload is encrypted. Let's see together how Bob decrypts it.
 
 1. Bob monitors transactions that create outputs with his notification address.
-
 2. When a transaction has an output to his notification address, Bob analyzes it to see if it contains an OP_RETURN output that complies with the BIP47 standard.
-
 3. If the first byte of the OP_RETURN payload is 0x01, Bob starts his search for a possible shared secret with ECDH:
 
-- Bob selects the public key in the transaction input. That is, Alice's public key named "A" with:
-
-> A = a·G
-
-- Bob selects the private key "b" associated with his personal notification address:
-
-> b
-
-- Bob calculates the secret point "S" (ECDH shared secret) on the elliptic curve by adding and doubling points, applying his private key "b" to Alice's public key "A":
-
-> S = b·A
-
-- Bob determines the blinding factor "f" that will allow him to decrypt Alice's payment code payload. In the same way that Alice calculated it previously, Bob will find "f" by applying HMAC-SHA512 to (x) the x-coordinate value of the secret point "S", and to (o) the UTXO consumed as input in this notification transaction:
-
-> f = HMAC-SHA512(o, x)
+- Bob selects the public key in the transaction input. That is, Alice's public key named "A" with: **A = a·G**
+- Bob selects the private key "b" associated with his personal notification address: **b**
+- Bob calculates the secret point "S" (ECDH shared secret) on the elliptic curve by adding and doubling points, applying his private key "b" to Alice's public key "A": **S = b·A**
+- Bob determines the blinding factor "f" that will allow him to decrypt Alice's payment code payload. In the same way that Alice calculated it previously, Bob will find "f" by applying HMAC-SHA512 to (x) the x-coordinate value of the secret point "S", and to (o) the UTXO consumed as input in this notification transaction: **f = HMAC-SHA512(o, x)**
 
 4. Bob interprets the data in the OP_RETURN of the notification transaction as a payment code. He simply decrypts the payload of this potential payment code using the blinding factor "f".
 
 - Bob separates the blinding factor "f" into two parts: the first 32 bytes of "f" will be "f1" and the last 32 bytes will be "f2".
 - Bob decrypts the encrypted x-coordinate value (x') of Alice's payment code public key:
 
-> x = x' XOR f1
+**x = x' XOR f1**
 
 - Bob decrypts the encrypted chain code value (c') of Alice's payment code:
 
-> c = c' XOR f2
+**c = c' XOR f2**
 
 5. Bob checks if the value of Alice's payment code public key is part of the secp256k1 group. If it is, he interprets it as a valid payment code. Otherwise, he ignores the transaction.
 
@@ -614,17 +575,11 @@ For the input UTXO, Bob can simply retrieve it by observing the notification tra
 
 As seen in the section on Diffie-Hellman, by exchanging their respective public keys and secretly applying their private keys to the other's public key, Alice and Bob can find a specific and secret point on the elliptic curve. The notification transaction relies on this mechanism:
 
-> Bob's key pair:
->
-> B = b·G
->
-> Alice's key pair:
->
-> A = a·G
->
-> For a secret point S (x,y):
->
-> S = a·B = a·b·G = b·a·G = b·A
+Bob's key pair: **B = b·G**
+
+Alice's key pair: **A = a·G**
+
+For a secret point S (x,y): **S = a·B = a·b·G = b·a·G = b·A**
 
 ![Diagram of generating a shared secret with ECDHE](assets/19.webp)
 Now that Bob knows Alice's payment code, he will be able to detect her BIP47 payments and derive the private keys blocking the received bitcoins.
@@ -635,25 +590,17 @@ Credit: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ra
 If we match this diagram with what I described to you earlier:
 
 - "Wallet Pub-Key" on Alice's side corresponds to: A.
-
 - "Child Priv-Key 0" on Bob's side corresponds to: b.
-
 - "Notification Shared Secret" corresponds to: f.
-
 - "Masked Payment Code" corresponds to Alice's masked payment code, i.e., with the encrypted payload: x' and c'.
-
 - "Notification Transaction" is the transaction that contains the OP_RETURN.
 
 Let me summarize the steps we have just seen together to receive and interpret a notification transaction:
 
 - Bob monitors transaction outputs to his notification address.
-
 - When he detects one, he retrieves the information contained in the OP_RETURN.
-
 - Bob selects the input public key and calculates a secret point using ECDH.
-
 - He uses this secret point to calculate an HMAC, which is the blinding factor.
-
 - He uses this blinding factor to decrypt Alice's payment code payload contained in the OP_RETURN.
 
 ### The BIP47 payment transaction.
@@ -678,29 +625,23 @@ The next depth distributes the indexes as follows:
 
 - Hardened child key pairs are ephemeral payment codes: m/47'/0'/0'/ from 0' to 2,147,483,647'/.
   Every time Alice wants to send a payment to Bob, she derives a new unique blank address, once again thanks to the ECDH protocol:
-- Alice selects the first private key derived from her personal reusable payment code:
-
-> a
+- Alice selects the first private key derived from her personal reusable payment code: **a**
 
 - Alice selects the first unused public key derived from Bob's payment code. This public key, we will call it "B". It is associated with the private key "b" that only Bob knows.
-
-> B = b·G
+**B = b·G**
 
 - Alice calculates a secret point "S" on the elliptic curve by adding and doubling points, applying her private key "a" to Bob's public key "B":
-
-> S = a·B
+**S = a·B**
 
 - From this secret point, Alice will calculate the shared secret "s" (lowercase). To do this, she selects the x-coordinate of the secret point "S" called "Sx", and she passes this value into the SHA256 hash function.
-
-> s = SHA256(Sx)
+**s = SHA256(Sx)**
 
 Don't trust. Verify! If you want to understand the basic principles of a hash function, you will find what you need in this article. And if you don't trust the NIST (you're right), and you want to be able to understand in detail how SHA256 works, I explain everything in this article in French.
 
 - Alice uses this shared secret "s" to calculate a Bitcoin payment receiving address. First, she checks that "s" is within the order of the secp256k1 curve. If not, she increments the index of Bob's public key to derive another shared secret.
 
 - Secondly, she calculates a public key "K0" by adding the points "B" and "s·G" on the elliptic curve. In other words, Alice adds the public key derived from Bob's payment code "B" with another point calculated on the elliptic curve by adding and doubling points with the shared secret "s" from the generator point of the secp256k1 curve "G". This new point represents a public key, and we call it "K0":
-
-> K0 = B + s·G
+**K0 = B + s·G**
 
 - With this public key "K0", Alice can derive a blank receiving address in a standard way (for example, SegWit V0 in Bech32).
 
@@ -738,9 +679,7 @@ From an external perspective, by observing the Bitcoin blockchain, it is theoret
 
 https://blockstream.info/testnet/tx/94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
 
-TXID:
-
-> 94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
+TXID: **94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254**
 
 It looks like a regular transaction with a spent input, a payment output of 210,000 sats, and change.
 
@@ -754,33 +693,25 @@ Alice has just made her first payment to a blank BIP47 address owned by Bob. Now
 
 As soon as Bob receives the notification transaction from Alice, he derives the BIP47 public key "K0" even before she sends any payment to it. He therefore observes any payment to the associated address. In fact, he immediately derives several addresses that he will observe (K0, K1, K2, K3...). Here's how he derives this public key "K0":
 
-- Bob selects the first child private key derived from his payment code. This private key is named "b". It is associated with the public key "B" that Alice used in the previous step:
-
-> b
+- Bob selects the first child private key derived from his payment code. This private key is named "b". It is associated with the public key "B" that Alice used in the previous step: **b**
 
 - Bob selects Alice's first derived public key from her payment code. This key is named "A". It is associated with the private key "a" that Alice used in her calculations, and of which only Alice is aware. Bob can perform this process because he knows Alice's payment code that was transmitted to him with the notification transaction.
-
-> A = a·G
+**A = a·G**
 
 - Bob calculates the secret point "S" by adding and doubling points on the elliptic curve, applying his private key "b" to Alice's public key "A". Here we use ECDH, which guarantees that this point "S" will be the same for both Bob and Alice.
-
-> S = b·A
+**S = b·A**
 
 - Just like Alice did, Bob isolates the x-coordinate of this point "S". We have named this value "Sx". He passes this value through the SHA256 function to find the shared secret "s" (lowercase).
-
-> s = SHA256(Sx)
+**s = SHA256(Sx)**
 
 - In the same way as Alice, Bob calculates the point "s·G" on the elliptic curve. Then, he adds this secret point to his public key "B". He then obtains a new point on the elliptic curve that he interprets as a public key "K0":
-
-> K0 = B + s·G
+**K0 = B + s·G**
 
 Once Bob has this public key "K0", he can derive the associated private key in order to spend his bitcoins. He is the only one who can generate this number.
 
-- Bob adds his derived child private key "b" from his personal payment code. He is the only one who can obtain the value of "b". Then, he adds "b" to the shared secret "s" to obtain k0, the private key of K0:
+- Bob adds his derived child private key "b" from his personal payment code. He is the only one who can obtain the value of "b". Then, he adds "b" to the shared secret "s" to obtain k0, the private key of K0: **k0 = b + s**
 
-> k0 = b + s
-> Thanks to the group law of the elliptic curve, Bob obtains exactly the private key corresponding to the public key used by Alice. So we have:
-> K0 = k0·G
+- Thanks to the group law of the elliptic curve, Bob obtains exactly the private key corresponding to the public key used by Alice. So we have: **K0 = k0·G**
 
 ![Bob generates his BIP47 receiving addresses](assets/24.webp)
 

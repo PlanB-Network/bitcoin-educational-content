@@ -13,7 +13,7 @@ Download Raspberry Pi OS Lite, the instructions for downloading and installing t
 
 Format the SD card using Raspberry Pi Imager or balenaEtcher.
 
-> NOTE: The symbol `$` is used as a prompt and allows the user to enter commands into the computer, the commands will be interpreted by bash in Linux. The symbol `#` at the beginning of a line indicates that the following text is a comment.
+**NOTE: The symbol `$` is used as a prompt and allows the user to enter commands into the computer, the commands will be interpreted by bash in Linux. The symbol `#` at the beginning of a line indicates that the following text is a comment.**
 
 3. Enable SSH
 
@@ -72,7 +72,7 @@ $ ssh pi@192.168.0.30
 password: raspberry
 ```
 
-1. Configure the Pi
+6. Configure the Pi
 
 ```
 $ sudo raspi-config
@@ -84,20 +84,18 @@ $ sudo raspi-config
 - We select option (7) and then Expand filesystem
 - Finish
 
-  7.- We update the OS
+7. Now update the OS
 
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim --install-recommends -y
 ```
 
-8.- We add the bitcoin user
-
+8. Add the bitcoin user
 ```
-$ sudo adduser bitcoin
-```
+$ sudo adduser bitcoin```
 
-9.- We secure the rpi
+9. Secure the rpi
 
 ```
 $ sudo apt install ufw
@@ -109,10 +107,9 @@ $ sudo ufw allow 10009 comment 'Lightning gRPC'
 $ sudo ufw enable
 $ sudo systemctl enable ufw
 $ sudo ufw status
-$ sudo apt install fail2ban
-```
+$ sudo apt install fail2ban```
 
-10.- We install go: if you are not using a raspberry pi, download go for your architecture here (https://golang.org/dl/)
+10. Install go: if you are not using a raspberry pi, download go for your architecture [here](https://golang.org/dl/)
 
 ```
 $ wget https://golang.org/dl/go1.15.linux-armv6l.tar.gz
@@ -121,10 +118,9 @@ $ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
 $ echo "export GOPATH=$HOME/go" >> ~/.bashrc
 $ echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bashrc
 $ source ~/.bashrc
-$ go version # should display the following message 'go version go1.13.5 linux/arm'
-```
+$ go version # should display the following message 'go version go1.13.5 linux/arm'```
 
-11.- We compile and install lnd
+11. Compile and install lnd
 
 ```
 $ git clone https://github.com/lightningnetwork/lnd.git
@@ -134,16 +130,14 @@ $ make install tags="autopilotrpc chainrpc experimental invoicesrpc routerrpc si
 $ sudo cp $GOPATH/bin/lnd /usr/local/bin/
 $ sudo cp $GOPATH/bin/lncli /usr/local/bin/
 $ lncli --version
-lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c1a7b97746f
-```
+lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c1a7b97746f```
 
-12.- We create the lnd configuration file, this should be done with the 'bitcoin' user
+12. Create the lnd configuration file, this should be done with the 'bitcoin' user
 
 ```
 $ sudo su - bitcoin
 $ mkdir .lnd
-$ nano .lnd/lnd.conf
-```
+$ nano .lnd/lnd.conf```
 
 ```
 [Application Options]
@@ -169,8 +163,7 @@ bitcoin.node=neutrino
 neutrino.connect=bb2.breez.technology
 ```
 
-13.- To make LND start after rpi boot, we must create the .service file in systemd.
-If we are logged in as a bitcoin user and want to switch back to the pi user, we simply type 'exit'
+13. To make LND start after rpi boot, we must create the .service file in systemd. If we are logged in as a bitcoin user and want to switch back to the pi user, we simply type 'exit'
 
 ```
 $ exit
@@ -331,4 +324,4 @@ $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/
 $ curl -X GET --cacert .lnd/tls.cert --header "$MACAROON_HEADER" https://localhost:8080/v1/getinfo |jq
 ```
 
-> END
+END of guide!

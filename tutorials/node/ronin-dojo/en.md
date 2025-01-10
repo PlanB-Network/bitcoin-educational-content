@@ -112,7 +112,8 @@ From a computer running macOS or Linux, simply open the terminal. From a compute
 
 Once the terminal is open, type the following command:
 ```
-ssh root@192.168.?.?```
+ssh root@192.168.?.?
+```
 
 Simply replace the two question marks with the IP of your previously found RoninDojo.
 Tip: In a Shell, right-click to paste an item.
@@ -145,7 +146,8 @@ Finally, verify the Manjaro configuration information and confirm.
 
 The initial configuration of RoninOS will be done. Once finished, as shown in the screenshot above, the machine will restart. Wait a few moments, then enter the following command to reconnect to your RoninDojo machine:
 ```
-ssh username@192.168.?.?```
+ssh username@192.168.?.?
+```
 
 Simply replace "username" with the username you previously chose, and replace the question marks with the IP of your RoninDojo.
 
@@ -159,7 +161,8 @@ You are now connected to your machine, which currently only has RoninOS. Now you
 
 Download the latest version of RoninDojo by entering the following command:
 ```
-git clone https://code.samourai.io/ronindojo/RoninDojo```
+git clone https://code.samourai.io/ronindojo/RoninDojo
+```
 
 The download will be quick. In the terminal, you will see this:
 
@@ -167,7 +170,8 @@ The download will be quick. In the terminal, you will see this:
 
 Wait for the download to finish, then install and access the RoninDojo user interface using the following command:
 ```
-~/RoninDojo/ronin```
+~/RoninDojo/ronin
+```
 
 You will be asked to enter your user password:
 
@@ -355,15 +359,18 @@ The terminal will display:
 
 To exit this interface and return to the RoninCLI menu, simply enter the command:
 ```
-quit```
+quit
+```
 
 To start, we will set the proxy on Tor in order to extract OXT data with complete privacy. Enter the command:
 ```
-socks5 127.0.0.1:9050```
+socks5 127.0.0.1:9050
+```
 
 Then download the data from the pool that contains your transaction:
 ```
-download 0001```
+download 0001
+```
 
 **Note:** replace `0001` with the pool denomination code that interests you.
 
@@ -378,14 +385,16 @@ The denomination codes are as follows on WST:
 
 Once the data is downloaded, load it with the command:
 ```
-load 0001```
+load 0001
+```
 
 **Note:** replace `0001` with the pool denomination code that interests you.
 
 ![Loading data from pool 0001](assets/30.webp)
 Let the loading process take place, it may take a few minutes. After loading the data, type the score command followed by your TXID (transaction identifier) to obtain its Anon Sets:
 ```
-score TXID```
+score TXID
+```
 
 **Note:** replace `TXID` with the identifier of your transaction.
 

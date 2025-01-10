@@ -400,7 +400,7 @@ Obviously, the classic privacy model of Bitcoin is still observed at the level o
 
 Now, let's see how this notification transaction works. Let's imagine that Alice wants to send funds to Bob using BIP47. In my example, Alice acts as the sender and Bob as the recipient. Bob has already published his payment code on his website, so Alice is already aware of Bob's payment code.
 
-1. Alice calculates a shared secret with ECDH:
+1- Alice calculates a shared secret with ECDH:
 
 - She selects a pair of keys from her HD wallet located on a different branch than her payment code. Note that this pair should not be easily associated with Alice's notification address or Alice's identity (see previous section).
 - Alice selects the private key from this pair. We will call it **a** (lowercase).
@@ -414,9 +414,9 @@ Now, let's see how this notification transaction works. Let's imagine that Alice
 - Alice computes the blinding factor "f" that will be used to encrypt her payment code. To do this, she will generate a pseudo-random number using the HMAC-SHA512 function. As the second input to this function, she uses a value that only Bob will be able to retrieve: (x), which is the x-coordinate of the previously calculated secret point. The first input is (o), which is the UTXO consumed as an input to this transaction (outpoint).
 **f = HMAC-SHA512(o, x)**
 
-2. Alice converts her personal payment code to base 2 (binary).
+2- Alice converts her personal payment code to base 2 (binary).
 
-3. She uses this blinding factor as a key to perform symmetric encryption on the payload of her payment code. The encryption algorithm used is simply XOR. The operation performed is similar to the Vernam cipher, also known as the "one-time pad":
+3- She uses this blinding factor as a key to perform symmetric encryption on the payload of her payment code. The encryption algorithm used is simply XOR. The operation performed is similar to the Vernam cipher, also known as the "one-time pad":
 
 - Alice first splits her blinding factor into two parts: the first 32 bytes are called "f1" and the last 32 bytes are called "f2". So we have:
 **f = f1 || f2**
@@ -466,7 +466,7 @@ This symmetry is enabled by the commutativity and associativity properties of th
 
 Let's go back to our notification transaction construction:
 
-4. Alice currently has her payment code with an encrypted payload. She will construct and broadcast a transaction involving her public key "A" as input, an output to Bob's notification address, and an OP_RETURN output consisting of her payment code with the encrypted payload. This transaction is the notification transaction.
+4- Alice currently has her payment code with an encrypted payload. She will construct and broadcast a transaction involving her public key "A" as input, an output to Bob's notification address, and an OP_RETURN output consisting of her payment code with the encrypted payload. This transaction is the notification transaction.
 
 OP_RETURN is an Opcode, which is a script that marks a Bitcoin transaction output as invalid. Today, it is used to broadcast or anchor information on the Bitcoin blockchain. It can store up to 80 bytes of data that are recorded on the chain and therefore visible to all other users.
 
@@ -541,16 +541,16 @@ Now that Alice has sent the notification transaction to Bob, let's see how he in
 
 As a reminder, Bob must be able to access Alice's payment code. Without this information, as we will see in the next section, he will not be able to derive the key pairs created by Alice, and therefore, he will not be able to access his bitcoins received with BIP47. For now, Alice's payment code payload is encrypted. Let's see together how Bob decrypts it.
 
-1. Bob monitors transactions that create outputs with his notification address.
-2. When a transaction has an output to his notification address, Bob analyzes it to see if it contains an OP_RETURN output that complies with the BIP47 standard.
-3. If the first byte of the OP_RETURN payload is 0x01, Bob starts his search for a possible shared secret with ECDH:
+1- Bob monitors transactions that create outputs with his notification address.
+2- When a transaction has an output to his notification address, Bob analyzes it to see if it contains an OP_RETURN output that complies with the BIP47 standard.
+3- If the first byte of the OP_RETURN payload is 0x01, Bob starts his search for a possible shared secret with ECDH:
 
 - Bob selects the public key in the transaction input. That is, Alice's public key named "A" with: **A = a·G**
 - Bob selects the private key "b" associated with his personal notification address: **b**
 - Bob calculates the secret point "S" (ECDH shared secret) on the elliptic curve by adding and doubling points, applying his private key "b" to Alice's public key "A": **S = b·A**
 - Bob determines the blinding factor "f" that will allow him to decrypt Alice's payment code payload. In the same way that Alice calculated it previously, Bob will find "f" by applying HMAC-SHA512 to (x) the x-coordinate value of the secret point "S", and to (o) the UTXO consumed as input in this notification transaction: **f = HMAC-SHA512(o, x)**
 
-4. Bob interprets the data in the OP_RETURN of the notification transaction as a payment code. He simply decrypts the payload of this potential payment code using the blinding factor "f".
+4- Bob interprets the data in the OP_RETURN of the notification transaction as a payment code. He simply decrypts the payload of this potential payment code using the blinding factor "f".
 
 - Bob separates the blinding factor "f" into two parts: the first 32 bytes of "f" will be "f1" and the last 32 bytes will be "f2".
 - Bob decrypts the encrypted x-coordinate value (x') of Alice's payment code public key:
@@ -561,7 +561,7 @@ As a reminder, Bob must be able to access Alice's payment code. Without this inf
 
 **c = c' XOR f2**
 
-5. Bob checks if the value of Alice's payment code public key is part of the secp256k1 group. If it is, he interprets it as a valid payment code. Otherwise, he ignores the transaction.
+5- Bob checks if the value of Alice's payment code public key is part of the secp256k1 group. If it is, he interprets it as a valid payment code. Otherwise, he ignores the transaction.
 
 Now that Bob knows Alice's payment code, she can send him up to 2^32 payments without ever needing to perform a notification transaction like this again.
 

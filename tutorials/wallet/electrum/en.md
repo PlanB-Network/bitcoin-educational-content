@@ -8,9 +8,9 @@ description: Full Electrum Guide, from 0 to hero
 
 Find below a few description sources for Electrum:
 
-- ![X](https://twitter.com/ElectrumWallet)
-- ![Electrum website](https://electrum.org/)
-- ![Electrum documentation](https://electrum.readthedocs.io/)
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 Here is what Rogzy thinks about this tutorial:
 
@@ -357,7 +357,7 @@ Sometimes, despite doing everything right, seemingly, it refuses to connect. Her
 - Upgrade to a newer version of Electrum, and your node software;
 - Try deleting the cache folder in the “.electrum” directory;
 - Try changing the port from 50002 to 50001 in the network settings;
-- Use ![this guide](https://armantheparman.com/tor/) to connect using Tor as an alternative;
+- Use [this guide](https://armantheparman.com/tor/) to connect using Tor as an alternative;
 - Reinstall Electrum Server on the node.
 
 ## Finding Your Node’s IP Address

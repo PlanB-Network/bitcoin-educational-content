@@ -8,9 +8,7 @@ description: Set up of your Seed signer
 
 ## Material:
 
-**Raspberry Pi Zéro (version 1.3)**
-
-Raspberry Pi Zero
+**Raspberry Pi Zero (version 1.3)**
 
 For a completely air-gapped solution, make sure to use the version 1.3 with no WiFi or Bluetooth capability, but any Raspberry Pi 2/3/4 or Zero model will work.
 
@@ -21,24 +19,19 @@ If your soldering isn’t quite up to scratch, or you just don’t own a solderi
 
 **Hat LCD WaveShare 1,3 inches with screen 240 × 240 pixels**
 
-WaveShare LCD Hat
+WaveShare LCD Hat 1.3″ 240×240 pxl LCD
 
-Waveshare 1.3″ 240×240 pxl LCD
-
-Note: Choose the Waveshare screen carefully; make sure to purchase the model that has a resolution of 240×240 pixels.
-more info
+**Note:** Choose the Waveshare screen carefully; make sure to purchase the model that has a resolution of 240×240 pixels.
 
 **Camera module compatible with Pi Zero**
 
-Raspberry Pi Camera
+Raspberry Pi Camera Aokin/AuviPal 5MP 1080p with OV5647 Sensor Video Camera Module; other brands with the OV5647 sensor module should work as well, but may not be compatible with the Orange Pill enclosure.
 
-Aokin / AuviPal 5MP 1080p with OV5647 Sensor Video Camera Module; other brands with the OV5647 sensor module should work as well, but may not be compatible with the Orange Pill enclosure.
-
-Note: You will need to have a camera ribbon cable specifically compatible with Raspberry Pi Zero.
+**Note:** You will need to have a camera ribbon cable specifically compatible with Raspberry Pi Zero.
 
 **MicroSD card with at least 4 GB of capacity**
 
-extensive resources : https://seedsigner.com/explainers/
+extensive resources: https://seedsigner.com/explainers/
 
 ## Software:
 

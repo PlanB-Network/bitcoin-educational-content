@@ -5,17 +5,12 @@ description: LND Neutrino Installation Guide
 
 # Raspberry Pi Configuration with LND
 
-1. Download Raspberry Pi OS Lite
+2. Download Raspberry Pi OS Lite: the instructions for downloading and installing the image on a micro SD card in Windows, Mac, and Linux can be found on [this page](https://www.raspberrypi.org/software/operating-systems/).
+1. Format the SD Card: use Raspberry Pi Imager or balenaEtcher.
 
-Download Raspberry Pi OS Lite, the instructions for downloading and installing the image on a micro SD card in Windows, Mac, and Linux can be found on [this page](https://www.raspberrypi.org/software/operating-systems/).
+	**Note:** The symbol `$` is used as a prompt and allows the user to enter commands into the computer, the commands will be interpreted by bash in Linux. The symbol `#` at the beginning of a line indicates that the following text is a comment.
 
-2. Format the SD Card
-
-Format the SD card using Raspberry Pi Imager or balenaEtcher.
-
-**NOTE: The symbol `$` is used as a prompt and allows the user to enter commands into the computer, the commands will be interpreted by bash in Linux. The symbol `#` at the beginning of a line indicates that the following text is a comment.**
-
-3. Enable SSH
+- Enable SSH
 
 Before starting the Raspberry Pi with the formatted memory, we must insert it into a computer and create two files that will allow us to connect remotely. Using the `touch` command, we create an empty file in the /boot partition, enabling SSH connection on the first boot of the freshly formatted SD card.
 
@@ -25,9 +20,7 @@ Before starting the Raspberry Pi with the formatted memory, we must insert it in
 $ touch /boot/ssh
 ```
 
-4. Using the nano command
-
-we create the wpa_supplicant.conf file and directly start editing it. In this file, we need to copy the wifi configuration, copying the text between START and END, and modifying the SSID and password of the wifi you want to connect to.
+- Using the nano command we create the `wpa_supplicant.conf` file and directly start editing it. In this file, we need to copy the wifi configuration, copying the text between START and END, and modifying the SSID and password of the wifi you want to connect to.
 
 ```
 $ nano /boot/wpa_supplicant.conf
@@ -44,9 +37,7 @@ network={
 ------ END -------
 ```
 
-5. connectioon
-
-Then, we insert the SD card into the Raspberry Pi and connect the Pi to the power source to start the operating system. We need to identify it on the network, and the mDNS protocol will likely assign the name raspberrypi.local to it. Let's try to connect via SSH.
+- Connectioon: then, we insert the SD card into the Raspberry Pi and connect the Pi to the power source to start the operating system. We need to identify it on the network, and the mDNS protocol will likely assign the name raspberrypi.local to it. Let's try to connect via SSH.
 
 ```
 $ ssh pi@raspberrypi.local
@@ -72,26 +63,26 @@ $ ssh pi@192.168.0.30
 password: raspberry
 ```
 
-6. Configure the Pi
+- Configure the Pi
 
 ```
 $ sudo raspi-config
 ```
 
-- Select option (1) and change the password for the user pi.
-- We select option (8) to update the configuration tool to the latest version
-- We select option (4) to select our time zone
-- We select option (7) and then Expand filesystem
-- Finish
+	- Select option (1) and change the password for the user pi.
+	- We select option (8) to update the configuration tool to the latest version
+	- We select option (4) to select our time zone
+	- We select option (7) and then Expand filesystem
+	- Finish
 
-7. Now update the OS
+- Now update the OS
 
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim --install-recommends -y
 ```
 
-8. Add the bitcoin user
+- Add the bitcoin user
 ```
 $ sudo adduser bitcoin```
 

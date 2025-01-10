@@ -2626,7 +2626,7 @@ rgb
 
 L’exécution de `rgb` (sans argument) affiche la liste des sous-commandes disponibles, comme `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, etc. Il est possible de modifier le répertoire de stockage local (un stash qui conserve les consignments, schémas et implémentations), de choisir le réseau (testnet, mainnet) ou de configurer son Electrum server.
 
-081
+![RGB-Bitcoin](assets/fr/081.webp)
 
 #### Premier aperçu des commandes
 
@@ -2654,7 +2654,7 @@ Puis importez l'interface de votre choix :
 rgb import interfaces/RGB20.rgb
 ```
 
-082
+![RGB-Bitcoin](assets/fr/082.webp)
 
 En revanche, on nous indique qu’aucun schema n’est encore importé. Il n’y a pas non plus de contrat dans le stash :
 
@@ -2668,7 +2668,7 @@ Vous pouvez cloner le dépôt pour récupérer certains schémas :
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
-083
+![RGB-Bitcoin](assets/fr/083.webp)
 
 Ce dépôt contient, dans son répertoire `src/`, plusieurs fichiers Rust (par exemple `nia.rs`) qui définissent des schémas (NIA pour "*Non Inflatable Asset*", UDA pour "*Unique Digital Asset*", etc.). On peut alors exécuter :
 
@@ -2687,7 +2687,7 @@ Vous pouvez maintenant importer le schéma dans `rgb` :
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
-084
+![RGB-Bitcoin](assets/fr/084.webp)
 
 Cela l’ajoute dans le stash local. Si on tape la commande suivante, on constate que le schéma apparaît désormais :
 
@@ -2733,7 +2733,7 @@ assignments:
     amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
-085
+![RGB-Bitcoin](assets/fr/085.webp)
 
 Ensuite, il suffit de taper la commande :
 
@@ -2741,7 +2741,7 @@ Ensuite, il suffit de taper la commande :
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
-086
+![RGB-Bitcoin](assets/fr/086.webp)
 
 Dans mon cas, l'identifiant unique du schéma (à mettre entre guillemets simples) est `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` et je n'ai mis aucun issuer :
 
@@ -2761,7 +2761,7 @@ La CLI répond qu’un nouveau contrat a été émis et ajouté au stash. Si on 
 rgb contracts
 ```
 
-087
+![RGB-Bitcoin](assets/fr/087.webp)
 
  Puis, la commande suivante permet d'afficher les global states (le nom, le ticker, la supply...) et la liste des Owned States, c’est-à-dire les allocations (par exemple, 1 million de token `PBN` définis dans l'UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
@@ -2769,7 +2769,7 @@ rgb contracts
 rgb state '<ContractId>'
 ```
 
-088
+![RGB-Bitcoin](assets/fr/088.webp)
 
 ### Export, import et validation
 
@@ -2779,7 +2779,7 @@ Pour partager ce contrat avec d’autres utilisateurs, on peut l’exporter depu
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
-089
+![RGB-Bitcoin](assets/fr/089.webp)
 
 Le fichier `myContractPBN.rgb` peut être transmis à un autre utilisateur, lequel pourra l’ajouter dans son stash  :
 
@@ -2803,7 +2803,7 @@ Pour rappel, le stash est un inventaire en local qui conserve à la fois les sch
 rgb dump
 ```
 
-090
+![RGB-Bitcoin](assets/fr/090.webp)
 
 Cela va générer un dossier avec le détail de tout le stash.
 

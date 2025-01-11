@@ -2884,11 +2884,143 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 Dans le prochain chapitre, nous aborderons plus en détail l'intégration de RGB au Lightning Network.
 
-## Sujets avancés RGB et discussions futures
+## Sujets avancés et Lightning Network
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
 ![video](https://youtu.be/mqCupTlDbA0)
 
+Dans ce chapitre, je vous propose d'examiner comment RGB peut être utilisé au sein du Lightning Network, afin d’intégrer et de déplacer des actifs RGB (tokens, NFT, etc.) via des canaux de paiement off-chain.
+
+L’idée fondamentale est que la transition d’état RGB (*State Transition*) peut être engagée dans une transaction Bitcoin qui, elle-même, peut rester off-chain tant que le canal Lightning n’est pas fermé. Ainsi, à chaque mise à jour de canal, on peut incorporer une **nouvelle transition d’état RGB** dans la nouvelle transaction d'engagement, qui invalide alors l’ancienne transition. De cette façon, des canaux Lightning peuvent servir à transférer des actifs RGB, et on peut les router comme on le ferait pour des paiements Lightning classiques.
+
+### Création d'un canal et funding
+
+Pour créer un canal Lightning qui transporte des actifs RGB, on a besoin de deux éléments :
+- Un funding en bitcoins afin de créer le multisig 2/2 du canal (l’UTXO de base pour le canal) ;
+- Un funding RGB, qui envoie les actifs sur ce même multisig.
+
+Sur le plan de Bitcoin, la transaction de funding doit exister pour définir l’UTXO de référence, même si elle ne contient qu’une petite quantité de sats (il faut simplement que chaque sortie dans les futures transactions d'engagement restent au-dessus du dust limit tout de même). Par exemple, Alice peut décider de fournir 10k sats et 500 USDT (émis sous forme d’un actif RGB). Sur la transaction de funding, on ajoute un engagement (`Opret` ou `Tapret`) qui ancre la transition d’état RGB.
+
+![RGB-Bitcoin](assets/fr/091.webp)
+
+Une fois la transaction de funding préparée (mais pas encore diffusée), on crée les transactions d'engagement pour que chaque partie puisse, à tout moment, fermer le canal unilatéralement. Ces transactions ressemblent aux transactions d'engagement classiques de Lightning, à la différence qu’on y ajoute une sortie supplémentaire contenant l’ancre RGB (OP_RETURN ou Taproot) liée à la nouvelle transition d’état.
+
+La transition d’état RGB déplace alors les actifs depuis le multisig 2/2 du funding vers les sorties de la transaction d'engagement. L’avantage ce ce processus est que la sécurité de l’état RGB se cale exactement sur la mécanique punitive de Lightning : si Bob diffuse un ancien état du canal, Alice peut le punir et dépenser la sortie, afin de récupérer à la fois les sats et les tokens RGB. L’incitation est donc plus forte encore que dans un canal Lightning sans actif RGB, puisqu’un attaquant peut perdre non seulement des sats, mais aussi les actifs RGB du canal.
+
+Une transaction d'engagement signée par Alice et envoyée à Bob ressemblera donc à cela :
+
+![RGB-Bitcoin](assets/fr/092.webp)
+
+Et la transaction d'engagement qui va de paire, signée par Bob et envoyée à Alice ressemblera à cela :
+
+![RGB-Bitcoin](assets/fr/093.webp)
+
+### Mise à jour du canal
+
+Lorsqu’un paiement se produit entre deux participants du canal (ou qu’ils souhaitent modifier la répartition des actifs), ils créent une nouvelle paire de transactions d'engagement. Le montant en sats sur chaque sortie peut rester inchangé ou non, selon l’implémentation, car son rôle principal est de permettre la construction d’UTXOs valides. En revanche, la sortie OP_RETURN (ou Taproot) doit être modifiée pour contenir le nouvel ancrage RGB, représentant la nouvelle répartition des actifs dans le canal.
+
+Par exemple, si Alice transfère 30 USDT à Bob dans le canal, la nouvelle transition d’état va refléter un solde de 400 USDT pour Alice et 100 USDT pour Bob. La transaction d'engagement se voit ajouter (ou modifier) l’ancrage OP_RETURN/Taproot pour inclure cette transition. À noter que, du point de vue de RGB, l’input dans la transition reste le multisig initial (où sont réellement alloués les assets on-chain jusqu’à la fermeture du canal). Seules les sorties RGB (allocations) changent, selon la redistribution décidée.
+
+La transaction d'engagement signée par Alice, prête à être diffusée par Bob :
+
+![RGB-Bitcoin](assets/fr/094.webp)
+
+La transaction d'engagement signée par Bob, prête à être diffusée par Alice :
+
+![RGB-Bitcoin](assets/fr/095.webp)
+
+### Gestion des HTLCs
+
+Dans la réalité, le Lightning Network permet le routage de paiements via des canaux multiples, en utilisant des HTLCs (*Hashed Time-Locked Contracts*). C’est identique avec RGB : pour tout paiement en transit dans le canal, on ajoute une sortie HTLC à la transaction d'engagement, plus une allocation RGB liée à cet HTLC. Ainsi, celui qui dépense la sortie HTLC (grâce au secret ou après expiration du timelock) récupère à la fois les sats et les actifs RGB associés. On peut en accumuler plusieurs si plusieurs routages sont en attente.
+
+![RGB-Bitcoin](assets/fr/096.webp)
+
+Le fonctionnement de RGB sur Lightning doit donc être considéré en parallèle avec celui du Lightning Network lui-même. Si vous désirez approfondir ce sujet, je vous recommande vivement de consulter cette autre formation complète :
+
+https://planb.network/courses/lnp201
+
+
+### Plan du code de RGB
+
+Pour terminer et avant de passer à la section suivante, je voudrais vous faire un récapitulatif du code utilisé sur RGB. Le protocole repose sur un ensemble de librairies Rust et de spécifications open source. Voici un panorama des principaux dépôts et crates :
+
+![RGB-Bitcoin](assets/fr/097.webp)
+
+#### Client-side Validation
+
+- **Repository** : [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Crates** : [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
+
+Cette partie gère la validation off-chain et la logique des single-use-seals.
+
+#### Deterministic Bitcoin Commitments (DBC)
+
+- **Repository** : [bp-core](https://github.com/BP-WG/bp-core)
+- **Crate** : [bp-dbc](https://crates.io/crates/bp-dbc)
+
+Gestion de l’ancrage déterministe dans les transactions Bitcoin (Tapret, OP_RETURN, etc.).
+
+#### Multi Protocol Commitment (MPC)
+
+- **Repository** : [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Crate** : [commit_verify](https://crates.io/crates/commit_verify)
+
+Combinaisons d’engagements multiples et intégration avec différents protocoles.
+
+#### Strict Types & Strict Encoding
+
+- **Spécifications** : [site web strict-types.org](https://www.strict-types.org/)
+- **Repositories** : [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
+- **Crates** : [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
+
+Le système de typage strict et la sérialisation déterministe utilisés pour la validation côté client.
+
+#### RGB Core
+
+- **Repository** : [rgb-core](https://github.com/RGB-WG/rgb-core)
+- **Crate** : [rgb-core](https://crates.io/crates/rgb-core)
+
+Cœur du protocole, qui englobe la logique principale de la validation RGB.
+
+#### RGB Standard Library & Wallet
+
+- **Repository** : [rgb-std](https://github.com/RGB-WG/rgb-std)
+- **Crate** : [rgb-std](https://crates.io/crates/rgb-std)
+
+Implémentations standard, gestion du stash et wallet.
+
+#### RGB CLI
+
+- **Repository** : [rgb](https://github.com/RGB-WG/rgb)
+- **Crates** : [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
+
+La CLI `rgb` et le crate wallet, permettant de manipuler les contrats en ligne de commande.
+
+#### RGB Schema
+
+- **Repository** : [rgb-schemata](https://github.com/RGB-WG/rgb-schemata/)
+
+Contient des exemples de schémas (NIA, UDA, etc.) et leurs implémentations.
+
+#### ALuVM
+
+- **Info** : [aluvm.org](https://www.aluvm.org/)
+- **Repositories** : [aluvm-spec](https://github.com/AluVM/aluvm-spec), [alure](https://github.com/AluVM/alure)
+- **Crates** : [aluvm](https://crates.io/crates/aluvm), [aluasm](https://crates.io/crates/aluasm)
+
+Machine virtuelle registry-based utilisée pour exécuter les scripts de validation.
+
+#### Bitcoin Protocol - BP
+
+- **Repositories** : [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-wallet](https://github.com/BP-WG/bp-wallet)
+
+Compléments pour la prise en charge du protocole Bitcoin (transactions, dérivations, etc.).
+
+#### Ubiquitous Deterministic Computing - UBIDECO
+
+- **Repository** : [UBIDECO](https://github.com/UBIDECO)
+
+Écosystème lié aux développements déterministes open-source.
 
 
 # Construire sur RGB
@@ -2898,6 +3030,10 @@ Dans le prochain chapitre, nous aborderons plus en détail l'intégration de RGB
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
 ![video](https://youtu.be/nbUtV8GOR_U)
+
+
+
+
 
 ## Noeud RGB partie 1 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>

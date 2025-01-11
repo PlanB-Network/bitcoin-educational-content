@@ -58,7 +58,7 @@ Relai’s Bitcoin savings plan allows you to automate regular investments, makin
 - Check your portfolio regularly in the app to see how your investments are growing.
 - Adjust your plan anytime to match your financial goals.
 
-01
+![RELAI-APP](assets/fr/01.webp)
 
 ---
 
@@ -76,7 +76,7 @@ Specify the amount of fiat currency (EUR, CHF, etc.) you want to invest.
 
 Relai will show you the equivalent Bitcoin amount based on the current market price.
 
-02
+![RELAI-APP](assets/fr/02.webp)
 
 ### Step 3: Complete Your Purchase
 
@@ -86,7 +86,7 @@ Relai will show you the equivalent Bitcoin amount based on the current market pr
 
 **Zero Fees:** For purchases up to €100 or CHF 100, Relai charges no fees, making it an ideal choice for beginners.
 
-03
+![RELAI-APP](assets/fr/03.webp)
 
 ---
 
@@ -178,4 +178,4 @@ Relai is a powerful yet simple tool for anyone looking to start their Bitcoin jo
 
 Download Relai today and start building your financial future in Bitcoin! 🚀
 
-04
+![RELAI-APP](assets/fr/04.webp)

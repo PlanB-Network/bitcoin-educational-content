@@ -3026,24 +3026,78 @@ Compléments pour la prise en charge du protocole Bitcoin (transactions, dériva
 # Construire sur RGB
 <partId>3b4b0d66-0c1b-505a-b5ca-4b2e57dd73c2</partId>
 
-## Bitmask
+## DIBA et le projet Bitmask
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
 ![video](https://youtu.be/nbUtV8GOR_U)
 
+Cette dernière section de la formation provient de présentations effectuées par différents intervenants lors du bootcamp sur RGB. Elle comprend des témoignages et des réflexions concernant RGB et son écosystème, ainsi que des présentations d'outils et de projets basés sur le protocole. Ce premier chapitre est animé par Hunter Beast et les deux suivants le seront par Frederico Tenga.
+
+### De JavaScript à Rust, et l’entrée dans l’écosystème Bitcoin
+
+Au début, Hunter Beast travaillait principalement en JavaScript. Puis il a découvert **Rust**, dont la syntaxe lui semblait peu attrayante et frustrante au départ. Cependant, il en est venu à apprécier la puissance offerte par ce langage de, le contrôle sur la mémoire (heap et stack), ainsi que la sécurité et les performances qui en découlent.
+
+Il souligne que Rust constitue une excellente formation pour comprendre en profondeur comment fonctionne un ordinateur. Il donne l’exemple d’un calcul de Fibonacci réalisé à la compilation (compile-time) par Eli Kostolini, exploitant la pile (stack) pour un gain de performance. Globalement, la transition de JavaScript vers Rust l’a aidé à acquérir une meilleure conscience des concepts bas-niveau.
+
+Hunter Beast raconte son passé dans divers projets de l’écosystème des *altcoins*, comme Ethereum (avec du Solidity, du TypeScript, etc.), et plus tard Filecoin. Il explique avoir été d’abord impressionné par certains protocoles, mais avoir fini par se sentir désillusionné par la plupart, notamment à cause de leur tokenomics.
+
+Il dénonce les incitations financières douteuses, la création inflationniste des tokens qui dilue les investisseurs, et l’aspect possiblement exploitative de ces projets. Il finit donc par adopter une posture de **Bitcoin maximaliste**, notamment parce que certaines personnes lui ont ouvert les yeux sur les mécanismes économiques plus sains de Bitcoin, et sur la robustesse de ce système.
+
+### L’attrait pour RGB et la construction sur des layers
+
+Ce qui l’a définitivement convaincu de la pertinence de Bitcoin, selon ses dires, est la découverte de RGB et du concept de **layers**. Il considère que les fonctionnalités existantes sur d’autres blockchains pourrait être reproduites sur des couches supérieures, au-dessus de Bitcoin, sans altérer le protocole de base.
+
+En février 2022, il rejoint **DIBA** pour travailler précisément sur RGB, et en particulier sur le wallet **Bitmask**. À l’époque, Bitmask en était encore à la version _0.01_ et exploitait RGB en version 0.4, uniquement pour la gestion de tokens simples. Il note que c’était moins tourné vers la self custody qu’aujourd’hui, car la logique reposait en partie sur un serveur. Depuis, l’architecture a évolué aller vers ce modèle apprécié par les bitcoiners.
+
+### Les fondements du protocole RGB
+
+Le protocole **RGB** est la concrétisation la plus récente et la plus poussée du concept de _colored coins_, déjà exploré vers 2012-2013. À l’époque, plusieurs équipes cherchaient à associer de la valeur différente du bitcoin sur des UTXOs, ce qui a mené à de multiples implémentations dispersées. Ce manque de standardisation et la faible demande de l’époque ont empêché ces solutions de s’imposer durablement.
+
+RGB se distingue aujourd’hui par sa solidité conceptuelle et ses spécifications unifiées via l’association LNPBP. Le principe repose sur une validation hors de la blockchain (*client-side validation*). La blockchain Bitcoin ne stocke que des engagements cryptographiques (_commitments_, via Taproot ou OP_RETURN), tandis que la majorité des données (définition des contrats, historiques de transferts, etc.) se conserve chez les utilisateurs concernés. Ainsi, la charge de stockage est répartie et la confidentialité des échanges est renforcée, sans alourdir la blockchain. Cette approche permet la création d’actifs fongibles (standard **RGB20**) ou d’actifs uniques (standard **RGB21**), dans un cadre modulaire et évolutif.
+
+### La fonction de tokens (RGB20) et d’actifs uniques (RGB21)
+
+Avec **RGB20**, on définit un jeton fongible sur Bitcoin. L’émetteur choisit un _supply_, une _precision_, et crée un _contrat_ dans lequel il peut ensuite effectuer des transferts. Chaque transfert fait référence à un UTXO Bitcoin, qui agit comme un *single-use seal*. Cette logique garantit que l’utilisateur ne pourra pas dépenser le même actif deux fois, puisque seule la personne capable de dépenser l’UTXO détient effectivement la clé permettant d’actualiser l’état du contrat côté client.
+
+RGB **21** cible quant à lui les actifs uniques (ou "NFT"). L’actif a une supply de 1, et on peut y associer des métadonnées (fichier image, audio, etc.) décrites via un champ _attachment_. Contrairement aux NFT sur des blockchains publiques, les données et leurs identifiants MIME peuvent rester privées, diffusées de pair à pair selon la volonté du propriétaire.
+
+### La solution Bitmask : un wallet pour RGB
+
+Pour exploiter concrètement les capacités de RGB, le projet **DIBA** a conçu un wallet baptisé **[Bitmask](https://bitmask.app/)**. L’idée est de fournir un outil non custodial, basé sur Taproot, accessible comme une application web ou une extension de navigateur. Bitmask gère à la fois des actifs RGB20 et RGB21, et intègre divers mécanismes de sécurisation :
+- Le code central est écrit en Rust, puis compilé en WebAssembly pour s’exécuter dans un environnement JavaScript (React) ;
+- Les clés sont générées localement, puis stockées chiffrées en local ;
+- Les données relatives à l’état (stash) sont maintenues dans un stock en mémoire, sérialisées et chiffrées via la bibliothèque **Carbonado**, qui effectue compression, correction d’erreurs, chiffrement et vérification du flux en utilisant Blake3.
+
+Grâce à cette architecture, toutes les opérations sur les actifs se font côté client. La transaction Bitcoin n’est, de l’extérieur, qu’une transaction de dépense Taproot classique, dont personne ne peut soupçonner qu’elle véhicule aussi un transfert de tokens NFT ou fongibles. L’absence de surcharge on-chain (pas de métadonnées stockées publiquement) garantit une certaine discrétion et permet de mieux résister aux éventuelles tentatives de censure.
+
+### Sécurité et architecture distribuée
+
+Dans la mesure où le protocole RGB exige que chaque participant conserve son historique de transactions (pour prouver la validité des transferts qu’il reçoit), la question du stockage se pose. Bitmask propose de sérialiser ce stash localement, puis de l’envoyer vers plusieurs serveurs ou clouds (optionnellement). Les données restent chiffrées par l’utilisateur via **Carbonado** ; ainsi, un serveur ne peut pas lire ces informations. En cas de corruption partielle, la couche de correction d’erreurs peut reconstituer le contenu.
+
+L’usage du CRDT (_Conflict-free replicated data type_) permet de fusionner différentes versions du stash si jamais elles divergent. Chacun est libre d’héberger ces données où il le souhaite, car aucun full node unique ne porte la totalité des informations liées à l’actif. Cela reflète exactement la philosophie _client-side validation_, où chaque propriétaire est responsable du stockage des preuves de la validité de son asset.
+
+### Vers un écosystème plus large : marketplace, interopérabilité et nouvelles fonctionnalités
+
+La société derrière Bitmask ne se limite pas au simple développement d'un wallet. DIBA entend développer :
+- Une **marketplace** pour échanger les tokens, notamment sous forme **RGB21** ;
+- Une compatibilité avec d’autres wallets (comme *Iris Wallet*) ;
+- Des techniques de **transfer batching**, c’est-à-dire la possibilité d’inclure plusieurs transferts RGB successifs dans une seule transaction, en profitant du délai de minage sur Bitcoin et de _Replace-By-Fee_.
+
+En parallèle, certains développements portent sur **WebBTC** ou **WebLN** (standards permettant à des sites web de demander au wallet de signer des opérations Bitcoin ou Lightning), ainsi que sur la capacité de télébrûler des inscriptions Ordinals (si on veut rapatrier l’Ordinals vers un format RGB plus discret et plus flexible).
+
+### Conclusion
+
+L’ensemble de cette démarche montre comment l’écosystème **RGB** peut être déployé et rendu accessible à des utilisateurs finaux grâce à des solutions techniques robustes. La transition d’une perspective altcoin vers une vision plus centrée sur Bitcoin, couplée à la découverte de la _client-side validation_, illustre un cheminement assez logique : on comprend qu’il est possible d’implémenter des fonctionnalités variées (fongibles, NFT, smart contracts…) sans forker la blockchain, simplement en profitant d’engagements cryptographiques sur des transactions Taproot ou des OP_RETURN.
+
+Le wallet **Bitmask** s'inscrit dans cette démarche : côté blockchain, on ne voit qu’une transaction Bitcoin banale ; côté utilisateur, on manipule une interface web où l’on crée, échange, et stocke toutes sortes d’actifs off-chain. Ce modèle dissocie clairement l’infrastructure monétaire (Bitcoin) de la logique d’émission et de transferts (RGB), tout en assurant une grande confidentialité et un meilleur passage à l’échelle.
 
 
-
-
-## Noeud RGB partie 1 
+## Les travaux de Bitfinex sur RGB
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
 ![vidéo](https://youtu.be/5iAhsgCSL3U)
 
-## Noeud RGB partie 2
-<chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
-![vidéo](https://youtu.be/piQQH4Q2nr0)
 
 
 # Conclusion 

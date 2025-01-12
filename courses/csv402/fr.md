@@ -3097,6 +3097,106 @@ Le wallet **Bitmask** s'inscrit dans cette démarche : côté blockchain, on ne 
 
 ![vidéo](https://youtu.be/5iAhsgCSL3U)
 
+Dans ce chapitre établi sur la présentation de Frederico Tenga, nous étudions un ensemble d’outils et de projets créés par l'équipe de Bitfinex dédiée à **RGB**, dans l’optique de favoriser l’émergence d’un écosystème riche et diversifié autour de ce protocole. L’équipe n’a pas, au départ, l’objectif de sortir un produit commercial précis ; elle s’emploie plutôt à mettre à disposition des briques logicielles, à contribuer au protocole RGB lui-même, et à proposer des références de mise en œuvre concrètes comme un wallet mobile (*Iris Wallet*) ou un nœud Lightning compatible RGB.
+
+### Contexte et objectifs
+
+Depuis environ 2022, l’équipe Bitfinex spécialisée dans RGB se concentre sur le développement de la pile technologique permettant d’exploiter et de tester efficacement RGB. Plusieurs contributions ont été réalisées :
+- Participation au code source et aux spécifications du protocole, notamment la rédaction de propositions d’amélioration, la correction de bugs, etc ;
+- Mise à disposition d’outils à destination des développeurs pour simplifier l’intégration de RGB dans leurs applications ;
+- Conception d’un wallet mobile nommé [Iris](https://iriswallet.com/) pour expérimenter et illustrer les bonnes pratiques d’utilisation de RGB ;
+- Réalisation d’un nœud Lightning personnalisé, apte à gérer des canaux avec des actifs RGB ;
+- Accompagnement d’autres équipes qui bâtissent des solutions sur RGB, afin d’encourager la diversité et la solidité de l’écosystème.
+
+Cette approche vise à couvrir toute la chaîne de besoins : de la librairie de bas niveau (*[RGBlib](https://github.com/RGB-Tools/rgb-lib)*), permettant l’implémentation d’un wallet, jusqu’à l’aspect mise en production (un nœud Lightning, un wallet pour Android, etc.).
+
+### La librairie RGBlib : simplifier le développement d’applications RGB
+
+Un point important pour démocratiser la création de wallets et d’applications RGB réside dans la mise à disposition d’une **abstraction** suffisamment simple pour que les développeurs n’aient pas à tout apprendre de la logique interne du protocole. C’est précisément l’objectif de **RGBlib**, écrite en Rust.
+
+RGBlib joue le rôle de passerelle entre les exigences très flexibles (mais parfois complexes) de RGB que nous avons pu étudier dans les chapitres précédents, et les besoins concrets d’un développeur d’application. En d’autres termes, un wallet (ou un service) qui souhaite gérer des transferts de tokens, des émissions d’assets, des vérifications, etc., peut s’appuyer sur RGBlib sans connaître chaque détail cryptographique ou chaque paramètre customisable de RGB.
+
+La librairie propose :
+- Des fonctions clé en main pour l’émission (_issuance_) d’actifs (fongibles ou non) ;
+- La possibilité de transférer (envoyer/réceptionner) des assets en manipulant des objets simples (adresses, montants, UTXOs, etc.) ;
+- Un mécanisme pour stocker et charger les informations d’état (*consignments*) indispensables à la *client-side validation*.
+
+RGBlib repose donc sur des notions complexes propres à RGB (*client-side validation*, ancrages Tapret/Opret), mais les encapsule pour que l’application finale n’ait pas à tout reprogrammer ni à prendre de décisions hasardeuses. De plus, RGBlib est déjà bindée à plusieurs langages (Kotlin, Python), ce qui ouvre la porte à des usages plus larges qu’un simple univers Rust.
+
+### Iris Wallet : un exemple de wallet RGB sur Android
+
+Pour prouver l’efficacité de RGBlib, l’équipe a développé **Iris Wallet**, exclusivement sur Android à ce stade. Il s’agit d’un wallet mobile permettant d’illustrer un parcours utilisateur proche d’un wallet Bitcoin ordinaire : on peut y émettre un asset, l’envoyer, le recevoir, et voir son historique, tout en restant sur un modèle de **self-custody*.
+
+Iris dispose de certaines caractéristiques intéressantes :
+
+- **Utilisation d’un serveur Electrum :**
+
+Comme tout wallet, Iris doit connaître les confirmations de transactions sur la blockchain. Plutôt que d’embarquer un nœud complet, Iris s’appuie par défaut sur un serveur Electrum maintenu par l’équipe de Bitfinex. L’utilisateur, s’il le souhaite, peut cependant configurer son propre serveur ou un autre service tiers. Ainsi, la validation des transactions Bitcoin et la récupération d’informations (indexation) se fait de façon modulable.
+
+- **Le serveur proxy RGB :**
+
+Contrairement à Bitcoin, RGB exige l’échange de métadonnées off-chain (*consignments*) entre l’expéditeur et le receveur. Pour simplifier, Iris propose une solution où la communication s’effectue via un serveur proxy. Le wallet destinataire génère une *invoice* mentionnant notamment où l’expéditeur doit envoyer les données *client-side*. Par défaut, l’URL pointant vers un proxy hébergé par l’équipe est intégrée, mais il demeure possible de changer ce proxy (ou d’en héberger un soi-même). L’idée est de retrouver une **expérience utilisateur familière** où le destinataire affiche un QR code, et l’expéditeur scanne ce code pour la transaction, sans manipulations supplémentaires complexes.
+
+**Sauvegarde en continu :**
+
+Dans un contexte strictement Bitcoin, sauvegarder sa seed suffit généralement (même si de nos jours on conseille plutôt de sauvegarder la seed et les descriptors). Avec RGB, c’est insuffisant : on doit aussi conserver l’historique local (les *consignments*) prouvant qu’on possède vraiment un actif RGB. À chaque réception, l’appareil stocke de nouvelles données indispensables à la dépense ultérieure. Iris gère automatiquement un backup chiffré dans le Google Drive de l’utilisateur. Cela n’exige aucune confiance particulière en Google, car la sauvegarde est chiffrée et il est prévu, dans l’avenir, des options plus robustes (comme un serveur personnel) pour éviter tout risque de censure ou de suppression par un opérateur tiers.
+
+**Autres fonctionnalités :**
+
+- Possibilité de créer un **faucet** pour tester ou distribuer rapidement des tokens à des fins d’expérimentation ou de promotion ;
+- Un système de **certification** (pour l’instant centralisé) afin de distinguer un token légitime d’un faux jeton copiant un ticker célèbre. Dans l’avenir, cette certification pourra devenir plus décentralisée (via DNS ou d'autres mécanismes).
+
+Au final, Iris affiche donc une expérience utilisateur proche d’un wallet Bitcoin classique, en masquant la complexité supplémentaire (gestion du stash, historique de *consignments*, etc.) grâce à RGBlib et l'utilisation d'un serveur proxy.
+
+### Serveur proxy et expérience utilisateur
+
+Le serveur proxy introduit ci-dessus mérite d’être détaillé, car il constitue la clef d’une expérience fluide pour l'utilisateur. Au lieu que l’expéditeur doive manuellement transmettre les *consignments* au destinataire, la transaction RGB s’effectue en arrière-plan via un schéma de requêtes :
+- Le destinataire génère une *invoice* (contenant, entre autres, l’adresse du proxy) ;
+- L’expéditeur envoie (via une requête HTTP) un projet de transition (le *consignment*) au proxy ;
+- Le destinataire récupère ce projet, exécute localement la validation *client-side* ;
+- Le destinataire publie ensuite, via le proxy, l’acceptation (ou éventuellement le refus) de la transition d'état ;
+- L’expéditeur peut consulter l’état de validation, et, si c’est accepté, diffuser la transaction Bitcoin finalisant le transfert.
+
+Ainsi, le wallet se comporte presque comme un wallet normal. L’utilisateur n’a pas conscience de toutes les étapes intermédiaires. Certes, le proxy actuel n’est pas chiffré ni authentifié (ce qui laisse des inquiétudes quant à la confidentialité et l’intégrité), mais ces améliorations sont possibles dans des versions ultérieures. Le concept de proxy demeure extrêmement utile pour recréer l’expérience : "*j’envoie un QR code, tu scannes pour payer*".
+
+### Intégration de RGB sur le Lightning Network
+
+Un autre axe essentiel du travail mené par l’équipe de Bitfinex consiste à rendre le Lightning Network compatible avec des assets RGB. L’objectif est de permettre des canaux LN en USDT (ou autre jeton), et de bénéficier des mêmes avantages que pour le bitcoin sur Lightning (transactions quasi instantanées, routage, etc.). Concrètement, il s’agit de créer un nœud Lightning modifié pour :
+- Ouvrir un canal en plaçant non seulement des satoshis, mais aussi un ou plusieurs assets RGB dans l’UTXO multisig de funding ;
+- Générer les transactions d'engagement Lightning (côté Bitcoin) accompagnées de transitions d’état RGB correspondantes. À chaque mise à jour du canal, une transition RGB redéfinit la répartition de l’asset dans les sorties LN ;
+- Permettre la fermeture unilatérale, où l’on récupère l’asset dans un UTXO exclusif, conformément aux règles du Lightning Network (HTLC, timelock, punition...).
+
+Cette solution, baptisée "**RGB Lightning Node**", utilise notamment LDK (*Lightning Dev Kit*) comme base et ajoute les mécanismes nécessaires pour injecter des tokens RGB dans les canaux. Les engagements Lightning conservent la structure classique (sorties punissables, timelock...), et en plus on y ancre une transition d'état RGB (via `Opret` ou `Tapret`). Pour l’utilisateur, cela ouvre la voie à des canaux LN en stablecoins ou en tout autre actif émis via RGB.
+
+### Potentiel DEX et impacts sur Bitcoin
+
+Une fois plusieurs actifs gérés via LN, il devient possible d’imaginer un **échange atomique** sur un unique chemin de routage Lightning, en utilisant la même logique de secrets et timelocks. Par exemple, un utilisateur A détient du bitcoin sur un canal LN, et un utilisateur B détient de l’USDT RGB sur un autre canal LN. Ils peuvent construire un chemin reliant leurs deux canaux et échanger simultanément BTC contre USDT, sans besoin de confiance. Ce n’est rien d’autre qu’un **atomic swap** se déroulant en plusieurs sauts, rendant les participants extérieurs quasi inconscients du fait qu’ils réalisent un trade, pas juste un routage. Cette approche offre :
+- Une latence très faible, car tout reste off-chain sur Lightning.
+- Une **privacy** supérieure : personne ne sait que c’est un trade, et pas un routage normal ;
+- L’évitement du "frontrunning", un problème récurrent des DEX on-chain ;
+- Des frais réduits (on ne paie pas de blockspace, mais juste des frais de routage LN).
+
+On peut alors imaginer un écosystème où des nœuds Lightning proposent des prix de swap (en fournissant de la liquidité). Chaque nœud, s’il le souhaite, peut jouer ce rôle de _market maker_, en achetant et en vendant divers actifs sur Lightning. Cette perspective d’un DEX _layer-2_ renforce l’idée qu’il n’est pas nécessaire de fork ou d’utiliser des blockchains tierces pour obtenir des échanges d’actifs décentralisés.
+
+L’impact pour Bitcoin peut être positif : l’infrastructure de Lightning (nœuds, canaux et services) serait davantage utilisée grâce aux volumes générés par ces *stablecoins*, dérivés et autres tokens. Les commerçants intéressés par les paiements en USDT sur Lightning, découvriraient mécaniquement les paiements en BTC sur Lightning (géré par la même stack). L’entretien et le financement de l’infrastructure du Lightning Network pourraient aussi profiter de la multiplication de ces flux non-BTC, ce qui, indirectement, profiterait aux utilisateurs de Bitcoin.
+
+### Conclusion et ressources
+
+L’équipe Bitfinex dédiée à RGB illustre, via ses travaux, la diversité de ce qu’on peut faire au-dessus du protocole. D’un côté, on a RGBlib, une librairie qui facilite la conception de wallets et d’applications. D’un autre côté, on a Iris Wallet, une démonstration pratique sur Android d’une interface soignée pour l’utilisateur final. Enfin, l’intégration de RGB à Lightning montre que des canaux en stablecoin sont rendus possibles, et ouvre la voie à un potentiel DEX décentralisé sur Lightning.
+
+Cette démarche reste largement expérimentale et continue d’évoluer : la librairie RGBlib se peaufine au fur et à mesure, Iris Wallet reçoit des améliorations régulières et le nœud Lightning dédié n’est pas encore un client Lightning mainstream.
+
+Pour ceux qui souhaitent en savoir plus ou contribuer, plusieurs ressources sont disponibles, notamment :
+- [Les dépôts GitHub RGB Tools](https://github.com/RGB-Tools) ;
+- [Un site d’information dédié à Iris Wallet](https://iriswallet.com/) pour tester le wallet sur Android.
+
+Dans le prochain chapitre, nous allons voir concrètement commet on peut lancer un nœud RGB Lightning.
+
+## RLN - RGB Lightning Node
+<chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
+
+![vidéo](https://youtu.be/piQQH4Q2nr0)
+
 
 
 

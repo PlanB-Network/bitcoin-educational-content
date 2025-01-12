@@ -3323,7 +3323,7 @@ https://rgb-tools.github.io/rgb-lightning-node/
 
 - **Envoyer des BTC à un nœud** :
 
-Pour qu’un nœud ouvre un canal, il doit d’abord posséder des bitcoins une adresse générée avec la commande (pour le node 1) :
+Pour qu’un nœud ouvre un canal, il doit d’abord posséder des bitcoins sur une adresse générée avec la commande (pour le node n°1) :
 
 ```bash
 curl -X POST http://localhost:3001/address
@@ -3333,7 +3333,7 @@ La réponse vous fournira une adresse.
 
 103
 
-Sur le `bitcoind` Regtest, on va miner quelques sats. Exécutez :
+Sur le `bitcoind` Regtest, on va miner quelques bitcoins. Exécutez :
 
 ```bash
 ./regtest.sh mine 101
@@ -3341,7 +3341,7 @@ Sur le `bitcoind` Regtest, on va miner quelques sats. Exécutez :
 
 104
 
-Envoyez des fonds à l'adresse du nœud :
+Envoyez des fonds à l'adresse du nœud générée précédemment :
 
 ```bash
 ./regtest.sh sendtoaddress <address> <amount>
@@ -3475,8 +3475,6 @@ curl -X POST -H "Content-Type: application/json" \
 
 ```
 
-111
-
 Dans le détail ici :
 - **peer_pubkey_and_opt_addr** : Identifiant du pair (la clé publique que nous avons trouvée précédemment) auquel on souhaite se connecter ;
 - **capacity_sat** : Capacité totale du canal en satoshis ;
@@ -3484,6 +3482,8 @@ Dans le détail ici :
 - **asset_amount** : Quantité d'actifs RGB à engager dans le canal ;
 - **asset_id** : Identifiant unique de l'actif RGB engagé dans le canal ;
 - **public** : Indique si le canal doit être rendu public pour le routage sur le réseau.
+
+111
 
 Pour confirmer la transaction, on mine 6 blocs :
 

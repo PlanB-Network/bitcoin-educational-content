@@ -3373,11 +3373,14 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 ```
 
 Par défaut, s’il ne trouve pas de configuration, le daemon tentera d’utiliser les services :
-
-- `bitcoind_rpc_host`: `electrum.iriswallet.com` (ou un autre)
+- `bitcoind_rpc_host`: `electrum.iriswallet.com`
 - `bitcoind_rpc_port`: `18332`
 - `indexer_url`: `ssl://electrum.iriswallet.com:50013`
 - `proxy_endpoint`: `rpcs://proxy.iriswallet.com/0.2/json-rpc`
+
+Avec les identifiants :
+- `bitcoind_rpc_username`: `user`
+- `bitcoind_rpc_username`: `password`
 
 Vous pouvez aussi personnaliser ces éléments via l’API `init`/`unlock`.
 

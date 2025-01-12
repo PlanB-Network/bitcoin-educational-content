@@ -2377,7 +2377,7 @@ Pour lancer le transfert d’un actif RGB, Bob doit commencer par **émettre une
 
 Bob utilise l’outil `rgb` en ligne de commande. Supposons qu’il souhaite 100 unités d’un jeton dont le `ContractId` est connu, qu’il veut s’appuyer sur `Tapret`, et qu’il spécifie son UTXO (`456e3..dfe1:0`) :
 
-```sh
+```bash
 bob$ rgb invoice RGB20 100 <ContractId> tapret1st:456e3..dfe1:0
 ```
 
@@ -2393,7 +2393,7 @@ L’invoice générée (par exemple sous forme d'URL : `rgb:2WBcas9.../RGB20/100
 
 Alice reçoit l’invoice de Bob. Elle dispose dans son wallet RGB d’une stash validée où figure l’actif à transférer. Pour dépenser l’UTXO où se situe l’actif, elle doit commencer par générer une PSBT (*Partially Signed Bitcoin Transaction*), c’est-à-dire une transaction Bitcoin incomplète, utilisant l’UTXO qu’elle possède :
 
-```sh
+```bash
 alice$ wallet construct tx.psbt
 ```
 
@@ -2403,7 +2403,7 @@ Cette transaction de base (non signée pour le moment) servira de support pour a
 
 Ensuite, Alice construit le ***terminal consignment*** (parfois appelé "consignment de transfert") via la commande :
 
-```sh
+```bash
 alice$ rgb transfer tx.psbt <invoice> consignment.rgb
 ```
 
@@ -2421,7 +2421,7 @@ Alice transmet ce **terminal consignment** à Bob. Bob va alors :
 - L’ajouter à son stash en local ;
 - Générer éventuellement une signature (`sig:...`) sur le consignment, preuve qu’il l’a examiné et qu’il donne son accord (on l’appelle parfois un "*payslip*").
 
-```sh
+```bash
 bob$ rgb accept consignment.rgb
 sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
@@ -2443,7 +2443,7 @@ Alice peut alors :
 - Signer la *witness transaction* qui est encore une PSBT (`wallet sign`) ;
 - Publier la witness transaction sur le réseau Bitcoin (`—publish`).
 
-```sh
+```bash
 alice$ rgb check <sig>
 alice$ wallet sign —publish tx.psbt
 ```
@@ -2610,7 +2610,7 @@ La commande principale se nomme simplement `rgb`. Elle est conçue de façon à 
 
 On installe l’outil en Rust avec :
 
-```sh
+```bash
 cargo install rgb-contracts --all-features
 ```
 
@@ -2620,7 +2620,7 @@ L’installation compile un grand nombre de dépendances (par exemple le parsing
 
 Une fois l’installation terminée, on dispose de la commande :
 
-```sh
+```bash
 rgb
 ```
 
@@ -2632,25 +2632,25 @@ L’exécution de `rgb` (sans argument) affiche la liste des sous-commandes disp
 
 Lorsqu’on exécute la commande suivante, on voit qu’une interface `RGB20` est déjà intégrée par défaut :
 
-```sh
+```bash
 rgb interfaces
 ```
 
 Si jamais cette interface n'est pas intégrée, clonez le dépôt des interfaces :
 
-```sh
+```bash
 git clone https://github.com/RGB-WG/rgb-interfaces
 ```
 
 Compilez-le :
 
-```sh
+```bash
 cargo run
 ```
 
 Puis importez l'interface de votre choix :
 
-```sh
+```bash
 rgb import interfaces/RGB20.rgb
 ```
 
@@ -2658,13 +2658,13 @@ rgb import interfaces/RGB20.rgb
 
 En revanche, on nous indique qu’aucun schema n’est encore importé. Il n’y a pas non plus de contrat dans le stash :
 
-```sh
+```bash
 rgb schema
 ```
 
 Vous pouvez cloner le dépôt pour récupérer certains schémas :
 
-```sh
+```bash
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
@@ -2672,7 +2672,7 @@ git clone https://github.com/RGB-WG/rgb-schemata
 
 Ce dépôt contient, dans son répertoire `src/`, plusieurs fichiers Rust (par exemple `nia.rs`) qui définissent des schémas (NIA pour "*Non Inflatable Asset*", UDA pour "*Unique Digital Asset*", etc.). On peut alors exécuter :
 
-```sh
+```bash
 cd rgb-schemata
 cargo run
 ```
@@ -2683,7 +2683,7 @@ Cela génère plusieurs fichiers `.rgb` et `.rgba` qui correspondent aux schéma
 
 Vous pouvez maintenant importer le schéma dans `rgb` :
 
-```sh
+```bash
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
@@ -2691,7 +2691,7 @@ rgb import schemata/NonInflatableAssets.rgb
 
 Cela l’ajoute dans le stash local. Si on tape la commande suivante, on constate que le schéma apparaît désormais :
 
-```sh
+```bash
 rgb schema
 ```
 
@@ -2737,7 +2737,7 @@ assignments:
 
 Ensuite, il suffit de taper la commande :
 
-```sh
+```bash
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
@@ -2751,13 +2751,13 @@ rgb issue 'RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k' ssi:anonymous rgb20-demo
 
 Si vous ne connaissez pas l'ID du schéma, exécutez la commande :
 
-```sh
+```bash
 rgb schemata
 ```
 
 La CLI répond qu’un nouveau contrat a été émis et ajouté au stash. Si on tape la commande suivante, on voit qu’il y a désormais un contrat supplémentaire, correspondant à celui qu’on vient d’émettre :
 
-```sh
+```bash
 rgb contracts
 ```
 
@@ -2765,7 +2765,7 @@ rgb contracts
 
  Puis, la commande suivante permet d'afficher les global states (le nom, le ticker, la supply...) et la liste des Owned States, c’est-à-dire les allocations (par exemple, 1 million de token `PBN` définis dans l'UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
-```sh
+```bash
 rgb state '<ContractId>'
 ```
 
@@ -2775,7 +2775,7 @@ rgb state '<ContractId>'
 
 Pour partager ce contrat avec d’autres utilisateurs, on peut l’exporter depuis le stash vers un fichier :
 
-```sh
+```bash
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
@@ -2783,7 +2783,7 @@ rgb export '<ContractId>' myContractPBN.rgb
 
 Le fichier `myContractPBN.rgb` peut être transmis à un autre utilisateur, lequel pourra l’ajouter dans son stash  :
 
-```sh
+```bash
 rgb import myContractPBN.rgb
 ```
 
@@ -2791,7 +2791,7 @@ rgb import myContractPBN.rgb
 
 Pour s’assurer de la validité, on peut aussi utiliser la fonctionnalité de validation en local. On pourrait taper par exemple :
 
-```sh
+```bash
 rgb validate myContract.rgb
 ```
 
@@ -2799,7 +2799,7 @@ rgb validate myContract.rgb
 
 Pour rappel, le stash est un inventaire en local qui conserve à la fois les schémas, les interfaces, les implémentations et les contrats (Genesis + transitions). Chaque fois qu’on fait `import`, on ajoute un élément au stash. On peut visualiser ce stash en détail avec la commande :
 
-```sh
+```bash
 rgb dump
 ```
 
@@ -2821,7 +2821,7 @@ Contrairement à d’autres écosystèmes, une invoice RGB ne se limite pas à l
 
 La commande suivante vous permet de générer une invoice RGB :
 
-```sh
+```bash
 $ rgb invoice $CONTRACT -i $INTERFACE $ACTION $STATE $SEAL
 ```
 
@@ -2834,7 +2834,7 @@ Avec :
 
 Par exemple, avec la commande suivante :
 
-```sh
+```bash
 alice$ CONTRACT='iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY'
 
 alice$ MY_UTXO=4960acc21c175c551af84114541eace09c14d3a1bb184809f7b80916f57f9ef8:1
@@ -2844,7 +2844,7 @@ alice$ rgb invoice $CONTRACT -i RGB20 --amount 100 $MY_UTXO
 
 Le CLI va générer une invoice du style :
 
-```sh
+```bash
 rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-...
 ```
 
@@ -2856,7 +2856,7 @@ Pour réaliser un transfert à partir de cette invoice :
 - Bob (qui détient les tokens dans son stash) dispose d’un wallet Bitcoin. Il doit préparer une transaction Bitcoin (sous forme de PSBT, par ex. `tx.psbt`) qui dépense les UTXOs où se trouvent les tokens RGB nécessaires, plus un UTXO pour la monnaie (change) ;
 - Bob exécute la commande suivante :
 
-```sh
+```bash
 bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
 ```
 
@@ -2868,7 +2868,7 @@ bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
 - Bob envoie ce fichier `consignment.rgb` à Alice (par e-mail, un serveur de partage ou un protocole RGB-RPC, Storm, etc.) ;
 - Alice reçoit `consignment.rgb` et l’accepte dans son propre stash :
 
-```sh
+```bash
 alice$ rgb accept consignment.rgb
 ```
 
@@ -2876,7 +2876,7 @@ alice$ rgb accept consignment.rgb
 - En guise de confirmation, la commande `accept` renvoie une signature (*payslip*) qu’Alice peut renvoyer à Bob pour lui montrer qu’elle a bien validé le *consignment* ;
 - Bob peut alors signer et publier (`--publish`) sa transaction Bitcoin :
 
-```sh
+```bash
 bob$ rgb check <sig> && wallet sign --publish tx.psbt
 ```
 
@@ -3197,7 +3197,361 @@ Dans le prochain chapitre, nous allons voir concrètement commet on peut lancer 
 
 ![vidéo](https://youtu.be/piQQH4Q2nr0)
 
+Dans ce dernier chapitre, Frederico Tenga vous guide étape par étape dans la mise en place d'un nœud Lightning RGB sur un environnement en Regtest, et vous montre comment y créer des tokens RGB. En lançant deux nœuds séparés, vous découvrirez également comment ouvrir un canal Lightning entre eux et y échanger des actifs RGB.
 
+Cette vidéo sert de tutoriel, similaire à ce que nous avons abordé dans un chapitre précédent, mais spécifiquement axée sur Lightning cette fois-ci !
+
+La principale ressource de cette vidéo est le dépôt Github [RGB Lightning Node](https://github.com/RGB-Tools/rgb-lightning-node), qui vous facilite le lancement de cette configuration en Regtest.
+
+### Déploiement d’un nœud Lightning compatible RGB
+
+Le processus reprend et met en pratique toutes les notions abordées dans les chapitres précédents :
+- L’idée que l’**UTXO** bloqué sur un multisig 2/2 d’un canal Lightning peut recevoir non seulement des bitcoins, mais également être un single-use seal d'actif RGB (fongibles ou non) ;
+- L’ajout, dans chaque transaction d'engagement Lightning d’une sortie (`Tapret` ou `Opret`) dédiée à l’ancrage de la transition d’état RGB ;
+- L’infrastructure associée (bitcoind/indexer/proxy) pour valider les transactions Bitcoin et échanger les données *client-side*.
+
+### Présentation de rgb-lightning-node
+
+Le projet **`rgb-lightning-node`** est un daemon en Rust qui s’appuie sur un fork de `rust-lightning` (LDK) modifié pour prendre en compte l’existence d’assets RGB dans un canal. Lors de l’ouverture d’un canal, on peut ainsi préciser la présence d’assets, et lors de chaque mise à jour de l’état du canal, une transition RGB est créée, qui reflète la répartition de l’asset dans les outputs Lightning. Cela permet :
+- D’ouvrir des canaux LN en USDT par exemple ;
+- D’acheminer ces tokens à travers le réseau, à condition que les chemins de routage disposent des suffisamment de liquidités ;
+- D’exploiter la logique de punition et de timelock Lightning sans modification : on ancre simplement la transition RGB dans une sortie supplémentaire de la transaction d'engagement.
+
+Le code est encore à un stade alpha : il est conseillé de l’utiliser en **regtest** ou sur le **testnet** uniquement.
+
+### Installation du nœud
+
+Pour compiler et installer le binaire `rgb-lightning-node`, on commence par cloner le dépôt et ses sous-modules, puis on va lancer la compilation.
+
+- **Récupération du code source** :
+
+```bash
+git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
+```
+
+098
+
+- L’option `--recurse-submodules` permet de cloner également les sous-dépôts nécessaires (dont la version modifiée de `rust-lightning`) ;
+- L’option `--shallow-submodules` restreint la profondeur du clone pour accélérer le téléchargement, tout en ayant accès aux commits indispensables.
+
+- **Compilation et installation du binaire** :
+
+Depuis la racine du projet, exécutez :
+
+```bash
+cargo install --locked --debug --path .
+```
+
+099
+
+- `--locked` assure que la version des dépendances est strictement respectée ;
+- `--debug` n’est pas obligatoire, mais peut faciliter la mise au point (vous pouvez utiliser `--release` si vous préférez) ;
+- `--path .` indique à `cargo install` d’installer depuis le répertoire courant.
+
+Au terme de cette commande, un exécutable **`rgb-lightning-node`** sera disponible dans votre `$CARGO_HOME/bin/`. Assurez-vous que ce chemin est dans votre `$PATH` pour pouvoir invoquer la commande depuis n’importe quel répertoire.
+
+### Prérequis d’exécution
+
+Pour fonctionner, le daemon `rgb-lightning-node` requiert la présence et la configuration de :
+
+- **Un nœud `bitcoind`**  
+
+Chaque instance RLN aura besoin de communiquer avec `bitcoind` pour diffuser et surveiller ses transactions on-chain. L’authentification (login/password) et l’URL (host/port) devront être fournis au daemon.
+
+- **Un indexeur** (Electrum ou Esplora)  
+
+Le daemon doit pouvoir lister et explorer les transactions on-chain, en particulier pour retrouver l’UTXO sur lequel un asset a été ancré. Vous devrez préciser l’URL de votre Electrum server ou Esplora.
+
+- **Un proxy RGB**  
+
+Comme vu dans les chapitres précédents, le **serveur proxy** est un composant (optionnel, mais fortement recommandé) permettant de simplifier l’échange de *consignments* entre pairs LN. Là encore, une URL doit être spécifiée.
+
+Les identifiants et URL sont passés au moment où l’on _unlock_ le daemon via l’API. Cela sera détaillé plus loin.
+
+### Lancement en Regtest
+
+Pour un usage simple, il y a un script `regtest.sh` qui démarre automatiquement, via Docker, un ensemble de services : `bitcoind`, `electrs` (indexer), `rgb-proxy-server`. 
+
+100
+
+Cela permet de lancer un environnement local, isolé et déjà configuré. Il crée et détruit les conteneurs ainsi que les répertoires de données à chaque redémarrage. Les étapes à suivre sont :
+
+- **Démarrer l’environnement** :
+
+```bash
+./regtest.sh start
+```
+
+Ce script va :
+- Créer un répertoire `docker/` pour stocker les données ;
+- Lancer `bitcoind` en regtest, ainsi que l’indexer `electrs` et le `rgb-proxy-server` ;
+- Miner quelques blocs initiaux pour avoir des BTC regtest ;
+- Attendre que tout soit prêt à l’emploi.
+
+101
+
+- **Lancer plusieurs nœuds RLN** :
+
+Dans des shells distincts, exécutez par exemple (pour lancer 3 nœuds RLN) :
+
+```bash
+# 1st shell
+rgb-lightning-node dataldk0/ --daemon-listening-port 3001 \
+    --ldk-peer-listening-port 9735 --network regtest
+
+# 2nd shell
+rgb-lightning-node dataldk1/ --daemon-listening-port 3002 \
+    --ldk-peer-listening-port 9736 --network regtest
+
+# 3rd shell
+rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
+    --ldk-peer-listening-port 9737 --network regtest
+```
+
+102
+
+- Le paramètre `--network regtest` indique l’usage de la configuration regtest ;
+- `--daemon-listening-port` indique sur quel port REST le nœud LN écoutera pour les appels API (JSON) ;
+- `--ldk-peer-listening-port` spécifie sur quel port LN p2p écouter ;
+- `dataldk0/`, `dataldk1/` sont les chemins vers les répertoires de stockage (chaque nœud stocke ses infos séparément).
+
+Vous pouvez également exécuter des commandes sur vos nœuds RLN depuis votre navigateur :
+
+```url
+https://rgb-tools.github.io/rgb-lightning-node/
+```
+
+- **Envoyer des BTC à un nœud** :
+
+Pour qu’un nœud ouvre un canal, il doit d’abord posséder des bitcoins une adresse générée avec la commande (pour le node 1) :
+
+```bash
+curl -X POST http://localhost:3001/address
+```
+
+La réponse vous fournira une adresse. 
+
+103
+
+Sur le `bitcoind` Regtest, on va miner quelques sats. Exécutez :
+
+```bash
+./regtest.sh mine 101
+```
+
+104
+
+Envoyez des fonds à l'adresse du nœud :
+
+```bash
+./regtest.sh sendtoaddress <address> <amount>
+```
+
+105
+
+Puis minez un bloc pour confirmer la transaction :
+
+```bash
+./regtest.sh mine 1
+```
+
+106
+
+### Lancement en Testnet (sans Docker)
+
+Si vous souhaitez tester un scénario plus réaliste, vous pouvez lancer 3 nœuds RLN sur le Testnet, pointant vers des services publics :
+
+```bash
+rgb-lightning-node dataldk0/ --daemon-listening-port 3001 \
+    --ldk-peer-listening-port 9735 --network testnet
+
+rgb-lightning-node dataldk1/ --daemon-listening-port 3002 \
+    --ldk-peer-listening-port 9736 --network testnet
+
+rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
+    --ldk-peer-listening-port 9737 --network testnet
+```
+
+Par défaut, s’il ne trouve pas de configuration, le daemon tentera d’utiliser les services :
+
+- `bitcoind_rpc_host`: `electrum.iriswallet.com` (ou un autre)
+- `bitcoind_rpc_port`: `18332`
+- `indexer_url`: `ssl://electrum.iriswallet.com:50013`
+- `proxy_endpoint`: `rpcs://proxy.iriswallet.com/0.2/json-rpc`
+
+Vous pouvez aussi personnaliser ces éléments via l’API `init`/`unlock`.
+
+### Émission d'un token RGB
+
+Pour émettre un token basique on va commencer par créer des UTXOs "colorables" :
+
+```bash
+curl -X POST -H "Content-Type: application/json" \
+  -d '{
+        "up_to": false,
+        "num": 4,
+        "size": 2000000,
+        "fee_rate": 4.2,
+        "skip_sync": false
+      }' \
+  http://localhost:3001/createutxos
+```
+
+107
+
+Vous pouvez évidemment adapter la commande.
+
+Pour confirmer la transaction, on mine un bloc :
+
+```bash
+./regtest.sh mine 1
+```
+
+On peut maintenant créer un asset RGB. La commande va dépendre du type d'asset que vous souhaitez créer et de ses paramètres. Ici je crée un token NIA (*Non Inflatable Asset*) nommé "PBN" avec une supply de 1000 unités. La `precision` permet de définir la divisibilité des unités.
+
+```bash
+curl -X POST -H "Content-Type: application/json" \
+  -d '{
+        "amounts": [
+          1000
+        ],
+        "ticker": "PBN",
+        "name": "Plan B Network",
+        "precision": 0
+      }' \
+  http://localhost:3001/issueassetnia
+```
+
+108
+
+La réponse inclue l’identifiant de l’asset nouvellement créé. Pensez à noter cet identifiant. Dans mon cas, c'est :
+
+```txt
+rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
+```
+
+109
+
+Vous pourrez ensuite effectuer des transferts on-chain, ou bien l’allouer dans un canal LN. C'est justement ce que nous allons faire dans la prochaine section.
+
+### Ouverture de canal et transfert d’un actif RGB
+
+Vous devez d’abord connecter votre nœud à un pair LN via `/connectpeer` (dans mon exemple, je maîtrise les 2 nœuds). Je vais donc récupérer la clé publique de mon second nœud Lightning avec cette commande :
+
+```bash
+curl -X 'GET' \
+  'http://localhost:3002/nodeinfo' \
+  -H 'accept: application/json'
+```
+
+La commande me renvoie la clé publique de mon nœud n°2 :
+
+```txt
+031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
+```
+
+110
+
+Ensuite, on va ouvrir le canal en précisant l’asset concerné (`PBN`). L’API `/openchannel` vous permettra de déclarer la taille du canal en satoshis et l’option d’embarquer l’asset. Ce point dépend de la configuration, mais par exemple dans mon cas la commande est :
+
+```bash
+curl -X POST -H "Content-Type: application/json" \
+  -d '{
+        "peer_pubkey_and_opt_addr": "031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94@localhost:9736",
+        "capacity_sat": 1000000,
+        "push_msat": 10000000,
+        "asset_amount": 500,
+        "asset_id": "rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10",
+        "public": true,
+        "with_anchors": true,
+        "fee_base_msat": 1000,
+        "fee_proportional_millionths": 0,
+        "temporary_channel_id": "a8b60c8ce3067b5fc881d4831323e24751daec3b64353c8df3205ec5d838f1c5"
+      }' \
+  http://localhost:3001/openchannel
+
+```
+
+111
+
+Dans le détail ici :
+- **peer_pubkey_and_opt_addr** : Identifiant du pair (la clé publique que nous avons trouvée précédemment) auquel on souhaite se connecter ;
+- **capacity_sat** : Capacité totale du canal en satoshis ;
+- **push_msat** : Montant en millisatoshis initialement transféré au pair lors de l'ouverture du canal (ici je lui transfère immédiatement 10 000 sats pour qu'il puisse faire un transfert RGB par la suite) ;
+- **asset_amount** : Quantité d'actifs RGB à engager dans le canal ;
+- **asset_id** : Identifiant unique de l'actif RGB engagé dans le canal ;
+- **public** : Indique si le canal doit être rendu public pour le routage sur le réseau.
+
+Pour confirmer la transaction, on mine 6 blocs :
+
+```bash
+./regtest.sh mine 6
+```
+
+112
+
+Le canal Lightning est maintenant ouvert. Il contient également des 500 tokens `PBN`.
+
+Si le second nœud souhaite recevoir des tokens `PBN`, il va devoir générer une invoice. Voici comment faire :
+
+```bash
+curl -X POST -H "Content-Type: application/json" \
+  -d '{
+        "amt_msat": 3000000,
+        "expiry_sec": 420,
+        "asset_id": "rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10",
+        "asset_amount": 100
+      }' \
+  http://localhost:3002/lninvoice
+```
+
+Avec :
+- **amt_msat** : Montant de l'invoice en millisatoshis (minimum 3000 sats) ;
+- **expiry_sec** : Délai d'expiration de l'invoice en secondes ;
+- **asset_id** : Identifiant de l'actif RGB associé à l'invoice ;
+- **asset_amount** : Quantité de l'actif RGB à transférer avec cette invoice.
+
+En réponse, on a une invoice :
+
+```txt
+lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
+```
+
+113
+
+On va maintenant payer cette invoice depuis le premier noeud qui dispose des liquidités de son côté avec le token `PBN` :
+
+```bash
+curl -X POST -H "Content-Type: application/json" \
+  -d '{
+        "invoice": "lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj"
+      }' \
+  http://localhost:3001/sendpayment
+```
+
+114
+
+Le paiement a bien été effectué. On peut le vérifier en exécutant sur un des deux nœuds la commande :
+
+```bash
+curl -X 'GET' \
+  'http://localhost:3001/listpayments' \
+  -H 'accept: application/json'
+```
+
+115
+
+Nous venons d’illustrer la façon de **déployer un nœud Lightning** modifié pour transporter des assets RGB. Cette démonstration se base sur :
+- Un environnement regtest (via `./regtest.sh`) ou testnet ;
+- Un nœud LN (`rgb-lightning-node`) s’appuyant sur un `bitcoind`, un indexer et un `rgb-proxy-server` ;
+- Une série d’APIs JSON REST pour ouvrir/fermer des canaux, émettre des tokens, transférer des assets via LN, etc.
+
+Grâce à ce processus :
+- Les transactions d'engagement LN embarquent une sortie supplémentaire (OP_RETURN ou Taproot) avec l’ancrage d’une transition RGB ;
+- Les transferts s’effectuent exactement comme des paiements Lightning traditionnels, mais en transportant un token RGB en plus ;
+- On peut relier plusieurs nœuds RLN pour router et expérimenter des paiements sur plusieurs nœuds, à condition d'avoir suffisamment de liquidités à la fois en bitcoins et en asset RGB sur le chemin.
+
+Le projet demeure à un stade alpha. Il est donc fortement recommandé de se limiter à des environnements test (regtest, testnet). Les opportunités ouvertes par cette compatibilité LN-RGB sont considérables : stablecoins sur Lightning, DEX layer-2, transferts de tokens fongibles ou de NFT à très faible coût… Les chapitres précédents ont exposé l’architecture conceptuelle et la logique de validation. Désormais, vous possédez une vue pratique de la mise en route d’un tel nœud, pour vos futurs développements ou tests.
 
 
 # Conclusion 

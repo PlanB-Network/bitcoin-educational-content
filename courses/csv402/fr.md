@@ -3285,7 +3285,6 @@ Cela permet de lancer un environnement local, isolé et déjà configuré. Il cr
 Ce script va :
 - Créer un répertoire `docker/` pour stocker les données ;
 - Lancer `bitcoind` en regtest, ainsi que l’indexer `electrs` et le `rgb-proxy-server` ;
-- Miner quelques blocs initiaux pour avoir des BTC regtest ;
 - Attendre que tout soit prêt à l’emploi.
 
 ![RGB-Bitcoin](assets/fr/101.webp)
@@ -3323,7 +3322,7 @@ https://rgb-tools.github.io/rgb-lightning-node/
 
 - **Envoyer des BTC à un nœud** :
 
-Pour qu’un nœud ouvre un canal, il doit d’abord posséder des bitcoins sur une adresse générée avec la commande (pour le node n°1) :
+Pour qu’un nœud puisse ouvrir un canal, il doit d'abord posséder des bitcoins sur une adresse générée avec la commande suivante (pour le nœud n°1) :
 
 ```bash
 curl -X POST http://localhost:3001/address
@@ -3359,7 +3358,7 @@ Puis minez un bloc pour confirmer la transaction :
 
 ### Lancement en Testnet (sans Docker)
 
-Si vous souhaitez tester un scénario plus réaliste, vous pouvez lancer 3 nœuds RLN sur le Testnet, pointant vers des services publics :
+Si vous souhaitez tester un scénario plus réaliste, vous pouvez lancer 3 nœuds RLN sur le Testnet plutôt qu'en Regtest, pointant vers des services publics :
 
 ```bash
 rgb-lightning-node dataldk0/ --daemon-listening-port 3001 \
@@ -3386,7 +3385,7 @@ Vous pouvez aussi personnaliser ces éléments via l’API `init`/`unlock`.
 
 ### Émission d'un token RGB
 
-Pour émettre un token basique on va commencer par créer des UTXOs "colorables" :
+Pour émettre un token on va commencer par créer des UTXOs "colorables" :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3402,9 +3401,7 @@ curl -X POST -H "Content-Type: application/json" \
 
 ![RGB-Bitcoin](assets/fr/107.webp)
 
-Vous pouvez évidemment adapter la commande.
-
-Pour confirmer la transaction, on mine un bloc :
+Vous pouvez évidemment adapter la commande. Pour confirmer la transaction, on mine un bloc :
 
 ```bash
 ./regtest.sh mine 1
@@ -3439,7 +3436,7 @@ Vous pourrez ensuite effectuer des transferts on-chain, ou bien l’allouer dans
 
 ### Ouverture de canal et transfert d’un actif RGB
 
-Vous devez d’abord connecter votre nœud à un pair LN via `/connectpeer` (dans mon exemple, je maîtrise les 2 nœuds). Je vais donc récupérer la clé publique de mon second nœud Lightning avec cette commande :
+Vous devez d'abord connecter votre nœud à un pair du réseau Lightning en utilisant la commande `/connectpeer`. Dans mon exemple, je contrôle les deux nœuds. Je vais donc récupérer la clé publique de mon second nœud Lightning avec cette commande :
 
 ```bash
 curl -X 'GET' \
@@ -3455,7 +3452,7 @@ La commande me renvoie la clé publique de mon nœud n°2 :
 
 ![RGB-Bitcoin](assets/fr/110.webp)
 
-Ensuite, on va ouvrir le canal en précisant l’asset concerné (`PBN`). L’API `/openchannel` vous permettra de déclarer la taille du canal en satoshis et l’option d’embarquer l’asset. Ce point dépend de la configuration, mais par exemple dans mon cas la commande est :
+Ensuite, nous allons ouvrir le canal en spécifiant l'asset concerné (`PBN`). L'API `/openchannel` vous permet de définir la taille du canal en satoshis et d'opter pour l'inclusion de l'asset RGB. Cela dépend de ce que vous souhaitez créer, mais dans mon cas, la commande est :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3493,9 +3490,7 @@ Pour confirmer la transaction, on mine 6 blocs :
 
 ![RGB-Bitcoin](assets/fr/112.webp)
 
-Le canal Lightning est maintenant ouvert. Il contient également des 500 tokens `PBN`.
-
-Si le second nœud souhaite recevoir des tokens `PBN`, il va devoir générer une invoice. Voici comment faire :
+Le canal Lightning est désormais ouvert et contient également 500 tokens `PBN` du côté du nœud n°1. Si le nœud n°2 souhaite recevoir des tokens `PBN`, il devra générer une invoice. Voici comment procéder :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3514,7 +3509,7 @@ Avec :
 - **asset_id** : Identifiant de l'actif RGB associé à l'invoice ;
 - **asset_amount** : Quantité de l'actif RGB à transférer avec cette invoice.
 
-En réponse, on a une invoice :
+En réponse, vous obtiendrez une invoice RGB (comme décris dans les chapitres précédents) :
 
 ```txt
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
@@ -3522,7 +3517,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/fr/113.webp)
 
-On va maintenant payer cette invoice depuis le premier noeud qui dispose des liquidités de son côté avec le token `PBN` :
+Nous allons maintenant payer cette invoice depuis le premier nœud, qui détient les liquidités nécessaires avec le token `PBN` :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

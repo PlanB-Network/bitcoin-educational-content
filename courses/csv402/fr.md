@@ -3229,7 +3229,7 @@ Pour compiler et installer le binaire `rgb-lightning-node`, on commence par clon
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
 ```
 
-098
+![RGB-Bitcoin](assets/fr/098.webp)
 
 - L’option `--recurse-submodules` permet de cloner également les sous-dépôts nécessaires (dont la version modifiée de `rust-lightning`) ;
 - L’option `--shallow-submodules` restreint la profondeur du clone pour accélérer le téléchargement, tout en ayant accès aux commits indispensables.
@@ -3242,7 +3242,7 @@ Depuis la racine du projet, exécutez :
 cargo install --locked --debug --path .
 ```
 
-099
+![RGB-Bitcoin](assets/fr/099.webp)
 
 - `--locked` assure que la version des dépendances est strictement respectée ;
 - `--debug` n’est pas obligatoire, mais peut faciliter la mise au point (vous pouvez utiliser `--release` si vous préférez) ;
@@ -3272,7 +3272,7 @@ Les identifiants et URL sont passés au moment où l’on _unlock_ le daemon via
 
 Pour un usage simple, il y a un script `regtest.sh` qui démarre automatiquement, via Docker, un ensemble de services : `bitcoind`, `electrs` (indexer), `rgb-proxy-server`. 
 
-100
+![RGB-Bitcoin](assets/fr/100.webp)
 
 Cela permet de lancer un environnement local, isolé et déjà configuré. Il crée et détruit les conteneurs ainsi que les répertoires de données à chaque redémarrage. Les étapes à suivre sont :
 
@@ -3288,7 +3288,7 @@ Ce script va :
 - Miner quelques blocs initiaux pour avoir des BTC regtest ;
 - Attendre que tout soit prêt à l’emploi.
 
-101
+![RGB-Bitcoin](assets/fr/101.webp)
 
 - **Lancer plusieurs nœuds RLN** :
 
@@ -3308,7 +3308,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
     --ldk-peer-listening-port 9737 --network regtest
 ```
 
-102
+![RGB-Bitcoin](assets/fr/102.webp)
 
 - Le paramètre `--network regtest` indique l’usage de la configuration regtest ;
 - `--daemon-listening-port` indique sur quel port REST le nœud LN écoutera pour les appels API (JSON) ;
@@ -3331,7 +3331,7 @@ curl -X POST http://localhost:3001/address
 
 La réponse vous fournira une adresse. 
 
-103
+![RGB-Bitcoin](assets/fr/103.webp)
 
 Sur le `bitcoind` Regtest, on va miner quelques bitcoins. Exécutez :
 
@@ -3339,7 +3339,7 @@ Sur le `bitcoind` Regtest, on va miner quelques bitcoins. Exécutez :
 ./regtest.sh mine 101
 ```
 
-104
+![RGB-Bitcoin](assets/fr/104.webp)
 
 Envoyez des fonds à l'adresse du nœud générée précédemment :
 
@@ -3347,7 +3347,7 @@ Envoyez des fonds à l'adresse du nœud générée précédemment :
 ./regtest.sh sendtoaddress <address> <amount>
 ```
 
-105
+![RGB-Bitcoin](assets/fr/105.webp)
 
 Puis minez un bloc pour confirmer la transaction :
 
@@ -3355,7 +3355,7 @@ Puis minez un bloc pour confirmer la transaction :
 ./regtest.sh mine 1
 ```
 
-106
+![RGB-Bitcoin](assets/fr/106.webp)
 
 ### Lancement en Testnet (sans Docker)
 
@@ -3400,7 +3400,7 @@ curl -X POST -H "Content-Type: application/json" \
   http://localhost:3001/createutxos
 ```
 
-107
+![RGB-Bitcoin](assets/fr/107.webp)
 
 Vous pouvez évidemment adapter la commande.
 
@@ -3425,7 +3425,7 @@ curl -X POST -H "Content-Type: application/json" \
   http://localhost:3001/issueassetnia
 ```
 
-108
+![RGB-Bitcoin](assets/fr/108.webp)
 
 La réponse inclue l’identifiant de l’asset nouvellement créé. Pensez à noter cet identifiant. Dans mon cas, c'est :
 
@@ -3433,7 +3433,7 @@ La réponse inclue l’identifiant de l’asset nouvellement créé. Pensez à n
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
-109
+![RGB-Bitcoin](assets/fr/109.webp)
 
 Vous pourrez ensuite effectuer des transferts on-chain, ou bien l’allouer dans un canal LN. C'est justement ce que nous allons faire dans la prochaine section.
 
@@ -3453,7 +3453,7 @@ La commande me renvoie la clé publique de mon nœud n°2 :
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
 ```
 
-110
+![RGB-Bitcoin](assets/fr/110.webp)
 
 Ensuite, on va ouvrir le canal en précisant l’asset concerné (`PBN`). L’API `/openchannel` vous permettra de déclarer la taille du canal en satoshis et l’option d’embarquer l’asset. Ce point dépend de la configuration, mais par exemple dans mon cas la commande est :
 
@@ -3483,7 +3483,7 @@ Dans le détail ici :
 - **asset_id** : Identifiant unique de l'actif RGB engagé dans le canal ;
 - **public** : Indique si le canal doit être rendu public pour le routage sur le réseau.
 
-111
+![RGB-Bitcoin](assets/fr/111.webp)
 
 Pour confirmer la transaction, on mine 6 blocs :
 
@@ -3491,7 +3491,7 @@ Pour confirmer la transaction, on mine 6 blocs :
 ./regtest.sh mine 6
 ```
 
-112
+![RGB-Bitcoin](assets/fr/112.webp)
 
 Le canal Lightning est maintenant ouvert. Il contient également des 500 tokens `PBN`.
 
@@ -3520,7 +3520,7 @@ En réponse, on a une invoice :
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
 ```
 
-113
+![RGB-Bitcoin](assets/fr/113.webp)
 
 On va maintenant payer cette invoice depuis le premier noeud qui dispose des liquidités de son côté avec le token `PBN` :
 
@@ -3532,7 +3532,7 @@ curl -X POST -H "Content-Type: application/json" \
   http://localhost:3001/sendpayment
 ```
 
-114
+![RGB-Bitcoin](assets/fr/114.webp)
 
 Le paiement a bien été effectué. On peut le vérifier en exécutant sur un des deux nœuds la commande :
 
@@ -3542,7 +3542,7 @@ curl -X 'GET' \
   -H 'accept: application/json'
 ```
 
-115
+![RGB-Bitcoin](assets/fr/115.webp)
 
 Nous venons d’illustrer la façon de **déployer un nœud Lightning** modifié pour transporter des assets RGB. Cette démonstration se base sur :
 - Un environnement regtest (via `./regtest.sh`) ou testnet ;

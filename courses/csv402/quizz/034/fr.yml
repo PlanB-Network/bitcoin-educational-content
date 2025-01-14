@@ -1,0 +1,9 @@
+question: Quelle action Bob (destinataire) réalise-t-il une fois qu’il reçoit le terminal consignment d’Alice (payeur) ?
+answer: Vérifier la validité de la State Transition et signer
+wrong_answers:
+  - Modifier le Schema du contrat et le renvoyer à Alice
+  - Créer une invoice pour une nouvelle opération
+  - Signer la PSBT d'Alice et la diffuser onchain
+explanation: |
+  Bob examine le consignment, s’assure que la transition respecte les règles et peut apposer sa signature pour attester de son accord.
+reviewed: false

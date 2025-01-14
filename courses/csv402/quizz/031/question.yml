@@ -1,0 +1,18 @@
+id: b9450602-72a9-45db-beef-56145ec262bb
+chapterId: f043a307-d420-5752-b0d7-ebfd845802c0
+difficulty: intermediate
+duration: 30
+author: pretty-private
+tags:
+  - offchain
+  - layers
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-14
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

@@ -8,7 +8,7 @@ objectives:
   - Savoir opérer un noeud Lightning compatible avec RGB
 ---
 
-# Un voyage dans RGB
+# À la découverte du protocole RGB
 
 Plongez dans l’univers de RGB, un protocole conçu pour appliquer et faire respecter des droits numériques, sous forme de contrats et d’actifs, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. Cette formation complète vous guide à travers les fondations techniques et pratiques de RGB, depuis les concepts théoriques de la "*Client-side Validation*" et des "*Single-use Seals*", jusqu'à l'implémentation de contrats intelligents avancés.
 
@@ -20,7 +20,7 @@ Le cours est issu d'un séminaire en direct organisé par Fulgur'Ventures et ens
 
 +++
 
-# Introduction au cours RGB
+# Introduction
 <partId>c6f7a70f-d894-595f-8c0a-b54759778839</partId>
 
 ## Présentation du cours
@@ -2902,7 +2902,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 Dans le prochain chapitre, nous aborderons plus en détail l'intégration de RGB au Lightning Network.
 
-## Sujets avancés et Lightning Network
+## RGB sur le Lightning Network
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
 ![video](https://youtu.be/mqCupTlDbA0)

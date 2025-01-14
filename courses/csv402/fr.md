@@ -1840,56 +1840,72 @@ Avant de plonger dans le code, il est utile de rappeler la structure générale 
 Le code ci-dessous montre la définition complète du Schema Rust. Nous allons le commenter partie par partie, en suivant les annotations (1) à (9) ci-dessous :
 
 ```rust
-fn nia_schema() -> SubSchema {                      //  --->    (1) 
+// ===== PART 1: Function Header and SubSchema =====
+fn nia_schema() -> SubSchema {
     
     // definitions of libraries and variables
 
+    // ===== PART 2: General Properties (ffv, subset_of, type_system) =====
     Schema {
-        ffv: zero!(),                                                                           // --+                                                      
-        subset_of: None,                                                                        //   |  (2) 
-        type_system: types.type_system(),                                                       // --+     
-        global_types: tiny_bmap! {                                                              // --+
-            GS_NOMINAL => GlobalStateSchema::once(types.get("RGBContract.DivisibleAssetSpec")), //   |  
-            GS_DATA => GlobalStateSchema::once(types.get("RGBContract.ContractData")),          //   |
-            GS_TIMESTAMP => GlobalStateSchema::once(types.get("RGBContract.Timestamp")),        //   |  (3)
-            GS_ISSUED_SUPPLY => GlobalStateSchema::once(types.get("RGBContract.Amount")),       //   |
-        },                                                                                      // --+
-        owned_types: tiny_bmap! {                                               // --+
-            OS_ASSET => StateSchema::Fungible(FungibleType::Unsigned64Bit),     //   |  (4)
-        },                                                                      // --+                    
-        valency_types: none!(),                          //  --->   (5)
-        genesis: GenesisSchema {                         //  --+ -------> Contract Operations declaration start here
-            metadata: Ty::<SemId>::UNIT.id(None),        //    |
-            globals: tiny_bmap! {                        //    |
-                GS_NOMINAL => Occurrences::Once,         //    |  
-                GS_DATA => Occurrences::Once,            //    |
-                GS_TIMESTAMP => Occurrences::Once,       //    |
-                GS_ISSUED_SUPPLY => Occurrences::Once,   //    |   (6) 
-            },                                           //    |
-            assignments: tiny_bmap! {                    //    |
-                OS_ASSET => Occurrences::OnceOrMore,     //    | 
-            },                                           //    |
-            valencies: none!(),                          //  --+                 
+        ffv: zero!(),
+        subset_of: None,
+        type_system: types.type_system(),
+
+        // ===== PART 3: Global States =====
+        global_types: tiny_bmap! {
+            GS_NOMINAL => GlobalStateSchema::once(types.get("RGBContract.DivisibleAssetSpec")),
+            GS_DATA => GlobalStateSchema::once(types.get("RGBContract.ContractData")),
+            GS_TIMESTAMP => GlobalStateSchema::once(types.get("RGBContract.Timestamp")),
+            GS_ISSUED_SUPPLY => GlobalStateSchema::once(types.get("RGBContract.Amount")),
         },
-        extensions: none!(),                             //  --->  (7) 
-        transitions: tiny_bmap! {                        //  --+      
-            TS_TRANSFER => TransitionSchema {            //    |
-                metadata: Ty::<SemId>::UNIT.id(None),    //    |
-                globals: none!(),                        //    |
-                inputs: tiny_bmap! {                     //    |
-                    OS_ASSET => Occurrences::OnceOrMore  //    |   (8)
-                },                                       //    |
-                assignments: tiny_bmap! {                //    |
-                    OS_ASSET => Occurrences::OnceOrMore  //    |
-                },                                       //    |
-                valencies: none!(),                      //    |
-            }                                            //  --+ 
+
+        // ===== PART 4: Owned Types =====
+        owned_types: tiny_bmap! {
+            OS_ASSET => StateSchema::Fungible(FungibleType::Unsigned64Bit),
         },
-        script: Script::AluVM(AluScript {                                                                 // -+
-            libs: confined_bmap! { alu_id => alu_lib },                                                   //  |
-            entry_points: confined_bmap! {                                                                // (9)
-                EntryPoint::ValidateGenesis => LibSite::with(FN_GENESIS_OFFSET, alu_id),                  //  |
-                EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET, alu_id), // -+
+
+        // ===== PART 5: Valencies =====
+        valency_types: none!(),
+
+        // ===== PART 6: Genesis: Initial Operations =====
+        genesis: GenesisSchema {
+            metadata: Ty::<SemId>::UNIT.id(None),
+            globals: tiny_bmap! {
+                GS_NOMINAL => Occurrences::Once,
+                GS_DATA => Occurrences::Once,
+                GS_TIMESTAMP => Occurrences::Once,
+                GS_ISSUED_SUPPLY => Occurrences::Once,
+            },
+            assignments: tiny_bmap! {
+                OS_ASSET => Occurrences::OnceOrMore,
+            },
+            valencies: none!(),
+        },
+
+        // ===== PART 7: Extensions =====
+        extensions: none!(),
+
+        // ===== PART 8: Transitions: TS_TRANSFER =====
+        transitions: tiny_bmap! {
+            TS_TRANSFER => TransitionSchema {
+                metadata: Ty::<SemId>::UNIT.id(None),
+                globals: none!(),
+                inputs: tiny_bmap! {
+                    OS_ASSET => Occurrences::OnceOrMore,
+                },
+                assignments: tiny_bmap! {
+                    OS_ASSET => Occurrences::OnceOrMore,
+                },
+                valencies: none!(),
+            }
+        },
+
+        // ===== PART 9: Script AluVM and Entry Points =====
+        script: Script::AluVM(AluScript {
+            libs: confined_bmap! { alu_id => alu_lib },
+            entry_points: confined_bmap! {
+                EntryPoint::ValidateGenesis => LibSite::with(FN_GENESIS_OFFSET, alu_id),
+                EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET, alu_id),
             },
         }),
     }

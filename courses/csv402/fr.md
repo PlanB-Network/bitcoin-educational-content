@@ -3557,6 +3557,7 @@ Le projet demeure à un stade alpha. Il est donc fortement recommandé de se lim
 
 # Conclusion 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
+<isConclusionChapter>true</isConclusionChapter>
 
 
 ## Évaluez ce cours

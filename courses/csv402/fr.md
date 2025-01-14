@@ -1230,7 +1230,7 @@ Le tableau ci-dessous illustre comment chaque type de Contract Operation peut ma
 
 Par ailleurs, on peut distinguer la portée temporelle et les droits de mise à jour de chaque type de données dans le tableau suivant :
 
-|                                 | **Metadata**                             | **Global State**                               | **Owned State**                                                                                              |
+|                                 | Metadata                                 | Global State                                   | Owned State                                                                                                  |
 | ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | **Portée**                      | Défini pour une seule Contract Operation | Défini globalement pour le contrat             | Défini pour chaque sceau (*Assignment*)                                                                      |
 | **Qui peut le mettre à jour ?** | Non réactualisable (données éphémères)   | Opération émise par les acteurs (issuer, etc.) | Dépend du détenteur légitime qui possède le sceau (celui qui peut le dépenser dans une transaction suivante) |

@@ -1,19 +1,22 @@
 ---
-name: Introduction à la programmation RGB
-goal: Apprendre les bases de la pile de programmation RGB et construire vos premières applications RGB
+name: Le protocole RGB, de la théorie à la pratique
+goal: Acquérir les compétences nécessaires pour comprendre et utiliser RGB
 objectives:
-  - Comprendre RGB de manière théorique
-  - Exécuter un nœud RGB
-  - Construire sur RGB
+  - Comprendre les concepts fondamentaux du protocole RGB
+  - Maîtriser les principes de la validation côté client et des engagements sur Bitcoin
+  - Apprendre à créer, gérer et transférer des contrats RGB
+  - Savoir opérer un noeud Lightning compatible avec RGB
 ---
 
 # Un voyage dans RGB
 
-Dans ce programme, nous plongerons profondément dans RGB, une solution révolutionnaire à plusieurs couches pour la scalabilité de Bitcoin. RGB utilise une validation côté client pour intégrer ses contrats intelligents dans Bitcoin, permettant des contrats hors chaîne et des cas d'utilisation évolutifs du protocole. De la DeFi aux NFT en passant par la création d'actifs, RGB est une technologie prometteuse qui peut permettre de nombreux nouveaux cas d'utilisation incensurables.
+Plongez dans l’univers de RGB, un protocole conçu pour appliquer et faire respecter des droits numériques, sous forme de contrats et d’actifs, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. Cette formation complète vous guide à travers les fondations techniques et pratiques de RGB, depuis les concepts théoriques de la "*Client-side Validation*" et des "*Single-use Seals*", jusqu'à l'implémentation de contrats intelligents avancés.
 
-Dans ce cours, nous nous concentrerons d'abord sur les aspects théoriques, puis explorerons la partie programmation, et enfin, nous examinerons quelques exemples et exercices concrets de la vie réelle. Le cours est issu d'un séminaire en direct organisé par Fulgur'Ventures et enseigné par trois enseignants renommés et experts en RGB.
+À travers un programme structuré et progressif, vous découvrirez les mécanismes de la validation côté client, les engagements déterministes sur Bitcoin et les schémas d’interaction entre les utilisateurs. Apprenez à créer, gérer et transférer des tokens RGB sur Bitcoin ou bien sur le Lightning Network.
 
-Profitez-en et bonne chance avec l'un des sujets les plus avancés de Bitcoin.
+Que vous soyez développeur, passionné de Bitcoin, ou simplement curieux d’en apprendre davantage sur cette technologie, cette formation vous fournira les outils et les connaissances nécessaires pour maîtriser RGB et construire des solutions innovantes sur Bitcoin.
+
+Le cours est issu d'un séminaire en direct organisé par Fulgur'Ventures et enseigné par trois enseignants renommés et experts de RGB.
 
 +++
 
@@ -55,11 +58,11 @@ Dans ce cours, nous nous concentrons sur la deuxième semaine du bootcamp, qui p
 
 Un grand merci à la personne qui a organisé ces cours en direct et aux 3 enseignants qui y ont participé :
 - Maxim Orlovsky : *Ex Tenebrae sententia sapiens dominabitur astris. Cypher, IA, robotique, transhumanisme. Créateur de RGB, Prime, Radiant et lnp_bp, mycitadel_io & cyphernet_io* ;
-- Hunter Trujilo : *Développeur, Rust, Bitcoin, Bitcoin, Lightning, RGB* ;
+- Hunter Trujilo : *Développeur, Rust, Bitcoin, Lightning, RGB* ;
 - Federico Tenga : *Je fais ma part pour que le monde devienne une dystopie cypherpunk. Actuellement en train de travailler sur RGB chez Bitfinex*.
 
 La version écrite de cette formation a été rédigée en s'appuyant sur 2 ressources principales :
-- Les vidéos du séminaire de Maxim Orlovsky lors du Lightning Bootcamp ;
+- Les vidéos du séminaire de Maxim Orlovsky, Hunter Trujilo et Frederico Tenga lors du Lightning Bootcamp ;
 - La documentation de RGB, dont la production a été sponsorisée par [Bitfinex](https://www.bitfinex.com/).
 
 # RGB en théorie
@@ -3556,7 +3559,6 @@ Le projet demeure à un stade alpha. Il est donc fortement recommandé de se lim
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 
-
 ## Évaluez ce cours
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -3564,12 +3566,13 @@ Le projet demeure à un stade alpha. Il est donc fortement recommandé de se lim
 ## Mot de clôture
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-Merci d'avoir participé aux cours RGB proposés par Plan ₿ Network en collaboration avec Fulgur'Ventures. Nous exprimons notre gratitude à nos enseignants pour leur soutien. Si vous êtes intéressé à poursuivre votre travail avec RGB, voici une liste utile de ressources à explorer :
-
+Merci d'avoir participé à cette formation sur RGB proposée par Plan ₿ Network en collaboration avec Fulgur'Ventures. Un grand merci à Maxim Orlovsky, Hunter Trujilo, et Federico Tenga pour leur contribution à cette formation. Si vous désirez approfondir vos connaissances sur RGB, voici une liste de ressources utiles à explorer :
 - https://rgb.tech/
 - https://www.rgbfaq.com/
 - https://rgb.tech/docs/
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
 
-Merci et bonne chance pour vos études chez Plan ₿ Network.
+Je vous recommande également de découvrir cette autre formation sur le langage de programmation Rust, appliqué à Bitcoin et au Lightning Network :
+
+https://planb.network/courses/lnp402

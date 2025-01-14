@@ -25,13 +25,13 @@ Blockstream Jade - Mobile Bitcoin Hardware Wallet FULL TUTORIAL by BTCsession
 
 ![full guide](https://youtu.be/0fPVzsyL360)
 
-pen Blockstream Green, then click the Blockstream logo under Devices.
+Open Blockstream Green, then click the Blockstream logo under Devices.
 
 ![image](assets/1.webp)
 
 Plug in Jade to your desktop using the supplied USB cable.
 
-> Note: If Jade is not recognized by your computer, make sure to download the driver found in the guide here.
+**Note:** If Jade is not recognized by your computer, make sure to have the necessary drivers installed as well as checking if it may be due an USB permissions issue.
 
 Once your Jade appears in Green, update Jade by clicking Check for updates and select the latest firmware version. Use the scroll wheel or toggle on Jade to confirm and continue with the update. Make sure your Jade still shows the "Initialize" button, otherwise you will have to wait until after setting Jade up to upgrade it. Use the back button to get to this screen if necessary.
 
@@ -39,7 +39,7 @@ Once your Jade appears in Green, update Jade by clicking Check for updates and s
 
 After you have updated Jade's firmware, select Setup Jade on the network and security policy you would like to use.
 
-> Tip: The security policy is listed under Type on the login screen shown below. If you are not sure whether to select Singlesig or Multisig Shield, please review our guide here. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**Tip:** The security policy is listed under Type on the login screen shown below. If you are not sure whether to select Singlesig or Multisig Shield, please review our guide [here](https://help.blockstream.com/hc/en-us/articles/4403642609433)
 
 ![image](assets/3.webp)
 
@@ -67,7 +67,7 @@ source: https://help.blockstream.com/hc/en-us/articles/17478506300825
 
 Verifying the download means to check that the file you downloaded has not been modified since being released by the developer.
 
-We do this by checking that the signature (produced by the developers private key) together with the file downloaded and the developers public key return a TRUE result when passing through the gpg –verify function. I’ll show you how to do that next. If you want to learn the background to this, I have this guide and this one.
+We do this by checking that the signature (produced by the developers private key) together with the file downloaded and the developers public key return a TRUE result when passing through the gpg –verify function. I’ll show you how to do that next.
 
 First, we get the signing key:
 
@@ -151,7 +151,7 @@ source: https://armantheparman.com/jade/
 
 If you already know how to use SParrow then it's as always:
 
-> Note: it's the same process with Specter for exemple
+**Note:** it's the same process with Specter for example
 
 Download Sparrow using the link provided here.
 
@@ -171,13 +171,13 @@ Enter a name for your wallet and click Create Wallet.
 
 Choose your desired policy and script types then select Connected Hardware Wallet.
 
-> Note: If you have previously used Blockstream Jade as a Singlesig wallet with Blockstream Green and would like to view your transactions in Sparrow, make sure the script type matches the account type that contains your funds in Green. You will also need the derivation path to match as well.
+**Note:** If you have previously used Blockstream Jade as a Singlesig wallet with Blockstream Green and would like to view your transactions in Sparrow, make sure the script type matches the account type that contains your funds in Green. You will also need the derivation path to match as well.
 
 ![image](assets/18.webp)
 
 Plug in your Blockstream Jade and click Scan. You will then be prompted to enter your PIN on Jade.
 
-> Tip: Before connecting your Jade, make sure the Blockstream Green app is not open. If Green is open, this may cause issues with your Jade being detected within Sparrow.
+**Tip:** Before connecting your Jade, make sure the Blockstream Green app is not open. If Green is open, this may cause issues with your Jade being detected within Sparrow.
 
 ![image](assets/19.webp)
 
@@ -191,7 +191,7 @@ After your desired key has been imported, click Apply.
 
 You have now successfully set up your wallet and you can begin receiving, storing and spending your bitcoin using Sparrow and Blockstream Jade.
 
-> Note: If you were previously using Jade with Blockstream Green as a Multisig Shield wallet, you should not expect your new Sparrow wallet to show the same balance - these are different wallets. To access your Multisig Shield wallet again, simply connect your Jade back to Blockstream Green.
+**Note:** If you were previously using Jade with Blockstream Green as a Multisig Shield wallet, you should not expect your new Sparrow wallet to show the same balance - these are different wallets. To access your Multisig Shield wallet again, simply connect your Jade back to Blockstream Green.
 
 ![image](assets/22.webp)
 
@@ -202,5 +202,4 @@ source: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-us
 if you're more a mobile guide, you can use it with blockstream green
 
 - How to set up Blockstream Jade with Green | Blockstream Jade - https://youtu.be/7aacxnc6DHg
-
 - How to receive bitcoin to a Jade wallet | Blockstream Jade - https://youtu.be/CVtcDdiPqLA

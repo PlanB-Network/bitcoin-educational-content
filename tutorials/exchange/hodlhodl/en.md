@@ -12,7 +12,7 @@ Hodl Hodl is a decentralized Bitcoin exchange that prioritizes user control and 
 
 https://hodlhodl.com/pages/faq_help
 
-## writing guide:
+## Writing Guide:
 
 Initiating Your Journey with HodlHodl: A Step-by-Step Guide
 
@@ -89,7 +89,7 @@ Guide by Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 Congrats, you just bought yourself some non-KYC bitcoin!
 
-Two final tips
+Two final tips:
 
 - Hodl Hodl is web based so I would always advise accessing via the Tor browser to protect your privacy.
 - If you are a Telegram user, make sure you link your profile with the Hodl Hodl bot. That way you will receive live updates on each trade allowing you to take quick action.
@@ -100,7 +100,7 @@ Two final tips
 
 This guide will help you take your first steps to using the Lend at Hodl Hodl platform.
 
-> SOURCE/ https://medium.com/hodl-hodl/quick-guide-to-lend-or-borrow-on-lend-at-hodl-hodl-5a535d526217
+**Here is the source:** https://medium.com/hodl-hodl/quick-guide-to-lend-or-borrow-on-lend-at-hodl-hodl-5a535d526217
 
 ![image](assets/1.webp)
 
@@ -144,10 +144,12 @@ Once we enter the offer, we will see the details as follows:
 
 If the offer seems appropriate and we decide to take it, we complete the pending fields and confirm with the “ACCEPT AND CREATE” button.
 
-> In this case, the amount offered goes from 100 to 500 USDT over the Liquid network, so we input the amount that we need in the corresponding field.
-> The period of the loan in this offer is fixed to 1 week.
-> In the field “Cryptocurrency payment address” we enter the one where we want to receive the cryptocurrency we are borrowing.
-> In the field “Bitcoin refund address” we put the one where we want to receive our BTC back once we have returned the loan.
+**Please note the following points, regarding the left part of the image above:**
+
+- In this case, the amount offered goes from 100 to 500 USDT over the Liquid network, so we input the amount that we need in the corresponding field.
+- The period of the loan in this offer is fixed to 1 week.
+- In the field “Cryptocurrency payment address” we enter the one where we want to receive the cryptocurrency we are borrowing.
+- In the field “Bitcoin refund address” we put the one where we want to receive our BTC back once we have returned the loan.
 
 In the green frame on the right we can see the details of the contract including the origination fee charged by the platform for providing the technical tools to carry out the contract.
 

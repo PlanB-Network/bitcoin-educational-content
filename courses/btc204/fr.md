@@ -724,8 +724,6 @@ Dans un registre différent, c'est également une analyse temporelle de ce type 
 ## Mise en pratique avec un explorateur de blocs
 <chapterId>6493cf2f-225c-405f-9375-c4304f1087ed</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/cLSS60NrTVQ?feature=shared)
-
 Dans ce dernier chapitre, nous allons appliquer concrètement les concepts que nous avons étudiés jusqu'ici. Je vais vous présenter des exemples de transactions Bitcoin réelles, et vous devrez en extraire les informations que je vous demande. 
 
 Idéalement, pour faire ces exercices, l'utilisation d'un outil professionnel d'analyse de chaîne serait préférable. Cependant, depuis l'arrestation des créateurs de Samourai Wallet, le seul outil gratuit d'analyse OXT.me n'est plus disponible. Nous allons donc opter pour un explorateur de blocs classique pour ces exercices. Je vous recommande d'utiliser [Mempool.space](https://mempool.space/) pour ses nombreuses fonctionnalités et sa gamme d'outils d'analyse de chaîne, mais vous pouvez également opter pour un autre explorateur tel que [Bitcoin Explorer](https://bitcoinexplorer.org/).

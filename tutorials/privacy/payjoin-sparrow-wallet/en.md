@@ -13,7 +13,7 @@ _This tutorial is provided for educational and informational purposes only. We d
 
 ---
 
-> _"Force blockchain spies to rethink everything they think they know."_
+> *Force blockchain spies to rethink everything they think they know.*
 
 Payjoin is a specific Bitcoin transaction structure that enhances user privacy during spending by collaborating with the payment recipient. There are several implementations that facilitate the setup and automation of PayJoin. Among these implementations, the most well-known is Stowaway developed by the Samourai Wallet team. This tutorial aims to guide you through the process of making a Stowaway Payjoin transaction using the Sparrow Wallet software.
 

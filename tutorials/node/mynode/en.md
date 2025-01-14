@@ -5,9 +5,7 @@ description: Set up your bitcoin MyNode
 
 ![image](assets/0.webp)
 
-https://mynodebtc.com/
-
-The easiest, most powerful way to run a Bitcoin and Lightning node! We combine the best open source software with our interface, management, and support so you can easily, privately, and securely use Bitcoin and Lightning.
+[My Node](https://mynodebtc.com/) is the easiest, most powerful way to run a Bitcoin and Lightning node! We combine the best open source software with our interface, management, and support so you can easily, privately, and securely use Bitcoin and Lightning.
 
 ## Types of Node setups
 
@@ -22,20 +20,13 @@ Another option is to just install Bitcoin Core and an Electrum Server variety (t
 ## Shopping list
 
 - Raspberry Pi 4, 4Gb memory or 8Gb (4Gb is plenty)
-
 - Official Raspberry Pi Power (Very Important! Don’t get generic, seriously)
-
 - A case for the Pi. FLIRC case is awesome. The entire case is a heat sink and you don’t need a fan, which can be noisy
-
 - 16 Gb microSD card (you need one, but a few are handy)
-
 - A memory card reader (most computers won’t have a slot for a microSD card).
-
 - External SSD 1Tb hard drive.  
   Note: SSD is crucial. don't use portable external hard drive even tho it’s cheaper
-
 - An ethernet cable (to connect to your home router)
-
 - You do not need a monitor
 
 ## Download MyNode Image
@@ -44,7 +35,7 @@ Navigate to the MyNode website Link
 
 ![image](assets/1.webp)
 
-Click <Download Now>
+Click `Download Now`
 
 Download the Raspberry Pi 4 version:
 
@@ -113,7 +104,7 @@ I typed 192.168.0.1 in the Browser (instructions that came with my router), logg
 
 Finding the IP is crucial.
 
-> UPDATE: you can use the terminal on a Mac or Linux machine to find the IP address of all Ethernet connected devices on the home network using the command “arp -a”. The output is not as pretty as what the router will display, but all the information you need is there. If it’s not obvious which is the Pi, perform trial and error.
+**Note:** you can use the terminal on a Mac or Linux machine to find the IP address of all Ethernet connected devices on the home network using the command “arp -a”. The output is not as pretty as what the router will display, but all the information you need is there. If it’s not obvious which is the Pi, perform trial and error.
 
 ## SSH into the Pi
 

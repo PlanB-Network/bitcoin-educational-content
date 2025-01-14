@@ -34,7 +34,7 @@ La première section est dédiée aux concepts théoriques nécessaires pour com
 
 **Section 2 : Pratique**  
 
-La deuxième section portera sur l'application des concepts théoriques vus dans la section 1. Nous apprendrons à créer et manipuler des contrats RGB, à programmer avec ces outils, et à explorer les développements futurs pour simplifier ce processus.
+La deuxième section portera sur l'application des concepts théoriques vus dans la section 1. Nous apprendrons à créer et manipuler des contrats RGB. Nous allons également voir comment programmer avec ces outils. Ces deux premières sections sont présentées par Maxim Orlovsky.
 
 **Section 3 : Applications**  
 
@@ -56,7 +56,7 @@ Dans ce cours, nous nous concentrons sur la deuxième semaine du bootcamp, qui p
 
 ![RGB-Bitcoin](assets/fr/002.webp)
 
-Un grand merci à la personne qui a organisé ces cours en direct et aux 3 enseignants qui y ont participé :
+Un grand merci aux organisateurs de ces cours en direct et aux 3 enseignants qui y ont participé :
 - Maxim Orlovsky : *Ex Tenebrae sententia sapiens dominabitur astris. Cypher, IA, robotique, transhumanisme. Créateur de RGB, Prime, Radiant et lnp_bp, mycitadel_io & cyphernet_io* ;
 - Hunter Trujilo : *Développeur, Rust, Bitcoin, Lightning, RGB* ;
 - Federico Tenga : *Je fais ma part pour que le monde devienne une dystopie cypherpunk. Actuellement en train de travailler sur RGB chez Bitfinex*.
@@ -76,7 +76,7 @@ La version écrite de cette formation a été rédigée en s'appuyant sur 2 ress
 
 **RGB** est un protocole conçu pour appliquer et faire respecter des droits numériques (sous forme de contrats et d’actifs) de manière évolutive et confidentielle, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. L’objectif de ce premier chapitre est de présenter les concepts et la terminologie de base autour du protocole RGB, en soulignant notamment ses liens étroits avec des concepts de base de l’informatique distribuée tels que la _Client-side Validation_ et les _Single-use Seals_.
 
-Dans ce chapitre, nous explorerons les fondements des **systèmes de consensus distribué** et nous verrons comment **RGB** s’intègre dans cette famille de technologies. Nous introduirons également les grands principes qui permettent de comprendre pourquoi RGB se veut, d’une part, extensible, et d’autre part, indépendant du mécanisme de consensus propre à Bitcoin, tout en s’appuyant sur lui lorsqu’il le faut.
+Dans ce chapitre, nous explorons les fondements des **systèmes de consensus distribué** et nous verrons comment **RGB** s’intègre dans cette famille de technologies. Nous introduirons également les grands principes qui permettent de comprendre pourquoi RGB se veut, d’une part, extensible, et d’autre part, indépendant du mécanisme de consensus propre à Bitcoin, tout en s’appuyant sur lui lorsqu’il le faut.
 
 ### Introduction
 

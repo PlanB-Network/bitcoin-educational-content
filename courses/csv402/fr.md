@@ -2488,7 +2488,6 @@ Avant d'étudier pluys end étail les invoices, voici un schéma récapitulatif 
 - La confirmation de la transaction officialise le transfert.
 
 ![RGB-Bitcoin](assets/fr/080.webp)
-
 Le transfert illustre toute la puissance et la souplesse du protocole RGB : un échange privé, validé côté client, ancré de façon minimale et discrète sur la blockchain Bitcoin, et conservant le meilleur de la sécurité du protocole (pas de risque de double dépense). C’est ce qui fait de RGB un écosystème prometteur pour des transferts de valeur plus confidentiels et plus modulables que sur des blockchains programmables on-chain.
 
 ### Invoices RGB
@@ -3557,7 +3556,7 @@ Le projet demeure à un stade alpha. Il est donc fortement recommandé de se lim
 
 # Conclusion 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
-<isConclusionChapter>true</isConclusionChapter>
+<isCourseConclusion>true</isCourseConclusion>
 
 
 ## Évaluez ce cours

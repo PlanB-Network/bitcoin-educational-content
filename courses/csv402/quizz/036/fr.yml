@@ -1,0 +1,9 @@
+question: Quel est le rôle du stash ?
+answer: Conserver localement l’ensemble des données côté client
+wrong_answers:
+  - Publier automatiquement les transactions sur la blockchain
+  - Compiler et stocker toutes les invoices générées
+  - Gérer les clés privées Bitcoin
+explanation: |
+  Le stash est l’ensemble des données côté client qu’un utilisateur stocke localement pour un ou plusieurs contrats RGB, afin de procéder à la validation côté client.
+reviewed: false

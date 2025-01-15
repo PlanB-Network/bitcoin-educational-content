@@ -10,7 +10,7 @@ objectives:
 
 # À la découverte du protocole RGB
 
-Plongez dans l’univers de RGB, un protocole conçu pour appliquer et faire respecter des droits numériques, sous forme de contrats et d’actifs, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. Cette formation complète vous guide à travers les fondations techniques et pratiques de RGB, depuis les concepts théoriques de la "*Client-side Validation*" et des "*Single-use Seals*", jusqu'à l'implémentation de contrats intelligents avancés.
+Plongez dans l’univers de RGB, un protocole conçu pour appliquer et faire respecter des droits numériques, sous forme de contrats et d’actifs, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. Cette formation complète vous guide à travers les fondations techniques et pratiques de RGB, depuis les concepts de la "*Client-side Validation*" et des "*Single-use Seals*", jusqu'à l'implémentation de contrats intelligents avancés.
 
 À travers un programme structuré et progressif, vous découvrirez les mécanismes de la validation côté client, les engagements déterministes sur Bitcoin et les schémas d’interaction entre les utilisateurs. Apprenez à créer, gérer et transférer des tokens RGB sur Bitcoin ou bien sur le Lightning Network.
 
@@ -30,7 +30,7 @@ Bonjour à tous et bienvenue dans cette formation dédiée à RGB, un système d
 
 **Section 1 : Théorie**  
 
-La première section est dédiée aux concepts théoriques nécessaires pour comprendre les principes fondamentaux de la validation côté client et de RGB. Ces notions dépassent en complexité celles de Bitcoin et de la blockchain, car elles impliquent une nature distribuée des données, contrairement à la centralisation des données sur une blockchain, donc nous allons prendre le temps d'étudier cela.
+La première section est dédiée aux concepts théoriques nécessaires pour comprendre les principes fondamentaux de la validation côté client et de RGB.
 
 **Section 2 : Pratique**  
 
@@ -52,7 +52,7 @@ Dans ce cours, nous nous concentrons sur la deuxième semaine du bootcamp, qui p
 
 ![RGB-Bitcoin](assets/fr/001.webp)
 
-**Semaine 2 - Formation actuelle :**
+**Semaine 2 - Formation actuelle CSV402 :**
 
 ![RGB-Bitcoin](assets/fr/002.webp)
 
@@ -74,38 +74,38 @@ La version écrite de cette formation a été rédigée en s'appuyant sur 2 ress
 ![video](https://youtu.be/AF2XbifPGXM)
 
 
-**RGB** est un protocole conçu pour appliquer et faire respecter des droits numériques (sous forme de contrats et d’actifs) de manière évolutive et confidentielle, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. L’objectif de ce premier chapitre est de présenter les concepts et la terminologie de base autour du protocole RGB, en soulignant notamment ses liens étroits avec des concepts de base de l’informatique distribuée tels que la _Client-side Validation_ et les _Single-use Seals_.
+RGB est un protocole conçu pour appliquer et faire respecter des droits numériques (sous forme de contrats et d’actifs) de manière évolutive et confidentielle, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. L’objectif de ce premier chapitre est de présenter les concepts et la terminologie de base autour du protocole RGB, en soulignant notamment ses liens étroits avec des concepts de base de l’informatique distribuée tels que la _Client-side Validation_ et les _Single-use Seals_.
 
-Dans ce chapitre, nous explorons les fondements des **systèmes de consensus distribué** et nous verrons comment **RGB** s’intègre dans cette famille de technologies. Nous introduirons également les grands principes qui permettent de comprendre pourquoi RGB se veut, d’une part, extensible, et d’autre part, indépendant du mécanisme de consensus propre à Bitcoin, tout en s’appuyant sur lui lorsqu’il le faut.
+Dans ce chapitre, nous explorons les fondements des **systèmes de consensus distribué** et nous verrons comment RGB s’intègre dans cette famille de technologies. Nous introduirons également les grands principes qui permettent de comprendre pourquoi RGB se veut, d’une part, extensible, et d’autre part, indépendant du mécanisme de consensus propre à Bitcoin, tout en s’appuyant sur lui lorsqu’il le faut.
 
 ### Introduction
 
-L’**informatique distribuée** (_Distributed Computing_), une branche spécifique de l’informatique, étudie les protocoles permettant de faire circuler et de traiter des informations sur un réseau de nœuds. L’ensemble de ces nœuds et des règles du protocole constitue ce qu’on appelle un **système distribué**. Parmi les propriétés essentielles qui caractérisent un tel système, on retrouve :
+L’informatique distribuée (_Distributed Computing_), une branche spécifique de l’informatique, étudie les protocoles permettant de faire circuler et de traiter des informations sur un réseau de nœuds. L’ensemble de ces nœuds et des règles du protocole constitue ce qu’on appelle un système distribué. Parmi les propriétés essentielles qui caractérisent un tel système, on retrouve :
 - La **capacité de vérification et de validation indépendante** de certaines données par chaque nœud ;
 - La possibilité pour les nœuds de construire (selon le protocole) une vue complète ou partielle de l’information. Ces vues sont les **états** du système distribué ;
 - L’**ordre chronologique** des opérations, afin que les données soient horodatées de manière fiable et qu’il existe un consensus sur la séquence d’événements (séquence d’états).
 
 En particulier, la notion de **consensus** dans un système distribué recouvre deux aspects :
 - La **reconnaissance de la validité** des changements d’état (selon les règles du protocole) ;
-- L’**accord sur l’ordre** de ces changements d’état, ce qui rend impossible la réécriture ou l’inversion a posteriori des opérations validées (c’est ce que l'on appelle également dans le cadre de Bitcoin, la **protection contre la double-dépense**).
+- L’**accord sur l’ordre** de ces changements d’état, ce qui rend impossible la réécriture ou l’inversion a posteriori des opérations validées (c’est ce que l'on appelle également dans le cadre de Bitcoin, la "protection contre la double-dépense").
 
-La première implémentation permissionless et fonctionnelle d’un mécanisme de consensus distribué a été introduite par Satoshi Nakamoto avec Bitcoin, grâce à l’utilisation conjointe d’une structure de données en _blockchain_ et d’un algorithme de **Proof-of-Work (PoW)**. Dans ce système, la crédibilité de l’historique des blocs dépend de la puissance de calcul que les nœuds (mineurs) y consacrent. Bitcoin est donc un exemple historique et majeur de **systèmes de consensus distribué** ouvert à tous (permissionless).
+La première implémentation sans permission et fonctionnelle d’un mécanisme de consensus distribué a été introduite par Satoshi Nakamoto avec Bitcoin, grâce à l’utilisation conjointe d’une structure de données en blockchain et d’un algorithme de Proof-of-Work (PoW). Dans ce système, la crédibilité de l’historique des blocs dépend de la puissance de calcul que les nœuds (mineurs) y consacrent. Bitcoin est donc un exemple historique et majeur de système de consensus distribué ouvert à tous (*permissionless*).
 
-Dans l'univers de la blockchain et de l'informatique distribuée, nous pouvons distinguer deux paradigmes fondamentaux : la _blockchain_ au sens traditionnel, et les _state channels_ (canaux d'état), dont le meilleur exemple en production est le _Lightning Network_. La _blockchain_ se définit comme un registre d'événements ordonnés chronologiquement, répliqué par consensus au sein d'un réseau ouvert et sans permission. Les _state channels_, eux, sont des canaux peer-to-peer qui permettent à deux (ou plusieurs) participants de maintenir un état mis à jour hors de la chaîne, ne recourant à la blockchain qu'au moment de l'ouverture et de la fermeture de ces canaux.
+Dans l'univers de la blockchain et de l'informatique distribuée, nous pouvons distinguer deux paradigmes fondamentaux : la ***blockchain*** au sens traditionnel, et les ***state channels*** (canaux d'état), dont le meilleur exemple en production est le Lightning Network. La blockchain se définit comme un registre d'événements ordonnés chronologiquement, répliqué par consensus au sein d'un réseau ouvert et sans permission. Les state channels, eux, sont des canaux en pair-à-pair qui permettent à deux (ou plusieurs) participants de maintenir un état mis à jour off-chain, ne recourant à la blockchain qu'au moment de l'ouverture et de la fermeture de ces canaux.
 
-Dans le cadre de Bitcoin, vous connaissez sans doute les principes du minage, la décentralisation et la finalité des transactions sur la blockchain, ainsi que le fonctionnement des canaux de paiement. Nous allons introduire un nouveau paradigme appelé **client-side validation** (validation côté client), qui, contrairement à la blockchain ou à Lightning, consiste à conserver et à valider localement (côté client) les transitions d'état d'un contrat intelligent. Ceci se différencie aussi d'autres techniques de la "DeFi" (_rollups_, _plasma_, _ARK_, etc.), dans la mesure où la _client-side validation_ s'appuie sur la blockchain pour empêcher la double dépense et pour avoir un système d'horodatage, tout en conservant le registre des états et des transitions hors chaîne, uniquement chez les participants concernés.
-
-Nous allons également plus tard introduire un terme important : la notion de "**stash**", qui désigne l'ensemble des données côté client nécessaires pour préserver l'état d'un contrat, ces données n'étant pas répliquées de façon globale sur le réseau. Enfin, nous aborderons la raison d'être de **RGB**, un protocole tirant parti de la _client-side validation_, et pourquoi il se révèle complémentaire aux approches existantes (blockchain et _state channels_).
+Dans le cadre de Bitcoin, vous connaissez sans doute les principes du minage, de la décentralisation et de la finalité des transactions sur la blockchain, ainsi que le fonctionnement des canaux de paiement. Avec RGB, nous allons introduire un nouveau paradigme appelé ***Client-side Validation*** (validation côté client), qui, contrairement à la blockchain ou à Lightning, consiste à conserver et à valider localement (côté client) les transitions d'état d'un contrat intelligent. Ceci se différencie aussi d'autres techniques de la "DeFi" (_rollups_, _plasma_, _ARK_, etc.), dans la mesure où la client-side validation s'appuie sur la blockchain pour empêcher la double dépense et pour avoir un système d'horodatage, tout en conservant le registre des états et des transitions off-chain, uniquement chez les participants concernés.
 
 ![RGB-Bitcoin](assets/fr/003.webp)
 
+Nous allons également plus tard introduire un terme important : la notion de "**stash**", qui désigne l'ensemble des données côté client nécessaires pour préserver l'état d'un contrat, ces données n'étant pas répliquées de façon globale sur le réseau. Enfin, nous aborderons la raison d'être de RGB, un protocole qui tire parti de la client-side validation, et pourquoi il se révèle complémentaire aux approches existantes (blockchain et state channels).
+
 ### Les trilemmes en informatique distribuée
 
-Pour comprendre en quoi la _client-side validation_ et RGB répondent à des problématiques non résolues par la blockchain et Lightning, découvrons 3 "trilemmes" majeurs en informatique distribuée :
+Pour comprendre en quoi la client-side validation et RGB répondent à des problématiques non résolues par la blockchain et Lightning, découvrons 3 "trilemmes" majeurs en informatique distribuée :
 
-1. **Scalabilité, Décentralisation, Privacy**
-2. **Théorème CAP** (Cohérence, Disponibilité, tolérance aux Partitions)
-3. **Trilemme CIA** (Confidentialité, Intégrité, Disponibilité)
+- **Scalabilité, Décentralisation, Privacy** ;
+- **Théorème CAP** (Cohérence, Disponibilité, tolérance aux Partitions) ;
+- **Trilemme CIA** (Confidentialité, Intégrité, Disponibilité).
 
 #### 1. Scalabilité, décentralisation et confidentialité
 
@@ -115,11 +115,11 @@ La blockchain est très décentralisée, mais peu scalable. De plus, comme tout 
 
 - **Lightning/State channels**
 
-Les canaux d'état (comme avec le Lightning Network) sont plus scalables et plus privés que la blockchain, car les transactions s'effectuent hors chaîne. Toutefois, l'obligation d'annoncer publiquement certains éléments (transactions de financement, topologie du réseau) et la surveillance du trafic réseau peuvent compromettre en partie la confidentialité. Aussi, la décentralisation en pâtit : le routage requiert une grande quantité de liquidités et les nœuds majeurs peuvent devenir des points de centralisation. C'est justement un phénomène que l'on peut commencer à observer actuellement sur Lightning.
+Les canaux d'état (comme avec le Lightning Network) sont plus scalables et plus privés que la blockchain, car les transactions s'effectuent off-chain. Toutefois, l'obligation d'annoncer publiquement certains éléments (transactions de financement, topologie du réseau) et la surveillance du trafic réseau peuvent compromettre en partie la confidentialité. Aussi, la décentralisation en pâtit : le routage requiert une grande quantité de liquidités et les nœuds majeurs peuvent devenir des points de centralisation. C'est justement un phénomène que l'on peut commencer à observer actuellement sur Lightning.
 
 - **Client-side validation (RGB)**
 
-Ce nouveau paradigme est encore plus scalable et plus confidentiel, car non seulement on peut intégrer des techniques zero-knowledge, mais il n'y a pas de graphe global des transactions : personne ne détient la totalité du registre. En revanche, cela implique aussi un certain compromis sur la décentralisation : un _contract issuer_ (l'émetteur d'un contrat intelligent) peut avoir un rôle central (à l'instar d'un _contract deployer_ dans Ethereum). Néanmoins, contrairement à la blockchain, avec la _client-side validation_, vous ne stockez et ne validez que les contrats qui vous intéressent, ce qui améliore la scalabilité en évitant de télécharger et de vérifier tous les états existants.
+Ce nouveau paradigme est encore plus scalable et plus confidentiel, car non seulement on peut intégrer des techniques zero-knowledge, mais il n'y a pas de graphe global des transactions : personne ne détient la totalité du registre. En revanche, cela implique aussi un certain compromis sur la décentralisation : l'émetteur d'un contrat intelligent peut avoir un rôle central (à l'instar d'un "*contract deployer*" dans Ethereum). Néanmoins, contrairement à la blockchain, avec la client-side validation, vous ne stockez et ne validez que les contrats qui vous intéressent, ce qui améliore la scalabilité en évitant de télécharger et de vérifier tous les états existants.
 
 ![RGB-Bitcoin](assets/fr/004.webp)
 

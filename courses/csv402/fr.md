@@ -1705,7 +1705,6 @@ La Witness Transaction est la transaction Bitcoin qui ferme le Single-use Seal a
 
 ![video](https://youtu.be/Uo1UoxiImsI)
 
-
 Dans ce chapitre, nous allons aborder concrètement la manière dont un contrat RGB est défini et mis en place. Nous allons voir quels sont les composants d'un contrat RGB, quels sont leurs rôles et comment ils sont construits.
 
 ### Les composants d'un contrat RGB
@@ -1716,7 +1715,9 @@ Le premier composant est appelé le **Schema**. Il s’agit d’un fichier décr
 
 Le deuxième composant est l'**Interface**. Il se focalise sur la manière dont les utilisateurs (et par extension, les logiciels de portefeuilles) vont interagir avec ce contrat. On y décrit la sémantique, c’est-à-dire la représentation lisible des différents champs et actions. Ainsi, alors que le Schema définit comment le contrat fonctionne techniquement, l’Interface définit comment présenter et exposer ces fonctionnalités : noms des méthodes, affichage des données, etc.
 
-Le troisième composant est l'**Interface Implementation**, qui vient compléter les deux précédents en étant une sorte de pont entre le *Schema* et l’*Interface*. Autrement dit, il associe la sémantique énoncée par l’Interface aux règles sous-jacentes définies dans le Schema. C’est cette implémentation qui va gérer, par exemple, la conversion entre un paramètre saisi dans le wallet et la structure binaire imposée par le protocole, ou encore la compilation des règles de validation en langage machine. Cette modularité est une caractéristique intéressante dans RGB, car elle permet à différents groupes de développeurs de travailler séparément sur ces aspects (*Schema*, *Interface*, *Implementation*), tant qu’ils suivent les règles de consensus du protocole.
+Le troisième composant est l'**Interface Implementation**, qui vient compléter les deux précédents en étant une sorte de pont entre le Schema et l’Interface. Autrement dit, il associe la sémantique énoncée par l’Interface aux règles sous-jacentes définies dans le Schema. C’est cette implémentation qui va gérer, par exemple, la conversion entre un paramètre saisi dans le wallet et la structure binaire imposée par le protocole, ou encore la compilation des règles de validation en langage machine.
+
+Cette modularité est une caractéristique intéressante dans RGB, car elle permet à différents groupes de développeurs de travailler séparément sur ces aspects (*Schema*, *Interface*, *Implementation*), tant qu’ils suivent les règles de consensus du protocole.
 
 Pour résumer, chaque contrat se compose donc de :
 - **Genesis**, qui est l’état initial du contrat (et qu’on peut assimiler à une transaction spéciale définissant la première propriété d’un actif, d'un droit, ou de toute autre donnée paramétrable) ;
@@ -1730,14 +1731,14 @@ Il est important de noter que pour qu’un portefeuille puisse gérer un actif R
 
 Afin de mieux clarifier ces notions, voici un tableau récapitulatif comparant les composants d’un contrat RGB à des concepts déjà connus soit en programmation orientée objet (OOP), soit dans l’écosystème Ethereum :
 
-| Composant de contrat RGB | Signification                           | équivalent OOP                                     | équivalent Ethereum                |
-| ------------------------ | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-| Genesis                  | État initial du contrat                 | Class constructor                                  | Contract constructor               |
-| Schema                   | Logique métier du contrat               | Class                                              | Contract                           |
-| Interface                | Sémantique du contrat                   | Interface (Java) / trait (Rust) / protocol (Swift) | ERC Standard                       |
-| Interface Implementation | Mapping de la sémantique et  la logique | Impl (Rust) / Implements (Java)                    | Application Binary Interface (ABI) |
+| Composant de contrat RGB     | Signification                           | Équivalent OOP                                     | Équivalent Ethereum                |
+| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
+| **Genesis**                  | État initial du contrat                 | Class constructor                                  | Contract constructor               |
+| **Schema**                   | Logique métier du contrat               | Class                                              | Contract                           |
+| **Interface**                | Sémantique du contrat                   | Interface (Java) / trait (Rust) / protocol (Swift) | ERC Standard                       |
+| **Interface Implementation** | Mapping de la sémantique et  la logique | Impl (Rust) / Implements (Java)                    | Application Binary Interface (ABI) |
 
-Dans la colonne de gauche, on retrouve les éléments propres au protocole RGB. Dans la colonne du milieu, on voit la fonction concrète de chaque composant. Puis, dans la colonne "équivalent OOP", on trouve le terme équivalent dans la programmation orientée objet :
+Dans la colonne de gauche, on retrouve les éléments propres au protocole RGB. Dans la colonne du milieu, on voit la fonction concrète de chaque composant. Puis, dans la colonne "Équivalent OOP", on trouve le terme équivalent dans la programmation orientée objet :
 - La **Genesis** joue un rôle similaire à un *Class constructor* : c’est là qu’on initialise l’état du contrat ;
 - Le **Schema** correspond à la description d’une classe, c’est-à-dire la définition des propriétés, des méthodes, et de la logique sous-jacente ;
 - L’**Interface** correspond aux *interfaces* (Java), aux *traits* (Rust) ou encore aux *protocols* (Swift) : ce sont les définitions publiques des fonctions, événements, champs... ;
@@ -1747,13 +1748,13 @@ Dans le cadre d’Ethereum, la Genesis se rapproche du *contract constructor*, l
 
 L’avantage de la modularité de RGB tient aussi au fait que des parties prenantes différentes peuvent écrire, par exemple, leur propre Interface Implementation, tant qu’elles respectent la logique du *Schema* et la sémantique de l’*Interface*. Ainsi, un émetteur pourrait développer un nouveau front-end (Interface) plus convivial, sans modifier la logique du contrat, ou inversement, on pourrait étendre le Schema pour ajouter une fonctionnalité, et fournir une nouvelle version de l’Interface Implementation adaptée, tandis que les anciennes implémentations resteraient valables pour les fonctionnalités de base.
 
-Lorsqu’on compile un nouveau contrat, on génère une **Genesis** (première étape d’émission ou de distribution de l’actif), ainsi que ses composants (Schema, Interface, Interface Implementation). Après cela, le contrat est pleinement opérationnel et peut être propagé aux wallets et aux utilisateurs. Cette méthode, où la Genesis se combine à ces trois composants, garantit à la fois un haut degré de personnalisation (chaque contrat peut avoir sa propre logique), de décentralisation (chacun peut contribuer à un composant donné), et de sécurité (la validation demeure strictement définie par le protocole, sans dépendre d’un code arbitraire on-chain comme c’est souvent le cas sur d’autres blockchains).
+Lorsqu’on compile un nouveau contrat, on génère une Genesis (première étape d’émission ou de distribution de l’actif), ainsi que ses composants (Schema, Interface, Interface Implementation). Après cela, le contrat est pleinement opérationnel et peut être propagé aux wallets et aux utilisateurs. Cette méthode, où la Genesis se combine à ces trois composants, garantit à la fois un haut degré de personnalisation (chaque contrat peut avoir sa propre logique), de décentralisation (chacun peut contribuer à un composant donné), et de sécurité (la validation demeure strictement définie par le protocole, sans dépendre d’un code arbitraire on-chain comme c’est souvent le cas sur d’autres blockchains).
 
 Maintenant, je vous propose de découvrir plus en détail chacun de ces composants : le **Schema**, l’**Interface** et l’**Interface Implementation**.
 
 ### Schema
 
-Dans la section précédente, nous avons vu que dans l’écosystème RGB, un contrat est composé de plusieurs éléments : la **Genesis**, qui instaure l’état initial, et plusieurs autres composants complémentaires. Le but du Schema est de décrire de manière déclarative toute la logique métier (*business logic*) du contrat, c’est-à-dire la structure des données, les types utilisés, les opérations permises et leurs conditions. C'est donc un élément très important pour rendre un contrat opérationnel côté client, puisque chaque participant (un wallet, par exemple) doit vérifier que les transitions d’état qu’il reçoit sont conformes à la logique définie dans le Schema.
+Dans la section précédente, nous avons vu que dans l’écosystème RGB, un contrat est composé de plusieurs éléments : la Genesis, qui instaure l’état initial, et plusieurs autres composants complémentaires. Le but du Schema est de décrire de manière déclarative toute la logique métier (*business logic*) du contrat, c’est-à-dire la structure des données, les types utilisés, les opérations permises et leurs conditions. C'est donc un élément très important pour rendre un contrat opérationnel côté client, puisque chaque participant (un wallet, par exemple) doit vérifier que les transitions d’état qu’il reçoit sont conformes à la logique définie dans le Schema.
 
 Le Schema peut être assimilé à une "classe" dans la programmation orientée objet (OOP). De manière générale, il sert de modèle définissant les composants d’un contrat, tels que :
 - Les différents types de Owned States et les Assignments ;
@@ -1761,13 +1762,13 @@ Le Schema peut être assimilé à une "classe" dans la programmation orientée o
 - Les champs du Global State, qui décrivent des propriétés globales, publiques et partagées du contrat ;
 - La structure de la Genesis (la toute première opération qui active le contrat) ;
 - Les formes autorisées de State Transitions et de State Extensions, et la manière dont ces opérations peuvent modifier l’état ;
-- Les éventuelles Metadata associées à chaque opération, permettant de stocker des informations temporaires ou supplémentaires ;
+- Des éventuelles Metadata associées à chaque opération, permettant de stocker des informations temporaires ou supplémentaires ;
 - Les règles qui déterminent comment les données internes du contrat peuvent évoluer (par exemple, si un champ est mutable ou cumulatif) ;
 - Les séquences d’opérations considérées comme valides : par exemple, un ordre de transitions à respecter ou un ensemble de conditions logiques à satisfaire.
 
 ![RGB-Bitcoin](assets/fr/071.webp)
 
-Lorsque l’**issuer** d’un actif sur RGB publie un contrat, il fournit la Genesis et le Schema qui lui est associé. Les utilisateurs ou wallets qui souhaitent interagir avec l’actif récupèrent ce Schema pour comprendre la logique qui sous-tend le contrat et vérifier que les transitions auxquelles ils participent sont légitimes.
+Lorsque l’*issuer* d’un actif sur RGB publie un contrat, il fournit la Genesis et le Schema qui lui est associé. Les utilisateurs ou wallets qui souhaitent interagir avec l’actif récupèrent ce Schema pour comprendre la logique qui sous-tend le contrat et pouvoir vérifier par la suite que les transitions auxquelles ils participeront sont légitimes.
 
 La première étape, pour quiconque reçoit des informations sur un actif RGB (par exemple un transfert de tokens), est de valider ces informations par rapport au Schema. Cela implique d’utiliser la compilation du Schema pour :
 - Vérifier que les Owned States, Assignments et autres éléments sont correctement définis et qu’ils respectent bien les types imposés (ce qu’on appelle le *strict type system*) ;
@@ -1789,14 +1790,14 @@ Un autre point important est que la logique d’évolution de l’état (transfe
 
 #### Différence avec les blockchains programmables on-chain
 
-Contrairement à des systèmes comme Ethereum, où le code du smart contract (exécutable) est inscrit dans la blockchain elle-même, RGB stocke le contrat (sa logique) hors-chaîne, sous forme de document déclaratif compilé. Cela implique que :
+Contrairement à des systèmes comme Ethereum, où le code du smart contract (exécutable) est inscrit dans la blockchain elle-même, RGB stocke le contrat (sa logique) off-chain, sous forme de document déclaratif compilé. Cela implique que :
 - Il n’y a pas de VM Turing-complète qui tourne dans chaque nœud du réseau Bitcoin. Les règles d’un contrat RGB ne sont pas exécutées sur la blockchain, mais bien chez chaque utilisateur qui souhaite valider un état ;
 - Les données du contrat ne polluent pas la blockchain : seules des preuves cryptographiques (*commitments*) sont ancrées dans les transactions Bitcoin (via `Tapret` ou `Opret`) ;
 - Le Schema peut être mis à jour ou décliner des versions (*fast-forward*, *push-back*, etc.), sans nécessiter de fork sur la blockchain Bitcoin. Les wallets doivent simplement importer le nouveau Schema et s’adapter aux changements de consensus.
 
-#### Utilisation par l’issuer et par les utilisateurs
+#### Utilisation par l’émetteur et par les utilisateurs
 
-Lorsqu’un issuer crée un actif (par exemple un jeton fongible non inflationniste), il prépare :
+Lorsqu’un *issuer* crée un actif (par exemple un jeton fongible non inflationniste), il prépare :
 - Un Schema décrivant les règles d’émission, de transfert, etc. ;
 - Une Genesis adaptée à ce Schema (avec le nombre total de jetons émis, l’identité de l’owner initial, éventuellement des Valencies spéciales pour la réémission, etc.).
 
@@ -1989,7 +1990,7 @@ Dans la conception de RGB, le Schema (logique métier) et l’Interface (présen
 
 - **Évolution flexible :**  
 
-L’Interface peut être modifiée ou complétée **après** l’émission de l’actif, sans avoir à changer le contrat lui-même. C’est une différence majeure avec certains systèmes de smart contracts on-chain où l’Interface (souvent mêlée au code d’exécution) est figée dans la blockchain.
+L’Interface peut être modifiée ou complétée après l’émission de l’actif, sans avoir à changer le contrat lui-même. C’est une différence majeure avec certains systèmes de smart contracts on-chain où l’Interface (souvent mêlée au code d’exécution) est figée dans la blockchain.
 
 - **Possibilité de multi-interface**  
 
@@ -1998,7 +1999,7 @@ Un même contrat pourrait être exposé par différentes Interfaces adaptées à
 ![RGB-Bitcoin](assets/fr/074.webp)
 
 En pratique, lorsque le wallet récupère un contrat RGB (via un fichier `.rgb` ou `.rgba`), il importe également l’Interface associée, elle aussi compilée. À l’exécution, le wallet peut par exemple :
-- Parcourir la liste des states et lire leurs noms, afin d’afficher sur l’UI Ticker, Montant initial, Date d’émission, etc. plutôt qu’un identifiant numérique illisible ;
+- Parcourir la liste des states et lire leurs noms, afin d’afficher sur l’interface utilisateur Ticker, Montant initial, Date d’émission, etc. plutôt qu’un identifiant numérique illisible ;
 - Construire une opération (comme un transfert) en utilisant des noms de paramètres explicites : au lieu d’écrire `assignments { OS_ASSET => 1 }`, il peut proposer à l’utilisateur un champ "Amount" dans un formulaire, et traduire cette information en champs strictement typés attendus par le contrat.
 
 #### Différence avec Ethereum et les autres systèmes
@@ -2017,16 +2018,17 @@ Une fois l’Interface importée, le wallet peut donc afficher correctement le c
 
 ### Interfaces standardisées par l'association LNP/BP
 
-Dans l’écosystème RGB, une **Interface** sert donc à donner un sens lisible et manipulable aux données et opérations d’un contrat. L’Interface est ainsi un complément du **Schema**, qui décrit plutôt la logique métier en interne (types stricts, scripts de validation, etc.). Dans cette section, nous allons découvrir les Interfaces standards développées par l'association LNP/BP pour des types de contrats fréquents (tokens fongibles, NFT...).
+Dans l’écosystème RGB, une Interface sert donc à donner un sens lisible et manipulable aux données et opérations d’un contrat. L’Interface est ainsi un complément du Schema, qui décrit plutôt la logique métier en interne (types stricts, scripts de validation, etc.). Dans cette section, nous allons découvrir les Interfaces standards développées par l'association LNP/BP pour des types de contrats fréquents (tokens fongibles, NFT...).
 
-Pour rappel, l’idée est que chaque **Interface** décrit la façon d’afficher et de manipuler un contrat du côté du wallet, en nommant clairement les champs (comme `spec`, `ticker`, `issuedSupply`...) et en définissant les opérations possibles (comme `Transfer`, `Burn`, `Rename`...). Plusieurs Interfaces sont déjà opérationnelles, mais il y en aura de plus en plus à l'avenir.
+Pour rappel, l’idée est que chaque Interface décrit la façon d’afficher et de manipuler un contrat du côté du wallet, en nommant clairement les champs (comme `spec`, `ticker`, `issuedSupply`...) et en définissant les opérations possibles (comme `Transfer`, `Burn`, `Rename`...). Plusieurs Interfaces sont déjà opérationnelles, mais il y en aura de plus en plus à l'avenir.
 
-#### Des interface prêtes à l'emploi
+#### Quelques interface prêtes à l'emploi
 
 **RGB20** est l’Interface destinée aux actifs fongibles, que l’on peut comparer au standard ERC20 d’Ethereum. Elle va cependant plus loin en offrant des fonctionnalités plus étendues :
 - Par exemple, la possibilité de renommer l’actif (changement de *ticker* ou de nom complet) après son émission, ou bien d’ajuster sa précision (*stock splits*) ;
 - Elle peut aussi décrire des mécanismes de réémission secondaire (limitée ou illimitée) et de burn puis de remplacement, afin d'autoriser l’issuer à détruire puis recréer des actifs sous certaines conditions ;
-- À titre d’exemple, on peut lier l’Interface RGB20 au **Schema Non-Inflatable Asset (NIA)**, qui impose une supply initiale non inflationniste, ou à d’autres schémas plus évolués selon les besoins.
+
+À titre d’exemple, on peut lier l’Interface RGB20 au **Schema Non-Inflatable Asset (NIA)**, qui impose une supply initiale non inflationniste, ou à d’autres schémas plus évolués selon les besoins.
 
 **RGB21** concerne les contrats de type NFT ou plus largement, tout contenu numérique unique, comme la représentation de médias numériques (images, musiques, etc.). En plus de décrire l’émission et le transfert d’un actif unique, elle inclut des fonctionnalités comme :
 - Le support intégré pour l’inclusion directe d’un fichier (jusqu’à 16 Mo) dans le contrat (pour le récupérer côté client) ;
@@ -2039,15 +2041,15 @@ Pour rappel, l’idée est que chaque **Interface** décrit la façon d’affich
 D’autres Interfaces sont envisagées pour des usages plus spécialisés, mais ne sont pas encore disponibles à l’heure actuelle :
 - **RGB22**, orientée identités numériques, pour gérer des identifiants ou des profils on-chain dans l’écosystème RGB ;
 - **RGB23**, pour des horodatages avancés, reprenant certaines idées d’*Opentimestamps*, mais avec des fonctionnalités de traçabilité ;
-- **RGB24**, qui vise l’équivalent d’un système de noms de domaines décentralisés (DNS) similaire à l’*Ethereum Name Service* (ENS) ;
-- **RGB26**, destinée à la gestion de **DAOs** (*Decentralized Autonomous Organization*) dans un format plus complexe (gouvernance, votes, etc.) ;
-- **RGB30**, très similaire à RGB20 mais avec la particularité de prendre en compte une **émission initiale décentralisée** et d’utiliser des **State Extensions**. Cela servirait à des actifs dont la réémission est gérée par plusieurs entités, ou soumise à des conditions plus fines.
+- **RGB24**, qui vise l’équivalent d’un système de noms de domaines décentralisés (DNS) similaire à l’*Ethereum Name Service* ;
+- **RGB26**, destinée à la gestion de DAOs (*Decentralized Autonomous Organization*) dans un format plus complexe (gouvernance, votes, etc.) ;
+- **RGB30**, très similaire à RGB20 mais avec la particularité de prendre en compte une émission initiale décentralisée et d’utiliser des State Extensions. Cela servirait à des actifs dont la réémission est gérée par plusieurs entités, ou soumise à des conditions plus fines.
 
 Évidemment, selon la date à laquelle vous consultez cette formation, il est possible que ces interfaces soient déjà opérationnelles et accessibles.
 
 #### Exemple d'Interface
 
-Dans cet extrait de code Rust, on peut voir une **Interface** [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (actif fongible). Ce code est tiré du fichier `rgb20.rs` dans la bibliothèque standard RGB. Nous allons l’examiner pour comprendre la structure d’une Interface et la façon dont elle fournit un pont entre, d’un côté, la logique métier (définie dans le Schema) et de l’autre, les fonctionnalités exposées aux wallets et aux utilisateurs.
+Dans cet extrait de code Rust, on peut voir une Interface [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (actif fongible). Ce code est tiré du fichier `rgb20.rs` dans la bibliothèque standard RGB. Nous allons l’examiner pour comprendre la structure d’une Interface et la façon dont elle fournit un pont entre, d’un côté, la logique métier (définie dans le Schema) et de l’autre, les fonctionnalités exposées aux wallets et aux utilisateurs.
 
 ```rust
 // ...
@@ -2215,7 +2217,7 @@ fn rgb20() -> Iface {
 }
 ```
 
-Dans cette interface, on remarque des similarités avec la structure du **Schema** : on retrouve une déclaration de **Global State**, de **Owned States**, de **Contract Operations** (Genesis et Transitions), ainsi que de la gestion d’erreurs. Mais l’Interface se concentre sur la présentation et la manipulation de ces éléments pour un wallet ou toute autre application.
+Dans cette interface, on remarque des similarités avec la structure du Schema : on retrouve une déclaration de Global State, de Owned States, de Contract Operations (Genesis et Transitions), ainsi que de la gestion d’erreurs. Mais l’Interface se concentre sur la présentation et la manipulation de ces éléments pour un wallet ou toute autre application.
 
 La différence avec le Schema réside dans la nature des types. Dans le Schema, on utilise des types stricts (comme `FungibleType::Unsigned64Bit`) et des identifiants plus techniques. Dans l’Interface, on utilise plutôt des noms de champs, des macros (`fname!()`, `tn!()`), et des références à des classes d’arguments (`ArgSpec`, `OwnedIface::Rights`...). Il s’agit ici de faciliter la compréhension fonctionnelle et l’organisation des éléments pour le wallet.
 
@@ -2266,7 +2268,7 @@ Pour résumer, il faut garder à l’esprit qu’une Interface, aussi complète 
 
 Grâce à la modularité de RGB, on peut ainsi faire évoluer l’Interface (par exemple, ajouter une transition `Rename`, corriger l’affichage d’un champ...) sans devoir réécrire tout le contrat. Les utilisateurs de cette Interface peuvent alors bénéficier immédiatement de ces améliorations, dès qu’ils mettent à jour le fichier `.rgb` ou `.rgba`.
 
-Mais après avoir déclaré une Interface, il faut la relier au Schema correspondant. Cette correspondance s’effectue via l’***Interface Implementation***, qui indique comment mapper chaque champ nommé (comme par exemple `fname!("assetOwner")`) à l’ID strict (comme par exemple `OS_ASSET`) défini dans le Schema. Cela permet de s’assurer que, lorsqu’un wallet manipule un champ `burnRight`, il s’agit bien de l’état qui, dans le Schema, décrit la capacité de brûler des tokens.
+Mais après avoir déclaré une Interface, il faut la relier au Schema correspondant. Cette correspondance s’effectue via l’***Interface Implementation***, qui indique comment mapper chaque champ nommé (comme par exemple `fname!("assetOwner")`) à l’ID strict (comme par exemple `OS_ASSET`) défini dans le Schema. Cela permet par exemple de s’assurer que, lorsqu’un wallet manipule un champ `burnRight`, il s’agit bien de l’état qui, dans le Schema, décrit la capacité de brûler des tokens.
 
 ### Interface Implementation
 
@@ -2306,7 +2308,7 @@ fn nia_rgb20() -> IfaceImpl {
 
 Dans cette Interface Implementation :
 - On référence explicitement le Schema, via `nia_schema()`, et l’Interface, via `Rgb20::iface()`. Les appels `schema.schema_id()` et `iface.iface_id()` servent à ancrer l’Interface Implementation du côté de la compilation (cela associe les identifiants cryptographiques de ces deux composants) ;
-- On établit un **mappage** entre les éléments du Schema et ceux de l’Interface. Par exemple, le champ `GS_NOMINAL` dans le Schema est lié à la chaîne `"spec"` côté Interface (`NamedField::with(GS_NOMINAL, fname!("spec"))`). On fait de même pour les opérations, comme `TS_TRANSFER`, qu’on rattache à `"Transfer"` dans l’Interface... ;
+- On établit un mappage entre les éléments du Schema et ceux de l’Interface. Par exemple, le champ `GS_NOMINAL` dans le Schema est lié à la chaîne `"spec"` côté Interface (`NamedField::with(GS_NOMINAL, fname!("spec"))`). On fait de même pour les opérations, comme `TS_TRANSFER`, qu’on rattache à `"Transfer"` dans l’Interface... ;
 - On peut observer qu’il n’y a pas de valencies (`valencies: none!()`) ni d’extensions (`extensions: none!()`), ce qui reflète le fait que ce contrat NIA n’utilise pas ces fonctionnalités.
 
 Le résultat après compilation est un fichier `.rgb` ou `.rgba` séparé, destiné à être importé dans le wallet en complément du Schema et de l’Interface. Ainsi, le logiciel sait comment connecter concrètement ce contrat NIA (dont la logique est décrite par son Schema) à l’Interface "RGB20" (qui fournit des noms humains et un mode d’interaction pour des jetons fongibles), en appliquant cette Interface Implementation comme passerelle entre les deux.
@@ -2333,7 +2335,7 @@ Dans le chapitre suivant, nous allons étudier comment fonctionne le transfert d
 ![video](https://youtu.be/sVoKIi-1XbY)
 
 
-Dans ce chapitre, nous allons analyser le déroulement d'un **transfert de contrat** dans l’écosystème RGB. Pour l’illustrer, nous retrouvons Alice et Bob, nos protagonistes habituels, qui désirent échanger un actif RGB. Nous allons également montrer des extraits de commandes issus de l’outil en ligne de commande `rgb`, afin de voir comment cela fonctionne en pratique.
+Dans ce chapitre, nous allons analyser le déroulement d'un transfert de contrat dans l’écosystème RGB. Pour l’illustrer, nous retrouvons Alice et Bob, nos protagonistes habituels, qui désirent échanger un actif RGB. Nous allons également montrer des extraits de commandes issus de l’outil en ligne de commande `rgb`, afin de voir comment cela fonctionne en pratique.
 
 ### Comprendre le transfert de contrat RGB
 

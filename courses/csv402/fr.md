@@ -1458,38 +1458,38 @@ En cas de besoin dans la formation, vous pouvez revenir sur ce petit glossaire d
 
 #### AluVM
 
-L’abréviation **AluVM** désigne "_Algorithmic logic unit Virtual Machine_", une machine virtuelle à registres, conçue pour la validation de smart contracts et le calcul distribué. Elle est utilisée (sans y être exclusivement réservée) dans le cadre de la validation des contrats RGB. Les scripts ou les opérations inscrites dans un contrat RGB peuvent ainsi être exécutés dans l’environnement AluVM.  
+L’abréviation AluVM désigne "_Algorithmic logic unit Virtual Machine_", une machine virtuelle à registres, conçue pour la validation de smart contracts et le calcul distribué. Elle est utilisée (sans y être exclusivement réservée) dans le cadre de la validation des contrats RGB. Les scripts ou les opérations inscrites dans un contrat RGB peuvent ainsi être exécutés dans l’environnement AluVM.  
 Pour plus d’informations : [Site officiel d’AluVM](https://www.aluvm.org/)
 
 #### Anchor
 
-Un **Anchor** représente un ensemble de données côté client permettant de prouver l’inclusion d’un _commitment_ unique dans une transaction. Dans le protocole RGB, un Anchor est constitué des éléments suivants :
-- L’identifiant de la transaction Bitcoin (le **Transaction ID** ou _txid_) de la **witness transaction** ;
+Un Anchor représente un ensemble de données côté client permettant de prouver l’inclusion d’un _commitment_ unique dans une transaction. Dans le protocole RGB, un Anchor est constitué des éléments suivants :
+- L’identifiant de la transaction Bitcoin (TXID) de la **witness transaction** ;
 - Le **Multi Protocol Commitment (MPC)** ;
 - Le **Deterministic Bitcoin Commitment (DBC)** ;
-- L’**Extra Transaction Proof (ETP)** si l’on emploie le mécanisme de commitment **Tapret** (voir la section dédiée à ce schéma).
+- L’**Extra Transaction Proof (ETP)** si l’on emploie le mécanisme de commitment **Tapret** (voir la section dédiée à ce modèle).
 
 Un Anchor sert donc à établir un lien vérifiable entre une transaction Bitcoin précise et des données privées validées par le protocole RGB. Il garantit que ces données sont bel et bien incluses dans la blockchain, sans pour autant que leur contenu exact soit exposé publiquement.
 
 #### Assignment
 
-Dans la logique de RGB, un **Assignment** est l’équivalent d’une sortie de transaction (output) qui modifie, met à jour ou crée certaines propriétés au sein de l’état d’un **contract**. Un Assignment comporte deux éléments :
+Dans la logique de RGB, un Assignment est l’équivalent d’une sortie de transaction (output) qui modifie, met à jour ou crée certaines propriétés au sein de l’état d’un contract. Un Assignment comporte deux éléments :
 - Une **Seal Definition** (la référence à un UTXO précis) ;
 - Un **Owned State** (les données décrivant l’état associé à ce nouveau détenteur).
 
-Un Assignment indique donc qu’une portion de l’état (ex. un actif) est désormais allouée à un détenteur particulier, identifié via un _seal_ lié à un UTXO.
+Un Assignment indique donc qu’une portion de l’état (par exemple, un actif) est désormais allouée à un détenteur particulier, identifié via un Single-use Seal lié à un UTXO.
 
 #### Business Logic
 
-La **Business Logic** regroupe l’ensemble des règles et des opérations internes d’un contrat, décrites par son **schéma** (c’est-à-dire la structure même du contrat). Elle dicte la manière dont l’état du contrat peut évoluer et sous quelles conditions.
+La Business Logic regroupe l’ensemble des règles et des opérations internes d’un contrat, décrites par son **schéma** (c’est-à-dire la structure même du contrat). Elle dicte la manière dont l’état du contrat peut évoluer et sous quelles conditions.
 
 #### Client-side Validation
 
-La Client-side Validation renvoie au processus par lequel chaque partie (client) vérifie un ensemble de données échangées en privé, selon les règles d’un protocole. Dans le cas de RGB, ces données échangées sont regroupées dans ce qu’on appelle des **consignments**. Contrairement au protocole Bitcoin qui exige que toutes les transactions soient publiées on-chain, RGB permet de ne stocker en public que des _commitments_ (ancrés dans Bitcoin), tandis que l’essentiel des informations de contrat (transitions, attestations, preuves) reste off-chain, partagées seulement entre les utilisateurs concernés.
+La Client-side Validation renvoie au processus par lequel chaque partie (client) vérifie un ensemble de données échangées en privé, selon les règles d’un protocole. Dans le cas de RGB, ces données échangées sont regroupées dans ce qu’on appelle des **consignments**. Contrairement au protocole Bitcoin qui exige que toutes les transactions soient publiées on-chain, RGB permet de ne stocker en public que des _commitments_ (ancrés dans Bitcoin), tandis que l’essentiel des informations de contrat (transitions, attestations, preuves) reste off-chain, partagé seulement entre les utilisateurs concernés.
 
 #### Commitment
 
-Un **Commitment** (au sens cryptographique) est un objet mathématique, noté `C`, dérivé de façon déterministe à partir d’une opération sur une donnée structurée `m` (le message) et d’une valeur aléatoire `r`. On écrit souvent :
+Un Commitment (au sens cryptographique) est un objet mathématique, noté `C`, dérivé de façon déterministe à partir d’une opération sur une donnée structurée `m` (le message) et d’une valeur aléatoire `r`. On écrit :
 $$
 C = \text{commit}(m, r)
 $$

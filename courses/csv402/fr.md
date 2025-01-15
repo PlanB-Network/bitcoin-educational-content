@@ -10,7 +10,7 @@ objectives:
 
 # À la découverte du protocole RGB
 
-Plongez dans l’univers de RGB, un protocole conçu pour appliquer et faire respecter des droits numériques, sous forme de contrats et d’actifs, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. Cette formation complète vous guide à travers les fondations techniques et pratiques de RGB, depuis les concepts de la "Client-side Validation" et des "*Single-use Seals*", jusqu'à l'implémentation de contrats intelligents avancés.
+Plongez dans l’univers de RGB, un protocole conçu pour appliquer et faire respecter des droits numériques, sous forme de contrats et d’actifs, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. Cette formation complète vous guide à travers les fondations techniques et pratiques de RGB, depuis les concepts de la "Client-side Validation" et des "Single-use Seals", jusqu'à l'implémentation de contrats intelligents avancés.
 
 À travers un programme structuré et progressif, vous découvrirez les mécanismes de la validation côté client, les engagements déterministes sur Bitcoin et les schémas d’interaction entre les utilisateurs. Apprenez à créer, gérer et transférer des tokens RGB sur Bitcoin ou bien sur le Lightning Network.
 
@@ -74,7 +74,7 @@ La version écrite de cette formation a été rédigée en s'appuyant sur 2 ress
 ![video](https://youtu.be/AF2XbifPGXM)
 
 
-RGB est un protocole conçu pour appliquer et faire respecter des droits numériques (sous forme de contrats et d’actifs) de manière évolutive et confidentielle, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. L’objectif de ce premier chapitre est de présenter les concepts et la terminologie de base autour du protocole RGB, en soulignant notamment ses liens étroits avec des concepts de base de l’informatique distribuée tels que la Client-side Validation et les _Single-use Seals_.
+RGB est un protocole conçu pour appliquer et faire respecter des droits numériques (sous forme de contrats et d’actifs) de manière évolutive et confidentielle, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. L’objectif de ce premier chapitre est de présenter les concepts et la terminologie de base autour du protocole RGB, en soulignant notamment ses liens étroits avec des concepts de base de l’informatique distribuée tels que la Client-side Validation et les Single-use Seals.
 
 Dans ce chapitre, nous explorons les fondements des **systèmes de consensus distribué** et nous verrons comment RGB s’intègre dans cette famille de technologies. Nous introduirons également les grands principes qui permettent de comprendre pourquoi RGB se veut, d’une part, extensible, et d’autre part, indépendant du mécanisme de consensus propre à Bitcoin, tout en s’appuyant sur lui lorsqu’il le faut.
 
@@ -250,7 +250,7 @@ Comme nous l'avons vu précédemment, la révélation par l'envoyeur de l'histor
 
 Pour prévenir la double dépense des jetons RGB, nous utilisons un mécanisme appelé "*Single-use Seal*". Ce système assure que chaque jeton, une fois utilisé, ne peut être réutilisé frauduleusement.
 
-Les **Single-use Seals** sont des primitives cryptographiques, proposées en 2016 par Peter Todd, qui s’apparentent au concept de scellés physiques : une fois qu’on a placé un sceau sur un conteneur, il devient impossible de l’ouvrir ou de le modifier sans briser le sceau de manière irréversible.
+Les Single-use Seals sont des primitives cryptographiques, proposées en 2016 par Peter Todd, qui s’apparentent au concept de scellés physiques : une fois qu’on a placé un sceau sur un conteneur, il devient impossible de l’ouvrir ou de le modifier sans briser le sceau de manière irréversible.
 
 ![RGB-Bitcoin](assets/fr/018.webp)
 
@@ -274,7 +274,7 @@ La comparaison suivante aide à comprendre :
 - **Horodatage (blockchain)** : En insérant ce hash dans la blockchain, on prouve aussi qu'on le connaissait à un instant précis (celui de l'inclusion dans un bloc).
 - **Single-use seal** : Avec les sceaux à usage unique, on va plus loin en rendant l'engagement unique. Avec un simple hash, on peut créer plusieurs engagements contradictoires en parallèle (le problème du docteur qui annonce "*C'est un garçon*" à la famille et "*C'est une fille*" dans son journal personnel). Le single-use seal élimine cette possibilité en connectant l'engagement à un support de preuve de publication, comme la blockchain Bitcoin, de sorte qu'une dépense d'UTXO scelle définitivement l'engagement. Une fois dépensé, on ne peut plus redépenser le même UTXO pour remplacer l'engagement.
 
-|                                                                                  | Engagement simple (digest/hash) | Timestamps | Single-use seals |
+|                                                                                  | Engagement simple (digest/hash) | Timestamps | Single-use Seals |
 | -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
 | La publication de l'engagement ne révèle pas le message                          | Oui                             | Oui        | Oui              |
 | Preuve de la date de l'engagement / existence du message avant une certaine date | Impossible                      | Possible   | Possible         |
@@ -315,7 +315,7 @@ bool <- Verify(seal, witness, message)
 ```
 
 
-Dans le cadre de la Client-side Validation, il faut toutefois aller plus loin : si la définition d’un sceau reste elle-même hors de la blockchain, il est possible (en théorie) que quelqu’un conteste l’existence ou la légitimité du sceau en question. Pour pallier ce problème, on recourt à une **chaîne de Single-use Seals**, imbriqués les uns dans les autres :
+Dans le cadre de la Client-side Validation, il faut toutefois aller plus loin : si la définition d’un sceau reste elle-même hors de la blockchain, il est possible (en théorie) que quelqu’un conteste l’existence ou la légitimité du sceau en question. Pour pallier ce problème, on recourt à une chaîne de Single-use Seals, imbriqués les uns dans les autres :
 - Chaque sceau fermé renferme la définition du sceau suivant ;
 - On inscrit ces fermetures (avec leurs _commitments_) au sein de la **blockchain** (par exemple, dans une transaction Bitcoin) ;
 - Ainsi, toute tentative de modifier un sceau antérieur se retrouverait en contradiction avec l’historique ancré sur Bitcoin.
@@ -336,7 +336,7 @@ Cette unicité est importante pour la Client-side Validation : quand vous valide
 
 ### Engagements multiples et ancrages
 
-Un smart contract RGB peut avoir besoin de dépenser simultanément plusieurs single use seals (plusieurs UTXOs). De plus, une seule transaction Bitcoin peut référencer plusieurs contrats distincts, chacun venant sceller sa propre transition d'état. Cela nécessite un mécanisme de **multi-commitments** permettant de prouver, de manière déterministe et unique, qu'aucun des engagements n'existe en double. C'est ici qu'intervient la notion d'**anchor** dans RGB : une structure spéciale reliant une transaction Bitcoin et un ou plusieurs engagements _client-side_ (transitions d'état), chacun relevant potentiellement d'un contrat différent. Nous allons justement détailler ce concept dans le chapitre suivant.
+Un smart contract RGB peut avoir besoin de dépenser simultanément plusieurs Single-use Seals (plusieurs UTXOs). De plus, une seule transaction Bitcoin peut référencer plusieurs contrats distincts, chacun venant sceller sa propre transition d'état. Cela nécessite un mécanisme de **multi-commitments** permettant de prouver, de manière déterministe et unique, qu'aucun des engagements n'existe en double. C'est ici qu'intervient la notion d'**anchor** dans RGB : une structure spéciale reliant une transaction Bitcoin et un ou plusieurs engagements _client-side_ (transitions d'état), chacun relevant potentiellement d'un contrat différent. Nous allons justement détailler ce concept dans le chapitre suivant.
 
 ![RGB-Bitcoin](assets/fr/023.webp)
 
@@ -352,7 +352,7 @@ Ces briques sont agnostiques par rapport à Bitcoin ; on pourrait, en théorie, 
 
 ### Questions du public
 
-#### Vers un usage plus large des single use seals
+#### Vers un usage plus large des Single-use Seals
 
 Peter Todd a également créé le protocole _Open Timestamps_, et le concept de single use seal est un prolongement naturel de ces idées. Au-delà de RGB, on peut envisager d'autres cas d'utilisation, par exemple la construction de _sidechains_ sans recourir au _merge mining_ ni aux propositions liées aux drivechains comme le BIP300. Tout système nécessitant un engagement unique peut, en principe, exploiter cette primitive cryptographique. Aujourd'hui, RGB est la première grande mise en application concrète et complète.
 
@@ -379,7 +379,7 @@ Avant de plonger dans les détails plus techniques du deuxième chapitre, n'hés
 ![video](https://youtu.be/FS6PDprWl5Q)
 
 
-Dans ce chapitre, nous explorons la mise en application de la Client-side Validation et des **Single-use Seals** au sein de la blockchain Bitcoin. Nous présentons ainsi les principes majeurs de la **couche de commitment** (layer 1) d’RGB, en nous intéressant plus particulièrement au schémas **TxO2**, retenu par RGB pour définir et fermer un sceau dans le cadre d’une transaction Bitcoin. Ensuite, nous parlerons de deux points importants qui n’ont pas encore été traités en détail :
+Dans ce chapitre, nous explorons la mise en application de la Client-side Validation et des Single-use Seals au sein de la blockchain Bitcoin. Nous présentons ainsi les principes majeurs de la **couche de commitment** (layer 1) d’RGB, en nous intéressant plus particulièrement au schémas **TxO2**, retenu par RGB pour définir et fermer un sceau dans le cadre d’une transaction Bitcoin. Ensuite, nous parlerons de deux points importants qui n’ont pas encore été traités en détail :
 - Les _deterministic Bitcoin commitments_
 - Les _multi-protocol commitments_
 
@@ -389,7 +389,7 @@ Il convient de rappeler que les opérations cryptographiques décrites peuvent s
 
 ### Les schémas de commitment dans Bitcoin et leur utilisation par RGB
 
-Comme vu dans le premier chapitre de la formation, les _single-use seals_ sont un concept général : on fait une promesse d’inclure un engagement (un _commitment_) dans un emplacement précis d’une transaction, cet emplacement agit comme un scellé que l’on ferme sur un message. Toutefois, sur la blockchain Bitcoin, plusieurs options existent pour choisir où placer ce _commitment_.
+Comme vu dans le premier chapitre de la formation, les Single-use Seals sont un concept général : on fait une promesse d’inclure un engagement (un _commitment_) dans un emplacement précis d’une transaction, cet emplacement agit comme un scellé que l’on ferme sur un message. Toutefois, sur la blockchain Bitcoin, plusieurs options existent pour choisir où placer ce _commitment_.
 
 Pour comprendre la logique, rappelons le principe de base : pour fermer un _single-use seal_, on dépense l’endroit scellé en y insérant le _commitment_ sur un message donné. Dans Bitcoin, cela peut se faire de différentes manières :
 
@@ -846,7 +846,7 @@ Chacun de ces champs intervient dans la procédure de validation, qu’il s’ag
 
 Le champ `Txid` correspond à l’identifiant de 32 octets de la transaction Bitcoin qui contient l’engagement `Opret` ou `Tapret`.  
 
-En théorie, il serait envisageable de retrouver ce `Txid` en retraçant la chaîne de transitions d'états qui pointent elles-mêmes vers chaque witness transaction, en suivant la logique des single-use seals. Cependant, pour faciliter et accélérer la vérification, ce `Txid` est tout simplement inclus dans l’Anchor, ce qui évite ainsi au validateur d’avoir à remonter tout l’historique off-chain.
+En théorie, il serait envisageable de retrouver ce `Txid` en retraçant la chaîne de transitions d'états qui pointent elles-mêmes vers chaque witness transaction, en suivant la logique des Single-use Seals. Cependant, pour faciliter et accélérer la vérification, ce `Txid` est tout simplement inclus dans l’Anchor, ce qui évite ainsi au validateur d’avoir à remonter tout l’historique off-chain.
 
 #### MPC Proof
 
@@ -883,7 +883,7 @@ Les **Anchors** encapsulent donc l’ensemble des informations nécessaires pour
 ### Conclusion
 
 Nous ce chapitre, nous avons couvert :
-- Comment appliquer le concept de _single-use seals_ dans Bitcoin (en particulier via un _outpoint_) ;
+- Comment appliquer le concept de Single-use Seals dans Bitcoin (en particulier via un _outpoint_) ;
 - Les différentes méthodes pour insérer de façon déterministe un _commitment_ dans une transaction (Sig tweak, Key tweak, witness tweak, op_return, Taproot/Tapret) ;
 - Les raisons pour lesquelles RGB se concentre sur les engagements Taproot ;
 - La gestion multi-contrat via des _multi-protocol commitments_, indispensable pour ne pas exposer l’intégralité d’un état ou d’autres contrats lorsqu’on veut prouver un point précis ;
@@ -901,7 +901,7 @@ Dans le chapitre suivant, nous plongerons dans la composante purement off-chain 
 
 ![video](https://youtu.be/tmAVdyXGmj4)
 
-Dans ce chapitre et le prochain, nous abordons la notion de **smart contract** au sein de l’environnement **RGB** et présentons les différentes manières dont ces contrats peuvent définir et faire évoluer leur **état** (_state_). Nous verrons pourquoi l’architecture RGB, en utilisant la séquence ordonnée de _single-use seals_, permet d’exécuter divers types de ***Contract Operations*** de manière scalable et sans passer par un registre centralisé. Nous verrons également le rôle fondamental de la ***Business Logic*** pour encadrer l’évolution de l’état contractuel.
+Dans ce chapitre et le prochain, nous abordons la notion de **smart contract** au sein de l’environnement **RGB** et présentons les différentes manières dont ces contrats peuvent définir et faire évoluer leur **état** (_state_). Nous verrons pourquoi l’architecture RGB, en utilisant la séquence ordonnée de Single-use Seals, permet d’exécuter divers types de ***Contract Operations*** de manière scalable et sans passer par un registre centralisé. Nous verrons également le rôle fondamental de la ***Business Logic*** pour encadrer l’évolution de l’état contractuel.
 
 ### Contrats intelligents et droits au porteur numériques
 
@@ -951,7 +951,7 @@ Dans l’univers RGB, on appelle ***Contract Operation*** tout événement qui f
 
 ![RGB-Bitcoin](assets/fr/057.webp)
 
-Le résultat final est un contrat mis à jour, dont l’État est désormais différent. Cette transition ne nécessite pas que l’ensemble du réseau Bitcoin s’intéresse aux détails, puisque seule une petite empreinte cryptographique (le _commitment_) est enregistrée dans la blockchain. La séquence des *single-use seals* prévient toute double-dépense ou double-utilisation de l’État.
+Le résultat final est un contrat mis à jour, dont l’État est désormais différent. Cette transition ne nécessite pas que l’ensemble du réseau Bitcoin s’intéresse aux détails, puisque seule une petite empreinte cryptographique (le _commitment_) est enregistrée dans la blockchain. La séquence des Single-use Seals prévient toute double-dépense ou double-utilisation de l’État.
 
 ### Chaîne d’opérations : de la Genesis au Terminal State
 
@@ -971,7 +971,7 @@ Les **smart contracts** dans RGB introduisent un modèle d’instruments au port
 - Une **Business Logic** (*Schema*), définissant quelles transitions sont autorisées et comment elles doivent être validées ;
 - Des **Contract Operations**, qui mettent à jour cet État étape par étape, grâce à des engagements ancrés dans des transactions Bitcoin.
 
-Dans le chapitre suivant, nous entrerons plus en détail dans la représentation concrète de ces ***states*** et des ***state transitions*** au niveau off-chain, ainsi que dans la manière dont ils se lient aux UTXOs et aux _single-use seals_ ancrés dans Bitcoin. Ce sera l’occasion de voir comment la mécanique interne de RGB, fondée sur une validation client-side, parvient à maintenir la cohérence des smart contracts tout en préservant la confidentialité des données.
+Dans le chapitre suivant, nous entrerons plus en détail dans la représentation concrète de ces ***states*** et des ***state transitions*** au niveau off-chain, ainsi que dans la manière dont ils se lient aux UTXOs et aux Single-use Seals ancrés dans Bitcoin. Ce sera l’occasion de voir comment la mécanique interne de RGB, fondée sur une validation client-side, parvient à maintenir la cohérence des smart contracts tout en préservant la confidentialité des données.
 
 
 ## Opérations des contrats RGB
@@ -2969,7 +2969,7 @@ Pour terminer et avant de passer à la section suivante, je voudrais vous faire 
 - **Repository** : [client_side_validation](https://github.com/LNP-BP/client_side_validation)
 - **Crates** : [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
 
-Cette partie gère la validation off-chain et la logique des single-use-seals.
+Cette partie gère la validation off-chain et la logique des Single-use Seals.
 
 #### Deterministic Bitcoin Commitments (DBC)
 

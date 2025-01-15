@@ -234,7 +234,7 @@ Un **stash** est l'ensemble de données côté client qu'un participant doit abs
 
 ![RGB-Bitcoin](assets/fr/016.webp)
 
-### Single use seal : origines et fonctionnement
+### Single-use Seal : origines et fonctionnement
 
 Lors de l'acceptation d'un actif comme par exemple une monnaie, deux garanties sont essentielles :
 - L'authenticité de la chose reçue ;
@@ -268,7 +268,7 @@ Contrairement aux simples _commitments_ (hash) ou aux horodatages qui attestent 
 La comparaison suivante aide à comprendre ce principe :
 - **Engagement cryptographique (hash)** : Avec une fonction de hachage, on peut s'engager sur une donnée (un nombre) en publiant son empreinte (hash). La donnée reste secrète tant qu'on ne révèle pas la préimage, mais on peut prouver qu'on la connaissait à l'avance ;
 - **Horodatage (blockchain)** : En insérant ce hash dans la blockchain, on prouve aussi qu'on le connaissait à un instant précis (celui de l'inclusion dans un bloc) ;
-- **Single-use seal** : Avec les sceaux à usage unique, on va plus loin en rendant l'engagement unique. Avec un simple hash, on peut créer plusieurs engagements contradictoires en parallèle (le problème du docteur qui annonce "*C'est un garçon*" à la famille et "*C'est une fille*" dans son journal personnel). Le Single-use Seal élimine cette possibilité en connectant l'engagement à un support de preuve de publication, comme la blockchain Bitcoin, de sorte qu'une dépense d'UTXO scelle définitivement l'engagement. Une fois dépensé, on ne peut plus redépenser le même UTXO pour remplacer l'engagement.
+- **Single-use Seal** : Avec les sceaux à usage unique, on va plus loin en rendant l'engagement unique. Avec un simple hash, on peut créer plusieurs engagements contradictoires en parallèle (le problème du docteur qui annonce "*C'est un garçon*" à la famille et "*C'est une fille*" dans son journal personnel). Le Single-use Seal élimine cette possibilité en connectant l'engagement à un support de preuve de publication, comme la blockchain Bitcoin, de sorte qu'une dépense d'UTXO scelle définitivement l'engagement. Une fois dépensé, on ne peut plus redépenser le même UTXO pour remplacer l'engagement.
 
 |                                                                                  | Engagement simple (digest/hash) | Timestamps | Single-use Seals |
 | -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
@@ -349,7 +349,7 @@ Notons que ces briques logicielles sont agnostiques par rapport à Bitcoin ; on 
 
 #### Vers un usage plus large des Single-use Seals
 
-Peter Todd a également créé le protocole _Open Timestamps_, et le concept de single use seal est un prolongement naturel de ces idées. Au-delà de RGB, on peut envisager d'autres cas d'utilisation, par exemple la construction de _sidechains_ sans recourir au _merge mining_ ni aux propositions liées aux drivechains comme le BIP300. Tout système nécessitant un engagement unique peut, en principe, exploiter cette primitive cryptographique. Aujourd'hui, RGB est la première grande mise en application concrète et complète.
+Peter Todd a également créé le protocole _Open Timestamps_, et le concept de Single-use Seal est un prolongement naturel de ces idées. Au-delà de RGB, on peut envisager d'autres cas d'utilisation, par exemple la construction de _sidechains_ sans recourir au _merge mining_ ni aux propositions liées aux drivechains comme le BIP300. Tout système nécessitant un engagement unique peut, en principe, exploiter cette primitive cryptographique. Aujourd'hui, RGB est la première grande mise en application concrète et complète.
 
 #### Problèmes de disponibilité des données
 
@@ -363,10 +363,9 @@ Chaque contrat représente un _shard_ isolé : USDT et USDC, par exemple, n'ont 
 
 Nous avons vu où se situe le concept de Client-side Validation par rapport à la blockchain et aux _state channels_, en quoi il répond à des trilemmes de l'informatique distribuée, et comment il exploite la blockchain Bitcoin uniquement pour éviter la double dépense et pour l'horodatage (*time-stamping*). L'idée repose sur la notion de **Single-use Seal**, permettant la création d'engagements uniques que vous ne pouvez pas redépenser à volonté. Ainsi, chaque participant ne télécharge que l'historique strictement nécessaire, ce qui accroît la scalabilité et la confidentialité des smart contracts tout en conservant la sécurité de Bitcoin en toile de fond.
 
-La prochaine étape consistera à expliquer plus en détail comment on applique concrètement ce mécanisme de single use seal dans Bitcoin (via les UTXOs), comment on crée et on valide les **anchors**, puis comment on bâtit des _smart contracts_ complets dans RGB. Nous verrons notamment la question des engagements multiples, le défi technique de prouver qu'une transaction Bitcoin scelle simultanément plusieurs transitions d'état dans différents contrats, sans introduire de vulnérabilités ou de doubles engagements.
+La prochaine étape consistera à expliquer plus en détail comment on applique concrètement ce mécanisme de Single-use Seal dans Bitcoin (via les UTXOs), comment on crée et on valide les anchors, puis comment on construit des smart contracts complets dans RGB. Nous verrons notamment la question des engagements multiples, le défi technique de prouver qu'une transaction Bitcoin scelle simultanément plusieurs transitions d'état dans différents contrats, sans introduire de vulnérabilités ou de doubles engagements.
 
-Avant de plonger dans les détails plus techniques du deuxième chapitre, n'hésitez pas à relire les définitions clés (Client-side Validation, single use seal, anchors, etc.) et à garder à l'esprit la logique globale : nous cherchons à concilier les atouts de la blockchain Bitcoin (sécurité, décentralisation, _time-stamping_) avec ceux des solutions hors chaîne (rapidité, confidentialité, scalabilité), et c'est précisément ce que RGB et la Client-side Validation tentent de réaliser.
-
+Avant de plonger dans les détails plus techniques du deuxième chapitre, n'hésitez pas à relire les définitions clés (Client-side Validation, Single-use Seal, anchors, etc.) et à garder à l'esprit la logique globale : nous cherchons à concilier les atouts de la blockchain Bitcoin (sécurité, décentralisation, time-stamping) avec ceux des solutions off-chain (rapidité, confidentialité, scalabilité), et c'est précisément ce que RGB et la Client-side Validation tentent de réaliser.
 
 ## La couche d'engagement
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
@@ -374,17 +373,17 @@ Avant de plonger dans les détails plus techniques du deuxième chapitre, n'hés
 ![video](https://youtu.be/FS6PDprWl5Q)
 
 
-Dans ce chapitre, nous explorons la mise en application de la Client-side Validation et des Single-use Seals au sein de la blockchain Bitcoin. Nous présentons ainsi les principes majeurs de la **couche de commitment** (layer 1) d’RGB, en nous intéressant plus particulièrement au schémas **TxO2**, retenu par RGB pour définir et fermer un sceau dans le cadre d’une transaction Bitcoin. Ensuite, nous parlerons de deux points importants qui n’ont pas encore été traités en détail :
-- Les _deterministic Bitcoin commitments_
-- Les _multi-protocol commitments_
+Dans ce chapitre, nous allons étudier la mise en application de la Client-side Validation et des Single-use Seals au sein de la blockchain Bitcoin. Nous allons présenter les principes majeurs de la **couche d'engagement** (layer 1) de RGB, en nous intéressant plus particulièrement au schémas **TxO2**, retenu par RGB pour définir et fermer un sceau dans le cadre d’une transaction Bitcoin. Ensuite, nous parlerons de deux points importants qui n’ont pas encore été traités en détail :
+- Les _deterministic Bitcoin commitments_ ;
+- Les _multi-protocol commitments_.
 
 C’est la combinaison de ces concepts qui nous permet de superposer plusieurs systèmes ou contrats au-dessus d’un même UTXO et donc d’une même blockchain.
 
-Il convient de rappeler que les opérations cryptographiques décrites peuvent s’appliquer, dans l’absolu, à d’autres blockchains ou médias de publication, mais les caractéristiques de Bitcoin (en matière de décentralisation, de résistance à la censure et d’ouverture à tous) en fait un socle idéal pour développer de la programmabilité avancée comme celle requise par **RGB**.
+Il convient de rappeler que les opérations cryptographiques décrites peuvent s’appliquer, dans l’absolu, à d’autres blockchains ou médias de publication, mais les caractéristiques de Bitcoin (en matière de décentralisation, de résistance à la censure et d’ouverture à tous) en fait le socle idéal pour développer de la programmabilité avancée comme celle requise par **RGB**.
 
-### Les schémas de commitment dans Bitcoin et leur utilisation par RGB
+### Les schémas d'engagement dans Bitcoin et leur utilisation par RGB
 
-Comme vu dans le premier chapitre de la formation, les Single-use Seals sont un concept général : on fait une promesse d’inclure un engagement (un _commitment_) dans un emplacement précis d’une transaction, cet emplacement agit comme un scellé que l’on ferme sur un message. Toutefois, sur la blockchain Bitcoin, plusieurs options existent pour choisir où placer ce _commitment_.
+Comme vu dans le premier chapitre de la formation, les Single-use Seals sont un concept général : on fait une promesse d’inclure un engagement (_commitment_) dans un emplacement précis d’une transaction, cet emplacement agit comme un scellé que l’on ferme sur un message. Toutefois, sur la blockchain Bitcoin, plusieurs options existent pour choisir où placer ce _commitment_.
 
 Pour comprendre la logique, rappelons le principe de base : pour fermer un _single-use seal_, on dépense l’endroit scellé en y insérant le _commitment_ sur un message donné. Dans Bitcoin, cela peut se faire de différentes manières :
 
@@ -1668,9 +1667,9 @@ La **Seal Definition** est la partie d’un **Assignment** qui associe le _commi
 
 Un **Shard** représente une branche dans le DAG de l’historique des **State Transitions** d’un contrat RGB. Autrement dit, c’est un sous-ensemble cohérent de l’historique global du contrat, correspondant par exemple à la séquence de transitions nécessaires pour prouver la validité d’un actif donné depuis la _Genesis_.
 
-#### Single-Use Seal
+#### Single-use Seal
 
-Un **Single-Use Seal** est une promesse de _commit_ (engagement cryptographique) sur un message encore inconnu, qui sera révélé une seule fois à l’avenir et qui doit être connu de tous les membres d’une audience spécifique. L’objectif est d’empêcher la création de multiples engagements concurrents pour le même sceau.
+Un **Single-use Seal** est une promesse de _commit_ (engagement cryptographique) sur un message encore inconnu, qui sera révélé une seule fois à l’avenir et qui doit être connu de tous les membres d’une audience spécifique. L’objectif est d’empêcher la création de multiples engagements concurrents pour le même sceau.
 
 #### Stash
 
@@ -2424,7 +2423,7 @@ alice$ rgb transfer tx.psbt <invoice> consignment.rgb
 Ce nouveau fichier `consignment.rgb` contient :
 - L’**historique** complet des State Transitions nécessaires pour valider l’actif jusqu’à l’instant présent (depuis la Genesis) ;
 - La **nouvelle** State Transition qui transfère l’actif d’Alice vers Bob, selon l’invoice que Bob a émise ;
-- La transaction Bitcoin (*witness transaction*) incomplète (`tx.psbt`), qui dépense le single-use seal d'Alice, modifiée pour inclure l’engagement cryptographique en faveur de Bob.
+- La transaction Bitcoin (*witness transaction*) incomplète (`tx.psbt`), qui dépense le Single-use Seal d'Alice, modifiée pour inclure l’engagement cryptographique en faveur de Bob.
 
 À ce stade, la transaction n’est pas encore diffusée dans le réseau Bitcoin. Le consignment est plus volumineux qu’un consignment de base car il inclut tout l’historique (*proof chain*) pour prouver la légitimité de l’actif.
 
@@ -2555,7 +2554,7 @@ Analysons cette URL :
 - **`rgb:`** (préfixe) : indique qu’il s’agit d’un lien invoquant le protocole RGB (analogue à `http:` ou `bitcoin:` dans d’autres contextes) ;
 - **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`** : représente le `ContractId` du jeton que l’on veut manipuler ;
 - **`/RGB20/100`** : indique qu’on utilise l’interface `RGB20` et qu’on demande 100 unités de l’actif. La syntaxe est onc : `/Interface/amount` ;
-- **`+utxob:`** : spécifie qu’on ajoute l’information sur l’UTXO destinataire (ou plus exactement la définition du single-use seal) ;
+- **`+utxob:`** : spécifie qu’on ajoute l’information sur l’UTXO destinataire (ou plus exactement la définition du Single-use Seal) ;
 - **`egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`** : c’est le *blinded* UTXO (ou seal definition). Autrement dit, Bob a masqué son UTXO exact, donc l’expéditeur (Alice) ne sait pas quelle est l’adresse exacte. Elle sait seulement qu’il y a un sceau valide se référant à un UTXO contrôlé par Bob.
 
 Le fait que tout tienne dans une seule URL facilite la vie de l’utilisateur : un simple clic ou une capture dans le wallet, et l’opération est prête à être exécutée.
@@ -2721,7 +2720,7 @@ L'autre manière est donc d'éditer manuellement un fichier YAML pour personnali
 - `spec` : ticker, nom, precision ;
 - `terms` : un champ de mentions légales ;
 - `issuedSupply` : le montant de token émis ;
-- `assignments` : indique le single-use seal (*seal definition*) et la quantité débloquée.
+- `assignments` : indique le Single-use Seal (*seal definition*) et la quantité débloquée.
 
 Voici un exemple de fichier YAML à créer :
 
@@ -2843,7 +2842,7 @@ Avec :
 - `$INTERFACE` : l’interface à utiliser (par exemple `RGB20`) ;
 - `$ACTION` : le nom de l’opération prévue dans l’interface (pour un simple transfert de token fongible, cela peut être "Transfer"). Si l'interface prévoit déjà une action par défaut, vous n'avez pas besoin de la renseigner de nouveau ici ;
 - `$STATE` : la donnée d’état à transférer (par exemple un montant de tokens si on fait un transfert de token fongible) ;
-- `$SEAL` : le single-use-seal du bénéficiaire (Alice), c'est-à-dire une référence explicite à un UTXO. Bob utilisera cette info pour construire la witness transaction, et l’output correspondant appartiendra ensuite à Alice (sous forme *blinded UTXO* ou en clair).
+- `$SEAL` : le Single-use Seal du bénéficiaire (Alice), c'est-à-dire une référence explicite à un UTXO. Bob utilisera cette info pour construire la witness transaction, et l’output correspondant appartiendra ensuite à Alice (sous forme *blinded UTXO* ou en clair).
 
 Par exemple, avec la commande suivante :
 
@@ -2875,7 +2874,7 @@ bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
 
 - Cela génère un fichier `consignment.rgb`  qui contient :
 	- L’historique des transitions prouvant à Alice que les tokens sont authentiques,
-	- La nouvelle transition qui transfère les tokens vers le single-use-seal d’Alice,
+	- La nouvelle transition qui transfère les tokens vers le Single-use Seal d’Alice,
 	- Une witness transaction (non signée).
 
 - Bob envoie ce fichier `consignment.rgb` à Alice (par e-mail, un serveur de partage ou un protocole RGB-RPC, Storm, etc.) ;
@@ -3070,7 +3069,7 @@ RGB se distingue aujourd’hui par sa solidité conceptuelle et ses spécificati
 
 ### La fonction de tokens (RGB20) et d’actifs uniques (RGB21)
 
-Avec **RGB20**, on définit un jeton fongible sur Bitcoin. L’émetteur choisit un _supply_, une _precision_, et crée un _contrat_ dans lequel il peut ensuite effectuer des transferts. Chaque transfert fait référence à un UTXO Bitcoin, qui agit comme un *single-use seal*. Cette logique garantit que l’utilisateur ne pourra pas dépenser le même actif deux fois, puisque seule la personne capable de dépenser l’UTXO détient effectivement la clé permettant d’actualiser l’état du contrat côté client.
+Avec **RGB20**, on définit un jeton fongible sur Bitcoin. L’émetteur choisit un _supply_, une _precision_, et crée un _contrat_ dans lequel il peut ensuite effectuer des transferts. Chaque transfert fait référence à un UTXO Bitcoin, qui agit comme un *Single-use Seal*. Cette logique garantit que l’utilisateur ne pourra pas dépenser le même actif deux fois, puisque seule la personne capable de dépenser l’UTXO détient effectivement la clé permettant d’actualiser l’état du contrat côté client.
 
 RGB **21** cible quant à lui les actifs uniques (ou "NFT"). L’actif a une supply de 1, et on peut y associer des métadonnées (fichier image, audio, etc.) décrites via un champ _attachment_. Contrairement aux NFT sur des blockchains publiques, les données et leurs identifiants MIME peuvent rester privées, diffusées de pair à pair selon la volonté du propriétaire.
 
@@ -3219,7 +3218,7 @@ La principale ressource de cette vidéo est le dépôt Github [RGB Lightning Nod
 ### Déploiement d’un nœud Lightning compatible RGB
 
 Le processus reprend et met en pratique toutes les notions abordées dans les chapitres précédents :
-- L’idée que l’**UTXO** bloqué sur un multisig 2/2 d’un canal Lightning peut recevoir non seulement des bitcoins, mais également être un single-use seal d'actif RGB (fongibles ou non) ;
+- L’idée que l’**UTXO** bloqué sur un multisig 2/2 d’un canal Lightning peut recevoir non seulement des bitcoins, mais également être un Single-use Seal d'actif RGB (fongibles ou non) ;
 - L’ajout, dans chaque transaction d'engagement Lightning d’une sortie (`Tapret` ou `Opret`) dédiée à l’ancrage de la transition d’état RGB ;
 - L’infrastructure associée (bitcoind/indexer/proxy) pour valider les transactions Bitcoin et échanger les données *client-side*.
 

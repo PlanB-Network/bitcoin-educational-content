@@ -22,7 +22,7 @@ def create_txt_to_en_from(lang):
         "../../../resources/builders/",
         "../../../resources/bet/",
         "../../../resources/books/",
-        # "../../../resources/glossary/"
+        "../../../resources/glossary/"
     ]
     output_file = f"./translate-to-en/{lang}.txt"
     file_written = False
@@ -48,7 +48,7 @@ def create_txt_from_en_to(lang):
         "../../../resources/builders/",
         "../../../resources/bet/",
         "../../../resources/books/",
-        # "../../../resources/glossary/"
+        "../../../resources/glossary/"
     ]
     output_file = f"./translate-from-en/{lang}.txt"
     file_written = False

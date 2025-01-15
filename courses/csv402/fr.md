@@ -393,26 +393,26 @@ On peut décider qu’une clé publique ou une adresse spécifique est le _singl
 
 - **Utiliser un output de transaction Bitcoin**  
 
-Cela signifie que l’on définit un _single-use seal_ comme un _outpoint_ précis (un couple `TXID + numéro d’output`). Dès que cet _outpoint_ est dépensé, il s’agit de l’acte de fermeture du scellé.
+Cela signifie que l’on définit un _single-use seal_ comme un _outpoint_ précis (un couple TXID + numéro d’output). Dès que cet _outpoint_ est dépensé, il s’agit de l’acte de fermeture du scellé.
 
 En travaillant sur RGB, nous avons identifié au moins 4 manières différentes d’implémenter ces scellés sur Bitcoin :
-- Définir le scellé via une clé publique, et le fermer dans un _output_
-- Définir le scellé via un _outpoint_, et le fermer dans un _output_
-- Définir le scellé via la valeur d'une clé publique, et le fermer dans un _input_
-- Définir le scellé via un _outpoint_, et le fermer dans un _input_
+- Définir le scellé via une clé publique, et le fermer dans un _output_ ;
+- Définir le scellé via un _outpoint_, et le fermer dans un _output_ ;
+- Définir le scellé via la valeur d'une clé publique, et le fermer dans un _input_ ;
+- Définir le scellé via un _outpoint_, et le fermer dans un _input_.
 
 | Nom du schéma | Définition du scellé      | Fermeture du scellé   | Exigences supplémentaires                                         | Application principale       | Schémas d'engagement possibles |
 | ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
 | PkO           | Valeur de la clé publique | Sortie de transaction | P2(W)PKH                                                          | Aucune pour le moment        | Keytweak, taptweak, opret      |
-| TxO2          | Sortie de transaction     | Sortie de transaction | Nécessite des engagements déterministes sur Bitcoin               | RGBv1 (universel)            | Keytweak, taptweak, opret      |
+| TxO2          | Sortie de transaction     | Sortie de transaction | Nécessite des engagements déterministes sur Bitcoin               | RGBv1 (universel)            | Keytweak, tapret, opret        |
 | PkI           | Valeur de la clé publique | Entrée de transaction | Uniquement Taproot & non compatible avec les portefeuilles Legacy | Identités basées sur Bitcoin | Sigtweak, witweak              |
 | TxO1          | Sortie de transaction     | Entrée de transaction | Uniquement Taproot & non compatible avec les portefeuilles Legacy | Aucune pour le moment        | Sigtweak, witweak              |
 
 Nous ne détaillerons pas chacune de ces configurations, car dans RGB, nous avons choisi d’utiliser **un _outpoint_ comme définition du scellé**, et de placer le _commitment_ dans l’output de la transaction dépensant cet _outpoint_. On peut donc introduire les concepts suivants pour la suite :
-- **"Seal definition"** : Un _outpoint_ donné (identifié par `TXID + N° de sortie`).
+- **"Seal definition"** : Un _outpoint_ donné (identifié par TXID + N° de sortie) ;
 - **"Seal closing"** : La transaction qui dépense cet _outpoint_, dans laquelle on ajoute un _commitment_ à un message.
 
-Ce schéma a été sélectionné pour sa compatibilité avec l’architecture RGB, mais d’autres configurations pourraient être utiles pour des usages différents (par exemple pour la gestion d’identités sur Bitcoin).
+Ce schéma a été sélectionné pour sa compatibilité avec l’architecture RGB, mais d’autres configurations pourraient être utiles pour des usages différents.
 
 La mention "O2" dans "TxO2" rappelle que la définition et la fermeture reposent toutes deux sur la dépense (ou la création) d’une sortie de transaction.
 
@@ -422,11 +422,12 @@ Pour rappel, définir un _single-use seal_ ne nécessite pas nécessairement de 
 
 ![RGB-Bitcoin](assets/fr/024.webp)
 
-Le jour où elle veut fermer le scellé (pour signaler un événement, ou pour ancrer un message particulier), elle dépense cet UTXO dans une nouvelle transaction (on appelle souvent cette transaction la _witness transaction_, sans rapport avec _segwit_, c’est juste le terme qu’on lui donne). Cette nouvelle transaction contiendra le _commitment_ au message.
+Le jour où elle veut fermer le scellé (pour signaler un événement, ou pour ancrer un message particulier), elle dépense cet UTXO dans une nouvelle transaction (on appelle souvent cette transaction la "_witness transaction_" (sans rapport avec _segwit_, c’est juste le terme qu’on lui donne). Cette nouvelle transaction contiendra le _commitment_ au message.
 
 ![RGB-Bitcoin](assets/fr/025.webp)
 
-- **Personne d’autre que Bob** (ou les personnes à qui Alice choisit de révéler la preuve complète) ne saura qu’un certain message est caché dans cette transaction.
+Notons que dans cet exemple :
+- Personne d’autre que Bob (ou les personnes à qui Alice choisit de révéler la preuve complète) ne saura qu’un certain message est caché dans cette transaction ;
 - Tout le monde peut constater que l'_outpoint_ a été dépensé, mais seul Bob détient la preuve que le message est bien ancré dans la transaction.
 
 Pour illustrer ce schéma TxO2, on peut utiliser un _single-use seal_ comme mécanisme de révocation d’une clé PGP. Au lieu de publier un certificat de révocation sur des serveurs, Alice peut dire : "Cette sortie Bitcoin, si elle est dépensée, signifie que ma clé PGP est révoquée".
@@ -446,7 +447,7 @@ Pour que Bob ou toute autre personne concernée puisse vérifier le message cach
 ![RGB-Bitcoin](assets/fr/028.webp)
 
 Alice doit donc fournir à Bob :
-- Le message lui-même (par exemple, la nouvelle clé PGP).
+- Le message lui-même (par exemple, la nouvelle clé PGP) ;
 - La preuve cryptographique attestant que ce message a été engagé dans la transaction (ce qu’on appelle l’_extra transaction proof_ ou _anchor_).
 
 ![RGB-Bitcoin](assets/fr/029.webp)
@@ -466,8 +467,7 @@ Pour bien clarifier la structure, récapitulons le cheminement en deux transacti
 Nous appelons donc la seconde transaction la "_witness transaction_". 
 
 Pour illustrer cela sous un autre angle, on peut représenter deux couches :
-
-- **La couche supérieure (blockchain, publique)** : tout le monde voit la transaction et sait qu’il y a un _outpoint_ dépensé.
+- **La couche supérieure (blockchain, publique)** : tout le monde voit la transaction et sait qu’il y a un _outpoint_ dépensé ;
 - **La couche inférieure (client-side, privée)** : seule Alice (ou la personne intéressée) sait que cette dépense correspond à tel message, via la preuve cryptographique et le message qu’elle conserve en local.
 
 ![RGB-Bitcoin](assets/fr/034.webp)
@@ -478,19 +478,19 @@ Nous avons brièvement mentionné, dans la partie précédente, comment le modè
 
 ### Les emplacements du commitment dans une transaction
 
-Lorsque vous transmettez à quelqu’un la preuve qu’un certain message est ancré dans une transaction, vous devez pouvoir garantir qu’il n’existe pas, dans cette même transaction, une autre forme d’engagement (un second message caché) qui ne vous aurait pas été révélé. Pour que la validation _côté client_ reste robuste, il faut donc un mécanisme **déterministe** permettant de placer un unique _commitment_ dans la transaction qui ferme le _single-use seal_.
+Lorsque vous transmettez à quelqu’un la preuve qu’un certain message est ancré dans une transaction, vous devez pouvoir garantir qu’il n’existe pas, dans cette même transaction, une autre forme d’engagement (un second message caché) qui ne vous aurait pas été révélé. Pour que la validation côté client reste robuste, il faut donc un mécanisme **déterministe** permettant de placer un unique _commitment_ dans la transaction qui ferme le _single-use seal_.
 
 La _witness transaction_ dépense le fameux UTXO (ou _seal definition_) et cette dépense correspond à la fermeture du scellé. Au niveau technique, on sait que chaque outpoint ne peut être dépensé qu’une seule fois. C’est justement ce qui sert de base à la résistance à la double dépense sur Bitcoin. Mais la transaction de dépense peut avoir plusieurs _inputs_, plusieurs _outputs_, ou être composée de façon complexe (coinjoins, cannaux Lightning, etc.). Il faut donc définir clairement où insérer le _commitment_ dans cette structure, sans ambiguïté et de manière uniforme.
 
-Quelle que soit la méthode (PkO, TxO2, etc.), le _commitment_ (message à sceller) peut être inséré :
+Quelle que soit la méthode (PkO, TxO2, etc.), le _commitment_ peut être inséré :
 - **Dans un Input** via :
-    - **Sigtweak** (on modifie le composant `r` de la signature ECDSA, ce qui s’apparente au principe de "Sign-to-contract").
+    - **Sigtweak** (on modifie le composant `r` de la signature ECDSA, ce qui s’apparente au principe de "Sign-to-contract") ;
     - **Witweak** (on modifie les données _segregated witness_ de la transaction).
 
 - **Dans un Output** via :
-    - **Keytweak** (on “tweake” la clé publique destinataire avec le message).
-    - **Opret** (on place le message dans une sortie `OP_RETURN`, non dépensable).
-    - **Tapret** (ou _Taptweak_), qui s’appuie sur **taproot** pour insérer l’engagement dans la partie script d’une clé taproot, modifiant ainsi la clé publique de manière déterministe.
+    - **Keytweak** (on "tweake" la clé publique destinataire avec le message) ;
+    - **Opret** (on place le message dans une sortie `OP_RETURN`, non dépensable) ;
+    - **Tapret** (ou _Taptweak_), qui s’appuie sur taproot pour insérer l’engagement dans la partie script d’une clé taproot, ce qui vient modifier la clé publique de manière déterministe.
 
 ![RGB-Bitcoin](assets/fr/035.webp)
 
@@ -500,41 +500,41 @@ Voici le détail de chaque méthode :
 
 ***Sig tweak (sign-to-contract) :***
 
-Un schéma anciennement proposé consistait à exploiter la partie aléatoire d’une signature (ECDSA ou Schnorr) pour y intégrer le _commitment_ : c’est la technique appelée "**sign to contract**". Vous remplacez le nonce généré au hasard par un hash contenant la donnée. Ainsi, la signature révèle implicitement votre engagement, sans espace additionnel dans la transaction. Cette approche présente des avantages :
-- Pas de surcharge on-chain (vous utilisez la même place que le nonce de base).
+Un schéma anciennement proposé consistait à exploiter la partie aléatoire d’une signature (ECDSA ou Schnorr) pour y intégrer le _commitment_ : c’est la technique appelée "**Sign-to-contract**". Vous remplacez le nonce généré au hasard par un hash contenant la donnée. Ainsi, la signature révèle implicitement votre engagement, sans espace additionnel dans la transaction. Cette approche présente des avantages :
+- Pas de surcharge on-chain (vous utilisez la même place que le nonce de base) ;
 - En théorie, cela peut être assez discret, car le nonce est initialement une donnée aléatoire.
 
 Cependant, 2 inconvénients majeurs ont émergé :
-- Les multisig avant Taproot : quand vous avez plusieurs signataires, il faut décider quelle signature porte le _commitment_. Les signatures peuvent être ordonnées différemment, et si un signataire refuse, vous perdez le contrôle sur l’aboutissement du _commitment_.
+- Les multisig avant Taproot : quand vous avez plusieurs signataires, il faut décider quelle signature porte le _commitment_. Les signatures peuvent être ordonnées différemment, et si un signataire refuse, vous perdez le contrôle sur l’aboutissement du _commitment_ ;
 - MuSig et le nonce partagé : avec les multisig Schnorr (*MuSig*), la génération du nonce est un algorithme multipartite, et il devient pratiquement impossible de tweaker le nonce individuellement.
 
-En pratique, **sig tweak** est donc peu compatible avec le matériel (hardware wallets) et les formats existants (Lightning, etc.). Cette belle idée est difficile à mettre en place concrètement.
+En pratique, **sig tweak** est également peu compatible avec le matériel (hardware wallets) et les formats existants (Lightning, etc.). Cette belle idée est donc difficile à mettre en place concrètement.
 
 ***Key tweak (pay-to-contract) :***
 
 Le **key tweak** reprend le concept historique de _pay-to-contract_. On prend la clé publique `X` et on la tweak en lui ajoutant la valeur `H(message)`. Concrètement, si `X = x * G` et `h = H(message)`, alors la nouvelle clé sera `X' = X + h * G`. Cette clé tweakée dissimule l’engagement sur le `message`. Le détenteur de la clé privée d’origine peut, en ajoutant `h` à sa clé privée `x`, prouver qu’il possède la clé permettant de dépenser la sortie. En théorie, c’est élégant, car :
-- Le _commitment_ s’inscrit sans ajouter de champs supplémentaires.
+- Le _commitment_ s’inscrit sans ajouter de champs supplémentaires ;
 - Vous ne stockez pas de données on-chain additionnelles.
 
 Néanmoins, dans la pratique, on se heurte aux difficultés suivantes :
-- Les wallets ne reconnaissent plus la clé publique standard, puisqu’elle a été “tweakée” ; ils ne peuvent donc pas facilement associer l’UTXO à votre clé habituelle.
-- Les hardware wallets ne sont pas conçus pour signer avec une clé qui n’est pas issue de leur dérivation standard.
+- Les wallets ne reconnaissent plus la clé publique standard, puisqu’elle a été “tweakée” ; ils ne peuvent donc pas facilement associer l’UTXO à votre clé habituelle ;
+- Les hardware wallets ne sont pas conçus pour signer avec une clé qui n’est pas issue de leur dérivation standard ;
 - Vous devez adapter vos scripts, descriptors, etc.
 
 Dans le cadre de RGB, cette piste a été envisagée jusqu’en 2021, mais il s’est avéré trop compliqué de la faire fonctionner avec les standards et l’infrastructure actuelle.
 
 ***Witness tweak :***
 
-Une autre idée, que certains protocoles comme les _inscriptions Ordinals_ ont concrétisée, est de placer les données directement dans la section `witness` de la transaction (d’où l’expression **"witness tweak"**). Cependant, cette méthode :
-- Rend l’engagement immédiatement visible (vous collez littéralement des données brutes dans le witness).
-- Peut être sujette à la censure (des mineurs ou nœuds peuvent refuser de relayer si c’est trop volumineux ou arbitraire).
+Une autre idée, que certains protocoles comme les _inscriptions Ordinals_ ont concrétisée, est de placer les données directement dans la section `witness` de la transaction (d’où l’expression "witness tweak"). Cependant, cette méthode :
+- Rend l’engagement immédiatement visible (vous collez littéralement des données brutes dans le witness) ;
+- Peut être sujette à la censure (des mineurs ou nœuds peuvent refuser de relayer si c’est trop volumineux ou toute autre caractéristique arbitraire) ;
 - Consomme de l’espace dans les blocs, ce qui est contraire à l’objectif de discrétion et de légèreté de RGB.
 
 En plus, le witness est conçu pour être prunable dans certains contextes, ce qui peut rendre plus compliqué le fait d'avoir des preuves robustes.
 
 ***Op-return (opret) :***
 
-Très simple dans son foncitonnement, un `OP_RETURN` permet de stocker un hash ou un message dans un champ spécial de la transaction. Mais c’est immédiatement détectable : tout le monde voit qu’il y a un _commitment_ dans la transaction, et cela peut être censuré ou écarté, en plus d’ajouter un output supplémentaire. Cela augmente également la transparence et la taille. C’est donc considéré comme moins satisfaisant dans l’optique d’une solution de Client-side Validation.
+Très simple dans son fonctionnement, un `OP_RETURN` permet de stocker un hash ou un message dans un champ spécial de la transaction. Mais c’est immédiatement détectable : tout le monde voit qu’il y a un _commitment_ dans la transaction, et cela peut être censuré ou écarté, en plus d’ajouter un output supplémentaire. Puisque cela augmente la transparence et la taille, c’est donc considéré comme moins satisfaisant dans l’optique d’une solution de Client-side Validation.
 
 ```txt
 34-byte_Opret_Commitment =
@@ -545,7 +545,7 @@ Très simple dans son foncitonnement, un `OP_RETURN` permet de stocker un hash o
 
 ### Tapret
 
-La dernière option est l’utilisation de **Taproot** (introduit avec le BIP341) avec le schéma *Tapret*. *Tapret* est une forme plus complexe de commitment déterministe, qui apporte des améliorations en termes d’empreinte sur la blockchain et de confidentialité pour les opérations de contrat. L’idée directrice est de **cacher le commitment** dans la partie `Script Path Spend` d’une [transaction taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+La dernière option est l’utilisation de **Taproot** (introduit avec le BIP341) avec le schéma *Tapret*. *Tapret* est une forme plus complexe d'engagement déterministe, qui apporte des améliorations en termes d’empreinte sur la blockchain et de confidentialité pour les opérations de contrat. L’idée directrice est de cacher le commitment dans la partie `Script Path Spend` d’une [transaction taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/fr/036.webp)
 
@@ -561,19 +561,20 @@ Avant de décrire comment l’engagement est inséré dans une transaction tapro
         TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + NONCE = 33 bytes
 ```
 
-- Les 29 octets `OP_RESERVED`, suivis de `OP_RETURN`, puis de `OP_PUSHBYTE_33`, forment la partie _prefix_ de 31 octets.
+- Les 29 octets `OP_RESERVED`, suivis de `OP_RETURN`, puis de `OP_PUSHBYTE_33`, forment la partie _prefix_ de 31 octets ;
 - Vient ensuite un _commitment_ de 32 octets (généralement la racine de Merkle issue du **MPC**), auquel on ajoute 1 octet de **Nonce** (soit 33 octets au total pour cette seconde partie).
 
-Ainsi, le `Tapret` de 64 octets ressemble à un `Opret` auquel on a préfixé 29 octets de `OP_RESERVED` et auquel on ajoute un octet supplémentaire en guise de Nonce.
+Ainsi, la méthode `Tapret` de 64 octets ressemble à un `Opret` auquel on a préfixé 29 octets de `OP_RESERVED` et auquel on ajoute un octet supplémentaire en guise de Nonce.
 
-Pour conserver une grande flexibilité d’implémentation, de confidentialité et de passage à l’échelle, **le schéma Tapret** prend en compte divers cas d’usage, selon les besoins :
-- **Incorporation unique** d’un commitment Tapret dans une transaction taproot **sans** structure de Script Path préexistante ;
-- **Intégration** d’un commitment Tapret dans une transaction taproot **déjà dotée** d’un Script Path.
+Pour conserver une grande flexibilité d’implémentation, de confidentialité et de passage à l’échelle, le schéma Tapret prend en compte divers cas d’usage, selon les besoins :
+- Incorporation unique d’un commitment Tapret dans une transaction taproot sans structure de Script Path préexistante ;
+- Intégration d’un commitment Tapret dans une transaction taproot déjà dotée d’un Script Path.
 
 Détaillons ensemble chacun de ces deux scénarios.
+
 #### Incorporation Tapret sans Script Path existant
 
-Dans ce premier cas, on part d’une **sortie taproot** (Taproot Output Key) `Q` qui ne comporte **que** la clé publique interne `P` (Internal Key), **sans** chemin de script associé (Script Path) :
+Dans ce premier cas, on part d’une sortie taproot (*Taproot Output Key*) `Q` qui ne comporte que la clé publique interne `P` *(Internal Key*), sans chemin de script associé (*Script Path*) :
 
 ![RGB-Bitcoin](assets/fr/047.webp)
 
@@ -589,6 +590,7 @@ Pour inclure un commitment **Tapret**, il faut alors ajouter une **Script Path S
 - `Script_root = tH_BRANCH(64-byte_Tapret_Commitment)` représente la racine de ce **script**, laquelle est simplement un hash de type `SHA-256(SHA-256(TapBranch) || 64-byte_Tapret_Commitment)`.
 
 La preuve d’inclusion et d’unicité dans l’arbre taproot se résume ici à la seule clé publique interne `P`.
+
 #### Intégration Tapret dans un Script Path préexistant
 
 Le second scénario concerne une **sortie taproot** `Q` plus complexe, qui comporte déjà plusieurs scripts. Par exemple, on dispose d’un arbre de 3 scripts :
@@ -598,14 +600,14 @@ Le second scénario concerne une **sortie taproot** `Q` plus complexe, qui compo
 - `tH_LEAF(x)` désigne la fonction de hachage (tagged hash) normalisée d’un script leaf.
 - `A, B, C` représentent les scripts déjà inclus dans la structure taproot.
 
-Pour ajouter le commitment Tapret, **on doit insérer un script "inconsommable"** (*unspendable script*) au **premier niveau** de l’arbre, en décalant les scripts déjà existants **un niveau plus bas**. Visuellement, l’arbre devient :
+Pour ajouter le commitment Tapret, on doit insérer un script "inconsommable" (*unspendable script*) au premier niveau de l’arbre, en décalant les scripts déjà existants un niveau plus bas. Visuellement, l’arbre devient :
 
 ![RGB-Bitcoin](assets/fr/050.webp)
 
 - `tHABC` représente le hash (tagged) du niveau supérieur regroupant `A, B, C`.
 - `tHT` représente le hash du script correspondant au `Tapret` de 64 octets.
 
-Selon les règles taproot, chaque branche/feuille doit être combinée en respectant un ordre lexicographique des hachages. Deux cas se présentent :
+Selon les règles de taproot, chaque branche/feuille doit être combinée en respectant un ordre lexicographique des hachages. Deux cas se présentent alors :
 - `tHT` > `tHABC` : le commitment Tapret se place à droite dans l’arbre. La preuve d’unicité n’a besoin que de `tHABC` et `P` ;
 - **`tHT` < `tHABC`** : le commitment Tapret se place à gauche. Pour prouver qu’il n’y a pas d’autre commitment Tapret dans la partie droite, il faut révéler `tHAB` et `tHC` afin de démontrer l’absence de tout autre script de ce type.
 
@@ -621,19 +623,17 @@ Exemple pour le second cas (`tHABC > tHT`) :
 
 Pour améliorer la confidentialité, on peut "miner" (un terme plus juste serait "bruteforcer") la valeur du `<Nonce>` (le dernier octet du `Tapret` de 64 octets) pour tenter d’obtenir un hash `tHT` tel que `tHABC < tHT`. Dans ce cas, le commitment se place à droite, ce qui évite ainsi à l’utilisateur de devoir divulguer tout le contenu des scripts existants pour prouver l’unicité du Tapret.
 
-En résumé, le `Tapret` offre un moyen discret et déterministe d’incorporer un engagement dans une transaction taproot, tout en respectant l’exigence d’unicité et de non-ambiguïté essentielle à la logique Client-side Validation et **Single-use Seal** de RGB.
+En résumé, le `Tapret` offre un moyen discret et déterministe d’incorporer un engagement dans une transaction taproot, tout en respectant l’exigence d’unicité et de non-ambiguïté essentielle à la logique de Client-side Validation et des Single-use Seal de RGB.
 
 #### Les sorties valides
 
-Pour les opérations de commitment dans le cadre de RGB, l’exigence principale pour qu’un schéma de commitment Bitcoin soit valide est la suivante : La transaction (*witness transaction*) doit **de manière prouvable** contenir un seul commitment.
+Pour les opérations de commitment dans le cadre de RGB, l’exigence principale pour qu’un schéma de commitment Bitcoin soit valide est la suivante : La transaction (*witness transaction*) doit de manière prouvable contenir un seul commitment. Grâce à cette exigence, il devient impossible de construire, au sein d’une même transaction, une histoire alternative pour les données validées côté client. Ainsi, le message autour duquel se ferme le _single-use seal_ est unique.
 
-Grâce à cette exigence, il devient impossible de construire, au sein d’une même transaction, une histoire alternative pour les données validées côté client. Ainsi, le message autour duquel se ferme le _single-use seal_ est unique.
+Pour satisfaire ce principe, et ce quel que soit le nombre de sorties d’une transaction, on impose qu’**une seule et unique sortie** puisse contenir un engagement (*commitment*). Pour chacun des schémas utilisés (*Opret* ou *Tapret*), les seules sorties valides pouvant contenir un _commitment_ RGB sont :
+- La première sortie `OP_RETURN` (si présente) pour le schéma *Opret* ;
+- La première sortie taproot (si présente) pour le schéma *Tapret*.
 
-Pour satisfaire ce principe, et ce quel que soit le nombre de sorties d’une transaction, on impose qu’**une seule et unique sortie** puisse contenir un engagement (*commitment*) pour chacun des schémas utilisés (*Opret* ou *Tapret*), les seules sorties valides pouvant contenir un _commitment_ RGB sont :
-- La **première sortie** `OP_RETURN` (si présente) pour le schéma *Opret* ;
-- La **première sortie** taproot (si présente) pour le schéma *Tapret*.
-
-Notez qu’il est tout à fait possible qu’une transaction contienne **simultanément** un unique commitment `Opret` et un unique commitment `Tapret` dans deux sorties distinctes. Grâce à la nature déterministe de la Seal Definition, ces deux engagements correspondent alors à deux données distinctes validées côté client.
+Notez qu’il est tout à fait possible qu’une transaction contienne simultanément un unique commitment `Opret` et un unique commitment `Tapret` dans deux sorties distinctes. Grâce à la nature déterministe de la Seal Definition, ces deux engagements correspondent alors à deux données distinctes validées côté client.
 
 ### Analyses et choix pratiques dans RGB
 
@@ -694,19 +694,18 @@ Au fil de l’étude, il est apparu qu’aucun des schémas de commitments n’�
 
 L’analyse a montré qu’en effet, d’autres méthodes (key tweak, sig tweak, witness tweak, etc.) présentaient d’autres formes de complication :
 - Soit on a un gros volume on-chain ;
-- Soit on a une incompatibilité radicale avec le code existant des wallets. ;
+- Soit on a une incompatibilité radicale avec le code existant des wallets ;
 - Soit la solution n’est pas viable en multisig non coopératif.
 
 Ainsi, pour RGB, deux des méthodes sortent particulièrement du lot : ***Opret*** et ***Tapret***, toutes deux classées en “Transaction Output”, et compatibles avec le mode TxO2 utilisé par le protocole.
-
 
 ### Multi Protocol Commitments - MPC
 
 Dans cette section, nous abordons la manière dont **RGB** gère l’agrégation de plusieurs contrats (ou plus précisément leurs _transition bundles_) au sein d’un unique engagement (*commitment*) enregistré dans une transaction Bitcoin via un schéma déterministe (selon `Opret` ou `Tapret`). Pour y parvenir, l'ordre de Merkelisation des différents contrats s’opère dans une structure nommée **MPC Tree** (_Multi Protocol Commitment Tree_). Dans cette section, nous allons étudier la construction de ce MPC Tree, l’obtention de sa racine, ainsi que la façon dont plusieurs contrats peuvent ainsi partager la même transaction en toute confidentialité et sans ambiguïté.
 
-Le **Multi Protocol Commitment** (MPC) vise à répondre à deux besoins :
-- **La construction du hash `mpc::Commitment`** : celui-ci sera inclus dans la blockchain Bitcoin selon un schéma `Opret` ou `Tapret`, et doit refléter l’ensemble des états changés (state changes) à valider ;
-- **Le stockage simultané de plusieurs contrats** dans un seul _commitment_, permettant de gérer en une seule transaction Bitcoin des mises à jour distinctes, portant sur plusieurs assets ou contrats RGB.
+Le Multi Protocol Commitment (MPC) vise à répondre à deux besoins :
+- La construction du hash `mpc::Commitment` : celui-ci sera inclus dans la blockchain Bitcoin selon un schéma `Opret` ou `Tapret`, et doit refléter l’ensemble des états changés (state changes) à valider ;
+- Le stockage simultané de plusieurs contrats dans un seul _commitment_, permettant de gérer en une seule transaction Bitcoin des mises à jour distinctes, portant sur plusieurs assets ou contrats RGB.
 
 Concrètement, chacun des _transition bundles_ appartient à un contrat particulier. Toutes ces informations sont insérées dans un **MPC Tree** dont la racine (`mpc::Root`) est ensuite hachée de nouveau pour donner le `mpc::Commitment`. C’est ce dernier hash qui est placé dans la transaction Bitcoin (_witness transaction_), selon la méthode déterministe choisie.
 
@@ -728,13 +727,13 @@ où :
 
 ![RGB-Bitcoin](assets/fr/044.webp)
 
-#### Construction de l'arbre MPC (MPC Tree)
+#### Construction du MPC Tree
 
 Pour construire ce MPC Tree, il faut assurer qu’à chaque contrat corresponde une position de feuille unique. Supposons qu’on ait :
-- `C` contrats à inclure, indexés par `i` dans `i = {0,1,..,C-1}`.
+- `C` contrats à inclure, indexés par `i` dans `i = {0,1,..,C-1}` ;
 - Pour chaque contrat `c_i`​, on dispose d’un identifiant `ContractId(i) = c_i`.
 
-On va alors bâtir un arbre de largeur `w` et de profondeur `d` telle que `2^d = w`, avec `w > C`, de sorte que chaque contrat puisse être placé dans une _leaf_ distincte. La position `pos(c_i)` de chaque contrat dans l’arbre est déterminée par :
+On va alors construire un arbre de largeur `w` et de profondeur `d` telle que `2^d = w`, avec `w > C`, de sorte que chaque contrat puisse être placé dans une _leaf_ distincte. La position `pos(c_i)` de chaque contrat dans l’arbre est déterminée par :
 
 ```txt
 pos(c_i) = c_i mod (w - cofactor)
@@ -756,7 +755,7 @@ tH_MPC_LEAF(c_i) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x10 ||
 ```
 
 où :
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, toujours choisi selon les conventions Merkle de RGB ;
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, est toujours choisi selon les conventions Merkle de RGB ;
 - `0x10` identifie un _contract leaf_ ;
 - `c_i` est l’identifiant de 32 octets du contrat (issu du hash de sa Genesis) ;
 - `BundleId(c_i)` est un hash de 32 octets décrivant l’ensemble des `State Transitions` relatives à `c_i` (réunies en une *Transition Bundle*).
@@ -770,14 +769,14 @@ tH_MPC_LEAF(j) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x11 || e
 ```
 
 où :
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, toujours choisi selon les conventions Merkle de RGB ;
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, est toujours choisi selon les conventions Merkle de RGB ;
 - `0x11` désigne une _entropy leaf_ ;
 - `entropy` est une valeur aléatoire de 64 octets, choisie par la personne qui construit l’arbre ;
 - `j` est la position (en 32 bits Little Endian) de cette feuille dans l’arbre.
 
 #### Les nœuds MPC
 
-Après avoir généré les `w` feuilles (habitées ou non), on procède à la _merkelization_ en suivant la règle `commit_verify`. Tout nœud interne est haché comme suit :
+Après avoir généré les `w` feuilles (habitées ou non), on procède à la merkelisation. Tout nœud interne est haché comme suit :
 
 ```txt
 tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || b || d || w || tH1 || tH2)
@@ -785,7 +784,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 où :
 
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, toujours choisi selon les conventions Merkle de RGB ;
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, est toujours choisi selon les conventions Merkle de RGB ;
 - `b` est la _branching factor_ (8 bits). Le plus souvent, `b=0x02` car l’arbre est binaire et complet ;
 - `d` est la profondeur du nœud dans l’arbre ;
 - `w` est la largeur de l’arbre (en binaire 256 bits Little Endian) ;
@@ -793,11 +792,10 @@ où :
 
 En progressant ainsi, on obtient la racine `mpc::Root`. On peut ensuite calculer `mpc::Commitment` (comme expliqué précédemment) et l’insérer on-chain.
 
-Pour illustrer cela, imaginons un exemple où `C=3` (trois contrats). On suppose que leurs positions sont `pos(c_0)=7`, `pos(c_1)=4`, `pos(c_2)=2`. Les autres feuilles (positions 0,1,3,5,6) sont des _entropy leaves_. Le schéma ci-dessous montre comment s’enchaînent les hachages jusqu’à la racine :
-
-- `BUNDLE_i` représente `BundleId(c_i)`.
-- `tH_MPC_LEAF(A)` et ainsi de suite, représentent les feuilles (certaines pour les contrats, d’autres pour l’entropie).
-- Chaque branche `tH_MPC_BRANCH(...)` combine les hachages de ses deux fils.
+Pour illustrer cela, imaginons un exemple où `C=3` (trois contrats). On suppose que leurs positions sont `pos(c_0)=7`, `pos(c_1)=4`, `pos(c_2)=2`. Les autres feuilles (positions 0, 1, 3, 5, 6) sont des _entropy leaves_. Le schéma ci-dessous montre comment s’enchaînent les hachages jusqu’à la racine avec :
+- `BUNDLE_i` qui représente `BundleId(c_i)` ;
+- `tH_MPC_LEAF(A)` et ainsi de suite, qui représentent les feuilles (certaines pour les contrats, d’autres pour l’entropie) ;
+- Chaque branche `tH_MPC_BRANCH(...)` qui combine les hachages de ses deux fils.
 
 Le résultat final est le **mpc::Root**, puis le `mpc::Commitment`.
 
@@ -805,9 +803,9 @@ Le résultat final est le **mpc::Root**, puis le `mpc::Commitment`.
 
 #### Vérification de l'arbre MPC
 
-Lorsqu’un vérificateur souhaite s’assurer qu’un contrat `c_i`​ (et son `BundleId`) est bien inclus dans l’engagement final `mpc::Commitment`, il reçoit simplement **une preuve de Merkle** (*Merkle Proof*). Cette preuve indique les nœuds nécessaires pour remonter des feuilles (ici, la _contract leaf_ de `c_i`​) jusqu’à la racine. Inutile de divulguer l’intégralité du *MPC Tree* : cela protège la confidentialité des autres contrats.
+Lorsqu’un vérificateur souhaite s’assurer qu’un contrat `c_i`​ (et son `BundleId`) est bien inclus dans l’engagement final `mpc::Commitment`, il reçoit simplement une preuve de Merkle. Cette preuve indique les nœuds nécessaires pour remonter des feuilles (ici, la _contract leaf_ de `c_i`​) jusqu’à la racine. Inutile de divulguer l’intégralité du *MPC Tree* : cela protège la confidentialité des autres contrats.
 
-Dans l’exemple, un vérificateur de `c_2` n’a besoin que de quelques hachages intermédiaires (`tH_MPC_LEAF(D)`, deux ou trois `tH_MPC_BRANCH(...)`, etc.), plus la preuve de la position `pos(c_2)` et la valeur `cofactor`. Il peut alors reconstruire localement la racine, puis recalculer le `mpc::Commitment` et le comparer à celui inscrit dans la transaction Bitcoin (au sein d’`Opret` ou `Tapret`).
+Dans l’exemple, un vérificateur de `c_2` n’a besoin que d'un hachage intermédiaire (`tH_MPC_LEAF(D)`), de deux `tH_MPC_BRANCH(...)`, de la preuve de la position `pos(c_2)` et de la valeur `cofactor`. Il peut alors reconstruire localement la racine, puis recalculer le `mpc::Commitment` et le comparer à celui inscrit dans la transaction Bitcoin (au sein d’`Opret` ou de `Tapret`).
 
 ![RGB-Bitcoin](assets/fr/054.webp)
 
@@ -821,13 +819,13 @@ Le *Multi Protocol Commitment* (MPC) est donc le principe qui permet à RGB d’
 
 Sur le client, on ne stocke jamais l’ensemble de l'arbre de Merkle. On se contente de générer, à l’instant T, un _Merkle path_ pour chaque contrat concerné, à transmettre au destinataire (qui pourra ainsi valider l’engagement). Dans certains cas, vous possédez plusieurs actifs passés par le même UTXO. Vous pouvez alors fusionner plusieurs _Merkle paths_ dans ce qu’on appelle un _multi-protocol commitment block_, afin d'éviter de dupliquer trop de données.
 
-Chaque _Merkle proof_ est donc légère, d’autant plus que la profondeur de l’arbre n’excédera pas 32 dans RGB. Il existe également une notion de **Merkle block**, conservant plus d’informations (la cross-section, l’entropie, etc.), utile pour combiner ou séparer plusieurs branches.
+Chaque _Merkle proof_ est donc légère, d’autant plus que la profondeur de l’arbre n’excédera pas 32 dans RGB. Il existe également une notion de "Merkle block", qui conserve plus d’informations (la cross-section, l’entropie, etc.), utile pour combiner ou séparer plusieurs branches.
 
-Voilà pourquoi la finalisation de RGB a demandé du temps. On avait la vision globale dès 2019 : tout mettre en client-side, faire circuler les tokens hors chaîne. Mais des détails comme le sharding pour plusieurs contrats, la structure de l'arbre de Merkle, la manière de gérer les collisions et la fusion de preuves… tout cela a exigé des itérations.
+Voilà pourquoi la finalisation de RGB a demandé du temps. On avait la vision globale dès 2019 : tout mettre en client-side, faire circuler les tokens off-chain. Mais pour les détails comme le sharding pour plusieurs contrats, la structure de l'arbre de Merkle, la manière de gérer les collisions et la fusion de preuves… tout cela a exigé des itérations.
 
 ### Les anchors : un assemblage global
 
-Dans la continuité de la construction de nos engagements (`Opret` ou `Tapret`) et de notre **MPC** (*Multi Protocol Commitment*), nous devons aborder la notion d’**Anchor** dans le protocole **RGB**. Un Anchor est une structure validée côté client qui rassemble les éléments nécessaires pour vérifier qu’un engagement Bitcoin renferme bien une information contractuelle précise. Autrement dit, un Anchor résume toutes les données utiles à la validation des _commitments_ décrits précédemment.
+Dans la continuité de la construction de nos engagements (`Opret` ou `Tapret`) et de notre MPC (*Multi Protocol Commitment*), nous devons aborder la notion d’**Anchor** dans le protocole RGB. Un Anchor est une structure validée côté client qui rassemble les éléments nécessaires pour vérifier qu’un engagement Bitcoin renferme bien une information contractuelle précise. Autrement dit, un Anchor résume toutes les données utiles à la validation des _commitments_ décrits précédemment.
 
 Un Anchor se compose de trois champs ordonnés :
 - `Txid`
@@ -855,20 +853,20 @@ Ce mécanisme a été décrit dans la section précédente consacrée à la cons
 pos(c_i) = c_i mod (w - cofactor)
 ```
 
-Puis, on utilise un schéma de _merkelization_ déterministe pour agréger toutes les feuilles (contrats + entropie). La `MPC Proof` permet, au final, de reconstituer localement la racine et de la comparer au `mpc::Commitment` inclus on-chain.
+Puis, on utilise un schéma de merkelisation déterministe pour agréger toutes les feuilles (contrats + entropie). La `MPC Proof` permet, au final, de reconstituer localement la racine et de la comparer au `mpc::Commitment` inclus on-chain.
 
 #### Extra Transaction Proof – ETP
 
 Le troisième champ, l’**ETP**, dépend du type d’engagement utilisé. Si l’engagement est de type `Opret`, aucune preuve supplémentaire n’est requise. Le validateur inspecte la première sortie `OP_RETURN` de la transaction et y retrouve directement le `mpc::Commitment`.
 
-**Si l’engagement est de type `Tapret`**, il faut fournir une preuve additionnelle appelée ***Extra Transaction Proof – ETP***. Elle contient :
+**Si l’engagement est de type `Tapret`**, il faut fournir une preuve additionnelle appelée *Extra Transaction Proof – ETP*. Elle contient :
 - La clé publique interne (`P`) de la sortie taproot dans laquelle est incrusté le *commitment* ;
 - Les nœuds partenaires du `Script Path Spend` (lorsque le *commitment* Tapret est inséré dans un script), afin de prouver l’emplacement exact de ce script dans l’arbre taproot :
 	- Si le *commitment* `Tapret` se trouve sur la branche de droite, on révèle le nœud de gauche (par exemple `tHABC`),
 	- Si le *commitment* `Tapret` est sur la gauche, il faut divulguer 2 nœuds (par exemple `tHAB` et `tHC`) pour prouver qu’aucun autre *commitment* n’est présent sur la partie de droite.
-- Le `nonce` éventuellement utilisé pour "miner" la meilleure configuration, permettant de placer le *commitment* à droite de l’arbre (optimisation de preuve).
+- Le `nonce` éventuellement utilisé pour "miner" la meilleure configuration, permettant de placer le *commitment* à droite de l’arbre (optimisation de la preuve).
 
-Cette preuve supplémentaire est indispensable, car, contrairement à `Opret`, l’engagement `Tapret` s’intègre dans la structure d’un script taproot, ce qui exige de révéler une partie de l’arbre taproot afin de valider correctement l’emplacement du commitment.
+Cette preuve supplémentaire est indispensable, car, contrairement à `Opret`, l’engagement `Tapret` s’intègre dans la structure d’un script taproot, ce qui exige de révéler une partie de l’arbre taproot afin de valider correctement l’emplacement du *commitment*.
 
 ![RGB-Bitcoin](assets/fr/045.webp)
 
@@ -876,19 +874,18 @@ Les **Anchors** encapsulent donc l’ensemble des informations nécessaires pour
 
 ### Conclusion
 
-Nous ce chapitre, nous avons couvert :
+Dans ce chapitre, nous avons couvert :
 - Comment appliquer le concept de Single-use Seals dans Bitcoin (en particulier via un _outpoint_) ;
 - Les différentes méthodes pour insérer de façon déterministe un _commitment_ dans une transaction (Sig tweak, Key tweak, witness tweak, op_return, Taproot/Tapret) ;
-- Les raisons pour lesquelles RGB se concentre sur les engagements Taproot ;
+- Les raisons pour lesquelles RGB se concentre sur les engagements Tapret ;
 - La gestion multi-contrat via des _multi-protocol commitments_, indispensable pour ne pas exposer l’intégralité d’un état ou d’autres contrats lorsqu’on veut prouver un point précis ;
-- Nous avons aussi vu l’importance des _Anchors_, qui rassemblent tout (le TXID de la transaction, la preuve de l’arbre de Merkle et la preuve Taproot) dans un même ensemble.
+- Nous avons aussi vu le rôle des _Anchors_, qui rassemblent tout (le TXID de la transaction, la preuve de l’arbre de Merkle et la preuve Taproot) dans un même ensemble.
 
 En pratique, la mise en œuvre technique est répartie entre plusieurs _crates_ Rust dédiés (dans _client_side_validation_, _commit-verify_, _bp_core_, etc.). Les notions fondamentales sont là :
 
 ![RGB-Bitcoin](assets/fr/046.webp)
 
-Dans le chapitre suivant, nous plongerons dans la composante purement off-chain de **RGB**, à savoir la logique des contrats. Nous verrons comment les contrats RGB, organisés sous forme de _finite state machine_ partiellement répliquée, atteignent une expressivité bien plus élevée que celle autorisée par *Bitcoin Script*, tout en préservant la confidentialité de leurs données.
-
+Dans le chapitre suivant, nous étudierons la composante purement off-chain de RGB, à savoir la logique des contrats. Nous verrons comment les contrats RGB, organisés sous forme de _finite state machine_ partiellement répliquée, atteignent une expressivité bien plus élevée que celle autorisée par les scripts Bitcoin, tout en préservant la confidentialité de leurs données.
 
 ## Introduction aux contrats intelligents et à leurs états
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>

@@ -30,7 +30,7 @@ Bonjour à tous et bienvenue dans cette formation dédiée à RGB, un système d
 
 **Section 1 : Théorie**  
 
-La première section est dédiée aux concepts théoriques nécessaires pour comprendre les principes fondamentaux de la validation côté client et de RGB.
+La première section est dédiée aux concepts théoriques nécessaires pour comprendre les principes fondamentaux de la validation côté client et de RGB. Comme vous le découvrirez dans cette formation, RGB introduit une multitude de concepts techniques que l'on n'a pas l'habitude de voir sur Bitcoin. Vous trouverez donc également dans cette section un glossaire fournissant des définitions pour tous les termes spécifiques au protocole RGB.
 
 **Section 2 : Pratique**  
 
@@ -117,15 +117,15 @@ La blockchain est très décentralisée, mais peu scalable. De plus, comme tout 
 
 Les canaux d'état (comme avec le Lightning Network) sont plus scalables et plus privés que la blockchain, car les transactions s'effectuent off-chain. Toutefois, l'obligation d'annoncer publiquement certains éléments (transactions de financement, topologie du réseau) et la surveillance du trafic réseau peuvent compromettre en partie la confidentialité. Aussi, la décentralisation en pâtit : le routage requiert une grande quantité de liquidités et les nœuds majeurs peuvent devenir des points de centralisation. C'est justement un phénomène que l'on peut commencer à observer actuellement sur Lightning.
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
-Ce nouveau paradigme est encore plus scalable et plus confidentiel, car non seulement on peut intégrer des techniques zero-knowledge, mais il n'y a pas de graphe global des transactions : personne ne détient la totalité du registre. En revanche, cela implique aussi un certain compromis sur la décentralisation : l'émetteur d'un contrat intelligent peut avoir un rôle central (à l'instar d'un "*contract deployer*" dans Ethereum). Néanmoins, contrairement à la blockchain, avec la Client-side Validation, vous ne stockez et ne validez que les contrats qui vous intéressent, ce qui améliore la scalabilité en évitant de télécharger et de vérifier tous les états existants.
+Ce nouveau paradigme est encore plus scalable et plus confidentiel, car non seulement on peut intégrer des techniques de preuves à divulgation nulle de connaissance, mais il n'y a pas de graphe global des transactions, puisque personne ne détient la totalité du registre. En revanche, cela implique aussi un certain compromis sur la décentralisation : l'émetteur d'un contrat intelligent peut avoir un rôle central (à l'instar d'un "*contract deployer*" dans Ethereum). Néanmoins, contrairement à la blockchain, avec la Client-side Validation, vous ne stockez et ne validez que les contrats qui vous intéressent, ce qui améliore la scalabilité en évitant de télécharger et de vérifier tous les états existants.
 
 ![RGB-Bitcoin](assets/fr/004.webp)
 
 #### 2. Théorème CAP (Consistency, Availability, Partition tolerance)
 
-Le **théorème CAP** souligne qu'il est impossible pour un système distribué de satisfaire simultanément la cohérence (Consistency), la disponibilité (Availability) et la tolérance au partitionnement (Partition tolerance).
+Le théorème CAP souligne qu'il est impossible pour un système distribué de satisfaire simultanément la cohérence (*Consistency*), la disponibilité (*Availability*) et la tolérance au partitionnement (*Partition tolerance*).
 
 - **Blockchain**
 
@@ -135,7 +135,7 @@ La blockchain privilégie la cohérence et la disponibilité, mais s'accommode m
 
 Un système de canaux d'états dispose de la disponibilité et de la tolérance au partitionnement (puisque deux nœuds peuvent rester connectés entre eux même si le réseau est fragmenté), mais la cohérence globale dépend de l'ouverture et de la fermeture des canaux sur la blockchain.
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 Un système comme RGB offre la cohérence (chaque participant valide ses données localement, sans ambiguïté) et la tolérance au partitionnement (vous conservez vos données de manière autonome), mais ne garantit pas la disponibilité globale (chacun doit s'assurer d'avoir les morceaux d'historique pertinents, et certains participants peuvent ne rien publier ou cesser de partager certaines informations).
 
@@ -143,28 +143,28 @@ Un système comme RGB offre la cohérence (chaque participant valide ses donnée
 
 #### 3. Trilemme CIA (Confidentiality, Integrity, Availability)
 
-Ce trilemme rappelle que la confidentialité, l'intégrité et la disponibilité ne peuvent être optimisées toutes les trois en même temps. Blockchain, Lightning et Client-side Validation se répartissent différemment dans cet équilibre. L'idée est qu'aucun système unique ne peut tout fournir ; il faut combiner plusieurs approches (la time-stamping de la blockchain, l'approche synchrone de Lightning, et la validation locale avec RGB) pour obtenir un ensemble cohérent offrant de bonnes garanties dans chaque dimension.
+Ce trilemme rappelle que la confidentialité, l'intégrité et la disponibilité ne peuvent être optimisées toutes les trois en même temps. Blockchain, Lightning et Client-side Validation se répartissent différemment dans cet équilibre. L'idée est qu'aucun système unique ne peut tout fournir ; il faut combiner plusieurs approches (l'horodatage de la blockchain, l'approche synchrone de Lightning, et la validation locale avec RGB) pour obtenir un ensemble cohérent offrant de bonnes garanties dans chaque dimension.
 
 ![RGB-Bitcoin](assets/fr/006.webp)
 
 ### Le rôle de la blockchain et la notion de sharding
 
 La blockchain (ici Bitcoin) sert surtout de mécanisme de _time-stamping_ et de protection contre la double dépense. Au lieu d'y insérer l'intégralité des données d'un smart contract ou d'un système décentralisé, on se contente d'y inclure des **engagements cryptographiques** (_commitments_) à des transactions (au sens de la Client-side Validation, que nous appellerons "transitions d'état"). Ainsi :
-- On libère la blockchain d'une grande quantité de données et de logique.
-- Chaque utilisateur ne stocke que l'historique nécessaire à sa propre portion du contrat (son "shard"), au lieu de répliquer l'état global.
+- On libère la blockchain d'une grande quantité de données et de logique ;
+- Chaque utilisateur ne stocke que l'historique nécessaire à sa propre portion du contrat (son "*shard*"), au lieu de répliquer l'état global.
 
 Le _sharding_ est un concept né dans les bases de données distribuées (par exemple MySQL pour des réseaux sociaux comme Facebook ou Twitter). Pour résoudre le problème de volume de données et de latences de synchronisation, on segmente la base en _shards_ (États-Unis, Europe, Asie, etc.). Chaque segment est cohérent localement et ne se synchronise que partiellement avec les autres.
 
-Pour les smart contracts de type RGB, on "sharde" selon les contrats eux-mêmes. Chaque contrat constitue un _shard_ indépendant. Par exemple, si vous ne détenez que des jetons USDT, vous n'avez pas à stocker ou valider tout l'historique d'un autre token comme l'USDC. Sur Bitcoin, la blockchain ne fait pas de _sharding_ : vous avez un ensemble d'UTXOs global. Avec la Client-side Validation, chaque participant conserve seulement les données des contrats qu'il détient ou utilise.
+Pour les smart contracts de type RGB, on sharde selon les contrats eux-mêmes. Chaque contrat constitue un _shard_ indépendant. Par exemple, si vous ne détenez que des jetons USDT, vous n'avez pas à stocker ou valider tout l'historique d'un autre token comme l'USDC. Sur Bitcoin, la blockchain ne fait pas de _sharding_ : vous avez un ensemble d'UTXOs global. Avec la Client-side Validation, chaque participant conserve seulement les données des contrats qu'il détient ou utilise.
 
 On peut donc imaginer l'écosystème ainsi :
 - **La blockchain (Bitcoin)** comme fondation qui assure la réplication complète d'un registre minimal et sert de couche d'horodatage ;
 - **Le Lightning Network** pour des transactions rapides et confidentielles, qui repose toujours sur la sécurité et le règlement final de la blockchain Bitcoin ;
-- **RGB et la Client-side Validation pour ajouter une logique plus complexe de smart contracts, sans encombrer la blockchain, ni perdre en confidentialité.
+- **RGB et la Client-side Validation** pour ajouter une logique plus complexe de smart contracts, sans encombrer la blockchain, ni perdre en confidentialité.
 
 ![RGB-Bitcoin](assets/fr/007.webp)
 
-Ces trois éléments forment un ensemble triangulaire plus qu'un empilement linéaire de "layer 2", "layer 3", etc. Lightning peut se brancher directement sur Bitcoin, ou bien être associé à des transactions Bitcoin qui intègrent des données RGB. De même, un usage de la "BiFi" (finance sur Bitcoin) peut composer avec la blockchain, Lightning et RGB selon les besoins en confidentialité, scalabilité, ou logique de contrat.
+Ces trois éléments forment un ensemble triangulaire plus qu'un empilement linéaire de "layer 2", "layer 3", etc. Lightning peut se brancher directement sur Bitcoin, ou bien être associé à des transactions Bitcoin qui intègrent des données RGB. De même, un usage de la "BiFi" (finance sur Bitcoin) peut composer avec la blockchain, avec Lightning et avec RGB selon les besoins en confidentialité, scalabilité, ou logique de contrat.
 
 ![RGB-Bitcoin](assets/fr/008.webp)
 
@@ -178,54 +178,51 @@ Pour comprendre comment se présente cette validation dans le cadre de **Bitcoin
 
 Dans le cas de la blockchain Bitcoin, la validation des transactions repose sur une règle simple :
 - Tous les nœuds du réseau téléchargent chaque bloc et chaque transaction ;
-- Ils **valident** ces transactions pour vérifier la bonne évolution de l'**UTXO set** (ensemble des sorties non dépensées) ;
-- Ils **stockent** ces données (sous forme de blocs) de manière à pouvoir rejouer l’historique si nécessaire.
+- Ils valident ces transactions pour vérifier la bonne évolution de l'UTXO set (ensemble des sorties non dépensées) ;
+- Ils stockent ces données (sous forme de blocs) de manière à pouvoir rejouer l’historique si nécessaire.
 
 ![RGB-Bitcoin](assets/fr/010.webp)
 
 Ce modèle présente toutefois deux inconvénients majeurs :
-- **Scalabilité** : puisque chaque nœud doit traiter, vérifier et archiver toutes les transactions de tout le monde, il existe une limite évidente à la capacité de transaction, liée notamment à la taille maximale des blocs (1 Mo en moyenne sur 10 minutes pour Bitcoin, hors witness) ;
+- **Scalabilité** : puisque chaque nœud doit traiter, vérifier et archiver toutes les transactions de tout le monde, il existe une limite évidente à la capacité de transaction, liée notamment à la taille maximale des blocs (1 Mo en moyenne sur 10 minutes pour Bitcoin, hors témoin) ;
 - **Vie privée** : tout est diffusé et stocké publiquement (montants, adresses de destination, etc.), ce qui limite la confidentialité des échanges.
 
 ![RGB-Bitcoin](assets/fr/012.webp)
 
 En pratique, ce modèle fonctionne pour Bitcoin en tant que couche de base (Layer 1), mais peut devenir insuffisant pour des usages plus complexes qui exigent simultanément un haut débit de transactions et un certain degré de confidentialité.
 
-La Client-side Validation repose sur l’idée inverse : plutôt que d’exiger que tout le réseau valide et stocke toutes les transactions, chaque participant (client) va valider uniquement la partie de l’historique qui le concerne.
-
-- Lorsqu’une personne reçoit un actif (ou toute autre propriété numérique), elle n’a besoin de connaître et de vérifier que la chaîne d’opérations (les transitions d'état) qui aboutit à cet actif et qui lui en prouve la légitimité.
-- Cette suite d’opérations, du **genesis** (émission initiale) jusqu’à la transaction la plus récente, forme un graphe orienté acyclique (DAG) ou un **shard**, c’est-à-dire une fraction du grand historique global.
+La Client-side Validation repose sur l’idée inverse : plutôt que d’exiger que tout le réseau valide et stocke toutes les transactions, chaque participant (client) va valider uniquement la partie de l’historique qui le concerne :
+- Lorsqu’une personne reçoit un actif (ou toute autre propriété numérique), elle n’a besoin de connaître et de vérifier que la chaîne d’opérations (les transitions d'état) qui aboutit à cet actif et qui lui en prouve la légitimité ;
+- Cette suite d’opérations, de la ***Genesis*** (émission initiale) jusqu’à la transaction la plus récente, forme un graphe orienté acyclique (DAG) ou un shard, c’est-à-dire une fraction du grand historique global.
 
 ![RGB-Bitcoin](assets/fr/013.webp)
 
-Parallèlement, pour que le reste du réseau (ou plus exactement la couche sous-jacente, telle que Bitcoin) puisse **verrouiller** l’état final sans pour autant voir le détail de ces données, la Client-side Validation s’appuie sur la notion de **commitment**.
+Parallèlement, pour que le reste du réseau (ou plus exactement la couche sous-jacente, telle que Bitcoin) puisse verrouiller l’état final sans pour autant voir le détail de ces données, la Client-side Validation s’appuie sur la notion de ***commitment***.
 
-Un commitment est un engagement cryptographique, typiquement un _hash_ (SHA-256 par exemple) inséré dans une transaction Bitcoin, qui prouve qu’on a englobé des données privées, sans révéler ces données.
+Un *commitment* est un engagement cryptographique, typiquement un _hash_ (SHA-256 par exemple) inséré dans une transaction Bitcoin, qui prouve qu’on a englobé des données privées, sans révéler ces données.
 
 Grâce à ces _commitments_, on peut prouver :
 - L’existence d’une information (puisqu’elle est engagée dans un hash) ;
 - L’antériorité de cette information (car elle est ancrée et horodatée dans la blockchain, avec une date et un ordre des blocs).
 
-En revanche, le contenu exact n’est pas révélé, ce qui préserve la confidentialité.
+En revanche, le contenu exact n’est pas révélé, ce qui préserve sa confidentialité.
 
-Concrètement :
-- Vous préparez une nouvelle transition d'état (par exemple le transfert d'un jeton RGB).
-- Vous générez un engagement cryptographique à cette transition et l'insérez dans une transaction Bitcoin (on appelle ces engagements des "anchors" dans le protocole RGB).
-- La contrepartie (le destinataire) récupère l'historique _client-side_ associé à cet actif et valide la cohérence de bout en bout, depuis la Genèse du smart contract jusqu'à la transition que vous lui transmettez.
+Concrètement, voici le déroulé d'une transition d'état sur RGB :
+- Vous préparez une nouvelle transition d'état (par exemple le transfert d'un jeton RGB) ;
+- Vous générez un engagement cryptographique à cette transition et l'insérez dans une transaction Bitcoin (on appelle ces engagements des "*anchors*" dans le protocole RGB) ;
+- La contrepartie (le destinataire) récupère l'historique Client-side associé à cet actif et valide la cohérence de bout en bout, depuis la Genèse du smart contract jusqu'à la transition que vous lui transmettez.
 
 ![RGB-Bitcoin](assets/fr/014.webp)
 
 La Client-side Validation présente ainsi deux bénéfices majeurs :
 
 - **La scalabilité :**  
-Les engagements (*commitments*) inclus dans la blockchain ont une taille réduite (de l’ordre de quelques dizaines d’octets). Cela permet de ne pas saturer l’espace dans les blocs, car seul le hash doit être inclus, et cela permet également de faire évoluer le protocole off-chain, car chaque utilisateur n’a à stocker que son fragment d’historique (son _stash_).
+Les engagements (*commitments*) inclus dans la blockchain ont une taille réduite (de l’ordre de quelques dizaines d’octets). Cela permet de ne pas saturer l’espace dans les blocs, car seul le hash doit être inclus. Cela permet également de faire évoluer le protocole off-chain, car chaque utilisateur n’a à stocker que son fragment d’historique (son _stash_).
 
 - **La privacy :**  
 Les transactions en elles-mêmes (c’est-à-dire leur contenu détaillé) ne sont pas publiées on-chain. Seules leurs empreintes (*hash*) le sont. Ainsi, les montants, les adresses et la logique du contrat restent privés, et le receveur peut vérifier, en local, la validité de son shard en inspectant toutes les transitions antérieures. Il n’a aucune raison de diffuser ces données publiquement, sauf en cas de litige ou de preuve nécessaire.
 
-Dans un système comme RGB, plusieurs transitions d'état de différents contrats (ou différents actifs) peuvent être agrégées dans une même transaction Bitcoin via un seul _commitment_, parfois appelé **Anchor**. Ce mécanisme :
-- Établit un lien déterministe et horodaté entre la transaction on-chain et les données off-chain (les transitions validées côté client) ;
-- Permet d’enregistrer simultanément plusieurs shards dans un même point d’ancrage, ce qui réduit encore plus le coût et l’empreinte on-chain.
+Dans un système comme RGB, plusieurs transitions d'état de différents contrats (ou différents actifs) peuvent être agrégées dans une même transaction Bitcoin via un seul _commitment_. Ce mécanisme établit un lien déterministe et horodaté entre la transaction on-chain et les données off-chain (les transitions validées côté client), et permet d’enregistrer simultanément plusieurs shards dans un même point d’ancrage, ce qui réduit encore plus le coût et l’empreinte on-chain.
 
 En pratique, lorsque cette transaction Bitcoin est validée, elle "verrouille" définitivement l’état des contrats sous-jacents, puisqu’il devient impossible de modifier le hash déjà inscrit dans la blockchain.
 
@@ -233,46 +230,45 @@ En pratique, lorsque cette transaction Bitcoin est validée, elle "verrouille" d
 
 ### Le concept de stash
 
-Un **stash** est l'ensemble de données côté client qu'un participant doit absolument conserver pour maintenir l'intégrité et l'historique d'un smart contract RGB. Contrairement à un canal Lightning, où l'on peut reconstruire certains états localement à partir d'informations partagées, le stash d'un contrat RGB n'est pas répliqué ailleurs : si vous le perdez, personne ne pourra vous le restaurer, car vous êtes responsable de votre part de l'historique. D'où l'intérêt de procédures de sauvegarde fiables dans RGB.
+Un **stash** est l'ensemble de données côté client qu'un participant doit absolument conserver pour maintenir l'intégrité et l'historique d'un smart contract RGB. Contrairement à un canal Lightning, où l'on peut reconstruire certains états localement à partir d'informations partagées, le stash d'un contrat RGB n'est pas répliqué ailleurs : si vous le perdez, personne ne pourra vous le restaurer, car vous êtes responsable de votre part de l'historique. C'est pourquoi il faut adopter un système avec des procédures de sauvegarde fiables dans RGB.
 
 ![RGB-Bitcoin](assets/fr/016.webp)
-
 
 ### Single use seal : origines et fonctionnement
 
 Lors de l'acceptation d'un actif comme par exemple une monnaie, deux garanties sont essentielles :
-- L'authenticité du jeton reçu ;
-- L'unicité du jeton, afin d'éviter les doubles dépenses.
+- L'authenticité de la chose reçue ;
+- L'unicité de la chose reçue, afin d'éviter les doubles dépenses.
 
 Pour les actifs physiques, comme un billet de banque, la présence physique suffit à prouver qu'il n'est pas dupliqué. Cependant, dans le monde numérique, où les actifs sont purement informationnels, cette vérification est plus complexe, car l'information peut facilement se multiplier et être dupliquée.
 
 Comme nous l'avons vu précédemment, la révélation par l'envoyeur de l'historique des transitions d'état permet de s'assurer de l'authenticité d'un jeton RGB. En ayant accès à toutes les transactions depuis la transaction génésique, on peut confirmer l'authenticité du jeton. Ce principe est similaire à celui de Bitcoin où l'on peut suivre l'historique des pièces jusqu'à la transaction coinbase originelle pour vérifier leur validité. Toutefois, contrairement à Bitcoin, cet historique des transitions d'état dans RGB est privé et conservé côté client.
 
-Pour prévenir la double dépense des jetons RGB, nous utilisons un mécanisme appelé "*Single-use Seal*". Ce système assure que chaque jeton, une fois utilisé, ne peut être réutilisé frauduleusement.
+Pour prévenir la double dépense des jetons RGB, nous utilisons un mécanisme appelé "**Single-use Seal**". Ce système assure que chaque jeton, une fois utilisé, ne peut être réutilisé une seconde fois frauduleusement.
 
 Les Single-use Seals sont des primitives cryptographiques, proposées en 2016 par Peter Todd, qui s’apparentent au concept de scellés physiques : une fois qu’on a placé un sceau sur un conteneur, il devient impossible de l’ouvrir ou de le modifier sans briser le sceau de manière irréversible.
 
 ![RGB-Bitcoin](assets/fr/018.webp)
 
-Cette approche, transposée à l’univers numérique, permet de prouver qu’une séquence d’événements a bel et bien eu lieu et qu’elle ne peut plus être altérée a posteriori. Les Single-use Seals dépassent donc la simple logique de `hash + timestamp` en y ajoutant la notion d’un _sceau_ fermable **une seule et unique fois**.
+Cette approche, transposée à l’univers numérique, permet de prouver qu’une séquence d’événements a bel et bien eu lieu et qu’elle ne peut plus être altérée a posteriori. Les Single-use Seals dépassent donc la simple logique de `hash + timestamp` en y ajoutant la notion d’un "sceau" fermable **une seule et unique fois**.
 
 ![RGB-Bitcoin](assets/fr/017.webp)
 
-Pour que les Single-use Seals fonctionnent, il faut un ***Proof-of-Publication Medium*** : un support capable de prouver l’existence ou l’absence d’une publication et difficile (voire impossible) à falsifier une fois l’information diffusée. Une **blockchain** (comme Bitcoin) peut tenir ce rôle, tout comme un journal papier au tirage public. L’idée est la suivante :
+Pour que les Single-use Seals fonctionnent, il faut un support de preuve de publication capable de prouver l’existence ou l’absence d’une publication et difficile (voire impossible) à falsifier une fois l’information diffusée. Une **blockchain** (comme Bitcoin) peut tenir ce rôle, tout comme un journal papier au tirage public par exemple. L’idée est la suivante :
 - On veut prouver qu’un certain engagement sur un message `h(m)` a été publié à une audience sans révéler le contenu du message `m` ;
 - On veut prouver qu’aucun autre engagement de message `h(m')` concurrent n’a été publié à la place de `h(m)` ;
 - On veut également pouvoir vérifier que le message `m` existe avant une certaine date.
 
-Une **blockchain** se prête idéalement à ce rôle : dès qu’une transaction est incluse dans un bloc, tout le réseau possède la même preuve infalsifiable de son existence et de son contenu (du moins en partie, puisque le _commitment_ peut masquer les détails tout en prouvant l’authenticité du message).
+Une blockchain se prête idéalement à ce rôle : dès qu’une transaction est incluse dans un bloc, tout le réseau possède la même preuve infalsifiable de son existence et de son contenu (du moins en partie, puisque le _commitment_ peut masquer les détails tout en prouvant l’authenticité du message).
 
 On peut donc voir un Single-use Seal comme une promesse formelle de publier un message (encore inconnu à ce stade) une et une seule fois, de manière vérifiable par toutes les parties intéressées.
 
-Contrairement aux simples _commitments_ (hash) ou aux timestamps qui attestent d’une date d’existence, un Single-use Seal offre la garantie supplémentaire qu’**aucun engagement alternatif** ne peut coexister : on ne peut pas fermer deux fois le même sceau ou tenter de remplacer le message scellé.
+Contrairement aux simples _commitments_ (hash) ou aux horodatages qui attestent d’une date d’existence, un Single-use Seal offre la garantie supplémentaire qu’**aucun engagement alternatif** ne peut coexister : on ne peut pas fermer deux fois le même sceau ou tenter de remplacer le message scellé.
 
-La comparaison suivante aide à comprendre :
-- **Engagement cryptographique (hash)** : Avec une fonction de hachage, on peut s'engager sur une donnée (un nombre) en publiant son empreinte (hash). La donnée reste secrète tant qu'on ne révèle pas le préimage, mais on peut prouver qu'on la connaissait à l'avance.
-- **Horodatage (blockchain)** : En insérant ce hash dans la blockchain, on prouve aussi qu'on le connaissait à un instant précis (celui de l'inclusion dans un bloc).
-- **Single-use seal** : Avec les sceaux à usage unique, on va plus loin en rendant l'engagement unique. Avec un simple hash, on peut créer plusieurs engagements contradictoires en parallèle (le problème du docteur qui annonce "*C'est un garçon*" à la famille et "*C'est une fille*" dans son journal personnel). Le single-use seal élimine cette possibilité en connectant l'engagement à un support de preuve de publication, comme la blockchain Bitcoin, de sorte qu'une dépense d'UTXO scelle définitivement l'engagement. Une fois dépensé, on ne peut plus redépenser le même UTXO pour remplacer l'engagement.
+La comparaison suivante aide à comprendre ce principe :
+- **Engagement cryptographique (hash)** : Avec une fonction de hachage, on peut s'engager sur une donnée (un nombre) en publiant son empreinte (hash). La donnée reste secrète tant qu'on ne révèle pas la préimage, mais on peut prouver qu'on la connaissait à l'avance ;
+- **Horodatage (blockchain)** : En insérant ce hash dans la blockchain, on prouve aussi qu'on le connaissait à un instant précis (celui de l'inclusion dans un bloc) ;
+- **Single-use seal** : Avec les sceaux à usage unique, on va plus loin en rendant l'engagement unique. Avec un simple hash, on peut créer plusieurs engagements contradictoires en parallèle (le problème du docteur qui annonce "*C'est un garçon*" à la famille et "*C'est une fille*" dans son journal personnel). Le Single-use Seal élimine cette possibilité en connectant l'engagement à un support de preuve de publication, comme la blockchain Bitcoin, de sorte qu'une dépense d'UTXO scelle définitivement l'engagement. Une fois dépensé, on ne peut plus redépenser le même UTXO pour remplacer l'engagement.
 
 |                                                                                  | Engagement simple (digest/hash) | Timestamps | Single-use Seals |
 | -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
@@ -314,39 +310,38 @@ witness <- Close(seal, message)
 bool <- Verify(seal, witness, message)
 ```
 
-
 Dans le cadre de la Client-side Validation, il faut toutefois aller plus loin : si la définition d’un sceau reste elle-même hors de la blockchain, il est possible (en théorie) que quelqu’un conteste l’existence ou la légitimité du sceau en question. Pour pallier ce problème, on recourt à une chaîne de Single-use Seals, imbriqués les uns dans les autres :
 - Chaque sceau fermé renferme la définition du sceau suivant ;
-- On inscrit ces fermetures (avec leurs _commitments_) au sein de la **blockchain** (par exemple, dans une transaction Bitcoin) ;
+- On inscrit ces fermetures (avec leurs _commitments_) au sein de la blockchain (dans une transaction Bitcoin) ;
 - Ainsi, toute tentative de modifier un sceau antérieur se retrouverait en contradiction avec l’historique ancré sur Bitcoin.
 
-C’est précisément ce que fait le système **RGB** :
+C’est précisément ce que fait le système RGB :
 - Les messages publiés sont les _commitments_ vers des données validées côté client ;
 - La définition du sceau est associée à un UTXO Bitcoin ;
 - Le sceau se ferme lorsque l’on dépense cet UTXO ou qu’on crédite une nouvelle sortie liée au même engagement ;
-- La chaîne de transactions qui dépense ces UTXOs correspond à la **Proof-of-Publication** : chaque transition ou changement d’état sur RGB s’ancre ainsi dans Bitcoin.
+- La chaîne de transactions qui dépense ces UTXOs correspond à la preuve de publication : chaque transition ou changement d’état sur RGB s’ancre ainsi dans Bitcoin.
 
 Pour résumer :
 - Le _seal definition_ est l'UTXO que vous destinez à sceller un engagement futur ;
 - Le _seal closing_ survient quand vous dépensez cet UTXO, en créant une transaction qui contient l'engagement ;
 - Le _witness_ est la transaction elle-même, qui prouve que vous avez bien fermé le sceau avec ce contenu ;
-- Vous ne pouvez pas prouver qu'un seal n'a pas été fermé (on ne peut pas être absolument sûr qu'un UTXO n'est pas déjà dépensé ou ne le sera pas dans un bloc qu'on n'a pas encore vu), mais on peut prouver qu'il a bel et bien été fermé de telle ou telle façon.
+- Vous ne pouvez pas prouver qu'un sceau n'a pas été fermé (on ne peut pas être absolument sûr qu'un UTXO n'est pas déjà dépensé ou ne le sera pas dans un bloc qu'on n'a pas encore vu), mais on peut prouver qu'il a bel et bien été fermé.
 
 Cette unicité est importante pour la Client-side Validation : quand vous validez une transition d'état, vous vérifiez qu'elle correspond à un UTXO unique, non dépensé préalablement dans un engagement concurrent. C'est ce qui garantit l'absence de double dépense au niveau des smart contracts off-chain.
 
 ### Engagements multiples et ancrages
 
-Un smart contract RGB peut avoir besoin de dépenser simultanément plusieurs Single-use Seals (plusieurs UTXOs). De plus, une seule transaction Bitcoin peut référencer plusieurs contrats distincts, chacun venant sceller sa propre transition d'état. Cela nécessite un mécanisme de **multi-commitments** permettant de prouver, de manière déterministe et unique, qu'aucun des engagements n'existe en double. C'est ici qu'intervient la notion d'**anchor** dans RGB : une structure spéciale reliant une transaction Bitcoin et un ou plusieurs engagements _client-side_ (transitions d'état), chacun relevant potentiellement d'un contrat différent. Nous allons justement détailler ce concept dans le chapitre suivant.
+Un smart contract RGB peut avoir besoin de dépenser simultanément plusieurs Single-use Seals (plusieurs UTXOs). De plus, une seule transaction Bitcoin peut référencer plusieurs contrats distincts, chacun venant sceller sa propre transition d'état. Cela nécessite un mécanisme de **multi-commitments** permettant de prouver, de manière déterministe et unique, qu'aucun des engagements n'existe en double. C'est ici qu'intervient la notion d'**anchor** dans RGB : une structure spéciale reliant une transaction Bitcoin et un ou plusieurs engagements client-side (transitions d'état), chacun relevant potentiellement d'un contrat différent. Nous allons justement détailler ce concept dans le chapitre suivant.
 
 ![RGB-Bitcoin](assets/fr/023.webp)
 
-Deux principaux dépôts GitHub du projet (sous l'organisation "LNPBP") regroupent les implémentations de base de ces concepts étudiés dans le premier chapitre :
-- **client_side_validation** : Contient les primitives Rust pour la validation locale.
-- **single_use_seals** : Implémente la logique pour définir et fermer ces seals de manière sécurisée.
+Deux principaux dépôts GitHub du projet (sous l'organisation LNPBP) regroupent les implémentations de base de ces concepts étudiés dans le premier chapitre :
+- **client_side_validation** : Contient les primitives Rust pour la validation locale ;
+- **single_use_seals** : Implémente la logique pour définir et fermer ces sceaux de manière sécurisée.
 
 ![RGB-Bitcoin](assets/fr/020.webp)
 
-Ces briques sont agnostiques par rapport à Bitcoin ; on pourrait, en théorie, les appliquer à tout autre support de preuve de publication (un autre registre, un journal, etc.). Dans la pratique, RGB repose sur Bitcoin pour sa robustesse et son large consensus.
+Notons que ces briques logicielles sont agnostiques par rapport à Bitcoin ; on pourrait, en théorie, les appliquer à tout autre support de preuve de publication (un autre registre, un journal, etc.). Dans la pratique, RGB repose sur Bitcoin pour sa robustesse et son large consensus.
 
 ![RGB-Bitcoin](assets/fr/021.webp)
 
@@ -366,7 +361,7 @@ Chaque contrat représente un _shard_ isolé : USDT et USDC, par exemple, n'ont 
 
 ### Conclusion
 
-Nous avons vu où se situe le concept de Client-side Validation par rapport à la blockchain et aux _state channels_, en quoi il répond à des trilemmes persistants de l'informatique distribuée, et comment il exploite la blockchain Bitcoin uniquement pour éviter la double dépense et pour l'horodatage (time-stamping). L'idée repose sur la notion de **single use seal**, permettant la création d'engagements uniques que vous ne pouvez pas redépenser à volonté. Ainsi, chaque participant ne télécharge que l'historique strictement nécessaire, ce qui accroît la scalabilité et la confidentialité des smart contracts tout en conservant la sécurité de Bitcoin en toile de fond.
+Nous avons vu où se situe le concept de Client-side Validation par rapport à la blockchain et aux _state channels_, en quoi il répond à des trilemmes de l'informatique distribuée, et comment il exploite la blockchain Bitcoin uniquement pour éviter la double dépense et pour l'horodatage (*time-stamping*). L'idée repose sur la notion de **Single-use Seal**, permettant la création d'engagements uniques que vous ne pouvez pas redépenser à volonté. Ainsi, chaque participant ne télécharge que l'historique strictement nécessaire, ce qui accroît la scalabilité et la confidentialité des smart contracts tout en conservant la sécurité de Bitcoin en toile de fond.
 
 La prochaine étape consistera à expliquer plus en détail comment on applique concrètement ce mécanisme de single use seal dans Bitcoin (via les UTXOs), comment on crée et on valide les **anchors**, puis comment on bâtit des _smart contracts_ complets dans RGB. Nous verrons notamment la question des engagements multiples, le défi technique de prouver qu'une transaction Bitcoin scelle simultanément plusieurs transitions d'état dans différents contrats, sans introduire de vulnérabilités ou de doubles engagements.
 

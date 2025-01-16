@@ -86,11 +86,11 @@ Sekarang, pilih rantai yang Anda inginkan untuk menerima pembayaran (Bitcoin ata
 
 LANGKAH 1: Dengan mengetuk "Minta Pembayaran", Anda meminta pembayaran Bitcoin melalui Lightning Network.
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 Langkah 2: Masukkan jumlah yang ingin Anda minta, pilih mata uang yang ingin Anda terima, dan tambahkan deskripsi jika perlu.
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 Catatan: Ada sedikit biaya untuk pembayaran Lightning Network (LN) pertama untuk membuka saluran LN. Setelah itu, semua pembayaran berikutnya gratis.
 

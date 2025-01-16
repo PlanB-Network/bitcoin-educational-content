@@ -690,7 +690,7 @@ Quand nous avons démarré RGB, nous avons passé en revue toutes ces méthodes 
 | Algo Tapret : nœud haut-gauche            | 🟠                             | 🟢               | 🟢            | 🔴          | 🟠         |
 | Algo Tapret #4 : Nœud quelconque + preuve | 🟢                             | 🟢               | 🟢            | 🟠          | 🔴         |
 
-Au fil de l’étude, il est apparu qu’aucun des schémas de commitments n’était pleinement compatible avec le standard LN actuel (qui n’emploie pas Taproot, ni _muSig2_, ni la prise en compte d’un _commitment_ supplémentaire). Des efforts sont en cours pour modifier la construction de canaux LN (*BiFrost*) et permettre d’insérer les engagements RGB. C’est un autre chantier où l’on doit revoir la structure de la transaction, les clés, et la façon dont sont signées les mises à jour de canaux.
+Au fil de l’étude, il est apparu qu’aucun des schémas de commitments n’était pleinement compatible avec le standard Lightning actuel (qui n’emploie pas Taproot, ni _muSig2_, ni la prise en compte d’un _commitment_ supplémentaire). Des efforts sont en cours pour modifier la construction de canaux Lightning (*BiFrost*) et permettre d’insérer les engagements RGB. C’est un autre chantier où l’on doit revoir la structure de la transaction, les clés, et la façon dont sont signées les mises à jour de canaux.
 
 L’analyse a montré qu’en effet, d’autres méthodes (key tweak, sig tweak, witness tweak, etc.) présentaient d’autres formes de complication :
 - Soit on a un gros volume on-chain ;
@@ -1429,7 +1429,7 @@ L’**Ownership**, elle, repose totalement sur la sécurité de Bitcoin. Posséd
 
 Cette approche limite les vulnérabilités classiques rencontrées dans les blockchains plus complexes (où tout le code d’un smart contract est public et modifiable par n’importe qui, ce qui a parfois mené à des hacks). Sur RGB, un attaquant ne peut pas simplement interagir avec l’état on-chain, car le droit d’agir sur l’état (*ownership*) est protégé par la couche Bitcoin.
 
-De plus, ce découplage permet à RGB de s’intégrer naturellement avec le Lightning Network. Les canaux LN peuvent servir à engager et à déplacer les actifs RGB sans engager à chaque fois les *commitments* on-chain. Nous étudierons plus précisément cette intégration de RGB sur Lightning dans les prochains chapitres de la formation.
+De plus, ce découplage permet à RGB de s’intégrer naturellement avec le Lightning Network. Les canaux Lightning peuvent servir à engager et à déplacer les actifs RGB sans engager à chaque fois les *commitments* on-chain. Nous étudierons plus précisément cette intégration de RGB sur Lightning dans les prochains chapitres de la formation.
 
 #### Évolutions de consensus dans RGB
 
@@ -2343,7 +2343,7 @@ Prenons donc un exemple de transfert entre Alice et Bob. Dans cet exemple, on su
 
 #### 1) Installation du wallet RGB
 
-Avant toute chose, Bob doit **installer un wallet RGB**, c’est-à-dire un logiciel compatible avec le protocole. Celui-ci ne contient au départ aucun contrat. Bob aura également besoin :
+Avant toute chose, Bob doit installer un wallet RGB, c’est-à-dire un logiciel compatible avec le protocole. Celui-ci ne contient au départ aucun contrat. Bob aura également besoin :
 - D’un wallet Bitcoin pour gérer ses UTXOs ;
 - D’une connexion à un nœud Bitcoin (ou à un serveur Electrum), afin de pouvoir identifier ses UTXOs et propager ses transactions sur le réseau.
 
@@ -2351,7 +2351,7 @@ Pour rappel, **les Owned States** dans RGB font référence à des UTXOs Bitcoin
 
 #### 2) Acquisition des informations sur le contrat
 
-Bob doit ensuite **récupérer les données du contrat** qui l’intéresse. Ces données peuvent circuler par n’importe quel canal : site web, e-mail, application de messagerie... En pratique, elles sont groupées dans un **consignment**, c’est-à-dire un petit paquet de données contenant :
+Bob doit ensuite récupérer les données du contrat qui l’intéresse. Ces données peuvent circuler par n’importe quel canal : site web, e-mail, application de messagerie... En pratique, elles sont groupées dans un ***consignment***, c’est-à-dire un petit paquet de données contenant :
 - La **Genesis**, qui définit l’état initial du contrat ;
 - Le **Schema**, qui décrit la logique métier (types stricts, scripts de validation, etc.) ;
 - L’**Interface**, qui définit la couche de présentation (noms des champs, opérations accessibles) ;
@@ -2359,13 +2359,13 @@ Bob doit ensuite **récupérer les données du contrat** qui l’intéresse. Ces
 
 ![RGB-Bitcoin](assets/fr/075.webp)
 
-La taille totale est souvent de l’ordre de quelques kilo-octets, car chaque composant pèse généralement moins de 200 octets. Il peut également être possible de diffuser ce consignment en Base58, via des canaux résistants à la censure (comme Nostr ou via le Lightning Network par exemple), ou sous forme de QR code. Cette ouverture à des moyens de transmission variés reflète la philosophie de RGB : favoriser la flexibilité, l’innovation et la concurrence des wallets, tant sur le plan des canaux de distribution que sur l’usage de technologies décentralisées.
+La taille totale est souvent de l’ordre de quelques kilo-octets, car chaque composant pèse généralement moins de 200 octets. Il peut également être possible de diffuser ce consignment en Base58, via des canaux résistants à la censure (comme Nostr ou via le Lightning Network par exemple), ou sous forme de QR code.
 
 #### 3) Import du contrat et validation
 
 Une fois que Bob a reçu le consignment, il l’importe dans son wallet RGB. Celui-ci va alors :
-- Vérifier que la **Genesis** et le **Schema** sont valides ;
-- Charger l’**Interface** et l’**Interface Implementation** ;
+- Vérifier que la Genesis et le Schema sont valides ;
+- Charger l’Interface et l’Interface Implementation ;
 - Mettre à jour son stash de données côté client.
 
 Bob peut maintenant voir l’actif dans son wallet (même s’il n’en détient pas encore) et comprendre quels sont les champs disponibles, les opérations possibles... Il doit ensuite contacter une personne qui possède effectivement l’actif à transférer. Dans notre exemple, c’est Alice.
@@ -2374,9 +2374,9 @@ Le processus de découverte de qui détient un certain actif RGB s’apparente �
 
 #### 4) Émission d'une invoice
 
-Pour lancer le transfert d’un actif RGB, Bob doit commencer par **émettre une invoice**. Cette invoice sert à :
+Pour lancer le transfert d’un actif RGB, Bob doit commencer par émettre une invoice. Cette invoice sert à :
 - Indiquer à Alice le type d’opération à réaliser (par exemple un `Transfer` issu d’une interface RGB20) ;
-- Fournir à Alice la **seal definition** de Bob (c’est-à-dire l’UTXO où il souhaite recevoir l’actif), soit en forme cachée (*blinding*) ou bien explicite ;
+- Fournir à Alice la *seal definition* de Bob (c’est-à-dire l’UTXO où il souhaite recevoir l’actif) ;
 - Préciser la quantité d’actif souhaitée (par exemple 100 unités).
 
 Bob utilise l’outil `rgb` en ligne de commande. Supposons qu’il souhaite 100 unités d’un jeton dont le `ContractId` est connu, qu’il veut s’appuyer sur `Tapret`, et qu’il spécifie son UTXO (`456e3..dfe1:0`) :
@@ -2395,7 +2395,7 @@ L’invoice générée (par exemple sous forme d'URL : `rgb:2WBcas9.../RGB20/100
 
 #### 6) Préparation de la transaction côté Alice
 
-Alice reçoit l’invoice de Bob. Elle dispose dans son wallet RGB d’une stash validée où figure l’actif à transférer. Pour dépenser l’UTXO où se situe l’actif, elle doit commencer par générer une PSBT (*Partially Signed Bitcoin Transaction*), c’est-à-dire une transaction Bitcoin incomplète, utilisant l’UTXO qu’elle possède :
+Alice reçoit l’invoice de Bob. Elle dispose dans son wallet RGB d’un stash où figure l’actif à transférer. Pour dépenser l’UTXO où se situe l’actif, elle doit commencer par générer une PSBT (*Partially Signed Bitcoin Transaction*), c’est-à-dire une transaction Bitcoin incomplète, utilisant l’UTXO qu’elle possède :
 
 ```bash
 alice$ wallet construct tx.psbt
@@ -2412,18 +2412,18 @@ alice$ rgb transfer tx.psbt <invoice> consignment.rgb
 ```
 
 Ce nouveau fichier `consignment.rgb` contient :
-- L’**historique** complet des State Transitions nécessaires pour valider l’actif jusqu’à l’instant présent (depuis la Genesis) ;
-- La **nouvelle** State Transition qui transfère l’actif d’Alice vers Bob, selon l’invoice que Bob a émise ;
+- L’historique complet des State Transitions nécessaires pour valider l’actif jusqu’à l’instant présent (depuis la Genesis) ;
+- La nouvelle State Transition qui transfère l’actif d’Alice vers Bob, selon l’invoice que Bob a émise ;
 - La transaction Bitcoin (*witness transaction*) incomplète (`tx.psbt`), qui dépense le Single-use Seal d'Alice, modifiée pour inclure l’engagement cryptographique en faveur de Bob.
 
-À ce stade, la transaction n’est pas encore diffusée dans le réseau Bitcoin. Le consignment est plus volumineux qu’un consignment de base car il inclut tout l’historique (*proof chain*) pour prouver la légitimité de l’actif.
+À ce stade, la transaction n’est pas encore diffusée sur le réseau Bitcoin. Le consignment est plus volumineux qu’un consignment de base, car il inclut tout l’historique (*proof chain*) pour prouver la légitimité de l’actif.
 
 #### 8) Bob vérifie et accepte le consignment
 
 Alice transmet ce **terminal consignment** à Bob. Bob va alors :
 - Vérifier la validité de la State Transition (s’assurer que l’historique est cohérent, que les règles du contrat sont respectées, etc.) ;
 - L’ajouter à son stash en local ;
-- Générer éventuellement une signature (`sig:...`) sur le consignment, preuve qu’il l’a examiné et qu’il donne son accord (on l’appelle parfois un "*payslip*").
+- Générer éventuellement une signature (`sig:...`) sur le consignment, pour prouver qu’il l’a examiné et qu’il donne son accord (on l’appelle parfois un "*payslip*").
 
 ```bash
 bob$ rgb accept consignment.rgb
@@ -2464,26 +2464,22 @@ Pour résumer, voici le processus de transfert complet :
 
 - **Confidentialité** : 
 
-Seuls Alice et Bob possèdent la totalité des données de la State Transition. Ils échangent ces informations hors de la blockchain, via des consignments. Les engagements cryptographiques dans la transaction Bitcoin ne révèlent pas le type d’actif ni le montant, ce qui garantie une confidentialité bien supérieure à celle de nombreux systèmes de tokens on-chain.
+Seuls Alice et Bob possèdent la totalité des données de la State Transition. Ils échangent ces informations en dehors de la blockchain, via des consignments. Les engagements cryptographiques dans la transaction Bitcoin ne révèlent pas le type d’actif ni le montant, ce qui garantie une confidentialité bien supérieure à celle des autres systèmes de tokens on-chain.
 
 - **Validation côté client** :
 
-Bob peut vérifier seul la cohérence du transfert en confrontant le consignment aux ancres (*anchors*) dans la blockchain Bitcoin. Il n’a pas besoin d’une validation par un tiers. Alice n’a pas à publier l’historique complet sur la blockchain, ce qui allège la charge du protocole sur le réseau et améliore la confidentialité.
-
-- **Flexibilité de diffusion** :
-
-En option, la transaction peut être diffusée seulement lorsque Bob envoie son approbation (signature) à Alice, si c’est ainsi qu’ils souhaitent procéder. Ou Alice peut la publier immédiatement. S’il n’y a pas de diffusion, les UTXOs utilisés en input restent dépensables ailleurs. RGB ne force pas une publication immédiate.
+Bob peut vérifier seul la cohérence du transfert en confrontant le *consignment* aux *anchors* dans la blockchain Bitcoin. Il n’a pas besoin d’une validation par un tiers. Alice n’a pas à publier l’historique complet sur la blockchain, ce qui allège la charge sur protocole de base et améliore la confidentialité.
 
 - **Atomicité simplifiée** : 
 
-Les échanges complexes (atomic swaps entre BTC et un actif RGB, par exemple) peuvent être réalisés au sein d’une même transaction, ce qui évite l’usage de scripts HTLC ou PTLC. Si l’accord n’est pas diffusé, chacun peut réutiliser ses UTXOs autrement.
+Les échanges complexes (atomic swaps entre BTC et un actif RGB, par exemple) peuvent être réalisés au sein d’une même transaction, ce qui évite l’utilisation de scripts HTLC ou PTLC. Si l’accord n’est pas diffusé, chacun peut réutiliser ses UTXOs autrement.
 
 ### Schéma récapitulatif d'un transfert
 
-Avant d'étudier pluys end étail les invoices, voici un schéma récapitulatif de flux global d’un transfert RGB :
+Avant d'étudier plus en détail les invoices, voici un schéma récapitulatif de flux global d’un transfert RGB :
 - Bob installe un wallet RGB et obtient le consignment initial du contrat ;
 - Bob émet une invoice mentionnant l’UTXO où recevoir l’actif ;
-- Alice reçoit l’invoice, construit la PSBT et génère le **terminal consignment** ;
+- Alice reçoit l’invoice, construit la PSBT et génère le terminal consignment ;
 - Bob l’accepte, vérifie, ajoute les données à son stash, et éventuellement signe (*payslip*) ;
 - Alice publie la transaction sur le réseau Bitcoin ;
 - La confirmation de la transaction officialise le transfert.
@@ -2493,21 +2489,21 @@ Le transfert illustre toute la puissance et la souplesse du protocole RGB : un �
 
 ### Invoices RGB
 
-Dans cette section, nous allons expliquer en détail la façon dont les **invoices** fonctionnent dans l’écosystème RGB et comment elles permettent de réaliser des opérations (en particulier des transferts) avec un contrat. Nous allons aborder d’abord la question des **identifiants** utilisés, puis la manière dont ils sont encodés, et enfin la structure d’une invoice exprimée sous forme d’URL (un format assez pratique pour un usage dans les wallets).
+Dans cette section, nous allons expliquer en détail la façon dont les **invoices** fonctionnent dans l’écosystème RGB et comment elles permettent de réaliser des opérations (en particulier des transferts) avec un contrat. Nous allons aborder d’abord la question des identifiants utilisés, puis la manière dont ils sont encodés, et enfin la structure d’une invoice exprimée sous forme d’URL (un format assez pratique pour un usage dans les wallets).
 
 #### Identifiants et encodage
 
-Pour chacun des éléments suivants :
-- Un **contrat** RGB,
-- Son **Schema** (logique métier),
-- Son **Interface** et son **Interface Implementation**,
-- Ses **actifs** (tokens, NFT, etc.),
+Pour chacun des éléments suivants, on définit un identifiant unique :
+- Un contrat RGB ;
+- Son Schema (logique métier) ;
+- Son Interface et son Interface Implementation ;
+- Ses actifs (tokens, NFT, etc.),
 
-… on définit un **identifiant unique**. Cette unicité est très importante, car chaque composant du système doit pouvoir être distingué. Par exemple, un contrat X ne doit pas être confondu avec un autre contrat Y, et deux interfaces différentes (RGB20 vs. RGB21) doivent avoir des identifiants distincts.
+Cette unicité est très importante, car chaque composant du système doit pouvoir être distingué. Par exemple, un contrat X ne doit pas être confondu avec un autre contrat Y, et deux interfaces différentes (RGB20 vs. RGB21 par exemple) doivent avoir des identifiants distincts.
 
 Pour que ces identifiants soient à la fois efficaces (peu volumineux) et lisibles, on utilise :
-- Un **encodage en base58**, qui évite l’emploi de caractères pouvant créer des confusions (par ex. le `0` et la lettre `O`) et qui fournit des chaînes de caractères relativement courtes ;
-- Un **préfixe** indiquant la nature de l’identifiant, généralement sous forme de `rgb:` ou d’une URN similaire.
+- Un encodage en base58, qui évite l’emploi de caractères pouvant créer des confusions (par ex. le `0` et la lettre `O`) et qui fournit des chaînes de caractères relativement courtes ;
+- Un préfixe indiquant la nature de l’identifiant, généralement sous forme de `rgb:` ou d’une URN similaire.
 
 Par exemple, un `ContractId` pourra être représenté par quelque chose du type :
 
@@ -2519,9 +2515,7 @@ Le préfixe `rgb:` confirme qu’il s’agit d’un identifiant RGB, et non pas 
 
 #### Segmentation de l'identifiant
 
-Les identifiants RGB sont souvent assez longs, car la sécurité sous-jacente (cryptographique) peut nécessiter des champs de 256 bits ou plus. Pour faciliter la lecture et la vérification humaine, on segmente (*chunk*) ces chaînes en plusieurs blocs séparés par un tiret (`-`). Ainsi, au lieu d’avoir une longue suite ininterrompue de caractères, on la divise en blocs plus courts. Cette pratique est courante pour les numéros de cartes bancaires ou de téléphones, et elle s’applique également ici pour la facilité de vérification :
-- On peut annoncer à un utilisateur ou un partenaire : « *Vérifie s’il te plaît que le troisième bloc est `9GEgnyMj7`* », plutôt que de devoir comparer la totalité d’un seul coup ;
-- Le dernier bloc sert souvent de **checksum**, afin d'avoir un système de détection d’erreurs ou de typos.
+Les identifiants RGB sont souvent assez longs, car la sécurité sous-jacente (cryptographique) peut nécessiter des champs de 256 bits ou plus. Pour faciliter la lecture et la vérification humaine, on segmente (*chunk*) ces chaînes en plusieurs blocs séparés par un tiret (`-`). Ainsi, au lieu d’avoir une longue suite ininterrompue de caractères, on la divise en blocs plus courts. Cette pratique est courante pour les numéros de cartes bancaires ou de téléphones, et elle s’applique également ici pour la facilité de vérification. Ainsi, on peut par exemple annoncer à un utilisateur ou un partenaire : "*Vérifie s’il te plaît que le troisième bloc est `9GEgnyMj7`*", plutôt que de devoir comparer la totalité d’un seul coup. Le dernier bloc sert souvent de **checksum**, afin d'avoir un système de détection d’erreurs ou de typos.
 
 À titre d’exemple, un `ContractId` en base58 encodé et segmenté pourrait être :
 
@@ -2533,7 +2527,7 @@ Chacun des tirets vient couper la chaîne en sections. Cela n’affecte pas la s
 
 #### Utilisation des URLs pour les Invoices
 
-Une **invoice** RGB se présente comme une **URL**. Cela signifie qu’elle peut être cliquée ou scannée (sous forme de code QR), et qu’un wallet pourra directement l’interpréter pour effectuer une opération. Cette simplicité d’interaction diffère de certains autres systèmes où l’on doit copier-coller divers morceaux de données dans différents champs du logiciel.
+Une invoice RGB se présente comme une URL. Cela signifie qu’elle peut être cliquée ou scannée (sous forme de QR code), et qu’un wallet pourra directement l’interpréter pour effectuer une opération. Cette simplicité d’interaction diffère de certains autres systèmes où l’on doit copier-coller divers morceaux de données dans différents champs du logiciel.
 
 Une invoice pour un token fongible (par exemple un jeton RGB20) peut ressembler à ceci :
 
@@ -2544,11 +2538,11 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 Analysons cette URL :
 - **`rgb:`** (préfixe) : indique qu’il s’agit d’un lien invoquant le protocole RGB (analogue à `http:` ou `bitcoin:` dans d’autres contextes) ;
 - **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`** : représente le `ContractId` du jeton que l’on veut manipuler ;
-- **`/RGB20/100`** : indique qu’on utilise l’interface `RGB20` et qu’on demande 100 unités de l’actif. La syntaxe est onc : `/Interface/amount` ;
+- **`/RGB20/100`** : indique qu’on utilise l’interface `RGB20` et qu’on demande 100 unités de l’actif. La syntaxe est donc : `/Interface/amount` ;
 - **`+utxob:`** : spécifie qu’on ajoute l’information sur l’UTXO destinataire (ou plus exactement la définition du Single-use Seal) ;
 - **`egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`** : c’est le *blinded* UTXO (ou seal definition). Autrement dit, Bob a masqué son UTXO exact, donc l’expéditeur (Alice) ne sait pas quelle est l’adresse exacte. Elle sait seulement qu’il y a un sceau valide se référant à un UTXO contrôlé par Bob.
 
-Le fait que tout tienne dans une seule URL facilite la vie de l’utilisateur : un simple clic ou une capture dans le wallet, et l’opération est prête à être exécutée.
+Le fait que tout tienne dans une seule URL facilite la vie de l’utilisateur : un simple clic ou un scan dans le wallet, et l’opération est prête à être exécutée.
 
 On pourrait imaginer des systèmes où l’on emploie un simple ticker (ex. `USDT`) à la place du `ContractId`. Cela poserait néanmoins de gros problèmes de confiance et de sécurité : un ticker n’est pas une référence unique (plusieurs contrats peuvent prétendre s’appeler "USDT"). Sur RGB, on veut un identifiant cryptographique unique, sans ambiguïté. D’où l’adoption de la chaîne de 256 bits, encodée en base58 et segmentée. L’utilisateur sait qu’il manipule précisément le contrat dont l’ID est `2WBcas9-yjz...` et pas un autre.
 
@@ -2563,7 +2557,7 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 - `?sig=...` : représente par exemple une signature associée à l’invoice, que certains wallets peuvent vérifier ;
 - Si un wallet ne gère pas cette signature, il ignore simplement ce paramètre.
 
-Prenons maintenant le cas d’un NFT via l’interface **RGB21**. On peut avoir :
+Prenons maintenant le cas d’un NFT via l’interface RGB21. On pourrait par exemple avoir :
 
 ```txt
 rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81jEp-E9FVZ3xj-cyuTKWWy-2gmdnaxt-ACrS+utxob:egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb
@@ -2590,9 +2584,9 @@ Ici, on retrouve :
 - `rgb:` : protocole ;
 - `2WBcas9-...` : ID du contrat ;
 - `/RGB20/issue/100000` : indique qu’on veut invoquer la transition "*Issue*" pour créer 100000 jetons supplémentaires ;
-- `+utxob:` : la seal deifnition.
+- `+utxob:` : la seal definition.
 
-Ainsi, le wallet pourra comprendre : "*On me demande d’effectuer une opération `issue` depuis l’interface `RGB20`, sur tel contrat, pour 100000 unités, au profit de tel sceau.*"
+Ainsi, le wallet pourra comprendre : "*On me demande d’effectuer une opération `issue` depuis l’interface `RGB20`, sur tel contrat, pour 100000 unités, au profit de tel Single-use Seal.*"
 
 Maintenant que nous avons étudié les principaux éléments liés à la programmation sur RGB, je vous propose, dans le chapitre suivant, de rédiger un contrat RGB.
 
@@ -2601,9 +2595,9 @@ Maintenant que nous avons étudié les principaux éléments liés à la program
 
 ![video](https://youtu.be/GRwS-NvWF3I)
 
-Dans ce chapitre, nous allons suivre pas à pas la rédaction d'un contrat, en utilisant l’outil en ligne de commande `rgb`. L’objectif est de montrer comment installer et manipuler le CLI, compiler un **Schema**, importer l’**Interface** et l’**Interface Implementation**, puis émettre (*issue*) un actif. Nous verrons également la logique sous-jacente, avec la compilation et la validation de l’état. À l’issue de ce chapitre, vous devriez être en mesure de reproduire la démarche et de créer vos propres contrats RGB.
+Dans ce chapitre, nous allons suivre pas à pas la rédaction d'un contrat, en utilisant l’outil en ligne de commande `rgb`. L’objectif est de montrer comment installer et manipuler la CLI, compiler un **Schema**, importer l’**Interface** et l’**Interface Implementation**, puis émettre (*issue*) un actif. Nous verrons également la logique sous-jacente, avec la compilation et la validation de l’état. À l’issue de ce chapitre, vous devriez être en mesure de reproduire la démarche et de créer vos propres contrats RGB.
 
-Pour rappel, la logique interne de RGB repose sur des bibliothèques Rust que vous, en tant que développeurs, pouvez importer dans vos projets pour gérer la partie Client-side Validation. En complément, l’équipe de l'Association LNP/BP travaille à proposer des bindings pour d’autres langages, mais ce n’est pas encore finalisé. Par ailleurs, d’autres entités comme Bitfinex développent leurs propres stacks d’intégration. Le CLI `rgb` constitue donc pour l’instant la référence officielle, même s’il reste relativement brut de décoffrage.
+Pour rappel, la logique interne de RGB repose sur des bibliothèques Rust que vous, en tant que développeurs, pouvez importer dans vos projets pour gérer la partie Client-side Validation. En complément, l’équipe de l'Association LNP/BP travaille à proposer des bindings pour d’autres langages, mais ce n’est pas encore finalisé. Par ailleurs, d’autres entités comme Bitfinex développent leurs propres stacks d’intégration (nous en parlerons dans les 2 derniers chapitres de la formation). La CLI `rgb` constitue donc pour l’instant la référence officielle, même si elle reste relativement brute de décoffrage.
 
 ### Installation et présentation de l’outil rgb
 
@@ -2659,13 +2653,13 @@ rgb import interfaces/RGB20.rgb
 
 ![RGB-Bitcoin](assets/fr/082.webp)
 
-En revanche, on nous indique qu’aucun schema n’est encore importé. Il n’y a pas non plus de contrat dans le stash :
+En revanche, on nous indique qu’aucun schema n’est encore importé dans le logiciel. Il n’y a pas non plus de contrat dans le stash. Pour le voir, exécutez la commande :
 
 ```bash
-rgb schema
+rgb schemata
 ```
 
-Vous pouvez cloner le dépôt pour récupérer certains schémas :
+Vous pouvez alors cloner le dépôt pour récupérer certains schémas :
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-schemata
@@ -2673,7 +2667,7 @@ git clone https://github.com/RGB-WG/rgb-schemata
 
 ![RGB-Bitcoin](assets/fr/083.webp)
 
-Ce dépôt contient, dans son répertoire `src/`, plusieurs fichiers Rust (par exemple `nia.rs`) qui définissent des schémas (NIA pour "*Non Inflatable Asset*", UDA pour "*Unique Digital Asset*", etc.). On peut alors exécuter :
+Ce dépôt contient, dans son répertoire `src/`, plusieurs fichiers Rust (par exemple `nia.rs`) qui définissent des schémas (NIA pour "*Non Inflatable Asset*", UDA pour "*Unique Digital Asset*", etc.). On peut alors exécuter pour compiler :
 
 ```bash
 cd rgb-schemata
@@ -2692,17 +2686,16 @@ rgb import schemata/NonInflatableAssets.rgb
 
 ![RGB-Bitcoin](assets/fr/084.webp)
 
-Cela l’ajoute dans le stash local. Si on tape la commande suivante, on constate que le schéma apparaît désormais :
+Cela permet de l'ajouter dans le stash local. Si on exécute la commande suivante, on constate que le schéma apparaît désormais :
 
 ```bash
-rgb schema
+rgb schemata
 ```
-
 
 ### Création d’un contrat (issuing)
 
 Pour créer un nouvel actif, il y a deux approches :
-- Soit on utilise un script ou code en Rust qui construit un **Contract** en alimentant les champs du schéma (global state, Owned States, etc.) et produit un fichier `.rgb` ou `.rgba` ;
+- Soit on utilise un script ou code en Rust qui construit un Contract en alimentant les champs du schéma (global state, Owned States, etc.) et produit un fichier `.rgb` ou `.rgba` ;
 - Soit on utilise directement la sous-commande `issue`, avec un fichier YAML (ou TOML) décrivant les propriétés du token.
 
 Vous pouvez retrouver des exemples en Rust dans le dossier `examples` qui illustrent comment on construit un `ContractBuilder`, on renseigne le `global state` (nom de l’actif, ticker, supply, date, etc.), on définit l’Owned State (à quel UTXO il est assigné), puis on compile tout cela en un *contract consignment* qu’on peut exporter, valider et importer dans un stash.
@@ -2738,7 +2731,7 @@ assignments:
 
 ![RGB-Bitcoin](assets/fr/085.webp)
 
-Ensuite, il suffit de taper la commande :
+Ensuite, il suffit d'exécuter la commande :
 
 ```bash
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
@@ -2746,7 +2739,7 @@ rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 
 ![RGB-Bitcoin](assets/fr/086.webp)
 
-Dans mon cas, l'identifiant unique du schéma (à mettre entre guillemets simples) est `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` et je n'ai mis aucun issuer :
+Dans mon cas, l'identifiant unique du schéma (à mettre entre guillemets simples) est `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` et je n'ai mis aucun issuer. Ma commande est donc :
 
 ```txt
 rgb issue 'RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k' ssi:anonymous rgb20-demo.yaml
@@ -2784,15 +2777,15 @@ rgb export '<ContractId>' myContractPBN.rgb
 
 ![RGB-Bitcoin](assets/fr/089.webp)
 
-Le fichier `myContractPBN.rgb` peut être transmis à un autre utilisateur, lequel pourra l’ajouter dans son stash  :
+Le fichier `myContractPBN.rgb` peut être transmis à un autre utilisateur, lequel pourra l’ajouter dans son stash avec la commande  :
 
 ```bash
 rgb import myContractPBN.rgb
 ```
 
-À l’import, si c’est un simple *contract consignment*, on aura un message du style `Importing consignment rgb`. S’il s’agit d’un *state transition consignment* plus volumineux, la commande diffère (`rgb accept`).
+À l’import, si c’est un simple *contract consignment*, on aura un message "`Importing consignment rgb`". S’il s’agit d’un *state transition consignment* plus volumineux, la commande sera différente (`rgb accept`).
 
-Pour s’assurer de la validité, on peut aussi utiliser la fonctionnalité de validation en local. On pourrait taper par exemple :
+Pour s’assurer de la validité, on peut aussi utiliser la fonctionnalité de validation en local. On pourrait exécuter par exemple :
 
 ```bash
 rgb validate myContract.rgb
@@ -2800,7 +2793,7 @@ rgb validate myContract.rgb
 
 #### Utilisation du stash, vérification et affichage
 
-Pour rappel, le stash est un inventaire en local qui conserve à la fois les schémas, les interfaces, les implémentations et les contrats (Genesis + transitions). Chaque fois qu’on fait `import`, on ajoute un élément au stash. On peut visualiser ce stash en détail avec la commande :
+Pour rappel, le stash est un inventaire en local qui conserve à la fois les schémas, les interfaces, les implémentations et les contrats (Genesis + transitions). Chaque fois qu’on exécute "`import`", on ajoute un élément au stash. On peut visualiser ce stash en détail avec la commande :
 
 ```bash
 rgb dump
@@ -2817,10 +2810,10 @@ Pour réaliser un transfert, il va falloir manipuler un wallet Bitcoin en local 
 #### Générer une invoice
 
 Dans la plupart des cas, l’interaction entre les participants d’un contrat (par exemple Alice et Bob) se fait via la génération d’une invoice. Si Alice souhaite que Bob exécute quelque chose (un transfert de tokens, une réémission, une action dans une DAO, etc.), Alice crée une invoice qui détaille ses instructions à Bob. On a donc :
-- **Alice** (l'émettrice de l’invoice) qui est appelée la *beneficiary* ;
-- **Bob** (qui reçoit et exécute l’invoice) qui est appelé l’*actor*.
+- **Alice** (l'émettrice de l’invoice) ;
+- **Bob** (qui reçoit et exécute l’invoice).
 
-Contrairement à d’autres écosystèmes, une invoice RGB ne se limite pas à la notion de paiement. Elle peut embarquer n’importe quelle requête liée au contrat : révoquer une clé, voter, créer une gravure (*engraving*) sur un NFT, etc. L’opération correspondante peut être décrite dans l’**interface** du contrat.
+Contrairement à d’autres écosystèmes, une invoice RGB ne se limite pas à la notion de paiement. Elle peut embarquer n’importe quelle requête liée au contrat : révoquer une clé, voter, créer une gravure (*engraving*) sur un NFT, etc. L’opération correspondante peut être décrite dans l’interface du contrat.
 
 La commande suivante vous permet de générer une invoice RGB :
 
@@ -2835,7 +2828,7 @@ Avec :
 - `$STATE` : la donnée d’état à transférer (par exemple un montant de tokens si on fait un transfert de token fongible) ;
 - `$SEAL` : le Single-use Seal du bénéficiaire (Alice), c'est-à-dire une référence explicite à un UTXO. Bob utilisera cette info pour construire la witness transaction, et l’output correspondant appartiendra ensuite à Alice (sous forme *blinded UTXO* ou en clair).
 
-Par exemple, avec la commande suivante :
+Par exemple, avec les commandes suivantes :
 
 ```bash
 alice$ CONTRACT='iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY'
@@ -2845,7 +2838,7 @@ alice$ MY_UTXO=4960acc21c175c551af84114541eace09c14d3a1bb184809f7b80916f57f9ef8:
 alice$ rgb invoice $CONTRACT -i RGB20 --amount 100 $MY_UTXO
 ```
 
-Le CLI va générer une invoice du style :
+La CLI va générer une invoice du style :
 
 ```bash
 rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-...
@@ -2864,8 +2857,8 @@ bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
 ```
 
 - Cela génère un fichier `consignment.rgb`  qui contient :
-	- L’historique des transitions prouvant à Alice que les tokens sont authentiques,
-	- La nouvelle transition qui transfère les tokens vers le Single-use Seal d’Alice,
+	- L’historique des transitions prouvant à Alice que les tokens sont authentiques ;
+	- La nouvelle transition qui transfère les tokens vers le Single-use Seal d’Alice ;
 	- Une witness transaction (non signée).
 
 - Bob envoie ce fichier `consignment.rgb` à Alice (par e-mail, un serveur de partage ou un protocole RGB-RPC, Storm, etc.) ;
@@ -2876,7 +2869,7 @@ alice$ rgb accept consignment.rgb
 ```
 
 - La CLI vérifie la validité de la transition et l’ajoute au stash d’Alice. Si c’est invalide, la commande échoue avec des messages d’erreur détaillés. Sinon, elle réussit, et signale que la transaction témoin n’est pas encore diffusée sur le réseau Bitcoin (Bob attend le feu vert d’Alice) ;
-- En guise de confirmation, la commande `accept` renvoie une signature (*payslip*) qu’Alice peut renvoyer à Bob pour lui montrer qu’elle a bien validé le *consignment* ;
+- En guise de confirmation, la commande `accept` renvoie une signature (*payslip*) qu’Alice peut envoyer à Bob pour lui montrer qu’elle a bien validé le *consignment* ;
 - Bob peut alors signer et publier (`--publish`) sa transaction Bitcoin :
 
 ```bash
@@ -2894,7 +2887,7 @@ Dans le prochain chapitre, nous aborderons plus en détail l'intégration de RGB
 
 Dans ce chapitre, je vous propose d'examiner comment RGB peut être utilisé au sein du Lightning Network, afin d’intégrer et de déplacer des actifs RGB (tokens, NFT, etc.) via des canaux de paiement off-chain.
 
-L’idée fondamentale est que la transition d’état RGB (*State Transition*) peut être engagée dans une transaction Bitcoin qui, elle-même, peut rester off-chain tant que le canal Lightning n’est pas fermé. Ainsi, à chaque mise à jour de canal, on peut incorporer une **nouvelle transition d’état RGB** dans la nouvelle transaction d'engagement, qui invalide alors l’ancienne transition. De cette façon, des canaux Lightning peuvent servir à transférer des actifs RGB, et on peut les router comme on le ferait pour des paiements Lightning classiques.
+L’idée fondamentale est que la transition d’état RGB (*State Transition*) peut être engagée dans une transaction Bitcoin qui, elle-même, peut rester off-chain tant que le canal Lightning n’est pas fermé. Ainsi, à chaque mise à jour de canal, on peut incorporer une nouvelle transition d’état RGB dans la nouvelle transaction d'engagement, qui invalide alors l’ancienne transition. De cette façon, des canaux Lightning peuvent servir à transférer des actifs RGB, et on peut les router comme on le ferait pour des paiements Lightning classiques.
 
 ### Création d'un canal et funding
 
@@ -2934,7 +2927,7 @@ La transaction d'engagement signée par Bob, prête à être diffusée par Alice
 
 ### Gestion des HTLCs
 
-Dans la réalité, le Lightning Network permet le routage de paiements via des canaux multiples, en utilisant des HTLCs (*Hashed Time-Locked Contracts*). C’est identique avec RGB : pour tout paiement en transit dans le canal, on ajoute une sortie HTLC à la transaction d'engagement, plus une allocation RGB liée à cet HTLC. Ainsi, celui qui dépense la sortie HTLC (grâce au secret ou après expiration du timelock) récupère à la fois les sats et les actifs RGB associés. On peut en accumuler plusieurs si plusieurs routages sont en attente.
+Dans la réalité, le Lightning Network permet le routage de paiements via des canaux multiples, en utilisant des HTLCs (*Hashed Time-Locked Contracts*). C’est identique avec RGB : pour tout paiement en transit dans le canal, on ajoute une sortie HTLC à la transaction d'engagement et une allocation RGB liée à cet HTLC. Ainsi, celui qui dépense la sortie HTLC (grâce au secret ou après expiration du timelock) récupère à la fois les sats et les actifs RGB associés. En revanche, il faut évidemment avoir sur la route suffisamment de liquidités à la fois en sats et en actif RGB.
 
 ![RGB-Bitcoin](assets/fr/096.webp)
 
@@ -2954,7 +2947,7 @@ Pour terminer et avant de passer à la section suivante, je voudrais vous faire 
 - **Repository** : [client_side_validation](https://github.com/LNP-BP/client_side_validation)
 - **Crates** : [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
 
-Cette partie gère la validation off-chain et la logique des Single-use Seals.
+Gestion de la validation off-chain et de la logique des Single-use Seals.
 
 #### Deterministic Bitcoin Commitments (DBC)
 
@@ -2997,7 +2990,7 @@ Implémentations standard, gestion du stash et wallet.
 - **Repository** : [rgb](https://github.com/RGB-WG/rgb)
 - **Crates** : [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
 
-La CLI `rgb` et le crate wallet, permettant de manipuler les contrats en ligne de commande.
+La CLI `rgb` et le crate wallet, qui permettent de manipuler les contrats en ligne de commande.
 
 #### RGB Schema
 
@@ -3038,69 +3031,64 @@ Cette dernière section de la formation provient de présentations effectuées p
 
 ### De JavaScript à Rust, et l’entrée dans l’écosystème Bitcoin
 
-Au début, Hunter Beast travaillait principalement en JavaScript. Puis il a découvert **Rust**, dont la syntaxe lui semblait peu attrayante et frustrante au départ. Cependant, il en est venu à apprécier la puissance offerte par ce langage de, le contrôle sur la mémoire (heap et stack), ainsi que la sécurité et les performances qui en découlent.
+Au début, Hunter Beast travaillait principalement en JavaScript. Puis il a découvert **Rust**, dont la syntaxe lui semblait peu attrayante et frustrante au départ. Cependant, il en est venu à apprécier la puissance offerte par ce langage, le contrôle sur la mémoire (*heap* et *stack*), ainsi que la sécurité et les performances qui en découlent. Il souligne que Rust constitue une excellente formation pour comprendre en profondeur comment fonctionne un ordinateur.
 
-Il souligne que Rust constitue une excellente formation pour comprendre en profondeur comment fonctionne un ordinateur. Il donne l’exemple d’un calcul de Fibonacci réalisé à la compilation (compile-time) par Eli Kostolini, exploitant la pile (stack) pour un gain de performance. Globalement, la transition de JavaScript vers Rust l’a aidé à acquérir une meilleure conscience des concepts bas-niveau.
-
-Hunter Beast raconte son passé dans divers projets de l’écosystème des *altcoins*, comme Ethereum (avec du Solidity, du TypeScript, etc.), et plus tard Filecoin. Il explique avoir été d’abord impressionné par certains protocoles, mais avoir fini par se sentir désillusionné par la plupart, notamment à cause de leur tokenomics.
-
-Il dénonce les incitations financières douteuses, la création inflationniste des tokens qui dilue les investisseurs, et l’aspect possiblement exploitative de ces projets. Il finit donc par adopter une posture de **Bitcoin maximaliste**, notamment parce que certaines personnes lui ont ouvert les yeux sur les mécanismes économiques plus sains de Bitcoin, et sur la robustesse de ce système.
+Hunter Beast raconte son passé dans divers projets de l’écosystème des *altcoins*, comme Ethereum (avec du Solidity, du TypeScript, etc.), et plus tard Filecoin. Il explique avoir été d’abord impressionné par certains protocoles, mais avoir fini par se sentir désillusionné par la plupart, notamment à cause de leur tokenomics. Il dénonce les incitations financières douteuses, la création inflationniste des tokens qui dilue les investisseurs, et l’aspect possiblement exploitative de ces projets. Il finit donc par adopter une posture de **Bitcoin maximaliste**, notamment parce que certaines personnes lui ont ouvert les yeux sur les mécanismes économiques plus sains de Bitcoin, et sur la robustesse de ce système.
 
 ### L’attrait pour RGB et la construction sur des layers
 
-Ce qui l’a définitivement convaincu de la pertinence de Bitcoin, selon ses dires, est la découverte de RGB et du concept de **layers**. Il considère que les fonctionnalités existantes sur d’autres blockchains pourrait être reproduites sur des couches supérieures, au-dessus de Bitcoin, sans altérer le protocole de base.
+Ce qui l’a définitivement convaincu de la pertinence de Bitcoin, selon ses dires, est la découverte de RGB et du concept de layers. Il considère que les fonctionnalités existantes sur d’autres blockchains pourrait être reproduites sur des couches supérieures, au-dessus de Bitcoin, sans altérer le protocole de base.
 
-En février 2022, il rejoint **DIBA** pour travailler précisément sur RGB, et en particulier sur le wallet **Bitmask**. À l’époque, Bitmask en était encore à la version _0.01_ et exploitait RGB en version 0.4, uniquement pour la gestion de tokens simples. Il note que c’était moins tourné vers la self custody qu’aujourd’hui, car la logique reposait en partie sur un serveur. Depuis, l’architecture a évolué aller vers ce modèle apprécié par les bitcoiners.
+En février 2022, il rejoint **DIBA** pour travailler précisément sur RGB, et en particulier sur le wallet **Bitmask**. À l’époque, Bitmask en était encore à la version 0.01 et exploitait RGB en version 0.4, uniquement pour la gestion de tokens simples. Il note que c’était moins tourné vers la self-custody qu’aujourd’hui, car la logique reposait en partie sur un serveur. Depuis, l’architecture a évolué vers ce modèle apprécié par les bitcoiners.
 
 ### Les fondements du protocole RGB
 
 Le protocole **RGB** est la concrétisation la plus récente et la plus poussée du concept de _colored coins_, déjà exploré vers 2012-2013. À l’époque, plusieurs équipes cherchaient à associer de la valeur différente du bitcoin sur des UTXOs, ce qui a mené à de multiples implémentations dispersées. Ce manque de standardisation et la faible demande de l’époque ont empêché ces solutions de s’imposer durablement.
 
-RGB se distingue aujourd’hui par sa solidité conceptuelle et ses spécifications unifiées via l’association LNPBP. Le principe repose sur une validation hors de la blockchain (Client-side Validation). La blockchain Bitcoin ne stocke que des engagements cryptographiques (_commitments_, via Taproot ou OP_RETURN), tandis que la majorité des données (définition des contrats, historiques de transferts, etc.) se conserve chez les utilisateurs concernés. Ainsi, la charge de stockage est répartie et la confidentialité des échanges est renforcée, sans alourdir la blockchain. Cette approche permet la création d’actifs fongibles (standard **RGB20**) ou d’actifs uniques (standard **RGB21**), dans un cadre modulaire et évolutif.
+RGB se distingue aujourd’hui par sa solidité conceptuelle et ses spécifications unifiées via l’association LNP/BP. Le principe repose sur une validation en dehors de la blockchain (Client-side Validation). La blockchain Bitcoin ne stocke que des engagements cryptographiques (_commitments_, via Taproot ou OP_RETURN), tandis que la majorité des données (définition des contrats, historiques de transferts, etc.) se conserve chez les utilisateurs concernés. Ainsi, la charge de stockage est répartie et la confidentialité des échanges est renforcée, sans alourdir la blockchain. Cette approche permet la création d’actifs fongibles (standard **RGB20**) ou d’actifs uniques (standard **RGB21**), dans un cadre modulaire et évolutif.
 
 ### La fonction de tokens (RGB20) et d’actifs uniques (RGB21)
 
 Avec **RGB20**, on définit un jeton fongible sur Bitcoin. L’émetteur choisit un _supply_, une _precision_, et crée un _contrat_ dans lequel il peut ensuite effectuer des transferts. Chaque transfert fait référence à un UTXO Bitcoin, qui agit comme un *Single-use Seal*. Cette logique garantit que l’utilisateur ne pourra pas dépenser le même actif deux fois, puisque seule la personne capable de dépenser l’UTXO détient effectivement la clé permettant d’actualiser l’état du contrat côté client.
 
-RGB **21** cible quant à lui les actifs uniques (ou "NFT"). L’actif a une supply de 1, et on peut y associer des métadonnées (fichier image, audio, etc.) décrites via un champ _attachment_. Contrairement aux NFT sur des blockchains publiques, les données et leurs identifiants MIME peuvent rester privées, diffusées de pair à pair selon la volonté du propriétaire.
+**RGB21** cible quant à lui les actifs uniques (ou "NFT"). L’actif a une supply de 1, et on peut y associer des métadonnées (fichier image, audio, etc.) décrites via un champ spécifique. Contrairement aux NFT sur des blockchains publiques, les données et leurs identifiants MIME peuvent rester privées, diffusées de pair à pair selon la volonté du propriétaire.
 
 ### La solution Bitmask : un wallet pour RGB
 
-Pour exploiter concrètement les capacités de RGB, le projet **DIBA** a conçu un wallet baptisé **[Bitmask](https://bitmask.app/)**. L’idée est de fournir un outil non custodial, basé sur Taproot, accessible comme une application web ou une extension de navigateur. Bitmask gère à la fois des actifs RGB20 et RGB21, et intègre divers mécanismes de sécurisation :
+Pour exploiter concrètement les capacités de RGB, le projet **DIBA** a conçu un wallet baptisé [Bitmask](https://bitmask.app/). L’idée est de fournir un outil non custodial, basé sur Taproot, accessible comme une application web ou une extension de navigateur. Bitmask gère à la fois des actifs RGB20 et RGB21, et intègre divers mécanismes de sécurisation :
 - Le code central est écrit en Rust, puis compilé en WebAssembly pour s’exécuter dans un environnement JavaScript (React) ;
 - Les clés sont générées localement, puis stockées chiffrées en local ;
 - Les données relatives à l’état (stash) sont maintenues dans un stock en mémoire, sérialisées et chiffrées via la bibliothèque **Carbonado**, qui effectue compression, correction d’erreurs, chiffrement et vérification du flux en utilisant Blake3.
 
-Grâce à cette architecture, toutes les opérations sur les actifs se font côté client. La transaction Bitcoin n’est, de l’extérieur, qu’une transaction de dépense Taproot classique, dont personne ne peut soupçonner qu’elle véhicule aussi un transfert de tokens NFT ou fongibles. L’absence de surcharge on-chain (pas de métadonnées stockées publiquement) garantit une certaine discrétion et permet de mieux résister aux éventuelles tentatives de censure.
+Grâce à cette architecture, toutes les opérations sur les actifs se font côté client. La transaction Bitcoin n’est, de l’extérieur, qu’une transaction de dépense Taproot classique, dont personne ne peut soupçonner qu’elle véhicule aussi un transfert de tokens fongibles ou de NFT. L’absence de surcharge on-chain (pas de métadonnées stockées publiquement) garantit une certaine discrétion et permet de mieux résister aux éventuelles tentatives de censure.
 
 ### Sécurité et architecture distribuée
 
 Dans la mesure où le protocole RGB exige que chaque participant conserve son historique de transactions (pour prouver la validité des transferts qu’il reçoit), la question du stockage se pose. Bitmask propose de sérialiser ce stash localement, puis de l’envoyer vers plusieurs serveurs ou clouds (optionnellement). Les données restent chiffrées par l’utilisateur via **Carbonado** ; ainsi, un serveur ne peut pas lire ces informations. En cas de corruption partielle, la couche de correction d’erreurs peut reconstituer le contenu.
 
-L’usage du CRDT (_Conflict-free replicated data type_) permet de fusionner différentes versions du stash si jamais elles divergent. Chacun est libre d’héberger ces données où il le souhaite, car aucun full node unique ne porte la totalité des informations liées à l’actif. Cela reflète exactement la philosophie Client-side Validation, où chaque propriétaire est responsable du stockage des preuves de la validité de son asset.
+L’usage du CRDT (_Conflict-free replicated data type_) permet de fusionner différentes versions du stash si jamais elles divergent. Chacun est libre d’héberger ces données où il le souhaite, car aucun full node unique ne porte la totalité des informations liées à l’actif. Cela reflète exactement la philosophie *Client-side Validation*, où chaque propriétaire est responsable du stockage des preuves de la validité de son actif RGB.
 
 ### Vers un écosystème plus large : marketplace, interopérabilité et nouvelles fonctionnalités
 
 La société derrière Bitmask ne se limite pas au simple développement d'un wallet. DIBA entend développer :
 - Une **marketplace** pour échanger les tokens, notamment sous forme **RGB21** ;
 - Une compatibilité avec d’autres wallets (comme *Iris Wallet*) ;
-- Des techniques de **transfer batching**, c’est-à-dire la possibilité d’inclure plusieurs transferts RGB successifs dans une seule transaction, en profitant du délai de minage sur Bitcoin et de _Replace-By-Fee_.
+- Des techniques de **transfer batching**, c’est-à-dire la possibilité d’inclure plusieurs transferts RGB successifs dans une seule transaction.
 
-En parallèle, certains développements portent sur **WebBTC** ou **WebLN** (standards permettant à des sites web de demander au wallet de signer des opérations Bitcoin ou Lightning), ainsi que sur la capacité de télébrûler des inscriptions Ordinals (si on veut rapatrier l’Ordinals vers un format RGB plus discret et plus flexible).
+En parallèle, certains développements portent sur **WebBTC** ou **WebLN** (des standards permettant à des sites web de demander au wallet de signer des opérations Bitcoin ou Lightning), ainsi que sur la capacité de "télébrûler" des inscriptions Ordinals (si on veut rapatrier l’Ordinals vers un format RGB plus discret et plus flexible).
 
 ### Conclusion
 
-L’ensemble de cette démarche montre comment l’écosystème **RGB** peut être déployé et rendu accessible à des utilisateurs finaux grâce à des solutions techniques robustes. La transition d’une perspective altcoin vers une vision plus centrée sur Bitcoin, couplée à la découverte de la Client-side Validation, illustre un cheminement assez logique : on comprend qu’il est possible d’implémenter des fonctionnalités variées (fongibles, NFT, smart contracts…) sans forker la blockchain, simplement en profitant d’engagements cryptographiques sur des transactions Taproot ou des OP_RETURN.
+L’ensemble de cette démarche montre comment l’écosystème RGB peut être déployé et rendu accessible à des utilisateurs finaux grâce à des solutions techniques robustes. La transition d’une perspective altcoin vers une vision plus centrée sur Bitcoin, couplée à la découverte de la *Client-side Validation*, illustre un cheminement assez logique : on comprend qu’il est possible d’implémenter des fonctionnalités variées (tokens fongibles, NFT, smart contracts…) sans forker la blockchain, simplement en profitant d’engagements cryptographiques sur des transactions Taproot ou des OP_RETURN.
 
 Le wallet **Bitmask** s'inscrit dans cette démarche : côté blockchain, on ne voit qu’une transaction Bitcoin banale ; côté utilisateur, on manipule une interface web où l’on crée, échange, et stocke toutes sortes d’actifs off-chain. Ce modèle dissocie clairement l’infrastructure monétaire (Bitcoin) de la logique d’émission et de transferts (RGB), tout en assurant une grande confidentialité et un meilleur passage à l’échelle.
-
 
 ## Les travaux de Bitfinex sur RGB
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
 ![vidéo](https://youtu.be/5iAhsgCSL3U)
 
-Dans ce chapitre établi sur la présentation de Frederico Tenga, nous étudions un ensemble d’outils et de projets créés par l'équipe de Bitfinex dédiée à **RGB**, dans l’optique de favoriser l’émergence d’un écosystème riche et diversifié autour de ce protocole. L’équipe n’a pas, au départ, l’objectif de sortir un produit commercial précis ; elle s’emploie plutôt à mettre à disposition des briques logicielles, à contribuer au protocole RGB lui-même, et à proposer des références de mise en œuvre concrètes comme un wallet mobile (*Iris Wallet*) ou un nœud Lightning compatible RGB.
+Dans ce chapitre établi sur la présentation de Frederico Tenga, nous étudions un ensemble d’outils et de projets créés par l'équipe de Bitfinex dédiée à RGB, dans l’optique de favoriser l’émergence d’un écosystème riche et diversifié autour de ce protocole. L’équipe n’a pas, au départ, l’objectif de sortir un produit commercial précis ; elle s’emploie plutôt à mettre à disposition des briques logicielles, à contribuer au protocole RGB lui-même, et à proposer des références de mise en œuvre concrètes comme un wallet mobile (*Iris Wallet*) ou un nœud Lightning compatible RGB.
 
 ### Contexte et objectifs
 
@@ -3115,7 +3103,7 @@ Cette approche vise à couvrir toute la chaîne de besoins : de la librairie d
 
 ### La librairie RGBlib : simplifier le développement d’applications RGB
 
-Un point important pour démocratiser la création de wallets et d’applications RGB réside dans la mise à disposition d’une **abstraction** suffisamment simple pour que les développeurs n’aient pas à tout apprendre de la logique interne du protocole. C’est précisément l’objectif de **RGBlib**, écrite en Rust.
+Un point important pour démocratiser la création de wallets et d’applications RGB réside dans la mise à disposition d’une abstraction suffisamment simple pour que les développeurs n’aient pas à tout apprendre de la logique interne du protocole. C’est précisément l’objectif de **RGBlib**, écrite en Rust.
 
 RGBlib joue le rôle de passerelle entre les exigences très flexibles (mais parfois complexes) de RGB que nous avons pu étudier dans les chapitres précédents, et les besoins concrets d’un développeur d’application. En d’autres termes, un wallet (ou un service) qui souhaite gérer des transferts de tokens, des émissions d’assets, des vérifications, etc., peut s’appuyer sur RGBlib sans connaître chaque détail cryptographique ou chaque paramètre customisable de RGB.
 
@@ -3124,21 +3112,21 @@ La librairie propose :
 - La possibilité de transférer (envoyer/réceptionner) des assets en manipulant des objets simples (adresses, montants, UTXOs, etc.) ;
 - Un mécanisme pour stocker et charger les informations d’état (*consignments*) indispensables à la Client-side Validation.
 
-RGBlib repose donc sur des notions complexes propres à RGB (Client-side Validation, ancrages Tapret/Opret), mais les encapsule pour que l’application finale n’ait pas à tout reprogrammer ni à prendre de décisions hasardeuses. De plus, RGBlib est déjà bindée à plusieurs langages (Kotlin, Python), ce qui ouvre la porte à des usages plus larges qu’un simple univers Rust.
+RGBlib repose donc sur des notions complexes propres à RGB (Client-side Validation, ancrages Tapret/Opret), mais les encapsule pour que l’application finale n’ait pas à tout reprogrammer ni à prendre de décisions hasardeuses. De plus, RGBlib est déjà bindée dans plusieurs langages (Kotlin et Python), ce qui ouvre la porte à des usages plus larges qu’un simple univers en Rust.
 
 ### Iris Wallet : un exemple de wallet RGB sur Android
 
-Pour prouver l’efficacité de RGBlib, l’équipe a développé **Iris Wallet**, exclusivement sur Android à ce stade. Il s’agit d’un wallet mobile permettant d’illustrer un parcours utilisateur proche d’un wallet Bitcoin ordinaire : on peut y émettre un asset, l’envoyer, le recevoir, et voir son historique, tout en restant sur un modèle de **self-custody*.
+Pour prouver l’efficacité de RGBlib, l’équipe de Bitfinex a développé **Iris Wallet**, exclusivement sur Android à ce stade. Il s’agit d’un wallet mobile permettant d’illustrer un parcours utilisateur proche d’un wallet Bitcoin ordinaire : on peut y émettre un asset, l’envoyer, le recevoir, et voir son historique, tout en restant sur un modèle de self-custody.
 
 Iris dispose de certaines caractéristiques intéressantes :
 
-- **Utilisation d’un serveur Electrum :**
+**Utilisation d’un serveur Electrum :**
 
 Comme tout wallet, Iris doit connaître les confirmations de transactions sur la blockchain. Plutôt que d’embarquer un nœud complet, Iris s’appuie par défaut sur un serveur Electrum maintenu par l’équipe de Bitfinex. L’utilisateur, s’il le souhaite, peut cependant configurer son propre serveur ou un autre service tiers. Ainsi, la validation des transactions Bitcoin et la récupération d’informations (indexation) se fait de façon modulable.
 
-- **Le serveur proxy RGB :**
+**Le serveur proxy RGB :**
 
-Contrairement à Bitcoin, RGB exige l’échange de métadonnées off-chain (*consignments*) entre l’expéditeur et le receveur. Pour simplifier, Iris propose une solution où la communication s’effectue via un serveur proxy. Le wallet destinataire génère une *invoice* mentionnant notamment où l’expéditeur doit envoyer les données *client-side*. Par défaut, l’URL pointant vers un proxy hébergé par l’équipe est intégrée, mais il demeure possible de changer ce proxy (ou d’en héberger un soi-même). L’idée est de retrouver une **expérience utilisateur familière** où le destinataire affiche un QR code, et l’expéditeur scanne ce code pour la transaction, sans manipulations supplémentaires complexes.
+Contrairement à Bitcoin, RGB exige l’échange de métadonnées off-chain (*consignments*) entre l’expéditeur et le receveur. Pour simplifier ce procesus, Iris propose une solution où la communication s’effectue via un serveur proxy. Le wallet destinataire génère une *invoice* mentionnant notamment où l’expéditeur doit envoyer les données *client-side*. Par défaut, l’URL pointe vers un proxy hébergé par l’équipe de Bitfinex, mais il demeure possible de changer ce proxy (ou d’en héberger un soi-même). L’idée est de retrouver une expérience utilisateur familière où le destinataire affiche un QR code, et l’expéditeur scanne ce code pour la transaction, sans manipulations supplémentaires complexes.
 
 **Sauvegarde en continu :**
 
@@ -3146,8 +3134,8 @@ Dans un contexte strictement Bitcoin, sauvegarder sa seed suffit généralement 
 
 **Autres fonctionnalités :**
 
-- Possibilité de créer un **faucet** pour tester ou distribuer rapidement des tokens à des fins d’expérimentation ou de promotion ;
-- Un système de **certification** (pour l’instant centralisé) afin de distinguer un token légitime d’un faux jeton copiant un ticker célèbre. Dans l’avenir, cette certification pourra devenir plus décentralisée (via DNS ou d'autres mécanismes).
+- Possibilité de créer un faucet pour tester ou distribuer rapidement des tokens à des fins d’expérimentation ou de promotion ;
+- Un système de certification (pour l’instant centralisé) afin de distinguer un token légitime d’un faux jeton copiant un ticker célèbre. Dans l’avenir, cette certification pourra devenir plus décentralisée (via DNS ou d'autres mécanismes).
 
 Au final, Iris affiche donc une expérience utilisateur proche d’un wallet Bitcoin classique, en masquant la complexité supplémentaire (gestion du stash, historique de *consignments*, etc.) grâce à RGBlib et l'utilisation d'un serveur proxy.
 
@@ -3164,28 +3152,28 @@ Ainsi, le wallet se comporte presque comme un wallet normal. L’utilisateur n�
 
 ### Intégration de RGB sur le Lightning Network
 
-Un autre axe essentiel du travail mené par l’équipe de Bitfinex consiste à rendre le Lightning Network compatible avec des assets RGB. L’objectif est de permettre des canaux LN en USDT (ou autre jeton), et de bénéficier des mêmes avantages que pour le bitcoin sur Lightning (transactions quasi instantanées, routage, etc.). Concrètement, il s’agit de créer un nœud Lightning modifié pour :
+Un autre axe essentiel du travail mené par l’équipe de Bitfinex consiste à rendre le Lightning Network compatible avec des assets RGB. L’objectif est de permettre des canaux Lightning en USDT (ou tout autre jeton), et de bénéficier des mêmes avantages que pour le bitcoin sur Lightning (transactions quasi instantanées, routage, etc.). Concrètement, il s’agit de créer un nœud Lightning modifié pour :
 - Ouvrir un canal en plaçant non seulement des satoshis, mais aussi un ou plusieurs assets RGB dans l’UTXO multisig de funding ;
-- Générer les transactions d'engagement Lightning (côté Bitcoin) accompagnées de transitions d’état RGB correspondantes. À chaque mise à jour du canal, une transition RGB redéfinit la répartition de l’asset dans les sorties LN ;
+- Générer les transactions d'engagement Lightning (côté Bitcoin) accompagnées de transitions d’état RGB correspondantes. À chaque mise à jour du canal, une transition RGB redéfinit la répartition de l’asset dans les sorties Lightning ;
 - Permettre la fermeture unilatérale, où l’on récupère l’asset dans un UTXO exclusif, conformément aux règles du Lightning Network (HTLC, timelock, punition...).
 
-Cette solution, baptisée "**RGB Lightning Node**", utilise notamment LDK (*Lightning Dev Kit*) comme base et ajoute les mécanismes nécessaires pour injecter des tokens RGB dans les canaux. Les engagements Lightning conservent la structure classique (sorties punissables, timelock...), et en plus on y ancre une transition d'état RGB (via `Opret` ou `Tapret`). Pour l’utilisateur, cela ouvre la voie à des canaux LN en stablecoins ou en tout autre actif émis via RGB.
+Cette solution, baptisée "**RGB Lightning Node**", utilise notamment LDK (*Lightning Dev Kit*) comme base et ajoute les mécanismes nécessaires pour injecter des tokens RGB dans les canaux. Les engagements Lightning conservent la structure classique (sorties punissables, timelock...), et en plus on y ancre une transition d'état RGB (via `Opret` ou `Tapret`). Pour l’utilisateur, cela ouvre la voie à des canaux Lightning en stablecoins ou en tout autre actif émis via RGB.
 
 ### Potentiel DEX et impacts sur Bitcoin
 
-Une fois plusieurs actifs gérés via LN, il devient possible d’imaginer un **échange atomique** sur un unique chemin de routage Lightning, en utilisant la même logique de secrets et timelocks. Par exemple, un utilisateur A détient du bitcoin sur un canal LN, et un utilisateur B détient de l’USDT RGB sur un autre canal LN. Ils peuvent construire un chemin reliant leurs deux canaux et échanger simultanément BTC contre USDT, sans besoin de confiance. Ce n’est rien d’autre qu’un **atomic swap** se déroulant en plusieurs sauts, rendant les participants extérieurs quasi inconscients du fait qu’ils réalisent un trade, pas juste un routage. Cette approche offre :
+Une fois plusieurs actifs gérés via Lightning, il devient possible d’imaginer un **échange atomique** sur un unique chemin de routage Lightning, en utilisant la même logique de secrets et timelocks. Par exemple, un utilisateur A détient du bitcoin sur un canal Lightning, et un utilisateur B détient de l’USDT RGB sur un autre canal Lightning. Ils peuvent construire un chemin reliant leurs deux canaux et échanger simultanément BTC contre USDT, sans besoin de confiance. Ce n’est rien d’autre qu’un **atomic swap** se déroulant en plusieurs sauts, rendant les participants extérieurs quasi inconscients du fait qu’ils réalisent un trade, pas juste un routage. Cette approche offre :
 - Une latence très faible, car tout reste off-chain sur Lightning.
 - Une **privacy** supérieure : personne ne sait que c’est un trade, et pas un routage normal ;
 - L’évitement du "frontrunning", un problème récurrent des DEX on-chain ;
-- Des frais réduits (on ne paie pas de blockspace, mais juste des frais de routage LN).
+- Des frais réduits (on ne paie pas de blockspace, mais juste des frais de routage Lightning).
 
 On peut alors imaginer un écosystème où des nœuds Lightning proposent des prix de swap (en fournissant de la liquidité). Chaque nœud, s’il le souhaite, peut jouer ce rôle de _market maker_, en achetant et en vendant divers actifs sur Lightning. Cette perspective d’un DEX _layer-2_ renforce l’idée qu’il n’est pas nécessaire de fork ou d’utiliser des blockchains tierces pour obtenir des échanges d’actifs décentralisés.
 
-L’impact pour Bitcoin peut être positif : l’infrastructure de Lightning (nœuds, canaux et services) serait davantage utilisée grâce aux volumes générés par ces *stablecoins*, dérivés et autres tokens. Les commerçants intéressés par les paiements en USDT sur Lightning, découvriraient mécaniquement les paiements en BTC sur Lightning (géré par la même stack). L’entretien et le financement de l’infrastructure du Lightning Network pourraient aussi profiter de la multiplication de ces flux non-BTC, ce qui, indirectement, profiterait aux utilisateurs de Bitcoin.
+L’impact pour Bitcoin peut être positif : l’infrastructure de Lightning (nœuds, canaux et services) serait davantage utilisée grâce aux volumes générés par ces *stablecoins*, dérivés et autres tokens. Les commerçants intéressés par les paiements en USDT sur Lightning, découvriraient mécaniquement les paiements en BTC sur Lightning (gérés par la même stack). L’entretien et le financement de l’infrastructure du Lightning Network pourraient aussi profiter de la multiplication de ces flux non-BTC, ce qui, indirectement, profiterait aux utilisateurs de Bitcoin.
 
 ### Conclusion et ressources
 
-L’équipe Bitfinex dédiée à RGB illustre, via ses travaux, la diversité de ce qu’on peut faire au-dessus du protocole. D’un côté, on a RGBlib, une librairie qui facilite la conception de wallets et d’applications. D’un autre côté, on a Iris Wallet, une démonstration pratique sur Android d’une interface soignée pour l’utilisateur final. Enfin, l’intégration de RGB à Lightning montre que des canaux en stablecoin sont rendus possibles, et ouvre la voie à un potentiel DEX décentralisé sur Lightning.
+L’équipe de Bitfinex dédiée à RGB illustre, via ses travaux, la diversité de ce qu’on peut faire au-dessus du protocole. D’un côté, on a RGBlib, une librairie qui facilite la conception de wallets et d’applications. D’un autre côté, on a Iris Wallet, une démonstration pratique sur Android d’une interface soignée pour l’utilisateur final. Enfin, l’intégration de RGB à Lightning montre que des canaux en stablecoin sont rendus possibles, et ouvre la voie à un potentiel DEX décentralisé sur Lightning.
 
 Cette démarche reste largement expérimentale et continue d’évoluer : la librairie RGBlib se peaufine au fur et à mesure, Iris Wallet reçoit des améliorations régulières et le nœud Lightning dédié n’est pas encore un client Lightning mainstream.
 
@@ -3216,17 +3204,15 @@ Le processus reprend et met en pratique toutes les notions abordées dans les ch
 ### Présentation de rgb-lightning-node
 
 Le projet **`rgb-lightning-node`** est un daemon en Rust qui s’appuie sur un fork de `rust-lightning` (LDK) modifié pour prendre en compte l’existence d’assets RGB dans un canal. Lors de l’ouverture d’un canal, on peut ainsi préciser la présence d’assets, et lors de chaque mise à jour de l’état du canal, une transition RGB est créée, qui reflète la répartition de l’asset dans les outputs Lightning. Cela permet :
-- D’ouvrir des canaux LN en USDT par exemple ;
-- D’acheminer ces tokens à travers le réseau, à condition que les chemins de routage disposent des suffisamment de liquidités ;
+- D’ouvrir des canaux Lightning en USDT par exemple ;
+- D’acheminer ces tokens à travers le réseau, à condition que les chemins de routage disposent de suffisamment de liquidités ;
 - D’exploiter la logique de punition et de timelock Lightning sans modification : on ancre simplement la transition RGB dans une sortie supplémentaire de la transaction d'engagement.
 
 Le code est encore à un stade alpha : il est conseillé de l’utiliser en **regtest** ou sur le **testnet** uniquement.
 
 ### Installation du nœud
 
-Pour compiler et installer le binaire `rgb-lightning-node`, on commence par cloner le dépôt et ses sous-modules, puis on va lancer la compilation.
-
-- **Récupération du code source** :
+Pour compiler et installer le binaire `rgb-lightning-node`, on commence par cloner le dépôt et ses sous-modules, puis on va lancer la compilation :
 
 ```bash
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
@@ -3237,9 +3223,7 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 - L’option `--recurse-submodules` permet de cloner également les sous-dépôts nécessaires (dont la version modifiée de `rust-lightning`) ;
 - L’option `--shallow-submodules` restreint la profondeur du clone pour accélérer le téléchargement, tout en ayant accès aux commits indispensables.
 
-- **Compilation et installation du binaire** :
-
-Depuis la racine du projet, exécutez :
+Depuis la racine du projet, exécutez la commande suivante pour compiler et installer le binaire :
 
 ```bash
 cargo install --locked --debug --path .
@@ -3251,7 +3235,7 @@ cargo install --locked --debug --path .
 - `--debug` n’est pas obligatoire, mais peut faciliter la mise au point (vous pouvez utiliser `--release` si vous préférez) ;
 - `--path .` indique à `cargo install` d’installer depuis le répertoire courant.
 
-Au terme de cette commande, un exécutable **`rgb-lightning-node`** sera disponible dans votre `$CARGO_HOME/bin/`. Assurez-vous que ce chemin est dans votre `$PATH` pour pouvoir invoquer la commande depuis n’importe quel répertoire.
+Au terme de cette commande, un exécutable `rgb-lightning-node` sera disponible dans votre `$CARGO_HOME/bin/`. Assurez-vous que ce chemin est dans votre `$PATH` pour pouvoir invoquer la commande depuis n’importe quel répertoire.
 
 ### Prérequis d’exécution
 
@@ -3267,9 +3251,9 @@ Le daemon doit pouvoir lister et explorer les transactions on-chain, en particul
 
 - **Un proxy RGB**  
 
-Comme vu dans les chapitres précédents, le **serveur proxy** est un composant (optionnel, mais fortement recommandé) permettant de simplifier l’échange de *consignments* entre pairs LN. Là encore, une URL doit être spécifiée.
+Comme vu dans les chapitres précédents, le **serveur proxy** est un composant (optionnel, mais fortement recommandé) permettant de simplifier l’échange de *consignments* entre pairs Lightning. Là encore, une URL doit être spécifiée.
 
-Les identifiants et URL sont passés au moment où l’on _unlock_ le daemon via l’API. Cela sera détaillé plus loin.
+Les identifiants et URL sont renseignés au moment où l’on _unlock_ le daemon via l’API. Cela sera détaillé plus loin.
 
 ### Lancement en Regtest
 
@@ -3277,9 +3261,7 @@ Pour un usage simple, il y a un script `regtest.sh` qui démarre automatiquement
 
 ![RGB-Bitcoin](assets/fr/100.webp)
 
-Cela permet de lancer un environnement local, isolé et déjà configuré. Il crée et détruit les conteneurs ainsi que les répertoires de données à chaque redémarrage. Les étapes à suivre sont :
-
-- **Démarrer l’environnement** :
+Cela permet de lancer un environnement local, isolé et déjà configuré. Il crée et détruit les conteneurs ainsi que les répertoires de données à chaque redémarrage. Nous allons commencer par démarrer l'environnement :
 
 ```bash
 ./regtest.sh start
@@ -3292,9 +3274,7 @@ Ce script va :
 
 ![RGB-Bitcoin](assets/fr/101.webp)
 
-- **Lancer plusieurs nœuds RLN** :
-
-Dans des shells distincts, exécutez par exemple (pour lancer 3 nœuds RLN) :
+Puis, nous allons lancer plusieurs nœuds RLN. Dans des shells distincts, exécutez par exemple (pour lancer 3 nœuds RLN) :
 
 ```bash
 # 1st shell
@@ -3313,8 +3293,8 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 ![RGB-Bitcoin](assets/fr/102.webp)
 
 - Le paramètre `--network regtest` indique l’usage de la configuration regtest ;
-- `--daemon-listening-port` indique sur quel port REST le nœud LN écoutera pour les appels API (JSON) ;
-- `--ldk-peer-listening-port` spécifie sur quel port LN p2p écouter ;
+- `--daemon-listening-port` indique sur quel port REST le nœud Lightning écoutera pour les appels API (JSON) ;
+- `--ldk-peer-listening-port` spécifie sur quel port Lightning p2p écouter ;
 - `dataldk0/`, `dataldk1/` sont les chemins vers les répertoires de stockage (chaque nœud stocke ses infos séparément).
 
 Vous pouvez également exécuter des commandes sur vos nœuds RLN depuis votre navigateur :
@@ -3323,15 +3303,13 @@ Vous pouvez également exécuter des commandes sur vos nœuds RLN depuis votre n
 https://rgb-tools.github.io/rgb-lightning-node/
 ```
 
-- **Envoyer des BTC à un nœud** :
-
-Pour qu’un nœud puisse ouvrir un canal, il doit d'abord posséder des bitcoins sur une adresse générée avec la commande suivante (pour le nœud n°1) :
+Pour qu’un nœud puisse ouvrir un canal, il doit d'abord posséder des bitcoins sur une adresse générée avec la commande suivante (pour le nœud n°1 par exemple) :
 
 ```bash
 curl -X POST http://localhost:3001/address
 ```
 
-La réponse vous fournira une adresse. 
+La réponse vous fournira une adresse.
 
 ![RGB-Bitcoin](assets/fr/103.webp)
 
@@ -3435,7 +3413,7 @@ rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 
 ![RGB-Bitcoin](assets/fr/109.webp)
 
-Vous pourrez ensuite effectuer des transferts on-chain, ou bien l’allouer dans un canal LN. C'est justement ce que nous allons faire dans la prochaine section.
+Vous pourrez ensuite effectuer des transferts on-chain, ou bien l’allouer dans un canal Lightning. C'est justement ce que nous allons faire dans la prochaine section.
 
 ### Ouverture de canal et transfert d’un actif RGB
 
@@ -3455,7 +3433,7 @@ La commande me renvoie la clé publique de mon nœud n°2 :
 
 ![RGB-Bitcoin](assets/fr/110.webp)
 
-Ensuite, nous allons ouvrir le canal en spécifiant l'asset concerné (`PBN`). L'API `/openchannel` vous permet de définir la taille du canal en satoshis et d'opter pour l'inclusion de l'asset RGB. Cela dépend de ce que vous souhaitez créer, mais dans mon cas, la commande est :
+Ensuite, nous allons ouvrir le canal en spécifiant l'asset concerné (`PBN`). La commande `/openchannel` vous permet de définir la taille du canal en satoshis et d'opter pour l'inclusion de l'asset RGB. Cela dépend de ce que vous souhaitez créer, mais dans mon cas, la commande est :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3476,12 +3454,12 @@ curl -X POST -H "Content-Type: application/json" \
 ```
 
 Dans le détail ici :
-- **peer_pubkey_and_opt_addr** : Identifiant du pair (la clé publique que nous avons trouvée précédemment) auquel on souhaite se connecter ;
-- **capacity_sat** : Capacité totale du canal en satoshis ;
-- **push_msat** : Montant en millisatoshis initialement transféré au pair lors de l'ouverture du canal (ici je lui transfère immédiatement 10 000 sats pour qu'il puisse faire un transfert RGB par la suite) ;
-- **asset_amount** : Quantité d'actifs RGB à engager dans le canal ;
-- **asset_id** : Identifiant unique de l'actif RGB engagé dans le canal ;
-- **public** : Indique si le canal doit être rendu public pour le routage sur le réseau.
+- `peer_pubkey_and_opt_addr` : Identifiant du pair auquel on souhaite se connecter (la clé publique que nous avons trouvée précédemment) ;
+- `capacity_sat` : Capacité totale du canal en satoshis ;
+- `push_msat` : Montant en millisatoshis initialement transféré au pair lors de l'ouverture du canal (ici je lui transfère immédiatement 10 000 sats pour qu'il puisse faire un transfert RGB par la suite) ;
+- `asset_amount` : Quantité d'actifs RGB à engager dans le canal ;
+- `asset_id` : Identifiant unique de l'actif RGB engagé dans le canal ;
+- `public` : Indique si le canal doit être rendu public pour le routage sur le réseau.
 
 ![RGB-Bitcoin](assets/fr/111.webp)
 
@@ -3507,10 +3485,10 @@ curl -X POST -H "Content-Type: application/json" \
 ```
 
 Avec :
-- **amt_msat** : Montant de l'invoice en millisatoshis (minimum 3000 sats) ;
-- **expiry_sec** : Délai d'expiration de l'invoice en secondes ;
-- **asset_id** : Identifiant de l'actif RGB associé à l'invoice ;
-- **asset_amount** : Quantité de l'actif RGB à transférer avec cette invoice.
+- `amt_msat` : Montant de l'invoice en millisatoshis (minimum 3000 sats) ;
+- `expiry_sec` : Délai d'expiration de l'invoice en secondes ;
+- `asset_id` : Identifiant de l'actif RGB associé à l'invoice ;
+- `asset_amount` : Quantité de l'actif RGB à transférer avec cette invoice.
 
 En réponse, vous obtiendrez une invoice RGB (comme décris dans les chapitres précédents) :
 
@@ -3542,18 +3520,19 @@ curl -X 'GET' \
 
 ![RGB-Bitcoin](assets/fr/115.webp)
 
-Nous venons d’illustrer la façon de **déployer un nœud Lightning** modifié pour transporter des assets RGB. Cette démonstration se base sur :
+Voici donc comment déployer un nœud Lightning modifié pour transporter des assets RGB. Cette démonstration se base sur :
 - Un environnement regtest (via `./regtest.sh`) ou testnet ;
-- Un nœud LN (`rgb-lightning-node`) s’appuyant sur un `bitcoind`, un indexer et un `rgb-proxy-server` ;
-- Une série d’APIs JSON REST pour ouvrir/fermer des canaux, émettre des tokens, transférer des assets via LN, etc.
+- Un nœud Lightning (`rgb-lightning-node`) s’appuyant sur un `bitcoind`, un indexer et un `rgb-proxy-server` ;
+- Une série d’APIs JSON REST pour ouvrir/fermer des canaux, émettre des tokens, transférer des assets via Lightning, etc.
 
 Grâce à ce processus :
-- Les transactions d'engagement LN embarquent une sortie supplémentaire (OP_RETURN ou Taproot) avec l’ancrage d’une transition RGB ;
+- Les transactions d'engagement Lightning embarquent une sortie supplémentaire (OP_RETURN ou Taproot) avec l’ancrage d’une transition RGB ;
 - Les transferts s’effectuent exactement comme des paiements Lightning traditionnels, mais en transportant un token RGB en plus ;
 - On peut relier plusieurs nœuds RLN pour router et expérimenter des paiements sur plusieurs nœuds, à condition d'avoir suffisamment de liquidités à la fois en bitcoins et en asset RGB sur le chemin.
 
-Le projet demeure à un stade alpha. Il est donc fortement recommandé de se limiter à des environnements test (regtest, testnet). Les opportunités ouvertes par cette compatibilité LN-RGB sont considérables : stablecoins sur Lightning, DEX layer-2, transferts de tokens fongibles ou de NFT à très faible coût… Les chapitres précédents ont exposé l’architecture conceptuelle et la logique de validation. Désormais, vous possédez une vue pratique de la mise en route d’un tel nœud, pour vos futurs développements ou tests.
+Le projet demeure à un stade alpha. Il est donc fortement recommandé de se limiter à des environnements test (regtest, testnet).
 
+Les opportunités ouvertes par cette compatibilité LN-RGB sont considérables : stablecoins sur Lightning, DEX layer-2, transferts de tokens fongibles ou de NFT à très faible coût… Les chapitres précédents ont exposé l’architecture conceptuelle et la logique de validation. Désormais, vous possédez une vue pratique de la mise en route d’un tel nœud, pour vos futurs développements ou tests.
 
 # Conclusion 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>

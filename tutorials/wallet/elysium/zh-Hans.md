@@ -168,4 +168,4 @@ PassKeys 是必填项。
 
 要报告错误或向我们提供反馈，请单击主页上的小工具：
 
-![help2]([help2](assets/help2.webp))
+![help2](assets/help2.webp)

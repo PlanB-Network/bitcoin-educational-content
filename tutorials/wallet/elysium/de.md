@@ -168,4 +168,4 @@ Unser Team wird Ihnen so schnell wie möglich eine Lösung anbieten!
 
 Um einen Fehler zu melden oder uns ein Feedback zu geben, klicken Sie auf das Widget auf der Startseite:
 
-![help2]([help2](assets/help2.webp))
+![help2](assets/help2.webp)

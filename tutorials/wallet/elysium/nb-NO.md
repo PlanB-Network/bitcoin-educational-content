@@ -168,4 +168,4 @@ Når du har sendt inn en forespørsel, vil teamet vårt svare så snart som muli
 
 Hvis du vil rapportere en feil eller gi oss tilbakemeldinger, klikker du på widgeten på hjemmesiden:
 
-![help2]([help2](assets/help2.webp))
+![help2](assets/help2.webp)

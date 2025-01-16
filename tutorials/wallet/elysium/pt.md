@@ -168,4 +168,4 @@ Once submitted, our team will respond as soon as possible with a solution!
 
 To report a bug or provide us with feedback, click on the widget on the home page:
 
-![help2]([help2](assets/help2.webp))
+![help2](assets/help2.webp)

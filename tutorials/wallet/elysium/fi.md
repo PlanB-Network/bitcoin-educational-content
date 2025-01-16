@@ -168,4 +168,4 @@ Kun olet lähettänyt sen, tiimimme vastaa mahdollisimman pian ratkaisun kanssa!
 
 Jos haluat ilmoittaa virheestä tai antaa meille palautetta, napsauta etusivulla olevaa widgettiä:
 
-![help2]([help2](assets/help2.webp))
+![help2](assets/help2.webp)

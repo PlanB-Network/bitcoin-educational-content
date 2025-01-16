@@ -168,4 +168,4 @@ Una vez enviado, nuestro equipo le responderá lo antes posible con una solució
 
 Para informar de un error o hacernos llegar sus comentarios, haga clic en el widget de la página de inicio:
 
-![ayuda2]([ayuda2](assets/help2.webp))
+![ayuda2](assets/help2.webp)

@@ -168,4 +168,4 @@ Po odeslání vám náš tým co nejdříve odpoví a nabídne řešení!
 
 Chcete-li nahlásit chybu nebo nám poskytnout zpětnou vazbu, klikněte na widget na domovské stránce:
 
-![help2]([help2](assets/help2.webp))
+![help2](assets/help2.webp)

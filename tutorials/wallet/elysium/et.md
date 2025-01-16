@@ -168,4 +168,4 @@ Kui te olete selle esitanud, vastab meie meeskond võimalikult kiiresti lahendus
 
 Kui soovite veast teatada või meile tagasisidet anda, klõpsake kodulehe vidinale:
 
-![help2]([help2](assets/help2.webp))
+![help2](assets/help2.webp)

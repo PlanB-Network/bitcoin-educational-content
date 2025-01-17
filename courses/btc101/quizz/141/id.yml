@@ -1,0 +1,12 @@
+question:
+  Berapa biaya menjalankan node Bitcoin pada Raspberry Pi 4 dalam hal
+  konsumsi listrik per tahun?
+answer: Sedikit kurang dari 10€ per tahun
+wrong_answers:
+  - Sekitar 50€ per tahun
+  - Sekitar 100€ per tahun
+  - Sekitar 200€ per tahun
+explanation: >-
+  Menjalankan node Bitcoin pada Raspberry Pi 4 membutuhkan biaya sedikit kurang dari\
+  10€ per tahun dalam hal konsumsi listrik.
+reviewed: false

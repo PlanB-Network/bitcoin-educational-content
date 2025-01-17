@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan KYC?
+answer: Kenali Pelanggan Anda
+wrong_answers:
+  - Simpan Uang Anda
+  - Masukkan Kode Anda
+  - Mohon Patuhi
+explanation: |
+  KYC atau Kenali Pelanggan Anda merujuk pada proses yang dilakukan oleh bisnis untuk memverifikasi identitas klien mereka. Ini biasanya dilakukan untuk memastikan kepatuhan terhadap regulasi dan untuk mencegah aktivitas ilegal seperti pencucian uang atau penipuan.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Mikä on suurin piirtein solmujen lukumäärä maailmanlaajuisesti syyskuun 2023 tilanteessa?
-answer: 45 000 solmua
+question: Mikä on maailmanlaajuisesti jakautuneiden solmujen likimääräinen määrä syyskuussa 2023?
+answer: 45 000 solmua.
 wrong_answers:
-  - 10 000 solmua
-  - 100 000 solmua
-  - 500 000 solmua
+  - 10 000 solmua.
+  - 100 000 solmua.
+  - 500 000 solmua.
 explanation: >-
-  Syyskuun 2023 tilanteen mukaan maailmanlaajuisesti on suurin piirtein 45 000 solmua.
-reviewed: false
+  Syyskuuhun 2023 mennessä maailmanlaajuisesti on jakautuneena noin 45 000 solmua.
+reviewed: true

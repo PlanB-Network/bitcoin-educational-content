@@ -1,64 +1,18 @@
-id: 41b4b0bb-2774-46b6-8213-8a84be0d05f5
-chapterId: cc668121-7789-5e99-bf5e-1ba085f4f5f2
-difficulty: easy
-duration: 15
-author: DecouvreBitcoin
+id: ba6c78e4-8dba-4ec7-aaef-fa560ecbefcd
+chapterId: fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a
+difficulty: intermediate
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Cryptography
-  - HMAC
+  - cypherpunk
+  - network-security
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2614
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2557
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1278
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2585
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2614
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
-    reward: 2557
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2585
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2671
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2557
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2671
+      - LoicPandul
+    reward:

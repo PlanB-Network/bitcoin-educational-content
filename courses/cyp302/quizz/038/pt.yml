@@ -1,0 +1,9 @@
+question: Qual campo matemático fornece as ferramentas modernas para a teoria dos números?
+answer: Álgebra abstrata
+wrong_answers:
+  - Geometria
+  - Estatística
+  - Análise complexa
+explanation: |
+  A álgebra abstrata, como uma subdisciplina da matemática, fornece estruturas matemáticas que possibilitam a análise e o entendimento das propriedades dos números usados na teoria dos números.
+reviewed: false

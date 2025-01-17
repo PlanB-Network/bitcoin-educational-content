@@ -1,0 +1,13 @@
+question: Mis on siltide eesmärk vaiksetes maksetes?
+
+answer: Kasutada mitut erinevat staatilist aadressi ilma skaneerimiskoormust ebamõistlikult suurendamata.
+
+wrong_answers:
+  - Krüpteerida vaiksete maksete tehinguid, et varjata tehingu tegelikku saajat.
+  - Kasutada mitut erinevat staatilist aadressi, mida väline vaatleja ei saa omavahel seostada.
+  - Paigutada plokiahelale nähtav silt, et identifitseerida vaikseid makseid makseviitena.
+
+explanation: |
+  Silte kasutatakse mitme staatilise aadressi genereerimiseks peamisest staatilisest aadressist, mis hõlbustab rahakoti korraldamist. Siiski võib väline vaatleja nende siltidega staatiliste aadresside vahel seose hõlpsasti luua, kuna skaneerimise avalik võti on kõigi jaoks sama.
+
+reviewed: false

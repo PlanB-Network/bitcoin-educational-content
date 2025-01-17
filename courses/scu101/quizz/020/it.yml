@@ -5,5 +5,7 @@ wrong_answers:
   - Norton
   - McAfee
 explanation: |
-  Windows Defender è l'antivirus integrato in Windows. È una soluzione sicura ed efficace per proteggere il sistema da minacce.
-reviewed: false
+  Windows Defender è l'antivirus integrato in Windows. È
+  una soluzione sicura ed efficace per proteggere il sistema
+  dalle minacce.
+reviewed: vero

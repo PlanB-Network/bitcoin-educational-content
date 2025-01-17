@@ -1,9 +1,8 @@
-question: Quem paga as taxas de encerramento em um fechamento cooperativo?
-answer: A pessoa que abriu o canal.
+question: Quais informações Bob pode incluir em uma fatura para facilitar o roteamento?
+answer: Canais próximos com liquidez suficiente ou a existência de canais privados
 wrong_answers:
-  - A pessoa que fechou o canal.
-  - Ambas as partes igualmente.
-  - A pessoa com mais SAT no canal.
+  - A chave privada dos nós intermediários
+  - O mapa completo de todos os canais da rede
+  - A quantidade exata de liquidez disponível para cada canal
 explanation: |
-  Em um fechamento cooperativo, os dois pares concordam com um estado final do canal. A pessoa que abriu o canal paga as taxas de encerramento.
-reviewed: false
+  Ao indicar canais próximos com liquidez ou revelar canais privados, Bob ajuda Alice a escolher rotas com uma melhor probabilidade de sucesso.

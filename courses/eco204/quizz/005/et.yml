@@ -1,0 +1,12 @@
+question: Millist strateegiat kasutas Hispaania oma valuuta devalveerimiseks ilma oma positsiooni rahvusvahelises kaubanduses mõjutamata?
+answer: Hispaania devalveeris selektiivselt Maravedi, kohaliku valuuta, säilitades samal ajal Hispaania dollari väärtuse globaalsel areenil.
+wrong_answers:
+  - Hispaania devalveeris selektiivselt Hispaania dollari, kohaliku valuuta, säilitades samal ajal Maravedi väärtuse globaalsel areenil.
+  - Hispaania suurendas selektiivselt Maravedi, kohaliku valuuta, väärtust, säilitades samal ajal Hispaania dollari väärtuse globaalsel areenil.
+  - Hispaania suurendas selektiivselt Hispaania dollari, kohaliku valuuta, väärtust, säilitades samal ajal Maravedi väärtuse globaalsel areenil.
+explanation: |
+  Hispaania leidis end delikaatsest olukorrast. Hispaania dollari väärtuse vähendamine
+  oleks ohustanud selle positsiooni rahvusvahelises kaubanduses. Selle dilemmaga toime tulemiseks
+  pöördus Hispaania Maravedi poole, mis oli peamiselt kohaliku elanikkonna seas kasutusel olev vaskvaluuta.
+  See valuuta oli devalveerimise sihtmärgiks.
+reviewed: false

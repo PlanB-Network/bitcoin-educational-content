@@ -1,9 +1,9 @@
-question: Mikä on viimeisin tiedossa oleva päivämäärä, jolloin Satoshi Nakamoto vaihtoi yksityisesti sähköpostia?
-answer: 23. huhtikuuta 2011
+question: Mikä on Satoshi Nakamoton viimeisen tunnetun yksityisviestin päivämäärä sähköpostitse?
+answer: 23. huhtikuuta 2011.
 wrong_answers:
-  - 12. joulukuuta 2010
-  - 8. tammikuuta 2009
-  - 31. lokakuuta 2008
-explanation: >-
-  Viimeisin tiedossa oleva päivämäärä, jolloin Satoshi Nakamoto vaihtoi yksityisesti sähköpostia, on 23. huhtikuuta 2011 kehittäjä Mike Hearnin kanssa.
-reviewed: false
+  - 12. joulukuuta 2010.
+  - 8. tammikuuta 2009.
+  - 31. lokakuuta 2008.
+explanation: |
+  Satoshi Nakamoton viimeisen tunnetun yksityisviestin päivämäärä sähköpostitse on 23. huhtikuuta 2011. Viesti lähetettiin kehittäjä Mike Hearnille.
+reviewed: true

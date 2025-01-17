@@ -1,0 +1,9 @@
+question: 2011年4月に、数ヶ月後にビットコインを紹介するためにギャビン・アンドレセンを招待したアメリカの連邦情報機関はどこですか？
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - DEA
+explanation: |
+  より具体的には、アメリカのベンチャーキャピタルファンドであるIn-Q-Telによるものでしたが、訪問は確かにCIAの本部で行われました。
+reviewed: false

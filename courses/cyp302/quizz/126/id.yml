@@ -1,0 +1,9 @@
+question: Apa yang dimungkinkan oleh protokol pertukaran kunci Diffie-Hellman?
+answer: Ini memungkinkan dua pihak untuk menciptakan kunci rahasia bersama dengan berbagi informasi publik.
+wrong_answers:
+  - Ini memungkinkan pertukaran kunci rahasia secara langsung untuk setiap sesi.
+  - Ini memungkinkan penggunaan kunci publik untuk enkripsi dan kunci privat untuk dekripsi.
+  - Ini memungkinkan pertukaran mata uang elektronik.
+explanation: |
+  Protokol Diffie-Hellman memungkinkan dua pihak untuk berbagi informasi secara publik sambil memastikan bahwa hanya mereka yang dapat menghasilkan kunci bersama untuk mengamankan pertukaran mereka di masa depan.
+reviewed: false

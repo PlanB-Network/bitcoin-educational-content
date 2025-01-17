@@ -1,0 +1,8 @@
+question: Enkoding apa yang digunakan untuk merepresentasikan alamat SegWit v0?
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  Alamat SegWit v0, seperti untuk P2WPKH dan P2WSH, menggunakan enkoding bech32 yang diperkenalkan dengan SegWit.

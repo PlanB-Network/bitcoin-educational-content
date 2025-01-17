@@ -1,0 +1,9 @@
+question: Mikä funktio käytetään laskemaan kokonaislukuun N koprimien lukumäärä?
+answer: Eulerin Phi-funktio
+wrong_answers:
+  - Logaritminen funktio
+  - Eulerin Gamma-funktio
+  - Gaussin funktio
+explanation: |
+  Eulerin Phi-funktio (tai totienttifunktio) käytetään laskemaan kokonaisluvun N koprimien lukumäärää, erityisesti ei-alkuluvuille.
+reviewed: false

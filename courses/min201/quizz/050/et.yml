@@ -1,0 +1,11 @@
+question: Mis on peamine väljakutse, mis on seotud Bitcoin'i kaevandamisega?
+answer: Kaevandustööstus on äärmiselt konkurentsitihe ja volatiilne ning ettenägematud juhtumid võivad kaevandamistegevust häirida.
+wrong_answers:
+  - Peamine väljakutse on leida usaldusväärne elektrienergia allikas.
+  - Peamine väljakutse on leida turvaline koht kaevandatud bitcoinide hoidmiseks.
+  - Peamine väljakutse on leida ostja kaevandatud bitcoinidele.
+explanation: |
+  Peamine väljakutse, mis on seotud Bitcoin'i kaevandamisega, on see,
+  et kaevandustööstus on äärmiselt konkurentsitihe ja volatiilne,
+  ning ettenägematud juhtumid võivad kaevandamistegevust häirida.
+reviewed: true

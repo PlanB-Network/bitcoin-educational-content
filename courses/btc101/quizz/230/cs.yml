@@ -1,9 +1,9 @@
 question: Co umožňuje Lightning Network?
-answer: Umožňuje transakce mezi jednotlivci, kteří nemají přímé spojení kanálu.
+answer: Provádět transakce mezi jednotlivci, kteří nemají přímé kanálové spojení.
 wrong_answers:
-  - Umožňuje transakce pouze mezi jednotlivci, kteří mají přímé spojení kanálu.
-  - Umožňuje transakce mezi jednotlivci, kteří mají přímé spojení kanálu a třetí stranou.
-  - Umožňuje transakce mezi jednotlivci, kteří mají přímé spojení kanálu a více třetími stranami.
+  - Vytvářet přímá kanálová spojení pouze se centralizovanými burzami.
+  - Vytvářet kanálová spojení, která vyžadují více potvrzení pro jakoukoliv transakci.
+  - Zřizovat přímá kanálová spojení, která jsou omezena pouze na velké transakce.
 explanation: |
-  Lightning Network umožňuje transakce mezi jednotlivci, kteří nemají přímé spojení kanálu.
-reviewed: false
+  Lightning Network umožňuje provádět transakce mezi jednotlivci, kteří nemají přímé kanálové spojení.
+reviewed: true

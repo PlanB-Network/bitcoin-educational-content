@@ -1,9 +1,8 @@
-question: Qual é o objetivo final de uma função de hash criptográfica?
-answer: Transformar informações de tamanho arbitrário em uma impressão digital de tamanho fixo.
+question: Por que a irreversibilidade é garantida em SHA256?
+answer: As operações utilizadas removem informações e são unidirecionais
 wrong_answers:
-  - Criptografar dados para transmissão segura.
-  - Gerar uma chave única para cada usuário.
-  - Comprimir dados para armazenamento eficiente.
+  - As mensagens são criptografadas antes da hash
+  - Os bits são rearranjados aleatoriamente
+  - Cada hash é armazenada em um banco de dados
 explanation: |
-  O objetivo final de uma função de hash criptográfica é transformar informações de tamanho arbitrário em uma impressão digital de tamanho fixo. Essa impressão digital é única para os dados de entrada e até mesmo uma pequena alteração na entrada resultará em uma impressão digital drasticamente diferente.
-reviewed: false
+  Operações como ShR e XOR tornam impossível retornar ao estado inicial, garantindo a irreversibilidade.

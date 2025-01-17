@@ -1,9 +1,9 @@
-question: ¿Cuál es uno de los posibles beneficios de aceptar nuevas tecnologías como Bitcoin?
-answer: Podría generar economías de escala masivas a nivel mundial.
+question: ¿Cuál es uno de los beneficios potenciales de aceptar nuevas tecnologías como Bitcoin?
+answer: Podría generar enormes economías de escala a nivel mundial.
 wrong_answers:
   - Podría llevar a un colapso económico global.
   - Podría causar una disminución en la inteligencia humana.
-  - Podría llevar a la eliminación de todos los empleos.
-explanation: |
-  El texto sugiere que aceptar estas nuevas tecnologías podría generar economías de escala masivas a nivel mundial.
-reviewed: false
+  - Podría llevar a la eliminación de todos los trabajos.
+explanation: >-
+  El texto sugiere que aceptar estas nuevas tecnologías podría generar enormes economías de escala a nivel mundial.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Quelle est l'équation de la courbe secp256k1 utilisée dans Bitcoin?
-answer: "y\xB2 = x\xB3 + 7 modulo n"
+question: Quelle est la taille d'une clé privée brute utilisée sur Bitcoin ?
+answer: 256 bits
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax + b"
-  - "y\xB2 = x\xB3 + 7 modulo p"
-  - "y\xB2 = x\xB3 + ax + b modulo n"
+  - 128 bits
+  - 512 bits
+  - 1024 bits
 explanation: |
-  La courbe secp256k1 utilisée dans Bitcoin est définie par les paramètres a=0 et b=7, et son équation est y\xB2 = x\xB3 + 7 modulo n, où n représente le nombre premier qui détermine l'ordre de la courbe.
+  Une clé privée dans Bitcoin est un entier aléatoire de 256 bits, assurant un espace de clés suffisamment large pour garantir la sécurité.
 reviewed: false

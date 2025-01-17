@@ -1,11 +1,11 @@
-question: Quelle est la signification de l'ajustement de la difficulté dans le réseau Bitcoin?
-answer: Il garantit qu'un bloc est ajouté environ toutes les dix minutes.
+question: Quelle est la fonction de l'ajustement de difficulté dans le réseau Bitcoin ?
+answer: Il garantit qu'un bloc est ajouté à la blockchain environ toutes les dix minutes.
 wrong_answers:
   - Il détermine le prix du Bitcoin.
-  - Il régule le nombre de Bitcoins pouvant être minés.
+  - Il régule le nombre de bitcoins qui peuvent être minés dans la blockchain.
   - Il détermine la taille d'un bloc.
-explanation: |
-  L'ajustement de la difficulté dans le réseau Bitcoin garantit qu'un bloc
-  est ajouté environ toutes les dix minutes. Cela fait partie des règles du protocole du
-  réseau Bitcoin.
-reviewed: false
+explanation: >-
+  L'ajustement de difficulté dans le réseau Bitcoin assure qu'un bloc
+  est ajouté environ toutes les dix minutes. Cela fait partie des règles du protocole
+  du réseau Bitcoin.
+reviewed: true

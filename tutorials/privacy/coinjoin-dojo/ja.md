@@ -55,7 +55,7 @@ Whirlpoolは、次の2つの重要な要件を考慮して設計されました�
 これらの命題は、Samourai Walletの開発者がWhirlpoolの設計において選択を導いたものであり、サイクルごとの参加者数を制限することにつながりました。参加者が少なすぎると、コインジョインの効率が損なわれ、各サイクルで生成される匿名セットが劇的に減少してしまいます。一方、参加者が多すぎると、モバイルアプリケーションでの管理問題が発生し、サイクルの流れが妨げられる可能性があります。
 **結局のところ、Whirlpoolでのコインジョインごとに多数の参加者を必要とすることはありません。なぜなら、匿名セットは複数のコインジョインサイクルの蓄積を通じて達成されるからです。**
 
-[-> Whirlpoolの匿名セットについてもっと学ぶ。](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Whirlpoolの匿名セットについてもっと学ぶ。](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### プールとコインジョイン手数料
 これらの複数のサイクルが混合コインの匿名セットを効果的に増加させるためには、使用されるUTXOの金額を制限する特定の枠組みを確立する必要があります。Whirlpoolは、異なるプールを定義します。
@@ -157,14 +157,14 @@ Whirlpoolを使用するには多くのオプションがありますが、こ�
 自分のDojoを使用してSamourai Wallet経由でcoinjoinを実行することは、私の意見では、これまでのBitcoin上でcoinjoinを行う最も効果的な戦略です。このアプローチには初期設定に関してある程度の投資が必要ですが、一度設置すれば、Samouraiアプリケーションを常時アクティブに保つ必要なく、24時間365日、ビットコインを継続的にミックスおよびリミックスする可能性を提供します。実際、Whirlpool CLIがBitcoinノード上で動作するおかげで、いつでもcoinjoinに参加する準備が整います。その後、Samouraiアプリケーションは、どこにいても、スマートフォンから直接、ミックスされた資金をいつでも使う機会を提供します。さらに、この方法は、Samouraiチームが管理するサーバーに接続しないため、`xpub`を外部の露出から保護するという利点があります。
 
 この技術は、最大限のプライバシーと最高品質のcoinjoinサイクルを求める人にとって理想的です。しかし、自分のBitcoinノードを持つことが必要であり、後ほど見るように、いくつかの設定が必要です。したがって、中級者から上級者により適しています。初心者の方には、Sparrow WalletまたはSamourai Wallet（Dojoなし）からcoinjoinを行う方法を示すこれらの2つのチュートリアルを通じてcoinjoinに慣れることをお勧めします：
-- **[Sparrow Wallet coinjoinチュートリアル](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet)**;
-- **[Samourai Wallet coinjoinチュートリアル（Dojoなし）](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet)**。
+- **[Sparrow Wallet coinjoinチュートリアル](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- **[Samourai Wallet coinjoinチュートリアル（Dojoなし）](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**。
 
 ### セットアップの理解
 始めるには、Dojoが必要です！Dojoは、Samouraiチームによって開発されたBitcoin Coreに基づくBitcoinノードの実装です。
 
 自分のDojoを実行するには、[Dojoノードを自律的にインストールする](https://samouraiwallet.com/dojo)オプションを選択するか、別の「ノード・イン・ボックス」Bitcoinノードソリューションの上にDojoを利用することができます。現在、利用可能なオプションは以下の通りです：
-- [RoninDojo](https://ronindojo.io/)は、インストールアシスタントと管理アシスタントを含む追加ツールで強化されたDojoです。この他のチュートリアルでRoninDojoの設定と使用方法を詳しく説明しています：[RONINDOJO V2](https://planb.network/en/tutorials/node/ronin-dojo-v2);
+- [RoninDojo](https://ronindojo.io/)は、インストールアシスタントと管理アシスタントを含む追加ツールで強化されたDojoです。この他のチュートリアルでRoninDojoの設定と使用方法を詳しく説明しています：[RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/)の「Samourai Server」アプリケーション;
 - [MyNode](https://mynodebtc.com/)の「Dojo」アプリケーション;
 - [Nodl](https://www.nodl.eu/)の「Dojo」アプリケーション;
@@ -244,7 +244,7 @@ Samouraiウォレットのリカバリーフレーズを持っていて、それ
 
 ![coinjoin](assets/en/24.webp)
 
-*Samouraiの新規ユーザーの場合、最初からウォレットを作成する必要があります。アシスタンスが必要な場合は、[このチュートリアルの「ソフトウェアウォレットの作成」セクション](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*Samouraiの新規ユーザーの場合、最初からウォレットを作成する必要があります。アシスタンスが必要な場合は、[このチュートリアルの「ソフトウェアウォレットの作成」セクション](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 既存のSamouraiウォレットの復元を進める場合は、`Restore existing wallet`を選択し、次に`I have a Samourai backup file`を選択してください。
 
@@ -351,4 +351,7 @@ WhirlpoolアカウントはSamourai Wallet上で青色で簡単に識別でき�
 
 ![coinjoin](assets/en/53.webp)
 
-自動コインジョインの進行状況を追跡するためには、Sentinelアプリを介してウォッチオンリーウォレットを設定することもお勧めします。**Postmix**アカウントのZPUBを追加し、リアルタイムでコインジョインサイクルの進行状況を監視してください。Sentinelの使用方法を理解したい場合は、PlanB Networkのこの他のチュートリアル[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)
+自動コインジョインの進行状況を追跡するためには、Sentinelアプリを介してウォッチオンリーウォレットを設定することもお勧めします。**Postmix**アカウントのZPUBを追加し、リアルタイムでコインジョインサイクルの進行状況を監視してください。Sentinelの使用方法を理解したい場合は、PlanB Networkのこの他のチュートリアル[**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+
+
+

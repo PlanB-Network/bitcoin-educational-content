@@ -1,0 +1,8 @@
+question: Hva sikrer en meldingsautentiseringskode (MAC) i et kryptografisk system?
+answer: Integriteten og autentisiteten til meldingen
+wrong_answers:
+  - Konfidensialiteten til meldingen
+  - Komprimeringen av meldingen
+  - Konverteringen av meldingen til binær
+explanation: |
+  En meldingsautentiseringskode (MAC) brukes for å sikre at meldingen ikke har blitt endret og at den faktisk kommer fra den antatte avsenderen.

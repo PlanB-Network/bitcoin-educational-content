@@ -1,0 +1,9 @@
+question: Quelle est la différence entre l'utilisation de l'algorithme Salsa20 avec une clé de 128 bits et une clé de 256 bits ?
+answer: La longueur de la clé influence le nombre de tours dans l'algorithme
+wrong_answers:
+  - La longueur de la clé change le type de chiffrement
+  - Une clé de 128 bits est utilisée pour le chiffrement par flux et de 256 bits pour le chiffrement par bloc
+  - La longueur de la clé n'a pas d'impact dans Salsa20
+explanation: |
+  Dans le schéma de chiffrement symétrique Salsa20, la longueur de la clé (128 ou 256 bits) affecte le nombre de tours dans l'algorithme, sans pour autant modifier le cœur de l'algorithme lui-même.
+reviewed: false

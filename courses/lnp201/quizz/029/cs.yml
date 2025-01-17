@@ -1,9 +1,9 @@
-question: Kolik SAT má Alice na začátku příkladu?
-answer: 130 000 SAT.
+question: V jaké situaci se používá vynucené uzavření kanálu?
+answer: Když jedna ze stran již neodpovídá
 wrong_answers:
-  - 100 000 SAT.
-  - 90 000 SAT.
-  - 0 SAT.
+  - Když je potřeba zvýšit kapacitu kanálu
+  - Když je časový zámek nedostatečný
+  - Když jsou transakční poplatky příliš vysoké
 explanation: |
-  V příkladu Alice otevře kanál s Bobem s 130 000 SAT na své straně.
+  Vynucené uzavření se používá jako poslední možnost, pokud jedna ze stran, například kvůli technickému problému, již neodpovídá na zprávy druhé strany.
 reviewed: false

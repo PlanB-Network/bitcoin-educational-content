@@ -1,9 +1,11 @@
-question: Quelle est la signification du nombre de confirmations dans une transaction Bitcoin ?
+question: Pourquoi le nombre de confirmations dans une transaction Bitcoin est-il important ?
 answer: Plus une transaction a de confirmations, plus elle devient immuable.
 wrong_answers:
   - Plus une transaction a de confirmations, plus elle devient précieuse.
   - Plus une transaction a de confirmations, plus elle est traitée rapidement.
   - Plus une transaction a de confirmations, moins elle est sécurisée.
-explanation: |
-  Le nombre de confirmations dans une transaction Bitcoin indique combien de blocs ont été minés au-dessus du bloc contenant la transaction. Plus une transaction a de confirmations, plus elle devient immuable.
-reviewed: false
+explanation: >-
+  Le nombre de confirmations dans une transaction Bitcoin indique combien de
+  blocs ont été minés au-dessus du bloc contenant la transaction. Plus une
+  transaction a de confirmations, plus elle devient immuable.
+reviewed: true

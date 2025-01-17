@@ -1,9 +1,13 @@
-question: Como a regulamentação e as tarifas de eletricidade influenciam a mineração de Bitcoin?
-answer: A regulamentação e as tarifas de eletricidade têm uma influência significativa na mineração de Bitcoin. Os mineradores estão constantemente em busca de eletricidade de baixo custo para maximizar seus lucros. Portanto, o alto custo da eletricidade em certas regiões não atrai mineradores para essas regiões. Os mineradores tendem a se concentrar em regiões com tarifas de eletricidade baixas, muitas vezes em países emergentes ou países com excedentes de energia.
+question: Como a regulação e as tarifas de eletricidade influenciam a mineração de Bitcoin?
+answer: A regulação e as tarifas de eletricidade têm uma influência significativa na mineração de Bitcoin. Os mineradores estão constantemente em busca de eletricidade de baixo custo para maximizar seus lucros. Portanto, o alto custo da eletricidade em certas regiões não atrai mineradores para essas áreas. Os mineradores tendem a se dirigir para regiões com tarifas de eletricidade baixas, frequentemente em países emergentes ou países com excedentes de energia.
 wrong_answers:
-  - A regulamentação e as tarifas de eletricidade influenciam a mineração de Bitcoin ao determinar o tipo de máquinas de mineração que podem ser usadas.
-  - A regulamentação e as tarifas de eletricidade influenciam a mineração de Bitcoin ao determinar o tipo de software de mineração que pode ser usado.
-  - A regulamentação e as tarifas de eletricidade influenciam a mineração de Bitcoin ao determinar o tamanho do pool de mineração que pode ser formado.
+  - A regulação e as tarifas de eletricidade influenciam a mineração de Bitcoin ao determinar o tipo de máquinas de mineração que podem ser usadas.
+  - A regulação e as tarifas de eletricidade influenciam a mineração de Bitcoin ao determinar o tipo de software de mineração que pode ser usado.
+  - A regulação e as tarifas de eletricidade influenciam a mineração de Bitcoin ao determinar o tamanho do pool de mineração que pode ser formado.
 explanation: |
-  O capítulo explica que a regulamentação e as tarifas de eletricidade têm uma influência significativa na mineração de Bitcoin. Os mineradores estão constantemente em busca de eletricidade de baixo custo para maximizar seus lucros e, portanto, tendem a se concentrar em regiões com tarifas de eletricidade baixas.
-reviewed: false
+  O capítulo explica que a regulação e as tarifas de eletricidade
+  têm uma influência significativa na mineração de Bitcoin.
+  Os mineradores estão constantemente em busca de eletricidade de baixo custo para
+  maximizar seus lucros, e, portanto, tendem a se dirigir
+  para regiões com tarifas de eletricidade baixas.
+reviewed: true

@@ -1,9 +1,9 @@
 question: ¿Cuál es la principal ventaja del oro como moneda?
-answer: Es increíblemente duradero
+answer: Es increíblemente duradero.
 wrong_answers:
-  - Es fácilmente divisible o transportable a largas distancias
-  - Es fácilmente verificable
-  - No está regulado por el gobierno
+  - Es fácilmente divisible o transportable a largas distancias.
+  - Es fácilmente verificable.
+  - No está regulado por el gobierno.
 explanation: |
-  Aunque no es fácilmente divisible o transportable a largas distancias, lo que lo hacía bueno como reserva de valor, no es una moneda común en la actualidad.
-reviewed: false
+  Aunque no es fácilmente divisible o transportable a largas distancias, el oro es un material muy duradero, lo que lo convierte en un buen almacén de valor. Las monedas de oro se utilizaron como moneda en el pasado, pero no servirían para el mismo propósito en la era digital de hoy.
+reviewed: true

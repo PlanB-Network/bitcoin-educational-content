@@ -1,9 +1,9 @@
-question: Jaká je nejmenší jednotka Bitcoinu?
-answer: Satoshi
+question: Jaký je výchozí bod pro výpočet podpisu ECDSA?
+answer: Hash zprávy
 wrong_answers:
-  - Bit
-  - Byte
-  - Coin
+  - Veřejný klíč
+  - Pevný nonce
+  - Vlastní eliptická křivka
 explanation: |
-  V systému Bitcoinu je jednotkou účtu bitcoin (všimněte si malého "b"). Je dělitelný až na osm desetinných míst, přičemž nejmenší jednotkou je satoshi.
+  Podpis ECDSA začíná výpočtem hash zprávy, která má být podepsána, často s použitím SHA256.
 reviewed: false

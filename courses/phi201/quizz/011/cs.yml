@@ -1,0 +1,9 @@
+question: Jaké je hlavní teze Lorda Actona o historii?
+answer: Konflikt mezi svobodou a mocí je hnací silou pokroku a vývoje společností.
+wrong_answers:
+  - Pokrok je lineární a nevyhnutelný, vedoucí k společnosti svobody a rovnosti.
+  - Historie je cyklus opakování s obdobími svobody následovanými obdobími tyranie.
+  - Ekonomické faktory jsou hlavními determinanty průběhu historie.
+explanation: |
+  Lord Acton tvrdí, že historie je primárně označena konfliktem mezi svobodou a mocí, považuje tento boj za zásadní pro pokrok a vývoj společností směrem k větší individuální svobodě.
+reviewed: false

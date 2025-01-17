@@ -1,9 +1,9 @@
-question: Jaký je jeden z faktorů, který činí regulaci Bitcoinu obtížnou pro finanční autority?
+question: Jaký je jeden z faktorů, který ztěžuje finančním autoritám regulaci Bitcoinu?
 answer: Funguje na celosvětové úrovni, 24 hodin denně, 7 dní v týdnu.
 wrong_answers:
-  - Je řízen centrální autoritou.
+  - Je ovládán centrální autoritou.
   - Není používán nikde na světě.
   - Je snadno padělatelný.
 explanation: >-
-  Protokol Bitcoinu je unikátní tím, že funguje na celosvětové úrovni, 24 hodin denně, 7 dní v týdnu, což činí regulaci obtížnou pro finanční autority.
-reviewed: false
+  Protokol Bitcoinu je unikátní tím, že funguje na celosvětové úrovni, 24 hodin denně, 7 dní v týdnu, což ztěžuje finančním autoritám jeho regulaci.
+reviewed: true

@@ -1,9 +1,10 @@
-question: Quel est le rôle d'un notaire dans le contexte de l'héritage de Bitcoin?
-answer: Pour garantir la conformité fiscale
+question: Quel est le rôle d'un notaire dans le contexte de l'héritage de Bitcoin ?
+answer: Ils assurent la conformité fiscale.
 wrong_answers:
-  - Gérer vos bitcoins après votre décès
-  - Créer votre plan de succession
-  - Sécuriser vos bitcoins
+  - Ils gèrent vos bitcoins après votre décès.
+  - Ils modifient votre plan d'héritage.
+  - Ils sécurisent vos bitcoins dans un coffre-fort.
 explanation: |
-  Dans le contexte de l'héritage de Bitcoin, il est important de discuter de l'héritage des bitcoins avec un notaire pour garantir la conformité fiscale.
-reviewed: false
+  Dans le contexte de l'héritage de Bitcoin, il est important de
+  discuter de l'héritage des bitcoins avec un notaire pour assurer
+  la conformité fiscale.

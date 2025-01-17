@@ -1,11 +1,13 @@
-question: Mục đích của khóa học về Bitcoin này là gì?
-answer: Để thảo luận về các khía cạnh tiền tệ của Bitcoin, cách sử dụng và tương lai của nó.
+question: Mục đích của khóa học Bitcoin này là gì?
+answer: Giới thiệu một số khía cạnh tiền tệ chung của Bitcoin, cách sử dụng và tương lai của nó.
 wrong_answers:
-  - Thảo luận về cách đào Bitcoin.
-  - Thảo luận về cách quản lý Bitcoin.
-  - Thảo luận về cách tạo một giao thức Bitcoin mới.
+  - Giới thiệu cách đào Bitcoin.
+  - Giới thiệu cách quản lý Bitcoin.
+  - Giới thiệu cách tạo một giao thức Bitcoin mới.
 explanation: |
-  Mục đích của khóa học về Bitcoin này là để thảo luận về các khía cạnh tiền tệ
-  của Bitcoin, bao gồm cách mua và bán bitcoin, lưu trữ an toàn chúng trong
-  ví điện tử, và sử dụng chúng cho các giao dịch. Nó cũng nhằm mục đích khám phá tương lai của Bitcoin.
-reviewed: false
+  Mục đích của khóa học Bitcoin này là thảo luận về
+  các đặc điểm tiền tệ chung của Bitcoin, bao gồm cách
+  mua và bán bitcoin, lưu trữ an toàn chúng trong ví điện tử,
+  và sử dụng chúng cho các giao dịch. Nó cũng nhằm mục đích
+  khám phá tương lai của Bitcoin.
+reviewed: true

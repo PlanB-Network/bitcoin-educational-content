@@ -3,9 +3,10 @@ answer: 03/jan/2009 Chancellor on brink of second bailout for banks.
 wrong_answers:
   - We can win a major battle in the arms race and gain a new territory of freedom for several years.
   - Governments are good at cutting off the heads of a centrally controlled networks like Napster, but pure P2P networks like Gnutella and Tor seem to be holding their own.
-  - None of the above
+  - None of the above.
 explanation: |
-  The first block of the Bitcoin blockchain, also known as the genesis
-  block, contains the message 03/jan/2009 Chancellor on brink of second bailout for
-  banks, which is title of the Time that day to timestamp the genesis block.
+  The first block of the Bitcoin blockchain, also known as
+  the genesis block, contains the message 03/jan/2009
+  Chancellor on brink of second bailout for banks, which is
+  title of the Time that day to timestamp the genesis block.
 reviewed: true

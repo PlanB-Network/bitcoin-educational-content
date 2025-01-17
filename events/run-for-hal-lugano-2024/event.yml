@@ -1,10 +1,11 @@
-- start_date: 2024-10-26
-  end_date: 2024-10-26
+- start_date: 2024-10-25 05:00:00
+  end_date: 2024-10-25 10:00:00
+  timezone: Europe/Zurich  
   address_line_1: Villa Ciani, Lugano, switzerland
   address_line_2: Villa Ciani, Gate on Lake Lugano
   address_line_3: 
   name: Run For Hal Lugano
-  builder: Lugano's Plan B
+  builder: Lugano's Plan ₿
   type: meetup
   book_online: false
   book_in_person: false

@@ -1,0 +1,8 @@
+question: Mikä on Bastiat'n mukaan keino pahan torjumiseksi yhteiskunnassa?
+answer: Vapaudessa itsessään
+wrong_answers:
+  - Tahdossa valtaan
+  - Rangaistuksessa ankaralla ja kompromissittomalla oikeusjärjestelmällä
+  - Täydellisen tasa-arvon tavoittelussa
+explanation: |
+  Bastiat uskoo, että vapaus yhdistettynä täydelliseen ja kokonaiseen yksilölliseen vastuuseen on keino vastustaa pahaa ja kannustaa vastuullisempiin ja oikeudenmukaisempiin tekoihin.

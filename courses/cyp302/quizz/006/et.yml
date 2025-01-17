@@ -1,0 +1,9 @@
+question: Milline kontseptsioon ei ole eksklusiivselt seotud sümmeetriliste või asümmeetriliste krüptograafia skeemidega?
+answer: Räsifunktsioonid
+wrong_answers:
+  - Avaliku ja privaatse võtme paarid
+  - Asümmeetriline krüptograafia
+  - Sümmeetriline krüptograafia
+explanation: |
+  Räsifunktsioonid on kaasaegse krüptograafia võtmetähtsusega komponent, kuid neid ei seostata spetsiifiliselt ei sümmeetriliste ega asümmeetriliste skeemidega, erinevalt avalikest ja privaatsetest võtmetest.
+reviewed: false

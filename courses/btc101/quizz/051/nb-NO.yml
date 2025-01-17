@@ -1,0 +1,10 @@
+question: Hva er effekten av 2% inflasjon på kjøpekraften over 5 år?
+answer: Du mister 10% av din kjøpekraft.
+wrong_answers:
+  - Du mister 2% av din kjøpekraft.
+  - Du mister 5% av din kjøpekraft.
+  - Du mister 20% av din kjøpekraft.
+explanation: |
+  Med 2% inflasjon, mister du 2% av din kjøpekraft årlig, som
+  tilsvarer 10% over 5 år.
+reviewed: true

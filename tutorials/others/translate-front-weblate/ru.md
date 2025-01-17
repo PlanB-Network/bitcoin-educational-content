@@ -16,7 +16,7 @@ description: Как принять участие в переводе сайта
 
 Если вы хотите добавить на PlanB Network совершенно новый язык, который еще не доступен в Weblate, сначала вам нужно будет подать запрос на добавление. Для этого следуйте этому конкретному руководству.
 
-https://planb.network/tutorials/others/add-new-language-weblate
+https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 
 

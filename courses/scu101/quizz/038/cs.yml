@@ -1,12 +1,13 @@
 question: Co je správce hesel?
-answer: Nástroj, který umožňuje ukládat, generovat a spravovat vaše hesla pro různé online účty.
+answer: Nástroj, který vám umožňuje ukládat, generovat a spravovat vaše hesla pro různé online účty.
 wrong_answers:
   - Nástroj, který vám pomáhá pamatovat si všechna vaše hesla.
-  - Nástroj, který vás automaticky přihlašuje do vašich online účtů.
-  - Nástroj, který chrání váš počítač před viry.
+  - Nástroj, který vás automaticky přihlašuje do vašich online účtů s uživatelským jménem a heslem.
+  - Nástroj, který chrání hesla na vašem počítači před viry.
 explanation: |
-  Správce hesel je nástroj, který umožňuje ukládat, generovat a
+  Správce hesel je nástroj, který vám umožňuje ukládat,
+  generovat a spravovat vaše hesla pro různé online
+  účty. Pomáhá vám vytvářet silná hesla a pamatovat si
+  je, takže si je nemusíte pamatovat.
+reviewed: true
 
-  spravovat vaše hesla pro různé online účty. Pomáhá vám vytvářet silná
-
-  hesla a pamatovat si je, takže je nemusíte.'

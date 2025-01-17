@@ -1,11 +1,8 @@
-question: Mikä on BIP39:n rooli Bitcoin-ekosysteemissä?
-answer: Se toi käyttöön 24 sanan muistisäännön monimutkaisten numerosarjojen muuntamiseksi tavallisiksi sanoiksi.
+question: Mikä on hyvä käytäntö salasanan turvaamiseksi?
+answer: Tallenna se erilliselle fyysiselle medialle kuin mnemoninen lause
 wrong_answers:
-  - Se toi käyttöön käsitteen deterministisesti ja hierarkkisesti johdetuista avaimista.
-  - Se ehdotti lisäsalasanan lisäämistä yksittäisten avainten turvallisuuden vahvistamiseksi.
-  - Se standardisoi HD-lompakoiden rakenteen ja hierarkian.
+  - Opettele se ulkoa kirjaamatta sitä ylös
+  - Tallenna se samalle fyysiselle medialle kuin mnemoninen lause
+  - Tallenna se digitaaliselle medialle kuten Google Driveen
 explanation: |
-  BIP39 esitteli merkittävän innovaation; 24 sanan muistisäännön.
-  Tämä järjestelmä mahdollisti monimutkaisen, vaikeasti muistettavan numerosarjan muuntamisen
-  sarjaksi tavallisia sanoja, jotka on paljon helpompi muistaa ja säilyttää.
-reviewed: false
+  Salasanan on oltava tallennettuna fyysisesti ja erillään mnemonisesta lauseesta, jotta molempien samanaikaista varkautta voidaan estää.

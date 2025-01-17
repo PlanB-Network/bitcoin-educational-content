@@ -1,0 +1,9 @@
+question: Mis on zombiettevõte?
+answer: Ettevõte, mis tavapärastel turutingimustel oleks maksejõuetu või pankroti äärel, kuid jätkab tegevust peamiselt madalate laenukulude abil.
+wrong_answers:
+  - Ettevõte, mis on tegutsenud üle 100 aasta.
+  - Ettevõte, mis tegutseb tehnoloogiasektoris.
+  - Ettevõte, mille on päästnud valitsus.
+explanation: |
+  Zombiettevõte on ettevõte, mis tavapärastel turutingimustel oleks maksejõuetu või pankroti äärel, kuid jätkab tegevust peamiselt madalate laenukulude abil. Need ettevõtted teenivad just piisavalt raha, et katta oma võlad, kuid ei suuda oluliselt kasvada.
+reviewed: false

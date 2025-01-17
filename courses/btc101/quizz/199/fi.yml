@@ -4,7 +4,10 @@ wrong_answers:
   - Suuren määrän Bitcoinin ostaminen kerralla.
   - Bitcoinin ostaminen vain, kun hinta laskee.
   - Bitcoinin ostaminen vain, kun hinta nousee.
-explanation: >-
-  Teksti selittää, että Dollar Cost Average tarkoittaa pienten määrien Bitcoinin ostamista säännöllisin väliajoin. Tämä menetelmä tasoittaa hintaa ajan myötä ja
-  tarjoaa jatkuvaa kasvua omistetun Bitcoin-määrän suhteen.
-reviewed: false
+explanation: |
+  Kurssiteksti selittää, että Dollar Cost Average -tekniikka
+  sisältää pienten määrien Bitcoinin ostamisen säännöllisin
+  väliajoin. Tämä menetelmä tasoittaa hintavaihteluita ajan
+  kuluessa ja varmistaa jatkuvan kasvun omistetun Bitcoinin
+  määrässä.
+reviewed: true

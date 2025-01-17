@@ -1,9 +1,0 @@
-question: RoboSat P2Pソリューションの欠点は何ですか？
-answer: プロトコルが単一のコーディネーターに依存しており、脆弱です。
-wrong_answers:
-  - 操作にはアカウントが必要です。
-  - Lightning Networkを使用していません。
-  - オープンソースではありません。
-explanation: |
-  この章では、RoboSatの欠点の一つとして、そのプロトコルが単一のコーディネーターに依存しており、脆弱であることが挙げられています。
-reviewed: false

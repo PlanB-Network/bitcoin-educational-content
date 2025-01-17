@@ -1,9 +1,9 @@
-question: È consigliato memorizzare una passphrase o una frase mnemonica per un portafoglio Bitcoin?
-answer: "No"
+question: Che tipo di indirizzo inizia con `1` ed appartiene allo standard Legacy?
+answer: P2PKH
 wrong_answers:
-  - Sì
-  - Dipende dalla lunghezza della passphrase o della frase mnemonica
-  - Dipende dalla complessità della passphrase o della frase mnemonica
+  - P2WPKH
+  - P2SH
+  - P2TR
 explanation: |
-  Non è consigliato memorizzare una passphrase o una frase mnemonica. È fondamentale prendersi cura dei backup delle passphrase per evitare di perdere l'accesso al portafoglio.
+  Gli indirizzi P2PKH, codificati in base58check, derivano dallo standard Legacy e iniziano con la cifra `1`.
 reviewed: false

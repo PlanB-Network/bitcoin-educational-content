@@ -1,9 +1,13 @@
-question: Was ist die empfohlene Verwendung einer Offline- oder Cold-Physical-Wallet?
-answer: Zur Aufbewahrung größerer Beträge
+question: Was ist der empfohlene Gebrauch eines Offline- oder Cold-Physical-Wallets?
+answer: Das Aufbewahren großer Beträge.
 wrong_answers:
-  - Für tägliche Ausgaben
-  - Für kleine Beträge
-  - Für kurzfristige Ersparnisse
+  - Das Aufbewahren von täglichen Ausgaben.
+  - Das Aufbewahren kleiner Beträge.
+  - Das Aufbewahren von kurzfristigen Ersparnissen.
 explanation: |
-  Eine Offline- oder Cold-Physical-Wallet wird empfohlen, um größere Beträge aufzubewahren, da sie weniger anfällig für Online-Bedrohungen ist. Es wird jedoch nicht für tägliche Ausgaben empfohlen, da es für tägliche Transaktionen weniger zugänglich ist.
-reviewed: false
+  Ein Offline- oder Cold-Physical-Wallet wird für
+  das Aufbewahren großer Beträge empfohlen, da es weniger anfällig für
+  Online-Bedrohungen ist als Hot Wallets. Es wird jedoch nicht
+  für tägliche Ausgaben empfohlen, da es für tägliche Transaktionen weniger
+  zugänglich ist.
+reviewed: true

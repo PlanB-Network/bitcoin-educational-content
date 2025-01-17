@@ -1,10 +1,9 @@
-question: Jaká je role operátoru XOR ve funkci komprese SHA256?
-answer: Zpracovávat bity jeden po druhém podle jejich pořadí
+question: Jaká je velikost bloku používaná SHA512 v HMAC?
+answer: 128 bajtů
 wrong_answers:
-  - Vrátit 1 pouze pokud oba operandy jsou rovny 1
-  - Vrátit opačnou hodnotu operandu
-  - Posunout bity doprava o zvolený počet
+  - 64 bajtů
+  - 256 bajtů
+  - 1024 bajtů
 explanation: |
-  Ve funkci komprese SHA256 se operátor XOR používá k zpracování
-  bitů jeden po druhém podle jejich pořadí. To se provádí pomocí pravdivostní tabulky.
+  SHA512 používá pro své výpočty 128-bajtové bloky, což je ekvivalentní 1024 bitům.
 reviewed: false

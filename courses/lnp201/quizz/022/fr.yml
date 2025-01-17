@@ -1,9 +1,9 @@
-question: Que fait Alice avec l'UTXO de 0,0007 BTC lorsqu'elle ouvre un canal avec Bob ?
-answer: Elle l'envoie à l'une de ses adresses de changement.
+question: Qu'est-ce que la clé de révocation permet de faire en cas de tricherie ?
+answer: Récupérer l'intégralité des fonds en punissant le tricheur
 wrong_answers:
-  - Elle l'envoie à l'adresse publique de Bob.
-  - Elle l'envoie à l'adresse multi-sig 2/2.
-  - Elle le conserve dans sa propre adresse.
+  - Annuler la transaction d'engagement
+  - Doubler la capacité du canal
+  - Empêcher toute transaction supplémentaire dans le canal
 explanation: |
-  Lorsqu'Alice ouvre un canal avec Bob, elle crée une transaction avec 2 UTXOs en sortie. Un UTXO de 0,0013 BTC est envoyé à l'adresse multi-sig 2/2, et l'autre UTXO de 0,0007 BTC est envoyé à l'une de ses adresses de changement.
+  La clé de révocation permet à la partie lésée de récupérer l'intégralité des fonds en cas de tentative de tricherie par l'autre partie.
 reviewed: false

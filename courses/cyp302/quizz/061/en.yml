@@ -1,0 +1,9 @@
+question: What type of encryption uses fixed data blocks?
+answer: Block encryption
+wrong_answers:
+  - Stream encryption
+  - Message authentication code
+  - Public key
+explanation: |
+  Block encryption divides the data into fixed-size blocks and encrypts them independently.
+reviewed: false

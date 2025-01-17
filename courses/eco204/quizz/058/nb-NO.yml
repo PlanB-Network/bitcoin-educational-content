@@ -1,0 +1,9 @@
+question: Hva var den unike egenskapen til vekslene introdusert ved Antwerpen Børs på 1500-tallet?
+answer: De hadde navn og forfallsdatoer
+wrong_answers:
+  - De var laget av gull
+  - De ble utstedt av Banken i Amsterdam
+  - De kunne konverteres til floriner
+explanation: |
+  Antwerpen Børs introduserte veksler som hadde navn og forfallsdatoer. Dette gjorde dem vanskelige å omsette før forfallsdatoen. Imidlertid introduserte børsen praksisen med å diskontere disse vekslene før deres forfallsdato, noe som gjorde dem mer likvide og introduserte konseptet med tidsverdien av penger.
+reviewed: false

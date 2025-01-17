@@ -1,11 +1,11 @@
-question: O co šlo ve válce o bloky v roce 2017?
-answer: O konflikt, zda zvětšit velikost bloku pro zvýšení kapacity transakcí
+question: O co šlo ve válce o velikost bloků v roce 2017?
+answer: O konflikt, zda zvětšit velikost bloku pro rozšíření kapacity transakcí.
 wrong_answers:
-  - Konflikt, zda snížit velikost bloku pro snížení kapacity transakcí
-  - Konflikt, zda zvýšit odměnu za blok, aby se motivovali těžaři
-  - Konflikt, zda snížit odměnu za blok, aby se demotivovali těžaři
-explanation: >-
-  Válka o bloky v roce 2017 byl konflikt o tom, zda upravit Bitcoin
-  zvětšením velikosti bloku pro zvýšení kapacity transakcí.
-reviewed: false
-
+  - Konflikt, zda snížit velikost bloku pro snížení kapacity transakcí.
+  - Konflikt, zda zvýšit odměnu za blok pro motivaci těžařů.
+  - Konflikt, zda snížit odměnu za blok pro demotivaci těžařů.
+explanation: |
+  Válka o velikost bloků v roce 2017 byl konflikt o tom, zda
+  upravit Bitcoin zvětšením velikosti bloku pro rozšíření
+  kapacity transakcí.
+reviewed: true

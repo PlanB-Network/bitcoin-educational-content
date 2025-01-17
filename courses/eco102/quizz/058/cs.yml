@@ -1,0 +1,9 @@
+question: Jaký je Bastiatův pohled na požadavek výrobců svíček?
+answer: Odmítá ho, protože je v rozporu s obecným zájmem
+wrong_answers:
+  - Podporuje ho, protože je důležité chránit pracovní místa
+  - Je k tomuto problému neutrální
+  - Věří, že výrobci svíček mají pravdu
+explanation: |
+  Bastiat kritizuje požadavek výrobců svíček, zdůrazňuje, že protekcionismus slouží speciálním zájmům na úkor obecného zájmu.
+reviewed: false

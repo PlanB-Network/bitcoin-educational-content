@@ -1,9 +1,13 @@
 question: Virgin bitcoins là gì?
-answer: Bitcoin mới được khai thác mà chưa bao giờ được tiêu và không có lịch sử giao dịch nào gắn liền với chúng.
+answer: Bitcoin mới được khai thác mà chưa bao giờ được tiêu và không có lịch sử gắn liền.
 wrong_answers:
   - Bitcoin đã được sử dụng trong các hoạt động bất hợp pháp.
   - Bitcoin đã bị mất hoặc quên lãng.
   - Bitcoin đã được lưu trữ trong ví trong thời gian dài.
 explanation: |
-  Virgin bitcoins là những bitcoin mới được khai thác mà chưa bao giờ được tiêu và không có lịch sử giao dịch nào gắn liền với chúng. Những bitcoin này thường được coi là có giá trị hơn vì chúng chưa bao giờ bị "ô nhiễm", cung cấp một số bảo đảm chống lại việc bị từ chối bởi các cơ quan quản lý hoặc các nền tảng giao dịch lớn.
-
+  Virgin bitcoins là bitcoin mới được khai thác mà chưa
+  bao giờ được tiêu và không có lịch sử gắn liền. Những
+  bitcoin này thường được coi là có giá trị hơn vì chúng
+  chưa bao giờ bị ô nhiễm, cung cấp một số bảo đảm chống lại
+  việc từ chối bởi các cơ quan quản lý hoặc các nền tảng giao dịch lớn.
+reviewed: true

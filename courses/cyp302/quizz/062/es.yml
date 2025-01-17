@@ -1,0 +1,9 @@
+question: ¿Qué tipo de cifrado simétrico se utiliza principalmente para comunicaciones continuas, como transmisiones de audio o video?
+answer: Cifrado de flujo
+wrong_answers:
+  - Cifrado de bloque
+  - Código de verificación
+  - Hashing de mensajes
+explanation: |
+  El cifrado de flujo es particularmente adecuado para comunicaciones continuas porque cifra los datos de manera continua, a diferencia del cifrado de bloque, que los divide en bloques.
+reviewed: false

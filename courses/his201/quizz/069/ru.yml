@@ -1,0 +1,9 @@
+question: Где разработчики Bitcoin встречаются для более неформального обсуждения технических вопросов?
+answer: На IRC канале \#bitcoin-dev
+wrong_answers:
+  - В специальном разделе форума
+  - На почтовом списке bitcoin-development
+  - На сабреддите r/Bitcoin
+explanation: |
+  Это было [создано](https: //mmalmi.github.io/satoshi/#email-27) в августе 2009 года Мартти Малми. Канал приобрел некоторую популярность после события, известного как slashdotting, в июле 2010 года.
+reviewed: false

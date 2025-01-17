@@ -1,0 +1,8 @@
+question: Qual é a ilusão a respeito da segurança dos canais de comunicação no mundo moderno?
+answer: Acreditar que proteger fisicamente o canal impede a interceptação
+wrong_answers:
+  - Pensar que redes sem fio são ineficazes
+  - Acreditar que a criptografia não é necessária para comunicações locais
+  - Considerar que apenas agências nacionais podem interceptar dados
+explanation: |
+  É uma ilusão pensar que apenas garantir a segurança física do canal é suficiente para assegurar a confidencialidade, pois muitos pontos de interceptação permanecem acessíveis, especialmente para comunicações sem fio.

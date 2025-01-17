@@ -1,0 +1,9 @@
+question: What does the Diffie-Hellman key exchange protocol allow?
+answer: It allows two parties to create a common secret key by sharing public information.
+wrong_answers:
+  - It allows for an in-person secret key exchange for each session.
+  - It allows the use of a public key for encryption and a private key for decryption.
+  - It allows for the exchange of electronic currency.
+explanation: |
+  The Diffie-Hellman protocol enables two parties to publicly share information while ensuring that only they can generate a common key to secure their future exchanges.
+reviewed: false

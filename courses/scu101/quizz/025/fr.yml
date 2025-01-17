@@ -1,9 +1,11 @@
 question: Quelle est la pratique recommandée pour stocker le mot de passe pour le chiffrement des données ?
-answer: Écrivez le mot de passe sur un papier à conserver dans un endroit sûr.
+answer: Notez le mot de passe sur un papier à conserver dans un endroit sûr.
 wrong_answers:
   - Stockez le mot de passe dans un fichier texte sur l'ordinateur.
   - Partagez le mot de passe avec des amis de confiance.
-  - Utilisez un mot de passe commun facile à retenir.
+  - Utilisez un mot de passe commun qui est facile à retenir.
 explanation: |
-  Il est recommandé d'écrire le mot de passe pour le chiffrement des données sur un papier et de le conserver dans un endroit sûr. Cela permet d'éviter la perte d'accès aux données chiffrées.
-reviewed: false
+  Il est recommandé de noter le mot de passe pour le chiffrement des
+  données sur un papier et de le conserver dans un endroit sûr. Ceci est
+  pour éviter la perte d'accès aux données chiffrées.
+reviewed: true

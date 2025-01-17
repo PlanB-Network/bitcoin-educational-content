@@ -1,0 +1,11 @@
+question: Apa peran kunci privat dalam transaksi Bitcoin?
+answer: Mereka digunakan untuk menandatangani dan mengotorisasi transaksi.
+wrong_answers:
+  - Mereka digunakan untuk memverifikasi keaslian transaksi.
+  - Mereka digunakan untuk mengenkripsi data transaksi.
+  - Mereka dibagikan secara publik untuk transparansi.
+explanation: |
+  Kunci privat merupakan komponen esensial dalam transaksi Bitcoin.
+  Mereka digunakan untuk menandatangani dan mengotorisasi transaksi, memberikan bukti
+  kepemilikan dan memastikan bahwa hanya pemilik yang dapat menghabiskan bitcoin mereka.
+reviewed: true

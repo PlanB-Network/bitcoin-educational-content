@@ -1,9 +1,9 @@
-question: Quel est le principal objectif des signatures numériques dans le protocole Bitcoin?
-answer: Le principal objectif des signatures numériques dans le protocole Bitcoin est de démontrer la possession d'une clé privée associée à une clé publique spécifique.
+question: Quel algorithme de signature numérique était utilisé au lancement de Bitcoin ?
+answer: ECDSA
 wrong_answers:
-  - Chiffrer les données de transaction
-  - Générer de nouveaux bitcoins
-  - Vérifier l'identité de l'expéditeur
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Au cœur du protocole Bitcoin, les signatures numériques sont utilisées comme des preuves mathématiques démontrant la possession d'une clé privée associée à une clé publique spécifique.
+  Bitcoin utilisait initialement ECDSA, un protocole de signature basé sur les courbes elliptiques, avant l'introduction des signatures Schnorr en 2021.
 reviewed: false

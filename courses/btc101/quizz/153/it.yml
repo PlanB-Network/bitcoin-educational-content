@@ -4,10 +4,10 @@ wrong_answers:
   - Aumenta la ricompensa per il mining.
   - Diminuisce il numero di bitcoin in circolazione.
   - Aumenta la sicurezza della rete Bitcoin.
-explanation: |
+explanation: >-
   L'aggiustamento della difficoltà nel mining di Bitcoin è progettato per garantire che
-  il tempo necessario per estrarre un blocco rimanga approssimativamente costante, indipendentemente da
-  la potenza computazionale totale della rete. Regola la difficoltà del problema matematico
-  che i minatori devono risolvere, in base al numero di minatori che partecipano alla
+  il tempo necessario per minare un blocco rimanga approssimativamente costante, indipendentemente dalla
+  potenza computazionale totale della rete. Adegua la difficoltà del problema matematico
+  che i minatori devono risolvere, basandosi sul numero di minatori che partecipano alla
   rete.
-reviewed: false
+reviewed: true

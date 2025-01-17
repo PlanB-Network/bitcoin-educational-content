@@ -1,0 +1,9 @@
+question: Hva var variasjonen i prisen på Bitcoin i uken etter introduksjonen på Slashdot?
+answer: Fra $0.008 til $0.08
+wrong_answers:
+  - Fra $0.001 til $0.008
+  - Fra $0.08 til $0.50
+  - Fra $0.50 til $1
+explanation: |
+  Denne variasjonen tilsvarer en tidobling! Hash-raten opplevde en lignende økning.
+reviewed: false

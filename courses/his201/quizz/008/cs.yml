@@ -1,0 +1,9 @@
+question: Co bylo e-gold?
+answer: Digitální měna krytá ekvivalentním množstvím zlata uloženého ve trezoru
+wrong_answers:
+  - Jednotka měny ve vesmíru World of Warcraft
+  - Koncept digitální měny, jehož vydání bylo založeno na důkazu práce
+  - Online výměnný systém pro zlaté šperky
+explanation: |
+  Systém byl spoluzaložen Douglasem Jacksonem a Barrym Downeyem v roce 1996 a byl přístupný s jednoduchým webovým prohlížečem.
+reviewed: false

@@ -1,8 +1,8 @@
-question: Password manager là gì?
-answer: Một công cụ cho phép bạn lưu trữ, tạo và quản lý mật khẩu cho các tài khoản trực tuyến khác nhau.
+question: Quản lý mật khẩu là gì?
+answer: Một công cụ giúp bạn lưu trữ, tạo và quản lý mật khẩu cho các tài khoản trực tuyến khác nhau.
 wrong_answers:
   - Một công cụ giúp bạn nhớ tất cả mật khẩu của mình.
-  - Một công cụ tự động đăng nhập vào các tài khoản trực tuyến của bạn.
-  - Một công cụ bảo vệ máy tính của bạn khỏi virus.
-explanation: |
-  Password manager là một công cụ cho phép bạn lưu trữ, tạo và quản lý mật khẩu cho các tài khoản trực tuyến khác nhau. Nó giúp bạn tạo ra những mật khẩu mạnh và nhớ chúng, vì vậy bạn không cần phải nhớ chúng.
+  - Một công cụ tự động đăng nhập vào các tài khoản trực tuyến của bạn với tên đăng nhập và mật khẩu.
+  - Một công cụ bảo vệ mật khẩu trên máy tính của bạn khỏi virus.
+explanation:
+  Quản lý mật khẩu là một công cụ cho phép bạn lưu trữ, tạo và quản lý mật khẩu cho các tài khoản trực tuyến khác nhau. Nó giúp bạn tạo ra những mật khẩu mạnh và nhớ chúng, vì vậy bạn không cần phải tự nhớ tất cả.

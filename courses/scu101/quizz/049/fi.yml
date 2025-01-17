@@ -1,9 +1,12 @@
 question: Miksi SMS ei ole paras vaihtoehto kaksivaiheiselle tunnistautumiselle?
-answer: Se tarjoaa vain todisteen puhelinnumeron hallussapidosta.
+answer: Tämä menetelmä on altis erilaisille hyökkäyksille, kuten SIM-kortin vaihtohuijaukselle.
 wrong_answers:
-  - Se on liian kallis
-  - Se on liian hidas
-  - Sen käyttöönotto on liian monimutkaista
+  - Se on liian hidas ja kallis, puhelu olisi tehokkaampi.
+  - Se tarjoaa vain todisteen puhelinnumeron hallussapidosta.
+  - Sen tekninen käyttöönotto on liian monimutkaista.
 explanation: |
-  SMS ei ole paras vaihtoehto kaksivaiheiselle tunnistautumiselle, koska se tarjoaa vain todisteen puhelinnumeron hallussapidosta, ei henkilöllisyyden todistamista.
-reviewed: false
+  SMS: ää ei pidetä parhaana vaihtoehtona kaksivaiheiselle tunnistautumiselle, koska se
+  on 2FA-menetelmä, joka on altis erilaisille hyökkäyksille, kuten SIM-kortin vaihtohuijaukselle.
+  Kun nämä haavoittuvuudet onnistuneesti hyödynnetään, ne tuhoavat täysin
+  kaksivaiheisen tunnistautumisen tarjoaman lisäsuojan.
+reviewed: true

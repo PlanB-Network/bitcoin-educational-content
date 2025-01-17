@@ -1,0 +1,9 @@
+question: What does the second Beale message reveal once decrypted?
+answer: The list of buried treasures (gold, silver, and jewels)
+wrong_answers:
+  - The exact location where the treasure is buried
+  - The date of Beale's return
+  - The signature of Beale and that of his associates
+explanation: |
+  After decryption, the second message describes the content of the treasure, consisting of gold, silver, and jewels.
+reviewed: false

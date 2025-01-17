@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de los índices endurecidos en la estructura de la Cartera HD?
-answer: Se utilizan con un apóstrofo para ciertas derivaciones.
-wrong_answers:
-  - Se utilizan para derivar claves secundarias con un propósito específico.
-  - Permiten diferenciar cuentas para diferentes criptomonedas o redes.
-  - Corresponden a las cadenas externas e internas.
-explanation: |
-  En la estructura de la Cartera HD, los índices endurecidos se utilizan con un apóstrofo para ciertas derivaciones.
-reviewed: false

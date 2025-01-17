@@ -1,0 +1,9 @@
+question: Miksi RSA-salakirjoitusjärjestelmässä on vaikeaa löytää arvoa d?
+answer: Koska se vaatii tiedon φ(N); stä, joka riippuu N; n alkutekijöistä
+wrong_answers:
+  - Koska d on satunnaisluku
+  - Koska d on suurempi kuin N
+  - Koska d lasketaan riippumatta φ(N); stä
+explanation: |
+  d; n löytäminen on vaikeaa, koska se nojaa tietoon φ(N); stä, joka puolestaan riippuu p: n ja q; n arvoista, N; n alkutekijöistä.
+reviewed: false

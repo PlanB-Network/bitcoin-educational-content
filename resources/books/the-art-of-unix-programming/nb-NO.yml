@@ -1,0 +1,8 @@
+title: "Kunsten ved Unix Programmering"
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  Kunsten ved Unix Programmering av Eric S. Raymond er en mellomnivå-guide som utforsker filosofien, designprinsippene, og de praktiske aspektene ved Unix-programmering. Den dekker emner som Unix-programmeringsmiljøet, shell-skripting, systemkall, og interprosesskommunikasjon. Med klare forklaringer og eksempler, viser boken kraften og fleksibiliteten til Unix som en programmeringsplattform, samtidig som den legger vekt på enkelhet og modulært design. Den diskuterer også historien og det samarbeidsorienterte naturen til Unix-utvikling. Overordnet sett tilbyr den verdifulle innsikter for utviklere som ser etter å forbedre sine Unix-programmeringsferdigheter.
+contributors:
+  - rabbit-hole

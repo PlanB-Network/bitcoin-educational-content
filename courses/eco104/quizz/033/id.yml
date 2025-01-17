@@ -1,0 +1,12 @@
+question: Apa salah satu keuntungan dari stablecoin terpusat meskipun mereka memiliki kemampuan untuk membekukan dana?
+answer: Mereka dapat dengan cepat merespon untuk melindungi pengguna dalam skenario tertentu
+wrong_answers:
+  - Mereka menawarkan desentralisasi dan keamanan yang lengkap
+  - Mereka tidak tunduk pada regulasi atau intervensi apa pun
+  - Mereka beroperasi secara independen dari penegakan hukum
+explanation: |
+  Stablecoin terpusat memiliki kemampuan untuk melakukan intervensi
+  ketika itu adalah dalam kepentingan terbaik pengguna dan stabilitas keseluruhan
+  dari sistem, seperti yang ditunjukkan oleh contoh di mana dana yang dibekukan digunakan
+  untuk melindungi konsumen dan mencegah hacker mendapatkan keuntungan.
+reviewed: true

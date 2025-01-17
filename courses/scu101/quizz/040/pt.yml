@@ -1,9 +1,12 @@
-question: Qual é a diferença entre o LastPass e o Dashlane?
-answer: Ambos são serviços de terceiros, mas o Dashlane oferece recursos adicionais, como o rastreamento de informações de cartão de crédito e notas seguras.
+question: Qual é a diferença entre LastPass e Dashlane?
+answer: Ambos são serviços de terceiros, mas o Dashlane oferece recursos adicionais como o rastreamento de informações de cartão de crédito e notas seguras.
 wrong_answers:
-  - O LastPass é um serviço de terceiros, enquanto o Dashlane é um serviço auto-hospedado.
-  - O Dashlane é um serviço de terceiros, enquanto o LastPass é um serviço auto-hospedado.
+  - LastPass é um serviço de terceiros, enquanto Dashlane é um serviço auto-hospedado.
+  - Dashlane é um serviço de terceiros, enquanto LastPass é um serviço auto-hospedado.
   - Não há diferença, eles oferecem os mesmos recursos.
 explanation: |
-  Tanto o LastPass quanto o Dashlane são serviços de terceiros, o que significa que suas senhas são armazenadas em seus servidores. No entanto, o Dashlane oferece recursos adicionais, como o rastreamento de informações de cartão de crédito e notas seguras.
-reviewed: false
+  Tanto o LastPass quanto o Dashlane são serviços de terceiros,
+  o que significa que suas senhas são armazenadas em seus servidores.
+  No entanto, o Dashlane oferece recursos adicionais como o rastreamento
+  de informações de cartão de crédito e notas seguras.
+reviewed: true

@@ -1,9 +1,12 @@
-question: Cosa significa il termine 'fiduciario' nel contesto delle valute?
-answer: Si riferisce a valute che non hanno valore intrinseco e si basano sulla fiducia nelle istituzioni che le regolamentano.
+question: Cosa significa il termine fiduciario nel contesto delle valute?
+answer: Si riferisce a valute che sono considerate di valore solo a causa della fiducia nell'istituzione centrale che le regola.
 wrong_answers:
-  - Si riferisce a valute che sono garantite dall'oro.
-  - Si riferisce a valute che vengono utilizzate solo per transazioni fiduciarie.
-  - Si riferisce a valute che vengono utilizzate solo all'interno di una specifica istituzione.
+  - Si riferisce a valute che sono supportate dall'oro e sono emesse da piccole banche commerciali.
+  - Si riferisce a valute che hanno valore solo per transazioni fiduciarie.
+  - Si riferisce a valute che sono utilizzate solo all'interno di una specifica istituzione.
 explanation: |
-  Le valute fiduciarie sono quelle che non sono garantite da una merce fisica come l'oro o l'argento. Il loro valore deriva dalla fiducia e dalla fiducia che le persone hanno nelle istituzioni che le emettono e le regolamentano.
-reviewed: false
+  Le valute fiduciarie non sono supportate da una merce fisica
+  come l'oro o l'argento. Il loro valore deriva dalla fiducia
+  e dalla fiducia che le persone hanno nelle istituzioni che le emettono
+  e le regolano.
+reviewed: true

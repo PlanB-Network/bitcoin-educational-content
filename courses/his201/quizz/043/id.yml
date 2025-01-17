@@ -1,0 +1,9 @@
+question: Apa yang ditawarkan oleh Bitcoin Faucet yang dibuat pada Juni 2010 oleh Gavin Andresen?
+answer: Bitcoin
+wrong_answers:
+  - Voucher belanja
+  - Diskon biaya untuk Pasar Bitcoin
+  - Kesempatan untuk menambang sebuah blok
+explanation: |
+  Layanan ini awalnya mendistribusikan 5 bitcoin per permintaan, untuk membiarkan orang mencoba sistem tersebut. Jumlah ini berkurang dari waktu ke waktu, dan faucet tersebut ditutup pada tahun 2012.
+reviewed: false

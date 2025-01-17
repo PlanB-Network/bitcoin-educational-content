@@ -1,0 +1,9 @@
+question: SHA256与RIPEMD160的主要区别是什么？
+answer: RIPEMD160生成的哈希值比SHA256短
+wrong_answers:
+  - SHA256已经过时，而RIPEMD160则没有
+  - RIPEMD160仅在工作量证明机制中使用
+  - SHA256从未与其他哈希函数结合使用
+explanation: |
+  RIPEMD160生成160位的哈希值，而SHA256产生256位的哈希值。
+reviewed: false

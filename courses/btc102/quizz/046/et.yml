@@ -1,0 +1,11 @@
+question: Mis on peamine risk, kui jätta oma bitcoine vahetusplatvormile?
+answer: Platvormi võib häkkida, arestida, see võib pankrotti minna või lihtsalt kaduda koos sinu rahaga
+wrong_answers:
+  - Bitcoini hind võib järsult langeda
+  - Platvorm võib tõsta oma tasusid
+  - Platvorm võib piirata bitcoine, mida saad osta või müüa
+explanation: |
+  Peatüki sisu hoiatab, et vahetusplatvormid kujutavad endast olulisi
+  riske ja neid tuleks võimalikult palju vältida. Neid võib häkkida, arestida, nad võivad
+  pankrotti minna või lihtsalt kaduda koos sinu rahaga.
+reviewed: false

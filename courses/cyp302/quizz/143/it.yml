@@ -1,0 +1,9 @@
+question: Qual è il tempo stimato per fattorizzare un intero di 2048 bit utilizzando tutte le risorse di calcolo attuali?
+answer: Ben oltre l'età dell'universo
+wrong_answers:
+  - Alcuni mesi con computer classici
+  - Alcuni minuti con supercomputer
+  - Alcuni decenni per una fattoria di mining di Bitcoin
+explanation: |
+  La complessità della fattorizzazione di numeri a 2048 bit è tale che sarebbe praticamente impossibile risolverla, anche utilizzando tutte le risorse di calcolo esistenti per un periodo che supera l'età dell'universo.
+reviewed: false

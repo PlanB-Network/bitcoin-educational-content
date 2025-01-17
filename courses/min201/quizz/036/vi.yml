@@ -1,11 +1,13 @@
-question: Mối quan hệ giữa chi phí của Bitcoin và giá của nó là gì?
-answer: Chi phí của Bitcoin thường tỷ lệ thuận với giá của nó
+question: Mối quan hệ giữa chi phí sản xuất Bitcoin và giá thị trường của nó là gì?
+answer: Chi phí của Bitcoin có thể nói chung là tỷ lệ thuận với giá của nó
 wrong_answers:
-  - Chi phí của Bitcoin tỷ lệ nghịch với giá của nó
-  - Chi phí của Bitcoin không liên quan đến giá của nó
+  - Chi phí của Bitcoin là tỷ lệ nghịch với giá của nó
+  - Chi phí của Bitcoin được cố định, trong một tỷ lệ nhất định, so với giá của nó
   - Chi phí của Bitcoin luôn cao hơn giá của nó
 explanation: |
-  Chi phí của Bitcoin, liên quan đến điện năng cần thiết để vận hành
-  máy đào, thường tỷ lệ thuận với giá của nó. Mối quan hệ này cung cấp
-  cái nhìn sâu sắc hơn về sự biến động giá và triển vọng tương lai.
-reviewed: false
+  Chi phí của Bitcoin, liên quan đến điện năng
+  cần thiết để vận hành máy đào, có thể nói chung là
+  tỷ lệ thuận với giá của nó. Mối quan hệ này cung cấp
+  một cái nhìn sâu sắc hơn về sự biến động giá và triển vọng
+  tương lai.
+reviewed: true

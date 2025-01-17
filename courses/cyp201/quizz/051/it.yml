@@ -1,9 +1,9 @@
-question: Qual è l'importanza di BIP32 nell'ecosistema Bitcoin?
-answer: Ha rivoluzionato il modo in cui vengono generati e archiviati i chiavi, introducendo il concetto di chiavi derivate in modo deterministico e gerarchico.
+question: Qual è la principale differenza tra una passphrase e un codice PIN per un portafoglio Bitcoin?
+answer: La passphrase modifica la derivazione della chiave, non il codice PIN
 wrong_answers:
-  - Ha introdotto la frase mnemonica di 24 parole.
-  - Ha proposto l'aggiunta di una passphrase aggiuntiva per rafforzare la sicurezza delle singole chiavi.
-  - Ha standardizzato la struttura e la gerarchia degli HD wallet.
+  - Il codice PIN è collegato alla frase mnemonica
+  - Il codice PIN è usato per criptare le transazioni ma non la passphrase
+  - Il codice PIN genera indirizzi Bitcoin
 explanation: |
-  BIP32, lanciato nel 2012, ha rivoluzionato il modo in cui vengono generati e archiviati questi chiavi, introducendo il concetto di chiavi derivate in modo deterministico e gerarchico. Ciò semplifica notevolmente il processo di salvataggio di queste chiavi, mantenendo al contempo il loro livello di sicurezza.
-reviewed: false
+  A differenza del codice PIN, la passphrase è direttamente coinvolta nel processo di derivazione della chiave e cambia le chiavi del portafoglio.
+recensito: false

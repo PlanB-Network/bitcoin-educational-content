@@ -1,0 +1,9 @@
+question: ¿Cuál es la diferencia entre historia y filosofía?
+answer: Todas las demás respuestas
+wrong_answers:
+  - La historia describe el pasado mientras que la filosofía lo juzga
+  - La historia es factual mientras que la filosofía es normativa
+  - La historia se centra en los eventos mientras que la filosofía se centra en los conceptos
+explanation: |
+  La diferencia entre historia y filosofía radica en sus respectivos enfoques: la historia se concentra en describir y analizar eventos pasados, mientras que la filosofía busca juzgar, interpretar y establecer normas basadas en conceptos abstractos.
+reviewed: false

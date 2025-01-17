@@ -1,9 +1,9 @@
-question: Cosa succede a tutti i bitcoin in una transazione Bitcoin?
-answer: Devono tutti spostarsi.
+question: Qual è il primo passo per aprire un canale Lightning tra due partecipanti?
+answer: Scambiare messaggi contenenti gli importi e le chiavi pubbliche
 wrong_answers:
-  - Vengono tutti convertiti in valuta fiat.
-  - Vengono tutti conservati in un nuovo indirizzo.
-  - Vengono tutti divisi equamente tra i partecipanti.
+  - Pubblicare immediatamente una transazione di deposito sulla blockchain
+  - Creare un indirizzo multisignature 2/2 senza uno scambio preliminare
+  - Firmare la transazione di prelievo prima dello scambio delle chiavi pubbliche
 explanation: |
-  In una transazione Bitcoin, tutti i bitcoin devono spostarsi. Questo viene definito come UTXO (Unspent Transaction Output), dove i bitcoin si sposteranno tutti solo per tornare successivamente al proprietario.
+  L'apertura di un canale inizia con uno scambio di messaggi tra le due parti, dove condividono gli importi che desiderano impegnare e le loro chiavi pubbliche.
 reviewed: false

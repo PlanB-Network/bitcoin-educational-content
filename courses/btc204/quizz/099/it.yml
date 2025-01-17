@@ -1,0 +1,13 @@
+question: Cosa misura il set anonimo retrospettivo?
+
+answer: La resistenza della privacy contro un'analisi dal presente al passato.
+
+wrong_answers:
+  - La resistenza della privacy contro un'analisi dal passato al futuro.
+  - La resistenza della privacy contro un'analisi dal presente al futuro.
+  - La resistenza della privacy contro un'analisi dal passato al presente.
+
+explanation: |
+  Il set anonimo retrospettivo misura la resistenza della privacy di una moneta contro un'analisi dal presente al passato (dall'output all'input).
+
+reviewed: false

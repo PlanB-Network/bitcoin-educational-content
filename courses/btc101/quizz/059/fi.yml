@@ -1,9 +1,9 @@
-question: Mikä on suurin mahdollinen määrä Bitcoin-yksiköitä, jotka voivat koskaan olemassa?
-answer: 21 miljoonaa yksikköä
+question: Mikä seuraavista ei ole Bitcoinin ominaisuus?
+answer: Sitä on helppo sensuroida.
 wrong_answers:
-  - 25 miljoonaa yksikköä
-  - 30 miljoonaa yksikköä
-  - 50 miljoonaa yksikköä
+  - Se on välittömästi siirrettävissä.
+  - Sen varmentamisen kustannukset ovat merkityksettömät.
+  - Sillä on kiinteä rahapolitiikka.
 explanation: |
-  Bitcoinin tietokonekoodi ja kaikkien protokollaan osallistuvien käyttäjien konsensus määrittävät, että suurin mahdollinen määrä Bitcoin-yksiköitä, jotka voivat koskaan olemassa, on 21 miljoonaa.
-reviewed: false
+  Bitcoinilla on kaikki tarvittavat ominaisuudet ollakseen tehokas ja terve valuutta: jaettavissa, välittömästi siirrettävissä, sensuroimaton, varmentamisen kustannukset ovat merkityksettömät, ja sillä on jo vuosisadoiksi asetettu rahapolitiikka 21 miljoonan yksikön kanssa.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Missä Frédéric Bastiat istui Kansalliskokouksessa?
+answer: Keskivasemmalla Alexis de Tocquevillen kanssa
+wrong_answers:
+  - Vasemmalla sosialistien kanssa
+  - Oikealla monarkistien kanssa
+  - Keskioikealla konservatiivisten liberaalien kanssa
+explanation: |
+  Bastiat istui keskivasemmalla Tocquevillen kanssa, missä hän puolusti yksilön vapauksia.

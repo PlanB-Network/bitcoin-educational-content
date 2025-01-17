@@ -1,0 +1,13 @@
+question: Hva indikerer det fremtidige anonsetet?
+
+answer: Størrelsen på gruppen av uatskillelige UTXOs ved utgangen av sykluser.
+
+wrong_answers:
+  - Størrelsen på gruppen av uatskillelige UTXOs ved inngangen av sykluser.
+  - Størrelsen på gruppen av uatskillelige UTXOs i en pool.
+  - Antall transaksjoner som kreves for å oppnå anonymitet.
+
+explanation: |
+  Det fremtidige anonsetet indikerer størrelsen på gruppen blant hvilken den studerte UTXO skjuler seg ved utgangen av en syklus, gitt kjennskap til UTXO ved inngangen, det vil si antallet uatskillelige mynter til stede innenfor denne gruppen.
+
+reviewed: false

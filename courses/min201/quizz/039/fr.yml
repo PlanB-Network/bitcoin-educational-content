@@ -1,9 +1,13 @@
-question: Quels sont les inconvénients potentiels de l'exploitation minière pour le réseau ?
+question: Quel est l'inconvénient potentiel de l'exploitation minière pour le réseau ?
 answer: Sans incitation financière suffisante, il peut être difficile pour les mineurs de continuer à soutenir le réseau.
 wrong_answers:
-  - Cela peut entraîner une baisse du prix du Bitcoin.
+  - Cela peut entraîner une diminution du prix du Bitcoin.
   - Cela peut entraîner une augmentation du taux de hachage du réseau.
   - Cela peut entraîner une diminution du nombre de nœuds actifs dans le réseau.
 explanation: |
-  L'exploitation minière pour le réseau est une initiative noble qui contribue à la sécurité et à la décentralisation du réseau Bitcoin. Cependant, sans incitation financière suffisante, il peut être difficile pour les mineurs de continuer à soutenir le réseau, surtout s'ils opèrent à perte.
-reviewed: false
+  L'exploitation minière pour le réseau est une initiative noble qui
+  contribue à la sécurité et à la décentralisation du
+  réseau Bitcoin. Cependant, sans incitation financière
+  suffisante, il peut être difficile pour les mineurs de continuer
+  à soutenir le réseau, surtout s'ils opèrent à perte.
+reviewed: true

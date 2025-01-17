@@ -1,0 +1,20 @@
+name: Israeli Bitcoin Association
+category: education
+
+links:
+  website: https://bitcoin.org.il
+  youtube: https://www.youtube.com/channel/UC58YJLWM7hsKUZOQtmAHcvQ
+
+tags:
+  - regulation
+  - easy-explain
+  - user-friendly
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-13
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

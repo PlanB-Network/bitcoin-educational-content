@@ -1,0 +1,11 @@
+question: Mengapa tidak disarankan untuk menggunakan ekstensi browser untuk pengisian kata sandi otomatis?
+answer: Mereka dapat membuat pengguna lebih rentan terhadap serangan phishing, meningkatkan permukaan serangan, dan memperlambat kinerja browser.
+wrong_answers:
+  - Mereka sulit digunakan.
+  - Mereka tidak kompatibel dengan semua browser.
+  - Mereka memerlukan banyak ruang penyimpanan.
+explanation: |
+  Ekstensi browser untuk pengisian kata sandi otomatis dapat membuat pengguna lebih
+  rentan terhadap serangan phishing. Mereka juga cenderung meningkatkan permukaan serangan dan
+  dapat memperlambat kinerja browser, sehingga menyajikan risiko yang signifikan.
+reviewed: false

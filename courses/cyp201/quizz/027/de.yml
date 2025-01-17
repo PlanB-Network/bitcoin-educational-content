@@ -1,9 +1,9 @@
-question: Was speichert eine Bitcoin-Wallet?
-answer: Die privaten Schlüssel, die zum Nachweis des Besitzes der Bitcoins erforderlich sind.
+question: Welche Schwachstelle in ECDSA-Signaturen wurde durch SegWit behoben?
+answer: Veränderbarkeit
 wrong_answers:
-  - Die Bitcoins selbst
-  - Die öffentlichen Schlüssel, die zum Nachweis des Besitzes der Bitcoins erforderlich sind
-  - Die Transaktionshistorie der Bitcoins
+  - Stapelverifizierung
+  - Fehlende Aggregation
+  - Übermäßige Größe von Signaturen
 explanation: |
-  In Wirklichkeit speichert eine Bitcoin-Wallet die privaten Schlüssel, die zum Nachweis des Besitzes der Bitcoins erforderlich sind. Die Bitcoins selbst werden auf der Blockchain, einer dezentralen Datenbank, die alle Transaktionen archiviert, aufgezeichnet.
+  SegWit korrigierte die Veränderbarkeit von ECDSA-Signaturen, was Anwendungen wie das Lightning Network ermöglichte.
 reviewed: false

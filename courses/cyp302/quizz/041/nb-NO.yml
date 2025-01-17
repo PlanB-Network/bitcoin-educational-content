@@ -1,0 +1,8 @@
+question: I en gruppe, hva kalles det unike elementet som, når det anvendes på et annet element, ikke endrer det?
+answer: Identitetselementet
+wrong_answers:
+  - Det inverse elementet
+  - Det kommutative elementet
+  - Det assosiative elementet
+explanation: |
+  Identitetselementet i en gruppe er det unike elementet som, når det anvendes på et annet element, lar det være uendret. For eksempel, i gruppen av heltall under addisjon, er identitetselementet 0.

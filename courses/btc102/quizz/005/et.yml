@@ -1,0 +1,9 @@
+question: Mis on selle ülikooli kursuse fookus?
+answer: Bitcoin'i universum.
+wrong_answers:
+  - Globaalne krüptoraha tööstus.
+  - Fintech tööstus.
+  - Plokiahela tööstus.
+explanation: |
+  Selle ülikooli täielik fookus on Bitcoin'i universumil, mitte krüptorahal.
+reviewed: false

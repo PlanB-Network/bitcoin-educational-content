@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara P2PK dan P2PKH?
+answer: P2PK menggunakan kunci publik mentah secara langsung, sementara P2PKH menggunakan hash dari kunci publik.
+wrong_answers:
+  - P2PK kompatibel dengan SegWit, sementara P2PKH tidak.
+  - P2PK menggunakan tanda tangan Schnorr, sementara P2PKH menggunakan tanda tangan ECDSA.
+  - P2PK ditujukan untuk multisig, sementara P2PKH untuk skrip sederhana.
+explanation: |
+  P2PK mengunci dana dengan kunci publik mentah, sedangkan P2PKH menggunakan hash dari kunci publik.
+ditinjau: false

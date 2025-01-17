@@ -12,13 +12,13 @@ Nếu bạn muốn đóng góp cho Mạng lưới PlanB, bạn sẽ cần sử d
 
 Nếu bạn không biết GitHub là gì, hoặc nếu bạn muốn tìm hiểu thêm về các thuật ngữ kỹ thuật liên quan đến Git và GitHub, tôi khuyên bạn đọc bài viết giới thiệu của chúng tôi để làm quen với những khái niệm này.
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 - Để bắt đầu, rõ ràng bạn sẽ cần một tài khoản GitHub. Nếu bạn đã có một, bạn có thể đăng nhập, nếu không, bạn có thể sử dụng hướng dẫn của chúng tôi để tạo một tài khoản mới.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -59,13 +59,13 @@ Chúng ta đã, theo một cách nào đó, tạo một bản sao của kho lưu
 
 - Quay trở lại phần mềm GitHub Desktop. Bây giờ, fork của bạn nên xuất hiện trong mục `Your repositories`. Nếu bạn không thấy ngay lập tức, sử dụng nút mũi tên kép để làm mới danh sách. Khi fork của bạn xuất hiện, nhấp vào nó để chọn:
 ![github-desktop](assets/15.webp)
-- Sau đó nhấp vào nút màu xanh: `Clone [username]/sovereign-university-data`:
+- Sau đó nhấp vào nút màu xanh: `Clone [username]/bitcoin-educational-content`:
 ![github-desktop](assets/16.webp)
 - Giữ nguyên đường dẫn mặc định. Để xác nhận, nhấp vào nút màu xanh `Clone`:
 ![github-desktop](assets/17.webp)
 - Chờ trong khi GitHub Desktop clone fork của bạn về máy cục bộ:
 ![github-desktop](assets/18.webp)
-- Sau khi sao chép kho lưu trữ, phần mềm sẽ cung cấp cho bạn hai lựa chọn. Bạn phải chọn lựa chọn đầu tiên: `Đóng góp cho dự án mẹ`. Lựa chọn này sẽ cho phép bạn trình bày công việc tương lai của mình như là một đóng góp cho dự án mẹ (`DecouvreBitcoin/sovereign-university-data`), và không chỉ là sửa đổi riêng lẻ của bản sao cá nhân của bạn (`[username]/sovereign-university-data`). Sau khi lựa chọn được chọn, nhấp vào `Tiếp tục`: ![github-desktop](assets/19.webp)
+- Sau khi sao chép kho lưu trữ, phần mềm sẽ cung cấp cho bạn hai lựa chọn. Bạn phải chọn lựa chọn đầu tiên: `Đóng góp cho dự án mẹ`. Lựa chọn này sẽ cho phép bạn trình bày công việc tương lai của mình như là một đóng góp cho dự án mẹ (`PlanB-Network/bitcoin-educational-content`), và không chỉ là sửa đổi riêng lẻ của bản sao cá nhân của bạn (`[username]/bitcoin-educational-content`). Sau khi lựa chọn được chọn, nhấp vào `Tiếp tục`: ![github-desktop](assets/19.webp)
 - GitHub Desktop của bạn giờ đây đã được cấu hình đúng cách. Bây giờ, bạn có thể để phần mềm mở ở chế độ nền để theo dõi các thay đổi mà chúng tôi sẽ thực hiện.
 ![github-desktop](assets/20.webp)
 Những gì chúng ta đã đạt được ở giai đoạn này là việc tạo ra một bản sao cục bộ của kho lưu trữ của bạn, được lưu trữ trên GitHub. Như một lời nhắc nhở, kho lưu trữ này là một bản sao của kho lưu trữ nguồn của PlanB Network. Bạn sẽ có thể thực hiện các thay đổi đối với bản sao cục bộ này, chẳng hạn như thêm hướng dẫn, bản dịch, hoặc sửa đổi. Một khi những thay đổi này được thực hiện, bạn sẽ sử dụng lệnh **Push origin** để gửi các thay đổi cục bộ của mình lên bản sao của bạn được lưu trữ trên GitHub.
@@ -81,7 +81,7 @@ Bạn cũng có thể lấy các thay đổi từ bản sao, ví dụ, trong qu�
 - Trình duyệt tệp của bạn sẽ mở ra. Bạn cần tìm và chọn thư mục có tiêu đề `GitHub`, nó nên nằm trong thư mục `Documents` giữa các tệp của bạn. Đường dẫn này tương ứng với đường dẫn bạn thiết lập trong bước 4. Sau khi chọn thư mục, xác nhận lựa chọn của mình. Việc tạo kho lưu trữ của bạn trên Obsidian sau đó sẽ được khởi động trên một trang mới của phần mềm:
 
 ![github-desktop](assets/24.webp)
--> **Chú ý**, điều quan trọng là không chọn thư mục `sovereign-university-data` khi tạo một kho lưu trữ mới trên Obsidian. Thay vào đó, hãy chọn thư mục cha, `GitHub`. Nếu bạn chọn thư mục `sovereign-university-data`, thư mục cấu hình `.obsidian`, chứa cài đặt Obsidian cục bộ của bạn, sẽ tự động được tích hợp vào kho lưu trữ. Chúng ta muốn tránh điều này, vì không cần thiết phải chuyển cài đặt Obsidian của bạn sang kho lưu trữ của PlanB Network. Một phương án khác là thêm thư mục `.obsidian` vào tệp `.gitignore`, nhưng phương pháp này cũng sẽ thay đổi tệp `.gitignore` của kho lưu trữ nguồn, điều này không mong muốn.
+-> **Chú ý**, điều quan trọng là không chọn thư mục `bitcoin-educational-content` khi tạo một kho lưu trữ mới trên Obsidian. Thay vào đó, hãy chọn thư mục cha, `GitHub`. Nếu bạn chọn thư mục `bitcoin-educational-content`, thư mục cấu hình `.obsidian`, chứa cài đặt Obsidian cục bộ của bạn, sẽ tự động được tích hợp vào kho lưu trữ. Chúng ta muốn tránh điều này, vì không cần thiết phải chuyển cài đặt Obsidian của bạn sang kho lưu trữ của PlanB Network. Một phương án khác là thêm thư mục `.obsidian` vào tệp `.gitignore`, nhưng phương pháp này cũng sẽ thay đổi tệp `.gitignore` của kho lưu trữ nguồn, điều này không mong muốn.
 
 - Ở phía bên trái của cửa sổ, bạn có thể thấy cây tệp với các kho lưu trữ GitHub khác nhau của bạn đã được sao chép cục bộ.
 - Bằng cách nhấp vào các mũi tên cạnh tên thư mục, bạn có thể mở rộng chúng để truy cập vào các thư mục con của các kho lưu trữ và tài liệu của chúng:

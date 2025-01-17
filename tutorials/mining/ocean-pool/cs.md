@@ -1,6 +1,5 @@
 ---
-name: Těžba v oceánu
-
+name: Ocean Mining
 description: Úvod do těžby v oceánu
 ---
 

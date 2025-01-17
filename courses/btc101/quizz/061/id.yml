@@ -1,0 +1,9 @@
+question: Apa nama peristiwa ketika hadiah untuk penambangan dibagi dua?
+answer: Halving
+wrong_answers:
+  - Penggandaan
+  - Pembagian Empat
+  - Penggandaan Tiga
+explanation: |
+  Peristiwa ketika hadiah untuk penambangan dibagi dua disebut halving. Peristiwa ini memberikan kurva penerbitan moneter bentuk seperti tangga.
+reviewed: true

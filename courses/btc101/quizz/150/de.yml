@@ -1,11 +1,11 @@
 question: Was ist die Rolle der Miner im Bitcoin-Netzwerk?
-answer: Miner sichern das Netzwerk und fügen Transaktionen den Blöcken hinzu.
+answer: Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu.
 wrong_answers:
-  - Miner erzeugen neue Bitcoins.
-  - Miner überprüfen die Identität von Bitcoin-Nutzern.
-  - Miner setzen den Preis von Bitcoin fest.
-explanation: |
+  - Miner erschaffen neue Bitcoins.
+  - Miner verifizieren die Identität von Bitcoin-Nutzern.
+  - Miner bestimmen den Preis von Bitcoin.
+explanation: >-
   Miner nutzen ihre Rechenleistung, um komplexe mathematische Probleme zu lösen,
   was es ihnen ermöglicht, neue Transaktionen zur Blockchain hinzuzufügen. Dieser Prozess sichert
-  das Netzwerk und erhält seine Integrität aufrecht.
-reviewed: false
+  das Netzwerk und erhält seine Integrität.
+reviewed: true

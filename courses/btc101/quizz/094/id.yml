@@ -1,0 +1,12 @@
+question: Apa risiko menggunakan dompet multisig?
+answer: Tidak memiliki akses ke cukup bagian terpisah dari cadangan multisig
+wrong_answers:
+  - Memiliki akses ke cukup bagian terpisah dari cadangan multisig
+  - Berbagi kunci dengan pihak lain
+  - Tidak berbagi kunci dengan pihak lain
+explanation: |
+  Ketika Anda menggunakan dompet multisig, setiap bagian dari multisig harus disimpan
+  di lokasi yang berbeda. Ini karena multisig memerlukan beberapa tanda tangan
+  untuk melakukan transaksi sehingga sejumlah dompet diperlukan, dan menyimpan setiap bagian di lokasi yang berbeda menambahkan
+  lapisan keamanan tambahan.
+reviewed: true

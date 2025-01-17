@@ -1,11 +1,11 @@
 question: Bạn nên làm gì sau khi mua Bitcoin trên một nền tảng giao dịch?
-answer: Rút Bitcoin về ví của bạn.
+answer: Rút Bitcoin và gửi chúng vào ví của bạn.
 wrong_answers:
-  - Để nó trên nền tảng.
-  - Bán ngay lập tức.
-  - Chuyển nó sang một nền tảng khác.
-explanation: >-
-  Văn bản khuyên rằng sau khi mua Bitcoin, bạn nên ngay lập tức
-  rút Bitcoin từ các nền tảng giao dịch để giảm thiểu rủi ro bị hack
-  và bị chặn quỹ.
-reviewed: false
+  - Để Bitcoin trên nền tảng.
+  - Bán Bitcoin ngay lập tức.
+  - Chuyển Bitcoin sang một nền tảng giao dịch khác.
+explanation: |
+  Bài giảng khuyên rằng sau khi mua Bitcoin, người mua
+  phải ngay lập tức rút UTXOs từ các nền tảng giao dịch
+  để giảm thiểu rủi ro bị hack và bị chặn tiền.
+reviewed: true

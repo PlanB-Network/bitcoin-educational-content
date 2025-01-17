@@ -5,6 +5,6 @@ wrong_answers:
   - Pouze Linux potřebuje antivirový program.
   - Pouze Mac potřebuje antivirový program.
 explanation: |
-  Linux a Mac díky svému systému oddělení uživatelských práv často
-  nepotřebují antivirový program.
-reviewed: false
+  Linux a Mac, díky jejich systému oddělení uživatelských práv,
+  často nepotřebují antivirový program.
+reviewed: true

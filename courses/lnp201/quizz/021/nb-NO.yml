@@ -1,0 +1,8 @@
+question: Hvordan beskytter tidslåsen mot juks i forpliktelses transaksjoner?
+answer: Den forhindrer den skyldige parten fra å umiddelbart hente ut sine midler
+wrong_answers:
+  - Den refunderer automatisk midlene til juksemakeren
+  - Den avbryter transaksjonen i tilfelle et forsøk på juks
+  - Den blokkerer bruken av tilbakekallingsnøkkelen
+explanation: |
+  Tidslåsen pålegger en forsinkelse der juksemakeren ikke kan hente ut sine midler, noe som gir den andre parten muligheten til å reagere.

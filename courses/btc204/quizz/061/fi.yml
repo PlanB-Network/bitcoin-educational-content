@@ -1,4 +1,4 @@
-question: Mikä on "coin control" -toiminnon tarkoitus Bitcoin-lompakko-ohjelmistossa?
+question: Mikä on coin control -toiminnon tarkoitus Bitcoin-lompakko-ohjelmistossa?
 
 answer: Valita, mitkä UTXOt käytetään syötteinä transaktioissa.
 

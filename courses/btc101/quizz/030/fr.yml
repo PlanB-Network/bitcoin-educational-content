@@ -1,11 +1,12 @@
 question: Quel est le principal avantage des monnaies fiduciaires ?
-answer: Elles sont facilement divisibles
+answer: Elles sont facilement divisibles.
 wrong_answers:
-  - Elles sont contrôlées par une partie centrale
-  - Elles ne sont pas facilement transportables
-  - Elles sont efficaces pour conserver de la valeur dans le temps
+  - Elles sont contrôlées par une partie centrale.
+  - Elles ne sont pas facilement transportables.
+  - Elles sont efficaces pour conserver de la valeur dans le temps.
 explanation: |
-  Les monnaies fiduciaires, telles que le dollar et l'euro, sont très liquides et
-  facilement transportables car elles sont maintenant principalement numériques. Cependant, leur valeur est
-  constamment érodée par l'inflation monétaire.
-reviewed: false
+  Les monnaies fiduciaires, telles que le dollar et l'euro, sont très
+  liquides et facilement transportables car elles sont maintenant majoritairement
+  numériques. Cependant, leur valeur est constamment érodée par
+  l'inflation monétaire.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mis on võtmekohastamine?
+answer: Võime seostada kasutaja identiteedi aspekti onchain tegevusega.
+wrong_answers:
+  - Protsess, mille käigus määratakse iga uue onchain tehingu jaoks avalik võti.
+  - Võime jälgida onchain tehinguid läbi sisendite ühise omandi heuristika.
+  - Protsess, mille käigus tuletatakse avalik võti privaatvõtmest.
+explanation: |
+  Võtmekohastamine hõlmab võimalust siduda kasutaja identiteedi aspekt onchain tegevusega.
+reviewed: false

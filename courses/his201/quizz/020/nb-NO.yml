@@ -1,0 +1,8 @@
+question: Hva var Satoshi Nakamotos hovedinspirasjon under det første designet av Bitcoin?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  Til tross for deres store likheter, var ikke modellene for b-money, bit gold og RPOW Satoshi sin hovedinspirasjon, fordi han ganske enkelt ikke var klar over dem før august 2008.

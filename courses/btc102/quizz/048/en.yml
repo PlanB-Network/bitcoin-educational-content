@@ -1,11 +1,11 @@
-question: What is the main characteristic of a "blockchain" without proof of work?
+question: What is the main characteristic of a blockchain without proof of work?
 answer: It has no real value
 wrong_answers:
   - It is more secure
   - It is faster
   - It is more decentralized
 explanation: |
-  The chapter content states that without proof of work, a "blockchain"
+  The chapter content states that without proof of work, a blockchain
   has no real value. This is a key characteristic that sets Bitcoin apart from other
   cryptocurrencies.
 reviewed: false

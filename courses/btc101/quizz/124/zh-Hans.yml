@@ -1,0 +1,8 @@
+question: 首个发布的比特币软件版本是什么？
+answer: Bitcoin-0.1.0
+wrong_answers:
+  - Bitcoin-0.0.1
+  - Bitcoin-1.0.0
+  - Bitcoin-0.1.1
+explanation: 首个发布的比特币软件是Bitcoin-0.1.0。它由中本聪在2009年1月8日宣布发布。
+reviewed: true

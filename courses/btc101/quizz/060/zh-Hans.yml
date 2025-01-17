@@ -1,0 +1,9 @@
+question: 在比特币网络上验证交易的过程叫什么？
+answer: 挖矿
+wrong_answers:
+  - 挖掘
+  - 收割
+  - 农耕
+explanation:
+  在比特币网络上验证交易的过程称为挖矿。矿工执行一项加密任务，并因此获得新比特币的发放作为奖励。
+reviewed: true

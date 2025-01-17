@@ -1,9 +1,9 @@
 question: Một trong những rủi ro tiềm ẩn khi để Bitcoin của bạn trên một nền tảng giao dịch là gì?
-answer: Rủi ro bị hack và bị chặn tiền.
+answer: Rủi ro bị hack và bị chặn quỹ.
 wrong_answers:
   - Rủi ro của việc nền tảng tăng giá Bitcoin.
   - Rủi ro của việc nền tảng kiểm soát nguồn cung Bitcoin.
-  - Rủi ro của việc nền tảng ngăn bạn mua thêm Bitcoin.
+  - Rủi ro của việc Bitcoin bị một loại tiền mã hóa khác vượt qua về giá.
 explanation: >-
-  Văn bản đề cập rằng để Bitcoin của bạn trên một nền tảng giao dịch có thể khiến bạn phải đối mặt với rủi ro bị hack và bị chặn tiền.
-reviewed: false
+  Văn bản đề cập rằng để Bitcoin của bạn trên một nền tảng giao dịch có thể phơi bày bạn trước rủi ro bị hack và bị chặn quỹ.
+reviewed: true

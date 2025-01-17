@@ -1,12 +1,13 @@
-question: Việc sử dụng ví multisig được khuyến nghị cho mục đích nào?
-answer: Cho số lượng lớn cho mục đích doanh nghiệp
+question: Việc sử dụng ví multisig được khuyến nghị cho mục đích gì?
+answer: Lưu trữ số lượng lớn cho mục đích doanh nghiệp.
 wrong_answers:
-  - Cho số lượng nhỏ cho mục đích cá nhân
-  - Cho số lượng vừa phải cho mục đích phi lợi nhuận
-  - Cho chi tiêu hàng ngày cho cá nhân
+  - Lưu trữ số lượng nhỏ cho mục đích cá nhân.
+  - Lưu trữ số lượng vừa phải cho mục đích phi lợi nhuận.
+  - Lưu trữ chi tiêu hàng ngày cho mục đích cá nhân.
 explanation: |
-  Ví multisig được khuyến nghị cho số lượng lớn và mục đích doanh nghiệp
-  vì nó yêu cầu nhiều chữ ký để thực hiện một giao dịch. Điều này thêm một
-  lớp bảo mật extra, vì nó có nghĩa là một người không thể thực hiện giao dịch
-  mà không có sự chấp thuận của người khác.
-reviewed: false
+  Ví multisig được khuyến nghị để lưu trữ số lượng lớn
+  và cho mục đích doanh nghiệp vì nó yêu cầu nhiều
+  chữ ký để thực hiện một giao dịch. Quy trình này thêm vào
+  một lớp bảo mật extra, bởi vì một người đơn lẻ không thể
+  thực hiện giao dịch mà không có sự chấp thuận của những người khác.
+reviewed: true

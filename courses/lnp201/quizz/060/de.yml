@@ -1,9 +1,0 @@
-question: Was ist der Zweck des geheimen S, das von Bob generiert wird?
-answer: Es wird verwendet, um die von Alice und Susie eingerichteten HTLCs zu entsperren.
-wrong_answers:
-  - Es wird verwendet, um den Hash r zu berechnen.
-  - Es wird verwendet, um ein neues HTLC zu erstellen.
-  - Es wird verwendet, um den Kanal zu schließen.
-explanation: |
-  Bob generiert ein geheimes S und berechnet den Hash r. Dieses Geheimnis wird verwendet, um die von Alice und Susie eingerichteten HTLCs zu entsperren.
-reviewed: false

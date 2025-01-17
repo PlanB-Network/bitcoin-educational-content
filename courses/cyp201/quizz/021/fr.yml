@@ -1,9 +1,9 @@
-question: Combien de tours PBKDF2 effectue-t-il en utilisant HMAC SHA512?
-answer: 2048 tours
+question: Quelle est la principale caractéristique de la multiplication scalaire sur les courbes elliptiques ?
+answer: Fonction à sens unique
 wrong_answers:
-  - 1024 tours
-  - 512 tours
-  - 4096 tours
+  - Reversible facilement
+  - Basée sur la factorisation de nombres premiers
+  - Très longue à calculer
 explanation: |
-  PBKDF2 est utilisé pour convertir une phrase mnémonique en une graine. Cet algorithme effectue 2048 tours en utilisant HMAC SHA512.
+  La multiplication scalaire sur les courbes elliptiques est une fonction à sens unique, rendant impossible de retrouver la clé privée à partir de la clé publique.
 reviewed: false

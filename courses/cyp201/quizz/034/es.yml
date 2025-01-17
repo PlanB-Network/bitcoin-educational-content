@@ -1,9 +1,8 @@
-question: ¿Cuál es el tamaño de una clave privada de Bitcoin?
-answer: Número de 256 bits
+question: ¿Cuál es la bandera sighash más comúnmente utilizada en las transacciones de Bitcoin?
+answer: SIGHASH_ALL
 wrong_answers:
-  - Número de 512 bits
-  - Número de 128 bits
-  - Número de 1024 bits
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  En el sistema de Bitcoin, la clave privada es un número aleatorio o pseudoaleatorio de 256 bits.
-reviewed: false
+  SIGHASH_ALL es la bandera sighash predeterminada, cubriendo todas las entradas y salidas de una transacción, previniendo cualquier modificación.

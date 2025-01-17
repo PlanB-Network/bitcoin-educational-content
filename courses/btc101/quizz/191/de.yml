@@ -1,9 +1,11 @@
-question: Was ist ein Faktor, der bei der Auswahl einer Lösung zur Annahme von Bitcoin für Ihr Unternehmen berücksichtigt werden sollte?
-answer: Das erwartete Transaktionsvolumen
+question: Was ist ein Faktor, den man berücksichtigen sollte, wenn man eine Lösung auswählt, um Bitcoin für sein Geschäft zu akzeptieren?
+answer: Das erwartete Transaktionsvolumen.
 wrong_answers:
-  - Die Farbe Ihres Logos
-  - Die Anzahl der Mitarbeiter
-  - Der Standort Ihrer Zentrale
-explanation: |
-  Bei der Auswahl einer Lösung zur Annahme von Bitcoin für Ihr Unternehmen müssen mehrere Faktoren berücksichtigt werden, wie zum Beispiel das erwartete Transaktionsvolumen, das zugewiesene Budget und die Art des Geschäfts (online oder physisch).
-reviewed: false
+  - Die Farbe Ihres Logos.
+  - Die Anzahl der Mitarbeiter.
+  - Der Standort Ihres Hauptsitzes.
+explanation: >-
+  Bei der Auswahl einer Lösung, um Bitcoin für Ihr Geschäft zu akzeptieren, müssen mehrere
+  Faktoren berücksichtigt werden, wie das erwartete Transaktionsvolumen, das zugewiesene
+  Budget und die Art des Geschäfts (online oder physisch).
+reviewed: true

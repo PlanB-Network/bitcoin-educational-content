@@ -1,0 +1,9 @@
+question: Which researchers were cited by Satoshi Nakamoto in the Bitcoin white paper for their work on certified timestamping?
+answer: Stuart Haber and Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak, and Marshall Pease
+  - Cynthia Dwork and Moni Naor
+  - Ronald Rivest and Adi Shamir
+explanation: |
+  Three papers by Haber and Stornetta from the 90s were cited in the white paper. They are known for creating [the first timestamped blockchain](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), published in the New York Times starting in 1992.
+reviewed: false

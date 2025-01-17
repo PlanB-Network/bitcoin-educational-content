@@ -1,9 +1,9 @@
-question: Điều gì xảy ra khi Alice cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ?
-answer: Bob sử dụng khóa thu hồi để trừng phạt Alice và lấy tất cả SAT từ kênh.
+question: Vai trò chính của nút gửi trong việc định tuyến trên Mạng Lưới Lightning là gì?
+answer: Tính toán toàn bộ lộ trình đến người nhận
 wrong_answers:
-  - Alice được thưởng cho sự khéo léo của mình.
-  - Alice và Bob chia sẻ SAT từ kênh.
-  - Giao dịch bị từ chối và không có gì xảy ra.
+  - Lưu trữ thông tin thanh khoản của tất cả các kênh trong mạng
+  - Xác định phí giao dịch cho mỗi nút trung gian
+  - Liên lạc trực tiếp với tất cả các nút trung gian
 explanation: |
-  Mạng Lưới Lightning có một cơ chế để ngăn chặn gian lận. Nếu Alice cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ, Bob có thể sử dụng khóa thu hồi để trừng phạt Alice và lấy tất cả SAT từ kênh.
+  Nút gửi có trách nhiệm tính toán toàn bộ lộ trình đến người nhận, vì các nút trung gian chỉ biết về hàng xóm trực tiếp của mình.
 reviewed: false

@@ -1,0 +1,9 @@
+question: 2010年3月に作成され、7月のMt. Goxの登場前に最も人気があった交換サービスはどれですか？
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  これは、dwdollarとして知られる個人によって2010年3月16日に立ち上げられた、PayPalを使用したピアツーピアのマーケットプレイスで、Mt. Goxの前に主要なプラットフォームでした。
+reviewed: false

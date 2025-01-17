@@ -1,0 +1,10 @@
+question: Mis on Lightning Network?
+answer: Tehnoloogia, mis võimaldab kiireid Bitcoin'i tehinguid.
+wrong_answers:
+  - Tehnoloogia, mis aeglustab Bitcoin'i tehinguid.
+  - Tehnoloogia, millel pole Bitcoin'i tehingutele mingit mõju.
+  - Tehnoloogia, mis muudab Bitcoin'i tehingud vähem turvaliseks.
+explanation: |
+  Lightning Network on tehnoloogia, mis võib parandada Bitcoin'i tehinguid,
+  muutes need kiiremaks ja efektiivsemaks. See on katse lahendada Bitcoin'i ees seisvat skaleeritavuse probleemi.
+reviewed: true

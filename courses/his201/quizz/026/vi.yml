@@ -1,0 +1,9 @@
+question: Yếu tố nào đã bị thiếu trong thiết kế của Bitcoin vào ngày 31 tháng 10 năm 2008?
+answer: Số lượng đơn vị hữu hạn
+wrong_answers:
+  - Bằng chứng công việc
+  - Xác minh thanh toán đơn giản
+  - Blockchain
+explanation: |
+  Chính sách tiền tệ ban đầu tương ứng với việc phát hành không đổi (X BTC/khối) như được chỉ ra trong phiên bản đầu tiên của bản trắng và các [trao đổi](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) của Satoshi với Ray Dillinger.
+reviewed: false

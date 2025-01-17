@@ -1,0 +1,10 @@
+question: Mis oli Brasiilia kõrgeim rahatäht enne viimast ümberarvestust 1994. aastal?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  Brasiilia kõrgeim rahatäht oli 500,000, ja viimane
+
+  ümberarvestus 1994. aastal tehti kursiga 2,750: 1.

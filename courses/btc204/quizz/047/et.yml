@@ -1,0 +1,13 @@
+question: Mis on teavitustransaktsiooni roll BIP47-s?
+
+answer: Edastada maksekood saajale ja signaliseerida, et maksed on tulemas.
+
+wrong_answers:
+  - Kinnitada Bitcoini vastuvõtu aadressi tulevaste tehingute jaoks maksekoodide kaudu.
+  - Kinnitada bitcoinide kättesaamist saaja poolt BIP47 abil.
+  - Saata saatja efemeersed privaatvõtmed saajale, et need saaksid bitcoine kulutada.
+
+explanation: |
+  Teavitustransaktsioon võimaldab maksekoodi saatmist saatjalt saajale, nii et viimane saaks selle teada ja leida hiljem ainult oma seemne abil rahakoti taastamise korral. Nagu nimigi viitab, mängib see ka teavitamise rolli.
+
+reviewed: false

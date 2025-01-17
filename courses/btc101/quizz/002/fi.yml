@@ -5,6 +5,8 @@ wrong_answers:
   - Teknologia, jolla ei ole vaikutusta Bitcoin-siirtoihin.
   - Teknologia, joka tekee Bitcoin-siirroista vähemmän turvallisia.
 explanation: |
-  Lightning Network on teknologia, joka voi parantaa Bitcoin-siirtoja,
-  tehden niistä nopeampia ja tehokkaampia. Se on yritys ratkaista Bitcoinin kohtaama skaalautuvuusongelma.
-reviewed: false
+  Lightning Network on teknologia, joka parantaa
+  Bitcoinin käytettävyyttä päivittäisissä siirroissa, tekemällä niistä
+  nopeampia ja tehokkaampia ratkaistakseen Bitcoinin
+  skaalautuvuusongelman.
+reviewed: true

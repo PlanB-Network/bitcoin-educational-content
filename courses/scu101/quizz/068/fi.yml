@@ -5,5 +5,8 @@ wrong_answers:
   - Hidas internetyhteys.
   - Vanhentunut laitteisto.
 explanation: |
-  Tietoturva-aukot johtuvat usein ihmisen huolimattomuudesta, kuten oletussalasanojen käytöstä tai salasanojen kirjoittamisesta turvattomiin paikkoihin. Monimutkaiset hyökkäykset eivät aina ole tarpeen tietokoneturvallisuuden vaarantamiseksi.
-reviewed: false
+  Tietoturva-aukot johtuvat usein ihmisen huolimattomuudesta,
+  kuten oletussalasanojen käytöstä tai salasanojen kirjoittamisesta
+  turvattomiin paikkoihin. Monimutkaiset hyökkäykset eivät
+  aina ole tarpeen tietokoneturvallisuuden vaarantamiseksi.
+reviewed: true

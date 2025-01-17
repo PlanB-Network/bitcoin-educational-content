@@ -1,11 +1,11 @@
-question: Qual è la principale preoccupazione quando si possiedono bitcoin?
-answer: La sicurezza dei tuoi fondi
+question: Qual dovrebbe essere la principale preoccupazione quando si possiede bitcoin?
+answer: La sicurezza dei propri fondi.
 wrong_answers:
-  - Il valore in dollari dei tuoi bitcoin
-  - La legalità di possedere bitcoin
-  - Il permesso di spendere i tuoi bitcoin
+  - Il valore del Bitcoin in termini di dollari.
+  - La legalità del possesso di bitcoin.
+  - Il permesso di spendere i propri fondi.
 explanation: |
-  Quando si possiedono bitcoin, la preoccupazione principale è la sicurezza dei tuoi fondi.
-  Questo perché i bitcoin, come qualsiasi altra forma di valuta, possono essere rubati o persi
-  se non vengono adeguatamente protetti.
-reviewed: false
+  Quando si possiedono bitcoin, la preoccupazione principale è la sicurezza
+  dei propri fondi. Questo perché il Bitcoin, come qualsiasi altra forma
+  di valuta, può essere rubato o perso se non adeguatamente protetto.
+reviewed: true

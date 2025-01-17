@@ -1,0 +1,13 @@
+question: Tại sao người điều phối không thể sửa đổi giao dịch coinjoin sau khi thu thập chữ ký từ tất cả các bên tham gia?
+
+answer: Việc sửa đổi sẽ làm mất hiệu lực của giao dịch.
+
+wrong_answers:
+  - Họ không có quyền truy cập vào địa chỉ nhận của các bên tham gia.
+  - Các chữ ký được mã hóa.
+  - Giao dịch đã được phát sóng trên mạng Bitcoin.
+
+explanation: |
+  Một khi các bên tham gia đã ký vào giao dịch tổng thể, sau khi đảm bảo mọi thứ đều chính xác, người điều phối không thể sửa đổi giao dịch này nữa, bao gồm cả các đầu ra, mà không làm mất hiệu lực của nó, bởi vì chữ ký bao gồm toàn bộ giao dịch.
+
+reviewed: false

@@ -1,9 +1,10 @@
-question: Come viene considerato Bitcoin in relazione alle valute fiat?
-answer: Un'economia parallela
+question: In confronto con le valute fiat, come viene percepito il Bitcoin?
+answer: Come un'economia parallela.
 wrong_answers:
-  - Un'economia di sostituzione
-  - Un'economia secondaria
-  - Un'economia terziaria
-explanation: |
-  Bitcoin viene considerato come un'economia parallela alle valute fiat, il che significa che opera parallelamente alle economie tradizionali e può essere utilizzato per transazioni dirette, senza la necessità di passare attraverso una piattaforma di scambio.
-reviewed: false
+  - Come un'economia sostitutiva.
+  - Come un'economia industriale.
+  - Come un'economia terziaria.
+explanation: >-
+  Il Bitcoin è visto come un'economia parallela rispetto alle valute fiat, il che significa che opera a fianco delle economie tradizionali e può essere utilizzato per transazioni direttamente,
+  senza la necessità di passare attraverso una piattaforma di scambio.
+reviewed: true

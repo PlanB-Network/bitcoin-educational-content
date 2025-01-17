@@ -10,10 +10,10 @@ Sứ mệnh của PlanB là cung cấp nguồn tài nguyên giáo dục hàng đ
 ![book](assets/01.webp)
 - Đầu tiên, bạn cần phải có một tài khoản GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo một hướng dẫn chi tiết để hướng dẫn bạn.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books) trong phần `resources/books/`:
+- Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) trong phần `resources/books/`:
 ![book](assets/02.webp)
 - Nhấp vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![book](assets/03.webp)

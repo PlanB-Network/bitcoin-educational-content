@@ -2,8 +2,11 @@ question: Qual é o risco potencial de uma diminuição no número de usuários,
 answer: Isso poderia enfraquecer a rede, aumentando o risco de centralização e vulnerabilidade a ataques.
 wrong_answers:
   - Isso poderia aumentar o preço do Bitcoin.
-  - Isso poderia diminuir a velocidade das transações.
-  - Isso poderia aumentar a dificuldade de mineração.
+  - Isso poderia diminuir a velocidade das transações assim como a dificuldade de mineração.
+  - Isso poderia aumentar a dificuldade de mineração e vulnerabilidade a ataques, enquanto diminui o risco de centralização.
 explanation: |
-  Uma diminuição no número de usuários, nós ou mineradores poderia enfraquecer a rede Bitcoin. Isso poderia aumentar o risco de centralização e tornar a rede mais vulnerável a ataques.
-reviewed: false
+  Uma diminuição no número de usuários, nós ou mineradores poderia
+  enfraquecer a rede Bitcoin. Isso poderia aumentar o risco de
+  centralização e tornar a rede mais vulnerável a
+  ataques.
+reviewed: true

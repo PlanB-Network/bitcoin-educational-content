@@ -1,0 +1,9 @@
+question: 2010年4月に作成された、モバイル上でビットコインを簡単に使用できる最初のカストディアルアプリケーションの名前は何でしたか？
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+  これは、2010年4月30日にkomotoという名前の人物によって[フォーラム](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035)で宣伝されました。
+reviewed: false

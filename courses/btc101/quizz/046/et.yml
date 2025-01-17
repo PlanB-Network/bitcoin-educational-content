@@ -1,0 +1,9 @@
+question: Milline on praeguse finantssüsteemi potentsiaalne mõju poliitilistele tegijatele?
+answer: Neid ei motiveerita tegema radikaalseid muudatusi, lubades süsteemil jätkata oma kulgu kuni võimaliku kokkuvarisemiseni.
+wrong_answers:
+  - Neid motiveeritakse tegema radikaalseid muudatusi, et vältida võimalikku kokkuvarisemist.
+  - Neid ei motiveerita säilitama status quo'd, et tagada omaenda rikkus.
+  - Neid motiveeritakse mõtlema pikas perspektiivis.
+explanation: |
+  Kuna poliitilised tegijad saavad praegusest finantssüsteemist kasu, ei ole neid motiveeritud tegema radikaalseid muudatusi. See lubab süsteemil jätkata oma kulgu kuni võimaliku kokkuvarisemiseni, kuna süsteemi reguleeritakse ja piiratakse selle kokkuvarisemise vältimiseks.
+reviewed: true

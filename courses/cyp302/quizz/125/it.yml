@@ -1,0 +1,9 @@
+question: Quale importante problema cercarono di risolvere i crittografi Diffie, Hellman e Merkle negli anni '70?
+answer: I problemi della distribuzione e gestione delle chiavi
+wrong_answers:
+  - Lo sviluppo della crittografia post-quantistica
+  - La sicurezza delle comunicazioni militari
+  - Il miglioramento delle tecniche di crittografia simmetrica
+explanation: |
+  Diffie, Hellman e Merkle furono motivati dalle difficoltà pratiche della distribuzione e gestione delle chiavi per assicurare le comunicazioni, sfide cruciali in un mondo in transizione verso la comunicazione digitale.
+reviewed: false

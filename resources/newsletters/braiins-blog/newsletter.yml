@@ -1,0 +1,22 @@
+id: 54bdc47d-c126-48e5-be57-b5e639316199
+title: "Braiins Blog"
+author: Braiins Team
+level: expert
+publication_date: 2019-09-27
+link:
+  - website: https://braiins.com/blog
+language: en
+description: |
+  A source that periodically provides information on various Bitcoin
+  mining-related topics, from mining use cases to software products and economics.
+  In-depth analyses of electrical grids can also be found here, as the creators possess extensive
+  knowledge of the production flaring, or flare gas, practices. Additionally, this source includes news
+  related to the Braiins' ecosystem and available resources. Among them, Braiins
+  has published book-report articles to present their handbooks that dive into
+  both mining and general Bitcoin knowledge.
+tags:
+  - mining
+  - decentralization
+  - technical-analysis
+contributors:
+  - hunt-wood

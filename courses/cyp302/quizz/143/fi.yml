@@ -1,0 +1,9 @@
+question: Mikä on arvioitu aika faktorisoida 2048-bittinen kokonaisluku käyttäen kaikkia nykyisiä laskentaresursseja?
+answer: Hyvin yli maailmankaikkeuden iän
+wrong_answers:
+  - Muutama kuukausi klassisilla tietokoneilla
+  - Muutama minuutti supertietokoneilla
+  - Muutama vuosikymmen Bitcoin-louhintaan
+explanation: |
+  2048-bittisten numeroiden faktorisoinnin monimutkaisuus on sellainen, että sen ratkaiseminen olisi käytännössä mahdotonta, jopa käyttämällä kaikkia olemassa olevia laskentaresursseja ajanjakson aikana, joka ylittää maailmankaikkeuden iän.
+reviewed: false

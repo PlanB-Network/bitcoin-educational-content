@@ -1,9 +1,14 @@
-question: Por que as bitcoins virgens são especialmente procuradas por grandes players institucionais?
-answer: Elas podem garantir a legitimidade de seus ativos digitais às autoridades reguladoras.
+question: Por que os bitcoins virgens são particularmente procurados por grandes players institucionais?
+answer: Eles podem garantir a legitimidade de seus ativos digitais para as autoridades regulatórias.
 wrong_answers:
-  - Elas podem vendê-las a um preço mais alto.
-  - Elas podem usá-las para atividades ilegais.
-  - Elas podem evitar pagar impostos sobre elas.
+  - Eles podem vendê-los por um preço mais alto.
+  - Eles podem usá-los para atividades ilegais.
+  - Eles podem evitar pagar impostos sobre eles.
 explanation: |
-  As bitcoins virgens são especialmente procuradas por grandes players institucionais porque elas podem garantir a legitimidade de seus ativos digitais às autoridades reguladoras. Essas bitcoins nunca foram "contaminadas", fornecendo alguma garantia contra a rejeição por reguladores ou plataformas de câmbio importantes.
-reviewed: false
+  Os bitcoins virgens são particularmente procurados por grandes
+  players institucionais porque eles podem garantir a
+  legitimidade de seus ativos digitais para as autoridades
+  regulatórias. Esses bitcoins nunca foram contaminados,
+  fornecendo alguma garantia contra a rejeição por reguladores ou
+  plataformas de troca importantes.
+reviewed: true

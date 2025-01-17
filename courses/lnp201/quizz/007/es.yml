@@ -1,10 +1,8 @@
-question: ¿La capacidad de un canal de pago de Lightning es fija?
-answer: Sí
+question: ¿Por qué los UTXOs se comparan a menudo con billetes de banco?
+answer: Deben gastarse en su totalidad
 wrong_answers:
-  - "No"
-  - Solo en algunos casos
-  - Depende de la red de Bitcoin
+  - Pueden usarse múltiples veces hasta agotarse
+  - Solo son utilizables en ciertas transacciones específicas
+  - Representan pequeñas cantidades fijas de bitcoins
 explanation: |
-  Cuando se abre un canal, se le asigna una capacidad fija, que es definida
-  previamente por los usuarios.
-reviewed: false
+  Al igual que un billete de banco, un UTXO debe gastarse completamente en una transacción, y cualquier exceso se devuelve al emisor como cambio.

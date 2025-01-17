@@ -1,9 +1,8 @@
-question: Kích thước của khóa công khai Bitcoin là bao nhiêu?
-answer: Số 512-bit
+question: Tiêu chuẩn Bitcoin nào giới thiệu ví xác định phân cấp?
+answer: BIP32
 wrong_answers:
-  - Số 256-bit
-  - Số 128-bit
-  - Số 1024-bit
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  Khóa riêng biệt độc nhất được sử dụng để tạo ra một khóa công khai 512-bit trong hệ thống Bitcoin.
-reviewed: false
+  BIP32 định nghĩa hoạt động của ví HD, cho phép việc phái sinh phân cấp các khóa riêng từ một hạt giống.

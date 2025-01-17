@@ -1,0 +1,9 @@
+question: O que a segunda mensagem de Beale revela uma vez decifrada?
+answer: A lista dos tesouros enterrados (ouro, prata e joias)
+wrong_answers:
+  - A localização exata onde o tesouro está enterrado
+  - A data do retorno de Beale
+  - A assinatura de Beale e de seus associados
+explanation: |
+  Após a decifração, a segunda mensagem descreve o conteúdo do tesouro, consistindo em ouro, prata e joias.
+reviewed: false

@@ -1,11 +1,12 @@
 question: Proč jsou hardwarové tokeny, jako jsou USB klíče nebo chytré karty, považovány za optimální zabezpečení pro 2FA?
-answer: Generují jedinečný soukromý klíč pro každý web a ověřují URL před povolením připojení.
+answer: Generují unikátní soukromý klíč pro každý web a ověřují URL před povolením připojení.
 wrong_answers:
-  - Jsou fyzicky těžší ukrást
-  - Jsou dražší, takže musí být lepší
-  - Jsou novější technologií, takže musí být lepší
+  - Jsou fyzicky těžší ukrást, ale pokud zloději uspějí, snadno z zařízení extrahují tajemství.
+  - Generují pouze jedno heslo, které bude použito pro každý web a ověřují URL před povolením připojení.
+  - Jsou to novější technologie a jsou drahé, takže musí být lepší.
 explanation: |
-  Hardwarové tokeny nabízejí optimální zabezpečení, protože generují jedinečný
-  soukromý klíč pro každý web a ověřují URL před povolením připojení. To
-  značně ztěžuje hackerům neoprávněný přístup.
-reviewed: false
+  Hardwarové tokeny nabízejí optimální zabezpečení, protože
+  generují unikátní soukromý klíč pro každý web a ověřují
+  URL před povolením připojení. To značně ztěžuje hackerům
+  získání neautorizovaného přístupu.
+reviewed: true

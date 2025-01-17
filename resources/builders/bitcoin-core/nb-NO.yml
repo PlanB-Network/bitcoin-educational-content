@@ -1,0 +1,5 @@
+description: |
+  Bitcoin Core er den åpne kildekoden referanseprogramvaren for Bitcoin-systemet og er fortsatt den viktigste implementeringen av Bitcoin-protokollen i dag. Den utvikles og vedlikeholdes av en stor gruppe frivillige bidragsytere. Opprinnelig kalt “Bitcoin Qt,” er det den tredje klienten i Bitcoins historie etter Bitcoin, av Satoshi Nakamoto, og Bitcoind. Den ble utviklet fra Satoshis opprinnelige kode og introduserte en grafisk brukergrensesnitt. Interessant nok heter Bitcoin Core-grensesnittet fortsatt bitcoin-qt i dag. Siden versjon 0.5 har det blitt levert med bitcoind. Bitcoin Core har flere funksjoner. For det første fungerer den som en full-node-klient. Bitcoin Core inkluderer også en lommebok (wallet) for brukere som ønsker å lagre, administrere og utføre transaksjoner direkte med Bitcoin Core.
+
+contributors:
+  - pretty-private

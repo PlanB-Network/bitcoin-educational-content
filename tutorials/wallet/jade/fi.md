@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: Kuinka asennat JADE-laitteesi
 ---

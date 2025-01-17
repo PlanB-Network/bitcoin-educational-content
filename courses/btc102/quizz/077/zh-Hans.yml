@@ -1,0 +1,8 @@
+question: 在比特币的背景下，什么是satoshi？
+answer: 比特币的最小单位
+wrong_answers:
+  - 一种比特币钱包
+  - 一种购买比特币的方法
+  - 一个比特币交易平台
+explanation: |
+  在比特币的背景下，satoshi（或SAT）是比特币的最小单位。比特币堆积者的目标是尽可能多地积累satoshi。

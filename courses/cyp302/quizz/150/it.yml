@@ -1,0 +1,9 @@
+question: Nel contesto del crittosistema RSA, a cosa corrisponde il prodotto di due numeri primi p e q?
+answer: Costituisce l'intero N utilizzato come modulo per le operazioni
+wrong_answers:
+  - Costituisce la chiave pubblica
+  - Funziona come chiave di decrittazione
+  - È utilizzato solo per generare l'esponente e
+explanation: |
+  In RSA, l'intero N è il prodotto di due grandi numeri primi p e q, ed è utilizzato come modulo per le operazioni di cifratura e decifratura.
+reviewed: false

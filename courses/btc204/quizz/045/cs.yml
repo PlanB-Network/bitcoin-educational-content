@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Cílem BIP47 je poskytnout jedinečný identifikátor, který umožňuje opakovaně přijímat bitcoiny od více lidí, ale bez opakovaného používání adres, jelikož je to velmi špatná praxe z hlediska soukromí uživatele.
 
-kontrolováno: false
+  kontrolováno: false

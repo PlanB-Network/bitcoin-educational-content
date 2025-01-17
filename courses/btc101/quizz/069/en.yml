@@ -1,12 +1,13 @@
-question: What is the estimated number of bitcoins in circulation after the first
+question: What was the estimated number of bitcoins in circulation after the first
   halving?
-answer: 10,500,000 BTC
+answer: 10,500,000 BTC.
 wrong_answers:
-  - 5,250,000 BTC
-  - 15,750,000 BTC
-  - 21,000,000 BTC
+  - 5,250,000 BTC.
+  - 15,750,000 BTC.
+  - 21,000,000 BTC.
 explanation: |
-  After the first halving, which occurs at block height 210,000, the estimated
-  number of bitcoins in circulation was 10,500,000 BTC, which is half of the total
-  number of bitcoins that will be in circulation.
+  After the first halving, which occurred at block height
+  210,000, the estimated number of bitcoins in circulation
+  was 10,500,000 BTC, which is half of the total number of
+  bitcoins that will be in circulation.
 reviewed: true

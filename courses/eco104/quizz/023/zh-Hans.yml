@@ -1,0 +1,9 @@
+question: 全世界有多少个国家限制女性以自己的名义开设银行账户？
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation:
+  在全世界有72个国家，不允许女性以自己的名义开设银行账户。
+reviewed: true

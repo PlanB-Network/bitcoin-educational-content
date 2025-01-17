@@ -1,0 +1,9 @@
+question: Quelle est, selon Tracy, la véritable alternative aux guerres ?
+answer: La production et l'échange
+wrong_answers:
+  - La diplomatie
+  - La culture
+  - L'intégration politique
+explanation: |
+  Destutt de Tracy pense que la production et l'échange pacifiques sont une solution durable pour éviter les conflits.
+reviewed: false

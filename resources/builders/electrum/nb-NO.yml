@@ -1,0 +1,6 @@
+description: |
+  Electrum er en allsidig Bitcoin-lommebok som prioriterer brukersikkerhet og fleksibilitet.
+  
+  Den støtter flere plattformer inkludert mobil, skrivebord og kommandolinjegrensesnitt. Dine private nøkler er kryptert og oppbevart på din enhet, noe som sikrer at de aldri blir eksponert. Videre bruker Electrum en hemmelig frase for å tillate gjenoppretting av midler, og gir rask tilgang til Bitcoin-blockchainen via sitt servernettverk. Den støtter offline "kald lagring" for å holde dine private nøkler sikre, og tilbyr multisig-funksjonalitet for å dele tillatelse for myntbruk. Electrum verifiserer også alle transaksjoner i din historikk ved hjelp av Simplified Payment Verification (SPV), og tillater integrering av tredjeparts plugin-moduler, som multisig-tjenester og maskinvarelommebøker.
+contributors:
+  - rabbit-hole

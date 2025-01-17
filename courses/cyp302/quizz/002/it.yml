@@ -1,0 +1,9 @@
+question: Qual è la specificità dei tre testi criptati contenuti nella scatola?
+answer: Contengono numeri separati da virgole
+wrong_answers:
+  - Sono tutti scritti in lettere ordinarie
+  - Utilizzano simboli sconosciuti
+  - Sono scritti in più lingue
+explanation: |
+  I tre testi criptati consistono in serie di numeri separati da virgole, che richiedono una chiave per essere decifrati.
+reviewed: false

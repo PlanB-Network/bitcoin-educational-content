@@ -1,0 +1,13 @@
+question: Hva er den potensielle risikoen ved sentraliseringen av produksjonen av gruveutstyr i Kina?
+answer: En nektelse av å eksportere gruvemaskiner eller en oppsamling av hashrate for et potensielt 51% angrep.
+wrong_answers:
+  - Kina kunne monopolisere Bitcoin-nettverket.
+  - Kina kunne kontrollere prisen på Bitcoin.
+  - Kina kunne forby Bitcoin-gruvedrift.
+explanation: |
+  Sentraliseringen av produksjonen av gruveutstyr i Kina
+  utgjør en risiko for Bitcoin-nettverket. Hvis Kina nekter å
+  eksportere gruvemaskiner eller samler hashrate for et
+  potensielt 51% angrep, kunne det true sikkerheten og
+  desentraliseringen av nettverket.
+reviewed: true

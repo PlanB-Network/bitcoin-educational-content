@@ -1,0 +1,9 @@
+question: An welchem Datum wurde die Mailingliste für Bitcoin-Entwicklung erstellt?
+answer: 12. Juni 2011
+wrong_answers:
+  - 13. Januar 2011
+  - 7. März 2011
+  - 19. September 2011
+explanation: |
+  Sie wurde vom Entwickler Jeff Garzik erstellt und ermöglichte formelle Diskussionen über Änderungen, die an Bitcoin vorgenommen werden sollten.
+reviewed: false

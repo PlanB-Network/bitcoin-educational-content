@@ -1,0 +1,13 @@
+question: Mục tiêu chính của việc coinswap là gì?
+
+answer: Chuyển giao quyền sở hữu bitcoin một cách bí mật
+
+wrong_answers:
+  - Tăng tốc độ giao dịch
+  - Trộn bitcoin
+  - Trao đổi bí mật một altcoin lấy bitcoin
+
+explanation: |
+  Coinswap sử dụng hợp đồng thông minh để cho phép việc chuyển giao quyền sở hữu bitcoin giữa hai người dùng, mà không cần sự tin tưởng và không làm cho việc chuyển giao này được hiển thị một cách rõ ràng trên blockchain.
+
+reviewed: false

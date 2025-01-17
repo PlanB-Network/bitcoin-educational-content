@@ -1,11 +1,11 @@
-question: Co zdůrazňuje fráze "Not your keys, not your Bitcoins"?
+question: Co zdůrazňuje fráze Not your keys, not your Bitcoins?
 answer: Důležitost vlastnictví soukromého klíče k Bitcoinové peněžence
 wrong_answers:
   - Důležitost mít fyzický klíč pro přístup k vašim Bitcoinům
   - Důležitost uchovávat vaše Bitcoiny na bezpečném místě
   - Důležitost nesdílet údaje o vašem Bitcoinovém účtu
 explanation: |
-  Kapitola vysvětluje, že fráze "Not your keys, not your Bitcoins"
+  Kapitola vysvětluje, že fráze Not your keys, not your Bitcoins
   zdůrazňuje důležitost vlastnictví soukromého klíče k Bitcoinové peněžence. Vlastněním
   soukromého klíče máte plnou kontrolu nad Bitcoiny, které obsahuje.
 reviewed: false

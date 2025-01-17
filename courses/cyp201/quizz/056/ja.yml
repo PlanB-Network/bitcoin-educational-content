@@ -1,9 +1,8 @@
-question: Bitcoinウォレットのシードとは何を表していますか？
-answer: それは、複数のキーが生成されるランダムまたは擬似ランダム数です。
+question: シードからマスタープライベートキーを導出するために使用される定数は何ですか？
+answer: Bitcoin Seed
 wrong_answers:
-  - ウォレットにアクセスするためのパスワードです。
-  - ウォレットに記録された最初のBitcoin取引です。
-  - ウォレット所有者のデジタル署名です。
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Bitcoinウォレットのシードは、ランダムまたは擬似ランダム数であることが想定されています。このシードにより、暗号通貨の所有に不可欠な複数のキーを生成することができます。
-reviewed: false
+  Bitcoin Seed 定数は、マスタープライベートキーとマスターチェーンコードを導出するために HMAC-SHA512 関数のキーとして使用されます。

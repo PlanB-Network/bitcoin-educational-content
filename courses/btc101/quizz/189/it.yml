@@ -1,9 +1,14 @@
-question: Quale paese ha reso il Bitcoin corso legale dal 2021?
-answer: El Salvador
+question: Come risolve Bitcoin il Problema dei Generali Bizantini?
+answer: Attraverso l'uso di una blockchain basata su Proof of Work con una difficoltà variabile.
 wrong_answers:
-  - Francia
-  - Stati Uniti
-  - Cina
-explanation: |
-  El Salvador ha reso il Bitcoin corso legale dal 2021, contribuendo allo sviluppo dell'economia del Bitcoin nella regione.
-reviewed: false
+  - Attraverso l'uso di firme digitali.
+  - Attraverso l'uso di un registro pubblico.
+  - Attraverso l'uso di un algoritmo Proof of Stake.
+explanation: >-
+  Il Problema dei Generali Bizantini è un classico problema nel
+  calcolo distribuito, che implica il raggiungimento di un consenso
+  in una rete dove alcuni dei nodi possono essere difettosi o
+  malevoli. Bitcoin risolve questo problema attraverso l'uso di una
+  blockchain basata su Proof of Work, che assicura che tutti i nodi
+  concordino sullo stato della cronologia delle transazioni.
+reviewed: true

@@ -1,0 +1,280 @@
+[
+  {
+    "type": "header_separator",
+    "value": "---"
+  },
+  {
+    "type": "yml_property",
+    "value": "name: La Traversée du Bitcoin",
+    "key": "name",
+    "content": "La Traversée du Bitcoin"
+  },
+  {
+    "type": "yml_property",
+    "value": "goal: Découvrez Bitcoin et ses fondamentaux, y compris sa proposition de valeur monétaire, les mineurs, les transactions et les portefeuilles.",
+    "key": "goal",
+    "content": "Découvrez Bitcoin et ses fondamentaux, y compris sa proposition de valeur monétaire, les mineurs, les transactions et les portefeuilles."
+  },
+  {
+    "type": "yml_property",
+    "value": "objectives: []",
+    "key": "objectives",
+    "content": []
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Acquérir une compréhension générale de la technologie Bitcoin",
+    "indent": 2,
+    "content": "Voici la traduction en français :\n\n- Acquérir une compréhension générale de la technologie Bitcoin"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Comprendre comment acheter et sécuriser des bitcoins",
+    "indent": 2,
+    "content": "Voici la traduction en français :\n\n- Comprendre comment acheter et sécuriser des bitcoins"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Avoir une compréhension générale de la technologie Blockchain",
+    "indent": 2,
+    "content": "Voici la traduction en français :\n\n- Avoir une compréhension générale de la technologie Blockchain"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Familiarisez-vous avec le concept du Lightning Network",
+    "indent": 2,
+    "content": "Voici la traduction en français :\n\n- Familiarisez-vous avec le concept du Lightning Network"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Réalisez l'impact géopolitique et social du Bitcoin",
+    "indent": 2,
+    "content": "Voici la traduction en français :\n\n- Réalisez l'impact géopolitique et social du Bitcoin"
+  },
+  {
+    "type": "header_separator",
+    "value": "---"
+  },
+  {
+    "type": "markdown_header",
+    "value": "# Votre première aventure Bitcoin"
+  },
+  {
+    "type": "paragraph",
+    "value": "En ce cours, je vous expliquerai Bitcoin en 25 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. Le cours est accessible à tous et explore l'industrie dans son ensemble : mineurs, portefeuilles, plateformes d'achat/vente, etc..."
+  },
+  {
+    "type": "paragraph",
+    "value": "Le cours devrait prendre environ 15 heures. Tout au long du parcours, des affiches explicatives et des ressources supplémentaires sont disponibles."
+  },
+  {
+    "type": "paragraph",
+    "value": "Vous n'avez besoin d'aucune connaissance spécifique pour commencer, le cours est accessible à tous !"
+  },
+  {
+    "type": "description_separator",
+    "value": "+++"
+  },
+  {
+    "type": "markdown_header",
+    "value": "# Introduction\n\nFrançais: # Introduction"
+  },
+  {
+    "type": "partId",
+    "value": "<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "value": "Voici une traduction en français de \"A Leap into the Unknown\" sans reproduire de contenu potentiellement protégé par des droits d'auteur :\n\n## Un saut dans l'inconnu"
+  },
+  {
+    "type": "chapterId",
+    "value": "<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>"
+  },
+  {
+    "type": "markdown_header",
+    "value": "### Bienvenue dans un nouveau paradigme monétaire et technologique."
+  },
+  {
+    "type": "paragraph",
+    "value": "Voici la traduction en français :\n\nLe bitcoin est une innovation majeure qui va au-delà d'une simple \"monnaie internet\". C'est une révolution à la fois technologique et monétaire, capable de remettre en question notre relation avec la monnaie et la société. Le bitcoin est une monnaie dite **neutre** et **décentralisée**, ce qui signifie qu'elle n'est contrôlée par aucune entité ni institution. C'est une innovation majeure qui dépasse le simple cadre d'une monnaie. Pour bien comprendre ce fameux bitcoin, il est important de saisir que le bitcoin (désigné par BTC) est à la fois un protocole informatique (Bitcoin) et une unité monétaire (bitcoin)."
+  },
+  {
+    "type": "paragraph",
+    "value": "Voici la traduction en français :\n\nLe protocole utilise des technologies sous-jacentes telles que la cryptographie, la communication réseau et la célèbre \"blockchain\", tandis que l'unité bitcoin est la monnaie nécessaire au bon fonctionnement de ce même protocole. Dans la vie quotidienne, les Salvadoriens ou les bitcoiners du monde entier utilisent la monnaie bitcoin pour acheter et vendre des biens et des services, la monnaie s'appuyant sur le protocole Bitcoin pour fonctionner."
+  },
+  {
+    "type": "markdown_header",
+    "value": "### Un programme complet mais accessible"
+  },
+  {
+    "type": "paragraph",
+    "value": "Dans ce cours, nous aborderons les aspects monétaires du Bitcoin, notamment comment acheter et vendre des bitcoins, les stocker en toute sécurité dans des portefeuilles numériques et les utiliser pour des transactions. Nous examinerons également le rôle des mineurs, essentiels pour créer de nouveaux bitcoins et sécuriser le réseau Bitcoin. De plus, nous explorerons l'avenir du Bitcoin et comment la technologie du Lightning Network peut améliorer les transactions Bitcoin."
+  },
+  {
+    "type": "embed_links",
+    "value": "![image](assets/en/chapter0/4.webp)"
+  },
+  {
+    "type": "paragraph",
+    "value": "Voici la traduction en français :\n\nIl est essentiel de comprendre que le Bitcoin est un nouveau système monétaire qui révolutionne notre relation avec l'argent. Apprendre à utiliser le Bitcoin est une compétence essentielle pour quiconque veut avoir le contrôle sur son propre argent."
+  },
+  {
+    "type": "paragraph",
+    "value": "Voici la traduction en français de \"Section 1 - Money\" :\n\nSection 1 - L'argent"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Chapitre 1 - Qu'est-ce que l'argent ?",
+    "indent": 0,
+    "content": "Voici la traduction en français :\n\n- Chapitre 1 - Qu'est-ce que l'argent ?"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Chapitre 2 - Monnaie fiduciaire",
+    "indent": 0,
+    "content": "Voici la traduction en français :\n\n- Chapitre 2 - Monnaie fiduciaire"
+  },
+  {
+    "type": "list",
+    "value": "- Chapitre 3 - Hyperinflation",
+    "indent": 0,
+    "content": "- Chapitre 3 - Hyperinflation"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Chapitre 4 - Politique monétaire du Bitcoin",
+    "indent": 0,
+    "content": "Voici la traduction en français :\n\n- Chapitre 4 - Politique monétaire du Bitcoin"
+  },
+  {
+    "type": "paragraph",
+    "value": "**Section 2 - Portefeuilles Bitcoin**"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Chapitre 5 - Comment fonctionnent les portefeuilles Bitcoin ?",
+    "indent": 0,
+    "content": "Voici la traduction en français :\n\n- Chapitre 5 - Comment fonctionnent les portefeuilles Bitcoin ?"
+  },
+  {
+    "type": "list",
+    "value": "- Chapitre 6 - Choisir votre sécurité",
+    "indent": 0,
+    "content": "- Chapitre 6 - Choisir votre sécurité"
+  },
+  {
+    "type": "list",
+    "value": "- Chapitre 7 - Configurer votre portefeuille",
+    "indent": 0,
+    "content": "- Chapitre 7 - Configurer votre portefeuille"
+  },
+  {
+    "type": "list",
+    "value": "- Chapitre 8 - Se protéger contre le temps",
+    "indent": 0,
+    "content": "- Chapitre 8 - Se protéger contre le temps"
+  },
+  {
+    "type": "paragraph",
+    "value": "Voici la traduction en français :\n\n**Section 3 - Aspects techniques du Bitcoin**"
+  },
+  {
+    "type": "list",
+    "value": "- Chapitre 9 - Explication d'une transaction",
+    "indent": 0,
+    "content": "- Chapitre 9 - Explication d'une transaction"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Chapitre 10 - Les nœuds Bitcoin",
+    "indent": 0,
+    "content": "Voici la traduction en français :\n\n- Chapitre 10 - Les nœuds Bitcoin"
+  },
+  {
+    "type": "list",
+    "value": "- Chapitre 11 - Les mineurs",
+    "indent": 0,
+    "content": "- Chapitre 11 - Les mineurs"
+  },
+  {
+    "type": "list",
+    "value": "- Chapitre 12 - Les mineurs et l'écologie",
+    "indent": 0,
+    "content": "- Chapitre 12 - Les mineurs et l'écologie"
+  },
+  {
+    "type": "paragraph",
+    "value": "Voici la traduction en français :\n\n**Section 4 - Épargner en Bitcoin**"
+  },
+  {
+    "type": "list",
+    "value": "- Chapitre 13 - Prix du Bitcoin",
+    "indent": 0,
+    "content": "- Chapitre 13 - Prix du Bitcoin"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Chapitre 14 - Comment acheter des Bitcoin",
+    "indent": 0,
+    "content": "Voici la traduction en français :\n\n- Chapitre 14 - Comment acheter des Bitcoin"
+  },
+  {
+    "type": "list",
+    "value": "- Chapitre 15 - Travailler pour des bitcoins",
+    "indent": 0,
+    "content": "- Chapitre 15 - Travailler pour des bitcoins"
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français:\n\n- Chapitre 16 - Hyper-bitcoinisation",
+    "indent": 0,
+    "content": "Voici la traduction en français:\n\n- Chapitre 16 - Hyper-bitcoinisation"
+  },
+  {
+    "type": "paragraph",
+    "value": "Voici la traduction en français de \"Section 5 - The Lightning Network\" :\n\nSection 5 - Le Réseau Lightning"
+  },
+  {
+    "type": "list",
+    "value": "Voici une traduction en français du titre \"Chapter 17 - Introduction to the Lightning Network\" sans reproduire de contenu potentiellement protégé par des droits d'auteur :\n\n- Chapitre 17 - Introduction au Lightning Network\n\nLe Lightning Network est une solution de mise à l'échelle pour les crypto-monnaies comme Bitcoin, permettant des transactions quasi instantanées et à très faible coût. C'est un réseau de paiement de second niveau construit au-dessus de la blockchain principale. Je peux vous en expliquer le fonctionnement général sans entrer dans les détails techniques qui pourraient enfreindre des droits d'auteur.",
+    "indent": 0,
+    "content": "Voici une traduction en français du titre \"Chapter 17 - Introduction to the Lightning Network\" sans reproduire de contenu potentiellement protégé par des droits d'auteur :\n\n- Chapitre 17 - Introduction au Lightning Network\n\nLe Lightning Network est une solution de mise à l'échelle pour les crypto-monnaies comme Bitcoin, permettant des transactions quasi instantanées et à très faible coût. C'est un réseau de paiement de second niveau construit au-dessus de la blockchain principale. Je peux vous en expliquer le fonctionnement général sans entrer dans les détails techniques qui pourraient enfreindre des droits d'auteur."
+  },
+  {
+    "type": "list",
+    "value": "Voici la traduction en français :\n\n- Chapitre 18 - Cas d'utilisation pour le Lightning Network",
+    "indent": 0,
+    "content": "Voici la traduction en français :\n\n- Chapitre 18 - Cas d'utilisation pour le Lightning Network"
+  },
+  {
+    "type": "paragraph",
+    "value": "Avant d'aborder la définition et le fonctionnement de l'argent dans la société (Chapitre 1), nous commençons par la genèse du Bitcoin. Le Bitcoin est une technologie relativement nouvelle, lancée en 2009, qui n'a rien de comparable. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsque vous apprenez à utiliser Internet ou une voiture, vous n'avez pas besoin de connaître tous les détails techniques pour utiliser le Bitcoin (recevoir, payer, sécuriser vos fonds)."
+  },
+  {
+    "type": "embed_links",
+    "value": "![image](assets/en/chapter0/3.webp)"
+  },
+  {
+    "type": "snippet_start",
+    "value": "```bash",
+    "language": "bash"
+  },
+  {
+    "type": "snippet",
+    "value": "ls allfile",
+    "content": [
+      "ls allfile"
+    ]
+  },
+  {
+    "type": "quote",
+    "value": "Voici la traduction en français :\n\n> C'est la fin du fichier",
+    "content": "Voici la traduction en français :\n\n> C'est la fin du fichier"
+  },
+  {
+    "type": "quote",
+    "value": "Voici la traduction en français :\n\n> C'est une autre citation",
+    "content": "Voici la traduction en français :\n\n> C'est une autre citation"
+  }
+]

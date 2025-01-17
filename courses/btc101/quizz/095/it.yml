@@ -1,11 +1,9 @@
-question: Qual è il rischio nell'utilizzare un portafoglio custodiale?
-answer: La terza parte fidata può limitare il tuo accesso ai tuoi fondi in qualsiasi momento.
+question: Cosa significa il termine hodl?
+answer: Hodl è un termine gergale nella comunità delle criptovalute che significa mantenere i propri investimenti anziché venderli, specialmente durante la volatilità del mercato.
 wrong_answers:
-  - La terza parte fidata può aumentare il valore dei tuoi bitcoin in qualsiasi momento.
-  - La terza parte fidata può diminuire il valore dei tuoi bitcoin in qualsiasi momento.
-  - La terza parte fidata può trasferire i tuoi bitcoin in qualsiasi momento.
+  - Hodl si riferisce a un tipo di criptovaluta che viene utilizzata solo per il trading.
+  - Hodl è un termine che significa vendere tutte le tue criptovalute a un prezzo alto.
+  - Hodl è una strategia per il trading giornaliero che implica l'acquisto e la vendita frequente.
 explanation: |
-  Quando utilizzi un portafoglio custodiale, non sei l'unico detentore dei tuoi bitcoin.
-  Ciò significa che la terza parte fidata può limitare il tuo accesso ai fondi in
-  qualsiasi momento, offrendoti lo stesso livello di sovranità finanziaria del sistema bancario tradizionale.
-reviewed: false
+  Il termine hodl ha avuto origine da un post online scritto erroneamente nel 2013 su un forum di Bitcoin. Col tempo, hodl si è evoluto per rappresentare una strategia di investimento più ampia. Incoraggia gli investitori a mantenere le loro criptovalute a lungo termine, indipendentemente dalle fluttuazioni del mercato.
+reviewed: true

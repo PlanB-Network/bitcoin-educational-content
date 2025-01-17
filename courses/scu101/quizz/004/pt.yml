@@ -1,10 +1,14 @@
-question: Por que é recomendado excluir os cookies após cada visita a um site?
-answer: Para evitar que sites de terceiros rastreiem sua atividade online.
+question: Por que é recomendado deletar os cookies após cada visita a um site?
+answer: Para impedir que sites terceiros rastreiem sua atividade online.
 wrong_answers:
-  - Para economizar espaço de armazenamento em seu dispositivo.
-  - Para evitar que o site lembre suas informações de login.
-  - Para evitar que o site exiba anúncios direcionados.
+  - Para economizar espaço de armazenamento no seu dispositivo.
+  - Para impedir que o site lembre suas informações de login.
+  - Para impedir que o site mostre anúncios direcionados a você.
 explanation: |
-  Cookies são arquivos criados por sites para armazenar informações em seu dispositivo.
-  Embora alguns sites exijam esses cookies para funcionar corretamente, eles também podem ser explorados por sites de terceiros, especialmente para fins de rastreamento de publicidade. Excluir os cookies após cada visita a um site pode ajudar a prevenir isso.
-reviewed: false
+  Cookies são arquivos criados por sites para armazenar informações
+  no seu dispositivo. Embora alguns sites requeiram esses cookies para
+  funcionar adequadamente, eles também podem ser explorados por
+  sites terceiros, especialmente para fins de rastreamento de publicidade.
+  Deletar cookies após cada visita a um site pode
+  ajudar a prevenir isso.
+reviewed: true

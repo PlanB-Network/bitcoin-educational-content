@@ -1,9 +1,8 @@
-question: Come potrebbe il Lightning Network essere potenzialmente utilizzato per il noleggio di beni?
-answer: Gli utenti potrebbero essere addebitati al minuto, o addirittura al secondo, per il tempo in cui utilizzano i beni.
+question: In che modo la Lightning Network potrebbe essere utilizzata per il noleggio di beni?
+answer: Gli utenti potrebbero essere addebitati per minuto, o addirittura per secondo, per il tempo in cui utilizzano i beni.
 wrong_answers:
-  - Gli utenti potrebbero essere addebitati una tariffa fissa per il noleggio dei beni.
+  - Gli utenti potrebbero essere addebitati una tariffa alta per il noleggio dei beni.
   - Gli utenti potrebbero essere addebitati in base al valore dei beni.
-  - Gli utenti potrebbero essere addebitati in base alle condizioni dei beni.
-explanation: |
-  Con il Lightning Network, è concepibile utilizzare questo sistema per il noleggio di beni. Gli utenti potrebbero essere addebitati al minuto, o addirittura al secondo, per il tempo in cui utilizzano i beni.
-reviewed: false
+  - Gli utenti potrebbero essere addebitati in base alla condizione dei beni.
+explanation: Con la Lightning Network, è concepibile utilizzare questo sistema per il noleggio di beni. Gli utenti potrebbero essere addebitati per minuto, o addirittura per secondo, per il tempo in cui utilizzano i beni.
+reviewed: true

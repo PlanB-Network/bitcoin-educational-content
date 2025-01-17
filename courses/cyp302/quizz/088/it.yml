@@ -1,0 +1,9 @@
+question: Qual è l'algoritmo di cifratura a blocchi adottato come standard AES?
+answer: Il Cifrario Rijndael
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Il Cifrario Rijndael è stato adottato come standard di cifratura simmetrica (AES) dal NIST, grazie alla sua elevata prestazione e sicurezza.
+reviewed: false

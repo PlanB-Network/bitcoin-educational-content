@@ -1,11 +1,12 @@
-question: Qual è un modo unico per entrare nell'ecosistema Bitcoin attraverso il mining?
-answer: Minare Bitcoin durante l'inverno può essere un modo intelligente per riscaldare la tua casa mentre generi reddito in Bitcoin.
+question: Qual è un modo unico per coinvolgersi nell'ecosistema Bitcoin attraverso il mining?
+answer: Fare mining di Bitcoin in inverno può essere un modo intelligente per riscaldare la propria casa generando allo stesso tempo un reddito in Bitcoin.
 wrong_answers:
-  - Minare Bitcoin può essere un modo per ottenere elettricità gratuita.
-  - Minare Bitcoin può essere un modo per ottenere internet gratuito.
-  - Minare Bitcoin può essere un modo per ottenere hardware gratuito.
+  - Fare mining di Bitcoin può essere un modo per ottenere elettricità gratis.
+  - Fare mining di Bitcoin può essere un modo per ottenere internet gratis.
+  - Fare mining di Bitcoin può essere un modo per ottenere hardware gratis.
 explanation: |
-  Un modo unico per entrare nell'ecosistema Bitcoin attraverso il mining
-  è minare Bitcoin durante l'inverno. Questo può essere un modo intelligente per riscaldare la tua casa mentre
-  generi reddito in Bitcoin.
-reviewed: false
+  Un modo unico per coinvolgersi nell'ecosistema Bitcoin
+  attraverso il mining è facendo mining di Bitcoin in inverno. Questo può
+  essere un modo intelligente per riscaldare la propria casa mentre si genera un reddito
+  in Bitcoin.
+reviewed: true

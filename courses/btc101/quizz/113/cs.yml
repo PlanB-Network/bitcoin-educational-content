@@ -1,9 +1,12 @@
-question: Proč nemůže každý používat stejnou Bitcoin peněženku?
-answer: Protože různí jednotlivci mají různé požadavky na použití.
+question: Co brání všem používat stejnou Bitcoin peněženku?
+answer: Různí jednotlivci mají různé požadavky na použití.
 wrong_answers:
-  - Protože používání Bitcoin peněženky je drahé
-  - Protože používání Bitcoin peněženky je nelegální
-  - Protože se lidé nikdy neshodnou na názvu takové peněženky
+  - Používání Bitcoin peněženky je drahé.
+  - Používání Bitcoin peněženky je nelegální.
+  - Lidé se nikdy neshodnou na názvu takové peněženky.
 explanation: |
-  Zatímco jedna osoba může dávat přednost bezpečnosti, jiná může cenit uživatelskou přívětivost nebo specifické funkce. Proto jedna Bitcoin peněženka nemusí vyhovovat požadavkům všech, což činí nutnost existence více možností peněženek.
+  Zatímco jedna osoba může dávat přednost bezpečnosti, jiná
+  může cenit uživatelskou přívětivost nebo specifické funkce. Proto
+  jedna Bitcoin peněženka nemusí vyhovovat požadavkům všech,
+  což činí nutnost existence více možností peněženek.
 reviewed: true

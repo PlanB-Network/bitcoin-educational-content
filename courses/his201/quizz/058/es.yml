@@ -1,0 +1,9 @@
+question: ¿En qué unidad se mide la tasa de hash de la red durante el segundo semestre del año 2010?
+answer: En GH/s
+wrong_answers:
+  - En MH/s
+  - En TH/s
+  - En PH/s
+explanation: |
+  La tasa de hash aumentó de 1.35 GH/s el 13 de julio a 120 GH/s el 31 de diciembre de 2010.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Hva var oppfatningen til den tyske befolkningen under hyperinflasjonsperioden i Weimarrepublikken?
+answer: De tilskrev inflasjonen til dollarens økning heller enn den iboende devalueringen av sin egen valuta.
+wrong_answers:
+  - De var fullt bevisste på den underliggende årsaken til hyperinflasjonen de opplevde.
+  - De skyldte på regjeringen for sine økonomiske vanskeligheter.
+  - De trodde at hyperinflasjonen var et resultat av krigserstatninger.
+explanation: |
+  Den tyske befolkningen under Weimarrepublikken tilskrev inflasjonen
+  de opplevde til økningen av dollaren, og avviste enhver anerkjennelse av
+  sammenhengen mellom deres økonomiske vanskeligheter og monetær devaluering, hovedsakelig indusert
+  av overdreven pengekreasjon.
+reviewed: false

@@ -4,7 +4,7 @@ wrong_answers:
   - Des transactions Bitcoin instantanées et à coût élevé.
   - Des transactions Bitcoin retardées et à faible coût.
   - Des transactions Bitcoin retardées et à coût élevé.
-explanation: |
+explanation: >-
   Le Lightning Network permet des transactions Bitcoin instantanées et à faible coût,
   résolvant ainsi le problème de scalabilité de Bitcoin.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hva er en pseudotilfeldig streng?
+answer: En streng som ser ut til å komme fra en uniform variabel, men som er produsert av en ekspansjonsalgoritme
+wrong_answers:
+  - En streng generert med identisk sannsynlighet for hvert tegn
+  - En fastlengdestreng fra en naturlig tilfeldig hendelse
+  - En tilfeldig streng valgt kun fra de binære verdiene 0 og 1
+explanation: |
+  En pseudotilfeldig streng er produsert av en ekspansjonsalgoritme fra et mindre frø, på en måte som etterligner en uniform utvelgelse blant alle strenger av samme lengde.
+reviewed: false

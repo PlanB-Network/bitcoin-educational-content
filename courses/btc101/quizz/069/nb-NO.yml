@@ -1,0 +1,9 @@
+question: Hva er det estimerte antallet bitcoins i omløp etter den første halveringen?
+answer: 10,500,000 BTC
+wrong_answers:
+  - 5,250,000 BTC
+  - 15,750,000 BTC
+  - 21,000,000 BTC
+explanation: |
+  Etter den første halveringen, som skjer ved blokkhøyde 210,000, var det estimerte antallet bitcoins i omløp 10,500,000 BTC, som er halvparten av det totale antallet bitcoins som vil være i omløp.
+reviewed: true

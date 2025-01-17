@@ -1,9 +1,12 @@
-question: Quelles sont les caractéristiques d'un bon mot de passe?
-answer: Long, complexe, unique et ne reposant pas sur des informations personnelles.
+question: Quelles sont les caractéristiques d'un bon mot de passe ?
+answer: Long, complexe, unique et ne se basant pas sur des informations personnelles.
 wrong_answers:
   - Court, simple et facile à retenir.
-  - Basé sur des informations personnelles telles que les dates de naissance et les noms.
+  - Basé sur des informations personnelles comme les dates de naissance et les noms.
   - Le même mot de passe pour tous les comptes.
 explanation: |
-  Un bon mot de passe est long (d'au moins 12 caractères), complexe (un mélange de lettres majuscules et minuscules, de chiffres et de symboles), unique (non réutilisé pour différents comptes) et ne repose pas sur des informations personnelles.
-reviewed: false
+  Un bon mot de passe est long (au moins 12 caractères), complexe
+  (un mélange de lettres majuscules et minuscules, de chiffres et
+  de symboles), unique (non réutilisé pour différents comptes) et
+  ne se base pas sur des informations personnelles.
+reviewed: true

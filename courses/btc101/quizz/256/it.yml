@@ -1,9 +1,9 @@
-question: Qual è una delle principali implicazioni di Bitcoin per il sistema bancario?
+question: Qual è una delle principali conseguenze di Bitcoin sul sistema bancario?
 answer: Permette l'emancipazione dal sistema bancario.
 wrong_answers:
   - Permette il controllo del sistema bancario.
   - Permette l'eliminazione del sistema bancario.
   - Permette la corruzione del sistema bancario.
-explanation: |
+explanation: >-
   Il testo menziona che Bitcoin permette l'emancipazione dal sistema bancario.
-reviewed: false
+reviewed: vero

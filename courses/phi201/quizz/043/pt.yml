@@ -1,0 +1,9 @@
+question: Qual é a relação entre a lei natural e a lei humana segundo Santo Tomás de Aquino?
+answer: A lei humana deve estar de acordo com a lei natural para ser justa e legítima.
+wrong_answers:
+  - A lei humana é superior à lei natural porque é promulgada por autoridades legítimas.
+  - A lei natural é igual à lei humana.
+  - A lei humana aplica-se apenas parcialmente.
+explanation: |
+  Para Santo Tomás de Aquino, a lei humana deriva sua legitimidade de sua conformidade com a lei natural, que expressa princípios morais universais. Se a lei humana contradiz a lei natural, ela perde sua justiça e legitimidade.
+reviewed: false

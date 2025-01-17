@@ -1,11 +1,11 @@
-question: Mikä on historiallinen ennakkotapaus fiat-valuuttojen käytölle?
-answer: Johtajien keskittäessä kultaa ja esitellessä uuden valuutan, joka on arvoltaan vastaava kuin kulta, jonka jälkeen sen arvoa alennetaan vähitellen.
+question: Mikä on historiallinen polku, jota instituutiot ovat seuranneet fiat-valuuttojen käyttöönotossa?
+answer: Johtajat keskittävät kullan ja esittelevät uuden valuutan, joka on arvoltaan vastaava kullan kanssa, ja jota sitten vähitellen aliarvostetaan.
 wrong_answers:
-  - Johtajien esitellessä uuden valuutan, joka on tuettu kullalla, jonka jälkeen sen arvoa kasvatetaan vähitellen.
-  - Johtajien esitellessä uuden valuutan, jolla ei ole sisäistä arvoa, jonka jälkeen sen arvoa kasvatetaan vähitellen.
-  - Johtajien esitellessä uuden valuutan, joka on tuettu hyödykekorilla, jonka arvo pidetään vakiona.
+  - Johtajat esittelevät uuden valuutan, joka on tuettu kullalla, ja jonka arvoa sitten vähitellen kasvatetaan.
+  - Johtajat esittelevät uuden valuutan, jolla ei ole sisäistä arvoa, ja jonka arvoa sitten vähitellen kasvatetaan.
+  - Johtajat esittelevät uuden valuutan, joka on tuettu hyödykekorilla, ja jonka arvoa pidetään vakiona.
 explanation: |
-  Historiallisesti johtajat ovat keskittäneet kullan ja esitelleet uuden valuutan,
-  joka on arvoltaan vastaava kuin kulta. Tämä uusi valuutta alennetaan vähitellen arvoltaan, usein
-  kansan edun nimissä. 
-reviewed: false
+  Historiallisesti johtajat ovat keskittäneet kullan ja esitelleet
+  uuden valuutan, joka on arvoltaan vastaava kullan kanssa. Tämä uusi
+  valuutta sitten vähitellen aliarvostetaan, usein kansan edun nimissä.
+reviewed: true

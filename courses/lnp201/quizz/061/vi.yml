@@ -1,9 +1,0 @@
-question: Điều gì xảy ra khi HTLC hết hạn?
-answer: Tiền sẽ được trả lại cho người gửi.
-wrong_answers:
-  - Tiền được chuyển cho người nhận.
-  - Tiền bị mất.
-  - Tiền được chuyển cho bên thứ ba.
-explanation: |
-  Nếu người nhận không tiết lộ bí mật trong một khoảng thời gian nhất định, HTLC sẽ hết hạn và tiền sẽ được trả lại cho người gửi.
-reviewed: false

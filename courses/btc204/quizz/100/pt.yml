@@ -1,0 +1,13 @@
+question: O que a entropia indica no contexto da análise de cadeias no Bitcoin?
+
+answer: A falta de conhecimento dos analistas sobre a configuração exata da transação.
+
+wrong_answers:
+  - A velocidade com que as informações sobre uma transação se espalham pela rede.
+  - O nível de segurança criptográfica das assinaturas digitais usadas na transação.
+  - O tamanho do grupo de UTXOs idênticos no qual uma moeda está escondida.
+
+explanation: |
+  A entropia é usada para medir a falta de conhecimento dos analistas sobre a configuração exata da transação. Em outras palavras, quanto maior a entropia, mais difícil se torna para os analistas identificar os fluxos de bitcoins entre entradas e saídas.
+
+reviewed: false

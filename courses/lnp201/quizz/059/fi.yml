@@ -1,9 +1,0 @@
-question: Mitä tapahtuu kanavan pakotetussa sulkemisessa?
-answer: Kaikki meneillään olevat HTLC-siirrot julkaistaan, mikä voi tulla hyvin kalliiksi ja sekavaksi.
-wrong_answers:
-  - Maksut keskeytyvät ja HTLC:t ratkaistaan, mikä on yleensä vähemmän kallista.
-  - Kanava suljetaan välittömästi ilman lisätoimenpiteitä.
-  - Kaikki meneillään olevat HTLC-siirrot peruutetaan.
-explanation: |
-  Pakotetussa sulkemisessa kaikki meneillään olevat HTLC-siirrot julkaistaan. Tämä voi tulla hyvin kalliiksi ja sekavaksi transaktioiden monimutkaisuuden ja määrän vuoksi.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é o papel do teorema de Bayes na probabilidade?
+answer: Ele permite o cálculo da probabilidade condicional invertendo os eventos.
+wrong_answers:
+  - Ele fornece a probabilidade de ocorrência de um único evento.
+  - Ele define a probabilidade total de todos os eventos possíveis.
+  - Ele se aplica apenas a variáveis contínuas.
+explanation: |
+  O teorema de Bayes possibilita o cálculo da probabilidade de um evento A dado B, invertendo as probabilidades e é essencial na teoria da probabilidade.
+reviewed: false

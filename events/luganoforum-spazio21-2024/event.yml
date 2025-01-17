@@ -1,0 +1,22 @@
+- start_date: 2024-10-25
+  end_date: 2024-10-26
+  address_line_1: Lugano, Switzerland
+  address_line_2: Asilo Ciani Viale Carlo Cattaneo 5, 6900 Lugano
+  address_line_3: 
+  name: Spazio 21 @ Lugano's Plan ₿ Forum
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Two days of workshops in Italian for all kind of bitcoiners organized by the local SatoshiSpritzLugano meetup team.
+  language: 
+    - it
+  links:
+    website: https://spazio21.planb.network
+    replay_url:
+    live_url :
+  tags: 
+    - user-friendly
+    - self-sovereignty
+    - mastering

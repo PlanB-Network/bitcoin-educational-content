@@ -1,0 +1,8 @@
+question: Hvorfor er det risikabelt å manuelt generere entropi for en HD-lommebok?
+answer: Det kan introdusere menneskelige svakheter eller forutsigbare skjevheter
+wrong_answers:
+  - Det resulterer i ugyldige offentlige nøkler
+  - Det blokkerer avledningen av private nøkler
+  - Det begrenser størrelsen på de genererte mnemonic-frasene
+explanation: |
+  Å manuelt generere entropi kan introdusere skjevheter eller feil, noe som gjør nøklene mer sårbare for angrep.

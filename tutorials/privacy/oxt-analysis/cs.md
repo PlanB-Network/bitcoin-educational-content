@@ -1,5 +1,5 @@
 ---
-name: OXT - Analýza řetězce
+name: OXT - Chain Analysis
 description: Zvládněte základy analýzy řetězce na Bitcoinu
 ---
 ![obálka](assets/cover.webp)
@@ -62,7 +62,7 @@ Jedním z cílů analýzy řetězce je seskupit různé aktivity na Bitcoinu, ab
 Pamatujte na mé úvodní slovo. Vysvětlil jsem, proč původní model soukromí Bitcoinu spočíval v oddělení identity uživatele od jeho transakcí. Proto by se mohlo zdát, že analýza řetězce je zbytečná, protože i když se podaří seskupit aktivity na řetězci, nemohou být spojeny se skutečnou identitou. Teoreticky je toto tvrzení přesné. Kryptografické páry klíčů se používají k stanovení podmínek na UTXO. Tyto páry klíčů svou podstatou neodhalují žádné informace o identitě jejich držitelů. Takže i když se podaří seskupit aktivity spojené s různými páry klíčů, to nám nic neříká o entitě za těmito aktivitami.
 Nicméně, praktická realita je mnohem složitější. Existuje mnoho chování, která riskují spojení skutečné identity s aktivitou na blockchainu. V analýze se tomu říká vstupní bod a existuje jich mnoho. Nejběžnější, samozřejmě, je KYC (Know Your Customer - Poznej svého zákazníka). Pokud vyberete své bitcoiny z regulované platformy na jednu ze svých osobních přijímacích adres, pak někteří lidé mohou spojit vaši identitu s touto adresou. Šířeji vzato, vstupní bod může být jakákoli forma interakce mezi vaším skutečným životem a transakcí Bitcoinu. Například, pokud zveřejníte přijímací adresu na svých sociálních sítích, to může být vstupní bod pro analýzu. Pokud provedete platbu v bitcoinech svému pekaři, mohou spojit vaši tvář (která je součástí vaší identity) s Bitcoinovou adresou. Tyto vstupní body jsou téměř nevyhnutelné při používání Bitcoinu. Ačkoli by člověk mohl usilovat o omezení jejich rozsahu, zůstanou přítomny. Proto je klíčové kombinovat metody zaměřené na ochranu vašeho soukromí. Přestože udržování přijatelného oddělení mezi vaší skutečnou identitou a vašimi transakcemi je chvályhodný přístup, zůstává nedostatečný. Skutečně, pokud lze všechny vaše aktivity na blockchainu seskupit dohromady, pak i nejmenší vstupní bod by mohl ohrozit jedinou vrstvu soukromí, kterou jste si vytvořili.
 
-Proto je také nutné zabývat se analýzou řetězce v našem používání Bitcoinu. Tímto způsobem můžeme minimalizovat agregaci našich aktivit a omezit dopad vstupního bodu na naše soukromí. Přesněji řečeno, pro lepší boj proti analýze řetězce, jaký lepší přístup, než se seznámit s metodami používanými v analýze řetězce? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte tyto metody pochopit. To vám umožní lépe pochopit techniky jako [Coinjoin](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet) nebo [Payjoin](https://planb.network/en/tutorials/privacy/payjoin) a snížit chyby, které byste mohli udělat.
+Proto je také nutné zabývat se analýzou řetězce v našem používání Bitcoinu. Tímto způsobem můžeme minimalizovat agregaci našich aktivit a omezit dopad vstupního bodu na naše soukromí. Přesněji řečeno, pro lepší boj proti analýze řetězce, jaký lepší přístup, než se seznámit s metodami používanými v analýze řetězce? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte tyto metody pochopit. To vám umožní lépe pochopit techniky jako [Coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) nebo [Payjoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) a snížit chyby, které byste mohli udělat.
 
 V tomto můžeme nalézt analogii s kryptografií a kryptoanalýzou. Dobrý kryptograf je především dobrý kryptoanalytik. Aby si člověk mohl představit nový šifrovací algoritmus, musí vědět, jakým útokům bude čelit, a také studovat, proč byly předchozí algoritmy prolomeny. Stejný princip platí pro soukromí na Bitcoinu. Porozumění metodám analýzy řetězce je klíčem k ochraně proti ní. Proto vám nabízím tento článek.
 
@@ -267,7 +267,7 @@ De facto, toto nárokové právo na soukromí v Bitcoinu neexistuje. Je tedy na 
 ### Vyhnout se padání do heuristik
 Především, než zvážíme radikálnější metody, je vhodné co nejvíce omezit naši expozici heuristikám používaným pro analýzu řetězce. Jak bylo zmíněno dříve, dvě nejmocnější heuristiky jsou opětovné použití adresy a COINJOIN.
 Základním principem pro zajištění vašeho soukromí na Bitcoinu je používání nové, čisté adresy pro každou příchozí transakci do vaší peněženky. Opětovné použití adresy je opravdu hlavní hrozbou pro důvěrnost na Bitcoinu.
-Pro jednotlivého uživatele je generování nové adresy pro každou příchozí platbu velmi jednoduché. Moderní peněženky to dělají automaticky, jakmile kliknete na "Přijmout". Takže, pokud kladeš i nejmenší důraz na soukromí svých transakcí, používání nových adres představuje absolutní minimum. Pokud někdy potřebujete statický kontaktní bod na internetu, místo zadání přijímací adresy můžete použít řešení [jako je PayNym, které implementuje BIP47](https://planb.network/en/tutorials/privacy/paynym-bip47).
+Pro jednotlivého uživatele je generování nové adresy pro každou příchozí platbu velmi jednoduché. Moderní peněženky to dělají automaticky, jakmile kliknete na "Přijmout". Takže, pokud kladeš i nejmenší důraz na soukromí svých transakcí, používání nových adres představuje absolutní minimum. Pokud někdy potřebujete statický kontaktní bod na internetu, místo zadání přijímací adresy můžete použít řešení [jako je PayNym, které implementuje BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 Dále, pokud chcete jednat proti analýze řetězce, vyhněte se sloučení UTXO na vstupu transakce. Minimálně, pokud opravdu potřebujete sloučit, preferujte UTXO, které mají stejný zdroj. Toto doporučení znamená mít dobrou správu vašich UTXO. Při nákupu vašich bitcoinů preferujte převody zahrnující velké částky, abyste maximalizovali počet plateb, které můžete provést bez nutnosti sloučení. Také doporučuji označit vaše UTXO ve vašem softwaru, abyste identifikovali jejich původ a vyhnuli se sloučení z různých zdrojů.
 
 Obecněji, pro všechny ostatní heuristiky, potřebujete je znát, abyste se pokusili do nich nespadnout:
@@ -282,14 +282,14 @@ Obecněji, pro všechny ostatní heuristiky, potřebujete je znát, abyste se po
 Můžete také přejít k metodám, které činí vaše používání Bitcoinu nejednoznačným, aby se předešlo nebo oklamala analýza řetězce.
 
 Nejpopulárnější technikou je jistě Coinjoin, kolaborativní struktura transakce, která mobilizuje několik UTXO stejných částek. Cílem zde je přerušit deterministické vazby, čímž se zabrání analýzám od současnosti do minulosti a od minulosti do současnosti. Coinjoin umožňuje věrohodné popření tím, že skrývá vaše mince v rámci velké skupiny nerozlišitelných mincí. Pokud se chcete dozvědět více o Coinjoin, jak technicky, tak prakticky, doporučuji si přečíst tyto další články a tutoriály:
-- [COINJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet);
-- [COINJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet);
-- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/en/tutorials/privacy/wst-anonsets).
+- [COINJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [COINJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 ![analýza](assets/en/13.webp)
 
 CoinJoin je vynikajícím nástrojem pro vytvoření věrohodného popření pro mince, ale není optimalizován pro všechny potřeby soukromí uživatelů. Konkrétně, CoinJoin nebyl navržen, aby se stal platebním nástrojem. Je velmi striktní co se týče částek vyměněných za účelem dokonalé produkce věrohodného popření. Jelikož nelze volně vybírat částku výstupů transakce, CoinJoin nelze použít k provedení plateb v bitcoinech.
 Například si představte, že chci zaplatit za svou bagetu v bitcoinech, přičemž chci optimalizovat své soukromí. Vzhledem k nemožnosti vybrat množství výsledného UTXO z CoinJoin bych se ocitl neschopen přizpůsobit množství mého výdaje ceně stanovené pekařem. Proto se CoinJoin ukazuje jako nedostatečný pro platební transakce.
-Byly vymyšleny další nástroje, které splňují potřeby soukromí v konkrétnějších případů použití. Například máme [PayJoin](https://planb.network/en/tutorials/privacy/payjoin), druh mini-CoinJoin, který zahrnuje pouze dva účastníky a je založen na struktuře, která umožňuje platbu.
+Byly vymyšleny další nástroje, které splňují potřeby soukromí v konkrétnějších případů použití. Například máme [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), druh mini-CoinJoin, který zahrnuje pouze dva účastníky a je založen na struktuře, která umožňuje platbu.
 
 Unikátnost PayJoin spočívá v jeho schopnosti vyprodukovat transakci, která vypadá obyčejně, zatímco ve skutečnosti jde o mini-CoinJoin mezi dvěma uživateli. V této struktuře se příjemce transakce podílí na vstupech společně s vlastním odesílatelem. Takto příjemce vloží do transakce platbu sami sobě, která usnadňuje skutečnou platbu.
 
@@ -304,15 +304,15 @@ Druhým cílem PayJoin je oklamat analytika o skutečném množství transakce d
 
 Skutečně, pokud se vrátíme k našemu příkladu použití PayJoin k nákupu bagety, vnější pozorovatel by si mohl myslet, že jde o platbu 4 000 sats nebo 21 000 sats. Ve skutečnosti je platba za bagetu 6 000 sats: 21 000 - 15 000 = 6 000. Skutečná hodnota platby je tedy skryta v rámci falešné platby, která slouží jako návnada pro analýzu řetězce.
 
-Kromě PayJoin a CoinJoin existuje mnoho dalších struktur transakcí Bitcoinu, které buď blokují analýzu řetězce, nebo ji oklamávají. Mezi tyto patří transakce [Stonewall](https://planb.network/en/tutorials/privacy/stonewall) a [StonewallX2](https://planb.network/en/tutorials/privacy/stonewall-x2), které umožňují buď provést flexibilní mini Coinjoin, nebo napodobit flexibilní mini Coinjoin. Existují také transakce [Ricochet](https://planb.network/en/tutorials/privacy/ricochet), které simulují změnu vlastnictví bitcoinů tím, že provádějí množství falešných převodů na sebe sama.
+Kromě PayJoin a CoinJoin existuje mnoho dalších struktur transakcí Bitcoinu, které buď blokují analýzu řetězce, nebo ji oklamávají. Mezi tyto patří transakce [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) a [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b), které umožňují buď provést flexibilní mini Coinjoin, nebo napodobit flexibilní mini Coinjoin. Existují také transakce [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589), které simulují změnu vlastnictví bitcoinů tím, že provádějí množství falešných převodů na sebe sama.
 
 Všechny tyto nástroje jsou dostupné na mobilní peněžence Samourai Wallet a na PC peněžence Sparrow Wallet. Pokud se chcete dozvědět více o těchto specifických strukturách transakcí, doporučuji objevit mé tutoriály:
-- [PAYJOIN](https://planb.network/en/tutorials/privacy/payjoin);
-- [PAYJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/payjoin-samourai-wallet);
-- [PAYJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/payjoin-sparrow-wallet);
-- [STONEWALL](https://planb.network/en/tutorials/privacy/stonewall);
-- [STONEWALL X2](https://planb.network/en/tutorials/privacy/stonewall-x2);
-- [RICOCHET](https://planb.network/en/tutorials/privacy/ricochet).
+- [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## Závěr
 Analýza řetězce je praxe, která zahrnuje pokusy o sledování toku bitcoinů v blockchainu. Analytici k tomu hledají vzory a charakteristiky, aby mohli vyvodit více či méně pravděpodobné hypotézy a interpretace.
@@ -331,3 +331,9 @@ Pro uživatele Bitcoinu je zásadní ovládnout základní principy analýzy ře
 
 **P2WPKH:** Zkratka pro Pay to Witness Public Key Hash. Jedná se o standardní skriptový model používaný k určení podmínek výdaje na UTXO. P2WPKH byl zaveden s implementací SegWit v srpnu 2017. Tento skript je podobný P2PKH (Pay to Public Key Hash), protože také uzamkne bitcoiny na základě hashe veřejného klíče, tj. přijímací adresy. Rozdíl spočívá v tom, jak jsou podpisy a skripty zahrnuty do transakce. V případě P2WPKH jsou informace skriptu podpisu (ScriptSig) přesunuty z tradiční struktury transakce do samostatné sekce nazvané Witness. Tento krok je funkcí aktualizace SegWit (Segregated Witness). Tato technika má tu výhodu, že snižuje velikost dat transakce v hlavním těle, zatímco nezbytné informace skriptu pro validaci jsou uchovány v samostatné sekci. V důsledku toho jsou transakce P2WPKH obecně méně nákladné z hlediska poplatků ve srovnání s Legacy transakcemi. Adresy P2WPKH jsou psány pomocí kódování Bech32, což přispívá k stručnějšímu a méně náchylnému zápisu díky kontrolnímu součtu BCH. Tyto adresy vždy začínají na bc1q, což je činí snadno rozlišitelnými od Legacy přijímacích adres. P2WPKH je výstup SegWit verze 0.
 **UTXO:** Zkratka pro Unspent Transaction Output (Nevyčerpaný výstup transakce). UTXO je výstup transakce, který ještě nebyl utracen nebo použit jako vstup pro novou transakci. UTXO představují část bitcoinů, které uživatel vlastní a které jsou v současné době dostupné k utracení. Každé UTXO je spojeno s konkrétním výstupním skriptem, který definuje potřebné podmínky pro utracení bitcoinů. Transakce v Bitcoinu spotřebovávají tyto UTXO jako vstupy a vytvářejí nové UTXO jako výstupy. Model UTXO je základní pro Bitcoin, protože umožňuje snadnou verifikaci, že transakce se nepokouší utratit bitcoiny, které neexistují nebo již byly utraceny. V podstatě je UTXO kus Bitcoinu.
+
+
+
+
+
+

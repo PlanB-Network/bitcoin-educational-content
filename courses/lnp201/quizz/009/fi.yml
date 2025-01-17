@@ -1,9 +1,9 @@
-question: Mikä on yksityisen avaimen rooli Bitcoin-siirrossa?
-answer: Sitä käytetään siirron allekirjoittamiseen ja bitcoinien vapauttamiseen osoitteesta.
+question: Mitä lukitusskripti tekee Bitcoin-siirrossa?
+answer: Se asettaa tiettyjä ehtoja varojen käyttämiseksi
 wrong_answers:
-  - Sitä käytetään julkisen avaimen luomiseen.
-  - Sitä käytetään Bitcoin-osoitteen luomiseen.
-  - Sitä käytetään siirtotietojen salaamiseen.
+  - Se lähettää automaattisesti varat useisiin osoitteisiin
+  - Se määrittää luotavan UTXO: n arvon
+  - Se lukitsee varat väliaikaisesti estääkseen liiallisen kuluttamisen
 explanation: |
-  Bitcoin-siirrossa lähettäjä käyttää omaa yksityistä avaintaan siirron allekirjoittamiseen, mikä käytännössä vapauttaa bitcoinit niissä säilytysosoitteessa. Tämä on kriittinen osa siirtoprosessia, sillä se varmistaa, että vain bitcoinien omistaja voi käyttää niitä.
+  Lukitusskripti asettaa ehtoja, kuten yksityisellä avaimella allekirjoittamisen, jotta varoja voidaan käyttää siirrossa.
 reviewed: false

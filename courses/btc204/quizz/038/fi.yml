@@ -1,4 +1,4 @@
-question: Mikä transaktiomalli tekee CIOH:n käytön mitättömäksi?
+question: Mikä transaktiomalli tekee CIOH; n käytön mitättömäksi?
 answer: Yhteistyöllinen transaktio.
 wrong_answers:
   - Yksinkertainen maksu.

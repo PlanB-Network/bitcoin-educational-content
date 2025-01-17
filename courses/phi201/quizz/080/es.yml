@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal diferencia entre las teorías de Locke y Rousseau sobre la soberanía?
+answer: Locke creía que la soberanía estaba limitada por los derechos naturales, mientras que Rousseau creía que era ilimitada.
+wrong_answers:
+  - Locke creía que la soberanía pertenecía al monarca, mientras que Rousseau creía que pertenecía al pueblo.
+  - Locke creía que la mejor forma de gobierno era una democracia, mientras que Rousseau creía que la mejor forma de gobierno era una república.
+  - Todas las otras respuestas son correctas.
+explanation: |
+  Locke argumentaba que la soberanía del estado está restringida por los derechos naturales de los individuos, mientras que Rousseau sentía que la soberanía general podía ejercerse sin límites en nombre de la voluntad colectiva.
+reviewed: false

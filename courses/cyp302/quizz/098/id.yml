@@ -1,0 +1,8 @@
+question: Bagaimana MAC membantu mencegah manipulasi pesan oleh penyerang?
+answer: Dengan memungkinkan untuk memverifikasi bahwa pesan yang diterima tidak telah diubah
+wrong_answers:
+  - Dengan mencegah serangan brute-force
+  - Dengan menyembunyikan isi pesan
+  - Dengan secara otomatis memblokir pesan yang mencurigakan
+explanation: |
+  MAC memungkinkan penerima untuk memverifikasi bahwa pesan tidak telah dimodifikasi melalui tag yang dihasilkan dengan kunci rahasia bersama, yang membatasi kemungkinan manipulasi.

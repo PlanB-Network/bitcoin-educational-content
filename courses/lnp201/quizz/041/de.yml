@@ -1,9 +1,9 @@
-question: Was ist der Unterschied zwischen einer Abschlusstransaktion und einer Verpflichtungstransaktion bei einer kooperativen Schließung?
-answer: Eine Abschlusstransaktion hat keinen Timelock und keinen Widerrufsschlüssel.
+question: Warum ist es für einen sendenden Knoten schwierig, die genaue Liquidität eines Kanals zu schätzen?
+answer: Weil nur die beiden Teilnehmer die genaue Verteilung der Mittel kennen
 wrong_answers:
-  - Eine Abschlusstransaktion hat einen Timelock und einen Widerrufsschlüssel.
-  - Eine Abschlusstransaktion ist langsamer als eine Verpflichtungstransaktion.
-  - Eine Abschlusstransaktion ist teurer als eine Verpflichtungstransaktion.
+  - Weil die Gesamtkapazität der Kanäle ständig ändert
+  - Weil die Gebühren der Zwischenknoten nicht veröffentlicht werden
+  - Weil Kanäle automatisch nach jeder Transaktion schließen
 explanation: |
-  Bei einer kooperativen Schließung einigen sich die beiden Teilnehmer auf einen endgültigen Zustand des Kanals und erstellen eine Abschlusstransaktion. Diese Transaktion unterscheidet sich von Verpflichtungstransaktionen, da sie keinen Timelock und keinen Widerrufsschlüssel hat.
+  Die genaue Verteilung der Mittel in einem Kanal ist nur für die zwei teilnehmenden Knoten sichtbar, was es anderen Knoten verhindert, die verfügbare Liquidität für das Routing zu schätzen.
 reviewed: false

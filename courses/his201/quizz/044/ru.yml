@@ -1,0 +1,9 @@
+question: Кто предложил идею создания тестовой сети, чтобы избежать вреда основной сети Bitcoin?
+answer: Гэвин Андресен
+wrong_answers:
+  - Сатоши Накамото
+  - Мартти Малми
+  - Ласло Ханьец
+explanation: |
+  Он [упомянул](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) эту идею на форуме 9 июня, и Сатоши одобрил. Он [создал](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) тестнет 15 июля.
+reviewed: false

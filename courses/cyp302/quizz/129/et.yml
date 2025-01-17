@@ -1,0 +1,9 @@
+question: Milline teine Briti avastus, mille tegid GCHQ teadlased, eelnes Diffie ja Hellmani omale, kuid jäi saladuseks?
+answer: Asümmeetrilise krüptograafia ja võtmevahetuse kontseptsioonid
+wrong_answers:
+  - Sümmeetrilise krüpteerimise protokoll, mis on arenenud ilma võtme vajaduseta
+  - Uus asümmeetrilise krüptograafilise räsimeetodi meetod
+  - Meetod elektroonilise raha loomiseks
+explanation: |
+  Briti krüptograafid, kes töötasid GCHQ heaks, töötasid iseseisvalt välja ideid, mis olid sarnased Diffie ja Hellmani omadega, kuid need edusammud jäid konfidentsiaalseks kuni nende avalikustamiseni 1997. aastal.
+reviewed: false

@@ -1,9 +1,13 @@
 question: Qual è il dibattito all'interno della comunità Bitcoin riguardo al mining?
-answer: Il dibattito all'interno della comunità Bitcoin riguardo al mining ruota attorno al bilanciamento tra la ricerca del profitto e il contributo alla sicurezza e alla distribuzione della rete Bitcoin.
+answer: Il bilanciamento tra la ricerca del profitto e il contributo alla sicurezza e distribuzione della rete Bitcoin
 wrong_answers:
-  - Il bilanciamento tra l'aumento della potenza di calcolo e la diminuzione del numero di nodi attivi.
-  - Il bilanciamento tra l'aumento del prezzo e la diminuzione dei costi.
-  - Il bilanciamento tra l'aumento del numero di transazioni e la diminuzione del consumo energetico.
+  - Il bilanciamento tra aumentare l'hashrate e diminuire il numero di nodi attivi
+  - Il bilanciamento tra aumentare il prezzo e diminuire il costo
+  - Il bilanciamento tra aumentare il numero di transazioni e diminuire il consumo energetico
 explanation: |
-  Ci sono argomenti validi da entrambe le parti del dibattito.
-reviewed: false
+  Il dibattito all'interno della comunità Bitcoin riguardo al mining
+  ruota attorno al bilanciamento tra la ricerca del profitto e
+  il contributo alla sicurezza e distribuzione della rete
+  Bitcoin. Ci sono argomentazioni forti su entrambi i lati
+  del dibattito.
+reviewed: true

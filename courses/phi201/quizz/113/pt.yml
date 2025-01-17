@@ -1,0 +1,9 @@
+question: Qual é a principal crítica de Hayek à política monetária keynesiana?
+answer: Ela cria bolhas econômicas e recessões
+wrong_answers:
+  - Ela favorece investimentos de longo prazo
+  - Ela reduz as desigualdades sociais
+  - Ela aumenta a demanda doméstica de forma incontrolável
+explanation: |
+  Hayek criticou a política monetária keynesiana ao afirmar que ela incentiva ciclos artificiais de superinvestimento, levando à formação de bolhas econômicas e, inevitavelmente, a recessões quando essas bolhas estouram.
+reviewed: false

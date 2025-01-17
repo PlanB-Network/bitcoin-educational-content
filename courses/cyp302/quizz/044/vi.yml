@@ -1,0 +1,11 @@
+question: Tại sao tập hợp các số nguyên với phép cộng là một nhóm, trong khi đó không phải với phép nhân?
+
+answer: Tập hợp không thỏa mãn điều kiện nghịch đảo dưới phép nhân
+
+wrong_answers:
+  - Tập hợp không đóng dưới phép nhân
+  - Phép nhân không có tính kết hợp đối với các số nguyên
+  - Không có phần tử trung hòa cho phép nhân
+
+explanation:
+  Tập hợp các số nguyên không thỏa mãn điều kiện nghịch đảo dưới phép nhân vì không có nghịch đảo cho mỗi số nguyên nào có thể nhân với nhau để được 1. Chỉ có các phần tử 1 và -1 mới đáp ứng điều kiện này.

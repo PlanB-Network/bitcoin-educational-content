@@ -1,9 +1,10 @@
-question: Jaká je odměna v BTC po čtvrtém halvingu?
-answer: 3.125 BTC
+question: Kolik je odměna v BTC po čtvrtém halvingu?
+answer: 3.125 BTC.
 wrong_answers:
-  - 1.5625 BTC
-  - 6.25 BTC
-  - 12.5 BTC
-explanation: >-
-  Po čtvrtém halvingu, který nastává na výšce bloku 840,000, je odměna za těžbu BTC 3.125 BTC.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  Po čtvrtém halvingu, který nastává na výšce bloku
+  840,000, je odměna za těžbu BTC 3.125 BTC.
 reviewed: true

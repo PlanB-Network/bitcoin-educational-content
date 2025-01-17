@@ -1,9 +1,11 @@
 question: Por que a experiência prática é importante em cibersegurança?
-answer: Ela permite que você aplique seu conhecimento teórico em situações do mundo real.
+answer: Permite que você aplique seu conhecimento teórico em situações do mundo real
 wrong_answers:
-  - É um requisito para todos os empregos em cibersegurança.
-  - É mais importante do que o conhecimento acadêmico.
-  - É a única maneira de aprender sobre cibersegurança.
+  - É um requisito para todos os empregos em cibersegurança
+  - É mais importante do que o conhecimento acadêmico
+  - É a única maneira de aprender sobre cibersegurança
 explanation: |
-  O capítulo enfatiza a importância da experiência prática, pois permite que você aplique seu conhecimento teórico em situações do mundo real.
-reviewed: false
+  O capítulo enfatiza a importância da experiência
+  prática, pois permite que você aplique seu conhecimento
+  teórico em situações do mundo real.
+reviewed: true

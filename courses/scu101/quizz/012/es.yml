@@ -1,9 +1,12 @@
 question: ¿Por qué es importante verificar la clave pública del sitio utilizando un sistema de certificados?
 answer: Para confirmar la autenticidad del sitio.
 wrong_answers:
-  - Para evitar restricciones geográficas.
-  - Para bloquear anuncios en línea.
-  - Para acceder al sitio sin utilizar datos.
+  - Para asegurar que no ocurra ninguna estafa, pero solo cuando se conecta a través de una red Wi-Fi pública.
+  - Para bloquear parcialmente los anuncios en línea.
+  - Para asegurar que ninguna entidad maliciosa esté suplantando al sitio web.
 explanation: |
-  Verificar la clave pública del sitio utilizando un sistema de certificados es importante para confirmar la autenticidad del sitio. Esto ayuda a protegerse contra individuos maliciosos que se hacen pasar por el sitio y transfieren datos en texto plano.
-reviewed: false
+  Verificar la clave pública del sitio utilizando un sistema de certificados
+  es importante para confirmar la autenticidad del sitio. Esto
+  ayuda a proteger contra individuos maliciosos que suplantan
+  al sitio y transfieren datos en texto plano.
+reviewed: true

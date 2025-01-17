@@ -1,0 +1,9 @@
+question: What distinguishes a standard-length RC4 key stream from the simplified version presented in the example?
+answer: The length of the S array in standard RC4 is 256 bytes
+wrong_answers:
+  - The S array is limited to 128 bytes
+  - The key used must be more than 8 bytes
+  - There is no fixed length for S in standard RC4
+explanation: |
+  In standard RC4, the S array contains 256 bytes, which significantly increases the complexity of the calculations and enhances security compared to the simplified version with only 8 bytes.
+reviewed: false

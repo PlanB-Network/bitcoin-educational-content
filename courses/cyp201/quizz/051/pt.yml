@@ -1,9 +1,9 @@
-question: Qual é a importância do BIP32 no ecossistema do Bitcoin?
-answer: Ele revolucionou a forma como as chaves são geradas e armazenadas, introduzindo o conceito de chaves derivadas de forma determinística e hierárquica.
+question: Qual é a principal diferença entre uma frase-senha e um código PIN para uma carteira de Bitcoin?
+answer: A frase-senha modifica a derivação da chave, não o código PIN
 wrong_answers:
-  - Ele introduziu a frase mnemônica de 24 palavras.
-  - Ele propôs adicionar uma senha adicional para reforçar a segurança das chaves individuais.
-  - Ele padronizou a estrutura e hierarquia das carteiras HD.
+  - O código PIN está vinculado à frase mnemônica
+  - O código PIN é usado para criptografar transações, mas não a frase-senha
+  - O código PIN gera endereços Bitcoin
 explanation: |
-  O BIP32, lançado em 2012, revolucionou a forma como essas chaves são geradas e armazenadas, introduzindo o conceito de chaves derivadas de forma determinística e hierárquica. Isso simplifica muito o processo de salvar essas chaves, mantendo seu nível de segurança.
+  Ao contrário do código PIN, a frase-senha está diretamente envolvida no processo de derivação da chave e altera as chaves da carteira.
 reviewed: false

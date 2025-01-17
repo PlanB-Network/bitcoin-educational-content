@@ -1,0 +1,9 @@
+question: Mikä on ryöstön tarinan keskeinen ajatus Bastiat'n mukaan?
+answer: Tarina on jatkuva kamppailu vapauden ja sortamisen välillä
+wrong_answers:
+  - Tarina on sivilisaatioiden edistymisen ja taantumisen sykli
+  - Tarinan määrittävät taloudelliset tekijät
+  - Tarina on muuttumattoman ihmisen luonteen kertomus
+explanation: |
+  Bastiat'n mukaan ryöstön tarinan keskeinen ajatus piilee jatkuvassa kamppailussa yksilön vapauden ja sortamisen voimien välillä, missä jotkut saavat etuoikeuksia toisten oikeuksien ja vapauksien kustannuksella.
+reviewed: false

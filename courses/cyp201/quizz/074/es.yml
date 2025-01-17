@@ -1,9 +1,9 @@
-question: ¿Por qué es esencial hacer una copia de seguridad de la frase de recuperación de 24 palabras de una billetera de Bitcoin?
-answer: Para evitar cualquier pérdida de fondos.
+question: ¿Qué indica el índice /84'/ en la profundidad 1 de una ruta de derivación?
+answer: El estándar P2WPKH (SegWit v0)
 wrong_answers:
-  - Para verificar la precisión de la frase de recuperación.
-  - Para generar la entropía para la billetera.
-  - Para encriptar la frase de recuperación para mayor seguridad.
+  - El estándar P2TR (SegWit v1)
+  - Una moneda de testnet de Bitcoin
+  - Una moneda de mainnet de Bitcoin
 explanation: |
-  Hacer una copia de seguridad de la frase de recuperación de 24 palabras es esencial para evitar cualquier pérdida de fondos.
+  El índice /84'/ está definido en el BIP84 para indicar el uso del estándar SegWit v0 con direcciones P2WPKH en la profundidad 1 (la del objetivo de derivación).
 reviewed: false

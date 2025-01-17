@@ -1,9 +1,11 @@
-question: Warum wird empfohlen, den Google Chrome Browser zu meiden?
-answer: Aufgrund seiner Tracker.
+question: Warum wird empfohlen, den Google Chrome-Browser zu meiden?
+answer: Wegen seiner Tracker.
 wrong_answers:
   - Weil er nicht sicher ist.
   - Weil er nicht benutzerfreundlich ist.
   - Weil er keine Erweiterungen unterstützt.
 explanation: |
-  Der Google Chrome Browser ist bekannt für seine Tracker, die Daten über Ihre Online-Aktivitäten sammeln können. Dies kann für einige Benutzer ein Datenschutzproblem darstellen.
-reviewed: false
+  Der Google Chrome-Browser ist für seine Tracker bekannt, die
+  Daten über Ihre Online-Aktivitäten sammeln können. Dies kann für
+  einige Benutzer ein Datenschutzproblem darstellen.
+reviewed: true

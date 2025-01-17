@@ -1,0 +1,9 @@
+question: Was ist eine algebraische Struktur in der abstrakten Algebra?
+answer: Eine Menge von Elementen mit einer oder mehreren Operationen, die bestimmten Axiomen folgen
+wrong_answers:
+  - Eine Menge von Primzahlen, die in Reihen gemäß bestimmten Axiomen organisiert sind
+  - Eine Reihe von Algorithmen zur Lösung linearer Gleichungen
+  - Eine Gruppe von zufälligen geometrischen Transformationen, die in Übereinstimmung mit bestimmten Axiomen angeordnet sind
+explanation: |
+  Eine algebraische Struktur ist eine definierte Menge von Elementen mit einer oder mehreren Operationen, wie Addition oder Multiplikation, die bestimmten Axiomen folgen. Sie ist wesentlich für die Strukturierung von Konzepten in der Zahlentheorie.
+reviewed: false

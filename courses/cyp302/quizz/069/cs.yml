@@ -1,0 +1,9 @@
+question: Jaký je rozdíl mezi použitím algoritmu Salsa20 s 128bitovým klíčem a 256bitovým klíčem?
+answer: Délka klíče ovlivňuje počet kol v algoritmu.
+wrong_answers:
+  - Délka klíče mění typ šifrování.
+  - 128bitový klíč se používá pro šifrování proudové a 256bitový klíč pro blokové šifrování.
+  - Délka klíče nemá na Salsa20 žádný vliv.
+explanation: |
+  V symetrickém šifrovacím schématu Salsa20 délka klíče (128 nebo 256 bitů) ovlivňuje počet kol v algoritmu, aniž by měnila jádro samotného algoritmu.
+reviewed: false

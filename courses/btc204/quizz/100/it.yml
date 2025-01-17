@@ -1,0 +1,13 @@
+question: Cosa indica l'entropia nel contesto dell'analisi delle catene su Bitcoin?
+
+answer: La mancanza di conoscenza degli analisti riguardo la configurazione esatta della transazione.
+
+wrong_answers:
+  - La velocità con cui le informazioni su una transazione si diffondono attraverso la rete.
+  - Il livello di sicurezza crittografica delle firme digitali utilizzate nella transazione.
+  - La dimensione del gruppo di UTXO identici in cui una moneta è nascosta.
+
+explanation: |
+  L'entropia è utilizzata per misurare la mancanza di conoscenza degli analisti riguardo la configurazione esatta della transazione. In altre parole, più alta è l'entropia, più diventa difficile per gli analisti identificare i flussi di bitcoin tra input e output.
+
+reviewed: false

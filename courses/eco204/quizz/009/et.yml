@@ -1,0 +1,11 @@
+question: Mis on inflatsiooni ja deflatsiooni vaheline seos majanduses?
+answer: Inflatsioon ja deflatsioon on majanduses nagu suhtlevad anumad. Tootmise suurenemine võib viia deflatsioonini, kuid kui samal ajal suurendatakse rahapakkumist, tühistatakse deflatsiooniline mõju, mis viib inflatsioonini.
+wrong_answers:
+  - Inflatsioon ja deflatsioon on majanduses üksteisest sõltumatud.
+  - Inflatsioon viib alati deflatsioonini majanduses.
+  - Deflatsioon viib alati inflatsioonini majanduses.
+explanation: |
+  Peatükk selgitab, et inflatsioon ja deflatsioon on majanduses nagu suhtlevad
+  anumad. Tootmise suurenemine võib viia deflatsioonini, kuid kui samal ajal suurendatakse
+  rahapakkumist, tühistatakse deflatsiooniline mõju, mis viib inflatsioonini.
+reviewed: false

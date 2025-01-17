@@ -1,0 +1,9 @@
+question: Mis on LNURL-i roll Lightning tehingutes?
+answer: Lihtsustada suhtlust sõlmede ja Lightning rakenduste vahel
+wrong_answers:
+  - Hõlbustada iga makse jaoks kanalite loomist
+  - Tagada makseinfo konfidentsiaalsus
+  - Arvutada automaatselt tehingutasud
+explanation: |
+  LNURL on suhtlusprotokoll, mille eesmärk on lihtsustada suhtlust, nagu väljamaksed ja maksed, sõlmede ja Lightning rakenduste vahel.
+reviewed: false

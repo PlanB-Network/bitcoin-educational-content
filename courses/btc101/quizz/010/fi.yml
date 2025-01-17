@@ -5,5 +5,7 @@ wrong_answers:
   - Sitä käytetään Bitcoinin hinnan säätelyyn.
   - Sitä käytetään Bitcoin-protokollan hallintaan.
 explanation: |
-  Jokapäiväisessä elämässä ihmiset käyttävät Bitcoin-yksikköä tavaroiden ja palveluiden ostamiseen ja myymiseen. Se nojaa Bitcoin-protokollaan toimiakseen.
-reviewed: false
+  Jokapäiväisessä elämässä ihmiset käyttävät Bitcoin-yksikköä tavaroiden ja
+  palveluiden ostamiseen ja myymiseen. Jotta sitä voidaan käyttää, yksikkö
+  tarvitsee Bitcoin-protokollaa.
+reviewed: true

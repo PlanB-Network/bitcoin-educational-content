@@ -1,0 +1,12 @@
+question: Apa perbedaan mendasar antara Kenaikan Harga dan Inflasi?
+answer: Kenaikan harga bisa spesifik pada sektor tertentu dan dipicu oleh berbagai faktor, sementara inflasi didefinisikan oleh peningkatan harga yang umum di berbagai barang dan jasa.
+wrong_answers:
+  - Kenaikan harga adalah peningkatan harga yang umum di berbagai barang dan jasa, sementara inflasi spesifik pada sektor tertentu dan dipicu oleh berbagai faktor.
+  - Kenaikan harga dan inflasi sama, keduanya merujuk pada peningkatan harga yang umum di berbagai barang dan jasa.
+  - Kenaikan harga merujuk pada penurunan harga, sementara inflasi merujuk pada peningkatan harga.
+explanation: |
+  Bab ini menjelaskan bahwa kenaikan harga bisa spesifik pada sektor tertentu dan
+  dipicu oleh berbagai faktor seperti penurunan produksi OPEC untuk minyak atau kondisi cuaca
+  yang tidak menguntungkan untuk gandum. Di sisi lain, inflasi didefinisikan oleh peningkatan
+  harga yang umum di berbagai barang dan jasa, tidak hanya di sektor tertentu.
+reviewed: false

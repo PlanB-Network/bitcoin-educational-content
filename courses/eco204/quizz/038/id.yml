@@ -1,0 +1,12 @@
+question: Apa istilah untuk perusahaan yang terus beroperasi terutama melalui
+  peminjaman berbiaya rendah, meskipun dalam keadaan bangkrut atau hampir bangkrut di bawah kondisi pasar normal?
+answer: Perusahaan zombie
+wrong_answers:
+  - Perusahaan hantu
+  - Perusahaan vampir
+  - Perusahaan siluman
+explanation: |
+  Perusahaan zombie adalah perusahaan yang, di bawah kondisi pasar normal, akan
+  bangkrut atau hampir bangkrut, tetapi terus beroperasi terutama melalui peminjaman
+  berbiaya rendah.
+reviewed: false

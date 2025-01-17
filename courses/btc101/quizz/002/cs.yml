@@ -5,6 +5,8 @@ wrong_answers:
   - Technologie, která nemá žádný vliv na transakce s Bitcoinem.
   - Technologie, která činí transakce s Bitcoinem méně bezpečnými.
 explanation: |
-  Lightning Network je technologie, která může zlepšit transakce s Bitcoinem,
-  činí je rychlejšími a efektivnějšími. Jedná se o pokus vyřešit problém škálovatelnosti, kterému Bitcoin čelí.
+  Lightning Network je technologie, která zlepšuje
+  použitelnost Bitcoinu pro každodenní transakce, činí je
+  rychlejšími a efektivnějšími za účelem řešení problému
+  škálovatelnosti Bitcoinu.
 reviewed: true

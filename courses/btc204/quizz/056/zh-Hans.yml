@@ -1,0 +1,13 @@
+question: 地址是如何用来锁定UTXO的？
+
+answer: 它们被集成到ScriptPubKey中
+
+wrong_answers:
+  - 它们被集成到ScriptSig中
+  - 它们被集成到coinbase中。
+  - 它们没有被集成到任何地方。
+
+explanation: |
+  当进行支付时，交易从作为输入的UTXO中创建一个新的UTXO作为输出。在这个输出上，放置了一个脚本，定义了这个UTXO以后如何被花费。这个脚本被称为ScriptPubKey。接收地址被集成到这个脚本中。
+
+reviewed: false

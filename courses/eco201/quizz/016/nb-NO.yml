@@ -1,0 +1,10 @@
+question: Hva er konseptet med synkende grensenytte?
+answer: Hvert tilleggsenhet av en vare er mindre ønsket enn den forrige.
+wrong_answers:
+  - Hvert tilleggsenhet av en vare er mer ønsket enn den forrige.
+  - Hvert tilleggsenhet av en vare er like ønsket som den forrige.
+  - Ønsket for hver tilleggsenhet av en vare svinger uforutsigbart.
+explanation: |
+  Konseptet med synkende grensenytte sier at hver tilleggsenhet
+  av en vare er mindre ønsket enn den forrige. Dette er fordi når en person
+  skaffer seg mer av en vare, gir hver tilleggsenhet av den varen mindre nytte.

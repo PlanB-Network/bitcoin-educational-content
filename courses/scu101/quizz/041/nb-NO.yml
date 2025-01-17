@@ -1,0 +1,12 @@
+question: Hva er fordelen med å bruke en selvhostet passordbehandler som Bitwarden eller KeePass?
+answer: Du kan kontrollere hvor passordene dine lagres, noe som tilbyr mer sikkerhet og kontroll.
+wrong_answers:
+  - De er enklere å bruke enn tjenester fra tredjeparter.
+  - De tilbyr flere funksjoner enn tjenester fra tredjeparter.
+  - De er billigere enn tjenester fra tredjeparter.
+explanation: |
+  Selvhostede passordbehandlere som Bitwarden eller KeePass lar deg
+
+  kontrollere hvor passordene dine lagres, noe som potensielt tilbyr mer sikkerhet og
+
+  kontroll. De kan imidlertid kreve mer teknisk kunnskap for å bruke.

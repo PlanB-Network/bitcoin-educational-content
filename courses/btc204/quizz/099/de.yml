@@ -1,0 +1,13 @@
+question: Was misst der retrospektive Anonset?
+
+answer: Der Widerstand der Privatsphäre gegen eine Analyse von der Gegenwart in die Vergangenheit.
+
+wrong_answers:
+  - Der Widerstand der Privatsphäre gegen eine Analyse von der Vergangenheit in die Zukunft.
+  - Der Widerstand der Privatsphäre gegen eine Analyse von der Gegenwart in die Zukunft.
+  - Der Widerstand der Privatsphäre gegen eine Analyse von der Vergangenheit in die Gegenwart.
+
+explanation: |
+  Der retrospektive Anonset misst den Widerstand der Privatsphäre eines Coins gegen eine Analyse von der Gegenwart in die Vergangenheit (Ausgabe zu Eingabe).
+
+reviewed: false

@@ -16,7 +16,7 @@ _Hướng dẫn này được cung cấp chỉ dành cho mục đích giáo dụ
 
 Trong một hướng dẫn trước đây, chúng tôi đã giải thích quy trình cài đặt và sử dụng RoninDojo v1. Tuy nhiên, trong năm qua, các đội ngũ RoninDojo đã ra mắt phiên bản 2 của họ, đánh dấu một bước ngoặt quan trọng trong kiến trúc phần mềm. Thực tế, họ đã chuyển từ phân phối Linux Manjaro sang Debian. Do đó, họ không còn cung cấp hình ảnh được cấu hình sẵn cho việc cài đặt tự động trên Raspberry Pi. Nhưng vẫn còn một phương pháp để tiến hành cài đặt thủ công. Đây là phương pháp tôi đã sử dụng cho node của mình, và từ đó, RoninDojo v2 đã hoạt động tuyệt vời trên Raspberry Pi 4 của tôi. Vì vậy, tôi đang cung cấp một hướng dẫn mới về cách cài đặt thủ công RoninDojo v2 trên Raspberry Pi.
 
-https://planb.network/tutorials/node/ronin-dojo
+https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -323,14 +323,14 @@ Một hướng dẫn chi tiết đang được chuẩn bị để hướng dẫn
 
 Để hiểu sâu hơn về trộn coin và cách sử dụng nó trên Bitcoin, tôi cũng mời bạn tham khảo bài viết khác: Hiểu và sử dụng trộn coin trên Bitcoin - Understanding and using coinjoin on Bitcoin, nơi tôi chi tiết hoá mọi thứ bạn cần biết về kỹ thuật này.
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 ### Sử dụng công cụ Whirlpool Stat Tool (WST)
 
 Sau khi thực hiện trộn coin với Whirlpool, việc đánh giá chính xác mức độ riêng tư đạt được cho các UTXO đã trộn của bạn là điều rất hữu ích. Để làm điều này, bạn có thể sử dụng công cụ Python *Whirlpool Stat Tool*. Công cụ này cho phép bạn đo cả điểm số tương lai (prospective) và hồi tưởng (retrospective) của các UTXO của bạn, trong khi phân tích tốc độ khuếch tán của chúng trong pool.
 
 Để hiểu sâu hơn về cơ chế tính toán của các tập hợp ẩn danh này, tôi khuyên bạn đọc bài viết: REMIX - WHIRLPOOL, chi tiết về cách hoạt động của các chỉ số này.
 
-https://planb.network/tutorials/privacy/remix-whirlpool
+https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

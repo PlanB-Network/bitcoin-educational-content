@@ -1,9 +1,12 @@
 question: Milton Friedman đã dự đoán điều gì vào năm 1999?
-answer: Sự phát triển của một loại tiền điện tử đáng tin cậy
+answer: Sự phát triển của một loại e-cash đáng tin cậy.
 wrong_answers:
-  - Sự sụp đổ của tiền mặt vật lý
-  - Sự nổi lên của Bitcoin
-  - Sự kết thúc của sự kiểm soát tiền tệ bởi chính phủ
-explanation: >-
-  Milton Friedman, một nhà kinh tế học nổi tiếng, đã dự đoán vào năm 1999 rằng một loại tiền điện tử đáng tin cậy sẽ sớm được phát triển, một phương thức mà qua đó trên Internet bạn có thể chuyển tiền từ A đến B mà không cần A biết B hoặc B biết A.
-reviewed: false
+  - Sự kết thúc của tiền mặt vật lý.
+  - Sự nổi lên của Bitcoin.
+  - Sự kết thúc của sự kiểm soát tiền tệ bởi chính phủ.
+explanation: |
+  Milton Friedman, một nhà kinh tế học nổi tiếng, đã dự đoán vào năm 1999
+  rằng một loại e-cash đáng tin cậy sẽ sớm được phát triển, một phương thức
+  mà qua đó trên Internet bạn có thể chuyển tiền từ A sang B,
+  mà không cần A biết B hoặc ngược lại.
+reviewed: true

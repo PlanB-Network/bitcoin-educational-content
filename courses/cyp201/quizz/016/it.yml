@@ -1,9 +1,9 @@
-question: Qual è lo scopo della seconda fase di preprocessing in SHA256?
-answer: Aggiungere la rappresentazione binaria della dimensione iniziale del messaggio, in bit
+question: Quale algoritmo di firma è stato introdotto in Bitcoin con Taproot?
+answer: Schema di firma Schnorr
 wrong_answers:
-  - Aggiungere bit di padding all'input
-  - Separare l'input in diversi blocchi di messaggi di 512 bit
-  - Eseguire 64 round di calcolo nella funzione di compressione
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  La seconda fase di preprocessing in SHA256 prevede l'aggiunta della rappresentazione binaria della dimensione iniziale del messaggio, in bit. Ciò viene fatto utilizzando i 64 bit riservati dal passaggio precedente.
+  Lo schema di firma Schnorr è stato introdotto nel novembre 2021 con l'aggiornamento Taproot.
 reviewed: false

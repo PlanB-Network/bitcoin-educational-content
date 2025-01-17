@@ -1,0 +1,11 @@
+question: Hva er betydningen av antall bekreftelser i en Bitcoin-transaksjon?
+answer: Jo flere bekreftelser en transaksjon har, desto mer uforanderlig blir den.
+wrong_answers:
+  - Jo flere bekreftelser en transaksjon har, desto mer verdifull blir den.
+  - Jo flere bekreftelser en transaksjon har, desto raskere blir den behandlet.
+  - Jo flere bekreftelser en transaksjon har, desto mindre sikker er den.
+explanation: >-
+  Antall bekreftelser i en Bitcoin-transaksjon indikerer hvor mange
+  blokker som har blitt minet på toppen av blokken som inneholder transaksjonen. Jo flere
+  bekreftelser en transaksjon har, desto mer uforanderlig blir den.
+reviewed: false

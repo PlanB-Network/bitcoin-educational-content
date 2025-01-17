@@ -48,7 +48,7 @@ Khi mở ứng dụng lần đầu, bạn được lựa chọn giữa:
 
 Dojo, được phát triển bởi nhóm Samourai, là phiên bản node Bitcoin đầy đủ có thể được cài đặt độc lập hoặc thêm vào giải pháp node-in-box chỉ với một cú nhấp chuột như [Umbrel](https://umbrel.com/) và [RoninDojo](https://ronindojo.io/).
 
-[**-> Tìm hiểu cách cài đặt RoninDojo v2 trên Raspberry Pi.**](https://planb.network/en/tutorials/node/ronin-dojo-v2)
+[**-> Tìm hiểu cách cài đặt RoninDojo v2 trên Raspberry Pi.**](https://planb.network/fr/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 Nếu bạn có Dojo của riêng mình, bạn có thể kết nối với nó ở giai đoạn này. Bằng cách này, bạn sẽ được hưởng mức độ riêng tư cao nhất khi kiểm tra thông tin giao dịch của mình trên mạng Bitcoin.
 
@@ -147,3 +147,5 @@ Bạn có tùy chọn nhập PSBT đã ký của mình theo ba cách khác nhau:
 Một khi giao dịch đã ký được nhập vào khung màu xám, bạn có thể nhấp vào nút màu xanh `PHÁT SÓNG GIAO DỊCH - BROADCAST TRANSACTION` để phát sóng nó trên mạng lưới Bitcoin. Sentinel sẽ cung cấp cho bạn TXID của nó.
 
 ![watch-only](assets/notext/25.webp)
+
+

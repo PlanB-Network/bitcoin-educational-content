@@ -1,11 +1,11 @@
-question: Mikä on standardimenetelmä Bitcoin-lompakon yksityisavaimen varmuuskopioimiseen?
-answer: Mnemonisen lauseen syöttäminen mihin tahansa lompakko-ohjelmistoon
+question: Mikä on standardimenetelmä lompakkosi palauttamiseen?
+answer: Mnemonisen fraasin syöttäminen mihin tahansa lompakko-ohjelmistoon.
 wrong_answers:
-  - Mnemonisen lauseen tallentaminen digitaaliseen tiedostoon
-  - Mnemonisen lauseen kirjoittaminen valkotaululle
-  - Mnemonisen lauseen jakaminen luotetun ystävän kanssa
+  - Mnemonisen fraasin tallentaminen digitaaliseen tiedostoon.
+  - Mnemonisen fraasin kirjoittaminen valkotaululle.
+  - Mnemonisen fraasin jakaminen luotetun ystävän kanssa.
 explanation: |
-  Standardimenetelmä Bitcoin-lompakon yksityisavaimen varmuuskopioimiseen
-  on mnemonisen lauseen syöttäminen mihin tahansa lompakko-ohjelmistoon. Tämä mahdollistaa
-  lompakkosi palauttamisen.
+  Standardimenetelmä yksityisen avaimen varmuuskopioimiseksi
+  Bitcoin-lompakossa on syöttämällä mnemoninen fraasisi mihin tahansa
+  lompakko-ohjelmistoon. Tämä mahdollistaa lompakkosi palauttamisen.
 reviewed: false

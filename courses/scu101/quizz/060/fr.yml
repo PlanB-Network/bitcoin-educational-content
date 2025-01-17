@@ -5,5 +5,6 @@ wrong_answers:
   - La météo
   - Les actualités
 explanation: |
-  Le chapitre mentionne que l'évolution constante des menaces en cybersécurité nécessite une surveillance régulière.
-reviewed: false
+  Le chapitre mentionne que l'évolution constante des menaces
+  en cybersécurité nécessite une surveillance régulière.
+reviewed: true

@@ -1,9 +1,11 @@
-question: Welche Rolle spielt ein Notar im Zusammenhang mit der Vererbung von Bitcoin?
-answer: Um die Steuerkonformität sicherzustellen
+question: Was ist die Rolle eines Notars im Kontext der Bitcoin-Erbschaft?
+answer: Sie gewährleisten die Steuerkonformität.
 wrong_answers:
-  - Um Ihre Bitcoins nach Ihrem Tod zu verwalten
-  - Um Ihren Vererbungsplan zu erstellen
-  - Um Ihre Bitcoins zu sichern
+  - Sie verwalten Ihre Bitcoins nach Ihrem Tod.
+  - Sie ändern Ihren Erbschaftsplan.
+  - Sie sichern Ihre Bitcoins in einem Safe.
 explanation: |
-  Im Zusammenhang mit der Vererbung von Bitcoin ist es wichtig, die Vererbung von Bitcoins mit einem Notar zu besprechen, um die Steuerkonformität sicherzustellen.
+  Im Kontext der Bitcoin-Erbschaft ist es wichtig,
+  die Erbschaft von Bitcoins mit einem Notar zu besprechen, um
+  die Steuerkonformität zu gewährleisten.
 reviewed: false

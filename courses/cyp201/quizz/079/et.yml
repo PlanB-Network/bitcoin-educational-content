@@ -1,0 +1,8 @@
+question: Mis on väljundskripti kirjeldajate peamine funktsioon?
+answer: Täielikult kirjeldada väljundskripti ja pakkuda vajalikku teavet rahakoti taastamiseks
+wrong_answers:
+  - Automaatselt genereerida multisignatuuriga aadresse
+  - Asendada mnemooniline fraas rahakoti varukoopiates
+  - Lihtsustada digitaalsete allkirjade arvutusi
+explanation: |
+  Kirjeldajad hõlmavad kogu vajalikku teavet konkreetse skripti jälgimiseks, sealhulgas tuletamistee ja kasutatud võtmed, kuid mitte taastefraasi.

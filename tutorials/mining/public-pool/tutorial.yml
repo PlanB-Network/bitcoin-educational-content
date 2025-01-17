@@ -22,3 +22,68 @@ proofreading:
       - Asi0Flammeus
     reward: 2219
 
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6376
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4438
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8314
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6376
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7345
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6376
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6376
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4438
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4438
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5407
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7345
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5407
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8314

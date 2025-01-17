@@ -1,0 +1,11 @@
+question: Hva er en av de viktigste fordelene med Bitcoin for folk uten bankkonto?
+answer: Bitcoin muliggjør likhet i transaksjoner, uavhengig av din sosiale status eller politiske posisjon.
+wrong_answers:
+  - Bitcoin muliggjør ulikhet i transaksjoner.
+  - Bitcoin gagner kun folk med bankkonto.
+  - Bitcoin gagner kun folk med høy sosial status.
+explanation: >-
+  Teksten nevner at det er 2,4 milliarder mennesker i verden uten
+  bankkonto, og Bitcoin muliggjør likhet i transaksjoner, uavhengig av din
+  sosiale status eller politiske posisjon.
+reviewed: false

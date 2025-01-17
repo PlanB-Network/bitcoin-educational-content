@@ -1,9 +1,9 @@
 question: Quem é agradecido por produzir o curso?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
   - Descoupes Bitcoin
-  - "Théo Boloré"
+  - Théo Boloré
   - Nenhum dos acima
 explanation: |
-  "O capítulo menciona que Théo é agradecido por produzir o curso."
+  O capítulo menciona que Théo é agradecido por produzir o curso.
 reviewed: false

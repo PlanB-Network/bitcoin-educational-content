@@ -1,9 +1,9 @@
-question: Wer sind die beiden Peers, die am Lightning Network-Transfer im Beispiel beteiligt sind?
-answer: Alice und Bob.
+question: Was kann Bob tun, wenn er einen Versuch von Alice entdeckt, während des Kanalschlusses zu betrügen?
+answer: Den Widerrufsschlüssel verwenden, um alle Gelder zurückzuholen
 wrong_answers:
-  - Alice und Charlie.
-  - Bob und Charlie.
-  - Alice und das Bitcoin-Netzwerk.
+  - Alices Commitment-Transaktion abbrechen
+  - Den Kanal dauerhaft schließen ohne die Möglichkeit, ihn wieder zu öffnen
+  - Nur die Hälfte der verfügbaren Gelder beanspruchen
 explanation: |
-  Im Beispiel sind Alice und Bob die beiden Peers, die am Lightning Network-Transfer beteiligt sind.
+  Im Falle eines Betrugs kann Bob den Widerrufsschlüssel verwenden, um alle Gelder aus dem Kanal zurückzuholen und somit Alice für ihren Versuch zu bestrafen.
 reviewed: false

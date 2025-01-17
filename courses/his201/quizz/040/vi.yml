@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto đã khai thác tổng cộng bao nhiêu bitcoin (ước lượng)?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   1,122,693 bitcoin theo một nghiên cứu của Whale Alert công bố vào năm 2020. Satoshi đã ngừng hoạt động khai thác vào tháng 5 năm 2010.
+reviewed: false

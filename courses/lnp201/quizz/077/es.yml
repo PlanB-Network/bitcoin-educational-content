@@ -1,9 +1,0 @@
-question: ¿Qué significa 'ln' en 'lnbc1m' en una factura de la Red Lightning?
-answer: Lightning
-wrong_answers:
-  - Litecoin
-  - Ledger Nano
-  - Número largo
-explanation: |
-  En una factura de la Red Lightning, 'ln' significa Lightning, refiriéndose a la Red Lightning, una solución de capa 2 para Bitcoin que permite transacciones rápidas y de bajo costo.
-reviewed: false

@@ -1,11 +1,12 @@
 question: Cosa dovresti fare una volta scritte le parole della tua frase mnemonica?
-answer: Fare una seconda copia e conservarla in un luogo separato
+answer: Fare una seconda copia e conservarla in un luogo separato.
 wrong_answers:
-  - Condividerla con un amico di fiducia
-  - Inviarla a te stesso via email
-  - Conservarla sul tuo telefono
+  - Condividerla con un amico di fiducia.
+  - Inviarla a te stesso via email.
+  - Conservarla nel tuo telefono.
 explanation: |
-  Una volta scritte le parole della tua frase mnemonica, si raccomanda
-  di fare una seconda copia e conservarla in un luogo separato rispetto alla prima. Questo fornisce
-  una copia di backup in caso di perdita o incidente con la prima copia.
-reviewed: false
+  Una volta scritte le parole della tua frase mnemonica, si
+  raccomanda di fare una seconda copia e di conservarla in un
+  luogo separato rispetto alla prima. Questo fornisce una copia di sicurezza
+  in caso di perdita o incidente con la prima copia.
+reviewed: vero

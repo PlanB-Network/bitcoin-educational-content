@@ -1,9 +1,9 @@
-question: Jaká je velikost blockchainu Bitcoinu?
-answer: Přibližně 500GB
+question: Jaká je aktuální velikost Bitcoin blockchainu?
+answer: Přibližně 500GB.
 wrong_answers:
-  - Přibližně 100GB
-  - Přibližně 1TB
-  - Přibližně 2TB
-explanation: >-
-  Velikost blockchainu Bitcoinu je přibližně 500GB.
-reviewed: false
+  - Přibližně 100GB.
+  - Přibližně 1TB.
+  - Přibližně 2TB.
+explanation: |
+  Velikost Bitcoin blockchainu je k roku 2023 přibližně 500GB.
+reviewed: true

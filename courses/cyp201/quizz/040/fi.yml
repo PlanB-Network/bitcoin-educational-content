@@ -1,9 +1,8 @@
-question: Mikä on merkitys käyttää ainutlaatuista nonce-arvoa ECDSA-algoritmissa?
-answer: Se auttaa välttämään turvallisuushyökkäyksiä.
+question: Miksi on riskialtista luoda entropiaa manuaalisesti HD-lompakolle?
+answer: Se voi tuoda mukanaan inhimillisiä heikkouksia tai ennustettavia vinoumia
 wrong_answers:
-  - Se lisää algoritmin nopeutta.
-  - Se vähentää laskennallista monimutkaisuutta.
-  - Se on vaadittu, jotta algoritmi toimisi.
+  - Se johtaa virheellisiin julkisiin avaimiin
+  - Se estää yksityisten avainten johdannan
+  - Se rajoittaa luotujen mnemonisten fraasien kokoa
 explanation: |
-  Ainutlaatuisen nonce-arvon käyttö ECDSA-algoritmissa on ratkaisevan tärkeää turvallisuuden ylläpitämiseksi. Nonce-arvon uudelleenkäyttö voi johtaa haavoittuvuuksiin, kuten PlayStation 3 -hakkerointi osoitti, joka kompromisoitiin nonce-arvon uudelleenkäytön vuoksi.
-reviewed: false
+  Entropian manuaalinen luominen voi tuoda mukanaan vinoumia tai virheitä, mikä tekee avaimista haavoittuvampia hyökkäyksille.

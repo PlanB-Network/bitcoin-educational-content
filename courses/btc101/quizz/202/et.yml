@@ -1,0 +1,9 @@
+question: Mis on üks viisidest saada Bitcoine ilma KYC-ta?
+answer: Bitcoin'i automaadid.
+wrong_answers:
+  - Maaklerplatvormid.
+  - DCA platvormid.
+  - Pangatehingud.
+explanation: >-
+  Tekstis mainitakse, et on mitmeid viise saada Bitcoine ilma KYC-ta, millest üks on Bitcoin'i automaadid.
+reviewed: false

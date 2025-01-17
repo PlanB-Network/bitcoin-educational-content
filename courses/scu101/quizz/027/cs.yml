@@ -1,10 +1,12 @@
-question: Jaký je hlavní důvod pro neplatbu hackerům v případě ransomwaru nebo jiných typů útoků?
-answer: Platba výkupného nezaručuje obnovení vašich dat a může podněcovat kyberzločince k pokračování v jejich škodlivých aktivitách.
+question: Jaký je hlavní důvod, proč neplatit hackery v případě ransomwaru nebo jiných typů útoků?
+answer: Platba výkupného nezaručuje obnovu vašich dat a může podněcovat kyberzločince k pokračování v jejich škodlivých aktivitách.
 wrong_answers:
-  - Je nezákonné platit hackerům.
-  - Hackeři požadují více peněz po počáteční platbě.
-  - Způsob platby je obvykle nevystopovatelný.
+  - Platba výkupného je nezákonná a může podněcovat kyberzločince k pokračování v jejich škodlivých aktivitách.
+  - Platba výkupného nezaručuje obnovu vašich dat a může podněcovat hackery k požadování dalších peněz po počáteční platbě.
+  - Platba výkupného může podněcovat kyberzločince k pokračování v jejich škodlivých aktivitách, protože způsob platby je obvykle nevystopovatelný.
 explanation: |
-  Platba výkupného nezaručuje, že získáte svá data zpět.
-  Navíc to podněcuje kyberzločince k pokračování v jejich škodlivých aktivitách, jelikož to vidí jako výnosný podnik.
-reviewed: false
+  Platba výkupného nezaručuje, že získáte vaše
+  data zpět. Navíc to podněcuje kyberzločince
+  k pokračování v jejich škodlivých aktivitách, protože to vidí jako
+  ziskový podnik.
+reviewed: true

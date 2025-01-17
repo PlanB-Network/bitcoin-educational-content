@@ -1,0 +1,13 @@
+question: Hvordan gagner Bitcoin enkeltpersoner i krigsherjede eller ustabile land?
+answer: Det muliggjør lagring av verdi på en desentralisert og sikker måte som har større motstand mot tyveri
+wrong_answers:
+  - Det gir tilgang til tradisjonelle banktjenester
+  - Det gir et fysisk aktivum som kan øke i verdi
+  - Det tilbyr beskyttelse mot deflasjon
+explanation: |
+  I krigsherjede eller ustabile land kan enkeltpersoner slite med å
+  få tilgang til tradisjonelle banktjenester eller stå overfor risikoen for tyveri eller
+  konfiskering av fysiske eiendeler. Bitcoin lar enkeltpersoner lagre verdi
+  på en desentralisert og sikker måte uten behov for mellommenn
+  eller fysiske eiendeler som er sårbare for risikoer som inflasjon, tyveri eller konfiskering.
+reviewed: true

@@ -1,0 +1,22 @@
+name: Nunchuk
+
+links:
+  website: https://nunchuk.io/
+  twitter: https://x.com/nunchuk_io
+  github: https://github.com/nunchuk-io
+
+tags:
+  - wallets
+  - software
+
+category: wallet
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-12-11
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

@@ -1,9 +1,11 @@
 question: Ai là người đầu tiên tham gia mạng Bitcoin sau Satoshi Nakamoto?
-answer: Hal Finney
+answer: Hal Finney.
 wrong_answers:
-  - Laszlo Hanyecz
-  - Phil Champagne
-  - Rogzy
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Hal Finney là người đầu tiên tham gia mạng Bitcoin sau chính Satoshi Nakamoto. Ông thậm chí đã tweet "Running Bitcoin" để đánh dấu sự kiện này.
+  Hal Finney là người đầu tiên tham gia mạng Bitcoin
+  sau chính Satoshi Nakamoto. Ông thậm chí đã tweet Đang chạy
+  Bitcoin để đánh dấu sự kiện này.
 reviewed: true

@@ -1,0 +1,9 @@
+question: What is the main characteristic of a cryptographic hash function?
+answer: It produces a fixed-length output for any input, regardless of its size.
+wrong_answers:
+  - It encrypts data using a symmetric key.
+  - It produces a variable output depending on the length of the input.
+  - It decrypts messages using a public key.
+explanation: |
+  A hash function generates a fixed-length hash, no matter the size of the input.
+reviewed: false

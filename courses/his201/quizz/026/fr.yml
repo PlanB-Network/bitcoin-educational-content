@@ -5,5 +5,5 @@ wrong_answers:
   - La vérification de paiement simplifiée
   - La chaîne de blocs
 explanation: |
-  La politique monétaire initiale correspondait à une émission constante (X BTC/bloc) comme l'indique la première version du livre blanc et les [échanges](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) de Satoshi avec Ray Dillinger.
+  La politique monétaire initiale correspondait à une émission constante (X BTC/bloc) comme l'indique la première version du livre blanc et les [échanges](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) de Satoshi avec Ray Dillinger.
 reviewed: false

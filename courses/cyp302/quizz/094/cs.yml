@@ -1,0 +1,9 @@
+question: Jaký je hlavní zdroj zmatku mezi termíny bloková šifra a proudová šifra?
+answer: Blokové šifry jsou někdy chápány výhradně jako algoritmy používající blokové módy jako ECB nebo CBC.
+wrong_answers:
+  - Proudové šifry jsou vždy méně bezpečné než blokové šifry.
+  - Blokové šifry pracují vždy po jednom bitu.
+  - Proudové šifry vždy vyžadují doplnění.
+explanation: |
+  Zmatek vzniká z toho, že někteří považují blokové šifry pouze za algoritmy používající specifické blokové módy, zatímco ve skutečnosti mohou zahrnovat šifrovací schémata jako je mód OFB.
+reviewed: false

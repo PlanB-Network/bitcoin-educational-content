@@ -1,0 +1,8 @@
+question: Lõplikus grupis, milline termin viitab elementide arvule grupis?
+answer: Grupi järk
+wrong_answers:
+  - Grupi maht
+  - Grupi pikkus
+  - Grupi aste
+explanation: |
+  Grupi järk on koguarv elemente, mida see sisaldab.

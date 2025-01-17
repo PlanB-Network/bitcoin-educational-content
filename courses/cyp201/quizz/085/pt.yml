@@ -1,9 +1,8 @@
-question: Por que o algoritmo HMAC SHA-512 é usado na criação da chave privada mestra e do código de cadeia mestra?
-answer: Porque a função SHA-512 não foi inicialmente implementada no protocolo Bitcoin.
+question: Qual operação é necessária para calcular uma chave pública Taproot Q?
+answer: Adicionar o ajuste tG à chave pública P
 wrong_answers:
-  - Porque é o único algoritmo que pode gerar um número de 512 bits.
-  - Porque é o algoritmo mais seguro.
-  - Porque é o algoritmo mais fácil de usar.
+  - Multiplicar a chave privada p pelo ajuste
+  - Fazer o hash da chave pública P com SHA256
+  - Concatenar o ajuste t e a chave pública P
 explanation: |
-  Inicialmente, a função SHA-512 não foi implementada no protocolo Bitcoin, por isso o HMAC SHA-512 é usado. Esse algoritmo requer uma mensagem e uma chave para gerar um resultado.
-reviewed: false
+  A chave pública Taproot Q é obtida adicionando o produto escalar do ajuste t pelo gerador G à chave pública P.

@@ -1,9 +1,13 @@
-question: Quelle était la première forme de monnaie souvent liée à quoi?
-answer: Des biens essentiels tels que des céréales, du bétail et d'autres produits de base
+question: Quelles étaient les premières formes de monnaie ?
+answer: Des biens tels que les céréales et le bétail.
 wrong_answers:
-  - Or et argent
-  - Billets de papier
-  - Actifs numériques
+  - L'or et l'argent.
+  - Les billets de banque.
+  - Les actifs numériques.
 explanation: |
-  La première forme de monnaie était souvent liée à des biens essentiels tels que des céréales, du bétail et d'autres produits de base. Cependant, ces biens présentaient des inconvénients majeurs, tels que leur périssabilité, ce qui rendait difficile leur utilisation en tant que moyen d'épargne à long terme.
-reviewed: false
+  Les premières formes de monnaie étaient souvent liées à des
+  biens essentiels tels que les céréales, le bétail et d'autres
+  marchandises. Cependant, ces biens présentaient des inconvénients
+  majeurs, tels que la périssabilité, rendant difficile leur
+  utilisation comme moyen d'épargne à long terme.
+reviewed: true

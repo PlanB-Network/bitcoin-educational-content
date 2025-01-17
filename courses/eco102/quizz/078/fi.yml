@@ -1,0 +1,9 @@
+question: Mikä on yksilön vastuun rooli sosiaalisessa edistyksessä Bastiat'n mukaan?
+answer: Se kannustaa yksilöitä olemaan varovaisia ja ennakoivia
+wrong_answers:
+  - Se kannustaa kilpailuun yksilöiden välillä
+  - Se sallii valtion tehdä päätöksiä kaikkien hyväksi
+  - Se rajoittaa mahdollisuuksia henkilökohtaiseen kasvuun
+explanation: |
+  Bastiat väittää, että yksilön vastuu johtaa varovaisuuteen ja ennakoivuuteen, koska jokaisen on kannettava tekojensa seuraukset, mikä kannustaa harkitumpaan ja vastuullisempaan käyttäytymiseen.
+reviewed: false

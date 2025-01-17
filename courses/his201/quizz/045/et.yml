@@ -1,0 +1,9 @@
+question: Mis on veebilehe nimi, mis oluliselt aitas kaasa Bitcoini tuntuse kasvule juulis 2010?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  11. juulil 2010 avaldati sellel populaarsel saidil Teppy poolt kirjutatud Bitcoini tutvustus, mis tõi kaasa massilise kasutajate juurdevoolu.
+reviewed: false

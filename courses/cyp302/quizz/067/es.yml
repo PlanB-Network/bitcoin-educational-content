@@ -1,0 +1,8 @@
+question: ¿Qué sucede si un atacante intercepta un mensaje cifrado en un buen esquema de cifrado simétrico?
+answer: No deberían aprender nada significativo sobre el mensaje original
+wrong_answers:
+  - Siempre pueden descifrar el mensaje sin la llave
+  - Deberían poder descifrarlo con una llave pública
+  - Deberían poder adivinar el contenido del mensaje
+explanation: |
+  En un esquema de cifrado simétrico bien diseñado, un atacante que intercepte un mensaje cifrado no debería ser capaz de deducir información relevante sobre el contenido del mensaje sin la llave de descifrado.

@@ -1,0 +1,6 @@
+description: |
+  Strike er en finansiell applikasjon som gjør det mulig for brukere å sende og motta penger øyeblikkelig, kjøpe og selge Bitcoin, og få betalt i Bitcoin.
+  
+  Applikasjonen tilbyr en enkel måte å kjøpe Bitcoin på, og unngår transaksjonsgebyrer. Strikes API brukes av bedrifter for å koble seg til et globalt, øyeblikkelig betalingsnettverk. Dette er gunstig for markedsplasser som muliggjør betalinger mellom kjøpere og selgere, og forhandlere som aksepterer betalinger fra kunder globalt. Strike tillater også grenseløse betalinger, som er øyeblikkelige og sikre, uten tilleggsgebyrer for transaksjonen. I tillegg kan brukere konvertere lønnsslippen sin til Bitcoin sømløst.
+contributors:
+  - rabbit-hole

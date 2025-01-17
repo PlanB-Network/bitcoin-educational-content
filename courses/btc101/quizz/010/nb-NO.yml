@@ -1,0 +1,10 @@
+question: Hva er rollen til bitcoin-enheten i hverdagslivet?
+answer: Den brukes til å kjøpe og selge varer og tjenester.
+wrong_answers:
+  - Den brukes til å utvinne nye bitcoins.
+  - Den brukes til å regulere prisen på Bitcoin.
+  - Den brukes til å kontrollere Bitcoin-protokollen.
+explanation: |
+  I hverdagslivet bruker folk Bitcoin-enheten til å kjøpe og selge varer og
+  tjenester. Den er avhengig av Bitcoin-protokollen for å fungere.
+reviewed: true

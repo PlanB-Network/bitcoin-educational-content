@@ -1,9 +1,9 @@
-question: Cosa rappresentano le costanti K nel processo di funzionamento della funzione SHA-256?
-answer: I primi 32 bit delle parti decimali delle radici cubiche dei primi 64 numeri primi.
+question: Qual è la funzione hash utilizzata da HMAC nel contesto di Bitcoin?
+answer: SHA512
 wrong_answers:
-  - I primi 32 bit delle parti decimali delle radici quadrate dei primi 64 numeri primi.
-  - I primi 32 bit delle parti decimali delle radici cubiche dei primi 8 numeri primi.
-  - I primi 32 bit delle parti decimali delle radici quadrate dei primi 8 numeri primi.
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  Nel processo di funzionamento della funzione SHA-256, le costanti K, da 0 a 63, rappresentano i primi 32 bit delle parti decimali delle radici cubiche dei primi 64 numeri primi. Questi vengono utilizzati come ingredienti di base nella ricetta crittografica.
+  HMAC utilizza SHA512 per produrre un hash sicuro di 512 bit.
 reviewed: false

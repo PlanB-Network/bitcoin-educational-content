@@ -1,9 +1,0 @@
-question: Welcher Algorithmus wird zur Generierung eines öffentlichen Schlüssels verwendet?
-answer: ECDSA (Elliptic Curve Digital Signature Algorithm)
-wrong_answers:
-  - "RSA (Rivest–Shamir–Adleman)"
-  - SHA-256 (Secure Hash Algorithm 256)
-  - AES (Advanced Encryption Standard)
-explanation: |
-  Ein öffentlicher Schlüssel wird mithilfe des ECDSA (Elliptic Curve Digital Signature Algorithm) Algorithmus generiert.
-reviewed: false

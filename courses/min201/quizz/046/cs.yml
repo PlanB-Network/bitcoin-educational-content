@@ -1,13 +1,9 @@
-question: Proč jsou vzdělání a informace považovány za nejmocnější zbraň proti možným restriktivním regulacím těžby Bitcoinu?
-answer: Jasné a přesné pochopení těžby může pomoci odhalit podstatu průmyslu a bojovat proti dezinformacím.
+question: Proč jsou vzdělání a informace považovány za nejmocnější zbraň proti potenciálním restriktivním regulacím těžby Bitcoinu?
+answer: Jasné a přesné pochopení těžby může pomoci odhalit pravdu o odvětví a bojovat proti dezinformacím.
 wrong_answers:
   - Protože to může pomoci těžařům najít způsoby, jak obejít regulace.
   - Protože to může pomoci přesvědčit regulátory, aby změnili svůj názor.
   - Protože to může pomoci těžařům lépe porozumět regulacím.
 explanation: |
-  Vzdělání a informace jsou považovány za nejmocnější zbraň proti
-  možným restriktivním regulacím těžby Bitcoinu, protože jasné a přesné
-  pochopení těžby, jak funguje a jaký má dopad, může pomoci odhalit podstatu průmyslu
-  a bojovat proti dezinformacím. To může nabídnout lepší odpor proti potenciálně škodlivým
-  regulacím.
-reviewed: false
+  Vzdělání a informace jsou považovány za nejmocnější zbraň proti potenciálním restriktivním regulacím těžby Bitcoinu, protože jasné a přesné pochopení těžby, jak funguje a jaký má dopad, může pomoci odhalit pravdu o odvětví a bojovat proti dezinformacím. To může nabídnout lepší odpor proti potenciálně škodlivým regulacím.
+reviewed: true

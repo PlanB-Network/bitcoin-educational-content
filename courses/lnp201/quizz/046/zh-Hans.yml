@@ -1,0 +1,8 @@
+question: 在 Lightning 发票中，人类可读部分的前缀 lnbc 代表什么意思？
+answer: 它表示一个在比特币区块链上的 Lightning 交易
+wrong_answers:
+  - 该发票仅在比特币测试网上有效
+  - 该发票采用 bech32 编码
+  - 这是一个链上交易
+explanation: |
+  前缀 lnbc 表明该发票是针对比特币网络上的 Lightning 交易，而不是其他网络上的。

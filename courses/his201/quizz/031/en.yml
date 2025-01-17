@@ -1,0 +1,9 @@
+question: Which digital currency system was Google engineer Mike Hearn interested in before discovering Bitcoin?
+answer: Ripple
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  It was on Ryan Fugger's project Google Group that he first heard about Bitcoin in April 2009. He immediately contacted Satoshi to ask questions.
+reviewed: false

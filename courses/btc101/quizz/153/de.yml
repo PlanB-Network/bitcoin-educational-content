@@ -4,6 +4,10 @@ wrong_answers:
   - Sie erhöht die Belohnung für das Mining.
   - Sie verringert die Anzahl der im Umlauf befindlichen Bitcoins.
   - Sie erhöht die Sicherheit des Bitcoin-Netzwerks.
-explanation: |
-  Die Schwierigkeitsanpassung beim Bitcoin-Mining ist darauf ausgelegt, sicherzustellen, dass die Zeit, die benötigt wird, um einen Block zu minen, ungefähr konstant bleibt, unabhängig von der Gesamtrechenleistung des Netzwerks. Sie passt die Schwierigkeit des mathematischen Problems an, das die Miner lösen müssen, basierend auf der Anzahl der am Netzwerk teilnehmenden Miner.
-reviewed: false
+explanation: >-
+  Die Schwierigkeitsanpassung beim Bitcoin-Mining soll sicherstellen, dass
+  die Zeit, die benötigt wird, um einen Block zu minen, ungefähr konstant bleibt, unabhängig von
+  der gesamten Rechenleistung des Netzwerks. Sie passt die Schwierigkeit des mathematischen
+  Problems, das Miner lösen müssen, basierend auf der Anzahl der Miner, die am
+  Netzwerk teilnehmen, an.
+reviewed: true

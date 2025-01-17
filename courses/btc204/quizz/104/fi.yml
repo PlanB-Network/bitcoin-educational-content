@@ -1,0 +1,13 @@
+question: Mikä on transaktion suurin entropia?
+
+answer: Korkein entropia, jonka transaktiorakenne voi saavuttaa.
+
+wrong_answers:
+  - Transaktiorakenteen saavuttama pienin entropia.
+  - Transaktion todellinen entropia.
+  - Transaktion tehokkuus.
+
+explanation: |
+  Suurin entropia viittaa korkeimpaan entropiaan, jonka tietty transaktiorakenne voi teoreettisesti saavuttaa.
+
+reviewed: false

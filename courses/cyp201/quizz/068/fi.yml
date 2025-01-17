@@ -1,9 +1,8 @@
-question: Miten sanojen määrä palautuslausekkeessa määräytyy luotaessa mnemonista lausetta Bitcoin-lompakkoa varten?
-answer: Se riippuu entropian koosta.
+question: Mikä on rajoite lapsen julkisen avaimen johdattamiselle vanhemman julkisesta avaimesta?
+answer: Lapsen avaimen tulee olla normaali
 wrong_answers:
-  - Se riippuu tarkistussumman koosta.
-  - Se on aina 24 sanaa.
-  - Se generoidaan satunnaisesti.
+  - Lapsen avaimen tulee olla vahvistettu
+  - Ketjukoodin tulee olla identtinen vanhemman avaimen kanssa
+  - Prosessin tulee sisältää vanhemman yksityinen avain
 explanation: |
-  Entropian koosta riippuen palautuslause koostuu 12 sanasta 128 bitin kohdalla, 15 sanasta 160 bitin kohdalla ja 24 sanasta 256 bitin kohdalla.
-reviewed: false
+  Lapsen julkinen avain voidaan johtaa vanhemman julkisesta avaimesta vain, jos se on normaali, ei vahvistettu.

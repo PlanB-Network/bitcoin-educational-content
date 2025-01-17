@@ -1,10 +1,11 @@
 question: Čemu je podobná adopční křivka Bitcoinu?
-answer: S-křivce
+answer: S-křivce.
 wrong_answers:
-  - U-křivce
-  - V-křivce
-  - W-křivce
+  - U-křivce.
+  - V-křivce.
+  - W-křivce.
 explanation: >-
   Adopce Bitcoinu, jako u jakékoli nové technologie, sleduje S-křivku.
   Jedná se o běžný vzor pro adopci nových technologií, kde adopce začíná
   pomalu, pak se zrychluje, než se zpomalí, jakmile je dosaženo nasycení.
+reviewed: true

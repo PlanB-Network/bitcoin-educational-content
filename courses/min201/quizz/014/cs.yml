@@ -1,9 +1,11 @@
 question: Jaké je potenciální riziko centralizace těžby u Bitcoinu?
-answer: Centralizace těžby u Bitcoinu může potenciálně vést k cenzurování transakcí a zvýšit zranitelnost sítě vůči útokům, včetně útoku 51%, kdy jeden účastník nebo skupina ovládá více než 50% výpočetní síly sítě, což jim umožňuje ovládat a manipulovat se sítí.
+answer: Centralizace těžby u Bitcoinu může potenciálně vést k cenzurování transakcí a zvýšit zranitelnost sítě vůči útokům, včetně 51% útoku, kdy aktér nebo skupina ovládá více než 50% výpočetní síly sítě, což jim umožňuje ovládat a manipulovat se sítí.
 wrong_answers:
   - Centralizace těžby u Bitcoinu může potenciálně vést k poklesu hodnoty Bitcoinu a zvýšit zranitelnost sítě vůči inflaci.
   - Centralizace těžby u Bitcoinu může potenciálně vést k poklesu odměny za blok a zvýšit zranitelnost sítě vůči stagnaci.
   - Centralizace těžby u Bitcoinu může potenciálně vést k poklesu rychlosti transakcí a zvýšit zranitelnost sítě vůči přetížení.
 explanation: |
-  Kapitola vysvětluje, že centralizace těžby u Bitcoinu může potenciálně vést k cenzurování transakcí a zvýšit zranitelnost sítě vůči útokům, včetně útoku 51%.
-reviewed: false
+  Kapitola vysvětluje, že centralizace těžby u Bitcoinu
+  může potenciálně vést k cenzurování transakcí a zvýšit
+  zranitelnost sítě vůči útokům, včetně 51% útoku.
+reviewed: true

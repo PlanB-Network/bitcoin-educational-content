@@ -1,11 +1,11 @@
-question: Qual é a principal característica de uma "blockchain" sem prova de trabalho?
+question: Qual é a principal característica de uma blockchain sem prova de trabalho?
 answer: Ela não tem valor real
 wrong_answers:
   - É mais segura
   - É mais rápida
   - É mais descentralizada
 explanation: |
-  O conteúdo do capítulo afirma que, sem prova de trabalho, uma "blockchain"
+  O conteúdo do capítulo afirma que, sem prova de trabalho, uma blockchain
   não tem valor real. Essa é uma característica fundamental que diferencia o Bitcoin de outras
   criptomoedas.
 reviewed: false

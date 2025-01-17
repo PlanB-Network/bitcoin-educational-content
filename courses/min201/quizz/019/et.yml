@@ -1,0 +1,12 @@
+question: Mis on Lightning Network'i tähtsus Bitcoin'i kaevandamise kontekstis?
+answer: Lightning Network'il on potentsiaal oluliselt vähendada tehingutasusid, mõjutades seeläbi kaevurite tulu.
+wrong_answers:
+  - Lightning Network suurendab ploki suurust, suurendades seeläbi kaevurite tulu.
+  - Lightning Network vähendab Bitcoin'i kaevandamise energiatarbimist.
+  - Lightning Network suurendab Bitcoin'i kaevandamise kiirust.
+explanation: |
+  Lightning Network võimaldab kiireid ja madala maksumusega
+  tehinguid väljaspool peamist Bitcoin'i ahelat. Sellel on
+  potentsiaal oluliselt vähendada tehingutasusid,
+  mis võiks mõjutada kaevurite tulu.
+reviewed: true

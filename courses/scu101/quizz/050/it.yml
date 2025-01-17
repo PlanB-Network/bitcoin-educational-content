@@ -1,9 +1,11 @@
-question: Qual è il vantaggio delle password monouso (HOTP e TOTP) rispetto agli SMS per la 2FA?
-answer: Richiedono un calcolo crittografico e vengono memorizzate localmente anziché in memoria.
+question: Qual è il vantaggio delle password monouso (HOTP e TOTP) rispetto agli SMS per l'autenticazione a due fattori (2FA)?
+answer: Richiedono un calcolo crittografico e sono memorizzate localmente anziché in memoria.
 wrong_answers:
-  - Sono più veloci
-  - Sono più economiche
-  - Sono più facili da ricordare
+  - Richiedono un calcolo crittografico e sono memorizzate in memoria anziché localmente.
+  - Non richiedono un calcolo crittografico e sono memorizzate sia localmente che in memoria.
+  - Sono più facili da ricordare e più veloci da digitare.
 explanation: |
-  Le password monouso (HOTP e TOTP) sono più sicure degli SMS perché richiedono un calcolo crittografico e vengono memorizzate localmente anziché in memoria.
-reviewed: false
+  Le password monouso (HOTP e TOTP) sono più sicure degli SMS
+  perché richiedono un calcolo crittografico e sono
+  memorizzate localmente anziché in memoria.
+reviewed: true

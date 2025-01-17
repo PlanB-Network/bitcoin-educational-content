@@ -1,0 +1,9 @@
+question: Qual é a propriedade comutativa da operação XOR?
+answer: A ordem dos operandos não afeta o resultado da operação
+wrong_answers:
+  - XOR só funciona com números pares
+  - XOR requer operandos do mesmo tamanho
+  - A posição dos bits nos operandos não afeta o resultado da operação
+explanation: |
+  XOR é comutativa, significando que a XOR b é igual a b XOR a.
+reviewed: false

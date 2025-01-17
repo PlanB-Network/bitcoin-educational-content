@@ -1,0 +1,9 @@
+question: Millal toimus tegelikult Bitcoini prototüüp-võrgustiku käivitamine 2009. aastal?
+answer: 9. jaanuar 2009, kell 02; 54; 25 UTC
+wrong_answers:
+  - 3. jaanuar 2009, kell 18: 15; 05 UTC
+  - 8. jaanuar 2009, kell 19: 27; 40 UTC
+  - 12. jaanuar 2009, kell 03: 30; 25 UTC
+explanation: |
+  See on ajatempel plokk 1 jaoks blockchainis, mille kaevandas Satoshi Nakamoto pärast tarkvarakoodi avaldamist meililistis mõned tunnid varem. Genesis-plokk (0) loodi 3. ja 8. jaanuari vahel, kuid tegelikku võrgustikku kui sellist veel ei olnud.
+reviewed: false

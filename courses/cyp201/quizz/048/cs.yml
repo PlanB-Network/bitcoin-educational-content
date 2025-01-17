@@ -1,9 +1,9 @@
-question: Jaká je hlavní funkce Bitcoinové peněženky?
-answer: Odkazuje na sbírku soukromých kryptografických klíčů odvozených z jednoho hlavního klíče.
+question: Proč je 24-slovní mnemonická fráze často považována za nadbytečnou pro Bitcoin peněženku?
+answer: Odvozené klíče nabízejí pouze 128 bitů zabezpečení
 wrong_answers:
-  - Jedná se o fyzické zařízení, které uchovává kryptoměny.
-  - Jedná se o digitální platformu pro nákup a prodej kryptoměn.
-  - Jedná se o software, který těží nové bitcoiny.
+  - Software nepodporuje 24-slovní fráze
+  - Neumožňuje odvození veřejných klíčů
+  - Kratší fráze nejsou standardizovány
 explanation: |
-  Bitcoinová peněženka, konkrétně Hierarchická Deterministická Peněženka (HD peněženka), je sbírka soukromých kryptografických klíčů odvozených z jednoho hlavního klíče. Tyto klíče jsou nezbytné pro vlastnictví kryptoměny.
+  Ačkoliv 24-slovní fráze nabízí 256 bitů zabezpečení, odvozené soukromé klíče Bitcoinu zaručují pouze 128 bitů zabezpečení, což činí přebytek zbytečným.
 reviewed: false

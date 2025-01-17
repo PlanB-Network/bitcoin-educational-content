@@ -1,4 +1,4 @@
-question: Näistä vastauksista, mikä ei ole yksi kolmesta pääriskistä käyttäjälle, joka suorittaa KYC:tä?
+question: Näistä vastauksista, mikä ei ole yksi kolmesta pääriskistä käyttäjälle, joka suorittaa KYC; tä?
 answer: Ostettujen bitcoinien ei-vaihdettavuus
 wrong_answers:
   - Altistuminen valtion valvonnalle

@@ -1,9 +1,9 @@
 question: Mitä tapahtui Zimbabwen dollarille huhtikuussa 2009?
 answer: Rahoitusministeri ilmoitti Zimbabwen dollarin käytön keskeyttämisestä ja salli eri ulkomaisten valuuttojen käytön kaupankäynnissä.
 wrong_answers:
-  - Zimbabwen dollari romahti yli 72 %.
-  - Hallitus suostui korvaamaan sotaveteraaneille summan, joka vastasi 450 miljoonaa Yhdysvaltain dollaria.
+  - Zimbabwen dollari romahti yli 72%.
+  - Hallitus suostui korvaamaan sotaveteraaneille summan, joka vastaa 450 miljoonaa Yhdysvaltain dollaria.
   - Hallituksen oli turvauduttava painokoneen käyttöön.
 explanation: |
   Huhtikuussa 2009 rahoitusministeri ilmoitti Zimbabwen dollarin käytön keskeyttämisestä ja salli eri ulkomaisten valuuttojen käytön kaupankäynnissä.
-reviewed: false
+reviewed: true

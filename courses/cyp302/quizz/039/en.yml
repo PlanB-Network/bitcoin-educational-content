@@ -1,0 +1,9 @@
+question: Why is number theory particularly important in public key cryptography?
+answer: It provides the necessary mathematical foundations for encryption and decryption operations.
+wrong_answers:
+  - It provides the necessary mathematical foundations for hashing operations.
+  - It is necessary for the creation of neural networks.
+  - It allows for the calculation of operations in binary only.
+explanation: |
+  Number theory is crucial in public key cryptography because it helps structure algorithms based on the properties of integers, facilitating encryption and decryption operations.
+reviewed: false

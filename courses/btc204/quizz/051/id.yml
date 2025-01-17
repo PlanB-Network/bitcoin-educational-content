@@ -1,0 +1,11 @@
+question: Apa kekurangan dari Pembayaran Diam dibandingkan dengan BIP47?
+
+answer: Penerima harus memindai hampir seluruh blockchain.
+
+wrong_answers:
+  - Mereka menghasilkan biaya transaksi yang lebih tinggi untuk pengirim.
+  - Mereka membatasi jumlah transaksi yang mungkin.
+  - Mereka kurang anonim.
+
+explanation: |
+  Sebagai ganti dari tidak melakukan transaksi notifikasi, penerima harus memindai semua transaksi Bitcoin yang mematuhi standar dalam upaya untuk menemukan pembayaran yang ditujukan kepada mereka.

@@ -1,0 +1,13 @@
+question: Hva er den østerrikske teorien om konjunktursyklusen?
+answer: Den østerrikske teorien om konjunktursyklusen er en teori som forklarer økonomiske sykluser som endogene dynamikker i banksystemet med delvis reserve, og understreker den sekvensielle naturen til menneskelig handling og effekten av rentefluktuasjoner på den intertemporale koordineringen av økonomiske aktører.
+wrong_answers:
+  - Den østerrikske teorien om konjunktursyklusen er en teori som forklarer økonomiske sykluser som et resultat av eksterne hendelser og dyriske ånder.
+  - Den østerrikske teorien om konjunktursyklusen er en teori som forklarer økonomiske sykluser som et resultat av endringer i samlet etterspørsel og tilbud.
+  - Den østerrikske teorien om konjunktursyklusen er en teori som forklarer økonomiske sykluser som et resultat av endringer i sysselsettingsnivåer, BNP eller konsumprisindeksen.
+explanation: |
+  Den østerrikske teorien om konjunktursyklusen, utviklet av Ludwig Von Mises
+  og Friedrich Hayek, forklarer økonomiske sykluser som endogene dynamikker i banksystemet
+  med delvis reserve. Den understreker den sekvensielle naturen til menneskelig handling og
+  effekten av rentefluktuasjoner på den intertemporale koordineringen av økonomiske
+  aktører.
+reviewed: false

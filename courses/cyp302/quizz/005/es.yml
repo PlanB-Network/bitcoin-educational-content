@@ -1,0 +1,9 @@
+question: ¿Cuál es el objetivo principal de la criptografía clásica que aún se mantiene en la criptografía moderna?
+answer: La confidencialidad de los mensajes
+wrong_answers:
+  - La simplificación de los mensajes
+  - La repetición de los mensajes
+  - La automatización del envío de mensajes
+explanation: |
+  La criptografía clásica se centraba principalmente en la confidencialidad, y este objetivo sigue siendo esencial en la criptografía moderna, aunque se han añadido otros temas, como la integridad y la autenticidad.
+reviewed: false

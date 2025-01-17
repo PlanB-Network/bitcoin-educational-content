@@ -1,11 +1,12 @@
-question: Một trong những ứng dụng tiềm năng của Lightning Network trong đời sống hàng ngày là gì?
-answer: Thanh toán tức thì trong thương mại
+question: Một trong những ứng dụng tiềm năng của Lightning Network trong cuộc sống hàng ngày là gì?
+
+answer: Thanh toán tức thì trong thương mại.
+
 wrong_answers:
-  - Đào Bitcoin mới
-  - Tạo ra các loại tiền mã hóa mới
-  - Tăng giá trị của Bitcoin
-explanation: >-
-  Lightning Network mở ra cánh cửa cho một loạt các ứng dụng tiềm năng
-  cho Bitcoin mà trước đây không thể thực hiện được do các hạn chế cần thiết để
-  đảm bảo an ninh và tính phi tập trung của Bitcoin. Trong số các ứng dụng trong đời sống hàng ngày, chúng ta có thể kể đến việc thanh toán tức thì trong thương mại.
-reviewed: false
+  - Đào Bitcoin mới.
+  - Tạo ra các loại tiền mã hóa mới.
+  - Tăng giá trị của Bitcoin.
+
+explanation: Lightning Network mở ra cánh cửa cho một loạt các ứng dụng tiềm năng cho Bitcoin mà trước đây không thể thực hiện được do các hạn chế cần thiết để đảm bảo an ninh và tính phi tập trung của Bitcoin. Trong số các ứng dụng trong cuộc sống hàng ngày, chúng ta có thể kể đến việc thanh toán tức thì trong thương mại.
+
+reviewed: true

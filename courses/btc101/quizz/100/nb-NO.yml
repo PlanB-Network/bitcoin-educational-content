@@ -1,0 +1,10 @@
+question: Hva indikerer fraværet av en mnemonic frase i en lommebok?
+answer: Lommeboken er ikke sikker for langtidsoppbevaring
+wrong_answers:
+  - Lommeboken er sikker for langtidsoppbevaring
+  - Lommeboken er ikke sikker for korttidsoppbevaring
+  - Lommeboken er ikke sikker for bruk til utgifter
+explanation: |
+  Fraværet av en liste med 12 eller 24 ord, det vil si en mnemonic frase, i en lommebok bør varsle deg om at
+  lommeboken ikke er sikker ettersom den ikke følger standard prosedyre for sikkerhetskopi. 
+reviewed: true

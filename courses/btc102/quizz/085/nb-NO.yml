@@ -1,0 +1,11 @@
+question: Hva brukes en varm lommebok til i sammenheng med Bitcoin?
+answer: Til å regelmessig sende og motta bitcoins for daglig bruk.
+wrong_answers:
+  - For å sikkert lagre bitcoins over lang tid.
+  - For å utvinne nye bitcoins.
+  - For å handle bitcoins på en handelsplattform.
+explanation: |
+  En varm lommebok er en type Bitcoin-lommebok som er koblet til internett,
+  noe som gjør den egnet for daglige transaksjoner. Imidlertid er den mer utsatt for hacking
+  og tyveri enn en kald lommebok.
+reviewed: false

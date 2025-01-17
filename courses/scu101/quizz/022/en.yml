@@ -5,7 +5,8 @@ wrong_answers:
   - Always format the USB key before inserting.
   - Insert the USB key and then check for viruses.
 explanation: |
-  Inserting unknown or suspicious USB keys can expose the system to malicious
-  programs that can automatically launch upon insertion. Checking the USB key will
-  be useless once it has been inserted.
-reviewed: false
+  Inserting unknown or suspicious USB keys can expose the
+  system to malicious programs that can automatically launch
+  upon insertion. Checking the USB key will be useless once
+  it has been inserted.
+reviewed: true

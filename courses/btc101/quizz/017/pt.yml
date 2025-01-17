@@ -1,9 +1,11 @@
 question: O que o Bitcoin simboliza além de sua tecnologia?
 answer: Uma revolução contra os sistemas financeiros tradicionais e uma alternativa baseada em transparência, descentralização e soberania individual.
 wrong_answers:
-  - Uma nova forma de moeda digital mais eficiente do que as moedas tradicionais.
-  - Uma maneira para indivíduos ganharem dinheiro através da mineração.
+  - Uma nova forma de moeda digital que é mais eficiente do que as moedas tradicionais porque é mais rápida.
+  - Uma maneira dos indivíduos ganharem dinheiro através da mineração.
   - Uma ferramenta para criminosos realizarem transações ilegais.
 explanation: |
-  Além de sua tecnologia, o Bitcoin simboliza uma revolução contra os sistemas financeiros tradicionais, pois o protocolo estabeleceu um novo sistema monetário sem qualquer entidade central.
-reviewed: false
+  Além de sua tecnologia, o Bitcoin simboliza uma revolução
+  contra os sistemas financeiros tradicionais: o protocolo
+  impõe um novo sistema monetário sem qualquer entidade central.
+reviewed: true

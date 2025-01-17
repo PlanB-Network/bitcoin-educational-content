@@ -1,0 +1,9 @@
+question: Hva er den gyldne regelen for cybersikkerhet?
+answer: Cybersikkerhet er et bevegelig mål som vil tilpasse seg din læringsreise.
+wrong_answers:
+  - Cybersikkerhet er en engangsoppsett
+  - Cybersikkerhet er ikke nødvendig for personlige kontoer
+  - Cybersikkerhet er bare for teknisk kyndige personer
+explanation: |
+  Cybersikkerhet er et bevegelig mål fordi trusler og sikkerhetstiltak
+  er i konstant utvikling. Det er viktig å fortsette å lære og tilpasse dine praksiser.

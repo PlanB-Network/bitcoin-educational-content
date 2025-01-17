@@ -1,0 +1,9 @@
+question: Qu'est-ce que le principe des juristes selon Bastiat ?
+answer: C'est le principe d'antériorité de la loi sur la propriété
+wrong_answers:
+  - C'est le principe d'antériorité de la propriété sur la loi
+  - C'est le principe d'égalité devant la loi
+  - C'est le droit à la propriété sans intervention de l'État
+explanation: |
+  Pour Bastiat, le principe des juristes, en opposition à celui des économistes, place la loi comme antérieure à la propriété, une position qu'il critique pour son potentiel d'instaurer des injustices.
+reviewed: false

@@ -1,11 +1,9 @@
 question: Lần đầu tiên Bitcoin được sử dụng để mua hàng hóa vật lý là khi nào?
-answer: Khi Laszlo Hanyecz mua 2 chiếc pizza với 10,000 BTC
+answer: Khi Laszlo Hanyecz mua 2 chiếc pizza với 10,000 BTC.
 wrong_answers:
-  - Khi Hal Finney mua một chiếc xe hơi với 100,000 BTC
-  - Khi Satoshi Nakamoto mua một ngôi nhà với 1,000,000,000 BTC
-  - Không có lựa chọn nào
+  - Khi Hal Finney mua một chiếc xe hơi với 100,000 BTC.
+  - Khi Satoshi Nakamoto mua một căn nhà với 1,000,000,000 BTC.
+  - Không có lựa chọn nào khác.
 explanation: |
-  Lần đầu tiên Bitcoin được sử dụng để mua hàng hóa vật lý là khi
-  Laszlo Hanyecz mua 2 chiếc pizza với 10,000 BTC, vào ngày 22/05/2010, 
-  hiện nay được biết đến là Ngày Pizza
-reviewed: false
+  Lần đầu tiên Bitcoin được sử dụng để mua hàng hóa vật lý là khi Laszlo Hanyecz mua 2 chiếc pizza với 10,000 BTC, vào ngày 22/05/2010, ngày này hiện được biết đến là Ngày Pizza.
+reviewed: true

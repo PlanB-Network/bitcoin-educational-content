@@ -1,9 +1,0 @@
-question: ¿Cuáles son los tres tipos de personas en la Red Lightning?
-answer: Compradores, comerciantes y nodos de enrutamiento
-wrong_answers:
-  - Compradores, vendedores e intermediarios
-  - Usuarios, comerciantes y nodos
-  - Compradores, comerciantes y mineros
-explanation: |
-  En la Red Lightning, hay tres tipos de personas: compradores, que necesitan liquidez saliente; comerciantes, que necesitan liquidez entrante; y nodos de enrutamiento, que buscan tener un equilibrio de liquidez en ambos lados.
-reviewed: false

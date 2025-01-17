@@ -1,9 +1,9 @@
-question: Was passiert, wenn eine neue Verpflichtungstransaktion erstellt wird?
-answer: Es wird ein neues Geheimnis festgelegt und ein neuer Widerrufsschlüssel wird erstellt, und die vorherige Verpflichtungstransaktion muss durch die Weitergabe des Widerrufsgeheimnisses zerstört werden.
+question: Was ist die Rolle von Routing-Gebühren im Lightning-Netzwerk?
+answer: Um Zwischenknoten zu incentivieren, ihre Liquidität für die Übertragung von Zahlungen bereitzustellen
 wrong_answers:
-  - Die vorherige Verpflichtungstransaktion wird als Backup aufbewahrt.
-  - Es wird eine neue Zeitverzögerung erstellt und die vorherige Verpflichtungstransaktion wird aktualisiert.
-  - Die vorherige Verpflichtungstransaktion wird mit dem neuen Geheimnis und Widerrufsschlüssel aktualisiert.
+  - Um die Anzahl der Transaktionen im Netzwerk zu begrenzen
+  - Um sicherzustellen, dass jeder Kanal über ausreichende Mittel verfügt
+  - Um automatisch den kürzesten Weg zu berechnen
 explanation: |
-  Wenn eine neue Verpflichtungstransaktion erstellt wird, werden ein neues Geheimnis und ein neuer Widerrufsschlüssel festgelegt. Die vorherige Verpflichtungstransaktion muss zerstört werden, indem das Widerrufsgeheimnis weitergegeben wird, um zu verhindern, dass eine Partei betrügt, indem sie einen alten Zustand veröffentlicht.
+  Routing-Gebühren werden verwendet, um Zwischenknoten, die Zahlungen weiterleiten, zu entschädigen, indem sie ihre Liquidität anbieten, um die Übertragung von Geldern über das Netzwerk zu ermöglichen.
 reviewed: false

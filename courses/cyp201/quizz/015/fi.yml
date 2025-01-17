@@ -1,10 +1,9 @@
-question: Mikä on SHA256-tiivistefunktion tulosteen koko?
-answer: 256 bittiä
+question: Minkä tyyppistä avainta käytetään lukitsemaan UTXO t Bitcoinissa?
+answer: Julkinen avain
 wrong_answers:
-  - 512 bittiä
-  - 128 bittiä
-  - 1024 bittiä
+  - Yksityinen avain
+  - Siemenen hajautusarvo
+  - Mnemoninen lause
 explanation: |
-  SHA256-tiivistefunktio tuottaa 256-bittisen tiivisteen muuttuvankokoisesta
-  syötteestä. Tästä syystä sitä kutsutaan SHA256:ksi.
+  UTXO: t lukitaan julkisella avaimella tai sen hajautusarvolla, ja avataan vastaavalla yksityisellä avaimella.
 reviewed: false

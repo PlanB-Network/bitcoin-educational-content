@@ -1,9 +1,9 @@
-question: Mikä on tulevaisuuden huoli Bitcoin-lohkojen tilankäytöstä?
-answer: Tulevaisuuden huoli on, että odotetun Lightning Networkin kasvun ja siitä seuraavan kanavien avaamisten ja sulkemisten lisääntymisen myötä tila Bitcoin-lohkoissa muuttuu yhä arvokkaammaksi.
+question: Mikä on tulevaisuuden huoli Bitcoin-lohkoavaruuden käytöstä?
+answer: Tulevaisuuden huoli on, että Lightning Networkin odotetun kasvun ja siitä seuraavan kanavien avaamisten ja sulkemisten lisääntymisen myötä tila Bitcoin-lohkoissa muuttuu yhä arvokkaammaksi.
 wrong_answers:
-  - Tulevaisuuden huoli on, että Bitcoin-lohkojen koko kasvaa hallitsemattomaksi.
+  - Tulevaisuuden huoli on, että Bitcoin-lohkojen koko kasvaa liian suureksi hallittavaksi.
   - Tulevaisuuden huoli on, että Bitcoin-lohkojen määrä ylittää verkon kapasiteetin.
   - Tulevaisuuden huoli on, että Bitcoin-lohkojen monimutkaisuus kasvaa, mikä tekee niiden käsittelystä vaikeaa.
 explanation: |
-  Odotetun Lightning Networkin kasvun ja siitä seuraavan kanavien avaamisten ja sulkemisten lisääntymisen myötä tila Bitcoin-lohkoissa muuttuu yhä arvokkaammaksi. Tämä on johtanut keskusteluihin lohkotilan legitiimistä käytöstä, huolena "roskapostin" esiintyminen lohkoketjussa transaktioista, joita pidetään ei-olennaisina.
-reviewed: false
+  Lightning Networkin odotetun kasvun ja siitä seuraavan kanavien avaamisten ja sulkemisten lisääntymisen myötä tila Bitcoin-lohkoissa muuttuu yhä arvokkaammaksi. Tämä on johtanut keskusteluihin lohkoavaruuden legitiimistä käytöstä, huolien noustessa roskapostista lohkoketjussa, joka koostuu ei-oleellisiksi katsotuista transaktioista.
+reviewed: true

@@ -1,0 +1,13 @@
+question: What term describes the protection offered by a coinjoin against the analysis of a coin's past transactions?
+
+answer: Retrospective anonset.
+
+wrong_answers:
+  - Prospective anonset.
+  - Traceability resistance.
+  - Temporal privacy.
+
+explanation: |
+  The protection against analysis from the present to the past is what is called the retrospective anonset.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kui palju bitcoine (umbes) kaevandas Satoshi Nakamoto kokku?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   1,122,693 bitcoini vastavalt Whale Alert'i 2020. aastal avaldatud uuringule. Satoshi lõpetas oma kaevandamistegevuse mai 2010.
+reviewed: false

@@ -1,9 +1,10 @@
-question: Một trong những cách để có được Bitcoin mà không cần KYC là gì?
+question: Một trong những cách để có được bitcoin mà không cần KYC là gì?
 answer: Máy ATM Bitcoin.
 wrong_answers:
   - Nền tảng môi giới.
   - Nền tảng DCA.
   - Chuyển khoản ngân hàng.
-explanation: >-
-  Văn bản đề cập rằng có một số cách để có được Bitcoin mà không cần KYC, một trong số đó là máy ATM Bitcoin.
-reviewed: false
+explanation: |
+  Văn bản khóa học đề cập rằng có một số cách để
+  có được Bitcoin mà không cần KYC, một trong số đó là máy ATM Bitcoin.
+reviewed: true

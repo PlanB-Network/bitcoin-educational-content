@@ -1,0 +1,8 @@
+question: Mis on Bitcoin'i rahakoti peamine ülesanne?
+answer: Hallata ja turvata privaatvõtmeid
+wrong_answers:
+  - Hoida kasutaja bitcoine
+  - Tagada tehingute konfidentsiaalsus automaatselt
+  - Genereerida igale kasutajale bitcoine
+explanation: |
+  Bitcoin'i rahakott ei hoia otseselt bitcoine, vaid hallab privaatvõtmeid, mis on vajalikud UTXO-de avamiseks, mis esindavad bitcoine.

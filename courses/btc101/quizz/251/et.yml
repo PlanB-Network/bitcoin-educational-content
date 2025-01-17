@@ -1,0 +1,10 @@
+question: Mis on üks peamisi probleeme tsensuuriga?
+answer: See võib hävitada sõnavabaduse ja kogunemisõiguse.
+wrong_answers:
+  - See võib viia sõnavabaduse suurenemiseni.
+  - See võib viia kogunemisõiguse suurenemiseni.
+  - See võib viia innovatsiooni vähenemiseni.
+explanation: >-
+  Tekstis mainitakse, et tsensuuri talumine võib hävitada sõnavabaduse
+  ja kogunemisõiguse.
+reviewed: false

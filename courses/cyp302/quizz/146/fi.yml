@@ -1,0 +1,8 @@
+question: Mikä on ehto kokonaisluvulle a, jotta sillä olisi käänteisalkio modulo N?
+answer: a ja N täytyy olla keskenään jaottomia
+wrong_answers:
+  - N täytyy olla parillinen
+  - a täytyy olla pariton
+  - a täytyy olla alkuluku
+explanation: |
+  Kokonaisluvulla a on käänteisalkio modulo N jos ja vain jos ne ovat keskenään jaottomia, tarkoittaen, että niiden suurin yhteinen tekijä on 1.

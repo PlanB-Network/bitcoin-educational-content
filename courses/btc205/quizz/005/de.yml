@@ -1,9 +1,0 @@
-question: Warum gilt Bitcoin als ein ineffektives Werkzeug für Geldwäsche?
-answer: Weil es sich um eine vollständig nachverfolgbare Datenbank handelt.
-wrong_answers:
-  - Weil es nicht weit verbreitet akzeptiert wird.
-  - Weil es starken Schwankungen unterliegt.
-  - Weil es nicht reguliert ist.
-explanation: |
-  Bitcoin, als eine vollständig nachverfolgbare Datenbank, macht Geldwäsche besonders schwierig. Die Verwendung von Bitcoin durch Kriminelle kann zurückverfolgt werden.
-reviewed: false

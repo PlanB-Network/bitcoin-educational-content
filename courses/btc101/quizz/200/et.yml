@@ -1,0 +1,9 @@
+question: Mis on spontaanne ost?
+answer: Bitcoini kohe ostmine, et saada sellest kohest kasu.
+wrong_answers:
+  - Bitcoini ostmine regulaarsete intervallidega.
+  - Bitcoini ostmine ainult siis, kui hind langeb.
+  - Bitcoini ostmine ainult siis, kui hind tõuseb.
+explanation: >-
+  Tekst selgitab, et spontaanne ost on kasutatud selleks, et kohe saada kasu Bitcoinist. See võib tähendada ostmist languse ajal või boonuse ärakasutamist.
+reviewed: false

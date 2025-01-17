@@ -1,9 +1,9 @@
-question: Was stellen die Konstanten K in der Verarbeitung der SHA-256-Funktion dar?
-answer: Die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 64 Primzahlen
+question: Welche Hash-Funktion wird von HMAC im Kontext von Bitcoin verwendet?
+answer: SHA512
 wrong_answers:
-  - Die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 64 Primzahlen
-  - Die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 8 Primzahlen
-  - Die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 8 Primzahlen
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  In der Verarbeitung der SHA-256-Funktion stellen die Konstanten K von 0 bis 63 die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 64 Primzahlen dar. Diese werden als Grundzutaten im kryptografischen Rezept verwendet.
+  HMAC verwendet SHA512, um einen sicheren 512-Bit-Hash zu erzeugen.
 reviewed: false

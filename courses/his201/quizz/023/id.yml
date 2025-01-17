@@ -1,0 +1,8 @@
+question: Di mana Satoshi Nakamoto menerbitkan makalah putih Bitcoin pada 31 Oktober 2008?
+answer: Daftar milis Kriptografi
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Sebagai penerus dari daftar milis cypherpunks, daftar milis email ini dikelola oleh pengembang Perry Metzger sejak tahun 1996.

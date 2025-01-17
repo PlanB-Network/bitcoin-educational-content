@@ -1,9 +1,14 @@
-question: Perché acquistare bitcoin senza KYC?
-answer: Per garantire la tua privacy
+question: Perché dovresti comprare bitcoin non-KYC?
+answer: Per garantire la tua privacy.
 wrong_answers:
-  - Per garantire la registrazione di tutti gli utenti di Bitcoin
-  - Per acquistare a un prezzo basso
-  - Per vendere a un prezzo basso
+  - Per garantire la registrazione di tutti gli utenti Bitcoin.
+  - Per comprare a basso prezzo.
+  - Per vendere a basso prezzo.
 explanation: |
-  Acquistare bitcoin senza KYC significa ottenere bitcoin senza dover passare attraverso le procedure standard di verifica Know Your Customer che molti scambi e piattaforme richiedono. Una ragione principale per cui le persone potrebbero scegliere questa strada è mantenere la propria privacy, garantendo che i propri dettagli personali e le attività finanziarie rimangano nascosti.
-reviewed: false
+  Comprare bitcoin non-KYC significa acquisire bitcoin senza
+  passare attraverso le standard procedure di verifica Conosci il Tuo Cliente
+  (Know Your Customer) che molte piattaforme di scambio richiedono. Una ragione principale per cui gli individui potrebbero scegliere questa
+  strada è per mantenere la loro privacy, assicurando che i loro
+  dettagli personali e le attività finanziarie rimangano
+  non divulgati.
+reviewed: true

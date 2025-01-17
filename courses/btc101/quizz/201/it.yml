@@ -1,9 +1,12 @@
 question: Qual è lo scopo delle normative KYC?
-answer: Per contrastare il finanziamento del terrorismo, l'evasione fiscale e il riciclaggio di denaro.
+answer: Combattere il finanziamento del terrorismo, l'evasione fiscale e il riciclaggio di denaro.
 wrong_answers:
-  - Per aumentare il prezzo del Bitcoin.
-  - Per controllare l'offerta di Bitcoin.
-  - Per impedire alle persone di acquistare Bitcoin.
+  - Aumentare il prezzo del Bitcoin e far pagare più tasse all'utente.
+  - Controllare l'offerta di Bitcoin.
+  - Impedire alle persone di acquistare Bitcoin.
 explanation: |
-  Il testo spiega che le normative Know Your Customer (KYC) richiedono agli utenti di fornire un'identificazione per contrastare il finanziamento del terrorismo, l'evasione fiscale e il riciclaggio di denaro.
-reviewed: false
+  Il testo del corso spiega che le normative Know Your Customer (KYC)
+  richiedono agli utenti di fornire un'identificazione per
+  combattere il finanziamento del terrorismo, l'evasione fiscale e il
+  riciclaggio di denaro.
+reviewed: true

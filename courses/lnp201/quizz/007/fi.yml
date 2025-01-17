@@ -1,10 +1,9 @@
-question: Onko Lightning-maksukanavan kapasiteetti kiinteä?
-answer: "Kyllä"
+question: Miksi UTXO; ja usein verrataan seteleihin?
+answer: Ne on käytettävä kokonaisuudessaan
 wrong_answers:
-  - "Ei"
-  - Vain joissakin tapauksissa
-  - Se riippuu Bitcoin-verkosta
+  - Niitä voidaan käyttää useita kertoja, kunnes ne on käytetty loppuun
+  - Ne ovat käytettävissä vain tietyissä erityistransaktioissa
+  - Ne edustavat pieniä, kiinteitä määriä bitcoineja
 explanation: |
-  Kun kanava avataan, sille määritetään kiinteä kapasiteetti, joka on määritelty
-  etukäteen käyttäjien toimesta.
+  Kuten setelin, UTXO on käytettävä kokonaan transaktiossa, ja mahdollinen ylimäärä palautetaan lähettäjälle vaihtorahana.
 reviewed: false

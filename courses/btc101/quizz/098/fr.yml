@@ -1,9 +1,11 @@
-question: Quelle est l'une des solutions alternatives recommandées au papier pour stocker votre phrase mnémonique ?
-answer: La graver sur une plaque métallique
+question: Quelle est une alternative recommandée à l'utilisation du papier pour stocker votre phrase mnémonique ?
+answer: La graver sur une plaque métallique.
 wrong_answers:
-  - La stocker dans un fichier numérique
-  - L'écrire sur un tableau blanc
-  - L'enregistrer comme contact dans votre téléphone
+  - La stocker dans un fichier numérique.
+  - L'écrire sur un tableau blanc.
+  - La sauvegarder comme un contact dans votre téléphone.
 explanation: |
-  L'une des solutions alternatives au papier pour stocker votre phrase mnémonique est de la graver sur une plaque métallique. Cela peut fournir une solution plus durable et de longue durée.
-reviewed: false
+  Une des alternatives recommandées au papier pour stocker
+  votre phrase mnémonique est de la graver sur une plaque métallique. Cette
+  solution est plus durable et résistante dans le temps.
+reviewed: true

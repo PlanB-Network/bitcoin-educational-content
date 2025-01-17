@@ -1,0 +1,13 @@
+question: Mengapa analis tidak menerapkan COINJOIN pada transaksi tipe Stonewall?
+
+answer: Karena ada 2 output dengan jumlah yang sama
+
+wrong_answers:
+  - Karena hanya ada 2 input
+  - Karena mereka tidak familiar dengan pola ini
+  - Karena ada lebih banyak output daripada input
+
+explanation: |
+  Menganalisis transaksi Stonewall dari luar tidak mengarah pada penerapan COINJOIN, karena keberadaan dua output dengan jumlah yang sama menunjukkan pola coinjoin. Dari sudut pandang eksternal, COINJOIN oleh karena itu tidak berlaku dalam kasus spesifik ini.
+
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qual função é usada na derivação das chaves filhas?
-answer: A função HMAC-SHA512 é usada na derivação das chaves filhas.
-wrong_answers:
-  - A função SHA256 é usada na derivação das chaves filhas.
-  - A função MD5 é usada na derivação das chaves filhas.
-  - A função SHA1 é usada na derivação das chaves filhas.
-explanation: |
-  A função HMAC-SHA512 é usada na derivação das chaves filhas. Essa função utiliza a chave pai concatenada com o índice e o código de cadeia associado ao par de chaves.
-reviewed: false

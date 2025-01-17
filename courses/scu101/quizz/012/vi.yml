@@ -1,11 +1,11 @@
 question: Tại sao việc xác minh khóa công khai của trang web bằng hệ thống chứng chỉ lại quan trọng?
 answer: Để xác nhận tính xác thực của trang web.
 wrong_answers:
-  - Để vượt qua các hạn chế địa lý.
-  - Để chặn quảng cáo trực tuyến.
-  - Để truy cập trang web mà không sử dụng dữ liệu.
+  - Để đảm bảo không có sự lừa đảo nào xảy ra, nhưng chỉ khi kết nối qua mạng Wi-Fi công cộng.
+  - Để một phần chặn quảng cáo trực tuyến.
+  - Để đảm bảo không có thực thể xấu nào giả mạo trang web.
 explanation: |
-  Việc xác minh khóa công khai của trang web bằng hệ thống chứng chỉ là quan trọng
-  để xác nhận tính xác thực của trang web. Điều này giúp bảo vệ chống lại những cá nhân xấu
-  giả mạo trang web và truyền dữ liệu dưới dạng văn bản rõ ràng.
-reviewed: false
+  Việc xác minh khóa công khai của trang web bằng hệ thống chứng chỉ
+  là quan trọng để xác nhận tính xác thực của trang web. Điều này
+  giúp bảo vệ chống lại những cá nhân xấu giả mạo trang web và truyền tải dữ liệu dưới dạng văn bản rõ ràng.
+reviewed: true

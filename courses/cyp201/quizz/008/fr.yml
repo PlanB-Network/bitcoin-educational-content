@@ -1,9 +1,9 @@
-question: Que se passe-t-il si une entrée même légèrement déviante est donnée à une fonction de hachage cryptographique ?
-answer: Cela modifie considérablement le hachage final.
+question: Pourquoi SHA256 applique-t-il un pré-traitement au message d'entrée ?
+answer: Pour garantir une longueur multiple de 512 bits
 wrong_answers:
-  - Elle produit le même hachage.
-  - Elle fait échouer la fonction de hachage.
-  - Elle ralentit le calcul du hachage.
+  - Pour vérifier l'intégrité du message
+  - Pour chiffrer les données avant hachage
+  - Pour augmenter la taille des hashes générés
 explanation: |
-  Les fonctions de hachage cryptographique sont conçues de manière à ce qu'une légère déviation de l'entrée modifie considérablement le hachage final. Cette propriété est cruciale pour la sécurité de la fonction de hachage, car elle rend extrêmement difficile de trouver une autre entrée qui produit le même hachage.
+  Le pré-traitement ajuste la longueur du message en ajoutant des bits de rembourrage et une représentation binaire de sa longueur.
 reviewed: false

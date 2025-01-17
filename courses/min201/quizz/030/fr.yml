@@ -1,9 +1,12 @@
-question: Quelle est la menace potentielle de la Preuve d'Enjeu dans le réseau Bitcoin?
+question: Quel est le risque potentiel du Proof of Stake dans le réseau Bitcoin ?
 answer: Ceux qui détiennent déjà une grande quantité de la monnaie ont un pouvoir disproportionné, reflétant les inégalités de pouvoir existantes.
 wrong_answers:
-  - Cela nécessite une barrière d'entrée significative.
+  - Cela représenterait une barrière significative pour les validateurs détenant une grande quantité de monnaie.
   - Cela ne permet pas une participation à petite échelle.
   - Cela ne nécessite pas de ressources tangibles.
 explanation: |
-  Dans un réseau de Preuve d'Enjeu, ceux qui détiennent déjà une grande quantité de la monnaie ont un pouvoir disproportionné. Cette dynamique pourrait potentiellement perpétuer la centralisation et la concentration du pouvoir entre les mains de quelques-uns.
-reviewed: false
+  Dans un réseau Proof of Stake, ceux qui détiennent déjà une grande
+  quantité de la monnaie ont un pouvoir disproportionné. Cette
+  dynamique pourrait potentiellement perpétuer la centralisation et
+  la concentration du pouvoir entre les mains de quelques-uns.
+reviewed: true

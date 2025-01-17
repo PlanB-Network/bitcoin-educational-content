@@ -1,0 +1,10 @@
+question: Hva er en av faktorene som gjør det vanskelig for finansmyndigheter å regulere Bitcoin?
+answer: Den opererer på en global skala, 24 timer i døgnet, 7 dager i uken.
+wrong_answers:
+  - Den kontrolleres av en sentral myndighet.
+  - Den brukes ikke noe sted i verden.
+  - Det er lett å forfalske.
+explanation: >-
+  Bitcoin-protokollen er unik ved at den opererer på en global skala,
+  24 timer i døgnet, 7 dager i uken, noe som gjør regulering vanskelig for finansmyndigheter.
+reviewed: false

@@ -1,10 +1,9 @@
 question: Những khía cạnh nào của mật mã học được sử dụng trong an ninh mạng?
-answer: SSL/TLS, mã hóa đối xứng/bất đối xứng
+answer: SSL/TLS, mã hóa đối xứng/phi đối xứng
 wrong_answers:
   - RSA, DSA, ECC
   - AES, DES, 3DES
   - MD5, SHA-1, SHA-256
 explanation: |
-  Chương này liệt kê SSL/TLS và mã hóa đối xứng/bất đối xứng là một số
-  khía cạnh của mật mã học được sử dụng trong an ninh mạng.
-reviewed: false
+  Chương này liệt kê SSL/TLS và mã hóa đối xứng/phi đối xứng là một số khía cạnh của mật mã học được sử dụng trong an ninh mạng.
+reviewed: true

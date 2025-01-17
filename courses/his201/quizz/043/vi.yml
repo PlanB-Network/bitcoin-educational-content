@@ -1,0 +1,9 @@
+question: Bitcoin Faucet được Gavin Andresen tạo ra vào tháng 6 năm 2010 đã cung cấp gì?
+answer: Bitcoins
+wrong_answers:
+  - Phiếu mua hàng
+  - Giảm giá phí cho Bitcoin Market
+  - Cơ hội đào một khối
+explanation: |
+  Dịch vụ này ban đầu phân phối 5 bitcoins cho mỗi yêu cầu, để mọi người có thể thử nghiệm hệ thống. Số lượng này đã được giảm dần theo thời gian, và faucet đã đóng cửa vào năm 2012.
+reviewed: false

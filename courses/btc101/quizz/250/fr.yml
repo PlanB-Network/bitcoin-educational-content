@@ -1,9 +1,11 @@
-question: Quelle est l'une des principales préoccupations concernant le système bancaire ?
+question: Quelle pourrait être une préoccupation majeure concernant le système bancaire ?
 answer: Les règles du jeu bancaire ne sont pas transparentes et compréhensibles pour tous.
 wrong_answers:
   - Le système bancaire est trop facile à comprendre.
   - Le système bancaire est trop transparent.
   - Le système bancaire est trop décentralisé.
-explanation: |
-  Le texte mentionne que la question de savoir qui devrait contrôler le système bancaire est cruciale car les règles du jeu bancaire ne sont pas transparentes et compréhensibles pour tous.
-reviewed: false
+explanation: >-
+  Le texte mentionne que la question de savoir qui devrait contrôler le système
+  bancaire est cruciale parce que les règles du jeu bancaire ne sont pas transparentes et
+  compréhensibles pour tous.
+reviewed: true

@@ -17,9 +17,11 @@ Cette école de pensée a déjà plusieurs siècles d'existence et compte de nom
 +++
 
 # Introduction à ECON
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Introduction
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Bonjour à tous et bienvenue à l'Econ 201 : Introduction à l'économie autrichienne.
@@ -38,6 +40,7 @@ Je remercie chaleureusement Théo d'avoir produit ce cours et j'espère qu'il se
 Si vous êtes prêt à vous lancer dans cette aventure, je vous invite à cliquer sur la vidéo suivante et à commencer par la vidéo bonus sur notre système financier actuel. Je laisse maintenant la parole à Théo. Merci à lui de collaborer avec Descoupes Bitcoin pour la réalisation de cette vidéo. Je vous reverrai très bientôt. Au revoir !
 
 ## L'argent, le crédit, les banques et les banques centrales
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 ![Explication du système bancaire traditionnel](https://youtu.be/pz0RxlXNs7Y)
@@ -128,9 +131,11 @@ Pour atteindre cet objectif, nous expliquerons les principes fondamentaux de l'"
 Dans le prochain chapitre, nous nous pencherons sur la pierre angulaire fondamentale de toute école de pensée économique : la théorie de la valeur. Les chapitres suivants exploreront l'argent en tant qu'institution sociale, la théorie du capital et du cycle économique, le défi du calcul économique, ainsi qu'un bref aperçu de l'histoire et de la méthodologie de l'école autrichienne d'économie.
 
 # Fondements théoriques
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 
 ## La théorie subjective de la valeur
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > "La valeur n'existe que dans la conscience humaine"
@@ -215,6 +220,7 @@ S'appuyant sur les idées de la valeur ordinale subjective, Menger a expliqué l
 Les chapitres suivants seront consacrés à l'émergence de l'argent en tant que phénomène social, à la théorie du capital et de l'intérêt, qui servira de base à la théorie du cycle économique, et enfin au rôle des prix dans le calcul économique.
 
 ## L'émergence de l'argent en tant que phénomène social
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 ![Argent](https://youtu.be/Dt8ounex2jg)
@@ -235,12 +241,12 @@ Dans la division du travail, chaque partie bénéficie de la coopération, mais 
 
 Ces résultats peuvent être représentés dans une matrice (les résultats numériques indiquent le nombre d'années d'emprisonnement) :
 
-| Alice / Bob       | Accuser      | Rester silencieux |
-| ----------------- | ----------- | ------------- |
-| **Accuser**        | 2, 2        | 0, 3         |
-| **Rester silencieux** | 3, 0        | 1, 1         |
+| Alice / Bob           | Accuser | Rester silencieux |
+| --------------------- | ------- | ----------------- |
+| **Accuser**           | 2, 2    | 0, 3              |
+| **Rester silencieux** | 3, 0    | 1, 1              |
 
-Dans ce jeu, il n'y a pas d'opportunité de coordination (la communication est impossible) pour atteindre le meilleur résultat pour les deux parties. Par conséquent, Alice et Bob ont un incitatif individuel à s'accuser mutuellement, même si cela ne mène pas au résultat optimal pour le groupe. La stratégie optimale pour les deux est de rester silencieux, chacun recevant une peine d'un an. 
+Dans ce jeu, il n'y a pas d'opportunité de coordination (la communication est impossible) pour atteindre le meilleur résultat pour les deux parties. Par conséquent, Alice et Bob ont un incitatif individuel à s'accuser mutuellement, même si cela ne mène pas au résultat optimal pour le groupe. La stratégie optimale pour les deux est de rester silencieux, chacun recevant une peine d'un an.
 Ce jeu illustre un problème fréquemment rencontré dans la vie réelle : en l'absence de mécanismes de coordination, les individus ont tendance à choisir des stratégies qui maximisent leur gain individuel, indépendamment des stratégies choisies par les autres (vol, tricherie, trahison, violence, etc.), même lorsque l'équilibre souhaitable par la coordination/collaboration est possible.
 
 ### L'argent pour résoudre les problèmes de coordination
@@ -255,7 +261,7 @@ Premièrement, les humains sont limités par leurs capacités cognitives. Il est
 
 Deuxièmement, la mesure socialement acceptée de la valeur des contributions en échange (commensurabilité) est un problème non trivial. Par exemple, si un individu fournit de la viande de chasse et demande des matériaux pour un abri en retour, comment évaluer la quantité de viande offerte en termes équivalents aux matériaux demandés ? Il en va de même pour la qualité - la viande de cerf vaut-elle plus ou moins que le bois ?
 
-Même s'il était possible d'établir un taux d'échange satisfaisant pour chaque paire de biens, il devient rapidement impraticable de maintenir cette information. Dans un système d'échange direct impliquant N biens, il y a N(N-1)/2 taux d'échange à se souvenir. Pour une économie de 50 biens, cela signifie se souvenir de 50*49/2, soit 1225 taux d'échange, par opposition à seulement 50 dans les échanges indirects. Pour une économie de 100 biens, ce nombre augmente à 4950. Une telle relation quadratique limite encore davantage la scalabilité de l'échange direct (le troc).
+Même s'il était possible d'établir un taux d'échange satisfaisant pour chaque paire de biens, il devient rapidement impraticable de maintenir cette information. Dans un système d'échange direct impliquant N biens, il y a N(N-1)/2 taux d'échange à se souvenir. Pour une économie de 50 biens, cela signifie se souvenir de 50\*49/2, soit 1225 taux d'échange, par opposition à seulement 50 dans les échanges indirects. Pour une économie de 100 biens, ce nombre augmente à 4950. Une telle relation quadratique limite encore davantage la scalabilité de l'échange direct (le troc).
 
 De plus, puisque ces échanges ne se produisent pas instantanément mais sont espacés dans le temps, l'évaluation des contributions dans le temps complique davantage l'évaluation relative des contributions. En plus d'évaluer le ratio d'échange entre deux biens présents, il devient nécessaire d'évaluer la valeur d'une contribution passée par rapport à un homologue futur.
 
@@ -298,6 +304,7 @@ Cela découle directement de la rationalité humaine ; personne ne peut ignorer 
 Dans le prochain chapitre, nous approfondirons le concept de préférence temporelle et expliquerons la perspective autrichienne sur l'intérêt et le capital, qui servira de base pour le chapitre suivant sur la théorie du cycle économique.
 
 ## Préférence Temporelle, Intérêt et Capital
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Préférence Temporelle
@@ -367,9 +374,11 @@ Cela est parfaitement illustré par le graphique ci-dessous : les taux longs son
 C'est ce que nous découvrirons dans le prochain chapitre consacré à la théorie autrichienne du cycle économique !
 
 # Perspectives économiques autrichiennes
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## La théorie autrichienne du cycle économique
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 ![Cycles économiques pour l'école autrichienne](https://youtu.be/CrPE6mcOjx4)
@@ -446,6 +455,7 @@ Plus que toute autre école d'économie, l'école autrichienne insiste sur l'imp
 Cela sera le sujet du prochain et dernier chapitre de ce cours.
 
 ## L'impossibilité du calcul économique sous le socialisme
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 ![L'impossibilité du calcul économique dans un système socialiste](https://youtu.be/E-9Fl6eg-mo)
@@ -507,7 +517,7 @@ Aujourd'hui, le débat sur le calcul économique refait surface principalement d
 
 Pour une application concrète du problème du calcul économique à une situation contemporaine, vous pouvez vous référer à cet article abordant le problème de l'allocation des ressources en Chine moderne.
 
->   The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Conclusion
 
@@ -516,6 +526,7 @@ Les économistes mainstream et les planificateurs centraux n'apprécient souvent
 La tradition autrichienne incarne une approche humble de l'action humaine, tirant des implications profondes des concepts de valeur subjective, d'incertitude, de libre arbitre et de complexité. Elle explique comment l'ordre du marché, bien qu'il ne soit pas le produit d'une conception humaine, est l'institution centrale de notre développement et de notre prospérité. Si vous ne deviez retenir qu'une seule chose de ce cours, c'est que le capitalisme est devenu le système économique dominant en raison de sa capacité à s'adapter aux changements dans un monde dynamique et incertain peuplé d'individus libres.
 
 ## La Méthodologie Autrichienne
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 ![la méthodologie autrichienne](https://youtu.be/hMyYGwU76dI)
@@ -538,15 +549,21 @@ Il est important de noter que la sélection des données, qui consiste à choisi
 La méthodologie est un aspect essentiel en économie et en sciences sociales en général. Elle influence la façon dont les questions sont posées, les hypothèses sont formulées et les données sont interprétées. Comprendre les différences méthodologiques entre les écoles de pensée économique peut nous aider à apprécier les perspectives diverses et à développer nos propres opinions sur les sujets abordés dans les épisodes précédents.
 
 # Conclusion
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
+## Avis & Notes
 
-
-## Donnez-nous votre avis sur ce cours
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Examen final
+
+<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Études supplémentaires
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Félicitations pour avoir terminé ce cours ECON 201 ! J'espère sincèrement que vous l'avez apprécié et que vous vous êtes ouvert de nouvelles perspectives. Votre découverte du Bitcoin ne fait que commencer, et je vous invite à explorer tous les autres cours disponibles à l'université.
@@ -565,12 +582,6 @@ En plus de ces lectures, vous pouvez également trouver des informations sur l'�
 
 En lisant ces ouvrages et en explorant ces ressources en ligne, vous pouvez développer une compréhension plus approfondie des principes et des idées clés de l'école autrichienne d'économie.
 
-### Soutenez-nous
-
-Ce cours, ainsi que tout le contenu de cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager avec d'autres personnes, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
-
-### Évaluez le cours (bientôt disponible)
-Un système de notation pour le cours sera bientôt intégré à cette nouvelle plateforme d'apprentissage en ligne ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, n'hésitez pas à le partager avec d'autres personnes. (bientôt disponible)
 Si vous souhaitez approfondir le sujet de l'économie autrichienne, je vous suggère plusieurs interviews avec Théo Mogenet :
 
 - [Comment se préparer à la prochaine crise économique ?](https://youtu.be/GJT8t1TEd7Q)
@@ -582,4 +593,21 @@ Si vous souhaitez approfondir le sujet de l'économie autrichienne, je vous sugg
 - [Pour sauver la planète, abandonnez le dollar et l'euro](https://youtu.be/iHagDlH4bf8)
 - [Pourquoi une hausse des taux d'intérêt est-elle impossible ?](https://youtu.be/iHagDlH4bf8)
 
-Sinon, continuez votre apprentissage avec d'autres formations et tutoriels de l'université !
+# Conclusion
+
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
+
+## Évaluez ce cours
+
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

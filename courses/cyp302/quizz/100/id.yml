@@ -1,0 +1,8 @@
+question: Apa peran dari nonce dalam skema enkripsi terautentikasi?
+answer: Memastikan setiap pesan memiliki tag unik untuk mencegah pengulangan
+wrong_answers:
+  - Mengidentifikasi pengirim pesan
+  - Membuat kunci dekripsi sementara
+  - Menambahkan lapisan enkripsi tambahan
+explanation: |
+  Dalam skema enkripsi terautentikasi, nonce digunakan untuk memastikan bahwa setiap pesan memiliki tag unik, dengan demikian meningkatkan keamanan dengan mencegah pengulangan.

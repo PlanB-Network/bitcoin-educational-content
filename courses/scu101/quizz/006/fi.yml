@@ -1,11 +1,12 @@
 question: Mitä evästeet ovat verkkoselailun yhteydessä?
 answer: Verkkosivustojen luomia tiedostoja, jotka tallentavat tietoa laitteellesi.
 wrong_answers:
-  - Pieniä tietoja, jotka verkkosivusto lähettää ja jotka tallennetaan käyttäjän tietokoneelle käyttäjän verkkoselaimen toimesta.
+  - Pieniä tietoeräitä, jotka verkkosivusto lähettää ja jotka tallennetaan käyttäjän tietokoneelle käyttäjän verkkoselaimen toimesta.
   - Ohjelmia, jotka seuraavat online-toimintaasi.
   - Viruksia, jotka voivat vahingoittaa laitettasi.
 explanation: |
-  Verkkoselailun yhteydessä evästeet ovat verkkosivustojen luomia tiedostoja,
-  jotka tallentavat tietoa laitteellesi. Niitä käytetään muistamaan asetuksesi,
-  kirjautumistiedot ja muut tiedot parantaaksesi selauskokemustasi.
-reviewed: false
+  Verkkoselailun yhteydessä evästeet ovat tiedostoja,
+  jotka verkkosivustot luovat tallentaakseen tietoa laitteellesi.
+  Niitä käytetään muistamaan asetuksesi, kirjautumistiedot
+  ja muut tiedot parantamaan selauskokemustasi.
+reviewed: true

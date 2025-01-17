@@ -1,9 +1,13 @@
-question: ¿Cuál es el debate dentro de la comunidad de Bitcoin con respecto a la minería?
-answer: El equilibrio entre buscar ganancias y contribuir a la seguridad y distribución de la red Bitcoin.
+question: ¿Cuál es el debate dentro de la comunidad de Bitcoin respecto a la minería?
+answer: El equilibrio entre buscar beneficios y contribuir a la seguridad y distribución de la red de Bitcoin
 wrong_answers:
-  - El equilibrio entre aumentar la tasa de hash y disminuir el número de nodos activos.
-  - El equilibrio entre aumentar el precio y disminuir el costo.
-  - El equilibrio entre aumentar el número de transacciones y disminuir el consumo de energía.
+  - El equilibrio entre aumentar el hashrate y disminuir el número de nodos activos
+  - El equilibrio entre aumentar el precio y disminuir el costo
+  - El equilibrio entre aumentar el número de transacciones y disminuir el consumo de energía
 explanation: |
-  El debate dentro de la comunidad de Bitcoin con respecto a la minería gira en torno al equilibrio entre buscar ganancias y contribuir a la seguridad y distribución de la red Bitcoin. Hay argumentos sólidos en ambos lados del debate.
-reviewed: false
+  El debate dentro de la comunidad de Bitcoin respecto a la minería
+  gira en torno al equilibrio entre buscar beneficios y
+  contribuir a la seguridad y distribución de la
+  red de Bitcoin. Hay argumentos sólidos en ambos lados
+  del debate.
+reviewed: true

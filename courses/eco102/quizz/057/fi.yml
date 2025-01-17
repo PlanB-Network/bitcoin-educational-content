@@ -1,0 +1,9 @@
+question: Mikä on kynttilänvalmistajien esittämä pääargumentti heidän pyyntönsä tueksi?
+answer: Tarve tukea kansallista teollisuutta
+wrong_answers:
+  - Silmien suojaus
+  - Kynttilöiden ylivoimainen laatu verrattuna aurinkoon
+  - Kynttilöiden korkea tuotantokustannus
+explanation: |
+  Kynttilänvalmistajat väittävät, että heidän pyyntönsä on perusteltu tarpeella suojella kansallista teollisuutta, argumentti, jota Bastiat käyttää protektionismin arvostelemiseen.
+reviewed: false

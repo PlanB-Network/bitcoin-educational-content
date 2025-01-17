@@ -1,0 +1,22 @@
+year: 2024-05
+name: Bitcoin++ Script Edition 2024
+builder: Bitcoin++
+location: Austin, USA
+language:
+  - en
+links:
+  twitter: https://x.com/btcplusplus
+  website: https://btcpp.dev/
+tags:
+  - technical-analysis
+  - development
+  - high-level
+#proofreading_metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2024-12-19"
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

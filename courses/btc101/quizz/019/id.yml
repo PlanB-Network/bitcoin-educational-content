@@ -1,0 +1,9 @@
+question: Apa tiga fungsi utama dari uang?
+answer: Penyimpan nilai, Alat tukar, Satuan hitung
+wrong_answers:
+  - Penyimpan nilai, Alat tukar, Sarana produksi
+  - Penyimpan nilai, Sarana produksi, Satuan hitung
+  - Alat tukar, Sarana produksi, Satuan hitung
+explanation: |
+  Menurut Aristoteles, uang memiliki tiga fungsi: sebagai penyimpan nilai, alat tukar, dan satuan hitung. Meskipun saat ini, secara luas diakui bahwa fungsi alat tukar mendahului dua fungsi lainnya.
+reviewed: true

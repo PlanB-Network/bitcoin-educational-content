@@ -1,9 +1,8 @@
-question: Qual é o nome grosseiro às vezes usado para se referir à coleção de chaves privadas em uma carteira de Bitcoin?
-answer: Apenas um monte de chaves (JBOC)
+question: Em quantas partes a saída da função HMAC-SHA512 aplicada à semente é dividida?
+answer: Duas partes de 256 bits
 wrong_answers:
-  - Apenas um monte de moedas (JBOC)
-  - Apenas um monte de criptos (JBOC)
-  - Apenas um monte de códigos (JBOC)
+  - Uma única parte de 512 bits
+  - Três partes de 170 bits
+  - Quatro partes de 128 bits
 explanation: |
-  A coleção de chaves criptográficas privadas derivadas de uma única chave mestra em uma carteira de Bitcoin é às vezes referida pelo nome um pouco mais grosseiro de "Apenas um monte de chaves" (JBOC).
-reviewed: false
+  A saída do HMAC-SHA512 é dividida em duas partes: a chave privada mestre (256 bits) e o código de cadeia mestre (256 bits).

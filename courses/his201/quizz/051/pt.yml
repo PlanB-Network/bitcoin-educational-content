@@ -1,0 +1,9 @@
+question: Qual vulnerabilidade relatada por ArtForz em 28 de julho de 2010, permitia gastar bitcoins de qualquer endereço usando um script específico?
+answer: O bug 1 RETURN
+wrong_answers:
+  - O bug de overflow de valor
+  - O bug OP_NOP
+  - O bug LSHIFT
+explanation: |
+  A falha não foi explorada. Satoshi rapidamente incluiu a correção no software e recomendou a todos os usuários que atualizassem.
+reviewed: false

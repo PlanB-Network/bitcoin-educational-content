@@ -1,9 +1,9 @@
-question: Lợi ích chính khi sử dụng một cặp khóa mới cho mỗi giao dịch Bitcoin là gì?
-answer: Nó tăng cường an ninh.
+question: Sự khác biệt giữa khóa con bình thường và khóa con cứng là gì?
+answer: Khóa con cứng yêu cầu khóa riêng tư của cha mẹ để từ đó phát sinh.
 wrong_answers:
-  - Nó tăng cường tốc độ.
-  - Nó tăng cường ẩn danh.
-  - Nó tăng cường tính hợp pháp.
-explanation: |
-  Việc sử dụng một cặp khóa mới cho mỗi giao dịch tăng cường an ninh cho các giao dịch Bitcoin. Tuy nhiên, điều này làm tăng độ phức tạp trong việc sao lưu và chỉ bảo toàn một phần tính bảo mật thông tin.
+  - Khóa con bình thường không thể phát sinh từ khóa công khai.
+  - Khóa con cứng sử dụng chỉ số lẻ.
+  - Khóa con bình thường an toàn hơn khóa con cứng.
+explanation:
+  Khóa con bình thường có thể được phát sinh từ khóa công khai của cha mẹ, không giống như khóa con cứng yêu cầu khóa riêng tư của cha mẹ.
 reviewed: false

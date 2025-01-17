@@ -1,9 +1,9 @@
 question: Nhược điểm chính của tiền tệ fiat là gì?
-answer: Giá trị của chúng liên tục bị xói mòn bởi lạm phát tiền tệ
+answer: Giá trị của chúng liên tục bị xói mòn bởi lạm phát tiền tệ.
 wrong_answers:
-  - Chúng không dễ dàng vận chuyển
-  - Giá trị của chúng liên tục được đánh giá cao bởi lạm phát tiền tệ
-  - Chúng không thể chia nhỏ
-explanation: |
-  Nhược điểm chính của tiền tệ fiat, như đô la và euro, là giá trị của chúng liên tục bị xói mòn bởi lạm phát tiền tệ. Điều này là do các thực thể kiểm soát chúng (vua, ngân hàng trung ương, hoàng đế, độc tài) liên tục làm mất giá chúng.
+  - Chúng không dễ dàng vận chuyển.
+  - Giá trị của chúng liên tục được đánh giá cao bởi lạm phát tiền tệ.
+  - Chúng không thể chia nhỏ.
+explanation:
+  Nhược điểm chính của tiền tệ fiat, như đô la và euro, là giá trị của chúng liên tục bị xói mòn bởi lạm phát tiền tệ. Điều này do sự mất giá do các thực thể kiểm soát chúng (vua, ngân hàng trung ương, hoàng đế, độc tài) gây ra.
 reviewed: true

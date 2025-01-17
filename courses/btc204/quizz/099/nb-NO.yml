@@ -1,0 +1,13 @@
+question: Hva måler retrospektiv anonset?
+
+answer: Motstanden av personvern mot en analyse fra nåtid til fortid.
+
+wrong_answers:
+  - Motstanden av personvern mot en analyse fra fortid til fremtid.
+  - Motstanden av personvern mot en analyse fra nåtid til fremtid.
+  - Motstanden av personvern mot en analyse fra fortid til nåtid.
+
+explanation: |
+  Den retrospektive anonset måler motstanden til en mynts personvern mot en analyse fra nåtid til fortid (output til input).
+
+reviewed: false

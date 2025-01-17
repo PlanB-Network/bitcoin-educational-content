@@ -1,0 +1,11 @@
+question: Mis on hot wallet?
+answer: Bitcoin'i rahakott sinu telefonis või arvutis, mis on ühendatud internetti
+wrong_answers:
+  - Rahakott, mis on füüsiliselt kuum puudutada
+  - Rahakott, mis on populaarne Bitcoin'i kasutajate seas
+  - Rahakott, mida soovitatakse suurte Bitcoin'i summade hoidmiseks
+explanation: |
+  Hot wallet on termin, mida kasutatakse Bitcoin'i rahakoti kirjeldamiseks, mis on salvestatud
+  seadmesse, millel on internetiühendus, nagu telefon või arvuti. See teeb tehingute sooritamise lihtsaks,
+  kuid see tähendab ka, et rahakott on potentsiaalselt haavatav online-ohtudele.
+reviewed: true

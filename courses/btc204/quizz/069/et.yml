@@ -1,0 +1,13 @@
+question: Mis mõjutab Bitcoini tehingu kaalu?
+
+answer: Sisendite ja väljundite arv.
+
+wrong_answers:
+  - Plokiahela suurus.
+  - Sisendite ja väljundite summa.
+  - Kasutatud UTXO-de vanus.
+
+explanation: |
+  Mida rohkem on Bitcoini tehingul sisendeid ja väljundeid, seda raskem see vB-s on.
+
+reviewed: false

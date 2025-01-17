@@ -1,9 +1,9 @@
-question: Qual è la lunghezza delle chiavi private in un portafoglio Bitcoin?
-answer: 256 bit
+question: Cosa succede se si perde la passphrase associata al proprio portafoglio HD?
+answer: Si perde l'accesso ai bitcoin collegati a quel portafoglio
 wrong_answers:
-  - 128 bit
-  - 512 bit
-  - 1024 bit
+  - È comunque possibile accedere al portafoglio solo con la frase mnemonica
+  - È possibile reimpostare la passphrase contattando l'assistenza di Bitcoin
+  - Si perdono solo le transazioni non confermate
 explanation: |
-  Le chiavi private in un portafoglio Bitcoin, che sono essenziali per il possesso di criptovalute, hanno una lunghezza fissa di 256 bit.
-reviewed: false
+  La passphrase è un componente essenziale nella derivazione delle chiavi. Senza di essa, è impossibile ricreare le chiavi e quindi accedere ai bitcoin.
+recensito: false

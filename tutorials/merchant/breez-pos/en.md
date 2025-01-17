@@ -5,8 +5,7 @@ description: Guide to start accepting bitcoin using Breez POS
 ---
 
 ![cover](assets/cover.webp)
-
-_This texte comes from the Breez documentation website : https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
+_This text comes from the Breez documentation website: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
 ## What is Breez POS?
 
@@ -22,16 +21,16 @@ _This texte comes from the Breez documentation website : https://doc.breez.techn
 
 1. The first step is to download the app. It’s available for Android and iOS (install TestFlight and click the link from your device).
 2. Breez can back itself up automatically to Google Drive, iCloud, or any WebDav server.
-   > Note that each device runs its own Lightning node. You can run POS mode on as many devices as you’d like, but the balances will remain separate.
+   **Note:** each device runs its own Lightning node. You can run POS mode on as many devices as you’d like, but the balances will remain separate.
 3. With the app open, click on the icon at the top left to find the Point of Sale mode.
 
 ## Setting up POS
 
-1. Click that icon at the top left, and click Point of Sale > POS Settings.
+In order to set up the POS, click the icon at the top left, then click Point of Sale > POS Settings.
 
 ### The Manager Password
 
-In the POS Settings, you have the option to create a manager password. The manager password makes it impossible to send outgoing payments from the Breez app without authorization. Sales staff will only be able to receive payments from the device. Note that if you're using this option, you might also want to prevent access to Breez's backup, so using an external WebDav account (e.g., Nextcloud) is recommended for this use case.
+In the POS Settings, you have the option to create a manager password. The manager password makes it impossible to send outgoing payments from the Breez app without authorization. Sales staff will only be able to receive payments from the device. Note that if you're using this option, you might also want to prevent access to Breez's backup, so using an external WebDav account (e.g. Nextcloud) is recommended for this use case.
 
 ### The Items List
 
@@ -58,7 +57,7 @@ Once you see the Payment approved! animation in the Breez app on the merchant’
 
 ### Sales Report
 
-To view a daily/weekly/monthly report of your sales (for accounting purposes or others), click on the icon in the top left, and then click on Transactions. Click on the Report icon to display the report and the Calendar icon to change the selected date range.
+To view a daily, weekly and/or monthly report of your sales (for accounting purposes or others), click on the icon in the top left, and then click on Transactions. Click on the Report icon to display the report and the Calendar icon to change the selected date range.
 
 ### Exporting Transactions
 
@@ -68,7 +67,7 @@ To view a list of the payments received in Breez, click on the icon in the top l
 
 To print a sale receipt, click on the print icon on the top right of the payment confirmation dialog. Alternatively, click on the icon in the top left, and then click on Transactions. Locate the sale to print, open it, and click the top right print icon.
 
-> Note: use this driver to print on a portable 58mm/80mm Bluetooth/USB thermal printer.
+**Note:** use this driver to print on a portable 58mm/80mm Bluetooth/USB thermal printer.
 
 ## I want to learn more
 

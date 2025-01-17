@@ -1,0 +1,8 @@
+question: SegWit修正了ECDSA签名的哪个漏洞？
+answer: 可变性
+wrong_answers:
+  - 批量验证
+  - 缺乏聚合
+  - 签名过大
+explanation: |
+  SegWit修正了ECDSA签名的可变性，使得像闪电网络这样的应用成为可能。

@@ -1,11 +1,11 @@
-question: Was ist die Rolle der Miner im Bitcoin-Netzwerk?
-answer: Sie validieren Transaktionen, indem sie sie in einen Block aufnehmen.
+question: Was muss bei der Erstellung eines Erbschaftsplans nicht berücksichtigt werden?
+answer: Der Name des Bitcoin-Wallets, das Sie normalerweise verwenden.
 wrong_answers:
-  - Sie erzeugen neue Bitcoins.
-  - Sie verwalten das Bitcoin-Netzwerk.
-  - Sie regulieren den Preis von Bitcoin.
+  - Ein handschriftlicher Brief, der Ihre Vermögenswerte auflistet.
+  - Eine Beschreibung, wie auf Ihre Mittel zugegriffen werden kann.
+  - Die Kontaktdaten vertrauenswürdiger Personen.
 explanation: |
-  Miner im Bitcoin-Netzwerk haben die Aufgabe, Transaktionen zu validieren,
-  indem sie sie in einen Block aufnehmen. Dies geschieht, indem sie ein kryptografisches Rätsel lösen
-  in einem Prozess namens "Proof of Work".
-reviewed: false
+  Die Erstellung eines Erbschaftsplans ist ein entscheidender Schritt, um sicherzustellen, dass Ihre Bitcoins nach Ihrem Tod ordnungsgemäß verwaltet werden.
+  Dieser Plan kann einen handschriftlichen Brief enthalten, der Ihre Vermögenswerte, 
+  ihre Zugriffsmethoden und die Kontaktdaten vertrauenswürdiger Personen auflistet, die kontaktiert werden sollen.
+reviewed: true

@@ -5,7 +5,7 @@ wrong_answers:
   - POP3, IMAP, SSH
   - DHCP, DNS, ARP
 explanation: |
-  Kapitola zmiňuje TCP/IP, VPN a firewall jako některé z aspektů
-
-
-  znalostí sítí potřebných v kybernetické bezpečnosti.
+  Kapitola zmiňuje TCP/IP, VPN a firewall jako některé z
+  aspektů znalostí sítí potřebných v
+  kybernetické bezpečnosti.
+reviewed: true

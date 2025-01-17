@@ -1,0 +1,11 @@
+question: Hva er én grunn til at fiatvaluta fører til sentralisert kontroll?
+answer: Den lar regjeringer kontrollere pengetilbudet og rentenivået.
+wrong_answers:
+  - Den er støttet av fysiske varer som gull og sølv.
+  - Den er motstandsdyktig mot inflasjon.
+  - Den oppmuntrer til desentraliserte finanssystemer.
+explanation: |
+  Fiatvaluta gir regjeringer makten til å kontrollere pengetilbudet og
+  rentenivået, noe som lar dem påvirke økonomisk aktivitet og resulterer
+  i sentralisert kontroll.
+reviewed: true

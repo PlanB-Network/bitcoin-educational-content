@@ -1,9 +1,9 @@
-question: Quel est le principal avantage de l'or par rapport aux autres formes de monnaie ?
-answer: Sa rareté naturelle le rend précieux, tandis que ses propriétés chimiques lui permettent de ne pas s'éroder avec le temps.
+question: Pourquoi l'or n'est-il pas un matériel portable ?
+answer: Parce qu'il est dense et lourd, ce qui le rend encombrant à transporter en grandes quantités.
 wrong_answers:
-  - Il est facilement divisible et transportable.
-  - Il est soumis à l'inflation monétaire.
-  - Il est largement accepté dans le commerce.
+  - Parce qu'il est trop précieux pour être déplacé.
+  - Parce qu'il ne peut pas être facilement façonné en formes plus petites.
+  - Parce qu'il est liquide à température ambiante.
 explanation: |
-  Le principal avantage de l'or par rapport aux autres formes de monnaie est sa rareté naturelle, qui le rend précieux, et ses propriétés chimiques, qui lui permettent de ne pas s'éroder avec le temps.
-reviewed: false
+  L'or est dense et lourd, ce qui signifie que transporter de grandes quantités peut être physiquement difficile. Ce poids le rend moins pratique pour le transport par rapport à des matériaux plus légers.
+reviewed: true

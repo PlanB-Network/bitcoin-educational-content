@@ -1,0 +1,9 @@
+question: Điều gì tạo nên cơ sở vật lý cho phần lớn các phương tiện liên lạc ở các nước phát triển?
+answer: Mạng cáp quang
+wrong_answers:
+  - Vệ tinh cho mọi kết nối
+  - Chỉ sử dụng cáp đồng trục
+  - Chỉ sử dụng dây đồng
+explanation: |
+  Phần lớn các phương tiện liên lạc hiện đại dựa vào mạng cáp quang, đảm bảo trao đổi dữ liệu tốc độ cao, mặc dù một số ứng dụng của vệ tinh và cáp đồng trục vẫn còn tồn tại.
+reviewed: false

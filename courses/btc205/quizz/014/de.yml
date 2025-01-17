@@ -1,9 +1,0 @@
-question: Was ist ein Nachteil der HodlHodl P2P-Lösung?
-answer: Die E-Mail-Adresse und digitale Identität des Benutzers werden von HodlHodl gespeichert.
-wrong_answers:
-  - Es erleichtert nicht den Kauf und Verkauf von Bitcoin.
-  - Es erfordert die Erstellung eines Kontos, um zu funktionieren.
-  - Es bietet keine breite Palette von Austauschmöglichkeiten.
-explanation: |
-  Laut dem Kapitel ist einer der Nachteile von HodlHodl, dass die E-Mail-Adresse und digitale Identität des Benutzers von HodlHodl gespeichert werden.
-reviewed: false

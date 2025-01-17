@@ -1,9 +1,9 @@
-question: Lợi thế chính của hàm băm SHA256 là gì?
-answer: Độ bền vững trong việc tìm ra đầu vào từ giá trị băm, trong khi việc xác minh giá trị băm cho một đầu vào cho trước là một hành động cơ học đơn giản
+question: Đường cong elliptic nào được sử dụng trong giao thức Bitcoin?
+answer: secp256k1
 wrong_answers:
-  - Khả năng tạo ra một giá trị băm 512-bit từ một đầu vào có kích thước biến đổi
-  - Việc sử dụng các bit đệm để tăng kích thước của đầu vào
-  - Việc sử dụng các toán tử XOR, AND, và NOT để xử lý các bit
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  Lợi thế chính của hàm băm SHA256 là độ bền vững trong việc tìm ra đầu vào từ giá trị băm, trong khi việc xác minh giá trị băm cho một đầu vào cho trước là một hành động cơ học đơn giản. Điều này làm cho nó trở thành lựa chọn ưu tiên để bảo vệ nhiều hệ thống số, đặc biệt là trong giao thức Bitcoin.
+  Bitcoin sử dụng đường cong secp256k1, được định nghĩa bởi phương trình y² = x³ + 7, cho các hoạt động mật mã của mình.
 reviewed: false

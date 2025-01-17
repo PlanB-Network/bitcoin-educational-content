@@ -1,12 +1,9 @@
-question: Điểm tiêu cực tiềm ẩn của việc đào coin đối với mạng lưới là gì?
+question: Điểm hạn chế tiềm ẩn của việc đào coin đối với mạng lưới là gì?
 answer: Nếu không có đủ động lực tài chính, việc duy trì hỗ trợ mạng lưới có thể trở nên khó khăn đối với các thợ đào
 wrong_answers:
-  - Điều này có thể dẫn đến sự giảm giá của Bitcoin
-  - Điều này có thể dẫn đến sự tăng hashrate của mạng lưới
-  - Điều này có thể dẫn đến sự giảm số lượng nút hoạt động trong mạng lưới
+  - Điều này có thể dẫn đến giảm giá của Bitcoin
+  - Điều này có thể dẫn đến tăng hashrate của mạng lưới
+  - Điều này có thể dẫn đến giảm số lượng nút hoạt động trong mạng lưới
 explanation: |
-  Việc đào cho mạng lưới là một sáng kiến cao cả góp phần vào
-  sự an toàn và phi tập trung của mạng lưới Bitcoin. Tuy nhiên, nếu không có đủ
-  động lực tài chính, việc duy trì hỗ trợ mạng lưới có thể trở nên khó khăn đối với các thợ đào,
-  đặc biệt là khi họ hoạt động lỗ.
-reviewed: false
+  Việc đào cho mạng lưới là một sáng kiến cao cả góp phần vào sự an toàn và phân quyền của mạng lưới Bitcoin. Tuy nhiên, nếu không có đủ động lực tài chính, việc duy trì hỗ trợ mạng lưới có thể trở nên khó khăn đối với các thợ đào, đặc biệt là khi họ hoạt động lỗ.
+reviewed: true

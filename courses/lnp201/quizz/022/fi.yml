@@ -1,11 +1,8 @@
-question: Mitä Alice tekee 0,0007 BTC:n UTXO:lla, kun hän avaa kanavan Bobin kanssa?
-answer: Hän lähettää sen yhteen omista vaihto-osoitteistaan.
+question: Mitä peruutusavain mahdollistaa huijauksen tapauksessa?
+answer: Palauttaa kaikki varat rankaisemalla huijaria
 wrong_answers:
-  - Hän lähettää sen Bobin julkiseen osoitteeseen.
-  - Hän lähettää sen 2/2 moniallekirjoitusosoitteeseen.
-  - Hän pitää sen omassa osoitteessaan.
+  - Peruuttaa sitoumustapahtuman
+  - Tuplata kanavan kapasiteetin
+  - Estää kaikki tulevat tapahtumat kanavassa
 explanation: |
-  Kun Alice avaa kanavan Bobin kanssa, hän luo transaktion, jossa on 2
-  UTXO:ta lähtönä. Yksi UTXO, 0,0013 BTC, menee 2/2 moniallekirjoitusosoitteeseen, ja
-  toinen UTXO, 0,0007 BTC, menee yhteen hänen vaihto-osoitteistaan.
-reviewed: false
+  Peruutusavain mahdollistaa vahingoittuneen osapuolen palauttaa kaikki varat, jos toinen osapuoli yrittää huijata.

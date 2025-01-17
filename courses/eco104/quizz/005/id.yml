@@ -1,0 +1,9 @@
+question: Bagaimana inflasi mempengaruhi daya beli pekerja gaji seiring waktu?
+answer: Inflasi mengikis daya beli karena gaji seringkali tertinggal dari tingkat inflasi yang sebenarnya.
+wrong_answers:
+  - Inflasi meningkatkan daya beli karena gaji naik lebih cepat daripada harga.
+  - Inflasi tidak memiliki efek pada daya beli.
+  - Inflasi hanya mempengaruhi daya beli mereka yang berinvestasi di pasar keuangan.
+explanation: |
+  Inflasi menyebabkan peningkatan persisten dalam harga konsumen, mengikis daya beli pekerja gaji karena gaji mereka biasanya tertinggal dari tingkat inflasi yang sebenarnya. Hal ini membuat pekerja gaji kesulitan untuk mencapai tujuan tabungan jangka panjang mereka dan mempertahankan standar hidup mereka.
+reviewed: true

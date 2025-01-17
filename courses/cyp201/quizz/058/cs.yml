@@ -1,11 +1,9 @@
-question: Jaká je role entropie v Bitcoin HD peněžence?
-answer: Je základem každé HD peněženky a nezbytná pro její bezpečnost.
+question: Která funkce se používá k odvození seedu z mnemonické fráze?
+answer: PBKDF2 s HMAC-SHA512
 wrong_answers:
-  - Pomáhá při ověřování transakcí.
-  - Zvyšuje rychlost transakcí.
-  - Sníží velikost blockchainu.
+  - Pouze SHA256
+  - Dvojitý SHA256
+  - AES-256
 explanation: |
-  Entropie, neboli náhodnost, je základem jakékoli HD peněženky. Je nezbytná
-  pro bezpečnost peněženky, protože zajišťuje nepředvídatelnost generovaných
-  soukromých klíčů.
+  Seed je generován pomocí funkce PBKDF2 s HMAC-SHA512 a 2048 iteracemi, z mnemonické fráze a hesla.
 reviewed: false

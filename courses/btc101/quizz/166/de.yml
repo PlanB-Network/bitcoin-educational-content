@@ -1,9 +1,11 @@
-question: Was ist die Rolle der Bergleute in Bezug auf Kraftwerke, die noch nicht an das Stromnetz angeschlossen sind?
-answer: Sie fungieren als Käufer letzter Instanz.
+question: Was können Miner für Kraftwerke tun, die noch nicht an das Netz angeschlossen sind?
+answer: Sie können als Käufer in letzter Instanz fungieren.
 wrong_answers:
-  - Sie versorgen die Kraftwerke mit Strom.
-  - Sie schließen die Kraftwerke ans Stromnetz an.
-  - Sie regulieren den Strompreis.
+  - Sie können Kraftwerken mit Elektrizität versorgen.
+  - Sie können Kraftwerke an das Netz anschließen.
+  - Sie können den Preis für Elektrizität regulieren.
 explanation: |
-  > Bergleute fungieren als Käufer letzter Instanz für Kraftwerke, die noch nicht an das Stromnetz angeschlossen sind. Dadurch können die Kraftwerke bereits vor der Anbindung an das Stromnetz eine Finanzierung sichern.
-reviewed: false
+  Miner können als Käufer in letzter Instanz für Kraftwerke agieren,
+  die noch nicht an das Netz angeschlossen sind. Dies ermöglicht es Kraftwerken,
+  Finanzierungen zu sichern, selbst bevor sie mit dem elektrischen Netzwerk verbunden sind.
+reviewed: true

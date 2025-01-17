@@ -1,0 +1,9 @@
+question: Jak se jmenovala první úschovná aplikace umožňující jednoduché používání Bitcoinu na mobilu, která byla vytvořena v dubnu 2010?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+  Byla [propagována](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) na fóru 30. dubna 2010 někým jménem komoto.
+reviewed: false

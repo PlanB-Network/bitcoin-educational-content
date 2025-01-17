@@ -1,0 +1,9 @@
+question: Hvilken funksjon brukes til å beregne antall tall som er innbyrdes primtall med et heltall N?
+answer: Eulers Phi-funksjon
+wrong_answers:
+  - Den logaritmiske funksjonen
+  - Eulers Gamma-funksjon
+  - Gauss-funksjonen
+explanation: |
+  Eulers Phi-funksjon (eller totientfunksjon) brukes til å beregne antallet tall som er innbyrdes primtall med et heltall N, spesielt for ikke-primtall.
+reviewed: false

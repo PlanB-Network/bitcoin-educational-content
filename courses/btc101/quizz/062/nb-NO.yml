@@ -1,0 +1,9 @@
+question: Hva er mekanismen som sikrer at en ny blokk blir lagt til blockchain hvert tiende minutt?
+answer: Vanskelighetsjustering
+wrong_answers:
+  - Hastighetsjustering
+  - Tidsjustering
+  - Blokkjustering
+explanation: |
+  Mekanismen som sikrer at en ny blokk blir lagt til blockchain hvert tiende minutt, er vanskelighetsjustering. Denne justeringen finner sted hver 2016. blokk, eller omtrent hver to uke.
+reviewed: true

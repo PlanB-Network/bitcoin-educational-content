@@ -1,0 +1,9 @@
+question: Nhà toán học người Pháp nào đã giới thiệu khái niệm về nhóm vào thế kỷ 19?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois đã phát triển lý thuyết nhóm để nghiên cứu các giải pháp của phương trình đa thức bậc cao hơn năm.
+reviewed: false

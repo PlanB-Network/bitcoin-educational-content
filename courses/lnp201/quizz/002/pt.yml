@@ -1,9 +1,9 @@
-question: O que altera a distribuição da capacidade em um canal de pagamento Lightning?
-answer: Transações dentro do canal
+question: Se Alice envia 40.000 satoshis para Bob de um canal de pagamento onde ela inicialmente tem 100.000 satoshis, quanto de fundos ela tem restante após a transação?
+answer: 60.000 satoshis
 wrong_answers:
-  - Mudanças na taxa de câmbio do Bitcoin
-  - Mudanças na capacidade total do canal
-  - Mudanças na rede Bitcoin
+  - 30.000 satoshis
+  - 40.000 satoshis
+  - 140.000 satoshis
 explanation: |
-  As transações dentro do canal não alteram a capacidade total do canal, mas alteram a distribuição dessa capacidade entre os usuários.
+  Após enviar 40.000 satoshis, o saldo de Alice no canal é de 60.000 satoshis.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Hvilket aspekt ved Bitcoin ønsket Satoshi å nedtone i sin kommunikasjon i juli 2010?
+answer: Anonymiteten til transaksjoner
+wrong_answers:
+  - Pengepolitikk
+  - E-handel
+  - Programmerbarhet
+explanation: |
+  Når det gjelder utkastet til presentasjonen for Slashdot, uttalte han at han ikke ønsket å sette anonym aspektet i forgrunnen. Han forklarte sine grunner til Martti Malmi [i private](https: //mmalmi.github.io/satoshi/#email-197).

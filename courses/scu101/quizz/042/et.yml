@@ -1,0 +1,13 @@
+question: Miks on oluline kasutada juhuslikult genereeritud paroole?
+answer: Need pakuvad kõrgemat turvataset ja on vastupidavamad jõhkratele rünnakutele.
+wrong_answers:
+  - Need on lihtsamini meeldejäävad.
+  - Need on lühemad ja lihtsamad.
+  - Enamik veebiteenuseid nõuab neid.
+explanation: |
+  Juhuslikult genereeritud paroolid pakuvad kõrgemat turvataset, kuna
+
+  need on vastupidavamad jõhkratele rünnakutele, mis üritavad paroole ära arvata
+
+  proovides kõiki võimalikke tähemärkide kombinatsioone.
+reviewed: false

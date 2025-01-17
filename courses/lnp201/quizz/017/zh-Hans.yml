@@ -1,0 +1,8 @@
+question: 如果Bob向Alice发送一张30,000 satoshis的发票会发生什么？
+answer: Alice创建一个承诺交易，在通道中将30,000 satoshis转给Bob。
+wrong_answers:
+  - Alice必须开启一个新的通道来进行这次转账。
+  - Bob自动在他的钱包中收到30,000 satoshis。
+  - 发票通过比特币上的链上交易支付。
+explanation:
+  当Bob向Alice发送一张发票时，她创建并签署了一个新的承诺交易来调整资金的分配，从而在通道中转移30,000 satoshis。

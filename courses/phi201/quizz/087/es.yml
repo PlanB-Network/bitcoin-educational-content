@@ -1,0 +1,9 @@
+question: Según Constant, ¿en qué áreas el poder político no tiene influencia?
+answer: Todos los dominios mencionados anteriormente (religión, ciencia, industria).
+wrong_answers:
+  - Religión
+  - Ciencia
+  - Industria
+explanation: |
+  Constant cree que el poder político no debería intervenir en áreas como la religión, la ciencia y la industria, con el fin de preservar la libertad individual y la autonomía de las actividades humanas que caen dentro de la esfera privada.
+reviewed: false

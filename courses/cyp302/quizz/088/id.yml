@@ -1,0 +1,8 @@
+question: Apa algoritma enkripsi blok yang diadopsi sebagai standar AES?
+answer: The Rijndael Cipher
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  The Rijndael Cipher diadopsi sebagai standar enkripsi simetris (AES) oleh NIST, karena kinerja dan keamanannya yang tinggi.

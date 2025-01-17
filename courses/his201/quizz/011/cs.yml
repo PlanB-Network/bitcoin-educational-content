@@ -1,0 +1,9 @@
+question: Na který soukromý měnový systém se Satoshi Nakamoto ve svých textech výslovně odkázal?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - The Liberty Dollar
+  - e-Bullion
+explanation: |
+  Tento systém byl skutečně stále aktivní v době vzniku Bitcoinu, na rozdíl od e-gold a The Liberty Dollar. Satoshi také [zmínil](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix, digitální zlatou měnu vytvořenou v roce 2002.
+reviewed: false

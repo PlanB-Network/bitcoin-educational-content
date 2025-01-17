@@ -1,9 +1,9 @@
-question: Jaká je hlavní výhoda hašovací funkce SHA256?
-answer: Její odolnost proti zjištění vstupu z haše, zatímco ověření haše pro daný vstup je mechanicky jednoduchá akce.
+question: Která eliptická křivka je používána v protokolu Bitcoin?
+answer: secp256k1
 wrong_answers:
-  - Schopnost generovat 512bitový haš z vstupu proměnné velikosti
-  - Použití doplňkových bitů pro zvětšení velikosti vstupu
-  - Použití operátorů XOR, AND a NOT pro zpracování bitů
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  Hlavní výhodou hašovací funkce SHA256 je její odolnost proti zjištění vstupu z haše, zatímco ověření haše pro daný vstup je mechanicky jednoduchá akce. To ji činí preferovanou volbou pro zabezpečení mnoha digitálních systémů, zejména v rámci protokolu Bitcoin.
+  Bitcoin používá křivku secp256k1, definovanou rovnicí y² = x³ + 7, pro své kryptografické operace.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Qual è il principale vantaggio delle macchine specializzate SHA256, o ASICS, nel mining di Bitcoin?
-answer: Aumentano il tasso di hash per joule
+question: Qual è il principale vantaggio delle macchine specializzate SHA256, o ASIC, nel mining di Bitcoin?
+answer: Aumentano il tasso di hash per joule.
 wrong_answers:
-  - Riducono il consumo di energia
-  - Aumentano la velocità delle transazioni
-  - Aumentano la sicurezza della rete
-explanation: |
-  Le macchine specializzate SHA256, o ASICS, aumentano il tasso di hash per joule nel mining di Bitcoin. Ciò significa il numero di tentativi al secondo e per energia consumata.
-reviewed: false
+  - Riducono il consumo energetico.
+  - Aumentano la velocità delle transazioni.
+  - Aumentano la sicurezza della rete.
+explanation: >-
+  Le macchine specializzate SHA256, o ASIC, aumentano il tasso di hash per joule nel mining di Bitcoin. Ciò significa il numero di tentativi al secondo per energia consumata.
+reviewed: true

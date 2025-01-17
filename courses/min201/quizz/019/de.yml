@@ -1,9 +1,12 @@
-question: Was ist die Bedeutung des Lightning-Netzwerks im Zusammenhang mit dem Bitcoin-Mining?
-answer: Das Lightning-Netzwerk hat das Potenzial, Transaktionsgebühren erheblich zu reduzieren und somit das Einkommen der Miner zu beeinflussen.
+question: Was ist die Bedeutung des Lightning-Netzwerks im Kontext des Bitcoin-Minings?
+answer: Das Lightning-Netzwerk hat das Potenzial, die Transaktionsgebühren erheblich zu reduzieren, was sich auf das Einkommen der Miner auswirken kann.
 wrong_answers:
-  - Das Lightning-Netzwerk erhöht die Blockgröße und damit das Einkommen der Miner.
+  - Das Lightning-Netzwerk erhöht die Blockgröße, was das Einkommen der Miner steigert.
   - Das Lightning-Netzwerk reduziert den Energieverbrauch des Bitcoin-Minings.
   - Das Lightning-Netzwerk erhöht die Geschwindigkeit des Bitcoin-Minings.
 explanation: |
-  Das Lightning-Netzwerk ermöglicht schnelle und kostengünstige Transaktionen außerhalb der Haupt-Bitcoin-Kette. Dies hat das Potenzial, Transaktionsgebühren erheblich zu reduzieren, was sich auf das Einkommen der Miner auswirken könnte.
-reviewed: false
+  Das Lightning-Netzwerk ermöglicht schnelle und kostengünstige
+  Transaktionen außerhalb der Haupt-Bitcoin-Kette. Dies hat
+  das Potenzial, die Transaktionsgebühren erheblich zu reduzieren,
+  was sich auf das Einkommen der Miner auswirken könnte.
+reviewed: true

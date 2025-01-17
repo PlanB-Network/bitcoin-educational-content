@@ -1,9 +1,12 @@
 question: Qual è il principale vantaggio di Bitcoin rispetto ad altre forme di valuta?
-answer: Offre un eccellente conservazione del valore grazie al suo approvvigionamento rigorosamente limitato e alla sua neutralità.
+answer: Offre un eccellente riserva di valore a causa della sua offerta strettamente limitata e della sua neutralità.
 wrong_answers:
-  - È indivisibile e trasportabile
-  - È soggetto all'inflazione monetaria
-  - È ampiamente accettato nel commercio
+  - È indivisibile e non trasportabile.
+  - È un ottimo esempio di valuta che soffre di inflazione monetaria.
+  - È ampiamente accettato nel commercio da tutti i commercianti nel mondo.
 explanation: |
-  Il principale vantaggio di Bitcoin rispetto ad altre forme di valuta è che offre un eccellente conservazione del valore grazie al suo approvvigionamento rigorosamente limitato e alla mancanza di una parte fidata. Questo lo rende una buona scelta per il risparmio a lungo termine.
-reviewed: false
+  Il principale vantaggio di Bitcoin rispetto ad altre forme di valuta
+  è che offre un'eccellente riserva di valore a causa della sua
+  offerta strettamente limitata e della sua mancanza di parte fiduciaria. Questo
+  lo rende una buona scelta per il risparmio a lungo termine.
+reviewed: true

@@ -1,9 +1,12 @@
-question: Comment le Bitcoin est-il décrit dans le texte ?
-answer: Un objet multidisciplinaire
+question: Comment ce cours décrit-il Bitcoin ?
+answer: Un sujet multidisciplinaire.
 wrong_answers:
-  - Un objet simple
-  - Un objet complexe
-  - Un objet à discipline unique
+  - Un sujet simple.
+  - Un sujet physique.
+  - Un sujet mono-disciplinaire.
 explanation: |
-  Le Bitcoin est décrit comme un objet multidisciplinaire car il soulève des questions liées à différents domaines, notamment la cryptographie, la théorie des jeux, l'économie et la politique monétaire, l'informatique, la philosophie, l'énergie, le droit et la réglementation.
-reviewed: false
+  Bitcoin est décrit comme un sujet multidisciplinaire car
+  il soulève des questions liées à divers domaines, incluant
+  la cryptographie, la théorie des jeux, l'économie et la politique monétaire,
+  l'informatique, la philosophie, l'énergie, les lois et la régulation.
+reviewed: true

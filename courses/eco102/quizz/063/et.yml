@@ -1,0 +1,9 @@
+question: Mis on Margaret Thatcheri peamine idee seoses Lafferi kõveraga?
+answer: Maksusid tuleks vähendada majanduse elavdamiseks
+wrong_answers:
+  - Jõukatele tuleks makse suurendada
+  - Kõrgeid maksumäärasid tuleks säilitada avalike teenuste rahastamiseks
+  - Kõiki makse tuleks säilitada
+explanation: |
+  Lafferi kõverast inspireerituna pooldas Margaret Thatcher maksude vähendamist majanduskasvu stimuleerimiseks.
+reviewed: false

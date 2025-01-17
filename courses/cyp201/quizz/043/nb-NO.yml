@@ -1,0 +1,9 @@
+question: Hvor mange bits entropi brukes for en 24-ords mnemonic frase?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - 512 bits
+  - 64 bits
+explanation: |
+  En 24-ords mnemonic frase er basert på 256 bits entropi, noe som sikrer veldig høy sikkerhet.
+reviewed: false

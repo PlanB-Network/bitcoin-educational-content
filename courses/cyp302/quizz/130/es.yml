@@ -1,0 +1,9 @@
+question: ¿Qué papel desempeñan las autoridades de certificación en el proceso de distribución de claves públicas?
+answer: Emiten certificados que garantizan la autenticidad de las claves públicas
+wrong_answers:
+  - Generan claves privadas para los usuarios
+  - Almacenan claves públicas para todos los usuarios
+  - Aseguran la encriptación de mensajes entre usuarios
+explanation: |
+  Las autoridades de certificación emiten certificados que vinculan una clave pública con su propietario, permitiendo a los usuarios verificar la autenticidad de las claves públicas que utilizan.
+reviewed: false

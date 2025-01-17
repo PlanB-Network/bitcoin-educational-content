@@ -1,10 +1,9 @@
-question: Wie können Sie die Standard-Sicherheit Ihrer Bitcoin-Wallet stärken?
+question: Wie können Sie die Standardsicherheit Ihres Bitcoin-Wallets verstärken?
 answer: Indem Sie Ihrem Bitcoin-Wallet eine Passphrase hinzufügen.
 wrong_answers:
   - Indem Sie Ihrem Bitcoin-Wallet einen zweiten privaten Schlüssel hinzufügen.
   - Indem Sie Ihrem Bitcoin-Wallet einen zweiten öffentlichen Schlüssel hinzufügen.
   - Indem Sie Ihrem Bitcoin-Wallet eine zweite mnemonische Phrase hinzufügen.
 explanation: |
-  Wenn Sie mit der Standard-Sicherheit Ihrer Bitcoin-Wallet nicht zufrieden sind,
-  können Sie diese jederzeit durch Hinzufügen einer Passphrase zu Ihrem Bitcoin-Wallet stärken.
-reviewed: false
+  Wenn Sie mit der Standardsicherheit Ihres Bitcoin-Wallets nicht zufrieden sind, können Sie diese immer verstärken, indem Sie Ihrem Bitcoin-Wallet eine Passphrase hinzufügen.
+reviewed: true

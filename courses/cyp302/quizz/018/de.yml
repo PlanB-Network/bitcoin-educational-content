@@ -1,0 +1,9 @@
+question: In welchem Fall können wir sagen, dass zwei Ereignisse unabhängig sind?
+answer: Die Wahrscheinlichkeit des einen beeinflusst nicht die Wahrscheinlichkeit des anderen.
+wrong_answers:
+  - Die beiden Ereignisse treten immer gleichzeitig auf.
+  - Sie schließen sich gegenseitig aus.
+  - Ihre kombinierte Wahrscheinlichkeit entspricht der höchsten Wahrscheinlichkeit der beiden.
+explanation: |
+  Zwei Ereignisse sind unabhängig, wenn die Wahrscheinlichkeit des einen die Wahrscheinlichkeit des anderen nicht verändert, wie zum Beispiel ein Lotteriezug, der keinen Einfluss auf das Wetter des nächsten Tages hat.
+reviewed: false

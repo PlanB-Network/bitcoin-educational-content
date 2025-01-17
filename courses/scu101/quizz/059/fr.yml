@@ -1,9 +1,10 @@
-question: Quelles sont certaines des compétences nécessaires en cybersécurité?
+question: Quelles sont certaines des compétences nécessaires en cybersécurité ?
 answer: Analyse des journaux, réponse aux incidents
 wrong_answers:
-  - Design graphique, montage vidéo
-  - Vente, marketing
+  - Conception graphique, montage vidéo
+  - Ventes, marketing
   - Cuisine, pâtisserie
 explanation: |
-  Le chapitre mentionne l'analyse des journaux et la réponse aux incidents comme certaines des compétences nécessaires en cybersécurité.
-reviewed: false
+  Le chapitre mentionne l'analyse des journaux et la réponse aux incidents comme
+  certaines des compétences nécessaires en cybersécurité.
+reviewed: true

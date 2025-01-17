@@ -1,0 +1,9 @@
+question: Mis on XOR-operatsiooni kommutatiivsusomadus?
+answer: Operandide järjekord ei mõjuta operatsiooni tulemust
+wrong_answers:
+  - XOR töötab ainult paarisarvudega
+  - XOR nõuab sama pikkusega operande
+  - Operandide bittide asukoht ei mõjuta operatsiooni tulemust
+explanation: |
+  XOR on kommutatiivne, mis tähendab, et a XOR b on võrdne b XOR a-ga.
+reviewed: false

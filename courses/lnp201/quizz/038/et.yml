@@ -1,0 +1,9 @@
+question: Millist rolli mängib ajalukk HTLC-de toimimises?
+answer: See annab ajaraami makse sooritamiseks enne tühistamist
+wrong_answers:
+  - See suurendab kasutatava kanali mahtu
+  - See lisab tehingule privaatsuse kihi
+  - See rakendab iga vahendaja sõlme kohta lisatasusid
+explanation: |
+  Ajalukk kehtestab ajaraami HTLC-i lõpuleviimiseks, mis võimaldab vahendite taastamist, kui tehing ei õnnestu, tühistades makse pärast seda perioodi.
+reviewed: false

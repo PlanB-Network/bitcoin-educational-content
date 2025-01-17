@@ -1,0 +1,13 @@
+question: Wie viele aufeinanderfolgende Transaktionen führt ein klassisches Ricochet normalerweise durch?
+
+answer: 5
+
+wrong_answers:
+  - 2
+  - 8
+  - 14
+
+explanation: |
+  Die Ricochet-Methode beinhaltet typischerweise das Durchführen von 4 Transaktionen an sich selbst und eine finale, um die Mittel an den endgültigen Empfänger zu senden.
+
+reviewed: false

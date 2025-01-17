@@ -1,0 +1,8 @@
+question: Hva var effekten av distribusjons- og nøkkelhåndteringsproblemer før 1970-tallet?
+answer: De begrenset sikkerheten og effektiviteten til kommunikasjon i stor skala
+wrong_answers:
+  - De forhindret overføring av krypterte meldinger på offentlige nettverk
+  - De krevde offentlige nøkler for hver melding
+  - De påkrevde bruk av homomorf kryptografi
+explanation: |
+  Før 1970-tallet gjorde problemer med nøkkeldistribusjon og -håndtering det vanskelig å sikre kommunikasjon i stor skala, noe som hindret utviklingen av moderne applikasjoner som netthandel.

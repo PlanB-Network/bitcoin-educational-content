@@ -2,8 +2,12 @@ question: O que é um gerenciador de senhas?
 answer: Uma ferramenta que permite armazenar, gerar e gerenciar suas senhas para diferentes contas online.
 wrong_answers:
   - Uma ferramenta que ajuda você a lembrar todas as suas senhas.
-  - Uma ferramenta que faz login automaticamente em suas contas online.
-  - Uma ferramenta que protege seu computador contra vírus.
+  - Uma ferramenta que automaticamente faz o login nas suas contas online com nome de usuário e senha.
+  - Uma ferramenta que protege as senhas no seu computador contra vírus.
 explanation: |
-  Um gerenciador de senhas é uma ferramenta que permite armazenar, gerar e gerenciar suas senhas para diferentes contas online. Ele ajuda você a criar senhas fortes e lembrá-las, para que você não precise se preocupar.
-reviewed: false
+  Um gerenciador de senhas é uma ferramenta que permite armazenar,
+  gerar e gerenciar suas senhas para diferentes contas online.
+  Ele ajuda a criar senhas fortes e a lembrá-las, para que você não
+  tenha que fazê-lo. Gerenciar suas senhas para diferentes contas online.
+reviewed: true
+

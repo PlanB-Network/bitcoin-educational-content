@@ -1,9 +1,12 @@
-question: Perché i dati biometrici sono considerati meno sicuri della combinazione di conoscenza e possesso per l'autenticazione a due fattori (2FA)?
+question: Perché i dati biometrici sono considerati meno sicuri rispetto alla combinazione di conoscenza e possesso per il 2FA?
 answer: I dati biometrici dovrebbero rimanere sul dispositivo di autenticazione e non essere divulgati online.
 wrong_answers:
-  - I dati biometrici sono più facili da falsificare.
-  - I dati biometrici sono più difficili da ricordare.
-  - L'implementazione dei dati biometrici è più costosa.
+  - I dati biometrici sono più facili da estrarre anche se mantenuti offline sul dispositivo di autenticazione.
+  - I dati biometrici sono sia più difficili da ricordare sia da usare quando si utilizza un dispositivo di autenticazione.
+  - Gli strumenti per i dati biometrici sono più costosi da implementare e quindi non convenienti rispetto ad altre soluzioni.
 explanation: |
-  I dati biometrici sono meno sicuri perché dovrebbero rimanere sul dispositivo di autenticazione e non essere divulgati online. Se vengono divulgati online, possono essere rubati e utilizzati per l'accesso non autorizzato.
-reviewed: false
+  I dati biometrici sono meno sicuri perché dovrebbero rimanere
+  sul dispositivo di autenticazione e non essere divulgati online. Se
+  vengono divulgati online, possono essere rubati e utilizzati per
+  accessi non autorizzati.
+reviewed: true

@@ -1,11 +1,11 @@
-question: Mikä on yksilöllisen vastuun merkitys Bitcoinissa?
-answer: Se on ratkaisevan tärkeää, koska olet vastuussa varmuuskopioista
+question: Mikä on yksilön vastuun merkitys Bitcoinissa?
+answer: Se on ratkaisevan tärkeää, koska olet vastuussa varmuuskopioista.
 wrong_answers:
-  - Se on olennaista, koska sinun täytyy louhia bitcoineja
-  - Se on olennaista bitcoineja ostaessa
-  - Se on ratkaisevan tärkeää, koska olet vastuussa lompakon teemasta
+  - Se on olennaista, koska sinun täytyy louhia bitcoineja.
+  - Se on olennaista bitcoineja ostaessa.
+  - Se on ratkaisevan tärkeää, koska olet vastuussa lompakon teemasta.
 explanation: |
-  Bitcoinissa taloudellinen suvereniteetti kulkee käsi kädessä yksilöllisen
-  vastuun kanssa, koska sinun täytyy itse huolehtia varojesi säilytyksestä noudattamalla
-  suositeltua varmuuskopiointimenettelyä.
-reviewed: false
+  Bitcoinissa taloudellinen suvereniteetti kulkee käsi kädessä
+  yksilön vastuun kanssa, koska sinun täytyy itse huolehtia
+  varojesi säilytyksestä noudattamalla suositeltuja varmuuskopiointimenettelyjä.
+reviewed: true

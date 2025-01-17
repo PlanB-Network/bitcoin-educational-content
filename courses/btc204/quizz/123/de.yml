@@ -1,0 +1,13 @@
+question: Was ist der Hauptnachteil der Verwendung von Tor für einen Bitcoin-Knoten?
+
+answer: Verringerung der Kommunikationsgeschwindigkeit
+
+wrong_answers:
+  - Erhöhung der Transaktionsgebühren
+  - Risiko der Transaktionszensur
+  - Risiko eines Eclipse-Angriffs auf den Knoten
+
+explanation: |
+  Kommunikationen über Tor sind langsamer. Diese Latenz ist besonders problematisch während des initialen Starts eines Knotens, da der IBD (Initial Block Download) viele Kommunikationen erfordert.
+
+reviewed: false

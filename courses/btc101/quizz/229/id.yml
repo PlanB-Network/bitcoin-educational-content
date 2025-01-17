@@ -1,0 +1,9 @@
+question: Bagaimana transaksi di Lightning Network diamankan?
+answer: Melalui kriptografi dan secara tidak langsung melalui energi yang dikonsumsi oleh penambang di Bitcoin.
+wrong_answers:
+  - Hanya melalui penggunaan kunci privat.
+  - Hanya melalui penggunaan kunci publik.
+  - Hanya melalui penggunaan kedua kunci privat dan publik.
+explanation: >-
+  Transaksi di Lightning Network diamankan melalui kriptografi dan secara tidak langsung melalui energi yang dikonsumsi oleh penambang di Bitcoin.
+reviewed: false

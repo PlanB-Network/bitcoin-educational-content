@@ -1,9 +1,0 @@
-question: Was bedeutet das '1m' in 'lnbc1m' in einer Lightning Network Rechnung?
-answer: Es repräsentiert den Betrag in Milli-Bitcoin (0,0001 BTC).
-wrong_answers:
-  - Es repräsentiert die Version des Lightning Networks.
-  - Es repräsentiert die Transaktionsgebühr.
-  - Es repräsentiert die Blockhöhe.
-explanation: |
-  In einer Lightning Network Rechnung repräsentiert '1m' den Betrag in Milli-Bitcoin (0,0001 BTC). 'M' steht für milli, was ein metrisches Präfix ist und einen Faktor von 10^-3 bedeutet. Daher entspricht '1m' 0,0001 BTC oder 100.000 Satoshis.
-reviewed: false

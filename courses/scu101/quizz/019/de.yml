@@ -1,9 +1,11 @@
 question: Warum ist es entscheidend, das Betriebssystem und die Anwendungen regelmäßig zu aktualisieren?
-answer: Um sich vor neuen Bedrohungen und Schwachstellen zu schützen.
+answer: Um sich gegen neue Bedrohungen und Schwachstellen zu schützen.
 wrong_answers:
-  - Um die Maschine veraltet zu machen.
+  - Um die Maschine obsolet zu machen.
   - Um die Maschine zu verlangsamen.
   - Um die Benutzeroberfläche zu ändern.
 explanation: |
-  Regelmäßige Updates sind unerlässlich, um das System vor neuen Bedrohungen und Schwachstellen zu schützen. Sie dienen nicht dazu, die Maschine veraltet zu machen oder zu verlangsamen.
-reviewed: false
+  Regelmäßige Updates sind essenziell, um das System vor
+  neuen Bedrohungen und Schwachstellen zu schützen. Sie sind nicht darauf ausgelegt,
+  die Maschine obsolet zu machen oder zu verlangsamen.
+reviewed: true

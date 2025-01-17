@@ -1,9 +1,9 @@
 question: Jaký je dopad 20% inflace na kupní sílu za 3 roky?
-answer: Ztratíte 50% své kupní síly
+answer: Ztratíte 50% své kupní síly.
 wrong_answers:
-  - Ztratíte 100% své kupní síly
-  - Ztratíte 60% své kupní síly
-  - Ztratíte 30% své kupní síly
+  - Ztratíte 100% své kupní síly.
+  - Ztratíte 60% své kupní síly.
+  - Ztratíte 30% své kupní síly.
 explanation: |
   Při 20% inflaci ztratíte téměř polovinu své kupní síly za 3 roky.
 reviewed: true

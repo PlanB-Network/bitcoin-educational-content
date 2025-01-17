@@ -1,4 +1,4 @@
-question: What is the general trend of Bitcoin due to its limited quantity and halving
+question: What is the overall trend of Bitcoin, considering its limited supply and the halving process?
   process?
 answer: A general upward trend.
 wrong_answers:
@@ -9,4 +9,4 @@ explanation: >-
   Bitcoin, due to its limited quantity of 21 million bitcoins and its halving
   process (halving the monetary creation every 4 years on average), follows a general
   upward trend.
-reviewed: false
+reviewed: true

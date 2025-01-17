@@ -1,0 +1,9 @@
+question: Quel type de chiffrement utilise des blocs de données fixes ?
+answer: Le chiffrement par bloc
+wrong_answers:
+  - Le chiffrement par flux
+  - Le code d'authentification de message
+  - La clé publique
+explanation: |
+  Le chiffrement par bloc divise les données en blocs de taille fixe et les chiffre indépendamment.
+reviewed: false

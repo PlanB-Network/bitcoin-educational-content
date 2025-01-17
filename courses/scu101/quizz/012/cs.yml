@@ -1,11 +1,12 @@
 question: Proč je důležité ověřit veřejný klíč stránky pomocí certifikačního systému?
-answer: Aby se potvrdila pravost stránky.
+answer: Aby se potvrdila autentičnost stránky.
 wrong_answers:
-  - Aby se obešla geografická omezení.
-  - Aby se blokovaly online reklamy.
-  - Aby se na stránku přistupovalo bez použití dat.
+  - Aby se zajistilo, že nedojde k podvodu, ale pouze při připojení přes veřejnou Wi-Fi síť.
+  - Aby se částečně blokovaly online reklamy.
+  - Aby se zajistilo, že žádná zlomyslná entita nepředstírá být danou webovou stránkou.
 explanation: |
-  Ověření veřejného klíče stránky pomocí certifikačního systému je důležité
-  k potvrzení pravosti stránky. To pomáhá chránit před zlými jedinci,
-  kteří se vydávají za stránku a přenášejí data v nešifrované podobě.
-reviewed: false
+  Ověření veřejného klíče stránky pomocí certifikačního systému
+  je důležité pro potvrzení autentičnosti stránky. To pomáhá chránit
+  před zlomyslnými jedinci, kteří se vydávají za stránku a přenášejí data
+  v nešifrované podobě.
+reviewed: true

@@ -1,9 +1,12 @@
-question: Quelles sont les stratégies discutées pour lutter contre la centralisation minière dans Bitcoin ?
-answer: Les stratégies discutées pour lutter contre la centralisation minière dans Bitcoin incluent le Home Mining, le protocole Stratum V2, la mise en open source des logiciels de minage et la diversification des acteurs et de la géographie.
+question: Quelles sont certaines stratégies discutées pour combattre la centralisation du minage dans Bitcoin ?
+answer: Les stratégies discutées pour combattre la centralisation du minage dans Bitcoin incluent le Minage à domicile, le protocole Stratum V2, l'open-sourcing des logiciels de minage, et la diversification des acteurs et de la géographie.
 wrong_answers:
-  - Les stratégies discutées pour lutter contre la centralisation minière dans Bitcoin incluent l'augmentation de la taille des blocs, la mise en place de la preuve d'enjeu (proof of stake) et la création d'une autorité centrale chargée de superviser le minage.
-  - Les stratégies discutées pour lutter contre la centralisation minière dans Bitcoin incluent la réduction de la récompense de bloc, la mise en place de frais de transaction et la création d'une taxe minière.
-  - Les stratégies discutées pour lutter contre la centralisation minière dans Bitcoin incluent l'augmentation de la difficulté du minage, la mise en place d'un plafond de minage et la création d'une loterie minière.
+  - Les stratégies discutées pour combattre la centralisation du minage dans Bitcoin incluent l'augmentation de la taille des blocs, l'implémentation de la preuve d'enjeu, et la création d'une autorité centrale pour superviser le minage.
+  - Les stratégies discutées pour combattre la centralisation du minage dans Bitcoin incluent la réduction de la récompense de bloc, l'implémentation d'une taxe sur les transactions, et la création d'une taxe sur le minage.
+  - Les stratégies discutées pour combattre la centralisation du minage dans Bitcoin incluent l'augmentation de la difficulté du minage, l'implémentation d'un plafond de minage, et la création d'une loterie de minage.
 explanation: |
-  Le chapitre aborde plusieurs stratégies pour lutter contre la centralisation minière dans Bitcoin, notamment le Home Mining, le protocole Stratum V2, la mise en open source des logiciels de minage et la diversification des acteurs et de la géographie.
-reviewed: false
+  Le chapitre discute de plusieurs stratégies pour combattre la
+  centralisation du minage dans Bitcoin, incluant le Minage à domicile,
+  le protocole Stratum V2, l'open-sourcing des logiciels de minage, et
+  la diversification des acteurs et de la géographie.
+reviewed: true

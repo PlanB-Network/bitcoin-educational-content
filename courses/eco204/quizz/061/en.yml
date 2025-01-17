@@ -1,4 +1,5 @@
-question: What was the consequence of the Bank of England relegating private banks
+question:
+  What was the consequence of the Bank of England relegating private banks
   to a secondary position in the monetary system?
 answer: A third layer of currency was created
 wrong_answers:
@@ -7,10 +8,7 @@ wrong_answers:
   - The Bank of Amsterdam became the global economic center
 explanation: |
   When the Bank of England relegated private banks to a secondary position
-
   in the monetary system, a third layer of currency was created. The notes issued
-
   by private banks were no longer convertible into gold but into paper currency from
-
-  the Bank of England, which itself was convertible into gold.'
+  the Bank of England, which itself was convertible into gold.
 reviewed: false

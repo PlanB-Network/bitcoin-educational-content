@@ -1,0 +1,8 @@
+question: Hva er den største ulempen med minibanker (ATM)?
+answer: Ofte veldig høye gebyrer.
+wrong_answers:
+  - Behov for en rask internettforbindelse.
+  - Mangel på støtte for lokale valutaer.
+  - Transaksjonssikkerhet ikke garantert.
+explanation: |
+  Å kjøpe bitcoins gjennom minibanker er en interessant løsning for brukerens personvern, men deres største ulempe er at de ofte tar ekstremt høye gebyrer.

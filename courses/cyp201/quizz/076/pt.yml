@@ -1,9 +1,8 @@
-question: O que acontece se a frase de acesso de uma carteira de Bitcoin for alterada?
-answer: A carteira de Bitcoin se torna completamente diferente
+question: A que corresponde a notação /<0;1>/* em um descritor?
+answer: À cadeia externa e interna com derivação sequencial
 wrong_answers:
-  - A carteira de Bitcoin se torna inacessível
-  - A carteira de Bitcoin permanece a mesma
-  - A carteira de Bitcoin perde todos os seus bitcoins
+  - A um endereço de multisignatura ordenado
+  - A um checksum para caminhos de derivação
+  - A um caminho de derivação endurecido
 explanation: |
-  Se a frase de acesso for alterada, a carteira de Bitcoin se torna completamente diferente, pois a frase de acesso desempenha um papel na construção e cálculo de todas as chaves da carteira.
-reviewed: false
+  A notação /<0;1>/* indica que o descritor pode gerar endereços para a cadeia externa (0) e interna (1), com derivação sequencial graças ao curinga (*).

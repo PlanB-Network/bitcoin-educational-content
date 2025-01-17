@@ -1,0 +1,13 @@
+question: 什么元素阻止外部观察者区分Stonewall和Stonewall x2交易？
+
+answer: 交易模式相同
+
+wrong_answers:
+  - 交易被加密
+  - 交易涉及的金额总是相同的
+  - 交易的数字签名由相同的算法生成
+
+explanation: |
+  从外部视角来看，交易模式完全相同。没有额外的上下文信息，因此无法区分Stonewall交易和Stonewall x2交易，因为它们采用相同的模式。
+
+reviewed: false

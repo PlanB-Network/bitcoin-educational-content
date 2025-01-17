@@ -1,9 +1,9 @@
-question: Mikä on lähtökohta kaikkien käyttäjien julkisten avainten laskemiselle Bitcoin-järjestelmässä?
-answer: Piste G
+question: Mitä HD-lompakko mahdollistaa verrattuna JBOK-lompakkoon?
+answer: Luo kaikki yksityiset avaimet yhdestä siemenestä
 wrong_answers:
-  - Piste K
-  - Piste U
-  - Piste O
+  - Digitaalisten allekirjoitusten turvallisuuden lisääminen
+  - Saman osoitteen uudelleenkäyttö useissa siirroissa
+  - Julkisten avainten käytön täydellinen välttäminen
 explanation: |
-  Piste G on lähtökohta kaikkien käyttäjien julkisten avainten laskemiselle Bitcoin-järjestelmässä.
+  HD-lompakot johdattavat kaikki yksityiset avaimet uniikista siemenestä, mikä yksinkertaistaa varmuuskopiointia ja parantaa epäsuorasti yksityisyyttä.
 reviewed: false

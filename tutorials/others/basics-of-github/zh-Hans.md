@@ -57,5 +57,5 @@ GitHub不仅仅是一个代码托管服务。它是一个允许开发者高效�
 
 这个列表显然不是详尽的。还有许多其他特定于Git和GitHub的技术术语。然而，这里提到的是你经常会遇到的主要术语。
 在阅读了这篇文章之后，您可能仍然对Git和GitHub的某些方面感到不太清楚。我鼓励您开始亲自使用这些工具。实践往往是理解机器如何工作的最佳方式！为了开始，您可以发现这两个其他教程：
-- **[创建您的GitHub账户](https://planb.network/tutorials/others/create-github-account)**
-- **[设置您的本地环境以便为PlanB网络做出贡献](https://planb.network/tutorials/others/github-desktop-work-environment)**
+- **[创建您的GitHub账户](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[设置您的本地环境以便为PlanB网络做出贡献](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**

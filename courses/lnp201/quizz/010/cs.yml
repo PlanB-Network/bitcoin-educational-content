@@ -1,8 +1,9 @@
-question: Co se stane se všemi bitcoiny v Bitcoin transakci?
-answer: Musí se všechny pohnout.
+question: Jaký je první krok při otevírání Lightning kanálu mezi dvěma účastníky?
+answer: Výměna zpráv obsahujících částky a veřejné klíče
 wrong_answers:
-  - Všechny jsou převedeny na fiat měnu.
-  - Všechny jsou uloženy na nové adrese.
-  - Všechny jsou rovnoměrně rozděleny mezi účastníky.
+  - Okamžitě publikovat transakci vkladu na blockchainu
+  - Vytvořit 2/2 multisignaturní adresu bez předchozí výměny
+  - Podepsat transakci pro výběr před výměnou veřejných klíčů
 explanation: |
-  V Bitcoin transakci se musí všechny bitcoiny pohnout. Toto je označováno jako UTXO (Unspent Transaction Output), kde se všechny kousky bitcoinu pohnou a poté se vrátí zpět majiteli.
+  Otevření kanálu začíná výměnou zpráv mezi oběma stranami, kde sdílejí částky, které chtějí zavázat, a své veřejné klíče.
+reviewed: false

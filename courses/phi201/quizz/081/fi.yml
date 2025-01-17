@@ -1,0 +1,9 @@
+question: Mitkä olivat valtion päämäärät Locken mukaan?
+answer: Suojella yksilöiden elämää, vapautta ja omaisuutta.
+wrong_answers:
+  - Lainvalvonnan ja järjestyksen ylläpitäminen.
+  - Yhteisen hyvinvoinnin ja sosiaalisen oikeudenmukaisuuden edistäminen.
+  - Uskonnon ja moraalisten arvojen puolustaminen.
+explanation: |
+  Locken mukaan valtion ensisijainen tehtävä on turvata luonnolliset oikeudet, erityisesti elämä, vapaus ja omaisuus, jotta yksilöt voivat elää rauhassa ja kukoistaa.
+reviewed: false

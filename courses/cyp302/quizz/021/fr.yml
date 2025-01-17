@@ -1,0 +1,9 @@
+question: Quel est le terme mathématique pour les calculs impliquant des opérations modulo ?
+answer: L'arithmétique modulaire
+wrong_answers:
+  - L'algèbre linéaire
+  - La trigonométrie
+  - La géométrie discrète
+explanation: |
+  L'arithmétique modulaire est la branche des mathématiques qui s'occupe des opérations sur les nombres dans un cadre fini, utilisant l'opération modulo.
+reviewed: false

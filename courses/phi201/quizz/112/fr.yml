@@ -1,0 +1,9 @@
+question: Selon Keynes, quel rôle l'État doit-il jouer dans l'économie ?
+answer: Un rôle actif en stimulant la demande pour relancer l'économie
+wrong_answers:
+  - Un rôle minimal laissant le marché réguler l'économie
+  - Un rôle neutre sans intervenir dans les mécanismes du marché
+  - Un rôle principalement fiscal pour équilibrer le budget
+explanation: |
+  Keynes soutenait que l'État devait intervenir activement pour stimuler la demande, surtout en période de récession, afin de relancer l'économie et compenser les insuffisances du marché.
+reviewed: false

@@ -63,7 +63,7 @@ _本教程仅供教育和信息目的使用。我们不支持或鼓励使用这�
 请记住我的介绍。我解释了为什么比特币的隐私模型最初依赖于将用户的身份与他们的交易分开。因此，人们可能会认为链上分析是不必要的，因为即使有人设法将链上活动分组，他们也无法将其与真实身份关联。从理论上讲，这种说法是准确的。加密密钥对用于建立UTXOs上的条件。本质上，这些密钥对不会透露其持有者的任何身份信息。因此，即使有人成功地将与不同密钥对相关的活动分组，这也无法告诉我们这些活动背后的实体是谁。
 然而，实际情况要复杂得多。存在许多行为可能将真实身份与链上活动联系起来。在分析中，这被称为入口点，而且这样的入口点有很多。最常见的当然是KYC（了解你的客户）。如果你从一个受监管的平台提取比特币到你的个人接收地址，那么一些人能够将你的身份与这个地址联系起来。更广泛地说，入口点可以是你的真实生活与比特币交易之间的任何形式的互动。例如，如果你在社交网络上发布一个接收地址，这可以成为分析的一个入口点。如果你用比特币向你的面包师支付，他们可以将你的面孔（这是你身份的一部分）与一个比特币地址关联起来。使用比特币时，这些入口点几乎是不可避免的。尽管人们可能寻求限制它们的范围，但它们仍将存在。这就是为什么结合旨在保护你的隐私的方法至关重要。虽然保持你的真实身份与你的交易之间的可接受分离是值得称赞的做法，但这仍然不够。事实上，如果你所有的链上活动都可以被聚集在一起，那么即使是最小的入口点也可能破坏你所建立的唯一的隐私层。
 
-因此，在我们使用比特币时，也有必要处理链分析。通过这样做，我们可以最小化我们活动的聚集，并限制入口点对我们隐私的影响。确切地说，为了更好地对抗链分析，有什么比熟悉链分析中使用的方法更好的方法呢？如果你想知道如何在比特币上提高你的隐私，你必须理解这些方法。这将使你能够更好地掌握像[Coinjoin](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet)或[Payjoin](https://planb.network/en/tutorials/privacy/payjoin)这样的技术，并减少你可能犯的错误。
+因此，在我们使用比特币时，也有必要处理链分析。通过这样做，我们可以最小化我们活动的聚集，并限制入口点对我们隐私的影响。确切地说，为了更好地对抗链分析，有什么比熟悉链分析中使用的方法更好的方法呢？如果你想知道如何在比特币上提高你的隐私，你必须理解这些方法。这将使你能够更好地掌握像[Coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)或[Payjoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)这样的技术，并减少你可能犯的错误。
 
 在这方面，我们可以将密码学和密码分析做一个类比。一个好的密码学家首先是一个好的密码分析师。为了想象一个新的加密算法，人必须知道它将面临什么攻击，也要研究为什么之前的算法被破解。对于比特币上的隐私同样适用这一原则。理解链分析的方法是防御它的关键。这就是为什么我向你提供这篇文章的原因。
 
@@ -271,7 +271,7 @@ CIOH是由中本聪发现的。他在白皮书的第10部分讨论了这一点�
 ### 避免落入启发式方法
 首先，在考虑更激进的方法之前，建议尽可能限制我们对链分析所使用的启发式方法的暴露。如前所述，两种最有力的启发式方法是地址重用和COINJOIN。
 确保你在比特币上的隐私的基本原则在于，对于钱包的每笔进账交易使用一个新的、干净的地址。地址重用确实是对比特币保密性的主要威胁。
-对于个人用户来说，为每笔进账支付生成一个新地址非常简单。现代钱包在你点击“接收”后会自动做到这一点。因此，如果你对交易隐私有哪怕一丝重视，使用新地址代表了最基本的要求。如果你需要在互联网上有一个静态的联系点，可以使用[像PayNym这样实现BIP47的解决方案](https://planb.network/en/tutorials/privacy/paynym-bip47)代替放置接收地址。
+对于个人用户来说，为每笔进账支付生成一个新地址非常简单。现代钱包在你点击“接收”后会自动做到这一点。因此，如果你对交易隐私有哪怕一丝重视，使用新地址代表了最基本的要求。如果你需要在互联网上有一个静态的联系点，可以使用[像PayNym这样实现BIP47的解决方案](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)代替放置接收地址。
 接下来，如果你想对抗链分析，避免在交易输入时合并UTXO。至少，如果你真的需要合并，优先选择来源相同的UTXO。这个建议意味着需要良好管理你的UTXO。购买比特币时，优先选择涉及大额的转账，以最大化不需要合并就能进行支付的次数。我还建议你在软件中给你的UTXO贴上标签，以识别它们的来源并避免合并不同来源的UTXO。
 
 更广泛地说，对于所有其他启发式方法，你需要了解它们，尽量不要落入其中：
@@ -286,15 +286,15 @@ CIOH是由中本聪发现的。他在白皮书的第10部分讨论了这一点�
 你也可以转向使你使用比特币变得模糊的方法，以防止或欺骗链分析。
 
 最受欢迎的技术肯定是Coinjoin，一种协作交易结构，动用了多个相同金额的UTXO。这里的目标是打破确定性链接，从而阻止从现在到过去和从过去到现在的分析。Coinjoin通过在一大群无法区分的硬币中隐藏你的硬币，实现了合理的否认性。如果你想了解更多关于Coinjoin的技术和实践信息，我建议你阅读这些其他文章和教程：
-- [COINJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet);
-- [COINJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet);
-- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/en/tutorials/privacy/wst-anonsets).
+- [COINJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [COINJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 ![analysis](assets/en/13.webp)
 
 CoinJoin是为硬币创建合理否认性的绝佳工具，但它并不适用于所有用户隐私需求。具体来说，CoinJoin并非设计成为一种支付工具。它对交换的金额非常严格，以完善产生合理否认性的能力。由于不能自由选择交易输出的金额，因此CoinJoin不能用于进行比特币支付。
 例如，想象一下我想用比特币支付我的法棍面包，同时优化我的隐私。由于无法选择CoinJoin结果中UTXO的金额，我会发现自己无法调整我的支出金额以适应面包师傅设定的价格。因此，CoinJoin对于支付交易来说是不够的。
 
-为了满足更具体使用案例中的隐私需求，人们构想了其他工具。例如，我们有[PayJoin](https://planb.network/en/tutorials/privacy/payjoin)，这是一种只涉及两个参与者的迷你CoinJoin，基于一个允许支付的结构。
+为了满足更具体使用案例中的隐私需求，人们构想了其他工具。例如，我们有[PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)，这是一种只涉及两个参与者的迷你CoinJoin，基于一个允许支付的结构。
 
 PayJoin的独特之处在于它能够产生一笔看起来普通的交易，而实际上是两个用户之间的迷你CoinJoin。在这种结构中，交易的接收者参与输入，与实际发送者一起。因此，接收者在交易中插入了一笔对自己的支付，以便促成实际支付。
 
@@ -310,15 +310,15 @@ PayJoin的第二个目标是通过其输出的特定结构欺骗分析师关于�
 
 实际上，如果我们重新审视使用PayJoin购买法棍面包的例子，外部观察者可能会认为我们正在处理一笔4,000 sats或21,000 sats的支付。实际上，法棍面包的支付是6,000 sats：21,000 - 15,000 = 6,000。因此，支付的真实价值隐藏在一个充当链分析诱饵的假支付中。
 
-除了PayJoin和CoinJoin之外，还有许多其他比特币交易结构，要么阻止链分析，要么欺骗它。其中，我可以提到[Stonewall](https://planb.network/en/tutorials/privacy/stonewall)和[StonewallX2](https://planb.network/en/tutorials/privacy/stonewall-x2)交易，它们允许进行灵活的迷你Coinjoin或模仿灵活的迷你Coinjoin。还有[Ricochet](https://planb.network/en/tutorials/privacy/ricochet)交易，通过进行大量假装对自己的转账来模拟比特币所有权的变更。
+除了PayJoin和CoinJoin之外，还有许多其他比特币交易结构，要么阻止链分析，要么欺骗它。其中，我可以提到[Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)和[StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)交易，它们允许进行灵活的迷你Coinjoin或模仿灵活的迷你Coinjoin。还有[Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)交易，通过进行大量假装对自己的转账来模拟比特币所有权的变更。
 
 所有这些工具都可以在移动端的Samourai Wallet和PC端的Sparrow Wallet上使用。如果你想了解更多关于这些特定交易结构的信息，我建议你发现我的教程：
-- [PAYJOIN](https://planb.network/en/tutorials/privacy/payjoin)；
-- [PAYJOIN - SAMOURAI 钱包](https://planb.network/en/tutorials/privacy/payjoin-samourai-wallet)；
-- [PAYJOIN - SPARROW 钱包](https://planb.network/en/tutorials/privacy/payjoin-sparrow-wallet)；
-- [STONEWALL](https://planb.network/en/tutorials/privacy/stonewall)；
-- [STONEWALL X2](https://planb.network/en/tutorials/privacy/stonewall-x2)；
-- [RICOCHET](https://planb.network/en/tutorials/privacy/ricochet)。
+- [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)；
+- [PAYJOIN - SAMOURAI 钱包](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)；
+- [PAYJOIN - SPARROW 钱包](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)；
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)；
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)；
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)。
 
 ## 结论
 链分析是一种试图追踪比特币链上流动的实践。为此，分析师寻找模式和特征，以便提出或多或少可信的假设和解释。
@@ -337,3 +337,9 @@ PayJoin的第二个目标是通过其输出的特定结构欺骗分析师关于�
 
 **P2WPKH:** 是向见证公钥哈希支付（Pay to Witness Public Key Hash）的缩写。它是一种标准的脚本模型，用于在UTXO上建立支付条件。P2WPKH在2017年8月引入SegWit实施时被引入。这种脚本类似于P2PKH（向公钥哈希支付），因为它也基于公钥的哈希（即接收地址）锁定比特币。区别在于签名和脚本是如何包含在交易中的。在P2WPKH的情况下，签名脚本信息（ScriptSig）从传统交易结构移动到一个称为见证的单独部分。这一移动是SegWit（隔离见证）更新的一个特点。这种技术有减少主体中交易数据大小的优点，同时在一个单独的部分保留了验证所需的脚本信息。因此，P2WPKH交易在费用方面通常比传统交易便宜。P2WPKH地址使用Bech32编码书写，这有助于更简洁、更少出错的书写，得益于BCH校验和。这些地址始终以bc1q开头，使它们容易与传统接收地址区分开来。P2WPKH是版本0的SegWit输出。
 **UTXO:** 是未花费交易输出（Unspent Transaction Output）的缩写。UTXO是指尚未被用作新交易输入的交易输出。UTXOs代表用户拥有并且当前可用于支出的比特币的一部分。每个UTXO都与一个特定的输出脚本关联，该脚本定义了花费比特币所需的条件。比特币中的交易消耗这些UTXOs作为输入，并创建新的UTXOs作为输出。UTXO模型对于比特币至关重要，因为它允许轻松验证交易是否试图花费不存在或已经被花费的比特币。本质上，UTXO是比特币的一部分。
+
+
+
+
+
+

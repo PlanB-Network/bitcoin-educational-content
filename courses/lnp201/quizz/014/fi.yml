@@ -1,9 +1,9 @@
-question: Mikä on vetäytymistransaktion tarkoitus Lightning Networkin kanavan avaamisprosessissa?
-answer: Sen avulla Alice voi palauttaa varansa, jos jotain menee pieleen.
+question: Mikä on viimeinen vaihe kanavan avaamiseksi Lightning-verkossa?
+answer: Julkaise talletustransaktio Bitcoin-lohkoketjussa
 wrong_answers:
-  - Sen avulla Bob voi vaatia osuutensa varoista.
-  - Sitä käytetään kanavan avaamisprosessin finalisoimiseen.
-  - Sitä käytetään varojen siirtämiseen Alicelta Bobille.
+  - Allekirjoita varojen palautustransaktio
+  - Lähetä vahvistusviesti avauksesta toiselle osapuolelle
+  - Tarkista kunkin osallistujan varojen saldo
 explanation: |
-  Vetäytymistransaktio luodaan Alicen toimesta ennen varojen talletuksen julkaisemista moniallekirjoitusosoitteeseen. Tämä transaktio mahdollistaa Alicen käyttää varoja moniallekirjoitusosoitteesta hänen omaan osoitteeseensa. Tämä tehdään varmistamaan, että hän voi palauttaa varansa, jos jotain menee pieleen.
+  Kanavan avaamisen viimeinen vaihe on talletustransaktion julkaiseminen lohkoketjussa, mikä virallisesti avaa kanavan.
 reviewed: false

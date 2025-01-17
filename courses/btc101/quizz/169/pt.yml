@@ -1,9 +1,12 @@
-question: Como o protocolo do Bitcoin recompensa o minerador que encontra um hash válido para o próximo bloco?
-answer: Com uma recompensa definida pelas regras de consenso e as taxas de transação de todas as transações incluídas no bloco válido.
+question: Como o protocolo Bitcoin recompensa o minerador que encontra um hash válido para o bloco subsequente?
+answer: Com uma recompensa definida pelas regras de consenso, e com as taxas de todas as transações incluídas no bloco válido.
 wrong_answers:
-  - Com uma quantidade fixa de Bitcoin
-  - Com uma porcentagem do total do fornecimento de Bitcoin
-  - Com as taxas de transação de todas as transações incluídas no bloco válido
+  - Com uma quantidade fixa de bitcoins não definida pelas regras de consenso.
+  - Com uma porcentagem do total do suprimento de Bitcoin e as taxas de todas as transações incluídas nos blocos anteriores.
+  - Com as taxas de todas as transações incluídas no bloco válido.
 explanation: |
-  O protocolo do Bitcoin recompensa o minerador que encontra um hash válido para o próximo bloco com uma recompensa cuja quantidade é definida pelas regras de consenso, assim como as taxas de transação de todas as transações incluídas no bloco válido.
-reviewed: false
+  O protocolo Bitcoin recompensa o minerador que encontra um hash válido
+  para o bloco subsequente com uma recompensa cujo montante é
+  definido pelas regras de consenso, juntamente com as taxas de
+  todas as transações incluídas no bloco válido.
+reviewed: true

@@ -1,10 +1,10 @@
 question: Lợi ích chính của các máy chuyên dụng SHA256, hay còn gọi là ASICS, trong việc đào Bitcoin là gì?
-answer: Chúng tăng tỷ lệ băm trên mỗi joule
+answer: Chúng tăng tốc độ băm trên mỗi joule.
 wrong_answers:
-  - Chúng giảm lượng tiêu thụ năng lượng
-  - Chúng tăng tốc độ của giao dịch
-  - Chúng tăng cường độ an toàn của mạng lưới
+  - Chúng giảm lượng tiêu thụ năng lượng.
+  - Chúng tăng tốc độ của các giao dịch.
+  - Chúng tăng cường bảo mật cho mạng lưới.
 explanation: >-
-  Các máy chuyên dụng SHA256, hay còn gọi là ASICS, tăng tỷ lệ băm trên mỗi joule
-  trong việc đào Bitcoin. Điều này có nghĩa là số lần thử mỗi giây và mỗi lượng năng lượng tiêu thụ.
-reviewed: false
+  Các máy chuyên dụng SHA256, hay còn gọi là ASICS, tăng tốc độ băm trên mỗi joule
+  trong việc đào Bitcoin. Điều này có nghĩa là số lần thử trên mỗi giây và mỗi lượng năng lượng tiêu thụ.
+reviewed: true

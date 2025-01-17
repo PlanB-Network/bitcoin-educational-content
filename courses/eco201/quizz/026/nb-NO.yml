@@ -1,0 +1,11 @@
+question: Hva betyr det at en vare har høy omsettelighet?
+answer: Den bør være ønsket av så mange mennesker som mulig, mesteparten av tiden.
+wrong_answers:
+  - Den bør være ønsket av noen få mennesker, mesteparten av tiden.
+  - Den bør være ønsket av så mange mennesker som mulig, noen av gangene.
+  - Den bør være ønsket av noen få mennesker, noen av gangene.
+explanation: |
+  En vare med høy omsettelighet er en som er bredt ønsket og kan
+  lett byttes mot andre varer eller tjenester. Dette gjør den egnet for bruk som
+  penger.
+reviewed: false

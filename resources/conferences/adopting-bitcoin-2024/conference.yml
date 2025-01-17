@@ -1,0 +1,22 @@
+year: 2024-11
+name: Adopting Bitcoin 2024
+builder: Adopting Bitcoin
+location: Nuevo Cuscatlan, El Salvador
+language:
+  - en
+  - es
+links:
+  twitter: https://x.com/AdoptingBTC
+  website: https://www.adoptingbitcoin.org/
+tags:
+  - adoption
+  - business
+  - self-sovereignty
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2024-12-12"
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

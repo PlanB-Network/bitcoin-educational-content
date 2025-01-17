@@ -1,0 +1,8 @@
+question: Mis on kaevurite roll Bitcoin'i võrgustikus?
+answer: Nad valideerivad tehinguid, lisades need plokki.
+wrong_answers:
+  - Nad loovad uusi Bitcoine.
+  - Nad haldavad Bitcoin'i võrgustikku.
+  - Nad reguleerivad Bitcoini hinda.
+explanation: >-
+  Kaevuritel Bitcoin'i võrgustikus on roll valideerida tehinguid, lisades need plokki. Nad teevad seda lahendades krüptograafilist mõistatust protsessis, mida nimetatakse töötõendiks.

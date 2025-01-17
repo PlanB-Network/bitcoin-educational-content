@@ -1,0 +1,9 @@
+question: Mida ennustas Milton Friedman 1999. aastal?
+answer: Usaldusväärse e-raha arengu
+wrong_answers:
+  - Füüsilise raha kadumise
+  - Bitcoini tõusu
+  - Valitsuse kontrolli lõpu raha üle
+explanation: >-
+  Milton Friedman, tuntud majandusteadlane, ennustas 1999. aastal, et varsti arendatakse välja usaldusväärne e-raha, meetod, mille abil saab internetis vahendite ülekandmist teostada A-lt B-le ilma, et A teaks B-d või B teaks A-d.
+reviewed: false

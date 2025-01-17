@@ -1,9 +1,13 @@
-question: Qual è il rischio nell'utilizzare un portafoglio multisig?
-answer: Non avere accesso a abbastanza parti distinte del backup multisig
+question: Qual è il rischio nell'utilizzo di un portafoglio multisig?
+answer: Non avere accesso a un numero sufficiente di chiavi private individuali o componenti di backup.
 wrong_answers:
-  - Avere accesso a abbastanza parti distinte del backup multisig
-  - Condividere le chiavi con altre parti
-  - Non condividere le chiavi con altre parti
+  - Avere accesso a un numero sufficiente di chiavi private individuali o componenti di backup.
+  - Condividere le proprie chiavi private con altre parti.
+  - Condividere le proprie chiavi pubbliche con altre parti.
 explanation: |
-  Quando si utilizza un portafoglio multisig, ogni parte del multisig dovrebbe essere conservata in posizioni diverse. Questo perché il multisig richiede firme multiple per eseguire una transazione, quindi è necessario un certo numero di portafogli, e conservare ogni parte in una posizione diversa aggiunge un ulteriore livello di sicurezza.
-reviewed: false
+  Quando si utilizza un portafoglio multisig, ogni chiave privata del
+  multisig dovrebbe essere conservata in luoghi diversi. Questo perché
+  il multisig richiede più firme per effettuare una transazione, quindi è
+  necessario un certo numero di portafogli. Di conseguenza, conservare
+  ogni parte in una posizione diversa aggiunge un ulteriore livello di sicurezza.
+reviewed: true

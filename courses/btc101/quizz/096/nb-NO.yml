@@ -1,0 +1,10 @@
+question: Hva representeres den private nøkkelen ofte av i en Bitcoin-lommebok?
+answer: En liste med 12 eller 24 ord
+wrong_answers:
+  - En liste med 12 eller 48 ord
+  - En liste med 32 ord
+  - En liste med 64 ord
+explanation: |
+  I en Bitcoin-lommebok er den private nøkkelen ofte representert av en liste
+  med 12 eller 24 ord, også kjent som et frø eller mnemonisk frase.
+reviewed: true

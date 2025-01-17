@@ -1,9 +1,11 @@
-question: Welche Rolle spielt die Bitcoin-Einheit im Alltag?
+question: Was ist die Rolle der Bitcoin-Einheit im täglichen Leben?
 answer: Sie wird verwendet, um Waren und Dienstleistungen zu kaufen und zu verkaufen.
 wrong_answers:
-  - Sie wird verwendet, um neue Bitcoins zu schürfen.
+  - Sie wird verwendet, um neue Bitcoins zu minen.
   - Sie wird verwendet, um den Preis von Bitcoin zu regulieren.
   - Sie wird verwendet, um das Bitcoin-Protokoll zu kontrollieren.
 explanation: |
-  Im Alltag verwenden die Menschen die Bitcoin-Einheit, um Waren und Dienstleistungen zu kaufen und zu verkaufen. Dabei stützt sie sich auf das Bitcoin-Protokoll, um zu funktionieren.
-reviewed: false
+  Im täglichen Leben nutzen die Menschen die Bitcoin-Einheit, um Waren und
+  Dienstleistungen zu kaufen und zu verkaufen. Um verwendet zu werden, ist die Einheit
+  auf das Bitcoin-Protokoll angewiesen.
+reviewed: true

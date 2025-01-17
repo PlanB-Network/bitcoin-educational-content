@@ -1,0 +1,8 @@
+question: Hva er hovedfunksjonen til et frø i konteksten av pseudotilfeldige kjeder?
+answer: Å fungere som et utgangspunkt for å generere en lengre kjede
+wrong_answers:
+  - Å definere den faste lengden til en pseudotilfeldig kjede
+  - Å verifisere integriteten til en pseudotilfeldig kjede
+  - Å legge til en uniform distribusjon til verdiene i en kjede
+explanation: |
+  Frøet er en kortere streng som brukes som et utgangspunkt av en ekspansjonsalgoritme for å generere en lengre pseudotilfeldig kjede.

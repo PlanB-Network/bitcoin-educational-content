@@ -1,9 +1,11 @@
 question: Qual é a ameaça potencial de usar software crackeado que não pode ser atualizado?
-answer: A chegada de um vírus durante o seu download ilegal e o uso inseguro contra novas formas de ataque.
+answer: A chegada de um vírus durante seu download ilegal e um uso inseguro contra novas formas de ataque.
 wrong_answers:
-  - O software deixará de funcionar após um certo período.
-  - O software não terá novos recursos.
-  - O software consumirá mais recursos do sistema.
+  - O software vai parar de funcionar após um determinado período.
+  - O software não terá novas funcionalidades.
+  - O software vai consumir mais recursos do sistema.
 explanation: |
-  O software crackeado que não pode ser atualizado representa uma ameaça potencial dupla. Ele pode trazer um vírus durante o seu download ilegal de um site suspeito e pode ser inseguro contra novas formas de ataque.
-reviewed: false
+  Software crackeado que não pode ser atualizado representa uma dupla
+  ameaça potencial. Ele pode trazer um vírus durante seu download
+  ilegal de um site suspeito e pode ser inseguro contra novas formas de ataque.
+reviewed: true

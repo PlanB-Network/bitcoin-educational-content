@@ -1,11 +1,11 @@
-question: Điều nào sau đây không phải là lợi ích của Bitcoin như một loại tiền tệ?
-answer: Nó được sử dụng để thanh toán thuế
+question: Điều nào sau đây không phải là một lợi ích của Bitcoin như một loại tiền tệ?
+answer: Nó được sử dụng để thanh toán thuế.
 wrong_answers:
-  - Nó có thể chia nhỏ
-  - Nó có thể vận chuyển
-  - Nó là tiền không cần phép
-explanation: >-
-  Bitcoin, nhờ vào các đặc tính như khả năng chia nhỏ, khả năng xác minh, tính không cần phép và khả năng vận chuyển, cung cấp
-  một phương tiện lưu trữ giá trị xuất sắc. Hơn nữa, với tư cách là một loại tiền tệ trung lập trên internet, nó đại diện
-  cho một phương tiện trao đổi tốt không biết đến biên giới.
-reviewed: false
+  - Nó có thể chia nhỏ.
+  - Nó có thể vận chuyển.
+  - Nó không cần phép.
+explanation: |
+  Bitcoin, nhờ vào các đặc tính như khả năng chia nhỏ,
+  khả năng xác minh, tính không cần phép và khả năng vận chuyển,
+  cung cấp một phương tiện lưu trữ giá trị xuất sắc. Hơn nữa, với tư cách là một đồng tiền trung lập trên internet, nó đại diện cho một phương tiện trao đổi tốt không biết đến biên giới.
+reviewed: true

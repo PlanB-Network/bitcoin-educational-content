@@ -1,0 +1,11 @@
+question: Millised on mõned parimad praktikad, mida paranoiline Bitcoin'i kasutaja võiks endale selgeks teha?
+answer: Mündi segamine ja UTXO haldamine
+wrong_answers:
+  - Kuidas usaldada tsentraliseeritud süsteeme
+  - Kuidas jagada isiklikku informatsiooni turvaliselt
+  - Kuidas kasutada krediitkaarti Bitcoin'i ostuks internetis
+explanation: |
+  Peatükk mainib, et paranoiline Bitcoin'i kasutaja võiks end harida
+  parimate praktikate osas nagu mündi segamine ja UTXO haldamine, keskendudes
+  privaatsusele ja turvalisusele.
+reviewed: false

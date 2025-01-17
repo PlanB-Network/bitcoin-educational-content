@@ -1,9 +1,13 @@
 question: Qual è il ruolo del software nel mining di Bitcoin e come contribuisce all'efficienza?
-answer: Il software nel mining di Bitcoin, come BrainsOS Plus, sostituisce il sistema operativo originale della macchina da miniera, consentendo di eseguire le stesse operazioni in modo più efficiente. Può aumentare l'efficienza di una macchina del 25%, il che significa che per una quantità equivalente di elettricità, la macchina può produrre un ulteriore 25% di hashrate, aumentando così le ricompense ricevute dal minatore.
+answer: Il software nel mining di Bitcoin, come BrainsOS Plus, sostituisce il sistema operativo originale della macchina mineraria, consentendo di eseguire le stesse operazioni in modo più efficiente. Può aumentare l'efficienza di una macchina del 25%, il che significa che per una quantità equivalente di elettricità, la macchina può produrre un ulteriore 25% di hashrate, aumentando così le ricompense ricevute dal minatore.
 wrong_answers:
-  - Il software nel mining di Bitcoin viene utilizzato per tenere traccia della quantità di Bitcoin estratti e non contribuisce all'efficienza.
-  - Il software nel mining di Bitcoin viene utilizzato per connettere la macchina da miniera a Internet e non contribuisce all'efficienza.
-  - Il software nel mining di Bitcoin viene utilizzato per raffreddare la macchina da miniera e non contribuisce all'efficienza.
+  - Il software nel mining di Bitcoin è utilizzato per tracciare la quantità di Bitcoin estratti e non contribuisce all'efficienza.
+  - Il software nel mining di Bitcoin fornisce solo una migliore connessione internet per la macchina mineraria, può aumentare l'efficienza di tale macchina del 14%, se viene utilizzato uno dei protocolli più recenti.
+  - Il software nel mining di Bitcoin è utilizzato per raffreddare la macchina mineraria e non contribuisce all'efficienza.
 explanation: |
-  Il capitolo spiega che il software come BrainsOS Plus può sostituire il sistema operativo originale di una macchina da miniera, consentendo di eseguire le stesse operazioni in modo più efficiente. Questa ottimizzazione del software è un elemento essenziale della competitività nel mining di Bitcoin.
-reviewed: false
+  Il capitolo spiega che software come BrainsOS Plus può
+  sostituire il sistema operativo originale di una macchina mineraria,
+  consentendo di eseguire le stesse operazioni in modo più
+  efficiente. Questa ottimizzazione del software è un elemento
+  essenziale della competitività nel mining di Bitcoin.
+reviewed: true

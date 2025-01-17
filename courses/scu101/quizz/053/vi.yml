@@ -1,13 +1,13 @@
-question: Tại sao dữ liệu sinh trắc học được coi là kém an toàn hơn so với sự kết hợp của kiến thức và sở hữu trong 2FA?
+question: Tại sao dữ liệu sinh trắc học được coi là kém an toàn hơn so với sự kết hợp của kiến thức và sở hữu cho 2FA?
 
 answer: Dữ liệu sinh trắc học nên được giữ lại trên thiết bị xác thực và không được tiết lộ trực tuyến.
 
 wrong_answers:
-  - Dữ liệu sinh trắc học dễ giả mạo hơn
-  - Dữ liệu sinh trắc học khó nhớ hơn
-  - Dữ liệu sinh trắc học đắt hơn để triển khai
+  - Dữ liệu sinh trắc học dễ bị trích xuất ngay cả khi được giữ ngoại tuyến trên thiết bị xác thực.
+  - Dữ liệu sinh trắc học cả khó nhớ và sử dụng khi dùng thiết bị xác thực.
+  - Công cụ dữ liệu sinh trắc học đắt hơn để triển khai và do đó không hiệu quả về chi phí so với các giải pháp khác.
 
 explanation:
-  Dữ liệu sinh trắc học được coi là kém an toàn hơn vì nó nên được giữ lại trên thiết bị xác thực và không được tiết lộ trực tuyến. Nếu nó được tiết lộ trực tuyến, nó có thể bị đánh cắp và sử dụng cho việc truy cập trái phép.
+  Dữ liệu sinh trắc học kém an toàn hơn vì nó nên được giữ lại trên thiết bị xác thực và không được tiết lộ trực tuyến. Nếu nó được tiết lộ trực tuyến, nó có thể bị đánh cắp và sử dụng cho việc truy cập trái phép.
 
-Đã duyệt: false
+reviewed: true

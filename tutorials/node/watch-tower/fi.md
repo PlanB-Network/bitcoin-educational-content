@@ -1,5 +1,5 @@
 ---
-name: Vartiotorni
+name: Watch Tower
 description: Vartiotornin ymmärtäminen ja käyttäminen
 ---
 

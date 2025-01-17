@@ -1,9 +1,9 @@
-question: Qual è l'obiettivo finale di una funzione hash crittografica?
-answer: Trasformare informazioni di dimensioni arbitrarie in una impronta digitale di dimensioni fisse.
+question: Perché l'irreversibilità è garantita in SHA256?
+answer: Le operazioni utilizzate rimuovono informazioni e sono unidirezionali
 wrong_answers:
-  - Crittografare i dati per una trasmissione sicura.
-  - Generare una chiave unica per ogni utente.
-  - Comprimere i dati per uno stoccaggio efficiente.
+  - I messaggi vengono criptati prima dell'hashing
+  - I bit vengono riorganizzati casualmente
+  - Ogni hash viene memorizzato in un database
 explanation: |
-  L'obiettivo finale di una funzione hash crittografica è trasformare informazioni di dimensioni arbitrarie in una impronta digitale di dimensioni fisse. Questa impronta digitale è unica per i dati di input e anche una piccola modifica all'input produrrà un'impronta digitale drasticamente diversa.
+  Operazioni come ShR e XOR rendono impossibile tornare allo stato iniziale, garantendo l'irreversibilità.
 reviewed: false

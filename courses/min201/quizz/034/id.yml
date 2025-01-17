@@ -1,0 +1,11 @@
+question: Apa tujuan komunitas Bitcoin dalam hal manajemen jaringan?
+answer: Untuk memperkuat distribusi, ketahanan terhadap sensor, dan anti-kerapuhan jaringan.
+wrong_answers:
+  - Untuk meningkatkan harga Bitcoin.
+  - Untuk mempercepat transaksi.
+  - Untuk meningkatkan kesulitan penambangan.
+explanation: |
+  Komunitas Bitcoin terus berupaya untuk memperkuat
+  distribusi, ketahanan terhadap sensor, dan anti-kerapuhan
+  dari jaringan. Ini sejalan dengan misi fundamental Bitcoin
+  untuk menjadi jaringan pertukaran nilai yang tahan sensor.

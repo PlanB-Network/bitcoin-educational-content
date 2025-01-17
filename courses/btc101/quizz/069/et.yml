@@ -1,0 +1,9 @@
+question: Mis on hinnanguline bitcoini kogus ringluses pärast esimest poolitamist?
+answer: 10,500,000 BTC
+wrong_answers:
+  - 5,250,000 BTC
+  - 15,750,000 BTC
+  - 21,000,000 BTC
+explanation: |
+  Pärast esimest poolitamist, mis toimub ploki kõrgusel 210,000, oli hinnanguline bitcoini kogus ringluses 10,500,000 BTC, mis on pool kogu bitcoini kogusest, mis lõpuks ringlusesse jõuab.
+reviewed: true

@@ -22,14 +22,14 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能用多种语言
 ![tutorial](assets/1.webp)
 **开始教程之前的先决条件：**
 - 拥有一个[GitHub账户](https://github.com/signup)。
-- 拥有[PlanB网络源仓库的一个分支](https://github.com/DecouvreBitcoin/sovereign-university-data)。
+- 拥有[PlanB网络源仓库的一个分支](https://github.com/PlanB-Network/bitcoin-educational-content)。
 - 在PlanB网络上拥有[一个教授资料](https://planb.network/professors)（仅当您提出完整教程时）。
 
 **如果您需要帮助获取这些先决条件，我的其他教程将指导您：**
-- **[理解Git和GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[创建GitHub账户](https://planb.network/tutorials/others/create-github-account)**
-- **[设置您的工作环境](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[创建教授资料](https://planb.network/tutorials/others/create-teacher-profile)**
+- **[理解Git和GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+- **[创建GitHub账户](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[设置您的工作环境](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+- **[创建教授资料](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## 在PlanB网络上写什么类型的内容？
 我们主要寻找与比特币或其生态系统相关的工具教程。这些内容可以围绕六个主要类别组织：
 - 钱包；
@@ -59,7 +59,7 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能用多种语言
 
 ### 创建一个新分支
 
-- 打开您的浏览器，前往您在GitHub上建立的PlanB仓库的分支页面。您的分支URL应该看起来像：`https://github.com/[your-username]/sovereign-university-data`:
+- 打开您的浏览器，前往您在GitHub上建立的PlanB仓库的分支页面。您的分支URL应该看起来像：`https://github.com/[your-username]/bitcoin-educational-content`:
 ![教程](assets/3.webp)
 - 确保您处于主分支`dev`，然后点击`Sync fork`按钮。如果您的分支不是最新的，GitHub会提议更新您的分支。继续进行这次更新。相反，如果您的分支已经是最新的，GitHub会通知您：
 ![教程](assets/4.webp)
@@ -70,7 +70,7 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能用多种语言
 ![教程](assets/7.webp)
 - 点击这个分支，然后点击`New Branch`按钮：
 ![教程](assets/8.webp)
-- 确保新分支基于源仓库，即`DecouvreBitcoin/sovereign-university-data`。
+- 确保新分支基于源仓库，即`PlanB-Network/bitcoin-educational-content`。
 - 以清晰表明其目的的方式命名您的分支，使用破折号分隔每个单词。例如，假设我们的目标是编写一个关于使用Sparrow Wallet软件的教程。在这种情况下，专门用于编写这个教程的工作分支可以命名为：`tuto-sparrow-wallet-loic`。输入适当的名称后，点击`Create branch`来确认创建分支：
 ![教程](assets/9.webp)
 - 现在点击`Publish branch`按钮，将您的新工作分支保存到GitHub上您的在线分支中：
@@ -82,7 +82,7 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能用多种语言
 ### 添加教程
 
 现在工作分支已经创建，是时候集成您的新教程了。
-- 打开您的文件管理器，导航到 `sovereign-university-data` 文件夹，该文件夹代表您仓库的本地克隆。通常，您应该在 `Documents\GitHub\sovereign-university-data` 下找到它。在这个目录中，需要找到适当的子文件夹来放置您的教程。文件夹的组织反映了 PlanB 网络网站的不同部分。在我们的例子中，由于我们希望添加一个关于 Sparrow Wallet 的教程，因此适合前往以下路径：`sovereign-university-data\tutorials\wallet`，该路径对应于网站上的 `WALLET` 部分： ![tutorial](assets/12.webp)
+- 打开您的文件管理器，导航到 `bitcoin-educational-content` 文件夹，该文件夹代表您仓库的本地克隆。通常，您应该在 `Documents\GitHub\bitcoin-educational-content` 下找到它。在这个目录中，需要找到适当的子文件夹来放置您的教程。文件夹的组织反映了 PlanB 网络网站的不同部分。在我们的例子中，由于我们希望添加一个关于 Sparrow Wallet 的教程，因此适合前往以下路径：`bitcoin-educational-content\tutorials\wallet`，该路径对应于网站上的 `WALLET` 部分： ![tutorial](assets/12.webp)
 - 在 `wallet` 文件夹内，您需要创建一个专门用于您的教程的新目录。这个文件夹的名称必须唤起教程中涉及的软件，确保用破折号连接单词。例如，文件夹将被命名为 `sparrow-wallet`：
 ![tutorial](assets/13.webp)
 - 在这个专门用于您的教程的新子文件夹中，需要添加几个元素：
@@ -93,7 +93,7 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能用多种语言
 ![tutorial](assets/14.webp)
 - 总结一下，这里是需要创建的文件层次结构：
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (根据正确的类别进行修改)
         └── sparrow-wallet/ (根据教程的名称进行修改)
@@ -121,7 +121,7 @@ sovereign-university-data/
     - 中级（`intermediary`），
     - 高级（`advanced`），
     - 专家（`expert`）。
-- **教授**：提供您在教授个人资料上显示的贡献者ID。更多详情，请参考[相应的教程](https://planb.network/fr/tutorials/others/create-teacher-profile)；
+- **教授**：提供您在教授个人资料上显示的贡献者ID。更多详情，请参考[相应的教程](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)；
 - **链接**（可选）：如果您希望为您正在开发的教程信用一个来源网站，比如您自己的个人网站，这里可以添加相关链接。
 ![教程](assets/15.webp)
 - 完成修改您的`tutorial.yml`文件后，通过点击`文件 > 保存`来保存您的文档：
@@ -215,3 +215,4 @@ description: [描述]
 如果你希望在已经提交你的 PR 之后对你的贡献进行修改，接下来的程序取决于你的 PR 的当前状态：
 - 如果你的 PR 仍然是开放的并且尚未被合并，就在同一个分支上本地进行修改。一旦修改完成，使用 `Push origin` 按钮将一个新的提交添加到你仍然开放的 PR 中；
 - 在你的 PR 已经与主分支合并的情况下，你需要从头开始重新进行这个过程，创建一个新的分支，然后提交一个新的 PR。在进行之前确保你的本地仓库与 PlanB Network 的源仓库同步。
+

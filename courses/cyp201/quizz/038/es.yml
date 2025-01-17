@@ -1,10 +1,9 @@
-question: ¿Cuál es el número total de posibilidades para una clave privada en teoría?
-answer: 2^256
+question: ¿Por qué no se recomienda reutilizar una dirección de Bitcoin?
+answer: Facilita el seguimiento de transacciones por parte de terceros
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - Revela la clave privada debido al nonce
+  - Hace que las transacciones sean más caras
+  - Invalida las firmas digitales
 explanation: |
-  El número total de posibilidades para una clave privada es teóricamente
-  2^256, pero en realidad es ligeramente menor que eso.
+  Reutilizar una dirección permite a los observadores vincular fácilmente diferentes transacciones al mismo usuario, comprometiendo su privacidad.
 reviewed: false

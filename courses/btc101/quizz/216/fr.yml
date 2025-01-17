@@ -1,9 +1,13 @@
-question: Quel est le statut du Bitcoin dans certains pays?
-answer: Interdit et criminalisé
+question: Quel est le statut du Bitcoin au Salvador ?
+answer: Monnaie légale.
 wrong_answers:
-  - Entièrement adopté
-  - Partiellement adopté
-  - Non réglementé
+  - Criminalisé.
+  - Inconnu.
+  - Non réglementé.
 explanation: |
-  Le texte mentionne que certains pays ont interdit et criminalisé l'utilisation du Bitcoin, ce qui ajoute à la complexité de l'adoption du Bitcoin en fonction des cultures, des époques et des nations.
-reviewed: false
+  Le texte du cours mentionne que certains pays ont interdit
+  et criminalisé l'utilisation du Bitcoin, ajoutant à la
+  complexité de l'adoption du Bitcoin en fonction des cultures, des époques, et
+  des nations. Cependant, le Salvador a été assez courageux pour l'adopter
+  comme monnaie légale.
+reviewed: true

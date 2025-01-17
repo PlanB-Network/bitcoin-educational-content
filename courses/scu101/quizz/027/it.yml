@@ -1,10 +1,12 @@
-question: Qual è il motivo principale per non pagare gli hacker nel caso di ransomware o altri tipi di attacchi?
-answer: Pagare il riscatto non garantisce il recupero dei tuoi dati e può incoraggiare i criminali informatici a continuare le loro attività malevole.
+question: Qual è il motivo principale per non pagare gli hacker in caso di ransomware o altri tipi di attacchi?
+answer: Pagare il riscatto non garantisce il recupero dei propri dati e può incoraggiare i criminali informatici a continuare le loro attività malevole.
 wrong_answers:
-  - È illegale pagare gli hacker.
-  - Gli hacker chiederanno più soldi dopo il pagamento iniziale.
-  - Il metodo di pagamento di solito è in tracciabile.
+  - Pagare il riscatto è illegale e può incoraggiare i criminali informatici a continuare le loro attività malevole.
+  - Pagare il riscatto non garantisce il recupero dei propri dati e può incoraggiare gli hacker a chiedere più soldi dopo il pagamento iniziale.
+  - Pagare il riscatto può incoraggiare i criminali informatici a continuare le loro attività malevole poiché il metodo di pagamento è solitamente non rintracciabile.
 explanation: |
-  Pagare il riscatto non garantisce il recupero dei tuoi dati.
-  Inoltre, incoraggia i criminali informatici a continuare le loro attività malevole poiché lo vedono come un'attività redditizia.
-reviewed: false
+  Pagare il riscatto non garantisce che si riavranno indietro
+  i propri dati. Inoltre, incoraggia i criminali informatici a
+  continuare le loro attività malevole poiché lo vedono come un
+  affare redditizio.
+reviewed: true

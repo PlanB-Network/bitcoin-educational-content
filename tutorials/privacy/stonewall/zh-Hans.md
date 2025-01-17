@@ -38,7 +38,7 @@ Stonewall交易的操作方式与StonewallX2交易相同，唯一的区别在于
 
 总之，Stonewall和Stonewall x2交易共享相同的结构。两者之间的区别在于它们的合作性质。Stonewall交易是单独开发的，不需要合作。相比之下，Stonewall x2交易依赖于两个个体之间的合作来实施。
 
-[**-> 了解更多关于Stonewall x2交易的信息**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> 了解更多关于Stonewall x2交易的信息**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## Stonewall交易的目的是什么？
 Stonewall结构为交易增加了大量的熵，并且使链分析变得模糊。从外部视角看，这样的交易可以被解释为两个人之间的小型coinjoin。但实际上，就像Stonewall x2交易一样，它是一种支付方式。因此，这种方法在链分析中创建了不确定性，甚至可能导致错误的线索。

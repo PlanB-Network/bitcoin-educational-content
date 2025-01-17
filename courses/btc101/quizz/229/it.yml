@@ -1,9 +1,10 @@
-question: Come vengono garantite le transazioni sulla Lightning Network?
+question: Come vengono garantite la sicurezza delle transazioni sulla Lightning Network?
 answer: Attraverso la crittografia e indirettamente attraverso l'energia consumata dai minatori su Bitcoin.
 wrong_answers:
-  - Solo attraverso l'uso delle chiavi private.
-  - Solo attraverso l'uso delle chiavi pubbliche.
-  - Solo attraverso l'uso sia delle chiavi private che pubbliche.
-explanation: |
-  Le transazioni sulla Lightning Network sono garantite attraverso la crittografia e indirettamente attraverso l'energia consumata dai minatori su Bitcoin.
-reviewed: false
+  - Solo attraverso l'uso di chiavi private.
+  - Solo attraverso l'uso di chiavi pubbliche.
+  - Solo attraverso l'uso sia di chiavi private che pubbliche.
+explanation: >-
+  Le transazioni sulla Lightning Network sono garantite attraverso la crittografia
+  e indirettamente attraverso l'energia consumata dai minatori su Bitcoin.
+reviewed: vero

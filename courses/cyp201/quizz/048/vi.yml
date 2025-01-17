@@ -1,9 +1,9 @@
-question: Chức năng chính của một ví Bitcoin là gì?
-answer: Nó đề cập đến một tập hợp các khóa mật mã riêng tư được tạo ra từ một khóa chính duy nhất.
+question: Tại sao cụm từ ghi nhớ 24 từ thường được coi là thừa thãi cho một ví Bitcoin?
+answer: Các khóa được tạo ra chỉ cung cấp 128 bit bảo mật
 wrong_answers:
-  - Đó là một thiết bị vật lý lưu trữ tiền mã hóa.
-  - Đó là một nền tảng kỹ thuật số để mua và bán tiền mã hóa.
-  - Đó là một phần mềm khai thác bitcoin mới.
+  - Phần mềm không hỗ trợ cụm từ 24 từ
+  - Nó không cho phép tạo ra các khóa công khai
+  - Các cụm từ ngắn hơn không được chuẩn hóa
 explanation: |
-  Một ví Bitcoin, cụ thể là ví Định hình Phân cấp (HD wallet), là một tập hợp các khóa mật mã riêng tư được tạo ra từ một khóa chính duy nhất. Những khóa này là thiết yếu cho việc sở hữu tiền mã hóa.
+  Mặc dù một cụm từ 24 từ cung cấp 256 bit bảo mật, nhưng các khóa riêng tư Bitcoin được tạo ra chỉ đảm bảo 128 bit bảo mật, làm cho phần dư thừa không cần thiết.
 reviewed: false

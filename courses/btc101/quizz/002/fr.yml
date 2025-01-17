@@ -1,9 +1,12 @@
-question: Qu'est-ce que le Lightning Network?
+question: Qu'est-ce que le Lightning Network ?
 answer: Une technologie qui peut permettre des transactions Bitcoin rapides.
 wrong_answers:
   - Une technologie qui ralentit les transactions Bitcoin.
   - Une technologie qui n'a aucun impact sur les transactions Bitcoin.
   - Une technologie qui rend les transactions Bitcoin moins sécurisées.
 explanation: |
-  Le Lightning Network est une technologie qui peut améliorer les transactions Bitcoin, les rendant plus rapides et plus efficaces. Il s'agit d'une tentative de résoudre le problème de scalabilité auquel Bitcoin est confronté.
-reviewed: false
+  Le Lightning Network est une technologie qui améliore
+  l'utilisabilité de Bitcoin pour les transactions quotidiennes, les rendant
+  plus rapides et plus efficaces afin de résoudre le problème de
+  scalabilité de Bitcoin.
+reviewed: true

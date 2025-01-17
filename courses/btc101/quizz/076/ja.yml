@@ -1,9 +1,9 @@
 question: Bitcoinウォレットにおける公開鍵の役割は何ですか？
-answer: Bitcoinアドレスを生成し、それによってお金を受け取るために使用されます
+answer: Bitcoinアドレスを生成し、その結果としてお金を受け取るために使用されます。
 wrong_answers:
-  - Bitcoin取引を暗号化するために使用されます
-  - Bitcoinウォレットにアクセスするために使用されます
-  - Bitcoinウォレットのバックアップを取るために使用されます
+  - Bitcoin取引を暗号化するために使用されます。
+  - Bitcoinウォレットにアクセスするために使用されます。
+  - Bitcoinウォレットのバックアップを取るために使用されます。
 explanation: |
   公開鍵は秘密鍵から派生され、お金を受け取るためにBitcoinアドレスを生成するために使用されます。
 reviewed: true

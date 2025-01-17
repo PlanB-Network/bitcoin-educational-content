@@ -5,6 +5,9 @@ wrong_answers:
   - Pour empêcher le site de se souvenir de vos informations de connexion.
   - Pour empêcher le site de vous montrer des publicités ciblées.
 explanation: |
-  Les cookies sont des fichiers créés par les sites web pour stocker des informations sur votre appareil.
-  Bien que certains sites nécessitent ces cookies pour fonctionner correctement, ils peuvent également être exploités par des sites tiers, notamment à des fins de suivi publicitaire. Supprimer les cookies après chaque visite sur un site peut aider à prévenir cela.
-reviewed: false
+  Les cookies sont des fichiers créés par les sites web pour stocker des informations
+  sur votre appareil. Bien que certains sites nécessitent ces cookies pour
+  fonctionner correctement, ils peuvent également être exploités par
+  des sites tiers, surtout à des fins de suivi publicitaire. Supprimer les cookies après chaque visite sur un site peut
+  aider à prévenir cela.
+reviewed: true

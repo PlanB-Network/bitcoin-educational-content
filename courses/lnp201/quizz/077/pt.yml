@@ -1,9 +1,0 @@
-question: O que significa 'ln' em 'lnbc1m' em uma fatura da Lightning Network?
-answer: Lightning
-wrong_answers:
-  - Litecoin
-  - Ledger Nano
-  - Número longo
-explanation: |
-  Em uma fatura da Lightning Network, 'ln' significa Lightning, referindo-se à Lightning Network, uma solução de camada 2 para o Bitcoin que permite transações rápidas e de baixo custo.
-reviewed: false

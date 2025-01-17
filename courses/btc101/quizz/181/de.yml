@@ -1,9 +1,13 @@
-question: Wie hat sich Bitcoin verstärkt in den traditionellen Markt integriert?
-answer: Die bevorstehende Einführung von Bitcoin ETFs.
+question: Wie hat sich Bitcoin weiter in den traditionellen Markt integriert?
+answer: Die Einführung von Bitcoin ETFs.
 wrong_answers:
   - Das Verbot von Bitcoin.
   - Das Verschwinden aller Kryptowährungen.
   - Die Schaffung von Bitcoin.
 explanation: |
-  Bitcoin überlebt und wächst weiterhin, indem es sich immer stärker in den traditionellen Markt integriert. Die bevorstehende Einführung von Bitcoin ETFs, klarere Regulierungen und bessere Anschaffungs- oder Aufbewahrungsmöglichkeiten fördern diesen Trend nur noch weiter.
-reviewed: false
+  Bitcoin überlebt weiterhin und wächst sogar noch mehr, indem
+  es sich immer weiter in den traditionellen Markt integriert.
+  Die Ankunft von Bitcoin ETFs, klarere Regulierungen und
+  bessere Erwerbung von Speicherwerkzeugen fördern nur diesen
+  Trend.
+reviewed: true

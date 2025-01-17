@@ -1,0 +1,9 @@
+question: Jaká je funkce algoritmu pro generování klíčů v symetrickém šifrovacím schématu?
+answer: Generuje soukromý klíč
+wrong_answers:
+  - Generuje veřejný klíč
+  - Hashuje zprávu
+  - Šifruje zprávu
+explanation: |
+  V symetrickém šifrovacím schématu algoritmus pro generování klíčů produkuje soukromý klíč, který bude poté použit pro šifrování a dešifrování zpráv.
+reviewed: false

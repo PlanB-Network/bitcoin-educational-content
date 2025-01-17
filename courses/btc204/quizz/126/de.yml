@@ -1,0 +1,13 @@
+question: Welche kryptografische Methode kann bei Coinswaps verwendet werden, um die Sicherheit des Austauschs ohne die Notwendigkeit von Vertrauen zu gewährleisten?
+
+answer: Adaptor-Signaturen
+
+wrong_answers:
+  - Symmetrische Verschlüsselung
+  - ECDH
+  - Asymmetrische Verschlüsselung
+
+explanation: |
+  Um einen Coinswap durchzuführen, kann man HTLCs oder PTLCs verwenden. Diese beiden Protokolle funktionieren auf ähnliche Weise, indem sie ein Zeitverriegelungssystem verwenden, das sicherstellt, dass der Austausch entweder erfolgreich abgeschlossen oder vollständig abgebrochen wird, was die Integrität der Mittel von beiden Parteien schützt. Der Hauptunterschied zwischen HTLCs und PTLCs besteht darin, dass HTLCs Hashes und Preimages verwenden, um die Transaktion zu sichern, während PTLCs Adaptor-Signaturen verwenden.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er en UTXO i konteksten av Bitcoin?
+answer: Ubrukt Transaksjonsutgang
+wrong_answers:
+  - Uidentifisert Transaksjonsutgang
+  - Usporbar Transaksjonsutgang
+  - Uverifisert Transaksjonsutgang
+explanation: |
+  I konteksten av Bitcoin, står UTXO for Ubrukt Transaksjonsutgang.
+  Dette er et begrep brukt for å beskrive utgangen av en transaksjon som en bruker kan bruke.

@@ -1,11 +1,11 @@
-question: What is the purpose of a "cold" wallet in Bitcoin?
+question: What is the purpose of a cold wallet in Bitcoin?
 answer: To securely store Bitcoins.
 wrong_answers:
   - To mine new Bitcoins.
   - To trade Bitcoins.
   - To convert Bitcoins into other cryptocurrencies.
 explanation: |
-  A "cold" wallet, also known as a hardware wallet, is a device designed
+  A cold wallet, also known as a hardware wallet, is a device designed
   to securely store Bitcoins. It is not used for mining new Bitcoins, trading Bitcoins,
   or converting Bitcoins into other cryptocurrencies.
 reviewed: false

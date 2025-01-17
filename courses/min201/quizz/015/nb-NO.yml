@@ -1,0 +1,9 @@
+question: Hva er prinsippet som Bitcoin-mining fungerer etter?
+answer: Bitcoin-mining fungerer etter et lotteriprinsipp, der sjansene for å vinne en blokk (og dermed Bitcoin-belønningen) hvert tiende minutt er ekstremt lave for en individuell liten miner.
+wrong_answers:
+  - Bitcoin-mining fungerer etter et førstemann-til-mølla-prinsipp, der den første mineren som løser et komplekst matematisk problem får Bitcoin-belønningen.
+  - Bitcoin-mining fungerer etter et budgivningsprinsipp, der mineren som byr høyest får Bitcoin-belønningen.
+  - Bitcoin-mining fungerer etter et rotasjonsprinsipp, der hver miner får en tur til å mine en blokk og motta Bitcoin-belønningen.
+explanation: |
+  Kapittelet forklarer at Bitcoin-mining fungerer etter et lotteriprinsipp, der sjansene for å vinne en blokk (og dermed Bitcoin-belønningen) hvert tiende minutt er ekstremt lave for en individuell liten miner.
+reviewed: true

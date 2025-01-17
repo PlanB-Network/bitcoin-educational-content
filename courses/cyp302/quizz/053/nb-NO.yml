@@ -1,0 +1,9 @@
+question: Hva kalles et felt med et endelig antall elementer?
+answer: Et Galois-felt
+wrong_answers:
+  - Et multiplikativt felt
+  - Et symmetrisk felt
+  - Et vektorfelt
+explanation: |
+  Et endelig felt er også kjent som et Galois-felt, oppkalt etter matematikeren Évariste Galois, og det er essensielt i moderne kryptografi.
+reviewed: false

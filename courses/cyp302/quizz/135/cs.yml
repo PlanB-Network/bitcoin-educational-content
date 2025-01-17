@@ -1,0 +1,9 @@
+question: Jaká je hlavní zranitelnost slabých hesel, když jsou hashována?
+answer: Jsou zranitelná vůči slovníkovým útokům
+wrong_answers:
+  - Hashováním nemohou být ověřena
+  - Vždy generují kolize
+  - Pro zvýšení bezpečnosti vyžadují delší hashování
+explanation: |
+  Slabá hesla lze snadno získat z jejich hash pomocí slovníkových útoků, což činí jejich výběr důležitým pro zajištění bezpečnosti.
+reviewed: false

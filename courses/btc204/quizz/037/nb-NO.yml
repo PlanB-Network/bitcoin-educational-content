@@ -1,0 +1,9 @@
+question: Hva innebærer Heuristikken for Felles Innehav av Inndata (CIOH)?
+answer: Når en transaksjon inkluderer flere inndata, er disse sannsynligvis alle fra en enkelt enhet.
+wrong_answers:
+  - Når en transaksjon inkluderer flere inndata, kommer disse sannsynligvis alle fra forskjellige enheter.
+  - Når en transaksjon inkluderer flere utdata, er disse sannsynligvis alle på vei til en enkelt enhet.
+  - Når en transaksjon inkluderer flere utdata, er disse sannsynligvis alle på vei til forskjellige enheter.
+explanation: |
+  CIOH er en heuristikk som antyder at når en transaksjon inkluderer flere inndata, stammer disse inndataene sannsynligvis alle fra en enkelt enhet. Følgelig er deres eierskap felles.
+reviewed: false

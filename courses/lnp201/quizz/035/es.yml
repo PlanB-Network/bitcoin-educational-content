@@ -1,9 +1,9 @@
-question: ¿Qué sucede si Alice intenta hacer trampa publicando un estado antiguo?
-answer: Bob puede usar la clave de revocación para mover los fondos sin esperar al final del bloqueo temporal, castigando efectivamente a Alice.
+question: ¿Cuál es el objetivo principal de los HTLCs en la Lightning Network?
+answer: Permitir transferencias de pago seguras a través de nodos intermediarios sin requerir confianza en ellos
 wrong_answers:
-  - Alice puede usar la clave de revocación para mover los fondos sin esperar al final del bloqueo temporal.
-  - Bob puede extender el bloqueo temporal para evitar que Alice recupere su dinero.
-  - Alice puede recuperar su dinero de inmediato.
+  - Reducir las comisiones de transacción para cada pago a través de nodos intermediarios
+  - Aumentar la capacidad de cada canal de pago
+  - Establecer conexiones directas entre todos los nodos de la red con su confianza
 explanation: |
-  Si Alice intenta hacer trampa publicando un estado antiguo, Bob puede usar la clave de revocación para mover los fondos sin esperar al final del bloqueo temporal. Esto castiga efectivamente a Alice por intentar hacer trampa.
+  Los HTLCs (Hashed Time-Locked Contracts) aseguran que cada nodo intermediario transferirá el pago sin retener los fondos, ya que solo puede desbloquearlos completando la transacción hasta el destinatario final.
 reviewed: false

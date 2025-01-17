@@ -1,0 +1,11 @@
+question: Thuật ngữ nào mô tả sự bảo vệ mà một coinjoin cung cấp chống lại việc phân tích các giao dịch tương lai của một đồng tiền?
+
+answer: Bộ ẩn danh tiềm năng.
+
+wrong_answers:
+  - Bộ ẩn danh hồi tưởng.
+  - Khả năng chống truy vết.
+  - Quyền riêng tư theo thời gian.
+
+explanation: |
+  Sự bảo vệ chống lại việc phân tích từ quá khứ đến hiện tại là những gì được gọi là bộ ẩn danh tiềm năng.

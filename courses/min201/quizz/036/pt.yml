@@ -1,9 +1,13 @@
-question: Qual é a relação entre o custo do Bitcoin e seu preço?
-answer: O custo do Bitcoin geralmente é proporcional ao seu preço.
+question: Qual é a relação entre o custo de produção do Bitcoin e seu preço de mercado?
+answer: O custo do Bitcoin pode ser geralmente proporcional ao seu preço
 wrong_answers:
-  - O custo do Bitcoin é inversamente proporcional ao seu preço.
-  - O custo do Bitcoin não está relacionado ao seu preço.
-  - O custo do Bitcoin é sempre maior do que seu preço.
+  - O custo do Bitcoin é inversamente proporcional ao seu preço
+  - O custo do Bitcoin é fixo, dentro de uma certa proporção, ao seu preço
+  - O custo do Bitcoin é sempre maior que seu preço
 explanation: |
-  O custo do Bitcoin, que está relacionado à eletricidade necessária para operar as máquinas de mineração, geralmente é proporcional ao seu preço. Essa relação proporciona uma melhor compreensão das flutuações de preço e perspectivas futuras.
-reviewed: false
+  O custo do Bitcoin, que está relacionado à eletricidade
+  necessária para operar as máquinas de mineração, pode geralmente ser
+  proporcional ao seu preço. Esta relação proporciona uma
+  melhor compreensão das flutuações de preço e das perspectivas
+  futuras.
+reviewed: true

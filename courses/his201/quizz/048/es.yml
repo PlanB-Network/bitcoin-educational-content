@@ -1,0 +1,9 @@
+question: ¿Qué servicio que aceptaba Bitcoin fue gestionado por Teppy, la persona que introdujo Bitcoin en Slashdot el 11 de julio de 2010?
+answer: El MMORPG A Tale in the Desert
+wrong_answers:
+  - El VPN Mullvad
+  - El servicio de VoIP Link2VoIP
+  - El servicio de alojamiento web Vekja.net
+explanation: |
+  Este [comenzó](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) a aceptar Bitcoin el 19 de mayo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Blant disse svarene, hvilket er ikke en av de 3 hovedrisikoene for brukeren som gjennomgår KYC?
+answer: Ikke-fungibiliteten til kjøpte bitcoins
+wrong_answers:
+  - Eksponering for statlig overvåkning
+  - Tilrettelegging for onchain-sporing
+  - Risikoen for datalekkasje
+explanation: |
+  KYC innebærer en risiko for datalekkasje siden informasjonen din lagres, en risiko for eksponering for statlig overvåkning siden informasjonen din kan overføres eller beslaglegges, og en risiko for sporing, ettersom KYC kan fungere som et inngangspunkt. Imidlertid reduserer ikke KYC fungibiliteten til kjøpte bitcoins.
+reviewed: false

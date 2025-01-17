@@ -1,11 +1,8 @@
-question: Jaký je význam použití jedinečného nonce v algoritmu ECDSA?
-answer: Pomáhá předcházet bezpečnostním útokům.
+question: Proč je ruční generování entropie pro HD peněženku riskantní?
+answer: Může do ní vnést lidské slabosti nebo předvídatelné zkreslení
 wrong_answers:
-  - Zvyšuje rychlost algoritmu.
-  - Sníží výpočetní složitost.
-  - Je vyžadováno pro funkci algoritmu.
+  - Vede k neplatným veřejným klíčům
+  - Blokuje odvození soukromých klíčů
+  - Omezuje velikost generovaných mnemonických frází
 explanation: |
-  Použití jedinečného nonce v algoritmu ECDSA je klíčové pro udržení
-  bezpečnosti. Opětovné použití nonce může vést k zranitelnostem, jak bylo demonstrováno
-  na hacku PlayStation 3, který byl kompromitován kvůli opětovnému použití nonce.
-reviewed: false
+  Ruční generování entropie může zavést zkreslení nebo chyby, čímž klíče stávají více zranitelnými vůči útokům.

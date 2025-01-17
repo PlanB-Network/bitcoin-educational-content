@@ -1,0 +1,9 @@
+question: ¿Cuál es, según Comte y Dunoyer, la solución al conflicto entre clases?
+answer: Evitar que el estado distribuya y controle la propiedad
+wrong_answers:
+  - Eliminar una clase
+  - Distribuir los recursos de manera equitativa
+  - Promover la lucha de clases
+explanation: |
+  Creen que la única manera de reducir la explotación es limitando el poder del estado para distribuir y controlar la propiedad.
+reviewed: false

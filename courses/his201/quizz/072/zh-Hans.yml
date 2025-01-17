@@ -1,0 +1,9 @@
+question: 当中本聪离开时，他将软件开发的责任交给了谁？
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation:
+  Gavin此前[曾表示](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651)他将“更积极地管理比特币项目”，并且在2010年12月开设了GitHub仓库。
+reviewed: true

@@ -1,0 +1,8 @@
+question: Какой алгоритм подписи был введен в Bitcoin с Taproot?
+answer: Схема подписи Шнорра
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Схема подписи Шнорра была введена в ноябре 2021 года с обновлением Taproot.

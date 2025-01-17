@@ -1408,9 +1408,8 @@ Pro Hayeka minulá nestabilita tržní ekonomiky vychází z faktu, že nejdůle
 ![image](assets/6/img-006.webp)
 Hayek věřil, že volný trh s privátními měnami by vedl k větší měnové stabilitě. Téměř 50 let později kryptoměna jako Bitcoin ztělesňuje Hayekovu vizi konkurence tím, že nabízí decentralizovanou alternativu k monopolistickému systému centrálních bank. Bitcoin, se svým emisním limitem 21 milionů jednotek, je zárukou proti inflaci a libovůli regulátorů.
 
+## Recenze & Hodnocení
 
-
-## Dejte nám zpětnou vazbu k tomuto kurzu
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1438,3 +1437,21 @@ V jistém smyslu je naše situace lepší než v minulosti. Po postupných selh�
 Vše, co se děje ve světové společnosti, ve které žijeme, je výsledkem nápadů. Těch dobrých i špatných. Je nutné bojovat proti falešným nápadům. (...) Naše civilizace může přežít, a musí. A přežije díky lepším nápadům, než jsou ty, které dnes světem vládnou; a tyto lepší nápady vyvinou příští generace.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
+# Závěr
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Ohodnoťte tento kurz
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Závěrečná zkouška
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Závěr
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

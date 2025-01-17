@@ -1,0 +1,9 @@
+question: Was ist laut Bastiat die schlimmste Form der Plünderung?
+answer: Steuern und Monopole
+wrong_answers:
+  - Von einem Individuum gegen ein anderes begangener Diebstahl
+  - Krieg und Eroberungen
+  - Alle Formen der Plünderung sind gleichermaßen schlecht
+explanation: |
+  Bastiat betrachtet Steuern und Monopole als die schlimmste Form der Plünderung, weil sie vom Staat legitimiert sind, was zu einer systematischen Aneignung der Ressourcen und Freiheiten von Individuen führt, oft unter dem Deckmantel des öffentlichen Interesses.
+reviewed: false

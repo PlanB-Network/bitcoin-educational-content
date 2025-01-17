@@ -2,8 +2,10 @@ question: Rủi ro tiềm ẩn của việc tập trung hóa khai thác trong Bi
 answer: Việc tập trung hóa khai thác trong Bitcoin có thể dẫn đến việc kiểm duyệt giao dịch và làm cho mạng lưới dễ bị tấn công, bao gồm cả cuộc tấn công 51%, nơi một cá nhân hoặc nhóm kiểm soát hơn 50% sức mạnh băm của mạng lưới, cho phép họ kiểm soát và thao túng mạng lưới.
 wrong_answers:
   - Việc tập trung hóa khai thác trong Bitcoin có thể dẫn đến việc giảm giá trị của Bitcoin và làm cho mạng lưới dễ bị lạm phát.
-  - Việc tập trung hóa khai thác trong Bitcoin có thể dẫn đến việc giảm phần thưởng khối và làm cho mạng lưới dễ bị đình trệ.
+  - Việc tập trung hóa khai thác trong Bitcoin có thể dẫn đến việc giảm phần thưởng khối và làm cho mạng lưới dễ bị trì trệ.
   - Việc tập trung hóa khai thác trong Bitcoin có thể dẫn đến việc giảm tốc độ giao dịch và làm cho mạng lưới dễ bị tắc nghẽn.
 explanation: |
-  Chương này giải thích rằng việc tập trung hóa khai thác trong Bitcoin có thể dẫn đến việc kiểm duyệt giao dịch và làm cho mạng lưới dễ bị tấn công, bao gồm cả cuộc tấn công 51%.
-reviewed: false
+  Chương này giải thích rằng việc tập trung hóa khai thác trong Bitcoin
+  có thể dẫn đến việc kiểm duyệt giao dịch và làm cho
+  mạng lưới dễ bị tấn công, bao gồm cả cuộc tấn công 51%.
+reviewed: true

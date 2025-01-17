@@ -1,0 +1,9 @@
+question: Mis on kaevurite peamine roll Bitcoin'i võrgus?
+answer: Nad tagavad võrgu turvalisuse, täites Bitcoin'i proof-of-work protsesse
+wrong_answers:
+  - Nad loovad uusi bitcoine
+  - Nad reguleerivad Bitcoin'i hinda
+  - Nad kontrollivad Bitcoin'i võrku
+explanation: |
+  Peatüki sisu selgitab, et kaevurid on vastutavad Bitcoin'i võrgu turvalisuse eest. Nad kasutavad elektrienergiat, et täita Bitcoin'i proof-of-work protsesse, mis loob uue ploki.
+reviewed: false

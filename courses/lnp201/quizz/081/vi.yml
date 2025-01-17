@@ -1,9 +1,0 @@
-question: Lightning Network là gì?
-answer: Một giải pháp tầng-2 cho Bitcoin giúp thực hiện giao dịch nhanh chóng và tiết kiệm chi phí
-wrong_answers:
-  - Một loại ví điện tử để lưu trữ Bitcoin
-  - Một phương pháp đào Bitcoin
-  - Một bản ghi của tất cả giao dịch trên mạng lưới Bitcoin
-explanation: |
-  Lightning Network là một giải pháp tầng-2 cho Bitcoin giúp thực hiện giao dịch nhanh chóng và tiết kiệm chi phí. Nó hoạt động trên cơ sở của blockchain Bitcoin và cho phép thực hiện giao dịch ngoại tuyến, những giao dịch này nhanh chóng và rẻ hơn so với giao dịch trên chuỗi.
-reviewed: false

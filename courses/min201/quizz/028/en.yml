@@ -5,11 +5,9 @@ wrong_answers:
   - China could control the price of Bitcoin.
   - China could ban Bitcoin mining.
 explanation: |
-  The centralization of mining hardware production in China poses a risk
-
-  to the Bitcoin network. If China refuses to export mining machines or accumulates
-
-  hashrate for a potential 51% attack, it could threaten the security and decentralization
-
-  of the network.'
-reviewed: false
+  The centralization of mining hardware production in China
+  poses a risk to the Bitcoin network. If China refuses to
+  export mining machines or accumulates hashrate for a
+  potential 51% attack, it could threaten the security and
+  decentralization of the network.
+reviewed: true

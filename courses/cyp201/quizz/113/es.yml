@@ -1,9 +1,0 @@
-question: ¿A qué corresponde la Profundidad 0 en la estructura de la Cartera HD?
-answer: La clave maestra y el código de cadena maestro
-wrong_answers:
-  - Las claves secundarias y el código de cadena secundario
-  - Las cadenas externas e internas
-  - Las direcciones de recepción en una cartera estándar
-explanation: |
-  En la estructura de la Cartera HD, la Profundidad 0 corresponde a la clave maestra y al código de cadena maestro.
-reviewed: false

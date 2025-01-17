@@ -1,0 +1,9 @@
+question: O que a Torneira de Bitcoin criada em junho de 2010 por Gavin Andresen oferecia?
+answer: Bitcoins
+wrong_answers:
+  - Vales de compras
+  - Descontos nas taxas para o Mercado Bitcoin
+  - Chances de minerar um bloco
+explanation: |
+  Este serviço inicialmente distribuía 5 bitcoins por solicitação, para permitir que as pessoas experimentassem o sistema. Esse montante foi reduzido ao longo do tempo, e a torneira foi fechada em 2012.
+reviewed: false

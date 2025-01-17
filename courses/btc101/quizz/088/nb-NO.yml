@@ -1,0 +1,12 @@
+question: Hva er den største risikoen ved å bruke en forvaltningstjeneste for å lagre dine bitcoins?
+answer: Den betrodde tredjeparten kan begrense din tilgang til dine midler når som helst
+wrong_answers:
+  - Den betrodde tredjeparten kan øke verdien av dine bitcoins når som helst
+  - Den betrodde tredjeparten kan redusere verdien av dine bitcoins når som helst
+  - Den betrodde tredjeparten kan ikke duplisere dine bitcoins når som helst
+explanation: >-
+  Når du bruker en forvaltningstjeneste for å lagre dine bitcoins, er du ikke
+  den eneste innehaveren av dine bitcoins. Dette betyr at den betrodde tredjeparten kan begrense
+  din tilgang til dine midler når som helst, noe som gir deg samme nivå av finansiell suverenitet
+  som med det tradisjonelle banksystemet.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Nhà phát triển người Mỹ nào đã phát hiện ra một khối lạ trong sự cố tràn giá trị vào ngày 15 tháng 8 năm 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Khối này, do lợi dụng một lỗi, đã tạo ra hơn 184 tỷ bitcoin.

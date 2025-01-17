@@ -1,0 +1,2717 @@
+[
+  {
+    "type": "header_separator",
+    "content": "---"
+  },
+  {
+    "type": "yml_property",
+    "content": "Theoretical introduction to the Lightning Network",
+    "prefix": "name:"
+  },
+  {
+    "type": "yml_property",
+    "content": "Discover the Lightning Network from a technical perspective",
+    "prefix": "goal:"
+  },
+  {
+    "type": "yml_property",
+    "content": [],
+    "prefix": "objectives:"
+  },
+  {
+    "type": "list",
+    "content": "Understand how network channels work.",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "list",
+    "content": "Familiarize yourself with the terms HTLC, LNURL and UTXO.",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "list",
+    "content": "Understand liquidity management and LNN fees.",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "list",
+    "content": "Recognize the Lightning Network as a network.",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "list",
+    "content": "Understand the theoretical uses of the Lightning Network.",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "header_separator",
+    "content": "---"
+  },
+  {
+    "type": "markdown_header",
+    "content": "A journey to Bitcoin's second layer",
+    "prefix": "#"
+  },
+  {
+    "type": "paragraph",
+    "content": "Dive into the heart of the Lightning Network, an essential system for the future of Bitcoin transactions. LNP201 is a theoretical course on the technical operation of Lightning. It reveals the fundamentals and inner workings of this second-layer network, designed to make Bitcoin payments fast, economical and scalable."
+  },
+  {
+    "type": "paragraph",
+    "content": "Thanks to its network of payment channels, Lightning enables fast, secure transactions without registering each exchange on the Bitcoin blockchain. Over the course of the chapters, you'll learn how channels are opened, managed and closed, how payments are securely routed via intermediate nodes while minimizing the need for trust, and how to manage liquidity. You'll discover what commitment transactions are, HTLC, revocation keys, punishment mechanisms, onion routing and invoices."
+  },
+  {
+    "type": "paragraph",
+    "content": "Whether you're a beginner or a more experienced Bitcoin user, this course will provide you with invaluable information for understanding and using the Lightning Network. Although we'll cover some of the fundamentals of how Bitcoin works in the first few parts, it's essential to master the basics of Satoshi's invention before diving into LNP201."
+  },
+  {
+    "type": "paragraph",
+    "content": "Enjoy your discovery!"
+  },
+  {
+    "type": "description_separator",
+    "content": "+++"
+  },
+  {
+    "type": "markdown_header",
+    "content": "The fundamentals",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Understanding the Lightning Network",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![Comprendre le lightning Network](https://youtu.be/PszWk046x-I)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Welcome to LNP201, a training course designed to explain the technical operation of the Lightning Network."
+  },
+  {
+    "type": "paragraph",
+    "content": "The Lightning Network is a payment channel network built on top of the Bitcoin protocol, aimed at enabling fast, low-cost transactions. It enables the creation of payment channels between participants, within which transactions can be carried out almost instantaneously and at minimal cost, without having to register each transaction individually on the blockchain. The Lightning Network thus aims to improve Bitcoin's scalability and make it possible to use it for low-value payments."
+  },
+  {
+    "type": "paragraph",
+    "content": "Before exploring the \"network\" aspect, it's important to understand the concept of a **payment channel** on Lightning, how it works and its specific features. This is the subject of this first chapter."
+  },
+  {
+    "type": "markdown_header",
+    "content": "The payment channel concept",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "A payment channel allows two parties, in this case **Alice** and **Bob**, to exchange funds on the Lightning network. Each protagonist has a node, symbolized by a circle, and the channel between them is represented by a segment."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/01.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In our example, Alice has 100,000 satoshis on her side of the channel, and Bob has 30,000, for a total of 130,000 satoshis, which is the **channel capacity**."
+  },
+  {
+    "type": "paragraph",
+    "content": "**But what is a satoshi?**"
+  },
+  {
+    "type": "paragraph",
+    "content": "The **satoshi** (or \"sat\") is a unit of account in Bitcoin. Like a cent for the euro, a satoshi is simply a fraction of a Bitcoin. One satoshi is equivalent to **0.00000001 Bitcoin**, or one hundred millionth of a Bitcoin. Using satoshi becomes increasingly practical as Bitcoin's value rises."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Allocation of funds in the channel",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Back to the payment channel. The key notion here is \"channel side\". Each participant has funds on his side of the channel: Alice 100,000 satoshis and Bob 30,000. As we've seen, the sum of these funds represents the total capacity of the channel, an element fixed when it was opened."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/02.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's take an example of a Lightning transaction. If Alice wishes to send 40,000 satoshis to Bob, this is possible, as she has sufficient funds (100,000 satoshis). After this transaction, Alice will have 60,000 satoshis on her side and Bob will have 70,000."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/03.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "The **channel capacity** of 130,000 satoshis remains constant. What changes is the allocation of funds. This system doesn't allow you to send more funds than you have. For example, if Bob wanted to send 80,000 satoshis back to Alice, he couldn't, because he only has 70,000."
+  },
+  {
+    "type": "paragraph",
+    "content": "Another way to imagine the allocation of funds is to imagine a **cursor** that indicates where the funds are in the channel. Initially, with 100,000 satoshis for Alice and 30,000 for Bob, the cursor is logically on Alice's side. After the transaction of 40,000 satoshis, the cursor will move slightly to Bob's side, who now has 70,000 satoshis."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/04.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "This representation can be useful for imagining the balance of funds in a channel."
+  },
+  {
+    "type": "markdown_header",
+    "content": "The fundamental rules of a payment channel",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "The first point to remember is that the **channel capacity** is fixed. It's a bit like the diameter of a pipe: it determines the maximum quantity of funds that can be sent through the channel at one time."
+  },
+  {
+    "type": "paragraph",
+    "content": "For example, if Alice has 130,000 satoshis of her own, she can only send Bob a maximum of 130,000 satoshis in a single transaction. However, Bob can then send these funds back to Alice, either partially or in full."
+  },
+  {
+    "type": "paragraph",
+    "content": "What's important to understand is that the channel's fixed capacity limits the maximum amount of a transaction, but not the total number of possible transactions, nor the overall volume of funds exchanged within the channel."
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "list",
+    "content": "The capacity of a channel is fixed and determines the maximum amount that can be sent in a single transaction.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "The funds in a channel are divided between the two participants, and each can only send the other the funds it has on its side.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "The Lightning Network enables funds to be exchanged quickly and efficiently, while respecting the limitations imposed by channel capacity.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "That's the end of this first chapter, in which we've laid the foundations of the Lightning Network. In the next few chapters, we'll look at how to open a channel and expand on the concepts we've covered here."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Bitcoin, addresses, UTXO and transactions",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![bitcoin, adresses, utxo et transactions](https://youtu.be/cadCJ2V7zTg)"
+  },
+  {
+    "type": "paragraph",
+    "content": "This chapter is a little special in that it's not directly dedicated to Lightning, but to Bitcoin. Indeed, the Lightning Network is a Bitcoin overlay. It is therefore essential to have a good understanding of certain fundamental Bitcoin concepts if we are to correctly grasp how Lightning works in subsequent chapters. In this chapter, we'll review the basics of Bitcoin receiving addresses, UTXOs and how Bitcoin transactions work."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Bitcoin addresses, private and public keys",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "A Bitcoin address is a sequence of characters derived from a **public key**, itself calculated from a **private key**. As you probably know, we use it to lock bitcoins, which is equivalent to receiving them in our wallet."
+  },
+  {
+    "type": "paragraph",
+    "content": "The private key is a secret element that **must never be shared**, whereas the public key and address can be shared without any security risk (their disclosure only represents a risk to your confidentiality). Here's a common representation we'll be adopting throughout this training course:"
+  },
+  {
+    "type": "list",
+    "content": "Private keys** will be represented **vertically**.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "The **public keys** will be represented **horizontally**.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Their color indicates who owns them (Alice in orange and Bob in black...).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "markdown_header",
+    "content": "Bitcoin transactions: sending funds and scripts",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "In Bitcoin, a transaction consists of sending funds from one address to another. For example, Alice sends 0.002 Bitcoin to Bob. Alice uses the private key associated with her address to **sign** the transaction, proving that she is indeed able to spend these funds. But what exactly is going on behind this transaction? The funds on a Bitcoin address are locked by a **script**, a kind of mini-program which imposes certain conditions on the spending of the funds."
+  },
+  {
+    "type": "paragraph",
+    "content": "The most common script requires a signature with the private key associated with the address. When Alice signs a transaction with her private key, she **unlocks the script** blocking the funds, and they can then be transferred. Transferring the funds involves adding a new script to the funds, stipulating that to spend them, this time a signature with **Bob's** private key is required."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/05.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "UTXO: Unspent Transaction Outputs",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "On Bitcoin, what we actually exchange are not bitcoins directly, but **UTXO** (_Unspent Transaction Outputs_)."
+  },
+  {
+    "type": "paragraph",
+    "content": "A UTXO is a piece of bitcoin that can be of any value, for example **2,000 bitcoins**, **8 bitcoins** or **8,000 sats**. Each UTXO is blocked by a script, and to spend it, you need to satisfy the conditions of the script, often a signature with the private key corresponding to a given receiving address."
+  },
+  {
+    "type": "paragraph",
+    "content": "UTXO cannot be divided. Whenever they are used to spend the amount of bitcoins they represent, it must be done in full. It's a bit like a banknote: if you have a €10 bill and you owe the baker €5, you can't just cut the bill in half. You have to give him the €10 bill, and he'll give you €5 change. It's exactly the same principle for UTXO on Bitcoin! For example, when Alice unlocks a script with her private key, she unlocks the entire UTXO. If she wishes to send only part of the funds represented by this UTXO to Bob, she can \"fragment\" it into several smaller ones. She will then send 0.0015 BTC to Bob and send the remainder, 0.0005 BTC, back to herself via a **exchange address**."
+  },
+  {
+    "type": "paragraph",
+    "content": "Here is an example of a transaction with 2 outputs:"
+  },
+  {
+    "type": "list",
+    "content": "A UTXO of 0.0015 BTC for Bob, blocked by a script requiring a signature with Bob's private key.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "A UTXO of 0.0005 BTC for Alice, blocked by a script requiring its own signature.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/06.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Multisignature addresses",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "In addition to simple addresses generated from a single public key, it is possible to create **multisignature addresses** from several public keys. A special case of interest for the Lightning Network is the **2/2 multisignature address**, generated from two public keys:"
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/07.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "To spend the funds locked with this 2/2 multisignature address, you need to sign with the two private keys associated with the public keys."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/08.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "This type of address is precisely the representation on the Bitcoin blockchain of the payment channels on the Lightning Network."
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "list",
+    "content": "A **Bitcoin address** is derived from a public key, itself derived from a private key.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Funds on Bitcoin are locked by **scripts**, and to spend those funds, you have to satisfy the script, which usually amounts to providing a signature with the corresponding private key.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "The **UTXO** are pieces of bitcoin blocked by scripts, and each transaction on Bitcoin consists of unlocking a UTXO and then creating one or more new ones in return.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "2/2** multi-signature addresses require the signature of two private keys to spend funds. It is these specific addresses that Lightning uses to create payment channels.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "This chapter on Bitcoin has given us the opportunity to review a few essential concepts for the future. In the next chapter, we're going to find out just how channel opening works on the Lightning Network."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Opening and closing channels",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Channel opening",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![ouvrir un canal](https://youtu.be/B2caBC0Rxko)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In this chapter, we'll take a closer look at how to open a payment channel on the Lightning Network and understand the link between this operation and the underlying Bitcoin system."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Lightning channels",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "As we saw in the first chapter, a **payment channel** on Lightning can be compared to a \"pipe\" for exchanging funds between two participants (**Alice** and **Bob** in our examples). The capacity of this channel corresponds to the sum of the funds available on each side. In our example, Alice has **100,000 satoshis** and Bob has **30,000 satoshis**, giving a **total capacity** of **130,000 satoshis**."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/09.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Levels of information exchange",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "It's important to distinguish between the different Lightning exchange levels:"
+  },
+  {
+    "type": "list",
+    "content": "Peer-to-peer communications (Lightning protocol)**: these are the messages Lightning nodes send to each other to communicate. We'll represent these messages as dotted black lines on our diagrams.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Payment channels (Lightning protocol)**: these are the paths for exchanging funds on Lightning, which we'll represent as black lines.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Bitcoin transactions (Bitcoin protocol)** : these are transactions carried out onchain, which we'll represent in orange lines.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/10.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Note that it's possible for a Lightning node to communicate via the P2P protocol without opening a channel, but to exchange funds, a channel is required."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Steps to open a Lightning channel",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. **Message exchange**: Alice wants to open a channel with Bob. She sends him a message containing the amount she wants to deposit in the channel (130,000 sats) and her public key. Bob replies by sharing his own public key."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/11.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "2. **Multisignature address creation**: With these two public keys, Alice creates a **2/2 multisignature address**, which means that funds later deposited at this address will require both signatures (Alice and Bob) to be spent."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/12.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "3. **Deposit transaction**: Alice prepares a Bitcoin transaction to deposit funds on this multisignature address. For example, she may decide to send **130,000 satoshis** to this multisignature address. This transaction is **built but not yet published** on the blockchain."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/13.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "4. **Withdrawal transaction**: Before publishing the deposit transaction, Alice constructs a withdrawal transaction so that she can recover her funds in the event of a problem with Bob. Indeed, when Alice publishes the deposit transaction, her sats will be locked on a 2/2 multisignature address which requires both her signature and Bob's signature to be released. Alice insures herself against this risk of loss by constructing the withdrawal transaction that allows her to recover her funds."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/14.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "5. **Bob's signature**: Alice sends Bob the deposit transaction for proof and asks him to sign the withdrawal transaction. Once Bob's signature has been obtained on the withdrawal transaction, Alice is assured of being able to retrieve her funds at any time, as all that's missing is her own signature to unlock the multisignature."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/15.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "6. **Publication of the deposit transaction**: Once Bob's signature has been obtained, Alice can publish the deposit transaction on the Bitcoin blockchain, thus officially opening the Lightning channel between the 2 users."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/16.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "When is the channel open?",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "The channel is considered open once the deposit transaction is included in a Bitcoin block and has reached a certain confirmation depth (number of subsequent blocks)."
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "list",
+    "content": "The opening of a channel begins with the exchange of **messages** between the two parties (exchange of amounts and public keys).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "A channel is formed by creating a **2/2 multisignature address** and depositing funds into it via a Bitcoin transaction.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "The person opening the channel ensures that he/she can **reclaim his/her funds** through a withdrawal transaction signed by the other party before publishing the deposit transaction.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "In the next chapter, we'll look at the technical operation of a Lightning transaction in a channel."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Commitment transaction",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![trasanction lightning & transaction d'engagement](https://youtu.be/aPqI34tpypM)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In this chapter, we'll take a look at the technical operation of a transaction within a channel on the Lightning Network, i.e. when funds are moved from one side of the channel to the other."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Reminder of a channel's life cycle",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "As seen above, a Lightning channel begins by being **opened** via a Bitcoin transaction. The channel can be **closed** at any time, also via a Bitcoin transaction. Between these two moments, an almost infinite number of transactions can be carried out within the channel, without going through the Bitcoin blockchain. Let's take a look at what happens during an in-channel transaction."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/17.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Initial state of the canal",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "When the channel is opened, Alice has deposited **130,000 satoshis** on the channel's multisignature address. Thus, in the initial state, all funds are on Alice's side. Before opening the channel, Alice also had Bob sign a **withdrawal transaction**, which would allow her to recover her funds if she wished to close the channel."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/18.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Unpublished transactions: commitment transactions",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "When Alice makes a transaction in the channel to send funds to Bob, a new Bitcoin transaction is created to reflect this change in the distribution of funds. This transaction, called a **commitment transaction**, is not published on the blockchain, but represents the new state of the channel following the Lightning transaction."
+  },
+  {
+    "type": "paragraph",
+    "content": "For example, Alice sends 30,000 satoshis to Bob:"
+  },
+  {
+    "type": "list",
+    "content": "Initially**: Alice owns 130,000 satoshis.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "After the transaction**: Alice owns 100,000 satoshis, and Bob 30,000 satoshis.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "To validate this transfer, Alice and Bob create a new **unpublished Bitcoin transaction** that would send **100,000 satoshis to Alice** and **30,000 satoshis to Bob** from the multisignature address. Both parties construct this transaction independently, but with the same data (amounts and addresses). Once constructed, each party signs the transaction and exchanges signatures with the other. This allows each party to publish the transaction at any time, if necessary, to recover their share of the channel on the main Bitcoin blockchain."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/19.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Transfer process: the invoice",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "When Bob wishes to receive funds, he sends Alice an **_invoice_** for 30,000 satoshis. Alice then proceeds to pay this invoice by starting the transfer within the channel. As we have seen, this process relies on the creation and signature of a new **commitment transaction**."
+  },
+  {
+    "type": "paragraph",
+    "content": "Each commitment transaction represents the new distribution of funds in the channel after the transfer. In this example, after the transaction, Bob has 30,000 satoshis and Alice has 100,000 satoshis. Should either of the two participants decide to publish this commitment transaction on the blockchain, it would lead to the channel being closed, and the funds would be distributed in accordance with this latest allocation."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/20.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "New status after a second transaction",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's take another example: after the first transaction where Alice sent 30,000 satoshis to Bob, Bob decides to send **10,000 satoshis back to Alice**. This creates a new channel state. The new **commitment transaction** will represent this updated distribution:"
+  },
+  {
+    "type": "list",
+    "content": "Alice** now owns **110,000 satoshis**.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Bob** owns **20,000 satoshis**.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/21.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Once again, this transaction is not published on the blockchain, but can be at any time if the channel is closed."
+  },
+  {
+    "type": "paragraph",
+    "content": "In short, when funds are transferred within a Lightning :"
+  },
+  {
+    "type": "list",
+    "content": "Alice and Bob create a new **commitment transaction**, reflecting the new distribution of funds.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "This Bitcoin transaction is **signed** by both parties, but **not published** on the Bitcoin blockchain as long as the channel remains open.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Commitment transactions guarantee that each participant can recover his or her funds at any time on the Bitcoin blockchain by publishing the last signed transaction.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "However, there is a potential flaw in this system, which we'll address in the next chapter. There, we'll look at how each participant can protect himself against an attempt at cheating by the other party."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Revocation key",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![transactions partie 2](https://youtu.be/RRvoVTLRJ84)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In this chapter, we'll take a closer look at how transactions work on the Lightning Network, covering the mechanisms for protecting against cheating, to ensure that each party complies with the rules within a channel."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Reminder: commitment transactions",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "As previously mentioned, Lightning transactions are based on unpublished **commitment transactions**. These transactions reflect the current distribution of funds in the channel. When a new Lightning transaction is carried out, a new commitment transaction is created and signed by both parties to reflect the new state of the channel."
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's take a simple example:"
+  },
+  {
+    "type": "list",
+    "content": "Initial state**: Alice owns **100,000 satoshis**, Bob **30,000 satoshis**.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "After a transaction in which Alice sends **40,000 satoshis** to Bob, the new commitment transaction distributes the funds as follows:",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Alice : **60,000 satoshis**",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "list",
+    "content": "Bob: **70,000 satoshis**",
+    "prefix": "-",
+    "indent": 2
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/22.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Both parties can, at any time, publish the **last signed commitment transaction** to close the channel and recover their funds."
+  },
+  {
+    "type": "markdown_header",
+    "content": "The flaw: cheating by publishing an old transaction",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "A potential problem arises if one of the parties decides to **cheat** by publishing an older commitment transaction. For example, Alice could publish an older commitment transaction where she owned **100,000 satoshis**, even though she only has **60,000** in reality. This would enable her to steal **40,000 satoshis** from Bob."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/23.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Worse still, Alice could publish the very first withdrawal transaction, the one before the channel opened, where she owned **130,000 satoshis**, and thus steal the channel's entire funds."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/24.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Solution: the revocation key and timelock",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "To avoid this cheating by Alice, on the Lightning Network, we add **security mechanisms** to commitment transactions:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. **Timelock**: Each commitment transaction includes a timelock for Alice's funds. The timelock is a smart contract primitive that defines a time condition to be met before a transaction can be added to a block. This means that Alice won't be able to get her funds back until a certain number of blocks later, if she publishes one of the commitment transactions. This timelock starts to apply as soon as the commitment transaction is confirmed. Its duration is generally proportional to the size of the channel, but it can also be configured manually."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. **Revocation key**: Alice's funds can also be spent immediately by Bob if he has the **revocation key**. This key consists of a secret held by Alice and a secret held by Bob. Note that this secret is different for each commitment transaction."
+  },
+  {
+    "type": "paragraph",
+    "content": "Thanks to these 2 mechanisms combined, Bob has time to detect Alice's cheating attempt, and to punish her by recovering her output thanks to the revocation key, which for Bob means recovering all the funds in the channel. Our new commitment transaction will now look like this:"
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/25.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's take a closer look at how this mechanism works."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Transaction update process",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "When Alice and Bob update the channel state with a new Lightning transaction, they exchange upstream their respective **secrets** for the previous commitment transaction (the one that's about to become obsolete and could allow one of them to cheat). This means that, in the new channel state :"
+  },
+  {
+    "type": "list",
+    "content": "Alice and Bob have a new commitment transaction representing the current distribution of funds after the Lightning transaction.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Each has the other's secret for the previous transaction, enabling them to use the revocation key only if one of them tries to cheat by publishing a transaction with an old state in the mempools of the Bitcoin nodes. Indeed, to punish the other party, it is necessary to hold both secrets and the other's commitment transaction, which includes the signed input. Without this transaction, the revocation key alone is useless. The only way to obtain this transaction is to retrieve it from mempools (in transactions awaiting confirmation) or from confirmed transactions on the blockchain during the timelock, which proves that the other party is trying to cheat, whether voluntarily or not.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's take an example to understand this process:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. **Initial state**: Alice owns **100,000 satoshis**, Bob **30,000 satoshis**."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/26.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "2. Bob wants to receive 40,000 satoshis from Alice via their Lightning channel. To do this :"
+  },
+  {
+    "type": "list",
+    "content": "It sends him an invoice and his secret for the revocation key of his previous commitment transaction.",
+    "prefix": "-",
+    "indent": 3
+  },
+  {
+    "type": "list",
+    "content": "In response, Alice provides her signature for Bob's new commitment transaction, as well as her secret for the revocation key of his previous transaction.",
+    "prefix": "-",
+    "indent": 3
+  },
+  {
+    "type": "list",
+    "content": "Finally, Bob sends his signature for Alice's new commitment transaction.",
+    "prefix": "-",
+    "indent": 3
+  },
+  {
+    "type": "list",
+    "content": "These exchanges enable Alice to send **40,000 satoshis** to Bob on Lightning via their channel, and the new commitment transactions now reflect this new distribution of funds.",
+    "prefix": "-",
+    "indent": 3
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/27.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "3. If Alice tries to publish the old commitment transaction where she still owned **100,000 satoshis**, Bob, having obtained the revocation key, can immediately recover the funds thanks to this key, while Alice is blocked by the timelock."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/28.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Although in this case Bob has no economic interest in trying to cheat, if he does cheat, Alice also benefits from symmetrical protection offering the same guarantees."
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "paragraph",
+    "content": "Commitment transactions** on the Lightning Network include security mechanisms that reduce both the risk of cheating and the incentive to do so. Before signing a new commitment transaction, Alice and Bob exchange their respective **secrets** for previous commitment transactions. If Alice tries to publish an old commitment transaction, Bob can use the **revocation key** to recover the full amount before Alice can (as she is blocked by the timelock), thus punishing her for trying to cheat."
+  },
+  {
+    "type": "paragraph",
+    "content": "This security system ensures that participants comply with Lightning Network rules, and that they cannot profit from the publication of old commitment transactions."
+  },
+  {
+    "type": "paragraph",
+    "content": "At this stage of the course, you'll know how Lightning channels are opened and how transactions in these channels work. In the next chapter, we'll look at how to close a channel and get your bitcoins back onto the main blockchain."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Channel closure",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![fermer un canal](https://youtu.be/FVmQvNpVW8Y)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In this chapter, we'll look at **closing a channel** on the Lightning Network, which is achieved through a Bitcoin transaction, just like opening a channel. Having seen how transactions within a channel work, it's now time to see how to close a channel and recover the funds on the Bitcoin blockchain."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Reminder of a channel's life cycle",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "The **life cycle of a channel** begins with its **opening**, via a Bitcoin transaction, then Lightning transactions are carried out within it, and finally, when the parties wish to recover their funds, the channel is **closed** via a second Bitcoin transaction. Intermediary transactions carried out on Lightning are represented by unpublished **commitment transactions**."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/29.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "The three types of channel closure",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "There are three main ways to close this channel, which can be called **the good, the bad and the ugly** (inspired by Andreas Antonopoulos in _Mastering the Lightning Network_):"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. **The good one**: the **cooperative closing**, where Alice and Bob agree to close the canal."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. **The brute**: the **forced closure**, where one of the parties decides to close the channel in an honest way, but without the agreement of the other."
+  },
+  {
+    "type": "paragraph",
+    "content": "3. **The trickster**: the **closing with cheating**, where one of the parties tries to steal funds by publishing an old commitment transaction (any one, but not the last one, which reflects the real and fair distribution of funds)."
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's take an example:"
+  },
+  {
+    "type": "list",
+    "content": "Alice owns **100,000 satoshis** and Bob **30,000 satoshis**.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "This distribution is reflected in **2 commitment transactions** (one per user) which are not published, but could be in the event of channel closure.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/30.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "The right one: cooperative closure",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "In a **cooperative closing**, Alice and Bob agree to close the canal. Here's how it goes:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. Alice sends a message to Bob via the Lightning communication protocol to propose closing the channel."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. Bob accepts, and the two parties make no further transactions in the channel."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/31.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "3. Alice and Bob negotiate the **closing transaction fee** together. These fees are generally calculated according to the Bitcoin fee market at the time of closure. It's important to note that **it's always the person who opened the channel** (Alice in our example) who pays the closing fee."
+  },
+  {
+    "type": "paragraph",
+    "content": "4. They build a new **closing transaction**. This transaction resembles a commitment transaction, but with no timelock or revocation mechanisms, since both parties are cooperating and there is no risk of cheating. This cooperative closing transaction is therefore different from a commitment transaction."
+  },
+  {
+    "type": "paragraph",
+    "content": "For example, if Alice owns **100,000 satoshis** and Bob owns **30,000 satoshis**, the closing transaction will send **100,000 satoshis** to Alice's address and **30,000 satoshis** to Bob's address, without timelock constraints. Once this transaction has been signed by both parties, it is published by Alice. Once the transaction has been confirmed on the Bitcoin blockchain, the Lightning channel is officially closed."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/32.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Cooperative closing** is the preferred closing method, because it's fast (no timelock) and transaction fees are adjusted according to current Bitcoin market conditions. This avoids paying too little, which would risk blocking the transaction in mempools, or overpaying unnecessarily, resulting in unnecessary financial loss for participants."
+  },
+  {
+    "type": "markdown_header",
+    "content": "The brute: forced closure",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "When Alice's node sends a message to Bob's node requesting a cooperative closure, if Bob doesn't respond (for example, due to an Internet outage or a technical problem), Alice can perform a **forced closure** by publishing the **last signed commitment transaction**."
+  },
+  {
+    "type": "paragraph",
+    "content": "In this case, Alice will simply publish the last commitment transaction, which reflects the state of the channel at the time the last Lightning transaction took place with the correct allocation of funds."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/33.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "This transaction includes a **timelock** for Alice's funds, which makes closing slower."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/34.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Also, commitment transaction fees may be inappropriate at the time of closing, as they were set at the time the transaction was created, sometimes several months earlier. In general, Lightning customers overestimate fees to avoid future problems, but this can result in fees that are excessive, or conversely too low."
+  },
+  {
+    "type": "paragraph",
+    "content": "In short, **forced closure** is an option of last resort when the peer no longer responds. It is slower and less economical than cooperative closure. It should therefore be avoided whenever possible."
+  },
+  {
+    "type": "markdown_header",
+    "content": "The trickster: cheating",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Finally, a closure with **cheating** occurs when one of the parties attempts to publish an old commitment transaction, often where she held more funds than she should. For example, Alice might publish an old transaction where she owned **120,000 satoshis**, when in reality she only owns **100,000**."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/35.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "To prevent this cheating, Bob monitors the Bitcoin blockchain and its mempool to make sure Alice doesn't publish an old transaction. If Bob detects an attempt to cheat, he can use the **revocation key** to recover Alice's funds and punish her by taking the entire channel's funds. Since Alice is blocked by the timelock on her output, Bob has time to spend it without a timelock of his own to recover the entire sum on an address belonging to him."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/36.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Of course, the cheating can potentially succeed if Bob doesn't show up within the time limit imposed by the timelock on Alice's output. In this case, Alice's output is unblocked, allowing her to use it to create a new output to an address she controls."
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "paragraph",
+    "content": "There are three ways to close a channel:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. **Cooperative closing**: fast and less costly, where both parties agree to close the channel and publish a suitable closing transaction."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. **Forced closure**: less desirable, as it relies on the publication of a commitment transaction, with potentially inappropriate fees and a timelock, which slows down closure."
+  },
+  {
+    "type": "paragraph",
+    "content": "3. **Cheating**: if one party tries to steal funds by publishing an old transaction, the other can use the revocation key to punish this cheating."
+  },
+  {
+    "type": "paragraph",
+    "content": "In the next few chapters, we'll be taking a broader look at the Lightning Network, and how it works."
+  },
+  {
+    "type": "markdown_header",
+    "content": "A liquidity network",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Lightning le Réseau",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![lightning le réseau](https://youtu.be/RAZAa3v41DM)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In this chapter, we'll explore how payments on the Lightning Network can reach a recipient even if the latter is not directly connected via a payment channel. Lightning is, in effect, a **network of payment channels**, which means that funds can be sent to a remote node via the channels of other participants. We're going to find out how payments are routed on the network, how liquidity moves between channels, and how transaction fees are calculated."
+  },
+  {
+    "type": "markdown_header",
+    "content": "The network of payment channels",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "On the Lightning Network, a transaction corresponds to a transfer of funds between two nodes. As seen in the previous chapters, you need to open a channel with a person to carry out Lightning transactions. This channel makes it possible to carry out an almost infinite number of off-chain transactions before closing it again to recover the on-chain balance. However, this method has the disadvantage of requiring a direct channel with the other person to receive or send funds, which implies an opening transaction and a closing transaction for each channel. If I plan to make a large number of payments with this person, opening and closing a channel becomes profitable. On the other hand, if I only need to make a few Lightning transactions, opening a direct channel is not advantageous, as it would cost me 2 on-chain transactions for a limited number of off-chain transactions. This could be the case, for example, when you want to pay with Lightning at a merchant's without planning to return."
+  },
+  {
+    "type": "paragraph",
+    "content": "To solve this problem, the Lightning Network allows a payment to be routed via several channels and intermediate nodes, enabling a transaction to be carried out without a direct channel to the other person."
+  },
+  {
+    "type": "paragraph",
+    "content": "For example, suppose :"
+  },
+  {
+    "type": "list",
+    "content": "Alice** (in orange) has a channel with **Suzie** (in grey) with **100,000 satoshis** on her side and **30,000 satoshis** on Suzie's side.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Suzie** has a channel with **Bob** in which she has **250,000 satoshis** and Bob has no satoshi.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/37.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "If Alice wishes to send funds to Bob without opening a direct channel with him, she will have to go through Suzie, and each channel will have to adjust the liquidity on each side. **The satoshis sent remain in their respective channels**; they don't actually \"cross\" the channels, but the transfer takes place via an adjustment of the liquidity internal to each channel."
+  },
+  {
+    "type": "paragraph",
+    "content": "Suppose Alice wants to send **50,000 satoshis** to Bob :"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. **Alice** sends 50,000 satoshis to **Suzie** in their common channel."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. **Suzie** counters this transfer by sending 50,000 satoshis to Bob** in their channel."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/38.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "The payment is routed to Bob via a liquidity shift in each channel. At the end of the operation, Alice ends up with 50,000 sats. She has transferred 50,000 sats, since she originally had 100,000. Bob, for his part, ends up with a further 50,000 sats. For Suzie (the intermediate node), this operation is neutral: initially, she had 30,000 sats in her channel with Alice and 250,000 sats in her channel with Bob, for a total of 280,000 sats. After the operation, she has 80,000 sats in her channel with Alice and 200,000 sats in her channel with Bob, i.e. the same amount as at the start."
+  },
+  {
+    "type": "paragraph",
+    "content": "This transfer is thus limited by the **liquidity available** in the direction of the transfer."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Calculating route and liquidity limits",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's take a theoretical example of another network with :"
+  },
+  {
+    "type": "list",
+    "content": "130,000 satoshis** on Alice's side (orange) in her channel with **Suzie** (grey).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "90,000 satoshis** on the **Suzie** side and **200,000 satoshis** on the **Carol** side (in pink).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "150,000 satoshis** for **Carol** and **100,000 satoshis** for **Bob**.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/39.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "The maximum Alice can send to Bob in this configuration is **90,000 satoshi**, as she is limited by the smallest available liquidity in the channel from **Suzie to Carol**. In the opposite direction (from Bob to Alice), no payment is possible because **Suzie**'s side of the channel with **Alice** contains no satoshi. There is therefore **no route** that can be used for a transfer in this direction."
+  },
+  {
+    "type": "paragraph",
+    "content": "Alice sends **40,000 satoshis** to Bob via the channels :"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. Alice transfers 40,000 satoshis into her canal with Suzie."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. Suzie transfers 40,000 satoshis to Carol in their shared channel."
+  },
+  {
+    "type": "paragraph",
+    "content": "3. Carol finally transfers 40,000 satoshis to Bob."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/40.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "The **satoshis sent** in each channel **remain in the channel**, so the satoshis sent by Carol to Bob are not the same as those sent by Alice to Suzie. The transfer takes place solely by adjusting the liquidity within each channel. The total capacity of the channels remains unchanged."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/41.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "As in the previous example, after the transaction, the source node (Alice) has 40,000 satoshis less. The intermediate nodes (Suzie and Carol) retain the same total amount, making the transaction neutral for them. Finally, the destination node (Bob) receives a further 40,000 satoshis."
+  },
+  {
+    "type": "paragraph",
+    "content": "Intermediary nodes therefore play an important role in the operation of the Lightning network. They make transfers more fluid by offering several payment paths. To encourage these nodes to provide their liquidity and participate in the routing of payments, they are paid a **routing fee**."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Routing costs",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Intermediary nodes apply fees to allow payments to pass through their channels. These fees are defined by **each node for each channel**. Fees have 2 components:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. \"**Base fee**\": a fixed amount per channel, often **1 sat** by default, but customizable."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. \"**Fee variable**\": a percentage of the amount transferred, calculated in **parts per million (ppm)**. By default, it is **1 ppm** (1 sat per million satoshis transferred), but it can also be adjusted."
+  },
+  {
+    "type": "paragraph",
+    "content": "Fees also differ depending on the direction of the transfer. For example, for a transfer from Alice to Suzie, Alice's charges apply. Conversely, from Suzie to Alice, Suzie's charges apply."
+  },
+  {
+    "type": "paragraph",
+    "content": "For example, for a channel between Alice and Suzie, we could have :"
+  },
+  {
+    "type": "list",
+    "content": "Alice**: basic fee of 1 sat and 1 ppm for variable costs.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Suzie**: 0.5 sat basic fee and 10 ppm variable fee.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/42.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "To understand how fees work, let's study the same Lightning network as before, but now with the following routing fees:"
+  },
+  {
+    "type": "list",
+    "content": "Channel **Alice - Suzie**: base fee of 1 satoshi and 1 ppm for Alice.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Channel **Suzie - Carol**: base fee of 0 satoshi and 200 ppm for Suzie 1.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Channel **Carol - Bob**: base fee of 1 satoshi and 1 ppm for Suzie 2.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/43.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "For the same payment of **40,000 satoshis** to Bob, Alice will have to send a little more, as each intermediary node will charge its own fees:"
+  },
+  {
+    "type": "list",
+    "content": "Carol** takes 1.04 satoshis from the channel with Bob :",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "$$ f*{\\text{Carol-Bob}} = \\text{base fee} + \\left(\\frac{\\text{ppm} \\times \\text{amount}}{10^6}\\right) $$"
+  },
+  {
+    "type": "paragraph",
+    "content": "$$ f*{\\text{Carol-Bob}} = 1 + \\frac{1 \\times 40000}{10^6} = 1 + 0.04 = 1.04 \\text{ sats} $$"
+  },
+  {
+    "type": "list",
+    "content": "Suzie** charges 8 satoshis on the channel with Carol :",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "$$ f*{\\text{Suzie-Carol}} = \\text{base fee} + \\left(\\frac{\\text{ppm} \\times \\text{amount}}{10^6}\\right) $$"
+  },
+  {
+    "type": "paragraph",
+    "content": "$$ f*{\\text{Suzie-Carol}} = 0 + \\frac{200 \\times 40001.04}{10^6} = 0 + 8.0002 \\approx 8 \\text{ sats} $$"
+  },
+  {
+    "type": "paragraph",
+    "content": "The total charge for this payment on this path is therefore **9.04 satoshis**. Thus, Alice must send **40,009.04 satoshis** for Bob to receive exactly **40,000 satoshis**."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/44.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Liquid assets are therefore updated:"
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/45.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Onion routing",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "To route a payment from sender to recipient, the Lightning Network uses a method called \"onion routing\". Unlike conventional data routing, where each router decides where the data should go based on its destination, onion routing works differently:"
+  },
+  {
+    "type": "list",
+    "content": "The sender node calculates the entire route**: Alice, for example, determines that her payment must pass through Suzie and Carol before reaching Bob.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Each intermediate node knows only its immediate neighbor** : Suzie knows only that she has received funds from Alice and that she must transfer them to Carol. However, Suzie doesn't know whether Alice is the source node or an intermediate node, nor does she know whether Carol is the recipient node or just another intermediate node. This principle also applies to Carol and all the other nodes in the path. Onion routing thus preserves the confidentiality of transactions by concealing the identity of the sender and final recipient.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "For the sender node to calculate a complete route to the recipient in onion routing, it must maintain a **network graph** to know its topology and determine possible routes."
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. On Lightning, payments can be routed between nodes connected indirectly via intermediate channels. Each of these intermediary nodes acts as a liquidity relay."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. Intermediary nodes receive a commission for their service, made up of fixed and variable costs."
+  },
+  {
+    "type": "paragraph",
+    "content": "3. Onion routing allows the sender node to calculate the complete route without the intermediate nodes knowing the source or final destination."
+  },
+  {
+    "type": "paragraph",
+    "content": "In this chapter, we learned about payment routing on the Lightning Network. But the question arises: what prevents intermediate nodes from accepting an incoming payment without forwarding it to the next destination, with the aim of intercepting the transaction? This is precisely the role of HTLC, which we'll examine in the next chapter."
+  },
+  {
+    "type": "markdown_header",
+    "content": "HTLC - Hashed Time Locked Contract",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![HTLC](https://youtu.be/-JC4mkq7H48)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In this chapter, we'll find out how Lightning enables payments to pass through intermediary nodes without the need to trust them, thanks to **HTLC** (_Hashed Time-Locked Contracts_). These smart contracts guarantee that each intermediary node will only receive funds from its channel if it sends the payment to the final recipient, otherwise the payment will not be validated."
+  },
+  {
+    "type": "paragraph",
+    "content": "The problem that arises when routing a payment is therefore the trust needed in the intermediary nodes, and between the intermediary nodes themselves. To illustrate this, let's take our example of a simplified Lightning network with 3 nodes and 2 channels:"
+  },
+  {
+    "type": "list",
+    "content": "Alice has a channel with Suzie.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Suzie has a channel with Bob.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "Alice wants to send 40,000 sats to Bob, but she doesn't have a direct channel to him and doesn't want to open one. She looks for a route and chooses to go through Suzie's node."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/46.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "If Alice naively sends Suzie 40,000 satoshis in the hope that Suzie will transfer this sum to Bob, Suzie could keep the funds for herself and pass nothing on to Bob."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/47.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "To avoid this situation, Lightning uses HTLC, which makes payment to the intermediary node conditional, i.e. Suzie must complete certain conditions to access Alice's funds and pass them on to Bob."
+  },
+  {
+    "type": "markdown_header",
+    "content": "How HTLC (_Hashed Time-Locked Contracts_) work",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "A HTLC is a special contract based on two principles:"
+  },
+  {
+    "type": "list",
+    "content": "Access condition** : The recipient must reveal a secret to unlock the payment due.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Expiry**: If the payment is not fully completed within a defined period, it is cancelled and the funds are returned to the sender.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "Here's how the process works in our example with Alice, Suzie and Bob:"
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/48.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "**Secret creation**: Bob generates a random secret noted _s_ (the pre-image), and calculates its hash noted _r_ with the hash function noted _h_. The result is :"
+  },
+  {
+    "type": "equation_start",
+    "content": "$$"
+  },
+  {
+    "type": "equation",
+    "content": "r = h(s)",
+    "lines": [
+      "r = h(s)"
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "Using a hash function makes it impossible to find _s_ with _h(s)_ alone, but if _s_ is provided, it's easy to check that it matches _h(s)_."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/49.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "**Send payment request**: Bob sends an **invoice** to Alice requesting payment. This invoice includes the _r_ hash."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/50.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "**Conditional payment**: Alice sends an HTLC of 40,000 satoshis to Suzie. The condition for Suzie to receive these funds is that she provides Alice with a secret _s'_ that verifies the following equation:"
+  },
+  {
+    "type": "equation_start",
+    "content": "$$"
+  },
+  {
+    "type": "equation",
+    "content": "h(s') = r",
+    "lines": [
+      "h(s') = r"
+    ]
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/51.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "**Transmission of HTLC to final recipient**: Suzie, in order to obtain the 40,000 satoshis from Alice, must transfer a similar HTLC of 40,000 satoshis to Bob, who has the same condition, i.e. he must provide Suzie with a secret _s'_ that verifies the equation :"
+  },
+  {
+    "type": "equation_start",
+    "content": "$$"
+  },
+  {
+    "type": "equation",
+    "content": "h(s') = r",
+    "lines": [
+      "h(s') = r"
+    ]
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/52.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "**Validation by secret _s_**: Bob provides Suzie with _s_ to receive the 40,000 satoshis promised in the HTLC. With this secret, Suzie can then unlock Alice's HTLC and obtain the 40,000 satoshis from Alice. The payment is then correctly routed to Bob."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/53.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "This process makes it impossible for Suzie to keep Alice's funds without completing the transfer to Bob, as she must send the payment to Bob to obtain the _s_ secret and thus unlock Alice's HTLC. The operation remains the same even if the route includes several intermediate nodes: simply repeat Suzie's steps for each intermediate node. Each node is protected by the HTLC conditions, as the release of the last HTLC by the recipient automatically triggers the release of all the other HTLCs in the cascade."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Expiration and management of HTLC in the event of a problem",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "If, during the payment process, one of the intermediary nodes, or the destination node, becomes unresponsive, for example in the event of an Internet or power cut, then the payment cannot succeed, as the secret enabling HTLC to be unblocked is not transmitted. If we go back to our example with Alice, Suzie and Bob, this problem arises, for example, if Bob doesn't transmit the _s_ secret to Suzie. In this case, all HTLCs upstream of the path are blocked, and so are the funds they secure."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/54.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "To avoid this, HTLCs on Lightning feature an expiry that allows the HTLC to be deleted if it is not completed within a certain time. Expiration follows a specific order, starting first with the HTLC closest to the recipient, then progressively working backwards to the sender of the transaction. In our example, if Bob never gives the secret _s_ to Suzie, this would cause the HTLC from Suzie to Bob to expire first."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/55.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Then Alice's HTLC to Suzie."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/56.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "If the expiry order were reversed, Alice could recover her payment before Suzie could protect herself from potential cheating. Indeed, if Bob returned to claim his HTLC when Alice had already deleted hers, Suzie would find herself aggrieved. This cascading order of HTLC expiry ensures that no intermediate node suffers unfair losses."
+  },
+  {
+    "type": "markdown_header",
+    "content": "HTLC representation in commitment transactions",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Commitment transactions represent HTLCs so that the conditions they impose on Lightning are transferable to Bitcoin in the event of a forced channel closure during the lifetime of an HTLC. As a reminder, commitment transactions represent the current state of the channel between the 2 users, and enable unilateral forced closure in the event of a problem. For each new channel state, 2 commitment transactions are created: one for each party. Let's go back to our example with Alice, Suzie and Bob, but let's take a closer look at what's happening in the channel between Alice and Suzie when the HTLC is created."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/57.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Before the payment of 40,000 sats between Alice and Bob begins, Alice has 100,000 sats in her channel with Suzie, while Suzie has 30,000. Their commitment transactions are therefore as follows:"
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/58.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Alice has just received Bob's invoice, which contains _r_, the hash of the secret. She can therefore build a HTLC of 40,000 satoshis with Suzie. This HTLC is represented in the last commitment transactions as an output called \"**_HTLC Out_**\" on Alice's side, since the funds are outgoing, and \"**_HTLC In_**\" on Suzie's side, since the funds are incoming."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/59.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "These outputs associated with HTLC share exactly the same conditions, namely :"
+  },
+  {
+    "type": "list",
+    "content": "If Suzie is able to provide the secret _s_, she can unlock this output immediately and transfer it to an address she controls.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "If Suzie doesn't have the secret _s_, she can't unlock this output, and Alice can unlock it after a timelock to send it to an address she controls. The timelock thus gives Suzie time to react if she obtains _s_.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "These conditions only apply if the channel is closed (a commitment transaction is published on-chain) while the HTLC is still active on Lightning, i.e. the payment between Alice and Bob has not yet been finalized, and the HTLCs have not yet expired. Thanks to these conditions, Suzie can recover the 40,000 satoshis of HTLC owed to her by providing _s_. Otherwise, Alice recovers the funds after the timelock has expired, because if Suzie doesn't know _s_, this means she hasn't transmitted the 40,000 satoshis to Bob, and Alice's funds are therefore not due to him."
+  },
+  {
+    "type": "paragraph",
+    "content": "On the other hand, if the channel is closed while several HTLCs are waiting, there will be as many more outputs as there are HTLCs in progress."
+  },
+  {
+    "type": "paragraph",
+    "content": "If the channel is not closed, then after the Lightning payment has expired or succeeded, new commitment transactions are created to reflect the new, stable state of the channel, i.e. with no pending HTLC. HTLC-related outputs can therefore be removed from commitment transactions."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/60.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Finally, in the event of a cooperative channel closure while an HTLC is active, Alice and Suzie stop accepting new payments and wait for the resolution or expiry of the current HTLC. This allows them to publish a lighter closing transaction, without the outputs linked to HTLCs, thus reducing costs and avoiding the need to wait for a possible timelock."
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "paragraph",
+    "content": "HTLC allows Lightning payments to be routed through multiple nodes without having to trust them. Here are the key points to remember:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. HTLC guarantees payment security by means of a secret (pre-image) and an expiry date."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. HTLC resolution or expiration follows a specific order: from destination to source, to protect each node."
+  },
+  {
+    "type": "paragraph",
+    "content": "3. As long as an HTLC is neither resolved nor expired, it is maintained as output in the most recent commitment transactions."
+  },
+  {
+    "type": "paragraph",
+    "content": "In the next chapter, we'll discover how a Lightning transaction's sender node finds and selects routes for its payment to reach the recipient node."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Finding your way",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![trouver sa voie](https://youtu.be/wnUGJjOxd9Q)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In previous chapters, we have seen how to use other nodes' channels to route payments and reach a node without being directly connected to it via a channel. We also discussed how to guarantee the security of the transfer without relying on intermediary nodes. In this chapter, we'll be looking at how to find the best possible route to reach a target node."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Routing in Lightning",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "As we've seen, on Lightning, it's the payment sender node that has to calculate the complete route to the recipient, since we use an onion routing system. Intermediate nodes know neither the point of origin nor the final destination. They only know where the payment originated and to which node they must transfer it next. This means that the sending node must maintain a dynamic local network topology, with existing Lightning nodes and channels between each, taking into account openings, closures and status updates."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/61.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Even with this Lightning network topology, there is one essential piece of routing information that remains inaccessible to the transmitting node: the exact distribution of liquidity in the channels at any given moment. Indeed, each channel only displays its **total capacity**, but the internal distribution of funds is known only to the two participating nodes. This poses challenges for efficient routing, as the success of the payment depends in particular on its amount being less than the lowest liquidity on the chosen route. However, not all liquidity is visible to the sending node."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/62.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Network map update",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "To keep their network map up to date, nodes regularly exchange messages using an algorithm known as \"**_gossip_**\". This is a distributed algorithm used to spread information epidemically to all nodes in the network, enabling the global state of the channels to be exchanged and synchronized in just a few communication cycles. Each node propagates information to one or more randomly selected or non-randomly selected neighbors, who in turn propagate the information to other neighbors, and so on, until a globally synchronized state is reached."
+  },
+  {
+    "type": "paragraph",
+    "content": "The 2 main messages exchanged between Lightning nodes are as follows:"
+  },
+  {
+    "type": "list",
+    "content": "\"**Channel Announcements**: messages announcing the opening of a new channel.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "\"**Channel Updates**\": update messages on the status of a channel, notably on the evolution of charges (but not on the distribution of liquid assets).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "Lightning nodes also monitor the Bitcoin blockchain for channel closure transactions. The closed channel is then removed from the card, since we can no longer use it to route our payments."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Routing a payment",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's take an example of a small Lightning network with 7 nodes: Alice, Bob, 1, 2, 3, 4, and 5. Let's imagine that Alice wants to send a payment to Bob, but must pass through intermediate nodes."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/63.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Here is the actual distribution of funds in these channels:"
+  },
+  {
+    "type": "list",
+    "content": "Channel between Alice and 1**: 250,000 sats on the Alice side, 80,000 on the 1 side (total capacity of 330,000 sats).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Channel between 1 and 2**: 300,000 sats on side 1, 200,000 on side 2 (total capacity of 500,000 sats).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Channel between 2 and 3**: 50,000 sats on side 2, 60,000 on side 3 (total capacity of 110,000 sats).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Channel between 2 and 5**: 90,000 sats on side 2, 160,000 on side 5 (total capacity of 250,000 sats).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Channel between 2 and 4**: 180,000 sats on side 2, 110,000 on side 4 (total capacity 290,000 sats).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Channel between 4 and 5**: 200,000 sats on side 4, 10,000 on side 5 (total capacity of 210,000 sats).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Channel between 3 and Bob**: 50,000 sats on the 3 side, 250,000 on the Bob side (total capacity of 300,000 sats).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Channel between 5 and Bob**: 260,000 sats on the 5 side, 100,000 on the Bob side (total capacity of 360,000 sats).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/64.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "To make a payment of 100,000 sats from Alice to Bob, the routing options are limited by the liquidity available in each channel. The optimal route for Alice, based on known liquidity distributions, could be the sequence `Alice → 1 → 2 → 4 → 5 → Bob` :"
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/65.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "But since Alice does not know the exact distribution of funds in each channel, she must estimate the optimal route probabilistically, taking into account the following criteria:"
+  },
+  {
+    "type": "list",
+    "content": "Probability of success**: a channel with higher total capacity is more likely to contain sufficient liquidity. For example, the channel between node 2 and node 3 has a total capacity of 110,000 sats, so it's unlikely that there will be 100,000 sats or more on the node 2 side, although it's possible.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Transaction costs**: when choosing the best route, the sender node also takes into account the costs applied by each intermediary node, and seeks to minimize the total cost of routing.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "HTLC expiration**: to avoid blocked payments, the HTLC expiration time is also a parameter to be taken into account.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Number of intermediate nodes**: finally, in a more global sense, the sender node will try to find a route with as few nodes as possible, in order to reduce the risk of failure and limit Lightning transaction costs.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "By analyzing these criteria, the transmitting node can test the most likely routes and try to optimize them. In our example, Alice could rank the best routes as follows:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. `Alice → 1 → 2 → 5 → Bob`, because it's the shortest route with the highest capacity."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. `Alice → 1 → 2 → 4 → 5 → Bob`, as this route offers good capabilities, although it's longer than the first."
+  },
+  {
+    "type": "paragraph",
+    "content": "3. `Alice → 1 → 2 → 3 → Bob`, because this route includes the channel `2 → 3`, which is very limited in capacity, but is still potentially usable."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Payment execution",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Alice decides to test her first route (`Alice → 1 → 2 → 5 → Bob`). She sends an HTLC of 100,000 sats to node 1, which checks that it has sufficient liquidity with node 2, and continues transmission. Node 2 then receives the HTLC from node 1, but realizes that it doesn't have enough liquidity in its channel with node 5 to route a payment of 100,000 sats. It then sends an error message back to node 1, which forwards it to Alice. This route has failed."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/66.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Alice then tries to route her payment using her second route (`Alice → 1 → 2 → 4 → 5 → Bob`). She sends an HTLC of 100,000 sats to node 1, which forwards it to node 2, then to node 4, to node 5, and finally to Bob. This time, there's enough cash and the route is up and running. Each node releases its HTLC in cascade, using the pre-image provided by Bob (the _s_ secret), thus successfully finalizing the payment from Alice to Bob."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/67.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "The route search is carried out as follows: the sender node first identifies the best possible routes, then attempts successive payments until a functional route is found."
+  },
+  {
+    "type": "paragraph",
+    "content": "Note that Bob can provide Alice with information in the **invoice** to facilitate routing. For example, he can indicate nearby channels with sufficient liquidity, or reveal the existence of private channels. These indications enable Alice to avoid routes with little chance of success, and to try the paths recommended by Bob first."
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. Nodes maintain a map of the network topology through announcements and by monitoring channel closures on the Bitcoin blockchain."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. The search for an optimal route for a payment remains probabilistic and depends on many criteria."
+  },
+  {
+    "type": "paragraph",
+    "content": "3. Bob can provide hints in the **invoice** to guide Alice's routing and save her from testing unlikely routes."
+  },
+  {
+    "type": "paragraph",
+    "content": "In the next chapter, we'll take a closer look at how invoices work, as well as some of the other tools used on the Lightning Network."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Lightning Network tools",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Invoice, LNURL and Keysend",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![invoice, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In this chapter, we'll take a closer look at how Lightning **invoices** work, i.e. payment requests sent by the recipient node to the sender node. The aim is to understand how to pay and receive payments over Lightning. We'll also look at 2 alternatives to conventional invoices: LNURL and Keysend."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/68.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "The Lightning invoice structure",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "As explained in the chapter on HTLC, each payment begins with the generation of an **invoice** by the recipient. This invoice is then transmitted to the payer (via QR code or copy-paste) to initiate payment. An invoice consists of two main parts:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. **Human Readable Part: this section contains clearly visible metadata to enhance the user experience."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. **Payload**: this section includes information intended for payment processing machines."
+  },
+  {
+    "type": "paragraph",
+    "content": "The typical invoice structure begins with an identifier `ln` for \"Lightning\", followed by `bc` for Bitcoin, then the invoice amount. A `1` separator distinguishes the human-readable part from the data part (payload)."
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's take the following invoice as an example:"
+  },
+  {
+    "type": "snippet_start",
+    "content": "```invoice",
+    "language": "invoice"
+  },
+  {
+    "type": "snippet",
+    "content": "lnbc100u1p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql",
+    "lines": [
+      "lnbc100u1p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql"
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "We can already divide it into 2 parts. First, there's the part that can be read by humans:"
+  },
+  {
+    "type": "snippet_start",
+    "content": "```invoice",
+    "language": "invoice"
+  },
+  {
+    "type": "snippet",
+    "content": "lnbc100u",
+    "lines": [
+      "lnbc100u"
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "Then the payload section:"
+  },
+  {
+    "type": "snippet_start",
+    "content": "```invoice",
+    "language": "invoice"
+  },
+  {
+    "type": "snippet",
+    "content": "p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql",
+    "lines": [
+      "p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql"
+    ]
+  },
+  {
+    "type": "paragraph",
+    "content": "The two parts are separated by a `1`. This separator was chosen rather than a special character to make it easy to copy and paste the entire invoice with a double-click."
+  },
+  {
+    "type": "paragraph",
+    "content": "In the first part, we can see that :"
+  },
+  {
+    "type": "list",
+    "content": "`ln` indicates that this is a Lightning transaction.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "bc` indicates that the Lighnting network is on the Bitcoin blockchain (and not on testnet or Litecoin).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "`100u` indicates the invoice amount, expressed in **microsatoshis** (`u` means \"micro\"), which here equals 10,000 sats.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "The payment amount is expressed in bitcoin sub-units. Here are the units used:"
+  },
+  {
+    "type": "list",
+    "content": "Millibitcoin (denoted `m`):** Represents one thousandth of a bitcoin.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "equation_start",
+    "content": "$$"
+  },
+  {
+    "type": "equation",
+    "content": "1 \\, \\text{mBTC} = 10^{-3} \\, \\text{BTC} = 10^5 \\, \\text{satoshis}",
+    "lines": [
+      "1 \\, \\text{mBTC} = 10^{-3} \\, \\text{BTC} = 10^5 \\, \\text{satoshis}"
+    ]
+  },
+  {
+    "type": "list",
+    "content": "Microbitcoin (denoted `u`):** Also sometimes called \"bit\", represents one millionth of a bitcoin.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "equation_start",
+    "content": "$$"
+  },
+  {
+    "type": "equation",
+    "content": "1 \\, \\mu\\text{BTC} = 10^{-6} \\, \\text{BTC} = 100 \\, \\text{satoshis}",
+    "lines": [
+      "1 \\, \\mu\\text{BTC} = 10^{-6} \\, \\text{BTC} = 100 \\, \\text{satoshis}"
+    ]
+  },
+  {
+    "type": "list",
+    "content": "Nanobitcoin (denoted `n`):** Represents one billionth of a bitcoin.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "equation_start",
+    "content": "$$"
+  },
+  {
+    "type": "equation",
+    "content": "1 \\, \\text{nBTC} = 10^{-9} \\, \\text{BTC} = 0.1 \\, \\text{satoshis}",
+    "lines": [
+      "1 \\, \\text{nBTC} = 10^{-9} \\, \\text{BTC} = 0.1 \\, \\text{satoshis}"
+    ]
+  },
+  {
+    "type": "list",
+    "content": "Picobitcoin (denoted `p`):** Represents one trillionth of a bitcoin.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "equation_start",
+    "content": "$$"
+  },
+  {
+    "type": "equation",
+    "content": "1 \\, \\text{pBTC} = 10^{-12} \\, \\text{BTC} = 0.0001 \\, \\text{satoshis}",
+    "lines": [
+      "1 \\, \\text{pBTC} = 10^{-12} \\, \\text{BTC} = 0.0001 \\, \\text{satoshis}"
+    ]
+  },
+  {
+    "type": "markdown_header",
+    "content": "Invoice payload",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "An invoice's payload includes several pieces of information for processing the payment:"
+  },
+  {
+    "type": "list",
+    "content": "Timestamp** : The time of invoice creation, expressed in Unix Timestamp (the number of seconds elapsed since January 1, 1970).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "The secret hash**: As we saw in the section on HTLC, the receiving node must give the sending node the hash of the pre-image. This will be used in HTLC to secure the transaction. We named it \"_r_\".",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Payment secret**: Another secret is generated by the recipient, but this time transmitted to the sending node. It is used in onion routing to prevent intermediate nodes from guessing whether the next node is the final recipient or not. This maintains a form of confidentiality for the recipient vis-à-vis the last intermediate node on the route.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Recipient's public key**: Tells the payer the identifier of the person to be paid.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Expiry time**: Maximum time for the invoice to be paid (default: 1 hour).",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Routing information**: Additional information provided by the recipient to help the sender optimize the payment route.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Signature**: Guarantees invoice integrity by authenticating all information.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "The invoices are then encoded in **bech32**, the same format as for Bitcoin SegWit addresses (format starting with `bc1`)."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Withdrawal LNURL",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "In a conventional transaction, such as an in-store purchase, the invoice is generated for the total amount to be paid. Once the invoice has been presented (as a QR code or string of characters), the customer can scan it and finalize the transaction. Payment then follows the classic process we studied in the previous section. However, this process can sometimes be very annoying for the user experience, as it requires the receiver to send information to the sender via the invoice."
+  },
+  {
+    "type": "paragraph",
+    "content": "For certain situations, such as withdrawing bitcoins from an online service, the traditional process is too restrictive. The **LNURL** withdrawal solution simplifies this process by displaying a QR code which the recipient's wallet scans to automatically create the invoice. The service then pays the invoice, and the user simply sees an instant withdrawal."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/69.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "LNURL is a communication protocol that specifies a set of features designed to simplify interactions between Lightning nodes and clients, as well as third-party applications. LNURL withdrawal, as we've just seen, is just one example of this functionality."
+  },
+  {
+    "type": "paragraph",
+    "content": "This protocol is based on HTTP and enables links to be created for various operations, such as a payment request, a withdrawal request, or other functionalities that enhance the user experience. Each LNURL is a URL encoded in bech32 with the prefix lnurl, which, when scanned, triggers a series of automatic actions on the Lightning wallet."
+  },
+  {
+    "type": "paragraph",
+    "content": "For example, LNURL-withdraw (LUD-03) lets you withdraw funds from a service by scanning a QR code, without having to manually generate an invoice. Or LNURL-auth (LUD-04) lets you connect to online services using a private key on your Lightning wallet instead of a password."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Sending a Lightning payment without Invoice: Keysend",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Another interesting case is the transfer of funds without first receiving an invoice, known as \"**Keysend**\". This protocol enables funds to be sent by adding a preimage to the encrypted payment data, accessible only by the recipient. This pre-tag allows the recipient to unlock the HTLC, and thus recover the funds without having generated an invoice beforehand."
+  },
+  {
+    "type": "paragraph",
+    "content": "Simply put, in this protocol, it's the sender who generates the secret used in HTLC, rather than the recipient. In practical terms, this enables the sender to send a payment without having to interact with the recipient beforehand."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/70.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. An **Invoice** Lightning is a payment request made up of a human-readable part and a machine-readable data part."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. The invoice is encoded in **bech32**, with a `1` separator for easy copying, and a data section containing all the information needed to process the payment."
+  },
+  {
+    "type": "paragraph",
+    "content": "3. Other payment processes exist on Lightning, including **LNURL-Withdraw** for easy withdrawals, and **Keysend** for invoice-free direct transfers."
+  },
+  {
+    "type": "paragraph",
+    "content": "In the next chapter, we'll look at how a node operator can manage liquidity in his channels, so that he is never blocked and can always send and receive payments on the Lightning Network."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Managing liquidity",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![gerer sa liquidité](https://youtu.be/YuPrbhEJXbg)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In this chapter, we'll look at strategies for effectively managing liquidity on the Lightning Network. Liquidity management varies according to user type and context. We'll take a look at the main principles and existing techniques to help you understand how to optimize liquidity management."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Liquidity requirements",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "There are three main user profiles on Lightning, each with specific cash requirements:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. **The Payer**: This is the person who makes payments. He needs outgoing liquidity to be able to transfer funds to other users. For example, this could be a consumer."
+  },
+  {
+    "type": "paragraph",
+    "content": "2. **The Seller (or Payee)**: This is the person who receives the payments. He needs incoming liquidity to be able to accept payments to his node. For example, this could be a business or an online store."
+  },
+  {
+    "type": "paragraph",
+    "content": "3. **The Router**: An intermediary node, often specialized in payment routing, which must optimize its liquidity in each channel to route a maximum number of payments and earn fees."
+  },
+  {
+    "type": "paragraph",
+    "content": "Of course, these profiles are not fixed; a user can alternate between payer and payee depending on the transaction. For example, Bob might receive his salary on Lightning from his employer, which places him in the position of \"seller\" requiring incoming liquidity. Later, if he wishes to use his salary to buy food, he becomes a \"payer\", requiring outgoing liquidity."
+  },
+  {
+    "type": "paragraph",
+    "content": "To better understand this, let's take the example of a simple network with three nodes: the buyer (Alice), the router (Suzie) and the seller (Bob)."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/71.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Let's imagine that the buyer wants to send 30,000 sats to the seller, and that the payment goes through the router node. Each party must then have a minimum amount of liquidity in the direction of payment:"
+  },
+  {
+    "type": "list",
+    "content": "The payer must have at least 30,000 satoshis on his side of the channel with the router.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "The seller must have a channel where 30,000 satoshis are on the opposite side in order to receive them.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "The router must have 30,000 satoshis on the payer's side in their channel, and also 30,000 satoshis on its side in the channel with the seller, in order to be able to route the payment.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/72.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Liquidity management strategies",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "Payers need to maintain sufficient liquidity on their side of the channels to guarantee outgoing liquidity. This is relatively straightforward, as new Lightning channels simply need to be opened to provide this liquidity. Indeed, the initial funds blocked in the on-chain multisig are entirely on the payer's side of the Lightning channel at the outset. Payment capacity is therefore guaranteed as long as channels are open with sufficient funds. When outgoing liquidity is exhausted, new channels simply need to be opened."
+  },
+  {
+    "type": "paragraph",
+    "content": "For the seller, on the other hand, the task is more complex. To be able to receive payments, he needs to have liquidity on the opposite side of his channels. Opening a channel is not enough: he must also make a payment in that channel to move the liquidity to the other side before he can receive payments himself. For some Lightning user profiles, such as merchants, there is a clear disproportion between what their node sends and what it receives, since the aim of a business is above all to take in more than it spends, in order to make a profit. Fortunately, for those users with specific needs in terms of incoming liquidity, several solutions exist:"
+  },
+  {
+    "type": "list",
+    "content": "Attract channels**: The merchant enjoys an advantage due to the volume of incoming payments expected on his node. Taking this into account, he can try to attract router nodes that are looking for transaction fee income and could open channels to him, in the hope of routing his payments and collecting the associated fees.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Shifting liquidity** : The seller can also open a channel and transfer part of the funds to the opposite side by making fictitious payments to another node, which will return the money in another way. We'll see how to do this in the next section.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Triangle opening**: Connection platforms exist for nodes wishing to open channels collaboratively, enabling everyone to benefit from inbound and outbound liquidity immediately. For example, [LightningNetwork+](https://lightningnetwork.plus/) offers this service. If Alice, Bob and Suzie wish to open a channel of 100,000 sats, they can agree on this platform for Alice to open a channel to Bob, Bob to Suzie, and Suzie to Alice. In this way, each has 100,000 sats of outgoing liquidity and 100,000 sats of incoming liquidity, while having tied up only 100,000 sats.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/73.webp)"
+  },
+  {
+    "type": "list",
+    "content": "Channel purchase**: Lightning channel rental services also exist to obtain incoming liquidity, such as [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) or [Pool de Lightning Labs](https://lightning.engineering/pool/). For example, Alice can purchase a channel of one million satoshis to her node in order to receive payments.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/74.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "Finally, for routers, whose objective is to maximize the number of payments processed and fees collected, they must :"
+  },
+  {
+    "type": "list",
+    "content": "Open well-supplied channels with strategic nodes.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Regularly adjust the allocation of funds to channels according to network needs.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "markdown_header",
+    "content": "The Loop Out service",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "The [Loop Out](https://lightning.engineering/loop/) service, offered by Lightning Labs, enables liquidity to be moved to the opposite side of the channel while the funds are recovered from the Bitcoin blockchain. For example, Alice sends 1 million satoshis via Lightning to a loop node, which returns these funds in on-chain Bitcoins. This balances her channel with 1 million satoshis on each side, optimizing her ability to receive payments."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/75.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "This service allows you to have incoming liquidity, while recovering your bitcoins on-chain, thus limiting the amount of cash tied up in accepting payments with Lightning."
+  },
+  {
+    "type": "paragraph",
+    "content": "**What should you learn from this chapter?"
+  },
+  {
+    "type": "list",
+    "content": "To send payments on Lightning, you need to have sufficient liquidity on your side in your channels. To increase this sending capacity, simply open new channels.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "To receive payments, you need to have liquidity on the opposite side in your channels. Increasing this receiving capacity is more complex, as it requires others to open channels to you, or to make payments (fictitious or otherwise) to move liquidity to the other side.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Keeping liquidity where you want it can be even more difficult, depending on channel usage. That's why tools and services exist to help balance channels as desired.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "paragraph",
+    "content": "In the next chapter, I'll review the most important concepts of this training."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Go further",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Conclusion of the training",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>"
+  },
+  {
+    "type": "embed_links",
+    "content": "![conclusion](https://youtu.be/MaWpD0rbkVo)"
+  },
+  {
+    "type": "paragraph",
+    "content": "In this final chapter, which marks the end of the LNP201 training course, I'd like to take you back over the important concepts we've seen together."
+  },
+  {
+    "type": "paragraph",
+    "content": "The aim of this course was to provide you with a comprehensive and technical understanding of the Lightning Network. We discovered how the Lightning Network relies on the Bitcoin blockchain to carry out off-chain transactions, while retaining the fundamental characteristics of Bitcoin, notably the absence of any need to trust other nodes."
+  },
+  {
+    "type": "markdown_header",
+    "content": "Payment channels",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "In the first chapters, we saw how two parties, by opening a payment channel, can carry out transactions outside the Bitcoin blockchain. Here are the steps covered:"
+  },
+  {
+    "type": "paragraph",
+    "content": "1. **Channel opening**: The channel is created via a Bitcoin transaction that locks the funds onto a 2/2 multisignature address. This deposit is the Lightning channel's representation on the blockchain."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/76.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "2. **Transactions in the channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new channel state reflected in a commitment transaction."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/77.webp)"
+  },
+  {
+    "type": "paragraph",
+    "content": "3. **Securing and closing**: Participants commit to the new state of the channel by exchanging revocation keys to secure funds and prevent cheating. Both parties can close the channel cooperatively by making a new transaction on the Bitcoin blockchain, or as a last resort by forced closure. Although the latter option is less effective, as it takes longer and is sometimes poorly priced in terms of costs, it still enables funds to be recovered. In the event of cheating, the victim can punish the cheater by recovering all the channel's funds from the blockchain."
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/78.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "The canal network",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "After studying isolated channels, we extended our analysis to the channel network:"
+  },
+  {
+    "type": "list",
+    "content": "Routing** : When two parties are not directly connected by a channel, the network allows them to pass through intermediate nodes. Payments are then routed from one node to another.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/79.webp)"
+  },
+  {
+    "type": "list",
+    "content": "HTLC** : Payments passing through intermediary nodes are secured by \"_Hash Time-Locked Contracts_\" (HTLC), which allow funds to be blocked until the payment has been completed from end to end.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/80.webp)"
+  },
+  {
+    "type": "list",
+    "content": "Onion routing**: To guarantee payment confidentiality, onion routing hides the final destination from intermediate nodes. The sender node must therefore calculate the entire route, but in the absence of complete information on channel liquidity, it proceeds by successive attempts to route the payment.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/81.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Liquidity management",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "We have seen that managing liquidity is a challenge on Lightning to ensure the smooth flow of payments. Sending payments is relatively simple: all you have to do is open a channel. However, receiving payments requires liquidity on the opposite side of your channels. Here are some of the strategies we've discussed:"
+  },
+  {
+    "type": "list",
+    "content": "Attracting channels**: By encouraging other nodes to open channels to you, a user obtains inbound liquidity.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "list",
+    "content": "Liquidity shift**: By sending payments to other channels, liquidity shifts to the opposite side.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/82.webp)"
+  },
+  {
+    "type": "list",
+    "content": "Use of services such as Loop and Pool**: These services enable you to rebalance or buy channels with liquidity on the opposite side.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/83.webp)"
+  },
+  {
+    "type": "list",
+    "content": "Collaborative openings**: There are also platforms for putting people in touch with each other to carry out triangle openings and access incoming liquidity.",
+    "prefix": "-",
+    "indent": 0
+  },
+  {
+    "type": "embed_links",
+    "content": "![LNP201](assets/fr/84.webp)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Thanks",
+    "prefix": "###"
+  },
+  {
+    "type": "paragraph",
+    "content": "I'd like to thank each and every one of you for your interest, support and questions throughout this series. Originally, my idea was to create French-language content around the technical aspects of Lightning, given the lack of resources available. It was a personal challenge that I wanted to take up by combining technical rigor and accessibility. If you like this free training course, please rate it in the \"Rate this course\" section and share it with your friends and on your social networks."
+  },
+  {
+    "type": "paragraph",
+    "content": "Thanks, see you soon!"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Bonus: Interview with Fanis",
+    "prefix": "###"
+  },
+  {
+    "type": "embed_links",
+    "content": "![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Bonus: Interview with Fanis",
+    "prefix": "###"
+  },
+  {
+    "type": "embed_links",
+    "content": "![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Conclusion",
+    "prefix": "#"
+  },
+  {
+    "type": "partId",
+    "content": "<partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Rate this course",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>"
+  },
+  {
+    "type": "paragraph",
+    "content": "<isCourseReview>true</isCourseReview>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Final examination",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>"
+  },
+  {
+    "type": "paragraph",
+    "content": "<isCourseExam>true</isCourseExam>"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Conclusion",
+    "prefix": "##"
+  },
+  {
+    "type": "chapterId",
+    "content": "<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>"
+  },
+  {
+    "type": "paragraph",
+    "content": "Congratulations! 🎉"
+  },
+  {
+    "type": "paragraph",
+    "content": "You've completed LNP 201 - Introduction to the Lightning Network! You can be proud of yourself, because this is not an easy subject. Few people go this deep down the Bitcoin rabbit hole."
+  },
+  {
+    "type": "paragraph",
+    "content": "Many thanks to **Fanis Michalakis** for offering us this great free course on the technical workings of the Lightning Network. Feel free to follow him on [Twitter](https://x.com/FanisMichalakis), on [his blog](https://fanismichalakis.fr/) or via his work at [LN Markets](https://lnmarkets.com/)."
+  },
+  {
+    "type": "paragraph",
+    "content": "Now that you've mastered the Lightning Network, I invite you to explore our other free courses on Plan ₿ Network to delve deeper into other aspects of Satoshi Nakamoto's invention :"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Understand how a Bitcoin wallet works with",
+    "prefix": "####"
+  },
+  {
+    "type": "planb_links",
+    "content": "https://planb.network/courses/cyp201"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Discover the story of Bitcoin's origins with",
+    "prefix": "####"
+  },
+  {
+    "type": "planb_links",
+    "content": "https://planb.network/courses/his201"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Set up a BTC payment server with",
+    "prefix": "####"
+  },
+  {
+    "type": "planb_links",
+    "content": "https://planb.network/courses/btc305"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Mastering privacy principles in Bitcoin",
+    "prefix": "####"
+  },
+  {
+    "type": "planb_links",
+    "content": "https://planb.network/courses/btc204"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Learn the basics of mining with",
+    "prefix": "####"
+  },
+  {
+    "type": "planb_links",
+    "content": "https://planb.network/courses/min201"
+  },
+  {
+    "type": "markdown_header",
+    "content": "Learn how to create your own Bitcoin community with",
+    "prefix": "####"
+  },
+  {
+    "type": "planb_links",
+    "content": "https://planb.network/courses/btc302"
+  }
+]

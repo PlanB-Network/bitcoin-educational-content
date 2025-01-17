@@ -1,0 +1,11 @@
+question: Hva indikerer det retrospektive anonset?
+
+answer: Antallet sannsynlige kilder for en UTXO ved slutten av sykluser.
+
+wrong_answers:
+  - Størrelsen på gruppen av uatskillelige UTXOer ved slutten av sykluser.
+  - Antallet sannsynlige kilder for en UTXO ved starten av sykluser.
+  - Tiden det tar å fullføre en coinjoin.
+
+explanation: |
+  Det retrospektive anonset indikerer antallet mulige kilder for en gitt mynt, med tanke på UTXO ved slutten av syklusen.

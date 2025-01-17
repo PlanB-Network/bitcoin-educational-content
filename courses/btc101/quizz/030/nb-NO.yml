@@ -1,0 +1,11 @@
+question: Hva er den største fordelen med fiatvalutaer?
+answer: De er lett delbare
+wrong_answers:
+  - De kontrolleres av en sentral part
+  - De er ikke lett transportable
+  - De er effektive for å holde verdi over tid
+explanation: |
+  Fiatvalutaer, som dollar og euro, er veldig likvide og
+  lett transportable fordi de nå for det meste er digitale. Deres verdi blir imidlertid
+  konstant erodert av monetær inflasjon.
+reviewed: true

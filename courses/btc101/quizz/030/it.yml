@@ -1,9 +1,12 @@
 question: Qual è il principale vantaggio delle valute fiat?
-answer: Sono facilmente divisibili
+answer: Sono facilmente divisibili.
 wrong_answers:
-  - Sono controllate da una parte centrale
-  - Non sono facilmente trasportabili
-  - Sono efficaci nel mantenere il valore nel tempo
+  - Sono controllate da una parte centrale.
+  - Non sono facilmente trasportabili.
+  - Sono efficaci nel mantenere il valore nel tempo.
 explanation: |
-  Le valute fiat, come il dollaro e l'euro, sono molto liquide e facilmente trasportabili perché sono ora principalmente digitali. Tuttavia, il loro valore è costantemente eroso dall'inflazione monetaria.
-reviewed: false
+  Le valute fiat, come il dollaro e l'euro, sono molto
+  liquide e facilmente trasportabili perché ora sono per lo più
+  digitali. Tuttavia, il loro valore è costantemente eroso dall'
+  inflazione monetaria.
+reviewed: true

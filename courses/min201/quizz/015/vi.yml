@@ -1,11 +1,9 @@
 question: Nguyên tắc hoạt động của việc đào Bitcoin là gì?
-answer: Việc đào Bitcoin hoạt động dựa trên nguyên tắc xổ số, nơi mà cơ hội chiến thắng một khối (và do đó là phần thưởng Bitcoin) mỗi mười phút là cực kỳ thấp đối với một người đào nhỏ lẻ.
+answer: Việc đào Bitcoin hoạt động dựa trên nguyên tắc xổ số, nơi cơ hội chiến thắng một khối (và do đó là phần thưởng Bitcoin) mỗi mười phút là cực kỳ thấp đối với một người đào nhỏ lẻ.
 wrong_answers:
   - Việc đào Bitcoin hoạt động dựa trên nguyên tắc đến trước phục vụ trước, nơi người đào đầu tiên giải quyết được bài toán toán học phức tạp sẽ nhận được phần thưởng Bitcoin.
-  - Việc đào Bitcoin hoạt động dựa trên nguyên tắc đấu giá, nơi người đào đưa ra giá cao nhất sẽ nhận được phần thưởng Bitcoin.
+  - Việc đào Bitcoin hoạt động dựa trên nguyên tắc đấu giá, nơi người đào đưa ra mức giá cao nhất sẽ nhận được phần thưởng Bitcoin.
   - Việc đào Bitcoin hoạt động dựa trên nguyên tắc luân phiên, nơi mỗi người đào sẽ có lượt để đào một khối và nhận phần thưởng Bitcoin.
 explanation: |
-  Chương này giải thích rằng việc đào Bitcoin hoạt động dựa trên nguyên tắc xổ số,
-  nơi mà cơ hội chiến thắng một khối (và do đó là phần thưởng Bitcoin) mỗi mười
-  phút là cực kỳ thấp đối với một người đào nhỏ lẻ.
-reviewed: false
+  Chương này giải thích rằng việc đào Bitcoin hoạt động dựa trên nguyên tắc xổ số, nơi cơ hội chiến thắng một khối (và do đó là phần thưởng Bitcoin) mỗi mười phút là cực kỳ thấp đối với một người đào nhỏ lẻ.
+reviewed: true

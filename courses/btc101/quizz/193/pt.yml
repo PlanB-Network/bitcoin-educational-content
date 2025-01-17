@@ -1,9 +1,9 @@
 question: Qual é uma das iniciativas que contribuem para tornar a economia do Bitcoin mais acessível e conveniente para todos?
-answer: BTCMap
+answer: BTCMap.
 wrong_answers:
-  - Troca de Bitcoin
-  - Mineração de Bitcoin
-  - Loteria de Bitcoin
-explanation: |
-  BTCMap é uma das iniciativas que contribuem para tornar a economia do Bitcoin mais acessível e conveniente para todos. É um projeto de código aberto e colaborativo que lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades Bitcoin ao redor do mundo.
-reviewed: false
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
+explanation: >-
+  BTCMap é uma das iniciativas que contribuem para tornar a economia do Bitcoin mais acessível e conveniente para todos. É um projeto de código aberto e colaborativo que lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades de Bitcoin ao redor do mundo.
+reviewed: true

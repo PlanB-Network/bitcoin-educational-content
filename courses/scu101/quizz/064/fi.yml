@@ -1,9 +1,9 @@
-question: Miksi selainlaajennusten käyttöä automaattiseen salasanojen täyttöön ei suositella?
-answer: Ne voivat tehdä käyttäjästä haavoittuvaisemman phishing-hyökkäyksille, lisätä hyökkäyspintaa ja hidastaa selaimen suorituskykyä.
+question: Miksi automaattisen salasanan täyttämiseen tarkoitettuja selainlaajennuksia ei suositella käytettäväksi?
+answer: Ne voivat tehdä käyttäjästä alttiimman phishing-hyökkäyksille, lisätä hyökkäyspintaa ja hidastaa selaimen suorituskykyä.
 wrong_answers:
   - Ne ovat vaikeakäyttöisiä.
   - Ne eivät ole yhteensopivia kaikkien selainten kanssa.
   - Ne vaativat paljon tallennustilaa.
 explanation: |
-  Selainlaajennukset automaattiseen salasanojen täyttöön voivat tehdä käyttäjästä haavoittuvaisemman phishing-hyökkäyksille. Ne myös taipuvat lisäämään hyökkäyspintaa ja voivat hidastaa selaimen suorituskykyä, mikä esittää merkittävän riskin.
-reviewed: false
+  Automaattisen salasanan täyttämiseen tarkoitetut selainlaajennukset voivat tehdä käyttäjästä alttiimman phishing-hyökkäyksille. Ne myös taipuvat lisäämään hyökkäyspintaa ja voivat hidastaa selaimen suorituskykyä, mikä esittää merkittävän riskin.
+reviewed: true

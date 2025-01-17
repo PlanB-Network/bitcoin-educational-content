@@ -1,0 +1,9 @@
+question: Tại sao lý thuyết số lại đặc biệt quan trọng trong mật mã hóa khóa công khai?
+answer: Nó cung cấp nền tảng toán học cần thiết cho các thao tác mã hóa và giải mã.
+wrong_answers:
+  - Nó cung cấp nền tảng toán học cần thiết cho các thao tác băm.
+  - Nó cần thiết cho việc tạo ra các mạng nơ-ron.
+  - Nó cho phép tính toán các thao tác chỉ trong hệ nhị phân.
+explanation: |
+  Lý thuyết số rất quan trọng trong mật mã hóa khóa công khai vì nó giúp cấu trúc các thuật toán dựa trên các tính chất của số nguyên, tạo điều kiện cho các thao tác mã hóa và giải mã.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hệ thống tiền tệ số nào đã thu hút sự quan tâm của kỹ sư Google Mike Hearn trước khi ông khám phá ra Bitcoin?
+answer: Ripple
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  Chính trong nhóm Google Group của dự án của Ryan Fugger mà ông lần đầu tiên nghe về Bitcoin vào tháng 4 năm 2009. Ông ngay lập tức liên hệ với Satoshi để đặt câu hỏi.

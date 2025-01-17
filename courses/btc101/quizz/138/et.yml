@@ -1,0 +1,9 @@
+question: Mis on sõlmede peamine funktsioon Bitcoin'i võrgus?
+answer: Bitcoin'i plokiahela koopia hoidmine, tehingute valideerimine, informatsiooni edastamine teistele sõlmedele ja Bitcoin'i protokolli reeglite jõustamine.
+wrong_answers:
+  - Ainult tehingute valideerimine
+  - Ainult Bitcoin'i plokiahela koopia hoidmine
+  - Ainult informatsiooni edastamine teistele sõlmedele
+explanation: >-
+  Sõlmed Bitcoin'i võrgus täidavad mitmeid kriitilisi funktsioone, sealhulgas hoiavad Bitcoin'i plokiahela koopiat, valideerivad tehinguid, edastavad informatsiooni teistele sõlmedele ja jõustavad Bitcoin'i protokolli reegleid.
+reviewed: false

@@ -1,9 +1,9 @@
 question: Mikä on fiat-valuuttojen pääasiallinen haittapuoli?
-answer: Niiden arvoa syö jatkuvasti rahapoliittinen inflaatio
+answer: Niiden arvoa syö jatkuvasti rahapoliittinen inflaatio.
 wrong_answers:
-  - Niitä ei ole helppo kuljettaa
-  - Niiden arvo kasvaa jatkuvasti rahapoliittisen inflaation myötä
-  - Niitä ei voi jakaa osiin
+  - Niitä ei ole helppo kuljettaa.
+  - Niiden arvo kasvaa jatkuvasti rahapoliittisen inflaation seurauksena.
+  - Niitä ei voi jakaa osiin.
 explanation: |
-  Fiat-valuuttojen, kuten dollarin ja euron, pääasiallinen haittapuoli on, että niiden arvoa syö jatkuvasti rahapoliittinen inflaatio. Tämä johtuu niitä hallinnoivista tahoista (kuningas, keskuspankki, keisari, diktaattori), jotka jatkuvasti devalvoivat niitä.
-reviewed: false
+  Fiat-valuuttojen, kuten dollarin ja euron, pääasiallinen haittapuoli on, että niiden arvoa syö jatkuvasti rahapoliittinen inflaatio. Tämä johtuu niitä hallinnoivien tahojen (kuningas, keskuspankki, keisari, diktaattori) aiheuttamasta arvon alenemisesta.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Was ist der mathematische Begriff für Berechnungen, die Modulo-Operationen beinhalten?
+answer: Modulare Arithmetik
+wrong_answers:
+  - Lineare Algebra
+  - Trigonometrie
+  - Diskrete Geometrie
+explanation: |
+  Die modulare Arithmetik ist der Zweig der Mathematik, der sich mit Operationen an Zahlen innerhalb eines endlichen Rahmens befasst, unter Verwendung der Modulo-Operation.
+reviewed: false

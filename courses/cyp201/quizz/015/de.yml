@@ -1,9 +1,9 @@
-question: Wie groß ist die Ausgabegröße der SHA256-Hashfunktion?
-answer: 256 Bits
+question: Welche Art von Schlüssel wird verwendet, um UTXOs bei Bitcoin zu sperren?
+answer: Öffentlicher Schlüssel
 wrong_answers:
-  - 512 Bits
-  - 128 Bits
-  - 1024 Bits
+  - Privater Schlüssel
+  - Seed-Hash
+  - Mnemonische Phrase
 explanation: |
-  Die SHA256-Hashfunktion erzeugt einen 256-Bit-Hash aus einer variablen Eingabegröße. Deshalb wird sie SHA256 genannt.
+  UTXOs werden mit einem öffentlichen Schlüssel oder dessen Hash gesperrt und mit dem entsprechenden privaten Schlüssel entsperrt.
 reviewed: false

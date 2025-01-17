@@ -3,13 +3,13 @@
   address_line_1: Lugano, Switzerland
   address_line_2: 
   address_line_3: 
-  name: Lugano PlanB Summer School
-  builder: PlanB Network
+  name: Lugano Plan ₿ Summer School
+  builder: Plan ₿ Network
   type: course
   book_online: false
   book_in_person: false
   price_dollars: 0
-  description: Lugano Plan B Summer School is a special bootcamp-week in Lugano with world-class industry leaders and mentors.
+  description: Lugano Plan ₿ Summer School is a special bootcamp-week in Lugano with world-class industry leaders and mentors.
   language: 
     - en
   links:

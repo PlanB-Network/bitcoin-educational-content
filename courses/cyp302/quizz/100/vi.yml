@@ -1,0 +1,9 @@
+question: Vai trò của nonce trong một hệ thống mã hóa có xác thực là gì?
+answer: Đảm bảo mỗi tin nhắn có một thẻ duy nhất để ngăn chặn sự lặp lại
+wrong_answers:
+  - Xác định người gửi tin nhắn
+  - Tạo một khóa giải mã tạm thời
+  - Thêm một lớp mã hóa bổ sung
+explanation: |
+  Trong một hệ thống mã hóa có xác thực, nonce được sử dụng để đảm bảo rằng mỗi tin nhắn có một thẻ duy nhất, từ đó tăng cường bảo mật bằng cách ngăn chặn sự lặp lại.
+reviewed: false

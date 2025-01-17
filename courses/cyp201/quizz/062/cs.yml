@@ -1,11 +1,9 @@
-question: Jaké je hlavní riziko spojené s generováním vlastní mnemonické fráze pomocí kostek pro transakce s Bitcoinem?
-answer: Může představovat určitá rizika.
+question: Co umožňuje odvodit rozšířený veřejný klíč?
+answer: Pouze obyčejné dětské veřejné klíče
 wrong_answers:
-  - Může vést k generování předvídatelných čísel.
-  - Může vést k generování duplicitních čísel.
-  - Může vést k generování neplatných čísel.
+  - Pouze obyčejné dětské soukromé klíče
+  - Oba, zpevněné a obyčejné dětské veřejné klíče
+  - Oba, zpevněné a obyčejné dětské soukromé klíče
 explanation: |
-  Generování vlastní mnemonické fráze pomocí kostek může představovat určitá rizika.
-  Doporučuje se proto použít náhodně generovanou heslovou frázi k minimalizaci těchto
-  rizik.
+  Rozšířený veřejný klíč umožňuje odvození pouze obyčejných dětských veřejných klíčů, nikoli soukromých klíčů nebo zpevněných klíčů.
 reviewed: false

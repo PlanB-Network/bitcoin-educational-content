@@ -5,7 +5,8 @@ wrong_answers:
   - Because the software is usually cheaper on the official website.
   - Because the software on generic sites is usually outdated.
 explanation: |
-  Downloading software from the official website of the publisher ensures
-  that you are getting the legitimate version of the software, which is free from
-  any malicious software that could harm your device or steal your data.
-reviewed: false
+  Downloading software from the official website of the
+  publisher ensures that you are getting the legitimate
+  version of the software, which is free from any malicious
+  software that could harm your device or steal your data.
+reviewed: true

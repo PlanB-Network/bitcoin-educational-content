@@ -1,0 +1,9 @@
+question: Was ist die Natur des Faktorisierungsproblems, das der Sicherheit von asymmetrischen Kryptosystemen wie RSA zugrunde liegt?
+answer: Eine Zahl in zwei sehr große Primfaktoren faktorisieren
+wrong_answers:
+  - Eine Zahl in aufeinanderfolgende Faktoren von 2 zerlegen
+  - Eine Zahl auf ihre kleinsten Teiler reduzieren
+  - Zwei große Primzahlen multiplizieren, um ein Produkt zu erhalten
+explanation: |
+  Die Sicherheit von RSA basiert auf der Schwierigkeit, eine große Zahl (das Produkt von zwei großen Primzahlen) in ihre zwei Primfaktoren zu faktorisieren, eine Aufgabe, die ohne den privaten Schlüssel nahezu unmöglich ist.
+reviewed: false

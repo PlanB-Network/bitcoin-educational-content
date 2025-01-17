@@ -1,11 +1,11 @@
-question: Quelle est la méthode standard de sauvegarde de la clé privée dans un portefeuille Bitcoin ?
-answer: Entrer votre phrase mnémonique dans n'importe quel logiciel de portefeuille
+question: Quelle est la méthode standard pour restaurer votre portefeuille ?
+answer: Saisir votre phrase mnémonique dans n'importe quel logiciel de portefeuille.
 wrong_answers:
-  - Sauvegarder votre phrase mnémonique dans un fichier numérique
-  - Écrire votre phrase mnémonique sur un tableau blanc
-  - Partager votre phrase mnémonique avec un ami de confiance
+  - Sauvegarder votre phrase mnémonique dans un fichier numérique.
+  - Écrire votre phrase mnémonique sur un tableau blanc.
+  - Partager votre phrase mnémonique avec un ami de confiance.
 explanation: |
-  La méthode standard de sauvegarde de la clé privée dans un portefeuille Bitcoin
-  consiste à entrer votre phrase mnémonique dans n'importe quel logiciel de portefeuille. Cela vous permet de
-  restaurer votre portefeuille.
+  La méthode standard de sauvegarde de la clé privée dans un
+  portefeuille Bitcoin consiste à saisir votre phrase mnémonique dans n'importe
+  quel logiciel de portefeuille. Cela vous permet de restaurer votre portefeuille.
 reviewed: false

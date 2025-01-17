@@ -20,7 +20,7 @@ El primer paso es verificar si tu idioma ya no está entre aquellos en los que e
 ![language](assets/02.webp)
 Si tu idioma está en esta lista, no necesitas agregarlo nuevamente. Para contribuir a un idioma existente, hemos hecho otro tutorial que puedes descubrir.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -30,7 +30,7 @@ Si tu idioma no está ahí, sigue el tutorial a continuación para agregarlo.
 
 - El primer paso es crear una cuenta en Weblate. Si no sabes cómo hacerlo, puedes seguir nuestra guía detallada.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 - Una vez creada tu cuenta, ve al menú `Website frontend element` y selecciona la pestaña `Languages`:
@@ -48,7 +48,7 @@ https://planb.network/tutorials/others/translate-front-weblate
 
 Felicidades, has iniciado el proceso de traducir el sitio de la Red PlanB a un nuevo idioma.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
  Puedes comenzar traduciendo todo el frontend a través de Weblate. Esto incluye todos los textos en el sitio web, excepto por el contenido educativo (cursos, tutoriales...) para el cual usamos otro método semi-automatizado de Humanos x IA.
 A continuación, puedes contactar a @asi0_flammeus en Telegram, quien te asistirá en la revisión de algunos cursos traducidos automáticamente con su modelo. Si estos contenidos se consideran satisfactorios, puedes proceder a revisar todo el otro contenido en el sitio (cursos, tutoriales...). Una vez completados estos pasos, podemos considerar la integración oficial del nuevo idioma en el sitio web de la Red PlanB, lo que permitirá a todos los hablantes de tu idioma acceder a contenido de calidad sobre Bitcoin, sin ninguna barrera.

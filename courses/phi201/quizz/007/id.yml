@@ -1,0 +1,8 @@
+question: Apa dua bentuk penjarahan yang dijelaskan oleh Bastiat?
+answer: Penjarahan legal dan penjarahan ilegal
+wrong_answers:
+  - Penjarahan moral dan penjarahan imoral
+  - Penjarahan internal dan penjarahan eksternal
+  - Penjarahan barang dan penjarahan jasa
+explanation: |
+  Bastiat membedakan antara penjarahan legal, yang didefinisikan oleh hukum dan seringkali dilakukan oleh negara (seperti pajak), dan penjarahan ilegal, yang terjadi di luar kerangka hukum, seperti pencurian atau penyerangan.

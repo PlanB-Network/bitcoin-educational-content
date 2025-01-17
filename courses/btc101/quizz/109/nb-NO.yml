@@ -1,0 +1,11 @@
+question: Hva er viktigheten av individuelt ansvar i Bitcoin?
+answer: Det er avgjørende fordi du er ansvarlig for sikkerhetskopiene
+wrong_answers:
+  - Det er essensielt fordi du må utvinne bitcoins
+  - Det er essensielt å kjøpe bitcoins
+  - Det er avgjørende fordi du er ansvarlig for lommeboktemaet
+explanation: |
+  I Bitcoin går finansiell suverenitet hånd i hånd med individuelt
+  ansvar, fordi du må selv forvalte dine midler ved å følge
+  anbefalt prosedyre for sikkerhetskopiering.
+reviewed: true

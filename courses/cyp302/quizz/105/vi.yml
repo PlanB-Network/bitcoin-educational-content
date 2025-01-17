@@ -1,0 +1,11 @@
+question: Làm thế nào các bên có thể đảm bảo thứ tự chính xác của các tin nhắn trong một phiên làm việc an toàn?
+
+answer: Bằng cách sử dụng số thứ tự trong mỗi tin nhắn
+
+wrong_answers:
+  - Bằng cách trao đổi khóa cho mỗi tin nhắn
+  - Bằng cách thêm độ trễ giữa các tin nhắn
+  - Bằng cách mã hóa tin nhắn với một thuật toán khác
+
+explanation: |
+  Số thứ tự đảm bảo rằng các tin nhắn được nhận theo đúng thứ tự và ngăn chặn việc thay đổi thứ tự của chúng.

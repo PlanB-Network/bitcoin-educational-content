@@ -5,5 +5,5 @@ wrong_answers:
   - bcoin
   - Libbitcoin
 explanation: |
-  Il l'a [publiée](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438 sous la licence libre (Apache 2.0), qu'il a attribué à Google (son employeur à ce moment-là). Cette implémentation a permis de lancer le premier portefeuille léger fonctionnant sur Android.
+  Il l'a [publiée](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438 sous la licence libre (Apache 2.0), qu'il a attribué à Google (son employeur à ce moment-là). Cette implémentation a permis de lancer le premier portefeuille léger fonctionnant sur Android.
 reviewed: false

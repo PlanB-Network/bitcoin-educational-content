@@ -1,0 +1,9 @@
+question: Que tipo de ataque um número de sequência pode prevenir em uma sessão de comunicação segura?
+answer: Ataques de repetição e reordenação
+wrong_answers:
+  - Ataques de interceptação passiva
+  - Ataques de negação de serviço
+  - Ataques de falsificação de chave
+explanation: |
+  Um número de sequência em cada mensagem previne ataques de repetição e reordenação, pois permite a verificação da ordem e da unicidade das mensagens.
+reviewed: false

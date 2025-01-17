@@ -1,9 +1,8 @@
-question: Warum benötigt Alice die Unterschrift von Bob, bevor sie die Transaktionen veröffentlicht, um einen Kanal zu öffnen?
-answer: Um sicherzustellen, dass sie alleine auf ihre Gelder zugreifen kann, falls etwas schief geht.
+question: Was spiegelt eine Commitment-Transaktion in einem Lightning-Kanal wider?
+answer: Die neue Verteilung der Gelder zwischen den beiden Parteien
 wrong_answers:
-  - Um Bobs Zustimmung zur Öffnung des Kanals zu bestätigen.
-  - Um Bobs Identität zu überprüfen.
-  - Um die Transaktionen zur Sicherheit zu verschlüsseln.
+  - Die Gesamtanzahl der getätigten Transaktionen
+  - Die Höhe der Gebühren, die für die Transaktion zu zahlen sind
+  - Die Eröffnung eines neuen Zahlungskanals
 explanation: |
-  Alice bittet Bob um eine Unterschrift mit seinem öffentlichen Schlüssel, bevor sie die Transaktionen veröffentlicht. Dies dient dazu, sicherzustellen, dass sie alleine auf ihre Gelder zugreifen kann, falls etwas schief geht, da sie bereits Bobs Unterschrift hat.
-reviewed: false
+  Eine Commitment-Transaktion repräsentiert die aktuelle Verteilung der Gelder im Kanal nach jeder Lightning-Transaktion, wird jedoch nicht auf der Blockchain veröffentlicht, solange der Kanal offen bleibt.

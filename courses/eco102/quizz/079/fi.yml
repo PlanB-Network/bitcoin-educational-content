@@ -1,0 +1,9 @@
+question: Bastiat'n mukaan, mikä vaara liittyy liialliseen valtion sekaantumiseen yhteiskunnassa?
+answer: Se tuhoaa yksilön vastuullisuuden ja rajoittaa yksityistä aloitteellisuutta
+wrong_answers:
+  - Se edistää talouskasvua ja innovaatioita
+  - Se takaa yhtäläiset mahdollisuudet kaikille
+  - Se suojaa yksilöitä heidän tekojensa seurauksilta
+explanation: |
+  Bastiat'n mukaan liiallinen valtion sekaantuminen vähentää yksilöiden autonomiaa ja haittaa heidän kykyään tehdä aloitteita, mikä heikentää yksilön vastuullisuutta ja luovuutta.
+reviewed: false

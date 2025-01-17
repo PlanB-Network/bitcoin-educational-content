@@ -1,0 +1,8 @@
+question: Milline turvaprobleem tekib, kui sama sõnumit krüpteeritakse mitu korda lihtsustatud RSA krüptosüsteemis?
+answer: Sõnum genereerib alati sama krüpteeringu
+wrong_answers:
+  - Sõnum muutub haavatavaks jõuga murdmise rünnakutele
+  - Sõnum pööratakse tagurpidi
+  - Sõnum muutub dekrüpteerimatuks
+explanation: |
+  Lihtsustatud RSA-s genereerib sõnumi mitmekordne krüpteerimine alati sama tulemuse, muutes krüpteeringu rünnakutele haavatavaks.

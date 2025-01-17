@@ -1,0 +1,10 @@
+question: Kuidas võiks Lightning Network potentsiaalselt muuta maksemudeleid?
+answer: Kasutajatelt võidakse nõuda tasu minuti või isegi sekundi eest, mille nad teenust kasutavad
+wrong_answers:
+  - Kasutajatelt võidakse nõuda fikseeritud tasu teenuse kasutamise eest
+  - Kasutajatelt võidakse nõuda tasu nende kasutatud andmemahu eest
+  - Kasutajatelt võidakse nõuda tasu nende tehtud tehingute arvu eest
+explanation: >-
+  Lightning Network'i abil, selle asemel, et maksta teenuse eest kuutasu,
+  võidakse kasutajatelt nõuda tasu minuti või isegi sekundi eest, mille nad teenust kasutavad.
+reviewed: false

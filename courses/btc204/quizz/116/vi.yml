@@ -1,0 +1,11 @@
+question: Mục tiêu chính của kỹ thuật ricochet là gì?
+
+answer: Làm mờ dấu vết quá khứ của một đồng tiền
+
+wrong_answers:
+  - Tăng anonset tiềm năng của các giao dịch
+  - Tăng entropy của một giao dịch
+  - Trả ít phí giao dịch hơn trong tương lai
+
+explanation: |
+  Mục tiêu của một ricochet là mô phỏng sự thay đổi chủ sở hữu của một đồng Bitcoin nhằm khôi phục tính chất có thể thay thế của nó bằng cách làm mờ các dấu vết quá khứ của nó.

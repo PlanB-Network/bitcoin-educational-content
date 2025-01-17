@@ -1,0 +1,9 @@
+question: Mikä on sosiaalisen järjestämisen ajuri Bastiat'n mukaan?
+answer: Markkinat
+wrong_answers:
+  - Valtio
+  - Uskonto
+  - Perinne
+explanation: |
+  Bastiat uskoo, että vapaa markkinatalous on todellinen sosiaalisen järjestämisen ajuri, koska se mahdollistaa spontaanin ja tehokkaan koordinoinnin yksilöiden välillä.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Was ist Adam Smiths bekanntester Beitrag zur Ökonomie?
+answer: Er entwickelte die Theorie der unsichtbaren Hand.
+wrong_answers:
+  - Er entwickelte die Theorie des sichtbaren Fingers.
+  - Er entwickelte die Theorie des unsichtbaren Fingers.
+  - Er entwickelte die Theorie der sichtbaren Hand.
+explanation: |
+  Adam Smith ist bekannt für seine Theorie der unsichtbaren Hand, die besagt, dass individuelle Handlungen, die durch Eigeninteresse motiviert sind, unbeabsichtigt zum wirtschaftlichen Wohlstand der Gesellschaft als Ganzes beitragen.

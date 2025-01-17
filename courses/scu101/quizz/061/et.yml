@@ -1,0 +1,11 @@
+question: Millised on mõned programmeerimiskeeled, mida kasutatakse küberjulgeolekus?
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  Peatükk loetleb Pythoni, C ja Java kui mõned programmeerimiskeeled,
+
+
+  mida kasutatakse küberjulgeolekus.

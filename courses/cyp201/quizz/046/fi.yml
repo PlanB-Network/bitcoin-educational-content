@@ -1,9 +1,9 @@
-question: Mikä on äärettömyydessä olevan pisteen merkitys ECDSA-algoritmissa?
-answer: Jos laskettu piste P on äärettömyydessä oleva piste, allekirjoitus on mitätön.
+question: Kuinka monta bittiä on tarkistussummassa, kun entropia on 128 bittiä?
+answer: 4 bittiä
 wrong_answers:
-  - Jos laskettu piste P on äärettömyydessä oleva piste, allekirjoitus on pätevä.
-  - Äärettömyydessä olevaa pistettä käytetään laskennallisen arvon (nonce) laskemiseen.
-  - Äärettömyydessä olevaa pistettä käytetään avainten salaamiseen.
+  - 8 bittiä
+  - 16 bittiä
+  - 6 bittiä
 explanation: |
-  ECDSA-algoritmissa, jos elliptisellä käyrällä laskettu piste P on äärettömyydessä oleva piste, allekirjoitusta pidetään mitättömänä. Tämä on yksi tarkistuksista, jotka suoritetaan digitaalisen allekirjoituksen validoinnin aikana.
+  Tarkistussumman pituus lasketaan käyttämällä kaavaa CS = ENT / 32, mikä tarkoittaa 4 bittiä 128 bitin entropialle.
 reviewed: false

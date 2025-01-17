@@ -1,9 +1,9 @@
-question: Văn bản gợi ý điều gì về tương lai của Bitcoin?
-answer: Nó sẽ không biến mất
+question: Khóa học này gợi ý điều gì về tương lai của Bitcoin?
+answer: Nó sẽ không biến mất.
 wrong_answers:
-  - Nó sẽ bị thay thế bởi một công nghệ tốt hơn
-  - Nó sẽ bị cấm trên toàn thế giới
-  - Nó sẽ mất giá trị
-explanation: >-
-  Văn bản gợi ý rằng Bitcoin sẽ không biến mất. Ngược lại, cuộc cách mạng mới chỉ bắt đầu.
-reviewed: false
+  - Nó sẽ bị thay thế bởi một công nghệ tốt hơn.
+  - Nó sẽ bị cấm trên toàn thế giới.
+  - Nó sẽ mất giá trị.
+explanation: |
+  Văn bản của khóa học gợi ý rằng Bitcoin sẽ không biến mất. Ngược lại, cuộc cách mạng mới chỉ bắt đầu.
+reviewed: true

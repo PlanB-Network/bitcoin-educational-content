@@ -1,0 +1,8 @@
+question: Hvis eiendom er en institusjon etablert av den generelle vilje, som Rousseau tror, hva er konsekvensen?
+answer: Lovgiveren kan organisere, endre eller til og med avskaffe eiendom
+wrong_answers:
+  - Lovgiveren er da bundet av denne konvensjonen og kan ikke røre eiendommen
+  - Den generelle viljen ønsker aldri å røre ved eiendommen
+  - Lovgiveren er pålagt å beskytte eiendommen uten unntak
+explanation: |
+  Ifølge Rousseau, siden eiendom oppstår fra den generelle viljen, kan den endres eller avskaffes av lovgiveren i samsvar med den samme viljen.

@@ -1,0 +1,9 @@
+question: O který digitální měnový systém měl zájem inženýr společnosti Google Mike Hearn před objevením Bitcoinu?
+answer: Ripple
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  Poprvé se o Bitcoinu dozvěděl v dubnu 2009 na projektové skupině Google Group Ryana Fuggera. Ihned poté kontaktoval Satoshiho s otázkami.
+reviewed: false

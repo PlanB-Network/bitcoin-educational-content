@@ -6,4 +6,4 @@ wrong_answers:
   - Một sổ cái riêng tư và không thể thay đổi của tất cả các giao dịch Bitcoin.
 explanation: >-
   Blockchain Bitcoin là một sổ cái công khai và không thể thay đổi của tất cả các giao dịch Bitcoin. Đây là một sổ cái chung cho tất cả người dùng Bitcoin.
-reviewed: false
+reviewed: true

@@ -1,10 +1,9 @@
-question: What is the fastest and least expensive type of channel closure?
-answer: Cooperative closure.
+question: What does a sending node do when a payment route fails due to insufficient liquidity?
+answer: It tries another route until it finds a functional one
 wrong_answers:
-  - Forced closure.
-  - Closure by a cheater.
-  - There is no difference in speed and cost between the types of closure.
+  - It automatically sends a refund request to the recipient
+  - It closes the channel and creates a new direct channel
+  - It asks the intermediary nodes to increase their liquidity
 explanation: |
-  In a cooperative closure, both parties communicate and agree on a final
-  state of the channel. This is the fastest and least expensive option.
+  When a route fails, the sending node tries other alternative routes until a functional path is found, or all options are exhausted.
 reviewed: false

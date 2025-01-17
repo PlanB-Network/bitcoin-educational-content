@@ -1,0 +1,9 @@
+question: What is a reflection attack in a communication session?
+answer: The attacker sends back to Alice a message that they intercepted between Alice and Bob
+wrong_answers:
+  - The attacker reverses the order of messages in the communication
+  - The attacker sends a modified message without the tag
+  - The attacker uses an old message to create a new one
+explanation: |
+  In a reflection attack, the attacker intercepts a message from Alice to Bob and sends the same message back to Alice, causing confusion in the session.
+reviewed: false

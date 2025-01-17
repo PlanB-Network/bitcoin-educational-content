@@ -1,0 +1,9 @@
+question: Perché lo scambio di chiavi di persona è impraticabile per le comunicazioni online sicure?
+answer: Porta ad alti costi organizzativi pur essendo inefficiente
+wrong_answers:
+  - Rende la comunicazione criptata inutilizzabile
+  - Richiede l'uso di molteplici chiavi per cliente
+  - Impedisce il riutilizzo delle chiavi per transazioni ripetute
+explanation: |
+  Lo scambio di chiavi di persona è costoso e inefficiente, specialmente su larga scala, poiché rallenta le transazioni e impone significativi costi logistici per ogni nuovo cliente.
+reviewed: false

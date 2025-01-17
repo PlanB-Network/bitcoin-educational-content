@@ -1,0 +1,5 @@
+description: |
+  Public Pool on Solo Pool -tyyppinen louhintaportaali, joka antaa louhijoille mahdollisuuden yrittää onneaan Bitcoin-lohkon louhinnassa jakamatta palkkiota. Toisin kuin perinteiset poolit, Public Pool ei yhdistä laskentatehoa: käyttäjät saavat koko palkkion, jos lohko löydetään. Alusta tarjoaa louhijoille lohkopohjan, jolloin Bitcoin-solmua ei tarvitse hallita. Vaikka onnistumisen mahdollisuudet ovat pienet, järjestelmä toimii kuin arpajaiset, joissa on mahdollisuus suuriin voittoihin. Hallintapaneeli tarjoaa yksityiskohtaista tilastotietoa suorituskyvystä ja verkosta.
+
+contributors:
+  - pretty-private

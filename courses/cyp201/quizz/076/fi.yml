@@ -1,9 +1,9 @@
-question: Mitä tapahtuu, jos Bitcoin-lompakon salasana vaihdetaan?
-answer: Bitcoin-lompakko muuttuu täysin erilaiseksi
+question: Mihin merkintä /<0;1>/* deskriptorissa viittaa?
+answer: Ulkoiseen ja sisäiseen ketjuun sekventiaalisella johdannolla
 wrong_answers:
-  - Bitcoin-lompakko muuttuu saavuttamattomaksi
-  - Bitcoin-lompakko pysyy samana
-  - Bitcoin-lompakko menettää kaikki bitcoinsinsa
+  - Järjestettyyn multisignatuuri-osoitteeseen
+  - Johdannaispolkujen tarkistussummaan
+  - Kovetettuun johdannaispolkuun
 explanation: |
-  Jos salasana vaihdetaan, Bitcoin-lompakko muuttuu täysin erilaiseksi,
-  koska salasana on osa kaikkien lompakon avainten rakentamista ja laskentaa.
+  Merkintä /<0;1>/* osoittaa, että deskriptori voi generoida osoitteita ulkoiselle (0) ja sisäiselle (1) ketjulle, sekventiaalisella johdannolla villikortin (*) ansiosta.
+reviewed: false

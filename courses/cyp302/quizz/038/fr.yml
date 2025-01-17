@@ -1,0 +1,9 @@
+question: Quel domaine mathématique fournit les outils modernes pour la théorie des nombres ?
+answer: L'algèbre abstraite
+wrong_answers:
+  - La géométrie
+  - Les statistiques
+  - L'analyse complexe
+explanation: |
+  L'algèbre abstraite, en tant que sous-discipline des mathématiques, fournit des structures mathématiques qui permettent d'analyser et de comprendre les propriétés des nombres utilisés dans la théorie des nombres.
+reviewed: false

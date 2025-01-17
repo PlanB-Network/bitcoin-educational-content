@@ -1,0 +1,9 @@
+question: Mis oli tarkvara implementatsiooni nimi, mille Mike Hearn avaldas 2011. aasta märtsis ja mis rakendas Lihtsustatud Maksete Kinnitamist (SPV)?
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  Ta [avaldas](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438) selle avatud lähtekoodiga litsentsi all (Apache 2.0), mille ta omistas Google'ile (oma tööandjale tol ajal). See implementatsioon tegi võimalikuks esimese kerge rahakoti käivitamise Androidil.
+reviewed: false

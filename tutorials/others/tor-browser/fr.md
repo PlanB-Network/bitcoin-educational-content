@@ -124,4 +124,4 @@ Enfin, dans l'onglet "*Connection*", vous retrouverez tous les paramètres liés
 ![TOR BROWSER](assets/notext/38.webp)
 Et voilà, vous êtes maintenant prêt à naviguer sur Internet d'une manière plus sûre et plus confidentielle ! Si la confidentialité en ligne est un sujet qui vous intéresse, je vous conseille également de découvrir cet autre tutoriel sur Mullvad VPN :
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

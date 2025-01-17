@@ -1,10 +1,11 @@
-question: Worum ging es bei der Block War im Jahr 2017?
-answer: Ein Konflikt darüber, ob die Blockgröße erhöht werden soll, um die Transaktionskapazität zu erhöhen.
+question: Worum ging es im Blockkrieg im Jahr 2017?
+answer: Ein Konflikt darüber, ob die Blockgröße erhöht werden sollte, um die Transaktionskapazität zu erweitern.
 wrong_answers:
-  - Ein Konflikt darüber, ob die Blockgröße verringert werden soll, um die Transaktionskapazität zu verringern.
-  - Ein Konflikt darüber, ob die Blockbelohnung erhöht werden soll, um die Miner zu incentivieren.
-  - Ein Konflikt darüber, ob die Blockbelohnung verringert werden soll, um die Miner zu desincentivieren.
+  - Ein Konflikt darüber, ob die Blockgröße verringert werden sollte, um die Transaktionskapazität zu reduzieren.
+  - Ein Konflikt darüber, ob die Blockbelohnung erhöht werden sollte, um Miner zu incentivieren.
+  - Ein Konflikt darüber, ob die Blockbelohnung verringert werden sollte, um Miner zu disincentivieren.
 explanation: |
-  Die Block War im Jahr 2017 war ein Konflikt darüber, ob Bitcoin durch Erhöhung der Blockgröße modifiziert werden soll, um die Transaktionskapazität zu erhöhen.
-reviewed: false
-
+  Der Blockkrieg im Jahr 2017 war ein Konflikt darüber, ob
+  Bitcoin durch Erhöhung der Blockgröße modifiziert werden sollte,
+  um die Transaktionskapazität zu erweitern.
+reviewed: true

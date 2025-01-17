@@ -1,0 +1,8 @@
+question: 今天比特币网络中矿工主要使用的工具是什么？
+answer: ASICs
+wrong_answers:
+  - CPUs
+  - GPUs
+  - FPGAs
+explanation:
+  如今，矿工专门使用ASICs进行挖矿，这些ASICs针对此操作进行了优化，以最小的能耗测试最大数量的组合，并尽可能快地完成。

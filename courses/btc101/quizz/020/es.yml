@@ -1,9 +1,12 @@
-question: ¿Cuáles son los criterios para una moneda efectiva?
-answer: Fungible, Divisible, Líquida
+question: ¿Cuáles son las principales características de una moneda efectiva?
+answer: Fungible, Divisible, Líquida.
 wrong_answers:
-  - Fungible, Divisible, Perecedera
-  - Fungible, Indivisible, Líquida
-  - No fungible, Divisible, Líquida
+  - Fungible, Divisible, Perecedera.
+  - Fungible, Indivisible, Líquida.
+  - No fungible, Divisible, Líquida.
 explanation: |
-  Los criterios para una moneda efectiva son que debe ser fungible (intercambiable sin pérdida de valor), divisible (para facilitar transacciones de diferentes volúmenes) y líquida (fácilmente convertible en bienes o servicios).
-reviewed: false
+  Una moneda efectiva debe ser fungible (intercambiable
+  sin pérdida de valor), divisible (separable en partes pequeñas
+  para facilitar transacciones de diferentes volúmenes) y
+  líquida (fácilmente convertible en bienes o servicios).
+reviewed: true

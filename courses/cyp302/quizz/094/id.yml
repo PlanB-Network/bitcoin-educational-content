@@ -1,0 +1,9 @@
+question: Apa sumber utama kebingungan antara istilah block cipher dan stream cipher?
+answer: Block cipher terkadang dipahami hanya sebagai algoritma yang menggunakan mode blok seperti ECB atau CBC.
+wrong_answers:
+  - Stream cipher selalu kurang aman daripada block cipher.
+  - Block cipher beroperasi satu bit pada satu waktu.
+  - Stream cipher selalu memerlukan padding.
+explanation: |
+  Kebingungan muncul dari fakta bahwa beberapa orang menganggap block cipher hanya sebagai algoritma yang menggunakan mode pemblokiran tertentu, sedangkan pada kenyataannya, mereka dapat mencakup skema enkripsi seperti mode OFB.
+reviewed: false

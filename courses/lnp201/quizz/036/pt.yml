@@ -1,11 +1,9 @@
-question: Quem possui a chave de revogação na transação de compromisso de Alice?
-answer: Apenas Alice.
+question: Qual condição deve ser atendida para que o destinatário de um HTLC receba os fundos?
+answer: Eles devem fornecer um segredo (preimagem) para desbloquear o pagamento.
 wrong_answers:
-  - Apenas Bob.
-  - Tanto Alice quanto Bob.
-  - Nem Alice nem Bob.
+  - Eles devem aceitar as taxas de roteamento de cada nó intermediário.
+  - Eles devem assinar uma nova transação de compromisso.
+  - Eles devem esperar o timelock expirar antes de recuperar os fundos.
 explanation: |
-  Na transação de compromisso de Alice, apenas ela possui a chave de revogação.
-  Isso permite que ela mova os fundos sem esperar pelo fim do Timelock se
-  Bob tentar trapacear.
+  Para receber os fundos em um HTLC, o destinatário deve fornecer um segredo específico que permite desbloquear o pagamento assegurado pelo hash.
 reviewed: false

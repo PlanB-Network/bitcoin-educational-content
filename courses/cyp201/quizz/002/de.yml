@@ -1,10 +1,9 @@
-question: Welche vier Stärken muss eine kryptografische Hash-Funktion haben, um als sicher anerkannt zu werden?
-answer: Irreversibilität, Widerstandsfähigkeit gegen Fälschung, Widerstandsfähigkeit gegen Kollisionen und Widerstandsfähigkeit gegen zweite Vorbilder.
+question: Welche Eigenschaft von Hash-Funktionen wird durch eine vollständige Änderung des Hashs bei einer geringfügigen Änderung der Nachricht demonstriert?
+answer: Der Lawineneffekt
 wrong_answers:
-  - Geschwindigkeit, Effizienz, Widerstandsfähigkeit gegen Kollisionen und Irreversibilität.
-  - Widerstandsfähigkeit gegen Kollisionen, Widerstandsfähigkeit gegen Fälschung, Skalierbarkeit und Irreversibilität.
-  - Irreversibilität, Widerstandsfähigkeit gegen Kollisionen, Widerstandsfähigkeit gegen Fälschung und Geschwindigkeit.
+  - Kollisionsresistenz
+  - Widerstand gegen zweite Urbilder
+  - Länge
 explanation: |
-  Eine sichere kryptografische Hash-Funktion muss vier wesentliche Stärken hab- language: en
-  Irreversibilität (was bedeutet, dass es unmöglich ist, die ursprüngliche Eingabe aus der Ausgabe abzuleiten), Widerstandsfähigkeit gegen Fälschung (was bedeutet, dass es schwierig ist, eine andere Eingabe zu erstellen, die die gleiche Ausgabe erzeugt), Widerstandsfähigkeit gegen Kollisionen (was bedeutet, dass es schwierig ist, zwei verschiedene Eingaben zu finden, die die gleiche Ausgabe erzeugen) und Widerstandsfähigkeit gegen zweite Vorbilder (was bedeutet, dass es schwierig ist, eine andere Eingabe zu finden, die die gleiche Ausgabe wie eine gegebene Eingabe erzeugt).
+  Eine kleine Änderung im Eingabewert führt zu einer radikalen Änderung im Hash, dies wird als Lawineneffekt bezeichnet.
 reviewed: false

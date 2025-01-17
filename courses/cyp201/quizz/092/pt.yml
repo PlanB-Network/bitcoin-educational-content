@@ -1,9 +1,0 @@
-question: Qual é o tamanho de uma chave pública comprimida?
-answer: 33 bytes
-wrong_answers:
-  - 32 bytes
-  - 82 bytes
-  - 512 bits
-explanation: |
-  As chaves públicas comprimidas têm um tamanho de 33 bytes. Elas mantêm as mesmas informações das chaves não comprimidas, mas com um tamanho reduzido.
-reviewed: false

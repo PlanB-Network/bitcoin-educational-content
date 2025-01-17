@@ -1,9 +1,12 @@
 question: ¿Cuál es la principal ventaja de Bitcoin sobre otras formas de moneda?
-answer: Ofrece una excelente reserva de valor debido a su oferta estrictamente limitada y neutralidad.
+answer: Ofrece un excelente resguardo de valor debido a su oferta estrictamente limitada y neutralidad.
 wrong_answers:
-  - Es indivisible y transportable.
-  - Está sujeto a inflación monetaria.
-  - Es ampliamente aceptado en el comercio.
+  - Es indivisible y no transportable.
+  - Es un gran ejemplo de moneda que sufre inflación monetaria.
+  - Es ampliamente aceptado en el comercio por todos los comerciantes del mundo.
 explanation: |
-  La principal ventaja de Bitcoin sobre otras formas de moneda es que ofrece una excelente reserva de valor debido a su oferta estrictamente limitada y su falta de una parte de confianza. Esto lo convierte en una buena opción para ahorros a largo plazo.
-reviewed: false
+  La principal ventaja de Bitcoin sobre otras formas de moneda
+  es que ofrece un excelente resguardo de valor debido a su
+  oferta estrictamente limitada y su falta de una parte de confianza. Esto
+  lo convierte en una buena opción para ahorros a largo plazo.
+reviewed: true

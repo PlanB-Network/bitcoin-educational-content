@@ -1,0 +1,10 @@
+question: Apa itu Jaringan Kilat?
+answer: Teknologi yang dapat memungkinkan transaksi Bitcoin dengan cepat.
+wrong_answers:
+  - Teknologi yang memperlambat transaksi Bitcoin.
+  - Teknologi yang tidak memiliki dampak pada transaksi Bitcoin.
+  - Teknologi yang membuat transaksi Bitcoin menjadi kurang aman.
+explanation: |
+  Jaringan Kilat adalah teknologi yang dapat meningkatkan transaksi Bitcoin,
+  membuatnya lebih cepat dan lebih efisien. Ini adalah upaya untuk menyelesaikan masalah skalabilitas yang dihadapi oleh Bitcoin.
+reviewed: true

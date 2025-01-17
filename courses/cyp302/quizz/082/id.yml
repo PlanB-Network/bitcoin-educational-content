@@ -1,0 +1,8 @@
+question: Mengapa one-time pad dianggap sebagai metode enkripsi yang aman?
+answer: Karena setiap bit dari kunci adalah acak dan tidak ada bagian yang digunakan kembali
+wrong_answers:
+  - Karena menggunakan kunci publik dan privat yang acak
+  - Karena bergantung pada bilangan prima
+  - Karena hanya mengenkripsi pesan-pesan kecil
+explanation: |
+  One-time pad dianggap aman karena setiap bit dari kunci adalah acak dan tidak pernah digunakan kembali, memastikan bahwa tidak meninggalkan jejak yang dapat dimanfaatkan oleh penyerang.

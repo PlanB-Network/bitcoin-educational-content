@@ -1,0 +1,9 @@
+question: Que signifie une attaque par brute force ?
+answer: Essayer toutes les clés possibles jusqu'à trouver la bonne
+wrong_answers:
+  - Changer le texte pour le rendre incompréhensible
+  - Utiliser une clé publique pour déchiffrer le message
+  - Frapper très fort sur l'ordinateur pour l'obliger à donner la clé secrète
+explanation: |
+  Une attaque par brute force consiste à tester systématiquement toutes les clés possibles pour déchiffrer un message chiffré.
+reviewed: false

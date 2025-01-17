@@ -1,9 +1,0 @@
-question: Quel est le rôle de la graine dans l'organisation hiérarchique et la dérivation du portefeuille HD ?
-answer: La graine joue un rôle déterministe dans la dérivation de toutes les autres clés.
-wrong_answers:
-  - La graine est utilisée pour chiffrer le portefeuille.
-  - La graine est utilisée pour générer le code de chaîne maître.
-  - La graine est utilisée pour récupérer le portefeuille.
-explanation: |
-  La graine, d'une longueur de 128 à 256 bits, est générée de manière aléatoire ou à partir d'une phrase secrète. Elle joue un rôle déterministe dans la dérivation de toutes les autres clés du portefeuille HD.
-reviewed: false

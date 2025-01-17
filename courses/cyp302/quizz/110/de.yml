@@ -1,0 +1,8 @@
+question: Was macht RC4 heute trotz seiner früheren Beliebtheit anfällig?
+answer: Gut dokumentierte Schwächen in der Erzeugung des Schlüsselstroms
+wrong_answers:
+  - Ein zu kurzer Schlüssel, um Sicherheit zu gewährleisten
+  - Seine Unfähigkeit, mit langen Texten zu arbeiten
+  - Die Anforderung, einen öffentlichen Schlüssel zusätzlich zu einem privaten Schlüssel zu verwenden
+explanation: |
+  RC4 weist signifikante Schwächen in der Erzeugung des Schlüsselstroms auf, die die Verschlüsselung Angriffen aussetzen, daher seine allmähliche Aufgabe in modernen Sicherheitsprotokollen.

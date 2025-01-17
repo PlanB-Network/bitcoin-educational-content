@@ -1,0 +1,9 @@
+question: Quelle est la principale critique de Hayek envers la politique monétaire keynésienne ?
+answer: Elle crée des bulles économiques et des récessions
+wrong_answers:
+  - Elle favorise l'investissement à long terme
+  - Elle réduit les inégalités sociales
+  - Elle augmente la demande intérieure sans contrôle
+explanation: |
+  Hayek critiquait la politique monétaire keynésienne en affirmant qu'elle encourage des cycles de surinvestissement artificiels, menant à des bulles économiques et, inévitablement, à des récessions lorsque ces bulles éclatent.
+reviewed: false

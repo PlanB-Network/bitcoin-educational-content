@@ -1,0 +1,11 @@
+question: Hva er det maksimale antallet Bitcoin-enheter som noensinne kan eksistere?
+answer: 21 millioner enheter
+wrong_answers:
+  - 25 millioner enheter
+  - 30 millioner enheter
+  - 50 millioner enheter
+explanation: |
+  Bitcoins dataprogramkode og konsensus blant alle brukere som deltar i
+  protokollen bestemmer at det maksimale antallet Bitcoin-enheter som noensinne kan eksistere
+  er 21 millioner.
+reviewed: true

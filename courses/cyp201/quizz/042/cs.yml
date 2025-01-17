@@ -1,9 +1,9 @@
-question: Jaký je účel digitálního podpisu v kontextu Bitcoin transakcí?
-answer: Prokázat, že jste držitelem soukromého klíče, aniž byste jej odhalili.
+question: Jaký je hlavní rozdíl mezi PRNG a TRNG?
+answer: PRNG je deterministický, zatímco TRNG generuje skutečně náhodná čísla.
 wrong_answers:
-  - Zašifrovat data transakce.
-  - Uložit data transakce.
-  - Přenést data transakce.
+  - PRNG je rychlejší než TRNG pro velká čísla.
+  - PRNG se používá pouze pro šifrování, na rozdíl od TRNG.
+  - PRNG využívá soukromé klíče, TRNG využívá veřejné klíče.
 explanation: |
-  V kontextu Bitcoin transakcí se digitální podpis používá k prokázání, že jste držitelem soukromého klíče, aniž byste jej odhalili. Toho je dosaženo použitím algoritmu ECDSA.
+  PRNG jsou deterministické, což znamená, že mohou reprodukovat sekvence z počátečního stavu, na rozdíl od TRNG.
 reviewed: false

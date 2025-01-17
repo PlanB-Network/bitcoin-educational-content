@@ -1,0 +1,10 @@
+question: Hva er formålet med Bitcoin-lommebøker?
+answer: Å sende og motta bitcoins
+wrong_answers:
+  - Å utvinne bitcoins
+  - Å lagre fysiske bitcoins
+  - Å konvertere bitcoins til andre valutaer
+explanation: |
+  Bitcoin-lommebøker brukes til å sende og motta bitcoins. De er digitale
+  lommebøker som lagrer de digitale legitimasjonene som er nødvendige for å få tilgang til en bitcoin-adresse
+  og bruke bitcoins.

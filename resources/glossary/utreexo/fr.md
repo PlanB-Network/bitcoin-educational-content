@@ -4,7 +4,7 @@ term: UTREEXO
 
 Protocole conçu par Tadge Dryja pour compacter l'UTXO set des nœuds Bitcoin à l'aide d'un accumulateur établi sur des arbres de Merkle. Contrairement à l'UTXO set classique qui nécessite un espace de stockage important, Utreexo réduit drastiquement la mémoire requise en ne stockant que la racine des arbres de Merkle. Cela permet au nœud de vérifier l'existence des UTXOs utilisés en entrées de transactions, sans avoir à conserver l'ensemble complet des UTXOs. En utilisant Utreexo, chaque nœud conserve uniquement une empreinte cryptographique appelée racine de Merkle. Lorsqu'une transaction est effectuée, l'utilisateur fournit les preuves de possession des UTXOs et les chemins de Merkle correspondants. Le nœud peut ainsi vérifier les transactions sans stocker tout l'UTXO set. Prenons un exemple avec un schéma pour comprendre ce mécanisme :
 
-![](../../dictionnaire/assets/15.png)
+![](../../dictionnaire/assets/15.webp)
 
 Dans cet exemple, j’ai intentionnellement réduit l’UTXO set à 4 UTXOs pour faciliter la compréhension. En réalité, il faut imaginer qu’il existe presque 140 millions d’UTXOs sur Bitcoin à l'heure où j'écris ces lignes. Sur ce schéma, le nœud Utreexo devrait uniquement conserver en RAM la Racine de Merkle. S’il reçoit une transaction dépensant l’UTXO n° 3 (en noir), la preuve consisterait en les éléments suivants :
 * L’UTXO 3 ;

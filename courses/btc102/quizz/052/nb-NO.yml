@@ -1,0 +1,10 @@
+question: Hva er rollen til selskaper som OpenNode, Swiss Bitcoin Pay og BTCPay i Bitcoin-økosystemet?
+answer: De tilbyr verktøy som gjør det enkelt for bedrifter å akseptere Bitcoin.
+wrong_answers:
+  - De miner Bitcoin.
+  - De regulerer Bitcoin.
+  - De utsteder Bitcoin.
+explanation: |
+  Selskaper som OpenNode, Swiss Bitcoin Pay og BTCPay tilbyr verktøy
+  som gjør det enkelt for bedrifter å akseptere Bitcoin, noe som bidrar til dets adopsjon
+  og bruk i daglige transaksjoner.

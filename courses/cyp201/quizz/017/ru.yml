@@ -1,0 +1,9 @@
+question: Какая эллиптическая кривая используется в протоколе Bitcoin?
+answer: secp256k1
+wrong_answers:
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoin использует кривую secp256k1, определенную уравнением y² = x³ + 7, для своих криптографических операций.
+reviewed: false

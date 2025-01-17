@@ -1,9 +1,12 @@
-question: Como o Lightning Network potencialmente transforma os modelos de negócios existentes na indústria de jogos?
-answer: Isso permite que os jogadores apostem quantias muito pequenas de dinheiro ao jogar jogos.
+question: Como a Lightning Network pode transformar os modelos de negócios existentes na indústria de videogames?
+answer: Ela permite que os jogadores apostem quantias muito pequenas de dinheiro ao jogar.
 wrong_answers:
-  - Isso permite que os jogadores minerem Bitcoin enquanto jogam.
-  - Isso permite que os desenvolvedores de jogos aceitem Bitcoin como pagamento por seus jogos.
-  - Isso permite que os jogadores comprem itens dentro do jogo com Bitcoin.
-explanation: |
-  A Lightning Network permite que os jogadores apostem quantias muito pequenas de dinheiro ao jogar jogos, como alguns satoshis. Isso permite o estabelecimento de uma aposta que estimula a competição, ao mesmo tempo em que aumenta significativamente o custo de implantação de bots.
-reviewed: false
+  - Ela permite que os jogadores minerem Bitcoin enquanto jogam.
+  - Ela permite que desenvolvedores de jogos aceitem Bitcoin como pagamento por seus jogos.
+  - Ela permite que os jogadores comprem itens dentro do jogo com Bitcoin.
+explanation: >-
+  A Lightning Network permite que os jogadores apostem quantias muito pequenas de dinheiro
+  ao jogar, como alguns satoshis. Isso permite o estabelecimento de
+  uma aposta que estimula a competição enquanto aumenta significativamente o custo de implantação
+  de bots.
+reviewed: true

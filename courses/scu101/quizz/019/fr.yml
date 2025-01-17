@@ -1,9 +1,11 @@
-question: Pourquoi est-il crucial de mettre régulièrement à jour le système d'exploitation et les applications ?
+question: Pourquoi est-il crucial de mettre à jour régulièrement le système d'exploitation et les applications ?
 answer: Pour se protéger contre les nouvelles menaces et vulnérabilités.
 wrong_answers:
   - Pour rendre la machine obsolète.
   - Pour ralentir la machine.
   - Pour changer l'interface utilisateur.
 explanation: |
-  Les mises à jour régulières sont essentielles pour protéger le système contre les nouvelles menaces et vulnérabilités. Elles ne sont pas destinées à rendre la machine obsolète ou lente.
-reviewed: false
+  Les mises à jour régulières sont essentielles pour protéger le système contre
+  les nouvelles menaces et vulnérabilités. Elles ne visent pas à
+  rendre la machine obsolète ou à la ralentir.
+reviewed: true

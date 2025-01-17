@@ -1,8 +1,0 @@
-question: Mikä on reitityssolmujen tavoite likviditeetin suhteen Lightning-verkossa?
-answer: Olla tasapainossa likviditeetin suhteen molemmin puolin
-wrong_answers:
-  - Avata kanavia
-  - Yhdistää muihin solmuihin
-  - Ostaa kanavia
-explanation: |
-  Reitityssolmujen tavoite Lightning-verkossa likviditeetin suhteen on olla tasapainossa likviditeetin suhteen molemmin puolin. He pyrkivät myös olemaan hyvässä yhteydessä moniin solmuihin, jotta niitä voitaisiin käyttää mahdollisimman paljon.

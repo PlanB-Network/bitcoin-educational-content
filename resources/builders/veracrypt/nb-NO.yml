@@ -1,0 +1,5 @@
+description: |
+  VeraCrypt er en åpen kildekode programvare for disk-kryptering som lar deg beskytte dine sensitive data. Som etterfølgeren til TrueCrypt tilbyr den robust kryptering med algoritmer som AES, Serpent eller Twofish, og gjør det mulig å opprette krypterte volumer eller kryptere partisjoner og hele disker, både interne og eksterne.
+
+contributors:
+  - pretty-private

@@ -1,0 +1,12 @@
+question: Mis on VPN-i peamine funktsioon professionaalses kontekstis?
+answer: See võimaldab töötajatel turvaliselt kaugjuurdepääsu ettevõtte sisevõrgule.
+wrong_answers:
+  - See võimaldab töötajatel mööda minna geograafilistest piirangutest.
+  - See võimaldab töötajatel blokeerida veebireklaame.
+  - See võimaldab töötajatel turvaliselt kasutada avalikku Wi-Fi võrku.
+explanation: |
+  Professionaalses kontekstis kasutatakse VPN-e peamiselt selleks, et pakkuda turvalist
+  kaugjuurdepääsu ettevõtte sisevõrgule. See saavutatakse andmete krüpteerimisega,
+  mis vahetatakse töötaja ja ettevõtte võrgu vahel, muutes kolmandate osapoolte jaoks
+  raskeks andmete pealtkuulamise.
+reviewed: false

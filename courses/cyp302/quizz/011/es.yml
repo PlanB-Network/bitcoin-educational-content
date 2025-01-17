@@ -1,0 +1,9 @@
+question: ¿Qué facilita la interceptación de comunicaciones locales por atacantes poco equipados?
+answer: El uso de ondas de radio para conexiones inalámbricas
+wrong_answers:
+  - Enrutar todos los datos a través de satélites
+  - Usar solo cables coaxiales para la transmisión de datos
+  - Enviar datos únicamente a través de fibras ópticas
+explanation: |
+  Las conexiones inalámbricas, que transmiten datos a través de ondas de radio, facilitan la interceptación por parte de los atacantes, ya que no requieren acceso físico a la red.
+reviewed: false

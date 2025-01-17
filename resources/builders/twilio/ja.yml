@@ -1,0 +1,5 @@
+description: |
+  Twilioは、クラウド通信ソリューションを専門とする企業で、SMSの送信、音声通話、APIを介した通知などを提供しています。また、Authyという二要素認証（2FA）アプリを提供しており、一時的なコードを生成することでアカウントを保護します。
+
+contributors:
+  - pretty-private

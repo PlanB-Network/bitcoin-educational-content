@@ -1,12 +1,12 @@
 question: What is the main purpose of the Lightning Network?
-answer: To facilitate micro-transactions
+answer: To facilitate micro-transactions.
 wrong_answers:
-  - To increase the value of Bitcoin
-  - To replace the Bitcoin protocol
-  - To create a new cryptocurrency
+  - To increase the value of Bitcoin.
+  - To replace the Bitcoin protocol.
+  - To create a new cryptocurrency.
 explanation: >-
   The Lightning Network is a second layer solution to the Bitcoin protocol
   that aims to facilitate micro-transactions, which are transactions of very low value
   that would otherwise be impractical due to high fees and long confirmation times
   on the Bitcoin blockchain.
-reviewed: false
+reviewed: true

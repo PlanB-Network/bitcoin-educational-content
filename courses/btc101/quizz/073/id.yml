@@ -1,0 +1,11 @@
+question: Apa itu kunci privat dalam dompet Bitcoin?
+answer: Kunci rahasia yang memungkinkan Anda menandatangani transaksi Anda
+wrong_answers:
+  - Kunci publik yang digunakan untuk menghasilkan alamat Bitcoin
+  - Daftar kata rahasia untuk menghancurkan dompet
+  - Kunci rahasia untuk mengenkripsi transaksi Bitcoin
+explanation: >-
+  Ketika menginisialisasi dompet Bitcoin, sebuah daftar kata rahasia, yang disebut benih mnemonik dihasilkan.
+  Daftar pemulihan ini sangat penting karena mewakili kepemilikan
+  atas Bitcoin dan oleh karena itu hak untuk mengirimkannya.
+reviewed: true

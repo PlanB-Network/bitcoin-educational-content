@@ -1,0 +1,9 @@
+question: Milline oli jaotuse ja võtmehalduse probleemide mõju enne 1970ndaid?
+answer: Need piirasid suuremahuliste suhtluste turvalisust ja efektiivsust
+wrong_answers:
+  - Need takistasid krüpteeritud sõnumite edastamist avalikel võrkudel
+  - Iga sõnumi jaoks nõuti avalikke võtmeid
+  - Need nõudsid homomorfse krüptograafia kasutamist
+explanation: |
+  Enne 1970ndaid tegid võtmete jaotuse ja halduse probleemid suuremahuliste suhtluste turvamise keeruliseks, takistades seeläbi kaasaegsete rakenduste, nagu näiteks internetipõhine ostlemine, arengut.
+reviewed: false

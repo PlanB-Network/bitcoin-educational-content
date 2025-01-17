@@ -1,0 +1,8 @@
+question: Giá cao nhất mà Bitcoin đạt được vào tháng 6 năm 2011 là bao nhiêu?
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  Vào ngày 8 tháng 6, giá của Bitcoin đã đạt mức cao lịch sử là $32 trên Mt. Gox. Tuy nhiên, nó nhanh chóng giảm sau đó.

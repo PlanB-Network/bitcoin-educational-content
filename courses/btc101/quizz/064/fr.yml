@@ -1,9 +1,9 @@
 question: Quelle est la commande pour vérifier la quantité de bitcoins en circulation sur un nœud Bitcoin ?
-answer: bitcoin-cli gettxoutsetinfo
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - bitcoin-cli getblockchaininfo
-  - bitcoin-cli getwalletinfo
-  - bitcoin-cli getnetworkinfo
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  La commande pour vérifier la quantité de bitcoins en circulation sur un nœud Bitcoin est bitcoin-cli gettxoutsetinfo. Cette commande offre transparence et vérifiabilité, renforçant la confiance dans le système Bitcoin.
-reviewed: false
+  La commande pour vérifier la quantité de bitcoins en circulation sur un nœud Bitcoin est bitcoin-cli gettxoutsetinfo. Cette commande offre transparence et vérifiabilité, renforçant ainsi la confiance dans le système Bitcoin.
+reviewed: true

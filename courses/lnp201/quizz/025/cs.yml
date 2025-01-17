@@ -1,9 +1,9 @@
-question: Jaká je role transakce závazku v Lightning Network?
-answer: Aktualizuje zůstatek kanálu po každém převodu.
+question: Jaké jsou tři metody uzavření kanálu na Lightning Network?
+answer: Kooperativní uzavření, vynucené uzavření, uzavření s podvodem
 wrong_answers:
-  - Otevírá kanál.
-  - Uzavírá kanál.
-  - Převádí prostředky.
+  - Rychlé uzavření, pomalé uzavření, uzavření s dvojitým podpisem
+  - Bezpečné uzavření, automatizované uzavření, uzavření se ztrátou prostředků
+  - Přímé uzavření, nepřímé uzavření, uzavření s nárokem
 explanation: |
-  Transakce závazku je novější transakce, která aktualizuje zůstatek kanálu po každém převodu. Není provedena, pokud není kanál uzavřen.
+  Existují tři metody: kooperativní uzavření, kdy se strany dohodnou, vynucené uzavření bez odpovědi od jedné strany a uzavření s podvodem, kdy strana se pokusí publikovat starou transakci.
 reviewed: false

@@ -1,0 +1,26 @@
+id: e6bcb210-610b-487d-970c-7cce85273e3c
+
+builder: Lnp2pBot
+
+tags:
+  - privacy
+  - lightning
+  - guide
+
+category: peer-to-peer
+
+level: intermediate
+
+credits:
+  professor: electric-ankle
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-12-09
+    urgency:
+    contributors_id:
+      - Pivii
+    reward:

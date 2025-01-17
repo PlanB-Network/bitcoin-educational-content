@@ -1,0 +1,8 @@
+question: 不经过KYC，获取比特币的一种方式是什么？
+answer: 比特币ATM。
+wrong_answers:
+  - 经纪平台。
+  - DCA平台。
+  - 银行转账。
+explanation: >-
+  文本提到有几种方式可以不经过KYC获取比特币，其中一种是比特币ATM。

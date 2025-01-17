@@ -1,10 +1,11 @@
-question: Mitkä ovat joitakin kryptografian osa-alueita kyberturvallisuudessa?
+question: Mitkä ovat joitakin kryptografian näkökohtia, joita käytetään kyberturvallisuudessa?
 answer: SSL/TLS, symmetrinen/asymmetrinen salaus
 wrong_answers:
   - RSA, DSA, ECC
   - AES, DES, 3DES
   - MD5, SHA-1, SHA-256
 explanation: |
-  Luku listaa SSL/TLS:n sekä symmetrisen/asymmetrisen salauksen
-  joiksi kryptografian osa-alueiksi kyberturvallisuudessa.
-reviewed: false
+  Luku listaa SSL/TLS: n sekä symmetrisen/asymmetrisen
+  salauksen joiksi kryptografian näkökohdiksi, joita käytetään
+  kyberturvallisuudessa.
+reviewed: true

@@ -1,12 +1,9 @@
-question: What is the crude name sometimes used to refer to the collection of private
-  keys in a Bitcoin wallet?
-answer: Just a Bunch Of Keys (JBOC)
+question: How many parts is the output of the HMAC-SHA512 function applied to the seed divided into?
+answer: Two parts of 256 bits
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - One single part of 512 bits
+  - Three parts of 170 bits
+  - Four parts of 128 bits
 explanation: |
-  The collection of private cryptographic keys derived from a single master
-  key in a Bitcoin wallet is sometimes referred to by the slightly cruder name of
-  "Just a Bunch Of Keys" (JBOC).
+  The output of HMAC-SHA512 is divided into two parts: the master private key (256 bits) and the master chain code (256 bits).
 reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on seemne roll Bitcoin HD rahakotis?
+answer: Olla kõikide võtmete tuletamise lähtepunktiks
+wrong_answers:
+  - Salvestada rahakoti tehinguid
+  - Otse genereerida peamine avalik võti
+  - Tagada tehingute konfidentsiaalsus
+explanation: |
+  Seeme on 512-bitine jada, mis on tuletatud mnemoonilisest fraasist ja paroolist. See moodustab aluse kõikidele rahakoti võtmetele.
+reviewed: false

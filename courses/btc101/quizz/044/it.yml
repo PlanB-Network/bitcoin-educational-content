@@ -1,9 +1,12 @@
-question: Qual è l'esito potenziale di una svalutazione troppo rapida o di una perdita di fiducia in una valuta fiduciaria?
-answer: Può portare all'iperinflazione.
+question: Qual è il potenziale esito di una improvvisa svalutazione o di una perdita di fiducia in una valuta fiduciaria?
+answer: Iperinflazione.
 wrong_answers:
-  - Può portare alla deflazione.
-  - Può portare a un'economia stabile.
-  - Può portare a un aumento del valore della valuta.
+  - Deflazione.
+  - Un'economia stabile.
+  - Un aumento del valore della valuta.
 explanation: |
-  Una svalutazione troppo rapida o una perdita di fiducia in una valuta fiduciaria può portare all'iperinflazione. Questa è una situazione in cui i prezzi dei beni e dei servizi aumentano a un tasso estremamente elevato, spesso portando a instabilità economica.
-reviewed: false
+  Una improvvisa svalutazione o una perdita di fiducia in una valuta
+  fiduciaria può portare all'iperinflazione. Questa è una situazione
+  in cui i prezzi dei beni e dei servizi aumentano a un tasso
+  estremamente elevato, spesso portando a instabilità economica.
+reviewed: true

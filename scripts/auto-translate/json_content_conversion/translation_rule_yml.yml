@@ -1,0 +1,31 @@
+# Properties that should not be translated
+non_translatable:
+  # Common properties
+  - contributors
+  - cover
+  - original
+  - reviewed
+  # Builder-specific properties 
+  - website
+  - github
+  - telegram
+  - twitter
+  - nostr
+  - lightning_address
+  # Book-specific properties
+  - isbn
+  - publication_year
+  - author
+  # Resource-specific properties
+  - url
+
+# Properties that should be translated
+translatable:
+  - name
+  - description
+  - goal
+  - title
+  - explanation
+  - wrong_answers
+  - answer
+  - question

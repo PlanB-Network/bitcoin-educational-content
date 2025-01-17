@@ -1,9 +1,9 @@
-question: O que é "KYC"?
+question: O que é KYC?
 answer: Um procedimento para verificar e registrar a identidade dos clientes.
 wrong_answers:
   - Um sistema de criptografia para proteger transações financeiras.
   - Um método de validação para transações financeiras.
   - Uma técnica de marketing para analisar o comportamento do cliente.
 explanation: |
-  KYC significa "Know Your Customer" (Conheça o Seu Cliente). É de fato um procedimento regulatório para verificar a identidade do cliente.
+  KYC significa Know Your Customer (Conheça o Seu Cliente). É de fato um procedimento regulatório para verificar a identidade do cliente.
 reviewed: false

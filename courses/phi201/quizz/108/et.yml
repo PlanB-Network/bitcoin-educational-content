@@ -1,0 +1,9 @@
+question: Milline on Hayeki sõnul sotsialismi ja natsismi seos?
+answer: Kõik teised vastused (nad jagavad individualismi tagasilükkamist, eelistavad grupi heaolu, kasutavad sundi).
+wrong_answers:
+  - Need kaks ideoloogiat on ühildumatud.
+  - Sotsialism ja natsism on majandusküsimustes vastandlikud.
+  - Sotsialismil ja natsismil pole mingit seost.
+explanation: |
+  Hayek väitis, et sotsialism ja natsism jagavad ühiseid jooni, nagu individualismi tagasilükkamine kollektiivi kasuks ja sundi kasutamine, muutes need nende autoritaarsete mõjude poolest sarnaseks.
+reviewed: false

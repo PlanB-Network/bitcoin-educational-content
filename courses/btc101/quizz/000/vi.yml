@@ -2,8 +2,8 @@ question: Bitcoin là gì?
 answer: Bitcoin là một hệ thống tiền mặt điện tử ngang hàng.
 wrong_answers:
   - Bitcoin là một loại tiền tệ vật lý.
-  - Bitcoin là một loại tiền tệ số tập trung được kiểm soát bởi một thực thể duy nhất.
+  - Bitcoin là một loại tiền tệ số tập trung được kiểm soát bởi một thực thể đơn lẻ.
   - Bitcoin là một loại cổ phiếu hoặc trái phiếu.
 explanation: |
-  Như được nêu trong bản trắng, Bitcoin là một giao thức máy tính ngang hàng triển khai một hệ thống tiền tệ mà không cần phải tin tưởng vào bên thứ ba.
-reviewed: false
+  Như được nêu trong bản trắng, Bitcoin là một giao thức máy tính ngang hàng tạo ra một hệ thống tiền tệ mà không cần đến bất kỳ bên thứ ba đáng tin cậy nào.
+reviewed: true

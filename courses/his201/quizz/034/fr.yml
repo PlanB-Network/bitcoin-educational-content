@@ -5,5 +5,5 @@ wrong_answers:
   - dwdollar
   - SmokeTooMuch
 explanation: |
-  Ce service était rudimentaire : les échanges étaient négociés par courriel et les paiements se faisaient par PayPal. La taux de change était basé sur le coût de minage de NewLibertyStandard lui-même.
+  Ce service était rudimentaire ; les échanges étaient négociés par courriel et les paiements se faisaient par PayPal. La taux de change était basé sur le coût de minage de NewLibertyStandard lui-même.
 reviewed: false

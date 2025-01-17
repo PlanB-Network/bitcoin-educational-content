@@ -1,9 +1,0 @@
-question: Que se passe-t-il lorsqu'une tentative de transaction échoue en raison d'un manque de liquidité dans le Lightning Network ?
-answer: Une autre route est essayée jusqu'à ce qu'une transaction réussie soit effectuée.
-wrong_answers:
-  - La transaction est annulée et les fonds sont renvoyés à l'expéditeur.
-  - La transaction est mise en attente jusqu'à ce qu'une liquidité suffisante soit disponible.
-  - La transaction est automatiquement réacheminée vers un canal disposant d'une liquidité suffisante.
-explanation: |
-  Dans le Lightning Network, si une tentative de transaction échoue en raison d'un manque de liquidité dans un canal, le nœud essaiera une autre route. Ce processus se poursuit jusqu'à ce qu'une transaction réussie soit effectuée. Ce mécanisme garantit que les transactions peuvent être effectuées même si la route initialement choisie ne dispose pas d'une liquidité suffisante.
-reviewed: false

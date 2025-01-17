@@ -1,9 +1,9 @@
-question: Quels sont les inconvénients potentiels de l'exploitation minière à des fins lucratives?
-answer: Cela peut entraîner la centralisation du pouvoir de hachage et avoir un impact environnemental significatif.
+question: Quel est l'inconvénient potentiel de l'exploitation minière à des fins lucratives ?
+answer: Cela peut conduire à la centralisation de la puissance de hachage et pourrait également avoir un impact environnemental significatif.
 wrong_answers:
-  - Cela peut entraîner une baisse du prix du Bitcoin.
-  - Cela peut entraîner une baisse du taux de hachage du réseau.
-  - Cela peut entraîner une baisse du nombre de nœuds actifs dans le réseau.
+  - Cela peut entraîner une diminution du prix du Bitcoin
+  - Cela peut entraîner une diminution du taux de hachage du réseau
+  - Cela peut entraîner une diminution du nombre de nœuds actifs dans le réseau
 explanation: |
-  L'exploitation minière à des fins lucratives peut entraîner la centralisation du pouvoir de hachage si seules quelques grandes entreprises peuvent se permettre d'investir dans du matériel d'exploitation minière haut de gamme. De plus, la consommation d'énergie liée à l'exploitation minière à des fins lucratives peut avoir un impact environnemental significatif.
-reviewed: false
+  L'exploitation minière à des fins lucratives peut conduire à la centralisation de la puissance de hachage si seulement quelques grandes entreprises peuvent se permettre d'investir dans des équipements miniers de haute gamme. De plus, la consommation d'énergie de l'exploitation minière à des fins lucratives pourrait avoir un impact environnemental significatif en fonction de la source d'énergie.
+reviewed: true

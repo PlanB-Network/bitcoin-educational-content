@@ -1,0 +1,12 @@
+question: LastPass与Dashlane有什么区别？
+answer: 两者都是第三方服务，但Dashlane提供了额外的功能，如跟踪信用卡信息和安全笔记。
+wrong_answers:
+  - LastPass是第三方服务，而Dashlane是自托管服务。
+  - Dashlane是第三方服务，而LastPass是自托管服务。
+  - 没有区别，它们提供相同的功能。
+explanation:
+  LastPass和Dashlane都是第三方服务，意味着您的密码
+
+  存储在他们的服务器上。然而，Dashlane提供了额外的功能，如跟踪
+
+  信用卡信息和安全笔记。

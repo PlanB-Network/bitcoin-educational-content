@@ -1,11 +1,9 @@
-question: Lightning Network là gì?
-answer: Một mạng lưới các kênh thanh toán.
+question: Tại sao một bộ định tuyến cần duy trì sự phân bố thanh khoản tốt trong các kênh của mình?
+answer: Để tối đa hóa số lượng thanh toán mà nó có thể định tuyến
 wrong_answers:
-  - Một loại tiền mã hóa.
-  - Một công nghệ blockchain.
-  - Một ví điện tử cho Bitcoin.
+  - Để giảm phí giao dịch
+  - Để tránh mở kênh mới
+  - Để hạn chế việc sử dụng blockchain Bitcoin
 explanation: |
-  Lightning Network là một mạng lưới các kênh thanh toán. Hàng ngàn
-  người dùng với các kênh thanh toán riêng của họ được kết nối với nhau, và do đó tự sử dụng
-  để thực hiện giao dịch giữa những người dùng không kết nối với nhau.
+  Một bộ định tuyến nhằm mục đích định tuyến càng nhiều thanh toán càng tốt để thu phí, điều này đòi hỏi một sự phân bố thanh khoản tốt ở cả hai bên của các kênh để đảm bảo khả năng định tuyến.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Proč je šifrování posunem považováno za symetrické šifrování?
+answer: Protože se pro šifrování i dešifrování používá stejný klíč
+wrong_answers:
+  - Protože používá dva klíče, veřejný a soukromý
+  - Protože dešifruje bez použití klíče
+  - Protože klíč se mění s každým šifrováním
+explanation: |
+  Šifrování posunem je považováno za symetrické šifrování, protože používá stejný klíč pro šifrování i dešifrování zprávy, čímž zajišťuje důvěrnost mezi stranami sdílejícími tento klíč.
+reviewed: false

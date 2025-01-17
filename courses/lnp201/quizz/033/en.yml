@@ -1,11 +1,9 @@
-question: Who can use the revocation key before the end of the Timelock?
-answer: The person who receives the money.
+question: What does onion routing in the Lightning Network entail?
+answer: It means that each intermediate node only knows its immediate neighbors on the path.
 wrong_answers:
-  - The person who creates the transaction with the Timelock.
-  - Both parties can use the revocation key before the end of the Timelock.
-  - Neither party can use the revocation key before the end of the Timelock.
+  - To directly transmit funds from node to node knowing the final recipient
+  - To calculate fees for each intermediate node independently
+  - To send funds to all nodes on the path simultaneously
 explanation: |
-  The person who receives the money can use the revocation key before the
-  end of the Timelock in case of cheating from one side to the other of a channel
-  on the Lightning Network.
+  Onion routing means that each intermediate node only knows the previous and the next node, thus preserving the confidentiality of the final recipient.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Jaký je konečný cíl kryptografické hašovací funkce?
-answer: Přeměnit informace libovolné velikosti na otisk pevné velikosti.
+question: Proč je u SHA256 zajištěna nevratnost?
+answer: Použité operace odstraňují informace a jsou jednosměrné
 wrong_answers:
-  - Zašifrovat data pro bezpečný přenos.
-  - Generovat unikátní klíč pro každého uživatele.
-  - Kompresovat data pro efektivní uložení.
+  - Zprávy jsou před hašováním šifrovány
+  - Bity jsou náhodně přeuspořádány
+  - Každý hash je uložen v databázi
 explanation: |
-  Konečným cílem kryptografické hašovací funkce je přeměnit informace libovolné velikosti na otisk pevné velikosti. Tento otisk je jedinečný pro vstupní data a dokonce malá změna ve vstupu povede k drasticky odlišnému otisku.
-posouzeno: false
+  Operace jako ShR a XOR znemožňují návrat do počátečního stavu, čímž je zajištěna nevratnost.
+reviewed: false

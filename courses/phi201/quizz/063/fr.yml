@@ -1,0 +1,9 @@
+question: Quelle était l'attitude de l'Église médiévale vis-à-vis du prêt à intérêt ?
+answer: Elle l'interdisait.
+wrong_answers:
+  - Elle l'encourageait.
+  - Elle le tolérait dans certains cas.
+  - Elle n'avait pas d'opinion sur la question.
+explanation: |
+  L'Église médiévale interdisait le prêt à intérêt, considérant cette pratique comme un péché d'usure, car elle jugeait immoral de tirer profit d'un prêt en exigeant plus que le montant initial.
+reviewed: false

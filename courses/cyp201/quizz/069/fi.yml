@@ -1,8 +1,8 @@
-question: Mikä on yleisimmin käytetty standardi 24 sanan palautuslauseelle Bitcoin-lompakossa?
-answer: 256 bitin entropia.
+question: Mikä on ketjukoodin päärooli lapsiavainten johdannaisessa?
+answer: Lisätä ylimääräinen entropian lähde
 wrong_answers:
-  - 128 bitin entropia.
-  - 160 bitin entropia.
-  - 512 bitin entropia.
+  - Tunnistaa hierarkkinen syvyys
+  - Tallentaa lapsiavainten indeksit
+  - Varmistaa yhteensopivuuden Bitcoin-protokollan kanssa
 explanation: |
-  Yleisimmin käytetty standardi 24 sanan palautuslauseelle on 256 bitin entropia.
+  Ketjukoodia käytetään tuomaan lisätty ja ainutlaatuinen entropian lähde jokaiselle johdetulle avaimelle.

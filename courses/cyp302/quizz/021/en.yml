@@ -1,0 +1,9 @@
+question: What is the mathematical term for calculations involving modulo operations?
+answer: Modular arithmetic
+wrong_answers:
+  - Linear algebra
+  - Trigonometry
+  - Discrete geometry
+explanation: |
+  Modular arithmetic is the branch of mathematics that deals with operations on numbers within a finite framework, using the modulo operation.
+reviewed: false

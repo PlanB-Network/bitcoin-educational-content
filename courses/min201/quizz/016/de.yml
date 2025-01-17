@@ -1,9 +1,18 @@
 question: Welche Rolle spielen Bitcoin-Miner in der Welt der Energie?
-answer: Bitcoin-Miner sind ständig auf der Suche nach günstigen Stromquellen, oft solchen, die verschwendet oder ungenutzt sind. Sie können als flexible Nachfragequelle agieren und diesen "verwaisten" Strom verbrauchen, um so die Infrastrukturkosten zu senken.
+
+answer: Bitcoin-Miner suchen ständig nach Quellen für günstigen Strom, oft solchen, die verschwendet oder ungenutzt sind. Sie können als flexible Nachfragequelle fungieren, bereit, diesen verwaisten Strom zu verbrauchen, und so dazu beitragen, die Infrastrukturkosten auszugleichen.
+
 wrong_answers:
-  - Bitcoin-Miner sind ständig auf der Suche nach erneuerbaren Energiequellen, um ihren CO2-Fußabdruck zu reduzieren.
-  - Bitcoin-Miner sind ständig auf der Suche nach Kernenergiequellen, um ihre Mining-Operationen zu betreiben.
-  - Bitcoin-Miner sind ständig auf der Suche nach Solarenergiequellen, um ihre Mining-Operationen zu betreiben.
-explanation: |
-  Das Kapitel erklärt, dass Bitcoin-Miner ständig nach günstigen Stromquellen suchen, oft solchen, die verschwendet oder ungenutzt sind. Sie können als flexible Nachfragequelle agieren und diesen "verwaisten" Strom verbrauchen, um so die Infrastrukturkosten zu senken.
-reviewed: false
+  - Bitcoin-Miner suchen ständig nach Quellen erneuerbarer Energie, um ihren CO2-Fußabdruck zu reduzieren.
+  - Bitcoin-Miner suchen ständig nach Quellen für Kernenergie, um ihre Mining-Operationen zu betreiben, da dies der einzige saubere und erneuerbare Weg zur Energieerzeugung ist.
+  - Bitcoin-Miner suchen ständig nach Quellen für Solarenergie, um ihre Mining-Operationen zu betreiben.
+
+explanation:
+  Das Kapitel erklärt, dass Bitcoin-Miner ständig
+  nach Quellen für günstigen Strom suchen, oft solchen, die
+  verschwendet oder ungenutzt sind. Sie können als flexible
+  Nachfragequelle fungieren, bereit, diesen verwaisten Strom zu
+  verbrauchen, und so dazu beitragen, die Infrastrukturkosten
+  auszugleichen.
+
+reviewed: true

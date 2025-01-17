@@ -1,0 +1,9 @@
+question: Quali erano i modelli standard di output degli script riconosciuti dal software nel settembre 2010?
+answer: Ricezione tramite una chiave pubblica (P2PK) e ricezione tramite un indirizzo (P2PKH)
+wrong_answers:
+  - Ricezione tramite un indirizzo (P2PKH) e ricezione tramite uno script di firma multisignature (P2MS)
+  - Ricezione tramite un indirizzo (P2PKH) e ricezione tramite uno script (P2SH)
+  - Ricezione tramite una chiave pubblica (P2PK) e ricezione tramite uno script (P2SH)
+explanation: |
+  Questi erano i due tipi utilizzati sin dall'inizio di Bitcoin. Il tipo P2MS è stato reso standard nel marzo 2012. Il tipo P2SH è stato aggiunto al protocollo nell'aprile 2012.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Pourquoi la théorie des nombres est-elle particulièrement importante en cryptographie à clé publique ?
+answer: Elle fournit les bases mathématiques nécessaires pour les opérations de chiffrement et de déchiffrement
+wrong_answers:
+  - Elle fournit les bases mathématiques nécessaires pour les opérations de hachage
+  - Elle est nécessaire pour la création de réseaux de neurones
+  - Elle permet de calculer des opérations en binaire uniquement
+explanation: |
+  La théorie des nombres est cruciale en cryptographie à clé publique car elle aide à structurer les algorithmes en se basant sur les propriétés des nombres entiers, facilitant les opérations de chiffrement et de déchiffrement.
+reviewed: false

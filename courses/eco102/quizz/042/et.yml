@@ -1,0 +1,8 @@
+question: Mis on protektsionismi peamine mõju tarbijatele?
+answer: See tõstab nende ostetavate toodete hinda
+wrong_answers:
+  - See võimaldab neil osta kõrgema kvaliteediga tooteid
+  - See pakub neile laiemat tootevalikut
+  - Sellel pole mingit mõju nende ostujõule
+explanation: |
+  Protektsionism kehtestab impordile maksud, mis muudab tooted tarbijate jaoks kallimaks.

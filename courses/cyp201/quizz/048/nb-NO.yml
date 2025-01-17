@@ -1,0 +1,8 @@
+question: Hvorfor anses ofte en 24-ords mnemonic frase som overflødig for en Bitcoin-lommebok?
+answer: De avledede nøklene tilbyr kun 128 bits sikkerhet
+wrong_answers:
+  - Programvaren støtter ikke 24-ords fraser
+  - Det tillater ikke avledning av offentlige nøkler
+  - Kortere fraser er ikke standardisert
+explanation: |
+  Selv om en 24-ords frase tilbyr 256 bits sikkerhet, garanterer de avledede Bitcoin private nøklene kun 128 bits sikkerhet, noe som gjør overskuddet unødvendig.

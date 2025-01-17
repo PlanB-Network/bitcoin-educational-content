@@ -1,0 +1,8 @@
+question: 为了无压力地进行重复购买比特币，推荐的解决方案是什么？
+answer: 使用DCA方案
+wrong_answers:
+  - 使用热钱包
+  - 使用冷钱包
+  - 使用非KYC方案
+explanation: |
+  为了无压力地进行重复购买比特币，推荐的解决方案是使用DCA（Dollar Cost Averaging，定投）方案。这种策略涉及将您想要投资的总金额分散到周期性购买中，以减少波动性的影响。

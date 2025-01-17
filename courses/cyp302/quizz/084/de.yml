@@ -1,0 +1,9 @@
+question: Was ist die Hauptpraktische Einschränkung des One-Time-Pad?
+answer: Der Schlüssel muss genauso lang sein wie die Nachricht und darf nie wiederverwendet werden
+wrong_answers:
+  - Der Schlüssel muss jeden Tag geändert werden
+  - Der Schlüssel muss dreimal länger sein als die Nachricht
+  - Der Schlüssel muss notwendigerweise auf einem französischen Minitel gespeichert werden
+explanation: |
+  Der Schlüssel in einem One-Time-Pad muss genauso lang sein wie die Nachricht und darf nie wiederverwendet werden, was seine Verwendung in praktischen Kontexten erheblich erschwert. Dies liegt daran, dass wenn man Daten in einer sicheren Weise übertragen kann, die genauso lang sind wie die Nachricht, es sinnvoller wäre, direkt die Nachricht statt des Schlüssels zu übertragen.
+reviewed: false

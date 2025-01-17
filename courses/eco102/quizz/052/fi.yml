@@ -1,0 +1,9 @@
+question: Mihin johtopäätökseen Bastiat tulee tuhon vaikutuksesta talouteen?
+answer: Se on haitallista taloudelle
+wrong_answers:
+  - Se on hyödyllistä taloudelle
+  - Se on neutraalia taloudelle
+  - Se riippuu taloudellisesta tilanteesta
+explanation: |
+  Bastiat osoittaa, että tuho on taloudellinen taakka, koska se ohjaa arvokkaita resursseja pois ja ei luo lisäarvoa.
+reviewed: false

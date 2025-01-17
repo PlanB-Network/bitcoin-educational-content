@@ -1,0 +1,17 @@
+- start_date: 2025-04-01 16:00:00
+  end_date: 2025-04-02 23:00:00
+  timezone: America/Tegucigalpa
+  address_line_1: Pristine Bay, Roatán Island, Honduras
+  name: Understanding Bitcoin 2025 Roatán Conference
+  builder: Roatan Tourism
+  type: conference
+  description: Over a few days in April 2025, you'll experience the best of Bitcoin education, hands-on workshops, networking opportunities, and the island’s beautiful scenery.
+  language:
+    - en
+    - es
+  links:
+    website: https://roatantourismbureau.com/understanding-bitcoin
+  tags:
+    - proof-of-work
+    - adoption
+    - investment

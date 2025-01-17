@@ -1,0 +1,13 @@
+question: Milline järgmistest vastustest ei ole soovitatav viis oma doxxiliste muutuste haldamiseks?
+
+answer: Doxxiliste UTXOde ühendamine.
+
+wrong_answers:
+  - Doxxiliste UTXOde segamine väiksemas basseinis.
+  - Oma doxxiliste UTXOde annetamine.
+  - Oma doxxiliste UTXOde märkimine mittekulutatavaks.
+
+explanation: |
+  Doxxiliste UTXOde ühendamine ei ole soovitatav, kuna see võimaldab luua seose kasutaja erinevate kirjete vahel Whirlpoolis.
+
+reviewed: false

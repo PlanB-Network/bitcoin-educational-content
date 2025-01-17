@@ -1,0 +1,9 @@
+question: Kui suur on bittides binaarne segment, mida kasutatakse iga mnemoonilise sõna loomiseks?
+answer: 11 bitti
+wrong_answers:
+  - 8 bitti
+  - 16 bitti
+  - 10 bitti
+explanation: |
+  Iga 11-bitine segment vastab sõnale standarditud 2048 sõna nimekirjast BIP39-s.
+reviewed: false

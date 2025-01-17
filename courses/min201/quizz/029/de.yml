@@ -1,9 +1,12 @@
-question: Welche Rolle spielen Miner im Bitcoin-Netzwerk?
+question: Was ist die Rolle der Miner im Bitcoin-Netzwerk?
 answer: Miner spielen eine wesentliche Rolle bei der Validierung und Erstellung von Blöcken.
 wrong_answers:
   - Miner validieren nur Transaktionen.
   - Miner kontrollieren den Preis von Bitcoin.
   - Miner haben keine Rolle im Bitcoin-Netzwerk.
 explanation: |
-  Miner spielen eine wesentliche Rolle im Bitcoin-Netzwerk, indem sie Blöcke validieren und erstellen. Sie stärken das Netzwerk gegen Zensur, indem sie Elektrizität verwenden, um den Proof-of-Work für Bitcoin zu berechnen.
-reviewed: false
+  Miner spielen eine wesentliche Rolle im Bitcoin-Netzwerk, indem
+  sie Blöcke validieren und erstellen. Sie stärken das Netzwerk
+  gegen Zensur, indem sie Elektrizität verwenden, um den
+  Proof of Work für Bitcoin zu berechnen.
+reviewed: true

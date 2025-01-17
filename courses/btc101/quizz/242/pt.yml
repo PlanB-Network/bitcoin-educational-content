@@ -1,9 +1,11 @@
-question: Como o Lightning Network poderia ser potencialmente usado para alugar bens?
-answer: Os usuários poderiam ser cobrados por minuto, ou até mesmo por segundo, pelo tempo em que utilizam os bens.
+question: Como a Lightning Network poderia ser usada potencialmente para alugar bens?
+answer: Os usuários poderiam ser cobrados por minuto, ou até mesmo por segundo, pelo tempo que utilizam os bens.
 wrong_answers:
-  - Os usuários poderiam ser cobrados uma taxa fixa pelo aluguel dos bens.
+  - Os usuários poderiam ser cobrados uma taxa alta pelo aluguel dos bens.
   - Os usuários poderiam ser cobrados com base no valor dos bens.
   - Os usuários poderiam ser cobrados com base na condição dos bens.
-explanation: |
-  Com o Lightning Network, é concebível usar esse sistema para alugar bens. Os usuários poderiam ser cobrados por minuto, ou até mesmo por segundo, pelo tempo em que utilizam os bens.
-reviewed: false
+explanation: >-
+  Com a Lightning Network, é concebível usar este sistema para
+  alugar bens. Os usuários poderiam ser cobrados por minuto, ou até mesmo por segundo, pelo tempo
+  que utilizam os bens.
+reviewed: true

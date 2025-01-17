@@ -1,0 +1,9 @@
+question: Bastiat pitää Rousseauta minkä poliittisen liikkeen edelläkävijänä?
+answer: Sosialismi
+wrong_answers:
+  - Kommunismi
+  - Mutualismi
+  - Anarkismi
+explanation: |
+  Bastiat näkee Roussaun sosialismin edelläkävijänä hänen kollektiivisen lähestymistapansa vuoksi yhteiskuntaan, jossa yksilön täytyy alistua yleiseen tahtoon.
+reviewed: false

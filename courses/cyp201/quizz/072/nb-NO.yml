@@ -1,0 +1,9 @@
+question: Hva betyr en apostrof (') eller h i en avledningssti?
+answer: En forsterket avledning
+wrong_answers:
+  - En normal avledning
+  - En ekstern avledning
+  - En ikke-standard avledning
+explanation: |
+  En apostrof indikerer at avledningen er forsterket, noe som krever en forelder privatnøkkel for å generere barnenøkkelen.
+reviewed: false

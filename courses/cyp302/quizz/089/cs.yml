@@ -1,0 +1,9 @@
+question: Jaký je význam použití náhodného nonce v metodách CBC a OFB?
+answer: Zajišťuje, že každá šifrovací relace je unikátní, i pro identická data.
+wrong_answers:
+  - Sníží délku klíče během šifrovacího procesu.
+  - Zrychlí šifrování.
+  - Udělá kód algoritmu vizuálně přitažlivější pro lidi.
+explanation: |
+  Použitím náhodného nonce pro každou relaci zajistí metody CBC a OFB, že každé šifrování je unikátní, což brání útokům využívajícím identická data.
+reviewed: false

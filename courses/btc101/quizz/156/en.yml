@@ -1,11 +1,11 @@
 question: What is the purpose of mining pools?
 answer: Mining pools allow miners to pool their computing resources and receive smaller but more regular rewards.
 wrong_answers:
-  - Mining pools are used to increase the HashRate of the Bitcoin network.
+  - Mining pools are used to increase the HashRate of the overall Bitcoin network.
   - Mining pools are used to decrease the difficulty of mining.
   - Mining pools are used to increase the reward for mining.
 explanation: >-
   Mining pools are groups of miners who combine their computational power
   to increase their chances of mining a block. By pooling their resources, they can
   mine blocks more frequently and receive smaller but more regular rewards.
-reviewed: false
+reviewed: true

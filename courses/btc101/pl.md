@@ -1,7 +1,7 @@
 ---
-nazwa: Podróż przez świat Bitcoina 
-temat: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
-cele:
+name: Podróż przez świat Bitcoina 
+goal: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
+objectives:
   - Zdobądź ogólne zrozumienie technologii Bitcoin
   - Zrozum, jak kupować i zabezpieczać bitcoiny
   - Zdobądź ogólne zrozumienie technologii Blockchain

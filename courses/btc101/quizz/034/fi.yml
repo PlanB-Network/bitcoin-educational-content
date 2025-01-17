@@ -1,9 +1,9 @@
 question: Mikä on kullan pääetu valuuttana?
-answer: Se on uskomattoman kestävä
+answer: Se on uskomattoman kestävä.
 wrong_answers:
-  - Se on helposti jaettavissa tai kuljetettavissa pitkiä matkoja
-  - Sen aitouden voi helposti varmistaa
-  - Sitä ei säätele mikään hallitus
+  - Se on helposti jaettavissa tai kuljetettavissa pitkiä matkoja.
+  - Sen aitouden voi helposti varmistaa.
+  - Sitä ei säätele mikään hallitus.
 explanation: |
-  Vaikka kulta ei olekaan helposti jaettavissa tai kuljetettavissa pitkiä matkoja, mikä teki siitä hyvän arvon säilyttäjän, se ei ole nykyään yleinen valuutta.
-reviewed: false
+  Vaikka kulta ei olekaan helposti jaettavissa tai kuljetettavissa pitkien matkojen yli, on se erittäin kestävä materiaali, mikä tekee siitä hyvän arvon säilyttäjän. Kultarahoja käytettiin valuuttana menneisyydessä, mutta ne eivät palvelisi samaa tarkoitusta tämän päivän digitaalisella aikakaudella.
+reviewed: true

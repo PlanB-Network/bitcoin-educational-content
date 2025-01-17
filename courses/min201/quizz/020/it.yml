@@ -1,9 +1,14 @@
-question: Qual è la preoccupazione futura riguardante l'uso dello spazio dei blocchi di Bitcoin?
-answer: La preoccupazione futura è che con la prevista crescita della Lightning Network e l'aumento conseguente delle aperture e delle chiusure dei canali, lo spazio nei blocchi di Bitcoin diventerà sempre più prezioso.
+question: Qual è la preoccupazione futura riguardo all'uso dello spazio nei blocchi Bitcoin?
+answer: La preoccupazione futura è che con la crescita prevista della Lightning Network e il conseguente aumento delle aperture e chiusure di canali, lo spazio nei blocchi Bitcoin diventerà sempre più prezioso.
 wrong_answers:
-  - La preoccupazione futura è che le dimensioni dei blocchi di Bitcoin diventeranno troppo grandi da gestire.
-  - La preoccupazione futura è che il numero di blocchi di Bitcoin supererà la capacità della rete.
-  - La preoccupazione futura è che la complessità dei blocchi di Bitcoin aumenterà, rendendoli difficili da elaborare.
+  - La preoccupazione futura è che la dimensione dei blocchi Bitcoin diventerà troppo grande da gestire.
+  - La preoccupazione futura è che il numero di blocchi Bitcoin supererà la capacità della rete.
+  - La preoccupazione futura è che la complessità dei blocchi Bitcoin aumenterà, rendendoli difficili da elaborare.
 explanation: |
-  Con la prevista crescita della Lightning Network e l'aumento conseguente delle aperture e delle chiusure dei canali, lo spazio nei blocchi di Bitcoin diventerà sempre più prezioso. Ciò ha portato a discussioni sull'uso legittimo dello spazio dei blocchi, con preoccupazioni riguardo allo "spam" sulla blockchain da parte di transazioni considerate non essenziali.
-reviewed: false
+  Con la crescita prevista della Lightning Network e il
+  conseguente aumento delle aperture e chiusure di canali, lo
+  spazio nei blocchi Bitcoin diventerà sempre più prezioso. Questo
+  ha portato a discussioni sull'uso legittimo dello spazio nei blocchi,
+  con preoccupazioni riguardo al spam sulla blockchain da
+  transazioni considerate non essenziali.
+reviewed: true

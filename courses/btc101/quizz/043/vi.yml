@@ -1,9 +1,12 @@
-question: Tiền tệ pháp định có tiền lệ lịch sử như thế nào?
-answer: Các nhà lãnh đạo tập trung vàng và giới thiệu một loại tiền tệ mới tương đương về giá trị với vàng, sau đó dần dần bị mất giá.
+question: Con đường lịch sử nào đã được các tổ chức theo đuổi trong việc giới thiệu tiền tệ fiat?
+answer: Các nhà lãnh đạo tập trung vàng và giới thiệu một loại tiền tệ mới tương đương với giá trị của vàng, sau đó dần dần bị mất giá.
 wrong_answers:
-  - Các nhà lãnh đạo giới thiệu một loại tiền tệ mới có giá trị được bảo đảm bằng vàng, sau đó dần dần tăng giá trị.
+  - Các nhà lãnh đạo giới thiệu một loại tiền tệ mới được bảo đảm bằng vàng, sau đó dần dần tăng giá trị.
   - Các nhà lãnh đạo giới thiệu một loại tiền tệ mới không có giá trị nội tại, sau đó dần dần tăng giá trị.
   - Các nhà lãnh đạo giới thiệu một loại tiền tệ mới được bảo đảm bằng một rổ hàng hóa, sau đó giữ ổn định về giá trị.
 explanation: |
-  Lịch sử cho thấy, các nhà lãnh đạo đã tập trung vàng và giới thiệu một loại tiền tệ mới tương đương về giá trị với vàng. Loại tiền tệ mới này sau đó dần dần bị mất giá, thường dưới danh nghĩa là vì lợi ích của người dân.
-reviewed: false
+  Theo lịch sử, các nhà lãnh đạo đã tập trung vàng và giới thiệu
+  một loại tiền tệ mới tương đương về giá trị với vàng. Loại tiền tệ mới này
+  sau đó dần dần bị mất giá, thường dưới danh nghĩa là vì lợi ích
+  của người dân.
+reviewed: true

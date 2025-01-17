@@ -1,0 +1,9 @@
+question: 在比特币节点上验证流通中的比特币数量的命令是什么？
+answer: bitcoin-cli gettxoutsetinfo
+wrong_answers:
+  - bitcoin-cli getblockchaininfo
+  - bitcoin-cli getwalletinfo
+  - bitcoin-cli getnetworkinfo
+explanation: |
+  在比特币节点上验证流通中的比特币数量的命令是 bitcoin-cli gettxoutsetinfo。这个命令提供了透明度和可验证性，增强了对比特币系统的信任。
+reviewed: true

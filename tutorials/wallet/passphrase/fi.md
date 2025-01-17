@@ -1,5 +1,5 @@
 ---
-name: BIP39 Salasana
+name: Passphrase BIP39
 description: Ymmärrys siitä, miten salasana toimii
 ---
 ![kansi](assets/cover.webp)
@@ -35,4 +35,8 @@ On myös tärkeää tallentaa tämä salasana asianmukaisesti, samalla tavalla k
 
 Salasanan asettamiseksi Ledger-laitteeseen (Stax, Flex tai Nano), voit katsoa tämän tutoriaalin:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
+COLDCARD-laitteella:
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

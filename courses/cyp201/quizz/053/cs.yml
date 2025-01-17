@@ -1,9 +1,9 @@
-question: Jaká je délka soukromých klíčů v Bitcoinové peněžence?
-answer: 256 bitů
+question: Co se stane, pokud ztratíte heslovou frázi spojenou s vaší HD peněženkou?
+answer: Přijdete o přístup k bitcoinům spojeným s touto peněženkou
 wrong_answers:
-  - 128 bitů
-  - 512 bitů
-  - 1024 bitů
+  - Stále můžete přistupovat k peněžence pouze s mnemonickou frází
+  - Heslovou frázi můžete resetovat kontaktováním podpory Bitcoinu
+  - Přijdete pouze o nepotvrzené transakce
 explanation: |
-  Soukromé klíče v Bitcoinové peněžence, které jsou nezbytné pro vlastnictví kryptoměny, mají pevnou délku 256 bitů.
+  Heslová fráze je zásadní součástí odvození klíčů. Bez ní je nemožné klíče znovu vytvořit a tím pádem získat přístup k bitcoinům.
 reviewed: false

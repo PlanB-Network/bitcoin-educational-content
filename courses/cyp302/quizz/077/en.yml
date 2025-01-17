@@ -1,0 +1,9 @@
+question: What is the role of Kerckhoff's principle in cryptography?
+answer: To ensure that security relies on the secret key, not on the secrecy of the scheme
+wrong_answers:
+  - To ensure that security relies on the secrecy of the scheme, not on the secret key
+  - To require a very long encryption key
+  - To guarantee that each message has a unique key
+explanation: |
+  According to Kerckhoff's principle, the security of a cryptographic system should rely solely on the secret key, and not on the secrecy of the algorithm itself.
+reviewed: false

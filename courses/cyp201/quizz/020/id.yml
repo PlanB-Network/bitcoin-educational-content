@@ -1,0 +1,9 @@
+question: Apa perbedaan antara kunci publik yang dikompresi dan tidak dikompresi?
+answer: Kunci publik yang dikompresi hanya menggunakan koordinat x dan paritas dari y
+wrong_answers:
+  - Kunci publik yang dikompresi lebih aman
+  - Kunci publik yang dikompresi hanya menggunakan koordinat y dan paritas dari x
+  - Kunci publik yang dikompresi memerlukan kunci privat yang lebih besar
+explanation: |
+  Kunci publik yang dikompresi hanya menyimpan koordinat x dan sebuah bit untuk paritas dari y, sehingga mengurangi ukurannya menjadi 33 byte.
+ditinjau: false

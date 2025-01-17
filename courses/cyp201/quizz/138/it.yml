@@ -1,9 +1,0 @@
-question: Quale formato di rappresentazione viene utilizzato per uno standard segwit per ottenere l'indirizzo del portafoglio HD?
-answer: Il formato bech32
-wrong_answers:
-  - Il formato base 58
-  - Il formato SHA256
-  - Il formato RIPMD160
-explanation: |
-  Dopo aver calcolato il checksum, viene utilizzata una rappresentazione nel formato base 58 per uno standard legacy, mentre il formato bech32 viene utilizzato per uno standard segwit, per ottenere l'indirizzo del portafoglio HD.
-reviewed: false

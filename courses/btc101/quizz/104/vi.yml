@@ -1,11 +1,12 @@
 question: Điều nào không phải là cụm từ gợi nhớ trong bối cảnh của Bitcoin?
-answer: Mật khẩu cho ví Bitcoin của bạn
+answer: Mật khẩu cho ví Bitcoin của bạn.
 wrong_answers:
-  - một danh sách gồm 12-24 từ từ một từ điển cụ thể
-  - bí mật để truy cập vào quỹ bitcoin của bạn
-  - Một mã bí mật để truy cập vào bitcoin của bạn
+  - Một danh sách gồm 12 từ từ một từ điển cụ thể.
+  - Một danh sách gồm 24 từ từ một từ điển cụ thể.
+  - Bí mật để truy cập vào quỹ bitcoin của bạn.
 explanation: |
-  Cụm từ gợi nhớ trong bối cảnh của Bitcoin là một danh sách gồm 12 hoặc 24 từ
-  cho phép bạn khôi phục ví của mình trên bất kỳ ứng dụng ví Bitcoin nào. Bất kỳ ai
-  có quyền truy cập vào danh sách này cũng có quyền truy cập vào bitcoin của bạn.
+  Một cụm từ gợi nhớ trong bối cảnh của Bitcoin là một danh sách gồm 12
+  hoặc 24 từ cho phép bạn khôi phục ví của mình trên bất kỳ
+  ứng dụng ví Bitcoin nào. Bất kỳ ai có quyền truy cập vào danh sách này
+  cũng có thể truy cập vào bitcoin của bạn.
 reviewed: true

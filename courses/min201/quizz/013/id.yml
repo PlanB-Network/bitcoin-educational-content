@@ -1,0 +1,13 @@
+question: Bagaimana regulasi dan tarif listrik mempengaruhi penambangan Bitcoin?
+answer: Regulasi dan tarif listrik memiliki pengaruh signifikan terhadap penambangan Bitcoin. Para penambang selalu mencari listrik dengan biaya rendah untuk memaksimalkan keuntungan mereka. Oleh karena itu, biaya listrik yang tinggi di beberapa wilayah tidak menarik minat penambang ke wilayah tersebut. Penambang cenderung tertarik ke wilayah dengan tarif listrik rendah, seringkali di negara-negara berkembang atau negara dengan surplus energi.
+wrong_answers:
+  - Regulasi dan tarif listrik mempengaruhi penambangan Bitcoin dengan menentukan jenis mesin penambangan yang dapat digunakan.
+  - Regulasi dan tarif listrik mempengaruhi penambangan Bitcoin dengan menentukan jenis perangkat lunak penambangan yang dapat digunakan.
+  - Regulasi dan tarif listrik mempengaruhi penambangan Bitcoin dengan menentukan ukuran kolam penambangan yang dapat dibentuk.
+explanation: |
+  Bab ini menjelaskan bahwa regulasi dan tarif listrik
+  memiliki pengaruh signifikan terhadap penambangan Bitcoin.
+  Para penambang selalu mencari listrik dengan biaya rendah untuk
+  memaksimalkan keuntungan mereka, dan oleh karena itu cenderung
+  tertarik ke wilayah dengan tarif listrik rendah.
+reviewed: true

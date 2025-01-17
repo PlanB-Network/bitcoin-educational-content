@@ -1,16 +1,9 @@
-question: What are the four strengths a cryptographic hash function must have to be recognized as secure?
-answer: Irreversibility, resistance to forgery, resistance to collisions, and resistance to second preimage.
+question: Which property of hash functions is demonstrated by a complete change in the hash when a message changes slightly?
+answer: The avalanche effect
 wrong_answers:
-  - Speed, efficiency, resistance to collisions, and irreversibility.
-  - Resistance to collisions, resistance to forgery, scalability, and irreversibility.
-  - Irreversibility, resistance to collisions, resistance to forgery, and speed.
+  - Collision resistance
+  - Second preimage resistance
+  - Length
 explanation: |
-  A secure cryptographic hash function must have four key strengths;
-  irreversibility
-  (meaning it's impossible to derive the original input from the output), resistance
-  to forgery (meaning it's difficult to create a different input that produces the
-  same output), resistance to collisions (meaning it's difficult to find two different
-  inputs that produce the same output), and resistance to second preimage (meaning
-  it's difficult to find a different input that produces the same output as a given
-  input).
+  A small change in the input results in a radical change in the hash, this is what is called the avalanche effect.
 reviewed: false

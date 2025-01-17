@@ -1,0 +1,9 @@
+question: Mis on keskmine aeg kahe ploki vahel Bitcoin protokollis?
+answer: 10 minutit
+wrong_answers:
+  - 5 minutit
+  - 15 minutit
+  - 20 minutit
+explanation: >-
+  Keskmiselt on aeg kahe ploki vahel Bitcoin protokollis 10 minutit.
+reviewed: false

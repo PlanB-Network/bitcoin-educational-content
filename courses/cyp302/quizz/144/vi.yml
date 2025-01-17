@@ -1,0 +1,13 @@
+question: Kích thước tiêu biểu của các số nguyên tố được sử dụng trong phân tích nhân tử cho các hệ thống mật mã hiện đại như RSA là bao nhiêu?
+
+answer: 1024 bit cho mỗi nhân tử
+
+wrong_answers:
+  - Tổng cộng 1024 bit
+  - 256 bit cho mỗi nhân tử
+  - Tổng cộng 256 bit
+
+explanation: |
+  Trong các hệ thống mật mã hiện đại như RSA, các số nguyên tố được chọn thường là 1024 bit mỗi số, làm cho việc phân tích nhân tử trở nên cực kỳ khó khăn và tăng cường bảo mật.
+
+reviewed: false

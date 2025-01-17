@@ -1,0 +1,9 @@
+question: Mis on Bitcoini ühiku roll igapäevaelus?
+answer: Seda kasutatakse kaupade ja teenuste ostuks ning müügiks.
+wrong_answers:
+  - Seda kasutatakse uute bitcoinide kaevandamiseks.
+  - Seda kasutatakse Bitcoini hinna reguleerimiseks.
+  - Seda kasutatakse Bitcoini protokolli kontrollimiseks.
+explanation: |
+  Igapäevaelus kasutavad inimesed Bitcoini ühikut kaupade ja teenuste ostmiseks ning müümiseks. See toetub Bitcoini protokollile, et toimida.
+reviewed: true

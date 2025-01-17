@@ -5,8 +5,9 @@ wrong_answers:
   - Zabránit stránce v zapamatování vašich přihlašovacích údajů.
   - Zabránit stránce ve zobrazování cílených reklam.
 explanation: |
-  Cookies jsou soubory vytvořené webovými stránkami pro ukládání informací na vašem zařízení.
-  Ačkoliv některé stránky vyžadují tyto cookies pro správnou funkci, mohou být také zneužity
-  stranami třetími, zejména pro účely sledování reklamy. Mazání cookies
-  po každé návštěvě stránky může pomoci tomu zabránit.
-reviewed: false
+  Cookies jsou soubory vytvořené webovými stránkami pro ukládání informací
+  na vašem zařízení. Zatímco některé stránky vyžadují tyto cookies pro
+  správnou funkci, mohou být také zneužity stranami třetími, zejména pro účely
+  sledování reklamy. Mazání cookies po každé návštěvě stránky může
+  pomoci tomu zabránit.
+reviewed: true

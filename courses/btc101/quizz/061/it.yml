@@ -1,9 +1,11 @@
-question: Come si chiama l'evento in cui la ricompensa per il mining viene dimezzata?
+question: Qual è il nome dell'evento in cui la ricompensa per il mining viene dimezzata?
 answer: Halving
 wrong_answers:
   - Raddoppio
-  - Quadruplicazione
+  - Quarto
   - Triplicazione
 explanation: |
-  L'evento in cui la ricompensa per il mining viene dimezzata si chiama halving. Questo evento conferisce alla curva di emissione monetaria una forma a gradini.
-reviewed: false
+  L'evento in cui la ricompensa per il mining viene dimezzata è chiamato
+  halving. Questo evento conferisce alla curva di emissione monetaria una
+  forma a gradini.
+reviewed: vero

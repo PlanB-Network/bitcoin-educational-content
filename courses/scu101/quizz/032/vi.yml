@@ -1,11 +1,9 @@
 question: Ransomware là gì?
-answer: Một loại phần mềm độc hại mã hóa dữ liệu của người dùng và yêu cầu tiền chuộc để giải mã.
+answer: Một loại phần mềm độc hại mã hóa dữ liệu người dùng và yêu cầu tiền chuộc để giải mã.
 wrong_answers:
-  - Một loại phần mềm antivirus.
-  - Một loại phần mềm được sử dụng để khôi phục dữ liệu.
-  - Một loại phần mềm được sử dụng để sao lưu dữ liệu.
+  - Một loại phần mềm diệt virus có khả năng làm sạch bộ nhớ cache và cookie của máy tính sau khi thanh toán một khoản phí một lần.
+  - Một loại phần mềm được sử dụng cho việc khôi phục dữ liệu, nó đang trở nên khá phổ biến ở Châu Âu ngày nay.
+  - Một loại phần mềm được sử dụng cho việc sao lưu dữ liệu, thường thì nó thực hiện một lần sao lưu mỗi 7 ngày.
 explanation: |
-  Ransomware là một loại phần mềm độc hại mã hóa dữ liệu của người dùng và
-  yêu cầu tiền chuộc để giải mã. Loại phần mềm này ngày càng trở nên phổ biến và có thể gây ra
-  nhiều rắc rối cho một công ty hoặc cá nhân.
-reviewed: false
+  Ransomware là một loại phần mềm độc hại mã hóa dữ liệu người dùng và yêu cầu tiền chuộc để giải mã. Nó đang trở nên ngày càng phổ biến và có thể gây ra nhiều rắc rối cho một công ty hoặc cá nhân.
+reviewed: true

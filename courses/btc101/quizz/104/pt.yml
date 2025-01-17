@@ -1,11 +1,12 @@
 question: O que não é uma frase mnemônica no contexto do Bitcoin?
-answer: Uma senha para sua carteira Bitcoin
+answer: Uma senha para sua carteira Bitcoin.
 wrong_answers:
-  - uma lista de 12-24 palavras de um dicionário específico
-  - o segredo para acessar seus fundos em bitcoin
-  - Um código secreto para acessar seus bitcoins
+  - Uma lista de 12 palavras de um dicionário específico.
+  - Uma lista de 24 palavras de um dicionário específico.
+  - O segredo para acessar seus fundos em bitcoin.
 explanation: |
-  Uma frase mnemônica no contexto do Bitcoin é uma lista de 12 ou 24 palavras
-  que permite restaurar sua carteira em qualquer aplicativo de carteira Bitcoin. Qualquer
-  pessoa com acesso a esta lista também tem acesso aos seus bitcoins.
+  Uma frase mnemônica no contexto do Bitcoin é uma lista de 12
+  ou 24 palavras que permite restaurar sua carteira em qualquer
+  aplicativo de carteira Bitcoin. Qualquer pessoa com acesso a esta lista
+  também pode acessar seus bitcoins.
 reviewed: true

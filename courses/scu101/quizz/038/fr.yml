@@ -2,8 +2,10 @@ question: Qu'est-ce qu'un gestionnaire de mots de passe ?
 answer: Un outil qui vous permet de stocker, générer et gérer vos mots de passe pour différents comptes en ligne.
 wrong_answers:
   - Un outil qui vous aide à vous souvenir de tous vos mots de passe.
-  - Un outil qui vous connecte automatiquement à vos comptes en ligne.
-  - Un outil qui protège votre ordinateur contre les virus.
+  - Un outil qui vous connecte automatiquement à vos comptes en ligne avec un nom d'utilisateur et un mot de passe.
+  - Un outil qui protège les mots de passe sur votre ordinateur contre les virus.
 explanation: |
-  Un gestionnaire de mots de passe est un outil qui vous permet de stocker, générer et gérer vos mots de passe pour différents comptes en ligne. Il vous aide à créer des mots de passe forts et à vous en souvenir, afin que vous n'ayez pas à le faire.
-reviewed: false
+  Un gestionnaire de mots de passe est un outil qui vous permet de stocker,
+  générer et gérer vos mots de passe pour différents comptes en ligne. Il vous aide à créer des mots de passe forts et à vous en souvenir, afin que vous n'ayez pas à le faire. Il facilite la création de mots de passe robustes et leur mémorisation, vous évitant ainsi d'avoir à les retenir vous-même.
+
+reviewed: true

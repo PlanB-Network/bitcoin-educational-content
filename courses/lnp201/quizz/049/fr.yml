@@ -1,9 +1,9 @@
-question: Quel est le rôle des nœuds du réseau Lightning dans une transaction ?
-answer: Ils facturent des frais pour accepter d'être utilisés pour acheminer la transaction.
+question: Quelle est la principale fonction d'une invoice Lightning ?
+answer: Demander un paiement au nœud émetteur
 wrong_answers:
-  - Ils facilitent la transaction sans aucun frais.
-  - Ils initient la transaction.
-  - Ils sont les destinataires finaux de la transaction.
+  - Envoyer des fonds sans transaction on-chain
+  - Activer les HTLC sur un canal
+  - Ouvrir un nouveau canal Lightning
 explanation: |
-  Dans le réseau Lightning, les nœuds facturent des frais pour accepter d'être utilisés pour acheminer la transaction. Ces frais varient en fonction de l'emplacement de la liquidité.
+  Une invoice Lightning est une demande de paiement, transmise par le nœud destinataire au nœud émetteur pour initier un paiement sur le Lightning Network.
 reviewed: false

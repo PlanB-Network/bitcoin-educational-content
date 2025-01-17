@@ -1,0 +1,8 @@
+question: Какой размер блока в протоколе Bitcoin?
+answer: 1MB
+wrong_answers:
+  - 0.5MB
+  - 2MB
+  - 3MB
+explanation: >-
+  Размер блока в протоколе Bitcoin составляет 1MB.

@@ -1,11 +1,9 @@
 question: Na jakém principu funguje těžba Bitcoinu?
-answer: Těžba Bitcoinu funguje na principu loterie, kde jsou šance na výhru bloku (a tím i odměny v Bitcoinech) každých deset minut pro jednotlivé malé těžaře extrémně nízké.
+answer: Těžba Bitcoinu funguje na principu loterie, kde jsou šance na výhru bloku (a tím i odměny v Bitcoinech) každých deset minut pro jednotlivého malého těžaře extrémně nízké.
 wrong_answers:
   - Těžba Bitcoinu funguje na principu kdo dřív přijde, ten dřív mele, kde první těžař, který vyřeší složitý matematický problém, získá odměnu v Bitcoinech.
   - Těžba Bitcoinu funguje na principu aukce, kde těžař, který nabídne nejvíce, získá odměnu v Bitcoinech.
-  - Těžba Bitcoinu funguje na principu rotace, kde každý těžař má na řadě možnost těžit blok a obdržet odměnu v Bitcoinech.
+  - Těžba Bitcoinu funguje na principu rotace, kde každý těžař dostane šanci těžit blok a obdržet odměnu v Bitcoinech.
 explanation: |
-  Kapitola vysvětluje, že těžba Bitcoinu funguje na principu loterie,
-  kde jsou šance na výhru bloku (a tím i odměny v Bitcoinech) každých deset
-  minut pro jednotlivé malé těžaře extrémně nízké.
-reviewed: false
+  Kapitola vysvětluje, že těžba Bitcoinu funguje na principu loterie, kde jsou šance na výhru bloku (a tím i odměny v Bitcoinech) každých deset minut pro jednotlivého malého těžaře extrémně nízké.
+reviewed: true

@@ -48,7 +48,7 @@ Tämän vuoksi pidän Whirlpoolin käyttöä erityisen relevanttina `Hodl -> Mix
 
 Toivon, että tämä vastaus on valaissut Whirlpool-mallia. Jos haluat oppia lisää siitä, miten coinjoinit toimivat Bitcoinissa, suosittelen lukemaan kattavan artikkelini aiheesta: 
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 **Ulkoiset resurssit:**
 - Samourai Wallet Whirlpool

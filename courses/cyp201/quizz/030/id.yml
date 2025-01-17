@@ -1,0 +1,9 @@
+question: Apa tujuan dari SIGHASH_SINGLE?
+answer: Untuk menutupi satu input dan output yang bersesuaian
+wrong_answers:
+  - Untuk menutupi semua input dan output
+  - Hanya untuk menutupi input
+  - Untuk menutupi semua output kecuali satu
+explanation: |
+  SIGHASH_SINGLE menutupi satu input dan satu output yang bersesuaian dengan indeks dari input yang ditandatangani, meninggalkan sisanya dapat dimodifikasi.
+ditinjau: false

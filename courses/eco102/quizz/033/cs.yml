@@ -1,0 +1,9 @@
+question: Podle Rousseaua, odkud ve společnosti pochází zlo?
+answer: Z vlastnictví
+wrong_answers:
+  - Ze nerovnosti
+  - Ze služebnosti
+  - Z individualismu
+explanation: |
+  Rousseau považuje vlastnictví za zdroj společenského zla, protože přináší nerovnosti a touhu po dominanci.
+reviewed: false

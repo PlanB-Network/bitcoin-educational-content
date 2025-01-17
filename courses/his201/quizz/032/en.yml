@@ -1,0 +1,9 @@
+question: What was the name of the young Finn who helped Satoshi with communication about his project in 2009, notably by managing the Bitcoin website and forum?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  He contacted Satoshi in April 2009. Satoshi immediately tasked him with writing a FAQ and a presentation for the website. Martti Malmi was Satoshi's right-hand man for over a year.
+reviewed: false

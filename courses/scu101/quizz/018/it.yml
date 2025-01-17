@@ -1,9 +1,11 @@
 question: Qual è la pratica consigliata per l'utilizzo di un account amministratore su Windows?
 answer: Creare due account separati; un account amministratore e un account per l'uso quotidiano.
 wrong_answers:
-  - Utilizzare l'account amministratore per l'uso quotidiano.
-  - Creare più account amministratori.
+  - Utilizzare l'account amministratore per l'uso quotidiano, se il PC non è connesso a internet.
+  - Creare due account amministratori separati; uno per l'uso quotidiano e uno per l'amministrazione del sistema operativo.
   - Non creare un account amministratore.
 explanation: |
-  Utilizzare un account amministratore per l'uso quotidiano su Windows può esporre il sistema a maggiori rischi di sicurezza. Si consiglia di creare due account separati: uno per le attività amministrative e un altro per l'uso quotidiano.
-reviewed: false
+  Utilizzare un account amministratore per l'uso quotidiano su Windows può
+  esporre il sistema a maggiori rischi di sicurezza. È consigliato
+  creare due account separati; uno per compiti amministrativi e un altro per l'uso quotidiano.
+reviewed: true

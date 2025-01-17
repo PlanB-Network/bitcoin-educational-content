@@ -1,0 +1,9 @@
+question: What was the initial goal of the Hashcash proof of work algorithm designed by Adam Back?
+answer: To combat spam email
+wrong_answers:
+  - To guarantee the value of a unit of account
+  - To achieve consensus on a peer-to-peer network
+  - To boil the oceans
+explanation: |
+  Hashcash required a proof of work for each email received, which was supposed to limit spam.
+reviewed: false

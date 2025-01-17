@@ -1,9 +1,9 @@
 question: Who is thanked for producing the course?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
   - Descoupes Bitcoin
-  - "Théo Boloré"
+  - Théo Boloré
   - None of the above
 explanation: |
-  "The chapter mentions that Théo is thanked for producing the course."
+  The chapter mentions that Théo is thanked for producing the course.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on peamine risk, kui kasutada hoiustamisteenust oma bitcoinide hoidmiseks?
+answer: Usaldusväärne kolmas osapool võib igal hetkel piirata juurdepääsu teie vahenditele
+wrong_answers:
+  - Usaldusväärne kolmas osapool võib igal hetkel suurendada teie bitcoinide väärtust
+  - Usaldusväärne kolmas osapool võib igal hetkel vähendada teie bitcoinide väärtust
+  - Usaldusväärne kolmas osapool ei saa igal hetkel teie bitcoine dubleerida
+explanation: >-
+  Kui kasutate hoiustamisteenust oma bitcoinide hoidmiseks, ei ole te ainus teie bitcoinide omanik. See tähendab, et usaldusväärne kolmas osapool võib igal hetkel piirata juurdepääsu teie vahenditele, andes teile sama finantsilise suveräänsuse taseme nagu traditsioonilise pangandussüsteemiga.
+reviewed: true

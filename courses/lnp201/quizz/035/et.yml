@@ -1,0 +1,9 @@
+question: Mis on HTLC-de peamine eesmärk Lightning Network'is?
+answer: Võimaldada turvalisi maksetehinguid vahendajate kaudu ilma, et peaks neis usaldust omama
+wrong_answers:
+  - Vähendada tehingutasusid iga makse puhul vahendajate kaudu
+  - Suurendada iga maksekanali mahtu
+  - Luua otseühendused kõigi võrgusõlmede vahel nende usaldusega
+explanation: |
+  HTLC-d (Hashed Time-Locked Contracts) tagavad, et iga vahendaja edastab makse ilma vahendite kinnipidamiseta, kuna need saab vabastada ainult tehingu lõpuleviimisega kuni lõppsaajani.
+reviewed: false

@@ -1,13 +1,13 @@
-question: Miten voimme minimoida COIH:n vaikutukset yhdistäessämme UTXO:ja?
+question: Miten voimme minimoida COIH; n vaikutukset yhdistäessämme UTXO; ja?
 
-answer: Yhdistämällä vain samasta lähteestä peräisin olevia UTXO:ja.
+answer: Yhdistämällä vain samasta lähteestä peräisin olevia UTXO; ja.
 
 wrong_answers:
-  - Lähettämällä UTXO:ja kolmansien osapuolien osoitteisiin.
-  - Valitsemalla UTXO:ja satunnaisesti tunnistettavien kaavojen välttämiseksi.
-  - Yhdistämällä UTXO:ja matalan aktiviteetin aikoina.
+  - Lähettämällä UTXO: ja kolmansien osapuolien osoitteisiin.
+  - Valitsemalla UTXO: ja satunnaisesti tunnistettavien kaavojen välttämiseksi.
+  - Yhdistämällä UTXO: ja matalan aktiviteetin aikoina.
 
 explanation: |
-  Jos huomaat tarvitsevasi yhdistää bitcoinejasi, priorisoi ensisijaisesti samasta lähteestä peräisin olevien UTXO:jen yhdistäminen.
+  Jos huomaat tarvitsevasi yhdistää bitcoinejasi, priorisoi ensisijaisesti samasta lähteestä peräisin olevien UTXO: jen yhdistäminen.
 
 reviewed: false

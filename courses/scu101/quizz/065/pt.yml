@@ -1,9 +1,0 @@
-question: Qual é a prática recomendada para armazenar Senhas de Uso Único (OTPs)?
-answer: Mantenha as OTPs em seu dispositivo móvel.
-wrong_answers:
-  - Anote-as em papel.
-  - Armazene-as em seu e-mail.
-  - Memorize-as.
-explanation: |
-  Para uma segurança ótima, é aconselhável manter as OTPs (Senhas de Uso Único) em seu dispositivo móvel. Isso ocorre porque os dispositivos móveis geralmente são mais seguros e menos propensos a serem comprometidos do que outros métodos de armazenamento.
-reviewed: false

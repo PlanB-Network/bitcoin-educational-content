@@ -1,0 +1,9 @@
+question: Hvis vi observerer i en enkel betalingstransaksjon at en utgang har et rundt beløp, hvilken sannsynlig tolkning kan vi trekke fra dette?
+answer: Det runde beløpet er ikke lenger i besittelse av inngangsbrukeren.
+wrong_answers:
+  - Det runde beløpet er ment for transaksjonsgebyrer.
+  - Det runde beløpet tilhører fortsatt inngangsbrukeren.
+  - Det runde beløpet er en reserveadresse.
+explanation: |
+  Når vi står overfor et enkelt betalingsmønster (1 inngang og 2 utganger), hvis en av utgangene bruker et rundt beløp, så representerer det betalingen. Det forlater dermed besittelsen av inngangsbrukeren.
+reviewed: false

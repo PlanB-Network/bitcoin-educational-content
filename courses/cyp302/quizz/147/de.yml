@@ -1,0 +1,9 @@
+question: Wenn eine ganze Zahl N das Produkt von zwei Primzahlen p und q ist, wie wird die Ordnung von N berechnet?
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  Für N gleich dem Produkt von zwei Primzahlen p und q wird die Ordnung von N als (p - 1) * (q - 1) berechnet.
+reviewed: false

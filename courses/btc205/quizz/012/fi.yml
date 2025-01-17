@@ -1,9 +1,0 @@
-question: Mikä P2P-ratkaisu on käytettävissä Telegramin kautta KYC-vapaisiin Bitcoin-ostoihin?
-answer: LNP2PBot
-wrong_answers:
-  - Bisq
-  - RoboSat
-  - Peach
-explanation: |
-  Luvun mukaan LNP2PBot on käytettävissä Telegramin kautta KYC-vapaisiin Bitcoin-ostoihin.
-reviewed: false

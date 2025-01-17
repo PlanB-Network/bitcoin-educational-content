@@ -1,9 +1,12 @@
 question: Pourquoi est-il important d'utiliser des mots de passe générés aléatoirement ?
-answer: Ils offrent un niveau de sécurité plus élevé et sont plus résistants aux attaques par force brute.
+answer: Ils sont plus résistants aux attaques par force brute que les mots de passe de même longueur contenant des mots du dictionnaire.
 wrong_answers:
-  - Ils sont plus faciles à retenir.
-  - Ils sont plus courts et plus simples.
-  - Ils sont requis par la plupart des services en ligne.
+  - Ils sont plus faciles à mémoriser mais plus lents à taper.
+  - Ils sont toujours sécurisés car ils dépassent 20 caractères aléatoires.
+  - La plupart des services en ligne demandent seulement une longueur minimale et un ensemble de caractères, répondre à ces critères signifie que les mots de passe sont suffisamment forts.
 explanation: |
-  Les mots de passe générés aléatoirement offrent un niveau de sécurité plus élevé car ils sont plus résistants aux attaques par force brute, qui tentent de deviner les mots de passe en essayant toutes les combinaisons possibles de caractères.
-reviewed: false
+  Les mots de passe générés aléatoirement offrent un niveau de
+  sécurité plus élevé car ils sont plus résistants aux attaques par force brute,
+  qui tentent de deviner les mots de passe en essayant toutes les
+  combinaisons possibles de caractères.
+reviewed: true

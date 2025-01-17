@@ -1,9 +1,9 @@
-question: Cosa significa HMAC?
-answer: Codice di Autenticazione dei Messaggi basato su Hash
+question: Qual è il punto comune utilizzato da tutti i partecipanti per calcolare una chiave pubblica in Bitcoin?
+answer: Il punto generatore G
 wrong_answers:
-  - Codice di Autenticazione Principale Gerarchico
-  - Codice di Autenticazione Principale Hashato
-  - Codice di Autenticazione dei Messaggi Gerarchico
+  - L'hash SHA256
+  - Una frase mnemonica
+  - La chiave pubblica compressa
 explanation: |
-  HMAC sta per Codice di Autenticazione dei Messaggi basato su Hash. È un tipo di codice di autenticazione dei messaggi (MAC) che coinvolge una funzione hash crittografica e una chiave crittografica segreta.
+  Il punto generatore G della curva ellittica secp256k1 è utilizzato per calcolare le chiavi pubbliche a partire dalle chiavi private.
 reviewed: false

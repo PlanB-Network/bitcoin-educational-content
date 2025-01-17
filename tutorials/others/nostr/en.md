@@ -34,9 +34,9 @@ The public key, npub, is a unique identifier to which all content published by a
 
 Clients are software that allows interaction with Nostr. The main clients are:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Clients allow users to generate a new key pair (equivalent to creating an account) or authenticate with an existing key pair.
 
@@ -44,9 +44,9 @@ Clients allow users to generate a new key pair (equivalent to creating an accoun
 
 Relays are simplistic servers that you can abandon at any time if you don't like the content they deliver to you. You can also run your own relay if you wish.
 
-> 💡 Pro tip: Paid relays are generally more effective at filtering spam and unwanted content.
+💡 **Pro tip:** Paid relays are generally more effective at filtering spam and unwanted content.
 
-# Guide
+### Guide
 
 Now you know enough about Nostr to get started and create your first identity on this protocol.
 
@@ -58,7 +58,7 @@ ris will create a set of keys for you without you having to do anything more tha
 
 ![Main menu](assets/3.webp)
 
-> ⚠️ Attention! You will need to keep track of your keys if you want to be able to access your profile again once your session is closed. I will show you how to do this at the very end of this guide.
+⚠️ **Attention!** You will need to keep track of your keys if you want to be able to access your profile again once your session is closed. I will show you how to do this at the very end of this guide.
 
 ## Step 2: Publish content
 
@@ -106,7 +106,7 @@ Then, copy and paste one by one your npub, npub hex, nsec, and nsec hex into a t
 
 ![Key](assets/10.webp)
 
-> ⚠️ Take note of the warning that iris gives you. While you can share your public key without fear, it is a different story for your private key. Anyone who has the latter will be able to access your account.
+⚠️ **Take note of the warning that iris gives you:** while you can share your public key without fear, it is a different story for your private key. Anyone who has the latter will be able to access your account.
 
 ## Conclusion
 

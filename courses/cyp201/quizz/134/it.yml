@@ -1,9 +1,0 @@
-question: Quale funzione viene utilizzata per generare il seed dalla frase mnemonica e dalla passphrase in un portafoglio HD?
-answer: La funzione pbkdf2
-wrong_answers:
-  - La funzione hmacha512
-  - La funzione SHA256
-  - La funzione RIPMD160
-explanation: |
-  La funzione pbkdf2 viene utilizzata per generare il seed dalla frase mnemonica e dalla passphrase, utilizzando hmacha512 e 2048 iterazioni. Questo seed viene poi utilizzato per derivare la chiave principale e il codice di catena principale.
-reviewed: false

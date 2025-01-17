@@ -1,0 +1,8 @@
+question: Menurut Bastiat, siapa yang menopang kehidupan negara?
+answer: Itu adalah warga negara yang menopang negara
+wrong_answers:
+  - Itu adalah warga negara yang bergantung pada negara
+  - Itu adalah negara yang menopang bangsa
+  - Itu adalah kelompok kepentingan yang menopang negara
+explanation: |
+  Bastiat menegaskan bahwa warga negara lah yang mendukung negara melalui penciptaan kekayaan dan bukan sebaliknya.

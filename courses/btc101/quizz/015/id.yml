@@ -1,0 +1,9 @@
+question: Apa itu Deklarasi Kemerdekaan Siber?
+answer: Sebuah teks yang menegaskan bahwa siber adalah sebuah ranah yang berbeda dari ranah fisik dan tidak seharusnya tunduk pada hukum yang sama.
+wrong_answers:
+  - Sebuah deklarasi kemerdekaan Bitcoin dari sistem keuangan tradisional.
+  - Sebuah teks yang menegaskan bahwa internet harus bebas dari regulasi pemerintah.
+  - Sebuah deklarasi kemerdekaan gerakan bajak laut dari segala regulasi.
+explanation: |
+  Deklarasi Kemerdekaan Siber ditulis oleh John Perry Barlow pada tahun 1996, menegaskan bahwa siber adalah sebuah ranah yang berbeda dari ranah fisik di mana pemerintah industri tidak dapat menegakkan otoritas mereka.
+reviewed: true

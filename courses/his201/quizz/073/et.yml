@@ -1,0 +1,9 @@
+question: Milline USA föderaalne luureteenistus kutsus Gavin Andreseni 2011. aasta aprillis mõni kuu hiljem Bitcoini esitlema?
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - DEA
+explanation: |
+  Täpsemalt oli see In-Q-Tel, Ameerika riskikapitalifond, mida juhib CIA, kuid visiit toimus tõepoolest CIA peakorteris.
+reviewed: false

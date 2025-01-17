@@ -1,0 +1,9 @@
+question: Milline majandusteadlane väitis 1999. aastal, et ainus puuduv asi, mis aga varsti välja töötatakse, on usaldusväärne elektrooniline raha?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+  Nobeli preemia laureaat majandusteaduses ja Chicago koolkonna asutaja, ta tegi selle ennustuse National Taxpayers Union Foundationi mikrofoni ees. [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: false

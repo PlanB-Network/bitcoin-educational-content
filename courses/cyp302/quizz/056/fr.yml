@@ -1,0 +1,9 @@
+question: Quel type de structure algébrique est la base de l'algèbre abstraite ?
+answer: Le groupe
+wrong_answers:
+  - Le champ
+  - L'anneau
+  - La matrice
+explanation: |
+  Le groupe est la structure algébrique fondamentale sur laquelle repose l'algèbre abstraite, défini par un ensemble d'éléments et une opération binaire respectant certaines propriétés.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa yang terjadi jika pembayaran melalui HTLC tidak selesai dalam waktu yang ditentukan?
+answer: Pembayaran dibatalkan dan dana dikembalikan ke pengirim.
+wrong_answers:
+  - Pembayaran disimpan oleh node perantara terakhir
+  - Dana didistribusikan ke semua node di jalur
+  - Dana diblokir secara permanen
+explanation: |
+  Jika HTLC berakhir tanpa rahasia yang diungkapkan, pembayaran dibatalkan dan dana dikembalikan ke pengirim, sehingga mencegah node perantara mana pun dari menyimpan dana.
+reviewed: false

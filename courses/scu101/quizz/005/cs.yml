@@ -1,10 +1,11 @@
-question: Proč se doporučuje vyhýbat prohlížeči Google Chrome?
+question: Proč se doporučuje vyhýbat se prohlížeči Google Chrome?
 answer: Kvůli jeho sledovačům.
 wrong_answers:
   - Protože není bezpečný.
   - Protože není uživatelsky přívětivý.
   - Protože nepodporuje rozšíření.
 explanation: |
-  Prohlížeč Google Chrome je známý svými sledovači, které mohou sbírat data
-  o vaší online aktivitě. To může být pro některé uživatele problém soukromí.
-reviewed: false
+  Prohlížeč Google Chrome je známý svými sledovači, které mohou
+  sbírat data o vaší online aktivitě. To může být
+  problém soukromí pro některé uživatele.
+reviewed: true

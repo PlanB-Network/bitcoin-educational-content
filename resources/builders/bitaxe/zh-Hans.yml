@@ -1,0 +1,5 @@
+description: |
+  BitAxe 是一个开源项目，旨在通过使用再利用的 ASIC 芯片（例如流行的 Antminer S19）以更低的成本尝试比特币挖矿。它提供了多种适合矿工需求的模型，性能高达 3.3 TH/s。与 NerdMiner 等教育工具不同，BitAxe 允许参与挖矿池以生成常规的比特币奖励，同时保持易于访问和可配置。是想要探索挖矿的爱好者的理想工具。
+
+contributors:
+  - pretty-private

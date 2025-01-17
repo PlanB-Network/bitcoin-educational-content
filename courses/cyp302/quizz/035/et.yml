@@ -1,0 +1,9 @@
+question: Mis on arvuteooria peamine eesmärk?
+answer: Uurida täisarvude omadusi ja funktsioone, mis nendega tegelevad
+wrong_answers:
+  - Analüüsida geomeetrilisi transformatsioone
+  - Uurida juhuslike geomeetriliste kujundite struktuuri lõplikus grupis
+  - Arendada sümmeetrilisi krüpteerimisalgoritme
+explanation: |
+  Arvuteooria keskendub täisarvude omadustele ja funktsioonidele, mis rakenduvad täisarvudele, tihti rakendustega krüptograafias, eriti avaliku võtme krüptograafia kontekstis.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Når forsvant Satoshi Nakamoto?
+answer: I 2010
+wrong_answers:
+  - I 2008
+  - I 2009
+  - I 2023
+explanation: |
+  Satoshi Nakamoto forsvant i 2010, og overlot sin skapelse i hendene på samfunnet.
+reviewed: true

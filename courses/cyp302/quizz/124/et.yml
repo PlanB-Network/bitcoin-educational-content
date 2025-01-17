@@ -1,0 +1,9 @@
+question: Miks on võtmete vahetamine isiklikult ebaotstarbekas turvaliste veebikommunikatsioonide jaoks?
+answer: See toob kaasa suured organisatsioonilised kulud, olles samal ajal ebatõhus
+wrong_answers:
+  - See muudab krüpteeritud suhtluse kasutuskõlbmatuks
+  - See nõuab mitme võtme kasutamist iga kliendi kohta
+  - See takistab võtmete taaskasutamist korduvate tehingute jaoks
+explanation: |
+  Võtmete vahetamine isiklikult on kulukas ja ebatõhus, eriti suures mahus, kuna see aeglustab tehinguid ja toob kaasa olulisi logistilisi kulusid iga uue kliendi jaoks.
+reviewed: false

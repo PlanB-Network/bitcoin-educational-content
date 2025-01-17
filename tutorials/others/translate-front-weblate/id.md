@@ -14,7 +14,7 @@ Untuk terjemahan konten pendidikan, kami menggunakan [pendekatan yang menggabung
 
 Namun, jika Anda tertarik untuk menerjemahkan bagian lain dari situs, kecuali konten pendidikan, Anda berada di tempat yang tepat! Untuk menerjemahkan frontend secara efektif, kami menggunakan alat Weblate, yang memfasilitasi kolaborasi dan mengorganisir terjemahan. Ini adalah alat yang sangat sederhana untuk memulai. Mari kita lalui, langkah demi langkah, cara menggunakan Weblate.
 
-Jika Anda ingin menambahkan bahasa baru yang sepenuhnya baru ke Jaringan PlanB yang belum tersedia di Weblate, Anda pertama-tama perlu mengajukan permintaan untuk penambahan. Untuk ini, [ikuti tutorial spesifik ini](https://planb.network/tutorials/others/add-new-language-weblate).
+Jika Anda ingin menambahkan bahasa baru yang sepenuhnya baru ke Jaringan PlanB yang belum tersedia di Weblate, Anda pertama-tama perlu mengajukan permintaan untuk penambahan. Untuk ini, [ikuti tutorial spesifik ini](https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86).
 
 ## Daftar di Weblate
 

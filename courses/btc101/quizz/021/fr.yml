@@ -1,9 +1,11 @@
-question: Quel est le principal inconvénient de l'or en tant que forme de monnaie?
-answer: Il n'est pas facilement divisible ou transportable sur de longues distances.
+question: Quel est l'un des inconvénients de l'or en tant que forme d'argent ?
+answer: Il n'est pas facilement divisible.
 wrong_answers:
   - Il ne conserve pas sa valeur dans l'espace.
   - Il s'érode avec le temps.
   - Il est facile à produire.
 explanation: |
-  Le principal inconvénient de l'or en tant que forme de monnaie est qu'il n'est pas facilement divisible ou transportable sur de longues distances. Cela le rend moins pratique dans un monde globalisé et numérique.
-reviewed: false
+  L'un des principaux inconvénients de l'or en tant que forme d'argent est
+  qu'il est difficile de le diviser en petites unités selon les besoins
+  qui se présentent, ce qui le rend moins pratique à utiliser.
+reviewed: true

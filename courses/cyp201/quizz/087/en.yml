@@ -1,10 +1,9 @@
-question: What is the relationship between the master private key and the extended keys of the wallet?
-answer: The master private key is the first private key derived from the seed and has no connection to the extended keys of the wallet.
+question: What is the unique feature of SegWit v1 (P2TR) addresses compared to SegWit v0 addresses?
+answer: They directly use the raw public key in the address.
 wrong_answers:
-  - The master private key is derived from the extended keys of the wallet.
-  - The master private key is the same as the extended keys of the wallet.
-  - The master private key is used to generate the extended keys of the wallet.
+  - They are encoded in base58check.
+  - They require two signatures to be valid.
+  - They use the public key hash in the address.
 explanation: |
-  The master private key is the first private key derived from the seed
-  and has no connection to the extended keys of the wallet.
+  SegWit v1 (P2TR) addresses do not use a hash of the public key, but directly the Taproot public key.
 reviewed: false

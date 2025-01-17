@@ -1,0 +1,9 @@
+question: Metode block cipher mana yang menggunakan vektor inisialisasi dan menciptakan enkripsi probabilistik?
+answer: CBC (Cipher Block Chaining)
+wrong_answers:
+  - ECB (Electronic Code Book)
+  - AES-128
+  - SHA-256
+explanation: |
+  Metode CBC menggunakan vektor inisialisasi dan menerapkan XOR antara setiap blok teks biasa dan blok terenkripsi sebelumnya, membuat enkripsi menjadi probabilistik dan lebih aman daripada ECB.
+reviewed: false

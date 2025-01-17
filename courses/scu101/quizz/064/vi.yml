@@ -1,9 +1,9 @@
 question: Tại sao không nên sử dụng tiện ích mở rộng trình duyệt để tự động điền mật khẩu?
-answer: Chúng có thể làm tăng nguy cơ người dùng bị tấn công phishing, tăng diện tích tấn công và làm chậm hiệu suất trình duyệt.
+answer: Chúng có thể làm tăng nguy cơ bị tấn công phishing, tăng diện tích tấn công và làm chậm hiệu suất trình duyệt.
 wrong_answers:
   - Chúng khó sử dụng.
   - Chúng không tương thích với tất cả các trình duyệt.
   - Chúng yêu cầu nhiều không gian lưu trữ.
 explanation: |
-  Tiện ích mở rộng trình duyệt cho việc tự động điền mật khẩu có thể làm tăng nguy cơ người dùng bị tấn công phishing. Chúng cũng có xu hướng tăng diện tích tấn công và có thể làm chậm hiệu suất trình duyệt, do đó đại diện cho một rủi ro đáng kể.
-reviewed: false
+  Các tiện ích mở rộng trình duyệt cho việc tự động điền mật khẩu có thể làm tăng nguy cơ bị tấn công phishing. Chúng cũng có xu hướng tăng diện tích tấn công và có thể làm chậm hiệu suất trình duyệt, do đó đại diện cho một rủi ro đáng kể.
+reviewed: true

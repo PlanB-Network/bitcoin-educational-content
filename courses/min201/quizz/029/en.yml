@@ -5,9 +5,8 @@ wrong_answers:
   - Miners control the price of Bitcoin.
   - Miners have no role in the Bitcoin network.
 explanation: |
-  Miners play an essential role in the Bitcoin network by validating and
-
-  creating blocks. They strengthen the network against censorship by using electricity
-
-  to calculate the proof of work for Bitcoin.'
-reviewed: false
+  Miners play an essential role in the Bitcoin network by
+  validating and creating blocks. They strengthen the network
+  against censorship by using electricity to calculate the
+  proof of work for Bitcoin.
+reviewed: true

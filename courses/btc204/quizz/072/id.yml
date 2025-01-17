@@ -1,0 +1,13 @@
+question: Model skrip mana yang paling direkomendasikan pada tahun 2024 untuk privasi yang lebih baik pada Bitcoin?
+
+answer: P2TR
+
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+
+explanation: |
+  Untuk berbaur dengan kerumunan terbesar yang mungkin, disarankan untuk menggunakan model skrip yang paling banyak diadopsi. Skrip P2TR saat ini adalah yang paling banyak digunakan dalam transaksi Bitcoin.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa yang diwakili oleh kembalian dalam sebuah transaksi?
+answer: Sebuah output yang kembali ke pengirim asli dari transaksi tersebut.
+wrong_answers:
+  - Sebuah biaya yang diambil oleh jaringan Bitcoin.
+  - Sebuah output yang ditransfer ke penerima transaksi.
+  - Sebuah bonus yang diberikan kepada pengirim untuk transaksi cepat.
+explanation: |
+  Kembalian adalah sebuah output yang mewakili bagian dari input yang tidak digunakan untuk memenuhi pembayaran, dan dengan demikian kembali ke pengirim asli dari transaksi tersebut.
+reviewed: false

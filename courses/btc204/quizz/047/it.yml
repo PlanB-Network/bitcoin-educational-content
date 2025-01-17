@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   La transazione di notifica consente la trasmissione del codice di pagamento dal mittente al destinatario, affinché quest'ultimo possa conoscerlo e trovarlo in seguito solo dal proprio seed in caso di recupero del portafoglio. Come suggerisce il nome, svolge anche un ruolo di notifica.
 
-recensito: false
+reviewed: false

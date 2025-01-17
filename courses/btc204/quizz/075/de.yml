@@ -1,0 +1,13 @@
+question: Was ist das Hauptziel einer Coinjoin-Transaktion?
+
+answer: Die Historie einer Münze zu unterbrechen.
+
+wrong_answers:
+  - Die Transaktionsgebühren zu reduzieren.
+  - Bitcoins unerkennbar zu machen.
+  - Die Bestätigungsgeschwindigkeit zu erhöhen.
+
+explanation: |
+  Das Ziel einer Coinjoin-Transaktion ist es, die Historie einer Münze zu unterbrechen. Diese Technik bietet keine dauerhafte Anonymität und blockiert auch nicht definitiv das Tracking von Bitcoins, entgegen dem, was man vielleicht denken könnte. Coinjoin zielt lediglich darauf ab, die Historie an dem Punkt zu unterbrechen, an dem die Coinjoin-Transaktion gemacht wird.
+
+reviewed: false

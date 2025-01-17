@@ -1,9 +1,9 @@
-question: Qu'est-ce que la phrase "Not your keys, not your Bitcoins" met en évidence?
+question: Qu'est-ce que la phrase Not your keys, not your Bitcoins met en évidence?
 answer: L'importance de posséder la clé privée d'un portefeuille Bitcoin
 wrong_answers:
   - L'importance d'avoir une clé physique pour accéder à vos Bitcoins
   - L'importance de garder vos Bitcoins en lieu sûr
   - L'importance de ne pas partager les détails de votre compte Bitcoin
 explanation: |
-  Le chapitre explique que la phrase "Not your keys, not your Bitcoins" met en évidence l'importance de posséder la clé privée d'un portefeuille Bitcoin. En possédant la clé privée, vous avez un contrôle total sur les Bitcoins qu'elle contient.
+  Le chapitre explique que la phrase Not your keys, not your Bitcoins met en évidence l'importance de posséder la clé privée d'un portefeuille Bitcoin. En possédant la clé privée, vous avez un contrôle total sur les Bitcoins qu'elle contient.
 reviewed: false

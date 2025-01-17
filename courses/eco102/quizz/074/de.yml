@@ -1,0 +1,9 @@
+question: Warum ist zentralisierte Planung laut Friedrich Hayek ineffizient?
+answer: Sie kann die Komplexität wirtschaftlicher Entscheidungen nicht bewältigen
+wrong_answers:
+  - Sie reduziert die Menge der produzierten Güter
+  - Sie erhöht die Produktionskosten
+  - Sie fördert den internationalen Handel
+explanation: |
+  Hayek erklärt, dass zentralisierte Planung aufgrund der Komplexität wirtschaftlicher Entscheidungen scheitert, die nur ein freier Markt effizient koordinieren kann.
+reviewed: false

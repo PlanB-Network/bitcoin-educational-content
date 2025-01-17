@@ -1,9 +1,0 @@
-question: Một cách để tăng khả năng nhận thanh toán trên Mạng Lưới Lightning là gì?
-answer: Thực hiện thanh toán
-wrong_answers:
-  - Mở kênh
-  - Kết nối với các nút khác
-  - Duy trì một lượng thanh khoản cân bằng ở cả hai phía
-explanation: |
-  Trên Mạng Lưới Lightning, một cách để tăng khả năng nhận thanh toán là thực hiện thanh toán. Ví dụ, nếu bạn thanh toán 100,000 cho một lý do nào đó, bây giờ bạn có thể nhận 100,000.
-reviewed: false

@@ -1,0 +1,13 @@
+question: Hva påvirker vekten av en Bitcoin-transaksjon?
+
+answer: Antall innganger og utganger.
+
+wrong_answers:
+  - Størrelsen på blokkjeden.
+  - Mengden av inngangene og utgangene.
+  - Alderen på de brukte UTXOene.
+
+explanation: |
+  Jo flere innganger og utganger en Bitcoin-transaksjon har, desto tyngre vil den være i vB.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on hüperinflatsiooni peamine tunnus Cagani definitsiooni järgi?
+answer: Erakordselt kõrge kuine inflatsioonimäär
+wrong_answers:
+  - Erakordselt kõrge aastane inflatsioonimäär
+  - Erakordselt kõrge nädalane inflatsioonimäär
+  - Erakordselt kõrge päevane inflatsioonimäär
+explanation: |
+  Cagani definitsiooni järgi iseloomustab hüperinflatsiooni
+  erakordselt kõrge kuine inflatsioonimäär, mis ületab 50%.

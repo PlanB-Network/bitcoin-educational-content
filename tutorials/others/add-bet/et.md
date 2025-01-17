@@ -12,7 +12,7 @@ Kas soovite osaleda selle andmebaasi rikastamises, kuid ei tea, kuidas? See õpe
 
 *On hädavajalik, et kõik saidile integreeritud sisu oleks vaba õigustest või austaks lähtefaili litsentsi. Samuti on kõik PlanB võrgustikus avaldatud visuaalid kättesaadavad [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) litsentsi alusel.*
 ![sündmus](assets/01.webp)
-- Esiteks, teil peab olema konto GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/create-github-account).
+- Esiteks, teil peab olema konto GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Minge [PlanB-le pühendatud GitHubi repositooriumisse andmete jaoks](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` sektsioonis:
 ![sündmus](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
@@ -44,7 +44,7 @@ contributors:
 
 Siin on üksikasjad, mida iga välja jaoks täita:
 ```yaml
-builder: Näita oma organisatsiooni identifikaatorit PlanB võrgustikus. Kui teie ettevõttel ei ole veel "builder" identifikaatorit, saate selle luua [selle õpetuse järgi](https://planb.network/tutorials/others/add-builder). Kui teil seda veel ei ole, võite lihtsalt kasutada oma nime, pseudonüümi või ettevõtte nime ilma builder profiili loomata.
+builder: Näita oma organisatsiooni identifikaatorit PlanB võrgustikus. Kui teie ettevõttel ei ole veel "builder" identifikaatorit, saate selle luua [selle õpetuse järgi](https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Kui teil seda veel ei ole, võite lihtsalt kasutada oma nime, pseudonüümi või ettevõtte nime ilma builder profiili loomata.
 type: Valige oma sisu tüüp järgmiste kahe võimaluse hulgast:
 	- `Educational Content` haridusliku sisu jaoks.
 	- `Visual Content` muud tüüpi mitmekesise sisu jaoks.

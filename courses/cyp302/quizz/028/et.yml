@@ -1,0 +1,9 @@
+question: Mis on 0 XOR 1 tulemus?
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  XOR-i puhul annab 0 XOR 1 tulemuseks 1, kuna bitid on erinevad.
+  üle_vaadatud: false

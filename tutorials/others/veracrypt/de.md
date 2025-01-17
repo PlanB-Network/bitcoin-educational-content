@@ -15,7 +15,7 @@ Mit anderen Worten, es ist ratsam, Ihre Dateien an 3 verschiedenen Orten zu spei
 
 Um diese 3-2-1-Backup-Strategie einfach zu implementieren, können Sie sich für eine Online-Speicherlösung entscheiden, indem Sie die Dateien von Ihrem Computer automatisch oder periodisch mit denen in Ihrer Cloud synchronisieren. Unter diesen Online-Backup-Lösungen gibt es natürlich jene von großen digitalen Unternehmen, die Sie kennen: Google Drive, Microsoft OneDrive oder Apple iCloud. Diese sind jedoch nicht die besten Lösungen zum Schutz Ihrer Privatsphäre. In einem vorherigen Tutorial habe ich Ihnen eine Alternative vorgestellt, die Ihre Dokumente zur besseren Vertraulichkeit verschlüsselt: Proton Drive.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Indem Sie diese Strategie des lokalen und Cloud-Backups anwenden, profitieren Sie bereits von zwei verschiedenen Arten von Medien für Ihre Daten, von denen eines außerhalb des Standorts ist. Um die 3-2-1-Strategie zu vervollständigen, müssen Sie lediglich eine zusätzliche Kopie hinzufügen. Was ich Ihnen rate zu tun, ist einfach, Ihre Daten, die lokal und in Ihrer Cloud vorhanden sind, periodisch auf ein physisches Medium zu exportieren, wie einen USB-Stick oder eine externe Festplatte. Auf diese Weise haben Sie, selbst wenn die Server Ihrer Online-Speicherlösung zerstört werden und Ihr Computer gleichzeitig ausfällt, immer noch diese dritte Kopie auf einem externen Medium, um Ihre Daten nicht zu verlieren.
 ![VeraCrypt](assets/notext/01.webp)

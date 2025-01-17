@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus P2PK ja P2PKH vahel?
+answer: P2PK kasutab otse toorest avalikku võtit, samas kui P2PKH kasutab avaliku võtme räsi.
+wrong_answers:
+  - P2PK on SegWit'iga ühilduv, samas kui P2PKH ei ole.
+  - P2PK kasutab Schnorri allkirja, samas kui P2PKH kasutab ECDSA allkirja.
+  - P2PK on mõeldud multisigidele, samas kui P2PKH on lihtsate skriptide jaoks.
+explanation: |
+  P2PK lukustab vahendid toore avaliku võtmega, samas kui P2PKH kasutab avaliku võtme räsi.
+reviewed: false

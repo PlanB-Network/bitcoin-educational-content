@@ -1,0 +1,9 @@
+question: Jaký je rozdíl mezi přirozeným právem a pozitivním právem podle římského myšlení?
+answer: Přirozené právo je univerzální a neměnné, zatímco pozitivní právo je proměnlivé a závisí na lidských zákonech.
+wrong_answers:
+  - Přirozené právo je právo mocných, zatímco pozitivní právo je právo slabých.
+  - Přirozené právo je založeno na náboženství, zatímco pozitivní právo je založeno na rozumu.
+  - Přirozené právo se vztahuje pouze na římské občany, zatímco pozitivní právo se vztahuje na všechny obyvatele říše.
+explanation: |
+  V římském myšlení je přirozené právo považováno za univerzální a nezměnitelné, vyplývající z neměnných principů, zatímco pozitivní právo je souborem pravidel stanovených lidmi a podléhajících změnám podle sociálních a politických kontextů.
+reviewed: false

@@ -1,11 +1,13 @@
-question: What is the relationship between the cost of Bitcoin and its price?
-answer: The cost of Bitcoin is generally proportional to its price
+question: What is the relationship between the production cost of Bitcoin and its market price?
+answer: The cost of Bitcoin could be generally proportional to its price
 wrong_answers:
   - The cost of Bitcoin is inversely proportional to its price
-  - The cost of Bitcoin is unrelated to its price
+  - The cost of Bitcoin is fixed, within a certain ratio, to its price
   - The cost of Bitcoin is always higher than its price
 explanation: |
-  The cost of Bitcoin, which is related to the electricity needed to operate
-  mining machines, is generally proportional to its price. This relationship provides
-  a better understanding of price fluctuations and future prospects.
-reviewed: false
+  The cost of Bitcoin, which is related to the electricity
+  needed to operate mining machines, can generally be
+  proportional to its price. This relationship provides a
+  better understanding of price fluctuations and future
+  prospects.
+reviewed: true

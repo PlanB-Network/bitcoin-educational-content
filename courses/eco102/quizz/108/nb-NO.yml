@@ -1,0 +1,9 @@
+question: Hvilken økonomisk illusjon kritiserte Bastiat, som ville dukke opp igjen i det 20. århundre?
+answer: At staten kan skape jobber
+wrong_answers:
+  - At markedet trenger staten
+  - At markedet kan regulere seg selv
+  - At selskaper kan skape velstand uten regulering
+explanation: |
+  Bastiat kritiserte ideen om at staten kunne skape jobber uten å skade andre jobber på grunn av effekten av skattene som var nødvendige for å finansiere disse skapelsene.
+reviewed: false

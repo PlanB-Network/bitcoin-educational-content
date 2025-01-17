@@ -5,7 +5,8 @@ wrong_answers:
   - Check the speed of the site.
   - Check the color scheme of the site.
 explanation: |
-  Checking the URLs and the small padlock in the address bar is one way
-  to confirm that you are on the site you intend to visit. The padlock indicates that
-  the site is using the HTTPS protocol, which encrypts data for secure exchange.
-reviewed: false
+  Checking the URLs and the small padlock in the address bar
+  is one way to confirm that you are on the site you intend
+  to visit. The padlock indicates that the site is using the
+  HTTPS protocol, which encrypts data for secure exchange.
+reviewed: true

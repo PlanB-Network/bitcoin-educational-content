@@ -1,63 +1,18 @@
-id: 2b6ab56e-360b-4e1f-b3da-ced29ba40851
+id: 6568f7ed-f00a-4d01-9e97-199b9680786d
 chapterId: df6230ae-ff35-56ea-8651-8e65580730a8
-difficulty: intermediate
+difficulty: easy
 duration: 30
-author: DecouvreBitcoin
+author: pretty-private
 tags:
-  - Bitcoin
-  - Lightning Network
+  - offchain
+  - lightning
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2628
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2564
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1282
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2596
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2628
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-11-01
     urgency: 1
     contributors_id:
-    reward: 2564
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2596
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2692
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2564
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2692
+      - LoicPandul
+    reward:

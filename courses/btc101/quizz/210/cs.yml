@@ -1,9 +1,10 @@
 question: Která země prohlásila Bitcoin za zákonné platidlo?
-answer: Salvador
+answer: Salvador.
 wrong_answers:
-  - Spojené státy
-  - Čína
-  - Indie
+  - Spojené státy.
+  - Čína.
+  - Indie.
 explanation: >-
-  Salvador učinil odvážný krok přijetím Bitcoinu v plném rozsahu a prohlásil jej za zákonné platidlo.
-reviewed: false
+  Salvador učinil odvážný krok přijetím Bitcoinu v plném rozsahu,
+  prohlásil jej za zákonné platidlo.
+reviewed: true

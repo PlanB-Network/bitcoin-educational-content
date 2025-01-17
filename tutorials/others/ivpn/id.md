@@ -110,8 +110,8 @@ Di menu "*AntiTracker*", pilih profil pemblokiran untuk anti-tracker Anda. Ini d
 ![IVPN](assets/notext/32.webp)
 Dan itulah, Anda sekarang dilengkapi untuk sepenuhnya menikmati IVPN. Jika Anda juga ingin meningkatkan keamanan akun online Anda dengan menggunakan manajer kata sandi lokal, saya mengundang Anda untuk melihat tutorial kami tentang KeePass, solusi gratis dan open-source:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Jika Anda tertarik untuk menemukan penyedia VPN lain yang serupa dengan IVPN, baik dalam hal fitur maupun harga, saya juga merekomendasikan untuk melihat tutorial kami tentang Mullvad:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

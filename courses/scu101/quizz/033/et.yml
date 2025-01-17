@@ -1,0 +1,9 @@
+question: Mis on potentsiaalne puudus, kui luua pilve varukoopia kasutades teenuseid nagu ProtonMail Drive, Sync või Google Drive?
+answer: Teie andmed on potentsiaalselt internetis ja usaldusväärse kolmanda osapoole käes.
+wrong_answers:
+  - Need teenused ei ole usaldusväärsed andmete varundamiseks.
+  - Need teenused kaotavad sageli kasutajate andmeid.
+  - Need teenused ei paku piisavalt salvestusruumi.
+explanation: |
+  Kuigi pilveteenused pakuvad mugavat viisi oma andmete varundamiseks, tähendab see samuti, et teie andmed on potentsiaalselt internetis ja usaldusväärse kolmanda osapoole käes. See võib potentsiaalselt suurendada teie andmete lisariske.
+reviewed: false

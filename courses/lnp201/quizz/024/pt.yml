@@ -1,11 +1,9 @@
-question: O que acontece com a transação de saque após uma transferência na Lightning Network?
-answer: Ela é atualizada para refletir o novo saldo do canal.
+question: Qual é o efeito combinado do timelock e da chave de revogação nas transações de compromisso?
+answer: Eles desencorajam os participantes de trapacear ao oferecer uma punição imediata
 wrong_answers:
-  - Ela é executada e os fundos são transferidos.
-  - Ela é descartada e uma nova transação é criada.
-  - Ela permanece a mesma.
+  - Eles reduzem a capacidade do canal em caso de trapaça
+  - Eles automaticamente bloqueiam os fundos da parte culpada
+  - Eles forçam a abertura de um novo canal se a transação estiver incorreta
 explanation: |
-  Após uma transferência na Lightning Network, a transação de saque é atualizada
-  para refletir o novo saldo do canal. Essa transação não é executada a menos que
-  o canal seja fechado.
+  O timelock e a chave de revogação desencorajam os participantes de trapacear, garantindo que qualquer tentativa de trapaça resulte em uma perda imediata de fundos para a parte culpada.
 reviewed: false

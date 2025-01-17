@@ -1,0 +1,8 @@
+question: Chức năng của thuật toán tạo khóa trong một hệ thống mã hóa đối xứng là gì?
+answer: Nó tạo ra một khóa riêng
+wrong_answers:
+  - Nó tạo ra một khóa công khai
+  - Nó băm tin nhắn
+  - Nó mã hóa tin nhắn
+explanation: |
+  Trong một hệ thống mã hóa đối xứng, thuật toán tạo khóa sản xuất ra một khóa riêng, sau đó sẽ được sử dụng để mã hóa và giải mã tin nhắn.

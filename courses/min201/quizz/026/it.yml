@@ -1,9 +1,12 @@
 question: Qual è il ruolo dei nodi nella rete Bitcoin?
-answer: I nodi mantengono l'integrità verificando e convalidando transazioni e blocchi.
+answer: I nodi mantengono l'integrità verificando e validando transazioni e blocchi.
 wrong_answers:
-  - I nodi creano e convalidano blocchi.
+  - I nodi creano e validano blocchi.
   - I nodi verificano solo le transazioni.
   - I nodi non hanno alcun ruolo nella rete Bitcoin.
 explanation: |
-  Nella rete Bitcoin, i nodi mantengono l'integrità della rete verificando e convalidando transazioni e blocchi. Un blocco errato o fraudolento verrà respinto dai nodi, preservando la sicurezza della rete.
-reviewed: false
+  Nella rete Bitcoin, i nodi mantengono l'integrità della
+  rete verificando e validando transazioni e
+  blocchi. Un blocco incorretto o fraudolento verrà rifiutato
+  dai nodi, preservando la sicurezza della rete.
+reviewed: vero

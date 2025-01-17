@@ -1,0 +1,9 @@
+question: Các nhà nghiên cứu nào đã được Satoshi Nakamoto trích dẫn trong bài báo về Bitcoin vì công trình của họ về chứng thực dấu thời gian?
+answer: Stuart Haber và Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak, và Marshall Pease
+  - Cynthia Dwork và Moni Naor
+  - Ronald Rivest và Adi Shamir
+explanation: |
+  Ba bài báo của Haber và Stornetta từ những năm 90 đã được trích dẫn trong bài báo. Họ được biết đến với việc tạo ra [blockchain được đánh dấu thời gian đầu tiên](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), được công bố trên New York Times bắt đầu từ năm 1992.
+reviewed: false

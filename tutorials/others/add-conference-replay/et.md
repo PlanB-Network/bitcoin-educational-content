@@ -8,9 +8,9 @@ PlanB missiooniks on pakkuda tipptasemel haridusressursse Bitcoin'i kohta võima
 
 Kas soovite lisada oma Bitcoin'i konverentsi korduse PlanB võrgustiku saidile ja anda sellele üritusele nähtavust, kuid ei tea, kuidas? See õpetus on teile!
 
-Kui aga soovite lisada tulevikus toimuva konverentsi, soovitan teil [lugeda seda teist õpetust](https://planb.network/tutorials/others/add-event), milles selgitame, kuidas saidile uut üritust lisada.
+Kui aga soovite lisada tulevikus toimuva konverentsi, soovitan teil [lugeda seda teist õpetust](https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097), milles selgitame, kuidas saidile uut üritust lisada.
 ![konverents](assets/01.webp)
-- Esiteks peate omama kontot GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/create-github-account).
+- Esiteks peate omama kontot GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Minge [PlanB-le pühendatud GitHub'i andmerepositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) jaotisesse `resources/conference/`:
 ![konverents](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
@@ -60,7 +60,7 @@ tags:
 ```
 
 ![konverents](assets/09.webp)
-Kui teie organisatsioonil ei ole veel "*builder*" identifikaatorit, saate selle lisada [järgides seda teist õpetust](https://planb.network/tutorials/others/add-builder).
+Kui teie organisatsioonil ei ole veel "*builder*" identifikaatorit, saate selle lisada [järgides seda teist õpetust](https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
 - Kui olete selle faili muutmisega lõpetanud, salvestage muudatused, klõpsates nupul `Commit changes...`:
 ![konverents](assets/10.webp)
 - Lisage oma muudatustele pealkiri, samuti lühike description:

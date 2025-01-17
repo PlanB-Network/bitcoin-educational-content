@@ -1,0 +1,9 @@
+question: ¿Cuál era el primer nombre del ingeniero de telecomunicaciones de Temple City que fue identificado erróneamente por un periodista de Newsweek como Satoshi Nakamoto en marzo de 2014?
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+  Su nombre completo era Dorian Prentice Satoshi Nakamoto. Era de origen japonés. Ver [el artículo de Newsweek](https: //www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html).
+reviewed: false

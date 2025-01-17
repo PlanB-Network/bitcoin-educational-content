@@ -5,6 +5,5 @@ wrong_answers:
   - MacにはBitLocker、WindowsにはLUKS、Linuxには組み込みオプションがあります。
   - すべてのオペレーティングシステムにLUKSがあります。
 explanation: |
-  異なるオペレーティングシステムには、データ暗号化のための異なる解決策があります。
-  BitLockerはWindows用、LUKSはLinux用で、Macにはデータ暗号化のための組み込みオプションがあります。
-reviewed: false
+  異なるオペレーティングシステムには、データ暗号化のための異なる解決策があります。WindowsにはBitLockerが、LinuxにはLUKSが、そしてMacにはデータ暗号化のための組み込みオプションがあります。
+reviewed: true

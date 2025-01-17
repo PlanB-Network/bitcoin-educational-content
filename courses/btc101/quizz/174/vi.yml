@@ -1,8 +1,9 @@
-question: Yếu tố nào có thể gây ra sự biến động giá của Bitcoin?
-answer: Biến động thị trường và các giai đoạn thị trường tăng giá (bullish) và giảm giá (bearish).
+question: Chi phí thường gặp cho một người đào coin là gì?
+answer: Tiêu thụ điện năng và mua sắm phần cứng.
 wrong_answers:
-  - Số lượng người sử dụng internet.
-  - Thời tiết.
-  - Giá của vàng.
+  - Chỉ mua sắm phần cứng.
+  - Phí giao dịch.
+  - Tiêu thụ điện năng và phí giao dịch.
 explanation: >-
-  Giá của Bitcoin thường xuyên biến động đáng kể, có thể được ảnh hưởng bởi biến động thị trường và các giai đoạn thị trường tăng giá (bullish) và giảm giá (bearish).
+  Việc đào Bitcoin đòi hỏi sức mạnh tính toán đáng kể, điều này đồng nghĩa với việc tiêu thụ điện năng.
+  Ngoài ra, các thợ đào cần đầu tư vào phần cứng chuyên dụng để có thể đào hiệu quả.

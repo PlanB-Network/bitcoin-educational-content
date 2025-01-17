@@ -1,9 +1,12 @@
 question: Quel est le but des tentatives de phishing ?
-answer: Le but des tentatives de phishing est d'extraire des informations sensibles telles que vos identifiants et mots de passe.
+answer: Extraire des informations sensibles telles que vos identifiants et mots de passe.
 wrong_answers:
-  - Pour vous envoyer des courriels indésirables (spam).
-  - Pour vous vendre des produits ou services.
-  - Pour vous inviter à des événements ou des webinaires.
+  - Vous envoyer des emails indésirables.
+  - Vous vendre des produits ou services.
+  - Vous inviter à des événements ou webinaires.
 explanation: |
-  Les tentatives de phishing visent à extraire des informations sensibles telles que vos identifiants et mots de passe. Les pirates informatiques utilisent différentes tactiques, telles que des courriels frauduleux, pour vous tromper et vous inciter à divulguer vos informations.
-reviewed: false
+  Les tentatives de phishing visent à extraire des informations
+  sensibles telles que vos identifiants et mots de passe. Les pirates
+  utilisent diverses tactiques telles que des emails frauduleux pour vous
+  inciter à révéler vos informations.
+reviewed: true

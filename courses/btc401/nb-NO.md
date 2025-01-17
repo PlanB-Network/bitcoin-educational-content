@@ -2399,7 +2399,7 @@ Gruppen Satoshi's Fellowship presenterer en LN spillapp ved bruk av LnBits og Mo
 
 Lightning Walker-gruppen presenterer sin løsning for Remittance Service ved bruk av MySQL, JavaScript og ZDB's API.
 
-## Evaluer kurset
+## Vurderinger & Karakterer
 
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -2407,17 +2407,4 @@ Lightning Walker-gruppen presenterer sin løsning for Remittance Service ved bru
 ## Anerkjennelser
 
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-Vi ønsker å anerkjenne bidragene fra våre utdannere:
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- Asi0
-- Gabriel Comte
-
-Deres ekspertise har vært uvurderlig for suksessen til dette kurset. Dette har vært det første kurset basert på den 1. utgaven av Cubo+ initiativet, gjennomført i juli 2023. Takk til alle deltakere og utdannere for å være en del av denne banebrytende pedagogiske reisen. Det markerer begynnelsen på det vi håper vil være en lang og fruktbar reise inn i verdenen av Bitcoin-utvikling. Som den første kullet har deres deltakelse satt standarden for fremtidige klasser.
-
-Fortsett å utforske, lære og bidra til Bitcoin-økosystemet. Kunnskapen oppnådd her er bare et utgangspunkt. Fortsett å grave i kaninhullet, og du vil oppdage en stadig utvidende verden av muligheter.
+<isCourseConclusion>true</isCourseConclusion>

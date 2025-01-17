@@ -1,9 +1,13 @@
-question: Come garantisce il protocollo Bitcoin la sua impossibilità di censura e di fermata?
+question: Come garantisce il protocollo Bitcoin la sua resistenza alla censura e resilienza?
 answer: Ogni componente del protocollo è distribuito geograficamente in tutto il mondo.
 wrong_answers:
-  - Utilizza una rete decentralizzata di nodi
-  - Utilizza un algoritmo complesso per convalidare le transazioni
-  - Utilizza un alto livello di crittografia
+  - Utilizza una rete locale di nodi distribuiti in Europa.
+  - Utilizza un algoritmo complesso per validare le transazioni.
+  - Utilizza un elevato livello di crittografia.
 explanation: |
-  Il protocollo Bitcoin garantisce la sua impossibilità di censura e di fermata perché ogni componente del protocollo è distribuito geograficamente in tutto il mondo. Ad esempio, ci sono circa 40.000 nodi Bitcoin su tutti i continenti.
-reviewed: false
+  Il protocollo Bitcoin garantisce la sua resistenza alla censura e
+  resilienza perché ogni componente del protocollo è
+  distribuito geograficamente in tutto il mondo. Ad esempio,
+  ci sono circa 40.000 nodi Bitcoin in tutti i
+  continenti.
+reviewed: true

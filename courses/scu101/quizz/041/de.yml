@@ -1,9 +1,12 @@
-question: Was ist der Vorteil der Verwendung eines selbst gehosteten Passwort-Managers wie Bitwarden oder KeePass?
-answer: Sie haben die Kontrolle darüber, wo Ihre Passwörter gespeichert werden, was mehr Sicherheit und Kontrolle bietet.
+question: Was ist der Vorteil der Verwendung eines selbstgehosteten Passwort-Managers wie Bitwarden oder KeePass?
+answer: Sie können kontrollieren, wo Ihre Passwörter gespeichert werden, was mehr Sicherheit und Kontrolle bietet.
 wrong_answers:
-  - Sie sind einfacher zu bedienen als Dienste von Drittanbietern.
-  - Sie bieten mehr Funktionen als Dienste von Drittanbietern.
-  - Sie sind günstiger als Dienste von Drittanbietern.
+  - Sie sind einfacher und immer sicherer in der Nutzung als Dienste von Drittanbietern.
+  - Sie bieten in der Regel mehr Funktionen als Dienste von Drittanbietern, obwohl sie teurer sind.
+  - Sie sind billiger und schneller als Dienste von Drittanbietern.
 explanation: |
-  Selbst gehostete Passwort-Manager wie Bitwarden oder KeePass ermöglichen es Ihnen, die Speicherorte Ihrer Passwörter zu kontrollieren und bieten potenziell mehr Sicherheit und Kontrolle. Allerdings erfordern sie möglicherweise mehr technisches Wissen zur Verwendung.
-reviewed: false
+  Selbstgehostete Passwort-Manager wie Bitwarden oder KeePass
+  ermöglichen es Ihnen, zu kontrollieren, wo Ihre Passwörter gespeichert werden,
+  was potenziell mehr Sicherheit und Kontrolle bietet. Allerdings
+  könnte ihre Nutzung mehr technisches Wissen erfordern.
+reviewed: true

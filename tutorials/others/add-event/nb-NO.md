@@ -10,7 +10,7 @@ PlanBs oppdrag er å tilby førsteklasses utdanningsressurser om Bitcoin på så
 ![event](assets/01.webp)
 - Først må du ha en konto på GitHub. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) i `resources/conference/`-delen:
@@ -85,7 +85,7 @@ tags:
 ![event](assets/09.webp)
 Hvis du ennå ikke har en "*builder*" identifikator for din organisasjon, kan du legge den til ved å følge denne andre opplæringen.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Når du har fullført endringene i denne filen, lagre dem ved å klikke på `Commit changes...` knappen:
 ![event](assets/10.webp)

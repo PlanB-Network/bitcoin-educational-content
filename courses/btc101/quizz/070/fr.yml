@@ -1,9 +1,10 @@
 question: Quelle est la récompense en BTC après le quatrième halving ?
-answer: 3.125 BTC
+answer: 3.125 BTC.
 wrong_answers:
-  - 1.5625 BTC
-  - 6.25 BTC
-  - 12.5 BTC
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  Après le quatrième halving, qui se produit au bloc 840 000, la récompense en BTC pour le minage est de 3.125 BTC.
-reviewed: false
+  Après le quatrième halving, qui se produit à la hauteur de bloc
+  840,000, la récompense en BTC pour le minage est de 3.125 BTC.
+reviewed: true

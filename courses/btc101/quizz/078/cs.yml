@@ -1,9 +1,9 @@
-question: Která z těchto možností je nepravdivá, pokud ztratíte zařízení, na kterém máte svou Bitcoin peněženku?
-answer: Svoji peněženku můžete obnovit a utratit své bitcoiny resetováním hesla
+question: Která z těchto možností je nepravdivá o ztrátě zařízení, na kterém máte svou Bitcoin peněženku?
+answer: Můžete obnovit svou peněženku a utratit své bitcoiny resetováním svého hesla.
 wrong_answers:
-  - Pokud nemáte mnemonickou frázi, přijdete o všechny své Bitcoiny
-  - Můžete ověřit pomocí svých veřejných klíčů, že vaše bitcoiny ještě nebyly přesunuty
-  - Svoji peněženku můžete obnovit a utratit své bitcoiny s mnemonickou frází
+  - Ztratíte všechny své Bitcoiny, pokud nemáte mnemonickou frázi.
+  - Můžete ověřit pomocí svých veřejných klíčů, že vaše bitcoiny nebyly utraceny.
+  - Můžete obnovit svou peněženku a utratit své bitcoiny pomocí mnemonické fráze.
 explanation: |
-  Ztráta zařízení, na kterém máte svou peněženku, nutně neznamená ztrátu vašich Bitcoinů. To, co vám umožní obnovit vaši peněženku a utratit vaše bitcoiny, je mnemonická fráze.
+  Ztráta zařízení, na kterém máte svou peněženku, nutně neznamená ztrátu vašich Bitcoinů. To, co vám umožňuje obnovit vaši peněženku a utratit vaše bitcoiny, je mnemonická fráze.
 reviewed: true

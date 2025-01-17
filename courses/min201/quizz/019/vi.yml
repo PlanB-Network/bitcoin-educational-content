@@ -5,5 +5,5 @@ wrong_answers:
   - Lightning Network giảm lượng tiêu thụ năng lượng của việc đào Bitcoin.
   - Lightning Network tăng tốc độ đào Bitcoin.
 explanation: |
-  Lightning Network cho phép thực hiện giao dịch nhanh chóng và với chi phí thấp bên ngoài chuỗi chính của Bitcoin. Điều này có khả năng giảm đáng kể phí giao dịch, có thể ảnh hưởng đến thu nhập của các thợ đào.
-reviewed: false
+  Lightning Network cho phép thực hiện giao dịch nhanh chóng và với chi phí thấp ngoài chuỗi Bitcoin chính. Điều này có khả năng giảm đáng kể phí giao dịch, có thể ảnh hưởng đến thu nhập của các thợ đào.
+reviewed: true

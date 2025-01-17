@@ -1,0 +1,9 @@
+question: 压缩公钥和非压缩公钥之间有什么区别？
+answer: 压缩公钥仅使用x坐标和y的奇偶性
+wrong_answers:
+  - 压缩公钥更加安全
+  - 压缩公钥仅使用y坐标和x的奇偶性
+  - 压缩公钥需要更大的私钥
+explanation: |
+  压缩公钥只保留x坐标和一个表示y奇偶性的位，因此其大小减少到33字节。
+reviewed: false

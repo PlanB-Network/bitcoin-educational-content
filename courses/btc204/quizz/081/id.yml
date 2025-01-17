@@ -1,0 +1,11 @@
+question: Metode kriptografi apa yang digunakan untuk mencegah koordinator menghubungkan input dan output dalam coinjoin?
+
+answer: Tanda tangan buta Chaum.
+
+wrong_answers:
+  - Tanda tangan Schnorr.
+  - Alamat P2SH.
+  - Alamat P2TR.
+
+explanation: |
+  Dalam coinjoin Chaumian, penggunaan Tor dan tanda tangan buta David Chaum digabungkan untuk memastikan bahwa koordinator tidak dapat mengetahui output mana yang milik pengguna mana.

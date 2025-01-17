@@ -1,0 +1,9 @@
+question: ¿Por qué el conjunto de enteros con la adición es un grupo, mientras que no lo es con la multiplicación?
+answer: El conjunto no satisface la condición de inversión bajo la multiplicación
+wrong_answers:
+  - El conjunto no es cerrado bajo la multiplicación
+  - La multiplicación no es asociativa sobre los enteros
+  - No hay elemento neutro para la multiplicación
+explanation: |
+  El conjunto de enteros no satisface la condición de inversión bajo la multiplicación porque no hay un inverso para cada entero que al multiplicarse dé 1. Solo los elementos 1 y -1 cumplen esta condición.
+reviewed: false

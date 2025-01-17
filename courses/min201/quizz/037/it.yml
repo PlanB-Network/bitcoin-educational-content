@@ -1,9 +1,9 @@
 question: Qual è il potenziale svantaggio del mining a scopo di lucro?
-answer: Può portare alla centralizzazione del potere di hashing e avere un impatto ambientale significativo.
+answer: Può portare alla centralizzazione del potere di hashing e potrebbe anche avere un significativo impatto ambientale.
 wrong_answers:
-  - Può portare a una diminuzione del prezzo di Bitcoin
-  - Può portare a una diminuzione del tasso di hash della rete
+  - Può portare a una diminuzione del prezzo del Bitcoin
+  - Può portare a una diminuzione del hashrate della rete
   - Può portare a una diminuzione del numero di nodi attivi nella rete
 explanation: |
-  Il mining a scopo di lucro può portare alla centralizzazione del potere di hashing se solo alcune grandi aziende possono permettersi di investire in attrezzature di mining di alta qualità. Inoltre, il consumo energetico del mining a scopo di lucro può avere un impatto ambientale significativo.
-reviewed: false
+  Il mining a scopo di lucro può portare alla centralizzazione del potere di hashing se solo poche grandi aziende possono permettersi di investire in attrezzature di mining di alta gamma. Inoltre, il consumo energetico del mining a scopo di lucro potrebbe avere un significativo impatto ambientale a seconda della fonte energetica.
+reviewed: true

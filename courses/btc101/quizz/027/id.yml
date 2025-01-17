@@ -1,0 +1,11 @@
+question: Mengapa Bitcoin belum banyak diterima dalam perdagangan saat ini?
+answer: Karena belum banyak diadopsi oleh individu
+wrong_answers:
+  - Karena tidak dapat dipindahkan
+  - Karena tidak dapat dibagi
+  - Karena tidak likuid
+explanation: |
+  Meskipun memiliki sifat-sifat seperti pasokan yang sangat terbatas, Bitcoin
+  masih belum banyak diterima dalam perdagangan saat ini. Hal ini disebabkan oleh kurangnya
+  adopsi oleh individu, menciptakan situasi yang memakan diri sendiri karena pedagang juga merupakan individu.
+reviewed: true

@@ -10,11 +10,11 @@ Hari ini, banyak solusi tersedia bagi pedagang yang ingin menerima Bitcoin sebag
 
 Bagi mereka yang lebih memilih untuk tidak repot dan menerima dana dalam mata uang fiat langsung ke rekening bank mereka, solusi kustodian seperti Open Node tersedia:
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Untuk pedagang yang siap 'mengotori tangan' dan ingin mengontrol proses sepenuhnya, perangkat lunak BTCPay Server adalah pilihan yang sangat baik. Namun, kelemahan utama dari BTCPay Server adalah bahwa pengaturan dan pengelolaannya membutuhkan waktu dan memerlukan beberapa keahlian teknis:
 
-https://planb.network/tutorials/merchant/btcpay-server
+https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Dari semua solusi ini, Swiss Bitcoin Pay tampaknya menjadi kompromi yang sangat menarik yang menggabungkan kemudahan penggunaan, fitur, dan keamanan. Solusi ini cocok untuk bisnis yang sangat kecil maupun struktur yang lebih besar. Dalam tutorial ini, Anda akan menemukan cara mudah menggunakan Swiss Bitcoin Pay untuk menerima Bitcoin dalam bisnis Anda.
 

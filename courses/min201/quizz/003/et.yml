@@ -1,0 +1,9 @@
+question: Mis on peamine rahaline stiimul kaevuritele osalemaks Bitcoin'i kaevandamise protsessis?
+answer: Kaevandamise preemia
+wrong_answers:
+  - Võime kontrollida Bitcoin'i võrku
+  - Võime luua uusi bitcoine omal soovil
+  - Võime manipuleerida Bitcoin'i hinnaga
+explanation: |
+  Peamine rahaline stiimul kaevuritele osalemaks Bitcoin'i kaevandamise protsessis on kaevandamise preemia. See preemia toimib võimsa stiimulina, julgustades kaevureid osalema kaevandamise protsessis hoolimata selle energiakulust.
+reviewed: true

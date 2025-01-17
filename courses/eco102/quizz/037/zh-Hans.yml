@@ -1,0 +1,8 @@
+question: 根据罗马人的说法，拉丁语中财产的定义是什么？
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  在罗马法中，“jus utendi et abutendi”定义了财产为使用和滥用的权利，强调了使用权而没有深入探讨其原因。

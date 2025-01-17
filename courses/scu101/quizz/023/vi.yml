@@ -1,13 +1,10 @@
-question: Tại sao việc sử dụng một mật khẩu mạnh lại quan trọng đối với bảo mật máy tính?
-
+question: Tại sao việc sử dụng mật khẩu mạnh lại quan trọng đối với bảo mật máy tính?
 answer: Để ngăn chặn việc truy cập trái phép vào hệ thống.
-
 wrong_answers:
   - Để làm cho hệ thống chạy nhanh hơn.
   - Để tăng dung lượng lưu trữ.
   - Để cải thiện giao diện người dùng.
-
 explanation: |
-  Một mật khẩu mạnh là rất quan trọng đối với bảo mật máy tính để ngăn chặn việc truy cập trái phép vào hệ thống.
-
-reviewed: false
+  Một mật khẩu mạnh là rất quan trọng cho bảo mật máy tính để
+  ngăn chặn việc truy cập trái phép vào hệ thống.
+reviewed: true

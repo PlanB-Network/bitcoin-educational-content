@@ -1,9 +1,0 @@
-question: Welche Rolle spielt eine Loop im Lightning Network?
-answer: Eine Loop ist ein spezieller Knotenpunkt, der einen Dienst zur Neugewichtung von LN/BTC anbietet.
-wrong_answers:
-  - Eine Loop ist ein Knotenpunkt, der Käufer und Händler verbindet.
-  - Eine Loop ist ein Knotenpunkt, der beim Öffnen von Kanälen hilft.
-  - Eine Loop ist ein Knotenpunkt, der alle Transaktionen speichert.
-explanation: |
-  Im Lightning Network ist eine Loop ein spezieller Knotenpunkt, der einen professionellen Dienst zur Neugewichtung von LN/BTC anbietet. Dies geschieht, indem Liquidität an die Loop über einen anderen Knotenpunkt gesendet wird, der dann das On-Chain-Gleichgewicht an den ursprünglichen Knotenpunkt zurücksendet.
-reviewed: false

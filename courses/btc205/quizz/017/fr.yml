@@ -1,9 +1,0 @@
-question: Quelle est une caractéristique unique de la solution P2P HodlHodl ?
-answer: Elle propose un système de parrainage.
-wrong_answers:
-  - Elle fonctionne sous TOR.
-  - Elle utilise le multisign pour la gestion des litiges.
-  - Elle nécessite la création d'un compte pour fonctionner.
-explanation: |
-  Le chapitre mentionne que HodlHodl propose un système de parrainage, ce qui est une caractéristique unique parmi les solutions P2P discutées.
-reviewed: false

@@ -1,9 +1,12 @@
 question: Qual è la strategia utilizzata dalle entità centrali per svalutare una valuta fiat?
-answer: Aumentano la massa monetaria iniziale di qualche percento ogni anno.
+answer: Aumentano la massa monetaria di qualche percento ogni anno.
 wrong_answers:
-  - Diminuiscono la massa monetaria iniziale di qualche percento ogni anno.
-  - Mantengono costante la massa monetaria rispetto alla massa iniziale.
-  - Fluttuano casualmente la massa monetaria rispetto alla massa iniziale.
+  - Diminuiscono la massa monetaria di qualche percento ogni anno.
+  - Mantengono costante la sua massa monetaria rispetto alla massa iniziale.
+  - Fanno fluttuare casualmente la sua massa monetaria in confronto alla massa iniziale.
 explanation: |
-  Le entità centrali spesso svalutano una nuova valuta aumentando la sua massa monetaria rispetto a quella iniziale di qualche percento ogni anno. Questa svalutazione silenziosa è spesso giustificata come nell'interesse delle persone.
-reviewed: false
+  Le entità centrali spesso svalutano una valuta aumentando la sua
+  massa monetaria rispetto a quella iniziale di qualche percento
+  ogni anno. Questa svalutazione silenziosa è spesso giustificata come
+  essendo nell'interesse del popolo.
+reviewed: true

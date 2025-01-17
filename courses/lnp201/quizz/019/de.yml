@@ -1,9 +1,9 @@
-question: Wie finanziert Alice den Kanal, den sie mit Bob eröffnet?
-answer: Sie erstellt eine Transaktion mit 2 UTXOs als Ausgabe.
+question: Was garantiert das Commitment-Transaktionssystem den Teilnehmern eines Lightning-Kanals?
+answer: Dass jeder seine Gelder durch Veröffentlichung der zuletzt signierten Transaktion wiederherstellen kann.
 wrong_answers:
-  - Sie sendet das Geld direkt an Bobs öffentliche Adresse.
-  - Sie erstellt eine Transaktion mit 1 UTXO als Ausgabe.
-  - Sie bittet Bob, den Kanal zu finanzieren.
+  - Dass Transaktionen auf der Bitcoin-Blockchain sichtbar sind
+  - Dass die Kapazität des Kanals mit jeder Transaktion zunimmt
+  - Dass die Gebühren zwischen den beiden Teilnehmern geteilt werden
 explanation: |
-  Um den Kanal zu finanzieren, den sie mit Bob eröffnet, erstellt Alice eine Transaktion mit 2 UTXOs als Ausgabe; eine an die 2/2 Multi-Sig-Adresse und eine an eine ihrer Wechseladressen.
+  Die signierten Commitment-Transaktionen stellen sicher, dass jeder Teilnehmer seine Gelder durch Veröffentlichung der neuesten Version wiederherstellen kann, falls der Kanal geschlossen wird.
 reviewed: false

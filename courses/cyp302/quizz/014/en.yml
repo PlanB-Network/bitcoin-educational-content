@@ -1,0 +1,9 @@
+question: What attitude should users adopt regarding the privacy of their communications in the modern environment?
+answer: Assume that someone is always listening
+wrong_answers:
+  - Rely solely on Wi-Fi
+  - Believe that mobile data is completely secure
+  - Use only wired connections
+explanation: |
+  In a world where many communication channels are susceptible to interception, it is wise to assume that a third party might be listening, making cryptography essential.
+reviewed: false

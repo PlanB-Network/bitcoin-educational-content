@@ -1,0 +1,10 @@
+question: Hva står DCA for i sammenheng med Bitcoin?
+answer: Dollar-Cost Averaging
+wrong_answers:
+  - Digital Valutaforening
+  - Direkte Kontanttilgang
+  - Desentralisert Kryptovaluta
+explanation: |
+  I sammenheng med Bitcoin står DCA for Dollar-Cost Averaging. Dette
+  er en strategi hvor en investor deler opp det totale beløpet som skal investeres over
+  periodiske kjøp for å redusere innvirkningen av volatilitet på det samlede kjøpet.

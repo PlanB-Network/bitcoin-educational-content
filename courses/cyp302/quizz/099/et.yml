@@ -1,0 +1,9 @@
+question: Mis on sõnumi autentimiskoodi (MAC) peamine funktsioon?
+answer: Tagada sõnumi autentsus ja terviklikkus
+wrong_answers:
+  - Sõnumite krüpteerimine konfidentsiaalsuse tagamiseks
+  - Sõnumite pealtkuulamise vältimine
+  - Iga suhtluse jaoks privaatvõtmete genereerimine
+explanation: |
+  MAC on krüptograafiline skeem, mis võimaldab kontrollida, et sõnum tõepoolest pärineb legitiimselt saatjalt ja seda ei ole muudetud, tagades seeläbi sõnumi autentsuse ja terviklikkuse.
+reviewed: false

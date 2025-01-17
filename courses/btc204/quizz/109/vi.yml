@@ -1,0 +1,13 @@
+question: Tại sao việc sử dụng payjoin cho một khoản thanh toán thường xuyên phức tạp?
+
+answer: Nó đòi hỏi sự hợp tác tích cực của người nhận trong quá trình xây dựng
+
+wrong_answers:
+  - Nó đòi hỏi các khoản thanh toán cố định cho mỗi giao dịch
+  - Nó buộc cả hai bên phải sử dụng cùng một loại phần mềm
+  - Nó đòi hỏi người thanh toán phải có ít nhất 2 UTXOs lớn hơn giá trị của khoản thanh toán
+
+explanation: |
+  Khó khăn trong việc sử dụng payjoin nằm ở việc phụ thuộc vào sự tham gia của người bán. Là một khách hàng, việc sử dụng payjoin là không thể nếu người bán không hỗ trợ nó.
+
+reviewed: false

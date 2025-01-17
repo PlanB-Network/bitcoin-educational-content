@@ -1,9 +1,9 @@
-question: Was ist der Vorteil der Verwendung von HASH160 im Bitcoin-Protokoll?
-answer: Es ermöglicht die Sicherheit von SHA-256 und reduziert gleichzeitig die Größe des Fingerabdrucks.
+question: Welche Eigenschaft stellt sicher, dass es rechnerisch unmöglich ist, die Eingabe eines Hashs zu ermitteln?
+answer: Preimage-Resistenz
 wrong_answers:
-  - Es erhöht die Größe des Fingerabdrucks für zusätzliche Sicherheit.
-  - Es ist widerstandsfähiger gegen Kollisionen als SHA-256.
-  - Es ist schneller zu berechnen als SHA-256.
+  - Kollisionsresistenz
+  - Lawineneffekt
+  - Second-Preimage-Resistenz
 explanation: |
-  HASH160 im Bitcoin-Protokoll ist vorteilhaft, da es die Sicherheit von SHA-256 beibehält und gleichzeitig die Größe des Fingerabdrucks reduziert. Dadurch wird es effizienter, ohne die Sicherheit zu beeinträchtigen.
+  Die Preimage-Resistenz stellt sicher, dass es praktisch unmöglich ist, die ursprüngliche Nachricht aus ihrem Hash zu finden.
 reviewed: false

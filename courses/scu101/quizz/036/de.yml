@@ -1,9 +1,17 @@
 question: Was ist der Zweck der Website Have I Been Pwned?
-answer: Um zu überprüfen, ob Ihre E-Mail-Adresse kompromittiert wurde und um über zukünftige Datenlecks benachrichtigt zu werden.
+answer: Zu überprüfen, ob Ihre E-Mail-Adresse kompromittiert wurde und um über zukünftige Datenpannen benachrichtigt zu werden.
 wrong_answers:
-  - Um zu überprüfen, ob Ihre E-Mail-Adresse gültig ist.
-  - Um zu überprüfen, ob Ihre E-Mail-Adresse verfügbar ist.
-  - Um zu überprüfen, ob Ihre E-Mail-Adresse blockiert wurde.
+  - Zu überprüfen, ob Ihre E-Mail-Adresse gültig ist und um über zukünftige Datenpannen benachrichtigt zu werden.
+  - Zu überprüfen, ob Ihre E-Mail-Adresse verfügbar ist und falls ja, diese zur Registrierung in einem bekannten Online-Pfandhaus zu verwenden.
+  - Zu überprüfen, ob Ihre E-Mail-Adresse aufgrund eines Datenkompromisses blockiert wurde.
 explanation: |
-  Die Website Have I Been Pwned ermöglicht es Ihnen, zu überprüfen, ob Ihre E-Mail-Adresse in einem Datenleck kompromittiert wurde und um über zukünftige Datenlecks benachrichtigt zu werden.
-reviewed: false
+  Die Website Have I Been Pwned ermöglicht es Ihnen zu überprüfen, ob
+  Ihre E-Mail-Adresse in einem Datenleck kompromittiert wurde und um
+  über zukünftige Datenpannen benachrichtigt zu werden.' wurde in einem
+  Datenleck kompromittiert und um über zukünftige Datenpannen
+  benachrichtigt zu werden.' wurde in einem Datenleck kompromittiert und um
+  über zukünftige Datenpannen benachrichtigt zu werden.' wurde in einem
+  Datenleck kompromittiert und um über zukünftige Datenpannen benachrichtigt zu werden.'
+
+  wurde in einem Datenleck kompromittiert und um über zukünftige Datenpannen benachrichtigt zu werden.'
+reviewed: true

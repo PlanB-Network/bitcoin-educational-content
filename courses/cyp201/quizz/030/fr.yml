@@ -1,11 +1,9 @@
-question: Quelle est l'équation qui définit une courbe elliptique ?
-answer: "y\xB2 = x\xB3 + ax + b"
+question: À quoi sert SIGHASH_SINGLE ?
+answer: Couvrir un input et son output correspondant
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
+  - Couvrir tous les inputs et outputs
+  - Couvrir uniquement les inputs
+  - Couvrir tous les outputs sauf un
 explanation: |
-  "Une courbe elliptique est définie par l'équation y\xB2 = x\xB3 + ax + b.\
-  \ Chaque point sur cette courbe possède une symétrie distinctive qui est essentielle à sa pertinence\
-  \ en cryptographie."
+  SIGHASH_SINGLE couvre un seul input et un seul output correspondant à l'index de l'input signé, laissant le reste modifiable.
 reviewed: false

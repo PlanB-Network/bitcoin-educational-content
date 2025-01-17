@@ -1,9 +1,9 @@
-question: Welche Blockgröße wird bei HMAC-SHA-512 verwendet?
-answer: 1024-Bit (128-Byte) Blöcke
+question: Was ist der Unterschied zwischen einem komprimierten und einem unkomprimierten öffentlichen Schlüssel?
+answer: Der komprimierte öffentliche Schlüssel verwendet nur die x-Koordinate und die Parität von y.
 wrong_answers:
-  - 512-Bit (64-Byte) Blöcke
-  - 256-Bit (32-Byte) Blöcke
-  - 2048-Bit (256-Byte) Blöcke
+  - Der komprimierte öffentliche Schlüssel ist sicherer
+  - Der komprimierte öffentliche Schlüssel verwendet nur die y-Koordinate und die Parität von x
+  - Der komprimierte öffentliche Schlüssel erfordert einen größeren privaten Schlüssel
 explanation: |
-  Im Zusammenhang mit der Ableitung von HD-Wallets wird HMAC-SHA-512 verwendet. Letzteres arbeitet mit 1024-Bit (128-Byte) Blöcken und passt den Schlüssel entsprechend an.
+  Ein komprimierter öffentlicher Schlüssel behält nur die x-Koordinate und ein Bit für die Parität von y bei, wodurch seine Größe auf 33 Bytes reduziert wird.
 reviewed: false

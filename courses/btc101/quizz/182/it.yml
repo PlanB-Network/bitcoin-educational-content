@@ -1,9 +1,10 @@
-question: Qual è una delle ragioni per cui l'uso di Bitcoin si è esteso ai mercati del web oscuro come Silk Road?
+question: Quali delle seguenti caratteristiche hanno contribuito all'espansione dell'uso di Bitcoin nei marketplace del dark web come Silk Road?
 answer: La sua natura incontrollabile e pseudonima.
 wrong_answers:
   - Il suo controllo centralizzato.
-  - La sua tracciabilità.
-  - La sua mancanza di pseudonimia.
-explanation: |
-  L'uso di Bitcoin si è esteso ai mercati del web oscuro come Silk Road a causa della sua natura incontrollabile e pseudonima.
-reviewed: false
+  - La sua tracciabilità e natura controllabile.
+  - La sua mancanza di pseudonimato.
+explanation: >-
+  L'uso di Bitcoin si è espanso nei marketplace del dark web come Silk Road
+  grazie alla sua natura incontrollabile e pseudonima.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Mikä on "KYC"?
+question: Mikä on KYC?
 answer: Menettely asiakkaiden henkilöllisyyden vahvistamiseksi ja rekisteröimiseksi.
 wrong_answers:
   - Salausjärjestelmä taloudellisten transaktioiden turvaamiseksi.
   - Vahvistusmenetelmä taloudellisille transaktioille.
   - Markkinointitekniikka asiakaskäyttäytymisen analysoimiseksi.
 explanation: |
-  KYC tarkoittaa "Know Your Customer", tunne asiakkaasi. Se on todellakin sääntelymenettely asiakkaan henkilöllisyyden vahvistamiseksi.
+  KYC tarkoittaa Know Your Customer, tunne asiakkaasi. Se on todellakin sääntelymenettely asiakkaan henkilöllisyyden vahvistamiseksi.
 reviewed: false

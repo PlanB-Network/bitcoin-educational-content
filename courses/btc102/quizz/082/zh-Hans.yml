@@ -1,0 +1,9 @@
+question: 比特币堆积者的投资决策主要关注什么？
+answer: 尽可能多地积累satoshi
+wrong_answers:
+  - 短期价格波动
+  - 用比特币出售商品或服务
+  - 一次性购买大量比特币
+explanation: |
+  比特币堆积者的投资决策主要关注的是尽可能多地积累satoshi。这通过设立一个定投（Dollar-Cost Averaging, DCA）计划和寻找其他积累satoshi的解决方案来实现。
+reviewed: false

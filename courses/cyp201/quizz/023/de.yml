@@ -1,9 +1,9 @@
-question: Wofür steht HMAC?
-answer: Hash-basierter Message Authentication Code
+question: Was ist der gemeinsame Punkt, der von allen Teilnehmern verwendet wird, um einen öffentlichen Schlüssel in Bitcoin zu berechnen?
+answer: Der Generatorpunkt G
 wrong_answers:
-  - Hierarchischer Master-Authentifizierungscode
-  - Gehashter Master-Authentifizierungscode
-  - Hierarchischer Message Authentication Code
+  - Der SHA256-Hash
+  - Eine mnemonische Phrase
+  - Der komprimierte öffentliche Schlüssel
 explanation: |
-  HMAC steht für Hash-basierter Message Authentication Code. Es handelt sich um einen Typ von Message Authentication Code (MAC), der eine kryptografische Hash-Funktion und einen geheimen kryptografischen Schlüssel verwendet.
+  Der Generatorpunkt G der elliptischen Kurve secp256k1 wird verwendet, um öffentliche Schlüssel aus privaten Schlüsseln zu berechnen.
 reviewed: false

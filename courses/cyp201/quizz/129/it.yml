@@ -1,9 +1,0 @@
-question: Cos'è l'HRP (Human Readable Part) in un indirizzo Bitcoin?
-answer: È parte delle informazioni di input richieste dal programma BCH.
-wrong_answers:
-  - È l'hash della chiave pubblica.
-  - È il checksum dell'indirizzo.
-  - È la chiave privata associata all'indirizzo.
-explanation: |
-  Il programma BCH richiede diverse informazioni di input, tra cui l'HRP (Human Readable Part) che deve essere espanso. Questo fa parte del processo di costruzione di un indirizzo Bitcoin.
-reviewed: false

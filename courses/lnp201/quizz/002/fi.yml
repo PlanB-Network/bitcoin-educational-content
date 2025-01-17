@@ -1,9 +1,9 @@
-question: Mikä muuttaa kapasiteetin jakautumista Lightning-maksukanavassa?
-answer: Kanavan sisäiset transaktiot
+question: Jos Alice lähettää 40 000 satoshia Bobille maksukanavasta, jossa hänellä alun perin on 100 000 satoshia, kuinka paljon varoja hänellä on jäljellä transaktion jälkeen?
+answer: 60 000 satoshia
 wrong_answers:
-  - Muutokset Bitcoinin vaihtokurssissa
-  - Muutokset kanavan kokonaiskapasiteetissa
-  - Muutokset Bitcoin-verkossa
+  - 30 000 satoshia
+  - 40 000 satoshia
+  - 140 000 satoshia
 explanation: |
-  Kanavan sisäiset transaktiot eivät muuta kanavan kokonaiskapasiteettia, mutta ne muuttavat tuon kapasiteetin jakautumista käyttäjien välillä.
+  Lähetettyään 40 000 satoshia, Alicen saldo kanavassa on 60 000 satoshia.
 reviewed: false

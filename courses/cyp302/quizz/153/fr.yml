@@ -1,0 +1,9 @@
+question: Quel problème de sécurité survient si un même message est chiffré plusieurs fois dans le cryptosystème RSA simplifié ?
+answer: Le message produira toujours le même chiffrement
+wrong_answers:
+  - Le message sera vulnérable aux attaques par force brute
+  - Le message sera inversé
+  - Le message deviendra impossible à déchiffrer
+explanation: |
+  Dans un RSA simplifié, un message chiffré plusieurs fois produira toujours le même résultat, ce qui rend le chiffrement vulnérable à des attaques.
+reviewed: false

@@ -1,10 +1,8 @@
-question: La capacità di un canale di pagamento Lightning è fissa?
-answer: Sì
+question: Perché gli UTXO vengono spesso paragonati a banconote?
+answer: Devono essere spesi nella loro interezza
 wrong_answers:
-  - "No"
-  - Solo in alcuni casi
-  - Dipende dalla rete Bitcoin
+  - Possono essere utilizzati più volte fino all'esaurimento
+  - Sono utilizzabili solo in certe transazioni specifiche
+  - Rappresentano piccole quantità fisse di bitcoin
 explanation: |
-  Quando viene aperto un canale, viene assegnata una capacità fissa, che è definita
-  in anticipo dagli utenti.
-reviewed: false
+  Come una banconota, un UTXO deve essere speso interamente in una transazione, e qualsiasi eccesso viene restituito al mittente come resto.

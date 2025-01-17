@@ -1,0 +1,9 @@
+question: ¿Cuál es la condición para que un entero a tenga un inverso módulo N?
+answer: a y N deben ser coprimos
+wrong_answers:
+  - N debe ser par
+  - a debe ser impar
+  - a debe ser un número primo
+explanation: |
+  Un entero a tiene un inverso módulo N si y solo si son coprimos, lo que significa que su máximo común divisor es 1.
+reviewed: false

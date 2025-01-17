@@ -23,9 +23,10 @@ For an investment of 1 kW of electrical energy, an electric radiator produces 1 
 A computer, or more broadly an electronic board, does not consume energy to perform calculations; it simply needs energy to flow through its components to function. Energy consumption is due to the electrical resistance of the components, which produces losses and thus generates heat, which is known as the Joule effect.
 Some companies have come up with the idea of ​​pooling the need for computing power and heating needs through radiator/servers. The idea is to distribute a company's servers into small units that could be placed in homes or offices. However, this idea encounters several problems. The need for servers is not related to the need for heating, and companies cannot use the computing capacity of their servers flexibly. There are also limits to the bandwidth that individuals can possess. All these constraints prevent the company from making these expensive installations profitable or providing a stable online server offering without data centers capable of taking over when heating is not needed.
 
-> "The heat from your computer is not wasted if you need to heat your home. If you use electric heating where you live, then the heat from your computer is not wasted. It costs the same if you generate this heat with your computer. If you have a cheaper heating system than electric, then the waste is only in the cost difference. If it's summer and you use air conditioning, then it's double.
-> Bitcoin mining should take place where it is cheaper. Maybe it will be where the climate is cold and where heating is electric, where mining would become free."
-> Satoshi Nakamoto - August 8, 2010
+> The heat from your computer is not wasted if you need to heat your home. If you use electric heating where you live, then the heat from your computer is not wasted. It costs the same if you generate this heat with your computer. If you have a cheaper heating system than electric, then the waste is only in the cost difference. If it's summer and you use air conditioning, then it's double.
+> Bitcoin mining should take place where it is cheaper. Maybe it will be where the climate is cold and where heating is electric, where mining would become free.
+
+_As Satoshi Nakamoto said on August 8, 2010._
 
 Bitcoin and its proof of work stand out because they automatically adjust the mining difficulty based on the amount of computing done by the entire network, this amount is called the hashrate and is expressed in hashes per second. Today it is estimated at 280 Exahashes per second, or 280 billion billion hashes per second. This hashrate represents work and therefore an amount of energy expended. The higher the hashrate, the higher the difficulty increases, and vice versa. Thus, a Bitcoin miner can be activated or deactivated at any time without any impact on the network, unlike radiator/servers that would need to remain stable to offer their service. The miner is rewarded for the work done relative to the work of others, no matter how small this participation may be.
 
@@ -39,7 +40,9 @@ We will not go into the details of mining operation here (resources available on
 
 Honest actors, those who mine according to the rules, are all competing with each other to obtain the largest possible share of the reward for producing new blocks. This economic incentive naturally leads to a form of centralization as companies choose to specialize in this lucrative activity by reducing their costs through economies of scale. These industrial actors have an advantageous position for purchasing and maintaining machines, as well as negotiating bulk electricity rates.
 
-> "At first, most users would run network nodes, but as the network grew beyond a certain point, it would be left more and more to specialists with server farms of specialized hardware. A server farm would only need to run one node on the network and the rest of the LAN connects with that one node." - Satoshi Nakamoto - November 2, 2008
+> At first, most users would run network nodes, but as the network grew beyond a certain point, it would be left more and more to specialists with server farms of specialized hardware. A server farm would only need to run one node on the network and the rest of the LAN connects with that one node.
+
+_As Satoshi Nakamoto stated on November 2, 2008_
 
 Certain entities hold a considerable percentage of the total hashrate in large mining farms. We can observe the recent cold wave in the United States where a significant portion of the hashrate was taken offline to redirect energy to households with an exceptional need for electricity. For several days, miners were economically incentivized to turn off their farms, and thus we can see this exceptional weather on the Bitcoin hashrate curve.
 
@@ -102,7 +105,9 @@ Once connected, you should be able to see the status of each hashboard on the da
 
 You can then remove the previous owner's mining pool to set up your own later. If desired, you can also inspect the hashboards by disassembling the machine. However, this step is more complex and requires more time and certain tools. If you want to proceed with this disassembly, you can refer to the next part of this tutorial that details how to do it. It is important to note that miners collect a lot of dust and require regular maintenance. You can observe this dust accumulation and the quality of maintenance by disassembling the machine.
 After reviewing all these points, you can purchase your machine with a high degree of confidence. If in doubt, reach out to the community, and if you need equipment to complete this tutorial, feel free to send us a message.
-To summarize this guide in one sentence: **"Don't trust, verify."**
+To summarize this guide in one sentence:
+
+> Don't trust, verify.
 
 ## Chapter 2: Buying Guide for Modification Parts
 
@@ -137,23 +142,21 @@ Instead of using an Ethernet cable, you can connect your Antminer to WIFI by add
 If you want to turn on/off your Antminer from your smartphone and monitor its power consumption, you can add a smart plug. We tested the ANTELA plug in the 16A version, compatible with the smartlife application. This smart plug allows you to check the daily and monthly power consumption and connects directly to your Internet box via WIFI.
 ![image](assets/piece/8.webp)
 
-> List of equipment and links
->
-> - 2X 3D adapter piece 140mm to 120mm
-> - 2X NF-A14 iPPC-2000 PWM [link](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&crid=JCNLC31F3ECM&keywords=NF-A14+iPPC-2000+PWM&qid=1676819936&sprefix=nf-a14+ippc-2000+pwm%2Caps%2C114&sr=8-2)
-> - 2X 140mm fan grilles [link](https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)
-> - Noctua NF-A6x25 PWM [link](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4/ref=sr_1_1_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=3T313ABZA5EDE&keywords=Noctua+NF-A6x25+PWM&qid=1676819329&sprefix=noctua+nf-a6x25+pwm%2Caps%2C71&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A38F5RZ72I2JQ)
-> - Electrician's sugar 2.5mm2 [link](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
-> - Vonets vap11g-300 https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1> - Optional ANTELA smart plug https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1
+**List of equipment and links:**
+
+- 2X 3D adapter piece 140mm to 120mm
+- 2X NF-A14 iPPC-2000 PWM [link](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
+- 2X 140mm fan grilles [link](https://www.amazon.fr/dp/B06XD4FTSQ)
+- Noctua NF-A6x25 PWM [link](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
+- Electrician's sugar 2.5mm2 [link](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
+- Vonets vap11g-300 [link](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
 
 ## Chapter 3 - TUTORIAL: How to Turn a Miner into a Heater?
-
-![image](assets/hardware/0.webp)
 
 If you are a skilled DIYer and looking to turn a miner into a heater, this tutorial is for you. We want to warn you that modifying an electronic device can pose electrical and fire risks. It is essential to take all necessary precautions to avoid any damage or injury.
 Out of the factory, a miner is not really usable as a radiator in a home because it is too noisy and not adjustable. However, it is possible to make simple modifications to solve these problems.
 
-> WARNING: It is essential to have previously installed Braiins OS+ on your miner or any other software that can reduce the performance of your machine. This measure is crucial because, in order to reduce noise, we will install less powerful fans that can dissipate less heat.
+**Note:** It is essential to have previously installed Braiins OS+ on your miner or any other software that can reduce the performance of your machine. This measure is crucial because, in order to reduce noise, we will install **less powerful fans that can dissipate less heat**.
 
 ### Required Materials
 
@@ -161,7 +164,7 @@ Out of the factory, a miner is not really usable as a radiator in a home because
 - 2 Noctua NF-A14 iPPC-2000 PWM fans
 - 2 140mm fan grilles
 - 1 Noctua NF-A6x25 PWM fan
-- 2.5mm2 electrician's sugar
+- 2.5mm² electrician's sugar
 - Vonets VAP11G-300
 - Optional: ANTELA smart plug
 
@@ -169,7 +172,7 @@ Out of the factory, a miner is not really usable as a radiator in a home because
 
 We will start by replacing the power supply fan.
 
-> WARNING: First and foremost, before starting, make sure you have unplugged your miner to avoid any risk of electrocution.
+**Note**: First and foremost, before starting, make sure you have unplugged your miner to avoid any risk of electrocution.
 
 ![image](assets/hardware/1.webp)
 
@@ -214,9 +217,10 @@ Then, connect the cables with a wire nut, the black wire with the black and the 
 ![image](assets/hardware/14.webp)
 
 Once the connection is made, it is time to install the new Noctua fan with the grille and the old screws, the new screws that are in the box will be reused later. Make sure to place it with the correct orientation. You will notice an arrow on one side of the fan, indicating the direction of the airflow. It is important to place the fan so that this arrow points towards the inside of the case. Then, reconnect the fan.
-![image](assets/hardware/15.webp)![image](assets/hardware/16.webp)
+![image](assets/hardware/15.webp)
+![image](assets/hardware/16.webp)
 
-> Optional: If you are skilled in electricity, you can directly add a female 5.5mm jack connector to the 12V power output, which will allow you to directly power the Vonet Wi-Fi bridge. However, if you are unsure of your electrical skills, it is best to use the USB connector with a smartphone charger to avoid any risk of short circuit or electrical damage.
+**Optional:** If you are skilled in electricity, you can directly add a female 5.5mm jack connector to the 12V power output, which will allow you to directly power the Vonet Wi-Fi bridge. However, if you are unsure of your electrical skills, it is best to use the USB connector with a smartphone charger to avoid any risk of short circuit or electrical damage.
 
 ![image](assets/hardware/17.webp)
 
@@ -251,7 +255,7 @@ Finally, put the casing cover back in place and screw the 6 screws on the sides 
 5. Last step: plug in the fans and attach the grilles on top with the unused screws from the fan box. You only have 4, but 2 per grille in opposite corners will be enough. You can also look for other similar screws in a hardware store if needed.
 
 ![image](assets/hardware/26.webp)
-'![image](assets/hardware/27.webp)
+![image](assets/hardware/27.webp)
 
 While waiting to be able to offer a sexier casing for your new heater, you can attach the case and the power supply together with electrician's cable ties.
 
@@ -292,7 +296,7 @@ Once on the login page, you will need to log in to the ASIC using the default cr
 - username: root
 - password: root
 
-(How to reset if the default password doesn't work?)
+**How to reset if the default password doesn't work?**
 
 The main operating system is relatively basic. With the 4 tabs: System, Miner Configuration, Miner Status, Network. In the Miner Configuration tab, you can configure up to 3 mining pools.
 
@@ -302,9 +306,11 @@ In the Miner Status tab, you can observe various information about the live oper
 
 ![image](assets/software/4.webp)
 
-### Braiins OS+'
+### Braiins OS+
 
-Now, we will study the software for ASICs Braiins OS+ (https://braiins.com/os/plus). The software is developed by the company Braiins (https://braiins.com/), which is the parent company of the mining pool Braiins Pool (https://braiins.com/pool). This mining pool currently has 4.39% of the global hashrate (https://mempool.space/fr/mining/pool/slushpool) at the time of writing these lines. The Prague-based company was formerly known as Slushpool and is the first mining pool that started in November 2010. Today, the company, with its various activities, offers profitability study tools for mining (https://insights.braiins.com/en), mining farm management solutions in parallel with its pool activity, and its optimization software for ASICs. It also offers mining using the new Stratum V2 protocol (https://braiins.com/bitcoin-mining-stack-upgrade).
+Now, we will study the software for ASICs Braiins OS+ (https://braiins.com/os/plus). The software is developed by the company [Braiins](https://braiins.com/), which is the parent company of the mining pool Braiins Pool (https://braiins.com/pool). This mining pool currently has 4.39% of the global hashrate at the time of writing these lines. The Prague-based company was formerly known as Slushpool and is the first mining pool that started in November 2010. [Here](https://mempool.space/mining/pool/braiinspool) you shall find updated hashrate and pool dominance stats.
+
+Today, the company, with its various activities, offers profitability study tools for mining (https://insights.braiins.com/en), mining farm management solutions in parallel with its pool activity, and its optimization software for ASICs. It also offers mining using the new Stratum V2 protocol (https://braiins.com/bitcoin-mining-stack-upgrade).
 
 We will therefore study in more detail the operation of Bitmain devices, which are currently the only compatible models:
 
@@ -325,36 +331,24 @@ Learn how to easily install Braiins OS+ directly on the memory of your Antminer 
 2. Download BOS toolbox Windows / Linux.
 3. Unzip the downloaded file and open the bos-toolbox.bat file, choose the language, and after a moment you will see this window:
    ![image](assets/software/5.webp)
-
 4. Bos toolbox will allow you to easily find the IP address of your Antminer and install Braiins OS+. If you already know the IP address of your machine, you can skip to step 8. Otherwise, go to the scan tab.
-
-![image](assets/software/6.webp)
-
+   ![image](assets/software/6.webp)
 5. Usually, on home networks, the IP address range is between 192.168.1.1 and 192.168.1.255, so enter "192.168.1.0/24" in the IP range field. If your network is different, please change these addresses. Then click on "Start".
-
 6. Attention, if the Antminer has a password, the detection will not work. If that's the case, the simplest solution is to perform a factory reset.
-
 7. You should see all the Antminers on your network, here the IP address is 192.168.1.37.
-
-![image](assets/software/7.webp)
-
+   ![image](assets/software/7.webp)
 8. Click on Back, then go to the install tab, enter the previously found IP address in the Miner(s) field and "admin" (or "root") in the Password field, which is the default password, then click on "Start".
    If the installation does not work with "admin" or "root" as the password, it may be necessary to perform a factory reset and try again.
-
-![image](assets/software/8.webp)
-
+   ![image](assets/software/8.webp)
 9. After a few moments, your Antminer will restart and you will be able to access the Braiins OS+ interface at the IP address in question, here 192.168.1.37, directly in the address bar of your browser. The default username is "root" and there is no default password.
-   Installing Braiins OS+ on an SD card
+   ![image](assets/software/9.webp)
+   ![image](assets/software/10.webp)
 
-![image](assets/software/9.webp)
-
-![image](assets/software/10.webp)
-
-The second method uses the original interface of your Antminer. This method works for machines with an operating system dating from before 2019.
+Installing Braiins OS+ on an SD card is the second method, it uses the original interface of your Antminer. This method works for machines with an operating system dating from before 2019.
 
 ### Antminer Interface
 
-1. Download the new operating system to be installed here.
+1. Download the new operating system to be installed.
 2. As in the previous section, connect to your machine through your local network.
 3. Go to the System tab and then Upgrade.
 4. Load the file you downloaded and flash the image.
@@ -365,15 +359,11 @@ The second method uses the original interface of your Antminer. This method work
 
 A second method allows you to use a micro SD card. This method only works with machines with an operating system dating from after 2019.
 
-1. Download the new operating system to be installed here.
-
+1. Download the new operating system to be installed.
 2. Flash the downloaded image onto a micro SD card. For this, you can use Etcher. Simply copying the file to the micro SD card will not work.
 3. If you own an Antminer S9 and its variations (S9i, S9j), you will need to adjust jumpers to force your ASIC to boot from the file on the micro SD card instead of the NAND. If you have a different model, you can skip to part 4. The jumpers are located on the control board on the top part of the ASIC, near the Ethernet port. You will need to remove it by sliding it backwards. Once the jumper position is modified as shown in the images below BOOT FROM SD, you can reinsert the control board and reconnect the S9.
-
-![image](assets/software/12.webp)
-
-![image](assets/software/13.webp)
-
+   ![image](assets/software/12.webp)
+   ![image](assets/software/13.webp)
 4. Insert the micro SD card into the ASIC.
 5. Start the ASIC. If the automatic installation version was used, the new operating system will be installed automatically. The installation is complete when both LEDs light up at the same time. You can restart the ASIC and remove the micro SD card. If the other version was downloaded, you will need to leave the micro SD card inside the ASIC.
 
@@ -467,4 +457,4 @@ This puts an upper limit on the hash rate that a machine can have. Autotuning is
 
 The end result is a higher hash rate per watt of electricity, which means larger profit margins for miners. The reason why machines are not distributed with this type of software is that machine variance is undesirable, as customers want to know exactly what they are getting, and it is therefore a bad idea for manufacturers to sell a product that does not have consistent and predictable performance from one machine to another. Additionally, chip-level autotuning requires considerable development resources, as it is complex to implement. Manufacturers already spend a lot of resources developing their own firmwares. There are software solutions that allow for autotuning, such as Braiins OS+. In addition to improving ASIC performance by up to 20%.
 
-> Guide created by DecouvreBitcoin, more info on MINAGE 201 - credit Jim and Ajelex'
+This guide has been created by DecouvreBitcoin, more info on MIN201 - credit Jim and Ajelex

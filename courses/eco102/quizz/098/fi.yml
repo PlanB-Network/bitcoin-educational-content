@@ -1,0 +1,9 @@
+question: Mikä tulisi olla lain tarkoitus Bastiat'n mukaan?
+answer: Lopettaa kaiken ryöstelyn.
+wrong_answers:
+  - Tasapainottaa valtasuhteita.
+  - Luoda sosiaalisia siteitä.
+  - Edistää tasa-arvoa uudelleenjakavien oikeuksien kautta.
+explanation: |
+  Bastiat'n mukaan lain tulisi yksinkertaisesti suojella luonnollisia oikeuksia estämällä kaikenlaisen ryöstelyn, varmistaen näin oikeudenmukaisuuden kaikille.
+reviewed: false

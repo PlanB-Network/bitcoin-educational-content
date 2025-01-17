@@ -5,7 +5,4 @@ wrong_answers:
   - Nó được nhân ba
   - Nó giữ nguyên
 explanation: |
-  Phần thưởng khai thác trong mạng lưới Bitcoin được giảm một nửa sau mỗi 210,000
-  khối, tương đương khoảng mỗi bốn năm một lần. Phần thưởng này đóng vai trò là một động lực mạnh mẽ
-  để khuyến khích các thợ mỏ tham gia vào quá trình khai thác dù cho nó tiêu tốn nhiều năng lượng.
-reviewed: false
+  Phần thưởng khai thác trong mạng lưới Bitcoin được giảm một nửa sau mỗi 210,000 khối, tương đương khoảng mỗi bốn năm một lần. Phần thưởng này đóng vai trò như một động lực mạnh mẽ để khuyến khích các thợ mỏ tham gia vào quá trình khai thác dù cho chi phí năng lượng của nó.

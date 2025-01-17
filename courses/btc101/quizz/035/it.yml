@@ -1,11 +1,9 @@
-question: Quale di queste opzioni non rappresenta un vantaggio delle valute fiat?
-answer: Sono soggette a inflazione monetaria
+question: Qual è il significato di moneta fiat?
+answer: La moneta fiat è una valuta che ha valore perché un governo la mantiene e le persone hanno fiducia nel suo valore, piuttosto che essere supportata da una merce fisica come l'oro.
 wrong_answers:
-  - Sono facilmente trasportabili
-  - Sono facilmente divisibili
-  - Sono accettate da tutti i paesi
+  - La moneta fiat è una valuta che è supportata da una merce fisica, come l'oro o l'argento, il che significa che il suo valore è direttamente legato al valore di quella merce.
+  - La moneta fiat è un tipo di criptovaluta che opera su una rete decentralizzata, consentendo transazioni peer-to-peer senza la necessità di un'autorità centrale.
+  - La moneta fiat è una valuta che non ha valore intrinseco e non può essere utilizzata per transazioni, rendendola essenzialmente senza valore nell'economia.
 explanation: |
-  Le valute fiat, come il dollaro e l'euro, sono molto liquide e
-  facilmente trasportabili poiché ora sono per lo più digitali. Tuttavia, il loro valore è
-  costantemente eroso dall'inflazione monetaria.
-reviewed: false
+  La moneta fiat è stabilita come valuta legale per decreto governativo, e il suo valore non deriva da alcuna merce fisica.
+reviewed: true

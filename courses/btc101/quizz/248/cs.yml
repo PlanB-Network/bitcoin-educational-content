@@ -4,6 +4,8 @@ wrong_answers:
   - Může být použit pouze vybranou skupinou lidí.
   - Vyžaduje povolení od centrální autority k jeho použití.
   - Může být použit pouze v určitých zemích.
-explanation: >-
-  Text uvádí, že Bitcoin je pseudonymní a může být směněn kdekoli na světě bez jakéhokoli povolení od jakékoli entity.
-reviewed: false
+explanation: |
+  Text uvádí, že Bitcoin je pseudonymní a může být
+  směněn kdekoli na světě bez povolení
+  jakékoli entity.
+reviewed: true

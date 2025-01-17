@@ -1,11 +1,11 @@
-question: Vai trò của các thợ đào trong mạng lưới Bitcoin là gì?
-answer: Thợ đào bảo mật mạng và thêm giao dịch vào các khối.
+question: Vai trò của các thợ mỏ trong mạng lưới Bitcoin là gì?
+answer: Thợ mỏ bảo mật mạng và thêm giao dịch vào các khối.
 wrong_answers:
-  - Thợ đào tạo ra bitcoin mới.
-  - Thợ đào xác minh danh tính của người dùng Bitcoin.
-  - Thợ đào thiết lập giá của Bitcoin.
+  - Thợ mỏ tạo ra bitcoin mới.
+  - Thợ mỏ xác minh danh tính của người dùng Bitcoin.
+  - Thợ mỏ thiết lập giá của Bitcoin.
 explanation: >-
-  Thợ đào sử dụng sức mạnh tính toán của mình để giải quyết các vấn đề toán học phức tạp,
+  Thợ mỏ sử dụng sức mạnh tính toán của họ để giải quyết các bài toán toán học phức tạp,
   điều này cho phép họ thêm giao dịch mới vào blockchain. Quá trình này bảo mật
   mạng và duy trì tính toàn vẹn của nó.
-reviewed: false
+reviewed: true

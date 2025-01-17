@@ -1,9 +1,9 @@
-question: Qual é o objetivo da autenticação Lightning?
-answer: Ela gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de e-mail ou informações pessoais.
+question: Qual é o propósito da autenticação Lightning?
+answer: Gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de email ou informações pessoais.
 wrong_answers:
-  - Ela acelera o processo de autenticação.
-  - Ela permite que você use a mesma senha para todos os serviços.
-  - Ela envia lembretes para trocar as senhas a cada mês.
+  - Permite que qualquer pessoa, mesmo sem uma carteira Lightning, autentique-se sem um endereço de email, se um ID válido for apresentado.
+  - Permite que você use a mesma senha para todos os serviços.
+  - Envia lembretes para mudar as senhas todo mês.
 explanation: |
-  A autenticação Lightning gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de e-mail ou informações pessoais. Isso pode melhorar a privacidade e a segurança, reduzindo a quantidade de informações pessoais compartilhadas com cada serviço.
-reviewed: false
+  A autenticação Lightning gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de email ou informações pessoais. Isso pode aumentar a privacidade e a segurança ao reduzir a quantidade de informações pessoais que são compartilhadas com cada serviço.
+reviewed: true

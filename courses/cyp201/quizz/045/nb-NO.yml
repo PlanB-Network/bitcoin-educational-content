@@ -1,0 +1,9 @@
+question: Hvilken hash-funksjon brukes for å beregne sjekksummen av en mnemonic frase?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Sjekksummen av en mnemonic frase beregnes ved å anvende en enkel SHA256 hash på entropien.
+reviewed: false

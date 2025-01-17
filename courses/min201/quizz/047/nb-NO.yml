@@ -1,0 +1,12 @@
+question: Hva er den største risikoen forbundet med å investere i selskaper som selger maskinvare for gruvedrift og forvalter maskinene på steder med lav energikostnad?
+answer: Problemer med strømforsyning og maskinfeil kan gjøre investorer maktesløse, med dyrt utstyr som de ikke kontrollerer.
+wrong_answers:
+  - Selskapene kan gå konkurs og investorene kan tape pengene sine.
+  - Selskapene kan være svindel og investorene kan tape pengene sine.
+  - Selskapene klarer kanskje ikke å selge de utvunne bitcoinene og investorene kan tape pengene sine.
+explanation: |
+  Den største risikoen forbundet med å investere i selskaper som
+  selger maskinvare for gruvedrift og forvalter maskinene på steder
+  med lav energikostnad er at problemer med strømforsyning og maskinfeil
+  kan gjøre investorer maktesløse, med dyrt utstyr som de ikke kontrollerer.
+reviewed: true

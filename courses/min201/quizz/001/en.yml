@@ -5,9 +5,10 @@ wrong_answers:
   - To decrease the difficulty of mining over time
   - To ensure that the same miner does not mine consecutive blocks
 explanation: |
-  Difficulty adjustment is a crucial mechanism in the operation of the
-  Bitcoin network, ensuring that blocks are mined on average every 10 minutes. This
-  adjustment mechanism ensures that the mining time for new blocks remains constant
-  over time, regardless of the number of miners or the overall computing power of
-  the network.
-reviewed: false
+  Difficulty adjustment is a crucial mechanism in the
+  operation of the Bitcoin network, ensuring that blocks are
+  mined on average every 10 minutes. This adjustment
+  mechanism ensures that the mining time for new blocks
+  remains constant over time, regardless of the number of
+  miners or the overall computing power of the network.
+reviewed: true

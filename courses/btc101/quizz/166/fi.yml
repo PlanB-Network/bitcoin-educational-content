@@ -1,11 +1,11 @@
-question: Mikä on louhijoiden rooli suhteessa voimalaitoksiin, jotka eivät vielä ole kytketty verkostoon?
-answer: He toimivat viimeisenä ostajana
+question: Mitä kaivostyöläiset voivat tehdä niille voimalaitoksille, jotka eivät vielä ole kytketty sähköverkkoon?
+answer: He voivat toimia viimeisenä ostajana.
 wrong_answers:
-  - He toimittavat voimalaitoksille sähköä
-  - He yhdistävät voimalaitokset verkkoon
-  - He säätelevät sähkön hintaa
-explanation: >-
-  Louhijat toimivat viimeisenä ostajana voimalaitoksille, jotka eivät vielä ole kytketty
-  verkkoon. Tämä mahdollistaa voimalaitosten rahoituksen varmistamisen jo ennen kuin ne
-  on yhdistetty sähköverkkoon.
-reviewed: false
+  - He voivat tarjota voimalaitoksille sähköä.
+  - He voivat kytkeä voimalaitokset sähköverkkoon.
+  - He voivat säädellä sähkön hintaa.
+explanation: |
+  Kaivostyöläiset voivat toimia viimeisenä ostajana voimalaitoksille,
+  jotka eivät vielä ole kytketty sähköverkkoon. Tämä mahdollistaa voimalaitosten
+  rahoituksen varmistamisen jo ennen niiden liittämistä sähköverkkoon.
+reviewed: true

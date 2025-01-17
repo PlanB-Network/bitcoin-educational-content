@@ -1,9 +1,14 @@
-question: Jaký je hlavní cíl učení se používat Bitcoin?
-answer: Být ve vlastní kontrole svých peněz.
+question: Jaká je hlavní výhoda učení se používat Bitcoin?
+answer: Porozumět tomu, jak mít kontrolu nad vlastními penězi.
 wrong_answers:
-  - Stát se těžařem Bitcoinu.
-  - Vytvořit nový protokol Bitcoinu.
+  - Studovat, jak vést debaty s ekonomy.
+  - Vytvořit nový krypto protokol.
   - Regulovat cenu Bitcoinu.
 explanation: |
-  Naučit se používat Bitcoin je zásadní dovednost pro každého, kdo chce mít kontrolu nad svými vlastními penězi. Umožňuje vám kupovat a prodávat zboží a služby, bezpečně ukládat vaše peníze v digitálních peněženkách a používat je pro transakce bez nutnosti třetí strany.
-reviewed: false
+  Učení se používat Bitcoin je zásadní pro každého, kdo
+  chce mít kontrolu nad svými vlastními penězi. Ve skutečnosti Bitcoin
+  umožňuje jednotlivcům kupovat/prodávat zboží a služby
+  vytvářením transakcí bez potřeby třetí strany.
+  Kromě toho dává možnost bezpečně ukládat peníze
+  v neopatrovaných digitálních peněženkách.
+reviewed: true

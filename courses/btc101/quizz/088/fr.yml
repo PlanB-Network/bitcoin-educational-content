@@ -4,6 +4,9 @@ wrong_answers:
   - La tierce partie de confiance peut augmenter la valeur de vos bitcoins à tout moment.
   - La tierce partie de confiance peut diminuer la valeur de vos bitcoins à tout moment.
   - La tierce partie de confiance ne peut pas dupliquer vos bitcoins à tout moment.
-explanation: |
-  Lorsque vous utilisez un service de garde pour stocker vos bitcoins, vous n'êtes pas le seul détenteur de vos bitcoins. Cela signifie que la tierce partie de confiance peut restreindre votre accès à vos fonds à tout moment, vous donnant le même niveau de souveraineté financière que le système bancaire traditionnel.
-reviewed: false
+explanation: >-
+  Lorsque vous utilisez un service de garde pour stocker vos bitcoins, vous n'êtes pas
+  le seul détenteur de vos bitcoins. Cela signifie que la tierce partie de confiance peut restreindre
+  votre accès à vos fonds à tout moment, vous donnant le même niveau de souveraineté financière
+  que le système bancaire traditionnel.
+reviewed: true

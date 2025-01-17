@@ -1,0 +1,11 @@
+question: Milline on rahapakkumise suurenemise mõju inflatsioonile ja deflatsioonile fikseeritud rahapakkumise süsteemis?
+answer: Rahapakkumise suurenemine tühistab potentsiaalse deflatsiooni, mida põhjustab tootmise suurenemine.
+wrong_answers:
+  - Rahapakkumise suurenemine viib deflatsioonini.
+  - Rahapakkumise suurenemisel ei ole mõju inflatsioonile ega deflatsioonile.
+  - Rahapakkumise suurenemine viib tootmise vähenemiseni.
+explanation: |
+  Peatükk selgitab, et fikseeritud rahapakkumise süsteemis peaks teoreetiliselt tootmise suurenemine viima deflatsioonini, st hinnalanguseni,
+  kuna saadaval oleks rohkem kaupu ja teenuseid. Siiski praeguses fiat-rahasüsteemis tühistab rahapakkumise suurenemine potentsiaalse deflatsiooni,
+  mida põhjustab tootmise suurenemine.
+reviewed: false

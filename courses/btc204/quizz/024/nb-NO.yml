@@ -1,0 +1,9 @@
+question: Hvis vi observerer en transaksjon med 1 UTXO i inngangen og 43 UTXOer i utgangene, hvilket mønster kan vi gjenkjenne?
+answer: En samlet utgift
+wrong_answers:
+  - En konsolidering
+  - En forenklet betaling
+  - En samarbeidstransaksjon
+explanation: |
+  Tolkingen av dette mønsteret er at vi har å gjøre med en samlet utgift. Denne strukturen lar enheter som utvekslingsplattformer spare på gebyrer ved å gruppere sine utgifter i en enkelt transaksjon.
+reviewed: false

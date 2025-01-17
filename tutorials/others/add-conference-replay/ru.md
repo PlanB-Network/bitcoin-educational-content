@@ -10,13 +10,13 @@ description: Как добавить повтор конференции на с
 
 Однако, если вы хотите добавить конференцию, которая состоится в будущем, я советую вам прочитать этот другой учебник, в котором мы объясняем, как добавить новое событие на сайт.
 
-https://planb.network/tutorials/others/add-event
+https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 - Сначала вам нужно иметь аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы сделали подробный учебник, чтобы помочь вам.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) в разделе `resources/conference/`:
@@ -70,7 +70,7 @@ tags:
 ![conference](assets/09.webp)
 Если у вашей организации еще нет идентификатора "*builder*", вы можете добавить его, следуя этому другому учебному пособию.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 - Как только вы закончите вносить изменения в этот файл, сохраните их, нажав на кнопку `Commit changes...`:

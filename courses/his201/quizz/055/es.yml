@@ -1,0 +1,9 @@
+question: Tras el incidente de desbordamiento de valor, ¿qué mecanismo añadió Satoshi al software para limitar el impacto de posibles vulnerabilidades en el sistema?
+answer: El sistema de alertas
+wrong_answers:
+  - La naturaleza estándar de las transacciones
+  - El límite de tamaño de bloque
+  - Los códigos de operación OP_NOP
+explanation: |
+  Este efectivo sistema de alertas le permitió, con el uso de una clave privada, advertir a los nodos de la red en caso de un problema técnico y suspender algunos comandos de la API.
+reviewed: false

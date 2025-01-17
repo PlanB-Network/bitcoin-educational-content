@@ -1,9 +1,11 @@
 question: Quel est le but des pools de minage ?
 answer: Les pools de minage permettent aux mineurs de regrouper leurs ressources informatiques et de recevoir des récompenses plus petites mais plus régulières.
 wrong_answers:
-  - Les pools de minage sont utilisés pour augmenter le taux de hachage du réseau Bitcoin.
+  - Les pools de minage sont utilisés pour augmenter le HashRate du réseau Bitcoin dans son ensemble.
   - Les pools de minage sont utilisés pour diminuer la difficulté du minage.
   - Les pools de minage sont utilisés pour augmenter la récompense du minage.
-explanation: |
-  Les pools de minage sont des groupes de mineurs qui combinent leur puissance de calcul pour augmenter leurs chances de miner un bloc. En regroupant leurs ressources, ils peuvent miner des blocs plus fréquemment et recevoir des récompenses plus petites mais plus régulières.
-reviewed: false
+explanation: >-
+  Les pools de minage sont des groupes de mineurs qui combinent leur puissance de calcul
+  pour augmenter leurs chances de miner un bloc. En regroupant leurs ressources, ils peuvent
+  miner des blocs plus fréquemment et recevoir des récompenses plus petites mais plus régulières.
+reviewed: true

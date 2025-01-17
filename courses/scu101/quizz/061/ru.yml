@@ -1,0 +1,8 @@
+question: Какие языки программирования используются в кибербезопасности?
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  В главе перечислены Python, C и Java как некоторые из языков программирования, используемых в кибербезопасности.

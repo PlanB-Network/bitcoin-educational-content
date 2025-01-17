@@ -1,0 +1,9 @@
+question: Jak se nazývá skupina, která splňuje podmínku komutativity?
+answer: Abelova skupina
+wrong_answers:
+  - Uzavřená skupina
+  - Asociativní skupina
+  - Inverzní skupina
+explanation: |
+  Abelova, nebo komutativní, skupina je skupina, ve které pořadí prvků v binární operaci neovlivňuje výsledek. To znamená, že pro libovolné a a b platí a ∘ b = b ∘ a.
+reviewed: false

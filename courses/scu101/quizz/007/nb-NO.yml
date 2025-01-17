@@ -1,0 +1,11 @@
+question: Hva er privat surfing?
+answer: En funksjon som hindrer nettlesere i å lagre nettleserhistorikk, midlertidige internettfiler, skjemadata, informasjonskapsler (cookies), og brukernavn og passord.
+wrong_answers:
+  - En funksjon som skjuler din online aktivitet fra din internettleverandør.
+  - En funksjon som lar deg surfe på internett anonymt.
+  - En funksjon som beskytter enheten din mot virus og annen skadelig programvare.
+explanation: |
+  Privat surfing er en funksjon som hindrer nettlesere i å lagre
+  nettleserhistorikk, midlertidige internettfiler, skjemadata, informasjonskapsler, og brukernavn og
+  passord. Det skjuler imidlertid ikke din online aktivitet fra din internettleverandør eller lar deg surfe på internett anonymt.
+reviewed: false

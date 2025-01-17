@@ -1,6 +1,5 @@
 ---
 name: Trezor model One
-
 description: Trezor model One seadistamine ja kasutamine
 ---
 

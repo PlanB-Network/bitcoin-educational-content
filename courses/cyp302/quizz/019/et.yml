@@ -1,0 +1,9 @@
+question: Mis on Bayes'i teoreemi roll tõenäosusteoorias?
+answer: See võimaldab tingliku tõenäosuse arvutamist, pöörates sündmused ümber.
+wrong_answers:
+  - See annab tõenäosuse üksiku sündmuse toimumiseks.
+  - See määratleb kõikide võimalike sündmuste kogutõenäosuse.
+  - See kehtib ainult pidevate muutujate kohta.
+explanation: |
+  Bayes'i teoreem võimaldab arvutada sündmuse A tõenäosust, arvestades B-d, pöörates tõenäosused ümber ja on tõenäosusteoorias hädavajalik.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle est la nature du problème de factorisation qui sous-tend la sécurité des cryptosystèmes asymétriques comme RSA ?
+answer: Factoriser un nombre en deux facteurs premiers très grands
+wrong_answers:
+  - Décomposer un nombre en facteurs successifs de 2
+  - Réduire un nombre en ses plus petits diviseurs
+  - Multiplier deux grands nombres premiers pour obtenir un produit
+explanation: |
+  La sécurité de RSA repose sur la difficulté de factoriser un grand nombre (produit de deux grands nombres premiers) en ses deux facteurs premiers, une tâche presque impossible sans clé privée.
+reviewed: false

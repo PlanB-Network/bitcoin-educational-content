@@ -1,0 +1,8 @@
+question: Qual é o papel do array K na criptografia RC4?
+answer: Ele inicializa e transforma o array S para gerar o fluxo de chaves
+wrong_answers:
+  - Ele criptografa diretamente o texto simples
+  - Ele armazena o texto criptografado
+  - Ele serve apenas como armazenamento temporário para dados até o final do processo
+explanation: |
+  O array K é usado para transformar o array S no processo de agendamento de chaves, o que permite a geração de um fluxo de chaves pseudorandom para criptografar o texto simples.

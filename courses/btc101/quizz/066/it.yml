@@ -1,9 +1,10 @@
-question: In che anno si prevede che la creazione di bitcoin cesserà?
+question: In quale anno si prevede che cesserà la creazione di bitcoin?
 answer: 2140
 wrong_answers:
   - 2050
   - 2030
   - 2200
 explanation: |
-  A causa del meccanismo di dimezzamento, è possibile prevedere matematicamente che la creazione di bitcoin cesserà nel 2140, quando il numero totale di bitcoin raggiungerà il limite di 21 milioni.
-reviewed: false
+  A causa del meccanismo di dimezzamento, si può prevedere matematicamente che la creazione di bitcoin cesserà nel 2140,
+  quando il numero totale di bitcoin raggiungerà il suo limite di 21 milioni.
+reviewed: vero

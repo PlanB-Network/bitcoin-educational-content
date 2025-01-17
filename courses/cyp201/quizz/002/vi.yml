@@ -1,13 +1,8 @@
-question: Bốn đặc tính mà một hàm băm mật mã cần có để được công nhận là an toàn là gì?
-
-answer: Khả năng không thể đảo ngược, khả năng chống giả mạo, khả năng chống va chạm, và khả năng chống tấn công hình ảnh thứ hai.
-
+question: Tính chất nào của hàm băm được thể hiện qua việc thay đổi nhỏ trong thông điệp dẫn đến sự thay đổi hoàn toàn trong giá trị băm?
+answer: Hiệu ứng tuyết lở
 wrong_answers:
-  - Tốc độ, hiệu quả, khả năng chống va chạm, và khả năng không thể đảo ngược.
-  - Khả năng chống va chạm, khả năng chống giả mạo, khả năng mở rộng, và khả năng không thể đảo ngược.
-  - Khả năng không thể đảo ngược, khả năng chống va chạm, khả năng chống giả mạo, và tốc độ.
-
-explanation:
-  Một hàm băm mật mã an toàn cần phải có bốn đặc tính chính;
-  khả năng không thể đảo ngược
-  (nghĩa là không thể tìm ra đầu vào gốc từ đầu ra), khả năng chống giả mạo (nghĩa là khó tạo ra một đầu vào khác mà sản sinh ra cùng một đầu ra), khả năng chống va chạm (nghĩa là khó tìm ra hai đầu vào khác nhau mà sản sinh ra cùng một đầu ra), và khả năng chống tấn công hình ảnh thứ hai (nghĩa là khó tìm ra một đầu vào khác mà sản sinh ra cùng một đầu ra như một đầu vào đã cho).
+  - Khả năng chống va chạm
+  - Khả năng chống tìm kiếm hình ảnh thứ hai
+  - Độ dài
+explanation: |
+  Một thay đổi nhỏ trong đầu vào dẫn đến sự thay đổi rõ rệt trong giá trị băm, đây chính là hiệu ứng tuyết lở.

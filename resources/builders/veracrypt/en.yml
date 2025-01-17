@@ -1,0 +1,5 @@
+description: |
+  VeraCrypt is an open-source disk encryption software that helps protect your sensitive data. As the successor to TrueCrypt, it provides robust encryption using algorithms such as AES, Serpent, or Twofish, enabling the creation of encrypted volumes or the encryption of partitions and entire disks, both internal and external.
+
+contributors:
+  - pretty-private

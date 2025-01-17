@@ -1,11 +1,12 @@
 question: What is the frequency of the difficulty adjustment?
-answer: Every 2016 blocks
+answer: Every 2016 blocks.
 wrong_answers:
-  - Every 1048 blocks
-  - Every 512 blocks
-  - Every 4032 blocks
+  - Every 1048 blocks.
+  - Every 512 blocks.
+  - Every 4032 blocks.
 explanation: |
-  The difficulty adjustment is a mechanism that takes place every
-  2016 blocks, or around two weeks, to ensure that, on average, a new block is added
-  to the blockchain every ten minutes regardless of the global hashrate 
+  The difficulty adjustment is a mechanism that takes place
+  every 2016 blocks, or around two weeks, to ensure that a
+  new block is added to the blockchain every ten minutes on
+  average, regardless of the global hashrate.
 reviewed: true

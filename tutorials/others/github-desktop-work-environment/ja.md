@@ -12,13 +12,13 @@ PlanBネットワークに貢献したい場合は、変更を提案するため
 
 GitHubが何であるか、またはGitとGitHubに関連する技術用語についてもっと学びたい場合は、これらの概念に慣れるための導入記事を読むことをお勧めします。
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 - まず、GitHubアカウントが必要になります。すでにアカウントをお持ちの場合はログインできますし、そうでない場合は新しいアカウントを作成するためのチュートリアルを使用できます。
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

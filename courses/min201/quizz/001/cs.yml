@@ -1,9 +1,14 @@
 question: Jaký je účel mechanismu nastavení obtížnosti v síti Bitcoin?
-answer: Zajistit, že bloky budou těženy v průměru každých 10 minut
+answer: Zajistit, že bloky jsou těženy v průměru každých 10 minut
 wrong_answers:
   - Zvýšit obtížnost těžby v průběhu času
   - Snížit obtížnost těžby v průběhu času
-  - Zajistit, že ten samý těžař nebude těžit po sobě jdoucí bloky
+  - Zajistit, že stejný těžař netěží po sobě jdoucí bloky
 explanation: |
-  Nastavení obtížnosti je klíčovým mechanismem v provozu sítě Bitcoin, který zajišťuje, že bloky budou těženy v průměru každých 10 minut. Tento mechanismus nastavení zajišťuje, že čas potřebný pro těžbu nových bloků zůstává konstantní v průběhu času, bez ohledu na počet těžařů nebo celkový výpočetní výkon sítě.
-reviewed: false
+  Nastavení obtížnosti je klíčovým mechanismem v
+  provozu sítě Bitcoin, který zajišťuje, že bloky jsou
+  těženy v průměru každých 10 minut. Tento mechanismus
+  nastavení zajišťuje, že čas potřebný pro těžbu nových bloků
+  zůstává konstantní v průběhu času, bez ohledu na počet
+  těžařů nebo celkový výpočetní výkon sítě.
+reviewed: true

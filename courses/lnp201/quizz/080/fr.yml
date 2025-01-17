@@ -1,9 +1,0 @@
-question: Quel est le but du hachage de l'image d'origine dans une facture du réseau Lightning ?
-answer: Il est utilisé pour déverrouiller le paiement.
-wrong_answers:
-  - Il est utilisé pour chiffrer les données de la facture.
-  - Il est utilisé pour vérifier l'identité du destinataire.
-  - Il est utilisé pour calculer les frais de transaction.
-explanation: |
-  Le hachage de l'image d'origine dans une facture du réseau Lightning est utilisé pour déverrouiller le paiement. Le destinataire du paiement doit fournir l'image d'origine qui correspond au hachage afin de recevoir les fonds.
-reviewed: false

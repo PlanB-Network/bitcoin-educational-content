@@ -1,8 +1,15 @@
 question: Lợi ích của mật khẩu một lần (HOTP và TOTP) so với SMS trong 2FA là gì?
+
 answer: Chúng yêu cầu tính toán mật mã và được lưu trữ cục bộ thay vì trong bộ nhớ.
+
 wrong_answers:
-  - Chúng nhanh hơn
-  - Chúng rẻ hơn
-  - Chúng dễ nhớ hơn
-explanation: |
-  Mật khẩu một lần (HOTP và TOTP) an toàn hơn SMS vì chúng yêu cầu tính toán mật mã và được lưu trữ cục bộ thay vì trong bộ nhớ.
+  - Chúng yêu cầu tính toán mật mã và được lưu trữ trong bộ nhớ thay vì cục bộ.
+  - Chúng không yêu cầu tính toán mật mã và được lưu trữ cả cục bộ lẫn trong bộ nhớ.
+  - Chúng dễ nhớ và nhanh hơn khi nhập.
+
+explanation:
+  Mật khẩu một lần (HOTP và TOTP) an toàn hơn SMS
+  vì chúng yêu cầu tính toán mật mã và được
+  lưu trữ cục bộ thay vì trong bộ nhớ.
+
+reviewed: true

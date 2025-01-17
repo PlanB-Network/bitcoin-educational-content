@@ -1,9 +1,8 @@
-question: Was ist der Unterschied zwischen einem Passwort und einer mnemonischen Phrase in einer Bitcoin-Wallet?
-answer: Das Passwort ist frei wählbar und kann eine nahezu unbegrenzte Größe haben, während die mnemonische Phrase standardisiert ist und bestimmten Einschränkungen hinsichtlich Größe, Prüfsumme und Codierung folgen muss.
+question: Was ist die Hauptfunktion von Output-Skript-Deskriptoren?
+answer: Ein Output-Skript vollständig zu beschreiben und die zur Wiederherstellung einer Wallet benötigten Informationen bereitzustellen
 wrong_answers:
-  - Das Passwort ist standardisiert, während die mnemonische Phrase frei wählbar und nahezu unbegrenzt in der Größe ist.
-  - Das Passwort und die mnemonische Phrase sind identisch.
-  - Das Passwort ist optional, während die mnemonische Phrase obligatorisch ist.
+  - Automatisches Generieren von Multisignatur-Adressen
+  - Ersetzen der mnemonischen Phrase in Wallet-Backups
+  - Vereinfachung der Berechnungen von digitalen Signaturen
 explanation: |
-  Um die Schlüssel einer HD-Wallet abzuleiten, sind sowohl die mnemonische Phrase als auch das Passwort erforderlich. Das Passwort ist frei wählbar und kann eine nahezu unbegrenzte Größe haben. Es ist nicht in der mnemonischen Phrase enthalten, die standardisiert ist und bestimmten Einschränkungen hinsichtlich Größe, Prüfsumme und Codierung folgen muss.
-reviewed: false
+  Deskriptoren umfassen alle notwendigen Informationen, um ein bestimmtes Skript zu verfolgen, einschließlich des Ableitungspfads und der verwendeten Schlüssel, jedoch nicht der Wiederherstellungsphrase.

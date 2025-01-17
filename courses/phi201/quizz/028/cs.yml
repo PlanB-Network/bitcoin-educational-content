@@ -1,0 +1,9 @@
+question: Podle Aristotela, co je svoboda?
+answer: Poslušnost vůči zákonům města
+wrong_answers:
+  - Absence jakéhokoli omezení
+  - Moc dělat cokoli, co jeden chce
+  - Všechny ostatní odpovědi jsou správné.
+explanation: |
+  Pro Aristotela spočívá svoboda v poslušnosti vůči zákonům města, jelikož ty jsou stanoveny pro společné dobro. Pravá svoboda je realizována v rámci občanství a účasti na politickém životě.
+reviewed: false

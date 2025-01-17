@@ -1,0 +1,11 @@
+question: Mikä on tilin nimi, jota käytetään UTXOille, jotka eivät voi liittyä Whirlpool-coinjoin-altaaseen?
+
+answer: Doxxic change -tili.
+
+wrong_answers:
+  - Postmix-tili.
+  - Premix-tili.
+  - Talletustili.
+
+explanation: |
+  Altaaseen liittymättä jäänyt vaihtoraha eristetään “doxxic change” -tilille, jotta muista lompakon UTXOista voidaan pitää tiukka erillisyys.

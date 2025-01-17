@@ -1,0 +1,8 @@
+question: Mis on lõplikus väljas pöördumatu polünoomi roll?
+answer: Määratle välja korrutamistehted
+wrong_answers:
+  - Määratle iga elemendi aditiivne invers
+  - Taga välja sulgus
+  - Määra korrutusühik
+explanation: |
+  Pöördumatuid polünoome kasutatakse lõplikes väljades korrutamise struktureerimiseks, tagades, et iga element jääb välja piiresse.

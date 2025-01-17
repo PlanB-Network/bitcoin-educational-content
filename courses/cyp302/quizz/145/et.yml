@@ -1,0 +1,9 @@
+question: Mis on Euleri teoreemi tagajärjed asümmeetrilise krüptograafia kontekstis?
+answer: See lihtsustab astmete arvutamist
+wrong_answers:
+  - See võimaldab sõnumite otsest krüpteerimist
+  - Seda kasutatakse algarvude leidmiseks
+  - Seda kasutatakse numbri paarsuse kontrollimiseks
+explanation: |
+  Asümmeetrilises krüptograafias lihtsustab Euleri teoreem astmete arvutamist skeemides nagu RSA, kuna see pakub meetodit modulaarsete eksponentide manipuleerimiseks.
+reviewed: false

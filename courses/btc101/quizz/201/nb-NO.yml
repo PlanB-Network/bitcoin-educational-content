@@ -1,0 +1,9 @@
+question: Hva er formålet med KYC-regelverket?
+answer: Å bekjempe finansiering av terrorisme, skatteunndragelse og hvitvasking av penger.
+wrong_answers:
+  - Å øke prisen på Bitcoin.
+  - Å kontrollere tilbudet av Bitcoin.
+  - Å forhindre folk i å kjøpe Bitcoin.
+explanation: >-
+  Teksten forklarer at Know Your Customer (KYC)-regelverket krever at brukere
+  må oppgi identifikasjon for å bekjempe finansiering av terrorisme, skatteunndragelse og hvitvasking av penger.

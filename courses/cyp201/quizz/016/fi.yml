@@ -1,9 +1,9 @@
-question: Mikä on SHA256:n esikäsittelyn toisen vaiheen tarkoitus?
-answer: Lisätä alkuperäisen viestin koon binääriesitys bitteinä
+question: Mikä allekirjoitusmenetelmä otettiin käyttöön Bitcoinissa Taproot-päivityksen myötä?
+answer: Schnorrin allekirjoitusmenetelmä
 wrong_answers:
-  - Lisätä täytebittejä syötteeseen
-  - Jakaa syöte eri 512-bittisiin viestilohkoihin
-  - Suorittaa 64 laskentakierrosta tiivistysfunktiossa
+  - ECDSA
+  - SHA256
+  - PBKDF2
 explanation: |
-  SHA256:n esikäsittelyn toinen vaihe sisältää alkuperäisen viestin koon binääriesityksen lisäämisen bitteinä. Tämä tehdään käyttämällä edellisessä vaiheessa varattuja 64 bittiä.
+  Schnorrin allekirjoitusmenetelmä otettiin käyttöön marraskuussa 2021 Taproot-päivityksen yhteydessä.
 reviewed: false

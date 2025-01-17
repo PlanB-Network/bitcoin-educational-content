@@ -1,0 +1,9 @@
+question: Secondo Aristotele, cos'è la libertà?
+answer: L'obbedienza alle leggi della città
+wrong_answers:
+  - L'assenza di qualsiasi vincolo
+  - Il potere di fare ciò che si vuole
+  - Tutte le altre risposte sono corrette.
+explanation: |
+  Per Aristotele, la libertà consiste nell'obbedire alle leggi della città, poiché queste sono stabilite per il bene comune. La vera libertà si realizza all'interno del quadro della cittadinanza e della partecipazione alla vita politica.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Mitä Lightning-verkko mahdollistaa?
+question: Mitä Salamaverkko mahdollistaa?
 answer: Siirtojen tekemisen yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
 wrong_answers:
-  - Siirtojen tekemisen yksilöiden välillä, joilla on vain suora kanavayhteyttä.
-  - Siirtojen tekemisen yksilöiden välillä, joilla on suora kanavayhteyttä ja kolmas osapuoli.
-  - Siirtojen tekemisen yksilöiden välillä, joilla on suora kanavayhteyttä ja useita kolmansia osapuolia.
+  - Luoda suoria kanavayhteyksiä vain keskitettyjen pörssien kanssa.
+  - Luoda kanavayhteyksiä, jotka vaativat useita vahvistuksia minkä tahansa siirron yhteydessä.
+  - Perustaa suoria kanavayhteyksiä, jotka ovat rajoitettuja vain suuriin siirtoihin.
 explanation: |
-  Lightning-verkko mahdollistaa siirtojen tekemisen yksilöiden välillä,
-  joilla ei ole suoraa kanavayhteyttä.
-reviewed: false
+  Salamaverkko mahdollistaa siirtojen tekemisen yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
+reviewed: true

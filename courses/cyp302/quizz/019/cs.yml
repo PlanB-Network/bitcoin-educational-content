@@ -1,0 +1,9 @@
+question: Jaká je role Bayesova teorému v pravděpodobnosti?
+answer: Umožňuje výpočet podmíněné pravděpodobnosti obrácením událostí.
+wrong_answers:
+  - Poskytuje pravděpodobnost výskytu jediné události.
+  - Definuje celkovou pravděpodobnost všech možných událostí.
+  - Aplikuje se pouze na spojité proměnné.
+explanation: |
+  Bayesův teorém umožňuje výpočet pravděpodobnosti události A za předpokladu B obrácením pravděpodobností a je zásadní v teorii pravděpodobnosti.
+reviewed: false

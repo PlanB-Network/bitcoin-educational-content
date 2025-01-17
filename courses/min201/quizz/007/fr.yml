@@ -1,9 +1,13 @@
-question: Que se passe-t-il avec la récompense minière dans le réseau Bitcoin environ tous les quatre ans ?
-answer: Elle subit une réduction de moitié.
+question: Que se passe-t-il avec la récompense de minage dans le réseau Bitcoin environ tous les quatre ans ?
+answer: Elle est réduite de moitié
 wrong_answers:
-  - Elle double.
-  - Elle triple.
-  - Elle reste la même.
+  - Elle double
+  - Elle triple
+  - Elle reste la même
 explanation: |
-  La récompense minière dans le réseau Bitcoin subit une réduction de moitié tous les 210 000 blocs, environ tous les quatre ans. Cette rémunération sert d'incitation puissante pour encourager les mineurs à participer au processus de minage malgré son coût énergétique.
-reviewed: false
+  La récompense de minage dans le réseau Bitcoin est
+  réduite de moitié tous les 210 000 blocs, soit environ tous les quatre
+  ans. Cette rémunération sert d'incitation puissante pour
+  encourager les mineurs à participer au processus de minage
+  malgré son coût énergétique.
+reviewed: true

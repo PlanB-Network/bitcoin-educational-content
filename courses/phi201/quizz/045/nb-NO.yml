@@ -1,0 +1,9 @@
+question: Hva er hovedtesen til Thomas Aquinas angående forholdet mellom fornuft og tro?
+answer: Fornuft og tro er komplementære og kan støtte hverandre.
+wrong_answers:
+  - Fornuft og tro er to uavhengige og motstridende kunnskapskilder.
+  - Alle andre svar er korrekte.
+  - Tro er overlegen fornuft og kan klare seg uten dens argumenter.
+explanation: |
+  Thomas Aquinas argumenterer for at fornuft og tro er komplementære: fornuft kan hjelpe med å forstå og forklare troens sannheter, mens tro guider fornuften mot sannheter som ellers ville vært utilgjengelige for den.
+reviewed: false

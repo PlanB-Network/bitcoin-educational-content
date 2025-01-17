@@ -1,0 +1,9 @@
+question: How was banking irresponsibility allowed?
+answer: By the guarantees that losses would be mutualized in case of bankruptcy due to reckless risk-taking
+wrong_answers:
+  - By the lack of regulations against reckless risk-taking
+  - By the deregulation of the 90s
+  - By the capitalist system
+explanation: |
+  Bastiat explains that the promise of loss mutualization encourages banks to take excessive risks, as they are assured of being saved in case of failure, which promotes irresponsibility.
+reviewed: false

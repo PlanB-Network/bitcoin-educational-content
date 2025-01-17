@@ -1,9 +1,9 @@
 question: Mikä on Bitcoin?
-answer: Bitcoin on vertaisverkkoon perustuva sähköinen maksujärjestelmä.
+answer: Bitcoin on vertaisverkkoon perustuva sähköinen käteisjärjestelmä.
 wrong_answers:
   - Bitcoin on tyyppi fyysistä valuuttaa.
   - Bitcoin on keskitetty digitaalinen valuutta, jota kontrolloi yksittäinen taho.
   - Bitcoin on tyyppi osaketta tai velkakirjaa.
 explanation: |
-  Kuten whitepaperissa todetaan, Bitcoin on vertaisverkkoprotokolla, joka mahdollistaa rahajärjestelmän toiminnan ilman kolmansien osapuolien luottamusta.
-reviewed: false
+  Kuten whitepaperissa todetaan, Bitcoin on vertaisverkkoprotokolla, joka luo rahajärjestelmän ilman tarvetta mihinkään luotettuun kolmanteen osapuoleen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Was ist die marxistische Kritik an der Religion?
+answer: Sie lenkt die Menschen von ihrem Kampf um ihre tatsächliche Befreiung ab.
+wrong_answers:
+  - Sie ist das Opium der Intellektuellen.
+  - Sie ist unvereinbar mit den Prinzipien von Freiheit und Gleichheit.
+  - Sie bietet keinen Mehrwert in der Arbeit.
+explanation: |
+  Marx betrachtet Religion als ein Werkzeug, das Arbeiter von ihrem Kampf um Befreiung ablenkt, indem sie sie über ihre materiellen Bedingungen tröstet, ohne sie dazu zu ermutigen, die Strukturen der Ausbeutung zu ändern.
+reviewed: false

@@ -1,9 +1,0 @@
-question: HMAC SHA-512アルゴリズムでマスタープライベートキーを計算する際に使用されるフレーズは何ですか？
-answer: Bitcoin SEED
-wrong_answers:
-  - Bitcoin KEY
-  - Bitcoin WALLET
-  - Bitcoin HASH
-explanation: |
-  マスタープライベートキーはシードとフレーズ「Bitcoin SEED」から計算されます。このフレーズはすべてのHDウォレットの派生において同一であり、ウォレット間の一貫性を保証します。
-reviewed: false

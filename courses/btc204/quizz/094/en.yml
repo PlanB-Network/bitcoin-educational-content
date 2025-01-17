@@ -1,0 +1,13 @@
+question: Among the following answers, which is not a recommended practice for managing one's doxxic change?
+
+answer: Merging doxxic UTXOs together.
+
+wrong_answers:
+  - Mixing doxxic UTXOs in a smaller pool.
+  - Donating one's doxxic UTXOs.
+  - Marking one's doxxic UTXOs as non-spendable.
+
+explanation: |
+  It is advised against merging doxxic UTXOs together because it allows for a connection to be made between the different entries of the user in Whirlpool.
+
+reviewed: false

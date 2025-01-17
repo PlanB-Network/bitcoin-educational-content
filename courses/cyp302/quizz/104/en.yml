@@ -1,0 +1,9 @@
+question: What is the main goal of an authenticated encryption scheme?
+answer: Ensure the confidentiality and authenticity of communications
+wrong_answers:
+  - Generate keys in a secure manner
+  - Replace MACs in cryptographic exchanges
+  - Automatically decrypt intercepted messages
+explanation: |
+  An authenticated encryption scheme combines encryption and an authentication code (MAC) to guarantee both the confidentiality of messages and their authenticity.
+reviewed: false

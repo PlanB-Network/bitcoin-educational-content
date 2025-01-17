@@ -1,9 +1,10 @@
-question: ¿Qué es la cadena de bloques de Bitcoin?
+question: ¿Qué es la blockchain de Bitcoin?
 answer: Un registro público e inmutable de todas las transacciones de Bitcoin.
 wrong_answers:
   - Un registro privado y mutable de todas las transacciones de Bitcoin.
   - Un registro público y mutable de todas las transacciones de Bitcoin.
   - Un registro privado e inmutable de todas las transacciones de Bitcoin.
-explanation: |
-  La cadena de bloques de Bitcoin es un registro público e inmutable de todas las transacciones de Bitcoin. Es un registro común para todos los usuarios de Bitcoin.
-reviewed: false
+explanation: >-
+  La blockchain de Bitcoin es un registro público e inmutable de todas las
+  transacciones de Bitcoin. Es un libro de contabilidad común para todos los usuarios de Bitcoin.
+reviewed: true

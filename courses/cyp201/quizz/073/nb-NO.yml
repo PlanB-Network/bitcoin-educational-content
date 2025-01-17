@@ -1,0 +1,9 @@
+question: Hvilket indeks representerer den eksterne kjeden til en konto i en avledningssti?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  Den eksterne kjeden identifiseres av indeksen /0/ på dybde 4 i avledningsstien.
+reviewed: false

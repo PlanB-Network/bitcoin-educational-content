@@ -1,11 +1,11 @@
-question: Ý nghĩa của địa chỉ 2/2 multi-sig trong quá trình mở một kênh trong Lightning Network là gì?
-answer: Đó là địa chỉ mà Alice gửi tiền để mở kênh.
+question: Khi nào một giao dịch cam kết được công bố trên blockchain Bitcoin?
+
+answer: Cuối cùng khi kênh được đóng lại
+
 wrong_answers:
-  - Đó là địa chỉ mà Alice gửi tiền từ đó để mở kênh.
-  - Đó là địa chỉ mà Bob gửi tiền để mở kênh.
-  - Đó là địa chỉ mà Bob gửi tiền từ đó để mở kênh.
-explanation: |
-  Trong quá trình mở một kênh, Alice tạo một địa chỉ 2/2 multi-sig
-  sử dụng địa chỉ công cộng của cô ấy và của Bob. Sau đó, cô ấy thực hiện một giao dịch bitcoin để gửi
-  tiền đến địa chỉ này để mở kênh.
-reviewed: false
+  - Ngay sau mỗi lần chuyển tiền trong kênh
+  - Trước mỗi giao dịch cam kết mới
+  - Khi số tiền có sẵn được tiêu hết
+
+explanation:
+  Giao dịch cam kết được xây dựng và ký kết cho mỗi sự thay đổi trong phân bổ, nhưng chúng chỉ được công bố trên blockchain trong trường hợp kênh đóng lại.

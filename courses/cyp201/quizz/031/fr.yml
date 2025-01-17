@@ -1,9 +1,9 @@
-question: Quel est le nombre total de possibilités pour une clé privée Bitcoin ?
-answer: Presque égal à 1,158 x 10^77
+question: Quel est le modificateur qui peut être combiné avec les sighash flags de base ?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Exactement 2^256
-  - Entre 1 et n-1
-  - Environ le même nombre d'atomes présents dans l'univers observable
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  Le nombre total de possibilités pour une clé privée Bitcoin est presque égal à 1,158 x 10^77, ce qui correspond approximativement au même nombre d'atomes présents dans l'univers observable. Cela est dû au fait qu'une clé privée doit être comprise entre 1 et n-1, où n représente l'ordre de la courbe elliptique.
+  SIGHASH_ANYONECANPAY modifie les sighash flags pour ne couvrir qu'un seul input tout en laissant le reste modifiable.
 reviewed: false

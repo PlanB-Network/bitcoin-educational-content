@@ -1,0 +1,13 @@
+question: Kuidas on sildid Bitcoin'i rahakotiga seotud?
+
+answer: Kohalikult rahakotitarkvaras.
+
+wrong_answers:
+  - Keskse andmebaasis, mida kontrollib arendaja.
+  - Bitcoin'i plokiahelas läbi OP_RETURN.
+  - Ainult RAM'is tarkvara täitmisel.
+
+explanation: |
+  Sildid salvestatakse kohalikult rahakotitarkvara poolt ja neid ei edastata kunagi üle Bitcoin'i võrgu. Seega on siltimine isiklik haldusvahend.
+
+reviewed: false

@@ -266,8 +266,12 @@ Bitcoinトランザクションは、ブロックチェーン上に記録され�
 したがって、ビットコインの使用においてブロックチェーン分析に直面することも必要です。この方法で進めることにより、私たちは活動の集約を最小限に抑え、エントリーポイントが私たちのプライバシーに与える影響を限定することができます。
 ![BTC204](assets/notext/31/5.webp)
 
-実際、ブロックチェーン分析に対抗するためのより良いアプローチは、ブロックチェーン分析で使用される方法に自分自身を慣れさせることです。ビットコイン上でプライバシーを向上させる方法を知りたい場合、これらの方法を理解する必要があります。これにより、[coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet)や[payjoin](https://planb.network/fr/tutorials/privacy/payjoin)（トレーニングの最後の部分で学習する技術）などの技術をよりよく把握し、あなたが犯すかもしれないミスを減らすことができます。
+実際、ブロックチェーン分析に対抗するためのより良いアプローチは、ブロックチェーン分析で使用される方法に自分自身を慣れさせることです。ビットコイン上でプライバシーを向上させる方法を知りたい場合、これらの方法を理解する必要があります。これにより、coinjoinやpayjoin（トレーニングの最後の部分で学習する技術）などの技術をよりよく把握し、あなたが犯すかもしれないミスを減らすことができます。
 このセクションでは、暗号学と暗号解析との類似性について考えてみます。優れた暗号学者は、まず何よりも優れた暗号解析者である必要があります。新しい暗号アルゴリズムを考案するためには、それが直面するであろう攻撃を知り、また以前のアルゴリズムがなぜ破られたのかを研究する必要があります。同じ原則がBitcoinのプライバシーにも適用されます。ブロックチェーン分析の方法を理解することが、それに対抗する鍵となります。そのため、このトレーニングではブロックチェーン分析に関する全セクションを提案します。
+
+https://planb.network/fr/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### ブロックチェーン分析の方法
 
@@ -1050,7 +1054,7 @@ FIFO（*First In First Out*）やLIFO（*Last In First Out*）などのUTXO選�
 
 あなたのUTXOにラベルを付ける方法を知りたい場合は、既存の主要なビットコインウォレットソフトウェアに関する完全なチュートリアルを作成しました：
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 
 ## KYCとキー識別
@@ -1167,26 +1171,38 @@ P2P取引のもう一つのデメリットは、価格が規制されたプラ�
 
 解決策に関しては、私は個人的に常に[Bisq](https://bisq.network/)を使用しており、非常に満足しています。彼らのシステムは確立されており、信頼できると思われます。しかし、BisqはPCでのみ利用可能であり、そのインターフェイスは初心者には複雑すぎるかもしれません。もう一つの欠点は、Bisqがオンチェーントランザクションのみで動作し、Bitcoinの取引手数料が高騰する期間にはコストがかかることです。
 
-[-> Bisqに関するチュートリアルを見る。](https://planb.network/en/tutorials/exchange/bisq)
+-> Bisqに関するチュートリアルを見る。
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 よりシンプルなオプションをお探しの場合は、統合された紛争解決システムを備え、購入者と売り手の間の接続を容易にするモバイルアプリの[Peach](https://peachbitcoin.com/)を試してみることができます。そのプロセスはBisqよりも直感的です。
 
-[-> Peachに関するチュートリアルを見る。](https://planb.network/en/tutorials/exchange/peach-wallet)
+-> Peachに関するチュートリアルを見る。
 オンラインの別のオプションは、良好な流動性を提供する確立されたプラットフォームである[HodlHodl](https://hodlhodl.com/)ですが、私は個人的にはテストしていません。
-[-> HodlHodlに関するチュートリアルを見る。](https://planb.network/en/tutorials/exchange/hodlhodl)
+-> HodlHodlに関するチュートリアルを見る。
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Lightning Networkに基づくソリューションをお探しの場合は、[RoboSats](https://learn.robosats.com/)と[LNP2PBot](https://lnp2pbot.com/)を試すことができます。RoboSatsはウェブサイトを通じてアクセス可能で、比較的使いやすいです。LNP2PBotはより特異で、Telegramメッセージングアプリ上の交換システムを通じて動作します。
 
-[-> RoboSatsに関するチュートリアルを見る。](https://planb.network/en/tutorials/exchange/robosats)
-[-> LNP2PBotに関するチュートリアルを見る。](https://planb.network/en/tutorials/exchange/lnp2pbot)
+-> RoboSatsに関するチュートリアルを見る。
+-> LNP2PBotに関するチュートリアルを見る。
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ### KYCなしの規制プラットフォーム
 
 お住まいの国によっては、KYC手続きを必要としない規制プラットフォームを利用できる場合があります。たとえばスイスでは、[Relai](https://relai.app/)や[MtPelerin](https://www.mtpelerin.com/)のようなプラットフォームを使用できます。
 
-[-> Relaiに関するチュートリアルを見る。](https://planb.network/en/tutorials/exchange/relai)
+-> Relaiに関するチュートリアルを見る。
 前章で見たように、このタイプのプラットフォームはKYC手続きに伴うリスクを回避してくれますが、鍵の識別に関してはより高いリスクを提示します。ビットコインのプライバシーに関して言えば、これらのプラットフォームはKYCを伴う購入方法よりも優れた保護を提供しますが、P2P取引所よりも魅力的ではありません。
 しかし、個人のセキュリティの観点からは、これらのプラットフォームを使用することはP2P取引所を使用することよりも大幅にリスクが低いです。また、P2P取引所を容易にするプラットフォームよりも使用が簡単であることが多いです。
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### ATM
 
@@ -1204,6 +1220,8 @@ BTCを使う最良の方法は、明らかにビットコインを直接使用�
 
 KYC手続きを要求しないいくつかのプラットフォームは、主要な店舗で使用できるギフトカードとビットコインを交換する可能性を提供しています。これらのプラットフォームには、[CoinsBee](https://www.coinsbee.com/)、[The Bitcoin Company](https://thebitcoincompany.com/)、および[Bitrefill](https://www.bitrefill.com/)が含まれます。これらのプラットフォームは、法定通貨への変換を行うことなく、幅広い製品やサービスへのアクセスを可能にすることで、ビットコインの日常使用を大いに容易にします。
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### その他の取得方法
@@ -1212,7 +1230,9 @@ KYC手続きを要求しないいくつかのプラットフォームは、主�
 
 別の方法は、ビットコインと引き換えに働くことです。この取得方法は興味深いものになる可能性がありますが、要求される識別の程度は状況によって大きく異なります。
 
-*この章を書くために、PlanB Networkで[@pivi___](https://x.com/pivi___)によって作成されたコース[BTC205](https://planb.network/fr/courses/btc205)を使用しました（現時点ではフランス語でのみ利用可能）。*
+*この章を書くために、Plan ₿ Networkで[@pivi___](https://x.com/pivi___)によって作成されたコースBTC205を使用しました（現時点ではフランス語でのみ利用可能）。*
+
+
 
 ## 統合、UTXO管理、およびCIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -1742,11 +1762,11 @@ Samourai Walletの創設者が2024年4月24日に逮捕され、サーバーが�
 
 次の章では、「anonsets」が何であるか、これらの指標がどのように計算されるか、そしてcoinjoinサイクルの効果をどのように推定するのに役立つかを学びます。
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## 匿名セット
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -1805,7 +1825,7 @@ Anonsetsは、適切な場合には、CoinJoinsの品質を判断するのに役
 
 この章で見てきたように、アノンセットはコインジョインの構造にある程度の均一性がある場合にのみ計算できます。そして正確に、次の章では、ビットコイントランザクションがコインジョインであるか、より伝統的なトランザクションであるかにかかわらず、この均一性をどのように定量化するかを発見します。
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## エントロピー
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2025,7 +2045,7 @@ $$
 
 コインジョインについて詳しく説明した今、私たちはトレーニングの最後のセクションでBitcoinに利用可能な他のプライバシー技術を探究します。ペイジョイン、特定の取引タイプの擬似コインジョイン、静的アドレスプロトコル、および取引レベルではなくノードのネットワークレベルでのプライバシーを強化するための措置を検討します。
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # 他の高度なプライバシー技術の課題を理解する
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2102,9 +2122,9 @@ payjoinを使用する難しさは、商人の参加に依存していること�
 
 解決策は、受取人の協力を必要とせずにチェーン分析に曖昧さを導入するトランザクション構造を使用することです。これにより、商人の積極的な参加に依存することなく、支払いのプライバシーを向上させることができます。これは、次の章で詳しく学ぶことです。
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## 支払いのミニコインジョイン
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2202,10 +2222,10 @@ StonewallとStonewall x2トランザクションは、Samourai Walletアプリ�
 
 次の章では、これまでに研究したものに加えて非常に有用であるが、比較的知られていない別のプライバシー技術について学びます。
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
- 
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+
 ## リコシェ
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
@@ -2256,8 +2276,8 @@ Samouraiアプリケーションはリコシェットの2つのバリアント�
 
 次の章では、秘密の財産転送のための異なる技術を探ります。これらの方法は、これまでに検討したものとは、操作と結果の両方の点で根本的に異なります。
 
-https://planb.network/tutorials/privacy/ricochet
- 
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## 秘密の財産転送
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -2472,7 +2492,18 @@ PayNymボットに関しては、Twitter上で時々見かけるこれらのロ�
 ![BTC204](assets/notext/66/6.webp)
 
 これらのロボットはBIP47の枠組み内で特定の技術的機能を持っているわけではありませんが、容易に認識可能な視覚的アイデンティティを提供することで、ユーザー間の相互作用を容易にする役割を果たします。
-この章の後続セクションでは、BIP47の仕組みについて詳しく調べ、特に使用される暗号化方法に重点を置いて説明します。これらやや技術的な説明を完全に理解するためには、HDウォレットの構造、キー導出プロセス、および楕円曲線ベースの暗号学の基本原則をまず理解することが不可欠です。これらの概念にさらに深く飛び込みたい場合は、PlanB Networkで別の無料コースが利用可能です：[CRYPTO 301](https://planb.network/en/courses/crypto301)。BIP47の技術的な仕組みを理解することは、後続の章で議論する他の類似の提案を理解するのを大いに容易にするため、それらをフォローすることを依然としてお勧めします。
+
+---
+*この章のBIP47に特化した以下のセクションでは、その動作を詳細に検証し、特に使用される暗号技術に焦点を当てます。このやや技術的な説明を完全に理解するには、HDウォレットの構造、キーの派生プロセス、および楕円曲線暗号に基づく基本原則を事前に理解することが重要です。これらの概念を深く理解したい場合は、Plan ₿ Networkで無料のトレーニングが利用可能です：*
+
+https://planb.network/courses/cyp201
+
+*ぜひ受講することをお勧めします。BIP47の技術的な仕組みを理解することで、次の章で説明する他の類似した提案をより簡単に理解できるようになります。*
+
+---
+
+
+
 ### 再利用可能な支払いコード
 
 前述のように、再利用可能な支払いコードはHDウォレットの深さ3に位置しており、ウォレット構造内の位置とその役割の両方で`xpub`と比較可能です。
@@ -3101,7 +3132,7 @@ BIP47支払いを受け取り、対応する秘密鍵を計算するために私
 ![BTC204](assets/ja/66/26.webp)
 *この章の執筆に触発された記事のレビューと貴重な専門的アドバイスをしてくださった[Fanis Michalakis](https://x.com/FanisMichalakis)に大きな感謝を！*
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## サイレントペイメント
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
@@ -3440,10 +3471,10 @@ Silent Paymentsの提案は比較的最近のもので、これまでに実装�
 この機能は最近のものであるため、メインネットで大量のSilent Paymentsを使用する際には注意を払うことが勧められます。
 
 *このSilent Paymentsの章を作成するために、[Silent Paymentsの説明サイト](https://silentpayments.xyz/)と[BIP352の説明文書](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)を使用しました。*
+# 結論
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-
-## このコースについてのフィードバックをお寄せください
+## レビュー & 評価
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -3453,11 +3484,4 @@ Silent Paymentsの提案は比較的最近のもので、これまでに実装�
 
 ## 結論
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-
-Bitcoinにおけるプライバシーに関するこのトレーニングを完了したことをお祝いします！
-
-このトレーニングでは、多くの高度で技術的なトピックをカバーしましたが、紹介されたすべてのツールを使用する必要はありません。主な目的は、Bitcoinの使用において公開する情報と秘密にしておきたい情報を選択する力をあなたに与えることでした。これはプライバシー保護の本質そのものを体現しています。共有または隠すべき情報についての意識的な選択をするためには、私たちの行動の意味を理解することが必要です。このトレーニングがその知識を得る助けになったことを願っています。
-このトレーニングの中で最も重要な部分を選ぶとしたら、チェーン分析に捧げられたセクションを選びます。潜在的な攻撃者によって使用される技術を理解することは、自己を守る最良の方法です。したがって、この部分を慎重に見直し、その詳細をすべて把握しようとすることをお勧めします。
-このトレーニングでは、メインチェーン上のBitcoinのプライバシーに特化して焦点を当てました。ライトニングネットワークやサイドチェーンなどの第二層システムのプライバシー問題も重要であり、非常に特有の特徴を持っています。オフチェーン取引の使用は、私たちが研究したBitcoin上の多くの追跡リスクを回避する効果的な戦略である可能性がありますが、それはあなたを他のリスクにもさらします。それらのリスクもまた、認識しておくことが重要です。そのため、これらのトピックは将来、PlanB Networkで行われる専用トレーニングで取り上げられる予定です。
-
-このトレーニングを楽しんでいただけたなら、友人やソーシャルメディアで共有していただけると非常に感謝します。ありがとうございます！:)
+<isCourseConclusion>true</isCourseConclusion>

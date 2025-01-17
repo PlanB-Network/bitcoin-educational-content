@@ -1,9 +1,14 @@
-question: ¿Cuál es el concepto de "skin in the game" en el contexto de la industria de los videojuegos?
-answer: Tener una participación financiera en el resultado de un juego
+question: ¿Cuál es el concepto de tener un interés personal en el contexto de la industria de los videojuegos?
+answer: Tener una participación financiera en el resultado de un juego.
 wrong_answers:
-  - Invertir en el desarrollo de un juego
-  - Comprar objetos dentro del juego con dinero real
-  - Vender skins de juego por dinero real
+  - Personalizar personajes con skins únicos que mejoran la jugabilidad.
+  - Comprar ítems dentro del juego con dinero real.
+  - Vender skins del juego por dinero real.
 explanation: |
-  El concepto de "skin in the game" es una idea que ha ganado popularidad recientemente en la industria de los videojuegos. Básicamente implica tener una participación financiera en el resultado de un juego.
-reviewed: false
+  El concepto de tener un interés personal es una idea que ha
+  ganado popularidad recientemente en la industria de los videojuegos. Se
+  refiere esencialmente a la idea de que los desarrolladores y
+  partes interesadas tienen una inversión personal o participación en el
+  éxito de un juego, lo que alinea sus intereses con
+  la entrega de un producto de calidad.
+reviewed: true

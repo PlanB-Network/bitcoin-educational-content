@@ -1,5 +1,5 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: 多节点自托管钱包
 ---

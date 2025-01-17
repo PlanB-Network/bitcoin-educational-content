@@ -1,0 +1,9 @@
+question: Mis on Bitcoini põhimissioon?
+answer: Olla tsensuurikindel väärtuse vahetamise võrgustik.
+wrong_answers:
+  - Asendada traditsioonilised valuutad.
+  - Teha tehingud anonüümseks.
+  - Luua uus investeerimisvorm.
+explanation: |
+  Bitcoini põhimissioon on olla tsensuurikindel väärtuse vahetamise võrgustik. Bitcoin'i kogukond püüab pidevalt tugevdada võrgustiku jaotust, tsensuurikindlust ja võrgu vastupidavust.
+reviewed: true

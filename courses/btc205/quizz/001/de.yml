@@ -1,9 +1,0 @@
-question: Was ist die Alternative zur vollständigen KYC in der Schweiz?
-answer: KYC light
-wrong_answers:
-  - KYC heavy
-  - KYC medium
-  - KYC dark
-explanation: |
-  In der Schweiz gibt es eine Alternative zur vollständigen KYC, nämlich "KYC light", die den Kauf und Verkauf von Bitcoins ohne Identifikation ermöglicht, solange der Kaufbetrag pro Tag 1000 Euro nicht überschreitet.
-reviewed: false

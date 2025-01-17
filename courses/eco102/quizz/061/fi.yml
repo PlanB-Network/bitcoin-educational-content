@@ -1,0 +1,8 @@
+question: Mikä on pääongelma, jonka Bastiat näkee verojen käytössä epätasa-arvojen vähentämisessä?
+answer: Kaikki nämä vastaukset ovat oikeita
+wrong_answers:
+  - Se luo riippuvuutta valtiosta
+  - Se estää yksilöllistä aloitteellisuutta
+  - Se voi johtaa mielivaltaisuuteen ja konfiskointiin
+explanation: |
+  Bastiat kritisoi uudelleenjakavaa verotusta, koska se kannustaa riippuvuuteen, estää aloitteellisuutta ja johtaa mielivaltaisuuteen, muodostaen laillistetun ryöstön.

@@ -10,13 +10,13 @@ Você quer adicionar a reprise da sua conferência sobre Bitcoin no site da Rede
 
 No entanto, se você deseja adicionar uma conferência que ocorrerá no futuro, aconselho que leia este outro tutorial no qual explicamos como adicionar um novo evento ao site.
 
-https://planb.network/tutorials/others/add-event
+https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 - Primeiro, você precisa ter uma conta no GitHub. Se não sabe como criar uma conta, fizemos um tutorial detalhado para orientá-lo.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) na seção `resources/conference/`:
@@ -69,7 +69,7 @@ tags:
 
 ![conference](assets/09.webp)
 Se você ainda não possui um identificador "*builder*" para sua organização, pode adicioná-lo seguindo este outro tutorial.
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Uma vez que tenha terminado de fazer alterações neste arquivo, salve-as clicando no botão `Commit changes...`:
 ![conferência](assets/10.webp)

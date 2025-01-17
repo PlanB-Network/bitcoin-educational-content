@@ -26,10 +26,10 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能用多种语言
 - 在PlanB网络上拥有[一个教授资料](https://planb.network/professors)（仅当您提出完整教程时）。
 
 **如果您需要帮助获取这些先决条件，我的其他教程将指导您：**
-- **[理解Git和GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[创建GitHub账户](https://planb.network/tutorials/others/create-github-account)**
-- **[设置您的工作环境](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[创建教授资料](https://planb.network/tutorials/others/create-teacher-profile)**
+- **[理解Git和GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+- **[创建GitHub账户](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[设置您的工作环境](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+- **[创建教授资料](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## 在PlanB网络上写什么类型的内容？
 我们主要寻找与比特币或其生态系统相关的工具教程。这些内容可以围绕六个主要类别组织：
 - 钱包；
@@ -121,7 +121,7 @@ bitcoin-educational-content/
     - 中级（`intermediary`），
     - 高级（`advanced`），
     - 专家（`expert`）。
-- **教授**：提供您在教授个人资料上显示的贡献者ID。更多详情，请参考[相应的教程](https://planb.network/fr/tutorials/others/create-teacher-profile)；
+- **教授**：提供您在教授个人资料上显示的贡献者ID。更多详情，请参考[相应的教程](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)；
 - **链接**（可选）：如果您希望为您正在开发的教程信用一个来源网站，比如您自己的个人网站，这里可以添加相关链接。
 ![教程](assets/15.webp)
 - 完成修改您的`tutorial.yml`文件后，通过点击`文件 > 保存`来保存您的文档：
@@ -215,3 +215,4 @@ description: [描述]
 如果你希望在已经提交你的 PR 之后对你的贡献进行修改，接下来的程序取决于你的 PR 的当前状态：
 - 如果你的 PR 仍然是开放的并且尚未被合并，就在同一个分支上本地进行修改。一旦修改完成，使用 `Push origin` 按钮将一个新的提交添加到你仍然开放的 PR 中；
 - 在你的 PR 已经与主分支合并的情况下，你需要从头开始重新进行这个过程，创建一个新的分支，然后提交一个新的 PR。在进行之前确保你的本地仓库与 PlanB Network 的源仓库同步。
+

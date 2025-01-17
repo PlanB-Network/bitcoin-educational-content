@@ -1,9 +1,9 @@
-question: ¿Cuál es la diferencia entre una transacción de cierre y una transacción de compromiso en un cierre cooperativo?
-answer: Una transacción de cierre no tiene Timelock ni clave de revocación.
+question: ¿Por qué es difícil para un nodo transmisor estimar la liquidez exacta de un canal?
+answer: Porque solo los dos participantes conocen la distribución precisa de fondos
 wrong_answers:
-  - Una transacción de cierre tiene Timelock y clave de revocación.
-  - Una transacción de cierre es más lenta que una transacción de compromiso.
-  - Una transacción de cierre es más cara que una transacción de compromiso.
+  - Porque la capacidad total de los canales está cambiando constantemente
+  - Porque las tarifas de los nodos intermediarios no se publican
+  - Porque los canales se cierran automáticamente después de cada transacción
 explanation: |
-  En un cierre cooperativo, los dos participantes acuerdan un estado final del canal y crean una transacción de cierre. Esta transacción es diferente de las transacciones de compromiso porque no tiene Timelock ni clave de revocación.
+  La distribución precisa de fondos en un canal solo es visible para los dos nodos participantes, impidiendo que otros nodos estimen la liquidez disponible para el enrutamiento.
 reviewed: false

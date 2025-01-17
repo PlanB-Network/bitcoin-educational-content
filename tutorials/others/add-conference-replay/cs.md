@@ -10,13 +10,13 @@ Chcete přidat záznam vaší Bitcoinové konference na web síť PlanB Network 
 
 Pokud však chcete přidat konferenci, která se bude konat v budoucnu, doporučuji vám přečíst tento další tutoriál, ve kterém vysvětlujeme, jak přidat novou událost na web.
 
-https://planb.network/tutorials/others/add-event
+https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![konference](assets/01.webp)
 - Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme podrobný tutoriál, který vás provede.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) v sekci `resources/conference/`:
@@ -69,7 +69,7 @@ tags:
 
 ![konference](assets/09.webp)
 Pokud ještě nemáte pro vaši organizaci identifikátor "*builder*", můžete jej přidat podle tohoto dalšího návodu.
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Jakmile dokončíte změny v tomto souboru, uložte je kliknutím na tlačítko `Commit changes...`:
 ![konference](assets/10.webp)

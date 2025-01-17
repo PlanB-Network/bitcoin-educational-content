@@ -1,0 +1,9 @@
+question: V jaké jednotce se měřil hash rate sítě ve druhé polovině roku 2010?
+answer: V GH/s
+wrong_answers:
+  - V MH/s
+  - V TH/s
+  - V PH/s
+explanation: |
+  Hash rate se zvýšil z 1,35 GH/s 13. července na 120 GH/s 31. prosince 2010.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Apa ciri utama Bitcoin yang membedakannya dari cryptocurrency lainnya?
+answer: Bitcoin adalah satu-satunya cryptocurrency yang benar-benar terdesentralisasi, tahan terhadap sensor, gratis, dan serius
+wrong_answers:
+  - Bitcoin adalah satu-satunya cryptocurrency yang dapat ditambang
+  - Bitcoin adalah satu-satunya cryptocurrency yang dapat dibeli atau dijual di platform pertukaran
+  - Bitcoin adalah satu-satunya cryptocurrency yang dapat disimpan dalam dompet
+explanation: |
+  Konten bab menyatakan bahwa Bitcoin adalah satu-satunya cryptocurrency yang benar-benar terdesentralisasi,
+  tahan terhadap sensor, gratis, dan serius yang membenarkan ribuan
+  jam kerja. Ini adalah ciri khas utama yang membedakan Bitcoin dari cryptocurrency
+  lainnya.
+reviewed: false

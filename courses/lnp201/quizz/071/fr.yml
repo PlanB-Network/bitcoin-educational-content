@@ -1,9 +1,0 @@
-question: Quel est le but du facteur de hasard dans le processus de routage du Lightning Network?
-answer: Pour éviter d'utiliser toujours les mêmes routes.
-wrong_answers:
-  - Pour augmenter la complexité du réseau.
-  - Pour diminuer la vitesse des transactions.
-  - Pour compromettre la confidentialité des utilisateurs.
-explanation: |
-  Le facteur de hasard dans le processus de routage du Lightning Network est utilisé pour éviter d'utiliser toujours les mêmes routes. Cela permet de répartir la charge sur le réseau et d'augmenter les chances de trouver une route réussie pour une transaction.
-reviewed: false

@@ -1,9 +1,10 @@
-question: Was ist einer der Hauptgründe, warum Bitcoin erstellt wurde?
-answer: Um einen Versuch zur Veränderung des Finanzsystems vorzuschlagen.
+question: Was ist einer der Hauptgründe für die Schaffung von Bitcoin?
+answer: Den Vorschlag zur Veränderung des Finanzsystems zu unterbreiten.
 wrong_answers:
-  - Um einen Versuch zur Abschaffung von Geld vorzuschlagen.
-  - Um einen Versuch zur Schaffung einer neuen Form von KI-Technologie vorzuschlagen.
-  - Um einen Versuch zur Kontrolle der Weltbevölkerung vorzuschlagen.
+  - Den Vorschlag zur Abschaffung des Geldes zu unterbreiten.
+  - Den Vorschlag zur Schaffung einer neuen Form von KI-Technologie zu unterbreiten.
+  - Den Vorschlag zur Kontrolle der Weltbevölkerung zu unterbreiten.
 explanation: |
-  Der Text erwähnt, dass Satoshi Bitcoin im Jahr 2008 erstellt hat, um einen Versuch zur Veränderung des Finanzsystems vorzuschlagen.
-reviewed: false
+  Im Text wird erwähnt, dass Satoshi Nakamoto Bitcoin im
+  Jahr 2008 erschuf, um den Vorschlag zur Veränderung des Finanzsystems zu unterbreiten.
+reviewed: true

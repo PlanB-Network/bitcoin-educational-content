@@ -1,0 +1,9 @@
+question: Apa salah satu implikasi utama Bitcoin bagi sistem perbankan?
+answer: Ini memungkinkan untuk pembebasan dari sistem perbankan.
+wrong_answers:
+  - Ini memungkinkan untuk kontrol sistem perbankan.
+  - Ini memungkinkan untuk penghapusan sistem perbankan.
+  - Ini memungkinkan untuk korupsi sistem perbankan.
+explanation: >-
+  Teks tersebut menyebutkan bahwa Bitcoin memungkinkan untuk pembebasan dari sistem perbankan.
+reviewed: false

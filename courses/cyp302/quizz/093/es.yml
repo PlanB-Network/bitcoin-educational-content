@@ -1,0 +1,9 @@
+question: ¿Cuál es el tamaño de bloque típico para el cifrado de bloque?
+answer: 64, 128, 192 o 256 bits
+wrong_answers:
+  - 8, 16, 32 o 64 bits
+  - 4, 8, 16 o 32 bits
+  - 256, 512, 1024 o 2048 bits
+explanation: |
+  Los cifrados de bloque procesan datos en bloques de tamaño fijo, típicamente de 64, 128, 192 o 256 bits, para asegurar la seguridad óptima e integridad del cifrado.
+reviewed: false

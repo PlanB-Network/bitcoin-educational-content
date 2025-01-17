@@ -1,0 +1,9 @@
+question: Was ist die Rolle des Kerckhoffschen Prinzips in der Kryptographie?
+answer: Um sicherzustellen, dass die Sicherheit auf dem geheimen Schlüssel beruht und nicht auf der Geheimhaltung des Schemas
+wrong_answers:
+  - Um sicherzustellen, dass die Sicherheit auf der Geheimhaltung des Schemas beruht und nicht auf dem geheimen Schlüssel
+  - Ein sehr langes Verschlüsselungsschlüssel zu fordern
+  - Zu garantieren, dass jede Nachricht einen einzigartigen Schlüssel hat
+explanation: |
+  Nach dem Kerckhoffschen Prinzip sollte die Sicherheit eines kryptographischen Systems ausschließlich auf dem geheimen Schlüssel beruhen und nicht auf der Geheimhaltung des Algorithmus selbst.
+reviewed: false

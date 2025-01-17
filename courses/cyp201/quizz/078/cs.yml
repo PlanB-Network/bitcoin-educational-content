@@ -1,12 +1,9 @@
-question: Jaká je role heslové fráze v Bitcoin peněžence?
-answer: Zvyšuje bezpečnost peněženky
+question: Co znamená prefix `wpkh` v popisu?
+answer: Platba na Witness-PubKey-Hash
 wrong_answers:
-  - Sníží bezpečnost peněženky
-  - Nemá žádný vliv na bezpečnost peněženky
-  - Dělá peněženku více uživatelsky přívětivou
+  - Platba na PubKey
+  - Platba na Script-Hash
+  - Witness Script Hash
 explanation: |
-  Heslová fráze je dodatečné heslo, které může být integrováno do
-  Bitcoin peněženky za účelem zvýšení její bezpečnosti. Přidáním libovolných informací, které
-  společně s mnemonickou frází umožňují výpočet seedu peněženky,
-  heslová fráze zvyšuje její bezpečnost.
+  Prefix `wpkh` označuje SegWit v0 skript používající adresy typu Platba na Witness-Public-Key-Hash.
 reviewed: false

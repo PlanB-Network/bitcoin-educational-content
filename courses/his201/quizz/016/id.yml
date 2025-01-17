@@ -1,0 +1,9 @@
+question: Konsep uang elektronik apa yang secara eksplisit disebutkan oleh Satoshi Nakamoto dalam makalah putih Bitcoin?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Ini adalah referensi pertama. Ini ditambahkan oleh Satoshi pada Agustus 2008 setelah pertukaran pesannya dengan Wei Dai.
+reviewed: false

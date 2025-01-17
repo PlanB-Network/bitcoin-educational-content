@@ -1,0 +1,8 @@
+question: O que é uma assinatura digital no contexto da criptografia assimétrica?
+answer: Um mecanismo para verificar a autenticidade de uma mensagem usando a chave privada
+wrong_answers:
+  - Um processo para criptografar a mensagem de forma mais forte
+  - Uma chave pública adicional para validar uma mensagem criptografada
+  - Uma cópia digital de uma assinatura manuscrita
+explanation: |
+  Uma assinatura digital é uma técnica criptográfica que comprova que uma mensagem foi de fato criada pelo proprietário da chave privada correspondente, garantindo assim sua autenticidade.

@@ -1,10 +1,11 @@
-question: Jaká je jedna z potenciálních obchodních příležitostí, která vyplývá z Lightning Network?
-answer: Nové ekonomické modely, kde spotřebitelé platí za obsah na základě toho, co spotřebují
+question: Jaké jsou některé potenciální obchodní příležitosti, které nabízí Lightning Network?
+answer: Nové ekonomické modely, kde spotřebitelé platí za obsah na základě toho, co spotřebují.
 wrong_answers:
-  - Nové kryptoměny
-  - Nové blockchainové technologie
-  - Nové platební metody
+  - Nové ekonomické modely, kde spotřebitelé platí pomocí různých kryptoměn.
+  - Nové ekonomické modely, kde spotřebitelé používají personalizované blockchainy.
+  - Nové ekonomické modely, kde spotřebitelé neplatí za žádný obsah.
 explanation: >-
-  Lightning Network otevírá množství vzrušujících případů užití pro uživatele Bitcoinu. Výsledné ekonomické modely a obchodní příležitosti jsou četné
+  Lightning Network otevírá množství vzrušujících případů užití pro
+  uživatele Bitcoinu. Výsledné ekonomické modely a obchodní příležitosti jsou četné
   a různorodé, včetně nových ekonomických modelů, kde spotřebitelé platí za obsah na základě toho, co spotřebují.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: Wie funktioniert die Entschlüsselung bei einer Verschiebungschiffre?
+answer: Indem man den Schlüssel von jedem verschlüsselten Buchstaben subtrahiert und Modulo 26 anwendet
+wrong_answers:
+  - Indem man den Schlüssel von jedem verschlüsselten Buchstaben subtrahiert und Modulo 20 anwendet
+  - Indem man den Schlüssel mit jedem verschlüsselten Buchstaben multipliziert
+  - Indem man den Schlüssel von jedem verschlüsselten Buchstaben dividiert und Modulo 27 anwendet
+explanation: |
+  Bei einer Verschiebungschiffre wird die Entschlüsselung durchgeführt, indem man den Schlüssel von jedem verschlüsselten Buchstaben subtrahiert und dann Modulo 26 anwendet, um zum ursprünglichen Text zurückzukehren. Das Modulo 26 ermöglicht es, nach dem Buchstaben Z wieder zum Anfang des Alphabets zurückzukehren.

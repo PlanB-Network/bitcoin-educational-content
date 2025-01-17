@@ -1,9 +1,12 @@
 question: Was ist der Zweck von Transaktionsgebühren bei Bitcoin-Transaktionen?
-answer: Sie sind ein Anreiz für Miner, die Transaktion in den nächsten Block aufzunehmen.
+answer: Sie sind ein Anreiz für Miner, die Transaktion im folgenden Block einzuschließen.
 wrong_answers:
-  - Sie sind eine Steuer, die von der Regierung erhoben wird.
+  - Sie sind eine Steuer, die von der Regierung auferlegt wird.
   - Sie sind eine Gebühr, die vom Bitcoin-Netzwerk für die Nutzung seiner Dienste erhoben wird.
-  - Sie sind eine Gebühr, die vom Wallet-Anbieter erhoben wird.
+  - Sie sind eine Gebühr, die vom Wallet-Anbieter berechnet wird.
 explanation: |
-  Transaktionsgebühren bei Bitcoin-Transaktionen dienen als Anreiz für Miner, die Transaktion in den nächsten Block aufzunehmen. Die Gebühren schaffen einen freien Markt für die Aufnahme von Transaktionen in Blöcken.
-reviewed: false
+  Transaktionsgebühren bei Bitcoin-Transaktionen dienen als
+  Anreiz für Miner, die Transaktion im nächsten
+  Block einzuschließen. Die Gebühren schaffen einen freien Markt für das Einbeziehen von
+  Transaktionen in Blöcke.
+reviewed: true

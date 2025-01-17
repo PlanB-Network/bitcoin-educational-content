@@ -1,11 +1,12 @@
-question: O que você deve fazer após escrever as palavras da sua frase mnemônica?
-answer: Faça uma segunda cópia e guarde-a em um local separado
+question: O que você deve fazer uma vez que as palavras da sua frase mnemônica estejam escritas?
+answer: Faça uma segunda cópia e guarde-a em um local separado.
 wrong_answers:
-  - Compartilhe com um amigo de confiança
-  - Envie para si mesmo por e-mail
-  - Guarde no seu telefone
+  - Compartilhe com um amigo de confiança.
+  - Envie para si mesmo por e-mail.
+  - Guarde no seu telefone.
 explanation: |
-  Uma vez que as palavras da sua frase mnemônica estejam escritas, é recomendado
-  fazer uma segunda cópia e guardá-la em um local separado da primeira. Isso oferece
-  uma reserva em caso de perda ou acidente com a primeira cópia.
-reviewed: false
+  Uma vez que as palavras da sua frase mnemônica estejam escritas, é
+  recomendado fazer uma segunda cópia e guardá-la em um
+  local separado da primeira. Isso fornece um backup em
+  caso de perda ou acidente com a primeira cópia.
+reviewed: true

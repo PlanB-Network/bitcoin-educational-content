@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus SHA256 ja RIPEMD160 vahel?
+answer: RIPEMD160 toodab lühemaid räsiväärtusi kui SHA256
+wrong_answers:
+  - SHA256 on vananenud, erinevalt RIPEMD160-st
+  - RIPEMD160 kasutatakse ainult Proof-of-Work mehhanismis
+  - SHA256-i ei kombineerita kunagi teiste räsimisfunktsioonidega
+explanation: |
+  RIPEMD160 genereerib 160-bitiseid räsiväärtusi, samas kui SHA256 toodab 256-bitiseid räsiväärtusi.
+reviewed: false

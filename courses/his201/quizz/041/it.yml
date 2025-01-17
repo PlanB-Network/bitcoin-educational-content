@@ -1,0 +1,9 @@
+question: In quale data Jeremy Sturdivant ha consegnato due pizze a Laszlo Hanyecz in cambio di un pagamento di 10.000 bitcoin, segnando il primo acquisto di un bene fisico con criptovaluta?
+answer: 22 maggio 2010
+wrong_answers:
+  - 12 ottobre 2009
+  - 18 aprile 2010
+  - 11 giugno 2010
+explanation: |
+  Seguendo un annuncio pubblicato sul forum, l'offerta è stata accettata il 22 maggio 2010. In quel momento, i 10.000 bitcoin avevano un valore di circa $44.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hvorfor anses engangsnøkkelen som en sikker krypteringsmetode?
+answer: Fordi hvert bit av nøkkelen er tilfeldig og ingen del blir gjenbrukt
+wrong_answers:
+  - Fordi den bruker en tilfeldig offentlig og privat nøkkel
+  - Fordi den er avhengig av primtall
+  - Fordi den kun krypterer små meldinger
+explanation: |
+  Engangsnøkkelen er sikker fordi hvert bit av nøkkelen er tilfeldig og aldri blir gjenbrukt, noe som sikrer at den ikke etterlater utnyttbare spor for en angriper.

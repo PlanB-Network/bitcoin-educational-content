@@ -1,10 +1,9 @@
-question: Come si chiama l'evento quando la ricompensa per l'estrazione delle transazioni Bitcoin viene dimezzata?
+question: Come si chiama l'evento in cui la ricompensa per il mining delle transazioni Bitcoin viene dimezzata?
 answer: Halving
 wrong_answers:
   - Raddoppio
-  - Quadruplicazione
+  - Quarto
   - Triplicazione
 explanation: |
-  La riduzione programmata delle ricompense per l'estrazione, dimezzata ogni quattro anni,
-  è un evento noto come "halving".
-reviewed: false
+  La riduzione programmata delle ricompense di mining, che avviene ogni quattro anni, è un evento noto come halving.
+reviewed: vero

@@ -1,0 +1,8 @@
+question: 2011年3月に最初の高品質なビットコインに関するビデオを制作したのは誰ですか？
+answer: Stefan Thomas
+wrong_answers:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+explanation: |
+  このビデオは、「What is Bitcoin?」というタイトルで、コミュニティによるクラウドファンディングを通じて制作されました。

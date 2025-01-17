@@ -1,0 +1,8 @@
+question: Mis on JBOK rahakottide peamine piirang?
+answer: Iga privaatvõtme jaoks on vajalik eraldi varukoopia
+wrong_answers:
+  - Need ei võimalda uute aadresside genereerimist
+  - Need ei ühildu digitaalallkirjadega
+  - Need kasutavad tihendamata avalikke võtmeid
+explanation: |
+  JBOK rahakotid sunnivad kasutajat iga privaatvõtit eraldi varundama, muutes nende haldamise keerukamaks.

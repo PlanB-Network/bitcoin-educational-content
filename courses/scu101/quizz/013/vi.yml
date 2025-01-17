@@ -1,9 +1,13 @@
 question: Tại sao sử dụng nhà cung cấp điểm truy cập Wi-Fi của châu Âu, như SNCF, lại an toàn hơn?
-answer: Họ không bán lại dữ liệu kết nối của người dùng do quy định của GDPR.
+answer: Họ không được phép bán lại dữ liệu kết nối của người dùng, do quy định của GDPR.
 wrong_answers:
-  - Họ cung cấp tốc độ internet nhanh hơn.
-  - Họ cho phép người dùng vượt qua các hạn chế địa lý.
-  - Họ chặn quảng cáo trực tuyến.
+  - Họ cung cấp tốc độ internet nhanh hơn so với các nhà cung cấp của Mỹ.
+  - Họ thường cho phép người dùng vượt qua các hạn chế địa lý.
+  - Họ chặn quảng cáo trực tuyến nếu bạn được xác định là công dân châu Âu.
 explanation: |
-  Tại Liên minh Châu Âu, việc bảo vệ dữ liệu được điều chỉnh bởi Quy định Bảo vệ Dữ liệu Chung (GDPR). Do đó, các nhà cung cấp điểm truy cập Wi-Fi của châu Âu, như SNCF, không bán lại dữ liệu kết nối của người dùng, làm cho việc sử dụng của họ an toàn hơn.
-reviewed: false
+  Tại Liên minh châu Âu, bảo vệ dữ liệu được quy định bởi
+  Quy định Bảo vệ Dữ liệu Chung (GDPR). Do đó,
+  các nhà cung cấp điểm truy cập Wi-Fi của châu Âu, như SNCF, không
+  bán lại dữ liệu kết nối của người dùng, làm cho việc sử dụng chúng an toàn hơn từ
+  góc độ bảo vệ quyền riêng tư cá nhân.
+reviewed: true

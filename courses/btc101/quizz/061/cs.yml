@@ -1,10 +1,11 @@
-question: Jak se nazývá událost, kdy je odměna za těžbu snížena na polovinu?
+question: Jak se jmenuje událost, kdy je odměna za těžbu snížena na polovinu?
 answer: Halving
 wrong_answers:
   - Zdvojnásobení
   - Čtvrtění
   - Ztrojnásobení
 explanation: |
-  Událost, kdy je odměna za těžbu snížena na polovinu, se nazývá halving. Tato
-  událost dává křivce měnového vydávání tvar podobný schodům.
-reviewed: false
+  Událost, kdy je odměna za těžbu snížena na polovinu, se nazývá
+  halving. Tato událost dává křivce měnového vydávání
+  schodovitý tvar.
+reviewed: true

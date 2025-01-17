@@ -1,0 +1,11 @@
+question: Mis on küpsised veebisirvimise kontekstis?
+answer: Veebilehtede loodud failid teie seadmes teabe salvestamiseks.
+wrong_answers:
+  - Väikesed andmepalad, mis saadetakse veebilehelt ja salvestatakse kasutaja arvutis kasutaja veebibrauseri poolt.
+  - Programmid, mis jälgivad teie veebitegevust.
+  - Viirused, mis võivad teie seadet kahjustada.
+explanation: |
+  Veebisirvimise kontekstis on küpsised veebilehtede loodud failid,
+  mis salvestavad teie seadmesse teavet. Neid kasutatakse teie eelistuste,
+  sisselogimisinfo ja muude andmete meeldejätmiseks, et parandada teie sirvimiskogemust.
+reviewed: false

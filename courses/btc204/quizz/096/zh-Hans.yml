@@ -1,0 +1,11 @@
+question: 回顾性匿名集指的是什么？
+
+answer: 在周期结束时，一个UTXO的可能来源数量。
+
+wrong_answers:
+  - 在周期结束时，不可区分UTXO群体的大小。
+  - 在周期开始时，一个UTXO的可能来源数量。
+  - 完成一个coinjoin所需的时间。
+
+explanation:
+  回顾性匿名集指的是考虑到周期结束时的UTXO，给定硬币的可能来源数量。

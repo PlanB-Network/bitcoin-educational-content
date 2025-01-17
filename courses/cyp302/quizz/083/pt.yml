@@ -1,0 +1,9 @@
+question: Por que os cifras de fluxo pseudorrandômicos são mais comumente usados na prática do que os blocos de uma única vez?
+answer: Eles permitem o uso de uma chave mais curta enquanto geram um fluxo de chave mais longo
+wrong_answers:
+  - Eles não requerem uma chave secreta
+  - Eles usam uma combinação de criptografia simétrica e assimétrica
+  - Eles não precisam de atualizações de chave
+explanation: |
+  As cifras de fluxo pseudorrandômicas são mais práticas porque permitem que uma chave curta seja estendida em um fluxo de chave mais longo, evitando a necessidade de armazenar uma chave tão longa quanto a própria mensagem.
+reviewed: false

@@ -15,7 +15,7 @@ Em outras palavras, é aconselhável armazenar seus arquivos em 3 locais diferen
 
 Para implementar facilmente esta estratégia de backup 3-2-1, você pode optar por uma solução de armazenamento online, sincronizando automaticamente ou periodicamente os arquivos do seu computador com aqueles na sua nuvem. Entre essas soluções de backup online, há obviamente aquelas de grandes empresas digitais que você conhece: Google Drive, Microsoft OneDrive ou Apple iCloud. No entanto, estas não são as melhores soluções para proteger sua privacidade. Em um tutorial anterior, apresentei a você uma alternativa que criptografa seus documentos para melhor confidencialidade: Proton Drive.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Ao adotar esta estratégia de backup local e na nuvem, você já beneficia de dois tipos diferentes de mídia para seus dados, um dos quais é fora do local. Para completar a estratégia 3-2-1, você simplesmente precisa adicionar uma cópia adicional. O que aconselho você a fazer é simplesmente exportar periodicamente seus dados presentes localmente e na sua nuvem para um meio físico, como um pendrive ou um disco rígido externo. Desta forma, mesmo que os servidores da sua solução de armazenamento online sejam destruídos e seu computador quebre simultaneamente, você ainda tem essa terceira cópia em um meio externo para não perder seus dados.
 ![VeraCrypt](assets/notext/01.webp)

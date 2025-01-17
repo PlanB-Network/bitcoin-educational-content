@@ -1,12 +1,9 @@
-question: What does Alice do with the UTXO of 0.0007 BTC when she opens a channel
-  with Bob?
-answer: She sends it to one of her change addresses.
+question: What does the revocation key allow to do in case of cheating?
+answer: Recover all the funds by punishing the cheater
 wrong_answers:
-  - She sends it to Bob's public address.
-  - She sends it to the 2/2 multi-sig address.
-  - She keeps it in her own address.
+  - Cancel the commitment transaction
+  - Double the channel's capacity
+  - Prevent any further transactions in the channel
 explanation: |
-  When Alice opens a channel with Bob, she creates a transaction with 2
-  UTXOs as output. One UTXO of 0.0013 BTC goes to the 2/2 multi-sig address, and the
-  other UTXO of 0.0007 BTC goes to one of her change addresses.
+  The revocation key allows the aggrieved party to recover all the funds in the event of an attempted cheat by the other party.
 reviewed: false

@@ -1,9 +1,0 @@
-question: Wie groß ist ein erweiterter Schlüssel?
-answer: 82 Bytes
-wrong_answers:
-  - 65 Bytes
-  - 33 Bytes
-  - 512 Bits
-explanation: |
-  Erweiterte Schlüssel haben eine Größe von 82 Bytes und ihr Präfix wird durch eine hexadezimale Umwandlung in Basis 58 dargestellt.
-reviewed: false

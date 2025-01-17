@@ -1,0 +1,9 @@
+question: Mikä on itävaltalaisten kritiikki Marxin työnarvoteoriaa kohtaan?
+answer: Itävaltalaiset väittävät, että arvo on subjektiivinen ja määräytyy kuluttajien mieltymysten mukaan, ei työn kautta.
+wrong_answers:
+  - He väittävät, että Marxin teoria ei ota huomioon työn vaikeutta.
+  - Itävaltalaiset kritisoivat Marxin teoriaa, koska se on tehottomuutta.
+  - Itävaltalaiset kritisoivat Marxin teoriaa, koska työarvo on porvarillinen hyve.
+explanation: |
+  Itävaltalainen koulu pitää arvoa subjektiivisena, yksilöiden mieltymysten määrittelemänä, toisin kuin marxilainen teoria, joka yhdistää arvon työaikaan ja -panokseen.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Mis on põhimõtteline erinevus hinnatõusu ja inflatsiooni vahel?
+answer: Hinnatõus võib olla sektorispetsiifiline ja erinevate tegurite poolt esile kutsutud, samas kui inflatsioon on määratletud kui üldine hinnatõus erinevate kaupade ja teenuste lõikes.
+wrong_answers:
+  - Hinnatõus on üldine hinnatõus erinevate kaupade ja teenuste lõikes, samas kui inflatsioon on sektorispetsiifiline ja erinevate tegurite poolt esile kutsutud.
+  - Hinnatõus ja inflatsioon on sama, mõlemad viitavad üldisele hinnatõusule erinevate kaupade ja teenuste lõikes.
+  - Hinnatõus viitab hindade langusele, samas kui inflatsioon viitab hindade tõusule.
+explanation: |
+  Peatükk selgitab, et hinnatõus võib olla sektorispetsiifiline ja
+  esile kutsutud erinevate tegurite poolt, nagu näiteks OPECi tootmise vähenemine nafta puhul või ebasoodsad
+  ilmastikutingimused nisu jaoks. Teisest küljest on inflatsioon määratletud kui üldine
+  hinnatõus erinevate kaupade ja teenuste lõikes, mitte ainult konkreetses
+  sektoris.
+reviewed: false

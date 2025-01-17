@@ -8,7 +8,7 @@ PlanB missiooniks on pakkuda tipptasemel haridusressursse Bitcoin'i kohta võima
 
 **Kas soovite lisada PlanB võrgustiku saidile Bitcoin'iga seotud raamatu ja suurendada oma töö nähtavust, kuid ei tea, kuidas? See õpetus on teile!**
 ![raamat](assets/01.webp)
-- Esiteks peate omama GitHub'i kontot. Kui te ei tea, kuidas kontot luua, oleme koostanud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/create-github-account).
+- Esiteks peate omama GitHub'i kontot. Kui te ei tea, kuidas kontot luua, oleme koostanud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Minge [PlanB-le pühendatud GitHub'i andmerepositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) jaotisesse `resources/books/`:
 ![raamat](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:

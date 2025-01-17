@@ -14,7 +14,7 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 ![event](assets/01.webp)
 - まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet)に移動します：
@@ -50,7 +50,7 @@ contributors:
 ```yaml
 builder: 組織の識別子をPlanB Network上で指定します。もしまだ会社用の「builder」識別子を持っていない場合は、このチュートリアルに従って作成することができます。
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 もし持っていない場合は、builderプロファイルを作成せずに、あなたの名前、偽名、または会社の名前をそのまま使用できます。
 type: コンテンツの性質を以下の二つのオプションから選択してください：

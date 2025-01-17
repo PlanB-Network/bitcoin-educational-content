@@ -1,0 +1,14 @@
+question: Hva betyr ordtaket Ikke din hashrate, ikke din belønning i sammenheng med Bitcoin-mining?
+answer: Hvis du ikke kontrollerer hashraten, kontrollerer du ikke belønningene fra mining.
+wrong_answers:
+  - Hvis du ikke har en høy hashrate, vil du ikke få noen belønninger.
+  - Hvis du ikke eier Bitcoin, vil du ikke få noen belønninger.
+  - Hvis du ikke har en mining-maskin, vil du ikke få noen belønninger.
+explanation: |
+  Ordtaket Ikke din hashrate, ikke din belønning er likt
+  det velkjente ordtaket i verden av kryptovalutaer,
+  Ikke dine nøkler, ikke dine Bitcoins. Det betyr at hvis du
+  ikke kontrollerer hashraten, kontrollerer du ikke
+  belønningene fra mining. Dette er fordi belønningene fra mining er
+  direkte proporsjonale med hashraten.
+reviewed: true

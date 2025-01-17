@@ -1,0 +1,13 @@
+question: Mis on peamine puudus coinide vahetamisel ja aatomvahetustel privaatsuse seisukohast?
+
+answer: Need ei katkesta vahetatud müntide ajalugu
+
+wrong_answers:
+  - Need on tehingutasude poolest väga kulukad
+  - Need nõuavad osapoolte vahel isikliku teabe vahetamist
+  - Neid võib analüüsida vahetusplatvormide poolt
+
+explanation: |
+  Nende meetodite peamine puudus on see, et ilma täiendava tehnikata, mis katkestaks mündi ajaloo, on need väga riskantsed.
+
+reviewed: false

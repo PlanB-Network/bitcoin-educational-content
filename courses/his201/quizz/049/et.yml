@@ -1,0 +1,9 @@
+question: Milline oli Bitcoini hinna kõikumine nädalal pärast selle tutvustamist Slashdotis?
+answer: $0.008-st $0.08-ni
+wrong_answers:
+  - $0.001-st $0.008-ni
+  - $0.08-st $0.50-ni
+  - $0.50-st $1-ni
+explanation: |
+  See kõikumine vastas kümnekordsele tõusule! Hash rate koges sarnast hüpet.
+reviewed: false

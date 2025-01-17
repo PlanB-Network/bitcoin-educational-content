@@ -1,11 +1,13 @@
-question: Which of these are not an advantage of Bitcoin as a currency?
-answer: It is used to pay taxes 
+question: Which of the following is not an advantage of Bitcoin as a currency?
+answer: It is used to pay taxes.
 wrong_answers:
-  - It is divisible
-  - It is transportable
-  - It is permisionless money 
-explanation: >-
-  Bitcoin, due to its properties such as its dvisibility, verifiability, permisionless aspect and transportability, offers
-  an excellent store of value. Moreover, as a neutral internet currency, it represents
-  a good medium of exchange that knows no borders.
+  - It is divisible.
+  - It is transportable.
+  - It is permissionless.
+explanation: |
+  Bitcoin, due to its properties such as its divisibility,
+  verifiability, permision-less aspect and transportability,
+  offers an excellent store of value. Moreover, as a neutral
+  internet currency, it represents a good medium of exchange
+  that knows no borders.
 reviewed: true

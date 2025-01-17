@@ -1,5 +1,5 @@
 ---
-name: OXT - Ahelanalüüs
+name: OXT - Chain Analysis
 description: Omanda Bitcoinil põhineva ahelanalüüsi algtõed
 ---
 ![kaas](assets/cover.webp)
@@ -62,7 +62,7 @@ Lihtsustatult öeldes tehakse ahela analüüs kahe peamise sammuna:
 Mäletage minu sissejuhatust. Selgitasin, miks Bitcoin'i privaatsusmudel algselt tugines kasutaja identiteedi eraldamisele nende tehingutest. Seega võiks arvata, et ahela analüüs on tarbetu, kuna isegi kui õnnestub grupeerida ahelategevusi, ei saa neid seostada reaalse identiteediga. Teoreetiliselt on see väide täpne. Krüptograafilisi võtmepaare kasutatakse UTXO-de tingimuste kehtestamiseks. Olemuselt ei avalda need võtmepaarid mingit teavet oma hoidjate identiteedi kohta. Seega, isegi kui õnnestub grupeerida tegevusi, mis on seotud erinevate võtmepaaridega, ei ütle see meile midagi nende tegevuste taga oleva üksuse kohta.
 Siiski on praktiline reaalsus palju keerulisem. On mitmeid käitumisi, mis seovad reaalse identiteedi ahelas toimuva tegevusega. Analüüsis nimetatakse seda sisenemispunktiks ja neid on palju. Kõige tavalisem, muidugi, on KYC (Know Your Customer). Kui võtate oma bitcoine reguleeritud platvormilt välja ühele oma isiklikule vastuvõtu aadressile, siis mõned inimesed suudavad teie identiteedi selle aadressiga seostada. Laiemalt võttes võib sisenemispunkt olla igasugune suhtlus teie reaalse elu ja Bitcoin tehingu vahel. Näiteks, kui avaldate oma vastuvõtu aadressi oma sotsiaalvõrgustikes, võib see olla analüüsi jaoks sisenemispunkt. Kui teete oma pagarile makse bitcoinides, võivad nad seostada teie näo (mis on osa teie identiteedist) Bitcoin aadressiga. Need sisenemispunktid on Bitcoini kasutamisel peaaegu vältimatud. Kuigi võib püüda nende ulatust piirata, jäävad need siiski olemasolevaks. Seetõttu on oluline ühendada meetodid, mille eesmärk on teie privaatsuse säilitamine. Kuigi teie reaalse identiteedi ja tehingute vahelise aktsepteeritava eraldatuse säilitamine on kiiduväärt lähenemine, jääb see siiski ebapiisavaks. Tõepoolest, kui kõik teie ahelas toimuvad tegevused saab kokku grupeerida, siis isegi väikseim sisenemispunkt võib kompromiteerida selle ühe privaatsuse kihi, mille olite loonud.
 
-Seetõttu on vajalik tegeleda ka ahela analüüsiga meie Bitcoini kasutamisel. Tehes seda, saame minimeerida oma tegevuste koondumist ja piirata sisenemispunkti mõju meie privaatsusele. Täpsemalt, ahela analüüsi vastu võitlemiseks, mis parem viis kui tutvuda ahela analüüsis kasutatavate meetoditega? Kui soovite teada, kuidas oma privaatsust Bitcoinis parandada, peate mõistma neid meetodeid. See võimaldab teil paremini mõista tehnikaid nagu [Coinjoin](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet) või [Payjoin](https://planb.network/en/tutorials/privacy/payjoin) ning vähendada vigu, mida võite teha.
+Seetõttu on vajalik tegeleda ka ahela analüüsiga meie Bitcoini kasutamisel. Tehes seda, saame minimeerida oma tegevuste koondumist ja piirata sisenemispunkti mõju meie privaatsusele. Täpsemalt, ahela analüüsi vastu võitlemiseks, mis parem viis kui tutvuda ahela analüüsis kasutatavate meetoditega? Kui soovite teada, kuidas oma privaatsust Bitcoinis parandada, peate mõistma neid meetodeid. See võimaldab teil paremini mõista tehnikaid nagu [Coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) või [Payjoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) ning vähendada vigu, mida võite teha.
 
 Sellega saame tõmmata analoogia krüptograafia ja krüptoanalüüsi vahel. Hea krüptograaf on eelkõige hea krüptoanalüütik. Uue krüpteerimisalgoritmi väljamõtlemiseks peab teadma, milliste rünnakutega see silmitsi seisab, ja uurima ka, miks eelmised algoritmid murdusid. Sama põhimõte kehtib Bitcoini privaatsuse kohta. Ahela analüüsi meetodite mõistmine on võti selle vastu kaitsmiseks. Seetõttu pakun teile seda artiklit.
 
@@ -267,7 +267,7 @@ Faktiliselt ei eksisteeri see nõudeõigus privaatsusele Bitcoinis. Seega on tei
 ### Vältimaks langemist euristikasse
 Esiteks, enne radikaalsemate meetodite kaalumist, on soovitatav piirata meie kokkupuudet ahelaanalüüsi kasutatavate heuristikatega nii palju kui võimalik. Nagu varem mainitud, on kaks kõige võimsamat heuristikat aadresside taaskasutamine ja COINJOIN.
 Põhiprintsiip oma privaatsuse tagamiseks Bitcoinis seisneb iga saabuva tehingu jaoks uue, puhta aadressi kasutamises oma rahakotis. Aadresside taaskasutamine on tõepoolest peamine oht konfidentsiaalsusele Bitcoinis.
-Üksikule kasutajale on iga saabuva makse jaoks uue aadressi genereerimine väga lihtne. Kaasaegsed rahakotid teevad seda automaatselt kohe, kui klõpsate "Vasta". Seega, kui teie tehingute privaatsus on teile vähemalt natuke oluline, siis värske aadresside kasutamine on absoluutne miinimum. Kui vajate internetis staatilist kontaktipunkti, siis aadressi panemise asemel võite kasutada lahendusi [nagu PayNym, mis rakendab BIP47](https://planb.network/en/tutorials/privacy/paynym-bip47).
+Üksikule kasutajale on iga saabuva makse jaoks uue aadressi genereerimine väga lihtne. Kaasaegsed rahakotid teevad seda automaatselt kohe, kui klõpsate "Vasta". Seega, kui teie tehingute privaatsus on teile vähemalt natuke oluline, siis värske aadresside kasutamine on absoluutne miinimum. Kui vajate internetis staatilist kontaktipunkti, siis aadressi panemise asemel võite kasutada lahendusi [nagu PayNym, mis rakendab BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 Järgmisena, kui soovite võidelda ahelaanalüüsi vastu, vältige UTXO-de ühendamist tehingu sisendis. Minimaalselt, kui peate tõesti ühendama, eelistage UTXO-sid, millel on sama allikas. See soovitus tähendab teie UTXO-de hea haldamise vajadust. Oma bitcoinide ostmisel eelistage suurte summadega ülekandeid, et maksimeerida maksete arvu, mida saate teha ilma ühendamata. Soovitan teil ka oma tarkvaras UTXO-sid märgistada, et tuvastada nende päritolu ja vältida erinevatest allikatest ühendamist.
 
 Laiemalt, kõigi teiste heuristikate puhul, peate neid tundma, et proovida neisse mitte sattuda:
@@ -282,15 +282,15 @@ Laiemalt, kõigi teiste heuristikate puhul, peate neid tundma, et proovida neiss
 Samuti võite pöörduda meetodite poole, mis muudavad teie Bitcoini kasutamise ebaselgeks, et vältida või petta ahelaanalüüsi.
 
 Kõige populaarsem tehnika on kindlasti Coinjoin, koostööaline tehingustruktuur, mis mobiliseerib mitu sama summa UTXO-d. Siin on eesmärk katkestada deterministlikud seosed, takistades seeläbi analüüse minevikust olevikku ja olevikust minevikku. Coinjoin võimaldab usutavat eitamist, peites teie mündid suure hulga eristamatute müntide seas. Kui soovite Coinjoini kohta rohkem teada saada, nii tehniliselt kui ka praktiliselt, soovitan teil lugeda neid teisi artikleid ja õpetusi:
-- [COINJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet);
-- [COINJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet);
-- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/en/tutorials/privacy/wst-anonsets).
+- [COINJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [COINJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 ![analüüs](assets/en/13.webp)
 
 CoinJoin on suurepärane vahend müntide usutava eitamise loomiseks, kuid see ei ole optimeeritud kõigi kasutajate privaatsusvajaduste jaoks. Eelkõige ei ole CoinJoin kavandatud maksevahendiks. See on väga jäik vahetatavate summade osas, et täiustada usutava eitamise tootmist. Kuna tehingu väljundite summat ei saa vabalt valida, ei saa CoinJoini kasutada bitcoinides maksete tegemiseks.
 Näiteks kujutage ette, et tahan oma baguette'i eest maksta bitcoinides, optimeerides samal ajal oma privaatsust. Arvestades võimatust valida CoinJoin'i tulemusena saadava UTXO summat, leian end olukorrast, kus ei suuda oma kulutuse summat pagari määratud hinnaga kohandada. Seetõttu osutub CoinJoin maksetehingute jaoks ebapiisavaks.
 
-Teisi vahendeid on välja mõeldud, et rahuldada privaatsusvajadusi rohkem spetsiifilistes kasutusjuhtumites. Näiteks on meil [PayJoin](https://planb.network/en/tutorials/privacy/payjoin), omamoodi mini-CoinJoin, mis hõlmab ainult kahte osalejat ja põhineb struktuuril, mis võimaldab makset.
+Teisi vahendeid on välja mõeldud, et rahuldada privaatsusvajadusi rohkem spetsiifilistes kasutusjuhtumites. Näiteks on meil [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), omamoodi mini-CoinJoin, mis hõlmab ainult kahte osalejat ja põhineb struktuuril, mis võimaldab makset.
 
 PayJoin'i ainulaadsus seisneb selles, et see suudab toota tehingu, mis näeb välja tavaline, kuigi tegelikult on see mini-CoinJoin kahe kasutaja vahel. Selles struktuuris osaleb tehingu saaja sisendites koos tegeliku saatjaga. Seega sisestab saaja tehingusse endale makse, mis hõlbustab tegelikku makset.
 
@@ -305,15 +305,15 @@ PayJoin'i teine eesmärk on petta analüütikut tegeliku tehingu summa osas, tä
 
 Tõepoolest, kui me vaatame uuesti meie näidet PayJoin'i kasutamisest baguette'i ostmiseks, võib väline vaatleja arvata, et tegemist on 4,000 satsi või 21,000 satsi maksega. Tegelikkuses on baguette'i eest makse 6,000 satsi: 21,000 - 15,000 = 6,000. Tegelik makseväärtus on seega peidetud võltsmakse sisse, mis toimib ahela analüüsi petukaubana.
 
-PayJoin'i ja CoinJoin'i kõrval on palju muid Bitcoin'i tehingustruktuure, mis kas blokeerivad ahela analüüsi või petavad seda. Nende hulgas võiksin mainida [Stonewall](https://planb.network/en/tutorials/privacy/stonewall) ja [StonewallX2](https://planb.network/en/tutorials/privacy/stonewall-x2) tehinguid, mis võimaldavad kas teha paindliku mini CoinJoin'i või jäljendada paindlikku mini CoinJoin'i. On ka [Ricochet](https://planb.network/en/tutorials/privacy/ricochet) tehinguid, mis simuleerivad bitcoinide omandiõiguse muutust, tehes mitmeid võltsülekandeid iseendale.
+PayJoin'i ja CoinJoin'i kõrval on palju muid Bitcoin'i tehingustruktuure, mis kas blokeerivad ahela analüüsi või petavad seda. Nende hulgas võiksin mainida [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) ja [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) tehinguid, mis võimaldavad kas teha paindliku mini CoinJoin'i või jäljendada paindlikku mini CoinJoin'i. On ka [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) tehinguid, mis simuleerivad bitcoinide omandiõiguse muutust, tehes mitmeid võltsülekandeid iseendale.
 
 Kõik need vahendid on saadaval Samourai Wallet'is mobiilis ja Sparrow Wallet'is PC-l. Kui soovite rohkem teada saada nende spetsiifiliste tehingustruktuuride kohta, soovitan teil avastada minu õpetused:
-- [PAYJOIN](https://planb.network/en/tutorials/privacy/payjoin);
-- [PAYJOIN - SAMOURAI RAHAKOTT](https://planb.network/en/tutorials/privacy/payjoin-samourai-wallet);
-- [PAYJOIN - SPARROW RAHAKOTT](https://planb.network/en/tutorials/privacy/payjoin-sparrow-wallet);
-- [STONEWALL](https://planb.network/en/tutorials/privacy/stonewall);
-- [STONEWALL X2](https://planb.network/en/tutorials/privacy/stonewall-x2);
-- [RICOCHET](https://planb.network/en/tutorials/privacy/ricochet).
+- [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PAYJOIN - SAMOURAI RAHAKOTT](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PAYJOIN - SPARROW RAHAKOTT](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## Järeldus
 Ahela analüüs on praktika, mis hõlmab bitcoini tehingute ahelas jälgimist. Selleks otsivad analüütikud mustreid ja omadusi, et teha rohkem või vähem tõenäolisi hüpoteese ja tõlgendusi.
@@ -332,3 +332,9 @@ Bitcoini kasutajana on oluline valdada ahela analüüsi põhiprintsiipe, et seda
 
 **P2WPKH:** lühend väljendist Pay to Witness Public Key Hash. See on standardne skriptimudel, mida kasutatakse kulutamistingimuste seadmiseks UTXO-le. P2WPKH tutvustati SegWiti rakendamisega augustis 2017. See skript on sarnane P2PKH-ga (Pay to Public Key Hash), kuna see samuti lukustab bitcoine avaliku võtme räsi põhjal, st vastuvõtu aadressil. Erinevus seisneb selles, kuidas allkirjad ja skriptid on tehingusse kaasatud. P2WPKH puhul liigutatakse allkirjaskripti teave (ScriptSig) traditsioonilisest tehingustruktuurist eraldi sektsiooni nimega Witness. See liigutus on SegWiti (Segregated Witness) uuenduse omadus. Sellel tehnikal on eelis tehinguandmete suuruse vähendamisel põhikehas, säilitades samal ajal vajaliku skriptiteabe valideerimiseks eraldi sektsioonis. Seetõttu on P2WPKH tehingud üldiselt vähem kulukad tasude osas võrreldes Legacy tehingutega. P2WPKH aadressid on kirjutatud kasutades Bech32 kodeeringut, mis aitab kaasa lühemale ja vähem eksimustele altuvale kirjutamisele tänu BCH kontrollsummale. Need aadressid algavad alati bc1q-ga, muutes need kergesti eristatavaks Legacy vastuvõtu aadressidest. P2WPKH on versioon 0 SegWit väljund.
 **UTXO:** Lühend väljendist Kasutamata Tehingu Väljund. UTXO on tehingu väljund, mida ei ole veel kulutatud ega kasutatud uue tehingu sisendina. UTXO-d esindavad bitcoini kasutaja omandis olevat ja hetkel kulutamiseks saadaolevat bitcoini osa. Iga UTXO on seotud kindla väljundskriptiga, mis määratleb bitcoini kulutamiseks vajalikud tingimused. Bitcoinis tarbivad tehingud neid UTXO-sid sisenditena ja loovad uusi UTXO-sid väljunditena. UTXO mudel on Bitcoinile fundamentaalne, kuna see võimaldab lihtsalt kontrollida, et tehingud ei ürita kulutada olematuid või juba kulutatud bitcoine. Sisuliselt on UTXO tükk Bitcoinist.
+
+
+
+
+
+

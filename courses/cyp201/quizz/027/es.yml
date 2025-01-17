@@ -1,9 +1,8 @@
-question: ¿Qué almacena una billetera de Bitcoin?
-answer: Las claves privadas necesarias para demostrar la propiedad de los bitcoins.
+question: ¿Qué vulnerabilidad de la firma ECDSA fue corregida por SegWit?
+answer: Maleabilidad
 wrong_answers:
-  - Los bitcoins en sí mismos.
-  - Las claves públicas necesarias para demostrar la propiedad de los bitcoins.
-  - El historial de transacciones de los bitcoins.
+  - Verificación por lotes
+  - Falta de agregación
+  - Tamaño excesivo de las firmas
 explanation: |
-  En realidad, una billetera de Bitcoin almacena las claves privadas necesarias para demostrar la propiedad de los bitcoins. Los bitcoins en sí mismos se registran en la cadena de bloques, una base de datos descentralizada que archiva todas las transacciones.
-reviewed: false
+  SegWit corrigió la maleabilidad de las firmas ECDSA, permitiendo usos como la Red Lightning.

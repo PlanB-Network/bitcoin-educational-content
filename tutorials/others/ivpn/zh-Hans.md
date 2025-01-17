@@ -110,8 +110,8 @@ IVPN将会创建您的账户。您无需提供任何个人数据。只需通过�
 ![IVPN](assets/notext/32.webp)
 现在您已经准备好充分享受IVPN了。如果您还想通过使用本地密码管理器来增强您在线账户的安全性，我邀请您查看我们关于KeePass的教程，这是一个免费且开源的解决方案：
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 如果您对发现另一个类似于IVPN的VPN提供商感兴趣，无论是在功能还是定价方面，我还推荐您查看我们关于Mullvad的教程：
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

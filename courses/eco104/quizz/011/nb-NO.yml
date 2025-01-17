@@ -1,0 +1,19 @@
+question: Hva skiller Bitcoin fra tradisjonelle valutaer kontrollert av sentralbanker eller regjeringer?
+answer: Alle sammen
+wrong_answers:
+  - Bitcoin krever samarbeid mellom gruvearbeidere, noder og utviklere
+  - Bitcoin tillater hvem som helst å delta i nettverket og utføre nøkkelroller
+  - Bitcoin er avhengig av et desentralisert system for konsensus
+explanation: |
+  Det som skiller Bitcoin fra tradisjonelle fiatvalutaer er at det er et 
+  samarbeid mellom tre essensielle roller og fellesskapet.
+  Noder sikrer integriteten og sikkerheten til nettverket ved å fungere som portvoktere.
+  Gruvearbeidere er ansvarlige for å behandle transaksjoner og vedlikeholde blokkjeden.
+  Utviklere er høyt kvalifiserte medlemmer av Bitcoin-fellesskapet som jobber sammen 
+  for å vedlikeholde og forbedre programvaren som driver nettverket.
+  Fellesskapet, gjennom bruken av bitcoin, er det som gir det verdi.
+  Hver av disse rollene er essensiell for funksjonaliteten og suksessen til Bitcoin som en 
+  digital valuta. Ved å betro disse kritiske oppgavene til nøkkelspillerne, kan Bitcoin 
+  operere som et desentralisert, sikkert, transparent og ansvarlig byttemiddel for 
+  alle brukere, noe som gjør det betydelig forskjellig fra de sentraliserte valutaene vi bruker i dag.
+reviewed: true

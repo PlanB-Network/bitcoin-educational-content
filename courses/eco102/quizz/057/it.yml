@@ -1,0 +1,9 @@
+question: Qual è l'argomento principale presentato dai produttori di candele a sostegno della loro richiesta?
+answer: La necessità di sostenere l'industria nazionale
+wrong_answers:
+  - Protezione degli occhi
+  - La qualità superiore delle candele rispetto al sole
+  - L'alto costo della produzione di candele
+explanation: |
+  I produttori di candele sostengono che la loro richiesta è giustificata dalla necessità di proteggere l'industria nazionale, un argomento che Bastiat utilizza per denunciare il protezionismo.
+reviewed: false

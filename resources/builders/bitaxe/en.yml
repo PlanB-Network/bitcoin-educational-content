@@ -1,0 +1,5 @@
+description: |
+  BitAxe is an open-source project designed to experiment with Bitcoin mining at a lower cost using repurposed ASIC chips, such as those from the popular Antminer S19. Offering multiple models tailored to miners’ needs, it delivers performance up to 3.3 TH/s. Unlike educational tools like NerdMiner, BitAxe allows participation in mining pools to generate regular Bitcoin rewards while remaining accessible and configurable. An ideal tool for enthusiasts looking to explore mining.
+
+contributors:
+  - pretty-private

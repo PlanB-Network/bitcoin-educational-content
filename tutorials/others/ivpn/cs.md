@@ -109,8 +109,8 @@ V menu "*AntiTracker*" vyberte blokovací profil pro váš anti-tracker. Je navr
 ![IVPN](assets/notext/32.webp)
 A to je vše, nyní jste vybaveni k plnému využití IVPN. Pokud chcete také zvýšit bezpečnost vašich online účtů použitím lokálního správce hesel, doporučuji se podívat na náš tutoriál o KeePass, volně dostupném a open-source řešení:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Pokud máte zájem objevit dalšího poskytovatele VPN podobného IVPN, jak z hlediska funkcí, tak cen, doporučuji také zkontrolovat náš tutoriál o Mullvad:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

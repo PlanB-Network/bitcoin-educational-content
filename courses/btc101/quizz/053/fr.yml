@@ -1,9 +1,11 @@
-question: Dans quel cas a-t-on observé un taux quotidien équivalent d'inflation de 100% ?
-answer: Au Zimbabwe, en 2007
+question: Il existe un cas historique d'un taux d'inflation quotidien équivalent à 100 % ; où et quand cela s'est-il produit ?
+answer: Au Zimbabwe, en 2007.
 wrong_answers:
-  - En Hongrie, en 1945
-  - En Chine, en 1940
-  - Il s'agit d'un cas irréaliste qui ne peut pas se produire
+  - En Hongrie, en 1945.
+  - En Chine, en 1940.
+  - Il s'agit en fait d'un cas irréaliste qui ne peut pas se produire.
 explanation: |
-  Un taux d'inflation de 100% par jour est un scénario réaliste qui s'est produit au Zimbabwe en 2007, car la valeur de l'argent doublait approximativement toutes les 24 heures.
-reviewed: false
+  Un taux d'inflation de 100 % par jour est un scénario réaliste qui
+  s'est produit au Zimbabwe en 2007, où la valeur de l'argent doublait
+  approximativement toutes les 24 heures.
+reviewed: true

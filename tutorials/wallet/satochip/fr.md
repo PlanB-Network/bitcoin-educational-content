@@ -52,7 +52,7 @@ Pour gérer le portefeuille, dans ce tutoriel, je vous propose d'utiliser Sparro
 
 Je vous recommande fortement de vérifier à la fois l'authenticité (avec GnuPG) et l'intégrité (via le hash) de Sparrow avant de l'installer sur votre machine. Si vous ne savez pas comment le faire, vous pouvez suivre cet autre tutoriel :
 
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![SATOCHIP](assets/notext/05.webp)
 
@@ -150,7 +150,7 @@ Vous pouvez ajouter un "*Label*" pour décrire la source des bitcoins qui seront
 
 Pour plus d'informations sur l'étiquetage, je vous conseille également de découvrir cet autre tutoriel :
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Vous pouvez ensuite utiliser cette adresse pour recevoir des bitcoins.
 

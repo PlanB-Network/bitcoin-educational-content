@@ -1,122 +1,153 @@
 ---
-name: Contribution - Review
-description: Hvordan delta i gjennomgangen av utdanningsinnhold på PlanB Network?
+name: Bidrag - Gjennomgang
+description: Hvordan delta i gjennomgangen av pedagogisk innhold på Plan ₿ Network?
 ---
 ![github](assets/cover.webp)
 
-## TL;DR
-Hvis du ønsker å gjennomgå innhold for PlanB Network, gå til [prosjektsiden](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) for ditt språk. Velg innholdet du ønsker å gjennomgå, kommenter for å la oss vite at du tar på deg oppgaven, og send inn en PR når du er ferdig på grenen tilknyttet språket.
+## Oppsummering
 
-Hvis du ikke forsto delen ovenfor, ikke bekymre deg, denne veiledningen er for deg!
+Hvis du ønsker å delta i arbeidet med å gjennomgå og korrigere innhold for Plan ₿ Network, kan du bli med i [vår Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder) som er dedikert til bidrag. Presenter deg selv kort, og spesifiser deretter innholdet du ønsker å gjennomgå og språket. Gjør rettelsene dine på en arbeidsgren, og send inn en PR når du er ferdig med gjennomgangen.
+
+Hvis du ikke forsto delen ovenfor, ikke bekymre deg - denne veiledningen er for deg!
 
 ---
+## Hva er Plan ₿ Network?
 
-## Hva er PlanB Network?
+Plan ₿ Network er en plattform for å lære om Bitcoin gjennom en rekke kurs og opplæringsprogrammer for alle. For øyeblikket er alt innholdet vårt åpen kildekode, hostet på et GitHub-depot, og åpent for bidrag for gjennomgang og innholdsskaping.
 
-Planb.network er en helt ny plattform for å lære om Bitcoin gjennom en rekke kurs og opplæringsprogrammer for alle. For øyeblikket er alt vårt innhold åpen kildekode, hostet på et GitHub-repo, og åpent for bidrag til gjennomgang og oppretting av innhold.
-
-PlanB.network har som mål å bli torget i Bitcoin-cyberspace, ved å koble sammen og oppmuntre Bitcoin-samfunn rundt om i verden.
+Plan ₿ Network har som mål å bli det offentlige torget i Bitcoin-cyberspace, og koble sammen og oppmuntre Bitcoin-fellesskap over hele verden.
 
 ## Hvorfor bidra?
 
-PlanB.network er grunnleggende flerspråklig, da vårt mål er å gjøre Bitcoin-ressurser tilgjengelige for alle over hele verden. Vi mener at språk ikke bør være en barriere for suveren valuta.
+Plan ₿ Network er grunnleggende flerspråklig, ettersom målet vårt er å gjøre Bitcoin-ressurser tilgjengelige for alle over hele verden. Vi mener at språk ikke bør være en barriere for suverene penger.
 
-Derfor bruker vi en Menneske x AI-tilnærming for å oppnå dette målet. Takket være vårt [enkle program](https://github.com/Asi0Flammeus/LLM-Translator), kan vi automatisk oversette innholdet vårt til mange språk. Men, før vi publiserer det, trenger vi en person som er flytende i språket for å gjennomgå det for å sikre at innholdet er forståelig og fritt for upassende uttrykk.
+For å oppnå dette bruker vi en Human x AI-tilnærming. Gjennom [programmet] (https://github.com/Asi0Flammeus/LLM-Translator) kan vi automatisk oversette innholdet vårt til mange språk. Vi trenger imidlertid en person som snakker språket flytende, for å sikre at innholdet er forståelig og fritt for upassende termer.
 
-Hvis du ønsker å bli med oss i å bygge dette utdanningsprosjektet for å fremme Bitcoin-utdanning i ditt samfunn, kan du starte med å gjennomgå et kurs eller en opplæring.
+Hvis du vil bidra til å bygge opp dette utdanningsprosjektet for å fremme Bitcoin-utdanning i lokalsamfunnet ditt, kan du begynne med å se gjennom et kurs eller en veiledning.
 
-I tillegg, siden Découvre Bitcoin (DB) er ansvarlig for å evaluere bidrag og vi (DB) verdsetter *Value4Value*-modellen, vil vi belønne gjennomgangsbidrag. Belønningen vil være basert på lengden på innholdet, den språklige nøyaktigheten av vår automatoversettelse, og innholdets vanskelighetsgrad.
+I tillegg vil vi belønne bidrag til anmeldelser, ettersom vi verdsetter *Value4Value*-modellen. Belønningen vil være basert på innholdets lengde, den språklige nøyaktigheten til vår automatiske oversettelse og innholdets vanskelighetsgrad.
 
-## Må jeg vite hvordan GitHub fungerer?
+## Trenger jeg å vite hvordan GitHub fungerer?
 
-Du trenger ikke å være en GitHub-ekspert for å gjennomgå innhold.
-Selv om det alltid er bedre å forstå hva du gjør (og hvorfor), kan du enkelt følge instruksjonene nedenfor for å bidra.
+Du trenger ikke å være en GitHub-ekspert for å vurdere innhold. Selv om det alltid er bedre å forstå hva du gjør (og hvorfor), kan du ganske enkelt følge instruksjonene nedenfor for å bidra.
 
-Men, hvis du er helt ukjent med hvordan Git og GitHub fungerer og ønsker å lære mer, kan du oppdage vår innledende artikkel om disse verktøyene.
+Men hvis du ikke er kjent med Git og GitHub og ønsker å lære mer, kan du ta en titt på vår introduksjonsartikkel om disse verktøyene:
 
-https://planb.network/tutorials/others/basics-of-github
-
-
-
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 ## 1. Opprett en konto
-* Opprett en konto på GitHub for å starte med å bidra. Hvis du trenger veiledning om hvordan du oppretter kontoen din på GitHub, har vi også en detaljert opplæring.
-
-https://planb.network/tutorials/others/create-github-account
 
 
-## **2. Gå til prosjektsiden for ditt språk**
-* [Prosjektsiden](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) inneholder innhold på ditt språk vist på et Kanban-brett.
-* Se etter kort i kolonnen "Review Needed" (se **A**). Dette er saker som du kan gjennomgå.
-* Hvert kort detaljer (se **B**):
-	- **Content Type**: Kurs, opplæring, eller nettside
-	- **Content Difficulty**
-	- **Urgency**
-	- **Word Count**
-	- **Associated Reward**: Basert på innholdsegenskapene og nøyaktigheten av oversettelsen (se [Reward section](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
-![gjennomgang](assets/1.webp)
-## **3. Finn innhold for gjennomgang**
-* I kolonnen "Review Needed", klikk på et kort.
-* Kortet inkluderer en beskrivelse med lenker til det originale innholdet og filen som skal gjennomgås (se **A**).
-* Hvis du ønsker å gjennomgå det, legg igjen en kommentar for å la oss vite at du vil jobbe med det (se **B**).
-* Klikk på lenken ved siden av `File to Review` (se **C**)
+- Opprett en konto på [GitHub] (https://github.com/) for å begynne å bidra. Hvis du vil ha veiledning om hvordan du oppretter en GitHub-konto, har vi også en detaljert veiledning:
 
-![gjennomgang](assets/2.webp)
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-## **4. Gjennomgå og rediger innholdet via GitHub-grensesnittet**
-* Du kan nå se GitHub-grensesnittet for filen som skal gjennomgås.
-* Venstre panel lar deg navigere gjennom din branch (se **A**) og filene (se **B**).
-* Klikk på pennikonet for å starte gjennomgangen (se **C**).
+- Du trenger også en konto på meldingsappen [Telegram] (https://telegram.org/).
 
-![gjennomgang](assets/3.webp)
+## 2. Bli med i Telegram-gruppen
 
-* Hvis det er første gang, vil GitHub be deg om å forgre (fork) repositoriet.
 
-![gjennomgang](assets/4.webp)
+- Bli med i [PBN Content Builder-gruppen] (https://t.me/PlanBNetwork_ContentBuilder) på Telegram.
 
-* Deretter kommer du til redigeringsgrensesnittet (se **A**), hvor du kan se filstien og den tilsvarende branchen (se **B**), og du kan veksle mellom redigeringsmodus og forhåndsvisningsmodus (se **C**).
+![REVIEW](assets/fr/01.webp)
 
-![gjennomgang](assets/5.webp)
 
-NB. Gjennomgangen gjøres best i kodevinduet med det originale innholdet i et separat vindu ved siden av.
+- Presenter deg selv kort og spesifiser innholdet du ønsker å bidra til, samt språket i en melding til kanalen "General".
+- Et teammedlem vil deretter opprette en sak på GitHub for ditt fremtidige bidrag. Der finner du all informasjonen du trenger for å starte gjennomgangen din.
 
-## **5. Forplikt (Commit) endringene**
+![REVIEW](assets/fr/02.webp)
 
-* Når du ønsker å avslutte gjennomgangsøkten, kan du forplikte endringene dine, selv om gjennomgangen ikke er ferdig – det er litt som å "lagre endringene dine på GitHub".
-* Klikk på "Commit Changes"-knappen (se **A**).
+## 3. Gjennomgå og rediger innholdet via GitHubs grensesnitt
 
-![gjennomgang](assets/6.webp)
-* Legg til en beskrivende melding om endringen din (se **B**).* Legg til mer kontekst i beskrivelsen om nødvendig (se **C**).
-* Klikk på "Propose Changes"-knappen (se **D**).
 
-![gjennomgang](assets/7.webp)
+- Problemet inneholder en beskrivelse (jf. **A**) med lenker til det opprinnelige innholdet og filen som skal gjennomgås.
+- Hvis du ønsker å ta ansvar for gjennomgangen, kan du legge igjen en kommentar til saken (jf. **B**) for å indikere at du vil jobbe med den. Dette forhindrer dobbeltarbeid.
+- Klikk på lenken ved siden av filen som skal gjennomgås (jf. **C**) for å få tilgang til innholdet.
 
-* Dette åpner en PR (Pull Request) forslagsside.
+![REVIEW](assets/fr/03.webp)
 
-## **6. Opprett en PR med den dedikerte branchen**
-![gjennomgang](assets/8.webp)
 
-* Du kan verifisere at denne PR-en foreslår å slå sammen din branch inn i den dedikerte branchen for det tilsvarende språket (se **A**).
-* Gi PR-en et beskrivende navn (se **B**).
-* Legg til kontekst i beskrivelsen (se **C**).
-* Hvis ikke ferdig, klikk på nedtrekksmenyen ved siden av "Create Pull Request" og velg "Draft PR" (se **D**).
-* Klikk på "Draft Pull Request."
-* Gratulerer med din første PR!
+- Du kan nå se GitHub-grensesnittet til filen som skal gjennomgås.
+- I venstre panel kan du navigere gjennom grenen (jf. **A**) og filene (jf. **B**).
+- Klikk på blyantikonet for å starte gjennomgangen (se **C**).
 
-## **7. Fortsett gjennomgangen senere**
-* Hvis du ikke har fullført gjennomgangen din og ønsker å fortsette arbeidet ditt, gå til din forgrening av sovereign-university-innholdsrepositoriet via din GitHub-profil.
-* Velg den tilsvarende branchen.
-* Gi branchen nytt navn om nødvendig.
-* Finn filen med innholdet ditt og klikk på pennknappen for å gjenoppta gjennomgangen.
+![REVIEW](assets/fr/04.webp)
 
-## **8. Forplikt direkte på din egen branch**
-* Gjør forpliktelser for å validere endringene direkte på din branch etter hvert som du går frem.
 
-## **9. Avslutt og sett PR-en som klar for gjennomgang**
-* Gå til "Pull Requests"-fanen.
-* Velg din PR.
-* Klikk på "Ready for Review".
+- Hvis dette er ditt første bidrag, vil GitHub be deg om å fork'e kildelageret. Bare klikk på knappen.
 
-## 10. Vent på gjennomgangen
-* Etter godkjenning vil Découvre Bitcoin kontakte deg for å sende din belønning via LN.
-* Hvis du ønsker å starte på nytt, gå tilbake til trinn 2 for å fortsette å bidra til annet innhold.
-* Hvis du har bemerkninger, spørsmål eller kommentarer om dette prosjektet, kan du sende en DM på Telegram til @asi0_flammeus.
+![REVIEW](assets/fr/05.webp)
+
+
+- Deretter kommer du til redigeringsgrensesnittet (se **A**), der du kan se filstien og den tilhørende grenen (se **B**) og veksle mellom redigerings- og forhåndsvisningsmodus (se **C**).
+
+![REVIEW](assets/fr/06.webp)
+
+NB. Det anbefales å se gjennom i kodevinduet, med det opprinnelige innholdet vist i et eget vindu. Du kan for eksempel se teksten på nettstedet Plan ₿ Network eller i forhåndsvisningen på GitHub i en nettleserfane. Bruk `ctrl + F` for å finne feil og gjøre korrigeringer i kodevisningen underveis.
+
+## 4. Foreta endringer
+
+
+- Du kan begynne å gå gjennom og korrigere innholdet etter behov.
+- Når du vil sette økten på pause, kan du overføre endringene dine, selv om gjennomgangen ikke er ferdig. Det er som å lagre fremdriften din på GitHub.
+- Klikk på knappen "Bekreft endringer ...".
+
+![REVIEW](assets/fr/07.webp)
+
+
+- Legg til en beskrivende melding for endringene dine (se **A**).
+- Legg til mer kontekst i beskrivelsen hvis det er nødvendig (jf. **B**).
+- Klikk på knappen "Foreslå endringer" (se **C**).
+
+![REVIEW](assets/fr/08.webp)
+
+
+- Hvis dette ikke er ditt første bidrag, vil GitHub be deg om å opprette en ny gren. Du bør aldri legge til direkte på hovedgrenen `dev`. Hvis du allerede har gjort kommitteringer på en eksisterende arbeidsgren, velger du den grenen. Ellers velger du alternativet "Create a new branch" for å opprette en ny gren.
+
+![REVIEW](assets/fr/13.webp)
+
+
+- Du får da tilgang til en side som oppsummerer alle endringene dine. Ved å bla gjennom den kan du se de nøyaktige endringene: Slettede elementer vises i rødt, mens elementer som er lagt til vises i grønt.
+
+![REVIEW](assets/fr/09.webp)
+
+
+- Hvis du ikke er ferdig med gjennomgangen og ønsker å fortsette arbeidet senere, kan du bare avslutte.
+- Så lenge du har forpliktet deg til endringene dine, lagres de på GitHub-gaffelen din.
+- For å fortsette arbeidet ditt går du til din gaffel av Plan ₿ Network-innholdsdepotet via GitHub-profilen din.
+
+![REVIEW](assets/fr/14.webp)
+
+
+- Velg grenen som inneholder fremdriften din (jf. **A**), finn innholdsfilen din (jf. **B**), og klikk deretter på blyantikonet for å fortsette gjennomgangen.
+
+![REVIEW](assets/fr/15.webp)
+
+## 5. Opprett en PR med den dedikerte grenen
+
+
+- Hvis alt ser bra ut og du er ferdig med endringene dine, klikker du på den grønne knappen "Create Pull Request".
+
+![REVIEW](assets/fr/10.webp)
+
+
+- Du kommer da til PR-siden. En Pull Request er en forespørsel om å sende inn endringer som er gjort på en gren av et eksternt depot for gjennomgang og mulig sammenslåing til hovedgrenen.
+- Legg til en tittel og en kort beskrivelse av PR-en din. Tittelen bør samsvare med utgaven du jobber med. Hvis tittelen på utgaven for eksempel er `[OVERSETTELSE] Kurs CYP201 - FR`, kan du bruke samme tittel på PR-en din (jf. **A**). I beskrivelsen nevner du det tilknyttede problemet ved hjelp av nummeret, etterfulgt av "Closes". Dette vil automatisk lukke problemet når PR-en er slått sammen (jf. **B**).
+- Hvis alt ser bra ut, klikker du på den grønne knappen "Create Pull Request" (jf. **C**).
+
+![REVIEW](assets/fr/11.webp)
+
+## 6. Vent på gjennomgang
+
+
+- Gratulerer, PR-en din har blitt sendt inn! Du kan følge med på fremdriften i "Pull requests"-fanen på [Plan ₿ Network's GitHub repository] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+
+![REVIEW](assets/fr/12.webp)
+
+
+- Tusen takk for ditt bidrag! Etter godkjenning vil et medlem av Plan ₿ Network-teamet kontakte deg for å sende belønningen din. **Utbetalinger skjer utelukkende via Lightning Network**.
+- Hvis du vil begynne på nytt, kan du gå tilbake til trinn 2 og sende en ny melding i Telegram-gruppen for å fortsette å bidra til annet innhold. Sørg for å synkronisere gaffelen din før du oppretter en ny arbeidsgren. Dette gjør du ved å gå til hjemmesiden til gaffelen din, velge hovedgrenen `dev` (se **A**), og deretter klikke på knappen "Synkroniser gaffel" (se **B**). Hvis oppdateringer er tilgjengelige for din forgrening, vises en "Oppdater gren"-knapp. Bare klikk på den for å utføre oppdateringen.
+
+![REVIEW](assets/fr/16.webp)
+
+
+- Hvis du har kommentarer, spørsmål eller kommentarer til dette prosjektet, er du velkommen til å sende en DM [til bidragsyternes Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder).

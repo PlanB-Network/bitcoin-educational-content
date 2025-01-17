@@ -1,9 +1,11 @@
-question: Perché si consiglia di evitare il browser Google Chrome?
+question: Perché si raccomanda di evitare il browser Google Chrome?
 answer: A causa dei suoi tracker.
 wrong_answers:
   - Perché non è sicuro.
-  - Perché non è user-friendly.
+  - Perché non è facile da usare.
   - Perché non supporta le estensioni.
 explanation: |
-  Il browser Google Chrome è noto per i suoi tracker, che possono raccogliere dati sulla tua attività online. Questo può essere motivo di preoccupazione per la privacy per alcuni utenti.
-reviewed: false
+  Il browser Google Chrome è noto per i suoi tracker, che possono
+  raccogliere dati sulla tua attività online. Questo può essere un
+  problema di privacy per alcuni utenti.
+reviewed: true

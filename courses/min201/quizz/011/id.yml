@@ -1,0 +1,12 @@
+question: Apa saja strategi yang dibahas untuk melawan sentralisasi penambangan di Bitcoin?
+answer: Strategi yang dibahas untuk melawan sentralisasi penambangan di Bitcoin meliputi Penambangan Rumahan, protokol Stratum V2, penggunaan perangkat lunak penambangan sumber terbuka, dan diversifikasi pelaku serta geografi.
+wrong_answers:
+  - Strategi yang dibahas untuk melawan sentralisasi penambangan di Bitcoin meliputi peningkatan ukuran blok, penerapan bukti kepemilikan (proof of stake), dan penciptaan otoritas pusat untuk mengawasi penambangan.
+  - Strategi yang dibahas untuk melawan sentralisasi penambangan di Bitcoin meliputi pengurangan hadiah blok, penerapan biaya transaksi, dan penciptaan pajak penambangan.
+  - Strategi yang dibahas untuk melawan sentralisasi penambangan di Bitcoin meliputi peningkatan kesulitan penambangan, penerapan batas penambangan, dan penciptaan lotere penambangan.
+explanation: |
+  Bab ini membahas beberapa strategi untuk melawan
+  sentralisasi penambangan di Bitcoin, termasuk Penambangan Rumahan, protokol
+  Stratum V2, penggunaan perangkat lunak penambangan sumber terbuka, dan
+  diversifikasi pelaku serta geografi.
+reviewed: true

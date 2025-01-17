@@ -1,9 +1,9 @@
-question: Mối đe dọa tiềm ẩn khi sử dụng phần mềm crack không thể cập nhật là gì?
+question: Mối đe dọa tiềm ẩn khi sử dụng phần mềm bị crack không thể cập nhật là gì?
 answer: Sự xuất hiện của virus trong quá trình tải xuống bất hợp pháp và sử dụng không an toàn trước các hình thức tấn công mới.
 wrong_answers:
   - Phần mềm sẽ ngừng hoạt động sau một khoảng thời gian nhất định.
-  - Phần mềm sẽ không có thêm tính năng mới.
+  - Phần mềm sẽ không có bất kỳ tính năng mới nào.
   - Phần mềm sẽ tiêu thụ nhiều tài nguyên hệ thống hơn.
 explanation: |
-  Phần mềm crack không thể cập nhật đại diện cho một mối đe dọa tiềm ẩn kép. Nó có thể mang virus trong quá trình tải xuống bất hợp pháp từ một trang web đáng ngờ và nó có thể không an toàn trước các hình thức tấn công mới.
-reviewed: false
+  Phần mềm bị crack không thể cập nhật đại diện cho một mối đe dọa tiềm ẩn kép. Nó có thể mang virus trong quá trình tải xuống bất hợp pháp từ một trang web đáng ngờ và nó có thể không an toàn trước các hình thức tấn công mới.
+reviewed: true

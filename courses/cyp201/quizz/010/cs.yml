@@ -1,9 +1,9 @@
-question: Co jsou to inicializační vektory v procesu funkce SHA-256?
-answer: Prvních 32 bitů desetinných částí odmocnin prvních 8 prvočísel
+question: Který algoritmus derivace se používá k výpočtu autentizačního kódu na základě tajného klíče?
+answer: HMAC-SHA512
 wrong_answers:
-  - Prvních 32 bitů desetinných částí třetích odmocnin prvních 8 prvočísel
-  - Prvních 32 bitů desetinných částí odmocnin prvních 64 prvočísel
-  - Prvních 32 bitů desetinných částí třetích odmocnin prvních 64 prvočísel
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  V procesu funkce SHA-256 jsou inicializační vektory, od A do H, prvních 32 bitů desetinných částí odmocnin prvních 8 prvočísel. Tyto jsou použity jako základní ingredience v kryptografickém receptu.
+  HMAC-SHA512 je algoritmus, který kombinuje hašovací funkci a tajný klíč k výpočtu autentizačního kódu.
 reviewed: false

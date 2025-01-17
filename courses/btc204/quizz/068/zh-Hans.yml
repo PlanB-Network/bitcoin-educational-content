@@ -1,0 +1,13 @@
+question: 我们如何在合并UTXOs时最小化COIH的影响？
+
+answer: 通过只合并来自同一来源的UTXOs。
+
+wrong_answers:
+  - 通过将UTXOs发送到第三方地址。
+  - 通过随机选择UTXOs以避免可识别的模式。
+  - 在活动低迷期间合并UTXOs。
+
+explanation: |
+  如果你发现自己需要合并比特币，优先考虑先合并来自同一来源的UTXOs。
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Segundo Keynes, qual papel o estado deve desempenhar na economia?
+answer: Um papel ativo estimulando a demanda para impulsionar a economia
+wrong_answers:
+  - Um papel mínimo deixando o mercado regular a economia
+  - Um papel neutro sem intervir nos mecanismos de mercado
+  - Um papel primariamente fiscal para equilibrar o orçamento
+explanation: |
+  Keynes argumentou que o estado deve intervir ativamente para estimular a demanda, especialmente durante uma recessão, a fim de impulsionar a economia e compensar as deficiências do mercado.
+reviewed: false

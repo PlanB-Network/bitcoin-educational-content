@@ -1,11 +1,11 @@
-question: Quel est le but d'un portefeuille "froid" dans Bitcoin?
+question: Quel est le but d'un portefeuille froid dans Bitcoin?
 answer: Pour stocker en toute sécurité des Bitcoins.
 wrong_answers:
   - Pour miner de nouveaux Bitcoins.
   - Pour échanger des Bitcoins.
   - Pour convertir des Bitcoins en d'autres cryptomonnaies.
 explanation: |
-  Un portefeuille "froid", également connu sous le nom de portefeuille matériel, est un appareil conçu
+  Un portefeuille froid, également connu sous le nom de portefeuille matériel, est un appareil conçu
   pour stocker en toute sécurité des Bitcoins. Il n'est pas utilisé pour miner de nouveaux Bitcoins, échanger des Bitcoins,
   ou convertir des Bitcoins en d'autres cryptomonnaies.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Qual é o papel da chave nos processos de criptografia e descriptografia simétricas?
+answer: É usada para criptografar e descriptografar a mensagem
+wrong_answers:
+  - É usada apenas para descriptografar a mensagem
+  - É usada para criar um código de verificação de integridade da mensagem
+  - É compartilhada publicamente para gerar outras chaves
+explanation: |
+  Em esquemas de criptografia simétrica, a mesma chave privada é utilizada tanto para criptografar a mensagem ao enviar quanto para descriptografá-la ao receber.

@@ -1,11 +1,11 @@
 question: ¿A qué se parece la curva de adopción de Bitcoin?
-answer: Una curva en forma de S
+answer: Una curva en S.
 wrong_answers:
-  - Una curva en forma de U
-  - Una curva en forma de V
-  - Una curva en forma de W
-explanation: |
-  La adopción de Bitcoin, al igual que cualquier nueva tecnología, sigue una curva en forma de S.
+  - Una curva en U.
+  - Una curva en V.
+  - Una curva en W.
+explanation: >-
+  La adopción de Bitcoin, como cualquier nueva tecnología, sigue una curva en S.
   Este es un patrón común para la adopción de nuevas tecnologías, donde la adopción comienza
-  lentamente, luego se acelera antes de disminuir a medida que se alcanza la saturación.
-reviewed: false
+  lentamente, luego se acelera antes de desacelerarse a medida que se alcanza la saturación.
+reviewed: true

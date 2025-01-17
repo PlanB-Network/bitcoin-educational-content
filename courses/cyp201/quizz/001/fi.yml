@@ -1,11 +1,8 @@
-question: Mikä on HASH160:n etu Bitcoin-protokollassa?
-answer: Se mahdollistaa SHA-256:n turvallisuuden säilyttämisen samalla kun se pienentää sormenjäljen kokoa.
+question: Mikä ominaisuus varmistaa, että syötteen palauttaminen hajautuksesta on laskennallisesti mahdotonta?
+answer: Esikuvan vastustuskyky
 wrong_answers:
-  - Se kasvattaa sormenjäljen kokoa lisäturvallisuuden saavuttamiseksi.
-  - Se on vastustuskykyisempi törmäyksille kuin SHA-256.
-  - Sen laskeminen on nopeampaa kuin SHA-256:n.
+  - Yhteentörmäyksen vastustuskyky
+  - Lumivyöryefekti
+  - Toisen esikuvan vastustuskyky
 explanation: |
-  HASH160 on edullinen Bitcoin-protokollassa, koska se säilyttää
-  SHA-256:n turvallisuuden samalla kun se pienentää sormenjäljen kokoa. Tämä tekee siitä
-  tehokkaamman kompromissoimatta turvallisuutta.
-reviewed: false
+  Esikuvan vastustuskyky varmistaa, että alkuperäisen viestin löytäminen sen hajautuksesta on käytännössä mahdotonta.

@@ -1,0 +1,8 @@
+question: Theo Bastiat, mục đích của Luật pháp nên là gì?
+answer: Đặt một dấu chấm hết cho mọi hình thức cướp bóc.
+wrong_answers:
+  - Để cân bằng lại quan hệ quyền lực.
+  - Để tạo ra các mối quan hệ xã hội.
+  - Để thúc đẩy sự bình đẳng thông qua quyền phân phối lại.
+explanation: |
+  Đối với Bastiat, Luật pháp chỉ đơn giản nên bảo vệ các quyền tự nhiên bằng cách ngăn chặn mọi hình thức cướp bóc, từ đó đảm bảo công lý công bằng cho tất cả mọi người.

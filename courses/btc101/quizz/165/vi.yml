@@ -1,13 +1,13 @@
-question: Làm thế nào giao thức Bitcoin đảm bảo thời gian trung bình giữa hai khối luôn ổn định?
-
-answer: Độ khó của việc tìm ra một hash hợp lệ được điều chỉnh sau mỗi 2016 khối
-
+question: Bitcoin duy trì thời gian trung bình như thế nào giữa việc tạo ra hai khối?
+  giữ nguyên?
+answer: Độ khó của việc tìm ra một hash hợp lệ được điều chỉnh sau mỗi 2016 khối.
 wrong_answers:
-  - Số lượng người đào được điều chỉnh
-  - Kích thước của các khối được điều chỉnh
-  - Phần thưởng cho việc tìm ra một hash hợp lệ được tăng lên
-
-explanation: >-
-  Giao thức Bitcoin đảm bảo thời gian trung bình giữa hai khối luôn ổn định bằng cách điều chỉnh độ khó của việc tìm ra một hash hợp lệ sau mỗi 2016 khối. Điều này diễn ra bất kể số lượng người đào và sức mạnh tính toán của họ.
-
-reviewed: false
+  - Số lượng người đào được điều chỉnh cố định.
+  - Kích thước của các khối được điều chỉnh thành 10 megabyte.
+  - Phần thưởng cho việc tìm ra một hash hợp lệ được tăng lên.
+explanation: |
+  Giao thức Bitcoin đảm bảo rằng thời gian trung bình giữa
+  hai khối giữ nguyên bằng cách điều chỉnh độ khó của
+  việc tìm ra một hash hợp lệ sau mỗi 2016 khối. Sự kiện này xảy ra
+  bất kể số lượng người đào và sức mạnh tính toán của họ.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hvordan kan Bitcoin-gruvearbeidere bidra til å håndtere energioverskudd og stabilisere strømnett?
+answer: Bitcoin-gruvearbeidere kan absorbere energioverskudd, og fungere som en fleksibel buffer ved å justere etterspørselen i stedet for tilbudet. I en verden hvor elektrisitetsproduksjon fra fornybare (ikke-kontrollerbare) kilder stadig øker, kan gruvearbeidere spille en nøkkelrolle i å sikre balansen i våre strømnett, samtidig som de drar nytte av billig eller overskuddselektrisitet for å drive sine gruveoperasjoner.
+wrong_answers:
+  - Bitcoin-gruvearbeidere kan bidra til å håndtere energioverskudd ved å lagre den overskytende energien i batterier.
+  - Bitcoin-gruvearbeidere kan bidra til å håndtere energioverskudd ved å selge den overskytende energien tilbake til nettet.
+  - Bitcoin-gruvearbeidere kan bidra til å håndtere energioverskudd ved å konvertere den overskytende energien til varme.
+explanation: |
+  Kapittelet forklarer at Bitcoin-gruvearbeidere kan absorbere energioverskudd, og fungere som en fleksibel buffer ved å justere etterspørselen i stedet for tilbudet. Dette kan bidra til å håndtere energioverskudd og stabilisere strømnett.
+reviewed: true

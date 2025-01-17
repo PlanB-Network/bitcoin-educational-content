@@ -1,0 +1,9 @@
+question: Minkä tyyppisen hyökkäyksen sekvenssinumero voi estää turvallisessa viestintäistunnossa?
+answer: Uudelleentoisto- ja järjestyshyökkäykset
+wrong_answers:
+  - Passiiviset salakuunteluhyökkäykset
+  - Palvelunestohyökkäykset
+  - Avainspoofaushyökkäykset
+explanation: |
+  Sekvenssinumero kussakin viestissä estää uudelleentoisto- ja järjestyshyökkäykset, sillä se mahdollistaa viestien järjestyksen ja yksilöllisyyden varmentamisen.
+reviewed: false

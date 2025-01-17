@@ -1,9 +1,8 @@
-question: Cosa rappresenta il seed in un portafoglio Bitcoin?
-answer: È un numero casuale o pseudo-casuale da cui vengono generati più chiavi.
+question: Quale costante viene utilizzata per derivare la chiave privata principale dal seed?
+answer: Bitcoin Seed
 wrong_answers:
-  - È la password per accedere al portafoglio.
-  - È la prima transazione Bitcoin registrata nel portafoglio.
-  - È la firma digitale del proprietario del portafoglio.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Il seed in un portafoglio Bitcoin dovrebbe essere un numero casuale o pseudo-casuale. Questo seed consente la generazione di più chiavi, che sono essenziali per il possesso di criptovalute.
-reviewed: false
+  La costante Bitcoin Seed viene utilizzata come chiave nella funzione HMAC-SHA512 per derivare la chiave privata principale e il codice catena principale.

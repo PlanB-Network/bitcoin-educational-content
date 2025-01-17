@@ -4,6 +4,6 @@ wrong_answers:
   - Duyệt web ẩn danh và TOR là một.
   - Duyệt web ẩn danh che giấu địa chỉ IP của người dùng, trong khi TOR thì không.
   - TOR để lại dấu vết trên máy tính của bạn, trong khi duyệt web ẩn danh thì không.
-explanation:
-  Duyệt web ẩn danh là tính năng ngăn trình duyệt internet lưu trữ lịch sử duyệt web, tệp internet tạm thời, dữ liệu biểu mẫu, cookie và tên người dùng cùng mật khẩu. Tuy nhiên, nó không ẩn duyệt web khỏi nhà cung cấp dịch vụ internet của bạn. Ngược lại, mạng TOR cung cấp sự ẩn danh bằng cách che giấu địa chỉ IP của người dùng và cho phép truy cập vào Darknet.
-reviewed: false
+explanation: |
+  Duyệt web ẩn danh là một tính năng ngăn trình duyệt internet lưu trữ lịch sử duyệt web, tệp internet tạm thời, dữ liệu biểu mẫu, cookie, và tên người dùng và mật khẩu. Tuy nhiên, nó không ẩn duyệt web khỏi nhà cung cấp dịch vụ internet của bạn. Ngược lại, mạng TOR cung cấp sự ẩn danh bằng cách che giấu địa chỉ IP của người dùng và cho phép truy cập vào Darknet.
+reviewed: true

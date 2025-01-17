@@ -1,9 +1,10 @@
-question: Qual é uma das razões pelas quais o uso do Bitcoin se expandiu para mercados da dark web como o Silk Road?
+question: Qual das seguintes características contribuiu para a expansão do uso do Bitcoin em mercados da dark web como o Silk Road?
 answer: Sua natureza incontrolável e pseudônima.
 wrong_answers:
   - Seu controle centralizado.
-  - Sua rastreabilidade.
-  - Sua falta de pseudonimidade.
-explanation: |
-  O uso do Bitcoin se expandiu para mercados da dark web como o Silk Road devido à sua natureza incontrolável e pseudônima.
-reviewed: false
+  - Sua rastreabilidade e natureza controlável.
+  - Sua falta de pseudonimato.
+explanation: >-
+  O uso do Bitcoin se expandiu para mercados da dark web como o Silk Road
+  devido à sua natureza incontrolável e pseudônima.
+reviewed: true

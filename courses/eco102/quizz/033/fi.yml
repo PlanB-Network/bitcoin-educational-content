@@ -1,0 +1,8 @@
+question: Mistä Rousseau'n mukaan yhteiskunnan paha juontaa juurensa?
+answer: Omaisuudesta
+wrong_answers:
+  - Epätasa-arvosta
+  - Orjuudesta
+  - Individualismista
+explanation: |
+  Rousseau pitää omaisuutta sosiaalisen pahan lähteenä, koska se tuo mukanaan epätasa-arvoa ja halun hallita.

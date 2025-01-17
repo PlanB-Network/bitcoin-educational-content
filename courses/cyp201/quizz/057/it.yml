@@ -1,9 +1,9 @@
-question: Qual è la principale sfida nella generazione di numeri casuali sui computer per le transazioni Bitcoin?
-answer: I risultati ottenuti non sono veramente casuali.
+question: Qual è la dimensione del seed generato da PBKDF2?
+answer: 512 bit
 wrong_answers:
-  - Il processo è troppo complesso per la maggior parte degli utenti.
-  - Richiede molta potenza di calcolo.
-  - Non è compatibile con tutti i tipi di computer.
+  - 128 bit
+  - 256 bit
+  - Variabile a seconda della lunghezza della frase mnemonica
 explanation: |
-  I computer seguono algoritmi predefiniti, il che rende difficile generare numeri veramente casuali. Questa è una sfida significativa nella crittografia, dove la casualità è cruciale per la sicurezza delle chiavi private e delle transazioni Bitcoin.
+  Indipendentemente dalla lunghezza della frase mnemonica, PBKDF2 genera sempre un seed di 512 bit.
 reviewed: false

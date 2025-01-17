@@ -1,0 +1,9 @@
+question: Ryhmässä, mikä on se ainutlaatuinen elementti, joka toiseen elementtiin sovellettuna ei muuta sitä?
+answer: Identiteettielementti
+wrong_answers:
+  - Käänteiselementti
+  - Vaihdannaiselementti
+  - Liitäntäelementti
+explanation: |
+  Ryhmän identiteettielementti on ainutlaatuinen elementti, joka toiseen elementtiin sovellettuna jättää sen muuttumattomaksi. Esimerkiksi kokonaislukujen ryhmässä yhteenlaskun alla identiteettielementti on 0.
+reviewed: false

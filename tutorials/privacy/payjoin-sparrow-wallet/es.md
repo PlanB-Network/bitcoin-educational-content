@@ -26,7 +26,7 @@ Las transacciones Cahoots implican el intercambio de transacciones parcialmente 
 
 Cuando se realiza de forma remota, este proceso se vuelve demasiado complejo. Para abordar este problema, Samourai ha desarrollado un protocolo de comunicación cifrada basado en Tor, llamado "Soroban". Con Soroban, los intercambios necesarios para un Payjoin se automatizan detrás de una interfaz fácil de usar. Este es el segundo método que exploraremos en este artículo.
 
-Estos intercambios cifrados requieren establecer una conexión y autenticación entre los participantes de Cahoots. Las comunicaciones de Soroban se basan en los Paynyms de los usuarios. Si no estás familiarizado con los Paynyms, te invito a consultar este artículo para obtener más detalles: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+Estos intercambios cifrados requieren establecer una conexión y autenticación entre los participantes de Cahoots. Las comunicaciones de Soroban se basan en los Paynyms de los usuarios. Si no estás familiarizado con los Paynyms, te invito a consultar este artículo para obtener más detalles: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 En resumen, un Paynym es un identificador único vinculado a tu billetera que permite diversas funcionalidades, incluido el envío de mensajes cifrados. El Paynym se presenta en forma de un identificador y una ilustración que representa a un robot. Aquí tienes un ejemplo del mío en Testnet: ![Paynym Sparrow](assets/es/1.webp)
 
 **En resumen:**
@@ -36,7 +36,7 @@ En resumen, un Paynym es un identificador único vinculado a tu billetera que pe
 - *Soroban* = Protocolo de comunicación cifrada establecido en Tor, que permite la colaboración con otros usuarios en el contexto de una transacción Cahoots.
 - *Paynym* = Identificador único de una billetera que permite la comunicación con otro usuario en Soroban, con el fin de realizar una transacción Cahoots.
 
-[**-> Descubre más sobre las transacciones Payjoin y su utilidad**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Descubre más sobre las transacciones Payjoin y su utilidad**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## ¿Cómo establecer una conexión entre Paynyms?
 Para realizar una transacción remota de Cahoots, específicamente un PayJoin (Stowaway) a través de Samourai o Sparrow, es necesario "Seguir" al usuario con el que deseas colaborar, utilizando su Paynym. En el caso de un Stowaway, esto significa seguir a la persona a la que deseas enviar bitcoins.

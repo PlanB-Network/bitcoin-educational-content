@@ -5,5 +5,8 @@ wrong_answers:
   - A Lightning Network reduz o consumo de energia da mineração de Bitcoin.
   - A Lightning Network aumenta a velocidade da mineração de Bitcoin.
 explanation: |
-  A Lightning Network permite transações rápidas e de baixo custo fora da cadeia principal do Bitcoin. Isso tem o potencial de reduzir significativamente as taxas de transação, o que poderia impactar a renda dos mineradores.
-reviewed: false
+  A Lightning Network permite transações rápidas e de baixo custo
+  fora da cadeia principal do Bitcoin. Isso tem
+  o potencial de reduzir significativamente as taxas de transação,
+  o que poderia impactar a renda dos mineradores.
+reviewed: true

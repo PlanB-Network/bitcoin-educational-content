@@ -1,0 +1,9 @@
+question: 2010年11月に最初のブロックエクスプローラーを作成したのは誰ですか？
+answer: Michael Marquardt (Theymos)
+wrong_answers:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+explanation: |
+  この「Bitcoin Block Explorer」は、ウェブブラウザを通じて、ブロック、アドレス、トランザクションに関する詳細情報を閲覧できるようにしました。
+reviewed: false

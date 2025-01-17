@@ -26,10 +26,10 @@ Trong hướng dẫn này, tôi sẽ giải thích cách chỉnh sửa mục "H�
 - Có [một hồ sơ giáo sư trên Mạng PlanB](https://planb.network/professors) (chỉ khi bạn đề xuất một hướng dẫn đầy đủ).
 
 **Nếu bạn cần trợ giúp để đạt được các điều kiện tiên quyết này, các hướng dẫn khác của tôi sẽ hướng dẫn bạn:**
-**[Hiểu biết về Git và GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Tạo một tài khoản GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Thiết lập môi trường làm việc của bạn](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Tạo một hồ sơ giáo sư](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Hiểu biết về Git và GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Tạo một tài khoản GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Thiết lập môi trường làm việc của bạn](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Tạo một hồ sơ giáo sư](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Loại nội dung nào để viết trên Mạng PlanB?
 Chúng tôi chủ yếu tìm kiếm các hướng dẫn về các công cụ liên quan đến Bitcoin hoặc hệ sinh thái của nó. Những nội dung này có thể được tổ chức xung quanh sáu danh mục chính:
 - Ví;
@@ -121,7 +121,7 @@ bitcoin-educational-content/
     - Trung cấp (`intermediary`),
     - Nâng cao (`advanced`),
     - Chuyên gia (`expert`).
-- **professor**: Cung cấp ID người đóng góp của bạn như hiển thị trên hồ sơ giáo viên của bạn. Để biết thêm chi tiết, tham khảo [hướng dẫn tương ứng](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Cung cấp ID người đóng góp của bạn như hiển thị trên hồ sơ giáo viên của bạn. Để biết thêm chi tiết, tham khảo [hướng dẫn tương ứng](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (tùy chọn): Trong trường hợp bạn muốn ghi công một trang web nguồn cho hướng dẫn bạn đang phát triển, như trang cá nhân của bạn, đây là nơi bạn có thể thêm liên kết liên quan.
 ![tutorial](assets/15.webp)
 - Sau khi bạn hoàn thành việc chỉnh sửa tệp `tutorial.yml` của mình, lưu tài liệu của bạn bằng cách nhấp vào `File > Save`:
@@ -206,3 +206,4 @@ Trên phần mềm GitHub Desktop, bạn có thể chuyển lại về nhánh ch
 Nếu bạn muốn thực hiện chỉnh sửa đối với đóng góp của mình sau khi đã gửi PR, quy trình cần tuân theo phụ thuộc vào trạng thái hiện tại của PR của bạn:
 - Nếu PR của bạn vẫn đang mở và chưa được hợp nhất, thực hiện các chỉnh sửa cục bộ trong khi vẫn ở trên cùng một nhánh. Một khi các chỉnh sửa được hoàn thiện, sử dụng nút `Push origin` để thêm một commit mới vào PR vẫn đang mở của bạn;
 - Trong trường hợp PR của bạn đã được hợp nhất với nhánh chính, bạn sẽ cần thực hiện lại quy trình từ đầu bằng cách tạo một nhánh mới, sau đó gửi một PR mới. Đảm bảo rằng kho lưu trữ cục bộ của bạn được đồng bộ hóa với kho lưu trữ nguồn của PlanB Network trước khi tiến hành.
+

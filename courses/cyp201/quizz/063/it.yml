@@ -1,9 +1,9 @@
-question: Qual è l'importanza della sicurezza della chiave privata nell'ecosistema Bitcoin?
-answer: Essa garantisce la sicurezza delle transazioni Bitcoin.
+question: Quali informazioni non sono incluse in una chiave estesa?
+answer: La cronologia delle transazioni della chiave
 wrong_answers:
-  - Essa garantisce la velocità delle transazioni Bitcoin.
-  - Essa garantisce l'anonimato delle transazioni Bitcoin.
-  - Essa garantisce la legalità delle transazioni Bitcoin.
+  - Il numero di indice della chiave
+  - La chiave (privata o pubblica)
+  - Il codice catena
 explanation: |
-  Le chiavi private sono il fondamento che garantisce la sicurezza delle transazioni Bitcoin. Devono essere generate in modo veramente casuale per evitare qualsiasi vulnerabilità associata alla prevedibilità.
+  Una chiave estesa contiene solo le informazioni necessarie per derivare chiavi figlie, non informazioni relative alle transazioni.
 reviewed: false

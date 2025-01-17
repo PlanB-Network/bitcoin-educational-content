@@ -28,9 +28,9 @@ Sisestage e-posti aadress. Kui soovite oma konto anonüümseks jätta, veenduge,
 ![BITREFILL](assets/notext/05.webp)
 Kui soovite teada, kuidas hõlpsalt luua turvaline e-posti kast ja kuidas hallata oma paroole, soovitan konsulteerida nende kahe muu õpetusega:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Seejärel klõpsake nupul "*Loo konto*".
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ Jaotises "*Two factor authentication*" klõpsake nupul "*Enable*" ja järgige se
 ![BITREFILL](assets/notext/13.webp)
 Et rohkem teada saada, kuidas kahefaktorilist autentimist kasutades oma veebikontosid turvata, soovitan tutvuda selle teise õpetusega:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Kuidas osta Bitrefillis BTC eest kinkekaarti?
 
@@ -88,4 +88,4 @@ Ja nüüd teate, kuidas kulutada oma bitcoine ilma KYC-ta suurtes jaemüügikoht
 
 Kui soovite kaasa aidata Bitcoini populariseerimisele ja julgustada sõltumatut kaupmeest seda maksemeetodit omaks võtma, soovitan tutvuda meie täieliku õpetusega Swiss Bitcoin Pay kohta. See on kõik-ühes lahendus BTC maksetöötlejatele, lihtne paigaldada ja igapäevaselt hallata:
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

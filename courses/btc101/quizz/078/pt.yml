@@ -1,11 +1,12 @@
-question: Qual destas opções é falsa ao perder o dispositivo no qual você tem sua carteira Bitcoin?
-answer: Você pode recriar sua carteira e gastar seus bitcoins redefinindo sua senha
+question: Qual destas opções é falsa sobre perder o dispositivo no qual você tem sua carteira Bitcoin?
+answer: Você pode recriar sua carteira e gastar seus bitcoins redefinindo sua senha.
 wrong_answers:
-  - Você perde todos os seus Bitcoins se não tiver a frase mnemônica
-  - Você pode verificar com suas chaves públicas que seus bitcoins ainda não foram movidos
-  - Você pode recriar sua carteira e gastar seus bitcoins com a frase mnemônica
+  - Você perde todos os seus Bitcoins se não tiver a frase mnemônica.
+  - Você pode verificar com suas chaves públicas que seus bitcoins não foram gastos.
+  - Você pode recriar sua carteira e gastar seus bitcoins usando a frase mnemônica.
 explanation: |
-  Perder o dispositivo no qual você tem sua carteira não significa necessariamente
-  a perda dos seus Bitcoins. O que permite recriar sua carteira e gastar
-  seus bitcoins é a frase mnemônica.
+  Perder o dispositivo no qual você tem sua carteira não significa
+  necessariamente a perda dos seus Bitcoins. O que permite
+  recriar sua carteira e gastar seus bitcoins é a
+  frase mnemônica.
 reviewed: true

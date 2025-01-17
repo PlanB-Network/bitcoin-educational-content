@@ -1,0 +1,8 @@
+question: Apa ukuran blok tipikal untuk enkripsi block cipher?
+answer: 64, 128, 192, atau 256 bit
+wrong_answers:
+  - 8, 16, 32, atau 64 bit
+  - 4, 8, 16, atau 32 bit
+  - 256, 512, 1024, atau 2048 bit
+explanation: |
+  Block cipher memproses data dalam blok berukuran tetap, biasanya 64, 128, 192, atau 256 bit, untuk memastikan keamanan dan integritas enkripsi yang optimal.

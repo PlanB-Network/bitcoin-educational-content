@@ -1,10 +1,9 @@
-question: What is the total number of possibilities for a private key in theory?
-answer: 2^256
+question: Why is reusing a Bitcoin address not recommended?
+answer: It facilitates the tracking of transactions by third parties
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - It reveals the private key because of the nonce
+  - It makes transactions more expensive
+  - It invalidates digital signatures
 explanation: |
-  The total number of possibilities for a private key is theoretically
-  2^256, but in reality, it is slightly less than that.
+  Reusing an address allows observers to easily link different transactions to the same user, compromising their privacy.
 reviewed: false

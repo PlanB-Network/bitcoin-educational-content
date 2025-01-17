@@ -2,8 +2,8 @@ question: ¿Qué fue el proyecto DigiCash?
 answer: Un intento de crear dinero electrónico anónimo por David Chaum.
 wrong_answers:
   - Un proyecto para crear una billetera digital para Bitcoin.
-  - Un proyecto para digitalizar todo el dinero en efectivo físico.
+  - Un intento de digitalizar todo el efectivo físico por la Reserva Federal.
   - Un proyecto para crear una criptomoneda basada en Bitcoin.
 explanation: |
   David Chaum introdujo el concepto de dinero electrónico anónimo con su proyecto DigiCash en la década de 1980.
-reviewed: false
+reviewed: true

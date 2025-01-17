@@ -1,0 +1,13 @@
+question: Která z následujících odpovědí nepředstavuje riziko při posílání bitcoinů, které prošly coinjoinem, na regulovanou platformu?
+
+answer: Platforma může zvýšit transakční poplatky
+
+wrong_answers:
+  - Platforma může zmrazit prostředky
+  - Platforma může zablokovat účet uživatele
+  - Platforma může nahlásit podezřelé chování úřadům
+
+explanation: |
+  Pokud pošlete své coiny na regulovanou směnárenskou platformu, ale nedávno prošly coinjoinem, nástroj pro analýzu řetězce platformy tento fakt odhalí. Platforma pak může odmítnout přijmout váš UTXO, který prošel coinjoinem, nebo dokonce požadovat od vás vysvětlení, s rizikem, že vaše konto bude pozastaveno nebo vaše prostředky zmrazeny. V některých případech může platforma také nahlásit vaše chování státním úřadům.
+
+reviewed: false

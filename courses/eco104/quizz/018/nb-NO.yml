@@ -1,0 +1,12 @@
+question: Hva var en betydelig begrensning som enkeltpersoner sto overfor under den greske regjeringens konkurskrise i 2015?
+answer: Tungtveiende bankreform pålagt av regjeringen.
+wrong_answers:
+  - Begrenset tilgang til digitale banktjenester
+  - Volatiliteten til digitale valutaer som Bitcoin
+  - Mangel på fysisk valuta (kontanter)
+explanation: |
+  Under den greske regjeringens konkurskrise i 2015, ble banker stengt,
+  uttak fra minibanker ble begrenset, og en betydelig del av enkeltpersoners
+  bankinnskudd ble trukket tilbake av regjeringen for å finansiere finansiell uansvarlighet.
+  Denne hendelsen fremhevet risikoene forbundet med å ha penger oppbevart i det tradisjonelle banksystemet.
+reviewed: true

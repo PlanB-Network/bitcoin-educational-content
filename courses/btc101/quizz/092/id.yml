@@ -1,0 +1,12 @@
+question: Apa penggunaan yang direkomendasikan untuk dompet multisig?
+answer: Untuk jumlah besar untuk penggunaan korporat
+wrong_answers:
+  - Untuk jumlah kecil untuk penggunaan pribadi
+  - Untuk jumlah sedang untuk penggunaan nirlaba
+  - Untuk pengeluaran sehari-hari untuk penggunaan individu
+explanation: |
+  Dompet multisig direkomendasikan untuk jumlah besar dan penggunaan korporat
+  karena memerlukan beberapa tanda tangan untuk melakukan transaksi. Ini menambahkan lapisan
+  keamanan ekstra, karena berarti satu orang tidak dapat melakukan transaksi
+  tanpa persetujuan dari orang lain.
+reviewed: true

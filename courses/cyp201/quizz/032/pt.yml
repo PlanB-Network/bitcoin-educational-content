@@ -1,9 +1,8 @@
-question: Qual é a importância da irreversibilidade da função ECDSA na segurança da carteira Bitcoin?
-answer: É impossível recuperar a chave privada a partir da chave pública.
+question: Qual flag de sighash permite financiamento coletivo ao cobrir uma única entrada e todas as saídas?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - É possível recuperar a chave privada a partir da chave pública.
-  - É possível recuperar a chave pública a partir da chave privada.
-  - É impossível recuperar a chave pública a partir da chave privada.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  A função ECDSA é irreversível, o que significa que é impossível recuperar a chave privada a partir da chave pública. Essa irreversibilidade é a base da segurança da carteira Bitcoin.
-reviewed: false
+  SIGHASH_ALL combinado com SIGHASH_ANYONECANPAY permite adicionar entradas sem modificar as saídas.

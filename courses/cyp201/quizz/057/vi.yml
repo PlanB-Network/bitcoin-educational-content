@@ -1,10 +1,11 @@
-question: Thách thức chính trong việc tạo số ngẫu nhiên trên máy tính cho giao dịch Bitcoin là gì?
-answer: Kết quả thu được không hoàn toàn ngẫu nhiên.
+question: Kích thước của hạt giống được tạo ra bởi PBKDF2 là bao nhiêu?
+
+answer: 512 bit
+
 wrong_answers:
-  - Quy trình quá phức tạp đối với hầu hết người dùng.
-  - Nó đòi hỏi nhiều sức mạnh tính toán.
-  - Nó không tương thích với tất cả các loại máy tính.
-explanation: |
-  Máy tính tuân theo các thuật toán đã đặt, điều này làm cho việc tạo ra số ngẫu nhiên thực sự trở nên khó khăn. Đây là một thách thức đáng kể trong mật mã học, nơi mà sự ngẫu nhiên
-  là rất quan trọng cho sự an toàn của khóa riêng tư và giao dịch Bitcoin.
-reviewed: false
+  - 128 bit
+  - 256 bit
+  - Thay đổi tùy thuộc vào độ dài của cụm từ ghi nhớ
+
+explanation:
+  Bất kể độ dài của cụm từ ghi nhớ là bao nhiêu, PBKDF2 luôn tạo ra một hạt giống 512-bit.

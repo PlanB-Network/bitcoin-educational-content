@@ -1,9 +1,14 @@
 question: Quel est le risque d'utiliser un portefeuille multisig ?
-answer: Ne pas avoir accès à suffisamment de parties distinctes de la sauvegarde multisig
+answer: Ne pas avoir accès à suffisamment de clés privées individuelles ou de composants de sauvegarde.
 wrong_answers:
-  - Avoir accès à suffisamment de parties distinctes de la sauvegarde multisig
-  - Partager des clés avec d'autres parties
-  - Ne pas partager de clés avec d'autres parties
+  - Avoir accès à suffisamment de clés privées individuelles ou de composants de sauvegarde.
+  - Partager vos clés privées avec d'autres parties.
+  - Partager vos clés publiques avec d'autres parties.
 explanation: |
-  Lorsque vous utilisez un portefeuille multisig, chaque partie de la sauvegarde multisig doit être stockée dans des emplacements différents. Cela est nécessaire car le multisig nécessite plusieurs signatures pour effectuer une transaction, donc un certain nombre de portefeuilles est nécessaire, et le fait de stocker chaque partie dans un emplacement différent ajoute une couche de sécurité supplémentaire.
-reviewed: false
+  Lorsque vous utilisez un portefeuille multisig, chaque clé privée du
+  multisig devrait être stockée dans des emplacements différents. Cela est
+  dû au fait que le multisig nécessite plusieurs signatures pour réaliser
+  une transaction, donc un certain nombre de portefeuilles sont
+  nécessaires. Ainsi, stocker chaque partie dans un emplacement différent
+  ajoute une couche supplémentaire de sécurité.
+reviewed: true

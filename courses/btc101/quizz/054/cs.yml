@@ -1,10 +1,9 @@
-question: Jaká je druhá fáze hyperinflace?
+question: Jaká je druhá fáze fenoménu hyperinflace?
 answer: Kolaps měny & růst cen.
 wrong_answers:
   - Ztráta důvěry.
   - Zlý kruh tisku peněz.
   - Vznik nové měny.
 explanation: |
-  Druhá fáze hyperinflace je kolaps měny & růst cen,
-  hned po fázi Ztráty důvěry.
+  Druhá fáze hyperinflace je kolaps měny & růst cen, hned po fázi Ztráty důvěry.
 reviewed: true

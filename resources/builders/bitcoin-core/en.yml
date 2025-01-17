@@ -1,0 +1,5 @@
+description: |
+  Bitcoin Core is the open-source reference software for the Bitcoin system and remains the primary implementation of the Bitcoin protocol to this day. It is developed and maintained by a large group of volunteer contributors. Originally named “Bitcoin Qt,” it is the third client in Bitcoin's history after Bitcoin by Satoshi Nakamoto and Bitcoind. It was developed from Satoshi’s original code and introduced a graphical user interface. Notably, the graphical interface of Bitcoin Core is still called bitcoin-qt today. Since version 0.5, it has been provided with bitcoind. Bitcoin Core serves multiple purposes. First, it acts as a full-node client. Bitcoin Core also includes a wallet for users who wish to store, manage, and transact directly with Bitcoin Core.
+
+contributors:
+  - pretty-private

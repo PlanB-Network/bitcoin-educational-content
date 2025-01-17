@@ -55,7 +55,7 @@ Prerequisites:
 
 ![image](assets/1.webp)
 
-> 🔗 Official Tails section: https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.fr.html#download
 
 Downloading the installation file with the .img extension may take some time depending on your Internet download speed, so plan ahead. With a modern and efficient connection, it will take less than 5 minutes.
 
@@ -65,7 +65,7 @@ Save the file in a known folder, such as Downloads, as this will be necessary fo
 
 ![image](assets/2.webp)
 
-> 🔗 Official Tails section: https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.fr.html#verify
 
 Verifying the download ensures that it is issued by the Tails developers and has not been corrupted or intercepted during the download.
 
@@ -77,10 +77,10 @@ To verify the file, use the "Select your download..." button provided in the off
 
 ![image](assets/3.webp)
 
-> 🔗 Official Tails section:
->
-> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher and https://tails.boum.org/install/mac/index.fr.html#install
+🔗 **Official Tails section:**
+
+- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
+- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher and https://tails.boum.org/install/mac/index.fr.html#install
 
 This step of installing Tails on your USB key is the most difficult in the entire guide, especially if you have never done it before. The most important point is to choose the correct procedure in the official section for your operating system: Linux or macOS.
 
@@ -92,10 +92,11 @@ Good luck! and see you at step 4.
 
 ![image](assets/4.webp)
 
-> 🔗 Official Tails section: https://tails.boum.org/install/linux/index.en.html#restart
-> It's time to start one of your computers using your new USB stick. Insert it into one of its USB ports and restart!
+🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.en.html#restart
 
-> 💡 Most computers do not automatically boot from the Tails USB stick, but you can press the boot menu key to display a list of possible devices to boot from.
+It's time to start one of your computers using your new USB stick. Insert it into one of its USB ports and restart!
+
+**Note💡: Most computers do not automatically boot from the Tails USB stick, but you can press the boot menu key to display a list of possible devices to boot from.**
 
 To determine which key you should press to ensure that you have the boot menu allowing you to select the USB stick instead of your usual hard drive, here is a non-exhaustive list by manufacturer:
 
@@ -125,7 +126,7 @@ Once the USB stick is selected, you should see this new boot screen, which is a 
 
 ![image](assets/6.webp)
 
-> 🔗 Official Tails section: https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.en.html#tails
 
 One or two minutes after the boot loader and loading screen, the Welcome Screen appears.
 
@@ -147,5 +148,8 @@ You can start browsing anonymously, explore the options and software included in
 
 Once you have experimented a bit more with your own Tails USB stick, we will explore other more advanced topics in another article, such as:
 
-> Update a key with the latest version of Tails; Configure and use persistent storage; Install additional software.
-> Until then, as always, if you have any questions, feel free to share them with the Agora256 community. We are learning together to be better tomorrow than we are today!
+- Update a key with the **latest version of Tails**;
+- Configure and use **persistent storage**;
+- Install **additional software**.
+
+Until then, as always, if you have any questions, feel free to share them with the Agora256 community. We are learning together to be better tomorrow than we are today!

@@ -1,9 +1,9 @@
-question: Qual è il principale vantaggio dei Portafogli Deterministici Gerarchici (HD wallets)?
-answer: Consentono la generazione deterministica e gerarchica di coppie di chiavi figlie da un singolo pezzo di informazione.
+question: Che tipo di chiave è associata al prefisso zpub?
+answer: Una chiave pubblica estesa per SegWit V0 sulla Mainnet
 wrong_answers:
-  - Consentono la generazione di più chiavi private da una singola chiave pubblica.
-  - Consentono la generazione di più chiavi pubbliche da una singola chiave privata.
-  - Consentono la generazione di più portafogli da una singola coppia di chiavi.
+  - Una chiave privata estesa per SegWit V1 sulla Mainnet
+  - Una chiave pubblica estesa per Legacy sul Testnet
+  - Una chiave pubblica estesa per SegWit V2 sul Testnet
 explanation: |
-  I portafogli HD consentono la generazione deterministica e gerarchica di coppie di chiavi figlie da un singolo pezzo di informazione. Ciò rende più facile la generazione e la gestione delle chiavi, mantenendo un alto livello di sicurezza.
-reviewed: false
+  Il prefisso zpub indica una chiave pubblica estesa per script SegWit V0 sulla Mainnet.
+recensito: false

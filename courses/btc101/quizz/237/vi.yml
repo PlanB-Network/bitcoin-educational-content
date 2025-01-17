@@ -1,9 +1,13 @@
-question: Mạng Lưới Lightning có khả năng biến đổi các mô hình kinh doanh hiện tại trong ngành công nghiệp trò chơi video như thế nào?
-answer: Nó cho phép người chơi đặt cược những khoản tiền rất nhỏ khi chơi game
+question: Mạng Lưới Lightning có thể biến đổi các mô hình kinh doanh hiện tại trong ngành công nghiệp trò chơi video như thế nào?
+
+answer: Nó cho phép người chơi đặt cược với số tiền rất nhỏ khi chơi game.
+
 wrong_answers:
-  - Nó cho phép người chơi khai thác Bitcoin khi chơi game
-  - Nó cho phép các nhà phát triển game chấp nhận Bitcoin như một hình thức thanh toán cho trò chơi của họ
-  - Nó cho phép người chơi mua các vật phẩm trong game bằng Bitcoin
-explanation: >-
-  Mạng Lưới Lightning cho phép người chơi đặt cược những khoản tiền rất nhỏ khi chơi game, ví dụ như vài satoshis. Điều này cho phép thiết lập một khoản cược kích thích sự cạnh tranh trong khi đáng kể tăng chi phí triển khai bot.
-reviewed: false
+  - Nó cho phép người chơi khai thác Bitcoin trong khi chơi game.
+  - Nó cho phép các nhà phát triển game chấp nhận Bitcoin như một hình thức thanh toán cho trò chơi của họ.
+  - Nó cho phép người chơi mua các vật phẩm trong game bằng Bitcoin.
+
+explanation: Mạng Lưới Lightning cho phép người chơi đặt cược với số tiền rất nhỏ khi chơi game, như vài satoshis. Điều này cho phép thiết lập một khoản cược kích thích sự cạnh tranh trong khi đáng kể tăng chi phí triển khai bot.
+
+reviewed: true
+

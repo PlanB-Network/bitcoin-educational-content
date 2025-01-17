@@ -1,0 +1,10 @@
+question: Apa salah satu aksioma fundamental dalam ekonomi Austria?
+answer: Salah satu aksioma fundamental adalah preferensi waktu positif, yang didasarkan pada pilihan individu terhadap barang atau jasa hari ini daripada esok hari.
+wrong_answers:
+  - Salah satu aksioma fundamental adalah penetapan suku bunga secara arbitrer.
+  - Salah satu aksioma fundamental adalah ketergantungan pada data empiris.
+  - Salah satu aksioma fundamental adalah penggunaan eksperimen sementara untuk mengonfirmasi atau
+    membantah hipotesis.
+explanation: |
+  Dalam ekonomi Austria, salah satu aksioma fundamental adalah preferensi waktu positif, yang didasarkan pada pilihan individu terhadap barang atau jasa hari ini daripada esok hari, karena ketidakpastian tentang masa depan.
+reviewed: false

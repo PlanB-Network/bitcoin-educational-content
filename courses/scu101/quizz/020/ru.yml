@@ -1,0 +1,9 @@
+question: Как называется встроенный антивирус в Windows?
+answer: Windows Defender
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender — это встроенный антивирус в Windows. Это безопасное и
+  эффективное решение для защиты системы от угроз.

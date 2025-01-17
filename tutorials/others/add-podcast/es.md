@@ -10,7 +10,7 @@ La misión de PlanB es proporcionar recursos educativos de primera categoría so
 ![podcast](assets/01.webp)
 - Primero, necesitas tener una cuenta de GitHub. Si no sabes cómo crear una, hemos hecho un tutorial detallado para guiarte.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) en la sección `resources/podcasts/`:

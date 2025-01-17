@@ -1,11 +1,12 @@
 question: What is the role of a Bitcoin node in the Bitcoin network?
-answer: It handles the validation of new blocks and included transactions.
+answer: It validates new blocks and included transactions.
 wrong_answers:
-  - It creates new Bitcoins.
+  - It creates new Bitcoins and puts them in the blocks.
   - It regulates the price of Bitcoin.
   - It manages the Bitcoin network.
-explanation: >-
-  A Bitcoin node in the Bitcoin network handles the validation of new blocks
-  and included transactions. It is through this network of Bitcoin nodes that the
-  network is truly decentralized.
-reviewed: false
+explanation: |
+  A Bitcoin node in the Bitcoin network handles the
+  validation of new blocks and included transactions. It is
+  this network of Bitcoin nodes that makes it truly
+  decentralized.
+reviewed: true

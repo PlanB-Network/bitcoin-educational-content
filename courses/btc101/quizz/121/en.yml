@@ -1,9 +1,9 @@
-question: What is the online availability of Bitcoin?
-answer: 99.988%
+question: Since its creation, what percentage of time has the Bitcoin network been functional for?
+answer: 99.988%.
 wrong_answers:
-  - 100%
-  - 90.009%
-  - 80.17%
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
   The online availability of Bitcoin is 99.988% since 2009.
 reviewed: true

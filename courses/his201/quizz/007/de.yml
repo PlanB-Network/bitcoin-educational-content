@@ -1,0 +1,9 @@
+question: Welche auf Gold und Silber basierende Währung wurde 1998 von Bernard von NotHaus kreiert?
+answer: Der Liberty Dollar
+wrong_answers:
+  - Liberty Reserve
+  - e-gold
+  - GoldMoney
+explanation: |
+  Diese Währung war in Form von Silbermünzen und repräsentativen Noten verfügbar und ab 2003 dann auch in digitaler Form.
+reviewed: false

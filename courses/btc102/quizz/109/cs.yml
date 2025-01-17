@@ -5,7 +5,7 @@ wrong_answers:
   - Nový typ Bitcoinu.
   - Platforma pro obchodování s Bitcoinem.
 explanation: |
-  Lightning Network je protokol pro platby "druhé vrstvy", který funguje
+  Lightning Network je protokol pro platby druhé vrstvy, který funguje
   na vrcholu blockchainové kryptoměny (jako je Bitcoin). Je navržen tak, aby umožňoval
   rychlé transakce mezi účastnickými uzly.
 reviewed: false

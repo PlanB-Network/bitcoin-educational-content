@@ -1,9 +1,9 @@
-question: Mikä on 2/2 multi-sig osoitteen merkitys kanavan avaamisessa Lightning-verkossa?
-answer: Se on osoite, johon Alice lähettää rahaa kanavan avaamiseksi.
+question: Milloin sitoumustapahtuma julkaistaan Bitcoin-lohkoketjussa?
+answer: Lopulta kun kanava suljetaan
 wrong_answers:
-  - Se on osoite, josta Alice lähettää rahaa kanavan avaamiseksi.
-  - Se on osoite, johon Bob lähettää rahaa kanavan avaamiseksi.
-  - Se on osoite, josta Bob lähettää rahaa kanavan avaamiseksi.
+  - Välittömästi jokaisen siirron jälkeen kanavassa
+  - Ennen jokaista uutta sitoumustapahtumaa
+  - Kun käytettävissä olevat varat on käytetty loppuun
 explanation: |
-  Kanavan avaamisprosessissa Alice luo 2/2 multi-sig osoitteen käyttäen hänen ja Bobin julkisia osoitteita. Tämän jälkeen hän tekee bitcoin-siirron lähettääkseen rahaa tähän osoitteeseen kanavan avaamiseksi.
+  Sitoumustapahtumat rakennetaan ja allekirjoitetaan jokaisen allokaation muutoksen yhteydessä, mutta ne julkaistaan lopulta lohkoketjussa vain kanavan sulkemisen yhteydessä.
 reviewed: false

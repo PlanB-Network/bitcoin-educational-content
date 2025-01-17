@@ -1,0 +1,9 @@
+question: Hvilket dekret signert av Franklin D. Roosevelt forbød besittelse av gull for enkeltpersoner i USA mellom 1933 og 1975?
+answer: Executive Order 6102
+wrong_answers:
+  - Federal Reserve Act
+  - Glass-Steagall Act
+  - Executive Order 9066
+explanation: |
+  Dette presidentordren, signert 5. april 1933, ble iverksatt av Roosevelt som en del av New Deal. Det ble forsterket av Gold Reserve Act i 1934.
+reviewed: false

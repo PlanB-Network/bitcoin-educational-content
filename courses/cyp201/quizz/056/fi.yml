@@ -1,10 +1,8 @@
-question: Mitä siemen tarkoittaa Bitcoin-lompakossa?
-answer: Se on satunnainen tai pseudo-satunnainen numero, josta luodaan useita avaimia.
+question: Mikä vakio käytetään johdattamaan pääyksityisavain siemenestä?
+answer: Bitcoin Seed
 wrong_answers:
-  - Se on salasana lompakon käyttöön.
-  - Se on ensimmäinen Bitcoin-siirto, joka on kirjattu lompakkoon.
-  - Se on lompakon omistajan digitaalinen allekirjoitus.
+  - Pääavain
+  - HD Lompakon Siemen
+  - Lohkoketjun Juuri
 explanation: |
-  Bitcoin-lompakon siemenen on tarkoitus olla satunnainen tai pseudo-satunnainen
-  numero. Tämä siemen mahdollistaa useiden avainten luomisen, jotka ovat olennaisia
-  kryptovaluutan omistamiselle.
+  Bitcoin Seed vakioa käytetään avaimena HMAC-SHA512 funktiossa johdattaakseen pääyksityisavaimen ja pääketjukoodin.

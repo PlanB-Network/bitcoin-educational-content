@@ -1,0 +1,9 @@
+question: What is the fundamental difference between the theories of Turgot and those of Adam Smith on value?
+answer: Turgot believed that value was determined by labor, while Smith believed it was determined by utility.
+wrong_answers:
+  - Turgot believed that free trade was the best economic policy while Smith believed in protectionism.
+  - Turgot believed that the role of the state was to leave the market free while Smith believed that the government should intervene in the economy.
+  - There is no fundamental difference between the theories of Turgot and those of Smith on value.
+explanation: |
+  Turgot considered labor as the main determinant of value, whereas Adam Smith introduced a notion of value influenced by utility and demand, foreshadowing subjective economics.
+reviewed: false

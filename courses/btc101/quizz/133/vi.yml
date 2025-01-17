@@ -1,9 +1,9 @@
-question: Quy trình mà qua đó các thợ đào xác thực giao dịch và bao gồm chúng vào một khối là gì?
-answer: Bằng chứng công việc
+question: Các thợ đào làm thế nào để xác thực các giao dịch và bao gồm chúng vào một khối?
+answer: Qua quá trình Chứng minh công việc (Proof of work).
 wrong_answers:
-  - Bằng chứng cổ phần
-  - Bằng chứng quyền lực
-  - Bằng chứng đốt
+  - Qua quá trình Chứng minh cổ phần (Proof of stake).
+  - Qua quá trình Chứng minh quyền lực (Proof of authority).
+  - Qua quá trình Chứng minh tiêu hao (Proof of burn).
 explanation: >-
-  Các thợ đào xác thực giao dịch và bao gồm chúng vào một khối qua một quy trình gọi là "bằng chứng công việc". Điều này bao gồm việc giải một câu đố mật mã.
-reviewed: false
+  Các thợ đào xác thực các giao dịch và bao gồm chúng vào một khối qua một quá trình gọi là chứng minh công việc (proof of work). Điều này bao gồm việc giải một câu đố mật mã.
+reviewed: true

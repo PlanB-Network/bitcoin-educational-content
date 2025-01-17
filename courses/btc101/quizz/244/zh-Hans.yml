@@ -1,0 +1,8 @@
+question: 尝试哪种方式可以亲自测试闪电网络？
+answer: 尝试使用播客应用程序Fountain
+wrong_answers:
+  - 通过挖掘比特币
+  - 通过购买比特币
+  - 通过创建一种新的加密货币
+explanation:
+  一种亲自测试闪电网络的方式是尝试使用播客应用程序Fountain，它允许你通过听你最喜欢的播客来获得一些sats作为奖励。

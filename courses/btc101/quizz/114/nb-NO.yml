@@ -1,0 +1,11 @@
+question: Når ble Bitcoin først presentert for verden?
+answer: 31. oktober 2008
+wrong_answers:
+  - 3. januar 2009
+  - 22. november 2009
+  - 12. desember 2010
+explanation: |
+  Bitcoin ble først presentert for verden den 31. oktober 2008, da Satoshi
+  Nakamoto sendte en e-post til cypherpunk e-postlisten som inneholdt Bitcoin White
+  Paper.
+reviewed: true

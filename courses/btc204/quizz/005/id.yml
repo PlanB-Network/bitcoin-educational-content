@@ -1,0 +1,9 @@
+question: Apa itu input dalam sebuah transaksi?
+answer: Sebuah referensi ke UTXO yang belum terpakai sebelumnya.
+wrong_answers:
+  - Sebuah sinyal konfirmasi dari para penambang.
+  - Sebuah blok baru yang ditambahkan ke blockchain.
+  - Sebuah kode verifikasi untuk mengamankan transaksi.
+explanation: |
+  Setiap input transaksi adalah referensi ke sebuah UTXO, yang berarti output dari transaksi sebelumnya.
+reviewed: false

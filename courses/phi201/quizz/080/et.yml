@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus Locke'i ja Rousseau suveräänsuse teooriate vahel?
+answer: Locke uskus, et suveräänsus on piiratud loomuõigustega, samas kui Rousseau arvas, et see on piiramatu.
+wrong_answers:
+  - Locke uskus, et suveräänsus kuulub monarhile, samas kui Rousseau arvas, et see kuulub rahvale.
+  - Locke uskus, et parim valitsemisvorm on demokraatia, samas kui Rousseau arvas, et parim valitsemisvorm on vabariik.
+  - Kõik teised vastused on õiged.
+explanation: |
+  Locke väitis, et riigi suveräänsus on piiratud üksikisikute loomuõigustega, samas kui Rousseau tundis, et üldist suveräänsust saab piiranguteta rakendada kollektiivse tahte nimel.
+reviewed: false

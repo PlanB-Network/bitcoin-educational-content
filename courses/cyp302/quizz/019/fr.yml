@@ -1,0 +1,9 @@
+question: Quel est le rôle du théorème de Bayes en probabilité ?
+answer: Il permet de calculer la probabilité conditionnelle en inversant les événements
+wrong_answers:
+  - Il fournit la probabilité d'occurrence d'un seul événement
+  - Il définit la probabilité totale de tous les événements possibles
+  - Il s'applique uniquement aux variables continues
+explanation: |
+  Le théorème de Bayes permet de calculer la probabilité d'un événement A sachant B en inversant les probabilités, et est essentiel en théorie des probabilités.
+reviewed: false

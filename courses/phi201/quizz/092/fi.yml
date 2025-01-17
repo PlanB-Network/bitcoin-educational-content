@@ -1,0 +1,9 @@
+question: Mikä on individualismi Tocquevillen mukaan?
+answer: Individualismi on itsenäisyyden tunne, joka johtaa kansalaiset eristäytymään muista ja vetäytymään itseensä.
+wrong_answers:
+  - Individualismi on elementti, joka esiintyy jokaisella aikakaudella.
+  - Individualismi on poliittinen oppi, joka kannattaa paluuta esi-isien elämäntapaan.
+  - Individualismi on termi, joka luonnehtii ihmisen itsekkyyttä.
+explanation: |
+  Tocquevillen mukaan individualismi on moderni pyrkimys itsenäisyyteen, joka ajaa kansalaiset laiminlyömään kollektiivisia vastuita, luoden näin eristäytymistä, joka heikentää sosiaalista kudosta.
+reviewed: false

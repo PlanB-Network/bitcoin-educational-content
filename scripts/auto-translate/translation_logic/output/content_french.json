@@ -1,0 +1,280 @@
+[
+  {
+    "type": "header_separator",
+    "value": "---"
+  },
+  {
+    "type": "yml_property",
+    "value": "name: La Traversée Bitcoin",
+    "key": "name",
+    "content": "La Traversée Bitcoin"
+  },
+  {
+    "type": "yml_property",
+    "value": "goal: Découvrez Bitcoin et ses fondamentaux, notamment sa proposition de valeur monétaire, les mineurs, les transactions et les portefeuilles.",
+    "key": "goal",
+    "content": "Découvrez Bitcoin et ses fondamentaux, notamment sa proposition de valeur monétaire, les mineurs, les transactions et les portefeuilles."
+  },
+  {
+    "type": "yml_property",
+    "value": "objectives: []",
+    "key": "objectives",
+    "content": []
+  },
+  {
+    "type": "list",
+    "value": "  - Gain a general understanding of Bitcoin technology",
+    "indent": 2,
+    "content": "Acquérir une compréhension générale de la technologie Bitcoin"
+  },
+  {
+    "type": "list",
+    "value": "  - Understand how to buy and secure bitcoins",
+    "indent": 2,
+    "content": "Comprenez comment acheter et sécuriser les bitcoins"
+  },
+  {
+    "type": "list",
+    "value": "  - Have a general understanding of Blockchain technology",
+    "indent": 2,
+    "content": "Ayez une compréhension générale de la technologie Blockchain"
+  },
+  {
+    "type": "list",
+    "value": "  - Familiarize yourself with the concept of the Lightning Network",
+    "indent": 2,
+    "content": "Familiarisez-vous avec le concept du Lightning Network"
+  },
+  {
+    "type": "list",
+    "value": "  - Realize the geopolitical and social impact of Bitcoin",
+    "indent": 2,
+    "content": "Réalisez l'impact géopolitique et social du Bitcoin"
+  },
+  {
+    "type": "header_separator",
+    "value": "---"
+  },
+  {
+    "type": "markdown_header",
+    "value": "# Votre Première Aventure Bitcoin"
+  },
+  {
+    "type": "paragraph",
+    "value": "Voici la traduction directe en français :\n\nDans ce cours, j'expliquerai Bitcoin en 25 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. Le cours est accessible à tous et explore l'industrie dans son ensemble : mineurs, portefeuilles, plateformes d'achat/vente, etc..."
+  },
+  {
+    "type": "paragraph",
+    "value": "Le cours devrait prendre environ 15 heures. Tout au long du parcours, des affiches explicatives et des ressources supplémentaires sont disponibles."
+  },
+  {
+    "type": "paragraph",
+    "value": "Vous n'avez besoin d'aucune connaissance spécifique pour commencer, le cours est accessible à tous !"
+  },
+  {
+    "type": "description_separator",
+    "value": "+++"
+  },
+  {
+    "type": "markdown_header",
+    "value": "# Introduction\n\nTraduction :\n# Introduction"
+  },
+  {
+    "type": "partId",
+    "value": "<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>"
+  },
+  {
+    "type": "markdown_header",
+    "value": "## Un saut dans l'inconnu"
+  },
+  {
+    "type": "chapterId",
+    "value": "<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>"
+  },
+  {
+    "type": "markdown_header",
+    "value": "### Bienvenue dans un nouveau paradigme monétaire et technologique."
+  },
+  {
+    "type": "paragraph",
+    "value": "Bitcoin est une innovation majeure qui va au-delà d'une simple \"monnaie internet\". C'est une révolution à la fois technologique et monétaire, capable de remettre en question notre relation avec la monnaie et la société. Bitcoin est une monnaie dite **neutre** et **décentralisée**, ce qui signifie qu'elle n'est contrôlée par aucune entité ni institution. C'est une innovation majeure qui va au-delà d'une simple monnaie. Pour comprendre ce fameux bitcoin, il est important de comprendre que le bitcoin (désigné par BTC) est à la fois un protocole informatique (Bitcoin) et une unité monétaire (bitcoin)."
+  },
+  {
+    "type": "paragraph",
+    "value": "Le protocole utilise des technologies sous-jacentes telles que la cryptographie, la communication réseau et la célèbre \"blockchain\", tandis que l'unité bitcoin est la monnaie nécessaire au bon fonctionnement de ce même protocole. Dans la vie quotidienne, les Salvadoriens ou les bitcoiners du monde entier utilisent la monnaie bitcoin pour acheter et vendre des biens et des services, la monnaie s'appuyant sur le protocole Bitcoin pour fonctionner."
+  },
+  {
+    "type": "markdown_header",
+    "value": "### Un programme complet mais accessible"
+  },
+  {
+    "type": "paragraph",
+    "value": "Dans ce cours, nous aborderons les aspects monétaires du Bitcoin, notamment comment acheter et vendre des bitcoins, les stocker en toute sécurité dans des portefeuilles numériques et les utiliser pour des transactions. Nous examinerons également le rôle des mineurs, essentiels pour créer de nouveaux bitcoins et sécuriser le réseau Bitcoin. De plus, nous explorerons l'avenir du Bitcoin et comment la technologie Lightning Network peut améliorer les transactions Bitcoin."
+  },
+  {
+    "type": "embed_links",
+    "value": "![image](assets/en/chapter0/4.webp)"
+  },
+  {
+    "type": "paragraph",
+    "value": "Voici la traduction directe en français :\n\nIl est essentiel de comprendre que Bitcoin est un nouveau système monétaire qui révolutionne notre relation avec l'argent. Apprendre à utiliser Bitcoin est une compétence essentielle pour quiconque veut contrôler son propre argent."
+  },
+  {
+    "type": "paragraph",
+    "value": "**Section 1 - Argent**"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 1 - What is money?",
+    "indent": 0,
+    "content": "Chapitre 1 - Qu'est-ce que l'argent ?"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 2 - Fiat money",
+    "indent": 0,
+    "content": "Chapitre 2 - Monnaie fiduciaire"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 3 - Hyperinflation",
+    "indent": 0,
+    "content": "Chapitre 3 - Hyperinflation"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 4 - Bitcoin monetary policy",
+    "indent": 0,
+    "content": "Chapitre 4 - Politique monétaire Bitcoin"
+  },
+  {
+    "type": "paragraph",
+    "value": "**Section 2 - Portefeuilles Bitcoin**"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 5 - How do Bitcoin wallets work?",
+    "indent": 0,
+    "content": "Chapitre 5 - Comment fonctionnent les portefeuilles Bitcoin ?"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 6 - Choosing your security",
+    "indent": 0,
+    "content": "Chapitre 6 - Choisir votre sécurité"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 7 - Setting up your wallet",
+    "indent": 0,
+    "content": "Chapitre 7 - Configurer votre portefeuille"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 8 - Protecting against time",
+    "indent": 0,
+    "content": "Chapitre 8 - Se protéger contre le temps"
+  },
+  {
+    "type": "paragraph",
+    "value": "**Section 3 - Aspects techniques du Bitcoin**"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 9 - Explanation of a transaction",
+    "indent": 0,
+    "content": "Chapitre 9 - Explication d'une transaction"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 10 - Bitcoin nodes",
+    "indent": 0,
+    "content": "Chapitre 10 - Nœuds Bitcoin"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 11 - Miners",
+    "indent": 0,
+    "content": "Chapitre 11 - Mineurs"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 12 - Miners and ecology",
+    "indent": 0,
+    "content": "Chapitre 12 - Les mineurs et l'écologie"
+  },
+  {
+    "type": "paragraph",
+    "value": "**Section 4 - Économiser en Bitcoin**\n\nTraduction :"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 13 - Bitcoin price",
+    "indent": 0,
+    "content": "Chapitre 13 - Prix du Bitcoin"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 14 - How to buy Bitcoin",
+    "indent": 0,
+    "content": "Chapitre 14 - Comment acheter des Bitcoin"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 15 - Working for Bitcoins",
+    "indent": 0,
+    "content": "Chapitre 15 - Travailler pour des bitcoins"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 16 - Hyper-bitcoinization",
+    "indent": 0,
+    "content": "Chapitre 16 - Hyper-bitcoinisation"
+  },
+  {
+    "type": "paragraph",
+    "value": "**Section 5 - Le réseau Lightning**"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 17 - Introduction to the Lightning Network",
+    "indent": 0,
+    "content": "Chapitre 17 - Introduction au Lightning Network"
+  },
+  {
+    "type": "list",
+    "value": "- Chapter 18 - Use cases for the Lightning Network",
+    "indent": 0,
+    "content": "Chapitre 18 - Cas d'utilisation pour le Lightning Network"
+  },
+  {
+    "type": "paragraph",
+    "value": "Avant d'aborder la définition et le fonctionnement de l'argent dans la société (Chapitre 1), nous commençons par la genèse du Bitcoin. Le Bitcoin est une technologie relativement nouvelle, lancée en 2009, qui n'a rien de comparable. Il est donc normal de ne pas tout comprendre d'un coup. En fait, tout comme lorsque vous apprenez à utiliser Internet ou une voiture, vous n'avez pas besoin de connaître tous les détails techniques pour utiliser le Bitcoin (recevoir, payer, sécuriser vos fonds)."
+  },
+  {
+    "type": "embed_links",
+    "value": "![image](assets/en/chapter0/3.webp)"
+  },
+  {
+    "type": "snippet_start",
+    "value": "```bash",
+    "language": "bash"
+  },
+  {
+    "type": "snippet",
+    "value": "ls allfile",
+    "content": [
+      "ls allfile"
+    ]
+  },
+  {
+    "type": "quote",
+    "value": "> This is the end of the file",
+    "content": "Voici la traduction en français :\n\nC'est la fin du fichier"
+  },
+  {
+    "type": "quote",
+    "value": "> This a another quote",
+    "content": "Voici une autre citation"
+  }
+]

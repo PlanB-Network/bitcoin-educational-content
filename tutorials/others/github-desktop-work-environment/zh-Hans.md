@@ -10,9 +10,9 @@ PlanB 的使命是以尽可能多的语言提供关于比特币的顶级教育�
 - **直接通过 GitHub 的网页界面贡献**：这是最简单的方法。如果您是初学者或者您计划只做少量的小贡献，这个选项可能是最适合您的；
 - **使用 Git 本地贡献**：如果您计划对 PlanB 网络进行定期或重大贡献，这种方法更合适。虽然一开始在您的电脑上设置本地 Git 环境可能看起来复杂，但从长远来看，这种方法更高效。它允许更灵活地管理更改。如果您对此感到新奇，不用担心，**我们在本教程中解释了设置环境的整个过程**（承诺，您不需要输入任何命令行^^）。
 
-如果您不知道 GitHub 是什么，或者如果您想了解更多与 Git 和 GitHub 相关的技术术语，我建议您[阅读我们的入门文章以熟悉这些概念](https://planb.network/tutorials/others/basics-of-github)。
+如果您不知道 GitHub 是什么，或者如果您想了解更多与 Git 和 GitHub 相关的技术术语，我建议您[阅读我们的入门文章以熟悉这些概念](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)。
 
-- 首先，您显然需要一个 GitHub 账户。如果您已经有一个，您可以登录，否则，您可以使用[我们的教程创建一个新账户](https://planb.network/tutorials/others/create-github-account)。
+- 首先，您显然需要一个 GitHub 账户。如果您已经有一个，您可以登录，否则，您可以使用[我们的教程创建一个新账户](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 
 ## 第 1 步：安装 GitHub Desktop
 

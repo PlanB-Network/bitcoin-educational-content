@@ -1,0 +1,10 @@
+question: Mis on kaevurite roll seoses elektrijaamadega, mis ei ole veel võrku ühendatud?
+answer: Nad toimivad viimase võimalusena ostjana
+wrong_answers:
+  - Nad varustavad elektrijaamu elektriga
+  - Nad ühendavad elektrijaamad võrku
+  - Nad reguleerivad elektri hinda
+explanation: >-
+  Kaevurid toimivad viimase võimalusena ostjana elektrijaamadele, mis ei ole veel
+  võrku ühendatud. See võimaldab elektrijaamadel kindlustada rahastamist isegi enne
+  elektrivõrku ühendamist.

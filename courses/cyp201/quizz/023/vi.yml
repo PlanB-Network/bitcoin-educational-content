@@ -1,9 +1,8 @@
-question: HMAC là viết tắt của từ gì?
-answer: Mã Xác Thực Tin Nhắn Dựa Trên Hàm Băm
+question: Điểm chung nào được tất cả các bên tham gia sử dụng để tính toán khóa công khai trong Bitcoin?
+answer: Điểm sinh G
 wrong_answers:
-  - Mã Xác Thực Chính Quyền Cấp Cao
-  - Mã Xác Thực Chính Quyền Được Băm
-  - Mã Xác Thực Tin Nhắn Cấp Cao
+  - Băm SHA256
+  - Cụm từ ghi nhớ
+  - Khóa công khai nén
 explanation: |
-  HMAC là viết tắt của Mã Xác Thực Tin Nhắn Dựa Trên Hàm Băm. Đây là một loại mã xác thực tin nhắn (MAC) bao gồm một hàm băm mật mã và một khóa mật mã bí mật.
-reviewed: false
+  Điểm sinh G của đường cong elliptic secp256k1 được sử dụng để tính toán khóa công khai từ khóa riêng.

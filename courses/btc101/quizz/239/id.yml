@@ -1,0 +1,11 @@
+question: Bagaimana Jaringan Lightning dapat mengubah model pembayaran?
+answer: Pengguna dapat dikenakan biaya per menit, atau bahkan per detik, untuk waktu yang mereka habiskan menggunakan suatu layanan
+wrong_answers:
+  - Pengguna dapat dikenakan biaya tetap untuk menggunakan suatu layanan
+  - Pengguna dapat dikenakan biaya berdasarkan jumlah data yang mereka gunakan
+  - Pengguna dapat dikenakan biaya berdasarkan jumlah transaksi yang mereka lakukan
+explanation: >-
+  Dengan Jaringan Lightning, alih-alih membayar langganan bulanan
+  untuk suatu layanan, pengguna dapat dikenakan biaya per menit, atau bahkan per detik, untuk waktu
+  yang mereka habiskan menggunakan layanan tersebut.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Cosa succede se viene fornito anche un input leggermente deviante a una funzione di hash crittografica?
-answer: Modifica significativamente l'hash finale.
+question: Perché SHA256 applica un preprocessamento al messaggio di input?
+answer: Per garantire una lunghezza multipla di 512 bit
 wrong_answers:
-  - Produce lo stesso hash.
-  - Provoca il fallimento della funzione di hash.
-  - Rallenta il calcolo dell'hash.
+  - Per verificare l'integrità del messaggio
+  - Per criptare i dati prima dell'hashing
+  - Per aumentare la dimensione degli hash generati
 explanation: |
-  Le funzioni di hash crittografiche sono progettate in modo tale che anche una leggera deviazione nell'input modifichi significativamente l'hash finale. Questa proprietà è cruciale per la sicurezza della funzione di hash, poiché rende estremamente difficile trovare un input diverso che produca lo stesso hash.
+  Il preprocessamento regola la lunghezza del messaggio aggiungendo bit di riempimento e una rappresentazione binaria della sua lunghezza.
 reviewed: false

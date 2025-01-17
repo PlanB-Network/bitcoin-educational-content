@@ -1,10 +1,12 @@
-question: Was ist der Hauptunterschied zwischen privatem Surfen und der Verwendung des TOR-Netzwerks?
-answer: Beim privaten Surfen wird das Surfen nicht vor Ihrem Internetdienstanbieter versteckt und hinterlässt keine lokalen Spuren auf Ihrem Computer, während TOR Anonymität bietet, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht.
+question: Was ist der Hauptunterschied zwischen privatem Surfen und der Nutzung des TOR-Netzwerks?
+answer: Tor verschleiert die IP-Adresse des Benutzers, während privates Surfen dies nicht tut.
 wrong_answers:
   - Privates Surfen und TOR sind dasselbe.
-  - Privates Surfen maskiert die IP-Adresse des Benutzers, während TOR dies nicht tut.
-  - TOR hinterlässt lokale Spuren auf Ihrem Computer, während privates Surfen dies nicht tut.
+  - Privates Surfen verschleiert die IP-Adresse des Benutzers, während TOR dies nicht tut.
+  - TOR hinterlässt lokale Spuren auf Ihrem Computer, privates Surfen tut dies nicht.
 explanation: |
-  Privates Surfen ist eine Funktion, die verhindert, dass Internetbrowser den Verlauf des Surfens, temporäre Internetdateien, Formulardaten, Cookies sowie Benutzernamen und Passwörter speichern. Es verbirgt jedoch das Surfen nicht vor Ihrem Internetdienstanbieter.
-  Auf der anderen Seite bietet das TOR-Netzwerk Anonymität, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht.
-reviewed: false
+  Privates Surfen ist eine Funktion, die verhindert, dass Internetbrowser
+  Browserverlauf, temporäre Internetdateien, Formulardaten, Cookies sowie Benutzernamen und Passwörter speichern.
+  Es versteckt jedoch nicht das Surfen vor Ihrem Internetdienstanbieter. Andererseits bietet das TOR-Netzwerk
+  Anonymität, indem es die IP-Adresse des Benutzers verschleiert und Zugang zum Darknet ermöglicht.
+reviewed: true

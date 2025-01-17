@@ -1,0 +1,9 @@
+question: Nguyên tắc Kerckhoff giúp tăng cường an ninh cho các hệ thống mở như Linux như thế nào?
+answer: Nó cho phép việc xác minh công khai các lỗ hổng tiềm ẩn
+wrong_answers:
+  - Nó làm cho các thuật toán mã hóa trở nên vô hình
+  - Nó giới hạn số lượng người dùng tiềm năng
+  - Nó đảm bảo việc sử dụng các khóa duy nhất
+explanation: |
+  Nguyên tắc Kerckhoff cho phép việc xác minh công khai các lỗi bảo mật, như trong các hệ thống mã nguồn mở, điều này làm cho các hệ thống trở nên đáng tin cậy hơn thông qua sự minh bạch. An ninh được đảm bảo hoàn toàn bởi khóa, không phải bởi quá trình mã hóa.
+reviewed: false

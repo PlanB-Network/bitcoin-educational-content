@@ -1,0 +1,9 @@
+question: Siapa yang menyarankan untuk menghubungi organisasi WikiLeaks agar mereka mau menerima bitcoin pada November 2010?
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - Robert Horning
+  - Satoshi Nakamoto
+explanation: |
+  Dia membenarkannya dengan menulis bahwa organisasi tersebut telah melihat dana mereka dibekukan beberapa kali. Secara khusus, Moneybookers telah membekukan akun WikiLeaks pada bulan Oktober.
+reviewed: false

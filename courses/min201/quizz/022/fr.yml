@@ -1,9 +1,11 @@
-question: Sur quoi les mineurs compteront-ils pour être rémunérés une fois que les 21 millions de bitcoins auront été créés ?
-answer: Les mineurs compteront uniquement sur les frais de transaction pour être rémunérés.
+question: Sur quoi les mineurs compteront-ils pour leur rémunération après que les 21 millions de bitcoins aient été créés ?
+answer: Les mineurs compteront uniquement sur les frais de transaction pour leur rémunération.
 wrong_answers:
-  - Les mineurs compteront uniquement sur les récompenses de bloc pour être rémunérés.
-  - Les mineurs compteront uniquement sur les confirmations de transaction pour être rémunérés.
-  - Les mineurs compteront uniquement sur les frais de réseau pour être rémunérés.
+  - Les mineurs compteront uniquement sur les récompenses de bloc pour leur rémunération.
+  - Les mineurs compteront uniquement sur les confirmations de transaction pour leur rémunération.
+  - Les mineurs compteront uniquement sur les frais de réseau pour leur rémunération.
 explanation: |
-  D'ici 2140, aucun nouveau bitcoin ne sera créé. À ce stade, les mineurs compteront uniquement sur les frais de transaction pour être rémunérés.
-reviewed: false
+  D'ici 2140, aucun nouveau bitcoin ne sera créé. À ce moment-là,
+  les mineurs compteront uniquement sur les frais de transaction pour
+  leur rémunération.
+reviewed: true

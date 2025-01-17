@@ -1,0 +1,9 @@
+question: Jaká je role klíče v procesech symetrického šifrování a dešifrování?
+answer: Používá se pro šifrování a dešifrování zprávy
+wrong_answers:
+  - Používá se pouze pro dešifrování zprávy
+  - Používá se pro vytvoření kódu pro ověření integrity zprávy
+  - Je veřejně sdílen pro generování dalších klíčů
+explanation: |
+  V režimech symetrického šifrování se stejný soukromý klíč používá jak pro šifrování zprávy při odesílání, tak pro její dešifrování po přijetí.
+reviewed: false

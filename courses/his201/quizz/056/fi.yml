@@ -1,0 +1,9 @@
+question: Mitkä olivat ohjelmiston tunnistamat standardiset skriptin tulostemallit syyskuussa 2010?
+answer: Vastaanotto julkisella avaimella (P2PK) ja vastaanotto osoitteella (P2PKH)
+wrong_answers:
+  - Vastaanotto osoitteella (P2PKH) ja vastaanotto moniallekirjoitusskriptillä (P2MS)
+  - Vastaanotto osoitteella (P2PKH) ja vastaanotto skriptillä (P2SH)
+  - Vastaanotto julkisella avaimella (P2PK) ja vastaanotto skriptillä (P2SH)
+explanation: |
+  Nämä kaksi tyyppiä olivat käytössä Bitcoinin alusta lähtien. P2MS-tyyppi standardoitiin maaliskuussa 2012. P2SH-tyyppi lisättiin protokollaan huhtikuussa 2012.
+reviewed: false

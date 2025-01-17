@@ -1,0 +1,9 @@
+question: Perché la sola confidenzialità non è sufficiente a garantire una comunicazione sicura?
+answer: Perché un attaccante può comunque intercettare e modificare il messaggio senza comprenderne il contenuto.
+wrong_answers:
+  - Perché ottenere la confidenzialità è troppo difficile.
+  - Perché le chiavi private possono essere facilmente indovinate.
+  - Perché i messaggi non possono essere autenticati senza una firma digitale.
+explanation: |
+  La confidenzialità protegge il contenuto dei messaggi, ma senza un MAC, un attaccante potrebbe comunque intercettare e modificare un messaggio senza comprenderlo, compromettendo così l'integrità della comunicazione.
+reviewed: false

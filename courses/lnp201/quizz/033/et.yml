@@ -1,0 +1,8 @@
+question: Mida tähendab sibulmarsruutimine Lightning võrgustikus?
+answer: See tähendab, et iga vahesõlm teab ainult oma vahetuid naabreid marsruudil.
+wrong_answers:
+  - Saata vahendeid sõlmest sõlme teades lõppsaajat
+  - Arvutada tasusid iga vahesõlme jaoks sõltumatult
+  - Saata vahendeid kõikidele marsruudi sõlmedele samaaegselt
+explanation: |
+  Sibulmarsruutimine tähendab, et iga vahesõlm teab ainult eelmist ja järgmist sõlme, säilitades seeläbi lõppsaaja konfidentsiaalsuse.

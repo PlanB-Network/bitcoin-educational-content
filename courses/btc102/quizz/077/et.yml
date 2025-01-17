@@ -1,0 +1,10 @@
+question: Mis on satoshi Bitcoini kontekstis?
+answer: Bitcoini väikseim ühik
+wrong_answers:
+  - Üks tüüp Bitcoinide rahakotist
+  - Meetod Bitcoinide ostuks
+  - Bitcoini vahetusplatvorm
+explanation: |
+  Bitcoini kontekstis on satoshi (või SAT) Bitcoini väikseim ühik.
+  Bitcoinide kogujate eesmärk on koguda võimalikult palju satoshisid.
+reviewed: false

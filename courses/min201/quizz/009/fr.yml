@@ -1,9 +1,13 @@
 question: Quel est le rôle du logiciel dans le minage de Bitcoin et comment contribue-t-il à l'efficacité ?
-answer: Le logiciel dans le minage de Bitcoin, comme BrainsOS Plus, remplace le système d'exploitation d'origine de la machine de minage, permettant ainsi d'effectuer les mêmes opérations de manière plus efficace. Il peut augmenter l'efficacité d'une machine de 25%, ce qui signifie que pour une quantité équivalente d'électricité, la machine peut produire 25% de hashrate supplémentaire, augmentant ainsi les récompenses reçues par le mineur.
+answer: Le logiciel dans le minage de Bitcoin, tel que BrainsOS Plus, remplace le système d'exploitation original de la machine de minage, permettant d'effectuer les mêmes opérations de manière plus efficace. Il peut augmenter l'efficacité d'une machine de 25 %, signifiant que pour une quantité équivalente d'électricité, la machine peut produire 25 % de hashrate supplémentaire, augmentant ainsi les récompenses reçues par le mineur.
 wrong_answers:
   - Le logiciel dans le minage de Bitcoin est utilisé pour suivre la quantité de Bitcoin minée et ne contribue pas à l'efficacité.
-  - Le logiciel dans le minage de Bitcoin est utilisé pour connecter la machine de minage à Internet et ne contribue pas à l'efficacité.
+  - Le logiciel dans le minage de Bitcoin fournit uniquement une meilleure connexion internet pour la machine de minage, il peut augmenter l'efficacité d'une telle machine de 14 %, si l'un des protocoles les plus récents est utilisé.
   - Le logiciel dans le minage de Bitcoin est utilisé pour refroidir la machine de minage et ne contribue pas à l'efficacité.
 explanation: |
-  Le chapitre explique que des logiciels comme BrainsOS Plus peuvent remplacer le système d'exploitation d'origine d'une machine de minage, permettant ainsi d'effectuer les mêmes opérations de manière plus efficace. Cette optimisation logicielle est un élément essentiel de la compétitivité dans le minage de Bitcoin.
-reviewed: false
+  Le chapitre explique que des logiciels comme BrainsOS Plus peuvent
+  remplacer le système d'exploitation original d'une machine de minage,
+  permettant d'effectuer les mêmes opérations de manière plus
+  efficace. Cette optimisation logicielle est un élément essentiel
+  de compétitivité dans le minage de Bitcoin.
+reviewed: true

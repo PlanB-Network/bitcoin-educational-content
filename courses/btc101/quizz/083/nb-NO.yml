@@ -1,0 +1,12 @@
+question: Hva er analogien som brukes for å forklare hvordan du kan motta Bitcoins uten
+  å tillate avsenderen å stjele midlene dine?
+answer: En postkasse
+wrong_answers:
+  - En bankkonto
+  - Et pengeskap
+  - Et hus
+explanation: |
+  Analogien som brukes for å forklare hvordan du kan motta Bitcoins uten å tillate
+  avsenderen å stjele midlene dine, er en postkasse. Folk setter inn penger i den, men du
+  er den eneste som kan åpne den.
+reviewed: true

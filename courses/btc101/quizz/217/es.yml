@@ -1,11 +1,12 @@
 question: ¿En qué campos plantea preguntas Bitcoin?
-answer: Criptografía, teoría de juegos, economía y política monetaria, ciencias de la computación, filosofía, energía, leyes y regulación
+answer: Criptografía, teoría de juegos, economía y política monetaria, ciencias de la computación, filosofía, energía, leyes y regulación.
 wrong_answers:
   - Solo ciencias de la computación y economía
-  - Solo criptografía y teoría de juegos
-  - Solo filosofía y energía
-explanation: >-
-  Bitcoin es un objeto multidisciplinario que plantea preguntas relacionadas con
-  varios campos, incluyendo criptografía, teoría de juegos, economía y política monetaria,
+  - Solo criptografía y teoría de juegos.
+  - Solo filosofía y energía.
+explanation: |
+  Bitcoin es un tema multidisciplinario que plantea
+  preguntas relacionadas con varios campos, incluyendo
+  criptografía, teoría de juegos, economía y política monetaria,
   ciencias de la computación, filosofía, energía, leyes y regulación.
-reviewed: false
+reviewed: true

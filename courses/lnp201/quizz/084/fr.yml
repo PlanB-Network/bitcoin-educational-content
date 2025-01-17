@@ -1,9 +1,0 @@
-question: Quel est le but d'un Atomic Swap entre LN et BTC dans le Lightning Network ?
-answer: Pour rééquilibrer la liquidité
-wrong_answers:
-  - Pour ouvrir des canaux
-  - Pour se connecter à d'autres nœuds
-  - Pour acheter des canaux
-explanation: |
-  Un Atomic Swap entre LN et BTC dans le Lightning Network est utilisé pour rééquilibrer la liquidité. Cela se fait en envoyant de la liquidité à une boucle via un autre nœud, qui renvoie ensuite l'équilibre on-chain au nœud d'origine.
-reviewed: false

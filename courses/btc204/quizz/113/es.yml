@@ -1,0 +1,13 @@
+question: ¿Qué elemento impide que un observador externo diferencie entre las transacciones Stonewall y Stonewall x2?
+
+answer: El patrón de las transacciones es el mismo
+
+wrong_answers:
+  - Las transacciones están cifradas
+  - Los montos involucrados en las transacciones son siempre idénticos
+  - Las firmas digitales de las transacciones son generadas por el mismo algoritmo
+
+explanation: |
+  Desde un punto de vista externo, el patrón de las transacciones es exactamente el mismo. Sin información de contexto adicional, por lo tanto, es imposible diferenciar una transacción Stonewall de una transacción Stonewall x2, ya que adoptan el mismo patrón.
+
+reviewed: false

@@ -1,10 +1,8 @@
-question: Mitä varoille tapahtuu Lightning Network -siirrossa?
-answer: Varat eivät liiku, mutta lopullinen saldo päivittyy.
+question: Mikä kanavan sulkemismenetelmä on taloudellisin ja nopein?
+answer: Yhteistyöllinen sulkeminen
 wrong_answers:
-  - Varat siirretään toiselle puolelle.
-  - Varat lukitaan, kunnes kanava suljetaan.
-  - Varat lähetetään Bitcoin-verkkoon.
+  - Pakotettu sulkeminen
+  - Huijaamalla sulkeminen
+  - Mikään ei ole taloudellisempi ja nopeampi
 explanation: |
-  Lightning Network -siirrossa varat eivät liiku. Sen sijaan lopullinen
-  saldo päivittyy allekirjoitetulla, mutta julkaisemattomalla on-chain siirrolla.
-reviewed: false
+  Yhteistyöllinen sulkeminen on nopein ja taloudellisin menetelmä, koska molemmat osapuolet suostuvat sulkemaan kanavan, säätäen maksuja markkinaolosuhteiden mukaan.

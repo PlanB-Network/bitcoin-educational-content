@@ -1,11 +1,9 @@
-question: What happens when Alice tries to cheat by publishing an old commitment transaction?
-answer: Bob uses the revocation key to punish Alice and take all the SAT from the channel.
+question: What is the main role of the sending node in routing on the Lightning Network?
+answer: Calculate the complete route to the recipient
 wrong_answers:
-  - Alice is rewarded for her cleverness.
-  - Alice and Bob split the SAT from the channel.
-  - The transaction is rejected and nothing happens.
+  - Store the liquidity information of all the network's channels
+  - Determine the transaction fees for each intermediary node
+  - Communicate directly with all intermediary nodes
 explanation: |
-  The Lightning Network has a mechanism to prevent cheating. If Alice tries
-  to cheat by publishing an old commitment transaction, Bob can use the revocation
-  key to punish Alice and take all the SAT from the channel.
+  The sending node is responsible for calculating the entire route to the recipient, as intermediary nodes only know their immediate neighbor.
 reviewed: false

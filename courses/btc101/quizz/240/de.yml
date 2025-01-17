@@ -1,9 +1,13 @@
-question: Was ist einer der potenziellen Vorteile des Lightning-Netzwerks für Content-Ersteller?
-answer: Sie würden Anreize haben, qualitativ hochwertigen Inhalt zu produzieren, um die Aufmerksamkeit der Benutzer zu behalten.
+question: Was ist einer der potenziellen Vorteile des Lightning-Netzwerks für Inhaltsproduzenten?
+answer: Sie wären motiviert, qualitativ hochwertige Inhalte zu erstellen, um die Aufmerksamkeit der Nutzer zu behalten.
 wrong_answers:
-  - Sie könnten mehr für ihren Inhalt verlangen.
+  - Sie könnten mehr für ihre Inhalte verlangen.
   - Sie könnten ein breiteres Publikum erreichen.
-  - Sie könnten Inhalte schneller produzieren.
+  - Sie könnten Inhalte schneller produzieren, um die Aufmerksamkeit der Nutzer zu behalten.
 explanation: |
-  Mit dem Lightning-Netzwerk würden Content-Ersteller Anreize haben, qualitativ hochwertigen Inhalt zu produzieren, um die Aufmerksamkeit der Benutzer zu behalten. Benutzer würden im Gegenzug nur für den Inhalt bezahlen, den sie konsumieren, wodurch vorab anfallende Abonnementgebühren entfallen.
-reviewed: false
+  Mit dem Lightning-Netzwerk würden Inhaltsproduzenten
+  motiviert, qualitativ hochwertige Inhalte zu erstellen, um
+  die Aufmerksamkeit der Nutzer zu behalten. Die Nutzer wiederum
+  würden nur für die Inhalte bezahlen, die sie konsumieren, wodurch
+  Vorauszahlungen für Abonnements entfallen würden.
+reviewed: true

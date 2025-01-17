@@ -5,7 +5,8 @@ wrong_answers:
   - Bitcoin mining works on a bidding principle, where the miner who bids the highest gets the Bitcoin reward.
   - Bitcoin mining works on a rotation principle, where each miner gets a turn to mine a block and receive the Bitcoin reward.
 explanation: |
-  The chapter explains that Bitcoin mining works on a lottery principle,
-  where the chances of winning a block (and therefore the Bitcoin reward) every ten
-  minutes are extremely low for an individual small miner.
-reviewed: false
+  The chapter explains that Bitcoin mining works on a lottery
+  principle, where the chances of winning a block (and
+  therefore the Bitcoin reward) every ten minutes are
+  extremely low for an individual small miner.
+reviewed: true

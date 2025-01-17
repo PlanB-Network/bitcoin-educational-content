@@ -1,0 +1,9 @@
+question: Các nhà phát triển Bitcoin gặp nhau ở đâu để có những cuộc thảo luận kỹ thuật không chính thức hơn?
+answer: Trên kênh IRC \#bitcoin-dev
+wrong_answers:
+  - Trong một phần đặc biệt của diễn đàn
+  - Trên danh sách thư bitcoin-development
+  - Trên subreddit r/Bitcoin
+explanation: |
+  Điều này được [tạo ra](https: //mmalmi.github.io/satoshi/#email-27) vào tháng 8 năm 2009 bởi Martti Malmi. Nó trở nên phổ biến sau sự kiện slashdotting vào tháng 7 năm 2010.
+reviewed: false

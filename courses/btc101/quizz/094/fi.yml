@@ -1,9 +1,13 @@
 question: Mikä on riski käyttäessä moniallekirjoituslompakkoa?
-answer: Ei ole pääsyä riittävän moniin erillisiin osiin moniallekirjoitusvarmuuskopiosta
+answer: Ei ole pääsyä tarpeeksi moniin yksittäisiin yksityisavaimiin tai varmuuskopioihin.
 wrong_answers:
-  - On pääsy riittävän moniin erillisiin osiin moniallekirjoitusvarmuuskopiosta
-  - Jakaa avaimet muiden osapuolten kanssa
-  - Ei jakaa avaimet muiden osapuolten kanssa
+  - Pääsy tarpeeksi moniin yksittäisiin yksityisavaimiin tai varmuuskopioihin.
+  - Yksityisavaintesi jakaminen muiden osapuolten kanssa.
+  - Julkisten avaintesi jakaminen muiden osapuolten kanssa.
 explanation: |
-  Kun käytät moniallekirjoituslompakkoa, jokainen moniallekirjoituksen osa tulisi säilyttää eri paikoissa. Tämä johtuu siitä, että moniallekirjoituslompakko vaatii useita allekirjoituksia toimenpiteen suorittamiseksi, joten tarvitaan tietty määrä lompakoita, ja kunkin osan säilyttäminen eri paikoissa lisää turvallisuutta.
-reviewed: false
+  Kun käytät moniallekirjoituslompakkoa, jokainen yksityisavain
+  moniallekirjoituksesta tulisi säilyttää eri paikoissa. Tämä johtuu siitä,
+  että moniallekirjoitus vaatii useita allekirjoituksia suorittaakseen
+  transaktion, joten tarvitaan tietty määrä lompakoita. Näin ollen,
+  jokaisen osan säilyttäminen eri paikassa lisää ylimääräisen turvallisuustason.
+reviewed: true

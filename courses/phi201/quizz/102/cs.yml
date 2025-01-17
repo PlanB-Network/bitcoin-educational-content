@@ -1,0 +1,9 @@
+question: Jaká je rakouská kritika Marxovy teorie hodnoty práce?
+answer: Rakušané tvrdí, že hodnota je subjektivní a určená preferencemi spotřebitelů, nikoli prací.
+wrong_answers:
+  - Tvrdí, že Marxova teorie nebere v úvahu obtížnost práce.
+  - Rakušané kritizují Marxovu teorii, protože je neefektivní.
+  - Rakušané kritizují Marxovu teorii, protože hodnota práce je buržoazní ctnost.
+explanation: |
+  Rakouská škola udržuje, že hodnota je subjektivní, definovaná individuálními preferencemi spotřebitelů, na rozdíl od marxistické teorie, která hodnotu spojuje s časem a úsilím vynaloženým na práci.
+reviewed: false

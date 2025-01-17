@@ -92,4 +92,4 @@ DuckDuckGo上的“*Onionize*”选项允许您通过访问其在Tor网络上的
 ![TOR 浏览器](assets/notext/35.webp)
 为了您浏览器的整体安全，“*更安全*”和“*最安全*”模式允许您调整访问网站时执行的网页功能和脚本。这最小化了利用漏洞的风险，但也会相应地影响网站的显示和交互性。![TOR 浏览器](assets/notext/36.webp) 您将找到其他安全选项，包括危险内容阻止器和仅限 HTTPS 模式，确保与网站的连接始终遵循此协议。![TOR 浏览器](assets/notext/37.webp) 最后，在“*连接*”标签中，您将找到所有与连接到 Tor 网络相关的设置。这是您可以配置桥接以从可能审查其访问的地区访问 Tor 的地方。![TOR 浏览器](assets/notext/38.webp) 就这样，您现在已经准备好以更安全、更私密的方式浏览互联网了！如果在线隐私是您感兴趣的话题，我还推荐发现这个关于 Mullvad VPN 的其他教程：
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

@@ -1,9 +1,14 @@
-question: Perché è essenziale la Proof of Work nella rete Bitcoin?
-answer: Essa rappresenta il collegamento fisico tra il mondo reale e Bitcoin, richiedendo energia tangibile per la produzione e la validazione di bitcoin e blocchi.
+question: Perché il Proof of Work è essenziale nella rete Bitcoin?
+answer: Rappresenta il collegamento fisico tra il mondo reale e Bitcoin, richiedendo energia tangibile per la produzione e la validazione di bitcoin e blocchi.
 wrong_answers:
-  - Consente la partecipazione su piccola scala.
+  - Permette la partecipazione su piccola scala dei minatori, specialmente per coloro che si trovano in luoghi ad alta censura.
   - Garantisce protezione contro la centralizzazione.
   - Riflette le disuguaglianze di potere esistenti nella società.
 explanation: |
-  La Proof of Work è essenziale nella rete Bitcoin perché rappresenta il collegamento fisico tra il mondo reale e Bitcoin. La produzione e la validazione di bitcoin e blocchi richiedono energia tangibile, ancorando la rete Bitcoin nella realtà fisica e prevenendo la sua completa dominazione da parte di entità potenti.
-reviewed: false
+  Il Proof of Work è essenziale nella rete Bitcoin perché
+  rappresenta il collegamento fisico tra il mondo reale e
+  Bitcoin. La produzione e la validazione di bitcoin e
+  blocchi richiedono energia tangibile, ancorando la rete
+  Bitcoin nella realtà fisica e prevenendo la sua completa
+  dominazione da parte di entità potenti.
+reviewed: true

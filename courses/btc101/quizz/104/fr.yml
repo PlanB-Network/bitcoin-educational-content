@@ -1,11 +1,12 @@
 question: Qu'est-ce qui n'est pas une phrase mnémonique dans le contexte du Bitcoin ?
-answer: Un mot de passe pour votre portefeuille Bitcoin
+answer: Un mot de passe pour votre portefeuille Bitcoin.
 wrong_answers:
-  - une liste de 12-24 mots issus d'un dictionnaire spécifique
-  - le secret pour accéder à vos fonds bitcoin
-  - Un code secret pour accéder à vos bitcoins
+  - Une liste de 12 mots issus d'un dictionnaire spécifique.
+  - Une liste de 24 mots issus d'un dictionnaire spécifique.
+  - Le secret pour accéder à vos fonds en bitcoin.
 explanation: |
-  Une phrase mnémonique dans le contexte du Bitcoin est une liste de 12 ou 24 mots
-  qui vous permet de restaurer votre portefeuille sur n'importe quelle application de portefeuille Bitcoin. Quiconque
-  ayant accès à cette liste a également accès à vos bitcoins.
+  Une phrase mnémonique dans le contexte du Bitcoin est une liste de 12
+  ou 24 mots qui vous permet de restaurer votre portefeuille sur n'importe
+  quelle application de portefeuille Bitcoin. Quiconque ayant accès à cette liste
+  peut également accéder à vos bitcoins.
 reviewed: true

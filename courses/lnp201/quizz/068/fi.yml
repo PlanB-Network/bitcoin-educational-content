@@ -1,9 +1,0 @@
-question: Miksi tarkan likviditeetin jakautumista Lightning-verkossa ei ole suoraan saatavilla?
-answer: Käyttäjän yksityisyyden ja turvallisuuden säilyttämiseksi.
-wrong_answers:
-  - Vähentääkseen lohkoketjun kokoa.
-  - Nopeuttaakseen transaktioiden nopeutta.
-  - Vähentääkseen verkon monimutkaisuutta.
-explanation: |
-  Tarkan likviditeetin jakautumista Lightning-verkossa ei ole suoraan saatavilla käyttäjän yksityisyyden ja turvallisuuden säilyttämiseksi. Vaikka kanavien kokonaiskapasiteetti on julkinen, tarkan likviditeetin sijaintia ei paljasteta. Tämä estää potentiaalisia hyökkääjiä kohdistamasta tiettyjä kanavia tai solmuja, joilla on suuri likviditeetti.
-reviewed: false

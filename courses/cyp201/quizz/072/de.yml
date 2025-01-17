@@ -1,9 +1,9 @@
-question: Was ist eine Mnemonik-Phrase im Zusammenhang mit einer Bitcoin-Wallet?
-answer: Es handelt sich um eine Sicherungskopie der Wallet.
+question: Was bedeutet ein Apostroph (') oder das h in einem Ableitungspfad?
+answer: Eine gehärtete Ableitung
 wrong_answers:
-  - Es handelt sich um ein Passwort für die Wallet.
-  - Es handelt sich um eine Transaktionshistorie der Wallet.
-  - Es handelt sich um eine digitale Signatur der Wallet.
+  - Eine normale Ableitung
+  - Eine externe Ableitung
+  - Eine nicht-standardmäßige Ableitung
 explanation: |
-  Eine Mnemonik-Phrase wird generiert, um die Sicherung der Bitcoin-Wallet zu gewährleisten.
+  Ein Apostroph zeigt an, dass die Ableitung gehärtet ist, was bedeutet, dass ein Eltern-Privatschlüssel erforderlich ist, um den Kind-Schlüssel zu generieren.
 reviewed: false

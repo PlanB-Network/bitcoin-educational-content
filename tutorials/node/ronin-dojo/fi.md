@@ -9,7 +9,7 @@ _Seuraamme tarkasti tämän tapauksen kehitystä sekä siihen liittyvien työkal
 
 _Tämä opas on tarkoitettu vain koulutus- ja tiedotustarkoituksiin. Emme tue tai kannusta näiden työkalujen käyttöä rikollisiin tarkoituksiin. Jokaisen käyttäjän on noudatettava oman lainkäyttöalueensa lakeja._
 
-_Tämä opas on omistettu RoninDojo v1:n asentamiselle. Jotta voit hyödyntää viimeisimpiä parannuksia ja ominaisuuksia, suosittelen vahvasti tutustumista oppaaseemme, joka on omistettu RoninDojo v2:n suoralle asentamiselle Raspberry Pi -laitteellesi:_ [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+_Tämä opas on omistettu RoninDojo v1:n asentamiselle. Jotta voit hyödyntää viimeisimpiä parannuksia ja ominaisuuksia, suosittelen vahvasti tutustumista oppaaseemme, joka on omistettu RoninDojo v2:n suoralle asentamiselle Raspberry Pi -laitteellesi:_ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

@@ -1,9 +1,12 @@
 question: Quali sono le tre principali funzioni di un portafoglio Bitcoin?
-answer: Ricevere bitcoin, inviare bitcoin, proteggerli da hacking e tentativi di furto
+answer: Ricevere bitcoin, inviare bitcoin, proteggerli contro tentativi di hacking e furto.
 wrong_answers:
-  - Conservare bitcoin, consentire l'invio di bitcoin, proteggerli da hacking e tentativi di furto
-  - Consentire la ricezione di bitcoin, conservare bitcoin, proteggerli da hacking e tentativi di furto
-  - Consentire la ricezione di bitcoin, consentire l'invio di bitcoin, vendere bitcoin
+  - Conservare bitcoin, inviare bitcoin, proteggerli contro tentativi di hacking e furto.
+  - Consentire di ricevere bitcoin, conservare bitcoin, proteggerli contro tentativi di hacking e furto.
+  - Consentire di ricevere bitcoin, consentire di inviare bitcoin, vendere bitcoin.
 explanation: |
-  Un portafoglio Bitcoin viene utilizzato per interagire con la rete Bitcoin. Le sue tre principali funzioni sono consentire la ricezione di bitcoin, consentire l'invio di bitcoin e proteggerli da hacking e tentativi di furto.
-reviewed: false
+  Un portafoglio Bitcoin è utilizzato per interagire con la
+  rete Bitcoin. Le sue tre principali funzioni sono consentire di ricevere
+  bitcoin, consentire di inviare bitcoin e proteggerli contro
+  tentativi di hacking e furto.
+reviewed: true

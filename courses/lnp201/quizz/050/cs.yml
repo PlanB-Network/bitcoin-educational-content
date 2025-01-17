@@ -1,9 +1,9 @@
-question: Jaké jsou dva typy poplatků v síti Lightning Network?
-answer: Fixní poplatek bez ohledu na částku a variabilní poplatek.
+question: Proč by prodejce mohl provést fiktivní platbu v kanálu?
+answer: Aby přesunul likviditu na opačnou stranu
 wrong_answers:
-  - Transakční poplatek a směrovací poplatek.
-  - Poplatek odesílatele a poplatek příjemce.
-  - Síťový poplatek a poplatek za kanál.
+  - Aby snížil poplatky za směrování
+  - Aby zvýšil celkovou kapacitu svých kanálů
+  - Aby dlouhodobě uzamkl finanční prostředky
 explanation: |
-  V síti Lightning Network existují dva typy poplatků; fixní poplatek bez ohledu na částku (výchozí je 1 SAT, ale lze upravit) a variabilní poplatek (standardně 0,01 %).
+  Provedením fiktivní platby prodejce přesune likviditu ze své strany na opačnou stranu kanálu, čímž uvolní příchozí kapacitu pro přijímání plateb.
 reviewed: false

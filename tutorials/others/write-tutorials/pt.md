@@ -26,10 +26,10 @@ Para contribuir para a Rede PlanB, você tem 3 opções dependendo do seu nível
 - Ter [um perfil de professor na Rede PlanB](https://planb.network/professors) (apenas se você estiver propondo um tutorial completo).
 
 **Se você precisar de ajuda para obter esses pré-requisitos, meus outros tutoriais irão guiá-lo:**
-**[Entendendo Git e GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Criando uma conta no GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Configurando seu ambiente de trabalho](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Criando um perfil de professor](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Entendendo Git e GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Criando uma conta no GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Configurando seu ambiente de trabalho](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Criando um perfil de professor](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Que tipo de conteúdo escrever na Rede PlanB?
 Estamos principalmente à procura de tutoriais sobre ferramentas relacionadas ao Bitcoin ou seu ecossistema. Esses conteúdos podem ser organizados em torno de seis categorias principais:
 - Carteira;
@@ -120,7 +120,7 @@ bitcoin-educational-content/
     - Intermediário (`intermediary`),
     - Avançado (`advanced`),
     - Especialista (`expert`).
-- **professor**: Forneça seu ID de contribuidor conforme aparece no seu perfil de professor. Para mais detalhes, consulte [o tutorial correspondente](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Forneça seu ID de contribuidor conforme aparece no seu perfil de professor. Para mais detalhes, consulte [o tutorial correspondente](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (opcional): Caso deseje creditar um site fonte para o tutorial que está desenvolvendo, como seu próprio site pessoal, aqui é onde você pode adicionar o link em questão.
 ![tutorial](assets/15.webp)
 - Uma vez que você tenha terminado de modificar seu arquivo `tutorial.yml`, salve seu documento clicando em `Arquivo > Salvar`:
@@ -154,7 +154,7 @@ description: [Descrição]
 
 ### Como adicionar diagramas ao tutorial?
 
-Para adicionar diagramas ao seu tutorial, você pode utilizar ferramentas de criação de diagramas online, como o Draw.io, Lucidchart, ou qualquer outra ferramenta de sua preferência que permita salvar ou exportar imagens em formatos compatíveis (como `.png`, `.jpg`, `.webp`). Após criar seu diagrama:
+Para adicionar diagramas ao seu tutorial, você pode utilizar ferramentas de criação de diagramas online, como o Draw.io, Lucidchart, ou qualquer outra ferramenta de sua preferência que permita salvar ou exportar imagens em formatos compatíveis (como `.webp`, `.webp`, `.webp`). Após criar seu diagrama:
 
 1. Exporte ou salve a imagem do diagrama no formato desejado.
 2. Adicione a imagem ao seu tutorial utilizando a sintaxe markdown para imagens, conforme mostrado anteriormente.
@@ -214,3 +214,4 @@ No software GitHub Desktop, você pode voltar para o branch principal do seu for
 Se você desejar fazer modificações na sua contribuição após já ter enviado seu PR, o procedimento a seguir depende do estado atual do seu PR:
 - Se o seu PR ainda está aberto e ainda não foi mesclado, faça as modificações localmente enquanto permanece no mesmo branch. Uma vez que as modificações estejam finalizadas, use o botão `Push origin` para adicionar um novo commit ao seu PR ainda aberto;
 - No caso de seu PR já ter sido mesclado ao branch principal, você precisará refazer o processo desde o início, criando um novo branch e, em seguida, submetendo um novo PR. Certifique-se de que seu repositório local esteja sincronizado com o repositório fonte da PlanB Network antes de prosseguir.
+

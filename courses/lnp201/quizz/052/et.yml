@@ -1,0 +1,8 @@
+question: Milline teenus võimaldab likviidsuse viimist kanali vastasküljele, samal ajal vahendeid ahelas tagasi saades?
+answer: Loop Out
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Lightning Labsi Loop Out teenus võimaldab vahendite ülekandmist Lightning kanalist ahelasse, optimeerides sellega vastuvõtu mahtu, samal ajal bitcoine põhiahelast tagasi saades.

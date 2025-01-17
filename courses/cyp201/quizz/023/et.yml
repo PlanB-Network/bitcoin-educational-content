@@ -1,0 +1,8 @@
+question: Mis on ühine punkt, mida kõik osalejad kasutavad Bitcoinis avaliku võtme arvutamiseks?
+answer: Generaatori punkt G
+wrong_answers:
+  - SHA256 räsi
+  - Mnemooniline fraas
+  - Komprimeeritud avalik võti
+explanation: |
+  Elliptilise kõvera secp256k1 generaatori punkti G kasutatakse avalike võtmete arvutamiseks privaatvõtmetest.

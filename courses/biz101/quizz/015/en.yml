@@ -1,0 +1,9 @@
+question: What does the fisherman’s story illustrate about the nature of capital?
+answer: Capital represents saved resources that enable building tools to improve future productivity.
+wrong_answers:
+  - Capital is just a stockpile of consumer goods waiting to be consumed immediately.
+  - Capital must be created instantly through government loans.
+  - Capital only matters for large corporations, not small entrepreneurs.
+explanation: |
+  The fisherman who saves a few days’ worth of fish to build a spear is deferring immediate consumption for future gain. This example shows how saving (capital accumulation) leads to higher efficiency and greater production down the line.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Wie viele Runden führt PBKDF2 mit HMAC SHA512 durch?
-answer: 2048 Runden
+question: Was ist das Hauptmerkmal der Skalarmultiplikation auf elliptischen Kurven?
+answer: Einwegfunktion
 wrong_answers:
-  - 1024 Runden
-  - 512 Runden
-  - 4096 Runden
+  - Leicht umkehrbar
+  - Basierend auf der Faktorisierung von Primzahlen
+  - Sehr langwierig zu berechnen
 explanation: |
-  PBKDF2 wird verwendet, um eine mnemonische Phrase in einen Seed umzuwandeln. Dieser Algorithmus führt 2048 Runden mit HMAC SHA512 durch.
+  Die Skalarmultiplikation auf elliptischen Kurven ist eine Einwegfunktion, was es unmöglich macht, den privaten Schlüssel aus dem öffentlichen Schlüssel abzuleiten.
 reviewed: false

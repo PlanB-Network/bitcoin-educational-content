@@ -1,0 +1,9 @@
+question: What is the typical size of prime numbers used in factorization for modern cryptosystems like RSA?
+answer: 1024 bits for each factor
+wrong_answers:
+  - 1024 bits in total
+  - 256 bits for each factor
+  - 256 bits in total
+explanation: |
+  In modern cryptosystems like RSA, the chosen prime numbers are typically 1024 bits each, making factorization extremely difficult and enhancing security.
+reviewed: false

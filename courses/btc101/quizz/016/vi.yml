@@ -1,10 +1,12 @@
 question: B-money của Wei Dai là gì?
-answer: Ý tưởng về một loại tiền tệ số ẩn danh, việc phát hiện gian lận được thực hiện bởi một cộng đồng người đánh giá thay vì một cơ quan trung ương.
+answer: Một ý tưởng về một loại tiền tệ số ẩn danh, nơi việc phát hiện gian lận được thực hiện bởi một cộng đồng người đánh giá thay vì một cơ quan trung ương.
 wrong_answers:
-  - Một loại tiền tệ số được sử dụng rộng rãi trước Bitcoin.
-  - Một hình thức tiền tệ số được CIA tạo ra.
-  - Một loại tiền tệ số do Wei Dai tạo ra như một đối thủ cạnh tranh với Bitcoin.
+  - Một loại tiền tệ số được sử dụng rộng rãi trước Bitcoin và được kiểm soát bởi một nhóm cypherpunks.
+  - Một hình thức tiền tệ số được CIA tạo ra và sử dụng bởi quân đội.
+  - Một loại tiền tệ số được Wei Dai tạo ra như một đối thủ cạnh tranh với Bitcoin để có khả năng mở rộng cao hơn.
 explanation: |
-  B-money của Wei Dai là ý tưởng về một loại tiền tệ số ẩn danh không có thực thể trung ương,
-  đã rất nhiều lần truyền cảm hứng cho Bitcoin như được trích dẫn trong bản trắng của Bitcoin.
-reviewed: false
+  B-money của Wei Dai là ý tưởng về một loại tiền tệ số ẩn danh
+  không có thực thể trung ương nào, điều này đã rất nhiều lần truyền cảm hứng
+  cho sự tạo ra của Bitcoin. Thực tế, nó được trích dẫn trong
+  bản trắng của Bitcoin.
+reviewed: true

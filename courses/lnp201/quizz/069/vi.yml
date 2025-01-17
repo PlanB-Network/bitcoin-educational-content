@@ -1,9 +1,0 @@
-question: Điều gì xảy ra khi một nỗ lực giao dịch thất bại do thiếu thanh khoản trong Mạng Lưới Lightning?
-answer: Một lộ trình khác sẽ được thử cho đến khi giao dịch thành công.
-wrong_answers:
-  - Giao dịch được hủy bỏ và số tiền được trả lại cho người gửi.
-  - Giao dịch được tạm dừng cho đến khi có đủ thanh khoản.
-  - Giao dịch được tự động chuyển hướng đến một kênh có đủ thanh khoản.
-explanation: |
-  Trong Mạng Lưới Lightning, nếu một nỗ lực giao dịch thất bại do thiếu thanh khoản trong một kênh, nút sẽ thử một lộ trình khác. Quá trình này tiếp tục cho đến khi một giao dịch thành công được thực hiện. Cơ chế này đảm bảo rằng giao dịch có thể được hoàn thành ngay cả khi lộ trình ban đầu chọn không có đủ thanh khoản.
-reviewed: false

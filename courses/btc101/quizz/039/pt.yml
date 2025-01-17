@@ -1,11 +1,13 @@
-question: Qual é o principal objetivo do Bitcoin?
-answer: Separar o Estado do dinheiro
+question: Qual é o principal objetivo por trás da criação do Bitcoin?
+answer: Separar o Estado do dinheiro.
 wrong_answers:
-  - Substituir o ouro como padrão global
-  - Tornar as transações mais rápidas e baratas
-  - Tornar todos ricos
+  - Eliminar o padrão ouro.
+  - Tornar as transações mais rápidas e baratas.
+  - Tornar todos ricos.
 explanation: |
-  O Bitcoin foi criado com o objetivo de separar o Estado do dinheiro.
-  Isso é uma resposta aos desafios sistêmicos do atual sistema financeiro,
-  onde o Estado tem controle sobre a oferta de dinheiro e pode manipulá-lo em seu benefício.
-reviewed: false
+  O Bitcoin foi criado com o objetivo de separar o Estado
+  do dinheiro. É uma resposta aos desafios sistêmicos do
+  sistema financeiro atual, onde o Estado tem controle total
+  sobre a oferta de dinheiro e pode manipulá-lo em seu
+  próprio benefício.
+reviewed: true

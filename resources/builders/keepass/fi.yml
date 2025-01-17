@@ -1,0 +1,5 @@
+description: |
+  KeePass on avoimen lähdekoodin salasanojen hallintatyökalu, joka on suunniteltu tallentamaan ja järjestämään kirjautumistietosi turvallisesti. Se toimii paikallisesti ja käyttää vahvaa salausta suojatakseen arkaluontoisia tietojasi. KeePass tukee lisäosia lisätoimintojen lisäämiseksi ja mukautuu erilaisiin tarpeisiin.
+
+contributors:
+  - pretty-private

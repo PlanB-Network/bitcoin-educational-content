@@ -1,0 +1,9 @@
+question: Kepada siapa Satoshi Nakamoto menyerahkan kendali situs web (yang juga mencakup forum dan wiki) ketika ia pergi?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Dia tidak memiliki waktu untuk mengelolanya dan dengan cepat mendelegasikan tugas tersebut. Situs web dan forum kemudian diambil alih oleh Theymos dan Cøbra.
+reviewed: false

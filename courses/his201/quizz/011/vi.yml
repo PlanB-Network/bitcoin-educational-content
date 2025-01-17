@@ -1,0 +1,9 @@
+question: Hệ thống tiền tệ tư nhân nào đã được Satoshi Nakamoto đề cập rõ ràng trong các bài viết của mình?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - The Liberty Dollar
+  - e-Bullion
+explanation: |
+  Hệ thống này vẫn còn hoạt động vào thời điểm của Bitcoin, không giống như e-gold và The Liberty Dollar. Satoshi cũng [đã đề cập](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) đến Pecunix, một loại tiền tệ vàng số được tạo ra vào năm 2002.
+reviewed: false

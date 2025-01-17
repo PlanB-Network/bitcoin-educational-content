@@ -1,114 +1,153 @@
 ---
-name: Kaastöö - Ülevaatus
-description: Kuidas osaleda PlanB Network'i haridussisu ülevaatamises?
+name: Panus - Ülevaade
+description: Kuidas osaleda Plan ₿ Networki haridusliku sisu läbivaatamisel?
 ---
 ![github](assets/cover.webp)
 
-## TL;DR
-Kui soovid PlanB Network'is sisu üle vaadata, mine oma keele [seotud projekti lehele](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen). Vali sisu, mida soovid üle vaadata, kommenteeri, et teavitada meid ülesande võtmisest, ja esita PR (pull request) lõpetamisel keelega seotud harus.
+## Kokkuvõttes
 
-Kui sa eelmist osa ei mõistnud, ära muretse, see juhend on sinu jaoks!
+Kui soovite osaleda Plan ₿ Networki sisu läbivaatamises ja parandamises, siis liituge [meie Telegrami grupiga](https://t.me/PlanBNetwork_ContentBuilder), mis on pühendatud panusele. Tutvustage end lühidalt, seejärel täpsustage sisu, mida soovite vaadata, ja keel. Tehke oma parandused tööharu kohta ja esitage PR, kui teie läbivaatamine on lõpetatud.
+
+Kui sa ei saanud ülaltoodud osast aru, siis ära muretse - see õpetus on mõeldud just sulle!
 
 ---
+## Mis on Plan ₿ Network?
 
-## Mis on PlanB Network?
+Plan ₿ Network on platvorm, kus saab Bitcoini tundma õppida arvukate kursuste ja õpetuste kaudu kõigile. Praegu on kogu meie sisu avatud lähtekoodiga, mida hoitakse GitHubi repositooriumis ja mis on avatud läbivaatamiseks ja sisu loomiseks.
 
-Planb.network on uhiuus platvorm, mis võimaldab õppida Bitcoin'i kohta läbi arvukate kursuste ja õpetuste kõigile. Praegu on kogu meie sisu avatud lähtekoodiga, hostitud GitHub'i repositooriumis ja avatud kaastöödeks sisu ülevaatamiseks ja loomiseks.
-
-PlanB.network'i eesmärk on saada Bitcoin'i küberruumi avalikuks väljakuks, ühendades ja julgustades Bitcoin'i kogukondi üle maailma.
+Plan ₿ Networki eesmärk on saada Bitcoini küberruumi avalikuks väljakuks, mis ühendab ja julgustab Bitcoini kogukondi kogu maailmas.
 
 ## Miks panustada?
 
-PlanB.network on põhimõtteliselt mitmekeelne, kuna meie eesmärk on muuta Bitcoin'i ressursid kõigile maailmas kättesaadavaks. Me usume, et keel ei tohiks olla takistuseks suveräänsele valuutale.
+Plan ₿ Network on põhimõtteliselt mitmekeelne, sest meie eesmärk on teha Bitcoini ressursid kättesaadavaks kõigile inimestele kogu maailmas. Me usume, et keel ei tohiks olla takistuseks suveräänsele rahale.
 
-Seetõttu kasutame selle eesmärgi saavutamiseks Inimene x AI lähenemist. Tänu meie [lihtsale programmile](https://github.com/Asi0Flammeus/LLM-Translator), saame automaatselt tõlkida meie sisu paljudesse keeltesse. Siiski, enne selle avaldamist, vajame keelt valdavat inimest, kes vaataks selle üle, et tagada sisu arusaadavus ja sobimatute terminite puudumine.
+Selle saavutamiseks kasutame inimene x tehisintellekti lähenemisviisi. Meie [programmi] (https://github.com/Asi0Flammeus/LLM-Translator) abil saame oma sisu automaatselt paljudesse keeltesse tõlkida. Siiski on meil vaja, et sujuva keeleoskusega kõneleja vaataks selle üle, et sisu oleks arusaadav ja ilma sobimatute terminiteta.
 
-Kui soovid meiega liituda selle haridusprojekti ehitamisel, et edendada Bitcoin'i haridust oma kogukonnas, võid alustada kursuse või õpetuse ülevaatamisest.
+Kui soovite aidata seda haridusprojekti üles ehitada, et edendada Bitcoini haridust oma kogukonnas, võite alustada kursuse või õpetuse läbivaatamisega.
 
-Lisaks, kuna Découvre Bitcoin (DB) vastutab panuste hindamise eest ja meie (DB) hindame *Value4Value* mudelit, premeerime ülevaatuse panuseid. Preemia põhineb sisu pikkusel, meie automaatse tõlke keelelisel täpsusel ja sisu keerukusel.
+Lisaks, kuna me hindame *Value4Value* mudelit, siis me premeerime ülevaatuste panust. Tasustamine põhineb sisu pikkusel, meie automaatse tõlke keelelisel täpsusel ja sisu raskusastmel.
 
-## Kas pean teadma, kuidas GitHub töötab?
+## Kas ma pean teadma, kuidas GitHub töötab?
 
-Sisu ülevaatamiseks ei pea sa olema GitHub'i ekspert.
-Kuigi on alati parem mõista, mida sa teed (ja miks), võid lihtsalt järgida allpool toodud juhiseid, et panustada.
+Sa ei pea olema GitHubi ekspert, et sisu üle vaadata. Kuigi alati on parem mõista, mida teete (ja miks), võite lihtsalt järgida allpool toodud juhiseid, et anda oma panus.
 
-Siiski, kui sa pole täiesti tuttav, kuidas Git ja GitHub töötavad ja sooviksid rohkem teada saada, võid avastada [meie sissejuhatava artikli nende tööriistade kohta](https://planb.network/tutorials/others/basics-of-github).
+Kui te aga ei ole Git ja GitHubiga kursis ja soovite rohkem teada saada, siis vaadake meie sissejuhatavat artiklit nende tööriistade kohta:
 
-## 1. Loo konto
-* Loo konto GitHub'is, et alustada panustamist. Kui vajad juhiseid, kuidas luua oma kontot GitHub'is, on meil ka [üksikasjalik õpetus](https://planb.network/tutorials/others/create-github-account).
-## **2. Mine oma keele projekti lehele**
-* [Projekti leht](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) sisaldab sinu keeles sisu, mis on kuvatud Kanban tahvlil.
-* Otsi kaarte "Review Needed" veerust (vt **A**). Need on probleemid, mida saad üle vaadata.
-* Iga kaardi detailid (vt **B**):
-	- **Sisu Tüüp**: Kursus, õpetus või veebileht
-	- **Sisu Raskusaste**
-	- **Kiireloomulisus**
-	- **Sõnade Arv**
-	- **Seotud Preemia**: Põhineb sisu omadustel ja tõlke täpsusel (vt [Preemia sektsioon](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
-![ülevaade](assets/1.webp)
-## **3. Leia sisu, mida üle vaadata**
-* "Vajab ülevaatamist" veerus klõpsake kaardil.
-* Kaardil on kirjeldus koos linkidega algse sisu ja ülevaatamiseks mõeldud faili juurde (vt **A**).
-* Kui soovite seda üle vaadata, jätke kommentaar, et teatada meile, et hakkate sellega tegelema (vt **B**).
-* Klõpsake lingil kõrval `File to Review` (vt **C**)
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+## 1. Konto loomine
 
-![ülevaade](assets/2.webp)
 
-## **4. Vaadake sisu üle ja redigeerige seda GitHubi liideses**
-* Nüüd näete faili ülevaatamiseks GitHubi liidest.
-* Vasakul paneelil saate navigeerida oma harus (vt **A**) ja failides (vt **B**).
-* Alustamiseks klõpsake pliiatsi ikoonil (vt **C**).
+- Loo konto [GitHubis](https://github.com/), et alustada panustamist. Kui soovite juhiseid GitHubi konto loomiseks, on meil ka üksikasjalik õpetus:
 
-![ülevaade](assets/3.webp)
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-* Kui see on teie esimene kord, küsib GitHub teilt repositooriumi kahveldamist.
+- Sul on vaja ka kontot sõnumirakenduses [Telegram](https://telegram.org/).
 
-![ülevaade](assets/4.webp)
+## 2. Liituge Telegrami grupiga
 
-* Järgmisena jõuate redaktori liidesesse (vt **A**), kus näete faili teed ja vastavat haru (vt **B**), ning saate vahetada redigeerimisrežiimi ja eelvaate režiimi vahel (vt **C**).
 
-![ülevaade](assets/5.webp)
+- Liituge [PBN Content Builderi grupiga](https://t.me/PlanBNetwork_ContentBuilder) Telegramis.
 
-NB. Ülevaatamine on kõige parem teha koodiaknas, originaalsisu eraldi aknas kõrval.
+![REVIEW](assets/fr/01.webp)
 
-## **5. Kinnitage muudatused**
 
-* Kui soovite oma ülevaatamise sessiooni lõpetada, saate oma muudatused kinnitada, isegi kui ülevaade pole lõpetatud – see on natuke nagu "salvestate oma muudatused GitHubis".
-* Klõpsake nupul "Commit Changes" (vt **A**).
+- Tutvustage end lühidalt ja täpsustage kanalile "Üldine" saadetud sõnumis, millise sisuga ja millises keeles soovite kaasa rääkida.
+- Seejärel loob meeskonnaliige GitHubis probleemi teie tulevase panuse jaoks. Sealt leiate kogu vajaliku teabe oma läbivaatamise alustamiseks.
 
-![ülevaade](assets/6.webp)
-* Lisage oma muudatuse kohta kirjeldav sõnum (vt **B**).* Vajadusel lisage kirjelduses rohkem konteksti (vt **C**).
-* Klõpsake nupul "Propose Changes" (vt **D**).
+![REVIEW](assets/fr/02.webp)
 
-![ülevaade](assets/7.webp)
+## 3. Sisu läbivaatamine ja muutmine GitHubi kasutajaliidese kaudu
 
-* See avab PR (Pull Request) ettepaneku lehe.
 
-## **6. Looge PR pühendatud haruga**
-![ülevaade](assets/8.webp)
+- Probleem sisaldab kirjeldust (vt **A**) koos linkidega algsele sisule ja failile, mida saab vaadata.
+- Kui soovite läbivaatamise eest vastutada, siis jätke kommentaari küsimuse juurde (vt **B**), et näidata, et te tegelete sellega. See hoiab ära dubleerivad jõupingutused.
+- Sisu vaatamiseks klõpsake faili kõrval oleval lingil (vt **C**).
 
-* Saate kontrollida, et see PR taotleb teie haru ühendamist vastava keele pühendatud haruga (vt **A**).
-* Andke PR-ile kirjeldav nimi (vt **B**).
-* Lisage kirjelduses konteksti (vt **C**).
-* Kui pole lõpetatud, klõpsake "Create Pull Request" kõrval olevat rippmenüü noolt ja valige "Draft PR" (vt **D**).
-* Klõpsake "Draft Pull Request."
-* Õnnitlused teie esimese PR puhul!
+![REVIEW](assets/fr/03.webp)
 
-## **7. Jätkake ülevaatamist hiljem**
-* Kui te pole oma ülevaatamist lõpetanud ja soovite oma tööd jätkata, minge oma GitHubi profiili kaudu suveräänse ülikooli sisu repositooriumi kahveldusse.
-* Valige vastav haru.
-* Vajadusel nimetage haru ümber.
-* Leidke oma sisufail ja klõpsake redigeerimise jätkamiseks pliiatsi nupul.
 
-## **8. Kinnitage otse oma harul**
-* Tehke muudatusi otse oma harul, kinnitades muudatusi, kui edenete.
+- Nüüd saate vaadata GitHubi liidesest faili vaadata.
+- Vasakpoolsel paneelil saate navigeerida oma haru (vt **A**) ja failide (vt **B**) vahel.
+- Klõpsake pliiatsi ikoonil, et alustada läbivaatamist (vt **C**).
 
-## **9. Lõpetage ja seadke PR ülevaatamiseks valmis**
-* Minge vahekaardile "Pull Requests".
-* Valige oma PR.
-* Klõpsake "Ready for Review".
+![REVIEW](assets/fr/04.webp)
 
-## 10. Oodake ülevaadet
-* Pärast heakskiitu võtab Découvre Bitcoin teiega ühendust, et saata teie preemia LN kaudu.
-* Kui soovite alustada otsast, minge tagasi sammu 2 juurde, et jätkata teiste sisudele kaasaaitamist.
-* Kui teil on märkusi, küsimusi või kommentaare selle projekti kohta, võite saata DM-i Telegramis kasutajale @asi0_flammeus.
+
+- Kui see on teie esimene panus, palub GitHub teil lähtekoodihoidla hargneda. Vajutage lihtsalt nupule.
+
+![REVIEW](assets/fr/05.webp)
+
+
+- Seejärel jõuate redaktori kasutajaliidesesse (vt **A**), kus näete faili teekonda ja vastavat haru (vt **B**) ning saate vahetada redigeerimise ja eelvaate režiimi vahel (vt **C**).
+
+![REVIEW](assets/fr/06.webp)
+
+NB. Soovitatav on vaadata läbi koodiaknas, kusjuures originaalsisu kuvatakse eraldi aknas. Näiteks saate teksti vaadata Plan ₿ Networki veebisaidil või GitHubi eelvaates brauseri vahekaardil. Kasutage `ctrl + F` vigade leidmiseks ja paranduste tegemiseks koodivaates jooksvalt.
+
+## 4. Muudatuste tegemine
+
+
+- Võite alustada sisu läbivaatamist ja parandamist vastavalt vajadusele.
+- Kui soovite oma seanssi peatada, saate oma muudatused kinnitada, isegi kui läbivaatamine ei ole veel lõppenud. See on nagu oma edusammude salvestamine GitHubis.
+- Klõpsake nuppu "Commit Changes...".
+
+![REVIEW](assets/fr/07.webp)
+
+
+- Lisage muudatuste kohta kirjeldav sõnum (vt **A**).
+- Vajaduse korral lisage kirjeldusse rohkem konteksti (vt **B**).
+- Klõpsake nuppu "Muudatuste tegemine" (vt **C**).
+
+![REVIEW](assets/fr/08.webp)
+
+
+- Kui see ei ole teie esimene panus, palub GitHub teil luua uus haru. Te ei tohiks kunagi teha kommiteerimist otse peamise `dev` haru jaoks. Kui te olete juba teinud kommiteid olemasolevasse tööharu, valige see haru. Vastasel juhul valige uue haru loomiseks valik "Create a new branch".
+
+![REVIEW](assets/fr/13.webp)
+
+
+- Seejärel avaneb lehekülg, mis võtab kõik teie muudatused kokku. Seda sirvides näete täpseid muudatusi: kustutatud elemendid kuvatakse punase värviga, lisatud elemendid aga rohelise värviga.
+
+![REVIEW](assets/fr/09.webp)
+
+
+- Kui te ei ole oma ülevaatust lõpetanud ja soovite tööd hiljem jätkata, võite lihtsalt väljuda.
+- Kui olete oma muudatused üle andnud, on need salvestatud teie GitHubi haru.
+- Oma töö jätkamiseks minge oma GitHubi profiili kaudu Plan ₿ Networki sisuhoidla hargnemisele.
+
+![REVIEW](assets/fr/14.webp)
+
+
+- Valige haru, mis sisaldab teie edusamme (vt **A**), leidke oma sisufail (vt **B**), seejärel klõpsake pliiatsi ikoonil, et jätkata ülevaatamist.
+
+![REVIEW](assets/fr/15.webp)
+
+## 5. Luua PR koos spetsiaalse filiaaliga
+
+
+- Kui kõik tundub hea ja olete oma muudatused lõpetanud, klõpsake rohelist nuppu "Create Pull Request".
+
+![REVIEW](assets/fr/10.webp)
+
+
+- Seejärel jõuate PR-lehele. Pull Request on taotlus esitada kaugrepositooriumi harus tehtud muudatused läbivaatamiseks ja võimalikuks ühendamiseks peaharusse.
+- Lisage oma PR-ile pealkiri ja lühikirjeldus. Pealkiri peaks vastama teemale, mille kallal te töötate. Näiteks kui teema pealkiri on `[TRANSLATION] Course CYP201 - FR`, kasutage oma PR-ile sama pealkirja (vrd. **A**). Kirjelduses mainige seotud teemat, kasutades selle numbrit, millele eelneb "Sulgeb". See sulgeb probleemi automaatselt, kui PR on ühendatud (vt **B**).
+- Kui kõik on korras, klõpsake rohelist nuppu "Create Pull Request" (vt **C**).
+
+![REVIEW](assets/fr/11.webp)
+
+## 6. Oodake läbivaatamist
+
+
+- Palju õnne, teie PR on esitatud! Saate jälgida selle edenemist [Plan ₿ Network'i GitHubi repositooriumi](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) vahekaardil "Pull requests":
+
+![REVIEW](assets/fr/12.webp)
+
+
+- Suur tänu teie panuse eest! Pärast heakskiitmist võtab Plan ₿ Network'i meeskonnaliige teiega ühendust, et saata teie preemia. **Makseid tehakse ainult Lightning Networki** kaudu.
+- Kui soovid uuesti alustada, naase sammu 2 juurde ja saada Telegrami grupis uus sõnum, et jätkata panustamist muule sisule. Enne uue tööharu loomist sünkroniseerige kindlasti oma haru. Selleks minge oma haru kodulehele, valige peaharu nimega `dev` (vt **A**), seejärel klõpsake nupule "Sync fork" (vt **B**). Kui teie haru jaoks on saadaval uuendused, ilmub nupp "Update branch". Lihtsalt klõpsake sellel, et teostada uuendamine.
+
+![REVIEW](assets/fr/16.webp)
+
+
+- Kui teil on selle projekti kohta märkusi, küsimusi või kommentaare, saatke julgelt DM [toetajate Telegram gruppi](https://t.me/PlanBNetwork_ContentBuilder).

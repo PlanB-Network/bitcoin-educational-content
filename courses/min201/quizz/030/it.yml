@@ -1,9 +1,12 @@
 question: Qual è la potenziale minaccia del Proof of Stake nella rete Bitcoin?
 answer: Coloro che già possiedono una grande quantità di valuta hanno un potere sproporzionato, riflettendo le disuguaglianze di potere esistenti.
 wrong_answers:
-  - Richiede una significativa barriera all'ingresso.
-  - Non permette la partecipazione su piccola scala.
+  - Rappresenterebbe una barriera significativa per i validatori che detengono una grande quantità di valuta.
+  - Non consente la partecipazione su piccola scala.
   - Non richiede risorse tangibili.
 explanation: |
-  In una rete Proof of Stake, coloro che già possiedono una grande quantità di valuta hanno un potere sproporzionato. Questa dinamica potrebbe potenzialmente perpetuare la centralizzazione e la concentrazione del potere nelle mani di pochi.
-reviewed: false
+  In una rete Proof of Stake, coloro che già possiedono una grande
+  quantità di valuta hanno un potere sproporzionato. Questa
+  dinamica potrebbe potenzialmente perpetuare la centralizzazione e
+  la concentrazione del potere nelle mani di pochi.
+reviewed: true

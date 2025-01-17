@@ -1,0 +1,11 @@
+question: Đặc điểm của ba văn bản được mã hóa trong hộp là gì?
+
+answer: Chúng chứa các số được phân tách bởi dấu phẩy
+
+wrong_answers:
+  - Chúng đều được viết bằng chữ cái thông thường
+  - Chúng sử dụng các biểu tượng không xác định
+  - Chúng được viết bằng nhiều ngôn ngữ
+
+explanation:
+  Ba văn bản được mã hóa bao gồm các chuỗi số được phân tách bởi dấu phẩy, yêu cầu một khóa để giải mã.

@@ -1,9 +1,8 @@
-question: Bitcoinウォレットでのパスフレーズの使用は必須ですか？
-answer: いいえ、使用は任意です
+question: P2PKHに比べて、P2WPKHスクリプトの主な新規性は何ですか？
+answer: 署名がWitnessフィールドに移動されます。
 wrong_answers:
-  - はい、その使用は必須です
-  - ウォレットの種類によります
-  - ウォレットに含まれるビットコインの量によります
+  - アドレスはbase58checkでエンコードされます。
+  - scriptPubKeyにはプライベートキーのハッシュが含まれます。
+  - P2WPKHはSegWitと互換性がありません。
 explanation: |
-  パスフレーズは、セキュリティを高めるためにBitcoinウォレットに統合できる追加のパスワードです。その使用は任意であり、ユーザーの裁量によります。
-reviewed: false
+  SegWitで導入されたP2WPKHは、トランザクションの可変性を防ぐために、署名をWitnessと呼ばれる別のセクションに移動します。

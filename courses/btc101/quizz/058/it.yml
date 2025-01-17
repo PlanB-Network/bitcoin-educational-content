@@ -1,11 +1,11 @@
 question: Cosa è successo al dollaro dello Zimbabwe nell'aprile 2009?
-answer: Il Ministro delle Finanze ha annunciato la sospensione del dollaro dello Zimbabwe e ha autorizzato l'uso di diverse valute straniere per il commercio.
+answer: Il Ministro delle Finanze ha annunciato la sospensione del dollaro dello Zimbabwe e ha autorizzato l'uso di diverse valute estere per il commercio.
 wrong_answers:
   - Il dollaro dello Zimbabwe è crollato di oltre il 72%.
   - Il governo ha accettato di compensare i veterani di guerra per un importo equivalente a 450 milioni di dollari USA.
-  - Il governo ha dovuto ricorrere alla stampa di banconote.
+  - Il governo ha dovuto ricorrere all'uso della stampante per la produzione di denaro.
 explanation: |
-  Nell'aprile 2009, il Ministro delle Finanze ha annunciato la sospensione del
-  dollaro dello Zimbabwe e ha autorizzato l'uso di diverse valute straniere per il commercio.
+  Nell'aprile 2009, il Ministro delle Finanze ha annunciato la
+  sospensione del dollaro dello Zimbabwe e ha autorizzato l'uso
+  di diverse valute estere per il commercio.
 reviewed: true
-

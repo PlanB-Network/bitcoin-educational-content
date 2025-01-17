@@ -49,7 +49,7 @@ Tätä opasta varten tarvitset 2 ohjelmistosovellusta: Ledger Live -sovelluksen 
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Näiden kahden ohjelmiston osalta suosittelen vahvasti sekä niiden aitouden (GnuPG:n avulla) että niiden eheyden (hashin kautta) tarkistamista ennen niiden asentamista koneellesi. Jos et ole varma, miten tämä tehdään, voit seurata tätä toista opasta:
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Kuinka alustaa Ledger Nano?
 
@@ -145,7 +145,7 @@ Salasanaa ei tule sekoittaa PIN-koodiin. Se toimii roolissa kryptografisten avai
 
 Salasana on erittäin tehokas työkalu bitcoinsien turvallisuuden parantamiseen. On kuitenkin erittäin tärkeää ymmärtää, miten se toimii ennen sen käyttöönottoa, välttääksesi pääsyn menettämisen lompakkoosi. Tämän vuoksi suosittelen, että konsultoit tätä toista opasta, jos haluat asettaa salasanan Ledgeriisi:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 "*PIN-lukitus*" -valikko mahdollistaa Ledgerisi automaattisen lukituksen konfiguroinnin ja aktivoimisen määrätyn toimettomuusajan jälkeen.
 
@@ -236,7 +236,7 @@ Ja siinä se, lompakkosi on nyt luotu!
 Ennen kuin vastaanotat ensimmäiset bitcoinisi lompakkoosi, **suosittelen vahvasti suorittamaan kuivan harjoituksen palautustestin**. Kirjaa ylös viitetieto, kuten xpub, ja nollaa sitten Ledger Nano, kun lompakko on vielä tyhjä. Sen jälkeen yritä palauttaa lompakkosi Ledgeriin käyttäen paperivarmuuskopioitasi. Tarkista, että palautuksen jälkeen luotu xpub vastaa alun perin merkitseämääsi. Jos näin on, voit olla varma, että paperivarmuuskopiosi ovat luotettavia.
 Lisätietoja palautustestin suorittamisesta löydät tästä toisesta oppaasta:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Kuinka vastaanottaa bitcoineja Ledger Nano -laitteella?
 
@@ -266,7 +266,7 @@ Voit lisätä "*Merkinnän*" kuvaamaan bitcoineja, jotka turvataan tällä osoit
 
 Lisätietoja merkinnöistä löydät myös tästä toisesta oppaasta:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Tämän jälkeen voit käyttää tätä osoitetta bitcoinejen vastaanottamiseen.
 
@@ -332,4 +332,4 @@ Jos pidit tätä opasta hyödyllisenä, arvostaisin, jos jättäisit peukun ylö
 
 Suosittelen myös, että tutustut tähän kattavaan oppaaseen Ledger Flexistä:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

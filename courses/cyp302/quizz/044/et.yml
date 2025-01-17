@@ -1,0 +1,9 @@
+question: Miks on täisarvude hulk koos liitmisega grupp, samas kui korrutamisega ei ole?
+answer: Hulgal puudub korrutamisel pöördetingimus
+wrong_answers:
+  - Hulk ei ole korrutamisel suletud
+  - Korrutamine ei ole täisarvude üle assotsiatiivne
+  - Korrutamisel puudub neutraalne element
+explanation: |
+  Täisarvude hulk ei rahulda korrutamisel pöördetingimust, kuna iga täisarvu jaoks ei leidu pöördelementi, mis korrutamisel annaks 1. Ainult elemendid 1 ja -1 vastavad sellele tingimusele.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Why is it often complex to use payjoin for a payment?
+
+answer: It requires the active cooperation of the recipient in the construction
+
+wrong_answers:
+  - It requires fixed amounts for each transaction
+  - It forces both parties to use the same type of software
+  - It requires the payer to have at least 2 UTXOs greater than the value of the payment
+
+explanation: |
+  The difficulty of using payjoin lies in its dependence on the merchant's participation. As a customer, using a payjoin is impossible if the merchant does not support it.
+
+reviewed: false

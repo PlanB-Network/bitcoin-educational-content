@@ -1,9 +1,12 @@
-question: Quel est le rôle des nœuds dans le réseau Bitcoin?
+question: Quel est le rôle des nœuds dans le réseau Bitcoin ?
 answer: Les nœuds maintiennent l'intégrité en vérifiant et en validant les transactions et les blocs.
 wrong_answers:
-  - Les nœuds créent et valident les blocs.
+  - Les nœuds créent et valident des blocs.
   - Les nœuds vérifient uniquement les transactions.
   - Les nœuds n'ont aucun rôle dans le réseau Bitcoin.
 explanation: |
-  Dans le réseau Bitcoin, les nœuds maintiennent l'intégrité du réseau en vérifiant et en validant les transactions et les blocs. Un bloc incorrect ou frauduleux sera rejeté par les nœuds, préservant ainsi la sécurité du réseau.
-reviewed: false
+  Dans le réseau Bitcoin, les nœuds maintiennent l'intégrité du
+  réseau en vérifiant et en validant les transactions et
+  les blocs. Un bloc incorrect ou frauduleux sera rejeté
+  par les nœuds, préservant ainsi la sécurité du réseau.
+reviewed: true

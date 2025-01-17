@@ -1,9 +1,9 @@
-question: La capacità di un canale di pagamento Lightning limita il numero totale di transazioni o il volume totale di Bitcoin che possono essere trasmessi attraverso il canale?
-answer: "No"
+question: Come funziona un indirizzo multisignature 2/2 in Bitcoin?
+answer: Richiede due firme per sbloccare e spendere i fondi.
 wrong_answers:
-  - Sì
-  - Solo in alcuni casi
-  - Dipende dalla rete Bitcoin
+  - Permette di spendere i fondi con solo una delle due chiavi.
+  - Autorizza le transazioni solo in casi specifici di blocco.
+  - È usato solo per inviare fondi ad indirizzi pubblici.
 explanation: |
-  Sebbene la capacità di un canale di pagamento Lightning sia fissa, ciò non limita il numero totale di transazioni o il volume totale di Bitcoin che possono essere trasmessi attraverso il canale.
+  Un indirizzo multisignature 2/2 richiede le firme di entrambe le parti coinvolte per poter spendere i fondi, il che è utilizzato per la sicurezza dei canali Lightning.
 reviewed: false

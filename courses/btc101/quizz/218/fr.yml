@@ -1,9 +1,11 @@
-question: Quelle est la nature de l'adoption de Bitcoin selon le texte ?
-answer: Viral
+question: Quelle est la nature de l'adoption de Bitcoin décrite dans ce cours ?
+answer: Virale.
 wrong_answers:
-  - Lente et régulière
-  - Rapide et incontrôlable
-  - Sporadique et imprévisible
+  - Lente et régulière.
+  - Rapide et incontrôlable.
+  - Sporadique et imprévisible.
 explanation: |
-  Le texte décrit l'adoption de Bitcoin comme virale, suggérant qu'elle se propage rapidement et largement d'une personne à une autre, tout comme un virus.
-reviewed: false
+  Le texte du cours décrit l'adoption de Bitcoin comme virale,
+  suggérant qu'elle se propage rapidement et largement d'une
+  personne à une autre, un peu comme un virus, mais dans le bon sens.
+reviewed: true

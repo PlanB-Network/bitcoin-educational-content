@@ -1,0 +1,9 @@
+question: Milline on regulatsiooni potentsiaalne mõju Bitcoin'i kaevandamisele?
+answer: Kui riik nagu Ameerika Ühendriigid otsustaks reguleerida või keelata teatud Bitcoin'i tehingud, võib see avaldada olulist mõju võrgule, eriti kui suur osa hashimisvõimsusest on selles riigis tsentraliseeritud.
+wrong_answers:
+  - Kui riik nagu Ameerika Ühendriigid otsustaks reguleerida või keelata Bitcoin'i kaevandamise, võib see viia Bitcoin'i väärtuse tõusuni.
+  - Kui riik nagu Ameerika Ühendriigid otsustaks reguleerida või keelata Bitcoin'i kaevandamise, võib see viia ploki preemia suurenemiseni.
+  - Kui riik nagu Ameerika Ühendriigid otsustaks reguleerida või keelata Bitcoin'i kaevandamise, võib see viia tehingukiiruse suurenemiseni.
+explanation: |
+  Peatükk selgitab, et kui riik nagu Ameerika Ühendriigid otsustaks reguleerida või keelata teatud Bitcoin'i tehingud, võib see avaldada olulist mõju võrgule, eriti kui suur osa hashimisvõimsusest on selles riigis tsentraliseeritud.
+reviewed: true

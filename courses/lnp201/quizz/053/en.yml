@@ -1,11 +1,9 @@
-question: What is the Lightning Network?
-answer: A network of payment channels.
+question: Why must a router maintain good liquidity distribution in its channels?
+answer: To maximize the number of payments it can route
 wrong_answers:
-  - A type of cryptocurrency.
-  - A blockchain technology.
-  - A digital wallet for Bitcoin.
+  - To reduce transaction fees
+  - To avoid opening new channels
+  - To limit the use of the Bitcoin blockchain
 explanation: |
-  The Lightning Network is a network of payment channels. Thousands of
-  peers with their own liquidity channels are connected to each other, and thus self-use
-  to carry out transactions between unconnected peers.
+  A router aims to route as many payments as possible to collect fees, which requires a good distribution of liquidity on both sides of the channels to ensure routing capacity.
 reviewed: false

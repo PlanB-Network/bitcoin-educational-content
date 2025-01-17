@@ -1,10 +1,9 @@
-question: Vai trò của PBKDF2 trong giao thức Bitcoin là gì?
-answer: Nó được sử dụng để chuyển đổi cụm từ ghi nhớ thành hạt giống.
+question: Phép toán toán học nào là cơ sở của sự an toàn trong mật mã học đường cong elliptic?
+answer: Vấn đề logarit rời rạc
 wrong_answers:
-  - Nó được sử dụng để chống lại các cuộc tấn công mở rộng độ dài khi tạo ví xác định phân cấp (HD).
-  - Nó được sử dụng để tạo ra đầu ra cố định kích thước.
-  - Nó được sử dụng để thêm một nguồn entropy bổ sung trong việc tạo khóa.
+  - Phân tích số nguyên tố
+  - Tính toán dư thừa bậc hai
+  - Vấn đề lập phương rời rạc
 explanation: |
-  PBKDF2 được sử dụng để chuyển đổi cụm từ ghi nhớ thành hạt giống. Thuật toán này
-  thực hiện 2048 vòng sử dụng HMAC SHA512.
+  Sự an toàn của mật mã học đường cong elliptic dựa trên sự khó khăn trong việc giải quyết vấn đề logarit rời rạc trên các đường cong này.
 reviewed: false

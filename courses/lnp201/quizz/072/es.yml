@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel del hash de la preimagen en el proceso de enrutamiento de la Red Lightning?
-answer: Se utiliza por el destinatario para recuperar la cantidad de transacción bloqueada en el HTLC.
-wrong_answers:
-  - Se utiliza para cifrar los datos de la transacción.
-  - Se utiliza para calcular las comisiones de transacción.
-  - Se utiliza para verificar la dirección del destinatario.
-explanation: |
-  En la Red Lightning, el hash de la preimagen se utiliza por el destinatario para recuperar la cantidad de transacción bloqueada en el HTLC. El remitente proporciona el hash de la preimagen al destinatario, quien luego puede usarlo para desbloquear los fondos.
-reviewed: false

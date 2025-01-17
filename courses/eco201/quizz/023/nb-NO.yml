@@ -1,0 +1,12 @@
+question: Hvorfor dukker problemet med koordinering i arbeidsdeling opp igjen i større samfunn?
+answer: Fordi mennesker er begrenset av sine kognitive kapasiteter og sosialt akseptert måling av verdien av bidrag i utveksling er et ikke-trivielt problem.
+wrong_answers:
+  - Fordi mennesker ikke er interessert i å jobbe med større grupper og foretrekker mindre samfunn.
+  - Fordi større samfunn har flere ressurser, noe som fører til mindre behov for arbeidsdeling.
+  - Fordi større samfunn har flere konflikter, noe som gjør koordinering vanskelig.
+explanation: |
+  I større samfunn er det umulig for en person å opprettholde og
+  huske stabile sosiale relasjoner med mer enn 150 individer, noe som gjør et ryktesystem
+  utilstrekkelig for å overkomme fangens dilemma i stor skala. Også, evalueringen av
+  verdien av bidrag i utveksling er et komplekst problem i større samfunn.
+reviewed: false

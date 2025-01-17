@@ -1,8 +1,12 @@
-question: Mikä on hyvä lähtökohta uran aloittamiselle kyberturvallisuuden parissa?
-answer: Vankka koulutus tietojenkäsittelytieteessä, tietojärjestelmissä tai jollakin muulla vastaavalla alalla
+question: Mikä on hyvä lähtökohta uran aloittamiselle kyberturvallisuuden parissa akateemisesta näkökulmasta?
+answer: Vankka koulutus tietojenkäsittelytieteessä, tietojärjestelmissä tai jollakin niihin liittyvällä alalla
 wrong_answers:
   - Tutkinto taiteiden ja humanististen tieteiden alalta
   - Tutkinto liiketalouden hallinnosta
-  - Tutkinto liikuntatieteestä
+  - Tutkinto liikuntakasvatuksesta
 explanation: |
-  Luvussa mainitaan, että vankka koulutus tietojenkäsittelytieteessä, tietojärjestelmissä tai jollakin muulla vastaavalla alalla on usein ihanteellinen lähtökohta uran aloittamiselle kyberturvallisuuden parissa.
+  Luvussa mainitaan, että vankka koulutus tietojenkäsittelytieteessä,
+  tietojärjestelmissä tai jollakin niihin liittyvällä alalla on usein
+  ihanteellinen lähtökohta uran aloittamiselle kyberturvallisuuden
+  parissa akateemisesta näkökulmasta.
+reviewed: true

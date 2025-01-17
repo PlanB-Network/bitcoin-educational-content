@@ -1,0 +1,8 @@
+question: Hva er hovedrollen til sender noden i ruting på Lightning Network?
+answer: Beregne hele ruten til mottakeren
+wrong_answers:
+  - Lagre likviditetsinformasjonen for alle nettverkets kanaler
+  - Bestemme transaksjonsgebyrene for hver mellomliggende node
+  - Kommunisere direkte med alle mellomliggende noder
+explanation: |
+  Sender noden er ansvarlig for å beregne hele ruten til mottakeren, ettersom mellomliggende noder kun kjenner sin umiddelbare nabo.

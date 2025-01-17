@@ -1,0 +1,9 @@
+question: O que é um ataque de reflexão em uma sessão de comunicação?
+answer: O atacante envia de volta para Alice uma mensagem que interceptou entre Alice e Bob
+wrong_answers:
+  - O atacante inverte a ordem das mensagens na comunicação
+  - O atacante envia uma mensagem modificada sem a tag
+  - O atacante usa uma mensagem antiga para criar uma nova
+explanation: |
+  Em um ataque de reflexão, o atacante intercepta uma mensagem de Alice para Bob e envia a mesma mensagem de volta para Alice, causando confusão na sessão.
+reviewed: false

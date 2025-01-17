@@ -1,9 +1,10 @@
-question: Quelle est l'une des principales raisons pour lesquelles Bitcoin a été créé ?
-answer: Proposer une tentative de changer le système financier.
+question: Quelle est l'une des principales raisons de la création de Bitcoin ?
+answer: Proposer le changement du système financier.
 wrong_answers:
-  - Proposer une tentative d'éliminer l'argent.
-  - Proposer une tentative de créer une nouvelle forme de technologie d'IA.
-  - Proposer une tentative de contrôler la population mondiale.
+  - Proposer l'élimination de l'argent.
+  - Proposer la création d'une nouvelle forme de technologie IA.
+  - Proposer le contrôle de la population mondiale.
 explanation: |
-  Le texte mentionne que Satoshi a créé Bitcoin en 2008 pour proposer une tentative de changer le système financier.
-reviewed: false
+  Le texte mentionne que Satoshi Nakamoto a créé Bitcoin en
+  2008 pour proposer le changement du système financier.
+reviewed: true

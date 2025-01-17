@@ -1,9 +1,13 @@
 question: Was ist ein potenzieller Nachteil von digitalen Zentralbankwährungen (CBDCs)?
-answer: Sie könnten die finanzielle Freiheit von Einzelpersonen beeinträchtigen und autoritäre Missbräuche erleichtern.
+answer: Sie könnten die finanzielle Freiheit von Einzelpersonen einschränken und autoritären Missbrauch erleichtern.
 wrong_answers:
   - Sie könnten zu einer Verringerung der Geldmenge führen.
   - Sie könnten zu einem Rückgang des Wertes von Bitcoin führen.
   - Sie könnten zu einem Rückgang des Wertes von Gold führen.
 explanation: |
-  Digitale Zentralbankwährungen (CBDCs) könnten potenziell die finanzielle Freiheit von Einzelpersonen beeinträchtigen und autoritäre Missbräuche erleichtern. Dies liegt daran, dass sie eine stärker zentral geplante Wirtschaft bieten würden, bei der die Zentralbank noch mehr Kontrolle über die Geldmenge hat.
-reviewed: false
+  Digitale Zentralbankwährungen (CBDCs) könnten potenziell
+  die finanzielle Freiheit von Einzelpersonen einschränken und
+  autoritären Missbrauch erleichtern. Dies liegt daran, dass sie
+  eine stärker zentral geplante Wirtschaft bieten würden, mit der
+  Zentralbank, die noch mehr Kontrolle über die Geldmenge hätte.
+reviewed: true

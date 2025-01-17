@@ -1,0 +1,9 @@
+question: Кто первым начал использовать графический процессор (GPU) для майнинга в 2010 году?
+answer: Ласло Ханец
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Нильс Шнайдер
+explanation: |
+  В апреле 2010 года он использовал среду OpenCL для вовлечения GPU в майнинг биткоинов. 10 мая он [опубликовал](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) свой исполняемый файл на форуме.
+reviewed: false

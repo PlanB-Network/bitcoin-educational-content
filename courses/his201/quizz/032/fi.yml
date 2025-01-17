@@ -1,0 +1,9 @@
+question: Mikä oli nuoren suomalaisen nimen, joka auttoi Satoshi Nakamotoa hänen projektinsa viestinnässä vuonna 2009, erityisesti hallinnoimalla Bitcoin-verkkosivustoa ja foorumia?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Hän otti yhteyttä Satoshiin huhtikuussa 2009. Satoshi antoi hänelle välittömästi tehtäväksi kirjoittaa UKK: n ja esityksen verkkosivustolle. Martti Malmi oli Satoshi Nakamoton oikea käsi yli vuoden ajan.
+reviewed: false

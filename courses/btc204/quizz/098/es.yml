@@ -1,0 +1,13 @@
+question: ¿Qué mide la anonimidad hacia adelante?
+
+answer: La resistencia de la privacidad contra un análisis de pasado a presente.
+
+wrong_answers:
+  - La resistencia de la privacidad contra un análisis de presente a pasado.
+  - La resistencia de la privacidad contra un análisis de futuro a presente.
+  - La resistencia de la privacidad contra un análisis de futuro a pasado.
+
+explanation: |
+  La anonimidad hacia adelante mide la resistencia de la privacidad de una moneda contra un análisis de pasado a presente (de entrada a salida).
+
+reviewed: false

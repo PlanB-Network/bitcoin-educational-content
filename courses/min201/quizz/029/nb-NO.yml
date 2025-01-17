@@ -1,0 +1,12 @@
+question: Hva er rollen til gruvearbeidere i Bitcoin-nettverket?
+answer: Gruvearbeidere spiller en essensiell rolle i validering og oppretting av blokker.
+wrong_answers:
+  - Gruvearbeidere validerer kun transaksjoner.
+  - Gruvearbeidere kontrollerer prisen på Bitcoin.
+  - Gruvearbeidere har ingen rolle i Bitcoin-nettverket.
+explanation: |
+  Gruvearbeidere spiller en essensiell rolle i Bitcoin-nettverket ved
+  å validere og opprette blokker. De styrker nettverket
+  mot sensur ved å bruke elektrisitet til å beregne
+  proof of work for Bitcoin.
+reviewed: true

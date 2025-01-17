@@ -1,9 +1,9 @@
-question: Điều gì xảy ra với số tiền trong một giao dịch qua Lightning Network?
-answer: Số tiền không di chuyển, nhưng số dư cuối cùng được cập nhật.
+question: Phương pháp đóng kênh nào là tiết kiệm và nhanh nhất?
+answer: Đóng kênh hợp tác
 wrong_answers:
-  - Số tiền được chuyển từ bên này sang bên kia.
-  - Số tiền được khóa cho đến khi kênh được đóng.
-  - Số tiền được gửi đến mạng Bitcoin.
+  - Đóng kênh bắt buộc
+  - Đóng kênh với gian lận
+  - Không có phương pháp nào tiết kiệm và nhanh hơn
 explanation: |
-  Trong một giao dịch qua Lightning Network, số tiền không bao giờ di chuyển. Thay vào đó, số dư cuối cùng được cập nhật thông qua một giao dịch trên chuỗi được ký kết nhưng không được công bố.
+  Đóng kênh hợp tác là phương pháp nhanh nhất và tiết kiệm nhất vì cả hai bên đều đồng ý đóng kênh, điều chỉnh phí theo điều kiện thị trường.
 reviewed: false

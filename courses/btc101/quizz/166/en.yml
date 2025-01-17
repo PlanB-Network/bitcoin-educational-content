@@ -1,13 +1,13 @@
-question: What is the role of miners in relation to power plants that are not yet
+question: What can miners do for those power plants that are not yet connected to the grid?
   connected to the grid?
-answer: They act as a last resort buyer
+answer: They can act as a last resort buyer.
 wrong_answers:
-  - They provide the power plants with electricity
-  - They connect the power plants to the grid
-  - They regulate the price of electricity
-explanation: >-
-  Miners act as a last resort buyer for power plants that are not yet
-  connected
-  to the grid. This allows the power plants to secure financing even before being
-  connected to the electrical network.
-reviewed: false
+  - They can provide power plants with electricity.
+  - They can connect power plants to the grid.
+  - They can regulate the price of electricity.
+explanation: |
+  Miners can act as a last resort buyer for power plants that
+  are not yet connected to the grid. This allows power plants
+  to secure financing even before being connected to the
+  electrical network.
+reviewed: true

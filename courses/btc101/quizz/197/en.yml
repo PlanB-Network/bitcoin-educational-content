@@ -4,7 +4,8 @@ wrong_answers:
   - It can be easily stolen.
   - It can be duplicated.
   - It can be physically lost.
-explanation: >-
-  The text mentions that Bitcoin is a highly volatile financial asset and
-  its price can drop to 0. This is one of the risks associated with buying Bitcoin.
-reviewed: false
+explanation: |
+  The course text mentions that Bitcoin is a highly volatile
+  financial asset, and its price can drop to 0, which is one
+  of the risks associated with buying Bitcoin.
+reviewed: true

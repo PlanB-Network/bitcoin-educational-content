@@ -1,12 +1,13 @@
 question: O que é uma transação de Bitcoin?
-answer: Uma transferência de propriedade de Bitcoins, usando criptografia.
+answer: Uma transferência de propriedade de bitcoins, usando criptografia.
 wrong_answers:
-  - Uma troca física de Bitcoins, usando um tabelião.
-  - Uma transferência de propriedade de Bitcoins, usando um endereço físico.
-  - Uma transferência de propriedade de Bitcoins, usando um endereço de e-mail.
+  - Uma troca física de bitcoins, usando um cartório.
+  - Uma transferência de propriedade de bitcoins, usando um endereço físico.
+  - Uma transferência de propriedade de bitcoins, usando um endereço de email.
 explanation: |
-  Uma transação de Bitcoin é uma transferência digital de propriedade de Bitcoins,
-  usando um endereço de Bitcoin derivado graças à criptografia de Curva Elíptica.
-  Esse endereço é único para a carteira de Bitcoin da pessoa
-  que está recebendo os Bitcoins.
-reviewed: false
+  Uma transação de Bitcoin é uma transferência digital da
+  propriedade de bitcoins, por meio do uso de um endereço de Bitcoin
+  derivado graças à criptografia de Curva Elíptica. Este
+  endereço é único para a carteira da pessoa que recebe os
+  bitcoins.
+reviewed: true

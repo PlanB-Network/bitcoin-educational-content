@@ -1,0 +1,13 @@
+question: Mikä on transaktion Tx0 päärooli Whirlpoolissa?
+
+answer: Tasapainottaa UTXO; t.
+
+wrong_answers:
+  - Suorittaa ensimmäisen sekoituksen.
+  - Poistaa UTXO: t altaasta.
+  - Käyttää sekoitetut UTXO: t.
+
+explanation: |
+  Tx0: n tavoitteena on valmistella ja tasapainottaa UTXO; t coinjoinia varten jakamalla ne yksiköihin, jotka vastaavat valitun altaan määrää, jotta voidaan varmistaa sekoituksen homogeenisuus.
+
+reviewed: false

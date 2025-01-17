@@ -1,0 +1,8 @@
+question: Apa definisi dari properti dalam bahasa Latin menurut orang Romawi?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  Dalam hukum Romawi, jus utendi et abutendi mendefinisikan properti sebagai hak untuk menggunakan dan menyalahgunakan, menekankan penggunaan tanpa menggali penyebabnya.

@@ -1,0 +1,8 @@
+question: Mis toimub iga kompressiooniringi ajal SHA256-s?
+answer: Olekumuutujad uuendatakse sõnumisõnade ja konstantide abil
+wrong_answers:
+  - Lõplik räsi genereeritakse järk-järgult pärast iga ringi
+  - Sõnumibiidid paigutatakse ümber
+  - Muutujate algväärtused jäävad muutmata
+explanation: |
+  Iga ring muudab olekumuutujaid kasutades sõnu, konstante ja loogilisi operatsioone, et levitada informatsiooni.

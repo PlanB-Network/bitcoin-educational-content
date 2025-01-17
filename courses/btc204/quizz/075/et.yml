@@ -1,0 +1,13 @@
+question: Mis on peamine eesmärk coinjoin tehingul?
+
+answer: Murda mündi ajalugu.
+
+wrong_answers:
+  - Vähendada tehingutasusid.
+  - Muuta bitcoine tuvastamatuks.
+  - Suurendada kinnituse kiirust.
+
+explanation: |
+  Coinjoin tehingu peamine eesmärk on murda mündi ajalugu. See tehnika ei paku püsivat anonüümsust ega blokeeri bitcoini jälgimist lõplikult, vastupidiselt sellele, mida võiks arvata. Coinjoin eesmärk on ainult murda ajalugu punktis, kus coinjoin tehing tehakse.
+
+reviewed: false

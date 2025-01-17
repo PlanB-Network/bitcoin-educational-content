@@ -1,9 +1,9 @@
-question: ¿Quién paga los gastos de cierre en un cierre cooperativo?
-answer: La persona que abrió el canal.
+question: ¿Qué información puede incluir Bob en una factura para facilitar el enrutamiento?
+answer: Canales cercanos con suficiente liquidez o la existencia de canales privados
 wrong_answers:
-  - La persona que cerró el canal.
-  - Ambas partes por igual.
-  - La persona con más SAT en el canal.
+  - La clave privada de los nodos intermedios
+  - El mapa completo de todos los canales de la red
+  - La cantidad exacta de liquidez disponible para cada canal
 explanation: |
-  En un cierre cooperativo, los dos pares acuerdan un estado final del canal. La persona que abrió el canal paga los gastos de cierre.
+  Al indicar canales cercanos con liquidez o revelar canales privados, Bob ayuda a Alice a elegir rutas con una mejor probabilidad de éxito.
 reviewed: false

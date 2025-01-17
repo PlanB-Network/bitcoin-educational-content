@@ -1,0 +1,9 @@
+question: Mis oli esimese hooldusrakenduse nimi, mis võimaldas lihtsat Bitcoini kasutamist mobiilis, loodud aprillis 2010?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+  See [reklaamiti](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) foorumis 30. aprillil 2010, kasutaja nimega komoto poolt.
+reviewed: false

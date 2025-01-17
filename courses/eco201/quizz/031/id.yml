@@ -1,0 +1,13 @@
+question: Apa peran barang modal dalam ekonomi?
+answer: Barang modal digunakan dalam produksi barang lain. Mereka memungkinkan individu untuk mendapatkan barang konsumsi.
+wrong_answers:
+  - Barang modal digunakan untuk konsumsi.
+  - Barang modal tidak memiliki peran dalam ekonomi.
+  - Barang modal digunakan untuk memproduksi barang modal lainnya.
+explanation: |
+  Untuk memproduksi barang konsumsi, para pengusaha menggabungkan berbagai barang antara
+  dengan faktor produksi asli (tenaga kerja, tanah, dan modal) menurut
+  pola yang memaksimalkan produksi yang dihasilkan. Semua barang lain dalam ekonomi,
+  yang dapat kita sebut sebagai barang antara, hanya memiliki nilai karena mereka memungkinkan individu
+  untuk mendapatkan barang konsumsi ini; mereka adalah barang yang digunakan dalam produksi barang lain.
+reviewed: false

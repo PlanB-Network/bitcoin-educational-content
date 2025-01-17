@@ -110,8 +110,8 @@ Im Menü "*AntiTracker*" wählen Sie das Blockierungsprofil für Ihren Anti-Trac
 ![IVPN](assets/notext/32.webp)
 Und damit sind Sie nun ausgestattet, um IVPN vollständig zu genießen. Wenn Sie auch die Sicherheit Ihrer Online-Konten durch die Verwendung eines lokalen Passwort-Managers verbessern möchten, lade ich Sie ein, unser Tutorial über KeePass zu besuchen, eine kostenlose und Open-Source-Lösung:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Wenn Sie an der Entdeckung eines weiteren VPN-Anbieters interessiert sind, der IVPN in Bezug auf Funktionen und Preisgestaltung ähnlich ist, empfehle ich auch, unser Tutorial über Mullvad zu besuchen:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

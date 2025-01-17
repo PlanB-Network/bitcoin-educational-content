@@ -1,0 +1,8 @@
+question: Hvilken forfatter er primært ansvarlig for Frédéric Bastiats utdannelse i økonomi?
+answer: Say
+wrong_answers:
+  - Turgot
+  - Condillac
+  - Quesnay
+explanation: |
+  Frédéric Bastiat anser Jean-Baptiste Say som en stor innflytelse, spesielt for hans ideer om verdi og frihandel.

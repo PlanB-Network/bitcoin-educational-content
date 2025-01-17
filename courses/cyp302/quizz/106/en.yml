@@ -1,0 +1,9 @@
+question: What mechanism prevents reflection attacks in secure communication?
+answer: Adding a unique identifier for each participant
+wrong_answers:
+  - Increasing the key length
+  - Using multiple keys for each message
+  - Adding an extra key in each message
+explanation: |
+  Adding a unique identifier for each participant in the encrypted message prevents reflection attacks, as it allows distinguishing the origin of the messages.
+reviewed: false

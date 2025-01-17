@@ -1,64 +1,18 @@
-id: 16ef13a0-f9fd-4596-a026-3b2029192836
-chapterId: 96243eb0-f6b5-5b68-af1f-fffa0cc16bfe
-difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+id: a6d07e2d-71b1-41bc-bd95-ea84e88155c2
+chapterId: 7d3fd135-129d-5c5a-b306-d5f2f1e63340
+difficulty: intermediate
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Lightning Network
-  - Channel Opening
+  - offchain
+  - lightning
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2678
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2589
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1294
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2633
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2678
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-11-01
     urgency: 1
     contributors_id:
-    reward: 2589
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2633
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2767
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2589
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2767
+      - LoicPandul
+    reward:

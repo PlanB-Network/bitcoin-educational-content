@@ -40,7 +40,7 @@ Từ góc độ bên ngoài, mô hình của giao dịch sẽ giữ nguyên hoà
 
 Tóm lại, giao dịch Stonewall và Stonewall x2 chia sẻ một cấu trúc giống nhau. Sự khác biệt giữa hai loại nằm ở bản chất hợp tác của chúng. Giao dịch Stonewall được phát triển một cách độc lập, không cần sự hợp tác. Ngược lại, giao dịch Stonewall x2 dựa vào sự hợp tác giữa hai cá nhân để thực hiện.
 
-[**-> Tìm hiểu thêm về giao dịch Stonewall x2**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Tìm hiểu thêm về giao dịch Stonewall x2**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## Mục đích của giao dịch Stonewall là gì?
 Cấu trúc Stonewall thêm một lượng lớn entropy vào giao dịch và làm mờ phân tích chuỗi. Từ góc độ bên ngoài, một giao dịch như vậy có thể được hiểu là một coinjoin nhỏ giữa hai người. Nhưng thực tế, giống như giao dịch Stonewall x2, đó là một khoản thanh toán. Phương pháp này do đó tạo ra sự không chắc chắn trong phân tích chuỗi, và thậm chí có thể dẫn đến những dấu hiệu sai lầm.

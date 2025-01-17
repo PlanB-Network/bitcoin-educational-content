@@ -1,9 +1,9 @@
-question: Perché è consigliato utilizzare portafogli open-source per le transazioni Bitcoin?
-answer: Essi consentono la verifica della generazione di numeri casuali.
+question: Qual è la dimensione totale di una chiave estesa con il checksum?
+answer: 82 byte
 wrong_answers:
-  - Sono più economici rispetto ai portafogli closed-source.
-  - Sono più veloci rispetto ai portafogli closed-source.
-  - Sono più sicuri rispetto ai portafogli closed-source.
+  - 78 byte
+  - 64 byte
+  - 128 byte
 explanation: |
-  I portafogli open-source consentono agli utenti di verificare la generazione del numero casuale, che è un passaggio cruciale per garantire la sicurezza delle chiavi private e delle transazioni Bitcoin.
+  Una chiave estesa è di 78 byte senza il checksum e di 82 byte con il checksum incluso.
 reviewed: false

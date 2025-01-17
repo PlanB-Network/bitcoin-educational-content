@@ -1,10 +1,11 @@
 question: Blockmit là gì trong bối cảnh bảo mật Bitcoin?
-answer: Một giải pháp tiết kiệm chi phí để khắc cụm từ gợi nhớ của bạn lên thép
+answer: Một giải pháp tiết kiệm chi phí để khắc cụm từ ghi nhớ của bạn lên một miếng thép.
 wrong_answers:
-  - Một loại ví Bitcoin để ký nhiều giao dịch cùng một lúc
-  - Một giải pháp tiết kiệm chi phí để đào bitcoin tại nhà
-  - Một loại ví Bitcoin yêu cầu nhiều chữ ký để tiêu bitcoin
+  - Một loại ví Bitcoin để ký nhiều giao dịch cùng một lúc.
+  - Một giải pháp tiết kiệm chi phí để đào bitcoin tại nhà.
+  - Một loại ví Bitcoin yêu cầu nhiều chữ ký để tiêu UTXOs.
 explanation: |
-  Blockmit là một giải pháp tiết kiệm chi phí để khắc cụm từ gợi nhớ của bạn
-  lên một vật liệu bền như thép, từ đó bảo vệ bitcoin của bạn lâu dài.
-reviewed: false
+  Blockmit là một giải pháp tiết kiệm chi phí để khắc cụm từ ghi nhớ của bạn
+  lên một vật liệu chịu đựng như thép, do đó
+  bảo vệ bitcoin của bạn lâu dài.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Co je onion routing v kontextu Lightning Network?
-answer: Metoda, kde prostředníci nevědí, kdo je konečný příjemce ani kdo platbu posílá.
+question: Co umožňuje technika otevírání trojúhelníku účastnickým uzlům dosáhnout?
+answer: Příchozí a odchozí likviditu v každém kanálu
 wrong_answers:
-  - Metoda, kde prostředníci znají jak odesílatele, tak příjemce.
-  - Metoda, kde pouze odesílatel zná trasu a cenu.
-  - Metoda, kde konečný příjemce rozhoduje o trase před odesláním platby.
+  - Snížené poplatky za směrování
+  - Neomezený počet transakcí bez potvrzení
+  - Přímé spojení s každým dalším uzlem sítě
 explanation: |
-  Onion routing v Lightning Network je metoda, kde prostředníci nevědí, kdo je konečný příjemce ani kdo platbu posílá. Uzel musí udržovat plán sítě, aby našel svou trasu, ale žádný z prostředníků nemá žádné informace.
+  Technika otevírání trojúhelníku umožňuje každému uzlu dosáhnout vyvážené likvidity, jak příchozí, tak odchozí, formováním smyčky kanálů mezi několika účastníky.
 reviewed: false

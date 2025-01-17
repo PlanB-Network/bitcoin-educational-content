@@ -1,0 +1,15 @@
+id: 7e58f6e6-1b98-4e39-844d-a045041a4bfd
+name: Chaincode Labs
+language: en
+links:
+  channel: https://www.youtube.com/@chaincode
+  trailer: https://youtu.be/HlPIB6jt6ww
+description: |
+  Chaincode Labs exists to support and develop Bitcoin and other peer-to-peer decentralized systems.
+tags:
+  - lightning
+  - protocols
+  - fees
+  - risks
+contributors:
+  - hunt-wood

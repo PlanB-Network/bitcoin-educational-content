@@ -1,0 +1,13 @@
+question: Hva er en coinjoin-transaksjon?
+
+answer: En samarbeidstransaksjon hvor flere brukere slår sammen sine UTXOer.
+
+wrong_answers:
+  - En samarbeidstransaksjon mellom kun to brukere.
+  - En transaksjon hvor en enkelt bruker sender midler til flere adresser.
+  - En transaksjon hvor en sentral aktør blander sine kunders bitcoins.
+
+explanation: |
+  Coinjoin-transaksjonen er en samarbeidstransaksjon der flere brukere blander sine mynter.
+
+reviewed: false

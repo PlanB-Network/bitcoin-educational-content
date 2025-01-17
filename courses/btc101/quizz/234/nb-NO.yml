@@ -1,0 +1,13 @@
+question: Hva er en av de potensielle anvendelsene til Lightning Network i hverdagslivet?
+answer: Øyeblikkelig fakturering i handel
+wrong_answers:
+  - Å utvinne nye Bitcoins
+  - Å skape nye kryptovalutaer
+  - Å øke verdien av Bitcoin
+explanation: >-
+  Lightning Network åpner døren for et bredt spekter av potensielle
+  anvendelser
+  for Bitcoin som tidligere var utenfor rekkevidde på grunn av begrensningene som er nødvendige for
+  å sikre sikkerheten og desentraliseringen av Bitcoin. Blant disse anvendelsene i
+  hverdagslivet, kan vi nevne øyeblikkelig fakturering i handel.
+reviewed: false

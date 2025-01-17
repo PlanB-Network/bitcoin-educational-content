@@ -1,0 +1,9 @@
+question: Hva står KYC for?
+answer: Kjenn Din Kunde
+wrong_answers:
+  - Behold Pengene Dine
+  - Tast Inn Kodene Dine
+  - Vennligst Følg Overensstemmelse
+explanation: |
+  KYC eller Kjenn Din Kunde refererer til prosessen bedrifter gjennomgår for å verifisere identiteten til kundene sine. Dette gjøres typisk for å sikre overholdelse av regelverk og for å forhindre ulovlige aktiviteter som hvitvasking av penger eller svindel.
+reviewed: true

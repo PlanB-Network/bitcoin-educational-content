@@ -1,9 +1,0 @@
-question: Qual è lo scopo della Profondità 1 nella struttura dell'HD Wallet?
-answer: Viene utilizzata per derivare chiavi figlie per uno scopo specifico
-wrong_answers:
-  - Consente la differenziazione di account per diverse criptovalute o reti
-  - Viene utilizzata per gli indirizzi di ricezione in un portafoglio standard
-  - Corrisponde alle catene esterne e interne
-explanation: |
-  Nella struttura dell'HD Wallet, la Profondità 1 viene utilizzata per derivare chiavi figlie per uno scopo specifico, determinato dall'indice.
-reviewed: false

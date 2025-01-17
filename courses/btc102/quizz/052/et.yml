@@ -1,0 +1,11 @@
+question: Mis on ettevõtete nagu OpenNode, Swiss Bitcoin Pay ja BTCPay roll Bitcoin'i ökosüsteemis?
+answer: Nad pakuvad tööriistu, mis teevad ettevõtetele Bitcoin'i vastuvõtmise lihtsaks.
+wrong_answers:
+  - Nad kaevandavad Bitcoin'i.
+  - Nad reguleerivad Bitcoin'i.
+  - Nad emiteerivad Bitcoin'i.
+explanation: |
+  Ettevõtted nagu OpenNode, Swiss Bitcoin Pay ja BTCPay pakuvad tööriistu,
+  mis teevad ettevõtetele Bitcoin'i vastuvõtmise lihtsaks, aidates kaasa selle
+  kasutuselevõtule ja kasutamisele igapäevastes tehingutes.
+reviewed: false

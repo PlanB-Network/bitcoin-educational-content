@@ -1,0 +1,8 @@
+question: Mengapa SHA256 menerapkan pra-pemrosesan pada pesan masukan?
+answer: Untuk memastikan panjang kelipatan dari 512 bit
+wrong_answers:
+  - Untuk memverifikasi integritas pesan
+  - Untuk mengenkripsi data sebelum di-hash
+  - Untuk meningkatkan ukuran hash yang dihasilkan
+explanation: |
+  Pra-pemrosesan menyesuaikan panjang pesan dengan menambahkan bit padding dan representasi biner dari panjangnya.

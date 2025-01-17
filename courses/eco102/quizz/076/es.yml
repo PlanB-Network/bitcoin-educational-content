@@ -1,0 +1,9 @@
+question: Según Bastiat, ¿de qué resta el estatismo a los individuos?
+answer: Las consecuencias de sus acciones
+wrong_answers:
+  - De sus familias
+  - De las alegrías de la experimentación libre
+  - De sus amigos
+explanation: |
+  Para Bastiat, la excesiva intervención estatal reduce la responsabilidad individual al eliminar las consecuencias directas de las acciones de los individuos, promoviendo así la irresponsabilidad.
+reviewed: false

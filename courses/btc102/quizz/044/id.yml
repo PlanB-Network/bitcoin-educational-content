@@ -1,0 +1,11 @@
+question: Apa peran utama penambang dalam jaringan Bitcoin?
+answer: Mereka mengamankan jaringan dengan melakukan proses proof-of-work Bitcoin
+wrong_answers:
+  - Mereka menciptakan bitcoin baru
+  - Mereka mengatur harga Bitcoin
+  - Mereka mengontrol jaringan Bitcoin
+explanation: |
+  Konten bab menjelaskan bahwa penambang bertanggung jawab untuk mengamankan
+  jaringan Bitcoin. Mereka menggunakan listrik untuk melakukan proses proof-of-work Bitcoin,
+  yang menciptakan blok baru.
+reviewed: false

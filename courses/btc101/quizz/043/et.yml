@@ -1,0 +1,11 @@
+question: Mis on ajalooline pretsedent fiaatraha kasutamisele?
+answer: Juhtide poolt kulla tsentraliseerimine ja uue valuuta tutvustamine, mis on võrdne väärtuses kullaga, mida seejärel järk-järgult devalveeritakse.
+wrong_answers:
+  - Juhtide poolt uue valuuta tutvustamine, mis on tagatud kullaga, mida seejärel järk-järgult suurendatakse väärtuses.
+  - Juhtide poolt uue valuuta tutvustamine ilma sisemise väärtuseta, mida seejärel järk-järgult suurendatakse väärtuses.
+  - Juhtide poolt uue valuuta tutvustamine, mis on tagatud kaupade korviga, mida seejärel hoitakse stabiilsena väärtuses.
+explanation: |
+  Ajalooliselt on juhid tsentraliseerinud kulla ja tutvustanud uut valuutat,
+  mis on võrdne väärtuses kullaga. See uus valuuta devalveeritakse seejärel järk-järgult, tihti
+  varjatuna kui rahva huvides olev tegevus.
+reviewed: true

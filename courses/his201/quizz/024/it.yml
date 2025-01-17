@@ -1,0 +1,9 @@
+question: Chi è l'individuo che ha reagito positivamente alla pubblicazione del white paper nel novembre 2008?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  Il 7 novembre, scrisse alla lista che Bitcoin [sembrava] essere un'idea molto promettente. Gli altri erano più scettici. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: false

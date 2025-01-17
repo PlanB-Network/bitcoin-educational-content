@@ -1,10 +1,9 @@
 question: Qual è la principale preoccupazione riguardante il costo ambientale del mining di Bitcoin?
-answer: Il consumo di energia
+answer: Il consumo energetico.
 wrong_answers:
-  - La produzione di ASIC
-  - Il riciclaggio di ASIC
-  - Il costo dell'elettricità
-explanation: |
-  La principale preoccupazione ambientale del mining di Bitcoin è il consumo di energia.
-  Sebbene gli ASIC siano principalmente composti di alluminio e possano essere riciclati o riutilizzati, l'energia necessaria per alimentare queste macchine è significativa.
-reviewed: false
+  - La produzione di ASIC.
+  - Il riciclo degli ASIC.
+  - Il costo dell'elettricità.
+explanation: >-
+  La principale preoccupazione ambientale del mining di Bitcoin è il consumo energetico. Sebbene gli ASIC siano per lo più fatti di alluminio e possano essere riciclati o riutilizzati, l'energia necessaria per alimentare queste macchine è significativa.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Mis on lihtne lahendus oma andmete kaitsmiseks lunavara rünnakute eest?
+answer: Varundage regulaarselt oma olulised andmed välistele salvestusseadmetele või turvalisse veebipõhisesse salvestusteenusesse.
+wrong_answers:
+  - Paigaldage oma arvutisse mitu viirusetõrjeprogrammi.
+  - Muutke regulaarselt oma arvutit.
+  - Kasutage avalikku Wi-Fi võrku.
+explanation: |
+  Andmete regulaarne varundamine võimaldab teil taastada oma andmed
+  küberrünnaku või riistvararikke korral ilma olulist teavet kaotamata.
+reviewed: false

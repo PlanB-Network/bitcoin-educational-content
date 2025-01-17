@@ -1,9 +1,8 @@
-question: Mikä on mnemonic-lause Bitcoin-lompakon kontekstissa?
-answer: Se on lompakon varmuuskopio.
+question: Mitä apostrofi (') tai h johdannaispolussa tarkoittaa?
+answer: Kovetettu johdannainen
 wrong_answers:
-  - Se on lompakon salasana.
-  - Se on lompakon tapahtumahistoria.
-  - Se on lompakon digitaalinen allekirjoitus.
+  - Normaali johdannainen
+  - Ulkoinen johdannainen
+  - Ei-standardi johdannainen
 explanation: |
-  Mnemonic-lause luodaan varmistamaan Bitcoin-lompakon varmuuskopioinnin.
-reviewed: false
+  Apostrofi osoittaa, että johdannainen on kovetettu, vaatien vanhemman yksityisavaimen lapsiavaimen luomiseen.

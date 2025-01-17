@@ -1,9 +1,12 @@
-question: Jak regulace a elektřina ovlivňují těžbu Bitcoinu?
-answer: Regulace a ceny elektřiny mají významný vliv na těžbu Bitcoinu. Těžaři neustále hledají elektřinu za nízké ceny, aby maximalizovali své zisky. Proto vysoké ceny elektřiny v určitých regionech těžaře do těchto oblastí nepřitahují. Těžaři mají tendenci směřovat do regionů s nízkými tarify za elektřinu, často v rozvíjejících se zemích nebo zemích s energetickými přebytky.
+question: Jak regulace a elektřina tarify ovlivňují těžbu Bitcoinu?
+answer: Regulace a tarify za elektřinu mají významný vliv na těžbu Bitcoinu. Těžaři neustále hledají elektřinu za nízké ceny, aby maximalizovali své zisky. Proto vysoké ceny elektřiny v určitých regionech těžaře do těchto oblastí nelákají. Těžaři mají tendenci se orientovat na regiony s nízkými tarify za elektřinu, často v rozvíjejících se zemích nebo zemích s přebytky energie.
 wrong_answers:
-  - Regulace a ceny elektřiny ovlivňují těžbu Bitcoinu tím, že určují typ těžebních strojů, které lze použít.
-  - Regulace a ceny elektřiny ovlivňují těžbu Bitcoinu tím, že určují typ těžebního softwaru, který lze použít.
-  - Regulace a ceny elektřiny ovlivňují těžbu Bitcoinu tím, že určují velikost těžebního poolu, který lze vytvořit.
+  - Regulace a tarify za elektřinu ovlivňují těžbu Bitcoinu tím, že určují typ těžebních strojů, které lze použít.
+  - Regulace a tarify za elektřinu ovlivňují těžbu Bitcoinu tím, že určují typ těžebního softwaru, který lze použít.
+  - Regulace a tarify za elektřinu ovlivňují těžbu Bitcoinu tím, že určují velikost těžebního poolu, který lze vytvořit.
 explanation: |
-  Kapitola vysvětluje, že regulace a ceny elektřiny mají významný vliv na těžbu Bitcoinu. Těžaři neustále hledají elektřinu za nízké ceny, aby maximalizovali své zisky, a proto mají tendenci směřovat do regionů s nízkými tarify za elektřinu.
-reviewed: false
+  Kapitola vysvětluje, že regulace a tarify za elektřinu
+  mají významný vliv na těžbu Bitcoinu. Těžaři neustále hledají
+  elektřinu za nízké ceny, aby maximalizovali své zisky, a proto
+  mají tendenci se orientovat na regiony s nízkými tarify za elektřinu.
+reviewed: true

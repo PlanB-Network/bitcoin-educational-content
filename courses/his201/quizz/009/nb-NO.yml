@@ -1,0 +1,9 @@
+question: I hvilket år ble Liberty Reserve-systemet stengt av de amerikanske myndighetene?
+answer: 2013
+wrong_answers:
+  - 2007
+  - 2009
+  - 2011
+explanation: |
+  Den 24. mai 2013 ble grunnleggeren, Arthur Budovsky, og hans hovedmedarbeidere tiltalt og arrestert, og hovednettstedet ble beslaglagt av det amerikanske justisdepartementet.
+reviewed: false

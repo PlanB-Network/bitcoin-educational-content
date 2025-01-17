@@ -5,6 +5,6 @@ wrong_answers:
   - Menetät 5% ostovoimastasi.
   - Menetät 20% ostovoimastasi.
 explanation: |
-  2% inflaation myötä menetät vuosittain 2% ostovoimastasi, mikä
-  kertyy 10%:iin viiden vuoden aikana.
-reviewed: false
+  2% inflaation myötä menetät vuosittain 2% ostovoimastasi,
+  mikä kertyy 10%; iin viiden vuoden aikana.
+reviewed: true

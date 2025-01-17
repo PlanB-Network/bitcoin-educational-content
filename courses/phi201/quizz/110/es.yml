@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal herramienta económica recomendada por Keynes para estimular la economía?
+answer: Aumentos en el gasto público
+wrong_answers:
+  - Reducciones de impuestos
+  - Liberalización del mercado
+  - Aumento de las exportaciones
+explanation: |
+  Keynes abogaba por aumentar el gasto público para estimular la demanda general, especialmente durante períodos de recesión, con el fin de reducir el desempleo e impulsar el crecimiento económico.
+reviewed: false

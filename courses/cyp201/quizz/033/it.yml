@@ -1,9 +1,9 @@
-question: Cosa è la moltiplicazione scalare di un punto per n su una curva ellittica?
-answer: Equivalente ad aggiungere quel punto a se stesso n volte
+question: Cosa permette il flag sighash SIGHASH_NONE?
+answer: Modificare gli output dopo la firma
 wrong_answers:
-  - Equivalente a sottrarre quel punto da se stesso n volte
-  - Equivalente a moltiplicare quel punto per se stesso n volte
-  - Equivalente a dividere quel punto per se stesso n volte
+  - Modificare gli input dopo la firma
+  - Coprire tutti gli input e gli output
+  - Limitare le modifiche a un solo output
 explanation: |
-  La moltiplicazione scalare di un punto per n su una curva ellittica è equivalente ad aggiungere quel punto a se stesso n volte. Questa operazione è alla base del calcolo delle chiavi pubbliche nel sistema Bitcoin.
+  SIGHASH_NONE copre solo gli input, lasciando gli output modificabili dopo la firma.
 reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: YUBIKEY 2FA
+name: YubiKey 2FA
 description: Как использовать физический ключ безопасности?
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ description: Как использовать физический ключ бе�
 
 В другом уроке я объяснил, как настроить и использовать приложение 2FA TOTP:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Здесь мы рассмотрим, как использовать физический ключ безопасности в качестве второго фактора аутентификации для всех ваших аккаунтов.
 

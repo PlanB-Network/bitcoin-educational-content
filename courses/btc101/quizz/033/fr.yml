@@ -1,9 +1,10 @@
-question: Pourquoi Bitcoin est une nouvelle forme de monnaie ?
+question: Pourquoi Bitcoin est-il considéré comme une nouvelle forme d'argent ?
 answer: Parce que c'est une monnaie numérique sans entité centrale.
 wrong_answers:
-  - Parce que c'est une monnaie numérique adossée à l'or.
-  - Parce que c'est une monnaie qui nécessite une blockchain.
-  - Parce que la Réserve fédérale le dit.
+  - Parce que c'est une monnaie numérique garantie par l'or.
+  - Parce que c'est une monnaie qui nécessite la blockchain bancaire.
+  - Parce que la Réserve Fédérale le dit.
 explanation: |
-  Bitcoin peut être considéré comme une nouvelle forme de monnaie, car il émerge d'un réseau peer-to-peer sans entité centrale.
-reviewed: false
+  Bitcoin peut être vu comme une nouvelle forme d'argent, car il émerge
+  d'un réseau pair-à-pair sans entité centrale.
+reviewed: true

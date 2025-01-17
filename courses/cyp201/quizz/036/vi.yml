@@ -1,9 +1,8 @@
-question: Điểm khởi đầu để tính toán tất cả các khóa công khai của người dùng trong hệ thống Bitcoin là gì?
-answer: Điểm G
+question: Ví HD cho phép bạn làm gì so với ví JBOK?
+answer: Tạo tất cả các khóa riêng từ một hạt giống duy nhất
 wrong_answers:
-  - Điểm K
-  - Điểm U
-  - Điểm O
+  - Tăng cường bảo mật của chữ ký số
+  - Sử dụng lại cùng một địa chỉ cho nhiều giao dịch
+  - Hoàn toàn tránh sử dụng khóa công khai
 explanation: |
-  Điểm G là điểm khởi đầu để tính toán tất cả các khóa công khai của người dùng trong hệ thống Bitcoin.
-reviewed: false
+  Ví HD tạo ra tất cả các khóa riêng từ một hạt giống duy nhất, điều này làm đơn giản hóa việc sao lưu và gián tiếp cải thiện sự riêng tư.

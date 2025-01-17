@@ -1,0 +1,8 @@
+question: Menurut Bastiat, apakah hak atas properti diciptakan oleh legislasi atau mendahuluinya?
+answer: mendahului legislasi
+wrong_answers:
+  - diciptakan oleh legislasi
+  - diciptakan oleh kontrak sosial
+  - bergantung pada kehendak umum
+explanation: |
+  Bastiat menganggap hak atas properti sebagai hak alami yang mendahului hukum, yang seharusnya hanya memastikan pertahanannya.

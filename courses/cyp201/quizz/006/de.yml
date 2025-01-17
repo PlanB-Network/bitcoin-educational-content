@@ -1,9 +1,9 @@
-question: Was ist ein Hash im Zusammenhang mit kryptografischen Hash-Funktionen?
-answer: Ein eindeutiger und fester digitaler Fingerabdruck, der von einer Hash-Funktion erzeugt wird.
+question: Was passiert in jeder Kompressionsrunde bei SHA256?
+answer: Die Zustandsvariablen werden mit den Nachrichtenwörtern und Konstanten aktualisiert.
 wrong_answers:
-  - Eine Art von Verschlüsselungsalgorithmus.
-  - Ein Schlüssel, der zur Entschlüsselung von Daten verwendet wird.
-  - Eine Methode zur Komprimierung von Daten.
+  - Der endgültige Hash wird nach jeder Runde schrittweise erzeugt.
+  - Die Nachrichtenbits werden neu angeordnet.
+  - Die Anfangswerte der Variablen bleiben unverändert.
 explanation: |
-  Im Zusammenhang mit kryptografischen Hash-Funktionen ist ein Hash ein eindeutiger und fester digitaler Fingerabdruck, der von der Hash-Funktion erzeugt wird. Er repräsentiert die Eingabedaten auf eine einzigartige und irreversible Weise.
+  Jede Runde modifiziert die Zustandsvariablen unter Verwendung von Wörtern, Konstanten und logischen Operationen, um die Informationen zu verteilen.
 reviewed: false

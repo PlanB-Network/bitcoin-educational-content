@@ -1,9 +1,9 @@
-question: ビットコインが初めて実物の商品の購入に使用されたのはいつですか？
-answer: Laszlo Hanyeczが10,000 BTCで2枚のピザを購入したとき
+question: ビットコインが初めて物理的な商品の購入に使われたのはいつですか？
+answer: Laszlo Hanyeczが10,000 BTCで2枚のピザを購入したときです。
 wrong_answers:
-  - Hal Finneyが100,000 BTCで車を購入したとき
-  - Satoshi Nakamotoが1,000,000,000 BTCで家を購入したとき
-  - どの選択肢も正しくない
+  - Hal Finneyが100,000 BTCで車を購入したとき。
+  - Satoshi Nakamotoが1,000,000,000 BTCで家を購入したとき。
+  - 他の選択肢は該当しません。
 explanation: |
-  ビットコインが初めて実物の商品の購入に使用されたのは、2010年5月22日にLaszlo Hanyeczが10,000 BTCで2枚のピザを購入したときで、現在ではピザの日として知られています。
+  ビットコインが初めて物理的な商品の購入に使われたのは、2010年5月22日にLaszlo Hanyeczが10,000 BTCで2枚のピザを購入したときで、これは現在ピザの日として知られています。
 reviewed: true

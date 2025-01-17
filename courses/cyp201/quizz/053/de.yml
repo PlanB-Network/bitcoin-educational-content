@@ -1,9 +1,9 @@
-question: Wie lang sind die privaten Schlüssel in einer Bitcoin-Wallet?
-answer: 256 Bits
+question: Was passiert, wenn Sie die Passphrase verlieren, die mit Ihrem HD-Wallet verbunden ist?
+answer: Sie verlieren den Zugang zu den Bitcoins, die mit diesem Wallet verknüpft sind.
 wrong_answers:
-  - 128 Bits
-  - 512 Bits
-  - 1024 Bits
+  - Sie können immer noch auf das Wallet nur mit dem mnemonischen Ausdruck zugreifen
+  - Sie können die Passphrase zurücksetzen, indem Sie den Bitcoin-Support kontaktieren
+  - Sie verlieren nur die unbestätigten Transaktionen
 explanation: |
-  Die privaten Schlüssel in einer Bitcoin-Wallet, die für den Besitz von Kryptowährungen unerlässlich sind, haben eine feste Länge von 256 Bits.
+  Die Passphrase ist ein wesentlicher Bestandteil in der Schlüsselableitung. Ohne sie ist es unmöglich, die Schlüssel neu zu erstellen und daher auf die Bitcoins zuzugreifen.
 reviewed: false

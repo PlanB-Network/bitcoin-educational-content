@@ -26,10 +26,10 @@ PlanB Networkに貢献するためには、GitHubに関する経験レベルに�
 - [PlanB Network上での教授プロファイル](https://planb.network/professors)を持っている（完全なチュートリアルを提案する場合のみ）。
 
 **これらの前提条件を得るために助けが必要な場合、私の他のチュートリアルがガイドします：**
-**[GitとGitHubの理解](https://planb.network/tutorials/others/basics-of-github)**
-**[GitHubアカウントの作成](https://planb.network/tutorials/others/create-github-account)**
-**[作業環境の設定](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[教授プロファイルの作成](https://planb.network/tutorials/others/create-teacher-profile)**
+**[GitとGitHubの理解](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[GitHubアカウントの作成](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[作業環境の設定](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[教授プロファイルの作成](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## PlanB Networkにどのようなコンテンツを書くか？
 私たちは主に、Bitcoinまたはそのエコシステムに関連するツールに関するチュートリアルを求めています。これらのコンテンツは、以下の六つの主要なカテゴリーに沿って整理することができます：
 - ウォレット；
@@ -121,7 +121,7 @@ bitcoin-educational-content/
     - 中級者 (`intermediary`),
     - 上級者 (`advanced`),
     - 専門家 (`expert`).
-- **professor**: 教授プロファイルに表示されるあなたの貢献者IDを提供してください。詳細については、[該当するチュートリアル](https://planb.network/fr/tutorials/others/create-teacher-profile)を参照してください。
+- **professor**: 教授プロファイルに表示されるあなたの貢献者IDを提供してください。詳細については、[該当するチュートリアル](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)を参照してください。
 - **link** (任意): チュートリアルを開発する際に、自分の個人サイトなどのソースウェブサイトにクレジットを付けたい場合、ここで関連するリンクを追加できます。
 ![tutorial](assets/15.webp)
 - `tutorial.yml`ファイルの修正が完了したら、`File > Save`をクリックしてドキュメントを保存してください：
@@ -205,3 +205,4 @@ GitHub Desktopソフトウェアでは、フォークのメインブランチ (`
 既にPRを提出した後で貢献に変更を加えたい場合、フォローする手順はPRの現在の状態によって異なります:
 - PRがまだオープンであり、まだマージされていない場合は、同じブランチにとどまりながらローカルで変更を行います。変更が完了したら、`Push origin` ボタンを使用して、まだオープンなPRに新しいコミットを追加します。
 - PRが既にメインブランチとマージされている場合は、新しいブランチを作成し、新しいPRを提出するプロセスを最初からやり直す必要があります。PlanB Networkのソースリポジトリとローカルリポジトリが同期していることを確認してから進めてください。
+

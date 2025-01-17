@@ -1,0 +1,10 @@
+question: Hvorfor anbefales det å unngå Google Chrome-nettleseren?
+answer: På grunn av sporerne dens.
+wrong_answers:
+  - Fordi den ikke er sikker.
+  - Fordi den ikke er brukervennlig.
+  - Fordi den ikke støtter utvidelser.
+explanation: |
+  Google Chrome-nettleseren er kjent for sine sporer, som kan samle inn data
+  om din nettaktivitet. Dette kan være en personvernbekymring for noen brukere.
+reviewed: false

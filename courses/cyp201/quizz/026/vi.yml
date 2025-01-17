@@ -1,8 +1,8 @@
-question: Đơn vị nhỏ nhất của Bitcoin là gì?
-answer: Satoshi
+question: Điểm bắt đầu để tính toán chữ ký ECDSA là gì?
+answer: Băm của thông điệp
 wrong_answers:
-  - Bit
-  - Byte
-  - Coin
+  - Khóa công khai
+  - Một nonce cố định
+  - Một đường cong elliptic tùy chỉnh
 explanation: |
-  Trong hệ thống Bitcoin, đơn vị tính là bitcoin (chú ý là "b" viết thường). Nó có thể chia nhỏ đến tám chữ số thập phân, với đơn vị nhỏ nhất là satoshi.
+  Một chữ ký ECDSA bắt đầu bằng việc tính toán băm của thông điệp cần được ký, thường sử dụng SHA256.

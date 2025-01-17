@@ -4,7 +4,7 @@ name: GrapheneOS
 description: Graphene OS tutorial
 ---
 
-> "[GrapheneOS](https://grapheneos.org/) is a privacy and security focused mobile OS with Android app compatibility developed as a non-profit open source project."
+> [GrapheneOS](https://grapheneos.org/) is a privacy and security focused mobile OS with Android app compatibility developed as a non-profit open source project.
 
 GrapheneOS, originally founded in 2014 as 'CopperheadOS' is based on the traditional Android Code (AOSP), but with many changes and improvements aimed at improving user privacy and security. GrapheneOS puts the user in control of their phone, not the big tech companies.
 
@@ -65,6 +65,8 @@ All you need to hand is:
 - A USB cable to go from the phone to your computer
 - A computer to run a web browser (any Chromium-based browser: Chrome, Edge, Brave, etc.)
 
+Let's dive into it:
+
 1. The first step is to go to **Settings** > **About phone** and repeatedly tap the build number until you see **'Developer Mode'** is activated.
 2. Next head to **Settings** > **System** > **Developer Options** and enable **'OEM Unlocking'**.
 3. Now reboot the device and hold the volume down button whilst the phone is turning back on.
@@ -77,7 +79,6 @@ All you need to hand is:
 10. When you see the word `Start`, confirm this with the power button and the device will boot into your new Google-free operating system.
 
 ![image](assets/2.webp)
-
 GrapheneOS start screen
 
 
@@ -87,7 +88,6 @@ _You may also want to take the extra, optional but recommended step of verifying
 
 
 ![video](https://www.youtube.com/embed/L1KZWjZVnAw)
-
 Video detailing the simple steps outlined above
 
 
@@ -101,10 +101,9 @@ Now that you're set up, you might notice how bare bones GrapheneOS appears upon 
 
 Default apps
 
-
 The only two you may not be familiar with are 'Auditor' and 'Vanadium'.
 
-- 'The [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor) uses hardware-based security features to validate the identity of a device along with authenticity and integrity of the operating system. It will verify that the device is running the stock operating system with the bootloader locked and that no tampering with the operating system has occurred.'
+- The [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor) uses hardware-based security features to validate the identity of a device along with authenticity and integrity of the operating system. It will verify that the device is running the stock operating system with the bootloader locked and that no tampering with the operating system has occurred.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) is a privacy and security hardened variant of Chromium web browser.
 
 ## Customization
@@ -113,7 +112,7 @@ Phone settings are a personal thing, but here are some of the first items I chan
 
 ### Setting a wallpaper and updating the theme
 
-Head to Settings > Wallpaper and Style. From here I:
+Head to Settings > Wallpaper and Style. From here:
 
 - Update the home and lock screen backgrounds for images downloaded from the web.
 - Choosing the accent colors used throughout the UI.
@@ -222,8 +221,7 @@ Most people who have no interest in the privacy space are likely to be using Wha
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) is an unofficial FOSS fork of the official Telegram app for Android. Telegram has E2EE 'secret chats', but the default option is not private. Telegram FOSS can be downloaded from F-Droid.
 
 ![image](assets/9.webp)
-Left: Threema
-Right: Simplex
+Left: Threema, Right: Simplex
 
 ### Media
 
@@ -233,9 +231,7 @@ Right: Simplex
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) is a podcast player that allows you to subscribe and manage all of your favorite shows. AntennaPod is available via F-Droid.
 
 ![image](assets/11.webp)
-
-Left: Spotube
-Right: ViMusic
+Left: Spotube, Right: ViMusic
 
 ### Maps
 
@@ -246,9 +242,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) is another great maps alternative that supports all of the features mentioned above.
 
 ![image](assets/13.webp)
-
-Left: Magic Earth
-Right: Organic Maps
+Left: Magic Earth, Right: Organic Maps
 
 ### Email
 
@@ -257,9 +251,7 @@ Right: Organic Maps
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) is an open source email client that works with basically every email provider. It supports multiple accounts, a unified inbox and the OpenPGP encryption standard.
 
 ![image](assets/15.webp)
-
-Left: Proton Mail
-Right: Tutanota
+Left: Proton Mail, Right: Tutanota
 
 ### Productivity
 
@@ -271,9 +263,7 @@ Right: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) is the default Google keyboard app. In my experience it offers by far the best type and swipe experience. If you download this app, ensure you completely disable all network related permissions. It can be downloaded via Aurora.
 
 ![image](assets/17.webp)
-
-Left: Notesnook
-Right: KDE Connect
+Left: Notesnook, Right: KDE Connect
 
 ### Lifestyle
 
@@ -283,8 +273,7 @@ Right: KDE Connect
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) is an app for displaying and storing boarding passes, coupons, movie tickets and membership cards etc. Simply download the relevant `pkpass` or `espass` file and open with the app. PassAndroid is available via F-Droid.
 
 ![image](assets/19.webp)
-Left: Geometric Weather
-Right: Proton Calendar
+Left: Geometric Weather, Right: Proton Calendar
 
 ### Security/Privacy
 
@@ -295,8 +284,7 @@ Right: Proton Calendar
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) is a paid, cross platform service that encrypts your data locally so you can safely upload it to your favourite cloud service. Cryptomator can be downloaded via F-Droid.
 
 ![image](assets/21.webp)
-Left: Proton Pass
-Right: Bitwarden
+Left: Proton Pass, Right: Bitwarden
 
 ### Cloud Solutions
 
@@ -306,7 +294,6 @@ Right: Bitwarden
 - [Cryptpad](https://cryptpad.fr/) offers a free, web based, E2EE alternative to Google Docs.
 
 ![image](assets/23.webp)
-
 Proton Drive
 
 ## The Downsides
@@ -322,7 +309,7 @@ However when moving to GrapheneOS, there are some creature comforts that you mus
 
 ### Sandboxed Google Play
 
-> 'GrapheneOS has a compatibility layer providing the option to install and use the official releases of Google Play in the standard app sandbox. Google Play receives absolutely no special access or privileges on GrapheneOS as opposed to bypassing the app sandbox and receiving a massive amount of highly privileged access.'
+**Please note that:** GrapheneOS has a compatibility layer providing the option to install and use the official releases of Google Play in the standard app sandbox. Google Play receives absolutely no special access or privileges on GrapheneOS as opposed to bypassing the app sandbox and receiving a massive amount of highly privileged access.
 
 If you find you simply cannot live without those push notifications for your favorite app or a certain 'must have' app is useless without Play Services, GrapheneOS allows you to [install](https://grapheneos.org/usage#sandboxed-google-play-installation) these services in a completely sandboxed environment. Once installed, these services require no Google account to work, and each one's permissions can be tightly controlled.
 
@@ -331,7 +318,6 @@ Before you rush to install these on day 1, I urge you to see how far you get wit
 If you do want to install them, simply tap the pre-installed 'Apps' application followed by 'Google Play Services'. Consider installing them alongside those less private apps you can't live without, inside a completely separate user profile to provide that extra layer of segregation from the rest of your phone.
 
 ![image](assets/24.webp)
-
 Play Services install screen
 
 ### Profiles
@@ -344,7 +330,6 @@ You can read more about this use case [here](https://discuss.grapheneos.org/d/16
 If you decide to add a separate profile to suit your use case, the app [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) might be useful to you. Insular allows you to easily clone any of your existing apps across to the new profile without the need to go via any of the traditional install routes covered earlier in this guide. Insular also allows you to quickly 'freeze' any of those apps to completely disable all of that app's background services from running.
 
 ![image](assets/24.webp)
-
 User profile management screen
 
 ### e-Sims
@@ -397,4 +382,4 @@ GrapheneOS is a rabbit hole anyone could easily spend weeks going down. There's 
 - [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video by 'The Privacy Wayfinder'
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast by 'Watchman Privacy'
 
-full credit to : https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+full credit to: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md

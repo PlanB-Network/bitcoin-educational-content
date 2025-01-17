@@ -1,0 +1,9 @@
+question: Jaké jsou důsledky Eulerovy věty v kontextu asymetrické kryptografie?
+answer: Zjednodušuje výpočet mocnin
+wrong_answers:
+  - Umožňuje přímé šifrování zpráv
+  - Používá se k nalezení prvočísel
+  - Používá se k ověření parity čísla
+explanation: |
+  V asymetrické kryptografii Eulerova věta zjednodušuje výpočet mocnin v schématech jako je RSA, protože poskytuje metodu pro manipulaci s modulárními exponentiacemi.
+reviewed: false

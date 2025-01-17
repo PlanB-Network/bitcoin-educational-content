@@ -1,0 +1,8 @@
+question: ¿Cuál es el papel de un nonce en un esquema de cifrado autenticado?
+answer: Asegurar que cada mensaje tenga una etiqueta única para prevenir repeticiones
+wrong_answers:
+  - Identificar al remitente del mensaje
+  - Crear una clave de descifrado temporal
+  - Añadir una capa adicional de cifrado
+explanation: |
+  En un esquema de cifrado autenticado, se utiliza un nonce para asegurar que cada mensaje tenga una etiqueta única, mejorando así la seguridad al prevenir repeticiones.

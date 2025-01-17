@@ -1,9 +1,0 @@
-question: ¿Qué indica el prefijo 0,3 en una clave pública de Bitcoin?
-answer: Indica un valor impar de y.
-wrong_answers:
-  - Indica un valor par de y.
-  - Indica la versión de la clave pública.
-  - Indica el tamaño de la clave pública.
-explanation: |
-  En el ejemplo de la clave pública perteneciente a Satoshi Nakamoto, un prefijo 0,3 indica un valor impar de y. Esto es parte del proceso de compresión de una clave pública en Bitcoin.
-reviewed: false

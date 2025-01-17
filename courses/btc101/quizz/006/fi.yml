@@ -1,12 +1,14 @@
-question: Mikä on päämäärä oppia käyttämään Bitcoinia?
-answer: Olla oman rahasi hallinnassa.
+question: Mikä on pääetu oppia käyttämään Bitcoinia?
+answer: Ymmärtää, miten olla oman rahasi hallinnassa.
 wrong_answers:
-  - Tulla Bitcoin-louhijaksi.
-  - Luoda uusi Bitcoin-protokolla.
+  - Opiskella, miten väitellä taloustieteilijöiden kanssa.
+  - Luoda uusi krypto-protokolla.
   - Säädellä Bitcoinin hintaa.
 explanation: |
-  Bitcoinin käytön oppiminen on olennainen taito kenelle tahansa, joka haluaa
-  olla oman rahansa hallinnassa. Se mahdollistaa tavaroiden ja palveluiden ostamisen ja myymisen,
-  turvallisen rahan säilyttämisen digitaalisissa lompakoissa, ja sen käyttämisen transaktioissa ilman
-  kolmannen osapuolen tarvetta.
-reviewed: false
+  Bitcoinin käytön oppiminen on olennaista kenelle tahansa,
+  joka haluaa olla oman rahansa hallinnassa. Itse asiassa Bitcoin
+  mahdollistaa yksilöiden ostaa/myydä tavaroita ja palveluita luomalla
+  transaktioita ilman kolmannen osapuolen tarvetta.
+  Lisäksi se antaa mahdollisuuden turvallisesti säilyttää rahaa
+  ei-hoidetuissa digitaalisissa lompakoissa.
+reviewed: true

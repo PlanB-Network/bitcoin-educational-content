@@ -1,0 +1,9 @@
+question: Hvilken tjeneste tillater flytting av likviditet til motsatt side av en kanal samtidig som man henter midler på kjeden?
+answer: Loop Out
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Loop Out-tjenesten fra Lightning Labs muliggjør overføring av midler fra en Lightning-kanal til blockchainen on-chain, dermed optimaliserer den mottakskapasiteten samtidig som man henter bitcoins på hovedkjeden.
+reviewed: false

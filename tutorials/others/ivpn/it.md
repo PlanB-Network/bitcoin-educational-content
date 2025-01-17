@@ -107,8 +107,8 @@ Nella scheda "*Controllo WiFi*", hai l'opzione di configurare azioni specifiche 
 Nel menu "*AntiTracker*", seleziona il profilo di blocco per il tuo anti-tracker. Questo è progettato per bloccare annunci, malware e tracker di dati bloccando le richieste ai servizi di tracciamento mentre navighi su Internet. Ciò aumenta la tua privacy impedendo alle aziende di raccogliere e vendere i tuoi dati di navigazione. È disponibile anche una modalità "*Hardcore*" per bloccare completamente tutti i domini di proprietà di Google e Meta, così come tutti i servizi dipendenti.
 Ed ecco fatto, ora sei attrezzato per goderti appieno IVPN. Se desideri anche migliorare la sicurezza dei tuoi account online utilizzando un gestore di password locale, ti invito a consultare il nostro tutorial su KeePass, una soluzione gratuita e open-source:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Se sei interessato a scoprire un altro provider VPN simile a IVPN, sia in termini di funzionalità che di prezzi, ti consiglio anche di consultare il nostro tutorial su Mullvad:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

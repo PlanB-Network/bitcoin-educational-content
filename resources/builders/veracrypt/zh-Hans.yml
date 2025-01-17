@@ -1,0 +1,5 @@
+description: |
+  VeraCrypt 是一款开源磁盘加密软件，可保护您的敏感数据。作为 TrueCrypt 的继任者，它通过 AES、Serpent 或 Twofish 等算法提供强大的加密功能，可创建加密卷或加密内部和外部的分区和整个磁盘。
+
+contributors:
+  - pretty-private

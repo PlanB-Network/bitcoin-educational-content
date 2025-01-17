@@ -1,0 +1,13 @@
+question: Mis on Bitcoin'i kaevurite roll energiamaailmas?
+answer: Bitcoin'i kaevurid otsivad pidevalt odava elektri allikaid, tihti neid, mis on raisku läinud või kasutamata. Nad võivad toimida paindliku nõudluse allikana, valmis tarbima seda hüljatud elektrit, aidates seeläbi tasakaalustada infrastruktuuri kulusid.
+wrong_answers:
+  - Bitcoin'i kaevurid otsivad pidevalt taastuvenergia allikaid, et vähendada oma süsinikujalajälge.
+  - Bitcoin'i kaevurid otsivad pidevalt tuumaenergia allikaid oma kaevandamisoperatsioonide toitmiseks, kuna see on ainus puhas ja taastuv viis energia tootmiseks.
+  - Bitcoin'i kaevurid otsivad pidevalt päikeseenergia allikaid oma kaevandamisoperatsioonide toitmiseks.
+explanation: |
+  Peatükk selgitab, et Bitcoin'i kaevurid otsivad pidevalt
+  odava elektri allikaid, tihti neid, mis on raisku läinud
+  või kasutamata. Nad võivad toimida paindliku nõudluse
+  allikana, valmis tarbima seda hüljatud elektrit, aidates
+  seeläbi tasakaalustada infrastruktuuri kulusid.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Qual condição básica um conjunto S com uma operação binária deve satisfazer para ser um grupo?
+answer: A condição de fechamento
+wrong_answers:
+  - A condição de comutatividade
+  - A condição de simetria
+  - A condição de distributividade
+explanation: |
+  Um conjunto S com uma operação binária deve satisfazer várias condições para formar um grupo, e a primeira é a condição de fechamento: a operação entre dois elementos de S deve resultar em um elemento de S.
+reviewed: false

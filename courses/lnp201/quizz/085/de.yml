@@ -1,9 +1,0 @@
-question: Was ist die einfachste Aufgabe zur Verwaltung der Liquidität im Lightning-Netzwerk?
-answer: Öffnen von Kanälen für Käufer
-wrong_answers:
-  - Verbindung zu anderen Knoten für Händler herstellen
-  - Aufrechterhaltung eines Gleichgewichts der Liquidität auf beiden Seiten für Routing-Knoten
-  - Kanäle für Händler kaufen
-explanation: |
-  Für Käufer im Lightning-Netzwerk ist das Öffnen von Kanälen die einfachste Aufgabe zur Verwaltung der Liquidität. Dadurch erhalten sie ausgehende Liquidität.
-reviewed: false

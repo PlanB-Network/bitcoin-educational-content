@@ -109,8 +109,8 @@ I menyen "*AntiTracker*" velger du blokkeringsprofilen for din anti-tracker. Det
 ![IVPN](assets/notext/32.webp)
 Og der har du det, du er nå utstyrt for å fullt ut nyte IVPN. Hvis du også ønsker å forbedre sikkerheten til dine online-kontoer ved å bruke en lokal passordbehandler, inviterer jeg deg til å sjekke ut vår veiledning på KeePass, en gratis og åpen kildekode-løsning:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Hvis du er interessert i å oppdage en annen VPN-leverandør som ligner på IVPN, både når det gjelder funksjoner og prising, anbefaler jeg også å sjekke ut vår veiledning på Mullvad:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

@@ -1,0 +1,11 @@
+question: Hva er én metode for å sikre dine bitcoins på lang sikt?
+answer: Gravere din mnemonic frase inn på et motstandsdyktig materiale som stål
+wrong_answers:
+  - Oppbevare dem i en digital lommebok
+  - Holde dem på en børsplattform
+  - Dele din mnemonic frase med en pålitelig venn
+explanation: |
+  Å gravere din mnemonic frase på et motstandsdyktig materiale som stål skaper
+  en fysisk sikkerhetskopi av nøklene dine som er motstandsdyktig mot både vannskader og brann,
+  og sikrer dermed dine bitcoins på lang sikt.
+reviewed: true

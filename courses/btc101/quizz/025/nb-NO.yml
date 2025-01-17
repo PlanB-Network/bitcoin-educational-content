@@ -1,0 +1,11 @@
+question: Hva er den største fordelen med Bitcoin sammenlignet med andre valutaformer?
+answer: Den tilbyr en utmerket verdioppbevaring på grunn av sitt strengt begrensede tilbud og nøytralitet.
+wrong_answers:
+  - Den er udelelig og transportabel
+  - Den er underlagt monetær inflasjon
+  - Den er bredt akseptert i handel
+explanation: |
+  Den største fordelen med Bitcoin sammenlignet med andre valutaformer er at den
+  tilbyr en utmerket verdioppbevaring på grunn av sitt strengt begrensede tilbud og mangel på en betrodd part. Dette gjør
+  den til et godt valg for langsiktig sparing.
+reviewed: true

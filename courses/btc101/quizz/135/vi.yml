@@ -1,11 +1,11 @@
-question: Ý nghĩa của việc điều chỉnh độ khó trong mạng lưới Bitcoin là gì?
-answer: Nó đảm bảo rằng một khối được thêm vào khoảng mỗi mười phút.
+question: Chức năng của việc điều chỉnh độ khó trong mạng lưới Bitcoin là gì?
+answer: Nó đảm bảo rằng một khối được thêm vào blockchain khoảng mỗi mười phút.
 wrong_answers:
   - Nó quyết định giá của Bitcoin.
-  - Nó điều chỉnh số lượng Bitcoin có thể được khai thác.
+  - Nó điều chỉnh số lượng bitcoin có thể được khai thác trong blockchain.
   - Nó quyết định kích thước của một khối.
 explanation: >-
   Việc điều chỉnh độ khó trong mạng lưới Bitcoin đảm bảo rằng một khối
-  được thêm vào khoảng mỗi mười phút. Đây là một phần của các quy tắc giao thức
+  được thêm vào khoảng mỗi mười phút. Đây là một phần của quy tắc giao thức
   của mạng lưới Bitcoin.
-reviewed: false
+reviewed: true

@@ -1,9 +1,0 @@
-question: Vai trò của mã chuỗi chính trong tổ chức phân cấp và suy ra của ví HD là gì?
-answer: Nó đóng vai trò quan trọng trong việc khôi phục danh mục từ hạt giống.
-wrong_answers:
-  - Nó được sử dụng để tạo ra hạt giống.
-  - Nó được sử dụng để suy ra các khóa con.
-  - Nó được sử dụng để mã hóa ví.
-explanation: |
-  Mã chuỗi chính rất cần thiết để khôi phục danh mục từ hạt giống. Tất cả các khóa được suy ra từ cùng một hạt giống sẽ có cùng mã chuỗi chính.
-reviewed: false

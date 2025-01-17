@@ -47,7 +47,7 @@ Joten logiikan tulisi olla seuraava, kun käytetään Samourain maksutyökalua:
 
 Jos haluat löytää yhteistyökumppanin, joka on valmis auttamaan sinua Stonewall X2 -transaktiossa, voit myös vierailla tässä Telegram-ryhmässä (epävirallinen), jota ylläpitävät Samourain käyttäjät yhdistääkseen lähettäjiä ja yhteistyökumppaneita: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> Lisätietoja Stonewall-transaktioista**](https://planb.network/tutorials/privacy/stonewall)
+[**-> Lisätietoja Stonewall-transaktioista**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Mikä on Stonewall x2 -transaktion tarkoitus?
 

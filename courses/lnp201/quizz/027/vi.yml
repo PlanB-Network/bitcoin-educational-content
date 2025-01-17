@@ -1,10 +1,9 @@
-question: Giao dịch rút tiền được thực hiện khi nào trong một chuyển khoản qua Lightning Network?
-answer: Khi kênh được đóng.
+question: Tại sao việc đóng cưỡng chế lại kém mong muốn?
+answer: Nó chậm hơn và phí có thể không phù hợp
 wrong_answers:
-  - Khi chuyển khoản được thực hiện.
-  - Khi kênh được mở.
-  - Không bao giờ được thực hiện.
+  - Nó yêu cầu sự ủy quyền từ Satoshi Nakamoto
+  - Nó buộc phải tạo lại một kênh sau này
+  - Nó ngăn chặn việc sử dụng khóa thu hồi
 explanation: |
-  Giao dịch rút tiền, thể hiện trạng thái của kênh,
-  không được thực hiện trừ khi kênh được đóng.
+  Việc đóng cưỡng chế kém mong muốn vì nó bao gồm một khóa thời gian, làm chậm quá trình, và phí có thể không phù hợp vì chúng được thiết lập tại thời điểm tạo kênh.
 reviewed: false

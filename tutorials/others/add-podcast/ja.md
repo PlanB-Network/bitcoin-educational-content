@@ -10,7 +10,7 @@ PlanBのミッションは、可能な限り多くの言語でビットコイン
 ![podcast](assets/01.webp)
 - まず、GitHubアカウントを持っている必要があります。作成方法がわからない場合は、詳細なチュートリアルを用意しています。
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - `resources/podcasts/`セクションにある[PlanB専用のデータのGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts)にアクセスしてください：

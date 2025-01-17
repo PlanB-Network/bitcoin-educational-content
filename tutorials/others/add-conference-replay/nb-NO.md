@@ -10,13 +10,13 @@ PlanBs oppdrag er å tilby førsteklasses utdanningsressurser om Bitcoin på så
 
 Hvis du derimot ønsker å legge til en konferanse som vil finne sted i fremtiden, anbefaler jeg deg å lese denne andre veiledningen der vi forklarer hvordan du legger til et nytt arrangement på nettstedet.
 
-https://planb.network/tutorials/others/add-event
+https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![konferanse](assets/01.webp)
 - Først må du ha en konto på GitHub. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) i `resources/conference/`-seksjonen:
@@ -69,7 +69,7 @@ tags:
 
 ![konferanse](assets/09.webp)
 Hvis du ennå ikke har en "*builder*" identifikator for din organisasjon, kan du legge den til ved å følge denne andre opplæringen.
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Når du har fullført endringene i denne filen, lagre dem ved å klikke på `Commit changes...` knappen:
 ![konferanse](assets/10.webp)

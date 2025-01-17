@@ -1,9 +1,9 @@
-question: Qual é a principal vantagem do ouro em relação a outras formas de moeda?
-answer: Sua raridade natural o torna valioso, enquanto suas propriedades químicas permitem que ele não se deteriore ao longo do tempo.
+question: Por que o ouro não é um material portátil?
+answer: Porque é denso e pesado, tornando-o difícil de carregar em grandes quantidades.
 wrong_answers:
-  - É facilmente divisível e transportável
-  - Está sujeito à inflação monetária
-  - É amplamente aceito no comércio
+  - Porque é muito valioso para ser movido.
+  - Porque não pode ser facilmente moldado em formas menores.
+  - Porque é um líquido à temperatura ambiente.
 explanation: |
-  A principal vantagem do ouro em relação a outras formas de moeda é sua raridade natural, o que o torna valioso, e suas propriedades químicas, que permitem que ele não se deteriore ao longo do tempo.
-reviewed: false
+  O ouro é denso e pesado, o que significa que carregar grandes quantidades dele pode ser fisicamente desafiador. Esse peso o torna menos conveniente para transporte comparado a materiais mais leves.
+reviewed: true

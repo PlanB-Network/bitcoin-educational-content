@@ -1,0 +1,11 @@
+question: Hva er den største fordelen med Bitcoin for personer som lever under finansiell undertrykkelse eller et diktatorisk regime?
+answer: Den tilbyr en form for finansiell frihet ved å unnslippe sensur og bankrestriksjoner
+wrong_answers:
+  - Den gir en stabil valuta
+  - Den muliggjør anonyme transaksjoner
+  - Den tilbyr høye avkastninger på investering
+explanation: >-
+  Bitcoin tilbyr en form for finansiell frihet ved å unnslippe sensur og
+  bankrestriksjoner. Dette er spesielt gunstig for personer som lever under
+  finansiell undertrykkelse eller et diktatorisk regime.
+reviewed: false

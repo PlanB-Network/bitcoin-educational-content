@@ -1,11 +1,9 @@
-question: What happens if Alice tries to cheat by publishing an old state?
-answer: Bob can use the revocation key to move the funds without waiting for the end of the Timelock, effectively punishing Alice.
+question: What is the main goal of HTLCs in the Lightning Network?
+answer: To enable secure payment transfers via intermediary nodes without requiring trust in them
 wrong_answers:
-  - Alice can use the revocation key to move the funds without waiting for the end of the Timelock.
-  - Bob can extend the Timelock to prevent Alice from recovering her money.
-  - Alice can immediately recover her money.
+  - To reduce transaction fees for each payment through intermediary nodes
+  - To increase the capacity of each payment channel
+  - To establish direct connections between all network nodes with their trust
 explanation: |
-  If Alice tries to cheat by publishing an old state, Bob can use the revocation
-  key to move the funds without waiting for the end of the Timelock. This effectively
-  punishes Alice for trying to cheat.
+  HTLCs (Hashed Time-Locked Contracts) ensure that each intermediary node will transfer the payment without keeping the funds, as it can only unlock them by completing the transaction up to the final recipient.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Qual é o risco de complicar demais a segurança e acessibilidade de suas bitcoins?
+question: Qual é o risco de complicar demais a segurança e a acessibilidade dos seus bitcoins?
 answer: Você pode se prejudicar se manusear incorretamente as carteiras de backup.
 wrong_answers:
   - Você pode se prejudicar se manusear incorretamente as carteiras físicas.
   - Você pode se prejudicar se manusear incorretamente as carteiras digitais.
   - Você pode se prejudicar se manusear incorretamente as carteiras multisig.
 explanation: |
-  Complicar demais a segurança e acessibilidade de suas bitcoins pode prejudicá-lo se, por exemplo, você manusear incorretamente os backups de suas carteiras. Isso ocorre porque procedimentos simples de backup são cruciais para recuperar o acesso aos seus fundos em caso de perda do seu telefone ou computador.
-reviewed: false
+  Complicar demais a segurança e a acessibilidade dos seus bitcoins pode prejudicá-lo se, por exemplo, você manusear incorretamente os backups das suas carteiras. Isso ocorre porque procedimentos simples de backup são cruciais para recuperar o acesso aos seus fundos em caso de perda do seu telefone ou computador.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Mitä tapahtuu yhteistyöllisessä sulkemisessa?
-answer: Kaksi vertaista kommunikoi ja sopii kanavan sulkemisesta, vahvistaa kanavan lopullisen tilan ja luo sulkemistransaktion.
+question: Mikä on LNURL; n rooli Lightning-siirroissa?
+answer: Yksinkertaistaa vuorovaikutusta solmujen ja Lightning-sovellusten välillä
 wrong_answers:
-  - Yksi vertainen pakottaa kanavan sulkemisen.
-  - Yksi vertainen yrittää huijata julkaisemalla vanhan sitoumustapahtuman.
-  - Kaksi vertaista riitelee jäljellä olevasta SAT:sta kanavassa.
+  - Helpottaa kanavien luomista jokaiselle maksulle
+  - Varmistaa maksutietojen luottamuksellisuuden
+  - Laskee automaattisesti siirtomaksut
 explanation: |
-  Yhteistyöllisessä sulkemisessa kaksi vertaista kommunikoi ja sopii kanavan sulkemisesta. He pysäyttävät kaikki transaktiot ja vahvistavat kanavan lopullisen tilan. Sen jälkeen he luovat sulkemistransaktion.
+  LNURL on viestintäprotokolla, jonka tarkoituksena on yksinkertaistaa vuorovaikutusta, kuten nostoja ja maksuja, solmujen ja Lightning-sovellusten välillä.
 reviewed: false

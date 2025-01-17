@@ -1,9 +1,9 @@
-question: Was ist einer der Vorteile von der Teilnahme an Cybersecurity-Konferenzen und Workshops?
-answer: Es ermöglicht Ihnen, Verbindungen zu Fachleuten der Branche aufzubauen.
+question: Was ist einer der Vorteile des Besuchs von Cybersecurity-Konferenzen und Workshops?
+answer: Es ermöglicht Ihnen, Verbindungen mit Branchenprofis aufzubauen.
 wrong_answers:
-  - Es ist eine Voraussetzung für alle Cybersecurity-Jobs.
-  - Es garantiert einen Job in der Cybersecurity.
-  - Es ist der einzige Weg, um über Cybersecurity zu lernen.
+  - Es ist eine Anforderung für alle Cybersecurity-Jobs
+  - Es garantiert einen Job in der Cybersecurity
+  - Es ist der einzige Weg, um über Cybersecurity zu lernen
 explanation: |
-  Das Kapitel erwähnt, dass die Teilnahme an Cybersecurity-Konferenzen und Workshops nicht nur das Lernen ermöglicht, sondern auch dabei hilft, Verbindungen zu Fachleuten der Branche aufzubauen.
-reviewed: false
+  Das Kapitel erwähnt, dass der Besuch von Cybersecurity-Konferenzen und Workshops nicht nur das Lernen ermöglicht, sondern auch hilft, Verbindungen mit Branchenprofis aufzubauen.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Mikä on digitaalisen allekirjoituksen tarkoitus Bitcoin-siirtojen yhteydessä?
-answer: Todistaa, että olet yksityisen avaimen haltija paljastamatta sitä.
+question: Mikä on pääasiallinen ero PRNG n ja TRNG n välillä?
+answer: PRNG on deterministinen, kun taas TRNG tuottaa todellisia satunnaislukuja.
 wrong_answers:
-  - Salata siirtotiedot.
-  - Tallentaa siirtotiedot.
-  - Lähettää siirtotiedot.
+  - PRNG on nopeampi kuin TRNG suurilla luvuilla.
+  - PRNG: tä käytetään vain salaukseen, ei TRNG tä.
+  - PRNG käyttää yksityisiä avaimia, TRNG käyttää julkisia avaimia.
 explanation: |
-  Bitcoin-siirtojen yhteydessä digitaalista allekirjoitusta käytetään todistamaan, että olet yksityisen avaimen haltija paljastamatta sitä. Tämä saavutetaan käyttämällä ECDSA-algoritmia.
+  PRNG: t ovat deterministisiä, mikä tarkoittaa, että ne voivat toistaa sekvenssejä alkutilasta toisin kuin TRNG t.
 reviewed: false

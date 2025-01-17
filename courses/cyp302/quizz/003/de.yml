@@ -1,0 +1,9 @@
+question: Was enthüllt die zweite Beale-Nachricht, nachdem sie entschlüsselt wurde?
+answer: Die Liste der vergrabenen Schätze (Gold, Silber und Juwelen)
+wrong_answers:
+  - Den genauen Ort, wo der Schatz vergraben ist
+  - Das Datum von Beales Rückkehr
+  - Die Unterschrift von Beale und die seiner Gefährten
+explanation: |
+  Nach der Entschlüsselung beschreibt die zweite Nachricht den Inhalt des Schatzes, bestehend aus Gold, Silber und Juwelen.
+reviewed: false

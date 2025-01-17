@@ -16,7 +16,7 @@ Pokud vás ale zajímá překlad jiných sekcí webu, vyjma vzdělávacího obsa
 
 Pokud si přejete přidat zcela nový jazyk do PlanB Network, který ještě na Weblate není k dispozici, budete nejprve muset podat žádost o přidání. Pro toto sledujte tento konkrétní tutoriál.
 
-https://planb.network/tutorials/others/add-new-language-weblate
+https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 
 

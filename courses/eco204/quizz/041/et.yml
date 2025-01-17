@@ -1,0 +1,14 @@
+question: Mis on hüperinflatsiooni aluseks olev põhjus, mida redenominatsioon ei käsitle?
+answer: Rahapakkumise laienemine.
+wrong_answers:
+  - Rahapakkumise vähenemine.
+  - Nõudluse suurenemine kaupade ja teenuste järele.
+  - Nõudluse vähenemine kaupade ja teenuste järele.
+explanation: |
+  Hüperinflatsiooni juurpõhjus on rahapakkumise laienemine.
+
+  Redenominatsioon on valitsuste poolt inflatsiooni perioodidel sageli kasutatav meede,
+
+  kuid see ei lahenda seda aluseks olevat probleemi. See on ainult viis valuuta ümbernimetamiseks
+
+  ja nullide eemaldamiseks.

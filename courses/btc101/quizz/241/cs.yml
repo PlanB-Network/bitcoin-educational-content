@@ -1,9 +1,13 @@
-question: Jaký je jeden z možných dopadů Lightning Network pro uživatele?
-answer: Budou platit pouze za obsah, který spotřebují
+question: Co je to platforma DCA?
+answer: Služba, která umožňuje uživatelům investovat pevnou částku peněz do aktiva v pravidelných intervalech.
 wrong_answers:
-  - Museli by platit více za obsah
-  - Museli by platit měsíční poplatek za předplatné
-  - Museli by platit za obsah předem
-explanation: >-
-  S Lightning Network by uživatelé platili pouze za obsah, který spotřebují, čímž by se eliminovaly poplatky za předplatné placené předem.
-reviewed: false
+  - Typ kryptoměnové burzy, která umožňuje obchodování pouze s Bitcoinem.
+  - Finanční služba, která poskytuje půjčky investorům pro obchodování s marží.
+  - Softwarový nástroj, který sleduje ceny akcií v reálném čase bez jakýchkoli investičních funkcí.
+explanation: |
+  Platforma DCA odkazuje na platformu, která usnadňuje
+  Průměrování nákladů v dolarech (DCA), investiční strategii, kde
+  jednotlivec investuje pevnou částku peněz do
+  konkrétního aktiva v pravidelných intervalech, bez ohledu na
+  cenu aktiva.
+reviewed: true

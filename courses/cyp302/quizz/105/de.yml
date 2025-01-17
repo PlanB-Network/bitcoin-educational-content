@@ -1,0 +1,9 @@
+question: Wie können Parteien die korrekte Reihenfolge von Nachrichten in einer sicheren Sitzung gewährleisten?
+answer: Durch die Verwendung von Sequenznummern in jeder Nachricht
+wrong_answers:
+  - Durch den Austausch von Schlüsseln für jede Nachricht
+  - Durch das Hinzufügen von Verzögerungen zwischen Nachrichten
+  - Durch die Verschlüsselung von Nachrichten mit einem anderen Algorithmus
+explanation: |
+  Sequenznummern stellen sicher, dass Nachrichten in der richtigen Reihenfolge empfangen werden und verhindern deren Neuordnung.
+reviewed: false

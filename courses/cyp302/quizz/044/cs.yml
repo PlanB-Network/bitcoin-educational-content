@@ -1,0 +1,9 @@
+question: Proč je množina celých čísel s operací sčítání grupou, zatímco s operací násobení není?
+answer: Množina nesplňuje podmínku inverze při násobení
+wrong_answers:
+  - Množina není uzavřená vzhledem k násobení
+  - Násobení není asociativní operace nad celými čísly
+  - Pro násobení neexistuje neutrální prvek
+explanation: |
+  Množina celých čísel nesplňuje podmínku inverze při násobení, protože neexistuje inverzní prvek pro každé celé číslo, který by po vynásobení dal 1. Tuto podmínku splňují pouze prvky 1 a -1.
+reviewed: false

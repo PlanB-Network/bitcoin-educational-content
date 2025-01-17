@@ -1,0 +1,5 @@
+description: |
+  Public Pool es una plataforma de minería de tipo Solo Pool que permite a los mineros probar suerte para minar un bloque de Bitcoin sin compartir la recompensa. A diferencia de los pools tradicionales, Public Pool no agrupa la potencia de cálculo: los usuarios reciben la recompensa completa si se encuentra un bloque. La plataforma proporciona a los mineros una plantilla de bloque, evitando así la necesidad de gestionar un nodo de Bitcoin. Aunque las probabilidades de éxito son bajas, el sistema funciona como una lotería con potenciales recompensas altas. Un panel de control ofrece estadísticas detalladas sobre el rendimiento y la red.
+
+contributors:
+  - pretty-private

@@ -1,4 +1,4 @@
-question: Kdo představil myšlenku "Bitcoinové dálnice"?
+question: Kdo představil myšlenku Bitcoinové dálnice?
 answer: Andreas Antonopoulos
 wrong_answers:
   - Satoshi Nakamoto
@@ -6,5 +6,5 @@ wrong_answers:
   - Vitalik Buterin
 explanation: |
   Andreas Antonopoulos, známý propagátor a vzdělavatel v oblasti Bitcoinu, představil
-  myšlenku "Bitcoinové dálnice".
+  myšlenku Bitcoinové dálnice.
 reviewed: false

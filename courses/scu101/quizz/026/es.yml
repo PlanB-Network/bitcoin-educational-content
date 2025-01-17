@@ -1,9 +1,10 @@
 question: ¿Linux y Mac necesitan antivirus con frecuencia?
-answer: "No"
+answer: Esto es falso
 wrong_answers:
-  - Sí
+  - Esto es cierto
   - Solo Linux necesita antivirus.
   - Solo Mac necesita antivirus.
 explanation: |
-  Linux y Mac, gracias a su sistema de separación de derechos de usuario, a menudo no necesitan antivirus.
-reviewed: false
+  Linux y Mac, gracias a su sistema de separación de derechos de usuario,
+  a menudo no necesitan antivirus.
+reviewed: true

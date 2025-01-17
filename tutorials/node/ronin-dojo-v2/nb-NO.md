@@ -16,7 +16,7 @@ _Denne opplæringen er gitt kun for utdannings- og informasjonsformål. Vi støt
 
 I en tidligere opplæring hadde vi allerede forklart prosedyren for å installere og bruke RoninDojo v1. Men, i løpet av det siste året har RoninDojo-teamene lansert versjon 2 av deres implementasjon, som markerte et betydelig vendepunkt i programmets arkitektur. Faktisk, de gikk bort fra Linux Manjaro-distribusjonen til fordel for Debian. Følgelig tilbyr de ikke lenger et forhåndskonfigurert bilde for automatisk installasjon på Raspberry Pi. Men det er fortsatt en metode for å fortsette med en manuell installasjon. Dette er hva jeg brukte for min egen node, og siden da har RoninDojo v2 fungert fantastisk på min Raspberry Pi 4. Jeg tilbyr derfor en ny opplæring om hvordan man manuelt installerer RoninDojo v2 på en Raspberry Pi.
 
-https://planb.network/tutorials/node/ronin-dojo
+https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Innholdsfortegnelse:
 - Hva er RoninDojo?
@@ -319,14 +319,14 @@ En detaljert opplæring er under forberedelse for å veilede deg trinn for trinn
 
 For en dypere forståelse av coinjoin og bruken av det på Bitcoin, inviterer jeg deg også til å konsultere denne andre artikkelen: Forståelse og bruk av coinjoin på Bitcoin, hvor jeg detaljerer alt du trenger å vite om denne teknikken.
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 ### Bruke Whirlpool Stat Tool (WST)
 
 Etter å ha utført coinjoins med Whirlpool, er det nyttig å nøyaktig evaluere personvernnivået oppnådd for dine blandede UTXOs. For å gjøre dette, kan du bruke Python-verktøyet *Whirlpool Stat Tool*. Dette verktøyet lar deg måle både de prospektive og retrospektive poengene til dine UTXOs, samtidig som du analyserer deres diffusjonsrate i bassenget.
 
 For å fordype din forståelse av beregningsmekanismene til disse anonsets, anbefaler jeg å lese artikkelen: REMIX - WHIRLPOOL, som detaljerer funksjonen til disse indeksene.
 
-https://planb.network/tutorials/privacy/remix-whirlpool
+https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 For å få tilgang til WST-verktøyet, gå til RoninCLI. For å gjøre dette, åpne en terminal på din personlige datamaskin og etabler en SSH-forbindelse med noden din ved å bruke følgende kommando:
 `SSH ronindojo@[IP]`

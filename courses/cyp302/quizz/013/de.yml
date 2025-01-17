@@ -1,0 +1,9 @@
+question: Was bildet die physische Grundlage für den Großteil der Kommunikation in der entwickelten Welt?
+answer: Glasfaserkabelnetzwerke
+wrong_answers:
+  - Satelliten für jede Verbindung
+  - Nur Koaxialkabel
+  - Nur Kupferdrähte
+explanation: |
+  Der Großteil der modernen Kommunikation stützt sich auf Glasfaserkabelnetzwerke, die einen schnellen Datenaustausch gewährleisten, obwohl einige Anwendungen von Satelliten und Koaxialkabeln bestehen bleiben.
+reviewed: false

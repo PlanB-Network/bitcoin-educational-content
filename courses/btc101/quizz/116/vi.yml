@@ -1,10 +1,10 @@
 question: Giao dịch Bitcoin đầu tiên được ghi nhận là gì?
-answer: Một giao dịch 10 BTC giữa Satoshi và Hal Finney
+answer: Một giao dịch 10 BTC giữa Satoshi Nakamoto và Hal Finney.
 wrong_answers:
-  - Một giao dịch 10,000 BTC đổi lấy 2 chiếc pizza
-  - Một giao dịch 1 BTC giữa Satoshi và Hal Finney
-  - Một giao dịch 10,000 BTC giữa Laszlo Hanyecz và Hal Finney
+  - Một giao dịch 10,000 BTC đổi lấy 2 chiếc pizza.
+  - Một giao dịch 1 BTC giữa Satoshi Nakamoto và Hal Finney.
+  - Một giao dịch 10,000 BTC giữa Laszlo Hanyecz và Hal Finney.
 explanation: |
-  Giao dịch Bitcoin đầu tiên được ghi nhận là một giao dịch 10 BTC giữa
-  Satoshi Nakamoto và Hal Finney.
-đã được xem xét: true
+  Giao dịch Bitcoin đầu tiên được ghi nhận là một giao dịch
+  10 BTC giữa Satoshi Nakamoto và Hal Finney.
+reviewed: true

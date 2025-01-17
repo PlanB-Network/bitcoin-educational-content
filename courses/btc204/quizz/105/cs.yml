@@ -1,0 +1,11 @@
+question: Jaká je hlavní výhoda transakce payjoin ve srovnání s klasickou platební transakcí?
+
+answer: Zlepšuje soukromí
+
+wrong_answers:
+  - Zvyšuje rychlost potvrzení
+  - Sníží poplatky za transakci
+  - Klame příjemce
+
+explanation: |
+  Transakce payjoin zvyšuje soukromí zúčastněných stran tím, že klame analýzu blockchainu.

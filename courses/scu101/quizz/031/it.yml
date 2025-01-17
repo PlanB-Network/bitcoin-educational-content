@@ -1,10 +1,12 @@
 question: Cosa dovresti fare se rilevi un virus sul tuo computer?
-answer: Disconnettilo da internet, esegui una scansione antivirus completa ed elimina i file infetti.
+answer: Disconnettilo da internet, esegui una scansione antivirus completa e cancella i file infetti.
 wrong_answers:
-  - Continua a utilizzare il computer normalmente.
-  - Spegni il computer e lascialo spento per qualche ora.
-  - Elimina tutti i file sul computer.
+  - Continua a usare il computer normalmente.
+  - Spegni il computer e lascialo spento per alcune ore.
+  - Cancella tutti i file sul computer.
 explanation: |
-  Se rilevi un virus sul tuo computer, dovresti disconnetterlo da internet per evitare che il virus si diffonda o comunichi con l'hacker.
-  Successivamente, esegui una scansione antivirus completa ed elimina i file infetti.
-reviewed: false
+  Se rilevi un virus sul tuo computer, dovresti
+  disconnetterlo da internet per prevenire che il virus si
+  diffonda o comunichi con l'hacker. Poi, esegui una
+  scansione antivirus completa e cancella i file infetti.
+reviewed: true

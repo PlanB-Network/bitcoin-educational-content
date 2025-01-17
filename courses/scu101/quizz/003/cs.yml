@@ -5,8 +5,7 @@ wrong_answers:
   - Je vždy bezpečnější než software s uzavřeným zdrojovým kódem.
   - Je vždy uživatelsky přívětivější než software s uzavřeným zdrojovým kódem.
 explanation: |
-  Open-source software je software, jehož kód je známý a přístupný
-  každému. To umožňuje mimo jiné ověření, že neexistuje žádný
-  skrytý přístup pro krádež vašich osobních údajů. Nicméně, není vždy zdarma, bezpečnější,
-  nebo uživatelsky přívětivější než software s uzavřeným zdrojovým kódem.
-reviewed: false
+  Open-source software je software, jehož kód je známý a
+  přístupný všem. To umožňuje ověření, mimo jiné, že neexistuje žádný skrytý přístup pro krádež vašich osobních údajů. Nicméně, není vždy zdarma, bezpečnější nebo
+  uživatelsky přívětivější než software s uzavřeným zdrojovým kódem.
+reviewed: true

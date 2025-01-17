@@ -1,0 +1,12 @@
+question: Mis on kaevurite roll Bitcoin'i võrgustikus?
+answer: Kaevurid mängivad olulist rolli blokkide valideerimisel ja loomisel.
+wrong_answers:
+  - Kaevurid valideerivad ainult tehinguid.
+  - Kaevurid kontrollivad Bitcoin'i hinda.
+  - Kaevuritel pole Bitcoin'i võrgustikus mingit rolli.
+explanation: |
+  Kaevurid mängivad Bitcoin'i võrgustikus olulist rolli,
+  valideerides ja luues blokke. Nad tugevdavad võrgustikku
+  tsensuuri vastu, kasutades elektrienergiat Bitcoin'i
+  töötõendi (proof of work) arvutamiseks.
+reviewed: true

@@ -1,14 +1,9 @@
-question: Quelles seraient les implications si les blocs étaient 100 fois plus lourds ?
-answer: Exécuter un nœud Bitcoin ne serait pas accessible à la personne moyenne, compromettant la décentralisation du protocole et l'immuabilité des transactions et des règles de consensus
+question: Quelles seraient les implications pour les utilisateurs de Bitcoin si les blocs étaient 100 fois plus lourds ?
+answer: Faire fonctionner un nœud Bitcoin ne serait pas accessible à la personne moyenne, compromettant ainsi la décentralisation du protocole et l'immuabilité des transactions ainsi que des règles de consensus.
 wrong_answers:
-  - Exécuter un nœud Bitcoin serait plus accessible à la personne moyenne, renforçant la décentralisation du protocole et l'immuabilité des transactions et des règles de consensus
-  - La capacité de transaction du réseau diminuerait
-  - La récompense de bloc pour les mineurs augmenterait
+  - Faire fonctionner un nœud Bitcoin serait plus accessible à la personne moyenne, améliorant la décentralisation du protocole et l'immuabilité des transactions ainsi que des règles de consensus.
+  - La capacité de transaction du réseau diminuerait.
+  - La récompense de bloc pour les mineurs augmenterait.
 explanation: |
-  Si les blocs étaient 100 fois plus lourds, exécuter un nœud Bitcoin nécessiterait
-  un disque dur de 50 To, une bande passante de plus de 500 Go/mois et du matériel capable de valider
-  des centaines de milliers de transactions en moins de 10 minutes. Cela rendrait l'exécution
-  d'un nœud Bitcoin inaccessible à la personne moyenne, compromettant la décentralisation
-  du protocole et l'immuabilité des transactions et des règles de consensus.
-reviewed: false
-
+  Si les blocs étaient 100 fois plus lourds, faire fonctionner un nœud Bitcoin nécessiterait un disque dur de 50TB, une bande passante de plus de 500GB/mois, et un matériel capable de valider des centaines de milliers de transactions en moins de 10 minutes. Cela rendrait l'exploitation d'un nœud Bitcoin inaccessible à la personne moyenne, compromettant la décentralisation du protocole et l'immuabilité des transactions et des règles de consensus.
+reviewed: true

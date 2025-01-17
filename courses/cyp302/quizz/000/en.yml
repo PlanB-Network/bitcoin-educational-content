@@ -1,0 +1,9 @@
+question: Who entrusted an iron box to the innkeeper Robert Morriss for safekeeping?
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  It was Thomas J. Beale who handed over an iron box containing encrypted documents and a note to Robert Morriss, giving him instructions in case of his non-return.
+reviewed: false

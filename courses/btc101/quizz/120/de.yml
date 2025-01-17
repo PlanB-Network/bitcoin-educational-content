@@ -1,9 +1,11 @@
-question: Wann wurde Bitcoin zum ersten Mal zum Kauf von physischen Gütern verwendet?
+question: Wann wurde Bitcoin das erste Mal verwendet, um physische Güter zu kaufen?
 answer: Als Laszlo Hanyecz 2 Pizzen für 10.000 BTC kaufte.
 wrong_answers:
   - Als Hal Finney ein Auto für 100.000 BTC kaufte.
   - Als Satoshi Nakamoto ein Haus für 1.000.000.000 BTC kaufte.
-  - Keine der Optionen.
+  - Keine der anderen Optionen.
 explanation: |
-  Das erste Mal, dass Bitcoin zum Kauf von physischen Gütern verwendet wurde, war, als Laszlo Hanyecz am 22.05.2010 2 Pizzen für 10.000 BTC kaufte, was heute als Pizza Day bekannt ist.
-reviewed: false
+  Das erste Mal, dass Bitcoin verwendet wurde, um physische
+  Güter zu kaufen, war, als Laszlo Hanyecz 2 Pizzen für 10.000
+  BTC am 22.05.2010 kaufte, was heute als Pizza Day bekannt ist.
+reviewed: true

@@ -1,10 +1,10 @@
-question: Was ist einer der Faktoren, die den Preis von Bitcoin schwanken lassen können?
-answer: Marktschwankungen und bullische und bärische Marktphasen.
+question: Was sind die typischen Kosten für einen Miner?
+answer: Stromverbrauch und Hardwarekauf.
 wrong_answers:
-  - Die Anzahl der Menschen, die das Internet nutzen.
-  - Das Wetter.
-  - Der Preis von Gold.
-explanation: |
-  Der Preis von Bitcoin ist oft durch erhebliche Volatilität gekennzeichnet,
-  die von Marktschwankungen und bullischen und bärischen Marktphasen beeinflusst werden kann.
+  - Nur Hardwarekauf.
+  - Transaktionsgebühren.
+  - Stromverbrauch und Transaktionsgebühren.
+explanation: >-
+  Das Mining von Bitcoin erfordert erhebliche Rechenleistung, was wiederum Strom verbraucht.
+  Außerdem müssen Miner in spezialisierte Hardware investieren, um effektiv minen zu können.
 reviewed: false

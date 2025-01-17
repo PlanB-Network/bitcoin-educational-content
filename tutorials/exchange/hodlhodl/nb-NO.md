@@ -1,5 +1,5 @@
 ---
-name: HODL HODL
+name: Hodl Hodl
 
 description: Trinn-for-trinn guide for HODLHODL
 ---

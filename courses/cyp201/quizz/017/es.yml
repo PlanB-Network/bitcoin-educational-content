@@ -1,9 +1,9 @@
-question: ¿Cuál es la principal ventaja de la función hash SHA256?
-answer: Su robustez para encontrar la entrada a partir del hash, mientras se verifica el hash para una entrada dada es una acción mecánicamente simple.
+question: ¿Qué curva elíptica se utiliza en el protocolo Bitcoin?
+answer: secp256k1
 wrong_answers:
-  - Su capacidad para generar un hash de 512 bits a partir de una entrada de tamaño variable.
-  - Su uso de bits de relleno para aumentar el tamaño de la entrada.
-  - Su uso de los operadores XOR, AND y NOT para procesar los bits.
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  La principal ventaja de la función hash SHA256 es su robustez para encontrar la entrada a partir del hash, mientras se verifica el hash para una entrada dada es una acción mecánicamente simple. Esto lo convierte en la opción preferida para asegurar numerosos sistemas digitales, especialmente dentro del protocolo Bitcoin.
+  Bitcoin utiliza la curva secp256k1, definida por la ecuación y² = x³ + 7, para sus operaciones criptográficas.
 reviewed: false

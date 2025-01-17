@@ -1,0 +1,9 @@
+question: Jaký byl dopad ekonomické otevřenosti podle Cobdenových názorů na globální chudobu během posledních 20 let?
+answer: Chudoba se snížila na polovinu
+wrong_answers:
+  - Chudoba se zvýšila o 10%
+  - Chudoba zůstala stabilní
+  - Chudoba se snížila o 20%
+explanation: |
+  Cobden propagoval ekonomickou otevřenost jako prostředek ke snížení chudoby, a moderní výsledky ukazují významné snížení, zejména v zemích otevřených obchodu.
+reviewed: false

@@ -1312,28 +1312,10 @@ Natürlich sind **in anderen Ländern die Gesetzgebung und die Funktionsweise vo
 
 
 
-## Bewerten Sie den Kurs
+## Bewertungen & Noten
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Kümmern Sie sich um sich selbst
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Wenn man in das Kaninchenloch fällt, ändert sich unsere Wahrnehmung vieler Dinge.
-Das drängt uns dann dazu, weiter gehen zu wollen, mehr entdecken zu wollen über jene anderen Menschen, die die gleiche geistige Arbeit wie wir leisten und die auch verstanden haben.
-Das motiviert uns, gibt uns noch mehr Lust, **unseren Stein zum Gebäude beizutragen** und unsere Entdeckung zu teilen: Bitcoin.
-Es führt uns auch dazu, **über die Welt von morgen nachzudenken, die wir aufbauen möchten, und über die Gemeinschaften, die dabei sind, sie zu bauen**.
-####
-**In dieser langen Galerie, die die Schaffung einer Gemeinschaft ist, müssen Sie Motivation, Strategie, Selbstaufopferung und Zeit zeigen**. Es ist manchmal eine undankbare Aufgabe; und bei diesem Unterfangen ist es besser, die Dinge nach und nach anzugehen, um sich nicht zu verletzen.
-**Denken Sie also an sich selbst, Ihre Grenzen**. Und obwohl Bitcoin Sie Tag und Nacht begeistern mag, **versuchen Sie nicht, alles alleine zu machen; sonst werden Sie sich erschöpfen**.
-
-Fragen Sie im Gegenteil **um Hilfe bei Bitcoinern, die bereits durch diese gleiche Galerie gegangen sind, die bereits die gleichen Probleme erkundet und die gleichen Werkzeuge gebaut haben**. Das wird Ihnen eine enorme Menge an Zeit sparen.
-
-**Schlagen Sie auch den Menschen, die Ihnen in diesem Abenteuer folgen werden, vor, Ihnen zu helfen, auch wenn das bedeutet, einige Aufgaben zu delegieren** und dass diese länger dauern können. Auf lange Sicht wird Ihre Gemeinschaft geeint und reifer hervorgehen.
-
-![image](assets/fr/chapter39/63.webp)
-
-Allein kann man schnell eine der vielen Galerien des Bitcoin-Kaninchenlochs erkunden, bis man deren Ende erreicht. Aber da ist die Rückreise zu machen. Dann all die anderen Richtungen zu erkunden.
-Während **durch das Erstellen und/oder Beitreten einer Gemeinschaft von Bitcoinern, durch regelmäßiges Teilen und Austauschen mit ihnen, werden Sie alle Richtungen des Bitcoin-Kaninchenlochs gleichzeitig erkunden**.
-
-Dann können Sie viel schneller, als Sie es allein getan hätten, sagen: "Ich habe Bitcoin verstanden".
+<isCourseConclusion>true</isCourseConclusion>

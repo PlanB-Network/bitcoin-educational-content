@@ -1,13 +1,12 @@
-question: Mikä on etu käyttää itsehostattua salasanojen hallintajärjestelmää kuten Bitwarden tai KeePass?
-answer: Voit hallita, missä salasanasi säilytetään, tarjoten enemmän turvallisuutta ja kontrollia.
+question: Mikä on etu käyttää itse isännöityä salasananhallintajärjestelmää kuten Bitwarden tai KeePass?
+answer: Voit hallita, missä salasanasi säilytetään, tarjoten lisää turvallisuutta ja kontrollia.
 wrong_answers:
-  - Ne ovat helpompia käyttää kuin kolmannen osapuolen palvelut.
-  - Ne tarjoavat enemmän ominaisuuksia kuin kolmannen osapuolen palvelut.
-  - Ne ovat halvempia kuin kolmannen osapuolen palvelut.
+  - Ne ovat helpompia ja aina turvallisempia käyttää kuin kolmannen osapuolen palvelut.
+  - Ne tarjoavat yleensä enemmän ominaisuuksia kuin kolmannen osapuolen palvelut, vaikkakin ne ovat kalliimpia.
+  - Ne ovat halvempia ja nopeampia kuin kolmannen osapuolen palvelut.
 explanation: |
-  Itsehostatut salasanojen hallintajärjestelmät kuten Bitwarden tai KeePass mahdollistavat sen, että
-
-  voit hallita, missä salasanasi säilytetään, tarjoten mahdollisesti enemmän turvallisuutta ja
-
-  kontrollia. Kuitenkin, ne saattavat vaatia enemmän teknistä tietämystä käyttöön.
-reviewed: false
+  Itse isännöidyt salasananhallintajärjestelmät kuten Bitwarden tai KeePass
+  mahdollistavat sinun hallita, missä salasanasi säilytetään,
+  tarjoten potentiaalisesti lisää turvallisuutta ja kontrollia. Kuitenkin,
+  niiden käyttö saattaa vaatia enemmän teknistä tietämystä.
+reviewed: true

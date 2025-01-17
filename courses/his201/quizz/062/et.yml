@@ -1,0 +1,9 @@
+question: Mida hõlmab koostööpartneri hääle määra hinnang läbi osalise töötõendi?
+answer: Madalama astme töötõendite hankimine võrreldes võrgu raskusastmega, mille on tootnud hasher
+wrong_answers:
+  - Templi jäljendi hankimine, mis sisaldab hasheri toodetud iga ploki räsi esimest baiti
+  - Hasheri elektriarve hankimine igal kuul
+  - Töötõendite hankimine madalama raskusastmega võrgust, nagu BitDNS
+explanation: |
+  Selle lihtsa meetodi pakkusid välja ribuck, Nils Schneider ja Gavin Andresen [foorumil](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) 14. oktoobril 2010. ()
+reviewed: false

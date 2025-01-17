@@ -1,9 +1,14 @@
-question: Was ist die zukünftige Sorge bezüglich der Nutzung des Bitcoin-Blockraums?
-answer: Die zukünftige Sorge besteht darin, dass mit dem erwarteten Wachstum des Lightning-Netzwerks und der daraus resultierenden Zunahme von Kanaleröffnungen und -schließungen der Platz in den Bitcoin-Blöcken immer wertvoller wird.
+question: Was ist die zukünftige Sorge bezüglich der Nutzung des Bitcoin-Blockplatzes?
+answer: Die zukünftige Sorge besteht darin, dass mit dem erwarteten Wachstum des Lightning-Netzwerks und dem daraus resultierenden Anstieg der Kanalöffnungen und -schließungen der Platz in den Bitcoin-Blöcken zunehmend wertvoller wird.
 wrong_answers:
-  - Die zukünftige Sorge besteht darin, dass die Größe der Bitcoin-Blöcke zu groß wird, um sie zu verwalten.
-  - Die zukünftige Sorge besteht darin, dass die Anzahl der Bitcoin-Blöcke die Kapazität des Netzwerks überschreiten wird.
+  - Die zukünftige Sorge besteht darin, dass die Größe der Bitcoin-Blöcke zu groß wird, um sie verwalten zu können.
+  - Die zukünftige Sorge besteht darin, dass die Anzahl der Bitcoin-Blöcke die Kapazität des Netzwerks übersteigen wird.
   - Die zukünftige Sorge besteht darin, dass die Komplexität der Bitcoin-Blöcke zunehmen wird, was ihre Verarbeitung erschwert.
 explanation: |
-  Mit dem erwarteten Wachstum des Lightning-Netzwerks und der daraus resultierenden Zunahme von Kanaleröffnungen und -schließungen wird der Platz in den Bitcoin-Blöcken immer wertvoller. Dies hat zu Diskussionen über die legitime Nutzung des Blockraums geführt, wobei Bedenken hinsichtlich "Spam" auf der Blockchain von als nicht wesentlich betrachteten Transaktionen bestehen.
-reviewed: false
+  Mit dem erwarteten Wachstum des Lightning-Netzwerks und dem
+  daraus resultierenden Anstieg der Kanalöffnungen und -schließungen
+  wird der Platz in den Bitcoin-Blöcken zunehmend wertvoller. Dies
+  hat zu Diskussionen über die legitime Nutzung des Blockplatzes geführt,
+  mit Sorgen über Spam auf der Blockchain von
+  Transaktionen, die als nicht wesentlich betrachtet werden.
+reviewed: true

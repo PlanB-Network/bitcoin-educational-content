@@ -3,8 +3,7 @@ answer: Používá se k nákupu a prodeji zboží a služeb.
 wrong_answers:
   - Používá se k těžbě nových bitcoinů.
   - Používá se k regulaci ceny Bitcoinu.
-  - Používá se k ovládání protokolu Bitcoin.
+  - Používá se k ovládání protokolu Bitcoinu.
 explanation: |
-  V každodenním životě lidé používají jednotku Bitcoin k nákupu a prodeji zboží a
-  služeb. Spoléhá na protokol Bitcoin, aby fungoval.
-reviewed: false
+  V každodenním životě lidé používají jednotku Bitcoinu k nákupu a prodeji zboží a služeb. Aby byla jednotka použitelná, spoléhá na protokol Bitcoinu.
+reviewed: true

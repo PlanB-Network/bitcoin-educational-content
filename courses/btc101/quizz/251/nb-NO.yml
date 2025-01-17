@@ -1,0 +1,10 @@
+question: Hva er et av de viktigste problemene med sensur?
+answer: Det kan ødelegge ytringsfriheten og retten til å samles.
+wrong_answers:
+  - Det kan føre til en økning i ytringsfriheten.
+  - Det kan føre til en økning i retten til å samles.
+  - Det kan føre til en nedgang i innovasjon.
+explanation: >-
+  Teksten nevner at det å tolerere sensur kan ødelegge ytringsfriheten
+  og retten til å samles.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mida võimaldab sighash lipp SIGHASH_NONE?
+answer: Väljundite muutmine peale allkirjastamist
+wrong_answers:
+  - Sisendite muutmine peale allkirjastamist
+  - Kõikide sisendite ja väljundite katmine
+  - Piirata muudatusi ainult ühele väljundile
+explanation: |
+  SIGHASH_NONE katab ainult sisendid, jättes väljundid peale allkirjastamist muudetavaks.
+reviewed: false

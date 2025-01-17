@@ -1,0 +1,9 @@
+question: Mis on peamine põhjus, miks teised Beale'i šifrid on jäänud dešifreerimata?
+answer: Nende šifrite võti on endiselt teadmata
+wrong_answers:
+  - Krüpteeritud tekstid on liiga vanad
+  - Kast kaotati enne, kui seda jõuti dešifreerida
+  - Uurijatel puuduvad usaldusväärsed ajaloolised dokumendid
+explanation: |
+  Teised Beale'i šifrid ei ole kunagi dešifreeritud, kuna vajalik võti nende lugemiseks on endiselt teadmata, hoolimata arvukatest katsetest.
+reviewed: false

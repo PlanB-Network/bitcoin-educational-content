@@ -1,9 +1,8 @@
-question: Qual è il numero totale di possibilità per una chiave privata di Bitcoin?
-answer: Quasi uguale a 1,158 x 10^77
+question: Qual è il modificatore che può essere combinato con i flag di base di sighash?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Esattamente 2^256
-  - Tra 1 e n-1
-  - Circa lo stesso numero di atomi presenti nell'universo osservabile
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  Il numero totale di possibilità per una chiave privata di Bitcoin è quasi uguale a 1,158 x 10^77, che è circa lo stesso numero di atomi presenti nell'universo osservabile. Questo perché una chiave privata deve essere compresa tra 1 e n-1, dove n rappresenta l'ordine della curva ellittica.
-reviewed: false
+  SIGHASH_ANYONECANPAY modifica i flag di sighash per coprire solo un singolo input, lasciando modificabili gli altri.

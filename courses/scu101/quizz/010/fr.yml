@@ -1,9 +1,13 @@
 question: Quelle est la différence entre les VPN d'entreprise et les VPN grand public ?
-answer: Les VPN d'entreprise sont plus chers et complexes, tandis que les VPN grand public sont plus accessibles et conviviaux.
+answer: Les VPN d'entreprise sont plus coûteux et complexes, tandis que les VPN grand public sont plus accessibles et conviviaux.
 wrong_answers:
-  - Les VPN d'entreprise sont moins sécurisés que les VPN grand public.
-  - Les VPN grand public sont plus chers que les VPN d'entreprise.
-  - Les VPN d'entreprise n'encryptent pas les données, tandis que les VPN grand public le font.
+  - Les VPN d'entreprise sont généralement plus sécurisés que les VPN grand public, car ils sont toujours plus coûteux.
+  - Les VPN grand public sont toujours plus coûteux que les VPN d'entreprise en raison de l'échelle économique à laquelle ces derniers ont accès.
+  - En raison de leur public cible plus exigeant, les VPN d'entreprise chiffrent toujours les données, tandis que les VPN grand public ne le font pas.
 explanation: |
-  Les VPN d'entreprise sont conçus pour les entreprises et sont généralement plus coûteux et complexes à configurer et à gérer. En revanche, les VPN grand public sont conçus pour les utilisateurs individuels et sont généralement plus accessibles et conviviaux.
-reviewed: false
+  Les VPN d'entreprise sont conçus pour les entreprises et sont
+  généralement plus coûteux et complexes à configurer et à gérer.
+  D'autre part, les VPN grand public sont conçus pour
+  les utilisateurs individuels et sont généralement plus accessibles et
+  conviviaux.
+reviewed: true

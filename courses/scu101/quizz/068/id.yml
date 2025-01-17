@@ -1,0 +1,10 @@
+question: Apa penyebab umum dari kerentanan keamanan?
+answer: Kelalaian manusia.
+wrong_answers:
+  - Pemadaman listrik.
+  - Kecepatan internet yang lambat.
+  - Perangkat keras yang usang.
+explanation: |
+  Kerentanan keamanan sering kali merupakan hasil dari kelalaian manusia, seperti
+  menggunakan kata sandi default atau menuliskan kata sandi di tempat yang tidak aman. Serangan
+  yang canggih tidak selalu diperlukan untuk membahayakan keamanan komputer.

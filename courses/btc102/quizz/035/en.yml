@@ -1,10 +1,10 @@
-question: Who described Bitcoin as "a Swiss bank in your pocket"?
+question: Who described Bitcoin as a Swiss bank in your pocket?
 answer: Barack Obama
 wrong_answers:
   - Donald Trump
   - Bill Gates
   - Elon Musk
 explanation: |
-  The chapter mentions that Barack Obama once described Bitcoin as "a Swiss
-  bank in your pocket".
+  The chapter mentions that Barack Obama once described Bitcoin as a Swiss
+  bank in your pocket.
 reviewed: false

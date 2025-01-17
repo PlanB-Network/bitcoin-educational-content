@@ -1,0 +1,9 @@
+question: What is the main consequence of the price control policy implemented by Emperor Diocletian?
+answer: It led to shortages of goods and an increase in the black market.
+wrong_answers:
+  - It helped stabilize prices and curb inflation.
+  - It strengthened the emperor's power and increased his popularity among the people.
+  - It contributed to the increase in military resources.
+explanation: |
+  Diocletian's price control policy created economic distortions, causing shortages and encouraging the development of the black market, as the set prices did not reflect the reality of supply and demand.
+reviewed: false

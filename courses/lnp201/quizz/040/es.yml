@@ -1,9 +1,9 @@
-question: ¿Qué sucede cuando Alice intenta hacer trampa publicando una transacción de compromiso antigua?
-answer: Bob utiliza la clave de revocación para castigar a Alice y tomar todos los SAT del canal.
+question: ¿Cuál es el papel principal del nodo emisor en el enrutamiento en la Red Lightning?
+answer: Calcular la ruta completa hasta el destinatario
 wrong_answers:
-  - Alice es recompensada por su astucia.
-  - Alice y Bob dividen los SAT del canal.
-  - La transacción es rechazada y no sucede nada.
+  - Almacenar la información de liquidez de todos los canales de la red
+  - Determinar las tarifas de transacción para cada nodo intermediario
+  - Comunicarse directamente con todos los nodos intermediarios
 explanation: |
-  La Lightning Network tiene un mecanismo para prevenir el fraude. Si Alice intenta hacer trampa publicando una transacción de compromiso antigua, Bob puede utilizar la clave de revocación para castigar a Alice y tomar todos los SAT del canal.
+  El nodo emisor es responsable de calcular toda la ruta hasta el destinatario, ya que los nodos intermediarios solo conocen a su vecino inmediato.
 reviewed: false

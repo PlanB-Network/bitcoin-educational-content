@@ -1,9 +1,10 @@
-question: Bản Tuyên ngôn Cypherpunk là gì?
-answer: Một văn bản do Eric Hughes viết, khẳng định rằng quyền riêng tư là một quyền cơ bản.
+question: Cypherpunk Manifesto là gì?
+answer: Một văn bản được viết bởi Eric Hughes khẳng định rằng quyền riêng tư là một quyền cơ bản.
 wrong_answers:
-  - Một cuốn sách do Julian Assange viết về tương lai của công nghệ.
+  - Một cuốn sách được viết bởi Julian Assange về tương lai của công nghệ.
   - Một tài liệu đề cương các nguyên tắc của Bitcoin.
-  - Một bản tuyên ngôn do David Chaum viết về tầm quan trọng của tiền tệ số.
+  - Một bản tuyên ngôn được viết bởi David Chaum về tầm quan trọng của tiền tệ số.
 explanation: |
-  Bản Tuyên ngôn Cypherpunk được Eric Hughes viết vào năm 1993 và khẳng định rằng quyền riêng tư là một quyền cơ bản.
-đã được xem xét: true
+  Cypherpunk Manifesto được viết bởi Eric Hughes vào năm 1993
+  và khẳng định rằng quyền riêng tư là một quyền cơ bản.
+reviewed: true

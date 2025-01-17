@@ -1,0 +1,9 @@
+question: Hva beskrives Bitcoin som i teksten?
+answer: Et tverrfaglig objekt
+wrong_answers:
+  - Et enkelt objekt
+  - Et komplekst objekt
+  - Et enfaglig objekt
+explanation: >-
+  Bitcoin beskrives som et tverrfaglig objekt fordi det reiser spørsmål relatert til ulike felt, inkludert kryptografi, spillteori, økonomi
+  og pengepolitikk, datavitenskap, filosofi, energi, lover og regulering.

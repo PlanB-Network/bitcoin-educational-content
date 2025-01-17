@@ -1,11 +1,12 @@
-question: What is the date of the last known private exchange of Satoshi Nakamoto
+question: What is the date of the last known private message of Satoshi Nakamoto via email?
   via email?
-answer: April 23, 2011
+answer: April 23, 2011.
 wrong_answers:
-  - December 12, 2010
-  - January 8, 2009
-  - October 31, 2008
-explanation: >-
-  The date of the last known private exchange of Satoshi Nakamoto via email
-  is April 23, 2011 to the developper Mike Hearn.
+  - December 12, 2010.
+  - January 8, 2009.
+  - October 31, 2008.
+explanation: |
+  The date of the last known private message of Satoshi
+  Nakamoto via email is April 23, 2011. It was sent to the
+  developer Mike Hearn.
 reviewed: true

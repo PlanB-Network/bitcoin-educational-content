@@ -1,11 +1,8 @@
-question: O que é a Lightning Network?
-answer: Uma rede de canais de pagamento.
+question: Por que um roteador deve manter uma boa distribuição de liquidez em seus canais?
+answer: Para maximizar o número de pagamentos que pode rotear
 wrong_answers:
-  - Um tipo de criptomoeda.
-  - Uma tecnologia de blockchain.
-  - Uma carteira digital para Bitcoin.
+  - Para reduzir as taxas de transação
+  - Para evitar abrir novos canais
+  - Para limitar o uso da blockchain do Bitcoin
 explanation: |
-  A Lightning Network é uma rede de canais de pagamento. Milhares de
-  pares com seus próprios canais de liquidez estão conectados entre si, e assim se utilizam
-  para realizar transações entre pares não conectados.
-reviewed: false
+  Um roteador visa rotear o maior número possível de pagamentos para coletar taxas, o que requer uma boa distribuição de liquidez em ambos os lados dos canais para garantir a capacidade de roteamento.

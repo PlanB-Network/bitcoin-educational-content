@@ -1,9 +1,0 @@
-question: Quel format de représentation est utilisé pour un standard segwit afin d'obtenir l'adresse du portefeuille HD ?
-answer: Le format bech32
-wrong_answers:
-  - Le format base 58
-  - Le format SHA256
-  - Le format RIPMD160
-explanation: |
-  Après avoir calculé la somme de contrôle, une représentation au format base 58 est utilisée pour un standard hérité, tandis que le format bech32 est utilisé pour un standard segwit, afin d'obtenir l'adresse du portefeuille HD.
-reviewed: false

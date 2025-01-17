@@ -1,9 +1,11 @@
-question: Qual é o impacto potencial de uma proibição da mineração em uma região?
-answer: Isso pode levar a uma queda significativa na taxa de hash e no preço do Bitcoin.
+question: Qual é o impacto potencial de uma proibição de mineração em uma região?
+answer: Pode levar a uma queda significativa na taxa de hash e no preço do Bitcoin
 wrong_answers:
-  - Isso pode levar a um aumento no preço do Bitcoin.
-  - Isso pode levar a um aumento na taxa de hash da rede.
-  - Isso pode levar a um aumento no número de nós ativos na rede.
+  - Pode levar a um aumento no preço do Bitcoin
+  - Pode levar a um aumento na taxa de hash da rede
+  - Pode levar a um aumento no número de nós ativos na rede
 explanation: |
-  Uma proibição da mineração em uma região, como aconteceu na China, pode levar a uma queda significativa na taxa de hash e no preço do Bitcoin. No entanto, esses podem se recuperar rapidamente.
-reviewed: false
+  Uma proibição da mineração em uma região, como o que aconteceu na China,
+  pode levar a uma queda significativa na taxa de hash e no preço do
+  Bitcoin. No entanto, estes podem se recuperar rapidamente.
+reviewed: true

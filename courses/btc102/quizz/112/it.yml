@@ -1,9 +1,9 @@
-question: Qual è lo scopo di un portafoglio "freddo" in Bitcoin?
+question: Qual è lo scopo di un portafoglio freddo in Bitcoin?
 answer: Per conservare in modo sicuro i Bitcoin.
 wrong_answers:
   - Per estrarre nuovi Bitcoin.
   - Per scambiare Bitcoin.
   - Per convertire Bitcoin in altre criptovalute.
 explanation: |
-  Un portafoglio "freddo", noto anche come portafoglio hardware, è un dispositivo progettato per conservare in modo sicuro i Bitcoin. Non viene utilizzato per estrarre nuovi Bitcoin, scambiare Bitcoin o convertire Bitcoin in altre criptovalute.
+  Un portafoglio freddo, noto anche come portafoglio hardware, è un dispositivo progettato per conservare in modo sicuro i Bitcoin. Non viene utilizzato per estrarre nuovi Bitcoin, scambiare Bitcoin o convertire Bitcoin in altre criptovalute.
 reviewed: false

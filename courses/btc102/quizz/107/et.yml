@@ -1,0 +1,9 @@
+question: Mida peaksite tegema pärast kirja kirjutamist vastavalt peatükile?
+answer: Üle vaadake oma töö, tehke kirjast koopia, hoidke mõlemat koopiat ümbrikus, sulgege see, allkirjastage sulgemiskoht ja hoidke seda ümbrikut turvalises, kuid kättesaadavas kohas.
+wrong_answers:
+  - Ignoreerige oma tööd, tehke kirjast koopia, hoidke mõlemat koopiat ümbrikus, sulgege see, allkirjastage sulgemiskoht ja hoidke seda ümbrikut ohtlikus, kuid kättesaamatus kohas.
+  - Üle vaadake oma töö, tehke kirjast koopia, hoidke mõlemat koopiat ümbrikus, avage see, allkirjastage sulgemiskoht ja hoidke seda ümbrikut turvalises, kuid kättesaadavas kohas.
+  - Ignoreerige oma tööd, tehke kirjast koopia, hoidke mõlemat koopiat ümbrikus, avage see, allkirjastage sulgemiskoht ja hoidke seda ümbrikut ohtlikus, kuid kättesaamatus kohas.
+explanation: |
+  Pärast kirja kirjutamist peaksite oma töö üle vaatama, tegema kirjast koopia, hoidma mõlemat koopiat ümbrikus, selle sulgema, sulgemiskoha allkirjastama ja hoidma seda ümbrikut turvalises, kuid kättesaadavas kohas, nagu peatükis soovitatud.
+reviewed: false

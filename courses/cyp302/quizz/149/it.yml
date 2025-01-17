@@ -1,0 +1,9 @@
+question: Qual è la definizione di un intero coprimo rispetto a un altro intero?
+answer: Un intero che ha un massimo comune divisore di 1 con quell'altro intero
+wrong_answers:
+  - Un intero che è divisibile per l'altro intero senza resto
+  - Un intero che è primo
+  - Un intero che è maggiore dell'altro
+explanation: |
+  Un intero è coprimo con un altro se il loro massimo comune divisore è 1, il che significa che non condividono nessun altro fattore comune.
+reviewed: false

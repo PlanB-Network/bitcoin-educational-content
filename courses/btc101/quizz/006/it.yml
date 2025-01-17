@@ -1,9 +1,14 @@
-question: Qual è l'obiettivo principale nell'imparare ad usare Bitcoin?
-answer: Essere in controllo dei propri soldi.
+question: Qual è il principale vantaggio nell'imparare ad usare Bitcoin?
+answer: Capire come avere il controllo del proprio denaro.
 wrong_answers:
-  - Diventare un minatore di Bitcoin.
-  - Creare un nuovo protocollo Bitcoin.
-  - Regolare il prezzo di Bitcoin.
+  - Studiare come dibattere con gli economisti.
+  - Creare un nuovo protocollo crypto.
+  - Regolare il prezzo del Bitcoin.
 explanation: |
-  Imparare ad usare Bitcoin è una competenza essenziale per chiunque voglia essere in controllo dei propri soldi. Ti permette di comprare e vendere beni e servizi, conservare in modo sicuro i tuoi soldi in portafogli digitali e utilizzarli per transazioni senza bisogno di terze parti.
-reviewed: false
+  Imparare ad usare Bitcoin è essenziale per chiunque voglia
+  avere il controllo del proprio denaro. Infatti, Bitcoin
+  permette agli individui di comprare/vendere beni e servizi
+  creando transazioni senza la necessità di un intermediario.
+  Inoltre, offre la possibilità di conservare denaro in modo sicuro
+  in portafogli digitali non custoditi.
+reviewed: true

@@ -1,10 +1,9 @@
-question: Kích thước khối được sử dụng trong HMAC-SHA-512 là bao nhiêu?
-answer: Khối 1024-bit (128-byte)
+question: Sự khác biệt giữa khóa công khai nén và không nén là gì?
+answer: Khóa công khai nén chỉ sử dụng tọa độ x và tính chẵn lẻ của y
 wrong_answers:
-  - Khối 512-bit (64-byte)
-  - Khối 256-bit (32-byte)
-  - Khối 2048-bit (256-byte)
+  - Khóa công khai nén an toàn hơn
+  - Khóa công khai nén chỉ sử dụng tọa độ y và tính chẵn lẻ của x
+  - Khóa công khai nén yêu cầu khóa riêng tư lớn hơn
 explanation: |
-  Trong bối cảnh của việc phát sinh ví HD, HMAC-SHA-512 được sử dụng. Phương pháp này
-  hoạt động với khối 1024-bit (128-byte) và điều chỉnh khóa một cách phù hợp.
+  Khóa công khai nén chỉ giữ lại tọa độ x và một bit cho tính chẵn lẻ của y, do đó giảm kích thước của nó xuống còn 33 byte.
 reviewed: false

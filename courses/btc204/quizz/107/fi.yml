@@ -1,0 +1,11 @@
+question: Miten payjoin-siirtoa voidaan pitää steganografisena siirtona?
+
+answer: Se piilottaa todellisen maksusumman ulkopuolisilta tarkkailijoilta.
+
+wrong_answers:
+  - Se salaa todellisen maksusumman ulkopuolisille tarkkailijoille.
+  - Se piilottaa todellisen maksusumman vastaanottajalta.
+  - Se salaa todellisen maksusumman vastaanottajalle.
+
+explanation: |
+  Payjoin-siirto kuuluu steganografian alueeseen, koska se piilottaa todellisen siirtosumman väärennetyn siirron sisään, joka toimii harhautuksena ulkopuolisille tarkkailijoille.

@@ -1,9 +1,11 @@
-question: ¿Cómo se llama el evento cuando la recompensa por la minería se reduce a la mitad?
+question: ¿Cuál es el nombre del evento en el que la recompensa por minar se reduce a la mitad?
 answer: Halving
 wrong_answers:
   - Duplicación
-  - Cuartear
+  - Cuarteo
   - Triplicación
 explanation: |
-  El evento cuando la recompensa por la minería se reduce a la mitad se llama halving. Este evento le da a la curva de emisión monetaria una forma escalonada.
-reviewed: false
+  El evento en el que la recompensa por minar se reduce a la mitad se llama
+  halving. Este evento le da a la curva de emisión monetaria una
+  forma de escalera.
+reviewed: true

@@ -5,5 +5,6 @@ wrong_answers:
   - Aby se zvýšila kapacita úložiště.
   - Aby se zlepšilo uživatelské rozhraní.
 explanation: |
-  Silné heslo je klíčové pro počítačovou bezpečnost, aby se zabránilo neoprávněnému přístupu do systému.
-reviewed: false
+  Silné heslo je klíčové pro počítačovou bezpečnost, aby
+  se zabránilo neoprávněnému přístupu do systému.
+reviewed: true

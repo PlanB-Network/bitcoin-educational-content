@@ -1,9 +1,9 @@
 question: Was ist die Bitcoin-Blockchain?
-answer: Eine öffentliche und unveränderliche Aufzeichnung aller Bitcoin-Transaktionen.
+answer: Ein öffentliches und unveränderliches Verzeichnis aller Bitcoin-Transaktionen.
 wrong_answers:
-  - Eine private und veränderliche Aufzeichnung aller Bitcoin-Transaktionen.
-  - Eine öffentliche und veränderliche Aufzeichnung aller Bitcoin-Transaktionen.
-  - Eine private und unveränderliche Aufzeichnung aller Bitcoin-Transaktionen.
-explanation: |
-  Die Bitcoin-Blockchain ist eine öffentliche und unveränderliche Aufzeichnung aller Bitcoin-Transaktionen. Es handelt sich um ein gemeinsames Hauptbuch für alle Bitcoin-Benutzer.
-reviewed: false
+  - Ein privates und veränderliches Verzeichnis aller Bitcoin-Transaktionen.
+  - Ein öffentliches und veränderliches Verzeichnis aller Bitcoin-Transaktionen.
+  - Ein privates und unveränderliches Verzeichnis aller Bitcoin-Transaktionen.
+explanation: >-
+  Die Bitcoin-Blockchain ist ein öffentliches und unveränderliches Verzeichnis aller Bitcoin-Transaktionen. Es handelt sich um ein gemeinsames Verzeichnis für alle Bitcoin-Nutzer.
+reviewed: true

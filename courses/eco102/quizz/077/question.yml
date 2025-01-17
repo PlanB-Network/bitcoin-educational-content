@@ -1,0 +1,19 @@
+id: 5b576f77-cf8b-4f61-8b36-06e222dcf29e
+chapterId: 78baa7ef-2c80-5fc7-8881-c1be4662b96f
+difficulty: hard
+duration: 15
+author: rebel-space
+tags:
+  - philosophy
+  - social studies
+  - finance
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-10-31
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

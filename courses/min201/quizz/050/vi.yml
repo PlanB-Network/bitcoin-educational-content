@@ -1,9 +1,11 @@
 question: Thách thức chính liên quan đến việc đào Bitcoin là gì?
-answer: Ngành công nghiệp đào mỏ cực kỳ cạnh tranh và không ổn định, và các sự cố không lường trước được có thể làm gián đoạn hoạt động đào mỏ.
+answer: Ngành công nghiệp đào mỏ cực kỳ cạnh tranh và không ổn định, và những sự cố không lường trước được có thể làm gián đoạn hoạt động đào mỏ.
 wrong_answers:
   - Thách thức chính là tìm nguồn điện đáng tin cậy.
-  - Thách thức chính là tìm nơi an toàn để lưu trữ bitcoin đã đào.
-  - Thách thức chính là tìm người mua cho bitcoin đã đào.
+  - Thách thức chính là tìm một nơi an toàn để lưu trữ Bitcoin đã đào.
+  - Thách thức chính là tìm người mua cho Bitcoin đã đào.
 explanation: |
-  Thách thức chính liên quan đến việc đào Bitcoin là ngành công nghiệp đào mỏ cực kỳ cạnh tranh và không ổn định, và các sự cố không lường trước được có thể làm gián đoạn hoạt động đào mỏ.
-reviewed: false
+  Thách thức chính liên quan đến việc đào Bitcoin là
+  ngành công nghiệp đào mỏ cực kỳ cạnh tranh và không ổn định,
+  và những sự cố không lường trước được có thể làm gián đoạn hoạt động đào mỏ.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Quel est le rythme du réseau Bitcoin ?
-answer: 10 minutes par bloc
+question: Quelle a été la disponibilité en ligne de Bitcoin depuis 2009 ?
+answer: 99,988 %.
 wrong_answers:
-  - 10 secondes par bloc
-  - 10 minutes par transaction
-  - 10 secondes par transaction
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Le rythme du réseau Bitcoin est de 10 minutes par bloc. C'est comme le battement de cœur du système monétaire Bitcoin.
-reviewed: false
+  La disponibilité en ligne de Bitcoin est de 99,988 % depuis 2009.
+reviewed: true

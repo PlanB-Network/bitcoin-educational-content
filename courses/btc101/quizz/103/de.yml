@@ -1,9 +1,12 @@
-question: Was ist der Zweck der Erstellung eines Vererbungsplans für Ihre Bitcoins?
+question: Was ist der Zweck der Erstellung eines Erbschaftsplans für Ihre Bitcoins?
 answer: Um sicherzustellen, dass Ihre Bitcoins nach Ihrem Tod ordnungsgemäß verwaltet werden.
 wrong_answers:
-  - Um Steuern auf Ihre Bitcoins zu vermeiden
-  - Um den Wert Ihrer Bitcoins zu erhöhen
-  - Um zu verhindern, dass Ihre Bitcoins gestohlen werden
+  - Um Steuern auf Ihre Bitcoins zu vermeiden.
+  - Um den Wert Ihrer Bitcoins zu verringern.
+  - Um zu verhindern, dass Ihre Bitcoins gestohlen werden.
 explanation: |
-  Ein Vererbungsplan stellt sicher, dass Ihre Bitcoins nach Ihrem Tod ordnungsgemäß verwaltet werden. Er kann einen handschriftlichen Brief enthalten, in dem Ihre Vermögenswerte, ihre Zugriffsmethoden und die Kontaktdaten vertrauenswürdiger Personen aufgeführt sind, die kontaktiert werden sollen.
-reviewed: false
+  Ein Erbschaftsplan stellt sicher, dass Ihre Bitcoins
+  nach Ihrem Tod ordnungsgemäß verwaltet werden. Er kann ein
+  handschriftlicher Brief enthalten, der Ihre Vermögenswerte, deren Zugangsmethoden und die Kontaktdaten von vertrauenswürdigen Personen
+  auflistet, die kontaktiert werden sollen.
+reviewed: true

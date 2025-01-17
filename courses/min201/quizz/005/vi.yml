@@ -1,13 +1,14 @@
 question: Thách thức chính đối với các chuyên gia trong ngành công nghiệp đào Bitcoin là gì?
-answer: Dự đoán sự giảm dần của hiệu quả lợi ích trong tương lai và điều chỉnh chiến lược của họ cho phù hợp
+answer: Dự đoán sự giảm sút về hiệu quả trong tương lai và điều chỉnh chiến lược của họ cho phù hợp
 wrong_answers:
   - Tìm kiếm nguồn điện giá rẻ
   - Tìm kiếm địa điểm phù hợp cho hoạt động đào
   - Tìm kiếm nhà đầu tư sẵn lòng tài trợ cho hoạt động của họ
 explanation: |
-  Đối mặt với sự tiến bộ công nghệ liên tục trong lĩnh vực đào,
-  các chuyên gia
-  phải định vị chiến lược của mình một cách khôn ngoan. Ngành công nghiệp đào chịu sự đổi mới
-  liên tục, và các bên trong ngành phải dự đoán sự giảm dần của hiệu quả lợi ích trong
-  tương lai và điều chỉnh chiến lược của họ cho phù hợp.
-reviewed: false
+  Đối mặt với sự tiến bộ công nghệ liên tục trong
+  lĩnh vực đào, các chuyên gia phải định vị chiến lược
+  của mình một cách khôn ngoan. Ngành công nghiệp đào
+  chịu sự đổi mới không ngừng, và các bên trong ngành
+  phải dự đoán sự giảm sút về hiệu quả trong tương lai
+  và điều chỉnh chiến lược của họ cho phù hợp.
+reviewed: true

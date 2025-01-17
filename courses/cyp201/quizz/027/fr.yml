@@ -1,9 +1,9 @@
-question: Que stocke un portefeuille Bitcoin ?
-answer: Les clés privées nécessaires pour prouver la propriété des bitcoins
+question: Quelle vulnérabilité des signatures ECDSA a été corrigée par SegWit ?
+answer: La malléabilité
 wrong_answers:
-  - Les bitcoins eux-mêmes
-  - Les clés publiques nécessaires pour prouver la propriété des bitcoins
-  - L'historique des transactions des bitcoins
+  - La vérification par lot
+  - Le manque d'agrégation
+  - La taille excessive des signatures
 explanation: |
-  En réalité, un portefeuille Bitcoin stocke les clés privées nécessaires pour prouver la propriété des bitcoins. Les bitcoins eux-mêmes sont enregistrés sur la blockchain, une base de données décentralisée qui archive toutes les transactions.
+  SegWit a corrigé la malléabilité des signatures ECDSA, permettant des usages comme le Lightning Network.
 reviewed: false

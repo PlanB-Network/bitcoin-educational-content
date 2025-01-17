@@ -1,0 +1,12 @@
+question: Hva står 2FA for?
+answer: To-Faktor Autentisering
+wrong_answers:
+  - To-Faktor Autorisasjon
+  - To-Funksjon Autentisering
+  - To-Egenskap Autentisering
+explanation: |
+  2FA står for To-Faktor Autentisering. Det gir et ekstra
+
+  lag
+
+  med sikkerhet til dine mest sensitive kontoer.

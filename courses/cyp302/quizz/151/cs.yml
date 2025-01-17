@@ -1,0 +1,9 @@
+question: Jak je exponent e vybrán v kryptosystému RSA?
+answer: Musí to být celé číslo větší než 2, nesoudělné s φ(N)
+wrong_answers:
+  - Musí to být prvočíslo menší než N
+  - Je vybráno náhodně bez omezení
+  - Musí být rovno φ(N)
+explanation: |
+  V RSA je exponent e vybrán tak, aby byl větší než 2 a nesoudělný s φ(N), což zajišťuje bezpečnost operací.
+reviewed: false

@@ -1,11 +1,8 @@
-question: Qual é o objetivo dos bits de preenchimento na fase de pré-processamento do SHA256?
-answer: Para fazer com que o tamanho da entrada alcance um múltiplo perfeito de 512 bits
+question: Qual é a construção usada pelo SHA256 para processar mensagens de comprimento arbitrário?
+answer: A construção de Merkle-Damgård
 wrong_answers:
-  - Para aumentar o tamanho da entrada para 256 bits
-  - Para adicionar complexidade à entrada
-  - Para reduzir o tamanho da entrada para 512 bits
+  - A construção Euclidiana
+  - A construção de Rivest-Shamir-Adleman
+  - A construção de Knuth-Morris-Pratt
 explanation: |
-  Na fase de pré-processamento do SHA256, bits de preenchimento são adicionados à entrada
-  para fazer com que seu tamanho alcance um múltiplo perfeito de 512 bits. Isso é feito para garantir que
-  todos os ingredientes se misturem perfeitamente na receita criptográfica.
-reviewed: false
+  A construção de Merkle-Damgård permite transformar uma função de compressão em uma função hash para mensagens de comprimento variável.

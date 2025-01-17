@@ -1,0 +1,9 @@
+question: Lý do chính khiến các mật mã Beale khác vẫn chưa được giải mã là gì?
+answer: Khóa để giải các mật mã này vẫn chưa được biết
+wrong_answers:
+  - Các văn bản mã hóa quá cũ
+  - Hộp đã bị mất trước khi nó có thể được giải mã
+  - Các nhà nghiên cứu thiếu tài liệu lịch sử đáng tin cậy
+explanation: |
+  Các mật mã Beale khác chưa bao giờ được giải mã vì khóa cần thiết để đọc chúng vẫn chưa được biết, mặc dù đã có nhiều nỗ lực.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Avec combien de SAT Alice commence-t-elle dans l'exemple ?
-answer: 130 000 SAT.
+question: Dans quelle situation utilise-t-on la fermeture forcée d'un canal ?
+answer: Lorsque l'une des parties ne répond plus
 wrong_answers:
-  - 100 000 SAT.
-  - 90 000 SAT.
-  - 0 SAT.
+  - Lorsqu'il faut augmenter la capacité du canal
+  - Quand le timelock est insuffisant
+  - Lorsque les frais de transaction sont trop élevés
 explanation: |
-  Dans l'exemple, Alice ouvre un canal avec Bob avec 130 000 SAT de son côté.
+  La fermeture forcée est utilisée en dernier recours si l'une des parties, par exemple à cause d'un problème technique, ne répond plus aux messages de l'autre.
 reviewed: false

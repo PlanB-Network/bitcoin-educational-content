@@ -1,0 +1,11 @@
+question: Bagaimana entropi dihitung dalam konteks analisis rantai pada Bitcoin?
+
+answer: Dengan mengambil logaritma biner dari jumlah interpretasi.
+
+wrong_answers:
+  - Dengan mengalikan jumlah input dengan jumlah output.
+  - Dengan menambahkan jumlah input dan output.
+  - Dengan mengambil logaritma biner dari jumlah input dan output.
+
+explanation: |
+  Entropi didefinisikan sebagai logaritma biner dari jumlah kombinasi yang mungkin.

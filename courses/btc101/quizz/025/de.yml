@@ -1,9 +1,12 @@
-question: Was ist der Hauptvorteil von Bitcoin gegenüber anderen Formen von Währung?
-answer: Es bietet einen ausgezeichneten Wertspeicher aufgrund seines streng begrenzten Angebots und seiner Neutralität.
+question: Was ist der Hauptvorteil von Bitcoin gegenüber anderen Währungsformen?
+answer: Es bietet eine ausgezeichnete Wertaufbewahrung aufgrund seines streng begrenzten Angebots und seiner Neutralität.
 wrong_answers:
-  - Es ist unteilbar und transportabel.
-  - Es unterliegt keiner monetären Inflation.
-  - Es wird im Handel weitgehend akzeptiert.
+  - Es ist unteilbar und nicht transportierbar.
+  - Es ist ein großartiges Beispiel für eine Währung, die unter monetärer Inflation leidet.
+  - Es wird weltweit im Handel von allen Händlern akzeptiert.
 explanation: |
-  Der Hauptvorteil von Bitcoin gegenüber anderen Formen von Währung besteht darin, dass es einen ausgezeichneten Wertspeicher bietet, aufgrund seines streng begrenzten Angebots und des Fehlens einer vertrauenswürdigen Partei. Dies macht es zu einer guten Wahl für langfristige Ersparnisse.
-reviewed: false
+  Der Hauptvorteil von Bitcoin gegenüber anderen Währungsformen
+  ist, dass es eine ausgezeichnete Wertaufbewahrung bietet aufgrund
+  seines streng begrenzten Angebots und seines Fehlens einer vertrauenswürdigen Partei. Dies
+  macht es zu einer guten Wahl für langfristige Ersparnisse.
+reviewed: true

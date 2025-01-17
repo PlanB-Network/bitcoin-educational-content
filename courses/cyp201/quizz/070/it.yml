@@ -1,9 +1,9 @@
-question: Qual è lo scopo dell'entropia nella generazione di una frase mnemonica per un portafoglio Bitcoin?
-answer: È il fondamento della sicurezza del portafoglio HD.
+question: Cosa rappresenta la profondità 0 nella gerarchia dei portafogli HD?
+answer: La chiave principale e il codice catena principale
 wrong_answers:
-  - Determina il numero di parole nella frase di recupero.
-  - Crittografa la frase di recupero per una maggiore sicurezza.
-  - Verifica l'accuratezza della frase di recupero.
+  - La catena esterna di indirizzi
+  - L'account predefinito
+  - Il tipo di valuta
 explanation: |
-  L'entropia è il fondamento della sicurezza del portafoglio HD. È fondamentale che questa entropia sia casuale o pseudo-casuale per garantire la sicurezza del portafoglio.
-reviewed: false
+  La profondità 0 corrisponde alla chiave principale e al codice catena principale, che sono i punti di partenza per tutte le derivazioni in un portafoglio HD.
+recensito: false

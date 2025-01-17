@@ -1,0 +1,11 @@
+question: Hva er hyperinflasjon?
+answer: En drastisk økning i pengeforsyningen
+wrong_answers:
+  - En subtil økning i pengeforsyningen
+  - En drastisk nedgang i pengeforsyningen
+  - En subtil nedgang i pengeforsyningen
+explanation: |
+  Hyperinflasjon er et monetært fenomen,
+  det kjennetegnes ved en drastisk økning i inflasjonen gjennom pengetrykking av myndighetene,
+  som fører til et totalt tap av tillit til en valuta
+reviewed: true

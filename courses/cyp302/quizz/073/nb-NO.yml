@@ -1,0 +1,8 @@
+question: Hvordan kan en nøkkel defineres i forskyvningskryptering?
+answer: Et tall fra 0 til 25
+wrong_answers:
+  - Et tilfeldig ord
+  - Et hvilket som helst tilfeldig tall uten begrensninger
+  - Et tall fra 1 til 26
+explanation: |
+  I forskyvningskryptering er nøkkelen et tall mellom 0 og 25, som tilsvarer antall forskyvningsposisjoner som anvendes på hver bokstav i meldingen i et 26-bokstavers alfabet.

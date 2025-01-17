@@ -1,5 +1,5 @@
 ---
-name: Samouraï
+name: Samourai
 
 description: Získejte zpět své soukromí s Samourai
 ---

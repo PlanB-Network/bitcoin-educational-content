@@ -1,0 +1,10 @@
+question: Hva er betydningen av Bitcoins knapphet?
+answer: Det vil bare finnes 21 millioner bitcoins i verden, og aldri mer
+wrong_answers:
+  - Verdien av Bitcoin vil alltid øke
+  - Bitcoin er vanskelig å utvinne
+  - Bitcoin-transaksjoner er begrenset i antall
+explanation: |
+  Bitcoins knapphet refererer til det faktum at det bare noensinne vil finnes 21
+  millioner bitcoins. Denne egenskapen, lik gull, forhindrer utvanning av
+  Bitcoins verdi gjennom overdreven pengetrykking.

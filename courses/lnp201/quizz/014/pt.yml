@@ -1,9 +1,9 @@
-question: Qual é o objetivo da transação de saque no processo de abertura de um canal na Lightning Network?
-answer: Isso permite que Alice recupere seus fundos caso algo dê errado.
+question: Qual é o último passo para abrir um canal na Lightning Network?
+answer: Publicar a transação de depósito na blockchain do Bitcoin
 wrong_answers:
-  - Isso permite que Bob reivindique sua parte dos fundos.
-  - É usado para finalizar o processo de abertura do canal.
-  - É usado para transferir fundos de Alice para Bob.
+  - Assinar uma transação de retirada para recuperar os fundos
+  - Enviar uma mensagem de confirmação da abertura para a outra parte
+  - Verificar o saldo de fundos de cada participante
 explanation: |
-  A transação de saque é criada por Alice antes de publicar o depósito de fundos no multi-sig. Essa transação permite que Alice gaste os fundos do endereço multi-sig para um endereço dela. Isso é feito para garantir que ela possa recuperar seus fundos caso algo dê errado.
+  O último passo para abrir um canal é publicar a transação de depósito na blockchain, o que oficialmente abre o canal.
 reviewed: false

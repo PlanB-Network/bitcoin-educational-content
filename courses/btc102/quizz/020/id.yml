@@ -1,0 +1,10 @@
+question: Apa aturan emas dalam berinvestasi?
+answer: Jangan pernah berinvestasi lebih dari yang Anda mampu untuk kehilangan.
+wrong_answers:
+  - Selalu berinvestasi pada apa yang sedang tren.
+  - Selalu berinvestasi dengan uang pinjaman.
+  - Selalu berinvestasi pada apa yang Anda tidak mengerti.
+explanation: |
+  Aturan emas dalam berinvestasi adalah untuk tidak pernah berinvestasi lebih dari yang Anda mampu untuk kehilangan. Ini karena berinvestasi selalu membawa tingkat risiko tertentu, dan Anda
+  seharusnya hanya berinvestasi dengan uang yang Anda mampu untuk kehilangan tanpa itu mempengaruhi stabilitas keuangan Anda.
+reviewed: false

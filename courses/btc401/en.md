@@ -2429,7 +2429,7 @@ Satoshi's Fellowship's group presents a LN gaming app using LnBits and MongoDB, 
 
 Lightning Walker's group presents their solution for Remittances Service using MySQL, JavaScript and ZDB's API.
 
-## Evaluate the course
+## Reviews & Ratings
 
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -2437,18 +2437,4 @@ Lightning Walker's group presents their solution for Remittances Service using M
 ## Acknowledgments
 
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-We'd like to acknowledge the contributions of our educators:
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- Asi0
-- Gabriel Comte
-
-Their expertise has been invaluable to the success of this course. This has been the first course based on the 1st edition of the Cubo+ initiative, conducted in July 2023. Thank you to all participants and educators for being a part of this pioneering educational journey. It marks the beginning of what we hope will be a long and fruitful journey into the world of Bitcoin development. As the first cohort, your participation has set the standard for future classes.
-
-Continue to explore, learn, and contribute to the Bitcoin ecosystem. The knowledge gained here is just a starting point. Keep digging the rabbit hole, and you'll discover an ever-expanding world of opportunities.
-
+<isCourseConclusion>true</isCourseConclusion>

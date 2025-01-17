@@ -1,9 +1,13 @@
-question: Was ist das Hauptziel, Bitcoin zu lernen?
-answer: Die Kontrolle über das eigene Geld haben.
+question: Was ist der Hauptvorteil davon, zu lernen, wie man Bitcoin benutzt?
+answer: Zu verstehen, wie man die Kontrolle über sein eigenes Geld behält.
 wrong_answers:
-  - Ein Bitcoin-Miner werden.
-  - Ein neues Bitcoin-Protokoll erstellen.
-  - Den Preis von Bitcoin regulieren.
+  - Zu lernen, wie man mit Ökonomen debattiert.
+  - Ein neues Krypto-Protokoll zu erstellen.
+  - Den Preis von Bitcoin zu regulieren.
 explanation: |
-  Das Erlernen der Nutzung von Bitcoin ist eine wesentliche Fähigkeit für jeden, der die Kontrolle über sein eigenes Geld haben möchte. Es ermöglicht Ihnen, Waren und Dienstleistungen zu kaufen und zu verkaufen, Ihr Geld sicher in digitalen Geldbörsen zu speichern und es für Transaktionen ohne die Notwendigkeit von Dritten zu verwenden.
-reviewed: false
+  Das Erlernen der Nutzung von Bitcoin ist essentiell für jeden,
+  der die Kontrolle über sein eigenes Geld behalten möchte. Tatsächlich
+  ermöglicht Bitcoin es Einzelpersonen, Waren und Dienstleistungen zu kaufen/verkaufen, indem
+  Transaktionen ohne die Notwendigkeit einer dritten Partei erstellt werden.
+  Außerdem bietet es die Möglichkeit, Geld sicher in nicht-verwahrten digitalen Wallets zu speichern.
+reviewed: true

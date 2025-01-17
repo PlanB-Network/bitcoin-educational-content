@@ -1,9 +1,10 @@
-question: O que é uma das coisas que você deve ter antes de comprar Bitcoin?
+question: Qual é uma das coisas que você deve ter antes de comprar Bitcoin?
 answer: Uma carteira segura.
 wrong_answers:
   - Um cofre físico.
   - Uma conta bancária.
   - Um cartão de crédito.
 explanation: |
-  O texto menciona que antes de comprar Bitcoin, você deve ter uma carteira segura. É nela que você irá armazenar seu Bitcoin.
-reviewed: false
+  O texto do curso menciona que, antes de comprar Bitcoin, você
+  deve ter uma carteira segura onde guardará suas chaves.
+reviewed: true

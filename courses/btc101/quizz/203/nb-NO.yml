@@ -1,0 +1,12 @@
+question: Hva bør du gjøre etter å ha kjøpt Bitcoin på en handelsplattform?
+answer: Ta ut Bitcoin til lommeboken din.
+wrong_answers:
+  - La det være på plattformen.
+  - Selg det umiddelbart.
+  - Overfør det til en annen plattform.
+explanation: >-
+  Teksten råder om at etter å ha kjøpt Bitcoin, er det tilrådelig å
+  umiddelbart
+  ta ut Bitcoinene fra handelsplattformene for å minimere risikoen for hacking
+  og blokkering av midler.
+reviewed: false

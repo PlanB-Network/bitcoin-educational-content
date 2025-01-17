@@ -1,0 +1,10 @@
+question: Hva er formålet med nettstedet Have I Been Pwned?
+answer: Å sjekke om din e-postadresse har blitt kompromittert og for å bli varslet om fremtidige datainnbrudd.
+wrong_answers:
+  - Å sjekke om din e-postadresse er gyldig.
+  - Å sjekke om din e-postadresse er tilgjengelig.
+  - Å sjekke om din e-postadresse har blitt blokkert.
+explanation: |
+  Nettstedet Have I Been Pwned lar deg sjekke om din e-postadresse
+
+  har blitt kompromittert i et datainnbrudd og for å bli varslet om fremtidige datainnbrudd.

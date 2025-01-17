@@ -1,10 +1,10 @@
-question: Jaký je jeden z důvodů, proč může cena Bitcoinu klesnout o 10-20 nebo dokonce 50% během několika dnů?
-answer: Tržní variace a fáze býčího a medvědího trhu.
+question: Jaký je jeden z důvodů, proč může cena Bitcoinu klesnout o 10 %, 20 % nebo dokonce 50 % během několika dní?
+answer: Býčí a medvědí fáze trhu.
 wrong_answers:
   - Počet lidí používajících internet.
   - Počasí.
   - Cena zlata.
 explanation: >-
   Cena Bitcoinu je často charakterizována významnou volatilitou,
-  která může být ovlivněna tržními variacemi a fázemi býčího a medvědího trhu.
-reviewed: false
+  která může být ovlivněna tržními variacemi a býčími a medvědími fázemi trhu.
+reviewed: true

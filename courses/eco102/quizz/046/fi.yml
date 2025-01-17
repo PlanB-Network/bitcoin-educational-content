@@ -1,0 +1,9 @@
+question: Mikä on Bastiat'n pääargumentti ilmaisen luoton idean vastustamiseksi?
+answer: Kaikki muut vastaukset
+wrong_answers:
+  - Se suosii pankkien rikastumista yksilöiden kustannuksella
+  - Se kannustaa vastuuttomaan käyttäytymiseen ja liialliseen riskinottoon
+  - Se ei mahdollista kestävää ostovoiman kasvua
+explanation: |
+  Bastiat torjuu ilmaisen luoton idean korostamalla, että se johtaa vastuuttomaan taloudelliseen käyttäytymiseen, lisääntyneisiin riskeihin ja kyvyttömyyteen kasvattaa ostovoimaa kestävästi.
+reviewed: false

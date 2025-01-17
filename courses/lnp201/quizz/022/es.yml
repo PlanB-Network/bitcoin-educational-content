@@ -1,9 +1,8 @@
-question: ¿Qué hace Alice con el UTXO de 0.0007 BTC cuando abre un canal con Bob?
-answer: Ella lo envía a una de sus direcciones de cambio.
+question: ¿Qué permite hacer la clave de revocación en caso de trampa?
+answer: Recuperar todos los fondos castigando al tramposo
 wrong_answers:
-  - Ella lo envía a la dirección pública de Bob.
-  - Ella lo envía a la dirección multi-sig 2/2.
-  - Ella lo mantiene en su propia dirección.
+  - Cancelar la transacción de compromiso
+  - Duplicar la capacidad del canal
+  - Prevenir cualquier transacción futura en el canal
 explanation: |
-  Cuando Alice abre un canal con Bob, crea una transacción con 2 UTXOs como salida. Un UTXO de 0.0013 BTC va a la dirección multi-sig 2/2, y el otro UTXO de 0.0007 BTC va a una de sus direcciones de cambio.
-reviewed: false
+  La clave de revocación permite a la parte agraviada recuperar todos los fondos en el evento de un intento de trampa por la otra parte.

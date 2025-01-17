@@ -1,0 +1,13 @@
+question: Retrospective anonset đo lường điều gì?
+
+answer: Sức đề kháng của quyền riêng tư đối với phân tích từ hiện tại về quá khứ.
+
+wrong_answers:
+  - Sức đề kháng của quyền riêng tư đối với phân tích từ quá khứ đến tương lai.
+  - Sức đề kháng của quyền riêng tư đối với phân tích từ hiện tại đến tương lai.
+  - Sức đề kháng của quyền riêng tư đối với phân tích từ quá khứ đến hiện tại.
+
+explanation: |
+  Retrospective anonset đo lường sức đề kháng của quyền riêng tư của một đồng tiền đối với phân tích từ hiện tại về quá khứ (từ đầu ra đến đầu vào).
+
+reviewed: false

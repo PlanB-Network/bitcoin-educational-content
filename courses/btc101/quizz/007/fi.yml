@@ -5,7 +5,8 @@ wrong_answers:
   - Bitcoinin ekologinen vaikutus.
   - Bitcoinin sääntelyyn liittyvät näkökohdat.
 explanation: |
-  Tämä Bitcoin-kurssi keskittyy Bitcoinin rahallisiin näkökohtiin, mukaan lukien
-  miten ostaa ja myydä bitcoineja, säilyttää niitä turvallisesti digitaalisissa lompakoissa ja käyttää niitä
+  Tämä Bitcoin-kurssi keskittyy Bitcoinin rahallisiin näkökohtiin,
+  mukaan lukien miten ostaa ja myydä bitcoineja, turvallisesti
+  säilyttää niitä digitaalisissa lompakoissa ja käyttää niitä
   transaktioissa.
-reviewed: false
+reviewed: true

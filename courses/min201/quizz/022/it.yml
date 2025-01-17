@@ -1,9 +1,11 @@
-question: Su cosa si baseranno i minatori per la compensazione una volta che saranno stati creati tutti i 21 milioni di bitcoin?
-answer: I minatori si baseranno esclusivamente sulle commissioni di transazione per la compensazione.
+question: Su cosa si baseranno i minatori per ottenere compensi dopo che tutti i 21 milioni di bitcoin saranno stati creati?
+answer: I minatori si baseranno esclusivamente sulle commissioni sulle transazioni per ottenere compensi.
 wrong_answers:
-  - I minatori si baseranno esclusivamente sulle ricompense per i blocchi per la compensazione.
-  - I minatori si baseranno esclusivamente sulle conferme di transazione per la compensazione.
-  - I minatori si baseranno esclusivamente sulle commissioni di rete per la compensazione.
+  - I minatori si baseranno esclusivamente sui premi per blocco per ottenere compensi.
+  - I minatori si baseranno esclusivamente sulle conferme delle transazioni per ottenere compensi.
+  - I minatori si baseranno esclusivamente sulle commissioni di rete per ottenere compensi.
 explanation: |
-  Entro il 2140, non saranno creati nuovi bitcoin. A questo punto, i minatori si baseranno esclusivamente sulle commissioni di transazione per la compensazione.
-reviewed: false
+  Entro il 2140, non verranno creati nuovi bitcoin. A questo punto,
+  i minatori si baseranno esclusivamente sulle commissioni sulle transazioni per
+  ottenere compensi.
+reviewed: true

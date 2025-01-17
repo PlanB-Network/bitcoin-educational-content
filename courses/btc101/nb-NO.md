@@ -1,5 +1,5 @@
 ---
-name: The Bitcoin Journey
+name: Bitcoin reisen
 goal: Oppdag Bitcoin og dets grunnleggende prinsipper, inkludert dets monetære verdi, gruvearbeidere, transaksjoner og lommebøker.
 objectives:
   - Få en generell forståelse av Bitcoin-teknologi
@@ -126,7 +126,10 @@ Bitcoin's forhistorie er dypt rotfestet i cypherpunk-bevegelsen og en kollektiv 
 
 Derfor er Bitcoin et protokoll som spenner over lange perioder og oppmuntrer oss til å stille spørsmål ved vårt forhold til energi, tid og penger. Men er Bitcoin en "ekte" valuta? Hva er penger? Eksisterer det i flere former? Vi vil utforske disse spørsmålene i neste kapittel.
 
-![Bitcoin's forhistorie](assets/posters/fr/1_prehistoiredubitcoin.webp)
+
+Hvis du ønsker å utforske Bitcoins historie mer detaljert, anbefaler jeg sterkt kurset vårt HIS 201. Der vil du oppdage opprinnelsen og den langsomme fremveksten av Bitcoin, samt starten på dens historie og fellesskap. Dette kurset er fullstendig dokumentert og kildebasert, med selvfølgelig mange anekdoter :
+
+https://planb.network/courses/his201
 
 # Penger
 
@@ -190,9 +193,7 @@ I dag fortsetter valutaer å utvikle seg, tilpasse sine former for å møte fors
 
 Bitcoin, derimot, presenterer nye muligheter. På grunn av sine egenskaper, som dens strengt begrensede tilbud, tilbyr den en utmerket verdioppbevaring. Videre, som en nøytral internettvaluta, representerer den et godt byttemiddel som kjenner ingen grenser. Imidlertid er den fortsatt ikke bredt akseptert i handel i dag, til tross for [konstant adopsjon](https://btcmap.org/map).
 
-### Rask oppsummering i en plakat!
 
-![v](assets/posters/en/3._money.webp)
 
 ## Fidusiære valutaer
 
@@ -236,9 +237,11 @@ Som svar på disse systemiske utfordringene presenterer Bitcoin seg som en desen
 Samtidig ser fremveksten av sentralbankens digitale valutaer, eller CBDC-er, ut til å være uunngåelig. Denne nye formen for valuta ville tilby en mer sentralt planlagt økonomi, som kunne hindre individers finansielle frihet og legge til rette for autoritære misbruk.
 Vi kan avslutte dette kapittelet med et sitat fra Nobelprisvinner F.A Hayek i 1984: "Jeg tror ikke at vi noen gang vil finne en god valuta før vi tar den ut av hendene på regjeringen. Men, vi kan ikke voldelig ta den fra dem; alt vi kan gjøre er å introdusere noe de ikke kan stoppe gjennom smart lureri."
 
-### Rask oppsummering i en plakat!
 
-![Alt tekst](assets/posters/en/4._fiat_currency.webp)
+
+Hvis du ønsker å lære mer om økonomiske feilslutninger og frihet, anbefaler jeg kurset ECO 102. Kurset tar for seg livet og ideene til Frédéric Bastiat, en fransk tenker fra 1800-tallet som utvilsomt ville satt pris på fremveksten av Bitcoin:
+
+https://planb.network/courses/eco102
 
 ## Hyperinflasjon
 
@@ -316,9 +319,11 @@ Fase 4 - En ny valuta dukker opp
 Som konklusjon har hyperinflasjon effekten av raskt å degradere valutaens verdi, noe som fører til erosjon av sparemidler og tap av tillit til det monetære systemet. Som Voltaire en gang foreslo, vil en fiat-valuta alltid til slutt miste sin iboende verdi og konvergere mot null.
 'En valuta som er avhengig av en betrodd tredjepart som en finansinstitusjon, er i praksis og på lang sikt en defekt valuta fordi den er ute av stand til å garantere kjøpekraft eller bevare sparemidler.
 
-### Rask oppsummering i en plakat!
 
-![Alt-tekst](assets/posters/en/5._hyperinflation.webp)
+
+For å fordype deg i temaet hyperinflasjon, anbefaler jeg David St-Onges kurs ECO 204. Her lærer du hva hyperinflasjonssykluser er og hvilke reelle konsekvenser de har for våre liv. Du vil også oppdage likhetene mellom disse syklusene og, viktigst av alt, hvordan du kan beskytte deg mot dem:
+
+https://planb.network/courses/eco204
 
 ## 21 millioner bitcoins
 
@@ -402,13 +407,11 @@ Bitcoin garanterer ved sitt design sunn pengeforvaltning ved å begrense sin ska
 
 Oppsummert tilbyr Bitcoin, med sin desentraliserte natur, programmerte knapphet og gjennomsiktighet, et unikt alternativ til tradisjonelle penge systemer. Det illustrerer hvordan teknologi kan brukes til å skape en valuta som ikke bare er nyttig og verifiserbar, men som også bevarer verdien av brukernes sparepenger ved strengt å begrense tilbudet.
 
-### Rask oppsummering i en plakat!
 
-![Alt tekst](assets/posters/en/6._21_millions.webp)
 
 ### Konklusjon av seksjon 1!
 
-# Wallets Bitcoin
+# Bitcoin-lommebøker
 
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
@@ -470,9 +473,11 @@ Således er sannsynligheten for hacking av Bitcoin-lommeboken din astronomisk la
 
 Velg en lommebok som passer dine behov og bruk. Detaljerte veiledninger om bruk og sikring av forskjellige lommebøker er tilgjengelige i [veiledningsseksjonen av universitetet vårt](https://planb.network/tutorials/wallet).
 
-### Rask oppsummering i en plakat!
 
-![Alt tekst](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
+
+Hvis du under din reise ned i kaninhullet ønsker å lære mer om hvordan en Bitcoin-lommebok bygges, fra entropi til mottaksadresser, anbefaler jeg kurset CYP 201 som er viet til dette emnet:
+
+https://planb.network/courses/cyp201
 
 ## Sikkerhet og Bitcoin-lommebøker
 
@@ -501,11 +506,27 @@ La oss prøve å etablere flere nivåer av sikkerhet for dine bitcoins:
 
 - **Nivå 1**, du bruker en Bitcoin-lommebok på telefonen eller datamaskinen din hvor du er den eneste innehaveren av dine bitcoins. Du kan enkelt utføre transaksjonene dine. Det er imidlertid avgjørende å sikkerhetskopiere den mnemoniske frasen for å gjenopprette tilgangen til dine midler i tilfelle tap av telefonen eller datamaskinen. Det refereres ofte til som en "hot wallet" fordi den private nøkkelen lagres på en enhet med internett-tilgang.
 
+For eksempel kan du bruke Sparrow Wallet som en varm lommebok:
+
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+
 - **Nivå 2**, du bruker en fysisk lommebok, og du har sikret din liste med 12 eller 24 ord. For å utføre en transaksjon, vil du alltid trenge å signere med enheten din. Dette gjør dine midler mindre tilgjengelige på daglig basis. Det refereres ofte til som en "Cold Wallet" fordi nøklene dine lagres på en enhet som ikke er koblet til internett.
+
+For eksempel kan du bruke en Ledger, en Satochip eller en Tapsigner:
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![bilde](assets/en/chapter6/4.webp)
 
 - **Nivå 3**, du bruker en lommebok på nivå 1 eller 2, men med en ekstra passfrase. Vær oppmerksom på at du nå trenger å sikkerhetskopiere både listen med 12 eller 24 ord **og** din passfrase. Ideelt sett er disse to informasjonsbitene lagret på to forskjellige steder.
+
+For å lære mer om bruk og funksjon av BIP39-passfrasen:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![bilde](assets/en/chapter6/5.webp)
 
@@ -522,9 +543,7 @@ Som konklusjon er direkte eierskap til ens bitcoins et essensielt element for å
 
 Nå som vi har dette i tankene, la oss gå videre til neste seksjon for å se stegene for å opprette en Bitcoin-lommebok. Men, hvis du ønsker å utforske temaet sikkerhet ytterligere, kan du lese denne [artikkelen av DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-### Rask oppsummering i en plakat!
 
-![Alt-tekst](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Opprette en lommebok
 
@@ -561,9 +580,11 @@ Når kopiene er laget, oppbevar ordlistene på et trygt sted hvor du vil huske �
 > "Kalde" lommebøker har vanligvis disse ordlistene, akkurat som "varme" lommebøker på mobil eller PC. Denne metoden for å sikkerhetskopiere den private nøkkelen er nå standarden. Dette betyr at du kan skrive inn din mnemoniske frase i hvilken som helst lommebokprogramvare for å gjenopprette din. Bare dårlige lommebøker som vi sterkt fraråder, vil ikke gi deg en liste med 24 ord, men kan be om en konto, en e-postadresse, eller verre, en ID.
 > **OBS: Fraværet av en liste med 24 ord bør varsle deg.**
 
-### Rask oppsummering i en plakat!
 
-![Alt-tekst](assets/posters/en/10._set_up_your_wallet.webp)
+
+Hvis du deretter ønsker å lære steg for steg hvordan du setter opp din egen lommebok og får dine første bitcoins, anbefaler jeg også dette andre kurset:
+
+https://planb.network/courses/btc102
 
 ## Består tidens prøve
 
@@ -595,9 +616,7 @@ Når det gjelder personvern, er det avgjørende å unngå å snakke med alle om 
 
 I samme ånd, unngå å høyt avsløre ditt sikkerhetssystem under bitcoin-møter eller møter med fremmede...
 
-### Rask oppsummering i en plakat!
 
-![Alt-tekst](assets/posters/en/19._think_long_term.webp)
 
 ### Sammendrag om sikkerhet for Bitcoin-lommebøker
 
@@ -668,9 +687,7 @@ For å lære mer om Satoshi Nakamotos skrifter, anbefaler jeg [Phil Champagnes b
 
 Nå som vi har litt bakgrunn, la oss se på hvordan en Bitcoin-transaksjon fungerer generelt.
 
-### Rask oppsummering i en plakat!
 
-![Alt tekst](assets/posters/en/7._lancement_bitcoin.webp)
 
 ## Bitcoin-transaksjoner
 
@@ -717,9 +734,7 @@ På dette stadiet anses transaksjonen som gyldig, gruvearbeideren vil deretter s
 
 > Merk: Selv om Alice ser at hun har mottatt bitcoins på en av adressene sine, anbefales det å betrakte transaksjonen som uforanderlig først når den har 6 bekreftelser. Dette betyr at 6 andre blokker har blitt utvunnet på toppen av blokken som inneholder Bobs transaksjon. Med andre ord, jo eldre en transaksjon er i blockchainen, desto mer uforanderlig blir den.
 
-### Rask oppsummering i en plakat!
 
-![Forklaring av en transaksjon](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Hva er poenget med alt dette?
 
@@ -772,9 +787,7 @@ For eksempel, hvis blokkene var 100 ganger tyngre, kunne vi sikkert gjøre 100 g
 Denne situasjonen er ikke så hypotetisk fordi året 2017 var preget av en intens kontrovers kjent som "blokk-krigen". Denne konflikten satte aktører som ønsket å modifisere Bitcoin ved å øke blokkstørrelsen for å øke transaksjonskapasiteten, opp mot de som søkte å bevare brukernes uavhengighet og makt. Til slutt triumferte brukerne og nodene ved å avvise den foreslåtte endringen initiert av gruvearbeidere, utvekslingsplattformer og institusjoner.
 Etter denne seieren aktiverte nodene en oppdatering kalt SegWit, som banet vei for implementeringen av Lightning Network, et øyeblikkelig Bitcoin-betalingsnettverk som bruker Bitcoin-blockchainen. Denne situasjonen demonstrerer at brukere, gjennom sine noder, har reell makt innenfor Bitcoin, noe som gjør at de kan stå opp mot store institusjoner.
 
-### Sammendrag i en plakat!
 
-![Bitcoin-noder](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Gravere
 
@@ -844,9 +857,11 @@ Selv i tilfelle av et 51% angrep, noe som betyr at en agent besitter mer enn hal
 
 Teorien om spill anvendt på Bitcoin eliminerer uærlige minere. Minerene bruker ASIC-maskiner for å mine og mottar en belønning ved suksess. I tillegg, slutter de ofte seg til mining-pooler for å dele sin databehandlingskraft og motta mindre, men mer regelmessige belønninger. Bitcoin-mining er en prosess med høy energikostnad, men er essensiell for funksjonen og sikkerheten til Bitcoin-nettverket. Proof of work og blokkjeden løser problemet med dobbeltutgifter og sikrer informasjonens sannhet uten noen pålitelig tredjepart. Energiutgiften er nødvendig for å produsere informasjonen, men verifisering av informasjon har en ubetydelig kostnad. Denne asymmetrien garanterer nettverkets sikkerhet. Derfor er det mer økonomisk levedyktig å følge konsensusreglene enn å bryte dem.
 
-### Rask oppsummering i en plakat!
 
-![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
+
+Hvis du ønsker å fordype deg i det spesifikke emnet Bitcoin-mining, kan du ta vår MIN 201-kurs. Du vil lære om hvordan Proof-of-Work fungerer og hvilken rolle den spiller, samt innsikt i gruvedriftens mekanismer. Vi forklarer også hvordan du kan gjøre en ASIC om til en ovn, slik at du kan mine dine første satoshis samtidig som du varmer opp hjemmet ditt!
+
+https://planb.network/courses/min201
 
 ## Bitcoin og Økologi
 
@@ -891,9 +906,7 @@ Teknologien bak Bitcoin er ofte misforstått, og kritikken angående dens miljø
 
 > Følg en av Bitcoins maksimer: Ikke stol, verifiser selv!
 
-### Rask oppsummering i en plakat!
 
-![Bitcoin & økologi](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Kort sammendrag av de tekniske aspektene ved Bitcoin
 
@@ -960,9 +973,7 @@ I dag, i 2023, fortsetter Bitcoin å overleve og vokse enda mer ved å integrere
 
 ![bilde](assets/en/chapter14/3.webp)
 
-### Rask oppsummering i en plakat!
 
-![Alt-tekst](assets/posters/en/15._bitcoinr_never_sleeps.webp)
 
 ## Å skaffe bitcoins ved å jobbe
 
@@ -991,13 +1002,19 @@ For å akseptere Bitcoin, er det nødvendig å studere de forskjellige tilgjenge
 
 Vi vil dekke dette emnet i detalj i en annen opplæring, men for å holde det enkelt, kan vi vurdere flere kategorier av virksomheter og derfor relaterte løsninger:
 
-- Enkel online løsning: OpenNode
-- Løsning for amatørhandlere: Swiss Bitcoin Pay
-- Løsning for store strukturer eller lidenskapelige bitcoinere: BTCpay Server
+- Enkel nettbasert løsning: OpenNode
 
-### Rask oppsummering i en plakat!
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-![Alt tekst](assets/posters/en/17._earn_your_bitcoin.webp)
+- Løsning for hobbyhandlere: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
+- Løsning for store strukturer eller lidenskapelige bitcoiner: BTCpay Server
+
+https://planb.network/courses/btc305
+
+
 
 ## Spare med Bitcoin
 
@@ -1086,9 +1103,7 @@ I tillegg finnes det flere [markedssteder](https://planb.network/tutorials/excha
 ![image](assets/en/chapter15/3.webp)
 Det er også viktig å merke seg at skatter kan bli implementert i din jurisdiksjon. Vi inviterer deg til å konsultere regelverket i ditt land før du tar noen handling som kan sette deg i risiko.
 
-### Rask oppsummering i en plakat!
 
-![Alt tekst](assets/posters/en/16._saving_in_bitcoin.webp)
 
 ## Hyper-bitcoinisering
 
@@ -1114,9 +1129,7 @@ Hvis du ønsker å utvide din kunnskap om Bitcoin, har et stort antall forfatter
 
 > Milton Friedman, en anerkjent økonom, forutså i 1999: "Jeg tror at internett kommer til å være en av de største kreftene for å redusere regjeringens rolle. Det eneste som mangler, men som snart vil bli utviklet, er en pålitelig e-kontanter - en metode hvor på internett du kan overføre midler fra A til B uten at A kjenner B eller B kjenner A."
 
-### Rask oppsummering i en plakat!
 
-![Alt tekst](assets/posters/en/18._hyperbitcoinization.webp)
 
 # Fremtiden til Bitcoin: Lightning Network
 
@@ -1159,9 +1172,11 @@ Transaksjoner sikres gjennom kryptografi og indirekte gjennom energien som forbr
 
 Oppsummert er Lightning Network et lovende forsøk på å distribuere et effektivt betalingssystem for transaksjoner i Bitcoin. Det finnes allerede mange Lightning-lommebøker tilgjengelig, som du kan oppdage i vår opplæringsseksjon eller gjennom vår Lightning Network-trening.
 
-### Rask oppsummering i en plakat!
 
-![Alt tekst](assets/posters/en/20._lightning_network.webp)
+
+このイントロダクションを超えて、Lightning Networkのすべての仕組みを理解したい場合は、Fanis Michalakisによるこの優れたコースをお勧めします：
+
+https://planb.network/courses/lnp201
 
 ## Bruksområder for Lightning Network
 
@@ -1195,9 +1210,7 @@ I et slikt system blir penger automatisk delt, basert på en forhåndsdefinert p
 ![bilde](assets/en/chapter19/3.webp)
 Avslutningsvis åpner Lightning Network opp for en mengde spennende bruksområder for Bitcoin-brukere. De resulterende økonomiske modellene og forretningsmulighetene er tallrike og varierte. Vi oppfordrer deg til å teste det ut selv ved å prøve podcast-applikasjonen [Fountain](https://www.fountain.fm/), som lar deg bli belønnet med noen sats for å lytte til dine favorittpodcaster!
 
-### Rask oppsummering i en plakat!
 
-![Alt tekst](assets/posters/en/21._ln_use_cases.webp)
 
 ## Rød pille eller blå pille?
 
@@ -1205,7 +1218,6 @@ Avslutningsvis åpner Lightning Network opp for en mengde spennende bruksområde
 
 Som Morpheus sa til Neo: "Du tar den blå pillen, historien slutter, du våkner opp i sengen din, og du tror hva du vil tro. Du tar den røde pillen, du blir i Eventyrland, og jeg viser deg hvor dypt kaninhullet går." Er du klar for å utforske Bitcoin sitt kaninhull? Vær forsiktig, da du kan gjenoppdage din finansielle frihet!
 
-![rød pille](assets/posters/fr/2_pilluleorange.webp)
 
 ### Teknologisk fremtid og dens implikasjoner
 
@@ -1261,33 +1273,21 @@ Bitcoin er adoptert av ulike grupper av mennesker, fra kryptografer til libertar
 Bitcoin kan ikke lenger stoppes og kan ikke lenger sensureres. Det er en fredelig revolusjon for å endre det monetære systemet og muliggjøre finansiell inkludering. Brukere kan skaffe seg bitcoins ved å akseptere dem for handelen sin eller ved å kjøpe dem gjennom regulerte eller uregulerte plattformer. Bitcoins kan lagres i lommebøker, mobilapplikasjoner eller fysiske enheter. Det er ingen betrodd mellommann i Bitcoin, Bitcoin fremmer transparens, frihet og individuelt ansvar - som ordtaket sier "Ikke stol, verifiser".
 Å endre det finansielle systemet krever endring av valutaen. Satoshi skapte Bitcoin i 2008 for å foreslå et forsøk på dette. Tilgang til lett og "magisk" penger korrumperer. Bitcoin er derfor et alternativ for å bygge et nytt nøytralt monetært system. Bitcoin muliggjør frigjøring fra banksystemet. Det er et sosialt fenomen som leder oss til å delta i en fredelig revolusjon. Er du klar til å bli med?
 
-## Anerkjennelser og fortsett å grave i kaninhullet
+# Konklusjon
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Gå videre
+## Vurderinger & Karakterer
 
-Gratulerer med å ha fullført dette BTC 101-kurset! Jeg håper inderlig at du likte det og at det åpnet dører for deg. Din oppdagelse av bitcoin er bare begynnelsen, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige ved universitetet.
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>
 
-- [BTC 102](https://planb.network/courses/btc101) vil hjelpe deg med å sette opp din bitcoin-plan
-- [LNP 201](https://planb.network/courses/lnp201) vil la deg oppdage Lightning Network, et andre-lags betalingsnettverk
-- [ECO 201](https://planb.network/courses/eco201) vil dekke østerriksk økonomi
-- [SCU 101](https://planb.network/courses/scu101) vil la deg oppdatere din digitale sikkerhet
-- [MIN 201](https://planb.network/courses/min201) for å lære mer om mining
-- og mange flere...
+## Avsluttende eksamen
 
-## Støtt oss
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>
 
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
+## Konklusjon
 
-Dette kurset, samt alt innholdet på dette universitetet, har blitt tilbudt deg gratis av vårt samfunn. For å støtte oss, kan du dele det med andre, bli medlem av universitetet, og til og med bidra til utviklingen via [vår GitHub](https://github.com/PlanB-Network/bitcoin-educational-content). På vegne av hele teamet, takk!
-
-## Merk opplæringen
-
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
-
-Et vurderingssystem for opplæringen vil snart bli integrert i denne nye E-læringsplattformen! I mellomtiden, tusen takk for at du tok kurset, og hvis du likte det, vennligst vurder å dele det med andre.
-
-En stor takk til våre Patreon-støttespillere, medlemmer og donorer for deres økonomiske støtte, takk til folk som deler, og takk til de som gjorde denne opplæringen mulig: Rachel, Muriel, StackinSat-teamet, JohnOnChain, Fanis, Guillaume, Lounes, korrekturleserne og anmelderne.
-
-Vi sees snart!
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

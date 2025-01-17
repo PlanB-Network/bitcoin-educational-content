@@ -1,9 +1,13 @@
-question: Quel est l'impact potentiel de la réglementation sur le minage de Bitcoin ?
-answer: Si un pays comme les États-Unis décide de réglementer ou d'interdire certaines transactions Bitcoin, cela pourrait avoir un impact significatif sur le réseau, surtout si une grande partie de la puissance de hachage est centralisée dans ce pays.
+question: Quel est l'impact potentiel de la régulation sur le minage de Bitcoin ?
+answer: Si un pays comme les États-Unis décidait de réguler ou d'interdire certaines transactions en Bitcoin, cela pourrait avoir un impact significatif sur le réseau, surtout si une grande partie de la puissance de hachage est centralisée dans ce pays.
 wrong_answers:
-  - Si un pays comme les États-Unis décide de réglementer ou d'interdire le minage de Bitcoin, cela pourrait entraîner une augmentation de la valeur de Bitcoin.
-  - Si un pays comme les États-Unis décide de réglementer ou d'interdire le minage de Bitcoin, cela pourrait entraîner une augmentation de la récompense de bloc.
-  - Si un pays comme les États-Unis décide de réglementer ou d'interdire le minage de Bitcoin, cela pourrait entraîner une augmentation de la vitesse des transactions.
+  - Si un pays comme les États-Unis décidait de réguler ou d'interdire le minage de Bitcoin, cela pourrait entraîner une augmentation de la valeur du Bitcoin.
+  - Si un pays comme les États-Unis décidait de réguler ou d'interdire le minage de Bitcoin, cela pourrait entraîner une augmentation de la récompense par bloc.
+  - Si un pays comme les États-Unis décidait de réguler ou d'interdire le minage de Bitcoin, cela pourrait entraîner une augmentation de la vitesse de transaction.
 explanation: |
-  Le chapitre explique que si un pays comme les États-Unis décide de réglementer ou d'interdire certaines transactions Bitcoin, cela pourrait avoir un impact significatif sur le réseau, surtout si une grande partie de la puissance de hachage est centralisée dans ce pays.
-reviewed: false
+  Le chapitre explique que si un pays comme les États-Unis
+  décidait de réguler ou d'interdire certaines transactions en
+  Bitcoin, cela pourrait avoir un impact significatif sur le
+  réseau, surtout si une grande partie de la puissance de
+  hachage est centralisée dans ce pays.
+reviewed: true

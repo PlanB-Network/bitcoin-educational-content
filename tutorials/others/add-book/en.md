@@ -10,7 +10,7 @@ PlanB's mission is to provide top-tier educational resources on Bitcoin in as ma
 ![book](assets/01.webp)
 - First, you need to have a GitHub account. If you don't know how to create an account, we have made a detailed tutorial to guide you.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) in the `resources/books/` section:

@@ -1,0 +1,9 @@
+question: Qual é o tema central desenvolvido por Bastiat em seu livro A Lei?
+answer: A luta contra o saque legal e a defesa da propriedade
+wrong_answers:
+  - A defesa dos direitos sociais e dos serviços públicos
+  - O estudo dos benefícios da educação clássica
+  - A crítica da revolução industrial
+explanation: |
+  Em A Lei, Bastiat contrasta o saque legal com a propriedade e defende a liberdade como a solução para os problemas sociais.
+reviewed: false

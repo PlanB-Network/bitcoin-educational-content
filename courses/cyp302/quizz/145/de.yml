@@ -1,0 +1,9 @@
+question: Was sind die Implikationen von Eulers Theorem im Kontext der asymmetrischen Kryptographie?
+answer: Es vereinfacht die Berechnung von Potenzen
+wrong_answers:
+  - Es ermöglicht die direkte Verschlüsselung von Nachrichten
+  - Es wird verwendet, um Primzahlen zu finden
+  - Es wird verwendet, um die Parität einer Zahl zu überprüfen
+explanation: |
+  In der asymmetrischen Kryptographie vereinfacht Eulers Theorem die Berechnung von Potenzen in Schemata wie RSA, da es eine Methode zur Manipulation von modularen Exponentiationen bietet.
+reviewed: false

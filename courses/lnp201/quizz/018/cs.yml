@@ -1,11 +1,9 @@
-question: Co udělá Alice po obdržení veřejné adresy Boba?
-answer: Vytvoří 2/2 multi-sig adresu.
+question: Jak je vytvořen nový stav kanálu po každém převodu?
+answer: Vytvořením nové transakce závazku s aktualizovanou distribucí
 wrong_answers:
-  - Pošle peníze na veřejnou adresu Boba.
-  - Publikuje transakci do Bitcoinové sítě.
-  - Požádá Boba o jeho podpis.
+  - Zveřejněním transakce na řetězci po každém převodu
+  - Zvýšením celkové kapacity kanálu
+  - Zavřením a znovuotevřením kanálu po každé transakci
 explanation: |
-  Po obdržení veřejné adresy Boba použije Alice tuto adresu společně se svou vlastní
-  veřejnou adresou k vytvoření 2/2 multi-sig adresy. Na tuto adresu
-  pošle peníze, aby otevřela kanál.
+  Každá transakce v rámci kanálu aktualizuje stav kanálu novou transakcí závazku, která odráží aktuální rozdělení prostředků mezi oběma účastníky.
 reviewed: false

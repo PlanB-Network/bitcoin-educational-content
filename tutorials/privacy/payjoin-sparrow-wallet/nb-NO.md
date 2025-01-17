@@ -26,7 +26,7 @@ Cahoots-transaksjoner innebærer utveksling av delvis signerte transaksjoner mel
 
 Når dette gjøres på avstand, blir prosessen for kompleks. For å adressere dette problemet har Samourai utviklet et kryptert kommunikasjonsprotokoll basert på Tor, kalt "Soroban." Med Soroban automatiseres de nødvendige utvekslingene for en Payjoin bak et brukervennlig grensesnitt. Dette er den andre metoden vi vil utforske i denne artikkelen.
 
-Disse krypterte utvekslingene krever etablering av en forbindelse og autentisering mellom Cahoots-deltakerne. Soroban-kommunikasjoner stoler på brukernes Paynyms. Hvis du ikke er kjent med Paynyms, inviterer jeg deg til å referere til denne artikkelen for flere detaljer: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+Disse krypterte utvekslingene krever etablering av en forbindelse og autentisering mellom Cahoots-deltakerne. Soroban-kommunikasjoner stoler på brukernes Paynyms. Hvis du ikke er kjent med Paynyms, inviterer jeg deg til å referere til denne artikkelen for flere detaljer: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 For å si det enkelt, er en Paynym en unik identifikator knyttet til lommeboken din som tillater ulike funksjoner, inkludert kryptert meldingsutveksling. Paynym presenteres i form av en identifikator og en illustrasjon som representerer en robot. Her er et eksempel på min på Testnet: ![Paynym Sparrow](assets/en/1.webp)
 **Oppsummert:**
 - *Payjoin* = Spesifikk struktur av samarbeidstransaksjon;
@@ -35,7 +35,7 @@ For å si det enkelt, er en Paynym en unik identifikator knyttet til lommeboken 
 - *Soroban* = Kryptert kommunikasjonsprotokoll etablert på Tor, som tillater samarbeid med andre brukere i konteksten av en Cahoots-transaksjon.
 - *Paynym* = Unik identifikator for en lommebok som tillater kommunikasjon med en annen bruker på Soroban, for å gjennomføre en Cahoots-transaksjon.
 
-[**-> Lær mer om Payjoin-transaksjoner og deres nytte**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Lær mer om Payjoin-transaksjoner og deres nytte**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Hvordan etablere en forbindelse mellom Paynyms?
 

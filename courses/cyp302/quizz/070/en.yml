@@ -1,0 +1,9 @@
+question: What type of encryption is shift encryption?
+answer: A monoalphabetic substitution cipher
+wrong_answers:
+  - A word permutation cipher
+  - A polyalphabetic substitution cipher
+  - An asymmetric cipher
+explanation: |
+  Shift encryption is an example of a monoalphabetic substitution cipher, where each letter in the message is shifted by a fixed number of positions in the alphabet.
+reviewed: false

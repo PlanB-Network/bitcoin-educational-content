@@ -1,0 +1,11 @@
+question: Mida peaksite tegema pärast Bitcoini ostmist vahetusplatvormil?
+answer: Võtke Bitcoin oma rahakotti välja.
+wrong_answers:
+  - Jätke see platvormile.
+  - Müüge see kohe maha.
+  - Kandke see teisele platvormile.
+explanation: >-
+  Tekst soovitab, et pärast Bitcoini ostmist on soovitatav kohe
+  võtta Bitcoini vahetusplatvormilt välja, et minimeerida häkkimise
+  ja fondide blokeerimise riske.
+reviewed: false

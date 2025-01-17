@@ -1,9 +1,10 @@
-question: Qual é uma das razões pelas quais o Bitcoin não é uma bolha que vai desaparecer?
+question: Qual é uma das razões para o Bitcoin não ser uma bolha que vai desaparecer?
 answer: Porque é uma moeda que é realmente usada em todo o mundo.
 wrong_answers:
-  - Porque na verdade não é usado em nenhum lugar.
-  - Porque é controlado por uma autoridade central.
+  - Porque na verdade não é usada em lugar algum.
+  - Porque é controlada por uma autoridade central.
   - Porque é fácil de falsificar.
-explanation: |
-  O Bitcoin não é uma bolha que vai desaparecer, mas sim uma moeda que é realmente usada em todo o mundo.
-reviewed: false
+explanation: >-
+  O Bitcoin não é uma bolha que vai desaparecer, mas sim uma moeda que é realmente
+  usada em todo o mundo.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Qual è il principale vantaggio nell'utilizzare una nuova coppia di chiavi per ogni transazione Bitcoin?
-answer: Migliora la sicurezza.
+question: Qual è la differenza tra una chiave figlio normale e una chiave figlio rinforzata?
+answer: Una chiave figlio rinforzata richiede la chiave privata del genitore per la sua derivazione.
 wrong_answers:
-  - Migliora la velocità.
-  - Migliora l'anonimato.
-  - Migliora la legalità.
+  - Una chiave figlio normale non può derivare dalle chiavi pubbliche.
+  - Una chiave figlio rinforzata utilizza un indice dispari.
+  - Una chiave figlio normale è più sicura di una chiave figlio rinforzata.
 explanation: |
-  Utilizzare una nuova coppia di chiavi per ogni transazione migliora la sicurezza delle transazioni Bitcoin. Tuttavia, complica il loro backup e preserva solo parzialmente la riservatezza.
-reviewed: false
+  Una chiave figlio normale può essere derivata dalla chiave pubblica del genitore, a differenza di una chiave figlio rinforzata che richiede la chiave privata del genitore.
+recensito: false

@@ -43,9 +43,9 @@ Al ver esta transacción en la cadena de bloques, un observador externo que sigu
 Esta interpretación es obviamente incorrecta porque, como ya sabes, las dos UTXOs de entrada no pertenecen a la misma persona. Además, el valor real del pago no es `19,000 sats`, sino `4,000 sats`. El análisis del observador externo se dirige así hacia una conclusión errónea, asegurando la preservación de la confidencialidad de las partes interesadas.![Diagrama de la transacción Payjoin](assets/es/1.webp)
 Si deseas analizar una transacción Payjoin real, aquí tienes una que realicé en la testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
-[**-> Descubre nuestro tutorial sobre cómo hacer un Payjoin con Samourai Wallet**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  
+[**-> Descubre nuestro tutorial sobre cómo hacer un Payjoin con Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
 
-[**-> Descubre nuestro tutorial sobre cómo hacer un Payjoin con Sparrow Wallet**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+[**-> Descubre nuestro tutorial sobre cómo hacer un Payjoin con Sparrow Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 **Recursos externos:**

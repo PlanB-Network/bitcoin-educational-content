@@ -1,0 +1,13 @@
+question: Mis on tolm UTXOde kontekstis?
+
+answer: UTXOd, mille väärtus on liiga madal, et katta nende kulutamiseks vajalikud tasud.
+
+wrong_answers:
+  - UTXOd, mis on genereeritud tehinguvigade tõttu ja mida ei saa blockchainis kinnitada.
+  - UTXOd, mis on märgistatud kahtlaseks või seotud ebaseaduslike tegevustega võrgus.
+  - UTXOd, mis on salvestatud aadressidele, mida pole pikka aega kasutatud ja peetakse kadunuks.
+
+explanation: |
+  Tolm viitab UTXOdele, mille väärtus satsides on nii madal, et see ei ole piisav, et katta nende kulutamiseks nõutavad tehingutasud.
+
+reviewed: false

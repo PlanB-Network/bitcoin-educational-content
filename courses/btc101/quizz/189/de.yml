@@ -1,9 +1,14 @@
-question: Welches Land hat seit 2021 Bitcoin als gesetzliches Zahlungsmittel eingeführt?
-answer: El Salvador
+question: Wie löst Bitcoin das Byzantinische Generäle-Problem?
+answer: Durch die Verwendung einer Blockchain, die auf Proof of Work mit einer variablen Schwierigkeit basiert.
 wrong_answers:
-  - Frankreich
-  - Vereinigte Staaten
-  - China
-explanation: |
-  El Salvador hat seit 2021 Bitcoin als gesetzliches Zahlungsmittel eingeführt und trägt damit zur Entwicklung der Bitcoin-Wirtschaft in der Region bei.
-reviewed: false
+  - Durch die Verwendung von digitalen Signaturen.
+  - Durch die Verwendung eines öffentlichen Registers.
+  - Durch die Verwendung eines Proof of Stake-Algorithmus.
+explanation: >-
+  Das Byzantinische Generäle-Problem ist ein klassisches Problem in
+  der verteilten Datenverarbeitung, das das Erreichen eines Konsenses
+  in einem Netzwerk betrifft, in dem einige der Knoten fehlerhaft oder
+  bösartig sein können. Bitcoin löst dieses Problem durch die Verwendung einer
+  Blockchain, die auf Proof of Work basiert, was sicherstellt, dass alle
+  Knoten über den Zustand der Transaktionshistorie übereinstimmen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Siapa yang menciptakan konsep bukti kerja?
+answer: Cynthia Dwork dan Moni Naor
+wrong_answers:
+  - Markus Jakobsson dan Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  Mereka mendeskripsikan konsep tersebut pada tahun 1992. Markus Jakobsson dan Ari Juels yang mencetuskan istilah bukti kerja. Adam Back kemudian mengadopsi konsep tersebut untuk Hashcash.
+reviewed: false

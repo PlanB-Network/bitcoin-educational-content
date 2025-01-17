@@ -1,122 +1,153 @@
 ---
 name: Contribuição - Revisão
-description: Como participar da revisão de conteúdo educacional na Rede PlanB?
+description: Como participar na revisão dos conteúdos educativos na Rede Plan ₿?
 ---
 ![github](assets/cover.webp)
 
-## TL;DR
-Se você deseja revisar conteúdo para a Rede PlanB, vá para a [página do projeto associado](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) no seu idioma. Selecione o conteúdo que deseja revisar, comente para nos informar que está assumindo a tarefa e envie um PR (Pull Request) quando terminar, na branch associada ao idioma.
+## Em resumo
 
-Se você não entendeu a parte acima, não se preocupe, este tutorial é para você!
+Se quiseres participar na revisão e correção de conteúdos para a Plan ₿ Network, junta-te ao [nosso grupo do Telegram] (https://t.me/PlanBNetwork_ContentBuilder) dedicado às contribuições. Apresenta-te brevemente, depois especifica o conteúdo que gostarias de rever e a língua. Faça suas correções em um ramo de trabalho e envie um PR assim que sua revisão for concluída.
+
+Se não percebeu a parte acima, não se preocupe - este tutorial é para si!
 
 ---
+## O que é o Plano ₿ Rede?
 
-## O que é a Rede PlanB?
+Plan ₿ Network é uma plataforma para aprender sobre Bitcoin através de inúmeros cursos e tutoriais para todos. Atualmente, todo o nosso conteúdo é de código aberto, hospedado em um repositório GitHub e aberto a contribuições para revisão e criação de conteúdo.
 
-Planb.network é uma plataforma totalmente nova para aprender sobre Bitcoin por meio de numerosos cursos e tutoriais para todos. Atualmente, todo o nosso conteúdo é open-source, hospedado em um repositório no GitHub e aberto a contribuições para revisão e criação de conteúdo.
+A Plan ₿ Network tem como objetivo tornar-se a praça pública do ciberespaço Bitcoin, ligando e encorajando as comunidades Bitcoin em todo o mundo.
 
-PlanB.network visa tornar-se a praça pública do ciberespaço Bitcoin, conectando e incentivando comunidades Bitcoin ao redor do mundo.
+## Porquê contribuir?
 
-## Por que Contribuir?
+A Plan ₿ Network é fundamentalmente multilingue, pois o nosso objetivo é tornar os recursos Bitcoin acessíveis a todos em todo o mundo. Acreditamos que a língua não deve ser uma barreira para o dinheiro soberano.
 
-PlanB.network é fundamentalmente multilíngue, pois nosso objetivo é tornar os recursos sobre Bitcoin acessíveis a todos mundialmente. Acreditamos que a língua não deve ser uma barreira para a moeda soberana.
+Para o conseguir, utilizamos uma abordagem Humano x IA. Através do nosso [programa](https://github.com/Asi0Flammeus/LLM-Translator), podemos traduzir automaticamente o nosso conteúdo para muitas línguas. No entanto, precisamos que um falante fluente o reveja para garantir que o conteúdo é inteligível e não contém termos inadequados.
 
-Portanto, usamos uma abordagem Humano x IA para alcançar esse objetivo. Graças ao nosso [programa simples](https://github.com/Asi0Flammeus/LLM-Translator), podemos traduzir automaticamente nosso conteúdo para muitos idiomas. No entanto, antes de publicá-lo, precisamos de uma pessoa fluente no idioma para revisá-lo, a fim de garantir que o conteúdo seja inteligível e livre de termos inapropriados.
+Se quiser ajudar a construir este projeto educativo para promover a educação sobre Bitcoin na sua comunidade, pode começar por rever um curso ou um tutorial.
 
-Se você deseja se juntar a nós na construção deste projeto educacional para promover a educação sobre Bitcoin em sua comunidade, você pode começar revisando um curso ou tutorial.
+Além disso, como prezamos o modelo *Value4Value*, recompensaremos as contribuições de revisão. A recompensa será baseada na extensão do conteúdo, na precisão linguística da nossa tradução automática e na dificuldade do conteúdo.
 
-Além disso, como Découvre Bitcoin (DB) é responsável por avaliar as contribuições e nós (DB) valorizamos o modelo *Value4Value*, recompensaremos as contribuições de revisão. A recompensa será baseada no comprimento do conteúdo, na precisão linguística da nossa auto-tradução e na dificuldade do conteúdo.
+## Preciso de saber como funciona o GitHub?
 
-## Eu preciso saber como o GitHub funciona?
+Não precisa de ser um especialista em GitHub para rever conteúdos. Embora seja sempre melhor compreender o que está a fazer (e porquê), pode simplesmente seguir as instruções abaixo para contribuir.
 
-Você não precisa ser um especialista em GitHub para revisar conteúdo.
-Embora seja sempre melhor entender o que você está fazendo (e por quê), você pode simplesmente seguir as instruções abaixo para contribuir.
+No entanto, se não estiver familiarizado com o Git e o GitHub e quiser saber mais, pode consultar o nosso artigo introdutório sobre estas ferramentas:
 
-No entanto, se você é completamente desconhecido de como o Git e o GitHub funcionam e gostaria de aprender mais, você pode descobrir nosso artigo introdutório sobre essas ferramentas.
-
-https://planb.network/tutorials/others/basics-of-github
-
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+## 1. Criar uma conta
 
 
-## 1. Crie uma conta
-* Crie uma conta no GitHub para começar a contribuir. Se você precisa de orientação sobre como criar sua conta no GitHub, também temos um tutorial detalhado.
+- Crie uma conta no [GitHub] (https://github.com/) para começar a contribuir. Se pretender obter orientação sobre como criar a sua conta GitHub, também temos um tutorial detalhado:
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
+- É também necessária uma conta na aplicação de mensagens [Telegram] (https://telegram.org/).
+
+## 2. Juntar-se ao grupo Telegram
 
 
-## **2. Vá para a página do projeto do seu idioma**
-* A [página do projeto](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) contém conteúdo no seu idioma exibido em um quadro Kanban.
-* Procure por cartões na coluna "Review Needed" (Revisão Necessária) (veja **A**). Estes são problemas que você pode revisar.
-* Cada cartão detalha (veja **B**):
-	- **Tipo de Conteúdo**: Curso, tutorial ou site
-	- **Dificuldade do Conteúdo**
-	- **Urgência**
-	- **Contagem de Palavras**
-	- **Recompensa Associada**: Baseada nas propriedades do conteúdo e na precisão da tradução (veja [seção de Recompensa](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
-![revisão](assets/1.webp)
-## **3. Encontre conteúdo para revisar**
-* Na coluna "Revisão Necessária", clique em um cartão.
-* O cartão inclui uma descrição com links para o conteúdo original e o arquivo para revisar (veja **A**).
-* Se desejar revisá-lo, deixe um comentário para nos informar que você estará trabalhando nisso (veja **B**).
-* Clique no link ao lado de `File to Review` (veja **C**)
+- Junte-se [ao grupo PBN Content Builder] (https://t.me/PlanBNetwork_ContentBuilder) no Telegram.
 
-![revisão](assets/2.webp)
+![REVIEW](assets/fr/01.webp)
 
-## **4. Revise e edite o conteúdo via a interface do GitHub**
-* Agora você pode ver a interface do GitHub do arquivo a ser revisado.
-* O painel à esquerda permite navegar pela sua branch (veja **A**) e pelos arquivos (veja **B**).
-* Clique no ícone de caneta para começar a revisão (veja **C**).
 
-![revisão](assets/3.webp)
+- Apresente-se brevemente e especifique o conteúdo para o qual pretende contribuir e a língua numa mensagem para o canal "Geral".
+- Um membro da equipa criará então um problema no GitHub para a sua futura contribuição. Encontrará aí todas as informações necessárias para iniciar a sua revisão.
 
-* Se for a sua primeira vez, o GitHub pedirá que você faça um fork do repositório.
+![REVIEW](assets/fr/02.webp)
 
-![revisão](assets/4.webp)
+## 3. Rever e editar o conteúdo através da interface do GitHub
 
-* Em seguida, você chegará à interface do Editor (veja **A**), onde pode ver o caminho do arquivo e a branch correspondente (veja **B**), e pode alternar entre o modo de edição e o modo de visualização (veja **C**).
 
-![revisão](assets/5.webp)
+- A questão contém uma descrição (cf. **A**) com ligações para o conteúdo original e o ficheiro a rever.
+- Se quiser encarregar-se da revisão, deixe um comentário sobre a questão (cf. **B**) para indicar que vai trabalhar nela. Assim, evita-se a duplicação de esforços.
+- Clique na ligação ao lado do ficheiro a rever (cf. **C**) para aceder ao conteúdo.
 
-NB. A revisão é melhor feita na janela de código com o conteúdo original em uma janela separada ao lado.
+![REVIEW](assets/fr/03.webp)
 
-## **5. Confirme as alterações**
 
-* Quando quiser encerrar sua sessão de revisão, você pode confirmar suas alterações, mesmo que a revisão não esteja concluída – é um pouco como "salvar suas alterações no GitHub".
-* Clique no botão "Commit Changes" (veja **A**).
+- Pode agora ver a interface do GitHub do ficheiro a rever.
+- O painel da esquerda permite-lhe navegar através do seu ramo (cf. **A**) e ficheiros (cf. **B**).
+- Clicar no ícone do lápis para iniciar a revisão (cf. **C**).
 
-![revisão](assets/6.webp)
-* Adicione uma mensagem descritiva sobre sua alteração (veja **B**).* Adicione mais contexto na descrição, se necessário (veja **C**).
-* Clique em "Propose Changes" (veja **D**).
+![REVIEW](assets/fr/04.webp)
 
-![revisão](assets/7.webp)
 
-* Isso abre uma página de proposta de PR (Pull Request).
+- Se esta for a sua primeira contribuição, o GitHub pedir-lhe-á para bifurcar o repositório de origem. Basta clicar no botão.
 
-## **6. Crie um PR com a branch dedicada**
-![revisão](assets/8.webp)
+![REVIEW](assets/fr/05.webp)
 
-* Você pode verificar que este PR solicita a fusão da sua branch na branch dedicada do idioma correspondente (veja **A**).
-* Dê ao PR um nome descritivo (veja **B**).
-* Adicione contexto na descrição (veja **C**).
-* Se não estiver concluído, clique na seta dropdown ao lado de "Create Pull Request" e selecione "Draft PR" (veja **D**).
-* Clique em "Draft Pull Request".
-* Parabéns pelo seu primeiro PR!
 
-## **7. Continue a revisão mais tarde**
-* Se você não terminou sua revisão e deseja continuar seu trabalho, vá para o seu fork do repositório de conteúdo da PlanB-Network via seu perfil no GitHub.
-* Selecione a branch correspondente.
-* Renomeie a branch, se necessário.
-* Encontre seu arquivo de conteúdo e clique no botão de caneta para retomar a revisão.
+- Chega então à interface do Editor (cf. **A**), onde pode ver o caminho do ficheiro e o ramo correspondente (cf. **B**) e alternar entre os modos de edição e de pré-visualização (cf. **C**).
 
-## **8. Confirme diretamente na sua própria branch**
-* Faça commits para validar as alterações diretamente na sua branch à medida que avança.
+![REVIEW](assets/fr/06.webp)
 
-## **9. Finalize e defina o PR como pronto para revisão**
-* Vá para a aba "Pull Requests".
-* Selecione seu PR.
-* Clique em "Ready for Review".
+NB. Recomenda-se a revisão na janela de código, com o conteúdo original apresentado numa janela separada. Por exemplo, pode ver o texto no sítio Web da Plan ₿ Network ou na pré-visualização do GitHub num separador do browser. Utilize `ctrl + F` para localizar erros e fazer correcções na vista de código à medida que avança.
 
-## 10. Aguarde a revisão
-* Após a aprovação, Découvre Bitcoin entrará em contato com você para enviar sua recompensa via LN.
-* Se desejar começar novamente, retorne ao passo 2 para continuar contribuindo com outros conteúdos.
-* Se você tiver observações, perguntas ou comentários sobre este projeto, pode enviar uma DM no Telegram para @asi0_flammeus.
+## 4. Autorizar alterações
+
+
+- Pode começar a rever e a corrigir o conteúdo conforme necessário.
+- Quando quiser fazer uma pausa na sua sessão, pode confirmar as suas alterações, mesmo que a revisão não esteja concluída. É como guardar o seu progresso no GitHub.
+- Clique no botão "Confirmar alterações...".
+
+![REVIEW](assets/fr/07.webp)
+
+
+- Acrescentar uma mensagem descritiva para as suas alterações (cf. **A**).
+- Se necessário, acrescentar mais contexto na descrição (cf. **B**).
+- Clicar no botão "Propor alterações" (cf. **C**).
+
+![REVIEW](assets/fr/08.webp)
+
+
+- Se esta não for sua primeira contribuição, o GitHub solicitará que você crie um novo ramo. Você nunca deve fazer commit diretamente no branch principal `dev`. Se você já fez commits em um branch de trabalho existente, selecione esse branch. Caso contrário, escolha a opção "Criar um novo ramo" para criar um novo ramo.
+
+![REVIEW](assets/fr/13.webp)
+
+
+- Acederá então a uma página que resume todas as suas alterações. Percorrendo-a, pode ver as alterações exactas: os itens eliminados aparecem a vermelho, enquanto os itens adicionados aparecem a verde.
+
+![REVIEW](assets/fr/09.webp)
+
+
+- Se não tiver concluído a sua revisão e pretender continuar o seu trabalho mais tarde, pode simplesmente sair.
+- Desde que tenha efectuado o commit das suas alterações, estas são guardadas no seu fork do GitHub.
+- Para retomar o seu trabalho, aceda à sua bifurcação do repositório de conteúdos Plan ₿ Network através do seu perfil GitHub.
+
+![REVIEW](assets/fr/14.webp)
+
+
+- Selecione o ramo que contém o seu progresso (cf. **A**), localize o seu ficheiro de conteúdo (cf. **B**) e, em seguida, clique no ícone do lápis para continuar a revisão.
+
+![REVIEW](assets/fr/15.webp)
+
+## 5. Criar um PR com o ramo dedicado
+
+
+- Se tudo parecer bem e tiver terminado as suas alterações, clique no botão verde "Create Pull Request".
+
+![REVIEW](assets/fr/10.webp)
+
+
+- Chegará então à página PR. Um Pull Request é um pedido para submeter alterações feitas num ramo de um repositório remoto para revisão e possível fusão no ramo principal.
+- Adicione um título e uma breve descrição ao seu PR. O título deve corresponder à edição em que está a trabalhar. Por exemplo, se o título da edição for `[TRADUÇÃO] Curso CYP201 - FR`, utilize o mesmo título para a sua RP (cf. **A**). Na descrição, mencione a questão associada utilizando o seu número, precedido de "Encerra". Esta ação encerrará automaticamente o problema quando o PR for fundido (cf. **B**).
+- Se tudo parecer bem, clique no botão verde "Create Pull Request" (cf. **C**).
+
+![REVIEW](assets/fr/11.webp)
+
+## 6. Aguardar a revisão
+
+
+- Parabéns, o seu PR foi submetido! Pode acompanhar o seu progresso no separador "Pull requests" no [repositório GitHub do Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+
+![REVIEW](assets/fr/12.webp)
+
+
+- Muito obrigado pela sua contribuiçªo! Após a aprovação, um membro da equipa da Plan ₿ Network entrará em contacto consigo para enviar a sua recompensa. **Os pagamentos são feitos exclusivamente através da Lightning Network**.
+- Se quiser começar de novo, volte ao passo 2 e envie uma nova mensagem no grupo do Telegram para continuar a contribuir para outros conteúdos. Certifique-se de sincronizar sua bifurcação antes de criar uma nova ramificação de trabalho. Para fazer isso, vá para a página inicial da sua bifurcação, selecione a ramificação principal chamada `dev` (cf. **A**), depois clique no botão "Sync fork" (cf. **B**). Se houver atualizações disponíveis para o seu fork, um botão "Update branch" aparecerá. Basta clicar nele para realizar a atualização.
+
+![REVIEW](assets/fr/16.webp)
+
+
+- Se tiver quaisquer observações, perguntas ou comentários sobre este projeto, não hesite em enviar um DM [para o grupo de Telegrama dos contribuidores] (https://t.me/PlanBNetwork_ContentBuilder).

@@ -1,9 +1,9 @@
-question: Quel est le processus par lequel les mineurs valident les transactions et les incluent dans un bloc?
-answer: Preuve de travail
+question: Comment les mineurs valident-ils les transactions et les incluent-ils dans un bloc ?
+answer: Par le processus de Preuve de travail (Proof of work).
 wrong_answers:
-  - Preuve d'enjeu
-  - Preuve d'autorité
-  - Preuve de destruction
-explanation: |
-  Les mineurs valident les transactions et les incluent dans un bloc grâce à un processus appelé "preuve de travail". Cela implique de résoudre une énigme cryptographique.
-reviewed: false
+  - Par le processus de Preuve d'enjeu (Proof of stake).
+  - Par le processus de Preuve d'autorité (Proof of authority).
+  - Par le processus de Preuve de destruction (Proof of burn).
+explanation: >-
+  Les mineurs valident les transactions et les incluent dans un bloc à travers un processus appelé preuve de travail (proof of work). Cela implique de résoudre une énigme cryptographique.
+reviewed: true

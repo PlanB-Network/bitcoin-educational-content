@@ -1,9 +1,9 @@
-question: Qu'est-ce que la graine dans le contexte du portefeuille HD ?
-answer: Une séquence alphanumérique de 512 bits qui sert de base pour dériver les clés du portefeuille.
+question: Quelle étape précède l'application de HASH160 lors de la génération d'une adresse SegWit v0 ?
+answer: La compression de la clé publique
 wrong_answers:
-  - Un mot de passe utilisé pour sécuriser le portefeuille.
-  - Un identifiant unique pour le portefeuille.
-  - Un code utilisé pour générer la phrase mnémonique.
+  - L'ajout de la checksum
+  - La conversion en format bech32
+  - L'encodage en base58check
 explanation: |
-  La graine est une séquence alphanumérique de 512 bits qui sert de base pour dériver les clés du portefeuille. Elle est obtenue en utilisant la fonction pbkdf2 avec la phrase mnémonique et la phrase secrète.
+  La clé publique doit être compressée pour réduire sa taille avant de passer dans la fonction de hachage HASH160.
 reviewed: false

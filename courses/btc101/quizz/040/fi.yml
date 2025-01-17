@@ -1,11 +1,12 @@
-question: Mikä strategiaa keskusyksiköt käyttävät fiat-valuutan arvon alentamiseen?
-answer: Ne lisäävät alkuperäistä rahamäärää muutamalla prosentilla joka vuosi.
+question: Mikä strategiaa käyttävät keskuselimet fiat-valuutan arvon alentamiseen?
+answer: Ne lisäävät rahamäärää muutamalla prosentilla joka vuosi.
 wrong_answers:
-  - Ne vähentävät alkuperäistä rahamäärää muutamalla prosentilla joka vuosi.
+  - Ne vähentävät rahamäärää muutamalla prosentilla joka vuosi.
   - Ne pitävät sen rahamäärän vakiona verrattuna alkuperäiseen määrään.
-  - Ne vaihtelevat sen rahamäärää satunnaisesti verrattuna alkuperäiseen määrään.
+  - Ne antavat sen rahamäärän vaihdella satunnaisesti verrattuna alkuperäiseen määrään.
 explanation: |
-  Keskusyksiköt usein alentavat uuden valuutan arvoa lisäämällä sen rahamäärää verrattuna
-  alkuperäiseen muutamalla prosentilla joka vuosi. Tämä hiljainen arvon alennus perustellaan
-  usein olevan kansan edun mukainen.
-reviewed: false
+  Keskuselimet usein alentavat valuutan arvoa lisäämällä sen
+  rahamäärää verrattuna alkuperäiseen muutamalla prosentilla
+  joka vuosi. Tämä hiljainen arvon alennus perustellaan usein
+  olevan kansan edun mukaista.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Hvordan sikres transaksjoner på Lightning Network?
+answer: Gjennom kryptografi og indirekte gjennom energien som forbrukes av gruvearbeidere på Bitcoin.
+wrong_answers:
+  - Gjennom bruk av kun private nøkler.
+  - Gjennom bruk av kun offentlige nøkler.
+  - Gjennom bruk av både private og offentlige nøkler kun.
+explanation: >-
+  Transaksjoner på Lightning Network sikres gjennom kryptografi og indirekte gjennom energien som forbrukes av gruvearbeidere på Bitcoin.

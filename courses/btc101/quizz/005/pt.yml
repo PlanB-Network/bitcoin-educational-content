@@ -1,10 +1,9 @@
-question: Qual é o principal objetivo da unidade Bitcoin?
+question: Qual é o principal propósito da unidade Bitcoin?
 answer: A unidade Bitcoin é a moeda necessária para o funcionamento adequado do protocolo Bitcoin.
 wrong_answers:
-  - A unidade Bitcoin é usada para regular o preço do Bitcoin.
-  - A unidade Bitcoin é usada para controlar o protocolo Bitcoin.
-  - A unidade Bitcoin é usada para criar novos bitcoins.
+  - A unidade Bitcoin é uma equipe que regula o preço do Bitcoin.
+  - A unidade Bitcoin é uma autoridade central que controla o protocolo Bitcoin.
+  - A unidade Bitcoin é uma plataforma de câmbio de Bitcoin.
 explanation: |
-  A unidade Bitcoin é a moeda necessária para o funcionamento adequado do protocolo Bitcoin.
-  Ela é usada para transações e depende do protocolo Bitcoin para funcionar.
-reviewed: false
+  A unidade Bitcoin é a moeda necessária para o funcionamento adequado do protocolo Bitcoin. É usada para transações e depende do protocolo Bitcoin para funcionar.
+reviewed: true

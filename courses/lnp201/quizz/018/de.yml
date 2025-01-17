@@ -1,9 +1,9 @@
-question: Was macht Alice, nachdem sie Bob's öffentliche Adresse erhalten hat?
-answer: Sie erstellt eine 2/2 Multi-Sig-Adresse.
+question: Wie wird ein neuer Kanalzustand nach jeder Überweisung erstellt?
+answer: Durch das Erstellen einer neuen Commitment-Transaktion mit der aktualisierten Verteilung
 wrong_answers:
-  - Sie sendet Geld an Bob's öffentliche Adresse.
-  - Sie veröffentlicht eine Transaktion im Bitcoin-Netzwerk.
-  - Sie bittet Bob um seine Unterschrift.
+  - Durch das Veröffentlichen einer On-Chain-Transaktion nach jeder Überweisung
+  - Durch die Erhöhung der Gesamtkapazität des Kanals
+  - Durch das Schließen und Wiederöffnen des Kanals nach jeder Transaktion
 explanation: |
-  Nachdem Alice Bob's öffentliche Adresse erhalten hat, verwendet sie diese zusammen mit ihrer eigenen öffentlichen Adresse, um eine 2/2 Multi-Sig-Adresse zu erstellen. Diese Adresse ist die, an die sie Geld senden wird, um den Kanal zu eröffnen.
+  Jede Transaktion innerhalb des Kanals aktualisiert den Zustand des Kanals mit einer neuen Commitment-Transaktion, die die aktuelle Verteilung der Mittel zwischen den beiden Teilnehmern widerspiegelt.
 reviewed: false

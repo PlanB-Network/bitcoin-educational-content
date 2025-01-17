@@ -1,9 +1,10 @@
-question: Qual é um dos riscos potenciais de deixar seu Bitcoin em uma plataforma de troca?
+question: Qual é um dos riscos potenciais de deixar seus Bitcoins em uma plataforma de câmbio?
 answer: Os riscos de hacking e bloqueio de fundos.
 wrong_answers:
   - O risco da plataforma aumentar o preço do Bitcoin.
   - O risco da plataforma controlar o fornecimento de Bitcoin.
-  - O risco da plataforma impedir que você compre mais Bitcoin.
-explanation: |
-  O texto menciona que deixar seu Bitcoin em uma plataforma de troca pode expô-lo aos riscos de hacking e bloqueio de fundos.
-reviewed: false
+  - O risco do Bitcoin ser superado em preço por uma criptomoeda.
+explanation: >-
+  O texto menciona que deixar seus Bitcoins em uma plataforma de câmbio pode
+  expô-lo aos riscos de hacking e bloqueio de fundos.
+reviewed: true

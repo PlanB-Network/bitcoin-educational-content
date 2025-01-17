@@ -5,7 +5,8 @@ wrong_answers:
   - To track your online activities
   - To increase the speed of your internet connection
 explanation: |
-  2FA adds an extra layer of security to your online accounts. Even if
-  a hacker obtains your password, they will not be able to access your account without
-  the second verification factor.
-reviewed: false
+  2FA adds an extra layer of security to your online
+  accounts. Even if a hacker obtains your password, they will
+  not be able to access your account without the second
+  verification factor.
+reviewed: true

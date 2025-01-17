@@ -1,0 +1,9 @@
+question: How does a MAC allow Alice to verify that a message is indeed from Bob?
+answer: By checking that the generated tag matches the one sent by Bob
+wrong_answers:
+  - By decrypting the message to see if it is readable
+  - By comparing the size of the message and that of the tag
+  - By verifying the sender's IP address
+explanation: |
+  Alice uses the shared secret key to generate a tag from the received message. If this tag matches the one sent by Bob, she knows that the message is authentic and intact.
+reviewed: false

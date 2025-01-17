@@ -1,9 +1,12 @@
-question: In quali ambiti Bitcoin solleva questioni?
-answer: Crittografia, teoria dei giochi, economia e politica monetaria, informatica, filosofia, energia, leggi e regolamentazione
+question: In quali campi solleva domande il Bitcoin?
+answer: Crittografia, teoria dei giochi, economia e politica monetaria, informatica, filosofia, energia, leggi e regolamentazione.
 wrong_answers:
   - Solo informatica ed economia
   - Solo crittografia e teoria dei giochi
   - Solo filosofia ed energia
-explanation: >-
-  Bitcoin è un oggetto multidisciplinare che solleva questioni relative a vari ambiti, inclusi crittografia, teoria dei giochi, economia e politica monetaria, informatica, filosofia, energia, leggi e regolamentazione.
-recensito: false
+explanation: |
+  Il Bitcoin è un argomento multidisciplinare che solleva
+  domande relative a vari campi, inclusi
+  crittografia, teoria dei giochi, economia e politica monetaria,
+  informatica, filosofia, energia, leggi e regolamentazione.
+reviewed: vero

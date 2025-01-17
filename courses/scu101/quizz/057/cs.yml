@@ -1,11 +1,9 @@
 question: Jaký je jeden z přínosů účasti na konferencích a workshopech zaměřených na kybernetickou bezpečnost?
-answer: Umožňuje vám navázat kontakty s profesionály v oboru
+answer: Umožňuje vám navázat kontakty s profesionály v oboru.
 wrong_answers:
   - Je to požadavek pro všechna pracovní místa v oblasti kybernetické bezpečnosti
   - Zaručuje práci v oblasti kybernetické bezpečnosti
   - Je to jediný způsob, jak se dozvědět o kybernetické bezpečnosti
 explanation: |
-  Kapitola uvádí, že účast na konferencích a workshopech zaměřených na kybernetickou bezpečnost
-
-
-  vám nejen umožňuje se učit, ale také pomáhá navazovat kontakty s profesionály v oboru.
+  Kapitola uvádí, že účast na konferencích a workshopech zaměřených na kybernetickou bezpečnost vám nejen umožní se učit, ale také vám pomáhá navazovat kontakty s profesionály v oboru.
+reviewed: true

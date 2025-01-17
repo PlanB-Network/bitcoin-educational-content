@@ -1,12 +1,9 @@
-question: Why does Alice need Bob's signature before publishing the transactions to
-  open a channel?
-answer: To ensure she can recover her funds alone if something goes wrong.
+question: What does a commitment transaction in a Lightning channel reflect?
+answer: The new distribution of funds between the two parties
 wrong_answers:
-  - To confirm Bob's agreement to open the channel.
-  - To verify Bob's identity.
-  - To encrypt the transactions for security.
+  - The total number of transactions made
+  - The amount of fees to be paid for the transaction
+  - The opening of a new payment channel
 explanation: |
-  Alice asks Bob for a signature with his public key before publishing
-  the transactions. This is to ensure that she can recover her funds alone if something
-  goes wrong, as she already has Bob's signature.
+  A commitment transaction represents the current distribution of funds in the channel after each Lightning transaction, but is not published on the blockchain as long as the channel remains open.
 reviewed: false

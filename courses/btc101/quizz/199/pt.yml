@@ -5,5 +5,9 @@ wrong_answers:
   - Comprar Bitcoin apenas quando o preço cai.
   - Comprar Bitcoin apenas quando o preço sobe.
 explanation: |
-  O texto explica que a Média de Custo em Dólar envolve comprar pequenas quantidades de Bitcoin em intervalos regulares. Este método suaviza o preço ao longo do tempo e proporciona crescimento contínuo na quantidade de Bitcoin possuído.
-reviewed: false
+  O texto do curso explica que a técnica de Média de Custo em Dólar
+  envolve comprar pequenas quantidades de Bitcoin em
+  intervalos regulares. Este método nivela as flutuações de preço
+  ao longo do tempo e garante um crescimento contínuo na
+  quantidade de Bitcoin possuída.
+reviewed: true

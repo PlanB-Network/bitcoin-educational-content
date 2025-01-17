@@ -1,0 +1,9 @@
+question: Qual è l'illusione fondamentale dello Stato secondo Marx?
+answer: Rappresenta l'interesse generale e non gli interessi specifici di una classe.
+wrong_answers:
+  - È capace di garantire l'imparzialità.
+  - Serve la società civile.
+  - Promuove la lotta di classe.
+explanation: |
+  Per Marx, lo Stato sostiene di rappresentare l'interesse generale, ma in realtà è uno strumento al servizio degli interessi della classe dominante, perpetuando così l'oppressione delle classi subordinate.
+reviewed: false

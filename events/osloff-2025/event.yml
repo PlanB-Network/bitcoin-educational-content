@@ -1,0 +1,15 @@
+- start_date: 2025-05-26 08:00:00
+  end_date: 2025-05-28 15:00:00
+  timezone: Europe/Berlin
+  address_line_1: Oslo, Norway
+  name: The Oslo Freedom Forum (OFF)
+  builder: OsloFF
+  type: conference
+  description: OsloFF not only promotes democracy in every corner of the globe, but it brings the world's leading human rights voices together to collaborate in the struggle against tyranny.
+  language:
+    - en
+  links:
+    website: https://oslofreedomforum.com/off-2025-attendance-application/
+  tags:
+    - self-sovereignty
+    - regulation

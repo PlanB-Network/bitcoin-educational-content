@@ -1,0 +1,9 @@
+question: Was ist die Illusion bezüglich der Sicherheit von Kommunikationskanälen in der modernen Welt?
+answer: Zu glauben, dass die physische Sicherung des Kanals eine Abhörung verhindert
+wrong_answers:
+  - Zu denken, dass drahtlose Netzwerke ineffektiv sind
+  - Zu glauben, dass Kryptographie für lokale Kommunikation nicht notwendig ist
+  - Zu meinen, dass nur nationale Behörden Daten abfangen können
+explanation: |
+  Es ist eine Illusion zu denken, dass allein die physische Sicherung des Kanals ausreicht, um Vertraulichkeit zu gewährleisten, da viele Abhörpunkte zugänglich bleiben, besonders bei drahtloser Kommunikation.
+reviewed: false

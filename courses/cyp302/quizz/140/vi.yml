@@ -1,0 +1,11 @@
+question: Bản chất của vấn đề phân tích thừa số nào là cơ sở cho sự an toàn của các hệ thống mật mã bất đối xứng như RSA?
+
+answer: Phân tích một số thành hai thừa số nguyên tố rất lớn
+
+wrong_answers:
+  - Phân tích một số thành các thừa số liên tiếp của 2
+  - Giảm một số xuống các ước số nhỏ nhất của nó
+  - Nhân hai số nguyên tố lớn để thu được một tích
+
+explanation: |
+  Sự an toàn của RSA dựa trên sự khó khăn trong việc phân tích một số lớn (tích của hai số nguyên tố lớn) thành hai thừa số nguyên tố của nó, một nhiệm vụ gần như là không thể thực hiện được nếu không có khóa riêng tư.

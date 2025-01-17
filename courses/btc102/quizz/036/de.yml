@@ -1,9 +1,9 @@
-question: Was betont der Satz "Not your keys, not your Bitcoins"?
+question: Was betont der Satz Not your keys, not your Bitcoins?
 answer: Die Bedeutung des Besitzes des privaten Schlüssels für eine Bitcoin-Wallet.
 wrong_answers:
   - Die Bedeutung des Besitzes eines physischen Schlüssels, um auf Ihre Bitcoins zugreifen zu können.
   - Die Bedeutung, Ihre Bitcoins an einem sicheren Ort aufzubewahren.
   - Die Bedeutung, Ihre Bitcoin-Kontodaten nicht zu teilen.
 explanation: |
-  Das Kapitel erklärt, dass der Satz "Not your keys, not your Bitcoins" die Bedeutung des Besitzes des privaten Schlüssels für eine Bitcoin-Wallet betont. Durch den Besitz des privaten Schlüssels haben Sie die volle Kontrolle über die enthaltenen Bitcoins.
+  Das Kapitel erklärt, dass der Satz Not your keys, not your Bitcoins die Bedeutung des Besitzes des privaten Schlüssels für eine Bitcoin-Wallet betont. Durch den Besitz des privaten Schlüssels haben Sie die volle Kontrolle über die enthaltenen Bitcoins.
 reviewed: false

@@ -1,9 +1,13 @@
-question: ¿Cuál es el uso recomendado de una billetera física sin conexión o en frío?
-answer: Para almacenar cantidades mayores
+question: ¿Cuál es el uso recomendado de una cartera física sin conexión, o fría?
+answer: Almacenar grandes cantidades.
 wrong_answers:
-  - Para gastos diarios
-  - Para cantidades pequeñas
-  - Para ahorros a corto plazo
+  - Almacenar gastos diarios.
+  - Almacenar pequeñas cantidades.
+  - Almacenar ahorros a corto plazo.
 explanation: |
-  Se recomienda utilizar una billetera física sin conexión o en frío para almacenar cantidades mayores, ya que es menos vulnerable a las amenazas en línea. Sin embargo, no se recomienda para gastos diarios, ya que es menos accesible para transacciones diarias.
-reviewed: false
+  Se recomienda una cartera física sin conexión, o fría, para
+  almacenar grandes cantidades porque es menos vulnerable a
+  amenazas en línea que las carteras calientes. Sin embargo, no se
+  recomienda para gastos diarios porque es menos accesible para
+  transacciones diarias.
+reviewed: true

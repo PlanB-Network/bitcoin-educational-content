@@ -1,10 +1,9 @@
-question: Jaká hashovací funkce je klíčovým prvkem protokolu Bitcoin?
-answer: SHA-256
+question: Jaký je hlavní rozdíl mezi operacemi ShR a RotR?
+answer: ShR posouvá bity přidáním nul, RotR vrací posunuté bity zpět
 wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
+  - ShR odstraňuje posunuté bity, RotR násobí jejich hodnotu
+  - ShR posouvá doleva, RotR posouvá doprava
+  - ShR je logická operace, RotR je aritmetická
 explanation: |
-  SHA-256 je klíčovým prvkem protokolu Bitcoin. Používá se k vytvoření
-  jedinečného a nevratného otisku transakčních dat, což je zásadní pro
-  bezpečnost a integritu sítě Bitcoin.
+  ShR posouvá bity doprava přidáním nul, zatímco RotR provádí kruhovou rotaci bitů.
+reviewed: false

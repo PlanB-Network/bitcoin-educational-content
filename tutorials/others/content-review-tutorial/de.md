@@ -1,108 +1,153 @@
 ---
-name: Beitrag - Überprüfung
-description: Wie kann man an der Überprüfung von Bildungsinhalten im PlanB Netzwerk teilnehmen?
+name: Beitrag - Rückblick
+description: Wie kann man sich an der Überprüfung von Bildungsinhalten im Plan ₿ Network beteiligen?
 ---
 ![github](assets/cover.webp)
 
-## TL;DR
-Wenn du Inhalte für das PlanB Netzwerk überprüfen möchtest, gehe zur [zugehörigen Projektseite](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) für deine Sprache. Wähle den Inhalt aus, den du überprüfen möchtest, kommentiere, um uns wissen zu lassen, dass du die Aufgabe übernimmst, und reiche einen PR ein, sobald du fertig bist, auf dem Branch, der mit der Sprache verbunden ist.
+## Zusammenfassung
 
-Wenn du den oben genannten Teil nicht verstanden hast, keine Sorge, dieses Tutorial ist für dich!
+Wenn Sie sich an der Überprüfung und Korrektur von Inhalten für Plan ₿ Network beteiligen möchten, treten Sie [unserer Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) bei, die für Beiträge vorgesehen ist. Stellen Sie sich kurz vor und geben Sie dann den Inhalt, den Sie überprüfen möchten, und die Sprache an. Nehmen Sie Ihre Korrekturen an einem Arbeitszweig vor und reichen Sie einen PR ein, sobald Ihre Überprüfung abgeschlossen ist.
+
+Falls Sie den obigen Teil nicht verstanden haben, keine Sorge - diese Anleitung ist für Sie!
 
 ---
+## Was ist Plan ₿ Network?
 
-## Was ist das PlanB Netzwerk?
+Plan ₿ Network ist eine Plattform, um durch zahlreiche Kurse und Tutorials für jedermann etwas über Bitcoin zu lernen. Derzeit sind alle unsere Inhalte Open-Source, gehostet auf einem GitHub-Repository und offen für Beiträge zur Überprüfung und Erstellung von Inhalten.
 
-Planb.network ist eine brandneue Plattform zum Lernen über Bitcoin durch zahlreiche Kurse und Tutorials für jeden. Derzeit ist all unser Inhalt Open-Source, gehostet auf einem GitHub-Repo und offen für Beiträge zur Überprüfung und Erstellung von Inhalten.
+Plan ₿ Network will der öffentliche Platz des Bitcoin-Cyberspace werden, der Bitcoin-Gemeinschaften weltweit verbindet und fördert.
 
-PlanB.network zielt darauf ab, der öffentliche Platz des Bitcoin-Cyberspace zu werden, indem Bitcoin-Gemeinschaften weltweit verbunden und gefördert werden.
+## Warum ein Beitrag?
 
-## Warum beitragen?
+Plan ₿ Network ist grundsätzlich mehrsprachig, denn unser Ziel ist es, Bitcoin-Ressourcen für jeden weltweit zugänglich zu machen. Wir glauben, dass Sprache kein Hindernis für souveränes Geld sein sollte.
 
-PlanB.network ist grundlegend mehrsprachig, da unser Ziel ist, Bitcoin-Ressourcen weltweit für jeden zugänglich zu machen. Wir glauben, dass Sprache kein Hindernis für souveräne Währung sein sollte.
+Um dies zu erreichen, verwenden wir einen Mensch x KI-Ansatz. Mit unserem [Programm] (https://github.com/Asi0Flammeus/LLM-Translator) können wir unsere Inhalte automatisch in viele Sprachen übersetzen. Wir benötigen jedoch einen fließend sprechenden Menschen, der die Inhalte überprüft, um sicherzustellen, dass sie verständlich und frei von unangemessenen Begriffen sind.
 
-Deshalb nutzen wir einen Human x AI-Ansatz, um dieses Ziel zu erreichen. Dank unseres [einfachen Programms](https://github.com/Asi0Flammeus/LLM-Translator) können wir unseren Inhalt automatisch in viele Sprachen übersetzen. Bevor wir ihn jedoch veröffentlichen, benötigen wir eine Person, die fließend in der Sprache ist, um ihn zu überprüfen, um sicherzustellen, dass der Inhalt verständlich ist und keine unangemessenen Begriffe enthält.
+Wenn Sie beim Aufbau dieses Bildungsprojekts helfen möchten, um die Bitcoin-Bildung in Ihrer Gemeinde zu fördern, können Sie damit beginnen, einen Kurs oder ein Tutorial zu überprüfen.
 
-Wenn du uns bei diesem Bildungsprojekt unterstützen möchtest, um die Bitcoin-Bildung in deiner Gemeinschaft zu fördern, kannst du beginnen, indem du einen Kurs oder ein Tutorial überprüfst.
-
-Darüber hinaus wird Découvre Bitcoin (DB), das für die Bewertung von Beiträgen zuständig ist, und wir (DB) schätzen das *Value4Value*-Modell, Überprüfungsbeiträge belohnen. Die Belohnung basiert auf der Länge des Inhalts, der sprachlichen Genauigkeit unserer Auto-Übersetzung und der Schwierigkeit des Inhalts.
+Da wir das *Value4Value*-Modell hochhalten, werden wir außerdem Beiträge zu Rezensionen belohnen. Die Belohnung richtet sich nach der Länge des Inhalts, der sprachlichen Genauigkeit unserer Autoübersetzung und dem Schwierigkeitsgrad des Inhalts.
 
 ## Muss ich wissen, wie GitHub funktioniert?
 
-Du musst kein GitHub-Experte sein, um Inhalte zu überprüfen.
-Obwohl es immer besser ist zu verstehen, was du tust (und warum), kannst du einfach den untenstehenden Anweisungen folgen, um beizutragen.
+Sie müssen kein GitHub-Experte sein, um Inhalte zu überprüfen. Obwohl es immer besser ist, zu verstehen, was man tut (und warum), können Sie einfach den unten stehenden Anweisungen folgen, um einen Beitrag zu leisten.
 
-Wenn du jedoch völlig unvertraut damit bist, wie Git und GitHub funktionieren, und mehr erfahren möchtest, kannst du unseren einführenden Artikel zu diesen Tools entdecken.
+Wenn Sie jedoch mit Git und GitHub nicht vertraut sind und mehr darüber erfahren möchten, können Sie sich unseren Einführungsartikel über diese Tools ansehen:
 
-https://planb.network/tutorials/others/basics-of-github
-
-
-
-## 1. Erstelle ein Konto
-* Erstelle ein Konto auf GitHub, um mit dem Beitrag zu beginnen. Wenn du Anleitung benötigst, wie du dein Konto auf GitHub erstellen kannst, haben wir auch ein detailliertes Tutorial.
-
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+## 1. Ein Konto erstellen
 
 
-## **2. Gehe zur Projektseite deiner Sprache**
-* Die [Projektseite](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) enthält Inhalte in deiner Sprache, die auf einem Kanban-Board angezeigt werden.
-* Suche nach Karten in der Spalte "Review Needed" (siehe **A**). Das sind Probleme, die du überprüfen kannst.
-* Jede Karte enthält Details (siehe **B**):
-	- **Content Type**: Kurs, Tutorial oder Website
-	- **Content Difficulty**
-	- **Urgency**
-	- **Word Count**
-	- **Associated Reward**: Basierend auf den Inhaltseigenschaften und der Genauigkeit der Übersetzung (siehe [Belohnungsabschnitt](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
-## **3. Inhalte zur Überprüfung finden**
-* In der Spalte "Review Needed" klicken Sie auf eine Karte.
-* Die Karte enthält eine Beschreibung mit Links zum Originalinhalt und zur Datei zur Überprüfung (siehe **A**).
-* Wenn Sie sie überprüfen möchten, hinterlassen Sie einen Kommentar, um uns mitzuteilen, dass Sie daran arbeiten werden (siehe **B**).
-* Klicken Sie auf den Link neben `File to Review` (siehe **C**).
+- Erstellen Sie ein Konto auf [GitHub] (https://github.com/), um Beiträge zu leisten. Wenn Sie eine Anleitung zur Erstellung Ihres GitHub-Kontos benötigen, finden Sie hier eine ausführliche Anleitung:
 
-## **4. Inhalte über die GitHub-Oberfläche überprüfen und bearbeiten**
-* Sie können jetzt die GitHub-Oberfläche der zu überprüfenden Datei sehen.
-* Das linke Panel ermöglicht es Ihnen, durch Ihren Branch zu navigieren (siehe **A**) und die Dateien zu sehen (siehe **B**).
-* Klicken Sie auf das Stift-Symbol, um die Überprüfung zu starten (siehe **C**).
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-* Wenn es Ihr erstes Mal ist, wird GitHub Sie bitten, das Repository zu forken.
+- Sie benötigen außerdem ein Konto bei der Messaging-App [Telegram] (https://telegram.org/).
 
-* Als Nächstes gelangen Sie zur Editor-Oberfläche (siehe **A**), wo Sie den Dateipfad und den entsprechenden Branch sehen können (siehe **B**), und Sie können zwischen Bearbeitungsmodus und Vorschaumodus umschalten (siehe **C**).
+## 2. Der Telegram-Gruppe beitreten
 
-NB. Die Überprüfung wird am besten im Codefenster durchgeführt, mit dem Originalinhalt in einem separaten Fenster daneben.
 
-## **5. Änderungen übernehmen**
+- Treten Sie [der PBN Content Builder Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) auf Telegram bei.
 
-* Wenn Sie Ihre Überprüfungssitzung beenden möchten, können Sie Ihre Änderungen übernehmen, auch wenn die Überprüfung nicht abgeschlossen ist – es ist ein bisschen wie "Ihre Änderungen auf GitHub speichern".
-* Klicken Sie auf den Button "Commit Changes" (siehe **A**).
+![REVIEW](assets/fr/01.webp)
 
-* Fügen Sie eine beschreibende Nachricht über Ihre Änderung hinzu (siehe **B**).* Fügen Sie bei Bedarf mehr Kontext in der Beschreibung hinzu (siehe **C**).
-* Klicken Sie auf den Button "Propose Changes" (siehe **D**).
 
-* Dies öffnet eine PR (Pull Request) Vorschlagsseite.
+- Stellen Sie sich kurz vor und geben Sie den Inhalt, zu dem Sie beitragen möchten, und die Sprache in einer Nachricht an den Kanal "Allgemein" an.
+- Ein Teammitglied wird dann einen Eintrag auf GitHub für Ihren zukünftigen Beitrag erstellen. Dort finden Sie alle Informationen, die Sie benötigen, um Ihre Überprüfung zu beginnen.
 
-## **6. Erstellen Sie einen PR mit dem dedizierten Branch**
-* Sie können überprüfen, dass dieser PR vorschlägt, Ihren Branch in den dedizierten Branch der entsprechenden Sprache zu mergen (siehe **A**).
-* Geben Sie dem PR einen beschreibenden Namen (siehe **B**).
-* Fügen Sie Kontext in der Beschreibung hinzu (siehe **C**).
-* Wenn nicht fertig, klicken Sie auf den Dropdown-Pfeil neben "Create Pull Request" und wählen Sie "Draft PR" (siehe **D**).
-* Klicken Sie auf "Draft Pull Request".
-* Glückwunsch zu Ihrem ersten PR!
+![REVIEW](assets/fr/02.webp)
 
-## **7. Die Überprüfung später fortsetzen**
-* Wenn Sie Ihre Überprüfung nicht abgeschlossen haben und Ihre Arbeit fortsetzen möchten, gehen Sie zu Ihrem Fork des PlanB-Network Inhaltsrepositorys über Ihr GitHub-Profil.
-* Wählen Sie den entsprechenden Branch.
-* Benennen Sie den Branch bei Bedarf um.
-* Finden Sie Ihre Inhaltsdatei und klicken Sie auf das Stift-Symbol, um die Überprüfung fortzusetzen.
+## 3. Überprüfen und bearbeiten Sie den Inhalt über die Schnittstelle von GitHub
 
-## **8. Direkt auf Ihrem eigenen Branch übernehmen**
-* Machen Sie Commits, um die Änderungen direkt auf Ihrem Branch zu validieren, während Sie fortschreiten.
 
-## **9. Beenden und den PR zur Überprüfung bereitstellen**
-* Gehen Sie zum Tab "Pull Requests".
-* Wählen Sie Ihren PR.
-* Klicken Sie auf "Ready for Review".
+- Die Ausgabe enthält eine Beschreibung (vgl. **A**) mit Links zum ursprünglichen Inhalt und der zu prüfenden Datei.
+- Wenn Sie die Überprüfung übernehmen wollen, hinterlassen Sie einen Kommentar zu dem Problem (vgl. **B**), um anzugeben, dass Sie daran arbeiten werden. Dies verhindert doppelte Arbeit.
+- Klicken Sie auf den Link neben der zu prüfenden Datei (vgl. **C**), um auf den Inhalt zuzugreifen.
 
-## 10. Auf die Überprüfung warten
-* Nach der Genehmigung wird Découvre Bitcoin Sie kontaktieren, um Ihre Belohnung über LN zu senden.
-* Wenn Sie von vorne beginnen möchten, kehren Sie zu Schritt 2 zurück, um weiterhin zu anderen Inhalten beizutragen.
-* Wenn Sie Anmerkungen, Fragen oder Kommentare zu diesem Projekt haben, können Sie eine Direktnachricht (DM) über Telegram an @asi0_flammeus senden.
+![REVIEW](assets/fr/03.webp)
+
+
+- Sie können nun die GitHub-Schnittstelle der zu prüfenden Datei anzeigen.
+- Im linken Bereich können Sie durch Ihren Zweig (vgl. **A**) und Ihre Dateien (vgl. **B**) navigieren.
+- Klicken Sie auf das Bleistiftsymbol, um mit der Überprüfung zu beginnen (vgl. **C**).
+
+![REVIEW](assets/fr/04.webp)
+
+
+- Wenn dies Ihr erster Beitrag ist, werden Sie von GitHub aufgefordert, das Quell-Repository zu forken. Klicken Sie einfach auf die Schaltfläche.
+
+![REVIEW](assets/fr/05.webp)
+
+
+- Sie gelangen dann zur Editor-Oberfläche (vgl. **A**), wo Sie den Dateipfad und die entsprechende Verzweigung sehen (vgl. **B**) und zwischen Bearbeitungs- und Vorschaumodus wechseln können (vgl. **C**).
+
+![REVIEW](assets/fr/06.webp)
+
+NB. Es wird empfohlen, den Text im Code-Fenster zu überprüfen, wobei der Originalinhalt in einem separaten Fenster angezeigt wird. Sie können den Text zum Beispiel auf der Website des Plan ₿ Network oder in der GitHub-Vorschau in einem Browser-Tab anzeigen. Verwenden Sie die Tastenkombination "Strg + F", um Fehler aufzuspüren und Korrekturen in der Codeansicht vorzunehmen.
+
+## 4. Änderungen vornehmen
+
+
+- Sie können den Inhalt nach Bedarf überprüfen und korrigieren.
+- Wenn Sie Ihre Sitzung unterbrechen möchten, können Sie Ihre Änderungen festschreiben, auch wenn die Überprüfung noch nicht abgeschlossen ist. Es ist so, als ob Sie Ihren Fortschritt auf GitHub speichern würden.
+- Klicken Sie auf die Schaltfläche "Änderungen übernehmen...".
+
+![REVIEW](assets/fr/07.webp)
+
+
+- Fügen Sie eine beschreibende Meldung für Ihre Änderungen hinzu (vgl. **A**).
+- Fügen Sie in der Beschreibung erforderlichenfalls mehr Kontext hinzu (vgl. **B**).
+- Klicken Sie auf die Schaltfläche "Änderungen vorschlagen" (vgl. **C**).
+
+![REVIEW](assets/fr/08.webp)
+
+
+- Wenn dies nicht Ihr erster Beitrag ist, wird GitHub Sie auffordern, einen neuen Zweig zu erstellen. Sie sollten niemals direkt in den Hauptzweig `dev` übertragen. Wenn Sie bereits Übertragungen in einem bestehenden Arbeitszweig vorgenommen haben, wählen Sie diesen Zweig aus. Andernfalls wählen Sie die Option "Create a new branch", um einen neuen Zweig zu erstellen.
+
+![REVIEW](assets/fr/13.webp)
+
+
+- Sie gelangen dann auf eine Seite, die alle Ihre Änderungen zusammenfasst. Wenn Sie durch die Seite blättern, sehen Sie die genauen Änderungen: Gelöschte Elemente erscheinen in rot, hinzugefügte Elemente in grün.
+
+![REVIEW](assets/fr/09.webp)
+
+
+- Wenn Sie Ihre Prüfung noch nicht abgeschlossen haben und Ihre Arbeit später fortsetzen möchten, können Sie sie einfach beenden.
+- Solange Sie Ihre Änderungen übertragen haben, werden sie auf Ihrem GitHub-Fork gespeichert.
+- Um Ihre Arbeit fortzusetzen, gehen Sie zu Ihrem Fork des Plan ₿ Network Content Repository über Ihr GitHub-Profil.
+
+![REVIEW](assets/fr/14.webp)
+
+
+- Wählen Sie den Zweig aus, der Ihren Fortschritt enthält (vgl. **A**), suchen Sie Ihre Inhaltsdatei (vgl. **B**), und klicken Sie dann auf das Bleistiftsymbol, um die Überprüfung fortzusetzen.
+
+![REVIEW](assets/fr/15.webp)
+
+## 5. Erstellen Sie einen PR mit dem entsprechenden Zweig
+
+
+- Wenn alles gut aussieht und Sie Ihre Änderungen abgeschlossen haben, klicken Sie auf die grüne Schaltfläche "Pull Request erstellen".
+
+![REVIEW](assets/fr/10.webp)
+
+
+- Sie gelangen dann auf die PR-Seite. Ein Pull Request ist eine Anfrage zur Übermittlung von Änderungen, die in einem Zweig eines entfernten Repositorys vorgenommen wurden, zur Überprüfung und möglichen Zusammenführung in den Hauptzweig.
+- Fügen Sie einen Titel und eine kurze Beschreibung zu Ihrer PR hinzu. Der Titel sollte zu der Ausgabe passen, an der Sie arbeiten. Wenn der Titel der Ausgabe zum Beispiel `[ÜBERSETZUNG] Kurs CYP201 - FR` lautet, verwenden Sie den gleichen Titel für Ihre PR (vgl. **A**). Erwähnen Sie in der Beschreibung die zugehörige Ausgabe mit ihrer Nummer und dem vorangestellten "Schließt". Dadurch wird das Problem automatisch geschlossen, sobald der PR zusammengeführt wird (vgl. **B**).
+- Wenn alles gut aussieht, klicken Sie auf die grüne Schaltfläche "Pull Request erstellen" (vgl. **C**).
+
+![REVIEW](assets/fr/11.webp)
+
+## 6. Warten auf Überprüfung
+
+
+- Herzlichen Glückwunsch, Ihr PR wurde eingereicht! Sie können den Fortschritt in der Registerkarte "Pull Requests" auf [Plan ₿ Network's GitHub repository] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls) verfolgen:
+
+![REVIEW](assets/fr/12.webp)
+
+
+- Herzlichen Dank für Ihren Beitrag! Nach der Genehmigung wird sich ein Mitglied des Plan ₿ Network-Teams mit Ihnen in Verbindung setzen, um Ihnen Ihre Belohnung zukommen zu lassen. **Auszahlungen erfolgen ausschließlich über das Lightning Network**.
+- Wenn Sie wieder anfangen möchten, kehren Sie zu Schritt 2 zurück und senden Sie eine neue Nachricht in der Telegram-Gruppe, um weiterhin zu anderen Inhalten beizutragen. Stellen Sie sicher, dass Sie Ihren Fork synchronisieren, bevor Sie einen neuen Arbeitszweig erstellen. Gehen Sie dazu auf die Homepage Ihrer Abspaltung, wählen Sie den Hauptzweig namens `dev` (vgl. **A**) und klicken Sie dann auf die Schaltfläche "Abspaltung synchronisieren" (vgl. **B**). Wenn Aktualisierungen für Ihren Zweig verfügbar sind, erscheint eine Schaltfläche "Zweig aktualisieren". Klicken Sie einfach auf diese Schaltfläche, um die Aktualisierung durchzuführen.
+
+![REVIEW](assets/fr/16.webp)
+
+
+- Wenn Sie Anmerkungen, Fragen oder Kommentare zu diesem Projekt haben, können Sie eine DM [an die Telegram-Gruppe der Mitwirkenden] (https://t.me/PlanBNetwork_ContentBuilder) senden.

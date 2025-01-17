@@ -1,0 +1,9 @@
+question: Mis on rühma nimetus, mis rahuldab kommutatiivsuse tingimust?
+answer: Abeli rühm
+wrong_answers:
+  - Suletud rühm
+  - Assotsiatiivne rühm
+  - Pöördeline rühm
+explanation: |
+  Abeli ehk kommutatiivne rühm on rühm, milles elementide järjekord binaaroperatsioonis ei mõjuta tulemust. See tähendab, et mis tahes a ja b korral kehtib a ∘ b = b ∘ a.
+reviewed: false

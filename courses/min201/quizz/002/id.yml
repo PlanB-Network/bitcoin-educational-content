@@ -1,0 +1,15 @@
+question: Apa perbedaan utama antara CPU dan ASIC dalam konteks penambangan Bitcoin?
+answer: CPU dapat melakukan berbagai jenis perhitungan tanpa secara khusus dioptimalkan untuk satu jenis perhitungan, sedangkan ASIC hanya dapat melakukan satu jenis perhitungan, tetapi dengan sangat efisien
+wrong_answers:
+  - CPU lebih hemat energi daripada ASIC
+  - ASIC lebih serbaguna daripada CPU
+  - CPU hanya dapat melakukan satu jenis perhitungan, sedangkan ASIC dapat melakukan berbagai jenis perhitungan yang berbeda
+explanation: |
+  ASIC adalah chip, sebanding dengan chip CPU, namun,
+  mereka dikembangkan untuk melakukan hanya satu jenis
+  perhitungan dengan cara yang paling efisien. Dengan kata lain,
+  CPU mampu melakukan berbagai jenis perhitungan tanpa
+  secara khusus dioptimalkan untuk satu jenis perhitungan atau
+  lainnya, sedangkan ASIC akan dapat melakukan hanya satu jenis
+  perhitungan, tetapi dengan sangat efisien.
+reviewed: true

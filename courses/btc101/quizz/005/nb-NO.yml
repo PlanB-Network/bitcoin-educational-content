@@ -1,0 +1,10 @@
+question: Hva er hovedformålet med Bitcoin-enheten?
+answer: Bitcoin-enheten er valutaen som er nødvendig for at Bitcoin-protokollen skal fungere ordentlig.
+wrong_answers:
+  - Bitcoin-enheten brukes til å regulere prisen på Bitcoin.
+  - Bitcoin-enheten brukes til å kontrollere Bitcoin-protokollen.
+  - Bitcoin-enheten brukes til å skape nye bitcoins.
+explanation: |
+  Bitcoin-enheten er valutaen som er nødvendig for at Bitcoin-protokollen skal fungere ordentlig.
+  Den brukes for transaksjoner og er avhengig av Bitcoin-protokollen for å fungere.
+reviewed: true

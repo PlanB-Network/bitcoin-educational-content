@@ -1,0 +1,9 @@
+question: Jaká je rakouská kritika marxistické teorie zisku?
+answer: Zisk je nezbytná odměna pro podnikatele, kteří podstupují rizika a investují.
+wrong_answers:
+  - Rakouští ekonomové tvrdí, že zisk je formou vykořisťování pracovníků.
+  - Rakouští ekonomové kritizují Marxovu teorii, protože nebere v úvahu roli zásluh.
+  - Marxistická teorie zisku slouží zájmům třídy.
+explanation: |
+  Pro rakouské ekonomy zisk představuje kompenzaci pro podnikatele za podstoupená rizika a provedené investice, v opozici k marxistickému pohledu, který jej vidí jako vykořisťování pracovníků.
+reviewed: false

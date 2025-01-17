@@ -1,11 +1,9 @@
-question: Was ist die Ordnung der secp256k1-Kurve, die in Bitcoin verwendet wird?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: Wie viele Bits Entropie werden für eine 24-Wort-Mnemonik-Phrase verwendet?
+answer: 256 Bits
 wrong_answers:
-  - 2^256
-  - 2^256 - 1
-  - 2^256 - 432420386565659656852420866394968145598
+  - 128 Bits
+  - 512 Bits
+  - 64 Bits
 explanation: |
-  Die Ordnung der secp256k1-Kurve, die in Bitcoin verwendet wird, beträgt 2^256 -
-  432420386565659656852420866394968145599.
-  Dies ist die Anzahl der Punkte auf der Kurve.
+  Eine 24-Wort-Mnemonik-Phrase basiert auf 256 Bits Entropie, was eine sehr hohe Sicherheit gewährleistet.
 reviewed: false

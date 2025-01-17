@@ -1,8 +1,9 @@
 question: AMFとは何ですか？
-answer: "Autorité des Marchés Financiers"
+answer: 金融市場庁。
 wrong_answers:
-  - アメリカ通貨基金
-  - 鉱業施設協会
-  - 自動マネーフロー
-explanation: >-
-  "AMF、またはAutorité des Marchés Financiersは、ビットコインが購入できるプラットフォームを規制するフランスの組織です。"
+  - アメリカ通貨基金。
+  - 鉱業施設協会。
+  - 自動マネーフロー。
+explanation: |
+  AMF、または金融市場庁は、ビットコインが購入できるプラットフォームを規制するフランスの組織です。
+reviewed: true

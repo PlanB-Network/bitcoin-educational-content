@@ -1,12 +1,13 @@
-question: What is the potential outcome of a too rapid devaluation or loss of confidence
+question: What is the potential outcome of a sudden depreciation or a loss of confidence in a fiduciary currency?
   in a fiduciary currency?
-answer: It can lead to hyperinflation.
+answer: Hyperinflation.
 wrong_answers:
-  - It can lead to deflation.
-  - It can lead to a stable economy.
-  - It can lead to an increase in the value of the currency.
+  - Deflation.
+  - A stable economy.
+  - An increase in the value of the currency.
 explanation: |
-  A too rapid devaluation or loss of confidence in a fiduciary currency
-  can lead to hyperinflation. This is a situation where the prices of goods and services
-  increase at an extremely high rate, often leading to economic instability.
+  A sudden devaluation or a loss of confidence in a fiduciary
+  currency can lead to hyperinflation. This is a situation
+  where the prices of goods and services increase at an
+  extremely high rate, often leading to economic instability.
 reviewed: true

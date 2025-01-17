@@ -1,9 +1,0 @@
-question: Quel est le but du méta-protocole LNURL dans une facture du réseau Lightning ?
-answer: Il permet de fournir un montant direct en satoshis au lieu de faire une demande.
-wrong_answers:
-  - Il chiffre les données de la facture
-  - Il vérifie l'identité du destinataire
-  - Il calcule les frais de transaction
-explanation: |
-  Le méta-protocole LNURL dans une facture du réseau Lightning permet de fournir un montant direct en satoshis au lieu de faire une demande. Cette fonctionnalité améliore l'expérience utilisateur en rendant le processus de paiement plus flexible.
-reviewed: false

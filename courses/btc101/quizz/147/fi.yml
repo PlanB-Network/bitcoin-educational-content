@@ -1,13 +1,9 @@
-question: Mitkä olisivat seuraukset, jos lohkot olisivat 100 kertaa raskaampia?
-answer: Bitcoin-solmun pyörittäminen ei olisi keskiverto henkilön ulottuvilla, mikä vaarantaisi protokollan hajautuksen sekä tapahtumien ja konsensus sääntöjen muuttumattomuuden.
+question: Mitkä olisivat seuraukset Bitcoin-käyttäjille, jos lohkot olisivat 100 kertaa raskaampia?
+answer: Bitcoin-solmun pyörittäminen ei olisi tavallisen ihmisen saavutettavissa, mikä vaarantaisi protokollan hajauttamisen sekä tapahtumien ja konsensus sääntöjen muuttumattomuuden.
 wrong_answers:
-  - Bitcoin-solmun pyörittäminen olisi keskiverto henkilölle helpommin saavutettavissa, mikä parantaisi protokollan hajautusta sekä tapahtumien ja konsensus sääntöjen muuttumattomuutta.
-  - Verkon tapahtumakapasiteetti vähenisi.
+  - Bitcoin-solmun pyörittäminen olisi tavalliselle ihmiselle helpommin saavutettavissa, mikä parantaisi protokollan hajauttamista sekä tapahtumien ja konsensus sääntöjen muuttumattomuutta.
+  - Verkon transaktiokapasiteetti vähenisi.
   - Louhijoiden lohkopalkkio kasvaisi.
 explanation: |
-  Jos lohkot olisivat 100 kertaa raskaampia, Bitcoin-solmun pyörittäminen vaatisi
-  50TB kovalevyn, yli 500GB/kk datasiirron ja laitteiston, joka kykenee vahvistamaan
-  satoja tuhansia tapahtumia alle 10 minuutissa. Tämä tekisi Bitcoin-solmun pyörittämisestä
-  keskiverto henkilölle saavuttamattoman, vaarantaen protokollan hajautuksen
-  sekä tapahtumien ja konsensus sääntöjen muuttumattomuuden.
-reviewed: false
+  Jos lohkot olisivat 100 kertaa raskaampia, Bitcoin-solmun pyörittäminen vaatisi 50TB kovalevyn, yli 500GB kuukausittaisen tiedonsiirron ja laitteiston, joka pystyy vahvistamaan satoja tuhansia transaktioita alle 10 minuutissa. Tämä tekisi Bitcoin-solmun pyörittämisestä tavalliselle ihmiselle saavuttamattoman, vaarantaen protokollan hajauttamisen sekä tapahtumien ja konsensus sääntöjen muuttumattomuuden.
+reviewed: true

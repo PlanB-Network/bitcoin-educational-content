@@ -1,9 +1,9 @@
-question: Warum wird empfohlen, Open-Source-Wallets für Bitcoin-Transaktionen zu verwenden?
-answer: Sie ermöglichen die Überprüfung der Zufallszahlengenerierung.
+question: Wie groß ist die Gesamtgröße eines erweiterten Schlüssels mit Prüfsumme?
+answer: 82 Bytes
 wrong_answers:
-  - Sie sind günstiger als geschlossene Wallets.
-  - Sie sind schneller als geschlossene Wallets.
-  - Sie sind sicherer als geschlossene Wallets.
+  - 78 Bytes
+  - 64 Bytes
+  - 128 Bytes
 explanation: |
-  Open-Source-Wallets ermöglichen es den Benutzern, die Generierung der Zufallszahl zu überprüfen, was ein entscheidender Schritt zur Sicherung der privaten Schlüssel und Bitcoin-Transaktionen ist.
+  Ein erweiterter Schlüssel ist ohne die Prüfsumme 78 Bytes groß und mit der Prüfsumme inbegriffen 82 Bytes.
 reviewed: false

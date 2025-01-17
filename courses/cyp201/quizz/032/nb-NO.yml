@@ -1,0 +1,9 @@
+question: Hvilket sighash-flagg tillater crowdfunding ved å dekke et enkelt inndata og alle utdata?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL kombinert med SIGHASH_ANYONECANPAY tillater å legge til inndata uten å endre utdataene.
+reviewed: false

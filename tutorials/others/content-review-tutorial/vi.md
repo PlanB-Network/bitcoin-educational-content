@@ -1,122 +1,153 @@
 ---
-name: Đóng góp - Đánh giá
-description: Làm thế nào để tham gia đánh giá nội dung giáo dục trên Mạng lưới PlanB?
+name: Contribution - Review
+description: How to participate in the review of educational content on Plan ₿ Network?
 ---
 ![github](assets/cover.webp)
 
-## TL;DR
-Nếu bạn muốn đánh giá nội dung cho Mạng lưới PlanB, hãy truy cập [trang dự án liên quan](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) cho ngôn ngữ của bạn. Chọn nội dung bạn muốn đánh giá, bình luận để chúng tôi biết bạn đang nhận nhiệm vụ này, và gửi một PR khi hoàn thành trên nhánh liên quan đến ngôn ngữ.
+## In Summary
 
-Nếu bạn không hiểu phần trên, đừng lo, hướng dẫn này dành cho bạn!
+If you want to participate in reviewing and correcting content for Plan ₿ Network, join [our Telegram group](https://t.me/PlanBNetwork_ContentBuilder) dedicated to contributions. Introduce yourself briefly, then specify the content you’d like to review and the language. Make your corrections on a working branch and submit a PR once your review is complete.
+
+If you didn’t understand the part above, don’t worry—this tutorial is for you!
 
 ---
+## What is Plan ₿ Network?
 
-## Mạng lưới PlanB là gì?
+Plan ₿ Network is a platform to learn about Bitcoin through numerous courses and tutorials for everyone. Currently, all our content is open-source, hosted on a GitHub repository, and open to contributions for review and content creation.
 
-Planb.network là một nền tảng mới toanh dành cho việc học về Bitcoin qua nhiều khóa học và hướng dẫn dành cho mọi người. Hiện tại, tất cả nội dung của chúng tôi đều là mã nguồn mở, được lưu trữ trên một kho GitHub và mở cửa cho việc đóng góp đánh giá và tạo nội dung.
+Plan ₿ Network aims to become the public square of the Bitcoin cyberspace, connecting and encouraging Bitcoin communities worldwide.
 
-Mạng lưới PlanB hướng tới mục tiêu trở thành quảng trường công cộng của không gian mạng Bitcoin, kết nối và khuyến khích các cộng đồng Bitcoin trên toàn thế giới.
+## Why contribute?
 
-## Tại sao lại đóng góp?
+Plan ₿ Network is fundamentally multilingual, as our goal is to make Bitcoin resources accessible to everyone worldwide. We believe that language should not be a barrier to sovereign money.
 
-Mạng lưới PlanB cơ bản là đa ngôn ngữ, vì mục tiêu của chúng tôi là làm cho nguồn lực Bitcoin dễ tiếp cận với mọi người trên toàn thế giới. Chúng tôi tin rằng ngôn ngữ không nên là rào cản đối với tiền tệ chủ quyền.
+To achieve this, we use a Human x AI approach. Through our [program](https://github.com/Asi0Flammeus/LLM-Translator), we can automatically translate our content into many languages. However, we need a fluent speaker to review it to ensure the content is intelligible and free of inappropriate terms.
 
-Do đó, chúng tôi sử dụng phương pháp Con người x AI để đạt được mục tiêu này. Nhờ vào [chương trình đơn giản](https://github.com/Asi0Flammeus/LLM-Translator) của chúng tôi, chúng tôi có thể tự động dịch nội dung của mình sang nhiều ngôn ngữ. Tuy nhiên, trước khi xuất bản, chúng tôi cần một người thông thạo ngôn ngữ đó để đánh giá nó nhằm đảm bảo nội dung dễ hiểu và không chứa thuật ngữ không phù hợp.
+If you want to help build this educational project to promote Bitcoin education in your community, you can start by reviewing a course or tutorial.
 
-Nếu bạn muốn tham gia cùng chúng tôi xây dựng dự án giáo dục này để thúc đẩy giáo dục Bitcoin trong cộng đồng của bạn, bạn có thể bắt đầu bằng cách đánh giá một khóa học hoặc hướng dẫn.
+Additionally, as we cherish the *Value4Value* model, we will reward review contributions. The reward will be based on the content's length, the linguistic accuracy of our auto-translation, and the content's difficulty.
 
-Hơn nữa, vì Découvre Bitcoin (DB) chịu trách nhiệm đánh giá các đóng góp và chúng tôi (DB) trân trọng mô hình *Value4Value*, chúng tôi sẽ thưởng cho các đóng góp đánh giá. Phần thưởng sẽ dựa trên độ dài của nội dung, độ chính xác ngôn ngữ của bản dịch tự động của chúng tôi, và độ khó của nội dung.
+## Do I need to know how GitHub works?
 
-## Tôi cần biết cách sử dụng GitHub không?
+You don’t need to be a GitHub expert to review content. While it’s always better to understand what you’re doing (and why), you can simply follow the instructions below to contribute.
 
-Bạn không cần phải là chuyên gia GitHub để đánh giá nội dung.
-Mặc dù luôn tốt hơn khi hiểu bạn đang làm gì (và tại sao), bạn có thể đơn giản theo dõi hướng dẫn dưới đây để đóng góp.
+However, if you’re unfamiliar with Git and GitHub and want to learn more, you can check out our introductory article on these tools:
 
-Tuy nhiên, nếu bạn hoàn toàn không quen với cách hoạt động của Git và GitHub và muốn tìm hiểu thêm, bạn có thể khám phá bài viết giới thiệu của chúng tôi về những công cụ này.
-
-https://planb.network/tutorials/others/basics-of-github
-
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+## 1. Create an account
 
 
-## 1. Tạo một tài khoản
-* Tạo một tài khoản trên GitHub để bắt đầu đóng góp. Nếu bạn cần hướng dẫn về cách tạo tài khoản trên GitHub, chúng tôi cũng có một hướng dẫn chi tiết.
+- Create an account on [GitHub](https://github.com/) to start contributing. If you want guidance on creating your GitHub account, we also have a detailed tutorial:
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
+- You will also need an account on the messaging app [Telegram](https://telegram.org/).
+
+## 2. Join the Telegram group
 
 
-## **2. Đi tới trang dự án của ngôn ngữ bạn**
-* [Trang dự án](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) chứa nội dung bằng ngôn ngữ của bạn được hiển thị trên bảng Kanban.
-* Tìm kiếm các thẻ trong cột "Review Needed" (xem **A**). Đây là các vấn đề mà bạn có thể đánh giá.
-* Mỗi thẻ chi tiết (xem **B**):
-	- **Loại Nội Dung**: Khóa học, hướng dẫn, hoặc website
-	- **Độ Khó Nội Dung**
-	- **Độ Khẩn Cấp**
-	- **Số Từ**
-	- **Phần Thưởng Liên Quan**: Dựa trên các thuộc tính nội dung và độ chính xác của bản dịch (xem [mục Phần Thưởng](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
-![review](assets/1.webp)
-## **3. Tìm nội dung để đánh giá**
-* Trong cột "Review Needed", nhấp vào một thẻ.
-* Thẻ bao gồm mô tả với các liên kết đến nội dung gốc và tệp cần đánh giá (xem **A**).
-* Nếu bạn muốn đánh giá, hãy để lại bình luận để thông báo cho chúng tôi biết bạn sẽ làm việc trên đó (xem **B**).
-* Nhấp vào liên kết bên cạnh `File to Review` (xem **C**)
+- Join [the PBN Content Builder group](https://t.me/PlanBNetwork_ContentBuilder) on Telegram.
 
-![review](assets/2.webp)
+![REVIEW](assets/fr/01.webp)
 
-## **4. Đánh giá và chỉnh sửa nội dung qua giao diện GitHub**
-* Bây giờ bạn có thể thấy giao diện GitHub của tệp cần đánh giá.
-* Bảng điều khiển bên trái cho phép bạn điều hướng qua nhánh của bạn (xem **A**) và các tệp (xem **B**).
-* Nhấp vào biểu tượng bút để bắt đầu đánh giá (xem **C**).
 
-![review](assets/3.webp)
+- Briefly introduce yourself and specify the content you want to contribute to and the language in a message to the "General" channel.
+- A team member will then create an issue on GitHub for your future contribution. You’ll find all the information needed to start your review there.
 
-* Nếu đây là lần đầu tiên của bạn, GitHub sẽ yêu cầu bạn fork kho lưu trữ.
+![REVIEW](assets/fr/02.webp)
 
-![review](assets/4.webp)
+## 3. Review and edit the content via GitHub's interface
 
-* Tiếp theo, bạn sẽ đến với giao diện Editor (xem **A**), nơi bạn có thể thấy đường dẫn tệp và nhánh tương ứng (xem **B**), và bạn có thể chuyển đổi giữa chế độ chỉnh sửa và chế độ xem trước (xem **C**).
 
-![review](assets/5.webp)
+- The issue contains a description (cf. **A**) with links to the original content and the file to review.
+- If you want to take charge of the review, leave a comment on the issue (cf. **B**) to indicate that you’ll be working on it. This prevents duplicated efforts.
+- Click the link next to the file to review (cf. **C**) to access the content.
 
-NB. Việc đánh giá được thực hiện tốt nhất trong cửa sổ mã với nội dung gốc trong một cửa sổ riêng bên cạnh.
+![REVIEW](assets/fr/03.webp)
 
-## **5. Commit các thay đổi**
 
-* Khi bạn muốn kết thúc phiên đánh giá của mình, bạn có thể commit các thay đổi của mình, ngay cả khi việc đánh giá chưa hoàn thành – nó giống như "lưu các thay đổi của bạn trên GitHub".
-* Nhấp vào nút "Commit Changes" (xem **A**).
+- You can now view the GitHub interface of the file to review.
+- The left panel allows you to navigate through your branch (cf. **A**) and files (cf. **B**).
+- Click the pencil icon to start reviewing (cf. **C**).
 
-![review](assets/6.webp)
-* Thêm một thông điệp mô tả về thay đổi của bạn (xem **B**).* Thêm nhiều ngữ cảnh trong mô tả nếu cần thiết (xem **C**).
-* Nhấp vào nút "Propose Changes" (xem **D**).
+![REVIEW](assets/fr/04.webp)
 
-![review](assets/7.webp)
 
-* Điều này mở một trang đề xuất PR (Pull Request).
+- If this is your first contribution, GitHub will prompt you to fork the source repository. Just click the button.
 
-## **6. Tạo một PR với nhánh chuyên dụng**
-![review](assets/8.webp)
+![REVIEW](assets/fr/05.webp)
 
-* Bạn có thể xác nhận rằng PR này yêu cầu hợp nhất nhánh của bạn vào nhánh chuyên dụng của ngôn ngữ tương ứng (xem **A**).
-* Đặt tên PR một cách mô tả (xem **B**).
-* Thêm ngữ cảnh trong mô tả (xem **C**).
-* Nếu chưa hoàn thành, nhấp vào mũi tên xổ xuống bên cạnh "Create Pull Request" và chọn "Draft PR" (xem **D**).
-* Nhấp vào "Draft Pull Request."
-* Chúc mừng bạn đã tạo PR đầu tiên!
 
-## **7. Tiếp tục đánh giá sau này**
-* Nếu bạn chưa hoàn thành việc đánh giá và muốn tiếp tục công việc của mình, hãy truy cập vào fork của kho lưu trữ nội dung PlanB-Network qua hồ sơ GitHub của bạn.
-* Chọn nhánh tương ứng.
-* Đổi tên nhánh nếu cần thiết.
-* Tìm tệp nội dung của bạn và nhấp vào nút bút để tiếp tục đánh giá.
+- You’ll then arrive at the Editor interface (cf. **A**), where you can see the file path and corresponding branch (cf. **B**) and switch between edit and preview modes (cf. **C**).
 
-## **8. Commit trực tiếp trên nhánh của bạn**
-* Thực hiện commit để xác nhận các thay đổi trực tiếp trên nhánh của bạn khi bạn tiến triển.
+![REVIEW](assets/fr/06.webp)
 
-## **9. Hoàn thành và đặt PR sẵn sàng để đánh giá**
-* Đi đến tab "Pull Requests".
-* Chọn PR của bạn.
-* Nhấp vào "Ready for Review".
+NB. It’s recommended to review in the code window, with the original content displayed in a separate window. For instance, you can view the text on the Plan ₿ Network website or in the GitHub preview on a browser tab. Use `ctrl + F` to locate errors and make corrections in the code view as you go.
 
-## 10. Chờ đợi đánh giá
-* Sau khi được phê duyệt, Découvre Bitcoin sẽ liên hệ với bạn để gửi phần thưởng của bạn qua LN.
-* Nếu bạn muốn bắt đầu lại, quay lại bước 2 để tiếp tục đóng góp vào nội dung khác.
-* Nếu bạn có nhận xét, câu hỏi, hoặc bình luận về dự án này, bạn có thể gửi tin nhắn trực tiếp trên Telegram cho @asi0_flammeus.
+## 4. Commit changes
+
+
+- You can start reviewing and correcting the content as needed.
+- When you want to pause your session, you can commit your changes, even if the review isn’t finished. It’s like saving your progress on GitHub.
+- Click the "Commit Changes..." button.
+
+![REVIEW](assets/fr/07.webp)
+
+
+- Add a descriptive message for your changes (cf. **A**).
+- Add more context in the description if necessary (cf. **B**).
+- Click the "Propose changes" button (cf. **C**).
+
+![REVIEW](assets/fr/08.webp)
+
+
+- If this is not your first contribution, GitHub will prompt you to create a new branch. You should never commit directly to the main `dev` branch. If you have already made commits on an existing working branch, select that branch. Otherwise, choose the "Create a new branch" option to create a new one.
+
+![REVIEW](assets/fr/13.webp)
+
+
+- You’ll then access a page summarizing all your changes. By scrolling through it, you can see the precise modifications: deleted items appear in red, while added items appear in green.
+
+![REVIEW](assets/fr/09.webp)
+
+
+- If you have not completed your review and wish to continue your work later, you can simply exit.
+- As long as you have committed your changes, they are saved on your GitHub fork.
+- To resume your work, go to your fork of the Plan ₿ Network content repository via your GitHub profile.
+
+![REVIEW](assets/fr/14.webp)
+
+
+- Select the branch containing your progress (cf. **A**), locate your content file (cf. **B**), then click on the pencil icon to continue the review.
+
+![REVIEW](assets/fr/15.webp)
+
+## 5. Create a PR with the dedicated branch
+
+
+- If everything looks good and you’ve finished your changes, click the green "Create Pull Request" button.
+
+![REVIEW](assets/fr/10.webp)
+
+
+- You’ll then arrive at the PR page. A Pull Request is a request to submit changes made on a branch of a remote repository for review and possible merging into the main branch.
+- Add a title and a short description to your PR. The title should match the issue you’re working on. For example, if the issue title is `[TRANSLATION] Course CYP201 - FR`, use the same title for your PR (cf. **A**). In the description, mention the associated issue using its number, preceded by "Closes". This will automatically close the issue once the PR is merged (cf. **B**).
+- If everything looks good, click the green "Create Pull Request" button (cf. **C**).
+
+![REVIEW](assets/fr/11.webp)
+
+## 6. Wait for review
+
+
+- Congratulations, your PR has been submitted! You can track its progress in the "Pull requests" tab on [Plan ₿ Network's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+
+![REVIEW](assets/fr/12.webp)
+
+
+- Thank you very much for your contribution! After approval, a Plan ₿ Network team member will contact you to send your reward. **Payments are made exclusively via the Lightning Network**.
+- If you’d like to start again, return to step 2 and send a new message in the Telegram group to continue contributing to other content. Make sure to sync your fork before creating a new working branch. To do this, go to the homepage of your fork, select the main branch named `dev` (cf. **A**), then click on the "Sync fork" button (cf. **B**). If updates are available for your fork, an "Update branch" button will appear. Simply click it to perform the update.
+
+![REVIEW](assets/fr/16.webp)
+
+
+- If you have any remarks, questions, or comments about this project, feel free to send a DM [to the contributors' Telegram group](https://t.me/PlanBNetwork_ContentBuilder).

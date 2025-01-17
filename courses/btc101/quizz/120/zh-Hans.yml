@@ -1,0 +1,9 @@
+question: 比特币首次用于购买实物商品是什么时候？
+answer: 当Laszlo Hanyecz用10,000 BTC购买了2个披萨时
+wrong_answers:
+  - 当Hal Finney用100,000 BTC购买了一辆车时
+  - 当Satoshi Nakamoto用1,000,000,000 BTC购买了一栋房子时
+  - 所有选项都不是
+explanation: |
+  比特币首次用于购买实物商品是在2010年5月22日，当时Laszlo Hanyecz用10,000 BTC购买了2个披萨，这一天现在被称为比萨日。
+reviewed: true

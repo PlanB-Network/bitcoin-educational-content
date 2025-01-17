@@ -1,11 +1,12 @@
 question: ¿Qué deberías hacer una vez que las palabras de tu frase mnemotécnica estén escritas?
-answer: Hacer una segunda copia y guardarla en un lugar separado
+answer: Hacer una segunda copia y guardarla en un lugar separado.
 wrong_answers:
-  - Compartirla con un amigo de confianza
-  - Enviártela por correo electrónico
-  - Guardarla en tu teléfono
+  - Compartirla con un amigo de confianza.
+  - Enviártela por correo electrónico.
+  - Guardarla en tu teléfono.
 explanation: |
-  Una vez que las palabras de tu frase mnemotécnica estén escritas, se recomienda
-  hacer una segunda copia y guardarla en un lugar separado de la primera. Esto proporciona
-  una copia de seguridad en caso de pérdida o accidente con la primera copia.
-reviewed: false
+  Una vez que las palabras de tu frase mnemotécnica estén escritas, se
+  recomienda hacer una segunda copia y guardarla en un
+  lugar separado de la primera. Esto proporciona una copia de seguridad en
+  caso de pérdida o accidente con la primera copia.
+reviewed: true

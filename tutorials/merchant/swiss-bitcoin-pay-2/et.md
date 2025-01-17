@@ -10,11 +10,11 @@ Tänapäeval on kauplejatel, kes soovivad vastu võtta Bitcoini makseviisina, ol
 
 Neile, kes eelistavad mitte vaeva näha ja saada vahendid otse oma pangakontole fiat valuutas, on saadaval hoiustamislahendused nagu Open Node:
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kauplejatele, kes on valmis ise protsessi juhtima ja soovivad täielikku kontrolli, on BTCPay Server tarkvara suurepärane valik. Siiski, BTCPay Serveri suurim puudus on selle seadistamine ja haldamine, mis võtab aega ja nõuab teatud tehnilisi teadmisi:
 
-https://planb.network/tutorials/merchant/btcpay-server
+https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Kõigi nende lahenduste seas tundub Swiss Bitcoin Pay olevat väga huvitav kompromiss kasutusmugavuse, funktsioonide ja turvalisuse vahel. See lahendus sobib nii väga väikestele ettevõtetele kui ka suurematele struktuuridele. Selles õpetuses avastate, kuidas lihtsalt kasutada Swiss Bitcoin Pay'd, et vastu võtta Bitcoini oma äris.
 

@@ -1,0 +1,9 @@
+question: Mis on peibutusrahakoti kasutamise eesmärk koos paroolilausega?
+answer: Simuleerida väikese summaga rahakotti füüsilise sundimise korral
+wrong_answers:
+  - Lisada tehingute automaatne varundamine
+  - Genereerida täiendav mnemooniline fraas
+  - Kaitsta UTXO-sid topeltkulutamise eest
+explanation: |
+  Peibutusrahakotti kasutatakse ründaja tähelepanu kõrvalejuhtimiseks, pakkudes juurdepääsu rahakotile, mis sisaldab väikest kogust bitcoine.
+reviewed: false

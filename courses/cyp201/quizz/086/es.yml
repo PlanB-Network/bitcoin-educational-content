@@ -1,9 +1,9 @@
-question: ¿Cuál es el resultado del algoritmo HMAC SHA-512?
-answer: Un número de 512 bits, dividido en dos partes; los 256 bits más a la izquierda representan la clave privada maestra, mientras que los 256 bits más a la derecha representan el código de cadena maestro.
+question: ¿Cómo se calcula el checksum para direcciones SegWit v0 codificadas en bech32?
+answer: Usando códigos BCH
 wrong_answers:
-  - Un número de 256 bits que representa la clave privada maestra.
-  - Un número de 256 bits que representa el código de cadena maestro.
-  - Un número de 512 bits que representa la semilla.
+  - Aplicando HASH256 dos veces
+  - Añadiendo un hash RIPEMD160
+  - Codificando directamente en base64
 explanation: |
-  El resultado de HMAC SHA-512 es un número de 512 bits, dividido en dos partes; los 256 bits más a la izquierda representan la clave privada maestra, mientras que los 256 bits más a la derecha representan el código de cadena maestro.
+  Las direcciones Bech32 utilizan códigos BCH para calcular el checksum.
 reviewed: false

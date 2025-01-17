@@ -1,0 +1,10 @@
+question: Hvordan sikrer Bitcoin-nettverket at det er for kostbart å handle ondsinnet innenfor Bitcoin-protokollen?
+answer: Gjennom protokollregler og økonomiske insentiver.
+wrong_answers:
+  - Gjennom streng regulering og tilsyn.
+  - Gjennom bruk av avanserte sikkerhetstiltak.
+  - Gjennom trusselen om rettslige tiltak.
+explanation: >-
+  Bitcoin-nettverket sikrer at det er for kostbart å handle ondsinnet innenfor Bitcoin-protokollen gjennom protokollregler og økonomiske insentiver. Dette
+  eliminerer behovet for tillit ved ethvert steg av overføringen av bitcoin-eierskap.
+reviewed: false

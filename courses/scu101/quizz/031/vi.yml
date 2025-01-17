@@ -1,10 +1,12 @@
 question: Bạn nên làm gì nếu phát hiện virus trên máy tính của mình?
-answer: Ngắt kết nối máy tính khỏi internet, thực hiện quét toàn bộ bằng phần mềm diệt virus và xóa các tệp tin bị nhiễm.
+answer: Ngắt kết nối internet, thực hiện quét toàn bộ bằng phần mềm diệt virus, và xóa các tệp tin bị nhiễm.
 wrong_answers:
   - Tiếp tục sử dụng máy tính như bình thường.
   - Tắt máy tính và để nó tắt trong vài giờ.
   - Xóa tất cả các tệp tin trên máy tính.
 explanation: |
-  Nếu bạn phát hiện virus trên máy tính, bạn nên ngắt kết nối máy tính khỏi internet để ngăn chặn virus lan truyền hoặc giao tiếp với hacker.
-  Sau đó, thực hiện quét toàn bộ bằng phần mềm diệt virus và xóa các tệp tin bị nhiễm.
-reviewed: false
+  Nếu bạn phát hiện virus trên máy tính, bạn nên
+  ngắt kết nối internet để ngăn chặn virus
+  lan truyền hoặc giao tiếp với hacker. Sau đó, thực hiện
+  quét toàn bộ bằng phần mềm diệt virus và xóa các tệp tin bị nhiễm.
+reviewed: true

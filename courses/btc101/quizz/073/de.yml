@@ -1,11 +1,11 @@
-question: Was ist der private Schlüssel in einer Bitcoin-Wallet?
+question: Was ist der private Schlüssel in einem Bitcoin-Wallet?
 answer: Ein geheimer Schlüssel, der es Ihnen ermöglicht, Ihre Transaktionen zu signieren.
 wrong_answers:
   - Ein öffentlicher Schlüssel, der zur Generierung von Bitcoin-Adressen verwendet wird.
-  - Eine geheime Liste von Wörtern, um die Wallet zu zerstören.
-  - Ein geheimer Schlüssel zur Verschlüsselung der Bitcoin-Transaktionen.
-explanation: |
-  Bei der Initialisierung einer Bitcoin-Wallet wird eine geheime Liste von Wörtern, genannt Mnemonic Seed, generiert.
-  Diese Wiederherstellungsliste ist sehr wichtig, da sie den Besitz der Bitcoins repräsentiert
-  und somit das Recht, sie zu versenden.
-reviewed: false
+  - Eine geheime Liste von Wörtern, um ein Wallet im Bedarfsfall zu zerstören.
+  - Ein geheimer Schlüssel zur Verschlüsselung von Bitcoin-Transaktionen.
+explanation: >-
+  Bei der Einrichtung eines Bitcoin-Wallets wird eine geheime Liste von Wörtern, genannt mnemonischer Seed, generiert.
+  Diese Wiederherstellungsliste ist sehr wichtig, da sie das Eigentum
+  an den Bitcoins und damit das Recht, sie zu versenden, repräsentiert.
+reviewed: true

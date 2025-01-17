@@ -1,0 +1,9 @@
+question: Hvorfor ble ikke elliptisk kurve secp256r1 brukt i Bitcoin?
+answer: Potensielt for å unngå en bakdør
+wrong_answers:
+  - Fordi den er for treg
+  - Fordi den ikke er standardisert
+  - Fordi den krever spesialisert maskinvare
+explanation: |
+  Satoshi Nakamoto foretrakk sannsynligvis secp256k1-kurven, ettersom parameterne til secp256r1 kunne inneholde en skjult sårbarhet.
+reviewed: false

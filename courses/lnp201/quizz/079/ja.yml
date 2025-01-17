@@ -1,8 +1,0 @@
-question: Lightning Networkの請求書での'lnbc1m'の'bc'は何を表していますか？
-answer: Bitcoin mainnet
-wrong_answers:
-  - Bitcoin Cash
-  - Block chain
-  - Bitcoin Core
-explanation: |
-  Lightning Networkの請求書において、'bc'はBitcoin mainnetを意味します。これは、支払いリクエストがBitcoin mainnet用であることを示しており、テストネットや他のネットワークではありません。

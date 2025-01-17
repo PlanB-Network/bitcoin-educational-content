@@ -1,0 +1,8 @@
+question: Mikä oli Raamatun suhtautuminen korkoa vastaan lainaamiseen?
+answer: Se oli kiellettyä.
+wrong_answers:
+  - Se kannusti siihen.
+  - Se salli sen joissakin tapauksissa.
+  - Sillä ei ollut mielipidettä asiasta.
+explanation: |
+  Raamattu kieltää korkoa vastaan lainaamisen, erityisesti Vanhassa Testamentissa, jossa yhteisön jäsenten kesken tapahtuva korkoa vastaan lainaaminen nähdään moraalittomana ja solidaarisuuden arvojen vastaisena.

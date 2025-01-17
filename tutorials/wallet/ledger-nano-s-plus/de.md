@@ -49,7 +49,7 @@ Für dieses Tutorial benötigen Sie 2 Softwareanwendungen: Ledger Live, um den L
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Für diese beiden Softwareprogramme empfehle ich dringend, sowohl ihre Authentizität (mit GnuPG) als auch ihre Integrität (über den Hash) zu überprüfen, bevor Sie sie auf Ihrem Gerät installieren. Wenn Sie nicht sicher sind, wie das geht, können Sie diesem anderen Tutorial folgen:
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Wie initialisiert man einen Ledger Nano?
 
@@ -121,7 +121,7 @@ Die Passphrase sollte nicht mit dem PIN-Code verwechselt werden. Sie spielt eine
 
 Die Passphrase ist ein sehr mächtiges Werkzeug, um die Sicherheit Ihrer Bitcoins zu erhöhen. Es ist jedoch sehr wichtig zu verstehen, wie sie funktioniert, bevor sie implementiert wird, um den Zugang zu Ihrer Wallet nicht zu verlieren. Deshalb rate ich Ihnen, dieses andere Tutorial zu konsultieren, wenn Sie eine Passphrase auf Ihrem Ledger einrichten möchten:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Das Menü "*PIN-Sperre*" ermöglicht es Ihnen, die automatische Sperrung Ihres Ledger nach einer bestimmten Zeit der Inaktivität zu konfigurieren und zu aktivieren.
 
@@ -212,7 +212,7 @@ Und voilà, Ihre Wallet ist jetzt erstellt!
 Bevor Sie Ihre ersten Bitcoins in Ihrem Wallet erhalten, **rate ich Ihnen dringend, einen Trockenlauf-Wiederherstellungstest durchzuführen**. Notieren Sie sich ein Referenzstück Information, wie zum Beispiel Ihren xpub, setzen Sie dann Ihr Ledger Nano zurück, während das Wallet noch leer ist. Versuchen Sie danach, Ihr Wallet auf dem Ledger mit Ihren Papier-Backups wiederherzustellen. Überprüfen Sie, ob der nach der Wiederherstellung generierte xpub mit dem ursprünglich notierten übereinstimmt. Wenn ja, können Sie sicher sein, dass Ihre Papier-Backups zuverlässig sind.
 Um mehr darüber zu erfahren, wie man einen Wiederherstellungstest durchführt, rate ich Ihnen, dieses andere Tutorial zu konsultieren:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Wie empfängt man Bitcoins mit dem Ledger Nano?
 
@@ -242,7 +242,7 @@ Sie können ein "*Label*" hinzufügen, um die Quelle der Bitcoins zu beschreiben
 
 Für weitere Informationen zum Labeling rate ich Ihnen auch, dieses andere Tutorial zu konsultieren:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Sie können dann diese Adresse verwenden, um Bitcoins zu empfangen.
 
@@ -308,4 +308,4 @@ Wenn Sie dieses Tutorial hilfreich fanden, würde ich mich über ein Daumen hoch
 
 Ich empfehle Ihnen auch, dieses komplette Tutorial über den Ledger Flex zu lesen:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

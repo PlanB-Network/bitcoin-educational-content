@@ -1,0 +1,9 @@
+question: Tên gọi của vấn đề đồng thuận trong một mạng phân tán là gì?
+answer: Vấn đề Tướng Byzantine
+wrong_answers:
+  - Vấn đề Trung Sĩ La Mã
+  - Vấn đề Đại tá Albania
+  - Vấn đề Taishos Nhật Bản
+explanation: |
+  Tên của vấn đề này (được hình thành bởi Lamport, Shostak, và Pease vào năm 1982) được chọn để tránh làm phật lòng người đọc, vì không ai tự nhận mình là Byzantine.
+reviewed: false

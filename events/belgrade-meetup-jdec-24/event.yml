@@ -1,0 +1,17 @@
+- start_date: 2024-12-18 17:00:00
+  end_date: 2024-12-18 21:00:00
+  timezone: Europe/Belgrade
+  address_line_1: Belgrade, Serbia
+  name: Bitcoin only meetup in Belgrade
+  builder: dvadesetjedan
+  type: meetup
+  description: Dvadeset Jedan is a group of Bitcoin maximalists from former Yugoslav republics. We gather to talk about bitcoin, economics, technology, philosophy and other relevant topics, over drinks.
+  language:
+    - en
+    - sr
+  links:
+    website: https://www.meetup.com/dvadeset-jedan/events/304723983/?eventOrigin=group_upcoming_events
+  tags:
+    - adoption
+    - self-sovereignty
+    - decentralization

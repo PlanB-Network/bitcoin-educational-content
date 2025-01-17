@@ -1,0 +1,26 @@
+id: 1f8a28d4-fa99-4261-9d80-48275b496fd4
+
+builder: LNP BP
+
+tags:
+  - offchain
+  - layers
+  - protocols
+
+category: rgb
+
+level: advanced
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-17
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

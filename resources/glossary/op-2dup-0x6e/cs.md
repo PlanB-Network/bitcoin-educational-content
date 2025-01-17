@@ -1,5 +1,5 @@
 ---
-termín: OP_2DUP (0X6E)
+term: OP_2DUP (0X6E)
 
 ---
 Duplikuje dva horní prvky zásobníku a umístí je na jeho vrchol. Pokud je například zásobník:

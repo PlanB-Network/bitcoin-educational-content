@@ -1,5 +1,5 @@
 ---
-begriff: HARTE GABEL
+term: HARTE GABEL
 
 ---
 Eine Änderung der Protokollregeln in einer Weise, die nicht rückwärtskompatibel ist. Diese Änderung führt zu einer dauerhaften Trennung des Bitcoin-Netzwerks von Knoten in zwei verschiedene Gruppen: Knoten mit dem Update und Knoten ohne das Update. Diese Aufspaltung wird durch die Teilung der ursprünglichen Blockchain in zwei getrennte Blockchains realisiert, die jedoch eine gemeinsame Geschichte haben, daher der Begriff "Fork", der ins Französische mit "Verzweigung, Gabelung" übersetzt werden kann

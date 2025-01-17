@@ -1,5 +1,5 @@
 ---
-mõiste: C++ (PLUSS PLUSS)
+term: C++ (PLUSS PLUSS)
 
 ---
 Mitmekülgne programmeerimiskeel, mis arenes välja C keelest ja on tuntud oma võimsuse ja paindlikkuse poolest. Kasutatakse keerulise tarkvara arendamiseks, toetab objektorienteeritud programmeerimist ning pakub rikkalikke funktsioone mäluhalduseks ja süsteemiressursside käitlemiseks.

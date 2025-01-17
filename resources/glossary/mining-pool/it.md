@@ -1,5 +1,5 @@
 ---
-termine: PISCINA MINERARIA
+term: PISCINA MINERARIA
 
 ---
 Si riferisce a un gruppo di minatori che collaborano unendo la loro potenza di calcolo per partecipare alla ricerca di prove di lavoro valide su Bitcoin. Questo raggruppamento in un'unica organizzazione è una soluzione alla crescente difficoltà di estrazione dei bitcoin, che rende troppo improbabile per un singolo minatore competere e guadagnare ricompense in modo costante. I minatori all'interno di un pool di mining contribuiscono con le loro macchine alla ricerca di blocchi validi. Quando un blocco viene estratto dal pool, la ricompensa, che comprende i bitcoin appena creati e le commissioni di transazione incluse nel blocco, viene distribuita tra i membri del pool in base al metodo di pagamento scelto. Questa distribuzione è proporzionale alla potenza di calcolo che ciascun minatore ha apportato.

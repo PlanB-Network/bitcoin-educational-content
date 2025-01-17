@@ -1,5 +1,5 @@
 ---
-mõiste: WASABI WALLET
+term: WASABI WALLET
 
 ---
 Bitcoini rahakott, mis keskendub privaatsusele, pakkudes selliseid funktsioone nagu coinjoin.

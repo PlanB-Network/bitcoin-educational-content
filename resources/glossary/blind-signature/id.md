@@ -1,5 +1,5 @@
 ---
-istilah: TANDA TANGAN BUTA
+term: TANDA TANGAN BUTA
 
 ---
 Tanda tangan buta Chaum adalah bentuk tanda tangan digital di mana pemberi tanda tangan tidak mengetahui isi pesan yang mereka tandatangani. Namun, tanda tangan tersebut nantinya dapat diverifikasi dengan pesan aslinya. Teknik ini dikembangkan oleh kriptografer David Chaum pada tahun 1983.

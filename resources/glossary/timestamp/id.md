@@ -1,5 +1,5 @@
 ---
-jangka waktu: CAP WAKTU
+term: CAP WAKTU
 
 ---
 Penandaan waktu, atau "stempel waktu" dalam bahasa Inggris, adalah mekanisme yang melibatkan pengaitan penanda waktu yang tepat dengan suatu peristiwa, data, atau pesan. Dalam konteks umum sistem komputer, cap waktu digunakan untuk menentukan urutan kronologis operasi dan untuk memverifikasi integritas data dari waktu ke waktu.

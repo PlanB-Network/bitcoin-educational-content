@@ -1,5 +1,5 @@
 ---
-istilah: BIP143
+term: BIP143
 
 ---
 Memperkenalkan cara baru dalam melakukan hashing transaksi untuk verifikasi tanda tangan dalam skrip pasca-SegWit. Tujuannya adalah untuk meminimalkan operasi yang berlebihan selama verifikasi dan untuk memasukkan nilai UTXO dalam input dalam tanda tangan. Hal ini memecahkan dua masalah utama dengan algoritma hashing transaksi yang asli:

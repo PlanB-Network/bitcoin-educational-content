@@ -1,5 +1,5 @@
 ---
-término: SPREAD (WST)
+term: SPREAD (WST)
 
 ---
 En el software Whirlpool Stat Tool, la dispersión es un indicador utilizado para medir la homogeneidad del proceso de mezcla desde la perspectiva de una pieza determinada. Existen dos tipos de diferenciales: prospectivo y retrospectivo.

@@ -1,5 +1,5 @@
 ---
-término: BIP123
+term: BIP123
 
 ---
 Establece un nuevo proceso normalizado para la clasificación de las propuestas de mejora de Bitcoin. Las PBI deben clasificarse ahora en 4 categorías:

@@ -1,5 +1,5 @@
 ---
-termo: OP_CHECKSIGADD (0XBA)
+term: OP_CHECKSIGADD (0XBA)
 
 ---
 Extrai os três primeiros valores da pilha: uma `chave pública`, um `CScriptNum` `n`, e uma `assinatura`. Se a assinatura não for o vetor vazio e não for válida, o script termina com um erro. Se a assinatura for válida ou for o vetor vazio (`OP_0`), dois cenários são apresentados:

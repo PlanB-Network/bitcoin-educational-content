@@ -1,5 +1,5 @@
 ---
-termi: HASH RATE
+term: HASH RATE
 
 ---
 Verkon laskentatehon indikaattori, mitattuna hasheina sekunnissa (H/s). Se ilmaisee louhijoiden kapasiteetin suorittaa hashing-operaatioita osana proof of workia. Suuri hash-nopeus tarkoittaa suurempaa turvallisuutta Bitcoinin taloushistoriaa varten ja suurempaa vastustuskykyä hyökkäyksiä vastaan, koska järjestelmän vaarantaminen vaatisi huomattavan määrän laskentatehoa.

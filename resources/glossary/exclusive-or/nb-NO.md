@@ -1,5 +1,5 @@
 ---
-betegnelse: EKSKLUSIV ELLER
+term: EKSKLUSIV ELLER
 
 ---
 En grunnleggende funksjon i boolsk logikk. "Eksklusivt eller" eller XOR ("*Eksklusivt eller*") tar to boolske operander, som hver er sann eller falsk, og produserer en sann utgang bare når de to operandene er forskjellige. Med andre ord er resultatet av `XOR`-operasjonen sant hvis nøyaktig én (men ikke begge) av operandene er sanne. For eksempel vil `XOR`-operasjonen mellom `1` og `0` resultere i `1`. Vi legger merke til: $1 \oplus 0 = 1$. På samme måte kan `XOR`-operasjonen utføres på lengre sekvenser av biter. For eksempel: $10110 \oplus 01110 = 11000$. Hver bit i sekvensen sammenlignes med sin motpart, og `XOR`-operasjonen utføres. Her er sannhetstabellen for `XOR`-operasjonen:

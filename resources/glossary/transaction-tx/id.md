@@ -1,5 +1,5 @@
 ---
-jangka waktu: TRANSAKSI (TX)
+term: TRANSAKSI (TX)
 
 ---
 Dalam konteks Bitcoin, sebuah transaksi (disingkat "TX") adalah sebuah operasi yang dicatat di blockchain yang mentransfer kepemilikan bitcoin dari satu atau lebih input ke satu atau lebih output. Setiap transaksi menggunakan Unspent Transaction Outputs (UTXO) sebagai input, yang merupakan output dari transaksi sebelumnya, dan menciptakan UTXO baru sebagai output, yang dapat digunakan sebagai input dalam transaksi di masa depan.

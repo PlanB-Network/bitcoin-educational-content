@@ -1,5 +1,5 @@
 ---
-término: BIP44
+term: BIP44
 
 ---
 Una propuesta de mejora que introduce una estructura de derivación jerárquica estándar para los monederos HD. BIP44 se basa en los principios establecidos por BIP32 para la derivación de claves y en BIP43 para el uso del campo "purpose". Introduce una estructura de derivación de cinco niveles: `m / purpose' / coin_type' / account' / change / address_index`. He aquí los detalles de cada profundidad:

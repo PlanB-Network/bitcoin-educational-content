@@ -1,5 +1,5 @@
 ---
-termín: OP_CHECKLOCKTIMEVERIFY (0XB1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
 ---
 Transakce je neplatná, pokud nejsou splněny všechny tyto podmínky:

@@ -1,5 +1,5 @@
 ---
-mõiste: SAMOURAI RAHAKOTT
+term: SAMOURAI RAHAKOTT
 
 ---
 Bitcoini rahakoti tarkvara Android-mobiilseadmetele, mis keskendub privaatsusele. See pakub täiustatud funktsioone, nagu Whirlpool coinjoins, Stonewall, StonewallX2, Ricochet ja Stowaway (payjoin). Samourai rakendab ka mitmeid kaitsemeetmeid, mis aitavad kasutajatel kaitsta oma privaatsust ahela analüüsi eest.

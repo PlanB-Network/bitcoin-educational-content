@@ -1,5 +1,5 @@
 ---
-mõiste: BIP173
+term: BIP173
 
 ---
 Kehtestati bech32 aadressiformaat SegWit V0 aadresside jaoks. Seda aadressiformaati iseloomustab eesliide `bc1q`. Bech32 formaat pakub mitmeid eeliseid:

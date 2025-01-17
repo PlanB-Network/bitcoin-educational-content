@@ -1,5 +1,5 @@
 ---
-mõiste: RESÜNKRONISEERIMINE
+term: RESÜNKRONISEERIMINE
 
 ---
 Viitab nähtusele, mille puhul plokiahelas toimub selle struktuuri muutmine konkureerivate plokkide olemasolu tõttu samal kõrgusel. See toimub siis, kui osa plokiahelast asendatakse teise ahelaga, millel on suurem kogus kogutud tööd.

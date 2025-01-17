@@ -1,5 +1,5 @@
 ---
-mõiste: OP_CHECKSEQUENCEVERIFY (0XB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
 ---
 Teeb tehingu kehtetuks, kui mõni neist omadustest on täheldatud:

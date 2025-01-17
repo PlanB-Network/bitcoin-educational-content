@@ -1,5 +1,5 @@
 ---
-istilah: BITCOIN SATOSHI VISION (BSV)
+term: BITCOIN SATOSHI VISION (BSV)
 
 ---
 Sistem mata uang kripto yang dihasilkan dari hard fork Bitcoin Cash (BCH), yang merupakan fork dari Bitcoin (BTC). Hard fork Bitcoin SV terjadi pada tanggal 15 November 2018, pada blok 556.766 karena ketidaksepakatan dalam komunitas Bitcoin Cash, terutama mengenai ukuran blok dan visi yang seharusnya dari Satoshi Nakamoto, pencipta Bitcoin. Dua faksi berselisih:

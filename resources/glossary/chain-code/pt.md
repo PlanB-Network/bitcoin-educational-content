@@ -1,5 +1,5 @@
 ---
-termo: CÓDIGO DE CADEIA
+term: CÓDIGO DE CADEIA
 
 ---
 No contexto da derivação hierárquica determinística (HD) das carteiras Bitcoin, o código da cadeia é um valor de sal criptográfico de 256 bits utilizado para gerar chaves-filhas a partir de uma chave-mãe, de acordo com a norma BIP32. O código da cadeia é utilizado em combinação com a chave-mãe e o índice da criança para gerar deterministicamente um novo par de chaves (chave privada e chave pública) sem revelar a chave-mãe ou outras chaves-filhas derivadas.

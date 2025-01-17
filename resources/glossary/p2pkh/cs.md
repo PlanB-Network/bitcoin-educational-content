@@ -1,5 +1,5 @@
 ---
-termín: P2PKH
+term: P2PKH
 
 ---
 P2PKH je zkratka pro *Pay to Public Key Hash*. Jedná se o standardní model skriptu, který se používá pro stanovení podmínek výdajů na UTXO. Umožňuje uzamknout bitcoiny na hash veřejného klíče, tedy na přijímací adresu. Tento skript je spojen se standardem Legacy a byl zaveden v raných verzích Bitcoinu Satoshi Nakamotem.

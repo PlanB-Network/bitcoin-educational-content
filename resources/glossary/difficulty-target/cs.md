@@ -1,5 +1,5 @@
 ---
-termín: CÍL OBTÍŽNOSTI
+term: CÍL OBTÍŽNOSTI
 
 ---
 Faktor obtížnosti, známý také jako cíl obtížnosti, je parametr používaný v mechanismu konsensu pomocí důkazu práce (Proof of Work, PoW) v Bitcoinu. Cíl představuje číselnou hodnotu, která určuje obtížnost řešení konkrétního kryptografického problému, tzv. důkazu práce, pro těžaře při vytváření nového bloku v blockchainu.

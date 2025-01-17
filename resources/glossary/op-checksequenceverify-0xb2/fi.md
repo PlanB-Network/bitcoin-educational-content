@@ -1,5 +1,5 @@
 ---
-termi: OP_CHECKSEQUENCEVERIFY (0XB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
 ---
 Tekee tapahtuman mitättömäksi, jos jokin näistä ominaisuuksista havaitaan:

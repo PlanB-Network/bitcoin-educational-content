@@ -1,5 +1,5 @@
 ---
-begriff: BIP38
+term: BIP38
 
 ---
 Ein Bitcoin-Verbesserungsvorschlag, der einen Verschlüsselungsmechanismus einführt, um den privaten Schlüssel durch eine Passphrase zusätzlich zu schützen. BIP38 stellt sicher, dass selbst wenn eine dritte Partei den verschlüsselten privaten Schlüssel physisch erhält, sie ihn nicht verwenden kann, ohne die Passphrase zu kennen. Damit wird eine zusätzliche Sicherheitsebene geschaffen, um Bitcoins vor Diebstahl zu schützen, insbesondere für die Sicherheit alter Papiergeldbörsen.

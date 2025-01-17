@@ -1,5 +1,5 @@
 ---
-istilah: BIP352
+term: BIP352
 
 ---
 Proposal untuk perbaikan oleh Josibake dan Ruben Somsen yang memperkenalkan Silent Payments, sebuah metode untuk menggunakan alamat Bitcoin statis untuk menerima pembayaran tanpa penggunaan ulang alamat, interaksi, dan tanpa hubungan on-chain yang terlihat antara pembayaran yang berbeda. Teknik ini menghilangkan kebutuhan untuk membuat alamat penerima baru yang tidak terpakai untuk setiap transaksi, sehingga menghindari interaksi yang biasa terjadi pada Bitcoin di mana penerima harus memberikan alamat baru kepada pembayar.

@@ -1,5 +1,5 @@
 ---
-mõiste: ECLAIR
+term: ECLAIR
 
 ---
 Scala keeles kirjutatud Lightning Network'i protokolli peamine implementatsioon. Eclair on välja töötatud Prantsuse ettevõtte Acinq poolt.

@@ -1,5 +1,5 @@
 ---
-begrep: PPS (PAY PER SHARE)
+term: PPS (PAY PER SHARE)
 
 ---
 Metode for beregning av godtgjørelse til utvinnere i forbindelse med utvinningspooler. PPS er et system der utvinnere får betalt for hver gyldige andel som sendes inn, uavhengig av om bassenget finner en blokk eller ikke. De kompenseres derfor basert på forventet verdi. Det er en oppgavebasert avlønningsmetode.

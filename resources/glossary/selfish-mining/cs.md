@@ -1,5 +1,5 @@
 ---
-termín: SELFISH MINING
+term: SELFISH MINING
 
 ---
 Strategie (nebo útok) při těžbě, kdy těžař nebo skupina těžařů záměrně uchovává bloky s platným důkazem práce, aniž by je okamžitě odeslal do sítě. Cílem je udržet si náskok před ostatními těžaři, pokud jde o důkaz práce, což jim potenciálně umožňuje vytěžit několik bloků za sebou a zveřejnit je všechny najednou, čímž maximalizují svůj zisk.

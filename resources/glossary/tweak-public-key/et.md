@@ -1,5 +1,5 @@
 ---
-mõiste: TWEAK (AVALIK VÕTI)
+term: TWEAK (AVALIK VÕTI)
 
 ---
 Krüptograafia valdkonnas tähendab avaliku võtme "parendamine" selle võtme muutmist, kasutades lisaväärtust, mida nimetatakse "paranduseks", nii et see jääb kasutatavaks, kui on teada algne privaatne võti ja parandus. Tehniliselt on parandus skalaarne väärtus, mis lisatakse esialgsele avalikule võtmele. Kui $P$ on avalik võti ja $t$ on parandus, siis saab parandatud avalikuks võtmeks:

@@ -1,5 +1,5 @@
 ---
-istilah: P2SH
+term: P2SH
 
 ---
 P2SH adalah singkatan dari *Bayar ke Skrip Hash*. Ini adalah model skrip standar yang digunakan untuk menetapkan kondisi pengeluaran pada UTXO. Tidak seperti skrip P2PK dan P2PKH, di mana kondisi pengeluaran sudah ditentukan sebelumnya, P2SH memungkinkan integrasi kondisi pengeluaran sewenang-wenang dan fungsi tambahan dalam skrip transaksi.

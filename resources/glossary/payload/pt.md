@@ -1,5 +1,5 @@
 ---
-termo: PAYLOAD
+term: PAYLOAD
 
 ---
 No contexto geral da computação, uma carga útil refere-se aos dados essenciais transportados num pacote de dados maior. Por exemplo, em um endereço SegWit V0 no Bitcoin, o payload corresponde ao hash da chave pública, excluindo vários metadados (o HRP, o separador, a versão SegWit e a soma de verificação). Por exemplo, no endereço `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, temos:

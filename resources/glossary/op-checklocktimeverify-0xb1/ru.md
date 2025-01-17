@@ -1,5 +1,5 @@
 ---
-термин: OP_CHECKLOCKTIMEVERIFY (0XB1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
 ---
 Делает транзакцию недействительной, если не соблюдены все перечисленные условия:

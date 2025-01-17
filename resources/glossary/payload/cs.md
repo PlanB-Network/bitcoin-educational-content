@@ -1,5 +1,5 @@
 ---
-termín: PAYLOAD
+term: PAYLOAD
 
 ---
 V obecném kontextu výpočetní techniky se užitečným zatížením rozumí základní data přenášená v rámci většího datového paketu. Například v adrese SegWit V0 v Bitcoinu odpovídá užitečné zatížení hash veřejného klíče s výjimkou různých metadat (HRP, oddělovač, verze SegWit a kontrolní součet). Například v adrese `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj` máme:

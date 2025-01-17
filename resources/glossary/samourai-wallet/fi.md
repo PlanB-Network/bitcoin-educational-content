@@ -1,5 +1,5 @@
 ---
-termi: SAMOURAI LOMPAKKO
+term: SAMOURAI LOMPAKKO
 
 ---
 Bitcoin-lompakko-ohjelmisto Android-mobiililaitteille, jossa keskitytään yksityisyyteen. Se tarjoaa kehittyneitä ominaisuuksia, kuten Whirlpool coinjoins, Stonewall, StonewallX2, Ricochet ja Stowaway (payjoin). Samourai toteuttaa myös lukuisia suojauksia, joiden avulla käyttäjät voivat suojata yksityisyytensä ketjuanalyysiltä.

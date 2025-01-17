@@ -1,5 +1,5 @@
 ---
-mõiste: LIHTSAM MAKSE
+term: LIHTSAM MAKSE
 
 ---
 Tehingumuster (või mudel), mida kasutatakse ahela analüüsis, mida iseloomustab ühe või mitme UTXO tarbimine sisenditena ja 2 UTXO tootmine väljunditena. See mudel näeb seega välja järgmiselt:

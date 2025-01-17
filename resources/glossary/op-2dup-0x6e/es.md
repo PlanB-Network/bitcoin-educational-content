@@ -1,5 +1,5 @@
 ---
-término: OP_2DUP (0X6E)
+term: OP_2DUP (0X6E)
 
 ---
 Duplica los dos elementos superiores de la pila y los coloca encima de ella. Por ejemplo, si la pila es:

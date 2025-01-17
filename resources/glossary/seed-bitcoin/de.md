@@ -1,5 +1,5 @@
 ---
-begriff: SEED (BITCOIN)
+term: SEED (BITCOIN)
 
 ---
 Im Kontext von Bitcoin ist ein Seed ein 512-Bit-Wert, der verwendet wird, um alle privaten und öffentlichen Schlüssel abzuleiten, die mit einer HD (Hierarchical Deterministic) Wallet verbunden sind. Technisch gesehen ist der Seed ein anderer Wert als die Recovery Phrase (oder Mnemonic). Die Phrase, die in der Regel aus 12 oder 24 Wörtern besteht, wird pseudozufällig aus einer Entropiequelle erzeugt und durch eine Prüfsumme ergänzt. Diese Phrase erleichtert die Sicherung durch den Menschen, indem sie eine textuelle Darstellung des Wertes in der Basis der Brieftasche liefert.

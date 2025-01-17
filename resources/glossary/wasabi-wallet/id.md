@@ -1,5 +1,5 @@
 ---
-istilah: DOMPET WASABI
+term: DOMPET WASABI
 
 ---
 Dompet Bitcoin yang berfokus pada privasi, menawarkan fitur-fitur seperti coinjoin.

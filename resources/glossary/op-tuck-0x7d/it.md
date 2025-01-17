@@ -1,5 +1,5 @@
 ---
-termine: OP_TUCK (0X7D)
+term: OP_TUCK (0X7D)
 
 ---
 Copia l'elemento in cima alla pila e lo inserisce tra il secondo e il terzo elemento della pila. Ad esempio, se la pila è:

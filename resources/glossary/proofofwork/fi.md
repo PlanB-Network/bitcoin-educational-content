@@ -1,5 +1,5 @@
 ---
-termi: PROOF-OF-WORK
+term: PROOF-OF-WORK
 
 ---
 > ► *Vrt. **[TYÖN TODISTUS](/dictionary/P.md#työn todistus)**.*

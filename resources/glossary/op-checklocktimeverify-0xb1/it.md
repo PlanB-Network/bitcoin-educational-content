@@ -1,5 +1,5 @@
 ---
-termine: OP_CHECKLOCKTIMEVERIFY (0XB1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
 ---
 Rende la transazione non valida se non sono soddisfatte tutte le condizioni:

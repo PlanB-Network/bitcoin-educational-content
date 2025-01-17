@@ -1,5 +1,5 @@
 ---
-istilah: PENUKARAN ATOMIK
+term: PENUKARAN ATOMIK
 
 ---
 Teknologi yang memungkinkan pertukaran mata uang kripto secara langsung antara dua pihak, tanpa memerlukan kepercayaan dan tanpa memerlukan perantara. Pertukaran ini disebut "atomik" karena hanya dapat menghasilkan dua hasil:

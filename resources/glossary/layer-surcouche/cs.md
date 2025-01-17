@@ -1,5 +1,5 @@
 ---
-termín: VRSTVA (SURCOUCHE)
+term: VRSTVA (SURCOUCHE)
 
 ---
 "Vrstva" (francouzsky "surcouche") je protokol nebo síť postavená nad hlavní sítí Bitcoin. Využívá síť Bitcoin jako základ, a je tedy závislá na jejím protokolu. Síť Bitcoin však na svých vrstvách závislá není. Příkladem takové vrstvy je Lightning Network.

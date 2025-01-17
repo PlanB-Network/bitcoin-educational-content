@@ -1,5 +1,5 @@
 ---
-istilah: P2WSH
+term: P2WSH
 
 ---
 P2WSH adalah singkatan dari *Bayar untuk Menyaksikan Script Hash*. Ini adalah model skrip standar yang digunakan untuk menetapkan ketentuan pengeluaran pada UTXO. P2WSH diperkenalkan dengan implementasi SegWit pada bulan Agustus 2017.

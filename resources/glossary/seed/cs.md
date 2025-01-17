@@ -1,5 +1,5 @@
 ---
-termín: SEED
+term: SEED
 
 ---
 Ve specifickém kontextu hierarchické deterministické peněženky Bitcoin je seed 512bitová informace odvozená z náhodnosti. Používá se k deterministickému a hierarchickému generování sady soukromých klíčů a jim odpovídajících veřejných klíčů pro peněženku Bitcoin. Semínko se často zaměňuje se samotnou frází pro obnovení. Jedná se však o odlišnou informaci. Semínko se získá použitím funkce `PBKDF2` na mnemotechnickou frázi a jakoukoli potenciální frázi.

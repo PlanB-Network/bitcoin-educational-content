@@ -1,5 +1,5 @@
 ---
-istilah: PENAMBANGAN IKAN
+term: PENAMBANGAN IKAN
 
 ---
 Strategi (atau serangan) dalam menambang, di mana seorang penambang atau sekelompok penambang dengan sengaja menyimpan blok dengan bukti kerja yang valid tanpa segera menyiarkannya ke jaringan. Tujuannya adalah untuk mempertahankan keunggulan dari penambang lain dalam hal bukti kerja, yang memungkinkan mereka untuk menambang beberapa blok secara berurutan dan mempublikasikannya sekaligus, sehingga memaksimalkan keuntungan mereka.

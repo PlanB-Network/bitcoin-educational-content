@@ -1,5 +1,5 @@
 ---
-mõiste: MAAGILINE BITCOIN
+term: MAAGILINE BITCOIN
 
 ---
 Endine nimi tööriistade ja raamatukogude kogumik arendajatele BDK.

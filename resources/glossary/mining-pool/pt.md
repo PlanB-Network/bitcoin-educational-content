@@ -1,5 +1,5 @@
 ---
-termo: PISCINA DE MINERAÇÃO
+term: PISCINA DE MINERAÇÃO
 
 ---
 Refere-se a um grupo de mineiros que colaboram, combinando o seu poder de computação para participar na procura de provas de trabalho válidas para a Bitcoin. Este agrupamento numa única organização é uma solução para a crescente dificuldade de mineração de bitcoins, que torna demasiado improvável para um mineiro individual competir e ganhar recompensas de forma consistente. Os mineiros de um pool de mineração contribuem com as suas máquinas para a procura de acções válidas. Quando um bloco é extraído pelo pool, a recompensa, que inclui os bitcoins recém-criados, bem como as taxas de transação incluídas no bloco, é distribuída entre os membros do pool de acordo com o método de pagamento escolhido. Esta distribuição é proporcional ao poder de computação com que cada mineiro contribuiu.

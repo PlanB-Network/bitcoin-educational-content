@@ -1,5 +1,5 @@
 ---
-jangka waktu: BUKTI KERJA
+term: BUKTI KERJA
 
 ---
 > ► *Lihat **[BUKTI KERJA](/dictionary/P.md#bukti-kerja)**.*

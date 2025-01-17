@@ -1,5 +1,5 @@
 ---
-istilah: TUMPUKAN
+term: TUMPUKAN
 
 ---
 Dalam konteks bahasa skrip yang digunakan untuk menerapkan ketentuan pengeluaran pada Bitcoin UTXO, tumpukan adalah struktur data "LIFO" (*Last In, First Out*) yang berfungsi untuk menyimpan elemen sementara selama eksekusi skrip. Setiap operasi dalam skrip memanipulasi tumpukan ini, di mana elemen dapat ditambahkan (*push*) atau dihapus (*pop*). Skrip menggunakan tumpukan untuk mengevaluasi ekspresi, menyimpan variabel sementara, dan mengelola kondisi.

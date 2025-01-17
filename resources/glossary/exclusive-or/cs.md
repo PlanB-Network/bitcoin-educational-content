@@ -1,5 +1,5 @@
 ---
-termín: EXKLUZIVNÍ NEBO
+term: EXKLUZIVNÍ NEBO
 
 ---
 Základní funkce booleovské logiky. Funkce "Exclusive Or" neboli XOR ("*Exclusive or*") přijímá dva booleovské operandy, z nichž každý je pravda nebo nepravda, a dává pravdivý výstup pouze tehdy, když se oba operandy liší. Jinými slovy, výstup operace `XOR` je pravdivý, pokud je pravdivý přesně jeden (ale ne oba) z operandů. Například výsledkem operace `XOR` mezi operacemi `1` a `0` bude `1`. Poznamenáváme: $1 \oplus 0 = 1$. Podobně lze operaci `XOR` provádět i na delších posloupnostech bitů. Například: $10110 \oplus 01110 = 11000$. Každý bit posloupnosti se porovná se svým protějškem a provede se operace `XOR`. Zde je pravdivostní tabulka pro operaci `XOR`:

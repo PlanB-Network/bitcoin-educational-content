@@ -1,5 +1,5 @@
 ---
-istilah: P2SH-P2WSH
+term: P2SH-P2WSH
 
 ---
 P2SH-P2WSH adalah singkatan dari *Bayar ke Script Hash - Bayar untuk Menyaksikan Script Hash*. Ini adalah model skrip standar yang digunakan untuk menetapkan kondisi pengeluaran pada UTXO, juga dikenal sebagai "Nested SegWit".

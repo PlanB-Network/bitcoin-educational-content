@@ -1,5 +1,5 @@
 ---
-termín: KYC (POZNEJ SVÉHO ZÁKAZNÍKA)
+term: KYC (POZNEJ SVÉHO ZÁKAZNÍKA)
 
 ---
 Regulační postup, který některé společnosti provozující Bitcoin používají k ověření totožnosti svých klientů v rámci boje proti praní špinavých peněz a financování terorismu. KYC zahrnuje shromažďování a ověřování osobních údajů. V souvislosti s nákupem bitcoinů představuje KYC pro uživatele několik rizik, mj:

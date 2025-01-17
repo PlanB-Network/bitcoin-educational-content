@@ -1,5 +1,5 @@
 ---
-mõiste: VIN
+term: VIN
 
 ---
 Bitcoini tehingu konkreetne element, mis määrab kindlaks väljundite rahuldamiseks kasutatud rahaliste vahendite allika. Iga `vin` viitab eelmise tehingu kasutamata väljundile (UTXO). Tehing võib sisaldada mitut sisendit, millest igaüks on identifitseeritud kombinatsiooniga `txid` (algse tehingu identifikaator) ja `vout` (selle tehingu väljundi indeks).

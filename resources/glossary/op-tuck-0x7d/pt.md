@@ -1,5 +1,5 @@
 ---
-termo: OP_TUCK (0X7D)
+term: OP_TUCK (0X7D)
 
 ---
 Copia o item no topo da pilha e insere-o entre o segundo e o terceiro itens da pilha. Por exemplo, se a pilha for:

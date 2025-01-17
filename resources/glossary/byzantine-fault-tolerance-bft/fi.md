@@ -1,5 +1,5 @@
 ---
-termi: BYSANTTILAINEN VIKASIETOISUUS (BFT)
+term: BYSANTTILAINEN VIKASIETOISUUS (BFT)
 
 ---
 Käsite, jota käytetään hajautetuissa järjestelmissä varmistamaan luotettava ja turvallinen konsensus myös silloin, kun solmut ovat viallisia tai pahantahtoisia.

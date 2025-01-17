@@ -1,5 +1,5 @@
 ---
-término: MINERÍA EGOÍSTA
+term: MINERÍA EGOÍSTA
 
 ---
 Estrategia (o ataque) en minería, en la que un minero o un grupo de mineros guarda intencionadamente bloques con una prueba de trabajo válida sin difundirlos inmediatamente a la red. El objetivo es mantener una ventaja sobre otros mineros en términos de prueba de trabajo, lo que potencialmente les permite minar varios bloques seguidos y publicarlos todos a la vez, maximizando así sus ganancias.

@@ -1,5 +1,5 @@
 ---
-termi: URI
+term: URI
 
 ---
 Lyhenne sanoista "*Uniform Resource Identifier*". Se on standardoitu merkkijonomuoto, jota käytetään resurssin tunnistamiseen Internetissä. URI voi olla joko URL (*Uniform Resource Locator*), joka tarjoaa keinon käyttää resurssia osoittamalla sen sijainnin tietoverkossa, tai URN (*Uniform Resource Name*), joka nimeää resurssin määrittelemättä sen sijaintia. URI:t ovat tärkeitä *World Wide Webin* toiminnassa, sillä niiden avulla voidaan käyttää resursseja, kuten verkkosivuja, asiakirjoja ja palveluja.

@@ -1,5 +1,5 @@
 ---
-termín: SAMOURAJSKÁ PENĚŽENKA
+term: SAMOURAJSKÁ PENĚŽENKA
 
 ---
 Software bitcoinové peněženky pro mobilní zařízení se systémem Android zaměřený na ochranu soukromí. Nabízí pokročilé funkce, jako je Whirlpool coinjoin, Stonewall, StonewallX2, Ricochet a Stowaway (payjoin). Samourai také implementuje řadu ochran, které uživatelům pomáhají chránit jejich soukromí před analýzou řetězce.

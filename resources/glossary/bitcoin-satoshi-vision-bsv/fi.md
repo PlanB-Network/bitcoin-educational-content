@@ -1,5 +1,5 @@
 ---
-termi: BITCOIN SATOSHI VISION (BSV): BITCOIN SATOSHI VISIO (BSV)
+term: BITCOIN SATOSHI VISION (BSV): BITCOIN SATOSHI VISIO (BSV)
 
 ---
 Kryptovaluuttajärjestelmä, joka on syntynyt Bitcoin Cashin (BCH), joka on Bitcoinin (BTC) haarautuma, kovasta haarautumisesta. Bitcoin SV:n haarautuminen tapahtui 15. marraskuuta 2018 lohkossa 556,766 Bitcoin Cash -yhteisön sisällä esiintyneiden erimielisyyksien vuoksi, jotka koskivat erityisesti lohkokokoa ja Bitcoinin luojan Satoshi Nakamoton oletettua visiota. Kaksi ryhmittymää otti yhteen:

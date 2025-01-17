@@ -1,5 +1,5 @@
 ---
-termo: BOLSA WASABI
+term: BOLSA WASABI
 
 ---
 Uma carteira Bitcoin centrada na privacidade, que oferece funcionalidades como o coinjoin.

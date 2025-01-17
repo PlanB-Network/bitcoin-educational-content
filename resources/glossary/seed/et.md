@@ -1,5 +1,5 @@
 ---
-mõiste: SEED
+term: SEED
 
 ---
 Hierarhilise deterministliku Bitcoini rahakoti kontekstis on seemne 512-bitine teave, mis on tuletatud juhuslikkusest. Seda kasutatakse Bitcoini rahakoti jaoks privaatvõtmete ja vastavate avalike võtmete kogumi deterministlikuks ja hierarhiliseks genereerimiseks. Seeme aetakse sageli segamini taastamislausega. Tegemist on siiski erineva teabega. Seeme saadakse, rakendades funktsiooni `PBKDF2` mnemofraasile ja mis tahes potentsiaalsele parafraasile.

@@ -1,5 +1,5 @@
 ---
-mõiste: WHIRLPOOL STAT TÖÖRIIST: WHIRLPOOL STAT TOOL
+term: WHIRLPOOL STAT TÖÖRIIST: WHIRLPOOL STAT TOOL
 
 ---
 Samourai rahakoti poolt välja töötatud online käsurea tarkvara, mis pakub nii perspektiivseid kui ka retrospektiivseid anonüüme segamündi kohta Whirlpoolis, samuti selle leviku kiirust basseinis. WST kasutab HyperLogLogPlusPlus algoritmi, mis hindab väga suures andmekogumis erinevate väärtuste arvu.

@@ -1,5 +1,5 @@
 ---
-termi: SELFISH MINING
+term: SELFISH MINING
 
 ---
 Kaivostoiminnan strategia (tai hyökkäys), jossa kaivosmies tai ryhmä kaivosmiehiä pitää tarkoituksella lohkoja, joilla on voimassa oleva todiste, lähettämättä niitä välittömästi verkkoon. Tavoitteena on säilyttää etumatka muihin kaivostyöläisiin nähden, mikä mahdollistaa sen, että kaivostyöläiset voivat mahdollisesti louhia useita lohkoja peräkkäin ja julkaista ne kaikki kerralla ja maksimoida näin voittonsa.

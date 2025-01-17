@@ -1,5 +1,5 @@
 ---
-mõiste: AOPP
+term: AOPP
 
 ---
 Lühend "*Aadressi omandit tõendav protokoll*". See on vastuoluline protokoll, mille eesmärk on automaatselt tõestada Bitcoini aadresside omandiõigust. See mehhanism võimaldab kasutajatel tõestada, et nad kontrollivad konkreetset aadressi otse oma ühilduva rahakoti tarkvara kaudu. Algselt loodi AOPP selleks, et lihtsustada aadressi omandiõiguse tõendamist, mis on seaduslik nõue klientidele, kes soovivad oma bitcoin'id teatud jurisdiktsioonides, näiteks Šveitsis, vahetusplatvormidelt välja kanda.

@@ -1,5 +1,5 @@
 ---
-termín: CIOH
+term: CIOH
 
 ---
 Zkratka pro "*Common Input Ownership Heuristic*". Jedná se o heuristiku používanou v oblasti analýzy bitcoinového řetězce, která předpokládá, že všechny vstupy transakce patří stejnému subjektu nebo uživateli. Pokud při pozorování veřejných údajů o bitcoinové transakci spatříme více vstupů, pak, pokud neexistují žádné vzory nebo jiné informace, které by to vyvracely, lze odhadnout, že všechny vstupy této transakce patřily jedné osobě (nebo subjektu).

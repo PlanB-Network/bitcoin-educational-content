@@ -1,5 +1,5 @@
 ---
-termo: SEMENTE
+term: SEMENTE
 
 ---
 No contexto específico de uma carteira Bitcoin determinística hierárquica, uma semente é um pedaço de informação de 512 bits derivado da aleatoriedade. Ela é usada para gerar deterministicamente e hierarquicamente um conjunto de chaves privadas, e suas correspondentes chaves públicas, para uma carteira Bitcoin. A semente é frequentemente confundida com a própria frase de recuperação. No entanto, são informações diferentes. A semente é obtida através da aplicação da função `PBKDF2` à frase mnemónica e a qualquer frase-chave potencial.

@@ -1,5 +1,5 @@
 ---
-termín: C++ (PLUS PLUS)
+term: C++ (PLUS PLUS)
 
 ---
 Univerzální programovací jazyk, který se vyvinul z jazyka C a je známý svou výkonností a flexibilitou. Používá se pro vývoj komplexního softwaru, podporuje objektově orientované programování a nabízí bohaté funkce pro správu paměti a práci se systémovými prostředky.

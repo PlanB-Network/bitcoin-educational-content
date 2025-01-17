@@ -1,5 +1,5 @@
 ---
-termi: SECP256K1
+term: SECP256K1
 
 ---
 Nimi tietylle elliptiselle käyrälle, jota käytetään Bitcoin-protokollassa ECDSA- (*Elliptic Curve Digital Signature Algorithm*) ja Schnorr-digitaalisen allekirjoitusalgoritmin toteuttamiseen. Bitcoinin keksijä Satoshi Nakamoto valitsi "secp256k1"-käyrän. Sillä on joitakin mielenkiintoisia ominaisuuksia, erityisesti suorituskykyetuja.

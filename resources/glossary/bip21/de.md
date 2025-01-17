@@ -1,5 +1,5 @@
 ---
-begriff: BIP21
+term: BIP21
 
 ---
 Vorschlag von Nils Schneider und Matt Corallo, basierend auf BIP20 von Luke Dashjr, das wiederum aus einem anderen Dokument von Nils Schneider stammt. BIP21 definiert, wie Empfangsadressen in URIs (*Uniform Resource Identifier*) kodiert werden sollten, um Zahlungen zu erleichtern. Ein Bitcoin-URI nach BIP21, in dem ich unter der Bezeichnung "*Pandul*" darum bitte, mir 0,1 BTC zu schicken, würde zum Beispiel so aussehen:

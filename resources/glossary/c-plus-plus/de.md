@@ -1,5 +1,5 @@
 ---
-begriff: C++ (PLUS PLUS)
+term: C++ (PLUS PLUS)
 
 ---
 Eine vielseitige Programmiersprache, die sich aus C entwickelt hat und für ihre Leistungsfähigkeit und Flexibilität bekannt ist. Sie wird für die Entwicklung komplexer Software verwendet, unterstützt objektorientierte Programmierung und bietet umfangreiche Funktionen für die Speicherverwaltung und den Umgang mit Systemressourcen.

@@ -1,5 +1,5 @@
 ---
-termín: SEED (BITCOIN)
+term: SEED (BITCOIN)
 
 ---
 V kontextu Bitcoinu je seed 512bitová hodnota, která se používá k odvození všech soukromých a veřejných klíčů přidružených k peněžence HD (Hierarchical Deterministic). Technicky vzato je seed jiná hodnota než fráze pro obnovení (nebo mnemotechnická fráze). Fráze, která se obvykle skládá z 12 nebo 24 slov, je generována pseudonáhodným způsobem ze zdroje entropie a doplněna kontrolním součtem. Tato fráze usnadňuje zálohování člověku tím, že poskytuje textovou reprezentaci hodnoty v základu peněženky.

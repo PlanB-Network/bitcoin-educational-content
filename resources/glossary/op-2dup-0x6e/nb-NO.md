@@ -1,5 +1,5 @@
 ---
-betegnelse: OP_2DUP (0X6E)
+term: OP_2DUP (0X6E)
 
 ---
 Dupliserer de to øverste elementene i bunken, og plasserer dem deretter på toppen av bunken. For eksempel, hvis bunken er:

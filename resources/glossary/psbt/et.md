@@ -1,5 +1,5 @@
 ---
-mõiste: PSBT
+term: PSBT
 
 ---
 Akronüüm "Osaliselt allkirjastatud Bitcoin-tehing". See on spetsifikatsioon, mis võeti kasutusele koos BIP174-ga, et standardiseerida viis, kuidas lõpetamata tehinguid Bitcoiniga seotud tarkvaras, näiteks rahakoti tarkvaras, konstrueeritakse. PSBT kapseldab tehingu, mille sisendid ei pruugi olla täielikult allkirjastatud. See sisaldab kogu vajalikku teavet, et osaleja saaks tehingu allkirjastada ilma lisaandmeid nõudmata. Seega võib PSBT võtta 3 erinevat vormi:

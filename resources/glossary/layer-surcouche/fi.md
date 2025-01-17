@@ -1,5 +1,5 @@
 ---
-termi: KERROS (SURCOUCHE)
+term: KERROS (SURCOUCHE)
 
 ---
 "Kerros" (ranskaksi "surcouche") on protokolla tai verkko, joka on rakennettu Bitcoinin pääverkon päälle. Se käyttää Bitcoin-verkkoa perustana ja on siten riippuvainen sen protokollasta. Bitcoin-verkko ei kuitenkaan ole riippuvainen sen kerroksista. Esimerkki tällaisesta kerroksesta on Lightning Network.

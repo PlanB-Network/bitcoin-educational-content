@@ -1,5 +1,5 @@
 ---
-término: BTC
+term: BTC
 
 ---
 Símbolo bursátil o monetario (*ticker*) utilizado para representar una unidad de bitcoin en las plataformas de intercambio. Se utiliza para identificar rápidamente el bitcoin entre otros activos y divisas. Una unidad de bitcoin (1 BTC) equivale a 100.000.000 satoshis (o "sats").

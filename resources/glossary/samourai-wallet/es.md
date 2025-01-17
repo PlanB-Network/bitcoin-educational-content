@@ -1,5 +1,5 @@
 ---
-término: CARTERA SAMOURAI
+term: CARTERA SAMOURAI
 
 ---
 Software de monedero Bitcoin para dispositivos móviles Android centrado en la privacidad. Ofrece funciones avanzadas como Whirlpool coinjoins, Stonewall, StonewallX2, Ricochet y Stowaway (payjoin). Samourai también implementa numerosas protecciones para ayudar a los usuarios a salvaguardar su privacidad contra el análisis de la cadena.

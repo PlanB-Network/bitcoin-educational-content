@@ -1,5 +1,5 @@
 ---
-istilah: OP_2ROT (0X71)
+term: OP_2ROT (0X71)
 
 ---
 Memindahkan dua elemen yang berada di posisi keenam dan kelima dari atas tumpukan ke atas. Misalnya, jika tumpukannya adalah:

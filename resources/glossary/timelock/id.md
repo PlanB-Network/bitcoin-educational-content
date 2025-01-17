@@ -1,5 +1,5 @@
 ---
-istilah: KUNCI WAKTU
+term: KUNCI WAKTU
 
 ---
 Sebuah primitif kontrak pintar yang memungkinkan pengaturan kondisi berbasis waktu yang harus dipenuhi agar sebuah transaksi dapat ditambahkan ke dalam blok. Terdapat dua jenis penguncian waktu pada Bitcoin:

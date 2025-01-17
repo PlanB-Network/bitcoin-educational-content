@@ -1,5 +1,5 @@
 ---
-termine: ECLAIR
+term: ECLAIR
 
 ---
 Un'importante implementazione del protocollo Lightning Network scritta in linguaggio Scala. Eclair è sviluppato dalla società francese Acinq.

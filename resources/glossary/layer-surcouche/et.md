@@ -1,5 +1,5 @@
 ---
-mõiste: KIHT (SURCOUCHE)
+term: KIHT (SURCOUCHE)
 
 ---
 "Kiht" (või "surcouche" prantsuse keeles) on protokoll või võrk, mis on ehitatud Bitcoini peamise võrgu peale, stapeldades selle üle. See kasutab Bitcoini võrku vundamendina ja sõltub seega selle protokollist. Bitcoini võrk ei sõltu aga selle kihtidest. Näide sellisest kihist on Lightning Network.

@@ -1,5 +1,5 @@
 ---
-istilah: JALUR DERIVASI
+term: JALUR DERIVASI
 
 ---
 Dalam konteks Hierarchical Deterministic (HD) wallet, sebuah jalur derivasi mengacu pada urutan indeks yang digunakan untuk menurunkan child key dari master key. Dijelaskan dalam BIP32, jalur ini mengidentifikasi struktur pohon untuk menurunkan anak kunci. Jalur derivasi diwakili oleh serangkaian indeks yang dipisahkan oleh garis miring, dan selalu dimulai dengan kunci utama (dilambangkan sebagai `m/`). Sebagai contoh, sebuah jalur yang umum adalah `m/84'/0'/0'/0/0`. Setiap tingkat derivasi dikaitkan dengan kedalaman tertentu:

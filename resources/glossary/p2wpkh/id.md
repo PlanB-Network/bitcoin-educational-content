@@ -1,5 +1,5 @@
 ---
-istilah: P2WPKH
+term: P2WPKH
 
 ---
 P2WPKH adalah singkatan dari *Bayar untuk Menyaksikan Public Key Hash*. Ini adalah model skrip standar yang digunakan untuk menetapkan ketentuan pengeluaran pada UTXO. P2WPKH diperkenalkan dengan implementasi SegWit pada bulan Agustus 2017.

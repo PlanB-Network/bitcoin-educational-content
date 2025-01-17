@@ -1,5 +1,5 @@
 ---
-término: OP_CHECKLOCKTIMEVERIFY (0XB1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
 ---
 Hace que la transacción no sea válida a menos que se cumplan todas estas condiciones:

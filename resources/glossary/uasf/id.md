@@ -1,5 +1,5 @@
 ---
-istilah: UASF
+term: UASF
 
 ---
 Akronim untuk "*Fork Lunak yang Diaktifkan Pengguna*". Menggambarkan sebuah soft fork dalam Bitcoin ketika diinisiasi dan ditegakkan oleh pengguna jaringan melalui node mereka, tanpa bergantung pada persetujuan penambang. Node jaringan memperbarui perangkat lunak mereka untuk mengadopsi aturan baru dari soft fork, dan membiarkan kepingan-kepingan tersebut jatuh ke tempatnya!

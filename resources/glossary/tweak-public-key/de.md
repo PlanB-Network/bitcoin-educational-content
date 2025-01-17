@@ -1,5 +1,5 @@
 ---
-begriff: TWEAK (ÖFFENTLICHER SCHLÜSSEL)
+term: TWEAK (ÖFFENTLICHER SCHLÜSSEL)
 
 ---
 In der Kryptographie bedeutet "Tweaking", dass ein öffentlicher Schlüssel durch einen additiven Wert, den so genannten "Tweak", so verändert wird, dass er mit Kenntnis des ursprünglichen privaten Schlüssels und des Tweaks verwendbar bleibt. Technisch gesehen ist ein Tweak ein skalarer Wert, der zum ursprünglichen öffentlichen Schlüssel hinzugefügt wird. Wenn $P$ der öffentliche Schlüssel und $t$ der Tweak ist, wird der getweakte öffentliche Schlüssel:

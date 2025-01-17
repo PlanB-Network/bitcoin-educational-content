@@ -1,5 +1,5 @@
 ---
-semester: C++ (PLUSS PLUSS)
+term: C++ (PLUSS PLUSS)
 
 ---
 Et allsidig programmeringsspråk som har utviklet seg fra C, og som er kjent for sin kraft og fleksibilitet. Språket brukes til kompleks programvareutvikling, støtter objektorientert programmering og har mange funksjoner for minnehåndtering og håndtering av systemressurser.

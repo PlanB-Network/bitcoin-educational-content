@@ -1,5 +1,5 @@
 ---
-término: ANONSETS (CONJUNTOS DE ANONIMATO)
+term: ANONSETS (CONJUNTOS DE ANONIMATO)
 
 ---
 Los anonsets sirven como indicadores para evaluar el nivel de privacidad de un UTXO concreto. Más concretamente, miden el número de UTXO indistinguibles dentro del conjunto que incluye la moneda objeto de estudio. Dado que se requiere un grupo de UTXO idénticos, los anonsets se calculan generalmente dentro de un ciclo de coinjoins. Permiten, en su caso, juzgar la calidad de los coinjoins. Un anonset grande significa un mayor nivel de anonimato, ya que resulta difícil distinguir un UTXO específico dentro del conjunto. Existen dos tipos de anonsets:

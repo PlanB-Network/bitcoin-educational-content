@@ -1,5 +1,5 @@
 ---
-betegnelse: OP_1 (0X51)
+term: OP_1 (0X51)
 
 ---
 Skyver verdien `1` opp på stakken. Den brukes ofte til å representere den boolske verdien true i skript.

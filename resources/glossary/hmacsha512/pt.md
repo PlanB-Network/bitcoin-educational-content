@@ -1,5 +1,5 @@
 ---
-termo: HMAC-SHA512
+term: HMAC-SHA512
 
 ---
 a sigla `HMAC-SHA512` significa "Hash-based Message Authentication Code - Secure Hash Algorithm 512". Trata-se de um algoritmo criptográfico utilizado para verificar a integridade e a autenticidade das mensagens trocadas entre duas partes. Combina a função hash criptográfica `SHA512` com uma chave secreta partilhada para gerar um código de autenticação de mensagem (MAC) único para cada mensagem.

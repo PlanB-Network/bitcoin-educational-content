@@ -1,5 +1,5 @@
 ---
-término: TOLERANCIA BIZANTINA A FALLOS (BFT)
+term: TOLERANCIA BIZANTINA A FALLOS (BFT)
 
 ---
 Concepto utilizado en los sistemas distribuidos para garantizar un consenso fiable y seguro, incluso en presencia de nodos defectuosos o maliciosos.

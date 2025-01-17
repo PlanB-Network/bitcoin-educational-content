@@ -1,5 +1,5 @@
 ---
-termi: (ANALYYSI)
+term: (ANALYYSI)
 
 ---
 Ketjuanalyysin yhteydessä entropia on myös LaurentMT:n keksimästä Shannonin entropiasta johdetun indikaattorin nimi. Tämän indikaattorin avulla voidaan mitata, kuinka vähän analyytikoilla on tietoa Bitcoin-tapahtuman tarkasta kokoonpanosta. Toisin sanoen, mitä korkeampi transaktion entropia on, sitä vaikeampaa analyytikkojen on tunnistaa bitcoinien liikkeitä syötteiden ja tulosteiden välillä.

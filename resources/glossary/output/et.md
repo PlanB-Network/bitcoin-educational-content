@@ -1,5 +1,5 @@
 ---
-mõiste: OUTPUT
+term: OUTPUT
 
 ---
 Bitcoini kontekstis viitab tehingu väljund UTXOdele (*Unspent Transaction Outputs*), mis on loodud makse sihtrahana. Täpsemalt öeldes on see mehhanism, mille abil tehing jaotab vahendeid.

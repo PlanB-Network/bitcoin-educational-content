@@ -1,5 +1,5 @@
 ---
-istilah: ENTROPI (ANALISIS)
+term: ENTROPI (ANALISIS)
 
 ---
 Dalam konteks khusus analisis rantai, entropi juga merupakan nama sebuah indikator, yang berasal dari entropi Shannon, yang ditemukan oleh LaurentMT. Indikator ini memungkinkan untuk mengukur kurangnya pengetahuan yang dimiliki oleh para analis mengenai konfigurasi yang tepat dari sebuah transaksi Bitcoin. Dengan kata lain, semakin tinggi entropi sebuah transaksi, semakin sulit bagi para analis untuk mengidentifikasi pergerakan bitcoin antara input dan output.

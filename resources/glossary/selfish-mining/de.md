@@ -1,5 +1,5 @@
 ---
-begriff: SELBSTMINIERUNG
+term: SELBSTMINIERUNG
 
 ---
 Strategie (oder Angriff) beim Mining, bei der ein Miner oder eine Gruppe von Minern absichtlich Blöcke mit einem gültigen Arbeitsnachweis aufbewahrt, ohne sie sofort an das Netzwerk weiterzugeben. Ziel ist es, einen Vorsprung vor anderen Minern in Bezug auf den Arbeitsnachweis aufrechtzuerhalten, was es ihnen möglicherweise ermöglicht, mehrere Blöcke hintereinander zu schürfen und sie alle auf einmal zu veröffentlichen und so ihre Gewinne zu maximieren.

@@ -1,5 +1,5 @@
 ---
-istilah: PENGENDALIAN KOIN
+term: PENGENDALIAN KOIN
 
 ---
 Sebuah fitur yang terdapat pada beberapa perangkat lunak dompet Bitcoin yang memberikan kemampuan kepada pengguna untuk secara manual memilih UTXO (Unspent Transaction Outputs) tertentu untuk digunakan sebagai input untuk melakukan transaksi. Dengan kata lain, kontrol koin menawarkan kemungkinan untuk memilih secara tepat potongan bitcoin mana yang akan dibelanjakan. Fungsionalitas ini mirip dengan tindakan memilih koin tertentu dari dompet Anda untuk membayar baguette.

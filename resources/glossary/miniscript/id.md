@@ -1,5 +1,5 @@
 ---
-istilah: MINISTRY
+term: MINISTRY
 
 ---
 Kerangka kerja yang dirancang untuk menyediakan kerangka kerja untuk memprogram skrip dengan aman di Bitcoin. Bahasa asli Bitcoin disebut skrip. Script ini cukup rumit untuk digunakan dalam praktiknya, terutama untuk aplikasi yang canggih dan disesuaikan. Yang terpenting, sangat sulit untuk memverifikasi batasan-batasan skrip. Miniscript menggunakan bagian dari skrip Bitcoin untuk menyederhanakan pembuatan, analisis, dan verifikasi. Setiap miniscript setara dengan 1 untuk 1 dengan skrip asli. Bahasa kebijakan yang mudah digunakan digunakan, yang kemudian dikompilasi ke dalam miniscript, untuk akhirnya sesuai dengan skrip asli.

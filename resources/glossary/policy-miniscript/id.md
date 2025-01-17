@@ -1,5 +1,5 @@
 ---
-jangka waktu: KEBIJAKAN (NASKAH MINI)
+term: KEBIJAKAN (NASKAH MINI)
 
 ---
 Bahasa tingkat tinggi yang berorientasi pada pengguna yang memungkinkan spesifikasi sederhana dari kondisi di mana UTXO dapat dibuka dalam kerangka kerja Miniscript. Kebijakan adalah deskripsi abstrak dari aturan pengeluaran. Kemudian dapat dikompilasi ke dalam miniscript, yang merupakan ekuivalen satu-ke-satu dengan operasi dari bahasa skrip asli Bitcoin.

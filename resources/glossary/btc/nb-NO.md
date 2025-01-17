@@ -1,5 +1,5 @@
 ---
-begrep: BTC
+term: BTC
 
 ---
 Aksje- eller valutasymbol (*ticker*) som brukes til å representere en enhet bitcoin på utvekslingsplattformer. Det brukes til å raskt identifisere bitcoin blant andre aktiva og valutaer. Én enhet bitcoin (1 BTC) tilsvarer 100 000 000 satoshier (eller "sats").

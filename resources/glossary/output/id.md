@@ -1,5 +1,5 @@
 ---
-jangka waktu: KELUARAN
+term: KELUARAN
 
 ---
 Dalam konteks Bitcoin, sebuah output dalam sebuah transaksi mengacu pada UTXO (*Unspent Transaction Outputs*) yang dibuat sebagai dana tujuan pembayaran. Lebih khusus lagi, ini adalah mekanisme yang digunakan untuk mendistribusikan dana.

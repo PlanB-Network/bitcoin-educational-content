@@ -1,5 +1,5 @@
 ---
-jangka waktu: BIAYA TRANSAKSI
+term: BIAYA TRANSAKSI
 
 ---
 Biaya transaksi merupakan jumlah yang bertujuan untuk memberikan kompensasi kepada para penambang atas partisipasi mereka dalam mekanisme proof of work. Biaya ini mendorong para penambang untuk memasukkan transaksi ke dalam blok yang mereka buat. Biaya ini dihasilkan dari selisih antara jumlah total input dan jumlah total output dalam sebuah transaksi:

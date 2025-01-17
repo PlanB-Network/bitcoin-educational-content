@@ -1,5 +1,5 @@
 ---
-termi: PREMIUM
+term: PREMIUM
 
 ---
 Omaisuuserän vakio- tai nimellishinnan lisäksi maksettu lisämaksu. Bitcoinin yhteydessä preemio voidaan havaita ostoja tehtäessä, erityisesti vaihtoalustoilla, jotka saattavat joskus käyttää tätä tekniikkaa tehdäkseen marginaalinsa välityspalvelusta.

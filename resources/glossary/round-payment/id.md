@@ -1,5 +1,5 @@
 ---
-jangka waktu: PEMBAYARAN BERKALA
+term: PEMBAYARAN BERKALA
 
 ---
 Sebuah heuristik internal untuk analisis rantai Bitcoin yang memungkinkan sebuah hipotesis mengenai sifat output dari sebuah transaksi berdasarkan jumlah bulat. Umumnya, ketika dihadapkan pada pola pembayaran sederhana (1 input dan 2 output), jika salah satu output mengeluarkan jumlah yang bulat, maka output tersebut merepresentasikan pembayaran. Dengan eliminasi, jika satu output mewakili pembayaran, maka output lainnya mewakili kembalian. Oleh karena itu, dapat diartikan bahwa kemungkinan pengguna yang memasukkan transaksi masih memiliki output yang diidentifikasi sebagai kembalian.

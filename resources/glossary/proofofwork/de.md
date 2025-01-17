@@ -1,5 +1,5 @@
 ---
-begriff: PROOF-OF-WORK
+term: PROOF-OF-WORK
 
 ---
 > ► *Siehe **[ARBEITSNACHWEIS](/dictionary/P.md#Arbeitsnachweis)**.*

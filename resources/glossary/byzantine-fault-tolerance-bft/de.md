@@ -1,5 +1,5 @@
 ---
-begriff: BYZANTINISCHE FEHLERTOLERANZ (BFT)
+term: BYZANTINISCHE FEHLERTOLERANZ (BFT)
 
 ---
 Ein Konzept, das in verteilten Systemen verwendet wird, um einen zuverlässigen und sicheren Konsens zu gewährleisten, selbst wenn fehlerhafte oder böswillige Knoten vorhanden sind.

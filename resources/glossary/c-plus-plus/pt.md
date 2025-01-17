@@ -1,5 +1,5 @@
 ---
-termo: C++ (MAIS MAIS MAIS)
+term: C++ (MAIS MAIS MAIS)
 
 ---
 Uma linguagem de programação versátil que evoluiu a partir do C, conhecida pelo seu poder e flexibilidade. Utilizada para o desenvolvimento de software complexo, suporta a programação orientada para objectos e oferece funcionalidades ricas para a gestão da memória e o tratamento de recursos do sistema.

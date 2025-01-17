@@ -1,5 +1,5 @@
 ---
-termine: PAGAMENTO SEMPLICE
+term: PAGAMENTO SEMPLICE
 
 ---
 Modello di transazione (o modello) utilizzato nell'analisi di filiera caratterizzato dal consumo di uno o più UTXO in ingresso e dalla produzione di 2 UTXO in uscita. Questo modello avrà quindi il seguente aspetto:

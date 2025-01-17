@@ -1,5 +1,5 @@
 ---
-istilah: TOLERANSI KESALAHAN BYZANTIUM (BFT)
+term: TOLERANSI KESALAHAN BYZANTIUM (BFT)
 
 ---
 Sebuah konsep yang digunakan dalam sistem terdistribusi untuk memastikan konsensus yang andal dan aman, bahkan dengan adanya node yang rusak atau berbahaya.

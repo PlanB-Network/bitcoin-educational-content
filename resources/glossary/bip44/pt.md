@@ -1,5 +1,5 @@
 ---
-termo: BIP44
+term: BIP44
 
 ---
 Uma proposta de melhoria que introduz uma estrutura de derivação hierárquica normalizada para as carteiras HD. A BIP44 baseia-se nos princípios estabelecidos pela BIP32 para a derivação de chaves e na BIP43 para a utilização do campo "purpose". Introduz uma estrutura de derivação de cinco níveis: `m / purpose' / coin_type' / account' / change / address_index`. Eis os pormenores de cada nível:

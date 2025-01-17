@@ -1,5 +1,5 @@
 ---
-termi: EXCLUSIVE OR
+term: EXCLUSIVE OR
 
 ---
 Boolen logiikan perustehtävä. Eksklusiivinen tai XOR ("*Exclusive or*") ottaa kaksi Boolen operandia, joista kumpikin on tosi tai epätosi, ja tuottaa tosi tuloksen vain silloin, kun nämä kaksi operandia eroavat toisistaan. Toisin sanoen `XOR`-operaation tulos on tosi, jos täsmälleen toinen (mutta eivät molemmat) operandeista on tosi. Esimerkiksi `XOR`-operaation tuloksena on `1` ja `0` välillä `1`. Huomaa: $1 \oplus 0 = 1$. Vastaavasti `XOR`-operaatio voidaan suorittaa pidemmille bittisarjoille. Esimerkiksi: $10110 \oplus 01110 = 11000$. Sarjan jokaista bittiä verrataan sen vastaavaan ja suoritetaan `XOR`-operaatio. Tässä on `XOR`-operaation totuustaulukko:

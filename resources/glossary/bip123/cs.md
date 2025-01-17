@@ -1,5 +1,5 @@
 ---
-termín: BIP123
+term: BIP123
 
 ---
 Zavádí nový standardizovaný postup pro klasifikaci návrhů na zlepšení bitcoinu. BIP musí být nyní klasifikovány do 4 kategorií:

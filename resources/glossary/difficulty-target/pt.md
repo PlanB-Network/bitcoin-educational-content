@@ -1,5 +1,5 @@
 ---
-termo: OBJECTIVO DE DIFICULDADE
+term: OBJECTIVO DE DIFICULDADE
 
 ---
 O fator de dificuldade, também conhecido como objetivo de dificuldade, é um parâmetro utilizado no mecanismo de consenso por prova de trabalho (Proof of Work, PoW) na Bitcoin. O objetivo representa um valor numérico que determina a dificuldade para os mineiros resolverem um problema criptográfico específico, chamado prova de trabalho, ao criarem um novo bloco na cadeia de blocos.

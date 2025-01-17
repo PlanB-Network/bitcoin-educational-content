@@ -1,5 +1,5 @@
 ---
-begriff: SAMOURAI-BRIEFTASCHE
+term: SAMOURAI-BRIEFTASCHE
 
 ---
 Bitcoin-Wallet-Software für Android-Mobilgeräte mit Schwerpunkt auf Privatsphäre. Sie bietet erweiterte Funktionen wie Whirlpool Coinjoins, Stonewall, StonewallX2, Ricochet und Stowaway (Payjoin). Samourai implementiert auch zahlreiche Schutzmechanismen, die den Nutzern helfen, ihre Privatsphäre vor Kettenanalysen zu schützen.

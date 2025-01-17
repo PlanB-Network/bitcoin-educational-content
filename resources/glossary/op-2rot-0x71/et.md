@@ -1,5 +1,5 @@
 ---
-mõiste: OP_2ROT (0X71)
+term: OP_2ROT (0X71)
 
 ---
 Liigutab kaks elementi, mis on kuuendal ja viiendal positsioonil, virna ülaosast ülespoole. Näiteks kui virnas on:

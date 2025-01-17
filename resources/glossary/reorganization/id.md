@@ -1,5 +1,5 @@
 ---
-istilah: REORGANISASI
+term: REORGANISASI
 
 ---
 Mengacu pada sebuah fenomena di mana blockchain mengalami modifikasi struktur karena adanya blok yang bersaing pada ketinggian yang sama. Ini terjadi ketika sebagian blockchain digantikan oleh rantai lain yang memiliki jumlah akumulasi pekerjaan yang lebih besar.

@@ -1,5 +1,5 @@
 ---
-istilah: PENEMUAN REKAN SEJAWAT
+term: PENEMUAN REKAN SEJAWAT
 
 ---
 Proses di mana node dalam jaringan Bitcoin terhubung ke node lain untuk mendapatkan informasi. Ketika sebuah node Bitcoin pertama kali diluncurkan, ia tidak memiliki informasi mengenai node lain dalam jaringan. Namun, node tersebut harus membuat koneksi untuk melakukan sinkronisasi dengan blockchain yang memiliki akumulasi pekerjaan paling banyak. Beberapa mekanisme digunakan untuk menemukan rekan-rekan ini, berdasarkan urutan prioritas:

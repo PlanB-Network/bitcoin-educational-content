@@ -1,5 +1,5 @@
 ---
-termine: PORTAFOGLIO WASABI
+term: PORTAFOGLIO WASABI
 
 ---
 Un portafoglio Bitcoin incentrato sulla privacy, che offre funzioni come coinjoin.

@@ -1,5 +1,5 @@
 ---
-jangka waktu: ALAMAT STATIS
+term: ALAMAT STATIS
 
 ---
 Dalam konteks Silent Payments, mengacu pada pengenal unik yang memungkinkan penerimaan pembayaran tanpa penggunaan ulang alamat, tanpa interaksi, dan tanpa tautan on-chain yang terlihat antara berbagai pembayaran dan alamat statis. Teknik ini menghilangkan kebutuhan untuk membuat alamat penerima baru yang tidak terpakai untuk setiap transaksi, sehingga menghindari interaksi yang biasa terjadi pada Bitcoin di mana penerima harus memberikan alamat baru kepada pembayar. Hal ini agak mirip dengan kode pembayaran yang dapat digunakan kembali dalam konteks BIP47.

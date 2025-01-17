@@ -1,5 +1,5 @@
 ---
-mõiste: BTC
+term: BTC
 
 ---
 Aktsia- või valuutasümbol (*ticker*), mida kasutatakse bitcoini ühiku tähistamiseks vahetusplatvormidel. Seda kasutatakse bitcoini kiireks identifitseerimiseks teiste varade ja valuutade seas. Üks bitcoini ühik (1 BTC) on võrdne 100 000 000 satoshiga (või "satsiga").

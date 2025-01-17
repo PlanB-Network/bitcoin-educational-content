@@ -1,5 +1,5 @@
 ---
-begrep: SPREAD (WST)
+term: SPREAD (WST)
 
 ---
 I Whirlpool Stat Tool-programvaren er spredningen en indikator som brukes til å måle homogeniteten i blandeprosessen sett fra et gitt stykkes perspektiv. Det finnes to typer spredning: prospektiv og retrospektiv.

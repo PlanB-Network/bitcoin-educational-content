@@ -1,5 +1,5 @@
 ---
-betegnelse: BIP143
+term: BIP143
 
 ---
 Innfører en ny måte å hashe transaksjonen på for signaturverifisering i post-SegWit-skript. Målet er å minimere overflødige operasjoner under verifiseringen og å inkludere verdien av UTXO-ene i inndataene i signaturen. Dette løser to store problemer med den opprinnelige transaksjonshashingalgoritmen:

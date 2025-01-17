@@ -1,5 +1,5 @@
 ---
-begriff: HASH RATE
+term: HASH RATE
 
 ---
 Indikator für die Rechenleistung des Netzwerks, gemessen in Hashes pro Sekunde (H/s). Sie zeigt die Fähigkeit der Miner an, Hash-Operationen als Teil des Proof of Work durchzuführen. Eine hohe Hash-Rate bedeutet mehr Sicherheit für die Bitcoin-Wirtschaftsgeschichte und mehr Widerstand gegen Angriffe, da eine beträchtliche Menge an Rechenleistung erforderlich wäre, um das System zu kompromittieren.

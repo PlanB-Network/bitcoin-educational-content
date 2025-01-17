@@ -1,5 +1,5 @@
 ---
-mõiste: BIP38
+term: BIP38
 
 ---
 Bitcoini täiustamise ettepanek, millega võetakse kasutusele krüpteerimismehhanism, et lisada eravõtmetele täiendav kaitse tunnusmärgi kaudu. BIP38 tagab, et isegi kui kolmas isik saab krüpteeritud privaatvõtme füüsiliselt kätte, ei saa ta seda kasutada ilma selle paroollauset teadmata. See lisab täiendava turvakihi bitcoinide kaitsmiseks varguse eest, eriti vanade paberrahakottide turvalisuse jaoks.

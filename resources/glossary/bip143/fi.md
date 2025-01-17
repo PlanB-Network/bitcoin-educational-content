@@ -1,5 +1,5 @@
 ---
-termi: BIP143
+term: BIP143
 
 ---
 Otetaan käyttöön uusi tapa hassata transaktio allekirjoituksen todentamista varten SegWitin jälkeisissä skripteissä. Tavoitteena on minimoida turhat operaatiot tarkistuksen aikana ja sisällyttää UTXO:n arvo syötteessä allekirjoitukseen. Tämä ratkaisee kaksi suurta ongelmaa, jotka liittyivät alkuperäiseen transaktioiden hashausalgoritmiin:

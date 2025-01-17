@@ -1,5 +1,5 @@
 ---
-jangka waktu: OP_CHECKLOCKTIMEVERIFY (0XB1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
 ---
 Membuat transaksi tidak sah kecuali semua persyaratan ini terpenuhi:

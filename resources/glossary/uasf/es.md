@@ -1,5 +1,5 @@
 ---
-término: UASF
+term: UASF
 
 ---
 Acrónimo de "*User-Activated Soft Fork*" (bifurcación suave activada por el usuario). Describe una bifurcación suave en Bitcoin cuando es iniciada y aplicada por los usuarios de la red a través de sus nodos, sin depender de la aprobación de los mineros. Los nodos de la red actualizan su software para adoptar las nuevas reglas de la bifurcación suave, ¡y que caigan las fichas donde caigan!

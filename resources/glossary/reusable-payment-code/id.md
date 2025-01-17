@@ -1,5 +1,5 @@
 ---
-jangka waktu: KODE PEMBAYARAN YANG DAPAT DIGUNAKAN KEMBALI
+term: KODE PEMBAYARAN YANG DAPAT DIGUNAKAN KEMBALI
 
 ---
 Dalam BIP47, kode pembayaran yang dapat digunakan kembali adalah sebuah pengenal statis yang dihasilkan dari dompet Bitcoin yang memungkinkan untuk melakukan transaksi notifikasi dan mendapatkan alamat yang unik. Hal ini untuk menghindari penggunaan ulang alamat, yang menyebabkan hilangnya privasi, tanpa harus secara manual mendapatkan dan mengirimkan alamat baru yang tidak terpakai untuk setiap pembayaran. Pada BIP47, kode pembayaran yang dapat digunakan kembali dibuat sebagai berikut:

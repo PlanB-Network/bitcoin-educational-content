@@ -1,5 +1,5 @@
 ---
-mõiste: RBF (ASENDAMINE TASU EEST): RBF (REPLACE-BY-FEE)
+term: RBF (ASENDAMINE TASU EEST): RBF (REPLACE-BY-FEE)
 
 ---
 Tehingumehhanism, mis võimaldab saatjal asendada üks tehing teise tehinguga, makstes kõrgemat tasu, et kiirendada selle kinnitamist. Kui liiga madalate tasudega tehing jääb kinni, saab saatja kasutada *Replace-By-Fee*, et suurendada tasusid ja seada oma asendustehing mempoolsesse eelisjärjekorda.

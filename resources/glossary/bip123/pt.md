@@ -1,5 +1,5 @@
 ---
-termo: BIP123
+term: BIP123
 
 ---
 Estabelece um novo processo normalizado para a classificação das propostas de melhoramento da Bitcoin. As BIPs devem agora ser classificadas em 4 categorias:

@@ -1,5 +1,5 @@
 ---
-termín: BIP143
+term: BIP143
 
 ---
 Zavádí nový způsob hashování transakce pro ověření podpisu ve skriptech po zavedení SegWit. Cílem je minimalizovat nadbytečné operace při ověřování a zahrnout hodnotu UTXO na vstupu do podpisu. Tím se řeší dva hlavní problémy původního algoritmu hašování transakcí:

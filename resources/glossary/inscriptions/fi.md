@@ -1,5 +1,5 @@
 ---
-termi: INSCRIPTIONS
+term: INSCRIPTIONS
 
 ---
 Ordinaaliteorian yhteydessä merkinnät ovat satseihin kaiverrettua mielivaltaista sisältöä, joka muuttaa ne natiiviksi Bitcoin-digitaalisiksi artefakteiksi. Kirjoitukset tehdään transaktioilla, jotka paljastavat Taproot-syötteen käsikirjoituksen tietosisällön tällä tavoin:

@@ -1,5 +1,5 @@
 ---
-istilah: BTC
+term: BTC
 
 ---
 Simbol saham atau mata uang (*ticker*) yang digunakan untuk mewakili satu unit bitcoin di platform bursa. Simbol ini digunakan untuk mengidentifikasi bitcoin dengan cepat di antara aset dan mata uang lainnya. Satu unit bitcoin (1 BTC) sama dengan 100.000.000 satoshi (atau "sat").

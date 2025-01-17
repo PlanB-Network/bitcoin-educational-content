@@ -1,5 +1,5 @@
 ---
-termín: STACK
+term: STACK
 
 ---
 V kontextu skriptovacího jazyka, který se používá k použití podmínek výdajů na bitcoinové UTXO, je zásobník datová struktura "LIFO" (*Last In, First Out*), která slouží k ukládání dočasných prvků během provádění skriptu. Každá operace ve skriptu manipuluje s těmito zásobníky, do kterých lze přidávat (*push*) nebo z nich odebírat (*pop*) prvky. Skripty používají zásobníky k vyhodnocování výrazů, ukládání dočasných proměnných a správě podmínek.

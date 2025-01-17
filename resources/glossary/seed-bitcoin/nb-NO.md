@@ -1,5 +1,5 @@
 ---
-betegnelse: SEED (BITCOIN)
+term: SEED (BITCOIN)
 
 ---
 I forbindelse med Bitcoin er et seed en 512-biters verdi som brukes til å utlede alle de private og offentlige nøklene som er knyttet til en HD-lommebok (Hierarchical Deterministic). Teknisk sett er seed en annen verdi enn gjenopprettingsfrasen (eller mnemonikken). Frasen, som vanligvis består av 12 eller 24 ord, genereres på en pseudotilfeldig måte fra en entropikilde og kompletteres med en kontrollsum. Denne frasen gjør det enklere for mennesker å ta sikkerhetskopi ved å gi en tekstlig representasjon av verdien i bunnen av lommeboken.

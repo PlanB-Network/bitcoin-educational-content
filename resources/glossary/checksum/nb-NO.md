@@ -1,5 +1,5 @@
 ---
-begrep: CHECKSUM
+term: CHECKSUM
 
 ---
 En sjekksum er en beregnet verdi fra et datasett som brukes til å verifisere integriteten og gyldigheten til dataene under overføring eller lagring. Sjekksumalgoritmer er utviklet for å oppdage utilsiktede feil eller utilsiktede endringer av data, for eksempel overføringsfeil eller filkorrupsjon. Det finnes ulike typer sjekksumalgoritmer, for eksempel paritetssjekker, modulære sjekksummer, kryptografiske hashfunksjoner eller BCH-koder (*Bose, Ray-Chaudhuri og Hocquenghem*).

@@ -1,5 +1,5 @@
 ---
-termi: ANONSETS (NIMETTÖMYYSJOUKOT)
+term: ANONSETS (NIMETTÖMYYSJOUKOT)
 
 ---
 Anonyymit toimivat indikaattoreina, joiden avulla voidaan arvioida tietyn UTXO:n yksityisyystasoa. Tarkemmin sanottuna ne mittaavat erottamattomien UTXO:iden lukumäärää joukossa, joka sisältää tutkittavan kolikon. Koska tarvitaan joukko identtisiä UTXO:ita, anonsetit lasketaan yleensä kolikkojen yhdistämissyklin aikana. Niiden avulla voidaan tarvittaessa arvioida kolikoiden yhdistämisen laatua. Suuri anonset merkitsee suurempaa anonymiteettitasoa, koska tiettyä UTXO:ta on vaikea erottaa joukosta. On olemassa kahdenlaisia anonsetteja:

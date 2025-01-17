@@ -1,5 +1,5 @@
 ---
-termine: TASSO DI HASH
+term: TASSO DI HASH
 
 ---
 Indicatore della potenza di calcolo della rete, misurata in hash al secondo (H/s). Indica la capacità dei minatori di eseguire operazioni di hashing come parte della prova di lavoro. Un alto tasso di hash significa maggiore sicurezza per la storia economica di Bitcoin e maggiore resistenza agli attacchi, in quanto sarebbe necessaria una notevole potenza di calcolo per compromettere il sistema.

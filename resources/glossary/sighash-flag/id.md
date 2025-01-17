@@ -1,5 +1,5 @@
 ---
-istilah: BENDERA SIGHASH
+term: BENDERA SIGHASH
 
 ---
 Sebuah parameter dalam transaksi Bitcoin yang menentukan komponen transaksi (input dan output) yang dicakup oleh tanda tangan yang terkait, sehingga tidak dapat diubah. SigHash Flag adalah sebuah byte yang ditambahkan ke tanda tangan digital dari setiap input. Oleh karena itu, pilihan SigHash Flag secara langsung mempengaruhi bagian mana dari transaksi yang dibekukan oleh tanda tangan dan mana yang masih dapat dimodifikasi setelahnya. Mekanisme ini memastikan bahwa tanda tangan secara tepat dan aman melakukan komit data transaksi sesuai dengan maksud penanda tangan. Terdapat tiga SigHash Flag utama:

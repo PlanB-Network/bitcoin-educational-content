@@ -1,5 +1,5 @@
 ---
-termine: COMMISSIONI DI TRANSAZIONE
+term: COMMISSIONI DI TRANSAZIONE
 
 ---
 Le commissioni di transazione rappresentano una somma che mira a compensare i minatori per la loro partecipazione al meccanismo di proof of work. Queste commissioni incoraggiano i minatori a includere le transazioni nei blocchi che creano. Esse derivano dalla differenza tra il totale degli input e il totale degli output di una transazione:

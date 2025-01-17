@@ -1,5 +1,5 @@
 ---
-termi: TIMESTAMP
+term: TIMESTAMP
 
 ---
 Aikaleimaus on mekanismi, jossa tapahtumaan, dataan tai viestiin liitetään tarkka aikamerkintä. Tietokonejärjestelmien yleisessä yhteydessä aikaleimausta käytetään toimintojen aikajärjestyksen määrittämiseen ja tietojen eheyden todentamiseen ajan kuluessa.

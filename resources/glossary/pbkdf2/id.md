@@ -1,5 +1,5 @@
 ---
-istilah: PBKDF2
+term: PBKDF2
 
 ---
 `PBKDF2` adalah singkatan dari *Fungsi Derivasi Kunci Berbasis Kata Sandi 2*. Ini adalah sebuah metode untuk membuat kunci kriptografi dari kata sandi dengan menggunakan sebuah fungsi turunan. Metode ini membutuhkan masukan berupa kata sandi, garam kriptografi, dan secara berulang-ulang menerapkan fungsi yang telah ditentukan sebelumnya (biasanya berupa fungsi hash seperti `SHA256` atau `HMAC`) pada data tersebut. Proses ini diulang berkali-kali untuk menghasilkan kunci kriptografi.

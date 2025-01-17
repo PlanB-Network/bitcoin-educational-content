@@ -1,5 +1,5 @@
 ---
-istilah: OP_2SWAP (0X72)
+term: OP_2SWAP (0X72)
 
 ---
 Menukar dua elemen di bagian atas tumpukan dengan dua elemen tepat di bawahnya. Misalnya, jika tumpukannya adalah:

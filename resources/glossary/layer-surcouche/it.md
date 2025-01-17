@@ -1,5 +1,5 @@
 ---
-termine: STRATO (SURCOUCHE)
+term: STRATO (SURCOUCHE)
 
 ---
 Un "layer" (o "surcouche" in francese) è un protocollo o una rete costruita in cima, sovrapponendosi, alla rete Bitcoin principale. Utilizza la rete Bitcoin come base e dipende quindi dal suo protocollo. Tuttavia, la rete Bitcoin non dipende dai suoi strati. Un esempio di tale livello è la Lightning Network.

@@ -1,5 +1,5 @@
 ---
-mõiste: OP_2DUP (0X6E)
+term: OP_2DUP (0X6E)
 
 ---
 Duplitseerib virna kaks ülemist elementi ja asetab need virna tippu. Näiteks kui virnas on:

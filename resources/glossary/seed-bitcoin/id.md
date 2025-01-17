@@ -1,5 +1,5 @@
 ---
-istilah: BENIH (BITCOIN)
+term: BENIH (BITCOIN)
 
 ---
 Dalam konteks Bitcoin, seed adalah sebuah nilai 512-bit yang digunakan untuk mendapatkan semua kunci privat dan publik yang terkait dengan sebuah dompet HD (Hierarchical Deterministic). Secara teknis, seed merupakan nilai yang berbeda dengan frasa pemulihan (atau mnemonic). Frasa ini, yang biasanya terdiri dari 12 atau 24 kata, dibuat dengan cara acak semu dari sebuah sumber entropi dan dilengkapi dengan checksum. Frasa ini memfasilitasi pencadangan oleh manusia dengan menyediakan representasi tekstual dari nilai di dasar dompet.

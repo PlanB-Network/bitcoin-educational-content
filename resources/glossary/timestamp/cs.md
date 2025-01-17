@@ -1,5 +1,5 @@
 ---
-termín: TIMESTAMP
+term: TIMESTAMP
 
 ---
 Časové razítko, anglicky "timestamping", je mechanismus, který zahrnuje přiřazení přesné časové značky k události, datům nebo zprávě. V obecném kontextu počítačových systémů se časová razítka používají k určení chronologického pořadí operací a k ověření integrity dat v čase.

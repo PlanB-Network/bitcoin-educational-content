@@ -1,5 +1,5 @@
 ---
-begriff: SCHICHT (SURCOUCHE)
+term: SCHICHT (SURCOUCHE)
 
 ---
 Ein "Layer" (oder "surcouche" auf Französisch) ist ein Protokoll oder Netzwerk, das auf dem Bitcoin-Hauptnetzwerk aufbaut, indem es dieses überlagert. Es nutzt das Bitcoin-Netzwerk als Grundlage und ist daher von dessen Protokoll abhängig. Das Bitcoin-Netzwerk ist jedoch nicht von seinen Schichten abhängig. Ein Beispiel für eine solche Schicht ist das Lightning Network.

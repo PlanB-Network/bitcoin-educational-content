@@ -1,5 +1,5 @@
 ---
-jangka waktu: BIP173
+term: BIP173
 
 ---
 Memperkenalkan format alamat bech32 untuk alamat SegWit V0. Format alamat ini ditandai dengan awalan `bc1q`. Format bech32 menawarkan beberapa keuntungan:

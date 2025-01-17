@@ -1,5 +1,5 @@
 ---
-istilah: HASHRATE
+term: HASHRATE
 
 ---
 Indikator daya komputasi jaringan, diukur dalam hash per detik (H/s). Ini menunjukkan kapasitas penambang untuk melakukan operasi hashing sebagai bagian dari bukti kerja. Hash yang tinggi berarti keamanan yang lebih besar untuk sejarah ekonomi Bitcoin dan meningkatkan ketahanan terhadap serangan, karena sejumlah besar daya komputasi akan diperlukan untuk mengkompromikan jaringan.

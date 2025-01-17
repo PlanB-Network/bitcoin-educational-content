@@ -1,5 +1,5 @@
 ---
-termine: PREMIUM
+term: PREMIUM
 
 ---
 Un importo aggiuntivo pagato rispetto al prezzo standard o nominale di un bene. Nel contesto del Bitcoin, un premio può essere osservato quando si effettuano acquisti, soprattutto sulle piattaforme di scambio, che a volte utilizzano questa tecnica per realizzare i loro margini sul servizio di intermediazione.

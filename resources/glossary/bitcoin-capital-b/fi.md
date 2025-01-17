@@ -1,5 +1,5 @@
 ---
-termi: BITCOIN (B-kirjain)
+term: BITCOIN (B-kirjain)
 
 ---
 Bitcoin on Satoshi Nakamoton vuonna 2009 luoman vertaisverkkopohjaisen sähköisen rahajärjestelmän nimi. Termi Bitcoin isolla B:llä voi viitata kolmeen eri asiaan:

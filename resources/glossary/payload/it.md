@@ -1,5 +1,5 @@
 ---
-termine: CARICO
+term: CARICO
 
 ---
 Nel contesto generale dell'informatica, un payload si riferisce ai dati essenziali trasportati all'interno di un pacchetto di dati più grande. Ad esempio, in un indirizzo SegWit V0 su Bitcoin, il payload corrisponde all'hash della chiave pubblica, esclusi vari metadati (l'HRP, il separatore, la versione SegWit e il checksum). Ad esempio, nell'indirizzo `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, abbiamo:

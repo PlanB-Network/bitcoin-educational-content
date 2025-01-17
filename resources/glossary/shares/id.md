@@ -1,5 +1,5 @@
 ---
-istilah: SAHAM
+term: SAHAM
 
 ---
 Dalam konteks kumpulan penambangan, bagian adalah indikator yang digunakan untuk mengukur kontribusi penambang individu di dalam kumpulan. Ukuran ini berfungsi sebagai dasar untuk menghitung reward yang didistribusikan oleh pool kepada setiap penambang. Setiap share berhubungan dengan hash yang memenuhi target kesulitan yang lebih rendah dari jaringan Bitcoin.

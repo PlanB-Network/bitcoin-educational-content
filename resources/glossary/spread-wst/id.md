@@ -1,5 +1,5 @@
 ---
-jangka waktu: PENYEBARAN (WST)
+term: PENYEBARAN (WST)
 
 ---
 Dalam perangkat lunak Whirlpool Stat Tool, spread adalah indikator yang digunakan untuk mengukur homogenitas proses pencampuran dari sudut pandang bagian tertentu. Ada dua jenis spread: prospektif dan retrospektif.

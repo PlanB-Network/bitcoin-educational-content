@@ -1,5 +1,5 @@
 ---
-mõiste: BIP143
+term: BIP143
 
 ---
 Võtab kasutusele uue viisi tehingu hashinguks allkirja kontrollimiseks SEGWit-järgsetes skriptides. Eesmärgiks on minimeerida üleliigseid operatsioone kontrollimise ajal ja lisada UTXOde väärtus sisendisse allkirja. See lahendab kaks peamist probleemi, mis on seotud algse tehingu hashimise algoritmiga:

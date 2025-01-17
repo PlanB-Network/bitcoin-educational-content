@@ -1,5 +1,5 @@
 ---
-termine: ESTRAZIONE MINERARIA EGOISTICA
+term: ESTRAZIONE MINERARIA EGOISTICA
 
 ---
 Strategia (o attacco) nel mining, in cui un minatore o un gruppo di minatori conserva intenzionalmente blocchi con una prova di lavoro valida senza trasmetterli immediatamente alla rete. L'obiettivo è quello di mantenere un vantaggio sugli altri minatori in termini di prova di lavoro, il che potenzialmente consente loro di estrarre diversi blocchi di fila e pubblicarli tutti in una volta, massimizzando così i loro guadagni.

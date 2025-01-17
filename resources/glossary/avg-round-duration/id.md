@@ -1,5 +1,5 @@
 ---
-jangka waktu: AVG. DURASI PUTARAN
+term: AVG. DURASI PUTARAN
 
 ---
 Durasi putaran rata-rata adalah sebuah indikator yang digunakan untuk memperkirakan waktu yang dibutuhkan oleh sebuah pool penambangan untuk menemukan sebuah blok, berdasarkan tingkat kesulitan jaringan dan hashrate pool tersebut. Hal ini dihitung dengan mengambil jumlah bagian yang diharapkan untuk menemukan sebuah blok dan membaginya dengan hashrate pool. Sebagai contoh, jika sebuah mining pool memiliki 200 penambang, dan masing-masing menghasilkan rata-rata 4 share per detik, maka total daya komputasi dari pool tersebut adalah 800 share per detik:

@@ -1,5 +1,5 @@
 ---
-istilah: ASUMSI VALID
+term: ASUMSI VALID
 
 ---
 Parameter konfigurasi di Bitcoin Core klien mayoritas yang memungkinkan node yang baru saja diinisialisasi (tetapi belum melakukan IBD) untuk melewatkan verifikasi tanda tangan untuk semua transaksi yang termasuk dalam blok sebelum blok tertentu. Blok yang terkenal ini ditentukan oleh jejak headernya, yaitu hash-nya. Blok yang dipilih akan diperbaharui dengan setiap versi baru Bitcoin Core. Pada saat inisialisasi, jika node telah mengaktifkan parameter ini, maka node akan memeriksa rantai header blok untuk menemukan cabang dengan pekerjaan yang paling banyak terakumulasi. Jika node mendeteksi hash yang disediakan oleh Core di cabang yang dipilihnya, maka node akan mengabaikan verifikasi tanda tangan untuk blok-blok sebelumnya. Jika tidak, node akan melanjutkan dengan sinkronisasi tradisional (IBD) untuk memverifikasi semuanya dengan sendirinya.

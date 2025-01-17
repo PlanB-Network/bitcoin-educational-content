@@ -1,5 +1,5 @@
 ---
-termín: BIP352
+term: BIP352
 
 ---
 Návrh na vylepšení od Josibake a Rubena Somsena, který zavádí tiché platby, metodu pro použití statických adres Bitcoinu k přijímání plateb bez opětovného použití adresy, interakce a bez viditelného propojení různých plateb v řetězci. Tato technika eliminuje potřebu generovat nové, nepoužívané přijímací adresy pro každou transakci, čímž se vyhýbá obvyklým interakcím v Bitcoinu, kdy příjemce musí plátci poskytnout novou adresu.

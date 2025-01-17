@@ -1,5 +1,5 @@
 ---
-termine: SEME
+term: SEME
 
 ---
 Nel contesto specifico di un portafoglio Bitcoin deterministico gerarchico, un seme è un'informazione di 512 bit derivata dalla casualità. Viene utilizzato per generare in modo deterministico e gerarchico un insieme di chiavi private e le corrispondenti chiavi pubbliche per un portafoglio Bitcoin. Il seme viene spesso confuso con la frase di recupero stessa. Tuttavia, si tratta di informazioni diverse. Il seme si ottiene applicando la funzione `PBKDF2` alla frase mnemonica e a qualsiasi potenziale passphrase.

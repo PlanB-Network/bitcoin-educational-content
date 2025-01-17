@@ -1,5 +1,5 @@
 ---
-termi: BIP44
+term: BIP44
 
 ---
 Parannusehdotus, jossa otetaan käyttöön vakiomuotoinen hierarkkinen johdannaisrakenne HD-lompakoille. BIP44 perustuu BIP32:ssa vahvistettuihin periaatteisiin avainten johtamisen osalta ja BIP43:een "purpose"-kentän käytön osalta. Siinä otetaan käyttöön viisitasoinen johdannaisrakenne: `m / purpose' / coin_type' / account' / change / address_index`. Seuraavassa on kunkin syvyyden yksityiskohdat:

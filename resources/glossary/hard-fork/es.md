@@ -1,5 +1,5 @@
 ---
-término: HORQUILLA DURA
+term: HORQUILLA DURA
 
 ---
 Un cambio en las reglas del protocolo que no es compatible con versiones anteriores. Este cambio conduce a una separación permanente de la red de nodos de Bitcoin en dos grupos distintos: nodos con la actualización y nodos sin la actualización. Esta división se materializa en la división de la blockchain original en dos blockchains separadas que, sin embargo, comparten una historia común, de ahí el uso del término "fork", que puede traducirse al francés como "embranchement, bifurcación"

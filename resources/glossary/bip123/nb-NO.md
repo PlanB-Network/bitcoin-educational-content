@@ -1,5 +1,5 @@
 ---
-betegnelse: BIP123
+term: BIP123
 
 ---
 Etablerer en ny standardisert prosess for klassifisering av Bitcoin-forbedringsforslag. BIP-er må nå klassifiseres i fire kategorier:

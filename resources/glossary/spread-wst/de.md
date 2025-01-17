@@ -1,5 +1,5 @@
 ---
-begriff: SPREAD (WST)
+term: SPREAD (WST)
 
 ---
 In der Software Whirlpool Stat Tool ist die Streuung ein Indikator, mit dem die Homogenität des Mischprozesses aus der Perspektive eines bestimmten Teils gemessen wird. Es gibt zwei Arten von Streuungen: prospektive und retrospektive.

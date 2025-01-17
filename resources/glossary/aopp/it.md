@@ -1,5 +1,5 @@
 ---
-termine: AOPP
+term: AOPP
 
 ---
 Acronimo di "*Address Ownership Proof Protocol*". È un protocollo controverso progettato per dimostrare automaticamente la proprietà degli indirizzi Bitcoin. Questo meccanismo consente agli utenti di dimostrare il controllo di un indirizzo specifico, direttamente attraverso il loro software di portafoglio compatibile. Inizialmente, l'AOPP è stato creato per semplificare la verifica della proprietà dell'indirizzo, un requisito legale per i clienti che desiderano trasferire i propri bitcoin dalle piattaforme di scambio in alcune giurisdizioni, come la Svizzera.

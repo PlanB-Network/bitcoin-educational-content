@@ -1,5 +1,5 @@
 ---
-término: SEMILLA (BITCOIN)
+term: SEMILLA (BITCOIN)
 
 ---
 En el contexto de Bitcoin, una semilla es un valor de 512 bits utilizado para derivar todas las claves privadas y públicas asociadas a un monedero HD (Determinista Jerárquico). Técnicamente, la semilla es un valor diferente de la frase de recuperación (o mnemotécnica). La frase, que suele estar compuesta por 12 o 24 palabras, se genera de forma pseudoaleatoria a partir de una fuente de entropía y se completa con una suma de comprobación. Esta frase facilita la copia de seguridad humana al proporcionar una representación textual del valor en la base del monedero.

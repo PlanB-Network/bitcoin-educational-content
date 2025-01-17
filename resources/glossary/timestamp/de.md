@@ -1,5 +1,5 @@
 ---
-begriff: TIMESTAMP
+term: TIMESTAMP
 
 ---
 Die Zeitstempelung (engl. timestamp) ist ein Mechanismus, bei dem einem Ereignis, Daten oder einer Nachricht eine genaue zeitliche Markierung zugeordnet wird. Im allgemeinen Kontext von Computersystemen wird der Zeitstempel verwendet, um die zeitliche Abfolge von Vorgängen zu bestimmen und die Integrität von Daten im Laufe der Zeit zu überprüfen.

@@ -1,5 +1,5 @@
 ---
-termi: OP_2ROT (0X71)
+term: OP_2ROT (0X71)
 
 ---
 Siirtää kaksi elementtiä, jotka ovat kuudennella ja viidennellä sijalla, pinon yläosasta päällimmäiseksi. Jos pino on esimerkiksi:

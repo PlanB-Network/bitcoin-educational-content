@@ -1,5 +1,5 @@
 ---
-termín: AOPP
+term: AOPP
 
 ---
 Zkratka pro "*Address Ownership Proof Protocol*". Jedná se o kontroverzní protokol určený k automatickému prokazování vlastnictví bitcoinových adres. Tento mechanismus umožňuje uživatelům prokázat, že ovládají konkrétní adresu, a to přímo prostřednictvím kompatibilního softwaru peněženky. Původně byl AOPP vytvořen za účelem zjednodušení ověřování vlastnictví adresy, což je zákonný požadavek pro klienty, kteří chtějí převést své bitcoiny z výměnných platforem v některých jurisdikcích, například ve Švýcarsku.

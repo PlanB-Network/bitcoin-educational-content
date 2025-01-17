@@ -1,5 +1,5 @@
 ---
-termín: OP_3DUP (0X6F)
+term: OP_3DUP (0X6F)
 
 ---
 Duplikuje tři horní prvky zásobníku a umístí je na jeho vrchol. Například pokud je zásobník:

@@ -1,5 +1,5 @@
 ---
-istilah: COINJOIN
+term: COINJOIN
 
 ---
 Coinjoin adalah sebuah teknik yang digunakan untuk mematahkan ketertelusuran bitcoin. Teknik ini bergantung pada transaksi kolaboratif dengan struktur tertentu dengan nama yang sama: transaksi coinjoin. Transaksi coinjoin membantu meningkatkan perlindungan privasi pengguna Bitcoin dengan membuatnya lebih sulit bagi pengamat eksternal untuk menganalisis transaksi. Struktur ini memungkinkan pencampuran beberapa koin dalam satu transaksi, sehingga menyulitkan untuk menentukan hubungan antara alamat input dan output.

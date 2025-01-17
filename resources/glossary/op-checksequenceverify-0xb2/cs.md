@@ -1,5 +1,5 @@
 ---
-termín: OP_CHECKSEQUENCEVERIFY (0XB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
 ---
 Transakce je neplatná, pokud je zjištěn některý z těchto znaků:

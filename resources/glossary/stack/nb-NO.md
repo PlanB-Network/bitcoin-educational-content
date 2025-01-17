@@ -1,5 +1,5 @@
 ---
-betegnelse: STACK
+term: STACK
 
 ---
 I forbindelse med skriptspråket som brukes til å bruke utgiftsbetingelser på Bitcoin UTXO-er, er stakken en "LIFO"-datastruktur (*Last In, First Out*) som brukes til å lagre midlertidige elementer under utførelsen av et skript. Hver operasjon i skriptet manipulerer disse stablene, der elementer kan legges til (*push*) eller fjernes (*pop*). Skript bruker stabler til å evaluere uttrykk, lagre midlertidige variabler og håndtere betingelser.

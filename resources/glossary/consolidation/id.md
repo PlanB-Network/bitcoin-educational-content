@@ -1,5 +1,5 @@
 ---
-istilah: KONSOLIDASI
+term: KONSOLIDASI
 
 ---
 Transaksi spesifik di mana beberapa UTXO kecil digabungkan menjadi satu input untuk membentuk satu UTXO yang lebih besar sebagai output. Operasi ini adalah transaksi yang dilakukan ke dompet sendiri. Tujuan konsolidasi adalah untuk mengambil keuntungan dari periode ketika biaya di jaringan Bitcoin rendah untuk menggabungkan beberapa UTXO kecil menjadi satu yang nilainya lebih besar. Dengan demikian, ini mengantisipasi pengeluaran wajib jika terjadi kenaikan biaya, sehingga memungkinkan penghematan biaya transaksi di masa mendatang.

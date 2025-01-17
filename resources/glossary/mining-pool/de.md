@@ -1,5 +1,5 @@
 ---
-begriff: MINENPOL
+term: MINENPOL
 
 ---
 Bezieht sich auf eine Gruppe von Minern, die zusammenarbeiten, indem sie ihre Rechenleistung bündeln, um sich an der Suche nach gültigen Arbeitsnachweisen für Bitcoin zu beteiligen. Dieser Zusammenschluss zu einer einzigen Organisation ist eine Lösung für die zunehmende Schwierigkeit des Bitcoin-Schürfens, die es für einen einzelnen Schürfer zu unwahrscheinlich macht, konkurrenzfähig zu sein und beständig Belohnungen zu verdienen. Die Schürfer in einem Mining-Pool tragen mit ihren Maschinen zur Suche nach gültigen Anteilen bei. Wenn ein Block vom Pool geschürft wird, wird die Belohnung, die sowohl die neu geschaffenen Bitcoins als auch die im Block enthaltenen Transaktionsgebühren umfasst, entsprechend der gewählten Zahlungsmethode auf die Poolmitglieder verteilt. Diese Verteilung erfolgt proportional zur Rechenleistung, die jeder Miner beigetragen hat.

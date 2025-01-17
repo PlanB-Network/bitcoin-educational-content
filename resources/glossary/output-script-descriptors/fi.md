@@ -1,5 +1,5 @@
 ---
-termi: OUTPUT SCRIPT DESCRIPTORS
+term: OUTPUT SCRIPT DESCRIPTORS
 
 ---
 Tulostusskriptin kuvaajat tai yksinkertaisesti kuvaajat ovat jäsenneltyjä lausekkeita, jotka kuvaavat täysin tulostusskriptin (`scriptPubKey`) ja antavat kaikki tarvittavat tiedot tiettyyn skriptiin tai tietystä skriptistä tapahtuvien tapahtumien seuraamiseksi. Nämä kuvaajat helpottavat avainten hallintaa HD-lompakoissa käyttämällä vakiomuotoista kuvausta rakenteesta ja käytetyistä osoitetyypeistä.

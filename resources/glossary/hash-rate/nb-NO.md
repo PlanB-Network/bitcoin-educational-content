@@ -1,5 +1,5 @@
 ---
-begrep: HASH RATE
+term: HASH RATE
 
 ---
 Indikator for nettverkets datakraft, målt i hashes per sekund (H/s). Den indikerer utvinnernes kapasitet til å utføre hashoperasjoner som en del av arbeidsbeviset. En høy hash-rate betyr større sikkerhet for Bitcoins økonomiske historie og økt motstandskraft mot angrep, ettersom det kreves en betydelig mengde datakraft for å kompromittere systemet.

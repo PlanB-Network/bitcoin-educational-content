@@ -1,5 +1,5 @@
 ---
-mõiste: UASF
+term: UASF
 
 ---
 Lühend "*User-Activated Soft Fork*". Kirjeldab pehmet hargnemist Bitcoinis, kui selle algatavad ja jõustavad võrgu kasutajad oma sõlmede kaudu, ilma et see tugineks kaevurite heakskiidule. Võrgustiku sõlmed uuendavad oma tarkvara, et võtta vastu uued pehme hargnemise reeglid, ja lasevad žetoonid langeda sinna, kuhu nad tahavad!

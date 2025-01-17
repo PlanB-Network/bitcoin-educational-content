@@ -1,5 +1,5 @@
 ---
-termi: PÖLYHYÖKKÄYS
+term: PÖLYHYÖKKÄYS
 
 ---
 Dusting-hyökkäyksessä lähetetään pieniä määriä bitcoineja suureen määrään vastaanottavia osoitteita. Hyökkääjän tavoitteena on pakottaa vastaanottajat yhdistämään nämä määrät muihin UTXOihin. Tämän jälkeen hyökkääjä seuraa näiden pienten bitcoin-määrien tulevia liikkeitä ja pyrkii muodostamaan osoitteista klustereita eli selvittämään, kuuluuko useampi osoite samalle taholle. Korreloimalla dusting-hyökkäyksen aikana kerättyjä tietoja muiden tietojen ja ketjuanalyysissä käytettyjen heuristiikkojen kanssa hyökkääjä voi tunnistaa tietyt yksiköt ja niihin liittyvät osoitteet. Tämä menetelmä on uhka ainoastaan käyttäjien yksityisyydelle, mutta ei vaikuta heidän varojensa turvallisuuteen.

@@ -1,5 +1,5 @@
 ---
-istilah: XOR
+term: XOR
 
 ---
 Akronim untuk operasi "Eksklusif atau," dalam bahasa Prancis "Ou exclusif." Ini adalah fungsi mendasar dari logika Boolean. Operasi ini mengambil dua operan Boolean, masing-masing adalah $true$ atau $false$, dan menghasilkan output $true$ hanya jika kedua operan tersebut berbeda. Dengan kata lain, output dari operasi XOR adalah $true$ jika salah satu (tetapi tidak keduanya) dari operand bernilai $true$. Sebagai contoh, operasi XOR antara $1$ dan $0$ akan menghasilkan $1$. Kami mencatat:

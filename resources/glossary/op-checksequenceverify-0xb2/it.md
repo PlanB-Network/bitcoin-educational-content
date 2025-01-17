@@ -1,5 +1,5 @@
 ---
-termine: OP_CHECKSEQUENCEVERIFY (0XB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
 ---
 Rende la transazione non valida se viene osservata una di queste caratteristiche:

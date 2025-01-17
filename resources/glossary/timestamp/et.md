@@ -1,5 +1,5 @@
 ---
-mõiste: TIMESTAMP
+term: TIMESTAMP
 
 ---
 Ajastustempliks nimetatakse mehhanismi, mis hõlmab täpse ajalise tähise seostamist sündmuse, andmete või sõnumiga. Arvutisüsteemide üldises kontekstis kasutatakse ajatemplit operatsioonide kronoloogilise järjestuse määramiseks ja andmete terviklikkuse kontrollimiseks aja jooksul.

@@ -1,5 +1,5 @@
 ---
-termín: ANONSETS (SADY ANONYMITY)
+term: ANONSETS (SADY ANONYMITY)
 
 ---
 Anonce slouží jako indikátory pro posouzení úrovně soukromí konkrétního UTXO. Konkrétně měří počet nerozlišitelných UTXO v souboru, který zahrnuje zkoumanou minci. Protože je vyžadována skupina identických UTXO, anonsety se obvykle počítají v rámci cyklu spojování mincí. Umožňují případně posoudit kvalitu spojování mincí. Velký anonset znamená zvýšenou úroveň anonymity, protože je obtížné rozlišit konkrétní UTXO v rámci souboru. Existují dva typy anonsetů:

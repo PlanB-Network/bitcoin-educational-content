@@ -1,5 +1,5 @@
 ---
-termín: SUROVÁ TRANSAKCE
+term: SUROVÁ TRANSAKCE
 
 ---
 Sestavená a podepsaná transakce Bitcoin, která existuje v binární podobě. Surová transakce (*raw TX*) je konečná reprezentace transakce těsně před jejím vysíláním do sítě. Tato transakce obsahuje všechny potřebné informace pro její zařazení do bloku:

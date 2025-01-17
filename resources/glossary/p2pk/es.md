@@ -1,5 +1,5 @@
 ---
-término: P2PK
+term: P2PK
 
 ---
 P2PK significa *Pago a Clave Pública*. Es un modelo de escritura estándar utilizado en Bitcoin para establecer condiciones de gasto en un UTXO. Permite bloquear bitcoins directamente en una clave pública, en lugar de una dirección.

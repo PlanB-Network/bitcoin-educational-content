@@ -1,5 +1,5 @@
 ---
-jangka waktu: OP_0 (0X00)
+term: OP_0 (0X00)
 
 ---
 Mendorong nilai 0 ke dalam stack. Ini sering digunakan untuk merepresentasikan nilai boolean false dalam skrip. `OP_0` juga digunakan untuk menginisialisasi skrip.

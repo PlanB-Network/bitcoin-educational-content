@@ -1,5 +1,5 @@
 ---
-termine: OP_CHECKSIGADD (0XBA)
+term: OP_CHECKSIGADD (0XBA)
 
 ---
 Estrae i primi tre valori dallo stack: una `chiave pubblica`, un `CScriptNum` `n` e una `firma`. Se la firma non è il vettore vuoto e non è valida, lo script termina con un errore. Se la firma è valida o è il vettore vuoto (`OP_0`), si presentano due scenari:

@@ -1,5 +1,5 @@
 ---
-termi: OP_NOP (0X61)
+term: OP_NOP (0X61)
 
 ---
 Ei vaikuta pinoon tai komentosarjan tilaan. Se ei suorita siirtoja, tarkistuksia tai muutoksia. Se ei yksinkertaisesti tee mitään, ellei toisin päätetä pehmeän haarautumisen kautta. Sen jälkeen, kun Satoshi Nakamoto muutti niitä vuonna 2010, `OP_NOP`-komentoja (`OP_NOP1` (`0XB0`) - `OP_NOP10` (`0XB9`)) käytetäänkin uusien opkoodien lisäämiseen pehmeän haarautumisen muodossa.

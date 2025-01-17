@@ -1,5 +1,5 @@
 ---
-termi: SEED
+term: SEED
 
 ---
 Hierarkkisen deterministisen Bitcoin-lompakon yhteydessä siemen on 512-bittinen satunnaisuudesta johdettu tieto. Sitä käytetään deterministisesti ja hierarkkisesti luomaan joukko yksityisiä avaimia ja niitä vastaavia julkisia avaimia Bitcoin-lompakkoa varten. Siemen sekoitetaan usein itse palautuslausekkeeseen. Se on kuitenkin eri tietoa. Siemen saadaan soveltamalla `PBKDF2`-funktiota muistilausekkeeseen ja mahdolliseen salasanaan.

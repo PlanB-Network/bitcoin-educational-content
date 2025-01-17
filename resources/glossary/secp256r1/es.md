@@ -1,5 +1,5 @@
 ---
-término: SECP256R1
+term: SECP256R1
 
 ---
 Nombre dado a una curva elíptica definida por la norma NIST para la criptografía de clave pública. Utiliza un campo primo de 256 bits y una ecuación de curva elíptica $y^2 = x^3 + ax + b$ con las constantes:

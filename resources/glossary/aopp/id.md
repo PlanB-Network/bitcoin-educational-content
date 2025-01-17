@@ -1,5 +1,5 @@
 ---
-istilah: AOPP
+term: AOPP
 
 ---
 Singkatan dari "*Address Ownership Proof Protocol*". Ini adalah sebuah protokol kontroversial yang didesain untuk secara otomatis membuktikan kepemilikan alamat Bitcoin. Mekanisme ini memungkinkan pengguna untuk menunjukkan bahwa mereka mengendalikan alamat tertentu, secara langsung melalui perangkat lunak dompet yang kompatibel. Pada awalnya, AOPP dibuat untuk menyederhanakan verifikasi kepemilikan alamat, sebuah persyaratan hukum untuk klien yang ingin mentransfer bitcoin mereka keluar dari platform pertukaran di yurisdiksi tertentu, seperti Swiss.

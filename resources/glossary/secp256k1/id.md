@@ -1,5 +1,5 @@
 ---
-jangka waktu: SECP256K1
+term: SECP256K1
 
 ---
 Nama yang diberikan kepada kurva elips tertentu yang digunakan dalam protokol Bitcoin untuk implementasi ECDSA (*Eliptic Curve Digital Signature Algorithm*) dan algoritma tanda tangan digital Schnorr. Kurva `secp256k1` dipilih oleh penemu Bitcoin, Satoshi Nakamoto. Kurva ini memiliki beberapa sifat yang menarik, terutama manfaat kinerja.

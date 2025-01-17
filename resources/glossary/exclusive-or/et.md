@@ -1,5 +1,5 @@
 ---
-mõiste: EXCLUSIVE VÕI
+term: EXCLUSIVE VÕI
 
 ---
 Boole'i loogika põhifunktsioon. Eksklusiivne või XOR ("*Eksklusiivne või*") võtab kaks boolaarset operandit, millest kumbki on tõene või väär, ja annab tõese tulemuse ainult siis, kui need kaks operandit on erinevad. Teisisõnu, operatsiooni "XOR" väljund on tõene, kui täpselt üks (kuid mitte mõlemad) operandid on tõesed. Näiteks `XOR` operatsioon `1` ja `0` vahel annab tulemuseks `1`. Märgime: $1 \oplus 0 = 1$. Samamoodi saab `XOR`-operatsiooni teha ka pikemate bitide jadadega. Näiteks $10110 \oplus 01110 = 11000$. Iga biti jadas võrreldakse oma vastandiga ja rakendatakse operatsiooni `XOR`. Siin on tõesustabel `XOR` operatsiooni jaoks:

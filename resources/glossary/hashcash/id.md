@@ -1,5 +1,5 @@
 ---
-istilah: HASHCASH
+term: HASHCASH
 
 ---
 HashCash adalah sebuah sistem bukti kerja yang didesain oleh Adam Back pada tahun 1997 untuk memerangi spam dan serangan DoS. Sistem ini didasarkan pada prinsip bahwa pengirim harus melakukan tugas komputasi (khususnya, menemukan tabrakan parsial pada fungsi hash kriptografi) untuk membuktikan hasil kerja mereka. Tugas ini mahal dalam hal waktu dan energi untuk pengirim, tetapi memverifikasi hasilnya oleh penerima adalah cepat dan sederhana. Protokol ini telah terbukti sangat cocok untuk memerangi spam dalam komunikasi email, karena protokol ini tidak terlalu membebani pengguna yang sah dan juga menjadi penghalang yang signifikan bagi para pengirim spam. Memang, mengirim satu email membutuhkan beberapa detik komputasi, tetapi mereplikasi operasi ini jutaan kali menjadi sangat mahal dalam hal energi dan waktu, yang sering kali meniadakan kepentingan ekonomi dari kampanye spam, apakah itu untuk tujuan pemasaran atau jahat. Selain itu, hal ini memungkinkan untuk menjaga anonimitas pengirim.

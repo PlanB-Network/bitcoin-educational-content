@@ -1,5 +1,5 @@
 ---
-termo: TOLERÂNCIA A FALHAS BIZANTINAS (BFT)
+term: TOLERÂNCIA A FALHAS BIZANTINAS (BFT)
 
 ---
 Um conceito utilizado em sistemas distribuídos para garantir um consenso fiável e seguro, mesmo na presença de nós defeituosos ou maliciosos.

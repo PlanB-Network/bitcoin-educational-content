@@ -1,5 +1,5 @@
 ---
-istilah: SIGOPS (OPERASI TANDA TANGAN)
+term: SIGOPS (OPERASI TANDA TANGAN)
 
 ---
 Mengacu pada operasi tanda tangan digital yang diperlukan untuk memvalidasi transaksi. Setiap transaksi Bitcoin dapat berisi beberapa input, yang masing-masing mungkin memerlukan satu atau lebih tanda tangan untuk dianggap valid. Verifikasi tanda tangan ini dilakukan melalui penggunaan opcode tertentu yang disebut "sigops". Secara khusus, ini termasuk `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG`, dan `OP_CHECKMULTISIGVERIFY`. Operasi-operasi ini membebankan beban kerja tertentu pada node jaringan yang harus memverifikasinya. Untuk mencegah serangan DoS melalui penggelembungan jumlah sigops secara artifisial, protokol ini memberikan batasan pada jumlah sigops yang diizinkan per blok, untuk memastikan bahwa beban validasi tetap dapat dikelola oleh node. Batas ini saat ini ditetapkan pada maksimum 80.000 sigops per blok. Untuk menghitungnya, node mengikuti aturan ini:

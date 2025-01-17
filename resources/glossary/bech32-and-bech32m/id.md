@@ -1,5 +1,5 @@
 ---
-istilah: BECH32 DAN BECH32M
+term: BECH32 DAN BECH32M
 
 ---
 `Bech32` dan `Bech32m` adalah dua format pengkodean alamat untuk menerima bitcoin. Keduanya didasarkan pada basis 32 yang sedikit dimodifikasi. Format ini menggunakan checksum berdasarkan algoritma pengoreksi kesalahan yang disebut BCH (*Bose-Chaudhuri-Hocquenghem*). Dibandingkan dengan alamat Legacy, yang dikodekan dalam `Base58check`, alamat `Bech32` dan `Bech32m` memiliki checksum yang lebih efisien, sehingga dapat mendeteksi dan mengoreksi kesalahan pengetikan secara otomatis. Format ini juga menawarkan keterbacaan yang lebih baik, dengan hanya menggunakan karakter huruf kecil. Berikut ini adalah matriks penjumlahan untuk format ini dari basis 10:

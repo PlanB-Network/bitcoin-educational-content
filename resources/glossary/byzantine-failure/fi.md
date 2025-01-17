@@ -1,5 +1,5 @@
 ---
-termi: BYSANTIN EPÄONNISTUMINEN
+term: BYSANTIN EPÄONNISTUMINEN
 
 ---
 Bysanttihäiriö tai Bysantti-käyttäytyminen tarkoittaa järjestelmän käyttäytymistä, joka ei noudata sen omia määrittelyjä ja tuottaa poikkeavia tuloksia.

@@ -1,5 +1,5 @@
 ---
-término: SEMILLA
+term: SEMILLA
 
 ---
 En el contexto específico de un monedero Bitcoin jerárquico determinista, una semilla es una pieza de información de 512 bits derivada de la aleatoriedad. Se utiliza para generar de forma determinista y jerárquica un conjunto de claves privadas, y sus correspondientes claves públicas, para un monedero Bitcoin. La semilla se confunde a menudo con la propia frase de recuperación. Sin embargo, se trata de información diferente. La semilla se obtiene aplicando la función `PBKDF2` a la frase mnemotécnica y a cualquier frase de contraseña potencial.

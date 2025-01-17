@@ -1,5 +1,5 @@
 ---
-termine: USCITA
+term: USCITA
 
 ---
 Nel contesto di Bitcoin, un output all'interno di una transazione si riferisce agli UTXO (*Unspent Transaction Outputs*) che vengono creati come fondi di destinazione per il pagamento. Più precisamente, si tratta di un meccanismo con cui una transazione distribuisce i fondi.

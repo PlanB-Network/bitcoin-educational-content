@@ -1,5 +1,5 @@
 ---
-istilah: BASE58CHECK
+term: BASE58CHECK
 
 ---
 `Base58Check` adalah pengkodean yang digunakan dalam sistem Bitcoin untuk merepresentasikan alamat penerima Legacy dan data tertentu lainnya, seperti kunci yang diperluas, dalam bentuk string karakter yang dapat dibaca manusia. Ini adalah varian dari sistem `Base58`, representasi posisi dari basis 58 yang dirancang untuk meminimalkan kesalahan transkripsi manusia. Sistem ini menggunakan satu set 58 karakter alfanumerik, yang terdiri dari angka dari `1` hingga `9`, huruf besar dari `A` hingga `Z` (tidak termasuk huruf `I` dan `O` untuk menghindari kebingungan dengan angka `1` dan `0`), dan huruf kecil dari `a` hingga `z` (tidak termasuk huruf `l` untuk menghindari kebingungan dengan angka `1`). `Base58Check` berbeda dengan `Base58` dengan menambahkan checksum. Ini diwakili oleh versi yang diperkecil dari hash ganda `SHA256` dari data asli (`SHA256d` atau `HASH256`), di akhir data yang dikodekan dalam `Base58`. Ketika memverifikasi, checksum dihitung ulang dan dibandingkan dengan checksum yang ditambahkan selama penyandian. Jika kedua hash cocok, data dianggap valid; jika tidak, korupsi atau kesalahan transkripsi dilaporkan.

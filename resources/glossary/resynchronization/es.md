@@ -1,5 +1,5 @@
 ---
-término: RESINCRONIZACIÓN
+term: RESINCRONIZACIÓN
 
 ---
 Se refiere a un fenómeno en el que la blockchain sufre una modificación de su estructura debido a la existencia de bloques en competencia a la misma altura. Esto ocurre cuando una parte de la blockchain es sustituida por otra cadena con una mayor cantidad de trabajo acumulado.

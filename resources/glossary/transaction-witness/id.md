@@ -1,5 +1,5 @@
 ---
-istilah: SAKSI TRANSAKSI
+term: SAKSI TRANSAKSI
 
 ---
 Mengacu pada komponen transaksi Bitcoin yang dipindahkan dengan soft fork SegWit untuk mengatasi masalah kelenturan transaksi. Saksi berisi tanda tangan dan kunci publik yang diperlukan untuk membuka kunci bitcoin yang dibelanjakan dalam sebuah transaksi. Dalam transaksi Legacy, saksi mewakili jumlah `scriptSig` dari semua input. Dalam transaksi SegWit, saksi mewakili jumlah `scriptWitness` untuk setiap input, dan bagian transaksi ini sekarang dipindahkan ke pohon Merkle yang terpisah di dalam blok.

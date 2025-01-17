@@ -1,5 +1,5 @@
 ---
-termi: (PLUS PLUS)
+term: (PLUS PLUS)
 
 ---
 C:stä kehittynyt monipuolinen ohjelmointikieli, joka tunnetaan tehostaan ja joustavuudestaan. Sitä käytetään monimutkaisten ohjelmistojen kehittämiseen, se tukee oliopohjaista ohjelmointia ja tarjoaa runsaasti ominaisuuksia muistinhallintaan ja järjestelmäresurssien käsittelyyn.

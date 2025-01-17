@@ -1,5 +1,5 @@
 ---
-begriff: SEED
+term: SEED
 
 ---
 Im spezifischen Kontext einer hierarchisch-deterministischen Bitcoin-Wallet ist ein Seed eine 512-Bit-Information, die aus dem Zufallsprinzip abgeleitet ist. Er wird verwendet, um deterministisch und hierarchisch einen Satz privater Schlüssel und die entsprechenden öffentlichen Schlüssel für eine Bitcoin-Wallet zu erzeugen. Der Seed wird oft mit der Recovery Phrase selbst verwechselt. Es handelt sich jedoch um unterschiedliche Informationen. Der Seed wird durch Anwendung der Funktion `PBKDF2` auf die mnemonische Phrase und jede potentielle Passphrase erhalten.

@@ -1,5 +1,5 @@
 ---
-termi: TRANSAKTIOMAKSUT
+term: TRANSAKTIOMAKSUT
 
 ---
 Transaktiomaksut ovat summa, jolla pyritään korvaamaan louhijoiden osallistuminen proof of work -mekanismiin. Nämä maksut kannustavat louhijoita sisällyttämään transaktioita luomiinsa lohkoihin. Ne syntyvät transaktion panosten ja tuotosten kokonaismäärän erotuksesta:

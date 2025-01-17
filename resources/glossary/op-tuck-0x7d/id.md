@@ -1,5 +1,5 @@
 ---
-istilah: OP_TUCK (0X7D)
+term: OP_TUCK (0X7D)
 
 ---
 Menyalin item di bagian atas tumpukan dan menyisipkannya di antara item kedua dan ketiga tumpukan. Misalnya, jika tumpukannya adalah:

@@ -1,5 +1,5 @@
 ---
-termine: SPREAD (WST)
+term: SPREAD (WST)
 
 ---
 Nel software Whirlpool Stat Tool, lo spread è un indicatore utilizzato per misurare l'omogeneità del processo di miscelazione dal punto di vista di un determinato pezzo. Esistono due tipi di spread: prospettico e retrospettivo.

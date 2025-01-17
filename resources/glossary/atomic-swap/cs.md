@@ -1,5 +1,5 @@
 ---
-termín: ATOMOVÁ VÝMĚNA
+term: ATOMOVÁ VÝMĚNA
 
 ---
 Technologie umožňující přímou výměnu kryptoměn mezi dvěma stranami bez nutnosti důvěry a bez nutnosti zprostředkovatele. Tyto výměny se nazývají "atomické", protože jejich výsledkem mohou být pouze dva výsledky:

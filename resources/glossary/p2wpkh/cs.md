@@ -1,5 +1,5 @@
 ---
-termín: P2WPKH
+term: P2WPKH
 
 ---
 P2WPKH znamená *Pay to Witness Public Key Hash*. Jedná se o standardní model skriptu, který se používá pro stanovení podmínek výdajů na UTXO. P2WPKH byl zaveden s implementací SegWit v srpnu 2017.

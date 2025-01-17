@@ -1,5 +1,5 @@
 ---
-istilah: CEKUM
+term: CEKUM
 
 ---
 Checksum adalah nilai yang dihitung dari sekumpulan data, yang digunakan untuk memverifikasi integritas dan keabsahan data tersebut selama transmisi atau penyimpanan. Algoritme checksum dirancang untuk mendeteksi kesalahan yang tidak disengaja atau perubahan data yang tidak diinginkan, seperti kesalahan transmisi atau kerusakan file. Berbagai jenis algoritma checksum tersedia, seperti pemeriksaan paritas, checksum modular, fungsi hash kriptografi, atau kode BCH (*Bose, Ray-Chaudhuri, dan Hocquenghem*).

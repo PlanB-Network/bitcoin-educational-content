@@ -1,5 +1,5 @@
 ---
-istilah: SEKALI
+term: SEKALI
 
 ---
 Dalam konteks komputasi, istilah "nonce" mengacu pada angka yang hanya digunakan sekali dan kemudian diganti. Biasanya bersifat acak atau acak semu. Nonce digunakan dalam berbagai protokol kriptografi untuk memastikan keamanan proses. Sebagai contoh, tanda tangan ECDSA yang digunakan dalam protokol Bitcoin menggunakan nonce. Ini berarti bahwa nomor ini harus baru untuk setiap tanda tangan. Jika tidak demikian, maka akan memungkinkan untuk menghitung private key yang digunakan dengan membandingkan dua tanda tangan yang menggunakan nonce yang sama.

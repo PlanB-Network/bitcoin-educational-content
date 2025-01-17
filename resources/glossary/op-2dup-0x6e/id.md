@@ -1,5 +1,5 @@
 ---
-jangka waktu: OP_2DUP (0X6E)
+term: OP_2DUP (0X6E)
 
 ---
 Menduplikasi dua elemen teratas dari tumpukan, lalu menempatkannya di atas tumpukan. Misalnya, jika tumpukannya adalah:

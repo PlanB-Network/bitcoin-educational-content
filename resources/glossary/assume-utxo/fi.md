@@ -1,5 +1,5 @@
 ---
-termi: ASSUME UTXO
+term: ASSUME UTXO
 
 ---
 Johtavan Bitcoin Core -asiakasohjelman konfiguraatioparametri, jonka avulla solmu, joka on juuri alustettu (mutta ei ole vielä käynyt läpi IBD:tä), voi lykätä transaktioiden ja UTXO-asetuksen tarkistamista tiettyyn tilannekuvaan asti. Konsepti perustuu Core:n tarjoaman ja oletettavasti tarkan UTXO-setin (luettelo kaikista tiettynä ajankohtana olemassa olevista UTXO:ista) käyttöön, minkä ansiosta solmu voidaan synkronoida hyvin nopeasti sen ketjun kanssa, jossa on eniten kertynyttä työtä. Koska solmu ohittaa pitkällisen IBD-vaiheen, se on käyttäjänsä käytettävissä hyvin nopeasti. Oletetaan, että UTXO jakaa synkronoinnin (IBD) kahteen osaan:

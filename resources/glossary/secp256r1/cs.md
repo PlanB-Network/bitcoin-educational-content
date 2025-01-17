@@ -1,5 +1,5 @@
 ---
-termín: SECP256R1
+term: SECP256R1
 
 ---
 Název eliptické křivky definované standardem NIST pro kryptografii s veřejným klíčem. Používá pole prvočísel o délce 256 bitů a rovnici eliptické křivky $y^2 = x^3 + ax + b$ s konstantami:

@@ -1,5 +1,5 @@
 ---
-termín: C-LIGHTNING (CLN)
+term: C-LIGHTNING (CLN)
 
 ---
 Dřívější název implementace Core-Lightning.

@@ -1,5 +1,5 @@
 ---
-begrep: PROOF-OF-WORK
+term: PROOF-OF-WORK
 
 ---
 > ► *Se **[ARBEIDSBEVIS](/ordbok/P.md#arbeidsbevis)**

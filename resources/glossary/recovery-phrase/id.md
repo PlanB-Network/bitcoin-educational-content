@@ -1,5 +1,5 @@
 ---
-istilah: FRASA PEMULIHAN
+term: FRASA PEMULIHAN
 
 ---
 Frasa pemulihan, juga kadang-kadang disebut mnemonik, frasa benih, atau frasa rahasia, adalah urutan yang biasanya terdiri dari 12 atau 24 kata, yang dihasilkan dengan cara acak semu dari sumber entropi. Urutan acak semu selalu dilengkapi dengan checksum. Frasa mnemonik, bersama dengan frasa sandi opsional, digunakan untuk mendapatkan semua kunci yang terkait dengan dompet HD (Hierarchical Deterministic) secara deterministik. Ini berarti bahwa dari frasa ini, dimungkinkan untuk secara deterministik menghasilkan dan membuat ulang semua kunci privat dan publik dari dompet Bitcoin, dan dengan demikian mengakses dana yang terkait dengannya. Tujuan dari frasa pemulihan adalah untuk menyediakan sarana pencadangan dan pemulihan bitcoin yang aman dan mudah digunakan.

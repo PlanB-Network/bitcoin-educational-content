@@ -1,5 +1,5 @@
 ---
-jangka waktu: EKSKLUSIF ATAU
+term: EKSKLUSIF ATAU
 
 ---
 Fungsi mendasar dari logika Boolean. "Exclusive Or" atau XOR ("*Exclusive or*") mengambil dua operan Boolean, masing-masing benar atau salah, dan menghasilkan output yang benar hanya jika kedua operan tersebut berbeda. Dengan kata lain, output dari operasi `XOR` adalah benar jika salah satu (tetapi tidak keduanya) dari operand bernilai benar. Sebagai contoh, operasi `XOR` antara `1` dan `0` akan menghasilkan `1`. Kita mencatat: $1 \ ditambah 0 = 1$. Demikian pula, operasi `XOR` dapat dilakukan pada urutan bit yang lebih panjang. Sebagai contoh, $10110 \oplus 01110 = 11000$. Setiap bit dari urutan tersebut dibandingkan dengan pasangannya, dan operasi `XOR` diterapkan. Berikut ini adalah tabel kebenaran untuk operasi `XOR`:

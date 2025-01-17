@@ -1,5 +1,5 @@
 ---
-begriff: EXKLUSIV ODER
+term: EXKLUSIV ODER
 
 ---
 Eine grundlegende Funktion der Booleschen Logik. Das "Exklusiv-Oder" oder XOR ("*Exclusive or*") nimmt zwei boolesche Operanden, die jeweils wahr oder falsch sind, und erzeugt nur dann eine wahre Ausgabe, wenn sich die beiden Operanden unterscheiden. Mit anderen Worten, die Ausgabe der "XOR"-Operation ist wahr, wenn genau einer (aber nicht beide) der Operanden wahr ist. Zum Beispiel ergibt die `XOR'-Operation zwischen `1` und `0` das Ergebnis `1`. Wir halten fest: $1 \oplus 0 = 1$. In ähnlicher Weise kann die `XOR'-Verknüpfung auch mit längeren Bitfolgen durchgeführt werden. Zum Beispiel: $10110 \oplus 01110 = 11000$. Jedes Bit der Folge wird mit seinem Gegenstück verglichen, und die "XOR"-Operation wird durchgeführt. Hier ist die Wahrheitstabelle für die "XOR"-Operation:

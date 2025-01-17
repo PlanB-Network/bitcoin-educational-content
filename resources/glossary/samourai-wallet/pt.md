@@ -1,5 +1,5 @@
 ---
-termo: CARTEIRA SAMOURAI
+term: CARTEIRA SAMOURAI
 
 ---
 Software de carteira Bitcoin para dispositivos móveis Android centrado na privacidade. Oferece recursos avançados, como Whirlpool coinjoins, Stonewall, StonewallX2, Ricochet e Stowaway (payjoin). O Samourai também implementa inúmeras protecções para ajudar os utilizadores a salvaguardar a sua privacidade contra a análise da cadeia.

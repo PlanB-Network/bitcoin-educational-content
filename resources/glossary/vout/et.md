@@ -1,5 +1,5 @@
 ---
-mõiste: VOUT
+term: VOUT
 
 ---
 Bitcoini tehingu konkreetne element, mis määrab saadetud raha sihtkoha. Tehing võib sisaldada mitut väljundit, millest igaüks on üheselt identifitseeritav tehingu identifikaatori (`txid`) ja indeksi `vout` kombinatsiooni abil. See indeks, mis algab numbriga `0`, tähistab väljundi positsiooni tehingu väljundite järjestuses. Seega tähistab esimest väljundit `"vout": 0`, teine `"vout": 1` ja nii edasi.

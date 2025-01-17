@@ -1,5 +1,5 @@
 ---
-termín: OUTPUT
+term: OUTPUT
 
 ---
 V kontextu Bitcoinu se výstupem v rámci transakce rozumí UTXO (*Unspent Transaction Outputs*), které jsou vytvořeny jako cílové prostředky pro platbu. Přesněji řečeno se jedná o mechanismus, kterým transakce rozděluje finanční prostředky.

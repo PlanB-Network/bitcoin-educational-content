@@ -1,5 +1,5 @@
 ---
-mõiste: ANONSETS (ANONÜÜMSUSE KOMPLEKTID)
+term: ANONSETS (ANONÜÜMSUSE KOMPLEKTID)
 
 ---
 Anonsetid on näitajad, mille abil saab hinnata konkreetse UTXO privaatsuse taset. Täpsemalt öeldes mõõdavad nad eristamatute UTXOde arvu kogumis, mis sisaldab uuritavat mündi. Kuna nõutakse identsete UTXOde rühma, arvutatakse anonsetid tavaliselt mündiühenduste tsükli raames. Need võimaldavad vajaduse korral hinnata mündiliitude kvaliteeti. Suur anonset tähendab suuremat anonüümsust, kuna konkreetset UTXOd on kogumis raske eristada. On olemas kahte tüüpi anonsetid:

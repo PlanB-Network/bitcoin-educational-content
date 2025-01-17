@@ -1,5 +1,5 @@
 ---
-termín: SPREAD (WST)
+term: SPREAD (WST)
 
 ---
 V softwaru Whirlpool Stat Tool je rozpětí ukazatelem, který se používá k měření homogenity procesu míchání z pohledu daného kusu. Existují dva typy rozpětí: prospektivní a retrospektivní.

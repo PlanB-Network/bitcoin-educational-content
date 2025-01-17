@@ -1,5 +1,5 @@
 ---
-jangka waktu: PERJANJIAN
+term: PERJANJIAN
 
 ---
 Sebuah mekanisme yang memungkinkan pengenaan kondisi tertentu tentang bagaimana suatu mata uang dapat digunakan, termasuk dalam transaksi di masa depan. Di luar kondisi yang biasanya diizinkan oleh bahasa skrip pada UTXO, covenant memberlakukan batasan tambahan tentang bagaimana Bitcoin ini dapat digunakan dalam transaksi selanjutnya. Secara teknis, pembentukan covenant terjadi ketika `scriptPubKey` dari sebuah UTXO mendefinisikan batasan pada `scriptPubKey` dari output transaksi yang membelanjakan UTXO tersebut. Dengan memperluas cakupan skrip, covenant akan memungkinkan berbagai pengembangan pada Bitcoin seperti penambatan bilateral drivechain, implementasi brankas, atau peningkatan sistem overlay seperti Lightning. Proposal perjanjian dibedakan berdasarkan tiga kriteria:

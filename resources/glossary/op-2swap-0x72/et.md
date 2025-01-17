@@ -1,5 +1,5 @@
 ---
-mõiste: (0X72)
+term: (0X72)
 
 ---
 Vahetab virna ülaosas olevad kaks elementi nende all olevate kahe elemendiga. Näiteks kui virnas on:

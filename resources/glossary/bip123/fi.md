@@ -1,5 +1,5 @@
 ---
-termi: BIP123
+term: BIP123
 
 ---
 Perustetaan uusi standardoitu prosessi Bitcoinin parannusehdotusten luokittelua varten. Bitcoin-ehdotukset on nyt luokiteltava neljään luokkaan:

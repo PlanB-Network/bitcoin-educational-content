@@ -1,5 +1,5 @@
 ---
-istilah: VIN
+term: VIN
 
 ---
 Elemen spesifik dari transaksi Bitcoin yang menentukan sumber dana yang digunakan untuk memenuhi output. Setiap `vin` merujuk pada output yang belum digunakan (UTXO) dari transaksi sebelumnya. Sebuah transaksi dapat berisi beberapa input, masing-masing diidentifikasi dengan kombinasi `txid` (pengenal transaksi asli) dan `vout` (indeks output dalam transaksi tersebut).

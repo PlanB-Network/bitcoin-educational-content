@@ -1,5 +1,5 @@
 ---
-termo: P2SH
+term: P2SH
 
 ---
 P2SH significa *Pay to Script Hash*. É um modelo de script padrão utilizado para estabelecer condições de despesa num UTXO. Ao contrário dos scripts P2PK e P2PKH, em que as condições de despesa são predefinidas, o P2SH permite a integração de condições de despesa arbitrárias e funcionalidades adicionais num script de transação.

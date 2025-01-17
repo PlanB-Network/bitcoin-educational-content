@@ -1,5 +1,5 @@
 ---
-término: PILA
+term: PILA
 
 ---
 En el contexto del lenguaje de scripts utilizado para aplicar condiciones de gasto en los UTXOs de Bitcoin, la pila es una estructura de datos "LIFO" (*Last In, First Out*) que sirve para almacenar elementos temporales durante la ejecución de un script. Cada operación en el script manipula estas pilas, donde los elementos pueden ser añadidos (*push*) o eliminados (*pop*). Los scripts utilizan pilas para evaluar expresiones, almacenar variables temporales y gestionar condiciones.

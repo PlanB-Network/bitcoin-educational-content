@@ -1,5 +1,5 @@
 ---
-termi: (MINISKRIPTI)
+term: (MINISKRIPTI)
 
 ---
 Korkean tason käyttäjälähtöinen kieli, jonka avulla voidaan yksinkertaisesti määritellä olosuhteet, joissa UTXO voidaan avata Miniscriptin puitteissa. Politiikka on abstrakti kuvaus käyttösäännöistä. Sen jälkeen se voidaan kääntää miniscriptiksi, joka vastaa yksi yhteen Bitcoinin natiivin skriptikielen operaatioita.

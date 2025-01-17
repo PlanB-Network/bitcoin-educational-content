@@ -1,5 +1,5 @@
 ---
-begrep: ANONSETS (ANONYMITETSSETT)
+term: ANONSETS (ANONYMITETSSETT)
 
 ---
 Anonsett fungerer som indikatorer for å vurdere personvernnivået til en bestemt UTXO. Mer spesifikt måler de antallet UTXOer som ikke kan skilles fra hverandre i settet som inkluderer mynten som studeres. Siden det kreves en gruppe identiske UTXO-er, beregnes anonsett vanligvis innenfor en syklus av coinjoins. De gjør det mulig å bedømme kvaliteten på myntforbindelsene der det er hensiktsmessig. Et stort anonsett betyr økt grad av anonymitet, ettersom det blir vanskelig å skille ut en bestemt UTXO i settet. Det finnes to typer anonsett:

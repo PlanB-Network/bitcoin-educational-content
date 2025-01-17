@@ -1,5 +1,5 @@
 ---
-término: OP_CHECKSEQUENCEVERIFY (0XB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
 ---
 Anula la transacción si se observa alguna de estas características:

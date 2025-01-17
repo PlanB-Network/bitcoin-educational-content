@@ -1,5 +1,5 @@
 ---
-mõiste: OP_CHECKLOCKTIMEVERIFY (0XB1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
 ---
 Muudab tehingu kehtetuks, kui kõik need tingimused ei ole täidetud:

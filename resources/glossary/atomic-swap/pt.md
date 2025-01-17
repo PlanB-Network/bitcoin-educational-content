@@ -1,5 +1,5 @@
 ---
-termo: TROCA ATÓMICA
+term: TROCA ATÓMICA
 
 ---
 Tecnologia que permite a troca direta de criptomoedas entre duas partes, sem necessidade de confiança e sem necessidade de um intermediário. Estas trocas são designadas "atómicas" porque só podem ter dois resultados:

@@ -1,5 +1,5 @@
 ---
-termo: TAXA DE HASH
+term: TAXA DE HASH
 
 ---
 Indicador do poder de computação da rede, medido em hashes por segundo (H/s). Indica a capacidade dos mineiros para efetuar operações de hashing como parte da prova de trabalho. Uma taxa de hash elevada significa maior segurança para a história económica da Bitcoin e maior resistência a ataques, uma vez que seria necessária uma quantidade substancial de poder de computação para comprometer o sistema.

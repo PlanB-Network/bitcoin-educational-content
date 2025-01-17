@@ -1,5 +1,5 @@
 ---
-jangka waktu: PEMBAYARAN DIAM
+term: PEMBAYARAN DIAM
 
 ---
 Metode untuk menggunakan alamat Bitcoin statis untuk menerima pembayaran tanpa penggunaan ulang alamat, tanpa interaksi, dan tanpa tautan on-chain yang terlihat antara pembayaran yang berbeda dan alamat statis. Teknik ini menghilangkan kebutuhan untuk membuat alamat penerima baru yang tidak terpakai untuk setiap transaksi, sehingga menghindari interaksi yang biasa terjadi pada Bitcoin di mana penerima harus memberikan alamat baru kepada pembayar.

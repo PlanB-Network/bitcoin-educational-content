@@ -1,5 +1,5 @@
 ---
-jangka waktu: PPS (BAYAR PER SAHAM)
+term: PPS (BAYAR PER SAHAM)
 
 ---
 Metode untuk menghitung remunerasi penambang dalam konteks kumpulan penambangan. PPS adalah sebuah sistem di mana para penambang dibayar untuk setiap bagian yang valid yang dikirimkan, terlepas dari apakah pool menemukan blok atau tidak. Oleh karena itu, mereka diberi kompensasi berdasarkan nilai yang diharapkan. Ini adalah metode remunerasi berbasis tugas.

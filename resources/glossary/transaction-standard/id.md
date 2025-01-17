@@ -1,5 +1,5 @@
 ---
-jangka waktu: STANDAR TRANSAKSI
+term: STANDAR TRANSAKSI
 
 ---
 Transaksi Bitcoin yang, selain mengikuti aturan konsensus, juga termasuk dalam aturan standarisasi yang ditetapkan secara default pada node Bitcoin Core. Aturan standardisasi ini diberlakukan secara individual oleh setiap node Bitcoin, sebagai tambahan dari aturan konsensus, untuk mendefinisikan struktur transaksi yang belum dikonfirmasi yang diterimanya dalam mempool dan disiarkan ke rekan-rekannya.

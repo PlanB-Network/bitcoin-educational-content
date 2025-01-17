@@ -1,5 +1,5 @@
 ---
-termín: VOUT
+term: VOUT
 
 ---
 Specifický prvek transakce Bitcoin, který určuje místo určení odeslaných prostředků. Transakce může obsahovat více výstupů, z nichž každý je jednoznačně identifikován kombinací identifikátoru transakce (`txid`) a indexu zvaného `vout`. Tento index, začínající na `0`, označuje pozici výstupu v posloupnosti výstupů transakce. První výstup bude tedy označen symbolem `"vout": 0`, druhý výstup bude označen symbolem `"vout": 1` a tak dále.

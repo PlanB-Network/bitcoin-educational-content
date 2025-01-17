@@ -1,5 +1,5 @@
 ---
-termi: OP_CHECKLOCKTIMEVERIFY (0XB1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
 ---
 Tekee tapahtumasta pätemättömän, elleivät kaikki nämä ehdot täyty:

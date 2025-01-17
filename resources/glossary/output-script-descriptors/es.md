@@ -1,5 +1,5 @@
 ---
-término: DESCRIPTORES DE SCRIPT DE SALIDA
+term: DESCRIPTORES DE SCRIPT DE SALIDA
 
 ---
 Los descriptores de scripts de salida, o simplemente descriptores, son expresiones estructuradas que describen completamente un script de salida (`scriptPubKey`) y proporcionan toda la información necesaria para rastrear transacciones hacia o desde un script específico. Estos descriptores facilitan la gestión de claves en los monederos HD mediante una descripción estándar de la estructura y los tipos de direcciones utilizados.

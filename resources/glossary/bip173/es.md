@@ -1,5 +1,5 @@
 ---
-término: BIP173
+term: BIP173
 
 ---
 Se ha introducido el formato de dirección bech32 para las direcciones SegWit V0. Este formato de dirección se caracteriza por el prefijo `bc1q`. El formato bech32 ofrece varias ventajas:

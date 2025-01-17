@@ -1,5 +1,5 @@
 ---
-термин: OP_CHECKSEQUENCEVERIFY (0XB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
 ---
 Признает транзакцию недействительной, если наблюдается хотя бы один из этих признаков:

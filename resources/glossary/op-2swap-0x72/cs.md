@@ -1,5 +1,5 @@
 ---
-termín: OP_2SWAP (0X72)
+term: OP_2SWAP (0X72)
 
 ---
 Vymění dva prvky na vrcholu zásobníku za dva prvky těsně pod nimi. Pokud je například zásobník:

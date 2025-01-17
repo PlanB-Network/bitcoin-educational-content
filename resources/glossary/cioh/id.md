@@ -1,5 +1,5 @@
 ---
-istilah: CIOH
+term: CIOH
 
 ---
 Singkatan dari "*Heuristik Kepemilikan Input Umum*". Ini adalah sebuah heuristik yang digunakan dalam bidang analisis rantai Bitcoin yang mengasumsikan bahwa semua input dari sebuah transaksi adalah milik entitas atau pengguna yang sama. Ketika mengamati data publik dari sebuah transaksi Bitcoin, dan beberapa input terlihat, maka, jika tidak ada pola atau informasi lain yang menyangkal hal ini, dapat diperkirakan bahwa semua input dari transaksi ini adalah milik satu orang (atau entitas).

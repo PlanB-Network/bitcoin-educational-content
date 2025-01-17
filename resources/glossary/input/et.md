@@ -1,5 +1,5 @@
 ---
-mõiste: SISEND
+term: SISEND
 
 ---
 Bitcoini kontekstis viitab tehingu sisend UTXOdele (*Unspent Transaction Outputs*), mida kasutatakse rahaliste vahendite allikana väljundite rahuldamiseks. Iga sisend sisaldab viiteid eelnevatele UTXOdele, mida tehing seejärel tarbib. Neid sisendeid kasutatakse uute UTXOde tekitamiseks, mis luuakse tehingu väljunditena ja mida saab seejärel kulutada tulevastes tehingutes.

@@ -1,5 +1,5 @@
 ---
-termín: BIP44
+term: BIP44
 
 ---
 Návrh na zlepšení, který zavádí standardní hierarchickou strukturu odvození pro peněženky HD. BIP44 vychází ze zásad stanovených v BIP32 pro odvozování klíčů a z BIP43 pro používání pole "účel". Zavádí pětiúrovňovou odvozovací strukturu: `m / účel' / typ mince' / účet' / změna / adresa_index`. Zde jsou uvedeny podrobnosti o jednotlivých hloubkách:

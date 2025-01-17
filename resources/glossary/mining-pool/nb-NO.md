@@ -1,5 +1,5 @@
 ---
-begrep: MINING POOL
+term: MINING POOL
 
 ---
 Refererer til en gruppe utvinnere som samarbeider ved å kombinere datakraften sin for å delta i jakten på gyldige arbeidsbevis på Bitcoin. Denne sammenslåingen i én enkelt organisasjon er en løsning på den økende vanskelighetsgraden ved utvinning av bitcoins, noe som gjør det for usannsynlig for en individuell utvinner å konkurrere og tjene belønninger konsekvent. Utvinnere i en utvinningspool bidrar med maskinene sine i jakten på gyldige aksjer. Når en blokk utvinnes av utvinningspoolen, fordeles belønningen, som inkluderer de nyopprettede bitcoinsene samt transaksjonsgebyrene som er inkludert i blokken, mellom poolmedlemmene i henhold til den valgte betalingsmetoden. Denne fordelingen er proporsjonal med datakraften hver miner har bidratt med.

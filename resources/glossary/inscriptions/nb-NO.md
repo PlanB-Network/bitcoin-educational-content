@@ -1,5 +1,5 @@
 ---
-begrep: INSCRIPTIONS
+term: INSCRIPTIONS
 
 ---
 I Ordinals Theory-sammenheng er inskripsjoner vilkårlig innhold som graveres inn i satsene og gjør dem til digitale Bitcoin-artefakter. Inskripsjoner gjøres gjennom transaksjoner som eksponerer innholdet av informasjonen i skriptet til en Taproot-inngang på denne måten:

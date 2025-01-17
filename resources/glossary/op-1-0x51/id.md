@@ -1,5 +1,5 @@
 ---
-jangka waktu: OP_1 (0X51)
+term: OP_1 (0X51)
 
 ---
 Mendorong nilai `1` ke dalam stack. Ini sering digunakan untuk merepresentasikan nilai boolean true dalam skrip.

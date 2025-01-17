@@ -1,5 +1,5 @@
 ---
-mõiste: OP_3DUP (0X6F)
+term: OP_3DUP (0X6F)
 
 ---
 Duplitseerib virna kolm esimest elementi ja asetab need virna tippu. Näiteks kui virnas on:

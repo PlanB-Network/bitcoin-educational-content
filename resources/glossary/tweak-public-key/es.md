@@ -1,5 +1,5 @@
 ---
-término: TWEAK (CLAVE PÚBLICA)
+term: TWEAK (CLAVE PÚBLICA)
 
 ---
 En el campo de la criptografía, "retocar" una clave pública consiste en modificar esta clave utilizando un valor aditivo denominado "retoque", de modo que siga siendo utilizable con el conocimiento de la clave privada original y del retoque. Técnicamente, un "tweak" es un valor escalar que se añade a la clave pública inicial. Si $P$ es la clave pública y $t$ es el ajuste, la clave pública ajustada será:

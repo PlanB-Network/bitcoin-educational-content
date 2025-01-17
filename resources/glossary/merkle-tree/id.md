@@ -1,5 +1,5 @@
 ---
-istilah: POHON MERKLE
+term: POHON MERKLE
 
 ---
 Pohon Merkle adalah sebuah akumulator kriptografi. Ini adalah sebuah metode untuk membuktikan keanggotaan dari sebuah informasi dalam sebuah himpunan yang lebih besar. Ini adalah struktur data yang memfasilitasi verifikasi informasi dalam format yang ringkas. Dalam sistem Bitcoin, Pohon Merkle digunakan untuk mengelompokkan dan memadatkan transaksi-transaksi dalam sebuah blok ke dalam sebuah hash tunggal, yang disebut dengan Akar Merkle (atau "*Root Hash*"). Setiap transaksi di-hash, kemudian hash yang berdekatan di-hash bersama secara hierarkis sampai Akar Merkle diperoleh.

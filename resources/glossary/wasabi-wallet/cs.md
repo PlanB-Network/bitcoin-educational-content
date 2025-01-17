@@ -1,5 +1,5 @@
 ---
-termín: WASABI WALLET
+term: WASABI WALLET
 
 ---
 Bitcoinová peněženka zaměřená na soukromí, která nabízí funkce, jako je coinjoin.

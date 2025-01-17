@@ -1,5 +1,5 @@
 ---
-termo: FORQUILHA DURA
+term: FORQUILHA DURA
 
 ---
 Uma mudança nas regras do protocolo de uma forma que não é compatível com as versões anteriores. Esta alteração leva a uma separação permanente da rede de nós Bitcoin em dois grupos distintos: nós com a atualização e nós sem a atualização. Esta separação é materializada pela divisão da blockchain original em duas blockchains separadas, que, no entanto, partilham uma história comum, daí a utilização do termo "fork", que pode ser traduzido para francês como "embranchement, bifurcation"

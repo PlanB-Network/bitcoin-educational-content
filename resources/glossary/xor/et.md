@@ -1,5 +1,5 @@
 ---
-mõiste: XOR
+term: XOR
 
 ---
 Akronüüm operatsioonile "Exclusive or", prantsuse keeles "Ou exclusif" See on Boole'i loogika põhifunktsioon. See operatsioon võtab kaks Boole'i operandit, millest kumbki on $tõene$ või $vale$, ja annab tulemuseks $tõene$ ainult siis, kui need kaks operandit erinevad. Teisisõnu, XOR-operatsiooni väljund on $tõene$, kui täpselt üks (kuid mitte mõlemad) operandid on $tõene$. Näiteks XOR-operatsioon $1$ ja $0$ vahel annab tulemuseks $1$. Märgime:

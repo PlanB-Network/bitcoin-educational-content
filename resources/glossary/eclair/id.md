@@ -1,5 +1,5 @@
 ---
-istilah: ECLAIR
+term: ECLAIR
 
 ---
 Implementasi utama dari protokol Lightning Network yang ditulis dalam bahasa Scala. Eclair dikembangkan oleh perusahaan Prancis Acinq.

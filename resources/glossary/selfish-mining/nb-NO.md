@@ -1,5 +1,5 @@
 ---
-begrep: SELFISH MINING
+term: SELFISH MINING
 
 ---
 Strategi (eller angrep) innen utvinning, der en utvinner eller en gruppe utvinnere med vilje beholder blokker med et gyldig arbeidsbevis uten å sende dem ut til nettverket umiddelbart. Målet er å opprettholde et forsprang på andre utvinnere når det gjelder bevis på arbeid, noe som potensielt gjør det mulig for dem å utvinne flere blokker på rad og publisere dem alle på én gang, og dermed maksimere gevinsten.

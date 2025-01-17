@@ -1,5 +1,5 @@
 ---
-istilah: P2SH-P2WPKH
+term: P2SH-P2WPKH
 
 ---
 P2SH-P2WPKH adalah singkatan dari *Bayar untuk Skrip Hash - Bayar untuk Menyaksikan Public Key Hash*. Ini adalah model skrip standar yang digunakan untuk menetapkan ketentuan pengeluaran pada UTXO, juga dikenal sebagai "Nested SegWit".

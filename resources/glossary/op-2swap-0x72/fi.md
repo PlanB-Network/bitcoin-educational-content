@@ -1,5 +1,5 @@
 ---
-termi: OP_2SWAP (0X72)
+term: OP_2SWAP (0X72)
 
 ---
 Vaihtaa pinon yläreunassa olevat kaksi elementtiä niiden alapuolella oleviin elementteihin. Jos pino on esimerkiksi:

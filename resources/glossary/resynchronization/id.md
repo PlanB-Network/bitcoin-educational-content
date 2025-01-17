@@ -1,5 +1,5 @@
 ---
-istilah: SINKRONISASI ULANG
+term: SINKRONISASI ULANG
 
 ---
 Mengacu pada sebuah fenomena di mana blockchain mengalami modifikasi struktur karena adanya blok yang bersaing pada ketinggian yang sama. Ini terjadi ketika sebagian blockchain digantikan oleh rantai lain dengan jumlah akumulasi pekerjaan yang lebih besar.

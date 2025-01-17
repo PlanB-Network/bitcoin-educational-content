@@ -1,5 +1,5 @@
 ---
-mõiste: SECP256K1
+term: SECP256K1
 
 ---
 Nimi, mis on antud konkreetsele elliptilisele kõverale, mida kasutatakse Bitcoini protokollis ECDSA (*Elliptic Curve Digital Signature Algorithm*) ja Schnorr digitaalallkirja algoritmide rakendamiseks. Bitcoini leiutaja Satoshi Nakamoto valis kõveraks `secp256k1`. Sellel on mõned huvitavad omadused, eelkõige jõudluse eelised.

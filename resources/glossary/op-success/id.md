@@ -1,5 +1,5 @@
 ---
-istilah: OP_SUCCESS
+term: OP_SUCCESS
 
 ---
 `OP_SUCCESS` mewakili serangkaian opcode yang telah dinonaktifkan di masa lalu dan sekarang dicadangkan untuk digunakan di masa depan dalam Tapscript. Tujuan utamanya adalah untuk memfasilitasi pembaruan dan perluasan bahasa skrip, dengan mengizinkan pengenalan fungsi-fungsi baru melalui soft fork. Ketika salah satu dari opcode ini ditemukan dalam sebuah skrip, hal ini mengindikasikan keberhasilan otomatis dari bagian skrip tersebut, terlepas dari data atau kondisi yang ada. Ini berarti bahwa skrip melanjutkan eksekusi tanpa kegagalan, terlepas dari operasi sebelumnya.

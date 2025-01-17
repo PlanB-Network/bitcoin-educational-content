@@ -1,5 +1,5 @@
 ---
-betegnelse: BIP173
+term: BIP173
 
 ---
 Innførte bech32-adresseformatet for SegWit V0-adresser. Dette adresseformatet kjennetegnes av prefikset `bc1q`. Bech32-formatet gir flere fordeler:

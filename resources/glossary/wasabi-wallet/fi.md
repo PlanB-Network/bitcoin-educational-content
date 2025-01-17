@@ -1,5 +1,5 @@
 ---
-termi: WASABI WALLET
+term: WASABI WALLET
 
 ---
 Bitcoin-lompakko, joka keskittyy yksityisyyteen ja tarjoaa ominaisuuksia, kuten coinjoin.

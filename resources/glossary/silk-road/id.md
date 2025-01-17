@@ -1,5 +1,5 @@
 ---
-istilah: JALAN SUTERA
+term: JALAN SUTERA
 
 ---
 Silk Road adalah sebuah platform web gelap yang didirikan oleh Ross Ulbricht, yang juga dikenal dengan nama samaran Dread Pirate Roberts. Diluncurkan pada tahun 2011, pasar online ini memungkinkan pengguna untuk membeli dan menjual produk dan layanan, baik legal maupun ilegal, sambil menjaga anonimitas mereka melalui penggunaan pembayaran Tor dan Bitcoin. Silk Road menawarkan berbagai macam barang, terutama obat-obatan dan obat resep, tetapi mengecualikan aktivitas yang dianggap bertentangan dengan prinsip hukum alam, seperti penjualan jasa pembunuh bayaran atau konten pornografi anak.

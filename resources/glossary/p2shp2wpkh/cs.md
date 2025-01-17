@@ -1,5 +1,5 @@
 ---
-termín: P2SH-P2WPKH
+term: P2SH-P2WPKH
 
 ---
 P2SH-P2WPKH znamená *Pay to Script Hash - Pay to Witness Public Key Hash*. Jedná se o standardní model skriptu, který se používá pro stanovení podmínek utrácení na UTXO, známý také jako "Nested SegWit".

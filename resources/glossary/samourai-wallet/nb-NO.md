@@ -1,5 +1,5 @@
 ---
-betegnelse: SAMOURAI LOMMEBOK
+term: SAMOURAI LOMMEBOK
 
 ---
 Bitcoin-lommebokprogramvare for Android-mobilenheter med fokus på personvern. Den tilbyr avanserte funksjoner som Whirlpool coinjoins, Stonewall, StonewallX2, Ricochet og Stowaway (payjoin). Samourai implementerer også en rekke beskyttelser for å hjelpe brukerne med å beskytte personvernet sitt mot kjedeanalyse.

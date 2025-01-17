@@ -1,5 +1,5 @@
 ---
-betegnelse: AKSJER
+term: AKSJER
 
 ---
 I forbindelse med utvinningspooler er en andel en indikator som brukes til å kvantifisere den enkelte gruvearbeiderens bidrag i poolen. Dette målet brukes som grunnlag for å beregne belønningen som utvinningspoolen omfordeler til hver utvinner. Hver share tilsvarer en hash som tilfredsstiller et vanskelighetsmål som er lavere enn Bitcoin-nettverkets.

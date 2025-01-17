@@ -1,5 +1,5 @@
 ---
-mõiste: P2SH
+term: P2SH
 
 ---
 P2SH tähendab *Pay to Script Hash*. See on standardne skripti mudel, mida kasutatakse UTXO kulutustingimuste kehtestamiseks. Erinevalt P2PK ja P2PKH skriptidest, kus kulutustingimused on ette kindlaks määratud, võimaldab P2SH suvaliste kulutustingimuste ja lisafunktsioonide integreerimist tehinguskripti.

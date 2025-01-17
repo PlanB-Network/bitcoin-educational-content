@@ -1,5 +1,5 @@
 ---
-termine: TIMESTAMP
+term: TIMESTAMP
 
 ---
 Il timestamping, o "timestamp" in inglese, è un meccanismo che prevede l'associazione di un preciso marcatore temporale a un evento, a un dato o a un messaggio. Nel contesto generale dei sistemi informatici, il timestamp viene utilizzato per determinare l'ordine cronologico delle operazioni e per verificare l'integrità dei dati nel tempo.

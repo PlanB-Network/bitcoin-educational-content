@@ -1,5 +1,5 @@
 ---
-mõiste: HASH RATE
+term: HASH RATE
 
 ---
 Võrgu arvutusvõimsuse näitaja, mida mõõdetakse hashides sekundis (H/s). See näitab kaevurite võimekust teha hashing-operatsioone osana töö tõestamisest. Kõrge hash-kiirus tähendab Bitcoini majandusajaloo suuremat turvalisust ja suuremat vastupidavust rünnakutele, kuna süsteemi kahjustamiseks oleks vaja märkimisväärset arvutusvõimsust.

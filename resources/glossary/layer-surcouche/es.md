@@ -1,5 +1,5 @@
 ---
-término: CAPA (SURCOUCHE)
+term: CAPA (SURCOUCHE)
 
 ---
 Una "capa" (o "surcouche" en francés) es un protocolo o red construido sobre, apilándose sobre, la red principal de Bitcoin. Utiliza la red Bitcoin como base y, por tanto, depende de su protocolo. Sin embargo, la red Bitcoin no depende de sus capas. Un ejemplo de este tipo de capa es la Lightning Network.

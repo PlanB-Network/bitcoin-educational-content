@@ -1,5 +1,5 @@
 ---
-termín: HARDWAROVÁ PENĚŽENKA
+term: HARDWAROVÁ PENĚŽENKA
 
 ---
 Hardwarová peněženka neboli fyzická peněženka je elektronické zařízení určené k zabezpečení a správě soukromých klíčů bitcoinové peněženky. Tato zařízení jsou navržena tak, aby poskytovala vyšší bezpečnost ve srovnání se softwarovými peněženkami, které jsou na univerzálních strojích a přímo připojeny k internetu. Hardwarové peněženky uchovávají mnemotechnickou frázi offline, na zařízení, které má velmi malý povrch pro útoky, což ho izoluje od potenciálně zranitelných prostředí. Když je provedena transakce, hardwarová peněženka podepíše transakci v rámci samotného zařízení, aniž by vystavila soukromý klíč navenek. Jakmile je transakce podepsána, je přenesena do sítě Bitcoin, kde je potvrzena a zařazena do bitcoinového blockchainu. Mezi nejoblíbenější modely hardwarových peněženek patří např: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade a SeedSigner (seznam není úplný).

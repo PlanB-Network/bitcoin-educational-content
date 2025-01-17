@@ -1,5 +1,5 @@
 ---
-mõiste: SELFISH MINING
+term: SELFISH MINING
 
 ---
 Strateegia (või rünnak) kaevandamisel, kus kaevur või kaevurite rühm hoiab tahtlikult kehtiva töö tõestusega plokke, ilma et ta neid kohe võrku edastaks. Eesmärgiks on säilitada teiste kaevurite ees edumaa töö tõestuse osas, mis võimaldab neil potentsiaalselt kaevandada mitu plokki järjest ja avaldada need kõik korraga, maksimeerides seega oma kasumit.

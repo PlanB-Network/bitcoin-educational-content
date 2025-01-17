@@ -1,5 +1,5 @@
 ---
-termo: ASSUME UTXO
+term: ASSUME UTXO
 
 ---
 Um parâmetro de configuração no cliente líder do Bitcoin Core que permite que um nó que acabou de ser inicializado (mas ainda não passou pelo IBD) adie a verificação de transações e o conjunto UTXO até um determinado snapshot. O conceito baseia-se na utilização de um conjunto UTXO (uma lista de todos os UTXOs existentes num determinado momento) fornecido pelo Core e presumivelmente exato, o que permite que o nó seja rapidamente sincronizado com a cadeia com o trabalho mais acumulado. Uma vez que o nó salta o longo passo de IBD, torna-se operacional para o seu utilizador muito rapidamente. Suponha que o UTXO divide a sincronização (IBD) em duas partes:

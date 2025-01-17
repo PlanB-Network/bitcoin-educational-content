@@ -1,5 +1,5 @@
 ---
-término: TIMESTAMP
+term: TIMESTAMP
 
 ---
 El sellado de tiempo, o "timestamping" en inglés, es un mecanismo que consiste en asociar un marcador temporal preciso a un evento, dato o mensaje. En el contexto general de los sistemas informáticos, el sellado de tiempo se utiliza para determinar el orden cronológico de las operaciones y verificar la integridad de los datos a lo largo del tiempo.

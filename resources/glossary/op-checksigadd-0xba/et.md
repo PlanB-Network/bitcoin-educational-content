@@ -1,5 +1,5 @@
 ---
-mõiste: OP_CHECKSIGADD (0XBA)
+term: OP_CHECKSIGADD (0XBA)
 
 ---
 Võtab korstnast välja kolm ülemist väärtust: "avalik võti", "C-scriptNum" "n" ja "allkiri". Kui allkiri ei ole tühi vektor ja ei ole kehtiv, lõpetab skript veaga. Kui allkiri on kehtiv või on tühi vektor (`OP_0`), esitatakse kaks stsenaariumi:

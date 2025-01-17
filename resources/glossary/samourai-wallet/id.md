@@ -1,5 +1,5 @@
 ---
-istilah: DOMPET SAMOURAI
+term: DOMPET SAMOURAI
 
 ---
 Perangkat lunak dompet Bitcoin untuk perangkat seluler Android yang berfokus pada privasi. Menawarkan fitur-fitur canggih seperti coinjoin Whirlpool, Stonewall, StonewallX2, Ricochet, dan Stowaway (payjoin). Samourai juga mengimplementasikan banyak perlindungan untuk membantu pengguna menjaga privasi mereka dari analisis rantai.

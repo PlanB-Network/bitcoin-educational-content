@@ -1,5 +1,5 @@
 ---
-istilah: TUJUAN
+term: TUJUAN
 
 ---
 Referensi unik untuk output transaksi yang tidak terpakai (UTXO). Terdiri dari dua elemen:

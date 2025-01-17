@@ -1,5 +1,5 @@
 ---
-mõiste: VÄLJUNDSKRIPTI KIRJELDAJAD
+term: VÄLJUNDSKRIPTI KIRJELDAJAD
 
 ---
 Väljundskriptide kirjeldajad ehk lihtsalt kirjeldajad on struktureeritud väljendid, mis kirjeldavad täielikult väljundskripti (`scriptPubKey`) ja annavad kogu vajaliku teabe, et jälgida tehinguid konkreetsesse skriptini või konkreetsest skriptist. Need kirjeldajad hõlbustavad võtmete haldamist HD rahakottides struktuuri ja kasutatavate aadresside tüüpide standardse kirjelduse kaudu.

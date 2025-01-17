@@ -1,5 +1,5 @@
 ---
-termo: CAMADA (SURCOUCHE)
+term: CAMADA (SURCOUCHE)
 
 ---
 Uma "camada" (ou "surcouche" em francês) é um protocolo ou rede construída sobre, empilhando, a rede Bitcoin principal. Ela usa a rede Bitcoin como base e é, portanto, dependente de seu protocolo. No entanto, a rede Bitcoin não é dependente de suas camadas. Um exemplo de uma camada desse tipo é a Lightning Network.

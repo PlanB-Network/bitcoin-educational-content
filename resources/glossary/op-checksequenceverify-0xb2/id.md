@@ -1,5 +1,5 @@
 ---
-istilah: OP_CHECKSEQUENCEVERIFY (0XB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
 ---
 Transaksi menjadi tidak valid jika salah satu dari karakteristik ini diamati:

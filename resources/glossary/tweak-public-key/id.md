@@ -1,5 +1,5 @@
 ---
-istilah: TWEAK (KUNCI PUBLIK)
+term: TWEAK (KUNCI PUBLIK)
 
 ---
 Dalam bidang kriptografi, "tweak" kunci publik melibatkan modifikasi kunci ini dengan menggunakan nilai tambahan yang disebut "tweak" sehingga tetap dapat digunakan dengan pengetahuan kunci pribadi asli dan tweak. Secara teknis, tweak adalah sebuah nilai skalar yang ditambahkan ke kunci publik awal. Jika $P$ adalah kunci publik dan $t$ adalah tweak, maka kunci publik yang telah diubah menjadi:

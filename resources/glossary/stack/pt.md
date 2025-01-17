@@ -1,5 +1,5 @@
 ---
-termo: EMPILHAR
+term: EMPILHAR
 
 ---
 No contexto da linguagem de script utilizada para aplicar condições de despesa em Bitcoin UTXOs, a pilha é uma estrutura de dados "LIFO" (*Last In, First Out*) que serve para armazenar elementos temporários durante a execução de um script. Cada operação no script manipula estas pilhas, onde os elementos podem ser adicionados (*push*) ou removidos (*pop*). Os scripts utilizam pilhas para avaliar expressões, armazenar variáveis temporárias e gerir condições.

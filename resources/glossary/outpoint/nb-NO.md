@@ -1,5 +1,5 @@
 ---
-begrep: OUTPOINT
+term: OUTPOINT
 
 ---
 En unik referanse til en ubrukt transaksjonsutgang (UTXO). Den består av to elementer:

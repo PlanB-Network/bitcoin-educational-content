@@ -1,5 +1,5 @@
 ---
-mõiste: (0X00)
+term: (0X00)
 
 ---
 Sama mis "OP_0".

@@ -1,5 +1,5 @@
 ---
-termi: OP_3DUP (0X6F)
+term: OP_3DUP (0X6F)
 
 ---
 Kopioi pinon kolme ylintä elementtiä ja asettaa ne sitten pinon päälle. Jos pino on esimerkiksi:

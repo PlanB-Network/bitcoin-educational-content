@@ -1,5 +1,5 @@
 ---
-termi: UUDELLEENJÄRJESTELY
+term: UUDELLEENJÄRJESTELY
 
 ---
 Viittaa ilmiöön, jossa lohkoketjun rakenne muuttuu, koska samalla korkeudella olevat kilpailevat lohkot ovat olemassa. Tämä tapahtuu, kun osa lohkoketjusta korvataan toisella ketjulla, jossa on enemmän kertynyttä työtä.

@@ -1,5 +1,5 @@
 ---
-mõiste: INSCRIPTIONS
+term: INSCRIPTIONS
 
 ---
 Ordinatsiooniteooria kontekstis on sissekirjutus suvaline sisu, mis on graveeritud satsidele, muutes need Bitcoini digitaalseteks artefaktideks. Sissekirjutused tehakse tehingute kaudu, mis paljastavad Taproot-sisendi käsikirjas oleva teabe sisu sellisel viisil:

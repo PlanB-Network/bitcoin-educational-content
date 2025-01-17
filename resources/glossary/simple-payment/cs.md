@@ -1,5 +1,5 @@
 ---
-termín: SIMPLE PAYMENT
+term: SIMPLE PAYMENT
 
 ---
 Transakční vzorec (nebo model) používaný v analýze řetězce charakterizovaný spotřebou jednoho nebo více UTXO na vstupu a výrobou 2 UTXO na výstupu. Tento model tedy bude vypadat následovně:

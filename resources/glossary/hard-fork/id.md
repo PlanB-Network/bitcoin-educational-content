@@ -1,5 +1,5 @@
 ---
-istilah: GARPU KERAS
+term: GARPU KERAS
 
 ---
 Sebuah perubahan pada aturan protokol dengan cara yang tidak kompatibel ke belakang. Perubahan ini menyebabkan pemisahan permanen jaringan node Bitcoin menjadi dua kelompok yang berbeda: node dengan pembaruan dan node tanpa pembaruan. Pemisahan ini diwujudkan dengan pembagian blockchain asli menjadi dua blockchain yang terpisah, yang memiliki sejarah yang sama, oleh karena itu istilah "fork" digunakan, yang dapat diterjemahkan ke dalam bahasa Perancis sebagai "embranchement, bifurkasi."

@@ -1,5 +1,5 @@
 ---
-istilah: ANONSET (SET ANONIMITAS)
+term: ANONSET (SET ANONIMITAS)
 
 ---
 Anonset berfungsi sebagai indikator untuk menilai tingkat privasi UTXO tertentu. Lebih khusus lagi, anonset mengukur jumlah UTXO yang tidak dapat dibedakan dalam set yang mencakup koin yang diteliti. Karena dibutuhkan sekelompok UTXO yang identik, anonset biasanya dihitung dalam siklus koin. Anonset memungkinkan, jika diperlukan, untuk menilai kualitas koin bersama. Anonset yang besar berarti tingkat anonimitas yang meningkat, karena menjadi sulit untuk membedakan UTXO tertentu di dalam set. Ada dua jenis anonset:

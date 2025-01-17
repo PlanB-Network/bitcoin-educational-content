@@ -1,5 +1,5 @@
 ---
-begriff: P2WPKH
+term: P2WPKH
 
 ---
 P2WPKH steht für *Pay to Witness Public Key Hash*. Es ist ein Standard-Skriptmodell, das verwendet wird, um die Ausgabenbedingungen auf einem UTXO festzulegen. P2WPKH wurde mit der Einführung von SegWit im August 2017 eingeführt.

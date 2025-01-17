@@ -1,5 +1,5 @@
 ---
-mõiste: BYSANTINE EBAÕNNESTUMINE
+term: BYSANTINE EBAÕNNESTUMINE
 
 ---
 Byzantine error ehk Byzantine behavior tähendab süsteemi mis tahes käitumist, mis ei vasta selle enda spetsifikatsioonidele, tekitades mittevastavaid tulemusi.

@@ -1,5 +1,5 @@
 ---
-termín: OP_SUCCESS
+term: OP_SUCCESS
 
 ---
 `OP_SUCCESS` představují řadu opcodes, které byly v minulosti zakázány a nyní jsou vyhrazeny pro budoucí použití v Tapscriptu. Jejich konečným cílem je usnadnit aktualizace a rozšíření skriptovacího jazyka tím, že umožní zavedení nových funkcí prostřednictvím soft forků. Pokud se ve skriptu vyskytne některý z těchto opkódů, znamená to automatický úspěch dané části skriptu bez ohledu na přítomná data nebo podmínky. To znamená, že skript pokračuje ve svém provádění bez selhání, nezávisle na předchozích operacích.

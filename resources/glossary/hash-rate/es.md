@@ -1,5 +1,5 @@
 ---
-término: TASA HASH
+term: TASA HASH
 
 ---
 Indicador de la potencia de cálculo de la red, medida en hashes por segundo (H/s). Indica la capacidad de los mineros para realizar operaciones hash como parte de la prueba de trabajo. Una tasa de hash alta significa una mayor seguridad para la historia económica de Bitcoin y una mayor resistencia a los ataques, ya que se necesitaría una cantidad sustancial de potencia de cálculo para comprometer el sistema.

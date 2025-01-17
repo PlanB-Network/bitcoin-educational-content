@@ -1,5 +1,5 @@
 ---
-termine: PORTAFOGLIO SAMOURAI
+term: PORTAFOGLIO SAMOURAI
 
 ---
 Software di portafoglio Bitcoin per dispositivi mobili Android incentrato sulla privacy. Offre funzioni avanzate come i coinjoin Whirlpool, Stonewall, StonewallX2, Ricochet e Stowaway (payjoin). Samourai implementa inoltre numerose protezioni per aiutare gli utenti a salvaguardare la propria privacy dall'analisi della catena.

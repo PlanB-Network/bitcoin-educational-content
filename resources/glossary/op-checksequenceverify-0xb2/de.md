@@ -1,5 +1,5 @@
 ---
-begriff: OP_CHECKSEQUENCEVERIFY (0XB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
 ---
 Macht die Transaktion ungültig, wenn eines dieser Merkmale beobachtet wird:

@@ -1,5 +1,5 @@
 ---
-termín: OP_TUCK (0X7D)
+term: OP_TUCK (0X7D)
 
 ---
 Zkopíruje položku na vrcholu zásobníku a vloží ji mezi druhou a třetí položku zásobníku. Například pokud je zásobník:

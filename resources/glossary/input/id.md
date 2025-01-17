@@ -1,5 +1,5 @@
 ---
-istilah: MASUKAN
+term: MASUKAN
 
 ---
 Dalam konteks Bitcoin, sebuah input dalam sebuah transaksi mengacu pada UTXO (*Unspent Transaction Outputs*) yang digunakan sebagai sumber dana untuk memenuhi output. Setiap input berisi referensi ke UTXO sebelumnya, yang kemudian akan dikonsumsi oleh transaksi. Input ini digunakan untuk mengisi bahan bakar UTXO baru yang akan dibuat sebagai output transaksi, dan yang kemudian dapat digunakan dalam transaksi di masa mendatang.

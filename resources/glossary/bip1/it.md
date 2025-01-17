@@ -1,5 +1,5 @@
 ---
-termine: BIP1
+term: BIP1
 
 ---
 Documento che definisce il processo di sviluppo e implementazione dei miglioramenti proposti al protocollo Bitcoin. Scritto da Amir Taaki nell'agosto 2011, stabilisce una metodologia standard per proporre e documentare potenziali modifiche. Le proposte di BIP sono classificate in tre categorie:

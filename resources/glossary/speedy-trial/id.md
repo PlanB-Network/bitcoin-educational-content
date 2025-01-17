@@ -1,5 +1,5 @@
 ---
-jangka waktu: UJI COBA CEPAT
+term: UJI COBA CEPAT
 
 ---
 Metode pengaktifan soft fork yang awalnya dikonsep untuk Taproot pada awal tahun 2021 oleh David A. Harding berdasarkan ide dari Russell O'Connor. Prinsipnya adalah menggunakan metode BIP8 dengan parameter `LOT` yang disetel ke `false`, sekaligus mengurangi periode aktivasi menjadi hanya 3 bulan. Periode pemungutan suara yang dipersingkat ini memungkinkan verifikasi persetujuan penambang dengan cepat. Jika ambang batas persetujuan yang diperlukan tercapai selama salah satu periode, soft fork akan dikunci. Soft fork akan diaktifkan beberapa bulan kemudian, sehingga memberikan penambang waktu yang diperlukan untuk memperbarui perangkat lunak mereka.

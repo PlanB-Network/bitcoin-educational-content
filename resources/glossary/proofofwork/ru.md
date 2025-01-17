@@ -1,5 +1,5 @@
 ---
-термин: PROOF-OF-WORK
+term: PROOF-OF-WORK
 
 ---
 > ► *Смотрите **[Доказательство работы](/dictionary/P.md#proof-of-work)**.*

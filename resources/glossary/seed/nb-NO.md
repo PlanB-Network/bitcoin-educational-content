@@ -1,5 +1,5 @@
 ---
-betegnelse: SEED
+term: SEED
 
 ---
 I den spesifikke konteksten til en hierarkisk deterministisk Bitcoin-lommebok er et seed en 512-biters informasjonsbit som er avledet fra tilfeldigheter. Det brukes til å generere et sett med private nøkler og tilhørende offentlige nøkler for en Bitcoin-lommebok på en deterministisk og hierarkisk måte. Frøet forveksles ofte med selve gjenopprettingsfrasen. Det er imidlertid forskjellig informasjon. Frøet fås ved å bruke `PBKDF2`-funksjonen på den mnemoniske frasen og enhver potensiell passordfrase.

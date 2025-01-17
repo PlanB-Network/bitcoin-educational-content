@@ -1,5 +1,5 @@
 ---
-termín: MAN-IN-THE-MIDDLE (MITM)
+term: MAN-IN-THE-MIDDLE (MITM)
 
 ---
 Útok, při kterém se škodlivý aktér tajně umístí mezi dvě komunikující strany, aby zachytil a případně upravil vyměňované zprávy, aniž by si některá ze stran všimla jeho přítomnosti.

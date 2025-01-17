@@ -1,5 +1,5 @@
 ---
-termine: TWEAK (CHIAVE PUBBLICA)
+term: TWEAK (CHIAVE PUBBLICA)
 
 ---
 Nel campo della crittografia, il "tweaking" di una chiave pubblica consiste nel modificare questa chiave utilizzando un valore additivo chiamato "tweak" in modo che rimanga utilizzabile con la conoscenza della chiave privata originale e del tweak. Tecnicamente, un tweak è un valore scalare che viene aggiunto alla chiave pubblica iniziale. Se $P$ è la chiave pubblica e $t$ è il tweak, la chiave pubblica modificata diventa:

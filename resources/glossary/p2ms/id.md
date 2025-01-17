@@ -1,5 +1,5 @@
 ---
-istilah: P2MS
+term: P2MS
 
 ---
 P2MS adalah singkatan dari *Bayar ke Multisig*, yang diterjemahkan menjadi "bayar ke beberapa tanda tangan". Ini adalah model skrip standar yang digunakan untuk menetapkan kondisi pengeluaran pada UTXO. Hal ini memungkinkan penguncian bitcoin dengan beberapa kunci publik. Untuk membelanjakan bitcoin ini, dibutuhkan tanda tangan dengan sejumlah kunci privat yang telah ditentukan sebelumnya. Sebagai contoh, `P2MS 2/3` melibatkan `3` kunci publik dengan `3` kunci privat rahasia yang terkait. Untuk membelanjakan bitcoin yang terkunci dengan skrip P2MS ini, dibutuhkan tanda tangan dengan setidaknya `2` dari `3` private key. Ini adalah sistem keamanan ambang batas.

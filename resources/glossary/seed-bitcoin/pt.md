@@ -1,5 +1,5 @@
 ---
-termo: SEED (BITCOIN)
+term: SEED (BITCOIN)
 
 ---
 No contexto do Bitcoin, uma semente é um valor de 512 bits utilizado para derivar todas as chaves privadas e públicas associadas a uma carteira HD (Hierarchical Deterministic). Tecnicamente, a semente é um valor diferente da frase de recuperação (ou mnemónica). A frase, que é normalmente composta por 12 ou 24 palavras, é gerada de forma pseudo-aleatória a partir de uma fonte de entropia e completada por uma soma de controlo. Esta frase facilita o backup humano ao fornecer uma representação textual do valor na base da carteira.

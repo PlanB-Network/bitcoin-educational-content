@@ -1,5 +1,5 @@
 ---
-istilah: DOMPET DINGIN
+term: DOMPET DINGIN
 
 ---
 Identik dengan "dompet perangkat keras" Dompet perangkat keras, atau dompet fisik, adalah perangkat elektronik yang didedikasikan untuk keamanan dan pengelolaan kunci pribadi dompet Bitcoin. Perangkat ini didesain untuk memberikan keamanan yang lebih baik dibandingkan dengan dompet perangkat lunak yang berada di mesin serbaguna yang terhubung langsung ke internet. Dompet perangkat keras menyimpan frasa mnemonik secara offline, pada sebuah perangkat yang memiliki permukaan serangan minimal, yang mengisolasinya dari lingkungan yang berpotensi rentan. Ketika sebuah transaksi dilakukan, dompet perangkat keras akan menandatangani transaksi di dalam perangkat itu sendiri, tanpa mengekspos kunci pribadi secara eksternal. Setelah transaksi ditandatangani, transaksi tersebut dikirim ke jaringan Bitcoin untuk dikonfirmasi dan dimasukkan ke dalam blockchain. Di antara model dompet perangkat keras yang paling populer adalah: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade, dan SeedSigner (daftar ini tidak lengkap).

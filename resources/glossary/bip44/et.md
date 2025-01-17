@@ -1,5 +1,5 @@
 ---
-mõiste: BIP44
+term: BIP44
 
 ---
 Parandusettepanek, millega võetakse kasutusele standardne hierarhiline tuletamisstruktuur HD-kassade jaoks. BIP44 tugineb põhimõtetele, mis on kehtestatud BIP32ga võtme tuletamise kohta ja BIP43ga "purpose" välja kasutamise kohta. Sellega võetakse kasutusele viietasandiline tuletamisstruktuur: `m / eesmärk' / coin_type' / account' / change / address_index`. Siin on iga sügavuse üksikasjad:

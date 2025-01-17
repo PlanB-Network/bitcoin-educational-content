@@ -1,5 +1,5 @@
 ---
-istilah: HMAC-SHA512
+term: HMAC-SHA512
 
 ---
 `HMAC-SHA512` adalah singkatan dari "Kode Otentikasi Pesan Berbasis Hash - Algoritma Hash Aman 512". Ini adalah algoritma kriptografi yang digunakan untuk memverifikasi integritas dan keaslian pesan yang dipertukarkan antara dua pihak. Algoritma ini menggabungkan fungsi hash kriptografi `SHA512` dengan kunci rahasia bersama untuk menghasilkan Kode Autentikasi Pesan (MAC) yang unik untuk setiap pesan.

@@ -1,5 +1,5 @@
 ---
-istilah: BENIH
+term: BENIH
 
 ---
 Dalam konteks spesifik dompet Bitcoin deterministik hirarkis, sebuah seed adalah sebuah informasi berukuran 512-bit yang berasal dari keacakan. Seed digunakan untuk menghasilkan satu set kunci privat, dan kunci publik yang sesuai, secara deterministik dan hirarkis untuk sebuah dompet Bitcoin. Seed sering kali disalahartikan sebagai frasa pemulihan itu sendiri. Akan tetapi, ini adalah informasi yang berbeda. Seed didapatkan dengan menerapkan fungsi `PBKDF2` pada frasa mnemonik dan kata sandi potensial.

@@ -1,5 +1,5 @@
 ---
-termo: REORGANIZAÇÃO
+term: REORGANIZAÇÃO
 
 ---
 Refere-se a um fenómeno em que a blockchain sofre uma modificação da sua estrutura devido à existência de blocos concorrentes à mesma altura. Isto ocorre quando uma parte da blockchain é substituída por outra cadeia que tem uma maior quantidade de trabalho acumulado.

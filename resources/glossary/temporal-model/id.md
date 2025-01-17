@@ -1,5 +1,5 @@
 ---
-jangka waktu: MODEL TEMPORAL
+term: MODEL TEMPORAL
 
 ---
 Perilaku manusia tertentu dapat dikenali secara berantai. Mungkin yang paling berguna dalam analisis rantai adalah pola tidur Anda! Ya, ketika Anda tidur, Anda mungkin tidak menyiarkan transaksi Bitcoin. Umumnya, Anda tidur pada jam-jam yang sama. Oleh karena itu, analisis temporal biasanya digunakan dalam analisis rantai. Analisis ini hanya melibatkan pencatatan waktu-waktu di mana transaksi entitas tertentu disiarkan ke jaringan Bitcoin. Menganalisis pola temporal ini memungkinkan kita untuk menyimpulkan banyak informasi.

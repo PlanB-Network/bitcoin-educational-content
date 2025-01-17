@@ -1,5 +1,5 @@
 ---
-mõiste: TARO
+term: TARO
 
 ---
 Taproot Assets protokolli endine nimi.

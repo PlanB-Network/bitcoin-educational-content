@@ -1,5 +1,5 @@
 ---
-termín: OP_CHECKSIGADD (0XBA)
+term: OP_CHECKSIGADD (0XBA)
 
 ---
 Extrahuje tři nejvyšší hodnoty ze zásobníku: `veřejný klíč`, `CScriptNum` `n` a `podpis`. Pokud podpis není prázdný vektor a není platný, skript se ukončí s chybou. Pokud je podpis platný nebo je prázdným vektorem (`OP_0`), zobrazí se dva scénáře:

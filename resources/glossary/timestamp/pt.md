@@ -1,5 +1,5 @@
 ---
-termo: TIMESTAMP
+term: TIMESTAMP
 
 ---
 O registo de data e hora, ou "timestamp" em inglês, é um mecanismo que envolve a associação de um marcador temporal preciso a um evento, dado ou mensagem. No contexto geral dos sistemas informáticos, a marcação temporal é utilizada para determinar a ordem cronológica das operações e para verificar a integridade dos dados ao longo do tempo.

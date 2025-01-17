@@ -1,5 +1,5 @@
 ---
-istilah: TARGET KESULITAN
+term: TARGET KESULITAN
 
 ---
 Faktor kesulitan, yang juga dikenal sebagai target kesulitan, merupakan sebuah parameter yang digunakan dalam mekanisme konsensus dengan bukti kerja (Proof of Work, PoW) pada Bitcoin. Target ini mewakili nilai numerik yang menentukan kesulitan bagi para penambang untuk memecahkan masalah kriptografi tertentu, yang disebut bukti kerja, ketika membuat blok baru di blockchain.

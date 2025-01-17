@@ -1,5 +1,5 @@
 ---
-jangka waktu: GABUNG BAYAR
+term: GABUNG BAYAR
 
 ---
 Sebuah struktur transaksi Bitcoin khusus yang meningkatkan privasi pengguna selama melakukan pembelanjaan dengan berkolaborasi dengan penerima pembayaran. Keunikan Payjoin terletak pada kemampuannya untuk menghasilkan sebuah transaksi yang sekilas terlihat biasa namun sebenarnya merupakan sebuah coinjoin mini antara dua pihak. Untuk itu, struktur transaksi melibatkan penerima pembayaran dalam input di samping pengirim yang sebenarnya. Dengan demikian, penerima menyertakan pembayaran untuk diri mereka sendiri di tengah-tengah transaksi yang memungkinkan mereka untuk dibayar. Misalnya, jika Anda membeli baguette seharga `6.000 sats` menggunakan UTXO sebesar `10.000 sats`, dan Anda memilih Payjoin, pembuat roti Anda akan menambahkan UTXO sebesar `15.000 sats` milik mereka sebagai input, yang akan mereka terima secara penuh sebagai output, selain `6.000 sats` Anda.

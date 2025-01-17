@@ -1,5 +1,5 @@
 ---
-mõiste: (WST)
+term: (WST)
 
 ---
 Whirlpool Stat Tool'i tarkvaras on levik näitaja, mida kasutatakse segamisprotsessi homogeensuse mõõtmiseks konkreetse detaili seisukohalt. On olemas kahte liiki levikut: prospektiivne ja retrospektiivne.

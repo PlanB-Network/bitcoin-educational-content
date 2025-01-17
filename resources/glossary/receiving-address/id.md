@@ -1,5 +1,5 @@
 ---
-jangka waktu: ALAMAT PENERIMA
+term: ALAMAT PENERIMA
 
 ---
 Informasi yang digunakan untuk menerima bitcoin. Sebuah alamat biasanya dibuat dengan melakukan hashing terhadap kunci publik, menggunakan `SHA256` dan `RIMPEMD160`, dan menambahkan metadata pada intisari ini. Kunci publik yang digunakan untuk membuat alamat penerima adalah bagian dari dompet pengguna dan oleh karena itu berasal dari seed mereka. Sebagai contoh, alamat SegWit terdiri dari informasi berikut ini:

@@ -1,5 +1,5 @@
 ---
-mõiste: STACK
+term: STACK
 
 ---
 Bitcoini UTXOde kulutamistingimuste kohaldamiseks kasutatava skriptikeele kontekstis on virn "LIFO" (*Last In, First Out*) andmestruktuur, mis on mõeldud ajutiste elementide salvestamiseks skripti täitmise ajal. Iga skripti toiminguga manipuleeritakse neid virna, kuhu saab elemente lisada (*push*) või kustutada (*pop*). Skriptid kasutavad stäkke väljendite hindamiseks, ajutiste muutujate salvestamiseks ja tingimuste haldamiseks.

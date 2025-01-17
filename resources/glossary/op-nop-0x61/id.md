@@ -1,5 +1,5 @@
 ---
-istilah: OP_NOP (0X61)
+term: OP_NOP (0X61)
 
 ---
 Tidak menghasilkan efek apapun pada stack atau status skrip. Ia tidak melakukan pergerakan, pengecekan, atau modifikasi. Ia tidak melakukan apa pun kecuali jika diputuskan sebaliknya melalui soft fork. Memang, sejak dimodifikasi oleh Satoshi Nakamoto pada tahun 2010, perintah `OP_NOP` (`OP_NOP1` (`0XB0`) hingga `OP_NOP10` (`0XB9`)) digunakan untuk menambahkan opcode baru dalam bentuk soft fork.

@@ -1,5 +1,5 @@
 ---
-termi: (0X70)
+term: (0X70)
 
 ---
 Kopioi kaksi elementtiä, jotka ovat neljäntenä ja kolmantena pinon yläreunasta, ja asettaa ne sitten pinon päälle. Jos pino on esimerkiksi:

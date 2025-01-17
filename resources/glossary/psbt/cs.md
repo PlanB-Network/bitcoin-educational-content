@@ -1,5 +1,5 @@
 ---
-termín: PSBT
+term: PSBT
 
 ---
 Akronym pro "částečně podepsanou transakci Bitcoin". Jedná se o specifikaci zavedenou spolu s BIP174 s cílem standardizovat způsob, jakým jsou nedokončené transakce konstruovány v softwaru souvisejícím s Bitcoinem, například v softwaru peněženek. PSBT zapouzdřuje transakci, jejíž vstupy nemusí být plně podepsány. Obsahuje všechny potřebné informace, aby účastník mohl transakci podepsat, aniž by vyžadoval další údaje. PSBT tak může mít tři různé podoby:

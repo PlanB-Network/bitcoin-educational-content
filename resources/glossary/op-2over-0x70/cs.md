@@ -1,5 +1,5 @@
 ---
-termín: OP_2OVER (0X70)
+term: OP_2OVER (0X70)
 
 ---
 Zkopíruje dva prvky, které jsou na čtvrté a třetí pozici od vrcholu zásobníku, a umístí je na vrchol zásobníku. Například pokud je zásobník:

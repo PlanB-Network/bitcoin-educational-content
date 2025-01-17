@@ -1,5 +1,5 @@
 ---
-termi: STACK
+term: STACK
 
 ---
 Bitcoin UTXO:n käyttöehtojen soveltamiseen käytettävän komentosarjakielen yhteydessä pino on "LIFO"-tietorakenne (*Last In, First Out*), jota käytetään väliaikaisten elementtien tallentamiseen komentosarjan suorittamisen aikana. Skriptin jokainen operaatio manipuloi näitä pinoja, joihin voidaan lisätä (*push*) tai poistaa (*pop*) elementtejä. Skriptit käyttävät pinoja lausekkeiden arviointiin, väliaikaisten muuttujien tallentamiseen ja ehtojen hallintaan.

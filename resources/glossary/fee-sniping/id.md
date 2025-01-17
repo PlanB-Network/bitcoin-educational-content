@@ -1,5 +1,5 @@
 ---
-jangka waktu: BIAYA SNIPING
+term: BIAYA SNIPING
 
 ---
 Skenario serangan dimana penambang berusaha untuk menulis ulang blok yang baru saja dikonfirmasi untuk mengklaim biaya transaksi yang ada di dalamnya, sambil menambahkan transaksi berbiaya tinggi yang sudah masuk ke dalam mempool. Tujuan akhir dari serangan ini bagi penambang adalah untuk meningkatkan profitabilitas mereka. Fee sniping dapat menjadi semakin menguntungkan ketika upah blok menurun dan biaya transaksi mewakili bagian yang lebih besar dari pendapatan penambang. Hal ini juga dapat menjadi menguntungkan ketika fee yang terdapat pada blok sebelumnya jauh lebih tinggi dibandingkan dengan blok kandidat terbaik berikutnya. Untuk menyederhanakan, penambang dihadapkan pada pilihan ini dalam hal insentif:

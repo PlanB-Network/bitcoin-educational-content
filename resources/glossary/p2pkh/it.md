@@ -1,5 +1,5 @@
 ---
-termine: P2PKH
+term: P2PKH
 
 ---
 P2PKH sta per *Pay to Public Key Hash*. È un modello di script standard utilizzato per stabilire le condizioni di spesa su un UTXO. Consente di bloccare i bitcoin su un hash di una chiave pubblica, cioè su un indirizzo ricevente. Questo script è associato allo standard Legacy ed è stato introdotto nelle prime versioni di Bitcoin da Satoshi Nakamoto.

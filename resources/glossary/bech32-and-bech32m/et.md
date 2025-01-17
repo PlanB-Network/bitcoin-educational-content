@@ -1,5 +1,5 @@
 ---
-mõiste: BECH32 JA BECH32M
+term: BECH32 JA BECH32M
 
 ---
 `Bech32` ja `Bech32m` on kaks aadressi kodeerimise formaati bitcoinide vastuvõtmiseks. Need põhinevad pisut modifitseeritud baasil 32. Need sisaldavad kontrollsummat, mis põhineb veakorrektsioonialgoritmil nimega BCH (*Bose-Chaudhuri-Hocquenghem*). Võrreldes Legacy-aadressidega, mis on kodeeritud `Base58check`, on `Bech32` ja `Bech32m` aadressidel tõhusam kontrollsumma, mis võimaldab tuvastada ja potentsiaalselt automaatselt parandada kirjavigu. Nende formaat on ka paremini loetav, kuna kasutatakse ainult väikseid tähemärke. Siin on selle formaadi liitmismaatriks baasist 10:

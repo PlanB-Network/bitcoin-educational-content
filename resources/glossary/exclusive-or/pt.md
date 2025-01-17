@@ -1,5 +1,5 @@
 ---
-prazo: EXCLUSIVO OU
+term: EXCLUSIVO OU
 
 ---
 Uma função fundamental da lógica booleana. A operação "Exclusive Or" ou XOR ("*Exclusive or*") recebe dois operandos booleanos, sendo cada um deles verdadeiro ou falso, e produz um resultado verdadeiro apenas quando os dois operandos diferem. Por outras palavras, o resultado da operação `XOR` é verdadeiro se exatamente um (mas não ambos) dos operandos for verdadeiro. Por exemplo, a operação `XOR` entre `1` e `0` resultará em `1`. Notamos que: $1 \oplus 0 = 1$. Da mesma forma, a operação `XOR` pode ser realizada em seqüências maiores de bits. Por exemplo, $10110 \oplus 01110 = 11000$. Cada bit da sequência é comparado com o seu equivalente, e a operação `XOR` é aplicada. Aqui está a tabela verdade para a operação `XOR`:

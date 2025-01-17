@@ -1,5 +1,5 @@
 ---
-mõiste: OP_TUCK (0X7D)
+term: OP_TUCK (0X7D)
 
 ---
 Kopeerib virna ülaosas oleva elemendi ja lisab selle virna teise ja kolmanda elemendi vahele. Näiteks kui virnas on:

@@ -1,5 +1,5 @@
 ---
-begriff: PEER DISCOVERY
+term: PEER DISCOVERY
 
 ---
 Der Prozess, durch den sich Knoten im Bitcoin-Netzwerk mit anderen Knoten verbinden, um Informationen zu erhalten. Wenn ein Bitcoin-Knotenpunkt zum ersten Mal gestartet wird, hat er keine Informationen über andere Knotenpunkte im Netzwerk. Dennoch muss er Verbindungen herstellen, um sich mit der Blockchain zu synchronisieren, die die meiste Arbeit angesammelt hat. Es werden mehrere Mechanismen verwendet, um diese Peers in der Reihenfolge ihrer Priorität zu finden:

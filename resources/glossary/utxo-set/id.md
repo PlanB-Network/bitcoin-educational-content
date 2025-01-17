@@ -1,5 +1,5 @@
 ---
-istilah: SET UTXO
+term: SET UTXO
 
 ---
 Mengacu pada koleksi semua UTXO yang ada pada saat tertentu. Dengan kata lain, ini adalah daftar besar dari semua bagian bitcoin yang berbeda yang menunggu untuk dibelanjakan. Jika Anda menjumlahkan jumlah semua UTXO dalam kumpulan UTXO, maka akan menghasilkan jumlah total uang bitcoin yang beredar. Setiap node dalam jaringan Bitcoin menyimpan set UTXO-nya sendiri secara real-time. Ia memperbaruinya ketika blok baru yang valid dikonfirmasi, dengan transaksi yang disertakan, yang mengkonsumsi beberapa UTXO dari set UTXO, dan membuat yang baru sebagai gantinya.

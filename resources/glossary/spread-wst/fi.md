@@ -1,5 +1,5 @@
 ---
-termi: SPREAD (WST)
+term: SPREAD (WST)
 
 ---
 Whirlpool Stat Tool -ohjelmistossa leviäminen on indikaattori, jota käytetään mittaamaan sekoitusprosessin homogeenisuutta tietyn kappaleen näkökulmasta. Leviämiä on kahdenlaisia: prospektiivinen ja retrospektiivinen.

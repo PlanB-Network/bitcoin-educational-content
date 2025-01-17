@@ -1,5 +1,5 @@
 ---
-termine: BLOCCO GENESI
+term: BLOCCO GENESI
 
 ---
 Il blocco Genesis è il primo blocco del sistema Bitcoin. Significa il lancio concreto di Bitcoin. Il blocco Genesis è stato creato dall'anonimo fondatore di Bitcoin, Satoshi Nakamoto, il 3 gennaio 2009. Il suo hash è:

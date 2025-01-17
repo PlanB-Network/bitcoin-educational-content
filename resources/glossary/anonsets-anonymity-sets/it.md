@@ -1,5 +1,5 @@
 ---
-termine: ANONSETS (INSIEMI DI ANONIMI)
+term: ANONSETS (INSIEMI DI ANONIMI)
 
 ---
 Gli insiemi servono come indicatori per valutare il livello di privacy di un particolare UTXO. Più precisamente, misurano il numero di UTXO indistinguibili all'interno dell'insieme che comprende la moneta in esame. Poiché è necessario un gruppo di UTXO identici, gli anonset sono generalmente calcolati all'interno di un ciclo di coinjoin. Essi consentono, se del caso, di giudicare la qualità delle coinjoin. Un anonset grande significa un maggiore livello di anonimato, poiché diventa difficile distinguere un UTXO specifico all'interno dell'insieme. Esistono due tipi di anonset:

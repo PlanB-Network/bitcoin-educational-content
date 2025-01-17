@@ -1,5 +1,5 @@
 ---
-begrep: OUTPUT
+term: OUTPUT
 
 ---
 I Bitcoin-sammenheng refererer en output i en transaksjon til UTXO-er (*Unspent Transaction Outputs*) som opprettes som destinasjonsmidler for betalingen. Mer spesifikt er det en mekanisme som en transaksjon distribuerer midler gjennom.

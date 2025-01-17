@@ -1,5 +1,5 @@
 ---
-termo: TIMELOCK
+term: TIMELOCK
 
 ---
 Uma primitiva de contrato inteligente que permite definir uma condição baseada no tempo que deve ser cumprida para que uma transação seja adicionada a um bloco. Existem dois tipos de timelocks no Bitcoin:

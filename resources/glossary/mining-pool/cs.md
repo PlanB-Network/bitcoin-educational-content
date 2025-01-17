@@ -1,5 +1,5 @@
 ---
-termín: MINING POOL
+term: MINING POOL
 
 ---
 Označuje skupinu těžařů, kteří spolupracují tím, že kombinují svůj výpočetní výkon, aby se podíleli na hledání platných důkazů práce v Bitcoinu. Toto sdružování do jedné organizace je řešením rostoucí obtížnosti těžby bitcoinů, kvůli níž je pro jednotlivého těžaře příliš nepravděpodobné, aby mohl soustavně soutěžit a získávat odměny. Těžaři v rámci těžebního poolu přispívají svými stroji k hledání platných podílů. Když je blok vytěžen poolem, odměna, která zahrnuje nově vytvořené bitcoiny a také transakční poplatky zahrnuté v bloku, je rozdělena mezi členy poolu podle zvoleného způsobu platby. Toto rozdělení je úměrné výpočetnímu výkonu, kterým každý těžař přispěl.

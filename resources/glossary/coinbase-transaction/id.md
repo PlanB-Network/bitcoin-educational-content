@@ -1,5 +1,5 @@
 ---
-istilah: COINBASE (TRANSAKSI)
+term: COINBASE (TRANSAKSI)
 
 ---
 Transaksi coinbase adalah transaksi khusus dan unik yang disertakan dalam setiap blok blockchain Bitcoin. Transaksi ini merupakan transaksi pertama dalam sebuah blok dan dibuat oleh penambang yang telah berhasil menemukan header yang memvalidasi bukti kerja (*Proof-of-Work*), yaitu kurang dari atau sama dengan target.

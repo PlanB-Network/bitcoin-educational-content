@@ -1,5 +1,5 @@
 ---
-betegnelse: WASABI WALLET
+term: WASABI WALLET
 
 ---
 En Bitcoin-lommebok med fokus på personvern, og som tilbyr funksjoner som coinjoin.

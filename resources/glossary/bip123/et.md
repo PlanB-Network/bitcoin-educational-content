@@ -1,5 +1,5 @@
 ---
-mõiste: BIP123
+term: BIP123
 
 ---
 Kehtestab uue standardiseeritud protsessi Bitcoini parendusettepanekute klassifitseerimiseks. Bitcoini ettepanekud tuleb nüüd liigitada 4 kategooriasse:

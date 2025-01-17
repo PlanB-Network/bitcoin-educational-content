@@ -1,5 +1,5 @@
 ---
-mõiste: BIP352
+term: BIP352
 
 ---
 Josibake ja Ruben Somseni parandusettepanek, mis tutvustab Silent Payments, meetodit staatiliste Bitcoini aadresside kasutamiseks maksete vastuvõtmiseks ilma aadressi korduvkasutamise, suhtluseta ja ilma nähtava seoseta erinevate maksete vahel. See meetod välistab vajaduse luua iga tehingu jaoks uued, kasutamata vastuvõtuaadressid, vältides seega Bitcoinis tavalist suhtlemist, kus saaja peab maksjale uue aadressi andma.

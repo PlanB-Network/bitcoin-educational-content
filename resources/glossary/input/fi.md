@@ -1,5 +1,5 @@
 ---
-termi: INPUT
+term: INPUT
 
 ---
 Bitcoinin yhteydessä transaktion panos tarkoittaa UTXO:ta (*Unspent Transaction Outputs*), jota käytetään varojen lähteenä tuotosten tyydyttämiseen. Kukin panos sisältää viittauksia edellisiin UTXOihin, jotka transaktio sitten kuluttaa. Näitä panoksia käytetään uusien UTXO:iden syöttämiseen, jotka luodaan tapahtuman tuotoksina ja jotka voidaan sitten käyttää tulevissa tapahtumissa.

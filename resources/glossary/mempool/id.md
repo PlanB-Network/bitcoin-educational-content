@@ -1,5 +1,5 @@
 ---
-istilah: MEMPOOL
+term: MEMPOOL
 
 ---
 Sebuah kontraksi dari istilah "memori" dan "pool". Ini mengacu pada ruang virtual di mana transaksi Bitcoin yang menunggu dimasukkan ke dalam blok dikelompokkan bersama. Ketika sebuah transaksi dibuat dan disiarkan di jaringan Bitcoin, transaksi tersebut diverifikasi terlebih dahulu oleh node-node jaringan. Jika dianggap valid, transaksi tersebut akan ditempatkan di Mempool setiap node, di mana transaksi tersebut akan tetap berada hingga dipilih oleh penambang untuk dimasukkan ke dalam blok.

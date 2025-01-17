@@ -1,5 +1,5 @@
 ---
-begrep: LAG (SURCOUCHE)
+term: LAG (SURCOUCHE)
 
 ---
 Et "lag" (eller "surcouche" på fransk) er en protokoll eller et nettverk som er bygget på toppen av Bitcoin-hovednettverket. Det bruker Bitcoin-nettverket som et fundament og er dermed avhengig av dets protokoll. Bitcoin-nettverket er imidlertid ikke avhengig av lagene. Et eksempel på et slikt lag er Lightning Network.

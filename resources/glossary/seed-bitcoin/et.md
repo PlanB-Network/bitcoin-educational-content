@@ -1,5 +1,5 @@
 ---
-mõiste: SEED (BITCOIN)
+term: SEED (BITCOIN)
 
 ---
 Bitcoini kontekstis on seemne 512-bitine väärtus, mida kasutatakse kõigi HD (Hierarchical Deterministic) rahakotiga seotud era- ja avalike võtmete tuletamiseks. Tehniliselt on seemne väärtus erinev taastamislausest (või mnemoonikast). Fraas, mis koosneb tavaliselt 12 või 24 sõnast, genereeritakse pseudosituatsiooniliselt entroopiaallikast ja täiendatakse kontrollsummaga. See fraas hõlbustab inimese varundamist, andes tekstilise kujutise väärtusest rahakoti põhjaosas.

@@ -1,5 +1,5 @@
 ---
-istilah: KUNCI YANG DIPERPANJANG
+term: KUNCI YANG DIPERPANJANG
 
 ---
 Urutan karakter yang menggabungkan kunci (publik atau pribadi), kode rantai terkait, dan serangkaian metadata. Kunci yang diperluas mengkompilasi semua elemen yang diperlukan untuk menurunkan kunci anak ke dalam satu pengenal. Kunci ini digunakan pada dompet deterministik dan hirarkis dan dapat terdiri dari dua jenis: kunci publik yang diperluas (digunakan untuk mendapatkan kunci publik anak) atau kunci pribadi yang diperluas (digunakan untuk mendapatkan kunci pribadi dan kunci publik anak). Kunci yang diperluas dengan demikian mencakup beberapa bagian data yang berbeda, yang dijelaskan dalam BIP32, sesuai dengan urutannya:

@@ -1,5 +1,5 @@
 ---
-termine: STACCO
+term: STACCO
 
 ---
 Nel contesto del linguaggio di scripting utilizzato per applicare le condizioni di spesa sugli UTXO Bitcoin, lo stack è una struttura di dati "LIFO" (*Last In, First Out*) che serve a memorizzare elementi temporanei durante l'esecuzione di uno script. Ogni operazione dello script manipola questi stack, dove gli elementi possono essere aggiunti (*push*) o rimossi (*pop*). Gli script utilizzano gli stack per valutare espressioni, memorizzare variabili temporanee e gestire condizioni.

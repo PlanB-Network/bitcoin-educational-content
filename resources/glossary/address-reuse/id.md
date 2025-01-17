@@ -1,5 +1,5 @@
 ---
-istilah: PENGGUNAAN ULANG ALAMAT
+term: PENGGUNAAN ULANG ALAMAT
 
 ---
 Penggunaan ulang alamat merujuk pada praktik penggunaan alamat penerima yang sama untuk memblokir beberapa UTXO, terkadang dalam beberapa transaksi yang berbeda. Bitcoin biasanya dikunci menggunakan pasangan kunci kriptografi yang sesuai dengan alamat unik. Karena blockchain bersifat publik, maka mudah untuk melihat alamat mana yang terkait dengan berapa banyak bitcoin. Dalam kasus penggunaan ulang alamat yang sama untuk beberapa pembayaran, dapat dibayangkan bahwa semua UTXO yang terkait adalah milik entitas yang sama. Oleh karena itu, penggunaan ulang alamat menimbulkan masalah bagi privasi pengguna. Hal ini memungkinkan adanya hubungan deterministik antara beberapa transaksi dan UTXO, serta melanggengkan pelacakan dana secara on-chain. Satoshi Nakamoto telah menyebutkan masalah ini dalam Buku Putihnya:

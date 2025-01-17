@@ -1,5 +1,5 @@
 ---
-istilah: RANTAI SAMPING
+term: RANTAI SAMPING
 
 ---
 Sebuah blockchain yang didesain untuk beroperasi secara paralel dengan blockchain utama Bitcoin. Kedua rantai terhubung menggunakan pasak dua arah yang memastikan aset yang beredar di sidechain mempertahankan nilai yang sama dengan bitcoin di rantai utama. Sidechain memiliki mekanisme konsensus sendiri, yang dapat berdiri sendiri atau bergantung pada mekanisme rantai utama. Secara umum, sidechain memungkinkan penggunaan fungsi yang tidak tersedia secara langsung di chain utama, atau untuk meningkatkan fungsi, seperti: fleksibilitas yang lebih tinggi dalam pengembangan, transaksi yang lebih cepat dan/atau lebih privat, atau kapasitas transaksi yang lebih tinggi. Untuk mencapai hal ini, sidechain membuat kompromi dibandingkan dengan chain utama.

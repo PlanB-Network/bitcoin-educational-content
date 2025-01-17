@@ -1,5 +1,5 @@
 ---
-termine: FORCELLA DURA
+term: FORCELLA DURA
 
 ---
 Una modifica alle regole del protocollo in un modo che non è retrocompatibile. Questa modifica porta a una separazione permanente della rete di nodi Bitcoin in due gruppi distinti: nodi con l'aggiornamento e nodi senza l'aggiornamento. Questa divisione si concretizza con la divisione della blockchain originale in due blockchain separate, che tuttavia condividono una storia comune, da cui l'uso del termine "fork", traducibile in francese come "embranchement, bifurcation"

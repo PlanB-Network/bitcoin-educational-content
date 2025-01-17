@@ -1,5 +1,5 @@
 ---
-istilah: C++ (PLUS PLUS)
+term: C++ (PLUS PLUS)
 
 ---
 Bahasa pemrograman serbaguna yang berevolusi dari C, yang dikenal karena kekuatan dan fleksibilitasnya. Digunakan untuk pengembangan perangkat lunak yang kompleks, mendukung pemrograman berorientasi objek dan menawarkan fitur yang kaya untuk manajemen memori dan penanganan sumber daya sistem.

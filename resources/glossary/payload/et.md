@@ -1,5 +1,5 @@
 ---
-mõiste: PAYLOAD
+term: PAYLOAD
 
 ---
 Arvutite üldises kontekstis viitab kasuliku koormuse all suuremates andmepakettides edastatavatele olulistele andmetele. Näiteks Bitcoini SegWit V0-aadressi puhul vastab kasulik koormus avaliku võtme hashile, välja arvatud mitmesugused metaandmed (HRP, eraldaja, SegWit-versioon ja kontrollsumma). Näiteks aadressil `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj` on meil:

@@ -1,5 +1,5 @@
 ---
-jangka waktu: RBF (GANTI RUGI)
+term: RBF (GANTI RUGI)
 
 ---
 Mekanisme transaksi yang memungkinkan pengirim untuk mengganti satu transaksi dengan transaksi lain dengan membayar biaya yang lebih tinggi, untuk mempercepat konfirmasinya. Jika transaksi dengan biaya yang terlalu rendah macet, pengirim dapat menggunakan *Ganti-Berdasarkan-Biaya* untuk meningkatkan biaya dan memprioritaskan transaksi penggantinya di mempool.

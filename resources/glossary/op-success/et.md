@@ -1,5 +1,5 @@
 ---
-mõiste: OP_SUCCESS
+term: OP_SUCCESS
 
 ---
 `OP_SUCCESS` kujutab endast rida opkoode, mis olid minevikus välja lülitatud ja on nüüd reserveeritud edaspidiseks kasutamiseks Tapscriptis. Nende lõppeesmärk on hõlbustada skripti keele uuendusi ja laiendusi, võimaldades uute funktsioonide kasutuselevõttu soft forks'ide kaudu. Kui üks neist opkoodidest esineb skriptis, näitab see skripti selle osa automaatset õnnestumist, sõltumata olemasolevatest andmetest või tingimustest. See tähendab, et skript jätkab oma täitmist ilma tõrgeteta, sõltumata eelnevatest operatsioonidest.

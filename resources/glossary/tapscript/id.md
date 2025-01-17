@@ -1,5 +1,5 @@
 ---
-istilah: TAPSCRIPT
+term: TAPSCRIPT
 
 ---
 Pembaruan yang bertujuan untuk memodifikasi opcode tertentu dari bahasa skrip Bitcoin klasik, untuk mendefinisikan bahasa skrip baru yang digunakan untuk pengeluaran P2TR. Tapscript diperkenalkan oleh BIP342, diimplementasikan dengan garpu lunak Taproot.

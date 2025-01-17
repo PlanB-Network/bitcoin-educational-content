@@ -1,5 +1,5 @@
 ---
-begriff: OP_2DUP (0X6E)
+term: OP_2DUP (0X6E)
 
 ---
 Dupliziert die beiden obersten Elemente des Stapels und legt sie dann oben auf den Stapel. Zum Beispiel, wenn der Stapel ist:

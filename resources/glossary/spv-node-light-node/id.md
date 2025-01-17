@@ -1,5 +1,5 @@
 ---
-istilah: SIMPUL SPV (SIMPUL CAHAYA)
+term: SIMPUL SPV (SIMPUL CAHAYA)
 
 ---
 Sebuah node SPV (*Simple Payment Verification*), terkadang disebut "light node", adalah sebuah klien ringan dari sebuah node Bitcoin yang mengizinkan pengguna untuk memvalidasi transaksi tanpa harus menyimpan seluruh blockchain. Sebagai gantinya, sebuah node SPV hanya menyimpan header blok dan mendapatkan informasi mengenai transaksi tertentu dengan menanyakan seluruh node jika diperlukan. Prinsip verifikasi ini dimungkinkan oleh struktur transaksi dalam blok Bitcoin, yang diatur dalam akumulator kriptografi (Merkle Tree).

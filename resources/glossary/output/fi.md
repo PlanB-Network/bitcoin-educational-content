@@ -1,5 +1,5 @@
 ---
-termi: OUTPUT
+term: OUTPUT
 
 ---
 Bitcoinin yhteydessä transaktion tuotos tarkoittaa UTXO:ta (*Unspent Transaction Outputs*), joka luodaan maksun kohdevaroiksi. Tarkemmin sanottuna se on mekanismi, jolla transaktio jakaa varoja.

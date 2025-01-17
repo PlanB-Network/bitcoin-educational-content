@@ -1,5 +1,5 @@
 ---
-termín: BYZANTSKÁ TOLERANCE CHYB (BFT)
+term: BYZANTSKÁ TOLERANCE CHYB (BFT)
 
 ---
 Koncept používaný v distribuovaných systémech k zajištění spolehlivého a bezpečného konsensu i v přítomnosti chybných nebo škodlivých uzlů.

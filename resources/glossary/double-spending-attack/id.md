@@ -1,5 +1,5 @@
 ---
-istilah: PENGELUARAN GANDA (SERANGAN)
+term: PENGELUARAN GANDA (SERANGAN)
 
 ---
 Sebuah serangan di mana seorang pengguna jahat mencoba untuk menggunakan UTXO (*Unspent Transaction Output*) yang sama lebih dari satu kali untuk memperkaya diri mereka sendiri dengan mengorbankan pihak-pihak yang terlibat dalam transaksi. Pada prinsipnya, ketika sebuah transaksi dikonfirmasi dalam sebuah blok dan ditambahkan ke dalam blockchain, penggunaan bitcoin tersebut akan tercatat secara permanen, mencegah penggunaan lebih lanjut dari bitcoin yang sama. Mencegah pengeluaran ganda bahkan merupakan kegunaan utama dari blockchain.

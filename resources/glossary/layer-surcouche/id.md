@@ -1,5 +1,5 @@
 ---
-istilah: LAPISAN (SURCOUCHE)
+term: LAPISAN (SURCOUCHE)
 
 ---
 Sebuah "layer" (atau "surcouche" dalam bahasa Perancis) adalah sebuah protokol atau jaringan yang dibangun di atas, dengan cara menumpuk di atas jaringan Bitcoin utama. Lapisan ini menggunakan jaringan Bitcoin sebagai fondasi dan dengan demikian bergantung pada protokolnya. Akan tetapi, jaringan Bitcoin tidak bergantung pada lapisan-lapisannya. Contoh dari lapisan tersebut adalah Lightning Network.

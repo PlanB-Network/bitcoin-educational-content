@@ -1,5 +1,5 @@
 ---
-termo: OP_2SWAP (0X72)
+term: OP_2SWAP (0X72)
 
 ---
 Troca os dois elementos no topo da pilha com os dois elementos imediatamente abaixo deles. Por exemplo, se a pilha for:

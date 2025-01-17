@@ -1,5 +1,5 @@
 ---
-istilah: ANALISIS HEURISTIK
+term: ANALISIS HEURISTIK
 
 ---
 Analisis heuristik untuk rantai Bitcoin adalah sebuah keluarga metode empiris yang digunakan untuk melacak aliran bitcoin pada blockchain berdasarkan karakteristik yang diamati dalam transaksi. Heuristik adalah sebuah pendekatan praktis untuk pemecahan masalah, sering kali melalui metode perkiraan, tetapi merupakan solusi yang cukup baik untuk mencapai tujuan tertentu. Heuristik ini memberikan hasil yang cukup dapat diandalkan, tetapi tidak pernah dengan ketepatan yang mutlak. Dengan kata lain, analisis rantai selalu melibatkan tingkat kemungkinan dalam kesimpulan yang diambil. Sebagai contoh, dapat diperkirakan dengan sedikit banyak kepastian bahwa dua alamat adalah milik entitas yang sama, tetapi kepastian total selalu di luar jangkauan. Seluruh tujuan dari analisis rantai terletak pada penggabungan berbagai heuristik untuk meminimalkan risiko kesalahan. Di satu sisi, analisis ini merupakan akumulasi bukti yang memungkinkan kita untuk lebih dekat dengan kenyataan. Dalam konteks ini, heuristik internal dan eksternal dibedakan.

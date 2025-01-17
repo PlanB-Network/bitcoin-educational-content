@@ -1,5 +1,5 @@
 ---
-termín: CHECKSUM
+term: CHECKSUM
 
 ---
 Kontrolní součet je hodnota vypočtená ze souboru dat, která se používá k ověření integrity a platnosti těchto dat během jejich přenosu nebo ukládání. Algoritmy kontrolních součtů jsou určeny k odhalování náhodných chyb nebo neúmyslných změn dat, jako jsou chyby při přenosu nebo poškození souboru. Existují různé typy algoritmů kontrolních součtů, například kontroly parity, modulární kontrolní součty, kryptografické hashovací funkce nebo kódy BCH (*Bose, Ray-Chaudhuri a Hocquenghem*).

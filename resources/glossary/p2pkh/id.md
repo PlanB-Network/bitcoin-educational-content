@@ -1,5 +1,5 @@
 ---
-jangka waktu: P2PKH
+term: P2PKH
 
 ---
 P2PKH adalah singkatan dari *Bayar ke Public Key Hash*. Ini adalah model skrip standar yang digunakan untuk menetapkan kondisi pengeluaran pada UTXO. Skrip ini memungkinkan penguncian bitcoin pada hash kunci publik, yaitu pada alamat penerima. Skrip ini terkait dengan standar Legacy dan diperkenalkan pada versi awal Bitcoin oleh Satoshi Nakamoto.

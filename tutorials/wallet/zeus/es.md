@@ -258,7 +258,7 @@ Dentro de esta configuración, encontrará varias opciones para configurar su PO
 
 Aquí hay un video de demostración en vivo Cómo usar Zeus POS:
 
-![Zeus](assets/zeus-pos.mp4)
+![Zeus](https://peertube.planb.network/w/abqSAn2jGQuu3jncGH3rUj)
 
 **R - Merch y Suporte**
 
@@ -308,7 +308,8 @@ Para obtener más información, gastará de este canal, más liquidez entrante t
 
 Aquí hay una agradable demostración visual simple (de Rene Pickhardt) sobre cómo funcionan los canales LN:
 
-![Zeus](assets/zeus-ln-explained.mp4)
+![Zeus](https://peertube.planb.network/w/w7nBwgn3tBs8q9o5Mb8RCW)
+
 
 En este momento, considerando la pantalla de demostración para canales, haga clic en el nombre del canal y verá más detalles al respecto.
 

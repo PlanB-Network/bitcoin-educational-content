@@ -1,9 +1,0 @@
-question: Was ist der Zweck von Depth 3 in der HD Wallet-Struktur?
-answer: Es wird verwendet, um die Brieftasche in verschiedene Konten zu organisieren.
-wrong_answers:
-  - Es wird verwendet, um Kinderschlüssel für einen bestimmten Zweck abzuleiten.
-  - Es ermöglicht die Unterscheidung von Konten für verschiedene Kryptowährungen oder Netzwerke.
-  - Es entspricht den externen und internen Ketten.
-explanation: |
-  In der HD Wallet-Struktur wird Depth 3 verwendet, um die Brieftasche in verschiedene Konten zu organisieren und eine klarere und besser strukturierte Struktur bereitzustellen.
-reviewed: false

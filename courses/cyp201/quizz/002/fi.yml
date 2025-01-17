@@ -1,15 +1,8 @@
-question: Mitkä ovat neljä vahvuutta, jotka kryptografisen hajautusfunktion on täytettävä ollakseen tunnustettu turvalliseksi?
-answer: Palautumattomuus, väärentämisen kestävyys, törmäysten kestävyys ja toisen esikuvan kestävyys.
+question: Mikä hajautusfunktioiden ominaisuus ilmenee, kun viestissä tapahtuu pieni muutos ja hajautusarvo muuttuu täysin?
+answer: Lumivyöryefekti
 wrong_answers:
-  - Nopeus, tehokkuus, törmäysten kestävyys ja palautumattomuus.
-  - Törmäysten kestävyys, väärentämisen kestävyys, skaalautuvuus ja palautumattomuus.
-  - Palautumattomuus, törmäysten kestävyys, väärentämisen kestävyys ja nopeus.
+  - Yhteentörmäyksenesto
+  - Toisen esikuvan vastustuskyky
+  - Pituus
 explanation: |
-  Turvallisen kryptografisen hajautusfunktion on omaettava neljä keskeistä vahvuutta;
-  palautumattomuus
-  (tarkoittaen, että alkuperäistä syötettä ei voi johtaa tuloksesta), väärentämisen kestävyys (tarkoittaen, että on vaikeaa luoda erilainen syöte, joka tuottaa
-  saman tuloksen), törmäysten kestävyys (tarkoittaen, että on vaikeaa löytää kaksi erilaista
-  syötettä, jotka tuottavat saman tuloksen), ja toisen esikuvan kestävyys (tarkoittaen,
-  että on vaikeaa löytää erilainen syöte, joka tuottaa saman tuloksen kuin annettu
-  syöte).
-reviewed: false
+  Pieni muutos syötteessä johtaa radikaaliin muutokseen hajautusarvossa, tätä kutsutaan lumivyöryefektiksi.

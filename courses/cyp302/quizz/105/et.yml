@@ -1,0 +1,8 @@
+question: Kuidas saavad osapooled tagada sõnumite õige järjestuse turvalises sessioonis?
+answer: Kasutades iga sõnumi puhul järjekorranumbreid
+wrong_answers:
+  - Vahetades iga sõnumi jaoks võtmeid
+  - Lisades sõnumite vahele viivitusi
+  - Krüpteerides sõnumeid erineva algoritmiga
+explanation: |
+  Järjekorranumbrid tagavad, et sõnumid võetakse vastu õiges järjekorras ja hoiavad ära nende ümberjärjestamise.

@@ -1,0 +1,9 @@
+question: Quale metodo di cifratura a blocchi utilizza un vettore di inizializzazione e crea una cifratura probabilistica?
+answer: CBC (Cipher Block Chaining)
+wrong_answers:
+  - ECB (Electronic Code Book)
+  - AES-128
+  - SHA-256
+explanation: |
+  Il metodo CBC utilizza un vettore di inizializzazione e applica uno XOR tra ogni blocco di testo in chiaro e il precedente blocco cifrato, rendendo la cifratura probabilistica e più sicura rispetto a ECB.
+reviewed: false

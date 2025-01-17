@@ -5,5 +5,9 @@ wrong_answers:
   - Un portefeuille qui ne nécessite aucune signature pour effectuer une transaction.
   - Un portefeuille qui nécessite une signature physique pour effectuer une transaction.
 explanation: |
-  Un portefeuille multisig est un type de portefeuille Bitcoin qui nécessite plusieurs signatures pour effectuer une transaction. Cela ajoute une couche de sécurité supplémentaire, car cela signifie qu'une seule personne ne peut pas effectuer une transaction sans l'approbation des autres.
-reviewed: false
+  Un portefeuille multisig est un type de portefeuille Bitcoin qui requiert
+  plusieurs signatures pour réaliser une transaction. Cela ajoute une
+  couche supplémentaire de sécurité, car cela signifie qu'une seule personne
+  ne peut pas effectuer une transaction sans l'approbation des
+  autres.
+reviewed: true

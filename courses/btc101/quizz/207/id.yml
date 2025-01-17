@@ -1,0 +1,9 @@
+question: Apa salah satu risiko potensial dari menyimpan Bitcoin Anda di platform pertukaran?
+answer: Risiko peretasan dan pemblokiran dana.
+wrong_answers:
+  - Risiko platform meningkatkan harga Bitcoin.
+  - Risiko platform mengendalikan pasokan Bitcoin.
+  - Risiko platform mencegah Anda membeli lebih banyak Bitcoin.
+explanation: >-
+  Teks tersebut menyebutkan bahwa menyimpan Bitcoin Anda di platform pertukaran dapat
+  memaparkan Anda pada risiko peretasan dan pemblokiran dana.

@@ -1,9 +1,0 @@
-question: Proč není přesné rozložení likvidity v Lightning Network přímo přístupné?
-answer: Aby se zachovalo soukromí a bezpečnost uživatelů.
-wrong_answers:
-  - Aby se snížila velikost blockchainu.
-  - Aby se zvýšila rychlost transakcí.
-  - Aby se snížila složitost sítě.
-explanation: |
-  Přesné rozložení likvidity v Lightning Network není přímo přístupné, aby se zachovalo soukromí a bezpečnost uživatelů. Zatímco celková kapacita kanálů je veřejná, přesná poloha likvidity není zveřejněna. To brání potenciálním útočníkům v cílení na konkrétní kanály nebo uzly s vysokou likviditou.
-reviewed: false

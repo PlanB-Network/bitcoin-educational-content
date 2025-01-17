@@ -1,0 +1,8 @@
+question: Jaká byla hlavní inspirace Satoshiho Nakamota při počátečním návrhu Bitcoinu?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  Přes jejich velké podobnosti, modely b-money, bit gold a RPOW nebyly hlavní inspirací Satoshiho, protože o nich před srpnem 2008 vůbec nevěděl.

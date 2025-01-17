@@ -1,0 +1,11 @@
+question: Apa yang harus Anda lakukan setelah kata-kata dari frasa mnemonik Anda tertulis?
+answer: Buat salinan kedua dan simpan di lokasi terpisah
+wrong_answers:
+  - Bagikan dengan teman yang dipercaya
+  - Email ke diri sendiri
+  - Simpan di ponsel Anda
+explanation: |
+  Setelah kata-kata dari frasa mnemonik Anda tertulis, disarankan
+  untuk membuat salinan kedua dan menyimpannya di lokasi yang terpisah dari yang pertama. Ini memberikan
+  cadangan untuk mengantisipasi kehilangan atau kecelakaan dengan salinan pertama.
+reviewed: true

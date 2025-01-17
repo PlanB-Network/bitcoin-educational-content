@@ -1,0 +1,9 @@
+question: Kes on isik, kes reageeris positiivselt valge raamatu avaldamisele novembris 2008?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  7. novembril kirjutas ta nimekirja, et Bitcoin [tundus] olevat väga paljulubav idee. Teised olid skeptilisemad. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: false

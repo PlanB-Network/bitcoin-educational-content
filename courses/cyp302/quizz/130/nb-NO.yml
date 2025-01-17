@@ -1,0 +1,9 @@
+question: Hvilken rolle spiller sertifikatmyndigheter i distribusjonsprosessen for offentlige nøkler?
+answer: De utsteder sertifikater som garanterer ektheten av offentlige nøkler
+wrong_answers:
+  - De genererer private nøkler for brukere
+  - De lagrer offentlige nøkler for alle brukere
+  - De sikrer kryptering av meldinger mellom brukere
+explanation: |
+  Sertifikatmyndigheter utsteder sertifikater som knytter en offentlig nøkkel til dens eier, noe som lar brukere verifisere ektheten av de offentlige nøklene de bruker.
+reviewed: false

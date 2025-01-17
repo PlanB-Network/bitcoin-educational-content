@@ -1,9 +1,0 @@
-question: Qual é o papel do hash da pré-imagem no processo de roteamento da Lightning Network?
-answer: Ele é usado pelo destinatário para recuperar a quantia da transação bloqueada no HTLC.
-wrong_answers:
-  - É usado para criptografar os dados da transação.
-  - É usado para calcular as taxas da transação.
-  - É usado para verificar o endereço do destinatário.
-explanation: |
-  Na Lightning Network, o hash da pré-imagem é usado pelo destinatário para recuperar a quantia da transação bloqueada no HTLC. O remetente fornece o hash da pré-imagem ao destinatário, que pode então usá-lo para desbloquear os fundos.
-reviewed: false

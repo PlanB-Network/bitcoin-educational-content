@@ -1,9 +1,0 @@
-question: Que se passe-t-il avec la liquidité d'un canal lorsqu'une transaction est effectuée dans le Lightning Network?
-answer: La liquidité est redistribuée le long du chemin entre les deux parties.
-wrong_answers:
-  - La liquidité reste la même.
-  - La liquidité est transférée vers un autre canal.
-  - La liquidité est augmentée.
-explanation: |
-  Dans le Lightning Network, lorsque une transaction est effectuée, la liquidité est redistribuée le long du chemin entre les deux parties.
-reviewed: false

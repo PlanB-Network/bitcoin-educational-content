@@ -1,0 +1,8 @@
+question: Hva er en god praksis for å sikre en passfrase?
+answer: Lagre den på et separat fysisk medium fra den mnemoniske frasen
+wrong_answers:
+  - Memoriser den kun ved hjelp av hukommelsen uten å notere den ned
+  - Lagre den på samme fysiske medium som den mnemoniske frasen
+  - Ta den opp på et digitalt medium som Google Drive
+explanation: |
+  Passfrasen må lagres fysisk og separat fra den mnemoniske frasen for å forhindre samtidig tyveri av begge.

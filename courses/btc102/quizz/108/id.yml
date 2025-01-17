@@ -1,0 +1,9 @@
+question: Apa yang harus Anda lakukan setelah menyimpan amplop sesuai dengan bab tersebut?
+answer: Pastikan ahli waris Anda tahu bahwa mereka perlu mengambil amplop ini jika diperlukan.
+wrong_answers:
+  - Pastikan ahli waris Anda tidak tahu bahwa mereka perlu mengambil amplop ini jika diperlukan.
+  - Pastikan ahli waris Anda tahu bahwa mereka tidak perlu mengambil amplop ini jika diperlukan.
+  - Pastikan ahli waris Anda tidak tahu bahwa mereka tidak perlu mengambil amplop ini jika diperlukan.
+explanation: |
+  Setelah menyimpan amplop, Anda harus memastikan ahli waris Anda tahu bahwa mereka perlu mengambil amplop ini jika diperlukan, seperti yang disarankan dalam bab tersebut.
+reviewed: false

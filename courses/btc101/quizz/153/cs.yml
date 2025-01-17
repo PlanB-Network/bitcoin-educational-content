@@ -1,5 +1,5 @@
 question: Jaký je účel úpravy obtížnosti při těžbě Bitcoinu?
-answer: Vyvažuje celosvětovou hru těžby na základě počtu účastníků.
+answer: Vyvažuje globální hru těžby na základě počtu účastníků.
 wrong_answers:
   - Zvyšuje odměnu za těžbu.
   - Sníží počet bitcoinů v oběhu.
@@ -10,4 +10,4 @@ explanation: >-
   celkový výpočetní výkon sítě. Upravuje obtížnost matematického
   problému, který musí těžaři vyřešit, na základě počtu těžařů účastnících se v
   síti.
-kontrolováno: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: Hvilket problem oppstår hvis Jim's Sporting Goods bruker det samme nøkkelparet for alle kunder?
+answer: Enhver kunde kunne få tilgang til andres kommunikasjon
+wrong_answers:
+  - Nøkkelen ville bli for stor
+  - Kommunikasjonen ville bli tregere
+  - Kunder måtte bytte nøkler ved hvert kjøp
+explanation: |
+  Ved å bruke den samme nøkkelen for alle, ville Jim's Sporting Goods kompromittere konfidensialitet og integritet, ettersom hver kunde potensielt kunne få tilgang til andre kunders data.

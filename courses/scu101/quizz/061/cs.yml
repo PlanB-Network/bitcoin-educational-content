@@ -5,7 +5,6 @@ wrong_answers:
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
 explanation: |
-  Kapitola uvádí Python, C a Java jako některé z programovacích jazyků
-
-
-  používaných v kybernetické bezpečnosti.
+  Kapitola uvádí Python, C a Java jako některé z
+  programovacích jazyků používaných v kybernetické bezpečnosti.
+reviewed: true

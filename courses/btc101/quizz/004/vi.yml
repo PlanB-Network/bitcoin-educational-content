@@ -1,10 +1,11 @@
-question: Hai khía cạnh chính của Bitcoin là gì?
-answer: Bitcoin vừa là một giao thức máy tính và một đơn vị tiền tệ.
+question: Hai đặc điểm chính của Bitcoin là gì?
+answer: Bitcoin vừa là một giao thức máy tính vừa là một đơn vị tiền tệ.
 wrong_answers:
-  - Bitcoin vừa là một loại tiền tệ vật lý và một ví điện tử.
-  - Bitcoin vừa là một loại cổ phiếu và một loại trái phiếu.
-  - Bitcoin vừa là một loại tiền tệ tập trung và phi tập trung.
+  - Bitcoin vừa là một loại tiền tệ vật lý vừa là một ví điện tử.
+  - Bitcoin vừa là một loại cổ phiếu vừa là một loại trái phiếu.
+  - Bitcoin vừa là một loại tiền tệ tập trung vừa là một loại tiền tệ phi tập trung.
 explanation: |
-  Bitcoin có hai khía cạnh chính, đó là một giao thức máy tính sử dụng các công nghệ
-  như mã hóa và blockchain, và đó là một đơn vị tiền tệ được sử dụng cho các giao dịch.
-reviewed: false
+  Bitcoin vừa là một giao thức máy tính sử dụng các công nghệ
+  như mã hóa và blockchain, đồng thời cũng là một đơn vị tiền tệ
+  được sử dụng cho các giao dịch.
+reviewed: true

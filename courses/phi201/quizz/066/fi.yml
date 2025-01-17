@@ -1,0 +1,9 @@
+question: Mikä on Voltairin pääväite kaupankäynnin ja uskonnollisen suvaitsevaisuuden välisestä yhteydestä?
+answer: Kaupankäynti kannustaa ihmisiä yhteistyöhön ja toistensa mielipiteiden, mukaan lukien uskonnolliset vakaumukset, kunnioittamiseen yhteisen voiton tavoittelun kautta.
+wrong_answers:
+  - Kaupankäynti yhdistää ihmisiä jaetun maailmankuvan kautta, joka perustuu tieteelliseen menetelmään.
+  - Kaupankäynti edistää ylellisyyttä ja laiskuutta.
+  - Kaikki muut vastaukset ovat oikein.
+explanation: |
+  Voltaire väittää, että kaupankäynti edistää uskonnollista suvaitsevaisuutta kannustamalla eri uskomuksia omaavia yksilöitä yhteistyöhön ja keskinäiseen mielipiteiden kunnioittamiseen jaetun taloudellisen edun tavoittelussa.
+reviewed: false

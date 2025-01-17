@@ -1,9 +1,11 @@
-question: Quel est l'avantage des mots de passe à usage unique (HOTP et TOTP) par rapport aux SMS pour l'authentification à deux facteurs (2FA) ?
-answer: Ils nécessitent un calcul cryptographique et sont stockés localement plutôt que dans la mémoire.
+question: Quel est l'avantage des mots de passe à usage unique (HOTP et TOTP) par rapport aux SMS pour la 2FA ?
+answer: Ils nécessitent un calcul cryptographique et sont stockés localement plutôt qu'en mémoire.
 wrong_answers:
-  - Ils sont plus rapides
-  - Ils sont moins chers
-  - Ils sont plus faciles à retenir
+  - Ils nécessitent un calcul cryptographique et sont stockés en mémoire plutôt que localement.
+  - Ils ne nécessitent pas de calcul cryptographique et sont stockés à la fois localement et en mémoire.
+  - Ils sont plus faciles à retenir et plus rapides à taper.
 explanation: |
-  Les mots de passe à usage unique (HOTP et TOTP) sont plus sûrs que les SMS car ils nécessitent un calcul cryptographique et sont stockés localement plutôt que dans la mémoire.
-reviewed: false
+  Les mots de passe à usage unique (HOTP et TOTP) sont plus sûrs que les SMS
+  car ils nécessitent un calcul cryptographique et sont
+  stockés localement plutôt qu'en mémoire.
+reviewed: true

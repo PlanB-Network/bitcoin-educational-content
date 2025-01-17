@@ -1,9 +1,11 @@
 question: Was symbolisiert Bitcoin über seine Technologie hinaus?
-answer: Eine Revolution gegen traditionelle Finanzsysteme und eine Alternative, die auf Transparenz, Dezentralisierung und individueller Souveränität basiert.
+answer: Eine Revolution gegen traditionelle Finanzsysteme und eine Alternative basierend auf Transparenz, Dezentralisierung und individueller Souveränität.
 wrong_answers:
-  - Eine neue Form digitaler Währung, die effizienter ist als traditionelle Währungen.
-  - Eine Möglichkeit für Einzelpersonen, durch Mining Geld zu verdienen.
+  - Eine neue Form von digitaler Währung, die effizienter ist als traditionelle Währungen, weil sie schneller ist.
+  - Eine Möglichkeit für Einzelpersonen, Geld durch Mining zu verdienen.
   - Ein Werkzeug für Kriminelle, um illegale Transaktionen durchzuführen.
 explanation: |
-  Über seine Technologie hinaus symbolisiert Bitcoin eine Revolution gegen traditionelle Finanzsysteme, da das Protokoll ein neues Geldsystem ohne zentrale Instanz durchsetzt.
-reviewed: false
+  Über seine Technologie hinaus symbolisiert Bitcoin eine Revolution
+  gegen traditionelle Finanzsysteme: Das Protokoll
+  erzwingt ein neues Geldsystem ohne zentrale Entität.
+reviewed: true

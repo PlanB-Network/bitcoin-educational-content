@@ -1,11 +1,11 @@
-question: ¿Cuál es el papel de los mineros en la red de Bitcoin?
-answer: Validan las transacciones al incluirlas en un bloque.
+question: Al crear un plan de herencia, ¿qué no es necesario incluir?
+answer: El nombre de la cartera de Bitcoin que sueles usar.
 wrong_answers:
-  - Crean nuevos Bitcoins.
-  - Administran la red de Bitcoin.
-  - Regulan el precio de Bitcoin.
+  - Una carta escrita a mano que enumera tus activos.
+  - Una descripción de cómo acceder a tus fondos.
+  - La información de contacto de personas de confianza.
 explanation: |
-  Los mineros en la red de Bitcoin tienen el papel de validar las transacciones
-  al incluirlas en un bloque. Hacen esto resolviendo un rompecabezas criptográfico en
-  un proceso llamado "prueba de trabajo".
-reviewed: false
+  Crear un plan de herencia es un paso crucial para asegurar que tus bitcoins sean gestionados adecuadamente después de tu muerte.
+  Este plan puede incluir una carta escrita a mano que enumera tus activos,
+  sus métodos de acceso, y la información de contacto de personas de confianza a las que se debe contactar.
+reviewed: true

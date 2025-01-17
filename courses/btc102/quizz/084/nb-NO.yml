@@ -1,0 +1,10 @@
+question: Hva er hovedformålet med en kald lommebok for en hyppig Bitcoin-bruker?
+answer: Å sikkert lagre bitcoins på lang sikt.
+wrong_answers:
+  - Å regelmessig sende og motta bitcoins for daglig bruk.
+  - Å handle bitcoins på en handelsplattform.
+  - Å utvinne nye bitcoins.
+explanation: |
+  En kald lommebok er en type Bitcoin-lommebok som ikke er koblet til
+  internett, noe som gjør den mindre sårbar for hacking og tyveri. Den brukes typisk til
+  å lagre bitcoins som ikke er nødvendige for daglige transaksjoner.

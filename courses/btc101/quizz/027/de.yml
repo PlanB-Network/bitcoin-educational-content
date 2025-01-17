@@ -1,9 +1,12 @@
-question: Warum wird Bitcoin heute nicht weitgehend im Handel akzeptiert?
-answer: Weil es von Einzelpersonen nicht weit verbreitet angenommen wird.
+question: Warum wird Bitcoin heute nicht weit verbreitet im Handel akzeptiert?
+answer: Weil es nicht weitgehend von Einzelpersonen angenommen wird.
 wrong_answers:
-  - Weil es nicht transportabel ist
-  - Weil es nicht teilbar ist
-  - Weil es nicht liquide ist
+  - Weil es nicht transportierbar ist.
+  - Weil es nicht in kleine Einheiten teilbar ist.
+  - Weil es nicht liquide ist.
 explanation: |
-  Trotz seiner Eigenschaften, wie seiner streng begrenzten Versorgung, wird Bitcoin heute immer noch nicht weitgehend im Handel akzeptiert. Dies liegt an mangelnder Akzeptanz durch Einzelpersonen, was zu einer Situation führt, in der sich der Schwanz selbst beißt, da Händler auch Einzelpersonen sind.
-reviewed: false
+  Trotz seiner Eigenschaften, wie der streng limitierten
+  Verfügbarkeit, wird Bitcoin heute noch nicht weit verbreitet im Handel
+  akzeptiert, aufgrund der mangelnden Annahme durch Einzelpersonen, sodass
+  Händler nicht dazu ermutigt werden, es zu akzeptieren.
+reviewed: true

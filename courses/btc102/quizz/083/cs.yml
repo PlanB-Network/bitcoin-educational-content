@@ -5,5 +5,5 @@ wrong_answers:
   - Umožňuje anonymní transakce.
   - Poskytuje platformu pro obchodování s Bitcoinem.
 explanation: |
-  Lightning Network je protokol pro "vrstvu 2" plateb, který funguje na vrcholu blockchainové kryptoměny, jako je Bitcoin. Je navržen tak, aby umožňoval rychlé transakce s nízkými náklady.
+  Lightning Network je protokol pro vrstvu 2 plateb, který funguje na vrcholu blockchainové kryptoměny, jako je Bitcoin. Je navržen tak, aby umožňoval rychlé transakce s nízkými náklady.
 reviewed: false

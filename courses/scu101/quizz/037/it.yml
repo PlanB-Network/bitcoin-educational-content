@@ -1,9 +1,19 @@
 question: Perché potrebbe essere consigliabile creare un indirizzo email specifico per le attività legate a Bitcoin?
-answer: Per separare realmente le aree di attività nella tua vita.
+answer: Per separare veramente le aree di attività nella tua vita.
 wrong_answers:
   - Per mostrare il tuo supporto per Bitcoin.
-  - Per ricevere notizie e aggiornamenti relativi a Bitcoin.
-  - Per aumentare le tue possibilità di vincere regali di Bitcoin.
+  - Per ricevere notizie e aggiornamenti legati a Bitcoin.
+  - Per aumentare le tue possibilità di vincere premi in Bitcoin.
 explanation: |
-  Creare un indirizzo email specifico per le attività legate a Bitcoin ti permette di separare questa area di attività dalle altre nella tua vita, il che può migliorare la sicurezza e l'organizzazione.
-reviewed: false
+  Creare un indirizzo email specifico per le attività legate a Bitcoin
+  ti permette di separare quest'area di attività dalle altre nella
+  tua vita, il che può migliorare la sicurezza e l'organizzazione.
+  separare quest'area di attività dalle altre nella tua vita, il che può
+  migliorare la sicurezza e l'organizzazione.' separare quest'area
+  di attività dalle altre nella tua vita, il che può
+  migliorare la sicurezza e l'organizzazione.'
+
+  separare quest'area di attività dalle altre nella tua vita, il che può migliorare la sicurezza
+
+  e l'organizzazione.'
+reviewed: true

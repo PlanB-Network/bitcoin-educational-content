@@ -1,0 +1,8 @@
+question: Mengapa enkripsi terotentikasi tahan terhadap serangan ciphertext yang dipilih?
+answer: Karena setiap modifikasi ciphertext oleh penyerang membuat tag menjadi tidak valid
+wrong_answers:
+  - Karena menggunakan satu algoritma enkripsi
+  - Karena setiap modifikasi ciphertext oleh penyerang membuat kunci menjadi tidak valid
+  - Karena hanya mengenkripsi pesan tanpa tag
+explanation: |
+  Skema enkripsi terotentikasi dirancang untuk mendeteksi modifikasi dari ciphertext, yang membuat tag menjadi tidak valid jika ada upaya perusakan dan memastikan ketahanan terhadap serangan ciphertext yang dipilih.

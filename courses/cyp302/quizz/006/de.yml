@@ -1,0 +1,9 @@
+question: Welches Konzept ist nicht ausschließlich mit symmetrischen oder asymmetrischen Kryptographieverfahren verbunden?
+answer: Hash-Funktionen
+wrong_answers:
+  - Öffentliche und private Schlüsselpaare
+  - Asymmetrische Kryptographie
+  - Symmetrische Kryptographie
+explanation: |
+  Hash-Funktionen sind ein Schlüsselelement der modernen Kryptographie, aber sie sind nicht spezifisch mit entweder symmetrischen oder asymmetrischen Verfahren verbunden, im Gegensatz zu öffentlichen und privaten Schlüsseln.
+reviewed: false

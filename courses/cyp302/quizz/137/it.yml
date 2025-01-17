@@ -1,0 +1,9 @@
+question: Perché le password vengono spesso memorizzate come hash sui server sicuri?
+answer: Per impedire che le password possano essere facilmente recuperate in caso di perdita
+wrong_answers:
+  - Per aumentare la dimensione dello spazio di archiviazione dei dati degli utenti
+  - Per criptare le password in tempo reale in modo simmetrico
+  - Per consentire agli utenti di accedere senza una password
+explanation: |
+  Memorizzando gli hash delle password, anche in caso di violazione dei dati, le password effettive non possono essere lette direttamente, aumentando così la sicurezza.
+reviewed: false

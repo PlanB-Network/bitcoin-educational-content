@@ -111,4 +111,4 @@ Puoi anche gestire i permessi di accesso che concedi ai diversi siti web.
 
 Per la sicurezza complessiva del tuo browser, le modalità "*Safer*" e "*Safest*" ti permettono di regolare le funzionalità web e gli script eseguiti dai siti che visiti. Questo minimizza i rischi di sfruttamento delle vulnerabilità, ma influirà anche sulla visualizzazione e sull'interattività dei siti in cambio. Troverai altre opzioni di sicurezza, inclusi un bloccatore di contenuti pericolosi e la modalità solo HTTPS, che garantisce che le connessioni con i siti rispettino costantemente questo protocollo. Infine, nella scheda "*Connection*", troverai tutte le impostazioni relative alla connessione alla rete Tor. Qui puoi configurare un bridge per accedere a Tor da regioni dove il suo accesso potrebbe essere censurato. Ed ecco fatto, ora sei pronto per navigare su Internet in modo più sicuro e privato! Se la privacy online è un argomento che ti interessa, ti consiglio anche di scoprire questo altro tutorial su Mullvad VPN:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

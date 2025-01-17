@@ -1,9 +1,11 @@
-question: Vai trò của đơn vị bitcoin trong đời sống hàng ngày là gì?
+question: Vai trò của đơn vị bitcoin trong cuộc sống hàng ngày là gì?
 answer: Nó được sử dụng để mua và bán hàng hóa và dịch vụ.
 wrong_answers:
   - Nó được sử dụng để khai thác bitcoin mới.
   - Nó được sử dụng để điều chỉnh giá của Bitcoin.
   - Nó được sử dụng để kiểm soát giao thức Bitcoin.
 explanation: |
-  Trong đời sống hàng ngày, mọi người sử dụng đơn vị Bitcoin để mua và bán hàng hóa và dịch vụ. Nó phụ thuộc vào giao thức Bitcoin để hoạt động.
-reviewed: false
+  Trong cuộc sống hàng ngày, mọi người sử dụng đơn vị Bitcoin để mua và
+  bán hàng hóa và dịch vụ. Để có thể sử dụng, đơn vị
+  phụ thuộc vào giao thức Bitcoin.
+reviewed: true

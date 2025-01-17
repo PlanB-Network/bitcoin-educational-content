@@ -1,11 +1,11 @@
-question: Qual é o papel dos mineradores na rede Bitcoin?
-answer: Eles validam transações ao incluí-las em um bloco.
+question: Ao criar um plano de herança, o que não é necessário incluir?
+answer: O nome da carteira Bitcoin que você costuma usar.
 wrong_answers:
-  - Eles criam novos Bitcoins.
-  - Eles gerenciam a rede Bitcoin.
-  - Eles regulam o preço do Bitcoin.
+  - Uma carta escrita à mão listando seus ativos.
+  - Uma descrição de como acessar seus fundos.
+  - As informações de contato de pessoas de confiança.
 explanation: |
-  Os mineradores na rede Bitcoin têm o papel de validar transações
-  ao incluí-las em um bloco. Eles fazem isso resolvendo um quebra-cabeça criptográfico em
-  um processo chamado "prova de trabalho".
-reviewed: false
+  criar um plano de herança é um passo crucial para garantir que seus bitcoins serão devidamente gerenciados após a sua morte.
+  Este plano pode incluir uma carta escrita à mão listando seus ativos,
+  seus métodos de acesso e as informações de contato de pessoas de confiança para serem contatadas.
+reviewed: true

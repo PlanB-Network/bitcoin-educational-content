@@ -1,11 +1,11 @@
 question: Jaká je frekvence úpravy obtížnosti?
-answer: Každých 2016 bloků
+answer: Každých 2016 bloků.
 wrong_answers:
-  - Každých 1048 bloků
-  - Každých 512 bloků
-  - Každých 4032 bloků
+  - Každých 1048 bloků.
+  - Každých 512 bloků.
+  - Každých 4032 bloků.
 explanation: |
-  Úprava obtížnosti je mechanismus, který se odehrává každých
-  2016 bloků, nebo přibližně každé dva týdny, aby zajistil, že průměrně každých deset minut
-  bude k blockchainu přidán nový blok bez ohledu na celosvětový hashrate
-reviewed: false
+  Úprava obtížnosti je mechanismus, který se odehrává
+  každých 2016 bloků, nebo přibližně každé dva týdny, aby se zajistilo, že
+  nový blok je přidán do blockchainu průměrně každých deset minut, bez ohledu na celosvětovou hash sazbu.
+reviewed: true

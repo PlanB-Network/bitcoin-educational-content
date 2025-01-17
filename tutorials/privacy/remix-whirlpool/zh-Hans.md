@@ -48,7 +48,7 @@ coinjoin的目的是通过将你的硬币与一组无法区分的硬币混合，
 - 如果一个分析师在周期开始时知道我的硬币并尝试确定其在结束时的对应关系，他们将面临`45,202`个可能的UTXOs，每个都有同样的可能性是我的。
 这就是为什么我认为在`Hodl -> Mix -> Spend -> Replace`策略中使用Whirlpool特别相关。在我看来，最合逻辑的方法是将大部分储蓄以比特币形式保存在冷钱包中，同时不断地在Samourai上保持一定数量的硬币进行coinjoin以支付日常开销。一旦来自coinjoins的比特币被花费，它们就会被新的比特币替换，以返回到定义的混合硬币阈值。这种方法使我们能够摆脱对我们UTXOs匿名集的担忧，同时使coinjoins变得有效所需的时间变得不那么限制性。
 
-我希望这个回答能对Whirlpool模型有所启发。如果你想了解更多关于比特币上coinjoins是如何工作的，我推荐阅读[我关于这个话题的全面文章](https://planb.network/tutorials/privacy/coinjoin-dojo)。
+我希望这个回答能对Whirlpool模型有所启发。如果你想了解更多关于比特币上coinjoins是如何工作的，我推荐阅读[我关于这个话题的全面文章](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2)。
 
 **外部资源：**
 - Samourai Wallet Whirlpool

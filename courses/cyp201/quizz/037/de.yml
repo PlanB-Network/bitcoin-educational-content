@@ -1,9 +1,9 @@
-question: Welchen Algorithmus verwendet Bitcoin, um private und öffentliche Schlüssel zu verknüpfen?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
+question: Was ist die Hauptbeschränkung von JBOK-Wallets?
+answer: Sie erfordern ein unabhängiges Backup für jeden privaten Schlüssel
 wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
+  - Sie erlauben nicht die Erzeugung neuer Adressen
+  - Sie sind nicht kompatibel mit digitalen Signaturen
+  - Sie verwenden unkomprimierte öffentliche Schlüssel
 explanation: |
-  Bitcoin verwendet den Elliptic Curve Digital Signature Algorithm (ECDSA), um private und öffentliche Schlüssel zu verknüpfen.
+  JBOK-Wallets zwingen den Benutzer dazu, jeden privaten Schlüssel einzeln zu sichern, was deren Verwaltung kompliziert.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Apa peran dari array K dalam enkripsi RC4?
+answer: Ini menginisialisasi dan mentransformasi array S untuk menghasilkan keystream
+wrong_answers:
+  - Ini langsung mengenkripsi teks asli
+  - Ini menyimpan teks yang telah dienkripsi
+  - Ini hanya berfungsi sebagai penyimpanan sementara untuk data sampai akhir proses
+explanation: |
+  Array K digunakan untuk mentransformasi array S dalam proses penjadwalan kunci, yang memungkinkan untuk generasi keystream pseudorandom untuk mengenkripsi teks asli.

@@ -1,8 +1,0 @@
-question: フランスにおけるAMFの役割は何ですか？
-answer: 金融市場を規制します。
-wrong_answers:
-  - 教育システムを規制します。
-  - 医療システムを規制します。
-  - 交通システムを規制します。
-explanation: |
-  "AMF（Autorité des marchés financiers、金融市場監督機構）は、フランスの市場規制機関です。"

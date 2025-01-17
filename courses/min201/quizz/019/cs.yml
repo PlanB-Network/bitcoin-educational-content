@@ -5,7 +5,8 @@ wrong_answers:
   - Lightning Network snižuje energetickou náročnost těžby Bitcoinu.
   - Lightning Network zvyšuje rychlost těžby Bitcoinu.
 explanation: |
-  Lightning Network umožňuje rychlé a nízkonákladové transakce mimo
-  hlavní řetězec Bitcoinu. To má potenciál výrazně snížit transakční
-  poplatky, což by mohlo ovlivnit příjmy těžařů.
-reviewed: false
+  Lightning Network umožňuje rychlé a nízkonákladové
+  transakce mimo hlavní řetězec Bitcoinu. To má
+  potenciál výrazně snížit transakční poplatky,
+  což by mohlo ovlivnit příjmy těžařů.
+reviewed: true

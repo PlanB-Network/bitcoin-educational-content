@@ -1,9 +1,9 @@
 question: Lợi ích chính của việc khai thác bitcoin mới là gì?
-answer: Chúng chưa bao giờ được tiêu và không có lịch sử gắn liền.
+answer: Chúng chưa bao giờ được chi tiêu và không có lịch sử gắn liền.
 wrong_answers:
   - Chúng có thể được bán với giá cao hơn.
   - Chúng có thể được sử dụng cho các hoạt động bất hợp pháp.
   - Chúng có thể được lưu trữ trong thời gian dài mà không mất giá trị.
 explanation: |
-  Lợi ích chính của việc khai thác bitcoin mới là chúng chưa bao giờ được tiêu và không có lịch sử gắn liền. Những bitcoin này thường được coi là có giá trị hơn vì chúng chưa bao giờ bị "ô nhiễm", cung cấp một số bảo đảm chống lại việc từ chối bởi các cơ quan quản lý hoặc các nền tảng giao dịch lớn.
-reviewed: false
+  Lợi ích chính của việc khai thác bitcoin mới là chúng chưa bao giờ được chi tiêu và không có lịch sử gắn liền. Những bitcoin này thường được coi là có giá trị hơn vì chúng chưa bao giờ bị ô nhiễm, cung cấp một số bảo đảm chống lại việc từ chối bởi các cơ quan quản lý hoặc các nền tảng giao dịch lớn.
+reviewed: true

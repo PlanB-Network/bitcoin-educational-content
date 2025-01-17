@@ -5,5 +5,5 @@ wrong_answers:
   - Consente transazioni anonime.
   - Fornisce una piattaforma per il trading di Bitcoin.
 explanation: |
-  La rete Lightning è un protocollo di pagamento di "livello 2" che opera su una criptovaluta basata su blockchain come Bitcoin. È progettata per consentire transazioni veloci e a basso costo.
+  La rete Lightning è un protocollo di pagamento di livello 2 che opera su una criptovaluta basata su blockchain come Bitcoin. È progettata per consentire transazioni veloci e a basso costo.
 reviewed: false

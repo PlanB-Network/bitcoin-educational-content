@@ -1,9 +1,9 @@
-question: ¿Cuál es el propósito de la transacción de retiro en el proceso de apertura de un canal en la Lightning Network?
-answer: Permite a Alice recuperar sus fondos si algo sale mal.
+question: ¿Cuál es el último paso para abrir un canal en la Red Lightning?
+answer: Publicar la transacción de depósito en la blockchain de Bitcoin
 wrong_answers:
-  - Permite a Bob reclamar su parte de los fondos.
-  - Se utiliza para finalizar el proceso de apertura del canal.
-  - Se utiliza para transferir fondos de Alice a Bob.
+  - Firmar una transacción de retiro para recuperar los fondos
+  - Enviar un mensaje de confirmación de la apertura a la otra parte
+  - Verificar el saldo de fondos de cada participante
 explanation: |
-  La transacción de retiro es creada por Alice antes de publicar el depósito de fondos en el multi-sig. Esta transacción permite a Alice gastar los fondos de la dirección multi-sig a una dirección propia. Esto se hace para asegurarse de que pueda recuperar sus fondos si algo sale mal.
+  El último paso para abrir un canal es publicar la transacción de depósito en la blockchain, lo que oficialmente abre el canal.
 reviewed: false

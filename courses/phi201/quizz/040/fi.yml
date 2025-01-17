@@ -1,0 +1,9 @@
+question: Miten synnin käsite on yhteydessä vapauden ajatukseen kristillisessä ajattelussa?
+answer: Synti on suora seuraus ihmisen vapaudesta, koska ihmisillä on vapaus valita hyvän ja pahan välillä.
+wrong_answers:
+  - Synti on perinnöllinen vika, jonka Aadam ja Eeva siirsivät kaikille jälkeläisilleen, rajoittaen heidän vapauttaan.
+  - Synti on illuusio, jonka paholainen on luonut pettääkseen ihmisiä ja riistääkseen heiltä heidän vapautensa.
+  - Synti on välttämätön koettelemus ihmisille osoittaa heidän rakkautensa Jumalaa kohtaan ja ansaitakseen pelastuksen.
+explanation: |
+  Kristillisessä ajattelussa synti johtuu vapaan tahdon käytöstä. Ihmiset, jotka on varustettu vapaalla tahdolla, voivat valita hyvän ja pahan välillä, ja juuri tämä vapaa valinta tekee synnin teosta mahdollisen.
+reviewed: false

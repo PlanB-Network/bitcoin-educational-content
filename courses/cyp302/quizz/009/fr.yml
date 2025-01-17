@@ -1,0 +1,9 @@
+question: Quelle étape n'est pas incluse dans la preuve de sécurité d'un schéma cryptographique moderne ?
+answer: La mise en place d'une interface utilisateur
+wrong_answers:
+  - L'énoncé de définitions de sécurité
+  - Les hypothèses mathématiques de complexité
+  - La démonstration mathématique de la sécurité
+explanation: |
+  La preuve de sécurité en cryptographie moderne se concentre sur les objectifs et les hypothèses mathématiques, excluant des aspects comme l'interface utilisateur, qui n'est pas pertinent pour la sécurité cryptographique.
+reviewed: false

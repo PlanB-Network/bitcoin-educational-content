@@ -58,5 +58,5 @@ Trên Git và GitHub, bạn sẽ gặp các lệnh và tính năng mà tên có 
 
 Danh sách này rõ ràng không phải là toàn diện. Có nhiều thuật ngữ kỹ thuật khác đặc thù cho Git và GitHub. Tuy nhiên, những thuật ngữ được đề cập ở đây là những thuật ngữ chính mà bạn sẽ thường xuyên gặp.
 Sau khi đọc bài viết này, có thể một số khía cạnh của Git và GitHub vẫn còn mơ hồ đối với bạn. Tôi khuyến khích bạn bắt đầu sử dụng chính những công cụ này. Thực hành thường là cách tốt nhất để hiểu cách máy móc hoạt động! Và để bắt đầu, bạn có thể khám phá 2 hướng dẫn khác sau đây:
-**[Tạo tài khoản GitHub của bạn](https://planb.network/tutorials/others/create-github-account)**
-**[Thiết lập Môi trường Cục bộ của Bạn để Đóng góp vào Mạng PlanB](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Tạo tài khoản GitHub của bạn](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Thiết lập Môi trường Cục bộ của Bạn để Đóng góp vào Mạng PlanB](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**

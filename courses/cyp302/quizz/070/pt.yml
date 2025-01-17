@@ -1,0 +1,9 @@
+question: Que tipo de criptografia é a criptografia de deslocamento?
+answer: Uma cifra de substituição monoalfabética
+wrong_answers:
+  - Uma cifra de permutação de palavras
+  - Uma cifra de substituição polialfabética
+  - Uma cifra assimétrica
+explanation: |
+  A criptografia de deslocamento é um exemplo de uma cifra de substituição monoalfabética, onde cada letra na mensagem é deslocada por um número fixo de posições no alfabeto.
+reviewed: false

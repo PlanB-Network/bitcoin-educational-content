@@ -1,9 +1,9 @@
-question: Qu'est-ce que la multiplication scalaire d'un point par n sur une courbe elliptique ?
-answer: Cela équivaut à ajouter ce point à lui-même n fois.
+question: Que permet le sighash flag SIGHASH_NONE ?
+answer: Modifier les outputs après la signature
 wrong_answers:
-  - Cela équivaut à soustraire ce point à lui-même n fois.
-  - Cela équivaut à multiplier ce point par lui-même n fois.
-  - Cela équivaut à diviser ce point par lui-même n fois.
+  - Modifier les inputs après la signature
+  - Couvrir tous les inputs et outputs
+  - Restreindre les modifications uniquement à un output
 explanation: |
-  La multiplication scalaire d'un point par n sur une courbe elliptique équivaut à ajouter ce point à lui-même n fois. Cette opération est la base du calcul des clés publiques dans le système Bitcoin.
+  SIGHASH_NONE couvre uniquement les inputs, laissant les outputs modifiables après la signature.
 reviewed: false

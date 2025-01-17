@@ -1,8 +1,11 @@
-question: Vai trò của điểm sinh trong đường cong elliptic là gì?
-answer: Nó được sử dụng để tính toán điểm trên đường cong elliptic.
+question: Entropy trong bối cảnh của mật mã học là gì?
+
+answer: Một thước đo về mức độ không thể dự đoán liên quan đến một quá trình ngẫu nhiên
+
 wrong_answers:
-  - Nó được sử dụng để tạo nonce.
-  - Nó được sử dụng để mã hóa các khóa.
-  - Nó được sử dụng để lưu trữ các khóa.
-explanation:
-  Điểm sinh là một điểm cụ thể trên đường cong elliptic được sử dụng trong việc tính toán các điểm khác trên đường cong. Nó được sử dụng trong việc tạo ra các khóa công khai và khóa riêng, cũng như trong việc tạo và xác minh chữ ký số.
+  - Một phương pháp để mã hóa dữ liệu nhạy cảm
+  - Một thuật toán để tính toán khóa công khai
+  - Một kỹ thuật nén dữ liệu
+
+explanation: |
+  Trong mật mã học, entropy định lượng mức độ không chắc chắn hoặc hỗn loạn trong một nguồn ngẫu nhiên, thiết yếu cho việc tạo ra các khóa an toàn.

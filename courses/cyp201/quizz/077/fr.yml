@@ -1,9 +1,9 @@
-question: Quelles sont les caractéristiques d'une phrase secrète efficace pour un portefeuille Bitcoin ?
-answer: Longue (20 à 40 caractères) et diversifiée (en utilisant des lettres majuscules, des lettres minuscules, des chiffres et des symboles)
+question: Pourquoi les descriptors sont-ils particulièrement utiles pour les portefeuilles multisignatures ?
+answer: Ils incluent les xpub de chaque facteur et décrivent la structure multisignature
 wrong_answers:
-  - Courte et simple
-  - Longue et simple
-  - Courte et diversifiée
+  - Ils éliminent la nécessité d'une phrase mnémonique
+  - Ils simplifient la génération des clés endurcies
+  - Ils rendent les multisignatures compatibles avec tous les scripts
 explanation: |
-  Une phrase secrète efficace doit être longue (20 à 40 caractères) et diversifiée (en utilisant des lettres majuscules, des lettres minuscules, des chiffres et des symboles). Elle ne doit pas être directement liée à l'utilisateur ou à son environnement.
+  Les descriptors incluent les clés publiques étendues de tous les participants, ce qui facilite la restauration et la gestion des configurations multisignatures.
 reviewed: false

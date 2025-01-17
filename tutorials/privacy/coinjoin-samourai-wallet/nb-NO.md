@@ -66,7 +66,7 @@ Whirlpool ble designet med tanke på to viktige krav:
 Disse imperativene veiledet utviklerne av Samourai Wallet i designet av Whirlpool, noe som førte dem til å begrense antall deltakere per syklus. For få deltakere ville ha kompromittert effektiviteten av coinjoin, drastisk redusert anonsetene generert hver syklus, mens for mange deltakere ville ha utgjort forvaltningsproblemer på mobilapplikasjoner og ville ha hindret flyten av sykluser.
 **Til syvende og sist er det ikke nødvendig å ha et høyt antall deltakere per coinjoin på Whirlpool siden anonsetene oppnås gjennom akkumulering av flere coinjoin-sykluser.**
 
-[-> Lær mer om Whirlpool anonseter.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Lær mer om Whirlpool anonseter.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Bassengene og coinjoin-gebyrene
 For at disse flere syklusene effektivt skal øke anonsetene til de blandete myntene, må et visst rammeverk etableres for å begrense mengdene av UTXO som brukes. Whirlpool definerer dermed forskjellige bassenger.
@@ -298,7 +298,7 @@ Når `Tx0` er bekreftet, vil dine UTXOer automatisk bli registrert hos koordinat
 
 ![samourai](assets/notext/34.webp)
 
-Ved å sjekke `Remixing`-fanen, som tilsvarer **Postmix**-kontoen, vil du observere UTXOene som kommer fra de innledende blandingsrundene. Disse myntene vil forbli klare for påfølgende om-blanding, som ikke vil medføre noen ekstra gebyrer. Jeg anbefaler å konsultere denne andre artikkelen for å lære mer om om-blandingsprosessen og effektiviteten av en coinjoin-syklus: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
+Ved å sjekke `Remixing`-fanen, som tilsvarer **Postmix**-kontoen, vil du observere UTXOene som kommer fra de innledende blandingsrundene. Disse myntene vil forbli klare for påfølgende om-blanding, som ikke vil medføre noen ekstra gebyrer. Jeg anbefaler å konsultere denne andre artikkelen for å lære mer om om-blandingsprosessen og effektiviteten av en coinjoin-syklus: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 ![samourai](assets/notext/35.webp)
 
@@ -335,7 +335,7 @@ Angi nødvendig informasjon for din utgiftstransaksjon, og klikk deretter på de
 
 ![samourai](assets/notext/43.webp)
 I neste steg har du muligheten til å endre gebyrsatsen som er knyttet til transaksjonen din. Du kan også aktivere Stonewall-alternativet ved å krysse av i den tilsvarende boksen. Hvis Stonewall-alternativet ikke er valgbart, betyr det at din **Postmix**-konto ikke inneholder en UTXO av tilstrekkelig størrelse til å støtte denne spesifikke transaksjonsstrukturen.
-[-> Lær mer om Stonewall-transaksjoner.](https://planb.network/tutorials/privacy/stonewall)
+[-> Lær mer om Stonewall-transaksjoner.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Hvis alt er til din tilfredshet, klikk på den grønne `SEND ... BTC`-knappen.
 
@@ -367,8 +367,8 @@ Whirlpool vil automatisk lukke seg. Vent på at Samourai skal bli ferdig med å 
 Sørg for at din SCODE har blitt korrekt registrert ved å klikke en gang til på de tre små prikkene, og deretter velge `SCODE (promo code) Whirlpool`. Hvis alt er i orden, er du klar til å starte en ny Whirlpool-syklus med rabatt på tjenestegebyrene. Det er viktig å merke seg at disse SCODE-ene er midlertidige: de forblir gyldige i noen få dager før de blir foreldet.
 
 ## Hvordan vite kvaliteten på våre coinjoin-sykluser?
-For at en coinjoin skal være virkelig effektiv, er det essensielt at den demonstrerer god uniformitet mellom mengdene av innganger og utganger. Denne uniformiteten forsterker antallet mulige tolkninger i øynene til en ekstern observatør, og øker dermed usikkerheten rundt transaksjonen. For å kvantifisere denne usikkerheten generert av en coinjoin, kan man ty til å beregne transaksjonens entropi. For en grundig utforskning av disse indikatorene, henviser jeg deg til opplæringen: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Whirlpool-modellen er anerkjent som den som bringer mest homogenitet til coinjoins.
-Videre blir ytelsen til flere coinjoin-sykluser evaluert basert på omfanget av gruppene der en mynt er skjult. Størrelsen på disse gruppene definerer det som kalles anonsets. Det er to typer anonsets: den første vurderer personvernet oppnådd mot en retrospektiv analyse (fra nåtiden til fortiden) og den andre, mot en prospektiv analyse (fra fortiden til nåtiden). For en detaljert forklaring på disse to indikatorene, inviterer jeg deg til å konsultere opplæringen: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
+For at en coinjoin skal være virkelig effektiv, er det essensielt at den demonstrerer god uniformitet mellom mengdene av innganger og utganger. Denne uniformiteten forsterker antallet mulige tolkninger i øynene til en ekstern observatør, og øker dermed usikkerheten rundt transaksjonen. For å kvantifisere denne usikkerheten generert av en coinjoin, kan man ty til å beregne transaksjonens entropi. For en grundig utforskning av disse indikatorene, henviser jeg deg til opplæringen: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpool-modellen er anerkjent som den som bringer mest homogenitet til coinjoins.
+Videre blir ytelsen til flere coinjoin-sykluser evaluert basert på omfanget av gruppene der en mynt er skjult. Størrelsen på disse gruppene definerer det som kalles anonsets. Det er to typer anonsets: den første vurderer personvernet oppnådd mot en retrospektiv analyse (fra nåtiden til fortiden) og den andre, mot en prospektiv analyse (fra fortiden til nåtiden). For en detaljert forklaring på disse to indikatorene, inviterer jeg deg til å konsultere opplæringen: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## Hvordan håndtere postmix?
 Etter å ha utført coinjoin-sykluser, er den beste strategien å holde dine UTXOer i **postmix**-kontoen, i påvente av deres fremtidige bruk. Det er til og med tilrådelig å la dem remixe på ubestemt tid til du trenger å bruke dem.
@@ -396,7 +396,10 @@ Videre må du være forsiktig med å håndtere doxxic change, vekslingen som ikk
 Detaljerte veiledninger om implementering av disse forskjellige teknikkene vil snart bli tilbudt på PlanB Network.
 
 **Tilleggsressurser:**
-[Samourai Wallet videoveiledning](https://planb.network/tutorials/wallet/samourai)
+[Samourai Wallet videoveiledning](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Wallet Dokumentasjon - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-tråd om coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogginnlegg om coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
+
+

@@ -1,0 +1,5 @@
+description: |
+  Bitcoin Core je referenční open-source software pro systém Bitcoin a představuje hlavní implementaci Bitcoin protokolu dodnes. Je vyvíjen a udržován širokou skupinou dobrovolných přispěvatelů. Původně pojmenován “Bitcoin Qt”, jedná se o třetího klienta v historii Bitcoinu po Bitcoin klientovi od Satoshiho Nakamota a Bitcoind. Byl vyvinut z původního kódu Satoshiho a zavedl grafické uživatelské rozhraní. Mimochodem, i dnes se grafické rozhraní Bitcoin Core nazývá bitcoin-qt. Od verze 0.5 je dodáván s bitcoind. Bitcoin Core má několik funkcí. Především funguje jako plnohodnotný uzlový klient. Bitcoin Core také zahrnuje peněženku (wallet) pro uživatele, kteří chtějí ukládat, spravovat a provádět transakce přímo s Bitcoin Core.
+
+contributors:
+  - pretty-private

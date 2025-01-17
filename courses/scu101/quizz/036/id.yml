@@ -1,0 +1,11 @@
+question: Apa tujuan dari situs web Have I Been Pwned?
+answer: Untuk memeriksa apakah alamat email Anda telah dikompromikan dan untuk diberitahu tentang pelanggaran data di masa depan.
+wrong_answers:
+  - Untuk memeriksa apakah alamat email Anda valid.
+  - Untuk memeriksa apakah alamat email Anda tersedia.
+  - Untuk memeriksa apakah alamat email Anda telah diblokir.
+explanation: |
+  Situs web Have I Been Pwned memungkinkan Anda untuk memeriksa apakah alamat email Anda
+
+  telah dikompromikan dalam sebuah pelanggaran data dan untuk diberitahu tentang pelanggaran data di masa depan.'
+reviewed: false

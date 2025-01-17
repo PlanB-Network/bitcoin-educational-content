@@ -63,6 +63,9 @@ Sparrow'ssa, klikkaa "*Osoitteet*" -välilehteä.
 Merkitse sitten paperille lompakkosi ensimmäinen vastaanotto-osoite. Esimerkissäni osoite on:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 Tiedon merkitsemisen jälkeen, mene "*Tiedosto*" -valikkoon, sitten valitse "*Poista Lompakko*". Muistutan sinua jälleen kerran, että Bitcoin-lompakkosi on oltava tyhjä ennen tämän toimenpiteen suorittamista.
 
 ![RECOVERY TEST](assets/notext/04.webp)

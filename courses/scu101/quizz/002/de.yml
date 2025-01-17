@@ -1,9 +1,10 @@
-question: Warum wird empfohlen, Software von der offiziellen Website des Herausgebers herunterzuladen, anstatt von generischen Websites?
-answer: Um sicherzustellen, dass die Software frei von schädlicher Software ist.
+question: Warum wird empfohlen, Software von der offiziellen Website des Herausgebers anstatt von generischen Seiten herunterzuladen?
+answer: Um sicherzustellen, dass die Software frei von Schadsoftware ist.
 wrong_answers:
   - Um den Herausgeber finanziell zu unterstützen.
   - Weil die Software auf der offiziellen Website normalerweise günstiger ist.
-  - Weil die Software auf generischen Websites normalerweise veraltet ist.
+  - Weil die Software auf generischen Seiten normalerweise veraltet ist.
 explanation: |
-  Wenn Sie Software von der offiziellen Website des Herausgebers herunterladen, stellen Sie sicher, dass Sie die legitime Version der Software erhalten, die frei von schädlicher Software ist, die Ihr Gerät schädigen oder Ihre Daten stehlen könnte.
-reviewed: false
+  Software von der offiziellen Website des Herausgebers herunterzuladen stellt sicher, dass Sie die legitime
+  Version der Software erhalten, die frei von jeglicher Schadsoftware ist, die Ihrem Gerät schaden oder Ihre Daten stehlen könnte.
+reviewed: true

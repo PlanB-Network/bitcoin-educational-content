@@ -1,0 +1,9 @@
+question: Pourquoi le chiffrement par décalage est-il vulnérable aux attaques par brute force ?
+answer: Parce qu'il n'a que 26 clés possibles
+wrong_answers:
+  - Parce qu'il utilise une clé publique
+  - Parce qu'il est basé sur un chiffrement symétrique
+  - Parce qu'il utilise des nombres aléatoires
+explanation: |
+  Le chiffrement par décalage est facilement attaquable par brute force car il n'a que 26 clés possibles, de 0 à 25, à cause de l'utilisaiton du modulo 26 qui dépend lui-même de la taille de l'alphabet. On ne peut pas utiliser des clés plus grandes valables, car elles seraient dans tous les cas équivalentes à une clé entre 0 et 25. Il suffit donc de tester chacune d'elles pour retrouver le message. 
+reviewed: false

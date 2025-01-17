@@ -53,11 +53,10 @@ Essentially, the LNURL option is the simplest: a QR code is generated and the us
 
 As for Bolt11, it is the traditional method of the Lightning network. Unlike LNURL, it is the user who must create the invoice with their Lightning wallet, and then provide the details to Bull Bitcoin before confirming the purchase order. This option involves a certain risk of error by the user, who must manually enter the amount in bitcoins provided by Bull Bitcoin into their wallet when creating the invoice, and then share it with Bull Bitcoin. However, the method works very well when used correctly.
 
-> 💡 Check out these Agora256 articles to learn more about the different wallet solutions available:
-> '
->
-> - The 6 best choices for Bitcoin wallets on mobile in 2023
-> - Creating, backing up, and using a Bitcoin private key with a Coldcard device and Bitcoin Core
+💡 Check out these Agora256 articles to learn more about the different wallet solutions available:
+
+**The 6 best choices for Bitcoin wallets on mobile in 2023**
+**Creating, backing up, and using a Bitcoin private key with a Coldcard device and Bitcoin Core**
 
 Once the purchase order is confirmed, Bull Bitcoin will send the bitcoins directly to your wallet. There is no alternative; Bull Bitcoin is a non-custodial platform that does not offer any bitcoin custody services for its users, and that's perfect! Learning to hold your own bitcoins is simply the best practice.
 
@@ -69,4 +68,7 @@ If you don't have a Bull Bitcoin account yet, use our referral link https://miss
 
 In the meantime, as always, if you have any questions, feel free to share them with the Agora256 community. We learn together to be better tomorrow than we are today!
 
-> **Thanks to Agora256 for their guide. The affiliate link below does not concern the university; original link: https://agora256.com/acheter-du-bitcoin-sans-kyc-au-canada-avec-bull-bitcoin/**
+**Thanks to Agora256 for their guide. The affiliate link below does not concern the university;**
+
+Disclaimer: the [original link](https://agora256.com/acheter-du-bitcoin-sans-kyc-au-canada-avec-bull-bitcoin/) was deleted, but a new version of this tutorial will be updated soon!
+In the meantime, please check the Agora256 website for more guides: https://agora256.com/tag/guides/

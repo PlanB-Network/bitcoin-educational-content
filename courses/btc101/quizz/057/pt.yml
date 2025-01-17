@@ -5,5 +5,5 @@ wrong_answers:
   - 79.600.000.000.000.000%
   - 100%
 explanation: |
-  Em novembro de 2008, a taxa de inflação mensal da moeda do Zimbábue atingiu o pico de 79.600.000.000%, o que aniquilou o valor do dólar zimbabuano.
-reviewed: false
+  Em novembro de 2008, a taxa de inflação mensal da moeda do Zimbábue atingiu o pico de 79.600.000.000%, o que desvalorizou completamente o dólar zimbabuano para 0.
+reviewed: true

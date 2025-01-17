@@ -47,7 +47,7 @@ Ini menampilkan skor retrospektif sebesar `34.593` dan skor prospektif sebesar `
 - Jika seorang analis mengetahui koin saya di awal siklus dan mencoba menentukan korespondensinya di akhir, mereka akan dihadapkan pada `45.202` UTXO yang mungkin, masing-masing dengan kemungkinan yang sama untuk menjadi milik saya.
 Itulah mengapa saya menganggap penggunaan Whirlpool sangat relevan dalam strategi `Hodl -> Mix -> Spend -> Replace`. Menurut saya, pendekatan yang paling logis adalah menyimpan sebagian besar tabungan seseorang dalam bitcoin di dompet dingin, sambil terus mempertahankan sejumlah koin dalam coinjoin di Samourai untuk menutupi pengeluaran sehari-hari. Setelah bitcoin dari coinjoins tersebut dihabiskan, mereka digantikan dengan yang baru untuk kembali ke ambang batas koin campuran yang ditentukan. Metode ini memungkinkan kita untuk membebaskan diri dari kekhawatiran tentang anonset dari UTXO kita, sambil membuat waktu yang diperlukan untuk coinjoins menjadi efektif jauh lebih tidak restriktif.
 
-Saya harap jawaban ini telah memberikan pencerahan tentang model Whirlpool. Jika Anda ingin mempelajari lebih lanjut tentang cara kerja coinjoins di Bitcoin, saya merekomendasikan membaca [artikel komprehensif saya tentang topik ini](https://planb.network/tutorials/privacy/coinjoin-dojo).
+Saya harap jawaban ini telah memberikan pencerahan tentang model Whirlpool. Jika Anda ingin mempelajari lebih lanjut tentang cara kerja coinjoins di Bitcoin, saya merekomendasikan membaca [artikel komprehensif saya tentang topik ini](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
 
 **Sumber eksternal:**
 - Samourai Wallet Whirlpool

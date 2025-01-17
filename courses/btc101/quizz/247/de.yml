@@ -1,9 +1,10 @@
-question: Was ist eine der Hauptfragen, die sich über die Zukunft der Finanzen stellen?
-answer: Wer sollte das Geld, das wir verwenden, halten, autorisieren und nachverfolgen?
+question: Was ist eine der Hauptfragen, die bezüglich der Zukunft der Finanzen gestellt wird?
+answer: Wer sollte das von uns verwendete Geld halten, autorisieren und nachverfolgen?
 wrong_answers:
-  - Wie können wir Geld vollständig eliminieren?
-  - Wie können wir sicherstellen, dass jeder die gleiche Menge an Geld hat?
+  - Wie können wir Geld vollständig abschaffen?
+  - Wie können wir sicherstellen, dass jeder den gleichen Geldbetrag hat?
   - Wie können wir Geld überflüssig machen?
-explanation: |
-  Der Text wirft mehrere Fragen zur Zukunft der Finanzen auf, eine davon ist, wer das Geld, das wir verwenden, halten, autorisieren und nachverfolgen sollte.
-reviewed: false
+explanation: >-
+  Der Text wirft mehrere Fragen über die Zukunft der Finanzen auf, eine
+  davon ist, wer das von uns verwendete Geld halten, autorisieren und nachverfolgen sollte.
+reviewed: true

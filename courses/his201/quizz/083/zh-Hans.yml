@@ -1,0 +1,8 @@
+question: 2011年6月比特币达到的最高价格是多少？
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation:
+  6月8日，比特币在Mt. Gox上达到了历史最高价$32。然而，之后价格迅速下跌。

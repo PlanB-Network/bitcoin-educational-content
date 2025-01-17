@@ -1,11 +1,12 @@
 question: Jaké je potenciální nebezpečí používání crackovaného softwaru, který nelze aktualizovat?
-answer: Příchod viru během jeho nelegálního stahování a nezabezpečené používání proti novým formám útoků.
+answer: Příchod viru během jeho nelegálního stahování a nezabezpečené používání proti novým formám útoku.
 wrong_answers:
   - Software přestane fungovat po určité době.
   - Software nebude mít žádné nové funkce.
   - Software bude spotřebovávat více systémových zdrojů.
 explanation: |
-  Crackovaný software, který nelze aktualizovat, představuje dvojí potenciální
-  hrozbu. Může přinést virus během jeho nelegálního stahování z podezřelé webové stránky
-  a může být nezabezpečený proti novým formám útoků.
-reviewed: false
+  Crackovaný software, který nelze aktualizovat, představuje dvojí
+  potenciální hrozbu. Může přinést virus během jeho nelegálního
+  stahování z podezřelé webové stránky a může být nezabezpečený
+  proti novým formám útoku.
+reviewed: true

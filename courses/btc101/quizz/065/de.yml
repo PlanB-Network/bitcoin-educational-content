@@ -1,9 +1,12 @@
 question: Mit welchen wirtschaftlichen Prinzipien stimmt Bitcoin überein?
-answer: Prinzipien der österreichischen Wirtschaft
+answer: Prinzipien der Österreichischen Schule der Nationalökonomie.
 wrong_answers:
-  - Prinzipien der keynesianischen Wirtschaft
-  - Prinzipien der marxistischen Wirtschaft
-  - Prinzipien der neoklassischen Wirtschaft
+  - Prinzipien der Keynesianischen Ökonomie.
+  - Prinzipien der Marxistischen Ökonomie.
+  - Prinzipien der Neoklassischen Ökonomie.
 explanation: |
-  Bitcoin stimmt mit den Prinzipien der österreichischen Wirtschaft überein. Die begrenzte Menge und das Fehlen einer zentralen Instanz schützen es vor den inhärenten Risiken der Inflation bei traditionellen Währungen.
-reviewed: false
+  Bitcoin stimmt mit den Prinzipien der Österreichischen Schule der Nationalökonomie überein.
+  Seine begrenzte Menge und das Fehlen einer zentralen Entität schützen es
+  vor den inhärenten Risiken der Inflation, die bei
+  traditionellen Währungen zu sehen sind.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Qual è la prima fase dell'iperinflazione?
-answer: Perdita di fiducia
+question: Qual è la prima fase del fenomeno dell'iperinflazione?
+answer: Perdita di fiducia.
 wrong_answers:
-  - Crollo della valuta e aumento dei prezzi
-  - Il circolo vizioso della stampa di denaro
-  - Emergere di una nuova valuta
+  - Collasso della valuta e aumento dei prezzi.
+  - Il circolo vizioso della stampa di denaro.
+  - Emerge una nuova valuta.
 explanation: |
   La prima fase dell'iperinflazione è la perdita di fiducia in una valuta.
-reviewed: false
+reviewed: vero

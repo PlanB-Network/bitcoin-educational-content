@@ -1,9 +1,11 @@
 question: Qual é o papel dos mineradores na rede Bitcoin?
 answer: Os mineradores desempenham um papel essencial na validação e criação de blocos.
 wrong_answers:
-  - Os mineradores apenas validam transações.
-  - Os mineradores controlam o preço do Bitcoin.
-  - Os mineradores não têm papel na rede Bitcoin.
+  - Mineradores apenas validam transações.
+  - Mineradores controlam o preço do Bitcoin.
+  - Mineradores não têm nenhum papel na rede Bitcoin.
 explanation: |
-  Os mineradores desempenham um papel essencial na rede Bitcoin ao validar e criar blocos. Eles fortalecem a rede contra a censura usando eletricidade para calcular a prova de trabalho para o Bitcoin.
-reviewed: false
+  Os mineradores desempenham um papel essencial na rede Bitcoin ao
+  validar e criar blocos. Eles fortalecem a rede contra a censura
+  usando eletricidade para calcular a prova de trabalho para o Bitcoin.
+reviewed: true

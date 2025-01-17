@@ -1,0 +1,9 @@
+question: Masalah komputasi apa yang sulit yang terkait dengan sistem asimetris seperti RSA?
+answer: Faktorisasi bilangan prima
+wrong_answers:
+  - Perkalian eksponensial bilangan bulat
+  - Pembuatan nomor acak yang panjang
+  - Pertukaran kunci yang aman
+explanation: |
+  RSA didasarkan pada kesulitan faktorisasi bilangan prima, sebuah tugas komputasi yang sulit yang membuat sistem kriptografi aman dari serangan.
+reviewed: false

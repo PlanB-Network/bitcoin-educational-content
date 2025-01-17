@@ -269,23 +269,10 @@ O grupo Lighting Walker apresenta sua solução para Serviço de Remessas usando
 
 
 
-## Avalie o curso
+## Avaliações & Notas
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Agradecimentos 
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-Gostaríamos de agradecer às contribuições de nossos educadores:
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- asi0
-- Gabriel Comte
-
-Sua experiência tem sido inestimável para o sucesso deste curso. Este foi o primeiro curso baseado na 1ª edição da iniciativa Cubo+, realizado em julho de 2023. Agradecemos a todos os participantes e educadores por fazerem parte desta jornada educacional pioneira. Isso marca o início do que esperamos que seja uma jornada longa e frutífera no mundo do desenvolvimento do Bitcoin. Como a primeira turma, sua participação estabeleceu o padrão para as futuras turmas.
-
-Continue explorando, aprendendo e contribuindo para o ecossistema do Bitcoin. O conhecimento adquirido aqui é apenas o ponto de partida. Continue a explorar o buraco do coelho e você descobrirá um mundo de oportunidades em constante expansão.
+<isCourseConclusion>true</isCourseConclusion>

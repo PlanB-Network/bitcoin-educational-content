@@ -1,0 +1,11 @@
+question: Analisis heuristik apa dari rantai yang digunakan oleh transaksi payjoin untuk bertindak sebagai pengelabuan bagi analisis?
+
+answer: CIOH
+
+wrong_answers:
+  - Penggunaan alamat kembali
+  - Pencetakan sidik jari dompet
+  - Penggunaan versi kembali
+
+explanation: |
+  Ketika seorang analis memeriksa transaksi payjoin, mereka dibuat percaya bahwa semua input berasal dari orang yang sama karena CIOH. Namun, persepsi ini salah, karena penerima pembayaran juga berkontribusi pada input bersama dengan pembayar sebenarnya. Oleh karena itu, analisis rantai dialihkan ke interpretasi yang ternyata salah.

@@ -1,0 +1,13 @@
+question: Apa yang ditunjukkan oleh anonset retrospektif?
+
+answer: Jumlah sumber yang mungkin untuk sebuah UTXO di akhir siklus.
+
+wrong_answers:
+  - Ukuran kelompok UTXO yang tidak dapat dibedakan di akhir siklus.
+  - Jumlah sumber yang mungkin untuk sebuah UTXO di awal siklus.
+  - Waktu yang diperlukan untuk menyelesaikan sebuah coinjoin.
+
+explanation: |
+  Anonset retrospektif menunjukkan jumlah sumber yang mungkin untuk sebuah koin tertentu, dengan mempertimbangkan UTXO di akhir siklus.
+
+reviewed: false

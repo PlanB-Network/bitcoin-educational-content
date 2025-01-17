@@ -5,7 +5,7 @@ wrong_answers:
   - 2028
   - 2048
 explanation: |
-  Seitsemännen puolituksen tulisi tapahtua vuonna 2036, ja arvioidun määrän bitcoineja
-  liikkeessä tulee olemaan 20,835,937.5 btc, eli 99.22% kokonaistarjonnasta.
-  bitcoineja liikkeessä.
-reviewed: false
+  Seitsemännen puolituksen pitäisi tapahtua vuonna 2036, ja arvioitu
+  bitcoinien määrä liikkeessä tulee olemaan 20,835,937.5,
+  mikä vastaa suurin piirtein 99.22% koko tarjonnasta.
+reviewed: true

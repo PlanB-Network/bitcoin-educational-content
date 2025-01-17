@@ -10,9 +10,9 @@ PlanB的使命是以尽可能多的语言提供关于比特币的领先教育资
 
 本教程将一步步指导您如何更正这些小错误。这是一个为不希望深入Git复杂性的初学者准备的教程。然而，如果您对Git很熟悉，这里有一个快速总结：您只需要fork [PlanB网络数据仓库](https://github.com/PlanB-Network/bitcoin-educational-content)，在一个专用分支上进行更改，然后提交Pull Request到源仓库的`dev`分支。
 
-请注意，如果您计划对文档进行完整的审查和修订，特别是内容翻译，我邀请您查阅[这个更详细的教程](https://planb.network/tutorials/others/content-review-tutorial)。这里，我们只关注如何对小错误进行快速更正。
+请注意，如果您计划对文档进行完整的审查和修订，特别是内容翻译，我邀请您查阅[这个更详细的教程](https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6)。这里，我们只关注如何对小错误进行快速更正。
 
-- 首先，您需要在GitHub上有一个账户。如果您不知道如何创建账户，我们制作了[一个详细的教程来指导您](https://planb.network/tutorials/others/create-github-account)。
+- 首先，您需要在GitHub上有一个账户。如果您不知道如何创建账户，我们制作了[一个详细的教程来指导您](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 - 前往[PlanB专用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content)：
 ![打字错误](assets/01.webp)
 - 在这里，您将找到按部分组织的所有内容。

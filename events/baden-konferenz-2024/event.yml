@@ -1,0 +1,23 @@
+- start_date: 2024-12-07 08:00:00
+  end_date: 2024-12-07 16:00:00
+  timezone: Europe/Zurich
+  address_line_1: Wiesenstrasse 32, Baden, Switzerland
+  address_line_2: BBB Martinsberg, Wiesenstrasse 32, 5400 Baden, Switzerland
+  address_line_3:
+  name: Bitcoin Baden Konferenz
+  builder:
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Eintägige Bitcoin-only Konferenz am 07.12.2024 in der Stadt Baden
+  language:
+    - de
+  links:
+    website: https://bitcoinbaden.ch/
+    replay_url:
+    live_url:
+  tags:
+    - decentralization
+    - scalability
+    - adoption

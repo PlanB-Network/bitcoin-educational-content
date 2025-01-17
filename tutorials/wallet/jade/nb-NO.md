@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: Hvordan sette opp din JADE-enhet
 ---

@@ -1,0 +1,11 @@
+question: Mengapa emas tidak dapat mengikuti perkembangan di dunia global dan digital?
+answer: Emas memerlukan entitas pusat untuk membuatnya dapat dibagi dan ditukar dengan mudah
+wrong_answers:
+  - Emas tidak cukup berharga
+  - Emas tidak cukup langka
+  - Emas terkikis seiring waktu
+explanation: |
+  Emas tidak dapat mengikuti perkembangan di dunia global dan digital karena memerlukan
+  entitas pusat untuk membuatnya dapat dibagi dan ditukar dengan mudah. Hal ini membuatnya kurang
+  praktis untuk digunakan di dunia di mana transaksi semakin digital dan terdesentralisasi.
+reviewed: true

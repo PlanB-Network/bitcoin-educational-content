@@ -1,0 +1,13 @@
+question: ¿Cuál es el nombre de la cuenta utilizada para los UTXOs que no pueden entrar en un pool de coinjoin de Whirlpool?
+
+answer: Cuenta de cambio doxxic.
+
+wrong_answers:
+  - Cuenta postmezcla.
+  - Cuenta premezcla.
+  - Cuenta de depósito.
+
+explanation: |
+  El cambio que no pudo unirse al pool se aísla en la cuenta de cambio doxxic, para asegurar una separación estricta de los otros UTXOs en la billetera.
+
+reviewed: false

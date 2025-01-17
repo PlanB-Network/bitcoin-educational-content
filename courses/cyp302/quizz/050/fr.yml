@@ -1,0 +1,9 @@
+question: Pourquoi les champs d'extension avec une base 2 sont-ils utiles en cryptographie ?
+answer: Ils permettent de manipuler des chaînes binaires de façon sécurisée.
+wrong_answers:
+  - Ils simplifient les calculs en réduisant le nombre d'opérations.
+  - Ils évitent les erreurs de calcul en ajoutant de la redondance.
+  - Ils limitent le champ des possibles en diminuant le nombre d'éléments.
+explanation: |
+  Les champs d'extension avec une base 2 sont pratiques car leurs éléments peuvent être vus comme des chaînes binaires, facilitant les opérations sur les données numériques au niveau binaire dans les systèmes.
+reviewed: false

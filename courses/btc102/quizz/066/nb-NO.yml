@@ -1,0 +1,10 @@
+question: Hva er den anbefalte lommeboken for en Hodler å starte med?
+answer: En kald lommebok som Bitbox02, Trezor, eller Ledger.
+wrong_answers:
+  - En varm lommebok mobilapp.
+  - En fysisk lommebok.
+  - En papirlommebok.
+explanation: |
+  For en Hodler er det tilrådelig å starte med en kald lommebok som Bitbox02,
+  Trezor, eller Ledger. Disse enhetene tilbyr sikkerhet for bitcoins på lang sikt.
+reviewed: false

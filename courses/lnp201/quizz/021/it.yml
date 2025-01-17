@@ -1,11 +1,9 @@
-question: Chi avvia il processo di apertura di un canale nella Lightning Network?
-answer: Alice
+question: Come protegge il timelock dal barare nelle transazioni di impegno?
+answer: Impedisce alla parte inadempiente di recuperare immediatamente i propri fondi
 wrong_answers:
-  - Bob
-  - Sia Alice che Bob
-  - Né Alice né Bob
+  - Rimborsa automaticamente i fondi al truffatore
+  - Annulla la transazione in caso di tentativo di truffa
+  - Blocca l'uso della chiave di revoca
 explanation: |
-  Nel processo di apertura di un canale nella Lightning Network, è Alice
-  a dare il via al processo. Comunica la sua intenzione di aprire un canale
-  a Bob, che risponde fornendo il suo indirizzo pubblico.
+  Il timelock impone un ritardo durante il quale il truffatore non può recuperare i propri fondi, dando così all'altra parte l'opportunità di rispondere.
 reviewed: false

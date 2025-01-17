@@ -1,0 +1,11 @@
+question: Mengapa disarankan untuk membatasi jumlah ekstensi yang dipasang pada
+  peramban Anda?
+answer: Untuk menghindari potensi masalah keamanan dan kinerja.
+wrong_answers:
+  - Untuk menghemat ruang penyimpanan pada perangkat Anda.
+  - Untuk mencegah peramban dari kegagalan.
+  - Untuk menghindari dilacak oleh situs pihak ketiga.
+explanation: |
+  Meskipun ekstensi peramban dapat menyediakan fungsionalitas yang berguna, mereka juga
+  dapat menimbulkan risiko keamanan karena dapat mengakses data dan aktivitas jelajah Anda. Selain itu,
+  memiliki terlalu banyak ekstensi dapat memperlambat peramban Anda dan mempengaruhi kinerjanya.

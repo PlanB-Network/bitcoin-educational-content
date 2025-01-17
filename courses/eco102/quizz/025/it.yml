@@ -1,0 +1,9 @@
+question: Qual era l'obiettivo principale della Lega Inglese nel 1838?
+answer: Contro le leggi sul grano
+wrong_answers:
+  - Contro i grandi proprietari terrieri
+  - Per la promozione dei lavoratori agricoli
+  - Contro i commercianti stranieri
+explanation: |
+  La Lega Inglese, ispirata da Richard Cobden, mirava ad abolire le protezionistiche leggi sul grano per promuovere il libero scambio e ridurre la povertà.
+reviewed: false

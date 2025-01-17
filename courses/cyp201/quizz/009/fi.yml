@@ -1,9 +1,9 @@
-question: Mikä on täytemerkkien tarkoitus SHA256:n esikäsittelyvaiheessa?
-answer: Saada syötteen koko täydelliseksi monikerraksi 512 biteistä
+question: Mikä rakenne on käytössä SHA256 ssa käsittelemään mielivaltaisen pituisia viestejä?
+answer: Merkle-Damgårdin rakenne
 wrong_answers:
-  - Kasvattaa syötteen kokoa 256 bittiin
-  - Lisätä monimutkaisuutta syötteeseen
-  - Pienentää syötteen kokoa 512 bittiin
+  - Euklidinen rakenne
+  - Rivest-Shamir-Adlemanin rakenne
+  - Knuth-Morris-Prattin rakenne
 explanation: |
-  SHA256:n esikäsittelyvaiheessa syötteeseen lisätään täytemerkkejä, jotta sen koko saavuttaa täydellisen monikerran 512 biteistä. Tämä tehdään varmistamaan, että kaikki ainesosat sekoittuvat täydellisesti kryptografisessa reseptissä.
+  Merkle-Damgårdin rakenne mahdollistaa tiivistysfunktion muuntamisen hajautusfunktioksi muuttuvan pituisille viesteille.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Wie groß ist ein Bitcoin öffentlicher Schlüssel?
-answer: 512-Bit-Nummer
+question: Welcher Bitcoin-Standard führt hierarchisch deterministische Wallets ein?
+answer: BIP32
 wrong_answers:
-  - 256-Bit-Nummer
-  - 128-Bit-Nummer
-  - 1024-Bit-Nummer
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  Im Bitcoin-System wird der eindeutige private Schlüssel verwendet, um einen 512-Bit öffentlichen Schlüssel abzuleiten.
+  BIP32 definiert den Betrieb von HD-Wallets, die eine hierarchische Ableitung von privaten Schlüsseln aus einem Seed ermöglichen.
 reviewed: false

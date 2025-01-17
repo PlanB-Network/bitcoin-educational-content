@@ -1,0 +1,9 @@
+question: Hvilke heuristikker for kjedeanalyse nevnes av Satoshi Nakamoto i Bitcoin-hvitboken? (kun ett svar mulig)
+answer: CIOH og gjenbruk av adresser.
+wrong_answers:
+  - Klynging etter signatur og tidskorrelasjon.
+  - Betalinger med runde tall og den store utbetalingen.
+  - Volumanalyse og likheter i skript.
+explanation: |
+  I del 10 av Bitcoin-hvitboken advarer Satoshi Nakamoto brukerne om CIOH (Common Input Ownership Heuristic) og gjenbruk av det samme paret med nøkler.
+reviewed: false

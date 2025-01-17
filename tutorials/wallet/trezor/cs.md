@@ -1,6 +1,5 @@
 ---
 name: Trezor model One
-
 description: Nastavení a používání Trezoru modelu One
 ---
 

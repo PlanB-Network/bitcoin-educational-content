@@ -1,9 +1,14 @@
-question: ¿Cuál es la recompensa actual de minería en la red de Bitcoin?
+question: ¿Cuál es la recompensa actual por minar en la red de Bitcoin?
 answer: La creación de nuevos bitcoins y las tarifas de transacción
 wrong_answers:
-  - Solo la creación de nuevos bitcoins
+  - La creación de nuevos bitcoins solamente
   - Solo las tarifas de transacción
   - La creación de nuevos bitcoins, las tarifas de transacción y un bono para el minero más rápido
 explanation: |
-  La recompensa actual de minería en la red de Bitcoin es doble. Incluye la creación de nuevos bitcoins, que ha disminuido de 50 bitcoins cada diez minutos inicialmente a 6.25 bitcoins hoy en día (2023). También incluye las tarifas de transacción, o tarifas de minería, de las transacciones que el minero elige incluir en su bloque.
-reviewed: false
+  La recompensa actual por minar en la red de Bitcoin es
+  doble. Incluye la creación de nuevos bitcoins, la cual
+  ha disminuido de 50 bitcoins cada diez minutos inicialmente
+  a 6.25 bitcoins hoy (2023). También incluye las tarifas de transacción,
+  o tarifas de minería, de las transacciones que el minero
+  elige incluir en su bloque.
+reviewed: true

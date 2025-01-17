@@ -1,0 +1,13 @@
+question: Welcher Ökonom sagte 1999, dass das einzige, was fehlt, aber bald entwickelt wird, zuverlässiges elektronisches Geld ist?
+
+answer: Milton Friedman
+
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+
+explanation: |
+  Ein Nobelpreisträger für Wirtschaft und Gründer der Chicagoer Schule, machte diese Vorhersage am Mikrofon der National Taxpayers Union Foundation. [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+
+reviewed: false

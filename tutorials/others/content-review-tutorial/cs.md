@@ -1,122 +1,153 @@
 ---
-name: Příspěvek - Recenze
-description: Jak se zapojit do recenzování vzdělávacího obsahu na síti PlanB Network?
+name: Příspěvek - recenze
+description: Jak se zapojit do hodnocení vzdělávacího obsahu v síti Plan ₿?
 ---
 ![github](assets/cover.webp)
 
-## TL;DR
-Pokud chcete recenzovat obsah pro síť PlanB, přejděte na [stránku přidruženého projektu](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) pro váš jazyk. Vyberte obsah, který chcete recenzovat, okomentujte, abyste nám dali vědět, že se úkolu ujímáte, a po dokončení odevzdejte PR na větvi přidružené k vašemu jazyku.
+## Shrnutí
 
-Pokud jste nerozuměli části výše, nebojte se, tento tutoriál je pro vás!
+Pokud se chcete podílet na revizi a opravách obsahu sítě Plan ₿, připojte se k [naší skupině na Telegramu](https://t.me/PlanBNetwork_ContentBuilder) určené pro příspěvky. Krátce se představte a poté uveďte obsah, který chcete recenzovat, a jazyk. Proveďte opravy v pracovní větvi a po dokončení recenze odešlete PR.
+
+Pokud jste nerozuměli části výše, nezoufejte - tento návod je určen právě vám!
 
 ---
+## Co je to síť Plan ₿?
 
-## Co je PlanB Network?
+Plan ₿ Network je platforma, na které se o Bitcoinu dozvíte prostřednictvím mnoha kurzů a výukových programů pro každého. V současné době je veškerý náš obsah open-source, umístěný v úložišti GitHub, a je otevřený příspěvkům pro recenze a tvorbu obsahu.
 
-Planb.network je zcela nová platforma pro učení se o Bitcoinu prostřednictvím mnoha kurzů a tutoriálů pro každého. Aktuálně je veškerý náš obsah open-source, hostovaný na GitHub repozitáři a otevřený příspěvkům pro recenzi a tvorbu obsahu.
-
-PlanB.network si klade za cíl stát se veřejným prostorem kyberprostoru Bitcoinu, spojovat a podporovat Bitcoinové komunity po celém světě.
+Cílem sítě Plan ₿ Network je stát se veřejným náměstím bitcoinového kyberprostoru, které spojuje a podporuje bitcoinové komunity po celém světě.
 
 ## Proč přispívat?
 
-PlanB.network je zásadně vícejazyčný, jelikož naším cílem je učinit zdroje o Bitcoinu přístupné každému po celém světě. Věříme, že jazyk by neměl být překážkou suverénní měny.
+Síť Plan ₿ je v zásadě vícejazyčná, protože naším cílem je zpřístupnit zdroje Bitcoinu všem na celém světě. Věříme, že jazyk by neměl být překážkou pro suverénní peníze.
 
-Proto používáme přístup Human x AI k dosažení tohoto cíle. Díky našemu [jednoduchému programu](https://github.com/Asi0Flammeus/LLM-Translator) můžeme automaticky přeložit náš obsah do mnoha jazyků. Před jeho publikováním však potřebujeme osobu, která je plynulá v daném jazyce, aby obsah zkontrolovala a zajistila, že je srozumitelný a neobsahuje nevhodné termíny.
+K dosažení tohoto cíle používáme přístup "člověk x umělá inteligence". Prostřednictvím našeho [programu](https://github.com/Asi0Flammeus/LLM-Translator) můžeme automaticky překládat náš obsah do mnoha jazyků. Potřebujeme však, aby jej zkontroloval plynulý mluvčí, který zajistí, že obsah bude srozumitelný a bez nevhodných výrazů.
 
-Pokud se chcete přidat k nám a budovat tento vzdělávací projekt na podporu vzdělávání o Bitcoinu ve vaší komunitě, můžete začít recenzí kurzu nebo tutoriálu.
+Chcete-li se podílet na budování tohoto vzdělávacího projektu na podporu vzdělávání v oblasti bitcoinu ve vaší komunitě, můžete začít tím, že si prohlédnete kurz nebo výukový program.
 
-Navíc, jelikož Découvre Bitcoin (DB) má na starosti hodnocení příspěvků a my (DB) si ceníme modelu *Value4Value*, odměníme příspěvky k recenzi. Odměna bude záviset na délce obsahu, jazykové přesnosti naší automatické překladu a obtížnosti obsahu.
+Kromě toho, protože si ceníme modelu *Value4Value*, budeme odměňovat příspěvky k recenzím. Odměna bude záviset na délce obsahu, jazykové přesnosti našeho automatického překladu a obtížnosti obsahu.
 
-## Musím umět pracovat s GitHubem?
+## Musím vědět, jak funguje GitHub?
 
-Nemusíte být expertem na GitHub, abyste mohli recenzovat obsah.
-Ačkoli je vždy lepší rozumět tomu, co děláte (a proč), můžete jednoduše následovat níže uvedené pokyny k přispívání.
+K recenzování obsahu nemusíte být odborníkem na GitHub. I když je vždy lepší rozumět tomu, co děláte (a proč), můžete jednoduše postupovat podle níže uvedených pokynů a přispívat.
 
-Pokud však nejste s prací s Git a GitHubem vůbec obeznámeni a chtěli byste se dozvědět více, můžete objevit náš úvodní článek o těchto nástrojích.
+Pokud však Git a GitHub neznáte a chcete se dozvědět více, můžete se podívat na náš úvodní článek o těchto nástrojích:
 
-https://planb.network/tutorials/others/basics-of-github
-
-
-
-## 1. Vytvořte účet
-* Vytvořte si účet na GitHubu, abyste mohli začít přispívat. Pokud potřebujete návod, jak si vytvořit účet na GitHubu, máme také podrobný tutoriál.
-
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+## 1. Vytvoření účtu
 
 
-## **2. Přejděte na stránku projektu ve vašem jazyce**
-* [Stránka projektu](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) obsahuje obsah ve vašem jazyce zobrazený na Kanbanové tabuli.
-* Hledejte karty ve sloupci "Review Needed" (viz **A**). To jsou problémy, které můžete recenzovat.
-* Každá karta detailně popisuje (viz **B**):
-	- **Typ obsahu**: Kurz, tutoriál nebo webová stránka
-	- **Obtížnost obsahu**
-	- **Naléhavost**
-	- **Počet slov**
-	- **Přidružená odměna**: Založeno na vlastnostech obsahu a přesnosti překladu (viz [sekce Odměn](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
-![review](assets/1.webp)
-## **3. Najít obsah k recenzi**
-* Ve sloupci "Potřebná recenze" klikněte na kartu.
-* Karta obsahuje popis s odkazy na původní obsah a soubor k recenzi (viz **A**).
-* Pokud si přejete provést recenzi, zanechte komentář, abychom věděli, že na tom budete pracovat (viz **B**).
-* Klikněte na odkaz vedle `Soubor k recenzi` (viz **C**)
+- Vytvořte si účet na [GitHub](https://github.com/) a začněte přispívat. Pokud chcete získat návod k vytvoření účtu GitHub, máme pro vás také podrobný návod:
 
-![review](assets/2.webp)
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-## **4. Recenzovat a upravovat obsah prostřednictvím rozhraní GitHub**
-* Nyní můžete vidět rozhraní GitHub souboru k recenzi.
-* Levý panel umožňuje navigovat vaší větví (viz **A**) a soubory (viz **B**).
-* Klikněte na ikonu pera, abyste začali recenzi (viz **C**).
+- Budete také potřebovat účet v aplikaci pro zasílání zpráv [Telegram](https://telegram.org/).
 
-![review](assets/3.webp)
+## 2. Připojte se ke skupině Telegram
 
-* Pokud to děláte poprvé, GitHub vás požádá o vytvoření forku repozitáře.
 
-![review](assets/4.webp)
+- Připojte se ke [skupině PBN Content Builder](https://t.me/PlanBNetwork_ContentBuilder) na Telegramu.
 
-* Dále se dostanete na rozhraní editoru (viz **A**), kde můžete vidět cestu k souboru a odpovídající větev (viz **B**), a můžete přepínat mezi režimem úprav a režimem náhledu (viz **C**).
+![REVIEW](assets/fr/01.webp)
 
-![review](assets/5.webp)
 
-NB. Recenze se nejlépe provádí v okně kódu s původním obsahem v samostatném okně vedle něj.
+- Stručně se představte a ve zprávě do kanálu "Obecné" uveďte obsah, do kterého chcete přispívat, a jazyk.
+- Člen týmu poté vytvoří na GitHubu problém, do kterého můžete v budoucnu přispět. Tam najdete všechny informace potřebné k zahájení recenze.
 
-## **5. Potvrdit změny**
+![REVIEW](assets/fr/02.webp)
 
-* Když chcete ukončit recenzi, můžete změny potvrdit, i když recenze není dokončena – je to trochu jako "uložení změn na GitHubu".
-* Klikněte na tlačítko "Potvrdit změny" (viz **A**).
+## 3. Prohlížení a úpravy obsahu prostřednictvím rozhraní GitHubu
 
-![review](assets/6.webp)
-* Přidejte popisnou zprávu o vaší změně (viz **B**).* Přidejte více kontextu do popisu, pokud je to nutné (viz **C**).
-* Klikněte na tlačítko "Navrhnout změny" (viz **D**).
 
-![review](assets/7.webp)
+- Vydání obsahuje popis (viz **A**) s odkazy na původní obsah a soubor k přezkoumání.
+- Pokud chcete převzít kontrolu, zanechte k danému problému komentář (viz **B**) a uveďte, že na něm budete pracovat. Předejdete tak duplicitnímu úsilí.
+- Kliknutím na odkaz vedle souboru k prohlížení (viz **C**) získáte přístup k obsahu.
 
-* Tím se otevře stránka návrhu PR (Pull Request).
+![REVIEW](assets/fr/03.webp)
 
-## **6. Vytvořit PR s věnovanou větví**
-![review](assets/8.webp)
 
-* Můžete ověřit, že tento PR požaduje sloučení vaší větve s věnovanou větví odpovídajícího jazyka (viz **A**).
-* Dejte PR popisný název (viz **B**).
-* Přidejte kontext do popisu (viz **C**).
-* Pokud není dokončeno, klikněte na šipku vedle "Vytvořit Pull Request" a vyberte "Draft PR" (viz **D**).
-* Klikněte na "Draft Pull Request."
-* Gratulujeme k vašemu prvnímu PR!
+- Nyní můžete zobrazit rozhraní GitHubu souboru, který chcete zkontrolovat.
+- Levý panel umožňuje procházet větve (viz **A**) a soubory (viz **B**).
+- Kliknutím na ikonu tužky zahájíte prohlížení (viz **C**).
 
-## **7. Pokračovat v recenzi později**
-* Pokud jste recenzi nedokončili a přejete si pokračovat ve své práci, přejděte na váš fork repozitáře PlanB-Network prostřednictvím vašeho profilu na GitHubu.
-* Vyberte odpovídající větev.
-* Přejmenujte větev, pokud je to nutné.
-* Najděte svůj soubor s obsahem a klikněte na tlačítko tužky, abyste pokračovali v recenzi.
+![REVIEW](assets/fr/04.webp)
 
-## **8. Potvrďte přímo na vaší vlastní větvi**
-* Provádějte potvrzení, aby jste ověřili změny přímo na vaší větvi, jak postupujete.
 
-## **9. Dokončete a nastavte PR jako připravené k recenzi**
-* Přejděte na kartu "Pull Requests".
-* Vyberte svůj PR.
-* Klikněte na "Připraveno k recenzi".
+- Pokud se jedná o váš první příspěvek, GitHub vás vyzve k forknutí zdrojového repozitáře. Stačí kliknout na toto tlačítko.
 
-## 10. Čekání na recenzi
-* Po schválení vás Découvre Bitcoin kontaktuje, aby vám poslal vaši odměnu přes LN.
-* Pokud si přejete začít znovu, vraťte se ke kroku 2 a pokračujte ve přispívání k dalším obsahům.
-* Pokud máte připomínky, otázky nebo komentáře k tomuto projektu, můžete poslat DM na Telegramu na @asi0_flammeus.
+![REVIEW](assets/fr/05.webp)
+
+
+- Poté se dostanete do rozhraní Editoru (viz **A**), kde můžete zobrazit cestu k souboru a odpovídající větev (viz **B**) a přepínat mezi režimy úprav a náhledu (viz **C**).
+
+![REVIEW](assets/fr/06.webp)
+
+POZN. Doporučujeme prohlížet v okně kódu, přičemž původní obsah se zobrazí v samostatném okně. Text si můžete prohlédnout například na webu sítě Plan ₿ nebo v náhledu na GitHubu na kartě prohlížeče. Pomocí `ctrl + F` vyhledejte chyby a proveďte opravy v zobrazení kódu za chodu.
+
+## 4. Odevzdat změny
+
+
+- Obsah můžete začít kontrolovat a podle potřeby opravovat.
+- Pokud chcete relaci pozastavit, můžete změny odevzdat, i když revize není dokončena. Je to jako ukládání vašeho postupu na GitHubu.
+- Klikněte na tlačítko "Odevzdat změny...".
+
+![REVIEW](assets/fr/07.webp)
+
+
+- Přidejte popisnou zprávu pro své změny (viz **A**).
+- V případě potřeby doplňte do popisu další souvislosti (viz **B**).
+- Klikněte na tlačítko "Navrhnout změny" (viz **C**).
+
+![REVIEW](assets/fr/08.webp)
+
+
+- Pokud to není váš první příspěvek, GitHub vás vyzve k vytvoření nové větve. Nikdy byste neměli provádět revize přímo do hlavní větve `dev`. Pokud jste již provedli revize v existující pracovní větvi, vyberte tuto větev. V opačném případě zvolte možnost "Vytvořit novou větev" a vytvořte novou větev.
+
+![REVIEW](assets/fr/13.webp)
+
+
+- Poté se zobrazí stránka se souhrnem všech změn. Jejím procházením si můžete prohlédnout přesné změny: odstraněné položky se zobrazují červeně, zatímco přidané položky zeleně.
+
+![REVIEW](assets/fr/09.webp)
+
+
+- Pokud jste kontrolu nedokončili a chcete v práci pokračovat později, můžete ji jednoduše ukončit.
+- Pokud jste změny odevzdali, jsou uloženy na vaší vidlici GitHubu.
+- Chcete-li pokračovat v práci, přejděte do svého forku úložiště obsahu sítě Plan ₿ prostřednictvím svého profilu na GitHubu.
+
+![REVIEW](assets/fr/14.webp)
+
+
+- Vyberte větev obsahující váš postup (viz **A**), vyhledejte soubor s obsahem (viz **B**) a pokračujte v prohlížení kliknutím na ikonu tužky.
+
+![REVIEW](assets/fr/15.webp)
+
+## 5. Vytvoření PR s vyhrazenou větví
+
+
+- Pokud vše vypadá dobře a dokončili jste změny, klikněte na zelené tlačítko "Create Pull Request".
+
+![REVIEW](assets/fr/10.webp)
+
+
+- Poté se dostanete na stránku PR. Žádost o vytažení je žádost o odeslání změn provedených ve větvi vzdáleného úložiště ke kontrole a případnému sloučení do hlavní větve.
+- Přidejte k PR název a krátký popis. Název by měl odpovídat tématu, na kterém pracujete. Například pokud je název čísla `[PŘEKLAD] Kurz CYP201 - FR`, použijte stejný název pro svou PR (viz **A**). V popisu uveďte související vydání pomocí jeho čísla, před kterým bude uvedeno "Uzavírá". Tím se problém po sloučení PR automaticky uzavře (viz **B**).
+- Pokud vše vypadá dobře, klikněte na zelené tlačítko "Create Pull Request" (viz **C**).
+
+![REVIEW](assets/fr/11.webp)
+
+## 6. Počkejte na recenzi
+
+
+- Gratulujeme, vaše PR bylo odesláno! Jeho průběh můžete sledovat v záložce "Pull requests" v úložišti [Plan ₿ Network's GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+
+![REVIEW](assets/fr/12.webp)
+
+
+- Děkujeme vám za váš příspěvek! Po schválení vás bude kontaktovat člen týmu Plan ₿ Network a zašle vám odměnu. **Platby probíhají výhradně prostřednictvím sítě Lightning Network**.
+- Pokud chcete začít znovu, vraťte se ke kroku 2 a pošlete novou zprávu do skupiny Telegram, abyste mohli pokračovat v přispívání k dalšímu obsahu. Před vytvořením nové pracovní větve nezapomeňte synchronizovat svůj fork. To provedete tak, že přejdete na domovskou stránku své vidlice, vyberete hlavní větev s názvem `dev` (viz **A**) a kliknete na tlačítko "Sync fork" (viz **B**). Pokud jsou pro vaši fork k dispozici aktualizace, zobrazí se tlačítko "Aktualizovat větev". Kliknutím na něj jednoduše proveďte aktualizaci.
+
+![REVIEW](assets/fr/16.webp)
+
+
+- Pokud máte k tomuto projektu nějaké připomínky, dotazy nebo komentáře, neváhejte poslat DM [do skupiny přispěvatelů na Telegramu](https://t.me/PlanBNetwork_ContentBuilder).

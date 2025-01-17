@@ -1,0 +1,9 @@
+question: Pada tahun berapa sistem Liberty Reserve ditutup oleh otoritas AS?
+answer: 2013
+wrong_answers:
+  - 2007
+  - 2009
+  - 2011
+explanation: |
+  Pada tanggal 24 Mei 2013, pendirinya, Arthur Budovsky, dan rekan utamanya didakwa dan ditangkap, serta situs utama disita oleh Departemen Kehakiman AS.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Was ist der Zweck des HTLC-out in Alice's Commitment-Transaktion?
-answer: Es repräsentiert das HTLC, das Alice an die Empfängerin Susie sendet.
-wrong_answers:
-  - Es repräsentiert das HTLC, das Alice von Bob erhält.
-  - Es repräsentiert das HTLC, das Alice an Bob sendet.
-  - Es repräsentiert das HTLC, das Alice von Susie erhält.
-explanation: |
-  In dem gegebenen Szenario sendet Alice ein HTLC an Susie. Dies wird in Alice's Commitment-Transaktion als HTLC-out dargestellt.
-reviewed: false

@@ -14,7 +14,7 @@ Más allá de tutoriales y formación, PlanB Network también ofrece una vasta b
 ![event](assets/01.webp)
 - Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) en la sección `resources/bet/`:
@@ -47,7 +47,7 @@ contributors:
 ```
 - **`builder`**: Indica el identificador de tu organización en la Red PlanB. Si aún no tienes un identificador de "constructor" para tu empresa, puedes crear uno siguiendo este tutorial.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Si no tienes uno, puedes simplemente usar tu nombre, tu pseudónimo o el nombre de tu empresa sin haber creado un perfil de constructor.
 - **`type`**: Selecciona la naturaleza de tu contenido entre las siguientes dos opciones:

@@ -1,0 +1,11 @@
+question: Hva er et vanlig kjennetegn ved Ponzi-svindler i kryptovalutaområdet?
+answer: De bruker nye investorers penger til å betale eldre deltakere.
+wrong_answers:
+  - De involverer alltid Bitcoin.
+  - De er alltid lovlige og regulerte.
+  - De involverer alltid fysiske eiendeler.
+explanation: |
+  Ponzi-svindler i kryptovalutaområdet opererer ofte ved å bruke nye
+  investorers penger til å betale eldre deltakere. Denne uholdbare naturen og avhengigheten
+  av nye ankomster gjør dem sannsynlig til å uunngåelig kollapse.
+reviewed: false

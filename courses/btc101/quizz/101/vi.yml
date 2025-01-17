@@ -1,11 +1,8 @@
-question: Phương pháp tiêu chuẩn để sao lưu khóa riêng trong ví Bitcoin là gì?
-answer: Nhập cụm từ ghi nhớ của bạn vào bất kỳ phần mềm ví nào
+question: Phương pháp tiêu chuẩn để khôi phục ví của bạn là gì?
+answer: Nhập cụm từ ghi nhớ của bạn vào bất kỳ phần mềm ví nào.
 wrong_answers:
-  - Lưu cụm từ ghi nhớ của bạn trong một tệp số
-  - Viết cụm từ ghi nhớ của bạn lên bảng trắng
-  - Chia sẻ cụm từ ghi nhớ của bạn với một người bạn đáng tin cậy
-explanation: |
-  Phương pháp tiêu chuẩn để sao lưu khóa riêng trong ví Bitcoin
-  là bằng cách nhập cụm từ ghi nhớ của bạn vào bất kỳ phần mềm ví nào. Điều này cho phép bạn
-  khôi phục ví của mình.
-reviewed: true
+  - Lưu cụm từ ghi nhớ của bạn trong một tệp số.
+  - Viết cụm từ ghi nhớ của bạn lên bảng trắng.
+  - Chia sẻ cụm từ ghi nhớ của bạn với một người bạn đáng tin cậy.
+explanation:
+  Phương pháp tiêu chuẩn để sao lưu khóa riêng trong một ví Bitcoin là bằng cách nhập cụm từ ghi nhớ của bạn vào bất kỳ phần mềm ví nào. Điều này cho phép bạn khôi phục ví của mình.

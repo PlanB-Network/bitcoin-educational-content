@@ -1,9 +1,11 @@
 question: Cos'è il trilemma della blockchain?
-answer: Un protocollo basato su una blockchain può soddisfare solo due dei seguenti tre elementi; decentralizzazione, sicurezza e scalabilità.
+answer: Un protocollo basato su una blockchain può soddisfare solo due dei criteri tra decentralizzazione, sicurezza e scalabilità.
 wrong_answers:
-  - Un protocollo basato su una blockchain può soddisfare solo uno dei tre elementi; decentralizzazione, sicurezza e scalabilità.
-  - Un protocollo basato su una blockchain può soddisfare tutti e tre gli elementi; decentralizzazione, sicurezza e scalabilità.
-  - Un protocollo basato su una blockchain non può soddisfare nessuno dei tre elementi; decentralizzazione, sicurezza e scalabilità.
+  - Un protocollo basato su una blockchain può soddisfare solo uno dei criteri tra decentralizzazione, sicurezza e scalabilità.
+  - Un protocollo basato su una blockchain può soddisfare tutti i criteri di decentralizzazione, sicurezza e scalabilità.
+  - Un protocollo basato su una blockchain non può soddisfare nessuno dei criteri di decentralizzazione, sicurezza e scalabilità.
 explanation: |
-  Il trilemma della blockchain si riferisce alla sfida che un protocollo basato su una blockchain può soddisfare solo due dei tre elementi: decentralizzazione, sicurezza e scalabilità.
-reviewed: false
+  Il trilemma della blockchain si riferisce alla sfida secondo cui un
+  protocollo basato su una blockchain può soddisfare solo due criteri su
+  tre: decentralizzazione, sicurezza e scalabilità.
+reviewed: true

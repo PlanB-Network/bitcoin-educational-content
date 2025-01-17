@@ -1,9 +1,12 @@
-question: A cosa era spesso collegata la prima forma di valuta?
-answer: Beni essenziali come grano, bestiame e altre merci
+question: Quali sono state le prime forme di valuta?
+answer: Beni come grano e bestiame.
 wrong_answers:
-  - Oro e argento
-  - Banconote di carta
-  - Asset digitali
+  - Oro e argento.
+  - Banconote di carta.
+  - Asset digitali.
 explanation: |
-  La prima forma di valuta era spesso collegata a beni essenziali come grano, bestiame e altre merci. Tuttavia, questi beni avevano svantaggi significativi, come la deperibilità, rendendo difficile utilizzarli come mezzo di risparmio a lungo termine.
-reviewed: false
+  Le prime forme di valuta erano spesso legate a beni essenziali
+  come grano, bestiame e altre merci. Tuttavia, questi beni
+  avevano grandi svantaggi, come la peribilità, rendendo
+  difficile utilizzarli come mezzo di risparmio a lungo termine.
+reviewed: true

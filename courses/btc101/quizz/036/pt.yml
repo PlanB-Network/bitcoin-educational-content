@@ -1,9 +1,12 @@
-question: O que significa o termo 'fiduciário' no contexto das moedas?
-answer: Refere-se a moedas que não possuem valor intrínseco e dependem da confiança nas instituições que as regulam.
+question: O que significa o termo fiduciário no contexto das moedas?
+answer: Refere-se a moedas que são valiosas apenas por causa da confiança na instituição central que as regula.
 wrong_answers:
-  - Refere-se a moedas lastreadas em ouro.
-  - Refere-se a moedas usadas apenas para transações fiduciárias.
-  - Refere-se a moedas usadas apenas dentro de uma instituição específica.
+  - Refere-se a moedas que são respaldadas por ouro e emitidas por pequenos bancos comerciais.
+  - Refere-se a moedas que são valiosas apenas para transações fiduciárias.
+  - Refere-se a moedas que são usadas apenas dentro de uma instituição específica.
 explanation: |
-  Moedas fiduciárias são aquelas que não são lastreadas por uma mercadoria física, como ouro ou prata. Seu valor é derivado da confiança e da confiança que as pessoas têm nas instituições que as emitem e regulam.
-reviewed: false
+  Moedas fiduciárias não são respaldadas por uma commodity física
+  como ouro ou prata. Seu valor é derivado da confiança
+  e confiança que as pessoas têm nas instituições que as emitem
+  e regulam.
+reviewed: true

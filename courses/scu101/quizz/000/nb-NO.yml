@@ -1,0 +1,13 @@
+question: Hva er hovedforskjellen mellom privat nettlesing og bruk av TOR-nettverket?
+answer: Tor maskerer brukerens IP-adresse, mens privat nettlesing ikke gjør det.
+wrong_answers:
+  - Privat nettlesing og TOR er det samme.
+  - Privat nettlesing maskerer brukerens IP-adresse, mens TOR ikke gjør det.
+  - TOR etterlater lokale spor på datamaskinen din, mens privat nettlesing ikke gjør det.
+explanation: |
+  Privat nettlesing er en funksjon som forhindrer at internettlesere lagrer
+  nettlesingshistorikk, midlertidige internettfiler, skjemadata, informasjonskapsler og brukernavn og
+  passord. Imidlertid skjuler det ikke nettlesingen fra din internettleverandør.
+  På den andre siden tilbyr TOR-nettverket anonymitet ved å maskere brukerens IP-adresse
+  og tillater tilgang til Darknet.
+reviewed: false

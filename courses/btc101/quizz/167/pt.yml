@@ -1,9 +1,13 @@
-question: Qual é a principal crítica do sistema financeiro atual em relação ao meio ambiente?
+question: Qual é o principal problema do sistema financeiro atual em relação ao meio ambiente?
 answer: Ele incentiva o consumo excessivo e a dívida.
 wrong_answers:
   - Ele promove o uso de combustíveis fósseis.
   - Ele não investe em energia renovável.
   - Ele não regula a produção de bens.
 explanation: |
-  O sistema financeiro atual é criticado por incentivar o consumo excessivo e a dívida, o que gera sérios problemas ambientais. Isso ocorre devido ao fácil acesso ao crédito, à emissão monetária pelos bancos e ao uso da reserva fracionária bancária.
-reviewed: false
+  O sistema financeiro atual é criticado por incentivar
+  o consumo excessivo e a dívida, o que representa sérios
+  problemas ambientais. Isso se deve ao fácil acesso ao
+  crédito, à emissão monetária pelos bancos e ao uso
+  do sistema de reserva fracionária.
+reviewed: true

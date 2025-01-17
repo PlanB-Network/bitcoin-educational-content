@@ -1,0 +1,5 @@
+description: |
+  Bitcoin Core là phần mềm mã nguồn mở tham chiếu cho hệ thống Bitcoin và vẫn là triển khai chính của giao thức Bitcoin cho đến ngày nay. Nó được phát triển và duy trì bởi một nhóm lớn các tình nguyện viên đóng góp. Ban đầu được gọi là “Bitcoin Qt,” đây là khách hàng thứ ba trong lịch sử Bitcoin, sau Bitcoin của Satoshi Nakamoto và Bitcoind. Nó được phát triển từ mã gốc của Satoshi và giới thiệu giao diện người dùng đồ họa. Đáng chú ý, giao diện đồ họa của Bitcoin Core vẫn được gọi là bitcoin-qt ngày nay. Kể từ phiên bản 0.5, nó được cung cấp cùng với bitcoind. Bitcoin Core phục vụ nhiều mục đích. Đầu tiên, nó hoạt động như một khách hàng nút đầy đủ. Bitcoin Core cũng bao gồm một ví (wallet) dành cho người dùng muốn lưu trữ, quản lý và thực hiện giao dịch trực tiếp với Bitcoin Core.
+
+contributors:
+  - pretty-private

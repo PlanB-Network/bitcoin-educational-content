@@ -1,0 +1,11 @@
+question: Apa ciri utama dari blockchain tanpa bukti kerja?
+answer: Tidak memiliki nilai nyata
+wrong_answers:
+  - Lebih aman
+  - Lebih cepat
+  - Lebih terdesentralisasi
+explanation: |
+  Konten bab menyatakan bahwa tanpa bukti kerja, sebuah blockchain
+  tidak memiliki nilai nyata. Ini adalah ciri khas yang membedakan Bitcoin dari
+  mata uang kripto lainnya.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Jaká je velikost veřejného klíče Bitcoinu?
-answer: 512bitové číslo
+question: Který Bitcoinový standard zavádí hierarchické deterministické peněženky?
+answer: BIP32
 wrong_answers:
-  - 256bitové číslo
-  - 128bitové číslo
-  - 1024bitové číslo
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  V systému Bitcoinu je použit unikátní soukromý klíč k odvození 512bitového veřejného klíče.
+  BIP32 definuje fungování HD peněženek, což umožňuje hierarchickou derivaci soukromých klíčů ze seedu.
 reviewed: false

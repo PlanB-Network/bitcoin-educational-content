@@ -1,0 +1,9 @@
+question: Adam Smithi sõnul, miks turg toimib?
+answer: Kuna see põhineb isiklikul huvil
+wrong_answers:
+  - Kuna see on reguleeritud
+  - Kuna see on vooruslik
+  - Kuna seda jälgib riik
+explanation: |
+  Adam Smithi jaoks toimib turg, kuna iga üksikisik tegutseb oma isikliku huvi järgi, mis loomulikult genereerib kollektiivset heaolu.
+reviewed: false

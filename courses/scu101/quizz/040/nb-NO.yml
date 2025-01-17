@@ -1,0 +1,12 @@
+question: Hva er forskjellen mellom LastPass og Dashlane?
+answer: Begge er tredjepartstjenester, men Dashlane tilbyr ekstra funksjoner som sporing av kredittkortinformasjon og sikre notater.
+wrong_answers:
+  - LastPass er en tredjepartstjeneste, mens Dashlane er en selvhostet tjeneste.
+  - Dashlane er en tredjepartstjeneste, mens LastPass er en selvhostet tjeneste.
+  - Det er ingen forskjell, de tilbyr de samme funksjonene.
+explanation: |
+  Både LastPass og Dashlane er tredjepartstjenester, noe som betyr at passordene dine
+
+  lagres på deres servere. Dashlane tilbyr imidlertid ekstra funksjoner som sporing
+
+  av kredittkortinformasjon og sikre notater.

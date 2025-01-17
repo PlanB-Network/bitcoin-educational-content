@@ -1,0 +1,9 @@
+question: Mis on peatüki järgi Hodleri olemise kõige raskem osa?
+answer: Mitte midagi tegemine ja Bitcoini hoidmine.
+wrong_answers:
+  - Bitcoini ostmine.
+  - Külma rahakoti seadistamine.
+  - Pärandiplaani seadistamine.
+explanation: |
+  Peatükk mainib, et Hodleri olemise kõige raskem osa on mitte midagi tegemine, st vastupanu müügikiusatusele ja Bitcoini pikaajaline hoidmine.
+reviewed: false

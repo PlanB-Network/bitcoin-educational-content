@@ -1,9 +1,9 @@
-question: Cosa succede quando Alice cerca di imbrogliare pubblicando una vecchia transazione di impegno?
-answer: Bob usa la chiave di revoca per punire Alice e prendere tutti i SAT dal canale.
+question: Qual è il ruolo principale del nodo mittente nel routing sulla Lightning Network?
+answer: Calcolare l'intero percorso fino al destinatario
 wrong_answers:
-  - Alice viene premiata per la sua astuzia.
-  - Alice e Bob dividono i SAT dal canale.
-  - La transazione viene rifiutata e non succede nulla.
+  - Memorizzare le informazioni sulla liquidità di tutti i canali della rete
+  - Determinare le commissioni di transazione per ogni nodo intermediario
+  - Comunicare direttamente con tutti i nodi intermediari
 explanation: |
-  La Lightning Network ha un meccanismo per prevenire l'imbroglio. Se Alice cerca di imbrogliare pubblicando una vecchia transazione di impegno, Bob può usare la chiave di revoca per punire Alice e prendere tutti i SAT dal canale.
+  Il nodo mittente è responsabile del calcolo dell'intero percorso fino al destinatario, poiché i nodi intermedi conoscono solo il loro vicino immediato.
 reviewed: false

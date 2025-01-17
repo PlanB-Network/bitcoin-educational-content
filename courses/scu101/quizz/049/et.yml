@@ -1,0 +1,8 @@
+question: Miks ei peeta SMS-i parimaks valikuks 2FA jaoks?
+answer: See annab ainult tõendi telefoninumbri olemasolust.
+wrong_answers:
+  - See on liiga kallis
+  - See on liiga aeglane
+  - Selle seadistamine on liiga keeruline
+explanation: |
+  SMS-i ei peeta parimaks valikuks 2FA jaoks, kuna see annab ainult tõendi telefoninumbri olemasolust, mitte isikutõendi.

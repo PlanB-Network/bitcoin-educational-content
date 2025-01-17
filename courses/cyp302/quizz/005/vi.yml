@@ -1,0 +1,9 @@
+question: Mục tiêu chính của mật mã học cổ điển mà vẫn còn tồn tại trong mật mã học hiện đại là gì?
+answer: Bảo mật thông điệp
+wrong_answers:
+  - Sự đơn giản hóa của thông điệp
+  - Sự lặp lại của thông điệp
+  - Sự tự động hóa của việc gửi thông điệp
+explanation: |
+  Mật mã học cổ điển chủ yếu tập trung vào bảo mật, và mục tiêu này vẫn là cốt lõi trong mật mã học hiện đại, mặc dù các chủ đề khác như tính toàn vẹn và xác thực đã được thêm vào.
+reviewed: false

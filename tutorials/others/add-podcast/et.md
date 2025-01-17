@@ -8,7 +8,7 @@ PlanB missiooniks on pakkuda tipptasemel haridusressursse Bitcoin'i kohta võima
 
 Kas soovite lisada oma Bitcoin podcasti PlanB võrgu saidile ja suurendada oma saate nähtavust, kuid ei tea, kuidas? See õpetus on teile!
 ![podcast](assets/01.webp)
-- Esiteks peate omama GitHubi kontot. Kui te ei tea, kuidas seda luua, oleme koostanud [üksikasjaliku juhendi, mis aitab teid](https://planb.network/tutorials/others/create-github-account).
+- Esiteks peate omama GitHubi kontot. Kui te ei tea, kuidas seda luua, oleme koostanud [üksikasjaliku juhendi, mis aitab teid](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Minge [PlanB andmetele pühendatud GitHubi repositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) jaotisesse `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:

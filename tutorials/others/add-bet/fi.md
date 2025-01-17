@@ -14,7 +14,7 @@ Haluatko osallistua tämän tietokannan rikastuttamiseen, mutta et tiedä miten?
 ![tapahtuma](assets/01.webp)
 - Ensimmäiseksi sinun on oltava tili GitHubissa. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` -osiossa:
@@ -49,7 +49,7 @@ contributors:
 Tässä ovat tiedot, jotka sinun tulee täyttää kullekin kentälle:
 - **`builder`**: Ilmoita organisaatiosi tunniste PlanB-verkostossa. Jos sinulla ei vielä ole "builder"-tunnistetta yrityksellesi, voit luoda sellaisen seuraamalla tätä opasta.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Jos sinulla ei ole tunnistetta, voit yksinkertaisesti käyttää nimeäsi, nimimerkkiäsi tai yrityksesi nimeä ilman, että olet luonut builder-profiilia.
 - **`type`**: Valitse sisältösi luonne seuraavista kahdesta vaihtoehdosta:

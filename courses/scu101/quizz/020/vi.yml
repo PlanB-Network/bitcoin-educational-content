@@ -1,9 +1,11 @@
-question: Phần mềm antivirus tích hợp sẵn trong Windows là gì?
+question: Antivirus tích hợp sẵn trong Windows là gì?
 answer: Windows Defender
 wrong_answers:
   - Kaspersky
   - Norton
   - McAfee
 explanation: |
-  Windows Defender là phần mềm antivirus tích hợp sẵn trong Windows. Đây là một giải pháp an toàn và hiệu quả để bảo vệ hệ thống khỏi các mối đe dọa.
-reviewed: false
+  Windows Defender là antivirus tích hợp sẵn trong Windows. Đây
+  là một giải pháp an toàn và hiệu quả để bảo vệ hệ thống
+  khỏi các mối đe dọa.
+reviewed: true

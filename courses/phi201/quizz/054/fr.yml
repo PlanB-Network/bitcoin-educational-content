@@ -1,8 +1,9 @@
 question: Quels sont les moyens utilisés par les rois pour affirmer leur souveraineté face à l'Église ?
-answer: Toutes les réponses précédentes sont correctes.
+answer: Toutes les autres réponses sont correctes.
 wrong_answers:
   - Le développement d'un appareil d'État centralisé et puissant.
   - La création de leurs propres systèmes juridiques et fiscaux.
   - La levée d'armées et la conduite de guerres contre l'Église.
-explanation: 
+explanation: |
+  Pour affirmer leur souveraineté face à l'Église, les rois ont renforcé leur pouvoir en centralisant l'État, en instituant leurs propres systèmes juridiques et fiscaux, et parfois en opposant des armées pour contester l'influence ecclésiastique.
 reviewed: false

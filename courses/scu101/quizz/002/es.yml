@@ -1,9 +1,12 @@
 question: ¿Por qué se recomienda descargar software desde el sitio web oficial del editor en lugar de sitios genéricos?
-answer: Para asegurarse de que el software esté libre de software malicioso.
+answer: Para asegurar que el software esté libre de software malicioso.
 wrong_answers:
   - Para apoyar financieramente al editor.
   - Porque el software suele ser más barato en el sitio web oficial.
   - Porque el software en sitios genéricos suele estar desactualizado.
 explanation: |
-  Descargar software desde el sitio web oficial del editor garantiza que estás obteniendo la versión legítima del software, que está libre de cualquier software malicioso que pueda dañar tu dispositivo o robar tus datos.
-reviewed: false
+  Descargar software desde el sitio web oficial del
+  editor asegura que estás obteniendo la versión legítima
+  del software, la cual está libre de cualquier software
+  malicioso que podría dañar tu dispositivo o robar tus datos.
+reviewed: true

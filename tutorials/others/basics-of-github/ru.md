@@ -57,5 +57,5 @@ GitHub - это гораздо больше, чем просто сервис х
 
 Этот список, конечно, не исчерпывающий. Существует много других технических терминов, специфичных для Git и GitHub. Однако упомянутые здесь являются основными, с которыми вы часто будете сталкиваться.
 После прочтения этой статьи возможно, что некоторые аспекты Git и GitHub все еще остаются для вас непонятными. Я настоятельно рекомендую вам начать использовать эти инструменты самостоятельно. Практика часто является лучшим способом понять, как работает машина! И для начала вы можете ознакомиться с этими 2 другими учебными пособиями:
-**[Создайте свой аккаунт на GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Настройка вашего локального окружения для вклада в PlanB Network](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Создайте свой аккаунт на GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Настройка вашего локального окружения для вклада в PlanB Network](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**

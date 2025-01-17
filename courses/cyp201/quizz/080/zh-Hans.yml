@@ -1,0 +1,8 @@
+question: 用于表示SegWit v0地址的编码是什么？
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  SegWit v0地址，例如P2WPKH和P2WSH，使用了随SegWit一起引入的bech32编码。

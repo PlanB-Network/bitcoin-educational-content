@@ -1,0 +1,9 @@
+question: Mengapa jenis skrip yang kurang umum digunakan bisa lebih mudah diidentifikasi dibandingkan dengan skrip yang banyak digunakan?
+answer: Karena kelompok transaksi dengan jenis skrip yang sama lebih kecil.
+wrong_answers:
+  - Karena memerlukan lebih banyak validasi oleh penambang.
+  - Karena menggunakan algoritma enkripsi yang lebih lemah.
+  - Karena lebih sering ditolak oleh node jaringan Bitcoin.
+explanation: |
+  Jika total kelompok transaksi dengan jenis skrip yang sama di mana kita bersembunyi kecil, kita akan lebih mudah diidentifikasi daripada dalam kelompok transaksi yang sangat besar.
+reviewed: false

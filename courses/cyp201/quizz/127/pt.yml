@@ -1,9 +1,0 @@
-question: O que é um endereço de recebimento no Bitcoin?
-answer: Uma representação alfanumérica de uma chave pública comprimida.
-wrong_answers:
-  - Um identificador único para cada transação de Bitcoin.
-  - Uma senha para acessar uma carteira de Bitcoin.
-  - Uma assinatura digital para transações de Bitcoin.
-explanation: |
-  Um endereço de recebimento no Bitcoin é uma representação alfanumérica de uma chave pública comprimida. É usado para receber transações de Bitcoin.
-reviewed: false

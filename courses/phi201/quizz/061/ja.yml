@@ -1,0 +1,9 @@
+question: Henri Pirenneが新興資本主義の発祥地と考えるイタリアの商業都市はどこですか？
+answer: ヴェネツィア。
+wrong_answers:
+  - ジェノヴァ。
+  - フィレンツェ。
+  - 上記すべて。
+explanation: |
+  Henri Pirenneは、海上貿易における中心的な役割と、パートナーシップや信用などの先進的な商業慣行の早期発展のため、ヴェネツィアを資本主義の発祥地と考えています。
+reviewed: false

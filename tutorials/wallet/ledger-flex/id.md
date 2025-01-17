@@ -296,7 +296,7 @@ Anda dapat menambahkan "*Label*" untuk menggambarkan sumber bitcoin yang akan di
 
 Untuk informasi lebih lanjut tentang pelabelan, saya juga menyarankan Anda untuk melihat tutorial lain ini:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Anda kemudian dapat menggunakan alamat ini untuk menerima bitcoin.
 

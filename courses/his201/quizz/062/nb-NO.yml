@@ -1,0 +1,8 @@
+question: Hva innebærer det å estimere hash-raten til et kooperativt medlem gjennom delvis proof of work?
+answer: Å hente arbeidsbevis av lavere grad enn nettverksvanskeligheten som er produsert av hasheren
+wrong_answers:
+  - Å hente avtrykket av et stempel som inkluderer den første byten av hver blokk-hash produsert av hasheren
+  - Å hente hasherens strømregning hver måned
+  - Å hente arbeidsbevis produsert på et nettverk med lavere vanskelighet, som BitDNS
+explanation: |
+  Denne enkle metoden ble foreslått av ribuck, Nils Schneider, og Gavin Andresen [på forumet](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) den 14. oktober 2010. ()

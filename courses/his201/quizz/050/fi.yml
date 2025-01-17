@@ -1,0 +1,9 @@
+question: Kuka loi Mt. Gox -vaihtoalustan 18. heinäkuuta 2010, viikko sen jälkeen kun Bitcoin koki suuren slashdottingin?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+  Hän loi tämän tehokkaan markkinapaikan hetken mielijohteesta, huomattuaan kuinka vaikeaa oli saada bitcoineja vaihdettua dollareiksi (erityisesti Bitcoin Marketissa).
+reviewed: false

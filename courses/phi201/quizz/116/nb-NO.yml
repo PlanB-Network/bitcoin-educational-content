@@ -1,0 +1,9 @@
+question: Hvilken større hendelse markerte slutten på dollarens konverterbarhet til gull?
+answer: Nixon-sjokket
+wrong_answers:
+  - Den store depresjonen
+  - Oljesjokket
+  - Andre verdenskrig
+explanation: |
+  Nixon-sjokket, i 1971, avsluttet konverterbarheten av dollar til gull, noe som markerte slutten på Bretton Woods-systemet og begynnelsen på flytende valutakurser, ettersom USA ikke lenger kunne støtte utvekslingen av gull for dollar.
+reviewed: false

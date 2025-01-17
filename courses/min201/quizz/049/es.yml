@@ -1,9 +1,14 @@
-question: ¿Por qué los bitcoins vírgenes son especialmente buscados por los grandes jugadores institucionales?
-answer: Pueden garantizar la legitimidad de sus activos digitales ante las autoridades regulatorias.
+question: ¿Por qué los bitcoins vírgenes son particularmente buscados por grandes jugadores institucionales?
+answer: Pueden garantizar la legitimidad de sus activos digitales ante las autoridades reguladoras.
 wrong_answers:
   - Pueden venderlos a un precio más alto.
   - Pueden usarlos para actividades ilegales.
   - Pueden evitar pagar impuestos sobre ellos.
 explanation: |
-  Los bitcoins vírgenes son especialmente buscados por los grandes jugadores institucionales porque pueden garantizar la legitimidad de sus activos digitales ante las autoridades regulatorias. Estos bitcoins nunca han sido "contaminados", lo que proporciona cierta garantía contra el rechazo por parte de los reguladores o las principales plataformas de intercambio.
-reviewed: false
+  Los bitcoins vírgenes son particularmente buscados por grandes
+  jugadores institucionales porque pueden garantizar la
+  legitimidad de sus activos digitales ante las autoridades
+  reguladoras. Estos bitcoins nunca han sido contaminados,
+  proporcionando cierta garantía contra el rechazo por parte de reguladores o
+  plataformas de intercambio importantes.
+reviewed: true

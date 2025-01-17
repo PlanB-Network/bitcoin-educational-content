@@ -1,13 +1,9 @@
-question: What are the two essential elements that the foundation of the HD Wallet
-  relies on?
-answer: The mnemonic phrase and the passphrase.
+question: What prefix is used to indicate a compressed public key with an odd y-coordinate?
+answer: 0x03
 wrong_answers:
-  - The seed and the master private key.
-  - The master chain code and the seed.
-  - The mnemonic phrase and the master private key.
+  - 0x02
+  - 0x04
+  - 0x00
 explanation: |
-  The foundation of the HD Wallet relies on two essential elements; the
-  mnemonic phrase and the passphrase (optional additional password). Together, they
-  constitute the seed, a 512-bit alphanumeric sequence that serves as the basis for
-  deriving the wallet's keys.
+  The prefix 0x03 indicates a compressed public key with an odd y-coordinate.
 reviewed: false

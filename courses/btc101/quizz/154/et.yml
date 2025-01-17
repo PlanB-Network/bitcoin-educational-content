@@ -1,0 +1,12 @@
+question: Mis on ASICute roll Bitcoin'i kaevandamises?
+answer: ASICud on masinad, mis on loodud ainult SHA256 algoritmi rakendamiseks kaevandamisprotsessis.
+wrong_answers:
+  - ASICuid kasutatakse Bitcoin'i tehingute kinnitamiseks.
+  - ASICuid kasutatakse uute bitcoinide loomiseks.
+  - ASICuid kasutatakse Bitcoin'i võrgu turvamiseks.
+explanation: >-
+  ASICud (Application-Specific Integrated Circuits ehk rakendusspetsiifilised integraallülitused) on spetsialiseeritud riistvara,
+  mis on spetsiaalselt loodud Bitcoin'i kaevandamiseks. Need on optimeeritud SHA256
+  räsifunktsiooni sooritamiseks, mis on matemaatiline probleem, mille kaevurid peavad lahendama
+  Proof of Work'is (töötõendis).
+reviewed: false

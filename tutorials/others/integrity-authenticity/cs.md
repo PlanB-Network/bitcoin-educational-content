@@ -162,4 +162,4 @@ Pokud se vám tento návod líbil, ocenil bych palec nahoru níže. Neváhejte t
 
 Doporučuji také prohlédnout si tento další návod na VeraCrypt, software, který umožňuje šifrovat a dešifrovat úložná zařízení.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

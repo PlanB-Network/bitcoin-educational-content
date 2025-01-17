@@ -1,0 +1,9 @@
+question: Mikä on valtion rooli luonnollisen vapauden järjestelmässä Bastiat'n mukaan?
+answer: Suojella luonnollisia oikeuksia, kuten elämää, vapautta ja omaisuutta.
+wrong_answers:
+  - Jakaa uudelleen varallisuutta tasa-arvon lisäämiseksi.
+  - Asettamaan moraalisia arvoja lakien kautta.
+  - Kontrolloimaan ja säätelemään yhteiskunnan kaikkia aspekteja.
+explanation: |
+  Luonnollisen vapauden kehyksessä Bastiat uskoo, että valtion tulisi puuttua asioihin vain suojellakseen yksilöiden luonnollisia oikeuksia, puuttumatta heidän henkilökohtaisiin tai taloudellisiin valintoihinsa.
+reviewed: false

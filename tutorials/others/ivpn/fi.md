@@ -110,8 +110,8 @@ Päästäksesi lisäasetuksiin, klikkaa asetuskuvaketta.
 ![IVPN](assets/notext/32.webp)
 Ja siinä se, nyt olet varustautunut nauttimaan IVPN:stä täysin rinnoin. Jos haluat myös parantaa online-tiliesi turvallisuutta käyttämällä paikallista salasananhallintaa, suosittelen tutustumaan opastukseemme KeePassista, joka on ilmainen ja avoimen lähdekoodin ratkaisu:
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Jos olet kiinnostunut tutustumaan toiseen VPN-tarjoajaan, joka on samankaltainen kuin IVPN ominaisuuksiltaan ja hinnoittelultaan, suosittelen myös tutustumaan opastukseemme Mullvadista:
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

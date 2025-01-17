@@ -1562,30 +1562,11 @@ Tentu saja, **di negara lain, legislasi dan fungsi asosiasi berbeda**. Namun, ba
 
 
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Jaga Diri Anda
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Ketika seseorang jatuh ke dalam lubang kelinci, persepsi kita tentang banyak hal berubah.
-Hal ini kemudian mendorong kita untuk ingin lebih jauh lagi, ingin menemukan orang-orang lain yang melakukan pekerjaan mental yang sama dengan kita dan yang, juga, telah mengerti.
-Hal ini memotivasi kita, memberi kita lebih banyak keinginan untuk **memberikan batu kita ke bangunan** dan untuk berbagi penemuan kita: Bitcoin.
-Ini juga membawa kita untuk **berpikir tentang dunia esok, dunia yang ingin kita bangun, dan komunitas-komunitas yang sedang dalam proses membangunnya**.
-
-####
-
-**Dalam galeri panjang yang merupakan penciptaan sebuah komunitas, Anda akan perlu menunjukkan motivasi, strategi, pengorbanan diri, dan waktu**. Ini terkadang adalah tugas yang tidak berterima kasih; dan dalam usaha ini, lebih baik mengambil langkah demi langkah agar tidak menyakiti diri sendiri.
-**Jadi, pikirkan tentang diri Anda, batasan Anda**. Dan meskipun Bitcoin mungkin menghidupkan Anda siang dan malam, **jangan mencoba melakukan segalanya sendirian; jika tidak, Anda akan kelelahan**.
-
-Sebaliknya, **minta bantuan dari bitcoiner yang telah melalui galeri yang sama, yang telah menjelajahi masalah yang sama dan membangun alat yang sama**. Ini akan menghemat waktu Anda dalam jumlah yang luar biasa.
-
-**Juga usulkan kepada orang-orang yang akan mengikuti Anda dalam petualangan ini untuk membantu Anda, bahkan jika itu berarti mendelegasikan beberapa tugas** dan tugas-tugas tersebut mungkin memakan waktu lebih lama. Dalam jangka panjang, komunitas Anda akan muncul bersatu dan lebih matang.
-
-![image](assets/fr/chapter39/63.webp)
-Sendirian, seseorang dapat dengan cepat menjelajahi salah satu dari banyak galeri lubang kelinci Bitcoin, hingga mencapai ujungnya. Namun, ada perjalanan kembali yang harus dilakukan. Kemudian semua arah lain untuk dijelajahi. Sedangkan **dengan menciptakan dan/atau bergabung dengan komunitas para pengguna Bitcoin, dengan berbagi dan bertukar informasi dengan mereka secara rutin, Anda akan menjelajahi semua arah lubang kelinci Bitcoin secara bersamaan**.
-
-Barulah kemudian, jauh lebih cepat daripada jika Anda melakukannya sendirian, Anda dapat berkata: "Saya telah memahami Bitcoin".
-
+<isCourseConclusion>true</isCourseConclusion>

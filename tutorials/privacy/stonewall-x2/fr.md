@@ -49,7 +49,7 @@ La logique devrait donc être la suivante lorsque l'on souhaite utiliser un outi
 
 Si vous souhaitez trouver un collaborateur qui voudra bien vous assister dans une transaction Stonewall X2, vous pouvez également aller faire un tour sur ce groupe Telegram (non officiel) maintenu par des utilisateurs de Samourai pour faire rencontrer émetteurs et collaborateurs : [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> En savoir plus sur les transactions Stonewall**](https://planb.network/tutorials/privacy/stonewall)
+[**-> En savoir plus sur les transactions Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Quelle est l'utilité d'une transaction Stonewall x2 ?
 

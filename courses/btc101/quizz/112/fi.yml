@@ -1,12 +1,15 @@
-question: Miksi ostaa non-KYC bitcoineja?
-answer: Yksityisyytesi varmistamiseksi
+question: Miksi sinun pitäisi ostaa ei-KYC bitcoineja?
+answer: Yksityisyytesi varmistamiseksi.
 wrong_answers:
-  - Varmistaaksesi kaikkien Bitcoin-käyttäjien rekisteröinnin
-  - Ostamiseksi alhaiseen hintaan
-  - Myymiseksi alhaiseen hintaan
-explanation: >-
-  Non-KYC bitcoinien ostaminen tarkoittaa bitcoinien hankkimista ilman standardien 
-  Know Your Customer -varmennusmenettelyjen läpikäymistä, joita monet pörssit ja alustat vaativat.
-  Yksi pääsyy, miksi yksilöt saattavat valita tämän tien, on yksityisyyden ylläpitäminen,
-  varmistaen, että heidän henkilökohtaiset tietonsa ja taloudelliset toimensa pysyvät paljastamatta.
-reviewed: false
+  - Varmistaaksesi kaikkien Bitcoin-käyttäjien rekisteröinnin.
+  - Ostaaksesi alhaiseen hintaan.
+  - Myydäksesi alhaiseen hintaan.
+explanation: |
+  Ei-KYC bitcoinien ostaminen tarkoittaa bitcoinien hankkimista ilman
+  standardin Tunne asiakkaasi
+  varmennusmenettelyjä, joita monet pörssit ja alustat
+  vaativat. Yksi pääsyy, miksi yksilöt saattavat valita tämän
+  tien, on yksityisyyden ylläpitäminen, varmistaen, että heidän
+  henkilökohtaiset tiedot ja taloudelliset toimet pysyvät
+  paljastamattomina.
+reviewed: true

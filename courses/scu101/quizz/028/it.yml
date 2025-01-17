@@ -2,8 +2,10 @@ question: Qual è il primo vettore di attacco per gli hacker?
 answer: Email
 wrong_answers:
   - Social media
-  - Siti web di shopping online
-  - Siti web bancari
+  - Siti di shopping online
+  - Siti bancari
 explanation: |
-  Le email sono il primo vettore di attacco per gli hacker. Utilizzano tentativi di phishing per estrarre informazioni sensibili come le tue credenziali e password.
+  Le email sono il primo vettore di attacco per gli hacker. Utilizzano
+  tentativi di phishing per estrarre informazioni sensibili come
+  le tue credenziali e password.
 reviewed: false

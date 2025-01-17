@@ -1,0 +1,10 @@
+question: Hvordan kan du styrke standard sikkerheten til din Bitcoin-lommebok?
+answer: Ved å legge til en passfrase til din Bitcoin-lommebok
+wrong_answers:
+  - Ved å legge til en andre privatnøkkel til din Bitcoin-lommebok
+  - Ved å legge til en andre offentlig nøkkel til din Bitcoin-lommebok
+  - Ved å legge til en andre mnemonic frase til din Bitcoin-lommebok
+explanation: |
+  Hvis du ikke er fornøyd med standard sikkerheten til din Bitcoin-lommebok,
+  kan du alltid styrke den ved å legge til en passfrase til din Bitcoin-lommebok.
+reviewed: true

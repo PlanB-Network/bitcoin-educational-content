@@ -1,0 +1,11 @@
+question: Hva er hovedkarakteristikken til en DIY (Do It Yourself) lommebok?
+answer: Det er en 100% åpen kilde-løsning som kan lages hjemme for å redusere tillitsrisikoer overfor andre aktører i produksjons- eller skapelseskjeden.
+wrong_answers:
+  - Det er en maskinvareenhet for lagring av bitcoins
+  - Det er en programvare for utvinning av bitcoins
+  - Det er en plattform for kjøp og salg av bitcoins
+explanation: |
+  Kapittelinnholdet forklarer at DIY (Do It Yourself) lommebøker er 100%
+  åpen kilde-løsninger som kan lages hjemme for å redusere tillitsrisikoer overfor
+  andre aktører i produksjons- eller skapelseskjeden.
+reviewed: false

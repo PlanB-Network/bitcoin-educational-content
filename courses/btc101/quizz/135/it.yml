@@ -1,11 +1,11 @@
-question: Qual è l'importanza dell'aggiustamento della difficoltà nella rete Bitcoin?
-answer: Garantisce che un blocco venga aggiunto approssimativamente ogni dieci minuti.
+question: Qual è la funzione dell'aggiustamento della difficoltà nella rete Bitcoin?
+answer: Garantisce che un blocco venga aggiunto alla blockchain circa ogni dieci minuti.
 wrong_answers:
   - Determina il prezzo del Bitcoin.
-  - Regola il numero di Bitcoin che possono essere minati.
+  - Regola il numero di bitcoin che possono essere minati nella blockchain.
   - Determina la dimensione di un blocco.
-explanation: |
+explanation: >-
   L'aggiustamento della difficoltà nella rete Bitcoin garantisce che un blocco
-  venga aggiunto approssimativamente ogni dieci minuti. Questo fa parte delle regole del protocollo della
-  rete Bitcoin.
-reviewed: false
+  venga aggiunto circa ogni dieci minuti. Questo fa parte delle regole del protocollo
+  della rete Bitcoin.
+reviewed: vero

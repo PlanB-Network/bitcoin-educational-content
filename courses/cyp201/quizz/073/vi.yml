@@ -1,9 +1,8 @@
-question: Lựa chọn bổ sung nào để tăng cường bảo mật cho ví Bitcoin?
-answer: Thêm một cụm mật khẩu.
+question: Chỉ số nào đại diện cho chuỗi bên ngoài của một tài khoản trong một đường dẫn phái sinh?
+answer: /0/
 wrong_answers:
-  - Thêm một cụm từ ghi nhớ thứ hai.
-  - Thêm chữ ký số.
-  - Thêm lịch sử giao dịch.
+  - /1/
+  - /0'/
+  - /2/
 explanation: |
-  Thêm một cụm mật khẩu là một lựa chọn bổ sung để tăng cường bảo mật
-  cho ví Bitcoin.
+  Chuỗi bên ngoài được xác định bởi chỉ số /0/ ở độ sâu 4 của đường dẫn phái sinh.

@@ -1,0 +1,9 @@
+question: Wer hatte die Idee, ein Testnetzwerk einzurichten, um das Haupt-Bitcoin-Netzwerk nicht zu schädigen?
+answer: Gavin Andresen
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Laszlo Hanyecz
+explanation: |
+  Er [erwähnte](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) diese Idee am 9. Juni im Forum, und Satoshi stimmte zu. Er [erstellte](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) das Testnetz am 15. Juli.
+reviewed: false

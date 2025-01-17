@@ -1,9 +1,9 @@
-question: ¿Cuáles son las características de una frase de contraseña efectiva para una billetera de Bitcoin?
-answer: Larga (de 20 a 40 caracteres) y diversificada (usando letras mayúsculas, letras minúsculas, números y símbolos)
+question: ¿Por qué son los descriptores particularmente útiles para las carteras multisignatura?
+answer: Incluyen el xpub de cada factor y describen la estructura multisignatura
 wrong_answers:
-  - Corta y simple
-  - Larga y simple
-  - Corta y diversificada
+  - Eliminan la necesidad de una frase mnemotécnica
+  - Simplifican la generación de claves endurecidas
+  - Hacen que las multisignaturas sean compatibles con todos los scripts
 explanation: |
-  Una frase de contraseña efectiva debe ser larga (de 20 a 40 caracteres) y diversificada (usando letras mayúsculas, letras minúsculas, números y símbolos). No debe estar directamente relacionada con el usuario o su entorno.
+  Los descriptores incluyen las claves públicas extendidas de todos los participantes, lo que facilita la restauración y gestión de configuraciones multisignatura.
 reviewed: false

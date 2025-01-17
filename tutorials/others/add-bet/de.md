@@ -14,7 +14,7 @@ Möchten Sie an der Bereicherung dieser Datenbank teilnehmen, wissen aber nicht 
 ![event](assets/01.webp)
 - Zuerst müssen Sie ein Konto auf GitHub haben. Wenn Sie nicht wissen, wie Sie ein Konto erstellen, haben wir ein detailliertes Tutorial erstellt, um Sie zu führen.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) im Abschnitt `resources/bet/`:
@@ -47,7 +47,7 @@ contributors:
 ```
 - **`builder`**: Geben Sie den Identifikator Ihrer Organisation im PlanB-Netzwerk an. Wenn Sie noch keinen "builder"-Identifikator für Ihr Unternehmen haben, können Sie einen mit diesem Tutorial erstellen.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Wenn Sie keinen haben, können Sie einfach Ihren Namen, Ihr Pseudonym oder den Namen Ihres Unternehmens verwenden, ohne ein Builder-Profil erstellt zu haben.
 - **`type`**: Wählen Sie die Art Ihres Inhalts aus den folgenden zwei Optionen aus:

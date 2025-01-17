@@ -26,10 +26,10 @@ Untuk berkontribusi ke Jaringan PlanB, Anda memiliki 3 opsi tergantung pada ting
 - Memiliki [profil profesor di Jaringan PlanB](https://planb.network/professors) (hanya jika Anda mengusulkan tutorial lengkap).
 
 **Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial lain saya akan membimbing Anda:**
-- **[Memahami Git dan GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Membuat akun GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Menyiapkan lingkungan kerja Anda](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[Membuat profil profesor](https://planb.network/tutorials/others/create-teacher-profile)**
+- **[Memahami Git dan GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+- **[Membuat akun GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[Menyiapkan lingkungan kerja Anda](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+- **[Membuat profil profesor](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Jenis konten apa yang ditulis di Jaringan PlanB?
 Kami terutama mencari tutorial tentang alat yang terkait dengan Bitcoin atau ekosistemnya. Konten ini dapat diorganisir sekitar enam kategori utama:
 - Wallet;
@@ -121,7 +121,7 @@ bitcoin-educational-content/
     - Menengah (`intermediary`),
     - Lanjutan (`advanced`),
     - Ahli (`expert`).
-- **professor**: Sertakan ID kontributor Anda sebagaimana muncul di profil professor Anda. Untuk detail lebih lanjut, rujuk ke [tutorial yang sesuai](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Sertakan ID kontributor Anda sebagaimana muncul di profil professor Anda. Untuk detail lebih lanjut, rujuk ke [tutorial yang sesuai](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (opsional): Jika Anda ingin memberikan kredit ke situs web sumber untuk tutorial yang Anda kembangkan, seperti situs pribadi Anda sendiri, ini adalah tempat Anda dapat menambahkan link yang bersangkutan.
 ![tutorial](assets/15.webp)
 - Setelah Anda selesai memodifikasi file `tutorial.yml` Anda, simpan dokumen Anda dengan mengklik `File > Save`:
@@ -205,3 +205,4 @@ Pada perangkat lunak GitHub Desktop, Anda dapat beralih kembali ke cabang utama 
 Jika Anda ingin melakukan modifikasi pada kontribusi Anda setelah sudah mengirimkan PR Anda, prosedur yang harus diikuti tergantung pada status saat ini dari PR Anda:
 - Jika PR Anda masih terbuka dan belum digabungkan, lakukan modifikasi secara lokal sambil tetap berada di cabang yang sama. Setelah modifikasi selesai, gunakan tombol `Push origin` untuk menambahkan commit baru ke PR Anda yang masih terbuka;
 - Dalam kasus di mana PR Anda sudah digabungkan dengan cabang utama, Anda perlu melakukan proses dari awal dengan membuat cabang baru, kemudian mengirimkan PR baru. Pastikan repositori lokal Anda disinkronkan dengan repositori sumber PlanB Network sebelum melanjutkan.
+

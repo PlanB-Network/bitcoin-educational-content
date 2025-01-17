@@ -1,9 +1,12 @@
 question: ¿Por qué se considera que los tokens de hardware, como las llaves USB o las tarjetas inteligentes, ofrecen una seguridad óptima para la autenticación de dos factores (2FA)?
 answer: Generan una clave privada única para cada sitio y verifican la URL antes de permitir la conexión.
 wrong_answers:
-  - Son físicamente más difíciles de robar.
-  - Son más caros, por lo que deben ser mejores.
-  - Son una tecnología más nueva, por lo que deben ser mejores.
+  - Son físicamente más difíciles de robar, pero si los ladrones tienen éxito, extraerán fácilmente los secretos del dispositivo.
+  - Generan solo una contraseña que se va a usar para cada sitio y verifican la URL antes de permitir la conexión.
+  - Son tecnología más nueva y cara, por lo que deben ser mejores.
 explanation: |
-  Los tokens de hardware ofrecen una seguridad óptima porque generan una clave privada única para cada sitio y verifican la URL antes de permitir la conexión. Esto hace que sea mucho más difícil para un hacker obtener acceso no autorizado.
-reviewed: false
+  Los tokens de hardware ofrecen una seguridad óptima porque
+  generan una clave privada única para cada sitio y verifican la
+  URL antes de permitir la conexión. Esto hace que sea mucho
+  más difícil para un hacker obtener acceso no autorizado.
+reviewed: true

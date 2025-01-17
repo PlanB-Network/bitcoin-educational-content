@@ -1,9 +1,9 @@
-question: Perché è consigliabile evitare di lasciare i tuoi Bitcoin sulle piattaforme di scambio?
-answer: Possono essere suscettibili ad attacchi informatici.
+question: Perché è consigliabile evitare di lasciare i propri Bitcoin sulle piattaforme di scambio?
+answer: Possono essere suscettibili ad attacchi hacker.
 wrong_answers:
   - Le piattaforme di scambio applicano commissioni casuali.
-  - I Bitcoin perdono valore sulle piattaforme di scambio.
+  - Il Bitcoin perde valore sulle piattaforme di scambio.
   - Le piattaforme di scambio non sono istituzioni regolamentate.
 explanation: |
-  È consigliabile evitare di lasciare i tuoi Bitcoin sulle piattaforme di scambio perché possono essere suscettibili ad attacchi informatici.
-reviewed: false
+  È consigliabile evitare di lasciare i propri Bitcoin sulle piattaforme di scambio perché possono essere suscettibili ad attacchi hacker.
+reviewed: true

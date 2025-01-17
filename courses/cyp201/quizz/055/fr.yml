@@ -1,9 +1,9 @@
-question: Quel est le nom vulgaire parfois utilisé pour désigner la collection de clés privées dans un portefeuille Bitcoin ?
-answer: Just a Bunch Of Keys (JBOC)
+question: En combien de parties est divisée la sortie de la fonction HMAC-SHA512 appliquée à la graine ?
+answer: Deux parties de 256 bits
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - Une seule partie de 512 bits
+  - Trois parties de 170 bits
+  - Quatre parties de 128 bits
 explanation: |
-  La collection de clés cryptographiques privées dérivées d'une clé maître unique dans un portefeuille Bitcoin est parfois désignée par le nom légèrement vulgaire de "Just a Bunch Of Keys" (JBOC).
+  La sortie de HMAC-SHA512 est divisée en deux parties : la clé privée maîtresse (256 bits) et le code de chaîne maître (256 bits).
 reviewed: false

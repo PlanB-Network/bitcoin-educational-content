@@ -1,12 +1,9 @@
-question: What is the main risk associated with generating one's own mnemonic phrase
-  using dice for Bitcoin transactions?
-answer: It may present certain risks.
+question: What does an extended public key allow to derive?
+answer: Only normal child public keys
 wrong_answers:
-  - It may lead to the generation of predictable numbers.
-  - It may lead to the generation of duplicate numbers.
-  - It may lead to the generation of invalid numbers.
+  - Only normal child private keys
+  - Both hardened and normal child public keys
+  - Both hardened and normal child private keys
 explanation: |
-  Generating one's own mnemonic phrase using dice may present certain risks.
-  It is therefore recommended to use a randomly generated passphrase to mitigate these
-  risks.
+  An extended public key only allows the derivation of normal child public keys, not private keys or hardened keys.
 reviewed: false

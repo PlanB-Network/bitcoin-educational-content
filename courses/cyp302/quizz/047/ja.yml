@@ -1,0 +1,9 @@
+question: オイラーの定理によると、互いに素な2つの整数aとNに対して、a^ϕ(N) mod Nの結果は何になりますか？
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  オイラーの定理は、互いに素な2つの整数aとNに対して、指数関数a^ϕ(N) mod Nは常に1 mod Nと等しくなると述べています。これは暗号学で使用される性質です。
+reviewed: false

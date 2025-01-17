@@ -1,0 +1,5 @@
+description: |
+  Public Pool je Solo Pool těžební platforma, která umožňuje těžařům zkusit své štěstí při těžbě Bitcoinového bloku bez sdílení odměny. Na rozdíl od klasických poolů Public Pool nesdružuje výpočetní výkon: uživatelé obdrží celou odměnu, pokud je blok nalezen. Platforma poskytuje těžařům šablonu bloku, čímž odpadá nutnost spravovat Bitcoinový uzel. Přestože jsou šance na úspěch nízké, systém funguje jako loterie s potenciálně vysokými výhrami. Řídicí panel nabízí podrobné statistiky o výkonu a síti.
+
+contributors:
+  - pretty-private

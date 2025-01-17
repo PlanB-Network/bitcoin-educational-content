@@ -1,0 +1,12 @@
+question: Mis on Bitcoin'i peamine eelis traditsiooniliste pangakontode ees?
+answer: Täielik kontroll oma raha üle
+wrong_answers:
+  - Kõrgemad intressimäärad
+  - Madalamad tehingutasud
+  - Kiiremad tehingute ajad
+explanation: |
+  Peatükk selgitab, et Bitcoin pakub võimsat alternatiivi traditsioonilistele
+  finantssüsteemidele. See võimaldab kõigil säilitada oma privaatsust, kaitsta end
+  inflatsiooni ja valuuta devalveerimise eest, mööda minna autoritaarsetest režiimidest ning taastada
+  suveräänsust oma raha üle.
+reviewed: false

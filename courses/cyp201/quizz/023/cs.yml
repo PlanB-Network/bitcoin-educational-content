@@ -1,9 +1,9 @@
-question: Co znamená HMAC?
-answer: Hash-based Message Authentication Code
+question: Jaký společný bod používají všichni účastníci pro výpočet veřejného klíče v Bitcoinu?
+answer: Generátorový bod G
 wrong_answers:
-  - Hierarchical Master Authentication Code
-  - Hashed Master Authentication Code
-  - Hierarchical Message Authentication Code
+  - SHA256 hash
+  - Mnemonická fráze
+  - Kompresovaný veřejný klíč
 explanation: |
-  HMAC znamená Hash-based Message Authentication Code (Hashovací zpráva autentizačního kódu). Jedná se o typ autentizačního kódu zpráv (MAC), který využívá kryptografickou hašovací funkci a tajný kryptografický klíč.
+  Generátorový bod G eliptické křivky secp256k1 je používán pro výpočet veřejných klíčů z privátních klíčů.
 reviewed: false

@@ -1,0 +1,10 @@
+question: Hvilken teknologi brukes i Bitcoin Wallet for å sikre bruk av midler i Bitcoin Wallet?
+answer: Elliptisk kurvekryptografi
+wrong_answers:
+  - Symmetrisk kryptografi
+  - Kvantekryptografi
+  - RSA-kryptografi
+explanation: |
+  For å bruke Bitcoins kreves det at eieren bruker elliptiske kurver for å lage en signatur
+  for en Bitcoin-transaksjon.
+reviewed: true

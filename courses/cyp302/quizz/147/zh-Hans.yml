@@ -1,0 +1,8 @@
+question: 如果一个整数N是两个质数p和q的乘积，如何计算N的阶？
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  对于N等于两个质数p和q的乘积，N的阶是通过计算(p - 1) * (q - 1)得到的。

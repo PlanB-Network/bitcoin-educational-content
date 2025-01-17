@@ -1,0 +1,8 @@
+question: Hva er kjennetegnet til en uniform variabel?
+answer: Alle mulige verdier har en lik sannsynlighet for å inntreffe
+wrong_answers:
+  - Verdiene følger en asymmetrisk fordeling
+  - Sannsynligheten for hver verdi avhenger av eksperimentet
+  - Bare to verdier kan inntreffe med like sannsynligheter
+explanation: |
+  En uniform variabel er en tilfeldig variabel der alle mulige verdier har en lik sannsynlighet for å inntreffe.

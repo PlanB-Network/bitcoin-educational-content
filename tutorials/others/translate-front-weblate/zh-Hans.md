@@ -14,7 +14,7 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能多的语言。
 
 然而，如果您有兴趣翻译网站的其他部分，不包括教育内容，那么您来对地方了！为了有效翻译前端，我们使用Weblate工具，该工具促进了合作并组织了翻译。这是一个非常简单的入门工具。让我们一步一步地了解如何使用Weblate。
 
-如果您希望在Weblate上添加一个尚未提供的全新语言到PlanB Network，您首先需要提交添加请求。为此，[请遵循这个特定的教程](https://planb.network/tutorials/others/add-new-language-weblate)。
+如果您希望在Weblate上添加一个尚未提供的全新语言到PlanB Network，您首先需要提交添加请求。为此，[请遵循这个特定的教程](https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86)。
 
 ## 在Weblate上注册
 

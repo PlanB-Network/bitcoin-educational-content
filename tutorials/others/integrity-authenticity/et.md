@@ -161,4 +161,4 @@ Kui leidsite selle õpetuse kasulikuks, hindaksin allpool pöidla üles näitami
 
 Soovitan samuti tutvuda teise õpetusega VeraCrypt'i kohta, tarkvara, mis võimaldab teil krüpteerida ja dekrüpteerida salvestusseadmeid.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

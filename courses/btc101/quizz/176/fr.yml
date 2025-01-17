@@ -1,10 +1,10 @@
-question: Quelle est une caractéristique unique du protocole Bitcoin?
+question: Quelle est une caractéristique unique du protocole Bitcoin ?
 answer: Il fonctionne à l'échelle mondiale, 24 heures sur 24, 7 jours sur 7.
 wrong_answers:
-  - Il ne fonctionne que pendant les heures de bureau.
+  - Il fonctionne uniquement pendant les heures de bureau.
   - Il est contrôlé par une autorité centrale.
   - Il peut être facilement piraté.
-explanation: |
-  Le protocole Bitcoin est unique en ce sens qu'il fonctionne à l'échelle mondiale,
+explanation: >-
+  Le protocole Bitcoin est unique en ce qu'il fonctionne à l'échelle mondiale,
   24 heures sur 24, 7 jours sur 7, rendant la régulation difficile pour les autorités financières.
-reviewed: false
+reviewed: true

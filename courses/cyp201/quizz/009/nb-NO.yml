@@ -1,0 +1,8 @@
+question: Hva er konstruksjonen som brukes av SHA256 for å behandle meldinger av vilkårlig lengde?
+answer: Merkle-Damgård-konstruksjonen
+wrong_answers:
+  - Den euklidske konstruksjonen
+  - Rivest-Shamir-Adleman-konstruksjonen
+  - Knuth-Morris-Pratt-konstruksjonen
+explanation: |
+  Merkle-Damgård-konstruksjonen gjør det mulig å transformere en kompresjonsfunksjon til en hashfunksjon for meldinger med variabel lengde.

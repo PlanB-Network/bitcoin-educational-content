@@ -1,0 +1,8 @@
+question: Mengapa penutupan paksa kurang diinginkan?
+answer: Ini lebih lambat dan biayanya mungkin tidak sesuai
+wrong_answers:
+  - Ini memerlukan otorisasi dari Satoshi Nakamoto
+  - Ini memaksa pembuatan ulang sebuah saluran nanti
+  - Ini mencegah penggunaan kunci pembatalan
+explanation: |
+  Penutupan paksa kurang diinginkan karena termasuk timelock, yang memperlambat proses, dan biayanya mungkin tidak sesuai karena ditetapkan pada saat pembuatan saluran.

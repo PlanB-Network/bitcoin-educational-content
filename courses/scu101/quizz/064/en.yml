@@ -5,7 +5,8 @@ wrong_answers:
   - They are not compatible with all browsers.
   - They require a lot of storage space.
 explanation: |
-  Browser extensions for automatic password filling can make the user more
-  vulnerable to phishing attacks. They also tend to increase the attack surface and
-  can slow down browser performance, thus presenting a significant risk.
-reviewed: false
+  Browser extensions for automatic password filling can make
+  the user more vulnerable to phishing attacks. They also
+  tend to increase the attack surface and can slow down
+  browser performance, thus presenting a significant risk.
+reviewed: true

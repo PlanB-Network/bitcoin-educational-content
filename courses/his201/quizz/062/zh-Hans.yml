@@ -1,0 +1,8 @@
+question: 通过部分工作证明估算合作成员的哈希率涉及什么？
+answer: 检索由哈希生成器产生的低于网络难度的低阶工作证明
+wrong_answers:
+  - 检索包括哈希生成器产生的每个区块哈希的第一个字节的印记
+  - 每月检索哈希生成器的电费账单
+  - 检索在像BitDNS这样难度较低的网络上产生的工作证明
+explanation:
+  这个简单的方法是由ribuck、Nils Schneider和Gavin Andresen于2010年10月14日在[论坛](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951)上提出的。()

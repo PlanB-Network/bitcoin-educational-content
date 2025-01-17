@@ -1,0 +1,13 @@
+question: Hva er den største ulempen med å bruke Tor for en Bitcoin-node?
+
+answer: Reduksjon i kommunikasjonshastighet
+
+wrong_answers:
+  - Økning i transaksjonsgebyrer
+  - Risiko for sensur av transaksjoner
+  - Risiko for Eclipse-angrep på noden
+
+explanation: |
+  Kommunikasjon over Tor er tregere. Denne latenstiden er spesielt problematisk under den første oppstarten av en node, ettersom IBD (Initial Block Download) krever mye kommunikasjon.
+
+reviewed: false

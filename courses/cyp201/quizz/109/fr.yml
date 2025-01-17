@@ -1,9 +1,0 @@
-question: Que signifie l'index dans un chemin de dérivation dans le contexte d'un portefeuille HD ?
-answer: La valeur utilisée dans la fonction HMAC
-wrong_answers:
-  - La valeur utilisée dans la fonction SHA-256
-  - La valeur utilisée dans la fonction RSA
-  - La valeur utilisée dans la fonction AES
-explanation: |
-  Dans le contexte d'un portefeuille HD, l'index dans un chemin de dérivation indique la valeur utilisée dans la fonction HMAC. Cela est utilisé pour différencier entre différentes paires de clés enfants à la même profondeur.
-reviewed: false

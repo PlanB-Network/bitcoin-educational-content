@@ -9,7 +9,7 @@ _Kami mengikuti perkembangan kasus ini serta perkembangan terkait alat-alat yang
 
 _Tutorial ini disediakan hanya untuk tujuan pendidikan dan informasi. Kami tidak mendukung atau mendorong penggunaan alat-alat ini untuk tujuan kriminal. Tanggung jawab setiap pengguna untuk mematuhi hukum di yurisdiksi mereka._
 
-_Tutorial ini didedikasikan untuk pemasangan RoninDojo v1. Untuk memanfaatkan peningkatan dan fitur terbaru, saya sangat merekomendasikan untuk mengkonsultasikan tutorial kami yang didedikasikan untuk pemasangan langsung RoninDojo v2 pada Raspberry Pi Anda:_ [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+_Tutorial ini didedikasikan untuk pemasangan RoninDojo v1. Untuk memanfaatkan peningkatan dan fitur terbaru, saya sangat merekomendasikan untuk mengkonsultasikan tutorial kami yang didedikasikan untuk pemasangan langsung RoninDojo v2 pada Raspberry Pi Anda:_ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

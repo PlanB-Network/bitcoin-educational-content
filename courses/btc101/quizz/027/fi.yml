@@ -1,9 +1,12 @@
 question: Miksi Bitcoinia ei ole laajalti hyväksytty kaupankäynnissä tänään?
-answer: Koska sitä ei ole laajalti omaksuttu yksilöiden toimesta
+answer: Koska sitä ei ole laajalti omaksuttu yksilöiden toimesta.
 wrong_answers:
-  - Koska sitä ei voi kuljettaa
-  - Koska sitä ei voi jakaa
-  - Koska se ei ole likvidi
+  - Koska sitä ei voi kuljettaa.
+  - Koska sitä ei voi jakaa pieniin yksiköihin.
+  - Koska se ei ole likvidi.
 explanation: |
-  Huolimatta sen ominaisuuksista, kuten sen tiukasti rajatusta tarjonnasta, Bitcoinia ei silti ole laajalti hyväksytty kaupankäynnissä tänään. Tämä johtuu yksilöiden omaksumisen puutteesta, luoden tilanteen, joka puraisee omaa häntäänsä, sillä kauppiaat ovat myös yksilöitä.
-reviewed: false
+  Huolimatta sen ominaisuuksista, kuten sen tiukasti rajatusta
+  tarjonnasta, Bitcoinia ei vielä tänä päivänä ole laajalti hyväksytty kaupankäynnissä,
+  johtuen sen puutteellisesta omaksumisesta yksilöiden keskuudessa, joten
+  kauppiaita ei kannusteta hyväksymään sitä.
+reviewed: true

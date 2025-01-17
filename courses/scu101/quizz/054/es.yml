@@ -1,9 +1,12 @@
 question: ¿Cuáles son las prácticas recomendadas para una seguridad óptima con autenticación fuerte?
-answer: Utilice una dirección de correo electrónico segura, un administrador de contraseñas seguro y adopte la autenticación de dos factores (2FA) utilizando YubiKeys.
+answer: Utilizar una dirección de correo electrónico segura, un gestor de contraseñas seguro y adoptar 2FA usando YubiKeys.
 wrong_answers:
-  - Utilice una contraseña común para todas las cuentas y evite el 2FA.
-  - Utilice una contraseña simple y confíe en los datos biométricos para el 2FA.
-  - Utilice una dirección de correo electrónico segura, pero evite los administradores de contraseñas y el 2FA.
+  - Usar una contraseña común para todas las cuentas y evitar el 2FA
+  - Usar una contraseña simple y confiar en datos biométricos para el 2FA
+  - Usar una dirección de correo electrónico segura, pero evitar los gestores de contraseñas y el 2FA
 explanation: |
-  Para una seguridad óptima, se recomienda utilizar una dirección de correo electrónico segura, un administrador de contraseñas seguro y adoptar el 2FA utilizando YubiKeys. También es recomendable comprar dos YubiKeys para anticipar pérdidas o robos.
-reviewed: false
+  Para una seguridad óptima, se recomienda utilizar una dirección
+  de correo electrónico segura, un gestor de contraseñas seguro y adoptar 2FA
+  usando YubiKeys. También es aconsejable comprar dos
+  YubiKeys para anticipar la pérdida o el robo.
+reviewed: true

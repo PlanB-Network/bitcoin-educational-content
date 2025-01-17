@@ -1,11 +1,12 @@
-question: What could traditional money transfer services like Western Union, central
+question: What could happen to traditional money transfer services like Western Union, central banks, Visa, and Mastercard if they did not adopt Lightning Network?
   banks, Visa, and Mastercard do if they do not adopt Lightning Network technology?
 answer: They could disappear.
 wrong_answers:
   - They could become more popular.
   - They could become more secure.
   - They could become more decentralized.
-explanation: >-
-  Traditional money transfer services such as Western Union, central banks,
-  Visa, and Mastercard could disappear if they do not adopt Lightning Network technology.
-reviewed: false
+explanation: |
+  Traditional money transfer services such as Western Union,
+  central banks, Visa, and Mastercard could disappear if they
+  do not adopt the Lightning Network technology.
+reviewed: true

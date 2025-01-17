@@ -1,12 +1,12 @@
 question: Qual è il legame di Bitcoin con il futuro della tecnologia e della società?
-answer: Bitcoin rappresenta una rivoluzione tecnologica per nuovi modi di organizzazione su larga scala, permettendo lo scambio di valore senza alcuna parte terza fidata.
+answer: Bitcoin è una rivoluzione tecnologica che consente lo scambio di valore senza alcuna terza parte fidata.
 wrong_answers:
-  - Bitcoin è una forma di tecnologia IA.
-  - Bitcoin è uno strumento per controllare la popolazione mondiale.
+  - Bitcoin è una forma di tecnologia AI che consente alle persone di scambiare informazioni tramite un server centrale.
+  - Bitcoin è uno strumento per controllare la popolazione mondiale, consentendo l'eliminazione della povertà.
   - Bitcoin è un metodo per i governi di tracciare le transazioni finanziarie dei loro cittadini.
-explanation: >-
-  Il testo spiega che Bitcoin, come internet per i modi di
-  comunicazione,
-  è una rivoluzione tecnologica per nuovi modi di organizzazione su larga scala, offrendoci
-  la possibilità di scambiare valore senza alcuna parte terza fidata.
-reviewed: false
+explanation: |
+  Il testo spiega che Bitcoin, come internet per i mezzi
+  di comunicazione, è una rivoluzione tecnologica che
+  crea la possibilità di nuove modalità di organizzazione su larga scala,
+  portandoci la possibilità di scambiare valore senza alcuna terza parte fidata.
+reviewed: vero

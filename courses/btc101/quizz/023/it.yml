@@ -1,9 +1,14 @@
 question: Qual è il ruolo del denaro come strumento di comunicazione?
-answer: Permette la comunicazione del valore nello spazio e nel tempo senza la necessità di fidarsi della controparte.
+answer: Permette la comunicazione del valore attraverso lo spazio e il tempo senza la necessità di fidarsi di una controparte.
 wrong_answers:
-  - Permette la comunicazione del valore solo nello spazio senza la necessità di fidarsi della controparte.
-  - Permette la comunicazione del valore solo nel tempo senza la necessità di fidarsi della controparte.
-  - Permette la comunicazione del valore nello spazio e nel tempo con la necessità di fidarsi della controparte.
+  - Permette la comunicazione del valore solo attraverso lo spazio e senza la necessità di fidarsi di una controparte.
+  - Permette la comunicazione del valore solo attraverso il tempo e senza la necessità di fidarsi di una controparte.
+  - Permette la comunicazione del valore attraverso lo spazio e il tempo con la necessità di fidarsi di una controparte.
 explanation: |
-  Il denaro come strumento di comunicazione permette la comunicazione del valore nello spazio e nel tempo, poiché trasformiamo il nostro tempo ed energia in un asset che può essere riutilizzato in futuro senza il rischio di svalutazione. Permette anche la comunicazione in una lingua comune universale, consentendo a due estranei di scambiare, commerciare e concordare il valore delle cose.
-reviewed: false
+  Il denaro come strumento di comunicazione permette la comunicazione attraverso
+  lo spazio e il tempo, poiché trasformiamo il nostro tempo e la nostra energia in un
+  bene che può essere riutilizzato in futuro senza il rischio di
+  svalutazione. Permette anche la comunicazione in un linguaggio comune universale,
+  consentendo a due sconosciuti di scambiare, commerciare,
+  e concordare sul valore delle cose.
+reviewed: true

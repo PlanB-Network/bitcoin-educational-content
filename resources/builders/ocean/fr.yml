@@ -1,0 +1,5 @@
+description: |
+  Ocean Mining est une pool de minage Bitcoin transparente et non-custodiale, soutenue par un investissement de Jack Dorsey. Créée par Luke Dashjr, elle se distingue par son système TIDES, qui rémunère directement les mineurs en fonction de leur contribution directement via les outputs des transactions coinbase. Sans compte ni KYC, Ocean offre une autonomie totale aux mineurs et propose des retraits en Lightning via BOLT12.
+
+contributors:
+  - pretty-private

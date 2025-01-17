@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal tipo de estructura algebraica utilizada en campos finitos para la criptografía?
+answer: Polinomios irreducibles
+wrong_answers:
+  - Matrices cuadradas
+  - Vectores aleatorios
+  - Raíces cúbicas
+explanation: |
+  En criptografía, los campos finitos de orden 2^m a menudo utilizan polinomios irreducibles para asegurar que el campo esté bien definido y que todas las operaciones sean posibles.
+reviewed: false

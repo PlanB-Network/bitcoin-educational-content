@@ -1,9 +1,11 @@
-question: Comment le Lightning Network pourrait-il potentiellement être utilisé pour la location de biens ?
-answer: Les utilisateurs pourraient être facturés par minute, voire par seconde, pour le temps qu'ils utilisent les biens.
+question: Comment le réseau Lightning pourrait-il potentiellement être utilisé pour la location de biens ?
+answer: Les utilisateurs pourraient être facturés à la minute, ou même à la seconde, pour le temps d'utilisation des biens.
 wrong_answers:
-  - Les utilisateurs pourraient être facturés un tarif fixe pour la location des biens.
+  - Les utilisateurs pourraient être facturés un tarif élevé pour la location des biens.
   - Les utilisateurs pourraient être facturés en fonction de la valeur des biens.
   - Les utilisateurs pourraient être facturés en fonction de l'état des biens.
-explanation: |
-  Avec le Lightning Network, il est concevable d'utiliser ce système pour la location de biens. Les utilisateurs pourraient être facturés par minute, voire par seconde, pour le temps qu'ils utilisent les biens.
-reviewed: false
+explanation: >
+  Avec le réseau Lightning, il est concevable d'utiliser ce système pour
+  la location de biens. Les utilisateurs pourraient être facturés à la minute, ou même à la seconde, pour le temps
+  qu'ils utilisent les biens.
+reviewed: true

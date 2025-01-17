@@ -1,0 +1,12 @@
+question: Hva er sannsynligheten for at noen ved et uhell gjetter listen din på 12 eller 24 ord i en Bitcoin-lommebok?
+answer: Astronomisk lav
+wrong_answers:
+  - Høy
+  - Moderat
+  - Lav
+explanation: >-
+  Takket være kryptografien som brukes til å opprette lommeboken, er sannsynligheten
+  for at noen ved et uhell gjetter listen din på 12 eller 24 ord astronomisk lav.
+  Det er som å finne det rette tallet mellom 1 og $2^256$, som nesten tilsvarer
+  å finne et definert atom i universet.
+reviewed: true

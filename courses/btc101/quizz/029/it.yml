@@ -1,9 +1,9 @@
-question: Qual è il principale vantaggio dell'oro rispetto ad altre forme di valuta?
-answer: La sua rarità naturale lo rende prezioso, mentre le sue proprietà chimiche permettono che non si corroda nel tempo.
+question: Perché l'oro non è un materiale portatile?
+answer: Perché è denso e pesante, rendendolo ingombrante da trasportare in grandi quantità.
 wrong_answers:
-  - È facilmente divisibile e trasportabile
-  - È soggetto all'inflazione monetaria
-  - È ampiamente accettato nel commercio
+  - Perché è troppo prezioso per essere spostato.
+  - Perché non può essere facilmente modellato in forme più piccole.
+  - Perché è un liquido a temperatura ambiente.
 explanation: |
-  Il principale vantaggio dell'oro rispetto ad altre forme di valuta è la sua rarità naturale, che lo rende prezioso, e le sue proprietà chimiche, che permettono che non si corroda nel tempo.
-reviewed: false
+  L'oro è denso e pesante, il che significa che trasportare grandi quantità può essere fisicamente impegnativo. Questo peso lo rende meno conveniente per il trasporto rispetto a materiali più leggeri.
+reviewed: true

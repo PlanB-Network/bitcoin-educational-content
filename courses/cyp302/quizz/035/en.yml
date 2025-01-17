@@ -1,0 +1,9 @@
+question: What is the main goal of number theory?
+answer: To study the properties of integers and the functions that operate with them
+wrong_answers:
+  - Analyze geometric transformations
+  - Study the structure of random geometric figures in a finite group
+  - Develop symmetric encryption algorithms
+explanation: |
+  Number theory focuses on the properties of integers and the functions applied to integers, often for applications in cryptography, especially in the context of public key cryptography.
+reviewed: false

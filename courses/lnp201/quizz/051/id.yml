@@ -1,0 +1,8 @@
+question: Apa yang dapat dicapai oleh node yang berpartisipasi dengan teknik pembukaan segitiga?
+answer: Likuiditas masuk dan keluar di setiap saluran
+wrong_answers:
+  - Biaya routing yang berkurang
+  - Jumlah transaksi tanpa batas tanpa konfirmasi
+  - Tautan langsung dengan setiap node jaringan lainnya
+explanation: |
+  Teknik pembukaan segitiga memungkinkan setiap node untuk mencapai likuiditas yang seimbang, baik masuk dan keluar, dengan membentuk loop saluran di antara beberapa peserta.

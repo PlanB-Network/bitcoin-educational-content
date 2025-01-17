@@ -1,0 +1,9 @@
+question: Hva er en anbefalt praksis for å håndtere hovedpassordet til en passordbehandler?
+answer: Skriv det ned på papir og oppbevar det på et skjult og sikkert sted.
+wrong_answers:
+  - Lagre det i e-posten din.
+  - Bruk samme passord for alle kontoer.
+  - Memoriser det.
+explanation: |
+  Det anbefales å skrive ned hovedpassordet til en passordbehandler på papir, men det bør oppbevares på et skjult og sikkert sted. Dette er fordi hvis harddisken er kryptert og datamaskinen er låst, vil ikke passordet være tilgjengelig, selv i tilfelle innbrudd.
+reviewed: false

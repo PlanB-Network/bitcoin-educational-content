@@ -1,9 +1,12 @@
-question: ¿Cuál es el segundo paso común en la autenticación de dos factores (2FA)?
+question: ¿Cuál de los siguientes es un método seguro y eficaz en la autenticación 2FA?
 answer: Un código generado por una aplicación como Google Authenticator o Authy.
 wrong_answers:
-  - Una llamada telefónica al titular de la cuenta
-  - Un correo electrónico al titular de la cuenta
-  - Una carta enviada a la dirección de casa del titular de la cuenta
+  - Una llamada telefónica o un código SMS al titular de la cuenta
+  - Un correo electrónico con un código que expira en 10 minutos enviado al titular de la cuenta
+  - Una carta enviada al domicilio del titular de la cuenta
 explanation: |
-  El segundo paso en la autenticación de dos factores (2FA) puede ser un código temporal enviado por SMS, un código generado por una aplicación o una llave de seguridad física.
-reviewed: false
+  El segundo paso en la 2FA puede ser un código temporal enviado vía
+  SMS, correo electrónico, un código generado por una aplicación, o una
+  llave de seguridad física. Sin embargo, no todos estos métodos
+  nos permiten mantener el mismo nivel de seguridad.
+reviewed: true

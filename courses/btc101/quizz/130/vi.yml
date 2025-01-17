@@ -1,9 +1,9 @@
-question: Ý nghĩa của số lượng xác nhận trong một giao dịch Bitcoin là gì?
+question: Tại sao số lượng xác nhận trong một giao dịch Bitcoin lại quan trọng?
 answer: Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên bất biến.
 wrong_answers:
-  - Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên có giá trị hơn.
+  - Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên có giá trị.
   - Càng nhiều xác nhận mà một giao dịch có, quá trình xử lý càng nhanh.
   - Càng nhiều xác nhận mà một giao dịch có, nó càng kém an toàn.
 explanation: >-
-  Số lượng xác nhận trong một giao dịch Bitcoin chỉ ra số lượng khối đã được khai thác trên cùng một khối chứa giao dịch đó. Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên bất biến.
-reviewed: false
+  Số lượng xác nhận trong một giao dịch Bitcoin chỉ ra số khối đã được khai thác trên cùng một khối chứa giao dịch đó. Càng nhiều xác nhận mà một giao dịch có, nó càng trở nên bất biến.
+reviewed: true

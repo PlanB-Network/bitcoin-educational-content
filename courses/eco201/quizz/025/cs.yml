@@ -1,9 +1,9 @@
-question: Jaké jsou tři dimenze problému "dvojí shody potřeb"?
+question: Jaké jsou tři dimenze problému dvojí shody potřeb?
 answer: Prostorová, časová a meziosobní.
 wrong_answers:
   - Prostorová, časová a vnitroosobní.
   - Prostorová, mezidobová a meziosobní.
   - Meziprostorová, časová a meziosobní.
 explanation: |
-  Problém "dvojí shody potřeb" odkazuje na obtíž při barteru, kdy obě strany musí vlastnit něco, co si navzájem přejí ve stejném čase a na stejném místě. Tento problém má tři dimenze; prostorová (stejné místo), časová (stejný čas) a meziosobní (vzájemná touha po zboží druhého).
-kontrolováno: false
+  Problém dvojí shody potřeb odkazuje na obtíž při barteru, kdy obě strany musí vlastnit něco, co si navzájem přejí ve stejném čase a na stejném místě. Tento problém má tři dimenze; prostorová (stejné místo), časová (stejný čas) a meziosobní (vzájemná touha po zboží druhého).
+  kontrolováno: false

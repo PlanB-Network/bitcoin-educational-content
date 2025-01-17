@@ -1,0 +1,8 @@
+question: 2FA代表什么？
+answer: 双因素认证
+wrong_answers:
+  - 双因素授权
+  - 双特性认证
+  - 双功能认证
+explanation: |
+  2FA代表双因素认证。它为您最敏感的账户提供了一个额外的安全层。

@@ -1,9 +1,9 @@
-question: Welche Merkmale hat eine effektive Passphrase für eine Bitcoin-Wallet?
-answer: Lang (20 bis 40 Zeichen) und vielfältig (Verwendung von Großbuchstaben, Kleinbuchstaben, Zahlen und Symbolen)
+question: Warum sind Deskriptoren besonders nützlich für Multisignatur-Wallets?
+answer: Sie beinhalten den xpub jedes Faktors und beschreiben die Multisignatur-Struktur
 wrong_answers:
-  - Kurz und einfach
-  - Lang und einfach
-  - Kurz und vielfältig
+  - Sie eliminieren die Notwendigkeit einer mnemonischen Phrase
+  - Sie vereinfachen die Erzeugung von gehärteten Schlüsseln
+  - Sie machen Multisignaturen kompatibel mit allen Skripten
 explanation: |
-  Eine effektive Passphrase sollte lang (20 bis 40 Zeichen) und vielfältig sein (Verwendung von Großbuchstaben, Kleinbuchstaben, Zahlen und Symbolen). Sie sollte nicht direkt mit dem Benutzer oder seiner Umgebung in Verbindung stehen.
+  Deskriptoren beinhalten die erweiterten öffentlichen Schlüssel aller Teilnehmer, was die Wiederherstellung und Verwaltung von Multisignatur-Konfigurationen erleichtert.
 reviewed: false

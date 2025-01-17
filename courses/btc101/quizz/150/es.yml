@@ -4,6 +4,8 @@ wrong_answers:
   - Los mineros crean nuevos bitcoins.
   - Los mineros verifican la identidad de los usuarios de Bitcoin.
   - Los mineros establecen el precio de Bitcoin.
-explanation: |
-  Los mineros utilizan su poder computacional para resolver problemas matemáticos complejos, lo que les permite añadir nuevas transacciones a la cadena de bloques. Este proceso asegura la red y mantiene su integridad.
-reviewed: false
+explanation: >-
+  Los mineros utilizan su poder computacional para resolver problemas matemáticos complejos,
+  lo que les permite añadir nuevas transacciones a la cadena de bloques. Este proceso asegura
+  la red y mantiene su integridad.
+reviewed: true

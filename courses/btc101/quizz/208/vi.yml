@@ -1,10 +1,9 @@
-question: Một trong những hậu quả tiềm ẩn khi không tuân thủ các quy định của quốc gia bạn khi mua Bitcoin là gì?
-answer: Bạn có thể đặt mình vào tình thế rủi ro.
+question: Một trong những hậu quả tiềm ẩn khi không tuân thủ quy định của quốc gia bạn khi mua Bitcoin là gì?
+answer: Bạn có thể đặt bản thân vào rủi ro.
 wrong_answers:
   - Bạn có thể làm tăng giá của Bitcoin.
   - Bạn có thể kiểm soát nguồn cung của Bitcoin.
   - Bạn có thể ngăn cản người khác mua Bitcoin.
-explanation: >-
-  Văn bản đề cập rằng không tuân thủ các quy định của quốc gia bạn
-  khi mua Bitcoin có thể đặt bạn vào tình thế rủi ro.
-reviewed: false
+explanation: |
+  Văn bản khóa học đề cập rằng không tuân thủ quy định của quốc gia bạn khi mua Bitcoin có thể đặt bạn vào rủi ro.
+reviewed: true

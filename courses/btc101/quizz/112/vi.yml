@@ -1,11 +1,14 @@
-question: Tại sao mua bitcoin không KYC?
-answer: Để đảm bảo sự riêng tư của bạn
+question: Tại sao bạn nên mua bitcoin không qua KYC?
+answer: Để đảm bảo sự riêng tư của bạn.
 wrong_answers:
-  - Để đảm bảo việc đăng ký của tất cả người dùng Bitcoin
-  - Để mua với giá thấp
-  - Để bán với giá thấp
-explanation: >-
-  Mua bitcoin không KYC có nghĩa là bạn đang mua bitcoin mà không cần phải trải qua các thủ tục xác minh Khách hàng của bạn (KYC) mà nhiều sàn giao dịch và nền tảng yêu cầu. 
-  Một lý do chính mà cá nhân có thể chọn con đường này là để duy trì sự riêng tư của họ, 
-  đảm bảo rằng các chi tiết cá nhân và hoạt động tài chính của họ không được tiết lộ.
-reviewed: false
+  - Để đảm bảo việc đăng ký của tất cả người dùng Bitcoin.
+  - Để mua với giá thấp.
+  - Để bán với giá thấp.
+explanation: |
+  Mua bitcoin không qua KYC có nghĩa là bạn đang mua bitcoin mà không cần
+  trải qua các thủ tục xác minh Biết Khách Hàng (Know Your Customer)
+  tiêu chuẩn mà nhiều sàn giao dịch và nền tảng yêu cầu. Một lý do chính
+  mà cá nhân có thể chọn con đường này là để duy trì sự riêng tư của họ,
+  đảm bảo rằng các chi tiết cá nhân và hoạt động tài chính của họ
+  không được tiết lộ.
+reviewed: true

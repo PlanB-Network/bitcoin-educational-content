@@ -1,0 +1,10 @@
+question: Hvilke ferdigheter er nødvendige innen cybersikkerhet?
+answer: Logganalyse, hendelsesrespons
+wrong_answers:
+  - Grafisk design, videoredigering
+  - Salg, markedsføring
+  - Matlaging, baking
+explanation: |
+  Kapittelet nevner logganalyse og hendelsesrespons som noen av
+
+  ferdighetene som er nødvendige innen cybersikkerhet.

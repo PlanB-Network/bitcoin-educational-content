@@ -1,0 +1,9 @@
+question: What is the main type of algebraic structure used in finite fields for cryptography?
+answer: Irreducible polynomials
+wrong_answers:
+  - Square matrices
+  - Random vectors
+  - Cubic roots
+explanation: |
+  In cryptography, finite fields of order 2^m often use irreducible polynomials to ensure that the field is well-defined and that all operations are possible.
+reviewed: false

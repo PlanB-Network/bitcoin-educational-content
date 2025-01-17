@@ -1,0 +1,11 @@
+question: Hva er forskjellen mellom etterspørselsdrevet inflasjon og kostnadsdrevet inflasjon?
+answer: Etterspørselsdrevet inflasjon er en situasjon hvor etterspørselen i økonomien overstiger tilgjengelig produksjon, mens kostnadsdrevet inflasjon tilskrives økningen i produksjonskostnader.
+wrong_answers:
+  - Etterspørselsdrevet inflasjon tilskrives økningen i produksjonskostnader, mens kostnadsdrevet inflasjon er en situasjon hvor etterspørselen i økonomien overstiger tilgjengelig produksjon.
+  - Etterspørselsdrevet og kostnadsdrevet inflasjon er det samme, begge refererer til en situasjon hvor etterspørselen i økonomien overstiger tilgjengelig produksjon.
+  - Etterspørselsdrevet og kostnadsdrevet inflasjon er det samme, begge refererer til økningen i produksjonskostnader.
+explanation: |
+  Kapittelet forklarer at etterspørselsdrevet inflasjon ofte forklares som
+  en situasjon hvor etterspørselen i økonomien overstiger tilgjengelig produksjon. På den
+  andre siden, tilskrives kostnadsdrevet inflasjon økningen i produksjonskostnader.
+reviewed: false

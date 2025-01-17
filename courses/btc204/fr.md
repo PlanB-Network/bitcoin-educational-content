@@ -25,6 +25,8 @@ Rejoignez-nous pour transformer votre utilisation de Bitcoin et devenir un utili
 ## Introduction de la formation
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/V3eeFn4TuIY?feature=shared)
+
 Dans un monde où la confidentialité des transactions financières devient progressivement un luxe, comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
 
 Aujourd'hui, sur Bitcoin, des sociétés sont spécialisées dans l'analyse de chaîne. Leur cœur de métier consiste précisément à s'ingérer dans votre sphère privée, afin de compromettre la confidentialité de vos transactions. Dans les faits, le "droit à la vie privée" sur Bitcoin n’existe pas. Il vous revient donc à vous, utilisateur, de faire valoir vos droits naturels et de protéger la confidentialité de vos transactions, car personne ne va le faire à votre place.
@@ -80,6 +82,8 @@ Nous aborderons également la confidentialité au niveau du réseau de nœuds et
 ## Le modèle d'UTXO de Bitcoin
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/bE-dmcAe_wY?feature=shared)
+
 Le bitcoin est avant tout une monnaie, mais savez-vous concrètement comment sont représentées les BTC sur le protocole ? 
 
 ### Les UTXOs sur Bitcoin : qu'est-ce que c'est ?
@@ -127,6 +131,8 @@ Le solde total de votre portefeuille serait de `17 BTC`.
 
 ## La structure des transactions Bitcoin
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/oKhgnEClQzo?feature=shared)
 
 ### Les inputs et les outputs d'une transaction
 
@@ -212,6 +218,8 @@ Ensuite, comme mentionné dans les parties précédentes, les pièces sur Bitcoi
 ## Le modèle de confidentialité de Bitcoin
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/ca80pCpMID0?feature=shared)
+
 ### La monnaie : authenticité, intégrité et double dépense
 
 Une des fonctions de la monnaie est de résoudre le problème de la double coïncidence des besoins. Dans un système établi sur le troc, la réalisation d'un échange nécessite non seulement de trouver un individu cédant un bien correspondant à mon besoin, mais aussi de lui procurer un bien de valeur équivalente qui satisfait son propre besoin. Trouver cet équilibre s'avère complexe. 
@@ -279,6 +287,8 @@ Mais puisque les transactions Bitcoin sont rendues publiques, il devient tout de
 ## C'est quoi l'analyse de chaîne sur Bitcoin ?
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/PtAUOGgHEAY?feature=shared)
+
 ### Définition et fonctionnement
 
 L’analyse de chaîne est une pratique qui regroupe toutes les méthodes permettant de tracer les flux de bitcoins sur la blockchain. De façon générale, l’analyse de chaîne s’appuie sur l’observation de caractéristiques sur des échantillons de transactions antérieures. Elle consiste ensuite à repérer ces mêmes caractéristiques sur une transaction que l’on souhaite analyser, et à en déduire des interprétations vraisemblables. Cette méthode de résolution de problème à partir d’une approche pratique, pour trouver une solution suffisamment bonne, c’est ce que l’on appelle une "heuristique".
@@ -318,7 +328,11 @@ Ainsi, il faut également pouvoir faire face à l’analyse de chaîne dans notr
 
 ![BTC204](assets/notext/31/5.webp)
 
-Justement, pour mieux contrecarrer l'analyse de chaîne, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse de chaîne ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme [le coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) ou [le payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
+Justement, pour mieux contrecarrer l'analyse de chaîne, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse de chaîne ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme le coinjoin ou le payjoin (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 En ça, nous pouvons faire une analogie avec la cryptographie et la cryptanalyse. Un bon cryptographe est avant tout un bon cryptanalyste. Pour imaginer un nouvel algorithme de chiffrement, il faut savoir quelles sont les attaques auxquelles il devra faire face, et également étudier pourquoi les algorithmes précédents ont été cassés. Le même principe s'applique à la confidentialité sur Bitcoin. Comprendre les méthodes de l'analyse de chaîne est la clé pour s'en prémunir. C’est pour cette raison que je vous propose une partie entière sur l'analyse de chaîne dans cette formation.
 
@@ -347,6 +361,8 @@ Nous verrons dans les chapitres suivants en quoi elles consistent, mais il est d
 
 ## Les patterns de transactions
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/FA4VLQHr8wU?feature=shared)
 
 Un pattern de transaction est simplement un modèle ou une structure globale de transaction typique, que l’on peut retrouver sur la blockchain, dont on connaît l’interprétation vraisemblable. Lorsque l’on étudie les patterns, on va s’attarder sur une seule transaction que l’on va analyser à un niveau élevé. 
 
@@ -477,6 +493,8 @@ Grâce à ces patterns de transactions, on peut déjà interpréter un certain n
 ## Les heuristiques internes 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/mMBZ_diMC3g?feature=shared)
+
 Une heuristique interne est une caractéristique spécifique que l'on identifie au sein même d'une transaction, sans nécessiter l'examen de son environnement, et qui nous permet de réaliser des déductions. Contrairement aux patterns qui se focalisent sur la structure globale de la transaction à un haut niveau, les heuristiques internes se fondent sur l'ensemble des données extractibles. Cela inclut :
 - Les montants des différents UTXOs en entrée comme en sortie ;
 - Tout ce qui concerne les scripts : les adresses de réception, les versionnages, les locktimes…
@@ -580,6 +598,8 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 ## Les heuristiques externes
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/WZ2B5cXp14w?feature=shared)
 
 L’étude des heuristiques externes, c’est l’analyse des similitudes, des patterns et des caractéristiques de certains éléments qui ne sont pas propres à la transaction en elle-même. Autrement dit, si précédemment, nous nous limitions à l'exploitation d'éléments intrinsèques à la transaction avec les heuristiques internes, nous élargissons désormais notre champ d’analyse à l'environnement de la transaction grâce aux heuristiques externes.
 
@@ -980,6 +1000,8 @@ ___
 ## La réutilisation d'adresse
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/qq_rdiujQTI?feature=shared)
+
 Après avoir étudié les techniques qui permettent de casser votre confidentialité sur Bitcoin, dans cette troisième partie, nous allons dorénavant voir les bonnes pratiques à adopter pour s'en protéger. Cette partie ne vise pas à explorer les méthodes d'amélioration de la confidentialité, sujet qui sera traité plus loin, mais plutôt à comprendre comment interagir correctement avec Bitcoin pour conserver la confidentialité qu'il offre naturellement, sans recourir à des techniques supplémentaires.
 
 Évidemment, pour commencer cette troisième partie, nous allons parler de la réutilisation d'adresse. Ce phénomène constitue la principale menace pour la confidentialité des utilisateurs. Ce chapitre est donc sûrement le plus important de toute la formation.
@@ -1098,6 +1120,8 @@ Si vous avez besoin d'un identifiant statique pour recevoir des paiements, comme
 ## L'étiquetage et le contrôle des pièces
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/EhF0AlTv-uY?feature=shared)
+
 Comme nous avons pu le découvrir dans la partie sur l'analyse de chaîne, il existe une multitude d'heuristiques et de patterns qui peuvent être utilisés pour déduire des informations sur une transaction. En tant qu'utilisateur, il est important d'avoir connaissance de ces techniques pour mieux s'en protéger.
 
 Cela implique notamment une gestion rigoureuse de votre portefeuille en self-custody, ce qui passe par la connaissance de l'origine de vos UTXOs, ainsi que par une sélection réfléchie des UTXOs à consommer lors de paiements. Cette gestion efficace du portefeuille s'appuie sur deux fonctionnalités importantes des bons portefeuilles Bitcoin : l'étiquetage et le coin control.
@@ -1192,10 +1216,12 @@ Toutes ces méthodes de sélection automatique des UTXOs peuvent être efficaces
 
 Si vous souhaitez découvrir comment apposer une étiquette sur vos UTXOs, nous avons fait un tutoriel complet sur les principaux logiciels de portefeuille Bitcoin existants : 
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## Le KYC et l'identification des clés
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/oqS0GGsoVUE?feature=shared)
 
 KYC est le sigle de "Know Your Customer", ce qui veut dire en anglais "connaître son client". C'est une procédure réglementaire mise en place par certaines entreprises qui opèrent dans le secteur de Bitcoin. Cette procédure vise à vérifier et à enregistrer l'identité de leurs clients dans le but affiché de lutter contre le blanchiment d'argent et le financement du terrorisme.
 
@@ -1296,6 +1322,8 @@ Pour conclure, lors d'un échange de bitcoins contre d'autres actifs, qu'il s'ag
 ## Les méthodes de vente et d'acquisition
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/tSLMwfvQVWQ?feature=shared)
+
 Après avoir lu le chapitre précédent, vous vous interrogez peut-être sur les moyens d'acheter ou de vendre du bitcoin sans avoir à subir une procédure de vérification d'identité, afin d'éviter les risques associés au KYC. Il existe plusieurs méthodes pour réaliser des échanges.
 
 ### Les échanges P2P en cash
@@ -1344,20 +1372,30 @@ Encore une fois, un autre inconvénient des achats en P2P est que le prix est so
 
 Concernant les solutions, j'ai personnellement toujours utilisé [Bisq](https://bisq.network/) et j'en suis très satisfait. Leur système est rodé et semble fiable. Toutefois, Bisq n'est disponible que sur PC et son interface peut être trop complexe pour les débutants. Un autre inconvénient est que Bisq opère uniquement avec des transactions onchain, ce qui peut devenir coûteux lors de périodes de frais de transaction élevés sur Bitcoin.
 
-[-> Découvrir notre tutoriel sur Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+-> Découvrir notre tutoriel sur Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Pour une option plus simple, vous pouvez essayer [Peach](https://peachbitcoin.com/), une application mobile qui permet la mise en relation des acheteurs et vendeurs avec un système de résolution de conflits intégré. Le processus est plus intuitif que celui de Bisq.
 
-[-> Découvrir notre tutoriel sur Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+-> Découvrir notre tutoriel sur Peach.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
 
 Une autre option en ligne est [HodlHodl](https://hodlhodl.com/), une plateforme bien établie qui offre de bonnes liquidités, bien que je ne l'aie pas personnellement testée.
 
-[-> Découvrir notre tutoriel sur HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+-> Découvrir notre tutoriel sur HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Pour les solutions basées sur le Lightning Network, vous pouvez essayer [RoboSats](https://learn.robosats.com/) et [LNP2PBot](https://lnp2pbot.com/). RoboSats est accessible via un site web et est relativement simple à utiliser. LNP2PBot est plus atypique, car il fonctionne via un système d'échange sur l'application de messagerie Telegram.
 
-[-> Découvrir notre tutoriel sur RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Découvrir notre tutoriel sur LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+-> Découvrir notre tutoriel sur RoboSats.
+-> Découvrir notre tutoriel sur LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1365,7 +1403,9 @@ Pour les solutions basées sur le Lightning Network, vous pouvez essayer [RoboSa
 
 Selon le pays où vous vivez, vous pourriez avoir accès à des plateformes régulées qui ne requièrent pas de procédure KYC pour acheter ou vendre des bitcoins. En Suisse, par exemple, vous pouvez utiliser des plateformes comme [Relai](https://relai.app/) et [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Découvrir notre tutoriel sur Relai.](https://planb.network/en/tutorials/exchange/relai)
+-> Découvrir notre tutoriel sur Relai.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 Comme nous avons vu dans le chapitre précédent, ce type de plateforme vous épargne des risques associés aux procédures KYC, mais elles présentent un niveau de risque plus élevé pour l'identification des clés. En termes de confidentialité sur Bitcoin, ces plateformes offrent donc une meilleure protection que les méthodes d'achat avec KYC, mais elles restent moins intéressantes que les échanges en P2P.
 
@@ -1389,6 +1429,8 @@ La meilleure façon de dépenser des BTC est évidemment d'utiliser directement 
 
 Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibilité d'échanger des bitcoins contre des cartes-cadeaux utilisables dans de grandes enseignes. Parmi ces plateformes, on trouve [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) et [Bitrefill](https://www.bitrefill.com/). Ces plateformes facilitent grandement l'usage quotidien de vos bitcoins en vous permettant d'accéder à une large gamme de produits et de services sans avoir à passer par une conversion en monnaie fiat.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Les autres méthodes d'acquisition
@@ -1397,10 +1439,14 @@ Parmi les autres méthodes pour acquérir des bitcoins tout en protégeant votre
 
 Une autre méthode consiste à travailler en échange de bitcoins. Cette méthode d'acquisition peut être intéressante, mais le degré d'identification requis varie considérablement selon les circonstances.
 
-*Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur PlanB Network (disponible uniquement en français pour le moment).*
+*Pour rédiger ce chapitre, je me suis servi de la formation BTC205 réalisée par [@pivi___](https://x.com/pivi___) sur Plan ₿ Network (disponible uniquement en français pour le moment).*
+
+
 
 ## La consolidation, la gestion des UTXOs et la CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/5mynikwUkLs?feature=shared)
 
 Une des choses les plus compliquées à gérer lorsque l'on dispose de son propre portefeuille en self-custody est sûrement la consolidation. Faut-il consolider ? À quoi ça sert ? Quelle taille d'UTXO faut-il respecter ? Quels sont les compromis en termes de confidentialité ? C'est ce que nous allons essayer de voir dans cette section.
 
@@ -1481,6 +1527,8 @@ Dans tous les cas, n'oubliez pas que toute consolidation entraîne forcément un
 ## Les autres bonnes pratiques
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/mKuyVKi_JKM?feature=shared)
+
 Découvrons ensemble quelques autres bonnes pratiques qui peuvent vous permettre d'optimiser votre confidentialité sur Bitcoin.
 
 ### Le nœud complet
@@ -1532,6 +1580,8 @@ Au-delà de toutes ces bonnes pratiques à adopter au quotidien, il existe des m
 
 ## C'est quoi une transaction coinjoin ?
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/D9-2dTpmWNU?feature=shared)
 
 Après avoir étudié les fondamentaux de la protection de la vie privée, nous allons maintenant aborder des techniques plus sophistiquées visant à défendre activement votre confidentialité, en particulier par la dissociation de l'historique de vos bitcoins. Dans la partie suivante, nous allons étudier plein de petites techniques, mais d'abord, je souhaite vous parler du coinjoin.
 
@@ -1619,6 +1669,8 @@ De nos jours, les utilisateurs préfèrent donc le coinjoin, car il permet de ga
 
 ## Zerolink et chaumian coinjoins
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/JYBh0_u62Yc?feature=shared)
 
 La confidentialité apportée par un coinjoin se gagne sur la grandeur du groupe dans lequel notre pièce se cache. Il faut donc trouver le plus de participants possible. Il est tout à fait possible de faire un coinjoin manuellement, avec des utilisateurs que l'on a trouvés nous-même, mais cette manière de faire est complexe, et elle ne permet pas de gagner de grands anonsets.
 
@@ -1724,6 +1776,8 @@ Actuellement, Whirlpool est la seule implémentation de coinjoin qui applique de
 ## Les implémentations de coinjoin
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/cKNB1_840Ic?feature=shared)
+
 *En 2024, nous assistons à d'importants changements dans les outils disponibles pour les utilisateurs désirant réaliser des coinjoins sur Bitcoin. Nous sommes actuellement dans une période charnière, et le marché des coinjoins est en pleine restructuration. Ce chapitre sera donc sûrement mis à jour au fil du temps.*
 
 Il existe pour le moment principalement 3 implémentations de coinjoin différentes sur Bitcoin :
@@ -1798,6 +1852,8 @@ Comme vous l'aurez compris, ma préférence va sans conteste vers le modèle de 
 
 ## Le fonctionnement de Whirlpool
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/JQ12fBHsLtY?feature=shared)
 
 Whirlpool se distingue des autres méthodes de coinjoin par l'utilisation de transactions "_ZeroLink_", qui assurent qu'il n'y a strictement aucun lien technique possible entre tous les inputs et tous les outputs. Ce mixage parfait est obtenu grâce à une structure où chaque participant contribue avec un montant identique en input (à l'exception des frais de minage), générant ainsi des outputs de montants parfaitement égaux.
 
@@ -2000,14 +2056,16 @@ Nous suivons de près l'évolution de cette affaire ainsi que les développement
 
 Dans le chapitre suivant, nous allons découvrir ce que sont les "anonsets", comment ces indicateurs sont calculés, et en quoi ils peuvent nous aider pour estimer l'efficacité des cycles de coinjoins.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Les ensembles d'anonymat
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/9nMLaYf6yx0?feature=shared)
 
 Après avoir étudié le fonctionnement des coinjoins ainsi que les enjeux associés à un mixage efficace, nous allons à présent découvrir comment mesurer cette efficacité. Comment déterminer si un processus de coinjoins a été efficace et quel degré d'anonymat une pièce a acquis ? C'est ce que nous allons découvrir dans ce chapitre avec les ensembles d'anonymat ou "anonsets" en anglais.
 
@@ -2060,7 +2118,7 @@ L'anonset rétrospectif indique le nombre de sources possibles pour une pièce d
 ![BTC204](assets/fr/55/06.webp)
 
  En connaissant votre UTXO à la sortie des cycles, l'anonset rétrospectif détermine le nombre de transactions Tx0 potentielles qui auraient pu constituer votre entrée dans les cycles de coinjoins. Sur le schéma ci-dessous, cela correspond à l'addition de toutes les bulles orange.
- 
+
 ![BTC204](assets/notext/55/07.webp)
 
 Par exemple, imaginons que notre pièce en sortie de cycle de coinjoin bénéficie d'un anonset rétrospectif de `42 185`. Concrètement, cela signifie qu'il existe `42 185` sources potentielles pour cet UTXO. Si un observateur externe identifie cette pièce à la fin des cycles et cherche à en retrouver l'origine, il se trouvera face à `42 185` sources possibles, toutes avec une probabilité égale d'être l'origine recherchée.
@@ -2075,10 +2133,12 @@ Il est possible de calculer manuellement ses anonsets avec un explorateur de blo
 
 Comme nous avons vu dans ce chapitre, les anonset ne peuvent être calculés que s'il existe une certaine homogénéité dans la structure des coinjoins. Et justement, nous allons découvrir dans le prochain chapitre comment quantifier cette homogénéité sur une transaction Bitcoin, qu'il s'agisse d'un coinjoin ou d'une transaction plus classique.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## L'entropie
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/yGr34eyMPtA?feature=shared)
 
 Comme nous l'avons vu dans cette partie sur les coinjoins, l'homogénéité des UTXOs en inputs et en outputs joue un rôle important dans l'amélioration de la confidentialité d'une transaction Bitcoin. Ce paramètre permet de créer un déni plausible face aux analyses de chaîne. Plusieurs méthodes permettent de mesurer cette homogénéité, mais l'une des plus efficaces est, à mon avis, l'utilisation des indicateurs fournis par l'outil *Boltzmann*, développé par les équipes d'OXT et de Samourai Wallet, et notamment l'entropie de la transaction. C'est ce que nous allons étudier en détail dans ce chapitre.
 
@@ -2307,13 +2367,15 @@ Hélas, suite à l'arrestation des fondateurs de Samourai, ces outils ne sont pl
 
 Maintenant que nous avons abordé en détail les coinjoins, nous allons étudier les autres techniques de confidentialité disponibles sur Bitcoin dans la dernière section de notre formation. Nous examinerons les payjoins, les types de transactions spécifiques pseudo-coinjoins, les protocoles d'adresses statiques, ainsi que les mesures visant à renforcer la confidentialité non pas au niveau des transactions elles-mêmes, mais au niveau du réseau de nœuds.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Connaître les enjeux d'autres techniques de confidentialité avancées
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
 ## Les transactions payjoin
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/e4i66QXWCvs?feature=shared)
 
 Le coinjoin représente actuellement la méthode la plus efficace pour introduire de l'incertitude dans le traçage des pièces lors d'une analyse de chaîne. Comme nous avons vu dans les chapitres précédents, pour obtenir un mixage performant, il faut que les inputs et les outputs présentent la plus grande homogénéité possible. De plus, il est important que les pièces soient intégrées dans un groupe aussi vaste que possible pour maximiser les anonsets. Ainsi, pour que les coinjoins soient efficaces, ils doivent impliquer un grand nombre de pièces uniformes. Cette multitude d'exigences fait que les transactions coinjoin ont une structure très rigide : les montants sont fixés à l'avance et tous les participants doivent s'y conformer pour garantir l'uniformité du processus. De plus, les coinjoins requièrent une synchronisation entre tous les participants et le coordinateur lors de la construction de la transaction.
 
@@ -2395,12 +2457,14 @@ La difficulté d'utilisation du payjoin réside dans sa dépendance vis-à-vis d
 
 Une solution serait d'utiliser des structures transactionnelles qui introduisent de l'ambiguïté dans l'analyse de la chaîne sans nécessiter la coopération du destinataire. Cela nous permettrait d'améliorer la confidentialité de nos paiements sans dépendre de la participation active des commerçants. C'est justement ce que nous allons étudier dans le prochain chapitre.
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Les mini-coinjoins de paiement
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/SUMLsQSytbE?feature=shared)
 
 Lorsque l'on souhaite réaliser une transaction de paiement tout en préservant un certain degré de confidentialité, le payjoin est une bonne option. Mais comme nous venons de le voir, le payjoin nécessite de faire intervenir le destinataire. Que faire alors si ce dernier refuse de participer à un payjoin, ou si vous préférez simplement ne pas l'impliquer ? Une alternative consiste à utiliser une transaction Stonewall ou Stonewall x2. Examinons de plus près ces deux types de transactions.
 
@@ -2510,12 +2574,14 @@ Il est également possible de réaliser manuellement ce type de transaction depu
 
 Dans le prochain chapitre, nous allons étudier une autre technique de confidentialité qui assez peu connue, mais qui est très utile en complément de ce que nous avons déjà étudié.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Les ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/TfOsnqXtJ8g?feature=shared)
 
 L'utilisation de structures de transactions Bitcoin qui ajoutent de l'ambiguïté dans l'analyse de chaîne, telles que le coinjoin, est particulièrement bénéfique pour la protection de la vie privée. Cependant, comme nous l'avons évoqué dans le chapitre sur les payjoins, les transactions coinjoins sont naturellement identifiables sur la chaîne. Rappelez-vous l'analogie que nous avions établie entre le chiffrement et les coinjoins : lorsqu'on chiffre un fichier, une tierce personne qui découvre ce fichier chiffré ne peut pas accéder à son contenu, mais elle peut clairement identifier qu'il y a eu une modification du fichier pour en cacher son contenu. Il en va de même pour le coinjoin : lorsqu'un analyste examine une transaction coinjoin, bien qu'il ne puisse pas établir de liens directs entre les inputs et les outputs (et inversement), il peut néanmoins reconnaître que la transaction observée est un coinjoin.
 
@@ -2580,10 +2646,12 @@ Le ricochet consiste simplement à s'envoyer des bitcoins à soi-même. Il est d
 
 Dans le chapitre suivant, nous étudions différentes techniques de transferts secrets de propriété. Ces méthodes diffèrent radicalement de celles que nous avons examinées jusqu'à présent, tant en termes de fonctionnement que de résultats.
 
-https://planb.network/tutorials/privacy/ricochet
- 
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Les transferts secrets de propriété
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/zfl5c5yeoTk?feature=shared)
 
 Parmi les techniques de confidentialité sur Bitcoin, il existe aussi le transfert secret de propriété. Cette méthode vise à transférer la possession de bitcoins d'une personne à une autre, et inversement, sans que cette transaction soit explicitement visible sur la blockchain. Étudions ensemble les différentes techniques disponibles ainsi que leurs avantages et inconvénients.
 
@@ -2700,6 +2768,8 @@ Jusqu'ici, nous avons principalement étudié les méthodes de confidentialité 
 ## La confidentialité sur le réseau P2P
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/z3PMxy7xpuU?feature=shared)
+
 Dans la partie 4, nous avons abordé l'importance d'utiliser un nœud complet pour protéger la confidentialité de vos transactions. Cependant, il est important de comprendre que votre nœud peut lui-même être sujet à des attaques cherchant à extraire des informations sur vos activités. Dans ce chapitre, nous allons donc examiner les différentes mesures de protection de votre vie privée, non pas au niveau des transactions elles-mêmes ou des flux de bitcoins, mais bien au niveau du réseau.
 
 ### Dandelion
@@ -2775,6 +2845,8 @@ Après avoir exploré les différentes méthodes de confidentialité au niveau d
 ## BIP47 et codes de paiements réutilisables
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/QxbNReGAsvg?feature=shared)
+
 Comme nous l'avons vu dans la partie 3, la réutilisation d'adresses constitue un sérieux obstacle à la confidentialité des utilisateurs sur le protocole Bitcoin. Pour pallier ces risques, il est vivement recommandé de générer une adresse de réception vierge pour chaque nouveau paiement reçu dans un portefeuille. Bien que générer une nouvelle adresse soit aujourd'hui simplifié par l'emploi de logiciels modernes et de portefeuilles déterministes hiérarchiques, cette pratique peut sembler contre-intuitive.
 
 ![BTC204](assets/notext/66/1.webp)
@@ -2838,7 +2910,13 @@ Bien que ces robots n'aient pas de fonctionnalité technique spécifique dans le
 
 ---
 
-*Dans les sections suivantes de ce chapitre dédié au BIP47, nous allons examiner en détail son fonctionnement, en mettant un accent particulier sur les méthodes cryptographiques utilisées. Pour saisir pleinement ces explications quelque peu techniques, il est essentiel de comprendre au préalable la structure des portefeuilles HD, les procédés de dérivation de clés et les principes fondamentaux de la cryptographie basée sur les courbes elliptiques. Si vous souhaitez approfondir ces concepts, une autre formation gratuite est disponible sur PlanB Network : [CRYPTO 301](https://planb.network/en/courses/crypto301). Je vous conseille tout de même de les suivre, car en comprenant le fonctionnement technique du BIP47, vous comprendrez beaucoup plus facilement d'autres propositions similaires dont nous allons parler dans les chapitres suivants.*
+*Dans les sections suivantes de ce chapitre dédié au BIP47, nous allons examiner en détail son fonctionnement, en mettant un accent particulier sur les méthodes cryptographiques utilisées. Pour saisir pleinement ces explications quelque peu techniques, il est essentiel de comprendre au préalable la structure des portefeuilles HD, les procédés de dérivation de clés et les principes fondamentaux de la cryptographie basée sur les courbes elliptiques. Si vous souhaitez approfondir ces concepts, une autre formation gratuite est disponible sur Plan ₿ Network :*
+
+https://planb.network/courses/cyp201
+
+*Je vous conseille tout de même de les suivre, car en comprenant le fonctionnement technique du BIP47, vous comprendrez beaucoup plus facilement d'autres propositions similaires dont nous allons parler dans les chapitres suivants.*
+
+---
 
 ### Le code de paiement réutilisable
 
@@ -3124,7 +3202,7 @@ Maintenant, voyons comment fonctionne cette transaction de notification. Imagino
 $$
 a
 $$
-   
+
 - Alice récupère la clé publique associée à l'adresse de notification de Bob. Cette clé est la première fille dérivée depuis le code de paiement de Bob (index $/0$). Nous nommons cette clé publique $B$ (majuscule). La clé privée associée à cette clé publique est nommée $b$ (minuscule). $B$ est déterminé par addition et doublement de points sur la courbe elliptique depuis $G$ (le point générateur) avec $b$ (la clé privée) :
 
 $$ B = b \cdot G $$
@@ -3513,10 +3591,12 @@ Bob peut alors rembourser Alice de la même manière qu'elle lui a envoyé des p
 
 *Un grand merci à [Fanis Michalakis](https://x.com/FanisMichalakis) pour sa relecture et ses précieux conseils d'expert sur l'article qui a inspiré la rédaction de ce chapitre !*
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Silent Payments
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/lG6JamNlwXY?feature=shared)
 
 Le BIP47 a beaucoup été critiqué pour son inefficience onchain. Comme expliqué dans le chapitre précédent, il impose la réalisation d'une transaction de notification pour chaque nouveau destinataire. Cette contrainte devient négligeable si l'on envisage d'établir un canal de paiement durable avec ce destinataire. En effet, une unique transaction de notification ouvre la voie à une quasi-infinité de paiements BIP47 par la suite.
 
@@ -3891,24 +3971,16 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 # Conclusion
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
+## Avis & Notes
 
-## Donnez-nous votre avis sur ce cours
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
+
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Le mot de la fin
+## Conclusion
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-
-Félicitations pour avoir terminé cette formation sur la confidentialité sur Bitcoin !
-
-Nous avons abordé de nombreux sujets avancés et techniques dans cette formation, mais il n'est pas impératif d'utiliser tous les outils présentés. L'objectif principal était de vous donner le pouvoir de choisir les informations que vous souhaitez divulguer et celles que vous préférez garder confidentielles dans votre utilisation de Bitcoin. Cela incarne l'essence même de la protection de la vie privée. Pour faire des choix éclairés sur les informations à partager ou à cacher, il est faut être conscient des implications de nos actions. J'espère que cette formation vous a aidé à acquérir ces connaissances.
-
-Si je devais choisir la partie la plus importante de cette formation, je prendrais la section dédiée à l'analyse de chaîne. Comprendre les techniques employées par vos potentiels attaquants est le meilleur moyen de vous en protéger. Mon conseil serait donc de revoir attentivement cette partie et d'essayer de saisir tous ses détails.
-
-Dans cette formation, nous nous sommes concentrés exclusivement sur la confidentialité de Bitcoin sur la chaîne principale. Les enjeux de confidentialité sur les systèmes de seconde couche, comme le Lightning Network et les sidechains, sont également importants et possèdent des caractéristiques très spécifiques. Bien que l'utilisation de transactions off-chain puisse être une stratégie efficace pour contourner les nombreux risques de traçabilité sur Bitcoin que nous avons étudiés, elle expose à d'autres risques qu'il est aussi essentiel de connaître. C'est pour cela que ces sujets seront abordés dans une future formation dédiée sur PlanB Network.
-
-Si vous avez apprécié cette formation, je vous serais très reconnaissant de la partager avec vos proches et sur les réseaux sociaux. Merci ! :)
+<isCourseConclusion>true</isCourseConclusion>

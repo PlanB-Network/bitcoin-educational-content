@@ -1,9 +1,9 @@
 question: Qual é a principal vantagem de possuir seu próprio equipamento de mineração?
-answer: Contribuir ativamente para a segurança da rede Bitcoin e adquirir bitcoins virgens.
+answer: Adquirir bitcoins virgens.
 wrong_answers:
   - Evitar a necessidade de comprar Bitcoin diretamente.
-  - Obter lucro ao vender o equipamento posteriormente.
+  - Obter lucro vendendo o equipamento mais tarde.
   - Evitar a necessidade de confiar em outros mineradores.
 explanation: |
-  Possuir seu próprio equipamento de mineração oferece vantagens consideráveis. Além da satisfação pessoal de contribuir ativamente para a segurança da rede Bitcoin e ver as recompensas caírem em sua carteira, há o aspecto atrativo dos "bitcoins virgens". Estes são bitcoins recém-minerados que nunca foram gastos e não possuem histórico associado a eles.
-reviewed: false
+  Possuir seu próprio equipamento de mineração oferece vantagens consideráveis. Além da satisfação pessoal de contribuir ativamente para a segurança da rede Bitcoin e ver as recompensas caírem na sua carteira, há o aspecto atraente dos bitcoins virgens. Estes são bitcoins recém-minerados que nunca foram gastos e não têm nenhum histórico associado a eles.
+reviewed: true

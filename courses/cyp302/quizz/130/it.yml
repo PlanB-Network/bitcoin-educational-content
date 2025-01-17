@@ -1,0 +1,9 @@
+question: Quale ruolo svolgono le autorità di certificazione nel processo di distribuzione delle chiavi pubbliche?
+answer: Rilasciano certificati che garantiscono l'autenticità delle chiavi pubbliche
+wrong_answers:
+  - Generano chiavi private per gli utenti
+  - Memorizzano le chiavi pubbliche per tutti gli utenti
+  - Assicurano la cifratura dei messaggi tra utenti
+explanation: |
+  Le autorità di certificazione rilasciano certificati che collegano una chiave pubblica al suo proprietario, permettendo agli utenti di verificare l'autenticità delle chiavi pubbliche che utilizzano.
+reviewed: false

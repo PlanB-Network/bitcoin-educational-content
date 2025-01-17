@@ -1,0 +1,9 @@
+question: Mikä erottaa standardipituuden RC4-avainvirran yksinkertaistetusta versiosta, joka on esitetty esimerkissä?
+answer: Standardin RC4; n S-taulukon pituus on 256 tavua
+wrong_answers:
+  - S-taulukko on rajoitettu 128 tavuun
+  - Käytettävän avaimen on oltava yli 8 tavua
+  - S: llä ei ole kiinteää pituutta standardissa RC4
+explanation: |
+  Standardissa RC4: ssä S-taulukko sisältää 256 tavua, mikä merkittävästi lisää laskelmien monimutkaisuutta ja parantaa turvallisuutta verrattuna yksinkertaistettuun versioon, jossa on vain 8 tavua.
+reviewed: false

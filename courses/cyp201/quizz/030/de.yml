@@ -1,9 +1,9 @@
-question: Wie lautet die Gleichung, die eine elliptische Kurve definiert?
-answer: "y\xB2 = x\xB3 + ax + b"
+question: Was ist der Zweck von SIGHASH_SINGLE?
+answer: Ein einzelnes Eingangssignal und sein entsprechendes Ausgangssignal abzudecken
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
+  - Alle Eingangs- und Ausgangssignale abzudecken
+  - Nur Eingangssignale abzudecken
+  - Alle Ausgangssignale außer einem abzudecken
 explanation: |
-  "Eine elliptische Kurve wird durch die Gleichung y\xB2 = x\xB3 + ax + b definiert. Jeder Punkt auf dieser Kurve hat eine charakteristische Symmetrie, die für ihre Verwendbarkeit in der Kryptographie entscheidend ist."
+  SIGHASH_SINGLE deckt ein einzelnes Eingangssignal und ein einzelnes Ausgangssignal ab, das dem Index des signierten Eingangssignals entspricht, wobei der Rest modifizierbar bleibt.
 reviewed: false

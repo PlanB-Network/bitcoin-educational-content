@@ -1,9 +1,9 @@
 question: Was ist der Zweck der Implementierung von 2FA?
-answer: Um Ihre Online-Konten vor unbefugtem Zugriff zu schützen.
+answer: Um Ihre Online-Konten gegen unbefugten Zugriff zu schützen.
 wrong_answers:
-  - Um es schwieriger für Sie zu machen, auf Ihr eigenes Konto zuzugreifen.
-  - Um Ihre Online-Aktivitäten zu verfolgen.
-  - Um die Geschwindigkeit Ihrer Internetverbindung zu erhöhen.
+  - Um es Ihnen schwerer zu machen, auf Ihr eigenes Konto zuzugreifen
+  - Um Ihre Online-Aktivitäten zu verfolgen
+  - Um die Geschwindigkeit Ihrer Internetverbindung zu erhöhen
 explanation: |
-  2FA fügt Ihren Online-Konten eine zusätzliche Sicherheitsebene hinzu. Selbst wenn ein Hacker Ihr Passwort erhält, wird er ohne den zweiten Verifizierungsfaktor keinen Zugriff auf Ihr Konto haben.
-reviewed: false
+  2FA fügt eine zusätzliche Sicherheitsebene zu Ihren Online-Konten hinzu. Selbst wenn ein Hacker Ihr Passwort erhält, wird er ohne den zweiten Verifizierungsfaktor nicht auf Ihr Konto zugreifen können.
+reviewed: true

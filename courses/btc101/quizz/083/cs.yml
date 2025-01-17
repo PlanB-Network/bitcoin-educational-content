@@ -1,9 +1,12 @@
-question: Jaká analogie se používá k vysvětlení, jak můžete přijímat Bitcoiny, aniž byste umožnili odesílateli ukrást vaše prostředky?
-answer: Poštovní schránka
+question: Jaká analogie je v tomto kurzu použita k vysvětlení, jak můžete přijímat bitcoiny bez
+  toho, aby odesílatel mohl ukrást vaše prostředky?
+answer: Poštovní schránka.
 wrong_answers:
-  - Bankovní účet
-  - Trezor
-  - Dům
+  - Bankovní účet.
+  - Trezor.
+  - Dům.
 explanation: |
-  Analogie použitá k vysvětlení, jak můžete přijímat Bitcoiny, aniž byste umožnili odesílateli ukrást vaše prostředky, je poštovní schránka. Lidé do ní vkládají peníze, ale vy jste jediný, kdo ji může otevřít.
+  Analogie použitá k vysvětlení, jak můžete přijímat bitcoiny
+  bez toho, aby odesílatel mohl ukrást vaše prostředky, je
+  poštovní schránka. Lidé do ní vkládají peníze, ale otevřít ji můžete jen vy.
 reviewed: true

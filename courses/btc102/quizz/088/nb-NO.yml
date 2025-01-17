@@ -1,0 +1,9 @@
+question: Hva er én fordel med å bruke en utvekslingsplattform for å kjøpe og selge bitcoins?
+answer: Det tillater regelmessige transaksjoner i henhold til brukerens behov.
+wrong_answers:
+  - Det tillater anonyme transaksjoner.
+  - Det øker verdien av Bitcoin.
+  - Det gir en plattform for å utvinne Bitcoin.
+explanation: |
+  Utvekslingsplattformer lar brukere kjøpe og selge bitcoins regelmessig og
+  praktisk, i henhold til deres behov.

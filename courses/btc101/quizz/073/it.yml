@@ -1,10 +1,11 @@
 question: Cos'è la chiave privata in un portafoglio Bitcoin?
-answer: Una chiave segreta che ti permette di firmare le tue transazioni
+answer: Una chiave segreta che ti permette di firmare le tue transazioni.
 wrong_answers:
-  - Una chiave pubblica utilizzata per generare gli indirizzi Bitcoin
-  - Un elenco segreto di parole per distruggere il portafoglio
-  - Una chiave segreta per crittografare le transazioni Bitcoin
-explanation: |
-  Durante l'inizializzazione di un portafoglio Bitcoin, viene generato un elenco segreto di parole, chiamato seed mnemonico.
-  Questo elenco di ripristino è molto importante perché rappresenta la proprietà dei Bitcoin e quindi il diritto di inviarli.
-reviewed: false
+  - Una chiave pubblica utilizzata per generare indirizzi Bitcoin.
+  - Una lista segreta di parole per distruggere un portafoglio in caso di necessità.
+  - Una chiave segreta per criptare le transazioni Bitcoin.
+explanation: >-
+  Quando si inizializza un portafoglio Bitcoin, viene generata una lista segreta di parole, chiamata seme mnemonico. 
+  Questa lista di recupero è molto importante perché rappresenta la proprietà
+  dei Bitcoin e quindi il diritto di inviarli.
+reviewed: true

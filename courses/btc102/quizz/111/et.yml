@@ -1,0 +1,10 @@
+question: Mis on Bitcoini sõlme eesmärk Lightning Network'i kontekstis?
+answer: Aidata mõista ja uurida Bitcoini uusi aspekte, mida toob kaasa Lightning Network.
+wrong_answers:
+  - Uute Bitcoinide kaevandamine.
+  - Bitcoinidega kauplemine.
+  - Bitcoinide hoidmine.
+explanation: |
+  Bitcoini sõlm Lightning Network'i kontekstis on kasutusel selleks, et mõista
+  ja uurida Bitcoini uusi aspekte, mida toob kaasa Lightning Network. See
+  ei kaevanda uusi Bitcoine, ei kauple Bitcoinidega ega hoia Bitcoine.

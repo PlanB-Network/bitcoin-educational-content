@@ -1,0 +1,9 @@
+question: 第四次减半后的BTC奖励是多少？
+answer: 3.125 BTC
+wrong_answers:
+  - 1.5625 BTC
+  - 6.25 BTC
+  - 12.5 BTC
+explanation:
+  第四次减半发生在区块高度840,000之后，挖矿的BTC奖励是3.125 BTC。
+reviewed: true

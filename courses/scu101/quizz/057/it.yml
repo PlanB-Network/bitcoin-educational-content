@@ -1,9 +1,11 @@
-question: Qual è uno dei vantaggi di partecipare a conferenze e workshop sulla sicurezza informatica?
-answer: Ti consente di creare connessioni con professionisti del settore.
+question: Qual è uno dei vantaggi della partecipazione a conferenze e workshop sulla cybersecurity?
+answer: Ti permette di creare connessioni con professionisti del settore
 wrong_answers:
-  - È un requisito per tutti i lavori nella sicurezza informatica
-  - Garantisce un lavoro nella sicurezza informatica
-  - È l'unico modo per imparare sulla sicurezza informatica
+  - È un requisito per tutti i lavori nel campo della cybersecurity
+  - Garantisce un lavoro nel settore della cybersecurity
+  - È l'unico modo per imparare sulla cybersecurity
 explanation: |
-  Il capitolo menziona che partecipare a conferenze e workshop sulla sicurezza informatica non solo ti permette di imparare, ma ti aiuta anche a creare connessioni con professionisti del settore.
-reviewed: false
+  Il capitolo menziona che partecipare a conferenze
+  e workshop sulla cybersecurity non solo permette di imparare ma
+  aiuta anche a creare connessioni con professionisti del settore.
+reviewed: true

@@ -1,9 +1,0 @@
-question: ¿Qué es la HRP (Parte Legible por Humanos) en una dirección de Bitcoin?
-answer: Es parte de la información de entrada requerida para el programa BCH.
-wrong_answers:
-  - Es el hash de la clave pública.
-  - Es la suma de verificación de la dirección.
-  - Es la clave privada asociada con la dirección.
-explanation: |
-  El programa BCH requiere varias informaciones de entrada, incluyendo la HRP (Parte Legible por Humanos) que necesita ser expandida. Esto es parte del proceso de construcción de una dirección de Bitcoin.
-reviewed: false

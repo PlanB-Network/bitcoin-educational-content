@@ -1,9 +1,9 @@
-question: Ovatko Lightning-maksukanavat kaksisuuntaisia?
-answer: "Kyllä"
+question: Mikä on UTXO Bitcoinin kontekstissa?
+answer: Käyttämätön bitcoinien osa, joka on yhdistetty skriptiin
 wrong_answers:
-  - "Ei"
-  - Vain joissakin tapauksissa
-  - Se riippuu Bitcoin-verkosta
+  - Täysin vahvistettu transaktio lohkoketjussa
+  - Julkinen avain, joka luo Bitcoin-osoitteita
+  - Bitcoin-määrä jaettuna useisiin osiin
 explanation: |
-  Maksukanavat ovat kaksisuuntaisia, mikä tarkoittaa, että niillä on kaksi "puolta". Esimerkiksi, jos Alice ja Bob avaavat maksukanavan, Alice voi lähettää Bitcoinia Bobille, ja Bob voi lähettää Bitcoinia Alicelle.
+  UTXO, eli Unspent Transaction Output (käyttämätön transaktiojäännös), on käyttämätön transaktiojäännös, joka edustaa tiettyä määrää bitcoineja, joita haltija voi käyttää.
 reviewed: false

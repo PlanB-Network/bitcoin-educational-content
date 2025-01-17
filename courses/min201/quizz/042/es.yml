@@ -1,9 +1,11 @@
 question: ¿Cuál es el impacto potencial de una prohibición de la minería en una región?
-answer: Puede llevar a una disminución significativa en la tasa de hash y el precio de Bitcoin.
+answer: Puede llevar a una caída significativa en el hashrate y el precio de Bitcoin
 wrong_answers:
-  - Puede llevar a un aumento en el precio de Bitcoin.
-  - Puede llevar a un aumento en la tasa de hash de la red.
-  - Puede llevar a un aumento en el número de nodos activos en la red.
+  - Puede llevar a un aumento en el precio de Bitcoin
+  - Puede llevar a un aumento en el hashrate de la red
+  - Puede llevar a un aumento en el número de nodos activos en la red
 explanation: |
-  Una prohibición de la minería en una región, como lo que sucedió en China, puede llevar a una disminución significativa en la tasa de hash y el precio de Bitcoin. Sin embargo, estos pueden recuperarse rápidamente.
-reviewed: false
+  Una prohibición de la minería en una región, como lo que ocurrió en China,
+  puede llevar a una caída significativa en el hashrate y el precio de
+  Bitcoin. Sin embargo, estos pueden recuperarse rápidamente.
+reviewed: true

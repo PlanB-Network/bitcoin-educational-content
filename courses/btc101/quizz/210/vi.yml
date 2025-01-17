@@ -1,9 +1,10 @@
 question: Quốc gia nào đã công nhận Bitcoin là tiền tệ hợp pháp?
-answer: El Salvador
+answer: El Salvador.
 wrong_answers:
-  - Hoa Kỳ
-  - Trung Quốc
-  - Ấn Độ
+  - Hoa Kỳ.
+  - Trung Quốc.
+  - Ấn Độ.
 explanation: >-
-  El Salvador đã thực hiện bước đi táo bạo bằng cách chấp nhận Bitcoin một cách toàn diện, công nhận nó là tiền tệ hợp pháp.
-reviewed: false
+  El Salvador đã thực hiện bước đi táo bạo bằng cách chấp nhận Bitcoin một cách toàn diện,
+  công nhận nó là tiền tệ hợp pháp.
+reviewed: true

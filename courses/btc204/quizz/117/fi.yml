@@ -1,0 +1,11 @@
+question: Kuinka monta peräkkäistä siirtoa klassinen ricochet yleensä suorittaa?
+
+answer: 5
+
+wrong_answers:
+  - 2
+  - 8
+  - 14
+
+explanation: |
+  Ricochet-menetelmässä tehdään tyypillisesti 4 siirtoa itselle, ja lopuksi yksi siirto lähettää varat lopulliselle vastaanottajalle.

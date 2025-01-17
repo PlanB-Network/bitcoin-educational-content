@@ -1,9 +1,8 @@
-question: Vai trò của hàm băm mật mã trong việc xác minh tính toàn vẹn của phần mềm đã tải về là gì?
-answer: Chúng đóng vai trò như những lính gác số, xác minh tính toàn vẹn của phần mềm đã tải về.
+question: Kết hợp các hàm băm nào được sử dụng để tạo ra dấu vân tay ngắn hơn trong Bitcoin?
+answer: HASH160
 wrong_answers:
-  - Chúng mã hóa phần mềm để bảo vệ nó khỏi hacker.
-  - Chúng nén phần mềm để giảm thời gian tải về.
-  - Chúng tạo ra một khóa duy nhất cho mỗi lần tải về.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Hàm băm mật mã đóng vai trò quan trọng trong việc xác minh tính toàn vẹn của phần mềm đã tải về. Bằng cách so sánh giá trị băm của tệp đã tải với giá trị băm mong đợi, người ta có thể xác minh rằng tệp không bị can thiệp.
-reviewed: false
+  HASH160 kết hợp SHA256 và RIPEMD160 để tạo ra dấu vân tay 160-bit, đặc biệt là cho địa chỉ Bitcoin.

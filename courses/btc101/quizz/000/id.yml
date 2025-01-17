@@ -1,0 +1,9 @@
+question: Apa itu Bitcoin?
+answer: Bitcoin adalah sistem kas elektronik peer-to-peer.
+wrong_answers:
+  - Bitcoin adalah jenis mata uang fisik.
+  - Bitcoin adalah mata uang digital terpusat yang dikendalikan oleh satu entitas.
+  - Bitcoin adalah jenis saham atau obligasi.
+explanation: |
+  Seperti yang dinyatakan dalam whitepaper, Bitcoin adalah protokol komputer peer-to-peer yang menerapkan sistem moneter tanpa perlu mempercayai pihak ketiga.
+reviewed: true

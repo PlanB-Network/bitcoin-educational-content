@@ -1,0 +1,10 @@
+question: Hva var den høyeste valøren på sedler i Brasil før den siste revalutasjonen i 1994?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  Den høyeste valøren på sedler i Brasil nådde 500,000, og den siste
+
+  revalutasjonen i 1994 ble gjort med en rate på 2,750 til 1.

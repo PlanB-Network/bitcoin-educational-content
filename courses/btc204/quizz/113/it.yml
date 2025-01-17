@@ -1,0 +1,13 @@
+question: Quale elemento impedisce a un osservatore esterno di differenziare tra le transazioni Stonewall e Stonewall x2?
+
+answer: Il modello delle transazioni è lo stesso
+
+wrong_answers:
+  - Le transazioni sono criptate
+  - Gli importi coinvolti nelle transazioni sono sempre identici
+  - Le firme digitali delle transazioni sono generate dallo stesso algoritmo
+
+explanation: |
+  Da un punto di vista esterno, il modello di transazione è esattamente lo stesso. Senza informazioni contestuali aggiuntive, è quindi impossibile differenziare una transazione Stonewall da una transazione Stonewall x2, poiché adottano lo stesso modello.
+
+reviewed: false

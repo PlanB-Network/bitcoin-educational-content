@@ -1,0 +1,9 @@
+question: Hva tilbød Bitcoin Faucet som ble opprettet i juni 2010 av Gavin Andresen?
+answer: Bitcoins
+wrong_answers:
+  - Handlekuponger
+  - Rabatter på gebyrer for Bitcoin Market
+  - Sjanser til å mine en blokk
+explanation: |
+  Denne tjenesten distribuerte opprinnelig 5 bitcoins per forespørsel, for å la folk prøve ut systemet. Denne mengden ble redusert over tid, og faucet stengte i 2012.
+reviewed: false

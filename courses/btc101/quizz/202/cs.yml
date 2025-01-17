@@ -1,9 +1,10 @@
-question: Jaký je jeden ze způsobů, jak získat Bitcoiny bez KYC?
+question: Jaký je jeden ze způsobů, jak získat bitcoiny bez KYC?
 answer: Bitcoinové bankomaty.
 wrong_answers:
-  - Broker platformy.
+  - Brokerové platformy.
   - DCA platformy.
   - Bankovní převody.
-explanation: >-
-  Text uvádí, že existuje několik způsobů, jak získat Bitcoiny bez KYC, jedním z nich jsou Bitcoinové bankomaty.
-reviewed: false
+explanation: |
+  Text kurzu uvádí, že existuje několik způsobů, jak
+  získat Bitcoiny bez KYC, jedním z nich jsou bitcoinové bankomaty.
+reviewed: true

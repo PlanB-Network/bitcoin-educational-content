@@ -1,9 +1,9 @@
 question: Cos'è Bitcoin?
-answer: Bitcoin è un sistema di denaro elettronico peer-to-peer.
+answer: Bitcoin è un sistema di pagamento elettronico peer-to-peer.
 wrong_answers:
   - Bitcoin è un tipo di valuta fisica.
   - Bitcoin è una valuta digitale centralizzata controllata da un'unica entità.
   - Bitcoin è un tipo di azione o obbligazione.
 explanation: |
-  Come indicato nel whitepaper, Bitcoin è un protocollo informatico peer-to-peer che implementa un sistema monetario senza la necessità di fidarsi di terze parti.
-reviewed: false
+  Come affermato nel whitepaper, Bitcoin è un protocollo informatico peer-to-peer che crea un sistema monetario senza la necessità di alcuna terza parte fidata.
+reviewed: true

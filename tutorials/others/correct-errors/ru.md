@@ -12,13 +12,13 @@ description: Как исправить ошибку на сети PlanB?
 
 Обратите внимание, если вы планируете выполнить полный обзор и ревизию документа, особенно для переводов контента, я приглашаю вас ознакомиться с этим другим более подробным руководством.
 
-https://planb.network/tutorials/others/content-review-tutorial
+https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 
  Здесь мы сосредотачиваемся только на том, как сделать быстрое исправление для маленькой ошибки.
 
 - Сначала вам нужно иметь аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили подробное руководство, которое поможет вам.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content):

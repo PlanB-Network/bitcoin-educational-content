@@ -1,0 +1,9 @@
+question: ¿Cuáles son los tres componentes esenciales de un esquema de cifrado simétrico?
+answer: Un algoritmo de generación de claves, un algoritmo de cifrado y un algoritmo de descifrado
+wrong_answers:
+  - Un algoritmo de hashing, una clave pública y un algoritmo de verificación
+  - Una clave pública, una clave privada y un algoritmo de descifrado
+  - Un algoritmo de cifrado, una clave pública y una clave privada
+explanation: |
+  Un esquema de cifrado simétrico consta de tres elementos: un algoritmo de generación de claves, un algoritmo de cifrado y un algoritmo de descifrado. Todos utilizan la misma clave.
+reviewed: false

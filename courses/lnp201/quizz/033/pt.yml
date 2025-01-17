@@ -1,9 +1,8 @@
-question: Quem pode usar a chave de revogação antes do fim do Timelock?
-answer: A pessoa que recebe o dinheiro.
+question: O que significa roteamento em cebola na Rede Lightning?
+answer: Significa que cada nó intermediário só conhece seus vizinhos imediatos no caminho.
 wrong_answers:
-  - A pessoa que cria a transação com o Timelock.
-  - Ambas as partes podem usar a chave de revogação antes do fim do Timelock.
-  - Nenhuma das partes pode usar a chave de revogação antes do fim do Timelock.
+  - Transmitir fundos diretamente de nó para nó sabendo o destinatário final
+  - Calcular taxas para cada nó intermediário independentemente
+  - Enviar fundos para todos os nós no caminho simultaneamente
 explanation: |
-  A pessoa que recebe o dinheiro pode usar a chave de revogação antes do fim do Timelock em caso de trapaça de uma das partes em um canal na Lightning Network.
-reviewed: false
+  Roteamento em cebola significa que cada nó intermediário só conhece o nó anterior e o próximo, preservando assim a confidencialidade do destinatário final.

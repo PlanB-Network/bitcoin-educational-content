@@ -1,0 +1,13 @@
+question: Jak může být transakce payjoin považována za steganografickou transakci?
+
+answer: Skrývá skutečnou výši platby před vnějšími pozorovateli.
+
+wrong_answers:
+  - Šifruje skutečnou výši platby pro vnější pozorovatele.
+  - Skrývá skutečnou výši platby před příjemcem.
+  - Šifruje skutečnou výši platby pro příjemce.
+
+explanation: |
+  Transakce payjoin spadá do oblasti steganografie, protože skrývá skutečnou výši transakce v rámci falešné transakce, která slouží jako návnada pro vnější pozorovatele.
+
+reviewed: false

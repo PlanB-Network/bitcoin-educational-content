@@ -1,0 +1,13 @@
+question: Informasi apa yang harus ditunjukkan pada sebuah label?
+
+answer: Asal dari sebuah UTXO.
+
+wrong_answers:
+  - Tanggal pembuatan sebuah UTXO.
+  - Ukuran dari sebuah UTXO.
+  - Jumlah biaya yang terkait dengan pembuatan sebuah UTXO.
+
+explanation: |
+  Pelabelan adalah praktik yang baik yang membantu untuk mengingat asal dari sebuah UTXO.
+
+reviewed: false

@@ -1,10 +1,12 @@
 question: Was ist der Hauptzweck der Bitcoin-Einheit?
-answer: Die Bitcoin-Einheit ist die Währung, die für das ordnungsgemäße Funktionieren des Bitcoin-Protokolls erforderlich ist.
+answer: Die Bitcoin-Einheit ist die Währung, die für das ordnungsgemäße Funktionieren des Bitcoin-Protokolls notwendig ist.
 wrong_answers:
-  - Die Bitcoin-Einheit wird verwendet, um den Preis von Bitcoin zu regulieren.
-  - Die Bitcoin-Einheit wird verwendet, um das Bitcoin-Protokoll zu kontrollieren.
-  - Die Bitcoin-Einheit wird verwendet, um neue Bitcoins zu erstellen.
+  - Die Bitcoin-Einheit ist ein Team, das den Preis von Bitcoin reguliert.
+  - Die Bitcoin-Einheit ist eine zentrale Autorität, die das Bitcoin-Protokoll kontrolliert.
+  - Die Bitcoin-Einheit ist eine Bitcoin-Austauschplattform.
 explanation: |
-  Die Bitcoin-Einheit ist die Währung, die für das ordnungsgemäße Funktionieren des Bitcoin-Protokolls erforderlich ist.
-  Sie wird für Transaktionen verwendet und ist auf das Bitcoin-Protokoll angewiesen, um zu funktionieren.
-reviewed: false
+  Die Bitcoin-Einheit ist die Währung, die für das ordnungsgemäße
+  Funktionieren des Bitcoin-Protokolls notwendig ist. Sie wird für
+  Transaktionen verwendet und ist auf das Bitcoin-Protokoll angewiesen,
+  um zu funktionieren.
+reviewed: true

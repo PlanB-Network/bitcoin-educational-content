@@ -1,0 +1,8 @@
+question: Hvilken type gruppe er spesielt viktig for offentlig nøkkelkryptografi på grunn av dens evne til å generere alle elementer gjennom eksponentiering?
+answer: Sykliske grupper
+wrong_answers:
+  - Ikke-abelske grupper
+  - Uendelige grupper
+  - Komplekse tallgrupper
+explanation: |
+  I kryptografi er sykliske grupper essensielle fordi de tillater generering av alle elementene i gruppen ved å bruke eksponentiering av et enkelt element, kalt en generator.

@@ -1367,28 +1367,10 @@ Of course, **in other countries, legislation and the functioning of associations
 
 
 
-## Evaluate the course
+## Reviews & Ratings
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Take Care of Yourself
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-When one falls down the rabbit hole, our perception of many things changes.
-This then pushes us to inherently want to go further, to want to discover those other people who are doing the same mental work as us and who, too, have understood.
-This motivates us, gives us even more desire to **contribute our stone to the building** and to share our discovery: Bitcoin.
-It also leads us to **think about the world of tomorrow, the one we wish to build, and the communities that are in the process of building it**.
-####
-**In this long gallery that is the creation of a community, you will need to show motivation, strategy, self-sacrifice, and time**. It's sometimes a thankless task; and in this endeavor, it's better to take things little by little so as not to hurt yourself.
-**So, think about yourself, your limits**. And although Bitcoin may animate you night and day, **do not try to do everything alone; otherwise, you will exhaust yourself**.
-
-On the contrary, **ask for help from bitcoiners who have already gone through this same gallery, who have already explored the same issues and built the same tools**. This will save you a tremendous amount of time.
-
-**Also propose to the people who will follow you in this adventure to help you, even if it means delegating some tasks** and that these may take longer. In the long run, your community will emerge united and more mature.
-
-![image](assets/fr/chapter39/63.webp)
-
-Alone, one can quickly explore one of the many galleries of the Bitcoin rabbit hole, until reaching its end. But there is the return journey to make. Then all the other directions to explore.
-Whereas **by creating and/or joining a community of bitcoiners, by sharing and exchanging with them regularly, you will explore all the directions of the Bitcoin rabbit hole at the same time**.
-
-It is then that, much more quickly than you would have done on your own, you can say: "I've understood Bitcoin".
+<isCourseConclusion>true</isCourseConclusion>

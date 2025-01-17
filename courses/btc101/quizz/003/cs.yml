@@ -1,11 +1,13 @@
 question: Jaký je účel tohoto kurzu o Bitcoinu?
-answer: Diskutovat o peněžních aspektech Bitcoinu, jak ho používat a jeho budoucnosti.
+answer: Seznámit s některými obecnými měnovými aspekty Bitcoinu, jak ho používat a jeho budoucností.
 wrong_answers:
-  - Diskutovat o tom, jak těžit Bitcoin.
-  - Diskutovat o tom, jak regulovat Bitcoin.
-  - Diskutovat o tom, jak vytvořit nový protokol Bitcoinu.
+  - Seznámit s tím, jak těžit Bitcoin.
+  - Seznámit s tím, jak regulovat Bitcoin.
+  - Seznámit s tím, jak vytvořit nový protokol Bitcoinu.
 explanation: |
-  Účelem tohoto kurzu o Bitcoinu je diskutovat o peněžních aspektech
-  Bitcoinu, včetně toho, jak kupovat a prodávat bitcoiny, bezpečně je ukládat do digitálních
-  peněženek a používat je pro transakce. Také si klade za cíl prozkoumat budoucnost Bitcoinu.
-reviewed: false
+  Účelem tohoto kurzu o Bitcoinu je diskutovat o
+  obecných měnových charakteristikách Bitcoinu, včetně toho,
+  jak nakupovat a prodávat bitcoiny, bezpečně je uchovávat v digitálních
+  peněženkách a používat je pro transakce. Také si klade za cíl
+  prozkoumat budoucnost Bitcoinu.
+reviewed: true

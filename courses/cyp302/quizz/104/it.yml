@@ -1,0 +1,9 @@
+question: Qual è l'obiettivo principale di uno schema di crittografia autenticata?
+answer: Garantire la riservatezza e l'autenticità delle comunicazioni
+wrong_answers:
+  - Generare chiavi in modo sicuro
+  - Sostituire i MAC negli scambi crittografici
+  - Decifrare automaticamente i messaggi intercettati
+explanation: |
+  Uno schema di crittografia autenticata combina la crittografia e un codice di autenticazione (MAC) per garantire sia la riservatezza dei messaggi che la loro autenticità.
+reviewed: false

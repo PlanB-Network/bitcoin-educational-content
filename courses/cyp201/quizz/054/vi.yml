@@ -1,10 +1,9 @@
-question: Mục đích của BIP43 và BIP44 trong hệ sinh thái Bitcoin là gì?
-answer: Chúng đã chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD.
+question: Vai trò chính của cụm từ bí mật trong ví HD Bitcoin là gì?
+answer: Để thay đổi việc phát sinh khóa nhằm tăng cường bảo mật
 wrong_answers:
-  - Chúng đã giới thiệu cụm từ ghi nhớ 24 từ.
-  - Chúng đã cách mạng hóa cách tạo và lưu trữ khóa.
-  - Chúng đề xuất thêm một cụm từ bí mật để tăng cường bảo mật cho từng khóa riêng lẻ.
+  - Giải mã các giao dịch đang chờ xử lý
+  - Tạo UTXOs của ví
+  - Bảo vệ quyền truy cập vào ví bằng Face ID
 explanation: |
-  BIP43 và BIP44 đã chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD,
-  làm cho chúng dễ tiếp cận và dễ sử dụng hơn cho công chúng.
+  Cụm từ bí mật hoạt động như một yếu tố bảo mật thứ hai, thay đổi hạt giống phát sinh khóa để ngăn chặn quyền truy cập vào ví trong trường hợp cụm từ ghi nhớ bị xâm phạm.
 reviewed: false

@@ -1,9 +1,11 @@
-question: ¿Cuál es el método estándar para hacer una copia de seguridad de la clave privada en una billetera de Bitcoin?
-answer: Ingresar tu frase mnemotécnica en cualquier software de billetera
+question: ¿Cuál es el método estándar para restaurar tu billetera?
+answer: Ingresar tu frase mnemotécnica en cualquier software de billetera.
 wrong_answers:
-  - Guardar tu frase mnemotécnica en un archivo digital
-  - Escribir tu frase mnemotécnica en un pizarrón
-  - Compartir tu frase mnemotécnica con un amigo de confianza
+  - Guardar tu frase mnemotécnica en un archivo digital.
+  - Escribir tu frase mnemotécnica en una pizarra blanca.
+  - Compartir tu frase mnemotécnica con un amigo de confianza.
 explanation: |
-  El método estándar para hacer una copia de seguridad de la clave privada en una billetera de Bitcoin es ingresar tu frase mnemotécnica en cualquier software de billetera. Esto te permite restaurar tu billetera.
+  El método estándar para respaldar la clave privada en una
+  billetera de Bitcoin es ingresando tu frase mnemotécnica en cualquier
+  software de billetera. Esto te permite restaurar tu billetera.
 reviewed: false

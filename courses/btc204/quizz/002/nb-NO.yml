@@ -1,0 +1,9 @@
+question: Hva er handlingen til en Bitcoin-transaksjon på inngående UTXOer?
+answer: Den bruker dem for å tilfredsstille utgangene.
+wrong_answers:
+  - Den arkiverer dem i blokkjeden for fremtidig referanse.
+  - Den krypterer dem for å sikre transaksjonen.
+  - Den dupliserer dem for å skape nye UTXOer.
+explanation: |
+  Inngående UTXOer i en transaksjon blir brukt for å finansiere utgangene. Det er på en måte kilden til pengene.
+reviewed: false

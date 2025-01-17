@@ -1,9 +1,9 @@
-question: Jaký je hlavní cíl revoluce Bitcoinu podle textu?
-answer: Vytvoření světa, kde je lidská suverenita právem, soukromí je respektováno jako výchozí nastavení a peníze nejsou manipulovány
+question: Jaký je hlavní cíl revoluce Bitcoinu podle tohoto kurzu?
+answer: Vytvoření světa, kde je lidská suverenita právem, soukromí je respektováno jako výchozí stav a peníze nejsou manipulovány.
 wrong_answers:
-  - Vytvoření světa, kde je Bitcoin jedinou měnou
-  - Vytvoření světa, kde vlády nemají žádnou kontrolu
-  - Vytvoření světa, kde je fyzické peníze zastaralé
-explanation: >-
-  Text naznačuje, že hlavním cílem revoluce Bitcoinu je vytvořit svět, kde je lidská suverenita právem, soukromí je respektováno jako výchozí nastavení a peníze nejsou manipulovány.
-reviewed: false
+  - Vytvoření světa, kde soukromí není lidským právem a peníze jsou manipulovány bankami.
+  - Vytvoření světa, kde vlády nemají žádnou moc a společnost je chaotická.
+  - Vytvoření světa, kde je fyzické peníze zastaralé.
+explanation: |
+  Tento text kurzu naznačuje, že hlavním cílem revoluce Bitcoinu je vytvoření světa, kde je lidská suverenita právem, soukromí je respektováno jako výchozí stav a peníze nejsou manipulovány.
+reviewed: true

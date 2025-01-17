@@ -1,0 +1,9 @@
+question: I en enkel betalingstransaksjon hvor det er en inngang på 500 000 sats delt inn i en utgang på 47 500 sats og en annen på 451 000 sats, hvilken UTXO er sannsynligvis vekselen?
+answer: Den på 451 000 sats.
+wrong_answers:
+  - Den på 500 000 sats.
+  - Den på 47 500 sats.
+  - Ingen av dem.
+explanation: |
+  Når det er en betydelig forskjell mellom to utganger i en transaksjon i en enkel betalingsmodell, kan det antas at den større utgangen sannsynligvis er vekselen.
+reviewed: false

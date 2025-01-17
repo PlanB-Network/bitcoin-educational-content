@@ -1,0 +1,5 @@
+description: |
+  NerdMiner je vzdělávací a zábavný nástroj věnovaný těžbě Bitcoinu, založený na desce ESP-32 S3. Přestože nemá výkon profesionálních ASIC zařízení, umožňuje konkrétní pochopení fungování těžby při spotřebě pouhých 0,5 W. Připojen k těžebním poolům nabízí malou šanci na vytěžení bloku a zároveň zobrazuje statistiky na svém integrovaném displeji. Ideální pro nadšence a zvědavce.
+
+contributors:
+  - pretty-private

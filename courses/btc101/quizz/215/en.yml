@@ -1,12 +1,9 @@
-question: What does the text suggest you do to expand your knowledge about Bitcoin?
-answer: Refer to the library of resources listed and categorized over the past few years
+question: What does it mean that Bitcoin has a general upward trend?
+answer: A general upward trend in Bitcoin means that, overall, the price of Bitcoin has been increasing.
 wrong_answers:
-  - Attend Bitcoin conferences
-  - Invest in Bitcoin
-  - Start a Bitcoin mining operation
-explanation: >-
-  The text suggests that to expand your knowledge about Bitcoin, you can
-  refer to the library of resources that have been listed and categorized over the
-  past few years, including podcasts, websites, articles, tutorials, books, and other
-  content.
-reviewed: false
+  - A general upward trend in Bitcoin means that the price is guaranteed to rise indefinitely without any fluctuations.
+  - A general upward trend in Bitcoin means that Bitcoin is becoming less valuable and is losing its market appeal.
+  - A general upward trend in Bitcoin means that it is only popular among a small group of investors and has no impact on the overall market.
+explanation: |
+  A general upward trend in Bitcoin refers to a consistent increase in its price over a certain period of time.It's important to note that while an upward trend suggests a positive trajectory, it does not guarantee that the price will continue to rise without any fluctuations.
+reviewed: true

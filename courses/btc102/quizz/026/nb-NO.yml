@@ -1,0 +1,11 @@
+question: Hva er de to egenskapene som gjør Bitcoin til det det er i dag?
+answer: Dens åpen kildekode og dens knapphet
+wrong_answers:
+  - Dens anonymitet og dens desentralisering
+  - Dens høye verdi og dens volatilitet
+  - Dens brukervennlighet og dens globale aksept
+explanation: |
+  De to hovedegenskapene som definerer Bitcoin er dens åpen kildekode,
+  som gjør den transparent, reviderbar og brukbar for hvem som helst, og dens knapphet,
+  som betyr at det bare noensinne vil være 21 millioner bitcoins i verden.
+reviewed: false

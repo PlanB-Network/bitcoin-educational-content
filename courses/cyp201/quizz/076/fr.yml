@@ -1,9 +1,9 @@
-question: Que se passe-t-il si la phrase secrète d'un portefeuille Bitcoin est modifiée?
-answer: Le portefeuille Bitcoin devient complètement différent.
+question: À quoi correspond la notation /<0;1>/* dans un descriptor ?
+answer: À la chaîne externe et interne avec une dérivation séquentielle
 wrong_answers:
-  - Le portefeuille Bitcoin devient inaccessible.
-  - Le portefeuille Bitcoin reste le même.
-  - Le portefeuille Bitcoin perd tous ses bitcoins.
+  - À une adresse multisignature triée
+  - À une somme de contrôle pour les chemins de dérivation
+  - À un chemin de dérivation endurcie
 explanation: |
-  Si la phrase secrète est modifiée, le portefeuille Bitcoin devient complètement différent car la phrase secrète joue un rôle dans la construction et le calcul de toutes les clés du portefeuille.
+  La notation /<0;1>/* indique que le descriptor peut générer des adresses pour la chaîne externe (0) et interne (1), avec une dérivation séquentielle grâce au wildcard (*).
 reviewed: false

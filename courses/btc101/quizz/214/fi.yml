@@ -1,10 +1,12 @@
 question: Mitä Milton Friedman ennusti vuonna 1999?
-answer: Luotettavan sähköisen rahan kehittämisen
+answer: Luotettavan sähköisen rahan kehittymisen.
 wrong_answers:
-  - Fyysisen rahan katoamisen
-  - Bitcoinin nousun
-  - Hallituksen kontrollin loppumisen rahan yli
-explanation: >-
-  Milton Friedman, tunnettu taloustieteilijä, ennusti vuonna 1999, että luotettava
-  sähköinen raha kehitettäisiin pian, menetelmä, jonka avulla Internetissä voit siirtää
-  varoja pisteestä A pisteeseen B siten, että A ei tunne B:tä eikä B tunne A:ta.
+  - Fyysisen rahan katoamisen.
+  - Bitcoinin nousun.
+  - Hallituksen kontrollin loppumisen rahasta.
+explanation: |
+  Milton Friedman, tunnettu taloustieteilijä, ennusti vuonna 1999,
+  että luotettava sähköinen raha kehitettäisiin pian, menetelmä,
+  jonka avulla Internetissä voit siirtää varoja pisteestä A pisteeseen B,
+  ilman, että A tietää B: stä tai päinvastoin.
+reviewed: true

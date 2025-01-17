@@ -1,0 +1,9 @@
+question: Diantara jawaban-jawaban berikut, mana yang mewakili salah satu tujuan utama dari analisis rantai?
+answer: Mengelompokkan berbagai aktivitas pada Bitcoin untuk menentukan keunikan pengguna.
+wrong_answers:
+  - Mengoptimalkan kinerja penambangan di jaringan.
+  - Mengatur keadilan pada protokol untuk menegakkan hukum sesuai dengan yurisdiksi.
+  - Meningkatkan kerahasiaan transaksi Bitcoin.
+explanation: |
+  Salah satu tujuan dari analisis rantai adalah untuk mengelompokkan berbagai aktivitas pada Bitcoin agar dapat menentukan keunikan pengguna yang melakukannya. Selanjutnya, akan dimungkinkan untuk mencoba menghubungkan kumpulan aktivitas ini dengan identitas nyata.
+reviewed: false

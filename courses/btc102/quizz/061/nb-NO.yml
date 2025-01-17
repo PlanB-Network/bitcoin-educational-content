@@ -1,0 +1,11 @@
+question: Hva er en ikke-KYC løsning i sammenheng med Bitcoin?
+answer: En løsning som tillater anonyme Bitcoin-transaksjoner
+wrong_answers:
+  - En løsning som tillater Bitcoin-transaksjoner uten internett
+  - En løsning som tillater Bitcoin-transaksjoner uten en lommebok
+  - En løsning som tillater Bitcoin-transaksjoner uten gebyrer
+explanation: |
+  En ikke-KYC (Know Your Customer) løsning er en løsning som tillater
+  anonyme Bitcoin-transaksjoner. Den krever ikke at brukeren oppgir personlig
+  identifikasjonsinformasjon.
+reviewed: false

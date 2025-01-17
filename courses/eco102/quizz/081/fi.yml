@@ -1,0 +1,9 @@
+question: Bastiatin mukaan, onko vastuu periaate... ?
+answer: täydellistymisen
+wrong_answers:
+  - täydellisyyden
+  - jatkuvuuden
+  - täydellisen saavutuksen
+explanation: |
+  Bastiat pitää vastuuta täydellistymisen periaatteena, mikä tarkoittaa, että se on parannuksen ja henkilökohtaisen edistymisen lähde kokemusten opetusten kautta.
+reviewed: false

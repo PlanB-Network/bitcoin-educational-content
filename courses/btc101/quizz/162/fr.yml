@@ -1,9 +1,12 @@
 question: Quel est le rôle des mineurs dans le protocole Bitcoin ?
-answer: Ils sécurisent le réseau actuel et historique
+answer: Ils sécurisent le réseau actuel et historique.
 wrong_answers:
-  - Ils régulent le prix du Bitcoin
-  - Ils contrôlent l'offre de Bitcoin
-  - Ils gèrent les transactions entre les utilisateurs
+  - Ils régulent le prix du Bitcoin.
+  - Ils contrôlent l'offre de Bitcoin.
+  - Ils gèrent les transactions entre utilisateurs.
 explanation: |
-  Les mineurs dans le protocole Bitcoin sécurisent à la fois le réseau actuel et historique. Ils ne régulent pas le prix du Bitcoin, ne contrôlent pas son offre et ne gèrent pas les transactions entre les utilisateurs.
-reviewed: false
+  Les mineurs dans le protocole Bitcoin sécurisent à la fois le réseau
+  actuel et historique. Ils ne régulent pas le prix du
+  Bitcoin, ne contrôlent pas son offre, ni ne gèrent les transactions
+  entre utilisateurs.
+reviewed: true

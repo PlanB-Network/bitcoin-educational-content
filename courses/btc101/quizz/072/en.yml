@@ -1,11 +1,12 @@
 question: What are the three main functions of a Bitcoin wallet?
-answer: Receiving bitcoins, Sending bitcoins, secure them against hacking and theft attempts
+answer: Receiving bitcoins, sending bitcoins, secure them against hacking and theft attempts.
 wrong_answers:
-  - Store bitcoins, allow sending bitcoins, secure them against hacking and theft attempts
-  - Allow receiving bitcoins, store bitcoins, secure them against hacking and theft attempts
-  - Allow receiving bitcoins, allow sending bitcoins, selling bitcoins
+  - Store bitcoins, sending bitcoins, secure them against hacking and theft attempts.
+  - Allow receiving bitcoins, store bitcoins, secure them against hacking and theft attempts.
+  - Allow receiving bitcoins, allow sending bitcoins, selling bitcoins.
 explanation: |
-  A Bitcoin wallet is used to interact with the Bitcoin network. Its three
-  main functions are to allow receiving bitcoins, allow sending bitcoins, and secure
-  them against hacking and theft attempts.
+  A Bitcoin wallet is used to interact with the Bitcoin
+  network. Its three main functions are to allow receiving
+  bitcoins, allow sending bitcoins, and secure them against
+  hacking and theft attempts.
 reviewed: true

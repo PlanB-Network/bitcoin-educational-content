@@ -1,9 +1,9 @@
-question: Mạng Lưới Lightning có thể được sử dụng như thế nào để cho thuê hàng hóa?
-answer: Người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng hàng hóa
+question: Mạng Lưới Lightning có thể được sử dụng như thế nào cho việc thuê bao hàng hóa?
+answer: Người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng hàng hóa.
 wrong_answers:
-  - Người dùng có thể được tính một khoản phí cố định để thuê hàng hóa
-  - Người dùng có thể được tính phí dựa trên giá trị của hàng hóa
-  - Người dùng có thể được tính phí dựa trên tình trạng của hàng hóa
+  - Người dùng có thể được tính phí cao cho việc thuê hàng hóa.
+  - Người dùng có thể được tính phí dựa trên giá trị của hàng hóa.
+  - Người dùng có thể được tính phí dựa trên tình trạng của hàng hóa.
 explanation: >-
-  Với Mạng Lưới Lightning, việc sử dụng hệ thống này để cho thuê hàng hóa là điều có thể. Người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng hàng hóa.
-reviewed: false
+  Với Mạng Lưới Lightning, việc sử dụng hệ thống này cho việc thuê bao hàng hóa là điều có thể. Người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng hàng hóa.
+reviewed: true

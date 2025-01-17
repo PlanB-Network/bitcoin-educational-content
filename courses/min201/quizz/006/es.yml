@@ -5,5 +5,10 @@ wrong_answers:
   - Controlar el precio de Bitcoin
   - Verificar la identidad de los usuarios de Bitcoin
 explanation: |
-  En el contexto de la minería de Bitcoin, los mineros se esfuerzan por resolver rápidamente un rompecabezas digital. El primer minero en resolver el rompecabezas presenta su solución a toda la red, que luego puede verificar fácilmente su validez. Esta verificación exitosa permite al minero validar un nuevo bloque y agregarlo a la cadena de tiempo de Bitcoin.
-reviewed: false
+  En el contexto de la minería de Bitcoin, los mineros se esfuerzan por
+  resolver rápidamente un rompecabezas digital. El primer minero en resolver el rompecabezas
+  presenta su solución a toda la red, que puede
+  entonces verificar fácilmente su validez. Esta verificación exitosa
+  permite al minero validar un nuevo bloque y
+  añadirlo a la Timechain de Bitcoin.
+reviewed: true

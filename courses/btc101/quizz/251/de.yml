@@ -1,9 +1,10 @@
-question: Was ist eines der Hauptprobleme mit Zensur?
-answer: Sie kann die Meinungsfreiheit und das Recht auf Versammlung zerstören.
+question: Was ist eines der Hauptprobleme im Zusammenhang mit Zensur?
+answer: Sie kann die Freiheit der Meinungsäußerung und das Versammlungsrecht zerstören.
 wrong_answers:
-  - Sie kann zu einer Zunahme der Meinungsfreiheit führen.
-  - Sie kann zu einer Zunahme des Rechts auf Versammlung führen.
-  - Sie kann zu einer Abnahme der Innovation führen.
-explanation: |
-  Der Text erwähnt, dass die Tolerierung von Zensur die Meinungsfreiheit und das Recht auf Versammlung zerstören kann.
-reviewed: false
+  - Sie kann zur Durchsetzung der Meinungsfreiheit führen.
+  - Sie kann zu mehr Unterstützung für das Versammlungsrecht führen.
+  - Sie kann zu einem Rückgang der Innovation führen.
+explanation: >-
+  Der Text erwähnt, dass die Duldung von Zensur die Freiheit der Meinungsäußerung
+  und das Versammlungsrecht zerstören kann.
+reviewed: true

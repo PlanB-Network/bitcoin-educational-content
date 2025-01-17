@@ -15,7 +15,7 @@ En otras palabras, es aconsejable almacenar tus archivos en 3 ubicaciones difere
 
 Para implementar fácilmente esta estrategia de respaldo 3-2-1, puedes optar por una solución de almacenamiento en línea, sincronizando automáticamente o periódicamente los archivos de tu computadora con los de tu nube. Entre estas soluciones de respaldo en línea, obviamente están las de grandes compañías digitales que conoces: Google Drive, Microsoft OneDrive o Apple iCloud. Sin embargo, estas no son las mejores soluciones para proteger tu privacidad. En un tutorial anterior, te presenté una alternativa que cifra tus documentos para una mejor confidencialidad: Proton Drive.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Al adoptar esta estrategia de respaldo local y en la nube, ya te beneficias de dos tipos diferentes de medios para tus datos, uno de los cuales está fuera del sitio. Para completar la estrategia 3-2-1, simplemente necesitas añadir una copia adicional. Lo que te aconsejo hacer es simplemente exportar periódicamente tus datos presentes localmente y en tu nube a un medio físico, como una memoria USB o un disco duro externo. De esta manera, incluso si los servidores de tu solución de almacenamiento en línea se destruyen y tu computadora se avería simultáneamente, todavía tienes esta tercera copia en un medio externo para no perder tus datos.
 ![VeraCrypt](assets/notext/01.webp)

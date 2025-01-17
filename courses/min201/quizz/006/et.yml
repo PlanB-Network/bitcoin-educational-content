@@ -1,0 +1,14 @@
+question: Mis on kaevurite peamine ülesanne Bitcoin'i võrgus?
+answer: Lahendada digitaalne mõistatus ja valideerida uus plokk
+wrong_answers:
+  - Luua uusi bitcoine
+  - Kontrollida Bitcoini hinda
+  - Kontrollida Bitcoini kasutajate identiteeti
+explanation: |
+  Bitcoin'i kaevandamise kontekstis püüavad kaevurid kiiresti
+  lahendada digitaalset mõistatust. Esimene mõistatuse lahendaja
+  esitab oma lahenduse kogu võrgule, mis saab
+  seejärel hõlpsasti kontrollida selle kehtivust. See edukas
+  kontrollimine võimaldab kaevuril valideerida uue ploki ja
+  lisada selle Bitcoin'i ajaketti.
+reviewed: true

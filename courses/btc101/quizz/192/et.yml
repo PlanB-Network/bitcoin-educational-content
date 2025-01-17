@@ -1,0 +1,11 @@
+question: Mis on OpenNode?
+answer: Lihtne veebipõhine lahendus ettevõtetele Bitcoin'i vastuvõtmiseks
+wrong_answers:
+  - Üks Bitcoin'i tüüp
+  - Bitcoin'i kaevandamise tarkvara
+  - Bitcoin'i vahetusplatvorm
+explanation: >-
+  OpenNode on lihtne veebipõhine lahendus ettevõtetele Bitcoin'i vastuvõtmiseks.
+  Teised lahendused hõlmavad Swiss Bitcoin Pay'd amatöörkauplejatele ja BTCpay Serverit
+  suurtele struktuuridele või kirglikele bitcoinikasutajatele.
+reviewed: false

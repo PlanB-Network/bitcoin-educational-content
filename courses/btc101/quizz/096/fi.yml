@@ -1,9 +1,11 @@
-question: Mistä yksityisavain usein esitetään Bitcoin-lompakossa?
-answer: 12 tai 24 sanan listana
+question: Mistä yksityinen avain usein koostuu Bitcoin-lompakossa?
+answer: 12 tai 24 sanan listasta.
 wrong_answers:
-  - 12 tai 48 sanan listana
-  - 32 sanan listana
-  - 64 sanan listana
+  - 12 tai 48 sanan listasta.
+  - 32 sanan listasta.
+  - 64 sanan listasta.
 explanation: |
-  Bitcoin-lompakossa yksityisavain esitetään usein 12 tai 24 sanan listana, jota kutsutaan myös "siemeneksi" tai "mnemoniseksi lauseeksi".
-reviewed: false
+  Bitcoin-lompakossa yksityinen avain esitetään usein
+  12 tai 24 sanan listana, jota kutsutaan myös siemenlauseeksi
+  tai mnemoniseksi lauseeksi.
+reviewed: true

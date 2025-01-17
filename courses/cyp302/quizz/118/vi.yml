@@ -1,0 +1,9 @@
+question: Vai trò của hoạt động thay thế byte (S-Box) trong mã hóa AES là gì?
+answer: Nó tạo ra sự nhầm lẫn bằng cách thay thế mỗi byte bằng một byte khác
+wrong_answers:
+  - Nó đảm bảo tính toàn vẹn bằng cách kiểm tra các byte của tin nhắn
+  - Nó xáo trộn các cột để tăng cường sự lan tỏa
+  - Nó chia văn bản gốc thành các khối 128-bit
+explanation: |
+  Hoạt động thay thế byte (S-Box) trong AES tạo ra sự nhầm lẫn bằng cách thay thế mỗi byte với một giá trị khác theo một bảng, làm cho văn bản được mã hóa khó phân tích hơn.
+reviewed: false

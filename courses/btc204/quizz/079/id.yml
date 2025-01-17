@@ -1,0 +1,11 @@
+question: Istilah apa yang menggambarkan perlindungan yang ditawarkan oleh coinjoin terhadap analisis transaksi masa depan sebuah koin?
+
+answer: Prospective anonset.
+
+wrong_answers:
+  - Retrospective anonset.
+  - Ketahanan terhadap pelacakan.
+  - Privasi temporal.
+
+explanation: |
+  Perlindungan terhadap analisis dari masa lalu hingga saat ini adalah yang disebut sebagai prospective anonset.

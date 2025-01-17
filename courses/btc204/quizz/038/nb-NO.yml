@@ -1,0 +1,8 @@
+question: Hvilken transaksjonsmodell gjør bruk av CIOH ugyldig?
+answer: Den samarbeidende transaksjonen.
+wrong_answers:
+  - Enkel betaling.
+  - Konsolidering.
+  - Sweeping.
+explanation: |
+  CIOH er ikke anvendelig på transaksjoner som tar i bruk et samarbeidsmønster, fordi i dette spesifikke tilfellet kommer inndataene nødvendigvis fra forskjellige enheter.

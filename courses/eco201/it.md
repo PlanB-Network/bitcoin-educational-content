@@ -17,9 +17,11 @@ Questa scuola di pensiero ha già diversi secoli alle spalle e ha un intero pano
 +++
 
 # Introduzione all'ECON
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Introduzione
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Ciao a tutti e benvenuti a Econ 201: Introduzione all'Economia Austriaca.
@@ -39,6 +41,7 @@ Ringrazio calorosamente Théo per la realizzazione di questo corso e spero che s
 Se sei pronto a intraprendere questa avventura, ti invito a cliccare il video bonus sul nostro attuale sistema finanziario. Ora do la parola a Théo. Grazie a lui per la collaborazione con Descoupes Bitcoin per la realizzazione di questo video. Ci vedremo molto presto. Arrivederci!
 
 ## Denaro, Credito, Banche e Banche Centrali
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > "Il problema fondamentale della valuta convenzionale è tutta la fiducia che è necessaria per farla funzionare. La banca centrale deve essere affidabile e non svalutare la moneta, ma la storia delle valute fiat è piena di violazioni di questa fiducia. Le banche devono essere affidabili nel custodire i nostri soldi e trasferirli elettronicamente, ma li prestano in onde di bolle di credito con appena una frazione in riserva. Dobbiamo fidarci di loro per la nostra privacy, fidarci che non lascino che i ladri di identità svuotino i nostri conti."
@@ -101,7 +104,7 @@ In sostanza, il sistema è distorto. Le banche sono intrinsecamente instabili, m
 
 ![image](assets/Image/5.webp)
 
-Figura 5: Distribuzione della ricchezza in China + Europa + US  / Fonte: OECD
+Figura 5: Distribuzione della ricchezza in China + Europa + US / Fonte: OECD
 
 ### Conseguenze delle politiche di tassi di interesse a zero
 
@@ -126,9 +129,11 @@ Per raggiungere questo obiettivo, spiegheremo i principi fondamentali dell'"Econ
 Nel prossimo capitolo, approfondiremo la pietra angolare fondamentale di qualsiasi scuola di pensiero economica: la teoria del valore. I capitoli successivi esploreranno il denaro come istituzione sociale, la teoria del capitale e del ciclo economico, la sfida del calcolo economico e una breve panoramica della storia e della metodologia della Scuola Austriaca di Economia.
 
 # Fondamenti Teorici
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 
 ## La Teoria Soggettiva del Valore
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > "Il valore esiste solo nella coscienza umana"
@@ -189,7 +194,7 @@ Certamente, ci sono individui che riscirebbero a produrre quel determinato bene 
 
 Prendiamo ad esempio un medico. Potrebbe essere migliore nello scrivere email e pianificare appuntamenti rispetto alla sua segretaria (vantaggio relativo). Ma ogni volta che dedica tempo a svolgere queste attività, è tempo che non impiega per curare i pazienti. Pertanto, poiché è più produttivo nel curare le persone, è nel suo interesse delegare i compiti amministrativi a un'altra persona, anche se è migliore in tali compiti rispetto al suo vice, perché gli consente di massimizzare il valore generato per gli altri e quindi la sua stessa ricchezza.
 
-In sostanza, c'è un beneficio nella specializzazione, anche per gli individui che non hanno vantaggi assoluti, perché il tempo è una risorsa scarsa e rivale: ogni unità di tempo dedicata a un'attività diversa da quella in cui un individuo è più produttivo comporta un costo rappresentato dalla mancata produzione  (costo opportunità).
+In sostanza, c'è un beneficio nella specializzazione, anche per gli individui che non hanno vantaggi assoluti, perché il tempo è una risorsa scarsa e rivale: ogni unità di tempo dedicata a un'attività diversa da quella in cui un individuo è più produttivo comporta un costo rappresentato dalla mancata produzione (costo opportunità).
 
 Una volta che l'individuo si è specializzato in una particolare produzione, può quindi riservare la quantità di prodotti che ritiene necessaria per il proprio consumo personale e scambiare l'eccedenza con altri beni desiderati. In questo modo, soddisfa il suo desiderio per i beni che produce personalmente, il che significa che le unità rimanenti della sua produzione hanno poco valore per lui. È ciò che gli economisti chiamano utilità marginale decrescente: ogni unità aggiuntiva di un bene è meno desiderata rispetto a quella precedente. Per gli altri che non possiedono tali beni, è un'altra storia: per le stesse ragioni, tendono a desiderare i beni che non producono in modo più intenso rispetto a quelli che producono. Ciò porta a una situazione in cui c'è una forte asimmetria tra le varie valutazioni soggettive degli individui, che è altamente favorevole agli scambi: ogni parte ha interesse a scambiare la propria produzione eccedente perché in questo modo aumenta la sua utilità soggettiva.
 
@@ -209,6 +214,7 @@ Basandosi sulle intuizioni del valore ordinale soggettivo, Menger ha spiegato l'
 I capitoli successivi saranno dedicati all'emergere del denaro come fenomeno sociale, alla teoria del capitale e dell'interesse, che servirà da base per la Teoria del Ciclo Economico, e infine al ruolo dei prezzi per il calcolo economico.
 
 ## L'emergere del denaro come fenomeno sociale
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Sebbene gli individui abbiano un interesse comune nella specializzazione e nella massimizzazione della divisione del lavoro, ci sono comunque problemi di coordinamento che limitano questa espansione.
@@ -227,10 +233,10 @@ Originariamente, il dilemma del prigioniero è stato formulato nel seguente modo
 
 Questi risultati possono essere rappresentati in una matrice (i risultati numerici indicano il numero di anni di carcere):
 
-| Alice / Bob       | Accusa      | Rimane in silenzio |
-| ----------------- | ----------- | ------------------ |
-| **Accusa**        | 2, 2        | 0, 3               |
-| **Rimane in silenzio** | 3, 0        | 1, 1               |
+| Alice / Bob            | Accusa | Rimane in silenzio |
+| ---------------------- | ------ | ------------------ |
+| **Accusa**             | 2, 2   | 0, 3               |
+| **Rimane in silenzio** | 3, 0   | 1, 1               |
 
 In questo gioco, non c'è opportunità di coordinazione (la comunicazione è impossibile) per raggiungere il miglior risultato per entrambe le parti. Di conseguenza, Alice e Bob hanno un incentivo individuale ad accusarsi a vicenda, anche se ciò non porta all'ottimo risultato per il gruppo. La strategia ottimale per entrambi è rimanere in silenzio, ricevendo ciascuno una condanna di un anno.
 Questo gioco illustra un problema frequentemente incontrato nella vita reale: in assenza di meccanismi di coordinamento, gli individui tendono a scegliere strategie che massimizzano il loro guadagno individuale, indipendentemente dalle strategie scelte dagli altri (furti, imbrogli, tradimenti, violenza, ecc.), anche quando è possibile un equilibrio più desiderabile attraverso la coordinazione/collaborazione.
@@ -247,7 +253,7 @@ In primo luogo, gli esseri umani sono limitati dalle loro capacità cognitive. �
 
 In secondo luogo, la misurazione socialmente accettata del valore dei contributi nello scambio (commensurabilità) è un problema non banale. Ad esempio, se un individuo fornisce carne di caccia e richiede in cambio materiali per un rifugio, come può essere valutata la quantità di carne offerta in termini equivalenti ai materiali richiesti? Lo stesso vale per la qualità: la carne di cervo vale più o meno del legno?
 
-Anche se fosse possibile stabilire un tasso di cambio soddisfacente per ogni coppia di beni, mantenere queste informazioni diventa rapidamente impraticabile. In un sistema di scambio diretto che coinvolge N beni, ci sono N(N-1)/2 tassi di cambio da ricordare. Per un'economia di 50 beni, ciò significa ricordare 50*49/2, o 1225 tassi di cambio, rispetto ai soli 50 negli scambi indiretti. Per un'economia di 100 beni, questo numero aumenta a 4950. Tale relazione quadratica pone un ulteriore limite alla scalabilità dello scambio diretto (baratto).
+Anche se fosse possibile stabilire un tasso di cambio soddisfacente per ogni coppia di beni, mantenere queste informazioni diventa rapidamente impraticabile. In un sistema di scambio diretto che coinvolge N beni, ci sono N(N-1)/2 tassi di cambio da ricordare. Per un'economia di 50 beni, ciò significa ricordare 50\*49/2, o 1225 tassi di cambio, rispetto ai soli 50 negli scambi indiretti. Per un'economia di 100 beni, questo numero aumenta a 4950. Tale relazione quadratica pone un ulteriore limite alla scalabilità dello scambio diretto (baratto).
 
 Inoltre, poiché questi scambi non avvengono istantaneamente ma sono spaziati nel tempo, valutare i contributi nel tempo complica ulteriormente la valutazione relativa dei contributi. Oltre a valutare il rapporto di scambio tra due beni presenti, diventa necessario valutare il valore di un contributo passato rispetto a un controparte futura.
 
@@ -288,6 +294,7 @@ In questo senso, il denaro, consentendo la conservazione del valore nel presente
 Nel prossimo capitolo approfondiremo il concetto di preferenza temporale e spiegheremo la prospettiva austriaca su interesse e capitale, che servirà come base per il capitolo successivo sulla Teoria del Ciclo Economico.
 
 ## Preferenza Temporale, Interesse e Capitale
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Preferenza Temporale
@@ -296,12 +303,11 @@ Abbiamo concluso il capitolo precedente spiegando come gli agenti economici util
 
 O, per dirla in modo diverso: come esseri umani svalutiamo il valore dei beni futuri.
 
-Questa valutazione soggettiva del valore dei beni futuri rispetto ai beni presenti è chiamata preferenza temporale. Essendo tutto il resto uguale, i beni presenti sono intrinsecamente preferiti rispetto ai beni futuri. Poiché siamo mortali e il futuro è sempre incerto, preferiamo naturalmente avere accesso ad  un bene ora piuttosto che in seguito. Sebbene la preferenza temporale possa differire tra gli individui, a causa di una miriade di fattori come cultura, ricchezza, istruzione, fisiologia, ecc., le preferenze temporali sono sempre positive, il che significa che tutto ciò che è uguale, valutiamo sempre di più i beni presenti rispetto ai beni futuri.
+Questa valutazione soggettiva del valore dei beni futuri rispetto ai beni presenti è chiamata preferenza temporale. Essendo tutto il resto uguale, i beni presenti sono intrinsecamente preferiti rispetto ai beni futuri. Poiché siamo mortali e il futuro è sempre incerto, preferiamo naturalmente avere accesso ad un bene ora piuttosto che in seguito. Sebbene la preferenza temporale possa differire tra gli individui, a causa di una miriade di fattori come cultura, ricchezza, istruzione, fisiologia, ecc., le preferenze temporali sono sempre positive, il che significa che tutto ciò che è uguale, valutiamo sempre di più i beni presenti rispetto ai beni futuri.
 
 Questo concetto di valutazione relativa dei beni futuri rispetto ai beni presenti è alla base del fenomeno dell'interesse. Infatti, in un'economia con mercati di capitale non manipolati, i tassi di interesse di riferimento (considerati privi di rischio di insolvenza) sono determinati dall'intersezione tra offerta e domanda di capitale. Pertanto, questi tassi rappresentano lo stato delle preferenze temporali per l'intera economia: un aumento del tasso di interesse deriva da un aumento relativo della domanda di capitale rispetto all'offerta, indicando preferenze temporali più elevate. Al contrario, una diminuzione dei tassi di interesse avviene a causa di un aumento del risparmio, ovvero un aumento dell'offerta di capitale, indicando una riduzione delle preferenze temporali.
 
 ![image](assets/Image/9.webp)
-
 
 In un'economia in cui i tassi di interesse non sono manipolati dalla banca centrale, tendiamo a osservare una curva dei rendimenti in salita: maggiore è la scadenza del debito, più alto è il tasso di interesse. La situazione opposta non può accadere perché comporterebbe che il futuro è più certo del presente, il che è una impossibilità logica.
 Il concetto di preferenza temporale e come esprimiamo la nostra preferenza temporale attraverso l'atto di consumo e risparmio è fondamentale per i processi di allocazione del capitale e di produzione. Rivolgiamoci allo studente di Menger, Eugen von Böhm-Bawerk, e alla sua teoria del capitale per capire esattamente come la preferenza temporale influisce sull'organizzazione della produzione.
@@ -358,9 +364,11 @@ Questo è perfettamente illustrato dal grafico qui sotto: i tassi a lungo termin
 Questo è ciò che scopriremo nel prossimo capitolo dedicato alla Teoria Austriaca del Ciclo Economico!
 
 # Prospettive Economiche Austriache
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## La Teoria Austriaca del Ciclo Economico
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > "Più a lungo continua il boom del credito bancario inflazionistico, maggiore è l'ampiezza delle cattive investimenti in beni di capitale e maggiore è la necessità di liquidare questi investimenti insani. Quando l'espansione del credito si ferma, si inverte o anche rallenta significativamente, i cattivi investimenti vengono rivelati"
@@ -434,6 +442,7 @@ Più di qualsiasi altra scuola di economia, la Scuola Austriaca insiste sull'imp
 Questo sarà l'argomento del prossimo e ultimo capitolo di questo corso.
 
 ## L'Impossibilità del Calcolo Economico nel Socialismo
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > "Dove non ci sono prezzi di mercato per i fattori di produzione perché non vengono né comprati né venduti, è impossibile ricorrere al calcolo nella pianificazione dell'azione futura e nel determinare il risultato dell'azione passata. Una gestione socialista della produzione semplicemente non saprebbe se ciò che pianifica ed esegue è il mezzo più appropriato per raggiungere gli scopi desiderati. Opererà nel buio, per così dire. Sprecherà i fattori di produzione scarsa, sia materiali che umani (lavoro). Il caos e la povertà per tutti saranno inevitabilmente il risultato"
@@ -493,7 +502,7 @@ Oggi, il dibattito sul calcolo economico riemerge principalmente nelle discussio
 
 Per un'applicazione concreta del problema del calcolo economico a una situazione contemporanea, puoi fare riferimento a questo articolo che affronta il problema dell'allocazione delle risorse nella Cina moderna.
 
->   The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Conclusioni
 
@@ -502,6 +511,7 @@ Gli economisti mainstream e i pianificatori centrali spesso non gradiscono gli e
 La tradizione austriaca incarna un approccio umile all'azione umana, trae profonde implicazioni dai concetti di valore soggettivo, incertezza, libero arbitrio e complessità. Spiega come l'ordine di mercato, nonostante non sia un prodotto del disegno umano, si ponga come l'istituzione centrale per il nostro sviluppo e prosperità. Se c'è un concetto chiave da trarre da questo corso, è che il capitalismo è diventato il sistema economico dominante grazie alla sua capacità di adattarsi ai cambiamenti in un mondo dinamico e incerto popolato da individui liberi.
 
 ## La Metodologia Austriaca
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 La scuola austriaca di economia si distingue dalle altre scuole per la sua metodologia deduttiva-assiomatica, che si differenzia dall'approccio positivista spesso utilizzato nelle scienze sociali. L'approccio positivista si basa su leggi stabilite da dati empirici, adottando un metodo simile a quello delle scienze fisiche. Formula ipotesi da osservazioni, che vengono poi confermate o confutate da esperimenti temporanei. Il metodo scientifico consiste nel mantenere l'ipotesi che spiega meglio i dati e continuare ad esplorarla fino a trovare un'ipotesi più precisa.
@@ -521,20 +531,21 @@ Un esempio di differenza metodologica è la posizione degli sostenitori della Mo
 La metodologia è un aspetto essenziale nell'economia e nelle scienze sociali in generale. Influenza il modo in cui vengono poste le domande, formulate le ipotesi e interpretati i dati. Comprendere le differenze metodologiche tra le scuole di pensiero economico può aiutarci a comprendere prospettive diverse e sviluppare le nostre opinioni sui temi discussi negli episodi precedenti.
 
 # Conclusioni
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
+## Recensioni & Valutazioni
 
-
-## Valuta il corso
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Esame Finale
+
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-
 ## Ulteriori studi
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Congratulazioni per aver completato questo corso ECON 201! Spero sinceramente che ti sia piaciuto e che ti abbia aperto nuove opportunità. La tua scoperta di Bitcoin è appena iniziata e ti invito a esplorare tutti gli altri corsi disponibili presso l'università.
@@ -553,21 +564,21 @@ Oltre a queste letture, puoi trovare informazioni sull'economia austriaca esplor
 
 Leggendo queste opere ed esplorando queste risorse online, puoi sviluppare una comprensione più approfondita dei principi fondamentali e delle idee della scuola austriaca di economia.
 
-### Supportaci
+# Conclusione
 
-Questo corso, così come tutto il contenuto di questa università, ti è stato offerto gratuitamente dalla nostra comunità. Per supportarci, puoi condividerlo con gli altri, diventare membro dell'università e persino contribuire al suo sviluppo tramite GitHub. A nome di tutto il team, grazie!
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
 
-### Valuta il corso (disponibile a breve)
-Un sistema di valutazione per il corso sarà presto integrato in questa nuova piattaforma di e-learning! Nel frattempo, grazie mille per aver seguito il corso e se ti è piaciuto, ti preghiamo di considerare la possibilità di condividerlo con gli altri. (prossimamente)
-Se desideri approfondire l'argomento dell'economia austriaca, ti suggerisco diverse interviste con Théo Mogenet:
+## Valuta questo corso
 
-- [Come prepararsi per la prossima crisi economica?](https://youtu.be/GJT8t1TEd7Q)
-- [Come può essere articolata la distruzione dell'euro?](https://youtu.be/eK3ONo11HN8)
-- [Hyper-bitcoinization: possiamo adottare uno standard BTC?](https://youtu.be/nkN2twZ-lJY)
-  Se desideri ancora di più, puoi guardare queste discussioni sulla situazione macroeconomica e su altri argomenti vari:
-- [Come distruggere Bitcoin?](https://youtu.be/gHKvj4eeiDg)
-- [Bitcoin è di destra, di sinistra o anarchico?](https://youtu.be/4fXGxzLtIIw)
-- [Per salvare il pianeta, lasciamo il dollaro e l'euro](https://youtu.be/iHagDlH4bf8)
-- [Perché un aumento dei tassi di interesse è impossibile?](https://youtu.be/iHagDlH4bf8)
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
 
-Altrimenti, continua il tuo apprendimento con altri corsi e tutorial dell'università!
+## Esame finale
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusione
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

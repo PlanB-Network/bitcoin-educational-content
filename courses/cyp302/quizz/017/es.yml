@@ -1,0 +1,9 @@
+question: ¿Cuál es la diferencia entre una variable aleatoria discreta y una continua?
+answer: Una variable discreta tiene un número finito de resultados posibles, mientras que una variable continua puede tomar un número infinito de valores dentro de un intervalo.
+wrong_answers:
+  - Una variable discreta cambia constantemente de valor, mientras que una variable continua permanece estable.
+  - Una variable discreta es específica para experimentos físicos realizados, una variable continua es abstracta en su intervalo.
+  - Las variables discretas no existen en la criptografía moderna, solo se utilizan variables continuas.
+explanation: |
+  Las variables discretas tienen un conjunto finito de resultados, mientras que las variables continuas pueden tomar cualquier valor dentro de un intervalo, como los números reales entre 0 y 1.
+reviewed: false

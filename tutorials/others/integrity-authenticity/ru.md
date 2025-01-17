@@ -161,4 +161,4 @@ sparrow_2.0.0-1_amd64.deb: OK
 
 Я также рекомендую ознакомиться с другим учебником о VeraCrypt, программном обеспечении, которое позволяет шифровать и расшифровывать устройства хранения данных.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

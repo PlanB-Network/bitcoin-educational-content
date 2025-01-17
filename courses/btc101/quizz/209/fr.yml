@@ -1,11 +1,11 @@
 question: À quoi ressemble la courbe d'adoption du Bitcoin ?
-answer: Une courbe en S
+answer: Une courbe en S.
 wrong_answers:
-  - Une courbe en U
-  - Une courbe en V
-  - Une courbe en W
-explanation: |
+  - Une courbe en U.
+  - Une courbe en V.
+  - Une courbe en W.
+explanation: >-
   L'adoption du Bitcoin, comme toute nouvelle technologie, suit une courbe en S.
-  Il s'agit d'un schéma courant pour l'adoption de nouvelles technologies, où l'adoption commence
-  lentement, puis s'accélère avant de ralentir lorsque la saturation est atteinte.
-reviewed: false
+  C'est un schéma courant pour l'adoption de nouvelles technologies, où l'adoption commence
+  lentement, puis s'accélère avant de ralentir à mesure que la saturation est atteinte.
+reviewed: true

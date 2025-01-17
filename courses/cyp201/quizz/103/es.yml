@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel de la semilla en la organización jerárquica y derivación de la billetera HD?
-answer: La semilla desempeña un papel determinista en la derivación de todas las demás claves.
-wrong_answers:
-  - La semilla se utiliza para encriptar la billetera.
-  - La semilla se utiliza para generar el código de cadena maestro.
-  - La semilla se utiliza para recuperar el portafolio.
-explanation: |
-  La semilla, con una longitud de 128 a 256 bits, se genera de forma aleatoria o a partir de una frase secreta. Juega un papel determinista en la derivación de todas las demás claves en la billetera HD.
-reviewed: false

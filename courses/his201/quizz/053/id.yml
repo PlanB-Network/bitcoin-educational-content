@@ -1,0 +1,9 @@
+question: Apa tambahan pada musim panas tahun 2010 yang kemudian memungkinkan soft forks di Bitcoin?
+answer: Kode operasi OP_NOP
+wrong_answers:
+  - Sistem peringatan
+  - Batas ukuran blok
+  - Format transaksi standar
+explanation: |
+  Ini adalah instruksi no-op yang tidak akan membatalkan skrip jika dieksekusi. Mereka memungkinkan penambahan OP_CHECKLOCKTIMEVERIFY dan OP_CHECKSEQUENCEVERIFY ke dalam protokol pada tahun 2015/2016.
+reviewed: false

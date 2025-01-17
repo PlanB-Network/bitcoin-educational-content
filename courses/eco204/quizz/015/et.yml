@@ -1,0 +1,9 @@
+question: Mis on hüperinflatsiooni definitsioon Bernholzi järgi?
+answer: Hüperinflatsioon on kõrge inflatsiooni laiendus, mida iseloomustavad suured eelarvepuudujäägid, mida rahastatakse rahatrüki abil.
+wrong_answers:
+  - Hüperinflatsioon on rahapakkumise vähenemine.
+  - Hüperinflatsioon on rahapakkumise mõõdukas suurenemine.
+  - Hüperinflatsioon on tootmise vähenemine.
+explanation: |
+  Peatükk selgitab, et Bernholzi järgi on hüperinflatsioon kõrge inflatsiooni laiendus, mida iseloomustavad suured eelarvepuudujäägid, mida rahastatakse rahatrüki abil.
+reviewed: false

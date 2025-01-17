@@ -1,0 +1,18 @@
+id: b330d04c-823c-4d6d-b9d5-3467d66049f1
+title: "Alby Buzz"
+author: Alby Team
+level: expert
+publication_date: 2022-03-02
+link:
+  - website: https://blog.getalby.com/tag/newsletter/
+language: en
+description: |
+  Monthly newsletter, it is now only running as a private e-mail newsletter, not
+  showing updates on public channels anymore. It presents a brief recap of the most
+  relevant Bitcoin news from all over the world, recent updates from LN Apps, as
+  well as newly published information. Naturally, it also provides updates on the latest Alby features.
+tags:
+  - lightning
+  - software
+contributors:
+  - hunt-wood

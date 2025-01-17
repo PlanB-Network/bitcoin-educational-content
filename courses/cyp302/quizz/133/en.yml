@@ -1,0 +1,9 @@
+question: What is a digital signature in the context of asymmetric cryptography?
+answer: A mechanism for verifying the authenticity of a message using the private key
+wrong_answers:
+  - A process for encrypting the message more strongly
+  - An additional public key to validate an encrypted message
+  - A digital copy of a handwritten signature
+explanation: |
+  A digital signature is a cryptographic technique that proves a message was indeed created by the owner of the corresponding private key, thereby ensuring its authenticity.
+reviewed: false

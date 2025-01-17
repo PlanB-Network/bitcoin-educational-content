@@ -1,0 +1,13 @@
+question: Co je transakce coinjoin?
+
+answer: Společná transakce, kde více uživatelů spojí své UTXO.
+
+wrong_answers:
+  - Společná transakce pouze mezi dvěma uživateli.
+  - Transakce, kde jediný uživatel posílá prostředky na více adres.
+  - Transakce, kde centrální aktér míchá bitcoiny svých klientů.
+
+explanation: |
+  Transakce coinjoin je společná transakce, ve které více uživatelů míchá své mince.
+
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hva skjer hvis Alice ikke får Bobs signatur for uttakstransaksjonen?
+answer: Hun risikerer å miste tilgangen til midlene sine som er deponert i multisignaturadressen
+wrong_answers:
+  - Hun kan ikke lenger kommunisere med Bob på Lightning Network
+  - Kanalen åpnes med begrenset kapasitet
+  - Bob mottar automatisk midlene i kanalen
+explanation: |
+  Uten Bobs signatur på uttakstransaksjonen kan ikke Alice sikre gjenopprettingen av midlene sine i tilfelle et problem, noe som utgjør en risiko for tap.

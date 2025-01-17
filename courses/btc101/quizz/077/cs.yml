@@ -1,11 +1,12 @@
-question: Jaké jsou rizika sdílení veřejného klíče Bitcoin peněženky?
-answer: Rizika pro soukromí
+question: Jaké je riziko sdílení veřejného klíče Bitcoinové peněženky?
+answer: Ztráta soukromí.
 wrong_answers:
-  - Rizika zničení Bitcoin peněženky
-  - Rizika ztráty Bitcoinů
-  - Rizika hacknutí Bitcoin peněženky
+  - Zničení Bitcoinové peněženky.
+  - Ztráta Bitcoinů.
+  - Hacknutí Bitcoinové peněženky.
 explanation: |
-  Sdílení veřejného klíče představuje rizika pro soukromí, ale ne pro bezpečnost.
-  To je proto, že veřejný klíč se používá k generování Bitcoin adres a tedy k přijímání
-  peněz, ale neznamená vlastnictví Bitcoinů.
+  Sdílení veřejného klíče s sebou nese rizika pro soukromí, ale ne
+  pro bezpečnost. To je proto, že veřejný klíč se používá k
+  generování adres Bitcoinů a tím k přijímání peněz, ale ne
+  reprezentuje vlastnictví Bitcoinů.
 reviewed: true

@@ -1,9 +1,12 @@
 question: Quelle est l'une des applications potentielles du Lightning Network dans la vie quotidienne ?
-answer: Facturation instantanée dans le commerce
+answer: Facturation instantanée dans le commerce.
 wrong_answers:
-  - Miner de nouveaux Bitcoins
-  - Créer de nouvelles cryptomonnaies
-  - Augmenter la valeur du Bitcoin
-explanation: |
-  Le Lightning Network ouvre la porte à une large gamme d'applications potentielles pour Bitcoin qui étaient auparavant inaccessibles en raison des contraintes nécessaires pour garantir la sécurité et la décentralisation de Bitcoin. Parmi ces applications dans la vie quotidienne, on peut mentionner la facturation instantanée dans le commerce.
-reviewed: false
+  - Miner de nouveaux Bitcoins.
+  - Créer de nouvelles cryptomonnaies.
+  - Augmenter la valeur du Bitcoin.
+explanation: >-
+  Le Lightning Network ouvre la porte à une large gamme d'applications potentielles
+  pour Bitcoin qui étaient auparavant hors de portée en raison des contraintes nécessaires pour
+  assurer la sécurité et la décentralisation de Bitcoin. Parmi ces applications dans
+  la vie quotidienne, nous pouvons mentionner la facturation instantanée dans le commerce.
+reviewed: true

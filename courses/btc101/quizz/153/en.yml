@@ -10,4 +10,4 @@ explanation: >-
   the total computational power of the network. It adjusts the difficulty of the mathematical
   problem that miners must solve, based on the number of miners participating in the
   network.
-reviewed: false
+reviewed: true

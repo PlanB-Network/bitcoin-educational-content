@@ -49,7 +49,7 @@ Per questo tutorial, avrai bisogno di 2 applicazioni software: Ledger Live per i
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Per questi due programmi software, raccomando vivamente di verificare sia la loro autenticità (con GnuPG) che la loro integrità (tramite l'hash) prima di installarli sulla tua macchina. Se non sei sicuro di come fare, puoi seguire quest'altro tutorial:
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Come inizializzare un Ledger Nano?
 
@@ -121,7 +121,7 @@ La passphrase non deve essere confusa con il codice PIN. Gioca un ruolo nella de
 
 La passphrase è uno strumento molto potente per migliorare la sicurezza dei tuoi bitcoin. Tuttavia, è molto importante capire come funziona prima di implementarla, per evitare di perdere l'accesso al tuo portafoglio. Ecco perché ti consiglio di consultare questo altro tutorial dedicato se desideri impostare una passphrase sul tuo Ledger:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Il menu "*Blocco PIN*" ti permette di configurare e attivare il blocco automatico del tuo Ledger dopo un determinato periodo di inattività.
 
@@ -212,7 +212,7 @@ Ed ecco fatto, il tuo portafoglio è ora creato!
 Prima di ricevere i tuoi primi bitcoin nel tuo portafoglio, **ti consiglio vivamente di eseguire un test di recupero a secco**. Annota un pezzo di informazione di riferimento, come il tuo xpub, poi resetta il tuo Ledger Nano mentre il portafoglio è ancora vuoto. Successivamente, prova a ripristinare il tuo portafoglio sul Ledger utilizzando i tuoi backup su carta. Controlla che l'xpub generato dopo il ripristino corrisponda a quello che avevi inizialmente annotato. Se così è, puoi essere sicuro che i tuoi backup su carta sono affidabili.
 Per saperne di più su come eseguire un test di recupero, ti consiglio di consultare questo altro tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Come ricevere bitcoin con il Ledger Nano?
 
@@ -242,7 +242,7 @@ Puoi aggiungere un "*Etichetta*" per descrivere la fonte dei bitcoin che saranno
 
 Per maggiori informazioni sull'etichettatura, ti consiglio anche di consultare questo altro tutorial:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Puoi quindi utilizzare questo indirizzo per ricevere bitcoin.
 
@@ -308,4 +308,4 @@ Se hai trovato utile questo tutorial, apprezzerei se potessi lasciare un pollice
 
 Ti raccomando anche di controllare questo tutorial completo sul Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

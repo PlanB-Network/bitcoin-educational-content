@@ -1,0 +1,9 @@
+question: Mikä käsite ei liity yksinomaan symmetriseen tai asymmetriseen salausjärjestelmään?
+answer: Hahmofunktiot
+wrong_answers:
+  - Julkiset ja yksityiset avainparit
+  - Asymmetrinen salaus
+  - Symmetrinen salaus
+explanation: |
+  Hahmofunktiot ovat keskeinen osa nykyaikaista kryptografiaa, mutta ne eivät ole nimenomaisesti yhdistettyjä joko symmetriseen tai asymmetriseen järjestelmään, toisin kuin julkiset ja yksityiset avaimet.
+reviewed: false

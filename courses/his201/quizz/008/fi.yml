@@ -1,0 +1,9 @@
+question: Mikä oli e-gold?
+answer: Digitaalinen valuutta, joka oli tuettu vastaavalla määrällä kultaa holvissa
+wrong_answers:
+  - Valuuttayksikkö World of Warcraft -universumissa
+  - Digitaalisen valuutan konsepti, jonka liikkeellelasku perustui työn todistamiseen
+  - Verkossa toimiva vaihtojärjestelmä kultakoruille
+explanation: |
+  Järjestelmän perustivat yhdessä Douglas Jackson ja Barry Downey vuonna 1996, ja siihen pääsi käsiksi yksinkertaisella verkkoselaimella.
+reviewed: false

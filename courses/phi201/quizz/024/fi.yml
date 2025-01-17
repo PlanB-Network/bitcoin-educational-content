@@ -1,0 +1,9 @@
+question: Mikä on Rothbardin näkemys vapaasta yhteiskunnasta?
+answer: Yhteiskunta, jossa ei ole mahdollisuutta pakottavaan aggressioon yksilön henkilöä tai omaisuutta vastaan.
+wrong_answers:
+  - Yhteiskunta, jossa valtio kontrolloi vain muutamia talouden ja sosiaalisen elämän aspekteja.
+  - Yhteiskunta, jossa yksilöt ovat vapaita tekemään mitä tahansa ilman minkäänlaisia rajoituksia.
+  - Yhteiskunta, jossa valta on tasaisesti jakautunut kaikkien sosiaaliluokkien kesken.
+explanation: |
+  Rothbard määrittelee vapaan yhteiskunnan paikkana, jossa pakottavaa aggressiota ei sallita henkilöä tai omaisuutta vastaan, näin ollen kannattaen radikaalia libertarismia, joka hylkää kaiken valtion intervention yksilön elämään.
+reviewed: false

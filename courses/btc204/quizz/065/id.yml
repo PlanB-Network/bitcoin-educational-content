@@ -1,0 +1,13 @@
+question: Apa itu debu dalam konteks UTXO?
+
+answer: UTXO yang nilainya terlalu rendah untuk menutupi biaya yang diperlukan untuk menggunakannya.
+
+wrong_answers:
+  - UTXO yang dihasilkan oleh kesalahan transaksi dan tidak dapat dikonfirmasi di blockchain.
+  - UTXO yang ditandai sebagai mencurigakan atau terkait dengan aktivitas ilegal di jaringan.
+  - UTXO yang disimpan di alamat yang tidak digunakan untuk waktu yang lama dan dianggap hilang.
+
+explanation: |
+  Debu merujuk pada UTXO yang nilainya dalam satoshi sangat rendah sehingga tidak cukup untuk menutupi biaya transaksi yang diperlukan untuk menggunakannya.
+
+reviewed: false

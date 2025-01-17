@@ -1,9 +1,8 @@
-question: Ý nghĩa của tính không thể đảo ngược của hàm ECDSA trong an ninh ví Bitcoin là gì?
-answer: Không thể lấy lại khóa riêng từ khóa công khai
+question: Cờ sighash nào cho phép gây quỹ cộng đồng bằng cách bao gồm một đầu vào duy nhất và tất cả các đầu ra?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Có thể lấy lại khóa riêng từ khóa công khai
-  - Có thể lấy lại khóa công khai từ khóa riêng
-  - Không thể lấy lại khóa công khai từ khóa riêng
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  Hàm ECDSA là không thể đảo ngược, nghĩa là không thể lấy lại khóa riêng từ khóa công khai. Tính không thể đảo ngược này là nền tảng của an ninh ví Bitcoin.
-reviewed: false
+  SIGHASH_ALL kết hợp với SIGHASH_ANYONECANPAY cho phép thêm đầu vào mà không thay đổi các đầu ra.

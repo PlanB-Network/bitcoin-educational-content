@@ -1,9 +1,13 @@
-question: Qu'est-ce que le Dollar Cost Average?
+question: Qu'est-ce que le Dollar Cost Average ?
 answer: Acheter de petites quantités de Bitcoin à intervalles réguliers.
 wrong_answers:
   - Acheter une grande quantité de Bitcoin en une seule fois.
   - Acheter du Bitcoin uniquement lorsque le prix baisse.
-  - Acheter du Bitcoin uniquement lorsque le prix augmente.
+  - Acheter du Bitcoin uniquement lorsque le prix monte.
 explanation: |
-  Le texte explique que le Dollar Cost Average consiste à acheter de petites quantités de Bitcoin à intervalles réguliers. Cette méthode permet d'atténuer les variations de prix au fil du temps et offre une croissance continue de la quantité de Bitcoin possédée.
-reviewed: false
+  Le texte du cours explique que la technique du Dollar Cost Average
+  implique d'acheter de petites quantités de Bitcoin à
+  intervalles réguliers. Cette méthode permet de lisser les fluctuations de prix
+  au fil du temps et assure une croissance continue de la
+  quantité de Bitcoin possédée.
+reviewed: true

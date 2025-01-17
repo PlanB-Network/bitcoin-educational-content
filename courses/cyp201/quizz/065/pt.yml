@@ -1,9 +1,9 @@
-question: Qual é a principal vantagem de usar um novo par de chaves para cada transação de Bitcoin?
-answer: Isso melhora a segurança.
+question: Qual é a diferença entre uma chave filha normal e uma chave filha endurecida?
+answer: Uma chave filha endurecida requer a chave privada do pai para sua derivação.
 wrong_answers:
-  - Isso melhora a velocidade.
-  - Isso melhora a anonimidade.
-  - Isso melhora a legalidade.
+  - Uma chave filha normal não pode derivar de chaves públicas.
+  - Uma chave filha endurecida usa um índice ímpar.
+  - Uma chave filha normal é mais segura do que uma chave filha endurecida.
 explanation: |
-  Usar um novo par de chaves para cada transação melhora a segurança das transações de Bitcoin. No entanto, isso complica o backup e preserva apenas parcialmente a confidencialidade.
+  Uma chave filha normal pode ser derivada da chave pública do pai, ao contrário de uma chave filha endurecida que requer a chave privada do pai.
 reviewed: false

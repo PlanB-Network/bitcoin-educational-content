@@ -14,7 +14,7 @@ Bạn muốn tham gia làm phong phú cơ sở dữ liệu này, nhưng không b
 ![event](assets/01.webp)
 - Đầu tiên, bạn cần có một tài khoản trên GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo một hướng dẫn chi tiết để hướng dẫn bạn.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Truy cập [kho lưu trữ GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) trong phần `resources/bet/`:
@@ -47,7 +47,7 @@ contributors:
 ```
 - **`builder`**: Chỉ định mã nhận dạng của tổ chức bạn trên Mạng lưới PlanB. Nếu bạn chưa có mã nhận dạng "builder" cho công ty của mình, bạn có thể tạo một mã bằng cách làm theo hướng dẫn này.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Nếu bạn chưa có, bạn có thể sử dụng tên của mình, bí danh, hoặc tên công ty mà không cần tạo hồ sơ builder.
 - **`type`**: Chọn bản chất của nội dung bạn muốn đăng tải từ hai lựa chọn sau:

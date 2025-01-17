@@ -1,0 +1,8 @@
+question: Qual função, projetada em outubro de 2010 pelo minerador m0mchil, permitiu que nós clientes recuperassem um bloco candidato e retornassem a prova de trabalho se uma solução fosse encontrada?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  Foi publicada em 1º de outubro. Satoshi incluiu uma versão modificada desta função no software principal em 23 de novembro.

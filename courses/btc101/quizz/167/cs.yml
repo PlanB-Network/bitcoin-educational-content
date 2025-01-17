@@ -1,9 +1,13 @@
-question: Jaká je hlavní kritika současného finančního systému ve vztahu k životnímu prostředí?
-answer: Podporuje nadměrnou spotřebu a zadlužení
+question: Jaký je hlavní problém současného finančního systému ve vztahu k životnímu prostředí?
+answer: Podporuje nadměrnou spotřebu a zadlužení.
 wrong_answers:
-  - Podporuje používání fosilních paliv
-  - Neinvestuje do obnovitelných zdrojů energie
-  - Nereguluje výrobu zboží
-explanation: >-
-  Současný finanční systém je kritizován za podporu nadměrné spotřeby a zadlužení, což představuje vážné environmentální problémy. Je to způsobeno snadným přístupem k úvěrům, emisí peněz bankami a používáním systému částečných rezerv.
-reviewed: false
+  - Podporuje používání fosilních paliv.
+  - Neinvestuje do obnovitelných zdrojů energie.
+  - Nereguluje výrobu zboží.
+explanation: |
+  Současný finanční systém je kritizován za podporu
+  nadměrné spotřeby a zadlužení, což představuje vážné
+  environmentální problémy. To je způsobeno snadným přístupem k
+  úvěrům, emisí peněz bankami a používáním
+  systému částečných rezerv.
+reviewed: true

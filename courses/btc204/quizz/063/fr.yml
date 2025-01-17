@@ -8,6 +8,6 @@ wrong_answers:
   - La réutilisation d'adresse et le lien inputs / identité par un observateur extérieur.
 
 explanation: |
-  Deux risques sont à considérer lors de la sélection des pièces : la possibilité pour le destinataire du paiement de lier une part de votre identité aux UTXOs utilisés en inputs et la capacité d'un observateur externe à établir des liens entre tous les UTXOs consommés en inputs (CIOH).
+  Deux risques sont à considérer lors de la sélection des pièces: la possibilité pour le destinataire du paiement de lier une part de votre identité aux UTXOs utilisés en inputs et la capacité d'un observateur externe à établir des liens entre tous les UTXOs consommés en inputs (CIOH).
 
 reviewed: false

@@ -10,7 +10,7 @@ description: Как добавить новый подкаст в сеть PlanB
 ![podcast](assets/01.webp)
 - Во-первых, у вас должен быть аккаунт на GitHub. Если вы не знаете, как его создать, мы подготовили подробный учебник, который поможет вам.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) в раздел `resources/podcasts/`:

@@ -1,0 +1,9 @@
+question: Miksi kemistit käyttävät ryhmäteoriaa?
+answer: Luokitellakseen molekyylien muotoja
+wrong_answers:
+  - Kemiallisten sidosten analysoimiseen
+  - Molekyylimassan laskemiseen
+  - Kemiallisten reaktioiden ennustamiseen
+explanation: |
+  Ryhmäteoria mahdollistaa kemistien luokitella molekyylien muotoja niiden symmetrioiden perusteella, mikä auttaa ymmärtämään niiden rakenteellisia ominaisuuksia.
+reviewed: false

@@ -1,9 +1,13 @@
 question: Qual é o papel dos mineradores de Bitcoin no mundo da energia?
-answer: Os mineradores de Bitcoin estão constantemente buscando fontes de eletricidade barata, muitas vezes aquelas que são desperdiçadas ou não utilizadas. Eles podem atuar como uma fonte de demanda flexível, prontos para consumir essa eletricidade "órfã", ajudando assim a compensar os custos de infraestrutura.
+answer: Os mineradores de Bitcoin estão constantemente em busca de fontes de eletricidade barata, muitas vezes aquelas que são desperdiçadas ou não aproveitadas. Eles podem atuar como uma fonte de demanda flexível, prontos para consumir essa eletricidade órfã, ajudando assim a compensar os custos de infraestrutura.
 wrong_answers:
-  - Os mineradores de Bitcoin estão constantemente buscando fontes de energia renovável para reduzir sua pegada de carbono.
-  - Os mineradores de Bitcoin estão constantemente buscando fontes de energia nuclear para alimentar suas operações de mineração.
-  - Os mineradores de Bitcoin estão constantemente buscando fontes de energia solar para alimentar suas operações de mineração.
+  - Os mineradores de Bitcoin estão constantemente em busca de fontes de energia renovável para reduzir sua pegada de carbono.
+  - Os mineradores de Bitcoin estão constantemente em busca de fontes de energia nuclear para alimentar suas operações de mineração, uma vez que esta é a única maneira limpa e renovável de produzir energia.
+  - Os mineradores de Bitcoin estão constantemente em busca de fontes de energia solar para alimentar suas operações de mineração.
 explanation: |
-  O capítulo explica que os mineradores de Bitcoin estão constantemente buscando fontes de eletricidade barata, muitas vezes aquelas que são desperdiçadas ou não utilizadas. Eles podem atuar como uma fonte de demanda flexível, prontos para consumir essa eletricidade "órfã", ajudando assim a compensar os custos de infraestrutura.
-reviewed: false
+  O capítulo explica que os mineradores de Bitcoin estão constantemente
+  buscando fontes de eletricidade barata, muitas vezes aquelas que são
+  desperdiçadas ou não aproveitadas. Eles podem atuar como uma fonte de demanda
+  flexível, prontos para consumir essa eletricidade órfã, ajudando assim a
+  compensar os custos de infraestrutura.
+reviewed: true

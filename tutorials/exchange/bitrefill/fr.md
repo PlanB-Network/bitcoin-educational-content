@@ -30,9 +30,9 @@ Renseignez une adresse email. Si vous souhaitez conserver l'anonymat de votre co
 ![BITREFILL](assets/notext/05.webp)
 Si vous souhaitez découvrir comment créer facilement une boite mail sécurisée et comment gérer vos mots de passe, je vous recommande de consulter ces 2 autres tutoriels :
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ensuite, cliquez sur le bouton "*Create account*".
 ![BITREFILL](assets/notext/06.webp)
@@ -52,7 +52,7 @@ Dans la section "*Two factor authentication*", cliquez sur le bouton "*Enable*" 
 ![BITREFILL](assets/notext/13.webp)
 Pour en savoir plus sur comment utiliser l'authentification à deux facteurs pour sécuriser vos comptes en ligne, je vous conseille de découvrir cet autre tutoriel :
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Comment acheter une carte-cadeau en BTC sur Bitrefill ?
 
@@ -93,4 +93,4 @@ Et voilà, vous savez maintenant comment dépenser vos bitcoins sans KYC dans de
 
 Si vous souhaitez contribuer à la popularisation de Bitcoin et encourager un commerçant indépendant à adopter cette méthode de paiement, je vous recommande de consulter notre tutoriel complet sur Swiss Bitcoin Pay. Il s'agit d'une solution tout-en-un pour les processeurs de paiement en BTC, facile à installer et à gérer au quotidien :
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

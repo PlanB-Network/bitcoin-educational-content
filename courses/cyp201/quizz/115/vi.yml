@@ -1,9 +1,0 @@
-question: Mục đích của các chỉ số cứng trong cấu trúc Ví HD là gì?
-answer: Chúng được sử dụng kèm theo dấu phẩy đơn cho một số phái sinh cụ thể
-wrong_answers:
-  - Chúng được sử dụng để phái sinh các khóa con cho một mục đích cụ thể
-  - Chúng cho phép phân biệt các tài khoản cho các loại tiền mã hóa hoặc mạng khác nhau
-  - Chúng tương ứng với các chuỗi bên ngoài và bên trong
-explanation: |
-  Trong cấu trúc Ví HD, các chỉ số cứng được sử dụng kèm theo dấu phẩy đơn cho một số phái sinh cụ thể.
-reviewed: false

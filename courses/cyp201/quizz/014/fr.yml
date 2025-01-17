@@ -1,10 +1,9 @@
-question: Combien de tours de calcul sont effectués dans la fonction de compression de SHA256 ?
-answer: 64
+question: Quel est le nombre d'itérations utilisé par PBKDF2 dans Bitcoin ?
+answer: 2048
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  Dans la fonction de compression de SHA256, 64 tours de calcul sont effectués.
-  Comme dans une course cycliste, chaque tour améliore la position de la fonction.
+  PBKDF2 répète le processus HMAC-SHA512 2048 fois pour renforcer la sécurité.
 reviewed: false

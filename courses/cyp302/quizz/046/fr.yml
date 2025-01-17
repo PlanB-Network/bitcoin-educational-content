@@ -1,0 +1,9 @@
+question: Quelle fonction permet de calculer le nombre d'entiers inférieurs à N qui sont premiers avec N ?
+answer: La fonction Phi d'Euler
+wrong_answers:
+  - La fonction Gamma d'Euler
+  - La fonction Sigma d'Euler
+  - La fonction Beta de Dirichlet
+explanation: |
+  La fonction Phi d'Euler détermine le nombre d'entiers inférieurs à N qui sont premiers avec N, un concept central dans les théorèmes de cryptographie basés sur les nombres premiers.
+reviewed: false

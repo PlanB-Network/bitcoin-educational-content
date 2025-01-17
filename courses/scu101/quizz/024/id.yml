@@ -1,0 +1,11 @@
+question: Apa saja beberapa solusi untuk enkripsi data pada berbagai sistem operasi?
+answer: BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac.
+wrong_answers:
+  - BitLocker untuk Linux, LUKS untuk Mac, dan opsi bawaan untuk Windows.
+  - BitLocker untuk Mac, LUKS untuk Windows, dan opsi bawaan untuk Linux.
+  - LUKS untuk semua sistem operasi.
+explanation: |
+  Berbagai sistem operasi memiliki solusi yang berbeda untuk enkripsi data.
+  BitLocker adalah untuk Windows, LUKS adalah untuk Linux, dan Mac memiliki opsi bawaan untuk enkripsi
+  data.
+reviewed: false

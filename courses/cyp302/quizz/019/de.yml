@@ -1,0 +1,9 @@
+question: Was ist die Rolle des Bayes-Theorems in der Wahrscheinlichkeitsrechnung?
+answer: Es ermöglicht die Berechnung der bedingten Wahrscheinlichkeit durch Umkehrung der Ereignisse.
+wrong_answers:
+  - Es liefert die Wahrscheinlichkeit des Auftretens eines einzelnen Ereignisses.
+  - Es definiert die Gesamtwahrscheinlichkeit aller möglichen Ereignisse.
+  - Es gilt nur für kontinuierliche Variablen.
+explanation: |
+  Das Bayes-Theorem ermöglicht die Berechnung der Wahrscheinlichkeit eines Ereignisses A unter der Bedingung B, indem die Wahrscheinlichkeiten umgekehrt werden und ist essentiell in der Wahrscheinlichkeitstheorie.
+reviewed: false

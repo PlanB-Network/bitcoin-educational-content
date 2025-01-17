@@ -1,0 +1,9 @@
+question: Mis on Bitcoini veebipõhine kättesaadavus?
+answer: 99.988%
+wrong_answers:
+  - 100%
+  - 90.009%
+  - 80.17%
+explanation: |
+  Bitcoini veebipõhine kättesaadavus on alates 2009. aastast 99.988%.
+reviewed: true

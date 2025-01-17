@@ -1,10 +1,10 @@
 question: Mikä oli merkittävä tapahtuma kryptovaluuttojen maailmassa vuonna 2017?
-answer: Tuhansien alkuperäisten kolikkoantien (ICOs) käynnistäminen.
+answer: Tuhansien alkuperäisten kolikontarjousten (ICOs) lanseeraus.
 wrong_answers:
   - Bitcoinin kieltäminen.
   - Bitcoinin luominen.
   - Kaikkien kryptovaluuttojen katoaminen.
 explanation: >-
   Vuosi 2017 oli merkittävä spekulatiivisen kuplan aikakausi kryptovaluuttojen
-  maailmassa, erityisesti tuhansien alkuperäisten kolikkoantien (ICOs) käynnistämisen myötä.
-reviewed: false
+  maailmassa, erityisesti tuhansien alkuperäisten kolikontarjousten (ICOs) lanseerauksen myötä.
+reviewed: true

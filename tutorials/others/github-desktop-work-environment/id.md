@@ -10,9 +10,9 @@ Jika Anda ingin berkontribusi ke Jaringan PlanB, Anda perlu menggunakan GitHub u
 - **Berkontribusi langsung melalui antarmuka web GitHub**: Ini adalah metode paling sederhana. Jika Anda pemula atau jika Anda berencana untuk membuat hanya beberapa kontribusi kecil, opsi ini mungkin yang terbaik untuk Anda;
 - **Berkontribusi secara lokal menggunakan Git**: Metode ini lebih cocok jika Anda berencana untuk membuat kontribusi reguler atau signifikan ke Jaringan PlanB. Meskipun menyiapkan lingkungan Git lokal Anda di komputer mungkin tampak kompleks pada awalnya, pendekatan ini lebih efisien dalam jangka panjang. Ini memungkinkan pengelolaan perubahan yang lebih fleksibel. Jika Anda baru dalam hal ini, jangan khawatir, **kami menjelaskan seluruh proses penyiapan lingkungan Anda dalam tutorial ini** (janji, Anda tidak perlu mengetik baris perintah apa pun ^^).
 
-Jika Anda tidak tahu apa itu GitHub, atau jika Anda ingin mempelajari lebih lanjut tentang istilah teknis terkait Git dan GitHub, saya sarankan Anda [membaca artikel pengantar kami untuk membiasakan diri dengan konsep-konsep ini](https://planb.network/tutorials/others/basics-of-github).
+Jika Anda tidak tahu apa itu GitHub, atau jika Anda ingin mempelajari lebih lanjut tentang istilah teknis terkait Git dan GitHub, saya sarankan Anda [membaca artikel pengantar kami untuk membiasakan diri dengan konsep-konsep ini](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb).
 
-- Untuk memulai, Anda tentu saja memerlukan akun GitHub. Jika Anda sudah memiliki satu, Anda dapat masuk, jika tidak, Anda dapat menggunakan [tutorial kami untuk membuat yang baru](https://planb.network/tutorials/others/create-github-account).
+- Untuk memulai, Anda tentu saja memerlukan akun GitHub. Jika Anda sudah memiliki satu, Anda dapat masuk, jika tidak, Anda dapat menggunakan [tutorial kami untuk membuat yang baru](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 
 ## Langkah 1: Instal GitHub Desktop
 

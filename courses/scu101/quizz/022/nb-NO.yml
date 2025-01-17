@@ -1,0 +1,11 @@
+question: Hva er anbefalt praksis når du setter inn en USB-nøkkel i datamaskinen din?
+answer: Ikke sett inn ukjente eller mistenkelige USB-nøkler.
+wrong_answers:
+  - Sett inn hvilken som helst USB-nøkkel uten å sjekke.
+  - Formater alltid USB-nøkkelen før du setter den inn.
+  - Sett inn USB-nøkkelen og sjekk deretter for virus.
+explanation: |
+  Å sette inn ukjente eller mistenkelige USB-nøkler kan utsette systemet for skadelige
+  programmer som automatisk kan starte ved innsetting. Å sjekke USB-nøkkelen vil
+  være nytteløst etter at den har blitt satt inn.
+reviewed: false

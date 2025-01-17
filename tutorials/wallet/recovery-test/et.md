@@ -63,6 +63,9 @@ Sparrow'is klõpsake vahekaardil "*Addresses*".
 Seejärel märkige paberitükile üles oma rahakoti esimene vastuvõttev aadress. Minu näites on aadress:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 Pärast teabe ülesmärkimist minge "*File*" menüüsse, seejärel valige "*Delete Wallet*". Tuletan teile veel kord meelde, et teie Bitcoin'i rahakott peab enne selle toimingu sooritamist olema tühi.
 
 ![RECOVERY TEST](assets/notext/04.webp)

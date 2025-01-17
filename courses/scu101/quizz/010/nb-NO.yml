@@ -1,0 +1,11 @@
+question: Hva er forskjellen mellom bedrifts-VPNer og forbruker-VPNer?
+answer: Bedrifts-VPNer er dyrere og mer komplekse, mens forbruker-VPNer er mer tilgjengelige og brukervennlige.
+wrong_answers:
+  - Bedrifts-VPNer er mindre sikre enn forbruker-VPNer.
+  - Forbruker-VPNer er dyrere enn bedrifts-VPNer.
+  - Bedrifts-VPNer krypterer ikke data, mens forbruker-VPNer gjør det.
+explanation: |
+  Bedrifts-VPNer er designet for bedrifter og er typisk dyrere
+  og mer komplekse å sette opp og administrere. På den andre siden er forbruker-VPNer designet
+  for individuelle brukere og er generelt mer tilgjengelige og brukervennlige.
+reviewed: false

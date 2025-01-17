@@ -1,9 +1,9 @@
-question: Was macht Alice mit dem UTXO von 0,0007 BTC, wenn sie einen Kanal mit Bob öffnet?
-answer: Sie sendet es an eine ihrer Wechseladressen.
+question: Was ermöglicht der Widerrufsschlüssel im Falle eines Betrugs?
+answer: Alle Gelder durch Bestrafung des Betrügers wiederherstellen
 wrong_answers:
-  - Sie sendet es an Bob's öffentliche Adresse.
-  - Sie sendet es an die 2/2 Multi-Sig-Adresse.
-  - Sie behält es in ihrer eigenen Adresse.
+  - Das Commitment-Transaktion abbrechen
+  - Die Kapazität des Kanals verdoppeln
+  - Weitere Transaktionen im Kanal verhindern
 explanation: |
-  Wenn Alice einen Kanal mit Bob öffnet, erstellt sie eine Transaktion mit 2 UTXOs als Ausgabe. Ein UTXO von 0,0013 BTC geht an die 2/2 Multi-Sig-Adresse und der andere UTXO von 0,0007 BTC geht an eine ihrer Wechseladressen.
+  Der Widerrufsschlüssel ermöglicht es der geschädigten Partei, alle Gelder im Falle eines Betrugsversuchs durch die andere Partei wiederherzustellen.
 reviewed: false

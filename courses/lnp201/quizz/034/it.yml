@@ -1,9 +1,9 @@
-question: Qual è lo scopo del Timelock in una transazione di impegno?
-answer: Blocca i fondi fino a un certo blocco.
+question: Quali informazioni deve conoscere il nodo mittente per effettuare un pagamento tramite onion routing?
+answer: La topologia della rete e il percorso completo verso il destinatario
 wrong_answers:
-  - Blocca la transazione fino a un certo blocco.
-  - Blocca il canale fino a un certo blocco.
-  - Blocca la chiave di revoca fino a un certo blocco.
+  - Solo il prossimo nodo intermedio
+  - La capacità di ogni canale
+  - La firma crittografica di ogni nodo sul percorso
 explanation: |
-  Il Timelock in una transazione di impegno blocca i fondi fino a un certo blocco. Questo impedisce alla parte che ha creato la transazione di recuperare immediatamente i propri soldi.
+  Il nodo mittente deve conoscere la topologia della rete per calcolare il percorso verso il destinatario, permettendogli di scegliere il miglior percorso.
 reviewed: false

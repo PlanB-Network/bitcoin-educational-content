@@ -1,0 +1,9 @@
+question: 如何从私钥计算出公钥？
+answer: 通过在椭圆曲线上使用标量乘法
+wrong_answers:
+  - 通过对私钥应用哈希
+  - 通过非对称加密
+  - 通过重复加上数值
+explanation: |
+  公钥是通过私钥与椭圆曲线上的生成点G进行标量乘法得到的。
+reviewed: false

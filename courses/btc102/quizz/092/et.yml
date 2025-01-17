@@ -1,0 +1,12 @@
+question: Mis on peamine põhjus, miks paranoiline Bitcoin'i kasutaja võiks kasutada oma LN sõlme?
+answer: Privaatsuse ja turvalisuse säilitamiseks
+wrong_answers:
+  - KYC protsesside vältimiseks
+  - Oma UTXOde haldamiseks
+  - Oma müntide segamiseks
+explanation: |
+  Peatükk mainib, et paranoiline Bitcoin'i kasutaja võiks kasutada oma LN
+  sõlme osana nende keskendumisest turvalisusele. Kuigi KYC protsesside vältimine, UTXOde
+  haldamine ja müntide segamine on samuti tegevused, millega paranoiline Bitcoin'i kasutaja võiks tegeleda,
+  ei ole need otseselt seotud LN sõlme kasutamisega.
+reviewed: false

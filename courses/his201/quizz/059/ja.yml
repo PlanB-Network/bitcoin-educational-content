@@ -1,0 +1,9 @@
+question: 2010年9月18日にJeff Garzikからの寛大な寄付を受けた後、自分のマイニングアルゴリズムを公開したフォーラムメンバーは誰ですか？
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  それまで、彼らは自分たちのソフトウェアの使用に対する手数料から利益を得ていました。彼らはそれをフリーライセンスの下で[公開しました](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135)。
+reviewed: false

@@ -1,0 +1,5 @@
+description: |
+  VeraCryptは、ディスクの暗号化を行うオープンソースのソフトウェアで、機密データを保護するために使用されます。TrueCryptの後継として、AES、Serpent、Twofishなどのアルゴリズムを使用した堅牢な暗号化を提供し、暗号化されたボリュームの作成や、内部および外部のパーティションやディスク全体の暗号化を可能にします。
+
+contributors:
+  - pretty-private

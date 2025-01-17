@@ -1,0 +1,9 @@
+question: What is the fundamental illusion of the State according to Marx?
+answer: It represents the general interest and not the specific interests of a class.
+wrong_answers:
+  - It is capable of guaranteeing impartiality.
+  - It serves civil society.
+  - It promotes class struggle.
+explanation: |
+  For Marx, the State claims to represent the general interest, but in reality, it is an instrument at the service of the interests of the dominant class, thus perpetuating the oppression of the subordinate classes.
+reviewed: false

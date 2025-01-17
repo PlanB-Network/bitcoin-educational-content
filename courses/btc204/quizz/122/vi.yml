@@ -1,0 +1,11 @@
+question: P2P transport V2 cải thiện quyền riêng tư và an ninh trong giao tiếp giữa các nút như thế nào?
+
+answer: Bằng cách tích hợp mã hóa cơ hội
+
+wrong_answers:
+  - Bằng cách tích hợp xác thực
+  - Bằng cách sử dụng thêm relay
+  - Bằng cách sử dụng Tor
+
+explanation: |
+  P2P transport V2 tích hợp một lớp mã hóa cơ hội để tăng cường quyền riêng tư và an ninh trong giao tiếp giữa các nút.

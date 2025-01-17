@@ -1,9 +1,9 @@
-question: Perché una chiusura forzata è più rischiosa in termini di commissioni e possibile convalida da parte dei minatori?
-answer: Perché le commissioni sono state decise quando la transazione è stata creata in passato e la rete è cambiata da allora.
+question: Quale criterio può aiutare un nodo a scegliere un percorso di pagamento efficiente?
+answer: La probabilità di successo basata sulla capacità totale dei canali
 wrong_answers:
-  - Perché le commissioni sono sempre più alte in una chiusura forzata.
-  - Perché i minatori sono meno propensi a convalidare una chiusura forzata.
-  - Perché le commissioni sono imprevedibili in una chiusura forzata.
+  - La distanza geografica tra i nodi
+  - La presenza di nodi con un livello di commissione basso
+  - Il numero di pagamenti effettuati dal nodo destinatario
 explanation: |
-  In una chiusura forzata, le commissioni sono state decise quando la transazione è stata creata in passato. La rete è cambiata da allora, quindi il protocollo predefinisce commissioni 5 volte più alte rispetto a quelle attuali al momento della creazione della transazione. Ciò rende la chiusura forzata più rischiosa in termini di commissioni e possibile convalida da parte dei minatori.
+  La capacità totale dei canali può indicare una maggiore probabilità di successo, poiché suggerisce una maggiore disponibilità di liquidità per le transazioni.
 reviewed: false

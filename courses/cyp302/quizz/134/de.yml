@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel der asymmetrischen Kryptografie im Kontext der Kommunikation zwischen Alice und Bob?
+answer: Bob zu ermöglichen, eine geheime Nachricht an Alice unter Verwendung ihres öffentlichen Schlüssels zu übermitteln
+wrong_answers:
+  - Bob zu ermöglichen, Nachrichten ohne einen öffentlichen Schlüssel zu verschlüsseln und zu entschlüsseln
+  - Zu verhindern, dass Alice Bobs Nachrichten entschlüsselt
+  - Alice zu ermöglichen, die Nachricht zur Überprüfung ihrer Integrität zu verschlüsseln
+explanation: |
+  In der asymmetrischen Kryptografie ermöglicht Alices öffentlicher Schlüssel Bob, eine verschlüsselte Nachricht zu senden, die nur sie entschlüsseln kann, und gewährleistet so die Vertraulichkeit der Nachricht.
+reviewed: false

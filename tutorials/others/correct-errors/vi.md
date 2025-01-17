@@ -12,13 +12,13 @@ Hướng dẫn này sẽ dẫn dắt bạn từng bước qua quá trình sửa 
 
 Xin lưu ý rằng nếu bạn dự định thực hiện một bản xem xét và sửa đổi toàn diện của một tài liệu, đặc biệt là dịch nội dung, tôi mời bạn tham khảo hướng dẫn chi tiết hơn này.
 
-https://planb.network/tutorials/others/content-review-tutorial
+https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 
  Ở đây, chúng tôi chỉ tập trung vào cách thực hiện một sửa đổi nhanh cho một lỗi nhỏ.
 
 - Đầu tiên, bạn cần có một tài khoản trên GitHub. Nếu bạn không biết cách tạo một tài khoản, chúng tôi đã tạo một hướng dẫn chi tiết để hướng dẫn bạn.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Truy cập vào [kho GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content):

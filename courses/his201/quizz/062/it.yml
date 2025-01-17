@@ -1,0 +1,9 @@
+question: Cosa comporta stimare il tasso di hash di un membro cooperativo attraverso la prova parziale del lavoro?
+answer: Recuperare prove di lavoro di grado inferiore rispetto alla difficoltà della rete prodotte dal hasher
+wrong_answers:
+  - Recuperare l'impronta di un timbro che include il primo byte di ogni hash di blocco prodotto dal hasher
+  - Recuperare la bolletta dell'elettricità del hasher ogni mese
+  - Recuperare prove di lavoro prodotte su una rete di difficoltà inferiore, come BitDNS
+explanation: |
+  Questo metodo semplice è stato proposto da ribuck, Nils Schneider e Gavin Andresen [sul forum](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) il 14 ottobre 2010. ()
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es el principio de los juristas según Bastiat?
+answer: Es el principio de la precedencia de la ley sobre la propiedad
+wrong_answers:
+  - Es el principio de la precedencia de la propiedad sobre la ley
+  - Es el principio de igualdad ante la ley
+  - Es el derecho a la propiedad sin intervención del estado
+explanation: |
+  Para Bastiat, el principio de los juristas, en oposición al de los economistas, coloca a la ley como precedente de la propiedad, una posición que critica por su potencial para establecer injusticias.
+reviewed: false

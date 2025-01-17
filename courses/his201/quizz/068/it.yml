@@ -1,0 +1,9 @@
+question: Di quale malattia fu diagnosticato il cypherpunk Hal Finney nell'agosto del 2009, pochi mesi dopo aver scoperto Bitcoin?
+answer: Malattia di Lou Gehrig
+wrong_answers:
+  - Malattia di Huntington
+  - Malattia di Alzheimer
+  - Malattia di Parkinson
+explanation: |
+  Questa malattia, conosciuta come sclerosi laterale amiotrofica (SLA) nel mondo anglofono, fu [diagnosticata](https: //www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) nell'agosto del 2009. È deceduto a causa di questa malattia nel 2014.
+reviewed: false

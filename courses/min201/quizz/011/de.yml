@@ -1,9 +1,12 @@
-question: Welche Strategien wurden zur Bekämpfung der Zentralisierung des Minings in Bitcoin diskutiert?
-answer: Zu den diskutierten Strategien zur Bekämpfung der Zentralisierung des Minings in Bitcoin gehören Home Mining, das Stratum V2-Protokoll, die Open-Source-Bereitstellung von Mining-Software sowie die Diversifizierung von Akteuren und geografischen Standorten.
+question: Welche Strategien werden diskutiert, um der Zentralisierung des Minings bei Bitcoin entgegenzuwirken?
+answer: Diskutierte Strategien, um der Zentralisierung des Minings bei Bitcoin entgegenzuwirken, beinhalten Home Mining, das Stratum V2 Protokoll, die Offenlegung des Mining-Software-Codes und die Diversifizierung von Akteuren und Geografie.
 wrong_answers:
-  - Zu den diskutierten Strategien zur Bekämpfung der Zentralisierung des Minings in Bitcoin gehören die Erhöhung der Blockgröße, die Implementierung von Proof of Stake und die Schaffung einer zentralen Autorität zur Überwachung des Minings.
-  - Zu den diskutierten Strategien zur Bekämpfung der Zentralisierung des Minings in Bitcoin gehören die Reduzierung der Blockbelohnung, die Implementierung einer Transaktionsgebühr und die Einführung einer Mining-Steuer.
-  - Zu den diskutierten Strategien zur Bekämpfung der Zentralisierung des Minings in Bitcoin gehören die Erhöhung der Schwierigkeit des Minings, die Implementierung einer Mining-Obergrenze und die Einführung einer Mining-Lotterie.
+  - Diskutierte Strategien, um der Zentralisierung des Minings bei Bitcoin entgegenzuwirken, beinhalten die Erhöhung der Blockgröße, die Implementierung von Proof of Stake und die Schaffung einer zentralen Autorität zur Überwachung des Minings.
+  - Diskutierte Strategien, um der Zentralisierung des Minings bei Bitcoin entgegenzuwirken, beinhalten die Reduzierung der Blockbelohnung, die Implementierung einer Transaktionsgebühr und die Schaffung einer Mining-Steuer.
+  - Diskutierte Strategien, um der Zentralisierung des Minings bei Bitcoin entgegenzuwirken, beinhalten die Erhöhung der Mining-Schwierigkeit, die Implementierung einer Mining-Obergrenze und die Schaffung einer Mining-Lotterie.
 explanation: |
-  Das Kapitel diskutiert mehrere Strategien zur Bekämpfung der Zentralisierung des Minings in Bitcoin, darunter Home Mining, das Stratum V2-Protokoll, die Open-Source-Bereitstellung von Mining-Software sowie die Diversifizierung von Akteuren und geografischen Standorten.
-reviewed: false
+  Das Kapitel diskutiert mehrere Strategien, um der Zentralisierung
+  des Minings bei Bitcoin entgegenzuwirken, einschließlich Home Mining,
+  dem Stratum V2 Protokoll, der Offenlegung des Mining-Software-Codes und
+  der Diversifizierung von Akteuren und Geografie.
+reviewed: true

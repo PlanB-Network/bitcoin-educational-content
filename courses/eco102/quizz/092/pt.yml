@@ -1,0 +1,8 @@
+question: Se a propriedade é uma instituição estabelecida pela vontade geral, como acredita Rousseau, qual é a consequência?
+answer: O legislador pode organizar, modificar ou até abolir a propriedade
+wrong_answers:
+  - O legislador então fica vinculado por essa convenção e não pode tocar na propriedade
+  - A vontade geral nunca quer tocar na propriedade
+  - O legislador é obrigado a proteger a propriedade sem exceção
+explanation: |
+  De acordo com Rousseau, uma vez que a propriedade surge da vontade geral, ela pode ser modificada ou abolida pelo legislador de acordo com essa mesma vontade.

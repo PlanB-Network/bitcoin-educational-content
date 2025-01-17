@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   The Lightning Network allows for instant, low-cost Bitcoin transactions,
   thus solving the scalability problem of Bitcoin.
-reviewed: false
+reviewed: true

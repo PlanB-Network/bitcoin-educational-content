@@ -1,0 +1,11 @@
+question: Apa itu dilema tahanan dalam konteks pembagian kerja?
+answer: Ini adalah situasi di mana kolaborasi bersama menghasilkan keuntungan suboptimal bagi individu tetapi keuntungan maksimum untuk kelompok.
+wrong_answers:
+  - Ini adalah situasi di mana individu menolak untuk berkolaborasi, mengakibatkan keuntungan maksimum untuk kelompok.
+  - Ini adalah situasi di mana individu berkolaborasi, mengakibatkan keuntungan maksimum untuk diri mereka sendiri tetapi keuntungan suboptimal untuk kelompok.
+  - Ini adalah situasi di mana individu menolak untuk berkolaborasi, mengakibatkan keuntungan suboptimal untuk diri mereka sendiri dan kelompok.
+explanation: |
+  Dilema tahanan adalah konsep dalam teori permainan di mana individu
+  memiliki insentif untuk memilih strategi yang memaksimalkan keuntungan individu mereka, terlepas
+  dari strategi yang dipilih oleh orang lain, bahkan ketika keseimbangan yang lebih diinginkan melalui
+  koordinasi/kolaborasi adalah mungkin.

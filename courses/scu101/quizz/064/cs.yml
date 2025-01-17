@@ -1,9 +1,9 @@
 question: Proč se nedoporučuje používat prohlížečové rozšíření pro automatické vyplňování hesel?
-answer: Mohou uživatele více vystavit riziku phishingových útoků, zvýšit riziko útoku a zpomalit výkon prohlížeče.
+answer: Mohou uživatele více vystavit riziku phishingových útoků, zvýšit útočnou plochu a zpomalit výkon prohlížeče.
 wrong_answers:
   - Jsou obtížné na používání.
   - Nejsou kompatibilní se všemi prohlížeči.
   - Vyžadují hodně úložného prostoru.
 explanation: |
-  Prohlížečová rozšíření pro automatické vyplňování hesel mohou uživatele více vystavit riziku phishingových útoků. Také mají tendenci zvyšovat riziko útoku a mohou zpomalit výkon prohlížeče, což představuje významné riziko.
-reviewed: false
+  Prohlížečová rozšíření pro automatické vyplňování hesel mohou uživatele více vystavit riziku phishingových útoků. Také mají tendenci zvyšovat útočnou plochu a mohou zpomalit výkon prohlížeče, což představuje významné riziko.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Was stellt die Modulo-Operation in der Mathematik dar?
+answer: Den Rest einer Division
+wrong_answers:
+  - Den Quotienten einer Division
+  - Das Doppelte der Ausgangszahl
+  - Die Zahl, die ohne Rest teilt
+explanation: |
+  Die Modulo-Operation beinhaltet die Bestimmung des Rests einer Division, zum Beispiel ist 25 mod 4 gleich 1, weil der Rest der Division 1 ist.
+reviewed: false

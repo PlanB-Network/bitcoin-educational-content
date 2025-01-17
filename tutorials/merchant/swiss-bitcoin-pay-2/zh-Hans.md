@@ -10,11 +10,11 @@ description: 如何轻松接受比特币支付？
 
 对于那些不想麻烦，希望直接在银行账户中接收法币资金的人，像Open Node这样的托管解决方案是可用的：
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 对于准备亲自动手并希望完全控制过程的商家来说，BTCPay Server软件是一个极好的选择。然而，BTCPay Server的主要缺点是其设置和管理需要时间，并且需要一些技术专长：
 
-https://planb.network/tutorials/merchant/btcpay-server
+https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 在所有这些解决方案中，瑞士比特币支付似乎是一个非常有趣的折衷方案，结合了易用性、功能和安全性。这个解决方案适用于从非常小的企业到更大的结构。在本教程中，您将发现如何轻松使用瑞士比特币支付在您的企业中接受比特币。
 

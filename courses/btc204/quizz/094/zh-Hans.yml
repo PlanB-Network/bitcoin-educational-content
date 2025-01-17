@@ -1,0 +1,11 @@
+question: 在以下答案中，哪一项不是推荐的管理个人doxxic变更的做法？
+
+answer: 合并doxxic UTXOs。
+
+wrong_answers:
+  - 在较小的池中混合doxxic UTXOs。
+  - 捐赠个人的doxxic UTXOs。
+  - 将个人的doxxic UTXOs标记为不可支出。
+
+explanation:
+  不建议将doxxic UTXOs合并在一起，因为这样做允许在Whirlpool中的用户不同条目之间建立联系。

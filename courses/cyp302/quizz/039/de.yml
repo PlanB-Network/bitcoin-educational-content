@@ -1,0 +1,9 @@
+question: Warum ist die Zahlentheorie besonders wichtig in der Public-Key-Kryptographie?
+answer: Sie liefert die notwendigen mathematischen Grundlagen für Verschlüsselungs- und Entschlüsselungsoperationen.
+wrong_answers:
+  - Sie liefert die notwendigen mathematischen Grundlagen für Hashing-Operationen.
+  - Sie ist notwendig für die Erstellung von neuronalen Netzwerken.
+  - Sie ermöglicht die Berechnung von Operationen nur im Binärsystem.
+explanation: |
+  Die Zahlentheorie ist in der Public-Key-Kryptographie entscheidend, weil sie Algorithmen basierend auf den Eigenschaften von Ganzzahlen strukturiert, was Verschlüsselungs- und Entschlüsselungsoperationen erleichtert.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Che tipo di attacco può prevenire un numero di sequenza in una sessione di comunicazione sicura?
+answer: Attacchi di replay e di riordinamento
+wrong_answers:
+  - Attacchi di intercettazione passiva
+  - Attacchi di negazione del servizio
+  - Attacchi di spoofing delle chiavi
+explanation: |
+  Un numero di sequenza in ogni messaggio previene gli attacchi di replay e di riordinamento, poiché permette la verifica dell'ordine e dell'unicità dei messaggi.
+reviewed: false

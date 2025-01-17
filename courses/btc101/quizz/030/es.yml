@@ -1,11 +1,12 @@
 question: ¿Cuál es la principal ventaja de las monedas fiduciarias?
-answer: Son fácilmente divisibles
+answer: Son fácilmente divisibles.
 wrong_answers:
-  - Están controladas por una entidad central
-  - No son fácilmente transportables
-  - Son efectivas para mantener su valor a lo largo del tiempo
+  - Están controladas por una parte central.
+  - No son fácilmente transportables.
+  - Son efectivas para mantener su valor a lo largo del tiempo.
 explanation: |
-  Las monedas fiduciarias, como el dólar y el euro, son muy líquidas y
-  fácilmente transportables porque ahora son principalmente digitales. Sin embargo, su valor es
-  constantemente erosionado por la inflación monetaria.
-reviewed: false
+  Las monedas fiduciarias, como el dólar y el euro, son muy
+  líquidas y fácilmente transportables porque ahora son mayormente
+  digitales. Sin embargo, su valor se erosiona constantemente por
+  la inflación monetaria.
+reviewed: true

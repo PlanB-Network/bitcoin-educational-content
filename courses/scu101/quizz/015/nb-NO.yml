@@ -1,0 +1,12 @@
+question: Hvorfor er det viktig å prioritere pålitelighet og teknisk kvalitet over popularitet når man velger en VPN?
+answer: VPN-leverandører som samler inn minst personlig informasjon er generelt sett de sikreste.
+wrong_answers:
+  - Populære VPN-leverandører har større sannsynlighet for å bli målrettet av hackere.
+  - Populære VPN-leverandører har større sannsynlighet for å ha tregere internett-hastigheter.
+  - Populære VPN-leverandører har større sannsynlighet for å ha geografiske restriksjoner.
+explanation: |
+  Når man velger en VPN, er det viktig å prioritere pålitelighet og
+  teknisk kvalitet
+  over popularitet. Dette er fordi VPN-leverandører som samler inn minst personlig informasjon
+  generelt sett er de sikreste, og gir bedre beskyttelse for din online sikkerhet.
+reviewed: false

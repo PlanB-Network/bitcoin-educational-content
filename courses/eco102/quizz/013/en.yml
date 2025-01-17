@@ -1,0 +1,9 @@
+question: What is the basis of value according to Frédéric Bastiat?
+answer: Utility
+wrong_answers:
+  - Labor
+  - Scarcity
+  - Demand
+explanation: |
+  Bastiat adopts Say's idea that utility is the basis of value, contrary to theories based on labor or scarcity.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Tại sao mật mã học lại quan trọng trong môi trường giao tiếp mở?
+
+answer: Nó bảo vệ dữ liệu, ngay cả khi kênh giao tiếp bị nghe lén.
+
+wrong_answers:
+  - Nó làm cho giao tiếp trở nên vô hình đối với tất cả các mạng.
+  - Nó ngăn chặn các cuộc tấn công vào mạng cục bộ.
+  - Nó thay thế cáp vật lý bằng giao tiếp an toàn.
+
+explanation:
+  Trong môi trường giao tiếp mở, nơi các kênh có thể bị giám sát, mật mã học đảm bảo an ninh bằng cách bảo vệ dữ liệu trao đổi, ngay cả trong tình huống có thể xảy ra các cuộc tấn công.

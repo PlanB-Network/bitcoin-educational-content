@@ -1,0 +1,9 @@
+question: Theo người La Mã, định nghĩa về tài sản trong tiếng Latin là gì?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  Trong luật La Mã, jus utendi et abutendi định nghĩa tài sản là quyền sử dụng và lạm dụng, nhấn mạnh việc sử dụng mà không đi sâu vào nguyên nhân của nó.
+reviewed: false

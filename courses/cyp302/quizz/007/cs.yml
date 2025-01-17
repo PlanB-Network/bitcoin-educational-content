@@ -1,0 +1,9 @@
+question: Co odlišuje moderní kryptografický systém od jednoduchého šifrovacího schématu?
+answer: Zajištění integrity a autenticity zprávy
+wrong_answers:
+  - Použití jediného tajného klíče
+  - Decentralizace klíče
+  - Anonymizace zpráv
+explanation: |
+  Moderní kryptografie zahrnuje schémata, která přesahují zajištění důvěrnosti a zajišťují integritu a autenticitu, stejně jako nezpochybnitelnost, na rozdíl od jednoduchých šifrovacích schémat.
+reviewed: false

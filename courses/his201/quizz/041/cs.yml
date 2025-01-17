@@ -1,0 +1,9 @@
+question: Kterého data Jeremy Sturdivant dodal dvě pizzy Laszlovi Hanyeczovi výměnou za platbu 10 000 bitcoinů, čímž došlo k prvnímu nákupu fyzického zboží za kryptoměnu?
+answer: 22. května 2010
+wrong_answers:
+  - 12. října 2009
+  - 18. dubna 2010
+  - 11. června 2010
+explanation: |
+  Po oznámení zveřejněném na fóru byla nabídka přijata 22. května 2010. V té době mělo 10 000 bitcoinů hodnotu přibližně 44 dolarů.
+reviewed: false

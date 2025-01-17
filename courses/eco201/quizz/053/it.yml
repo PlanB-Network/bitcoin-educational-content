@@ -1,9 +1,9 @@
-question: Cosa significa "cherry-picking" nel contesto dell'economia?
-answer: Il "cherry-picking" consiste nella scelta selettiva dei dati per stabilire relazioni tra variabili.
+question: Cosa significa cherry-picking nel contesto dell'economia?
+answer: Il cherry-picking consiste nella scelta selettiva dei dati per stabilire relazioni tra variabili.
 wrong_answers:
-  - Il "cherry-picking" comporta l'ignorare tutti i dati e fare affidamento esclusivamente su ipotesi.
-  - Il "cherry-picking" comporta l'utilizzo di tutti i dati disponibili senza alcuna selezione.
-  - Il "cherry-picking" comporta l'utilizzo solo dei dati che supportano le politiche governative.
+  - Il cherry-picking comporta l'ignorare tutti i dati e fare affidamento esclusivamente su ipotesi.
+  - Il cherry-picking comporta l'utilizzo di tutti i dati disponibili senza alcuna selezione.
+  - Il cherry-picking comporta l'utilizzo solo dei dati che supportano le politiche governative.
 explanation: |
-  Nell'economia, il "cherry-picking" consiste nella scelta selettiva dei dati per stabilire relazioni tra variabili. È considerato un metodo non scientifico e non rigoroso.
+  Nell'economia, il cherry-picking consiste nella scelta selettiva dei dati per stabilire relazioni tra variabili. È considerato un metodo non scientifico e non rigoroso.
 reviewed: false

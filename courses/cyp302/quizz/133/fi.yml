@@ -1,0 +1,8 @@
+question: Mikä on digitaalinen allekirjoitus asymmetrisen kryptografian kontekstissa?
+answer: Mekanismi viestin aitouden varmistamiseksi käyttäen yksityistä avainta
+wrong_answers:
+  - Prosessi viestin salaamiseksi vahvemmin
+  - Lisä julkinen avain salatun viestin validointiin
+  - Digitaalinen kopio käsinkirjoitetusta allekirjoituksesta
+explanation: |
+  Digitaalinen allekirjoitus on kryptografinen tekniikka, joka todistaa viestin todella olevan sen yksityisen avaimen omistajan luoma, varmistaen näin sen aitouden.

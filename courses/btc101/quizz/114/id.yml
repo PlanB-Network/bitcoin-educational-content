@@ -1,0 +1,10 @@
+question: Kapan Bitcoin pertama kali diperkenalkan ke dunia?
+answer: 31 Oktober 2008
+wrong_answers:
+  - 3 Januari 2009
+  - 22 November 2009
+  - 12 Desember 2010
+explanation: |
+  Bitcoin pertama kali diperkenalkan ke dunia pada 31 Oktober 2008, ketika Satoshi
+  Nakamoto mengirimkan sebuah email ke milis cypherpunk yang berisi White Paper Bitcoin.
+reviewed: true

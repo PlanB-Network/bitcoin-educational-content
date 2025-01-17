@@ -1,10 +1,10 @@
-question: Quelle est la phase finale de l'hyperinflation?
-answer: Une nouvelle devise émerge
+question: Quelle est la phase finale du phénomène d'hyperinflation ?
+answer: Une nouvelle monnaie émerge.
 wrong_answers:
-  - Perte de confiance
-  - Effondrement de la devise et augmentation des prix
-  - Le cercle vicieux de l'impression monétaire
+  - Perte de confiance.
+  - Effondrement de la monnaie & augmentation des prix.
+  - Le cercle vicieux de l'impression monétaire.
 explanation: |
-  La phase finale de l'hyperinflation est lorsque une nouvelle devise est introduite
-  pour remplacer l'ancienne.
-reviewed: false
+  La phase finale de l'hyperinflation se produit lorsqu'une nouvelle
+  monnaie est introduite pour remplacer l'ancienne.
+reviewed: true

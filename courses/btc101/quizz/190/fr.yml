@@ -1,9 +1,9 @@
 question: Qu'est-ce que l'AMF ?
-answer: "Autorité des Marchés Financiers"
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - Fonds Monétaire Américain
-  - Association des Installations Minières
-  - Flux Monétaire Automatisé
+  - Fonds Monétaire Américain.
+  - Association des Installations Minières.
+  - Flux Monétaire Automatisé.
 explanation: |
-  "L'AMF, ou Autorité des Marchés Financiers, est une organisation française qui réglemente les plateformes où les bitcoins peuvent être achetés."
-reviewed: false
+  L'AMF, ou Autorité des Marchés Financiers, est une organisation française qui régule les plateformes où les bitcoins peuvent être achetés.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welcher Austauschdienst, der im März 2010 erstellt wurde, war vor dem Aufkommen von Mt. Gox im Juli am beliebtesten?
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Dies war ein Peer-to-Peer-Marktplatz, der PayPal nutzte und am 16. März 2010 von einer Person namens dwdollar ins Leben gerufen wurde und die Hauptplattform vor Mt. Gox war.
+reviewed: false

@@ -5,6 +5,7 @@ wrong_answers:
   - Norton
   - McAfee
 explanation: |
-  Windows Defender is the built-in antivirus in Windows. It is a safe and
-  effective solution for protecting the system from threats.
-reviewed: false
+  Windows Defender is the built-in antivirus in Windows. It
+  is a safe and effective solution for protecting the system
+  from threats.
+reviewed: true

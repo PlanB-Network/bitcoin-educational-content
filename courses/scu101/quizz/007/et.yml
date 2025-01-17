@@ -1,0 +1,12 @@
+question: Mis on privaatne sirvimine?
+answer: Funktsioon, mis takistab internetibrauseritel salvestamast sirvimisajalugu, ajutisi internetifaile, vormiandmeid, küpsiseid ning kasutajanimeid ja paroole.
+wrong_answers:
+  - Funktsioon, mis varjab teie veebitegevust teie internetiteenuse pakkujalt.
+  - Funktsioon, mis võimaldab teil sirvida internetti anonüümselt.
+  - Funktsioon, mis kaitseb teie seadet viiruste ja muu pahavara eest.
+explanation: |
+  Privaatne sirvimine on funktsioon, mis takistab internetibrauseritel salvestamast
+  sirvimisajalugu, ajutisi internetifaile, vormiandmeid, küpsiseid ning kasutajanimeid ja
+  paroole. Siiski ei varja see teie veebitegevust teie internetiteenuse pakkujalt ega
+  võimalda teil sirvida internetti anonüümselt.
+reviewed: false

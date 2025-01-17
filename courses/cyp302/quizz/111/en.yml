@@ -1,0 +1,9 @@
+question: What is asynchronous stream encryption?
+answer: An encryption whose key stream depends on both the key and elements of the previously encrypted text
+wrong_answers:
+  - An encryption that generates a random key stream with each use
+  - An encryption where the key must be changed for each message
+  - An encryption whose key stream depends only on the initial key
+explanation: |
+  Asynchronous stream encryption is a type of encryption where the key stream is influenced by the key and elements of the encrypted text.
+reviewed: false

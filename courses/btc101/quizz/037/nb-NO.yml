@@ -1,0 +1,11 @@
+question: Hvilken enhet er ansvarlig for å utstede fidusiær valuta?
+answer: Sentralbank
+wrong_answers:
+  - Kommersiell Bank
+  - Regjering
+  - Private Institusjoner
+explanation: |
+  Sentralbanker er enhetene som er ansvarlige for å utstede fidusiær
+  valuta. De bestemmer pengepolitikken og avgjør hvor mye penger som skal
+  settes i omløp eller trykkes.
+reviewed: true

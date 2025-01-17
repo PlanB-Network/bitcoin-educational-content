@@ -12,13 +12,13 @@ Kui soovite panustada PlanB võrgustikku, peate muudatuste tegemiseks kasutama G
 
 Kui teil pole aimugi, mis on GitHub, või soovite rohkem teada saada Git'i ja GitHub'iga seotud tehnilistest terminitest, soovitan teil lugeda meie sissejuhatavat artiklit, et tutvuda nende kontseptsioonidega.
 
-https://planb.network/tutorials/others/basics-of-github
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 
 
 - Alustuseks vajate ilmselgelt GitHub'i kontot. Kui teil juba on konto, saate sisse logida, vastasel juhul saate meie õpetuse abil luua uue konto.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

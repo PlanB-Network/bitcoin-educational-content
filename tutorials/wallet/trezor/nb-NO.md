@@ -1,6 +1,5 @@
 ---
 name: Trezor model One
-
 description: Oppsett og bruk av Trezor model One
 ---
 

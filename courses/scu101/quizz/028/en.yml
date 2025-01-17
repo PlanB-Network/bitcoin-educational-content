@@ -5,6 +5,7 @@ wrong_answers:
   - Online shopping websites
   - Banking websites
 explanation: |
-  Emails are the first vector of attack for hackers. They use phishing
-  attempts to extract sensitive information such as your credentials and passwords.
+  Emails are the first vector of attack for hackers. They use
+  phishing attempts to extract sensitive information such as
+  your credentials and passwords.
 reviewed: false

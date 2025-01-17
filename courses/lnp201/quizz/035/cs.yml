@@ -1,9 +1,9 @@
-question: Co se stane, pokud se Alice pokusí podvádět zveřejněním starého stavu?
-answer: Bob může použít klíč pro zrušení k přesunu prostředků bez čekání na konec časového zámku, čímž efektivně potrestá Alici.
+question: Jaký je hlavní cíl HTLC v Lightning Network?
+answer: Umožnit bezpečné převody plateb prostřednictvím zprostředkujících uzlů bez nutnosti důvěřovat jim
 wrong_answers:
-  - Alice může použít klíč pro zrušení k přesunu prostředků bez čekání na konec časového zámku.
-  - Bob může prodloužit časový zámek, aby zabránil Alici v získání jejích peněz zpět.
-  - Alice může okamžitě získat své peníze zpět.
+  - Snížit transakční poplatky za každou platbu prostřednictvím zprostředkujících uzlů
+  - Zvýšit kapacitu každého platebního kanálu
+  - Zřídit přímá spojení mezi všemi uzly sítě s jejich důvěrou
 explanation: |
-  Pokud se Alice pokusí podvádět zveřejněním starého stavu, Bob může použít klíč pro zrušení k přesunu prostředků bez čekání na konec časového zámku. To efektivně potrestá Alici za pokus o podvod.
+  HTLC (Hashed Time-Locked Contracts) zajišťují, že každý zprostředkující uzel převede platbu bez zadržení finančních prostředků, jelikož je může odemknout pouze dokončením transakce až k finálnímu příjemci.
 reviewed: false

@@ -1,9 +1,14 @@
-question: Quel pays a fait du Bitcoin une monnaie légale depuis 2021 ?
-answer: El Salvador
+question: Comment Bitcoin résout-il le problème des généraux byzantins ?
+answer: Par l'utilisation d'une blockchain basée sur la Preuve de Travail avec une difficulté variable.
 wrong_answers:
-  - France
-  - États-Unis
-  - Chine
-explanation: |
-  El Salvador a fait du Bitcoin une monnaie légale depuis 2021, contribuant au développement de l'économie Bitcoin dans la région.
-reviewed: false
+  - Par l'utilisation de signatures numériques.
+  - Par l'utilisation d'un registre public.
+  - Par l'utilisation d'un algorithme de Preuve d'Enjeu.
+explanation: >-
+  Le problème des généraux byzantins est un problème classique dans
+  le domaine du calcul distribué, qui implique d'atteindre un consensus
+  dans un réseau où certains des nœuds peuvent être défectueux ou
+  malveillants. Bitcoin résout ce problème par l'utilisation d'une
+  blockchain basée sur la Preuve de Travail, ce qui assure que tous
+  les nœuds s'accordent sur l'état de l'historique des transactions.
+reviewed: true

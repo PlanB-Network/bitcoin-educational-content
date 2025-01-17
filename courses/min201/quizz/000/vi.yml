@@ -5,8 +5,10 @@ wrong_answers:
   - Chỉ phí giao dịch
   - Việc tạo ra bitcoin mới, phí giao dịch, và một tiền thưởng cho người khai thác nhanh nhất
 explanation: |
-  Phần thưởng khai thác hiện tại trong mạng lưới Bitcoin là hai phần. Nó bao gồm
-  việc tạo ra bitcoin mới, đã giảm từ 50 bitcoin mỗi mười phút
-  ban đầu xuống còn 6.25 bitcoin ngày nay (2023). Nó cũng bao gồm phí giao dịch, hoặc phí khai thác,
-  từ các giao dịch mà người khai thác chọn để bao gồm trong khối của họ.
-reviewed: false
+  Phần thưởng khai thác hiện tại trong mạng lưới Bitcoin
+  gồm hai phần. Nó bao gồm việc tạo ra bitcoin mới, đã
+  giảm từ 50 bitcoin mỗi mười phút ban đầu xuống còn
+  6.25 bitcoin ngày nay (2023). Nó cũng bao gồm phí giao dịch,
+  hay phí khai thác, từ các giao dịch mà người khai thác
+  chọn để bao gồm trong khối của họ.
+reviewed: true

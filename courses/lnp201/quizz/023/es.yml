@@ -1,9 +1,9 @@
-question: ¿Cuál es el propósito de la transacción de retiro en una transferencia de Lightning Network?
-answer: Representa el estado del canal, garantizando quién es el propietario de los fondos después de cada transferencia.
+question: ¿Por qué Alice y Bob intercambian sus secretos por transacciones de compromiso anteriores?
+answer: Para permitir que cada uno se proteja si el otro publica una transacción antigua
 wrong_answers:
-  - Es la transacción que mueve los fondos de un lado a otro.
-  - Es la transacción que abre el canal.
-  - Es la transacción que cierra el canal.
+  - Para aumentar la capacidad del canal
+  - Para bloquear el acceso del otro a los fondos
+  - Para dividir los fondos equitativamente
 explanation: |
-  La transacción de retiro se actualiza después de cada transferencia en la Lightning Network para reflejar el estado actual del canal. Garantiza quién es el propietario de los fondos después de cada transferencia, pero no se ejecuta a menos que el canal se cierre.
+  Intercambiar secretos por transacciones anteriores permite a cada participante castigar al otro en caso de un intento de engaño al publicar una transacción antigua.
 reviewed: false

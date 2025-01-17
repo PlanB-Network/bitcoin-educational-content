@@ -1,0 +1,8 @@
+question: Mis on üks VPN-i kasutamise eelis internetis surfamisel kodus?
+answer: See suurendab vahetatavate andmete turvalisust internetis.
+wrong_answers:
+  - See suurendab interneti kiirust.
+  - See võimaldab juurdepääsu rohkematele veebilehtedele.
+  - See säästab mobiilandmeid.
+explanation: |
+  VPN-i kasutamine kodus võib suurendada vahetatavate andmete turvalisust internetis. See tuleneb asjaolust, et VPN-id krüpteerivad andmeid, muutes kolmandate osapoolte jaoks raskemaks nende pealtkuulamise.

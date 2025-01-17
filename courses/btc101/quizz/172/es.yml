@@ -1,9 +1,13 @@
-question: ¿Cuál es la principal diferencia entre las ideas de la economía keynesiana y la economía austriaca en relación con el sistema monetario?
-answer: La economía keynesiana no tiene en cuenta los aspectos temporales y dinámicos de las situaciones y los recursos.
+question: ¿Cuál es la principal diferencia entre la economía keynesiana y la economía austriaca respecto al sistema monetario?
+answer: La economía keynesiana no toma en cuenta los aspectos temporales y dinámicos de las situaciones y recursos.
 wrong_answers:
-  - La economía keynesiana promueve el sobreconsumo y la deuda.
-  - La economía keynesiana no refleja la escasez de recursos.
+  - La economía keynesiana promueve el sobreconsumo de monedas.
+  - La economía keynesiana reconoce la escasez de situaciones y recursos.
   - La economía keynesiana fomenta la inflación.
-explanation: |
-  La principal diferencia entre las ideas de la economía keynesiana y la economía austriaca en relación con el sistema monetario es que la economía keynesiana no tiene en cuenta los aspectos temporales y dinámicos de las situaciones y los recursos. En otras palabras, una moneda ilimitada no puede reflejar eficazmente los recursos limitados de nuestro planeta.
-reviewed: false
+explanation: >-
+  La principal diferencia entre las ideas de la economía keynesiana y la economía
+  austriaca en relación con el sistema monetario es que la economía keynesiana no
+  toma en cuenta los aspectos temporales y dinámicos de las situaciones y recursos.
+  En otras palabras, una moneda ilimitada no puede reflejar efectivamente los recursos
+  limitados de nuestro planeta.
+reviewed: true

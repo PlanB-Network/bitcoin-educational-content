@@ -4,7 +4,7 @@ answer: Operaatiokoodi, joka merkitsee tuloksen mitätöidyksi ja mahdollistaa d
 
 wrong_answers:
   - Operaatiokoodi, joka varmentaa allekirjoituksen pätevyyden Bitcoin-siirrossa.
-  - Operaatiokoodi, joka sisältää hyperlinkin IPFS:ssä tallennettuun tiedostoon.
+  - Operaatiokoodi, joka sisältää hyperlinkin IPFS: ssä tallennettuun tiedostoon.
   - Komento, joka poistaa siirron Bitcoin-lohkoketjusta.
 
 explanation: |

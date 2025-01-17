@@ -1,10 +1,11 @@
 question: Mitä hashrate mittaa Bitcoin-verkossa?
-answer: Laskutoimitukset sekunnissa
+answer: Laskutoimituksia sekunnissa
 wrong_answers:
   - Transaktioiden määrä sekunnissa
   - Aktiivisten solmujen määrä
   - Verkon kuluttama sähkön määrä
 explanation: |
   Hashrate Bitcoin-verkossa mittaa laskutoimitusten määrää,
-  joka voidaan suorittaa sekunnissa. Se on keskeinen indikaattori verkon terveydelle ja turvallisuudelle.
-reviewed: false
+  jotka voidaan suorittaa sekunnissa. Se on keskeinen
+  indikaattori verkon terveydelle ja turvallisuudelle.
+reviewed: true

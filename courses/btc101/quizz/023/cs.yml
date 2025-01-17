@@ -1,12 +1,14 @@
 question: Jaká je role peněz jako komunikačního nástroje?
-answer: Umožňují komunikaci hodnoty napříč prostorem a časem bez nutnosti důvěřovat protistraně
+answer: Umožňují komunikaci hodnoty napříč prostorem a časem bez nutnosti důvěřovat protistraně.
 wrong_answers:
-  - Umožňují komunikaci hodnoty pouze napříč prostorem a bez nutnosti důvěřovat protistraně
-  - Umožňují komunikaci hodnoty pouze napříč časem a bez nutnosti důvěřovat protistraně
-  - Umožňují komunikaci hodnoty napříč prostorem a časem s nutností důvěřovat protistraně
+  - Umožňují komunikaci hodnoty pouze napříč prostorem a bez nutnosti důvěřovat protistraně.
+  - Umožňují komunikaci hodnoty pouze napříč časem a bez nutnosti důvěřovat protistraně.
+  - Umožňují komunikaci hodnoty napříč prostorem a časem s nutností důvěřovat protistraně.
 explanation: |
-  Peníze jako komunikační nástroj umožňují komunikaci napříč prostorem a časem, jelikož přeměňujeme náš čas a energii na aktivum, které může být znovu použito
-  v budoucnosti bez rizika devalvace. Také umožňují komunikaci v
-  univerzálním společném jazyce, což umožňuje dvěma cizím lidem vyměňovat, obchodovat a dohodnout se
-  na hodnotě věcí.
+  Peníze jako komunikační nástroj umožňují komunikaci napříč
+  prostorem a časem, jelikož transformujeme náš čas a energii do
+  aktiva, které může být znovu použito v budoucnosti bez rizika
+  devalvace. Také umožňují komunikaci v univerzálním společném jazyce,
+  což umožňuje dvěma cizím lidem vyměňovat, obchodovat
+  a dohodnout se na hodnotě věcí.
 reviewed: true

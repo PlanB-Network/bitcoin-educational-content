@@ -1,0 +1,11 @@
+question: Apa penyebab krisis ekonomi menurut kursus tersebut?
+answer: Krisis ekonomi dapat disebabkan oleh ketidakmampuan manusia, manipulasi pasar, atau euforia kolektif masyarakat.
+wrong_answers:
+  - Krisis ekonomi sepenuhnya disebabkan oleh manipulasi pasar.
+  - Krisis ekonomi sepenuhnya disebabkan oleh ketidakmampuan manusia.
+  - Krisis ekonomi sepenuhnya disebabkan oleh euforia kolektif masyarakat.
+explanation: |
+  Bab tersebut menyebutkan bahwa kursus akan menjelajahi bagaimana krisis ekonomi
+  dapat disebabkan oleh ketidakmampuan manusia, manipulasi pasar, atau euforia kolektif
+  masyarakat.
+reviewed: false

@@ -1398,7 +1398,7 @@ For Hayek, kommer den tidligere ustabiliteten i markedsøkonomien fra det faktum
 ![bilde](assets/6/img-006.webp)
 Hayek trodde at et fritt marked av private valutaer ville føre til større monetær stabilitet. Nesten 50 år senere, representerer en kryptovaluta som Bitcoin Hayeks konkurransepregete visjon ved å tilby et desentralisert alternativ til det monopolistiske systemet til sentralbankene. Bitcoin, med sin emisjonsgrense på 21 millioner enheter, er en garanti mot inflasjon og regulatorisk vilkårlighet.
 
-## Evaluer kurset
+## Vurderinger & Karakterer
 
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1426,3 +1426,21 @@ På en måte er vår situasjon bedre enn i fortiden. Etter de påfølgende feile
 Alt som skjer i det globale samfunnet vi lever i, er resultatet av ideer. Det gode og det dårlige. Det som er nødvendig, er å bekjempe falske ideer. (...) Vår sivilisasjon kan overleve, og den må. Og den vil overleve takket være bedre ideer enn de som styrer verden i dag; og disse bedre ideene vil bli utviklet av den oppvoksende generasjonen.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
+# Konklusjon
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Evaluer dette kurset
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Avsluttende eksamen
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Konklusjon
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

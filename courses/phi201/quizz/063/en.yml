@@ -1,0 +1,9 @@
+question: What was the medieval Church's attitude towards interest-bearing loans?
+answer: It prohibited them.
+wrong_answers:
+  - It encouraged them.
+  - It tolerated them in certain cases.
+  - It had no opinion on the matter.
+explanation: |
+  The medieval Church prohibited interest-bearing loans, considering this practice a sin of usury, as it deemed immoral to profit from a loan by demanding more than the initial amount.
+reviewed: false

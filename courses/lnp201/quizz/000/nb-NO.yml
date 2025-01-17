@@ -1,0 +1,8 @@
+question: Hva er hovedmålet med Lightning Network?
+answer: Å forbedre Bitcoins skalerbarhet for å muliggjøre raske og kostnadseffektive betalinger
+wrong_answers:
+  - Eliminere transaksjonsgebyrer på Bitcoin-blockchainen
+  - Skape et alternativ til Bitcoin for betalinger med høy verdi
+  - Forenkle vekslinger mellom forskjellige kryptovalutaer
+explanation: |
+  Lightning Network har som mål å forbedre Bitcoins skalerbarhet ved å muliggjøre raske og rimelige transaksjoner gjennom off-chain betalingskanaler.

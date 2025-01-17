@@ -250,7 +250,7 @@ Sie können ein "*Label*" hinzufügen, um die Quelle der Bitcoins zu beschreiben
 
 Für weitere Informationen zum Labeling empfehle ich Ihnen auch, dieses andere Tutorial zu besuchen:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Sie können dann diese Adresse verwenden, um Bitcoins zu empfangen.
 

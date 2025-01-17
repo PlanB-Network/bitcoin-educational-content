@@ -1,0 +1,5 @@
+description: |
+  Public Pool là nền tảng khai thác loại Solo Pool, cho phép người khai thác thử vận may để khai thác một khối Bitcoin mà không cần chia sẻ phần thưởng. Khác với các pool truyền thống, Public Pool không hợp nhất sức mạnh tính toán: người dùng nhận toàn bộ phần thưởng nếu tìm thấy một khối. Nền tảng này cung cấp mẫu khối cho người khai thác, giúp loại bỏ nhu cầu quản lý một node Bitcoin. Mặc dù khả năng thành công thấp, hệ thống hoạt động như một xổ số với tiềm năng nhận được phần thưởng lớn. Một bảng điều khiển cung cấp số liệu thống kê chi tiết về hiệu suất và mạng.
+
+contributors:
+  - pretty-private

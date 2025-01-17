@@ -1,0 +1,9 @@
+question: Hvilken organisasjon begynte å akseptere bitcoin i november 2010 etter lobbyvirksomhet fra samfunnet?
+answer: Electronic Frontier Foundation
+wrong_answers:
+  - WikiLeaks
+  - Røde Kors
+  - Amnesty International
+explanation: |
+  Denne organisasjonen, som ble grunnlagt i 1900 av Mitch Kapor, John Gilmore, og John Perry Barlow, hadde som mål å beskytte internettfriheter. Den begynte å akseptere bitcoin den 9. november.
+reviewed: false

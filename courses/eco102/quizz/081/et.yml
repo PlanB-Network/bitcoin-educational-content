@@ -1,0 +1,9 @@
+question: Bastiati järgi, kas vastutus on... põhimõte?
+answer: täiustatavus
+wrong_answers:
+  - täiuslikkus
+  - püsivus
+  - täiuslik saavutus
+explanation: |
+  Bastiat näeb vastutust täiustatavuse põhimõttena, tähendades, et see on arengu ja isikliku progressi allikas läbi kogemuste õppetundide.
+reviewed: false

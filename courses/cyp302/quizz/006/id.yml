@@ -1,0 +1,8 @@
+question: Konsep mana yang tidak secara eksklusif terkait dengan skema kriptografi simetris atau asimetris?
+answer: Fungsi hash
+wrong_answers:
+  - Pasangan kunci publik dan privat
+  - Kriptografi asimetris
+  - Kriptografi simetris
+explanation: |
+  Fungsi hash adalah komponen kunci dari kriptografi modern, tetapi mereka tidak secara spesifik terkait dengan skema simetris atau asimetris, tidak seperti kunci publik dan privat.

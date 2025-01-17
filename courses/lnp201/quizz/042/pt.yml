@@ -1,9 +1,9 @@
-question: Por que um fechamento forçado é mais arriscado em termos de taxas e validação possível pelos mineradores?
-answer: Porque as taxas foram decididas quando a transação foi criada no passado e a rede mudou desde então.
+question: Qual critério pode ajudar um nó a escolher uma rota de pagamento eficiente?
+answer: A probabilidade de sucesso baseada na capacidade total dos canais
 wrong_answers:
-  - Porque as taxas são sempre mais altas em um fechamento forçado.
-  - Porque os mineradores têm menos probabilidade de validar um fechamento forçado.
-  - Porque as taxas são imprevisíveis em um fechamento forçado.
+  - A distância geográfica entre os nós
+  - A presença de nós com um nível baixo de taxa
+  - O número de pagamentos feitos pelo nó alvo
 explanation: |
-  Em um fechamento forçado, as taxas foram decididas quando a transação foi criada no passado. A rede mudou desde então, então o protocolo assume taxas 5 vezes mais altas do que as atuais quando a transação foi criada. Isso torna o fechamento forçado mais arriscado em termos de taxas e possível validação pelos mineradores.
+  A capacidade total dos canais pode indicar uma maior probabilidade de sucesso, pois sugere uma maior disponibilidade de liquidez para transações.
 reviewed: false

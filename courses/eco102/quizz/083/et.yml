@@ -1,0 +1,9 @@
+question: Millised on Bastiati sõnul liigse riigisekkumise tagajärjed individuaalsele vastutusele?
+answer: See hävitab vastutustunde, kaitstes inimesi nende tegude tagajärgede eest
+wrong_answers:
+  - See tugevdab individuaalset vastutust, kehtestades rohkem reegleid
+  - See julgustab kodanikke aktiivselt osalema avalikus elus
+  - See tagab õiglasema sotsiaalse õigluse
+explanation: |
+  Bastiat usub, et liigne sekkumine riigi poolt võtab inimestelt võimaluse täielikult kanda oma tegude tagajärgi, mis nõrgestab nende vastutustunnet.
+reviewed: false

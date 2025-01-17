@@ -1,0 +1,9 @@
+question: Qual foi o objetivo inicial do algoritmo de prova de trabalho Hashcash projetado por Adam Back?
+answer: Combater o spam de email
+wrong_answers:
+  - Garantir o valor de uma unidade de conta
+  - Alcançar consenso em uma rede peer-to-peer
+  - Ferver os oceanos
+explanation: |
+  O Hashcash exigia uma prova de trabalho para cada email recebido, o que supostamente limitaria o spam.
+reviewed: false

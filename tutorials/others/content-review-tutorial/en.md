@@ -1,124 +1,138 @@
 ---
 name: Contribution - Review
-description: How to participate in the review of educational content on PlanB Network?
+description: How to participate in the review of educational content on Plan ₿ Network?
 ---
 ![github](assets/cover.webp)
 
-## TL;DR
-If you want to review content for PlanB Network, go to the [associated project page](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) for your language. Select the content you wish to review, comment to let us know you are taking on the task, and submit a PR once finished on the branch associated with the language.
+## In Summary
 
-If you didn't understand the part above, don't worry, this tutorial is for you!
+If you want to participate in reviewing and correcting content for Plan ₿ Network, join [our Telegram group](https://t.me/PlanBNetwork_ContentBuilder) dedicated to contributions. Introduce yourself briefly, then specify the content you’d like to review and the language. Make your corrections on a working branch and submit a PR once your review is complete.
+
+If you didn’t understand the part above, don’t worry—this tutorial is for you!
 
 ---
 
-## What is PlanB Network?
+## What is Plan ₿ Network?
 
-Planb.network is a brand new platform for learning about Bitcoin through numerous courses and tutorials for everyone. Currently, all our content is open-source, hosted on a GitHub repo, and open to contributions for reviewing and creating content.
+Plan ₿ Network is a platform to learn about Bitcoin through numerous courses and tutorials for everyone. Currently, all our content is open-source, hosted on a GitHub repository, and open to contributions for review and content creation.
 
-PlanB.network aims to become the public square of the Bitcoin cyberspace, connecting and encouraging Bitcoin communities around the world.
+Plan ₿ Network aims to become the public square of the Bitcoin cyberspace, connecting and encouraging Bitcoin communities worldwide.
 
-## Why Contribute?
+## Why contribute?
 
-PlanB.network is fundamentally multilingual, as our goal is to make Bitcoin resources accessible to everyone worldwide. We believe that language should not be a barrier to sovereign currency.
+Plan ₿ Network is fundamentally multilingual, as our goal is to make Bitcoin resources accessible to everyone worldwide. We believe that language should not be a barrier to sovereign money.
 
-Therefore, we use a Human x AI approach to achieve this goal. Thanks to our [simple program](https://github.com/Asi0Flammeus/LLM-Translator), we can automatically translate our content into many languages. However, before publishing it, we need a person fluent in the language to review it to ensure the content is intelligible and free of inappropriate terms.
+To achieve this, we use a Human x AI approach. Through our [program](https://github.com/Asi0Flammeus/LLM-Translator), we can automatically translate our content into many languages. However, we need a fluent speaker to review it to ensure the content is intelligible and free of inappropriate terms.
 
-If you want to join us in building this educational project to promote Bitcoin education in your community, you can start by reviewing a course or tutorial.
+If you want to help build this educational project to promote Bitcoin education in your community, you can start by reviewing a course or tutorial.
 
-Moreover, as Découvre Bitcoin (DB) is in charge of evaluating contributions and we (DB) cherish the *Value4Value* model, we will reward review contributions. The reward will be based on the length of the content, the linguistic accuracy of our auto-translation, and the difficulty of the content.
+Additionally, as we cherish the *Value4Value* model, we will reward review contributions. The reward will be based on the content's length, the linguistic accuracy of our auto-translation, and the content's difficulty.
 
 ## Do I need to know how GitHub works?
 
-You don't need to be a GitHub expert to review content.
-Although it's always better to understand what you're doing (and why), you can simply follow the instructions below to contribute.
+You don’t need to be a GitHub expert to review content. While it’s always better to understand what you’re doing (and why), you can simply follow the instructions below to contribute.
 
-However, if you are completely unfamiliar with how Git and GitHub work and would like to learn more, you can discover our introductory article on these tools.
+However, if you’re unfamiliar with Git and GitHub and want to learn more, you can check out our introductory article on these tools:
 
-https://planb.network/tutorials/others/basics-of-github
-
-
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 ## 1. Create an account
-* Create an account on GitHub to start contributing. If you need guidance on how to create your account on GitHub, we also have a detailed tutorial.
 
-https://planb.network/tutorials/others/create-github-account
+- Create an account on [GitHub](https://github.com/) to start contributing. If you want guidance on creating your GitHub account, we also have a detailed tutorial:
+
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
+- You will also need an account on the messaging app [Telegram](https://telegram.org/).
+
+## 2. Join the Telegram group
+
+- Join [the PBN Content Builder group](https://t.me/PlanBNetwork_ContentBuilder) on Telegram.
+
+![REVIEW](assets/fr/01.webp)
+
+- Briefly introduce yourself and specify the content you want to contribute to and the language in a message to the "General" channel.  
+- A team member will then create an issue on GitHub for your future contribution. You’ll find all the information needed to start your review there.
+
+![REVIEW](assets/fr/02.webp)
+
+## 3. Review and edit the content via GitHub's interface
+
+- The issue contains a description (cf. **A**) with links to the original content and the file to review.  
+- If you want to take charge of the review, leave a comment on the issue (cf. **B**) to indicate that you’ll be working on it. This prevents duplicated efforts.  
+- Click the link next to the file to review (cf. **C**) to access the content.
+
+![REVIEW](assets/fr/03.webp)
+
+* You can now view the GitHub interface of the file to review.
+* The left panel allows you to navigate through your branch (cf. **A**) and files (cf. **B**).
+* Click the pencil icon to start reviewing (cf. **C**).
+
+![REVIEW](assets/fr/04.webp)
+
+* If this is your first contribution, GitHub will prompt you to fork the source repository. Just click the button.
+
+![REVIEW](assets/fr/05.webp)
+
+* You’ll then arrive at the Editor interface (cf. **A**), where you can see the file path and corresponding branch (cf. **B**) and switch between edit and preview modes (cf. **C**).
+
+![REVIEW](assets/fr/06.webp)
+
+NB. It’s recommended to review in the code window, with the original content displayed in a separate window. For instance, you can view the text on the Plan ₿ Network website or in the GitHub preview on a browser tab. Use `ctrl + F` to locate errors and make corrections in the code view as you go.
+
+## 4. Commit changes
+
+- You can start reviewing and correcting the content as needed.
+- When you want to pause your session, you can commit your changes, even if the review isn’t finished. It’s like saving your progress on GitHub.
+- Click the "Commit Changes..." button.
+
+![REVIEW](assets/fr/07.webp)
+
+- Add a descriptive message for your changes (cf. **A**).
+- Add more context in the description if necessary (cf. **B**).
+- Click the "Propose changes" button (cf. **C**).
+
+![REVIEW](assets/fr/08.webp)
+
+- If this is not your first contribution, GitHub will prompt you to create a new branch. You should never commit directly to the main `dev` branch. If you have already made commits on an existing working branch, select that branch. Otherwise, choose the "Create a new branch" option to create a new one.
+
+![REVIEW](assets/fr/13.webp)
+
+- You’ll then access a page summarizing all your changes. By scrolling through it, you can see the precise modifications: deleted items appear in red, while added items appear in green.
+
+![REVIEW](assets/fr/09.webp)
+
+- If you have not completed your review and wish to continue your work later, you can simply exit.
+- As long as you have committed your changes, they are saved on your GitHub fork.
+- To resume your work, go to your fork of the Plan ₿ Network content repository via your GitHub profile.
+
+![REVIEW](assets/fr/14.webp)
+
+- Select the branch containing your progress (cf. **A**), locate your content file (cf. **B**), then click on the pencil icon to continue the review.
+
+![REVIEW](assets/fr/15.webp)
 
 
-## **2. Go to the project page of your language**
-* The [project page](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) contains content in your language displayed on a Kanban board.
-* Look for cards in the "Review Needed" column (see **A**). These are issues that you can review.
-* Each card details (see **B**):
-	- **Content Type**: Course, tutorial, or website
-	- **Content Difficulty**
-	- **Urgency**
-	- **Word Count**
-	- **Associated Reward**: Based on the content properties and the accuracy of the translation (see [Reward section](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
+## 5. Create a PR with the dedicated branch
 
-![review](assets/1.webp)
+- If everything looks good and you’ve finished your changes, click the green "Create Pull Request" button.
 
-## **3. Find content to review**
-* In the "Review Needed" column, click on a card.
-* The card includes a description with links to the original content and the file to review (see **A**).
-* If you wish to review it, leave a comment to let us know you will be working on it (see **B**).
-* Click on the link next to the `File to Review` (see **C**)
+![REVIEW](assets/fr/10.webp)
 
-![review](assets/2.webp)
+- You’ll then arrive at the PR page. A Pull Request is a request to submit changes made on a branch of a remote repository for review and possible merging into the main branch.
+- Add a title and a short description to your PR. The title should match the issue you’re working on. For example, if the issue title is `[TRANSLATION] Course CYP201 - FR`, use the same title for your PR (cf. **A**). In the description, mention the associated issue using its number, preceded by "Closes". This will automatically close the issue once the PR is merged (cf. **B**).  
+- If everything looks good, click the green "Create Pull Request" button (cf. **C**).
 
-## **4. Review and edit the content via the GitHub interface**
-* You can now see the GitHub interface of the file to review.
-* The left panel allows you to navigate through your branch (see **A**) and the files (see **B**).
-* Click on the pen icon to start the review (see **C**).
+![REVIEW](assets/fr/11.webp)
 
-![review](assets/3.webp)
+## 6. Wait for review
 
-* If it's your first time, GitHub will ask you to fork the repository.
+- Congratulations, your PR has been submitted! You can track its progress in the "Pull requests" tab on [Plan ₿ Network's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
-![review](assets/4.webp)
+![REVIEW](assets/fr/12.webp)
 
-* Next, you will arrive at the Editor interface (see **A**), where you can see the file path and the corresponding branch (see **B**), and you can toggle between edit mode and preview mode (see **C**).
+- Thank you very much for your contribution! After approval, a Plan ₿ Network team member will contact you to send your reward. **Payments are made exclusively via the Lightning Network**.
+- If you’d like to start again, return to step 2 and send a new message in the Telegram group to continue contributing to other content. Make sure to sync your fork before creating a new working branch. To do this, go to the homepage of your fork, select the main branch named `dev` (cf. **A**), then click on the "Sync fork" button (cf. **B**). If updates are available for your fork, an "Update branch" button will appear. Simply click it to perform the update.
 
-![review](assets/5.webp)
+![REVIEW](assets/fr/16.webp)
 
-NB. The review is best done in the code window with the original content in a separate window next to it.
-
-## **5. Commit the changes**
-
-* When you want to stop your review session, you can commit your changes, even if the review is not finished – it's a bit like "saving your changes on GitHub".
-* Click on the "Commit Changes" button (see **A**).
-
-![review](assets/6.webp)
-* Add a descriptive message about your change (see **B**).* Add more context in the description if necessary (see **C**).
-* Click on the "Propose Changes" button (see **D**).
-
-![review](assets/7.webp)
-
-* This opens a PR (Pull Request) proposal page.
-
-## **6. Create a PR with the dedicated branch**
-![review](assets/8.webp)
-
-* You can verify that this PR requests to merge your branch into the dedicated branch of the corresponding language (see **A**).
-* Give the PR a descriptive name (see **B**).
-* Add context in the description (see **C**).
-* If not finished, click on the dropdown arrow next to "Create Pull Request" and select "Draft PR" (see **D**).
-* Click on "Draft Pull Request."
-* Congratulations on your first PR!
-
-## **7. Continue the review later**
-* If you have not finished your review and wish to continue your work, go to your fork of the PlanB-Network content repository via your GitHub profile.
-* Select the corresponding branch.
-* Rename the branch if necessary.
-* Find your content file and click on the pencil button to resume the review.
-
-## **8. Commit directly on your own branch**
-* Make commits to validate the changes directly on your branch as you progress.
-
-## **9. Finish and set the PR as ready for review**
-* Go to the "Pull Requests" tab.
-* Select your PR.
-* Click on "Ready for Review".
-
-## 10. Wait for the review
-* After approval, Découvre Bitcoin will contact you to send your reward via LN.
-* If you wish to start over, return to step 2 to continue contributing to other contents.
-* If you have remarks, questions, or comments about this project, you can send a DM on Telegram to @asi0_flammeus.
+- If you have any remarks, questions, or comments about this project, feel free to send a DM [to the contributors' Telegram group](https://t.me/PlanBNetwork_ContentBuilder).

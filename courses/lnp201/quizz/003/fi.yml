@@ -1,10 +1,8 @@
-question: Mikä on Lightning-maksukanava?
-answer: Eräänlainen "yksityinen kaista" kahden käyttäjän välillä, joka mahdollistaa nopeat ja toistuvat Bitcoin-siirrot
+question: Mikä on pääsääntö osallistujan kanavaan lähettämien varojen suhteen?
+answer: He voivat lähettää vain varoja omalta puoleltaan kanavassa.
 wrong_answers:
-  - Eräänlainen Bitcoin-lompakko
-  - Menetelmä Bitcoinin louhimiseen
-  - Eräänlainen Bitcoin-vaihtopalvelu
+  - He voivat lähettää korkeintaan puolet kanavan kokonaiskapasiteetista.
+  - He voivat lähettää minkä tahansa summan, kunhan siitä on etukäteen sovittu.
+  - He voivat tarvittaessa lainata varoja toisen osallistujan puolelta.
 explanation: |
-  Lightning-maksukanava on eräänlainen "yksityinen kaista" kahden käyttäjän välillä,
-  joka mahdollistaa nopeat ja toistuvat Bitcoin-siirrot.
-reviewed: false
+  Kukin osallistuja on rajoitettu kanavassa pitämiensä satoshien määrään transaktioitaan varten, varmistaen, että varat ovat aina katettu.

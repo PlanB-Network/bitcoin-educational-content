@@ -1,9 +1,12 @@
 question: ¿Cuál es el propósito de los intentos de phishing?
-answer: Extraer información confidencial como tus credenciales y contraseñas.
+answer: Extraer información sensible como tus credenciales y contraseñas.
 wrong_answers:
   - Enviarte correos electrónicos no deseados.
   - Venderte productos o servicios.
-  - Invitarte a eventos o webinars.
+  - Invitarte a eventos o seminarios web.
 explanation: |
-  Los intentos de phishing tienen como objetivo extraer información confidencial, como tus credenciales y contraseñas. Los hackers utilizan diversas tácticas, como correos electrónicos fraudulentos, para engañarte y hacer que reveles tu información.
-reviewed: false
+  Los intentos de phishing tienen como objetivo extraer información
+  sensible como tus credenciales y contraseñas. Los hackers
+  utilizan diversas tácticas como correos electrónicos fraudulentos para engañarte
+  y que reveles tu información.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Hva er rollen til rutegebyrer i Lightning Network?
+answer: For å motivere mellomliggende noder til å tilby sin likviditet for overføring av betalinger
+wrong_answers:
+  - For å begrense antallet transaksjoner på nettverket
+  - For å sikre at hver kanal har tilstrekkelige midler
+  - For å automatisk beregne den korteste veien
+explanation: |
+  Rutegebyrer brukes for å kompensere mellomliggende noder som videresender betalinger ved å tilby sin likviditet for å muliggjøre overføring av midler over nettverket.

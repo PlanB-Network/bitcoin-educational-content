@@ -1,0 +1,9 @@
+question: 第一笔比特币交易的区块号是多少？
+answer: 区块170
+wrong_answers:
+  - 区块1
+  - 区块17
+  - 区块1700
+explanation:
+  第一笔比特币交易，即中本聪和哈尔·芬尼之间的10 BTC交易，记录在区块170中。
+reviewed: true

@@ -1,0 +1,11 @@
+question: What is the main advantage of a payjoin transaction compared to a classic payment transaction?
+
+answer: It improves privacy
+
+wrong_answers:
+  - It increases confirmation speed
+  - It reduces transaction fees
+  - It misleads the recipient
+
+explanation: |
+  The payjoin transaction enhances the privacy of the stakeholders by misleading chain analysis.

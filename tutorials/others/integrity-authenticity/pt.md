@@ -161,4 +161,4 @@ Se você achou este tutorial útil, eu apreciaria um joinha abaixo. Sinta-se liv
 
 Eu também recomendo conferir este outro tutorial sobre VeraCrypt, um software que permite criptografar e descriptografar dispositivos de armazenamento.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

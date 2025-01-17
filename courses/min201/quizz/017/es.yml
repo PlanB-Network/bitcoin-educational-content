@@ -1,9 +1,9 @@
 question: ¿Cuál es el impacto potencial de la regulación en la minería de Bitcoin?
-answer: Si un país como Estados Unidos decidiera regular o prohibir ciertas transacciones de Bitcoin, podría tener un impacto significativo en la red, especialmente si una gran parte del poder de hash está centralizado en ese país.
+answer: Si un país como Estados Unidos decidiera regular o prohibir ciertas transacciones de Bitcoin, podría tener un impacto significativo en la red, especialmente si una gran parte del poder de hash está centralizada en ese país.
 wrong_answers:
   - Si un país como Estados Unidos decidiera regular o prohibir la minería de Bitcoin, podría llevar a un aumento en el valor de Bitcoin.
   - Si un país como Estados Unidos decidiera regular o prohibir la minería de Bitcoin, podría llevar a un aumento en la recompensa por bloque.
   - Si un país como Estados Unidos decidiera regular o prohibir la minería de Bitcoin, podría llevar a un aumento en la velocidad de las transacciones.
 explanation: |
-  El capítulo explica que si un país como Estados Unidos decidiera regular o prohibir ciertas transacciones de Bitcoin, podría tener un impacto significativo en la red, especialmente si una gran parte del poder de hash está centralizado en ese país.
-reviewed: false
+  El capítulo explica que si un país como Estados Unidos decidiera regular o prohibir ciertas transacciones de Bitcoin, podría tener un impacto significativo en la red, especialmente si una gran parte del poder de hash está centralizada en ese país.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Millised on mõned lahendused andmete krüpteerimiseks erinevatel operatsioonisüsteemidel?
+answer: BitLocker Windowsile, LUKS Linuxile ja sisseehitatud võimalus Macile.
+wrong_answers:
+  - BitLocker Linuxile, LUKS Macile ja sisseehitatud võimalus Windowsile.
+  - BitLocker Macile, LUKS Windowsile ja sisseehitatud võimalus Linuxile.
+  - LUKS kõikidele operatsioonisüsteemidele.
+explanation: |
+  Erinevatel operatsioonisüsteemidel on erinevad lahendused andmete krüpteerimiseks.
+  BitLocker on Windowsile, LUKS on Linuxile ja Macil on sisseehitatud võimalus andmete
+  krüpteerimiseks.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Jaká je role uzlů Lightning Network v transakci?
-answer: Účtují poplatek za souhlas s použitím pro směrování transakce.
+question: Jaká je hlavní funkce Lightning faktury?
+answer: Požádat o platbu od odesílajícího uzlu
 wrong_answers:
-  - Umožňují transakci bez jakýchkoli poplatků.
-  - Iniciují transakci.
-  - Jsou konečnými příjemci transakce.
+  - Poslat prostředky bez transakce na blockchainu
+  - Aktivovat HTLCs na kanálu
+  - Otevřít nový Lightning kanál
 explanation: |
-  V Lightning Network uzly účtují poplatek za souhlas s použitím
-  pro směrování transakce. Tento poplatek se liší v závislosti na tom, kde je likvidita
-  umístěna.
+  Lightning faktura je žádost o platbu, kterou přijímající uzel přenáší odesílajícímu uzlu, aby inicioval platbu na Lightning Network.
 reviewed: false

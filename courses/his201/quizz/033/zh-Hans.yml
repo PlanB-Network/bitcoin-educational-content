@@ -1,0 +1,8 @@
+question: 2009年哪位矿工因为在2013年把他的电脑扔进垃圾场而丢失了所有的比特币？
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Martti Malmi
+  - NewLibertyStandard
+explanation: |
+  这位英国工程师在2009年2月至4月间用他的电脑生成了8,000比特币。他的案例被《卫报》[报道](https: //www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site)。

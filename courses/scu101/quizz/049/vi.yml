@@ -1,10 +1,12 @@
 question: Tại sao SMS không được coi là lựa chọn tốt nhất cho 2FA?
-answer: Nó chỉ cung cấp bằng chứng về việc sở hữu một số điện thoại.
+answer: Phương pháp này dễ bị tấn công theo nhiều cách, như lừa đảo đổi SIM.
 wrong_answers:
-  - Nó quá đắt
-  - Nó quá chậm
-  - Nó quá phức tạp để thiết lập
+  - Nó quá chậm và tốn kém, một cuộc gọi điện thoại sẽ hiệu quả hơn.
+  - Nó chỉ chứng minh việc sở hữu một số điện thoại.
+  - Nó quá phức tạp để thiết lập ở cấp độ kỹ thuật.
 explanation: |
-  SMS không được coi là lựa chọn tốt nhất cho 2FA bởi vì nó chỉ cung cấp
-  bằng chứng về việc sở hữu một số điện thoại, không phải bằng chứng về danh tính.
-reviewed: false
+  SMS không được coi là lựa chọn tốt nhất cho 2FA bởi vì nó
+  là một phương pháp 2FA dễ bị tấn công theo nhiều cách, như lừa đảo đổi SIM.
+  Một khi bị khai thác thành công, những lỗ hổng này hoàn toàn phá hủy
+  bất kỳ sự bảo vệ nào mà lớp bảo mật 2FA bổ sung mang lại.
+reviewed: true

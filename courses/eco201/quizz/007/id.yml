@@ -1,0 +1,9 @@
+question: Siapa yang diucapkan terima kasih karena telah memproduksi kursus tersebut?
+answer: Théo Mogenet
+wrong_answers:
+  - Descoupes Bitcoin
+  - Théo Boloré
+  - Tidak ada di atas
+explanation: |
+  Bab tersebut menyebutkan bahwa Théo diucapkan terima kasih karena telah memproduksi kursus tersebut.
+reviewed: false

@@ -1,9 +1,11 @@
 question: Mikä on nykyisen rahoitusjärjestelmän mahdollinen vaikutus poliittisiin toimijoihin?
-answer: Heitä ei kannusteta tekemään radikaaleja muutoksia, mikä mahdollistaa järjestelmän jatkumisen nykyisellä kurssillaan mahdolliseen romahdukseen asti.
+answer: Heitä ei kannusteta tekemään radikaaleja muutoksia, mikä sallii järjestelmän jatkavan toimintaansa kunnes mahdollinen romahdus tapahtuu.
 wrong_answers:
   - Heitä kannustetaan tekemään radikaaleja muutoksia estääkseen mahdollisen romahduksen.
-  - Heitä ei kannusteta ylläpitämään nykyistä tilannetta varmistaakseen oman varallisuutensa.
+  - Heitä ei kannusteta ylläpitämään nykytilaa varmistaakseen oman varallisuutensa.
   - Heitä kannustetaan ajattelemaan pitkällä aikavälillä.
 explanation: |
-  Koska poliittiset toimijat hyötyvät nykyisestä rahoitusjärjestelmästä, heitä ei kannusteta tekemään radikaaleja muutoksia. Tämä mahdollistaa järjestelmän jatkumisen nykyisellä kurssillaan mahdolliseen romahdukseen asti, sillä järjestelmää säännellään ja rajoitetaan sen romahduksen estämiseksi.
-reviewed: false
+  Koska poliittiset toimijat hyötyvät nykyisestä rahoitusjärjestelmästä, heitä ei kannusteta tekemään radikaaleja muutoksia.
+  Tämä sallii järjestelmän jatkavan toimintaansa kunnes mahdollinen romahdus tapahtuu, koska järjestelmää säännellään ja
+  rajoitetaan sen oman romahduksen estämiseksi.
+reviewed: true

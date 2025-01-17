@@ -1,0 +1,13 @@
+question: Como é calculada a eficiência de uma transação de Bitcoin em termos de privacidade?
+
+answer: Comparando a entropia real da transação com a entropia máxima possível.
+
+wrong_answers:
+  - Multiplicando o número de entradas pelo número de saídas.
+  - Multiplicando a entropia real da transação pelo número de entradas e saídas.
+  - Comparando o número de entradas com o número de saídas.
+
+explanation: |
+  A eficiência da transação é calculada subtraindo a entropia máxima da entropia real da transação analisada.
+
+reviewed: false

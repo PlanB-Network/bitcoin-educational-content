@@ -1,10 +1,9 @@
-question: Qual é o tamanho do bloco usado no HMAC-SHA-512?
-answer: Blocos de 1024 bits (128 bytes)
+question: Qual é a diferença entre uma chave pública comprimida e uma não comprimida?
+answer: A chave pública comprimida utiliza apenas a coordenada x e a paridade de y
 wrong_answers:
-  - Blocos de 512 bits (64 bytes)
-  - Blocos de 256 bits (32 bytes)
-  - Blocos de 2048 bits (256 bytes)
+  - A chave pública comprimida é mais segura
+  - A chave pública comprimida utiliza apenas a coordenada y e a paridade de x
+  - A chave pública comprimida requer uma chave privada maior
 explanation: |
-  No contexto da derivação de carteira HD, é usado o HMAC-SHA-512. Este último
-  opera com blocos de 1024 bits (128 bytes) e ajusta a chave de acordo.
+  Uma chave pública comprimida retém apenas a coordenada x e um bit para a paridade de y, reduzindo assim seu tamanho para 33 bytes.
 reviewed: false

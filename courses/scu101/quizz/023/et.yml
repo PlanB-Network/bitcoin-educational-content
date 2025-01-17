@@ -1,0 +1,10 @@
+question: Mis on tugeva parooli kasutamise tähtsus arvuti turvalisuse jaoks?
+answer: Et vältida volitamata juurdepääsu süsteemile.
+wrong_answers:
+  - Et muuta süsteem kiiremaks.
+  - Et suurendada salvestusmahtu.
+  - Et parandada kasutajaliidest.
+explanation: |
+  Tugev parool on arvuti turvalisuse jaoks kriitilise tähtsusega, et vältida volitamata
+  juurdepääsu süsteemile.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Quelle est la pratique recommandée pour stocker les mots de passe à usage unique (OTP) ?
-answer: Conservez les OTP sur votre appareil mobile.
-wrong_answers:
-  - Notez-les sur papier.
-  - Stockez-les dans votre boîte e-mail.
-  - Mémorisez-les.
-explanation: |
-  Pour une sécurité optimale, il est conseillé de conserver les OTP (mots de passe à usage unique) sur votre appareil mobile. En effet, les appareils mobiles sont généralement plus sécurisés et moins susceptibles d'être compromis que d'autres méthodes de stockage.
-reviewed: false

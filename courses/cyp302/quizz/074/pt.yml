@@ -1,0 +1,8 @@
+question: O que acontece se uma chave de 7 for usada para criptografar a palavra CAT?
+answer: A palavra se torna JHA
+wrong_answers:
+  - A palavra se torna JBA
+  - A palavra se torna JHB
+  - A palavra se torna ZHA
+explanation: |
+  Com uma chave de 7, cada letra da palavra CAT é deslocada por 7 posições no alfabeto, o que produz a palavra criptografada JHA.

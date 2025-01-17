@@ -1,9 +1,10 @@
-question: Qual è una delle ragioni per cui il prezzo del Bitcoin può diminuire del 10-20 o anche del 50% in pochi giorni?
-answer: Variazioni di mercato e fasi di mercato rialzista e ribassista.
+question: Qual è una delle ragioni per cui il prezzo del Bitcoin può scendere del 10%, 20% o addirittura del 50% in pochi giorni?
+answer: Fasi di mercato rialziste e ribassiste.
 wrong_answers:
-  - Il numero di persone che utilizzano Internet.
+  - Il numero di persone che utilizzano internet.
   - Il meteo.
   - Il prezzo dell'oro.
-explanation: |
-  Il prezzo del Bitcoin è spesso caratterizzato da una significativa volatilità, che può essere influenzata da variazioni di mercato e fasi di mercato rialzista e ribassista.
-reviewed: false
+explanation: >-
+  Il prezzo del Bitcoin è spesso caratterizzato da una significativa volatilità,
+  che può essere influenzata dalle variazioni di mercato e dalle fasi di mercato rialziste e ribassiste.
+reviewed: true

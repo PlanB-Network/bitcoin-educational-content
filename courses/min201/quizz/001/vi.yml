@@ -3,11 +3,12 @@ answer: Để đảm bảo rằng các khối được khai thác trung bình m�
 wrong_answers:
   - Để tăng độ khó của việc khai thác theo thời gian
   - Để giảm độ khó của việc khai thác theo thời gian
-  - Để đảm bảo rằng cùng một người khai thác không khai thác các khối liên tiếp
+  - Để đảm bảo rằng cùng một thợ mỏ không khai thác các khối liên tiếp
 explanation: |
-  Điều chỉnh độ khó là một cơ chế quan trọng trong hoạt động của
-  mạng lưới Bitcoin, đảm bảo rằng các khối được khai thác trung bình mỗi 10 phút. Cơ chế
-  điều chỉnh này đảm bảo rằng thời gian khai thác cho các khối mới được giữ ổn định
-  theo thời gian, bất kể số lượng người khai thác hay tổng sức mạnh tính toán của
-  mạng lưới.
-reviewed: false
+  Điều chỉnh độ khó là một cơ chế quan trọng trong
+  hoạt động của mạng lưới Bitcoin, đảm bảo rằng các khối được
+  khai thác trung bình mỗi 10 phút. Cơ chế điều chỉnh này
+  đảm bảo rằng thời gian khai thác cho các khối mới
+  luôn ổn định theo thời gian, bất kể số lượng
+  thợ mỏ hay tổng sức mạnh tính toán của mạng.
+reviewed: true

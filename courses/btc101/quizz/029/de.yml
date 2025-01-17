@@ -1,9 +1,9 @@
-question: Was ist der Hauptvorteil von Gold gegenüber anderen Formen von Währung?
-answer: Seine natürliche Seltenheit macht es wertvoll, während seine chemischen Eigenschaften es ermöglichen, dass es im Laufe der Zeit nicht erodiert.
+question: Warum ist Gold kein portables Material?
+answer: Weil es dicht und schwer ist, was es umständlich macht, es in großen Mengen zu tragen.
 wrong_answers:
-  - Es ist leicht teilbar und transportierbar.
-  - Es unterliegt monetärer Inflation.
-  - Es wird im Handel weitgehend akzeptiert.
+  - Weil es zu wertvoll ist, um bewegt zu werden.
+  - Weil es nicht leicht in kleinere Formen gebracht werden kann.
+  - Weil es bei Raumtemperatur flüssig ist.
 explanation: |
-  Der Hauptvorteil von Gold gegenüber anderen Formen von Währung liegt in seiner natürlichen Seltenheit, die es wertvoll macht, und seinen chemischen Eigenschaften, die es ermöglichen, dass es im Laufe der Zeit nicht erodiert.
-reviewed: false
+  Gold ist dicht und schwer, was bedeutet, dass das Tragen großer Mengen davon körperlich herausfordernd sein kann. Dieses Gewicht macht es im Vergleich zu leichteren Materialien weniger praktisch für den Transport.
+reviewed: true

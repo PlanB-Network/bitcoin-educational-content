@@ -1,9 +1,13 @@
-question: Quel est le principal risque associé à l'investissement dans des entreprises qui vendent du matériel minier et gèrent les machines dans des endroits à faible coût énergétique ?
-answer: Les problèmes d'alimentation électrique et les pannes de machines peuvent laisser les investisseurs impuissants, avec un équipement coûteux qu'ils ne contrôlent pas.
+question: Quel est le principal risque associé à l'investissement dans des entreprises qui vendent du matériel de minage et gèrent les machines dans des lieux à énergie bon marché ?
+answer: Les problèmes d'approvisionnement en énergie et les pannes de machines peuvent laisser les investisseurs impuissants, avec un équipement coûteux qu'ils ne contrôlent pas.
 wrong_answers:
   - Les entreprises peuvent faire faillite et les investisseurs peuvent perdre leur argent.
-  - Les entreprises peuvent être des escroqueries et les investisseurs peuvent perdre leur argent.
-  - Les entreprises peuvent ne pas être en mesure de vendre les bitcoins extraits et les investisseurs peuvent perdre leur argent.
+  - Les entreprises peuvent être des arnaques et les investisseurs peuvent perdre leur argent.
+  - Les entreprises peuvent ne pas être capables de vendre les bitcoins minés et les investisseurs peuvent perdre leur argent.
 explanation: |
-  Le principal risque associé à l'investissement dans des entreprises qui vendent du matériel minier et gèrent les machines dans des endroits à faible coût énergétique est que les problèmes d'alimentation électrique et les pannes de machines peuvent laisser les investisseurs impuissants, avec un équipement coûteux qu'ils ne contrôlent pas.
-reviewed: false
+  Le principal risque associé à l'investissement dans des entreprises qui
+  vendent du matériel de minage et gèrent les machines dans des lieux à énergie bon marché
+  est que les problèmes d'approvisionnement en énergie et les pannes de machines
+  peuvent laisser les investisseurs impuissants, avec un équipement coûteux
+  qu'ils ne contrôlent pas.
+reviewed: true

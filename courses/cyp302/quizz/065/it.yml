@@ -1,0 +1,9 @@
+question: Quali sono i tre componenti essenziali di uno schema di crittografia simmetrica?
+answer: Un algoritmo di generazione della chiave, un algoritmo di crittografia e un algoritmo di decrittazione
+wrong_answers:
+  - Un algoritmo di hashing, una chiave pubblica e un algoritmo di verifica
+  - Una chiave pubblica, una chiave privata e un algoritmo di decrittazione
+  - Un algoritmo di crittografia, una chiave pubblica e una chiave privata
+explanation: |
+  Uno schema di crittografia simmetrica consiste di tre elementi: un algoritmo di generazione della chiave, un algoritmo di crittografia e un algoritmo di decrittazione. Tutti utilizzano la stessa chiave.
+reviewed: false

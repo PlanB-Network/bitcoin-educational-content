@@ -16,7 +16,7 @@ Men, hvis du er interessert i å oversette andre deler av nettstedet, ekskludert
 
 Hvis du ønsker å legge til et helt nytt språk til PlanB Network som ennå ikke er tilgjengelig på Weblate, må du først sende inn en forespørsel om tillegg. For dette, følg denne spesifikke veiledningen.
 
-https://planb.network/tutorials/others/add-new-language-weblate
+https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 
 

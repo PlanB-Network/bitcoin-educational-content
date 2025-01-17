@@ -1,0 +1,9 @@
+question: Schnorr的哪个属性允许将多个公钥合并为一个？
+answer: 密钥聚合
+wrong_answers:
+  - 批量验证
+  - 可塑性
+  - 签名压缩
+explanation: |
+  Schnorr允许将多个公钥聚合成一个单一的密钥。
+reviewed: false

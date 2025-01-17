@@ -1,11 +1,12 @@
-question: Cos'è che non rappresenta una frase mnemonica nel contesto di Bitcoin?
-answer: Una password per il tuo portafoglio Bitcoin
+question: Cosa non è una frase mnemonica nel contesto di Bitcoin?
+answer: Una password per il tuo portafoglio Bitcoin.
 wrong_answers:
-  - una lista di 12-24 parole da un dizionario specifico
-  - il segreto per accedere ai tuoi fondi in bitcoin
-  - Un codice segreto per accedere ai tuoi bitcoin
+  - Una lista di 12 parole da un dizionario specifico.
+  - Una lista di 24 parole da un dizionario specifico.
+  - Il segreto per accedere ai tuoi fondi in bitcoin.
 explanation: |
-  Una frase mnemonica nel contesto di Bitcoin è una lista di 12 o 24 parole
-  che ti permette di ripristinare il tuo portafoglio su qualsiasi applicazione di portafoglio Bitcoin. Chiunque
-  abbia accesso a questa lista ha anche accesso ai tuoi bitcoin.
-reviewed: false
+  Una frase mnemonica nel contesto di Bitcoin è una lista di 12
+  o 24 parole che ti permette di ripristinare il tuo portafoglio su qualsiasi
+  applicazione di portafoglio Bitcoin. Chiunque abbia accesso a questa lista
+  può anche accedere ai tuoi bitcoin.
+reviewed: vero

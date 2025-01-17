@@ -1,0 +1,10 @@
+question: Mis riskid kaasnevad Bitcoinide hoidmisega vahetusplatvormil?
+answer: Platvorm võib pankrotti minna, teie Bitcoinid võivad olla konfiskeeritud või platvormi võidakse häkkida.
+wrong_answers:
+  - Platvorm võib suurendada oma tasusid, teie Bitcoinid võivad väärtust kaotada või platvormi võidakse häkkida.
+  - Platvorm võib pankrotti minna, teie Bitcoinid võivad väärtust suurendada või platvormi võidakse häkkida.
+  - Platvorm võib pankrotti minna, teie Bitcoinid võivad olla konfiskeeritud või platvorm võib suurendada oma tasusid.
+explanation: |
+  Bitcoinide hoidmine vahetusplatvormil kannab endas riske nagu platvormi pankrotti minek, teie Bitcoinide konfiskeerimine või platvormi häkkimine.
+  Seetõttu on oluline omada kontrolli oma privaatvõtme üle.
+reviewed: false

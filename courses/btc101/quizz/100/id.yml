@@ -1,0 +1,10 @@
+question: Apa yang ditunjukkan oleh ketiadaan frasa mnemonik dalam sebuah dompet?
+answer: Dompet tersebut tidak aman untuk penyimpanan jangka panjang
+wrong_answers:
+  - Dompet tersebut aman untuk penyimpanan jangka panjang
+  - Dompet tersebut tidak aman untuk penyimpanan jangka pendek
+  - Dompet tersebut tidak aman untuk pengeluaran
+explanation: |
+  Ketiadaan daftar 12 atau 24 kata, yaitu frasa mnemonik, dalam sebuah dompet harus membuat Anda sadar bahwa
+  dompet tersebut tidak aman karena tidak mengikuti prosedur cadangan standar.
+reviewed: true

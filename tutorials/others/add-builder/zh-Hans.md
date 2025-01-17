@@ -8,7 +8,7 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能多的语言。
 
 您想在PlanB网络站点上添加一个新的比特币“构建者”，并为您的公司或软件提供曝光机会，但不知道如何操作？这个教程是为您准备的！
 ![builder](assets/01.webp)
-- 首先，您需要拥有一个GitHub账户。如果您不知道如何创建账户，我们制作了[一个详细的教程来指导您](https://planb.network/tutorials/others/create-github-account)。
+- 首先，您需要拥有一个GitHub账户。如果您不知道如何创建账户，我们制作了[一个详细的教程来指导您](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 - 转到[PlanB专用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders)的`resources/builder/`部分：
 ![builder](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：

@@ -1,9 +1,13 @@
-question: Cosa è un portafoglio caldo?
-answer: Un portafoglio Bitcoin sul tuo telefono o computer connesso a internet
+question: Cos'è un hot wallet?
+answer: Un portafoglio Bitcoin sul tuo telefono o computer connesso a Internet.
 wrong_answers:
-  - Un portafoglio che è fisicamente caldo al tatto
-  - Un portafoglio popolare tra gli utenti di Bitcoin
-  - Un portafoglio consigliato per conservare grandi quantità di bitcoin
+  - Un portafoglio che è fisicamente caldo al tatto.
+  - Un portafoglio che è popolare tra gli utenti Bitcoin.
+  - Un portafoglio che è consigliato per conservare grandi quantità di bitcoin.
 explanation: |
-  Un portafoglio caldo è un termine usato per descrivere un portafoglio Bitcoin che è conservato su un dispositivo con accesso a internet, come un telefono o un computer. Questo rende facile effettuare transazioni, ma significa anche che il portafoglio è potenzialmente vulnerabile alle minacce online.
-reviewed: false
+  Un hot wallet è un termine usato per descrivere un portafoglio Bitcoin
+  che è conservato su un dispositivo con accesso a Internet, come un
+  telefono o un computer. In questo modo, è facile effettuare
+  transazioni, ma significa anche che il portafoglio è
+  potenzialmente vulnerabile a minacce online.
+reviewed: true

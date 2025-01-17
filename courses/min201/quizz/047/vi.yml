@@ -1,13 +1,9 @@
 question: Rủi ro chính khi đầu tư vào các công ty bán phần cứng đào và quản lý máy móc tại các địa điểm có năng lượng giá rẻ là gì?
-
-answer: Vấn đề về nguồn cung cấp điện và sự cố hỏng máy có thể khiến nhà đầu tư bất lực, với thiết bị đắt tiền mà họ không kiểm soát được.
-
+answer: Vấn đề cung cấp điện và sự cố máy móc có thể khiến nhà đầu tư bất lực, với thiết bị đắt tiền mà họ không kiểm soát được.
 wrong_answers:
-  - Các công ty có thể phá sản và nhà đầu tư có thể mất tiền của họ.
-  - Các công ty có thể là lừa đảo và nhà đầu tư có thể mất tiền của họ.
-  - Các công ty có thể không bán được bitcoin đã đào và nhà đầu tư có thể mất tiền của họ.
-
-explanation:
-  Rủi ro chính khi đầu tư vào các công ty bán phần cứng đào và quản lý máy móc tại các địa điểm có năng lượng giá rẻ là vấn đề về nguồn cung cấp điện và sự cố hỏng máy có thể khiến nhà đầu tư bất lực, với thiết bị đắt tiền mà họ không kiểm soát được.
-
-reviewed: false
+  - Các công ty có thể phá sản và nhà đầu tư có thể mất tiền của mình.
+  - Các công ty có thể là lừa đảo và nhà đầu tư có thể mất tiền của mình.
+  - Các công ty có thể không bán được bitcoin đã đào và nhà đầu tư có thể mất tiền của mình.
+explanation: |
+  Rủi ro chính khi đầu tư vào các công ty bán phần cứng đào và quản lý máy móc tại các địa điểm có năng lượng giá rẻ là vấn đề cung cấp điện và sự cố máy móc có thể khiến nhà đầu tư bất lực, với thiết bị đắt tiền mà họ không kiểm soát được.
+reviewed: true

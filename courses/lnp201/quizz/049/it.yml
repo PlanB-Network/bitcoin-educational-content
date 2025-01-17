@@ -1,9 +1,9 @@
-question: Qual è il ruolo dei nodi della rete Lightning in una transazione?
-answer: Essi addebitano una commissione per accettare di essere utilizzati per instradare la transazione.
+question: Qual è la funzione principale di una fattura Lightning?
+answer: Richiedere un pagamento dal nodo mittente
 wrong_answers:
-  - Essi facilitano la transazione senza alcun addebito.
-  - Essi iniziano la transazione.
-  - Essi sono i destinatari finali della transazione.
+  - Inviare fondi senza una transazione on-chain
+  - Attivare HTLCs su un canale
+  - Aprire un nuovo canale Lightning
 explanation: |
-  Nella rete Lightning, i nodi addebitano una commissione per accettare di essere utilizzati per instradare la transazione. Questa commissione varia a seconda di dove si trova la liquidità.
+  Una fattura Lightning è una richiesta di pagamento, trasmessa dal nodo ricevente al nodo mittente per iniziare un pagamento sulla rete Lightning.
 reviewed: false

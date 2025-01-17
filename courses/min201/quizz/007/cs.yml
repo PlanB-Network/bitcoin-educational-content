@@ -5,5 +5,5 @@ wrong_answers:
   - Ztrojnásobí se
   - Zůstane stejná
 explanation: |
-  Odměna za těžbu v síti Bitcoin prochází snížením na polovinu každých 210 000 bloků, což je přibližně každé čtyři roky. Tato odměna slouží jako silný stimul pro těžaře, aby se zapojili do procesu těžby navzdory jejím energetickým nákladům.
-reviewed: false
+  Odměna za těžbu v síti Bitcoin prochází snížením na polovinu každých 210 000 bloků, což je přibližně každé čtyři roky. Tato odměna slouží jako silný podnět, který má motivovat těžaře k účasti na procesu těžby navzdory jejím energetickým nákladům.
+reviewed: true

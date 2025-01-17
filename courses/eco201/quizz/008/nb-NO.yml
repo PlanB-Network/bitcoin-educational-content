@@ -1,0 +1,13 @@
+question: Hva er Cantillon-effekten?
+answer: Cantillon-effekten refererer til det økonomiske prinsippet om at når nytt penger skapes, gagner det først og fremst de som er nærmest pengekilden, på bekostning av de som er lenger unna.
+wrong_answers:
+  - Cantillon-effekten refererer til det økonomiske prinsippet om at når nytt penger skapes, gagner det likt alle i økonomien.
+  - Cantillon-effekten refererer til det økonomiske prinsippet om at når nytt penger skapes, gagner det først og fremst de som er lengst unna pengekilden, på bekostning av de som er nærmere.
+  - Cantillon-effekten refererer til det økonomiske prinsippet om at når nytt penger skapes, har det ingen innvirkning på fordelingen av rikdom i økonomien.
+explanation: |
+  Cantillon-effekten, oppkalt etter økonomen Richard Cantillon fra det 18. århundre,
+  beskriver hvordan fordelingen av nye penger i en økonomi kan føre til rikdomsulikheter.
+  De som er nærmest kilden til de nye pengene (som bankfolk og eiere av eiendeler)
+  nyter godt av dette først og mest betydelig, mens de som er lenger unna (som gjennomsnittlige
+  arbeidere og sparere) ser mindre fordeler eller til og med negative effekter på grunn av inflasjon.
+reviewed: false

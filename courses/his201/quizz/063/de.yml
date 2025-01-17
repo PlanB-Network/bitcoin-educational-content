@@ -1,0 +1,9 @@
+question: Welche Sprache war die erste nicht-englische Unterforensprache des Bitcoin-Forums, die im Juli 2010 eingeführt wurde?
+answer: Russisch
+wrong_answers:
+  - Französisch
+  - Deutsch
+  - Italienisch
+explanation: |
+  Es wurde am 28. Juli von Martti Malmi [eingeführt](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241). In den folgenden Monaten wurden weitere Sprachen hinzugefügt.
+reviewed: false

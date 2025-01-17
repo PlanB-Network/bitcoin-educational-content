@@ -1,9 +1,10 @@
 question: Cos'è un gestore di password?
-answer: Un gestore di password è uno strumento che ti permette di memorizzare, generare e gestire le tue password per diversi account online.
+answer: Uno strumento che ti permette di memorizzare, generare e gestire le tue password per diversi account online.
 wrong_answers:
   - Uno strumento che ti aiuta a ricordare tutte le tue password.
-  - Uno strumento che effettua automaticamente l'accesso ai tuoi account online.
-  - Uno strumento che protegge il tuo computer dai virus.
+  - Uno strumento che ti collega automaticamente ai tuoi account online con nome utente e password.
+  - Uno strumento che protegge le password sul tuo computer dai virus.
 explanation: |
-  Un gestore di password è uno strumento che ti permette di memorizzare, generare e gestire le tue password per diversi account online. Ti aiuta a creare password sicure e a ricordarle, in modo da non doverlo fare tu.
-reviewed: false
+  Un gestore di password è uno strumento che ti permette di memorizzare,
+  generare e gestire le tue password per diversi account online. Ti aiuta a creare password
+  forti e a ricordarle, così non devi farlo tu.

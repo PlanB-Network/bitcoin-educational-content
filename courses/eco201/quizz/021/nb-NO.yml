@@ -1,0 +1,12 @@
+question: Hva er naturen til verdi ifølge Carl Menger?
+answer: Verdi er et subjektivt psykologisk fenomen innenfor individet.
+wrong_answers:
+  - Verdi er en iboende egenskap ved varer.
+  - Verdi er et objektivt og målbart fenomen.
+  - Verdi bestemmes av mengden arbeid brukt i produksjon.
+explanation: |
+  Ifølge Menger er verdi et subjektivt psykologisk fenomen innenfor
+  individet. Dette betyr at verdi ikke er en iboende egenskap ved varer, men
+  heller stammer fra individets mening om nytten de kan få fra
+  disse varene.
+reviewed: false

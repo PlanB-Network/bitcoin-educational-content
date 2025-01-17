@@ -1,0 +1,9 @@
+question: Hvilken betingelse må være oppfylt for at mottakeren av en HTLC skal motta midlene?
+answer: De må oppgi et hemmelig (preimage) for å låse opp betalingen.
+wrong_answers:
+  - De må akseptere rutegebyrene til hver mellomliggende node.
+  - De må signere en ny forpliktelsestransaksjon.
+  - De må vente på at tidsbegrensningen utløper før de henter midlene.
+explanation: |
+  For å motta midlene i en HTLC, må mottakeren oppgi en spesifikk hemmelighet som gjør det mulig å låse opp betalingen sikret av hashen.
+reviewed: false

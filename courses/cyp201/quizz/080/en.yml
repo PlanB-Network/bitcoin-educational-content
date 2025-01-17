@@ -1,13 +1,9 @@
-question: What is the advantage of using a passphrase in a Bitcoin wallet?
-answer: It can enable the application of various security strategies
+question: What encoding is used to represent SegWit v0 addresses?
+answer: bech32
 wrong_answers:
-  - It makes the wallet more user-friendly
-  - It increases the speed of transactions
-  - It reduces the fees associated with transactions
+  - base58check
+  - bech32m
+  - base64
 explanation: |
-  The passphrase is an essential tool to enhance the security of Bitcoin
-  wallets. It can enable the application of various security strategies. For example,
-  it can be used to create duplicates and facilitate backups of the mnemonic phrase.
-  It can also improve the wallet's security by mitigating the risks associated with
-  random generation of the mnemonic phrase.
+  SegWit v0 addresses, such as those for P2WPKH and P2WSH, use the bech32 encoding introduced with SegWit.
 reviewed: false

@@ -1,9 +1,12 @@
 question: Quelle est la stratégie utilisée par les entités centrales pour dévaluer une monnaie fiduciaire ?
-answer: Elles augmentent la masse monétaire initiale de quelques pourcents chaque année.
+answer: Elles augmentent la masse monétaire de quelques pourcents chaque année.
 wrong_answers:
-  - Elles diminuent la masse monétaire initiale de quelques pourcents chaque année.
-  - Elles maintiennent la masse monétaire constante par rapport à la masse initiale.
-  - Elles font fluctuer aléatoirement la masse monétaire par rapport à la masse initiale.
+  - Elles diminuent la masse monétaire de quelques pourcents chaque année.
+  - Elles maintiennent sa masse monétaire constante par rapport à la masse initiale.
+  - Elles font fluctuer aléatoirement sa masse monétaire par rapport à la masse initiale.
 explanation: |
-  Les entités centrales dévaluent souvent une nouvelle monnaie en augmentant sa masse monétaire par rapport à celle initiale de quelques pourcents chaque année. Cette dévaluation silencieuse est souvent justifiée comme étant dans l'intérêt du peuple.
-reviewed: false
+  Les entités centrales dévaluent souvent une monnaie en augmentant sa
+  masse monétaire par rapport à la masse initiale de quelques pourcents
+  chaque année. Cette dévaluation silencieuse est souvent justifiée comme
+  étant dans l'intérêt du peuple.
+reviewed: true

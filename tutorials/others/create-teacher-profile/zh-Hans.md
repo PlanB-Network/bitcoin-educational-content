@@ -24,9 +24,9 @@ PlanB的使命是提供顶级的比特币教育资源，尽可能多的语言。
 - 拥有[PlanB网络源代码库](https://github.com/PlanB-Network/bitcoin-educational-content)的一个分支。
 
 **如果您需要帮助获取这些先决条件，我的其他教程将指导您：**
-- **[理解Git和GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[创建GitHub账户](https://planb.network/tutorials/others/create-github-account)**
-- **[设置您的工作环境](https://planb.network/tutorials/others/github-desktop-work-environment)**
+- **[理解Git和GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+- **[创建GitHub账户](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[设置您的工作环境](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 
 ## 如何创建新的教授个人资料？
 

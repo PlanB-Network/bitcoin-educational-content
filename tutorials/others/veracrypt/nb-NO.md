@@ -15,7 +15,7 @@ Med andre ord, det er tilrådelig å lagre filene dine på 3 forskjellige steder
 
 For å enkelt implementere denne 3-2-1 backup-strategien, kan du velge en nettbasert lagringsløsning, ved automatisk eller periodisk synkronisering av filene fra datamaskinen din med de i skyen din. Blant disse nettbaserte backup-løsningene, finnes det selvfølgelig de fra store digitale selskaper du kjenner: Google Drive, Microsoft OneDrive, eller Apple iCloud. Imidlertid er disse ikke de beste løsningene for å beskytte ditt privatliv. I en tidligere veiledning introduserte jeg deg for et alternativ som krypterer dokumentene dine for bedre konfidensialitet: Proton Drive.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Ved å adoptere denne strategien for lokal og skybackup, drar du allerede nytte av to forskjellige typer medier for dataene dine, hvorav den ene er utenfor stedet. For å fullføre 3-2-1-strategien, trenger du bare å legge til en ekstra kopi. Det jeg råder deg til å gjøre, er ganske enkelt å periodisk eksportere dataene dine som er til stede lokalt og på skyen din til et fysisk medium, som en USB-stikk eller en ekstern harddisk. På denne måten, selv om serverne til din nettbaserte lagringsløsning blir ødelagt og datamaskinen din bryter ned samtidig, har du fortsatt denne tredje kopien på et eksternt medium slik at du ikke mister dataene dine.
 ![VeraCrypt](assets/notext/01.webp)

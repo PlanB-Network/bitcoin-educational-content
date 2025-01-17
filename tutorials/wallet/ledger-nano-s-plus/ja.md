@@ -49,7 +49,7 @@ Ledger Nanoを受け取ったら、最初のステップはパッケージが開
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 これら2つのソフトウェアプログラムについては、マシンにインストールする前に、その真正性（GnuPGを使用して）と整合性（ハッシュを介して）の両方を確認することを強くお勧めします。方法がわからない場合は、この他のチュートリアルに従ってください：
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Ledger Nanoを初期化する方法は？
 
@@ -121,7 +121,7 @@ Ledgerは、そのランダムナンバージェネレータを使用してあ�
 
 パスフレーズはビットコインのセキュリティを強化するための非常に強力なツールです。しかし、それを実装する前にその動作を理解することが非常に重要です。そうしないと、ウォレットへのアクセスを失う可能性があります。これが、Ledgerでパスフレーズを設定したい場合は、この他のチュートリアルを参照することをお勧めする理由です：
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 "*PINロック*" メニューでは、一定期間の非活動後にLedgerが自動的にロックされるように設定し、有効化できます。
 
@@ -213,7 +213,7 @@ Sparrow Walletへのアクセスを保護するために、強力なパスワー
 
 回復テストの実施方法についてもっと学ぶためには、この他のチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ledger Nanoでビットコインを受け取る方法は？
 
@@ -243,7 +243,7 @@ Ledgerに表示されるアドレスがSparrow Walletに示されたものと一
 
 ラベリングに関する詳細情報については、この他のチュートリアルもチェックすることをお勧めします：
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 その後、このアドレスを使用してビットコインを受け取ることができます。
 
@@ -309,4 +309,4 @@ Sparrow Walletの「*Transactions*」（取引）タブで見つけることが�
 
 また、Ledger Flexに関するこの完全なチュートリアルもチェックしてみてください：
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

@@ -1,0 +1,8 @@
+question: Mengapa deskriptor sangat berguna untuk dompet multisignature?
+answer: Mereka mencakup xpub dari setiap faktor dan mendeskripsikan struktur multisignature
+wrong_answers:
+  - Mereka menghilangkan kebutuhan akan frasa mnemonik
+  - Mereka menyederhanakan generasi kunci yang diperkuat
+  - Mereka membuat multisignature kompatibel dengan semua skrip
+explanation: |
+  Deskriptor mencakup kunci publik terluas dari semua peserta, yang memfasilitasi pemulihan dan pengelolaan konfigurasi multisignature.

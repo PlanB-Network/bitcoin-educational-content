@@ -1,13 +1,9 @@
-question: What is the purpose of a checksum in the generation of a mnemonic phrase
-  for a Bitcoin wallet?
-answer: It ensures the verification of the accuracy of the recovery phrase.
+question: Which part of the HMAC-SHA512 output is used as the child chain code?
+answer: The last 32 bytes
 wrong_answers:
-  - It generates the entropy for the wallet.
-  - It determines the number of words in the recovery phrase.
-  - It encrypts the recovery phrase for added security.
+  - The first 32 bytes
+  - The entire 64 bytes
+  - The SHA256 hash of the middle 32 bytes
 explanation: |
-  The checksum is obtained by passing the entropy through the SHA256 function
-  and retrieving the first 8 bits of the hash. Without this checksum, an error in
-  the phrase could result in the creation of a different wallet and therefore the
-  loss of funds.
+  The last 32 bytes of the HMAC-SHA512 output serve as the chain code for the child key.
 reviewed: false

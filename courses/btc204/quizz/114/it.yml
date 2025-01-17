@@ -1,0 +1,13 @@
+question: Perché l'analista non applicherà COINJOIN su una transazione di tipo Stonewall?
+
+answer: Perché ci sono 2 output degli stessi importi
+
+wrong_answers:
+  - Perché ci sono solo 2 input
+  - Perché non sono familiari con questo schema
+  - Perché ci sono più output che input
+
+explanation: |
+  Analizzando una transazione Stonewall dall'esterno non porta all'applicazione di COINJOIN, perché la presenza di due output dello stesso importo suggerisce uno schema di coinjoin. Da un punto di vista esterno, COINJOIN non è quindi applicabile in questo caso specifico.
+
+reviewed: false

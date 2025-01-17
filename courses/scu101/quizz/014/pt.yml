@@ -2,8 +2,10 @@ question: Qual é uma maneira de evitar golpes online?
 answer: Verifique a identidade do site que você está navegando, especialmente verificando a extensão e o nome de domínio.
 wrong_answers:
   - Use redes Wi-Fi públicas.
-  - Use sites que não utilizem o protocolo HTTPS.
-  - Use sites que não exibam um cadeado.
+  - Use sites que não utilizam o protocolo HTTPS.
+  - Use sites que não têm um cadeado exibido.
 explanation: |
-  Para evitar golpes online, é crucial verificar a identidade do site que você está navegando. Isso pode ser feito verificando a extensão e o nome de domínio do site.
-reviewed: false
+  Para evitar golpes online, é crucial verificar a identidade
+  do site que você está navegando. Isso pode ser feito verificando
+  a extensão e o nome de domínio do site.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i plokiahel?
+answer: Avalik ja muutumatu kõigi Bitcoin'i tehingute register.
+wrong_answers:
+  - Eraviisiline ja muudetav kõigi Bitcoin'i tehingute register.
+  - Avalik ja muudetav kõigi Bitcoin'i tehingute register.
+  - Eraviisiline ja muutumatu kõigi Bitcoin'i tehingute register.
+explanation: >-
+  Bitcoin'i plokiahel on avalik ja muutumatu kõigi Bitcoin'i tehingute register. See on ühine register kõikidele Bitcoin'i kasutajatele.
+reviewed: false

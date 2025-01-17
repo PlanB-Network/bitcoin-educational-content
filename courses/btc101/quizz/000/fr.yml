@@ -1,9 +1,9 @@
-question: Qu'est-ce que Bitcoin ?
-answer: Bitcoin est un système de monnaie électronique pair-à-pair.
+question: Qu'est-ce que le Bitcoin ?
+answer: Bitcoin est un système de paiement électronique de pair à pair.
 wrong_answers:
   - Bitcoin est un type de monnaie physique.
   - Bitcoin est une monnaie numérique centralisée contrôlée par une seule entité.
   - Bitcoin est un type d'action ou d'obligation.
 explanation: |
-  Comme indiqué dans le livre blanc, Bitcoin est un protocole informatique pair-à-pair qui déploie un système monétaire sans avoir besoin de faire confiance à des tiers.
-reviewed: false
+  Comme indiqué dans le livre blanc, Bitcoin est un protocole informatique de pair à pair qui crée un système monétaire sans nécessiter de tiers de confiance.
+reviewed: true

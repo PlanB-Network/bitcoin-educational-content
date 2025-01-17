@@ -1,0 +1,13 @@
+question: Di antara pilihan-pilihan berikut, mana yang bukan merupakan metode untuk pemilihan bagian secara otomatis?
+
+answer: Pembayaran Diam
+
+wrong_answers:
+  - Cabang-dan-Batas
+  - FIFO
+  - Penyelesai Ransel
+
+explanation: |
+  Berbeda dengan tiga pilihan lainnya, Pembayaran Diam bukanlah metode untuk memilih bagian, melainkan protokol untuk menggunakan alamat statis.
+
+reviewed: false

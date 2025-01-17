@@ -1,9 +1,14 @@
-question: Was ist das private Surfen?
-answer: Eine Funktion, die verhindert, dass Internetbrowser den Verlauf des Surfens, temporäre Internetdateien, Formulardaten, Cookies sowie Benutzernamen und Passwörter speichern.
+question: Was ist privates Surfen?
+answer: Eine Funktion, die verhindert, dass Internetbrowser Browserverlauf, temporäre Internetdateien, Formulardaten, Cookies sowie Benutzernamen und Passwörter speichern.
 wrong_answers:
   - Eine Funktion, die Ihre Online-Aktivitäten vor Ihrem Internetdienstanbieter verbirgt.
   - Eine Funktion, die es Ihnen ermöglicht, anonym im Internet zu surfen.
-  - Eine Funktion, die Ihr Gerät vor Viren und anderer schädlicher Software schützt.
+  - Eine Funktion, die Ihr Gerät vor Viren und anderer Schadsoftware schützt.
 explanation: |
-  Das private Surfen ist eine Funktion, die verhindert, dass Internetbrowser den Verlauf des Surfens, temporäre Internetdateien, Formulardaten, Cookies sowie Benutzernamen und Passwörter speichern. Es verbirgt jedoch nicht Ihre Online-Aktivitäten vor Ihrem Internetdienstanbieter und ermöglicht es Ihnen nicht, anonym im Internet zu surfen.
-reviewed: false
+  Privates Surfen ist eine Funktion, die verhindert, dass
+  Internetbrowser Browserverlauf, temporäre Internetdateien,
+  Formulardaten, Cookies sowie Benutzernamen und Passwörter speichern.
+  Es versteckt jedoch nicht Ihre Online-Aktivitäten vor Ihrem
+  Internetdienstanbieter oder ermöglicht es Ihnen, anonym im
+  Internet zu surfen.
+reviewed: true

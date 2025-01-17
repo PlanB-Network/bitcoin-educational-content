@@ -1,0 +1,9 @@
+question: How does Kerckhoff's principle facilitate the security of open systems like Linux?
+answer: It allows for the public verification of potential vulnerabilities
+wrong_answers:
+  - It makes encryption algorithms invisible
+  - It limits the number of potential users
+  - It ensures the use of unique keys
+explanation: |
+  Kerckhoff's principle enables public verification of security flaws, as in open-source systems, which makes the systems more reliable through transparency. Security is ensured solely by the key, not by the encryption process itself.
+reviewed: false

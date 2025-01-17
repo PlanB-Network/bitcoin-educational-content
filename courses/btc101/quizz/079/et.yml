@@ -1,0 +1,10 @@
+question: Kuidas saate tugevdada oma Bitcoini rahakoti vaikimisi turvalisust?
+answer: Lisades oma Bitcoini rahakotile paroolilause
+wrong_answers:
+  - Lisades oma Bitcoini rahakotile teise privaatvõtme
+  - Lisades oma Bitcoini rahakotile teise avaliku võtme
+  - Lisades oma Bitcoini rahakotile teise mnemoonilise fraasi
+explanation: |
+  Kui te ei ole rahul oma Bitcoini rahakoti vaikimisi turvalisusega,
+  saate seda alati tugevdada, lisades oma Bitcoini rahakotile paroolilause.
+reviewed: true

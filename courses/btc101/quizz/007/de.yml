@@ -1,11 +1,12 @@
 question: Was ist der Hauptfokus dieses Bitcoin-Kurses?
 answer: Die monetären Aspekte von Bitcoin.
 wrong_answers:
-  - Die kodierungstechnischen Aspekte von Bitcoin.
+  - Die Programmieraspekte von Bitcoin.
   - Die ökologischen Auswirkungen von Bitcoin.
   - Die regulatorischen Aspekte von Bitcoin.
 explanation: |
-  Dieser Bitcoin-Kurs konzentriert sich auf die monetären Aspekte von Bitcoin, einschließlich
-  wie man Bitcoins kauft und verkauft, sicher in digitalen Geldbörsen aufbewahrt und sie
-  für Transaktionen verwendet.
-reviewed: false
+  Dieser Bitcoin-Kurs konzentriert sich auf die monetären Aspekte
+  von Bitcoin, einschließlich wie man Bitcoins kauft und verkauft, sie sicher
+  in digitalen Geldbörsen aufbewahrt und für
+  Transaktionen verwendet.
+reviewed: true

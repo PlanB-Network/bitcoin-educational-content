@@ -1,0 +1,11 @@
+question: Hva er den primære grunnen til å ikke betale hackere i tilfelle ransomware eller andre typer angrep?
+answer: Å betale løsepengene garanterer ikke gjenoppretting av dataene dine og kan oppmuntre cyberkriminelle til å fortsette sine ondsinnede aktiviteter.
+wrong_answers:
+  - Det er ulovlig å betale hackere.
+  - Hackerne vil be om mer penger etter den første betalingen.
+  - Betalingsmetoden er vanligvis ikke sporbar.
+explanation: |
+  Å betale løsepengene garanterer ikke at du får dataene dine tilbake.
+  Videre oppmuntrer det cyberkriminelle til å fortsette sine ondsinnede aktiviteter ettersom
+  de ser på det som en lønnsom virksomhet.
+reviewed: false

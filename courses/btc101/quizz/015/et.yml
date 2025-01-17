@@ -1,0 +1,9 @@
+question: Mis on Küberruumi Iseseisvusdeklaratsioon?
+answer: Tekst, mis väidab, et küberruum on eraldiseisev valdkond füüsilisest sfäärist ja ei peaks alluma samadele seadustele.
+wrong_answers:
+  - Iseseisvusdeklaratsioon Bitcoin'i eraldumisest traditsioonilistest finantssüsteemidest.
+  - Tekst, mis väidab, et internet peaks olema vaba valitsuse regulatsioonist.
+  - Iseseisvusdeklaratsioon piraatliikumise eraldumisest igasugusest regulatsioonist.
+explanation: |
+  Küberruumi Iseseisvusdeklaratsiooni kirjutas John Perry Barlow 1996. aastal, väites, et küberruum on eraldiseisev valdkond füüsilisest sfäärist, mille üle tööstusriikide valitsused ei saa oma autoriteeti kehtestada.
+reviewed: true

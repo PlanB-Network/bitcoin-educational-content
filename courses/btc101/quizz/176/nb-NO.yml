@@ -1,0 +1,9 @@
+question: Hva er en unik egenskap ved Bitcoin-protokollen?
+answer: Den opererer på en global skala, 24 timer i døgnet, 7 dager i uken.
+wrong_answers:
+  - Den opererer kun i løpet av vanlige arbeidstider.
+  - Den kontrolleres av en sentral myndighet.
+  - Den kan lett hackes.
+explanation: >-
+  Bitcoin-protokollen er unik fordi den opererer på en global skala,
+  24 timer i døgnet, 7 dager i uken, noe som gjør regulering vanskelig for finansielle myndigheter.

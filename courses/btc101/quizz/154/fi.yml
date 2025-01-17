@@ -1,11 +1,12 @@
 question: Mikä on ASICien rooli Bitcoin-louhinnassa?
 answer: ASICit ovat koneita, jotka on suunniteltu ainoastaan SHA256-algoritmin soveltamiseen louhintaprosessissa.
 wrong_answers:
-  - ASICeja käytetään Bitcoin-siirtojen vahvistamiseen.
-  - ASICeja käytetään uusien bitcoinien luomiseen.
+  - ASICeja käytetään Bitcoin-siirtojen vahvistamiseen soveltamalla SHA256-algoritmia vahvistusprosessissa.
+  - ASICeja käytetään mielivaltaisesti uusien bitcoinien luomiseen.
   - ASICeja käytetään Bitcoin-verkon turvaamiseen.
-explanation: >-
-  ASICit (Application-Specific Integrated Circuits) ovat erikoistunutta laitteistoa,
-  joka on suunniteltu nimenomaan Bitcoin-louhintaan. Ne on optimoitu suorittamaan SHA256-
-  hajautusfunktio, joka on matemaattinen ongelma, jonka louhijoiden on ratkaistava Proof of Work:ssa.
-reviewed: false
+explanation: |
+  ASICit (Application-Specific Integrated Circuits) ovat
+  erikoistunutta laitteistoa, joka on suunniteltu nimenomaan Bitcoin-louhintaan.
+  Ne on optimoitu suorittamaan SHA256-hajautusfunktio, joka on matemaattinen ongelma,
+  jonka louhijoiden on ratkaistava Proof of Work -prosessissa.
+reviewed: true

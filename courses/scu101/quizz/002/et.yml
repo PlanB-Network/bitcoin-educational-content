@@ -1,0 +1,11 @@
+question: Miks on soovitatav tarkvara alla laadida avaldaja ametlikult veebilehelt, mitte üldistelt saitidelt?
+answer: Tagamaks, et tarkvara on vaba pahavarast.
+wrong_answers:
+  - Avaldajat rahaliselt toetada.
+  - Kuna tarkvara on ametlikul veebilehel tavaliselt odavam.
+  - Kuna üldistel saitidel olev tarkvara on tavaliselt vananenud.
+explanation: |
+  Tarkvara allalaadimine avaldaja ametlikult veebilehelt tagab,
+  et saate tarkvara legitiimse versiooni, mis on vaba
+  igasugusest pahavarast, mis võiks teie seadet kahjustada või teie andmeid varastada.
+reviewed: false

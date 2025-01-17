@@ -1,0 +1,8 @@
+question: Sifat apa yang harus dimiliki oleh fungsi hash untuk menjamin keamanan selama verifikasi perangkat lunak?
+answer: Ketahanan terhadap tabrakan
+wrong_answers:
+  - Kebalikan
+  - Dapat beroperasi dengan kunci asimetris
+  - Dapat dihasilkan secara real-time
+explanation: |
+  Ketahanan terhadap tabrakan memastikan bahwa praktis mustahil untuk menemukan dua masukan berbeda yang menghasilkan hash yang sama, yang penting untuk memverifikasi bahwa perangkat lunak tidak telah diubah.

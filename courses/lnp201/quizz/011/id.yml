@@ -1,0 +1,8 @@
+question: Mengapa Alice membuat transaksi penarikan sebelum mempublikasikan transaksi deposit?
+answer: Untuk mengambil kembali dananya jika terjadi masalah dengan Bob
+wrong_answers:
+  - Untuk meningkatkan kapasitas saluran dengan setiap transaksi
+  - Untuk melakukan transaksi Lightning segera setelah membuka
+  - Untuk memungkinkan Bob menghabiskan dana secara langsung
+explanation: |
+  Alice membuat transaksi penarikan untuk mengambil kembali dananya jika terjadi masalah dengan Bob, sehingga memastikan keamanan depositnya.

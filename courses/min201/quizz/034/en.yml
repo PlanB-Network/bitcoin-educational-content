@@ -5,9 +5,9 @@ wrong_answers:
   - To make transactions faster.
   - To increase the mining difficulty.
 explanation: |
-  The Bitcoin community is constantly striving to strengthen distribution,
-
-  censorship resistance, and the anti-fragility of the network. This is in line with
-
-  Bitcoin''s fundamental mission to be a censorship-resistant value exchange network.'
-reviewed: false
+  The Bitcoin community is constantly striving to strengthen
+  distribution, censorship resistance, and the anti-fragility
+  of the network. This is in line with Bitcoin's fundamental
+  mission to be a censorship-resistant value exchange
+  network.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Pourquoi l'ensemble des entiers avec l'addition est-il un groupe, alors qu'il ne l'est pas avec la multiplication ?
+answer: L'ensemble ne satisfait pas la condition d'inversion sous la multiplication
+wrong_answers:
+  - L'ensemble n'est pas fermé sous la multiplication
+  - La multiplication n'est pas associative sur les entiers
+  - Il n'existe pas d'élément neutre pour la multiplication
+explanation: |
+  L'ensemble des entiers ne satisfait pas la condition d'inversion sous la multiplication car il n'existe pas d'inverse pour chaque entier qui multiplierait à donner 1. Seuls les éléments 1 et -1 respectent cette condition.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hvilken type kryptering bruker faste datablokker?
+answer: Blokk-kryptering
+wrong_answers:
+  - Strømkryptering
+  - Meldingsautentiseringskode
+  - Offentlig nøkkel
+explanation: |
+  Blokk-kryptering deler dataene inn i blokker med fast størrelse og krypterer dem uavhengig av hverandre.

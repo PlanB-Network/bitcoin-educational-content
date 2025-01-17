@@ -8,9 +8,9 @@ PlanB的使命是以尽可能多的语言提供关于比特币的顶级教育资
 
 你想在PlanB网络站点上添加你的比特币会议回放，并为这个事件增加曝光度，但不知道如何操作？这个教程是为你准备的！
 
-然而，如果你想添加将来会举行的会议，我建议你[阅读这个其他教程](https://planb.network/tutorials/others/add-event)，我们在其中解释了如何向网站添加新事件。
+然而，如果你想添加将来会举行的会议，我建议你[阅读这个其他教程](https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097)，我们在其中解释了如何向网站添加新事件。
 ![conference](assets/01.webp)
-- 首先，你需要在GitHub上有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/create-github-account)。
+- 首先，你需要在GitHub上有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 - 前往[PlanB专门用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference)的`resources/conference/`部分：
 ![conference](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：
@@ -60,7 +60,7 @@ tags:
 ```
 
 ![conference](assets/09.webp)
-如果您的组织尚未拥有"*builder*"标识符，您可以通过[遵循此教程](https://planb.network/tutorials/others/add-builder)添加。
+如果您的组织尚未拥有"*builder*"标识符，您可以通过[遵循此教程](https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d)添加。
 - 完成对该文件的更改后，通过点击`Commit changes...`按钮保存更改：
 ![conference](assets/10.webp)
 - 为您的更改添加标题以及简短描述：

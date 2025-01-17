@@ -1,0 +1,8 @@
+question: Mis on HD rahakoti laiendatud võtme peamine funktsioon?
+answer: Laste võtmete tuletamise võimaldamine
+wrong_answers:
+  - Rahakoti tehingute salvestamine
+  - UTXO-de otse genereerimine
+  - Avalike võtmete krüpteerimine
+explanation: |
+  Laiendatud võti ühendab võtme (kas privaatse või avaliku) seostatud ahelakoodiga, st kahe elemendiga, mis on vajalikud laste võtmete tuletamiseks.

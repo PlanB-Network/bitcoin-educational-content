@@ -1,9 +1,0 @@
-question: Mục đích của cụm từ bí mật trong ví HD là gì?
-answer: Nó đóng vai trò như một loại muối mã hóa, thêm một lớp bảo vệ bổ sung cho ví.
-wrong_answers:
-  - Nó được sử dụng để tạo ra hạt giống của ví.
-  - Nó được sử dụng để sinh ra các khóa con.
-  - Nó được sử dụng để tính toán mã kiểm tra.
-explanation: |
-  Cụm từ bí mật trong ví HD đóng vai trò như một loại muối mã hóa, thêm một lớp bảo vệ bổ sung cho ví. Nó được sử dụng kết hợp với cụm từ ghi nhớ để tạo ra hạt giống của ví.
-reviewed: false

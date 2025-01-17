@@ -1,0 +1,9 @@
+question: Warum wird RC4 als synchroner Stromchiffre klassifiziert?
+answer: Der Schlüsselstrom ist unabhängig vom Klartext und dem Chiffretext
+wrong_answers:
+  - Der Schlüsselstrom hängt von den Werten vorheriger Chiffretexte ab
+  - Der Klartext muss in den Schlüsselstrom integriert werden
+  - Es verwendet einen Schlüsselstrom, der ausschließlich auf dem Klartext basiert
+explanation: |
+  RC4 ist ein synchroner Stromchiffre, weil sein Schlüsselstrom nur vom Anfangsschlüssel abhängt und nicht vom Klartext oder dem Chiffretext, was die Unabhängigkeit dieses Stroms von den Nachrichten gewährleistet.
+reviewed: false

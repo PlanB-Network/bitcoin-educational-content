@@ -1,9 +1,12 @@
-question: ¿Qué es la Red Lightning?
-answer: Una tecnología que puede permitir transacciones rápidas de Bitcoin.
+question: ¿Qué es la Lightning Network?
+answer: Una tecnología que puede habilitar transacciones de Bitcoin rápidas.
 wrong_answers:
   - Una tecnología que ralentiza las transacciones de Bitcoin.
   - Una tecnología que no tiene impacto en las transacciones de Bitcoin.
-  - Una tecnología que hace que las transacciones de Bitcoin sean menos seguras.
+  - Una tecnología que hace las transacciones de Bitcoin menos seguras.
 explanation: |
-  La Red Lightning es una tecnología que puede mejorar las transacciones de Bitcoin, haciéndolas más rápidas y eficientes. Es un intento de resolver el problema de escalabilidad al que se enfrenta Bitcoin.
-reviewed: false
+  La Lightning Network es una tecnología que mejora la
+  usabilidad de Bitcoin para transacciones cotidianas, haciéndolas
+  más rápidas y eficientes con el fin de resolver el problema de
+  escalabilidad de Bitcoin.
+reviewed: true

@@ -1,11 +1,11 @@
-question: Ý nghĩa của câu trích dẫn "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" trong khối Bitcoin đầu tiên là gì?
+question: Ý nghĩa của câu trích dẫn The Times 03/Jan/2009 Chancellor on brink of second bailout for banks trong khối Bitcoin đầu tiên là gì?
 answer: Nó nhấn mạnh khả năng của hệ thống tài chính của chúng ta trong việc xã hội hóa các khoản lỗ
 wrong_answers:
   - Nó biểu thị sự đánh giá cao của Satoshi đối với tờ báo The Times
   - Nó đưa ra một ví dụ tuyệt vời về cách các khoản cứu trợ đã mang lại lợi ích cho xã hội của chúng ta
   - Nó cho chúng ta thấy khả năng của Bitcoin trong việc lưu trữ thông điệp trong blockchain
 explanation: |
-  Đây là một sự tham chiếu đến một bài báo của tờ Times [bài báo](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) phản ánh mối quan ngại của Satoshi
+  Đây là một sự tham chiếu đến một bài báo của tờ Times [bài báo](https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) phản ánh mối quan ngại của Satoshi
   rằng các ngân hàng đang tham gia vào hành vi rủi ro, với ít
   hậu quả đối với họ, và rằng các khoản lỗ sẽ được chia sẻ giữa các người nắm giữ tiền tệ.
 reviewed: false

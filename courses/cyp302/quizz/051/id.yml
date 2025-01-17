@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan istilah champ premier atau corps premier?
+answer: Sebuah lapangan dengan jumlah elemen bilangan prima
+wrong_answers:
+  - Sebuah lapangan yang hanya mengandung bilangan prima
+  - Sebuah lapangan yang didefinisikan hanya dengan penambahan bilangan prima
+  - Sebuah lapangan yang menggunakan vektor acak
+explanation: |
+  Sebuah lapangan prima mengandung jumlah elemen yang sama dengan bilangan prima, menjadikannya lapangan dasar untuk operasi kriptografi.
+reviewed: false

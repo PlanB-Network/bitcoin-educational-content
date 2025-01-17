@@ -4,9 +4,10 @@ wrong_answers:
   - Útočník získá kontrolu nad více než polovinou bitcoinů v oběhu.
   - Útočník získá kontrolu nad více než polovinou uzlů v síti Bitcoin.
   - Útočník získá kontrolu nad více než polovinou těžebních poolů v síti Bitcoin.
-explanation: >-
-  Při 51% útoku může útočník, který vlastní více než polovinu hashrate sítě,
-  potenciálně manipulovat s blockchainem tím, že vytvoří alternativní řetězec bloků.
-  Avšak takový útok by byl extrémně nákladný a nepravděpodobně by byl ziskový,
-  což z něj činí nepravděpodobný scénář.
-reviewed: false
+explanation: |
+  Při 51% útoku může útočník, který vlastní více než polovinu
+  výpočetního výkonu sítě, potenciálně manipulovat s
+  blockchainem vytvořením alternativního řetězce bloků.
+  Nicméně, takový útok by byl extrémně nákladný a
+  nepravděpodobně by byl ziskový, což z něj činí nepravděpodobný scénář.
+reviewed: true

@@ -1,11 +1,9 @@
-question: Was ist die Bedeutung des Punkts im Unendlichen im ECDSA-Algorithmus?
-answer: Wenn der berechnete Punkt P der Punkt im Unendlichen ist, ist die Signatur ungültig.
+question: Wie viele Bits hat die Prüfsumme für eine Entropie von 128 Bits?
+answer: 4 Bits
 wrong_answers:
-  - Wenn der berechnete Punkt P der Punkt im Unendlichen ist, ist die Signatur gültig.
-  - Der Punkt im Unendlichen wird verwendet, um den Nonce zu berechnen.
-  - Der Punkt im Unendlichen wird verwendet, um die Schlüssel zu verschlüsseln.
+  - 8 Bits
+  - 16 Bits
+  - 6 Bits
 explanation: |
-  Im ECDSA-Algorithmus wird, wenn der berechnete Punkt P auf der elliptischen Kurve
-  der Punkt im Unendlichen ist, die Signatur als ungültig betrachtet. Dies ist eine der
-  Überprüfungen, die während der Validierung einer digitalen Signatur durchgeführt werden.
+  Die Länge der Prüfsumme wird mit der Formel CS = ENT / 32 berechnet, was bei einer Entropie von 128 Bits 4 Bits ergibt.
 reviewed: false

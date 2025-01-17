@@ -1,0 +1,8 @@
+question: Miks vahetavad Alice ja Bob omavahel varasemate kohustustehingute saladusi?
+answer: Et võimaldada kummalgi end kaitsta, kui teine avaldab vana tehingu
+wrong_answers:
+  - Suurendamaks kanali mahtu
+  - Blokeerimaks teineteise juurdepääsu vahenditele
+  - Jagamaks vahendid võrdselt
+explanation: |
+  Varasemate tehingute saladuste vahetamine võimaldab kummalgi osapoolel teist karistada, kui proovitakse petta, avaldades vana tehingu.

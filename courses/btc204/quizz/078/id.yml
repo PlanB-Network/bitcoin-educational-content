@@ -1,0 +1,13 @@
+question: Istilah apa yang menggambarkan perlindungan yang ditawarkan oleh coinjoin terhadap analisis transaksi masa lalu sebuah koin?
+
+answer: Retrospective anonset.
+
+wrong_answers:
+  - Prospective anonset.
+  - Traceability resistance.
+  - Temporal privacy.
+
+explanation: |
+  Perlindungan terhadap analisis dari masa sekarang ke masa lalu inilah yang disebut sebagai retrospective anonset.
+
+reviewed: false

@@ -1,0 +1,8 @@
+question: Onko Bastiat'n mukaan omaisuuden oikeus luotu lainsäädännöllä vai edeltääkö se sitä?
+answer: edeltää lainsäädäntöä
+wrong_answers:
+  - luotu lainsäädännöllä
+  - luotu sosiaalisella sopimuksella
+  - riippuvainen yleisestä tahdosta
+explanation: |
+  Bastiat pitää omaisuuden oikeutta luonnollisena oikeutena, joka edeltää lakia, jonka tulisi ainoastaan varmistaa sen puolustaminen.

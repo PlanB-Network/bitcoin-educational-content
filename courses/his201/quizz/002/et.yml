@@ -1,0 +1,8 @@
+question: Millisele protsessile on eCash elektroonilise raha mudel rajatud?
+answer: Pimedad allkirjad
+wrong_answers:
+  - Grupiallkirjad
+  - Rõngasallkirjad
+  - Lävendallkirjad
+explanation: |
+  eCash põhineb pimedate allkirjade protsessil, mis võimaldab allkirjastajal allkirjastada midagi nägemata, mida ta allkirjastab.

@@ -1,0 +1,11 @@
+question: Hva er den primære tilnærmingen til østerriksk økonomi for å forstå økonomi?
+answer: Østerriksk økonomi forstår økonomi fra perspektivet av menneskelig logikk og sosiologi.
+wrong_answers:
+  - Østerriksk økonomi forstår økonomi gjennom matematiske ligninger.
+  - Østerriksk økonomi forstår økonomi fra perspektivet av pengetrykking og utgifter.
+  - Østerriksk økonomi forstår økonomi fra perspektivet av sentralbanker.
+explanation: |
+  Kapittelet forklarer at østerriksk økonomi forstår økonomi fra
+  perspektivet av menneskelig logikk og sosiologi, i stedet for å nærme seg denne disiplinen
+  gjennom matematiske ligninger.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Vaatetorn
+name: Watch Tower
 description: Vaatetorni mõistmine ja kasutamine
 ---
 

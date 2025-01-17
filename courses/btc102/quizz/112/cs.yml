@@ -1,11 +1,11 @@
-question: Jaký je účel "studené" peněženky u Bitcoinu?
+question: Jaký je účel studené peněženky u Bitcoinu?
 answer: Bezpečně uchovávat Bitcoiny.
 wrong_answers:
   - Těžit nové Bitcoiny.
   - Obchodovat s Bitcoiny.
   - Převádět Bitcoiny na jiné kryptoměny.
 explanation: |
-  "Studená" peněženka, známá také jako hardwarová peněženka, je zařízení navržené
+  Studená peněženka, známá také jako hardwarová peněženka, je zařízení navržené
   k bezpečnému uchování Bitcoinů. Nepoužívá se pro těžbu nových Bitcoinů, obchodování s Bitcoiny,
   ani pro převod Bitcoinů na jiné kryptoměny.
 reviewed: false

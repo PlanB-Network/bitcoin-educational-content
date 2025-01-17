@@ -1,9 +1,9 @@
-question: Was ist der Ausgangspunkt für die Berechnung aller öffentlichen Schlüssel der Benutzer im Bitcoin-System?
-answer: Punkt G
+question: Was ermöglicht Ihnen ein HD-Wallet im Vergleich zu einem JBOK-Wallet?
+answer: Alle privaten Schlüssel aus einem einzigen Seed generieren
 wrong_answers:
-  - Punkt K
-  - Punkt U
-  - Punkt O
+  - Die Sicherheit digitaler Signaturen erhöhen
+  - Die gleiche Adresse für mehrere Transaktionen wiederverwenden
+  - Die Verwendung von öffentlichen Schlüsseln komplett vermeiden
 explanation: |
-  Der Punkt G ist der Ausgangspunkt für die Berechnung aller öffentlichen Schlüssel der Benutzer im Bitcoin-System.
+  HD-Wallets leiten alle privaten Schlüssel von einem einzigartigen Seed ab, was das Backup vereinfacht und indirekt die Privatsphäre verbessert.
 reviewed: false

@@ -24,9 +24,9 @@ Scopriamo insieme come aggiungere un nuovo professore in questo tutorial!
 - Avere un fork del [repository sorgente della Rete PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Se hai bisogno di aiuto per ottenere questi prerequisiti, i miei altri tutorial ti guideranno:**
-**[Comprendere Git e GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Creare un Account GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Configurare il Tuo Ambiente di Lavoro](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Comprendere Git e GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Creare un Account GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Configurare il Tuo Ambiente di Lavoro](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 
 ## Come creare un nuovo profilo professore?
 

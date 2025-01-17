@@ -1,0 +1,20 @@
+id: a1588109-ecc7-46cf-a067-08bca5d16f2d
+title: "Bitcoin Core Security Advisories"
+author: Bitcoin Core Team
+level: wizard
+publication_date: 2018-09-20
+link:
+  - website: https://bitcoincore.org/en/security-advisories/
+language: en
+description: |
+  Compared to the Bitcoin Core releases newsletter, this source is less common and
+  provides insights on security issues at the time of public disclosure.
+  This newsletter would be useful for those who want to be more aware of both resolved and potential issues, and especially for all of
+  those searching for a solution to their own matters. This second category will probably include
+  bitcoiner workers, developers and IT systemists.
+tags:
+  - node
+  - network-security
+  - deep-dive
+contributors:
+  - hunt-wood

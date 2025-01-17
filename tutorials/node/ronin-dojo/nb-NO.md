@@ -9,7 +9,7 @@ _Vi følger nøye med på utviklingen i denne saken samt utviklingen angående d
 
 _Denne opplæringen er gitt kun for utdannings- og informasjonsformål. Vi støtter eller oppfordrer ikke til bruk av disse verktøyene til kriminelle formål. Det er brukerens ansvar å overholde lovene i sin jurisdiksjon._
 
-_Denne opplæringen er dedikert til installasjonen av RoninDojo v1. For å dra nytte av de siste forbedringene og funksjonene, anbefaler jeg sterkt å konsultere vår opplæring dedikert til direkte installasjon av RoninDojo v2 på din Raspberry Pi:_ [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+_Denne opplæringen er dedikert til installasjonen av RoninDojo v1. For å dra nytte av de siste forbedringene og funksjonene, anbefaler jeg sterkt å konsultere vår opplæring dedikert til direkte installasjon av RoninDojo v2 på din Raspberry Pi:_ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

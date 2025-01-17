@@ -1,0 +1,10 @@
+question: Hva er rollen til den offentlige nøkkelen i en Bitcoin-lommebok?
+answer: Den brukes til å generere Bitcoin-adresser og dermed motta penger
+wrong_answers:
+  - Den brukes til å kryptere Bitcoin-transaksjoner
+  - Den brukes til å få tilgang til Bitcoin-lommeboken
+  - Den brukes til å ta sikkerhetskopi av Bitcoin-lommeboken
+explanation: |
+  Den offentlige nøkkelen er avledet fra den private nøkkelen og brukes til å generere Bitcoin-adresser
+  for å motta penger.
+reviewed: true

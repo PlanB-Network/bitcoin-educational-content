@@ -1405,7 +1405,7 @@ Hayek glaubte, dass ein freier Markt privater Währungen zu größerer monetäre
 
 
 
-## Bewerten Sie den Kurs
+## Bewertungen & Noten
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1432,4 +1432,14 @@ Wir haben nun alle Varianten des Staatsinterventionismus erlebt, und sie sind al
 In gewisser Weise ist unsere Situation besser als in der Vergangenheit. Nach den aufeinanderfolgenden Misserfolgen verschiedener sozialistischer, kommunistischer und sozialdemokratischer Experimente wissen wir heute besser als gestern, wahre Ideen von falschen zu unterscheiden. Und falsche Ideen können widerlegt und durch wahre ersetzt werden. Wie Mises sagte:
 Alles, was in der globalen Gesellschaft, in der wir leben, geschieht, ist das Ergebnis von Ideen. Das Gute und das Schlechte. Was notwendig ist, ist die Bekämpfung falscher Ideen. (...) Unsere Zivilisation kann überleben, und sie muss es auch. Und sie wird dank besserer Ideen als jenen, die die Welt heute regieren, überleben; und diese besseren Ideen werden von der heranwachsenden Generation entwickelt werden.
 (_Wirtschaftspolitik: Gedanken für heute und morgen_, 1979).
-
+# Abschluss
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+## Bewertungen & Noten
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+## Abschlussprüfung
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+## Abschluss
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,10 +1,10 @@
 question: Qual è il tempo medio tra la creazione di due blocchi nel protocollo Bitcoin?
-answer: 10 minuti
+answer: 10 minuti.
 wrong_answers:
-  - 5 minuti
-  - 15 minuti
-  - 20 minuti
-explanation: |
-  In media, viene creato un blocco ogni 10 minuti nel protocollo Bitcoin.
+  - 5 minuti.
+  - 15 minuti.
+  - 20 minuti.
+explanation: >-
+  In media, un blocco viene creato ogni 10 minuti nel protocollo Bitcoin.
   Questo tempo rimane costante indipendentemente dal numero di minatori e dalla loro potenza di calcolo.
-reviewed: false
+reviewed: vero

@@ -1,0 +1,9 @@
+question: Qual è la principale differenza tra le teorie di Locke e Rousseau sulla sovranità?
+answer: Locke riteneva che la sovranità fosse limitata dai diritti naturali, mentre Rousseau credeva fosse illimitata.
+wrong_answers:
+  - Locke riteneva che la sovranità appartenesse al monarca, mentre Rousseau credeva appartenesse al popolo.
+  - Locke riteneva che la migliore forma di governo fosse la democrazia, mentre Rousseau riteneva fosse la repubblica.
+  - Tutte le altre risposte sono corrette.
+explanation: |
+  Locke sosteneva che la sovranità dello stato è vincolata dai diritti naturali degli individui, mentre Rousseau sentiva che la sovranità generale potesse essere esercitata senza limiti in nome della volontà collettiva.
+reviewed: false

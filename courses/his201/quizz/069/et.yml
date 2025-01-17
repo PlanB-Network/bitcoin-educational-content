@@ -1,0 +1,9 @@
+question: Kus Bitcoin'i arendajad kohtuvad, et pidada vähem formaalseid tehnilisi arutelusid?
+answer: IRC kanalil \#bitcoin-dev
+wrong_answers:
+  - Erilisel foorumi sektsioonil
+  - Bitcoin-arenduse meililistil
+  - Subredditis r/Bitcoin
+explanation: |
+  Selle lõi [Martti Malmi](https: //mmalmi.github.io/satoshi/#email-27) augustis 2009. See kogus populaarsust pärast slashdottingut juulis 2010.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welches Geburtsdatum gab Satoshi Nakamoto im P2P Foundation Forum an?
+answer: 5. April 1975
+wrong_answers:
+  - 3. April 1973
+  - 5. April 1973
+  - 3. April 1975
+explanation: |
+  Dieses zusammengesetzte Datum bezieht sich auf das Verbot für amerikanische Bürger, zwischen 1933 und 1975 Gold zu besitzen: Der 5. April ist der Tag, an dem dieses Verbot im Jahr 1933 durch die Executive Order 6102 eingeführt wurde, und das Jahr 1975 ist das Jahr, in dem es durch das Public Law 93-373 aufgehoben wurde.
+reviewed: false

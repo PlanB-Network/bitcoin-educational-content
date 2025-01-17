@@ -1,12 +1,14 @@
 question: What do you need to backup when using a wallet with a passphrase?
-answer: You need to backup both the list of 12 or 24 words and your passphrase
+answer: You need to backup both the list of 12 or 24 words and your passphrase.
 wrong_answers:
-  - You need to backup only the list of 12 or 24 words
-  - You need to backup only your passphrase
-  - You need to backup neither the list of 12 or 24 words nor your passphrase
+  - You need to only backup the list of 12 or 24 words.
+  - You need to only backup your passphrase.
+  - You need to neither backup the list of 12 or 24 words nor your passphrase.
 explanation: |
-  When you use a wallet with a passphrase, you need to backup both the list of 12
-  or 24 words and your passphrase. This is because the list of words and the passphrase
-  are both necessary for regaining access to your funds in case of loss of your phone
-  or computer. Without one or the other, the funds are non-accessible.
+  When you use a wallet with a passphrase, you need to backup
+  both the list of 12 or 24 words and your passphrase,
+  because the list of words and the passphrase are both
+  necessary for regaining access to your funds in case of
+  loss of your phone or computer. Without one or the other,
+  the funds are non-accessible.
 reviewed: true

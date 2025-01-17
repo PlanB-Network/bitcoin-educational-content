@@ -1,9 +1,9 @@
-question: ¿Qué es la Red Lightning?
-answer: Una red de canales de pago.
+question: ¿Por qué debe un router mantener una buena distribución de liquidez en sus canales?
+answer: Para maximizar el número de pagos que puede enrutar
 wrong_answers:
-  - Un tipo de criptomoneda.
-  - Una tecnología de blockchain.
-  - Una billetera digital para Bitcoin.
+  - Para reducir las comisiones por transacción
+  - Para evitar abrir nuevos canales
+  - Para limitar el uso de la blockchain de Bitcoin
 explanation: |
-  La Red Lightning es una red de canales de pago. Miles de pares con sus propios canales de liquidez están conectados entre sí, y así se utilizan para llevar a cabo transacciones entre pares no conectados.
+  Un router tiene como objetivo enrutar tantos pagos como sea posible para recolectar comisiones, lo que requiere una buena distribución de la liquidez en ambos lados de los canales para asegurar la capacidad de enrutamiento.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Which mathematical field provides the modern tools for number theory?
+answer: Abstract algebra
+wrong_answers:
+  - Geometry
+  - Statistics
+  - Complex analysis
+explanation: |
+  Abstract algebra, as a sub-discipline of mathematics, provides mathematical structures that enable the analysis and understanding of the properties of numbers used in number theory.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Co je to Lightning platební kanál?
-answer: Druh "soukromé dráhy" mezi dvěma uživateli, který umožňuje rychlé a opakované transakce s Bitcoinem
+question: Jaké je hlavní pravidlo týkající se finančních prostředků, které účastník může poslat v platebním kanálu?
+answer: Mohou poslat pouze finanční prostředky ze své strany kanálu.
 wrong_answers:
-  - Typ Bitcoinové peněženky
-  - Metoda těžby Bitcoinu
-  - Typ Bitcoinové burzy
+  - Mohou poslat až polovinu celkové kapacity kanálu.
+  - Mohou poslat jakoukoliv částku, pokud existuje předchozí dohoda.
+  - Mohou si půjčit finanční prostředky od druhého účastníka kanálu, pokud je to potřeba.
 explanation: |
-  Lightning platební kanál je druh "soukromé dráhy" mezi dvěma uživateli,
-  který umožňuje rychlé a opakované transakce s Bitcoinem.
+  Každý účastník je omezen množstvím satoshi, které drží v kanálu pro své transakce, což zajišťuje, že finanční prostředky jsou vždy kryty.
 reviewed: false

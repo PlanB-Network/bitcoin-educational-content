@@ -1303,28 +1303,10 @@ Claro, **em outros países, a legislação e o funcionamento das associações s
 
 
 
-## Avalie o curso
+## Avaliações & Notas
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Cuide de Você Mesmo
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Quando se cai na toca do coelho, nossa percepção de muitas coisas muda.
-Isso então nos impulsiona a querer ir além, a querer descobrir aquelas outras pessoas que estão fazendo o mesmo trabalho mental que nós e que, também, entenderam.
-Isso nos motiva, nos dá ainda mais desejo de **contribuir com nossa pedra para a construção** e compartilhar nossa descoberta: o Bitcoin.
-Isso também nos leva a **pensar sobre o mundo de amanhã, o que desejamos construir, e as comunidades que estão em processo de construí-lo**.
-####
-**Neste longo corredor que é a criação de uma comunidade, você precisará mostrar motivação, estratégia, auto-sacrifício e tempo**. É às vezes uma tarefa ingrata; e nesse empreendimento, é melhor tomar as coisas pouco a pouco para não se machucar.
-**Então, pense em você, em seus limites**. E embora o Bitcoin possa animá-lo noite e dia, **não tente fazer tudo sozinho; caso contrário, você se esgotará**.
-
-Ao contrário, **peça ajuda a bitcoiners que já passaram por este mesmo corredor, que já exploraram as mesmas questões e construíram as mesmas ferramentas**. Isso economizará uma quantidade tremenda de tempo.
-
-**Também proponha às pessoas que o seguirão nesta aventura ajudá-lo, mesmo que isso signifique delegar algumas tarefas** e que estas possam demorar mais. A longo prazo, sua comunidade emergirá unida e mais madura.
-
-![image](assets/fr/chapter39/63.webp)
-
-Sozinho, pode-se rapidamente explorar uma das muitas galerias da toca do coelho do Bitcoin, até alcançar seu fim. Mas há a jornada de volta a fazer. Depois, todas as outras direções a explorar.
-Enquanto **criando e/ou juntando-se a uma comunidade de bitcoiners, compartilhando e trocando com eles regularmente, você explorará todas as direções da toca do coelho do Bitcoin ao mesmo tempo**.
-
-É então que, muito mais rapidamente do que teria feito sozinho, você pode dizer: "Eu entendi o Bitcoin".
+<isCourseConclusion>true</isCourseConclusion>

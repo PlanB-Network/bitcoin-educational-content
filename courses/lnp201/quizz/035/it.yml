@@ -1,9 +1,9 @@
-question: Cosa succede se Alice cerca di imbrogliare pubblicando uno stato vecchio?
-answer: Bob può utilizzare la chiave di revoca per spostare i fondi senza dover aspettare la fine del Timelock, punendo efficacemente Alice.
+question: Qual è l'obiettivo principale degli HTLC nella Lightning Network?
+answer: Consentire trasferimenti di pagamento sicuri tramite nodi intermediari senza richiedere fiducia in essi
 wrong_answers:
-  - Alice può utilizzare la chiave di revoca per spostare i fondi senza dover aspettare la fine del Timelock.
-  - Bob può estendere il Timelock per impedire ad Alice di recuperare i suoi soldi.
-  - Alice può recuperare immediatamente i suoi soldi.
+  - Ridurre le commissioni di transazione per ogni pagamento tramite nodi intermediari
+  - Aumentare la capacità di ogni canale di pagamento
+  - Stabilire connessioni dirette tra tutti i nodi della rete con la loro fiducia
 explanation: |
-  Se Alice cerca di imbrogliare pubblicando uno stato vecchio, Bob può utilizzare la chiave di revoca per spostare i fondi senza dover aspettare la fine del Timelock. Questo punisce efficacemente Alice per aver cercato di imbrogliare.
+  Gli HTLC (Hashed Time-Locked Contracts) assicurano che ogni nodo intermediario trasferirà il pagamento senza trattenere i fondi, poiché può sbloccarli solo completando la transazione fino al destinatario finale.
 reviewed: false

@@ -1,9 +1,12 @@
-question: ¿Qué es un "hash" válido en el contexto de minar un bloque en la red de Bitcoin?
+question: ¿Qué es un hash válido en el contexto de la minería de bloques en la red de Bitcoin?
 answer: Una huella digital única asociada con el bloque, compuesta por 256 caracteres.
 wrong_answers:
   - Un código único utilizado para acceder al bloque.
   - Una contraseña única requerida para minar el bloque.
   - Un identificador único para el minero que minó el bloque.
 explanation: |
-  En el contexto de minar un bloque en la red de Bitcoin, un "hash" válido es una huella digital única asociada con el bloque, compuesta por 256 caracteres. La validez de este hash depende de la dificultad de la red de Bitcoin.
-reviewed: false
+  En el contexto de la minería de bloques en la red de Bitcoin, un
+  hash válido es una huella digital única asociada con el
+  bloque, compuesta por 256 caracteres. La validez de este
+  hash depende de la dificultad de la red de Bitcoin.
+reviewed: true

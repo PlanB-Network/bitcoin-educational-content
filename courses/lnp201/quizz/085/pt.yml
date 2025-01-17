@@ -1,9 +1,0 @@
-question: Qual é a tarefa mais simples para gerenciar a liquidez na Lightning Network?
-answer: Abrir canais para compradores
-wrong_answers:
-  - Conectar-se a outros nós para comerciantes
-  - Manter um equilíbrio de liquidez em ambos os lados para nós de roteamento
-  - Comprar canais para comerciantes
-explanation: |
-  Para compradores na Lightning Network, a tarefa mais simples para gerenciar a liquidez é abrir canais. Isso lhes fornece liquidez de saída.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Který dekret podepsaný Franklinem D. Rooseveltem zakázal držení zlata pro jednotlivce ve Spojených státech mezi lety 1933 a 1975?
+answer: Výkonný příkaz 6102
+wrong_answers:
+  - Zákon o Federálním rezervním systému
+  - Zákon Glass-Steagall
+  - Výkonný příkaz 9066
+explanation: |
+  Tento výkonný příkaz, podepsaný 5. dubna 1933, byl zaveden Rooseveltem jako součást Nového údělu. Byl posílen Zákonem o zlaté rezervě v roce 1934.
+reviewed: false

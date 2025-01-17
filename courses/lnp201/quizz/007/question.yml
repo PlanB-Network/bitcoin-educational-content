@@ -1,64 +1,18 @@
-id: 6c5484a5-147f-4fee-8641-023a667fd217
-chapterId: df6230ae-ff35-56ea-8651-8e65580730a8
+id: 36165a3a-7c15-46a3-a6d0-cbb198c6fa25
+chapterId: 0cfb7e6b-96f0-508b-9210-90bc1e28649d
 difficulty: easy
-duration: 15
-author: DecouvreBitcoin
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Lightning Network
-  - Payment Channels
+  - offchain
+  - lightning
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2600
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2550
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1275
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2575
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2600
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-11-01
     urgency: 1
     contributors_id:
-    reward: 2550
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2575
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2650
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2550
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2650
+      - LoicPandul
+    reward:

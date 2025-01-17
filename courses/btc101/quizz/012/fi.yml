@@ -1,9 +1,11 @@
 question: Keitä ovat kybersissit?
 answer: Ihmisryhmä, joka alkoi syvällisesti kyseenalaistaa yksityisyyden ja vapauden roolia digitaalisella aikakaudella.
 wrong_answers:
-  - Ihmisryhmä, joka varastaa tietoja hallituksilta.
-  - Ihmisryhmä, joka keksi Bitcoinin.
-  - Ihmisryhmä, joka vastustaa teknologian käyttöä.
+  - Hakkeriryhmä, joka varasti tietoja hallituksilta.
+  - Ihmisryhmä, joka keksi Bitcoinin ja muut kryptovaluutat.
+  - Ihmisryhmä, joka vastusti teknologian käyttöä.
 explanation: |
-  Kybersissit ovat yksilöiden ryhmä, joka uskoi kryptografian voivan toimia työkaluna yksilön oikeuksien suojelemiseksi hallitusten ja suurten yritysten sekaantumiselta.
-reviewed: false
+  Kybersissit ovat yksilöiden ryhmä, joka uskoi
+  että kryptografia voisi toimia työkaluna suojata
+  yksilön oikeuksia hallitusten ja suurten yritysten sekaantumista vastaan.
+reviewed: true

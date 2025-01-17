@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Štítky se používají k generování více statických adres z hlavní statické adresy, což usnadňuje organizaci peněženky. Nicméně externí pozorovatel by snadno mohl navázat spojení mezi těmito označenými statickými adresami, jelikož veřejný klíč pro skenování je stejný pro všechny.
 
-posouzeno: false
+reviewed: false

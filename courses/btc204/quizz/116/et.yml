@@ -1,0 +1,13 @@
+question: Mis on peamine eesmärk ricochet tehnikal?
+
+answer: Hägustada mündi varasemate tehingute jälgi
+
+wrong_answers:
+  - Suurendada tulevaste tehingute anonüümsuskomplekti
+  - Suurendada tehingu entroopiat
+  - Maksta tulevikus vähem tehingutasusid
+
+explanation: |
+  Ricochet'i eesmärk on simuleerida Bitcoin mündi omandiõiguse muutust, et taastada selle vahetatavus hägustades selle varasemaid märke.
+
+reviewed: false

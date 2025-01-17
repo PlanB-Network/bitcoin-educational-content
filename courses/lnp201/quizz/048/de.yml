@@ -1,11 +1,9 @@
-question: Was ist eine erzwungene Schließung?
-answer: Ein Peer möchte den Kanal schließen, aber der andere Peer antwortet nicht, daher veröffentlicht der erste Peer die aktuellste Verpflichtungstransaktion.
+question: Wie ermöglicht die Keysend-Technologie eine Geldüberweisung ohne Rechnung?
+answer: Der Sender generiert ein Geheimnis in den HTLCs, um die Mittel freizuschalten.
 wrong_answers:
-  - Beide Peers stimmen der Schließung des Kanals zu und erstellen eine Abschlusstransaktion.
-  - Ein Peer versucht zu betrügen, indem er eine alte Verpflichtungstransaktion veröffentlicht.
-  - Beide Peers streiten sich um die verbleibenden SAT im Kanal.
-explanation: |
-  Eine erzwungene Schließung tritt auf, wenn ein Peer den Kanal schließen möchte, aber
-  der andere Peer nicht antwortet, weil er offline ist. Der erste Peer veröffentlicht dann
-  die aktuellste Verpflichtungstransaktion.
+  - Der Empfänger generiert einen Hash, um die Überweisung zu validieren.
+  - Die Zahlung wird durch einen direkten Kanal zwischen Sender und Empfänger validiert.
+  - Die Mittel werden direkt ohne zusätzliche Sicherheit gutgeschrieben.
+explanation:
+  Keysend ermöglicht es dem Sender, ein Geheimnis in den HTLCs zu generieren, das es dem Empfänger ermöglicht, die Mittel freizuschalten, ohne eine Rechnung ausgestellt zu haben.
 reviewed: false

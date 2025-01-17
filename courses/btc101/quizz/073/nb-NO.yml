@@ -1,0 +1,11 @@
+question: Hva er den private nøkkelen i en Bitcoin-lommebok?
+answer: En hemmelig nøkkel som lar deg signere transaksjonene dine
+wrong_answers:
+  - En offentlig nøkkel brukt til å generere Bitcoin-adresser
+  - En hemmelig liste med ord for å ødelegge lommeboken
+  - En hemmelig nøkkel for å kryptere Bitcoin-transaksjonene
+explanation: >-
+  Når man initialiserer en Bitcoin-lommebok, genereres en hemmelig liste med ord, kalt et mnemonisk frø. 
+  Denne gjenopprettingslisten er veldig viktig fordi den representerer eierskapet
+  til Bitcoinene og derfor retten til å sende dem.
+reviewed: true

@@ -1,9 +1,13 @@
-question: Qual è l'impatto potenziale della regolamentazione sull'estrazione di Bitcoin?
-answer: Se un paese come gli Stati Uniti decidesse di regolamentare o vietare determinate transazioni di Bitcoin, potrebbe avere un impatto significativo sulla rete, soprattutto se una grande parte della potenza di hashing è centralizzata in quel paese.
+question: Qual è l'impatto potenziale della regolamentazione sul mining di Bitcoin?
+answer: Se un paese come gli Stati Uniti decidesse di regolamentare o vietare certe transazioni in Bitcoin, ciò potrebbe avere un impatto significativo sulla rete, specialmente se una grande parte del potere di hashing è centralizzata in quel paese.
 wrong_answers:
-  - Se un paese come gli Stati Uniti decidesse di regolamentare o vietare l'estrazione di Bitcoin, potrebbe portare ad un aumento del valore di Bitcoin.
-  - Se un paese come gli Stati Uniti decidesse di regolamentare o vietare l'estrazione di Bitcoin, potrebbe portare ad un aumento della ricompensa per blocco.
-  - Se un paese come gli Stati Uniti decidesse di regolamentare o vietare l'estrazione di Bitcoin, potrebbe portare ad un aumento della velocità delle transazioni.
+  - Se un paese come gli Stati Uniti decidesse di regolamentare o vietare il mining di Bitcoin, ciò potrebbe portare a un aumento del valore del Bitcoin.
+  - Se un paese come gli Stati Uniti decidesse di regolamentare o vietare il mining di Bitcoin, ciò potrebbe portare a un aumento della ricompensa per blocco.
+  - Se un paese come gli Stati Uniti decidesse di regolamentare o vietare il mining di Bitcoin, ciò potrebbe portare a un aumento della velocità di transazione.
 explanation: |
-  Il capitolo spiega che se un paese come gli Stati Uniti decidesse di regolamentare o vietare determinate transazioni di Bitcoin, potrebbe avere un impatto significativo sulla rete, soprattutto se una grande parte della potenza di hashing è centralizzata in quel paese.
-reviewed: false
+  Il capitolo spiega che se un paese come gli Stati
+  Uniti decidesse di regolamentare o vietare certe transazioni
+  in Bitcoin, ciò potrebbe avere un impatto significativo sulla
+  rete, specialmente se una grande parte del potere di hashing
+  è centralizzata in quel paese.
+reviewed: true

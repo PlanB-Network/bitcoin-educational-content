@@ -1,0 +1,9 @@
+question: Cấu trúc đại số trong đại số trừu tượng là gì?
+answer: Một tập hợp các phần tử với một hoặc nhiều phép toán tuân theo một số tiên đề nhất định
+wrong_answers:
+  - Một tập hợp các số nguyên tố được tổ chức theo hàng tuân theo một số tiên đề nhất định
+  - Một chuỗi các thuật toán để giải các phương trình tuyến tính
+  - Một nhóm các phép biến đổi hình học ngẫu nhiên được sắp xếp tuân theo một số tiên đề nhất định
+explanation: |
+  Cấu trúc đại số là một tập hợp các phần tử được định nghĩa với một hoặc nhiều phép toán, như cộng hoặc nhân, tuân theo một số tiên đề nhất định, và nó là cần thiết cho việc cấu trúc các khái niệm trong lý thuyết số.
+reviewed: false

@@ -4,6 +4,6 @@ wrong_answers:
   - Saatat nostaa Bitcoinin hintaa.
   - Saatat hallita Bitcoinin tarjontaa.
   - Saatat estää muita ostamasta Bitcoinia.
-explanation: >-
-  Tekstissä mainitaan, että maasi säädösten noudattamatta jättäminen Bitcoinin ostamisessa saattaa asettaa sinut vaaraan.
-reviewed: false
+explanation: |
+  Kurssitekstissä mainitaan, että maasi säädösten noudattamatta jättäminen Bitcoinin ostaessa saattaa asettaa sinut vaaraan.
+reviewed: true

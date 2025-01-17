@@ -1,0 +1,9 @@
+question: For Bastiat, hva er politisk økonomi?
+answer: Teorien om utveksling
+wrong_answers:
+  - Teorien om verdi
+  - Teorien om rikdom
+  - Teorien om kjøpekraft
+explanation: |
+  Bastiat definerer politisk økonomi som teorien om utveksling.
+reviewed: false

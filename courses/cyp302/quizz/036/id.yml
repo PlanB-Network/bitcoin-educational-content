@@ -1,0 +1,9 @@
+question: Apa artinya dua angka tersebut koprima?
+answer: Pembagi terbesar bersama mereka sama dengan 1
+wrong_answers:
+  - Jumlah mereka adalah angka genap
+  - Keduanya genap
+  - Mereka tidak memiliki pembagi bersama selain 1 dan diri mereka sendiri
+explanation: |
+  Dua angka dikatakan koprima jika pembagi terbesar bersama mereka adalah 1, yang berarti mereka tidak memiliki faktor prima bersama, sebuah properti penting dalam kriptografi.
+reviewed: false

@@ -1,9 +1,12 @@
-question: Was bedeutet das Fehlen einer mnemonischen Phrase in einer Brieftasche?
-answer: Die Brieftasche ist nicht sicher für die langfristige Aufbewahrung.
+question: Was deutet das Fehlen einer mnemonischen Phrase in einer Wallet an?
+answer: Es deutet darauf hin, dass die Wallet nicht sicher für die langfristige Aufbewahrung von Bitcoin ist.
 wrong_answers:
-  - Die Brieftasche ist sicher für die langfristige Aufbewahrung.
-  - Die Brieftasche ist nicht sicher für die kurzfristige Aufbewahrung.
-  - Die Brieftasche ist nicht sicher für Ausgaben.
+  - Es deutet darauf hin, dass die Wallet vollständig sicher ist und keine Sicherung benötigt.
+  - Es bedeutet, dass die Wallet viele verschiedene Anleihen halten kann.
+  - Es legt nahe, dass die Wallet automatisch durch Ihr Gerät gesichert wird.
 explanation: |
-  Das Fehlen einer Liste von 12 oder 24 Wörtern, das heißt der mnemonischen Phrase, in einer Brieftasche sollte Sie darauf aufmerksam machen, dass die Brieftasche nicht sicher ist, da sie nicht dem Standard-Backup-Verfahren folgt.
-reviewed: false
+  Das Fehlen einer Liste von 12 oder 24 Wörtern, das ist die
+  mnemonische Phrase, in einer Wallet sollte Sie alarmieren, dass die
+  Wallet nicht sicher ist, da sie nicht den Standard-Backup-
+  Verfahren folgt.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welche von ArtForz am 28. Juli 2010 gemeldete Schwachstelle erlaubte es, Bitcoins von jeder Adresse aus durch Verwendung eines spezifischen Skripts auszugeben?
+answer: Der 1 RETURN Bug
+wrong_answers:
+  - Der Wertüberlauf-Bug
+  - Der OP_NOP Bug
+  - Der LSHIFT Bug
+explanation: |
+  Der Fehler wurde nicht ausgenutzt. Satoshi hat schnell den Fix in die Software aufgenommen und empfahl allen Nutzern, ein Upgrade durchzuführen.
+reviewed: false

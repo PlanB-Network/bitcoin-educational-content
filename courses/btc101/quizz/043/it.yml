@@ -1,9 +1,12 @@
-question: Qual è il precedente storico per l'uso delle valute fiat?
-answer: I leader centralizzano l'oro e introducono una nuova valuta equivalente in valore all'oro, che viene poi gradualmente svalutata.
+question: Qual è il percorso storico seguito dalle istituzioni nell'introduzione delle valute fiat?
+answer: I leader centralizzano l'oro e introducono una nuova valuta equivalente all'oro in valore, che viene poi gradualmente svalutata.
 wrong_answers:
-  - I leader introducono una nuova valuta garantita dall'oro, che viene poi gradualmente aumentata in valore.
+  - I leader introducono una nuova valuta supportata dall'oro, che viene poi gradualmente aumentata in valore.
   - I leader introducono una nuova valuta senza valore intrinseco, che viene poi gradualmente aumentata in valore.
-  - I leader introducono una nuova valuta garantita da un paniere di materie prime, che viene poi mantenuta stabile in valore.
+  - I leader introducono una nuova valuta supportata da un paniere di materie prime, che viene poi mantenuta stabile in valore.
 explanation: |
-  Storicamente, i leader hanno centralizzato l'oro e introdotto una nuova valuta equivalente in valore all'oro. Questa nuova valuta viene poi gradualmente svalutata, spesso sotto il pretesto di essere nell'interesse del popolo.
-reviewed: false
+  Storicamente, i leader hanno centralizzato l'oro e introdotto
+  una nuova valuta equivalente in valore all'oro. Questa nuova
+  valuta viene poi gradualmente svalutata, spesso sotto la pretesa
+  di essere nell'interesse del popolo.
+reviewed: vero

@@ -1,0 +1,9 @@
+question: Qual foi a data de nascimento listada por Satoshi Nakamoto no fórum da P2P Foundation?
+answer: 5 de abril de 1975
+wrong_answers:
+  - 3 de abril de 1973
+  - 5 de abril de 1973
+  - 3 de abril de 1975
+explanation: |
+  Esta data composta refere-se à proibição para cidadãos americanos possuírem ouro entre 1933 e 1975: 5 de abril é o dia em que essa proibição foi instituída em 1933 (Ordem Executiva 6102) e o ano de 1975 é quando foi revogada (Lei Pública 93-373).
+reviewed: false

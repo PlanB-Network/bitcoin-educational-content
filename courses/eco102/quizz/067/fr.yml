@@ -1,0 +1,9 @@
+question: Quelle est la principale différence entre la morale philosophique et la morale économique selon Bastiat ?
+answer: L'une s'adresse au cœur, l'autre à l'intelligence
+wrong_answers:
+  - L'une est individuelle, l'autre est collective
+  - L'une est ancienne, l'autre est moderne
+  - L'une est religieuse, l'autre est laïque
+explanation: |
+  La morale philosophique s'adresse aux sentiments et à la vertu personnelle, tandis que la morale économique vise à instruire rationnellement en démontrant les conséquences des actions.
+reviewed: false

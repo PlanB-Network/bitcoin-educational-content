@@ -1,9 +1,12 @@
-question: Was ist das potenzielle Ergebnis einer zu schnellen Abwertung oder des Verlusts des Vertrauens in eine fiduziarische Währung?
-answer: Es kann zu Hyperinflation führen.
+question: Was ist das potenzielle Ergebnis einer plötzlichen Abwertung oder eines Vertrauensverlustes in eine fiduziarische Währung?
+answer: Hyperinflation.
 wrong_answers:
-  - Es kann zu Deflation führen.
-  - Es kann zu einer stabilen Wirtschaft führen.
-  - Es kann zu einer Wertsteigerung der Währung führen.
+  - Deflation.
+  - Eine stabile Wirtschaft.
+  - Eine Erhöhung des Währungswertes.
 explanation: |
-  Eine zu schnelle Abwertung oder der Verlust des Vertrauens in eine fiduziarische Währung kann zu Hyperinflation führen. Dabei handelt es sich um eine Situation, in der die Preise für Güter und Dienstleistungen in extrem hohem Maße steigen und oft zu wirtschaftlicher Instabilität führen.
-reviewed: false
+  Eine plötzliche Abwertung oder ein Vertrauensverlust in eine fiduziarische
+  Währung kann zu Hyperinflation führen. Dies ist eine Situation,
+  in der die Preise für Waren und Dienstleistungen in einer
+  extrem hohen Rate steigen, was oft zu wirtschaftlicher Instabilität führt.
+reviewed: true

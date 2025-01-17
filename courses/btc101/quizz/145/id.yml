@@ -1,0 +1,10 @@
+question: Apa itu perang blok pada tahun 2017?
+answer: Konflik tentang apakah harus meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi
+wrong_answers:
+  - Konflik tentang apakah harus mengurangi ukuran blok untuk mengurangi kapasitas transaksi
+  - Konflik tentang apakah harus meningkatkan hadiah blok untuk memberi insentif kepada penambang
+  - Konflik tentang apakah harus mengurangi hadiah blok untuk mengurangi insentif bagi penambang
+explanation: >-
+  Perang blok pada tahun 2017 adalah konflik tentang apakah harus memodifikasi Bitcoin
+  dengan meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi.
+reviewed: false

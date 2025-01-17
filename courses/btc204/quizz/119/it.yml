@@ -1,0 +1,13 @@
+question: Qual è la principale differenza tra un rimbalzo potenziato e un rimbalzo classico?
+
+answer: La distribuzione delle transazioni nel tempo
+
+wrong_answers:
+  - Il numero di transazioni utilizzate
+  - Il tipo di indirizzo utilizzato
+  - Il numero di output nelle transazioni
+
+explanation: |
+  Il rimbalzo potenziato assicura che ogni transazione sia trasmessa in un momento distinto e registrata in un blocco diverso, mentre il rimbalzo classico trasmette tutte le transazioni in un breve lasso di tempo.
+
+reviewed: false

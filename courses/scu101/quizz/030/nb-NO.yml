@@ -1,0 +1,10 @@
+question: Hva er den gyldne regelen for å beskytte deg selv mot svindel-e-poster?
+answer: Sjekk nøye fullt navn på avsenderen samt opprinnelsen til e-posten.
+wrong_answers:
+  - Svar alltid på mistenkelige e-poster.
+  - Åpne alle e-postvedlegg for å sjekke innholdet deres.
+  - Del dine personlige opplysninger kun med kjente avsendere.
+explanation: |
+  Den gyldne regelen for å beskytte deg selv mot svindel-e-poster er å nøye
+  sjekke fullt navn på avsenderen samt opprinnelsen til e-posten. Når du er i tvil,
+  slett den!

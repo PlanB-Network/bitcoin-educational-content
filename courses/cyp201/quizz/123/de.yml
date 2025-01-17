@@ -1,9 +1,0 @@
-question: Spart die Verwendung einer Bitcoin-Adresse Platz in den Blöcken?
-answer: Nein
-wrong_answers:
-  - Ja
-  - Nur wenn die Adresse komprimiert ist
-  - Nur wenn die Adresse gehasht ist
-explanation: |
-  Die Verwendung einer Bitcoin-Adresse spart keinen Platz in den Blöcken. Der Hauptgrund für die Verwendung einer Adresse besteht darin, die Größe der öffentlichen Schlüsselinformationen zu reduzieren.
-reviewed: false

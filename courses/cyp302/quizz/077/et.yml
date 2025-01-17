@@ -1,0 +1,8 @@
+question: Mis on Kerckhoffi põhimõtte roll krüptograafias?
+answer: Tagada, et turvalisus sõltuks salajasest võtmest, mitte skeemi salajasusest
+wrong_answers:
+  - Tagada, et turvalisus sõltuks skeemi salajasusest, mitte salajasest võtmest
+  - Nõuda väga pikka krüpteerimisvõtit
+  - Garanteerida, et igal sõnumil on unikaalne võti
+explanation: |
+  Kerckhoffi põhimõtte kohaselt peaks krüptograafilise süsteemi turvalisus sõltuma ainult salajasest võtmest, mitte algoritmi enda salajasusest.

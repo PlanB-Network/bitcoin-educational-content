@@ -1,0 +1,9 @@
+question: Hvilket av disse alternativene er feil når du mister enheten som har din Bitcoin-lommebok?
+answer: Du kan gjenskape lommeboken din og bruke dine bitcoin ved å tilbakestille passordet ditt
+wrong_answers:
+  - Du mister alle dine Bitcoins hvis du ikke har den mnemoniske frasen
+  - Du kan verifisere med dine offentlige nøkler at dine bitcoins ikke har blitt flyttet ennå
+  - Du kan gjenskape lommeboken din og bruke dine bitcoin med den mnemoniske frasen
+explanation: |
+  Å miste enheten som har lommeboken din betyr ikke nødvendigvis at du mister dine Bitcoins. Det som gjør at du kan gjenskape lommeboken din og bruke dine bitcoin, er den mnemoniske frasen.
+reviewed: true

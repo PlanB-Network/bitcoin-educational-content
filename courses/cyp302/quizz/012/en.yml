@@ -1,0 +1,9 @@
+question: What is the illusion regarding the security of communication channels in the modern world?
+answer: Believing that physically protecting the channel prevents interception
+wrong_answers:
+  - Thinking that wireless networks are ineffective
+  - Believing that cryptography is not necessary for local communications
+  - Considering that only national agencies can intercept data
+explanation: |
+  It is an illusion to think that merely securing the channel physically is enough to ensure confidentiality, as many points of interception remain accessible, especially for wireless communications.
+reviewed: false

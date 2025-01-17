@@ -1,9 +1,9 @@
-question: Jaký je hlavní problém s Single Sign-On (SSO) nabízeným internetovými giganty?
+question: Jaké jsou hlavní obavy spojené s Single Sign-On (SSO) nabízeným internetovými giganty?
 answer: Představuje problémy z hlediska dostupnosti a rizik cenzury.
 wrong_answers:
   - Je těžké ho používat.
   - Vyžaduje hodně úložného prostoru.
   - Není kompatibilní se všemi webovými stránkami.
 explanation: |
-  Single Sign-On (SSO) nabízený internetovými giganty představuje problémy z hlediska dostupnosti a rizik cenzury. To je proto, že pokud poskytovatel SSO zažije výpadek nebo se rozhodne zablokovat uživatele, uživatel by mohl přijít o přístup ke všem službám, které toto SSO používají pro autentizaci.
-reviewed: false
+  Single Sign-On (SSO) nabízený internetovými giganty představuje problémy z hlediska dostupnosti a rizik cenzury. To je způsobeno tím, že pokud poskytovatel SSO zažije výpadek nebo se rozhodne uživatele zablokovat, uživatel by mohl přijít o přístup ke všem službám, které toto SSO používají pro autentizaci.
+reviewed: true

@@ -1,0 +1,9 @@
+question: デビッド・チャームが彼のデジタル通貨コンセプトを実装した会社の名前は何でしたか？
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  1990年に設立されたDigiCash B.V.は、オランダのアムステルダムに拠点を置き、デビッド・チャームの発明であるeCashの特許を保有していました。
+reviewed: false

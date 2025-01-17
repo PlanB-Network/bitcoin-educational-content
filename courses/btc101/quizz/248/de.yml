@@ -1,9 +1,11 @@
-question: Was ist eine der Hauptmerkmale von Bitcoin?
-answer: Es kann überall auf der Welt ohne jegliche Autorisierung von einer beliebigen Stelle ausgetauscht werden.
+question: Was ist eines der Hauptmerkmale von Bitcoin?
+answer: Es kann überall auf der Welt ohne jegliche Genehmigung einer Entität ausgetauscht werden.
 wrong_answers:
-  - Es kann nur von einer ausgewählten Gruppe von Personen verwendet werden.
-  - Es erfordert eine Autorisierung von einer zentralen Behörde, um verwendet zu werden.
-  - Es kann nur in bestimmten Ländern verwendet werden.
+  - Es kann nur von einer ausgewählten Gruppe von Personen genutzt werden.
+  - Es erfordert eine Genehmigung von einer zentralen Autorität, um genutzt zu werden.
+  - Es kann nur in bestimmten Ländern genutzt werden.
 explanation: |
-  Der Text erwähnt, dass Bitcoin pseudonym ist und überall auf der Welt ohne jegliche Autorisierung von einer beliebigen Stelle ausgetauscht werden kann.
-reviewed: false
+  Der Text erwähnt, dass Bitcoin pseudonym ist und
+  überall auf der Welt ohne die Genehmigung
+  irgendeiner Entität ausgetauscht werden kann.
+reviewed: true

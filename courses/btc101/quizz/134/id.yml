@@ -1,0 +1,11 @@
+question: Apa itu hash yang valid dalam konteks menambang blok di jaringan Bitcoin?
+answer: Sidik jari unik yang terkait dengan blok, terdiri dari 256 karakter.
+wrong_answers:
+  - Kode unik yang digunakan untuk mengakses blok.
+  - Kata sandi unik yang diperlukan untuk menambang blok.
+  - Pengenal unik untuk penambang yang menambang blok.
+explanation: >-
+  Dalam konteks menambang blok di jaringan Bitcoin, hash yang valid
+  adalah sidik jari unik yang terkait dengan blok, terdiri dari 256 karakter. Keabsahan
+  hash ini tergantung pada kesulitan jaringan Bitcoin.
+reviewed: false

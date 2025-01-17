@@ -1,0 +1,8 @@
+question: 谁是第一篇用法语介绍比特币的文章的作者？
+answer: Lucien Grondin (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+explanation:
+  这是一篇于2010年9月30日在LinuxFr.org上发布的[文本](https: //linuxfr.org/news/connaissez-vous-les-bitcoins)，标题为“你了解比特币吗？”。

@@ -1,0 +1,10 @@
+question: Hva er rollen til gruvearbeidere i Bitcoin-protokollen?
+answer: De sikrer det nåværende og historiske nettverket
+wrong_answers:
+  - De regulerer prisen på Bitcoin
+  - De kontrollerer tilbudet av Bitcoin
+  - De håndterer transaksjoner mellom brukere
+explanation: >-
+  Gruvearbeidere i Bitcoin-protokollen sikrer både det nåværende og det historiske
+  nettverket. De regulerer ikke prisen på Bitcoin, kontrollerer ikke tilbudet, eller håndterer
+  transaksjoner mellom brukere.

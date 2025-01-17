@@ -1,0 +1,9 @@
+question: Qual è il nome di un problema in cui è facile calcolare un risultato in una direzione ma quasi impossibile fare il processo inverso?
+answer: Una funzione unidirezionale
+wrong_answers:
+  - Una funzione lineare
+  - Una funzione esponenziale
+  - Una funzione reversibile
+explanation: |
+  Le funzioni unidirezionali permettono un rapido calcolo in una direzione, ma rendono la risoluzione inversa praticamente impossibile, da qui la loro utilità in crittografia.
+reviewed: false

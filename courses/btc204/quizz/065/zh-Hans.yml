@@ -1,0 +1,13 @@
+question: 在UTXOs的上下文中，什么是尘埃？
+
+answer: 其价值过低以至于无法覆盖花费它们所需的费用的UTXOs。
+
+wrong_answers:
+  - 由交易错误生成且无法在区块链上确认的UTXOs。
+  - 在网络上被标记为可疑或与非法活动相关的UTXOs。
+  - 存储在长时间未使用且被认为丢失的地址中的UTXOs。
+
+explanation: |
+  尘埃指的是UTXOs的价值（以sats计）如此之低，以至于不足以覆盖花费它们所需的交易费用。
+
+reviewed: false

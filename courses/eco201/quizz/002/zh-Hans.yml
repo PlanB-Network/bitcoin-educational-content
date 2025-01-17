@@ -1,0 +1,9 @@
+question: 这门课程的讲师是谁？
+answer: Théo Mogenet
+wrong_answers:
+  - Théo Boloré
+  - Descoupes Bitcoin
+  - 以上都不是
+explanation:
+  “章节中提到，这门课程的讲师是Théo Mogenet，一位对奥地利经济学充满热情且能力出众的教授。”
+reviewed: true

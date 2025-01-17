@@ -1,9 +1,9 @@
-question: Cosa costringe Bitcoin a fare alle aziende, università, regolatori e individui?
-answer: Prendere in considerazione questa nuova tecnologia
+question: Quale azione Bitcoin costringe aziende, università, regolatori e individui a compiere?
+answer: A prenderlo in considerazione.
 wrong_answers:
-  - Ignorarla
-  - Vietarla
-  - Criminalizzarla
-explanation: |
-  La crescita di Bitcoin costringe aziende, università, regolatori e individui a prendere in considerazione questa nuova tecnologia. Devono essere create nuove strumentazioni, i servizi devono essere adattati e l'innovazione deve continuare per garantire la loro sopravvivenza.
-reviewed: false
+  - Ignorarlo.
+  - Vietarlo.
+  - Criminalizzarlo.
+explanation: >-
+  L'ascesa di Bitcoin costringe aziende, università, regolatori e individui a prendere in considerazione questa nuova tecnologia. È necessario creare nuovi strumenti, adattare i servizi e continuare a innovare per garantire la loro sopravvivenza.
+reviewed: true

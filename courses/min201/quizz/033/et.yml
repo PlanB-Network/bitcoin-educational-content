@@ -1,0 +1,12 @@
+question: Mis on potentsiaalne risk, kui Bitcoin'i võrgus väheneb kasutajate, sõlmede või kaevurite arv?
+answer: See võib nõrgestada võrku, suurendades keskendumise riski ja haavatavust rünnakute suhtes.
+wrong_answers:
+  - See võib suurendada Bitcoin'i hinda.
+  - See võib vähendada tehingute kiirust samuti ka kaevandamise raskust.
+  - See võib suurendada kaevandamise raskust ja haavatavust rünnakute suhtes, samal ajal vähendades keskendumise riski.
+explanation: |
+  Kasutajate, sõlmede või kaevurite arvu vähenemine võib
+  nõrgestada Bitcoin'i võrku. See võib suurendada
+  keskendumise riski ja muuta võrgu rünnakute suhtes
+  haavatavamaks.
+reviewed: true

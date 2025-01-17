@@ -1,0 +1,9 @@
+question: Quelle taille de clé est considérée comme sûre contre les attaques par force brute pour le chiffrement moderne ?
+answer: 128 bits
+wrong_answers:
+  - 16 bits
+  - 64 bits
+  - 100 bits
+explanation: |
+  Avec une clé d'au moins 128 bits, un chiffrement moderne est pour le moment considéré comme sûr contre les attaques par force brute, car le nombre de tentatives serait irréaliste.
+reviewed: false

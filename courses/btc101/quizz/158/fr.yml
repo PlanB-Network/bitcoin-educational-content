@@ -1,10 +1,12 @@
-question: Quel est le but de la Preuve de Travail dans le réseau Bitcoin?
-answer: La Preuve de Travail garantit la véracité des informations sans l'intervention d'un tiers de confiance.
+question: Quel est le but du Proof of Work dans le réseau Bitcoin ?
+answer: Le Proof of Work assure la véracité des informations sans faire confiance à un tiers.
 wrong_answers:
-  - La Preuve de Travail est utilisée pour créer de nouveaux bitcoins.
-  - La Preuve de Travail est utilisée pour vérifier les transactions Bitcoin.
-  - La Preuve de Travail est utilisée pour sécuriser le réseau Bitcoin.
-explanation: |
-  La Preuve de Travail est un algorithme de consensus utilisé dans le réseau Bitcoin
-  pour valider les transactions et créer de nouveaux blocs. Elle nécessite que les mineurs résolvent des problèmes mathématiques complexes, ce qui garantit l'authenticité des informations dans le réseau sans avoir besoin d'un tiers de confiance.
-reviewed: false
+  - Le Proof of Work est utilisé pour créer de nouveaux bitcoins en faisant confiance à un tiers.
+  - Le Proof of Work est utilisé pour vérifier les transactions Bitcoin en faisant confiance à un tiers.
+  - Le Proof of Work est utilisé pour changer le protocole Bitcoin sans faire confiance à un tiers.
+explanation: >-
+  Le Proof of Work est un algorithme de consensus utilisé dans le réseau Bitcoin
+  pour valider les transactions et créer de nouveaux blocs. Il exige des mineurs de résoudre des
+  problèmes mathématiques complexes, ce qui assure l'authenticité des informations dans le
+  réseau sans la nécessité d'un tiers de confiance.
+reviewed: true

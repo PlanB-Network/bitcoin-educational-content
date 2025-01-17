@@ -1,0 +1,9 @@
+question: Chuỗi giả ngẫu nhiên là gì?
+answer: Một chuỗi có vẻ như đến từ một biến đồng nhất nhưng được tạo ra bởi một thuật toán mở rộng
+wrong_answers:
+  - Một chuỗi được tạo ra với xác suất giống nhau cho mỗi ký tự
+  - Một chuỗi cố định từ một sự kiện ngẫu nhiên tự nhiên
+  - Một chuỗi ngẫu nhiên chỉ được chọn từ các giá trị nhị phân 0 và 1
+explanation: |
+  Một chuỗi giả ngẫu nhiên được tạo ra bởi một thuật toán mở rộng từ một hạt giống nhỏ hơn, theo cách mô phỏng sự chọn lựa đồng nhất giữa tất cả các chuỗi có cùng độ dài.
+reviewed: false

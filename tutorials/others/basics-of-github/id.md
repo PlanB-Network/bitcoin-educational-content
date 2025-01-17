@@ -57,5 +57,5 @@ Di Git dan GitHub, Anda akan menemui perintah dan fitur yang namanya mungkin ter
 
 Daftar ini jelas tidak lengkap. Ada banyak istilah teknis lain yang spesifik untuk Git dan GitHub. Namun, yang disebutkan di sini adalah yang utama yang akan Anda temui secara sering.
 Setelah membaca artikel ini, mungkin beberapa aspek tentang Git dan GitHub masih belum jelas bagi Anda. Saya mendorong Anda untuk mulai menggunakan alat-alat ini sendiri. Praktik seringkali adalah cara terbaik untuk memahami bagaimana mesin bekerja! Dan untuk memulai, Anda dapat menemukan 2 tutorial lainnya:
-- **[Buat akun GitHub Anda](https://planb.network/tutorials/others/create-github-account)**
-- **[Menyiapkan Lingkungan Lokal Anda untuk Berkontribusi pada PlanB Network](https://planb.network/tutorials/others/github-desktop-work-environment)**
+- **[Buat akun GitHub Anda](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[Menyiapkan Lingkungan Lokal Anda untuk Berkontribusi pada PlanB Network](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**

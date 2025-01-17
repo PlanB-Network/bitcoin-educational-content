@@ -1,0 +1,9 @@
+question: Mis juhtub, kui Bob saadab Alice'ile arve 30 000 satoshi eest?
+answer: Alice loob kohustustehingu, et kanda kanalis 30 000 satoshit Bobile.
+wrong_answers:
+  - Alice peab selle ülekande tegemiseks avama uue kanali.
+  - Bob saab automaatselt 30 000 satoshit oma rahakotti.
+  - Arve makstakse läbi on-chain tehingu Bitcoinis.
+explanation: |
+  Kui Bob saadab Alice'ile arve, loob ja allkirjastab Alice uue kohustustehingu, et kohandada vahendite jaotust, seeläbi kandes kanalis 30 000 satoshit Bobile.
+reviewed: false

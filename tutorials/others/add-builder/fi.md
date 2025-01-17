@@ -10,7 +10,7 @@ Haluatko lis채t채 uuden Bitcoin "rakentajan" PlanB-verkon sivustolle ja antaa n�
 ![builder](assets/01.webp)
 - Ensimm채iseksi sinulla t채ytyy olla GitHub-tili. Jos et tied채, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) `resources/builder/` osiossa:

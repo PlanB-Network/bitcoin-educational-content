@@ -1,11 +1,9 @@
-question: Mitä teksti ehdottaa sinun tekevän laajentaaksesi tietämystäsi Bitcoinista?
-answer: Viittaa viime vuosina listattuihin ja luokiteltuihin resurssikirjastoihin
+question: Mitä tarkoittaa, että Bitcoinilla on yleinen nousutrendi?
+answer: Yleinen nousutrendi Bitcoinissa tarkoittaa, että kokonaisuudessaan Bitcoinin hinta on ollut kasvussa.
 wrong_answers:
-  - Osallistu Bitcoin-konferensseihin
-  - Sijoita Bitcoiniin
-  - Aloita Bitcoin-louhintaoperaatio
-explanation: >-
-  Teksti ehdottaa, että laajentaaksesi tietämystäsi Bitcoinista, voit viitata
-  resurssikirjastoihin, jotka on listattu ja luokiteltu viime vuosina, mukaan lukien
-  podcastit, verkkosivustot, artikkelit, tutoriaalit, kirjat ja muu sisältö.
-reviewed: false
+  - Yleinen nousutrendi Bitcoinissa tarkoittaa, että hinnan on taattu nousevan loputtomiin ilman minkäänlaisia vaihteluita.
+  - Yleinen nousutrendi Bitcoinissa tarkoittaa, että Bitcoin muuttuu vähemmän arvokkaaksi ja menettää markkina-arvoaan.
+  - Yleinen nousutrendi Bitcoinissa tarkoittaa, että se on suosittu vain pienen sijoittajaryhmän keskuudessa eikä sillä ole vaikutusta koko markkinaan.
+explanation: |
+  Yleinen nousutrendi Bitcoinissa viittaa sen hinnan johdonmukaiseen kasvuun tietyn ajanjakson aikana. On tärkeää huomata, että vaikka nousutrendi viittaa positiiviseen suuntaukseen, se ei takaa, että hinta jatkaisi nousuaan ilman minkäänlaisia vaihteluita.
+reviewed: true

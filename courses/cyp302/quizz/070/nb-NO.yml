@@ -1,0 +1,9 @@
+question: Hvilken type kryptering er forskyvningskryptering?
+answer: En monoalfabetisk substitusjonschiffer
+wrong_answers:
+  - En ordpermutasjonschiffer
+  - En polyalfabetisk substitusjonschiffer
+  - En asymmetrisk chiffer
+explanation: |
+  Forskyvningskryptering er et eksempel på en monoalfabetisk substitusjonschiffer, hvor hvert bokstav i meldingen forskyves et fast antall posisjoner i alfabetet.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Mikä on kryptografisten hajautusfunktioiden rooli ladatun ohjelmiston eheyden varmistamisessa?
-answer: Ne toimivat digitaalisina vartijoina, varmistaen ladatun ohjelmiston eheyden.
+question: Mikä hajautusfunktioiden yhdistelmä käytetään lyhyempien sormenjälkien tuottamiseen Bitcoinissa?
+answer: HASH160
 wrong_answers:
-  - Ne salakirjoittavat ohjelmiston suojatakseen sitä hakkeroinnilta.
-  - Ne pakkaavat ohjelmiston vähentääkseen latausaikaa.
-  - Ne tuottavat uniikin avaimen jokaiselle lataukselle.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Kryptografiset hajautusfunktiot ovat keskeisessä roolissa ladatun ohjelmiston eheyden varmistamisessa. Vertaamalla ladatun tiedoston hajautusarvoa odotettuun hajautusarvoon, voidaan varmistaa, että tiedostoa ei ole manipuloitu.
+  HASH160 yhdistää SHA256 n ja RIPEMD160 n tuottaakseen 160-bittisiä sormenjälkiä, erityisesti Bitcoin-osoitteita varten.
 reviewed: false

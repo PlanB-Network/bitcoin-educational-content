@@ -1,12 +1,12 @@
-question: Quelle est la signification de la répartition géographique des nœuds Bitcoin ?
+question: Quelle est l'importance de la répartition géographique des nœuds Bitcoin ?
 answer: Cela rend pratiquement impossible de détruire toutes les copies de la blockchain.
 wrong_answers:
   - Cela détermine le prix du Bitcoin dans différentes régions.
   - Cela affecte la vitesse des transactions Bitcoin.
-  - Cela détermine le nombre de Bitcoins qui peuvent être minés dans une région.
+  - Cela détermine le nombre de bitcoins qui peuvent être minés dans une région.
 explanation: |
-  La répartition géographique des nœuds Bitcoin rend pratiquement
-  impossible
-  de détruire toutes les copies de la blockchain. Cela est dû au fait que les nœuds sont dispersés
-  et il serait difficile de tous les saisir physiquement.
-reviewed: false
+  La répartition géographique des nœuds Bitcoin rend
+  pratiquement impossible de détruire toutes les copies de la
+  blockchain. Étant donné que les nœuds sont dispersés, il est difficile de
+  les saisir physiquement tous.
+reviewed: true

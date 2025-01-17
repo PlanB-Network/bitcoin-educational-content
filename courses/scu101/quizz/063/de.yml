@@ -1,9 +1,11 @@
-question: Welche Aspekte der Kryptographie werden in der Cybersicherheit verwendet?
+question: Welche Aspekte der Kryptografie werden in der Cybersicherheit verwendet?
 answer: SSL/TLS, symmetrische/asymmetrische Verschlüsselung
 wrong_answers:
   - RSA, DSA, ECC
   - AES, DES, 3DES
   - MD5, SHA-1, SHA-256
 explanation: |
-  Das Kapitel führt SSL/TLS und symmetrische/asymmetrische Verschlüsselung als einige Aspekte der Kryptographie auf, die in der Cybersicherheit verwendet werden.
-reviewed: false
+  Das Kapitel listet SSL/TLS und symmetrische/asymmetrische
+  Verschlüsselung als einige der Aspekte der Kryptografie auf, die in
+  der Cybersicherheit verwendet werden.
+reviewed: true

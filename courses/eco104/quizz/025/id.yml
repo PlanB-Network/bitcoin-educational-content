@@ -1,0 +1,13 @@
+question: Mengapa argumen bahwa bitcoin tidak berharga karena tidak didukung oleh apa pun itu salah?
+answer: Nilai bersifat subjektif dan didasarkan pada keyakinan serta pengalaman orang-orang.
+wrong_answers:
+  - Bitcoin didukung oleh emas, yang memberinya nilai inheren.
+  - Nilai Bitcoin ditentukan oleh kelangkaannya dan fitur keamanannya.
+  - Kekayaan Bitcoin didasarkan pada penerimaannya oleh pemerintah dan bank.
+explanation: |
+  Nilai bersifat subjektif dan tergantung pada pandangan orang yang memandang. Bitcoin berharga
+  karena orang percaya demikian, sama seperti seni bisa berharga meskipun
+  terbuat dari kanvas dan cat. Argumen bahwa mata uang harus didukung oleh
+  sesuatu yang bernilai itu tidak akurat, karena nilai dari mata uang fiat seperti dolar AS
+  didasarkan pada kepercayaan dan keyakinan juga.
+reviewed: true

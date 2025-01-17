@@ -1,14 +1,14 @@
 question: What is one of the potential applications of the Lightning Network in everyday
   life?
-answer: Instant billing in commerce
+answer: Instant billing in commerce.
 wrong_answers:
-  - Mining new Bitcoins
-  - Creating new cryptocurrencies
-  - Increasing the value of Bitcoin
+  - Mining new Bitcoins.
+  - Creating new cryptocurrencies.
+  - Increasing the value of Bitcoin.
 explanation: >-
   The Lightning Network opens the door to a wide range of potential
   applications
   for Bitcoin that were previously out of reach due to the constraints necessary to
   ensure the security and decentralization of Bitcoin. Among these applications in
   everyday life, we can mention instant billing in commerce.
-reviewed: false
+reviewed: true

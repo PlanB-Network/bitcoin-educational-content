@@ -8,7 +8,7 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 
 Apakah Anda ingin menambahkan podcast Bitcoin ke situs Jaringan PlanB dan meningkatkan visibilitas acara Anda, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!
 ![podcast](assets/01.webp)
-- Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuatnya, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/create-github-account).
+- Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuatnya, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) di bagian `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, kemudian pada `Create new file`:

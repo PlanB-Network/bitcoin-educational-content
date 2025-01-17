@@ -1,0 +1,9 @@
+question: Millist räsifunktsiooni kasutatakse mnemoonilise fraasi kontrollsumma arvutamiseks?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Mnemoonilise fraasi kontrollsumma arvutatakse, rakendades entroopiale lihtsat SHA256 räsi.
+reviewed: false

@@ -1,11 +1,12 @@
 question: Qual é uma maneira única de se envolver no ecossistema do Bitcoin através da mineração?
 answer: Minerar Bitcoin no inverno pode ser uma maneira inteligente de aquecer sua casa enquanto gera renda em Bitcoin.
 wrong_answers:
-  - Minerar Bitcoin pode ser uma maneira de obter eletricidade gratuita.
-  - Minerar Bitcoin pode ser uma maneira de obter internet gratuita.
-  - Minerar Bitcoin pode ser uma maneira de obter hardware gratuito.
+  - Minerar Bitcoin pode ser uma maneira de obter eletricidade grátis.
+  - Minerar Bitcoin pode ser uma maneira de obter internet grátis.
+  - Minerar Bitcoin pode ser uma maneira de obter hardware grátis.
 explanation: |
-  Uma maneira única de se envolver no ecossistema do Bitcoin através da mineração
-  é minerar Bitcoin no inverno. Isso pode ser uma maneira inteligente de aquecer sua casa enquanto
-  gera renda em Bitcoin.
-reviewed: false
+  Uma maneira única de se envolver no ecossistema do Bitcoin
+  através da mineração é minerando Bitcoin no inverno. Isso pode
+  ser uma maneira inteligente de aquecer sua casa enquanto gera renda
+  em Bitcoin.
+reviewed: true

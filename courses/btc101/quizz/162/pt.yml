@@ -1,9 +1,9 @@
-question: Qual é o papel dos mineradores no protocolo do Bitcoin?
+question: Qual é o papel dos mineradores no protocolo Bitcoin?
 answer: Eles garantem a segurança da rede atual e histórica.
 wrong_answers:
-  - Eles regulam o preço do Bitcoin
-  - Eles controlam o fornecimento de Bitcoin
-  - Eles gerenciam transações entre usuários
+  - Eles regulam o preço do Bitcoin.
+  - Eles controlam a oferta de Bitcoin.
+  - Eles gerenciam transações entre usuários.
 explanation: |
-  Os mineradores no protocolo do Bitcoin garantem a segurança tanto da rede atual quanto da histórica. Eles não regulam o preço do Bitcoin, controlam seu fornecimento ou gerenciam transações entre usuários.
-reviewed: false
+  Os mineradores no protocolo Bitcoin garantem a segurança tanto da rede atual quanto da histórica. Eles não regulam o preço do Bitcoin, não controlam sua oferta, nem gerenciam transações entre usuários.
+reviewed: true

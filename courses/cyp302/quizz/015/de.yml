@@ -1,0 +1,9 @@
+question: Was ist die Definition einer Zufallsvariablen im Kontext der Kryptographie?
+answer: Eine Variable, die mehrere mögliche Werte mit einer positiven Wahrscheinlichkeit annehmen kann
+wrong_answers:
+  - Eine Variable, die in jedem Moment ihren Wert ändert
+  - Eine Variable, deren Werte fest und vordefiniert sind
+  - Eine Variable, die immer im Kontext eines spezifischen physischen Experiments definiert wird
+explanation: |
+  Eine Zufallsvariable kann zwei oder mehr Werte annehmen, jeweils mit einer positiven Wahrscheinlichkeit, und sie wird oft abstrakt im Kontext der Kryptographie definiert.
+reviewed: false

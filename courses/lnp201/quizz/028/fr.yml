@@ -1,9 +1,9 @@
-question: Qui sont les deux pairs impliqués dans le transfert du Lightning Network dans l'exemple ?
-answer: Alice et Bob.
+question: Que peut faire Bob s'il détecte une tentative de tricherie d'Alice lors de la fermeture du canal ?
+answer: Utiliser la clé de révocation pour récupérer l'intégralité des fonds
 wrong_answers:
-  - Alice et Charlie.
-  - Bob et Charlie.
-  - Alice et le réseau Bitcoin.
+  - Annuler la transaction d'engagement d'Alice
+  - Fermer définitivement le canal sans option de réouverture
+  - Réclamer uniquement la moitié des fonds disponibles
 explanation: |
-  Dans l'exemple, Alice et Bob sont les deux pairs impliqués dans le transfert du Lightning Network.
+  En cas de tricherie, Bob peut utiliser la clé de révocation pour récupérer tous les fonds du canal, punissant ainsi Alice pour sa tentative.
 reviewed: false

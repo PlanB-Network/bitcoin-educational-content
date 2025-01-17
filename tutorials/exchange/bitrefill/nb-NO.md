@@ -28,9 +28,9 @@ Skriv inn en e-postadresse. Hvis du ønsker å holde kontoen din anonym, sørg f
 ![BITREFILL](assets/notext/05.webp)
 Hvis du vil lære hvordan du enkelt oppretter en sikker e-postboks og hvordan du håndterer passordene dine, anbefaler jeg å konsultere disse 2 andre opplæringene:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Deretter klikker du på "*Create account*" knappen.
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ I "*To-faktor autentisering*" seksjonen, klikk på "*Aktiver*" knappen og følg 
 ![BITREFILL](assets/notext/13.webp)
 For å lære mer om hvordan du bruker to-faktor autentisering for å sikre dine online kontoer, anbefaler jeg å utforske denne andre opplæringen:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Hvordan kjøpe et gavekort i BTC på Bitrefill?
 
@@ -88,4 +88,4 @@ Og der har du det, nå vet du hvordan du kan bruke dine bitcoins uten KYC hos st
 
 Hvis du ønsker å bidra til populariseringen av Bitcoin og oppmuntre en uavhengig handlende til å adoptere denne betalingsmetoden, anbefaler jeg å konsultere vår komplette veiledning på Swiss Bitcoin Pay. Det er en alt-i-ett løsning for BTC betalingsprosessorer, enkel å installere og håndtere på daglig basis:
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

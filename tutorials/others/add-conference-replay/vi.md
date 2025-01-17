@@ -10,13 +10,13 @@ Bạn muốn thêm video hội nghị Bitcoin của mình trên trang web Mạng
 
 Tuy nhiên, nếu bạn muốn thêm một hội nghị sẽ diễn ra trong tương lai, tôi khuyên bạn nên đọc hướng dẫn khác này trong đó chúng tôi giải thích cách thêm một sự kiện mới vào trang web.
 
-https://planb.network/tutorials/others/add-event
+https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
 - Đầu tiên, bạn cần phải có một tài khoản trên GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã làm một hướng dẫn chi tiết để hướng dẫn bạn.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
@@ -69,7 +69,7 @@ tags:
 
 ![conference](assets/09.webp)
 Nếu bạn chưa có một định danh "*builder*" cho tổ chức của mình, bạn có thể thêm nó bằng cách theo dõi hướng dẫn khác này.
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Sau khi bạn hoàn thành việc thay đổi tệp này, hãy lưu chúng bằng cách nhấp vào nút `Commit changes...`:
 ![hội nghị](assets/10.webp)

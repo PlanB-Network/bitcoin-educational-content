@@ -1,0 +1,9 @@
+question: Mikä on nonce-arvon rooli todennetussa salausjärjestelmässä?
+answer: Varmistaa, että jokaisella viestillä on ainutlaatuinen tunniste toistojen estämiseksi
+wrong_answers:
+  - Tunnistaa viestin lähettäjän
+  - Luo väliaikaisen salausavaimen
+  - Lisää ylimääräisen salauskerroksen
+explanation: |
+  Todennetussa salausjärjestelmässä nonce-arvoa käytetään varmistamaan, että jokaisella viestillä on ainutlaatuinen tunniste, mikä parantaa turvallisuutta estämällä toistot.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is one main difference between treating Bitcoin as a digital asset versus treating it like a currency in accounting?
+answer: As a digital asset, each transaction’s cost basis and gains/losses must be tracked, whereas if it were treated like a currency, revaluations would be simpler and less frequent.
+wrong_answers:
+  - When treated as a digital asset, it is completely exempt from all taxes.
+  - When treated like a currency, no records of transactions are needed.
+  - Treating it like a currency requires an immediate switch to a new accounting software.
+explanation: |
+  Digital asset treatment typically involves calculating capital gains or losses on each transaction, adding complexity. If Bitcoin were accounted for like a currency, it would be simpler: just update the fiat value periodically, as done for other currencies.
+reviewed: false

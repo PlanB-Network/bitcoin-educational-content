@@ -90,10 +90,10 @@ Instead, if you want to have a bird-eye view of our published contents and propo
 
 ## Incentive model: Value-4-Value
 
-We believe in the power of Proof Of Work and how it enables a value-4-value model. In the words of one of the greatest poets of our times, DerGigi, we consider time, talent and treasure. Thus, we are commited to give back to those who enrich us with their time and talent.
+We believe in the power of Proof Of Work and how it enables a value-4-value model. In the words of one of the greatest poets of our times, DerGigi, we consider time, talent and treasure. Thus, we are committed to give back to those who enrich us with their time and talent.
 
 In practical terms, it means that any task (content creation, peer-reviewing,
-proofreading), explicited as an individual Github issue, is correlated to a
+proofreading), explicitly as an individual Github issue, is correlated to a
 reward in sats. And when the issue is closed, the reward is sent to the contributor who completed the task.
 
 If you want to learn more about it, go have a [look here](#why-value-4-value-PoW-model?)
@@ -135,11 +135,11 @@ Literally EVERY LANGUAGE is needed!
 
 If you are enthusiastic about this initiative and you would like to help us, please add your local language to the github repo and the website. Kindly follow the following steps:
 1. Join the [PBN Content Builder TG group](https://t.me/PlanBNetwork_ContentBuilder) and present the languages you speak.
-2. [Add the new language](https://planb.network/en/tutorials/others/add-new-language-weblate) on the Weblate app (an account on Weblate is required).
-3. [Start translating the static elements](https://planb.network/en/tutorials/others/translate-front-weblate) of the website.
+2. [Add the new language](https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86) on the Weblate app (an account on Weblate is required).
+3. [Start translating the static elements](https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
 4. When you finish, go back to the [TG group](https://t.me/PlanBNetwork_ContentBuilder) and inform us that you have completed the task to receive the reward in sats.
 5. Thanks to the [LLM-Translator](https://github.com/Asi0Flammeus/LLM-Translator), we'll get the automatic translation of both the BTC101 and the SCU101 courses to benchmark the automatic translation accuracy.
-6. [Start proofreading](https://planb.network/en/tutorials/others/content-review-tutorial) the BTC101 and SECU101 courses on GitHub (an account on GitHub is required) in the corresponding language.
+6. [Start proofreading](https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) the BTC101 and SECU101 courses on GitHub (an account on GitHub is required) in the corresponding language.
 7. After you finish and we merge the PR, we will send you the reward in sats.
 8. If the automatic translation is good enough, we will automatically translate all the educational content of PBN and publish it on the website.
 9. Then, anyone will be able to choose any content in that language to proofread and receive the associated reward.
@@ -161,7 +161,7 @@ Therefore, we have implemented this incentive model. First, you will get paid
 per task (content creation, translation/proofreading): there is a whole payment system set in place by Asi0 -- if
 you are curious about it, you will find some details in the [documentation](./docs/value-4-value-model.md). In short,
 each content type has a formula based on various parameters like the number of
-words, the content difficulty, and other critera, so the reward associated to each task is
+words, the content difficulty, and other criteria, so the reward associated to each task is
 defined in the assigned issue.
 
 ## How will it be in the following months?
@@ -174,7 +174,7 @@ The better the quality of your work, the more translations you will get. The mor
 
 **LONG LIVE VALUE-FOR-VALUE!**
 
-# End Goal: Anihilate language barriers for Bitcoin Education
+# End Goal: Overcome the language barriers in Bitcoin Education
 
 So that's it, that's our plan to take over the world! We seek every role in every language: translators, educators, and most importantly, individuals that are eager to learn.
 

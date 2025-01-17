@@ -1,0 +1,11 @@
+question: Apa salah satu metode untuk mengamankan bitcoin Anda dalam jangka panjang?
+answer: Ukir frasa mnemonik Anda pada material yang tahan seperti baja
+wrong_answers:
+  - Simpan di dalam dompet digital
+  - Simpan di platform pertukaran
+  - Bagikan frasa mnemonik Anda dengan teman yang dipercaya
+explanation: |
+  Mengukir frasa mnemonik Anda pada material yang tahan seperti baja menciptakan
+  cadangan fisik dari kunci Anda yang tahan terhadap kerusakan air dan api,
+  sehingga mengamankan bitcoin Anda dalam jangka panjang.
+reviewed: true

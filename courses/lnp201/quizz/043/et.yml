@@ -1,0 +1,8 @@
+question: Millist informatsiooni saab Bob arvele lisada, et hõlbustada marsruutimist?
+answer: Lähedal asuvad kanalid piisava likviidsusega või privaatsete kanalite olemasolu
+wrong_answers:
+  - Vahepunktide privaatvõtmed
+  - Kogu võrgu kanalite täielik kaart
+  - Iga kanali täpne saadaoleva likviidsuse summa
+explanation: |
+  Näidates lähedal asuvaid likviidsusega kanaleid või avalikustades privaatseid kanaleid, aitab Bob Alicel valida marsruute, millel on parem edukuse tõenäosus.

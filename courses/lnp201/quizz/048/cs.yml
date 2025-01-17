@@ -1,11 +1,9 @@
-question: Co je nucené uzavření?
-answer: Jeden účastník chce uzavřít kanál, ale druhý účastník nereaguje, takže první účastník zveřejní nejnovější závaznou transakci.
+question: Jak technologie Keysend umožňuje převod finančních prostředků bez faktury?
+answer: Odesílatel generuje tajemství v HTLCs pro odemčení prostředků
 wrong_answers:
-  - Oba účastníci souhlasí s uzavřením kanálu a vytvoří uzavírací transakci.
-  - Jeden účastník se pokusí podvést zveřejněním staré závazné transakce.
-  - Oba účastníci se přou o zbývající SAT v kanálu.
+  - Příjemce generuje hash pro ověření převodu
+  - Platba je ověřena přes přímý kanál mezi odesílatelem a příjemcem
+  - Prostředky jsou připsány přímo bez dalšího zabezpečení
 explanation: |
-  K nucenému uzavření dochází, když jeden účastník chce uzavřít kanál, ale
-  druhý účastník nereaguje, protože je offline. První účastník poté zveřejní
-  nejnovější závaznou transakci.
+  Keysend umožňuje odesílateli generovat tajemství vložené do HTLCs, což umožňuje příjemci odemknout prostředky bez vystavení faktury.
 reviewed: false

@@ -1,10 +1,8 @@
-question: Mikä on XOR-operaattorin rooli SHA256:n tiivistysfunktiossa?
-answer: Käsittelemään bittejä yksi kerrallaan niiden järjestyksen mukaan
+question: Mikä on lohkon koko, jota SHA512 käyttää HMAC ssa?
+answer: 128 tavua
 wrong_answers:
-  - Palauttaa 1 vain, jos molemmat operandit ovat yhtä suuri kuin 1
-  - Palauttaa operandin vastakkaisen arvon
-  - Siirtää bitit oikealle valitun numeron verran
+  - 64 tavua
+  - 256 tavua
+  - 1024 tavua
 explanation: |
-  SHA256:n tiivistysfunktiossa XOR-operaattoria käytetään käsittelemään
-  bitit yksi kerrallaan niiden järjestyksen mukaan. Tämä tehdään käyttäen totuustaulua.
-reviewed: false
+  SHA512 käyttää laskelmissaan 128 tavun lohkoja, mikä vastaa 1024 bittiä.

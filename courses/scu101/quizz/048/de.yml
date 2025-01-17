@@ -1,9 +1,12 @@
-question: Was ist der häufigste zweite Schritt bei 2FA?
-answer: Ein Code, der von einer Anwendung wie Google Authenticator oder Authy generiert wird.
+question: Welche der folgenden Methoden ist eine gute und sichere Methode in der 2-Faktor-Authentifizierung?
+answer: Ein durch eine Anwendung wie Google Authenticator oder Authy generierter Code.
 wrong_answers:
-  - Ein Telefonanruf an den Kontoinhaber
-  - Eine E-Mail an den Kontoinhaber
-  - Ein Brief, der an die Wohnadresse des Kontoinhabers geschickt wird
+  - Ein Anruf oder ein SMS-Code an den Kontoinhaber
+  - Eine E-Mail mit einem 10 Minuten ablaufenden Code darin an den Kontoinhaber
+  - Ein Brief, der an die Wohnadresse des Kontoinhabers gesendet wird
 explanation: |
-  Der zweite Schritt bei 2FA kann ein temporärer Code sein, der per SMS gesendet wird, ein von einer Anwendung generierter Code oder ein physischer Sicherheitsschlüssel.
-reviewed: false
+  Der zweite Schritt in der 2FA kann ein temporärer Code sein, der
+  via SMS, E-Mail, ein durch eine Anwendung generierter Code oder ein
+  physischer Sicherheitsschlüssel sein. Allerdings erlauben nicht alle diese Methoden,
+  das gleiche Sicherheitsniveau beizubehalten.
+reviewed: true

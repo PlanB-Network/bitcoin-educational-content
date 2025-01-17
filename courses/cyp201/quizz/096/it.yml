@@ -1,9 +1,0 @@
-question: Qual è la dimensione di una chiave estesa?
-answer: 82 byte
-wrong_answers:
-  - 65 byte
-  - 33 byte
-  - 512 bit
-explanation: |
-  Le chiavi estese hanno una dimensione di 82 byte e il loro prefisso è rappresentato in base 58 tramite conversione esadecimale.
-reviewed: false

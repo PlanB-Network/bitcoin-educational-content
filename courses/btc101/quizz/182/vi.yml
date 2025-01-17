@@ -1,9 +1,11 @@
-question: Một trong những lý do khiến Bitcoin được sử dụng rộng rãi trên các chợ đen như Silk Road là gì?
+question: Đặc điểm nào sau đây đã góp phần vào sự mở rộng việc sử dụng Bitcoin trong các chợ trời mạng đen như Silk Road?
+  như Silk Road?
 answer: Bản chất không thể kiểm soát và ẩn danh.
 wrong_answers:
-  - Sự kiểm soát tập trung.
-  - Tính có thể truy vết.
-  - Thiếu ẩn danh.
+  - Sự kiểm soát tập trung của nó.
+  - Tính dễ dàng truy vết và có thể kiểm soát của nó.
+  - Thiếu ẩn danh của nó.
 explanation: >-
-  Bitcoin được sử dụng rộng rãi trên các chợ đen như Silk Road do bản chất không thể kiểm soát và ẩn danh của nó.
-reviewed: false
+  Việc sử dụng Bitcoin mở rộng ra các chợ trời mạng đen như Silk Road do
+  bản chất không thể kiểm soát và ẩn danh của nó.
+reviewed: true

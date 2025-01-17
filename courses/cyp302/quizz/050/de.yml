@@ -1,0 +1,8 @@
+question: Warum sind Erweiterungsfelder mit einer Basis von 2 in der Kryptographie nützlich?
+answer: Sie ermöglichen die sichere Manipulation von Binärstrings.
+wrong_answers:
+  - Sie vereinfachen Berechnungen, indem sie die Anzahl der Operationen reduzieren.
+  - Sie verhindern Rechenfehler durch Hinzufügen von Redundanz.
+  - Sie begrenzen die Bandbreite der Möglichkeiten, indem sie die Anzahl der Elemente verringern.
+explanation: |
+  Erweiterungsfelder mit einer Basis von 2 sind praktisch, weil ihre Elemente als Binärstrings betrachtet werden können, was es einfacher macht, Operationen auf digitalen Daten auf der Binärebene in Systemen durchzuführen.

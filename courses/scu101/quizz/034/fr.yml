@@ -1,9 +1,11 @@
-question: Que peuvent contenir les pièces jointes et les images des e-mails ?
-answer: Malware
+question: Quel contenu malveillant peut contenir les pièces jointes et images d'un email ?
+answer: Logiciels malveillants
 wrong_answers:
   - Spam
   - Publicités
   - Contenu promotionnel
 explanation: |
-  Les pièces jointes et les images des e-mails peuvent contenir des logiciels malveillants. Par conséquent, vous ne devriez pas télécharger ou ouvrir les pièces jointes provenant d'expéditeurs inconnus ou suspects.
-reviewed: false
+  Les pièces jointes et images d'un email peuvent contenir des logiciels malveillants.
+  Par conséquent, vous ne devriez pas télécharger ou ouvrir des pièces jointes provenant
+  d'expéditeurs inconnus ou suspects.
+reviewed: true

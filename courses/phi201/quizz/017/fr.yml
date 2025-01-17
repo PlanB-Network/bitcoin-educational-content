@@ -1,8 +1,9 @@
 question: Quelle est la critique principale adressée à l'analyse de Marx ?
-answer: Toutes les réponses ci-dessus
+answer: Toutes les autres réponses
 wrong_answers:
   - Marx ne prend pas en compte le rôle des institutions politiques dans l'histoire
   - Marx sous-estime l'importance de l'innovation et du progrès technique
   - Marx a une vision erronée de la nature du profit et de l'exploitation
-explanation: 
+explanation: |
+  Les critiques de l'analyse de Marx soulignent plusieurs points, tels que son ignorance des institutions politiques, sa sous-estimation de l'innovation et du progrès technique, ainsi qu'une compréhension contestée du profit et de l'exploitation, suggérant une vision trop simpliste des dynamiques économiques.
 reviewed: false

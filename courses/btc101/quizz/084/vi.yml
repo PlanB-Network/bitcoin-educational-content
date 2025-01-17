@@ -1,11 +1,11 @@
 question: Điều gì nên là mối quan tâm chính khi bạn sở hữu bitcoin?
-answer: An toàn cho quỹ của bạn
+answer: An toàn cho quỹ của bạn.
 wrong_answers:
-  - Giá trị theo đô la của bitcoin của bạn
-  - Tính hợp pháp của việc sở hữu bitcoin
-  - Sự cho phép chi tiêu bitcoin của bạn
+  - Giá trị của Bitcoin theo đô la.
+  - Tính hợp pháp của việc sở hữu bitcoin.
+  - Quyền được chi tiêu quỹ của bạn.
 explanation: |
-  Khi bạn sở hữu bitcoin, mối quan tâm chính là an toàn cho quỹ của bạn.
-  Điều này là bởi vì bitcoin, giống như bất kỳ hình thức tiền tệ nào khác, có thể bị đánh cắp hoặc mất
-  nếu không được bảo mật đúng cách.
-reviewed: false
+  Khi bạn sở hữu bitcoin, mối quan tâm chính là an toàn
+  cho quỹ của bạn. Điều này là bởi vì Bitcoin, giống như bất kỳ hình thức
+  tiền tệ nào khác, có thể bị đánh cắp hoặc mất nếu không được bảo vệ đúng cách.
+reviewed: true

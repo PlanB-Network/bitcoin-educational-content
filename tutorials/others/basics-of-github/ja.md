@@ -57,5 +57,5 @@ GitとGitHubでは、名前が複雑に見えるかもしれないコマンド�
 
 このリストは明らかに網羅的ではありません。GitとGitHubに特有の他の多くの技術用語があります。しかし、ここで言及されているものは、頻繁に遭遇する主なものです。
 この記事を読んだ後、GitとGitHubのいくつかの側面がまだ不明瞭である可能性があります。これらのツールを自分で使い始めることをお勧めします。実践はしばしば、機械がどのように機能するかを理解する最良の方法です！そして始めるために、これらの2つの他のチュートリアルを発見することができます：
-**[GitHubアカウントの作成](https://planb.network/tutorials/others/create-github-account)**
-**[PlanB Networkに貢献するためのローカル環境の設定](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[GitHubアカウントの作成](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[PlanB Networkに貢献するためのローカル環境の設定](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**

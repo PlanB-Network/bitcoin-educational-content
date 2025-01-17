@@ -1,12 +1,9 @@
-question: Jaký je první krok při otevírání kanálu v Lightning Network?
-answer: Dva partneři sdělí svůj záměr otevřít kanál.
+question: Co se stane, pokud Bob pošle Aleně fakturu na 30 000 satoshi?
+answer: Alena vytvoří závaznou transakci pro převod 30 000 satoshi Bobovi v kanálu.
 wrong_answers:
-  - Alice pošle peníze na veřejnou adresu Boba.
-  - Alice vytvoří 2/2 multi-sig adresu.
-  - Alice publikuje transakci do Bitcoinové sítě.
+  - Alena musí otevřít nový kanál, aby mohla provést tento převod.
+  - Bob automaticky obdrží 30 000 satoshi ve své peněžence.
+  - Faktura je zaplacena prostřednictvím on-chain transakce na Bitcoinu.
 explanation: |
-  Prvním krokem při otevírání kanálu v Lightning Network je, že
-  dva partneři sdělí svůj záměr otevřít kanál. Například Alice by mohla
-  říci: "Ahoj, chci otevřít kanál!" a Bob by mohl odpovědět: "Ok, tady je moje veřejná
-  adresa."
+  Když Bob pošle Aleně fakturu, ona vytvoří a podepíše novou závaznou transakci pro úpravu rozdělení prostředků, čímž převede 30 000 satoshi v kanálu.
 reviewed: false

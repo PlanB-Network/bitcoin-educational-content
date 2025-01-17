@@ -1,9 +1,9 @@
-question: Qual è il principio dei cassetti nel contesto delle funzioni di hash crittografiche?
-answer: Spiega perché, nonostante i nostri migliori sforzi, è impossibile evitare le collisioni a causa della limitazione della dimensione dell'output.
+question: Qual è la funzione principale di una funzione hash?
+answer: Converte informazioni di lunghezza arbitraria in un'impronta digitale di dimensione fissa
 wrong_answers:
-  - Spiega il meccanismo di archiviazione delle funzioni di hash.
-  - Descrive il processo di creazione di un hash.
-  - È un principio che spiega l'irreversibilità delle funzioni di hash.
+  - Cripta i messaggi per renderli illeggibili
+  - È usata solo per verificare l'integrità del software Bitcoin
+  - Genera chiavi private per i portafogli Bitcoin
 explanation: |
-  Il principio dei cassetti nel contesto delle funzioni di hash crittografiche spiega che a causa della limitazione della dimensione dell'output, è impossibile evitare le collisioni. Ciò è dovuto al fatto che ci sono più possibili input rispetto agli output, quindi alcuni input devono inevitabilmente condividere lo stesso output.
+  Una funzione hash trasforma dati di qualsiasi dimensione in un hash di dimensione fissa, cruciale per molte applicazioni in Bitcoin.
 reviewed: false

@@ -1,12 +1,13 @@
-question: Quelle est l'utilisation recommandée d'un portefeuille mobile ?
-answer: Pour les dépenses quotidiennes
+question: Quel est l'usage recommandé d'un portefeuille mobile ?
+answer: Stocker les dépenses quotidiennes.
 wrong_answers:
-  - Pour les économies à long terme
-  - Pour les économies à moyen terme
-  - Pour les grosses sommes
+  - Stocker les économies à long terme.
+  - Stocker les économies à moyen terme.
+  - Stocker de grandes sommes.
 explanation: |
-  Un portefeuille mobile est recommandé pour les dépenses quotidiennes car il est facile
-  d'effectuer des transactions avec lui. Cependant, il n'est pas recommandé pour stocker de
-  grosses sommes ou pour des économies à long terme car il est potentiellement vulnérable aux
+  Un portefeuille mobile est recommandé pour les dépenses quotidiennes car
+  il est facile de réaliser des transactions avec. Cependant, il
+  n'est pas recommandé pour stocker de grandes sommes ou pour
+  les économies à long terme car il est potentiellement vulnérable aux
   menaces en ligne.
-reviewed: false
+reviewed: true

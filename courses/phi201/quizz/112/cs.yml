@@ -1,0 +1,9 @@
+question: Jakou roli by podle Keynese měl stát hrát v ekonomice?
+answer: Aktivní roli stimulací poptávky pro podporu ekonomiky
+wrong_answers:
+  - Minimální roli, nechat ekonomiku regulovat trh
+  - Neutrální roli bez zasahování do tržních mechanismů
+  - Převážně fiskální roli pro vyrovnání rozpočtu
+explanation: |
+  Keynes tvrdil, že stát by měl aktivně zasahovat a stimulovat poptávku, zejména během recese, aby podpořil ekonomiku a kompenzoval nedostatky trhu.
+reviewed: false

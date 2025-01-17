@@ -3,10 +3,10 @@ answer: CPI voi aliarvioida todellista inflaatiota, koska se ei ota kattavasti h
 wrong_answers:
   - CPI mittaa aina inflaation tarkasti.
   - CPI yliarvioi todellista inflaatiota.
-  - CPI:llä ei ole vaikutusta inflaation mittaamiseen.
+  - CPI: llä ei ole vaikutusta inflaation mittaamiseen.
 explanation: |
-  Luvussa selitetään, että CPI:tä käytetään inflaation pääindikaattorina,
+  Luvussa selitetään, että CPI: tä käytetään inflaation pääindikaattorina,
   mutta sillä on tiettyjä rajoituksia. Esimerkiksi se ei ota kattavasti huomioon
-  kiinteistöjen hintojen kehitystä. Lisäksi CPI:n laskentamenetelmissä on tiettyjä
+  kiinteistöjen hintojen kehitystä. Lisäksi CPI: n laskentamenetelmissä on tiettyjä
   menetelmiä, jotka voivat kompensoida tai peittää todellisia hinnannousuja.
 reviewed: false

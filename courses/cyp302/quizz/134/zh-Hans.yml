@@ -1,0 +1,8 @@
+question: 在Alice和Bob之间的通信中，非对称加密的主要目标是什么？
+answer: 允许Bob使用Alice的公钥传输秘密消息
+wrong_answers:
+  - 允许Bob在没有公钥的情况下加密和解密消息
+  - 防止Alice解密Bob的消息
+  - 允许Alice加密消息以验证其完整性
+explanation: |
+  在非对称加密中，Alice的公钥使得Bob能够发送一个只有她能解密的加密消息，从而确保了消息的保密性。

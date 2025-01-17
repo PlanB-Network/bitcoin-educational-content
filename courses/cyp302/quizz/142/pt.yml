@@ -1,0 +1,9 @@
+question: Qual é o nome de um problema onde é fácil computar um resultado em uma direção, mas quase impossível reverter?
+answer: Uma função unidirecional
+wrong_answers:
+  - Uma função linear
+  - Uma função exponencial
+  - Uma função reversível
+explanation: |
+  As funções unidirecionais permitem uma computação rápida em uma direção, mas tornam a resolução inversa praticamente impossível, daí sua utilidade em criptografia.
+reviewed: false

@@ -1,9 +1,10 @@
 question: Was ist eine mögliche Auswirkung des Fortschritts der KI-Technologien?
-answer: Über 80% der Arbeitsplätze werden aufgrund von KI und Automatisierung verschwinden.
+answer: KI-Technologien werden dazu führen, dass über 80% der heutigen Arbeitsplätze verschwinden.
 wrong_answers:
-  - KI-Technologien werden Menschen überflüssig machen.
-  - KI-Technologien werden zu einer Abnahme der menschlichen Intelligenz führen.
-  - KI-Technologien werden zu einem globalen wirtschaftlichen Zusammenbruch führen.
-explanation: |
-  Der Text erwähnt, dass eine mögliche Auswirkung des Fortschritts der KI-Technologien darin besteht, dass über 80% der Arbeitsplätze aufgrund von KI und Automatisierung verschwinden werden.
-reviewed: false
+  - KI-Technologien werden alle Computer zerstören.
+  - KI-Technologien werden zu einem Rückgang der menschlichen Intelligenz führen.
+  - KI-Technologien werden einen globalen wirtschaftlichen Zusammenbruch verursachen.
+explanation: >-
+  Der Text erwähnt, dass eine mögliche Auswirkung des Fortschritts der
+  KI-Technologien darin besteht, dass über 80% der Arbeitsplätze aufgrund von KI und Automatisierung verschwinden werden.
+reviewed: true

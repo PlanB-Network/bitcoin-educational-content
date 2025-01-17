@@ -1,0 +1,9 @@
+question: 1998年，Bernard von NotHaus创造了基于金和银的哪种货币？
+answer: 自由美元
+wrong_answers:
+  - 自由储备
+  - 电子黄金
+  - 黄金货币
+explanation: |
+  这种货币以银币和代表性纸币的形式出现，然后从2003年开始以数字形式出现。
+reviewed: true

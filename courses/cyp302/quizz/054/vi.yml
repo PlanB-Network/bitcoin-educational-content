@@ -1,0 +1,9 @@
+question: Loại cấu trúc đại số chính được sử dụng trong lĩnh vực hữu hạn cho mật mã học là gì?
+answer: Đa thức bất khả quy
+wrong_answers:
+  - Ma trận vuông
+  - Vectơ ngẫu nhiên
+  - Căn bậc ba
+explanation: |
+  Trong mật mã học, các trường hữu hạn có bậc 2^m thường sử dụng đa thức bất khả quy để đảm bảo rằng trường được định nghĩa tốt và tất cả các phép toán đều có thể thực hiện được.
+reviewed: false

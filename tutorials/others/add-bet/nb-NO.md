@@ -14,7 +14,7 @@ Vil du delta i å berike denne databasen, men vet ikke hvordan? Denne veiledning
 ![event](assets/01.webp)
 - Først må du ha en konto på GitHub. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) i `resources/bet/` seksjonen:
@@ -49,7 +49,7 @@ contributors:
 Her er detaljene du må fylle ut for hvert felt:
 ```yaml
 builder: Indiker din organisasjons identifikator på PlanB Network. Hvis du ikke allerede har en "builder" identifikator for ditt firma, kan du opprette en ved å følge denne veiledningen.
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 Hvis du ikke har en, kan du enkelt bruke ditt navn, ditt pseudonym, eller navnet på din bedrift uten å ha opprettet en builder-profil.
 

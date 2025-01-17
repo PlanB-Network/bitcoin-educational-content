@@ -1406,7 +1406,7 @@ Hayek acreditava que um mercado livre de moedas privadas levaria a uma maior est
 
 
 
-## Avalie o curso
+## Avaliações & Notas
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1433,4 +1433,14 @@ Agora experimentamos todas as variantes do estatismo, e todas falharam. Em todo 
 Em certo sentido, nossa situação é melhor do que no passado. Após os sucessivos fracassos de vários experimentos socialistas, comunistas e social-democratas, sabemos hoje como distinguir, melhor do que ontem, ideias verdadeiras de falsas. E ideias falsas podem ser refutadas e substituídas por verdadeiras. Como Mises disse:
 Tudo o que acontece na sociedade global em que vivemos é resultado de ideias. As boas e as ruins. O que é necessário é combater as ideias falsas. (...) Nossa civilização pode sobreviver, e deve. E sobreviverá graças a ideias melhores do que aquelas que governam o mundo hoje; e essas ideias melhores serão desenvolvidas pela geração emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
-
+# Conclusão
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+## Avaliações & Notas
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+## Exame final
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+## Conclusão
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

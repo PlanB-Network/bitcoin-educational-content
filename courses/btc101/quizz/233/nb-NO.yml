@@ -1,0 +1,12 @@
+question: Hva er hovedformålet med Lightning Network?
+answer: Å legge til rette for mikrotransaksjoner
+wrong_answers:
+  - Å øke verdien av Bitcoin
+  - Å erstatte Bitcoin-protokollen
+  - Å skape en ny kryptovaluta
+explanation: >-
+  Lightning Network er en sekundærløsning til Bitcoin-protokollen
+  som har som mål å legge til rette for mikrotransaksjoner, som er transaksjoner av veldig lav verdi
+  som ellers ville vært upraktiske på grunn av høye gebyrer og lange bekreftelsestider
+  på Bitcoin-blockchainen.
+reviewed: false

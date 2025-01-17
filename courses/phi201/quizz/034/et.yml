@@ -1,0 +1,9 @@
+question: Mis vahe on loomulikul õigusel ja positiivsel õigusel Rooma mõtteviisis?
+answer: Loomulik õigus on universaalne ja muutumatu, samas kui positiivne õigus on muutuv ja sõltub inimseadustest.
+wrong_answers:
+  - Loomulik õigus on võimsate õigus, samas kui positiivne õigus on nõrkade õigus.
+  - Loomulik õigus põhineb religioonil, samas kui positiivne õigus põhineb mõistusel.
+  - Loomulik õigus kehtib ainult Rooma kodanikele, samas kui positiivne õigus kehtib kõigile impeeriumi elanikele.
+explanation: |
+  Rooma mõtteviisis peetakse loomulikku õigust universaalseks ja muutumatuks, tulenevaks muutumatutest põhimõtetest, samas kui positiivne õigus on inimeste poolt kehtestatud reeglite kogum, mis võib muutuda vastavalt sotsiaalsetele ja poliitilistele kontekstidele.
+reviewed: false

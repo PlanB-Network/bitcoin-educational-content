@@ -65,6 +65,9 @@ On Sparrow, click on the "*Addresses*" tab.
 Then, note down on a piece of paper the very first receiving address of your wallet. In my example, the address is:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 After noting the information, go to the "*File*" menu, then select "*Delete Wallet*". I remind you once again that your Bitcoin wallet must be empty before proceeding with this operation.
 
 ![RECOVERY TEST](assets/notext/04.webp)

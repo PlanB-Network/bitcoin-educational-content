@@ -1,0 +1,9 @@
+question: Mikä on satunnaismuuttujan määritelmä kryptografian kontekstissa?
+answer: Muuttuja, joka voi saada useita mahdollisia arvoja positiivisella todennäköisyydellä
+wrong_answers:
+  - Muuttuja, jonka arvo muuttuu joka hetki
+  - Muuttuja, jonka arvot ovat kiinteitä ja ennalta määrättyjä
+  - Muuttuja, joka on aina määritelty tietyn fyysisen kokeen kontekstissa
+explanation: |
+  Satunnaismuuttuja voi saada kaksi tai useampia arvoja, joista jokaisella on positiivinen todennäköisyys, ja sitä määritellään usein abstraktisti kryptografian kontekstissa.
+reviewed: false

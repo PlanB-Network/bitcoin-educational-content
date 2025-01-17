@@ -1,0 +1,9 @@
+question: Podle Hayeka, jaká je souvislost mezi socialismem a nacismem?
+answer: Všechny ostatní odpovědi (sdílejí odmítnutí individualismu, dávají přednost blahu skupiny, používají nátlak).
+wrong_answers:
+  - Tyto dvě ideologie jsou nekompatibilní.
+  - Socialismus a nacismus se rozcházejí v ekonomických otázkách.
+  - Socialismus a nacismus nemají žádnou souvislost.
+explanation: |
+  Hayek tvrdil, že socialismus a nacismus sdílejí společné rysy, jako je odmítnutí individualismu ve prospěch kolektivu a používání nátlaku, což je činí podobnými ve svých autoritářských efektech.
+reviewed: false

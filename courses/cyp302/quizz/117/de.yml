@@ -1,0 +1,9 @@
+question: In welcher Phase der AES-Verschlüsselung werden Galois-Felder verwendet?
+answer: Bei der Byte-Substitution und der MixColumns-Operation
+wrong_answers:
+  - Bei der Generierung des privaten Schlüssels
+  - Beim Aufteilen des Textes in 128-Bit-Blöcke
+  - In jeder Phase der XOR-Operation
+explanation: |
+  Galois-Felder werden bei der Byte-Substitution verwendet, um das multiplikative Inverse zu berechnen, und bei der MixColumns-Operation, um Multiplikationen modulo eines irreduziblen Polynoms durchzuführen.
+reviewed: false

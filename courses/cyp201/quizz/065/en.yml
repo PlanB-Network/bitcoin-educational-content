@@ -1,11 +1,9 @@
-question: What is the main advantage of using a new key pair for each Bitcoin transaction?
-answer: It enhances security.
+question: What is the difference between a normal child key and a hardened child key?
+answer: A hardened child key requires the parent private key for its derivation.
 wrong_answers:
-  - It enhances speed.
-  - It enhances anonymity.
-  - It enhances legality.
+  - A normal child key cannot derive from public keys.
+  - A hardened child key uses an odd index.
+  - A normal child key is more secure than a hardened child key.
 explanation: |
-  Using a new key pair for each transaction enhances the security of Bitcoin
-  transactions. However, it complicates their backup and only partially preserves
-  confidentiality.
+  A normal child key can be derived from the parent public key, unlike a hardened child key which requires the parent private key.
 reviewed: false

@@ -1,9 +1,11 @@
-question: Hậu quả tiềm ẩn của việc mất giá quá nhanh hoặc mất niềm tin vào tiền tín dụng là gì?
-answer: Có thể dẫn đến lạm phát cực kỳ cao.
+question: Hậu quả tiềm năng của việc giảm giá đột ngột hoặc mất niềm tin vào một đồng tiền tín dụng là gì?
+  trong một đồng tiền tín dụng?
+answer: Lạm phát cực kỳ cao.
 wrong_answers:
-  - Có thể dẫn đến giảm phát.
-  - Có thể dẫn đến một nền kinh tế ổn định.
-  - Có thể dẫn đến việc tăng giá trị của tiền tệ.
+  - Lạm phát giảm.
+  - Một nền kinh tế ổn định.
+  - Sự tăng giá trị của đồng tiền.
 explanation: |
-  Việc mất giá quá nhanh hoặc mất niềm tin vào tiền tín dụng có thể dẫn đến lạm phát cực kỳ cao. Đây là tình trạng mà giá cả hàng hóa và dịch vụ tăng lên với tốc độ cực kỳ cao, thường dẫn đến sự bất ổn kinh tế.
-reviewed: false
+  Một sự giảm giá đột ngột hoặc mất niềm tin vào một đồng tiền tín dụng có thể dẫn đến lạm phát cực kỳ cao. Đây là tình huống
+  khi giá cả hàng hóa và dịch vụ tăng lên với tốc độ cực kỳ cao, thường dẫn đến sự bất ổn kinh tế.
+reviewed: true

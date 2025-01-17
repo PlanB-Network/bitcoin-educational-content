@@ -1,0 +1,9 @@
+question: OpenNode、Swiss Bitcoin Pay和BTCPay等公司在比特币生态系统中扮演什么角色？
+answer: 它们提供了让企业轻松接受比特币的工具。
+wrong_answers:
+  - 它们挖掘比特币。
+  - 它们监管比特币。
+  - 它们发行比特币。
+explanation: |
+  像OpenNode、Swiss Bitcoin Pay和BTCPay这样的公司提供了让企业轻松接受比特币的工具，有助于其在日常交易中的采用和使用。
+reviewed: false

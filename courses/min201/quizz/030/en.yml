@@ -1,13 +1,12 @@
 question: What is the potential threat of Proof of Stake in the Bitcoin network?
 answer: Those who already hold a large amount of the currency have disproportionate power, reflecting existing power inequalities.
 wrong_answers:
-  - It requires a significant entry barrier.
+  - It would represent a significant barrier for validators holding a large amount of currency.
   - It does not allow for small-scale participation.
   - It does not require tangible resources.
 explanation: |
-  In a Proof of Stake network, those who already hold a large amount of
-
-  the currency have disproportionate power. This dynamic could potentially perpetuate
-
-  centralization and concentration of power in the hands of a few.'
-reviewed: false
+  In a Proof of Stake network, those who already hold a large
+  amount of the currency have disproportionate power. This
+  dynamic could potentially perpetuate centralization and
+  concentration of power in the hands of a few.
+reviewed: true

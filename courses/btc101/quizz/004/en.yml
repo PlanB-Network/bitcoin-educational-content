@@ -1,11 +1,11 @@
-question: What are the two main aspects of Bitcoin?
+question: What are the two main characteristics of Bitcoin?
 answer: Bitcoin is both a computer protocol and a monetary unit.
 wrong_answers:
   - Bitcoin is both a physical currency and a digital wallet.
   - Bitcoin is both a type of stock and a type of bond.
   - Bitcoin is both a centralized and a decentralized currency.
 explanation: |
-  Bitcoin has two main aspects, it is a computer protocol that uses technologies
-  like cryptography and the blockchain, and it is a monetary unit that is used for
-  transactions.
+  Bitcoin is both a computer protocol that uses technologies
+  like cryptography and the blockchain, and also a monetary
+  unit that is used for transactions.
 reviewed: true

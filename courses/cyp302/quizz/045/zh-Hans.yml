@@ -1,0 +1,8 @@
+question: 在一个有限群中，哪个术语指的是群中元素的数量？
+answer: 群的阶
+wrong_answers:
+  - 群的容量
+  - 群的长度
+  - 群的度数
+explanation: |
+  群的阶是指它包含的元素的总数。

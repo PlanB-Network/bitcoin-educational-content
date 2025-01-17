@@ -1,0 +1,9 @@
+question: どの組織がコミュニティによる働きかけの結果、2010年11月にビットコインの受け入れを開始しましたか？
+answer: Electronic Frontier Foundation
+wrong_answers:
+  - WikiLeaks
+  - 赤十字
+  - アムネスティ・インターナショナル
+explanation: |
+  この組織は、Mitch Kapor、John Gilmore、John Perry Barlowによって1900年に共同設立され、インターネットの自由を守ることを目的としています。2010年11月9日にビットコインの受け入れを開始しました。
+reviewed: false

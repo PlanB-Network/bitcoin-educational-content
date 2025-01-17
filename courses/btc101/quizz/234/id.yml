@@ -1,0 +1,11 @@
+question: Apa salah satu aplikasi potensial dari Lightning Network dalam kehidupan sehari-hari?
+answer: Penagihan instan dalam perdagangan
+wrong_answers:
+  - Menambang Bitcoin baru
+  - Menciptakan mata uang kripto baru
+  - Meningkatkan nilai Bitcoin
+explanation: >-
+  Lightning Network membuka pintu ke berbagai aplikasi potensial
+  untuk Bitcoin yang sebelumnya tidak terjangkau karena keterbatasan yang diperlukan untuk
+  memastikan keamanan dan desentralisasi Bitcoin. Di antara aplikasi-aplikasi dalam
+  kehidupan sehari-hari, kita dapat menyebutkan penagihan instan dalam perdagangan.

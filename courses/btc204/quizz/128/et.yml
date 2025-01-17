@@ -1,0 +1,13 @@
+question: Mis on nutilepingu kasutegur salajase vara vahetuse puhul?
+
+answer: Võimaldada mõlemal poolel samaaegselt ja süsteemselt teavet avaldada, mis lubab neil teineteise vahendeid kätte saada.
+
+wrong_answers:
+  - Tagada konfidentsiaalsus, krüpteerides vara informatsiooni nii, et ainult õigustatud saaja saab selle dekrüpteerida.
+  - Automaatida ülekandeprotsessi, et vähendada inimlikke sekkumisi ja vigu.
+  - Hõlbustada vaidluste lahendamist, hoides mõlema poole bitcoine pettusekatsete korral.
+
+explanation: |
+  Vahetuste võimaldamiseks poolte vahel, kes ei usalda teineteist, kasutatakse nutilepingu süsteeme. Nutileping on programm, mis täidab automaatselt ette määratud tingimustel, mis meie juhul tagab, et vara vahetus viiakse läbi automaatselt ilma vastastikuse usalduseta. Nutileping võimaldab osalejate vahel kahe tundliku teabe samaaegset avalikustamist. Kas see täidab normaalselt ja iga pool saab teise vahendid kätte, või see ebaõnnestub ja kõik jäävad oma algsete vahendite juurde.
+
+reviewed: false

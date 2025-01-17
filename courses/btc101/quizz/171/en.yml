@@ -1,11 +1,13 @@
-question: How does the Bitcoin protocol ensure its uncensorability and unstoppability?
-answer: Each component of the protocol is distributed geographically across the globe
+question: How does the Bitcoin protocol ensure its censorship-resistance and resilience?
+answer: Each component of the protocol is geographically distributed across the globe.
 wrong_answers:
-  - It uses a decentralized network of nodes
-  - It uses a complex algorithm to validate transactions
-  - It uses a high level of encryption
-explanation: >-
-  The Bitcoin protocol ensures its uncensorability and unstoppability because
-  each component of the protocol is distributed geographically across the globe. For
-  example, there are approximately 40,000 Bitcoin nodes across all continents.
-reviewed: false
+  - It uses a local network of nodes distributed in Europe.
+  - It uses a complex algorithm to validate transactions.
+  - It uses a high level of encryption.
+explanation: |
+  The Bitcoin protocol ensures its censorship-resistance and
+  resilience because each component of the protocol is
+  distributed geographically across the globe. For example,
+  there are approximately 40,000 Bitcoin nodes across all
+  continents.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Co se děje při kooperativním uzavření?
-answer: Dva partneři komunikují a dohodnou se na uzavření kanálu, ověří konečný stav kanálu a vytvoří transakci pro uzavření.
+question: Jaká je role LNURL v transakcích Lightning?
+answer: Zjednodušit interakci mezi uzly a aplikacemi Lightning
 wrong_answers:
-  - Jeden partner vynutí uzavření kanálu.
-  - Jeden partner se pokusí podvést zveřejněním staré závazné transakce.
-  - Dva partneři se přou o zbývající SAT v kanálu.
+  - Umožnit vytváření kanálů pro každou platbu
+  - Zajistit důvěrnost informací o platbě
+  - Automaticky vypočítat poplatky za transakci
 explanation: |
-  Při kooperativním uzavření dva partneři komunikují a dohodnou se na uzavření kanálu. Zastaví veškeré transakce a ověří konečný stav kanálu. Poté vytvoří transakci pro uzavření.
-posouzeno: false
+  LNURL je komunikační protokol navržený k zjednodušení interakcí, jako jsou výběry a platby, mezi uzly a aplikacemi Lightning.
+reviewed: false

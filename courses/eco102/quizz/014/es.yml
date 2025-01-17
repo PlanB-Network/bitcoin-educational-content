@@ -1,0 +1,9 @@
+question: ¿Cómo se articula la Ley de Say según Jean-Baptiste Say y Bastiat?
+answer: Los bienes y servicios se intercambian por bienes y servicios
+wrong_answers:
+  - La oferta crea su propia demanda
+  - Cuantos más bienes se producen, más se consumen
+  - La demanda determina la oferta
+explanation: |
+  La Ley de Say establece que la producción de bienes permite intercambios mutuos, valorando así la economía de mercado.
+reviewed: false

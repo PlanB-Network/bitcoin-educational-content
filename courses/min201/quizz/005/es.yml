@@ -1,9 +1,13 @@
 question: ¿Cuál es el principal desafío para los profesionales en la industria de la minería de Bitcoin?
-answer: Anticipar las ganancias de eficiencia decrecientes en el futuro y ajustar sus estrategias en consecuencia.
+answer: Anticipar la disminución de las ganancias en eficiencia en el futuro y ajustar sus estrategias en consecuencia
 wrong_answers:
-  - Encontrar electricidad barata.
-  - Encontrar una ubicación adecuada para las operaciones de minería.
-  - Encontrar inversores dispuestos a financiar sus operaciones.
+  - Encontrar electricidad barata
+  - Encontrar una ubicación adecuada para las operaciones de minería
+  - Encontrar inversores dispuestos a financiar sus operaciones
 explanation: |
-  Ante los constantes avances tecnológicos en el campo de la minería, los profesionales deben posicionarse estratégicamente. La industria minera está sujeta a continuas innovaciones y los actores de la industria deben anticipar las ganancias de eficiencia decrecientes en el futuro y ajustar sus estrategias en consecuencia.
-reviewed: false
+  Frente a constantes avances tecnológicos en el
+  campo de la minería, los profesionales deben posicionarse estratégicamente.
+  La industria de la minería está sujeta a innovaciones continuas, y los actores de la industria deben anticipar
+  la disminución de las ganancias en eficiencia en el futuro y ajustar sus
+  estrategias en consecuencia.
+reviewed: true

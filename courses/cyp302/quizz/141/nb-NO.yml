@@ -1,0 +1,9 @@
+question: Hvorfor anses faktorisering av et produkt av to veldig store primtall som et vanskelig problem?
+answer: Fordi det krever en forbudt mengde beregningstid selv for superdatamaskiner.
+wrong_answers:
+  - Fordi det krever en offentlig nøkkel for hver faktor.
+  - Fordi det bare involverer grunnleggende operasjoner i beregningen.
+  - Fordi det avhenger av multiplikasjon og ikke divisjon.
+explanation: |
+  Faktorisering av et enormt tall, produktet av to store primtall, krever databehandlingskraft som overstiger kapasiteten til dagens datamaskiner, noe som gjør denne oppgaven praktisk talt uoppnåelig.
+reviewed: false

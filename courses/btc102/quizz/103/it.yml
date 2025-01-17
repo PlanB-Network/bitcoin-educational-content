@@ -1,4 +1,4 @@
-question: Quali sono i comuni malintesi sulla creazione di un piano di successione secondo Pamela Morgan in "Cryptoasset Inheritance Planning"?
+question: Quali sono i comuni malintesi sulla creazione di un piano di successione secondo Pamela Morgan in Cryptoasset Inheritance Planning?
 answer: Devo assumere un avvocato; Devo fidarmi di una terza parte; La pianificazione renderà i miei beni facili da rubare; Il valore delle mie criptovalute è troppo basso per essere pianificato; I miei eredi risolveranno tutto da soli; Tutto questo può essere fatto con un semplice contratto intelligente.
 wrong_answers:
   - Non devo assumere un avvocato; Non devo fidarmi di una terza parte; La pianificazione renderà i miei beni difficili da rubare; Il valore delle mie criptovalute è troppo alto per essere pianificato; I miei eredi non risolveranno tutto da soli; Tutto questo non può essere fatto con un semplice contratto intelligente.
@@ -6,7 +6,7 @@ wrong_answers:
   - Non devo assumere un avvocato; Non devo fidarmi di una terza parte; La pianificazione renderà i miei beni facili da rubare; Il valore delle mie criptovalute è troppo basso per essere pianificato; I miei eredi non risolveranno tutto da soli; Tutto questo può essere fatto con un semplice contratto intelligente.
 explanation: |
   I malintesi comuni sulla creazione di un piano di successione, come affermato
-  da Pamela Morgan in "Cryptoasset Inheritance Planning", sono che è necessario assumere
+  da Pamela Morgan in Cryptoasset Inheritance Planning, sono che è necessario assumere
   un avvocato; bisogna fidarsi di una terza parte; la pianificazione renderà i propri beni facili
   da rubare; il valore delle proprie criptovalute è troppo basso per essere pianificato; i propri eredi
   risolveranno tutto da soli; e tutto questo può essere fatto con un semplice contratto

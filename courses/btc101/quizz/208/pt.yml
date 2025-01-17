@@ -3,7 +3,8 @@ answer: Você pode se colocar em risco.
 wrong_answers:
   - Você pode aumentar o preço do Bitcoin.
   - Você pode controlar o fornecimento de Bitcoin.
-  - Você pode impedir que outras pessoas comprem Bitcoin.
+  - Você pode impedir outros de comprar Bitcoin.
 explanation: |
-  O texto menciona que não seguir as regulamentações do seu país ao comprar Bitcoin pode colocá-lo em risco.
-reviewed: false
+  O texto do curso menciona que não seguir as regulamentações
+  do seu país ao comprar Bitcoin pode colocá-lo em risco.
+reviewed: true

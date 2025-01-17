@@ -1,11 +1,9 @@
-question: Jaká je řádová křivka (n) pro křivku secp256k1 v desítkové soustavě?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: Jaká vlastnost Schnorr umožňuje kombinovat více veřejných klíčů do jednoho?
+answer: Agregace klíčů
 wrong_answers:
-  - 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 -1
-  - 2^256 - 432420386565659656852420866394968145598
-  - 2^256 - 432420386565659656852420866394968145600
+  - Dávkové ověřování
+  - Změnitelnost
+  - Kompaktace podpisu
 explanation: |
-  Řádová křivka (n) pro křivku secp256k1 je počet bodů na
-  křivce, včetně bodu v nekonečnu. Pro secp256k1 je n rovno 2^256 -
-  432420386565659656852420866394968145599 v desítkové soustavě.
+  Schnorr umožňuje agregaci více veřejných klíčů do jediného klíče.
 reviewed: false

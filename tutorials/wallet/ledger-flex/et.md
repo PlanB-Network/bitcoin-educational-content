@@ -296,7 +296,7 @@ Võite lisada "*Label*"i, et kirjeldada bitcoine, mis selle aadressiga turvataks
 
 Lisateabe saamiseks siltide kohta soovitan teil vaadata ka seda teist õpetust:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Seejärel võite kasutada seda aadressi bitcoinide vastuvõtmiseks.
 

@@ -1,0 +1,12 @@
+question: Hva er den største ulempen med å bruke en selvhostet passordbehandler?
+answer: Den krever mer teknisk kunnskap for å bruke.
+wrong_answers:
+  - Den er dyrere enn tjenester fra tredjeparter.
+  - Den tilbyr ikke like mange funksjoner som tjenester fra tredjeparter.
+  - Den er ikke like sikker som tjenester fra tredjeparter.
+explanation: |
+  En selvhostet passordbehandler krever mer teknisk kunnskap for å
+
+  bruke, ettersom du må sette opp og administrere din egen server. Imidlertid kan den tilby mer kontroll
+
+  og sikkerhet.

@@ -1,11 +1,9 @@
-question: Co je skalární násobení bodu číslem n na eliptické křivce?
-answer: Ekvivalentní k přičtení tohoto bodu k sobě samému n-krát
+question: Co umožňuje příznak sighash SIGHASH_NONE?
+answer: Modifikaci výstupů po podpisu
 wrong_answers:
-  - Ekvivalentní k odečtení tohoto bodu od sebe samého n-krát
-  - Ekvivalentní k násobení tohoto bodu sebou samým n-krát
-  - Ekvivalentní k dělení tohoto bodu sebou samým n-krát
+  - Modifikaci vstupů po podpisu
+  - Pokrytí všech vstupů a výstupů
+  - Omezení modifikací pouze na jeden výstup
 explanation: |
-  Skalární násobení bodu číslem n na eliptické křivce je ekvivalentní
-  k přičtení tohoto bodu k sobě samému n-krát. Tato operace je základem pro výpočet
-  veřejných klíčů v systému Bitcoin.
+  SIGHASH_NONE pokrývá pouze vstupy, což zanechává výstupy modifikovatelné po podpisu.
 reviewed: false

@@ -1,9 +1,9 @@
 question: Wer ist der Kursleiter des Kurses?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
-  - "Théo Boloré"
+  - Théo Boloré
   - Descoupes Bitcoin
   - Keiner der oben genannten
 explanation: |
-  "Im Kapitel wird erwähnt, dass der Kursleiter des Kurses Théo Mogenet ist, ein leidenschaftlicher und kompetenter Professor für österreichische Wirtschaft."
+  Im Kapitel wird erwähnt, dass der Kursleiter des Kurses Théo Mogenet ist, ein leidenschaftlicher und kompetenter Professor für österreichische Wirtschaft.
 reviewed: false

@@ -1,0 +1,11 @@
+question: Berapa jumlah maksimum unit Bitcoin yang dapat ada?
+answer: 21 juta unit
+wrong_answers:
+  - 25 juta unit
+  - 30 juta unit
+  - 50 juta unit
+explanation: |
+  Kode komputer Bitcoin dan konsensus dari semua pengguna yang berpartisipasi dalam
+  protokol menentukan bahwa jumlah maksimum unit Bitcoin yang dapat pernah ada
+  adalah 21 juta.
+reviewed: true

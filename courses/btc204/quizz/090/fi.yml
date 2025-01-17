@@ -1,0 +1,11 @@
+question: Mikä tekee remixeistä ainutlaatuisia Whirlpoolissa verrattuna muihin coinjoin-toteutuksiin?
+
+answer: Ne ovat täysin ilmaisia.
+
+wrong_answers:
+  - Ne vaativat vain louhintamaksujen maksamisen.
+  - Ne ovat rajoitettuja yhteen käyttäjää kohden.
+  - Ne vaativat vain palvelumaksujen maksamisen.
+
+explanation: |
+  Whirlpoolin remixit ovat 100% ilmaisia: lisäpalvelumaksuja tai louhintamaksuja ei vaadita.

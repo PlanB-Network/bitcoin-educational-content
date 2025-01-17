@@ -1,9 +1,9 @@
-question: Como os mineradores são compensados pelo seu trabalho?
-answer: Os mineradores são compensados através da recompensa incluída no bloco e das taxas de transação.
+question: O que é a transação coinbase?
+answer: A primeira transação do bloco que inclui a recompensa do minerador.
 wrong_answers:
-  - Os mineradores são pagos pela rede Bitcoin.
-  - Os mineradores recebem um salário fixo pelo seu trabalho.
-  - Os mineradores são compensados com novos bitcoins.
-explanation: |
-  Quando um minerador consegue minerar com sucesso um bloco, ele recebe uma recompensa na forma de novos bitcoins. Essa recompensa é incluída no bloco que ele minerou. Além disso, os mineradores também recebem taxas de transação das transações incluídas no bloco.
-reviewed: false
+  - Uma transação realizada na exchange Coinbase.
+  - A segunda transação do bloco que inclui as taxas mais altas.
+  - Uma transação realizada pelo minerador após receber a recompensa.
+explanation: >-
+  A transação coinbase é sempre a primeira transação de um bloco. Ela inclui a recompensa do minerador por realizar o trabalho de validação.
+reviewed: true

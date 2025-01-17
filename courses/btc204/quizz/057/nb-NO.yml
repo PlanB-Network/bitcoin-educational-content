@@ -1,0 +1,13 @@
+question: Hva er den største trusselen forbundet med gjenbruk av adresser?
+
+answer: Det tillater at deterministiske koblinger etableres mellom forskjellige transaksjoner og et felles eierskap av de berørte UTXOene.
+
+wrong_answers:
+  - Det eksponerer brukerens IP-adresse for andre nettverksdeltakere under validering av transaksjonen.
+  - Det reduserer effektiviteten av digitale signaturmekanismer, noe som svekker sikkerheten til transaksjonene.
+  - Det fører til en økning i transaksjonsgebyrer på grunn av trengsel forårsaket av gjenbruk av adresser.
+
+explanation: |
+  Hvis den samme adressen brukes for flere transaksjoner, blir det mulig å slutte at alle bitcoins assosiert med den adressen tilhører samme person.
+
+reviewed: false

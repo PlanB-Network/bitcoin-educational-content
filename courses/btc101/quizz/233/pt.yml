@@ -1,12 +1,12 @@
-question: Qual é o principal objetivo da Lightning Network?
-answer: Facilitar microtransações
+question: Qual é o principal propósito da Lightning Network?
+answer: Facilitar microtransações.
 wrong_answers:
-  - Aumentar o valor do Bitcoin
-  - Substituir o protocolo do Bitcoin
-  - Criar uma nova criptomoeda
-explanation: |
+  - Aumentar o valor do Bitcoin.
+  - Substituir o protocolo do Bitcoin.
+  - Criar uma nova criptomoeda.
+explanation: >-
   A Lightning Network é uma solução de segunda camada para o protocolo do Bitcoin
-  que tem como objetivo facilitar microtransações, que são transações de valor muito baixo
-  que de outra forma seriam impraticáveis devido a altas taxas e longos tempos de confirmação
+  que visa facilitar microtransações, que são transações de valor muito baixo
+  que de outra forma seriam impraticáveis devido a taxas altas e longos tempos de confirmação
   na blockchain do Bitcoin.
-reviewed: false
+reviewed: true

@@ -1,10 +1,11 @@
 question: How can you strengthen the default security of your Bitcoin wallet?
-answer: By adding a passphrase to your Bitcoin wallet
+answer: By adding a passphrase to your Bitcoin wallet.
 wrong_answers:
-  - By adding a second private key to your Bitcoin wallet
-  - By adding a second public key to your Bitcoin wallet
-  - By adding a second mnemonic phrase to your Bitcoin wallet
+  - By adding a second private key to your Bitcoin wallet.
+  - By adding a second public key to your Bitcoin wallet.
+  - By adding a second mnemonic phrase to your Bitcoin wallet.
 explanation: |
-  If you are not satisfied with the default security of your Bitcoin wallet,
-  you can always strengthen it by adding a passphrase to your Bitcoin wallet.
+  If you are not satisfied with the default security of your
+  Bitcoin wallet, you can always strengthen it by adding a
+  passphrase to your Bitcoin wallet.
 reviewed: true

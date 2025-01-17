@@ -126,7 +126,10 @@ Bitcoini eellugu on sügavalt juurdunud küberpunki liikumises ja ühises püüd
 
 Seega on Bitcoin protokoll, mis hõlmab pikki ajaperioode ja julgustab meid küsima meie suhetest energia, aja ja rahaga. Kuid kas Bitcoin on "päris" valuuta? Mis on raha? Kas see eksisteerib mitmel kujul? Uurime neid küsimusi järgmises peatükis.
 
-![Bitcoini eellugu](assets/posters/fr/1_prehistoiredubitcoin.webp)
+
+Kui soovite Bitcoini ajalugu põhjalikumalt uurida, soovitan väga meie kursust HIS 201. Siit leiate Bitcoini päritolu ja selle aeglase esilekerkimise, samuti selle ajaloo ja kogukonna algusjärgu. See kursus on täielikult dokumenteeritud ja allikatega toetatud ning sisaldab loomulikult palju anekdoote :
+
+https://planb.network/courses/his201
 
 # Raha
 
@@ -190,9 +193,7 @@ Tänapäeval valuutad jätkuvalt arenevad, kohandades oma vorme, et vastata erin
 
 Teisest küljest pakub Bitcoin uusi võimalusi. Oma omaduste, nagu rangelt piiratud pakkumise tõttu, on see suurepärane väärtuse säilitamiseks. Lisaks, neutraalse interneti valuutana, esindab see head vahetusvahendit, mis ei tunne piire. Siiski ei ole see täna kaubanduses laialdaselt aktsepteeritud, hoolimata [pidevast omaksvõtust](https://btcmap.org/map).
 
-### Kiire kokkuvõte plakatil!
 
-![v](assets/posters/en/3._money.webp)
 
 ## Usalduspõhised valuutad
 
@@ -237,9 +238,11 @@ Vastuseks nendele süsteemsetele väljakutsetele esitleb Bitcoin end kui detsent
 Samal ajal tundub keskpankade digitaalsete valuutade ehk CBDC-de teke vältimatu. See uus valuuta vorm pakuks rohkem tsentraliseeritult planeeritud majandust, mis võiks piirata üksikisikute finantsvabadust ja soodustada autoritaarseid kuritarvitusi.
 Selle peatüki võime kokku võtta Nobeli preemia laureaadi F.A Hayeki tsitaadiga aastast 1984: "Ma ei usu, et me kunagi leiame hea valuuta, kuni me võtame selle valitsuse käest ära. Kuid me ei saa seda neilt vägivaldselt ära võtta; kõik, mida me teha saame, on tutvustada midagi, mida nad ei saa peatada läbi nutika kavaluse."
 
-### Kiire kokkuvõte plakatil!
 
-![Alt text](assets/posters/en/4._fiat_currency.webp)
+
+Kui soovite rohkem teada saada majanduslikest eksitustest ja vabadusest, kutsun teid avastama meie kursust ECO 102. See kursus jälgib Frédéric Bastiati, 19. sajandi prantsuse mõtleja elu ja ideid, kes kindlasti oleks Bitcoini esilekerkimist hinnanud :
+
+https://planb.network/courses/eco102
 
 ## Hüperinflatsioon
 
@@ -319,9 +322,11 @@ Hüperinflatsioonikriisi lahendamine nõuab sageli radikaalseid muudatusi, nagu 
 Kokkuvõttes on hüperinflatsioonil mõju valuuta väärtuse kiirele degradeerumisele, viies säästude erosioonini ja usalduse kaotamiseni rahandussüsteemi. Nagu Voltaire kunagi vihjas, kaotab fiat-valuuta alati lõpuks oma sisemise väärtuse ja lähendub nulli suunas.
 'Valuuta, mis sõltub usaldusväärsest kolmandast osapoolest nagu finantsasutus, on praktikas ja pikas perspektiivis defektne valuuta, kuna see ei suuda tagada ostujõudu ega säilitada sääste.
 
-### Kiire kokkuvõte plakatil!
 
-![Alt text](assets/posters/en/5._hyperinflation.webp)
+
+Teema süvendamiseks soovitan David St-Onge'i kursust ECO 204 hüperinflatsiooni kohta. Siit saate teada, mis on hüperinflatsioonilised tsüklid ja milline on nende reaalne mõju meie eludele. Samuti avastate nende tsüklite sarnasusi ja mis kõige tähtsam, kuidas end nende eest kaitsta:
+
+https://planb.network/courses/eco204
 
 ## 21 miljonit bitcoini
 
@@ -405,9 +410,7 @@ Bitcoin on oma disaini tõttu taganud kindla rahapoliitika, piirates selle loomi
 
 Kokkuvõttes pakub Bitcoin oma detsentraliseeritud olemuse, programmeeritud harulduse ja läbipaistvusega ainulaadset alternatiivi traditsioonilistele rahandussüsteemidele. See näitab, kuidas tehnoloogiat saab kasutada valuuta loomiseks, mis pole mitte ainult kasulik ja kontrollitav, vaid säilitab ka kasutajate säästude väärtuse, piirates rangelt selle pakkumist.
 
-### Kiire kokkuvõte plakatil!
 
-![Alt tekst](assets/posters/en/6._21_millions.webp)
 
 ### 1. jaotise kokkuvõte!
 
@@ -473,9 +476,11 @@ Seega, kui järgite head turvapraktikat, on teie Bitcoini rahakoti häkkimise t�
 
 Valige rahakott, mis vastab teie vajadustele ja kasutusele. Erinevate rahakottide kasutamise ja turvamise kohta on saadaval üksikasjalikud õpetused meie ülikooli [õpetuste jaotises](https://planb.network/tutorials/wallet).
 
-### Kiire kokkuvõte plakatil!
 
-![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
+
+Kui soovite oma teekonnal jäneseurus rohkem teada saada Bitcoini rahakoti loomise kohta, alates entroopiast kuni vastuvõtuaadressideni, soovitan selle teema jaoks pühendatud kursust CYP 201:
+
+https://planb.network/courses/cyp201
 
 ## Turvalisus ja Bitcoini rahakotid
 
@@ -504,11 +509,27 @@ Proovime määratleda mitu turvataset teie bitcoinidele:
 
 - **Tase 1**, kasutate Bitcoini rahakotti oma telefonis või arvutis, kus te olete oma bitcoinide ainuomanik. Saate hõlpsalt teostada oma tehinguid. Siiski on oluline varundada mnemooniline fraas, et taastada juurdepääs oma vahenditele telefoni või arvuti kaotuse korral. Seda nimetatakse sageli "kuumaks rahakotiks", kuna privaatvõti on salvestatud seadmesse, millel on internetiühendus.
 
+Näiteks saate kasutada Sparrow Walleti kuumana rahakotina:
+
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+
 - **Tase 2**, kasutate füüsilist rahakotti ja olete turvanud oma 12 või 24 sõna nimekirja. Tehingu sooritamiseks peate alati allkirjastama oma seadmega. See muudab teie vahendid igapäevaselt vähem kättesaadavaks. Seda nimetatakse sageli "külmaks rahakotiks", kuna teie võtmed on salvestatud seadmesse, mis ei ole ühendatud internetiga.
+
+Näiteks võiksite kasutada Ledgerit, Satochipi või Tapsignerit:
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/en/chapter6/4.webp)
 
 - **Tase 3**, kasutate tase 1 või 2 rahakotti, kuid lisaks veel paroolilauset. Olge teadlikud, et nüüd on vaja varundada nii 12 või 24 sõna nimekiri **kui ka** teie paroolilause. Ideaalis hoitakse neid kahte teavet erinevates kohtades.
+
+Lisateabe saamiseks BIP39 paroolifraasi kasutamise ja toimimise kohta:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/en/chapter6/5.webp)
 
@@ -525,9 +546,7 @@ Kokkuvõttes on otseomandus oma bitcoinide üle oluline element, et tagada finan
 
 Nüüd, kui see on meeles, liikugem järgmisse sektsiooni, et näha samme Bitcoin rahakoti loomiseks. Kui aga soovite turvalisuse teemat veelgi uurida, võite lugeda seda [artiklit DarthCoinilt](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-### Kiire kokkuvõte plakatil!
 
-![Alt tekst](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Rahakoti seadistamine
 
@@ -565,9 +584,11 @@ Kui koopiad on tehtud, hoidke sõnaloendeid turvalises kohas, kus te mäletate n
 
 **TÄHELEPANU: 24 sõna nimekirja puudumine peaks teid hoiatama.**
 
-### Kiire kokkuvõte plakatil!
 
-![Alt tekst](assets/posters/en/10._set_up_your_wallet.webp)
+
+Kui soovite seejärel samm-sammult avastada, kuidas oma rahakott seadistada ja oma esimesed bitcoinid saada, soovitan teil läbida ka see teine kursus:
+
+https://planb.network/courses/btc102
 
 ## Ajaproovile vastu pidamine
 
@@ -599,9 +620,7 @@ Privaatsuse osas on oluline vältida oma bitcoinidest kõigile rääkimist. Tõe
 
 Samas vaimus vältige oma turvasüsteemi avalikku paljastamist bitcoinide kohtumistel või võõrastega kohtudes...
 
-### Kiire kokkuvõte plakatil!
 
-![Alt tekst](assets/posters/en/19._think_long_term.webp)
 
 ### Kokkuvõte Bitcoini rahakoti turvalisusest
 
@@ -670,9 +689,7 @@ Satoshi Nakamoto kirjutistest rohkem teada saamiseks soovitan [Phil Champagne'i 
 
 Nüüd, kui meil on taustateadmised, vaatame üldiselt, kuidas Bitcoin tehing toimib.
 
-### Kiire ülevaade plakatil!
 
-![Alt text](assets/posters/en/7._lancement_bitcoin.webp)
 
 ## Bitcoini tehingud
 
@@ -719,9 +736,7 @@ Selles etapis peetakse tehingut kehtivaks, kaevur levitab seejärel uue ploki om
 
 > Märkus: Isegi kui Alice näeb, et ta on ühel oma aadressil bitcoine saanud, on soovitatav tehingut pidada muutumatuks alles siis, kui see on saanud 6 kinnitust. See tähendab, et Bobi tehingut sisaldava ploki peale on kaevandatud veel 6 plokki. Teisisõnu, mida vanem on tehing plokiahelas, seda muutumatumaks see muutub.
 
-### Kiire kokkuvõte plakatil!
 
-![Tehingu selgitus](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Mis on selle kõige mõte?
 
@@ -775,9 +790,7 @@ See olukord ei ole nii hüpoteetiline, kuna aasta 2017 oli märgitud intensiivse
 
 Selle võidu järel aktiveerisid noodid uuenduse nimega SegWit, sillutades teed Lightning Network'i rakendamiseks, mis on kohene Bitcoini maksevõrk, kasutades Bitcoin'i plokiahelat. See olukord näitab, et kasutajad, läbi oma noodide, omavad Bitcoinis tegelikku võimu, võimaldades neil seista vastu suurtele institutsioonidele.
 
-### Kokkuvõte plakatil!
 
-![Bitcoin noodid](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Kaevurid
 
@@ -847,9 +860,11 @@ Isegi 51% rünnaku korral, mis tähendab, et agent omab rohkem kui poolt hashrat
 
 Mänguteooria, rakendatuna Bitcoinile, kõrvaldab ebaausad kaevurid. Kaevurid kasutavad ASIC masinaid kaevandamiseks ja saavad edu korral preemiat. Lisaks liituvad nad sageli kaevandusbasseinidega, et jagada oma arvutusvõimsust ja saada väiksemaid, kuid regulaarsemaid preemiaid. Bitcoini kaevandamine on protsess, millel on kõrge energiakulu, kuid mis on hädavajalik Bitcoini võrgu toimimise ja turvalisuse jaoks. Töö tõendamine ja plokiahel lahendavad topeltkulutamise probleemi ning tagavad informatsiooni tõepärasuse ilma usaldusväärse kolmanda osapooleta. Informatsiooni tootmine nõuab suurt energiakulu, kuid informatsiooni kontrollimine on tühine. See asümmeetria tagab võrgu turvalisuse. Seega on majanduslikult otstarbekam järgida konsensuse reegleid kui neid rikkuda.
 
-### Kiire kokkuvõte plakatil!
 
-![kaevurid](assets/posters/fr/13_explication_des_mineurs_crop.webp)
+
+Kui soovite Bitcoini kaevandamise konkreetset teemat põhjalikumalt uurida, võite vaadata meie kursust MIN 201. Siit saate teada Proof-of-Worki toimimise ja rolli ning kaevandustööstuse keerukuse. Samuti selgitame, kuidas muuta ASIC küttekehadeks, et saaksite oma esimesed satoshid kaevandada ja samal ajal oma kodu soojendada!
+
+https://planb.network/courses/min201
 
 ## Bitcoin ja ökoloogia
 
@@ -895,9 +910,7 @@ Bitcoini tehnoloogiat mõistetakse sageli valesti ja kriitika selle keskkonnamõ
 
 > Järgige ühte Bitcoini vanasõna: Ära usalda, vaid kontrolli ise!
 
-### Kiire kokkuvõte plakatil!
 
-![Bitcoin & ökoloogia](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Lühike kokkuvõte Bitcoini tehnilistest aspektidest
 
@@ -964,9 +977,7 @@ Täna, 2023. aastal, jätkab Bitcoin ellujäämist ja kasvab veelgi, integreerud
 
 ![image](assets/en/chapter14/3.webp)
 
-### Kiire kokkuvõte plakatil!
 
-![Alt text](assets/posters/en/15._bitcoinr_never_sleeps.webp)
 
 ## Bitcoini saamine töötades
 
@@ -995,13 +1006,19 @@ Bitcoini aktsepteerimiseks on vajalik uurida erinevaid saadaolevaid lahendusi ja
 
 Me käsitleme seda teemat üksikasjalikumalt teises koolitusel, kuid lihtsuse huvides võime kaaluda mitmeid ärikategooriaid ja seega seotud lahendusi:
 
-- Lihtne online lahendus: OpenNode
+- Lihtne veebilahendus: OpenNode
+
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 - Lahendus amatöörkaupmeestele: Swiss Bitcoin Pay
-- Lahendus suurtele struktuuridele või kirglikele bitcoineritele: BTCPay Server
 
-### Kiire kokkuvõte plakatil!
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
+- Lahendus suurtele struktuuridele või kirglikele bitcoinisõpradele: BTCpay Server
+
+https://planb.network/courses/btc305
+
+
 
 ## Säästmine Bitcoiniga
 
@@ -1091,9 +1108,7 @@ Lisaks on mitmeid [turgusid](https://planb.network/tutorials/exchange), kus saab
 ![image](assets/en/chapter15/3.webp)
 On oluline märkida, et teie jurisdiktsioonis võidakse kehtestada makse. Kutsume teid üles enne mis tahes toimingute tegemist, mis võivad teid ohtu seada, konsulteerima oma riigi eeskirjadega.
 
-### Kiire kokkuvõte plakatil!
 
-![Alt tekst](assets/posters/en/16._saving_in_bitcoin.webp)
 
 ## Hyper-bitcoinization
 
@@ -1119,9 +1134,7 @@ Kui soovite oma teadmisi Bitcoini kohta laiendada, on suur hulk autoreid, mõtle
 
 > Milton Friedman, tuntud majandusteadlane, ennustas 1999. aastal: "Ma arvan, et Internet saab olema üks peamisi jõude, mis vähendab valitsuse rolli. Üks asi, mis puudub, kuid mis varsti arendatakse, on usaldusväärne e-raha - meetod, millega Internetis saab üle kanda vahendeid A-lt B-le ilma, et A teaks B-d või B teaks A-d."
 
-### Kiire kokkuvõte plakatil!
 
-![Alt tekst](assets/posters/en/18._hyperbitcoinization.webp)
 
 # Bitcoini tulevik: Lightning Network
 
@@ -1164,9 +1177,11 @@ Tehingud on turvatud krüptograafia kaudu ja kaudselt läbi Bitcoin'i kaevurite 
 
 Kokkuvõttes on Lightning Network paljutõotav katse käivitada tõhus maksesüsteem Bitcoin'is toimuvateks tehinguteks. Juba on olemas arvukalt Lightning rahakotte, mida saate avastada meie õpetuste jaotises või läbi meie Lightning Network'i koolituse.
 
-### Kiire kokkuvõte plakatil!
 
-![Alt text](assets/posters/en/20._lightning_network.webp)
+
+Kui soovite minna kaugemale sellest sissejuhatusest ja mõista kõiki Lightning Networki mehhanisme, soovitan teil läbida Fanis Michalakise suurepärase kursuse sellel teemal:
+
+https://planb.network/courses/lnp201
 
 ## Lightning Networki kasutusjuhud
 
@@ -1200,9 +1215,7 @@ Sellises süsteemis jagatakse raha automaatselt, lähtudes eelnevalt määratlet
 ![image](assets/en/chapter19/3.webp)
 Kokkuvõttes avab Lightning Network Bitcoini kasutajatele palju põnevaid kasutusvõimalusi. Sellest tulenevad majandusmudelid ja ärivõimalused on arvukad ja mitmekesised. Julgustame teid seda ise proovima, kasutades podcasti rakendust [Fountain](https://www.fountain.fm/), mis võimaldab teil oma lemmikpodcaste kuulates teenida mõned satsid!
 
-### Kiire kokkuvõte plakatil!
 
-![Alt tekst](assets/posters/en/21._ln_use_cases.webp)
 
 ## Punane või sinine pill?
 
@@ -1210,7 +1223,6 @@ Kokkuvõttes avab Lightning Network Bitcoini kasutajatele palju põnevaid kasutu
 
 Nagu Morpheus Neole ütles: "Võtad sinise pilli, lugu lõppeb, ärkad oma voodis üles ja usud, mida iganes sa soovid uskuda. Võtad punase pilli, jääd Imedemaale ja ma näitan sulle, kui sügav on jäneseurg." Kas olete valmis uurima Bitcoini jäneseurgu? Olge ettevaatlik, sest võite taasavastada oma finantsvabaduse!
 
-![punane pill](assets/posters/fr/2_pilluleorange.webp)
 
 ### Tehnoloogilise tuleviku ja selle tagajärjed
 
@@ -1267,34 +1279,21 @@ Bitcoini ei saa enam peatada ega tsenseerida. See on rahumeelne revolutsioon, et
 
 Finantssüsteemi muutmine nõuab valuuta muutmist. Satoshi lõi Bitcoini 2008. aastal, et pakkuda katset seda teha. Lihtne ja "maagiline" raha juurdepääs rikub. Seega on Bitcoin alternatiiv uue neutraalse rahandussüsteemi loomiseks. Bitcoin võimaldab vabaneda pangasüsteemist. See on sotsiaalne nähtus, mis viib meid osalema rahumeelses revolutsioonis. Kas olete valmis liituma?
 
-## Tunnustused ja jätkake küülikuurgu uurimist
+# Kokkuvõte
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Mine kaugemale
-
-Palju õnne BTC 101 kursuse lõpetamise puhul! Loodan siiralt, et see meeldis teile ja avas teile uksi. Teie avastusreis bitcoiniga on alles algus, ja ma kutsun teid uurima kõiki teisi ülikoolis saadaolevaid kursuseid.
-
-- [BTC 102](https://planb.network/courses/btc101) aitab sul seadistada oma bitcoini plaani
-- [LNP 201](https://planb.network/courses/lnp201) võimaldab sul avastada Lightning Networki, teise kihi maksevõrgu
-- [ECO 201](https://planb.network/courses/eco201) käsitleb Austria majandust
-- [SCU 101](https://planb.network/courses/scu101) võimaldab sul uuendada oma digitaalset turvalisust
-- [MIN 201](https://planb.network/courses/min201) õpetab rohkem kaevandamise kohta
-- ja palju muud...
-
-## Hinnake kursust
+## Hinnangud & Reitingud
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Kokkuvõte
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-**Palju õnne kursuse lõpetamise puhul!**
-
-Pange tähele, et see peatükk on praegu koostamisel ja peagi ilmub täiustatud versioon. Vahepeal, kui soovite oma Bitcoini teekonda jätkata, kutsume teid tutvuma meie platvormil saadaolevate teiste kursuste ja õpetustega. Jätkake head tööd ja head õppimist!
+<isCourseConclusion>true</isCourseConclusion>

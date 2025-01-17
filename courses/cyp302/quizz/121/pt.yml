@@ -1,0 +1,8 @@
+question: Qual é o principal problema da gestão de chaves?
+answer: A complexidade de proteger e armazenar um par de chaves para cada cliente
+wrong_answers:
+  - A impossibilidade de renovar chaves perdidas pelos clientes
+  - A necessidade de descriptografar cada chave antes de ser usada pelo cliente
+  - A necessidade de transmitir chaves para cada comunicação
+explanation: |
+  O problema da gestão de chaves reside na dificuldade de armazenar e proteger um par de chaves para cada usuário, especialmente quando o número de clientes atinge milhões.

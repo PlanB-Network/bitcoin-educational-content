@@ -1,11 +1,12 @@
-question: Vai trò của các nút trong mạng lưới Bitcoin là gì?
+question: Vai trò của các nút trong mạng Bitcoin là gì?
 answer: Các nút duy trì tính toàn vẹn bằng cách xác minh và xác thực các giao dịch và khối.
 wrong_answers:
   - Các nút tạo và xác thực các khối.
   - Các nút chỉ xác minh giao dịch.
-  - Các nút không có vai trò trong mạng lưới Bitcoin.
+  - Các nút không có vai trò nào trong mạng Bitcoin.
 explanation: |
-  Trong mạng lưới Bitcoin, các nút duy trì tính toàn vẹn của mạng bằng cách
-  xác minh và xác thực các giao dịch và khối. Một khối không chính xác hoặc gian lận
-  sẽ bị các nút từ chối, bảo vệ an ninh của mạng.
-reviewed: false
+  Trong mạng Bitcoin, các nút duy trì tính toàn vẹn của
+  mạng bằng cách xác minh và xác thực các giao dịch và
+  khối. Một khối không chính xác hoặc gian lận sẽ bị các nút
+  từ chối, bảo vệ an ninh của mạng.
+reviewed: true

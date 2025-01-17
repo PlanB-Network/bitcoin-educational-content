@@ -5,6 +5,7 @@ wrong_answers:
   - A fixed price
   - A variable price
 explanation: |
-  Mining establishes a floor price for Bitcoin, below which miners would
-  sell at a loss. The cost of mining significantly influences the price of Bitcoin.
-reviewed: false
+  Mining establishes a floor price for Bitcoin, below which
+  miners would sell at a loss. The cost of mining
+  significantly influences the price of Bitcoin.
+reviewed: true

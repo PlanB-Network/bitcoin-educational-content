@@ -1,10 +1,11 @@
-question: Co text naznačuje o tempu učení se o Bitcoinu?
-answer: Je složité vstřebat vše najednou, tak si dejte na čas
+question: Co tento kurz naznačuje o tempu učení se o Bitcoinu?
+answer: Je složité vstřebat vše najednou, takže si dejte čas.
 wrong_answers:
-  - Je snadné naučit se vše najednou
-  - Je nemožné naučit se vše o Bitcoinu
-  - Není nutné učit se vše o Bitcoinu
-explanation: >-
-  Text naznačuje, že je toho o Bitcoinu tolik k prozkoumání,
-  že je složité vstřebat vše najednou, takže by si člověk měl dát na čas.
-reviewed: false
+  - Je snadné naučit se vše najednou.
+  - Je nemožné naučit se vše o Bitcoinu.
+  - Není nutné učit se vše o Bitcoinu.
+explanation: |
+  Kurz naznačuje, že je toho o Bitcoinu tolik k prozkoumání,
+  že je složité vstřebat vše najednou, takže by si člověk měl
+  dát na čas.
+reviewed: true

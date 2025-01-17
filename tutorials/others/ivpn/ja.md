@@ -111,8 +111,8 @@ PC経由でIVPNをアクティブにするには、単にあなたのアカウ�
 ![IVPN](assets/notext/32.webp)
 これで、IVPNを完全に楽しむ準備が整いました。オンラインアカウントのセキュリティをローカルのパスワードマネージャーを使用して強化したい場合は、無料でオープンソースのソリューションであるKeePassに関する私たちのチュートリアルをチェックすることをお勧めします：
 
-https://planb.network/tutorials/others/keepass
+https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 IVPNと機能や価格の面で類似した別のVPNプロバイダーを探している場合は、Mullvadに関する私たちのチュートリアルもチェックすることをお勧めします：
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

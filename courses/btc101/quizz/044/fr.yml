@@ -1,9 +1,9 @@
-question: Quel est le résultat potentiel d'une dévaluation trop rapide ou d'une perte de confiance dans une monnaie fiduciaire ?
-answer: Cela peut entraîner une hyperinflation.
+question: Quel est le résultat potentiel d'une dépréciation soudaine ou d'une perte de confiance dans une monnaie fiduciaire ?
+answer: Hyperinflation.
 wrong_answers:
-  - Cela peut entraîner une déflation.
-  - Cela peut conduire à une économie stable.
-  - Cela peut entraîner une augmentation de la valeur de la monnaie.
+  - Déflation.
+  - Une économie stable.
+  - Une augmentation de la valeur de la monnaie.
 explanation: |
-  Une dévaluation trop rapide ou une perte de confiance dans une monnaie fiduciaire peut entraîner une hyperinflation. Il s'agit d'une situation où les prix des biens et services augmentent à un rythme extrêmement élevé, ce qui entraîne souvent une instabilité économique.
-reviewed: false
+  Une dévaluation soudaine ou une perte de confiance dans une monnaie fiduciaire peut conduire à l'hyperinflation. Il s'agit d'une situation où les prix des biens et services augmentent à un taux extrêmement élevé, menant souvent à une instabilité économique.
+reviewed: true

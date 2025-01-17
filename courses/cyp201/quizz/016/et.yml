@@ -1,0 +1,9 @@
+question: Milline allkirja algoritm toodi Bitcoinis sisse Taprooti uuendusega?
+answer: Schnorri allkirjastamise skeem
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schnorri allkirjastamise skeem toodi sisse novembris 2021 Taprooti uuendusega.
+reviewed: false

@@ -1,9 +1,10 @@
 question: Jak Lightning Network zlepšuje škálovatelnost pro transakce s Bitcoinem?
-answer: Využívá peer-to-peer síť platebních kanálů pro vytváření transakcí mimo hlavní blockchain.
+answer: Používá peer-to-peer síť platebních kanálů pro vytváření transakcí mimo hlavní blockchain.
 wrong_answers:
-  - Využívá důvěryhodnou centralizovanou stranu pro efektivní zpracování transakcí.
-  - Využívá jiný blockchain pro agregaci transakcí do velkých bloků.
-  - Využívá důvěryhodné uživatele pro vytvoření federální rezervy bitcoinu.
+  - Používá důvěryhodnou centralizovanou stranu pro efektivní zpracování transakcí.
+  - Používá jiný blockchain pro agregaci transakcí do velkých bloků.
+  - Používá tým důvěryhodných uživatelů pro vytvoření federální rezervy bitcoinu.
 explanation: |
-  Lightning Network s využitím platebních kanálů umožňuje směrování transakcí mimo hlavní blockchain za nižší náklady a rychleji.
+  Díky využití platebních kanálů může Lightning Network
+  směrovat transakce mimo hlavní blockchain rychleji a za nižší náklady.
 reviewed: true

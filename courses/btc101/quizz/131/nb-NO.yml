@@ -1,0 +1,10 @@
+question: Hva er rollen til en Bitcoin-node i Bitcoin-nettverket?
+answer: Den håndterer valideringen av nye blokker og inkluderte transaksjoner.
+wrong_answers:
+  - Den skaper nye Bitcoins.
+  - Den regulerer prisen på Bitcoin.
+  - Den styrer Bitcoin-nettverket.
+explanation: >-
+  En Bitcoin-node i Bitcoin-nettverket håndterer valideringen av nye blokker
+  og inkluderte transaksjoner. Det er gjennom dette nettverket av Bitcoin-noder at
+  nettverket er virkelig desentralisert.

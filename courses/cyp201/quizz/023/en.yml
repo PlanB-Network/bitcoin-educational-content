@@ -1,11 +1,9 @@
-question: What does HMAC stand for?
-answer: Hash-based Message Authentication Code
+question: What is the common point used by all participants to calculate a public key in Bitcoin?
+answer: The generator point G
 wrong_answers:
-  - Hierarchical Master Authentication Code
-  - Hashed Master Authentication Code
-  - Hierarchical Message Authentication Code
+  - The SHA256 hash
+  - A mnemonic phrase
+  - The compressed public key
 explanation: |
-  HMAC stands for Hash-based Message Authentication Code. It is a type
-  of message authentication code (MAC) involving a cryptographic hash function and
-  a secret cryptographic key.
+  The generator point G of the elliptic curve secp256k1 is used to calculate public keys from private keys.
 reviewed: false

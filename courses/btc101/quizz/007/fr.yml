@@ -1,11 +1,12 @@
-question: Quel est l'objectif principal de ce cours sur le Bitcoin ?
-answer: Les aspects monétaires du Bitcoin.
+question: Quel est l'objectif principal de ce cours sur Bitcoin ?
+answer: Les aspects monétaires de Bitcoin.
 wrong_answers:
-  - Les aspects de codage du Bitcoin.
-  - L'impact écologique du Bitcoin.
-  - Les aspects réglementaires du Bitcoin.
+  - Les aspects de codage de Bitcoin.
+  - L'impact écologique de Bitcoin.
+  - Les aspects réglementaires de Bitcoin.
 explanation: |
-  Ce cours sur le Bitcoin se concentre sur les aspects monétaires du Bitcoin, notamment
-  comment acheter et vendre des bitcoins, les stocker en toute sécurité dans des portefeuilles numériques et les utiliser
-  pour des transactions.
-reviewed: false
+  Ce cours sur Bitcoin se concentre sur les aspects monétaires de
+  Bitcoin, y compris comment acheter et vendre des bitcoins, les
+  stocker de manière sécurisée dans des portefeuilles numériques, et les utiliser pour
+  des transactions.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Co je Lightning Network?
-answer: Protokol druhé vrstvy nad Bitcoinem, který umožňuje rychlejší transakce.
+question: Co se stane, pokud Alice nezíská Bobův podpis pro transakci výběru?
+answer: Riskuje ztrátu přístupu ke svým prostředkům uloženým na multisignaturní adrese
 wrong_answers:
-  - Typ kryptoměny.
-  - Prohlížeč blockchainu.
-  - Digitální peněženka pro ukládání bitcoinů.
+  - Již nemůže komunikovat s Bobem na Lightning Network
+  - Kanál se otevře s omezenou kapacitou
+  - Bob automaticky obdrží prostředky v kanálu
 explanation: |
-  Lightning Network je protokol druhé vrstvy nad Bitcoinem. Je navržen tak, aby umožnil rychlejší transakce prostřednictvím vytváření platebních kanálů mimo hlavní blockchain.
+  Bez Bobova podpisu na transakci výběru nemůže Alice zajistit obnovení svých prostředků v případě problému, což představuje riziko ztráty.
 reviewed: false

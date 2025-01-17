@@ -1,0 +1,9 @@
+question: Mikä oli Mike Hearnin maaliskuussa 2011 julkaiseman ohjelmiston nimi, joka toteutti Yksinkertaistetun Maksuvahvistuksen (SPV)?
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  Hän [julkaisi](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438) sen avoimen lähdekoodin lisenssillä (Apache 2.0), jonka hän liitti Googleen (hänen työnantajaansa tuolloin). Tämä toteutus mahdollisti ensimmäisen kevyen lompakon käynnistämisen Androidilla.
+reviewed: false

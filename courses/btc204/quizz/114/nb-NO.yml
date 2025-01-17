@@ -1,0 +1,13 @@
+question: Hvorfor vil ikke analytikeren bruke COINJOIN på en Stonewall-type transaksjon?
+
+answer: Fordi det er 2 utdata med samme beløp
+
+wrong_answers:
+  - Fordi det bare er 2 inndata
+  - Fordi de ikke er kjent med dette mønsteret
+  - Fordi det er flere utdata enn inndata
+
+explanation: |
+  Å analysere en Stonewall-transaksjon fra utsiden fører ikke til bruk av COINJOIN, fordi tilstedeværelsen av to utdata med samme beløp antyder et coinjoin-mønster. Fra et eksternt synspunkt er derfor COINJOIN ikke anvendelig i dette spesifikke tilfellet.
+
+reviewed: false

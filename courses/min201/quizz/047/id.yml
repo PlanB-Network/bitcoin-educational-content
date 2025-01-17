@@ -1,0 +1,13 @@
+question: Apa risiko utama yang terkait dengan berinvestasi pada perusahaan yang menjual perangkat keras penambangan dan mengelola mesin di lokasi energi berbiaya rendah?
+answer: Masalah pasokan listrik dan kegagalan mesin dapat membuat investor tidak berdaya, dengan peralatan mahal yang tidak dapat mereka kontrol.
+wrong_answers:
+  - Perusahaan dapat bangkrut dan investor dapat kehilangan uang mereka.
+  - Perusahaan dapat menjadi penipuan dan investor dapat kehilangan uang mereka.
+  - Perusahaan mungkin tidak dapat menjual bitcoin yang ditambang dan investor dapat kehilangan uang mereka.
+explanation: |
+  Risiko utama yang terkait dengan berinvestasi pada perusahaan yang
+  menjual perangkat keras penambangan dan mengelola mesin di lokasi energi
+  berbiaya rendah adalah masalah pasokan listrik dan kegagalan mesin dapat
+  membuat investor tidak berdaya, dengan peralatan mahal yang tidak dapat
+  mereka kontrol.
+reviewed: true

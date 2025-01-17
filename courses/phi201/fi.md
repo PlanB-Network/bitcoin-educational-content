@@ -1406,7 +1406,7 @@ Hayek uskoi, että yksityisten valuuttojen vapaa markkinatalous johtaisi suuremp
 
 
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1433,4 +1433,14 @@ Olemme nyt kokeneet kaikki valtiojohtoisuuden muodot, ja ne ovat kaikki epäonni
 Tietyssä mielessä tilanteemme on parempi kuin menneisyydessä. Erilaisten sosialististen, kommunististen ja sosiaalidemokraattisten kokeilujen peräkkäisten epäonnistumisten jälkeen tiedämme tänään, miten erottaa tosiasiat vääristä paremmin kuin eilen. Ja vääriä ideoita voidaan kumota ja korvata tosiasioilla. Kuten Mises sanoi:
 Kaikki, mitä tapahtuu globaalissa yhteiskunnassamme, on ideoiden tulosta. Sekä hyvien että huonojen. Tarpeellista on taistella vääriä ideoita vastaan. (...) Sivilisaatiomme voi selviytyä, ja sen täytyy. Ja se tulee selviytymään parempien ideoiden ansiosta kuin ne, jotka hallitsevat maailmaa tänään; ja nämä paremmat ideat kehittää nouseva sukupolvi.
 (_Talouspolitiikka: Ajatuksia tälle päivälle ja huomiselle_, 1979).
-
+# Yhteenveto
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+## Arviot & Arvosanat
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+## Loppukoe
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+## Yhteenveto
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

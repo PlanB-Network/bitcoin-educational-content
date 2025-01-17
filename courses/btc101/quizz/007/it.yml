@@ -1,11 +1,12 @@
-question: Qual è il principale focus di questo corso su Bitcoin?
+question: Qual è il focus principale di questo corso su Bitcoin?
 answer: Gli aspetti monetari di Bitcoin.
 wrong_answers:
   - Gli aspetti di codifica di Bitcoin.
   - L'impatto ecologico di Bitcoin.
-  - Gli aspetti regolatori di Bitcoin.
+  - Gli aspetti normativi di Bitcoin.
 explanation: |
-  Questo corso su Bitcoin si concentra sugli aspetti monetari di Bitcoin, inclusi
-  come acquistare e vendere bitcoin, conservarli in modo sicuro in portafogli digitali e usarli
-  per le transazioni.
-reviewed: false
+  Questo corso su Bitcoin si concentra sugli aspetti monetari
+  di Bitcoin, inclusi come comprare e vendere bitcoin, conservarli
+  in modo sicuro in portafogli digitali e utilizzarli per
+  transazioni.
+reviewed: true

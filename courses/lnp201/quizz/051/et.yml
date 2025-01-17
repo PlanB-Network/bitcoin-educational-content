@@ -1,0 +1,8 @@
+question: Mida võimaldab kolmnurga avamise tehnika osalevatele sõlmedele saavutada?
+answer: Sissetulev ja väljaminev likviidsus igas kanalis
+wrong_answers:
+  - Vähendatud marsruudi tasud
+  - Piiramatu arv tehinguid ilma kinnitamiseta
+  - Otsene ühendus iga teise võrgusõlmega
+explanation: |
+  Kolmnurga avamise tehnika võimaldab igal sõlmel saavutada tasakaalustatud likviidsuse, nii sissetuleva kui ka väljamineva, moodustades mitme osaleja vahel kanalite silmuse.

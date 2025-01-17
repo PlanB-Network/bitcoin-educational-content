@@ -1,0 +1,9 @@
+question: På hvilken dato leverte Jeremy Sturdivant to pizzaer til Laszlo Hanyecz i bytte mot en betaling på 10 000 bitcoins, og markerte det første kjøpet av en fysisk vare med kryptovaluta?
+answer: 22. mai 2010
+wrong_answers:
+  - 12. oktober 2009
+  - 18. april 2010
+  - 11. juni 2010
+explanation: |
+  Etter en kunngjøring postet på forumet, ble tilbudet akseptert den 22. mai 2010. På den tiden var de 10 000 bitcoinsene verdt omtrent $44.
+reviewed: false

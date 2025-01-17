@@ -1,12 +1,13 @@
 question: What is the mechanism that ensures a new block is added to the blockchain
   every ten minutes?
-answer: Difficulty adjustment
+answer: Difficulty adjustment.
 wrong_answers:
-  - Speed adjustment
-  - Time adjustment
-  - Block adjustment
+  - Speed adjustment.
+  - Time adjustment.
+  - Block adjustment.
 explanation: |
-  The mechanism that ensures a new block is added to the blockchain every
-  ten minutes is the difficulty adjustment. This adjustment takes place every
-  2016 blocks, or around two weeks.
+  The mechanism that ensures a new block is added to the
+  blockchain every ten minutes is the difficulty adjustment.
+  This adjustment takes place every 2016 blocks, or around
+  two weeks.
 reviewed: true

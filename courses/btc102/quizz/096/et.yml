@@ -1,0 +1,9 @@
+question: Mis on UTXO Bitcoini kontekstis?
+answer: Kulutamata Tehingu Väljund
+wrong_answers:
+  - Tuvastamata Tehingu Väljund
+  - Jälgimatu Tehingu Väljund
+  - Kinnitamata Tehingu Väljund
+explanation: |
+  Bitcoini kontekstis tähistab UTXO Kulutamata Tehingu Väljundit.
+  See on termin, mida kasutatakse tehingu väljundi kirjeldamiseks, mida kasutaja saab kulutada.

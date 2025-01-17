@@ -1,0 +1,9 @@
+question: Thao tác nào thường được sử dụng để kết hợp luồng khóa và thông điệp trong một mật mã luồng?
+answer: XOR
+wrong_answers:
+  - Phép nhân
+  - Dịch chuyển mô-đun
+  - Thay thế từng chữ cái
+explanation: |
+  Trong một mật mã luồng, thao tác XOR thường được sử dụng để kết hợp luồng khóa với thông điệp vì nó đơn giản và có thể đảo ngược.
+reviewed: false

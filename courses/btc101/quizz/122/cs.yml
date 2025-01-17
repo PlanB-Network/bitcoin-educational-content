@@ -1,9 +1,9 @@
-question: Jaký je rytmus sítě Bitcoin?
-answer: 10 minut na blok
+question: Jaká byla online dostupnost Bitcoinu od roku 2009?
+answer: 99,988 %.
 wrong_answers:
-  - 10 sekund na blok
-  - 10 minut na transakci
-  - 10 sekund na transakci
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Rytmus sítě Bitcoin je 10 minut na blok. To je jako tep srdce měnového systému Bitcoin.
+  Online dostupnost Bitcoinu je od roku 2009 99,988 %.
 reviewed: true

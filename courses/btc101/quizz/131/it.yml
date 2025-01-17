@@ -1,11 +1,12 @@
 question: Qual è il ruolo di un nodo Bitcoin nella rete Bitcoin?
-answer: Gestisce la validazione dei nuovi blocchi e delle transazioni incluse.
+answer: Valida i nuovi blocchi e le transazioni incluse.
 wrong_answers:
-  - Crea nuovi Bitcoin.
+  - Crea nuovi Bitcoin e li inserisce nei blocchi.
   - Regola il prezzo del Bitcoin.
   - Gestisce la rete Bitcoin.
 explanation: |
-  Un nodo Bitcoin nella rete Bitcoin gestisce la validazione dei nuovi blocchi
-  e delle transazioni incluse. È attraverso questa rete di nodi Bitcoin che la
-  rete è veramente decentralizzata.
-reviewed: false
+  Un nodo Bitcoin nella rete Bitcoin si occupa della
+  validazione di nuovi blocchi e delle transazioni incluse. È
+  questa rete di nodi Bitcoin che la rende veramente
+  decentralizzata.
+reviewed: true

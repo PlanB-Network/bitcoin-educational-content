@@ -1,9 +1,14 @@
-question: Qual è lo scopo del meccanismo di regolazione della difficoltà nella rete Bitcoin?
-answer: Garantire che i blocchi vengano minati in media ogni 10 minuti
+question: Qual è lo scopo del meccanismo di aggiustamento della difficoltà nella rete Bitcoin?
+answer: Assicurare che i blocchi vengano minati in media ogni 10 minuti
 wrong_answers:
   - Aumentare la difficoltà di mining nel tempo
   - Diminuire la difficoltà di mining nel tempo
-  - Garantire che lo stesso minatore non mina blocchi consecutivi
+  - Assicurare che lo stesso minatore non mini blocchi consecutivi
 explanation: |
-  La regolazione della difficoltà è un meccanismo cruciale nel funzionamento della rete Bitcoin, garantendo che i blocchi vengano minati in media ogni 10 minuti. Questo meccanismo di regolazione assicura che il tempo di mining per i nuovi blocchi rimanga costante nel tempo, indipendentemente dal numero di minatori o dalla potenza di calcolo complessiva della rete.
-reviewed: false
+  L'aggiustamento della difficoltà è un meccanismo cruciale nel
+  funzionamento della rete Bitcoin, assicurando che i blocchi siano
+  minati in media ogni 10 minuti. Questo meccanismo di aggiustamento
+  garantisce che il tempo di mining per i nuovi blocchi
+  rimanga costante nel tempo, indipendentemente dal numero di
+  minatori o dalla potenza di calcolo complessiva della rete.
+reviewed: true

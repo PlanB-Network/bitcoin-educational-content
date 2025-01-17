@@ -1,0 +1,9 @@
+question: Selon le théorème d'Euler, quel est le résultat de l'exponentiation a^ϕ(N) mod N pour deux entiers a et N premiers entre eux ?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Le théorème d'Euler stipule que pour deux entiers a et N premiers entre eux, l'exponentiation a^ϕ(N) mod N est toujours égale à 1 mod N, une propriété utilisée en cryptographie.
+reviewed: false

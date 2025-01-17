@@ -1,9 +1,9 @@
-question: Quali sono i diversi livelli di comunicazione nella Lightning Network?
-answer: Comunicazione P2P, Canale di pagamento, Transazione Bitcoin
+question: Qual è il principale rischio nelle transazioni di impegno sulla Lightning Network?
+answer: Pubblicare una vecchia transazione per recuperare più fondi
 wrong_answers:
-  - Comunicazione P2P, Transazione Bitcoin, Transazione Ethereum
-  - Canale di pagamento, Transazione Bitcoin, Transazione Litecoin
-  - Comunicazione P2P, Canale di pagamento, Transazione Ripple
+  - Dimenticare di firmare la transazione di impegno
+  - Inviare accidentalmente fondi a un altro canale
+  - Bloccare la transazione con un timelock inappropriato
 explanation: |
-  La Lightning Network ha tre diversi livelli di comunicazione: comunicazione P2P (protocollo Lightning Network), canale di pagamento (protocollo Lightning Network) e transazione Bitcoin (protocollo Bitcoin).
+  Il principale rischio è che una parte possa tentare di barare pubblicando una vecchia transazione di impegno, il che potrebbe permetterle di recuperare fondi che non ha più.
 reviewed: false

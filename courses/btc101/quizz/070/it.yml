@@ -1,9 +1,10 @@
-question: Qual è la ricompensa BTC dopo il quarto dimezzamento?
-answer: 3.125 BTC
+question: Quanto è la ricompensa in BTC dopo il quarto halving?
+answer: 3.125 BTC.
 wrong_answers:
-  - 1.5625 BTC
-  - 6.25 BTC
-  - 12.5 BTC
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  Dopo il quarto dimezzamento, che avviene all'altezza del blocco 840.000, la ricompensa BTC per il mining è di 3.125 BTC.
-reviewed: false
+  Dopo il quarto halving, che si verifica all'altezza del blocco
+  840,000, la ricompensa in BTC per il mining è di 3.125 BTC.
+reviewed: vero

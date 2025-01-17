@@ -5,5 +5,6 @@ wrong_answers:
   - Pour augmenter la capacité de stockage.
   - Pour améliorer l'interface utilisateur.
 explanation: |
-  Un mot de passe fort est crucial pour la sécurité informatique afin de prévenir l'accès non autorisé au système.
-reviewed: false
+  Un mot de passe fort est crucial pour la sécurité informatique afin
+  de prévenir l'accès non autorisé au système.
+reviewed: true

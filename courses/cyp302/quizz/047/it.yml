@@ -1,0 +1,9 @@
+question: Secondo il teorema di Eulero, qual è il risultato dell'elevamento a potenza a^ϕ(N) mod N per due interi a e N che sono coprimi?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Il teorema di Eulero afferma che per due interi a e N che sono coprimi, l'elevamento a potenza a^ϕ(N) mod N è sempre uguale a 1 mod N, una proprietà utilizzata in crittografia.
+reviewed: false

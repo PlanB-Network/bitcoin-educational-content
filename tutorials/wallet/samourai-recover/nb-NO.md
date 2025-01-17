@@ -19,7 +19,7 @@ For det første er det nødvendig at appen tidligere var installert på din smar
 Ettersom Samourai Wallet-siden ikke lenger er tilgjengelig på Google Play Store, er det ikke mulig å deaktivere automatiske oppdateringer. Hvis appen returnerer til nedlastingsplattformene, ville det være klokt å **deaktivere automatiske oppdateringer** til mer informasjon er tilgjengelig angående utviklingen av saken.
 
 Hvis Samourai Wallet allerede er installert på din smarttelefon, bør du fortsatt kunne få tilgang til appen. For å bruke lommebokfunksjonaliteten til Samourai, er det essensielt å koble til en Dojo. Tidligere var brukere uten en personlig Dojo avhengige av Samourais servere for å få tilgang til Bitcoin blockchain-informasjon og for å formidle transaksjoner. Med beslagleggelsen av disse serverne, kan ikke appen lenger få tilgang til denne dataen.
-Hvis du ikke hadde en tilkoblet Dojo før, men har det nå, kan du sette den opp for å bruke Samourai-appen din igjen. Dette innebærer å sjekke sikkerhetskopiene dine, slette lommeboken (lommeboken, ikke applikasjonen), og gjenopprette lommeboken ved å koble Dojoen din til applikasjonen. For flere detaljer om disse stegene, kan du konsultere [denne veiledningen, i seksjonen "_Forberede din Samourai Wallet_" : COINJOIN - DOJO](https://planb.network/en/tutorials/privacy/coinjoin-dojo).
+Hvis du ikke hadde en tilkoblet Dojo før, men har det nå, kan du sette den opp for å bruke Samourai-appen din igjen. Dette innebærer å sjekke sikkerhetskopiene dine, slette lommeboken (lommeboken, ikke applikasjonen), og gjenopprette lommeboken ved å koble Dojoen din til applikasjonen. For flere detaljer om disse stegene, kan du konsultere [denne veiledningen, i seksjonen "_Forberede din Samourai Wallet_" : COINJOIN - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
 Hvis din Samourai-app allerede var koblet til din egen Dojo, da fungerer lommebokdelen perfekt for deg. Du kan fortsatt se din saldo og formidle transaksjoner. Til tross for alt som skjer, tror jeg Samourai Wallet fortsatt er den beste mobile lommebokprogramvaren for øyeblikket. Personlig planlegger jeg å fortsette å bruke den.
 Hovedproblemet du kan støte på er utilgjengeligheten av Whirlpool-kontoer fra appen. Vanligvis prøver Samourai å etablere en forbindelse med din Whirlpool CLI og starte coinjoin-syklusene før du får tilgang til disse kontoene. Men, siden denne forbindelsen ikke lenger er mulig, fortsetter appen å søke på ubestemt tid uten å noen gang gi deg tilgang til Whirlpool-kontoene. I dette tilfellet kan du gjenopprette disse kontoene på en annen lommebokprogramvare mens du kun beholder innskuddskontoen på Samourai.
 ### Hvilke verktøy er fortsatt tilgjengelige på Samourai?
@@ -29,10 +29,10 @@ På den andre siden er noen verktøy enten påvirket av servernedleggelsen eller
 Når det gjelder individuelle utgiftsverktøy, fungerer alt normalt forutsatt, selvfølgelig, at du har din egen Dojo. Normale Stonewall-transaksjoner (og ikke Stonewall x2) fungerer uten problemer.
 
 Kommentarer på Twitter har fremhevet at personvernet som tilbys av en Stonewall-transaksjon nå kan være redusert. Den tilleggsverdien av en Stonewall-transaksjon ligger i det faktum at den er uatskillelig fra en Stonewall x2-transaksjon når det gjelder struktur. Når en analytiker støter på dette spesifikke mønsteret, kan de ikke bestemme om det er en standard Stonewall med en enkelt bruker eller en Stonewall x2 som involverer to brukere. Imidlertid, som vi vil se i de følgende avsnittene, har gjennomføringen av Stonewall x2-transaksjoner blitt mer kompleks på grunn av utilgjengeligheten av Soroban. Noen tror derfor at en analytiker nå kan anta at enhver transaksjon med denne strukturen er en normal Stonewall. Personlig deler jeg ikke denne antagelsen. Selv om Stonewall x2-transaksjoner kan være mindre hyppige (og jeg tror de allerede var det før denne hendelsen), er det faktum at de fortsatt er mulige nok til å ugyldiggjøre en hel analyse basert på antagelsen om at de ikke er det.
-**[-> Lær mer om Stonewall-transaksjoner.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> Lær mer om Stonewall-transaksjoner.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Når det gjelder Ricochet, har jeg ikke vært i stand til å verifisere om tjenesten fortsatt er operativ, på grunn av at jeg ikke eier en Dojo på Testnet, og jeg foretrekker å ikke risikere å bruke `100 000 sats` mot en lommebok som kunne være kontrollert av myndighetene. Hvis du har hatt muligheten til å teste dette verktøyet nylig, inviterer jeg deg til å kontakte meg slik at vi kan oppdatere denne artikkelen.
 
-Hvis du trenger å bruke Ricochet, vær oppmerksom på at du alltid kan utføre denne operasjonen manuelt med hvilken som helst lommebokprogramvare. For å lære hvordan du manuelt utfører de forskjellige hoppene på riktig måte, anbefaler jeg å konsultere denne andre artikkelen: [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+Hvis du trenger å bruke Ricochet, vær oppmerksom på at du alltid kan utføre denne operasjonen manuelt med hvilken som helst lommebokprogramvare. For å lære hvordan du manuelt utfører de forskjellige hoppene på riktig måte, anbefaler jeg å konsultere denne andre artikkelen: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 JoinBot-verktøyet er ikke lenger operativt, da det var helt avhengig av deltakelsen fra en lommebok forvaltet av Samourai.
 
@@ -43,9 +43,9 @@ Når det gjelder andre typer samarbeidstransaksjoner, ofte referert til som "cah
 Etter flere tester viser det seg at Soroban ikke lenger fungerer. For å utføre disse samarbeidstransaksjonene må datautvekslingen derfor gjøres manuelt. Her er to alternativer for å utføre denne utvekslingen:
 - Hvis du fysisk er nær din samarbeidspartner, kan du skanne QR-kodene etter hverandre;
 - Hvis du er langt unna din samarbeidspartner, kan dere utveksle PSBT-ene via en ekstern kommunikasjonskanal til applikasjonen. Men vær forsiktig, da dataene som er inneholdt i disse PSBT-ene er sensitive med tanke på personvern. Jeg anbefaler å bruke en kryptert meldingstjeneste for å sikre konfidensialiteten til utvekslingen.
-**[-> Lær mer om Stonewall x2-transaksjoner.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> Lær mer om Stonewall x2-transaksjoner.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Lær mer om Stowaway-transaksjoner.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> Lær mer om Stowaway-transaksjoner.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Når det gjelder Whirlpool, ser protokollen ikke ut til å fungere lenger, selv for brukere som har sin egen Dojo. Jeg har overvåket min RoninDojo de siste dagene og forsøkt noen grunnleggende manipulasjoner, men Whirlpool CLI har ikke klart å koble til siden servernedleggelsen.
 
@@ -145,7 +145,7 @@ Hvis du bruker en annen programvare enn Sparrow, som Electrum, for å gjenoppret
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Du har nå tilgang til dine bitcoins på Sparrow. Hvis du trenger hjelp med å bruke Sparrow Wallet, kan du også sjekke ut [vår dedikerte opplæring](https://planb.network/tutorials/wallet/sparrow).
+Du har nå tilgang til dine bitcoins på Sparrow. Hvis du trenger hjelp med å bruke Sparrow Wallet, kan du også sjekke ut [vår dedikerte opplæring](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Jeg anbefaler også å manuelt importere etikettene du hadde assosiert med dine UTXOer på Samourai. Dette vil tillate deg å utføre effektiv myntkontroll på Sparrow etterpå.
 
@@ -201,7 +201,7 @@ Hvis du bruker en annen programvare som Electrum for å gjenopprette din Samoura
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Du har nå tilgang til dine bitcoins på Sparrow. Hvis du trenger hjelp med å bruke Sparrow Wallet, kan du også konsultere [vår dedikerte opplæring](https://planb.network/tutorials/wallet/sparrow).
+Du har nå tilgang til dine bitcoins på Sparrow. Hvis du trenger hjelp med å bruke Sparrow Wallet, kan du også konsultere [vår dedikerte opplæring](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Jeg anbefaler også manuelt å importere etikettene du hadde assosiert med dine UTXOs på Samourai. Dette vil tillate deg å utføre effektiv myntkontroll på Sparrow etterpå.
 
@@ -303,7 +303,7 @@ På den annen side, hvis personvernet til myntene dine vis-à-vis myndigheten po
 
 Jeg spesifiserer "vis-à-vis myndigheten" fordi det er viktig å huske på at kun myndigheten som beslagla serverne potensielt er klar over disse xpubs. Hvis målet ditt med å bruke coinjoin var å forhindre at bakeren din kunne følge pengene dine, da er han ikke bedre informert enn før serverbeslaget.
 Til slutt er det essensielt å vurdere den opprinnelige anonseten til mynten din, før serverbeslagleggelsen. La oss ta eksempelet med en mynt som hadde nådd en forventet anonset på 40 000; den potensielle reduksjonen i denne anonseten er sannsynligvis ubetydelig. Faktisk, med en allerede veldig høy grunnleggende anonset, er det usannsynlig at tilstedeværelsen av noen få brukere uten Dojo kunne radikalt endre situasjonen. Imidlertid, hvis mynten din hadde en anonset på 40, så kunne denne potensielle lekkasjen alvorlig påvirke dine anonseter og potensielt tillate sporing. Med WST-verktøyet nå ute av tjeneste etter nedleggelsen av OXT.me, kan du bare estimere disse anonsetene. For den retrospektive anonseten, er det ikke så mye å bekymre seg for siden Whirlpool-modellen sikrer at den er veldig høy fra den første coinjoin, takket være arven fra dine jevnaldrende. Det eneste tilfellet hvor dette kunne utgjøre et problem er hvis mynten din ikke har blitt remixet på flere år og den ble blandet i begynnelsen av en pools lansering. Når det gjelder den forventede anonseten, kan du undersøke varigheten mynten din har vært tilgjengelig for coinjoins. Hvis det har vært flere måneder, så har den sannsynligvis en ekstremt høy forventet anonset. Omvendt, hvis den ble lagt til i en pool bare noen timer før serverne ble beslaglagt, så er dens forventede anonset sannsynligvis veldig lav.
-[**-> Lær mer om anonseter og deres beregningsmetode.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> Lær mer om anonseter og deres beregningsmetode.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Et annet aspekt å vurdere er effekten av konsolideringer på anonsetene til mynter som har blitt blandet. Gitt at Whirlpool-kontoer ikke lenger er tilgjengelige via Samourai-appen, er det sannsynlig at mange brukere har overført lommeboken sin til annen programvare og forsøkt å ta ut midlene sine fra Whirlpool. Spesielt sist helg, da transaksjonsgebyrene på Bitcoin-nettverket var relativt høye, var det en sterk teknisk og økonomisk insentiv til å konsolidere post-mix mynter. Dette betyr at det er sannsynlig at mange brukere har gjort betydelige konsolideringer.
 
@@ -317,3 +317,4 @@ I det usannsynlige tilfellet at du brukte din Dojo med Samourai, men ikke med Se
 
 ## Konklusjon
 Takk for at du leste denne artikkelen til slutten. Hvis du mener at det mangler informasjon eller hvis du har forslag, nøl ikke med å kontakte meg for å dele dine tanker. I tillegg, hvis du trenger ytterligere hjelp til å gjenopprette din Samourai Wallet til tross for denne veiledningen, inviterer jeg deg til å bli med i [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) for å be om hjelp. Jeg besøker regelmessig denne Discord og ville være glad for å assistere deg hvis jeg har løsningen. Andre bitcoinere vil også kunne dele sine erfaringer og tilby sin støtte. **Uansett er det essensielt å holde din gjenopprettingsfrase, din sikkerhetskopi-fil, og din passfrase konfidensiell**. Ikke del dem med noen, da dette kunne muliggjøre for dem å stjele dine bitcoins.
+

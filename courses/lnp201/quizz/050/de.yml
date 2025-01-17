@@ -1,9 +1,9 @@
-question: Welche sind die beiden Arten von Gebühren im Lightning Network?
-answer: Eine feste Gebühr unabhängig von der Höhe und eine variable Gebühr.
+question: Warum könnte ein Verkäufer eine fiktive Zahlung in einem Kanal tätigen?
+answer: Um Liquidität auf die gegenüberliegende Seite zu verschieben
 wrong_answers:
-  - Eine Transaktionsgebühr und eine Routing-Gebühr.
-  - Eine Gebühr des Senders und eine Gebühr des Empfängers.
-  - Eine Netzwerkgebühr und eine Kanalgebühr.
+  - Um die Routing-Gebühren zu senken
+  - Um die Gesamtkapazität ihrer Kanäle zu erhöhen
+  - Um Mittel langfristig zu binden
 explanation: |
-  Im Lightning Network gibt es zwei Arten von Gebühr- language: en eine feste Gebühr, unabhängig von der Höhe (Standardwert ist 1 SAT, kann jedoch geändert werden) und eine variable Gebühr (standardmäßig 0,01%).
+  Indem ein Verkäufer eine fiktive Zahlung tätigt, verschiebt er Liquidität von seiner Seite auf die gegenüberliegende Seite des Kanals und schafft dadurch eingehende Kapazität, um Zahlungen zu empfangen.
 reviewed: false

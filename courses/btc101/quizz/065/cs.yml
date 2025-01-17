@@ -1,9 +1,12 @@
 question: S jakými ekonomickými principy je Bitcoin v souladu?
-answer: Principy rakouské ekonomie
+answer: Principy rakouské ekonomie.
 wrong_answers:
-  - Principy keynesiánské ekonomie
-  - Principy marxistické ekonomie
-  - Principy neoklasické ekonomie
+  - Principy keynesovské ekonomie.
+  - Principy marxistické ekonomie.
+  - Principy neoklasické ekonomie.
 explanation: |
-  Bitcoin je v souladu s principy rakouské ekonomie. Jeho omezené množství a absence centrální entity ho chrání před vrozenými riziky inflace, která jsou typická pro tradiční měny.
-reviewed: false
+  Bitcoin je v souladu s principy rakouské ekonomie.
+  Jeho omezené množství a absence centrální entity ho
+  chrání před vrozenými riziky inflace, která je vidět
+  u tradičních měn.
+reviewed: true

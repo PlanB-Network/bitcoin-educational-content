@@ -1,0 +1,11 @@
+question: Apa tujuan utama dari revolusi Bitcoin menurut teks?
+answer: Menciptakan dunia di mana kedaulatan manusia adalah hak, privasi dihormati secara default, dan uang tidak dimanipulasi
+wrong_answers:
+  - Menciptakan dunia di mana Bitcoin adalah satu-satunya mata uang
+  - Menciptakan dunia di mana pemerintah tidak memiliki kontrol
+  - Menciptakan dunia di mana uang fisik menjadi usang
+explanation: >-
+  Teks menunjukkan bahwa tujuan utama dari revolusi Bitcoin adalah untuk
+  menciptakan dunia di mana kedaulatan manusia adalah hak, privasi dihormati secara default,
+  dan uang tidak dimanipulasi.
+reviewed: false

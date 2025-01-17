@@ -1,0 +1,11 @@
+question: Apa potensi kerugian dari membuat cadangan awan menggunakan layanan seperti ProtonMail Drive, Sync, atau Google Drive?
+answer: Data Anda berpotensi ada di internet dan disimpan oleh pihak ketiga yang dipercaya.
+wrong_answers:
+  - Layanan ini tidak dapat diandalkan untuk cadangan data.
+  - Layanan ini sering kehilangan data pengguna.
+  - Layanan ini tidak menyediakan cukup ruang penyimpanan.
+explanation: |
+  Meskipun layanan cadangan awan menyediakan cara yang nyaman untuk mencadangkan
+  data Anda, ini juga berarti bahwa data Anda berpotensi ada di internet dan disimpan oleh
+  pihak ketiga yang dipercaya. Ini bisa berpotensi mengekspos data Anda ke risiko tambahan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dans un champ fini, quel est le rôle d'un polynôme irréductible ?
+answer: Définir les opérations de multiplication dans le champ
+wrong_answers:
+  - Définir l'inverse additif de chaque élément
+  - Assurer la fermeture du champ
+  - Déterminer l'identité multiplicative
+explanation: |
+  Les polynômes irréductibles sont utilisés pour structurer la multiplication dans les champs finis, ce qui garantit que chaque élément reste dans le champ.
+reviewed: false

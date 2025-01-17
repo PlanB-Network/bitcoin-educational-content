@@ -1,0 +1,12 @@
+question: Hva er det primære målet med Bitcoin-kurset nevnt i kapittelet?
+answer: Det primære målet med kurset er å utdanne nye Bitcoin-entusiaster i solide økonomiske prinsipper.
+wrong_answers:
+  - Det primære målet med kurset er å lære nye Bitcoin-entusiaster hvordan de kan mine Bitcoin.
+  - Det primære målet med kurset er å lære nye Bitcoin-entusiaster hvordan de kan investere i Bitcoin.
+  - Det primære målet med kurset er å lære nye Bitcoin-entusiaster hvordan de kan skape sine egne kryptovalutaer.
+explanation: |
+  Kurset har som mål å utdanne nye Bitcoin-entusiaster om de grunnleggende
+  prinsippene for økonomi, spesielt de fra den østerrikske skolen i økonomi.
+  Denne kunnskapen er avgjørende for å forstå verdien og potensialet til Bitcoin som
+  et alternativ til tradisjonelle monetære systemer.
+reviewed: false

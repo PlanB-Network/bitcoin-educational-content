@@ -1,122 +1,153 @@
 ---
-name: Osallistuminen - Arviointi
-description: Miten osallistua opetussisällön arviointiin PlanB Networkissa?
+name: Osallistuminen - Arvostelu
+description: Miten osallistua Plan ₿ Networkin koulutussisällön tarkistamiseen?
 ---
 ![github](assets/cover.webp)
 
-## TL;DR
-Jos haluat arvioida sisältöä PlanB Networkille, mene [kyseisen projektin sivulle](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) omalla kielelläsi. Valitse sisältö, jonka haluat arvioida, kommentoi ilmoittaaksesi ottavasi tehtävän hoitaaksesi, ja lähetä PR (pull request) suoritettuasi tehtävän kyseisen kielen haaraan.
+## Yhteenveto
 
-Jos et ymmärtänyt yllä olevaa osaa, älä huoli, tämä opas on sinua varten!
+Jos haluat osallistua Plan ₿ Networkin sisällön tarkistamiseen ja korjaamiseen, liity [Telegram-ryhmäämme](https://t.me/PlanBNetwork_ContentBuilder), joka on omistettu osallistumiselle. Esittele itsesi lyhyesti ja määrittele sitten sisältö, jota haluat tarkistaa, sekä kieli. Tee korjaukset työhaaraan ja lähetä PR, kun tarkistuksesi on valmis.
+
+Jos et ymmärtänyt yllä olevaa kohtaa, älä huoli - tämä ohje on sinua varten!
 
 ---
+## Mikä on Plan ₿ Network?
 
-## Mikä on PlanB Network?
+Plan ₿ Network on foorumi, jossa voi oppia Bitcoinista lukuisilla kursseilla ja opetusohjelmilla kaikille. Tällä hetkellä kaikki sisältömme on avointa lähdekoodia, sitä ylläpidetään GitHub-tietovarastossa ja se on avoinna tarkistuksille ja sisällön luomiselle.
 
-Planb.network on upouusi alusta, joka tarjoaa mahdollisuuden oppia Bitcoinista lukuisien kurssien ja opastusten kautta kaikille. Tällä hetkellä kaikki sisältömme on avoimen lähdekoodin, isännöity GitHub-repossa ja avoinna arvioinneille sekä sisällön luomiselle.
-
-PlanB.network pyrkii tulemaan Bitcoin-kyberavaruuden julkiseksi toriksi, yhdistäen ja kannustaen Bitcoin-yhteisöjä ympäri maailmaa.
+Plan ₿ Networkin tavoitteena on tulla Bitcoin-verkkoavaruuden julkiseksi aukioksi, joka yhdistää ja kannustaa Bitcoin-yhteisöjä maailmanlaajuisesti.
 
 ## Miksi osallistua?
 
-PlanB.network on perustavanlaatuisesti monikielinen, sillä tavoitteenamme on tehdä Bitcoin-resurssit kaikkien maailman ihmisten saataville. Uskomme, että kieli ei saisi olla este suvereenille valuutalle.
+Plan ₿ Network on pohjimmiltaan monikielinen, sillä tavoitteenamme on tuoda Bitcoin-resurssit kaikkien ulottuville maailmanlaajuisesti. Uskomme, että kieli ei saisi olla esteenä suvereenille rahalle.
 
-Siksi käytämme Ihminen x AI -lähestymistapaa tämän tavoitteen saavuttamiseksi. Kiitos [yksinkertaisen ohjelmamme](https://github.com/Asi0Flammeus/LLM-Translator), voimme automaattisesti kääntää sisältömme monille kielille. Ennen julkaisua tarvitsemme kuitenkin henkilön, joka on sujuva kielessä, arvioimaan sisällön varmistaaksemme, että sisältö on ymmärrettävää ja vapaa sopimattomista termeistä.
+Tämän saavuttamiseksi käytämme Human x AI -lähestymistapaa. [Ohjelmamme] (https://github.com/Asi0Flammeus/LLM-Translator) avulla voimme kääntää sisällön automaattisesti monille kielille. Tarvitsemme kuitenkin sujuvan puhujan tarkistamaan sen, jotta voimme varmistaa, että sisältö on ymmärrettävää ja ettei siinä ole sopimattomia termejä.
 
-Jos haluat liittyä meihin rakentamaan tätä koulutusprojektia edistämään Bitcoin-koulutusta yhteisössäsi, voit aloittaa arvioimalla kurssin tai opastuksen.
+Jos haluat auttaa rakentamaan tätä koulutushanketta Bitcoin-koulutuksen edistämiseksi yhteisössänne, voit aloittaa tarkistamalla kurssin tai opetusohjelman.
 
-Lisäksi, koska Découvre Bitcoin (DB) vastaa panosten arvioinnista ja me (DB) arvostamme *Value4Value* -mallia, palkitsemme arviointipanokset. Palkkio perustuu sisällön pituuteen, automaattikäännöksemme kielelliseen tarkkuuteen ja sisällön vaikeuteen.
+Lisäksi, koska arvostamme *Value4Value*-mallia, palkitsemme arvosteluista. Palkkio perustuu sisällön pituuteen, automaattisen käännöksen kielelliseen tarkkuuteen ja sisällön vaikeusasteeseen.
 
-## Tarvitsenko tietää, miten GitHub toimii?
+## Pitääkö minun tietää, miten GitHub toimii?
 
-Sinun ei tarvitse olla GitHub-asiantuntija arvioidaksesi sisältöä.
-Vaikka onkin aina parempi ymmärtää mitä teet (ja miksi), voit yksinkertaisesti noudattaa alla olevia ohjeita osallistuaksesi.
+Sinun ei tarvitse olla GitHub-asiantuntija arvioidaksesi sisältöä. Vaikka on aina parempi ymmärtää, mitä on tekemässä (ja miksi), voit yksinkertaisesti seurata alla olevia ohjeita osallistuaksesi.
 
-Jos et kuitenkaan ole lainkaan tuttu Gitin ja GitHubin toiminnan kanssa ja haluaisit oppia lisää, voit tutustua johdantoartikkeliimme näistä työkaluista.
+Jos Git ja GitHub eivät kuitenkaan ole sinulle tuttuja ja haluat oppia lisää, voit tutustua näitä työkaluja käsittelevään johdantoartikkeliin:
 
-https://planb.network/tutorials/others/basics-of-github
-
-
-
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 ## 1. Luo tili
-* Luo tili GitHubiin aloittaaksesi osallistumisen. Jos tarvitset ohjeita tilin luomiseen GitHubissa, meillä on myös yksityiskohtainen opas.
-
-https://planb.network/tutorials/others/create-github-account
 
 
-## **2. Mene kieliprojektisi sivulle**
-* [Projektisivu](https://github.com/PlanB-Network/bitcoin-educational-content/projects?query=is%3Aopen) sisältää kielelläsi olevaa sisältöä näytettynä Kanban-taululla.
-* Etsi kortteja "Review Needed" -sarakkeesta (katso **A**). Nämä ovat tehtäviä, joita voit arvioida.
-* Jokainen kortti sisältää tiedot (katso **B**):
-	- **Sisällön tyyppi**: Kurssi, opastus tai verkkosivusto
-	- **Sisällön vaikeus**
-	- **Kiireellisyys**
-	- **Sanamäärä**
-	- **Liitetty palkkio**: Perustuu sisällön ominaisuuksiin ja käännöksen tarkkuuteen (katso [Palkkio-osa](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#sat-reward))
-![arvostelu](assets/1.webp)
-## **3. Etsi arvosteltavaa sisältöä**
-* "Tarvitsee arvostelua" -sarakkeessa, klikkaa korttia.
-* Kortti sisältää kuvauksen linkeillä alkuperäiseen sisältöön ja arvosteltavaan tiedostoon (katso **A**).
-* Jos haluat arvostella sen, jätä kommentti ilmoittaaksesi, että työskentelet sen parissa (katso **B**).
-* Klikkaa linkkiä vieressä, jossa lukee `File to Review` (katso **C**)
+- Luo tili [GitHubissa](https://github.com/) aloittaaksesi osallistumisen. Jos haluat ohjeita GitHub-tilin luomiseen, meillä on myös yksityiskohtainen ohje:
 
-![arvostelu](assets/2.webp)
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-## **4. Arvostele ja muokkaa sisältöä GitHubin käyttöliittymän kautta**
-* Voit nyt nähdä GitHubin käyttöliittymän arvosteltavasta tiedostosta.
-* Vasen paneeli mahdollistaa navigoinnin haaraasi (katso **A**) ja tiedostoihin (katso **B**).
-* Klikkaa kynäkuvaketta aloittaaksesi arvostelun (katso **C**).
+- Tarvitset myös tilin viestisovellukseen [Telegram](https://telegram.org/).
 
-![arvostelu](assets/3.webp)
+## 2. Liity Telegram-ryhmään
 
-* Jos se on ensimmäinen kertasi, GitHub pyytää sinua haarauttamaan repositoryn.
 
-![arvostelu](assets/4.webp)
+- Liity [PBN Content Builder -ryhmään](https://t.me/PlanBNetwork_ContentBuilder) Telegramissa.
 
-* Seuraavaksi saavut Editor-käyttöliittymään (katso **A**), jossa voit nähdä tiedostopolun ja vastaavan haaran (katso **B**), ja voit vaihdella muokkaustilan ja esikatselutilan välillä (katso **C**).
+![REVIEW](assets/fr/01.webp)
 
-![arvostelu](assets/5.webp)
 
-HUOM. Arvostelu kannattaa tehdä koodi-ikkunassa alkuperäisen sisällön ollessa erillisessä ikkunassa vieressä.
+- Esittele itsesi lyhyesti ja määrittele sisältö, johon haluat osallistua, sekä kieli viestissä, joka lähetetään kanavalle "Yleistä".
+- Tiimin jäsen luo sitten GitHubiin ongelman tulevaa panostasi varten. Löydät sieltä kaikki tarvittavat tiedot arvostelusi aloittamiseen.
 
-## **5. Tee muutokset**
+![REVIEW](assets/fr/02.webp)
 
-* Kun haluat lopettaa arvostelusession, voit tehdä muutoksesi, vaikka arvostelu ei olisikaan valmis – se on vähän kuin "tallennat muutoksesi GitHubiin".
-* Klikkaa "Commit Changes" -nappia (katso **A**).
+## 3. Tarkastele ja muokkaa sisältöä GitHubin käyttöliittymän kautta
 
-![arvostelu](assets/6.webp)
-* Lisää kuvaava viesti muutoksestasi (katso **B**).* Lisää tarvittaessa lisätietoja kuvaukseen (katso **C**).
-* Klikkaa "Propose Changes" -nappia (katso **D**).
 
-![arvostelu](assets/7.webp)
+- Kysymys sisältää kuvauksen (vrt. **A**), jossa on linkit alkuperäiseen sisältöön ja tarkistettavaan tiedostoon.
+- Jos haluat ottaa tarkastuksen vastuullesi, jätä kommentti asiaan (vrt. **B**) ilmoittaaksesi, että aiot työskennellä sen parissa. Näin vältytään päällekkäisiltä ponnisteluilta.
+- Napsauta tarkistettavan tiedoston vieressä olevaa linkkiä (vrt. **C**) päästäksesi sisältöön.
 
-* Tämä avaa PR (Pull Request) ehdotussivun.
+![REVIEW](assets/fr/03.webp)
 
-## **6. Luo PR omalle haarallesi**
-![arvostelu](assets/8.webp)
 
-* Voit varmistaa, että tämä PR pyytää yhdistämään haaraasi vastaavan kielen omistetun haaran kanssa (katso **A**).
-* Anna PR:lle kuvaava nimi (katso **B**).
-* Lisää kontekstia kuvausosioon (katso **C**).
-* Jos ei valmis, klikkaa pudotusvalikon nuolta vieressä "Create Pull Request" ja valitse "Draft PR" (katso **D**).
-* Klikkaa "Draft Pull Request."
-* Onnittelut ensimmäisestä PR:stäsi!
+- Voit nyt tarkastella tarkistettavan tiedoston GitHub-käyttöliittymää.
+- Vasemmanpuoleisessa paneelissa voit selata haaraa (vrt. **A**) ja tiedostoja (vrt. **B**).
+- Aloita tarkistaminen napsauttamalla kynäkuvaketta (ks. **C**).
 
-## **7. Jatka arvostelua myöhemmin**
-* Jos et ole saanut arvostelua valmiiksi ja haluat jatkaa työtäsi, mene GitHub-profiilisi kautta PlanB-Network sisältörepositoryyn.
-* Valitse vastaava haara.
-* Nimeä haara tarvittaessa uudelleen.
-* Etsi sisältötiedostosi ja klikkaa kynäpainiketta jatkaaksesi arvostelua.
+![REVIEW](assets/fr/04.webp)
 
-## **8. Tee muutokset suoraan omalle haarallesi**
-* Tee muutoksia vahvistaaksesi muutokset suoraan haarallesi edetessäsi.
 
-## **9. Viimeistele ja aseta PR valmiiksi arvosteltavaksi**
-* Mene "Pull Requests" -välilehteen.
-* Valitse PR.
-* Klikkaa "Ready for Review".
+- Jos tämä on ensimmäinen osallistumisesi, GitHub pyytää sinua haarukoimaan lähdekoodivaraston. Napsauta vain painiketta.
 
-## 10. Odota arvostelua
-* Hyväksynnän jälkeen Découvre Bitcoin ottaa sinuun yhteyttä lähettääkseen palkkiosi LN:n kautta.
-* Jos haluat aloittaa alusta, palaa vaiheeseen 2 jatkaaksesi muiden sisältöjen avustamista.
-* Jos sinulla on huomautuksia, kysymyksiä tai kommentteja tästä projektista, voit lähettää suoran viestin Telegramissa käyttäjälle @asi0_flammeus.
+![REVIEW](assets/fr/05.webp)
+
+
+- Tämän jälkeen pääset editorin käyttöliittymään (vrt. **A**), jossa näet tiedostopolun ja vastaavan haaran (vrt. **B**) ja voit vaihtaa muokkaus- ja esikatselutilan välillä (vrt. **C**).
+
+![REVIEW](assets/fr/06.webp)
+
+HUOM. On suositeltavaa tarkistaa koodi-ikkunassa, jolloin alkuperäinen sisältö näkyy erillisessä ikkunassa. Voit tarkastella tekstiä esimerkiksi Plan ₿ Network -verkkosivustolla tai GitHubin esikatselussa selaimen välilehdellä. Käytä `ctrl + F` löytääksesi virheet ja tehdäksesi korjauksia koodinäkymässä työn edetessä.
+
+## 4. Sitoumusmuutokset
+
+
+- Voit aloittaa sisällön tarkistamisen ja korjaamisen tarpeen mukaan.
+- Kun haluat keskeyttää istunnon, voit sitoa muutokset, vaikka tarkastelu ei olisikaan vielä valmis. Se on kuin tallentaisi edistymisesi GitHubiin.
+- Napsauta "Commit Changes..." -painiketta.
+
+![REVIEW](assets/fr/07.webp)
+
+
+- Lisää kuvaileva viesti muutoksistasi (vrt. **A**).
+- Lisää tarvittaessa lisää asiayhteyttä kuvaukseen (vrt. **B**).
+- Napsauta "Ehdota muutoksia" -painiketta (ks. **C**).
+
+![REVIEW](assets/fr/08.webp)
+
+
+- Jos tämä ei ole ensimmäinen osallistumisesi, GitHub pyytää sinua luomaan uuden haaran. Sinun ei koskaan pitäisi tehdä toimitusta suoraan päähaaraan `dev`. Jos olet jo tehnyt muutoksia olemassa olevaan työhaaraan, valitse tämä haara. Muussa tapauksessa voit luoda uuden haaran valitsemalla "Luo uusi haara".
+
+![REVIEW](assets/fr/13.webp)
+
+
+- Tämän jälkeen pääset sivulle, jossa on yhteenveto kaikista muutoksistasi. Selaamalla sitä voit nähdä tarkat muutokset: poistetut kohteet näkyvät punaisella ja lisätyt kohteet vihreällä.
+
+![REVIEW](assets/fr/09.webp)
+
+
+- Jos et ole saanut tarkistusta valmiiksi ja haluat jatkaa työtäsi myöhemmin, voit yksinkertaisesti poistua.
+- Kun olet tehnyt muutokset, ne tallentuvat GitHub-haarukkaan.
+- Jos haluat jatkaa työtäsi, siirry GitHub-profiilisi kautta Plan ₿ Network -sisältöarkiston haaraan.
+
+![REVIEW](assets/fr/14.webp)
+
+
+- Valitse haara, joka sisältää edistymisesi (vrt. **A**), etsi sisältötiedostosi (vrt. **B**) ja jatka tarkistusta napsauttamalla kynäkuvaketta.
+
+![REVIEW](assets/fr/15.webp)
+
+## 5. Luo PR omaan haaraan
+
+
+- Jos kaikki näyttää hyvältä ja olet saanut muutokset valmiiksi, napsauta vihreää "Create Pull Request" -painiketta.
+
+![REVIEW](assets/fr/10.webp)
+
+
+- Tämän jälkeen pääset PR-sivulle. Pull Request on pyyntö lähettää etätietovaraston haaraan tehdyt muutokset tarkistettavaksi ja mahdollisesti yhdistettäväksi päähaaraan.
+- Lisää PR:ään otsikko ja lyhyt kuvaus. Otsikon tulisi vastata asiaa, jonka parissa työskentelet. Jos esimerkiksi numeron otsikko on `[KÄÄNTÖ] Kurssi CYP201 - FR`, käytä samaa otsikkoa PR:ssäsi (vrt. **A**). Mainitse kuvauksessa aiheeseen liittyvä kysymys käyttämällä sen numeroa, jota edeltää "Sulkeutuu". Tämä sulkee ongelman automaattisesti, kun PR on yhdistetty (vrt. **B**).
+- Jos kaikki näyttää hyvältä, napsauta vihreää "Create Pull Request" -painiketta (vrt. **C**).
+
+![REVIEW](assets/fr/11.webp)
+
+## 6. Odota tarkistusta
+
+
+- Onneksi olkoon, PR-työsi on toimitettu! Voit seurata sen edistymistä "Pull requests" -välilehdellä [Plan ₿ Network's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+
+![REVIEW](assets/fr/12.webp)
+
+
+- Kiitos paljon panoksestanne! Hyväksymisen jälkeen Plan ₿ Network -tiimin jäsen ottaa sinuun yhteyttä palkkiosi lähettämiseksi. **Maksut suoritetaan yksinomaan Lightning Networkin kautta**.
+- Jos haluat aloittaa alusta, palaa vaiheeseen 2 ja lähetä uusi viesti Telegram-ryhmässä jatkaaksesi osallistumista muuhun sisältöön. Muista synkronoida haarasi ennen uuden työhaaran luomista. Tee tämä menemällä haarasi etusivulle, valitsemalla päähaara nimeltä `dev` (vrt. **A**) ja napsauttamalla sitten "Synkronoi haarasi" -painiketta (vrt. **B**). Jos haaraasi on saatavilla päivityksiä, "Päivitä haara" -painike tulee näkyviin. Napsauta sitä suorittaaksesi päivityksen.
+
+![REVIEW](assets/fr/16.webp)
+
+
+- Jos sinulla on huomautuksia, kysymyksiä tai kommentteja tästä projektista, voit lähettää DM:n [osallistujien Telegram-ryhmään](https://t.me/PlanBNetwork_ContentBuilder).

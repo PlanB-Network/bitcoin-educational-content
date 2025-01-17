@@ -1,0 +1,9 @@
+question: In what case can we say that two events are independent?
+answer: The probability of one does not affect the probability of the other
+wrong_answers:
+  - The two events always occur simultaneously
+  - They are mutually exclusive
+  - Their combined probability is equal to the highest probability of the two
+explanation: |
+  Two events are independent if the probability of one does not change the probability of the other, such as a lottery draw having no influence on the weather of the next day.
+reviewed: false

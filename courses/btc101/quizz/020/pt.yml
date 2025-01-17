@@ -1,9 +1,12 @@
-question: Quais são os critérios para uma moeda efetiva?
-answer: Fungível, Divisível, Líquida
+question: Quais são as principais características de uma moeda eficaz?
+answer: Fungível, Divisível, Líquida.
 wrong_answers:
-  - Fungível, Divisível, Perecível
-  - Fungível, Indivisível, Líquida
-  - Não fungível, Divisível, Líquida
+  - Fungível, Divisível, Perecível.
+  - Fungível, Indivisível, Líquida.
+  - Não fungível, Divisível, Líquida.
 explanation: |
-  Os critérios para uma moeda efetiva são que ela deve ser fungível (intercambiável sem perda de valor), divisível (para facilitar transações de diferentes volumes) e líquida (facilmente convertível em bens ou serviços).
-reviewed: false
+  Uma moeda eficaz deve ser fungível (intercambiável
+  sem perda de valor), divisível (separável em pequenas
+  partes para facilitar transações de diferentes volumes) e
+  líquida (facilmente conversível em bens ou serviços).
+reviewed: true

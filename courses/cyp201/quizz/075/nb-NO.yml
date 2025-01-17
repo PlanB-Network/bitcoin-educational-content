@@ -1,0 +1,8 @@
+question: Hvilken avledningssti brukes for en SegWit v0-konto i en standard beskrivelse?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Stien 84h/0h/0h er definert i BIP84 for en konto som avleder SegWit v0-adresser med P2WPKH.

@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin is a centralized digital currency controlled by a single entity.
   - Bitcoin is a type of stock or bond.
 explanation: |
-  As stated in the whitepaper, Bitcoin is a peer-to-peer computer protocol that deploy a monetary system without the need of trusting third-parties.
+  As stated in the whitepaper, Bitcoin is a peer-to-peer computer protocol that creates a monetary system without the need of any trusted third-party.
 reviewed: true

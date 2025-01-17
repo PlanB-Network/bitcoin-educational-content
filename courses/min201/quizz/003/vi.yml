@@ -1,9 +1,12 @@
-question: Động lực tài chính chính để khai thác viên tham gia vào quá trình khai thác Bitcoin là gì?
-answer: Phần thưởng khai thác
+question: Động lực tài chính chính để thợ đào tham gia vào quá trình đào Bitcoin là gì?
+answer: Phần thưởng đào
 wrong_answers:
   - Khả năng kiểm soát mạng lưới Bitcoin
   - Khả năng tạo mới bitcoin theo ý muốn
   - Khả năng thao túng giá của Bitcoin
 explanation: |
-  Động lực tài chính chính để khai thác viên tham gia vào quá trình khai thác Bitcoin là phần thưởng khai thác. Phần thưởng này đóng vai trò như một động lực mạnh mẽ để khuyến khích khai thác viên tham gia vào quá trình khai thác mặc dù chi phí năng lượng.
-reviewed: false
+  Động lực tài chính chính để thợ đào tham gia vào
+  quá trình đào Bitcoin là phần thưởng đào. Phần thưởng này
+  phục vụ như một động lực mạnh mẽ để khuyến khích thợ đào
+  tham gia vào quá trình đào dù cho chi phí năng lượng.
+reviewed: true

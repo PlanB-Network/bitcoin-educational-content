@@ -1,0 +1,9 @@
+question: Mikä on tyypillinen lohkokoko lohkosalausmenetelmässä?
+answer: 64, 128, 192 tai 256 bittiä
+wrong_answers:
+  - 8, 16, 32 tai 64 bittiä
+  - 4, 8, 16 tai 32 bittiä
+  - 256, 512, 1024 tai 2048 bittiä
+explanation: |
+  Lohkosalausmenetelmät käsittelevät dataa kiinteänkokoisissa lohkoissa, tyypillisesti 64, 128, 192 tai 256 bittiä, varmistaakseen salauksen optimaalisen turvallisuuden ja eheyden.
+reviewed: false

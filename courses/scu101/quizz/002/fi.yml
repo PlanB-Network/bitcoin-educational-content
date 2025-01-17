@@ -1,12 +1,9 @@
-question: Miksi on suositeltavaa ladata ohjelmistoja julkaisijan virallisilta verkkosivuilta eikä yleisiltä sivustoilta?
-answer: Varmistaaksesi, että ohjelmisto on vapaa haittaohjelmista.
+question: Miksi on suositeltavaa ladata ohjelmisto julkaisijan virallisilta verkkosivuilta eikä yleisiltä sivustoilta?
+answer: Varmistaakseen, että ohjelmisto on vapaa haittaohjelmista.
 wrong_answers:
-  - Tukeaksesi taloudellisesti julkaisijaa.
+  - Tukeakseen taloudellisesti julkaisijaa.
   - Koska ohjelmisto on yleensä halvempi virallisilla verkkosivuilla.
-  - Koska ohjelmistot yleisillä sivustoilla ovat yleensä vanhentuneita.
+  - Koska ohjelmisto yleisillä sivustoilla on yleensä vanhentunutta.
 explanation: |
-  Ohjelmistojen lataaminen julkaisijan virallisilta verkkosivuilta varmistaa,
-  että saat ohjelmiston aitoa versiota, joka on vapaa
-  kaikista haittaohjelmista, jotka voisivat vahingoittaa laitettasi tai varastaa tietojasi.
-reviewed: false
-
+  Ohjelmiston lataaminen julkaisijan virallisilta verkkosivuilta varmistaa, että saat ohjelmiston laillisen version, joka on vapaa kaikista haittaohjelmista, jotka voisivat vahingoittaa laitettasi tai varastaa tietojasi.
+reviewed: true

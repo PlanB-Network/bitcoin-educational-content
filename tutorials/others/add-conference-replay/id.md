@@ -8,9 +8,9 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 
 Apakah Anda ingin menambahkan rekaman konferensi Bitcoin Anda di situs Jaringan PlanB dan memberikan visibilitas kepada acara ini, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!
 
-Namun, jika Anda ingin menambahkan konferensi yang akan berlangsung di masa depan, saya menyarankan Anda untuk [membaca tutorial lain ini](https://planb.network/tutorials/others/add-event) di mana kami menjelaskan cara menambahkan acara baru ke situs.
+Namun, jika Anda ingin menambahkan konferensi yang akan berlangsung di masa depan, saya menyarankan Anda untuk [membaca tutorial lain ini](https://planb.network/tutorials/others/contribution/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097) di mana kami menjelaskan cara menambahkan acara baru ke situs.
 ![conference](assets/01.webp)
-- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/create-github-account).
+- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) di bagian `resources/conference/`:
 ![conference](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, lalu pada `Create new file`:
@@ -60,7 +60,7 @@ tags:
 ```
 
 ![conference](assets/09.webp)
-Jika Anda belum memiliki pengenal "*builder*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/others/add-builder).
+Jika Anda belum memiliki pengenal "*builder*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
 - Setelah Anda selesai melakukan perubahan pada file ini, simpan perubahan tersebut dengan mengklik tombol `Commit changes...`:
 ![konferensi](assets/10.webp)
 - Tambahkan judul untuk perubahan Anda, serta deskripsi singkat:

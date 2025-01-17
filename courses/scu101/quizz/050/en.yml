@@ -1,10 +1,11 @@
 question: What is the advantage of one-time passwords (HOTP and TOTP) over SMS for 2FA?
 answer: They require cryptographic calculation and are stored locally rather than in memory.
 wrong_answers:
-  - They are faster
-  - They are cheaper
-  - They are easier to remember
+  - They require cryptographic calculation and are stored in memory rather than locally.
+  - They do not require cryptographic calculation and are stored both locally and in memory.
+  - They are easier to remember and faster to type in.
 explanation: |
-  One-time passwords (HOTP and TOTP) are safer than SMS because they require
-  cryptographic calculation and are stored locally rather than in memory.
-reviewed: false
+  One-time passwords (HOTP and TOTP) are safer than SMS
+  because they require cryptographic calculation and are
+  stored locally rather than in memory.
+reviewed: true

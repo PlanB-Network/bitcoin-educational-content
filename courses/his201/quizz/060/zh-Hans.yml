@@ -1,0 +1,8 @@
+question: 谁建立了第一个挖掘合作社来生产比特币上的区块？
+answer: doublec
+wrong_answers:
+  - slush
+  - puddinpop
+  - m0mchil
+explanation:
+  他在12月1日宣传了这个合作社。区块在2010年12月4日被[发现](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688)。另一方面，Slush的合作社是在12月16日启动的。

@@ -17,9 +17,11 @@ Tällä ajattelukoulukunnalla on jo useita vuosisatoja takanaan, ja sen taustall
 +++
 
 # Johdatus ECONiin
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Johdanto
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Hei kaikki ja tervetuloa Econ 201: Johdatus itävaltalaiseen taloustieteeseen.
@@ -38,6 +40,7 @@ Lämpimät kiitokset Théolle tämän kurssin tuottamisesta, ja toivon, että h�
 Jos olet valmis lähtemään tälle seikkailulle, kutsun sinut klikkaamaan seuraavaa videota ja aloittamaan bonusvideolla nykyisestä rahoitusjärjestelmästämme. Annan nyt puheenvuoron Théolle. Kiitos hänelle yhteistyöstä Descoupes Bitcoinin kanssa tämän videon toteuttamisessa. Nähdään hyvin pian. Näkemiin!
 
 ## Raha, Luotto, Pankit ja Keskuspankit
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > “Perusongelma perinteisessä valuutassa on kaikki luottamus, joka sen toimimiseen vaaditaan. Keskuspankkiin on luotettava, ettei se devalvoi valuuttaa, mutta fiat-valuuttojen historia on täynnä tuon luottamuksen pettämisiä. Pankkeihin on luotettava, että ne pitävät rahamme ja siirtävät sitä sähköisesti, mutta ne lainaavat sitä luottokuplien aalloissa vain murto-osalla varantona. Meidän on luotettava heihin yksityisyytemme kanssa, luotettava etteivät he anna henkilöllisyysvarkaiden tyhjentää tilejämme.”
@@ -59,9 +62,9 @@ Ostaessasi talon annat pankkiirillesi ohjeet siirtää rahat myyjän tilille. Jo
 Kuva 1: Rahaluonti kirjanpidollisina merkintöinä
 
 > “On hyvä, että kansamme ihmiset eivät ymmärrä pankki- ja rahajärjestelmäämme, sillä jos he ymmärtäisivät, uskon, että vallankumous olisi ennen huomisaamua”
-> 
+>
 > Henry Ford
-Tämä prosessi mahdollistaa pankkien kirjata kaikki tapahtumat, mukaan lukien tilisiirrot, luottokorttiostokset ja shekit, tietyn ajanjakson aikana (yleensä viikon tai kuukauden). Sen jälkeen ne selvittävät nämä tapahtumat keskenään käyttäen pankkireservejä, jotka ovat toinen julkisesti käyttämätön fiat-valuutan muoto. Pankkireservit pidetään keskuspankissa erityistilillä, joka on vain lisensoitujen pankkien ja rahoituslaitosten käytettävissä.
+> Tämä prosessi mahdollistaa pankkien kirjata kaikki tapahtumat, mukaan lukien tilisiirrot, luottokorttiostokset ja shekit, tietyn ajanjakson aikana (yleensä viikon tai kuukauden). Sen jälkeen ne selvittävät nämä tapahtumat keskenään käyttäen pankkireservejä, jotka ovat toinen julkisesti käyttämätön fiat-valuutan muoto. Pankkireservit pidetään keskuspankissa erityistilillä, joka on vain lisensoitujen pankkien ja rahoituslaitosten käytettävissä.
 
 ### Osittaisvarantopankkitoiminnan epävakaus ja viimekätinen lainanantaja
 
@@ -86,6 +89,7 @@ Kuva3: Korkotasot suurissa talouksissa / Lähde: EKP
 Monien odotusten vastaisesti QE-ohjelmat eivät merkittävästi elvyttäneet talouskasvua, mutta ne paisuttivat rahoitusvaroja historiallisille tasoille. Tämä hyödytti pääasiassa varakkaita ja rahoituslaitoksia, koska he jo omistivat merkittäviä määriä tällaisia varoja, mikä laajensi varallisuuseroja. Ottaen huomioon aiemmin selitetyn pankkijärjestelmän rakenteen, tämä tulos ei pitäisi tulla yllätyksenä. Koska pankkireservit eivät helposti virtaa todelliseen talouteen, QE-ohjelmat pääasiassa nostivat omaisuuserien hintoja parantamatta tehokkaasti keskivertojen yksilöiden taloudellista tilannetta.
 
 ### Cantillonin vaikutus
+
 Tästä episodista voidaan kuitenkin vetää olennainen taloudellinen periaate: kun uutta rahaa luodaan, se hyödyttää aluksi niitä, jotka ovat lähimpänä rahan lähdettä, muiden kustannuksella. Tämä taloudellinen oivallus juontaa juurensa 1700-luvulle, kun Richard Cantillon hahmotteli sen teoksessaan "Essee yleisen kaupan luonteesta". Nykyään sitä kutsutaan usein "Cantillonin efektiksi".
 ![image](assets/Image/4.webp)
 
@@ -114,16 +118,19 @@ Inflaation noustessa merkittävästi rahan luomisen seurauksena COVID-aiheisten 
 ### Johtopäätös
 
 > "Tällä tavoin (osittaisvarantopankkitoiminta), hallitukset voivat salaa ja huomaamatta, takavarikoida ihmisten varallisuuden, eikä miljoonasta miehestä yksikään huomaisi varkautta"
-John Maynard Keynes
-Olemukseltaan järjestelmämme kohtaa merkittäviä haasteita, ja Bitcoin nousee ainoaksi uskottavaksi vaihtoehdoksi. Bitcoin yksinään ei kuitenkaan pysty ratkaisemaan rahajärjestelmämme ongelmia. Ennen kaikkea tarvitsemme henkilöitä, jotka ymmärtävät perustaloustieteen periaatteita Bitcoin-harrastajien joukossa, mahdollistaen laajemman tietoisuuden ja talousjärjen ohjaamaan meitä pois hauraan taloudellisen perustan rakentamisesta sivilisaatiollemme. Tämän kurssin päätavoite on kouluttaa uusia Bitcoin-harrastajia vankkoihin taloustieteen periaatteisiin.
+> John Maynard Keynes
+> Olemukseltaan järjestelmämme kohtaa merkittäviä haasteita, ja Bitcoin nousee ainoaksi uskottavaksi vaihtoehdoksi. Bitcoin yksinään ei kuitenkaan pysty ratkaisemaan rahajärjestelmämme ongelmia. Ennen kaikkea tarvitsemme henkilöitä, jotka ymmärtävät perustaloustieteen periaatteita Bitcoin-harrastajien joukossa, mahdollistaen laajemman tietoisuuden ja talousjärjen ohjaamaan meitä pois hauraan taloudellisen perustan rakentamisesta sivilisaatiollemme. Tämän kurssin päätavoite on kouluttaa uusia Bitcoin-harrastajia vankkoihin taloustieteen periaatteisiin.
 
 Tavoitteen saavuttamiseksi selitämme "Itävaltalaisen taloustieteen" perusperiaatteet, taloustieteellisen koulukunnan, jolla on metodologinen perinne, joka ulottuu 1500-luvulle saakka, tarjoten näkemyksiä ihmisen toiminnasta taloudellisten rajoitteiden alaisena. Tämän johdannon myötä ymmärrät nyt rahanluonnin perusteet ja nykyisen talous- ja rahajärjestelmämme tilan.
 
 Tulevassa luvussa syvennymme minkä tahansa taloustieteellisen koulukunnan peruskiveen: arvoteoriaan. Seuraavat luvut tutkivat rahaa sosiaalisena instituutiona, pääoman ja liiketoimintasyklin teoriaa, taloudellisen laskennan haastetta sekä lyhyen katsauksen Itävaltalaisen taloustieteen koulukunnan historiaan ja metodologiaan.
 
 # Teoreettiset Perustat
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+
 ## Subjektiivinen arvoteoria
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > “Arvo olemassa ainoastaan ihmistietoisuudessa”
@@ -204,6 +211,7 @@ Rakentaen subjektiivisen järjestysarvon oivalluksille Menger selitti työnjaon 
 Seuraavat luvut on omistettu rahan syntymiselle sosiaalisena ilmiönä, pääoman ja koron teorialle, jotka toimivat perustana liiketoimintasyklin teorialle, ja viimeisenä hintojen roolille taloudellisessa laskennassa.
 
 ## Rahan syntyminen sosiaalisena ilmiönä
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Vaikka yksilöillä on yhteinen etu erikoistua ja maksimoida työnjako, on silti koordinaatio-ongelmia, jotka rajoittavat tämän laajentumista.
@@ -221,10 +229,10 @@ Alun perin vankien dilemma muotoiltiin seuraavasti: Kaksi epäiltyä, Alice ja B
 
 Nämä lopputulokset voidaan esittää matriisissa (numeeriset tulokset ilmaisevat vankeusvuosien määrää):
 
-| Alice / Bob       | Syyttää      | Pysyy Hiljaa |
-| ----------------- | ----------- | ------------- |
-| **Syyttää**        | 2, 2        | 0, 3         |
-| **Pysyy Hiljaa** | 3, 0        | 1, 1         |
+| Alice / Bob      | Syyttää | Pysyy Hiljaa |
+| ---------------- | ------- | ------------ |
+| **Syyttää**      | 2, 2    | 0, 3         |
+| **Pysyy Hiljaa** | 3, 0    | 1, 1         |
 
 Tässä pelissä ei ole mahdollisuutta koordinointiin (kommunikointi on mahdotonta) saavuttaakseen parhaan lopputuloksen molemmille osapuolille. Tämän seurauksena Alicella ja Bobilla on yksilöllinen kannustin syyttää toisiaan, vaikka se ei johdakaan ryhmän kannalta optimaaliseen lopputulokseen. Optimaalinen strategia molemmille on pysyä hiljaa, kumpikin saaden 1 vuoden vankeusrangaistuksen.
 
@@ -241,7 +249,7 @@ Kuitenkin, kun käsitellään suurempia yhteisöjä, jotka hyötyvät merkittäv
 Ensinnäkin, ihmiset ovat rajallisia kognitiivisissa kapasiteeteissaan. On mahdotonta ylläpitää ja muistaa vakaita sosiaalisia suhteita enemmän kuin 150 henkilön kanssa, mikä tekee maineeseen perustuvasta järjestelmästä riittämättömän voittamaan vankien dilemman laajassa mittakaavassa.
 
 Toiseksi, yhteisesti hyväksytty panosten arvon mittaaminen vaihdossa (vertailukelpoisuus) ei ole triviaali ongelma. Esimerkiksi, jos yksilö tarjoaa metsästyslihaa ja pyytää vastineeksi materiaaleja suojan rakentamiseen, kuinka metsästyslihan määrää voidaan arvioida termeissä, jotka ovat vertailukelpoisia pyydettyjen materiaalien kanssa? Sama pätee laatuun – onko hirvenliha arvokkaampaa tai vähemmän arvokasta kuin puu?
-Vaikka olisikin mahdollista vahvistaa tyydyttävä vaihtokurssi jokaiselle tavaraparille, tämän tiedon ylläpitäminen muuttuu nopeasti epäkäytännölliseksi. Suorassa vaihtojärjestelmässä, joka käsittää N tavaraa, on muistettava N(N-1)/2 vaihtokurssia. 50 tavaran taloudessa tämä tarkoittaa 50*49/2, eli 1225 vaihtokurssin muistamista, verrattuna vain 50:een epäsuorissa vaihdoissa. 100 tavaran taloudessa tämä luku nousee 4950:een. Tällainen neliöllinen suhde asettaa lisärajoituksen suoran vaihdon (vaihtokauppa) skaalautuvuudelle.
+Vaikka olisikin mahdollista vahvistaa tyydyttävä vaihtokurssi jokaiselle tavaraparille, tämän tiedon ylläpitäminen muuttuu nopeasti epäkäytännölliseksi. Suorassa vaihtojärjestelmässä, joka käsittää N tavaraa, on muistettava N(N-1)/2 vaihtokurssia. 50 tavaran taloudessa tämä tarkoittaa 50\*49/2, eli 1225 vaihtokurssin muistamista, verrattuna vain 50:een epäsuorissa vaihdoissa. 100 tavaran taloudessa tämä luku nousee 4950:een. Tällainen neliöllinen suhde asettaa lisärajoituksen suoran vaihdon (vaihtokauppa) skaalautuvuudelle.
 
 Lisäksi, koska nämä vaihdot eivät tapahdu välittömästi vaan ovat ajan myötä eriytyneitä, panosten arvioiminen ajan kuluessa monimutkaistaa entisestään panosten suhteellista arviointia. Kahden nykyisen tavaran vaihtosuhteen arvioinnin lisäksi tulee tarpeelliseksi arvioida menneen panoksen arvoa suhteessa tulevaan vastineeseen.
 
@@ -283,9 +291,11 @@ Tässä mielessä raha, mahdollistamalla arvon säilyttämisen nykyhetkessä ja 
 Seuraavassa luvussa syvennymme aikapreferenssin käsitteeseen ja selitämme itävaltalaisen näkökulman korkoon ja pääomaan, jotka toimivat perustana seuraavalle luvulle Liiketoimintasyklin Teoriasta.
 
 ## Aikapreferenssi, Korko ja Pääoma
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Aikapreferenssi
+
 Viimeisessä luvussa päätimme selittämällä, miten taloudelliset toimijat käyttävät kaikkein vaihdettavinta hyödykettä, eli rahaa, torjuakseen tulevaisuuden epävarmuutta. Selitimme myös, että aikailmiöiden peräkkäinen luonne johtaa meidät taistelemaan epävarmuutta vastaan asteittain: vasta kun tiedämme, että toimeentulomme on turvattu seuraavalle viikolle, voimme keskittyä tavoitteisiin, jotka ovat kauempana tulevaisuudessa.
 Tai toisin sanoen: ihmisenä alennamme tulevaisuuden hyödykkeiden arvoa.
 
@@ -348,16 +358,18 @@ Tämä on täydellisesti havainnollistettu alla olevassa kaaviossa: pitkän aika
 Tämä on se, mitä selvitämme seuraavassa luvussa, joka on omistettu Itävallan liiketoimintasyklin teorialle!
 
 # Itävaltalaiset talousnäkökulmat
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Itävallan liiketoimintasyklin teoria
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > “Mitä pidempään inflaation aiheuttaman pankkiluoton nousukausi jatkuu, sitä laajempi on pääomahyödykkeiden väärininvestointien ala, ja sitä suurempi on tarve näiden epäterveiden investointien likvidoinnille. Kun luoton laajentuminen pysähtyy, kääntyy tai hidastuu merkittävästi, väärininvestoinnit paljastuvat”
 >
 > Ludwig von Mises
-Ludwig Von Mises, joka oli Böhm-Bawerkin lahjakkain oppilas ja ehkä merkittävin itävaltalainen taloustieteilijä 20. vuosisadalla, käytti Böhm-Bawerkin pääoman pohdintoja selittääkseen taloussyklien syyt ja dynamiikan. Friedrich A. Hayek, Misesin suojatti, myöhemmin laajensi tätä pohdintaa sen loogisiin päätelmiin teoksissa, joista hänelle myönnettiin taloustieteen Nobel-palkinto vuonna 1974.
-Mises ja Hayek aloittivat analyysinsa säästöjen lisääntymisestä lähtökohtana. Kuten olemme nähneet edellisissä luvuissa, mikä tahansa säästöjen lisääntyminen edellyttää välttämättä vastaavaa kulutuksen vähenemistä ja siten kuluttajahyödykkeiden suhteellisten hintojen laskua. Tämä johtaa kahteen vaikutukseen: ensinnäkin kasvavaan kysyntään pääomahyödykkeille, joka johtuu todellisten palkkojen noususta kuluttajahyödykkeiden suhteellisten hintojen laskun seurauksena; ja toiseksi, yrittäjien voittojen kasvuun tuotannon kulutuksesta kaukaisimmissa vaiheissa (alempi järjestys). Kun todelliset palkat nousevat, yrittäjiä kannustetaan säästämään työvoimaa käyttämällä enemmän pääomahyödykkeitä, mikä luo vahvemman kysynnän pääomahyödykkeille ja suuremmat voitot näitä alempia järjestyshyödykkeitä tuottaville yrittäjille. Näin ollen lisääntyneiden säästöjen kontekstissa, eli aikapreferenssien vähenemisessä, korkotasot laskevat, edistäen lisävaiheiden kehittämistä tuotannossa ja tuottavuuden kasvua. Tämä on klassinen Böhm-Bawerkilainen tuotannon kiertotie, ja se on erittäin toivottava lopputulos.
+> Ludwig Von Mises, joka oli Böhm-Bawerkin lahjakkain oppilas ja ehkä merkittävin itävaltalainen taloustieteilijä 20. vuosisadalla, käytti Böhm-Bawerkin pääoman pohdintoja selittääkseen taloussyklien syyt ja dynamiikan. Friedrich A. Hayek, Misesin suojatti, myöhemmin laajensi tätä pohdintaa sen loogisiin päätelmiin teoksissa, joista hänelle myönnettiin taloustieteen Nobel-palkinto vuonna 1974.
+> Mises ja Hayek aloittivat analyysinsa säästöjen lisääntymisestä lähtökohtana. Kuten olemme nähneet edellisissä luvuissa, mikä tahansa säästöjen lisääntyminen edellyttää välttämättä vastaavaa kulutuksen vähenemistä ja siten kuluttajahyödykkeiden suhteellisten hintojen laskua. Tämä johtaa kahteen vaikutukseen: ensinnäkin kasvavaan kysyntään pääomahyödykkeille, joka johtuu todellisten palkkojen noususta kuluttajahyödykkeiden suhteellisten hintojen laskun seurauksena; ja toiseksi, yrittäjien voittojen kasvuun tuotannon kulutuksesta kaukaisimmissa vaiheissa (alempi järjestys). Kun todelliset palkat nousevat, yrittäjiä kannustetaan säästämään työvoimaa käyttämällä enemmän pääomahyödykkeitä, mikä luo vahvemman kysynnän pääomahyödykkeille ja suuremmat voitot näitä alempia järjestyshyödykkeitä tuottaville yrittäjille. Näin ollen lisääntyneiden säästöjen kontekstissa, eli aikapreferenssien vähenemisessä, korkotasot laskevat, edistäen lisävaiheiden kehittämistä tuotannossa ja tuottavuuden kasvua. Tämä on klassinen Böhm-Bawerkilainen tuotannon kiertotie, ja se on erittäin toivottava lopputulos.
 
 Kuitenkin, nämä kaksi itävaltalaista taloustieteilijää pohtivat, mitä tapahtuisi, jos korkotason lasku, joka toimii tämän tuotannon kiertotien lähtökohtana, ei johtuisikaan säästöjen lisääntymisestä vaan luoton laajentumisesta.
 
@@ -417,6 +429,7 @@ Enemmän kuin mikään muu taloustieteen koulukunta, Itävallan koulu korostaa s
 Tämä on seuraavan ja viimeisen kurssin luvun aihe.
 
 ## Taloudellisen laskennan mahdottomuus sosialismissa
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > “Kun tuotannontekijöille ei ole markkinahintoja, koska niitä ei osteta eikä myydä, on mahdotonta turvautua laskentaan suunniteltaessa tulevaa toimintaa ja määritettäessä menneen toiminnan tulosta. Sosialistinen tuotannonhallinta ei yksinkertaisesti tiedä, onko se, mitä se suunnittelee ja toteuttaa, sopivin keino saavuttaa tavoitellut päämäärät. Se toimisi pimeässä, niin sanoakseni. Se tuhlaisi niukkoja tuotannontekijöitä, sekä materiaalisia että inhimillisiä (työvoimaa). Väistämättä seurauksena olisi kaaos ja köyhyys kaikille”
@@ -463,6 +476,7 @@ Voisi väittää, että tällaisen panoraman maalaaminen jälkikäteen on helppo
 Huolimatta tästä vaikuttavasta ennustamisesta ja lukuisista empiirisistä todisteista sosialismin alla taloudellisen laskennan mahdottomuudesta, poliittiset johtajat ympäri maailmaa ovat innokkaampia kuin koskaan asettamaan hintoja, kansallistamaan kokonaisia teollisuudenaloja ja ehdottamaan viisivuotissuunnitelmia, joita usein aplodeerataan taloudellisesti tietämättömien väestönosien toimesta. Tällaisen interventionismin seuraukset tuntuvat voimakkaasti ihmisissä entisissä vauraissa länsimaissa, jotka hitaasti todistavat elintasonsa laskua.
 
 ### Itävaltalainen liiketoimintasyklin teoria erityistapauksena taloudellisen laskennan mahdottomuudesta sosialismissa
+
 Edellisessä luvussa selvensimme yli-investointien ja pääoman väärinkäytön dynamiikkaa, joka johtuu keskuspankkien korkotason manipuloinnista. Käytännössä selitimme ilmiötä, jota voidaan pitää erityistapauksena taloudellisen laskennan mahdottomuudesta sosialismissa, sovellettuna rahamarkkinoiden alueelle. Kun hinnat määritetään markkina-arvojensa ulkopuolella, yrittäjät ja pääoman allokaattorit kannustetaan tekemään investointeja, joita ei voida ylläpitää pitkällä aikavälillä säästöjen puutteen vuoksi. Hinta-järjestelmään puuttumalla keskussuunnittelijat (tässä tapauksessa keskuspankkiirit) luovat koordinaatio-ongelmia taloudellisten toimijoiden välille. Tässä tapauksessa aikavälinen koordinaatio-ongelma johtaa yli-investointiin korkeamman järjestyksen investointihyödykkeisiin ja alainvestointiin matalamman järjestyksen investointihyödykkeisiin, mikä edustaa erityistä pääoman väärinkäytön ilmentymää eri toimialoilla.
 
 Tällaisen väärinkäytön seuraukset sisältävät taloudellisia ja talouskriisejä, taloudellisen toiminnan vähenemistä ja velkainflaatiota. Nämä makrotaloudelliset vaikutukset johtuvat säästöjen ja investointien välisestä epätasapainosta, joka johtuu luoton laajentumisesta. Neuvostoliitossa ja muissa kommunistisissa järjestelmissä hintojen kiinnittäminen johti samankaltaiseen koordinaatio-ongelmaan, mikä johti joidenkin hyödykkeiden puutteeseen ja toisten ylituotantoon. Molemmissa tapauksissa hinnat eivät heijasta kuluttajien todellisia mieltymyksiä, olipa kyseessä sitten aikamieltymykset tai kulutusmieltymykset, mikä johtaa yrittäjiin tai keskussuunnittelijoihin, jotka ovat vastuussa resurssien allokaatiosta, investoimaan pääomaa "vääriin toimialoihin".
@@ -471,7 +485,7 @@ Nykyään taloudellisen laskennan keskustelu nousee esiin pääasiassa keskustel
 
 Konkreettiseksi sovellukseksi taloudellisen laskennan ongelmasta nykyaikaisessa tilanteessa, voit viitata tähän artikkeliin, joka käsittelee resurssien allokaation ongelmaa nyky-Kiinassa.
 
->   The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Johtopäätös
 
@@ -481,6 +495,7 @@ Valtavirtaistaloustieteilijät ja keskussuunnittelijat usein eivät pidä itäva
 Itävaltalainen perinne ilmentää nöyrää lähestymistapaa ihmisen toimintaan, vetäen syvällisiä johtopäätöksiä subjektiivisen arvon, epävarmuuden, vapaan tahdon ja monimutkaisuuden käsitteistä. Se selittää, kuinka markkinajärjestys, vaikka se ei olekaan ihmisen suunnittelema tuote, on keskeinen instituutio kehityksellemme ja vauraudellemme. Jos kurssista on yksi keskeinen oivallus, se on, että kapitalismi tuli vallitsevaksi talousjärjestelmäksi sen kyvyn ansiosta sopeutua muutokseen dynaamisessa ja epävarmassa maailmassa, jossa elää vapaita yksilöitä.
 
 ## Itävaltalainen metodologia
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Itävaltalainen taloustiede erottuu muista koulukunnista aksiooma-deduktiivisella metodologiallaan, joka eroaa usein sosiaalitieteissä käytetystä positivistisesta lähestymistavasta. Positivistinen lähestymistapa perustuu empiirisistä tiedoista perustettuihin lakeihin, omaksuen menetelmän, joka on samankaltainen kuin luonnontieteissä. Se muodostaa hypoteeseja havainnoista, jotka sitten vahvistetaan tai kumotaan väliaikaisilla kokeilla. Tieteellinen menetelmä koostuu hypoteesin säilyttämisestä, joka parhaiten selittää tiedot ja jatkaa sen tutkimista, kunnes tarkempi hypoteesi löydetään.
@@ -500,14 +515,21 @@ On tärkeää huomata, että kirsikanpoiminta, joka sisältää tietojen valikoi
 Metodologia on olennainen osa taloustieteessä ja yhteiskuntatieteissä yleensä. Se vaikuttaa siihen, miten kysymyksiä esitetään, hypoteeseja muotoillaan ja tietoja tulkitaan. Taloustieteen koulukuntien metodologisten erojen ymmärtäminen voi auttaa meitä arvostamaan erilaisia näkökulmia ja kehittämään omia mielipiteitämme aiemmissa jaksoissa käsitellyistä aiheista.
 
 # Johtopäätös
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
+## Arviot & Arvosanat
 
-## Anna meille palautetta tästä kurssista
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Loppukoe
+
+<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Jatkotutkimukset
+
 <chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Onnittelut ECON 201 -kurssin suorittamisesta! Toivon vilpittömästi, että nautit siitä ja avasit itsellesi uusia ovia. Bitcoinin löytöretkesi on vasta alussa, ja kutsun sinut tutkimaan kaikkia yliopistolla tarjolla olevia muita kursseja.
@@ -526,20 +548,21 @@ Näiden lukemisten lisäksi voit löytää tietoa Itävaltalaisesta taloustietee
 
 Näitä teoksia lukemalla ja näitä online-resursseja tutkimalla voit kehittää syvällisemmän ymmärryksen Itävaltalaisen taloustieteen keskeisistä periaatteista ja ideoista.
 
-### Tue meitä
+# Yhteenveto
 
-Tämä kurssi, kuten kaikki tämän yliopiston sisältö, on tarjottu sinulle ilmaiseksi yhteisömme toimesta. Voit tukea meitä jakamalla sen muiden kanssa, liittymällä yliopiston jäseneksi ja jopa osallistumalla sen kehittämiseen GitHubin kautta. Koko tiimin puolesta, kiitos!
+<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
 
-### Arvioi kurssi (tulossa pian)
-Kurssille tulee pian integroitumaan arvostelujärjestelmä tähän uuteen E-oppimisalustaan! Siihen asti, suurkiitokset kurssin suorittamisesta, ja jos pidit siitä, harkitse sen jakamista muiden kanssa. (tulossa pian)
-Jos haluat syventyä edelleen Itävallan taloustieteen aiheeseen, suosittelen useita haastatteluja Théo Mogenetin kanssa:
+## Arvioi tämä kurssi
 
-- [Miten valmistautua seuraavaan talouskriisiin?](https://youtu.be/GJT8t1TEd7Q)
-- [Miten euron tuho voidaan artikuloida?](https://youtu.be/eK3ONo11HN8)
-- [Hyper-bitcoinisaatio: voimmeko toimia BTC-standardilla?](https://youtu.be/nkN2twZ-lJY)
-  Jos haluat vielä lisää, voit katsoa näitä keskusteluja makrotaloudellisesta tilanteesta ja muista aiheista:
-- [Miten tuhota Bitcoin?](https://youtu.be/gHKvj4eeiDg)
-- [Onko Bitcoin oikeistolainen, vasemmistolainen vai anarkistinen?](https://youtu.be/4fXGxzLtIIw)
-- [Pelastaaksesi planeetan, hylkää dollari ja euro](https://youtu.be/iHagDlH4bf8)
-- [Miksi korkojen nousu on mahdotonta?](https://youtu.be/iHagDlH4bf8)
-Muussa tapauksessa, jatka oppimistasi muiden koulutusten ja opastusten parissa yliopistolta!
+<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Loppukoe
+
+<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Yhteenveto
+
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

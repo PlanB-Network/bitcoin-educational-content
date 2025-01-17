@@ -1,0 +1,11 @@
+question: Hva er den primære funksjonen til en VPN i en profesjonell sammenheng?
+answer: Den lar ansatte trygt få tilgang til bedriftens interne nettverk eksternt.
+wrong_answers:
+  - Den lar ansatte omgå geografiske restriksjoner.
+  - Den lar ansatte blokkere nettannonser.
+  - Den lar ansatte bruke offentlig Wi-Fi trygt.
+explanation: |
+  I en profesjonell sammenheng brukes VPN hovedsakelig for å tilby sikker
+  ekstern tilgang til bedriftens interne nettverk. Dette oppnås ved å kryptere
+  dataene som utveksles mellom den ansatte og bedriftens nettverk, noe som gjør det vanskelig
+  for tredjeparter å avlytte.

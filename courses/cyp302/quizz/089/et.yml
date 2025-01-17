@@ -1,0 +1,9 @@
+question: Mis on juhusliku nõndsa (nonce) kasutamise tähtsus CBC ja OFB meetodites?
+answer: See tagab, et iga krüpteerimisseanss on unikaalne, isegi identsete andmete puhul.
+wrong_answers:
+  - See vähendab võtme pikkust krüpteerimisprotsessi jooksul.
+  - See muudab krüpteerimise kiiremaks.
+  - See muudab algoritmi koodi inimestele ilusamaks.
+explanation: |
+  Juhusliku nõndsa (nonce) kasutamine iga seansi jaoks tagab, et CBC ja OFB meetoditega krüpteerimine on unikaalne, mis hoiab ära rünnakud, mis kasutavad ära identseid andmeid.
+reviewed: false

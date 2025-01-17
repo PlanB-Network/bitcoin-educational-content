@@ -1,0 +1,9 @@
+question: Miks on oluline eelistada usaldusväärsust ja tehnilisust populaarsusele, kui valitakse VPN-i?
+answer: VPN-i pakkujad, kes koguvad kõige vähem isiklikku teavet, on üldiselt kõige turvalisemad.
+wrong_answers:
+  - Populaarsed VPN-i pakkujad on suurema tõenäosusega häkkerite sihtmärgiks.
+  - Populaarsed VPN-i pakkujad on suurema tõenäosusega aeglasemate internetikiirustega.
+  - Populaarsed VPN-i pakkujad on suurema tõenäosusega geograafiliste piirangutega.
+explanation: |
+  VPN-i valimisel on oluline eelistada usaldusväärsust ja tehnilisust populaarsusele. See on seetõttu, et VPN-i pakkujad, kes koguvad kõige vähem isiklikku teavet, on üldiselt kõige turvalisemad, pakkudes paremat kaitset teie veebiturvalisusele.
+reviewed: false

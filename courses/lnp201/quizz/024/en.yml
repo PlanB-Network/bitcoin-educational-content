@@ -1,11 +1,9 @@
-question: What happens to the withdrawal transaction after a Lightning Network transfer?
-answer: It is updated to reflect the new balance of the channel.
+question: What is the combined effect of the timelock and the revocation key on commitment transactions?
+answer: They deter participants from cheating by offering an immediate punishment
 wrong_answers:
-  - It is executed and the funds are transferred.
-  - It is discarded and a new transaction is created.
-  - It remains the same.
+  - They reduce the channel's capacity in case of cheating
+  - They automatically lock the funds of the guilty party
+  - They force the opening of a new channel if the transaction is incorrect
 explanation: |
-  After a Lightning Network transfer, the withdrawal transaction is updated
-  to reflect the new balance of the channel. This transaction is not executed unless
-  the channel is closed.
+  The timelock and the revocation key deter participants from cheating by ensuring that any attempt to cheat results in an immediate loss of funds for the guilty party.
 reviewed: false

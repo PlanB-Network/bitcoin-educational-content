@@ -1,0 +1,13 @@
+question: Co v kontextu analýzy řetězce na Bitcoinu značí entropie?
+
+answer: Nedostatek znalostí analytiků o přesné konfiguraci transakce.
+
+wrong_answers:
+  - Rychlost, s jakou se informace o transakci šíří po síti.
+  - Úroveň kryptografického zabezpečení digitálních podpisů použitých v transakci.
+  - Velikost skupiny identických UTXO, ve které je mince skryta.
+
+explanation: |
+  Entropie se používá k měření nedostatku znalostí analytiků o přesné konfiguraci transakce. Jinými slovy, čím vyšší je entropie, tím obtížnější se pro analytiky stává identifikovat toky bitcoinů mezi vstupy a výstupy.
+
+reviewed: false

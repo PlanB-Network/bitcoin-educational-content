@@ -1,9 +1,12 @@
-question: Qual é a estratégia utilizada pelas entidades centrais para desvalorizar uma moeda fiduciária?
-answer: Elas aumentam a massa monetária inicial em alguns porcentos a cada ano.
+question: Qual é a estratégia usada pelas entidades centrais para desvalorizar uma moeda fiduciária?
+answer: Eles aumentam a massa monetária por alguns porcentos a cada ano.
 wrong_answers:
-  - Elas diminuem a massa monetária inicial em alguns porcentos a cada ano.
-  - Elas mantêm a massa monetária constante em relação à massa inicial.
-  - Elas flutuam aleatoriamente a massa monetária em relação à massa inicial.
+  - Eles diminuem a massa monetária por alguns porcentos a cada ano.
+  - Eles mantêm sua massa monetária constante em comparação com a massa inicial.
+  - Eles fazem sua massa monetária flutuar aleatoriamente em comparação com a massa inicial.
 explanation: |
-  As entidades centrais frequentemente desvalorizam uma nova moeda aumentando sua massa monetária em relação à inicial em alguns porcentos a cada ano. Essa desvalorização silenciosa é frequentemente justificada como sendo de interesse do povo.
-reviewed: false
+  As entidades centrais frequentemente desvalorizam uma moeda aumentando sua
+  massa monetária em comparação com a inicial por alguns porcentos
+  a cada ano. Essa desvalorização silenciosa é frequentemente justificada como
+  sendo no interesse do povo.
+reviewed: true

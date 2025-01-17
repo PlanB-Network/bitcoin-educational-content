@@ -14,7 +14,7 @@ Haridusliku sisu tõlkimiseks kasutame [lähenemist, mis ühendab inimtööd ja 
 
 Kui aga olete huvitatud saidi teiste osade tõlkimisest, välja arvatud hariduslik sisu, olete õiges kohas! Esikülje tõhusaks tõlkimiseks kasutame Weblate tööriista, mis hõlbustab koostööd ja korraldab tõlkeid. See on väga lihtne tööriist, millega alustada. Vaatame samm-sammult, kuidas Weblate'i kasutada.
 
-Kui soovite PlanB Networkile lisada täiesti uue keele, mis pole veel Weblate'is saadaval, peate esmalt esitama lisamistaotluse. Selleks [järgige seda konkreetset õpetust](https://planb.network/tutorials/others/add-new-language-weblate).
+Kui soovite PlanB Networkile lisada täiesti uue keele, mis pole veel Weblate'is saadaval, peate esmalt esitama lisamistaotluse. Selleks [järgige seda konkreetset õpetust](https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86).
 
 ## Registreeru Weblate'is
 

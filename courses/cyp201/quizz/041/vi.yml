@@ -1,9 +1,8 @@
-question: Vai trò của đường cong elliptic trong việc tạo ra khóa công khai và khóa riêng tư là gì?
-answer: Nó được sử dụng để tạo ra khóa công khai và khóa riêng tư an toàn.
+question: Rủi ro chính khi sử dụng một PRNG thiết kế kém để tạo entropy là gì?
+answer: Khóa riêng có thể bị đoán bởi kẻ tấn công
 wrong_answers:
-  - Nó được sử dụng để mã hóa các khóa.
-  - Nó được sử dụng để lưu trữ các khóa.
-  - Nó được sử dụng để truyền các khóa.
+  - Cụm từ ghi nhớ có thể chứa từ không chính xác
+  - Chữ ký số sẽ trở nên không hợp lệ
+  - Địa chỉ Bitcoin sẽ không tương thích với mạng
 explanation: |
-  Đường cong elliptic là một cấu trúc toán học được sử dụng trong việc tạo ra khóa công khai và khóa riêng tư an toàn. Một số ngẫu nhiên, thường được gọi là nonce, được chọn làm khóa riêng tư và sử dụng trong phương trình của đường cong elliptic để tạo ra khóa công khai tương ứng.
-reviewed: false
+  Một PRNG được thiết kế kém có thể tạo ra các chuỗi dễ đoán, làm cho các khóa dễ bị tấn công hơn.

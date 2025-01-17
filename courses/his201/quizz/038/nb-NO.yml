@@ -1,0 +1,9 @@
+question: Hva var navnet på den første forvaltede applikasjonen som tillot enkel bruk av Bitcoin på mobil, opprettet i april 2010?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+  Den ble [promotert](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) på forumet den 30. april 2010, av noen som het komoto.
+reviewed: false

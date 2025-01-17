@@ -1,12 +1,13 @@
-question: Mikä on päähuoli internetjättien tarjoamassa Single Sign-On (SSO) -ratkaisussa?
-answer: Se aiheuttaa ongelmia saatavuuden ja sensuurin riskien osalta.
+question: Mikä on päähuoli internetjättien tarjoamassa Single Sign-On (SSO) -palvelussa?
+answer: Se aiheuttaa ongelmia saatavuuden ja sensuurin riskien suhteen.
 wrong_answers:
   - Sitä on vaikea käyttää.
   - Se vaatii paljon tallennustilaa.
   - Se ei ole yhteensopiva kaikkien verkkosivustojen kanssa.
 explanation: |
-  Internetjättien tarjoama Single Sign-On (SSO) -ratkaisu aiheuttaa ongelmia
-  saatavuuden ja sensuurin riskien osalta. Tämä johtuu siitä, että jos SSO-tarjoaja
-  kokee katkoksen tai päättää estää käyttäjän, käyttäjä saattaa menettää pääsyn kaikkiin
-  palveluihin, jotka käyttävät kyseistä SSO:ta autentikointiin.
-reviewed: false
+  Internetjättien tarjoama Single Sign-On (SSO) -palvelu
+  aiheuttaa ongelmia saatavuuden ja sensuurin riskien suhteen.
+  Tämä johtuu siitä, että jos SSO-palveluntarjoaja kokee katkoksen
+  tai päättää estää käyttäjän, käyttäjä saattaa menettää pääsyn
+  kaikkiin palveluihin, jotka käyttävät kyseistä SSO: ta autentikointiin.
+reviewed: true

@@ -1,9 +1,12 @@
-question: ¿Cuál es una forma de confirmar que estás en el sitio que pretendes visitar?
-answer: Verifica las URL y el pequeño candado en la barra de direcciones.
+question: ¿Cuál es una manera de confirmar que estás en el sitio que pretendes visitar?
+answer: Verificar las URLs y el pequeño candado en la barra de direcciones.
 wrong_answers:
-  - Verifica el número de anuncios en el sitio.
-  - Verifica la velocidad del sitio.
-  - Verifica el esquema de color del sitio.
+  - Verificar el número de anuncios en el sitio.
+  - Verificar la velocidad del sitio.
+  - Verificar la paleta de colores del sitio.
 explanation: |
-  Verificar las URL y el pequeño candado en la barra de direcciones es una forma de confirmar que estás en el sitio que pretendes visitar. El candado indica que el sitio está utilizando el protocolo HTTPS, que cifra los datos para un intercambio seguro.
-reviewed: false
+  Verificar las URLs y el pequeño candado en la barra de direcciones
+  es una manera de confirmar que estás en el sitio que pretendes
+  visitar. El candado indica que el sitio está utilizando el
+  protocolo HTTPS, el cual cifra los datos para un intercambio seguro.
+reviewed: true

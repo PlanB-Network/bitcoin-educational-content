@@ -1,9 +1,14 @@
 question: Wie funktioniert ein Mining-Pool und warum ist er notwendig?
-answer: Ein Mining-Pool ist eine Gruppe von Minern, die ihre Rechenressourcen kombinieren, um ihre Chancen beim Mining zu erhöhen. Diese Zusammenarbeit ist notwendig, da eine isolierte kleine Mining-Maschine gegenüber den Branchenriesen konkurriert und ihre Erfolgschancen auf ein vernachlässigbares Niveau reduziert. Durch das Zusammenlegen ihrer Rechenleistung können die Miner Blöcke häufiger finden und die Belohnungen proportional zu ihrem Beitrag zum Pool verteilen.
+answer: Ein Mining-Pool ist eine Gruppe von Minern, die ihre Rechenressourcen bündeln, um ihre Chancen auf das Mining zu erhöhen. Diese Zusammenarbeit ist notwendig, da eine isolierte kleine Mining-Maschine im Wettbewerb mit Branchenriesen steht, was ihre Erfolgschancen auf ein vernachlässigbares Niveau reduziert. Durch das Zusammenlegen können Miner ihre Rechenleistung kombinieren, häufiger Blöcke finden und dann die Belohnungen proportional zu jedem Miners Beitrag zum Pool verteilen.
 wrong_answers:
-  - Ein Mining-Pool ist eine Gruppe von Minern, die dieselbe Mining-Maschine teilen, um ihre Chancen beim Mining zu erhöhen. Diese Zusammenarbeit ist notwendig, da eine einzelne Mining-Maschine nur eine begrenzte Menge an Bitcoin minen kann.
-  - Ein Mining-Pool ist eine Gruppe von Minern, die dieselbe Mining-Software teilen, um ihre Chancen beim Mining zu erhöhen. Diese Zusammenarbeit ist notwendig, da verschiedene Mining-Softwares unterschiedliche Effizienzen aufweisen.
-  - Ein Mining-Pool ist eine Gruppe von Minern, die denselben Mining-Standort teilen, um ihre Chancen beim Mining zu erhöhen. Diese Zusammenarbeit ist notwendig, da der Standort des Mining-Betriebs die Effizienz des Minings beeinflussen kann.
+  - Ein Mining-Pool ist eine Gruppe von Minern, die dieselbe Mining-Maschine teilen, um ihre Chancen auf das Mining zu erhöhen. Diese Zusammenarbeit ist notwendig, da eine einzelne Mining-Maschine nur eine begrenzte Menge an Bitcoin minen kann.
+  - Ein Mining-Pool ist eine Gruppe von Minern, die dieselbe Mining-Software teilen, um ihre Chancen auf das Mining zu erhöhen. Diese Zusammenarbeit ist notwendig, da verschiedene Mining-Softwares unterschiedliche Effizienzen haben.
+  - Ein Mining-Pool ist eine Gruppe von Minern, die denselben Mining-Standort teilen, um ihre Chancen auf das Mining zu erhöhen. Diese Zusammenarbeit ist notwendig, da der Standort der Mining-Operation die Effizienz des Minings beeinflussen kann.
 explanation: |
-  Das Kapitel erklärt, dass ein Mining-Pool eine Gruppe von Minern ist, die ihre Rechenressourcen kombinieren, um ihre Chancen beim Mining zu erhöhen. Diese Zusammenarbeit ist notwendig, da eine isolierte kleine Mining-Maschine gegenüber den Branchenriesen konkurriert und ihre Erfolgschancen auf ein vernachlässigbares Niveau reduziert.
-reviewed: false
+  Das Kapitel erklärt, dass ein Mining-Pool eine Gruppe von
+  Minern ist, die ihre Rechenressourcen bündeln, um
+  ihre Chancen auf das Mining zu erhöhen. Diese Zusammenarbeit
+  ist notwendig, da eine isolierte kleine Mining-Maschine im
+  Wettbewerb mit Branchenriesen steht, was ihre Erfolgschancen
+  auf ein vernachlässigbares Niveau reduziert.
+reviewed: true

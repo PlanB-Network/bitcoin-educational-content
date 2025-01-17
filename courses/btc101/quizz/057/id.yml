@@ -1,0 +1,9 @@
+question: Berapa tingkat inflasi di Zimbabwe pada November 2008?
+answer: 79,600,000,000%
+wrong_answers:
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
+explanation: |
+  Pada November 2008, tingkat inflasi bulanan mata uang Zimbabwe telah mencapai puncaknya sebesar 79,600,000,000%, yang menghancurkan nilai dolar Zimbabwe menjadi 0.
+reviewed: true

@@ -1,9 +1,9 @@
 question: BTCMap là gì?
-answer: Một nền tảng liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin
+answer: Một nền tảng liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin.
 wrong_answers:
-  - Bản đồ tất cả các mỏ Bitcoin trên thế giới
-  - Bản đồ tất cả các sàn giao dịch Bitcoin trên thế giới
-  - Bản đồ tất cả người dùng Bitcoin trên thế giới
+  - Bản đồ tất cả các mỏ Bitcoin trên thế giới.
+  - Bản đồ tất cả các sàn giao dịch Bitcoin trên thế giới.
+  - Bản đồ tất cả người dùng Bitcoin trên thế giới.
 explanation: >-
-  BTCMap là một dự án mã nguồn mở và cộng tác, liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin cũng như các cộng đồng Bitcoin khác nhau trên thế giới.
-reviewed: false
+  BTCMap là một dự án mã nguồn mở và cộng tác liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin cũng như các cộng đồng Bitcoin khác nhau trên thế giới.
+reviewed: true

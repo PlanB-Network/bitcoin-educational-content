@@ -1,0 +1,9 @@
+question: Mikä on modulo-operaation rooli siirtosalakirjoituksessa?
+answer: Se varmistaa, että kirjaimet palaavat aakkosten alkuun ylittäessään 26
+wrong_answers:
+  - Se kertoo kirjainarvot avaimella
+  - Se kääntää aakkosten kirjaimet ympäri
+  - Se poistaa kirjaimet kirjaimen Z jälkeen
+explanation: |
+  Modulo 26 -operaatio mahdollistaa kirjainten palaamisen takaisin Z; n jälkeen, jotta jokainen salattu kirjain pysyy aakkosten 26 kirjaimen sisällä.
+reviewed: false

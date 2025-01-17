@@ -1,8 +1,8 @@
-question: Hàm nào được sử dụng để tạo ra seed từ cụm mật khẩu trong ví Bitcoin?
-answer: pbkdf2
+question: Đường dẫn phái sinh nào được sử dụng cho một tài khoản SegWit v0 trong một bộ mô tả chuẩn?
+answer: 84h/0h/0h
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  Hàm pbkdf2 được sử dụng để tạo ra seed từ cụm mật khẩu trong ví Bitcoin. Seed này cho phép tạo ra tất cả các cặp khóa con của ví.
+  Đường dẫn 84h/0h/0h được định nghĩa trong BIP84 cho một tài khoản phái sinh địa chỉ SegWit v0 với P2WPKH.

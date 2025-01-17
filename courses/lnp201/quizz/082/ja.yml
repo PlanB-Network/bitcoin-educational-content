@@ -1,9 +1,0 @@
-question: Lightning NetworkにおけるLoopの役割は何ですか？
-answer: Loopは、LN/BTCのバランスを再調整するサービスを提供する特別なノードです。
-wrong_answers:
-  - Loopは、購入者と商人を繋ぐノードです。
-  - Loopは、チャネルを開くのを助けるノードです。
-  - Loopは、すべての取引を保存するノードです。
-explanation: |
-  Lightning Networkにおいて、LoopはLN/BTCのバランスを再調整するプロフェッショナルなサービスを提供する特別なノードです。これは、別のノードを介してLoopに流動性を送り、その後、オンチェーンのバランスを元のノードに戻すことによって行われます。
-reviewed: false

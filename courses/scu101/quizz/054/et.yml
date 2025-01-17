@@ -1,0 +1,11 @@
+question: Millised on soovitatavad praktikad optimaalse turvalisuse saavutamiseks tugeva autentimisega?
+answer: Kasutage turvalist e-posti aadressi, turvalist paroolihaldurit ja võtke kasutusele 2FA, kasutades YubiKey'sid.
+wrong_answers:
+  - Kasutage kõikide kontode jaoks ühist parooli ja vältige 2FA-d
+  - Kasutage lihtsat parooli ja toetuge biomeetrilistele andmetele 2FA jaoks
+  - Kasutage turvalist e-posti aadressi, kuid vältige paroolihaldureid ja 2FA-d
+explanation: |
+  Optimaalse turvalisuse saavutamiseks on soovitatav kasutada turvalist e-posti aadressi,
+  turvalist paroolihaldurit ja võtta kasutusele 2FA, kasutades YubiKey'sid. On ka soovitatav
+  soetada kaks YubiKey'd, et olla valmis kaotuse või varguse korral.
+reviewed: false

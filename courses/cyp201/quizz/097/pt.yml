@@ -1,9 +1,0 @@
-question: Qual é o objetivo das chaves estendidas em uma carteira HD?
-answer: Elas são usadas para derivar chaves filhas.
-wrong_answers:
-  - Elas são usadas para gerar a chave mestra.
-  - Elas são usadas para criptografar a carteira.
-  - Elas são usadas para verificar transações.
-explanation: |
-  As chaves estendidas são usadas para derivar chaves filhas e requerem tanto a chave pai quanto o código de cadeia correspondente.
-reviewed: false

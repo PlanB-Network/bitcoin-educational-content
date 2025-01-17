@@ -1,4 +1,4 @@
-question: Mikä on yksi Bitcoinin päätarkoituksista pankkijärjestelmän kannalta?
+question: Mikä on yksi Bitcoinin päävaikutuksista pankkijärjestelmään?
 answer: Se mahdollistaa vapautumisen pankkijärjestelmästä.
 wrong_answers:
   - Se mahdollistaa pankkijärjestelmän hallinnan.
@@ -6,4 +6,4 @@ wrong_answers:
   - Se mahdollistaa pankkijärjestelmän korruptoinnin.
 explanation: >-
   Tekstissä mainitaan, että Bitcoin mahdollistaa vapautumisen pankkijärjestelmästä.
-reviewed: false
+reviewed: true

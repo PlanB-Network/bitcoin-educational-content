@@ -1,9 +1,10 @@
-question: Quelle est l'unité de Bitcoin utilisée dans le Lightning Network?
-answer: Sats
+question: Quelle est l'unité de Bitcoin utilisée dans le Lightning Network ?
+answer: Sats.
 wrong_answers:
-  - Bitcoin
-  - Ether
-  - Litecoin
+  - Block.
+  - Ether.
+  - Litecoin.
 explanation: |
-  Le Lightning Network utilise des sats (la décimale du bitcoin) pour fonctionner.
-reviewed: false
+  Le Lightning Network utilise des satoshis (également appelés sats), le
+  décimal de bitcoin, pour fonctionner.
+reviewed: true

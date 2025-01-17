@@ -1,10 +1,9 @@
-question: Qui possède la clé de révocation dans la transaction d'engagement d'Alice ?
-answer: Seulement Alice.
+question: Quelle condition doit être remplie pour que le destinataire d'un HTLC reçoive les fonds ?
+answer: Il doit fournir un secret (préimage) pour déverrouiller le paiement
 wrong_answers:
-  - Seulement Bob.
-  - Alice et Bob tous les deux.
-  - Ni Alice ni Bob.
+  - Il doit accepter les frais de routage de chaque nœud intermédiaire
+  - Il doit signer une nouvelle transaction d'engagement
+  - Il doit attendre l'expiration du timelock avant de récupérer les fonds
 explanation: |
-  Dans la transaction d'engagement d'Alice, seule Alice possède la clé de révocation.
-  Cela lui permet de déplacer les fonds sans attendre la fin du délai si Bob essaie de tricher.
+  Pour recevoir les fonds dans un HTLC, le destinataire doit fournir un secret spécifique qui permet de déverrouiller le paiement sécurisé par le hachage.
 reviewed: false

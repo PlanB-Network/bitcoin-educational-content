@@ -1,0 +1,9 @@
+question: What functions should the State fulfill according to Bastiat?
+answer: Internal security, external security, and justice
+wrong_answers:
+  - Regulation, redistribution, and justice
+  - Security, justice, and equity
+  - Education, health, and justice
+explanation: |
+  Bastiat advocates for a limited role of the State to the functions of internal and external security and justice, to protect the natural rights of individuals.
+reviewed: false

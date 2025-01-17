@@ -1,0 +1,12 @@
+question: Hva kjennetegner et godt passord?
+answer: Langt, komplekst, unikt, og ikke basert på personlig informasjon.
+wrong_answers:
+  - Kort, enkelt, og lett å huske.
+  - Basert på personlig informasjon som fødselsdatoer og navn.
+  - Det samme passordet for alle kontoer.
+explanation: |
+  Et godt passord er langt (minst 12 tegn), komplekst (en blanding
+
+  av store og små bokstaver, tall, og symboler), unikt (ikke gjenbrukt for
+
+  forskjellige kontoer), og ikke basert på personlig informasjon.

@@ -1,0 +1,9 @@
+question: Quelle est la condition pour qu'un entier a ait un inverse modulo N ?
+answer: a et N doivent être copremiers
+wrong_answers:
+  - N doit être pair
+  - a doit être impair
+  - a doit être un nombre premier
+explanation: |
+  Un entier a a un inverse modulo N si et seulement si ils sont copremiers, c'est-à-dire que leur plus grand commun diviseur est 1.
+reviewed: false

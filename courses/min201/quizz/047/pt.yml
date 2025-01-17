@@ -1,9 +1,13 @@
-question: Qual é o principal risco associado ao investir em empresas que vendem hardware de mineração e gerenciam as máquinas em locais de baixo custo de energia?
-answer: Problemas de fornecimento de energia e falhas nas máquinas podem deixar os investidores impotentes, com equipamentos caros que eles não controlam.
+question: Qual é o principal risco associado ao investimento em empresas que vendem hardware de mineração e gerenciam as máquinas em locais de energia de baixo custo?
+answer: Problemas no fornecimento de energia e falhas nas máquinas podem deixar os investidores impotentes, com equipamentos caros que eles não controlam.
 wrong_answers:
   - As empresas podem falir e os investidores podem perder seu dinheiro.
-  - As empresas podem ser golpes e os investidores podem perder seu dinheiro.
+  - As empresas podem ser fraudes e os investidores podem perder seu dinheiro.
   - As empresas podem não conseguir vender os bitcoins minerados e os investidores podem perder seu dinheiro.
 explanation: |
-  O principal risco associado ao investir em empresas que vendem hardware de mineração e gerenciam as máquinas em locais de baixo custo de energia é que problemas de fornecimento de energia e falhas nas máquinas podem deixar os investidores impotentes, com equipamentos caros que eles não controlam.
-reviewed: false
+  O principal risco associado ao investimento em empresas que
+  vendem hardware de mineração e gerenciam as máquinas em locais
+  de energia de baixo custo é que problemas no fornecimento de energia
+  e falhas nas máquinas podem deixar os investidores impotentes, com
+  equipamentos caros que eles não controlam.
+reviewed: true

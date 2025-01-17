@@ -1,9 +1,9 @@
-question: Was ist der Zweck der Rücknahme-Transaktion im Prozess der Kanaleröffnung im Lightning Network?
-answer: Es ermöglicht Alice, ihre Gelder wiederherzustellen, wenn etwas schief geht.
+question: Was ist der letzte Schritt, um einen Kanal im Lightning-Netzwerk zu öffnen?
+answer: Die Einzahlungstransaktion in der Bitcoin-Blockchain veröffentlichen
 wrong_answers:
-  - Es ermöglicht Bob, seinen Anteil an den Geldern geltend zu machen.
-  - Es wird verwendet, um den Kanaleröffnungsprozess abzuschließen.
-  - Es wird verwendet, um Gelder von Alice zu Bob zu übertragen.
+  - Eine Auszahlungstransaktion signieren, um die Mittel zurückzuerhalten
+  - Eine Bestätigungsnachricht über die Öffnung an die andere Partei senden
+  - Das Guthaben jedes Teilnehmers überprüfen
 explanation: |
-  Die Rücknahme-Transaktion wird von Alice erstellt, bevor die Einzahlung der Gelder im Multi-Sig veröffentlicht wird. Diese Transaktion ermöglicht es Alice, die Gelder von der Multi-Sig-Adresse auf eine eigene Adresse zu überweisen. Dies geschieht, um sicherzustellen, dass sie ihre Gelder wiederherstellen kann, wenn etwas schief geht.
+  Der letzte Schritt, um einen Kanal zu öffnen, ist die Veröffentlichung der Einzahlungstransaktion in der Blockchain, was den Kanal offiziell öffnet.
 reviewed: false

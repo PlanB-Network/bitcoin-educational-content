@@ -1,5 +1,5 @@
-- start_date: 2025-01-02
-  end_date: 2025-01-02
+- start_date: 2025-02-20
+  end_date: 2025-02-23
   address_line_1: Florianopolis, Brasil 
   address_line_2:  
   address_line_3: 
@@ -18,7 +18,7 @@
     replay_url:
     live_url :
   tags: 
-    - bitcoiner
-    - general
+    - decentralization
+    - development
 
 

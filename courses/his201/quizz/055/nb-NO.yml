@@ -1,0 +1,9 @@
+question: Etter hendelsen med verdi-overflow, hvilken mekanisme ble lagt til i programvaren av Satoshi for å begrense effekten av potensielle sårbarheter på systemet?
+answer: Varslingssystemet
+wrong_answers:
+  - Den standardiserte naturen til transaksjoner
+  - Blokkstørrelsesgrensen
+  - OP_NOP op-kodene
+explanation: |
+  Dette effektive varslingssystemet tillot ham, med bruk av en privat nøkkel, å advare nettverksnodene i tilfelle av et teknisk problem og å suspendere noen API-kommandoer.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kes soovitas võtta ühendust organisatsiooniga WikiLeaks, et julgustada neid vastu võtma bitcoini 2010. aasta novembris?
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - Robert Horning
+  - Satoshi Nakamoto
+explanation: |
+  Ta põhjendas seda kirjutades, et organisatsiooni vahendid olid mitu korda külmutatud. Eriti märkimisväärne on, et Moneybookers külmutas WikiLeaks'i konto oktoobris.
+reviewed: false

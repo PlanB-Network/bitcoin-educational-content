@@ -52,7 +52,7 @@ Elle affiche ainsi un score rétrospectif de `34 593` et un score prospectif de 
 C'est la raison pour laquelle je considère l'utilisation de Whirlpool comme particulièrement pertinente dans une stratégie `Hodl -> Mix -> Spend -> Replace`. À mon avis, la démarche la plus logique consiste à conserver l'essentiel de son épargne en bitcoins dans un cold wallet, tout en maintenant en permanence un certain nombre de pièces en coinjoin sur Samourai pour pouvoir couvrir les dépenses quotidiennes. Une fois les bitcoins issus des coinjoins dépensés, ils sont remplacés par de nouveaux, afin de revenir au seuil de pièces en mix que l'on a défini. Cette méthode permet de se libérer de la préoccupation des anonsets de nos UTXO, tout en rendant le délai nécessaire à l'efficacité des coinjoins bien moins contraignant.
 
 J'espère que cette réponse vous aura éclairé sur le modèle de Whirlpool. Si vous souhaitez en savoir plus sur le fonctionnement des coinjoins sur Bitcoin, je vous conseille de lire mon article complet sur ce sujet :
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 **Ressources externes :** 
 - Samourai Wallet Whirlpool

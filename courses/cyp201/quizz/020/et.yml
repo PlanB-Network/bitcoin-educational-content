@@ -1,0 +1,9 @@
+question: Mis vahe on kokkusurutud ja lahtisurutud avalikul võtmel?
+answer: Kokkusurutud avalik võti kasutab ainult x-koordinaati ja y paarsust
+wrong_answers:
+  - Kokkusurutud avalik võti on turvalisem
+  - Kokkusurutud avalik võti kasutab ainult y-koordinaati ja x paarsust
+  - Kokkusurutud avalik võti nõuab suuremat privaatvõtit
+explanation: |
+  Kokkusurutud avalik võti säilitab ainult x-koordinaadi ja biti y paarsuse jaoks, vähendades seeläbi selle suurust 33 baitini.
+reviewed: false

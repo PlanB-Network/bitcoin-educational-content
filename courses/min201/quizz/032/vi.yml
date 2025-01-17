@@ -1,11 +1,11 @@
-question: Phần thưởng cho người đào trong mạng lưới Bitcoin là gì?
+question: Phần thưởng cho các thợ đào trong mạng lưới Bitcoin là gì?
 answer: Bitcoin mới và phí giao dịch.
 wrong_answers:
   - Chỉ có bitcoin mới.
   - Chỉ có phí giao dịch.
-  - Không có phần thưởng nào cho người đào.
+  - Không có phần thưởng nào cho các thợ đào.
 explanation: |
-  Người đào trong mạng lưới Bitcoin được thưởng bằng bitcoin mới và phí giao dịch
-
-  cho công việc của họ trong việc xác thực và tạo các khối.
-reviewed: false
+  Các thợ đào trong mạng lưới Bitcoin được thưởng bằng bitcoin mới
+  và phí giao dịch cho công việc của họ trong việc xác thực
+  và tạo các khối.
+reviewed: true

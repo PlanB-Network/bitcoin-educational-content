@@ -1,9 +1,9 @@
-question: ¿Qué es un canal de pago Lightning?
-answer: Es una especie de "carril privado" entre dos usuarios que permite realizar transacciones de Bitcoin rápidas y repetitivas.
+question: ¿Cuál es la regla principal respecto a los fondos que un participante puede enviar en un canal de pago?
+answer: Solo pueden enviar los fondos de su propio lado del canal.
 wrong_answers:
-  - Un tipo de billetera de Bitcoin
-  - Un método de minería de Bitcoin
-  - Un tipo de intercambio de Bitcoin
+  - Pueden enviar hasta la mitad de la capacidad total del canal.
+  - Pueden enviar cualquier cantidad, siempre y cuando haya un acuerdo previo.
+  - Pueden tomar prestados fondos del lado del otro participante si es necesario.
 explanation: |
-  Un canal de pago Lightning es una especie de "carril privado" entre dos usuarios que permite realizar transacciones de Bitcoin rápidas y repetitivas.
+  Cada participante está limitado por la cantidad de satoshis que poseen en el canal para sus transacciones, asegurando que los fondos siempre estén cubiertos.
 reviewed: false

@@ -1,0 +1,10 @@
+question: Mengapa biaya terjangkau dan aksesibilitas dari sebuah node Bitcoin itu penting?
+answer: Ini memfasilitasi desentralisasi dari jaringan
+wrong_answers:
+  - Ini meningkatkan kapasitas transaksi dari jaringan
+  - Ini menurunkan kapasitas transaksi dari jaringan
+  - Ini meningkatkan hadiah blok untuk penambang
+explanation: >-
+  Biaya terjangkau dan aksesibilitas dari sebuah node Bitcoin itu penting
+  karena ini memfasilitasi desentralisasi dari jaringan.
+reviewed: false

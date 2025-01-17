@@ -1,0 +1,9 @@
+question: O que um Código de Autenticação de Mensagem (MAC) garante em um esquema criptográfico?
+answer: A integridade e autenticidade da mensagem
+wrong_answers:
+  - A confidencialidade da mensagem
+  - A compressão da mensagem
+  - A conversão da mensagem em binário
+explanation: |
+  Um Código de Autenticação de Mensagem (MAC) é usado para garantir que a mensagem não foi alterada e que de fato vem do remetente presumido.
+reviewed: false

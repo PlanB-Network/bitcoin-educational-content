@@ -1,10 +1,12 @@
-question: Quelle est la principale raison de ne pas payer les pirates informatiques en cas de rançongiciel ou d'autres types d'attaques ?
+question: Quelle est la raison principale pour ne pas payer les hackers en cas de ransomware ou d'autres types d'attaques ?
 answer: Payer la rançon ne garantit pas la récupération de vos données et peut encourager les cybercriminels à poursuivre leurs activités malveillantes.
 wrong_answers:
-  - Il est illégal de payer les pirates informatiques.
-  - Les pirates informatiques demanderont plus d'argent après le paiement initial.
-  - Le mode de paiement est généralement introuvable.
+  - Payer la rançon est illégal et peut encourager les cybercriminels à poursuivre leurs activités malveillantes.
+  - Payer la rançon ne garantit pas la récupération de vos données et peut encourager les hackers à demander plus d'argent après le paiement initial.
+  - Payer la rançon peut encourager les cybercriminels à poursuivre leurs activités malveillantes puisque le mode de paiement est généralement intraçable.
 explanation: |
-  Payer la rançon ne garantit pas que vous récupérerez vos données.
-  De plus, cela encourage les cybercriminels à poursuivre leurs activités malveillantes car ils le voient comme une entreprise rentable.
-reviewed: false
+  Payer la rançon ne garantit pas que vous récupérerez vos
+  données. De plus, cela encourage les cybercriminels à
+  continuer leurs activités malveillantes car ils le voient comme
+  une entreprise rentable.
+reviewed: true

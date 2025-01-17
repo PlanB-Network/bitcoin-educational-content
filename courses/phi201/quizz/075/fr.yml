@@ -1,0 +1,9 @@
+question: Comment s'intitule le livre d'Adam Smith ?
+answer: Recherches sur la nature et les causes de la richesse des nations.
+wrong_answers:
+  - Recherches sur la nature et l'esprit de la richesse des nations.
+  - Recherches sur la nature et les origines de la richesse des nations.
+  - Recherches sur la cause et les origines de la richesse des nations.
+explanation: |
+  Le titre complet du livre d'Adam Smith, Recherches sur la nature et les causes de la richesse des nations, souligne son analyse des facteurs qui contribuent à la prospérité économique, en explorant les mécanismes de production et de distribution de la richesse.
+reviewed: false

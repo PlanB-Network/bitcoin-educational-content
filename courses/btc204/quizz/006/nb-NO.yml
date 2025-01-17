@@ -1,0 +1,9 @@
+question: Hva representerer endring i en transaksjon?
+answer: En utgang som returnerer til den opprinnelige avsenderen av transaksjonen.
+wrong_answers:
+  - Et gebyr tatt av Bitcoin-nettverket.
+  - En utgang overført til mottakeren av transaksjonen.
+  - En bonus tildelt avsenderen for raske transaksjoner.
+explanation: |
+  Endring er en utgang som representerer delen av inngangene som ikke brukes til å oppfylle betalingen, og dermed returnerer til den opprinnelige avsenderen av transaksjonen.
+reviewed: false

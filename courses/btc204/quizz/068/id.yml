@@ -1,0 +1,13 @@
+question: Bagaimana kita dapat meminimalisir dampak dari COIH saat mengkonsolidasikan UTXO?
+
+answer: Dengan hanya mengkonsolidasikan UTXO dari sumber yang sama.
+
+wrong_answers:
+  - Dengan mengirim UTXO ke alamat pihak ketiga.
+  - Dengan memilih UTXO secara acak untuk menghindari pola yang dapat dikenali.
+  - Dengan mengkonsolidasikan UTXO selama periode aktivitas rendah.
+
+explanation: |
+  Jika Anda menemukan diri Anda perlu mengkonsolidasikan bitcoin Anda, prioritaskan mengkonsolidasikan UTXO dari sumber yang sama terlebih dahulu.
+
+reviewed: false

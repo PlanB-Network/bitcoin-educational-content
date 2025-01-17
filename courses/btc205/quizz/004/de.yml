@@ -1,9 +1,0 @@
-question: Wie hoch ist das Limit für Transaktionen ohne Identifikation an Geldautomaten in Frankreich?
-answer: 500 Euro
-wrong_answers:
-  - 1000 Euro
-  - 2000 Euro
-  - 3000 Euro
-explanation: |
-  Geldautomaten in Frankreich sind reguliert und erfordern eine Identifikation für Transaktionen über 500 Euro.
-reviewed: false

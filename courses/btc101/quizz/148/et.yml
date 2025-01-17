@@ -1,0 +1,9 @@
+question: Mis oli bloki sõja tulemus 2017. aastal?
+answer: Kasutajad ja noodid lükkasid tagasi ettepaneku suurendada bloki suurust ning aktiveerisid uuenduse nimega SegWit
+wrong_answers:
+  - Kasutajad ja noodid aktsepteerisid ettepaneku suurendada bloki suurust ning aktiveerisid uuenduse nimega SegWit
+  - Kasutajad ja noodid lükkasid tagasi ettepaneku suurendada bloki suurust ega aktiveerinud ühtegi uuendust
+  - Kasutajad ja noodid aktsepteerisid ettepaneku suurendada bloki suurust ega aktiveerinud ühtegi uuendust
+explanation: >-
+  Bloki sõjas 2017. aastal saavutasid kasutajad ja noodid võidu, lükates tagasi ettepaneku suurendada bloki suurust ning aktiveerides uuenduse nimega SegWit.
+reviewed: false

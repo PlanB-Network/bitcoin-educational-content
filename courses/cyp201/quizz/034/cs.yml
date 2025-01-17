@@ -1,9 +1,8 @@
-question: Jaká je velikost soukromého klíče Bitcoinu?
-answer: 256bitové číslo
+question: Který sighash příznak je nejčastěji používán v Bitcoin transakcích?
+answer: SIGHASH_ALL
 wrong_answers:
-  - 512bitové číslo
-  - 128bitové číslo
-  - 1024bitové číslo
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  V systému Bitcoin je soukromý klíč náhodné nebo pseudonáhodné 256bitové číslo.
-reviewed: false
+  SIGHASH_ALL je výchozí sighash příznak, který pokrývá všechny vstupy a výstupy transakce, čímž zabraňuje jakýmkoliv úpravám.

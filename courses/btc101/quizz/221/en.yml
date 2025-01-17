@@ -2,10 +2,10 @@ question: What is the Lightning Network?
 answer: A payment network that uses the Bitcoin protocol to enable lightning-fast transactions.
 wrong_answers:
   - A new type of cryptocurrency.
-  - A blockchain technology separate from Bitcoin.
+  - A new blockchain technology that will replace Bitcoin in the future.
   - A method for mining Bitcoin.
-explanation: >-
-  The Lightning Network is a payment network that uses the Bitcoin protocol
-  to enable fast transactions. It is not a separate cryptocurrency or a method for
-  mining Bitcoin.
-reviewed: false
+explanation: |
+  The Lightning Network is a payment network that uses the
+  Bitcoin protocol to enable fast transactions. It is not a
+  separate cryptocurrency, nor a method for mining Bitcoin.
+reviewed: true

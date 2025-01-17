@@ -1,0 +1,9 @@
+question: Qu'est-ce qui facilite l'interception des communications locales par des attaquants peu équipés ?
+answer: L'utilisation des ondes radio pour les connexions sans fil
+wrong_answers:
+  - Le passage de toutes les données par des satellites
+  - L'usage de câbles coaxiaux uniquement pour la transmission de données
+  - L'envoi de données via des fibres optiques uniquement
+explanation: |
+  Les connexions sans fil, qui transmettent les données par ondes radio, rendent l'interception plus facile pour des attaquants, car elles ne nécessitent pas un accès physique au réseau.
+reviewed: false

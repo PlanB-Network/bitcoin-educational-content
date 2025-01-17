@@ -1,9 +1,9 @@
-question: Mikä on pääasiallinen etu käyttää uutta avainparia jokaisessa Bitcoin-siirrossa?
-answer: Se parantaa turvallisuutta.
+question: Mikä on ero tavallisen lapsiavaimen ja kovennetun lapsiavaimen välillä?
+answer: Kovennettu lapsiavain vaatii johdannaisensa muodostamiseen vanhemman yksityisavaimen.
 wrong_answers:
-  - Se parantaa nopeutta.
-  - Se parantaa anonyymiyttä.
-  - Se parantaa laillisuutta.
+  - Tavallinen lapsiavain ei voi johtua julkisista avaimista.
+  - Kovennettu lapsiavain käyttää paritonta indeksiä.
+  - Tavallinen lapsiavain on turvallisempi kuin kovennettu lapsiavain.
 explanation: |
-  Uuden avainparin käyttäminen jokaisessa siirrossa parantaa Bitcoin-siirtojen turvallisuutta. Se kuitenkin monimutkaistaa niiden varmuuskopiointia ja säilyttää vain osittain luottamuksellisuuden.
+  Tavallisen lapsiavaimen voi johtaa vanhemman julkisesta avaimesta, toisin kuin kovennetun lapsiavaimen, joka vaatii vanhemman yksityisavaimen.
 reviewed: false

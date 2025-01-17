@@ -1,0 +1,9 @@
+question: Mitkä ovat lain luonnolliset antropologiset perusteet Bastiat'n mukaan?
+answer: Elämä, vapaus ja omaisuus.
+wrong_answers:
+  - Valta, epätasa-arvo ja hallinta.
+  - Vapaus, tasa-arvo ja veljeys.
+  - Oikeudenmukaisuus, auktoriteetti ja veljeys.
+explanation: |
+  Bastiat määrittelee lain luonnolliset perusteet olevan elämä, vapaus ja omaisuus, kolme elementtiä, jotka ovat olemassa ennen mitään ihmislainsäädäntöä ja muodostavat luonnollisten oikeuksien perustan.
+reviewed: false

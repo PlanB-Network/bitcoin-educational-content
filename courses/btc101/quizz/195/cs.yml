@@ -1,11 +1,11 @@
-question: Jakým způsobem usnadnit používání Bitcoinu v každodenních transakcích?
-answer: Vypsat všechny obchodníky, kteří přijímají Bitcoin
+question: Které z následujících akcí mohou pomoci těm, kteří chtějí využívat Bitcoin v každodenním životě?
+answer: Mít seznam všech obchodníků, kteří přijímají Bitcoin.
 wrong_answers:
-  - Zvýšit cenu Bitcoinu
-  - Snížit počet Bitcoinů
-  - Omezit používání Bitcoinu
+  - Zvýšit cenu Bitcoinu.
+  - Snížit počet Bitcoinů.
+  - Omezit používání Bitcoinu.
 explanation: >-
   Jedním ze způsobů, jak usnadnit používání Bitcoinu v každodenních transakcích, je
-  vypsat všechny obchodníky, kteří Bitcoin přijímají. To lze provést prostřednictvím platforem
+  vytvořit seznam všech obchodníků, kteří Bitcoin přijímají. To lze provést prostřednictvím platforem
   jako je BTCMap.
-reviewed: false
+reviewed: true

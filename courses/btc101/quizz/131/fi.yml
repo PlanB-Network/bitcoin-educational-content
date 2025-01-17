@@ -1,9 +1,12 @@
 question: Mikä on Bitcoin-solmun rooli Bitcoin-verkossa?
-answer: Se käsittelee uusien lohkojen ja niissä olevien transaktioiden validoinnin.
+answer: Se validoi uudet lohkot ja niihin sisältyvät transaktiot.
 wrong_answers:
-  - Se luo uusia Bitcoineja.
+  - Se luo uusia Bitcoineja ja sijoittaa ne lohkoihin.
   - Se säätelee Bitcoinin hintaa.
   - Se hallinnoi Bitcoin-verkkoa.
-explanation: >-
-  Bitcoin-solmu Bitcoin-verkossa käsittelee uusien lohkojen ja niissä olevien transaktioiden validoinnin. Juuri tämän Bitcoin-solmujen verkoston kautta verkko on todella hajautettu.
-reviewed: false
+explanation: |
+  Bitcoin-solmu Bitcoin-verkossa käsittelee
+  uusien lohkojen ja niihin sisältyvien transaktioiden validoinnin. Juuri
+  tämä Bitcoin-solmujen verkosto tekee siitä todella
+  hajautetun.
+reviewed: true

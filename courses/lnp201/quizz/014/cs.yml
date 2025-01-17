@@ -1,9 +1,9 @@
-question: Jaký je účel transakce pro výběr peněz při procesu otevírání kanálu v Lightning Network?
-answer: Umožňuje Alici získat zpět své prostředky, pokud se něco pokazí.
+question: Jaký je poslední krok pro otevření kanálu na Lightning Network?
+answer: Publikovat transakci vkladu na Bitcoin blockchainu
 wrong_answers:
-  - Umožňuje Bobovi nárokovat jeho podíl na prostředcích.
-  - Je použita k finalizaci procesu otevření kanálu.
-  - Je použita k převodu prostředků od Alice k Bobovi.
+  - Podepsat transakci pro vybrání prostředků k jejich získání zpět
+  - Poslat potvrzovací zprávu o otevření druhé straně
+  - Ověřit zůstatek prostředků každého účastníka
 explanation: |
-  Transakce pro výběr peněz je vytvořena Alicí před publikováním vkladu prostředků do multi-sig. Tato transakce umožňuje Alici utratit prostředky z multi-sig adresy na její vlastní adresu. To je uděláno proto, aby si mohla získat zpět své prostředky, pokud se něco pokazí.
+  Posledním krokem pro otevření kanálu je publikování transakce vkladu na blockchain, což oficiálně otevírá kanál.
 reviewed: false

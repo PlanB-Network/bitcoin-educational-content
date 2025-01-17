@@ -1,9 +1,10 @@
-question: Quel événement significatif s'est produit dans le monde des cryptomonnaies en 2017?
-answer: Le lancement de milliers d'Initial Coin Offerings (ICOs).
+question: Quel a été un événement marquant dans le monde des cryptomonnaies en 2017 ?
+answer: Le lancement de milliers d'Offres Initiales de Pièces (ICO).
 wrong_answers:
   - L'interdiction du Bitcoin.
   - La création du Bitcoin.
   - La disparition de toutes les cryptomonnaies.
-explanation: |
-  L'année 2017 a été marquée par une importante bulle spéculative dans le monde des cryptomonnaies, notamment avec le lancement de milliers d'Initial Coin Offerings (ICOs).
-reviewed: false
+explanation: >-
+  L'année 2017 a été marquée par une bulle spéculative significative dans le
+  monde des cryptomonnaies, notamment avec le lancement de milliers d'Offres Initiales de Pièces (ICO).
+reviewed: true

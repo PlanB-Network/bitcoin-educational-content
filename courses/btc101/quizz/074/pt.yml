@@ -1,9 +1,11 @@
-question: Onde os bitcoins são realmente armazenados?
-answer: Na blockchain do Bitcoin
+question: Onde os bitcoins são armazenados?
+answer: No blockchain do Bitcoin.
 wrong_answers:
-  - Na carteira de Bitcoin
-  - No dispositivo onde a carteira está instalada
-  - No banco central
+  - Na carteira Bitcoin.
+  - No dispositivo onde a carteira está instalada.
+  - No cofre do Federal Reserve.
 explanation: |
-  Embora suas chaves privadas sejam armazenadas em sua carteira, os bitcoins em si são realmente armazenados na blockchain do Bitcoin, que é o registro público distribuído dentro da rede peer-to-peer do Bitcoin.
-reviewed: false
+  Embora suas chaves privadas sejam armazenadas na sua carteira, os
+  bitcoins em si são de fato armazenados no blockchain do Bitcoin, que é o
+  registro público distribuído dentro da rede peer-to-peer do Bitcoin.
+reviewed: true

@@ -1,9 +1,8 @@
-question: ¿Quién puede usar la clave de revocación antes de que termine el Timelock?
-answer: La persona que recibe el dinero.
+question: ¿Qué implica el enrutamiento de cebolla en la Red Lightning?
+answer: Significa que cada nodo intermedio solo conoce a sus vecinos inmediatos en la ruta.
 wrong_answers:
-  - La persona que crea la transacción con el Timelock.
-  - Ambas partes pueden usar la clave de revocación antes de que termine el Timelock.
-  - Ninguna de las partes puede usar la clave de revocación antes de que termine el Timelock.
+  - Transmitir fondos directamente de nodo a nodo conociendo al destinatario final
+  - Calcular las comisiones para cada nodo intermedio de manera independiente
+  - Enviar fondos a todos los nodos en la ruta simultáneamente
 explanation: |
-  La persona que recibe el dinero puede usar la clave de revocación antes de que termine el Timelock en caso de que haya engaño por parte de una de las partes en un canal de la Red Lightning.
-reviewed: false
+  El enrutamiento de cebolla significa que cada nodo intermedio solo conoce al nodo anterior y al siguiente, preservando así la confidencialidad del destinatario final.

@@ -1,0 +1,9 @@
+question: Miks on turvalisem kasutada Euroopa Wi-Fi pääsupunkti pakkujaid, nagu näiteks SNCF?
+answer: Nad ei müü edasi kasutaja ühendusandmeid GDPRi regulatsioonide tõttu.
+wrong_answers:
+  - Nad pakuvad kiiremat internetiühendust.
+  - Nad võimaldavad kasutajatel mööda minna geograafilistest piirangutest.
+  - Nad blokeerivad veebireklaame.
+explanation: |
+  Euroopa Liidus reguleerib andmekaitset Üldine Andmekaitse Määrus (GDPR). Seetõttu ei müü Euroopa Wi-Fi pääsupunkti pakkujad, nagu näiteks SNCF, edasi kasutaja ühendusandmeid, muutes nad kasutamiseks turvalisemaks.
+reviewed: false

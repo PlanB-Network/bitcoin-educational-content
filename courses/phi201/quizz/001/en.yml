@@ -1,0 +1,9 @@
+question: What is the difference between history and philosophy?
+answer: All the other answers
+wrong_answers:
+  - History describes the past while philosophy judges it
+  - History is factual while philosophy is normative
+  - History focuses on events while philosophy focuses on concepts
+explanation: |
+  The difference between history and philosophy lies in their respective approaches: history concentrates on describing and analyzing past events, while philosophy seeks to judge, interpret, and establish norms based on abstract concepts.
+reviewed: false

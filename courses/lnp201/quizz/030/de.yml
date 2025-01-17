@@ -1,9 +1,9 @@
-question: Wie viel SAT hat Bob nach der zweiten Überweisung im Beispiel?
-answer: 40.000 SAT.
+question: Wie ermöglicht das Lightning-Netzwerk das Senden von Geldern an einen Knoten, der nicht direkt verbunden ist?
+answer: Durch das Weiterleiten der Zahlung über Zwischenknoten
 wrong_answers:
-  - 30.000 SAT.
-  - 10.000 SAT.
-  - 0 SAT.
+  - Durch die Verwendung von On-Chain-Transaktionen zwischen jedem Knoten
+  - Durch das automatische Einrichten eines temporären Kanals
+  - Durch das direkte Senden der Gelder mit Multisignatur-Adressen
 explanation: |
-  Im Beispiel hat Bob nach der zweiten Überweisung 40.000 SAT.
+  Das Lightning-Netzwerk ermöglicht das Weiterleiten einer Zahlung über mehrere Zwischenknoten, ohne dass ein direkter Kanal zwischen dem Sender und dem Empfänger erforderlich ist.
 reviewed: false

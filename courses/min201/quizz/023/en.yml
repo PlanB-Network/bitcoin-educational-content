@@ -1,10 +1,10 @@
 question: What is the maximum number of bitcoins that can ever be created?
-answer: 21 million
+answer: around 21 million units
 wrong_answers:
-  - 18 million
-  - 25 million
-  - 30 million
+  - more or less 18 million units
+  - around 25 million units
+  - around 30 million units
 explanation: |
-  The creation of Bitcoin is characterized by a fixed cap of 21 million
-  units.
-reviewed: false
+  The creation of Bitcoin is characterized by a fixed cap of
+  21 million units.
+reviewed: true

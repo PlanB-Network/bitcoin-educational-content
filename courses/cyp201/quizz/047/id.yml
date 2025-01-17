@@ -1,0 +1,9 @@
+question: Berapa ukuran dalam bit dari segmen biner yang digunakan untuk membuat setiap kata mnemonik?
+answer: 11 bit
+wrong_answers:
+  - 8 bit
+  - 16 bit
+  - 10 bit
+explanation: |
+  Setiap segmen 11-bit sesuai dengan satu kata dari daftar standar 2048 kata dalam BIP39.
+ditinjau: false

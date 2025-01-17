@@ -5,5 +5,8 @@ wrong_answers:
   - Kyky luoda uusia bitcoineja mielensä mukaan
   - Kyky manipuloida Bitcoinin hintaa
 explanation: |
-  Pääasiallinen taloudellinen kannustin louhijoille osallistua Bitcoinin louhintaprosessiin on louhintapalkkio. Tämä palkkio toimii voimakkaana kannustimena rohkaista louhijoita osallistumaan louhintaprosessiin huolimatta sen energiakustannuksista.
-reviewed: false
+  Pääasiallinen taloudellinen kannustin louhijoille osallistua
+  Bitcoinin louhintaprosessiin on louhintapalkkio. Tämä
+  palkkio toimii voimakkaana kannustimena rohkaista louhijoita
+  osallistumaan louhintaprosessiin huolimatta sen energiakustannuksista.
+reviewed: true

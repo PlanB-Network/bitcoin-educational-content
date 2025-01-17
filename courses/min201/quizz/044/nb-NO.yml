@@ -1,0 +1,13 @@
+question: Hva er jomfru bitcoins?
+answer: Nylig utvunne bitcoins som aldri har blitt brukt og ikke har noen historie knyttet til dem.
+wrong_answers:
+  - Bitcoins som har blitt brukt i ulovlige aktiviteter.
+  - Bitcoins som har blitt tapt eller glemt.
+  - Bitcoins som har blitt lagret i en lommebok over lang tid.
+explanation: |
+  Jomfru bitcoins er nylig utvunne bitcoins som aldri
+  har blitt brukt og ikke har noen historie knyttet til dem. Disse
+  bitcoinsene anses ofte som mer verdifulle fordi de
+  aldri har blitt tilsølt, noe som gir en viss garanti mot
+  avvisning av regulatorer eller store handelsplattformer.
+reviewed: true

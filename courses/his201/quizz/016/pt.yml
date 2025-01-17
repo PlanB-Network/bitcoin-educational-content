@@ -1,0 +1,9 @@
+question: Qual conceito de dinheiro eletrônico foi explicitamente mencionado por Satoshi Nakamoto no white paper do Bitcoin?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Esta foi a primeira referência. Foi adicionada por Satoshi em agosto de 2008 após suas trocas com Wei Dai.
+reviewed: false

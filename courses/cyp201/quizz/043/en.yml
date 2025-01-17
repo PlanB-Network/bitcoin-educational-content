@@ -1,11 +1,9 @@
-question: What is the order of the secp256k1 curve used in Bitcoin?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: How many bits of entropy are used for a 24-word mnemonic phrase?
+answer: 256 bits
 wrong_answers:
-  - 2^256
-  - 2^256 - 1
-  - 2^256 - 432420386565659656852420866394968145598
+  - 128 bits
+  - 512 bits
+  - 64 bits
 explanation: |
-  The order of the secp256k1 curve used in Bitcoin is 2^256 -
-  432420386565659656852420866394968145599.
-  This is the number of points on the curve.
+  A 24-word mnemonic phrase is based on 256 bits of entropy, ensuring very high security.
 reviewed: false

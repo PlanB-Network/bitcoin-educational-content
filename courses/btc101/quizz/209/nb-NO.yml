@@ -1,0 +1,11 @@
+question: Hva ligner adopsjonskurven til Bitcoin på?
+answer: En S-kurve
+wrong_answers:
+  - En U-kurve
+  - En V-kurve
+  - En W-kurve
+explanation: >-
+  Adopsjonen av Bitcoin, som med enhver ny teknologi, følger en S-kurve.
+  Dette er et vanlig mønster for adopsjon av nye teknologier, hvor adopsjonen starter
+  sakte, deretter akselererer før den bremser ned når metning er nådd.
+reviewed: false

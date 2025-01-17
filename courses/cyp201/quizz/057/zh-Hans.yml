@@ -1,0 +1,9 @@
+question: PBKDF2生成的种子大小是多少？
+answer: 512位
+wrong_answers:
+  - 128位
+  - 256位
+  - 根据助记词长度变化
+explanation: |
+  不管助记词的长度如何，PBKDF2总是生成一个512位的种子。
+reviewed: false

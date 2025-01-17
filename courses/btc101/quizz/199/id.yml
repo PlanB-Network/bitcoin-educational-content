@@ -1,0 +1,11 @@
+question: Apa itu Rata-Rata Biaya Dolar?
+answer: Membeli jumlah kecil Bitcoin pada interval reguler.
+wrong_answers:
+  - Membeli jumlah besar Bitcoin sekaligus.
+  - Membeli Bitcoin hanya ketika harga turun.
+  - Membeli Bitcoin hanya ketika harga naik.
+explanation: >-
+  Teks menjelaskan bahwa Rata-Rata Biaya Dolar melibatkan pembelian jumlah kecil
+  Bitcoin pada interval reguler. Metode ini meratakan harga dari waktu ke waktu dan
+  menyediakan pertumbuhan kontinu dalam jumlah Bitcoin yang dimiliki.
+reviewed: false

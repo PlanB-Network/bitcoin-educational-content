@@ -1,9 +1,8 @@
-question: Como é determinado o tamanho do checksum na geração de uma frase mnemônica para uma carteira de Bitcoin?
-answer: Ao dividir o tamanho da entropia por 32.
+question: Qual é o propósito do índice na derivação de chaves filhas?
+answer: Distinguir pares de chaves irmãs
 wrong_answers:
-  - Ao multiplicar o tamanho da entropia por 32.
-  - Ao adicionar 32 ao tamanho da entropia.
-  - Ao subtrair 32 do tamanho da entropia.
+  - Identificar a natureza da chave (pública ou privada)
+  - Especificar o nível de segurança da chave
+  - Adicionar uma camada extra de segurança
 explanation: |
-  O tamanho do checksum é determinado ao dividir o tamanho da entropia por 32. Por exemplo, uma entropia de 256 bits gera um checksum de 8 bits.
-reviewed: false
+  O índice permite diferenciar chaves filhas derivadas do mesmo par de pais.

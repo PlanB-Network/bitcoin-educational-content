@@ -1,0 +1,9 @@
+question: Which function is used to calculate the number of coprime integers to an integer N?
+answer: Euler's Phi function
+wrong_answers:
+  - The logarithmic function
+  - Euler's Gamma function
+  - The Gauss function
+explanation: |
+  Euler's Phi function (or totient function) is used to calculate the number of coprimes of an integer N, especially for non-prime integers.
+reviewed: false

@@ -1,4 +1,4 @@
-question: What is one of the main questions raised about the future of finance?
+question: What is one of the main questions raised regarding the future of finance?
 answer: Who should hold, authorize, and trace the money we use?
 wrong_answers:
   - How can we eliminate money entirely?
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   The text raises several questions about the future of finance, one of
   which is who should hold, authorize, and trace the money we use.
-reviewed: false
+reviewed: true

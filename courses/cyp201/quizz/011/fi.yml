@@ -1,9 +1,9 @@
-question: Mitä vakiot K edustavat SHA-256-funktion käsittelyssä?
-answer: Ensimmäisten 64 alkuluvun kuutioiden desimaaliosien ensimmäiset 32 bittiä
+question: Mikä hajautusfunktio HMAC käyttää Bitcoinin kontekstissa?
+answer: SHA512
 wrong_answers:
-  - Ensimmäisten 64 alkuluvun neliöjuurien desimaaliosien ensimmäiset 32 bittiä
-  - Ensimmäisten 8 alkuluvun kuutioiden desimaaliosien ensimmäiset 32 bittiä
-  - Ensimmäisten 8 alkuluvun neliöjuurien desimaaliosien ensimmäiset 32 bittiä
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  SHA-256-funktion käsittelyssä vakiot K, 0:sta 63:een, edustavat ensimmäisten 64 alkuluvun kuutioiden desimaaliosien ensimmäisiä 32 bittiä. Nämä toimivat perusaineosina kryptografisessa reseptissä.
+  HMAC käyttää SHA512: ta tuottaakseen turvallisen 512-bittisen hajautuksen.
 reviewed: false

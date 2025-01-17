@@ -1,0 +1,11 @@
+question: Hva er HashRate?
+answer: Det totale antallet forsøk på å finne det riktige tallet i Proof of Work.
+wrong_answers:
+  - Hastigheten som en miner kan løse Proof of Work.
+  - Det totale antallet minere i Bitcoin-nettverket.
+  - Det totale antallet bitcoins som er utvunnet.
+explanation: >-
+  HashRate refererer til det totale antallet forsøk som minere gjør
+  per sekund for å løse Proof of Work. Det er et mål på den beregningsmessige kraften
+  til Bitcoin-nettverket.
+reviewed: false

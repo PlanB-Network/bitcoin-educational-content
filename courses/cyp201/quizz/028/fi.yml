@@ -1,9 +1,9 @@
-question: Mitä ovat UTXOt Bitcoinin kontekstissa?
-answer: Käyttämättömät transaktiotulosteet
+question: Mikä on pakatun julkisen avaimen koko käytettäessä Schnorr-protokollaa?
+answer: 32 tavua
 wrong_answers:
-  - Jäljittämättömät transaktiotulosteet
-  - Vahvistamattomat transaktiotulosteet
-  - Vahvistamattomat transaktiotulosteet
+  - 33 tavua
+  - 64 tavua
+  - 128 bittiä
 explanation: |
-  UTXOt eli "Käyttämättömät transaktiotulosteet" edustavat käyttäjälle kuuluvia käyttämättömiä transaktiotulosteita. Näiden bitcoinien käyttämiseksi on osoitettava omistajuus yksityisavaimella, joka vastaa kutakin UTXOon liitettyä julkista avainta.
+  Schnorrin julkinen avain esitetään ainoastaan elliptisen käyrän pisteen x-koordinaatilla, mikä pienentää sen koon 32 tavuun.
 reviewed: false

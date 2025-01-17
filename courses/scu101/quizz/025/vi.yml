@@ -5,4 +5,5 @@ wrong_answers:
   - Chia sẻ mật khẩu với bạn bè đáng tin cậy.
   - Sử dụng một mật khẩu phổ biến dễ nhớ.
 explanation: |
-  Được khuyến nghị là ghi mật khẩu cho việc mã hóa dữ liệu ra giấy và cất giữ nơi an toàn. Điều này nhằm ngăn chặn việc mất quyền truy cập vào dữ liệu đã mã hóa.
+  Được khuyến nghị ghi mật khẩu cho việc mã hóa dữ liệu ra giấy và cất giữ nơi an toàn. Điều này nhằm ngăn chặn việc mất quyền truy cập vào dữ liệu đã mã hóa.
+reviewed: true

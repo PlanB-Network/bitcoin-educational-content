@@ -1,10 +1,10 @@
-question: What are the fees for transactions on the Lightning Network often less than?
-answer: 0.5%
+question: Fees for transactions on the Lightning Network are extremely low, often less than...?
+answer: 0.5%.
 wrong_answers:
-  - 1%
-  - 2%
-  - 3%
+  - 1%.
+  - 2%.
+  - 3%.
 explanation: >-
   Fees for transactions on the Lightning Network are extremely low, often
   less than 0.5%.
-reviewed: false
+reviewed: true

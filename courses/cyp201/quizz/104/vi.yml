@@ -1,8 +1,0 @@
-question: Các loại cặp khóa con nào có thể được phát sinh từ khóa riêng mở rộng?
-answer: Khóa riêng mở rộng cho phép phát sinh tất cả các khóa con, cả công khai và riêng tư, ở chế độ bình thường hoặc cứng.
-wrong_answers:
-  - Khóa riêng mở rộng chỉ cho phép phát sinh các khóa con ở chế độ bình thường.
-  - Khóa riêng mở rộng chỉ cho phép phát sinh các khóa con ở chế độ cứng.
-  - Khóa riêng mở rộng không cho phép phát sinh bất kỳ khóa con nào.
-explanation: |
-  Khóa riêng mở rộng cho phép phát sinh tất cả các khóa con, cả công khai và riêng tư, dù ở chế độ bình thường hay cứng. Điều này trái ngược với khóa công khai mở rộng, chỉ cho phép phát sinh các khóa con công khai ở chế độ bình thường.

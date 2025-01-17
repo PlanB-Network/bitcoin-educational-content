@@ -1,0 +1,9 @@
+question: Hva skjer under hver komprimeringsrunde i SHA256?
+answer: Tilstandsvariablene oppdateres fra meldingsordene og konstantene
+wrong_answers:
+  - Den endelige hashen genereres gradvis etter hver runde
+  - Meldingsbitene omorganiseres
+  - De opprinnelige verdiene til variablene forblir uendret
+explanation: |
+  Hver runde endrer tilstandsvariablene ved å bruke ord, konstanter og logiske operasjoner for å spre informasjonen.
+reviewed: false

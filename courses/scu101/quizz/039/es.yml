@@ -5,5 +5,8 @@ wrong_answers:
   - Basada en información personal como fechas de nacimiento y nombres.
   - La misma contraseña para todas las cuentas.
 explanation: |
-  Una buena contraseña es larga (al menos 12 caracteres), compleja (una mezcla de letras mayúsculas y minúsculas, números y símbolos), única (no se reutiliza para diferentes cuentas) y no está basada en información personal.
-reviewed: false
+  Una buena contraseña es larga (al menos 12 caracteres), compleja
+  (una mezcla de letras mayúsculas y minúsculas, números y
+  símbolos), única (no reutilizada para diferentes cuentas) y
+  no basada en información personal.
+reviewed: true

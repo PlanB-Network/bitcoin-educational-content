@@ -1,0 +1,8 @@
+question: Mikä oli Adam Backin suunnitteleman Hashcash proof of work -algoritmin alkuperäinen tavoite?
+answer: Taistella roskapostia vastaan
+wrong_answers:
+  - Taata tilin yksikön arvo
+  - Saavuttaa konsensus vertaisverkossa
+  - Keittää valtameret
+explanation: |
+  Hashcash vaati todistuksen työstä jokaiselle vastaanotetulle sähköpostille, mikä oli tarkoitus rajoittaa roskapostia.

@@ -1,9 +1,0 @@
-question: Como é obtida a chave pública da criança na derivação das chaves da criança?
-answer: A chave pública da criança é obtida multiplicando a chave privada da criança pelo gerador da curva elíptica.
-wrong_answers:
-  - A chave pública da criança é obtida adicionando a chave privada da criança ao gerador da curva elíptica.
-  - A chave pública da criança é obtida subtraindo a chave privada da criança do gerador da curva elíptica.
-  - A chave pública da criança é obtida dividindo a chave privada da criança pelo gerador da curva elíptica.
-explanation: |
-  A chave pública da criança é obtida multiplicando a chave privada da criança pelo gerador da curva elíptica. Isso faz parte dos cálculos matemáticos usados na derivação das chaves da criança.
-reviewed: false

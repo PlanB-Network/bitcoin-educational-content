@@ -1,0 +1,14 @@
+question: Hva er implikasjonen av den sekvensielle naturen til menneskelig handling på produksjonsaktiviteter?
+answer: Enhver produksjonsomvei, det vil si enhver forlengelse av produksjonsstrukturen, krever tidligere sparing.
+wrong_answers:
+  - Den sekvensielle naturen til menneskelig handling har ingen implikasjon på produksjonsaktiviteter.
+  - Den sekvensielle naturen til menneskelig handling innebærer at produksjonsaktiviteter må utføres i en spesifikk rekkefølge.
+  - Den sekvensielle naturen til menneskelig handling innebærer at produksjonsaktiviteter må utføres samtidig.
+explanation: |
+  På grunn av den sekvensielle naturen til menneskelig handling, vil disse intertemporale valgene
+  alltid ha implikasjoner for handlingssekvensen. Med andre ord, de kortsiktige
+  handlingene man tar er underordnet de langsiktige målene man setter, og ens kortsiktige
+  handlinger vil påvirke hva man kan gjøre i fremtiden. Implikasjonen av dette åpenbare
+  poenget angående produksjonsaktiviteter er at enhver produksjonsomvei, det vil si enhver
+  forlengelse av produksjonsstrukturen, krever tidligere sparing.
+reviewed: false

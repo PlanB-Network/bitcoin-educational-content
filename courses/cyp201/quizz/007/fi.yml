@@ -1,11 +1,8 @@
-question: Mikä hajautusfunktio on keskeinen elementti Bitcoin-protokollassa?
-answer: SHA-256
+question: Mikä on pääasiallinen ero ShR- ja RotR-toimintojen välillä?
+answer: ShR siirtää bittejä lisäämällä nollia, RotR sijoittaa siirretyt bitit takaisin
 wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
+  - ShR poistaa siirretyt bitit, RotR moninkertaistaa niiden arvon
+  - ShR siirtää vasemmalle, RotR siirtää oikealle
+  - ShR on looginen operaatio, RotR on aritmeettinen
 explanation: |
-  SHA-256 on keskeinen elementti Bitcoin-protokollassa. Sitä käytetään luomaan
-  uniikki ja peruuttamaton sormenjälki transaktiodatasta, mikä on ratkaisevan tärkeää
-  Bitcoin-verkon turvallisuuden ja eheyden kannalta.
-reviewed: false
+  ShR siirtää bittejä oikealle lisäämällä nollia, kun taas RotR suorittaa bittien kiertävän kierron.

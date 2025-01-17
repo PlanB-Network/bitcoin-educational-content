@@ -1,9 +1,0 @@
-question: O que acontece em um fechamento forçado do canal?
-answer: Todas as transações HTLC em andamento são publicadas, o que pode se tornar muito caro e confuso.
-wrong_answers:
-  - Os pagamentos são interrompidos e os HTLCs são resolvidos, o que geralmente é menos caro.
-  - O canal é imediatamente fechado sem etapas adicionais.
-  - Todas as transações HTLC em andamento são canceladas.
-explanation: |
-  Em um fechamento forçado, todas as transações HTLC em andamento são publicadas. Isso pode se tornar muito caro e confuso devido à complexidade e ao número de transações envolvidas.
-reviewed: false

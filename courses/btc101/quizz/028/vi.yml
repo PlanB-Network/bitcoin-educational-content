@@ -1,10 +1,13 @@
-question: Sự tiến hóa của tiền tệ là gì?
+question: Con đường tiến hóa của tiền tệ ngày nay là gì?
 answer: Đá thô -> Đồng xu -> Tiền giấy -> Thẻ ngân hàng -> Blockchain -> Lightning Network
 wrong_answers:
   - Đá thô -> Đồng xu -> Tiền giấy -> Blockchain -> Lightning Network
   - Đá thô -> Đồng xu -> Tiền giấy -> Thẻ ngân hàng -> Lightning Network
-  - Đá thô -> Đồng xu -> Tiền giấy -> Thẻ ngân hàng -> Blockchain
+  - Đá thô -> Đồng xu -> Thẻ ngân hàng -> Tiền giấy -> Blockchain -> Lightning Network
 explanation: |
-  Tiền tệ, như bất kỳ công nghệ nào, đã tiến hóa từ đá thô
-  sang đồng xu kim loại, sau đó là tiền giấy, thẻ ngân hàng, và cuối cùng là mạng lưới ngang hàng với Bitcoin blockchain, và Lightning Network.
-reviewed: false
+  Tiền tệ là một công nghệ đã tiến hóa theo thời gian,
+  bắt đầu từ việc được đại diện bởi đá thô, chuyển
+  sang đồng xu kim loại, sau đó là tiền giấy, thẻ ngân hàng, và
+  cuối cùng là mạng ngang hàng với việc sử dụng
+  blockchain Bitcoin và Lightning Network.
+reviewed: true

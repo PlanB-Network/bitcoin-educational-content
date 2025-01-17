@@ -1,0 +1,12 @@
+question: Hva er den største fordelen med å bruke en passordbehandler ifølge kapittelet?
+answer: Den hjelper deg med å aldri bruke samme passord to ganger
+wrong_answers:
+  - Den hjelper deg med å huske brukernavnene dine
+  - Den beskytter datamaskinen din mot virus
+  - Den genererer tilfeldige passord
+explanation: |
+  Ifølge kapittelet hjelper en passordbehandler deg med å aldri bruke
+
+  samme passord to ganger, velge komplekse og sikre passord, og letter din online
+
+  sikkerhetsstyring.

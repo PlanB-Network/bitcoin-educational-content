@@ -9,7 +9,7 @@ _我们正在密切关注此案件的发展以及与之相关工具的发展情�
 
 _本教程仅供教育和信息目的使用。我们不支持或鼓励使用这些工具进行犯罪活动。每个用户都有责任遵守其管辖区的法律。_
 
-_本教程专用于安装RoninDojo v1。为了利用最新的改进和功能，我强烈推荐参考我们专门为在您的树莓派上直接安装RoninDojo v2准备的教程：_ [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+_本教程专用于安装RoninDojo v1。为了利用最新的改进和功能，我强烈推荐参考我们专门为在您的树莓派上直接安装RoninDojo v2准备的教程：_ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

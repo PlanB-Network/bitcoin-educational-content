@@ -1,0 +1,9 @@
+question: Jaký je hlavní cíl schématu autentizovaného šifrování?
+answer: Zajistit důvěrnost a autentičnost komunikace
+wrong_answers:
+  - Generovat klíče bezpečným způsobem
+  - Nahradit MAC v kryptografických výměnách
+  - Automaticky dešifrovat zachycené zprávy
+explanation: |
+  Schéma autentizovaného šifrování kombinuje šifrování a autentizační kód (MAC) pro zajištění jak důvěrnosti zpráv, tak jejich autentičnosti.
+reviewed: false

@@ -1,11 +1,11 @@
-question: What is Bitcoin seen as in relation to fiat currencies?
-answer: A parallel economy
+question: In comparison with fiat currencies, how is Bitcoin perceived?
+answer: As a parallel economy.
 wrong_answers:
-  - A replacement economy
-  - A secondary economy
-  - A tertiary economy
+  - As a replacement economy.
+  - As an industrial economy.
+  - As a tertiary economy.
 explanation: >-
   Bitcoin is seen as a parallel economy to fiat currencies, meaning it
   operates alongside traditional economies and can be used for transactions directly,
   without the need to go through an exchange platform.
-reviewed: false
+reviewed: true

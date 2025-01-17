@@ -1,9 +1,9 @@
 question: Mitä sinun tulisi tehdä, kun muistisanojesi sanat on kirjoitettu?
-answer: Tee toinen kopio ja säilytä se eri paikassa
+answer: Tee toinen kopio ja säilytä se eri paikassa.
 wrong_answers:
-  - Jaa se luotettavan ystävän kanssa
-  - Lähetä se itsellesi sähköpostitse
-  - Säilytä se puhelimessasi
+  - Jaa se luotettavan ystävän kanssa.
+  - Lähetä se itsellesi sähköpostitse.
+  - Säilytä se puhelimessasi.
 explanation: |
-  Kun muistisanojesi sanat on kirjoitettu, on suositeltavaa tehdä toinen kopio ja säilyttää se eri paikassa kuin ensimmäinen. Tämä tarjoaa varmuuskopion ensimmäisen kopion katoamisen tai vahingon varalta.
-reviewed: false
+  Kun muistisanojesi sanat on kirjoitettu, on suositeltavaa tehdä toinen kopio ja säilyttää se eri paikassa kuin ensimmäinen. Tämä tarjoaa varmuuskopion tapauksessa, jos ensimmäinen kopio katoaa tai sille sattuu vahinko.
+reviewed: true

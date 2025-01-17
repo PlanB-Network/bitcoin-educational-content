@@ -1,0 +1,9 @@
+question: Berapa ukuran seed yang dihasilkan oleh PBKDF2?
+answer: 512 bit
+wrong_answers:
+  - 128 bit
+  - 256 bit
+  - Berubah-ubah tergantung pada panjang frasa mnemonik
+explanation: |
+  Terlepas dari panjang frasa mnemonik, PBKDF2 selalu menghasilkan seed sebesar 512 bit.
+ditinjau: false

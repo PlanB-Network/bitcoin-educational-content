@@ -1,0 +1,9 @@
+question: Mitä Lafferin mukaan tapahtuu verotuloille, kun verokantoja nostetaan liikaa?
+answer: Ne vähenevät
+wrong_answers:
+  - Ne kasvavat
+  - Ne pysyvät vakaina
+  - Ne vaihtelevat ennustamattomasti
+explanation: |
+  Lafferin käyrän mukaan liiallinen verokantojen nosto johtaa verotulojen vähenemiseen, koska se vähentää työnteon, investointien ja tuotannon kannustimia.
+reviewed: false

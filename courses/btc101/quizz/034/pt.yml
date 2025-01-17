@@ -1,9 +1,12 @@
 question: Qual é a principal vantagem do ouro como moeda?
-answer: É incrivelmente durável
+answer: É incrivelmente durável.
 wrong_answers:
-  - É facilmente divisível ou transportável por longas distâncias
-  - É facilmente verificável
-  - Não é regulado pelo governo
+  - É facilmente divisível ou transportável por longas distâncias.
+  - É facilmente verificável.
+  - Não é regulado pelo governo.
 explanation: |
-  Embora não seja facilmente divisível ou transportável por longas distâncias, o que o tornava bom como reserva de valor, não é uma moeda comum nos dias de hoje.
-reviewed: false
+  Embora não seja facilmente divisível ou transportável por
+  longas distâncias, o ouro é um material muito durável, o que
+  o torna um bom reserva de valor. Moedas de ouro foram usadas como
+  moeda no passado, mas elas não serviriam o mesmo propósito na era digital de hoje.
+reviewed: true

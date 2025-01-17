@@ -1,9 +1,11 @@
-question: Wie ist die Natur der Bitcoin-Adoption laut Text?
-answer: Viral
+question: Wie wird die Art der Bitcoin-Adoption in diesem Kurs beschrieben?
+answer: Viral.
 wrong_answers:
-  - Langsam und stetig
-  - Schnell und unkontrollierbar
-  - Sporadisch und unvorhersehbar
+  - Langsam und stetig.
+  - Schnell und unkontrollierbar.
+  - Sporadisch und unvorhersehbar.
 explanation: |
-  Der Text beschreibt die Bitcoin-Adoption als viral, was darauf hinweist, dass sie sich schnell und weit verbreitet, ähnlich wie ein Virus, von einer Person zur anderen.
-reviewed: false
+  Der Kurstext beschreibt die Adoption von Bitcoin als viral,
+  was darauf hindeutet, dass sie sich schnell und weit von einer
+  Person zur anderen verbreitet, ähnlich wie ein Virus, aber ein guter. 
+reviewed: true

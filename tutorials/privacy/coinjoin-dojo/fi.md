@@ -64,7 +64,7 @@ Whirlpool suunniteltiin ottaen huomioon kaksi tärkeää vaatimusta:
 Nämä imperatiivit ohjasivat Samourai Walletin kehittäjien valintoja Whirlpoolin suunnittelussa, johdattaen heidät rajoittamaan osallistujien määrää per sykli. Liian vähäinen osallistujamäärä olisi vaarantanut coinjoinin tehokkuuden, drastisesti vähentäen jokaisessa syklissä tuotettuja anonsetteja, kun taas liian suuri osallistujamäärä olisi aiheuttanut hallinnollisia ongelmia mobiilisovelluksissa ja hidastanut syklien kulkua.
 **Lopulta Whirlpoolissa ei tarvita suurta osallistujamäärää per coinjoin, koska anonsetit saavutetaan kerryttämällä useita coinjoin-syklejä.**
 
-[-> Lue lisää Whirlpoolin anonseteista.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Lue lisää Whirlpoolin anonseteista.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Altaat ja coinjoin-maksut
 Jotta nämä monet syklit voisivat tehokkaasti lisätä sekoitettujen kolikoiden anonsetteja, tietty kehys on määriteltävä käytettävien UTXO-määrien rajoittamiseksi. Whirlpool määrittelee siis erilaisia altaita.
@@ -166,14 +166,14 @@ Whirlpoolin käyttöön on monia vaihtoehtoja. Haluan tässä esitellä Samourai
 Coinjoinejen suorittaminen Samourai Walletin kautta käyttäen omaa Dojoasi on mielestäni tehokkain strategia Bitcoinin coinjoineihin tähän mennessä. Tämä lähestymistapa vaatii alkuinvestointia asetuksen suhteen, mutta kerran paikoillaan, se tarjoaa mahdollisuuden sekoittaa ja uudelleensekoittaa bitcoinejasi jatkuvasti, 24 tuntia vuorokaudessa, 7 päivää viikossa, ilman tarvetta pitää Samourai-sovellustasi aktiivisena koko ajan. Todellakin, kiitos Whirlpool CLI:n toiminnasta Bitcoin-nodessa, olet aina valmis osallistumaan coinjoineihin. Samourai-sovellus antaa sinulle sitten mahdollisuuden käyttää sekoitettuja varojasi milloin tahansa, missä tahansa, suoraan älypuhelimestasi. Lisäksi, tämä menetelmä tarjoaa edun, ettei sinua yhdistetä koskaan Samourai-tiimien hallinnoimiin palvelimiin, suojellen näin `xpub`iasi miltä tahansa ulkoiselta altistumiselta.
 
 Tämä tekniikka on siis ihanteellinen niille, jotka etsivät maksimaalista yksityisyyttä ja korkealaatuisimpia coinjoin-syklejä. Se vaatii kuitenkin Bitcoin-noden käytettävissäsi ja, kuten myöhemmin näemme, vaatii jonkin verran asetusta. Se on siis paremmin soveltuva keskitason ja edistyneiden käyttäjien käyttöön. Aloittelijoille suosittelen tutustumista coinjoiniin näiden kahden muun oppaan kautta, jotka näyttävät, miten se tehdään Sparrow Walletista tai Samourai Walletista (ilman Dojoa):
-- **[Sparrow Wallet coinjoin -opas](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet)**;
-- **[Samourai Wallet coinjoin -opas (ilman Dojoa)](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet)**.
+- **[Sparrow Wallet coinjoin -opas](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- **[Samourai Wallet coinjoin -opas (ilman Dojoa)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 ### Asetuksen Ymmärtäminen
 Aloittaaksesi tarvitset Dojon! Dojo on Bitcoin-noden toteutus, joka perustuu Bitcoin Coreen, ja sen on kehittänyt Samourai-tiimit.
 
 Oman Dojosi käyttöönottamiseksi sinulla on mahdollisuus joko asentaa Dojo-nodi itsenäisesti tai hyödyntää Dojoa toisen "node-in-box" Bitcoin-noden ratkaisun päällä. Tällä hetkellä saatavilla olevat vaihtoehdot ovat:
-- [RoninDojo](https://ronindojo.io/), joka on Dojo, jota on parannettu lisätyökaluilla, mukaan lukien asennusavustaja ja hallinta-avustaja. Yksityiskohtaisen menettelyn RoninDojon asettamiseksi ja käyttämiseksi kerron tässä toisessa oppaassa: [RONINDOJO V2](https://planb.network/en/tutorials/node/ronin-dojo-v2);
+- [RoninDojo](https://ronindojo.io/), joka on Dojo, jota on parannettu lisätyökaluilla, mukaan lukien asennusavustaja ja hallinta-avustaja. Yksityiskohtaisen menettelyn RoninDojon asettamiseksi ja käyttämiseksi kerron tässä toisessa oppaassa: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) "Samourai Server" -sovelluksella;
 - [MyNode](https://mynodebtc.com/) "Dojo" -sovelluksella;
 - [Nodl](https://www.nodl.eu/) "Dojo" sovelluksella;
@@ -254,7 +254,7 @@ Seuraavassa vaiheessa pääset sivulle, joka on omistettu Dojosi konfiguroinnill
 
 ![coinjoin](assets/notext/24.webp)
 
-*Uusille Samourain käyttäjille, on sitten tarpeen luoda lompakko alusta. Jos tarvitset apua, voit konsultoida ohjeita uuden Samourai-lompakon asettamiseksi [tässä oppaassa, erityisesti kohdassa "Luodaan ohjelmistolompakko"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*Uusille Samourain käyttäjille, on sitten tarpeen luoda lompakko alusta. Jos tarvitset apua, voit konsultoida ohjeita uuden Samourai-lompakon asettamiseksi [tässä oppaassa, erityisesti kohdassa "Luodaan ohjelmistolompakko"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 Jos jatkat jo olemassa olevan Samourai-lompakon palauttamista, valitse `Palauta olemassa oleva lompakko`, sitten valitse `Minulla on Samourai-varmuuskopiotiedosto`.
 ![coinjoin](assets/notext/25.webp)
 Normaalisti sinulla tulisi aina olla palautustiedostosi leikepöydälläsi. Sen jälkeen klikkaa `LIITÄ` lisätäksesi tiedoston määrättyyn sijaintiin. Sen purkamiseksi sinun on myös tarpeen syöttää lompakkosi BIP39-salasana vastaavaan kenttään, joka sijaitsee juuri alla. Lopuksi, klikkaa `VALMIS`.
@@ -359,4 +359,7 @@ Sekoitetut UTXO:si ovat nähtävissä **Jälkisekoitus**-tilillä Whirlpool GUI:
 Whirlpool-tilit ovat helposti tunnistettavissa Samourai Walletissa niiden sinisen värin ansiosta. Tämä mahdollistaa sekoitettujen UTXO:jesi käyttämisen missä ja milloin tahansa, suoraan älypuhelimestasi.
 
 ![coinjoin](assets/notext/53.webp)
-Jotta voit seurata automaattisia coinjoinejasi, suosittelen myös watch-only lompakon asettamista Sentinel-sovelluksen kautta. Lisää **Postmix**-tilisi ZPUB ja seuraa coinjoin-syklien etenemistä reaaliajassa. Jos haluat ymmärtää, miten Sentinelia käytetään, suosittelen tutustumaan tähän toiseen oppaaseen PlanB Networkissa: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)
+Jotta voit seurata automaattisia coinjoinejasi, suosittelen myös watch-only lompakon asettamista Sentinel-sovelluksen kautta. Lisää **Postmix**-tilisi ZPUB ja seuraa coinjoin-syklien etenemistä reaaliajassa. Jos haluat ymmärtää, miten Sentinelia käytetään, suosittelen tutustumaan tähän toiseen oppaaseen PlanB Networkissa: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+
+
+

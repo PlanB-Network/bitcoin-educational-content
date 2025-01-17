@@ -1,0 +1,9 @@
+question: Hva er en potensiell ulempe med digitale valutaer utstedt av sentralbanker (CBDC-er)?
+answer: De kan hindre individuell økonomisk frihet og legge til rette for autoritære overgrep.
+wrong_answers:
+  - De kan føre til en reduksjon i pengemengden.
+  - De kan føre til en reduksjon i verdien av Bitcoin.
+  - De kan føre til en reduksjon i verdien av gull.
+explanation: |
+  Digitale valutaer utstedt av sentralbanker (CBDC-er) kan potensielt hindre individuell økonomisk frihet og legge til rette for autoritære overgrep. Dette er fordi de ville tilby en mer sentralt planlagt økonomi, med sentralbanken som har enda mer kontroll over pengemengden.
+reviewed: true

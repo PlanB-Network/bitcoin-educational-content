@@ -15,7 +15,7 @@ Autrement dit, il est conseillé d'enregistrer vos fichiers à 3 endroits diffé
 
 Pour mettre en place facilement cette stratégie de sauvegarde 3-2-1, vous pouvez opter pour une solution de stockage en ligne, en synchronisant automatiquement ou périodiquement les fichiers de votre ordinateur avec ceux de votre cloud. Parmi ces solutions de sauvegarde en ligne, il y a évidemment celles des grandes entreprises du numérique que vous connaissez : Google Drive, Microsoft OneDrive ou encore Apple iCloud. Cependant, ce ne sont pas les meilleures solutions pour protéger votre vie privée. Dans un tutoriel précédent, je vous ai présenté une alternative qui chiffre vos documents pour une meilleure confidentialité : Proton Drive.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 En adoptant cette stratégie de sauvegarde locale et sur le cloud, vous bénéficiez déjà de deux types de supports différents pour vos données, dont un qui est hors site. Pour compléter la stratégie du 3-2-1, il vous suffit d'ajouter une copie supplémentaire. Ce que je vous conseille de faire, c'est tout simplement de réaliser périodiquement des exports de vos données présentes en local et sur votre cloud vers un support physique, comme une clé USB ou un disque dur. De cette manière, même si les serveurs de votre solution de stockage en ligne sont détruits et que votre ordinateur tombe en panne simultanément, vous disposez toujours de cette troisième copie sur un support externe pour ne pas perdre vos données.
 ![VeraCrypt](assets/notext/01.webp)
@@ -87,7 +87,7 @@ Je vous conseille également d'enregistrer votre mot de passe dans un gestionnai
 
 Pour plus d'informations sur la gestion des mots de passe, je vous conseille de découvrir cet autre tutoriel complet :
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Renseignez votre mot de passe dans les 2 cases prévues à cet effet, puis cliquez sur "*Next*".
 ![VeraCrypt](assets/notext/25.webp)

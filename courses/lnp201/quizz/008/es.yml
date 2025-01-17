@@ -1,9 +1,8 @@
-question: ¿La capacidad de un canal de pago de Lightning limita el número total de transacciones o el volumen total de Bitcoin que se puede transmitir a través del canal?
-answer: "No"
+question: ¿Cómo funciona una dirección multisignatura 2/2 en Bitcoin?
+answer: Requiere dos firmas para desbloquear y gastar los fondos.
 wrong_answers:
-  - Sí
-  - Solo en algunos casos
-  - Depende de la red de Bitcoin
+  - Permite gastar los fondos con solo una de las dos llaves.
+  - Autoriza transacciones solo en casos específicos de bloqueo.
+  - Se utiliza solo para enviar fondos a direcciones públicas.
 explanation: |
-  Aunque la capacidad de un canal de pago de Lightning es fija, esto no limita el número total de transacciones ni el volumen total de Bitcoin que se puede transmitir a través del canal.
-reviewed: false
+  Una dirección multisignatura 2/2 requiere las firmas de ambas partes involucradas para que los fondos puedan ser gastados, lo cual se utiliza para la seguridad de los canales de Lightning.

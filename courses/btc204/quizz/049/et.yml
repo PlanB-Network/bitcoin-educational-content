@@ -1,0 +1,13 @@
+question: Miks kasutatakse XOR operaatorit BIP47-s?
+
+answer: Selleks, et sümmeetriliselt krüpteerida saatja maksekoodi sisu.
+
+wrong_answers:
+  - Selleks, et asümmeetriliselt krüpteerida saatja maksekoodi sisu.
+  - Selleks, et sümmeetriliselt krüpteerida saatja maksekoodi metaandmeid.
+  - Selleks, et asümmeetriliselt krüpteerida saatja maksekoodi metaandmeid.
+
+explanation: |
+  XOR operaatorit kasutatakse selleks, et sümmeetriliselt krüpteerida saatja maksekoodi sisu BIP47-s.
+
+reviewed: false

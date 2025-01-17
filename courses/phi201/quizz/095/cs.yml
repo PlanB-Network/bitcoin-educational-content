@@ -1,0 +1,9 @@
+question: Podle Marxe, jaké je hlavní omezení lidských práv?
+answer: Chrání pouze formální a abstraktní svobodu.
+wrong_answers:
+  - Jsou to přirozená práva.
+  - Jsou to volitelná práva.
+  - Brání revoluci.
+explanation: |
+  Marx kritizuje lidská práva tím, že je označuje za formální, protože zaručují abstraktní individuální svobodu, aniž by skutečně transformovaly materiální podmínky vykořisťování v kapitalistické společnosti.
+reviewed: false

@@ -1,12 +1,9 @@
-question: What is the first step in opening a channel in the Lightning Network?
-answer: The two peers communicate their intention to open a channel.
+question: What happens if Bob sends an invoice to Alice for 30,000 satoshis?
+answer: Alice creates a commitment transaction to transfer 30,000 satoshis to Bob in the channel.
 wrong_answers:
-  - Alice sends money to Bob's public address.
-  - Alice creates a 2/2 multi-sig address.
-  - Alice publishes a transaction to the Bitcoin network.
+  - Alice must open a new channel to make this transfer.
+  - Bob automatically receives the 30,000 satoshis in his wallet.
+  - The invoice is paid through an on-chain transaction on Bitcoin.
 explanation: |
-  The first step in opening a channel in the Lightning Network is for the
-  two peers to communicate their intention to open a channel. For example, Alice might
-  say, "Hi, I want to open a channel!" and Bob might respond, "Ok, here is my public
-  address."
+  When Bob sends an invoice to Alice, she creates and signs a new commitment transaction to adjust the distribution of funds, thereby transferring 30,000 satoshis in the channel.
 reviewed: false

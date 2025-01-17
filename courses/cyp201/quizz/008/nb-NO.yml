@@ -1,0 +1,9 @@
+question: Hvorfor bruker SHA256 en forbehandling på inngangsmeldingen?
+answer: For å sikre en lengde som er et multiplum av 512 bits
+wrong_answers:
+  - For å verifisere integriteten til meldingen
+  - For å kryptere dataene før hashing
+  - For å øke størrelsen på de genererte hashene
+explanation: |
+  Forbehandlingen justerer meldingens lengde ved å legge til utfyllingsbiter og en binær representasjon av dens lengde.
+reviewed: false

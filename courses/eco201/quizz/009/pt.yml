@@ -1,10 +1,10 @@
-question: Qual é o papel de um banco central como "emprestador de última instância"?
+question: Qual é o papel de um banco central como emprestador de última instância?
 answer: O banco central empresta fundos a bancos em dificuldades durante crises para evitar um efeito dominó que poderia paralisar todo o sistema financeiro.
 wrong_answers:
   - O banco central empresta fundos a bancos em dificuldades durante crises para aumentar seus próprios lucros.
   - O banco central empresta fundos a bancos em dificuldades durante crises para assumir suas operações.
   - O banco central empresta fundos a bancos em dificuldades durante crises para aumentar a dívida nacional.
 explanation: |
-  O conceito de um banco central como "emprestador de última instância" surgiu no
+  O conceito de um banco central como emprestador de última instância surgiu no
   século XIX na Inglaterra em resposta a repetidas corridas bancárias que ameaçavam a estabilidade financeira. Ao emprestar para bancos em dificuldades, o banco central pode evitar um efeito dominó de falências bancárias que poderia levar a uma recessão ou depressão.
 reviewed: false

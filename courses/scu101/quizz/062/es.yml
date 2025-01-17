@@ -5,5 +5,7 @@ wrong_answers:
   - POP3, IMAP, SSH
   - DHCP, DNS, ARP
 explanation: |
-  El capítulo menciona TCP/IP, VPN y firewall como algunos de los aspectos del conocimiento de redes necesarios en ciberseguridad.
-reviewed: false
+  El capítulo menciona TCP/IP, VPN y firewall como algunos de
+  los aspectos del conocimiento de redes necesarios en
+  ciberseguridad.
+reviewed: true

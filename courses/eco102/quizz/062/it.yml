@@ -1,0 +1,9 @@
+question: Secondo Laffer, cosa succede alle entrate fiscali quando le aliquote fiscali vengono aumentate eccessivamente?
+answer: Diminuiscono
+wrong_answers:
+  - Aumentano
+  - Rimangono stabili
+  - Fluttuano in modo imprevedibile
+explanation: |
+  Secondo la curva di Laffer, un aumento eccessivo delle aliquote fiscali porta a una diminuzione delle entrate fiscali perché scoraggia il lavoro, l'investimento e la produzione.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaké je motto fyziokratů?
+answer: Laissez-faire, laissez passer.
+wrong_answers:
+  - Stát je zároveň bankéř, obchodník a poskytovatel.
+  - Francie může být bohatá pouze skrze zkázu Anglie a Holandska.
+  - Politická ekonomie, jak ji shrnul Dupont de Nemours, je věda o přirozeném právu aplikovaná na civilizované společnosti.
+explanation: |
+  Motto Laissez-faire, laissez passer fyziokratů vyjadřuje jejich přesvědčení, že ekonomika prosperuje, když je osvobozena od státních zásahů, což umožňuje přirozeným silám trhu volně se vyrovnávat.
+reviewed: false

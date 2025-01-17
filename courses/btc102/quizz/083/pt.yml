@@ -5,5 +5,5 @@ wrong_answers:
   - Isso permite transações anônimas.
   - Isso fornece uma plataforma para negociar Bitcoin.
 explanation: |
-  A Lightning Network é um protocolo de pagamento de "camada 2" que opera em cima de uma criptomoeda baseada em blockchain, como o Bitcoin. Ele foi projetado para permitir transações rápidas e de baixo custo.
+  A Lightning Network é um protocolo de pagamento de camada 2 que opera em cima de uma criptomoeda baseada em blockchain, como o Bitcoin. Ele foi projetado para permitir transações rápidas e de baixo custo.
 reviewed: false

@@ -1,9 +1,14 @@
-question: Quelle est la principale tâche des mineurs dans le réseau Bitcoin?
+question: Quelle est la tâche principale des mineurs dans le réseau Bitcoin ?
 answer: Résoudre une énigme numérique et valider un nouveau bloc
 wrong_answers:
   - Créer de nouveaux bitcoins
   - Contrôler le prix du Bitcoin
   - Vérifier l'identité des utilisateurs de Bitcoin
 explanation: |
-  Dans le contexte du minage de Bitcoin, les mineurs s'efforcent de résoudre rapidement une énigme numérique. Le premier mineur à résoudre l'énigme présente sa solution à l'ensemble du réseau, qui peut ensuite facilement vérifier sa validité. Cette vérification réussie permet au mineur de valider un nouveau bloc et de l'ajouter à la chaîne de blocs Bitcoin.
-reviewed: false
+  Dans le contexte du minage de Bitcoin, les mineurs s'efforcent de résoudre rapidement
+  une énigme numérique. Le premier mineur à résoudre l'énigme
+  présente sa solution à l'ensemble du réseau, qui peut
+  alors facilement vérifier sa validité. Cette vérification réussie
+  permet au mineur de valider un nouveau bloc et
+  de l'ajouter à la Timechain de Bitcoin.
+reviewed: true

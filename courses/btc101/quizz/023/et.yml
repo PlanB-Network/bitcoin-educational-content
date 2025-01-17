@@ -1,0 +1,12 @@
+question: Mis on raha roll kommunikatsioonivahendina?
+answer: See võimaldab väärtuse kommunikatsiooni nii ruumis kui ka ajas ilma vajaduseta usaldada vastaspoolt
+wrong_answers:
+  - See võimaldab väärtuse kommunikatsiooni ainult ruumis ilma vajaduseta usaldada vastaspoolt
+  - See võimaldab väärtuse kommunikatsiooni ainult ajas ilma vajaduseta usaldada vastaspoolt
+  - See võimaldab väärtuse kommunikatsiooni nii ruumis kui ka ajas koos vajadusega usaldada vastaspoolt
+explanation: |
+  Raha kui kommunikatsioonivahend võimaldab kommunikatsiooni nii ruumis kui ka ajas, kuna me muudame oma aja ja energia varaks, mida saab tulevikus uuesti kasutada
+  ilma devalveerimise riskita. See võimaldab ka kommunikatsiooni
+  universaalses ühises keeles, võimaldades kahel võõral vahetada, kaubelda ja kokku leppida
+  asjade väärtuses.
+reviewed: true

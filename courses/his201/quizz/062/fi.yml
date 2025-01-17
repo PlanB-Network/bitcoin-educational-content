@@ -1,0 +1,9 @@
+question: Mitä osallistujan hajautusnopeuden arvioiminen osittaisen työtodistuksen kautta sisältää?
+answer: Alempiarvoisten työtodistusten hankkiminen kuin verkon vaikeustaso, jonka laskija on tuottanut
+wrong_answers:
+  - Leiman jäljen hankkiminen, joka sisältää kunkin lohkon hajautuksen ensimmäisen tavun, jonka laskija on tuottanut
+  - Laskijan sähkölaskun hankkiminen joka kuukausi
+  - Työtodistusten hankkiminen alhaisemman vaikeustason verkosta, kuten BitDNS
+explanation: |
+  Tämän yksinkertaisen menetelmän ehdottivat ribuck, Nils Schneider ja Gavin Andresen [foorumilla](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) 14. lokakuuta 2010. ()
+reviewed: false

@@ -5,7 +5,8 @@ wrong_answers:
   - The software will not have any new features.
   - The software will consume more system resources.
 explanation: |
-  Cracked software that cannot be updated represents a double potential
-  threat. It can bring a virus during its illegal download from a suspicious website
-  and it can be insecure against new forms of attack.
-reviewed: false
+  Cracked software that cannot be updated represents a double
+  potential threat. It can bring a virus during its illegal
+  download from a suspicious website and it can be insecure
+  against new forms of attack.
+reviewed: true

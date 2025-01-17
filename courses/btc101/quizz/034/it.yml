@@ -1,9 +1,9 @@
 question: Qual è il principale vantaggio dell'oro come valuta?
-answer: È incredibilmente resistente
+answer: È incredibilmente durevole.
 wrong_answers:
-  - È facilmente divisibile o trasportabile su lunghe distanze
-  - È facilmente verificabile
-  - Non è regolato dal governo
+  - È facilmente divisibile o trasportabile su lunghe distanze.
+  - È facilmente verificabile.
+  - Non è regolato dal governo.
 explanation: |
-  Sebbene non sia facilmente divisibile o trasportabile su lunghe distanze, ciò che lo rendeva un buon mezzo di conservazione del valore, non è una valuta comune ai giorni nostri.
-reviewed: false
+  Sebbene non sia facilmente divisibile o trasportabile su lunghe distanze, l'oro è un materiale molto durevole, il che lo rende un buon deposito di valore. Le monete d'oro sono state utilizzate come valuta in passato, ma non avrebbero lo stesso scopo nell'era digitale di oggi.
+reviewed: true

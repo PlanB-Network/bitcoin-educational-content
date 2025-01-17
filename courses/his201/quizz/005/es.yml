@@ -1,0 +1,9 @@
+question: ¿Qué economista afirmó en 1999 que lo único que falta, pero que pronto se desarrollará, es el efectivo electrónico confiable?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+  Ganador del Premio Nobel en economía y fundador de la Escuela de Chicago, hizo esta predicción en el micrófono de la Fundación de la Unión Nacional de Contribuyentes. [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: false

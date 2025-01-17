@@ -1,9 +1,11 @@
 question: ¿Cuál es la regla de oro de la ciberseguridad?
-answer: La ciberseguridad es un objetivo en movimiento que se adaptará a tu proceso de aprendizaje.
+answer: La ciberseguridad es un objetivo en movimiento que se adaptará a tu trayectoria de aprendizaje.
 wrong_answers:
-  - La ciberseguridad es una configuración única.
-  - La ciberseguridad no es necesaria para cuentas personales.
-  - La ciberseguridad es solo para personas con conocimientos técnicos.
+  - La ciberseguridad es una configuración única
+  - La ciberseguridad no es necesaria para cuentas personales
+  - La ciberseguridad es solo para personas con conocimientos técnicos
 explanation: |
-  La ciberseguridad es un objetivo en movimiento porque las amenazas y las medidas de seguridad están en constante evolución. Es importante seguir aprendiendo y adaptando tus prácticas.
-reviewed: false
+  La ciberseguridad es un objetivo en movimiento porque las amenazas y
+  las medidas de seguridad están en constante evolución. Es importante
+  seguir aprendiendo y adaptando tus prácticas.
+reviewed: true

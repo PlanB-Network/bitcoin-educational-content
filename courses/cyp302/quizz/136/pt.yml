@@ -1,0 +1,9 @@
+question: Como um serviço online verifica uma senha sem armazená-la diretamente?
+answer: Comparando o hash da senha inserida com o que está no banco de dados
+wrong_answers:
+  - Descriptografando a senha armazenada para verificá-la
+  - Usando uma chave pública para verificar a identidade
+  - Comparando a senha diretamente com a de outros usuários
+explanation: |
+  O serviço gera um hash da senha inserida e compara com o armazenado, sem nunca armazenar diretamente a senha, garantindo assim uma segurança aumentada.
+reviewed: false

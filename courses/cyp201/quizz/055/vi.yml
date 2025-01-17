@@ -1,9 +1,8 @@
-question: Tên gọi thô tục nào đôi khi được sử dụng để chỉ tập hợp các khóa riêng tư trong một ví Bitcoin?
-answer: Chỉ là Một Đám Khóa (JBOC)
+question: Đầu ra của hàm HMAC-SHA512 khi áp dụng vào seed được chia thành bao nhiêu phần?
+answer: Hai phần, mỗi phần 256 bit
 wrong_answers:
-  - Chỉ là Một Đám Tiền Xu (JBOC)
-  - Chỉ là Một Đám Tiền Ảo (JBOC)
-  - Chỉ là Một Đám Mã (JBOC)
+  - Một phần duy nhất 512 bit
+  - Ba phần, mỗi phần 170 bit
+  - Bốn phần, mỗi phần 128 bit
 explanation: |
-  Tập hợp các khóa mật mã riêng tư được tạo ra từ một khóa chính duy nhất trong ví Bitcoin đôi khi được gọi bằng cái tên hơi thô tục là "Chỉ là Một Đám Khóa" (JBOC).
-reviewed: false
+  Đầu ra của HMAC-SHA512 được chia thành hai phần: khóa riêng tư chính (256 bit) và mã chuỗi chính (256 bit).

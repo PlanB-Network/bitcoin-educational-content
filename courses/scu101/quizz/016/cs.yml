@@ -1,9 +1,11 @@
-question: Jaká je jedna výhoda používání VPN při prohlížení internetu z domova?
-answer: Zvyšuje bezpečnost vyměňovaných dat online.
+question: Jaká je jedna z výhod používání VPN při prohlížení internetu z domova?
+answer: Zvyšuje bezpečnost online provozu snížením hrozby ze strany třetích stran.
 wrong_answers:
-  - Zvyšuje rychlost internetu.
-  - Umožňuje přístup k více webovým stránkám.
-  - Šetří mobilní data.
+  - Může zvýšit základní rychlost vašeho internetového připojení.
+  - Vždy umožňuje přístup k více webovým stránkám.
+  - Ušetří spotřebu mobilních dat ve srovnání s nepoužíváním stabilního VPN připojení.
 explanation: |
-  Používání VPN z domova může zvýšit bezpečnost dat, která online vyměňujete. To je proto, že VPN data šifruje, což ztěžuje jejich zachycení třetími stranami.
-reviewed: false
+  Používání VPN doma může zvýšit bezpečnost dat,
+  která online vyměňujete. To je proto, že VPN šifruje data,
+  což ztěžuje třetím stranám jejich zachycení.
+reviewed: true

@@ -1,9 +1,9 @@
-question: ¿Qué es un hash en el contexto de las funciones hash criptográficas?
-answer: Una huella digital única y de tamaño fijo producida por una función hash.
+question: ¿Qué sucede durante cada ronda de compresión en SHA256?
+answer: Las variables de estado se actualizan a partir de las palabras del mensaje y constantes
 wrong_answers:
-  - Un tipo de algoritmo de cifrado.
-  - Una clave utilizada para descifrar datos.
-  - Un método de compresión de datos.
+  - El hash final se genera progresivamente después de cada ronda
+  - Los bits del mensaje se reorganizan
+  - Los valores iniciales de las variables permanecen sin cambios
 explanation: |
-  En el contexto de las funciones hash criptográficas, un hash es una huella digital única y de tamaño fijo producida por la función hash. Representa los datos de entrada de una manera única e irreversible.
+  Cada ronda modifica las variables de estado utilizando palabras, constantes y operaciones lógicas para esparcir la información.
 reviewed: false

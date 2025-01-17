@@ -5,5 +5,6 @@ wrong_answers:
   - Ventas, marketing
   - Cocina, repostería
 explanation: |
-  El capítulo menciona el análisis de registros y la respuesta a incidentes como algunas de las habilidades necesarias en ciberseguridad.
-reviewed: false
+  El capítulo menciona el análisis de registros y la respuesta a incidentes como
+  algunas de las habilidades necesarias en ciberseguridad.
+reviewed: true

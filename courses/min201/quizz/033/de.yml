@@ -1,9 +1,12 @@
-question: Was ist das potenzielle Risiko eines Rückgangs der Anzahl von Benutzern, Knotenpunkten oder Minern im Bitcoin-Netzwerk?
-answer: Es könnte das Netzwerk schwächen und das Risiko der Zentralisierung und Anfälligkeit für Angriffe erhöhen.
+question: Was ist das potenzielle Risiko einer Abnahme der Anzahl der Benutzer, Knoten oder Miner im Bitcoin-Netzwerk?
+answer: Es könnte das Netzwerk schwächen, das Risiko der Zentralisierung erhöhen und die Anfälligkeit für Angriffe steigern.
 wrong_answers:
   - Es könnte den Preis von Bitcoin erhöhen.
-  - Es könnte die Transaktionsgeschwindigkeit verringern.
-  - Es könnte die Mining-Schwierigkeit erhöhen.
+  - Es könnte die Transaktionsgeschwindigkeit sowie die Mining-Schwierigkeit verringern.
+  - Es könnte die Mining-Schwierigkeit und die Anfälligkeit für Angriffe erhöhen, während es das Risiko der Zentralisierung verringert.
 explanation: |
-  Ein Rückgang der Anzahl von Benutzern, Knotenpunkten oder Minern könnte das Bitcoin-Netzwerk schwächen. Dies könnte das Risiko der Zentralisierung erhöhen und das Netzwerk anfälliger für Angriffe machen.
-reviewed: false
+  Eine Abnahme der Anzahl der Benutzer, Knoten oder Miner könnte
+  das Bitcoin-Netzwerk schwächen. Dies könnte das Risiko der
+  Zentralisierung erhöhen und das Netzwerk anfälliger für
+  Angriffe machen.
+reviewed: true

@@ -1,12 +1,12 @@
 question: Mikä on Bitcoin-siirto?
-answer: Omistajuuden siirto Bitcoineista, käyttäen kryptografiaa.
+answer: Omistajuuden siirto bitcoineista käyttäen kryptografiaa.
 wrong_answers:
-  - Fyysinen vaihto Bitcoineista, käyttäen notaaria.
-  - Omistajuuden siirto Bitcoineista, käyttäen fyysistä osoitetta.
-  - Omistajuuden siirto Bitcoineista, käyttäen sähköpostiosoitetta.
+  - Fyysinen vaihto bitcoineista, käyttäen notaaria.
+  - Omistajuuden siirto bitcoineista, käyttäen fyysistä osoitetta.
+  - Omistajuuden siirto bitcoineista, käyttäen sähköpostiosoitetta.
 explanation: |
-  Bitcoin-siirto on digitaalinen omistajuuden siirto Bitcoineista,
-  käyttäen Bitcoin-osoitetta, joka on johdettu Elliptisen Käyrän kryptografian avulla.
-  Tämä osoite on uniikki henkilön Bitcoin-lompakolle,
-  joka vastaanottaa Bitcoinit.
-reviewed: false
+  Bitcoin-siirto on digitaalinen omistajuuden siirto bitcoineista,
+  käyttäen Bitcoin-osoitetta, joka on johdettu Elliptisen käyrän
+  kryptografian avulla. Tämä osoite on uniikki henkilön lompakolle,
+  joka vastaanottaa bitcoinit.
+reviewed: true

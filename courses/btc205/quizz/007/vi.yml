@@ -1,8 +1,0 @@
-question: Rủi ro liên quan đến việc áp dụng KYC là gì?
-answer: Sự tập trung của cơ sở dữ liệu nhạy cảm chứa thông tin cá nhân của người dùng.
-wrong_answers:
-  - Sự phân tán của cơ sở dữ liệu nhạy cảm chứa thông tin cá nhân của người dùng.
-  - Sự tập trung của cơ sở dữ liệu không nhạy cảm chứa thông tin cá nhân của người dùng.
-  - Sự phân tán của cơ sở dữ liệu không nhạy cảm chứa thông tin cá nhân của người dùng.
-explanation: |
-  Việc áp dụng KYC dẫn đến sự tập trung của các cơ sở dữ liệu cực kỳ nhạy cảm chứa thông tin cá nhân của người dùng. Thông tin này, có một giá trị nhất định, có thể được bán cho các thực thể xấu xa.

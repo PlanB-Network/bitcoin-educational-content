@@ -1,0 +1,11 @@
+question: Strategi apa yang digunakan Wabisabi untuk meningkatkan anonset peserta?
+
+answer: Dengan beberapa transaksi besar.
+
+wrong_answers:
+  - Dengan banyak transaksi kecil.
+  - Dengan satu transaksi kecil.
+  - Tanpa transaksi.
+
+explanation: |
+  Untuk meningkatkan anonset peserta, Wabisabi menggunakan transaksi coinjoin yang sangat besar yang mengelompokkan bersama puluhan peserta.

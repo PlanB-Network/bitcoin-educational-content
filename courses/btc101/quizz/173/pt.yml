@@ -1,9 +1,11 @@
 question: Qual é uma das razões pelas quais o Bitcoin é atraente para certos grupos?
-answer: Sua capacidade de oferecer soluções como dinheiro eletrônico sem confiança, resistência à censura ou política monetária transparente e imutável.
+answer: Sua capacidade de oferecer soluções como dinheiro eletrônico sem necessidade de confiança mútua, resistência à censura, ou política monetária transparente e imutável.
 wrong_answers:
-  - É fácil de falsificar.
-  - É controlado por uma autoridade central.
-  - Não é pseudônimo.
-explanation: |
-  A natureza descentralizada, o pseudonimato e a resistência à censura do Bitcoin o tornam atraente para grupos como tecnófilos, criptógrafos, libertários e entusiastas do ouro.
-reviewed: false
+  - É fácil de falsificar e pode criar soluções para receber mais dinheiro com um simples clique.
+  - É controlado por uma autoridade central que distribui capital livremente para os usuários.
+  - Não é pseudônimo, então cada usuário é bem conhecido e confiável.
+explanation: >-
+  A natureza descentralizada do Bitcoin, pseudonimato e resistência à censura
+  tornam-no atraente para grupos como tecnófilos, ciferpunks, libertários e
+  entusiastas do ouro.
+reviewed: true

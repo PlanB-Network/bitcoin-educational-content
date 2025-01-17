@@ -1,0 +1,9 @@
+question: Kapan peluncuran jaringan prototipe Bitcoin sebenarnya pada tahun 2009?
+answer: 9 Januari 2009, pukul 02; 54; 25 UTC
+wrong_answers:
+  - 3 Januari 2009, pukul 18: 15; 05 UTC
+  - 8 Januari 2009, pukul 19: 27; 40 UTC
+  - 12 Januari 2009, pukul 03: 30; 25 UTC
+explanation: |
+  Ini adalah waktu pencatatan blok 1 dari blockchain, yang ditambang oleh Satoshi Nakamoto setelah mempublikasikan kode perangkat lunak di milis beberapa jam sebelumnya. Blok genesis (0) dibuat antara 3 dan 8 Januari, tetapi tidak ada jaringan sebenarnya per se.
+reviewed: false

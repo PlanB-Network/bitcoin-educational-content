@@ -1,9 +1,11 @@
 question: Quelle est la pratique recommandée pour l'utilisation d'un compte administrateur sur Windows ?
-answer: Créez deux comptes distincts; un compte administrateur et un compte pour une utilisation quotidienne.
+answer: Créer deux comptes séparés ; un compte administrateur et un compte pour l'usage quotidien.
 wrong_answers:
-  - Utilisez le compte administrateur pour une utilisation quotidienne.
-  - Créez plusieurs comptes administrateurs.
-  - Ne créez pas de compte administrateur.
+  - Utiliser le compte administrateur pour l'usage quotidien, si le PC n'est pas connecté à internet.
+  - Créer deux comptes administrateurs séparés ; un pour l'usage quotidien et un pour l'administration du système d'exploitation.
+  - Ne pas créer de compte administrateur.
 explanation: |
-  Utiliser un compte administrateur pour une utilisation quotidienne sur Windows peut exposer le système à davantage de risques de sécurité. Il est recommandé de créer deux comptes distincts : l'un pour les tâches administratives et l'autre pour une utilisation quotidienne.
-reviewed: false
+  Utiliser un compte administrateur pour l'usage quotidien sur Windows peut
+  exposer le système à davantage de risques de sécurité. Il est recommandé
+  de créer deux comptes séparés ; un pour les tâches administratives et un autre pour l'usage quotidien.
+reviewed: true

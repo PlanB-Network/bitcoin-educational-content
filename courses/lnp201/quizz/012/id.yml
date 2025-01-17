@@ -1,0 +1,9 @@
+question: Kapan sebuah saluran Lightning secara resmi terbuka?
+answer: Ketika transaksi deposit dikonfirmasi di blockchain Bitcoin
+wrong_answers:
+  - Segera setelah kunci publik ditukarkan antar peserta
+  - Ketika transaksi penarikan ditandatangani oleh kedua belah pihak
+  - Segera setelah alamat multisignature 2/2 dibuat
+explanation: |
+  Saluran dianggap terbuka setelah transaksi deposit telah dimasukkan dalam blok Bitcoin dan telah mencapai sejumlah konfirmasi tertentu.
+reviewed: false

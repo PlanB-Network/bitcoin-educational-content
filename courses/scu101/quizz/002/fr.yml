@@ -1,9 +1,12 @@
-question: Pourquoi est-il recommandé de télécharger des logiciels à partir du site officiel de l'éditeur plutôt que de sites génériques ?
+question: Pourquoi est-il recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que sur des sites génériques ?
 answer: Pour garantir que le logiciel est exempt de logiciels malveillants.
 wrong_answers:
   - Pour soutenir financièrement l'éditeur.
   - Parce que le logiciel est généralement moins cher sur le site officiel.
   - Parce que les logiciels sur les sites génériques sont généralement obsolètes.
 explanation: |
-  Télécharger des logiciels à partir du site officiel de l'éditeur garantit que vous obtenez la version légitime du logiciel, qui est exempte de tout logiciel malveillant pouvant endommager votre appareil ou voler vos données.
-reviewed: false
+  Télécharger des logiciels depuis le site officiel de l'éditeur
+  garantit que vous obtenez la version légitime du logiciel, qui est
+  exempt de tout logiciel malveillant pouvant endommager votre appareil
+  ou voler vos données.
+reviewed: true

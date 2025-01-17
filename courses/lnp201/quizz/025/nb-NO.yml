@@ -1,0 +1,9 @@
+question: Hva er de tre metodene for å lukke en kanal på Lightning Network?
+answer: Samarbeidslukking, tvungen lukking, lukking med juks
+wrong_answers:
+  - Rask lukking, langsom lukking, lukking med dobbel signatur
+  - Sikker lukking, automatisert lukking, lukking med tap av midler
+  - Direkte lukking, indirekte lukking, lukking med krav
+explanation: |
+  Det er tre metoder: samarbeidslukking hvor partene er enige, tvungen lukking uten respons fra en part, og lukking med juks hvor en part forsøker å publisere en gammel transaksjon.
+reviewed: false

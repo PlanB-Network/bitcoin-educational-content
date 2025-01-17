@@ -1,0 +1,13 @@
+question: Tra le seguenti risposte, quale non è una pratica consigliata per gestire il proprio cambio doxxico?
+
+answer: Unire insieme UTXO doxxici.
+
+wrong_answers:
+  - Mescolare UTXO doxxici in un pool più piccolo.
+  - Donare i propri UTXO doxxici.
+  - Segnare i propri UTXO doxxici come non spendibili.
+
+explanation: |
+  Si sconsiglia di unire insieme UTXO doxxici perché permette di stabilire una connessione tra le diverse voci dell'utente in Whirlpool.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Menurut Hayek, apa hubungan antara sosialisme dan Nazisme?
+answer: Semua jawaban lainnya (mereka berbagi penolakan terhadap individualisme, memprioritaskan kesejahteraan kelompok, menggunakan paksaan).
+wrong_answers:
+  - Kedua ideologi tersebut tidak kompatibel.
+  - Sosialisme dan Nazisme berseberangan dalam masalah ekonomi.
+  - Sosialisme dan Nazisme tidak memiliki hubungan.
+explanation: |
+  Hayek berargumen bahwa sosialisme dan Nazisme memiliki ciri-ciri umum, seperti penolakan terhadap individualisme demi kolektif dan penggunaan paksaan, membuat mereka serupa dalam efek otoriter mereka.
+reviewed: false

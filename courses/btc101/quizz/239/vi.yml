@@ -1,9 +1,14 @@
-question: Mạng Lưới Lightning có thể thay đổi mô hình thanh toán như thế nào?
-answer: Người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng dịch vụ
+question: Điều nào sau đây không phải là một tính năng chính của các giao dịch nhỏ trên Mạng Lưới Lightning?
+answer: Thời gian thanh toán lâu.
 wrong_answers:
-  - Người dùng có thể được tính một khoản phí cố định khi sử dụng dịch vụ
-  - Người dùng có thể được tính phí dựa trên lượng dữ liệu họ sử dụng
-  - Người dùng có thể được tính phí dựa trên số lượng giao dịch họ thực hiện
-explanation: >-
-  Với Mạng Lưới Lightning, thay vì trả một khoản đăng ký hàng tháng cho một dịch vụ, người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng dịch vụ.
-reviewed: false
+  - Phí thấp.
+  - Thanh toán tức thì.
+  - Khả năng mở rộng.
+explanation: |
+  Với các giao dịch nhỏ trên Mạng Lưới Lightning, người dùng có thể
+  hưởng mức phí giao dịch thấp, làm cho việc gửi
+  các khoản tiền rất nhỏ trở nên kinh tế. Họ cũng có thể thực hiện
+  thanh toán tức thì, cho phép giao dịch diễn ra theo thời gian thực. Cuối cùng, họ
+  có thể đạt được khả năng mở rộng, cho phép xử lý một số lượng lớn
+  giao dịch cùng một lúc. Do đó, câu trả lời sai là thời gian thanh toán lâu.
+reviewed: true

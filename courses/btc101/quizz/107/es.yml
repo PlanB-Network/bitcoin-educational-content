@@ -1,9 +1,11 @@
 question: ¿Cuál es el papel de un notario en el contexto de la herencia de Bitcoin?
-answer: Para garantizar el cumplimiento fiscal
+answer: Aseguran el cumplimiento fiscal.
 wrong_answers:
-  - Para gestionar tus bitcoins después de tu muerte
-  - Para crear tu plan de herencia
-  - Para asegurar tus bitcoins
+  - Gestionan tus bitcoins después de tu muerte.
+  - Modifican tu plan de herencia.
+  - Aseguran tus bitcoins en una caja fuerte.
 explanation: |
-  En el contexto de la herencia de Bitcoin, es importante discutir la herencia de los bitcoins con un notario para garantizar el cumplimiento fiscal.
+  En el contexto de la herencia de Bitcoin, es importante
+  discutir la herencia de bitcoins con un notario para asegurar
+  el cumplimiento fiscal.
 reviewed: false

@@ -48,7 +48,7 @@ To je důvod, proč považuji použití Whirlpoolu za zvláště relevantní v s
 
 Doufám, že tato odpověď osvětlila model Whirlpool. Pokud se chcete dozvědět více o tom, jak coinjoiny fungují na Bitcoinu, doporučuji přečíst můj podrobný článek na toto téma :
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 **Externí zdroje:**
 - Samourai Wallet Whirlpool

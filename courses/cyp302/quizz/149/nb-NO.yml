@@ -1,0 +1,8 @@
+question: Hva er definisjonen av et heltall som er relativt primt med hensyn til et annet heltall?
+answer: Et heltall som har største felles divisor på 1 med det andre heltallet
+wrong_answers:
+  - Et heltall som er delelig med det andre heltallet uten rest
+  - Et heltall som er primtall
+  - Et heltall som er større enn det andre
+explanation: |
+  Et heltall er relativt primt med et annet hvis deres største felles divisor er 1, noe som betyr at de ikke deler noen andre felles faktorer.

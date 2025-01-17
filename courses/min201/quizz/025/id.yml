@@ -1,0 +1,11 @@
+question: Apa yang sering disebut sebagai lapisan dasar dari jaringan Bitcoin?
+answer: Lapisan penyelesaian
+wrong_answers:
+  - Lapisan transaksi
+  - Lapisan keamanan
+  - Lapisan konsensus
+explanation: |
+  Lapisan dasar dari jaringan Bitcoin, yang menjadi dasar bagi
+  Lightning Network untuk membuka dan menutup saluran pembayaran,
+  sering disebut sebagai lapisan penyelesaian.
+reviewed: true

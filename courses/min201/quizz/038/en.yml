@@ -5,8 +5,10 @@ wrong_answers:
   - An initiative that aims to decrease the hashrate of the network
   - An initiative that aims to centralize the hashing power
 explanation: |
-  The Attakai initiative aims to make Bitcoin mining more accessible and
-  less harmful. It encourages people to mine at home with more affordable hardware
-  and solutions to reduce noise pollution. The initiative also emphasizes the importance
-  of contributing to the security and decentralization of the Bitcoin network.
-reviewed: false
+  The Attakai initiative aims to make Bitcoin mining more
+  accessible and less harmful. It encourages people to mine
+  at home with more affordable hardware and solutions to
+  reduce noise pollution. The initiative also emphasizes the
+  importance of contributing to the security and
+  decentralization of the Bitcoin network.
+reviewed: true

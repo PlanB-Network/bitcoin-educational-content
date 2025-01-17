@@ -1,0 +1,9 @@
+question: Tại sao Bastiat chỉ trích khái niệm về thuế phân phối lại tiến bộ?
+answer: Bởi vì nó cho phép việc cướp bóc hợp pháp bởi đa số đối với một thiểu số
+wrong_answers:
+  - Bởi vì nó không hiệu quả trong việc tạo ra thu nhập từ thuế
+  - Bởi vì nó chỉ có lợi cho các tầng lớp lao động
+  - Bởi vì nó chủ yếu có lợi cho các công ty tư nhân
+explanation: |
+  Bastiat tin rằng thuế phân phối lại tiến bộ cho phép đa số khai thác một thiểu số, biến thuế thành công cụ của việc cướp bóc hợp pháp.
+reviewed: false

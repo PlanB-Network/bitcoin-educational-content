@@ -1,0 +1,9 @@
+question: Que tipo de grupo utiliza primariamente a criptografia?
+answer: Grupos definidos sobre inteiros ou elementos descritos por inteiros
+wrong_answers:
+  - Grupos de números complexos ou elementos descritos por números complexos
+  - Grupos de transformações geométricas ou elementos descritos por transformações geométricas
+  - Grupos de números racionais ou elementos descritos por números racionais
+explanation: |
+  A criptografia utiliza grupos baseados em inteiros, ou elementos descritos por inteiros como os pontos em uma curva elíptica, para operações de criptografia e assinatura.
+reviewed: false

@@ -1,9 +1,12 @@
 question: In welchen Bereichen wirft Bitcoin Fragen auf?
-answer: Kryptographie, Spieltheorie, Wirtschaft und Geldpolitik, Informatik, Philosophie, Energie, Gesetze und Regulierung
+answer: Kryptographie, Spieltheorie, Wirtschaft und Geldpolitik, Informatik, Philosophie, Energie, Gesetze und Regulierung.
 wrong_answers:
   - Nur Informatik und Wirtschaft
-  - Nur Kryptographie und Spieltheorie
-  - Nur Philosophie und Energie
-explanation: >-
-  Bitcoin ist ein multidisziplinäres Objekt, das Fragen in verschiedenen Bereichen aufwirft, einschließlich Kryptographie, Spieltheorie, Wirtschaft und Geldpolitik,
+  - Nur Kryptographie und Spieltheorie.
+  - Nur Philosophie und Energie.
+explanation: |
+  Bitcoin ist ein multidisziplinäres Thema, das
+  Fragen in verschiedenen Bereichen aufwirft, einschließlich
+  Kryptographie, Spieltheorie, Wirtschaft und Geldpolitik,
   Informatik, Philosophie, Energie, Gesetze und Regulierung.
+reviewed: true

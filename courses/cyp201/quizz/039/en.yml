@@ -1,10 +1,9 @@
-question: What is the security of public and private keys based on?
-answer: The discrete logarithm problem
+question: What is the main role of a Bitcoin wallet?
+answer: Manage and secure private keys
 wrong_answers:
-  - The prime factorization problem
-  - The knapsack problem
-  - The traveling salesman problem
+  - Store the user's bitcoins
+  - Ensure the confidentiality of transactions automatically
+  - Generate bitcoins for each user
 explanation: |
-  The security of public and private keys relies on the discrete logarithm
-  problem, a complex mathematical question.
+  A Bitcoin wallet does not directly store bitcoins but manages the private keys necessary to unlock the UTXOs that represent the bitcoins.
 reviewed: false

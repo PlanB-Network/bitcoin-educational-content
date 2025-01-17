@@ -7,6 +7,7 @@ objectives:
   - Utilizzare metodi e strumenti per proteggere la propria privacy su Bitcoin
   - Comprendere i metodi di analisi della catena e sviluppare strategie di difesa
 ---
+
 # Proteggi la tua privacy su Bitcoin
 
 In un mondo in cui la privacy delle transazioni finanziarie sta gradualmente diventando un lusso, comprendere e padroneggiare i principi della protezione della privacy nel tuo utilizzo di Bitcoin è essenziale. Questa formazione ti fornisce tutte le chiavi, sia teoriche che pratiche, per raggiungere questo obiettivo autonomamente.
@@ -69,7 +70,6 @@ Nella quinta sezione, forniremo una panoramica di tutte le altre tecniche esiste
 Affronteremo anche la privacy a livello della rete di nodi e la diffusione delle transazioni. Discuteremo anche dei vari protocolli che sono stati proposti nel corso degli anni per migliorare la privacy degli utenti su Bitcoin, inclusi i protocolli di indirizzi statici.
 
 ![BTC204](assets/notext/11/5.webp)
-
 
 # Definizioni e Concetti Chiave
 
@@ -271,8 +271,12 @@ Questi punti di ingresso sono quasi inevitabili nell'uso di Bitcoin. Anche se si
 
 Quindi, è anche necessario essere in grado di affrontare l'analisi della blockchain nel nostro uso di Bitcoin. Procedendo in questo modo, possiamo minimizzare l'aggregazione delle nostre attività e limitare l'impatto di un punto di ingresso sulla nostra privacy.
 
-Infatti, per contrastare meglio l'analisi della blockchain, quale approccio migliore se non familiarizzare con i metodi utilizzati nell'analisi della blockchain? Se vuoi sapere come migliorare la tua privacy su Bitcoin, devi comprendere questi metodi. Ciò ti permetterà di comprendere meglio tecniche come [coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) o [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (tecniche che studieremo nelle ultime parti della formazione), e di ridurre gli errori che potresti commettere.
+Infatti, per contrastare meglio l'analisi della blockchain, quale approccio migliore se non familiarizzare con i metodi utilizzati nell'analisi della blockchain? Se vuoi sapere come migliorare la tua privacy su Bitcoin, devi comprendere questi metodi. Ciò ti permetterà di comprendere meglio tecniche come coinjoin o payjoin (tecniche che studieremo nelle ultime parti della formazione), e di ridurre gli errori che potresti commettere.
 In questo contesto, possiamo fare un'analogia con la crittografia e la crittoanalisi. Un buon crittografo è prima di tutto un buon crittoanalista. Per immaginare un nuovo algoritmo di crittografia, è necessario sapere quali attacchi dovrà affrontare e studiare anche perché gli algoritmi precedenti sono stati violati. Lo stesso principio si applica alla privacy su Bitcoin. Comprendere i metodi di analisi della blockchain è la chiave per proteggersi da essa. Ecco perché propongo un'intera sezione sull'analisi della blockchain in questa formazione.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### I metodi di analisi della blockchain
 
@@ -784,7 +788,6 @@ Pertanto, sembra probabile che l'utente che ha fornito l'UTXO come input detenga
 **_Esercizio 5:_**
 Possiamo vedere che 8 transazioni possono essere associate all'identità di Loïc. Tra queste, 4 coinvolgono la ricezione di bitcoin:
 
-
 ```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
 8b70bd322e6118b8a002dbdb731d16b59c4a729c2379af376ae230cf8cdde0dd
@@ -800,7 +803,8 @@ c12499e9a865b9e920012e39b4b9867ea821e44c047d022ebb5c9113f2910ed6
 a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 3aeb7ce02c35eaecccc0a97a771d92c3e65e86bedff42a8185edd12ce89d89cc
 ```
-***Esercizio 6:***
+
+**_Esercizio 6:_**
 Se esaminiamo il modello di questa transazione, è evidente che si tratta di una spesa raggruppata. Infatti, la transazione ha un singolo input e 51 output, il che indica un'attività economica significativa. Possiamo quindi ipotizzare che Loïc abbia effettuato un prelievo di bitcoin da una piattaforma di scambio.
 
 Diversi elementi rafforzano questa ipotesi. Innanzitutto, il tipo di script utilizzato per proteggere l'UTXO in input è uno script P2SH multisig 2/3, che indica un livello avanzato di sicurezza tipico delle piattaforme di scambio:
@@ -813,12 +817,14 @@ OP_PUSHBYTES_33 03d95ef2dc0749859929f3ed4aa5668c7a95baa47133d3abec25896411321d2d
 OP_PUSHNUM_3
 OP_CHECKMULTISIG
 ```
+
 Inoltre, l'indirizzo analizzato `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` è stato riutilizzato in più di 220.000 transazioni diverse, il che è spesso caratteristico delle piattaforme di scambio, generalmente non preoccupate per la loro privacy. L'euristica temporale applicata a questo indirizzo mostra anche una diffusione regolare delle transazioni quasi giornaliera per un periodo di 3 mesi, con orari prolungati su 24 ore, suggerendo l'attività continua di una piattaforma di scambio.
 
 Infine, i volumi elaborati da questa entità sono enormi. Infatti, l'indirizzo ha ricevuto e inviato 44 BTC durante 222.262 transazioni tra dicembre 2022 e marzo 2023. Questi volumi significativi confermano ulteriormente la probabile natura dell'attività di una piattaforma di scambio.
 
-***Esercizio 7:***
+**_Esercizio 7:_**
 Analizzando i tempi di conferma delle transazioni, si possono notare i seguenti orari UTC:
+
 ```plaintext
 05:43
 20:51
@@ -828,7 +834,7 @@ Analizzando i tempi di conferma delle transazioni, si possono notare i seguenti 
 23:38
 07:45
 21:55
-````
+```
 
 Analizzando questi orari, appare evidente che i fusi orari UTC-7 e UTC-8 siano coerenti con un intervallo di comuni attività umane (tra le 08:00 e le 23:00) per la maggior parte degli orari:
 
@@ -872,7 +878,7 @@ _Per la stesura di questa parte 3 sull'analisi della catena, mi sono affidato al
 - _La serie di quattro articoli intitolata: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), prodotta da Samourai Wallet nel 2021;_
 - _I vari rapporti di [OXT Research](https://medium.com/oxt-research), così come il loro strumento gratuito di analisi della catena (che al momento non è più disponibile a seguito dell'arresto dei fondatori di Samourai Wallet);_
 - _Più in generale, le mie conoscenze provengono dai vari tweet e contenuti di [@LaurentMT](https://twitter.com/LaurentMT) e [@ErgoBTC](https://twitter.com/ErgoBTC);_
-- _Il [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) a cui ho partecipato insieme a [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene\_\_\_](https://twitter.com/Sosthene___), e [@LaurentMT](https://twitter.com/LaurentMT)._
+- \_Il [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) a cui ho partecipato insieme a [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene\_\_\_](https://twitter.com/Sosthene___), e [@LaurentMT](https://twitter.com/LaurentMT).\_
   _Vorrei ringraziare i loro autori, sviluppatori e produttori. Grazie anche ai revisori che hanno corretto meticolosamente l'articolo che ha servito come base per questa parte 3 e mi hanno onorato con i loro consigli esperti:_
 - _[Gilles Cadignan](https://twitter.com/gillesCadignan);_
 - _[Ludovic Lars](https://viresinnumeris.fr/)._
@@ -1072,8 +1078,7 @@ Tutti questi metodi di selezione automatica degli UTXO possono essere efficaci n
 
 Se desideri scoprire come etichettare i tuoi UTXO, abbiamo realizzato un tutorial completo sui principali software di portafoglio Bitcoin esistenti:
 
-https://planb.network/tutorials/privacy/utxo-labelling
-
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC e Identificazione Chiave
 
@@ -1187,26 +1192,38 @@ Un altro svantaggio degli acquisti P2P è che il prezzo è spesso più alto risp
 
 Per quanto riguarda le soluzioni, ho personalmente sempre usato [Bisq](https://bisq.network/) e ne sono molto soddisfatto. Il loro sistema è ben consolidato e sembra affidabile. Tuttavia, Bisq è disponibile solo su PC e la sua interfaccia potrebbe essere troppo complessa per i principianti. Un altro svantaggio è che Bisq opera esclusivamente con transazioni onchain, che possono diventare costose durante periodi di commissioni di transazione elevate su Bitcoin.
 
-[-> Scopri il nostro tutorial su Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+-> Scopri il nostro tutorial su Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Per un'opzione più semplice, puoi provare [Peach](https://peachbitcoin.com/), un'app mobile che facilita la connessione tra acquirenti e venditori con un sistema integrato di risoluzione delle controversie. Il processo è più intuitivo rispetto a quello di Bisq.
 
-[-> Scopri il nostro tutorial su Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+-> Scopri il nostro tutorial su Peach.
 Un'altra opzione online è [HodlHodl](https://hodlhodl.com/), una piattaforma ben consolidata che offre una buona liquidità, anche se personalmente non l'ho testata.
-[-> Scopri il nostro tutorial su HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+-> Scopri il nostro tutorial su HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Per soluzioni basate sulla Lightning Network, puoi provare [RoboSats](https://learn.robosats.com/) e [LNP2PBot](https://lnp2pbot.com/). RoboSats è accessibile tramite un sito web ed è relativamente semplice da usare. LNP2PBot è più atipico, in quanto opera attraverso un sistema di scambio sull'app di messaggistica Telegram.
 
-[-> Scopri il nostro tutorial su RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Scopri il nostro tutorial su LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+-> Scopri il nostro tutorial su RoboSats.
+-> Scopri il nostro tutorial su LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ### Piattaforme regolamentate senza KYC
 
 A seconda del paese in cui vivi, potresti avere accesso a piattaforme regolamentate che non richiedono una procedura KYC per comprare o vendere bitcoin. In Svizzera, ad esempio, puoi utilizzare piattaforme come [Relai](https://relai.app/) e [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Scopri il nostro tutorial su Relai.](https://planb.network/en/tutorials/exchange/relai)
+-> Scopri il nostro tutorial su Relai.
 Come abbiamo visto nel capitolo precedente, questo tipo di piattaforma ti risparmia i rischi associati alle procedure KYC, ma presentano un livello di rischio più elevato per l'identificazione delle chiavi. In termini di privacy su Bitcoin, queste piattaforme offrono quindi una protezione migliore rispetto ai metodi di acquisto con KYC, ma sono meno interessanti rispetto agli scambi P2P.
 Tuttavia, in termini di sicurezza personale, l'utilizzo di queste piattaforme è significativamente meno rischioso rispetto agli scambi P2P. Sono anche spesso più semplici da usare rispetto alle piattaforme che facilitano gli scambi P2P.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Bancomat
 
@@ -1223,13 +1240,17 @@ Il modo migliore per spendere BTC è ovviamente utilizzare direttamente Bitcoin 
 
 Diverse piattaforme che non richiedono una procedura KYC offrono la possibilità di scambiare bitcoin con carte regalo utilizzabili nei principali negozi. Tra queste piattaforme, troviamo [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), e [Bitrefill](https://www.bitrefill.com/). Queste piattaforme facilitano notevolmente l'uso quotidiano dei tuoi bitcoin permettendoti di accedere a una vasta gamma di prodotti e servizi senza dover passare attraverso una conversione in valuta fiat.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ### Altri Metodi di Acquisizione
 
 Tra gli altri metodi per acquisire bitcoin proteggendo la tua privacy, c'è ovviamente il mining. Per iniziare a minare sats, non è necessario rivelare la tua identità; è sufficiente trovare una prova di lavoro valida e sottoporla alla rete. Se opti per il mining in pool, alcuni pool richiedono una forma di identificazione, come il KYC, mentre altri no.
 
 Un altro metodo consiste nel lavorare in cambio di bitcoin. Questo metodo di acquisizione può essere interessante, ma il grado di identificazione richiesto varia notevolmente a seconda delle circostanze.
 
-_Per scrivere questo capitolo, ho utilizzato il corso [BTC205](https://planb.network/fr/courses/btc205) creato da [@pivi\_\_\_](https://x.com/pivi___) sulla Rete PlanB (disponibile solo in francese per il momento)._
+\_Per scrivere questo capitolo, ho utilizzato il corso BTC205 creato da [@pivi\_\_\_](https://x.com/pivi___) sulla Rete Plan ₿ (disponibile solo in francese per il momento).\_
+
+
 
 ## Consolidamento, Gestione UTXO e CIOH
 
@@ -1291,7 +1312,6 @@ In questo esempio, sarebbe saggio mantenere un valore minimo di 940.000 sat per 
 Una delle euristiche più utilizzate nell'analisi delle catene è la COIH (_Common Input Ownership Heuristic_), che permette di assumere che tutti gli input di una transazione Bitcoin appartengano alla stessa entità. Precisamente, il principio di consolidamento è consumare diversi UTXO come input e creare un singolo UTXO come output. Pertanto, il consolidamento permette l'applicazione della COIH.
 
 ![BTC204](assets/notext/45/04.webp)
-
 
 In pratica, ciò significa che un osservatore esterno può dedurre che tutti gli UTXO consolidati appartengono probabilmente alla stessa persona e che l'unico output generato appartiene anche a loro. Questa situazione può compromettere la tua privacy collegando diverse storie di transazione. Per esempio, diciamo che consolido 3 UTXO acquisiti in P2P con un UTXO ottenuto tramite una piattaforma che richiede KYC:
 ![BTC204](assets/notext/45/05.webp)
@@ -1764,11 +1784,11 @@ Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi ri
 
 Nel prossimo capitolo, scopriremo cosa sono gli "anonsets", come vengono calcolati questi indicatori e come possono aiutarci a stimare l'efficacia dei cicli di coinjoin.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Set di Anonimato
 
@@ -1830,7 +1850,7 @@ Per esempio, immaginiamo che la nostra moneta all'uscita del ciclo di coinjoin b
 
 Come abbiamo visto in questo capitolo, gli anonset possono essere calcolati solo se c'è una certa omogeneità nella struttura dei coinjoin. E precisamente, nel prossimo capitolo, scopriremo come quantificare questa omogeneità in una transazione Bitcoin, sia che si tratti di un coinjoin o di una transazione più tradizionale.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropia
 
@@ -2020,21 +2040,21 @@ $$
 
 Se riconsideriamo l'esempio di un ciclo di Surge 8x8 Whirlpool coinjoin, la tabella di Boltzmann apparirebbe così:
 
-|       | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| IN.0  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
-| IN.1  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
-| IN.2  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
-| IN.3  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
-| IN.4  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
-| IN.5  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
-| IN.6  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
-| IN.7  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+|      | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 |
+| ---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| IN.0 | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.1 | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.2 | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.3 | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.4 | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.5 | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.6 | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
+| IN.7 | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
 
 Tuttavia, nel caso di una transazione semplice che coinvolge un singolo input e 2 output, la situazione è diversa:
 
 | %       | Output 0 | Output 1 |
-|---------|----------|----------|
+| ------- | -------- | -------- |
 | Input 0 | 100%     | 100%     |
 
 Qui, osserviamo che la probabilità che ciascun output provenga dall'input #0 è del 100%. Una probabilità inferiore si traduce quindi in una maggiore privacy diluendo i collegamenti diretti tra gli input e gli output.
@@ -2043,7 +2063,9 @@ Qui, osserviamo che la probabilità che ciascun output provenga dall'input #0 è
 
 È anche possibile calcolare il numero di collegamenti deterministici in una transazione. Questo indicatore rivela quanti collegamenti tra gli input e gli output nella transazione analizzata sono indiscutibili, con una probabilità del 100%. Questo indicatore può poi essere completato calcolando il rapporto dei collegamenti deterministici. Il rapporto fornisce una prospettiva sul peso di questi collegamenti deterministici all'interno di tutti i collegamenti della transazione.
 Ad esempio, una transazione di tipo Whirlpool coinjoin non mostra un collegamento deterministico tra gli input e gli output, mostrando quindi un indicatore di 0 collegamenti e un rapporto del 0%. Al contrario, nella nostra seconda transazione di pagamento semplice esaminata (con un input e 2 output), l'indicatore ci dice che ci sono 2 collegamenti deterministici e il rapporto raggiunge il 100%. Pertanto, un indicatore nullo segnala un'eccellente privacy a causa dell'assenza di connessioni dirette e indiscutibili tra gli input e gli output.
+
 ### Come calcolare questi indicatori?
+
 Calcolare manualmente questi indicatori utilizzando le equazioni che ho fornito è relativamente semplice. La principale difficoltà risiede nel determinare il numero di possibili interpretazioni di una transazione. Per una transazione standard, questo calcolo può essere eseguito a mano. Tuttavia, per un coinjoin, il compito è significativamente più complesso.
 
 In precedenza, esisteva uno strumento Python chiamato _Boltzmann Calculator_, sviluppato dai team di OXT e Samourai, che permetteva il calcolo automatico di tutti questi indicatori per una transazione Bitcoin:
@@ -2058,12 +2080,14 @@ Sfortunatamente, a seguito dell'arresto dei fondatori di Samourai, questi strume
 
 Ora che abbiamo discusso in dettaglio i coinjoin, esploreremo altre tecniche di privacy disponibili su Bitcoin nell'ultima sezione della nostra formazione. Esamineremo le transazioni payjoin, tipi di transazione specifici pseudo-coinjoin, protocolli di indirizzo statico, così come misure volte a migliorare la privacy non a livello di transazione, ma a livello della rete di nodi.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Comprendere le posta in gioco di altre tecniche di privacy avanzate
+
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
 ## Transazioni Payjoin
+
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
 Attualmente, il coinjoin rappresenta il metodo più efficace per introdurre incertezza nel tracciamento delle monete durante un'analisi della catena. Come abbiamo visto nei capitoli precedenti, per ottenere un mixing efficace, è necessario che gli input e gli output siano il più omogenei possibile. Inoltre, è cruciale che le monete siano integrate in un gruppo il più grande possibile per massimizzare gli anonset. Quindi, affinché i coinjoin siano efficaci, devono coinvolgere un grande numero di monete uniformi. Questa moltitudine di requisiti significa che le transazioni coinjoin hanno una struttura molto rigida: gli importi sono predeterminati e tutti i partecipanti devono attenersi ad essi per garantire l'uniformità del processo. Inoltre, i coinjoin richiedono la sincronizzazione tra tutti i partecipanti e il coordinatore durante la costruzione della transazione.
@@ -2074,9 +2098,10 @@ Tuttavia, sarebbe interessante avere strutture di transazione che permettano pag
 
 Payjoin è una specifica struttura di transazione Bitcoin che migliora la privacy dell'utente durante una spesa collaborando con il destinatario del pagamento.
 Nel 2015, LaurentMT ha menzionato per la prima volta questo metodo sotto il nome di "transazioni steganografiche", secondo un documento accessibile [qui](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Questa tecnica è stata successivamente adottata dal Samourai Wallet, che nel 2018, è stato il primo client a implementarla con lo strumento Stowaway. Il concetto di payjoin si trova anche in [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) e [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Diversi termini sono quindi utilizzati per designare un payjoin:
+
 - Payjoin;
 - Stowaway;
-- P2EP (*Pay-to-End-Point*);
+- P2EP (_Pay-to-End-Point_);
 - Transazione steganografica.
 
 La particolarità del payjoin risiede nella sua capacità di generare una transazione che appare ordinaria a prima vista, ma che in realtà è un mini Coinjoin tra due persone. Per questo, la struttura della transazione coinvolge il destinatario del pagamento negli input insieme al mittente effettivo. Il destinatario include quindi un pagamento a se stesso nel mezzo della transazione che gli permette di essere pagato.
@@ -2089,7 +2114,7 @@ Nell'esempio, Bob il panettiere inserisce 15.000 sats e esce con 19.000 sats, la
 
 La transazione payjoin soddisfa due obiettivi che consentono agli utenti di migliorare la privacy del loro pagamento.
 
-In primo luogo, il payjoin mira a ingannare un osservatore esterno creando un diversivo nell'analisi della catena. Questo è reso possibile grazie all'euristica CIOH (*Common Input Ownership Heuristic*). Come abbiamo visto nella parte 3, di solito, quando una transazione sulla blockchain ha più input, si presume che tutti questi input appartengano alla stessa entità o utente.
+In primo luogo, il payjoin mira a ingannare un osservatore esterno creando un diversivo nell'analisi della catena. Questo è reso possibile grazie all'euristica CIOH (_Common Input Ownership Heuristic_). Come abbiamo visto nella parte 3, di solito, quando una transazione sulla blockchain ha più input, si presume che tutti questi input appartengano alla stessa entità o utente.
 
 Quindi, quando un analista esamina una transazione payjoin, è portato a credere che tutti gli input provengano dalla stessa persona. Tuttavia, questa percezione è errata, poiché il destinatario del pagamento contribuisce anche agli input insieme al pagatore effettivo. L'analisi della catena è quindi deviata verso un'interpretazione che si rivela falsa.
 
@@ -2124,11 +2149,12 @@ La difficoltà nell'uso di payjoin risiede nella sua dipendenza dalla partecipaz
 
 Una soluzione potrebbe essere l'uso di strutture transazionali che introducono ambiguità nell'analisi della catena senza richiedere la cooperazione del destinatario. Questo ci permetterebbe di migliorare la privacy dei nostri pagamenti senza dipendere dalla partecipazione attiva dei commercianti. Questo è precisamente ciò che studieremo nel prossimo capitolo.
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Mini-coinjoin di pagamento
+
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Quando si cerca di effettuare una transazione di pagamento preservando un certo grado di privacy, payjoin è una buona opzione. Ma come abbiamo visto, payjoin richiede il coinvolgimento del destinatario. Cosa fare quindi se quest'ultimo rifiuta di partecipare a un payjoin, o se si preferisce semplicemente non coinvolgerlo? Un'alternativa è l'uso di una transazione Stonewall o Stonewall x2. Vediamo più da vicino questi due tipi di transazioni.
@@ -2139,6 +2165,7 @@ Stonewall è una forma specifica di transazione Bitcoin volta ad aumentare la pr
 
 Il funzionamento della transazione Stonewall è il seguente: nell'input della transazione, il mittente utilizza 2 UTXO che gli appartengono. Nell'output, la transazione produce 4 UTXO, 2 dei quali saranno esattamente dello stesso importo. Gli altri 2 UTXO costituiranno il resto. Tra i 2 output dello stesso importo, solo uno andrà effettivamente al destinatario del pagamento.
 Ci sono solo 2 ruoli in una transazione Stonewall:
+
 - Il mittente, che effettua il pagamento;
 - Il destinatario, che può essere all'oscuro della natura specifica della transazione e sta semplicemente aspettando un pagamento dal mittente.
 
@@ -2154,7 +2181,7 @@ Torniamo all'esempio di Alice da Bob il panettiere. La transazione sulla blockch
 
 ![BTC204](assets/notext/62/02.webp)
 
-Un osservatore esterno che si affida alle euristiche comuni di analisi della catena potrebbe erroneamente concludere che "*due persone hanno effettuato un piccolo coinjoin, con un UTXO ciascuno in input e due UTXO ciascuno in output*". L'analisi di questa transazione dall'esterno non porta all'applicazione dell'Euristica di Proprietà Comune dell'Input (CIOH), perché la presenza di due output dello stesso importo suggerisce un modello di coinjoin. Da un punto di vista esterno, la CIOH quindi non è applicabile in questo caso specifico.
+Un osservatore esterno che si affida alle euristiche comuni di analisi della catena potrebbe erroneamente concludere che "_due persone hanno effettuato un piccolo coinjoin, con un UTXO ciascuno in input e due UTXO ciascuno in output_". L'analisi di questa transazione dall'esterno non porta all'applicazione dell'Euristica di Proprietà Comune dell'Input (CIOH), perché la presenza di due output dello stesso importo suggerisce un modello di coinjoin. Da un punto di vista esterno, la CIOH quindi non è applicabile in questo caso specifico.
 
 ![BTC204](assets/notext/62/03.webp)
 
@@ -2170,10 +2197,11 @@ Stonewall x2 è un'altra forma specifica di transazione Bitcoin che mira anch'es
 Il funzionamento della transazione Stonewall x2 è relativamente semplice: si utilizza un UTXO in proprio possesso per effettuare il pagamento e si chiede l'aiuto di una terza parte che contribuisce anche con un UTXO di sua proprietà. La transazione termina con quattro output: due di essi di importi uguali, uno destinato all'indirizzo del destinatario del pagamento, l'altro a un indirizzo appartenente al collaboratore. Un terzo UTXO viene inviato a un altro indirizzo del collaboratore, permettendogli di recuperare l'importo iniziale (un'azione neutra per loro, meno le commissioni di mining), e un ultimo UTXO ritorna a un indirizzo che ci appartiene, che costituisce il resto del pagamento.
 
 Quindi, tre diversi ruoli sono definiti nelle transazioni Stonewall x2:
+
 - Il mittente, che effettua il pagamento effettivo;
 - Il destinatario, che può essere all'oscuro della natura specifica della transazione e semplicemente attende un pagamento dal mittente;
 - Il collaboratore, che fornisce bitcoin per gettare dubbi nell'analisi della transazione, recuperando completamente i propri fondi alla fine (un'azione neutrale per loro, al netto delle commissioni di mining).
-Ritorniamo al nostro esempio con Alice che è da Bob il panettiere per comprare la sua baguette che costa 4.000 sats. Vuole pagare in bitcoin mantenendo un certo livello di privacy sul suo pagamento. Quindi, chiama il suo amico Charles, che la aiuterà in questo processo.
+  Ritorniamo al nostro esempio con Alice che è da Bob il panettiere per comprare la sua baguette che costa 4.000 sats. Vuole pagare in bitcoin mantenendo un certo livello di privacy sul suo pagamento. Quindi, chiama il suo amico Charles, che la aiuterà in questo processo.
 
 ![BTC204](assets/notext/62/05.webp)
 
@@ -2182,13 +2210,14 @@ Analizzando questa transazione, possiamo vedere che Bob il panettiere ha effetti
 In questo esempio, ho intenzionalmente trascurato le commissioni per facilitare la comprensione. In realtà, le commissioni di mining sono generalmente condivise equamente tra l'emittente del pagamento e il collaboratore.
 
 ### Quali sono gli obiettivi di una transazione Stonewall x2?
+
 Come la struttura Stonewall, la struttura Stonewall x2 aggiunge una quantità significativa di entropia alla transazione e oscura le tracce dell'analisi della catena. Da un punto di vista esterno, una tale transazione potrebbe essere interpretata come un piccolo coinjoin tra due persone. Ma in realtà, è un pagamento. Questo metodo, quindi, genera incertezze nell'analisi della catena, portando anche a false tracce.
 
 Rivediamo l'esempio di Alice, Bob il Panettiere e Charles. La transazione sulla blockchain apparirebbe così:
 
 ![BTC204](assets/notext/62/06.webp)
 
-Un osservatore esterno che si affida alle euristiche comuni di analisi della catena potrebbe erroneamente concludere che "*Alice e Charles hanno condotto un piccolo coinjoin, con un UTXO ciascuno in input e due UTXO ciascuno in output*". Ancora una volta, l'analisi di questa transazione dall'esterno non porta all'applicazione dell'Euristica di Proprietà Comune dell'Input (CIOH), perché la presenza di due output dello stesso importo suggerisce un modello di coinjoin. Da un punto di vista esterno, la CIOH quindi non è applicabile in questo caso specifico.
+Un osservatore esterno che si affida alle euristiche comuni di analisi della catena potrebbe erroneamente concludere che "_Alice e Charles hanno condotto un piccolo coinjoin, con un UTXO ciascuno in input e due UTXO ciascuno in output_". Ancora una volta, l'analisi di questa transazione dall'esterno non porta all'applicazione dell'Euristica di Proprietà Comune dell'Input (CIOH), perché la presenza di due output dello stesso importo suggerisce un modello di coinjoin. Da un punto di vista esterno, la CIOH quindi non è applicabile in questo caso specifico.
 
 ![BTC204](assets/notext/62/07.webp)
 
@@ -2211,6 +2240,7 @@ Quest'ultimo punto è dovuto al fatto che le transazioni Stonewall x2 seguono es
 ### Quando utilizzare le transazioni Stonewall e Stonewall x2?
 
 La logica dovrebbe essere la seguente quando si desidera utilizzare uno strumento di privacy per una transazione:
+
 - Come priorità, si può scegliere di effettuare un payjoin;
 - Se il commerciante non supporta i payjoin, si può effettuare una transazione collaborativa con un'altra persona esterna al pagamento utilizzando la struttura Stonewall x2;
 - Se non si trova nessuno con cui effettuare una transazione Stonewall x2, si può effettuare una transazione Stonewall da soli, che imiterà il comportamento di una transazione Stonewall x2.
@@ -2225,11 +2255,12 @@ Tuttavia, proprio come con i payjoin, a seguito dell'arresto dei fondatori di Sa
 
 Nel prossimo capitolo, studieremo un'altra tecnica di privacy relativamente sconosciuta, ma molto utile in aggiunta a quanto abbiamo già studiato.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
- 
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+
 ## Rimbalzi
+
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
 L'uso di strutture di transazione Bitcoin che aggiungono ambiguità nell'analisi della catena, come il coinjoin, è particolarmente vantaggioso per la protezione della privacy. Tuttavia, come abbiamo discusso nel capitolo sui payjoin, le transazioni coinjoin sono naturalmente identificabili nella catena. Ricordate l'analogia che abbiamo stabilito tra la crittografia e i coinjoin: quando si cripta un file, un terzo scoprendo questo file criptato non può accedere al suo contenuto, ma può chiaramente identificare che c'è stata una modifica del file per nasconderne il contenuto. Lo stesso vale per i coinjoin: quando un analista esamina una transazione coinjoin, anche se non può stabilire collegamenti diretti tra gli input e gli output (e viceversa), può comunque riconoscere che la transazione osservata è un coinjoin.
@@ -2248,6 +2279,7 @@ Dopo questa sequenza di transazioni, lo strumento ricochet infine instrada i bit
 L'obiettivo è creare una distanza che influisce sulla fungibilità della moneta, come una transazione di coinjoin, e l'atto finale di spesa che potrebbe rifiutare questa moneta a causa del suo passato. Così, gli strumenti di analisi della catena potrebbero concludere che probabilmente c'è stato un cambio di proprietà dopo l'evento, e considerare che questa moneta è fungibile. Nel caso di un coinjoin, gli strumenti di analisi della catena potrebbero quindi supporre che non sia la stessa persona che ha inviato i bitcoin e eseguito il coinjoin, e quindi è inutile avviare azioni contro il mittente.
 
 ### Perché funziona?
+
 Di fronte a questo metodo di ricochet, si potrebbe immaginare che il software di analisi della catena approfondirebbe il loro esame oltre quattro salti. Tuttavia, queste piattaforme si trovano di fronte a un dilemma nell'ottimizzare la soglia di rilevazione. Devono stabilire un limite al numero di salti dopo i quali ammettono che probabilmente è avvenuto un cambio di proprietà e che il collegamento con un evento precedente (come un coinjoin) dovrebbe essere ignorato.
 
 Tuttavia, determinare questa soglia si rivela rischioso: ogni estensione del numero osservato di salti aumenta esponenzialmente il volume di falsi positivi, ovvero individui erroneamente contrassegnati come partecipanti a un evento, quando l'operazione è stata effettuata da qualcun altro. Questo scenario rappresenta un rischio maggiore per queste aziende, poiché i falsi positivi portano a insoddisfazione, che può spingere i clienti colpiti verso la concorrenza. A lungo termine, una soglia di rilevazione troppo ampia porta una piattaforma a perdere più clienti rispetto ai suoi concorrenti, il che potrebbe minacciare la sua sopravvivenza. Pertanto, è complicato per queste piattaforme aumentare il numero di salti osservati, e 4 è spesso un numero sufficiente per contrastare le loro analisi.
@@ -2264,6 +2296,7 @@ Questo metodo è efficace non solo per i coinjoins ma anche per qualsiasi altro 
 L'idea di questo metodo ricochet proviene originariamente dai team di Samourai Wallet, che lo hanno integrato nella loro applicazione per automatizzare il processo. Il servizio è a pagamento su Samourai, poiché un ricochet comporta una tariffa di servizio di 100.000 sats, oltre alle commissioni di mining. Pertanto, il suo uso è piuttosto raccomandato per trasferimenti di importi significativi.
 
 L'applicazione Samourai offre due varianti del ricochet:
+
 - Il ricochet avanzato, o "consegna sfalsata", che ha il vantaggio di distribuire le commissioni di servizio di Samourai su cinque transazioni successive. Questa opzione assicura anche che ogni transazione venga trasmessa in un momento distinto e registrata in un blocco diverso, il che le permette di imitare il comportamento di un cambio di proprietà nel modo più vicino possibile. Sebbene più lento, questo metodo è preferibile per coloro che non hanno fretta, poiché massimizza l'efficienza del ricochet rafforzando la sua resistenza all'analisi della catena;
 
 - Il ricochet classico, che è progettato per eseguire l'operazione rapidamente trasmettendo tutte le transazioni in un breve lasso di tempo. Questo metodo, quindi, offre meno privacy e minore resistenza all'analisi rispetto al metodo avanzato. Dovrebbe essere utilizzato solo per invii urgenti.
@@ -2272,14 +2305,16 @@ Il ricochet consiste semplicemente nell'inviare bitcoin a se stessi. È del tutt
 
 Nel capitolo seguente, esploriamo diverse tecniche per i trasferimenti segreti di proprietà. Questi metodi differiscono radicalmente da quelli che abbiamo esaminato finora, sia in termini di funzionamento che di risultati.
 
-https://planb.network/tutorials/privacy/ricochet
- 
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Trasferimenti Segreti di Proprietà
+
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
 Tra le tecniche di privacy su Bitcoin, c'è anche il trasferimento segreto di proprietà. Questo metodo mira a trasferire la proprietà dei bitcoin da una persona all'altra, e viceversa, senza che questa transazione sia esplicitamente visibile sulla blockchain. Studiamo insieme le diverse tecniche disponibili così come i loro vantaggi e svantaggi.
 
 ### Il CoinSwap
+
 CoinSwap si basa su un concetto relativamente semplice: utilizza smart contract per facilitare un trasferimento di proprietà di bitcoin tra due utenti, senza la necessità di fiducia e senza che questo trasferimento sia esplicitamente visibile sulla blockchain.
 
 Immaginiamo un esempio semplificato con Alice e Bob. Alice possiede 1 BTC assicurato con la chiave privata $A$, e Bob possiede anch'esso 1, assicurato con la chiave privata $B$. Teoricamente, potrebbero scambiarsi le loro chiavi private tramite un canale di comunicazione esterno per effettuare un trasferimento segreto.
@@ -2290,41 +2325,43 @@ Inoltre, non c'è garanzia che impedisca ad Alice di ricevere la chiave privata 
 
 Per risolvere questi problemi e permettere scambi tra parti che non si fidano l'una dell'altra, possiamo invece utilizzare sistemi di smart contract. Uno smart contract è un programma che si esegue automaticamente quando sono soddisfatte condizioni predefinite, che, nel nostro caso, garantisce che lo scambio di proprietà avvenga automaticamente senza richiedere fiducia reciproca.
 
-Per fare ciò, possiamo utilizzare HTLC (*Hash Time-Locked Contracts*) o PTLC (*Point Time-Locked Contracts*). Questi due protocolli funzionano in modo simile utilizzando un sistema di blocco temporale che garantisce che lo scambio sia completato con successo o completamente annullato, proteggendo così l'integrità dei fondi di entrambe le parti. La principale differenza tra HTLC e PTLC è che gli HTLC utilizzano hash e preimmagini per assicurare la transazione, mentre i PTLC utilizzano Firme Adattive.
+Per fare ciò, possiamo utilizzare HTLC (_Hash Time-Locked Contracts_) o PTLC (_Point Time-Locked Contracts_). Questi due protocolli funzionano in modo simile utilizzando un sistema di blocco temporale che garantisce che lo scambio sia completato con successo o completamente annullato, proteggendo così l'integrità dei fondi di entrambe le parti. La principale differenza tra HTLC e PTLC è che gli HTLC utilizzano hash e preimmagini per assicurare la transazione, mentre i PTLC utilizzano Firme Adattive.
 
 In uno scenario di CoinSwap che utilizza un HTLC o un PTLC tra Alice e Bob, lo scambio avviene in modo sicuro: o riesce, e ciascuno riceve il BTC dell'altro, o fallisce, e ciascuno mantiene il proprio BTC. È quindi impossibile per una delle parti barare o rubare il BTC dell'altra.
 
-> *Gli HTLC sono anche il meccanismo utilizzato per instradare pagamenti in modo sicuro attraverso i canali bidirezionali della Lightning Network.*
-L'uso delle Firme Adattive è particolarmente interessante in questo contesto, poiché permette di bypassare gli script tradizionali (questo è un meccanismo a volte definito come "_scriptless scripts_"). Questa caratteristica aiuta a ridurre le commissioni associate allo scambio. Un altro grande vantaggio delle Firme Adattive è che non richiedono l'uso di un hash comune per entrambe le parti della transazione, evitando così di rivelare un collegamento diretto tra di loro in certi tipi di scambi.
+> _Gli HTLC sono anche il meccanismo utilizzato per instradare pagamenti in modo sicuro attraverso i canali bidirezionali della Lightning Network._
+> L'uso delle Firme Adattive è particolarmente interessante in questo contesto, poiché permette di bypassare gli script tradizionali (questo è un meccanismo a volte definito come "_scriptless scripts_"). Questa caratteristica aiuta a ridurre le commissioni associate allo scambio. Un altro grande vantaggio delle Firme Adattive è che non richiedono l'uso di un hash comune per entrambe le parti della transazione, evitando così di rivelare un collegamento diretto tra di loro in certi tipi di scambi.
+
 ### Firme Adattive
 
 Le Firme Adattive sono un metodo crittografico che integra una firma valida con una firma aggiuntiva, chiamata "_firma adattiva_", per rivelare un pezzo segreto di dati. Questo meccanismo è progettato in modo tale che conoscere 2 dei seguenti 3 elementi: la firma valida, la firma adattiva e il segreto, permette di dedurre l'elemento mancante terzo. Una proprietà interessante di questo metodo è che, se conosciamo la firma adattiva della nostra controparte e il punto specifico sulla curva ellittica associato al segreto usato per calcolare questa firma adattiva, possiamo derivare la nostra propria firma adattiva che sarà compatibile con quello stesso segreto, senza mai avere accesso diretto al segreto stesso.
 Nello scambio di monete, l'uso delle Firme Adattive permette la rivelazione simultanea di due pezzi di informazioni sensibili tra i partecipanti, evitando così la necessità di una fiducia reciproca. Prendiamo un esempio per illustrare questo processo con Alice e Bob, che desiderano scambiarsi la proprietà di 1 BTC ciascuno, ma non si fidano l'uno dell'altro. Utilizzano le Firme Adattive per eliminare la necessità di fiducia in questo scambio. Ecco come procedono:
-* Alice inizia lo scambio creando una transazione $m_A$ che invia 1 BTC a Bob. Genera una firma $s_A$, che convalida questa transazione, usando la sua chiave privata $p_A$ ($P_A = p_A \cdot G$), un nonce $n_A$ ($N_A = n_A \cdot G$) e un segreto $t$ ($T = t \cdot G$):
+
+- Alice inizia lo scambio creando una transazione $m_A$ che invia 1 BTC a Bob. Genera una firma $s_A$, che convalida questa transazione, usando la sua chiave privata $p_A$ ($P_A = p_A \cdot G$), un nonce $n_A$ ($N_A = n_A \cdot G$) e un segreto $t$ ($T = t \cdot G$):
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$$
 
-* Alice calcola la firma adattiva $s_A'$ sottraendo il segreto $t$ dalla sua vera firma $s_A$:
+- Alice calcola la firma adattiva $s_A'$ sottraendo il segreto $t$ dalla sua vera firma $s_A$:
 
 $$s_A' = s_A - t$$
 
-* Alice invia a Bob la sua firma adattiva $s'_A$, la sua transazione non firmata $m_A$, il punto corrispondente al segreto ($T$) e il punto corrispondente al nonce ($N_A$). Questi elementi costituiscono quello che viene chiamato un "*adattatore*". È importante notare che, con solo queste informazioni, Bob non può recuperare i BTC di Alice.
-* Tuttavia, Bob ha la capacità di verificare che Alice non stia cercando di rubargli. Per fare ciò, controlla se la firma adattiva di Alice $s_A'$ corrisponde effettivamente alla transazione proposta $m_A$. Se la seguente equazione è corretta, può quindi essere sicuro che la firma adattiva di Alice sia valida:
-$$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
+- Alice invia a Bob la sua firma adattiva $s'_A$, la sua transazione non firmata $m_A$, il punto corrispondente al segreto ($T$) e il punto corrispondente al nonce ($N_A$). Questi elementi costituiscono quello che viene chiamato un "_adattatore_". È importante notare che, con solo queste informazioni, Bob non può recuperare i BTC di Alice.
+- Tuttavia, Bob ha la capacità di verificare che Alice non stia cercando di rubargli. Per fare ciò, controlla se la firma adattiva di Alice $s_A'$ corrisponde effettivamente alla transazione proposta $m_A$. Se la seguente equazione è corretta, può quindi essere sicuro che la firma adattiva di Alice sia valida:
+  $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
-* Questa verifica fornisce a Bob sufficienti garanzie per procedere con lo scambio in modo fiducioso. Crea quindi la sua propria transazione $m_B$, destinata a inviare 1 BTC ad Alice, e genera la sua firma adattiva $s_B'$, che sarà anch'essa collegata allo stesso segreto $t$. A questo punto, solo Alice conosce il valore di $t$; Bob conosce solo il punto corrispondente $T$ che Alice gli ha trasmesso:
+- Questa verifica fornisce a Bob sufficienti garanzie per procedere con lo scambio in modo fiducioso. Crea quindi la sua propria transazione $m_B$, destinata a inviare 1 BTC ad Alice, e genera la sua firma adattiva $s_B'$, che sarà anch'essa collegata allo stesso segreto $t$. A questo punto, solo Alice conosce il valore di $t$; Bob conosce solo il punto corrispondente $T$ che Alice gli ha trasmesso:
 
 $$s_B' = n_B + H(N_B + T \parallel P_B \parallel m_B) \cdot p_B$$
 
-* Bob trasmette ad Alice la sua firma adattiva $s_B'$, la sua transazione non firmata $m_B$, così come il punto corrispondente al segreto ($T$) e il punto corrispondente al nonce ($N_B$). Alice, che conosce il segreto $t$, può ora combinare la firma adattiva di Bob $s_B'$ con questo segreto per generare una firma valida $s_B$ per la transazione $m_B$ che trasferirà i BTC di Bob a lei:
+- Bob trasmette ad Alice la sua firma adattiva $s_B'$, la sua transazione non firmata $m_B$, così come il punto corrispondente al segreto ($T$) e il punto corrispondente al nonce ($N_B$). Alice, che conosce il segreto $t$, può ora combinare la firma adattiva di Bob $s_B'$ con questo segreto per generare una firma valida $s_B$ per la transazione $m_B$ che trasferirà i BTC di Bob a lei:
 
 $$s_B = s_B' + t$$
 
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_B$$
 
-* Alice trasmette questa transazione firmata $m_B$ sulla blockchain di Bitcoin per recuperare i BTC promessi da Bob. Quando Bob vede questa transazione sulla blockchain, può estrarre la firma $s_B = s_B' + t$. Con queste informazioni, Bob è quindi in grado di isolare il famoso segreto $t$ di cui aveva bisogno:
-$$t = (s_B' + t) - s_B' = s_B - s_B'$$
-* E infatti, questo segreto $t$ era l'unico elemento mancante affinché Bob potesse generare la firma valida $s_A$ a partire dalla firma adattatore di Alice $s_A'$. Questa firma consente di validare la transazione $m_A$ che invia un BTC da Alice a Bob. Bob quindi calcola $s_A$ e a sua volta trasmette la transazione $m_A$ sulla blockchain:
+- Alice trasmette questa transazione firmata $m_B$ sulla blockchain di Bitcoin per recuperare i BTC promessi da Bob. Quando Bob vede questa transazione sulla blockchain, può estrarre la firma $s_B = s_B' + t$. Con queste informazioni, Bob è quindi in grado di isolare il famoso segreto $t$ di cui aveva bisogno:
+  $$t = (s_B' + t) - s_B' = s_B - s_B'$$
+- E infatti, questo segreto $t$ era l'unico elemento mancante affinché Bob potesse generare la firma valida $s_A$ a partire dalla firma adattatore di Alice $s_A'$. Questa firma consente di validare la transazione $m_A$ che invia un BTC da Alice a Bob. Bob quindi calcola $s_A$ e a sua volta trasmette la transazione $m_A$ sulla blockchain:
 
 $$s_A = s_A' + t$$
 
@@ -2344,9 +2381,10 @@ Lo scambio atomico e lo scambio di monete condividono un metodo di funzionamento
 
 Tuttavia, a differenza dello scambio di monete, lo scambio atomico può presentare squilibri in termini di liquidità disponibile, specialmente negli scambi BTC/XMR. Generalmente, è più facile scambiare bitcoin per altcoin, poiché c'è una grande domanda di bitcoin, il che mantiene bassi i premi per questa direzione di conversione. Tuttavia, scambiare altcoin per ottenere BTC può essere più complesso a causa della minore domanda, spesso risultando in premi molto alti.
 
-Infine, quando uno scambio atomico coinvolge bitcoin onchain e bitcoin sulla rete Lightning, ci riferiamo a esso come a uno "*scambio sommergibile*".
+Infine, quando uno scambio atomico coinvolge bitcoin onchain e bitcoin sulla rete Lightning, ci riferiamo a esso come a uno "_scambio sommergibile_".
 
 ### È Davvero Utile?
+
 I trasferimenti segreti di proprietà, come gli scambi di monete e gli scambi atomici, hanno il vantaggio di ingannare le euristiche di analisi della catena. Questi metodi possono dare l'impressione che le transazioni coinvolgano lo stesso utente, anche se la proprietà effettiva è passata di mano. Tuttavia, il principale svantaggio di questi metodi è che sono molto rischiosi senza l'uso di una tecnica aggiuntiva per interrompere la storia della moneta.
 Effettivamente, quando Alice effettua uno scambio di monete o uno swap atomico con Bob, scambia la proprietà dei suoi bitcoin con quelli di Bob. Nel caso di uno swap atomico, lo scambio include un altcoin, ma il principio rimane lo stesso. Così, Alice finisce per avere la moneta $B$ e Bob la moneta $A$. Questo aggiunge dubbi nell'analisi della catena, ma la storia delle monete rimane rintracciabile. Se un analista esamina la moneta $A$, può risalire alle precedenti attività di Alice, e viceversa per la moneta $B$.
 
@@ -2362,11 +2400,13 @@ Perché i metodi di trasferimento segreto della proprietà siano veramente effic
 Finora, abbiamo principalmente studiato i metodi di privacy a livello di transazione stessi. Nel prossimo capitolo, esploreremo le questioni a livello di rete e la diffusione delle transazioni.
 
 ## Privacy sulla Rete P2P
+
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
 Nella parte 4, abbiamo discusso dell'importanza di utilizzare un nodo completo per proteggere la privacy delle tue transazioni. Tuttavia, è importante capire che il tuo nodo stesso può essere soggetto ad attacchi che cercano di estrarre informazioni sulle tue attività. In questo capitolo, esamineremo quindi le diverse misure di protezione della privacy, non a livello delle transazioni stesse o dei flussi di bitcoin, ma a livello di rete.
 
 ### Dandelion
+
 Un modo per evitare vari attacchi di deanonymizzazione è utilizzare la proposta Dandelion. Questo protocollo di trasmissione è stato formalizzato in BIP156, ma non è mai stato implementato su Bitcoin. L'idea di Dandelion è migliorare la privacy del routing delle transazioni nella rete Bitcoin per contrastare varie forme di attacchi. Il suo obiettivo principale è nascondere il nodo sorgente che inizialmente trasmette una transazione sulla rete. La divulgazione di questo nodo potrebbe collegare una transazione Bitcoin a un indirizzo IP specifico (se il nodo opera sulla rete in chiaro), fornendo così un punto di ingresso per l'analisi della catena.
 
 Questa associazione tra un'attività su Bitcoin e un indirizzo IP rappresenta un rischio significativo per la privacy dell'utente. Infatti, numerose entità possono facilmente collegare un indirizzo IP a un'identità personale. Ciò include in modo notevole governi e fornitori di servizi Internet. Inoltre, queste informazioni possono diventare pubblicamente accessibili, ad esempio, se il tuo indirizzo IP e i dati personali vengono esposti a causa di una fuga di dati durante l'hacking del database di un sito web.
@@ -2394,12 +2434,13 @@ BIP156 non è stato integrato in Bitcoin Core ed è attualmente classificato con
 P2P Transport V2 è un altro protocollo di rete presentato in BIP324. È una nuova versione del protocollo di trasporto P2P di Bitcoin che incorpora una crittografia opportunistica per migliorare la riservatezza e la sicurezza delle comunicazioni tra nodi.
 
 Questo miglioramento mira a risolvere diversi problemi con la versione base del protocollo P2P. Da un lato, rende i dati scambiati indistinguibili da altri tipi di dati che circolano su Internet per un osservatore passivo. L'obiettivo principale è prevenire che governi, fornitori di servizi Internet o fornitori VPN possano monitorare massivamente gli utenti Bitcoin. Ciò complica anche il compito per queste entità di determinare se un utente Internet sia anche un utente Bitcoin, ovvero se stia operando un nodo completo.
-P2P V2 contribuisce anche a ridurre i rischi di censura e attacchi attraverso il rilevamento di schemi specifici nei pacchetti di dati. Complica e rende più costosa l'esecuzione di vari tipi di attacchi Sybil a livello di rete. Un attacco Sybil si verifica quando un attore crea molteplici false identità per ottenere un vantaggio indebito. Nel contesto della rete Bitcoin, ciò si manifesta spesso come un attore che controlla un gran numero di nodi completi e li utilizza aggressivamente per moltiplicare le connessioni. Gli attacchi Sybil possono essere passivi, con lo scopo di raccogliere informazioni e compromettere la riservatezza degli utenti, o attivi, sotto forma di attacchi Eclipse. Questi ultimi isolano un nodo specifico dal resto della rete, permettendo di censurare l'utente o di alterare i dati che riceve. Infine, P2P V2 rende gli attacchi *Man-In-The-Middle* (MITM) più costosi e più facili da rilevare.
+P2P V2 contribuisce anche a ridurre i rischi di censura e attacchi attraverso il rilevamento di schemi specifici nei pacchetti di dati. Complica e rende più costosa l'esecuzione di vari tipi di attacchi Sybil a livello di rete. Un attacco Sybil si verifica quando un attore crea molteplici false identità per ottenere un vantaggio indebito. Nel contesto della rete Bitcoin, ciò si manifesta spesso come un attore che controlla un gran numero di nodi completi e li utilizza aggressivamente per moltiplicare le connessioni. Gli attacchi Sybil possono essere passivi, con lo scopo di raccogliere informazioni e compromettere la riservatezza degli utenti, o attivi, sotto forma di attacchi Eclipse. Questi ultimi isolano un nodo specifico dal resto della rete, permettendo di censurare l'utente o di alterare i dati che riceve. Infine, P2P V2 rende gli attacchi _Man-In-The-Middle_ (MITM) più costosi e più facili da rilevare.
 La crittografia implementata da P2P V2 non include l'autenticazione per non aggiungere complessità non necessaria e per non compromettere la natura senza permessi della connessione di rete. Questo nuovo protocollo di trasporto P2P offre comunque una migliore sicurezza contro gli attacchi passivi e rende gli attacchi attivi significativamente più costosi e rilevabili. L'introduzione di un flusso di dati pseudo-casuale nei messaggi di rete complica il compito per gli aggressori che desiderano censurare o manipolare le comunicazioni.
 
 Il trasporto P2P V2 è stato incluso come opzione (disabilitata per impostazione predefinita) nella versione 26.0 di Bitcoin Core, distribuita nel dicembre 2023. È stato poi abilitato per impostazione predefinita nella versione 27.0 nell'aprile 2024. Può essere modificato con l'opzione `v2transport=` nel file di configurazione.
 
 ### Tor
+
 Una soluzione relativamente semplice per evitare i rischi di perdita di confidenzialità per un nodo a livello di rete è eseguirlo interamente sotto Tor. Tor è una rete di server di relay (nodi) che anonimizza l'origine delle connessioni TCP su internet. Funziona incapsulando i dati in più strati di crittografia. Ogni nodo relay rimuove uno strato per rivelare l'indirizzo del nodo successivo, fino a raggiungere la destinazione finale. La rete Tor garantisce l'anonimato impedendo ai nodi intermedi di conoscere sia l'origine che la destinazione dei dati, rendendo molto difficile per un osservatore tracciare l'attività dell'utente.
 
 Tor quindi non solo cripta i dati comunicati ma permette anche di mascherare l'origine e la destinazione delle comunicazioni. Utilizzando Tor per le comunicazioni del proprio nodo personale, miglioriamo la privacy delle nostre transazioni: il Fornitore di Servizi Internet (ISP) non può decifrare le comunicazioni, e altri nodi nella rete Bitcoin non possono identificare l'indirizzo IP del nodo sorgente. Inoltre, Tor nasconde anche l'uso di Bitcoin al proprio ISP.
@@ -2411,6 +2452,7 @@ Inoltre, è importante notare che le comunicazioni su Tor sono più lente. Quest
 Dopo aver esplorato i diversi metodi di privacy a livello di rete, voglio anche introdurre nei prossimi capitoli due soluzioni eleganti per evitare il riutilizzo degli indirizzi: BIP47 e Pagamenti Silenziosi.
 
 ## BIP47 e Codici di Pagamento Riutilizzabili
+
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
 Come abbiamo visto nella parte 3, il riutilizzo degli indirizzi rappresenta un serio ostacolo alla privacy degli utenti sul protocollo Bitcoin. Per mitigare questi rischi, è fortemente consigliato generare un nuovo indirizzo di ricezione per ogni nuovo pagamento ricevuto in un portafoglio. Anche se oggi la generazione di un nuovo indirizzo è semplificata dall'uso di software moderni e portafogli deterministici gerarchici, questa pratica può sembrare controintuitiva.
@@ -2418,7 +2460,7 @@ Come abbiamo visto nella parte 3, il riutilizzo degli indirizzi rappresenta un s
 Nel sistema bancario tradizionale, ad esempio, siamo abituati a condividere il nostro IBAN, che rimane sempre lo stesso. Una volta comunicato a qualcuno, possono inviarci più pagamenti senza dover interagire nuovamente con noi. Le neo-banche offrono anche possibilità più moderne come l'uso di indirizzi email unici su PayPal o RevTags su Revolut. Anche al di fuori del dominio finanziario, i nostri identificativi quotidiani come l'indirizzo postale, il numero di telefono e l'indirizzo email sono unici e permanenti. Non dobbiamo rinnovarli ad ogni nuova interazione.
 
 Tuttavia, il funzionamento di Bitcoin è diverso: è imperativo generare un nuovo indirizzo di ricezione per ogni transazione in entrata. Questo compromesso tra facilità d'uso e privacy risale alle origini stesse del White Paper di Bitcoin. Dalla pubblicazione della prima versione del suo documento alla fine del 2008, Satoshi Nakamoto ci aveva già avvertiti di questo rischio:
-**"*Come ulteriore firewall, una nuova coppia di chiavi potrebbe essere utilizzata per ogni transazione per mantenerle non collegate a un proprietario comune.*"**
+**"_Come ulteriore firewall, una nuova coppia di chiavi potrebbe essere utilizzata per ogni transazione per mantenerle non collegate a un proprietario comune._"**
 Ci sono numerosi metodi per ricevere più pagamenti su un singolo identificativo senza causare il riutilizzo dell'indirizzo. Ognuno di questi metodi presenta i propri compromessi e svantaggi. Tra questi metodi c'è il BIP47, una proposta sviluppata da Justus Ranvier e pubblicata nel 2015. Questa proposta mira a creare codici di pagamento riutilizzabili che consentano molteplici transazioni alla stessa persona evitando il riutilizzo dell'indirizzo. In sostanza, il BIP47 cerca di offrire un sistema di pagamento intuitivo come un identificativo unico, preservando al contempo la privacy delle transazioni.
 ![BTC204](assets/notext/66/3.webp)
 
@@ -2442,17 +2484,21 @@ Il codice di pagamento funge quindi da identificativo virtuale derivato dal seed
 ![BTC204](assets/it/66/5.webp)
 
 L'obiettivo di derivazione per il BIP47 è identificato dall'indice `47'` (`0x8000002F`), che fa riferimento al BIP47. Un esempio di un percorso di derivazione per un codice di pagamento riutilizzabile sarebbe il seguente:
+
 ```plaintext
 m/47'/0'/0'/
 ```
 
 Per darvi un'idea di come appare un codice di pagamento, ecco il mio:
+
 ```plaintext
 M8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
+
 Questo codice può essere anche codificato in un codice QR, per facilitarne la comunicazione, proprio come un classico indirizzo di ricezione.
 
 Per quanto riguarda i PayNym Bots, questi robot che a volte si vedono su Twitter, sono rappresentazioni visive del codice di pagamento, creati da Samourai Wallet. Sono generati tramite una funzione di hashing, che gli conferisce quasi unicità. Appaiono sotto forma di una piccola stringa di caratteri che inizia con `+`:
+
 ```plaintext
 +throbbingpond8B1
 +twilightresonance487
@@ -2464,12 +2510,24 @@ Questi avatar possono essere anche rappresentati sotto forma di immagini:
 ![BTC204](assets/notext/66/6.webp)
 
 Sebbene questi robot non abbiano una specifica funzionalità tecnica all'interno del quadro del BIP47, giocano un ruolo nel facilitare le interazioni tra gli utenti offrendo un'identità visiva facilmente riconoscibile.
-Nelle sezioni seguenti di questo capitolo dedicato al BIP47, esamineremo in dettaglio come funziona, con un particolare accento sui metodi crittografici utilizzati. Per comprendere appieno queste spiegazioni un po' tecniche, è essenziale prima capire la struttura dei portafogli HD, i processi di derivazione delle chiavi e i principi fondamentali della crittografia basata sulla curva ellittica. Se desideri approfondire questi concetti, è disponibile un altro corso gratuito su PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Ti consiglio comunque di seguirli, poiché comprendere il funzionamento tecnico del BIP47 renderà molto più facile per te comprendere altre proposte simili che discuteremo nei capitoli seguenti.
+
+---
+*Nelle sezioni seguenti di questo capitolo dedicato al BIP47, esamineremo nel dettaglio il suo funzionamento, concentrandoci in particolare sui metodi crittografici utilizzati. Per comprendere appieno queste spiegazioni piuttosto tecniche, è essenziale innanzitutto capire la struttura dei portafogli HD, i processi di derivazione delle chiavi e i principi fondamentali della crittografia basata su curve ellittiche. Se desiderate approfondire questi concetti, è disponibile un altro corso gratuito su Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Vi consiglio vivamente di seguirlo, perché comprendere il funzionamento tecnico del BIP47 vi aiuterà a comprendere molto più facilmente altre proposte simili di cui parleremo nei prossimi capitoli.*
+
+---
+
+
+
 ### Codice di Pagamento Riutilizzabile
 
 Come accennato in precedenza, il codice di pagamento riutilizzabile si trova al livello 3 del portafoglio HD, rendendolo paragonabile a un `xpub`, sia nella sua posizione all'interno della struttura del portafoglio sia nel suo ruolo.
 
 Il codice di pagamento di 80 byte si suddivide come segue:
+
 - **Byte `0`: La versione**. Per la prima versione del BIP47, questo byte è impostato su `0x01`;
 - **Byte `1`: Il campo di bit**. Questo spazio è riservato per integrare indicazioni aggiuntive durante usi specifici. Per l'uso standard con PayNym, questo byte è definito come `0x00`;
 - **Byte `2`: La parità di `y`**. Questo byte è `0x02` o `0x03`, indicando se l'ordinata della chiave pubblica è pari o dispari, poiché viene utilizzata una chiave pubblica compressa;
@@ -2478,6 +2536,7 @@ Il codice di pagamento di 80 byte si suddivide come segue:
 - **Dal byte `67` al byte `79`: Il riempimento**. Questo spazio è destinato a possibili sviluppi futuri. Per la versione attuale, vengono semplicemente posizionati degli zeri qui per raggiungere la dimensione di 80 byte richiesta per un output `OP_RETURN`.
 
 Ecco la rappresentazione esadecimale del mio codice di pagamento riutilizzabile già presentato nella sezione precedente:
+
 ```plaintext
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
@@ -2485,28 +2544,34 @@ Ecco la rappresentazione esadecimale del mio codice di pagamento riutilizzabile 
 ![BTC204](assets/it/66/7.webp)
 
 Prima di tutto, è necessario aggiungere il byte prefisso `P` all'inizio per indicare chiaramente che si tratta di un codice di pagamento. Questo byte è rappresentato da `0x47`:
+
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
 Infine, per garantire l'integrità del codice di pagamento, viene eseguito un calcolo del checksum utilizzando `HASH256`, che consiste in un doppio hashing con la funzione `SHA256`. I primi quattro byte risultanti da questo hash vengono poi concatenati alla fine del codice di pagamento:
+
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
 Una volta completati questi passaggi, il codice di pagamento è pronto. L'unico passaggio rimasto è convertirlo in base 58 per ottenere la sua versione finale:
+
 ```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
 Durante questo processo di creazione del codice di pagamento, utilizziamo una chiave pubblica compressa e un codice catena. Entrambi sono derivati da una derivazione deterministica e gerarchica dal seme del portafoglio. Il percorso di derivazione utilizzato per ottenere questo risultato è:
+
 ```plaintext
 m/47'/0'/0'/
 ```
+
 Per generare la chiave pubblica compressa e il codice catena associato per il codice di pagamento riutilizzabile, iniziamo calcolando la chiave privata principale dal seme del portafoglio. Procediamo quindi a derivare una coppia di chiavi figlie utilizzando l'indice `47 + 2^31` (derivazione rinforzata). Questo passaggio è seguito da due ulteriori derivazioni successive di coppie di chiavi figlie, ciascuna utilizzando l'indice `2^31` (derivazione rinforzata).
 
 ### Lo Scambio di Chiavi Elliptic-Curve Diffie-Hellman (ECDH)
-Il protocollo crittografico al centro di BIP47 è indicato con l'acronimo ECDH, per *Elliptic-Curve Diffie-Hellman*. Questo metodo è una variante dell'originale scambio di chiavi Diffie-Hellman.
+
+Il protocollo crittografico al centro di BIP47 è indicato con l'acronimo ECDH, per _Elliptic-Curve Diffie-Hellman_. Questo metodo è una variante dell'originale scambio di chiavi Diffie-Hellman.
 Introdotta nel 1976, Diffie-Hellman è un protocollo di accordo sulla chiave che consente a due parti, ciascuna dotata di una coppia di chiavi (pubblica e privata), di concordare su un segreto comune, anche comunicando esclusivamente attraverso un canale pubblico e insicuro.
 
 ![BTC204](assets/it/66/10.webp)
@@ -2516,6 +2581,7 @@ Questo segreto comune (qui, la chiave blu), può poi essere utilizzato per altre
 ![BTC204](assets/notext/66/11.webp)
 
 Per realizzare questo scambio, Diffie-Hellman utilizza l'aritmetica modulare per calcolare il segreto condiviso. Ecco una spiegazione semplificata di come funziona:
+
 - Alice e Bob concordano su un colore comune, qui giallo, che costituisce dati pubblici (gli attaccanti conoscono questo colore);
 - Alice seleziona un colore segreto, qui rosso, e mescola i due per ottenere arancione;
 - Bob sceglie anche lui un colore segreto, qui blu, e lo mescola con il giallo per ottenere verde;
@@ -2536,25 +2602,25 @@ Prima di discutere i meccanismi di Diffie-Hellman, permettetemi di ricordarvi br
 **Lo scambio di chiavi Diffie-Hellman tra Alice e Bob procede come segue:**
 
 - Alice e Bob concordano su due numeri comuni: $p$ e $g$. $p$ è un numero primo, e più grande è questo numero, più sicuro sarà Diffie-Hellman. $g$ è una radice primitiva di $p$. Questi due numeri possono essere comunicati apertamente su una rete non sicura. Rappresentano l'equivalente del **colore giallo** nella precedente semplificazione. È quindi importante che Alice e Bob utilizzino esattamente gli stessi valori per $p$ e $g$.
-Una volta definiti questi parametri, Alice e Bob scelgono ciascuno un numero segreto casuale. Alice chiama il suo numero segreto casuale $a$ (equivalente a **il colore rosso**) e Bob chiama il suo $b$ (equivalente a **il colore blu**). Questi numeri devono rimanere strettamente confidenziali.
+  Una volta definiti questi parametri, Alice e Bob scelgono ciascuno un numero segreto casuale. Alice chiama il suo numero segreto casuale $a$ (equivalente a **il colore rosso**) e Bob chiama il suo $b$ (equivalente a **il colore blu**). Questi numeri devono rimanere strettamente confidenziali.
 
 Invece di scambiarsi direttamente i numeri $a$ e $b$, ciascuna parte calcola $A$ e $B$ come segue:
 
 $A$ è uguale a $g$ elevato alla potenza di $a$ modulo $p$:
 
-
 $$
 
 A = g^a \bmod p
+
 
 $$
 
 $B$ è uguale a $g$ elevato alla potenza di $b$ modulo $p$:
 
-
 $$
 
 B = g^b \bmod p
+
 
 $$
 
@@ -2564,51 +2630,53 @@ Alice, avendo ricevuto $B$, calcola il valore di $z$ come segue:
 
 $z$ è uguale a $B$ elevato alla potenza di $a$ modulo $p$:
 
-
 $$
 
 z = B^a \bmod p
+
 
 $$
 
 Ricordiamo:
 
-
 $$
 
 B = g^b \bmod p
+
 
 $$
 
 Così, otteniamo:
 
-
 $$
 
 z = B^a \bmod p
 
-$$
 
+$$
 
 $$
 
 z = (g^b)^a \bmod p
 
+
 $$
 
 Applicando le regole degli esponenti:
+
 $$
 
 (x^n)^m = x^{nm}
+
 
 $$
 
 Otteniamo quindi:
 
-
 $$
 
 z = g^{ba} \bmod p
+
 
 $$
 
@@ -2616,33 +2684,33 @@ $$
 
 $z$ è uguale a $A$ elevato alla potenza di $b$ modulo $p$:
 
-
 $$
 
 z = A^b \bmod p
+
 
 $$
 
 Così, otteniamo:
 
-
 $$
 
 z = (g^a)^b \bmod p
 
-$$
 
+$$
 
 $$
 
 z = g^{ab} \bmod p
 
-$$
 
+$$
 
 $$
 
 z = g^{ba} \bmod p
+
 
 $$
 
@@ -2651,12 +2719,14 @@ Grazie alla distributività dell'operatore modulo, Alice e Bob ottengono esattam
 Un attaccante, anche in possesso di $p$, $g$, $A$ e $B$ (i valori pubblici), non sarà in grado di calcolare $a$, $b$ o $z$ (i valori privati). Per fare ciò, sarebbe necessario invertire l'esponenziazione, un'operazione impossibile senza provare tutte le possibilità una per una, poiché equivale a calcolare il logaritmo discreto, ovvero l'inverso dell'esponenziale in un gruppo ciclico finito.
 
 Pertanto, finché i valori di $a$, $b$ e $p$ sono sufficientemente grandi, il protocollo Diffie-Hellman è sicuro. Tipicamente, con parametri a 2048 bit (un numero con 600 cifre in decimale), testare tutte le possibilità per $a$ e $b$ sarebbe impraticabile. Ad oggi, con tali numeri, questo algoritmo è considerato sicuro.
-Questo è precisamente dove risiede il principale svantaggio del protocollo Diffie-Hellman. Per essere sicuro, l'algoritmo deve utilizzare numeri grandi. Ecco perché, oggigiorno, si preferisce l'algoritmo ECDH (*Elliptic Curve Diffie-Hellman*), una variante del Diffie-Hellman che si basa su una curva algebrica, più precisamente su una curva ellittica. Questo approccio permette di lavorare con numeri molto più piccoli mantenendo una sicurezza equivalente, riducendo così le risorse necessarie per il calcolo e lo stoccaggio.
+Questo è precisamente dove risiede il principale svantaggio del protocollo Diffie-Hellman. Per essere sicuro, l'algoritmo deve utilizzare numeri grandi. Ecco perché, oggigiorno, si preferisce l'algoritmo ECDH (_Elliptic Curve Diffie-Hellman_), una variante del Diffie-Hellman che si basa su una curva algebrica, più precisamente su una curva ellittica. Questo approccio permette di lavorare con numeri molto più piccoli mantenendo una sicurezza equivalente, riducendo così le risorse necessarie per il calcolo e lo stoccaggio.
 Il principio generale dell'algoritmo rimane lo stesso. Tuttavia, invece di utilizzare un numero casuale $a$ e un numero $A$ calcolato da $a$ tramite esponenziazione modulare, utilizziamo una coppia di chiavi stabilita su una curva ellittica. Invece di fare affidamento sulla distributività dell'operatore modulo, utilizziamo la legge di gruppo sulle curve ellittiche, e più specificamente l'associatività di questa legge.
 Per spiegare brevemente il principio della crittografia a curva ellittica, una chiave privata è rappresentata da un numero casuale tra $1$ e $n-1$, dove $n$ rappresenta l'ordine della curva. La chiave pubblica, d'altra parte, è un punto specifico su questa curva, ottenuto dalla chiave privata tramite operazioni di addizione e raddoppio di punti partendo dal punto generatore, secondo l'equazione:
+
 $$
 
 K = k \cdot G
+
 
 $$
 
@@ -2670,19 +2740,19 @@ Utilizzeremo questa proprietà per adattare il nostro algoritmo Diffie-Hellman. 
 
 - Alice genera un numero casuale $ka$ che sarà la sua chiave privata. Questa chiave privata deve rimanere segreta. Determina la sua chiave pubblica $Ka$ tramite addizione e raddoppio di punti sulla curva ellittica scelta:
 
-
 $$
 
 K_a = k_a \cdot G
+
 
 $$
 
 - Anche Bob genera un numero casuale $kb$ che sarà la sua chiave privata. Calcola la chiave pubblica associata $Kb$:
 
-
 $$
 
 K_b = k_b \cdot G
+
 
 $$
 
@@ -2690,19 +2760,19 @@ $$
 
 - Alice calcola un punto $(x,y)$ sulla curva applicando la sua chiave privata $ka$ alla chiave pubblica di Bob $Kb$:
 
-
 $$
 
 (x,y) = k_a \cdot K_b
+
 
 $$
 
 - Bob calcola un punto $(x,y)$ sulla curva applicando la sua chiave privata $kb$ alla chiave pubblica di Alice $Ka$:
 
-
 $$
 
 (x,y) = k_b \cdot K_a
+
 
 $$
 
@@ -2710,6 +2780,7 @@ $$
 
 Infatti, ottengono lo stesso segreto condiviso perché:
 (x,y) = k_a \cdot K_b = k_a \cdot (k_b \cdot G) = (k_a \cdot k_b) \cdot G = (k_b \cdot k_a) \cdot G = k_b \cdot (k_a \cdot G) = k_b \cdot K_a
+
 $$
 
 Un attaccante che osserva la rete pubblica non protetta può ottenere solo le chiavi pubbliche di ciascuna parte e i parametri della curva ellittica scelta. Come precedentemente spiegato, queste informazioni da sole non sono sufficienti per determinare le chiavi private. Pertanto, l'attaccante non può trovare il segreto condiviso tra Alice e Bob.
@@ -2770,8 +2841,11 @@ Ora, vediamo come funziona questa transazione di notifica. Immaginiamo che Alice
 
 - Alice seleziona la chiave privata da questa coppia. La chiamiamo $a$ (minuscolo);
 
+
 $$
+
 a
+
 $$
 
 - Alice recupera la chiave pubblica associata all'indirizzo di notifica di Bob. Questa chiave è la prima figlia derivata dal codice di pagamento di Bob (indice $/0$). Chiamiamo questa chiave pubblica $B$ (maiuscolo). La chiave privata associata a questa chiave pubblica è chiamata $b$ (minuscolo). $B$ è determinata dall'addizione e dal raddoppio dei punti sulla curva ellittica da $G$ (il punto generatore) con $b$ (la chiave privata):
@@ -2893,47 +2967,68 @@ XOR è un operatore logico bit a bit basato sull'algebra booleana. Con due opera
 
 Per esempio:
 
+
 $$
+
 0110 \oplus 1110 = 1000
+
 $$
 
 Oppure:
 
+
 $$
+
 010011 \oplus 110110 = 100101
+
 $$
 
 Con ECDH, l'uso di XOR come strato di crittografia è particolarmente adatto. Innanzitutto, a causa di questo operatore, la crittografia è simmetrica. Questo consente al destinatario di decifrare il codice di pagamento con la stessa chiave utilizzata per la crittografia. La chiave di crittografia e decrittografia viene calcolata dal segreto condiviso grazie a ECDH. Questa simmetria è resa possibile dalle proprietà commutativa e associativa dell'operatore XOR:
 
 - Altre proprietà:
 
+
 $$
+
 D \oplus D = 0
+
 $$
 D ⊕ 0 = D
 - Commutatività:
 
+
 $$
+
 D \oplus E = E \oplus D
+
 $$
 
 - Associatività:
 
+
 $$
+
 D \oplus (E \oplus Z) = (D \oplus E) \oplus Z = D \oplus E \oplus Z
+
 $$
 
 Se:
 
+
 $$
+
 D \oplus E = L
+
 $$
 
 Allora:
 
+
 $$
+
 D \oplus L = D \oplus (D \oplus E) = D \oplus D \oplus E = 0 \oplus E = E \\
 \therefore D \oplus L = E
+
 $$
 
 Successivamente, questo metodo di cifratura assomiglia molto al cifrario di Vernam (One-Time Pad), l'unico algoritmo di cifratura conosciuto fino ad oggi che possiede sicurezza incondizionata (o assoluta). Affinché il cifrario di Vernam abbia questa caratteristica, la chiave di cifratura deve essere perfettamente casuale, deve essere della stessa dimensione del messaggio e deve essere utilizzata una sola volta. Nel metodo di cifratura utilizzato qui per BIP47, la chiave è effettivamente della stessa dimensione del messaggio, il fattore di offuscamento è esattamente della stessa dimensione della concatenazione della coordinata x della chiave pubblica con il codice catena del codice di pagamento. Questa chiave di cifratura è effettivamente utilizzata una sola volta. Tuttavia, questa chiave non è il risultato di una casualità perfetta poiché è un HMAC. È piuttosto pseudo-casuale. Pertanto, non si tratta di un cifrario di Vernam, ma il metodo è simile.
@@ -3135,7 +3230,7 @@ Bob può quindi rimborsare Alice nello stesso modo in cui lei gli ha inviato i p
 ![BTC204](assets/it/66/26.webp)
 _Un grande ringraziamento a [Fanis Michalakis](https://x.com/FanisMichalakis) per la sua revisione e preziosi consigli esperti sull'articolo che ha ispirato la scrittura di questo capitolo!_
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Pagamenti Silenziosi
 
@@ -3257,12 +3352,18 @@ Poiché Bob si ferma immediatamente a $i = 0$ se $P_0$ non produce risultati, l'
 
 Bob può quindi calcolare le chiavi private nello stesso modo:
 
-$$
-p_0 = (b + \text{hash}(b \cdot A \text{ ‖ } 0)) \bmod n
-$$
 
 $$
+
+p_0 = (b + \text{hash}(b \cdot A \text{ ‖ } 0)) \bmod n
+
+$$
+
+
+$$
+
 p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n
+
 $$
 
 _Didascalia:_
@@ -3299,8 +3400,11 @@ $$ P_0 = B + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot 
 
 Quando trova un valido $P_0$, può calcolare la corrispondente chiave privata $p_0$:
 
+
 $$
+
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
+
 $$
 
 _Legenda:_
@@ -3487,20 +3591,17 @@ Dato che questa funzionalità è recente, è consigliabile esercitare cautela ed
 
 _Per creare questo capitolo sui Pagamenti Silenziosi, ho utilizzato [il sito di spiegazione dei Pagamenti Silenziosi](https://silentpayments.xyz/) e [il documento di spiegazione del BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
+# Conclusione
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Dacci un feedback su questo corso
+## Recensioni & Valutazioni
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Esame finale
+<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Conclusione
-
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-
-Congratulazioni per aver completato questa formazione sulla privacy in Bitcoin!
-
-Abbiamo trattato molti argomenti avanzati e tecnici in questa formazione, ma non è imperativo utilizzare tutti gli strumenti presentati. L'obiettivo principale era di permetterti di scegliere le informazioni che desideri divulgare e quelle che preferisci mantenere confidenziali nel tuo uso di Bitcoin. Questo incarna l'essenza stessa della protezione della privacy. Per prendere decisioni informate sulle informazioni da condividere o nascondere, è necessario essere consapevoli delle implicazioni delle nostre azioni. Spero che questa formazione ti abbia aiutato a ottenere questa conoscenza.
-Se dovessi scegliere la parte più importante di questa formazione, sceglierei la sezione dedicata all'analisi della catena. Comprendere le tecniche utilizzate dai potenziali attaccanti è il modo migliore per proteggersi. Pertanto, il mio consiglio sarebbe di rivedere attentamente questa parte e cercare di afferrarne tutti i dettagli.
-In questo corso di formazione, ci siamo concentrati esclusivamente sulla privacy di Bitcoin sulla catena principale. Le questioni relative alla privacy sui sistemi di secondo livello, come la Lightning Network e le sidechain, sono altrettanto significative e presentano caratteristiche molto specifiche. Sebbene l'utilizzo di transazioni off-chain possa essere una strategia efficace per eludere i numerosi rischi di tracciabilità su Bitcoin che abbiamo studiato, espone a ulteriori rischi dei quali è essenziale essere consapevoli. Ecco perché questi argomenti saranno trattati in un futuro corso di formazione dedicato sulla PlanB Network.
-Se questo corso di formazione ti è piaciuto, ti sarei molto grato se potessi condividerlo con i tuoi amici e sui social media. Grazie! :)
-
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,17 @@
+- start_date: 2025-10-03 08:00:00
+  end_date: 2025-10-05 16:00:00
+  timezone: Europe/Madrid
+  address_line_1: Madrid, España
+  name: Watch out, Bitcoin!
+  builder: wobitcoin
+  type: conference
+  description: Watch out, Bitcoin! es un evento presencial anual para hablar y debatir sobre Bitcoin.
+  language:
+    - es
+    - en
+  links:
+    website: https://wobitcoin.org/
+  tags:
+    - adoption
+    - decentralization
+    - self-sovereignty

@@ -66,7 +66,7 @@ Whirlpool was designed taking into account two important requirements:
 These imperatives guided the choices of the developers of Samourai Wallet in the design of Whirlpool, leading them to limit the number of participants per cycle. Too few participants would have compromised the efficiency of the coinjoin, drastically reducing the anonsets generated each cycle, while too many participants would have posed management problems on mobile applications and would have hindered the flow of cycles.
 **Ultimately, there is no need to have a high number of participants per coinjoin on Whirlpool since the anonsets are achieved through the accumulation of several coinjoin cycles.**
 
-[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### The pools and coinjoin fees
 For these multiple cycles to effectively increase the anonsets of the mixed coins, a certain framework must be established to restrict the amounts of UTXO used. Whirlpool thus defines different pools.
@@ -172,14 +172,14 @@ There are many options for using Whirlpool. The one I want to introduce here is 
 Performing coinjoins via Samourai Wallet using your own Dojo is, in my opinion, the most effective strategy for conducting coinjoins on Bitcoin to date. This approach requires some initial investment in terms of setup, but once in place, it offers the possibility to mix and remix your bitcoins continuously, 24 hours a day, 7 days a week, without the need to keep your Samourai application active at all times. Indeed, thanks to Whirlpool CLI operating on a Bitcoin node, you are always ready to participate in coinjoins. The Samourai application then gives you the opportunity to spend your mixed funds at any time, wherever you are, directly from your smartphone. Moreover, this method has the advantage of never connecting you to servers managed by the Samourai teams, thus preserving your `xpub` from any external exposure.
 
 This technique is therefore ideal for those seeking maximum privacy and the highest quality coinjoin cycles. However, it requires having a Bitcoin node at your disposal and, as we will see later, requires some setup. It is thus more suited to intermediate to advanced users. For beginners, I recommend getting acquainted with coinjoin through these two other tutorials, which show how to do it from Sparrow Wallet or Samourai Wallet (without Dojo):
-- **[Sparrow Wallet coinjoin tutorial](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet)**;
-- **[Samourai Wallet coinjoin tutorial (without Dojo)](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet)**.
+- **[Sparrow Wallet coinjoin tutorial](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- **[Samourai Wallet coinjoin tutorial (without Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 ### Understanding the Setup
 To start, you're going to need a Dojo! Dojo is a Bitcoin node implementation based on Bitcoin Core, developed by the Samourai teams.
 
 To run your own Dojo, you have the option of either installing a Dojo node autonomously, or taking advantage of Dojo on top of another "node-in-box" Bitcoin node solution. Currently, the available options are:
-- [RoninDojo](https://ronindojo.io/), which is a Dojo enhanced with additional tools, including an installation assistant and an administration assistant. I detail the procedure for setting up and using RoninDojo in this other tutorial: [RONINDOJO V2](https://planb.network/en/tutorials/node/ronin-dojo-v2);
+- [RoninDojo](https://ronindojo.io/), which is a Dojo enhanced with additional tools, including an installation assistant and an administration assistant. I detail the procedure for setting up and using RoninDojo in this other tutorial: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) with the "Samourai Server" application;
 - [MyNode](https://mynodebtc.com/) with the "Dojo" application;
 - [Nodl](https://www.nodl.eu/) with the "Dojo" application;
@@ -261,7 +261,7 @@ In the next step, you will access the page dedicated to configuring your Dojo. S
 
 ![coinjoin](assets/notext/24.webp)
 
-*For new users of Samourai, it will then be necessary to create a wallet from scratch. If you need assistance, you can consult the instructions for setting up a new Samourai wallet [in this tutorial, specifically in the section "Creating a software wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*For new users of Samourai, it will then be necessary to create a wallet from scratch. If you need assistance, you can consult the instructions for setting up a new Samourai wallet [in this tutorial, specifically in the section "Creating a software wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 If you are proceeding with the restoration of an already existing Samourai wallet, select `Restore existing wallet`, then choose `I have a Samourai backup file`.
 
@@ -373,4 +373,7 @@ Whirlpool accounts are easily identifiable on Samourai Wallet by their blue colo
 
 ![coinjoin](assets/notext/53.webp)
 
-To keep track of your automatic coinjoins, I also recommend setting up a watch-only wallet via the Sentinel app. Add the ZPUB of your **Postmix** account and monitor the progress of your coinjoin cycles in real-time. If you want to understand how to use Sentinel, I recommend consulting this other tutorial on PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)
+To keep track of your automatic coinjoins, I also recommend setting up a watch-only wallet via the Sentinel app. Add the ZPUB of your **Postmix** account and monitor the progress of your coinjoin cycles in real-time. If you want to understand how to use Sentinel, I recommend consulting this other tutorial on PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+
+
+

@@ -1,0 +1,13 @@
+question: Apa 2 risiko privasi yang terkait dengan pemilihan koin?
+
+answer: CIOH dan hubungan antara input / identitas oleh penerima.
+
+wrong_answers:
+  - Pelacakan alamat IP dan korelasi aktivitas.
+  - Pelacakan temporal dan penggunaan ulang alamat.
+  - Penggunaan ulang alamat dan hubungan antara input / identitas oleh pengamat eksternal.
+
+explanation: |
+  Dua risiko perlu dipertimbangkan ketika memilih koin: kemungkinan bagi penerima pembayaran untuk menghubungkan sebagian identitas Anda dengan UTXO yang digunakan sebagai input dan kemampuan pengamat eksternal untuk menetapkan hubungan antara semua UTXO yang dikonsumsi sebagai input (CIOH).
+
+reviewed: false

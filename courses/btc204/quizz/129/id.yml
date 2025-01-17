@@ -1,0 +1,11 @@
+question: Apa dua varian utama kontrak pintar yang digunakan dalam coinswaps?
+
+answer: HTLC dan PTLC
+
+wrong_answers:
+  - Multi-signature dan Single-signature
+  - Smart Contracts dan DApps
+  - SegWit dan Taproot
+
+explanation: |
+  Untuk melakukan coinswap, seseorang dapat menggunakan HTLCs (Hash Time-Locked Contracts) atau PTLCs (Point Time-Locked Contracts).

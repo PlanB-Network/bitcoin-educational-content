@@ -1,0 +1,9 @@
+question: ¿Cuál es el objetivo principal de la teoría de números?
+answer: Estudiar las propiedades de los números enteros y las funciones que operan con ellos
+wrong_answers:
+  - Analizar transformaciones geométricas
+  - Estudiar la estructura de figuras geométricas aleatorias en un grupo finito
+  - Desarrollar algoritmos de cifrado simétrico
+explanation: |
+  La teoría de números se centra en las propiedades de los números enteros y las funciones aplicadas a los números enteros, a menudo para aplicaciones en criptografía, especialmente en el contexto de la criptografía de clave pública.
+reviewed: false

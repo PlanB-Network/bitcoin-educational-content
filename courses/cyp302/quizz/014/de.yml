@@ -1,0 +1,9 @@
+question: Welche Haltung sollten Nutzer bezüglich der Privatsphäre ihrer Kommunikation im modernen Umfeld einnehmen?
+answer: Gehen Sie davon aus, dass immer jemand zuhört
+wrong_answers:
+  - Verlassen Sie sich ausschließlich auf Wi-Fi
+  - Glauben Sie, dass mobile Daten vollkommen sicher sind
+  - Nutzen Sie nur kabelgebundene Verbindungen
+explanation: |
+  In einer Welt, in der viele Kommunikationskanäle der Gefahr einer Abhörung ausgesetzt sind, ist es klug anzunehmen, dass eine dritte Partei zuhören könnte, was die Kryptographie unerlässlich macht.
+reviewed: false

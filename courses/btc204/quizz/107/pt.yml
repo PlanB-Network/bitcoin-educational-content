@@ -1,0 +1,11 @@
+question: Como uma transação payjoin pode ser considerada uma transação esteganográfica?
+
+answer: Ela oculta o valor real do pagamento de observadores externos.
+
+wrong_answers:
+  - Ela criptografa o valor real do pagamento para observadores externos.
+  - Ela oculta o valor real do pagamento do destinatário.
+  - Ela criptografa o valor real do pagamento para o destinatário.
+
+explanation: |
+  A transação payjoin se enquadra no domínio da esteganografia porque esconde o valor real de uma transação dentro de uma transação falsa que atua como um chamariz para observadores externos.

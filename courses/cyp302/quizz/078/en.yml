@@ -1,0 +1,9 @@
+question: What does a brute force attack mean?
+answer: Trying all possible keys until the right one is found
+wrong_answers:
+  - Changing the text to make it incomprehensible
+  - Using a public key to decrypt the message
+  - Hitting the computer very hard to force it to give up the secret key
+explanation: |
+  A brute force attack involves systematically testing all possible keys to decrypt an encrypted message.
+reviewed: false

@@ -1,12 +1,12 @@
-question: Quel est le but principal du Lightning Network?
-answer: Faciliter les micro-transactions
+question: Quel est le but principal du Lightning Network ?
+answer: Faciliter les micro-transactions.
 wrong_answers:
-  - Augmenter la valeur du Bitcoin
-  - Remplacer le protocole Bitcoin
-  - Créer une nouvelle cryptomonnaie
-explanation: |
-  Le Lightning Network est une solution de deuxième couche pour le protocole Bitcoin
-  qui vise à faciliter les micro-transactions, c'est-à-dire les transactions de très faible valeur
-  qui seraient autrement impraticables en raison des frais élevés et des longs délais de confirmation
+  - Augmenter la valeur du Bitcoin.
+  - Remplacer le protocole Bitcoin.
+  - Créer une nouvelle cryptomonnaie.
+explanation: >-
+  Le Lightning Network est une solution de deuxième couche au protocole Bitcoin
+  qui vise à faciliter les micro-transactions, qui sont des transactions de très faible valeur
+  qui seraient autrement impraticables en raison des frais élevés et des longs temps de confirmation
   sur la blockchain Bitcoin.
-reviewed: false
+reviewed: true

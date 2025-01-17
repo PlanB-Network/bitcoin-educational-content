@@ -1,11 +1,9 @@
-question: Các hằng số K đại diện cho điều gì trong quá trình xử lý của hàm SHA-256?
-answer: 32 bit đầu tiên của phần thập phân của căn bậc ba của 64 số nguyên tố đầu tiên
+question: Hàm băm nào được HMAC sử dụng trong bối cảnh của Bitcoin?
+answer: SHA512
 wrong_answers:
-  - 32 bit đầu tiên của phần thập phân của căn bậc hai của 64 số nguyên tố đầu tiên
-  - 32 bit đầu tiên của phần thập phân của căn bậc ba của 8 số nguyên tố đầu tiên
-  - 32 bit đầu tiên của phần thập phân của căn bậc hai của 8 số nguyên tố đầu tiên
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  Trong quá trình xử lý của hàm SHA-256, các hằng số K, từ 0 đến 63, đại diện cho
-  32 bit đầu tiên của phần thập phân của căn bậc ba của 64 số nguyên tố đầu tiên.
-  Những số này được sử dụng như là nguyên liệu cơ bản trong công thức mã hóa.
+  HMAC sử dụng SHA512 để tạo ra một băm an toàn 512-bit.
 reviewed: false

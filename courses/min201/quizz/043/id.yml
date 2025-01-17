@@ -1,0 +1,14 @@
+question: Apa arti peribahasa Not your hashrate, not your reward dalam konteks penambangan Bitcoin?
+answer: Jika Anda tidak mengontrol hashrate, Anda tidak mengontrol hadiah penambangan.
+wrong_answers:
+  - Jika Anda tidak memiliki hashrate yang tinggi, Anda tidak akan mendapatkan hadiah apa pun.
+  - Jika Anda tidak memiliki Bitcoin, Anda tidak akan mendapatkan hadiah apa pun.
+  - Jika Anda tidak memiliki mesin penambangan, Anda tidak akan mendapatkan hadiah apa pun.
+explanation: |
+  Peribahasa Not your hashrate, not your reward serupa
+  dengan peribahasa terkenal di dunia kriptokurensi,
+  Not your keys, not your Bitcoins. Ini berarti jika Anda
+  tidak mengontrol hashrate, Anda tidak mengontrol hadiah
+  penambangan. Ini karena hadiah dari penambangan adalah
+  secara langsung proporsional dengan hashrate.
+reviewed: true

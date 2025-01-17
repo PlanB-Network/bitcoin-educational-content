@@ -1,0 +1,8 @@
+question: Hva er den korrekte rekkefølgen av operasjoner i autentisert kryptering?
+answer: Først krypter, deretter opprett en tag på den krypterte teksten
+wrong_answers:
+  - Først opprett en tag, deretter krypter meldingen og taggen
+  - Kombiner klarteksten med en tag, deretter krypter
+  - Opprett en tag, deretter bruk en offentlig nøkkel for å kryptere den
+explanation: |
+  For å sikre sikkerhet, må autentisert kryptering først kryptere meldingen, deretter generere en tag på den krypterte teksten. Andre rekkefølger er potensielt sårbare.

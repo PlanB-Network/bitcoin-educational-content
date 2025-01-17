@@ -1,0 +1,11 @@
+question: ¿Cómo se calcula la entropía en el contexto del análisis de cadenas en Bitcoin?
+
+answer: Tomando el logaritmo binario del número de interpretaciones.
+
+wrong_answers:
+  - Multiplicando el número de entradas por el número de salidas.
+  - Sumando el número de entradas y salidas.
+  - Tomando el logaritmo binario del número de entradas y salidas.
+
+explanation: |
+  La entropía se define como el logaritmo binario del número de combinaciones posibles.

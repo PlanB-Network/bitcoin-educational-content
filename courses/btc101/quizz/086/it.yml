@@ -1,11 +1,12 @@
-question: Cos'è un portafoglio freddo?
-answer: Un portafoglio fisico dove le tue chiavi sono conservate su un dispositivo che non è connesso a Internet
+question: Cos'è un cold wallet?
+answer: Un portafoglio in un dispositivo fisico che conserva le tue chiavi e non è connesso a Internet.
 wrong_answers:
-  - Un portafoglio che è fisicamente freddo al tatto
-  - Un portafoglio che è impopolare tra gli utenti Bitcoin
-  - Un portafoglio che è consigliato per conservare piccole quantità di bitcoin
+  - Un portafoglio che è fisicamente freddo al tatto.
+  - Un portafoglio che non è popolare tra gli utenti di Bitcoin.
+  - Un portafoglio che è consigliato per conservare piccole quantità di bitcoin.
 explanation: |
-  Un portafoglio freddo è un termine usato per descrivere un portafoglio Bitcoin che è conservato
-  su un dispositivo che non è connesso a Internet. Questo lo rende meno vulnerabile
-  alle minacce online, ma significa anche che il portafoglio è meno accessibile per le transazioni quotidiane.
-reviewed: false
+  Un cold wallet è un termine usato per descrivere un portafoglio Bitcoin
+  che è conservato su un dispositivo non connesso a Internet. Questo lo rende
+  meno vulnerabile a minacce online, ma significa anche che il portafoglio è
+  meno accessibile per transazioni quotidiane.
+reviewed: true

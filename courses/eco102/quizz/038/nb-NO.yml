@@ -1,0 +1,9 @@
+question: Hvordan anser Bastiat en god definisjon av eiendom?
+answer: Den må ta hensyn til årsakene
+wrong_answers:
+  - Den må ta hensyn til effektene
+  - Den må ta hensyn til loven
+  - Den må være basert på sosial anerkjennelse
+explanation: |
+  Bastiat mener at eiendom bør defineres basert på dens årsaker, som arbeid og personlig innsats, heller enn som en ren juridisk konstruksjon.
+reviewed: false

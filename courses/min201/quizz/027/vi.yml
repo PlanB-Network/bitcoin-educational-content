@@ -1,15 +1,13 @@
 question: Tại sao Bằng chứng Công việc (Proof of Work) lại quan trọng trong mạng lưới Bitcoin?
-answer: Nó đại diện cho mối liên kết vật lý giữa thế giới thực và Bitcoin, yêu cầu năng lượng hữu hình cho việc sản xuất và xác thực bitcoin và các khối.
+answer: Nó đại diện cho mối liên kết vật lý giữa thế giới thực và Bitcoin, yêu cầu năng lượng hữu hình cho việc sản xuất và xác thực bitcoins và các khối.
 wrong_answers:
-  - Nó cho phép sự tham gia quy mô nhỏ.
-  - Nó đảm bảo bảo vệ chống lại sự tập trung hóa.
-  - Nó phản ánh sự bất bình đẳng quyền lực hiện hữu trong xã hội.
+  - Nó cho phép sự tham gia quy mô nhỏ của các thợ mỏ, đặc biệt là những người ở các địa điểm bị kiểm duyệt nghiêm ngặt.
+  - Nó đảm bảo bảo vệ chống lại sự tập trung quyền lực.
+  - Nó phản ánh sự bất bình đẳng quyền lực hiện có trong xã hội.
 explanation: |
-  Bằng chứng Công việc (Proof of Work) quan trọng trong mạng lưới Bitcoin vì nó đại diện
-
-  cho mối liên kết vật lý giữa thế giới thực và Bitcoin. Việc sản xuất và xác thực
-
-  bitcoin và các khối yêu cầu năng lượng hữu hình, neo giữ mạng lưới Bitcoin vào
-
-  thực tại vật lý và ngăn chặn sự thống trị hoàn toàn của các thực thể mạnh mẽ.
-reviewed: false
+  Bằng chứng Công việc quan trọng trong mạng lưới Bitcoin vì
+  nó đại diện cho mối liên kết vật lý giữa thế giới thực và
+  Bitcoin. Việc sản xuất và xác thực bitcoins và
+  các khối yêu cầu năng lượng hữu hình, neo giữ mạng lưới Bitcoin
+  vào thực tại vật lý và ngăn chặn sự thống trị hoàn toàn của nó bởi các thực thể mạnh mẽ.
+reviewed: true

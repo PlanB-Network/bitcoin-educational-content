@@ -1,0 +1,9 @@
+question: Jaký prvek chyběl v návrhu Bitcoinu 31. října 2008?
+answer: Konečné množství jednotek
+wrong_answers:
+  - Důkaz práce
+  - Zjednodušené ověření platby
+  - Blockchain
+explanation: |
+  Počáteční měnová politika odpovídala konstantnímu vydávání (X BTC/blok), jak bylo uvedeno v první verzi bílé knihy a Satoshiho [výměnách](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) s Rayem Dillingerem.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Apa risiko utama menggunakan PRNG yang dirancang dengan buruk untuk menghasilkan entropi?
+answer: Kunci privat bisa ditebak oleh penyerang
+wrong_answers:
+  - Frase mnemonik bisa mengandung kata-kata yang salah
+  - Tanda tangan digital akan menjadi tidak valid
+  - Alamat Bitcoin akan tidak kompatibel dengan jaringan
+explanation: |
+  PRNG yang dirancang dengan buruk dapat menghasilkan urutan yang dapat diprediksi, membuat kunci lebih rentan terhadap serangan.

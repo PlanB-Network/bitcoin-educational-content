@@ -1,0 +1,9 @@
+question: Hva kalles en gruppe som tilfredsstiller kommutativitetsbetingelsen?
+answer: En abelsk gruppe
+wrong_answers:
+  - En lukket gruppe
+  - En assosiativ gruppe
+  - En invers gruppe
+explanation: |
+  En abelsk, eller kommutativ, gruppe er en gruppe der rekkefølgen av elementene i den binære operasjonen ikke påvirker resultatet. Dette betyr at for alle a og b, er a ∘ b = b ∘ a.
+reviewed: false

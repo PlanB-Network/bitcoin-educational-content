@@ -1,9 +1,14 @@
-question: ¿Qué es el Problema de los Generales Bizantinos y cómo lo resuelve Bitcoin?
-answer: Es un problema de coordinación de información en un sistema donde los diferentes actores no pueden ser confiables. Bitcoin lo resuelve mediante el uso de una cadena de bloques basada en Prueba de Trabajo con una dificultad variable.
+question: ¿Cuál es el Problema de los Generales Bizantinos?
+answer: Es un problema de coordinación de información en un sistema donde los diversos actores no pueden ser confiados.
 wrong_answers:
-  - Es un problema de verificación de transacciones en una red descentralizada. Bitcoin lo resuelve mediante el uso de firmas digitales.
-  - Es un problema de evitar el doble gasto en una moneda digital. Bitcoin lo resuelve mediante el uso de un libro mayor público.
-  - Es un problema de mantener el consenso en una red descentralizada. Bitcoin lo resuelve mediante el uso de un algoritmo de Prueba de Participación.
+  - Es un problema de verificación de transacciones en una red descentralizada.
+  - Es un problema de prevención de doble gasto en una moneda digital.
+  - Es un problema de mantenimiento de consenso en una red centralizada.
 explanation: |
-  El Problema de los Generales Bizantinos es un problema clásico en la computación distribuida, que implica lograr consenso en una red donde algunos de los nodos pueden ser defectuosos o maliciosos. Bitcoin resuelve este problema mediante el uso de una cadena de bloques basada en Prueba de Trabajo, que garantiza que todos los nodos estén de acuerdo en el estado del historial de transacciones.
-reviewed: false
+  El Problema de los Generales Bizantinos es un problema clásico en
+  la computación distribuida, que implica lograr consenso
+  en una red donde algunos de los nodos pueden ser defectuosos o
+  maliciosos. Bitcoin resuelve este problema mediante el uso de una
+  blockchain basada en Prueba de Trabajo, lo que asegura que todos
+  los nodos estén de acuerdo en el estado del historial de transacciones.
+reviewed: true

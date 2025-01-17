@@ -1,9 +1,0 @@
-question: Hóa đơn Mạng Lưới Sét (Lightning Network) là gì?
-answer: Đó là một biểu diễn cô đọng của một yêu cầu thanh toán.
-wrong_answers:
-  - Đó là một bản ghi của tất cả các giao dịch trên Mạng Lưới Sét.
-  - Đó là một công cụ để đào Bitcoin.
-  - Đó là một loại ví điện tử để lưu trữ Bitcoin.
-explanation:
-  Hóa đơn Mạng Lưới Sét là một biểu diễn cô đọng của một yêu cầu thanh toán. Nó chứa thông tin quan trọng như số tiền cần thanh toán, người nhận, dấu thời gian tạo, và có thể là thông tin khác như hash của preimage, bí mật thanh toán, gợi ý định tuyến, và thời gian hết hạn.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Quels types de paires de clés enfant peuvent être dérivés de la clé privée étendue ?
-answer: La clé privée étendue permet la dérivation de toutes les clés enfant, à la fois publiques et privées, en mode normal ou en mode renforcé.
-wrong_answers:
-  - La clé privée étendue permet uniquement la dérivation de clés enfant normales.
-  - La clé privée étendue permet uniquement la dérivation de clés enfant renforcées.
-  - La clé privée étendue ne permet pas la dérivation de clés enfant.
-explanation: |
-  La clé privée étendue permet la dérivation de toutes les clés enfant, à la fois publiques et privées, que ce soit en mode normal ou en mode renforcé. Cela contraste avec la clé publique étendue, qui permet uniquement la dérivation de clés enfant publiques normales.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Apa peran dompet LN panas bagi seorang Hodler yang ingin melangkah lebih jauh?
+answer: Untuk menghabiskan sebagian Bitcoin.
+wrong_answers:
+  - Untuk membeli lebih banyak Bitcoin.
+  - Untuk menyimpan semua Bitcoin mereka.
+  - Untuk berdagang Bitcoin.
+explanation: |
+  Seorang Hodler yang ingin melangkah lebih jauh dapat menggunakan dompet LN panas untuk menghabiskan
+  sebagian Bitcoin, selain menyimpannya untuk jangka panjang.

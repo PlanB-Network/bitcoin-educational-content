@@ -1,9 +1,9 @@
-question: Mikä on energiakustannusten merkitys Bitcoin-louhinnassa?
-answer: Energiakulutus on tarpeellista tiedon tuottamiseksi, mutta tiedon varmentamisen kustannus on merkityksetön. Tämä epäsymmetria takaa verkon turvallisuuden.
+question: Mikä on energiankulutuksen merkitys Bitcoin-louhinnassa?
+answer: Energiankulutus on tarpeen tiedon tuottamiseksi, mutta tiedon varmentamisen kustannus on merkityksetön. Tämä epäsymmetria takaa verkon turvallisuuden.
 wrong_answers:
-  - Energiakustannukset ovat tarpeen ASIC-laitteiden käyttämiseen louhinnassa.
-  - Energiakustannukset ovat tarpeen Bitcoin-verkon ylläpitämiseksi.
-  - Energiakustannukset ovat tarpeen uusien bitcoinien luomiseksi.
+  - Energiankulutus on tarpeen ASIC-laitteiden käyttämiseksi louhinnassa, ja tiedon varmentamisen kustannukset ovat korkeat.
+  - Energiankulutus on tarpeen Bitcoin-verkon ylläpitämiseksi, ja tiedon varmentamisen kustannukset ovat muuttuvat.
+  - Energiankulutus ei ole tarpeen uusien bitcoinien luomiseksi.
 explanation: >-
-  Energiakustannukset Bitcoin-louhinnassa ovat keskeinen osa verkon turvallisuutta. Louhinnan korkea energiakustannus tekee lohkoketjun manipuloinnista erittäin kalliin toimenpiteen haitallisille toimijoille, kun taas transaktioiden varmentamisen alhainen kustannus varmistaa, että kuka tahansa voi osallistua verkkoon.
+  Energiankulutus Bitcoin-louhinnassa on verkon turvallisuuden kannalta kriittinen tekijä. Korkea energiankulutus tekee louhinnasta erittäin kalliin toimenpiteen pahantahtoiselle toimijalle blockchainin manipuloimiseksi, kun taas transaktioiden varmentamisen alhainen kustannus varmistaa, että kuka tahansa voi osallistua verkkoon.
 reviewed: false

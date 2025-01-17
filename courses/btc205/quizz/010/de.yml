@@ -1,9 +1,0 @@
-question: Welche P2P-Lösung, die im Kapitel diskutiert wird, verwendet ein DAO-System und Multisign zur Streitbeilegung?
-answer: Bisq
-wrong_answers:
-  - RoboSat
-  - LNP2PBot
-  - Peach
-explanation: |
-  Laut dem Kapitel ist Bisq eine nicht-hoheitliche P2P-Lösung, die ein DAO (Dezentralisierte Autonome Organisation) System verwendet und Multisign zur Streitbeilegung einsetzt.
-reviewed: false

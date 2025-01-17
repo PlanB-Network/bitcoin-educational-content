@@ -1,10 +1,11 @@
 question: Jaká je výhoda jednorázových hesel (HOTP a TOTP) oproti SMS pro 2FA?
-answer: Vyžadují kryptografický výpočet a jsou uložena lokálně místo v paměti.
+answer: Vyžadují kryptografický výpočet a jsou uloženy lokálně místo v paměti.
 wrong_answers:
-  - Jsou rychlejší
-  - Jsou levnější
-  - Jsou snazší na zapamatování
+  - Vyžadují kryptografický výpočet a jsou uloženy v paměti místo lokálně.
+  - Nevyžadují kryptografický výpočet a jsou uloženy jak lokálně, tak v paměti.
+  - Jsou snadněji zapamatovatelná a rychlejší na zadání.
 explanation: |
-  Jednorázová hesla (HOTP a TOTP) jsou bezpečnější než SMS, protože vyžadují
-  kryptografický výpočet a jsou uložena lokálně místo v paměti.
-reviewed: false
+  Jednorázová hesla (HOTP a TOTP) jsou bezpečnější než SMS,
+  protože vyžadují kryptografický výpočet a jsou
+  uložena lokálně místo v paměti.
+reviewed: true

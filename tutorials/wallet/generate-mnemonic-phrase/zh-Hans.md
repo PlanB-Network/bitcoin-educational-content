@@ -25,7 +25,7 @@ description: 如何用骰子生成你自己的恢复短语？
 - 一张纸；
 - 一支笔或铅笔，理想情况下使用不同颜色以便组织；
 - 几个骰子，以最小化由不平衡的骰子引起的偏差风险；
-- 打印出来的[2048个BIP39单词列表](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)。
+- 打印出来的[2048个BIP39单词列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)。
 
 随后，将需要使用带有终端的计算机来计算校验和。正是出于这个原因，我不建议手动生成助记词短语。我认为，即使在本教程中提到的预防措施下，计算机的介入显著增加了钱包的脆弱性。
 在关于“虚构钱包”的实验方法中，您可以使用常规电脑及其终端。然而，为了更严格地限制泄露您的短语的风险，理想的做法是使用一台与互联网断开连接的电脑（最好没有wifi组件或RJ45有线连接），配备最少的外设（所有外设都应通过电缆连接，以避免使用蓝牙），最重要的是，运行一个如[Tails](https://tails.boum.org/index.fr.html)这样的失忆型Linux发行版，从一个可移动介质启动。
@@ -59,7 +59,7 @@ description: 如何用骰子生成你自己的恢复短语？
 
 ![mnemonic](assets/notext/5.webp)
 
-最后，十进制数告诉我们对应词在[2048个BIP39词的列表](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)中的位置。剩下的就是选择这些词来组成我们钱包的恢复短语。
+最后，十进制数告诉我们对应词在[2048个BIP39词的列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)中的位置。剩下的就是选择这些词来组成我们钱包的恢复短语。
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -206,7 +206,7 @@ a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 
 ![助记词](assets/notext/24.webp)
 在此调整之后，你将得到列表中每个单词的排名。剩下的就是通过它们的编号来识别每个单词。显然，与所有其他步骤一样，你不能使用计算机来执行这一转换。因此，请确保你事先已经打印出了列表。
-[**-> 以A4格式打印BIP39列表。**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> 以A4格式打印BIP39列表。**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 例如，如果从第一行得到的数字是1721，对应的单词将是列表中的第1721个：
 ```plaintext

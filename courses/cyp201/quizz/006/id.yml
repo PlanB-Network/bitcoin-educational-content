@@ -1,0 +1,8 @@
+question: Apa yang terjadi selama setiap putaran kompresi di SHA256?
+answer: Variabel-variabel keadaan diperbarui dari kata-kata pesan dan konstanta
+wrong_answers:
+  - Hash akhir dihasilkan secara bertahap setelah setiap putaran
+  - Bit-bit pesan diatur ulang
+  - Nilai awal dari variabel-variabel tetap tidak berubah
+explanation: |
+  Setiap putaran memodifikasi variabel-variabel keadaan menggunakan kata-kata, konstanta, dan operasi logika untuk menyebarkan informasi.

@@ -1,0 +1,9 @@
+question: Điều gì tạo điều kiện cho việc nghe trộm thông tin liên lạc địa phương bởi những kẻ tấn công thiếu trang bị?
+answer: Sử dụng sóng vô tuyến cho kết nối không dây
+wrong_answers:
+  - Định tuyến tất cả dữ liệu qua vệ tinh
+  - Chỉ sử dụng cáp đồng trục để truyền dữ liệu
+  - Chỉ gửi dữ liệu qua cáp quang
+explanation: |
+  Kết nối không dây, truyền dữ liệu qua sóng vô tuyến, làm cho việc nghe trộm trở nên dễ dàng hơn cho kẻ tấn công, vì chúng không yêu cầu quyền truy cập vật lý vào mạng.
+reviewed: false

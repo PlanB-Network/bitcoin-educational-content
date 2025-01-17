@@ -1,11 +1,8 @@
-question: Seed trong ngữ cảnh của ví HD là gì?
-answer: Một chuỗi số và chữ dài 512 bit, được sử dụng làm cơ sở để tạo ra các khóa của ví.
+question: Bước nào diễn ra trước khi áp dụng HASH160 trong quá trình tạo địa chỉ SegWit v0?
+answer: Nén khóa công khai
 wrong_answers:
-  - Một mật khẩu được sử dụng để bảo vệ ví.
-  - Một định danh duy nhất cho ví.
-  - Một mã được sử dụng để tạo ra cụm từ ghi nhớ.
+  - Thêm checksum
+  - Chuyển đổi sang định dạng bech32
+  - Mã hóa theo base58check
 explanation: |
-  Seed là một chuỗi số và chữ dài 512 bit, được sử dụng làm cơ sở
-  để tạo ra các khóa của ví. Nó được thu được thông qua hàm pbkdf2 với
-  cụm từ ghi nhớ và cụm từ mật khẩu.
-reviewed: false
+  Khóa công khai phải được nén để giảm kích thước trước khi đi qua hàm băm HASH160.

@@ -1,9 +1,9 @@
-question: O que acontece quando Alice tenta trapacear publicando uma transação de compromisso antiga?
-answer: Bob usa a chave de revogação para punir Alice e pegar todos os SAT do canal.
+question: Qual é o principal papel do nó de envio no roteamento na Lightning Network?
+answer: Calcular a rota completa até o destinatário
 wrong_answers:
-  - Alice é recompensada por sua astúcia.
-  - Alice e Bob dividem os SAT do canal.
-  - A transação é rejeitada e nada acontece.
+  - Armazenar a informação de liquidez de todos os canais da rede
+  - Determinar as taxas de transação para cada nó intermediário
+  - Comunicar diretamente com todos os nós intermediários
 explanation: |
-  A Lightning Network possui um mecanismo para evitar trapaças. Se Alice tentar trapacear publicando uma transação de compromisso antiga, Bob pode usar a chave de revogação para punir Alice e pegar todos os SAT do canal.
+  O nó de envio é responsável por calcular toda a rota até o destinatário, pois os nós intermediários só conhecem seu vizinho imediato.
 reviewed: false

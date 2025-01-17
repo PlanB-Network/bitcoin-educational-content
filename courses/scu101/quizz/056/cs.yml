@@ -1,12 +1,9 @@
 question: Proč je praktická zkušenost důležitá v kybernetické bezpečnosti?
-answer: Umožňuje vám aplikovat vaše teoretické znalosti v reálných situacích
+answer: Umožňuje vám aplikovat teoretické znalosti v reálných situacích
 wrong_answers:
-  - Je to požadavek pro všechna pracovní místa v kybernetické bezpečnosti
+  - Je to požadavek pro všechna pracovní místa v oblasti kybernetické bezpečnosti
   - Je důležitější než akademické znalosti
-  - Je to jediný způsob, jak se o kybernetické bezpečnosti dozvědět
+  - Je to jediný způsob, jak se dozvědět o kybernetické bezpečnosti
 explanation: |
-  Kapitola zdůrazňuje význam praktické zkušenosti, protože
-
-  umožňuje
-
-  vám aplikovat vaše teoretické znalosti v reálných situacích.
+  Kapitola zdůrazňuje význam praktické zkušenosti, protože vám umožňuje aplikovat vaše teoretické znalosti v reálných situacích.
+reviewed: true

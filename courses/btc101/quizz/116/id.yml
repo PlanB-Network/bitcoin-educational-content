@@ -1,0 +1,10 @@
+question: Apa transaksi Bitcoin pertama yang tercatat?
+answer: Transaksi 10 BTC antara Satoshi dan Hal Finney
+wrong_answers:
+  - Transaksi 10.000 BTC untuk 2 pizza
+  - Transaksi 1 BTC antara Satoshi dan Hal Finney
+  - Transaksi 10.000 BTC antara Laszlo Hanyecz dan Hal Finney
+explanation: |
+  Transaksi Bitcoin pertama yang tercatat adalah transaksi 10 BTC antara
+  Satoshi Nakamoto dan Hal Finney.
+reviewed: true

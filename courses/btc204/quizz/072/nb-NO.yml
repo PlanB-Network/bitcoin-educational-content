@@ -1,0 +1,13 @@
+question: Hvilken skriptmodell anbefales mest i 2024 for forbedret personvern på Bitcoin?
+
+answer: P2TR
+
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+
+explanation: |
+  For å blande seg inn i den største mulige mengden, anbefales det å bruke den mest utbredte skriptmodellen. P2TR-skript er for øyeblikket de mest brukte i Bitcoin-transaksjoner.
+
+reviewed: false

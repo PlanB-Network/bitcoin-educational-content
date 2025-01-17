@@ -1,9 +1,9 @@
-question: Pourquoi est-il recommandé d'utiliser des portefeuilles open-source pour les transactions Bitcoin ?
-answer: Ils permettent la vérification de la génération de nombres aléatoires.
+question: Quelle est la taille totale d'une clé étendue avec la checksum ?
+answer: 82 octets
 wrong_answers:
-  - Ils sont moins chers que les portefeuilles à code source fermé.
-  - Ils sont plus rapides que les portefeuilles à code source fermé.
-  - Ils sont plus sécurisés que les portefeuilles à code source fermé.
+  - 78 octets
+  - 64 octets
+  - 128 octets
 explanation: |
-  Les portefeuilles open-source permettent aux utilisateurs de vérifier la génération du nombre aléatoire, ce qui est une étape cruciale pour garantir la sécurité des clés privées et des transactions Bitcoin.
+  Une clé étendue mesure 78 octets sans la checksum et 82 octets avec la checksum incluse.
 reviewed: false

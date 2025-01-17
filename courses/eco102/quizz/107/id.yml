@@ -1,0 +1,9 @@
+question: Presiden Amerika Serikat mana yang, selama masa mudanya, menyebarkan ide-ide Bastiat dalam seminar korporat?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan, sebelum menjadi presiden, menyebarkan ide-ide liberal Bastiat dan ekonom lainnya dalam seminar untuk General Electric.
+reviewed: false

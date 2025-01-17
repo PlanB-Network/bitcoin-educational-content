@@ -1,0 +1,9 @@
+question: Mis on intressimäärade languse tagajärg krediidi suurenemise tõttu Austria äritsükli teooria kohaselt?
+answer: Majandus siseneb langusse; varade hinnad langevad, reaalpalgad vähenevad, tarbijahinnad langevad ja laovarud kuhjuvad.
+wrong_answers:
+  - Majandus siseneb tõusu; varade hinnad tõusevad, reaalpalgad suurenevad, tarbijahinnad tõusevad ja laovarud vähenevad.
+  - Majandus siseneb stagnatsiooni; varade hinnad püsivad samad, reaalpalgad püsivad samad, tarbijahinnad püsivad samad ja laovarud püsivad samad.
+  - Majandus siseneb deflatsiooni; varade hinnad langevad, reaalpalgad suurenevad, tarbijahinnad langevad ja laovarud suurenevad.
+explanation: |
+  Austria äritsükli teooria kohaselt, kui intressimäärad langevad krediidi suurenemise tõttu, siseneb majandus langusse; varade hinnad langevad, reaalpalgad vähenevad, tarbijahinnad langevad ja laovarud kuhjuvad. See on tingitud asjaolust, et intressimäärade langus viib kapitali vale jaotumiseni, mis lõpuks põhjustab languse.
+reviewed: false

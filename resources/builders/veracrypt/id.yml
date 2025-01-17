@@ -1,0 +1,5 @@
+description: |
+  VeraCrypt adalah perangkat lunak enkripsi disk open-source yang memungkinkan Anda melindungi data sensitif Anda. Sebagai penerus TrueCrypt, ia menawarkan enkripsi yang kuat menggunakan algoritma seperti AES, Serpent, atau Twofish, memungkinkan pembuatan volume terenkripsi atau enkripsi partisi dan seluruh disk, baik internal maupun eksternal.
+
+contributors:
+  - pretty-private

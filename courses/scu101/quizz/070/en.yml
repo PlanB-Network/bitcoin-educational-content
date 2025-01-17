@@ -2,12 +2,13 @@ question: What is the purpose of Lightning authentication?
 answer: It generates a different identifier for each service, without the need to
   provide an email address or personal information.
 wrong_answers:
-  - It speeds up the authentication process.
+  - Allows anyone, even without a Lightning wallet, to authenticate without an email address, if a valid ID is shown.
   - It allows you to use the same password for all services.
   - It sends reminders to change passwords every month.
 explanation: |
-  Lightning authentication generates a different identifier for each service,
-  without the need to provide an email address or personal information. This can enhance
-  privacy and security by reducing the amount of personal information that is shared
-  with each service.
-reviewed: false
+  Lightning authentication generates a different identifier
+  for each service, without the need to provide an email
+  address or personal information. This can enhance privacy
+  and security by reducing the amount of personal information
+  that is shared with each service.
+reviewed: true

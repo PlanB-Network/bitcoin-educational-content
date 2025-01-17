@@ -1,0 +1,14 @@
+question: Apa saja jenis utama stablecoin yang disebutkan dalam teks?
+answer: Stablecoin yang didukung fiat, stablecoin yang didukung komoditas, dan stablecoin algoritmik.
+wrong_answers:
+  - Stablecoin digital dan fisik
+  - Stablecoin terpusat dan terdesentralisasi
+  - Stablecoin yang didukung oleh bank dan stablecoin yang didukung oleh individu
+explanation: |
+  Dalam bab-bab sebelumnya kita telah melihat tiga jenis utama stablecoin; 
+  stablecoin yang didukung fiat, yang didukung oleh mata uang tradisional 
+  seperti dolar AS; stablecoin yang didukung komoditas, yang didukung oleh 
+  komoditas seperti emas atau minyak; dan stablecoin algoritmik, yang mengandalkan 
+  serangkaian aturan atau algoritma untuk mempertahankan nilai mereka. Namun, 
+  catatan tersebut menyebutkan bahwa stablecoin algoritmik yang sukses belum juga muncul di pasar.
+reviewed: true

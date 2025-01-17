@@ -1,0 +1,11 @@
+question: Apa tujuan utama dari Bitcoin?
+answer: Untuk memisahkan Negara dari uang
+wrong_answers:
+  - Untuk menggantikan emas sebagai standar global
+  - Untuk membuat transaksi lebih cepat dan lebih murah
+  - Untuk membuat semua orang kaya
+explanation: |
+  Bitcoin diciptakan dengan tujuan untuk memisahkan Negara dari uang.
+  Ini merupakan respons terhadap tantangan sistemik dari sistem keuangan saat ini,
+  di mana negara memiliki kontrol atas pasokan uang dan dapat memanipulasinya untuk keuntungannya.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Miksi on olennaista varmuuskopioida Bitcoin-lompakon 24 sanan palautuslause?
-answer: Estääkseen varojen menetyksen.
+question: Mitä indeksi /84'/ syvyydessä 1 johdannaispolussa tarkoittaa?
+answer: P2WPKH-standardi (SegWit v0)
 wrong_answers:
-  - Varmistaakseen palautuslauseen tarkkuuden.
-  - Luodakseen lompakolle entropiaa.
-  - Salatakseen palautuslauseen lisäturvallisuuden vuoksi.
+  - P2TR-standardi (SegWit v1)
+  - Bitcoin-testnet-valuutta
+  - Bitcoin-mainnet-valuutta
 explanation: |
-  Varmuuskopioimalla 24 sanan palautuslauseen on olennaista estääkseen varojen menetyksen.
+  Indeksi /84'/ on määritelty BIP84: ssä osoittamaan SegWit v0 -standardin käyttöä P2WPKH-osoitteiden kanssa syvyydessä 1 (johdannaiskohteen syvyys).
 reviewed: false

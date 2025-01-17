@@ -1,9 +1,13 @@
-question: Perché l'oro è diventato il mezzo di scambio standard?
+question: Perché l'oro è diventato il mezzo standard di scambio?
 answer: A causa della sua rarità, durabilità e divisibilità.
 wrong_answers:
   - A causa della sua abbondanza, durabilità e indivisibilità.
   - A causa della sua rarità, deperibilità e divisibilità.
   - A causa della sua abbondanza, deperibilità e indivisibilità.
 explanation: |
-  L'oro è diventato il mezzo di scambio standard a causa della sua rarità, durabilità e divisibilità. La sua rarità impedisce la svalutazione dovuta alla produzione, la sua durabilità garantisce che non si eroda nel tempo e la sua divisibilità consente di utilizzarlo in transazioni di dimensioni diverse.
-reviewed: false
+  L'oro è diventato il mezzo standard di scambio a causa della
+  sua rarità, durabilità e divisibilità: la sua rarità ha impedito
+  la svalutazione causata dalla produzione; la sua durabilità
+  ha garantito che non si erodesse nel tempo, e la sua divisibilità
+  ha permesso l'uso in transazioni di diverse dimensioni.
+reviewed: true

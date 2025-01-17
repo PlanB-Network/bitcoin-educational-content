@@ -1,0 +1,9 @@
+question: Quelle illusion économique Bastiat critiquait-il déjà, et qui se retrouvera au XXe siècle ?
+answer: Que l'État peut “créer des emplois”
+wrong_answers:
+  - Que le marché a besoin de l'État
+  - Que le marché peut s'auto-réguler
+  - Que les entreprises peuvent créer de la richesse sans régulation
+explanation: |
+  Bastiat critiquait l'idée que l'État puisse créer des emplois sans nuire à d'autres emplois en raison de l'impact des impôts nécessaires pour financer ces créations.
+reviewed: false

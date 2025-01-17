@@ -1,0 +1,12 @@
+question: Apa dampak Indeks Harga Konsumen (CPI) terhadap pengukuran inflasi?
+answer: CPI dapat meremehkan inflasi sebenarnya karena tidak sepenuhnya memperhitungkan evolusi harga real estat dan dapat menutupi atau menyamarkan kenaikan harga sebenarnya.
+wrong_answers:
+  - CPI selalu mengukur inflasi dengan akurat.
+  - CPI terlalu memperkirakan inflasi sebenarnya.
+  - CPI tidak memiliki dampak pada pengukuran inflasi.
+explanation: |
+  Bab ini menjelaskan bahwa CPI, yang digunakan sebagai indikator utama inflasi,
+  memiliki beberapa keterbatasan. Misalnya, tidak sepenuhnya memperhitungkan
+  evolusi harga real estat. Selain itu, perhitungan CPI mencakup metodologi tertentu
+  yang dapat menutupi atau menyamarkan kenaikan harga sebenarnya.
+reviewed: false

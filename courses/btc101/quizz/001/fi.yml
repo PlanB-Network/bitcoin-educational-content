@@ -1,9 +1,11 @@
-question: Mikä on louhijoiden rooli Bitcoin-verkossa?
-answer: Louhijat ovat olennaisen tärkeitä uusien bitcoinien luomisessa ja Bitcoin-verkon turvaamisessa.
+question: Milloin lohkokoon sota tapahtui?
+answer: Vuonna 2017.
 wrong_answers:
-  - Louhijat ovat vastuussa Bitcoinin hinnan säätelystä.
-  - Louhijat ovat vastuussa Bitcoin-lompakoiden luomisesta.
-  - Louhijat ovat vastuussa Bitcoin-protokollan hallinnasta.
+  - Vuonna 2008.
+  - Vuonna 2010.
+  - Vuonna 2019.
 explanation: >-
-  Louhijat ovat keskeisessä roolissa Bitcoin-verkossa, sillä he ovat vastuussa uusien bitcoinien luomisesta ja Bitcoin-verkon turvaamisesta kuluttamalla sähköä transaktioblokin hashaukseen.
-reviewed: false
+  Lohkokoon sota tapahtui vuonna 2017. Tässä konfliktissa vastakkain olivat toimijat, jotka halusivat muokata Bitcoinia kasvattamalla lohkon kokoa lisätäkseen transaktiokapasiteettia,
+  ja ne, jotka pyrkivät säilyttämään käyttäjien itsenäisyyden ja vallan pitämällä koon 1 MB, ssä.
+reviewed: true
+

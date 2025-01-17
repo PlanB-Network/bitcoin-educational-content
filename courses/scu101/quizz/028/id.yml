@@ -1,0 +1,8 @@
+question: Apa vektor serangan pertama bagi peretas?
+answer: Email
+wrong_answers:
+  - Media sosial
+  - Situs belanja online
+  - Situs web perbankan
+explanation: |
+  Email adalah vektor serangan pertama bagi peretas. Mereka menggunakan upaya phishing untuk mengekstrak informasi sensitif seperti kredensial dan kata sandi Anda.

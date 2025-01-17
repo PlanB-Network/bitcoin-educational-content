@@ -1,8 +1,9 @@
-question: Hai bên tham gia trong giao dịch Lightning Network trong ví dụ là ai?
-answer: Alice và Bob.
+question: Bob có thể làm gì nếu phát hiện Alice cố gắng gian lận trong quá trình đóng kênh?
+answer: Sử dụng khóa thu hồi để lấy lại toàn bộ số tiền
 wrong_answers:
-  - Alice và Charlie.
-  - Bob và Charlie.
-  - Alice và mạng Bitcoin.
+  - Hủy bỏ giao dịch cam kết của Alice
+  - Đóng vĩnh viễn kênh mà không có tùy chọn mở lại
+  - Chỉ yêu cầu một nửa số tiền có sẵn
 explanation: |
-  Trong ví dụ, Alice và Bob là hai bên tham gia trong giao dịch Lightning Network.
+  Trong trường hợp gian lận, Bob có thể sử dụng khóa thu hồi để lấy lại toàn bộ số tiền từ kênh, như vậy sẽ trừng phạt Alice vì cố gắng gian lận.
+reviewed: false

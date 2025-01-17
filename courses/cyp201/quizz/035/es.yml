@@ -1,9 +1,9 @@
-question: ¿Cuál es el tamaño de una clave pública de Bitcoin?
-answer: Número de 512 bits
+question: ¿Qué estándar de Bitcoin introduce las carteras deterministas jerárquicas?
+answer: BIP32
 wrong_answers:
-  - Número de 256 bits
-  - Número de 128 bits
-  - Número de 1024 bits
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  En el sistema de Bitcoin, se utiliza una clave privada única para derivar una clave pública de 512 bits.
+  BIP32 define la operación de las carteras HD, permitiendo la derivación jerárquica de claves privadas a partir de una semilla.
 reviewed: false

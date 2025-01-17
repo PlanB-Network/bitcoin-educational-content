@@ -1,11 +1,9 @@
-question: Jaká je hlavní výhoda Hierarchických Deterministických Peněženek (HD peněženky)?
-answer: Umožňují deterministické a hierarchické generování dceřiných klíčových párů z jednoho kusu informace.
+question: Jaký typ klíče je spojen s prefixem zpub?
+answer: Rozšířený veřejný klíč pro SegWit V0 na Mainnetu
 wrong_answers:
-  - Umožňují generování více soukromých klíčů z jednoho veřejného klíče.
-  - Umožňují generování více veřejných klíčů z jednoho soukromého klíče.
-  - Umožňují generování více peněženek z jednoho páru klíčů.
+  - Rozšířený soukromý klíč pro SegWit V1 na Mainnetu
+  - Rozšířený veřejný klíč pro Legacy na Testnetu
+  - Rozšířený veřejný klíč pro SegWit V2 na Testnetu
 explanation: |
-  HD peněženky umožňují deterministické a hierarchické generování
-  dceřiných klíčových párů z jednoho kusu informace. To zjednodušuje generování a
-  správu klíčů, přičemž udržuje vysokou úroveň bezpečnosti.
+  Prefix zpub označuje rozšířený veřejný klíč pro skripty SegWit V0 na Mainnetu.
 reviewed: false

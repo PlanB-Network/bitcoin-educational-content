@@ -5,5 +5,8 @@ wrong_answers:
   - Programas que rastrean tu actividad en línea.
   - Virus que pueden dañar tu dispositivo.
 explanation: |
-  En el contexto de la navegación en línea, las cookies son archivos creados por sitios web para almacenar información en tu dispositivo. Se utilizan para recordar tus preferencias, información de inicio de sesión y otros datos para mejorar tu experiencia de navegación.
-reviewed: false
+  En el contexto de la navegación en línea, las cookies son archivos
+  creados por sitios web para almacenar información en tu dispositivo.
+  Se utilizan para recordar tus preferencias, información de inicio
+  de sesión y otros datos para mejorar tu experiencia de navegación.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaká je definice náhodné proměnné v kontextu kryptografie?
+answer: Proměnná, která může nabývat několika možných hodnot s kladnou pravděpodobností
+wrong_answers:
+  - Proměnná, která mění hodnotu v každém okamžiku
+  - Proměnná, jejíž hodnoty jsou pevně a předem určené
+  - Proměnná, která je vždy definována v kontextu konkrétního fyzikálního experimentu
+explanation: |
+  Náhodná proměnná může nabývat dvou nebo více hodnot, každá s kladnou pravděpodobností, a často je definována abstraktně v kontextu kryptografie.
+reviewed: false

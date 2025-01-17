@@ -1,0 +1,9 @@
+question: Mis on krüptograafilise räsifunktsiooni peamine omadus?
+answer: See toodab fikseeritud pikkusega väljundi mis tahes sisendi jaoks, olenemata selle suurusest.
+wrong_answers:
+  - See krüpteerib andmeid kasutades sümmeetrilist võtit.
+  - See toodab muutuva pikkusega väljundi sõltuvalt sisendi pikkusest.
+  - See dekrüpteerib sõnumeid kasutades avalikku võtit.
+explanation: |
+  Räsifunktsioon genereerib fikseeritud pikkusega räsi, olenemata sisendi suurusest.
+reviewed: false

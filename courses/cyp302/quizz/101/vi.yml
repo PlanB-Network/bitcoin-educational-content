@@ -1,0 +1,9 @@
+question: HMAC là gì?
+answer: Một mã xác thực tin nhắn dựa trên hàm băm
+wrong_answers:
+  - Một thuật toán mã hóa không đối xứng dựa trên hàm băm
+  - Một thuật toán mã hóa không đối xứng dựa trên Diffie-Hellman
+  - Một mã xác thực tin nhắn dựa trên Diffie-Hellman
+explanation: |
+  HMAC là một mã xác thực tin nhắn sử dụng hàm băm, như SHA-256, để tạo ra một thẻ tag xác minh tính toàn vẹn và xác thực của một tin nhắn.
+reviewed: false

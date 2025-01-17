@@ -1,9 +1,14 @@
-question: Jaká je hlavní výhoda těžby čistých bitcoinů?
-answer: Nikdy nebyly utraceny a nemají žádnou historii.
+question: Jaká je hlavní výhoda těžby původních bitcoinů?
+answer: Nikdy nebyly utraceny a nemají k nim připojenou žádnou historii.
 wrong_answers:
   - Mohou být prodány za vyšší cenu.
   - Mohou být použity pro nelegální aktivity.
   - Mohou být skladovány dlouhou dobu bez ztráty hodnoty.
 explanation: |
-  Hlavní výhoda těžby čistých bitcoinů spočívá v tom, že nikdy nebyly utraceny a nemají žádnou historii. Tyto bitcoiny jsou často považovány za cennější, protože nebyly "znečištěny", což poskytuje určitou záruku proti odmítnutí regulátory nebo hlavními obchodními platformami.
-reviewed: false
+  Hlavní výhoda těžby původních bitcoinů spočívá v tom,
+  že nikdy nebyly utraceny a nemají k nim připojenou žádnou historii.
+  Tyto bitcoiny jsou často považovány za cennější, protože
+  nikdy nebyly znečištěny, což poskytuje určitou záruku
+  proti odmítnutí regulátory nebo hlavními obchodními
+  platformami.
+reviewed: true

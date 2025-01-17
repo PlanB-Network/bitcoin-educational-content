@@ -5,5 +5,8 @@ wrong_answers:
   - Basata su informazioni personali come date di nascita e nomi.
   - La stessa password per tutti gli account.
 explanation: |
-  Una buona password è lunga (almeno 12 caratteri), complessa (una combinazione di lettere maiuscole e minuscole, numeri e simboli), unica (non riutilizzata per account diversi) e non basata su informazioni personali.
-reviewed: false
+  Una buona password è lunga (almeno 12 caratteri), complessa
+  (un mix di lettere maiuscole e minuscole, numeri e
+  simboli), unica (non riutilizzata per diversi account) e
+  non basata su informazioni personali.
+reviewed: true

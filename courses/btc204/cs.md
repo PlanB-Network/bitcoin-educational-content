@@ -7,6 +7,7 @@ objectives:
   - Používat metody a nástroje k ochraně vašeho soukromí na Bitcoinu
   - Porozumět metodám analýzy řetězce a vyvinout obranné strategie
 ---
+
 # Ochrana vašeho soukromí na Bitcoinu
 
 Ve světě, kde se soukromí finančních transakcí postupně stává luxusem, je zásadní porozumět a ovládnout principy ochrany soukromí při vašem používání Bitcoinu. Toto školení vám dává všechny klíče, jak teoretické, tak praktické, k dosažení tohoto cíle samostatně.
@@ -70,7 +71,6 @@ V páté sekci poskytneme přehled všech ostatních existujících technik ochr
 Budeme se také zabývat ochranou soukromí na úrovni sítě uzlů a šířením transakcí. Budeme také diskutovat o různých protokolech, které byly v průběhu let navrženy ke zlepšení ochrany soukromí uživatelů v Bitcoinu, včetně protokolů statických adres.
 
 ![BTC204](assets/notext/11/5.webp)
-
 
 # Definice a klíčové pojmy
 
@@ -292,8 +292,12 @@ Tyto vstupní body jsou téměř nevyhnutelné při používání Bitcoinu. Ačk
 Je tedy také nutné být schopen čelit analýze blockchainu při našem používání Bitcoinu. Postupem tohoto způsobu můžeme minimalizovat agregaci našich aktivit a omezit dopad vstupního bodu na naše soukromí.
 ![BTC204](assets/notext/31/5.webp)
 
-Skutečně, pro lepší čelbu analýze blockchainu, jaký lepší přístup, než se seznámit s metodami používanými v analýze blockchainu? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte tyto metody pochopit. To vám umožní lépe pochopit techniky jako [coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) nebo [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (techniky, které prozkoumáme v posledních částech školení) a snížit chyby, které byste mohli udělat.
+Skutečně, pro lepší čelbu analýze blockchainu, jaký lepší přístup, než se seznámit s metodami používanými v analýze blockchainu? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte tyto metody pochopit. To vám umožní lépe pochopit techniky jako coinjoin nebo payjoin (techniky, které prozkoumáme v posledních částech školení) a snížit chyby, které byste mohli udělat.
 V tomto můžeme udělat analogii s kryptografií a kryptoanalýzou. Dobrý kryptograf je především dobrý kryptoanalytik. Aby si někdo dokázal představit nový šifrovací algoritmus, musí vědět, jakým útokům bude čelit, a také studovat, proč byly předchozí algoritmy prolomeny. Stejný princip platí pro soukromí na Bitcoinu. Porozumění metodám analýzy blockchainu je klíčem k ochraně proti němu. Proto navrhuji celou sekci o analýze blockchainu v tomto školení.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Metody analýzy blockchainu
 
@@ -1074,10 +1078,10 @@ _Branch-and-Bound_ (BNB), často přezdívaný "Murchův algoritmus" s odkazem n
 Všechny tyto metody automatického výběru UTXO mohou být účinné při snižování transakčních poplatků, ale často jsou neefektivní při zachování soukromí uživatele. Tyto algoritmy skutečně mohou sloučit několik UTXO do vstupů, čímž odhalují společné vlastnictví těchto UTXO kvůli COH. Zřejmě tyto metody nemohou zohlednit štítky připojené k UTXO, které jsou klíčové pro vědomé rozhodování o tom, které mince odhalit příjemci transakce. V současné době je jediným řešením pro optimalizaci soukromí při výběru mincí provádět to ručně.
 
 ### Tutoriál k označování UTXO
-  
+
 Pokud se chcete dozvědět, jak označit své UTXO, připravili jsme kompletní návod pro hlavní dostupné Bitcoin peněženky:
 
-https://planb.network/tutorials/privacy/utxo-labelling  
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC a identifikace klíčů
 
@@ -1203,18 +1207,28 @@ Opět se ukazuje, že další nevýhodou nákupů P2P je, že cena je často vy�
 
 Pokud jde o řešení, osobně jsem vždy používal [Bisq](https://bisq.network/) a jsem s ním velmi spokojen. Jejich systém je dobře zavedený a zdá se být spolehlivý. Bisq je však dostupný pouze na PC a jeho rozhraní může být pro začátečníky příliš složité. Další nevýhodou je, že Bisq funguje pouze s onchain transakcemi, což může být nákladné během období vysokých transakčních poplatků na Bitcoinu.
 
-[-> Objevte náš tutoriál na Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+-> Objevte náš tutoriál na Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Pro jednodušší možnost můžete vyzkoušet [Peach](https://peachbitcoin.com/), mobilní aplikaci, která usnadňuje spojení mezi kupujícími a prodejci s integrovaným systémem řešení sporů. Proces je intuitivnější než u Bisq.
 
-[-> Objevte náš tutoriál na Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+-> Objevte náš tutoriál na Peach.
 Další online možností je [HodlHodl](https://hodlhodl.com/), dobře zavedená platforma, která nabízí dobrou likviditu, ačkoli jsem ji osobně netestoval.
-[-> Objevte náš tutoriál na HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+-> Objevte náš tutoriál na HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Pro řešení založená na Lightning Network můžete vyzkoušet [RoboSats](https://learn.robosats.com/) a [LNP2PBot](https://lnp2pbot.com/). RoboSats je přístupný přes webové stránky a je relativně jednoduchý na použití. LNP2PBot je atypičtější, protože funguje prostřednictvím systému výměny na aplikaci pro zasílání zpráv Telegram.
 
-[-> Objevte náš tutoriál na RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Objevte náš tutoriál na LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+-> Objevte náš tutoriál na RoboSats.
+-> Objevte náš tutoriál na LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1222,9 +1236,11 @@ Pro řešení založená na Lightning Network můžete vyzkoušet [RoboSats](htt
 
 V závislosti na zemi, ve které žijete, můžete mít přístup k regulovaným platformám, které nevyžadují proceduru KYC pro nákup nebo prodej bitcoinů. Ve Švýcarsku můžete například používat platformy jako [Relai](https://relai.app/) a [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Objevte náš tutoriál na Relai.](https://planb.network/en/tutorials/exchange/relai)
+-> Objevte náš tutoriál na Relai.
 Jak jsme viděli v předchozí kapitole, tento typ platformy vás ušetří rizik spojených s postupy KYC, ale představují vyšší úroveň rizika pro klíčovou identifikaci. Pokud jde o soukromí na Bitcoinu, tyto platformy tedy nabízejí lepší ochranu než metody nákupu s KYC, ale nejsou tak zajímavé jako P2P burzy.
 Nicméně, pokud jde o osobní bezpečnost, používání těchto platforem je výrazně méně rizikové než P2P burzy. Jsou také často jednodušší na používání než platformy, které usnadňují P2P výměny.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Bankomaty
 
@@ -1242,6 +1258,8 @@ Nejlepší způsob, jak utratit BTC, je samozřejmě použít Bitcoin přímo ne
 
 Několik platforem, které nevyžadují postup KYC, nabízí možnost výměny bitcoinů za dárkové karty, které lze použít ve velkých obchodech. Mezi tyto platformy patří [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), a [Bitrefill](https://www.bitrefill.com/). Tyto platformy velmi usnadňují každodenní používání vašich bitcoinů tím, že vám umožňují přístup k široké škále produktů a služeb bez nutnosti konverze do fiat měny.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Další metody získání
@@ -1250,7 +1268,9 @@ Mezi další metody získání bitcoinů při ochraně vašeho soukromí patří
 
 Další metoda spočívá v práci výměnou za bitcoiny. Tato metoda získání může být zajímavá, ale stupeň vyžadované identifikace se velmi liší v závislosti na okolnostech.
 
-\_K napsání této kapitoly jsem využil kurz [BTC205](https://planb.network/fr/courses/btc205) vytvořený [@pivi\_\_\_](https://x.com/pivi___) na PlanB Network (zatím dostupný pouze ve francouzštině).\_
+\_K napsání této kapitoly jsem využil kurz BTC205 vytvořený [@pivi\_\_\_](https://x.com/pivi___) na Plan ₿ Network (zatím dostupný pouze ve francouzštině).\_
+
+
 
 ## Konsolidace, Správa UTXO a CIOH
 
@@ -1318,7 +1338,6 @@ V tomto příkladu by bylo moudré udržovat minimální hodnotu 940 000 sats pr
 Jedna z nejčastěji používaných heuristik v analýze blockchainu je COIH (_Common Input Ownership Heuristic_), která umožňuje předpokládat, že všechny vstupy bitcoinové transakce patří téže entitě. Přesněji, princip konsolidace spočívá ve spotřebování několika UTXO jako vstupů a vytvoření jediného UTXO jako výstupu. Konsolidace tedy umožňuje aplikaci COIH.
 
 ![BTC204](assets/notext/45/04.webp)
-
 
 V praxi to znamená, že vnější pozorovatel může usoudit, že všechna konsolidovaná UTXO pravděpodobně patří téže osobě a že jediný vygenerovaný výstup jim také patří. Tato situace může ohrozit vaše soukromí spojením různých historií transakcí. Představme si, že konsoliduji 3 UTXO získané P2P s UTXO získaným prostřednictvím platformy vyžadující KYC:
 ![BTC204](assets/notext/45/05.webp)
@@ -1805,11 +1824,11 @@ Pozorně sledujeme vývoj této kauzy i vývoj přidružených nástrojů. Ujist
 
 V další kapitole se dozvíme, co jsou "anonsety", jak se tyto ukazatele vypočítávají a jak nám mohou pomoci odhadnout účinnost cyklů coinjoin.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Sady anonymity
 
@@ -1877,7 +1896,7 @@ Je možné ručně vypočítat své anonsety pomocí prohlížeče bloků pro ma
 
 Jak jsme viděli v této kapitole, anonsety lze vypočítat pouze v případě, že existuje určitá homogenita ve struktuře coinjoinů. A přesně v další kapitole se dozvíme, jak kvantifikovat tuto homogenitu v Bitcoinové transakci, ať už jde o coinjoin nebo tradičnější transakci.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropie
 
@@ -2066,21 +2085,21 @@ $$
 
 Pokud se vrátíme k příkladu Whirlpool coinjoin 8x8 Surge Cycle, Boltzmannova tabulka by vypadala takto:
 
-|       | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| IN.0  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
-| IN.1  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
-| IN.2  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
-| IN.3  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
-| IN.4  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
-| IN.5  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
-| IN.6  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
-| IN.7  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
+|      | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 |
+| ---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| IN.0 | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
+| IN.1 | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
+| IN.2 | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
+| IN.3 | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
+| IN.4 | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
+| IN.5 | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
+| IN.6 | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
+| IN.7 | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  | 23 %  |
 
 Nicméně, v případě jednoduché transakce s jedním vstupem a dvěma výstupy, situace je jiná:
 
 | %       | Výstup 0 | Výstup 1 |
-|---------|----------|----------|
+| ------- | -------- | -------- |
 | Vstup 0 | 100 %    | 100 %    |
 
 Zde pozorujeme, že pravděpodobnost, že každý výstup pochází z vstupu č. 0, je 100 %. Nižší pravděpodobnost tedy překládá do většího soukromí tím, že rozptyluje přímé spojení mezi vstupy a výstupy.
@@ -2089,7 +2108,9 @@ Zde pozorujeme, že pravděpodobnost, že každý výstup pochází z vstupu č.
 
 Je také možné vypočítat počet deterministických spojení v transakci. Tento ukazatel odhaluje, kolik spojení mezi vstupy a výstupy v analyzované transakci je nesporných, s pravděpodobností 100 %. Tento ukazatel lze pak doplnit výpočtem poměru deterministických spojení. Poměr poskytuje perspektivu váhy těchto deterministických spojení ve všech spojeních transakce.
 Například transakce typu Whirlpool coinjoin neukazuje žádnou deterministickou spojitost mezi vstupy a výstupy, čímž zobrazuje indikátor 0 spojení a poměr 0%. Naopak, v naší druhé zkoumané jednoduché platební transakci (s jedním vstupem a 2 výstupy) nám indikátor říká, že existují 2 deterministická spojení a poměr dosahuje 100%. Proto nulový indikátor signalizuje vynikající soukromí díky absenci přímých a nesporných spojení mezi vstupy a výstupy.
+
 ### Jak tyto indikátory vypočítat?
+
 Ruční výpočet těchto indikátorů pomocí poskytnutých rovnic je relativně jednoduchý. Hlavní obtížnost spočívá v určení počtu možných interpretací transakce. Pro standardní transakci lze tento výpočet provést ručně. Avšak pro coinjoin je úkol výrazně složitější.
 
 Dříve byl vyvinut Python nástroj s názvem _Boltzmann Calculator_, vyvinutý týmy OXT a Samourai, který umožňoval automatický výpočet všech těchto indikátorů pro Bitcoinovou transakci:
@@ -2104,12 +2125,14 @@ Bohužel, po zatčení zakladatelů Samourai, tyto nástroje momentálně nejsou
 
 Nyní, když jsme podrobně diskutovali o coinjoinech, prozkoumáme v poslední části našeho školení další dostupné techniky soukromí na Bitcoinu. Budeme zkoumat payjoiny, specifické typy transakcí pseudo-coinjoin, protokoly s pevnou adresou, stejně jako opatření zaměřená na zvýšení soukromí ne na úrovni transakce, ale na úrovni sítě uzlů.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Porozumění významu dalších pokročilých technik soukromí
+
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
 ## Transakce Payjoin
+
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
 Coinjoin v současnosti představuje nejúčinnější metodu pro zavedení nejistoty do sledování mincí během analýzy řetězce. Jak jsme viděli v předchozích kapitolách, pro dosažení účinného míchání je nutné, aby vstupy a výstupy byly co nejhomogennější. Navíc je klíčové, aby byly mince integrovány do co největší skupiny, aby se maximalizovaly anonsety. Aby byly coinjoin transakce účinné, musí zahrnovat velké množství uniformních mincí. Toto množství požadavků znamená, že coinjoin transakce mají velmi rigidní strukturu: částky jsou předem určené a všichni účastníci se musí držet těchto pravidel, aby zajistili uniformitu procesu. Kromě toho coinjoin vyžaduje synchronizaci mezi všemi účastníky a koordinátorem během konstrukce transakce.
@@ -2119,10 +2142,11 @@ Nicméně, bylo by zajímavé mít struktury transakcí, které umožňují prak
 ### Co je transakce payjoin?
 
 Payjoin je specifická struktura Bitcoinové transakce, která zvyšuje soukromí uživatele během utrácení tím, že spolupracuje s příjemcem platby.
-Bylo to v roce 2015, kdy LaurentMT poprvé zmínil tuto metodu pod názvem "*steganografické transakce*", podle dokumentu přístupného [zde](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Tuto techniku později přijala peněženka Samourai Wallet, která v roce 2018 byla prvním klientem, jež ji implementoval s nástrojem Stowaway. Koncept payjoin je také nalezen v [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) a [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Několik termínů je tedy používáno pro označení payjoin:
+Bylo to v roce 2015, kdy LaurentMT poprvé zmínil tuto metodu pod názvem "_steganografické transakce_", podle dokumentu přístupného [zde](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Tuto techniku později přijala peněženka Samourai Wallet, která v roce 2018 byla prvním klientem, jež ji implementoval s nástrojem Stowaway. Koncept payjoin je také nalezen v [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) a [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Několik termínů je tedy používáno pro označení payjoin:
+
 - Payjoin;
 - Stowaway;
-- P2EP (*Pay-to-End-Point*);
+- P2EP (_Pay-to-End-Point_);
 - Steganografická transakce.
 
 Zvláštností payjoinu je jeho schopnost generovat transakci, která na první pohled vypadá obyčejně, ale ve skutečnosti je to mini Coinjoin mezi dvěma lidmi. Pro toto struktura transakce zahrnuje příjemce platby mezi vstupy společně s vlastním odesílatelem. Příjemce tak zahrne platbu sami sobě uprostřed transakce, což jim umožňuje být zaplaceno.
@@ -2136,7 +2160,7 @@ V tomto příkladu Bob, pekař, vloží 15 000 sats a vyjde s 19 000 sats, rozd�
 
 Transakce payjoin plní dva cíle, které umožňují uživatelům zlepšit soukromí jejich platby.
 
-Za prvé, payjoin má za cíl zmást vnějšího pozorovatele tím, že vytvoří klam v analýze řetězce. To je umožněno díky heuristice CIOH (*Common Input Ownership Heuristic*). Jak jsme viděli v části 3, obvykle, když transakce na blockchainu má více vstupů, předpokládá se, že všechny tyto vstupy patří stejné entitě nebo uživateli.
+Za prvé, payjoin má za cíl zmást vnějšího pozorovatele tím, že vytvoří klam v analýze řetězce. To je umožněno díky heuristice CIOH (_Common Input Ownership Heuristic_). Jak jsme viděli v části 3, obvykle, když transakce na blockchainu má více vstupů, předpokládá se, že všechny tyto vstupy patří stejné entitě nebo uživateli.
 
 Takže, když analytik zkoumá transakci payjoin, je veden k přesvědčení, že všechny vstupy pocházejí od stejné osoby. Toto vnímání je však nesprávné, protože příjemce platby také přispívá do vstupů společně s vlastním platitelem. Analýza řetězce je tedy odvedena k interpretaci, která se ukáže být nepravdivá.
 
@@ -2144,7 +2168,7 @@ Pojďme se vrátit k našemu příkladu transakce payjoin pro platbu bagety:
 
 ![BTC204](assets/notext/61/02.webp)
 
-Vidění této transakce na blockchainu by vnější pozorovatel následující obvyklé heuristiky analýzy řetězce interpretoval takto: "*Alice sloučila 2 UTXO ve vstupech transakce, aby zaplatila 19 000 sats Bobovi*".
+Vidění této transakce na blockchainu by vnější pozorovatel následující obvyklé heuristiky analýzy řetězce interpretoval takto: "_Alice sloučila 2 UTXO ve vstupech transakce, aby zaplatila 19 000 sats Bobovi_".
 ![BTC204](assets/cs/61/03.webp)
 Tato interpretace je zjevně nesprávná, jak již víte, dvě UTXO na vstupu nepatří téže osobě. Jedno pochází od Alice, kupující bagety, a druhé od Boba, pekaře.
 
@@ -2166,7 +2190,7 @@ V tomto spočívá payjoin transakce ve sféře steganografie. Umožňuje skrýt
 
 Steganografie je technika pro skrývání informací v rámci jiných dat nebo objektů takovým způsobem, že přítomnost skrytých informací není zjistitelná. Například tajná zpráva může být skryta uvnitř tečky v textu, který není související, čímž je nedetekovatelná pouhým okem (jedná se o techniku [micropoint](https://fr.wikipedia.org/wiki/Micropoint)).
 
-Na rozdíl od šifrování, které informace činí nečitelnými bez dešifrovacího klíče, steganografie informace nemění. Zůstávají na očích. Jejím cílem je spíše skrýt samotnou existenci tajné zprávy, zatímco šifrování jasně odhaluje přítomnost skrytých informací, ačkoliv jsou nedostupné bez klíče. To je důvod, proč byl původní název pro payjoin "*steganografické transakce*".
+Na rozdíl od šifrování, které informace činí nečitelnými bez dešifrovacího klíče, steganografie informace nemění. Zůstávají na očích. Jejím cílem je spíše skrýt samotnou existenci tajné zprávy, zatímco šifrování jasně odhaluje přítomnost skrytých informací, ačkoliv jsou nedostupné bez klíče. To je důvod, proč byl původní název pro payjoin "_steganografické transakce_".
 
 Analogii lze nalézt mezi kryptografií a coinjoinem, stejně jako mezi steganografií a payjoinem. Skutečně, coinjoin má atributy podobné těm u šifrování: metoda je rozpoznatelná, ale informace jsou nečitelné. Naopak, payjoin je podobný steganografii: informace jsou teoreticky přístupné, ale protože jejich metoda skrývání není rozpoznatelná, stávají se nedostupnými.
 
@@ -2181,11 +2205,12 @@ Obtížnost používání payjoin spočívá v jeho závislosti na účasti obch
 
 Řešením by mohlo být použití transakčních struktur, které zavádějí nejednoznačnost v analýze řetězce bez nutnosti spolupráce příjemce. To by nám umožnilo zlepšit soukromí našich plateb bez závislosti na aktivní účasti obchodníků. To je přesně to, co budeme studovat v další kapitole.
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Mini-coinjoiny pro platby
+
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 Pokud hledáte způsob, jak provést platební transakci při zachování určitého stupně soukromí, payjoin je dobrá volba. Ale jak jsme viděli, payjoin vyžaduje zapojení příjemce. Co dělat, pokud tento odmítne účastnit se payjoinu, nebo pokud jednoduše preferujete nezapojovat ho? Alternativou je použití transakce Stonewall nebo Stonewall x2. Podívejme se blíže na tyto dva typy transakcí.
@@ -2196,6 +2221,7 @@ Stonewall je specifická forma Bitcoinové transakce zaměřená na zvýšení s
 
 Fungování transakce Stonewall je následující: ve vstupu transakce odesílatel použije 2 UTXO, které mu patří. Ve výstupu transakce vytvoří 4 UTXO, z nichž 2 budou mít přesně stejnou částku. Ostatní 2 UTXO budou tvořit změnu. Mezi 2 výstupy se stejnou částkou půjde skutečně jen jeden příjemci platby.
 Ve Stonewall transakci jsou pouze 2 role:
+
 - Odesílatel, který provádí platbu;
 - Příjemce, který může být o specifické povaze transakce nevědomý a jednoduše čeká na platbu od odesílatele.
 
@@ -2211,7 +2237,7 @@ Vraťme se k příkladu Alice u Boba pekaře. Transakce na blockchainu by vypada
 
 ![BTC204](assets/notext/62/02.webp)
 
-Externí pozorovatel, který se spoléhá na běžné heuristiky analýzy blockchainu, by mohl nesprávně usoudit, že "*dva lidé provedli malý coinjoin, s jedním UTXO každý ve vstupu a dvěma UTXO každý ve výstupu*". Analýza této transakce z vnějšku nevede k aplikaci heuristiky společného vlastnictví vstupu (CIOH), protože přítomnost dvou výstupů stejné částky naznačuje vzor coinjoin. Z externího pohledu tedy v tomto konkrétním případě CIOH není aplikovatelná.
+Externí pozorovatel, který se spoléhá na běžné heuristiky analýzy blockchainu, by mohl nesprávně usoudit, že "_dva lidé provedli malý coinjoin, s jedním UTXO každý ve vstupu a dvěma UTXO každý ve výstupu_". Analýza této transakce z vnějšku nevede k aplikaci heuristiky společného vlastnictví vstupu (CIOH), protože přítomnost dvou výstupů stejné částky naznačuje vzor coinjoin. Z externího pohledu tedy v tomto konkrétním případě CIOH není aplikovatelná.
 
 ![BTC204](assets/notext/62/03.webp)
 
@@ -2227,10 +2253,11 @@ Stonewall x2 je další specifická forma Bitcoinové transakce, která také sm
 Provoz transakce Stonewall x2 je relativně jednoduchý: použije se UTXO, které máme k dispozici pro platbu, a žádá se o pomoc třetí stranu, která také přispěje UTXO, které vlastní. Transakce končí čtyřmi výstupy: dvěma ve stejných částkách, jedním určeným pro adresu příjemce platby, druhým pro adresu spolupracovníka. Třetí UTXO je posláno zpět na jinou adresu spolupracovníka, což jim umožňuje získat zpět původní částku (neutrální akce pro ně, mínus poplatky za těžbu), a poslední UTXO se vrací na adresu nám, což představuje změnu platby.
 
 Tak jsou definovány tři různé role v transakcích Stonewall x2:
+
 - Odesílatel, který provádí skutečnou platbu;
 - Příjemce, který nemusí být specifické povahy transakce vědom a jednoduše očekává platbu od odesílatele;
 - Spolupracovník, který poskytuje bitcoiny, aby vytvořil nejistotu v analýze transakce, přičemž na konci plně získá zpět své prostředky (pro něj neutrální akce, mínus poplatky za těžbu).
-Pojďme se vrátit k našemu příkladu s Alicí, která je u Boba pekaře, aby si koupila bagetu, která stojí 4 000 sats. Chce platit bitcoiny, přičemž si chce zachovat určitou úroveň soukromí své platby. Proto vyzve svého přítele Charlese, který jí v tomto procesu pomůže.
+  Pojďme se vrátit k našemu příkladu s Alicí, která je u Boba pekaře, aby si koupila bagetu, která stojí 4 000 sats. Chce platit bitcoiny, přičemž si chce zachovat určitou úroveň soukromí své platby. Proto vyzve svého přítele Charlese, který jí v tomto procesu pomůže.
 
 ![BTC204](assets/notext/62/05.webp)
 
@@ -2239,13 +2266,14 @@ Analýza této transakce ukazuje, že Bob pekař skutečně obdržel 4 000 sats 
 V tomto příkladu jsem záměrně zanedbal poplatky, aby bylo pochopení jednodušší. Ve skutečnosti jsou poplatky za těžbu obvykle rozděleny rovným dílem mezi vydavatele platby a spolupracovníka.
 
 ### Jaké jsou cíle transakce Stonewall x2?
+
 Podobně jako struktura Stonewall přidává struktura Stonewall x2 do transakce významné množství entropie a zastírá stopy analýzy řetězce. Z vnějšího pohledu by taková transakce mohla být interpretována jako malý coinjoin mezi dvěma lidmi. Ve skutečnosti se ale jedná o platbu. Tato metoda tedy generuje nejistoty v analýze řetězce, dokonce vedoucí k falešným stopám.
 
 Pojďme se znovu podívat na příklad Alice, Boba pekaře a Charlese. Transakce na blockchainu by vypadala takto:
 
 ![BTC204](assets/notext/62/06.webp)
 
-Vnější pozorovatel, spoléhající na běžné heuristiky analýzy řetězce, by mohl chybně usoudit, že "*Alice a Charles provedli malý coinjoin, s jedním UTXO každý na vstupu a dvěma UTXO každý na výstupu*". Opět, analýza této transakce z vnějšku nevede k aplikaci heuristiky společného vlastnictví vstupu (CIOH), protože přítomnost dvou výstupů stejné částky naznačuje vzor coinjoin. Z vnějšího pohledu tedy v tomto konkrétním případě CIOH není aplikovatelná.
+Vnější pozorovatel, spoléhající na běžné heuristiky analýzy řetězce, by mohl chybně usoudit, že "_Alice a Charles provedli malý coinjoin, s jedním UTXO každý na vstupu a dvěma UTXO každý na výstupu_". Opět, analýza této transakce z vnějšku nevede k aplikaci heuristiky společného vlastnictví vstupu (CIOH), protože přítomnost dvou výstupů stejné částky naznačuje vzor coinjoin. Z vnějšího pohledu tedy v tomto konkrétním případě CIOH není aplikovatelná.
 
 ![BTC204](assets/notext/62/07.webp)
 
@@ -2269,6 +2297,7 @@ Tento poslední bod je způsoben tím, že transakce Stonewall x2 následují p�
 ### Kdy použít transakce Stonewall a Stonewall x2?
 
 Logika by měla být následující, když chcete použít nástroj pro ochranu soukromí pro transakci:
+
 - Jako prioritu si můžete vybrat provést payjoin;
 - Pokud obchodník nepodporuje payjoins, můžete provést kolaborativní transakci s jinou osobou mimo platbu pomocí struktury Stonewall x2;
 - Pokud se nenajde nikdo, kdo by provedl transakci Stonewall x2, můžete provést transakci Stonewall sami, která bude napodobovat chování transakce Stonewall x2.
@@ -2285,11 +2314,12 @@ Je také možné manuálně provést tento typ transakce z jakéhokoli softwaru 
 
 V další kapitole se budeme věnovat další technice ochrany soukromí, která je relativně neznámá, ale je velmi užitečná v doplnění toho, co jsme již studovali.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
+
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
 Použití struktur Bitcoin transakcí, které přidávají nejednoznačnost v analýze řetězce, jako je coinjoin, je zvláště prospěšné pro ochranu soukromí. Nicméně, jak jsme diskutovali v kapitole o payjoins, transakce coinjoin jsou přirozeně identifikovatelné v řetězci. Vzpomeňte si na analogii, kterou jsme vytvořili mezi šifrováním a coinjoins: když někdo zašifruje soubor, třetí strana objevující tento zašifrovaný soubor nemůže přistupovat k jeho obsahu, ale může jasně identifikovat, že došlo k modifikaci souboru, aby se jeho obsah skryl. Totéž platí pro coinjoin: když analytik zkoumá transakci coinjoin, ačkoli nemůže stanovit přímé vazby mezi vstupy a výstupy (a naopak), může přesto rozpoznat, že pozorovaná transakce je coinjoin.
@@ -2318,6 +2348,7 @@ Cílem je vytvořit vzdálenost ovlivňující zaměnitelnost mince, jako je tra
 ![BTC204](assets/notext/63/05.webp)
 
 ### Proč to funguje?
+
 Vzhledem k této metodě ricochetu by si člověk mohl představit, že software pro analýzu řetězce by prohloubil své zkoumání za čtyři skoky. Tyto platformy však čelí dilematu v optimalizaci prahu detekce. Musí stanovit limit počtu skoků, po kterých přiznají, že pravděpodobně došlo ke změně vlastnictví a že by měl být ignorován vztah s předchozí událostí (jako je coinjoin).
 ![BTC204](assets/cs/63/06.webp)
 
@@ -2337,6 +2368,7 @@ Nápad této metody ricochet původně pochází od týmů v Samourai Wallet, kt
 ![BTC204](assets/notext/63/07.webp)
 
 Aplikace Samourai nabízí dvě varianty ricochetu:
+
 - Vylepšený ricochet, nebo "staggered delivery", který má výhodu rozložení poplatků za službu Samourai na pět po sobě jdoucích transakcí. Tato možnost také zajišťuje, že každá transakce je vysílána v odlišném čase a zaznamenána v jiném bloku, což jí umožňuje co nejvíce napodobit chování změny vlastnictví. Ačkoli je pomalejší, tato metoda je preferována pro ty, kteří se nechvátají, protože maximalizuje efektivitu ricochetu posílením jeho odolnosti vůči analýze řetězce;
 
 ![BTC204](assets/notext/63/08.webp)
@@ -2349,14 +2381,16 @@ Ricochet jednoduše zahrnuje poslání bitcoinů sami sobě. Je zcela možné pr
 
 V následující kapitole prozkoumáme různé techniky pro tajné převody majetku. Tyto metody se radikálně liší od těch, které jsme dosud zkoumali, jak z hlediska provozu, tak výsledků.
 
-https://planb.network/tutorials/privacy/ricochet
- 
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Tajné převody majetku
+
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
 Mezi technikami soukromí na Bitcoinu je také tajný převod majetku. Tato metoda má za cíl převést vlastnictví bitcoinů z jedné osoby na druhou, a naopak, aniž by tato transakce byla explicitně viditelná na blockchainu. Pojďme společně prozkoumat různé dostupné techniky, stejně jako jejich výhody a nevýhody.
 
 ### CoinSwap
+
 CoinSwap je založen na relativně jednoduchém konceptu: používá chytré kontrakty k usnadnění převodu vlastnictví bitcoinů mezi dvěma uživateli, bez nutnosti důvěry a bez toho, aby byl tento převod explicitně viditelný na blockchainu.
 ![BTC204](assets/notext/64/01.webp)
 Představme si zjednodušený příklad s Alicí a Bobem. Alice vlastní 1 BTC zabezpečený soukromým klíčem $A$, a Bob také vlastní 1, zabezpečený soukromým klíčem $B$. Teoreticky by mohli vyměnit své soukromé klíče prostřednictvím externího komunikačního kanálu, aby provedli tajný převod.
@@ -2372,41 +2406,43 @@ Navíc neexistuje žádná záruka, která by bránila Alici přijmout Bobův so
 
 Abychom tyto problémy vyřešili a umožnili výměny mezi stranami, které si nevěří, můžeme místo toho použít systémy chytrých kontraktů. Chytrý kontrakt je program, který se automaticky spustí, když jsou splněny předem definované podmínky, což v našem případě zajišťuje, že výměna vlastnictví proběhne automaticky bez nutnosti vzájemné důvěry.
 
-K tomu můžeme použít HTLC (*Hash Time-Locked Contracts*) nebo PTLC (*Point Time-Locked Contracts*). Tyto dva protokoly fungují podobně pomocí systému časového zámku, který zaručuje, že výměna buď proběhne úspěšně, nebo je zcela zrušena, čímž chrání integritu finančních prostředků obou stran. Hlavní rozdíl mezi HTLC a PTLC je, že HTLC používá hash a preimage k zabezpečení transakce, zatímco PTLC používá Adaptor Signatures.
+K tomu můžeme použít HTLC (_Hash Time-Locked Contracts_) nebo PTLC (_Point Time-Locked Contracts_). Tyto dva protokoly fungují podobně pomocí systému časového zámku, který zaručuje, že výměna buď proběhne úspěšně, nebo je zcela zrušena, čímž chrání integritu finančních prostředků obou stran. Hlavní rozdíl mezi HTLC a PTLC je, že HTLC používá hash a preimage k zabezpečení transakce, zatímco PTLC používá Adaptor Signatures.
 
 Ve scénáři coinswapu s použitím HTLC nebo PTLC mezi Alicí a Bobem probíhá výměna bezpečně: buď uspěje a každý obdrží BTC toho druhého, nebo selže a každý si ponechá své BTC. Je tedy nemožné, aby jedna ze stran podváděla nebo kradla BTC té druhé.
 
-> *HTLC jsou také mechanismem používaným pro bezpečné směrování plateb přes obousměrné kanály Lightning Network.*
-Použití Adaptor Signatures je v tomto kontextu obzvláště zajímavé, protože umožňuje obejít tradiční skripty (jedná se o mechanismus někdy označovaný jako "_scriptless scripts_"). Tato funkce pomáhá snižovat poplatky spojené s výměnou. Další velkou výhodou Adaptor Signatures je, že nevyžadují použití společného hash pro obě strany transakce, čímž se vyhýbá odhalení přímého spojení mezi nimi v určitých typech výměn.
+> _HTLC jsou také mechanismem používaným pro bezpečné směrování plateb přes obousměrné kanály Lightning Network._
+> Použití Adaptor Signatures je v tomto kontextu obzvláště zajímavé, protože umožňuje obejít tradiční skripty (jedná se o mechanismus někdy označovaný jako "_scriptless scripts_"). Tato funkce pomáhá snižovat poplatky spojené s výměnou. Další velkou výhodou Adaptor Signatures je, že nevyžadují použití společného hash pro obě strany transakce, čímž se vyhýbá odhalení přímého spojení mezi nimi v určitých typech výměn.
+
 ### Adaptor Signatures
 
 Adaptor Signatures jsou kryptografická metoda, která integruje platný podpis s dalším podpisem, nazývaným "_adaptor signature_", k odhalení tajného kusu dat. Tento mechanismus je navržen tak, že znalost 2 z následujících 3 prvků: platný podpis, adaptor signature a tajemství, umožňuje odvodit chybějící třetí prvek. Zajímavou vlastností této metody je, že pokud známe adaptor signature naší protistrany a konkrétní bod na eliptické křivce spojený s tajemstvím použitým k výpočtu tohoto adaptor signature, můžeme odvodit vlastní adaptor signature, který bude kompatibilní s tímto stejným tajemstvím, aniž bychom kdy měli přímý přístup k samotnému tajemství.
 Při coinswapu umožňuje použití Adaptor Signatures současné odhalení dvou citlivých informací mezi účastníky, čímž se eliminuje potřeba vzájemné důvěry. Pojďme si tento proces ilustrovat na příkladu s Alicí a Bobem, kteří si chtějí vyměnit vlastnictví 1 BTC každý, ale nevěří si navzájem. Používají Adaptor Signatures, aby odstranili potřebu důvěry v této výměně. Postupují takto:
-* Alice zahájí výměnu vytvořením transakce $m_A$, která pošle 1 BTC Bobovi. Vygeneruje podpis $s_A$, který tuto transakci ověří, pomocí svého soukromého klíče $p_A$ ($P_A = p_A \cdot G$), nonce $n_A$ ($N_A = n_A \cdot G$) a tajemství $t$ ($T = t \cdot G$):
+
+- Alice zahájí výměnu vytvořením transakce $m_A$, která pošle 1 BTC Bobovi. Vygeneruje podpis $s_A$, který tuto transakci ověří, pomocí svého soukromého klíče $p_A$ ($P_A = p_A \cdot G$), nonce $n_A$ ($N_A = n_A \cdot G$) a tajemství $t$ ($T = t \cdot G$):
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$$
 
-* Alice vypočítá adaptorový podpis $s_A'$ odečtením tajemství $t$ od jejího pravého podpisu $s_A$:
+- Alice vypočítá adaptorový podpis $s_A'$ odečtením tajemství $t$ od jejího pravého podpisu $s_A$:
 
 $$s_A' = s_A - t$$
 
-* Alice pošle Bobovi svůj adaptorový podpis $s'_A$, její nepodepsanou transakci $m_A$, bod odpovídající tajemství ($T$) a bod odpovídající nonce ($N_A$). Tyto prvky tvoří to, co se nazývá "*adaptor*". Je důležité si uvědomit, že pouze s touto informací Bob nemůže získat zpět BTC od Alice.
-* Bob však má možnost ověřit, že se Alice nesnaží od něj ukrást. Aby to udělal, zkontroluje, zda adaptorový podpis Alice $s_A'$ skutečně odpovídá navrhované transakci $m_A$. Pokud je následující rovnice správná, může být poté jistý, že adaptorový podpis Alice je platný:
-$$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
+- Alice pošle Bobovi svůj adaptorový podpis $s'_A$, její nepodepsanou transakci $m_A$, bod odpovídající tajemství ($T$) a bod odpovídající nonce ($N_A$). Tyto prvky tvoří to, co se nazývá "_adaptor_". Je důležité si uvědomit, že pouze s touto informací Bob nemůže získat zpět BTC od Alice.
+- Bob však má možnost ověřit, že se Alice nesnaží od něj ukrást. Aby to udělal, zkontroluje, zda adaptorový podpis Alice $s_A'$ skutečně odpovídá navrhované transakci $m_A$. Pokud je následující rovnice správná, může být poté jistý, že adaptorový podpis Alice je platný:
+  $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
-* Toto ověření poskytuje Bobovi dostatečné záruky, aby mohl s výměnou pokračovat s důvěrou. Poté vytvoří svou vlastní transakci $m_B$, určenou k odeslání 1 BTC Alici, a vygeneruje svůj adaptorový podpis $s_B'$, který bude také spojen se stejným tajemstvím $t$. V tomto okamžiku zná hodnotu $t$ pouze Alice; Bob zná pouze odpovídající bod $T$, který mu Alice předala:
+- Toto ověření poskytuje Bobovi dostatečné záruky, aby mohl s výměnou pokračovat s důvěrou. Poté vytvoří svou vlastní transakci $m_B$, určenou k odeslání 1 BTC Alici, a vygeneruje svůj adaptorový podpis $s_B'$, který bude také spojen se stejným tajemstvím $t$. V tomto okamžiku zná hodnotu $t$ pouze Alice; Bob zná pouze odpovídající bod $T$, který mu Alice předala:
 
 $$s_B' = n_B + H(N_B + T \parallel P_B \parallel m_B) \cdot p_B$$
 
-* Bob předá Alici svůj adaptorový podpis $s_B'$, jeho nepodepsanou transakci $m_B$, stejně jako bod odpovídající tajemství ($T$) a bod odpovídající nonce ($N_B$). Alice, která zná tajemství $t$, nyní může kombinovat Bobův adaptorový podpis $s_B'$ s tímto tajemstvím, aby vygenerovala platný podpis $s_B$ pro transakci $m_B$, která převede Bobovo BTC na ni:
+- Bob předá Alici svůj adaptorový podpis $s_B'$, jeho nepodepsanou transakci $m_B$, stejně jako bod odpovídající tajemství ($T$) a bod odpovídající nonce ($N_B$). Alice, která zná tajemství $t$, nyní může kombinovat Bobův adaptorový podpis $s_B'$ s tímto tajemstvím, aby vygenerovala platný podpis $s_B$ pro transakci $m_B$, která převede Bobovo BTC na ni:
 
 $$s_B = s_B' + t$$
 
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_B$$
 
-* Alice vysílá tuto podepsanou transakci $m_B$ na Bitcoin blockchain, aby získala slíbené BTC od Boba. Když Bob uvidí tuto transakci na blockchainu, může extrahovat podpis $s_B = s_B' + t$. S touto informací je pak Bob schopen izolovat slavné tajemství $t$, které potřeboval:
-$$t = (s_B' + t) - s_B' = s_B - s_B'$$
-* A skutečně, toto tajemství $t$ byl jediný chybějící prvek, který Bob potřeboval k vygenerování platného podpisu $s_A$ z Aliceiného adaptérového podpisu $s_A'$. Tento podpis umožňuje ověřit transakci $m_A$, která posílá BTC od Alice k Bobovi. Bob poté vypočítá $s_A$ a následně vysílá transakci $m_A$ na blockchain:
+- Alice vysílá tuto podepsanou transakci $m_B$ na Bitcoin blockchain, aby získala slíbené BTC od Boba. Když Bob uvidí tuto transakci na blockchainu, může extrahovat podpis $s_B = s_B' + t$. S touto informací je pak Bob schopen izolovat slavné tajemství $t$, které potřeboval:
+  $$t = (s_B' + t) - s_B' = s_B - s_B'$$
+- A skutečně, toto tajemství $t$ byl jediný chybějící prvek, který Bob potřeboval k vygenerování platného podpisu $s_A$ z Aliceiného adaptérového podpisu $s_A'$. Tento podpis umožňuje ověřit transakci $m_A$, která posílá BTC od Alice k Bobovi. Bob poté vypočítá $s_A$ a následně vysílá transakci $m_A$ na blockchain:
 
 $$s_A = s_A' + t$$
 
@@ -2426,9 +2462,10 @@ Atomický swap a coinswap mají podobný způsob fungování a nabízejí stejn�
 
 Na rozdíl od coinswapu však může mít atomický swap nerovnováhy z hlediska dostupné likvidity, zejména při výměnách BTC/XMR. Obecně je snazší vyměnit bitcoiny za altcoiny, protože je vysoká poptávka po bitcoinech, což udržuje prémie nízké pro tento směr konverze. Výměna altcoinů za získání BTC může být však složitější kvůli nižší poptávce, což často vede k velmi vysokým prémiím.
 
-Konečně, když atomická výměna zahrnuje onchain bitcoiny a bitcoiny na Lightning network, pak se tomu říká "*submarine swap*".
+Konečně, když atomická výměna zahrnuje onchain bitcoiny a bitcoiny na Lightning network, pak se tomu říká "_submarine swap_".
 
 ### Je to skutečně užitečné?
+
 Tajné převody majetku, jako jsou coinswapy a atomické swapy, mají výhodu v tom, že klamou heuristiky analýzy řetězce. Tyto metody mohou vytvářet dojem, že transakce zahrnují stejného uživatele, i když se skutečné vlastnictví přesunulo. Hlavní nevýhodou těchto metod je však to, že jsou velmi riskantní bez použití dodatečné techniky k přerušení historie mince.
 Opravdu, když Alice provádí coinswap nebo atomic swap s Bobem, vyměňuje vlastnictví svých bitcoinů za Bobovy. V případě atomic swapu zahrnuje výměna altcoin, ale princip zůstává stejný. Takže Alice skončí s mincí $B$ a Bob s mincí $A$. To přidává pochybnosti do analýzy řetězce, ale historie mincí zůstává vystopovatelná. Pokud analytik zkoumá minci $A$, může se vrátit k předchozím aktivitám Alice a naopak pro minci $B$.
 ![BTC204](assets/cs/64/07.webp)
@@ -2448,11 +2485,13 @@ Aby byly metody tajného převodu vlastnictví skutečně účinné a vyhnuly se
 Doposud jsme se hlavně zabývali metodami soukromí na úrovni samotných transakcí. V další kapitole prozkoumáme problémy na úrovni sítě a šíření transakcí.
 
 ## Soukromí na P2P síti
+
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
 V části 4 jsme diskutovali o důležitosti používání plného uzlu k ochraně soukromí vašich transakcí. Je však důležité pochopit, že váš uzel sám může být předmětem útoků, které se snaží extrahovat informace o vašich aktivitách. V této kapitole se proto budeme zabývat různými opatřeními na ochranu soukromí, ne na úrovni samotných transakcí nebo toků bitcoinů, ale na úrovni sítě.
 
 ### Pampeliška
+
 Jedním ze způsobů, jak se vyhnout různým útokům na de-anonymizaci, je použití návrhu Dandelion. Tento protokol šíření byl formalizován v BIP156, ale nikdy nebyl implementován do Bitcoinu.
 Idea Dandelion spočívá ve zlepšení soukromí směrování transakcí v síti Bitcoin, aby se čelilo různým formám útoků. Jeho hlavním cílem je skrýt zdrojový uzel, který původně vysílal transakci v síti. Odhalení tohoto uzlu by mohlo spojit Bitcoinovou transakci s konkrétní IP adresou (pokud uzel funguje na clearnetu), což by mohlo poskytnout vstupní bod pro analýzu řetězce.
 Toto spojení mezi aktivitou na Bitcoinu a IP adresou představuje významné riziko pro soukromí uživatele. Skutečně, mnoho subjektů může snadno spojit IP adresu s osobní identitou. To zahrnuje zejména vlády a poskytovatele internetových služeb. Navíc tyto informace mohou být veřejně dostupné, například pokud jsou vaše IP adresa a osobní údaje vystaveny kvůli úniku během hackování databáze webové stránky.
@@ -2491,12 +2530,13 @@ BIP156 nebyl integrován do Bitcoin Core a je v současné době klasifikován p
 P2P Transport V2 je další síťový protokol prezentovaný v BIP324. Jedná se o novou verzi protokolu pro P2P transport Bitcoinu, která zahrnuje příležitostné šifrování pro zlepšení důvěrnosti a bezpečnosti komunikace mezi uzly.
 
 Toto vylepšení si klade za cíl vyřešit několik problémů s základní verzí P2P protokolu. Na jedné straně činí vyměňovaná data nerozeznatelná od jiných typů dat, která kolují na internetu pro pasivního pozorovatele. Hlavním cílem je zabránit vládám, poskytovatelům internetových služeb nebo poskytovatelům VPN v masivním sledování uživatelů Bitcoinu. To také komplikuje úkol pro tyto entity určit, zda je internetový uživatel také uživatelem Bitcoinu, tedy zda provozuje plný uzel.
-P2P V2 také přispívá ke snížení rizik cenzury a útoků prostřednictvím detekce specifických vzorů v datových paketech. Komplikuje a činí provedení různých typů Sybil útoků nákladnějšími na úrovni sítě. Sybil útok nastává, když aktér vytvoří více falešných identit, aby získal neoprávněnou výhodu. V kontextu Bitcoinové sítě se to často projevuje jako aktér ovládající velké množství plných uzlů a agresivně je využívající k násobení spojení. Sybil útoky mohou být pasivní, s cílem shromažďovat informace a kompromitovat důvěrnost uživatele, nebo aktivní, ve formě Eclipse útoků. Ty izolují specifický uzel od zbytku sítě, což umožňuje buď cenzurovat uživatele, nebo upravit data, která přijímají. Nakonec P2P V2 také činí *Man-In-The-Middle* (MITM) útoky nákladnějšími a snadněji detekovatelnými.
+P2P V2 také přispívá ke snížení rizik cenzury a útoků prostřednictvím detekce specifických vzorů v datových paketech. Komplikuje a činí provedení různých typů Sybil útoků nákladnějšími na úrovni sítě. Sybil útok nastává, když aktér vytvoří více falešných identit, aby získal neoprávněnou výhodu. V kontextu Bitcoinové sítě se to často projevuje jako aktér ovládající velké množství plných uzlů a agresivně je využívající k násobení spojení. Sybil útoky mohou být pasivní, s cílem shromažďovat informace a kompromitovat důvěrnost uživatele, nebo aktivní, ve formě Eclipse útoků. Ty izolují specifický uzel od zbytku sítě, což umožňuje buď cenzurovat uživatele, nebo upravit data, která přijímají. Nakonec P2P V2 také činí _Man-In-The-Middle_ (MITM) útoky nákladnějšími a snadněji detekovatelnými.
 Šifrování implementované P2P V2 nezahrnuje autentizaci, aby se nepřidávala zbytečná složitost a nekompromitovala bezpovolenost připojení k síti. Tento nový P2P transportní protokol přesto nabízí lepší bezpečnost proti pasivním útokům a činí aktivní útoky výrazně nákladnějšími a detekovatelnými. Zavedení pseudonáhodného datového proudu v síťových zprávách komplikuje úkol pro útočníky, kteří si přejí cenzurovat nebo manipulovat s komunikací.
 
 P2P V2 transport byl zahrnut jako volba (ve výchozím nastavení zakázáno) ve verzi 26.0 Bitcoin Core, nasazené v prosinci 2023. Poté byl ve výchozím nastavení povolen ve verzi 27.0 v dubnu 2024. Lze jej upravit s možností `v2transport=` v konfiguračním souboru.
 
 ### Tor
+
 Dalším poměrně jednoduchým řešením, jak se vyhnout rizikům ztráty důvěrnosti pro uzel na úrovni sítě, je provozovat jej úplně pod Tor.
 Tor je síť překládacích serverů (uzlů), která anonymizuje původ TCP spojení na internetu. Funguje tak, že data obalí do několika vrstev šifrování. Každý překládací uzel odstraní jednu vrstvu, aby odhalil adresu dalšího uzlu, až dosáhne konečného cíle. Síť Tor zajišťuje anonymitu tím, že brání mezilehlým uzlům v poznání jak původu, tak cíle dat, což velmi ztěžuje pozorovateli sledování aktivity uživatele.
 
@@ -2510,6 +2550,7 @@ Je také důležité poznamenat, že komunikace přes Tor je pomalejší. Toto z
 Po prozkoumání různých metod ochrany soukromí na úrovni sítě chci v nadcházejících kapitolách také představit dvě elegantní řešení, jak se vyhnout opakovanému použití adres: BIP47 a Silent Payments.
 
 ## BIP47 a opakovaně použitelné platební kódy
+
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
 Jak jsme viděli v části 3, opakované použití adresy představuje vážnou překážku pro soukromí uživatele v protokolu Bitcoin. Aby se tyto rizika zmírnily, je silně doporučeno generovat pro každou novou přijatou platbu novou přijímací adresu v peněžence. Ačkoli generování nové adresy je dnes zjednodušeno použitím moderního softwaru a hierarchicky deterministických peněženek, tato praxe se může zdát protiintuitivní.
@@ -2520,7 +2561,7 @@ V tradičním bankovním systému jsme například zvyklí sdílet náš IBAN, k
 
 ![BTC204](assets/notext/66/2.webp)
 Nicméně, provoz Bitcoinu je odlišný: je nezbytné generovat novou přijímací adresu pro každou příchozí transakci. Tento kompromis mezi snadností použití a soukromím sahá až k samotnému počátku Bílé knihy Bitcoinu. Od publikace první verze jeho dokumentu na konci roku 2008 nás Satoshi Nakamoto již varoval před tímto rizikem:
-**"*Jako dodatečný firewall by mohl být pro každou transakci použit nový pár klíčů, aby byly udrženy nevázané na společného vlastníka.*"**
+**"_Jako dodatečný firewall by mohl být pro každou transakci použit nový pár klíčů, aby byly udrženy nevázané na společného vlastníka._"**
 Existuje mnoho metod pro přijímání více plateb na jediný identifikátor bez způsobení opětovného použití adresy. Každá z nich má své kompromisy a nevýhody. Mezi tyto metody patří BIP47, návrh vyvinutý Justusem Ranvierem a publikovaný v roce 2015. Tento návrh si klade za cíl vytvořit opakovaně použitelné platební kódy, které umožňují více transakcí téže osobě při vyhnutí se opětovnému použití adresy. V podstatě BIP47 usiluje o nabídnutí platebního systému stejně intuitivního jako unikátní identifikátor, přičemž zachovává soukromí transakcí.
 ![BTC204](assets/notext/66/3.webp)
 
@@ -2544,12 +2585,14 @@ Platební kód tak slouží jako virtuální identifikátor odvozený ze seedu p
 ![BTC204](assets/cs/66/5.webp)
 
 Cíl odvození pro BIP47 je identifikován indexem `47'` (`0x8000002F`), odkazujícím na BIP47. Příklad cesty odvození pro opakovaně použitelný platební kód by byl následující:
+
 ```plaintext
 m/47'/0'/0'/
 ```
 
 Abyste si udělali představu, jak vypadá platební kód, zde je ten můj:
-```plaintext
+
+````plaintext
 Tento kód lze také zakódovat do QR kódu, aby se usnadnila jeho komunikace, stejně jako klasická přijímací adresa.
 
 Pokud jde o PayNym Boty, tyto roboty, které jsou někdy vidět na Twitteru, jsou vizuální reprezentace platebního kódu, vytvořené peněženkou Samourai. Jsou generovány pomocí hashovací funkce, což jim dává téměř unikátnost. Objvují se ve formě malého řetězce znaků začínajícího na `+`:
@@ -2557,19 +2600,31 @@ Pokud jde o PayNym Boty, tyto roboty, které jsou někdy vidět na Twitteru, jso
 +throbbingpond8B1
 +twilightresonance487
 +billowingfire340
-```
+````
 
 Tyto avatary mohou být také reprezentovány ve formě obrázků:
 
 ![BTC204](assets/notext/66/6.webp)
 
 Ačkoliv tyto roboty nemají v rámci BIP47 specifickou technickou funkcionalitu, hrají roli ve zjednodušení interakcí mezi uživateli tím, že nabízejí snadno rozpoznatelnou vizuální identitu.
-V následujících částech této kapitoly věnované BIP47 podrobně prozkoumáme, jak to funguje, s osobitým důrazem na použité kryptografické metody. Abychom plně pochopili tyto poněkud technické vysvětlení, je nezbytné nejprve porozumět struktuře HD peněženek, procesům derivace klíčů a základním principům kryptografie založené na eliptických křivkách. Pokud se chcete do těchto konceptů ponořit hlouběji, další bezplatný kurz je k dispozici na PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Přesto vám doporučuji je sledovat, protože pochopení technického fungování BIP47 vám velmi usnadní pochopení dalších podobných návrhů, o kterých budeme diskutovat v následujících kapitolách.
+
+
+---
+*V následujících částech této kapitoly věnované BIP47 podrobně prozkoumáme jeho fungování, přičemž se zaměříme zejména na použité kryptografické metody. Abychom tyto poněkud technické vysvětlení plně pochopili, je důležité nejprve porozumět struktuře HD peněženek, procesům odvození klíčů a základním principům kryptografie založené na eliptických křivkách. Pokud si přejete tyto koncepty prohloubit, na Plan ₿ Network je k dispozici další bezplatné školení:*
+
+https://planb.network/courses/cyp201
+
+*Doporučuji je absolvovat, protože pochopením technického fungování BIP47 snáze porozumíte dalším podobným návrhům, o kterých budeme hovořit v následujících kapitolách.*
+
+---
+
+
 ### Opakovaně použitelný platební kód
 
 Jak bylo zmíněno dříve, opakovaně použitelný platební kód se nachází na hloubce 3 HD peněženky, což jej činí srovnatelným s `xpub`, jak v jeho pozici ve struktuře peněženky, tak v jeho roli.
 
 80bajtový platební kód se rozkládá následovně:
+
 - **Byte `0`: Verze**. Pro první verzi BIP47 je tento byte nastaven na `0x01`;
 - **Byte `1`: Bitové pole**. Tento prostor je vyhrazen pro integraci dodatečných indikací při specifickém použití. Pro standardní použití s PayNym je tento byte definován jako `0x00`;
 - **Byte `2`: Parita `y`**. Tento byte je `0x02` nebo `0x03`, což indikuje, zda je ordináta veřejného klíče sudá nebo lichá, protože se používá komprimovaný veřejný klíč;
@@ -2578,31 +2633,40 @@ Jak bylo zmíněno dříve, opakovaně použitelný platební kód se nachází 
 - **Od bytu `67` do bytu `79`: Výplň**. Tento prostor je určen pro možné budoucí vývoje. Pro současnou verzi jsou zde jednoduše umístěny nuly, aby se dosáhlo požadované velikosti 80 bajtů pro výstup `OP_RETURN`.
 
 Zde je hexadecimální reprezentace mého opakovaně použitelného platebního kódu již prezentovaná v předchozí sekci:
+
 ```plaintext
+
 ```
+
 Nejprve je také nutné přidat na začátek prefixový bajt `P`, aby bylo jasně indikováno, že se jedná o platební kód. Tento bajt je reprezentován jako `0x47`:
+
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
 Nakonec, aby byla zajištěna integrita platebního kódu, provádí se výpočet kontrolního součtu pomocí `HASH256`, který se skládá z dvojitého hašování funkcí `SHA256`. První čtyři bajty vzniklé z tohoto haše jsou poté konkatenovány na konec platebního kódu:
+
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
 Jakmile jsou tyto kroky dokončeny, platební kód je připraven. Jediné, co zbývá, je převést jej do base 58, aby byla získána jeho konečná verze:
+
 ```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
 Během tohoto procesu vytváření platebního kódu používáme komprimovaný veřejný klíč a řetězový kód. Oba jsou odvozeny z deterministické a hierarchické derivace ze seedu peněženky. Cesta derivace použitá k dosažení tohoto je:
+
 ```plaintext
 m/47'/0'/0'/
 ```
+
 Pro generování komprimovaného veřejného klíče a přidruženého řetězového kódu pro opakovaně použitelný platební kód začínáme výpočtem hlavního soukromého klíče ze seedu peněženky. Poté pokračujeme derivací páru dětských klíčů pomocí indexu `47 + 2^31` (pevná derivace). Tento krok je následován dalšími dvěma postupnými derivacemi dětských párů, každý s použitím indexu `2^31` (pevná derivace).
 
 ### Výměna klíčů Elliptic-Curve Diffie-Hellman (ECDH)
-Kryptografický protokol v srdci BIP47 je označován akronymem ECDH, pro *Elliptic-Curve Diffie-Hellman*. Tato metoda je variantou původního výměnného klíče Diffie-Hellman.
+
+Kryptografický protokol v srdci BIP47 je označován akronymem ECDH, pro _Elliptic-Curve Diffie-Hellman_. Tato metoda je variantou původního výměnného klíče Diffie-Hellman.
 Zavedený v roce 1976, Diffie-Hellman je protokol pro dohodu o klíči, který umožňuje dvěma stranám, každé vybavené párem klíčů (veřejný a soukromý), dohodnout se na společném tajemství, i když komunikují pouze přes veřejný a nezabezpečený kanál.
 
 ![BTC204](assets/cs/66/10.webp)
@@ -2612,6 +2676,7 @@ Toto společné tajemství (zde modrý klíč) lze poté použít pro další op
 ![BTC204](assets/notext/66/11.webp)
 
 Pro dosažení této výměny používá Diffie-Hellman modulární aritmetiku k výpočtu sdíleného tajemství. Zde je zjednodušené vysvětlení, jak to funguje:
+
 - Alice a Bob se dohodnou na společné barvě, zde žluté, která představuje veřejná data (útočníci znají tuto barvu);
 - Alice si vybere tajnou barvu, zde červenou, a smíchá obě, aby získala oranžovou;
 - Bob si také vybere tajnou barvu, zde modrou, a smíchá ji se žlutou, aby získal zelenou;
@@ -2637,19 +2702,19 @@ Než začneme diskutovat o mechanismech Diffie-Hellman, dovolte mi stručně vá
 
 $A$ je rovno $g$ umocněnému na $a$ modulo $p$:
 
-
 $$
 
 A = g^a \bmod p
+
 
 $$
 
 $B$ je rovno $g$ umocněnému na $b$ modulo $p$:
 
-
 $$
 
 B = g^b \bmod p
+
 
 $$
 
@@ -2659,51 +2724,53 @@ $$
 
 $z$ je rovno $B$ umocněnému na $a$ modulo $p$:
 
-
 $$
 
 z = B^a \bmod p
+
 
 $$
 
 Připomeňme si:
 
-
 $$
 
 B = g^b \bmod p
+
 
 $$
 
 Tak získáme:
 
-
 $$
 
 z = B^a \bmod p
 
-$$
 
+$$
 
 $$
 
 z = (g^b)^a \bmod p
 
+
 $$
 
 Použitím pravidel pro exponenty:
+
 $$
 
 (x^n)^m = x^{nm}
+
 
 $$
 
 Poté získáme:
 
-
 $$
 
 z = g^{ba} \bmod p
+
 
 $$
 
@@ -2711,33 +2778,33 @@ $$
 
 $z$ je rovno $A$ umocněnému na $b$ modulo $p$:
 
-
 $$
 
 z = A^b \bmod p
+
 
 $$
 
 Tak získáme:
 
-
 $$
 
 z = (g^a)^b \bmod p
 
-$$
 
+$$
 
 $$
 
 z = g^{ab} \bmod p
 
-$$
 
+$$
 
 $$
 
 z = g^{ba} \bmod p
+
 
 $$
 
@@ -2748,14 +2815,16 @@ Díky distributivitě operátoru modulo získají Alice a Bob přesně stejnou h
 Útočník, i když má k dispozici $p$, $g$, $A$ a $B$ (veřejné hodnoty), nebude schopen vypočítat $a$, $b$ nebo $z$ (soukromé hodnoty). K dosažení toho by musel provést reverzní umocňování, operaci nemožnou bez postupného zkoušení všech možností, jelikož to znamená výpočet diskrétního logaritmu, tj. inverze exponenciálu v konečné cyklické skupině.
 
 Takže pokud jsou hodnoty $a$, $b$ a $p$ dostatečně velké, je protokol Diffie-Hellman bezpečný. Typicky, s 2048-bitovými parametry (číslo s 600 číslicemi v desítkové soustavě), by testování všech možností pro $a$ a $b$ bylo nepraktické. Dodnes, s takovými čísly, je tento algoritmus považován za bezpečný.
-Právě zde leží hlavní nevýhoda protokolu Diffie-Hellman. Pro zajištění bezpečnosti musí algoritmus používat velká čísla. Proto se dnes preferuje algoritmus ECDH (*Elliptic Curve Diffie-Hellman*), varianta Diffie-Hellmana, která se opírá o algebraickou křivku, přesněji o eliptickou křivku. Tento přístup umožňuje pracovat s mnohem menšími čísly, přičemž zachovává ekvivalentní bezpečnost, a tím snižuje potřebné zdroje pro výpočet a ukládání.
+Právě zde leží hlavní nevýhoda protokolu Diffie-Hellman. Pro zajištění bezpečnosti musí algoritmus používat velká čísla. Proto se dnes preferuje algoritmus ECDH (_Elliptic Curve Diffie-Hellman_), varianta Diffie-Hellmana, která se opírá o algebraickou křivku, přesněji o eliptickou křivku. Tento přístup umožňuje pracovat s mnohem menšími čísly, přičemž zachovává ekvivalentní bezpečnost, a tím snižuje potřebné zdroje pro výpočet a ukládání.
 
 Obecný princip algoritmu zůstává stejný. Nicméně, místo použití náhodného čísla $a$ a čísla $A$ vypočítaného z $a$ pomocí modulárního umocňování, používáme pár klíčů založených na eliptické křivce. Místo spoléhání na distributivitu modulo operátoru, používáme grupový zákon na eliptických křivkách, a konkrétněji asociativitu tohoto zákona.
 
 Abychom stručně vysvětlili princip kryptografie eliptických křivek, soukromý klíč je reprezentován náhodným číslem mezi $1$ a $n-1$, kde $n$ reprezentuje řád křivky. Veřejný klíč, na druhou stranu, je specifický bod na této křivce, získaný z soukromého klíče operacemi sčítání bodů a zdvojením počínaje generátorovým bodem, podle rovnice:
+
 $$
 
 K = k \cdot G
+
 
 $$
 
@@ -2769,19 +2838,19 @@ Tuto vlastnost využijeme k adaptaci našeho algoritmu Diffie-Hellman. **Princip
 
 - Alice generuje náhodné číslo $ka$, které bude jejím soukromým klíčem. Tento soukromý klíč musí zůstat tajný. Určí svůj veřejný klíč $Ka$ sčítáním a zdvojením bodů na zvolené eliptické křivce:
 
-
 $$
 
 K_a = k_a \cdot G
+
 
 $$
 
 - Bob také generuje náhodné číslo $kb$, které bude jeho soukromým klíčem. Spočítá přidružený veřejný klíč $Kb$:
 
-
 $$
 
 K_b = k_b \cdot G
+
 
 $$
 
@@ -2789,19 +2858,19 @@ $$
 
 - Alice vypočítá bod $(x,y)$ na křivce aplikací svého soukromého klíče $ka$ na Bobův veřejný klíč $Kb$:
 
-
 $$
 
 (x,y) = k_a \cdot K_b
+
 
 $$
 
 - Bob vypočítá bod $(x,y)$ na křivce aplikací svého soukromého klíče $kb$ na Alicin veřejný klíč $Ka$:
 
-
 $$
 
 (x,y) = k_b \cdot K_a
+
 
 $$
 
@@ -2809,6 +2878,7 @@ $$
 
 Skutečně získají stejné sdílené tajemství, protože:
 (x,y) = k_a \cdot K_b = k_a \cdot (k_b \cdot G) = (k_a \cdot k_b) \cdot G = (k_b \cdot k_a) \cdot G = k_b \cdot (k_a \cdot G) = k_b \cdot K_a
+
 $$
 
 Útočník pozorující nezabezpečenou veřejnou síť může získat pouze veřejné klíče každé strany a parametry zvolené eliptické křivky. Jak bylo dříve vysvětleno, tyto informace samy o sobě nejsou dostatečné pro určení soukromých klíčů. Proto útočník nemůže najít sdílené tajemství mezi Alicí a Bobem.
@@ -2871,8 +2941,11 @@ Nyní se podívejme, jak notifikační transakce funguje. Představte si, že Al
 
 - Alice vybere soukromý klíč z tohoto páru. Nazveme ho $a$ (malé písmeno);
 
+
 $$
+
 a
+
 $$
 
 - Alice získá veřejný klíč spojený s Bobovou notifikační adresou. Tento klíč je první odvozená dcera z Bobova platebního kódu (index $/0$). Tento veřejný klíč nazveme $B$ (velké písmeno). Soukromý klíč spojený s tímto veřejným klíčem nazveme $b$ (malé písmeno). $B$ je určen sčítáním a zdvojením bodů na eliptické křivce z $G$ (generující bod) s $b$ (soukromý klíč):
@@ -2998,49 +3071,70 @@ XOR je bitový logický operátor založený na Booleově algebře. S dvěma bit
 
 Například:
 
+
 $$
+
 0110 \oplus 1110 = 1000
+
 $$
 
 Nebo:
 
+
 $$
+
 010011 \oplus 110110 = 100101
+
 $$
 
 S ECDH je použití XOR jako šifrovací vrstvy obzvláště vhodné. Za prvé, díky tomuto operátoru je šifrování symetrické. To umožňuje příjemci dešifrovat platební kód stejným klíčem, který byl použit pro šifrování. Šifrovací a dešifrovací klíč je vypočítán z sdíleného tajemství díky ECDH. Tato symetrie je umožněna komutativními a asociativními vlastnostmi operátoru XOR:
 
 - Další vlastnosti:
 
+
 $$
+
 D \oplus D = 0
+
 $$
 
 D ⊕ 0 = D
 
 - Komutativita:
 
+
 $$
+
 D \oplus E = E \oplus D
+
 $$
 
 - Asociativita:
 
+
 $$
+
 D \oplus (E \oplus Z) = (D \oplus E) \oplus Z = D \oplus E \oplus Z
+
 $$
 
 Pokud:
 
+
 $$
+
 D \oplus E = L
+
 $$
 
 Pak:
 
+
 $$
+
 D \oplus L = D \oplus (D \oplus E) = D \oplus D \oplus E = 0 \oplus E = E \\
 \therefore D \oplus L = E
+
 $$
 
 Dále, tato metoda šifrování se velmi podobá Vernamově šifře (One-Time Pad), jedinému šifrovacímu algoritmu známému dosud, který má bezpodmínečnou (nebo absolutní) bezpečnost. Aby Vernamova šifra měla tuto charakteristiku, musí být šifrovací klíč dokonale náhodný, musí mít stejnou velikost jako zpráva a musí být použit pouze jednou. V šifrovací metodě použité zde pro BIP47 je klíč skutečně stejně velký jako zpráva, slepý faktor je přesně stejně velký jako spojení x-ové souřadnice veřejného klíče s řetězcovým kódem platebního kódu. Tento šifrovací klíč je skutečně použit pouze jednou. Tento klíč však není výsledkem dokonalé náhodnosti, protože je to HMAC. Je spíše pseudo-náhodný. Proto to není Vernamova šifra, ale metoda je podobná.
@@ -3253,7 +3347,7 @@ Bob může poté vrátit Alice peníze stejným způsobem, jakým mu poslala pla
 ![BTC204](assets/cs/66/26.webp)
 _Velké poděkování [Fanis Michalakis](https://x.com/FanisMichalakis) za jeho recenzi a cenné odborné rady k článku, který inspiroval k napsání této kapitoly!_
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Tiché platby
 
@@ -3376,12 +3470,18 @@ Protože Bob ihned zastaví na $i = 0$, pokud $P_0$ nic nevydá, použití tohot
 
 Bob pak může vypočítat soukromé klíče stejným způsobem:
 
-$$
-p_0 = (b + \text{hash}(b \cdot A \text{ ‖ } 0)) \bmod n
-$$
 
 $$
+
+p_0 = (b + \text{hash}(b \cdot A \text{ ‖ } 0)) \bmod n
+
+$$
+
+
+$$
+
 p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n
+
 $$
 
 ![BTC204](assets/notext/67/03.webp)
@@ -3421,8 +3521,11 @@ $$ P_0 = B + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot 
 
 Když najde platný $P_0$, může vypočítat odpovídající soukromý klíč $p_0$:
 
+
 $$
+
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
+
 $$
 
 ![BTC204](assets/notext/67/04.webp)
@@ -3618,20 +3721,17 @@ Vzhledem k tomu, že se jedná o novou funkci, je doporučeno být opatrný a vy
 
 _K vytvoření této kapitoly o Silent Payments jsem použil [web s vysvětlením Silent Payments](https://silentpayments.xyz/) a [dokument s vysvětlením BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
+# Závěr
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Recenze & Hodnocení
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Závěrečná zkouška
+<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Závěr
-
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-
-Gratuluji k dokončení tohoto školení o soukromí v Bitcoinu!
-
-Probrali jsme mnoho pokročilých a technických témat v tomto školení, ale není nezbytné používat všechny prezentované nástroje. Hlavním cílem bylo poskytnout vám možnost vybrat si, které informace chcete zveřejnit a které informace dáváte přednost udržet v soukromí při používání Bitcoinu. To je samotná podstata ochrany soukromí. Abychom mohli dělat informovaná rozhodnutí o tom, které informace sdílet nebo skrývat, je nutné být si vědom důsledků našich akcí. Doufám, že vám toto školení pomohlo získat tuto znalost.
-Pokud bych měl vybrat nejdůležitější část tohoto školení, vybral bych sekci věnovanou analýze řetězců. Porozumění technikám používaným vašimi potenciálními útočníky je nejlepší způsob, jak se chránit. Proto bych vám doporučil pečlivě si tuto část projít a pokusit se pochopit všechny její detaily.
-V tomto školení jsme se zaměřili výhradně na soukromí Bitcoinu na hlavním řetězci. Problémy soukromí na systémech druhé vrstvy, jako je Lightning Network a sidechainy, jsou také významné a mají velmi specifické charakteristiky. Ačkoliv použití transakcí mimo hlavní řetězec může být efektivní strategií, jak se vyhnout mnoha rizikům sledovatelnosti na Bitcoinu, které jsme studovali, vystavuje vás to jiným rizikům, o kterých je také důležité vědět. Proto budou tyto témata pokryta v budoucím specializovaném školení na PlanB Network.
-
-Pokud se vám toto školení líbilo, byl bych velmi vděčný, pokud byste jej mohli sdílet s přáteli a na sociálních médiích. Děkuji! :)
+<isCourseConclusion>true</isCourseConclusion>

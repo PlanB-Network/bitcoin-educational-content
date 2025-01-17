@@ -1,9 +1,9 @@
-question: ¿Qué es una dirección multi-firma en el contexto de la Lightning Network?
-answer: Una dirección que requiere dos firmas para desbloquear los fondos.
+question: ¿Por qué Alice crea una transacción de retiro antes de publicar la transacción de depósito?
+answer: Para recuperar sus fondos en caso de un problema con Bob
 wrong_answers:
-  - Una dirección que puede ser utilizada por múltiples usuarios.
-  - Una dirección que puede contener múltiples tipos de criptomonedas.
-  - Una dirección a la que se puede acceder desde múltiples dispositivos.
+  - Para aumentar la capacidad del canal con cada transacción
+  - Para realizar una transacción Lightning inmediatamente después de abrir
+  - Para permitir que Bob gaste los fondos directamente
 explanation: |
-  En la Lightning Network, se utilizan direcciones multi-firma. Estas direcciones requieren dos firmas, o dos claves privadas, para desbloquear los fondos. Esto significa que dos partes deben estar de acuerdo para desbloquear el dinero.
+  Alice crea una transacción de retiro para recuperar sus fondos si ocurre un problema con Bob, asegurando así la seguridad de su depósito.
 reviewed: false

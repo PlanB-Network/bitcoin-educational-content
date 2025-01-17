@@ -1,10 +1,10 @@
-question: Qual è uno dei fattori che possono causare la fluttuazione del prezzo del Bitcoin?
-answer: Variazioni di mercato e fasi di mercato rialzista e ribassista.
+question: Quali sono i costi tipici per un minatore?
+answer: Consumo di elettricità e acquisto di hardware.
 wrong_answers:
-  - Il numero di persone che utilizzano Internet.
-  - Il meteo.
-  - Il prezzo dell'oro.
-explanation: |
-  Il prezzo del Bitcoin è spesso caratterizzato da una significativa volatilità,
-  che può essere influenzata da variazioni di mercato e fasi di mercato rialzista e ribassista.
+  - Solo acquisto di hardware.
+  - Commissioni sulle transazioni.
+  - Consumo di elettricità e commissioni sulle transazioni.
+explanation: >-
+  Il mining di Bitcoin richiede una notevole potenza computazionale, che a sua volta consuma elettricità.
+  Inoltre, i minatori devono investire in hardware specializzato per minare efficacemente.
 reviewed: false

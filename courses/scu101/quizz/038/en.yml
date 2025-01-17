@@ -2,12 +2,11 @@ question: What is a password manager?
 answer: A tool that allows you to store, generate, and manage your passwords for different online accounts.
 wrong_answers:
   - A tool that helps you remember all your passwords.
-  - A tool that automatically logs you into your online accounts.
-  - A tool that protects your computer from viruses.
+  - A tool that automatically logs you into your online accounts with username and password.
+  - A tool that protects passwords on your computer from viruses.
 explanation: |
-  A password manager is a tool that allows you to store, generate, and
-
-  manage your passwords for different online accounts. It helps you create strong
-
-  passwords and remember them, so you don''t have to.'
-reviewed: false
+  A password manager is a tool that allows you to store,
+  generate, and manage your passwords for different online
+  accounts. It helps you create strong passwords and remember
+  them, so you don't have to.
+reviewed: true

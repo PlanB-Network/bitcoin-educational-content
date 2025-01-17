@@ -1,11 +1,11 @@
-question: Mitkä ovat "kahden sattuman yhteensattuman" ongelman kolme ulottuvuutta?
+question: Mitkä ovat kahden sattuman yhteensattuman ongelman kolme ulottuvuutta?
 answer: Paikallinen, ajallinen ja henkilöiden välinen.
 wrong_answers:
   - Paikallinen, ajallinen ja henkilökohtainen.
   - Paikallinen, aikavälinen ja henkilöiden välinen.
   - Välisten tilojen välinen, ajallinen ja henkilöiden välinen.
 explanation: |
-  "Kahden sattuman yhteensattuman" ongelma viittaa vaihtokaupan vaikeuteen,
+  Kahden sattuman yhteensattuman ongelma viittaa vaihtokaupan vaikeuteen,
   jossa molempien osapuolten on omistettava jotakin, mitä toinen haluaa samaan
   aikaan ja paikkaan. Tällä ongelmalla on kolme ulottuvuutta; paikallinen (sama paikka), ajallinen
   (sama aika) ja henkilöiden välinen (keskinäinen halu toistensa hyödykkeisiin).

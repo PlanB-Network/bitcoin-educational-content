@@ -22,14 +22,14 @@ Untuk berkontribusi ke Jaringan PlanB, Anda memiliki 3 opsi tergantung pada ting
 ![tutorial](assets/1.webp)
 **Prasyarat sebelum memulai tutorial:**
 - Memiliki [akun GitHub](https://github.com/signup).
-- Memiliki fork dari [repositori sumber Jaringan PlanB](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Memiliki fork dari [repositori sumber Jaringan PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Memiliki [profil profesor di Jaringan PlanB](https://planb.network/professors) (hanya jika Anda mengusulkan tutorial lengkap).
 
 **Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial lain saya akan membimbing Anda:**
-- **[Memahami Git dan GitHub](https://planb.network/tutorials/others/basics-of-github)**
-- **[Membuat akun GitHub](https://planb.network/tutorials/others/create-github-account)**
-- **[Menyiapkan lingkungan kerja Anda](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[Membuat profil profesor](https://planb.network/tutorials/others/create-teacher-profile)**
+- **[Memahami Git dan GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+- **[Membuat akun GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[Menyiapkan lingkungan kerja Anda](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+- **[Membuat profil profesor](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Jenis konten apa yang ditulis di Jaringan PlanB?
 Kami terutama mencari tutorial tentang alat yang terkait dengan Bitcoin atau ekosistemnya. Konten ini dapat diorganisir sekitar enam kategori utama:
 - Wallet;
@@ -60,7 +60,7 @@ Setelah semuanya siap, dan lingkungan lokal Anda sudah diatur dengan baik dengan
 
 ### Membuat cabang baru
 
-- Buka browser Anda dan arahkan ke halaman fork Anda dari repositori PlanB. Ini adalah fork yang telah Anda buat di GitHub. URL fork Anda seharusnya terlihat seperti: `https://github.com/[nama-pengguna-anda]/sovereign-university-data`:
+- Buka browser Anda dan arahkan ke halaman fork Anda dari repositori PlanB. Ini adalah fork yang telah Anda buat di GitHub. URL fork Anda seharusnya terlihat seperti: `https://github.com/[nama-pengguna-anda]/bitcoin-educational-content`:
 ![tutorial](assets/3.webp)
 - Pastikan Anda berada di cabang utama `dev` kemudian klik tombol `Sync fork`. Jika fork Anda tidak terbaru, GitHub akan menawarkan untuk memperbarui cabang Anda. Lanjutkan dengan pembaruan ini. Jika, sebaliknya, cabang Anda sudah terbaru, GitHub akan memberi tahu Anda:
 ![tutorial](assets/4.webp)
@@ -71,7 +71,7 @@ Setelah semuanya siap, dan lingkungan lokal Anda sudah diatur dengan baik dengan
 ![tutorial](assets/7.webp)
 - Klik pada cabang ini, kemudian klik tombol `New Branch`:
 ![tutorial](assets/8.webp)
-- Pastikan cabang baru didasarkan pada repositori sumber, yaitu `DecouvreBitcoin/sovereign-university-data`.
+- Pastikan cabang baru didasarkan pada repositori sumber, yaitu `PlanB-Network/bitcoin-educational-content`.
 - Beri nama cabang Anda dengan cara yang jelas tentang tujuannya, menggunakan tanda hubung untuk memisahkan setiap kata. Misalnya, katakanlah tujuan kami adalah menulis tutorial tentang penggunaan perangkat lunak Sparrow Wallet. Dalam kasus ini, cabang kerja yang didedikasikan untuk menulis tutorial ini bisa dinamai: `tuto-sparrow-wallet-loic`. Setelah nama yang sesuai dimasukkan, klik `Create branch` untuk mengonfirmasi pembuatan cabang:
 ![tutorial](assets/9.webp)
 - Sekarang klik tombol `Publish branch` untuk menyimpan cabang kerja baru Anda di fork online Anda di GitHub:
@@ -82,7 +82,7 @@ Untuk setiap artikel baru yang ingin Anda terbitkan, Anda perlu membuat cabang b
 ### Menambahkan tutorial
 
 Sekarang cabang kerja telah dibuat, saatnya untuk mengintegrasikan tutorial baru Anda.
-- Buka manajer file Anda dan navigasikan ke folder `sovereign-university-data`, yang mewakili klon lokal dari repositori Anda. Anda seharusnya biasanya menemukannya di bawah `Documents\GitHub\sovereign-university-data`. Di dalam direktori ini, akan diperlukan untuk menemukan sub-folder yang tepat untuk menempatkan tutorial Anda. Organisasi folder mencerminkan bagian yang berbeda dari situs web Jaringan PlanB. Dalam contoh kita, karena kami ingin menambahkan tutorial tentang Sparrow Wallet, maka tepat untuk pergi ke jalur berikut: `sovereign-university-data\tutorials\wallet` yang sesuai dengan bagian `WALLET` di situs web: ![tutorial](assets/12.webp)
+- Buka manajer file Anda dan navigasikan ke folder `bitcoin-educational-content`, yang mewakili klon lokal dari repositori Anda. Anda seharusnya biasanya menemukannya di bawah `Documents\GitHub\bitcoin-educational-content`. Di dalam direktori ini, akan diperlukan untuk menemukan sub-folder yang tepat untuk menempatkan tutorial Anda. Organisasi folder mencerminkan bagian yang berbeda dari situs web Jaringan PlanB. Dalam contoh kita, karena kami ingin menambahkan tutorial tentang Sparrow Wallet, maka tepat untuk pergi ke jalur berikut: `bitcoin-educational-content\tutorials\wallet` yang sesuai dengan bagian `WALLET` di situs web: ![tutorial](assets/12.webp)
 - Di dalam folder `wallet`, Anda perlu membuat direktori baru khusus untuk tutorial Anda. Nama folder ini harus menggambarkan perangkat lunak yang dibahas dalam tutorial, dengan menghubungkan kata-kata dengan tanda hubung. Untuk contoh saya, folder akan berjudul `sparrow-wallet`:
 ![tutorial](assets/13.webp)
 - Di dalam sub-folder baru ini yang didedikasikan untuk tutorial Anda, beberapa elemen perlu ditambahkan:
@@ -93,7 +93,7 @@ Sekarang cabang kerja telah dibuat, saatnya untuk mengintegrasikan tutorial baru
 ![tutorial](assets/14.webp)
 - Untuk merangkum, berikut adalah hierarki file yang harus dibuat:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (untuk dimodifikasi dengan kategori yang tepat)
         └── sparrow-wallet/ (untuk dimodifikasi dengan nama tutorial)
@@ -121,7 +121,7 @@ sovereign-university-data/
     - Menengah (`intermediary`),
     - Lanjutan (`advanced`),
     - Ahli (`expert`).
-- **professor**: Sertakan ID kontributor Anda sebagaimana muncul di profil professor Anda. Untuk detail lebih lanjut, rujuk ke [tutorial yang sesuai](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Sertakan ID kontributor Anda sebagaimana muncul di profil professor Anda. Untuk detail lebih lanjut, rujuk ke [tutorial yang sesuai](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (opsional): Jika Anda ingin memberikan kredit ke situs web sumber untuk tutorial yang Anda kembangkan, seperti situs pribadi Anda sendiri, ini adalah tempat Anda dapat menambahkan link yang bersangkutan.
 ![tutorial](assets/15.webp)
 - Setelah Anda selesai memodifikasi file `tutorial.yml` Anda, simpan dokumen Anda dengan mengklik `File > Save`:
@@ -205,3 +205,4 @@ Pada perangkat lunak GitHub Desktop, Anda dapat beralih kembali ke cabang utama 
 Jika Anda ingin melakukan modifikasi pada kontribusi Anda setelah sudah mengirimkan PR Anda, prosedur yang harus diikuti tergantung pada status saat ini dari PR Anda:
 - Jika PR Anda masih terbuka dan belum digabungkan, lakukan modifikasi secara lokal sambil tetap berada di cabang yang sama. Setelah modifikasi selesai, gunakan tombol `Push origin` untuk menambahkan commit baru ke PR Anda yang masih terbuka;
 - Dalam kasus di mana PR Anda sudah digabungkan dengan cabang utama, Anda perlu melakukan proses dari awal dengan membuat cabang baru, kemudian mengirimkan PR baru. Pastikan repositori lokal Anda disinkronkan dengan repositori sumber PlanB Network sebelum melanjutkan.
+

@@ -1,8 +1,9 @@
 question: Mikä on yksi syy siihen, että Bitcoin ei ole kupla, joka katoaa?
-answer: Koska se on valuutta, jota todella käytetään kaikkialla maailmassa.
+answer: Koska se on valuutta, jota oikeasti käytetään kaikkialla maailmassa.
 wrong_answers:
-  - Koska sitä ei itse asiassa käytetä missään.
+  - Koska sitä ei oikeasti käytetä missään.
   - Koska sitä kontrolloi keskitetty auktoriteetti.
   - Koska sitä on helppo väärentää.
 explanation: >-
-  Bitcoin ei ole katoava kupla vaan valuutta, jota todella käytetään kaikkialla maailmassa.
+  Bitcoin ei ole kupla, joka katoaa, vaan valuutta, jota oikeasti käytetään kaikkialla maailmassa.
+reviewed: true

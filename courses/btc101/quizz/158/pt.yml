@@ -1,9 +1,11 @@
-question: Qual é o objetivo do Proof of Work na rede Bitcoin?
-answer: O Proof of Work garante a veracidade das informações sem a necessidade de uma terceira parte confiável.
+question: Qual é o propósito do Proof of Work na rede Bitcoin?
+answer: O Proof of Work garante a veracidade das informações sem confiar em uma terceira parte.
 wrong_answers:
-  - O Proof of Work é usado para criar novos bitcoins.
-  - O Proof of Work é usado para verificar transações de Bitcoin.
-  - O Proof of Work é usado para garantir a segurança da rede Bitcoin.
-explanation: |
-  O Proof of Work é um algoritmo de consenso usado na rede Bitcoin para validar transações e criar novos blocos. Ele requer que os mineradores resolvam problemas matemáticos complexos, o que garante a autenticidade das informações na rede sem a necessidade de uma terceira parte confiável.
-reviewed: false
+  - O Proof of Work é usado para criar novos bitcoins confiando em uma terceira parte.
+  - O Proof of Work é usado para verificar transações de Bitcoin confiando em uma terceira parte.
+  - O Proof of Work é usado para mudar o protocolo do Bitcoin sem confiar em uma terceira parte.
+explanation: >-
+  O Proof of Work é um algoritmo de consenso usado na rede Bitcoin
+  para validar transações e criar novos blocos. Ele exige que os mineradores resolvam problemas matemáticos complexos, o que garante a autenticidade das informações na
+  rede sem a necessidade de uma terceira parte confiável.
+reviewed: true

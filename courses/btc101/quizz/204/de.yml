@@ -1,9 +1,9 @@
-question: Was sollten Sie bei der Auswahl einer DCA-Plattform beachten?
+question: Was ist einer der Punkte, die Sie berücksichtigen sollten, wenn Sie eine DCA-Plattform auswählen?
 answer: Verfügbarkeit in Ihrem Land.
 wrong_answers:
   - Die Farbe des Logos der Plattform.
-  - Die Anzahl der Benutzer auf der Plattform.
+  - Die Anzahl der Nutzer auf der Plattform.
   - Das Alter der Plattform.
 explanation: |
-  Der Text erwähnt, dass bei der Auswahl einer DCA-Plattform die Verfügbarkeit in Ihrem Land eine größere Rolle spielt.
-reviewed: false
+  Dieser Kurstext erwähnt, dass bei der Auswahl einer DCA-Plattform die richtige Wahl stärker von ihrer Verfügbarkeit in Ihrem Land abhängt.
+reviewed: true

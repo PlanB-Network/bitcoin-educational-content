@@ -1,0 +1,9 @@
+question: Selon Adam Smith, pourquoi le marché fonctionne-t-il ?
+answer: Parce qu'il est fondé sur l'intérêt
+wrong_answers:
+  - Parce qu'il est régulé
+  - Parce qu'il est vertueux
+  - Parce qu'il est surveillé par l'État
+explanation: |
+  Pour Adam Smith, le marché fonctionne car chaque individu agit dans son propre intérêt, ce qui génère naturellement une prospérité collective.
+reviewed: false

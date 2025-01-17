@@ -1,9 +1,10 @@
 question: Welche Technologien verwendet das Bitcoin-Protokoll?
-answer: Kryptographie, Netzwerkkommunikation und die Blockchain.
+answer: Kryptografie, Netzwerkkommunikation und die Blockchain.
 wrong_answers:
   - Künstliche Intelligenz, maschinelles Lernen und die Blockchain.
   - Quantencomputing, Netzwerkkommunikation und die Blockchain.
-  - Kryptographie, künstliche Intelligenz und die Blockchain.
-explanation: |
-  Das Bitcoin-Protokoll verwendet zugrunde liegende Technologien wie Kryptographie, Netzwerkkommunikation und die Blockchain.
-reviewed: false
+  - Kryptografie, künstliche Intelligenz und die Blockchain.
+explanation: >-
+  Das Bitcoin-Protokoll nutzt zugrundeliegende Technologien wie Kryptografie,
+  Netzwerkkommunikation und die Blockchain.
+reviewed: true

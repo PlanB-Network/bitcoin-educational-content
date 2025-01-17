@@ -1,0 +1,9 @@
+question: What is the main vulnerability of weak passwords when they are hashed?
+answer: They are vulnerable to dictionary attacks
+wrong_answers:
+  - They cannot be verified by hashing
+  - They always generate collisions
+  - They require longer hashing for more security
+explanation: |
+  Weak passwords can be easily recovered from their hash using dictionary attacks, making their selection important to ensure security.
+reviewed: false

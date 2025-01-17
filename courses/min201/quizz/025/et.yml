@@ -1,0 +1,9 @@
+question: Millele viidatakse sageli kui Bitcoin võrgu baaskihile?
+answer: Arvelduskiht
+wrong_answers:
+  - Tehingukiht
+  - Turvakiht
+  - Konsensuskiht
+explanation: |
+  Bitcoin võrgu baaskiht, millele Lightning Network toetub maksekanalite avamisel ja sulgemisel, on sageli nimetatud arvelduskihiks.
+reviewed: true

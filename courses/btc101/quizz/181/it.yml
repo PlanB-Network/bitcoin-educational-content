@@ -1,12 +1,9 @@
-question: Qual è uno dei modi in cui Bitcoin si è integrato di più nel mercato tradizionale?
-answer: L'arrivo imminente degli ETF di Bitcoin.
+question: Qual è un modo in cui Bitcoin si è ulteriormente integrato nel mercato tradizionale?
+answer: L'arrivo degli ETF su Bitcoin.
 wrong_answers:
   - Il divieto di Bitcoin.
   - La scomparsa di tutte le criptovalute.
   - La creazione di Bitcoin.
 explanation: |
-  Bitcoin continua a sopravvivere e crescere sempre di più integrandosi
-  sempre di più nel mercato tradizionale. L'arrivo imminente degli ETF di Bitcoin,
-  una regolamentazione più chiara e migliori strumenti di acquisizione o conservazione incoraggiano solo questa
-  tendenza.
-reviewed: false
+  Bitcoin continua a sopravvivere e a crescere ancora di più integrandosi sempre più nel mercato tradizionale. L'arrivo degli ETF su Bitcoin, una regolamentazione più chiara e una migliore acquisizione di strumenti di archiviazione incoraggiano solo questa tendenza.
+reviewed: true

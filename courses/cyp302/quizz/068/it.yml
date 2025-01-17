@@ -1,0 +1,9 @@
+question: Qual è il ruolo della chiave nei processi di crittografia e decrittografia simmetrica?
+answer: Viene utilizzata per crittografare e decrittografare il messaggio
+wrong_answers:
+  - Viene utilizzata solo per decrittografare il messaggio
+  - Viene utilizzata per creare un codice di verifica dell'integrità del messaggio
+  - Viene condivisa pubblicamente per generare altre chiavi
+explanation: |
+  Nei sistemi di crittografia simmetrica, la stessa chiave privata viene utilizzata sia per crittografare il messaggio durante l'invio sia per decrittografarlo alla ricezione.
+reviewed: false

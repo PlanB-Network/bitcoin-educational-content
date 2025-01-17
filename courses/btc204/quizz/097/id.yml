@@ -1,0 +1,13 @@
+question: Apa yang ditunjukkan oleh anonset besar tentang privasi sebuah UTXO?
+
+answer: Privasi yang meningkat.
+
+wrong_answers:
+  - Privasi yang berkurang.
+  - Pelacakan yang lebih baik.
+  - Kecepatan transaksi coinjoin yang lebih cepat.
+
+explanation: |
+  Anonset besar menunjukkan tingkat anonimitas yang tinggi, karena menjadi sulit untuk membedakan UTXO spesifik dalam kumpulan yang homogen.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Warum ist die Verschiebungscodierung anfällig für Brute-Force-Angriffe?
+answer: Weil sie nur 26 mögliche Schlüssel hat
+wrong_answers:
+  - Weil sie einen öffentlichen Schlüssel verwendet
+  - Weil sie auf symmetrischer Verschlüsselung basiert
+  - Weil sie Zufallszahlen verwendet
+explanation: |
+  Die Verschiebungscodierung ist leicht anfällig für Brute-Force-Angriffe, da sie nur 26 mögliche Schlüssel hat, von 0 bis 25, aufgrund der Verwendung von Modulo 26, das selbst von der Größe des Alphabets abhängt. Man kann keine größeren gültigen Schlüssel verwenden, da diese in jedem Fall einem Schlüssel zwischen 0 und 25 entsprechen würden. Daher genügt es, jeden von ihnen zu testen, um die Nachricht zu finden.
+reviewed: false

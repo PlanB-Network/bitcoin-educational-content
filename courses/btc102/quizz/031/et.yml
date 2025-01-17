@@ -1,0 +1,11 @@
+question: Mis on Bitcoin rahakottide eesmärk?
+answer: Saata ja vastu võtta bitcoine
+wrong_answers:
+  - Kaevandada bitcoine
+  - Hoida füüsilisi bitcoine
+  - Teisendada bitcoine teisteks valuutadeks
+explanation: |
+  Bitcoin rahakotte kasutatakse bitcoinide saatmiseks ja vastuvõtmiseks. Need on digitaalsed
+  rahakotid, mis hoiavad digitaalseid volitusi, mis on vajalikud bitcoinide aadressile
+  juurdepääsuks ja bitcoinide kulutamiseks.
+reviewed: false

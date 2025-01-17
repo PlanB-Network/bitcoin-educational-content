@@ -1,11 +1,13 @@
-question: What is the status of Bitcoin in some countries?
-answer: Banned and criminalized
+question: What is the status of Bitcoin in El Salvador?
+answer: Legal tender.
 wrong_answers:
-  - Fully adopted
-  - Partially adopted
-  - Unregulated
-explanation: >-
-  The text mentions that some countries have banned and criminalized the
-  use of Bitcoin, adding to the complexity of Bitcoin adoption based on cultures,
-  eras, and nations.
-reviewed: false
+  - Criminalized.
+  - Unknown.
+  - Unregulated.
+explanation: |
+  The course text mentions that some countries have banned
+  and criminalized the use of Bitcoin, adding to the
+  complexity of Bitcoin adoption based on cultures, eras, and
+  nations. However, El Salvador was brave enough to adopt it
+  as a legal tender.
+reviewed: true

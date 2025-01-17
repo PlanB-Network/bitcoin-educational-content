@@ -1,0 +1,9 @@
+question: Mengapa menggunakan kembali alamat Bitcoin tidak disarankan?
+answer: Ini memudahkan pelacakan transaksi oleh pihak ketiga
+wrong_answers:
+  - Ini mengungkapkan kunci privat karena nonce
+  - Ini membuat transaksi menjadi lebih mahal
+  - Ini membatalkan tanda tangan digital
+explanation: |
+  Menggunakan kembali alamat memungkinkan pengamat untuk dengan mudah menghubungkan berbagai transaksi ke pengguna yang sama, sehingga merusak privasi mereka.
+ditinjau: false

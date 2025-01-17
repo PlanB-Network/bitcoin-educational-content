@@ -1,11 +1,12 @@
 question: O que é hiperinflação?
 answer: Um aumento drástico na massa monetária.
 wrong_answers:
-  - Um aumento sutil na massa monetária.
+  - Um pequeno aumento na massa monetária.
   - Uma diminuição drástica na massa monetária.
-  - Uma diminuição sutil na massa monetária.
+  - Uma pequena diminuição na massa monetária.
 explanation: |
-  A hiperinflação é um fenômeno monetário,
-  é caracterizada por um aumento drástico na inflação através da impressão monetária pelas autoridades,
-  o que leva a uma completa perda de confiança em uma moeda.
-reviewed: false
+  A hiperinflação é um fenômeno monetário caracterizado por um
+  aumento drástico na inflação através da impressão monetária
+  pelas autoridades, o que leva a uma perda completa de
+  confiança em uma moeda.
+reviewed: true

@@ -1,11 +1,11 @@
-question: Mikä on "kylmän" lompakon tarkoitus Bitcoinissa?
+question: Mikä on kylmän lompakon tarkoitus Bitcoinissa?
 answer: Turvata Bitcoinien säilytys.
 wrong_answers:
   - Louhia uusia Bitcoineja.
   - Käydä kauppaa Bitcoineilla.
   - Muuntaa Bitcoineja toisiin kryptovaluuttoihin.
 explanation: |
-  "Kylmä" lompakko, joka tunnetaan myös laitteistolompakkona, on laite, joka on suunniteltu
+  Kylmä lompakko, joka tunnetaan myös laitteistolompakkona, on laite, joka on suunniteltu
   turvaamaan Bitcoinien säilytys. Sitä ei käytetä uusien Bitcoinien louhintaan, Bitcoinien kauppaan,
   tai Bitcoinien muuntamiseen toisiin kryptovaluuttoihin.
 reviewed: false

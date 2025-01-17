@@ -1,9 +1,9 @@
-question: La capacité d'un canal de paiement Lightning limite-t-elle le nombre total de transactions ou le volume total de Bitcoin pouvant être transmis à travers le canal ?
-answer: Non
+question: Comment fonctionne une adresse multisignature 2/2 dans Bitcoin ?
+answer: Elle nécessite deux signatures pour déverrouiller et dépenser les fonds
 wrong_answers:
-  - Oui
-  - Seulement dans certains cas
-  - Cela dépend du réseau Bitcoin
+  - Elle permet de dépenser les fonds avec une seule des deux clés
+  - Elle autorise les transactions seulement dans des cas spécifiques de verrouillage
+  - Elle est utilisée uniquement pour envoyer des fonds vers des adresses publiques
 explanation: |
-  Bien que la capacité d'un canal de paiement Lightning soit fixe, cela ne limite pas le nombre total de transactions ou le volume total de Bitcoin pouvant être transmis à travers le canal.
+  Une adresse multisignature 2/2 nécessite la signature des deux parties impliquées pour que les fonds puissent être dépensés, ce qui est utilisé pour la sécurité des canaux Lightning.
 reviewed: false

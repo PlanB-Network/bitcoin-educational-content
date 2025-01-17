@@ -1,9 +1,0 @@
-question: Was ist die Hauptfunktion von Empfangsadressen im Bitcoin-System?
-answer: Sie ermöglichen den Empfang von Geldern auf einer Münze.
-wrong_answers:
-  - Sie ermöglichen das Versenden von Geldern von einer Münze.
-  - Sie ermöglichen das Mining neuer Bitcoins.
-  - Sie ermöglichen die Überprüfung von Transaktionen.
-explanation: |
-  Die Hauptfunktion von Empfangsadressen im Bitcoin-System besteht darin, den Empfang von Geldern auf einer Münze zu ermöglichen. Sie werden aus Paaren von privaten und öffentlichen Schlüsseln generiert.
-reviewed: false

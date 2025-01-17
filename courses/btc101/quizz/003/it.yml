@@ -1,9 +1,13 @@
 question: Qual è lo scopo di questo corso su Bitcoin?
-answer: Discutere gli aspetti monetari di Bitcoin, come utilizzarlo e il suo futuro.
+answer: Introdurre alcuni aspetti monetari generali di Bitcoin, come utilizzarlo e il suo futuro.
 wrong_answers:
-  - Discutere come estrarre Bitcoin.
-  - Discutere come regolamentare Bitcoin.
-  - Discutere come creare un nuovo protocollo Bitcoin.
+  - Introdurre come minare Bitcoin.
+  - Introdurre come regolare Bitcoin.
+  - Introdurre come creare un nuovo protocollo Bitcoin.
 explanation: |
-  Lo scopo di questo corso su Bitcoin è discutere gli aspetti monetari di Bitcoin, inclusi come acquistare e vendere bitcoin, conservarli in modo sicuro in portafogli digitali e utilizzarli per transazioni. Si propone anche di esplorare il futuro di Bitcoin.
-reviewed: false
+  Lo scopo di questo corso su Bitcoin è discutere le
+  caratteristiche monetarie generali di Bitcoin, includendo come
+  comprare e vendere bitcoin, conservarli in modo sicuro in
+  portafogli digitali e utilizzarli per transazioni. Si prefigge anche di
+  esplorare il futuro di Bitcoin.
+reviewed: true

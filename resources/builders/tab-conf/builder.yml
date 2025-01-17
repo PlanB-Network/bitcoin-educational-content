@@ -1,0 +1,20 @@
+name: TABConf
+category: conference
+
+links:
+  website: https://6.tabconf.com/
+  twitter: https://x.com/tabconf
+
+tags:
+  - development
+  - complex-DIY
+  - software
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-12-10
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

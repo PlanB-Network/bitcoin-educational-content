@@ -1,9 +1,9 @@
-question: Các cấp độ giao tiếp khác nhau trong Mạng Lưới Lightning là gì?
-answer: Giao tiếp P2P, Kênh thanh toán, Giao dịch Bitcoin
+question: Rủi ro chính trong các giao dịch cam kết trên Mạng Lưới Lightning là gì?
+answer: Đăng một giao dịch cũ để lấy lại nhiều tiền hơn
 wrong_answers:
-  - Giao tiếp P2P, Giao dịch Bitcoin, Giao dịch Ethereum
-  - Kênh thanh toán, Giao dịch Bitcoin, Giao dịch Litecoin
-  - Giao tiếp P2P, Kênh thanh toán, Giao dịch Ripple
+  - Quên ký vào giao dịch cam kết
+  - Vô tình gửi tiền đến một kênh khác
+  - Chặn giao dịch bằng một thời gian chờ không phù hợp
 explanation: |
-  Mạng Lưới Lightning có ba cấp độ giao tiếp khác nhau; Giao tiếp P2P (giao thức Mạng Lưới Lightning), Kênh thanh toán (giao thức Mạng Lưới Lightning), và Giao dịch Bitcoin (giao thức Bitcoin).
+  Rủi ro chính là một bên có thể cố gắng gian lận bằng cách đăng một giao dịch cam kết cũ, điều này có thể cho phép họ lấy lại những khoản tiền mà họ không còn quyền sở hữu.
 reviewed: false

@@ -1,12 +1,12 @@
 question: Mikä on ero kaupankäynnin, sijoittamisen ja pitämisen välillä Bitcoinin kontekstissa?
-answer: Kaupankäynti sisältää lyhytaikaisia sopimuksia suurella riskillä, sijoittaminen käsittää BTC:n ostamisen lyhyelle tai keskipitkälle aikavälille rajallisella riskillä, ja pitäminen tarkoittaa BTC:n säilyttämistä hyvin pitkällä aikavälillä rajallisella riskillä.
+answer: Kaupankäynti sisältää lyhytaikaisia sopimuksia suurella riskillä, sijoittaminen käsittää BTC; n ostamisen lyhyelle tai keskipitkälle aikavälille rajallisella riskillä, ja pitäminen tarkoittaa BTC; n säilyttämistä hyvin pitkällä aikavälillä rajallisella riskillä.
 wrong_answers:
-  - Kaupankäynti sisältää BTC:n ostamisen pitkäaikaisesti, sijoittaminen käsittää lyhytaikaisia sopimuksia suurella riskillä, ja pitäminen tarkoittaa BTC:n säilyttämistä lyhyelle tai keskipitkälle aikavälille rajallisella riskillä.
-  - Kaupankäynti sisältää BTC:n ostamisen lyhyelle tai keskipitkälle aikavälille, sijoittaminen käsittää lyhytaikaisia sopimuksia suurella riskillä, ja pitäminen tarkoittaa BTC:n säilyttämistä hyvin pitkällä aikavälillä suurella riskillä.
-  - Kaupankäynti sisältää BTC:n ostamisen lyhyelle tai keskipitkälle aikavälille, sijoittaminen käsittää lyhytaikaisia sopimuksia suurella riskillä, ja pitäminen tarkoittaa BTC:n säilyttämistä hyvin pitkällä aikavälillä rajallisella riskillä.
+  - Kaupankäynti sisältää BTC: n ostamisen pitkäaikaisesti, sijoittaminen käsittää lyhytaikaisia sopimuksia suurella riskillä, ja pitäminen tarkoittaa BTC; n säilyttämistä lyhyelle tai keskipitkälle aikavälille rajallisella riskillä.
+  - Kaupankäynti sisältää BTC: n ostamisen lyhyelle tai keskipitkälle aikavälille, sijoittaminen käsittää lyhytaikaisia sopimuksia suurella riskillä, ja pitäminen tarkoittaa BTC; n säilyttämistä hyvin pitkällä aikavälillä suurella riskillä.
+  - Kaupankäynti sisältää BTC: n ostamisen lyhyelle tai keskipitkälle aikavälille, sijoittaminen käsittää lyhytaikaisia sopimuksia suurella riskillä, ja pitäminen tarkoittaa BTC; n säilyttämistä hyvin pitkällä aikavälillä rajallisella riskillä.
 explanation: |
   Kaupankäynti, sijoittaminen ja pitäminen ovat kolme erilaista strategiaa, joita käytetään
   Bitcoin-markkinoilla. Kaupankäynti sisältää lyhytaikaisia sopimuksia suurella riskillä, sijoittaminen
-  käsittää BTC:n ostamisen lyhyelle tai keskipitkälle aikavälille rajallisella riskillä, ja pitäminen tarkoittaa
-  BTC:n säilyttämistä hyvin pitkällä aikavälillä rajallisella riskillä.
+  käsittää BTC: n ostamisen lyhyelle tai keskipitkälle aikavälille rajallisella riskillä, ja pitäminen tarkoittaa
+  BTC: n säilyttämistä hyvin pitkällä aikavälillä rajallisella riskillä.
 reviewed: false

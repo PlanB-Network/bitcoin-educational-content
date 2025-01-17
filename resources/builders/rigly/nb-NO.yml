@@ -1,0 +1,4 @@
+description: |
+  Vi skapte Rigly slik at alle kan nyte å mine bitcoin. I bitcoinens tidlige dager kunne alle mine bitcoin på datamaskinen sin. Over tid vokste bitcoin, og spesialisert maskinvare - GPUer, deretter FPGAer, og nå ASICer - ble nødvendig for mining. I dag krever ASIC mining-rigger betydelige investeringer og styring, og er ofte installert i nærheten av energianlegg. Rigly lar deg kjøpe hashrate fra disse minerne og delta i mining.
+contributors:
+  - rabbit-hole

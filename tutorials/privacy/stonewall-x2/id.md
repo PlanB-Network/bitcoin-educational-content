@@ -47,7 +47,7 @@ Oleh karena itu, logika harus sebagai berikut ketika menggunakan alat pengeluara
 
 Jika Anda ingin menemukan kolaborator yang bersedia membantu Anda dalam transaksi Stonewall X2, Anda juga dapat mengunjungi grup Telegram ini (tidak resmi) yang dipelihara oleh pengguna Samourai untuk menghubungkan pengirim dan kolaborator: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> Pelajari lebih lanjut tentang transaksi Stonewall**](https://planb.network/tutorials/privacy/stonewall)
+[**-> Pelajari lebih lanjut tentang transaksi Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Apa tujuan dari transaksi Stonewall x2?
 
@@ -86,7 +86,7 @@ Klik tombol 'FOLLOW'.
 ![follow paynym](assets/notext/11.webp)
 Konfirmasi dengan mengklik 'YES'.
 ![confirm follow paynym](assets/notext/12.webp)
-Perangkat lunak kemudian akan menawarkan tombol 'CONNECT'. Tidak perlu mengklik tombol ini untuk tutorial kita. Langkah ini hanya diperlukan jika Anda berencana untuk melakukan pembayaran kepada PayNym lain sebagai bagian dari [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), yang tidak terkait dengan tutorial kita.
+Perangkat lunak kemudian akan menawarkan tombol 'CONNECT'. Tidak perlu mengklik tombol ini untuk tutorial kita. Langkah ini hanya diperlukan jika Anda berencana untuk melakukan pembayaran kepada PayNym lain sebagai bagian dari [BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093), yang tidak terkait dengan tutorial kita.
 ![connect paynym](assets/notext/13.webp)
 Setelah PayNym Anda mengikuti PayNym kolaborator Anda, ulangi proses ini dalam arah yang berlawanan sehingga kolaborator Anda juga dapat mengikuti Anda. Anda kemudian dapat melakukan transaksi Stonewall x2.
 
@@ -96,7 +96,7 @@ Jika Anda menggunakan Sparrow Wallet, buka dompet Anda dan akses menu 'Show PayN
 ![request paynym sparrow](assets/notext/14.webp)
 Kemudian masukkan pengenal PayNym kolaborator Anda (baik nama panggilan '+...' atau kode pembayaran mereka 'PM...') di kotak 'Find Contact', dan klik tombol 'Add Contact'.
 ![add contact paynym](assets/notext/15.webp)
-Perangkat lunak kemudian akan menawarkan tombol 'Link Contact'. Tidak perlu mengklik tombol ini untuk tutorial kita. Langkah ini hanya diperlukan jika Anda berencana untuk melakukan pembayaran kepada PayNym yang ditunjuk sebagai bagian dari [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), yang tidak terkait dengan tutorial kita.
+Perangkat lunak kemudian akan menawarkan tombol 'Link Contact'. Tidak perlu mengklik tombol ini untuk tutorial kita. Langkah ini hanya diperlukan jika Anda berencana untuk melakukan pembayaran kepada PayNym yang ditunjuk sebagai bagian dari [BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093), yang tidak terkait dengan tutorial kita.
 
 Setelah PayNym Anda mengikuti PayNym kolaborator Anda, ulangi proses ini dalam arah yang berlawanan sehingga kolaborator Anda juga dapat mengikuti Anda. Anda kemudian dapat melakukan transaksi Stonewall x2.
 ## Bagaimana cara melakukan transaksi Stonewall x2 di Samourai Wallet?

@@ -1,9 +1,12 @@
-question: ¿Cuáles son algunas estrategias discutidas para combatir la centralización minera en Bitcoin?
-answer: Las estrategias discutidas para combatir la centralización minera en Bitcoin incluyen la minería doméstica, el protocolo Stratum V2, la liberación del software de minería y la diversificación de actores y geografía.
+question: ¿Cuáles son algunas estrategias discutidas para combatir la centralización de la minería en Bitcoin?
+answer: Las estrategias discutidas para combatir la centralización de la minería en Bitcoin incluyen la Minería en Casa, el protocolo Stratum V2, la publicación del código fuente del software de minería y la diversificación de actores y geografía.
 wrong_answers:
-  - Las estrategias discutidas para combatir la centralización minera en Bitcoin incluyen aumentar el tamaño del bloque, implementar la prueba de participación y crear una autoridad central para supervisar la minería.
-  - Las estrategias discutidas para combatir la centralización minera en Bitcoin incluyen reducir la recompensa por bloque, implementar una tarifa de transacción y crear un impuesto minero.
-  - Las estrategias discutidas para combatir la centralización minera en Bitcoin incluyen aumentar la dificultad de la minería, implementar un límite de minería y crear una lotería minera.
+  - Las estrategias discutidas para combatir la centralización de la minería en Bitcoin incluyen aumentar el tamaño del bloque, implementar la prueba de participación y crear una autoridad central para supervisar la minería.
+  - Las estrategias discutidas para combatir la centralización de la minería en Bitcoin incluyen reducir la recompensa del bloque, implementar una tarifa por transacción y crear un impuesto a la minería.
+  - Las estrategias discutidas para combatir la centralización de la minería en Bitcoin incluyen aumentar la dificultad de la minería, implementar un límite de minería y crear una lotería de minería.
 explanation: |
-  El capítulo discute varias estrategias para combatir la centralización minera en Bitcoin, incluyendo la minería doméstica, el protocolo Stratum V2, la liberación del software de minería y la diversificación de actores y geografía.
-reviewed: false
+  El capítulo discute varias estrategias para combatir la
+  centralización de la minería en Bitcoin, incluyendo la Minería en Casa, el
+  protocolo Stratum V2, la publicación del código fuente del software de minería, y
+  la diversificación de actores y geografía.
+reviewed: true

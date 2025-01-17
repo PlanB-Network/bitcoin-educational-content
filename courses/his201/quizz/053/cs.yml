@@ -1,0 +1,9 @@
+question: Jaké přidání v létě 2010 umožnilo následně provádět soft forky v Bitcoinu?
+answer: Operační kódy OP_NOP
+wrong_answers:
+  - Systém upozornění
+  - Limit velikosti bloku
+  - Standardní formát transakce
+explanation: |
+  Jednalo se o no-op instrukce, které neskript neinvalidovaly, pokud byly provedeny. Umožnily přidání OP_CHECKLOCKTIMEVERIFY a OP_CHECKSEQUENCEVERIFY do protokolu v letech 2015/2016.
+reviewed: false

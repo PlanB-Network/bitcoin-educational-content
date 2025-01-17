@@ -1,9 +1,12 @@
 question: Qual è il messaggio contenuto nel primo blocco della blockchain di Bitcoin?
-answer: 03/gen/2009 Cancelliere sull'orlo del secondo salvataggio delle banche.
+answer: 03/gen/2009 Il Cancelliere sull'orlo del secondo salvataggio per le banche.
 wrong_answers:
   - Possiamo vincere una grande battaglia nella corsa agli armamenti e guadagnare un nuovo territorio di libertà per diversi anni.
-  - I governi sono bravi a tagliare le teste delle reti controllate centralmente come Napster, ma le reti P2P pure come Gnutella e Tor sembrano resistere.
+  - I governi sono bravi a tagliare la testa di reti centralizzate come Napster, ma reti puramente P2P come Gnutella e Tor sembrano tenere duro.
   - Nessuna delle precedenti.
 explanation: |
-  Il primo blocco della blockchain di Bitcoin, anche conosciuto come blocco genesi, contiene il messaggio 03/gen/2009 Cancelliere sull'orlo del secondo salvataggio delle banche, che è il titolo del Time di quel giorno per contrassegnare il blocco genesi.
-reviewed: false
+  Il primo blocco della blockchain di Bitcoin, noto anche come
+  blocco genesi, contiene il messaggio 03/gen/2009
+  Il Cancelliere sull'orlo del secondo salvataggio per le banche, che è
+  il titolo del Times di quel giorno per marcare temporalmente il blocco genesi.
+reviewed: true

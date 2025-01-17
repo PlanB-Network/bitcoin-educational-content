@@ -1,0 +1,8 @@
+question: Mikä maa on Gavin Andresenin, joka loi ensimmäisen Bitcoin-hanan kesäkuussa 2010 ja auttoi Satoshi Nakamotoa ohjelmiston kehittämisessä, alkuperämaa?
+answer: Australia
+wrong_answers:
+  - Yhdysvallat
+  - Ranska
+  - Alankomaat
+explanation: |
+  Hän syntyi [Australiassa](https: //gavinthink.blogspot.com/2007/06/seven-years-ago-today.html), mutta sai Yhdysvaltain kansalaisuuden vuonna 2004.

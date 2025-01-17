@@ -16,7 +16,7 @@ Tuy nhiên, nếu bạn quan tâm đến việc dịch các phần khác của t
 
 Nếu bạn muốn thêm một ngôn ngữ hoàn toàn mới vào Mạng lưới PlanB mà chưa có sẵn trên Weblate, bạn sẽ cần phải đầu tiên gửi yêu cầu thêm vào. Để làm điều này, theo dõi hướng dẫn cụ thể này.
 
-https://planb.network/tutorials/others/add-new-language-weblate
+https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 
 

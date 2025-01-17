@@ -1,12 +1,12 @@
 question: What is the average time between the creation of two blocks in the Bitcoin
   protocol?
-answer: 10 minutes
+answer: 10 minutes.
 wrong_answers:
-  - 5 minutes
-  - 15 minutes
-  - 20 minutes
+  - 5 minutes.
+  - 15 minutes.
+  - 20 minutes.
 explanation: >-
   On average, a block is created every 10 minutes in the Bitcoin protocol.
   This time remains constant regardless of the number of miners and their computing
   power.
-reviewed: false
+reviewed: true

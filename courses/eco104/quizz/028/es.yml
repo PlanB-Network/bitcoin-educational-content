@@ -1,9 +1,12 @@
-question: Cualquiera puede duplicar el código de Bitcoin, haciéndolo sin valor, ¿correcto o incorrecto?
-answer: Correcto
+question: ¿Cualquiera puede duplicar el código de Bitcoin?
+answer: sí, pero no puedes copiar el valor de la red Bitcoin
 wrong_answers:
-  - Incorrecto
+  - sí y también copiarías el valor de la red Bitcoin
+  - no y puedes copiar el valor de la red Bitcoin
+  - no, porque el código de Bitcoin es de código cerrado
 explanation: |
   Aunque el código de Bitcoin es de código abierto y puede ser copiado,
   el valor de bitcoin no se deriva de su código. Se deriva de
   su red de usuarios y la confianza y adopción que ha acumulado con el tiempo.
 reviewed: false
+

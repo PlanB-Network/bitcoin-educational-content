@@ -1,0 +1,9 @@
+question: Mikä on valtion suvereniteetin raja John Stuart Millin mukaan?
+answer: Valtio voi puuttua asioihin vain, kun yksilön toimet vahingoittavat muita.
+wrong_answers:
+  - Valtio on suvereeni kaikissa olosuhteissa eikä sitä voi rajoittaa mikään yksilö tai yksilöiden ryhmä.
+  - Valtion suvereniteetti on rajoitettu taloudellisin keinoin.
+  - Valtion suvereniteetti on rajoitettu luonnonlakien mukaan.
+explanation: |
+  John Stuart Mill väittää, että valtion puuttuminen on legitiimiä vain, kun yksilön toimet aiheuttavat vahinkoa muille, jotta voidaan suojella henkilökohtaista vapautta alueilla, jotka eivät vahingoita muita.
+reviewed: false

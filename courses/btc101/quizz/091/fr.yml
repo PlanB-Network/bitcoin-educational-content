@@ -1,9 +1,13 @@
-question: Quelle est l'utilisation recommandée d'un portefeuille physique hors ligne, ou à froid ?
-answer: Pour stocker des montants plus importants
+question: Quel est l'usage recommandé d'un portefeuille physique hors ligne, ou cold ?
+answer: Stocker de grandes quantités.
 wrong_answers:
-  - Pour les dépenses quotidiennes
-  - Pour de petites sommes
-  - Pour des économies à court terme
+  - Stocker les dépenses quotidiennes.
+  - Stocker de petites quantités.
+  - Stocker des économies à court terme.
 explanation: |
-  Un portefeuille physique hors ligne, ou à froid, est recommandé pour stocker des montants plus importants car il est moins vulnérable aux menaces en ligne. Cependant, il n'est pas recommandé pour les dépenses quotidiennes car il est moins accessible pour les transactions quotidiennes.
-reviewed: false
+  Un portefeuille physique hors ligne, ou cold, est recommandé pour
+  stocker de grandes quantités car il est moins vulnérable aux
+  menaces en ligne que les portefeuilles hot. Cependant, il n'est pas
+  recommandé pour les dépenses quotidiennes car il est moins
+  accessible pour les transactions quotidiennes.
+reviewed: true

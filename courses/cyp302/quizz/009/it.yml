@@ -1,0 +1,9 @@
+question: Quale passaggio non è incluso nella dimostrazione di sicurezza di uno schema crittografico moderno?
+answer: Configurare un'interfaccia utente
+wrong_answers:
+  - Enunciare le definizioni di sicurezza
+  - Le ipotesi di complessità matematica
+  - La dimostrazione matematica della sicurezza
+explanation: |
+  La dimostrazione di sicurezza nella crittografia moderna si concentra su obiettivi e ipotesi matematiche, escludendo aspetti come l'interfaccia utente, che non è rilevante per la sicurezza crittografica.
+reviewed: false

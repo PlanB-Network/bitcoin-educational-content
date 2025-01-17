@@ -1,0 +1,11 @@
+question: Apa perbedaan antara berdagang dan berinvestasi dalam konteks Bitcoin?
+answer: Berdagang melibatkan kontrak jangka pendek dengan risiko tinggi, sementara berinvestasi melibatkan pembelian BTC untuk jangka pendek hingga menengah dengan risiko terbatas.
+wrong_answers:
+  - Berdagang melibatkan pembelian BTC untuk jangka pendek hingga menengah, sementara berinvestasi melibatkan kontrak jangka pendek dengan risiko tinggi.
+  - Berdagang melibatkan pembelian BTC untuk jangka panjang, sementara berinvestasi melibatkan kontrak jangka pendek dengan risiko tinggi.
+  - Berdagang melibatkan pembelian BTC untuk jangka pendek hingga menengah, sementara berinvestasi melibatkan pembelian BTC untuk jangka panjang.
+explanation: |
+  Dalam konteks Bitcoin, berdagang melibatkan kontrak jangka pendek dengan
+  risiko tinggi, sementara berinvestasi melibatkan pembelian BTC untuk jangka pendek hingga menengah dengan risiko
+  terbatas.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Properti apa yang memastikan bahwa secara komputasi tidak mungkin untuk mengambil kembali input dari sebuah hash?
+answer: Preimage resistance
+wrong_answers:
+  - Collision resistance
+  - Avalanche effect
+  - Second preimage resistance
+explanation: |
+  Preimage resistance memastikan bahwa secara praktis tidak mungkin untuk menemukan pesan asli dari hash-nya.

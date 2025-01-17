@@ -1,0 +1,9 @@
+question: Welches Hauptproblem versuchten die Kryptographen Diffie, Hellman und Merkle in den 1970er Jahren zu lösen?
+answer: Die Probleme der Schlüsselverteilung und -verwaltung
+wrong_answers:
+  - Die Entwicklung der Post-Quanten-Kryptographie
+  - Die Sicherung militärischer Kommunikation
+  - Die Verbesserung symmetrischer Verschlüsselungstechniken
+explanation: |
+  Diffie, Hellman und Merkle waren durch die praktischen Schwierigkeiten der Schlüsselverteilung und -verwaltung motiviert, um Kommunikation zu sichern, entscheidende Herausforderungen in einer Welt, die sich auf digitale Kommunikation zubewegte.
+reviewed: false

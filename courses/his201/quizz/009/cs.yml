@@ -1,0 +1,9 @@
+question: V kterém roce byl systém Liberty Reserve uzavřen americkými úřady?
+answer: 2013
+wrong_answers:
+  - 2007
+  - 2009
+  - 2011
+explanation: |
+  Dne 24. května 2013 byl jeho zakladatel, Arthur Budovsky, a jeho hlavní spolupracovníci obviněni a zatčeni a hlavní stránka byla zabavena americkým ministerstvem spravedlnosti.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Que se passe-t-il avec la transaction de retrait après un transfert sur le réseau Lightning ?
-answer: Elle est mise à jour pour refléter le nouveau solde du canal.
+question: Quel est l'effet combiné du timelock et de la clé de révocation sur les transactions d'engagement ?
+answer: Ils dissuadent les participants de tricher en offrant une punition immédiate
 wrong_answers:
-  - Elle est exécutée et les fonds sont transférés.
-  - Elle est abandonnée et une nouvelle transaction est créée.
-  - Elle reste la même.
+  - Ils réduisent la capacité du canal en cas de tricherie
+  - Ils bloquent automatiquement les fonds de la partie fautive
+  - Ils forcent l'ouverture d'un nouveau canal si la transaction est incorrecte
 explanation: |
-  Après un transfert sur le réseau Lightning, la transaction de retrait est mise à jour
-  pour refléter le nouveau solde du canal. Cette transaction n'est pas exécutée à moins que
-  le canal ne soit fermé.
+  Le timelock et la clé de révocation dissuadent les participants de tricher en garantissant que toute tentative de tricherie entraîne une perte immédiate des fonds pour la partie fautive.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Quel concept économique Bastiat met-il en avant dans son analyse du coût de la destruction ?
+answer: Le coût d'opportunité
+wrong_answers:
+  - Le coût marginal
+  - La productivité marginale
+  - Le coût de production
+explanation: |
+  Bastiat souligne l'importance du coût d'opportunité, illustrant que les ressources employées pour réparer des destructions auraient pu être utilisées pour créer de la richesse ailleurs.
+reviewed: false

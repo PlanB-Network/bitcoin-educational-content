@@ -1,0 +1,9 @@
+question: Hva er den estimerte tiden for å faktorisere et 2048-bits heltall ved bruk av alle nåværende databehandlingsressurser?
+answer: Langt utover universets alder
+wrong_answers:
+  - Noen måneder med klassiske datamaskiner
+  - Noen minutter med superdatamaskiner
+  - Noen tiår for en Bitcoin-gruvefarm
+explanation: |
+  Kompleksiteten ved å faktorisere 2048-bits tall er slik at det ville være praktisk talt umulig å løse, selv ved bruk av alle eksisterende databehandlingsressurser over en periode som overstiger universets alder.
+reviewed: false

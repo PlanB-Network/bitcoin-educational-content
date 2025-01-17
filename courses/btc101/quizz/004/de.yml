@@ -1,9 +1,11 @@
-question: Was sind die zwei Hauptaspekte von Bitcoin?
+question: Was sind die zwei Hauptmerkmale von Bitcoin?
 answer: Bitcoin ist sowohl ein Computerprotokoll als auch eine Währungseinheit.
 wrong_answers:
   - Bitcoin ist sowohl eine physische Währung als auch eine digitale Geldbörse.
   - Bitcoin ist sowohl eine Art von Aktie als auch eine Art von Anleihe.
   - Bitcoin ist sowohl eine zentralisierte als auch eine dezentralisierte Währung.
 explanation: |
-  Bitcoin hat zwei Hauptaspekte: Es ist ein Computerprotokoll, das Technologien wie Kryptographie und die Blockchain verwendet, und es ist eine Währungseinheit, die für Transaktionen verwendet wird.
-reviewed: false
+  Bitcoin ist sowohl ein Computerprotokoll, das Technologien
+  wie Kryptographie und die Blockchain nutzt, als auch eine
+  Währungseinheit, die für Transaktionen verwendet wird.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Hva er statusen til Bitcoin i noen land?
+answer: Forbudt og kriminalisert
+wrong_answers:
+  - Fullstendig adoptert
+  - Delvis adoptert
+  - Uregulert
+explanation: >-
+  Teksten nevner at noen land har forbudt og kriminalisert
+  bruken av Bitcoin, noe som bidrar til kompleksiteten rundt adopsjonen av Bitcoin basert på kulturer,
+  epoker, og nasjoner.
+reviewed: false

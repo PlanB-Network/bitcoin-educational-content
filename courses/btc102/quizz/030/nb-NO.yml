@@ -1,0 +1,10 @@
+question: Hva er Bitcoin blockchain?
+answer: En database som registrerer alle Bitcoin-transaksjoner
+wrong_answers:
+  - En type digital valuta
+  - Et nettverk av Bitcoin-brukere
+  - En metode for å utvinne bitcoins
+explanation: |
+  Bitcoin blockchain er en database som registrerer alle Bitcoin-transaksjoner.
+  Den vedlikeholdes av gruvearbeidere som legger til nye transaksjoner i blockchain.
+reviewed: false

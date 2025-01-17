@@ -1,10 +1,9 @@
-question: What is the size of a Bitcoin private key?
-answer: 256-bit number
+question: Which sighash flag is most commonly used in Bitcoin transactions?
+answer: SIGHASH_ALL
 wrong_answers:
-  - 512-bit number
-  - 128-bit number
-  - 1024-bit number
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  In the Bitcoin system, the private key is a random or pseudo-random 256-bit
-  number.
+  SIGHASH_ALL is the default sighash flag, covering all the inputs and outputs of a transaction, preventing any modifications.
 reviewed: false

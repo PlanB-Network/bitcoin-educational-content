@@ -1,9 +1,13 @@
-question: ¿Cuál es el posible inconveniente de la minería para la red?
-answer: Sin un incentivo financiero suficiente, puede ser difícil para los mineros continuar apoyando la red.
+question: ¿Cuál es la posible desventaja de la minería para la red?
+answer: Sin suficiente incentivo financiero, puede ser difícil para los mineros continuar apoyando la red.
 wrong_answers:
-  - Puede llevar a una disminución en el precio de Bitcoin.
-  - Puede llevar a un aumento en la tasa de hash de la red.
-  - Puede llevar a una disminución en el número de nodos activos en la red.
+  - Puede llevar a una disminución en el precio de Bitcoin
+  - Puede llevar a un aumento en el hashrate de la red
+  - Puede llevar a una disminución en el número de nodos activos en la red
 explanation: |
-  La minería para la red es una iniciativa noble que contribuye a la seguridad y descentralización de la red de Bitcoin. Sin embargo, sin un incentivo financiero suficiente, puede ser difícil para los mineros continuar apoyando la red, especialmente si operan con pérdidas.
-reviewed: false
+  La minería para la red es una iniciativa noble que
+  contribuye a la seguridad y descentralización de la
+  red Bitcoin. Sin embargo, sin suficiente incentivo
+  financiero, puede ser difícil para los mineros continuar
+  apoyando la red, especialmente si operan con pérdidas.
+reviewed: true

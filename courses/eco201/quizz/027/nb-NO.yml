@@ -1,0 +1,11 @@
+question: Hvilken rolle spiller penger i den intertemporale koordineringen av menneskelig handling?
+answer: Det muliggjør lagring av verdi i nåtiden og overføring til ens fremtidige selv.
+wrong_answers:
+  - Det muliggjør lagring av verdi i fremtiden og overføring til ens nåværende selv.
+  - Det muliggjør lagring av verdi i nåtiden og overføring til andre mennesker.
+  - Det muliggjør lagring av verdi i fremtiden og overføring til andre mennesker.
+explanation: |
+  Ved å lagre penger, det vil si spare, beskytter individer seg mot fremtidig usikkerhet
+  og muliggjør dermed at de kan rette sine handlinger mot lengre tidsrammer.
+  Men, de kan kun oppnå dette hvis pengene som brukes utgjør en verdioppbevaring.
+reviewed: false

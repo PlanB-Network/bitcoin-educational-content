@@ -1,11 +1,9 @@
-question: What is the equation of the secp256k1 curve used in Bitcoin?
-answer: "y\xB2 = x\xB3 + 7 modulo n"
+question: What is the size of a raw private key used on Bitcoin?
+answer: 256 bits
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax + b"
-  - "y\xB2 = x\xB3 + 7 modulo p"
-  - "y\xB2 = x\xB3 + ax + b modulo n"
+  - 128 bits
+  - 512 bits
+  - 1024 bits
 explanation: |
-  "The secp256k1 curve used in Bitcoin is defined by the parameters a=0\
-  \ and b=7, and its equation is y\xB2 = x\xB3 + 7 modulo n, where n represents the\
-  \ prime number that determines the order of the curve."
+  A private key in Bitcoin is a 256-bit random integer, ensuring a key space large enough to guarantee security.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Каковы обычно тарифы за транзакции в сети Lightning Network?
+answer: 0.5%
+wrong_answers:
+  - 1%
+  - 2%
+  - 3%
+explanation: >-
+  Тарифы за транзакции в сети Lightning Network крайне низкие, часто менее 0.5%.
+reviewed: false

@@ -1,9 +1,14 @@
 question: Qual é a principal vantagem de minerar bitcoins virgens?
-answer: Eles nunca foram gastos e não possuem histórico associado a eles.
+answer: Eles nunca foram gastos e não têm nenhum histórico associado a eles.
 wrong_answers:
-  - Eles podem ser vendidos a um preço mais alto.
+  - Eles podem ser vendidos por um preço mais alto.
   - Eles podem ser usados para atividades ilegais.
   - Eles podem ser armazenados por um longo tempo sem perder valor.
 explanation: |
-  A principal vantagem de minerar bitcoins virgens é que eles nunca foram gastos e não possuem histórico associado a eles. Esses bitcoins são frequentemente considerados mais valiosos porque nunca foram "contaminados", fornecendo alguma garantia contra rejeição por reguladores ou grandes plataformas de câmbio.
-reviewed: false
+  A principal vantagem de minerar bitcoins virgens é que eles
+  nunca foram gastos e não têm nenhum histórico associado a eles.
+  Esses bitcoins são frequentemente considerados mais valiosos porque
+  nunca foram contaminados, proporcionando alguma garantia
+  contra rejeição por reguladores ou principais plataformas de
+  troca.
+reviewed: true

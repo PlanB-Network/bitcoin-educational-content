@@ -6,7 +6,7 @@ A public key is used in scripts (either directly in the form of a public key or 
 
 If we simplify this to the field of real numbers, given the elliptical curve is symmetrical with respect to the x-axis, for any point $P$ (`x, y`) on the curve, there exists a point $P'$ (`x, -y`) that will also be on this same curve. This means that for each `x`, there are only two possible values of `y`, positive and negative. For example, for a given abscissa `x`, there would be two points $P1$ and $P2$ on the elliptical curve, sharing the same abscissa but with opposite ordinates:
 
-![](../../dictionnaire/assets/29.png)
+![](../../dictionnaire/assets/29.webp)
 To choose between the two potential points on the curve, a prefix specifying which `y` to choose is added to `x`. This method allows reducing the size of a public key from 520 bits to only 264 bits (8 bits of prefix + 256 bits for `x`). This representation is known as the compressed form of the public key.
 
 However, in the context of elliptical curve cryptography, we use not the real numbers, but a finite field of order `p` (a prime number). In this context, the "sign" of `y` is determined by its parity, that is, whether `y` is even or odd. The prefix `0x02` then indicates an even `y`, while `0x03` indicates an odd `y`.

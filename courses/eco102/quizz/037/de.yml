@@ -1,0 +1,9 @@
+question: Was war die Definition von Eigentum auf Lateinisch nach den Römern?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  Im römischen Recht definiert jus utendi et abutendi Eigentum als das Recht zu nutzen und zu missbrauchen, wobei der Schwerpunkt auf der Nutzung liegt, ohne auf dessen Ursachen einzugehen.
+reviewed: false

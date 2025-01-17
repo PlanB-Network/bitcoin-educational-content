@@ -1,0 +1,9 @@
+question: Cosa significa se due numeri sono coprimi?
+answer: Il loro massimo comune divisore è uguale a 1
+wrong_answers:
+  - La loro somma è un numero pari
+  - Entrambi sono pari
+  - Non hanno divisori comuni oltre a 1 e se stessi
+explanation: |
+  Due numeri sono coprimi se il loro massimo comune divisore è 1, il che significa che non condividono alcun fattore primo, una proprietà importante in crittografia.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millist kriitikat esitas krüptopunkide asutajaliige John Gilmore Satoshi Nakamoto leiutise kohta jaanuaris 2009?
+answer: Bitcoin saastab planeeti
+wrong_answers:
+  - Bitcoin soodustab maksudest kõrvalehoidmist
+  - Bitcoin on haavatav Sybili rünnakute suhtes
+  - Bitcoin on deflatsiooniline
+explanation: |
+  Ta [kritiseeris](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoini elektri tarbimise ja süsinikdioksiidi (kasvuhoonegaas) tekitamise pärast.
+reviewed: false

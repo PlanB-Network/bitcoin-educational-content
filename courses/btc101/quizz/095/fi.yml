@@ -1,12 +1,9 @@
-question: Mikä on riski käyttäessä säilytyspalvelun lompakkoa?
-answer: Luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi
+question: Mitä termi hodl tarkoittaa?
+answer: Hodl on slangi-ilmaisu kryptovaluuttayhteisössä, joka tarkoittaa sijoitusten pitämistä myymättä niitä, erityisesti markkinoiden volatiliteetin aikana.
 wrong_answers:
-  - Luotettu kolmas osapuoli voi milloin tahansa lisätä bitcoiniesi arvoa
-  - Luotettu kolmas osapuoli voi milloin tahansa vähentää bitcoiniesi arvoa
-  - Luotettu kolmas osapuoli voi milloin tahansa antaa bitcoinisi pois
+  - Hodl viittaa erityyppiseen kryptovaluuttaan, jota käytetään vain kaupankäyntiin.
+  - Hodl on termi, joka tarkoittaa kaikkien kryptovaluuttojesi myymistä korkeaan hintaan.
+  - Hodl on päiväkaupankäynnin strategia, joka sisältää usein ostamisen ja myymisen.
 explanation: |
-  Kun käytät säilytyspalvelun lompakkoa, et ole bitcoiniesi ainoa haltija.
-  Tämä tarkoittaa, että luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi,
-  antaen sinulle saman tason taloudellista itsemääräämisoikeutta kuin perinteisessä
-  pankkijärjestelmässä.
-reviewed: false
+  Termi hodl sai alkunsa väärin kirjoitetusta verkkopostista vuonna 2013 Bitcoin-foorumilla. Ajan myötä hodl on kehittynyt edustamaan laajempaa sijoitusstrategiaa. Se kannustaa sijoittajia pitämään kiinni kryptovaluutoistaan pitkällä aikavälillä, markkinoiden vaihtelusta riippumatta.
+reviewed: true

@@ -1,11 +1,9 @@
-question: How are the bits transformed into phrases in the generation of a mnemonic
-  phrase for a Bitcoin wallet?
-answer: Each segment is associated with a word from a list of 2048 words.
+question: What depth in the derivation path specifies the currency type?
+answer: Depth 2
 wrong_answers:
-  - Each bit is associated with a word from a list of 2048 words.
-  - Each segment is associated with a word from a list of 1024 words.
-  - Each bit is associated with a word from a list of 1024 words.
+  - Depth 1
+  - Depth 3
+  - Depth 4
 explanation: |
-  To transform the bits into phrases, each segment is associated with a
-  word from a list of 2048 words.
+  Depth 2 is used to identify the currency in multi-currency wallets, such as Bitcoin (index 0') or Litecoin (index 2').
 reviewed: false

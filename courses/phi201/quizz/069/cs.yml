@@ -1,0 +1,9 @@
+question: Jaký byl Turgotův postoj k náboženské pravdě?
+answer: Náboženská pravda je záležitostí individuálního svědomí a nemůže být vnucena žádnou autoritou.
+wrong_answers:
+  - Náboženská pravda je relativní a závisí na kultuře a době, ve které člověk žije.
+  - Náboženská pravda je pro člověka nedostupná a nemůže být předmětem žádné jistoty.
+  - Náboženskou pravdu musí určit politická moc a vnucovat ji všem občanům.
+explanation: |
+  Turgot považoval náboženskou pravdu za osobní záležitost týkající se individuálního svědomí a tvrdil, že autorita nemá právo vnucovat jednotlivcům náboženské přesvědčení.
+reviewed: false

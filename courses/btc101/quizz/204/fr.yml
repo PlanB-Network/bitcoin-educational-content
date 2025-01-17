@@ -1,9 +1,11 @@
-question: Quelle est l'une des choses à prendre en compte lors du choix d'une plateforme DCA ?
-answer: Disponibilité dans votre pays.
+question: Quel est l'un des éléments à prendre en compte lors du choix d'une plateforme DCA ?
+answer: La disponibilité dans votre pays.
 wrong_answers:
   - La couleur du logo de la plateforme.
   - Le nombre d'utilisateurs sur la plateforme.
   - L'âge de la plateforme.
 explanation: |
-  Le texte mentionne que lors du choix d'une plateforme DCA, le choix dépendra davantage de la disponibilité dans votre pays.
-reviewed: false
+  Ce texte de cours mentionne que lors du choix d'une
+  plateforme DCA, le bon choix dépendra davantage de sa
+  disponibilité dans votre pays.
+reviewed: true

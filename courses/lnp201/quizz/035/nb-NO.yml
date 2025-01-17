@@ -1,0 +1,9 @@
+question: Hva er det primære målet med HTLCs i Lightning Network?
+answer: Å muliggjøre sikre betalingsoverføringer via mellomliggende noder uten å kreve tillit til dem
+wrong_answers:
+  - Å redusere transaksjonsgebyrer for hver betaling gjennom mellomliggende noder
+  - Å øke kapasiteten til hver betalingskanal
+  - Å etablere direkte forbindelser mellom alle nettverksnoder med deres tillit
+explanation: |
+  HTLCs (Hashed Time-Locked Contracts) sikrer at hver mellomliggende node vil overføre betalingen uten å beholde midlene, ettersom den bare kan låse dem opp ved å fullføre transaksjonen opp til den endelige mottakeren.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qual é a diferença entre os intervalos de índice das chaves filhas normais e das chaves filhas endurecidas?
-answer: As chaves filhas normais têm um índice que varia de 0 a 2 elevado à potência de 31 menos 1, enquanto as chaves filhas endurecidas têm um índice que varia de 2 elevado à potência de 31 a 2 elevado à potência de 32 menos 1.
-wrong_answers:
-  - As chaves filhas normais têm um índice que varia de 0 a 2 elevado à potência de 32 menos 1, enquanto as chaves filhas endurecidas têm um índice que varia de 2 elevado à potência de 31 a 2 elevado à potência de 31 menos 1.
-  - Tanto as chaves filhas normais quanto as chaves filhas endurecidas têm o mesmo intervalo de índice.
-  - Não há diferença nos intervalos de índice das chaves filhas normais e das chaves filhas endurecidas.
-explanation: |
-  O intervalo de índice das chaves filhas normais é de 0 a 2 elevado à potência de 31 menos 1, enquanto o intervalo de índice das chaves filhas endurecidas é de 2 elevado à potência de 31 a 2 elevado à potência de 32 menos 1.
-reviewed: false

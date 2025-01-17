@@ -1,0 +1,9 @@
+question: Jaký je matematický termín pro výpočty zahrnující operace modulo?
+answer: Modulární aritmetika
+wrong_answers:
+  - Lineární algebra
+  - Trigonometrie
+  - Diskrétní geometrie
+explanation: |
+  Modulární aritmetika je obor matematiky, který se zabývá operacemi s čísly v konečném rámci, používající operaci modulo.
+reviewed: false

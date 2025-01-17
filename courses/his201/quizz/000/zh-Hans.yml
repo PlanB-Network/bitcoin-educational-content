@@ -1,0 +1,8 @@
+question: 非对称加密技术是在哪一年正式被发现的？
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation:
+  它是由斯坦福大学的两位密码学家Whitfield Diffie和Martin Hellman在1976年11月发表的一篇论文中介绍的。

@@ -1,9 +1,14 @@
-question: Qual é o principal objetivo de aprender a usar o Bitcoin?
-answer: Ter controle sobre o seu próprio dinheiro.
+question: Qual é a principal vantagem de aprender a usar o Bitcoin?
+answer: Entender como estar no controle do seu próprio dinheiro.
 wrong_answers:
-  - Se tornar um minerador de Bitcoin.
-  - Criar um novo protocolo Bitcoin.
+  - Estudar como debater com economistas.
+  - Criar um novo protocolo de criptomoeda.
   - Regular o preço do Bitcoin.
 explanation: |
-  Aprender a usar o Bitcoin é uma habilidade essencial para qualquer pessoa que queira ter controle sobre o seu próprio dinheiro. Isso permite que você compre e venda bens e serviços, armazene seu dinheiro de forma segura em carteiras digitais e o utilize para transações sem a necessidade de terceiros.
-reviewed: false
+  Aprender a usar o Bitcoin é essencial para qualquer pessoa que
+  queira estar no controle do seu próprio dinheiro. Na verdade, o Bitcoin
+  permite que indivíduos comprem/vendam bens e serviços criando
+  transações sem a necessidade de um terceiro. Além disso, oferece a
+  possibilidade de armazenar dinheiro de forma segura em carteiras digitais
+  não custodiais.
+reviewed: true

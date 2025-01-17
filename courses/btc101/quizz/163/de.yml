@@ -1,10 +1,9 @@
-question: Was ist die durchschnittliche Zeit zwischen der Erstellung von zwei Blöcken im Bitcoin-Protokoll?
-answer: 10 Minuten
+question: Wie lange beträgt die durchschnittliche Zeit zwischen der Erstellung von zwei Blöcken im Bitcoin-Protokoll?
+answer: 10 Minuten.
 wrong_answers:
-  - 5 Minuten
-  - 15 Minuten
-  - 20 Minuten
-explanation: |
-  Im Durchschnitt wird alle 10 Minuten ein Block im Bitcoin-Protokoll erstellt.
-  Diese Zeit bleibt konstant, unabhängig von der Anzahl der Miner und ihrer Rechenleistung.
-reviewed: false
+  - 5 Minuten.
+  - 15 Minuten.
+  - 20 Minuten.
+explanation: >-
+  Im Durchschnitt wird alle 10 Minuten ein Block im Bitcoin-Protokoll erstellt. Diese Zeit bleibt konstant, unabhängig von der Anzahl der Miner und ihrer Rechenleistung.
+reviewed: true

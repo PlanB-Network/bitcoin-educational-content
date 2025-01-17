@@ -1,0 +1,9 @@
+question: Làm thế nào mà MAC cho phép Alice xác minh rằng một tin nhắn thực sự từ Bob?
+answer: Bằng cách kiểm tra xem thẻ (tag) được tạo ra có trùng khớp với thẻ mà Bob gửi hay không
+wrong_answers:
+  - Bằng cách giải mã tin nhắn để xem nếu nó có thể đọc được
+  - Bằng cách so sánh kích thước của tin nhắn và thẻ (tag)
+  - Bằng cách xác minh địa chỉ IP của người gửi
+explanation: |
+  Alice sử dụng khóa bí mật chia sẻ để tạo ra một thẻ (tag) từ tin nhắn nhận được. Nếu thẻ này trùng khớp với thẻ mà Bob gửi, cô ấy biết rằng tin nhắn là xác thực và nguyên vẹn.
+reviewed: false

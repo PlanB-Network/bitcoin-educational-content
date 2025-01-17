@@ -1,0 +1,11 @@
+question: Hvordan beregnes entropi i konteksten av kjedeanalyse på Bitcoin?
+
+answer: Ved å ta den binære logaritmen av antall tolkninger.
+
+wrong_answers:
+  - Ved å multiplisere antall innganger med antall utganger.
+  - Ved å legge sammen antall innganger og utganger.
+  - Ved å ta den binære logaritmen av antall innganger og utganger.
+
+explanation: |
+  Entropi er definert som den binære logaritmen av antall mulige kombinasjoner.

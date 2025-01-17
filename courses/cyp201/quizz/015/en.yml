@@ -1,10 +1,9 @@
-question: What is the output size of the SHA256 hash function?
-answer: 256 bits
+question: What type of key is used to lock UTXOs on Bitcoin?
+answer: Public key
 wrong_answers:
-  - 512 bits
-  - 128 bits
-  - 1024 bits
+  - Private key
+  - Seed hash
+  - Mnemonic phrase
 explanation: |
-  The SHA256 hash function generates a 256-bit hash from a variable-sized
-  input. This is why it is called SHA256.
+  UTXOs are locked with a public key or its hash, and unlocked with the corresponding private key.
 reviewed: false

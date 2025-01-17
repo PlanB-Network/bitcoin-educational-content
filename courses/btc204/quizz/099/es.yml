@@ -1,0 +1,13 @@
+question: ¿Qué mide el anonset retrospectivo?
+
+answer: La resistencia de la privacidad contra un análisis de presente a pasado.
+
+wrong_answers:
+  - La resistencia de la privacidad contra un análisis de pasado a futuro.
+  - La resistencia de la privacidad contra un análisis de presente a futuro.
+  - La resistencia de la privacidad contra un análisis de pasado a presente.
+
+explanation: |
+  El anonset retrospectivo mide la resistencia de la privacidad de una moneda contra un análisis de presente a pasado (de salida a entrada).
+
+reviewed: false

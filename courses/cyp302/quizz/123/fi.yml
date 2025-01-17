@@ -1,0 +1,8 @@
+question: Mikä ongelma ilmenee, jos Jim's Sporting Goods käyttää samaa avainparia kaikille asiakkaille?
+answer: Mikä tahansa asiakas voisi päästä käsiksi toisten viestintään
+wrong_answers:
+  - Avain muuttuisi liian suureksi
+  - Viestintä hidastuisi
+  - Asiakkaiden täytyisi vaihtaa avaimia jokaisen ostoksen yhteydessä
+explanation: |
+  Käyttämällä samaa avainta kaikille, Jim's Sporting Goods vaarantaisi luottamuksellisuuden ja eheyden, sillä jokainen asiakas voisi mahdollisesti päästä käsiksi toisten asiakkaiden tietoihin.

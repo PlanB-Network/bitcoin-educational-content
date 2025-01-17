@@ -1,0 +1,9 @@
+question: Qual metal historicamente foi considerado o padrão de referência para moeda?
+answer: Ouro
+wrong_answers:
+  - Prata
+  - Cobre
+  - Bronze
+explanation: |
+  O ouro historicamente serviu como padrão devido à sua escassez, durabilidade e valor universalmente reconhecido, tornando-o uma base estável para sistemas monetários.
+reviewed: false

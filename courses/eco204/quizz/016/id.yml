@@ -1,0 +1,9 @@
+question: Apa ambang batas untuk hiperinflasi menurut definisi Philip Cagan?
+answer: Inflasi bulanan melebihi 50%
+wrong_answers:
+  - Inflasi bulanan melebihi 40%
+  - Inflasi bulanan melebihi 60%
+  - Inflasi bulanan melebihi 70%
+explanation: |
+  Menurut definisi Philip Cagan, hiperinflasi dimulai ketika inflasi bulanan melebihi 50%.
+reviewed: false

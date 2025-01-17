@@ -1,10 +1,9 @@
-question: Quelle a été l'issue de la "guerre des blocs" en 2017 ?
-answer: Les utilisateurs et les nœuds ont rejeté le changement proposé pour augmenter la taille des blocs, et ont activé une mise à jour appelée SegWit.
+question: Quel a été le résultat de la guerre des blocs en 2017 ?
+answer: Les utilisateurs et les nœuds ont rejeté la proposition de modification visant à augmenter la taille des blocs, et ont activé une mise à jour appelée SegWit.
 wrong_answers:
-  - Les utilisateurs et les nœuds ont accepté le changement proposé pour augmenter la taille des blocs et ont activé une mise à jour appelée SegWit.
-  - Les utilisateurs et les nœuds ont rejeté la proposition de modification visant à augmenter la taille des blocs et n'ont activé aucune mise à jour.
-  - Les utilisateurs et les nœuds ont accepté la proposition d'augmentation de la taille des blocs et n'ont activé aucune mise à jour.
-explination: |
-  Dans la "guerre des blocs" de 2017, les utilisateurs et les nœuds ont triomphé en rejetant le changement proposé pour augmenter la taille des blocs, et en n'activant aucune mise à jour.
-  changement proposé pour augmenter la taille des blocs, et ont activé une mise à jour appelée SegWit.
-reviewed: false
+  - Les utilisateurs et les nœuds ont accepté la proposition de modification visant à augmenter la taille des blocs, et ont activé une mise à jour appelée SegWit.
+  - Les utilisateurs et les nœuds ont rejeté la proposition de modification visant à augmenter la taille des blocs, et n'ont activé aucune mise à jour.
+  - Les utilisateurs et les nœuds ont accepté la proposition de modification visant à augmenter la taille des blocs, et n'ont activé aucune mise à jour.
+explanation: >
+  Lors de la guerre des blocs en 2017, les utilisateurs et les nœuds ont triomphé en rejetant la proposition de modification visant à augmenter la taille des blocs, et ont activé une mise à jour appelée SegWit.
+reviewed: true

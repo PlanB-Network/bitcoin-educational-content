@@ -1,0 +1,11 @@
+question: Apa yang ditekankan oleh frasa Not your keys, not your Bitcoins?
+answer: Pentingnya memiliki kunci privat dari dompet Bitcoin
+wrong_answers:
+  - Pentingnya memiliki kunci fisik untuk mengakses Bitcoin Anda
+  - Pentingnya menyimpan Bitcoin Anda di tempat yang aman
+  - Pentingnya tidak berbagi detail akun Bitcoin Anda
+explanation: |
+  Bab ini menjelaskan bahwa frasa Not your keys, not your Bitcoins
+  menekankan pentingnya memiliki kunci privat dari dompet Bitcoin. Dengan memiliki
+  kunci privat, Anda memiliki kontrol penuh atas Bitcoin yang terkandung di dalamnya.
+reviewed: false

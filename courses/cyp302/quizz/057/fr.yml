@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'un groupe abélien ?
+answer: Un groupe dans lequel l'opération est commutative
+wrong_answers:
+  - Un groupe qui possède un générateur unique
+  - Un groupe limité aux nombres entiers
+  - Un groupe sans élément neutre
+explanation: |
+  Un groupe abélien est un groupe dans lequel l'ordre des éléments dans l'opération n'affecte pas le résultat, c'est-à-dire qu'il respecte la commutativité.
+reviewed: false

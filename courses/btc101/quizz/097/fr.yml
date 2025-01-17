@@ -1,9 +1,11 @@
 question: Que se passe-t-il si votre clé privée est révélée à un tiers ?
-answer: Les fonds associés ne sont plus sécurisés.
+answer: Le tiers peut dépenser vos bitcoins.
 wrong_answers:
-  - Le tiers ne peut que consulter votre historique de transactions.
+  - Le tiers peut uniquement consulter votre historique de transactions.
   - Le tiers peut changer votre clé privée.
   - Le tiers peut accéder à vos informations personnelles.
 explanation: |
-  Si votre clé privée est révélée à un tiers, les fonds associés ne sont plus sécurisés. Cela est dû au fait que la clé privée représente l'accès à vos fonds.
-reviewed: false
+  Si votre clé privée est révélée à un tiers, les
+  fonds associés ne sont plus sécurisés, car la clé privée
+  leur permet d'accéder à vos fonds.
+reviewed: true

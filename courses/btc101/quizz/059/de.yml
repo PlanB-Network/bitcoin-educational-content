@@ -1,9 +1,9 @@
-question: Wie viele Bitcoin-Einheiten können maximal existieren?
-answer: 21 Millionen Einheiten
+question: Welches der folgenden ist keine Eigenschaft von Bitcoin?
+answer: Es lässt sich leicht zensieren.
 wrong_answers:
-  - 25 Millionen Einheiten
-  - 30 Millionen Einheiten
-  - 50 Millionen Einheiten
+  - Es ist sofort transportierbar.
+  - Es hat vernachlässigbare Verifizierungskosten.
+  - Es hat eine feste Geldpolitik.
 explanation: |
-  Der Computercode von Bitcoin und der Konsens aller Benutzer, die am Protokoll teilnehmen, bestimmen, dass die maximale Anzahl von Bitcoin-Einheiten, die jemals existieren können, 21 Millionen beträgt.
-reviewed: false
+  Bitcoin besitzt alle notwendigen Eigenschaften, um eine effiziente und gesunde Währung zu sein: teilbar, sofort transportierbar, unzensierbar, vernachlässigbare Kosten für die Verifizierung und mit einer bereits für Jahrhunderte festgelegten Geldpolitik mit 21 Millionen Einheiten.
+reviewed: true

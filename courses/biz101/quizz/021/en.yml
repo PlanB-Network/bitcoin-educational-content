@@ -1,0 +1,9 @@
+question: Why might a company consider holding Bitcoin over traditional "safe" assets like real estate?
+answer: Bitcoin can potentially outpace real inflation and is not tied to the illiquidity and maintenance costs of real estate.
+wrong_answers:
+  - Real estate is always cheaper than Bitcoin and never needs maintenance.
+  - Bitcoin provides government-backed guarantees that real estate does not.
+  - Real estate appreciates faster than Bitcoin under all market conditions.
+explanation: |
+  Real estate often involves liquidity constraints and ongoing costs, and may not keep pace with the hidden inflation in a debt-based monetary system. Bitcoin’s scarcity and global reach offer a distinct store-of-value proposition that may outperform traditional assets in the long run.
+reviewed: false

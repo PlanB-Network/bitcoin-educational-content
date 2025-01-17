@@ -1,11 +1,9 @@
-question: Proč se při tvorbě hlavního soukromého klíče a hlavního řetězového kódu používá algoritmus HMAC SHA-512?
-answer: Protože funkce SHA-512 nebyla původně implementována v protokolu Bitcoin.
+question: Jaká operace je nutná pro výpočet veřejného klíče Taproot Q?
+answer: Přidat úpravu tG k veřejnému klíči P
 wrong_answers:
-  - Protože je to jediný algoritmus, který dokáže generovat 512bitové číslo.
-  - Protože je to nejbezpečnější algoritmus.
-  - Protože je to nejjednodušší algoritmus k použití.
+  - Vynásobit soukromý klíč p úpravou
+  - Hashovat veřejný klíč P pomocí SHA256
+  - Konkatenovat úpravu t a veřejný klíč P
 explanation: |
-  Původně nebyla funkce SHA-512 implementována v protokolu Bitcoin,
-  a proto se používá HMAC SHA-512. Tento algoritmus vyžaduje zprávu a klíč k
-  vygenerování výsledku.
+  Veřejný klíč Taproot Q je získán přidáním skalárního součinu úpravy t generátorem G k veřejnému klíči P.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Qual era o nome do blog gerido por Jon Matonis que cobria moedas digitais (incluindo Bitcoin a partir de março de 2010)?
+answer: O Futuro Monetário
+wrong_answers:
+  - Estudos Econômicos Clássicos
+  - Retorno ao Dinheiro Vivo
+  - O Instituto Nakamoto
+explanation: |
+  Ele publicou seu [primeiro artigo sobre Bitcoin](https: //themonetaryfuture.blogspot.com/2010/03/bitcoin-peer-to-peer-electronic-cash.html) em 13 de março de 2010, após trocar e-mails com Satoshi.
+reviewed: false

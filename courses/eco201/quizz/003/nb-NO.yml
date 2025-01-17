@@ -1,0 +1,11 @@
+question: Hva forårsaker økonomiske kriser ifølge kurset?
+answer: Økonomiske kriser kan skyldes menneskelig inkompetanse, markedmanipulasjon, eller kollektiv eufori blant folk.
+wrong_answers:
+  - Økonomiske kriser skyldes utelukkende markedmanipulasjon.
+  - Økonomiske kriser skyldes utelukkende menneskelig inkompetanse.
+  - Økonomiske kriser skyldes utelukkende kollektiv eufori blant folk.
+explanation: |
+  Kapittelet nevner at kurset vil utforske hvordan økonomiske kriser
+  kan skyldes menneskelig inkompetanse, markedmanipulasjon, eller kollektiv eufori blant
+  folk.
+reviewed: false

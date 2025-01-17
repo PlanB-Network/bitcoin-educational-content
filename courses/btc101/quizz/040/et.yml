@@ -1,0 +1,11 @@
+question: Millist strateegiat kasutavad kesksed üksused fiatraha väärtuse alandamiseks?
+answer: Nad suurendavad esialgset rahamassi mõne protsendi võrra igal aastal.
+wrong_answers:
+  - Nad vähendavad esialgset rahamassi mõne protsendi võrra igal aastal.
+  - Nad hoiavad selle rahamassi konstantsena võrreldes esialgse massiga.
+  - Nad muudavad selle rahamassi suvaliselt võrreldes esialgse massiga.
+explanation: |
+  Kesksed üksused tihti devalveerivad uut valuutat, suurendades selle rahamassi võrreldes
+  esialgsega mõne protsendi võrra igal aastal. See vaikne devalveerimine õigustatakse tihti
+  kui rahva huvides olevat.
+reviewed: true

@@ -1,9 +1,14 @@
-question: Was ist das potenzielle Risiko des Minings für das Netzwerk?
+question: Was ist der potenzielle Nachteil des Minings für das Netzwerk?
 answer: Ohne ausreichende finanzielle Anreize kann es für Miner schwierig sein, die Unterstützung des Netzwerks fortzusetzen.
 wrong_answers:
-  - Es kann zu einem Rückgang des Bitcoin-Preises führen.
-  - Es kann zu einer Erhöhung der Hashrate des Netzwerks führen.
-  - Es kann zu einer Abnahme der Anzahl aktiver Knoten im Netzwerk führen.
+  - Es kann zu einem Rückgang des Bitcoin-Preises führen
+  - Es kann zu einem Anstieg der Hashrate des Netzwerks führen
+  - Es kann zu einem Rückgang der Anzahl aktiver Knoten im Netzwerk führen
 explanation: |
-  Das Mining für das Netzwerk ist eine noble Initiative, die zur Sicherheit und Dezentralisierung des Bitcoin-Netzwerks beiträgt. Jedoch kann es ohne ausreichende finanzielle Anreize für Miner schwierig sein, die Unterstützung des Netzwerks fortzusetzen, insbesondere wenn sie Verluste erleiden.
-reviewed: false
+  Das Mining für das Netzwerk ist eine noble Initiative, die
+  zur Sicherheit und Dezentralisierung des Bitcoin-Netzwerks
+  beiträgt. Jedoch kann es ohne ausreichende finanzielle
+  Anreize schwierig für Miner sein, die Unterstützung des
+  Netzwerks fortzusetzen, besonders wenn sie mit Verlust
+  arbeiten.
+reviewed: true

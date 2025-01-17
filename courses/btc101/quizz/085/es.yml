@@ -1,9 +1,13 @@
-question: ¿Qué es una billetera caliente?
-answer: Una billetera de Bitcoin en tu teléfono o computadora conectada a internet.
+question: ¿Qué es una cartera caliente?
+answer: Una cartera de Bitcoin en tu teléfono o computadora conectada a internet.
 wrong_answers:
-  - Una billetera que está físicamente caliente al tacto.
-  - Una billetera que es popular entre los usuarios de Bitcoin.
-  - Una billetera que se recomienda para almacenar grandes cantidades de bitcoins.
+  - Una cartera que está físicamente caliente al tacto.
+  - Una cartera que es popular entre los usuarios de Bitcoin.
+  - Una cartera que se recomienda para almacenar grandes cantidades de bitcoins.
 explanation: |
-  Una billetera caliente es un término utilizado para describir una billetera de Bitcoin que se almacena en un dispositivo con acceso a internet, como un teléfono o una computadora. Esto facilita la realización de transacciones, pero también significa que la billetera es potencialmente vulnerable a amenazas en línea.
-reviewed: false
+  Una cartera caliente es un término utilizado para describir una cartera de Bitcoin
+  que se almacena en un dispositivo con acceso a internet, como un
+  teléfono o computadora. De esta manera, es fácil realizar
+  transacciones, pero también significa que la cartera es
+  potencialmente vulnerable a amenazas en línea.
+reviewed: true

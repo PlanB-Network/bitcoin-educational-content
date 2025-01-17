@@ -1,9 +1,0 @@
-question: Welche Präfixe werden am häufigsten für erweiterte Schlüssel verwendet?
-answer: xpub und zpub
-wrong_answers:
-  - xprv und zprv
-  - ypub und zpub
-  - xpub und ypub
-explanation: |
-  Die am häufigsten verwendeten Präfixe sind xpub und zpub, die den Standards legacy und segwit v1 bzw. segwit v0 entsprechen.
-reviewed: false

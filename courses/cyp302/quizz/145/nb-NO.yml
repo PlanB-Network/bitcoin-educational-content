@@ -1,0 +1,8 @@
+question: Hva er implikasjonene av Eulers teorem i konteksten av asymmetrisk kryptografi?
+answer: Det forenkler beregningen av potenser
+wrong_answers:
+  - Det tillater direkte kryptering av meldinger
+  - Det brukes til å finne primtall
+  - Det brukes til å verifisere partall av et tall
+explanation: |
+  I asymmetrisk kryptografi forenkler Eulers teorem beregningen av potenser i ordninger som RSA, ettersom det gir en metode for å manipulere modulære eksponentieringer.

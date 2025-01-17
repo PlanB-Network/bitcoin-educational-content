@@ -1,9 +1,14 @@
-question: Co znamená koncept "skin in the game" v kontextu herního průmyslu?
-answer: Mít finanční podíl na výsledku hry
+question: Co znamená koncept mít kůži ve hře v kontextu herního průmyslu?
+answer: Mít finanční podíl na výsledku hry.
 wrong_answers:
-  - Investovat do vývoje hry
-  - Kupování předmětů ve hře za skutečné peníze
-  - Prodej skinů ve hře za skutečné peníze
-explanation: >-
-  Koncept "skin in the game" je myšlenka, která v poslední době získala na popularitě v herním průmyslu. V podstatě zahrnuje mít finanční podíl na výsledku hry.
-reviewed: false
+  - Přizpůsobení postav unikátními skiny, které zlepšují hratelnost.
+  - Kupování předmětů ve hře za skutečné peníze.
+  - Prodej skinů ve hře za skutečné peníze.
+explanation: |
+  Koncept mít kůži ve hře je myšlenka, která
+  v poslední době získala na popularitě v herním průmyslu. V podstatě
+  odkazuje na myšlenku, že vývojáři a
+  zainteresované strany mají osobní investici nebo podíl na
+  úspěchu hry, což sladí jejich zájmy s
+  dodáním kvalitního produktu.
+reviewed: true

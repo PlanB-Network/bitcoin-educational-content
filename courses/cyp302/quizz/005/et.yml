@@ -1,0 +1,9 @@
+question: Mis on klassikalise krüptograafia peamine eesmärk, mis on endiselt oluline kaasaegses krüptograafias?
+answer: Sõnumite konfidentsiaalsus
+wrong_answers:
+  - Sõnumite lihtsustamine
+  - Sõnumite kordamine
+  - Sõnumite saatmise automatiseerimine
+explanation: |
+  Klassikaline krüptograafia keskendus peamiselt konfidentsiaalsusele ja see eesmärk on jäänud oluliseks ka kaasaegses krüptograafias, kuigi on lisandunud teisi teemasid, nagu terviklikkus ja autentsus.
+reviewed: false

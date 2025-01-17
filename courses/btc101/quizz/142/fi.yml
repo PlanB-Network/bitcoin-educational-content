@@ -1,9 +1,10 @@
 question: Mikä on karsittu solmu Bitcoinin kontekstissa?
-answer: Solmu, joka säilyttää vain viimeiset N lohkoa muistissa
+answer: Solmu, joka säilyttää vain viimeiset N lohkoa muistissa.
 wrong_answers:
-  - Solmu, joka validoi vain transaktioita
-  - Solmu, joka välittää tietoa vain muille solmuille
-  - Solmu, joka ainoastaan valvoo Bitcoin-protokollan sääntöjä
+  - Solmu, joka validoi vain transaktioita.
+  - Solmu, joka välittää tietoa vain muille solmuille.
+  - Solmu, joka ainoastaan valvoo Bitcoin-protokollan sääntöjen noudattamista.
 explanation: >-
-  Karsittu solmu Bitcoinin kontekstissa on solmu, joka säilyttää vain viimeiset N lohkoa muistissa.
-reviewed: false
+  Karsittu solmu Bitcoinin kontekstissa on solmu, joka säilyttää vain
+  viimeiset N lohkoa muistissa.
+reviewed: true

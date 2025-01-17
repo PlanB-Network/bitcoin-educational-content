@@ -1,0 +1,13 @@
+question: Wie wird die Effizienz einer Bitcoin-Transaktion in Bezug auf die Privatsphäre berechnet?
+
+answer: Indem die tatsächliche Entropie der Transaktion mit der maximal möglichen Entropie verglichen wird.
+
+wrong_answers:
+  - Indem die Anzahl der Eingaben mit der Anzahl der Ausgaben multipliziert wird.
+  - Indem die tatsächliche Entropie der Transaktion mit der Anzahl der Eingaben und Ausgaben multipliziert wird.
+  - Indem die Anzahl der Eingaben mit der Anzahl der Ausgaben verglichen wird.
+
+explanation: |
+  Die Effizienz der Transaktion wird berechnet, indem die maximale Entropie von der tatsächlichen Entropie der analysierten Transaktion abgezogen wird.
+
+reviewed: false

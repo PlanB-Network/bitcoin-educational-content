@@ -1,0 +1,10 @@
+question: Hvor ofte halveres belønningen for gruvedrift?
+answer: Hver 210 000 blokker
+wrong_answers:
+  - Hver 120 000 blokker
+  - Hver 540 000 blokker
+  - Hver 2 100 000 blokker
+explanation: |
+  Belønningen for gruvedrift er programmert til å halveres hver 210 000 blokker, noe som
+  tilsvarer omtrent hvert fjerde år, en hendelse kjent som halvering.
+reviewed: true

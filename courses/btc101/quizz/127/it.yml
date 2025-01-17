@@ -1,9 +1,12 @@
 question: Qual è lo scopo delle commissioni di transazione nelle transazioni Bitcoin?
-answer: Sono un incentivo per i minatori per includere la transazione nel blocco successivo.
+answer: Sono un incentivo per i minatori a includere la transazione nel blocco successivo.
 wrong_answers:
   - Sono una tassa imposta dal governo.
   - Sono una commissione addebitata dalla rete Bitcoin per l'utilizzo dei suoi servizi.
   - Sono una commissione addebitata dal fornitore del portafoglio.
 explanation: |
-  Le commissioni di transazione nelle transazioni Bitcoin servono come incentivo per i minatori per includere la transazione nel blocco successivo. Le commissioni creano un mercato libero per l'inclusione delle transazioni nei blocchi.
-reviewed: false
+  Le commissioni di transazione nelle transazioni Bitcoin fungono da
+  incentivo per i minatori a includere la transazione nel prossimo
+  blocco. Le commissioni creano un mercato libero per l'inclusione
+  delle transazioni nei blocchi.
+reviewed: true

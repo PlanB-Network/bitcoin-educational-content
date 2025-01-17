@@ -1,0 +1,9 @@
+question: Quel est l'effet de la dépense publique pour Bastiat lorsqu'elle est financée par la dette ou les impôts ?
+answer: Elle détourne des ressources du secteur privé
+wrong_answers:
+  - Elle stimule la demande sans effets secondaires
+  - Elle augmente le pouvoir d'achat des consommateurs
+  - Elle est essentielle pour maintenir l'économie à flot
+explanation: |
+  Bastiat affirme que la dépense publique, financée par les impôts ou la dette, détourne des fonds du secteur privé, limitant ainsi la création de richesses ailleurs dans l'économie.
+reviewed: false

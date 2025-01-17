@@ -1,0 +1,9 @@
+question: Wofür ermöglicht das Diffie-Hellman-Schlüsselaustauschprotokoll?
+answer: Es ermöglicht zwei Parteien, einen gemeinsamen geheimen Schlüssel zu erstellen, indem sie öffentliche Informationen austauschen.
+wrong_answers:
+  - Es ermöglicht einen persönlichen geheimen Schlüsselaustausch für jede Sitzung.
+  - Es ermöglicht die Verwendung eines öffentlichen Schlüssels zur Verschlüsselung und eines privaten Schlüssels zur Entschlüsselung.
+  - Es ermöglicht den Austausch von elektronischer Währung.
+explanation: |
+  Das Diffie-Hellman-Protokoll ermöglicht es zwei Parteien, Informationen öffentlich zu teilen, während sichergestellt wird, dass nur sie einen gemeinsamen Schlüssel generieren können, um ihre zukünftigen Austausche zu sichern.
+reviewed: false

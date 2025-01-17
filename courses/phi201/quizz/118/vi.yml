@@ -1,0 +1,9 @@
+question: Ai đã đề xuất ý tưởng về sự cạnh tranh giữa các đồng tiền tư nhân?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek đã đề xuất ý tưởng về sự cạnh tranh giữa các đồng tiền tư nhân nhằm giảm bớt ảnh hưởng của chính phủ đối với tiền tệ và khuyến khích sự ổn định tiền tệ dựa trên thị trường thay vì các chính sách tập trung.
+reviewed: false

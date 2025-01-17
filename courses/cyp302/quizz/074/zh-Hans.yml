@@ -1,0 +1,8 @@
+question: 如果使用密钥7来加密单词“CAT”，会发生什么？
+answer: 该单词变成了“JHA”
+wrong_answers:
+  - 该单词变成了“JBA”
+  - 该单词变成了“JHB”
+  - 该单词变成了“ZHA”
+explanation:
+  使用密钥7，单词“CAT”的每个字母都在字母表中向后移动了7个位置，这样就产生了加密后的单词“JHA”。

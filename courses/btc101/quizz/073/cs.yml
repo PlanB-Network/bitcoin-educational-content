@@ -1,11 +1,11 @@
 question: Co je soukromý klíč v Bitcoinové peněžence?
-answer: Tajný klíč, který vám umožňuje podepisovat vaše transakce
+answer: Tajný klíč, který vám umožňuje podepisovat vaše transakce.
 wrong_answers:
-  - Veřejný klíč používaný pro generování Bitcoinových adres
-  - Tajný seznam slov pro zničení peněženky
-  - Tajný klíč pro šifrování Bitcoinových transakcí
+  - Veřejný klíč používaný k generování Bitcoinových adres.
+  - Tajný seznam slov pro zničení peněženky v případě potřeby.
+  - Tajný klíč k šifrování Bitcoinových transakcí.
 explanation: >-
   Při inicializaci Bitcoinové peněženky je generován tajný seznam slov, nazývaný mnemonické semínko. 
   Tento seznam pro obnovu je velmi důležitý, protože představuje vlastnictví
-  Bitcoinů a tedy právo je posílat.
-reviewed: false
+  Bitcoinů a tedy právo je odesílat.
+reviewed: true

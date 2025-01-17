@@ -1,0 +1,9 @@
+question: Apa yang terjadi ketika terjadi penurunan suku bunga karena peningkatan kredit menurut Teori Siklus Bisnis Austria?
+answer: Para pengusaha dapat meminjam lebih banyak sumber daya dan dengan demikian menciptakan tahapan produksi yang lebih tinggi. Perluasan struktur produksi ini tidak akan mengakibatkan penurunan konsumsi karena tidak ada penundaan konsumsi saat ini oleh konsumen. Dengan kata lain, PDB tumbuh.
+wrong_answers:
+  - Para pengusaha dapat meminjam lebih sedikit sumber daya dan dengan demikian menciptakan tahapan produksi yang lebih rendah. Perluasan struktur produksi ini akan mengakibatkan peningkatan konsumsi karena telah terjadi penundaan konsumsi saat ini oleh konsumen. Dengan kata lain, PDB menyusut.
+  - Para pengusaha dapat meminjam lebih banyak sumber daya dan dengan demikian menciptakan tahapan produksi yang lebih rendah. Perluasan struktur produksi ini akan mengakibatkan penurunan konsumsi karena tidak ada penundaan konsumsi saat ini oleh konsumen. Dengan kata lain, PDB menyusut.
+  - Para pengusaha dapat meminjam lebih sedikit sumber daya dan dengan demikian menciptakan tahapan produksi yang lebih tinggi. Perluasan struktur produksi ini akan mengakibatkan peningkatan konsumsi karena telah terjadi penundaan konsumsi saat ini oleh konsumen. Dengan kata lain, PDB tumbuh.
+explanation: |
+  Menurut Teori Siklus Bisnis Austria, ketika terjadi penurunan suku bunga karena peningkatan kredit, para pengusaha dapat meminjam lebih banyak sumber daya dan dengan demikian menciptakan tahapan produksi yang lebih tinggi. Perluasan struktur produksi ini tidak akan mengakibatkan penurunan konsumsi karena tidak ada penundaan konsumsi saat ini oleh konsumen. Dengan kata lain, PDB tumbuh.
+reviewed: false

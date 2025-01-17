@@ -1,0 +1,8 @@
+question: PRNG和TRNG之间的主要区别是什么？
+answer: PRNG是确定性的，而TRNG生成真正的随机数。
+wrong_answers:
+  - 对于大数，PRNG比TRNG更快。
+  - PRNG仅用于加密，TRNG则不用。
+  - PRNG使用私钥，TRNG使用公钥。
+explanation: |
+  PRNG是确定性的，这意味着它们可以从一个初始状态重现序列，而TRNG则不行。

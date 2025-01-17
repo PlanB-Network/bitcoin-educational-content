@@ -1,9 +1,0 @@
-question: ¿Qué información puede proporcionar el destinatario al remitente para facilitar la búsqueda de ruta en la Red Lightning?
-answer: La cantidad, su dirección, el hash de la preimagen e indicaciones sobre sus canales.
-wrong_answers:
-  - La dirección del remitente, la cantidad de la transacción y la clave privada del destinatario.
-  - La dirección del destinatario, la cantidad de la transacción y la clave privada del remitente.
-  - La cantidad de la transacción, la dirección del destinatario y el hash de la preimagen.
-explanation: |
-  Para facilitar la búsqueda de ruta en la Red Lightning, el destinatario puede proporcionar al remitente varias piezas de información. Estas incluyen la cantidad de la transacción, la dirección del destinatario, el hash de la preimagen (que se utiliza para crear el HTLC) e indicaciones sobre los canales del destinatario (que pueden ayudar a identificar canales con suficiente liquidez).
-reviewed: false

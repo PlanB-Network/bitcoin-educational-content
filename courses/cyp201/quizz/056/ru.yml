@@ -1,0 +1,8 @@
+question: Какая константа используется для получения мастер-приватного ключа из seed?
+answer: Bitcoin Seed
+wrong_answers:
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
+explanation: |
+  Константа Bitcoin Seed используется как ключ в функции HMAC-SHA512 для получения мастер-приватного ключа и мастер-кода цепочки.

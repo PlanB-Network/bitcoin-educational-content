@@ -2,8 +2,10 @@ question: Qual è la principale sfida associata al mining di Bitcoin?
 answer: L'industria del mining è estremamente competitiva e volatile, e incidenti imprevisti possono interrompere le operazioni di mining.
 wrong_answers:
   - La principale sfida è trovare una fonte affidabile di elettricità.
-  - La principale sfida è trovare un luogo sicuro per conservare i Bitcoin minati.
-  - La principale sfida è trovare un acquirente per i Bitcoin minati.
+  - La principale sfida è trovare un luogo sicuro dove conservare i bitcoin estratti.
+  - La principale sfida è trovare un acquirente per i bitcoin estratti.
 explanation: |
-  La principale sfida associata al mining di Bitcoin è che l'industria del mining è estremamente competitiva e volatile, e incidenti imprevisti possono interrompere le operazioni di mining.
-reviewed: false
+  La principale sfida associata al mining di Bitcoin è che
+  l'industria del mining è estremamente competitiva e volatile,
+  e incidenti imprevisti possono interrompere le operazioni di mining.
+reviewed: true

@@ -2,8 +2,8 @@ question: Warum wird empfohlen, die Anzahl der installierten Erweiterungen in Ih
 answer: Um potenzielle Sicherheits- und Leistungsprobleme zu vermeiden.
 wrong_answers:
   - Um Speicherplatz auf Ihrem Gerät zu sparen.
-  - Um Abstürze des Browsers zu verhindern.
-  - Um zu vermeiden, von Drittanbieter-Websites verfolgt zu werden.
+  - Um zu verhindern, dass der Browser abstürzt.
+  - Um zu vermeiden, von Drittseiten verfolgt zu werden.
 explanation: |
-  Obwohl Browser-Erweiterungen nützliche Funktionen bieten können, können sie auch Sicherheitsrisiken darstellen, da sie auf Ihre Daten und Browsing-Aktivitäten zugreifen können. Darüber hinaus kann eine zu hohe Anzahl von Erweiterungen Ihren Browser verlangsamen und seine Leistung beeinträchtigen.
-reviewed: false
+  Obwohl Browsererweiterungen nützliche Funktionalitäten bieten können, stellen sie auch Sicherheitsrisiken dar, da sie auf Ihre Daten und Browsing-Aktivitäten zugreifen können. Zusätzlich kann eine zu große Anzahl an Erweiterungen Ihren Browser verlangsamen und dessen Leistung beeinträchtigen.
+reviewed: true

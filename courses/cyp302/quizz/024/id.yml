@@ -1,0 +1,9 @@
+question: Berapa nilai dari 42 mod 2?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  Dengan membagi 42 dengan 2, sisa bagiannya adalah nol, oleh karena itu 42 mod 2 sama dengan 0.
+reviewed: false

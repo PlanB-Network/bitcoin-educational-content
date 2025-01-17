@@ -1,0 +1,9 @@
+question: Mis oli Jon Matonise poolt juhitud blogi nimi, mis käsitles digitaalseid valuutasid (sealhulgas Bitcoini alates märtsist 2010)?
+answer: The Monetary Future
+wrong_answers:
+  - Classic Economic Studies
+  - Return to Cash
+  - The Nakamoto Institute
+explanation: |
+  Ta avaldas oma [esimese artikli Bitcoinist](https: //themonetaryfuture.blogspot.com/2010/03/bitcoin-peer-to-peer-electronic-cash.html) 13. märtsil 2010, pärast e-kirjavahetust Satoshi'ga.
+reviewed: false

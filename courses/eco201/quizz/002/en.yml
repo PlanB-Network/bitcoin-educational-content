@@ -1,10 +1,10 @@
 question: Who is the instructor of the course?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
-  - "Théo Boloré"
+  - Théo Boloré
   - Descoupes Bitcoin
   - None of the above
 explanation: |
-  "The chapter mentions that the instructor of the course is Théo
-  Mogenet, a passionate and competent professor of Austrian economics."
+  The chapter mentions that the instructor of the course is Théo
+  Mogenet, a passionate and competent professor of Austrian economics.
 reviewed: false

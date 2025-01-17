@@ -1,0 +1,8 @@
+question: Ilusi ekonomi apa yang dikritik oleh Bastiat, yang akan muncul kembali di abad ke-20?
+answer: Bahwa Negara dapat menciptakan lapangan kerja
+wrong_answers:
+  - Bahwa pasar membutuhkan Negara
+  - Bahwa pasar dapat mengatur diri sendiri
+  - Bahwa perusahaan dapat menciptakan kekayaan tanpa regulasi
+explanation: |
+  Bastiat mengkritik ide bahwa Negara dapat menciptakan lapangan kerja tanpa merugikan lapangan kerja lainnya karena dampak dari pajak yang diperlukan untuk membiayai penciptaan tersebut.

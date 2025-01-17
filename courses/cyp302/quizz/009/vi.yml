@@ -1,0 +1,11 @@
+question: Bước nào không được bao gồm trong bằng chứng bảo mật của một lược đồ mật mã hiện đại?
+
+answer: Thiết lập giao diện người dùng
+
+wrong_answers:
+  - Phát biểu các định nghĩa bảo mật
+  - Giả định về độ phức tạp toán học
+  - Chứng minh toán học về bảo mật
+
+explanation:
+  Bằng chứng bảo mật trong mật mã học hiện đại tập trung vào mục tiêu và giả định toán học, loại trừ các khía cạnh như giao diện người dùng, không liên quan đến bảo mật mật mã.

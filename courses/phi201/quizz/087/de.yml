@@ -1,0 +1,8 @@
+question: Welches sind laut Constant die Bereiche, in denen politische Macht keinen Einfluss hat?
+answer: Alle oben genannten Bereiche (Religion, Wissenschaft, Industrie).
+wrong_answers:
+  - Religion
+  - Wissenschaft
+  - Industrie
+explanation: |
+  Constant ist der Meinung, dass politische Macht sich nicht in Bereiche wie Religion, Wissenschaft und Industrie einmischen sollte, um die individuelle Freiheit und die Autonomie menschlicher Aktivitäten, die in den privaten Bereich fallen, zu bewahren.

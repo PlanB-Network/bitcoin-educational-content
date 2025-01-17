@@ -5,6 +5,6 @@ wrong_answers:
   - Only Linux needs antivirus.
   - Only Mac needs antivirus.
 explanation: |
-  Linux and Mac, thanks to their user rights separation system, often do
-  not need antivirus.
-reviewed: false
+  Linux and Mac, thanks to their user rights separation
+  system, often do not need antivirus.
+reviewed: true

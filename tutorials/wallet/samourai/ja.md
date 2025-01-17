@@ -1,5 +1,5 @@
 ---
-name: サムライ
+name: Samourai
 
 description: サムライでプライバシーを取り戻す
 ---

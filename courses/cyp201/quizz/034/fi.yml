@@ -1,10 +1,9 @@
-question: Mikä on Bitcoinin yksityisavaimen koko?
-answer: 256-bittinen numero
+question: Mikä sighash-lippu on yleisimmin käytössä Bitcoin-siirroissa?
+answer: SIGHASH_ALL
 wrong_answers:
-  - 512-bittinen numero
-  - 128-bittinen numero
-  - 1024-bittinen numero
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  Bitcoin-järjestelmässä yksityisavain on satunnainen tai pseudo-satunnainen 256-bittinen
-  numero.
+  SIGHASH_ALL on oletusarvoinen sighash-lippu, joka kattaa kaikki siirron sisääntulot ja ulostulot, estäen kaikki muutokset.
 reviewed: false

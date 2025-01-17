@@ -1,0 +1,9 @@
+question: Mikä metalli on historiallisesti pidetty valuutan standardiviitteenä?
+answer: Kulta
+wrong_answers:
+  - Hopea
+  - Kupari
+  - Pronssi
+explanation: |
+  Kulta on historiallisesti toiminut standardina sen harvinaisuuden, kestävyyden ja yleisesti tunnustetun arvon vuoksi, mikä tekee siitä vakaan perustan rahajärjestelmille.
+reviewed: false

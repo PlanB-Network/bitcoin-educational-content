@@ -1,11 +1,9 @@
-question: Why is it recommended to use open-source wallets for Bitcoin transactions?
-answer: They enable the verification of the random number generation.
+question: What is the total size of an extended key with the checksum?
+answer: 82 bytes
 wrong_answers:
-  - They are cheaper than closed-source wallets.
-  - They are faster than closed-source wallets.
-  - They are more secure than closed-source wallets.
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
 explanation: |
-  Open-source wallets allow users to verify the generation of the random
-  number, which is a crucial step in ensuring the security of private keys and Bitcoin
-  transactions.
+  An extended key is 78 bytes without the checksum and 82 bytes with the checksum included.
 reviewed: false

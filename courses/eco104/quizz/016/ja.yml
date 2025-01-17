@@ -7,6 +7,6 @@ wrong_answers:
 explanation: |
   まず最初に、セルフカストディを取る際にはウォレットをバックアップすることが重要です。
   ハードウェアウォレットにはリカバリーシードフレーズが付属しており、これはデバイスが紛失または損傷した場合にプライベートキーを回復するために使用できる一連の言葉です。
-  このシードフレーズの物理的なコピー（例えば、金属製の[seed plate](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/)）を作成し、安全な場所に保管してください。このリカバリーシードフレーズを安全に保管することが重要です。
+  このシードフレーズの物理的なコピー（例えば、金属製の[seed plate](https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/)）を作成し、安全な場所に保管してください。このリカバリーシードフレーズを安全に保管することが重要です。
   絶対に誰とも共有しないでください。
 reviewed: true

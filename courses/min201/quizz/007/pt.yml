@@ -1,9 +1,13 @@
 question: O que acontece com a recompensa de mineração na rede Bitcoin aproximadamente a cada quatro anos?
-answer: Ela passa por uma redução pela metade.
+answer: Ela passa por uma redução pela metade
 wrong_answers:
-  - Ela dobra.
-  - Ela triplica.
-  - Ela permanece a mesma.
+  - Ela dobra
+  - Ela triplica
+  - Ela permanece a mesma
 explanation: |
-  A recompensa de mineração na rede Bitcoin passa por uma redução pela metade a cada 210.000 blocos, aproximadamente a cada quatro anos. Essa remuneração serve como um incentivo poderoso para encorajar os mineradores a participarem do processo de mineração, apesar do custo energético.
-reviewed: false
+  A recompensa de mineração na rede Bitcoin passa por uma
+  redução pela metade a cada 210.000 blocos, aproximadamente a cada quatro
+  anos. Essa remuneração serve como um poderoso incentivo para
+  encorajar os mineradores a participarem do processo de mineração
+  apesar do seu custo energético.
+reviewed: true

@@ -2,11 +2,8 @@ question: Jaká je hlavní nevýhoda používání vlastního správce hesel?
 answer: Vyžaduje více technických znalostí k použití.
 wrong_answers:
   - Je dražší než služby třetích stran.
-  - Nenabízí tolik funkcí jako služby třetích stran.
+  - Neposkytuje tolik funkcí jako služby třetích stran.
   - Není tak bezpečný jako služby třetích stran.
 explanation: |
-  Vlastní správce hesel vyžaduje více technických znalostí k použití,
-
-  protože je nutné nastavit a spravovat vlastní server. Nicméně, může nabídnout větší kontrolu
-
-  a bezpečnost.
+  Vlastní správce hesel vyžaduje více technických znalostí k použití, protože je potřeba nastavit a spravovat vlastní server. Nicméně, může nabídnout více kontroly a bezpečnosti.
+reviewed: true

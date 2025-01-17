@@ -1,9 +1,11 @@
-question: Come può essere creato un denaro solido?
-answer: Il denaro è un fenomeno sociale naturale che deve emergere dal mercato e dal consenso volontario.
+question: Come viene creato il denaro sano?
+answer: Il denaro sano deve emergere naturalmente dal mercato e dal consenso volontario.
 wrong_answers:
-  - Il governo lo applica tramite leggi
-  - Gli esseri umani usano violenza e coercizione per costringere gli altri ad accettare il loro denaro
-  - Il denaro solido non può essere creato
+  - Il denaro sano deve essere imposto dal governo mediante l'emissione di leggi monetarie.
+  - Il denaro sano deve essere imposto dalle aziende attraverso l'uso della violenza.
+  - Il denaro sano non può essere creato.
 explanation: |
-  Il denaro solido è un fenomeno sociale naturale che deve emergere dal mercato e dal consenso volontario. Nessun essere umano o gruppo di esseri umani può creare denaro.
-reviewed: false
+  Il denaro sano è un fenomeno sociale naturale che deve emergere
+  dal mercato e dal consenso volontario. Nessun essere umano o
+  gruppo di esseri umani può creare denaro.
+reviewed: vero

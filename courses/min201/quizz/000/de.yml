@@ -1,12 +1,14 @@
-question: Was ist die aktuelle Belohnung für das Mining im Bitcoin-Netzwerk?
-answer: Die Erzeugung neuer Bitcoins und Transaktionsgebühren
+question: Was ist die aktuelle Mining-Belohnung im Bitcoin-Netzwerk?
+answer: Die Erstellung neuer Bitcoins und Transaktionsgebühren
 wrong_answers:
-  - Nur die Erzeugung neuer Bitcoins
+  - Nur die Erstellung neuer Bitcoins
   - Nur Transaktionsgebühren
-  - Die Erzeugung neuer Bitcoins, Transaktionsgebühren und ein Bonus für den schnellsten Miner
+  - Die Erstellung neuer Bitcoins, Transaktionsgebühren und ein Bonus für den schnellsten Miner
 explanation: |
-  Die aktuelle Belohnung für das Mining im Bitcoin-Netzwerk ist zweifach. Sie umfasst
-  die Erzeugung neuer Bitcoins, die anfangs alle zehn Minuten 50 Bitcoins betrug
-  und heute (2023) auf 6,25 Bitcoins gesunken ist. Sie umfasst auch Transaktionsgebühren oder Mining
-  Gebühren von den Transaktionen, die der Miner in seinen Block aufnehmen möchte.
-reviewed: false
+  Die aktuelle Mining-Belohnung im Bitcoin-Netzwerk ist
+  zweigeteilt. Sie umfasst die Erstellung neuer Bitcoins, die
+  von anfänglich 50 Bitcoins alle zehn Minuten auf heute (2023)
+  6,25 Bitcoins gesunken ist. Sie beinhaltet auch Transaktionsgebühren
+  oder Mining-Gebühren, aus den Transaktionen, die der Miner
+  in ihren Block aufnimmt.
+reviewed: true

@@ -1,9 +1,8 @@
-question: Quem inicia o processo de abrir um canal na Lightning Network?
-answer: Alice
+question: Como o timelock protege contra trapaças em transações de compromisso?
+answer: Ele impede que a parte infratora recupere seus fundos imediatamente
 wrong_answers:
-  - Bob
-  - Tanto Alice quanto Bob
-  - Nem Alice nem Bob
+  - Ele automaticamente reembolsa os fundos para o trapaceiro
+  - Ele cancela a transação em caso de tentativa de trapaça
+  - Ele bloqueia o uso da chave de revogação
 explanation: |
-  No processo de abrir um canal na Lightning Network, Alice é quem inicia o processo. Ela comunica sua intenção de abrir um canal para Bob, que fornece seu endereço público em resposta.
-reviewed: false
+  O timelock impõe um atraso durante o qual o trapaceiro não pode recuperar seus fundos, dando assim à outra parte a oportunidade de responder.

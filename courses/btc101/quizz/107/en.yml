@@ -1,10 +1,11 @@
 question: What is the role of a notary in the context of Bitcoin inheritance?
-answer: To ensure tax compliance
+answer: They ensure tax compliance.
 wrong_answers:
-  - To manage your bitcoins after your death
-  - To create your inheritance plan
-  - To secure your bitcoins
+  - They manage your bitcoins after your death.
+  - They modify your inheritance plan.
+  - They secure your bitcoins in a safe.
 explanation: |
-  In the context of Bitcoin inheritance, it is important to discuss the
-  inheritance of bitcoins with a notary to ensure tax compliance.
+  In the context of Bitcoin inheritance, it is important to
+  discuss the inheritance of bitcoins with a notary to ensure
+  tax compliance.
 reviewed: false

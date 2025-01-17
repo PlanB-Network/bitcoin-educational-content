@@ -1,0 +1,9 @@
+question: Qual è la tesi centrale di Lord Acton sulla storia?
+answer: Il conflitto tra libertà e potere è la forza motrice del progresso e dell'evoluzione delle società.
+wrong_answers:
+  - Il progresso è lineare e inevitabile, portando a una società di libertà e uguaglianza.
+  - La storia è un ciclo di ripetizione con periodi di libertà seguiti da periodi di tirannia.
+  - I fattori economici sono i principali determinanti del corso della storia.
+explanation: |
+  Lord Acton sostiene che la storia è principalmente segnata dal conflitto tra libertà e potere, considerando questa lotta essenziale per il progresso e l'evoluzione delle società verso una maggiore libertà individuale.
+reviewed: false

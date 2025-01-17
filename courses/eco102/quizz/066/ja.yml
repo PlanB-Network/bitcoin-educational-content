@@ -1,0 +1,9 @@
+question: Bastiatによると、市民の判断を啓発する二つの方法は何ですか？
+answer: 哲学的道徳と経済的道徳
+wrong_answers:
+  - 法律と教育
+  - 宗教と科学
+  - 個人の経験と書籍
+explanation: |
+  Bastiatは、哲学的道徳が心に触れ、経済的道徳が行動の結果を示すことによって知性を啓発すると区別しています。
+reviewed: false

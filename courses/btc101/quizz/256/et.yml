@@ -1,0 +1,8 @@
+question: Mis on üks peamisi Bitcoini mõjusid pangandussüsteemile?
+answer: See võimaldab vabanemist pangandussüsteemist.
+wrong_answers:
+  - See võimaldab pangandussüsteemi kontrolli.
+  - See võimaldab pangandussüsteemi kõrvaldamist.
+  - See võimaldab pangandussüsteemi korrumpeerumist.
+explanation: >-
+  Tekstis mainitakse, et Bitcoin võimaldab vabanemist pangandussüsteemist.

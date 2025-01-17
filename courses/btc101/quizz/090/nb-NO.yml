@@ -1,0 +1,12 @@
+question: Hva er den anbefalte bruken av en mobil lommebok?
+answer: For daglige utgifter
+wrong_answers:
+  - For langsiktig sparing
+  - For mellomlangsiktig sparing
+  - For store beløp
+explanation: |
+  En mobil lommebok er anbefalt for daglige utgifter fordi det er enkelt
+  å gjennomføre transaksjoner med den. Det er derimot ikke anbefalt å lagre store
+  beløp eller for langsiktig sparing fordi den potensielt er sårbar for online
+  trusler.
+reviewed: true

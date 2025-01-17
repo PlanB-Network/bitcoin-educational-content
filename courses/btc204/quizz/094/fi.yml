@@ -1,0 +1,13 @@
+question: Mikä seuraavista vastauksista ei ole suositeltu käytäntö hallitakseen omaa doxxic-muutostaan?
+
+answer: Doxxic UTXO; iden yhdistäminen yhteen.
+
+wrong_answers:
+  - Doxxic UTXO: iden sekoittaminen pienemmässä altaassa.
+  - Lahjoittaminen omat doxxic UTXO: nsa.
+  - Merkitseminen omat doxxic UTXO: nsa käyttökelvottomiksi.
+
+explanation: |
+  Doxxic UTXO: iden yhdistämistä yhteen ei suositella, koska se mahdollistaa yhteyksien luomisen käyttäjän eri merkintöjen välille Whirlpoolissa.
+
+reviewed: false

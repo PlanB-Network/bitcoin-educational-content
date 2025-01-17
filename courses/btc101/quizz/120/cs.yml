@@ -1,9 +1,9 @@
-question: Kdy byl Bitcoin poprvé použit k nákupu fyzického zboží?
-answer: Když Laszlo Hanyecz koupil 2 pizzy za 10 000 BTC
+question: Kdy byl poprvé Bitcoin použit k nákupu fyzického zboží?
+answer: Když Laszlo Hanyecz koupil 2 pizzy za 10 000 BTC.
 wrong_answers:
-  - Když Hal Finney koupil auto za 100 000 BTC
-  - Když Satoshi Nakamoto koupil dům za 1 000 000 000 BTC
-  - Žádná z možností
+  - Když Hal Finney koupil auto za 100 000 BTC.
+  - Když Satoshi Nakamoto koupil dům za 1 000 000 000 BTC.
+  - Žádná z ostatních možností.
 explanation: |
-  Bitcoin byl poprvé použit k nákupu fyzického zboží, když Laszlo Hanyecz koupil 2 pizzy za 10 000 BTC, dne 22. 5. 2010, což je nyní známo jako Den pizzy
+  Poprvé byl Bitcoin použit k nákupu fyzického zboží, když Laszlo Hanyecz koupil 2 pizzy za 10 000 BTC, dne 22. 5. 2010, což je nyní známé jako Den pizzy.
 reviewed: true

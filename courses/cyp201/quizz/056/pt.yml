@@ -1,9 +1,8 @@
-question: O que representa a semente em uma carteira de Bitcoin?
-answer: É um número aleatório ou pseudo-aleatório a partir do qual várias chaves são geradas.
+question: Qual constante é usada para derivar a chave privada mestre a partir da semente?
+answer: Bitcoin Seed
 wrong_answers:
-  - É a senha para acessar a carteira.
-  - É a primeira transação de Bitcoin registrada na carteira.
-  - É a assinatura digital do proprietário da carteira.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  A semente em uma carteira de Bitcoin deve ser um número aleatório ou pseudo-aleatório. Essa semente permite a geração de várias chaves, que são essenciais para a posse de criptomoedas.
-reviewed: false
+  A constante Bitcoin Seed é usada como uma chave na função HMAC-SHA512 para derivar a chave privada mestre e o código de cadeia mestre.

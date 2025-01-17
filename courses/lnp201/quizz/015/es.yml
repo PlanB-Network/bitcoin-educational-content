@@ -1,9 +1,9 @@
-question: ¿Por qué Alice necesita la firma de Bob antes de publicar las transacciones para abrir un canal?
-answer: Para asegurarse de que pueda recuperar sus fondos por sí sola si algo sale mal.
+question: ¿Qué refleja una transacción de compromiso en un canal Lightning?
+answer: La nueva distribución de fondos entre las dos partes
 wrong_answers:
-  - Para confirmar el acuerdo de Bob para abrir el canal.
-  - Para verificar la identidad de Bob.
-  - Para encriptar las transacciones por seguridad.
+  - El número total de transacciones realizadas
+  - La cantidad de comisiones a pagar por la transacción
+  - La apertura de un nuevo canal de pago
 explanation: |
-  Alice le pide a Bob una firma con su clave pública antes de publicar las transacciones. Esto es para asegurarse de que pueda recuperar sus fondos por sí sola si algo sale mal, ya que ya tiene la firma de Bob.
+  Una transacción de compromiso representa la distribución actual de fondos en el canal después de cada transacción Lightning, pero no se publica en la blockchain mientras el canal permanezca abierto.
 reviewed: false

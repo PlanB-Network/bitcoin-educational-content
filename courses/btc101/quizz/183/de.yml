@@ -1,9 +1,10 @@
-question: Was ist einer der Gründe, warum der Preis von Bitcoin innerhalb weniger Tage um 10-20 oder sogar 50% fallen kann?
-answer: Marktschwankungen und bullische und bärische Marktphasen.
+question: Was ist ein Grund dafür, dass der Preis von Bitcoin innerhalb weniger Tage um 10 %, 20 % oder sogar 50 % fallen kann?
+answer: Bullische und bärische Marktphasen.
 wrong_answers:
   - Die Anzahl der Menschen, die das Internet nutzen.
   - Das Wetter.
-  - Der Preis von Gold.
-explanation: |
-  Der Preis von Bitcoin ist oft durch erhebliche Volatilität gekennzeichnet, die von Marktschwankungen und bullischen und bärischen Marktphasen beeinflusst werden kann.
-reviewed: false
+  - Der Goldpreis.
+explanation: >-
+  Der Preis von Bitcoin ist oft durch erhebliche Volatilität gekennzeichnet,
+  die durch Marktschwankungen und bullische sowie bärische Marktphasen beeinflusst werden kann.
+reviewed: true

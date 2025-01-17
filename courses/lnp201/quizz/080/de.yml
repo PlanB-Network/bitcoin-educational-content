@@ -1,9 +1,0 @@
-question: Was ist der Zweck des Hashes der Ursprungsnachricht in einer Lightning Network Rechnung?
-answer: Er wird verwendet, um die Zahlung freizuschalten.
-wrong_answers:
-  - Er wird verwendet, um die Rechnungsdaten zu verschlüsseln.
-  - Er wird verwendet, um die Identität des Empfängers zu überprüfen.
-  - Er wird verwendet, um die Transaktionsgebühr zu berechnen.
-explanation: |
-  Der Hash der Ursprungsnachricht in einer Lightning Network Rechnung wird verwendet, um die Zahlung freizuschalten. Der Empfänger der Zahlung muss die Ursprungsnachricht bereitstellen, die mit dem Hash übereinstimmt, um die Gelder zu erhalten.
-reviewed: false

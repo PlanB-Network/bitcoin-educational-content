@@ -1,9 +1,9 @@
-question: Jaké je maximální množství jednotek Bitcoinu, které může kdy existovat?
-answer: 21 milionů jednotek
+question: Která z následujících vlastností není charakteristická pro Bitcoin?
+answer: Je snadno cenzurovatelný.
 wrong_answers:
-  - 25 milionů jednotek
-  - 30 milionů jednotek
-  - 50 milionů jednotek
+  - Je okamžitě přenosný.
+  - Má zanedbatelné náklady na ověření.
+  - Má pevnou měnovou politiku.
 explanation: |
-  Počítačový kód Bitcoinu a konsensus všech uživatelů, kteří se na protokolu podílejí, určují, že maximální množství jednotek Bitcoinu, které může kdy existovat, je 21 milionů.
+  Bitcoin má všechny nezbytné vlastnosti, aby byl efektivní a zdravou měnou: dělitelný, okamžitě přenosný, necenzurovatelný, s zanedbatelnými náklady na ověření a s měnovou politikou, která je již nastavena na stovky let dopředu s 21 miliony jednotek.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Di mana Frédéric Bastiat duduk di Majelis Nasional?
+answer: Di tengah-kiri bersama Alexis de Tocqueville
+wrong_answers:
+  - Di kiri bersama para sosialis
+  - Di kanan bersama para monarkis
+  - Di tengah-kanan bersama para liberal konservatif
+explanation: |
+  Bastiat duduk di tengah-kiri bersama Tocqueville, di mana ia membela kebebasan individu.

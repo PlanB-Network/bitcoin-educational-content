@@ -1,0 +1,8 @@
+question: Marxin mukaan, mikä on ihmisoikeuksien päärajoite?
+answer: Ne suojaavat vain muodollista ja abstraktia vapautta.
+wrong_answers:
+  - Ne ovat luonnollisia oikeuksia.
+  - Ne ovat valinnaisia oikeuksia.
+  - Ne estävät vallankumouksen.
+explanation: |
+  Marx kritisoi ihmisoikeuksia kutsuen niitä muodollisiksi, koska ne takaavat abstraktin yksilön vapauden, muuttamatta kuitenkaan kapitalistisen yhteiskunnan hyväksikäytön materiaalisia olosuhteita.

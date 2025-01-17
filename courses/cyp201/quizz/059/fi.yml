@@ -1,10 +1,9 @@
-question: Mikä on SHA-256 -tiivistefunktion tarkoitus hyvän satunnaisluvun tuottamisessa?
-answer: Se pienentää erittäin suuren alkuperäisen tietomäärän 256 bittiin.
+question: Mikä on siemenen rooli Bitcoin HD-lompakossa?
+answer: Toimia kaikkien avainten johdannan lähtökohtana
 wrong_answers:
-  - Se kasvattaa alkuperäisen tiedon kokoa.
-  - Se salaa alkuperäisen tiedon.
-  - Se varmentaa alkuperäisen tiedon aitouden.
+  - Tallentaa lompakon tapahtumat
+  - Luoda suoraan pääjulkinen avain
+  - Varmistaa tapahtumien luottamuksellisuuden
 explanation: |
-  SHA-256 -tiivistefunktiota käytetään pienentämään erittäin suuri alkuperäinen tietomäärä 256 bittiin. Tämä prosessi auttaa tuottamaan hyvän satunnaisluvun,
-  mikä on ratkaisevan tärkeää yksityisavainten turvallisuuden ja Bitcoin-siirtojen kannalta.
+  Siemen on 512-bittinen sekvenssi, joka on johdettu muistilauseesta ja salasanasta. Se muodostaa perustan kaikille lompakon avaimille.
 reviewed: false

@@ -1,9 +1,9 @@
-question: ¿Cuál es la disponibilidad en línea de Bitcoin?
-answer: 99.988%
+question: Desde su creación, ¿qué porcentaje del tiempo ha estado funcional la red de Bitcoin?
+answer: 99.988%.
 wrong_answers:
-  - 100%
-  - 90.009%
-  - 80.17%
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
   La disponibilidad en línea de Bitcoin es del 99.988% desde 2009.
-reviewed: false
+reviewed: true

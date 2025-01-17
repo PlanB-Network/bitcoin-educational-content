@@ -1,9 +1,9 @@
-question: Quels sont les deux types de frais dans le Lightning Network?
-answer: Un frais fixe indépendamment du montant et un frais variable.
+question: Pourquoi un vendeur pourrait-il effectuer un paiement fictif dans un canal ?
+answer: Pour déplacer la liquidité vers le côté opposé
 wrong_answers:
-  - Un frais de transaction et un frais de routage.
-  - Un frais d'émetteur et un frais de destinataire.
-  - Un frais de réseau et un frais de canal.
+  - Pour diminuer les frais de routage
+  - Pour augmenter la capacité totale de ses canaux
+  - Pour verrouiller les fonds à long terme
 explanation: |
-  Dans le Lightning Network, il y a deux types de frais ; un frais fixe indépendamment du montant (par défaut 1 SAT mais peut être modifié) et un frais variable (0,01% par défaut).
+  En effectuant un paiement fictif, un vendeur déplace la liquidité de son côté vers le côté opposé du canal, libérant ainsi de la capacité entrante pour recevoir des paiements.
 reviewed: false

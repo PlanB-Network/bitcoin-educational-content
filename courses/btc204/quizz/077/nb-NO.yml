@@ -1,0 +1,11 @@
+question: Hva er den viktigste forskjellen mellom en coinjoin og en forvaltet mixer?
+
+answer: Coinjoin lar deg beholde full kontroll over dine midler.
+
+wrong_answers:
+  - Coinjoin krever midlertidig overgivelse av forvaltningen av midlene.
+  - Mixere er tryggere enn coinjoins.
+  - Mixere gir en bedre kvalitet på miksingen.
+
+explanation: |
+  Den største ulempen med mixere sammenlignet med coinjoins er at de krever at brukeren gir fra seg forvaltningen av sine midler under miksingsprosessen, noe som utsetter dem for risiko for tyveri.

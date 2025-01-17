@@ -1,9 +1,13 @@
 question: Qual è una pratica consigliata per gestire la password principale di un gestore di password?
-answer: Scrivila su carta e conservala in un luogo nascosto e sicuro.
+answer: Scriverla su un foglio di carta e conservarla in un luogo nascosto e sicuro.
 wrong_answers:
-  - Conservala nella tua email.
-  - Utilizza la stessa password per tutti gli account.
-  - Memorizzala.
+  - Conservarla nella tua email.
+  - Usare la stessa password per tutti gli account.
+  - Memorizzarla.
 explanation: |
-  Si consiglia di scrivere la password principale di un gestore di password su carta, ma deve essere conservata in un luogo nascosto e sicuro. Questo perché se l'unità disco è crittografata e il computer è bloccato, la password non sarà accessibile, nemmeno in caso di furto.
-reviewed: false
+  Si consiglia di scrivere la password principale di un
+  gestore di password su carta, ma essa dovrebbe essere tenuta in un
+  luogo nascosto e sicuro. Questo perché se l'hard
+  drive è criptato e il computer è bloccato, la password
+  non sarà accessibile, nemmeno in caso di furto.
+reviewed: true

@@ -1,9 +1,11 @@
-question: Quel est l'un des facteurs qui rendent la régulation du Bitcoin difficile pour les autorités financières ?
+question: Quel est un facteur qui rend difficile pour les autorités financières de réguler le Bitcoin ?
+  authorities?
 answer: Il fonctionne à l'échelle mondiale, 24 heures sur 24, 7 jours sur 7.
 wrong_answers:
   - Il est contrôlé par une autorité centrale.
   - Il n'est utilisé nulle part dans le monde.
   - Il est facile à contrefaire.
-explanation: |
-  Le protocole Bitcoin est unique en ce sens qu'il fonctionne à l'échelle mondiale, 24 heures sur 24, 7 jours sur 7, ce qui rend la régulation difficile pour les autorités financières.
-reviewed: false
+explanation: >-
+  Le protocole Bitcoin est unique en ce qu'il fonctionne à l'échelle mondiale,
+  24 heures sur 24, 7 jours sur 7, rendant la régulation difficile pour les autorités financières.
+reviewed: true

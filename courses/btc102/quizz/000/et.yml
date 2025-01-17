@@ -1,0 +1,11 @@
+question: Mis on Ponzi skeemide ühine tunnusjoon krüptovaluuta valdkonnas?
+answer: Nad kasutavad uute investorite raha, et maksta vanematele osalejatele.
+wrong_answers:
+  - Nad hõlmavad alati Bitcoini.
+  - Nad on alati seaduslikud ja reguleeritud.
+  - Nad hõlmavad alati füüsilisi varasid.
+explanation: |
+  Ponzi skeemid krüptovaluuta valdkonnas toimivad sageli, kasutades uute
+  investorite raha, et maksta vanematele osalejatele. See jätkusuutmatu olemus ja sõltuvus
+  uutest tulijatest teeb neist tõenäoliselt paratamatult kokkuvarisevad.
+reviewed: false

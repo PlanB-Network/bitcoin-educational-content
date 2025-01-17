@@ -1,0 +1,9 @@
+question: Em que caso podemos dizer que dois eventos são independentes?
+answer: A probabilidade de um não afeta a probabilidade do outro
+wrong_answers:
+  - Os dois eventos sempre ocorrem simultaneamente
+  - Eles são mutuamente exclusivos
+  - A probabilidade combinada deles é igual à maior probabilidade dos dois
+explanation: |
+  Dois eventos são independentes se a probabilidade de um não alterar a probabilidade do outro, como um sorteio de loteria não ter influência no clima do dia seguinte.
+reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Qué se utiliza para derivar una dirección en una billetera HD?
-answer: La clave pública comprimida
-wrong_answers:
-  - La frase mnemotécnica
-  - La contraseña
-  - La semilla de la billetera
-explanation: |
-  Para derivar una dirección en una billetera HD, primero se aplica una función hash a la clave pública comprimida utilizando SHA256 y RIPMD160, y luego se calcula un checksum.
-reviewed: false

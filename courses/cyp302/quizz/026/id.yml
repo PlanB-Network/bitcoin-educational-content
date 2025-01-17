@@ -1,0 +1,9 @@
+question: Apa kesetaraan dari XOR dengan operasi modulo?
+answer: XOR setara dengan operasi modulo 2 pada bit
+wrong_answers:
+  - XOR setara dengan pengurangan klasik modulo 3
+  - XOR setara dengan operasi modulo 7 pada bit
+  - XOR adalah kebalikan dari penjumlahan
+explanation: |
+  Operasi XOR dapat dilihat sebagai penjumlahan bit dengan modulo 2, membuat hasilnya identik.
+reviewed: false

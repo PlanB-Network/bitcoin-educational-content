@@ -1,9 +1,8 @@
-question: Como os bits são transformados em frases na geração de uma frase mnemônica para uma carteira de Bitcoin?
-answer: Cada segmento está associado a uma palavra de uma lista de 2048 palavras.
+question: Qual profundidade no caminho de derivação especifica o tipo de moeda?
+answer: Profundidade 2
 wrong_answers:
-  - Cada bit está associado a uma palavra de uma lista de 2048 palavras.
-  - Cada segmento está associado a uma palavra de uma lista de 1024 palavras.
-  - Cada bit está associado a uma palavra de uma lista de 1024 palavras.
+  - Profundidade 1
+  - Profundidade 3
+  - Profundidade 4
 explanation: |
-  Para transformar os bits em frases, cada segmento é associado a uma palavra de uma lista de 2048 palavras.
-reviewed: false
+  A Profundidade 2 é usada para identificar a moeda em carteiras multi-moedas, como Bitcoin (índice 0') ou Litecoin (índice 2').

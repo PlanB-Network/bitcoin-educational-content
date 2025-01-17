@@ -1,9 +1,9 @@
-question: Co je "KYC"?
+question: Co je KYC?
 answer: Postup pro ověření a zaznamenání identity klientů.
 wrong_answers:
   - Kryptografický systém pro zabezpečení finančních transakcí.
   - Metoda ověření pro finanční transakce.
   - Marketingová technika pro analýzu chování zákazníků.
 explanation: |
-  KYC znamená "Know Your Customer" (Poznej svého zákazníka). Jedná se skutečně o regulační postup pro ověření identity klienta.
+  KYC znamená Know Your Customer (Poznej svého zákazníka). Jedná se skutečně o regulační postup pro ověření identity klienta.
 reviewed: false

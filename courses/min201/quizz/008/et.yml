@@ -1,0 +1,12 @@
+question: Mis on ASIC-de peamine eelis Bitcoini kaevandamise kontekstis?
+answer: Nad suudavad väga tõhusalt sooritada ühte kindlat tüüpi arvutust
+wrong_answers:
+  - Nad suudavad sooritada mitmeid erinevaid tüüpi arvutusi
+  - Nad tarbivad vähem elektrienergiat kui CPU-d
+  - Nad on odavamad kui CPU-d
+explanation: |
+  ASIC-id on kiibid, võrreldavad CPU kiibiga, kuid
+  need on välja töötatud selleks, et sooritada ainult ühte kindlat tüüpi
+  arvutust võimalikult tõhusal viisil. Bitcoini ASIC-de puhul
+  on need disainitud SHA256 algoritmi arvutuste jaoks.
+reviewed: true

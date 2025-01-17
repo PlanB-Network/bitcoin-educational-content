@@ -1,0 +1,10 @@
+question: Mis on üks riskidest, mis on seotud Bitcoini ostmisega?
+answer: Selle hind võib langeda 0-ni.
+wrong_answers:
+  - Seda on kerge varastada.
+  - Seda saab dubleerida.
+  - Seda võib füüsiliselt kaotada.
+explanation: >-
+  Tekstis mainitakse, et Bitcoin on väga volatiilne finantsvara ja
+  selle hind võib langeda 0-ni. See on üks riskidest, mis on seotud Bitcoini ostmisega.
+reviewed: false

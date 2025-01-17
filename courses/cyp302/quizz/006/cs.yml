@@ -1,0 +1,9 @@
+question: Který koncept není výhradně spojen se symetrickými nebo asymetrickými kryptografickými schématy?
+answer: Hašovací funkce
+wrong_answers:
+  - Páry veřejných a soukromých klíčů
+  - Asymetrická kryptografie
+  - Symetrická kryptografie
+explanation: |
+  Hašovací funkce jsou klíčovou součástí moderní kryptografie, ale nejsou specificky spojeny ani se symetrickými, ani s asymetrickými schématy, na rozdíl od veřejných a soukromých klíčů.
+reviewed: false

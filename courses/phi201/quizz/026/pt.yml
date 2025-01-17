@@ -1,0 +1,9 @@
+question: O que é a polis grega?
+answer: O mercado
+wrong_answers:
+  - A lei da natureza
+  - Lei humana
+  - O templo dedicado aos deuses
+explanation: |
+  A polis grega refere-se à cidade-estado, uma organização política e social onde os cidadãos participam da vida pública e tomam parte em decisões coletivas. Ela constitui a estrutura da democracia e da cidadania na Grécia antiga.
+reviewed: false

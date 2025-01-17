@@ -1,9 +1,9 @@
 question: Jaká je hlavní nevýhoda fiat měn?
-answer: Jejich hodnota je neustále snižována měnovou inflací
+answer: Jejich hodnota je neustále snižována měnovou inflací.
 wrong_answers:
-  - Nejsou snadno přenosné
-  - Jejich hodnota je neustále zvyšována měnovou inflací
-  - Nejsou dělitelné
+  - Nejsou snadno přenosné.
+  - Jejich hodnota je neustále zvyšována měnovou inflací.
+  - Nejsou dělitelné.
 explanation: |
-  Hlavní nevýhoda fiat měn, jako je dolar a euro, spočívá v tom, že jejich hodnota je neustále snižována měnovou inflací. Důvodem je, že entity, které je kontrolují (král, centrální banka, císař, diktátor), je neustále devalvují.
+  Hlavní nevýhoda fiat měn, jako je dolar a euro, spočívá v tom, že jejich hodnota je neustále snižována měnovou inflací. To je způsobeno devalvací způsobenou entitami, které je kontrolují (král, centrální banka, císař, diktátor).
 reviewed: true

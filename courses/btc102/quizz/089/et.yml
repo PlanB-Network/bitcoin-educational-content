@@ -1,0 +1,10 @@
+question: Mis on üks omadus, mis iseloomustab tehniliselt pädevat Bitcoini kasutajat?
+answer: Neil on hea arusaam tehnoloogiatest, sealhulgas kuumadest ja külmadest Bitcoini rahakottidest ning Lightning Network'ist.
+wrong_answers:
+  - Nad kasutavad Bitcoini ainult pikaajalise investeeringuna.
+  - Nad kasutavad Bitcoini ainult igapäevasteks tehinguteks.
+  - Nad kasutavad Bitcoini ainult vahetusplatvormidel.
+explanation: |
+  Tehniliselt pädevad Bitcoini kasutajad mõistavad tehnoloogiaid, mis on seotud
+  Bitcoini tehingutega, sealhulgas erinevat tüüpi rahakotte ja Lightning Network'i.
+reviewed: false

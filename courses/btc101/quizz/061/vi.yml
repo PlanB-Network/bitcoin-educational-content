@@ -1,9 +1,11 @@
-question: Sự kiện khi phần thưởng cho việc đào được giảm một nửa được gọi là gì?
+question: Tên của sự kiện khi phần thưởng cho việc đào được giảm một nửa là gì?
 answer: Halving
 wrong_answers:
   - Doubling
   - Quartering
   - Tripling
 explanation: |
-  Sự kiện khi phần thưởng cho việc đào được giảm một nửa được gọi là halving. Sự kiện này tạo ra hình dạng giống như các bậc thang cho đường cong phát hành tiền tệ.
-reviewed: false
+  Sự kiện khi phần thưởng cho việc đào được giảm một nửa được gọi là
+  halving. Sự kiện này tạo ra hình dạng giống như các bậc thang cho
+  đường cong phát hành tiền tệ.
+reviewed: true

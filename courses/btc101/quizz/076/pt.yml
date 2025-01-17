@@ -1,9 +1,10 @@
 question: Qual é o papel da chave pública em uma carteira de Bitcoin?
-answer: Ela é usada para gerar endereços de Bitcoin e, assim, receber dinheiro.
+answer: É usada para gerar endereços de Bitcoin e, assim, receber dinheiro.
 wrong_answers:
-  - Ela é usada para criptografar as transações de Bitcoin.
-  - Ela é usada para acessar a carteira de Bitcoin.
-  - Ela é usada para fazer backup da carteira de Bitcoin.
+  - É usada para criptografar transações de Bitcoin.
+  - É usada para acessar a carteira de Bitcoin.
+  - É usada para fazer backup da carteira de Bitcoin.
 explanation: |
-  A chave pública é derivada da chave privada e é usada para gerar endereços de Bitcoin, a fim de receber dinheiro.
-reviewed: false
+  A chave pública é derivada da chave privada e é usada
+  para gerar endereços de Bitcoin a fim de receber dinheiro.
+reviewed: true

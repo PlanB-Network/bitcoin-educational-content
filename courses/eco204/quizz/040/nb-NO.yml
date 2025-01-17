@@ -1,0 +1,11 @@
+question: Hva er Kagans kriterium for hyperinflasjon?
+answer: En inflasjonsrate på 50 % per måned.
+wrong_answers:
+  - En inflasjonsrate på 50 % per år.
+  - En inflasjonsrate på 25 % per måned.
+  - En inflasjonsrate på 25 % per år.
+explanation: |
+  Kagans kriterium definerer hyperinflasjon som en inflasjonsrate på 50 %
+  per måned. Dette kriteriet kan noen ganger føre til tvetydige tolkninger, med
+  år som har høye inflasjonsrater, men som ikke møter den strenge definisjonen av hyperinflasjon.
+reviewed: false

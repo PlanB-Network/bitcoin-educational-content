@@ -9,5 +9,5 @@ In the context of deterministic and hierarchical (HD) wallets, the currency type
 * Dogecoin: `0x80000003`;
 * Ethereum: `0x8000003c`...
 
-![](../../dictionnaire/assets/21.png)
+![](../../dictionnaire/assets/21.webp)
 

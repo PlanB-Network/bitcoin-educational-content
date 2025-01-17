@@ -1,0 +1,9 @@
+question: Podle svatého Augustina, která dvě města spoluexistují ve světě?
+answer: Město Boží a Zemské město.
+wrong_answers:
+  - Město lidí a město bohů.
+  - Město svatých a město hříšníků.
+  - Univerzitní město a město andělů.
+explanation: |
+  Svatý Augustin popisuje dvě města, která spoluexistují ve světě: Město Boží, orientované k Bohu a duchovnímu životu, a Zemské město, zaměřené na lidské záležitosti a materiální věci, přičemž každé následuje odlišné cíle.
+reviewed: false

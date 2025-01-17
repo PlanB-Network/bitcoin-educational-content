@@ -1,0 +1,9 @@
+question: 2009年1月にハル・フィニーが予測したドルでの価格はいくらでしたか？
+answer: 10,000,000
+wrong_answers:
+  - 1,000,000
+  - 100,000
+  - 10,000
+explanation: |
+  彼は「今日数セントのコンピューティング時間で単位を生成する可能性」が「非常に良い賭けである」と[書いています](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015004.html)。
+reviewed: false

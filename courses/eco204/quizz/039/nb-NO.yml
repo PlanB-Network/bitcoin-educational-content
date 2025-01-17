@@ -1,0 +1,9 @@
+question: Hva er effekten av hyperinflasjon på pengeverdien?
+answer: Det fører til at penger raskt mister sin verdi.
+wrong_answers:
+  - Det fører til at penger øker i verdi.
+  - Det har ingen effekt på pengeverdien.
+  - Det fører til at pengeverdien svinger uforutsigbart.
+explanation: |
+  I en periode med hyperinflasjon mister penger raskt sin verdi, noe som gjør
+  langsiktig planlegging vanskelig.

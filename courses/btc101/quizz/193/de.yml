@@ -1,9 +1,7 @@
 question: Was ist eine der Initiativen, die dazu beitragen, die Bitcoin-Wirtschaft für alle zugänglicher und bequemer zu machen?
-answer: BTCMap
+answer: BTCMap.
 wrong_answers:
-  - Bitcoin-Börse
-  - Bitcoin-Mining
-  - Bitcoin-Lotterie
-explanation: |
-  BTCMap ist eine der Initiativen, die dazu beitragen, die Bitcoin-Wirtschaft für alle zugänglicher und bequemer zu machen. Es handelt sich um ein Open-Source- und gemeinschaftliches Projekt, das alle Händler auflistet, die Bitcoin akzeptieren, sowie die verschiedenen Bitcoin-Communities weltweit.
-reviewed: false
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
+explanation: BTCMap ist eine der Initiativen, die dazu beitragen, die Bitcoin-Wirtschaft für alle zugänglicher und bequemer zu machen. Es handelt sich um ein Open-Source- und kollaboratives Projekt, das alle Händler auflistet, die Bitcoin akzeptieren, sowie die verschiedenen Bitcoin-Gemeinschaften rund um die Welt.

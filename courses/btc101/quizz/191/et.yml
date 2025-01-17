@@ -1,0 +1,10 @@
+question: Mis on üks tegur, mida arvestada, kui valite lahendust Bitcoin'i vastuvõtmiseks oma ettevõttes?
+answer: Eeldatav tehingute maht
+wrong_answers:
+  - Teie logo värv
+  - Töötajate arv
+  - Peakontori asukoht
+explanation: >-
+  Bitcoin'i vastuvõtmise lahenduse valimisel oma ettevõttes tuleb arvesse võtta mitmeid
+  tegureid, nagu eeldatav tehingute maht, eraldatud eelarve ja ettevõtte tüüp (online või füüsiline).
+reviewed: false

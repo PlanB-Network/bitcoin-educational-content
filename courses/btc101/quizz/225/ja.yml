@@ -1,9 +1,9 @@
-question: Lightning Networkはいつ検証され、実装されましたか？
+question: Lightning Networkはいつ最初に検証され、実装されましたか？
 answer: 2017
 wrong_answers:
   - 2015
   - 2016
   - 2018
-explanation: >-
-  Lightning Networkは2017年に検証され、実装されました。
-reviewed: false
+explanation: |
+  Lightning Networkは2017年に最初に検証され、実装されました。
+reviewed: true

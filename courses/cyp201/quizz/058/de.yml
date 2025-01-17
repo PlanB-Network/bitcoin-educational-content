@@ -1,9 +1,9 @@
-question: Welche Rolle spielt die Entropie in der Bitcoin HD Wallet?
-answer: Sie ist die Grundlage jeder HD Wallet und für deren Sicherheit unerlässlich.
+question: Welche Funktion wird verwendet, um den Seed aus der mnemonischen Phrase abzuleiten?
+answer: PBKDF2 mit HMAC-SHA512
 wrong_answers:
-  - Sie hilft bei der Überprüfung von Transaktionen.
-  - Sie erhöht die Geschwindigkeit von Transaktionen.
-  - Sie reduziert die Größe der Blockchain.
+  - SHA256 allein
+  - Doppeltes SHA256
+  - AES-256
 explanation: |
-  Entropie oder Zufälligkeit ist die Grundlage jeder HD Wallet. Sie ist für die Sicherheit der Wallet unerlässlich, da sie die Unvorhersehbarkeit der generierten privaten Schlüssel gewährleistet.
+  Der Seed wird mit der Funktion PBKDF2 mit HMAC-SHA512 und 2048 Iterationen aus der mnemonischen Phrase und der Passphrase generiert.
 reviewed: false

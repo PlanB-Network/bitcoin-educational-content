@@ -1,9 +1,13 @@
-question: Pourquoi l'or ne peut-il pas suivre dans un monde globalisé et numérique ?
-answer: Il a besoin d'une entité centrale pour le rendre divisible et facilement échangeable.
+question: Pourquoi l'or ne peut-il pas bien performer dans un monde globalisé et numérique ?
+answer: Parce qu'il nécessite une entité centrale pour le rendre divisible et facilement échangeable.
 wrong_answers:
-  - Il n'est pas assez précieux.
-  - Il n'est pas assez rare.
-  - Il s'érode avec le temps.
+  - Parce qu'il n'est pas assez précieux.
+  - Parce qu'il n'est pas assez rare.
+  - Parce qu'il s'érode avec le temps.
 explanation: |
-  L'or ne peut pas suivre dans un monde globalisé et numérique car il a besoin d'une entité centrale pour le rendre divisible et facilement échangeable. Cela le rend moins pratique pour une utilisation dans un monde où les transactions sont de plus en plus numériques et décentralisées.
-reviewed: false
+  L'or ne peut pas suivre dans un monde globalisé et numérique
+  parce qu'il nécessite une entité centrale pour le rendre divisible et
+  facilement échangeable. Cela le rend moins pratique à utiliser dans
+  un monde où les transactions sont de plus en plus numériques et
+  décentralisées.
+reviewed: true

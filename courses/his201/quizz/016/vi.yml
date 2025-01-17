@@ -1,0 +1,9 @@
+question: Khái niệm tiền điện tử nào đã được Satoshi Nakamoto đề cập rõ ràng trong bản trắng Bitcoin?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Đây là lần tham chiếu đầu tiên. Nó được Satoshi thêm vào vào tháng 8 năm 2008 sau những trao đổi của ông với Wei Dai.
+reviewed: false

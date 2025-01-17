@@ -1,0 +1,9 @@
+question: Kes usaldas rauast kasti kõrtsmik Robert Morrissile hoiule?
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  Thomas J. Beale oli see, kes andis Robert Morrissile üle rauast kasti, mis sisaldas krüpteeritud dokumente ja märkust, andes talle juhised juhuks, kui ta ei peaks tagasi pöörduma.
+reviewed: false

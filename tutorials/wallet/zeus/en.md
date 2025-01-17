@@ -1,5 +1,5 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: Multi-node self-custodial wallet
 ---

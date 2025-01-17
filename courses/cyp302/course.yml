@@ -1,7 +1,7 @@
 topic: security
 subtopic: cryptography
 level: advanced
-hours: 10
+hours: 16
 
 professors:
   - myth-initial
@@ -9,6 +9,7 @@ professors:
 contributors:
   - rabbit-hole
   - another-satoshi
+  - pretty-private
 
 # Proofreading metadata
 original_language: en

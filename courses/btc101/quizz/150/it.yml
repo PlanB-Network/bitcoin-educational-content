@@ -1,9 +1,11 @@
 question: Qual è il ruolo dei minatori nella rete Bitcoin?
-answer: I minatori garantiscono la sicurezza della rete e aggiungono transazioni ai blocchi.
+answer: I minatori proteggono la rete e aggiungono transazioni ai blocchi.
 wrong_answers:
   - I minatori creano nuovi bitcoin.
-  - I minatori verificano l'identità degli utenti di Bitcoin.
-  - I minatori stabiliscono il prezzo di Bitcoin.
-explanation: |
-  I minatori utilizzano la loro potenza di calcolo per risolvere complessi problemi matematici, ciò permette loro di aggiungere nuove transazioni alla blockchain. Questo processo garantisce la sicurezza della rete e ne mantiene l'integrità.
-reviewed: false
+  - I minatori verificano l'identità degli utenti Bitcoin.
+  - I minatori stabiliscono il prezzo del Bitcoin.
+explanation: >-
+  I minatori utilizzano la loro potenza computazionale per risolvere problemi matematici complessi,
+  il che consente loro di aggiungere nuove transazioni alla blockchain. Questo processo protegge
+  la rete e ne mantiene l'integrità.
+reviewed: true

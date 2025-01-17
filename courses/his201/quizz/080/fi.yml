@@ -1,0 +1,9 @@
+question: Mihin verkkotunnukseen Bitcoin-foorumi siirrettiin 1. elokuuta 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Siirrettyään foorumin osoitteeseen forum.bitcoin.org 17. toukokuuta, se vaihtoi osoitteeksi bitcointalk.org alkaen 1. elokuuta. Vuosien varrella se tulisi tunnetuksi nimellä BitcoinTalk.
+reviewed: false

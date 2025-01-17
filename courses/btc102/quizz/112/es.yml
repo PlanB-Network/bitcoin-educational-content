@@ -1,9 +1,9 @@
-question: ¿Cuál es el propósito de una billetera "fría" en Bitcoin?
+question: ¿Cuál es el propósito de una billetera fría en Bitcoin?
 answer: Para almacenar de forma segura Bitcoins.
 wrong_answers:
   - Para minar nuevos Bitcoins.
   - Para comerciar con Bitcoins.
   - Para convertir Bitcoins en otras criptomonedas.
 explanation: |
-  Una billetera "fría", también conocida como billetera de hardware, es un dispositivo diseñado para almacenar de forma segura Bitcoins. No se utiliza para minar nuevos Bitcoins, comerciar con Bitcoins o convertir Bitcoins en otras criptomonedas.
+  Una billetera fría, también conocida como billetera de hardware, es un dispositivo diseñado para almacenar de forma segura Bitcoins. No se utiliza para minar nuevos Bitcoins, comerciar con Bitcoins o convertir Bitcoins en otras criptomonedas.
 reviewed: false

@@ -1,9 +1,10 @@
-question: Ngày của cuộc trao đổi riêng tư cuối cùng được biết đến của Satoshi Nakamoto qua email là khi nào?
-answer: 23 tháng 4, 2011
+question: Ngày của tin nhắn riêng tư cuối cùng được biết đến của Satoshi Nakamoto qua email là khi nào?
+  qua email?
+answer: 23 tháng 4, 2011.
 wrong_answers:
-  - 12 tháng 12, 2010
-  - 8 tháng 1, 2009
-  - 31 tháng 10, 2008
-explanation: >-
-  Ngày của cuộc trao đổi riêng tư cuối cùng được biết đến của Satoshi Nakamoto qua email là ngày 23 tháng 4, 2011 với nhà phát triển Mike Hearn.
-Đã được xem xét: true
+  - 12 tháng 12, 2010.
+  - 8 tháng 1, 2009.
+  - 31 tháng 10, 2008.
+explanation: |
+  Ngày của tin nhắn riêng tư cuối cùng được biết đến của Satoshi Nakamoto qua email là 23 tháng 4, 2011. Nó được gửi cho nhà phát triển Mike Hearn.
+reviewed: true

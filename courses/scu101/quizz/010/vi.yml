@@ -1,11 +1,13 @@
 question: Sự khác biệt giữa VPN doanh nghiệp và VPN cá nhân là gì?
 answer: VPN doanh nghiệp thường đắt hơn và phức tạp hơn, trong khi VPN cá nhân dễ tiếp cận và thân thiện với người dùng hơn.
 wrong_answers:
-  - VPN doanh nghiệp kém an toàn hơn VPN cá nhân.
-  - VPN cá nhân đắt hơn VPN doanh nghiệp.
-  - VPN doanh nghiệp không mã hóa dữ liệu, trong khi VPN cá nhân thì có.
+  - VPN doanh nghiệp thường an toàn hơn VPN cá nhân, vì chúng luôn đắt hơn.
+  - VPN cá nhân luôn đắt hơn VPN doanh nghiệp do quy mô kinh tế mà phía sau có thể tiếp cận.
+  - Do đối tượng mục tiêu khắt khe hơn, VPN doanh nghiệp luôn mã hóa dữ liệu, trong khi VPN cá nhân thì không.
 explanation: |
-  VPN doanh nghiệp được thiết kế cho các doanh nghiệp và thường đắt hơn
-  và phức tạp hơn để thiết lập và quản lý. Ngược lại, VPN cá nhân được thiết kế
-  cho người dùng cá nhân và nói chung dễ tiếp cận và thân thiện với người dùng hơn.
-reviewed: false
+  VPN doanh nghiệp được thiết kế cho các doanh nghiệp và
+  thường đắt hơn và phức tạp hơn để thiết lập và quản lý.
+  Ngược lại, VPN cá nhân được thiết kế cho
+  người dùng cá nhân và nói chung dễ tiếp cận và
+  thân thiện với người dùng hơn.
+reviewed: true

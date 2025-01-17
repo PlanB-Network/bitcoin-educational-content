@@ -1,11 +1,9 @@
-question: Bậc của đường cong (n) cho đường cong secp256k1 trong hệ thập phân là bao nhiêu?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: Tính chất nào của Schnorr cho phép kết hợp nhiều khóa công khai thành một?
+answer: Tích hợp Khóa
 wrong_answers:
-  - 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 -1
-  - 2^256 - 432420386565659656852420866394968145598
-  - 2^256 - 432420386565659656852420866394968145600
+  - Xác minh Đợt
+  - Tính Dễ Biến Dạng
+  - Nén Chữ Ký
 explanation: |
-  Bậc của đường cong (n) cho đường cong secp256k1 là số điểm trên
-  đường cong, bao gồm cả điểm tại vô cực. Đối với secp256k1, n bằng 2^256 -
-  432420386565659656852420866394968145599 trong hệ thập phân.
+  Schnorr cho phép tích hợp nhiều khóa công khai vào một khóa duy nhất.
 reviewed: false

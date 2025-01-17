@@ -1,0 +1,9 @@
+question: Mis vahe on ajalool ja filosoofial?
+answer: Kõik teised vastused
+wrong_answers:
+  - Ajalugu kirjeldab minevikku, samas kui filosoofia hindab seda
+  - Ajalugu on faktipõhine, samas kui filosoofia on normatiivne
+  - Ajalugu keskendub sündmustele, samas kui filosoofia keskendub kontseptsioonidele
+explanation: |
+  Erinevus ajaloo ja filosoofia vahel seisneb nende vastavates lähenemistes: ajalugu keskendub minevikusündmuste kirjeldamisele ja analüüsimisele, samas kui filosoofia püüab hinnata, tõlgendada ja kehtestada norme abstraktsete kontseptsioonide põhjal.
+reviewed: false

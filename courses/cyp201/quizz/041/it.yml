@@ -1,9 +1,9 @@
-question: Qual è il ruolo della curva ellittica nella generazione di chiavi pubbliche e private?
-answer: Viene utilizzata per generare chiavi pubbliche e private sicure.
+question: Qual è il principale rischio nell'utilizzare un PRNG mal progettato per generare entropia?
+answer: Le chiavi private potrebbero essere indovinate da un attaccante
 wrong_answers:
-  - Viene utilizzata per crittografare le chiavi.
-  - Viene utilizzata per memorizzare le chiavi.
-  - Viene utilizzata per trasmettere le chiavi.
+  - La frase mnemonica potrebbe contenere parole non corrette
+  - Le firme digitali diventerebbero invalide
+  - Gli indirizzi Bitcoin sarebbero incompatibili con la rete
 explanation: |
-  La curva ellittica è una costruzione matematica utilizzata nella generazione di chiavi pubbliche e private sicure. Viene scelto un numero casuale, spesso chiamato nonce, come chiave privata e utilizzato nell'equazione della curva ellittica per generare la corrispondente chiave pubblica.
+  Un PRNG mal progettato può produrre sequenze prevedibili, rendendo le chiavi più vulnerabili agli attacchi.
 reviewed: false

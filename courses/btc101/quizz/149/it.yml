@@ -1,9 +1,10 @@
-question: Cos'è il Lightning Network?
-answer: Una rete di pagamento istantanea per Bitcoin che utilizza la blockchain di Bitcoin.
+question: Cos'è la Lightning Network?
+answer: Una rete di pagamento Bitcoin istantanea basata sulla blockchain di Bitcoin.
 wrong_answers:
-  - Una rete blockchain separata dalla blockchain di Bitcoin
-  - Una rete di minatori di Bitcoin
-  - Una rete di scambi di Bitcoin
+  - Una rete blockchain separata dalla blockchain di Bitcoin.
+  - Una rete di minatori di Bitcoin.
+  - Una rete di scambi di Bitcoin.
 explanation: |
-  Il Lightning Network è una rete di pagamento istantanea per Bitcoin che utilizza la blockchain di Bitcoin.
-reviewed: false
+  La Lightning Network è una rete di pagamento Bitcoin istantanea
+  che si basa sulla blockchain di Bitcoin.
+reviewed: vero

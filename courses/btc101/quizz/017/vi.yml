@@ -1,9 +1,11 @@
 question: Bitcoin tượng trưng cho điều gì ngoài công nghệ của nó?
 answer: Một cuộc cách mạng chống lại hệ thống tài chính truyền thống và một lựa chọn dựa trên sự minh bạch, phi tập trung và chủ quyền cá nhân.
 wrong_answers:
-  - Một hình thức tiền tệ số mới hiệu quả hơn so với các loại tiền tệ truyền thống.
+  - Một hình thức tiền tệ số mới hiệu quả hơn so với tiền tệ truyền thống vì nó nhanh hơn.
   - Một cách để cá nhân kiếm tiền thông qua việc đào.
-  - Một công cụ cho các tội phạm thực hiện giao dịch bất hợp pháp.
+  - Một công cụ cho tội phạm để thực hiện các giao dịch bất hợp pháp.
 explanation: |
-  Ngoài công nghệ của mình, Bitcoin tượng trưng cho một cuộc cách mạng chống lại hệ thống tài chính truyền thống khi mà giao thức đã thiết lập một hệ thống tiền tệ mới mà không cần đến bất kỳ thực thể trung ương nào.
-đã được xem xét: true
+  Ngoài công nghệ của mình, Bitcoin tượng trưng cho một cuộc cách mạng
+  chống lại hệ thống tài chính truyền thống: giao thức
+  thiết lập một hệ thống tiền tệ mới mà không cần bất kỳ thực thể trung ương nào.
+reviewed: true

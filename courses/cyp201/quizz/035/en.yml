@@ -1,10 +1,9 @@
-question: What is the size of a Bitcoin public key?
-answer: 512-bit number
+question: Which Bitcoin standard introduces hierarchical deterministic wallets?
+answer: BIP32
 wrong_answers:
-  - 256-bit number
-  - 128-bit number
-  - 1024-bit number
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  The unique private key is used to derive a 512-bit public key in the
-  Bitcoin system.
+  BIP32 defines the operation of HD wallets, allowing for the hierarchical derivation of private keys from a seed.
 reviewed: false

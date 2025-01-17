@@ -1,0 +1,13 @@
+question: Hvilket trinn i Chaumian CoinJoin-prosessen innebærer å endre identitet på Tor for å sikre anonymitet?
+
+answer: Registreringen av utdata.
+
+wrong_answers:
+  - Registreringen av inndata.
+  - Signeringen av transaksjonen.
+  - Kringkastingen av transaksjonen.
+
+explanation: |
+  For å forhindre at koordinatoren kan koble en spesifikk utdata med en inndata, endrer brukerne sin Tor-identitet før de sender sine klartekst mottaksadresser til koordinatoren.
+
+reviewed: false

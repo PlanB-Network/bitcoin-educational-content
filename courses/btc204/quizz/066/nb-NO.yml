@@ -1,0 +1,13 @@
+question: Hva innebærer konsolidering?
+
+answer: Å slå sammen flere innganger for å skape en enkelt større en.
+
+wrong_answers:
+  - Å dele en stor inngang inn i flere mindre.
+  - Å overføre innganger fra flere lommebøker til en enkelt.
+  - Å omfordele ubrukte innganger til nye adresser.
+
+explanation: |
+  Prinsippet med konsolidering er å utnytte perioder når gebyrene er lave på Bitcoin for å slå sammen mindre UTXOs til en enkelt større en.
+
+reviewed: false

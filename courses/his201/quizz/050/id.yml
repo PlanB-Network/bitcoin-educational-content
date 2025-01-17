@@ -1,0 +1,9 @@
+question: Siapa yang menciptakan platform pertukaran Mt. Gox pada tanggal 18 Juli 2010, seminggu setelah great slashdotting dari Bitcoin?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+  Dia menciptakan pasar efisien ini secara tiba-tiba, menyadari betapa sulitnya mendapatkan bitcoin dengan menukarkan dolar (terutama di Bitcoin Market).
+reviewed: false

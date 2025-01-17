@@ -1,10 +1,9 @@
-question: Kolik kol výpočtu se provádí ve kompresní funkci SHA256?
-answer: 64
+question: Kolik iterací používá PBKDF2 v Bitcoinu?
+answer: 2048
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  Ve kompresní funkci SHA256 se provádí 64 kol výpočtu.
-  Podobně jako v cyklistickém závodě, každé kolo zlepšuje pozici funkce.
+  PBKDF2 opakuje proces HMAC-SHA512 2048krát, aby zvýšil bezpečnost.
 reviewed: false

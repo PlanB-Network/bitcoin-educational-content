@@ -1,0 +1,9 @@
+question: Hvem overtok Satoshi programvareutviklingsansvaret til da han forlot prosjektet?
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation: |
+  Gavin hadde tidligere [uttalt](https: //bitcointalk.org/index.php?topic=2367.msg31651#msg31651) at han ville forvalte Bitcoin-prosjektet mer aktivt og hadde åpnet GitHub-repositoriet i desember 2010.
+reviewed: false

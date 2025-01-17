@@ -1,12 +1,12 @@
-question: Quel est l'outil principal utilisé par les mineurs dans le réseau Bitcoin aujourd'hui?
+question: Quel est l'outil principal utilisé par les mineurs dans le réseau Bitcoin aujourd'hui ?
 answer: ASICs
 wrong_answers:
   - CPUs
   - GPUs
   - FPGAs
 explanation: |
-  De nos jours, les mineurs utilisent exclusivement des ASICs dédiés à cette opération,
-  optimisés
-  pour tester le maximum de combinaisons avec la plus petite consommation d'énergie possible
-  et le plus rapidement possible.
-reviewed: false
+  De nos jours, les mineurs utilisent exclusivement des ASICs dédiés à cette
+  opération, optimisés pour tester le maximum de
+  combinaisons avec la plus petite consommation d'énergie possible
+  et aussi rapidement que possible.
+reviewed: true

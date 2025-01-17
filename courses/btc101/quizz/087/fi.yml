@@ -1,11 +1,13 @@
 question: Mikä on multisig-lompakko?
-answer: Joukko lompakoita, jotka vaativat useita allekirjoituksia tapahtuman suorittamiseen
+answer: Lompakkojen joukko, joka vaatii useita allekirjoituksia tapahtuman suorittamiseen.
 wrong_answers:
-  - Lompakko, joka vaatii yhden allekirjoituksen tapahtuman suorittamiseen
-  - Lompakko, joka ei vaadi allekirjoituksia tapahtuman suorittamiseen
-  - Lompakko, joka vaatii fyysisen allekirjoituksen tapahtuman suorittamiseen
+  - Lompakko, joka vaatii yhden allekirjoituksen tapahtuman suorittamiseen.
+  - Lompakko, joka ei vaadi allekirjoituksia tapahtuman suorittamiseen.
+  - Lompakko, joka vaatii fyysisen allekirjoituksen tapahtuman suorittamiseen.
 explanation: |
-  Multisig-lompakko on Bitcoin-lompakon tyyppi, joka vaatii useita
-  allekirjoituksia tapahtuman suorittamiseen. Tämä lisää ylimääräisen turvallisuustason, sillä se
-  tarkoittaa, että yksittäinen henkilö ei voi suorittaa tapahtumaa ilman muiden hyväksyntää.
-reviewed: false
+  Multisig-lompakko on tyyppi Bitcoin-lompakosta, joka vaatii
+  useita allekirjoituksia tapahtuman suorittamiseen. Tämä lisää
+  ylimääräisen turvallisuustason, sillä se tarkoittaa, että yksittäinen henkilö
+  ei voi suorittaa tapahtumaa ilman
+  muiden hyväksyntää.
+reviewed: true

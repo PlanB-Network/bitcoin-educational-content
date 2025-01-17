@@ -1,0 +1,9 @@
+question: ¿En qué fecha se creó la lista de correo de desarrollo de bitcoin?
+answer: 12 de junio de 2011
+wrong_answers:
+  - 13 de enero de 2011
+  - 7 de marzo de 2011
+  - 19 de septiembre de 2011
+explanation: |
+  Fue creada por el desarrollador Jeff Garzik, y permitió discusiones formales sobre los cambios que se harían en Bitcoin.
+reviewed: false

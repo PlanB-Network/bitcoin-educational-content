@@ -1,0 +1,11 @@
+question: 无法进入Whirlpool coinjoin池的UTXOs使用的账户名称是什么？
+
+answer: Doxxic change账户。
+
+wrong_answers:
+  - Postmix账户。
+  - Premix账户。
+  - 存款账户。
+
+explanation: |
+  无法加入池的零钱被隔离在“doxxic change”账户中，以确保与钱包中其他UTXOs的严格分离。

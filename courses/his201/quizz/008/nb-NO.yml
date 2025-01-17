@@ -1,0 +1,8 @@
+question: Hva var e-gold?
+answer: En digital valuta støttet av en tilsvarende mengde gull lagret i et hvelv
+wrong_answers:
+  - En valutaenhet i World of Warcraft-universet
+  - Et digitalt valutakonsept hvis utstedelse var basert på proof of work
+  - Et online utvekslingssystem for gullsmykker
+explanation: |
+  Systemet ble grunnlagt av Douglas Jackson og Barry Downey i 1996 og var tilgjengelig med en enkel nettleser.

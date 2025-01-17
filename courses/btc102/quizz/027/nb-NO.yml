@@ -1,0 +1,11 @@
+question: Hva betyr uforanderligheten til Bitcoin-blockchainen?
+answer: Den kan ikke endres over tid
+wrong_answers:
+  - Den kan ikke hackes
+  - Den kan ikke kopieres
+  - Den kan ikke slettes
+explanation: |
+  Uforanderligheten til Bitcoin-blockchainen betyr at når en transaksjon
+  har blitt registrert, kan den ikke endres eller slettes. Dette sikrer integriteten og
+  påliteligheten til blockchainen.
+reviewed: false

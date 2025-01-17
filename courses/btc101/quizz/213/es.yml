@@ -1,9 +1,12 @@
-question: ¿Cuál es el objetivo principal de la revolución de Bitcoin según el texto?
+question: ¿Cuál es el objetivo principal de la revolución de Bitcoin según este curso?
 answer: Crear un mundo donde la soberanía humana sea un derecho, la privacidad sea respetada por defecto y el dinero no sea manipulado.
 wrong_answers:
-  - Crear un mundo donde Bitcoin sea la única moneda.
-  - Crear un mundo donde los gobiernos no tengan control.
+  - Crear un mundo donde la privacidad no sea un derecho humano y el dinero sea manipulado por los bancos.
+  - Crear un mundo donde los gobiernos no tengan poder y la sociedad sea caótica.
   - Crear un mundo donde el dinero físico sea obsoleto.
 explanation: |
-  El texto sugiere que el objetivo principal de la revolución de Bitcoin es crear un mundo donde la soberanía humana sea un derecho, la privacidad sea respetada por defecto y el dinero no sea manipulado.
-reviewed: false
+  Este texto del curso sugiere que el objetivo principal de la
+  revolución de Bitcoin es crear un mundo donde la soberanía
+  humana sea un derecho, la privacidad sea respetada por defecto,
+  y el dinero no sea manipulado.
+reviewed: true

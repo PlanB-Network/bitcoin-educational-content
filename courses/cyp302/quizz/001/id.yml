@@ -1,0 +1,9 @@
+question: Apa yang terkandung dalam kotak besi yang diserahkan kepada Robert Morriss?
+answer: Tiga teks terenkripsi dan sebuah catatan
+wrong_answers:
+  - Sebuah peta dan petunjuk
+  - Kunci enkripsi unik
+  - Sebuah daftar nama tunggal
+explanation: |
+  Kotak tersebut berisi tiga teks terenkripsi dan sebuah catatan yang menjelaskan penemuan sebuah harta karun dan memberikan instruksi tentang cara mengambil isiannya.
+reviewed: false

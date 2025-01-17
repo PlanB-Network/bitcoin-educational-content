@@ -1,0 +1,9 @@
+question: Bagaimana Jaringan Lightning berpotensi mentransformasi model bisnis yang ada di industri video game?
+answer: Ini memungkinkan pemain untuk bertaruh dengan jumlah uang yang sangat kecil saat bermain game
+wrong_answers:
+  - Ini memungkinkan pemain untuk menambang Bitcoin saat bermain game
+  - Ini memungkinkan pengembang game untuk menerima Bitcoin sebagai pembayaran untuk game mereka
+  - Ini memungkinkan pemain untuk membeli item dalam game dengan Bitcoin
+explanation: >-
+  Jaringan Lightning memungkinkan pemain untuk bertaruh dengan jumlah uang yang sangat kecil saat bermain game, seperti beberapa satoshi. Ini memungkinkan untuk pembentukan taruhan yang merangsang persaingan sambil secara signifikan meningkatkan biaya untuk mengerahkan bot.
+reviewed: false

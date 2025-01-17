@@ -1,0 +1,10 @@
+question: I hvilket tilfelle ble en tilsvarende daglig inflasjonsrate på 100% inflasjon observert?
+answer: I Zimbabwe, 2007
+wrong_answers:
+  - I Ungarn, 1945
+  - I Kina, 1940
+  - Dette er et urealistisk tilfelle som ikke kan skje
+explanation: |
+  100% inflasjon per dag er et realistisk scenario som har skjedd i Zimbabwe i 2007, ettersom
+  pengeverdien doblet seg omtrent hver 24. time. 
+reviewed: true

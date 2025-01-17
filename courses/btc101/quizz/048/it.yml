@@ -1,10 +1,12 @@
 question: Qual è la conseguenza dell'iperinflazione?
-answer: Una drastica diminuzione del valore della valuta
+answer: Una drastica diminuzione del valore della valuta.
 wrong_answers:
-  - Una sottile diminuzione del valore della valuta
-  - Una drastica aumento del valore della valuta
-  - Una sottile aumento del valore della valuta
+  - Una piccola diminuzione del valore della valuta.
+  - Un drastico aumento del valore della valuta.
+  - Un piccolo aumento del valore della valuta.
 explanation: |
-  A causa dell'iperinflazione, gli individui perdono rapidamente completamente fiducia nella valuta
-  ciò porta a una drastica diminuzione del valore della valuta nel giro di poco tempo.
-reviewed: false
+  A causa dell'iperinflazione, gli individui perdono rapidamente
+  completamente la fiducia nella valuta, il che porta a
+  una drastica diminuzione del suo valore in un breve periodo di
+  tempo.
+reviewed: true

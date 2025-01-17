@@ -1,9 +1,9 @@
-question: Pourquoi Alice a-t-elle besoin de la signature de Bob avant de publier les transactions pour ouvrir un canal ?
-answer: Pour s'assurer qu'elle peut récupérer ses fonds seule en cas de problème.
+question: Que reflète une transaction d'engagement dans un canal Lightning ?
+answer: La nouvelle répartition des fonds entre les deux parties
 wrong_answers:
-  - Pour confirmer l'accord de Bob pour ouvrir le canal.
-  - Pour vérifier l'identité de Bob.
-  - Pour chiffrer les transactions pour des raisons de sécurité.
+  - Le nombre total de transactions effectuées
+  - Le montant de frais à payer pour la transaction
+  - L'ouverture d'un nouveau canal de paiement
 explanation: |
-  Alice demande à Bob une signature avec sa clé publique avant de publier les transactions. Cela permet de s'assurer qu'elle peut récupérer ses fonds seule en cas de problème, car elle dispose déjà de la signature de Bob.
+  Une transaction d'engagement représente la répartition actuelle des fonds dans le canal après chaque transaction Lightning, mais n'est pas publiée sur la blockchain tant que le canal reste ouvert.
 reviewed: false

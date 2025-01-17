@@ -1,0 +1,9 @@
+question: Apa keuntungan utama emas sebagai mata uang?
+answer: Sangat tahan lama
+wrong_answers:
+  - Mudah dibagi atau diangkut jarak jauh
+  - Mudah diverifikasi
+  - Tidak diatur oleh pemerintah
+explanation: |
+  Meskipun emas tidak mudah dibagi atau diangkut jarak jauh, hal ini membuatnya menjadi penyimpan nilai yang baik, tetapi bukan mata uang umum saat ini.
+reviewed: true

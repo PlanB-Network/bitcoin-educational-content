@@ -1,0 +1,21 @@
+name: Bitaxe
+
+links:
+  website: https://bitaxe.org/
+  twitter: https://x.com/skot9000
+
+tags:
+  - mining
+  - hardware
+
+category: mining
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-12-11
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

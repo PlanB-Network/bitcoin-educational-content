@@ -1,0 +1,11 @@
+question: Kuidas arvutatakse entroopiat Bitcoin'i ahela analüüsi kontekstis?
+
+answer: Võttes binaarlogaritmi interpretatsioonide arvust.
+
+wrong_answers:
+  - Korrutades sisendite arvu väljundite arvuga.
+  - Lisades sisendite ja väljundite arvu.
+  - Võttes binaarlogaritmi sisendite ja väljundite arvust.
+
+explanation: |
+  Entroopia on defineeritud kui binaarlogaritm võimalike kombinatsioonide arvust.

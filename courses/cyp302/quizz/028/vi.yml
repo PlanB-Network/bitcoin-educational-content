@@ -1,0 +1,9 @@
+question: Kết quả của 0 XOR 1 là gì?
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  Với XOR, 0 XOR 1 cho kết quả là 1 vì các bit khác nhau.
+reviewed: false

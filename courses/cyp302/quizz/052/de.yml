@@ -1,0 +1,9 @@
+question: Welche Rolle spielt ein irreduzibles Polynom in einem endlichen Körper?
+answer: Definiert die Multiplikationsoperationen im Körper
+wrong_answers:
+  - Definiert das additive Inverse jedes Elements
+  - Stellt die Abgeschlossenheit des Körpers sicher
+  - Bestimmt das multiplikative Einselement
+explanation: |
+  Irreduzible Polynome werden verwendet, um die Multiplikation in endlichen Körpern zu strukturieren und sicherzustellen, dass jedes Element innerhalb des Körpers bleibt.
+reviewed: false

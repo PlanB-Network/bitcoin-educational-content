@@ -1,0 +1,8 @@
+question: Apa peran otoritas sertifikat dalam proses distribusi kunci publik?
+answer: Mereka menerbitkan sertifikat yang menjamin keaslian kunci publik
+wrong_answers:
+  - Mereka menghasilkan kunci privat untuk pengguna
+  - Mereka menyimpan kunci publik untuk semua pengguna
+  - Mereka memastikan enkripsi pesan antar pengguna
+explanation: |
+  Otoritas sertifikat menerbitkan sertifikat yang menghubungkan kunci publik dengan pemiliknya, memungkinkan pengguna untuk memverifikasi keaslian kunci publik yang mereka gunakan.

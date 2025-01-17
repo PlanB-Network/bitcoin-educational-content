@@ -1,9 +1,13 @@
-question: Qual è uno dei potenziali vantaggi della Lightning Network per i creatori di contenuti?
-answer: Sarebbero incentivati a produrre contenuti di qualità per mantenere l'attenzione degli utenti.
+question: Qual è uno dei potenziali benefici della Lightning Network per i creatori di contenuti?
+answer: Sarebbero incentivati a produrre contenuti di buona qualità per mantenere l'attenzione degli utenti.
 wrong_answers:
-  - Sarebbero in grado di addebitare di più per i loro contenuti.
+  - Sarebbero in grado di chiedere di più per i loro contenuti.
   - Sarebbero in grado di raggiungere un pubblico più ampio.
-  - Sarebbero in grado di produrre contenuti più velocemente.
+  - Sarebbero in grado di produrre contenuti più rapidamente per mantenere l'attenzione degli utenti.
 explanation: |
-  Con la Lightning Network, i creatori di contenuti sarebbero incentivati a produrre contenuti di qualità per mantenere l'attenzione degli utenti. Gli utenti, a loro volta, pagherebbero solo per i contenuti che consumano, eliminando così le spese di abbonamento anticipato.
-reviewed: false
+  Con la Lightning Network, i creatori di contenuti sarebbero
+  incentivati a produrre contenuti di buona qualità per mantenere
+  l'attenzione degli utenti. Gli utenti, a loro volta, pagherebbero solo per i
+  contenuti che consumano, eliminando così le tariffe di abbonamento
+  anticipate.
+reviewed: true

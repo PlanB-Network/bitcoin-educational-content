@@ -1,0 +1,14 @@
+question: Miks on Proof of Work Bitcoini võrgus hädavajalik?
+answer: See esindab füüsilist sidet reaalse maailma ja Bitcoini vahel, nõudes bitcoiinide ja plokkide tootmiseks ning valideerimiseks käegakatsutavat energiat.
+wrong_answers:
+  - See võimaldab kaevurite väiksemahulist osalust, eriti kõrge tsensuuriga piirkondades.
+  - See tagab kaitse tsentraliseerimise vastu.
+  - See peegeldab olemasolevaid võimuerinevusi ühiskonnas.
+explanation: |
+  Proof of Work on Bitcoini võrgus hädavajalik, kuna
+  see esindab füüsilist sidet reaalse maailma ja
+  Bitcoini vahel. Bitcoiinide ja plokkide tootmine ning
+  valideerimine nõuab käegakatsutavat energiat, ankurdamaks Bitcoini
+  võrku füüsilisse reaalsusesse ja hoidmaks ära selle täieliku
+  domineerimise võimsate entiteetide poolt.
+reviewed: true

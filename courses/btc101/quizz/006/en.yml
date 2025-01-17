@@ -1,12 +1,14 @@
-question: What is the main goal of learning to use Bitcoin?
-answer: To be in control of your own money.
+question: What is the main advantage of learning to use Bitcoin?
+answer: To understand how to be in control of your own money.
 wrong_answers:
-  - To become a Bitcoin miner.
-  - To create a new Bitcoin protocol.
+  - To study how to debate with economists.
+  - To create a new crypto protocol.
   - To regulate the price of Bitcoin.
 explanation: |
-  Learning to use Bitcoin is an essential skill for anyone who wants to
-  be in control of their own money. It allows you to buy and sell goods and services,
-  securely store your money in digital wallets, and use it for transactions without the need
-  of third party.
+  Learning to use Bitcoin is essential for anyone who wants
+  to be in control of their own money. In fact, Bitcoin
+  allows individuals to buy/sell goods and services by
+  creating transactions without the need of a third party.
+  Besides, it gives the possibility to securely store money
+  in non-custodial digital wallets.
 reviewed: true

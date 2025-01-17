@@ -1,0 +1,8 @@
+question: Wer ist der Autor von I, Pencil und wer hat auch Bastiats Das Gesetz ins Englische übersetzt?
+answer: Leonard Read
+wrong_answers:
+  - Leonard Nimoy
+  - Leonard Cohen
+  - Milton Friedman
+explanation: |
+  Leonard Read ist bekannt dafür, Bastiats Das Gesetz ins Englische übersetzt und seine Arbeiten durch die Foundation for Economic Education popularisiert zu haben.

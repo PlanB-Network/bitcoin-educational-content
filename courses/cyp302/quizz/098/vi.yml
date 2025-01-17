@@ -1,0 +1,9 @@
+question: MAC giúp ngăn chặn việc làm giả thông điệp bởi kẻ tấn công như thế nào?
+answer: Bằng cách cho phép xác minh rằng thông điệp nhận được không bị thay đổi
+wrong_answers:
+  - Bằng cách ngăn chặn các cuộc tấn công kiểu brute-force
+  - Bằng cách che giấu nội dung thông điệp
+  - Bằng cách tự động chặn các thông điệp đáng ngờ
+explanation: |
+  MAC cho phép người nhận xác minh rằng một thông điệp không bị chỉnh sửa thông qua một thẻ được tạo ra với một khóa bí mật chia sẻ, giới hạn khả năng thao túng.
+reviewed: false

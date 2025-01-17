@@ -1,0 +1,9 @@
+question: Jaká velikost klíče je považována za bezpečnou proti útokům hrubou silou u moderního šifrování?
+answer: 128 bitů
+wrong_answers:
+  - 16 bitů
+  - 64 bitů
+  - 100 bitů
+explanation: |
+  S klíčem o velikosti alespoň 128 bitů je moderní šifrování v současnosti považováno za bezpečné proti útokům hrubou silou, jelikož počet pokusů by byl nerealistický.
+reviewed: false

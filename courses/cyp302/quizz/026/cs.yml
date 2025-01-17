@@ -1,0 +1,9 @@
+question: Jaká je ekvivalence operace XOR s operací modulo?
+answer: XOR je ekvivalentní operaci modulo 2 na bitech
+wrong_answers:
+  - XOR je ekvivalentní klasickému odečítání modulo 3
+  - XOR je ekvivalentní operaci modulo 7 na bitech
+  - XOR je inverzí sčítání
+explanation: |
+  Operace XOR lze chápat jako sčítání bitů s modulo 2, což dělá výsledky identickými.
+reviewed: false

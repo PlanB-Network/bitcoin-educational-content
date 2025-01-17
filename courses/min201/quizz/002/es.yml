@@ -1,10 +1,16 @@
-question: ¿Cuál es la principal diferencia entre una CPU y un ASIC en el contexto de la minería de Bitcoin?
-answer: Una CPU puede realizar una multitud de diferentes tipos de cálculos sin estar particularmente optimizada para un tipo de cálculo en particular, mientras que un ASIC solo puede realizar un tipo de cálculo, pero de manera muy eficiente.
+question: ¿Cuál es la principal diferencia entre un CPU y un ASIC en el contexto de la minería de Bitcoin?
+answer: Un CPU puede realizar una multitud de diferentes tipos de cálculos sin estar particularmente optimizado para un tipo de cálculo, mientras que un ASIC solo puede realizar un tipo de cálculo, pero de manera muy eficiente.
 wrong_answers:
-  - Una CPU es más eficiente en términos de energía que un ASIC.
-  - Un ASIC es más versátil que una CPU.
-  - Una CPU solo puede realizar un tipo de cálculo, mientras que un ASIC puede realizar una multitud de diferentes tipos de cálculos.
+  - Un CPU es más eficiente en energía que un ASIC
+  - Un ASIC es más versátil que un CPU
+  - Un CPU solo puede realizar un tipo de cálculo, mientras que un ASIC puede realizar una multitud de diferentes tipos de cálculos
 explanation: |
-  Los ASIC son chips, comparables a un chip de CPU, sin embargo, están desarrollados para realizar solo un tipo específico de cálculo de la manera más eficiente posible.
-  En otras palabras, una CPU es capaz de realizar una multitud de diferentes tipos de cálculos sin estar particularmente optimizada para un tipo de cálculo u otro, mientras que un ASIC solo podrá realizar un tipo de cálculo, pero de manera muy eficiente.
-reviewed: false
+  Los ASICs son chips, comparables a un chip de CPU, sin embargo,
+  están desarrollados para realizar solo un tipo específico de
+  cálculo de la manera más eficiente posible. En otras
+  palabras, un CPU es capaz de realizar una multitud de
+  diferentes tipos de cálculos sin estar particularmente
+  optimizado para un tipo de cálculo u otro, mientras que
+  un ASIC será capaz de realizar solo un tipo de
+  cálculo, pero de manera muy eficiente.
+reviewed: true

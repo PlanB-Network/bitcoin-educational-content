@@ -1,9 +1,9 @@
-question: Qual è la tecnologia utilizzata nel Bitcoin Wallet per proteggere i fondi spesi nel Bitcoin Wallet?
-answer: Crittografia a curva ellittica
+question: Qual è la tecnologia utilizzata per spendere fondi in modo sicuro utilizzando un Portafoglio Bitcoin?
+answer: Crittografia a curve ellittiche.
 wrong_answers:
-  - Crittografia simmetrica
-  - Crittografia quantistica
-  - Crittografia RSA
+  - Crittografia simmetrica.
+  - Crittografia quantistica.
+  - Crittografia RSA.
 explanation: |
-  Per spendere i Bitcoin, il proprietario deve utilizzare le Curve Ellittiche per creare una firma per una transazione Bitcoin.
-reviewed: false
+  Per spendere Bitcoin, il proprietario deve utilizzare l'Algoritmo di Firma Digitale a Curve Ellittiche (ECDSA) per forgiare una firma per la propagazione di una transazione Bitcoin.
+reviewed: vero

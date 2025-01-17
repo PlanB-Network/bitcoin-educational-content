@@ -1,0 +1,9 @@
+question: Was ist die korrekte Reihenfolge der Operationen bei der authentifizierten Verschlüsselung?
+answer: Zuerst verschlüsseln, dann ein Tag für den verschlüsselten Text erstellen
+wrong_answers:
+  - Zuerst ein Tag erstellen, dann die Nachricht und das Tag verschlüsseln
+  - Den Klartext mit einem Tag kombinieren, dann verschlüsseln
+  - Ein Tag erstellen, dann mit einem öffentlichen Schlüssel verschlüsseln
+explanation: |
+  Um die Sicherheit zu gewährleisten, muss bei der authentifizierten Verschlüsselung zuerst die Nachricht verschlüsselt und dann ein Tag für den verschlüsselten Text generiert werden. Andere Reihenfolgen sind potenziell anfällig.
+reviewed: false

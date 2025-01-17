@@ -1,11 +1,9 @@
-question: Co se stane s transakcí výběru po převodu přes Lightning Network?
-answer: Je aktualizována tak, aby odrážela nový zůstatek kanálu.
+question: Jaký je kombinovaný efekt časového zámku a klíče pro zrušení na transakce závazku?
+answer: Odradí účastníky od podvádění tím, že nabízí okamžitý trest
 wrong_answers:
-  - Je provedena a prostředky jsou převedeny.
-  - Je zahozena a vytvořena nová transakce.
-  - Zůstává stejná.
+  - Sníží kapacitu kanálu v případě podvádění
+  - Automaticky zamknou finanční prostředky vinné strany
+  - Nutí otevření nového kanálu, pokud je transakce nesprávná
 explanation: |
-  Po převodu přes Lightning Network je transakce výběru aktualizována,
-  aby odrážela nový zůstatek kanálu. Tato transakce není provedena, pokud
-  není kanál uzavřen.
+  Časový zámek a klíč pro zrušení odradí účastníky od podvádění tím, že zajistí, že jakýkoliv pokus o podvod vyústí v okamžitou ztrátu finančních prostředků pro vinnou stranu.
 reviewed: false

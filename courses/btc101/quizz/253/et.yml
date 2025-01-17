@@ -1,0 +1,9 @@
+question: Mis on üks peamisi Bitcoin protokolli omadusi?
+answer: See on neutraalne kõigi oma kasutajate suhtes.
+wrong_answers:
+  - See eelistab teatud kasutajaid teiste ees.
+  - See on kallutatud teatud kasutajate poole.
+  - See toob kasu ainult valitud kasutajate grupile.
+explanation: >-
+  Tekstis mainitakse, et Bitcoin protokoll on neutraalne kõigi oma
+  kasutajate suhtes.

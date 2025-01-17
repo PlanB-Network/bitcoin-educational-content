@@ -1,0 +1,9 @@
+question: Tại sao mật khẩu thường được lưu trữ dưới dạng băm trên các máy chủ an toàn?
+answer: Để ngăn chặn việc mật khẩu được truy xuất một cách dễ dàng trong trường hợp bị rò rỉ
+wrong_answers:
+  - Để tăng kích thước lưu trữ dữ liệu của người dùng
+  - Để mã hóa mật khẩu theo thời gian thực một cách đối xứng
+  - Để cho phép người dùng đăng nhập mà không cần mật khẩu
+explanation: |
+  Bằng cách lưu trữ băm mật khẩu, ngay cả trong trường hợp bị rò rỉ dữ liệu, mật khẩu thực tế không thể được đọc trực tiếp, do đó tăng cường an ninh.
+reviewed: false

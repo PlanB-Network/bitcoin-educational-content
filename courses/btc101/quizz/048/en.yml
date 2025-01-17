@@ -1,10 +1,12 @@
 question: What is the consequence of hyperinflation?
-answer: A drastic decrease in the value of the currency
+answer: A drastic decrease in the value of the currency.
 wrong_answers:
-  - A subtle decrease in the value of the currency
-  - A drastic increase in the value of the currency
-  - A subtle increase in the value of the currency
+  - A small decrease in the value of the currency.
+  - A drastic increase in the value of the currency.
+  - A small increase in the value of the currency.
 explanation: |
-  Because of hyperinflation, individuals have rapidly a complete loss of confidence in the currency 
-  which leads to a drastic decrease in the value of the currency over a short period of time.
+  Because of hyperinflation, individuals rapidly have a
+  complete loss of confidence in the currency, which leads to
+  a drastic decrease in its value over a short period of
+  time.
 reviewed: true

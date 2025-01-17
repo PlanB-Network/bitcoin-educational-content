@@ -1,9 +1,12 @@
-question: Come viene ricompensato il minatore che trova un hash valido per il prossimo blocco nel protocollo Bitcoin?
-answer: Con una ricompensa definita dalle regole di consenso e le commissioni di transazione di tutte le transazioni incluse nel blocco valido.
+question: Come premia il protocollo Bitcoin il minatore che trova un hash valido per il blocco successivo?
+answer: Con un premio definito dalle regole di consenso, e con le commissioni di tutte le transazioni incluse nel blocco valido.
 wrong_answers:
-  - Con una quantità fissa di Bitcoin
-  - Con una percentuale dell'offerta totale di Bitcoin
-  - Con le commissioni di transazione di tutte le transazioni incluse nel blocco valido
+  - Con un importo fisso di bitcoin non definito dalle regole di consenso.
+  - Con una percentuale del totale dell'offerta di Bitcoin e le commissioni di tutte le transazioni incluse nei blocchi precedenti.
+  - Con le commissioni di tutte le transazioni incluse nel blocco valido.
 explanation: |
-  Il protocollo Bitcoin ricompensa il minatore che trova un hash valido per il prossimo blocco con una ricompensa il cui importo è definito dalle regole di consenso, così come le commissioni di transazione di tutte le transazioni incluse nel blocco valido.
-reviewed: false
+  Il protocollo Bitcoin premia il minatore che trova un hash valido
+  per il blocco successivo con un premio il cui importo è
+  definito dalle regole di consenso, insieme alle commissioni di
+  tutte le transazioni incluse nel blocco valido.
+reviewed: true

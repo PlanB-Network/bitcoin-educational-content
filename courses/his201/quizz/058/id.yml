@@ -1,0 +1,9 @@
+question: Dalam unit apa kecepatan hash jaringan diukur selama paruh kedua tahun 2010?
+answer: Dalam GH/s
+wrong_answers:
+  - Dalam MH/s
+  - Dalam TH/s
+  - Dalam PH/s
+explanation: |
+  Kecepatan hash meningkat dari 1,35 GH/s pada 13 Juli menjadi 120 GH/s pada 31 Desember 2010.
+reviewed: false

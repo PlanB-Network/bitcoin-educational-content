@@ -1,9 +1,0 @@
-question: ¿Qué sucede con la liquidez de un canal cuando se realiza una transacción en la Red Lightning?
-answer: La liquidez se redistribuye a lo largo de la ruta entre las dos partes.
-wrong_answers:
-  - La liquidez permanece igual.
-  - La liquidez se transfiere a otro canal.
-  - La liquidez se incrementa.
-explanation: |
-  En la Red Lightning, cuando se realiza una transacción, la liquidez se redistribuye a lo largo de la ruta entre las dos partes.
-reviewed: false

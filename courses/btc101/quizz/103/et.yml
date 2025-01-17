@@ -1,0 +1,11 @@
+question: Mis on bitcoini pärandiplaani loomise eesmärk?
+answer: Tagada, et teie bitcoinid oleksid pärast teie surma korrektselt hallatud
+wrong_answers:
+  - Vältida oma bitcoinidele maksude tasumist
+  - Suurendada oma bitcoinide väärtust
+  - Hoida ära oma bitcoinide varguse
+explanation: |
+  Pärandiplaan tagab, et teie bitcoinid oleksid pärast teie surma korrektselt hallatud.
+  See võib sisaldada käsitsi kirjutatud kirja, milles on detailid teie varade, nende
+  juurdepääsumeetodite ja usaldusväärsete isikute kontaktinfo kohta, keda tuleks kontaktida.
+reviewed: true

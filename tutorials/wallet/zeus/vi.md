@@ -1,5 +1,5 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: Ví tự quản lý đa nút
 ---

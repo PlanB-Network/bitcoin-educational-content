@@ -1,0 +1,11 @@
+question: Apa itu dompet dingin?
+answer: Dompet fisik di mana kunci Anda disimpan pada perangkat yang tidak terhubung ke internet
+wrong_answers:
+  - Dompet yang secara fisik dingin saat disentuh
+  - Dompet yang tidak populer di antara pengguna Bitcoin
+  - Dompet yang direkomendasikan untuk menyimpan jumlah bitcoin yang kecil
+explanation: |
+  Dompet dingin adalah istilah yang digunakan untuk menggambarkan dompet Bitcoin yang disimpan
+  pada perangkat yang tidak terhubung ke internet. Hal ini membuatnya kurang rentan
+  terhadap ancaman online, tetapi juga berarti bahwa dompet tersebut kurang mudah diakses untuk transaksi sehari-hari.
+reviewed: true

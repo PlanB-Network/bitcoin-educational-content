@@ -1,0 +1,9 @@
+question: Hva er Uavhengighetserklæringen for Cyberspace?
+answer: En tekst som hevder at cyberspace er et eget rike adskilt fra den fysiske sfæren og ikke bør være underlagt de samme lovene.
+wrong_answers:
+  - En erklæring om Bitcoins uavhengighet fra tradisjonelle finanssystemer.
+  - En tekst som hevder at internettet bør være fritt for statlig regulering.
+  - En erklæring om piratbevegelsens uavhengighet fra enhver regulering.
+explanation: |
+  Uavhengighetserklæringen for Cyberspace ble skrevet av John Perry Barlow i 1996, og hevder at cyberspace er et eget rike adskilt fra den fysiske sfæren der industrielle regjeringer ikke kan håndheve sin autoritet.
+reviewed: true

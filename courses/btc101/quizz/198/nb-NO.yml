@@ -1,0 +1,8 @@
+question: Hva er en av tingene du bør ha før du kjøper Bitcoin?
+answer: En sikker lommebok.
+wrong_answers:
+  - Et fysisk pengeskap.
+  - En bankkonto.
+  - Et kredittkort.
+explanation: >-
+  Teksten nevner at før du kjøper Bitcoin, bør du ha en sikker lommebok. Dette er hvor du vil lagre din Bitcoin.

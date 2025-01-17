@@ -1,9 +1,0 @@
-question: Lightning Networkを使用して高速な取引を実現するP2Pソリューションはどれですか？
-answer: RoboSat
-wrong_answers:
-  - Bisq
-  - Peach
-  - HodlHodl
-explanation: |
-  この章では、RoboSatがLightning Networkを使用して高速な取引を可能にすると述べられています。
-reviewed: false

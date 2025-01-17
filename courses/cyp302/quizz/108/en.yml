@@ -1,0 +1,9 @@
+question: Why is an authenticated encryption scheme alone insufficient in a communication session?
+answer: It does not guarantee that the message was sent by the sender at the time of the session.
+wrong_answers:
+  - It uses keys that are too short.
+  - It does not encrypt messages sent at the time of the session.
+  - It does not allow for the authentication of the sender at the time of the session.
+explanation: |
+  An authenticated encryption scheme does not protect against attacks such as replay, reordering, and reflection without the addition of indicators like identifiers and sequence numbers.
+reviewed: false

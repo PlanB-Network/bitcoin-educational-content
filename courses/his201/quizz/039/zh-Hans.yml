@@ -1,0 +1,8 @@
+question: 2010年，谁首次实现了使用图形处理单元（GPU）进行挖矿？
+answer: Laszlo Hanyecz
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Nils Schneider
+explanation:
+  2010年4月，他使用OpenCL环境使GPU参与比特币挖矿。5月10日，他在论坛上[发布](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100)了他的可执行文件。

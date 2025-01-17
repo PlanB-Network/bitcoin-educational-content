@@ -1,11 +1,11 @@
-question: Jak je Bitcoin vnímán ve vztahu k fiat měnám?
-answer: Paralelní ekonomika
+question: Jak je Bitcoin vnímán ve srovnání s fiat měnami?
+answer: Jako paralelní ekonomika.
 wrong_answers:
-  - Náhradní ekonomika
-  - Sekundární ekonomika
-  - Terciární ekonomika
+  - Jako náhradní ekonomika.
+  - Jako průmyslová ekonomika.
+  - Jako terciární ekonomika.
 explanation: >-
   Bitcoin je vnímán jako paralelní ekonomika k fiat měnám, což znamená, že
   funguje vedle tradičních ekonomik a může být použit pro transakce přímo,
   bez nutnosti procházet přes výměnnou platformu.
-reviewed: false
+reviewed: true

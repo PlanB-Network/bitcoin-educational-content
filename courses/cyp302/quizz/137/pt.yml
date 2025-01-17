@@ -1,0 +1,8 @@
+question: Por que as senhas são frequentemente armazenadas como hashes em servidores seguros?
+answer: Para impedir que as senhas sejam facilmente recuperadas em caso de vazamento
+wrong_answers:
+  - Para aumentar o tamanho do armazenamento de dados do usuário
+  - Para criptografar senhas em tempo real de maneira simétrica
+  - Para permitir que os usuários façam login sem uma senha
+explanation: |
+  Ao armazenar hashes de senhas, mesmo no caso de uma violação de dados, as senhas reais não podem ser lidas diretamente, aumentando assim a segurança.

@@ -1,0 +1,9 @@
+question: Tên của cuốn sách của Adam Smith là gì?
+answer: An Inquiry into the Nature and Causes of the Wealth of Nations.
+wrong_answers:
+  - An Inquiry into the Nature and Spirit of the Wealth of Nations.
+  - An Inquiry into the Nature and Origins of the Wealth of Nations.
+  - An Inquiry into the Cause and Origins of the Wealth of Nations.
+explanation: |
+  Tên đầy đủ của cuốn sách của Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, nêu bật phân tích của ông về các yếu tố đóng góp vào sự thịnh vượng kinh tế, khám phá các cơ chế sản xuất và phân phối của sự giàu có.
+reviewed: false

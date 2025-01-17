@@ -1,0 +1,9 @@
+question: Trong một nhóm, phần tử duy nhất được gọi là gì mà, khi áp dụng vào một phần tử khác, không làm thay đổi nó?
+answer: Phần tử đồng nhất
+wrong_answers:
+  - Phần tử nghịch đảo
+  - Phần tử giao hoán
+  - Phần tử kết hợp
+explanation: |
+  Phần tử đồng nhất của một nhóm là phần tử duy nhất mà, khi được áp dụng vào một phần tử khác, để nó không thay đổi. Ví dụ, trong nhóm các số nguyên dưới phép cộng, phần tử đồng nhất là 0.
+reviewed: false

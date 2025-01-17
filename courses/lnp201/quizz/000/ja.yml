@@ -1,8 +1,9 @@
-question: Lightning支払いチャネルで一度に送信できるBitcoinの最大量はいくらですか？
-answer: ユーザーが事前に定義した固定容量
+question: Lightning Networkの主な目標は何ですか？
+answer: Bitcoinのスケーラビリティを向上させ、迅速かつ低コストの支払いを可能にすること
 wrong_answers:
-  - 二人のユーザーが所有するBitcoinの総量
-  - Lightningネットワーク全体のBitcoinの総量
-  - そのチャネルでこれまでに取引されたBitcoinの総量
+  - Bitcoinブロックチェーン上の取引手数料を排除する
+  - 高額支払い用のBitcoinの代替を作成する
+  - 異なる暗号通貨間の交換を簡素化する
 explanation: |
-  Lightning支払いチャネルが開設されると、ユーザーが事前に定義した固定容量が設定されます。この容量は、そのチャネルで一度に送信できるBitcoinの最大量を表しています。
+  Lightning Networkは、オフチェーンの支払いチャネルを通じて、迅速かつ安価な取引を可能にすることで、Bitcoinのスケーラビリティを強化することを目指しています。
+reviewed: false

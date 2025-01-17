@@ -309,9 +309,14 @@ Estos puntos de entrada son casi inevitables en el uso de Bitcoin. Aunque uno pu
 Así, también es necesario poder enfrentarse al análisis de blockchain en nuestro uso de Bitcoin. Procediendo de esta manera, podemos minimizar la agregación de nuestras actividades y limitar el impacto de un punto de entrada en nuestra privacidad.
 ![BTC204](assets/notext/31/5.webp)
 
-Precisamente, para contrarrestar mejor el análisis de blockchain, ¿qué mejor enfoque que familiarizarse con los métodos utilizados en el análisis de blockchain? Si quieres saber cómo mejorar tu privacidad en Bitcoin, debes entender estos métodos. Esto te permitirá comprender mejor técnicas como [coinjoin](https://planb.network/es/tutorials/privacy/coinjoin-samourai-wallet) o [payjoin](https://planb.network/es/tutorials/privacy/payjoin) (técnicas que estudiaremos en las últimas partes de la formación), y reducir los errores que podrías cometer.
 
-En esto, podemos hacer una analogía con la criptografía y el criptoanálisis. Un buen criptógrafo es, ante todo, un buen criptoanalista. Para imaginar un nuevo algoritmo de encriptación, es necesario saber a qué ataques se enfrentará y también estudiar por qué se rompieron los algoritmos anteriores. El mismo principio se aplica a la privacidad en Bitcoin. Entender los métodos de análisis de blockchain es la clave para protegerse contra él. Es por eso que propongo una sección completa sobre análisis de blockchain en esta formación.
+De hecho, para contrarrestar mejor el análisis de blockchain, ¿qué mejor enfoque que familiarizarse con los métodos utilizados en el análisis de blockchain? Si quieres saber cómo mejorar tu privacidad en Bitcoin, debes entender estos métodos. Esto te permitirá comprender mejor técnicas como coinjoin o payjoin (técnicas que estudiaremos en las últimas partes de la formación), y reducir los errores que podrías cometer.
+En esto, podemos hacer una analogía con la criptografía y el criptoanálisis. Un buen criptógrafo es, ante todo, un buen criptoanalista. Para imaginar un nuevo algoritmo de encriptación, uno debe saber a qué ataques se enfrentará y también estudiar por qué se rompieron los algoritmos anteriores. El mismo principio se aplica a la privacidad en Bitcoin. Entender los métodos de análisis de blockchain es la clave para protegerse contra él. Es por eso que propongo una sección completa sobre análisis de blockchain en esta formación.
+
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Los métodos de análisis de blockchain
 
@@ -1182,7 +1187,7 @@ Todos estos métodos de selección automática de UTXO pueden ser eficaces para 
 
 Si quieres saber cómo etiquetar tus UTXOs, hemos hecho un tutorial completo sobre los principales softwares de monedero de Bitcoin existentes:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 
 ## KYC y Identificación Clave
@@ -1324,20 +1329,33 @@ Una vez más, recomiendo no realizar grandes intercambios en una sola transacci�
 
 En cuanto a soluciones, personalmente siempre he usado [Bisq](https://bisq.network/) y estoy muy satisfecho con ello. Su sistema está bien establecido y parece confiable. Sin embargo, Bisq solo está disponible en PC y su interfaz puede ser demasiado compleja para principiantes. Otro inconveniente es que Bisq opera únicamente con transacciones onchain, lo que puede resultar costoso durante períodos de altas tarifas de transacción en Bitcoin.
 
-[-> Descubre nuestro tutorial sobre Bisq.](https://planb.network/es/tutorials/exchange/bisq)
+-> Descubre nuestro tutorial sobre Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
 
 Para una opción más sencilla, puedes probar [Peach](https://peachbitcoin.com/), una aplicación móvil que facilita la conexión entre compradores y vendedores con un sistema integrado de resolución de disputas. El proceso es más intuitivo que el de Bisq.
 
 [-> Descubre nuestro tutorial sobre Peach.](https://planb.network/es/tutorials/exchange/peach-wallet)
 
-Otra opción en línea es [HodlHodl](https://hodlhodl.com/), una plataforma bien establecida que ofrece buena liquidez, aunque personalmente no la he probado.
 
-[-> Descubre nuestro tutorial sobre HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+-> Descubre nuestro tutorial sobre Peach.
+Otra opción en línea es [HodlHodl](https://hodlhodl.com/), una plataforma bien establecida que ofrece buena liquidez, aunque personalmente no la he probado.
+-> Descubre nuestro tutorial sobre HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Para soluciones basadas en la Lightning Network, puedes probar [RoboSats](https://learn.robosats.com/) y [LNP2PBot](https://lnp2pbot.com/). RoboSats es accesible a través de un sitio web y es relativamente fácil de usar. LNP2PBot es más atípico, ya que opera a través de un sistema de intercambio en la aplicación de mensajería Telegram.
 
-[-> Descubre nuestro tutorial sobre RoboSats.](https://planb.network/es/tutorials/exchange/robosats)
-[-> Descubre nuestro tutorial sobre LNP2PBot.](https://planb.network/es/tutorials/exchange/lnp2pbot)
+
+-> Descubre nuestro tutorial sobre RoboSats.
+-> Descubre nuestro tutorial sobre LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1345,11 +1363,12 @@ Para soluciones basadas en la Lightning Network, puedes probar [RoboSats](https:
 
 Dependiendo del país en el que vivas, podrías tener acceso a plataformas reguladas que no requieren un procedimiento KYC para comprar o vender bitcoins. En Suiza, por ejemplo, puedes usar plataformas como [Relai](https://relai.app/) y [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Descubre nuestro tutorial sobre Relai.](https://planb.network/en/tutorials/exchange/relai)
 
-Como vimos en el capítulo anterior, este tipo de plataforma te salva de los riesgos asociados con los procedimientos KYC, pero presentan un mayor nivel de riesgo para la identificación clave. En términos de privacidad en Bitcoin, estas plataformas por lo tanto ofrecen mejor protección que los métodos de compra con KYC, pero son menos interesantes que los intercambios P2P.
+-> Descubre nuestro tutorial sobre Relai.
+Como vimos en el capítulo anterior, este tipo de plataforma te ahorra los riesgos asociados con los procedimientos KYC, pero presentan un nivel de riesgo más alto para la identificación clave. En términos de privacidad en Bitcoin, estas plataformas por lo tanto ofrecen mejor protección que los métodos de compra con KYC, pero son menos interesantes que los intercambios P2P.
+Sin embargo, en términos de seguridad personal, usar estas plataformas es significativamente menos riesgoso que los intercambios P2P. También suelen ser más simples de usar que las plataformas que facilitan los intercambios P2P.
 
-Sin embargo, en términos de seguridad personal, usar estas plataformas es significativamente menos riesgoso que los intercambios P2P. También suelen ser más sencillos de usar que las plataformas que facilitan los intercambios P2P.
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Cajeros automáticos
 
@@ -1367,6 +1386,8 @@ La mejor manera de gastar BTC es obviamente usar Bitcoin directamente o la Light
 
 Varias plataformas que no requieren un procedimiento KYC ofrecen la posibilidad de intercambiar bitcoins por tarjetas de regalo que se pueden usar en tiendas de las principales marcas. Entre estas plataformas, encontramos [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), y [Bitrefill](https://www.bitrefill.com/). Estas plataformas facilitan enormemente el uso diario de tus bitcoins al permitirte acceder a una amplia gama de productos y servicios sin tener que pasar por una conversión a moneda fiat.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Otros Métodos de Adquisición
@@ -1375,7 +1396,9 @@ Entre otros métodos para adquirir bitcoins mientras proteges tu privacidad, est
 
 Otro método consiste en trabajar a cambio de bitcoins. Este método de adquisición puede ser interesante, pero el grado de identificación requerido varía considerablemente según las circunstancias.
 
-\_Para escribir este capítulo, utilicé el curso [BTC205](https://planb.network/fr/courses/btc205) creado por [@pivi\_\_\_](https://x.com/pivi___) en Plan ₿ Network (por el momento solo está disponible en francés).\_
+
+Para escribir este capítulo, utilicé el curso BTC205 creado por [@pivi\_\_\_](https://x.com/pivi___) en Plan ₿ Network (disponible solo en francés por el momento).
+
 
 ## Consolidación, Gestión de UTXO y COIH
 
@@ -1985,11 +2008,11 @@ Seguimos de cerca la evolución de este caso, así como los desarrollos relacion
 
 En el próximo capítulo, descubriremos qué son los "anonsets", cómo se calculan estos indicadores y cómo pueden ayudarnos a estimar la efectividad de los ciclos de coinjoin.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Conjuntos de Anonimato
 
@@ -2058,7 +2081,7 @@ Es posible calcular manualmente los anonsets con un explorador de bloques para c
 
 Como hemos visto en este capítulo, los anonsets solo se pueden calcular si hay cierta homogeneidad en la estructura de los coinjoins. Y precisamente, en el próximo capítulo, descubriremos cómo cuantificar esta homogeneidad en una transacción de Bitcoin, ya sea un coinjoin o una transacción más clásica.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropía
 
@@ -2293,7 +2316,7 @@ Desafortunadamente, tras el arresto de los fundadores de Samourai, estas herrami
 
 Ahora que hemos discutido los coinjoins en detalle, exploraremos otras técnicas de privacidad disponibles en Bitcoin en la última sección de nuestra formación. Examinaremos las transacciones payjoin, tipos de transacciones específicas pseudo-coinjoins, protocolos de dirección estática, así como medidas destinadas a mejorar la privacidad no a nivel de transacción, sino en la red de nodos.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Entendiendo las implicaciones de otras técnicas avanzadas de privacidad
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2374,9 +2397,9 @@ La dificultad de utilizar payjoin radica en su dependencia de la participación 
 
 Una solución sería utilizar estructuras transaccionales que introduzcan ambigüedad en el análisis de la cadena sin requerir la cooperación del destinatario. Esto nos permitiría mejorar la privacidad de nuestros pagos sin depender de la participación activa de los comerciantes. Esto es precisamente lo que estudiaremos en el próximo capítulo.
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Mini-coinjoins de pago
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2485,9 +2508,9 @@ También es posible realizar manualmente este tipo de transacción desde cualqui
 En el próximo capítulo, estudiaremos otra técnica de privacidad que es relativamente desconocida, pero es muy útil además de las que ya hemos estudiado.
 
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2555,8 +2578,8 @@ Ricochet simplemente implica enviar bitcoins a uno mismo. Es completamente posib
 
 En el siguiente capítulo, estudiaremos diferentes técnicas para transferencias secretas de propiedad. Estos métodos difieren radicalmente de los que hemos examinado hasta ahora, tanto en términos de operación como de resultados.
 
-https://planb.network/tutorials/privacy/ricochet
- 
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Transferencias Secretas de Propiedad
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -2809,7 +2832,14 @@ Aunque estos robots no tienen una funcionalidad técnica específica dentro del 
 
 ---
 
-*En las siguientes secciones de este capítulo dedicado a BIP47, examinaremos en detalle cómo funciona, con un énfasis particular en los métodos criptográficos utilizados. Para comprender completamente estas explicaciones algo técnicas, es esencial primero entender la estructura de las billeteras HD, los procesos de derivación de claves y los principios fundamentales de la criptografía basada en curvas elípticas. Si deseas profundizar en estos conceptos, otro curso gratuito está disponible en PlanB Network: [CRYPTO 201](https://planb.network/es/courses/cyp201). Aún así te aconsejo que los sigas, ya que entender el funcionamiento técnico de BIP47 te facilitará mucho la comprensión de otras propuestas similares que veremos en los siguientes capítulos.*
+*En las siguientes secciones de este capítulo dedicado al BIP47, examinaremos en detalle su funcionamiento, con un enfoque particular en los métodos criptográficos utilizados. Para comprender plenamente estas explicaciones algo técnicas, es esencial entender primero la estructura de las carteras HD, los procesos de derivación de claves y los principios fundamentales de la criptografía basada en curvas elípticas. Si desea profundizar en estos conceptos, hay otra formación gratuita disponible en Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Le aconsejo encarecidamente que la siga, ya que al comprender el funcionamiento técnico del BIP47, le resultará mucho más fácil entender otras propuestas similares de las que hablaremos en los siguientes capítulos.*
+
+---
+
 
 ### Código de Pago Reutilizable
 
@@ -3501,7 +3531,7 @@ Bob puede entonces reembolsar a Alice de la misma manera que ella le envió pago
 
 _Un gran agradecimiento a [Fanis Michalakis](https://x.com/FanisMichalakis) por su revisión y valiosos consejos expertos sobre el artículo que inspiró la redacción de este capítulo!_
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Pagos Silenciosos
 
@@ -3889,21 +3919,18 @@ Dado que esta característica es reciente, es recomendable tener precaución y e
 
 _Para crear este capítulo sobre Pagos Silenciosos, utilicé [el sitio de explicación de Pagos Silenciosos](https://silentpayments.xyz/) y [el documento de explicación del BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
+# Conclusión
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Danos tu opinión sobre este curso
+## Reseñas & Valoraciones
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Examen final
+<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Conclusión
-
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+<isCourseConclusion>true</isCourseConclusion>
 
-¡Felicidades por completar esta formación sobre la privacidad en Bitcoin!
-
-Hemos cubierto muchos temas avanzados y técnicos en esta formación, pero no es imperativo usar todas las herramientas presentadas. El objetivo principal era darte el poder para elegir la información que deseas divulgar y la información que prefieres mantener confidencial en tu uso de Bitcoin. Esto encarna la esencia misma de la protección de la privacidad. Para tomar decisiones informadas sobre la información a compartir o esconder, es necesario estar consciente de las implicaciones de nuestras acciones. Espero que esta formación te haya ayudado a ganar este conocimiento.
-
-Si tuviera que elegir la parte más importante de esta formación, elegiría la sección dedicada al análisis de cadena. Comprender las técnicas utilizadas por tus posibles atacantes es la mejor manera de protegerte. Por lo tanto, mi consejo sería revisar cuidadosamente esta parte e intentar comprender todos sus detalles.
-
-En esta formación, nos centramos exclusivamente en la privacidad de Bitcoin en la cadena principal. Los problemas de privacidad en sistemas de segunda capa, como la Lightning Network y las sidechains, también son significativos y tienen características muy específicas. Aunque el uso de transacciones fuera de la cadena puede ser una estrategia efectiva para eludir los muchos riesgos de rastreabilidad en Bitcoin que hemos estudiado, te expone a otros riesgos que también es esencial tener en cuenta. Es por eso que estos temas se cubrirán en una formación futura específica para ellos en Plan ₿ Network.
-Si disfrutaste de esta formación, te estaría muy agradecido si pudieras compartirlo con tus amigos y en las redes sociales. ¡Gracias! :)

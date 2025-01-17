@@ -1,0 +1,7 @@
+question: 比特币区块链的大小是多少？
+answer: 大约500GB
+wrong_answers:
+  - 大约100GB
+  - 大约1TB
+  - 大约2TB
+explanation: 比特币区块链的大小大约为500GB。

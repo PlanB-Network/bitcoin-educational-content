@@ -1,0 +1,9 @@
+question: What makes RC4 vulnerable today despite its past popularity?
+answer: Well-documented weaknesses in the key stream generation
+wrong_answers:
+  - A key too short to ensure security
+  - Its inability to work with long texts
+  - The requirement to use a public key in addition to a private key
+explanation: |
+  RC4 has significant weaknesses in the key stream generation, which expose the encryption to attacks, hence its gradual abandonment in modern security protocols.
+reviewed: false

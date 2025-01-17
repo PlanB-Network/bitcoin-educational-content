@@ -1,9 +1,10 @@
-question: Miten Lightning Network parantaa Bitcoin-siirtojen skaalautuvuutta?
-answer: Se käyttää vertaisverkkoa maksukanavista luodakseen off-chain-siirtoja.
+question: Kuinka Lightning Network parantaa Bitcoin-siirtojen skaalautuvuutta?
+answer: Se käyttää p2p-verkkoa maksukanavista luodakseen off-chain-siirtoja.
 wrong_answers:
   - Se käyttää luotettua keskitettyä osapuolta käsittelemään siirtoja tehokkaasti.
   - Se käyttää toista lohkoketjua aggregoidakseen siirtoja suurissa lohkoissa.
-  - Se käyttää luotettuja käyttäjiä luomaan Bitcoinin liittovaltion reservin.
+  - Se käyttää luotettujen käyttäjien ryhmää luomaan Bitcoinin liittovaltion reservin.
 explanation: |
-  Lightning Network voi reitittää off-chain-siirtoja pienemmin kustannuksin ja nopeammin käyttämällä maksukanavia.
-reviewed: false
+  Maksukanavien käytön kautta Lightning Network voi
+  reitittää off-chain-siirtoja nopeammin ja pienemmin kustannuksin.
+reviewed: true

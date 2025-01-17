@@ -1,0 +1,9 @@
+question: Quelle est la thèse principale de Voltaire sur le lien entre le commerce et la tolérance religieuse ?
+answer: Le commerce incite les hommes à coopérer et à respecter les opinions d'autrui y compris leurs croyances religieuses par la recherche commune du profit.
+wrong_answers:
+  - Le commerce unifie les hommes par un même regard sur le monde basé sur la méthode scientifique.
+  - Le commerce favorise le luxe et la paresse.
+  - Toutes les autres réponses sont correctes.
+explanation: |
+  Voltaire soutient que le commerce encourage la tolérance religieuse en poussant les individus de différentes croyances à collaborer et à respecter mutuellement leurs opinions dans la poursuite d'intérêts économiques communs.
+reviewed: false

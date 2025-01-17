@@ -1,11 +1,8 @@
-question: Qual è stato il risultato della "guerra dei blocchi" nel 2017?
-answer: Utenti e nodi hanno respinto la proposta di aumentare la dimensione del blocco e hanno attivato un aggiornamento chiamato SegWit.
+question: Qual è stato l'esito della guerra dei blocchi nel 2017?
+answer: Gli utenti e i nodi hanno rifiutato la proposta di cambiamento per aumentare la dimensione del blocco e hanno attivato un aggiornamento chiamato SegWit.
 wrong_answers:
-  - Utenti e nodi hanno accettato la proposta di aumentare la dimensione del blocco e hanno attivato un aggiornamento chiamato SegWit.
-  - Utenti e nodi hanno respinto la proposta di aumentare la dimensione del blocco e non hanno attivato alcun aggiornamento.
-  - Utenti e nodi hanno accettato la proposta di aumentare la dimensione del blocco e non hanno attivato alcun aggiornamento.
-explanation: >-
-  Nella "guerra dei blocchi" nel 2017, utenti e nodi hanno trionfato rifiutando la
-  proposta di aumentare la dimensione del blocco e hanno attivato un aggiornamento chiamato SegWit.
-reviewed: false
-
+  - Gli utenti e i nodi hanno accettato la proposta di cambiamento per aumentare la dimensione del blocco e hanno attivato un aggiornamento chiamato SegWit.
+  - Gli utenti e i nodi hanno rifiutato la proposta di cambiamento per aumentare la dimensione del blocco e non hanno attivato alcun aggiornamento.
+  - Gli utenti e i nodi hanno accettato la proposta di cambiamento per aumentare la dimensione del blocco e non hanno attivato alcun aggiornamento.
+explanation: Nella guerra dei blocchi nel 2017, gli utenti e i nodi hanno trionfato rifiutando la proposta di cambiamento per aumentare la dimensione del blocco e hanno attivato un aggiornamento chiamato SegWit.
+reviewed: vero

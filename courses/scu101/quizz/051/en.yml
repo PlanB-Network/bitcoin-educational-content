@@ -5,6 +5,7 @@ wrong_answers:
   - Cybersecurity is not necessary for personal accounts
   - Cybersecurity is only for tech-savvy people
 explanation: |
-  Cybersecurity is a moving target because threats and security measures
-  are constantly evolving. It's important to keep learning and adapting your practices.
-reviewed: false
+  Cybersecurity is a moving target because threats and
+  security measures are constantly evolving. It's important
+  to keep learning and adapting your practices.
+reviewed: true

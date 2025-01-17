@@ -1,12 +1,9 @@
-question: What happens if the passphrase of a Bitcoin wallet is changed?
-answer: The Bitcoin wallet becomes completely different
+question: What does the notation /<0;1>/* in a descriptor correspond to?
+answer: To the external and internal chain with sequential derivation
 wrong_answers:
-  - The Bitcoin wallet becomes inaccessible
-  - The Bitcoin wallet remains the same
-  - The Bitcoin wallet loses all its bitcoins
+  - To a sorted multisignature address
+  - To a checksum for derivation paths
+  - To a hardened derivation path
 explanation: |
-  If the passphrase is changed, the Bitcoin wallet becomes completely
-  different
-  because the passphrase plays a role in the construction and calculation of all the
-  wallet's keys.
+  The notation /<0;1>/* indicates that the descriptor can generate addresses for the external (0) and internal (1) chain, with sequential derivation thanks to the wildcard (*).
 reviewed: false

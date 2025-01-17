@@ -1,0 +1,9 @@
+question: ¿Por qué Bastiat critica el concepto de impuesto redistributivo progresivo?
+answer: Porque permite el saqueo legalizado por parte de la mayoría a expensas de una minoría
+wrong_answers:
+  - Porque es ineficaz en la generación de ingresos fiscales
+  - Porque solo beneficia a las clases trabajadoras
+  - Porque beneficia principalmente a las empresas privadas
+explanation: |
+  Bastiat cree que el impuesto redistributivo progresivo permite que la mayoría explote a una minoría, convirtiendo el impuesto en una herramienta de saqueo legalizado.
+reviewed: false

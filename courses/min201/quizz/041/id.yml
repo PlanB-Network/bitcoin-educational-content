@@ -1,0 +1,13 @@
+question: Apa perdebatan dalam komunitas Bitcoin mengenai penambangan?
+answer: Keseimbangan antara mencari keuntungan dan berkontribusi pada keamanan dan distribusi jaringan Bitcoin
+wrong_answers:
+  - Keseimbangan antara meningkatkan hashrate dan mengurangi jumlah node aktif
+  - Keseimbangan antara meningkatkan harga dan mengurangi biaya
+  - Keseimbangan antara meningkatkan jumlah transaksi dan mengurangi konsumsi energi
+explanation: |
+  Perdebatan dalam komunitas Bitcoin mengenai penambangan
+  berputar di sekitar keseimbangan antara mencari keuntungan dan
+  berkontribusi pada keamanan dan distribusi jaringan
+  Bitcoin. Ada argumen kuat di kedua sisi
+  perdebatan tersebut.
+reviewed: true

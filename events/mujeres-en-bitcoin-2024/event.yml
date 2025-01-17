@@ -1,0 +1,22 @@
+- start_date: 2024-11-14 15:00:00
+  end_date: 2024-11-14 18:00:00
+  timezone: America/El_Salvador
+  address_line_1: Plaza Presidente, Antiguo Cuscatlan, El Salvador
+  address_line_2:
+  address_line_3:
+  name: Mujeres en Bitcoin 2024
+  builder:
+  type: meetup
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Este evento, patrocinado por Paystand.org, está diseñado para conectar a mujeres interesadas en Bitcoin, su impacto en nuestra sociedad, así como crear comunidad.
+  language:
+    - es
+  links:
+    website: https://docs.google.com/forms/d/e/1FAIpQLSem2YAIDTXHBLTBzMd6tVnfy13h7Jr_ZTo3NbaLlP7qcDUx8g/viewform
+    replay_url:
+    live_url:
+  tags:
+    - decentralization
+    - adoption

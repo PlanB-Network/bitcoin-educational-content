@@ -1,13 +1,9 @@
-question: What happens when a new commitment transaction is created?
-answer: A new secret is decided and a new revocation key is created, and the previous commitment transaction must be destroyed by giving the revocation secret.
+question: What is the role of routing fees in the Lightning Network?
+answer: To incentivize intermediary nodes to provide their liquidity for the transfer of payments
 wrong_answers:
-  - The previous commitment transaction is kept as a backup.
-  - A new Timelock is created and the previous commitment transaction is updated.
-  - The previous commitment transaction is updated with the new secret and revocation
-    key.
+  - To limit the number of transactions on the network
+  - To ensure that each channel has sufficient funds
+  - To automatically calculate the shortest path
 explanation: |
-  When a new commitment transaction is created, a new secret and a new
-  revocation key are decided. The previous commitment transaction must be destroyed
-  by giving the revocation secret to prevent any party from cheating by publishing
-  an old state.
+  Routing fees are used to compensate intermediary nodes that relay payments by offering their liquidity to enable the transfer of funds across the network.
 reviewed: false

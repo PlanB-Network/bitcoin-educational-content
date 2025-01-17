@@ -1,0 +1,11 @@
+question: Mengapa penting untuk memverifikasi kunci publik situs menggunakan sistem sertifikat?
+answer: Untuk mengonfirmasi keaslian situs.
+wrong_answers:
+  - Untuk menghindari pembatasan geografis.
+  - Untuk memblokir iklan online.
+  - Untuk mengakses situs tanpa menggunakan data.
+explanation: |
+  Memverifikasi kunci publik situs menggunakan sistem sertifikat penting
+  untuk mengonfirmasi keaslian situs. Ini membantu melindungi dari individu jahat
+  yang menyamar sebagai situs dan mentransfer data dalam teks biasa.
+reviewed: false

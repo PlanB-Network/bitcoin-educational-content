@@ -1,0 +1,17 @@
+- start_date: 2025-03-07 21:00:00
+  end_date: 2025-03-08 05:00:00
+  timezone: Australia/Sydney
+  address_line_1: Sydney, Australia
+  address_line_2: The Roundhouse
+  name: Bitcoin Alive 2025
+  builder: Bitcoin Alive
+  type: conference
+  description: Bitcoin Alive brings together Australia’s Bitcoin community for a day of the highest quality Bitcoin content - featuring the best Bitcoin minds from Australia and the world.
+  language:
+    - en
+  links:
+    website: https://bitcoinalive.io/
+  tags:
+    - adoption
+    - software
+    - decentralization

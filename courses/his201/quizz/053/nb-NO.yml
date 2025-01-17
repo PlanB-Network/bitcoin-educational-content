@@ -1,0 +1,9 @@
+question: Hvilken tillegg i sommeren 2010 tillot for myke forgreninger i Bitcoin etterpå?
+answer: OP_NOP operasjonskoder
+wrong_answers:
+  - Varselssystemet
+  - Blokkstørrelsesgrensen
+  - Det standardiserte transaksjonsformatet
+explanation: |
+  Dette var no-op instruksjoner som ikke gjorde skriptet ugyldig hvis de ble utført. De muliggjorde tillegg av OP_CHECKLOCKTIMEVERIFY og OP_CHECKSEQUENCEVERIFY til protokollen i 2015/2016.
+reviewed: false

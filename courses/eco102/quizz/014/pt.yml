@@ -1,0 +1,9 @@
+question: Como a Lei de Say é articulada segundo Jean-Baptiste Say e Bastiat?
+answer: Bens e serviços são trocados por bens e serviços
+wrong_answers:
+  - A oferta cria sua própria demanda
+  - Quanto mais bens são produzidos, mais eles são consumidos
+  - A demanda determina a oferta
+explanation: |
+  A Lei de Say afirma que a produção de bens possibilita trocas mútuas, valorizando assim a economia de mercado.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Wie wird die Größe der Prüfsumme bei der Erzeugung einer mnemonischen Phrase für eine Bitcoin-Wallet bestimmt?
-answer: Indem die Größe der Entropie durch 32 geteilt wird.
+question: Was ist der Zweck des Index beim Ableiten von Kinderschlüsseln?
+answer: Unterscheidung von Geschwisterschlüsselpaaren
 wrong_answers:
-  - Indem die Größe der Entropie mit 32 multipliziert wird.
-  - Indem 32 zur Größe der Entropie hinzugefügt wird.
-  - Indem 32 von der Größe der Entropie abgezogen wird.
+  - Die Natur des Schlüssels identifizieren (öffentlich oder privat)
+  - Das Sicherheitsniveau des Schlüssels spezifizieren
+  - Eine zusätzliche Sicherheitsebene hinzufügen
 explanation: |
-  Die Größe der Prüfsumme wird bestimmt, indem die Größe der Entropie durch 32 geteilt wird. Zum Beispiel erzeugt eine 256-Bit-Entropie eine 8-Bit-Prüfsumme.
+  Der Index ermöglicht die Unterscheidung von Kinderschlüsseln, die vom gleichen Elternpaar abgeleitet wurden.
 reviewed: false

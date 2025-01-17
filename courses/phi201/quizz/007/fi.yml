@@ -1,0 +1,8 @@
+question: Mitkä ovat kaksi ryöstön muotoa, joita Bastiat kuvailee?
+answer: Laillinen ryöstö ja laiton ryöstö
+wrong_answers:
+  - Moraalinen ryöstö ja moraaliton ryöstö
+  - Sisäinen ryöstö ja ulkoinen ryöstö
+  - Tavaroiden ryöstö ja palveluiden ryöstö
+explanation: |
+  Bastiat erottaa toisistaan laillisen ryöstön, joka määritellään laissa ja jota usein harjoittaa valtio (kuten verot), sekä laittoman ryöstön, joka tapahtuu oikeudellisen kehyksen ulkopuolella, kuten varkaus tai pahoinpitely.

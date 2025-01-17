@@ -1,11 +1,11 @@
-question: What are the three dimensions of the "double coincidence of wants" problem?
+question: What are the three dimensions of the double coincidence of wants problem?
 answer: Spatial, temporal, and interpersonal.
 wrong_answers:
   - Spatial, temporal, and intrapersonal.
   - Spatial, intertemporal, and interpersonal.
   - Interspatial, temporal, and interpersonal.
 explanation: |
-  The "double coincidence of wants" problem refers to the difficulty in
+  The double coincidence of wants problem refers to the difficulty in
   barter where both parties need to possess something the other desires at the same
   time and place. This problem has three dimensions; spatial (same place), temporal
   (same time), and interpersonal (mutual desire for each other's goods).

@@ -1,0 +1,13 @@
+question: Millised oleksid tagajärjed, kui plokid oleksid 100 korda raskemad?
+answer: Bitcoini sõlme käitamine ei oleks keskmisele inimesele kättesaadav, ohustades protokolli detsentraliseeritust ning tehingute ja konsensuse reeglite muutumatust.
+wrong_answers:
+  - Bitcoini sõlme käitamine oleks keskmisele inimesele kättesaadavam, parandades protokolli detsentraliseeritust ning tehingute ja konsensuse reeglite muutumatust.
+  - Võrgu tehingute maht väheneks.
+  - Kaevuritele makstav ploki preemia suureneks.
+explanation: |
+  Kui plokid oleksid 100 korda raskemad, nõuaks Bitcoini sõlme käitamine
+  50TB kõvaketast, üle 500GB kuus andmeside mahtu ja riistvara, mis suudaks
+  valideerida sadu tuhandeid tehinguid vähem kui 10 minutiga. See muudaks Bitcoini
+  sõlme käitamise keskmisele inimesele kättesaamatuks, ohustades protokolli
+  detsentraliseeritust ning tehingute ja konsensuse reeglite muutumatust.
+reviewed: false

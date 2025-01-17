@@ -1,12 +1,9 @@
-question: ¿Se puede hacer trampa publicando un estado antiguo en una transacción de compromiso?
-answer: Sí
+question: ¿Qué sucede si un pago a través de HTLC no se completa dentro del tiempo asignado?
+answer: El pago se cancela y los fondos regresan al remitente.
 wrong_answers:
-  - "No"
-  - Solo si tienen la clave de revocación.
-  - Solo si crearon la transacción con el bloqueo de tiempo.
+  - El pago es retenido por el último nodo intermediario
+  - Los fondos se distribuyen a todos los nodos en el camino
+  - Los fondos quedan bloqueados permanentemente
 explanation: |
-  Se puede hacer trampa publicando un estado antiguo en una transacción de compromiso
-  porque ambos participantes tienen la pre-firma de la transacción no publicada.
-  Sin embargo, se han implementado medidas como el bloqueo de tiempo y la clave de revocación para prevenir
-  esto.
+  Si un HTLC expira sin que se revele el secreto, el pago se cancela y los fondos regresan al remitente, evitando así que cualquier nodo intermediario pueda quedarse con los fondos.
 reviewed: false

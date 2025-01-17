@@ -1,9 +1,0 @@
-question: Quel est le but de la phrase secrète dans le portefeuille HD ?
-answer: Elle agit comme un sel cryptographique qui ajoute une couche de protection supplémentaire au portefeuille.
-wrong_answers:
-  - Elle est utilisée pour générer la graine du portefeuille.
-  - Elle est utilisée pour dériver les clés enfants.
-  - Elle est utilisée pour calculer la somme de contrôle.
-explanation: |
-  La phrase secrète dans le portefeuille HD agit comme un sel cryptographique qui ajoute une couche de protection supplémentaire au portefeuille. Elle est utilisée en conjonction avec la phrase mnémonique pour générer la graine du portefeuille.
-reviewed: false

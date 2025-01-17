@@ -1,9 +1,13 @@
-question: ¿Cómo asegura el protocolo de Bitcoin su falta de censura y su imposibilidad de detenerse?
-answer: Cada componente del protocolo está distribuido geográficamente en todo el mundo.
+question: ¿Cómo asegura el protocolo de Bitcoin su resistencia a la censura y su resiliencia?
+answer: Cada componente del protocolo está distribuido geográficamente por todo el mundo.
 wrong_answers:
-  - Utiliza una red descentralizada de nodos.
+  - Utiliza una red local de nodos distribuidos en Europa.
   - Utiliza un algoritmo complejo para validar transacciones.
-  - Utiliza un alto nivel de encriptación.
+  - Utiliza un alto nivel de cifrado.
 explanation: |
-  El protocolo de Bitcoin asegura su falta de censura y su imposibilidad de detenerse porque cada componente del protocolo está distribuido geográficamente en todo el mundo. Por ejemplo, existen aproximadamente 40,000 nodos de Bitcoin en todos los continentes.
-reviewed: false
+  El protocolo de Bitcoin asegura su resistencia a la censura y
+  resiliencia porque cada componente del protocolo está
+  distribuido geográficamente por todo el mundo. Por ejemplo,
+  hay aproximadamente 40,000 nodos de Bitcoin en todos los
+  continentes.
+reviewed: true

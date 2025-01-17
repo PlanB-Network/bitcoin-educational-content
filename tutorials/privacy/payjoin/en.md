@@ -35,6 +35,7 @@ First of all, Payjoin aims to mislead an external observer by creating a decoy i
 
 Furthermore, Payjoin also allows for deceiving an external observer about the actual amount of the payment that has been made. By examining the transaction structure, the analyst might believe that the payment is equivalent to the amount of one of the outputs. However, in reality, the payment amount does not correspond to any of the outputs. It is actually the difference between the recipient's output UTXO and the recipient's input UTXO. In this sense, the Payjoin transaction falls into the domain of steganography. It allows for hiding the actual amount of a transaction within a fake transaction that acts as a decoy.
 
+Please, note our definition of **Stenography**:
 > Steganography is a technique of concealing information within other data or objects in such a way that the presence of the hidden information is not perceptible. For example, a secret message can be hidden inside a dot in a text that has nothing to do with it, making it undetectable to the naked eye (this is the technique of micropoint). Unlike encryption, which makes information incomprehensible without the decryption key, steganography does not modify the information. It remains displayed in plain sight. Its objective is rather to hide the existence of the secret message, whereas encryption clearly reveals the presence of hidden information, although inaccessible without the key.
 
 Let's go back to our example of a Payjoin transaction for the payment of a baguette.
@@ -44,9 +45,9 @@ By seeing this transaction on the blockchain, an external observer who follows t
 This interpretation is obviously incorrect because, as you already know, the two input UTXOs do not belong to the same person. Furthermore, the actual value of the payment is not `19,000 sats`, but rather `4,000 sats`. The analysis of the external observer is thus directed towards an erroneous conclusion, ensuring the preservation of the confidentiality of the stakeholders.![payjoin transaction diagram](assets/en/1.webp)
 If you wish to analyze a real Payjoin transaction, here is one that I performed on the testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
-[**-> Discover our tutorial on how to make a Payjoin with Samourai Wallet**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  
+[**-> Discover our tutorial on how to make a Payjoin with Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
 
-[**-> Discover our tutorial on how to make a Payjoin with Sparrow Wallet**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+[**-> Discover our tutorial on how to make a Payjoin with Sparrow Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 **External resources:**

@@ -1,0 +1,12 @@
+question: Hva er rollen til noder i Bitcoin-nettverket?
+answer: Noder opprettholder integriteten ved å verifisere og validere transaksjoner og blokker.
+wrong_answers:
+  - Noder skaper og validerer blokker.
+  - Noder verifiserer kun transaksjoner.
+  - Noder har ingen rolle i Bitcoin-nettverket.
+explanation: |
+  I Bitcoin-nettverket opprettholder noder integriteten til
+  nettverket ved å verifisere og validere transaksjoner og
+  blokker. En feilaktig eller svindelaktig blokk vil bli avvist
+  av nodene, noe som bevarer sikkerheten til nettverket.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Pourquoi le chiffrement AES en mode ECB n'est-il pas recommandé pour une utilisation sécurisée ?
+answer: Il entraîne un chiffrement déterministe
+wrong_answers:
+  - Il nécessite une clé de plus de 128 bits
+  - Il est trop lent pour la plupart des applications modernes
+  - Il ne permet pas de diviser le texte en blocs de 128 bits
+explanation: |
+  Le mode ECB n'est pas recommandé car il produit un chiffrement déterministe, ce qui signifie que les blocs identiques de texte clair donneront des blocs identiques de texte chiffré, ce qui peut être exploité pour deviner des informations sur le texte en clair.
+reviewed: false

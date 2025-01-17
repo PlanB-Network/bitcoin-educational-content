@@ -1,9 +1,8 @@
-question: Was repräsentiert der Seed in einer Bitcoin-Wallet?
-answer: Es handelt sich um eine zufällige oder pseudo-zufällige Zahl, aus der mehrere Schlüssel generiert werden.
+question: Welche Konstante wird verwendet, um den Master-Privatschlüssel aus dem Seed abzuleiten?
+answer: Bitcoin Seed
 wrong_answers:
-  - Es ist das Passwort, um auf die Wallet zuzugreifen.
-  - Es ist die erste Bitcoin-Transaktion, die in der Wallet aufgezeichnet wird.
-  - Es ist die digitale Signatur des Wallet-Besitzers.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  Der Seed in einer Bitcoin-Wallet soll eine zufällige oder pseudo-zufällige Zahl sein. Dieser Seed ermöglicht die Generierung mehrerer Schlüssel, die für den Besitz von Kryptowährungen unerlässlich sind.
-reviewed: false
+  Die Konstante Bitcoin Seed wird als Schlüssel in der HMAC-SHA512-Funktion verwendet, um den Master-Privatschlüssel und den Master-Chain-Code abzuleiten.

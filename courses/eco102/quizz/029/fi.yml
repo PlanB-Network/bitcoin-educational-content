@@ -1,0 +1,9 @@
+question: Mikä on ollut taloudellisen avoimuuden vaikutus maailmanlaajuiseen köyhyyteen viimeisen 20 vuoden aikana Cobdenin ideoiden mukaan?
+answer: Köyhyys on vähentynyt puolella
+wrong_answers:
+  - Köyhyys lisääntyi 10%
+  - Köyhyys pysyi vakiona
+  - Köyhyys väheni 20%
+explanation: |
+  Cobden kannatti taloudellista avoimuutta keinona vähentää köyhyyttä, ja nykyiset tulokset osoittavat merkittävää vähennystä siinä, erityisesti maissa, jotka ovat avoimia kaupankäynnille.
+reviewed: false

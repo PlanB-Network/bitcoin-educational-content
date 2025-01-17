@@ -1,9 +1,9 @@
 question: Quelle est la conséquence de l'impression monétaire ?
-answer: Elle entraîne l'inflation, appauvrissant progressivement la population.
+answer: Cela conduit à l'inflation, appauvrissant progressivement la population.
 wrong_answers:
-  - Elle entraîne la déflation, enrichissant progressivement la population.
-  - Elle conduit à une économie stable sans inflation ni déflation.
-  - Elle entraîne une diminution de l'offre monétaire.
+  - Cela conduit à la déflation, enrichissant progressivement la population.
+  - Cela conduit à une économie stable sans inflation ni déflation.
+  - Cela conduit à une diminution de l'offre de monnaie.
 explanation: |
-  L'impression monétaire, ou la création de nouvelle monnaie par les banques centrales, entraîne l'inflation. Cela est dû à l'augmentation de l'offre monétaire qui réduit le pouvoir d'achat de la monnaie, entraînant une hausse des prix et une diminution de la valeur des économies.
-reviewed: false
+  L'impression monétaire, ou la création de nouvelle monnaie par les banques centrales, conduit à l'inflation. Cela est dû au fait que l'augmentation de l'offre de monnaie réduit le pouvoir d'achat de la monnaie, entraînant une hausse des prix et une diminution de la valeur des économies.
+reviewed: true

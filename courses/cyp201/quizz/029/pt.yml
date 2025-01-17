@@ -1,9 +1,8 @@
-question: Qual é o principal objetivo das assinaturas digitais no protocolo Bitcoin?
-answer: Para demonstrar a posse de uma chave privada associada a uma chave pública específica.
+question: Qual algoritmo de assinatura digital foi utilizado no lançamento do Bitcoin?
+answer: ECDSA
 wrong_answers:
-  - Para criptografar os dados da transação
-  - Para gerar novos bitcoins
-  - Para verificar a identidade do remetente
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  No cerne do protocolo Bitcoin, as assinaturas digitais são usadas como provas matemáticas que demonstram a posse de uma chave privada associada a uma chave pública específica.
-reviewed: false
+  O Bitcoin inicialmente utilizou o ECDSA, um protocolo de assinatura baseado em curvas elípticas, antes da introdução das assinaturas Schnorr em 2021.

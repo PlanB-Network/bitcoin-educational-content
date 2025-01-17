@@ -1,0 +1,11 @@
+question: Apa peran uang dalam koordinasi intertemporal tindakan manusia?
+answer: Ini memungkinkan penyimpanan nilai di masa sekarang dan transfernya ke diri sendiri di masa depan.
+wrong_answers:
+  - Ini memungkinkan penyimpanan nilai di masa depan dan transfernya ke diri sendiri di masa sekarang.
+  - Ini memungkinkan penyimpanan nilai di masa sekarang dan transfernya ke orang lain.
+  - Ini memungkinkan penyimpanan nilai di masa depan dan transfernya ke orang lain.
+explanation: |
+  Dengan menyimpan uang, yaitu, menabung, individu melindungi diri dari ketidakpastian masa depan
+  dan dengan demikian memungkinkan mereka untuk mengarahkan tindakan mereka ke cakrawala waktu yang lebih panjang.
+  Namun, mereka hanya dapat mencapai ini jika uang yang digunakan merupakan penyimpan nilai.
+reviewed: false

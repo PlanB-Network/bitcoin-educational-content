@@ -1,0 +1,9 @@
+question: Chi ha avuto l'idea di creare una rete di test per evitare di danneggiare la rete principale di Bitcoin?
+answer: Gavin Andresen
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Laszlo Hanyecz
+explanation: |
+  Lui [ha menzionato](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) questa idea sul forum il 9 giugno, e Satoshi ha approvato. Ha [creato](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) il testnet il 15 luglio.
+reviewed: false

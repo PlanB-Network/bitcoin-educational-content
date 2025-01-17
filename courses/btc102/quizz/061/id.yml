@@ -1,0 +1,10 @@
+question: Apa itu solusi non-KYC dalam konteks Bitcoin?
+answer: Solusi yang memungkinkan transaksi Bitcoin secara anonim
+wrong_answers:
+  - Solusi yang memungkinkan transaksi Bitcoin tanpa internet
+  - Solusi yang memungkinkan transaksi Bitcoin tanpa dompet
+  - Solusi yang memungkinkan transaksi Bitcoin tanpa biaya
+explanation: |
+  Solusi non-KYC (Know Your Customer) adalah solusi yang memungkinkan
+  transaksi Bitcoin secara anonim. Ini tidak memerlukan pengguna untuk menyediakan informasi
+  identifikasi pribadi.

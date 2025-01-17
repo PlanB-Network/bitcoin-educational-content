@@ -1,11 +1,9 @@
-question: How is the size of the checksum determined in the generation of a mnemonic
-  phrase for a Bitcoin wallet?
-answer: By dividing the size of the entropy by 32.
+question: What is the purpose of the index in deriving child keys?
+answer: Distinguish sibling key pairs
 wrong_answers:
-  - By multiplying the size of the entropy by 32.
-  - By adding 32 to the size of the entropy.
-  - By subtracting 32 from the size of the entropy.
+  - Identify the nature of the key (public or private)
+  - Specify the key's security level
+  - Add an extra layer of security
 explanation: |
-  The size of the checksum is determined by dividing the size of the entropy
-  by 32. For example, a 256-bit entropy generates an 8-bit checksum.
+  The index allows for differentiating child keys derived from the same parent pair.
 reviewed: false

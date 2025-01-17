@@ -1,0 +1,9 @@
+question: Jaký je problém distribuce klíčů?
+answer: Výzva bezpečně přenášet klíče bez fyzické výměny
+wrong_answers:
+  - Nutnost generovat více párů klíčů pro každého klienta
+  - Obtíž zabezpečení fyzického uložení klíčů
+  - Povinnost měnit klíče při každé komunikaci
+explanation: |
+  Problém distribuce klíčů se týká výzvy bezpečně přenášet klíče, což je nutnost, která se stala klíčovou v digitálních komunikacích, kde fyzická výměna není praktická.
+reviewed: false

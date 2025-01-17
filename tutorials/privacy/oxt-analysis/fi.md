@@ -1,5 +1,5 @@
 ---
-name: OXT - Ketjuanalyysi
+name: OXT - Chain Analysis
 description: Hallitse Bitcoinin ketjuanalyysin perusteet
 ---
 ![kansi](assets/cover.webp)
@@ -63,7 +63,7 @@ Yksi ketjuanalyysin tavoitteista on ryhmitellä erilaisia toimintoja Bitcoinissa
 Muista johdantoni. Selitin, miksi Bitcoinin yksityisyysmalli alun perin perustui käyttäjän identiteetin erottamiseen heidän transaktioistaan. Siksi voisi olla houkuttelevaa ajatella, että ketjuanalyysi on tarpeetonta, koska vaikka onnistuisimme ryhmittelemään ketjutoimintoja, emme voi yhdistää niitä todelliseen identiteettiin. Teoriassa tämä väite on paikkansapitävä. Kryptografisia avainpareja käytetään määrittelemään ehdot UTXOille. Luonteeltaan nämä avainparit eivät paljasta mitään tietoa haltijoidensa identiteetistä. Näin ollen, vaikka onnistuisimme ryhmittelemään toimintoja, jotka liittyvät eri avainpareihin, tämä ei kerro meille mitään näiden toimintojen takana olevasta entiteetistä.
 Käytännön todellisuus on kuitenkin huomattavasti monimutkaisempi. On olemassa lukuisia käyttäytymismalleja, jotka voivat yhdistää todellisen henkilöllisyyden lohkoketjuaktiviteettiin. Analyysissä tätä kutsutaan sisääntulopisteeksi, ja niitä on monia. Yleisin näistä on tietenkin KYC (Know Your Customer). Jos nostat bitcoinejasi säännellyltä alustalta yhdelle henkilökohtaisista vastaanotto-osoitteistasi, jotkut ihmiset voivat yhdistää henkilöllisyytesi tähän osoitteeseen. Laajemmin ottaen sisääntulopiste voi olla mikä tahansa vuorovaikutusmuoto todellisen elämäsi ja Bitcoin-siirron välillä. Esimerkiksi, jos julkaiset vastaanotto-osoitteen sosiaalisissa verkostoissasi, se voi olla analyysin sisääntulopiste. Jos maksat bitcoineilla leipurillesi, he voivat yhdistää kasvosi (joka on osa henkilöllisyyttäsi) Bitcoin-osoitteeseen. Nämä sisääntulopisteet ovat lähes väistämättömiä Bitcoinia käytettäessä. Vaikka niiden vaikutusalaa pyritäänkin rajoittamaan, ne säilyvät läsnä. Siksi on ratkaisevan tärkeää yhdistää menetelmiä, jotka tähtäävät yksityisyytesi säilyttämiseen. Vaikka todellisen henkilöllisyytesi ja transaktioidesi välisen hyväksyttävän erottelun ylläpitäminen on kiitettävä lähestymistapa, se on riittämätön. Todellakin, jos kaikki lohkoketjuaktiviteettisi voidaan ryhmitellä yhteen, jopa pienin sisääntulopiste voisi vaarantaa sen yksityisyyden kerroksen, jonka olit luonut.
 
-Siksi on myös tarpeellista käsitellä ketjuanalyysiä Bitcoinin käytössämme. Näin voimme minimoida aktiviteettiemme aggregoinnin ja rajoittaa sisääntulopisteen vaikutusta yksityisyyteemme. Tarkemmin sanottuna, ketjuanalyysin vastatoimien paremmaksi ymmärtämiseksi, mikä parempi lähestymistapa kuin tutustua ketjuanalyysissä käytettyihin menetelmiin? Jos haluat tietää, miten parantaa yksityisyyttäsi Bitcoinissa, sinun on ymmärrettävä nämä menetelmät. Tämä mahdollistaa paremman käsityksen tekniikoista kuten [Coinjoin](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet) tai [Payjoin](https://planb.network/en/tutorials/privacy/payjoin) ja vähentää tekemiäsi virheitä.
+Siksi on myös tarpeellista käsitellä ketjuanalyysiä Bitcoinin käytössämme. Näin voimme minimoida aktiviteettiemme aggregoinnin ja rajoittaa sisääntulopisteen vaikutusta yksityisyyteemme. Tarkemmin sanottuna, ketjuanalyysin vastatoimien paremmaksi ymmärtämiseksi, mikä parempi lähestymistapa kuin tutustua ketjuanalyysissä käytettyihin menetelmiin? Jos haluat tietää, miten parantaa yksityisyyttäsi Bitcoinissa, sinun on ymmärrettävä nämä menetelmät. Tämä mahdollistaa paremman käsityksen tekniikoista kuten [Coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) tai [Payjoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) ja vähentää tekemiäsi virheitä.
 
 Tässä voimme tehdä analogian kryptografian ja kryptoanalyyttien välillä. Hyvä kryptografi on ensisijaisesti hyvä kryptoanalyytikko. Uuden salausalgoritmin kuvitellakseen, on tiedettävä, minkälaisia hyökkäyksiä se kohtaa, ja tutkittava myös, miksi aiemmat algoritmit murrettiin. Sama periaate pätee Bitcoinin yksityisyyteen. Ketjuanalyysin menetelmien ymmärtäminen on avain sen vastustamiseen. Siksi tarjoan sinulle tämän artikkelin.
 
@@ -269,7 +269,7 @@ Faktisesti tämä vaatimus-oikeus yksityisyyteen Bitcoinissa ei ole olemassa. Si
 ### Välttäen joutumasta heuristiikkojen ansaan
 Ensinnäkin, ennen kuin harkitsemme radikaalimpia menetelmiä, on suositeltavaa rajoittaa altistumistamme ketjuanalyysissä käytetyille heuristiikoille mahdollisimman paljon. Kuten aiemmin mainittiin, kaksi tehokkainta heuristiikkaa ovat osoitteen uudelleenkäyttö ja COINJOIN.
 Perusperiaate yksityisyytesi turvaamiseksi Bitcoinissa perustuu uuden, puhtaan osoitteen käyttämiseen jokaiselle lompakkoosi saapuvalle transaktiolle. Osoitteen uudelleenkäyttö on todellakin suurin uhka yksityisyydelle Bitcoinissa.
-Yksittäiselle käyttäjälle uuden osoitteen generoiminen jokaiselle saapuvalle maksulle on erittäin yksinkertaista. Modernit lompakot tekevät tämän automaattisesti heti, kun klikkaat "Vastaanota". Joten, jos pidät edes vähäisessä määrin tärkeänä transaktioidesi yksityisyyttä, uusien osoitteiden käyttö edustaa ehdotonta minimiä. Jos tarvitset staattisen yhteyspisteen internetissä, voit käyttää ratkaisuja [kuten PayNym, joka implementoi BIP47](https://planb.network/en/tutorials/privacy/paynym-bip47) vastaanotto-osoitteen sijaan.
+Yksittäiselle käyttäjälle uuden osoitteen generoiminen jokaiselle saapuvalle maksulle on erittäin yksinkertaista. Modernit lompakot tekevät tämän automaattisesti heti, kun klikkaat "Vastaanota". Joten, jos pidät edes vähäisessä määrin tärkeänä transaktioidesi yksityisyyttä, uusien osoitteiden käyttö edustaa ehdotonta minimiä. Jos tarvitset staattisen yhteyspisteen internetissä, voit käyttää ratkaisuja [kuten PayNym, joka implementoi BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093) vastaanotto-osoitteen sijaan.
 Seuraavaksi, jos haluat toimia ketjuanalyysiä vastaan, vältä UTXO:iden yhdistämistä transaktion syötteessä. Minimissään, jos todella tarvitset yhdistää, suosi UTXO:ja, joilla on sama lähde. Tämä suositus edellyttää hyvää UTXO:idesi hallintaa. Ostaessasi bitcoinejasi, suosi siirtoja, jotka sisältävät suuria määriä maksimoidaksesi maksujen määrän ilman, että sinun tarvitsee yhdistää. Suosittelen myös merkitsemään UTXO:si ohjelmistossasi tunnistaaksesi niiden alkuperän ja välttääksesi yhdistämisen eri lähteistä.
 
 Laajemmin kaikkien muiden heuristiikkojen osalta sinun tarvitsee tuntea ne yrittääksesi olla lankeamatta niihin:
@@ -284,15 +284,15 @@ Laajemmin kaikkien muiden heuristiikkojen osalta sinun tarvitsee tuntea ne yritt
 Voit myös kääntyä menetelmien puoleen, jotka tekevät Bitcoinin käytöstäsi epäselvää ketjuanalyysin estämiseksi tai harhauttamiseksi.
 
 Suosituin tekniikka on varmasti Coinjoin, yhteistyössä toteutettu transaktiorakenne, joka mobilisoi useita samansuuruisia UTXO:ja. Tässä on tavoitteena rikkoa deterministiset linkit, estäen näin analyysit menneisyydestä nykyhetkeen ja nykyhetkestä menneisyyteen. Coinjoin mahdollistaa uskottavan kiistämisen piilottamalla kolikkosi suureen ryhmään erottamattomia kolikoita. Jos haluat oppia lisää Coinjoinista, sekä teknisesti että käytännöllisesti, suosittelen lukemaan nämä muut artikkelit ja tutoriaalit:
-- [COINJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet);
-- [COINJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet);
-- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/en/tutorials/privacy/wst-anonsets).
+- [COINJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [COINJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 ![analyysi](assets/en/13.webp)
 
 CoinJoin on erinomainen työkalu kolikoiden uskottavan kiistämisen luomiseen, mutta se ei ole optimoitu kaikkiin käyttäjän yksityisyyden tarpeisiin. Erityisesti CoinJoin ei ole suunniteltu maksuvälineeksi. Se on hyvin jäykkä vaihdettavien määrien suhteen täydellisen uskottavan kiistämisen tuottamiseksi. Koska transaktion tulosteiden määrää ei voi vapaasti valita, CoinJoinia ei voi käyttää maksujen tekemiseen bitcoineilla.
 Kuvittele esimerkiksi, että haluan maksaa patongistani bitcoineilla samalla kun optimoin yksityisyyttäni. CoinJoinin käyttöönoton mahdottomuuden vuoksi, joka ei salli tuloutuvan UTXO:n määrän valintaa, huomaisin olevani kykenemätön säätämään kulutukseni määrää leipurin asettaman hinnan mukaisesti. Siksi CoinJoin osoittautuu riittämättömäksi maksutapahtumiin.
 
-Muita työkaluja on suunniteltu vastaamaan yksityisyyden tarpeisiin tarkemmissa käyttötapauksissa. Esimerkiksi meillä on [PayJoin](https://planb.network/en/tutorials/privacy/payjoin), eräänlainen mini-CoinJoin, johon osallistuu vain kaksi osapuolta ja joka perustuu rakenteeseen, joka mahdollistaa maksun.
+Muita työkaluja on suunniteltu vastaamaan yksityisyyden tarpeisiin tarkemmissa käyttötapauksissa. Esimerkiksi meillä on [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), eräänlainen mini-CoinJoin, johon osallistuu vain kaksi osapuolta ja joka perustuu rakenteeseen, joka mahdollistaa maksun.
 
 PayJoinin ainutlaatuisuus piilee sen kyvyssä tuottaa tavalliselta näyttävä transaktio, vaikka todellisuudessa se onkin mini-CoinJoin kahden käyttäjän välillä. Tässä rakenteessa transaktion vastaanottaja osallistuu syötteisiin yhdessä varsinaisen lähettäjän kanssa. Näin ollen vastaanottaja lisää transaktioon maksun itselleen, mikä mahdollistaa varsinaisen maksun suorittamisen.
 
@@ -307,15 +307,15 @@ PayJoinin toinen tavoite on harhauttaa analyytikkoa todellisen transaktion mää
 
 Todellisuudessa, jos palaamme esimerkkiimme PayJoinin käytöstä patongin ostamiseen, ulkopuolinen tarkkailija saattaisi ajatella, että kyseessä on 4 000 satoshin tai 21 000 satoshin maksu. Todellisuudessa patongin maksu on 6 000 satoshia: 21 000 - 15 000 = 6 000. Todellinen maksun arvo on siis piilotettu valemaksumaskun sisälle, joka toimii harhautuksena ketjuanalyysille.
 
-PayJoinin ja CoinJoinin lisäksi on monia muita Bitcoin-transaktiorakenteita, jotka joko estävät ketjuanalyysin tai harhauttavat sitä. Näiden joukossa voisin mainita [Stonewall](https://planb.network/en/tutorials/privacy/stonewall)- ja [StonewallX2](https://planb.network/en/tutorials/privacy/stonewall-x2)-transaktiot, jotka mahdollistavat joko joustavan mini Coinjoinin tekemisen tai joustavan mini Coinjoinin matkimisen. On myös [Ricochet](https://planb.network/en/tutorials/privacy/ricochet)-transaktioita, jotka simuloivat bitcoinien omistajuuden muutosta tekemällä lukuisia valetransfereita itselleen.
+PayJoinin ja CoinJoinin lisäksi on monia muita Bitcoin-transaktiorakenteita, jotka joko estävät ketjuanalyysin tai harhauttavat sitä. Näiden joukossa voisin mainita [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)- ja [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)-transaktiot, jotka mahdollistavat joko joustavan mini Coinjoinin tekemisen tai joustavan mini Coinjoinin matkimisen. On myös [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)-transaktioita, jotka simuloivat bitcoinien omistajuuden muutosta tekemällä lukuisia valetransfereita itselleen.
 
 Kaikki nämä työkalut ovat saatavilla Samourai Walletissa mobiililaitteilla ja Sparrow Walletissa PC:llä. Jos haluat oppia lisää näistä erityisistä transaktiorakenteista, suosittelen tutustumaan opetusohjelmiini:
-- [PAYJOIN](https://planb.network/en/tutorials/privacy/payjoin);
-- [PAYJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/payjoin-samourai-wallet);
-- [PAYJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/payjoin-sparrow-wallet);
-- [STONEWALL](https://planb.network/en/tutorials/privacy/stonewall);
-- [STONEWALL X2](https://planb.network/en/tutorials/privacy/stonewall-x2);
-- [RICOCHET](https://planb.network/en/tutorials/privacy/ricochet).
+- [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## Yhteenveto
 Ketjuanalyysi on käytäntö, joka pyrkii jäljittämään bitcoinien virtausta lohkoketjussa. Tätä varten analyytikot etsivät kaavoja ja ominaisuuksia, jotta he voivat tehdä enemmän tai vähemmän uskottavia oletuksia ja tulkintoja.
@@ -334,3 +334,9 @@ Bitcoinin käyttäjänä on olennaista hallita ketjuanalyysin perusperiaatteet t
 
 **P2WPKH:** Lyhenne sanoista Pay to Witness Public Key Hash. Se on standardi skriptimalli, jota käytetään UTXO:n kulutusehtojen määrittämiseen. P2WPKH otettiin käyttöön SegWitin toteutuksen yhteydessä elokuussa 2017. Tämä skripti on samankaltainen kuin P2PKH (Pay to Public Key Hash), siinä mielessä, että se myös lukitsee bitcoinit julkisen avaimen hashin perusteella, eli vastaanotto-osoitteen perusteella. Ero on siinä, miten allekirjoitukset ja skriptit sisällytetään transaktioon. P2WPKH-tapauksessa allekirjoitusskriptin tiedot (ScriptSig) siirretään perinteisestä transaktiorakenteesta erilliseen osioon nimeltä Witness. Tämä siirto on SegWit-päivityksen (Segregated Witness) ominaisuus. Tällä tekniikalla on etuna transaktiodatan koon pienentäminen pääosassa, samalla kun tarvittavat skriptitiedot säilytetään validointia varten erillisessä osiossa. Tämän seurauksena P2WPKH-transaktiot ovat yleensä edullisempia maksujen suhteen verrattuna Legacy-transaktioihin. P2WPKH-osoitteet kirjoitetaan käyttäen Bech32-koodausta, mikä edistää tiiviimpää ja vähemmän virhealtista kirjoitusta BCH-tarkistussumman ansiosta. Nämä osoitteet alkavat aina bc1q:lla, mikä tekee niistä helposti erottuvia Legacy-vastaanotto-osoitteista. P2WPKH on version 0 SegWit-tulos.
 **UTXO:** Lyhenne sanoista Unspent Transaction Output. UTXO on transaktioon liittyvä lähtö, jota ei ole vielä käytetty tai hyödynnetty uuden transaktion syötteenä. UTXO:t edustavat sitä bitcoinejen osuutta, joka käyttäjällä on omistuksessaan ja joka on tällä hetkellä käytettävissä. Jokaiseen UTXO:on liittyy tietty lähtöskripti, joka määrittelee ehdot bitcoinejen käyttämiseksi. Bitcoin-transaktiot kuluttavat näitä UTXO:ja syötteinä ja luovat uusia UTXO:ja lähtöinä. UTXO-malli on olennainen osa Bitcoinia, sillä se mahdollistaa transaktioiden helpon varmistamisen siinä mielessä, ettei yritetä käyttää olemattomia tai jo käytettyjä bitcoineja. Käytännössä UTXO on pala Bitcoinia.
+
+
+
+
+
+

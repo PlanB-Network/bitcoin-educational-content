@@ -1,0 +1,9 @@
+question: Mis on peamine kriitika praeguse finantssüsteemi suhtes seoses keskkonnaga?
+answer: See soodustab üle tarbimist ja võlga
+wrong_answers:
+  - See edendab fossiilkütuste kasutamist
+  - See ei investeeri taastuvenergiasse
+  - See ei reguleeri kaupade tootmist
+explanation: >-
+  Praegust finantssüsteemi kritiseeritakse üle tarbimise ja võla soodustamise eest, mis põhjustab tõsiseid keskkonnaprobleeme. See on tingitud kergest juurdepääsust krediidile, pankade poolt rahalise emissiooni kasutamisest ja osalise reservi panganduse kasutamisest.
+reviewed: false

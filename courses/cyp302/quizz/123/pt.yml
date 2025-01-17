@@ -1,0 +1,9 @@
+question: Qual problema surge se a Jim's Sporting Goods usar o mesmo par de chaves para todos os clientes?
+answer: Qualquer cliente poderia acessar as comunicações dos outros
+wrong_answers:
+  - A chave se tornaria muito grande
+  - As comunicações seriam desaceleradas
+  - Os clientes teriam que trocar de chaves a cada compra
+explanation: |
+  Ao usar a mesma chave para todos, a Jim's Sporting Goods comprometeria a confidencialidade e a integridade, já que cada cliente poderia potencialmente acessar os dados de outros clientes.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Qual è l'obiettivo principale della crittografia classica che è ancora presente nella crittografia moderna?
+answer: La riservatezza dei messaggi
+wrong_answers:
+  - La semplificazione dei messaggi
+  - La ripetizione dei messaggi
+  - L'automazione dell'invio dei messaggi
+explanation: |
+  La crittografia classica era principalmente focalizzata sulla riservatezza, e questo obiettivo rimane essenziale nella crittografia moderna, anche se sono stati aggiunti altri temi, come l'integrità e l'autenticità.

@@ -1,9 +1,9 @@
-question: Welche verschiedenen Kommunikationsebenen gibt es im Lightning Network?
-answer: P2P-Kommunikation, Zahlungskanal, Bitcoin-Transaktion
+question: Was ist das Hauptrisiko bei Commitment-Transaktionen im Lightning-Netzwerk?
+answer: Eine alte Transaktion zu veröffentlichen, um mehr Mittel zurückzufordern
 wrong_answers:
-  - P2P-Kommunikation, Bitcoin-Transaktion, Ethereum-Transaktion
-  - Zahlungskanal, Bitcoin-Transaktion, Litecoin-Transaktion
-  - P2P-Kommunikation, Zahlungskanal, Ripple-Transaktion
+  - Vergessen, die Commitment-Transaktion zu signieren
+  - Versehentlich Mittel an einen anderen Kanal zu senden
+  - Die Transaktion mit einem unangemessenen Timelock zu blockieren
 explanation: |
-  Das Lightning Network hat drei verschiedene Kommunikationseben- language: en P2P-Kommunikation (Lightning Network-Protokoll), Zahlungskanal (Lightning Network-Protokoll) und Bitcoin-Transaktion (Bitcoin-Protokoll).
+  Das Hauptrisiko besteht darin, dass eine Partei versuchen könnte zu betrügen, indem sie eine alte Commitment-Transaktion veröffentlicht, was es ihnen ermöglichen könnte, Mittel zurückzufordern, die sie nicht mehr besitzen.
 reviewed: false

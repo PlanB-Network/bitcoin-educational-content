@@ -1,0 +1,9 @@
+question: Quais criptógrafos criaram o sistema criptográfico RSA em 1978?
+answer: Ronald Rivest, Adi Shamir e Leonard Adleman
+wrong_answers:
+  - Whitfield Diffie, Martin Hellman e Ralph Merkle
+  - Marc Girault, Guillaume Poupard e Jacques Stern
+  - Alfred Menezes, Minghua Qu e Scott Vanstone
+explanation: |
+  Rivest, Shamir e Adleman nomearam o algoritmo RSA usando as iniciais de seus três nomes.
+reviewed: false

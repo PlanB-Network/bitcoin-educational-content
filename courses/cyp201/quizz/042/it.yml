@@ -1,9 +1,9 @@
-question: Qual è lo scopo di una firma digitale nel contesto delle transazioni Bitcoin?
-answer: Dimostrare di essere il detentore di una chiave privata senza rivelarla.
+question: Qual è la principale differenza tra un PRNG e un TRNG?
+answer: Il PRNG è deterministico, mentre il TRNG genera numeri veramente casuali.
 wrong_answers:
-  - Crittografare i dati della transazione.
-  - Memorizzare i dati della transazione.
-  - Trasmettere i dati della transazione.
+  - Il PRNG è più veloce del TRNG per numeri grandi.
+  - Il PRNG è usato solo per la crittografia, non il TRNG.
+  - Il PRNG usa chiavi private, il TRNG usa chiavi pubbliche.
 explanation: |
-  Nel contesto delle transazioni Bitcoin, una firma digitale viene utilizzata per dimostrare di essere il detentore di una chiave privata senza rivelarla. Questo viene realizzato utilizzando l'algoritmo ECDSA.
-reviewed: false
+  I PRNG sono deterministici, il che significa che possono riprodurre sequenze a partire da uno stato iniziale, a differenza dei TRNG.
+recensito: false

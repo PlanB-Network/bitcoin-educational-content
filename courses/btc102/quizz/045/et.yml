@@ -1,0 +1,9 @@
+question: Mis on Bitcoin Core arendajate peamine ülesanne?
+answer: Nad vastutavad Bitcoin protokolli ja selle põhifunktsioonide peamise arenduse eest
+wrong_answers:
+  - Nad kontrollivad Bitcoin võrku
+  - Nad loovad uusi bitcoine
+  - Nad reguleerivad Bitcoini hinda
+explanation: |
+  Peatüki sisu selgitab, et Bitcoin Core arendajad vastutavad Bitcoin protokolli ja selle põhifunktsioonide peamise arenduse eest. Nad ei kontrolli Bitcoin võrku, ei loo uusi bitcoine ega reguleeri Bitcoini hinda.
+reviewed: false

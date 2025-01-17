@@ -1,0 +1,13 @@
+question: Apa entropi maksimum dari sebuah transaksi?
+
+answer: Entropi tertinggi yang dapat dicapai oleh struktur transaksi.
+
+wrong_answers:
+  - Entropi terendah yang dapat dicapai oleh struktur transaksi.
+  - Entropi aktual dari sebuah transaksi.
+  - Efisiensi dari sebuah transaksi.
+
+explanation: |
+  Entropi maksimum merujuk pada entropi tertinggi yang secara teoritis dapat dicapai oleh struktur transaksi tertentu.
+
+reviewed: false

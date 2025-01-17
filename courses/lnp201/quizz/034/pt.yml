@@ -1,9 +1,9 @@
-question: Qual é o objetivo do Timelock em uma transação de compromisso?
-answer: Ele bloqueia os fundos até um determinado bloco.
+question: Quais informações o nó remetente deve conhecer para realizar um pagamento através do roteamento onion?
+answer: A topologia da rede e a rota completa até o destinatário
 wrong_answers:
-  - Ele bloqueia a transação até um determinado bloco.
-  - Ele bloqueia o canal até um determinado bloco.
-  - Ele bloqueia a chave de revogação até um determinado bloco.
+  - Apenas o próximo nó intermediário
+  - A capacidade de cada canal
+  - A assinatura criptográfica de cada nó no caminho
 explanation: |
-  O Timelock em uma transação de compromisso bloqueia os fundos até um determinado bloco. Isso impede que a parte que criou a transação recupere imediatamente seu dinheiro.
+  O nó remetente deve conhecer a topologia da rede para calcular a rota até o destinatário, permitindo que escolha o melhor caminho.
 reviewed: false

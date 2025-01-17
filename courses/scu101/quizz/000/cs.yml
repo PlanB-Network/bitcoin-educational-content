@@ -3,11 +3,12 @@ answer: TOR maskuje IP adresu uživatele, zatímco soukromé prohlížení ne.
 wrong_answers:
   - Soukromé prohlížení a TOR jsou totéž.
   - Soukromé prohlížení maskuje IP adresu uživatele, zatímco TOR ne.
-  - TOR zanechává na počítači lokální stopy, zatímco soukromé prohlížení ne.
+  - TOR zanechává lokální stopy na vašem počítači, zatímco soukromé prohlížení ne.
 explanation: |
-  Soukromé prohlížení je funkce, která brání internetovým prohlížečům v ukládání
-  historie prohlížení, dočasných internetových souborů, dat formulářů, cookies a uživatelských jmen a
-  hesel. Nicméně nezakrývá prohlížení před poskytovatelem internetových služeb.
-  Na druhou stranu, síť TOR nabízí anonymitu maskováním IP adresy uživatele
-  a umožňuje přístup na Darknet.
-reviewed: false
+  Soukromé prohlížení je funkce, která brání internetovým
+  prohlížečům v ukládání historie prohlížení, dočasných internetových
+  souborů, formulářových dat, cookies a uživatelských jmen a hesel.
+  Nicméně nezakrývá prohlížení před vaším poskytovatelem internetových
+  služeb. Na druhou stranu, síť TOR nabízí anonymitu maskováním
+  IP adresy uživatele a umožňuje přístup na Darknet.
+reviewed: true

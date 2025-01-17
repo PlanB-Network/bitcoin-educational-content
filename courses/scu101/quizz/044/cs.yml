@@ -1,13 +1,12 @@
-question: Proč je důležité postupně nahrazovat stará hesla těmi generovanými správcem hesel?
+question: Proč je důležité postupně nahrazovat stará hesla těmi, která generuje správce hesel?
 answer: Hesla generovaná správcem hesel jsou silnější a delší, což poskytuje vyšší bezpečnost.
 wrong_answers:
   - Stará hesla jsou správcem hesel automaticky mazána.
   - Správci hesel mohou uchovávat pouze omezený počet hesel.
   - Správci hesel vyžadují, aby všechna hesla byla generována jimi.
 explanation: |
-  Hesla generovaná správcem hesel jsou silnější a delší, což poskytuje
-
-  vyšší bezpečnost. Postupným nahrazováním starých hesel těmito můžete zvýšit
-
-  bezpečnost svých online účtů.
-reviewed: false
+  Hesla generovaná správcem hesel jsou silnější a
+  delší, což poskytuje vyšší bezpečnost. Postupným nahrazováním
+  vašich starých hesel těmito můžete zvýšit bezpečnost
+  vašich online účtů.
+reviewed: true

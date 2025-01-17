@@ -1,9 +1,11 @@
-question: Tại sao việc cập nhật hệ điều hành và các ứng dụng một cách thường xuyên lại quan trọng?
+question: Tại sao việc cập nhật định kỳ hệ điều hành và các ứng dụng lại quan trọng?
 answer: Để bảo vệ khỏi các mối đe dọa và lỗ hổng mới.
 wrong_answers:
   - Để làm cho máy trở nên lỗi thời.
   - Để làm chậm máy.
   - Để thay đổi giao diện người dùng.
 explanation: |
-  Việc cập nhật thường xuyên là cần thiết để bảo vệ hệ thống khỏi các mối đe dọa và lỗ hổng mới. Chúng không nhằm mục đích làm cho máy trở nên lỗi thời hoặc chậm lại.
-reviewed: false
+  Việc cập nhật định kỳ là cần thiết để bảo vệ hệ thống khỏi
+  các mối đe dọa và lỗ hổng mới. Chúng không nhằm mục đích
+  làm cho máy trở nên lỗi thời hoặc chậm lại.
+reviewed: true

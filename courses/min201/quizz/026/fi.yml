@@ -1,8 +1,9 @@
 question: Mikä on solmujen rooli Bitcoin-verkossa?
-answer: Solmut ylläpitävät eheyttä tarkistamalla ja vahvistamalla tapahtumia ja lohkoja.
+answer: Solmut ylläpitävät eheyttä vahvistamalla ja validoidessa transaktioita ja lohkoja.
 wrong_answers:
-  - Solmut luovat ja vahvistavat lohkoja.
-  - Solmut tarkistavat vain tapahtumia.
+  - Solmut luovat ja validoivat lohkoja.
+  - Solmut vahvistavat vain transaktioita.
   - Solmuilla ei ole roolia Bitcoin-verkossa.
 explanation: |
-  Bitcoin-verkossa solmut ylläpitävät verkon eheyttä tarkistamalla ja vahvistamalla tapahtumia ja lohkoja. Virheellinen tai petollinen lohko hylätään solmujen toimesta, mikä säilyttää verkon turvallisuuden.
+  Bitcoin-verkossa solmut ylläpitävät verkon eheyttä vahvistamalla ja validoidessa transaktioita ja lohkoja. Virheellinen tai petollinen lohko hylätään solmujen toimesta, mikä säilyttää verkon turvallisuuden.
+reviewed: true

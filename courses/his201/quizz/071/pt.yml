@@ -1,0 +1,9 @@
+question: O que causou a partida abrupta de Satoshi Nakamoto em dezembro de 2010?
+answer: A publicação de um artigo vinculando o Bitcoin e o WikiLeaks
+wrong_answers:
+  - A aceitação do bitcoin pelo WikiLeaks
+  - Gavin Andresen assumindo o controle do código
+  - O aumento no preço unitário do bitcoin
+explanation: |
+  Intitulado Could the Wikileaks Scandal Lead to New Virtual Currency? (O Escândalo do Wikileaks Poderia Levar a Uma Nova Moeda Virtual?), este [artigo](https: //www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) foi publicado na PC World, um dos maiores sites americanos dedicados à computação.
+reviewed: false

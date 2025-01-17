@@ -2,8 +2,13 @@ question: Perché i bitcoin vergini sono particolarmente ricercati dai grandi at
 answer: Possono garantire la legittimità dei loro asset digitali alle autorità di regolamentazione.
 wrong_answers:
   - Possono venderli a un prezzo più alto.
-  - Possono usarli per attività illegali.
-  - Possono evitare di pagarci le tasse.
+  - Possono utilizzarli per attività illegali.
+  - Possono evitare di pagare le tasse su di essi.
 explanation: |
-  I bitcoin vergini sono particolarmente ricercati dai grandi attori istituzionali perché possono garantire la legittimità dei loro asset digitali alle autorità di regolamentazione. Questi bitcoin non sono mai stati "contaminati", fornendo una certa garanzia contro il rifiuto da parte dei regolatori o delle principali piattaforme di scambio.
-reviewed: false
+  I bitcoin vergini sono particolarmente ricercati dai grandi
+  attori istituzionali perché possono garantire la
+  legittimità dei loro asset digitali alle autorità di
+  regolamentazione. Questi bitcoin non sono mai stati contaminati,
+  fornendo una certa garanzia contro il rifiuto da parte dei regolatori o
+  delle principali piattaforme di scambio.
+reviewed: true

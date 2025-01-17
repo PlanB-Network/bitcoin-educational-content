@@ -1,0 +1,14 @@
+question: Hva er den nåværende utvinningsbelønningen i Bitcoin-nettverket?
+answer: Opprettelsen av nye bitcoins og transaksjonsgebyrer
+wrong_answers:
+  - Opprettelsen av nye bitcoins kun
+  - Kun transaksjonsgebyrer
+  - Opprettelsen av nye bitcoins, transaksjonsgebyrer, og en bonus for den raskeste gruvearbeideren
+explanation: |
+  Den nåværende utvinningsbelønningen i Bitcoin-nettverket er
+  todelt. Den inkluderer opprettelsen av nye bitcoins, som
+  har redusert fra 50 bitcoins hvert tiende minutt i begynnelsen
+  til 6.25 bitcoins i dag (2023). Den inkluderer også transaksjonsgebyrer,
+  eller gruvegebyrer, fra transaksjonene som gruvearbeideren
+  velger å inkludere i sin blokk.
+reviewed: true

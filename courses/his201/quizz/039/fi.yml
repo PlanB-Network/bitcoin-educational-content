@@ -1,0 +1,9 @@
+question: Kuka oli ensimmäinen, joka toteutti louhinnan näytönohjaimella (GPU) vuonna 2010?
+answer: Laszlo Hanyecz
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Nils Schneider
+explanation: |
+  Huhtikuussa 2010 hän käytti OpenCL-ympäristöä ottaakseen GPU: n mukaan bitcoinien louhintaan. Toukokuun 10. päivänä hän [julkaisi](https; //bitcointalk.org/index.php?topic=124.msg1100#msg1100) suoritettavan tiedoston foorumilla.
+reviewed: false

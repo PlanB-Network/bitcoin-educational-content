@@ -2,10 +2,11 @@ question: Mikä on yksi ainutlaatuinen tapa osallistua Bitcoin-ekosysteemiin lou
 answer: Bitcoinien louhiminen talvella voi olla ovela tapa lämmittää kotiasi samalla kun generoit tuloja Bitcoineina.
 wrong_answers:
   - Bitcoinien louhiminen voi olla tapa saada ilmaista sähköä.
-  - Bitcoinien louhiminen voi olla tapa saada ilmaista internet-yhteyttä.
+  - Bitcoinien louhiminen voi olla tapa saada ilmaista internetiä.
   - Bitcoinien louhiminen voi olla tapa saada ilmaista laitteistoa.
 explanation: |
-  Yksi ainutlaatuinen tapa osallistua Bitcoin-ekosysteemiin louhimisen kautta
-  on louhia Bitcoineja talvella. Tämä voi olla ovela tapa lämmittää kotiasi samalla kun
-  generoit tuloja Bitcoineina.
-reviewed: false
+  Yksi ainutlaatuinen tapa osallistua Bitcoin-ekosysteemiin
+  louhimalla on louhia Bitcoineja talvella. Tämä voi
+  olla ovela tapa lämmittää kotiasi samalla kun generoit tuloja
+  Bitcoineina.
+reviewed: true

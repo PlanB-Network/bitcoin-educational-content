@@ -1,9 +1,8 @@
-question: ¿Qué representa la semilla en una billetera de Bitcoin?
-answer: Es un número aleatorio o pseudoaleatorio a partir del cual se generan múltiples claves.
+question: ¿Qué constante se utiliza para derivar la clave privada maestra a partir de la semilla?
+answer: Bitcoin Seed
 wrong_answers:
-  - Es la contraseña para acceder a la billetera.
-  - Es la primera transacción de Bitcoin registrada en la billetera.
-  - Es la firma digital del propietario de la billetera.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  La semilla en una billetera de Bitcoin se supone que es un número aleatorio o pseudoaleatorio. Esta semilla permite la generación de múltiples claves, que son esenciales para la propiedad de criptomonedas.
-reviewed: false
+  La constante Bitcoin Seed se utiliza como clave en la función HMAC-SHA512 para derivar la clave privada maestra y el código de cadena maestro.

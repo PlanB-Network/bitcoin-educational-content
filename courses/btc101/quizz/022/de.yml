@@ -1,11 +1,9 @@
-question: Warum wurde Gold zum Standardmedium des Austauschs?
-answer: Aufgrund seiner Seltenheit, Haltbarkeit und Teilbarkeit
+question: Warum wurde Gold zum Standardtauschmittel?
+answer: Aufgrund seiner Seltenheit, Haltbarkeit und Teilbarkeit.
 wrong_answers:
-  - Aufgrund seiner Fülle, Haltbarkeit und Unteilbarkeit
-  - Aufgrund seiner Seltenheit, Vergänglichkeit und Teilbarkeit
-  - Aufgrund seiner Fülle, Vergänglichkeit und Unteilbarkeit
+  - Aufgrund seiner Häufigkeit, Haltbarkeit und Unteilbarkeit.
+  - Aufgrund seiner Seltenheit, Vergänglichkeit und Teilbarkeit.
+  - Aufgrund seiner Häufigkeit, Vergänglichkeit und Unteilbarkeit.
 explanation: |
-  Gold wurde zum Standardmedium des Austauschs aufgrund seiner Seltenheit, Haltbarkeit
-  und Teilbarkeit. Seine Seltenheit verhindert eine Abwertung durch Produktion, seine Haltbarkeit gewährleistet, dass es im Laufe der Zeit nicht erodiert, und seine Teilbarkeit ermöglichte den Einsatz in Transaktionen unterschiedlicher
-  Größen.
-reviewed: false
+  Gold wurde aufgrund seiner Seltenheit, Haltbarkeit und Teilbarkeit zum Standardtauschmittel: seine Seltenheit verhinderte die Entwertung, die durch Produktion verursacht werden könnte; seine Haltbarkeit stellte sicher, dass es nicht mit der Zeit erodieren würde, und seine Teilbarkeit ermöglichte die Verwendung in Transaktionen unterschiedlicher Größen.
+reviewed: true

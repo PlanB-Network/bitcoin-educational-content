@@ -2,7 +2,7 @@ topic: bitcoin
 subtopic: bitcoin
 
 level: intermediate
-hours: 9
+hours: 26
 
 professors:
   - pretty-private
@@ -28,10 +28,11 @@ proofreading:
     contributors_id:
     reward: 118306
   - language: es
-    last_contribution_date:
+    last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
-    reward: 176209
+      - OscarG673
+    reward: 88118
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -59,10 +60,11 @@ proofreading:
     contributors_id:
     reward: 118306
   - language: ru
-    last_contribution_date:
+    last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
-    reward: 234112
+      - Reshetenko
+    reward: 117074
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1

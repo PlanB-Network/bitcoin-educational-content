@@ -1,0 +1,8 @@
+question: Hva er effekten av en Bitcoin-transaksjon på UTXOene i utdata?
+answer: Den oppretter dem ved å bruke UTXOene som forbrukes i inndata.
+wrong_answers:
+  - Den forbruker dem for å tilfredsstille inndataene.
+  - Den krypterer dem for å anonymisere mottakeren.
+  - Den deler dem midlertidig for verifisering.
+explanation: |
+  UTXOene i utdataene av transaksjonen blir opprettet ved å forbruke UTXOene i inndata. Det er på en måte destinasjonen for pengene.

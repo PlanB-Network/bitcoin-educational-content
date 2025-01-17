@@ -5,5 +5,5 @@ wrong_answers:
   - Coinjoin
   - Hromadné utrácení
 explanation: |
-  Interpretací této struktury je, že jsme svědky operace typu "sweep", což znamená samopřevod bitcoinů.
+  Interpretací této struktury je, že jsme svědky operace typu sweep, což znamená samopřevod bitcoinů.
 reviewed: false

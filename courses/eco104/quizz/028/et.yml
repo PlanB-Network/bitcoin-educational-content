@@ -1,0 +1,11 @@
+question: Kas igaüks võib Bitcoin'i koodi kopeerida?
+answer: jah, kuid sa ei saa kopeerida Bitcoin'i võrgustiku väärtust
+wrong_answers:
+  - jah ja sa kopeeriksid ka Bitcoin'i võrgustiku väärtuse
+  - ei ja sa saad kopeerida Bitcoin'i võrgustiku väärtuse
+  - ei, kuna Bitcoin'i kood on suletud lähtekoodiga
+explanation: |
+  Kuigi Bitcoin'i kood on avatud lähtekoodiga ja seda saab kopeerida,
+  ei tulene bitcoin'i väärtus selle koodist. See tuleneb
+  selle kasutajate võrgustikust ning usaldusest ja vastuvõtust, mida on ajapikku üles ehitatud.
+reviewed: true

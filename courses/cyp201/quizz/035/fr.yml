@@ -1,9 +1,9 @@
-question: Quelle est la taille d'une clé publique Bitcoin ?
-answer: Un nombre de 512 bits
+question: Quel standard Bitcoin introduit les portefeuilles déterministes hiérarchiques ?
+answer: BIP32
 wrong_answers:
-  - Un nombre de 256 bits
-  - Un nombre de 128 bits
-  - Un nombre de 1024 bits
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  La clé privée unique est utilisée pour dériver une clé publique de 512 bits dans le système Bitcoin.
+  Le BIP32 définit le fonctionnement des portefeuilles HD, permettant la dérivation hiérarchique des clés privées à partir d'une graine.
 reviewed: false

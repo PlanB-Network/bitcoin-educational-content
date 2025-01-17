@@ -1,0 +1,8 @@
+question: Apa karakteristik paling sulit untuk dicapai dengan mata uang digital seperti bitcoin?
+answer: Ketidakhadiran pengeluaran ganda
+wrong_answers:
+  - Integritas
+  - Keaslian
+  - Verasitas
+explanation: |
+  Untuk mata uang digital, memastikan ketidakhadiran pengeluaran ganda lebih kompleks, karena setiap barang digital pada dasarnya adalah informasi. Tidak seperti barang fisik, informasi tidak terbagi selama pertukaran tetapi berkembang dengan cara berlipat ganda.

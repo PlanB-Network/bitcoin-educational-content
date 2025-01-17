@@ -1,0 +1,9 @@
+question: Siapakah individu yang memberikan reaksi positif terhadap publikasi white paper pada November 2008?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  Pada 7 November, ia menulis ke daftar bahwa Bitcoin [tampaknya] menjadi ide yang sangat menjanjikan. Yang lainnya lebih skeptis. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: false

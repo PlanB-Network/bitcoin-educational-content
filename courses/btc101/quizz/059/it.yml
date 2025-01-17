@@ -1,9 +1,9 @@
-question: Qual è la quantità massima di unità di Bitcoin che possono esistere?
-answer: 21 milioni di unità
+question: Quale delle seguenti non è una caratteristica di Bitcoin?
+answer: È facilmente censurabile.
 wrong_answers:
-  - 25 milioni di unità
-  - 30 milioni di unità
-  - 50 milioni di unità
+  - È istantaneamente trasportabile.
+  - Ha costi di verifica trascurabili.
+  - Ha una politica monetaria fissa.
 explanation: |
-  Il codice informatico di Bitcoin e il consenso di tutti gli utenti che partecipano al protocollo determinano che la quantità massima di unità di Bitcoin che possono esistere è di 21 milioni.
-reviewed: false
+  Bitcoin possiede tutte le caratteristiche necessarie per essere una valuta efficiente e salutare: divisibile, istantaneamente trasportabile, non censurabile, con costi di verifica trascurabili, e con una politica monetaria già stabilita per i secoli a venire con 21 milioni di unità.
+reviewed: vero

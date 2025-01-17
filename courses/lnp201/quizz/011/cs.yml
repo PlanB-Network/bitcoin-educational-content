@@ -1,12 +1,9 @@
-question: Co je to adresa s více podpisy v kontextu Lightning Network?
-answer: Adresa, která vyžaduje dva podpisy pro odemčení prostředků.
+question: Proč Alice vytváří transakci pro výběr peněz před publikováním transakce vkladu?
+answer: Aby mohla získat zpět své peníze v případě problému s Bobem
 wrong_answers:
-  - Adresa, kterou mohou používat více uživatelů.
-  - Adresa, která může držet více typů kryptoměn.
-  - Adresa, ke které je možný přístup z více zařízení.
+  - Aby zvýšila kapacitu kanálu s každou transakcí
+  - Aby mohla okamžitě provést Lightning transakci po otevření
+  - Aby umožnila Bobovi přímo utratit peníze
 explanation: |
-  V Lightning Network se používají adresy s více podpisy. Tyto
-  adresy
-  vyžadují dva podpisy, nebo dvě soukromé klíče, pro odemčení prostředků. To znamená, že
-  dvě strany musí souhlasit s odemčením peněz.
+  Alice vytváří transakci pro výběr peněz, aby mohla získat zpět své peníze, pokud by došlo k problému s Bobem, čímž zajišťuje bezpečnost svého vkladu.
 reviewed: false

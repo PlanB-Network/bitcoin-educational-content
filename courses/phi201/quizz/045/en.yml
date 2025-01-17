@@ -1,0 +1,9 @@
+question: What is the main thesis of Thomas Aquinas regarding the relationship between reason and faith?
+answer: Reason and faith are complementary and can support each other.
+wrong_answers:
+  - Reason and faith are two independent and contradictory sources of knowledge.
+  - All other answers are correct.
+  - Faith is superior to reason and can do without its arguments.
+explanation: |
+  Thomas Aquinas argues that reason and faith are complementary: reason can help understand and explain the truths of faith, while faith guides reason towards truths that would otherwise be inaccessible to it.
+reviewed: false

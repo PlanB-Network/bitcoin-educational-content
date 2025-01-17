@@ -1,0 +1,13 @@
+question: Entropy được tính toán như thế nào trong bối cảnh phân tích chuỗi trên Bitcoin?
+
+answer: Bằng cách lấy logarit nhị phân của số lượng giải thích.
+
+wrong_answers:
+  - Bằng cách nhân số lượng đầu vào với số lượng đầu ra.
+  - Bằng cách cộng số lượng đầu vào và đầu ra.
+  - Bằng cách lấy logarit nhị phân của số lượng đầu vào và đầu ra.
+
+explanation: |
+  Entropy được định nghĩa là logarit nhị phân của số lượng tổ hợp có thể có.
+
+reviewed: false

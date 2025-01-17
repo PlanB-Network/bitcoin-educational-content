@@ -1,0 +1,9 @@
+question: Hvilket økonomisk konsept fremhever Bastiat i sin analyse av kostnaden ved ødeleggelse?
+answer: Alternativkostnad
+wrong_answers:
+  - Grensekostnad
+  - Grenseproduktivitet
+  - Produksjonskostnad
+explanation: |
+  Bastiat understreker viktigheten av alternativkostnad, ved å illustrere at ressurser brukt til å reparere ødeleggelse kunne ha blitt brukt til å skape velstand andre steder.
+reviewed: false

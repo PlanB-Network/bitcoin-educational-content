@@ -1,0 +1,9 @@
+question: Kdo navrhl myšlenku soutěže mezi soukromými měnami?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek navrhl myšlenku soutěže mezi soukromými měnami, aby se snížil vliv vlád na měnu a podpořila měnová stabilita založená na trhu namísto centralizovaných politik.
+reviewed: false

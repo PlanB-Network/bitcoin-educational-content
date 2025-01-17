@@ -1,9 +1,8 @@
-question: Wie groß ist ein Bitcoin-Privatschlüssel?
-answer: 256-Bit-Zahl
+question: Welches Sighash-Flag wird am häufigsten bei Bitcoin-Transaktionen verwendet?
+answer: SIGHASH_ALL
 wrong_answers:
-  - 512-Bit-Zahl
-  - 128-Bit-Zahl
-  - 1024-Bit-Zahl
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  Im Bitcoin-System ist der Privatschlüssel eine zufällige oder pseudo-zufällige 256-Bit-Zahl.
-reviewed: false
+  SIGHASH_ALL ist das Standard-Sighash-Flag, das alle Eingaben und Ausgaben einer Transaktion abdeckt und jegliche Modifikationen verhindert.

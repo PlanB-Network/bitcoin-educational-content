@@ -1,0 +1,9 @@
+question: Hvordan sikrer Bitcoin-protokollen at den gjennomsnittlige tiden mellom to blokker forblir konstant?
+answer: Vanskelighetsgraden for å finne en gyldig hash justeres hver 2016. blokk
+wrong_answers:
+  - Antallet gruvearbeidere reguleres
+  - Størrelsen på blokkene justeres
+  - Belønningen for å finne en gyldig hash økes
+explanation: >-
+  Bitcoin-protokollen sikrer at den gjennomsnittlige tiden mellom to blokker forblir konstant ved å justere vanskelighetsgraden for å finne en gyldig hash hver 2016. blokk. Dette skjer uavhengig av antall gruvearbeidere og deres databehandlingskraft.
+reviewed: false

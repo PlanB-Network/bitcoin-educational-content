@@ -1,11 +1,12 @@
-question: Mikä on suurin mahdollinen määrä Bitcoin-yksiköitä, jotka voivat koskaan olla olemassa?
-answer: 21 miljoonaa
+question: Mikä on suurin määrä Bitcoin-yksiköitä, jotka voivat koskaan olemassa?
+answer: 21 miljoonaa.
 wrong_answers:
-  - 3 biljoonaa
-  - 100 miljoonaa
-  - Ei ole rajoitusta
+  - 3 biljoonaa.
+  - 100 miljoonaa.
+  - Ei ole rajaa.
 explanation: |
-  Bitcoinin kokonaistarjonta on rajattu 21 miljoonaan yksikköön. Tämä on
-  keskeinen Bitcoinin ominaisuus, joka erottaa sen fiat-valuutoista, joita
-  keskuspankit voivat painaa rajattomasti.
-reviewed: false
+  Bitcoinin kokonaistarjonta on rajattu 21 miljoonaan yksikköön.
+  Tämä on keskeinen Bitcoinin ominaisuus, joka erottaa sen
+  fiat-valuutoista, joita keskuspankit voivat painaa
+  rajattomasti.
+reviewed: true

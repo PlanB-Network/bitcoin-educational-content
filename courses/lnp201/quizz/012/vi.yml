@@ -1,11 +1,13 @@
-question: Mục đích của địa chỉ đa chữ ký trong Mạng Lưới Lightning là gì?
-answer: Chúng yêu cầu hai bên đồng ý để mở khóa quỹ.
+question: Kênh Lightning chính thức mở khi nào?
+
+answer: Khi giao dịch nạp tiền được xác nhận trên blockchain của Bitcoin
+
 wrong_answers:
-  - Chúng cho phép thời gian giao dịch nhanh hơn.
-  - Chúng cung cấp bảo mật bổ sung chống lại việc hack.
-  - Chúng cho phép sử dụng nhiều loại tiền tệ kỹ thuật số.
+  - Ngay khi các khóa công khai được trao đổi giữa các bên tham gia
+  - Khi giao dịch rút tiền được cả hai bên ký
+  - Ngay khi địa chỉ đa chữ ký 2/2 được tạo
+
 explanation: |
-  Địa chỉ đa chữ ký trong Mạng Lưới Lightning yêu cầu hai bên
-  đồng ý để mở khóa quỹ. Đây là một biện pháp bảo mật đảm bảo rằng quỹ
-  chỉ có thể được di chuyển với sự đồng ý của cả hai bên.
+  Kênh được coi là đã mở một khi giao dịch nạp tiền đã được đưa vào một khối Bitcoin và đã đạt được một số lượng xác nhận nhất định.
+
 reviewed: false

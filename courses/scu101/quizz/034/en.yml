@@ -1,10 +1,11 @@
-question: What can email attachments and images contain?
+question: What malicious content can email attachments and images contain?
 answer: Malware
 wrong_answers:
   - Spam
   - Advertisements
   - Promotional content
 explanation: |
-  Email attachments and images can contain malware. Therefore, you should
-  not download or open attachments from unknown or suspicious senders.
-reviewed: false
+  Email attachments and images can contain malware.
+  Therefore, you should not download or open attachments from
+  unknown or suspicious senders.
+reviewed: true

@@ -3,7 +3,8 @@ answer: Análise de logs, resposta a incidentes
 wrong_answers:
   - Design gráfico, edição de vídeo
   - Vendas, marketing
-  - Culinária, panificação
+  - Cozinhar, assar
 explanation: |
-  O capítulo menciona a análise de logs e a resposta a incidentes como algumas das habilidades necessárias em cibersegurança.
-reviewed: false
+  O capítulo menciona análise de logs e resposta a incidentes como
+  algumas das habilidades necessárias em cibersegurança.
+reviewed: true

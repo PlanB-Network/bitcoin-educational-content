@@ -1,9 +1,9 @@
-question: ¿Qué sugiere el texto que hagas para ampliar tu conocimiento sobre Bitcoin?
-answer: Consulta la biblioteca de recursos enumerados y categorizados en los últimos años.
+question: ¿Qué significa que Bitcoin tenga una tendencia general al alza?
+answer: Una tendencia general al alza en Bitcoin significa que, en general, el precio de Bitcoin ha estado aumentando.
 wrong_answers:
-  - Asistir a conferencias sobre Bitcoin
-  - Invertir en Bitcoin
-  - Iniciar una operación de minería de Bitcoin
+  - Una tendencia general al alza en Bitcoin significa que el precio está garantizado a subir indefinidamente sin ninguna fluctuación.
+  - Una tendencia general al alza en Bitcoin significa que Bitcoin está perdiendo valor y está perdiendo su atractivo en el mercado.
+  - Una tendencia general al alza en Bitcoin significa que solo es popular entre un pequeño grupo de inversores y no tiene impacto en el mercado general.
 explanation: |
-  El texto sugiere que para ampliar tu conocimiento sobre Bitcoin, puedes consultar la biblioteca de recursos que se han enumerado y categorizado en los últimos años, incluyendo podcasts, sitios web, artículos, tutoriales, libros y otros contenidos.
-reviewed: false
+  Una tendencia general al alza en Bitcoin se refiere a un aumento consistente en su precio durante un cierto período de tiempo. Es importante notar que, aunque una tendencia al alza sugiere una trayectoria positiva, esto no garantiza que el precio continuará subiendo sin ninguna fluctuación.
+reviewed: true

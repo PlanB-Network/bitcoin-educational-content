@@ -1,0 +1,12 @@
+question: Hva er den potensielle trusselen med Proof of Stake i Bitcoin-nettverket?
+answer: De som allerede har en stor mengde av valutaen har uforholdsmessig stor makt, noe som reflekterer eksisterende maktulikheter.
+wrong_answers:
+  - Det ville representere en betydelig barriere for validatorer som holder en stor mengde valuta.
+  - Det tillater ikke småskala deltakelse.
+  - Det krever ikke håndgripelige ressurser.
+explanation: |
+  I et Proof of Stake-nettverk har de som allerede holder en stor
+  mengde av valutaen uforholdsmessig stor makt. Denne
+  dynamikken kan potensielt videreføre sentralisering og
+  konsentrasjon av makt i hendene på noen få.
+reviewed: true

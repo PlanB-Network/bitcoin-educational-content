@@ -1,0 +1,13 @@
+question: How can a payjoin transaction be considered a steganographic transaction?
+
+answer: It hides the actual payment amount from external observers.
+
+wrong_answers:
+  - It encrypts the actual payment amount for external observers.
+  - It hides the actual payment amount from the recipient.
+  - It encrypts the actual payment amount for the recipient.
+
+explanation: |
+  The payjoin transaction falls under the domain of steganography because it hides the real amount of a transaction within a fake transaction that acts as a decoy for external observers.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on avaimen luontialgoritmin tehtävä symmetrisessä salausjärjestelmässä?
+answer: Se luo yksityisen avaimen
+wrong_answers:
+  - Se luo julkisen avaimen
+  - Se tiivistää viestin
+  - Se salaa viestin
+explanation: |
+  Symmetrisessä salausjärjestelmässä avaimen luontialgoritmi tuottaa yksityisen avaimen, jota sitten käytetään viestien salaamiseen ja purkamiseen.
+reviewed: false

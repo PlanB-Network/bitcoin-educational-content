@@ -1,5 +1,5 @@
 ---
-name: NunChuk
+name: Nunchuk
 
 description: Учебник по NunChuk
 ---

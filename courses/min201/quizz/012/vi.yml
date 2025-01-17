@@ -1,13 +1,13 @@
 question: Hồ bơi khai thác hoạt động như thế nào và tại sao nó lại cần thiết?
 
-answer: Hồ bơi khai thác là một nhóm các thợ mỏ kết hợp nguồn lực tính toán của họ để tăng cơ hội khai thác. Sự hợp tác này là cần thiết bởi vì một máy khai thác nhỏ lẻ đang cạnh tranh với các gã khổng lồ trong ngành, làm giảm cơ hội thành công của nó xuống một mức không đáng kể. Bằng cách kết hợp lại với nhau, các thợ mỏ có thể kết hợp sức mạnh tính toán của họ, tìm ra các khối một cách thường xuyên hơn và sau đó phân phối phần thưởng một cách tỷ lệ với đóng góp của mỗi thợ mỏ vào hồ bơi.
+answer: Một hồ bơi khai thác là một nhóm các thợ mỏ kết hợp nguồn lực tính toán của họ để tăng cơ hội khai thác. Sự hợp tác này là cần thiết bởi vì một máy khai thác nhỏ lẻ đang cạnh tranh với những gã khổng lồ trong ngành, làm giảm cơ hội thành công của nó xuống mức không đáng kể. Bằng cách kết hợp lại, các thợ mỏ có thể kết hợp sức mạnh tính toán của mình, tìm ra các khối thường xuyên hơn và sau đó phân phối phần thưởng một cách tỷ lệ với đóng góp của từng thợ mỏ vào hồ bơi.
 
 wrong_answers:
-  - Hồ bơi khai thác là một nhóm các thợ mỏ chia sẻ cùng một máy khai thác để tăng cơ hội khai thác của họ. Sự hợp tác này là cần thiết bởi vì một máy khai thác đơn lẻ chỉ có thể khai thác một lượng Bitcoin hạn chế.
-  - Hồ bơi khai thác là một nhóm các thợ mỏ chia sẻ cùng một phần mềm khai thác để tăng cơ hội khai thác của họ. Sự hợp tác này là cần thiết bởi vì các phần mềm khai thác khác nhau có hiệu quả khác nhau.
-  - Hồ bơi khai thác là một nhóm các thợ mỏ chia sẻ cùng một địa điểm khai thác để tăng cơ hội khai thác của họ. Sự hợp tác này là cần thiết bởi vì vị trí của hoạt động khai thác có thể ảnh hưởng đến hiệu quả của việc khai thác.
+  - Một hồ bơi khai thác là một nhóm các thợ mỏ chia sẻ cùng một máy khai thác để tăng cơ hội khai thác. Sự hợp tác này là cần thiết bởi vì một máy khai thác đơn lẻ chỉ có thể khai thác một lượng Bitcoin hạn chế.
+  - Một hồ bơi khai thác là một nhóm các thợ mỏ chia sẻ cùng một phần mềm khai thác để tăng cơ hội khai thác. Sự hợp tác này là cần thiết bởi vì các phần mềm khai thác khác nhau có hiệu quả khác nhau.
+  - Một hồ bơi khai thác là một nhóm các thợ mỏ chia sẻ cùng một địa điểm khai thác để tăng cơ hội khai thác. Sự hợp tác này là cần thiết bởi vì vị trí của hoạt động khai thác có thể ảnh hưởng đến hiệu quả của việc khai thác.
 
 explanation:
-  Chương này giải thích rằng hồ bơi khai thác là một nhóm các thợ mỏ kết hợp nguồn lực tính toán của họ để tăng cơ hội khai thác. Sự hợp tác này là cần thiết bởi vì một máy khai thác nhỏ lẻ đang cạnh tranh với các gã khổng lồ trong ngành, làm giảm cơ hội thành công của nó xuống một mức không đáng kể.
+  Chương này giải thích rằng một hồ bơi khai thác là một nhóm các thợ mỏ kết hợp nguồn lực tính toán của họ để tăng cơ hội khai thác. Sự hợp tác này là cần thiết bởi vì một máy khai thác nhỏ lẻ đang cạnh tranh với những gã khổng lồ trong ngành, làm giảm cơ hội thành công của nó xuống mức không đáng kể.
 
-reviewed: false
+reviewed: true

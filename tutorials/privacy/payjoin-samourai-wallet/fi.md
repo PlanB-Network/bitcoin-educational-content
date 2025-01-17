@@ -27,7 +27,7 @@ Stowaway perustuu transaktiotyyppiin, jota Samourai kutsuu "Cahootsiksi". Cahoot
 Cahoots-maksutapahtumat sisältävät osittain allekirjoitettujen transaktioiden vaihtoja käyttäjien välillä. Tämä prosessi voi olla pitkä ja hankala, erityisesti kun se tehdään etänä. Se voidaan kuitenkin silti suorittaa manuaalisesti toisen käyttäjän kanssa, mikä voi olla kätevää, jos yhteistyökumppanit ovat fyysisesti lähellä. Käytännössä tämä tarkoittaa viiden QR-koodin manuaalista vaihtoa, jotka skannataan peräkkäin.
 
 Kun tämä prosessi tehdään etänä, se muuttuu liian monimutkaiseksi. Tämän ongelman ratkaisemiseksi Samourai on kehittänyt Toriin perustuvan salatun viestintäprotokollan, nimeltään "Soroban". Sorobanin avulla Payjoinin vaatimat vaihdot automatisoidaan käyttäjäystävällisen käyttöliittymän taakse. Tämä on toinen menetelmä, jota tutkimme tässä artikkelissa.
-Nämä salatut vaihdot vaativat yhteyden ja autentikoinnin luomisen Cahoots-osallistujien välille. Soroban-viestintä perustuu siis käyttäjien Paynym-tunnisteisiin. Jos et ole tuttu Paynymien kanssa, suosittelen tutustumaan tähän artikkeliin saadaksesi lisätietoja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+Nämä salatut vaihdot vaativat yhteyden ja autentikoinnin luomisen Cahoots-osallistujien välille. Soroban-viestintä perustuu siis käyttäjien Paynym-tunnisteisiin. Jos et ole tuttu Paynymien kanssa, suosittelen tutustumaan tähän artikkeliin saadaksesi lisätietoja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
  Yksinkertaistaen, Paynym on uniikki tunniste, joka on linkitetty lompakkoosi ja mahdollistaa useita toimintoja, mukaan lukien salatun viestinnän. Paynym esitetään tunnisteen ja robotin kuvaa esittävän kuvituksen muodossa. Tässä on esimerkki omastani Testnetissä: ![paynym samourai wallet](assets/en/1.webp)
 
@@ -38,7 +38,7 @@ Nämä salatut vaihdot vaativat yhteyden ja autentikoinnin luomisen Cahoots-osal
 - _Soroban_ = Salattu viestintäprotokolla, joka on perustettu Tor-verkkoon, mahdollistaen yhteistyön muiden käyttäjien kanssa Cahoots-transaktion yhteydessä;
 - _Paynym_ = Lompakon uniikki tunniste, joka mahdollistaa viestinnän toisen käyttäjän kanssa Sorobanissa, Cahoots-transaktion suorittamiseksi.
 
-[**-> Lue lisää Payjoin-transaktioista ja niiden hyödyistä**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Lue lisää Payjoin-transaktioista ja niiden hyödyistä**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Miten yhteys Paynymien välille luodaan?
 

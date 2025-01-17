@@ -1308,28 +1308,10 @@ Por supuesto, **en otros países, la legislación y el funcionamiento de las aso
 
 
 
-## Danos tu opinión sobre este curso
+## Reseñas & Valoraciones
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Cuida de Ti Mismo
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Cuando uno cae por la madriguera del conejo, nuestra percepción de muchas cosas cambia.
-Esto nos empuja a querer ir más allá, a querer descubrir a esas otras personas que están haciendo el mismo trabajo mental que nosotros y que, también, han entendido.
-Esto nos motiva, nos da aún más deseos de **aportar nuestra piedra al edificio** y compartir nuestro descubrimiento: Bitcoin.
-También nos lleva a **pensar en el mundo del mañana, el que deseamos construir, y las comunidades que están en proceso de construirlo**.
-####
-**En esta larga galería que es la creación de una comunidad, necesitarás mostrar motivación, estrategia, sacrificio y tiempo**. Es a veces una tarea ingrata; y en este empeño, es mejor tomar las cosas poco a poco para no lastimarte.
-**Así que piensa en ti mismo, en tus límites**. Y aunque Bitcoin pueda animarte noche y día, **no trates de hacer todo solo; de lo contrario, te agotarás**.
-
-Por el contrario, **pide ayuda a los bitcoiners que ya han pasado por esta misma galería, que ya han explorado los mismos problemas y construido las mismas herramientas**. Esto te ahorrará una cantidad tremenda de tiempo.
-
-**También propón a las personas que te seguirán en esta aventura que te ayuden, incluso si eso significa delegar algunas tareas** y que estas puedan tardar más. A la larga, tu comunidad emergerá unida y más madura.
-
-![image](assets/fr/chapter39/63.webp)
-
-Solo, uno puede explorar rápidamente una de las muchas galerías de la madriguera del conejo de Bitcoin, hasta llegar a su final. Pero está el viaje de regreso por hacer. Luego todas las otras direcciones por explorar.
-Mientras que **creando y/o uniéndote a una comunidad de bitcoiners, compartiendo e intercambiando con ellos regularmente, explorarás todas las direcciones de la madriguera del conejo de Bitcoin al mismo tiempo**.
-
-Es entonces cuando, mucho más rápido de lo que habrías hecho por tu cuenta, podrás decir: "He entendido Bitcoin".
+<isCourseConclusion>true</isCourseConclusion>

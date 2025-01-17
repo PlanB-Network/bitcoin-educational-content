@@ -1,0 +1,9 @@
+question: Miks on arvuteooria eriti oluline avaliku võtme krüptograafias?
+answer: See pakub vajalikke matemaatilisi aluseid krüpteerimis- ja dekrüpteerimistoimingute jaoks.
+wrong_answers:
+  - See pakub vajalikke matemaatilisi aluseid räsifunktsioonide jaoks.
+  - See on vajalik närvivõrkude loomiseks.
+  - See võimaldab arvutada toiminguid ainult binaarsüsteemis.
+explanation: |
+  Arvuteooria on avaliku võtme krüptograafias kriitilise tähtsusega, kuna see aitab struktureerida algoritme, lähtudes täisarvude omadustest, mis hõlbustab krüpteerimis- ja dekrüpteerimistoiminguid.
+reviewed: false

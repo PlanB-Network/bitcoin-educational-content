@@ -1,9 +1,9 @@
-question: Kuka esitteli "Bitcoin-valtatien" idean?
+question: Kuka esitteli Bitcoin-valtatien idean?
 answer: Andreas Antonopoulos
 wrong_answers:
   - Satoshi Nakamoto
   - Elon Musk
   - Vitalik Buterin
 explanation: |
-  Andreas Antonopoulos, tunnettu Bitcoinin puolestapuhuja ja kouluttaja, esitteli "Bitcoin-valtatien" idean.
+  Andreas Antonopoulos, tunnettu Bitcoinin puolestapuhuja ja kouluttaja, esitteli Bitcoin-valtatien idean.
 reviewed: false

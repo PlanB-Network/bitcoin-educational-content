@@ -1,0 +1,9 @@
+question: Kuidas saab määratleda võtit nihkekrüpteeringus?
+answer: Number vahemikus 0 kuni 25
+wrong_answers:
+  - Suvaline sõna
+  - Suvaline number ilma piiranguteta
+  - Number vahemikus 1 kuni 26
+explanation: |
+  Nihkekrüpteeringus on võti number vahemikus 0 kuni 25, mis vastab tähtede nihutamise positsioonide arvule sõnumis 26-tähelises tähestikus.
+reviewed: false

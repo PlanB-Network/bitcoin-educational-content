@@ -1,0 +1,9 @@
+question: Apa yang terjadi jika seorang penyerang meny intercept pesan yang terenkripsi dalam skema enkripsi simetris yang baik?
+answer: Mereka seharusnya tidak dapat mempelajari apapun yang signifikan tentang pesan asli
+wrong_answers:
+  - Mereka selalu dapat mendekripsi pesan tanpa kunci
+  - Mereka seharusnya dapat mendekripsinya dengan kunci publik
+  - Mereka seharusnya dapat menebak isi dari pesan tersebut
+explanation: |
+  Dalam skema enkripsi simetris yang dirancang dengan baik, seorang penyerang yang meny intercept pesan terenkripsi seharusnya tidak dapat menemukan informasi relevan tentang isi pesan tanpa kunci dekripsi.
+reviewed: false

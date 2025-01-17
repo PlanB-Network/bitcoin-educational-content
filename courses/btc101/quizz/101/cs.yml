@@ -1,11 +1,11 @@
-question: Jaká je standardní metoda zálohování soukromého klíče v Bitcoin peněžence?
-answer: Zadání vaší mnemonické fráze do jakéhokoli softwaru peněženky
+question: Jaký je standardní způsob obnovení vaší peněženky?
+answer: Zadání vaší mnemonické fráze do jakéhokoli softwaru peněženky.
 wrong_answers:
-  - Uložení vaší mnemonické fráze do digitálního souboru
-  - Zapsání vaší mnemonické fráze na bílou tabuli
-  - Sdílení vaší mnemonické fráze s důvěryhodným přítelem
+  - Uložení vaší mnemonické fráze do digitálního souboru.
+  - Zapsání vaší mnemonické fráze na bílou tabuli.
+  - Sdílení vaší mnemonické fráze s důvěryhodným přítelem.
 explanation: |
-  Standardní metoda zálohování soukromého klíče v Bitcoin peněžence
-  je zadáním vaší mnemonické fráze do jakéhokoli softwaru peněženky. To vám umožní
-  obnovit vaši peněženku.
-reviewed: true
+  Standardní metoda zálohování soukromého klíče v
+  Bitcoinové peněžence je zadáním vaší mnemonické fráze do jakéhokoli
+  softwaru peněženky. To vám umožní obnovit vaši peněženku.
+reviewed: false

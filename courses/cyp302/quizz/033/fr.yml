@@ -1,0 +1,9 @@
+question: Quelle est la fonction principale d'une graine dans le contexte des chaînes pseudorandom ?
+answer: Servir de point de départ pour générer une chaîne de longueur supérieure
+wrong_answers:
+  - Définir la longueur fixe d'une chaîne pseudorandom
+  - Vérifier l'intégrité d'une chaîne pseudorandom
+  - Ajouter une distribution uniforme aux valeurs d'une chaîne
+explanation: |
+  La graine est une chaîne plus courte utilisée comme point de départ par un algorithme d'expansion pour générer une chaîne pseudorandom de longueur supérieure.
+reviewed: false

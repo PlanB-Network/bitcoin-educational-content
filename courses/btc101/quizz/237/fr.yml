@@ -1,9 +1,12 @@
-question: Comment le Lightning Network transforme-t-il potentiellement les modèles économiques existants dans l'industrie du jeu vidéo ?
+question: Comment le Lightning Network peut-il potentiellement transformer les modèles d'affaires existants dans l'industrie du jeu vidéo ?
 answer: Il permet aux joueurs de miser de très petites sommes d'argent lorsqu'ils jouent à des jeux.
 wrong_answers:
-  - Il permet aux joueurs de miner du Bitcoin tout en jouant à des jeux.
+  - Il permet aux joueurs de miner du Bitcoin en jouant.
   - Il permet aux développeurs de jeux d'accepter le Bitcoin comme moyen de paiement pour leurs jeux.
   - Il permet aux joueurs d'acheter des objets en jeu avec du Bitcoin.
-explanation: |
-  Le Lightning Network permet aux joueurs de miser de très petites sommes d'argent lorsqu'ils jouent à des jeux, comme quelques satoshis. Cela permet d'établir une mise qui stimule la compétition tout en augmentant considérablement le coût de déploiement des bots.
-reviewed: false
+explanation: >-
+  Le Lightning Network permet aux joueurs de miser de très petites sommes d'argent
+  lorsqu'ils jouent à des jeux, comme quelques satoshis. Cela permet d'établir
+  un enjeu qui stimule la compétition tout en augmentant significativement le coût de déploiement
+  de bots.
+reviewed: true

@@ -1,9 +1,13 @@
 question: O que é a Declaração da Independência do Ciberespaço?
 answer: Um texto que afirma que o ciberespaço é um domínio distinto da esfera física e não deve estar sujeito às mesmas leis.
 wrong_answers:
-  - Uma declaração da independência do Bitcoin em relação aos sistemas financeiros tradicionais.
-  - Um texto que afirma que a internet deve ser livre de regulamentação governamental.
-  - Uma declaração da independência do movimento pirata de qualquer regulamentação.
+  - Uma declaração que afirma a independência do Bitcoin dos sistemas financeiros tradicionais.
+  - Um texto que afirma que o ciberespaço deve ser controlado pela regulamentação governamental.
+  - Uma declaração que defende a independência do movimento pirata de qualquer regulamentação.
 explanation: |
-  A Declaração da Independência do Ciberespaço foi escrita por John Perry Barlow em 1996, afirmando que o ciberespaço é um domínio distinto da esfera física em que os governos industriais não podem impor sua autoridade.
-reviewed: false
+  A Declaração da Independência do Ciberespaço foi
+  escrita por John Perry Barlow em 1996. Este documento afirma
+  que o ciberespaço é um domínio distinto da esfera
+  física, portanto, os governos industriais não podem impor sua
+  autoridade lá.
+reviewed: true

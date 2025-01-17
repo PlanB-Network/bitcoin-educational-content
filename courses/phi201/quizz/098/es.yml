@@ -1,0 +1,9 @@
+question: ¿Cuál es la fuente principal de la alienación humana según Marx?
+answer: La alienación económica resultante de la explotación capitalista.
+wrong_answers:
+  - Alienación política que impide a los ciudadanos expresarse libremente.
+  - Alienación religiosa que enmascara la realidad de las injusticias sociales.
+  - Alienación de la cultura estadounidense.
+explanation: |
+  Según Marx, la alienación humana tiene su raíz en la alienación económica, donde al trabajador se le priva de los frutos de su trabajo bajo el capitalismo, lo que lleva a una pérdida de control y significado en su existencia.
+reviewed: false

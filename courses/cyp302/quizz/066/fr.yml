@@ -1,0 +1,9 @@
+question: Quelle est la fonction de l'algorithme de génération de clé dans un schéma de chiffrement symétrique ?
+answer: Il génère une clé privée
+wrong_answers:
+  - Il génère une clé publique
+  - Il hache le message
+  - Il chiffre le message
+explanation: |
+  Dans un schéma de chiffrement symétrique, l'algorithme de génération de clé produit une clé privée, qui sera ensuite utilisée pour chiffrer et déchiffrer les messages.
+reviewed: false

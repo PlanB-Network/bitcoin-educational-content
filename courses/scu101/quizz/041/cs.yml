@@ -1,13 +1,12 @@
 question: Jaká je výhoda používání vlastního správce hesel jako je Bitwarden nebo KeePass?
 answer: Můžete kontrolovat, kde jsou vaše hesla uložena, což nabízí větší bezpečnost a kontrolu.
 wrong_answers:
-  - Jsou snazší na používání než služby třetích stran.
-  - Nabízejí více funkcí než služby třetích stran.
-  - Jsou levnější než služby třetích stran.
+  - Jsou snazší a vždy bezpečnější k použití než služby třetích stran.
+  - Obvykle nabízejí více funkcí než služby třetích stran, ačkoliv jsou dražší.
+  - Jsou levnější a rychlejší než služby třetích stran.
 explanation: |
-  Vlastní správci hesel jako Bitwarden nebo KeePass vám umožňují
-
-  kontrolovat, kde jsou vaše hesla uložena, což potenciálně nabízí větší bezpečnost a
-
-  kontrolu. Nicméně, jejich používání může vyžadovat více technických znalostí.
-reviewed: false
+  Vlastní správci hesel jako Bitwarden nebo KeePass
+  vám umožňují kontrolovat, kde jsou vaše hesla uložena,
+  což potenciálně nabízí větší bezpečnost a kontrolu. Nicméně,
+  jejich používání může vyžadovat více technických znalostí.
+reviewed: true

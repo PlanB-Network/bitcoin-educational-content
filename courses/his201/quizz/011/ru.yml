@@ -1,0 +1,9 @@
+question: К какой частной валютной системе Сатоши Накамото явно обращался в своих письмах?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - The Liberty Dollar
+  - e-Bullion
+explanation: |
+  Эта система действительно была активна во время создания Bitcoin, в отличие от e-gold и The Liberty Dollar. Сатоши также [упоминал](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix, цифровую золотую валюту, созданную в 2002 году.
+reviewed: false

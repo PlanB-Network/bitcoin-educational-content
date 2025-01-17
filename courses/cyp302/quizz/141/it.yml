@@ -1,0 +1,9 @@
+question: Perché fattorizzare un prodotto di due numeri primi molto grandi è considerato un problema difficile?
+answer: Perché richiede una quantità proibitiva di tempo di calcolo anche per i supercomputer.
+wrong_answers:
+  - Perché richiede una chiave pubblica per ogni fattore.
+  - Perché coinvolge solo operazioni di base nel calcolo.
+  - Perché dipende dalla moltiplicazione e non dalla divisione.
+explanation: |
+  Fattorizzare un numero enorme, il prodotto di due grandi numeri primi, richiede potenze di calcolo che superano la capacità degli attuali computer, rendendo questo compito praticamente irrealizzabile.
+reviewed: false

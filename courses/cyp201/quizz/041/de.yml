@@ -1,9 +1,9 @@
-question: Welche Rolle spielt die elliptische Kurve bei der Erzeugung von öffentlichen und privaten Schlüsseln?
-answer: Sie wird verwendet, um sichere öffentliche und private Schlüssel zu erzeugen.
+question: Was ist das Hauptrisiko bei der Verwendung eines schlecht konzipierten PRNG zur Erzeugung von Entropie?
+answer: Private Schlüssel könnten von einem Angreifer erraten werden
 wrong_answers:
-  - Sie wird verwendet, um die Schlüssel zu verschlüsseln.
-  - Sie wird verwendet, um die Schlüssel zu speichern.
-  - Sie wird verwendet, um die Schlüssel zu übertragen.
+  - Die mnemonische Phrase könnte falsche Wörter enthalten
+  - Digitale Signaturen würden ungültig werden
+  - Bitcoin-Adressen wären nicht kompatibel mit dem Netzwerk
 explanation: |
-  Die elliptische Kurve ist eine mathematische Konstruktion, die bei der Erzeugung sicherer öffentlicher und privater Schlüssel verwendet wird. Eine zufällige Zahl, oft als Nonce bezeichnet, wird als privater Schlüssel gewählt und in der Gleichung der elliptischen Kurve verwendet, um den entsprechenden öffentlichen Schlüssel zu erzeugen.
+  Ein schlecht konzipierter PRNG kann vorhersehbare Sequenzen erzeugen, was die Schlüssel anfälliger für Angriffe macht.
 reviewed: false

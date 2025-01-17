@@ -1,0 +1,13 @@
+question: Apa hubungan antara biaya produksi Bitcoin dan harga pasarnya?
+answer: Biaya Bitcoin umumnya proporsional dengan harganya
+wrong_answers:
+  - Biaya Bitcoin berbanding terbalik dengan harganya
+  - Biaya Bitcoin tetap, dalam rasio tertentu, terhadap harganya
+  - Biaya Bitcoin selalu lebih tinggi dari harganya
+explanation: |
+  Biaya Bitcoin, yang berkaitan dengan listrik
+  yang diperlukan untuk mengoperasikan mesin penambangan, secara umum dapat
+  proporsional dengan harganya. Hubungan ini memberikan
+  pemahaman yang lebih baik tentang fluktuasi harga dan prospek
+  masa depan.
+reviewed: true

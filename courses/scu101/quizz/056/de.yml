@@ -1,9 +1,11 @@
 question: Warum ist praktische Erfahrung in der Cybersicherheit wichtig?
 answer: Sie ermöglicht es Ihnen, Ihr theoretisches Wissen in realen Situationen anzuwenden.
 wrong_answers:
-  - Es ist eine Voraussetzung für alle Jobs in der Cybersicherheit.
-  - Es ist wichtiger als akademisches Wissen.
-  - Es ist der einzige Weg, um über Cybersicherheit zu lernen.
+  - Es ist eine Voraussetzung für alle Jobs in der Cybersicherheit
+  - Es ist wichtiger als akademisches Wissen
+  - Es ist der einzige Weg, um über Cybersicherheit zu lernen
 explanation: |
-  Das Kapitel betont die Bedeutung praktischer Erfahrung, da sie es Ihnen ermöglicht, Ihr theoretisches Wissen in realen Situationen anzuwenden.
-reviewed: false
+  Das Kapitel betont die Bedeutung praktischer
+  Erfahrung, da sie es Ihnen ermöglicht, Ihr theoretisches
+  Wissen in realen Situationen anzuwenden.
+reviewed: true

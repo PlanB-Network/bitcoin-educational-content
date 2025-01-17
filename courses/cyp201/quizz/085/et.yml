@@ -1,0 +1,8 @@
+question: Millist toimingut on vajalik Taproot avaliku võtme Q arvutamiseks?
+answer: Lisage muudatus tG avalikule võtmele P
+wrong_answers:
+  - Korruta privaatvõti p muudatusega
+  - Räsi avalik võti P SHA256-ga
+  - Ühenda muudatus t ja avalik võti P
+explanation: |
+  Taproot avalik võti Q saadakse, lisades skalaarkorrutise muudatusest t generaatoriga G avalikule võtmele P.

@@ -57,5 +57,5 @@ Gitin ja GitHubin parissa törmäät komentoihin ja ominaisuuksiin, joiden nimet
 
 Tämä lista ei selvästikään ole tyhjentävä. Gitin ja GitHubin erityisiä teknisiä termejä on monia muitakin. Kuitenkin tässä mainitut ovat pääasiallisia, joita kohtaat usein.
 Tämän artikkelin lukemisen jälkeen on mahdollista, että jotkin Gitin ja GitHubin näkökohdat ovat edelleen epäselviä sinulle. Kannustan sinua aloittamaan näiden työkalujen käytön itse. Käytännön harjoittelu on usein paras tapa ymmärtää, miten kone toimii! Ja aloittaaksesi, voit tutustua näihin kahteen muuhun oppaaseen:
-**[Luo GitHub-tilisi](https://planb.network/tutorials/others/create-github-account)**
-**[Aseta paikallinen ympäristösi valmiiksi osallistuaksesi PlanB Networkiin](https://planb.network/tutorials/others/github-desktop-work-environment)**
+**[Luo GitHub-tilisi](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Aseta paikallinen ympäristösi valmiiksi osallistuaksesi PlanB Networkiin](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**

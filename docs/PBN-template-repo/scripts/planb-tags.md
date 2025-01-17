@@ -669,7 +669,7 @@
 - banking: 2
 - biography: 2
 - biology: 1
-- bitcoi only: 6
+- bitcoin-only: 6
 - bitcoin: 99
 - bitcoin-investment: 1
 - bitcoin-only: 53

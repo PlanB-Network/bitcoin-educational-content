@@ -1,0 +1,9 @@
+question: Jaké jsou tři základní komponenty symetrického šifrovacího schématu?
+answer: Algoritmus pro generování klíče, šifrovací algoritmus a dešifrovací algoritmus
+wrong_answers:
+  - Hašovací algoritmus, veřejný klíč a verifikační algoritmus
+  - Veřejný klíč, soukromý klíč a dešifrovací algoritmus
+  - Šifrovací algoritmus, veřejný klíč a soukromý klíč
+explanation: |
+  Symetrické šifrovací schéma se skládá ze tří prvků: algoritmu pro generování klíče, šifrovacího algoritmu a dešifrovacího algoritmu. Všechny používají stejný klíč.
+reviewed: false

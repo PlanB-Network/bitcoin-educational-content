@@ -1,0 +1,9 @@
+question: Wer hat dem Gastwirt Robert Morriss eine eiserne Kiste zur Aufbewahrung anvertraut?
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  Es war Thomas J. Beale, der eine eiserne Kiste mit verschlüsselten Dokumenten und einem Hinweis an Robert Morriss übergab, in der er ihm Anweisungen für den Fall seines Nicht-Rückkehrens gab.
+reviewed: false

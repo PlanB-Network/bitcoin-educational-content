@@ -1,0 +1,8 @@
+question: Hva skjer hvis en betaling gjennom HTLC ikke fullføres innen den tildelte tiden?
+answer: Betalingen blir kansellert og midlene returneres til avsenderen.
+wrong_answers:
+  - Betalingen beholdes av den siste mellomliggende noden
+  - Midlene fordeles til alle nodene i banen
+  - Midlene blir permanent blokkert
+explanation: |
+  Hvis et HTLC utløper uten at hemmeligheten blir avslørt, blir betalingen kansellert og midlene returneres til avsenderen, noe som forhindrer at noen mellomliggende node kan beholde midlene.

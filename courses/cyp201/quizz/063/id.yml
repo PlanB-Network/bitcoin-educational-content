@@ -1,0 +1,9 @@
+question: Informasi apa yang tidak termasuk dalam kunci ekstensi?
+answer: Riwayat transaksi kunci
+wrong_answers:
+  - Nomor indeks kunci
+  - Kunci (privat atau publik)
+  - Kode rantai
+explanation: |
+  Kunci ekstensi hanya berisi informasi yang diperlukan untuk menurunkan kunci anak, bukan informasi yang terkait dengan transaksi.
+ditinjau: false

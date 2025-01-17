@@ -1,0 +1,9 @@
+question: Quelle fonction permet de calculer le nombre d'entiers copremiers à un entier N ?
+answer: La fonction Phi d'Euler
+wrong_answers:
+  - La fonction logarithmique
+  - La fonction Gamma d'Euler
+  - La fonction de Gauss
+explanation: |
+  La fonction Phi d'Euler (ou fonction indicatrice) permet de calculer le nombre de copremiers d'un entier N, en particulier pour les entiers non premiers.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Apa salah satu faktor yang membuat pengaturan Bitcoin sulit bagi otoritas keuangan?
+answer: Beroperasi secara global, 24 jam sehari, 7 hari seminggu.
+wrong_answers:
+  - Dikendalikan oleh otoritas pusat.
+  - Tidak digunakan di mana pun di dunia.
+  - Mudah dipalsukan.
+explanation: >-
+  Protokol Bitcoin unik karena beroperasi secara global, 24 jam sehari, 7 hari seminggu, membuat pengaturan menjadi sulit bagi otoritas keuangan.

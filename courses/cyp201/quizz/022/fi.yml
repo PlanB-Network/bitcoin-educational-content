@@ -1,9 +1,9 @@
-question: Mitkä ovat kaksi keskeistä komponenttia Bitcoin-protokollan turvamekanismissa?
-answer: HMAC ja PBKDF2-johdannaisalgoritmit
+question: Kuinka julkinen avain lasketaan yksityisavaimesta?
+answer: Käyttämällä skalaarikertolaskua elliptisellä käyrällä
 wrong_answers:
-  - SHA-256 ja RIPEMD-160 hajautusfunktiot
-  - Elliptinen käyrän digitaalinen allekirjoitus algoritmi (ECDSA) ja SHA-256 hajautusfunktio
-  - RSA ja Diffie-Hellman avainvaihto
+  - Soveltamalla hajautusfunktiota yksityisavaimelle
+  - Asymmetrisen salauksen kautta
+  - Toistuvalla numeeristen arvojen lisäyksellä
 explanation: |
-  HMAC ja PBKDF2-johdannaisalgoritmit ovat keskeisiä komponentteja Bitcoin-protokollan turvamekanismissa. Ne estävät monenlaisia mahdollisia hyökkäyksiä ja takaavat Bitcoin-lompakoiden eheyden.
+  Julkinen avain saadaan yksityisavaimen skalaarikertolaskulla generaattoripisteen G kanssa elliptisellä käyrällä.
 reviewed: false

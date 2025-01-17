@@ -1,11 +1,13 @@
-question: What is the main aim of Bitcoin?
-answer: To separate the State from money
+question: What is the main objective behind the creation of Bitcoin?
+answer: To separate the State from money.
 wrong_answers:
-  - To replace gold as the global standard
-  - To make transactions faster and cheaper
-  - To make everyone rich
+  - To eliminate the gold standard.
+  - To make transactions faster and cheaper.
+  - To make everyone rich.
 explanation: |
-  Bitcoin was created with the aim of separating the State from money.
-  This is in response to the systemic challenges of the current financial system,
-  where the state has control over the money supply and can manipulate it to its advantage.
+  Bitcoin was created with the aim of separating the State
+  from money. It is a response to the systemic challenges of
+  the current financial system, where the State has full
+  control over the money supply and can manipulate it to its
+  own advantage.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Was ist die Rolle des Schlüssels in den Prozessen der symmetrischen Verschlüsselung und Entschlüsselung?
+answer: Er wird verwendet, um die Nachricht zu verschlüsseln und zu entschlüsseln.
+wrong_answers:
+  - Er wird nur verwendet, um die Nachricht zu entschlüsseln.
+  - Er wird verwendet, um einen Code zur Überprüfung der Nachrichtenintegrität zu erstellen.
+  - Er wird öffentlich geteilt, um andere Schlüssel zu generieren.
+explanation: |
+  Bei symmetrischen Verschlüsselungsverfahren wird derselbe private Schlüssel sowohl zur Verschlüsselung der Nachricht beim Senden als auch zur Entschlüsselung bei der Empfangnahme verwendet.
+reviewed: false

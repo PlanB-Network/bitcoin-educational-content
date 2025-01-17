@@ -5,5 +5,5 @@ wrong_answers:
   - Vous pourriez contrôler l'offre de Bitcoin.
   - Vous pourriez empêcher les autres d'acheter du Bitcoin.
 explanation: |
-  Le texte mentionne que ne pas suivre les réglementations de votre pays lors de l'achat de Bitcoin pourrait vous mettre en danger.
-reviewed: false
+  Le texte du cours mentionne que ne pas suivre les réglementations de votre pays lors de l'achat de Bitcoin peut vous mettre en danger.
+reviewed: true

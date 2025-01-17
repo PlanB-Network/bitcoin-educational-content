@@ -1,0 +1,9 @@
+question: Wie lautete der Name der ersten verwahrten Anwendung, die im April 2010 die einfache Nutzung von Bitcoin auf Mobilgeräten ermöglichte?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+  Sie wurde am 30. April 2010 von jemandem namens komoto im Forum [beworben](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035).
+reviewed: false

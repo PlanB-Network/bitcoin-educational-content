@@ -1,0 +1,9 @@
+question: Hvilken fransk matematiker introduserte konseptet med grupper i det 19. århundre?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois utviklet gruppeteori for å studere løsningene av polynomligninger av grad høyere enn fem.
+reviewed: false

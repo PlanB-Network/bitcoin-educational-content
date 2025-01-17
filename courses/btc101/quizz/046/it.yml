@@ -1,9 +1,9 @@
-question: Qual è l'impatto potenziale del sistema finanziario attuale sugli attori politici?
+question: Qual è l'impatto potenziale dell'attuale sistema finanziario sugli attori politici?
 answer: Non sono incentivati a fare cambiamenti radicali, permettendo al sistema di continuare il suo corso fino a una possibile implosione.
 wrong_answers:
-  - Sono incentivati a fare cambiamenti radicali per evitare una possibile implosione.
+  - Sono incentivati a fare cambiamenti radicali per prevenire una possibile implosione.
   - Non sono incentivati a mantenere lo status quo per garantire la propria ricchezza.
   - Sono incentivati a pensare a lungo termine.
 explanation: |
-  Poiché gli attori politici traggono vantaggio dal sistema finanziario attuale, non sono incentivati a fare cambiamenti radicali. Ciò permette al sistema di continuare il suo corso fino a una possibile implosione, poiché il sistema è regolamentato e limitato per evitare il suo collasso.
-reviewed: false
+  Poiché gli attori politici traggono vantaggio dall'attuale sistema finanziario, non sono incentivati a fare cambiamenti radicali. Questo permette al sistema di continuare il suo corso fino a una possibile implosione, poiché il sistema è regolato e limitato per evitare il proprio crollo.
+reviewed: true

@@ -1,9 +1,11 @@
-question: Wer ist für die Ausgabe von Treuhandwährung zuständig?
-answer: Zentralbank
+question: Welche Einrichtungen sind für die Ausgabe von Fiatwährungen zuständig?
+answer: Zentralbanken.
 wrong_answers:
-  - Geschäftsbank
-  - Regierung
-  - Private Institutionen
+  - Geschäftsbanken.
+  - Regierungen.
+  - Private Institutionen.
 explanation: |
-  Zentralbanken sind die Institutionen, die für die Ausgabe von Treuhandwährung zuständig sind. Sie legen die Geldpolitik fest und bestimmen, wie viel Geld in Umlauf gebracht oder gedruckt werden soll.
-reviewed: false
+  Zentralbanken sind die Einrichtungen, die für die Ausgabe einer
+  Fiatwährung zuständig sind. Sie entscheiden über die Geldpolitik und
+  bestimmen, wie viel Geld in Umlauf gebracht oder gedruckt werden soll.
+reviewed: true

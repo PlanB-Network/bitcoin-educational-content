@@ -1,0 +1,9 @@
+question: Hvilket år er det forutsagt at skapingen av bitcoins vil opphøre?
+answer: 2140
+wrong_answers:
+  - 2050
+  - 2030
+  - 2200
+explanation: |
+  På grunn av halveringsmekanismen, kan det matematisk forutsies at skapingen av bitcoins vil opphøre i 2140, når det totale antallet bitcoins når sin grense på 21 millioner.
+reviewed: sant

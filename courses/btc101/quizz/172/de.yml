@@ -1,9 +1,17 @@
-question: Was ist der Hauptunterschied zwischen den Ideen der keynesianischen Wirtschaftstheorie und der österreichischen Wirtschaftstheorie in Bezug auf das Geldsystem?
-answer: Die keynesianische Wirtschaftstheorie berücksichtigt nicht die zeitlichen und dynamischen Aspekte von Situationen und Ressourcen.
+question: Was ist der Hauptunterschied zwischen der keynesianischen Wirtschaftslehre und der österreichischen Wirtschaftslehre bezüglich des Geldsystems?
+
+answer: Die keynesianische Wirtschaftslehre berücksichtigt nicht die zeitlichen und dynamischen Aspekte von Situationen und Ressourcen.
+
 wrong_answers:
-  - Die keynesianische Wirtschaftstheorie fördert übermäßigen Konsum und Verschuldung.
-  - Die keynesianische Wirtschaftstheorie spiegelt nicht die Knappheit von Ressourcen wider.
-  - Die keynesianische Wirtschaftstheorie fördert Inflation.
-explanation: |
-  Der Hauptunterschied zwischen den Ideen der keynesianischen Wirtschaftstheorie und der österreichischen Wirtschaftstheorie in Bezug auf das Geldsystem besteht darin, dass die keynesianische Wirtschaftstheorie nicht die zeitlichen und dynamischen Aspekte von Situationen und Ressourcen berücksichtigt. Mit anderen Worten kann eine unbegrenzte Währung die begrenzten Ressourcen unseres Planeten nicht effektiv widerspiegeln.
-reviewed: false
+  - Die keynesianische Wirtschaftslehre fördert den übermäßigen Verbrauch von Währungen.
+  - Die keynesianische Wirtschaftslehre erkennt die Knappheit von Situationen und Ressourcen an.
+  - Die keynesianische Wirtschaftslehre fördert die Inflation.
+
+explanation: >-
+  Der Hauptunterschied zwischen den Ideen der keynesianischen Wirtschaftslehre und der österreichischen
+  Wirtschaftslehre in Bezug auf das Geldsystem ist, dass die keynesianische Wirtschaftslehre die
+  zeitlichen und dynamischen Aspekte von Situationen und Ressourcen nicht berücksichtigt.
+  Mit anderen Worten, eine unbegrenzte Währung kann die begrenzten Ressourcen
+  unseres Planeten nicht effektiv widerspiegeln.
+
+reviewed: true

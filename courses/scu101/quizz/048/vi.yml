@@ -1,11 +1,12 @@
-question: Bước thứ hai phổ biến trong 2FA là gì?
-answer: Một mã được tạo bởi ứng dụng như Google Authenticator hoặc Authy.
+question: Phương pháp nào sau đây là một phương pháp tốt và an toàn trong xác thực 2FA?
+answer: Một mã được tạo ra bởi một ứng dụng như Google Authenticator hoặc Authy.
 wrong_answers:
-  - Một cuộc gọi điện thoại đến chủ tài khoản
-  - Một email gửi đến chủ tài khoản
-  - Một lá thư được gửi đến địa chỉ nhà của chủ tài khoản
+  - Một cuộc gọi điện thoại hoặc một mã SMS gửi đến chủ tài khoản
+  - Một email chứa mã hết hạn sau 10 phút gửi đến chủ tài khoản
+  - Một bức thư gửi đến địa chỉ nhà của chủ tài khoản
 explanation: |
-  Bước thứ hai trong 2FA có thể là một mã tạm thời được gửi qua SMS, một mã
-  được tạo
-  bởi một ứng dụng, hoặc một chìa khóa bảo mật vật lý.
-reviewed: false
+  Bước thứ hai trong 2FA có thể là một mã tạm thời được gửi qua
+  SMS, email, một mã được tạo ra bởi một ứng dụng, hoặc một
+  chìa khóa bảo mật vật lý. Tuy nhiên, không phải tất cả các phương pháp này
+  cho phép chúng ta duy trì cùng một mức độ bảo mật.
+reviewed: true

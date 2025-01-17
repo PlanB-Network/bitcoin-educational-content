@@ -1,9 +1,9 @@
-question: Điều gì xảy ra với tất cả bitcoin trong một giao dịch Bitcoin?
-answer: Tất cả chúng đều phải di chuyển.
+question: Bước đầu tiên trong việc mở một kênh Lightning giữa hai bên tham gia là gì?
+answer: Trao đổi tin nhắn chứa các số tiền và khóa công khai
 wrong_answers:
-  - Tất cả chúng đều được chuyển đổi thành tiền tệ fiat.
-  - Tất cả chúng đều được lưu trữ trong một địa chỉ mới.
-  - Tất cả chúng đều được chia đều cho các bên tham gia.
+  - Ngay lập tức công bố một giao dịch ký gửi trên blockchain
+  - Tạo một địa chỉ đa chữ ký 2/2 mà không cần trao đổi trước
+  - Ký giao dịch rút tiền trước khi trao đổi khóa công khai
 explanation: |
-  Trong một giao dịch Bitcoin, tất cả bitcoin đều phải di chuyển. Điều này được gọi là UTXO (Unspent Transaction Output), nơi mà các bit của bitcoin sẽ rời đi chỉ để quay trở lại với chủ sở hữu sau đó.
+  Việc mở một kênh bắt đầu với việc trao đổi tin nhắn giữa hai bên, nơi họ chia sẻ số tiền họ muốn cam kết và khóa công khai của họ.
 reviewed: false

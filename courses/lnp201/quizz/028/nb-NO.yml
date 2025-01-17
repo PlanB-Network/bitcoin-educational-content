@@ -1,0 +1,9 @@
+question: Hva kan Bob gjøre hvis han oppdager et forsøk fra Alice på å jukse under kanallukkingen?
+answer: Bruke tilbakekallingsnøkkelen for å gjenvinne alle midlene
+wrong_answers:
+  - Avbryte Alices forpliktelsestransaksjon
+  - Permanent lukke kanalen uten mulighet til å gjenåpne
+  - Kreve bare halvparten av de tilgjengelige midlene
+explanation: |
+  I tilfelle juks, kan Bob bruke tilbakekallingsnøkkelen for å gjenvinne alle midlene fra kanalen, og dermed straffe Alice for hennes forsøk.
+reviewed: false

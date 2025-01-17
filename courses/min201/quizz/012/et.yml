@@ -1,0 +1,13 @@
+question: Kuidas töötab kaevandusbassein ja miks see on vajalik?
+answer: Kaevandusbassein on kaevurite grupp, kes ühendavad oma arvutusressursid, et suurendada oma kaevandamise võimalusi. See koostöö on vajalik, kuna üksik väike kaevandusmasin konkureerib tööstuse hiiglastega, vähendades oma eduvõimalusi tühiselt väikeseks. Ühinedes saavad kaevurid kombineerida oma arvutusvõimsust, leida plokke sagedamini ja seejärel jaotada preemiad proportsionaalselt iga kaevuri panusega basseini.
+wrong_answers:
+  - Kaevandusbassein on kaevurite grupp, kes jagavad sama kaevandusmasinat, et suurendada oma kaevandamise võimalusi. See koostöö on vajalik, kuna üksik kaevandusmasin suudab kaevandada ainult piiratud koguses Bitcoini.
+  - Kaevandusbassein on kaevurite grupp, kes jagavad sama kaevandustarkvara, et suurendada oma kaevandamise võimalusi. See koostöö on vajalik, kuna erinevatel kaevandustarkvaradel on erinevad efektiivsused.
+  - Kaevandusbassein on kaevurite grupp, kes jagavad sama kaevanduskohta, et suurendada oma kaevandamise võimalusi. See koostöö on vajalik, kuna kaevandustegevuse asukoht võib mõjutada kaevandamise efektiivsust.
+explanation: |
+  Peatükk selgitab, et kaevandusbassein on kaevurite grupp,
+  kes ühendavad oma arvutusressursid, et suurendada
+  oma kaevandamise võimalusi. See koostöö on vajalik,
+  kuna üksik väike kaevandusmasin konkureerib tööstuse
+  hiiglastega, vähendades oma eduvõimalusi tühiselt väikeseks.
+reviewed: true

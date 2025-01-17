@@ -1,0 +1,9 @@
+question: Quale funzione viene utilizzata per calcolare il numero di interi coprimi rispetto a un intero N?
+answer: La funzione Phi di Eulero
+wrong_answers:
+  - La funzione logaritmica
+  - La funzione Gamma di Eulero
+  - La funzione di Gauss
+explanation: |
+  La funzione Phi di Eulero (o funzione totiente) viene utilizzata per calcolare il numero di coprimi di un intero N, specialmente per gli interi non primi.
+reviewed: false

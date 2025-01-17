@@ -1,0 +1,9 @@
+question: Qual è il titolo del libro di Adam Smith?
+answer: La ricchezza delle nazioni.
+wrong_answers:
+  - Un'indagine sulla natura e lo spirito della ricchezza delle nazioni.
+  - Un'indagine sulla natura e le origini della ricchezza delle nazioni.
+  - Un'indagine sulla causa e le origini della ricchezza delle nazioni.
+explanation: |
+  Il titolo completo del libro di Adam Smith, La ricchezza delle nazioni, evidenzia la sua analisi dei fattori che contribuiscono alla prosperità economica, esplorando i meccanismi di produzione e distribuzione della ricchezza.
+reviewed: false

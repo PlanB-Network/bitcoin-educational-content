@@ -1,9 +1,13 @@
 question: What does KYC stand for?
-answer: Know Your Customer
+answer: Know Your Customer.
 wrong_answers:
-  - Keep Your Cash
-  - Key Your Codes
-  - Kindly Yield Compliance
+  - Keep Your Cash.
+  - Key Your Codes.
+  - Kindly Yield Compliance.
 explanation: |
-  KYC or Know Your Customer refers to the process businesses undergo to verify the identity of their clients. This is typically done to ensure compliance with regulations and to prevent illegal activities such as money laundering or fraud. 
+  KYC or Know Your Customer refers to the procedure that
+  businesses adopt to verify the identity of their clients.
+  This is typically done to ensure compliance with
+  regulations and to prevent illegal activities such as money
+  laundering or fraud.
 reviewed: true

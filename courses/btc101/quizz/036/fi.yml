@@ -1,11 +1,9 @@
-question: Mitä termi 'fiduciary' tarkoittaa valuuttojen yhteydessä?
-answer: Se viittaa valuuttoihin, joilla ei ole sisäistä arvoa ja jotka perustuvat luottamukseen niitä sääteleviä instituutioita kohtaan.
+question: Mitä termi fiduciary tarkoittaa valuuttojen yhteydessä?
+answer: Se viittaa valuuttoihin, jotka ovat arvokkaita vain luottamuksen vuoksi keskuslaitokseen, joka niitä säätelee.
 wrong_answers:
-  - Se viittaa valuuttoihin, jotka ovat kultakannassa.
-  - Se viittaa valuuttoihin, joita käytetään vain fidusiaarisissa transaktioissa.
-  - Se viittaa valuuttoihin, joita käytetään vain tietyn instituution sisällä.
+  - Se viittaa valuuttoihin, jotka ovat kultavarannon tukemia ja joita pienet kaupalliset pankit laskevat liikkeelle.
+  - Se viittaa valuuttoihin, jotka ovat arvokkaita vain fidusiaaristen transaktioiden yhteydessä.
+  - Se viittaa valuuttoihin, joita käytetään vain tietyn laitoksen sisällä.
 explanation: |
-  Fidusiaariset valuutat ovat niitä, joita ei tueta fyysisellä hyödykkeellä
-  kuten kulta tai hopea. Niiden arvo johdetaan luottamuksesta ja luotettavuudesta, jota ihmisillä
-  on niitä liikkeeseen laskevia ja sääteleviä instituutioita kohtaan.
-reviewed: false
+  Fidusiaariset valuutat eivät ole fyysisen hyödykkeen, kuten kullan tai hopean, tukemia. Niiden arvo perustuu ihmisten luottamukseen ja uskoon laitoksiin, jotka ne laskevat liikkeelle ja säätelevät niitä.
+reviewed: true

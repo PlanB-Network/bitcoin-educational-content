@@ -1,9 +1,13 @@
 question: Qual é a consequência da impressão monetária?
-answer: Isso leva à inflação, empobrecendo gradualmente a população.
+answer: Leva à inflação, empobrecendo gradualmente a população.
 wrong_answers:
-  - Isso leva à deflação, enriquecendo gradualmente a população.
-  - Isso leva a uma economia estável, sem inflação ou deflação.
-  - Isso leva a uma diminuição na oferta de dinheiro.
+  - Leva à deflação, enriquecendo gradualmente a população.
+  - Leva a uma economia estável sem inflação ou deflação.
+  - Leva a uma diminuição na oferta de dinheiro.
 explanation: |
-  A impressão monetária, ou a criação de novo dinheiro pelos bancos centrais, leva à inflação. Isso ocorre porque o aumento na oferta de dinheiro reduz o poder de compra do dinheiro, levando a preços mais altos e uma diminuição no valor das economias.
-reviewed: false
+  A impressão monetária, ou a criação de novo dinheiro pelos
+  bancos centrais, leva à inflação. Isso ocorre porque o aumento
+  na oferta de dinheiro reduz o poder de compra do dinheiro,
+  levando a preços mais altos e a uma diminuição no valor das
+  poupanças.
+reviewed: true

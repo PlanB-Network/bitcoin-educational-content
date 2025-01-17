@@ -1,0 +1,13 @@
+question: Mis on peamine puudus, kui kasutada Tor'i Bitcoin'i sõlme jaoks?
+
+answer: Suhtluskiiruse vähenemine
+
+wrong_answers:
+  - Tehingutasude suurenemine
+  - Tehingu tsenseerimise risk
+  - Sõlmele Eclipse rünnaku risk
+
+explanation: |
+  Suhtlus Tor'i kaudu on aeglasem. See latentsus on eriti probleemne sõlme esmakordsel käivitamisel, kuna IBD (Initial Block Download ehk algne plokkide allalaadimine) nõuab palju suhtlust.
+
+reviewed: false

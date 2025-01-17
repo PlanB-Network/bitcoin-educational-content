@@ -1,0 +1,21 @@
+# Properties that should not be translated
+non_translatable:
+  - header_separator
+  - yml_properties
+  - partId
+  - chapterId
+  - embeb_links
+  - equation
+  - snippet
+  - planb_link
+
+# Properties that should be translated
+translatable:
+  - name
+  - description
+  - goal
+  - objectives
+  - paragraph
+  - list
+  - markdown_header
+  - quote

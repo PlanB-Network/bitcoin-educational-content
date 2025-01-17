@@ -1,9 +1,11 @@
-question: Điều gì là một trong những yếu tố bạn nên xem xét khi chọn một nền tảng DCA?
+question: Điều gì là một trong những yếu tố bạn cần xem xét khi chọn một nền tảng DCA?
 answer: Sự có mặt tại quốc gia của bạn.
 wrong_answers:
   - Màu sắc của logo nền tảng.
   - Số lượng người dùng trên nền tảng.
   - Tuổi của nền tảng.
-explanation: >-
-  Văn bản đề cập rằng khi chọn một nền tảng DCA, sự lựa chọn sẽ phụ thuộc nhiều hơn vào việc nền tảng đó có mặt tại quốc gia của bạn hay không.
-reviewed: false
+explanation: |
+  Văn bản khóa học này đề cập rằng khi chọn một nền tảng DCA,
+  sự lựa chọn đúng đắn sẽ phụ thuộc nhiều hơn vào việc nó
+  có mặt tại quốc gia của bạn hay không.
+reviewed: true

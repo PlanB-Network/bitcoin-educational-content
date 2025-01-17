@@ -1,9 +1,8 @@
-question: Qual é a diferença entre uma frase de senha e uma frase mnemônica em uma carteira de Bitcoin?
-answer: A frase de senha é gratuita e pode ter um tamanho quase infinito, enquanto a frase mnemônica é padronizada e deve seguir certas restrições de tamanho, checksum e codificação.
+question: Qual é a principal função dos descritores de script de saída?
+answer: Descrever completamente um script de saída e fornecer as informações necessárias para restaurar uma carteira
 wrong_answers:
-  - A frase de senha é padronizada, enquanto a frase mnemônica é gratuita e pode ter um tamanho quase infinito.
-  - A frase de senha e a frase mnemônica são iguais.
-  - A frase de senha é opcional, enquanto a frase mnemônica é obrigatória.
+  - Gerar automaticamente endereços de multisignatura
+  - Substituir a frase mnemônica em backups de carteira
+  - Simplificar os cálculos de assinaturas digitais
 explanation: |
-  Para derivar as chaves de uma carteira HD, tanto a frase mnemônica quanto a frase de senha são necessárias. A frase de senha é gratuita e pode ter um tamanho quase infinito. Ela não está incluída na frase mnemônica, que é padronizada e deve seguir certas restrições de tamanho, checksum e codificação.
-reviewed: false
+  Os descritores encapsulam todas as informações necessárias para rastrear um script específico, incluindo o caminho de derivação e as chaves usadas, mas não a frase de recuperação.

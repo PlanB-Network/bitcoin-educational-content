@@ -1,0 +1,11 @@
+question: Nhược điểm lớn nhất của coinswaps và atomic swaps về mặt bảo mật là gì?
+
+answer: Chúng không phá vỡ lịch sử của các đồng tiền được trao đổi
+
+wrong_answers:
+  - Chúng có chi phí giao dịch rất cao
+  - Chúng yêu cầu trao đổi thông tin cá nhân giữa các bên
+  - Chúng có thể bị phân tích bởi các nền tảng giao dịch
+
+explanation: |
+  Nhược điểm chính của những phương pháp này là chúng rất rủi ro nếu không sử dụng một kỹ thuật bổ sung để phá vỡ lịch sử của đồng tiền.

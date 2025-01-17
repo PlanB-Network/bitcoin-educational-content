@@ -1,0 +1,9 @@
+question: Mikä ominaisuus hajautusfunktiolla täytyy olla, jotta se voi taata turvallisuuden ohjelmiston varmennuksen aikana?
+answer: Kolarinkestävyys
+wrong_answers:
+  - Palautuvuus
+  - Toimivuus epäsymmetristen avainten kanssa
+  - Reaaliaikainen generoitavuus
+explanation: |
+  Kolarinkestävyys varmistaa, että käytännössä on mahdotonta löytää kahta eri syötettä, jotka tuottavat saman hajautusarvon, mikä on tärkeää varmistettaessa, ettei ohjelmistoon ole kajottu.
+reviewed: false

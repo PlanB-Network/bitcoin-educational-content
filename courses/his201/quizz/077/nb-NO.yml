@@ -1,0 +1,9 @@
+question: På hvilken dato ble e-postlisten for bitcoin-utvikling opprettet?
+answer: 12. juni 2011
+wrong_answers:
+  - 13. januar 2011
+  - 7. mars 2011
+  - 19. september 2011
+explanation: |
+  Den ble opprettet av utvikleren Jeff Garzik, og den tillot formelle diskusjoner om endringer som skulle gjøres i Bitcoin.
+reviewed: false

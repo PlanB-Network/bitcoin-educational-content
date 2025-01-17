@@ -1,10 +1,9 @@
-question: Kann man betrügen, indem man einen alten Zustand in einer Verpflichtungstransaktion veröffentlicht?
-answer: Ja
+question: Was passiert, wenn eine Zahlung über HTLC nicht innerhalb der vorgesehenen Zeit abgeschlossen wird?
+answer: Die Zahlung wird storniert und die Gelder gehen an den Absender zurück.
 wrong_answers:
-  - Nein
-  - Nur wenn sie den Widerrufsschlüssel haben.
-  - Nur wenn sie die Transaktion mit der Zeitsperre erstellt haben.
+  - Die Zahlung wird vom letzten Zwischenknotenpunkt behalten
+  - Die Gelder werden an alle Knotenpunkte im Pfad verteilt
+  - Die Gelder werden dauerhaft gesperrt
 explanation: |
-  Man kann betrügen, indem man einen alten Zustand in einer Verpflichtungstransaktion veröffentlicht, da beide Teilnehmer die Vorunterschrift der unveröffentlichten Transaktion haben.
-  Es wurden jedoch Maßnahmen wie die Zeitsperre und der Widerrufsschlüssel ergriffen, um dies zu verhindern.
+  Wenn ein HTLC abläuft, ohne dass das Geheimnis offenbart wird, wird die Zahlung storniert und die Gelder gehen an den Absender zurück, was verhindert, dass irgendein Zwischenknotenpunkt die Gelder behalten kann.
 reviewed: false

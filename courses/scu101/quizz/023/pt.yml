@@ -1,9 +1,10 @@
 question: Qual é a importância de usar uma senha forte para a segurança do computador?
-answer: Para evitar acesso não autorizado ao sistema.
+answer: Para prevenir o acesso não autorizado ao sistema.
 wrong_answers:
   - Para fazer o sistema rodar mais rápido.
   - Para aumentar a capacidade de armazenamento.
   - Para melhorar a interface do usuário.
 explanation: |
-  Uma senha forte é crucial para a segurança do computador para evitar acesso não autorizado ao sistema.
-reviewed: false
+  Uma senha forte é crucial para a segurança do computador para
+  prevenir o acesso não autorizado ao sistema.
+reviewed: true

@@ -1,9 +1,10 @@
-question: Một trong những lý do Bitcoin trải qua nhiều bong bóng đầu cơ là gì?
-answer: Bởi vì Bitcoin là một loại tiền tệ thực sự được sử dụng khắp nơi trên thế giới.
+question: Một trong những lý do tại sao Bitcoin trải qua nhiều bong bóng đầu cơ là gì?
+answer: Bởi vì Bitcoin là một loại tiền tệ được sử dụng khắp nơi trên thế giới.
 wrong_answers:
   - Bởi vì Bitcoin thực sự không được sử dụng ở bất cứ đâu.
   - Bởi vì Bitcoin là một bong bóng sẽ biến mất.
-  - Bởi vì Bitcoin không chịu sự chi phối của các chu kỳ kinh tế.
+  - Bởi vì Bitcoin không chịu sự ảnh hưởng của chu kỳ kinh tế.
 explanation: >-
-  Bitcoin trải qua nhiều bong bóng đầu cơ bởi vì đó là một loại tiền tệ thực sự được sử dụng khắp nơi trên thế giới.
-reviewed: false
+  Bitcoin trải qua nhiều bong bóng đầu cơ bởi vì đó là một loại tiền tệ
+  thực sự được sử dụng khắp nơi trên thế giới.
+reviewed: true

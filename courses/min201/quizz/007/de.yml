@@ -1,9 +1,9 @@
 question: Was passiert mit der Mining-Belohnung im Bitcoin-Netzwerk ungefähr alle vier Jahre?
-answer: Sie wird halbiert.
+answer: Sie wird halbiert
 wrong_answers:
-  - Sie verdoppelt sich.
-  - Sie verdreifacht sich.
-  - Sie bleibt gleich.
+  - Sie verdoppelt sich
+  - Sie verdreifacht sich
+  - Sie bleibt gleich
 explanation: |
-  Die Mining-Belohnung im Bitcoin-Netzwerk wird alle 210.000 Blöcke halbiert, ungefähr alle vier Jahre. Diese Vergütung dient als Anreiz, um Miner trotz der Energiekosten am Mining-Prozess teilnehmen zu lassen.
-reviewed: false
+  Die Mining-Belohnung im Bitcoin-Netzwerk wird alle 210.000 Blöcke, ungefähr alle vier Jahre, halbiert. Diese Vergütung dient als starker Anreiz, um Miner trotz der Energiekosten zur Teilnahme am Mining-Prozess zu ermutigen.
+reviewed: true

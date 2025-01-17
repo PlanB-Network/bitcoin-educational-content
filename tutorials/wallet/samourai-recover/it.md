@@ -19,7 +19,7 @@ Prima di tutto, è necessario che l'app fosse stata precedentemente installata s
 Dato che la pagina di Samourai Wallet non è più disponibile sul Google Play Store, non è possibile disabilitare gli aggiornamenti automatici. Se l'app tornasse sulle piattaforme di download, sarebbe saggio **disabilitare gli aggiornamenti automatici** fino a quando non saranno disponibili più informazioni riguardo lo sviluppo del caso.
 
 Se Samourai Wallet è già installato sul tuo smartphone, dovresti comunque essere in grado di accedere all'app. Per utilizzare la funzionalità portafoglio di Samourai, è essenziale collegare un Dojo. In precedenza, gli utenti senza un Dojo personale dipendevano dai server di Samourai per accedere alle informazioni della blockchain Bitcoin e per trasmettere transazioni. Con il sequestro di questi server, l'app non può più accedere a questi dati.
-Se non avevi un Dojo connesso prima ma ne hai uno ora, puoi configurarlo per utilizzare di nuovo la tua app Samourai. Questo comporta il controllo dei tuoi backup, l'eliminazione del portafoglio (il portafoglio, non l'applicazione) e il recupero del portafoglio collegando il tuo Dojo all'applicazione. Per maggiori dettagli su questi passaggi, puoi consultare [questo tutorial, nella sezione "_Preparare il tuo Samourai Wallet_" : COINJOIN - DOJO](https://planb.network/it/tutorials/privacy/coinjoin-dojo).
+Se non avevi un Dojo connesso prima ma ne hai uno ora, puoi configurarlo per utilizzare di nuovo la tua app Samourai. Questo comporta il controllo dei tuoi backup, l'eliminazione del portafoglio (il portafoglio, non l'applicazione) e il recupero del portafoglio collegando il tuo Dojo all'applicazione. Per maggiori dettagli su questi passaggi, puoi consultare [questo tutorial, nella sezione "_Preparare il tuo Samourai Wallet_" : COINJOIN - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
 Se la tua app Samourai era già connessa al tuo Dojo personale, allora la parte del portafoglio funziona perfettamente per te. Puoi ancora vedere il tuo saldo e trasmettere transazioni. Nonostante tutto ciò che sta accadendo, penso che Samourai Wallet rimanga il miglior software di portafoglio mobile al momento. Personalmente, ho intenzione di continuare a usarlo.
 Il problema principale che potresti incontrare è l'inaccessibilità degli account Whirlpool dall'app. Di solito, Samourai tenta di stabilire una connessione con il tuo Whirlpool CLI e avviare i cicli di coinjoin prima di darti accesso a questi account. Tuttavia, poiché questa connessione non è più possibile, l'app continua a cercare all'infinito senza mai darti accesso agli account Whirlpool. In questo caso, puoi recuperare questi account su un altro software di portafoglio mantenendo solo l'account di deposito su Samourai.
 ### Quali strumenti sono ancora disponibili su Samourai?
@@ -29,10 +29,10 @@ D'altra parte, alcuni strumenti sono stati colpiti dalla chiusura del server o s
 Per quanto riguarda gli strumenti di spesa individuale, tutto funziona normalmente a patto, naturalmente, che tu abbia il tuo Dojo. Le transazioni Stonewall normali (e non Stonewall x2) funzionano senza alcun problema.
 
 Commenti su Twitter hanno evidenziato che la privacy offerta da una transazione Stonewall potrebbe ora essere ridotta. Il valore aggiunto di una transazione Stonewall risiede nel fatto che è indistinguibile da una transazione Stonewall x2 in termini di struttura. Quando un analista incontra questo specifico schema, non può determinare se si tratta di uno Stonewall standard con un singolo utente o di uno Stonewall x2 che coinvolge due utenti. Tuttavia, come vedremo nei paragrafi seguenti, effettuare transazioni Stonewall x2 è diventato più complesso a causa della non disponibilità di Soroban. Alcuni pensano quindi che un analista potrebbe ora assumere che qualsiasi transazione con questa struttura sia uno Stonewall normale. Personalmente, non condivido questa ipotesi. Sebbene le transazioni Stonewall x2 possano essere meno frequenti (e penso che lo fossero già prima di questo incidente), il fatto che siano ancora possibili può invalidare un'intera analisi basata sull'assunzione che non lo siano.
-**[-> Scopri di più sulle transazioni Stonewall.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> Scopri di più sulle transazioni Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Per quanto riguarda Ricochet, non sono stato in grado di verificare se il servizio sia ancora operativo, poiché non possiedo un Dojo sul Testnet, e preferisco non rischiare di spendere `100 000 sats` verso un portafoglio che potrebbe essere controllato dalle autorità. Se hai avuto l'opportunità di testare questo strumento di recente, ti invito a contattarmi così possiamo aggiornare questo articolo.
 
-Se hai bisogno di usare Ricochet, sii consapevole che puoi sempre eseguire questa operazione manualmente con qualsiasi software di portafoglio. Per imparare come eseguire manualmente i vari salti correttamente, ti consiglio di consultare quest'altro articolo: [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+Se hai bisogno di usare Ricochet, sii consapevole che puoi sempre eseguire questa operazione manualmente con qualsiasi software di portafoglio. Per imparare come eseguire manualmente i vari salti correttamente, ti consiglio di consultare quest'altro articolo: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 Lo strumento JoinBot non è più operativo, poiché era completamente dipendente dalla partecipazione di un portafoglio gestito da Samourai.
 
@@ -43,9 +43,9 @@ Per quanto riguarda altri tipi di transazioni collaborative, spesso definite "ca
 Dopo vari test, appare che Soroban non sia più funzionante. Per eseguire queste transazioni collaborative, lo scambio di dati deve quindi essere fatto manualmente. Ecco due opzioni per eseguire questo scambio:
 - Se sei fisicamente vicino al tuo collaboratore, puoi scansionare i codici QR successivamente;
 - Se sei distante dal tuo collaboratore, puoi scambiare i PSBT tramite un canale di comunicazione esterno all'applicazione. Tuttavia, fai attenzione, poiché i dati contenuti in questi PSBT sono sensibili in termini di privacy. Ti consiglio di utilizzare un servizio di messaggistica criptata per garantire la riservatezza dello scambio.
-**[-> Scopri di più sulle transazioni Stonewall x2.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> Scopri di più sulle transazioni Stonewall x2.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Scopri di più sulle transazioni Stowaway.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> Scopri di più sulle transazioni Stowaway.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Per quanto riguarda Whirlpool, il protocollo non sembra più funzionare, nemmeno per gli utenti che possiedono il proprio Dojo. Ho monitorato il mio RoninDojo negli ultimi giorni e ho tentato alcune manipolazioni di base, ma il CLI di Whirlpool non è stato in grado di connettersi da quando il server è stato chiuso.
 
@@ -145,7 +145,7 @@ Se stai usando un software diverso da Sparrow, come Electrum, per recuperare il 
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Ora hai accesso ai tuoi bitcoin su Sparrow. Se hai bisogno di aiuto nell'uso di Sparrow Wallet, puoi anche consultare [il nostro tutorial dedicato](https://planb.network/tutorials/wallet/sparrow).
+Ora hai accesso ai tuoi bitcoin su Sparrow. Se hai bisogno di aiuto nell'uso di Sparrow Wallet, puoi anche consultare [il nostro tutorial dedicato](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Raccomando inoltre di importare manualmente le etichette che avevi associato ai tuoi UTXO su Samourai. Questo ti permetterà di eseguire un controllo efficace delle monete su Sparrow successivamente.
 
@@ -201,7 +201,7 @@ Se stai utilizzando un altro software come Electrum per recuperare il tuo portaf
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Ora hai accesso ai tuoi bitcoin su Sparrow. Se hai bisogno di aiuto nell'utilizzo di Sparrow Wallet, puoi anche consultare [il nostro tutorial dedicato](https://planb.network/tutorials/wallet/sparrow).
+Ora hai accesso ai tuoi bitcoin su Sparrow. Se hai bisogno di aiuto nell'utilizzo di Sparrow Wallet, puoi anche consultare [il nostro tutorial dedicato](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 Raccomando inoltre di importare manualmente le etichette che avevi associato ai tuoi UTXO su Samourai. Ciò ti permetterà di eseguire un controllo efficace delle monete su Sparrow successivamente.
 
@@ -296,7 +296,7 @@ D'altra parte, se la privacy delle tue monete nei confronti dell'autorità poten
 
 Specifichiamo "nei confronti dell'autorità" perché è importante ricordare che solo l'autorità che ha sequestrato i server è potenzialmente a conoscenza di questi xpub. Se il tuo obiettivo nell'utilizzare coinjoin era impedire al tuo fornaio di poter seguire i tuoi fondi, allora lui non è meglio informato di prima del sequestro del server.
 Infine, è essenziale considerare l'anonset iniziale della tua moneta, prima del sequestro del server. Prendiamo l'esempio di una moneta che aveva raggiunto un anonset prospettico di 40.000; la potenziale diminuzione di questo anonset è probabilmente trascurabile. Infatti, con un anonset di base già molto alto, è improbabile che la presenza di alcuni utenti senza Dojo possa cambiare radicalmente la situazione. Tuttavia, se la tua moneta aveva un anonset di 40, allora questa potenziale perdita potrebbe seriamente influenzare i tuoi anonset e potenzialmente permettere la tracciabilità. Con lo strumento WST ora fuori servizio a seguito della chiusura di OXT.me, puoi solo stimare questi anonset. Per l'anonset retrospettivo, non c'è troppo di cui preoccuparsi poiché il modello Whirlpool assicura che sia molto alto fin dal primo coinjoin, grazie all'eredità dei tuoi pari. L'unico caso in cui ciò potrebbe rappresentare un problema è se la tua moneta non è stata remixata per diversi anni ed è stata mixata all'inizio del lancio di una pool. Riguardo l'anonset prospettico, puoi esaminare la durata durante la quale la tua moneta è stata disponibile per i coinjoin. Se sono passati diversi mesi, allora probabilmente ha un anonset prospettico estremamente alto. Al contrario, se è stata aggiunta a una pool solo poche ore prima che i server venissero sequestrati, allora il suo anonset prospettico è probabilmente molto basso.
-[**-> Scopri di più sugli anonset e il loro metodo di calcolo.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> Scopri di più sugli anonset e il loro metodo di calcolo.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Un altro aspetto da considerare è l'impatto delle consolidazioni sugli anonset delle monete che sono state mixate. Dato che gli account Whirlpool non sono più accessibili tramite l'app Samourai, è probabile che molti utenti abbiano trasferito il loro portafoglio ad altri software e tentato di ritirare i loro fondi da Whirlpool. In particolare, lo scorso fine settimana, quando le commissioni sulle transazioni nella rete Bitcoin erano relativamente alte, c'era un forte incentivo tecnico ed economico a consolidare le monete post-mix. Ciò significa che è probabile che molti utenti abbiano effettuato significative consolidazioni.
 
@@ -310,3 +310,4 @@ Nell'improbabile evento in cui stessi usando il tuo Dojo con Samourai ma non con
 
 ## Conclusione
 Grazie per aver letto questo articolo fino alla fine. Se pensi che manchino informazioni o se hai suggerimenti, per favore non esitare a contattarmi per condividere i tuoi pensieri. Inoltre, se hai bisogno di ulteriore assistenza nel recuperare il tuo Samourai Wallet nonostante questa guida, ti invito a unirti al [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) per chiedere aiuto. Visito regolarmente questo Discord e sarei lieto di assisterti se ho la soluzione. Anche altri bitcoiner saranno in grado di condividere le loro esperienze e offrire il loro supporto. **In ogni caso, è essenziale mantenere confidenziale la tua frase di recupero, il tuo file di backup e la tua passphrase**. Non condividerli con nessuno, poiché ciò potrebbe permettere loro di rubare i tuoi bitcoin.
+

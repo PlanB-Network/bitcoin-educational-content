@@ -1,0 +1,13 @@
+question: Kuidas võib payjoin tehingut pidada steganograafiliseks tehinguks?
+
+answer: See peidab tegeliku maksesumma välisvaatlejate eest.
+
+wrong_answers:
+  - See krüpteerib tegeliku maksesumma välisvaatlejate jaoks.
+  - See peidab tegeliku maksesumma saaja eest.
+  - See krüpteerib tegeliku maksesumma saaja jaoks.
+
+explanation: |
+  Payjoin tehing kuulub steganograafia valdkonda, kuna see peidab tegeliku tehingu summa võlts tehingu sisse, mis toimib välisvaatlejate jaoks petikuna.
+
+reviewed: false

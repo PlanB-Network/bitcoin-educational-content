@@ -1,9 +1,0 @@
-question: Mục đích của HTLC-out trong giao dịch cam kết của Alice là gì?
-answer: Nó đại diện cho HTLC mà Alice gửi cho người nhận, Susie.
-wrong_answers:
-  - Nó đại diện cho HTLC mà Alice nhận từ Bob.
-  - Nó đại diện cho HTLC mà Alice gửi cho Bob.
-  - Nó đại diện cho HTLC mà Alice nhận từ Susie.
-explanation: |
-  Trong tình huống được đưa ra, Alice gửi một HTLC cho Susie. Điều này được thể hiện
-  trong giao dịch cam kết của Alice dưới dạng HTLC-out.

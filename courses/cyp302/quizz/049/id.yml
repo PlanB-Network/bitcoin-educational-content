@@ -1,0 +1,8 @@
+question: Jenis kelompok apa yang sangat penting untuk kriptografi kunci publik karena kemampuannya untuk menghasilkan semua elemen melalui eksponensiasi?
+answer: Grup siklik
+wrong_answers:
+  - Grup non-abelian
+  - Grup tak hingga
+  - Grup bilangan kompleks
+explanation: |
+  Dalam kriptografi, grup siklik sangat penting karena memungkinkan untuk generasi semua elemen grup dengan menggunakan eksponensiasi dari satu elemen tunggal, yang disebut generator.

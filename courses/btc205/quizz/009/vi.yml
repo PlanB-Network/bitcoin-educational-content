@@ -1,9 +1,0 @@
-question: Đặc điểm chung của tất cả các giải pháp P2P được thảo luận trong chương là gì?
-answer: Tất cả đều hỗ trợ việc mua và bán Bitcoin.
-wrong_answers:
-  - Tất cả đều sử dụng Lightning Network.
-  - Tất cả đều yêu cầu một tài khoản để hoạt động.
-  - Tất cả đều có hệ thống DAO.
-explanation: |
-  Chương này thảo luận về các giải pháp P2P khác nhau để mua Bitcoin, nhưng không phải tất cả đều có những đặc điểm chung. Đặc điểm chung giữa tất cả chúng là chúng hỗ trợ việc mua và bán Bitcoin.
-reviewed: false

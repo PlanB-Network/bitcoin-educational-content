@@ -1,10 +1,9 @@
-question: Kuinka monta kierrosta PBKDF2 suorittaa käyttäen HMAC SHA512?
-answer: 2048 kierrosta
+question: Mikä on skalaarikertolaskun pääominaisuus elliptisillä käyrillä?
+answer: Yksisuuntainen funktio
 wrong_answers:
-  - 1024 kierrosta
-  - 512 kierrosta
-  - 4096 kierrosta
+  - Helposti peruutettavissa
+  - Perustuu alkulukujen tekijöihin jakamiseen
+  - Erittäin pitkä laskettava
 explanation: |
-  PBKDF2:tä käytetään muuntamaan mnemoninen lause siemeneksi. Tämä algoritmi
-  suorittaa 2048 kierrosta käyttäen HMAC SHA512.
+  Skalaarikertolasku elliptisillä käyrillä on yksisuuntainen funktio, mikä tekee yksityisen avaimen palauttamisen julkisesta avaimesta mahdottomaksi.
 reviewed: false

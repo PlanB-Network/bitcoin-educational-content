@@ -1,13 +1,14 @@
 question: What is the risk of overcomplicating the security and accessibility of your
   bitcoins?
-answer: You can harm yourself if you mishandle the backups wallets
+answer: You can harm yourself if you mishandle the backups wallets.
 wrong_answers:
-  - You can harm yourself if you mishandle the physical wallets
-  - You can harm yourself if you mishandle the digital wallets
-  - You can harm yourself if you mishandle the multisig wallets
+  - You can harm yourself if you mishandle the physical wallets.
+  - You can harm yourself if you mishandle the digital wallets.
+  - You can harm yourself if you mishandle the multisig wallets.
 explanation: |
-  Overcomplicating the security and accessibility of your bitcoins can
-  harm you if, for example, you mishandle the backups of your wallets. This is because
-  simple backup procedures are crucial for regaining access to your funds in case of loss of your
-  phone or computer.
+  Overcomplicating the security and accessibility of your
+  bitcoins can harm you if, for example, you mishandle the
+  backups of your wallets. This is because simple backup
+  procedures are crucial for regaining access to your funds
+  in case of loss of your phone or computer.
 reviewed: true

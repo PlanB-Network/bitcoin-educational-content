@@ -1,9 +1,11 @@
-question: ¿Cómo se podría utilizar la Lightning Network para alquilar bienes?
-answer: Los usuarios podrían ser cobrados por minuto, o incluso por segundo, por el tiempo que utilizan los bienes.
+question: ¿Cómo podría utilizarse potencialmente la Red Lightning para alquilar bienes?
+answer: Los usuarios podrían ser cobrados por minuto, o incluso por segundo, por el tiempo que utilicen los bienes.
 wrong_answers:
-  - Los usuarios podrían ser cobrados una tarifa fija por el alquiler de los bienes.
-  - Los usuarios podrían ser cobrados en función del valor de los bienes.
-  - Los usuarios podrían ser cobrados en función del estado de los bienes.
-explanation: |
-  Con la Lightning Network, es concebible utilizar este sistema para alquilar bienes. Los usuarios podrían ser cobrados por minuto, o incluso por segundo, por el tiempo que utilizan los bienes.
-reviewed: false
+  - Los usuarios podrían ser cobrados una tarifa alta por alquilar los bienes.
+  - Los usuarios podrían ser cobrados basándose en el valor de los bienes.
+  - Los usuarios podrían ser cobrados basándose en la condición de los bienes.
+explanation: >-
+  Con la Red Lightning, es concebible usar este sistema para
+  alquilar bienes. Los usuarios podrían ser cobrados por minuto, o incluso por segundo, por el tiempo
+  que utilicen los bienes.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Qual é o propósito da entropia na geração de uma frase mnemônica para uma carteira de Bitcoin?
-answer: A entropia é o pilar da segurança da carteira HD.
+question: O que a profundidade 0 representa na hierarquia das carteiras HD?
+answer: A chave mestre e o código de cadeia mestre
 wrong_answers:
-  - Ela determina o número de palavras na frase de recuperação.
-  - Ela criptografa a frase de recuperação para maior segurança.
-  - Ela verifica a precisão da frase de recuperação.
+  - A cadeia externa de endereços
+  - A conta padrão
+  - O tipo de moeda
 explanation: |
-  A entropia é o pilar da segurança da carteira HD. É crucial que essa entropia seja aleatória ou pseudo-aleatória para garantir a segurança da carteira.
+  A profundidade 0 corresponde à chave mestre e ao código de cadeia mestre, que são os pontos de partida para todas as derivações em uma carteira HD.
 reviewed: false

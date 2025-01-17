@@ -1,9 +1,11 @@
-question: Como a chave privada é frequentemente representada em uma carteira de Bitcoin?
-answer: Uma lista de 12 ou 24 palavras
+question: O que a chave privada é frequentemente representada em uma carteira Bitcoin?
+answer: Uma lista de 12 ou 24 palavras.
 wrong_answers:
-  - Uma lista de 12 ou 48 palavras
-  - Uma lista de 32 palavras
-  - Uma lista de 64 palavras
+  - Uma lista de 12 ou 48 palavras.
+  - Uma lista de 32 palavras.
+  - Uma lista de 64 palavras.
 explanation: |
-  Em uma carteira de Bitcoin, a chave privada é frequentemente representada por uma lista de 12 ou 24 palavras, também conhecida como "seed" ou "frase mnemônica".
-reviewed: false
+  Em uma carteira Bitcoin, a chave privada é frequentemente representada
+  por uma lista de 12 ou 24 palavras, também conhecida como frase-semente
+  ou frase mnemônica. 
+reviewed: true

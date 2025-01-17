@@ -1,0 +1,12 @@
+question: Hvorfor ble gull standard byttemiddel?
+answer: På grunn av dets sjeldenhet, holdbarhet og delelighet
+wrong_answers:
+  - På grunn av dets overflod, holdbarhet og udelelighet
+  - På grunn av dets sjeldenhet, forgjengelighet og delelighet
+  - På grunn av dets overflod, forgjengelighet og udelelighet
+explanation: |
+  Gull ble standard byttemiddel på grunn av dets sjeldenhet, holdbarhet,
+  og delelighet. Dets sjeldenhet forhindrer devaluering fra produksjon, dets holdbarhet sikret at det ikke
+  eroderte over tid, og dets delelighet tillot det å bli brukt i transaksjoner av varierende
+  størrelser.
+reviewed: true

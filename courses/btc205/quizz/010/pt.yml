@@ -1,9 +1,0 @@
-question: Qual solução P2P discutida no capítulo utiliza um sistema DAO e multisign para gerenciamento de disputas?
-answer: Bisq
-wrong_answers:
-  - RoboSat
-  - LNP2PBot
-  - Peach
-explanation: |
-  De acordo com o capítulo, Bisq é uma solução P2P não custodial que possui um sistema DAO (Organização Autônoma Descentralizada) e utiliza multisign para gerenciamento de disputas.
-reviewed: false

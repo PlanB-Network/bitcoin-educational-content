@@ -1,0 +1,9 @@
+question: Mis on üks eelis, mida pakub vahetusplatvorm bitcoine ostes ja müües?
+answer: See võimaldab regulaarseid tehinguid vastavalt kasutaja vajadustele.
+wrong_answers:
+  - See võimaldab anonüümseid tehinguid.
+  - See suurendab Bitcoini väärtust.
+  - See pakub platvormi Bitcoini kaevandamiseks.
+explanation: |
+  Vahetusplatvormid võimaldavad kasutajatel osta ja müüa bitcoine regulaarselt ja
+  mugavalt, vastavalt nende vajadustele.

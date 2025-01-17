@@ -1,9 +1,11 @@
 question: Was ist die HashRate?
-answer: Die Gesamtanzahl der Versuche, die richtige Zahl im Proof of Work zu finden.
+answer: Die Anzahl der Hash-Berechnungen, die ein Mining-Gerät pro Sekunde durchführen kann, um den Proof of Work zu lösen.
 wrong_answers:
-  - Die Geschwindigkeit, mit der ein Miner den Proof of Work lösen kann.
-  - Die Gesamtanzahl der Miner im Bitcoin-Netzwerk.
-  - Die Gesamtmenge an geminten Bitcoins.
-explanation: |
-  Die HashRate bezieht sich auf die Gesamtanzahl der Versuche, die Miner pro Sekunde unternehmen, um den Proof of Work zu lösen. Sie ist ein Maß für die Rechenleistung des Bitcoin-Netzwerks.
-reviewed: false
+  - Die Geschwindigkeit, mit der ein Mining-Gerät den Proof of Work lösen kann.
+  - Die Gesamtzahl der Miner im Bitcoin-Netzwerk.
+  - Die Gesamtmenge an Bitcoins, die durch eine bestimmte Anzahl von Versuchen pro Sekunde abgebaut wird, um den Proof of Work zu lösen.
+explanation: >-
+  Die HashRate bezieht sich auf die Gesamtzahl der Versuche, die Miner
+  pro Sekunde unternehmen, um den Proof of Work zu lösen. Sie ist ein Maß für die Rechenleistung
+  des Bitcoin-Netzwerks.
+reviewed: true

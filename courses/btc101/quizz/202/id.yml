@@ -1,0 +1,10 @@
+question: Apa salah satu cara untuk mendapatkan Bitcoin tanpa KYC?
+answer: ATM Bitcoin.
+wrong_answers:
+  - Platform broker.
+  - Platform DCA.
+  - Transfer bank.
+explanation: >-
+  Teks tersebut menyebutkan bahwa ada beberapa cara untuk mendapatkan Bitcoin tanpa
+  KYC, salah satunya adalah ATM Bitcoin.
+reviewed: false

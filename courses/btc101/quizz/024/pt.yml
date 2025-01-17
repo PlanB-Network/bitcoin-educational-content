@@ -5,5 +5,9 @@ wrong_answers:
   - Seu valor é constantemente apreciado pela inflação monetária.
   - Elas não são divisíveis.
 explanation: |
-  A principal desvantagem das moedas fiduciárias, como o dólar e o euro, é que seu valor é constantemente erodido pela inflação monetária. Isso ocorre devido às entidades que as controlam (rei, banco central, imperador, ditador) constantemente desvalorizando-as.
-reviewed: false
+  A principal desvantagem das moedas fiduciárias, como o
+  dólar e o euro, é que seu valor é constantemente
+  erodido pela inflação monetária. Isso se deve à
+  desvalorização causada pelas entidades que as controlam (rei,
+  banco central, imperador, ditador).
+reviewed: true

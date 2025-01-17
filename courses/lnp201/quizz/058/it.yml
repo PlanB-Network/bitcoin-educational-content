@@ -1,9 +1,0 @@
-question: Cosa succede all'HTLC se Bob non recupera mai il segreto?
-answer: L'HTLC scadrà dopo un certo numero di blocchi.
-wrong_answers:
-  - L'HTLC verrà immediatamente annullato.
-  - L'HTLC verrà trasferito ad Alice.
-  - L'HTLC verrà trasferito a Susie.
-explanation: |
-  Se Bob non recupera mai il segreto, l'HTLC scadrà dopo un certo numero di blocchi. Questo è un meccanismo integrato per garantire che il contratto non rimanga in sospeso indefinitamente.
-reviewed: false

@@ -14,10 +14,10 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 ![event](assets/01.webp)
 - まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet)に移動します：
+- `resources/bet/`セクションの[PlanB専用のGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet)に移動します：
 ![event](assets/02.webp)
 - 右上の`Add file`ボタンをクリックし、次に`Create new file`をクリックします：
 ![event](assets/03.webp)
@@ -50,7 +50,7 @@ contributors:
 ```yaml
 builder: 組織の識別子をPlanB Network上で指定します。もしまだ会社用の「builder」識別子を持っていない場合は、このチュートリアルに従って作成することができます。
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 もし持っていない場合は、builderプロファイルを作成せずに、あなたの名前、偽名、または会社の名前をそのまま使用できます。
 type: コンテンツの性質を以下の二つのオプションから選択してください：
@@ -75,7 +75,7 @@ contributors: もし貢献者識別子を持っている場合は、それを記
 例えば、あなたのYAMLファイルは以下のようになるかもしれません：
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -161,7 +161,7 @@ GitHubにコンテンツを追加したくない場合、または以前の手�
 - ファイルの中間URLを取得します。例えば、私の場合、URLは以下の通りです：
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - URLの`/resources`以降の部分のみを保持します：
@@ -173,7 +173,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - 正しいリンクを得るために、以下の情報をURLのベースに追加します：
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 ここで行っていることは、提案がPlanB Networkのソースリポジトリにマージされた後のファイルへの将来のリンクを予測しています。

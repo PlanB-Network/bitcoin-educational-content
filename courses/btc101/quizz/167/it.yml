@@ -1,9 +1,9 @@
-question: Qual è la principale critica del sistema finanziario attuale in relazione all'ambiente?
-answer: Incentiva l'eccessivo consumo e il debito
+question: Qual è il problema principale del sistema finanziario attuale in relazione all'ambiente?
+answer: Incoraggia il sovraconsumo e il debito.
 wrong_answers:
-  - Promuove l'uso di combustibili fossili
-  - Non investe nelle energie rinnovabili
-  - Non regolamenta la produzione di beni
+  - Promuove l'uso di combustibili fossili.
+  - Non investe nelle energie rinnovabili.
+  - Non regola la produzione di beni.
 explanation: |
-  Il sistema finanziario attuale viene criticato per favorire l'eccessivo consumo e il debito, il che comporta gravi problemi ambientali. Ciò è dovuto all'accesso facile al credito, all'emissione monetaria da parte delle banche e all'uso del sistema bancario a riserva frazionaria.
-reviewed: false
+  Il sistema finanziario attuale è criticato per incoraggiare il sovraconsumo e il debito, il che pone seri problemi ambientali. Questo è dovuto all'accesso facile al credito, all'emissione monetaria da parte delle banche e all'uso del sistema di riserva frazionaria.
+reviewed: true

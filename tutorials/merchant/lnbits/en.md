@@ -52,7 +52,7 @@ Before you install LNbits make sure to have read and understood the following ge
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips)  Nostr Spec
 - [Run a watchtower](https://docs.lightning.engineering/lightning-network-tools/lnd/watchtower) | Very important!
 
-<details><summary>More detailed guides using LNbits in specific use case scenarios here (click to expand)</summary>
+More detailed guides using LNbits in specific use case scenarios here:
   
 - [Getting Started with LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Substack guide
 - [ToDos for your safety with LNbits](https://youtu.be/i5FQf96e6zg) | Youtube Video
@@ -63,7 +63,6 @@ Before you install LNbits make sure to have read and understood the following ge
 - [Start your NOSTR Market with LNbits](https://darthcoin.substack.com/p/lnbits-nostr-market) | Substack guide
 - [Using LNbits for schools projects or festival events](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools)  Substack guide
 
-</details>
 
 # Install LNbits
 
@@ -100,7 +99,7 @@ You will find the .env file within your lnbits/ or lnbits/apps/data folder by ex
 
 You might also need to install additional packages or perform additional setup steps, selecting the desired funding source. After a restart your new setup will be active.
 
-<details><summary>Which funding sources can I use for LNbits? (click to expand)</summary>
+Which funding sources can I use for LNbits?
 
 LNbits can run on top of many lightning-network funding sources. Currently there is support for CoreLightning, LND, LNbits, LNPay, OpenNode, with more being added regularly.
 It is important to choose a source that has a good liquidity and good peers connected. If you use LNbits for public services your users payments can only then flow happily in both directions.
@@ -108,106 +107,70 @@ It is important to choose a source that has a good liquidity and good peers conn
 A backend wallet (funding source) can be configured using the following LNbits environment variables in the `.env` file or within your superuser account under Manage-Server section. 
 If you would like to use the .env version you can find the parameters here:
 
-<ul>
-<details><summary>CoreLightning</summary>
-CLN
 
-- `LNBITS_BACKEND_WALLET_CLASS`: **CoreLightningWallet**
-- `CORELIGHTNING_RPC`: /file/path/lightning-rpc
-
-Spark (c-lightning)
-
-- `LNBITS_BACKEND_WALLET_CLASS`: **SparkWallet**
-- `SPARK_URL`: http://10.147.17.230:9737/rpc
-- `SPARK_TOKEN`: secret_access_key
-
-</details>
-
-<details><summary>Lightning Network Daemon</summary>
-
-LND (REST)
-
-- `LNBITS_BACKEND_WALLET_CLASS`: **LndRestWallet**
-- `LND_REST_ENDPOINT`: http://10.147.17.230:8080/
-- `LND_REST_CERT`: /file/path/tls.cert
-- `LND_REST_MACAROON`: /file/path/admin.macaroon or Bech64/Hex
-
-or
-
-- `LND_REST_MACAROON_ENCRYPTED`: eNcRyPtEdMaCaRoOn
-
-LND (gRPC)
-
-- `LNBITS_BACKEND_WALLET_CLASS`: **LndWallet**
-- `LND_GRPC_ENDPOINT`: ip_address
-- `LND_GRPC_PORT`: port
-- `LND_GRPC_CERT`: /file/path/tls.cert
-- `LND_GRPC_MACAROON`: /file/path/admin.macaroon or Bech64/Hex
-
+### CoreLightning
+- CLN
+  - `LNBITS_BACKEND_WALLET_CLASS`: **CoreLightningWallet**
+  - `CORELIGHTNING_RPC`: /file/path/lightning-rpc
+- Spark (c-lightning)
+  - `LNBITS_BACKEND_WALLET_CLASS`: **SparkWallet**
+  - `SPARK_URL`: http://10.147.17.230:9737/rpc
+   - `SPARK_TOKEN`: secret_access_key
+### Lightning Network Daemon
+- LND (REST)
+  - `LNBITS_BACKEND_WALLET_CLASS`: **LndRestWallet**
+  - `LND_REST_ENDPOINT`: http://10.147.17.230:8080/
+  - `LND_REST_CERT`: /file/path/tls.cert
+  - `LND_REST_MACAROON`: /file/path/admin.macaroon or Bech64/Hex
+  - `LND_REST_MACAROON_ENCRYPTED`: eNcRyPtEdMaCaRoOn
+- LND (gRPC)
+  - `LNBITS_BACKEND_WALLET_CLASS`: **LndWallet**
+  - `LND_GRPC_ENDPOINT`: ip_address
+  - `LND_GRPC_PORT`: port
+  - `LND_GRPC_CERT`: /file/path/tls.cert
+  - `LND_GRPC_MACAROON`: /file/path/admin.macaroon or Bech64/Hex
 You can also use an AES-encrypted macaroon (more info) instead by using
-
-- `LND_GRPC_MACAROON_ENCRYPTED`: eNcRyPtEdMaCaRoOn
-
+  - `LND_GRPC_MACAROON_ENCRYPTED`: eNcRyPtEdMaCaRoOn
 To encrypt your macaroon, run `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`.
 
-</details>
+### LNbits (another LNbits instance)
 
-<details><summary>LNbits (another LNbits instance)</summary>
-
-LNbits instance hosted on a cloud server or your own home server
-- `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-- `LNBITS_ENDPOINT`: https://lnbits.mydomain.com
-- `LNBITS_KEY`: my-lnbits-AdminKey
-
-LNbits Legend Demo Server (!! Do NOT use this one for production / commercial purposes, only for testing !!)
-- `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
-- `LNBITS_ENDPOINT`: https://legend.lnbits.com
-- `LNBITS_KEY`: legend-lnbits-AdminKey
-
-</details>
-
-<details><summary>Lightning TipBot</summary>
+- LNbits instance hosted on a cloud server or your own home server
+  - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
+  - `LNBITS_ENDPOINT`: https://lnbits.mydomain.com
+  - `LNBITS_KEY`: my-lnbits-AdminKey
+- LNbits Legend Demo Server (!! Do NOT use this one for production / commercial purposes, only for testing !!)
+  - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
+  - `LNBITS_ENDPOINT`: https://legend.lnbits.com
+  - `LNBITS_KEY`: legend-lnbits-AdminKey
+### Lightning TipBot
 
 To connect your [Lightning Tipbot](https://t.me/LightningTipBot) from Telegram you will need to set the following parameter:
-
-- `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
-- `LNBITS_ENDPOINT`: https://ln.tips
-- `LNBITS_KEY`: To get the Key you will need to run /api in a private chat with the LightningTipbot on Telegram once.
+  - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
+  - `LNBITS_ENDPOINT`: https://ln.tips
+  - `LNBITS_KEY`: To get the Key you will need to run /api in a private chat with the LightningTipbot on Telegram once.
 
 Also see this tutorial how to install [LNbits with LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
-</details>
-
-<details><summary>IBEX HUB</summary>
+### IBEX HUB
 
 Register [here](https://ibexpay.ibexmercado.com/onboard) then get your keys/tokens from there, endpoint is https://ibexpay-api.ibexmercado.com. 
 More info see [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
-</details>
-
-
-<details><summary>LNPay</summary>
-
+### LNPay
 For the invoice listener to work you have a publicly accessible URL in your LNbits and have to set up a [LNPay webhook](https://dashboard.lnpay.co/webhook/) pointing to `<your LNbits host>/wallet/webhook` with the "Wallet Receive" event and no secret given. The setting  `https://mylnbits/wallet/webhook` will be the endpoint url that gets notified about any payment.
+  - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
+  - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
+  - `LNPAY_API_KEY`: sak_apiKey
+  - `LNPAY_WALLET_KEY`: waka_apiKey
 
-- `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
-- `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
-- `LNPAY_API_KEY`: sak_apiKey
-- `LNPAY_WALLET_KEY`: waka_apiKey
-
-</details>
-
-<details><summary>OpenNode</summary>
-
+### OpenNode
 For the invoice to work, you need to have a publicly accessible URL in your LNbits. The webhook setting is optional.
+  - `LNBITS_BACKEND_WALLET_CLASS`: **OpenNodeWallet**
+  - `OPENNODE_API_ENDPOINT`: https://api.opennode.com/
+  - `OPENNODE_KEY`: opennodeAdminApiKey
 
-- `LNBITS_BACKEND_WALLET_CLASS`: **OpenNodeWallet**
-- `OPENNODE_API_ENDPOINT`: https://api.opennode.com/
-- `OPENNODE_KEY`: opennodeAdminApiKey
-
-</details>
-
-<details><summary>Alby</summary>
+### Alby
 
 Alby is a browser extension with LN wallet functionalities and LNDHUB account that can be used as funding source for LNbits. [More details here](https://getalby.com/).
 
@@ -217,15 +180,11 @@ For the invoice to work you must have a publicly accessible URL in your LNbits. 
 - `ALBY_API_ENDPOINT`: https://api.getalby.com/
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
-</details>
-</ul>
-</details>
-
 ## Additional / Troubleshooting Guides
 
 Here are some additional instructions in case your would need them. Click on the arrow to expand the description.
 
-<details><summary>The Killswitch 🚨</summary>
+### The Killswitch 🚨
 
 There have been so many dangerous bugs lately not only in the whole space but also in LNbits that we decided to do something about it. You can now opt-in for warnings and/or to take direct action, when a vulnerability or a bug that could lead to the loss of funds occurs again.
 
@@ -235,9 +194,8 @@ If switched to void-wallet all usertypes on the instance will see a yellow banne
 
 How does it work ? When the killswitch is enabled, a secret github repository only available to the LNbits core team will be checked at an interval of X minutes (which can be specified). If a vulnerable bug is published in this repository, it serves as a signal that triggers the killswitch on all installations that subscribed and transitions your lnbits instance to use the void wallet. If the clouds have cleared and you have installed the security update you can set your funding source to your node, wallet or whatever you are using again also via the Manage Server section. This wiki has a section about switching funding sources if you do not know what to configure.
 
-</details>
 
-<details><summary>Difference between admin and superuser</summary>
+### Difference between admin and superuser
 
 The LNbits Admin UI lets you change LNbits settings via the LNbits frontend. It is disabled by default and the first time you set the enviroment variable `LNBITS_ADMIN_UI=true` in the `.env` file, the settings are initialized and will be used. From there on the according settings from the database instead those of the .env file are used.
 
@@ -259,9 +217,9 @@ Enviroment variable: `LNBITS_ADMIN_USERS`, comma-seperated list of user IDs. Adm
 
 Enviroment variable: `LNBITS_ALLOWED_USERS`, comma-seperated list of user IDs. By defining these users LNbits will no longer be useable by the public. Only defined users and admins can then access the LNbits frontend.
 
-</details>
 
-<details><summary>Update LNbits</summary>
+
+#### Update LNbits
 A normal updating of your LNbits local instance is simply by copy paste the following CLI commands:
 
 ```
@@ -290,9 +248,7 @@ git pull upstream main
 sudo ~/scripts/app start lnbits
 ```
 
-</details>
-
-<details><summary>SQLite to PostgreSQL migration</summary>
+#### SQLite to PostgreSQL migration
 
 If you already have LNbits installed and running on an SQLite database we highly recommend to migrate to postgres if you are planning to run LNbits on scale.
 
@@ -313,13 +269,14 @@ poetry run python tools/conv.py
 make migration
 ```
 Hopefully now everything works and gets migrated... Launch LNbits again and check if everything is working properly.
-</details>
 
-<details><summary>Backup and restore of the database</summary>
+
+#### Backup and restore of the database
+
 Please refer to [this very detailed guide about the backup & restore process](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
-</details>
 
-<details><summary>Funding my LNbits wallet from my node doesn't work</summary>
+
+#### Funding my LNbits wallet from my node doesn't work
 
 If you want to send sats from the same node that is the funding source of your LNbits, you will need to edit the lnd.conf file. 
 
@@ -329,9 +286,8 @@ Please do so in the section Application options of your lnd.conf. On some bundle
 
 NOTE: It is recommended to instead use the new adminUI extension with the "TopUp" option to add funds to a LNbits account.
 
-</details>
-
-<details><summary>I got the error: "lnurl needs to be delivered over publically accessible https domain or tor. 426 upgrade required"</summary>
+#### Error 426
+I got the error: "lnurl needs to be delivered over publically accessible https domain or tor. 426 upgrade required"</summary>
   
 This error usually is because your LNbits behind a ngnix tunnel is not forwarding the LNURL address correct. Stop your LNbits and edit the .env file adding this line:
 `FORWARDED_ALLOW_IPS=*`
@@ -342,9 +298,9 @@ Also if you use a ngnix setup, be sure you have these headers in the ngnix confi
 RequestHeader set "X-Forwarded-Proto" expr=%{REQUEST_SCHEME}
 RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
-</details>
 
-<details><summary>I got "https error", network error" or others when scanning a QR</summary>
+#### Network Error
+I got "https error", network error" or others when scanning a QR</summary>
   
 Bad news, this is a routing error that might have quite a lot of reasons. First check the QR´s LNURL with the [Lightning Decoder](https://lightningdecoder.com/) if you can find something weird in there. Let´s try a few of the most possible problems and their solutions.
 
@@ -353,25 +309,24 @@ LNbits is running via Tor only, you can't open it on a public domain like lnbits
 - Given that you want your setup to stay like this open your LNbits wallet using the .onion URI and create it again. In this way the QR is generated to be accessible via this .onion URI so via tor only. Do not generate that QR from a .local URI, because it will not be reachable via internet - only from within your home-LAN.
 - Open your LN wallet app that you used to scan that QR and this time by using tor (see wallet app settings). If the app doesn't offer tor, you can use Orbot (Android) instead. See installation section for detailed instructions on how to open your LNbits for clearnet/https.
 
-</details>
 
-<details><summary>Prevent others from generating wallets on my LNbits</summary>
+#### Prevent others from generating wallets on my LNbits
   
 When you run your LNbits in clearnet basically everyone can generate a wallet on it. Since the funds of your node are bound to these wallets you might want to prevent that. There are two ways to do so:
 
 Configure allowed users and extensions in the `.env` file ([see the env example here](https://github.com/lnbits/lnbits/blob/main/.env.example)). This only works if you use the setting `adminUI=FALSE` in the .env, otherwise you need to do that in the Manage Server section -> Users -> Allowed Users. Everyone else will not be allowed afterwards.
 
-</details>
 
-<details><summary>Customize the invoice expiry timeframe</summary>
+
+#### Customize the invoice expiry timeframe
 
 Now you can generate invoices with a custom expiry. Compatible with backends: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet so far!
 
 You can set `LIGHTNING_INVOICE_EXPIRY` in your .env file or use the AdminUI to change the default value for all invoices. There is also a new field in the /api/v1/payments endpoint where you can set expiry in the JSON data.
 
-</details>
 
-<details><summary>Wallet-URL deleted</summary>
+
+## Wallet-URL deleted
 
 ### Wallet on demo server legend.lnbits
 
@@ -404,31 +359,26 @@ Whereby you replace f8a43fc363ea428db5c53b3559935f1f with the value that comes b
 ```
 .quit
 ```
-</details>
-
-<details><summary>LNURL for a lightning-address vice versa</summary>
+#### LNURL for a lightning-address vice versa
 
 Try this [encoder](https://lnurl-codec.netlify.app/) from fiatjaf or [this one](https://lightningdecoder.com/). For to pay or check an LNURLp you can as well use [LNurlpay](https://wwww.lnurlpay.com/). It should state HTTPS NOT HTTP.
 
-</details>
 
-<details><summary>Configure a comment that people see when paying to my LNURLp QR</summary>
+#### Configure a comment that people see when paying to my LNURLp QR
 When you create a LNURL-p, by default the comment box is not filled. That means comments are not allowed to be attached to payments.
 
 In order to allow comments, add the characters lenght of the box, from 1 to 250. Once you put a number there, the comment box will be displayed in the payment process. You can also edit a LNURL-p already created and add that number.
 
 ![lnbits comments](assets/lnbits-comments.webp)
 
-</details>
-
-<details><summary>Deposit onchain BTC to LNbits</summary>
+#### Deposit onchain BTC to LNbits
 There are two ways to exchange sats from onchain BTC to LN BTC (resp. to LNbits).
 
-- A - Via an external swap service. 
+##### Via an external swap service. 
 
 Other users that dont have access to your LNb its can use a swap service like [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) or [ZigZag](https://zigzag.io/). This is useful if you provide only LNURL/LN invoices from your LNbits instance, but a payer only has onchain sats so they will have to swap those sats first on their side. The procedure is simple: user sends onchain btc to the swap service and provides the LNURL / LN invoice from LNbits as destination of the swap.
 
-- B - Using the Onchain and Boltz LNbits extension. 
+##### Using the Onchain and Boltz LNbits extension. 
 
 Keep in mind that this is a separate wallet, not the LN btc one that is represented by LNbits as "your wallet" upon your LN funding source. This onchain wallet can be used also to swap LN btc to (e.g. your hardwarewallet) by using the LNbits Boltz or Deezy extension. If you run a webshop that is linked to your LNbits for LN payments, it is very handy to regularily drain all the sats from LN into onchain. This leads to more space in your LN channels to be able to receive new fresh sats.
 
@@ -441,9 +391,6 @@ Procedure for those without a bitcoin hardware wallet:
 - Optional - Go to LNbits - SatsPay extension and create a new charge for onchain btc. You can choose between onchain and LN or both. It will then create an invoice that can be shared.
 - Optional - If you use your LNbits linked to a Wordpress + Woocommerce page, once you create/link a watch-only wallet to your LN btc shop wallet, the customer will have both options to pay on the same screen.
 
-</details>
-
-<details><summary>Payment details</summary>
 When you receive a payment in LNbits, the transaction log will display only a resumed type of the transaction.
 
 ![lnbits payment details](assets/lnbits-payment-details.webp)
@@ -452,33 +399,20 @@ In your transaction overview you will find a little green arrow for received and
 
 If you click on those arrows, a details popup shows attached messages as well as the sender´s name if given.
 
-</details>
-
-<details><summary>Configure a name to appear within payments</summary>
-
-In LNbits this is currently not possible to do - but to receive. This is only possible if the sender's LN wallet supports [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md) (nameDesc) like [OBW, Blixt, Alby, ZBD, BitBanana](https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents).
+To Configure a name to appear within payments, in LNbits this is currently not possible to do - but to receive. This is only possible if the sender's LN wallet supports [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md) (nameDesc) like [OBW, Blixt, Alby, ZBD, BitBanana](https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents).
 
 You will then see an alias/pseudonym in the details section of your LNbits transactions (click the arrows). Note that you can give any name there and it might not be related to the real sender´s name if your receive such.
 
 ![lnbits namedesc](assets/lnbits-namedesc.webp)
 
-</details>
-
-<details><summary>Import your LNbits account in a wallet app</summary>
-
-Open your LNbits with the account / wallet you want to use, go to "manage extensions" and activate the LNDHUB extension. Open the LNDHUB extension, choose the wallet you want to use and scan either the "admin" or "invoice only" QR, depending on the security level you want for that wallet.
+To import your LNbits account in a wallet app, open your LNbits with the account / wallet you want to use, go to "manage extensions" and activate the LNDHUB extension. Open the LNDHUB extension, choose the wallet you want to use and scan either the "admin" or "invoice only" QR, depending on the security level you want for that wallet.
 
 You can use [Zeus](https://zeusln.app/) or [Bluewallet](https://bluewallet.io/) as wallet apps for a lndhub account whereby BW supports more than one such wallet.
 
 When doing this we recommend to as well set the LN network URI to the one of your own node. If your LNbits instance is Tor only, you also have to use theose apps with Tor activated. Also in this case you need to open the LNbits page through your Tor .onion address.
 
-</details>
-
-<details><summary>Error "unsupported hash type" when using a ypub in On-chain extension</summary>
-
-If your LNbits instance is using python 3.10 it could be affected by [this issue](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Edit the openssl.cnf like described in the stackoverflow answer and restart your LNbits.
+If you have an Error "unsupported hash type" when using a ypub in On-chain extension, check if your LNbits instance is using python 3.10 it could be affected by [this issue](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Edit the openssl.cnf like described in the stackoverflow answer and restart your LNbits.
   
-</details>
 
 ## Tooling & Building with LNbits
 
@@ -505,10 +439,22 @@ Come to the [Makerbits Telegram Group](https://t.me/makerbits) if you need help 
 
 Here are some projects categories you can build with LNbits:
 
-| [Nostr Signing Device](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#nostr-signing-device) | [Archade Machine](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#arcade-machine) | [Gerty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#gerty) | [Nostr Zap Lamp](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#zap-lamp) | [BTC/LN ATM](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#atm) | [LNPoS](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lnpos-terminal) | [Lightning Piggy](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy) | [Hardware Wallet](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#hardware-wallet) | [Bitcoin Switch](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-switch) | [Vending machine](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine) | [Bolty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bolty) | [Nerdminer](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Nerdminer) | [Bitcoin Ticker](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-ticker) | [BTClock](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#btclock) | [Lora and Mesh Networking](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lora) |
+- [Nostr Signing Device](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#nostr-signing-device)
+- [Archade Machine](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#arcade-machine)
+- [Gerty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#gerty)
+- [Nostr Zap Lamp](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#zap-lamp)
+- [BTC/LN ATM](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#atm)
+- [LNPoS](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lnpos-terminal)
+- [Lightning Piggy](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
+- [Hardware Wallet](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#hardware-wallet)
+- [Bitcoin Switch](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-switch)
+- [Vending machine](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine)
+- [Bolty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bolty)
+- [Nerdminer](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Nerdminer)
+- [Bitcoin Ticker](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-ticker)
+- [BTClock](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#btclock)
+- [Lora and Mesh Networking](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lora) 
 
-| [HELPERS & RESOURCES](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#resources) |
-
-[More examples of projects "Powered by LNbits" here](https://github.com/lnbits/lnbits/wiki/Powered-by-LNbits).
-
-[Use cases for LNbits](https://github.com/lnbits/lnbits/wiki/Use-Cases-of-LNbits)
+- [HELPERS & RESOURCES](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#resources)
+- [More examples of projects "Powered by LNbits" here](https://github.com/lnbits/lnbits/wiki/Powered-by-LNbits).
+- [Use cases for LNbits](https://github.com/lnbits/lnbits/wiki/Use-Cases-of-LNbits)

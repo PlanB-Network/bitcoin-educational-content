@@ -135,7 +135,7 @@ Simplemente ingrese su dirección NIP-05 legible por Nostr o NPUB, y Zeus consul
 
 Aquí hay un video corto cómo configurar y usar sus contactos Zeus:
 
-![Zeus](assets/zeus-contacts.mp4)
+![Zeus](https://peertube.planb.network/w/aYvG1sq71s6ZyPPR4MtM57)
 
 **D - Respaldo de la billetera**
 
